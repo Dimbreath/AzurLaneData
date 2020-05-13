@@ -51,5 +51,3 @@ pg.benefit_buff_template = {
 		4
 	}
 }
-
-return

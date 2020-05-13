@@ -11,19 +11,19 @@ slot0.EXCHANGE_ITEM_STATE_UPDATED = "BuildShipProxy EXCHANGE_ITEM_STATE_UPDATED"
 
 function slot0.register(slot0)
 	slot0:on(12024, function (slot0)
-		slot0.data = {}
-		slot0.workCount = slot0.worklist_count
-		slot0.drawCount1 = slot0.draw_count_1
-		slot0.drawCount10 = slot0.draw_count_10
+		uv0.data = {}
+		uv0.workCount = slot0.worklist_count
+		uv0.drawCount1 = slot0.draw_count_1
+		uv0.drawCount10 = slot0.draw_count_10
 
 		for slot4, slot5 in ipairs(slot0.worklist_list) do
 			slot6 = BuildShip.New(slot5)
 
 			slot6:setId(slot4)
-			table.insert(slot0.data, slot6)
+			table.insert(uv0.data, slot6)
 		end
 
-		slot0:setBuildShipState()
+		uv0:setBuildShipState()
 	end)
 end
 
@@ -32,7 +32,7 @@ function slot0.updateExchangeList(slot0, slot1, slot2, slot3)
 	slot0.exchangeFlashTime = slot2
 	slot0.exchangeList = slot3
 
-	slot0:sendNotification(slot0.EXCHANGE_LIST_UPDATED, {
+	slot0:sendNotification(uv0.EXCHANGE_LIST_UPDATED, {
 		exchangeList = Clone(slot0.exchangeList),
 		flashTime = slot2,
 		flagShipFlashTime = slot1
@@ -43,7 +43,7 @@ function slot0.updateExchangeItemList(slot0, slot1, slot2)
 	slot0.nextRefreshItemTime = slot1
 	slot0.exchangeItemList = slot2
 
-	slot0:sendNotification(slot0.EXCHANGE_ITEM_LIST_UPDATED, {
+	slot0:sendNotification(uv0.EXCHANGE_ITEM_LIST_UPDATED, {
 		flashTime = slot0.nextRefreshItemTime,
 		exchangeItemList = slot2
 	})
@@ -59,11 +59,11 @@ function slot0.addExChangeItemTimer(slot0)
 
 	if slot0.nextRefreshItemTime - pg.TimeMgr.GetInstance():GetServerTime() + 1 > 0 then
 		slot0.exchangeItemTimer = Timer.New(function ()
-			slot0.exchangeItemTimer:Stop()
+			uv0.exchangeItemTimer:Stop()
 
-			slot0.exchangeItemTimer.Stop.exchangeItemTimer = nil
+			uv0.exchangeItemTimer = nil
 
-			slot0.exchangeItemTimer.Stop:sendNotification(GAME.GET_EXCHANGE_ITEMS, {
+			uv0:sendNotification(GAME.GET_EXCHANGE_ITEMS, {
 				type = 1
 			})
 		end, slot1, 1)
@@ -90,7 +90,7 @@ function slot0.updateExchangeItem(slot0, slot1)
 	if slot0.exchangeItemList then
 		slot0.exchangeItemList[slot1].isFetched = true
 
-		slot0:sendNotification(slot0.EXCHANGE_ITEM_STATE_UPDATED, slot1)
+		slot0:sendNotification(uv0.EXCHANGE_ITEM_STATE_UPDATED, slot1)
 	end
 end
 
@@ -113,7 +113,7 @@ end
 function slot0.updateExchangeShip(slot0, slot1, slot2)
 	slot0.exchangeList[slot1] = slot2
 
-	slot0:sendNotification(slot0.EXCHANGE_SHIP_UPDATED, {
+	slot0:sendNotification(uv0.EXCHANGE_SHIP_UPDATED, {
 		index = slot1,
 		exchangeShip = Clone(slot2)
 	})
@@ -124,12 +124,9 @@ function slot0.setBuildShipState(slot0)
 
 	slot0.buildIndex = 0
 	slot0.buildTimers = {}
-	slot1 = 0
-	slot2 = ipairs
-	slot3 = slot0.data or {}
 
-	for slot5, slot6 in slot2(slot3) do
-		if slot1 == slot0:getMaxWorkCount() then
+	for slot5, slot6 in ipairs(slot0.data or {}) do
+		if 0 == slot0:getMaxWorkCount() then
 			break
 		end
 
@@ -140,7 +137,7 @@ function slot0.setBuildShipState(slot0)
 			slot0:addBuildTimer()
 		end
 
-		slot6.state = (slot6:isFinish() and BuildShip.FINISH) or BuildShip.ACTIVE
+		slot6.state = slot6:isFinish() and BuildShip.FINISH or BuildShip.ACTIVE
 	end
 end
 
@@ -171,23 +168,19 @@ function slot0.addBuildTimer(slot0)
 	end
 
 	function slot2()
-		slot0:activeNextBuild()
-		slot0.activeNextBuild.data[slot0]:finish()
-		slot0.activeNextBuild.data[slot0].finish.data[slot0.activeNextBuild.data[slot0]]:display("- build finish -")
-		slot0.activeNextBuild.data[slot0].finish.data[slot0.activeNextBuild.data[slot0]].display:updateBuildShip(slot0.activeNextBuild.data[slot0].finish.data[slot0.activeNextBuild.data[slot0]].display, slot0.data[slot0.activeNextBuild.data[slot0].finish.data[slot0.activeNextBuild.data[slot0]].display])
+		uv0:activeNextBuild()
+		uv0.data[uv1]:finish()
+		uv0.data[uv1]:display("- build finish -")
+		uv0:updateBuildShip(uv1, uv0.data[uv1])
 	end
 
 	if slot0.data[slot1].finishTime - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
 		slot0.buildTimers[slot1] = Timer.New(function ()
-			slot0.buildTimers[slot1]:Stop()
+			uv0.buildTimers[uv1]:Stop()
 
-			slot0.buildTimers[slot1].Stop.buildTimers[slot0.buildTimers[slot1]] = 
-			-- Decompilation error in this vicinity:
-			nil
+			uv0.buildTimers[uv1] = nil
 
-
-			-- Decompilation error in this vicinity:
-			nil()
+			uv2()
 		end, slot3, 1)
 
 		slot0.buildTimers[slot1]:Start()
@@ -205,10 +198,7 @@ function slot0.getBuildShipCount(slot0)
 end
 
 function slot0.removeBuildTimer(slot0)
-	slot1 = pairs
-	slot2 = slot0.buildTimers or {}
-
-	for slot4, slot5 in slot1(slot2) do
+	for slot4, slot5 in pairs(slot0.buildTimers or {}) do
 		slot5:Stop()
 	end
 
@@ -230,11 +220,9 @@ function slot0.getBuildShip(slot0, slot1)
 end
 
 function slot0.getFinishCount(slot0)
-	slot1 = 0
-
 	for slot5, slot6 in pairs(slot0.data) do
 		if slot6.state == BuildShip.FINISH then
-			slot1 = slot1 + 1
+			slot1 = 0 + 1
 		end
 	end
 
@@ -246,11 +234,9 @@ function slot0.getNeedFinishCount(slot0)
 end
 
 function slot0.getActiveCount(slot0)
-	slot1 = 0
-
 	for slot5, slot6 in pairs(slot0.data) do
 		if slot6.state == BuildShip.ACTIVE then
-			slot1 = slot1 + 1
+			slot1 = 0 + 1
 		end
 	end
 
@@ -266,19 +252,15 @@ function slot0.getFinishedIndex(slot0)
 end
 
 function slot0.canBuildShip(slot0, slot1)
-	slot2 = slot0:getActiveCount()
-
 	if getProxy(BagProxy):getItemById(pg.ship_data_create_material[slot1].use_item) and slot3.number_1 <= slot5.count then
-		return slot3.use_gold <= getProxy(PlayerProxy).getData(slot6).gold and slot2 == 0
+		return slot3.use_gold <= getProxy(PlayerProxy):getData().gold and slot0:getActiveCount() == 0
 	end
 end
 
 function slot0.getActiveOrFinishedCount(slot0)
-	slot1 = 0
-
 	for slot5, slot6 in pairs(slot0.data) do
 		if slot6.state == BuildShip.ACTIVE or slot6.state == BuildShip.FINISH then
-			slot1 = slot1 + 1
+			slot1 = 0 + 1
 		end
 	end
 
@@ -299,7 +281,7 @@ function slot0.increaseDrawCount(slot0, slot1)
 		slot0.drawCount10 = slot0.drawCount10 + 1
 	end
 
-	slot0.facade:sendNotification(slot0.DRAW_COUNT_UPDATE, slot0:getDrawCount())
+	slot0.facade:sendNotification(uv0.DRAW_COUNT_UPDATE, slot0:getDrawCount())
 end
 
 function slot0.addBuildShip(slot0, slot1)
@@ -315,7 +297,7 @@ function slot0.addBuildShip(slot0, slot1)
 		slot1:setState(BuildShip.INACTIVE)
 	end
 
-	slot0.facade:sendNotification(slot0.ADDED, slot1:clone())
+	slot0.facade:sendNotification(uv0.ADDED, slot1:clone())
 end
 
 function slot0.finishBuildShip(slot0, slot1)
@@ -327,7 +309,7 @@ end
 function slot0.updateBuildShip(slot0, slot1, slot2)
 	slot0.data[slot1] = slot2:clone()
 
-	slot0.facade:sendNotification(slot0.UPDATED, {
+	slot0.facade:sendNotification(uv0.UPDATED, {
 		index = slot1,
 		buildShip = slot2:clone()
 	})
@@ -337,7 +319,7 @@ function slot0.removeBuildShipByIndex(slot0, slot1)
 	slot0.lastPoolType = slot0.data[slot1].type
 
 	table.remove(slot0.data, slot1)
-	slot0.facade:sendNotification(slot0.REMOVED, {
+	slot0.facade:sendNotification(uv0.REMOVED, {
 		index = slot1,
 		buildShip = slot0.data[slot1]:clone()
 	})

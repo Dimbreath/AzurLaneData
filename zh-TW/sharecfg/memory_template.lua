@@ -4263,5 +4263,3 @@ pg.memory_template = {
 		10064
 	}
 }
-
-return

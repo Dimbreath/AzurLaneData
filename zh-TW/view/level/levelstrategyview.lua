@@ -37,10 +37,11 @@ end
 
 function slot0.set(slot0, slot1)
 	slot0.strategy = slot1
+	slot2 = pg.strategy_data_template[slot1.id]
 
-	GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[slot1.id].icon, "", slot0.icon)
+	GetImageSpriteFromAtlasAsync("strategyicon/" .. slot2.icon, "", slot0.icon)
 
-	if pg.strategy_data_template[slot1.id].type == 1 then
+	if slot2.type == 1 then
 		setText(slot0.count, "")
 		setActive(slot0.tips, true)
 		setActive(slot0.txSwitch, true)
@@ -55,18 +56,18 @@ function slot0.set(slot0, slot1)
 	setText(slot0.name, slot2.name)
 	setText(slot0.desc, slot2.desc)
 	onButton(slot0, slot0.btnBack, function ()
-		if slot0.onCancel then
-			slot0.onCancel()
+		if uv0.onCancel then
+			uv0.onCancel()
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.btnCancel, function ()
-		if slot0.onCancel then
-			slot0.onCancel()
+		if uv0.onCancel then
+			uv0.onCancel()
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.btnUse, function ()
-		if slot0.onConfirm then
-			slot0.onConfirm()
+		if uv0.onConfirm then
+			uv0.onConfirm()
 		end
 	end, SFX_CONFIRM)
 end

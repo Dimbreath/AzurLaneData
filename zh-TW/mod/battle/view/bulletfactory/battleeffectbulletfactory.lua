@@ -1,188 +1,51 @@
 ys = ys or {}
 slot0 = ys
-slot1 = slot0.Battle
-slot2 = singletonClass
-slot3 = "BattleEffectBulletFactory"
-slot4 = slot0.Battle
-slot4 = slot4.BattleBulletFactory
-slot2 = slot2(slot3, slot4)
-slot1.BattleEffectBulletFactory = slot2
-slot1 = slot0.Battle
-slot1 = slot1.BattleEffectBulletFactory
-slot2 = "BattleEffectBulletFactory"
-slot1.__name = slot2
-slot1 = slot0.Battle
-slot1 = slot1.BattleEffectBulletFactory
+slot0.Battle.BattleEffectBulletFactory = singletonClass("BattleEffectBulletFactory", slot0.Battle.BattleBulletFactory)
+slot0.Battle.BattleEffectBulletFactory.__name = "BattleEffectBulletFactory"
+slot1 = slot0.Battle.BattleEffectBulletFactory
 
-function slot2(slot0)
-	slot1 = slot0
-	slot1 = slot1.super
-	slot1 = slot1.Ctor
-	slot2 = slot0
-
-	slot1(slot2)
+function slot1.Ctor(slot0)
+	uv0.super.Ctor(slot0)
 end
 
-slot1.Ctor = slot2
-
-function slot2(slot0)
-	slot1 = slot0
-	slot1 = slot1.Battle
-	slot1 = slot1.BattleTorpedoBullet
-	slot1 = slot1.New
-
-	return slot1()
+function slot1.MakeBullet(slot0)
+	return uv0.Battle.BattleTorpedoBullet.New()
 end
 
-slot1.MakeBullet = slot2
+function slot1.onBulletHitFunc(slot0, slot1, slot2)
+	slot3 = uv0.GetDataProxy()
+	slot4 = slot0:GetBulletData()
 
-function slot2(slot0, slot1, slot2)
-	slot3 = slot0
-	slot3 = slot3.GetDataProxy
-	slot3 = slot3()
-	slot5 = slot0
-	slot4 = slot0.GetBulletData
-	slot4 = slot4(slot5)
-	slot6 = slot4
-	slot5 = slot4.GetTemplate
-	slot5 = slot5(slot6)
-	slot6 = slot1
-	slot6 = slot6.Battle
-	slot6 = slot6.PlayBattleSFX
-	slot7 = slot5.hit_sfx
+	uv1.Battle.PlayBattleSFX(slot4:GetTemplate().hit_sfx)
 
-	slot6(slot7)
-
-	slot7 = slot4
-	slot6 = slot4.IsFlare
-	slot6 = slot6(slot7)
-
-	if not slot6 then
-		slot7 = slot4
-		slot6 = slot4.spawnArea
-
-		slot6(slot7)
+	if not slot4:IsFlare() then
+		slot4:spawnArea()
 	end
 
-	slot6 = slot0
-	slot6 = slot6.GetFXPool
-	slot6 = slot6()
-	slot7 = slot6
-	slot6 = slot6.GetFX
-	slot9 = slot0
-	slot8 = slot0.GetFXID
-	slot6, slot7 = slot6(slot7, slot8(slot9))
-	slot9 = slot0
-	slot8 = slot0.GetTf
-	slot8 = slot8(slot9)
-	slot8 = slot8.localPosition
-	slot9 = pg
-	slot9 = slot9.EffectMgr
-	slot9 = slot9.GetInstance
-	slot9 = slot9()
-	slot10 = slot9
-	slot9 = slot9.PlayBattleEffect
-	slot11 = slot6
-	slot13 = slot7
-	slot12 = slot7.Add
-	slot14 = slot8
-	slot12 = slot12(slot13, slot14)
-	slot13 = true
+	slot6, slot7 = uv0.GetFXPool():GetFX(slot0:GetFXID())
 
-	slot9(slot10, slot11, slot12, slot13)
+	pg.EffectMgr.GetInstance():PlayBattleEffect(slot6, slot7:Add(slot0:GetTf().localPosition), true)
 
-	slot10 = slot4
-	slot9 = slot4.GetPierceCount
-	slot9 = slot9(slot10)
-	slot10 = 0
-
-	if slot9 <= slot10 then
-		slot10 = slot3
-		slot9 = slot3.RemoveBulletUnit
-		slot12 = slot4
-		slot11 = slot4.GetUniqueID
-
-		slot9(slot10, slot11(slot12))
+	if slot4:GetPierceCount() <= 0 then
+		slot3:RemoveBulletUnit(slot4:GetUniqueID())
 	end
 end
 
-slot1.onBulletHitFunc = slot2
-
-function slot2(slot0)
-	slot1 = slot0
-	slot1 = slot1.onBulletHitFunc
-	slot2 = slot0
-
-	slot1(slot2)
+function slot1.onBulletMissFunc(slot0)
+	uv0.onBulletHitFunc(slot0)
 end
 
-slot1.onBulletMissFunc = slot2
+function slot1.MakeModel(slot0, slot1, slot2)
+	slot4 = slot1:GetBulletData():GetTemplate()
+	slot5 = slot0:GetDataProxy()
 
-function slot2(slot0, slot1, slot2)
-	slot4 = slot1
-	slot3 = slot1.GetBulletData
-	slot3 = slot3(slot4)
-	slot5 = slot3
-	slot4 = slot3.GetTemplate
-	slot4 = slot4(slot5)
-	slot6 = slot0
-	slot5 = slot0.GetDataProxy
-	slot5 = slot5(slot6)
-	slot7 = slot0
-	slot6 = slot0.GetBulletPool
-	slot6 = slot6(slot7)
-	slot7 = slot6
-	slot6 = slot6.InstBullet
-	slot9 = slot1
-	slot8 = slot1.GetModleID
-	slot8 = slot8(slot9)
-
-	function slot9(slot0)
-		slot1 = slot0
-		slot2 = slot1
-		slot1 = slot1.AddModel
-		slot3 = slot0
-
-		slot1(slot2, slot3)
+	if not slot0:GetBulletPool():InstBullet(slot1:GetModleID(), function (slot0)
+		uv0:AddModel(slot0)
+	end) then
+		slot1:AddTempModel(slot0:GetTempGOPool():GetObject())
 	end
 
-	slot6 = slot6(slot7, slot8, slot9)
-
-	if not slot6 then
-		slot8 = slot1
-		slot7 = slot1.AddTempModel
-		slot10 = slot0
-		slot9 = slot0.GetTempGOPool
-		slot9 = slot9(slot10)
-		slot10 = slot9
-		slot9 = slot9.GetObject
-
-		slot7(slot8, slot9(slot10))
-	end
-
-	slot8 = slot1
-	slot7 = slot1.SetSpawn
-	slot9 = slot2
-
-	slot7(slot8, slot9)
-
-	slot8 = slot1
-	slot7 = slot1.SetFXFunc
-	slot9 = slot0.onBulletHitFunc
-	slot10 = slot0.onBulletMissFunc
-
-	slot7(slot8, slot9, slot10)
-
-	slot8 = slot0
-	slot7 = slot0.GetSceneMediator
-	slot7 = slot7(slot8)
-	slot8 = slot7
-	slot7 = slot7.AddBullet
-	slot9 = slot1
-
-	slot7(slot8, slot9)
+	slot1:SetSpawn(slot2)
+	slot1:SetFXFunc(slot0.onBulletHitFunc, slot0.onBulletMissFunc)
+	slot0:GetSceneMediator():AddBullet(slot1)
 end
-
-slot1.MakeModel = slot2
-
-return

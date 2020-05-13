@@ -926,5 +926,3 @@ pg.activity_shop_extra = {
 		5002
 	}
 }
-
-return

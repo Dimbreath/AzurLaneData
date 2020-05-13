@@ -64,15 +64,15 @@ function slot0.getAdditionDesc(slot0)
 		return i18n("guild_facility_no_addition")
 	end
 
-	if slot0:getConfig("type") == slot0.MAX_OIL_ADDITION then
+	if slot0:getConfig("type") == uv0.MAX_OIL_ADDITION then
 		return i18n("guild_facility_oil_addition", slot1)
-	elseif slot2 == slot0.MAX_GOLD_ADDITION then
+	elseif slot2 == uv0.MAX_GOLD_ADDITION then
 		return i18n("guild_facility_gold_addition", slot1)
-	elseif slot2 == slot0.BUFF_ADDITION then
-		slot3 = ""
+	elseif slot2 == uv0.BUFF_ADDITION then
+		slot7 = "buffs"
 
-		for slot7, slot8 in ipairs(slot0:getConfig("buffs")) do
-			slot3 = slot3 .. getSkillDesc(slot8, slot1)
+		for slot7, slot8 in ipairs(slot0:getConfig(slot7)) do
+			slot3 = "" .. getSkillDesc(slot8, slot1)
 		end
 
 		return slot3

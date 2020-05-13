@@ -17,12 +17,16 @@ function slot0.init(slot0)
 
 	SetActive(slot0._loadingAnima, true)
 	SetActive(slot0._finishAnima, false)
-	slot0._finishAnima:GetComponent("DftAniEvent").SetEndEvent(slot2, function (slot0)
-		slot0:emit(CombatLoadMediator.FINISH, slot0._loadObs)
+	slot0._finishAnima:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+		uv0:emit(CombatLoadMediator.FINISH, uv0._loadObs)
 	end)
-	SetActive(slot0._tf:Find("bg"), slot5 ~= 1)
-	SetActive(slot0._tf:Find("bg2"), slot5 == 1)
-	setImageSprite((PlayerPrefs.GetInt("bgFitMode", 0) == 1 and slot0._tf.Find("bg2")) or slot0._tf.Find("bg"), LoadSprite("loadingbg/bg_" .. math.random(1, BG_RANDOM_RANGE)))
+
+	slot3 = slot0._tf:Find("bg")
+	slot4 = slot0._tf:Find("bg2")
+
+	SetActive(slot3, slot5 ~= 1)
+	SetActive(slot4, slot5 == 1)
+	setImageSprite(PlayerPrefs.GetInt("bgFitMode", 0) == 1 and slot4 or slot3, LoadSprite("loadingbg/bg_" .. math.random(1, BG_RANDOM_RANGE)))
 
 	slot0._tipsText = slot1:Find("tipsText"):GetComponent(typeof(Text))
 end
@@ -32,7 +36,6 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	return
 end
 
 function slot0.Preload(slot0)
@@ -42,21 +45,25 @@ function slot0.Preload(slot0)
 	slot0._toLoad = {}
 
 	ys.Battle.BattleFXPool.GetInstance():Init()
-	ys.Battle.BattleResourceManager.GetInstance().Init(slot1)
+	ys.Battle.BattleResourceManager.GetInstance():Init()
 
 	slot2 = getProxy(BayProxy)
 
 	if slot0.contextData.system == SYSTEM_DEBUG then
-		slot3 = {}
-
-		for slot10, slot11 in ipairs(slot6) do
-			slot3[slot11.configId] = slot11
+		for slot10, slot11 in ipairs(slot2:getShipsByFleet(getProxy(FleetProxy):getFleetById(slot0.contextData.mainFleetId))) do
+			-- Nothing
 		end
 
-		for slot10, slot11 in pairs(slot3) do
+		for slot10, slot11 in pairs({
+			[slot11.configId] = slot11
+		}) do
 			if type(slot10) == "number" then
 				slot1:AddPreloadCV(slot11.skinId)
-				slot1:AddPreloadResource(slot1.GetShipResource(slot10, slot11.skinId, true))
+
+				slot16 = slot11.skinId
+				slot17 = true
+
+				slot1:AddPreloadResource(slot1.GetShipResource(slot10, slot16, slot17))
 
 				slot12 = ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot10)
 
@@ -72,7 +79,7 @@ function slot0.Preload(slot0)
 							slot20 = slot17.skinId
 						end
 
-						for slot25, slot26 in ipairs(slot21) do
+						for slot25, slot26 in ipairs(ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot18).weapon_id) do
 							slot1:AddPreloadResource(slot1.GetWeaponResource(slot26, slot20))
 						end
 					elseif slot17 then
@@ -81,18 +88,20 @@ function slot0.Preload(slot0)
 				end
 
 				for slot16, slot17 in ipairs(slot12.depth_charge_list) do
-					for slot22, slot23 in ipairs(slot18) do
+					for slot22, slot23 in ipairs(ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot17).weapon_id) do
 						slot1:AddPreloadResource(slot1.GetWeaponResource(slot23))
 					end
 				end
 
 				for slot16, slot17 in ipairs(slot12.fix_equip_list) do
-					for slot22, slot23 in ipairs(slot18) do
+					for slot22, slot23 in ipairs(ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot17).weapon_id) do
 						slot1:AddPreloadResource(slot1.GetWeaponResource(slot23))
 					end
 				end
 
-				for slot17, slot18 in pairs(slot13) do
+				slot17 = slot11.skinId
+
+				for slot17, slot18 in pairs(ys.Battle.BattleDataFunction.GetBuffBulletRes(slot10, slot11.skills, slot0.contextData.system, slot17)) do
 					slot1:AddPreloadResource(slot18)
 				end
 			end
@@ -108,93 +117,95 @@ function slot0.Preload(slot0)
 		slot4 = {}
 
 		if slot0.contextData.system == SYSTEM_SCENARIO then
-			for slot12, slot13 in ipairs(slot8) do
+			for slot12, slot13 in ipairs(getProxy(ChapterProxy):getActiveChapter().fleet:getShips(false)) do
 				table.insert(slot3, slot13)
 			end
 
-			slot12, slot12 = slot6:getFleetBattleBuffs(slot7)
+			slot9, slot10 = slot6:getFleetBattleBuffs(slot7)
 
-			slot0.addCommanderBuffRes(slot10)
-			slot0.addChapterBuffRes(slot9)
-			slot0.addChapterAuraRes(slot11)
+			uv0.addCommanderBuffRes(slot10)
+			uv0.addChapterBuffRes(slot9)
+			uv0.addChapterAuraRes(slot5.GetChapterAuraBuffs(slot6))
 
 			slot13 = {}
 
-			for slot17, slot18 in pairs(slot12) do
+			for slot17, slot18 in pairs(slot5.GetChapterAidBuffs(slot6)) do
 				for slot22, slot23 in ipairs(slot18) do
 					table.insert(slot13, slot23)
 				end
 			end
 
-			slot0.addChapterAuraRes(slot13)
+			uv0.addChapterAuraRes(slot13)
 
 			slot14, slot15 = slot5.getSubAidFlag(slot6)
 
 			if slot14 == true or slot14 > 0 then
-				for slot20, slot21 in ipairs(slot16) do
+				for slot20, slot21 in ipairs(slot15:getShipsByTeam(TeamType.Submarine, false)) do
 					table.insert(slot3, slot21)
 				end
 
-				slot20, slot20 = slot6:getFleetBattleBuffs(slot15)
+				slot17, slot18 = slot6:getFleetBattleBuffs(slot15)
 
-				slot0.addCommanderBuffRes(slot18)
-				slot0.addChapterBuffRes(slot17)
+				uv0.addCommanderBuffRes(slot18)
+				uv0.addChapterBuffRes(slot17)
 			end
 		elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS or slot0.contextData.system == SYSTEM_BOSS_EXPERIMENT then
-			if getProxy(FleetProxy).getActivityFleets(slot5)[slot0.contextData.actId][slot0.contextData.mainFleetId] then
-				for slot12, slot13 in ipairs(slot8) do
+			if getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId][slot0.contextData.mainFleetId] then
+				for slot12, slot13 in ipairs(slot7.ships) do
 					table.insert(slot3, slot2:getShipById(slot13))
 				end
 
-				slot0.addCommanderBuffRes(slot7:buildBattleBuffList())
+				uv0.addCommanderBuffRes(slot7:buildBattleBuffList())
 			end
 
 			if slot6[slot0.contextData.mainFleetId + 10] then
-				for slot13, slot14 in ipairs(slot9) do
+				for slot13, slot14 in ipairs(slot8:getTeamByName(TeamType.Submarine)) do
 					table.insert(slot3, slot2:getShipById(slot14))
 				end
 
-				slot0.addCommanderBuffRes(slot8:buildBattleBuffList())
+				uv0.addCommanderBuffRes(slot8:buildBattleBuffList())
 			end
 		elseif slot0.contextData.system == SYSTEM_SHAM then
-			for slot12, slot13 in ipairs(slot8) do
+			for slot12, slot13 in ipairs(getProxy(ChapterProxy):getShamChapter().fleet:getShips(false)) do
 				table.insert(slot3, slot13)
 			end
 
-			_.each(slot6:getChapterCell(slot7.line.row, slot7.line.column).rival.mainShips, function (slot0)
-				table.insert(slot0, slot0)
+			slot9 = slot6:getChapterCell(slot7.line.row, slot7.line.column)
+
+			_.each(slot9.rival.mainShips, function (slot0)
+				table.insert(uv0, slot0)
 			end)
-			_.each(slot6.getChapterCell(slot7.line.row, slot7.line.column).rival.vanguardShips, function (slot0)
-				table.insert(slot0, slot0)
+			_.each(slot9.rival.vanguardShips, function (slot0)
+				table.insert(uv0, slot0)
 			end)
 		elseif slot0.contextData.system == SYSTEM_GUILD then
-			for slot12, slot13 in ipairs(slot8) do
+			for slot12, slot13 in ipairs(getProxy(ChapterProxy):getGuildChapter().fleet:getShips(false)) do
 				table.insert(slot3, slot13)
 			end
 		elseif slot0.contextData.system == SYSTEM_CHALLENGE then
-			ships = getProxy(ChallengeProxy).getUserChallengeInfo(slot5, slot0.contextData.mode).getRegularFleet(slot6).getShips(slot7, false)
+			ships = getProxy(ChallengeProxy):getUserChallengeInfo(slot0.contextData.mode):getRegularFleet():getShips(false)
 
 			for slot11, slot12 in ipairs(ships) do
 				table.insert(slot3, slot12)
 			end
 
-			slot0.addCommanderBuffRes(slot7:buildBattleBuffList())
+			uv0.addCommanderBuffRes(slot7:buildBattleBuffList())
 
-			ships = slot6:getSubmarineFleet().getShips(slot7, false)
+			ships = slot6:getSubmarineFleet():getShips(false)
 
 			for slot11, slot12 in ipairs(ships) do
 				table.insert(slot3, slot12)
 			end
 
-			slot0.addCommanderBuffRes(slot7:buildBattleBuffList())
+			uv0.addCommanderBuffRes(slot7:buildBattleBuffList())
 		elseif slot0.contextData.mainFleetId then
-			for slot11, slot12 in ipairs(slot7) do
+			for slot11, slot12 in ipairs(slot2:getShipsByFleet(getProxy(FleetProxy):getFleetById(slot0.contextData.mainFleetId))) do
 				table.insert(slot3, slot12)
 			end
 		end
 
 		if slot0.contextData.rivalId then
-			for slot11, slot12 in ipairs(slot7) do
+			for slot11, slot12 in ipairs(getProxy(MilitaryExerciseProxy):getRivalById(slot0.contextData.rivalId):getShips()) do
 				table.insert(slot3, slot12)
 			end
 		end
@@ -245,7 +256,11 @@ function slot0.Preload(slot0)
 
 		for slot8, slot9 in ipairs(slot3) do
 			slot1:AddPreloadCV(slot9.skinId)
-			slot1:AddPreloadResource(slot1.GetShipResource(slot9.configId, slot9.skinId, true))
+
+			slot14 = slot9.skinId
+			slot15 = true
+
+			slot1:AddPreloadResource(slot1.GetShipResource(slot9.configId, slot14, slot15))
 
 			slot10 = ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot9.configId)
 
@@ -261,7 +276,7 @@ function slot0.Preload(slot0)
 						slot18 = slot15.skinId
 					end
 
-					for slot23, slot24 in ipairs(slot19) do
+					for slot23, slot24 in ipairs(ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot16).weapon_id) do
 						slot1:AddPreloadResource(slot1.GetWeaponResource(slot24, slot18))
 					end
 				elseif slot15 then
@@ -270,27 +285,32 @@ function slot0.Preload(slot0)
 			end
 
 			for slot14, slot15 in ipairs(slot10.depth_charge_list) do
-				for slot20, slot21 in ipairs(slot16) do
+				for slot20, slot21 in ipairs(ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot15).weapon_id) do
 					slot1:AddPreloadResource(slot1.GetWeaponResource(slot21))
 				end
 			end
 
 			for slot14, slot15 in ipairs(slot10.fix_equip_list) do
-				for slot20, slot21 in ipairs(slot16) do
+				for slot20, slot21 in ipairs(ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot15).weapon_id) do
 					slot1:AddPreloadResource(slot1.GetWeaponResource(slot21))
 				end
 			end
 
-			for slot15, slot16 in pairs(slot11) do
+			slot15 = slot9.skinId
+
+			for slot15, slot16 in pairs(ys.Battle.BattleDataFunction.GetBuffBulletRes(slot9.configId, slot9.skills, slot0.contextData.system, slot15)) do
 				slot1:AddPreloadResource(slot16)
 			end
 		end
 	end
 
-	slot9, slot8 = slot1.GetStageResource(slot3)
+	slot5, slot6 = slot1.GetStageResource(pg.expedition_data_template[slot0.contextData.stageId].dungeon_id)
 
 	slot1:AddPreloadResource(slot5)
-	slot1:AddPreloadResource(slot1.GetMapResource(slot4))
+
+	slot10 = pg.expedition_data_template[slot0.contextData.stageId].map_id
+
+	slot1:AddPreloadResource(slot1.GetMapResource(slot10))
 	slot1:AddPreloadResource(slot1.GetCommonResource())
 	slot1:AddPreloadResource(slot1.GetBuffResource())
 
@@ -299,7 +319,18 @@ function slot0.Preload(slot0)
 	end
 
 	slot8 = 0
-	slot8 = slot1:StartPreload(slot7, slot9)
+	slot8 = slot1:StartPreload(function ()
+		SetActive(uv0._loadingAnima, false)
+		SetActive(uv0._finishAnima, true)
+
+		uv0._finishAnima:GetComponent("Animator").enabled = true
+	end, function (slot0)
+		slot1 = nil
+		slot1 = uv0 == 0 and 0 or slot0 / uv0
+		uv1._loadingProgress.value = slot1
+		uv1._loadingText.text = string.format("%.2f", slot1 * 100) .. "%"
+		uv1._loadingAnima.anchoredPosition = Vector2(slot1 * uv2.LOADING_ANIMA_DISTANCE, uv1._loadingAnimaPosY)
+	end)
 	slot0._tipsText.text = pg.server_language[math.random(#pg.server_language)].content
 end
 
@@ -307,7 +338,7 @@ function slot0.addCommanderBuffRes(slot0)
 	slot1 = ys.Battle.BattleResourceManager.GetInstance()
 
 	for slot5, slot6 in ipairs(slot0) do
-		for slot11, slot12 in ipairs(slot7) do
+		for slot11, slot12 in ipairs(slot1.GetCommanderResource(slot6)) do
 			slot1:AddPreloadResource(slot12)
 		end
 	end
@@ -317,7 +348,7 @@ function slot0.addChapterBuffRes(slot0)
 	slot1 = ys.Battle.BattleResourceManager.GetInstance()
 
 	for slot5, slot6 in ipairs(slot0) do
-		for slot11, slot12 in ipairs(slot7) do
+		for slot11, slot12 in ipairs(ys.Battle.BattleDataFunction.GetResFromBuff(slot6, 1, {})) do
 			slot1:AddPreloadResource(slot12)
 		end
 	end
@@ -327,7 +358,7 @@ function slot0.addChapterAuraRes(slot0)
 	slot1 = ys.Battle.BattleResourceManager.GetInstance()
 
 	for slot5, slot6 in ipairs(slot0) do
-		for slot11, slot12 in ipairs(slot7) do
+		for slot11, slot12 in ipairs(ys.Battle.BattleDataFunction.GetResFromBuff(slot6.id, slot6.level, {})) do
 			slot1:AddPreloadResource(slot12)
 		end
 	end
@@ -337,7 +368,7 @@ function slot0.StartLoad(slot0, slot1, slot2, slot3)
 	slot0._toLoad[slot3] = 1
 
 	LoadAndInstantiateAsync(slot1, slot2, function (slot0)
-		slot0:LoadFinish(slot0, slot0.LoadFinish)
+		uv0:LoadFinish(slot0, uv1)
 	end)
 end
 

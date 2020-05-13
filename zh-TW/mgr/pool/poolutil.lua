@@ -3,7 +3,7 @@ return {
 	Destroy = function (slot0, slot1)
 		slot3 = UIUtil.IsGameObject(slot0) and UIUtil.IsPrefab(slot0)
 
-		if slot2 and slot0.clearSprites and not slot1 then
+		if slot2 and uv0.clearSprites and not slot1 then
 			UIUtil.ClearTextureRef(slot0)
 		end
 

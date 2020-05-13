@@ -18,38 +18,38 @@ end
 
 function slot0.OnInit(slot0)
 	onButton(slot0, slot0.weddingReview, function ()
-		slot0:emit(ShipProfileScene.WEDDING_REVIEW, {
-			group = slot0.shipGroup,
-			skinID = slot0.skin.id
+		uv0:emit(ShipProfileScene.WEDDING_REVIEW, {
+			group = uv0.shipGroup,
+			skinID = uv0.skin.id
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.voiceBtnCN, function ()
-		if pg.ship_skin_words[ShipGroup.getDefaultSkin(slot0).id].voice_key < 0 then
+		if pg.ship_skin_words[ShipGroup.getDefaultSkin(uv0.skin.ship_group).id].voice_key < 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("word_comingSoon"))
 
 			return
 		end
 
 		PlayerPrefs.SetInt(CV_LANGUAGE_KEY .. slot0, 1)
-		setActive(slot0.voiceBtnCN, false)
-		setActive(slot0.voiceBtnJP, true)
-		slot0.cvLoader:Load(slot0.skin.id)
-		slot0:SetAuthorInfo()
-		slot0:UpdateCvList(slot0.isLive2d)
+		setActive(uv0.voiceBtnCN, false)
+		setActive(uv0.voiceBtnJP, true)
+		uv0.cvLoader:Load(uv0.skin.id)
+		uv0:SetAuthorInfo()
+		uv0:UpdateCvList(uv0.isLive2d)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.voiceBtnJP, function ()
-		if pg.ship_skin_words[ShipGroup.getDefaultSkin(slot0).id].voice_key_2 < 0 then
+		if pg.ship_skin_words[ShipGroup.getDefaultSkin(uv0.skin.ship_group).id].voice_key_2 < 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("word_comingSoon"))
 
 			return
 		end
 
 		PlayerPrefs.SetInt(CV_LANGUAGE_KEY .. slot0, 2)
-		setActive(slot0.voiceBtnCN, true)
-		setActive(slot0.voiceBtnJP, false)
-		slot0.cvLoader:Load(slot0.skin.id)
-		slot0:SetAuthorInfo()
-		slot0:UpdateCvList(slot0.isLive2d)
+		setActive(uv0.voiceBtnCN, true)
+		setActive(uv0.voiceBtnJP, false)
+		uv0.cvLoader:Load(uv0.skin.id)
+		uv0:SetAuthorInfo()
+		uv0:UpdateCvList(uv0.isLive2d)
 	end, SFX_PANEL)
 end
 
@@ -59,11 +59,11 @@ end
 
 function slot0.ExistAnim(slot0, slot1, slot2)
 	LeanTween.moveX(rtf(slot0._tf), 1000, slot1):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(function ()
-		if slot0 then
-			slot0()
+		if uv0 then
+			uv0()
 		end
 
-		slot1:Hide()
+		uv1:Hide()
 	end))
 end
 
@@ -98,11 +98,10 @@ end
 
 function slot0.UpdateProfileInfo(slot0)
 	slot1, slot2, slot0.profileTxt.text = ShipWordHelper.GetWordAndCV(slot0.skin.id, ShipWordHelper.WORD_TYPE_PROFILE)
-	slot5 = pg.ship_skin_words[slot0.skin.id] and (slot4.voice_key >= 0 or slot4.voice_key == -2)
 
-	if slot5 then
+	if pg.ship_skin_words[slot0.skin.id] and (slot4.voice_key >= 0 or slot4.voice_key == -2) then
 		onButton(slot0, slot0.profilePlayBtn, function ()
-			slot0.cvLoader:PlaySound(slot0.cvLoader)
+			uv0.cvLoader:PlaySound(uv1)
 		end, SFX_PANEL)
 	end
 
@@ -119,7 +118,7 @@ end
 
 function slot0.UpdateLanguage(slot0)
 	slot4 = PlayerPrefs.GetInt(CV_LANGUAGE_KEY .. slot0.skin.ship_group)
-	slot5 = pg.ship_skin_words[ShipGroup.getDefaultSkin(slot1).id].voice_key_2 >= 0 or slot3.voice_key_2 == -2
+	slot5 = pg.ship_skin_words[ShipGroup.getDefaultSkin(slot0.skin.ship_group).id].voice_key_2 >= 0 or slot3.voice_key_2 == -2
 
 	if slot3.voice_key_2 >= 0 and slot4 == 0 then
 		PlayerPrefs.SetInt(CV_LANGUAGE_KEY .. slot1, pg.gameset.language_default.key_value)
@@ -163,8 +162,8 @@ function slot0.AddCvBtn(slot0, slot1)
 	slot2 = ShipProfileCvBtn.New(cloneTplTo(slot0.cvTpl, slot0.cvContainer))
 
 	onButton(slot0, slot2._tf, function ()
-		if slot0.callback then
-			slot0.callback(slot1)
+		if uv0.callback then
+			uv0.callback(uv1)
 		end
 	end, SFX_PANEL)
 	slot2:Init(slot0.shipGroup, slot0.skin, slot0.isLive2d, slot1)
@@ -176,8 +175,8 @@ function slot0.AddExCvBtn(slot0, slot1)
 	slot2 = ShipProfileExCvBtn.New(cloneTplTo(slot0.cvTpl, slot0.cvContainer))
 
 	onButton(slot0, slot2._tf, function ()
-		if slot0.callback then
-			slot0.callback(slot1)
+		if uv0.callback then
+			uv0.callback(uv1)
 		end
 	end, SFX_PANEL)
 	slot2:Init(slot0.shipGroup, slot0.skin, slot0.isLive2d, slot1, slot0.shipGroup:GetMaxIntimacy())

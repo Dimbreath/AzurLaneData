@@ -28,7 +28,7 @@ function slot0.onBackPressed(slot0)
 	end
 
 	if not slot1 then
-		slot0:emit(slot0.ON_BACK)
+		slot0:emit(uv0.ON_BACK)
 	end
 end
 
@@ -64,13 +64,13 @@ end
 
 function slot0.initEvents(slot0)
 	slot0:bind(PrayPoolConst.SWITCH_TO_SELECT_POOL_PAGE, function (slot0, slot1)
-		slot0:switchPage(slot1)
+		uv0:switchPage(slot1)
 	end)
 	slot0:bind(PrayPoolConst.SWITCH_TO_SELECT_SHIP_PAGE, function (slot0, slot1)
-		slot0:switchPage(slot1)
+		uv0:switchPage(slot1)
 	end)
 	slot0:bind(PrayPoolConst.SWITCH_TO_HOME_PAGE, function (slot0, slot1)
-		slot0:switchPage(slot1)
+		uv0:switchPage(slot1)
 	end)
 end
 

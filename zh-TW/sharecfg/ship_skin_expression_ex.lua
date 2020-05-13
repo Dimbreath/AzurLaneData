@@ -886,5 +886,3 @@ pg.ship_skin_expression_ex = {
 		}
 	}
 }
-
-return

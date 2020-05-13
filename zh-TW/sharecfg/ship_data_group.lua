@@ -10312,5 +10312,3 @@ pg.ship_data_group = {
 		20006
 	}
 }
-
-return

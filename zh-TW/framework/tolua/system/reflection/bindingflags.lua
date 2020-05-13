@@ -2,7 +2,7 @@ if System.Reflection == nil then
 	System.Reflection = {}
 end
 
-System.Reflection.BindingFlags = {
+slot1 = {
 	Default = 0,
 	SetField = 2048,
 	GetField = 1024,
@@ -22,18 +22,18 @@ System.Reflection.BindingFlags = {
 	DeclaredOnly = 2,
 	CreateInstance = 512,
 	PutDispProperty = 16384,
-	IgnoreCase = 1,
-	GetMask = function (...)
-		slot1 = 0
-
-		for slot5 = 1, #{
-			...
-		}, 1 do
-			slot1 = slot1 + slot0[slot5]
-		end
-
-		return slot1
-	end
+	IgnoreCase = 1
 }
+System.Reflection.BindingFlags = slot1
 
-return 
+function System.Reflection.BindingFlags.GetMask(...)
+	for slot5 = 1, #{
+		...
+	} do
+		slot1 = 0 + slot0[slot5]
+	end
+
+	return slot1
+end
+
+return slot1

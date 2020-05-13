@@ -1,4 +1,6 @@
-class("SendCmdCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("SendCmdCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	if slot1:getBody().cmd == "local" then
 		if slot2.arg1 == "debug" then
 			DebugMgr.Inst:Active()
@@ -9,7 +11,7 @@ class("SendCmdCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		elseif slot2.arg1 == "time" then
 			print("server time: " .. pg.TimeMgr.GetInstance():GetServerTime())
 		elseif slot2.arg1 == "act" then
-			for slot7, slot8 in pairs(slot3) do
+			for slot7, slot8 in pairs(getProxy(ActivityProxy):getRawData()) do
 				print(slot8.id)
 			end
 		elseif slot2.arg1 == "guide" then
@@ -42,7 +44,7 @@ class("SendCmdCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				PlayerPrefs.Save()
 			end
 
-			pg.TipsMgr.GetInstance():ShowTips((slot3 == 1 and "已开启战斗跳略") or "已关闭战斗跳略")
+			pg.TipsMgr.GetInstance():ShowTips(slot3 == 1 and "已开启战斗跳略" or "已关闭战斗跳略")
 		end
 
 		return
@@ -58,15 +60,15 @@ class("SendCmdCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		arg3 = slot2.arg3
 	}, 11101, function (slot0)
 		print("response: " .. slot0.msg)
-		slot0:sendNotification(GAME.SEND_CMD_DONE, slot0.msg)
+		uv0:sendNotification(GAME.SEND_CMD_DONE, slot0.msg)
 
-		if slot0.sendNotification == "into" and string.find(slot0.msg, "Result:ok") then
+		if uv1 == "into" and string.find(slot0.msg, "Result:ok") then
 			ys.Battle.BattleState.GenerateVertifyData()
-			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, {
+			uv0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, {
 				token = 99,
 				mainFleetId = 1,
 				prefabFleet = {},
-				stageId = tonumber(tonumber),
+				stageId = tonumber(uv2),
 				system = SYSTEM_TEST,
 				drops = {}
 			})
@@ -74,4 +76,4 @@ class("SendCmdCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end)
 end
 
-return class("SendCmdCommand", pm.SimpleCommand)
+return slot0

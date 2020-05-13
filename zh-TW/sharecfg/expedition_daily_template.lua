@@ -192,5 +192,3 @@ pg.expedition_daily_template = {
 		701
 	}
 }
-
-return

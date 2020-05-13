@@ -5136,5 +5136,3 @@ pg.ship_strengthen_blueprint = {
 		630
 	}
 }
-
-return

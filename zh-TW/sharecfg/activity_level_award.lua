@@ -122,5 +122,3 @@ pg.activity_level_award = {
 		1
 	}
 }
-
-return

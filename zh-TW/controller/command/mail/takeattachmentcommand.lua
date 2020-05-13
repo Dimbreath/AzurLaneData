@@ -1,4 +1,6 @@
-class("TakeAttachmentCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("TakeAttachmentCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	if getProxy(MailProxy):getMailById(slot1:getBody()) == nil then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("mail_takeAttachment_error_noMail", slot2))
 
@@ -11,9 +13,9 @@ class("TakeAttachmentCommand", pm.SimpleCommand).execute = function (slot0, slot
 		return
 	end
 
-	slot9 = getProxy(BayProxy).getShipCount(slot7)
-	slot10 = getProxy(EquipmentProxy).getCapacity(slot8)
-	slot11 = getConfigFromLevel1(pg.user_level, getProxy(PlayerProxy).getData(slot5).level)
+	slot9 = getProxy(BayProxy):getShipCount()
+	slot10 = getProxy(EquipmentProxy):getCapacity()
+	slot11 = getConfigFromLevel1(pg.user_level, getProxy(PlayerProxy):getData().level)
 
 	if slot4:getAttatchmentsCount(DROP_TYPE_RESOURCE, 1) > 0 and slot6:GoldMax(slot12) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_mail"))
@@ -40,30 +42,28 @@ class("TakeAttachmentCommand", pm.SimpleCommand).execute = function (slot0, slot
 			slot4.id
 		}
 	}, 30005, function (slot0)
-		if slot0.readFlag == 0 then
-			slot1:removeMail(slot0)
+		if uv0.readFlag == 0 then
+			uv1:removeMail(uv0)
 		else
-			slot0.readFlag = 2
-			slot0.attachFlag = slot0.ATTACHMENT_TAKEN
+			uv0.readFlag = 2
+			uv0.attachFlag = uv0.ATTACHMENT_TAKEN
 
-			slot0:updateMail(slot0)
+			uv1:updateMail(uv0)
 		end
 
 		slot1 = {}
 
 		for slot5, slot6 in ipairs(slot0.attachment_list) do
 			table.insert(slot1, Item.New(slot6))
-			slot2:sendNotification(GAME.ADD_ITEM, MailAttachment.New(slot6))
+			uv2:sendNotification(GAME.ADD_ITEM, MailAttachment.New(slot6))
 		end
 
-		slot2 = slot1:GetAttachmentCount()
-
-		slot1:unpdateExistAttachment(slot2 - 1)
-		slot2:sendNotification(GAME.OPEN_MAIL_ATTACHMENT, {
+		uv1:unpdateExistAttachment(uv1:GetAttachmentCount() - 1)
+		uv2:sendNotification(GAME.OPEN_MAIL_ATTACHMENT, {
 			items = slot1
 		})
-		slot2:sendNotification(GAME.TAKE_ATTACHMENT_DONE)
+		uv2:sendNotification(GAME.TAKE_ATTACHMENT_DONE)
 	end)
 end
 
-return class("TakeAttachmentCommand", pm.SimpleCommand)
+return slot0

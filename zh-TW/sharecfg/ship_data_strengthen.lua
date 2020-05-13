@@ -6128,5 +6128,3 @@ pg.ship_data_strengthen = {
 		89901
 	}
 }
-
-return

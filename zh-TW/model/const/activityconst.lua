@@ -320,7 +320,7 @@ slot0.INSTAGRAM_OP_MARK_READ = 5
 
 function slot0.BBRule(slot0)
 	_.each(slot0, function (slot0)
-		slot0[slot0] = slot0[slot0] + 1
+		uv0[slot0] = uv0[slot0] + 1
 	end)
 
 	slot2 = 7

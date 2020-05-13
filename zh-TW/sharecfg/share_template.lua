@@ -246,5 +246,3 @@ pg.share_template = {
 		5000
 	}
 }
-
-return

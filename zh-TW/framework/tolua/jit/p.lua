@@ -18,39 +18,30 @@ slot24 = {
 }
 
 function slot25(slot0, slot1, slot2)
-	slot0 = slot0 + slot1
+	uv0 = uv0 + slot1
 	slot3, slot4, slot5 = nil
 
-	if slot1 then
-		if slot1 == "v" then
-			slot5 = slot2[slot2] or slot2
-		else
-			slot5 = slot3:get() or "(none)"
-		end
+	if uv1 then
+		slot5 = uv1 == "v" and (uv2[slot2] or slot2) or uv3:get() or "(none)"
 	end
 
-	if slot4 then
-		slot3 = slot5.dumpstack(slot0, slot4, slot5.dumpstack):gsub("%[builtin#(%d+)%]", function (slot0)
-			return slot0.ffnames[slot1(slot0)]
-		end)
-
-		if function (slot0)
-			return slot0.ffnames[slot1(slot0)]
-		end == 2 then
-			slot6, slot7 = slot3:match("(.-) [<>] (.*)")
+	if uv4 then
+		if uv9 == 2 then
+			slot3, slot7 = uv5.dumpstack(slot0, uv4, uv6):gsub("%[builtin#(%d+)%]", function (slot0)
+				return uv0.ffnames[uv1(slot0)]
+			end):match("(.-) [<>] (.*)")
 
 			if slot7 then
 				slot4 = slot7
-				slot3 = slot6
 			end
-		elseif slot9 == 3 then
-			slot4 = slot5.dumpstack(slot0, "l", 1)
+		elseif uv9 == 3 then
+			slot4 = uv5.dumpstack(slot0, "l", 1)
 		end
 	end
 
 	slot6, slot7 = nil
 
-	if slot9 == 1 then
+	if uv9 == 1 then
 		if slot5 then
 			slot6 = slot5
 
@@ -69,55 +60,61 @@ function slot25(slot0, slot1, slot2)
 	end
 
 	if slot6 then
-		slot8[slot6] = (slot10[slot6] or 0) + slot1
+		slot8[slot6] = (uv10[slot6] or 0) + slot1
 
 		if slot7 then
-			if not slot11[slot6] then
+			if not uv11[slot6] then
 				slot9[slot6] = {}
 			end
 
-			slot10[slot7] = (slot10[slot7] or 0) + slot1
+			if not slot10[slot7] then
+				slot11 = 0
+			end
+
+			slot10[slot7] = slot11 + slot1
 		end
 	end
 end
 
 function slot26(slot0, slot1, slot2, slot3)
-	slot4 = {}
 	slot5 = 0
 
-	for slot9 in slot0(slot0) do
-		slot4[slot5 + 1] = slot9
+	for slot9 in uv0(slot0) do
+		-- Nothing
 	end
 
-	slot1(slot4, function (slot0, slot1)
-		return slot0[slot1] < slot0[slot0]
+	uv1({
+		[slot5 + 1] = slot9
+	}, function (slot0, slot1)
+		return uv0[slot1] < uv0[slot0]
 	end)
 
-	for slot9 = 1, slot5, 1 do
-		if slot2((slot0[slot4[slot9]] * 100) / slot2 + 0.5) < slot3 then
+	for slot9 = 1, slot5 do
+		if uv2(slot0[slot4[slot9]] * 100 / slot2 + 0.5) < uv3 then
 			break
 		end
 
-		if not slot4 then
-			slot5:write(slot6("%s%2d%%  %s\n", slot3, slot12, slot10))
-		elseif slot4 == "r" then
-			slot5:write(slot6("%s%5d  %s\n", slot3, slot11, slot10))
+		if not uv4 then
+			uv5:write(uv6("%s%2d%%  %s\n", slot3, slot12, slot10))
+		elseif uv4 == "r" then
+			uv5:write(uv6("%s%5d  %s\n", slot3, slot11, slot10))
 		else
-			slot5:write(slot6("%s %d\n", slot10, slot11))
+			uv5:write(uv6("%s %d\n", slot10, slot11))
 		end
 
 		if slot1 and slot1[slot10] then
-			slot7(slot13, nil, slot11, ((slot8 == 3 or slot8 == 1) and "  -- ") or (slot9 < 0 and "  -> ") or "  <- ")
+			uv7(slot13, nil, slot11, (uv8 == 3 or uv8 == 1) and "  -- " or uv9 < 0 and "  -> " or "  <- ")
 		end
 	end
 end
 
 function slot27(slot0, slot1)
 	slot2 = {}
-	slot3 = 0
 
-	for slot7, slot8 in slot0(slot0) do
-		if slot2.max(slot3, slot8) <= slot1((slot8 * 100) / slot1 + 0.5) then
+	for slot7, slot8 in uv0(slot0) do
+		slot3 = uv2.max(0, slot8)
+
+		if uv3 <= uv1(slot8 * 100 / slot1 + 0.5) then
 			slot10, slot11 = slot7:match("^(.*):(%d+)$")
 
 			if not slot10 then
@@ -130,24 +127,26 @@ function slot27(slot0, slot1)
 				slot2[#slot2 + 1] = slot10
 			end
 
-			slot12[slot4(slot11)] = (slot5 and slot8) or slot9
+			slot12[uv4(slot11)] = uv5 and slot8 or slot9
 		end
 	end
 
-	slot6(slot2)
+	uv6(slot2)
 
 	slot4 = " %3d%% | %s\n"
+	slot5 = "      | %s\n"
 
-	if "      | %s\n" then
+	if uv5 then
+		slot6 = uv2.max(5, uv2.ceil(uv2.log10(slot3)))
 		slot4 = "%" .. slot6 .. "d | %s\n"
-		slot5 = " ":rep(slot2.max(5, slot2.ceil(slot2.log10(slot3)))) .. " | %s\n"
+		slot5 = (" "):rep(slot6) .. " | %s\n"
 	end
 
-	slot6 = slot7
+	slot6 = uv7
 
-	for slot10, slot11 in slot8(slot2) do
+	for slot10, slot11 in uv8(slot2) do
 		if slot11:byte() == 40 or slot12 == 91 then
-			slot9:write(slot10([[
+			uv9:write(uv10([[
 
 ====== %s ======
 [Cannot annotate non-file]
@@ -159,23 +158,23 @@ function slot27(slot0, slot1)
 		slot13, slot14 = io.open(slot11)
 
 		if not slot13 then
-			slot9:write(slot10("====== ERROR: %s: %s\n", slot11, slot14))
+			uv9:write(uv10("====== ERROR: %s: %s\n", slot11, slot14))
 
 			break
 		end
 
-		slot9:write(slot10("\n====== %s ======\n", slot11))
+		uv9:write(uv10("\n====== %s ======\n", slot11))
 
 		slot15 = slot2[slot11]
 		slot16 = 1
 		slot17 = false
 
 		if slot6 ~= 0 then
-			for slot21 = 1, slot6, 1 do
+			for slot21 = 1, slot6 do
 				if slot15[slot21] then
 					slot17 = true
 
-					slot9:write("@@ 1 @@\n")
+					uv9:write("@@ 1 @@\n")
 
 					break
 				end
@@ -184,7 +183,7 @@ function slot27(slot0, slot1)
 
 		for slot21 in slot13:lines() do
 			if slot21:byte() == 27 then
-				slot9:write("[Cannot annotate bytecode file]\n")
+				uv9:write("[Cannot annotate bytecode file]\n")
 
 				break
 			end
@@ -192,10 +191,8 @@ function slot27(slot0, slot1)
 			slot22 = slot15[slot16]
 
 			if slot6 ~= 0 then
-				slot23 = slot15[slot16 + slot6]
-
 				if slot17 then
-					if slot23 then
+					if slot15[slot16 + slot6] then
 						slot17 = slot16 + slot6
 					elseif slot22 then
 						slot17 = slot16
@@ -205,15 +202,16 @@ function slot27(slot0, slot1)
 				elseif slot23 then
 					slot17 = slot16 + slot6
 
-					slot9:write(slot10("@@ %d @@\n", slot16))
+					uv9:write(uv10("@@ %d @@\n", slot16))
 				end
 
 				if not slot17 then
+					-- Nothing
 				end
 			elseif slot22 then
-				slot9:write(slot10(slot4, slot22, slot21))
+				uv9:write(uv10(slot4, slot22, slot21))
 			else
-				slot9:write(slot10(slot5, slot21))
+				uv9:write(uv10(slot5, slot21))
 			end
 
 			slot16 = slot16 + 1
@@ -225,373 +223,112 @@ end
 
 function slot29(slot0)
 	slot1 = ""
-	slot0 = slot0:gsub("i%d*", function (slot0)
-		slot0 = slot0
+	uv0 = 3
+	uv2 = 1
+	slot2 = {
+		[slot6] = slot6
+	}
+
+	for slot6 in slot0:gsub("i%d*", function (slot0)
+		uv0 = slot0
 
 		return ""
-	end)
-	slot2 = 1
-	slot2 = {}
-
-	for slot6 in 3:gsub("m(%d+)", function (slot0)
-		slot0 = slot1(slot0)
+	end):gsub("m(%d+)", function (slot0)
+		uv0 = uv1(slot0)
 
 		return ""
 	end):gsub("%-?%d+", function (slot0)
-		slot0 = slot1(slot0)
+		uv0 = uv1(slot0)
 
 		return ""
-	end).gmatch(slot0, ".") do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 28-28, warpins: 1 ---
-		slot2[slot6] = slot6
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 29-30, warpins: 2 ---
-		--- END OF BLOCK #1 ---
-
-
-
+	end):gmatch(".") do
+		-- Nothing
 	end
 
-	if (slot2.z or slot2.v) == "z" then
+	uv3 = slot2.z or slot2.v
 
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 39-42, warpins: 1 ---
-		slot4 = require("jit.zone")
-		--- END OF BLOCK #0 ---
-
-
-
+	if uv3 == "z" then
+		uv4 = require("jit.zone")
 	end
 
-	slot3 = slot2.l or slot2.f or slot2.F or (slot3 and "") or "f"
+	slot3 = slot2.l or slot2.f or slot2.F or uv3 and "" or "f"
 	slot4 = slot2.p or ""
-	slot5 = slot2.r
+	uv5 = slot2.r
 
 	if slot2.s then
+		uv6 = 2
 
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 67-70, warpins: 1 ---
-		slot6 = 2
-
-		if slot2 == -1 or slot2["-"] then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 74-75, warpins: 2 ---
-			slot2 = -2
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 76-78, warpins: 1 ---
-			if slot2 == 1 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 79-80, warpins: 1 ---
-				slot2 = 2
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
+		if uv2 == -1 or slot2["-"] then
+			uv2 = -2
+		elseif uv2 == 1 then
+			uv2 = 2
 		end
-		--- END OF BLOCK #0 ---
-
-
-
-	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 81-86, warpins: 1 ---
-		if slot0:find("[fF].*l") then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 87-89, warpins: 1 ---
-			slot3 = "l"
-			slot6 = 3
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 90-91, warpins: 1 ---
-			slot6 = ((slot3 == "" or slot0:find("[zv].*[lfF]")) and 1) or 0
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 101-101, warpins: 2 ---
-			--- END OF BLOCK #1 ---
-
-
-
-		end
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	if (slot2.A and 0) or (slot2.a and 3) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 115-119, warpins: 1 ---
+	elseif slot0:find("[fF].*l") then
 		slot3 = "l"
-		slot8 = "pl"
-		slot6 = 0
-		slot2 = 1
-		--- END OF BLOCK #0 ---
-
-
-
+		uv6 = 3
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 120-122, warpins: 1 ---
-		if slot2.G and slot3 ~= "" then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 125-133, warpins: 1 ---
-			slot8 = slot4 .. slot3 .. "Z;"
-			slot2 = -100
-			slot5 = true
-			slot0 = 0
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 134-135, warpins: 2 ---
-			if slot3 == "" then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 136-137, warpins: 1 ---
-				slot8 = false
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 138-140, warpins: 1 ---
-				slot8 = slot4 .. ((slot6 == 3 and slot2.f) or slot2.F or slot3) .. ((slot2 >= 0 and "Z < ") or "Z > ")
-				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 148-153, warpins: 3 ---
-				--- END OF BLOCK #1 ---
-
-				FLOW; TARGET BLOCK #2
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #2 157-158, warpins: 2 ---
-				--- END OF BLOCK #2 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #0 ---
-
-
-
+		uv6 = (slot3 == "" or slot0:find("[zv].*[lfF]")) and 1 or 0
 	end
 
-	slot9 = {}
-	slot10 = {}
-	slot11 = 0
+	uv7 = slot2.A and 0 or slot2.a and 3
 
-	slot12.start(slot3:lower() .. slot1, slot13)
+	if uv7 then
+		slot3 = "l"
+		uv8 = "pl"
+		uv6 = 0
+		uv2 = 1
+	elseif slot2.G and slot3 ~= "" then
+		uv8 = slot4 .. slot3 .. "Z;"
+		uv2 = -100
+		uv5 = true
+		uv0 = 0
+	elseif slot3 == "" then
+		uv8 = false
+	else
+		uv8 = slot4 .. (uv6 == 3 and slot2.f or slot2.F or slot3) .. (uv2 >= 0 and "Z < " or "Z > ")
+	end
 
-	getmetatable(slot14).__gc = slot15
+	uv9 = {}
+	uv10 = {}
+	uv11 = 0
+
+	uv12.start(slot3:lower() .. slot1, uv13)
+
+	uv14 = newproxy(true)
+	getmetatable(uv14).__gc = uv15
 end
 
 return {
 	start = function (slot0, slot1)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-9, warpins: 2 ---
 		if slot1 or os.getenv("LUAJIT_PROFILEFILE") then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 10-11, warpins: 1 ---
-			slot0 = (slot1 == "-" and slot1) or assert(io.open(slot1, "w"))
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 22-23, warpins: 2 ---
-			--- END OF BLOCK #1 ---
-
-
-
+			uv0 = slot1 == "-" and uv1 or assert(io.open(slot1, "w"))
 		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 24-25, warpins: 1 ---
-			slot0 = slot1
-			--- END OF BLOCK #0 ---
-
-
-
+			uv0 = uv1
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 26-28, warpins: 2 ---
-		slot2(slot0 or "f")
-
-		return
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 30-31, warpins: 2 ---
-		--- END OF BLOCK #2 ---
-
-
-
+		uv2(slot0 or "f")
 	end,
 	stop = function ()
+		if uv0 then
+			uv1.stop()
 
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-3, warpins: 1 ---
-		if slot0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 4-9, warpins: 1 ---
-			slot1.stop()
-
-			if slot2 == 0 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 10-12, warpins: 1 ---
-				if slot3 ~= true then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 13-17, warpins: 1 ---
-					slot4:write("[No samples collected]\n")
-					--- END OF BLOCK #0 ---
-
-
-
+			if uv2 == 0 then
+				if uv3 ~= true then
+					uv4:write("[No samples collected]\n")
 				end
 
-				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 18-18, warpins: 2 ---
 				return
-				--- END OF BLOCK #1 ---
-
-
-
 			end
 
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 19-21, warpins: 2 ---
-			if slot5 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 22-26, warpins: 1 ---
-				slot6(slot7, slot0)
-				--- END OF BLOCK #0 ---
-
-
-
+			if uv5 then
+				uv6(uv7, slot0)
 			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 27-32, warpins: 1 ---
-				slot8(slot7, slot9, slot0, "")
-				--- END OF BLOCK #0 ---
-
-
-
+				uv8(uv7, uv9, slot0, "")
 			end
 
-			--- END OF BLOCK #1 ---
-
-			FLOW; TARGET BLOCK #2
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #2 33-35, warpins: 2 ---
-			slot7 = nil
-			slot9 = nil
-			slot0 = nil
-			--- END OF BLOCK #2 ---
-
-
-
+			uv7 = nil
+			uv9 = nil
+			uv0 = nil
 		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 36-36, warpins: 2 ---
-		return
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 }

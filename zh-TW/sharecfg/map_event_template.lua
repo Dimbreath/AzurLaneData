@@ -1031,5 +1031,3 @@ pg.map_event_template = {
 		74
 	}
 }
-
-return

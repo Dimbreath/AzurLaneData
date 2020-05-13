@@ -47,28 +47,24 @@ end
 function slot0.Update(slot0)
 	slot2 = slot0.voice.unlock_condition[1] < 0
 	slot3 = slot0.wordData.textContent == nil or slot0.wordData.textContent == "nil" or slot0.wordData.textContent == ""
-	slot4 = slot1.l2d_action:match("^main_")
+	slot2 = not slot0.isLive2d and (slot2 or slot3) or slot2 or slot3 and slot1.l2d_action:match("^main_")
 
-	if not slot0.isLive2d then
-		slot2 = slot2 or slot3
-	end
+	setActive(slot0._tf, not slot2)
 
-	setActive(slot0._tf, not (slot2 or (slot3 and slot4)))
-
-	if not (slot2 or (slot3 and slot4)) then
+	if not slot2 then
 		slot0:UpdateCvBtn()
 	end
 end
 
 function slot0.UpdateCvBtn(slot0)
-	slot3, slot4 = slot0.shipGroup.VoiceReplayCodition(slot2, slot0.voice)
-	slot0.nameTxt.text = (slot3 and slot1.voice_name) or "???"
+	slot3, slot4 = slot0.shipGroup:VoiceReplayCodition(slot0.voice)
+	slot0.nameTxt.text = slot3 and slot1.voice_name or "???"
 
 	setActive(slot0.tagDiff, ShipWordHelper.ExistDifferentWord(slot0.skin.id, slot1.key, slot0.wordData.mainIndex))
 
 	if not slot3 then
 		onButton(nil, slot0._tf, function ()
-			pg.TipsMgr.GetInstance():ShowTips(pg.TipsMgr.GetInstance().ShowTips)
+			pg.TipsMgr.GetInstance():ShowTips(uv0)
 		end, SFX_PANEL)
 	end
 end

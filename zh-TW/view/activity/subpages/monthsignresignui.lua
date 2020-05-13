@@ -16,10 +16,10 @@ function slot0.InitUI(slot0)
 
 	setText(slot0:findTF("frame/title_text/Text"), i18n("month_sign_resign"))
 	onButton(slot0, slot0:findTF("frame/top/btnBack"), function ()
-		slot0:Destroy()
+		uv0:Destroy()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("frame/actions/confirm_btn"), function ()
-		slot0:Destroy()
+		uv0:Destroy()
 	end, SFX_UI_EQUIPMENT_RESOLVE)
 end
 
@@ -45,22 +45,23 @@ function slot0.OnDestroy(slot0)
 end
 
 function slot0.displayAwards(slot0)
-	for slot4 = 1, #slot0.awards, 1 do
+	for slot4 = 1, #slot0.awards do
 		slot5 = cloneTplTo(slot0.itemTpl, slot0.destroyBonusList):Find("bg")
+		slot6 = slot0.awards[slot4]
 
 		updateDrop(tf(slot5), slot6, {
 			fromAwardLayer = true
 		})
-		setActive(findTF(slot5, "bonus"), slot0.awards[slot4].riraty)
-		setActive(slot7, false)
+		setActive(findTF(slot5, "bonus"), slot6.riraty)
+		setActive(findTF(slot5, "name"), false)
 		setActive(findTF(slot5, "name_mask"), true)
-		findTF(slot5, "name_mask/name"):GetComponent("ScrollText"):SetText(slot0.awards[slot4].name or getText(slot7))
+		findTF(slot5, "name_mask/name"):GetComponent("ScrollText"):SetText(slot6.name or getText(slot7))
 		onButton(slot0, slot5, function ()
-			if slot0.inAniming then
+			if uv0.inAniming then
 				return
 			end
 
-			slot0:emit(BaseUI.ON_DROP, slot0)
+			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
 	end
 end

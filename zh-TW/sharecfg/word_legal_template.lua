@@ -1,12 +1,11 @@
 pg = pg or {}
-pg.word_legal_template = {}
-slot1 = pg.word_legal_template
+slot0 = pg
+slot0.word_legal_template = {}
+slot1 = slot0.word_legal_template
 slot2 = nil
 
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.A = {
+	uv0.A = {
 		U = {
 			R = {
 				O = {
@@ -31,10 +30,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.T = {
+	uv0.T = {
 		o = {
 			r = {
 				p = {
@@ -50,10 +47,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.a = {
+	uv0.a = {
 		u = {
 			r = {
 				o = {
@@ -67,5 +62,3 @@ function ()
 		}
 	}
 end()
-
-return

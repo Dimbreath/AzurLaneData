@@ -1,4 +1,6 @@
-class("SubmitGuildTaskCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("SubmitGuildTaskCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot3 = slot1:getBody().id
 
 	if not getProxy(GuildProxy):getGuildEvent() then
@@ -13,9 +15,9 @@ class("SubmitGuildTaskCommand", pm.SimpleCommand).execute = function (slot0, slo
 		id = slot3
 	}, 60041, function (slot0)
 		if slot0.result == 0 then
-			slot0:setFetched()
-			slot0.setFetched:updateTask(slot0)
-			slot0.setFetched:updateGuildEvent(slot0.setFetched.updateGuildEvent)
+			uv0:setFetched()
+			uv1:updateTask(uv0)
+			uv2:updateGuildEvent(uv1)
 
 			slot1 = {}
 
@@ -27,17 +29,17 @@ class("SubmitGuildTaskCommand", pm.SimpleCommand).execute = function (slot0, slo
 				}
 
 				if slot6.type ~= DROP_TYPE_SHIP then
-					slot3:sendNotification(GAME.ADD_ITEM, Item.New(slot7))
+					uv3:sendNotification(GAME.ADD_ITEM, Item.New(slot7))
 				end
 
 				slot1[#slot1 + 1] = slot7
 			end
 
-			slot3:sendNotification(GAME.SUBMIT_GUILD_TASK, slot1)
+			uv3:sendNotification(GAME.SUBMIT_GUILD_TASK, slot1)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
 		end
 	end)
 end
 
-return class("SubmitGuildTaskCommand", pm.SimpleCommand)
+return slot0

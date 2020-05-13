@@ -29,7 +29,7 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0:findTF("top/back"), function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end)
 	onButton(slot0, slot0.easyBtn, function ()
 		if ActivityConst.SWITCH_ACT_MAP_LIMIT then
@@ -37,21 +37,21 @@ function slot0.didEnter(slot0)
 				modal = true,
 				content = i18n("activity_level_easy_tip"),
 				onYes = function ()
-					slot0:emit(LevelDifficultySelMediator.GO_LEVEL_SENCE, Map.ACTIVITY_EASY)
+					uv0:emit(LevelDifficultySelMediator.GO_LEVEL_SENCE, Map.ACTIVITY_EASY)
 				end
 			})
 		else
-			slot0:emit(LevelDifficultySelMediator.GO_LEVEL_SENCE, Map.ACTIVITY_EASY)
+			uv0:emit(LevelDifficultySelMediator.GO_LEVEL_SENCE, Map.ACTIVITY_EASY)
 		end
 	end)
 	onButton(slot0, slot0.difficultyBtn, function ()
 		if ActivityConst.SWITCH_ACT_MAP_LIMIT then
-			if slot0.playerVO.level >= 50 or slot0 then
+			if uv0.playerVO.level >= 50 or uv0:isClearEasyMaps() then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					modal = true,
 					content = i18n("activity_level_difficulty_tip"),
 					onYes = function ()
-						slot0:emit(LevelDifficultySelMediator.GO_LEVEL_SENCE, Map.ACTIVITY_HARD)
+						uv0:emit(LevelDifficultySelMediator.GO_LEVEL_SENCE, Map.ACTIVITY_HARD)
 					end
 				})
 			else
@@ -62,7 +62,7 @@ function slot0.didEnter(slot0)
 				})
 			end
 		else
-			slot0:emit(LevelDifficultySelMediator.GO_LEVEL_SENCE, Map.ACTIVITY_HARD)
+			uv0:emit(LevelDifficultySelMediator.GO_LEVEL_SENCE, Map.ACTIVITY_HARD)
 		end
 	end)
 end

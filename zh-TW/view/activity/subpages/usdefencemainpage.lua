@@ -1,18 +1,17 @@
 slot0 = class("USDefenceMainPage", import(".TemplatePage.PreviewTemplatePage"))
 
 function slot0.OnInit(slot0)
-	slot0.super.OnInit(slot0)
+	uv0.super.OnInit(slot0)
 	slot0:initUI()
 end
 
 function slot0.OnFirstFlush(slot0)
-	slot0.super.OnFirstFlush(slot0)
+	uv0.super.OnFirstFlush(slot0)
 	slot0:initData()
 	slot0:submitFinishedTask()
 end
 
 function slot0.OnDataSetting(slot0)
-	return
 end
 
 function slot0.OnUpdateFlush(slot0)
@@ -50,22 +49,22 @@ function slot0.updateAwardBtn(slot0)
 		setActive(slot0.finishedTF, false)
 		setActive(slot0.achievedTF, false)
 		onButton(slot0, slot0.awardTF, function ()
-			slot0.taskListView:Reset()
-			slot0.taskListView.Reset.taskListView:Load()
+			uv0.taskListView:Reset()
+			uv0.taskListView:Load()
 		end, SFX_PANEL)
 		onButton(slot0, slot0.achievementBtn, function ()
-			slot0.taskListView:Reset()
-			slot0.taskListView.Reset.taskListView:Load()
+			uv0.taskListView:Reset()
+			uv0.taskListView:Load()
 		end, SFX_PANEL)
 	elseif slot1 == 1 then
 		setActive(slot0.activeTF, false)
 		setActive(slot0.finishedTF, true)
 		setActive(slot0.achievedTF, false)
 		onButton(slot0, slot0.awardTF, function ()
-			slot0:emit(ActivityMediator.ON_TASK_SUBMIT, slot0.taskProxy:getTaskVO(slot0.finalTaskID))
+			uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv0.taskProxy:getTaskVO(uv0.finalTaskID))
 		end, SFX_PANEL)
 		onButton(slot0, slot0.achievementBtn, function ()
-			slot0:emit(ActivityMediator.ON_TASK_SUBMIT, slot0.taskProxy:getTaskVO(slot0.finalTaskID))
+			uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv0.taskProxy:getTaskVO(uv0.finalTaskID))
 		end, SFX_PANEL)
 	elseif slot1 == 2 then
 		setActive(slot0.activeTF, false)

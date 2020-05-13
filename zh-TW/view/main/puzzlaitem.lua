@@ -118,12 +118,14 @@ function slot0.getLocalPosition(slot0)
 end
 
 function slot0.getSurroundPosition(slot0)
+	slot1 = {}
+
 	table.insert(slot1, Vector2(slot0.position.x, slot0.position.y + 1))
 	table.insert(slot1, Vector2(slot0.position.x, slot0.position.y - 1))
 	table.insert(slot1, Vector2(slot0.position.x - 1, slot0.position.y))
-	table.insert({}, Vector2(slot0.position.x + 1, slot0.position.y))
+	table.insert(slot1, Vector2(slot0.position.x + 1, slot0.position.y))
 
-	return 
+	return slot1
 end
 
 return slot0

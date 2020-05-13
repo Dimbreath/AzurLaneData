@@ -8,60 +8,64 @@ function slot0.register(slot0)
 		slot7 = false
 		slot8 = false
 
-		slot0:sendNotification(GAME.SET_SHIP_FLAG, {
-			shipsById = getProxy(BayProxy).getData(slot4),
-			flags = slot0.contextData.flags or {},
+		uv0:sendNotification(GAME.SET_SHIP_FLAG, {
+			shipsById = getProxy(BayProxy):getData(),
+			flags = uv0.contextData.flags or {},
 			callback = function (slot0)
-				for slot4, slot5 in ipairs(slot0) do
-					slot7, slot8 = Ship.ShipStateConflict("inEvent", slot6)
+				slot1, slot2, slot3 = ipairs(uv0)
+
+				for slot4, slot5 in slot1, slot2, slot3 do
+					slot7, slot8 = Ship.ShipStateConflict("inEvent", slot0[slot5])
 
 					if slot7 == Ship.STATE_CHANGE_FAIL then
-						slot1 = true
+						uv1 = true
 					elseif slot7 == Ship.STATE_CHANGE_CHECK then
-						slot2 = true
+						uv2 = true
 					else
-						table.insert(slot3, slot5)
+						table.insert(uv3, slot5)
 					end
 				end
 
-				if slot1 then
+				if uv1 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("collect_tip"))
 				end
 
-				if slot2 then
+				if uv2 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("collect_tip2"))
 				end
 
-				slot4.selectedEvent = slot5
-				slot4.selectedEvent.shipIds = slot3
+				uv4.selectedEvent = uv5
+				uv4.selectedEvent.shipIds = uv3
 
-				slot6:updateEventList(true)
+				uv6:updateEventList(true)
 
-				slot4.selectedEvent = nil
+				uv4.selectedEvent = nil
 			end
 		})
 	end)
 	slot0:bind(EventConst.EVENT_LIST_UPDATE, function (slot0)
-		slot0:updateEventList(true)
+		uv0:updateEventList(true)
 	end)
 	slot0:bind(EventConst.EVENT_OPEN_DOCK, function (slot0, slot1)
 		slot4 = {}
+		slot5, slot6, slot7 = pairs(getProxy(BayProxy):getRawData())
 
-		for slot8, slot9 in pairs(slot3) do
+		for slot8, slot9 in slot5, slot6, slot7 do
 			if not table.contains(slot1.template.ship_type, slot9:getShipType()) or slot9:isActivityNpc() then
 				table.insert(slot4, slot8)
 			end
 		end
 
-		getProxy(EventProxy).selectedEvent = slot1
-		slot16.onShip, slot16.confirmSelect, slot16.onSelected, slot16.onPassShip, slot16.onRemoveShip = slot0:getDockCallbackFuncs()
+		slot5 = getProxy(EventProxy)
+		slot5.selectedEvent = slot1
+		slot6, slot7, slot8, slot9, slot10 = uv0:getDockCallbackFuncs()
 
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMin = 1,
 			skipSelect = true,
 			selectedMax = 6,
 			ignoredIds = slot4,
-			selectedIds = (getProxy(EventProxy).selectedEvent and slot5.selectedEvent.shipIds) or {},
+			selectedIds = slot5.selectedEvent and slot5.selectedEvent.shipIds or {},
 			onShip = slot6,
 			confirmSelect = slot7,
 			onSelected = slot8,
@@ -88,8 +92,9 @@ function slot0.register(slot0)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("event_flush_not_enough"))
 		else
 			slot2 = false
+			slot3, slot4, slot5 = ipairs(slot1.eventList)
 
-			for slot6, slot7 in ipairs(slot1.eventList) do
+			for slot6, slot7 in slot3, slot4, slot5 do
 				if slot7.state ~= EventInfo.StateNone then
 					slot2 = true
 
@@ -98,14 +103,15 @@ function slot0.register(slot0)
 			end
 
 			if slot2 then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("event_confirm_flush"),
-					onYes = function ()
-						slot0:sendNotification(GAME.EVENT_FLUSH)
-					end
-				})
+				slot5.content = i18n("event_confirm_flush")
+
+				function slot5.onYes()
+					uv0:sendNotification(GAME.EVENT_FLUSH)
+				end
+
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({})
 			else
-				slot0:sendNotification(GAME.EVENT_FLUSH)
+				uv0:sendNotification(GAME.EVENT_FLUSH)
 			end
 		end
 	end)
@@ -122,46 +128,49 @@ function slot0.register(slot0)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("event_type_unreached"))
 		else
 			function slot3()
-				slot0:sendNotification(GAME.EVENT_START, {
-					id = slot1.id,
-					shipIds = slot1.shipIds
-				})
+				slot3.id = uv1.id
+				slot3.shipIds = uv1.shipIds
+
+				uv0:sendNotification(GAME.EVENT_START, {})
 			end
 
 			if slot1:getOilConsume() > 0 then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("event_oil_consume", slot4),
-					onYes = function ()
-						slot0()
-					end
-				})
+				slot7.content = i18n("event_oil_consume", slot4)
+
+				function slot7.onYes()
+					uv0()
+				end
+
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({})
 			else
 				slot3()
 			end
 		end
 	end)
 	slot0:bind(EventConst.EVENT_GIVEUP, function (slot0, slot1)
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("event_confirm_giveup"),
-			onYes = function ()
-				slot0:sendNotification(GAME.EVENT_GIVEUP, {
-					id = slot1.id
-				})
-			end
-		})
+		slot4.content = i18n("event_confirm_giveup")
+
+		function slot4.onYes()
+			slot3.id = uv1.id
+
+			uv0:sendNotification(GAME.EVENT_GIVEUP, {})
+		end
+
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
 	end)
 	slot0:bind(EventConst.EVENT_FINISH, function (slot0, slot1)
-		slot0:sendNotification(GAME.EVENT_FINISH, {
-			id = slot1.id
-		})
+		slot5.id = slot1.id
+
+		uv0:sendNotification(GAME.EVENT_FINISH, {})
 	end)
 	slot0:bind(EventConst.EVENT_RECOMMEND, function (slot0, slot1)
-		getProxy(EventProxy).selectedEvent = slot1
+		slot2 = getProxy(EventProxy)
+		slot2.selectedEvent = slot1
 
 		getProxy(EventProxy):fillRecommendShip(slot1)
-		slot0:updateEventList(true, true)
+		uv0:updateEventList(true, true)
 
-		getProxy(EventProxy).selectedEvent = nil
+		slot2.selectedEvent = nil
 
 		if not slot1:reachNum() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("event_recommend_fail"))
@@ -171,11 +180,11 @@ function slot0.register(slot0)
 end
 
 function slot0.listNotificationInterests(slot0)
-	return {
-		GAME.EVENT_LIST_UPDATE,
-		GAME.EVENT_SHOW_AWARDS,
-		EventProxy.EVENT_FLUSHTIMES_UPDATED
-	}
+	slot1[1] = GAME.EVENT_LIST_UPDATE
+	slot1[2] = GAME.EVENT_SHOW_AWARDS
+	slot1[3] = EventProxy.EVENT_FLUSHTIMES_UPDATED
+
+	return {}
 end
 
 function slot0.handleNotification(slot0, slot1)
@@ -187,20 +196,18 @@ function slot0.handleNotification(slot0, slot1)
 		if slot2 == GAME.EVENT_SHOW_AWARDS then
 			slot4 = nil
 
-
-			-- Decompilation error in this vicinity:
 			coroutine.wrap(function ()
-				if #slot0.oldShips > 0 then
-					slot1.viewComponent:emit(BaseUI.ON_SHIP_EXP, {
-						title = pg.collection_template[slot0.eventId].title,
-						oldShips = slot0.oldShips,
-						newShips = slot0.newShips,
-						isCri = slot0.isCri
-					}, )
+				if #uv0.oldShips > 0 then
+					slot3.title = pg.collection_template[uv0.eventId].title
+					slot3.oldShips = uv0.oldShips
+					slot3.newShips = uv0.newShips
+					slot3.isCri = uv0.isCri
+
+					uv1.viewComponent:emit(BaseUI.ON_SHIP_EXP, {}, uv2)
 					coroutine.yield()
 				end
 
-				slot1.viewComponent:emit(BaseUI.ON_ACHIEVE, slot0.awards)
+				uv1.viewComponent:emit(BaseUI.ON_ACHIEVE, uv0.awards)
 			end)()
 
 			return
@@ -216,7 +223,9 @@ end
 
 function slot0.updateEventList(slot0, slot1, slot2)
 	slot3 = getProxy(BayProxy)
-	getProxy(EventProxy).virgin = false
+	slot4 = getProxy(EventProxy)
+	slot4.virgin = false
+	slot5 = slot4.eventList
 
 	table.sort(slot5, function (slot0, slot1)
 		if slot0.state ~= slot1.state then
@@ -230,11 +239,15 @@ function slot0.updateEventList(slot0, slot1, slot2)
 		end
 	end)
 
-	for slot9, slot10 in ipairs(slot5) do
+	slot6, slot7, slot8 = ipairs(slot5)
+
+	for slot9, slot10 in slot6, slot7, slot8 do
 		slot10.ships = {}
 
-		if slot10.state == EventInfo.StateNone and slot10 ~= slot4.selectedEvent then
-			slot10.shipIds = {}
+		if slot10.state == EventInfo.StateNone then
+			if slot10 ~= slot4.selectedEvent then
+				slot10.shipIds = {}
+			end
 		else
 			for slot14 = #slot10.shipIds, 1, -1 do
 				if slot3:getShipById(slot10.shipIds[slot14]) then
@@ -261,10 +274,10 @@ function slot0.getDockCallbackFuncs(slot0)
 			return Ship.ChangeStateCheckBox(slot4, slot0, slot1)
 		end
 
-		slot5 = getProxy(BayProxy)
+		slot6, slot7, slot8 = ipairs(slot2)
 
-		for slot9, slot10 in ipairs(slot2) do
-			if slot0:isSameKind(slot5:getShipById(slot10)) then
+		for slot9, slot10 in slot6, slot7, slot8 do
+			if slot0:isSameKind(getProxy(BayProxy):getShipById(slot10)) then
 				return false, i18n("event_same_type_not_allowed")
 			end
 		end
@@ -276,24 +289,34 @@ function slot0.getDockCallbackFuncs(slot0)
 		getProxy(EventProxy).selectedEvent.shipIds = slot0
 	end, function (slot0, slot1)
 		slot2 = {}
+		slot3, slot4, slot5 = pairs(slot1)
 
-		for slot6, slot7 in pairs(slot1) do
-			if slot0.id ~= slot7.id and slot7:isSameKind(slot0) then
-				slot7.blackBlock = true
+		for slot6, slot7 in slot3, slot4, slot5 do
+			if slot0.id ~= slot7.id then
+				if slot7:isSameKind(slot0) then
+					slot7.blackBlock = true
 
-				table.insert(slot2, slot7.id)
+					table.insert(slot2, slot7.id)
+				end
 			end
 		end
 
 		return slot2
 	end, function (slot0, slot1)
 		slot2 = {}
+		slot3, slot4, slot5 = pairs(slot1)
 
-		for slot6, slot7 in pairs(slot1) do
-			if slot0.id ~= slot7.id and not slot7.inEvent and slot7:isSameKind(slot0) and slot7.blackBlock then
-				table.insert(slot2, slot7.id)
+		for slot6, slot7 in slot3, slot4, slot5 do
+			if slot0.id ~= slot7.id then
+				if not slot7.inEvent then
+					if slot7:isSameKind(slot0) then
+						if slot7.blackBlock then
+							table.insert(slot2, slot7.id)
 
-				slot7.blackBlock = nil
+							slot7.blackBlock = nil
+						end
+					end
+				end
 			end
 		end
 

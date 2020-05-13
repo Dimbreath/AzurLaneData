@@ -11,14 +11,14 @@ slot1 = {
 }
 
 function slot0.dutyId2Name(slot0)
-	return slot0[slot0]
+	return uv0[slot0]
 end
 
 function slot0.Ctor(slot0, slot1)
-	slot0.super.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1)
 
 	slot0.liveness = slot1.liveness or 0
-	slot0.duty = slot1.duty or slot0.DUTY_ORDINARY
+	slot0.duty = slot1.duty or uv0.DUTY_ORDINARY
 end
 
 function slot0.setDuty(slot0, slot1)

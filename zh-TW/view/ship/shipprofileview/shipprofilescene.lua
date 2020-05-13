@@ -13,9 +13,9 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.preload(slot0, slot1)
-	slot3 = getProxy(CollectionProxy).getShipGroup(slot2, slot0.contextData.groupId)
+	slot3 = getProxy(CollectionProxy):getShipGroup(slot0.contextData.groupId)
 
-	GetSpriteFromAtlasAsync("bg/star_level_bg_" .. shipRarity2bgPrint(slot5, slot3:GetSkin(slot0.contextData.showTrans).id, slot3:isBluePrintGroup()), "", slot1)
+	GetSpriteFromAtlasAsync("bg/star_level_bg_" .. shipRarity2bgPrint(slot3:getRarity(slot0.showTrans), slot3:GetSkin(slot0.contextData.showTrans).id, slot3:isBluePrintGroup()), "", slot1)
 end
 
 function slot0.setShipGroup(slot0, slot1)
@@ -81,7 +81,7 @@ function slot0.init(slot0)
 
 	slot1:SetCvLoader(slot0.cvLoader)
 	slot1:SetCallback(function (slot0)
-		slot0:OnCVBtnClick(slot0)
+		uv0:OnCVBtnClick(slot0)
 	end)
 
 	slot0.pages = {
@@ -93,63 +93,68 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.btnBack, function ()
-		slot0:emit(slot1.ON_BACK)
+		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.obtainBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_OBTAIN,
-			shipId = slot0.shipGroup:getShipConfigId(),
-			list = slot0.shipGroup.groupConfig.description,
+			shipId = uv0.shipGroup:getShipConfigId(),
+			list = uv0.shipGroup.groupConfig.description,
 			mediatorName = ShipProfileMediator.__cname
 		})
 	end)
 	onButton(slot0, slot0.evaBtn, function ()
-		slot0:emit(slot1.SHOW_EVALUATION)
+		uv0:emit(uv1.SHOW_EVALUATION)
 	end, SFX_PANEL)
 	setActive(slot0.evaBtn, not slot0.contextData.showTrans)
 	onButton(slot0, slot0.viewBtn, function ()
-		slot0.paintingView:Start()
+		uv0.paintingView:Start()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.shareBtn, function ()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeShipProfile)
 	end, SFX_PANEL)
-	onButton(slot0, slot0.rotateBtn, function ()
-		setActive(slot0._tf, false)
-		setActive:emit(ShipProfileMediator.CLICK_ROTATE_BTN, slot0.shipGroup, slot0.showTrans, slot0.skin)
-	end, SFX_PANEL)
+
+	function slot4()
+		setActive(uv0._tf, false)
+		uv0:emit(ShipProfileMediator.CLICK_ROTATE_BTN, uv0.shipGroup, uv0.showTrans, uv0.skin)
+	end
+
+	slot5 = SFX_PANEL
+
+	onButton(slot0, slot0.rotateBtn, slot4, slot5)
 	slot0.live2DBtn:AddListener(function (slot0)
 		if slot0 then
-			slot0:CreateLive2D()
+			uv0:CreateLive2D()
 		end
 
-		setActive(slot0.viewBtn, not slot0)
-		setActive(slot0.rotateBtn, not slot0)
-		setActive(slot0.commonPainting, not slot0)
-		setActive(slot0.l2dRoot, slot0)
-		slot0:StopDailogue()
+		setActive(uv0.viewBtn, not slot0)
+		setActive(uv0.rotateBtn, not slot0)
+		setActive(uv0.commonPainting, not slot0)
+		setActive(uv0.l2dRoot, slot0)
+		uv0:StopDailogue()
 
-		slot0.l2dActioning = nil
+		uv0.l2dActioning = nil
 
-		if slot0.skin then
-			slot0.pages[slot1.INDEX_PROFILE]:ExecuteAction("Flush", slot0.skin, slot0)
+		if uv0.skin then
+			uv0.pages[uv1.INDEX_PROFILE]:ExecuteAction("Flush", uv0.skin, slot0)
 		end
 	end)
 
 	for slot4, slot5 in ipairs(slot0.toggles) do
 		onToggle(slot0, slot5, function (slot0)
-			if slot0 == slot1.INDEX_DETAIL then
-				slot2.live2DBtn:Update(slot2.paintingName, false)
+			if uv0 == uv1.INDEX_DETAIL then
+				uv2.live2DBtn:Update(uv2.paintingName, false)
 			end
 
 			if slot0 then
-				slot2:SwitchPage(slot0)
+				uv2:SwitchPage(uv0)
 			end
 		end, SFX_PANEL)
 	end
 
 	slot0:InitCommon()
 	slot0.live2DBtn:Update(slot0.paintingName, false)
-	triggerToggle(slot0.toggles[slot0.INDEX_DETAIL], true)
+	triggerToggle(slot0.toggles[uv0.INDEX_DETAIL], true)
 	setActive(slot0.bottomTF, false)
 end
 
@@ -158,28 +163,29 @@ function slot0.InitSkinList(slot0)
 
 	slot0.UISkinList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0.groupSkinList[slot1 + 1]
 			slot4 = ShipProfileSkinBtn.New(slot2)
 
-			table.insert(slot0.skinBtns, slot4)
-			slot4:Update(slot3, slot0.shipGroup, table.contains(slot0.ownedSkinList, slot0.groupSkinList[slot1 + 1].id))
-			onButton(slot0, slot4._tf, function ()
-				if not slot0.unlock then
+			table.insert(uv0.skinBtns, slot4)
+			slot4:Update(slot3, uv0.shipGroup, table.contains(uv0.ownedSkinList, slot3.id))
+			onButton(uv0, slot4._tf, function ()
+				if not uv0.unlock then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_profile_skin_locked"))
 
 					return
 				end
 
-				slot1.contextData.skinIndex = slot2 + 1
+				uv1.contextData.skinIndex = uv2 + 1
 
-				slot2 + 1:ShiftSkin(slot3)
+				uv1:ShiftSkin(uv3)
 
-				if slot1.prevSkinBtn then
-					slot1.prevSkinBtn:UnShift()
+				if uv1.prevSkinBtn then
+					uv1.prevSkinBtn:UnShift()
 				end
 
-				slot0:Shift()
+				uv0:Shift()
 
-				slot0.prevSkinBtn = slot0
+				uv1.prevSkinBtn = uv0
 			end, SFX_PANEL)
 		end
 	end)
@@ -187,15 +193,17 @@ function slot0.InitSkinList(slot0)
 end
 
 function slot0.InitCommon(slot0)
+	slot1 = slot0.shipGroup.shipConfig
 	slot2 = slot0.shipGroup:getPainting(slot0.showTrans)
 
-	slot0:LoadSkinBg(shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot3, slot0.isBluePrintGroup))
+	slot0:LoadSkinBg(shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.shipGroup:GetSkin(slot0.showTrans).id, slot0.isBluePrintGroup))
 	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", slot0.shipGroup:getShipType(slot0.showTrans)))
 
-	slot0.labelName.text = slot0.shipGroup:getName(slot0.showTrans)
-	slot0.labelEnName.text = slot0.shipGroup.shipConfig.english_name
+	slot7 = slot0.showTrans
+	slot0.labelName.text = slot0.shipGroup:getName(slot7)
+	slot0.labelEnName.text = slot1.english_name
 
-	for slot7 = 1, slot0.shipGroup.shipConfig.star, 1 do
+	for slot7 = 1, slot1.star do
 		cloneTplTo(slot0.star, slot0.stars)
 	end
 
@@ -210,9 +218,11 @@ function slot0.SetPainting(slot0, slot1, slot2)
 		slot1 = slot0.shipGroup.groupConfig.trans_skin
 	end
 
-	setPaintingPrefabAsync(slot0.painting, pg.ship_skin_template[slot1].painting, "chuanwu")
+	slot3 = pg.ship_skin_template[slot1].painting
 
-	slot0.paintingName = pg.ship_skin_template[slot1].painting
+	setPaintingPrefabAsync(slot0.painting, slot3, "chuanwu")
+
+	slot0.paintingName = slot3
 end
 
 function slot0.RecyclePainting(slot0)
@@ -222,9 +232,9 @@ function slot0.RecyclePainting(slot0)
 end
 
 function slot0.FlushHearts(slot0)
-	setText(slot0.labelHeart, (slot0.shipGroup.hearts > 999 and "999+") or slot1)
+	setText(slot0.labelHeart, slot0.shipGroup.hearts > 999 and "999+" or slot1)
 
-	slot0.labelHeart:GetComponent("Text").color = (slot0.shipGroup.iheart and Color.New(1, 0.6, 0.6)) or Color.New(1, 1, 1)
+	slot0.labelHeart:GetComponent("Text").color = slot0.shipGroup.iheart and Color.New(1, 0.6, 0.6) or Color.New(1, 1, 1)
 
 	setActive(slot0.btnLikeDisact, not slot0.shipGroup.iheart)
 	setActive(slot0.btnLikeAct, slot0.shipGroup.iheart)
@@ -237,11 +247,11 @@ function slot0.LoadSkinBg(slot0, slot1)
 		slot0.shipSkinBg = slot1
 
 		function slot3()
-			PoolMgr.GetInstance():GetUI("raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans), true, function (slot0)
-				slot0.designBg = slot0
-				slot0.designName = "raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans)
+			PoolMgr.GetInstance():GetUI("raritydesign" .. uv0.shipGroup:getRarity(uv0.showTrans), true, function (slot0)
+				uv0.designBg = slot0
+				uv0.designName = "raritydesign" .. uv0.shipGroup:getRarity(uv0.showTrans)
 
-				slot0.transform:SetParent(slot0.staticBg, false)
+				slot0.transform:SetParent(uv0.staticBg, false)
 
 				slot0.transform.localPosition = Vector3(1, 1, 1)
 				slot0.transform.localScale = Vector3(1, 1, 1)
@@ -254,20 +264,20 @@ function slot0.LoadSkinBg(slot0, slot1)
 		pg.DynamicBgMgr.GetInstance():LoadBg(slot0, slot1, slot0.bg, slot0.staticBg, function (slot0)
 			rtf(slot0).localPosition = Vector3(0, 0, 200)
 		end, function (slot0)
-			if slot0.bluePintBg and slot1 == slot0.bluePintBg then
-				if slot0.designBg and slot0.designName ~= "raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans) then
-					PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
+			if uv0.bluePintBg and uv1 == uv0.bluePintBg then
+				if uv0.designBg and uv0.designName ~= "raritydesign" .. uv0.shipGroup:getRarity(uv0.showTrans) then
+					PoolMgr.GetInstance():ReturnUI(uv0.designName, uv0.designBg)
 
-					slot0.designBg = nil
+					uv0.designBg = nil
 				end
 
-				if not slot0.designBg then
-					slot2()
+				if not uv0.designBg then
+					uv2()
 				else
-					setActive(slot0.designBg, true)
+					setActive(uv0.designBg, true)
 				end
-			elseif slot0.designBg then
-				setActive(slot0.designBg, false)
+			elseif uv0.designBg then
+				setActive(uv0.designBg, false)
 			end
 		end)
 	end
@@ -277,49 +287,53 @@ function slot0.SwitchPage(slot0, slot1)
 	if slot0.index ~= slot1 then
 		seriesAsync({
 			function (slot0)
-				pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
+				pg.UIMgr.GetInstance():OverlayPanel(uv0.blurPanel, {
 					groupName = LayerWeightConst.GROUP_SHIP_PROFILE
 				})
 				slot0()
 			end,
 			function (slot0)
-				slot2 = slot0.pages[] == slot2.INDEX_PROFILE and not slot1:GetLoaded()
+				slot1 = uv0.pages[uv1]
+				slot2 = uv1 == uv2.INDEX_PROFILE and not slot1:GetLoaded()
 
-				slot1:ExecuteAction("Update", slot0.shipGroup, slot0.showTrans, function ()
-					if slot0 then
-						slot1:InitSkinList()
+				slot1:ExecuteAction("Update", uv0.shipGroup, uv0.showTrans, function ()
+					if uv0 then
+						uv1:InitSkinList()
 					end
 
-					slot2()
+					uv2()
 				end)
 			end,
 			function (slot0)
-				if not slot0.index then
+				if not uv0.index then
 					slot0()
 
 					return
 				end
 
-				slot0.pages[slot0.index]:ExecuteAction("ExistAnim", slot0.pages[slot0.index])
+				uv0.pages[uv0.index]:ExecuteAction("ExistAnim", uv1)
 				slot0()
 			end,
 			function (slot0)
-				SetParent(slot0.bottomTF, slot0.pages[]._tf)
-				setActive(slot0.bottomTF, true)
-				setAnchoredPosition(slot0.bottomTF, {
+				slot1 = uv0.pages[uv1]
+
+				SetParent(uv0.bottomTF, slot1._tf)
+				setActive(uv0.bottomTF, true)
+				setAnchoredPosition(uv0.bottomTF, {
 					z = 0,
 					x = -7,
 					y = 24
 				})
-				slot0.pages[].ExecuteAction(slot1, "EnterAnim", slot0.pages[].ExecuteAction)
-				slot0:TweenPage(slot0.pages[])
+				slot1:ExecuteAction("EnterAnim", uv2)
+				uv0:TweenPage(uv1)
 				slot0()
 			end,
 			function (slot0)
-				slot0.index = slot0
+				uv0.index = uv1
+				slot1 = uv0.contextData.skinIndex or 1
 
-				if (slot0.contextData.skinIndex or 1) == slot2.INDEX_PROFILE and slot1 <= #slot0.skinBtns then
-					triggerButton(slot0.skinBtns[slot1]._tf)
+				if uv1 == uv2.INDEX_PROFILE and slot1 <= #uv0.skinBtns then
+					triggerButton(uv0.skinBtns[slot1]._tf)
 				end
 			end
 		})
@@ -327,21 +341,21 @@ function slot0.SwitchPage(slot0, slot1)
 end
 
 function slot0.TweenPage(slot0, slot1)
-	if slot1 == slot0.INDEX_DETAIL then
-		LeanTween.moveX(rtf(slot0.leftProfile), -500, slot1):setEase(LeanTweenType.easeInOutSine)
-		LeanTween.moveY(rtf(slot0.live2DBtn._tf), -70, slot1):setEase(LeanTweenType.easeInOutSine)
-		LeanTween.moveX(rtf(slot0.painting), slot0.paintingInitPos.x, slot1):setEase(LeanTweenType.easeInOutSine)
-		LeanTween.moveX(rtf(slot0.name), slot0.nameInitPos.x, slot1):setEase(LeanTweenType.easeInOutSine)
-	elseif slot1 == slot0.INDEX_PROFILE then
-		LeanTween.moveX(rtf(slot0.leftProfile), 0, slot1):setEase(LeanTweenType.easeInOutSine)
-		LeanTween.moveY(rtf(slot0.live2DBtn._tf), 60, slot1):setEase(LeanTweenType.easeInOutSine)
-		LeanTween.moveX(rtf(slot0.painting), slot0.paintingInitPos.x + 50, slot1):setEase(LeanTweenType.easeInOutSine)
-		LeanTween.moveX(rtf(slot0.name), slot0.nameInitPos.x + 50, slot1):setEase(LeanTweenType.easeInOutSine)
+	if slot1 == uv0.INDEX_DETAIL then
+		LeanTween.moveX(rtf(slot0.leftProfile), -500, uv1):setEase(LeanTweenType.easeInOutSine)
+		LeanTween.moveY(rtf(slot0.live2DBtn._tf), -70, uv1):setEase(LeanTweenType.easeInOutSine)
+		LeanTween.moveX(rtf(slot0.painting), slot0.paintingInitPos.x, uv1):setEase(LeanTweenType.easeInOutSine)
+		LeanTween.moveX(rtf(slot0.name), slot0.nameInitPos.x, uv1):setEase(LeanTweenType.easeInOutSine)
+	elseif slot1 == uv0.INDEX_PROFILE then
+		LeanTween.moveX(rtf(slot0.leftProfile), 0, uv1):setEase(LeanTweenType.easeInOutSine)
+		LeanTween.moveY(rtf(slot0.live2DBtn._tf), 60, uv1):setEase(LeanTweenType.easeInOutSine)
+		LeanTween.moveX(rtf(slot0.painting), slot0.paintingInitPos.x + 50, uv1):setEase(LeanTweenType.easeInOutSine)
+		LeanTween.moveX(rtf(slot0.name), slot0.nameInitPos.x + 50, uv1):setEase(LeanTweenType.easeInOutSine)
 	end
 end
 
 function slot0.ShiftSkin(slot0, slot1)
-	if slot0.index ~= slot0.INDEX_PROFILE or (slot0.skin and slot1.id == slot0.skin.id) then
+	if slot0.index ~= uv0.INDEX_PROFILE or slot0.skin and slot1.id == slot0.skin.id then
 		return
 	end
 
@@ -351,7 +365,7 @@ function slot0.ShiftSkin(slot0, slot1)
 	slot0:SetPainting(slot1.id, false)
 	slot0.live2DBtn:Disable()
 	slot0.live2DBtn:Update(slot0.paintingName, false)
-	slot0.pages[slot0.INDEX_PROFILE].ExecuteAction(slot2, "Flush", slot1, false)
+	slot0.pages[uv0.INDEX_PROFILE]:ExecuteAction("Flush", slot1, false)
 
 	slot3 = nil
 
@@ -370,16 +384,16 @@ function slot0.LoadModel(slot0, slot1)
 	slot0.inLoading = true
 
 	PoolMgr.GetInstance():GetSpineChar(slot1.prefab, true, function (slot0)
-		slot0.inLoading = false
-		slot0.name = slot0
+		uv0.inLoading = false
+		slot0.name = uv1
 		slot0.transform.localPosition = Vector3.zero
 		slot0.transform.localScale = Vector3(0.8, 0.8, 1)
 
-		slot0.transform:SetParent(slot0.modelContainer, false)
-		slot0:GetComponent(typeof(SpineAnimUI)).SetAction(slot2, slot2.show_skin or "stand", true)
+		slot0.transform:SetParent(uv0.modelContainer, false)
+		slot0:GetComponent(typeof(SpineAnimUI)):SetAction(uv2.show_skin or "stand", true)
 
-		slot0.characterModel = slot0
-		slot0.modelName = slot0
+		uv0.characterModel = slot0
+		uv0.modelName = uv1
 	end)
 end
 
@@ -396,8 +410,16 @@ function slot0.CreateLive2D(slot0)
 		slot0.l2dChar:Dispose()
 	end
 
-	slot0.l2dChar = Live2D.New(slot2, function ()
-		slot0.live2DBtn:SetEnable(true)
+	slot0.l2dChar = Live2D.New(Live2D.live2dData({
+		ship = Ship.New({
+			configId = slot0.shipGroup:getShipConfigId(),
+			skin_id = slot0.skin.id
+		}),
+		scale = Vector3(52, 52, 52),
+		position = Vector3(0, -40, 100),
+		parent = slot0.l2dRoot
+	}), function ()
+		uv0.live2DBtn:SetEnable(true)
 	end)
 
 	if isHalfBodyLive2D(slot0.skin.prefab) then
@@ -427,35 +449,39 @@ function slot0.OnCVBtnClick(slot0, slot1)
 	end
 
 	function slot3()
-		slot0:UpdatePaintingFace(slot0)
+		uv0:UpdatePaintingFace(uv1)
 
-		if slot0.UpdatePaintingFace.characterModel then
-			slot0.characterModel:GetComponent(typeof(SpineAnimUI)):SetAction(slot0:GetModelAction(slot2), 0)
+		if uv0.characterModel then
+			uv0.characterModel:GetComponent(typeof(SpineAnimUI)):SetAction(uv0:GetModelAction(uv2), 0)
 		end
 
-		if slot0.live2DBtn.isOn and slot0.l2dChar then
-			slot0.l2dActioning = true
+		slot0 = {
+			uv3.CHAT_SHOW_TIME
+		}
+
+		if uv0.live2DBtn.isOn and uv0.l2dChar then
+			uv0.l2dActioning = true
 
 			parallelAsync({
 				function (slot0)
-					slot0.l2dChar:TriggerAction(slot1.l2d_action, slot0)
+					uv0.l2dChar:TriggerAction(uv1.l2d_action, slot0)
 				end,
 				function (slot0)
-					slot0:PlayVoice(slot0.PlayVoice, slot0)
-					slot0:ShowDailogue(slot0.ShowDailogue, slot0, slot0)
+					uv0:PlayVoice(uv1, uv2)
+					uv0:ShowDailogue(uv1, uv2, slot0)
 				end
 			}, function ()
-				slot0.l2dActioning = false
+				uv0.l2dActioning = false
 			end)
 		else
-			slot0:PlayVoice(slot0.PlayVoice, slot0)
-			slot0:ShowDailogue(slot0.ShowDailogue, slot0)
+			uv0:PlayVoice(uv1, slot0)
+			uv0:ShowDailogue(uv1, slot0)
 		end
 	end
 
 	if slot1.voice.key == "unlock" and slot0.haveOp then
 		slot0:playOpening(true, function ()
-			slot0()
+			uv0()
 		end, "star_level_unlock_anim_" .. slot0.skin.id)
 	else
 		slot3()
@@ -493,7 +519,7 @@ function slot0.PlayVoice(slot0, slot1, slot2)
 
 		slot0.cvLoader:DelayPlaySound(slot3.cvPath, slot6, function (slot0)
 			if slot0 then
-				slot0[1] = long2int(slot0.length) * 0.001
+				uv0[1] = long2int(slot0.length) * 0.001
 			end
 		end)
 	end
@@ -522,564 +548,141 @@ function slot0.RemoveCvTimer(slot0)
 end
 
 function slot0.ShowDailogue(slot0, slot1, slot2, slot3)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-2, warpins: 1 ---
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 4-7, warpins: 2 ---
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 16-33, warpins: 2 ---
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 40-46, warpins: 2 ---
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 63-94, warpins: 2 ---
-	if not slot3 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 3-3, warpins: 1 ---
-		function slot3()
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-1, warpins: 1 ---
-			return
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
 	if not slot1.wordData.textContent or slot4 == "" or slot4 == "nil" then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 12-15, warpins: 3 ---
-		slot3()
+		slot3 or function ()
+		end()
 
 		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
 	slot5 = slot1.wordData.voiceCalibrate
 
 	setText(slot0.chatText, slot4)
 
-	if CHAT_POP_STR_LEN >= #slot0.chatText:GetComponent(typeof(Text)).text or not TextAnchor.MiddleLeft then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 38-39, warpins: 2 ---
-		slot7 = TextAnchor.MiddleCenter
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	slot6.alignment = slot7
-	slot8 = slot0.chatBg
-
-	if slot0.initChatBgH >= slot6.preferredHeight + 120 or not Vector2.New(slot0.chatBg.sizeDelta.x, slot7) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 56-62, warpins: 2 ---
-		slot9 = Vector2.New(slot0.chatBg.sizeDelta.x, slot0.initChatBgH)
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	slot8.sizeDelta = slot9
+	slot6.alignment = CHAT_POP_STR_LEN < #slot0.chatText:GetComponent(typeof(Text)).text and TextAnchor.MiddleLeft or TextAnchor.MiddleCenter
+	slot0.chatBg.sizeDelta = slot0.initChatBgH < slot6.preferredHeight + 120 and Vector2.New(slot0.chatBg.sizeDelta.x, slot7) or Vector2.New(slot0.chatBg.sizeDelta.x, slot0.initChatBgH)
 
 	slot0:StopDailogue()
 	setActive(slot0.chatTF, true)
-
-	slot9 = LeanTween.scale(rtf(slot0.chatTF.gameObject), Vector3.New(1, 1, 1), slot0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeOutBack)
-	slot8 = LeanTween.scale(rtf(slot0.chatTF.gameObject), Vector3.New(1, 1, 1), slot0.CHAT_ANIMATION_TIME).setEase(LeanTweenType.easeOutBack).setDelay
-	slot10 = (slot5 and slot5) or 0
-
-	slot8(LeanTween.scale(rtf(slot0.chatTF.gameObject), Vector3.New(1, 1, 1), slot0.CHAT_ANIMATION_TIME).setEase(LeanTweenType.easeOutBack), slot10):setOnComplete(System.Action(function ()
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-37, warpins: 1 ---
-		LeanTween.scale(rtf(slot0.chatTF.gameObject), Vector3.New(0, 0, 1), slot1.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeInBack):setDelay(slot1.CHAT_ANIMATION_TIME + slot2[1]):setOnComplete(System.Action(slot2[1]))
-
-		return
-		--- END OF BLOCK #0 ---
-
-
-
+	LeanTween.scale(rtf(slot0.chatTF.gameObject), Vector3.New(1, 1, 1), uv0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeOutBack):setDelay(slot5 and slot5 or 0):setOnComplete(System.Action(function ()
+		LeanTween.scale(rtf(uv0.chatTF.gameObject), Vector3.New(0, 0, 1), uv1.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeInBack):setDelay(uv1.CHAT_ANIMATION_TIME + uv2[1]):setOnComplete(System.Action(uv3))
 	end))
-
-	return
-
-	--- END OF BLOCK #4 ---
-
-	FLOW; TARGET BLOCK #6
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #5 95-96, warpins: 1 ---
-	if not slot5 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 97-97, warpins: 2 ---
-		slot10 = 0
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-	--- END OF BLOCK #5 ---
-
-	FLOW; TARGET BLOCK #6
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #6 98-107, warpins: 2 ---
-	--- END OF BLOCK #6 ---
-
-
-
 end
 
 function slot0.StopDailogue(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-12, warpins: 1 ---
 	LeanTween.cancel(slot0.chatTF.gameObject)
 
 	slot0.chatTF.localScale = Vector3(0, 0)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function slot0.onBackPressed(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-4, warpins: 1 ---
 	if slot0.paintingView.isPreview then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 5-10, warpins: 1 ---
 		slot0.paintingView:Finish(true)
 
 		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 11-14, warpins: 2 ---
 	triggerButton(slot0.btnBack)
-
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot0.playOpening(slot0, slot1, slot2, slot3)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-9, warpins: 1 ---
 	slot0.onPlayingOP = true
 
 	function slot4()
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-4, warpins: 1 ---
-		if not slot0.openingTF then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 5-5, warpins: 1 ---
+		if not uv0.openingTF then
 			return
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #0 ---
+		setActive(uv0.openingTF, false)
 
-		FLOW; TARGET BLOCK #1
+		uv0.openingAni.enabled = false
 
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 6-18, warpins: 2 ---
-		setActive(slot0.openingTF, false)
-
-		setActive.openingAni.enabled = false
-
-		if setActive.openingAni.criAni then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 19-23, warpins: 1 ---
-			slot0.criAni:Stop()
-			--- END OF BLOCK #0 ---
-
-
-
+		if uv0.criAni then
+			uv0.criAni:Stop()
 		end
 
-		--- END OF BLOCK #1 ---
+		if uv0.openingTF then
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.openingTF.transform, uv0._tf)
+			Destroy(uv0.openingTF)
 
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 24-27, warpins: 2 ---
-		if slot0.openingTF then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 28-46, warpins: 1 ---
-			pg.UIMgr.GetInstance():UnOverlayPanel(slot0.openingTF.transform, slot0._tf)
-			Destroy(slot0.openingTF)
-
-			Destroy.openingTF = nil
-			--- END OF BLOCK #0 ---
-
-
-
+			uv0.openingTF = nil
 		end
 
-		--- END OF BLOCK #2 ---
-
-		FLOW; TARGET BLOCK #3
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #3 47-49, warpins: 2 ---
-		if slot1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 50-51, warpins: 1 ---
-			slot1()
-			--- END OF BLOCK #0 ---
-
-
-
+		if uv1 then
+			uv1()
 		end
-
-		--- END OF BLOCK #3 ---
-
-		FLOW; TARGET BLOCK #4
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #4 52-52, warpins: 2 ---
-		return
-		--- END OF BLOCK #4 ---
-
-
-
 	end
 
 	function slot5()
+		uv0.openingAni.enabled = true
 
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-30, warpins: 1 ---
-		slot0.openingAni.enabled = true
-
-		onButton(onButton, slot0.openingTF, function ()
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-3, warpins: 1 ---
-			if slot0 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 4-5, warpins: 1 ---
-				slot1()
-				--- END OF BLOCK #0 ---
-
-
-
+		onButton(uv0, uv0.openingTF, function ()
+			if uv0 then
+				uv1()
 			end
-
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 6-6, warpins: 2 ---
-			return
-			--- END OF BLOCK #1 ---
-
-
-
 		end)
 
-		slot0 = onButton.openingTF:GetComponent("DftAniEvent")
+		slot0 = uv0.openingTF:GetComponent("DftAniEvent")
 
 		slot0:SetStartEvent(function (slot0)
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-4, warpins: 1 ---
-			if slot0.criAni then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 5-9, warpins: 1 ---
-				slot0.criAni:Play()
-				--- END OF BLOCK #0 ---
-
-
-
+			if uv0.criAni then
+				uv0.criAni:Play()
 			end
-
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 10-10, warpins: 2 ---
-			return
-			--- END OF BLOCK #1 ---
-
-
-
 		end)
 		slot0:SetEndEvent(function (slot0)
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-3, warpins: 1 ---
-			slot0()
-
-			return
-			--- END OF BLOCK #0 ---
-
-
-
+			uv0()
 		end)
-		setActive(slot0.openingTF, true)
-
-		return
-		--- END OF BLOCK #0 ---
-
-
-
+		setActive(uv0.openingTF, true)
 	end
 
 	if IsNil(slot0.openingTF) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 10-22, warpins: 1 ---
 		pg.UIMgr.GetInstance():LoadingOn()
 		LoadAndInstantiateAsync("ui", slot3, function (slot0)
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-53, warpins: 1 ---
 			slot0:SetActive(false)
 
-			slot0.openingTF = slot0
+			uv0.openingTF = slot0
 
-			pg.UIMgr.GetInstance():OverlayPanel(slot0.openingTF.transform)
+			pg.UIMgr.GetInstance():OverlayPanel(uv0.openingTF.transform)
 
-			slot0.criAni = tf(slot0.openingTF):Find("usm"):GetComponent("CriManaEffectUI")
+			uv0.criAni = tf(uv0.openingTF):Find("usm"):GetComponent("CriManaEffectUI")
 
-			setActive(slot0.openingTF, false)
+			setActive(uv0.openingTF, false)
 
-			slot0.openingAni = slot0.openingTF:GetComponent("Animator")
+			uv0.openingAni = uv0.openingTF:GetComponent("Animator")
 
-			slot0()
+			uv1()
 			pg.UIMgr.GetInstance():LoadingOff()
-
-			return
-			--- END OF BLOCK #0 ---
-
-
-
 		end)
-		--- END OF BLOCK #0 ---
-
-
-
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 23-24, warpins: 1 ---
 		slot5()
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 25-26, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot0.willExit(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-17, warpins: 1 ---
 	SetParent(slot0.bottomTF, slot0._tf)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 
-	--- END OF BLOCK #0 ---
+	slot4 = slot0._tf
 
-	FLOW; TARGET BLOCK #1
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot4)
 
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 18-22, warpins: 0 ---
 	for slot4, slot5 in ipairs(slot0.pages) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 18-20, warpins: 1 ---
 		slot5:Destroy()
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 21-22, warpins: 2 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 23-25, warpins: 1 ---
 	if slot0.l2dChar then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 26-29, warpins: 1 ---
 		slot0.l2dChar:Dispose()
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 30-52, warpins: 2 ---
 	slot0.paintingView:Dispose()
 	slot0.live2DBtn:Dispose()
 	slot0.cvLoader:Unload()
 	slot0:ReturnModel()
 	slot0:RecyclePainting()
-
-	slot1 = _.each
-
-	if not slot0.skinBtns then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 53-53, warpins: 1 ---
-		slot2 = {}
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 54-62, warpins: 2 ---
-	slot1(slot2, function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-4, warpins: 1 ---
+	_.each(slot0.skinBtns or {}, function (slot0)
 		slot0:Dispose()
-
-		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end)
 	slot0:RemoveCvTimer()
 	slot0:RemoveCvSeTimer()
-
-	return
-	--- END OF BLOCK #4 ---
-
-
-
 end
 
 return slot0

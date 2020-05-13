@@ -6177,5 +6177,3 @@ pg.auto_pilot_template = {
 		}
 	}
 }
-
-return

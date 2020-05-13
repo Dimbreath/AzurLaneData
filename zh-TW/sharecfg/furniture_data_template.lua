@@ -34801,5 +34801,3 @@ pg.furniture_data_template = {
 		59110
 	}
 }
-
-return

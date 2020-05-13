@@ -1,82 +1,80 @@
 pg = pg or {}
-pg.ConnectionMgr = singletonClass("ConnectionMgr")
+slot0 = pg
+slot0.ConnectionMgr = singletonClass("ConnectionMgr")
+slot1 = slot0.ConnectionMgr
 slot2 = createLog("ConnectionMgr", LOG_CONNECTION)
 slot3, slot4, slot5, slot6 = nil
 slot7 = false
 slot8 = {}
 slot9, slot10, slot11, slot12 = nil
-pg.ConnectionMgr.needStartSend = false
+slot1.needStartSend = false
 
-function pg.ConnectionMgr.Connect(slot0, slot1, slot2, slot3, slot4)
-	slot0.erroCode = slot4
+function slot1.Connect(slot0, slot1, slot2, slot3, slot4)
+	uv0.erroCode = slot4
+	uv1 = Connection.New(slot1, slot2)
 
-	slot2.UIMgr.GetInstance():LoadingOn()
-	slot1.onConnected:AddListener(function ()
+	uv2.UIMgr.GetInstance():LoadingOn()
+	uv1.onConnected:AddListener(function ()
+		uv0.UIMgr.GetInstance():LoadingOff()
+		uv1("Network Connected.")
 
-		-- Decompilation error in this vicinity:
-		slot0.UIMgr.GetInstance():LoadingOff()
+		uv2 = uv3
+		uv4 = uv5
+		uv6 = uv6 or uv0.SendWindow.New(uv7, 0)
 
-		-- Decompilation error in this vicinity:
-		slot0.UIMgr.GetInstance()("Network Connected.")
+		uv8.onData:AddListener(uv6.onData)
 
-		slot2 = slot3
-		slot4 = slot5
-		slot0 = slot6 or slot0.SendWindow.New(slot7, 0)
+		uv9 = true
+		uv10 = false
 
-		slot8.onData:AddListener(slot6.onData)
-
-		slot9 = true
-		slot10 = false
-
-		slot11()
-		slot7:resetHBTimer()
+		uv11()
+		uv7:resetHBTimer()
 	end)
-	slot1.onData:AddListener(slot0.onData)
-	slot1.onError:AddListener(slot0.onError)
-	slot1.onDisconnected:AddListener(slot0.onDisconnected)
+	uv1.onData:AddListener(slot0.onData)
+	uv1.onError:AddListener(slot0.onError)
+	uv1.onDisconnected:AddListener(slot0.onDisconnected)
 
-	slot8 = true
+	uv8 = true
 
-	slot1:Connect()
+	uv1:Connect()
 end
 
-function pg.ConnectionMgr.ConnectByDomain(slot0, slot1, slot2)
+function slot1.ConnectByDomain(slot0, slot1, slot2)
 	slot0:Connect(LuaHelper.getHostByDomain(slot1), DEFAULT_PORT, slot2)
 end
 
-function pg.ConnectionMgr.Reconnect(slot0, slot1)
-	if not slot0 or not slot1 then
+function slot1.Reconnect(slot0, slot1)
+	if not uv0 or not uv1 then
 		warning("Network is not connected.")
 
 		return
 	end
 
-	if slot2 then
+	if uv2 then
 		warning("connecting, please wait...")
 
 		return
 	end
 
-	slot3 = slot1
+	uv3 = slot1
 
 	slot0:stopHBTimer()
-	slot4:stopTimer()
+	uv4:stopTimer()
 	print("reconnect --> " .. slot0:GetLastHost() .. ":" .. slot0:GetLastPort())
 	slot0:Connect(slot0:GetLastHost(), slot0:GetLastPort(), function ()
-		slot0 = getProxy(UserProxy)
-		slot1 = slot0:getData()
+		slot1 = getProxy(UserProxy):getData()
 
-		if slot0.SdkMgr.GetInstance():GetChannelUID() == "" then
+		if uv0.SdkMgr.GetInstance():GetChannelUID() == "" then
 			slot2 = PLATFORM_LOCAL
 		end
 
 		if not slot1 or not slot1:isLogin() then
-			if slot1.currentCS == 10020 and slot2 ~= DISCONNECT_TIME_OUT then
-				slot3.needStartSend = false
+			if uv1.currentCS == 10020 and uv2 ~= DISCONNECT_TIME_OUT then
+				uv3.needStartSend = false
 
-				slot1:StartSend()
+				uv1:StartSend()
 			else
-				slot0.m02:sendNotification(GAME.LOGOUT, {
+				uv0.m02:sendNotification(GAME.LOGOUT, {
 					code = 3
 				})
 			end
@@ -84,47 +82,47 @@ function pg.ConnectionMgr.Reconnect(slot0, slot1)
 			return
 		end
 
-		slot1:Send(10022, {
+		uv1:Send(10022, {
 			platform = slot2,
 			account_id = slot1.uid,
 			server_ticket = slot1.token,
 			serverid = slot1.server,
 			check_key = HashUtil.CalcMD5(slot1.token .. AABBUDUD),
-			device_id = slot0.SdkMgr.GetInstance():GetDeviceId()
+			device_id = uv0.SdkMgr.GetInstance():GetDeviceId()
 		}, 10023, function (slot0)
 			if slot0.result == 0 then
 				print("reconnect success: " .. slot0.user_id, " - ", slot0.server_ticket)
 
-				slot0.token = slot0.server_ticket
+				uv0.token = slot0.server_ticket
 
-				slot0:setLastLogin(slot0)
-				slot2()
+				uv1:setLastLogin(uv0)
+				uv2()
 
-				if slot0 ~= DISCONNECT_TIME_OUT and slot4:getPacketIdx() > 0 then
-					slot5.needStartSend = false
+				if uv3 ~= DISCONNECT_TIME_OUT and uv4:getPacketIdx() > 0 then
+					uv5.needStartSend = false
 
-					slot4:Send(11001, {
+					uv4:Send(11001, {
 						timestamp = 1
 					}, 11002, function (slot0)
-						slot0.TimeMgr.GetInstance():SetServerTime(slot0.timestamp, slot0.monday_0oclock_timestamp)
-						slot0.m02:sendNotification(GAME.CHANGE_CHAT_ROOM, 0)
+						uv0.TimeMgr.GetInstance():SetServerTime(slot0.timestamp, slot0.monday_0oclock_timestamp)
+						uv0.m02:sendNotification(GAME.CHANGE_CHAT_ROOM, 0)
 					end)
-				elseif slot5.needStartSend then
-					slot5.needStartSend = false
+				elseif uv5.needStartSend then
+					uv5.needStartSend = false
 
-					slot4:StartSend()
+					uv4:StartSend()
 				end
 
-				slot3 = nil
+				uv3 = nil
 
 				if getProxy(PlayerProxy) and slot1:getInited() then
-					slot6.SecondaryPWDMgr:GetInstance():FetchData()
+					uv6.SecondaryPWDMgr:GetInstance():FetchData()
 				end
 
-				slot6.GuideMgr:GetInstance():onReconneceted()
+				uv6.GuideMgr:GetInstance():onReconneceted()
 			else
 				print("reconnect failed: " .. slot0.result)
-				slot6.m02:sendNotification(GAME.LOGOUT, {
+				uv6.m02:sendNotification(GAME.LOGOUT, {
 					code = 99,
 					tip = slot0.result
 				})
@@ -133,135 +131,128 @@ function pg.ConnectionMgr.Reconnect(slot0, slot1)
 	end)
 end
 
-function pg.ConnectionMgr.onDisconnected(slot0, slot1)
-	slot0("Network onDisconnected: " .. tostring(slot0))
+function slot1.onDisconnected(slot0, slot1)
+	uv0("Network onDisconnected: " .. tostring(slot0))
 
-	slot1 = slot1
+	uv1 = slot1
 
-	if slot0 then
+	if uv2 then
 		if not slot0 then
-			slot2.onDisconnected:RemoveAllListeners()
+			uv2.onDisconnected:RemoveAllListeners()
 		end
 
-		slot2:Dispose()
+		uv2:Dispose()
 
-		slot2 = nil
+		uv2 = nil
 	end
 
 	if slot0 then
-		slot3 = false
+		uv3 = false
 	end
 
-	if slot4 then
-		slot5.UIMgr.GetInstance():LoadingOff()
+	if uv4 then
+		uv5.UIMgr.GetInstance():LoadingOff()
 	end
 
-	slot4 = false
+	uv4 = false
 end
 
-function pg.ConnectionMgr.onData(slot0)
-	if slot0[slot0.cmd] then
-		slot1 = slot1.Packer.GetInstance():Unpack(slot0.cmd, slot0:getLuaStringBuffer())
+function slot1.onData(slot0)
+	if uv0[slot0.cmd] then
+		slot5 = slot0
 
-		for slot5, slot6 in ipairs(slot0[slot0.cmd]) do
-			slot6(slot1)
+		for slot5, slot6 in ipairs(uv0[slot0.cmd]) do
+			slot6(uv1.Packer.GetInstance():Unpack(slot0.cmd, slot0.getLuaStringBuffer(slot5)))
 		end
 	end
 end
 
-function pg.ConnectionMgr.onError(slot0)
-	slot0.UIMgr.GetInstance():LoadingOff()
+function slot1.onError(slot0)
+	uv0.UIMgr.GetInstance():LoadingOff()
+	uv1("Network Error: " .. tostring(slot0))
 
-	-- Decompilation error in this vicinity:
-	tostring(slot0)("Network Error: " .. 
-	-- Decompilation error in this vicinity:
-	tostring(slot0))
+	if uv2 then
+		uv2:Dispose()
 
-	if "Network Error: " .. 
-	-- Decompilation error in this vicinity:
-	tostring(slot0) then
-		slot2:Dispose()
-
-		slot2 = nil
+		uv2 = nil
 	end
 
 	function slot1()
-		slot0.m02.sendNotification(slot1, GAME.LOGOUT, {
-			code = slot1.erroCode or 3
+		uv0.m02:sendNotification(GAME.LOGOUT, {
+			code = uv1.erroCode or 3
 		})
 	end
 
 	function slot2()
-		return
 	end
 
-	if slot4 then
-		slot4 = false
-		slot2 = slot5
+	if uv4 then
+		uv4 = false
+		slot2 = uv5
 	end
 
-	slot0.ConnectionMgr.GetInstance():CheckProxyCounter()
+	uv0.ConnectionMgr.GetInstance():CheckProxyCounter()
 
-	if slot6 and slot7 then
-		slot0.ConnectionMgr.GetInstance():stopHBTimer()
+	if uv6 and uv7 then
+		uv0.ConnectionMgr.GetInstance():stopHBTimer()
 
 		if table.contains({
 			"NotSocket"
 		}, slot0) then
-			slot0.ConnectionMgr.GetInstance():Reconnect(slot2)
+			uv0.ConnectionMgr.GetInstance():Reconnect(slot2)
 		else
-			slot0.MsgboxMgr.GetInstance():ShowMsgBox({
+			uv0.MsgboxMgr.GetInstance():ShowMsgBox({
 				modal = true,
 				content = i18n("reconnect_tip", slot0),
 				onYes = function ()
-					slot0.ConnectionMgr.GetInstance():Reconnect(slot0.ConnectionMgr.GetInstance())
+					uv0.ConnectionMgr.GetInstance():Reconnect(uv1)
 				end,
 				onNo = slot1,
 				weight = LayerWeightConst.TOP_LAYER
 			})
-			slot0.GuideMgr.GetInstance():onDisconnected()
+			uv0.GuideMgr.GetInstance():onDisconnected()
 		end
 	else
 		slot1()
 	end
 end
 
-function pg.ConnectionMgr.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	if not slot0 then
+function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	if not uv0 then
 		warning("Network is not connected. msgid " .. slot1)
-		slot1.m02:sendNotification(GAME.LOGOUT, {
+		uv1.m02:sendNotification(GAME.LOGOUT, {
 			code = 5
 		})
 
 		return
 	end
 
-	slot2:Queue(slot1, slot2, slot3, slot4, slot5, nil, slot6)
+	uv2:Queue(slot1, slot2, slot3, slot4, slot5, nil, slot6)
 end
 
-function pg.ConnectionMgr.setPacketIdx(slot0, slot1)
-	slot0:setPacketIdx(slot1)
+function slot1.setPacketIdx(slot0, slot1)
+	uv0:setPacketIdx(slot1)
 end
 
-function pg.ConnectionMgr.On(slot0, slot1, slot2)
-	if slot0[slot1] == nil then
-		slot0[slot1] = {}
+function slot1.On(slot0, slot1, slot2)
+	if uv0[slot1] == nil then
+		uv0[slot1] = {}
 	end
 
-	table.insert(slot0[slot1], slot2)
+	table.insert(uv0[slot1], slot2)
 end
 
-function pg.ConnectionMgr.Off(slot0, slot1, slot2)
-	if slot0[slot1] == nil then
+function slot1.Off(slot0, slot1, slot2)
+	if uv0[slot1] == nil then
 		return
 	end
 
 	if slot2 == nil then
-		slot0[slot1] = nil
+		uv0[slot1] = nil
 	else
-		for slot6, slot7 in ipairs(slot0[slot1]) do
+		for slot6, slot7 in ipairs(uv0[slot1]) do
 			if slot7 == slot2 then
-				table.remove(slot0[slot1], slot6)
+				table.remove(uv0[slot1], slot6)
 
 				break
 			end
@@ -269,92 +260,96 @@ function pg.ConnectionMgr.Off(slot0, slot1, slot2)
 	end
 end
 
-function pg.ConnectionMgr.Disconnect(slot0)
+function slot1.Disconnect(slot0)
 	slot0:stopHBTimer()
 
-	slot0 = 
-	-- Decompilation error in this vicinity:
-	{}
+	uv0 = {}
 
+	uv1("Manually Disconnect !!!")
 
-	-- Decompilation error in this vicinity:
-	("Manually Disconnect !!!")
+	if uv2 then
+		uv2:Dispose()
 
-	if "Manually Disconnect !!!" then
-		slot2:Dispose()
-
-		slot2 = nil
+		uv2 = nil
 	end
 
-	slot3 = nil
-	slot4 = nil
+	uv3 = nil
+	uv4 = nil
 	lastProxyHost = nil
 	lastProxyPort = nil
-	slot5 = nil
-	slot6 = false
+	uv5 = nil
+	uv6 = false
 end
 
-function pg.ConnectionMgr.getConnection(slot0)
-	return slot0
+function slot1.getConnection(slot0)
+	return uv0
 end
 
-function pg.ConnectionMgr.isConnecting(slot0)
-	return slot0
+function slot1.isConnecting(slot0)
+	return uv0
 end
 
-function pg.ConnectionMgr.isConnected(slot0)
-	return slot0
+function slot1.isConnected(slot0)
+	return uv0
 end
 
-function pg.ConnectionMgr.stopHBTimer(slot0)
-	if slot0 then
-		slot0:Stop()
+function slot1.stopHBTimer(slot0)
+	if uv0 then
+		uv0:Stop()
 
-		slot0 = nil
+		uv0 = nil
 	end
 end
 
-function pg.ConnectionMgr.resetHBTimer(slot0)
+function slot1.resetHBTimer(slot0)
 	slot0:stopHBTimer()
-	slot0:Start()
+
+	uv0 = Timer.New(function ()
+		uv0:Send(10100, {
+			need_request = 0
+		})
+	end, HEART_BEAT_TIMEOUT, -1)
+
+	uv0:Start()
 end
 
 slot13 = 0
 slot14 = 2
 slot15, slot16 = nil
 
-function pg.ConnectionMgr.SetProxyHost(slot0, slot1, slot2)
-	print("Proxy host --> " .. slot1 .. ":" .. slot2)
+function slot1.SetProxyHost(slot0, slot1, slot2)
+	uv0 = slot1
+	uv1 = slot2
+
+	print("Proxy host --> " .. uv0 .. ":" .. uv1)
 end
 
-function pg.ConnectionMgr.GetLastHost(slot0)
-	if VersionMgr.Inst:OnProxyUsing() and slot0 ~= nil and slot0 ~= "" then
-		return slot0
+function slot1.GetLastHost(slot0)
+	if VersionMgr.Inst:OnProxyUsing() and uv0 ~= nil and uv0 ~= "" then
+		return uv0
 	end
 
-	return slot1
+	return uv1
 end
 
-function pg.ConnectionMgr.GetLastPort(slot0)
-	if VersionMgr.Inst:OnProxyUsing() and slot0 ~= nil and slot0 ~= 0 then
-		return slot0
+function slot1.GetLastPort(slot0)
+	if VersionMgr.Inst:OnProxyUsing() and uv0 ~= nil and uv0 ~= 0 then
+		return uv0
 	end
 
-	return slot1
+	return uv1
 end
 
-function pg.ConnectionMgr.CheckProxyCounter(slot0)
-	slot0 = slot0 + 1
+function slot1.CheckProxyCounter(slot0)
+	uv0 = uv0 + 1
 
 	if not VersionMgr.Inst:OnProxyUsing() then
-		if slot0 ==  then
+		if uv0 == uv1 then
 			VersionMgr.Inst:SetUseProxy(true)
 		end
 	else
 		VersionMgr.Inst:SetUseProxy(false)
 
-		slot0 = 0
+		uv0 = 0
 	end
 end
-
-return

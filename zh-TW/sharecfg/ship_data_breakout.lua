@@ -15511,5 +15511,3 @@ pg.ship_data_breakout = {
 		899014
 	}
 }
-
-return

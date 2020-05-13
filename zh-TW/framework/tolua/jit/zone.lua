@@ -14,7 +14,7 @@ return setmetatable({
 		if slot1 then
 			slot0[#slot0 + 1] = slot1
 		else
-			return assert(slot0(slot0), "empty zone stack")
+			return assert(uv0(slot0), "empty zone stack")
 		end
 	end
 })

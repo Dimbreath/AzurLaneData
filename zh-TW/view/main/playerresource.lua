@@ -3,10 +3,10 @@ slot1 = 12
 slot0.GO_MALL = "PlayerResource:GO_MALL"
 
 function slot0.Ctor(slot0)
-	slot0.super.Ctor(slot0)
+	uv0.super.Ctor(slot0)
 	PoolMgr.GetInstance():GetUI("ResPanel", false, function (slot0)
 		slot0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
-		slot0:onUILoaded(slot0)
+		uv0:onUILoaded(slot0)
 	end)
 end
 
@@ -27,25 +27,26 @@ function slot0.init(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.oilAddBtn, function ()
-		if not ShoppingStreet.getRiseShopId(ShopArgs.BuyOil, slot0.player.buyOilCount) then
+		if not ShoppingStreet.getRiseShopId(ShopArgs.BuyOil, uv0.player.buyOilCount) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_today_buy_limit"))
 
 			return
 		end
 
-		slot2 = pg.shop_template[slot0].num
+		slot1 = pg.shop_template[slot0]
+		slot2 = slot1.num
 
-		if pg.shop_template[slot0].num == -1 and slot1.genre == ShopArgs.BuyOil then
-			slot2 = ShopArgs.getOilByLevel(slot0.player.level)
+		if slot1.num == -1 and slot1.genre == ShopArgs.BuyOil then
+			slot2 = ShopArgs.getOilByLevel(uv0.player.level)
 		end
 
-		if slot0.player.buyOilCount < pg.gameset.buy_oil_limit.key_value then
+		if uv0.player.buyOilCount < pg.gameset.buy_oil_limit.key_value then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_SINGLE_ITEM,
 				windowSize = {
 					y = 570
 				},
-				content = i18n("oil_buy_tip", slot1.resource_num, slot2, slot0.player.buyOilCount),
+				content = i18n("oil_buy_tip", slot1.resource_num, slot2, uv0.player.buyOilCount),
 				drop = {
 					id = 2,
 					type = DROP_TYPE_RESOURCE,
@@ -54,7 +55,7 @@ function slot0.init(slot0)
 				onYes = function ()
 					pg.m02:sendNotification(GAME.SHOPPING, {
 						count = 1,
-						id = pg.m02.sendNotification
+						id = uv0
 					})
 				end,
 				weight = LayerWeightConst.TOP_LAYER
@@ -73,22 +74,20 @@ function slot0.init(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.gemAddBtn, function ()
-		function slot0()
-			if not pg.m02:hasMediator(ChargeMediator.__cname) then
-				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
-					wrap = ChargeScene.TYPE_DIAMOND
-				})
-			else
-				pg.m02:sendNotification(slot0.GO_MALL)
-			end
-		end
-
 		if PLATFORM_CODE == PLATFORM_JP then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				fontSize = 23,
 				yesText = "text_buy",
-				content = i18n("word_diamond_tip", slot1.player:getFreeGem(), slot1.player:getChargeGem(), slot1.player:getTotalGem()),
-				onYes = slot0,
+				content = i18n("word_diamond_tip", uv1.player:getFreeGem(), uv1.player:getChargeGem(), uv1.player:getTotalGem()),
+				onYes = function ()
+					if not pg.m02:hasMediator(ChargeMediator.__cname) then
+						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+							wrap = ChargeScene.TYPE_DIAMOND
+						})
+					else
+						pg.m02:sendNotification(uv0.GO_MALL)
+					end
+				end,
 				alignment = TextAnchor.UpperLeft,
 				weight = LayerWeightConst.TOP_LAYER
 			})
@@ -104,19 +103,23 @@ end
 
 function slot0.setResources(slot0, slot1, slot2)
 	slot0.player = slot1
+	slot3 = slot1.level
 
-	setText(slot0.goldMax, "MAX: " .. slot4)
+	setText(slot0.goldMax, "MAX: " .. pg.user_level[slot3].max_gold)
 	setText(slot0.goldValue, slot1.gold)
-	setText(slot0.oilMax, "MAX: " .. slot5)
+	setText(slot0.oilMax, "MAX: " .. pg.user_level[slot3].max_oil)
 	setText(slot0.oilValue, slot1.oil)
 	setText(slot0.gemValue, slot1:getTotalGem())
-	setActive(slot0.oilAddBtn, slot2 or {
+
+	slot2 = slot2 or {
 		true,
 		true,
 		true
-	}[1])
-	setActive(slot0.goldAddBtn, slot2 or [2])
-	setActive(slot0.gemAddBtn, slot2 or [3])
+	}
+
+	setActive(slot0.oilAddBtn, slot2[1])
+	setActive(slot0.goldAddBtn, slot2[2])
+	setActive(slot0.gemAddBtn, slot2[3])
 end
 
 function slot0.willExit(slot0)

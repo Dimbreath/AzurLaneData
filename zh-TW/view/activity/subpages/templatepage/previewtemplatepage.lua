@@ -13,15 +13,15 @@ end
 function slot0.initBtn(slot0)
 	slot1 = {
 		task = function (slot0)
-			onButton(slot0, slot0, function ()
-				slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
+			onButton(uv0, slot0, function ()
+				uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
 					page = "activity"
 				})
 			end)
 		end,
 		academy = function (slot0)
-			onButton(slot0, slot0, function ()
-				slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.NAVALACADEMYSCENE, {
+			onButton(uv0, slot0, function ()
+				uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.NAVALACADEMYSCENE, {
 					page = "activity"
 				})
 			end)
@@ -31,44 +31,42 @@ function slot0.initBtn(slot0)
 				return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
 			end)
 
-			onButton(slot0, slot0, function ()
-				slot0.emit(slot1, ActivityMediator.GO_SHOPS_LAYER, {
+			onButton(uv0, slot0, function ()
+				uv0:emit(ActivityMediator.GO_SHOPS_LAYER, {
 					warp = NewShopsScene.TYPE_ACTIVITY,
-					actId = slot0.emit and slot1.id
+					actId = uv1 and uv1.id
 				})
 			end)
 		end,
 		build = function (slot0)
-			onButton(slot0, slot0, function ()
-				slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
+			onButton(uv0, slot0, function ()
+				uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
 					projectName = BuildShipScene.PROJECTS.ACTIVITY
 				})
 			end)
 		end,
 		fight = function (slot0)
-			onButton(slot0, slot0, function ()
-				slot0:emit(ActivityMediator.BATTLE_OPERA)
+			onButton(uv0, slot0, function ()
+				uv0:emit(ActivityMediator.BATTLE_OPERA)
 			end)
 		end,
 		lottery = function (slot0)
-			onButton(slot0, slot0, function ()
-				slot0:emit(ActivityMediator.GO_LOTTERY)
+			onButton(uv0, slot0, function ()
+				uv0:emit(ActivityMediator.GO_LOTTERY)
 			end)
 		end,
 		memory = function (slot0)
-			onButton(slot0, slot0, function ()
-				return
+			onButton(uv0, slot0, function ()
 			end)
 		end,
 		activity = function (slot0)
-			onButton(slot0, slot0, function ()
-				return
+			onButton(uv0, slot0, function ()
 			end)
 		end
 	}
 
 	eachChild(slot0.btnList, function (slot0)
-		slot0[slot0.name](slot0)
+		uv0[slot0.name](slot0)
 	end)
 end
 

@@ -134391,5 +134391,3 @@ pg.ship_data_statistics = {
 		899014
 	}
 }
-
-return

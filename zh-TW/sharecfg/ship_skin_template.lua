@@ -61840,5 +61840,3 @@ pg.ship_skin_template = {
 		899010
 	}
 }
-
-return

@@ -43271,5 +43271,3 @@ pg.task_data_template = {
 		80129
 	}
 }
-
-return

@@ -1,10 +1,9 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleResourceManager
-ys.Battle.BattleCannonBullet = class("BattleCannonBullet", ys.Battle.BattleBullet)
-ys.Battle.BattleCannonBullet.__name = "BattleCannonBullet"
+slot0 = ys
+slot1 = slot0.Battle.BattleResourceManager
+slot0.Battle.BattleCannonBullet = class("BattleCannonBullet", slot0.Battle.BattleBullet)
+slot0.Battle.BattleCannonBullet.__name = "BattleCannonBullet"
 
-function ys.Battle.BattleCannonBullet.Ctor(slot0, slot1, slot2)
-	slot0.Battle.BattleCannonBullet.super.Ctor(slot0, slot1, slot2)
+function slot0.Battle.BattleCannonBullet.Ctor(slot0, slot1, slot2)
+	uv0.Battle.BattleCannonBullet.super.Ctor(slot0, slot1, slot2)
 end
-
-return

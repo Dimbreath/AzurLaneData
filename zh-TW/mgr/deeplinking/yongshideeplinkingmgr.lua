@@ -1,48 +1,50 @@
 pg = pg or {}
-pg.YongshiDeepLinkingMgr = singletonClass("YongshiDeepLinkingMgr")
+slot0 = pg
+slot0.YongshiDeepLinkingMgr = singletonClass("YongshiDeepLinkingMgr")
+slot1 = slot0.YongshiDeepLinkingMgr
 slot2 = true
 
 function slot3(slot0)
-	if slot0 then
+	if uv0 then
 		print(slot0)
 	end
 end
 
-function pg.YongshiDeepLinkingMgr.SetData(slot0, slot1)
-	slot0("SetData......")
+function slot1.SetData(slot0, slot1)
+	uv0("SetData......")
 
 	slot0.deepLinking = slot1
 
 	slot0:SwitchScene()
 end
 
-function pg.YongshiDeepLinkingMgr.ShouldSwitchScene(slot0)
+function slot1.ShouldSwitchScene(slot0)
 	if slot0.deepLinking == nil or slot0.deepLinking:IsEmpty() then
-		slot0("deepLinking is empty")
+		uv0("deepLinking is empty")
 
 		return false
 	end
 
-	if not slot1.m02 then
-		slot0("game is not start")
+	if not uv1.m02 then
+		uv0("game is not start")
 
 		return false
 	end
 
 	if not getProxy(ContextProxy):getCurrentContext() then
-		slot0("game is not start")
+		uv0("game is not start")
 
 		return false
 	end
 
 	if slot2.mediator == LoginMediator then
-		slot0("player is not created")
+		uv0("player is not created")
 
 		return false
 	end
 
 	if slot2.mediator == CombatLoadMediator or slot2.mediator == BattleMediator then
-		slot0("game is in battle")
+		uv0("game is in battle")
 		slot0:Clear()
 
 		return false
@@ -52,27 +54,25 @@ function pg.YongshiDeepLinkingMgr.ShouldSwitchScene(slot0)
 end
 
 function slot4(slot0, slot1)
-	slot0("Switch......" .. slot0 .. "-" .. slot1)
+	uv0("Switch......" .. slot0 .. "-" .. slot1)
 
 	if slot0 == "1" then
-		slot1.m02:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD)
+		uv1.m02:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD)
 	end
 end
 
-function pg.YongshiDeepLinkingMgr.SwitchScene(slot0)
-	slot0("SwitchScene......")
+function slot1.SwitchScene(slot0)
+	uv0("SwitchScene......")
 
 	if slot0:ShouldSwitchScene() then
-		slot1(slot1, slot0.deepLinking.arg)
+		uv1(slot0.deepLinking.page, slot0.deepLinking.arg)
 		slot0:Clear()
 	end
 end
 
-function pg.YongshiDeepLinkingMgr.Clear(slot0)
-	slot0("Clear......")
+function slot1.Clear(slot0)
+	uv0("Clear......")
 	slot0.deepLinking:Clear()
 
 	slot0.deepLinking = nil
 end
-
-return

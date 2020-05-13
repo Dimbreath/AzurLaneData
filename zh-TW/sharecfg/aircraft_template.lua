@@ -102617,5 +102617,3 @@ pg.aircraft_template = {
 		1100844
 	}
 }
-
-return

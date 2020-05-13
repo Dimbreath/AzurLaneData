@@ -1,34 +1,34 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleConst
-ys.Battle.DiveOxyState = class("DiveOxyState", ys.Battle.IOxyState)
-ys.Battle.DiveOxyState.__name = "DiveOxyState"
+slot0 = ys
+slot1 = slot0.Battle.BattleConst
+slot0.Battle.DiveOxyState = class("DiveOxyState", slot0.Battle.IOxyState)
+slot0.Battle.DiveOxyState.__name = "DiveOxyState"
+slot2 = slot0.Battle.DiveOxyState
 
-function ys.Battle.DiveOxyState.Ctor(slot0)
-	slot0.super.Ctor(slot0)
+function slot2.Ctor(slot0)
+	uv0.super.Ctor(slot0)
 end
 
-function ys.Battle.DiveOxyState.GetWeaponUseableList(slot0)
+function slot2.GetWeaponUseableList(slot0)
 	return {}
 end
 
-function ys.Battle.DiveOxyState.GetDiveState(slot0)
-	return slot0.OXY_STATE.DIVE
+function slot2.GetDiveState(slot0)
+	return uv0.OXY_STATE.DIVE
 end
 
-function ys.Battle.DiveOxyState.GetBubbleFlag(slot0)
+function slot2.GetBubbleFlag(slot0)
 	return true
 end
 
-function ys.Battle.DiveOxyState.IsVisible(slot0)
+function slot2.IsVisible(slot0)
 	return false
 end
 
-function ys.Battle.DiveOxyState.GetBarVisible(slot0)
+function slot2.GetBarVisible(slot0)
 	return true
 end
 
-function ys.Battle.DiveOxyState.RunMode(slot0)
+function slot2.RunMode(slot0)
 	return false
 end
-
-return

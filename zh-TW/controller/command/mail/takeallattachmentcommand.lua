@@ -1,9 +1,11 @@
-class("TakeAllAttachmentCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot6 = getProxy(BayProxy).getShipCount(slot4)
-	slot7 = getProxy(EquipmentProxy).getCapacity(slot5)
-	slot8 = getConfigFromLevel1(pg.user_level, getProxy(PlayerProxy).getData(slot2).level)
+slot0 = class("TakeAllAttachmentCommand", pm.SimpleCommand)
 
-	if getProxy(MailProxy).getAttatchmentsCount(slot9, DROP_TYPE_RESOURCE, 1) > 0 and slot3:GoldMax(slot10) then
+function slot0.execute(slot0, slot1)
+	slot6 = getProxy(BayProxy):getShipCount()
+	slot7 = getProxy(EquipmentProxy):getCapacity()
+	slot8 = getConfigFromLevel1(pg.user_level, getProxy(PlayerProxy):getData().level)
+
+	if getProxy(MailProxy):getAttatchmentsCount(DROP_TYPE_RESOURCE, 1) > 0 and slot3:GoldMax(slot10) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_mail"))
 
 		return
@@ -20,11 +22,9 @@ class("TakeAllAttachmentCommand", pm.SimpleCommand).execute = function (slot0, s
 	end
 
 	slot14 = _.detect(slot12, function (slot0)
-		slot2, slot3 = slot0:getMailById(slot0).IsFudaiAndFullCapcity(slot1)
+		slot2, uv1 = uv0:getMailById(slot0):IsFudaiAndFullCapcity()
 
 		if not slot2 then
-			slot1 = slot3
-
 			return true
 		else
 			return false
@@ -40,14 +40,14 @@ class("TakeAllAttachmentCommand", pm.SimpleCommand).execute = function (slot0, s
 	pg.ConnectionMgr.GetInstance():Send(30004, {
 		id = slot12
 	}, 30005, function (slot0)
-		for slot5, slot6 in ipairs(slot1) do
+		for slot5, slot6 in ipairs(uv0:getMails()) do
 			if slot6.readFlag == 0 then
-				slot0:removeMail(slot6)
+				uv0:removeMail(slot6)
 			elseif slot6.attachFlag == slot6.ATTACHMENT_EXIST then
 				slot6.readFlag = 2
 				slot6.attachFlag = slot6.ATTACHMENT_TAKEN
 
-				slot0:updateMail(slot6)
+				uv0:updateMail(slot6)
 			end
 		end
 
@@ -55,15 +55,15 @@ class("TakeAllAttachmentCommand", pm.SimpleCommand).execute = function (slot0, s
 
 		for slot6, slot7 in ipairs(slot0.attachment_list) do
 			table.insert(slot2, Item.New(slot7))
-			slot1:sendNotification(GAME.ADD_ITEM, MailAttachment.New(slot7))
+			uv1:sendNotification(GAME.ADD_ITEM, MailAttachment.New(slot7))
 		end
 
-		slot0:unpdateExistAttachment(slot3)
-		slot1:sendNotification(GAME.OPEN_MAIL_ATTACHMENT, {
+		uv0:unpdateExistAttachment(math.max(uv0._existAttachmentCount - #slot0.attachment_list, 0))
+		uv1:sendNotification(GAME.OPEN_MAIL_ATTACHMENT, {
 			items = slot2
 		})
-		slot1:sendNotification(GAME.TAKE_ALL_ATTACHMENT_DONE)
+		uv1:sendNotification(GAME.TAKE_ALL_ATTACHMENT_DONE)
 	end)
 end
 
-return class("TakeAllAttachmentCommand", pm.SimpleCommand)
+return slot0

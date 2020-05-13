@@ -5,5 +5,3 @@ require("Support/Object/CldNode")
 require("Support/Object/ColliderTree")
 require("Support/Object/IsometricMap")
 require("Support/Object/DelegateInfo")
-
-return

@@ -24,10 +24,8 @@ function GetSpeNum(slot0, slot1)
 end
 
 function GetDataValue(slot0)
-	slot1 = 0
-
 	for slot5, slot6 in ipairs(slot0.all) do
-		slot1 = GetSpeNum(slot0[slot6], slot1)
+		slot1 = GetSpeNum(slot0[slot6], 0)
 	end
 
 	return slot1
@@ -93,5 +91,3 @@ end
 ys.BattleConfigVertify = GetSpeNum(ys.Battle.BattleConfig, 0)
 ys.BattleConstVertify = GetSpeNum(pg.bfConsts, 0)
 ys.BattleShipLevelVertify = {}
-
-return

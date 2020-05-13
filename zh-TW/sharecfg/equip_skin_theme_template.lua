@@ -157,5 +157,3 @@ pg.equip_skin_theme_template = {
 		11
 	}
 }
-
-return

@@ -1,7 +1,8 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleConst
+slot0 = ys
+slot1 = slot0.Battle.BattleConst
 slot2 = class("BattleAOEData")
-ys.Battle.BattleAOEData = slot2
+slot0.Battle.BattleAOEData = slot2
 slot2.__name = "BattleAOEData"
 slot2.ALIGNMENT_LEFT = "left"
 slot2.ALIGNMENT_RIGHT = "right"
@@ -32,7 +33,7 @@ function slot2.StartTimer(slot0)
 
 	if slot0._lifeTime > 0 then
 		slot0._lifeTimer = pg.TimeMgr.GetInstance():AddBattleTimer("areaTimer", 0, slot0._lifeTime, function ()
-			slot0:RemoveTimer()
+			uv0:RemoveTimer()
 		end, true)
 	end
 end
@@ -69,7 +70,7 @@ function slot2.SettleFinale(slot0)
 end
 
 function slot2.SortCldObjList(slot0)
-	table.sort(slot0, slot0._Fun_SortCldObjList)
+	table.sort(slot0, uv0._Fun_SortCldObjList)
 end
 
 function slot2._Fun_SortCldObjList(slot0, slot1)
@@ -193,9 +194,9 @@ function slot2.SetRange(slot0, slot1)
 end
 
 function slot2.SetAnchorPointAlignment(slot0, slot1)
-	if slot1 == slot0.ALIGNMENT_LEFT then
+	if slot1 == uv0.ALIGNMENT_LEFT then
 		slot0._alignment = Vector3(slot0._width * 0.5, 0, 0)
-	elseif slot1 == slot0.ALIGNMENT_RIGHT then
+	elseif slot1 == uv0.ALIGNMENT_RIGHT then
 		slot0._alignment = Vector3(slot0._width * -0.5, 0, 0)
 	end
 end
@@ -209,13 +210,18 @@ function slot2.SetFXStatic(slot0, slot1)
 end
 
 function slot2.InitCldComponent(slot0)
-	if slot0._areaType == slot0.AreaType.CUBE then
-		slot0._cldComponent = slot1.Battle.BattleCubeCldComponent.New(slot0._width, slot0._tickness, slot0._height, 0, 0)
-	elseif slot0._areaType == slot0.AreaType.COLUMN then
-		slot0._cldComponent = slot1.Battle.BattleColumnCldComponent.New(slot0._range, slot0._tickness)
+	if slot0._areaType == uv0.AreaType.CUBE then
+		slot0._cldComponent = uv1.Battle.BattleCubeCldComponent.New(slot0._width, slot0._tickness, slot0._height, 0, 0)
+	elseif slot0._areaType == uv0.AreaType.COLUMN then
+		slot0._cldComponent = uv1.Battle.BattleColumnCldComponent.New(slot0._range, slot0._tickness)
 	end
 
-	slot0._cldComponent:SetCldData(slot1)
+	slot0._cldComponent:SetCldData({
+		type = uv0.CldType.AOE,
+		UID = slot0:GetUniqueID(),
+		IFF = slot0:GetIFF(),
+		func = slot0:GetCldFunc()
+	})
 	slot0._cldComponent:SetActive(true)
 end
 
@@ -230,5 +236,3 @@ end
 function slot2.GetCldData(slot0)
 	return slot0._cldComponent:GetCldData()
 end
-
-return

@@ -1,7 +1,8 @@
 pg = pg or {}
 pg.SdkMgr = singletonClass("SdkMgr")
+slot0 = pg.SdkMgr
 
-function pg.SdkMgr.Ctor(slot0)
+function slot0.Ctor(slot0)
 	if PLATFORM_CODE == PLATFORM_CH then
 		slot0.instance = require("Mgr.Sdk.BiliSDKMgr")
 	elseif PLATFORM_CODE == PLATFORM_JP then
@@ -15,13 +16,13 @@ function pg.SdkMgr.Ctor(slot0)
 	end
 end
 
-function pg.SdkMgr.Call(slot0, slot1, ...)
+function slot0.Call(slot0, slot1, ...)
 	if slot0.instance[slot1] then
 		slot0.instance[slot1](...)
 	end
 end
 
-function pg.SdkMgr.Get(slot0, slot1, ...)
+function slot0.Get(slot0, slot1, ...)
 	return slot0.instance[slot1](...)
 end
 
@@ -33,83 +34,83 @@ function ExitMultiWindow(slot0)
 	print(".......ExitMultiWindow")
 end
 
-function pg.SdkMgr.InitSDK(slot0)
+function slot0.InitSDK(slot0)
 	slot0:Call("InitSDK")
 end
 
-function pg.SdkMgr.GoSDkLoginScene(slot0)
+function slot0.GoSDkLoginScene(slot0)
 	slot0:Call("GoSDkLoginScene")
 end
 
-function pg.SdkMgr.LoginSdk(slot0, slot1)
+function slot0.LoginSdk(slot0, slot1)
 	slot0:Call("LoginSdk", slot1)
 end
 
-function pg.SdkMgr.TryLoginSdk(slot0)
+function slot0.TryLoginSdk(slot0)
 	slot0:Call("TryLoginSdk")
 end
 
-function pg.SdkMgr.CreateRole(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot0.CreateRole(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:Call("CreateRole", slot1, slot2, slot3, slot4, slot5)
 end
 
-function pg.SdkMgr.EnterServer(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+function slot0.EnterServer(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot0:Call("EnterServer", slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 end
 
-function pg.SdkMgr.ChooseServer(slot0, slot1, slot2)
+function slot0.ChooseServer(slot0, slot1, slot2)
 	slot0:Call("ChooseServer", slot1, slot2)
 end
 
-function pg.SdkMgr.SdkGateWayLogined(slot0)
+function slot0.SdkGateWayLogined(slot0)
 	slot0:Call("SdkGateWayLogined")
 end
 
-function pg.SdkMgr.SdkLoginGetaWayFailed(slot0)
+function slot0.SdkLoginGetaWayFailed(slot0)
 	slot0:Call("SdkLoginGetaWayFailed")
 end
 
-function pg.SdkMgr.SdkLevelUp(slot0)
+function slot0.SdkLevelUp(slot0)
 	slot0:Call("SdkLevelUp")
 end
 
-function pg.SdkMgr.SdkPay(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
+function slot0.SdkPay(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
 	slot0:Call("SdkPay", slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
 end
 
-function pg.SdkMgr.LogoutSDK(slot0)
+function slot0.LogoutSDK(slot0)
 	slot0:Call("LogoutSDK")
 end
 
-function pg.SdkMgr.BindCPU(slot0)
+function slot0.BindCPU(slot0)
 	slot0:Call("BindCPU")
 end
 
-function pg.SdkMgr.OnAndoridBackPress(slot0)
+function slot0.OnAndoridBackPress(slot0)
 	slot0:Call("OnAndoridBackPress")
 end
 
-function pg.SdkMgr.GetChannelUID(slot0)
+function slot0.GetChannelUID(slot0)
 	return slot0:Get("GetChannelUID")
 end
 
-function pg.SdkMgr.GetLoginType(slot0)
+function slot0.GetLoginType(slot0)
 	return slot0:Get("GetLoginType")
 end
 
-function pg.SdkMgr.GetIsPlatform(slot0)
+function slot0.GetIsPlatform(slot0)
 	return slot0:Get("GetIsPlatform")
 end
 
-function pg.SdkMgr.GetYostarUid(slot0)
+function slot0.GetYostarUid(slot0)
 	return slot0:Get("GetYostarUid")
 end
 
-function pg.SdkMgr.GetYostarTransCode(slot0)
+function slot0.GetYostarTransCode(slot0)
 	return slot0:Get("GetTransCode")
 end
 
-function pg.SdkMgr.CheckAudit(slot0)
+function slot0.CheckAudit(slot0)
 	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
 		return slot0:Get("CheckAudit")
 	else
@@ -117,7 +118,7 @@ function pg.SdkMgr.CheckAudit(slot0)
 	end
 end
 
-function pg.SdkMgr.CheckPreAudit(slot0)
+function slot0.CheckPreAudit(slot0)
 	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
 		return slot0:Get("CheckPreAudit")
 	else
@@ -125,7 +126,7 @@ function pg.SdkMgr.CheckPreAudit(slot0)
 	end
 end
 
-function pg.SdkMgr.CheckPretest(slot0)
+function slot0.CheckPretest(slot0)
 	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
 		return slot0:Get("CheckPretest")
 	else
@@ -133,39 +134,39 @@ function pg.SdkMgr.CheckPretest(slot0)
 	end
 end
 
-function pg.SdkMgr.AiriLoginSDK(slot0)
+function slot0.AiriLoginSDK(slot0)
 	slot0:Call("AiriLogin")
 end
 
-function pg.SdkMgr.TranscodeRequest(slot0)
+function slot0.TranscodeRequest(slot0)
 	slot0:Call("TranscodeRequest")
 end
 
-function pg.SdkMgr.LoginWithTranscode(slot0, slot1, slot2)
+function slot0.LoginWithTranscode(slot0, slot1, slot2)
 	slot0:Call("LoginWithTranscode", slot1, slot2)
 end
 
-function pg.SdkMgr.LoginWithSocial(slot0, slot1, slot2, slot3)
+function slot0.LoginWithSocial(slot0, slot1, slot2, slot3)
 	slot0:Call("LoginWithSocial", slot1, slot2, slot3)
 end
 
-function pg.SdkMgr.LoginWithDevice(slot0)
+function slot0.LoginWithDevice(slot0)
 	slot0:Call("LoginWithDevice")
 end
 
-function pg.SdkMgr.AiriBuy(slot0, slot1, slot2, slot3)
+function slot0.AiriBuy(slot0, slot1, slot2, slot3)
 	slot0:Call("AiriBuy", slot1, slot2, slot3)
 end
 
-function pg.SdkMgr.LinkSocial(slot0, slot1, slot2, slot3)
+function slot0.LinkSocial(slot0, slot1, slot2, slot3)
 	slot0:Call("LinkSocial", slot1, slot2, slot3)
 end
 
-function pg.SdkMgr.UnlinkSocial(slot0, slot1)
+function slot0.UnlinkSocial(slot0, slot1)
 	slot0:Call("UnlinkSocial", slot1)
 end
 
-function pg.SdkMgr.IsSocialLink(slot0, slot1)
+function slot0.IsSocialLink(slot0, slot1)
 	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
 		return slot0:Get("IsSocialLink", slot1)
 	else
@@ -173,7 +174,7 @@ function pg.SdkMgr.IsSocialLink(slot0, slot1)
 	end
 end
 
-function pg.SdkMgr.GetSocialName(slot0, slot1)
+function slot0.GetSocialName(slot0, slot1)
 	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
 		return slot0:Get("GetSocialName", slot1)
 	else
@@ -181,7 +182,7 @@ function pg.SdkMgr.GetSocialName(slot0, slot1)
 	end
 end
 
-function pg.SdkMgr.GetIsBirthSet(slot0)
+function slot0.GetIsBirthSet(slot0)
 	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
 		return slot0:Get("GetIsBirthSet")
 	end
@@ -189,35 +190,35 @@ function pg.SdkMgr.GetIsBirthSet(slot0)
 	return true
 end
 
-function pg.SdkMgr.SetBirth(slot0, slot1)
+function slot0.SetBirth(slot0, slot1)
 	slot0:Call("SetBirth", slot1)
 end
 
-function pg.SdkMgr.ClearAccountCache(slot0)
+function slot0.ClearAccountCache(slot0)
 	slot0:Call("ClearAccountCache")
 end
 
-function pg.SdkMgr.GameShare(slot0, slot1, slot2)
+function slot0.GameShare(slot0, slot1, slot2)
 	slot0:Call("GameShare", slot1, slot2)
 end
 
-function pg.SdkMgr.VerificationCodeReq(slot0, slot1)
+function slot0.VerificationCodeReq(slot0, slot1)
 	slot0:Call("VerificationCodeReq", slot1)
 end
 
-function pg.SdkMgr.OpenYostarHelp(slot0)
+function slot0.OpenYostarHelp(slot0)
 	slot0:Call("OpenYostarHelp")
 end
 
-function pg.SdkMgr.OnAppPauseForSDK(slot0, slot1)
+function slot0.OnAppPauseForSDK(slot0, slot1)
 	slot0:Call("OnAppPauseForSDK", slot1)
 end
 
-function pg.SdkMgr.UserEventUpload(slot0, slot1)
+function slot0.UserEventUpload(slot0, slot1)
 	slot0:Call("UserEventUpload", slot1)
 end
 
-function pg.SdkMgr.CheckAiriCanBuy(slot0)
+function slot0.CheckAiriCanBuy(slot0)
 	if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
 		return slot0:Get("CheckAiriCanBuy")
 	else
@@ -225,7 +226,7 @@ function pg.SdkMgr.CheckAiriCanBuy(slot0)
 	end
 end
 
-function pg.SdkMgr.CheckHadAccountCache(slot0)
+function slot0.CheckHadAccountCache(slot0)
 	if PLATFORM_CODE == PLATFORM_JP then
 		return slot0:Get("CheckHadAccountCache")
 	else
@@ -244,69 +245,69 @@ function GetAiriGenCodeTimeRemain()
 	end
 end
 
-function pg.SdkMgr.UserCenter(slot0)
+function slot0.UserCenter(slot0)
 	slot0:Call("UserCenter")
 end
 
-function pg.SdkMgr.BugReport(slot0)
+function slot0.BugReport(slot0)
 	slot0:Call("BugReport")
 end
 
-function pg.SdkMgr.StoreReview(slot0)
+function slot0.StoreReview(slot0)
 	slot0:Call("StoreReview")
 end
 
-function pg.SdkMgr.QueryWithProduct(slot0)
+function slot0.QueryWithProduct(slot0)
 	slot0:Call("QueryWithProduct")
 end
 
-function pg.SdkMgr.ShareImg(slot0, slot1, slot2)
+function slot0.ShareImg(slot0, slot1, slot2)
 	slot0:Call("ShareImg", slot1, slot2)
 end
 
-function pg.SdkMgr.SwitchAccount(slot0)
+function slot0.SwitchAccount(slot0)
 	slot0:Call("SwitchAccount")
 end
 
-function pg.SdkMgr.CompletedTutorial(slot0)
+function slot0.CompletedTutorial(slot0)
 	slot0:Call("CompletedTutorial")
 end
 
-function pg.SdkMgr.UnlockAchievement(slot0)
+function slot0.UnlockAchievement(slot0)
 	slot0:Call("UnlockAchievement")
 end
 
-function pg.SdkMgr.IsBindFaceBook(slot0)
+function slot0.IsBindFaceBook(slot0)
 	if PLATFORM_CODE == PLATFORM_CHT then
 		return slot0:Get("IsBindFaceBook")
 	end
 end
 
-function pg.SdkMgr.IsBindApple(slot0)
+function slot0.IsBindApple(slot0)
 	if PLATFORM_CODE == PLATFORM_CHT then
 		return slot0:Get("IsBindApple")
 	end
 end
 
-function pg.SdkMgr.IsBindGoogle(slot0)
+function slot0.IsBindGoogle(slot0)
 	if PLATFORM_CODE == PLATFORM_CHT then
 		return slot0:Get("IsBindGoogle")
 	end
 end
 
-function pg.SdkMgr.IsBindPhone(slot0)
+function slot0.IsBindPhone(slot0)
 	if PLATFORM_CODE == PLATFORM_CHT then
 		return slot0:Get("IsBindPhone")
 	end
 end
 
-function pg.SdkMgr.IsBindGameCenter(slot0)
+function slot0.IsBindGameCenter(slot0)
 	if PLATFORM_CODE == PLATFORM_CHT then
 		return false
 	end
 end
 
-function pg.SdkMgr.CanTriggerDeepLinking(slot0)
+function slot0.CanTriggerDeepLinking(slot0)
 	if PLATFORM_CODE == PLATFORM_CHT then
 		return slot0:Get("CanTriggerDeepLinking")
 	else
@@ -314,11 +315,11 @@ function pg.SdkMgr.CanTriggerDeepLinking(slot0)
 	end
 end
 
-function pg.SdkMgr.TriggerDeepLinking(slot0)
+function slot0.TriggerDeepLinking(slot0)
 	slot0:Call("TriggerDeepLinking")
 end
 
-function pg.SdkMgr.BindSocial(slot0, slot1)
+function slot0.BindSocial(slot0, slot1)
 	if slot1 == 1 then
 		slot0:BindFaceBook()
 	elseif slot1 == 2 then
@@ -326,12 +327,13 @@ function pg.SdkMgr.BindSocial(slot0, slot1)
 	elseif slot1 == 3 then
 		slot0:BindPhone()
 	elseif slot1 == 4 then
+		-- Nothing
 	elseif slot1 == 5 then
 		slot0:BindApple()
 	end
 end
 
-function pg.SdkMgr.UnbindSocial(slot0, slot1)
+function slot0.UnbindSocial(slot0, slot1)
 	if slot1 == 1 then
 		slot0:UnBindFaceBook()
 	elseif slot1 == 2 then
@@ -339,38 +341,39 @@ function pg.SdkMgr.UnbindSocial(slot0, slot1)
 	elseif slot1 == 3 then
 		slot0:UnBindPhone()
 	elseif slot1 == 4 then
+		-- Nothing
 	end
 end
 
-function pg.SdkMgr.BindFaceBook(slot0)
+function slot0.BindFaceBook(slot0)
 	slot0:Call("BindFaceBook")
 end
 
-function pg.SdkMgr.BindApple(slot0)
+function slot0.BindApple(slot0)
 	slot0:Call("BindApple")
 end
 
-function pg.SdkMgr.BindGoogle(slot0)
+function slot0.BindGoogle(slot0)
 	slot0:Call("BindGoogle")
 end
 
-function pg.SdkMgr.BindPhone(slot0)
+function slot0.BindPhone(slot0)
 	slot0:Call("BindPhone")
 end
 
-function pg.SdkMgr.UnBindFaceBook(slot0)
+function slot0.UnBindFaceBook(slot0)
 	slot0:Call("UnBindFaceBook")
 end
 
-function pg.SdkMgr.UnBindGoogle(slot0)
+function slot0.UnBindGoogle(slot0)
 	slot0:Call("UnBindGoogle")
 end
 
-function pg.SdkMgr.UnBindPhone(slot0)
+function slot0.UnBindPhone(slot0)
 	slot0:Call("UnBindPhone")
 end
 
-function pg.SdkMgr.GetDeviceId(slot0)
+function slot0.GetDeviceId(slot0)
 	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
 		return slot0:Get("GetDeviceId")
 	elseif PLATFORM_CODE == PLATFORM_KR then
@@ -387,5 +390,3 @@ function InLoginScene()
 
 	return false
 end
-
-return

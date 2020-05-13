@@ -2,9 +2,9 @@ slot0 = class("GuildTaskMediator", import("..base.ContextMediator"))
 slot0.ON_TASK_SUBMIT = "GuildTaskMediator:ON_TASK_SUBMIT"
 
 function slot0.register(slot0)
-	slot0.viewComponent:setTaskList(slot2)
-	slot0:bind(slot0.ON_TASK_SUBMIT, function (slot0, slot1)
-		slot0:sendNotification(GAME.SUBMIT_GUILD_TASK, {
+	slot0.viewComponent:setTaskList(getProxy(GuildProxy):getGuildEvent():getTasks())
+	slot0:bind(uv0.ON_TASK_SUBMIT, function (slot0, slot1)
+		uv0:sendNotification(GAME.SUBMIT_GUILD_TASK, {
 			id = slot1.id
 		})
 	end)

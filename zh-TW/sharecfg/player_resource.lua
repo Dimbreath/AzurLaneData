@@ -635,5 +635,3 @@ pg.player_resource = {
 		3137
 	}
 }
-
-return

@@ -1,834 +1,202 @@
-slot0 = class
-slot1 = "ShipBluePrintScene"
-slot2 = import
-slot3 = "..base.BaseUI"
-slot0 = slot0(slot1, slot2(slot3))
-slot1 = pg
-slot1 = slot1.ship_data_blueprint
-slot2 = pg
-slot2 = slot2.ship_data_template
-slot3 = pg
-slot3 = slot3.ship_data_breakout
+slot0 = class("ShipBluePrintScene", import("..base.BaseUI"))
+slot1 = pg.ship_data_blueprint
+slot2 = pg.ship_data_template
+slot3 = pg.ship_data_breakout
 slot4 = 3
 slot5 = -10
 slot6 = 2.3
 
-function slot7(slot0)
-	slot1 = "ShipBluePrintUI"
-
-	return slot1
+function slot0.getUIName(slot0)
+	return "ShipBluePrintUI"
 end
 
-slot0.getUIName = slot7
-
-function slot7(slot0, slot1)
+function slot0.setVersion(slot0, slot1)
 	slot0.version = slot1
 end
 
-slot0.setVersion = slot7
-
-function slot7(slot0, slot1)
+function slot0.setShipVOs(slot0, slot1)
 	slot0.shipVOs = slot1
 end
 
-slot0.setShipVOs = slot7
-
-function slot7(slot0, slot1)
-	slot2 = slot0.shipVOs
-	slot2 = slot2[slot1]
-
-	return slot2
+function slot0.getShipById(slot0, slot1)
+	return slot0.shipVOs[slot1]
 end
 
-slot0.getShipById = slot7
-
-function slot7(slot0, slot1)
+function slot0.setTaskVOs(slot0, slot1)
 	slot0.taskVOs = slot1
 end
 
-slot0.setTaskVOs = slot7
-
-function slot7(slot0, slot1)
+function slot0.setItemVOs(slot0, slot1)
 	slot0.itemVOs = slot1
 end
 
-slot0.setItemVOs = slot7
-
-function slot7(slot0, slot1)
-	slot2 = slot0.taskVOs
-	slot2 = slot2[slot1]
-
-	if not slot2 then
-		slot2 = Task
-		slot2 = slot2.New
-		slot3 = {
-			id = slot1
-		}
-		slot2 = slot2(slot3)
-	end
-
-	return slot2
+function slot0.getTaskById(slot0, slot1)
+	return slot0.taskVOs[slot1] or Task.New({
+		id = slot1
+	})
 end
 
-slot0.getTaskById = slot7
-
-function slot7(slot0, slot1)
+function slot0.getItemById(slot0, slot1)
 	slot2 = nil
-	slot3 = ipairs
-	slot4 = slot0.itemVOs
-	slot3, slot4, slot5 = slot3(slot4)
 
-	for slot6, slot7 in slot3, slot4, slot5 do
-		slot8 = slot7.id
+	for slot6, slot7 in ipairs(slot0.itemVOs) do
+		if slot7.id == slot1 and slot7.count > 0 then
+			slot2 = slot7
 
-		if slot8 == slot1 then
-			slot8 = slot7.count
-			slot9 = 0
-
-			if slot8 > slot9 then
-				slot2 = slot7
-
-				break
-			end
+			break
 		end
 	end
 
-	if not slot2 then
-		slot3 = Item
-		slot3 = slot3.New
-		slot4 = {
-			count = 0,
-			id = slot1
-		}
-		slot3 = slot3(slot4)
-		slot2 = slot3
-	end
-
-	return slot2
+	return slot2 or Item.New({
+		count = 0,
+		id = slot1
+	})
 end
 
-slot0.getItemById = slot7
-
-function slot7(slot0, slot1)
+function slot0.setShipBluePrints(slot0, slot1)
 	slot0.bluePrintByIds = slot1
 end
 
-slot0.setShipBluePrints = slot7
+function slot0.updateShipBluePrintVO(slot0, slot1)
+	slot0.bluePrintByIds[slot1.id] = slot1
 
-function slot7(slot0, slot1)
-	slot2 = slot0.bluePrintByIds
-	slot3 = slot1.id
-	slot2[slot3] = slot1
-	slot3 = slot0
-	slot2 = slot0.filterBlueprints
-
-	slot2(slot3)
-
-	slot2 = slot0.itemList
-	slot3 = slot2
-	slot2 = slot2.align
-	slot4 = slot0.filterBlueprintVOs
-	slot4 = #slot4
-
-	slot2(slot3, slot4)
-
-	slot2 = eachChild
-	slot3 = slot0.shipContainer
-
-	function slot4(slot0)
-		slot1 = uv0
-		slot1 = slot1.contextData
-		slot1 = slot1.shipBluePrintVO
-		slot1 = slot1.id
-		slot2 = uv0
-		slot2 = slot2.bluePrintItems
-		slot2 = slot2[slot0]
-		slot2 = slot2.shipBluePrintVO
-		slot2 = slot2.id
-
-		if slot1 == slot2 then
-			slot1 = triggerToggle
-			slot2 = slot0
-			slot3 = true
-
-			slot1(slot2, slot3)
+	slot0:filterBlueprints()
+	slot0.itemList:align(#slot0.filterBlueprintVOs)
+	eachChild(slot0.shipContainer, function (slot0)
+		if uv0.contextData.shipBluePrintVO.id == uv0.bluePrintItems[slot0].shipBluePrintVO.id then
+			triggerToggle(slot0, true)
 		end
-	end
-
-	slot2(slot3, slot4)
+	end)
 end
 
-slot0.updateShipBluePrintVO = slot7
+function slot0.init(slot0)
+	slot0.main = slot0:findTF("main")
+	slot0.centerPanel = slot0:findTF("center_panel", slot0.main)
+	slot0.blurPanel = slot0:findTF("blur_panel")
+	slot0.top = slot0:findTF("adapt", slot0.blurPanel)
+	slot0.topPanel = slot0:findTF("top", slot0.top)
+	slot0.topBg = slot0:findTF("top_bg", slot0.blurPanel)
+	slot0.backBtn = slot0:findTF("top/back", slot0.top)
+	slot0.leftPanle = slot0:findTF("left_panel", slot0.top)
+	slot0.bottomPanel = slot0:findTF("bottom_panel", slot0.top)
+	slot0.rightPanel = slot0:findTF("right_panel", slot0.top)
+	slot0.shipContainer = slot0:findTF("ships/bg/content", slot0.bottomPanel)
+	slot0.shipTpl = slot0:findTF("ship_tpl", slot0.bottomPanel)
+	slot0.versionBtn = slot0:findTF("ships/bg/version/version_btn", slot0.bottomPanel)
+	slot0.eyeTF = slot0:findTF("eye", slot0.leftPanle)
+	slot0.painting = slot0:findTF("main/center_panel/painting")
+	slot0.nameTF = slot0:findTF("name", slot0.centerPanel)
+	slot0.shipName = slot0:findTF("name_mask/Text", slot0.nameTF)
+	slot0.shipType = slot0:findTF("type", slot0.nameTF)
+	slot0.englishName = slot0:findTF("english_name", slot0.nameTF)
+	slot0.shipInfoStarTpl = slot0:findTF("star_tpl", slot0.nameTF)
 
-function slot7(slot0)
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "main"
-	slot1 = slot1(slot2, slot3)
-	slot0.main = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "center_panel"
-	slot4 = slot0.main
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.centerPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "blur_panel"
-	slot1 = slot1(slot2, slot3)
-	slot0.blurPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "adapt"
-	slot4 = slot0.blurPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.top = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "top"
-	slot4 = slot0.top
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.topPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "top_bg"
-	slot4 = slot0.blurPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.topBg = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "top/back"
-	slot4 = slot0.top
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.backBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "left_panel"
-	slot4 = slot0.top
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.leftPanle = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "bottom_panel"
-	slot4 = slot0.top
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.bottomPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "right_panel"
-	slot4 = slot0.top
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.rightPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "ships/bg/content"
-	slot4 = slot0.bottomPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.shipContainer = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "ship_tpl"
-	slot4 = slot0.bottomPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.shipTpl = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "ships/bg/version/version_btn"
-	slot4 = slot0.bottomPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.versionBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "eye"
-	slot4 = slot0.leftPanle
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.eyeTF = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "main/center_panel/painting"
-	slot1 = slot1(slot2, slot3)
-	slot0.painting = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "name"
-	slot4 = slot0.centerPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.nameTF = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "name_mask/Text"
-	slot4 = slot0.nameTF
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.shipName = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "type"
-	slot4 = slot0.nameTF
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.shipType = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "english_name"
-	slot4 = slot0.nameTF
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.englishName = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "star_tpl"
-	slot4 = slot0.nameTF
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.shipInfoStarTpl = slot1
-	slot1 = setActive
-	slot2 = slot0.shipInfoStarTpl
-	slot3 = false
+	setActive(slot0.shipInfoStarTpl, false)
 
-	slot1(slot2, slot3)
+	slot0.stars = slot0:findTF("stars", slot0.nameTF)
+	slot0.initBtn = slot0:findTF("property_panel/btns/init_toggle", slot0.leftPanle)
+	slot0.attrBtn = slot0:findTF("property_panel/btns/attr_toggle", slot0.leftPanle)
+	slot0.attrDisableBtn = slot0:findTF("property_panel/btns/attr_toggle/disable", slot0.leftPanle)
+	slot0.initPanel = slot0:findTF("property_panel/init_panel", slot0.leftPanle)
+	slot0.propertyPanel = PropertyPanel.New(slot0.initPanel, 32)
+	slot0.skillRect = slot0:findTF("property_panel/init_panel/skills_rect", slot0.leftPanle)
+	slot0.skillPanel = slot0:findTF("property_panel/init_panel/skills_rect/skills", slot0.leftPanle)
+	slot0.skillTpl = slot0:findTF("skilltpl", slot0.skillPanel)
+	slot0.skillArrLeft = slot0:findTF("property_panel/init_panel/arrow1", slot0.leftPanle)
+	slot0.skillArrRight = slot0:findTF("property_panel/init_panel/arrow2", slot0.leftPanle)
+	slot0.simulationBtn = slot0:findTF("property_panel/init_panel/property_title2/simulation", slot0.leftPanle)
+	slot0.attrPanel = slot0:findTF("property_panel/attr_panel", slot0.leftPanle)
+	slot0.modAdditionPanel = slot0:findTF("property_panel/attr_panel", slot0.leftPanle)
+	slot0.modAdditionContainer = slot0:findTF("scroll_rect/content", slot0.modAdditionPanel)
+	slot0.modAdditionTpl = slot0:findTF("addition_tpl", slot0.modAdditionContainer)
+	slot0.preViewBtn = slot0:findTF("pre_view", slot0.attrPanel)
+	slot0.stateInfo = slot0:findTF("state_info", slot0.centerPanel)
+	slot0.startBtn = slot0:findTF("state_info/start_btn", slot0.centerPanel)
+	slot0.lockPanel = slot0:findTF("state_info/lock_panel", slot0.centerPanel)
+	slot0.lockBtn = slot0:findTF("lock", slot0.lockPanel)
+	slot0.finishedBtn = slot0:findTF("state_info/finished_btn", slot0.centerPanel)
+	slot0.progressPanel = slot0:findTF("state_info/progress", slot0.centerPanel)
+	slot0.progressContainer = slot0:findTF("content", slot0.progressPanel)
+	slot0.progressTpl = slot0:findTF("item", slot0.progressContainer)
+	slot0.openCondition = slot0:findTF("state_info/open_condition", slot0.centerPanel)
+	slot0.taskListPanel = slot0:findTF("task_list", slot0.rightPanel)
+	slot0.taskContainer = slot0:findTF("task_list/scroll/content", slot0.rightPanel)
+	slot0.taskTpl = slot0:findTF("task_list/task_tpl", slot0.rightPanel)
+	slot0.modPanel = slot0:findTF("mod_panel", slot0.rightPanel)
+	slot0.attrContainer = slot0:findTF("desc/atrrs", slot0.modPanel)
+	slot0.levelSlider = slot0:findTF("title/slider", slot0.modPanel):GetComponent(typeof(Slider))
+	slot0.levelSliderTxt = slot0:findTF("title/slider/Text", slot0.modPanel)
+	slot0.preLevelSlider = slot0:findTF("title/pre_slider", slot0.modPanel):GetComponent(typeof(Slider))
+	slot0.modLevel = slot0:findTF("title/level_bg/Text", slot0.modPanel):GetComponent(typeof(Text))
+	slot0.itemInfo = slot0:findTF("desc/calc_panel/item_bg", slot0.modPanel)
+	slot0.itemInfoIcon = slot0:findTF("icon", slot0.itemInfo)
+	slot0.itemInfoCount = slot0:findTF("kc/count", slot0.itemInfo):GetComponent(typeof(Text))
+	slot0.needLevelTxt = slot0:findTF("title/Text", slot0.modPanel):GetComponent(typeof(Text))
+	slot0.modBtn = slot0:findTF("desc/calc_panel/confirm_btn", slot0.modPanel)
+	slot0.calcPanel = slot0:findTF("desc/calc_panel", slot0.modPanel)
+	slot0.calcMinBtn = slot0:findTF("min", slot0.calcPanel)
+	slot0.calcMaxBtn = slot0:findTF("max", slot0.calcPanel)
+	slot0.calcTxt = slot0:findTF("count/Text", slot0.calcPanel)
+	slot0.fittingBtn = slot0:findTF("desc/fitting_btn", slot0.modPanel)
+	slot0.fittingPanel = slot0:findTF("fitting_panel", slot0.rightPanel)
 
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "stars"
-	slot4 = slot0.nameTF
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.stars = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "property_panel/btns/init_toggle"
-	slot4 = slot0.leftPanle
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.initBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "property_panel/btns/attr_toggle"
-	slot4 = slot0.leftPanle
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.attrBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "property_panel/btns/attr_toggle/disable"
-	slot4 = slot0.leftPanle
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.attrDisableBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "property_panel/init_panel"
-	slot4 = slot0.leftPanle
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.initPanel = slot1
-	slot1 = PropertyPanel
-	slot1 = slot1.New
-	slot2 = slot0.initPanel
-	slot3 = 32
-	slot1 = slot1(slot2, slot3)
-	slot0.propertyPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "property_panel/init_panel/skills_rect"
-	slot4 = slot0.leftPanle
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.skillRect = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "property_panel/init_panel/skills_rect/skills"
-	slot4 = slot0.leftPanle
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.skillPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "skilltpl"
-	slot4 = slot0.skillPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.skillTpl = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "property_panel/init_panel/arrow1"
-	slot4 = slot0.leftPanle
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.skillArrLeft = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "property_panel/init_panel/arrow2"
-	slot4 = slot0.leftPanle
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.skillArrRight = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "property_panel/init_panel/property_title2/simulation"
-	slot4 = slot0.leftPanle
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.simulationBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "property_panel/attr_panel"
-	slot4 = slot0.leftPanle
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.attrPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "property_panel/attr_panel"
-	slot4 = slot0.leftPanle
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.modAdditionPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "scroll_rect/content"
-	slot4 = slot0.modAdditionPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.modAdditionContainer = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "addition_tpl"
-	slot4 = slot0.modAdditionContainer
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.modAdditionTpl = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "pre_view"
-	slot4 = slot0.attrPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.preViewBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "state_info"
-	slot4 = slot0.centerPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.stateInfo = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "state_info/start_btn"
-	slot4 = slot0.centerPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.startBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "state_info/lock_panel"
-	slot4 = slot0.centerPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.lockPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "lock"
-	slot4 = slot0.lockPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.lockBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "state_info/finished_btn"
-	slot4 = slot0.centerPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.finishedBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "state_info/progress"
-	slot4 = slot0.centerPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.progressPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "content"
-	slot4 = slot0.progressPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.progressContainer = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "item"
-	slot4 = slot0.progressContainer
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.progressTpl = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "state_info/open_condition"
-	slot4 = slot0.centerPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.openCondition = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "task_list"
-	slot4 = slot0.rightPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.taskListPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "task_list/scroll/content"
-	slot4 = slot0.rightPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.taskContainer = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "task_list/task_tpl"
-	slot4 = slot0.rightPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.taskTpl = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "mod_panel"
-	slot4 = slot0.rightPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.modPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "desc/atrrs"
-	slot4 = slot0.modPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.attrContainer = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "title/slider"
-	slot4 = slot0.modPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = typeof
-	slot4 = Slider
-	slot1 = slot1(slot2, slot3(slot4))
-	slot0.levelSlider = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "title/slider/Text"
-	slot4 = slot0.modPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.levelSliderTxt = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "title/pre_slider"
-	slot4 = slot0.modPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = typeof
-	slot4 = Slider
-	slot1 = slot1(slot2, slot3(slot4))
-	slot0.preLevelSlider = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "title/level_bg/Text"
-	slot4 = slot0.modPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = typeof
-	slot4 = Text
-	slot1 = slot1(slot2, slot3(slot4))
-	slot0.modLevel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "desc/calc_panel/item_bg"
-	slot4 = slot0.modPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.itemInfo = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "icon"
-	slot4 = slot0.itemInfo
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.itemInfoIcon = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "kc/count"
-	slot4 = slot0.itemInfo
-	slot1 = slot1(slot2, slot3, slot4)
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = typeof
-	slot4 = Text
-	slot1 = slot1(slot2, slot3(slot4))
-	slot0.itemInfoCount = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "title/Text"
-	slot4 = slot0.modPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = typeof
-	slot4 = Text
-	slot1 = slot1(slot2, slot3(slot4))
-	slot0.needLevelTxt = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "desc/calc_panel/confirm_btn"
-	slot4 = slot0.modPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.modBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "desc/calc_panel"
-	slot4 = slot0.modPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.calcPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "min"
-	slot4 = slot0.calcPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.calcMinBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "max"
-	slot4 = slot0.calcPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.calcMaxBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "count/Text"
-	slot4 = slot0.calcPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.calcTxt = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "desc/fitting_btn"
-	slot4 = slot0.modPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.fittingBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "fitting_panel"
-	slot4 = slot0.rightPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.fittingPanel = slot1
-	slot1 = setActive
-	slot2 = slot0.fittingPanel
-	slot3 = false
+	setActive(slot0.fittingPanel, false)
 
-	slot1(slot2, slot3)
+	slot0.fittingAttrPanel = slot0:findTF("desc/middle", slot0.fittingPanel)
+	slot0.phasePic = slot0:findTF("title/phase", slot0.fittingPanel)
+	slot0.phaseSlider = slot0:findTF("desc/top/slider", slot0.fittingPanel):GetComponent(typeof(Slider))
+	slot0.phaseSliderTxt = slot0:findTF("desc/top/precent", slot0.fittingPanel)
+	slot0.prePhaseSlider = slot0:findTF("desc/top/pre_slider", slot0.fittingPanel):GetComponent(typeof(Slider))
+	slot0.fittingNeedMask = slot0:findTF("desc/top/mask", slot0.fittingPanel)
+	slot0.fittingCalcPanel = slot0:findTF("desc/bottom", slot0.fittingPanel)
+	slot0.fittingCalcMinBtn = slot0:findTF("calc/min", slot0.fittingCalcPanel)
+	slot0.fittingCalcMaxBtn = slot0:findTF("calc/max", slot0.fittingCalcPanel)
+	slot0.fittingCalcTxt = slot0:findTF("calc/count/Text", slot0.fittingCalcPanel)
+	slot0.fittingItemInfo = slot0:findTF("item_bg", slot0.fittingCalcPanel)
+	slot0.fittingItemInfoIcon = slot0:findTF("icon", slot0.fittingItemInfo)
+	slot0.fittingItemInfoCount = slot0:findTF("kc/count", slot0.fittingItemInfo):GetComponent(typeof(Text))
+	slot0.fittingConfirmBtn = slot0:findTF("confirm_btn", slot0.fittingCalcPanel)
+	slot0.fittingCancelBtn = slot0:findTF("cancel_btn", slot0.fittingCalcPanel)
+	slot0.msgPanel = slot0:findTF("msg_panel", slot0.blurPanel)
 
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "desc/middle"
-	slot4 = slot0.fittingPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.fittingAttrPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "title/phase"
-	slot4 = slot0.fittingPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.phasePic = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "desc/top/slider"
-	slot4 = slot0.fittingPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = typeof
-	slot4 = Slider
-	slot1 = slot1(slot2, slot3(slot4))
-	slot0.phaseSlider = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "desc/top/precent"
-	slot4 = slot0.fittingPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.phaseSliderTxt = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "desc/top/pre_slider"
-	slot4 = slot0.fittingPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = typeof
-	slot4 = Slider
-	slot1 = slot1(slot2, slot3(slot4))
-	slot0.prePhaseSlider = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "desc/top/mask"
-	slot4 = slot0.fittingPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.fittingNeedMask = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "desc/bottom"
-	slot4 = slot0.fittingPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.fittingCalcPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "calc/min"
-	slot4 = slot0.fittingCalcPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.fittingCalcMinBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "calc/max"
-	slot4 = slot0.fittingCalcPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.fittingCalcMaxBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "calc/count/Text"
-	slot4 = slot0.fittingCalcPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.fittingCalcTxt = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "item_bg"
-	slot4 = slot0.fittingCalcPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.fittingItemInfo = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "icon"
-	slot4 = slot0.fittingItemInfo
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.fittingItemInfoIcon = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "kc/count"
-	slot4 = slot0.fittingItemInfo
-	slot1 = slot1(slot2, slot3, slot4)
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = typeof
-	slot4 = Text
-	slot1 = slot1(slot2, slot3(slot4))
-	slot0.fittingItemInfoCount = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "confirm_btn"
-	slot4 = slot0.fittingCalcPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.fittingConfirmBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "cancel_btn"
-	slot4 = slot0.fittingCalcPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.fittingCancelBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "msg_panel"
-	slot4 = slot0.blurPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.msgPanel = slot1
-	slot1 = setActive
-	slot2 = slot0.msgPanel
-	slot3 = false
+	setActive(slot0.msgPanel, false)
 
-	slot1(slot2, slot3)
+	slot0.preViewer = slot0:findTF("preview")
+	slot0.preViewerFrame = slot0:findTF("preview/frame")
 
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "preview"
-	slot1 = slot1(slot2, slot3)
-	slot0.preViewer = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "preview/frame"
-	slot1 = slot1(slot2, slot3)
-	slot0.preViewerFrame = slot1
-	slot1 = setActive
-	slot2 = slot0.preViewer
-	slot3 = false
+	setActive(slot0.preViewer, false)
 
-	slot1(slot2, slot3)
+	slot0.sea = slot0:findTF("sea", slot0.preViewerFrame)
+	slot0.rawImage = slot0.sea:GetComponent("RawImage")
 
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "sea"
-	slot4 = slot0.preViewerFrame
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.sea = slot1
-	slot1 = slot0.sea
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = "RawImage"
-	slot1 = slot1(slot2, slot3)
-	slot0.rawImage = slot1
-	slot1 = setActive
-	slot2 = slot0.rawImage
-	slot3 = false
+	setActive(slot0.rawImage, false)
 
-	slot1(slot2, slot3)
+	slot0.seaLoading = slot0:findTF("bg/loading", slot0.preViewerFrame)
+	slot0.healTF = slot0:findTF("resources/heal")
+	slot0.healTF.transform.localPosition = Vector3(-360, 50, 40)
 
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "bg/loading"
-	slot4 = slot0.preViewerFrame
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.seaLoading = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "resources/heal"
-	slot1 = slot1(slot2, slot3)
-	slot0.healTF = slot1
-	slot1 = slot0.healTF
-	slot1 = slot1.transform
-	slot2 = Vector3
-	slot3 = -360
-	slot4 = 50
-	slot5 = 40
-	slot2 = slot2(slot3, slot4, slot5)
-	slot1.localPosition = slot2
-	slot1 = setActive
-	slot2 = slot0.healTF
-	slot3 = false
+	setActive(slot0.healTF, false)
 
-	slot1(slot2, slot3)
-
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "stageScrollRect/stages"
-	slot4 = slot0.preViewerFrame
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.stages = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "content/Text"
-	slot4 = slot0.preViewerFrame
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.breakView = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "preview/attrs_panel/attr_panel"
-	slot1 = slot1(slot2, slot3)
-	slot0.previewAttrPanel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "content"
-	slot4 = slot0.previewAttrPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.previewAttrContainer = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "helpBtn"
-	slot4 = slot0.top
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.helpBtn = slot1
-	slot1 = slot0.bottomPanel
-	slot1 = slot1.rect
-	slot1 = slot1.height
-	slot0.bottomWidth = slot1
-	slot1 = slot0.topPanel
-	slot1 = slot1.rect
-	slot1 = slot1.height
-	slot1 = slot1 * 2
-	slot0.topWidth = slot1
-	slot1 = {}
-	slot0.nameTxts = slot1
-	slot1 = {}
-	slot0.taskTFs = slot1
-	slot1 = {}
-	slot0.leanTweens = slot1
+	slot0.stages = slot0:findTF("stageScrollRect/stages", slot0.preViewerFrame)
+	slot0.breakView = slot0:findTF("content/Text", slot0.preViewerFrame)
+	slot0.previewAttrPanel = slot0:findTF("preview/attrs_panel/attr_panel")
+	slot0.previewAttrContainer = slot0:findTF("content", slot0.previewAttrPanel)
+	slot0.helpBtn = slot0:findTF("helpBtn", slot0.top)
+	slot0.bottomWidth = slot0.bottomPanel.rect.height
+	slot0.topWidth = slot0.topPanel.rect.height * 2
+	slot0.nameTxts = {}
+	slot0.taskTFs = {}
+	slot0.leanTweens = {}
 end
 
-slot0.init = slot7
-
-function slot7(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.shipBluePrintVO
-
-	if not slot1 then
+function slot0.didEnter(slot0)
+	if not slot0.contextData.shipBluePrintVO then
 		slot1 = {
 			0,
 			0
 		}
-		slot2 = pairs
-		slot3 = slot0.bluePrintByIds
-		slot2, slot3, slot4 = slot2(slot3)
 
-		for slot5, slot6 in slot2, slot3, slot4 do
+		for slot5, slot6 in pairs(slot0.bluePrintByIds) do
 			slot1[slot6.version] = slot1[slot6.version] + (slot6.state == ShipBluePrint.STATE_UNLOCK and 1 or 0)
 
 			if slot6.state == ShipBluePrint.STATE_DEV then
@@ -838,6736 +206,1660 @@ function slot7(slot0)
 			end
 		end
 
-		slot2 = slot0.contextData
-		slot2 = slot2.shipBluePrintVO
+		if not slot0.contextData.shipBluePrintVO then
+			for slot6 = 1, getProxy(TechnologyProxy):getConfigMaxVersion() do
+				slot0.version = slot6
 
-		if not slot2 then
-			slot2 = 1
-			slot0.version = slot2
-			slot3 = slot0
-			slot2 = slot0.emit
-			slot4 = ShipBluePrintMediator
-			slot4 = slot4.SET_TECHNOLOGY_VERSION
-			slot5 = slot0.version
+				if slot1[slot6] <= 4 then
+					break
+				end
+			end
 
-			slot2(slot3, slot4, slot5)
+			slot0:emit(ShipBluePrintMediator.SET_TECHNOLOGY_VERSION, slot0.version)
 		end
 	end
 
-	slot2 = slot0
-	slot1 = slot0.initShips
-
-	slot1(slot2)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.backBtn
-
-	function slot4()
-		slot0 = uv0
-		slot1 = slot0
-		slot0 = slot0.emit
-		slot2 = ShipBluePrintMediator
-		slot2 = slot2.ON_MAIN
-
-		slot0(slot1, slot2)
-	end
-
-	slot5 = SOUND_BACK
-
-	slot1(slot2, slot3, slot4, slot5)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.startBtn
-
-	function slot4()
-		slot0 = uv0
-		slot0 = slot0.contextData
-		slot0 = slot0.shipBluePrintVO
-
-		if not slot0 then
+	slot0:initShips()
+	onButton(slot0, slot0.backBtn, function ()
+		uv0:emit(ShipBluePrintMediator.ON_MAIN)
+	end, SOUND_BACK)
+	onButton(slot0, slot0.startBtn, function ()
+		if not uv0.contextData.shipBluePrintVO then
 			return
 		end
 
-		slot0 = uv0
-		slot0 = slot0.contextData
-		slot0 = slot0.shipBluePrintVO
-		slot0 = slot0.id
-		slot1 = uv0
-		slot2 = slot1
-		slot1 = slot1.emit
-		slot3 = ShipBluePrintMediator
-		slot3 = slot3.ON_START
-		slot4 = slot0
-
-		slot1(slot2, slot3, slot4)
-	end
-
-	slot5 = SFX_PANEL
-
-	slot1(slot2, slot3, slot4, slot5)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.finishedBtn
-
-	function slot4()
-		slot0 = uv0
-		slot0 = slot0.contextData
-		slot0 = slot0.shipBluePrintVO
-
-		if not slot0 then
+		uv0:emit(ShipBluePrintMediator.ON_START, uv0.contextData.shipBluePrintVO.id)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.finishedBtn, function ()
+		if not uv0.contextData.shipBluePrintVO then
 			return
 		end
 
-		slot0 = uv0
-		slot0 = slot0.contextData
-		slot0 = slot0.shipBluePrintVO
-		slot0 = slot0.id
-		slot1 = uv0
-		slot2 = slot1
-		slot1 = slot1.emit
-		slot3 = ShipBluePrintMediator
-		slot3 = slot3.ON_FINISHED
-		slot4 = slot0
-
-		slot1(slot2, slot3, slot4)
-	end
-
-	slot5 = SFX_PANEL
-
-	slot1(slot2, slot3, slot4, slot5)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.preViewBtn
-
-	function slot4()
-		slot0 = uv0
-		slot1 = slot0
-		slot0 = slot0.openPreView
-
-		slot0(slot1)
-	end
-
-	slot5 = SFX_PANEL
-
-	slot1(slot2, slot3, slot4, slot5)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.seaLoading
-
-	function slot4()
-		slot0 = uv0
-		slot0 = slot0.previewer
-
-		if not slot0 then
-			slot0 = uv0
-			slot1 = slot0
-			slot0 = slot0.showBarrage
-
-			slot0(slot1)
+		uv0:emit(ShipBluePrintMediator.ON_FINISHED, uv0.contextData.shipBluePrintVO.id)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.preViewBtn, function ()
+		uv0:openPreView()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.seaLoading, function ()
+		if not uv0.previewer then
+			uv0:showBarrage()
 		end
-	end
-
-	slot5 = SFX_PANEL
-
-	slot1(slot2, slot3, slot4, slot5)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.preViewer
-
-	function slot4()
-		slot0 = uv0
-		slot1 = slot0
-		slot0 = slot0.closePreview
-
-		slot0(slot1)
-	end
-
-	slot5 = SFX_PANEL
-
-	slot1(slot2, slot3, slot4, slot5)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.eyeTF
-
-	function slot4()
-		slot0 = uv0
-		slot1 = slot0
-		slot0 = slot0.hideUI
-
-		slot0(slot1)
-	end
-
-	slot5 = SFX_PANEL
-
-	slot1(slot2, slot3, slot4, slot5)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.main
-
-	function slot4()
-		slot0 = uv0
-		slot0 = slot0.flag
-
-		if slot0 then
-			slot0 = uv0
-			slot1 = slot0
-			slot0 = slot0.hideUI
-
-			slot0(slot1)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.preViewer, function ()
+		uv0:closePreview()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.eyeTF, function ()
+		uv0:hideUI()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.main, function ()
+		if uv0.flag then
+			uv0:hideUI()
 		end
-	end
+	end, SFX_PANEL)
+	onButton(slot0, slot0.helpBtn, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip[isActive(uv0.fittingPanel) and "help_shipblueprintui_luck" or "help_shipblueprintui"].tip
+		})
+	end, SFX_PANEL)
+	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.blurPanel, {
+		pbList = {
+			slot0.rightPanel:Find("task_list"),
+			slot0.rightPanel:Find("mod_panel"),
+			slot0.leftPanle:Find("property_panel"),
+			slot0.bottomPanel:Find("ships/bg")
+		}
+	})
+	onButton(slot0, slot0:findTF("window/top/btnBack", slot0.msgPanel), function ()
+		pg.UIMgr.GetInstance():UnblurPanel(uv0.msgPanel, uv0.top)
+		setActive(uv0.msgPanel, false)
+	end)
+	setText(slot0:findTF("window/confirm_btn/Text", slot0.msgPanel), i18n("text_confirm"))
+	onButton(slot0, slot0:findTF("window/confirm_btn", slot0.msgPanel), function ()
+		pg.UIMgr.GetInstance():UnblurPanel(uv0.msgPanel, uv0.top)
+		setActive(uv0.msgPanel, false)
+	end)
+	onButton(slot0, slot0:findTF("bg", slot0.msgPanel), function ()
+		pg.UIMgr.GetInstance():UnblurPanel(uv0.msgPanel, uv0.top)
+		setActive(uv0.msgPanel, false)
+	end)
+	GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "version_" .. slot0.version, slot0.versionBtn)
+	onButton(slot0, slot0.versionBtn, function ()
+		uv0.version = uv0.version % 2 + 1
 
-	slot5 = SFX_PANEL
+		uv0:emit(ShipBluePrintMediator.SET_TECHNOLOGY_VERSION, uv0.version)
 
-	slot1(slot2, slot3, slot4, slot5)
+		uv0.contextData.shipBluePrintVO = nil
 
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.helpBtn
-
-	function slot4()
-		slot0 = pg.MsgboxMgr.GetInstance()
-		slot2.type = MSGBOX_TYPE_HELP
-		slot2.helps = pg.gametip[isActive(uv0.fittingPanel) and "help_shipblueprintui_luck" or "help_shipblueprintui"].tip
-
-		slot0.ShowMsgBox(slot0, {})
-	end
-
-	slot5 = SFX_PANEL
-
-	slot1(slot2, slot3, slot4, slot5)
-
-	slot1 = pg
-	slot1 = slot1.UIMgr
-	slot1 = slot1.GetInstance
-	slot1 = slot1()
-	slot2 = slot1
-	slot1 = slot1.OverlayPanelPB
-	slot3 = slot0.blurPanel
-	slot4 = {}
-	slot5 = {}
-	slot6 = slot0.rightPanel
-	slot7 = slot6
-	slot6 = slot6.Find
-	slot8 = "task_list"
-	slot6 = slot6(slot7, slot8)
-	slot5[1] = slot6
-	slot6 = slot0.rightPanel
-	slot7 = slot6
-	slot6 = slot6.Find
-	slot8 = "mod_panel"
-	slot6 = slot6(slot7, slot8)
-	slot5[2] = slot6
-	slot6 = slot0.leftPanle
-	slot7 = slot6
-	slot6 = slot6.Find
-	slot8 = "property_panel"
-	slot6 = slot6(slot7, slot8)
-	slot5[3] = slot6
-	slot6 = slot0.bottomPanel
-	slot7 = slot6
-	slot6 = slot6.Find
-	slot8 = "ships/bg"
-	slot5[MULTRES] = slot6(slot7, slot8)
-	slot4.pbList = slot5
-
-	slot1(slot2, slot3, slot4)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "window/top/btnBack"
-	slot6 = slot0.msgPanel
-	slot3 = slot3(slot4, slot5, slot6)
-
-	function slot4()
-		slot0 = pg
-		slot0 = slot0.UIMgr
-		slot0 = slot0.GetInstance
-		slot0 = slot0()
-		slot1 = slot0
-		slot0 = slot0.UnblurPanel
-		slot2 = uv0
-		slot2 = slot2.msgPanel
-		slot3 = uv0
-		slot3 = slot3.top
-
-		slot0(slot1, slot2, slot3)
-
-		slot0 = setActive
-		slot1 = uv0
-		slot1 = slot1.msgPanel
-		slot2 = false
-
-		slot0(slot1, slot2)
-	end
-
-	slot1(slot2, slot3, slot4)
-
-	slot1 = setText
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "window/confirm_btn/Text"
-	slot5 = slot0.msgPanel
-	slot2 = slot2(slot3, slot4, slot5)
-	slot3 = i18n
-	slot4 = "text_confirm"
-
-	slot1(slot2, slot3(slot4))
-
-	slot1 = onButton
-	slot2 = slot0
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "window/confirm_btn"
-	slot6 = slot0.msgPanel
-	slot3 = slot3(slot4, slot5, slot6)
-
-	function slot4()
-		slot0 = pg
-		slot0 = slot0.UIMgr
-		slot0 = slot0.GetInstance
-		slot0 = slot0()
-		slot1 = slot0
-		slot0 = slot0.UnblurPanel
-		slot2 = uv0
-		slot2 = slot2.msgPanel
-		slot3 = uv0
-		slot3 = slot3.top
-
-		slot0(slot1, slot2, slot3)
-
-		slot0 = setActive
-		slot1 = uv0
-		slot1 = slot1.msgPanel
-		slot2 = false
-
-		slot0(slot1, slot2)
-	end
-
-	slot1(slot2, slot3, slot4)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "bg"
-	slot6 = slot0.msgPanel
-	slot3 = slot3(slot4, slot5, slot6)
-
-	function slot4()
-		slot0 = pg
-		slot0 = slot0.UIMgr
-		slot0 = slot0.GetInstance
-		slot0 = slot0()
-		slot1 = slot0
-		slot0 = slot0.UnblurPanel
-		slot2 = uv0
-		slot2 = slot2.msgPanel
-		slot3 = uv0
-		slot3 = slot3.top
-
-		slot0(slot1, slot2, slot3)
-
-		slot0 = setActive
-		slot1 = uv0
-		slot1 = slot1.msgPanel
-		slot2 = false
-
-		slot0(slot1, slot2)
-	end
-
-	slot1(slot2, slot3, slot4)
-
-	slot1 = GetImageSpriteFromAtlasAsync
-	slot2 = "ui/shipblueprintui_atlas"
-	slot3 = "version_"
-	slot4 = slot0.version
-	slot3 = slot3 .. slot4
-	slot4 = slot0.versionBtn
-
-	slot1(slot2, slot3, slot4)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.versionBtn
-
-	function slot4()
-		slot0 = uv0
-		slot1 = uv0
-		slot1 = slot1.version
-		slot1 = slot1 % 2
-		slot1 = slot1 + 1
-		slot0.version = slot1
-		slot0 = uv0
-		slot1 = slot0
-		slot0 = slot0.emit
-		slot2 = ShipBluePrintMediator
-		slot2 = slot2.SET_TECHNOLOGY_VERSION
-		slot3 = uv0
-		slot3 = slot3.version
-
-		slot0(slot1, slot2, slot3)
-
-		slot0 = uv0
-		slot0 = slot0.contextData
-		slot1 = nil
-		slot0.shipBluePrintVO = slot1
-		slot0 = GetImageSpriteFromAtlasAsync
-		slot1 = "ui/shipblueprintui_atlas"
-		slot2 = "version_"
-		slot3 = uv0
-		slot3 = slot3.version
-		slot2 = slot2 .. slot3
-		slot3 = uv0
-		slot3 = slot3.versionBtn
-
-		slot0(slot1, slot2, slot3)
-
-		slot0 = uv0
-		slot0 = slot0.itemList
-		slot1 = slot0
-		slot0 = slot0.align
-		slot2 = 0
-
-		slot0(slot1, slot2)
-
-		slot0 = uv0
-		slot1 = slot0
-		slot0 = slot0.initShips
-
-		slot0(slot1)
-	end
-
-	slot1(slot2, slot3, slot4)
-
-	slot1 = LeanTween
-	slot1 = slot1.alpha
-	slot2 = rtf
-	slot3 = slot0.skillArrLeft
-	slot2 = slot2(slot3)
-	slot3 = 0.25
-	slot4 = 1
-	slot1 = slot1(slot2, slot3, slot4)
-	slot2 = slot1
-	slot1 = slot1.setEase
-	slot3 = LeanTweenType
-	slot3 = slot3.easeInOutSine
-	slot1 = slot1(slot2, slot3)
-	slot2 = slot1
-	slot1 = slot1.setLoopPingPong
-
-	slot1(slot2)
-
-	slot1 = LeanTween
-	slot1 = slot1.alpha
-	slot2 = rtf
-	slot3 = slot0.skillArrRight
-	slot2 = slot2(slot3)
-	slot3 = 0.25
-	slot4 = 1
-	slot1 = slot1(slot2, slot3, slot4)
-	slot2 = slot1
-	slot1 = slot1.setEase
-	slot3 = LeanTweenType
-	slot3 = slot3.easeInOutSine
-	slot1 = slot1(slot2, slot3)
-	slot2 = slot1
-	slot1 = slot1.setLoopPingPong
-
-	slot1(slot2)
+		GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "version_" .. uv0.version, uv0.versionBtn)
+		uv0.itemList:align(0)
+		uv0:initShips()
+	end)
+	LeanTween.alpha(rtf(slot0.skillArrLeft), 0.25, 1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
+	LeanTween.alpha(rtf(slot0.skillArrRight), 0.25, 1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
 end
 
-slot0.didEnter = slot7
 slot7 = 0.5
 
-function slot8(slot0)
-	slot1 = LeanTween
-	slot1 = slot1.isTweening
-	slot2 = go
-	slot3 = slot0.leftPanle
-	slot1 = slot1(slot2(slot3))
-
-	if not slot1 then
-		slot1 = LeanTween
-		slot1 = slot1.isTweening
-		slot2 = go
-		slot3 = slot0.rightPanel
-		slot1 = slot1(slot2(slot3))
-
-		if not slot1 then
-			slot1 = LeanTween
-			slot1 = slot1.isTweening
-			slot2 = go
-			slot3 = slot0.bottomPanel
-			slot1 = slot1(slot2(slot3))
-
-			if slot1 then
-				return
-			end
-		end
+function slot0.hideUI(slot0)
+	if LeanTween.isTweening(go(slot0.leftPanle)) or LeanTween.isTweening(go(slot0.rightPanel)) or LeanTween.isTweening(go(slot0.bottomPanel)) then
+		return
 	end
 
-	slot1 = slot0.flag
-	slot1 = not slot1
-	slot0.flag = slot1
-	slot1 = slot0.flag
+	slot0.flag = not slot0.flag
 
-	if slot1 then
-		slot1 = LeanTween
-		slot1 = slot1.moveX
-		slot2 = slot0.leftPanle
-		slot3 = slot0.leftPanle
-		slot3 = slot3.rect
-		slot3 = slot3.width
-		slot3 = -slot3
-		slot3 = slot3 - 400
-		slot4 = uv0
-
-		slot1(slot2, slot3, slot4)
-
-		slot1 = LeanTween
-		slot1 = slot1.moveX
-		slot2 = slot0.rightPanel
-		slot3 = 400
-		slot4 = uv0
-
-		slot1(slot2, slot3, slot4)
-
-		slot1 = LeanTween
-		slot1 = slot1.moveY
-		slot2 = slot0.bottomPanel
-		slot3 = slot0.bottomWidth
-		slot3 = -slot3
-		slot4 = uv0
-
-		slot1(slot2, slot3, slot4)
-
-		slot1 = LeanTween
-		slot1 = slot1.moveY
-		slot2 = slot0.topPanel
-		slot3 = slot0.topWidth
-		slot4 = uv0
-
-		slot1(slot2, slot3, slot4)
-
-		slot1 = LeanTween
-		slot1 = slot1.moveY
-		slot2 = slot0.topBg
-		slot3 = slot0.topWidth
-		slot4 = uv0
-
-		slot1(slot2, slot3, slot4)
-
-		slot1 = LeanTween
-		slot1 = slot1.moveX
-		slot2 = slot0.centerPanel
-		slot3 = 0
-		slot4 = uv0
-
-		slot1(slot2, slot3, slot4)
+	if slot0.flag then
+		LeanTween.moveX(slot0.leftPanle, -slot0.leftPanle.rect.width - 400, uv0)
+		LeanTween.moveX(slot0.rightPanel, 400, uv0)
+		LeanTween.moveY(slot0.bottomPanel, -slot0.bottomWidth, uv0)
+		LeanTween.moveY(slot0.topPanel, slot0.topWidth, uv0)
+		LeanTween.moveY(slot0.topBg, slot0.topWidth, uv0)
+		LeanTween.moveX(slot0.centerPanel, 0, uv0)
 	else
-		slot1 = LeanTween
-		slot1 = slot1.moveX
-		slot2 = slot0.leftPanle
-		slot3 = 0
-		slot4 = uv0
-
-		slot1(slot2, slot3, slot4)
-
-		slot1 = LeanTween
-		slot1 = slot1.moveX
-		slot2 = slot0.rightPanel
-		slot3 = slot0.rightPanel
-		slot3 = slot3.rect
-		slot3 = slot3.width
-		slot3 = -slot3
-		slot4 = uv0
-
-		slot1(slot2, slot3, slot4)
-
-		slot1 = LeanTween
-		slot1 = slot1.moveY
-		slot2 = slot0.bottomPanel
-		slot3 = 0
-		slot4 = uv0
-
-		slot1(slot2, slot3, slot4)
-
-		slot1 = LeanTween
-		slot1 = slot1.moveY
-		slot2 = slot0.topPanel
-		slot3 = 0
-		slot4 = uv0
-
-		slot1(slot2, slot3, slot4)
-
-		slot1 = LeanTween
-		slot1 = slot1.moveY
-		slot2 = slot0.topBg
-		slot3 = 0
-		slot4 = uv0
-
-		slot1(slot2, slot3, slot4)
-
-		slot1 = LeanTween
-		slot1 = slot1.moveX
-		slot2 = slot0.centerPanel
-		slot3 = 0
-		slot4 = uv0
-
-		slot1(slot2, slot3, slot4)
+		LeanTween.moveX(slot0.leftPanle, 0, uv0)
+		LeanTween.moveX(slot0.rightPanel, -slot0.rightPanel.rect.width, uv0)
+		LeanTween.moveY(slot0.bottomPanel, 0, uv0)
+		LeanTween.moveY(slot0.topPanel, 0, uv0)
+		LeanTween.moveY(slot0.topBg, 0, uv0)
+		LeanTween.moveX(slot0.centerPanel, 0, uv0)
 	end
 
-	slot1 = setActive
-	slot2 = slot0.nameTF
-	slot3 = slot0.flag
-	slot3 = not slot3
-
-	slot1(slot2, slot3)
-
-	slot1 = setActive
-	slot2 = slot0.stateInfo
-	slot3 = slot0.flag
-	slot3 = not slot3
-
-	slot1(slot2, slot3)
-
-	slot1 = setActive
-	slot2 = slot0.helpBtn
-	slot3 = slot0.flag
-	slot3 = not slot3
-
-	slot1(slot2, slot3)
+	setActive(slot0.nameTF, not slot0.flag)
+	setActive(slot0.stateInfo, not slot0.flag)
+	setActive(slot0.helpBtn, not slot0.flag)
 end
 
-slot0.hideUI = slot8
-
-function slot8(slot0, slot1, slot2)
+function slot0.switchUI(slot0, slot1, slot2)
 	if slot2 then
-		slot3 = LeanTween
-		slot3 = slot3.moveX
-		slot4 = slot0.leftPanle
-		slot5 = 0
-		slot6 = slot1
-
-		slot3(slot4, slot5, slot6)
-
-		slot3 = LeanTween
-		slot3 = slot3.moveX
-		slot4 = slot0.rightPanel
-		slot5 = slot0.rightPanel
-		slot5 = slot5.rect
-		slot5 = slot5.width
-		slot5 = -slot5
-		slot6 = slot1
-
-		slot3(slot4, slot5, slot6)
-
-		slot3 = LeanTween
-		slot3 = slot3.moveX
-		slot4 = slot0.centerPanel
-		slot5 = 0
-		slot6 = slot1
-
-		slot3(slot4, slot5, slot6)
+		LeanTween.moveX(slot0.leftPanle, 0, slot1)
+		LeanTween.moveX(slot0.rightPanel, -slot0.rightPanel.rect.width, slot1)
+		LeanTween.moveX(slot0.centerPanel, 0, slot1)
 	else
-		slot3 = LeanTween
-		slot3 = slot3.moveX
-		slot4 = slot0.leftPanle
-		slot5 = slot0.leftPanle
-		slot5 = slot5.rect
-		slot5 = slot5.width
-		slot5 = -slot5
-		slot5 = slot5 - 400
-		slot6 = slot1
-
-		slot3(slot4, slot5, slot6)
-
-		slot3 = LeanTween
-		slot3 = slot3.moveX
-		slot4 = slot0.rightPanel
-		slot5 = 400
-		slot6 = slot1
-
-		slot3(slot4, slot5, slot6)
-
-		slot3 = LeanTween
-		slot3 = slot3.moveX
-		slot4 = slot0.centerPanel
-		slot5 = 0
-		slot6 = slot1
-
-		slot3(slot4, slot5, slot6)
+		LeanTween.moveX(slot0.leftPanle, -slot0.leftPanle.rect.width - 400, slot1)
+		LeanTween.moveX(slot0.rightPanel, 400, slot1)
+		LeanTween.moveX(slot0.centerPanel, 0, slot1)
 	end
 end
 
-slot0.switchUI = slot8
-
-function slot8(slot0, slot1, slot2)
+function slot0.switch2FittingPanel(slot0, slot1, slot2)
 	if slot2 then
-		slot3 = LeanTween
-		slot3 = slot3.moveX
-		slot4 = slot0.rightPanel
-		slot5 = slot0.rightPanel
-		slot5 = slot5.rect
-		slot5 = slot5.width
-		slot5 = -slot5
-		slot6 = slot1
-
-		slot3(slot4, slot5, slot6)
-
-		slot3 = LeanTween
-		slot3 = slot3.moveX
-		slot4 = slot0.centerPanel
-		slot5 = slot0.rightPanel
-		slot5 = slot5.rect
-		slot5 = slot5.width
-		slot5 = -slot5
-		slot5 = slot5 / 2
-		slot6 = slot1
-
-		slot3(slot4, slot5, slot6)
+		LeanTween.moveX(slot0.rightPanel, -slot0.rightPanel.rect.width, slot1)
+		LeanTween.moveX(slot0.centerPanel, -slot0.rightPanel.rect.width / 2, slot1)
 	else
-		slot3 = LeanTween
-		slot3 = slot3.moveX
-		slot4 = slot0.leftPanle
-		slot5 = slot0.leftPanle
-		slot5 = slot5.rect
-		slot5 = slot5.width
-		slot5 = -slot5
-		slot5 = slot5 - 400
-		slot6 = slot1
-
-		slot3(slot4, slot5, slot6)
-
-		slot3 = LeanTween
-		slot3 = slot3.moveX
-		slot4 = slot0.rightPanel
-		slot5 = 400
-		slot6 = slot1
-
-		slot3(slot4, slot5, slot6)
-
-		slot3 = LeanTween
-		slot3 = slot3.moveX
-		slot4 = slot0.centerPanel
-		slot5 = 0
-		slot6 = slot1
-
-		slot3(slot4, slot5, slot6)
+		LeanTween.moveX(slot0.leftPanle, -slot0.leftPanle.rect.width - 400, slot1)
+		LeanTween.moveX(slot0.rightPanel, 400, slot1)
+		LeanTween.moveX(slot0.centerPanel, 0, slot1)
 	end
 end
 
-slot0.switch2FittingPanel = slot8
-
-function slot8(slot0, slot1)
+function slot0.createShipItem(slot0, slot1)
 	slot2 = {
-		go = slot1
+		go = slot1,
+		tf = tf(slot1)
 	}
-	slot3 = tf
-	slot4 = slot1
-	slot3 = slot3(slot4)
-	slot2.tf = slot3
-	slot3 = findTF
-	slot4 = slot2.tf
-	slot5 = "icon"
-	slot3 = slot3(slot4, slot5)
-	slot4 = slot3
-	slot3 = slot3.GetComponent
-	slot5 = "Image"
-	slot3 = slot3(slot4, slot5)
-	slot2.iconShip = slot3
-	slot3 = findTF
-	slot4 = slot2.tf
-	slot5 = "count"
-	slot3 = slot3(slot4, slot5)
-	slot4 = slot3
-	slot3 = slot3.GetComponent
-	slot5 = typeof
-	slot6 = Text
-	slot3 = slot3(slot4, slot5(slot6))
-	slot2.countTxt = slot3
-	slot3 = findTF
-	slot4 = slot2.tf
-	slot5 = "selected"
-	slot3 = slot3(slot4, slot5)
-	slot2.seleted = slot3
-	slot3 = findTF
-	slot4 = slot2.tf
-	slot5 = "state/mask_lock"
-	slot3 = slot3(slot4, slot5)
-	slot2.maskLock = slot3
-	slot3 = findTF
-	slot4 = slot2.tf
-	slot5 = "state/mask_dev"
-	slot3 = slot3(slot4, slot5)
-	slot2.maskDev = slot3
-	slot3 = findTF
-	slot4 = slot2.tf
-	slot5 = "state/mask_none"
-	slot3 = slot3(slot4, slot5)
-	slot2.maskNone = slot3
-	slot3 = findTF
-	slot4 = slot2.tf
-	slot5 = "tip"
-	slot3 = slot3(slot4, slot5)
-	slot2.tip = slot3
-	slot3 = findTF
-	slot4 = slot2.tf
-	slot5 = "icon"
-	slot3 = slot3(slot4, slot5)
-	slot2.iconTF = slot3
-	slot3 = slot2.tf
-	slot4 = slot3
-	slot3 = slot3.GetComponent
-	slot5 = "Toggle"
-	slot3 = slot3(slot4, slot5)
-	slot2.toggle = slot3
-	slot3 = findTF
-	slot4 = slot2.tf
-	slot5 = "dev_lv"
-	slot3 = slot3(slot4, slot5)
-	slot2.lvTF = slot3
-	slot3 = findTF
-	slot4 = slot2.tf
-	slot5 = "dev_lv/Text"
-	slot3 = slot3(slot4, slot5)
-	slot2.lvTextTF = slot3
+	slot2.iconShip = findTF(slot2.tf, "icon"):GetComponent("Image")
+	slot2.countTxt = findTF(slot2.tf, "count"):GetComponent(typeof(Text))
+	slot2.seleted = findTF(slot2.tf, "selected")
+	slot2.maskLock = findTF(slot2.tf, "state/mask_lock")
+	slot2.maskDev = findTF(slot2.tf, "state/mask_dev")
+	slot2.maskNone = findTF(slot2.tf, "state/mask_none")
+	slot2.tip = findTF(slot2.tf, "tip")
+	slot2.iconTF = findTF(slot2.tf, "icon")
+	slot2.toggle = slot2.tf:GetComponent("Toggle")
+	slot2.lvTF = findTF(slot2.tf, "dev_lv")
+	slot2.lvTextTF = findTF(slot2.tf, "dev_lv/Text")
 
-	function slot3(slot0, slot1, slot2)
+	function slot2.update(slot0, slot1, slot2)
 		slot0.toggle.enabled = slot1.id > 0
 
 		if slot1.id < 0 then
-			slot3 = setActive
-			slot4 = slot0.maskNone
-			slot5 = true
-
-			slot3(slot4, slot5)
-
-			slot3 = setActive
-			slot4 = slot0.seleted
-			slot5 = false
-
-			slot3(slot4, slot5)
-
-			slot3 = setActive
-			slot4 = slot0.maskLock
-			slot5 = false
-
-			slot3(slot4, slot5)
-
-			slot3 = setActive
-			slot4 = slot0.maskDev
-			slot5 = false
-
-			slot3(slot4, slot5)
-
-			slot3 = setActive
-			slot4 = slot0.tip
-			slot5 = false
-
-			slot3(slot4, slot5)
-
-			slot3 = setActive
-			slot4 = slot0.lvTF
-			slot5 = false
-
-			slot3(slot4, slot5)
-
-			slot3 = setActive
-			slot4 = slot0.countTxt
-			slot5 = false
-
-			slot3(slot4, slot5)
-
-			slot3 = LoadSpriteAsync
-			slot4 = "shipdesignicon/unknow"
-
-			function slot5(slot0)
-				slot1 = uv0
-				slot1 = slot1.iconShip
-				slot1.sprite = slot0
-			end
-
-			slot3(slot4, slot5)
+			setActive(slot0.maskNone, true)
+			setActive(slot0.seleted, false)
+			setActive(slot0.maskLock, false)
+			setActive(slot0.maskDev, false)
+			setActive(slot0.tip, false)
+			setActive(slot0.lvTF, false)
+			setActive(slot0.countTxt, false)
+			LoadSpriteAsync("shipdesignicon/unknow", function (slot0)
+				uv0.iconShip.sprite = slot0
+			end)
 		else
 			slot0.shipBluePrintVO = slot1
-			slot3 = slot0.shipBluePrintVO
-			slot4 = slot3
-			slot3 = slot3.getShipVO
-			slot3 = slot3(slot4)
-			slot4 = LoadSpriteAsync
-			slot5 = "shipdesignicon/"
-			slot7 = slot3
-			slot6 = slot3.getPainting
-			slot6 = slot6(slot7)
-			slot5 = slot5 .. slot6
 
-			function slot6(slot0)
+			LoadSpriteAsync("shipdesignicon/" .. slot0.shipBluePrintVO:getShipVO():getPainting(), function (slot0)
 				if slot0 then
-					slot1 = uv0
-					slot1 = slot1.iconShip
-					slot1.sprite = slot0
+					uv0.iconShip.sprite = slot0
 				end
-			end
+			end)
 
-			slot4(slot5, slot6)
-
-			slot4 = slot2.count
-			slot5 = 999
-
-			if slot4 > slot5 then
-				slot4 = uv0
-				slot4 = slot4.countTxt
-				slot5 = "999+"
-				slot4.text = slot5
+			if slot2.count > 999 then
+				uv0.countTxt.text = "999+"
 			else
-				slot4 = uv0
-				slot4 = slot4.countTxt
-				slot5 = slot2.count
-				slot4.text = slot5
+				uv0.countTxt.text = slot2.count
 			end
 
-			slot4 = setText
-			slot5 = slot0.lvTextTF
-			slot6 = slot0.shipBluePrintVO
-			slot6 = slot6.level
-
-			slot4(slot5, slot6)
-
-			slot4 = setActive
-			slot5 = slot0.seleted
-			slot6 = false
-
-			slot4(slot5, slot6)
-
-			slot4 = setActive
-			slot5 = slot0.countTxt
-			slot6 = true
-
-			slot4(slot5, slot6)
-
-			slot4 = setActive
-			slot5 = slot0.maskLock
-			slot7 = slot1
-			slot6 = slot1.isLock
-
-			slot4(slot5, slot6(slot7))
-
-			slot4 = setActive
-			slot5 = slot0.maskDev
-			slot7 = slot1
-			slot6 = slot1.isDeving
-
-			slot4(slot5, slot6(slot7))
-
-			slot4 = setActive
-			slot5 = slot0.tip
-			slot7 = slot1
-			slot6 = slot1.isFinished
-
-			slot4(slot5, slot6(slot7))
-
-			slot4 = setActive
-			slot5 = slot0.maskNone
-			slot6 = false
-
-			slot4(slot5, slot6)
-
-			slot4 = setActive
-			slot5 = slot0.lvTF
-			slot7 = slot1
-			slot6 = slot1.isLock
-			slot6 = slot6(slot7)
-
-			if not slot6 then
-				slot7 = slot1
-				slot6 = slot1.isDeving
-				slot6 = slot6(slot7)
-				slot6 = not slot6
-			else
-				slot6 = false
-
-				if false then
-					slot6 = true
-				end
-			end
-
-			slot4(slot5, slot6)
+			setText(slot0.lvTextTF, slot0.shipBluePrintVO.level)
+			setActive(slot0.seleted, false)
+			setActive(slot0.countTxt, true)
+			setActive(slot0.maskLock, slot1:isLock())
+			setActive(slot0.maskDev, slot1:isDeving())
+			setActive(slot0.tip, slot1:isFinished())
+			setActive(slot0.maskNone, false)
+			setActive(slot0.lvTF, not slot1:isLock() and not slot1:isDeving())
 		end
 	end
 
-	slot2.update = slot3
-
-	function slot3(slot0, slot1)
+	function slot2.updateSelectedStyle(slot0, slot1)
 		LeanTween.moveY(slot0.iconTF, slot1 and 0 or -25, 0.1)
 	end
-
-	slot2.updateSelectedStyle = slot3
 
 	return slot2
 end
 
-slot0.createShipItem = slot8
+function slot0.initShips(slot0)
+	slot0:checkStory()
+	slot0:filterBlueprints()
 
-function slot8(slot0)
-	slot2 = slot0
-	slot1 = slot0.checkStory
+	slot0.contextData.shipBluePrintVO = slot0.contextData.shipBluePrintVO or slot0.filterBlueprintVOs[1]
 
-	slot1(slot2)
+	if not slot0.itemList then
+		slot0.bluePrintItems = {}
+		slot0.itemList = UIItemList.New(slot0.shipContainer, slot0.shipTpl)
 
-	slot2 = slot0
-	slot1 = slot0.filterBlueprints
+		slot0.itemList:make(function (slot0, slot1, slot2)
+			if slot0 == UIItemList.EventInit then
+				uv0.bluePrintItems[slot2] = uv0:createShipItem(slot2)
 
-	slot1(slot2)
-
-	slot1 = slot0.contextData
-	slot2 = slot0.contextData
-	slot2 = slot2.shipBluePrintVO
-
-	if not slot2 then
-		slot2 = slot0.filterBlueprintVOs
-		slot2 = slot2[1]
-	end
-
-	slot1.shipBluePrintVO = slot2
-	slot1 = slot0.itemList
-
-	if not slot1 then
-		slot1 = {}
-		slot0.bluePrintItems = slot1
-		slot1 = UIItemList
-		slot1 = slot1.New
-		slot2 = slot0.shipContainer
-		slot3 = slot0.shipTpl
-		slot1 = slot1(slot2, slot3)
-		slot0.itemList = slot1
-		slot1 = slot0.itemList
-		slot2 = slot1
-		slot1 = slot1.make
-
-		function slot3(slot0, slot1, slot2)
-			slot3 = UIItemList
-			slot3 = slot3.EventInit
-
-			if slot0 == slot3 then
-				slot3 = uv0
-				slot3 = slot3.bluePrintItems
-				slot4 = uv0
-				slot5 = slot4
-				slot4 = slot4.createShipItem
-				slot6 = slot2
-				slot4 = slot4(slot5, slot6)
-				slot3[slot2] = slot4
-				slot3 = uv0
-				slot3 = slot3.bluePrintItems
-				slot3 = slot3[slot2]
-				slot4 = onToggle
-				slot5 = uv0
-				slot6 = slot3.go
-
-				function slot7(slot0)
+				onToggle(uv0, uv0.bluePrintItems[slot2].go, function (slot0)
 					if slot0 then
-						slot1 = uv0
-						slot2 = slot1
-						slot1 = slot1.clearLeanTween
+						uv0:clearLeanTween()
 
-						slot1(slot2)
-
-						slot1 = uv0
-						slot1 = slot1.contextData
-						slot2 = uv1
-						slot2 = slot2.shipBluePrintVO
-						slot1.shipBluePrintVO = slot2
+						uv0.contextData.shipBluePrintVO = uv1.shipBluePrintVO
 
 						function slot1()
-							slot0 = uv0
-							slot1 = slot0
-							slot0 = slot0.setSelectedBluePrint
+							uv0:setSelectedBluePrint()
 
-							slot0(slot1)
-
-							slot0 = uv0
-							slot1 = uv0
-							slot1 = slot1.contextData
-							slot1 = slot1.shipBluePrintVO
-							slot1 = slot1.id
-							slot0.nowShipId = slot1
+							uv0.nowShipId = uv0.contextData.shipBluePrintVO.id
 						end
 
-						slot2 = uv0
-						slot2 = slot2.inFlag
-
-						if slot2 then
-							slot2 = uv0
-							slot2 = slot2.nowShipId
-							slot3 = uv0
-							slot3 = slot3.contextData
-							slot3 = slot3.shipBluePrintVO
-							slot3 = slot3.id
-
-							if slot2 ~= slot3 then
+						if uv0.inFlag then
+							if uv0.nowShipId ~= uv0.contextData.shipBluePrintVO.id then
 								slot2 = 0.3
-								slot3 = uv0
-								slot4 = slot3
-								slot3 = slot3.switchUI
-								slot5 = slot2
-								slot6 = false
 
-								slot3(slot4, slot5, slot6)
-
-								slot3 = LeanTween
-								slot3 = slot3.delayedCall
-								slot4 = slot2 + 0.1
-								slot5 = System
-								slot5 = slot5.Action
-
-								function slot6()
-									slot0 = uv0
-
-									slot0()
-
-									slot0 = Canvas
-									slot0 = slot0.ForceUpdateCanvases
-
-									slot0()
-
-									slot0 = uv1
-									slot1 = slot0
-									slot0 = slot0.switchUI
-									slot2 = uv2
-									slot3 = true
-
-									slot0(slot1, slot2, slot3)
-								end
-
-								slot3(slot4, slot5(slot6))
+								uv0:switchUI(slot2, false)
+								LeanTween.delayedCall(slot2 + 0.1, System.Action(function ()
+									uv0()
+									Canvas.ForceUpdateCanvases()
+									uv1:switchUI(uv2, true)
+								end))
 							else
-								slot2 = slot1
-
-								slot2()
+								slot1()
 							end
 						else
-							slot2 = slot1
+							slot1()
+							Canvas.ForceUpdateCanvases()
 
-							slot2()
+							uv0.inFlag = true
+							uv0.flag = true
 
-							slot2 = Canvas
-							slot2 = slot2.ForceUpdateCanvases
-
-							slot2()
-
-							slot2 = uv0
-							slot3 = true
-							slot2.inFlag = slot3
-							slot2 = uv0
-							slot3 = true
-							slot2.flag = slot3
-							slot2 = uv0
-							slot3 = slot2
-							slot2 = slot2.hideUI
-
-							slot2(slot3)
+							uv0:hideUI()
 						end
 					end
 
-					slot1 = uv1
-					slot2 = slot1
-					slot1 = slot1.updateSelectedStyle
-					slot3 = slot0
-
-					slot1(slot2, slot3)
-				end
-
-				slot8 = SFX_PANEL
-
-				slot4(slot5, slot6, slot7, slot8)
+					uv1:updateSelectedStyle(slot0)
+				end, SFX_PANEL)
 
 				return
 			end
 
-			slot3 = UIItemList
-			slot3 = slot3.EventUpdate
-
-			if slot0 == slot3 then
-				slot3 = uv0
-				slot3 = slot3.bluePrintItems
-				slot3 = slot3[slot2]
-				slot4 = uv0
-				slot4 = slot4.filterBlueprintVOs
-				slot5 = slot1 + 1
-				slot4 = slot4[slot5]
-				slot5 = slot4.id
-				slot6 = 0
-
-				if slot5 > slot6 then
-					slot6 = slot4
-					slot5 = slot4.getItemId
-					slot5 = slot5(slot6)
-					slot6 = uv0
-					slot7 = slot6
-					slot6 = slot6.getItemById
-					slot8 = slot5
-					slot6 = slot6(slot7, slot8)
-					slot8 = slot3
-					slot7 = slot3.update
-					slot9 = slot4
-					slot10 = slot6
-
-					slot7(slot8, slot9, slot10)
+			if slot0 == UIItemList.EventUpdate then
+				if uv0.filterBlueprintVOs[slot1 + 1].id > 0 then
+					uv0.bluePrintItems[slot2]:update(slot4, uv0:getItemById(slot4:getItemId()))
 				else
-					slot6 = slot3
-					slot5 = slot3.update
-					slot7 = slot4
-					slot8 = nil
-
-					slot5(slot6, slot7, slot8)
+					slot3:update(slot4, nil)
 				end
 			end
-		end
-
-		slot1(slot2, slot3)
+		end)
 	end
 
-	slot1 = slot0.itemList
-	slot2 = slot1
-	slot1 = slot1.align
-	slot3 = slot0.filterBlueprintVOs
-	slot3 = #slot3
-
-	slot1(slot2, slot3)
-
-	slot1 = eachChild
-	slot2 = slot0.shipContainer
-
-	function slot3(slot0)
-		slot1 = uv0
-		slot1 = slot1.contextData
-		slot1 = slot1.shipBluePrintVO
-		slot1 = slot1.id
-		slot2 = uv0
-		slot2 = slot2.bluePrintItems
-		slot2 = slot2[slot0]
-		slot2 = slot2.shipBluePrintVO
-		slot2 = slot2.id
-
-		if slot1 == slot2 then
-			slot1 = triggerToggle
-			slot2 = slot0
-			slot3 = true
-
-			slot1(slot2, slot3)
+	slot0.itemList:align(#slot0.filterBlueprintVOs)
+	eachChild(slot0.shipContainer, function (slot0)
+		if uv0.contextData.shipBluePrintVO.id == uv0.bluePrintItems[slot0].shipBluePrintVO.id then
+			triggerToggle(slot0, true)
 		end
-	end
-
-	slot1(slot2, slot3)
+	end)
 end
 
-slot0.initShips = slot8
+function slot0.filterBlueprints(slot0)
+	if slot0.contextData.shipBluePrintVO then
+		slot0.version = slot0.contextData.shipBluePrintVO:getConfig("blueprint_version")
 
-function slot8(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.shipBluePrintVO
-
-	if slot1 then
-		slot1 = slot0.contextData
-		slot1 = slot1.shipBluePrintVO
-		slot2 = slot1
-		slot1 = slot1.getConfig
-		slot3 = "blueprint_version"
-		slot1 = slot1(slot2, slot3)
-		slot0.version = slot1
-		slot2 = slot0
-		slot1 = slot0.emit
-		slot3 = ShipBluePrintMediator
-		slot3 = slot3.SET_TECHNOLOGY_VERSION
-		slot4 = slot0.version
-
-		slot1(slot2, slot3, slot4)
+		slot0:emit(ShipBluePrintMediator.SET_TECHNOLOGY_VERSION, slot0.version)
 	end
 
-	slot1 = {}
-	slot0.filterBlueprintVOs = slot1
-	slot1 = 0
-	slot2 = pairs
-	slot3 = slot0.bluePrintByIds
-	slot2, slot3, slot4 = slot2(slot3)
+	slot0.filterBlueprintVOs = {}
 
-	for slot5, slot6 in slot2, slot3, slot4 do
-		slot7 = slot6.version
-		slot8 = slot0.version
+	for slot5, slot6 in pairs(slot0.bluePrintByIds) do
+		if slot6.version == slot0.version then
+			table.insert(slot0.filterBlueprintVOs, slot6)
 
-		if slot7 == slot8 then
-			slot7 = table
-			slot7 = slot7.insert
-			slot8 = slot0.filterBlueprintVOs
-			slot9 = slot6
-
-			slot7(slot8, slot9)
-
-			slot1 = slot1 + 1
+			slot1 = 0 + 1
 		end
 	end
 
-	slot2 = slot1
-	slot3 = 5
-	slot4 = 1
-
-	for slot5 = slot2, slot3, slot4 do
-		slot6 = table
-		slot6 = slot6.insert
-		slot7 = slot0.filterBlueprintVOs
-		slot8 = {
+	for slot5 = slot1, 5 do
+		table.insert(slot0.filterBlueprintVOs, {
 			id = -1,
 			state = -1
-		}
-
-		slot6(slot7, slot8)
+		})
 	end
 
-	slot2 = table
-	slot2 = slot2.sort
-	slot3 = slot0.filterBlueprintVOs
-
-	function slot4(slot0, slot1)
-		slot2 = slot0.state
-		slot3 = slot1.state
-
-		if slot2 == slot3 then
+	table.sort(slot0.filterBlueprintVOs, function (slot0, slot1)
+		if slot0.state == slot1.state then
 			return slot0.id < slot1.id
 		else
 			return slot1.state < slot0.state
 		end
-	end
-
-	slot2(slot3, slot4)
+	end)
 end
 
-slot0.filterBlueprints = slot8
+function slot0.setSelectedBluePrint(slot0)
+	slot0:updateInfo()
+	slot0:updatePainting()
+	slot0:updateProperty()
 
-function slot8(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.shipBluePrintVO
-	slot3 = slot0
-	slot2 = slot0.updateInfo
+	slot2 = slot0.contextData.shipBluePrintVO:isUnlock()
 
-	slot2(slot3)
-
-	slot3 = slot0
-	slot2 = slot0.updatePainting
-
-	slot2(slot3)
-
-	slot3 = slot0
-	slot2 = slot0.updateProperty
-
-	slot2(slot3)
-
-	slot3 = slot1
-	slot2 = slot1.isUnlock
-	slot2 = slot2(slot3)
-	slot3 = setActive
-	slot4 = slot0.taskListPanel
-	slot5 = not slot2
-
-	slot3(slot4, slot5)
-
-	slot3 = setActive
-	slot4 = slot0.fittingPanel
+	setActive(slot0.taskListPanel, not slot2)
+	setActive(slot0.fittingPanel, slot2 and isActive(slot0.fittingPanel) and slot0.noUpdateMod)
+	setActive(slot0.modPanel, slot2 and not isActive(slot0.fittingPanel))
+	setActive(slot0.attrDisableBtn, not slot2)
 
 	if slot2 then
-		slot5 = isActive(slot0.fittingPanel) and slot0.noUpdateMod
-	end
-
-	slot3(slot4, slot5)
-
-	slot3 = setActive
-	slot4 = slot0.modPanel
-
-	if slot2 then
-		slot5 = isActive
-		slot6 = slot0.fittingPanel
-		slot5 = slot5(slot6)
-		slot5 = not slot5
-	end
-
-	slot3(slot4, slot5)
-
-	slot3 = setActive
-	slot4 = slot0.attrDisableBtn
-	slot5 = not slot2
-
-	slot3(slot4, slot5)
-
-	if slot2 then
-		slot4 = slot0
-		slot3 = slot0.updateMod
-
-		slot3(slot4)
+		slot0:updateMod()
 	else
-		slot4 = slot0
-		slot3 = slot0.updateTaskList
-
-		slot3(slot4)
-
-		slot3 = triggerToggle
-		slot4 = slot0.initBtn
-		slot5 = true
-
-		slot3(slot4, slot5)
+		slot0:updateTaskList()
+		triggerToggle(slot0.initBtn, true)
 	end
 
-	slot4 = slot1
-	slot3 = slot1.isDeving
-	slot3 = slot3(slot4)
-
-	if slot3 then
-		slot4 = slot0
-		slot3 = slot0.emit
-		slot5 = ShipBluePrintMediator
-		slot5 = slot5.ON_CHECK_TAKES
-		slot6 = slot1.id
-
-		slot3(slot4, slot5, slot6)
+	if slot1:isDeving() then
+		slot0:emit(ShipBluePrintMediator.ON_CHECK_TAKES, slot1.id)
 	end
 end
 
-slot0.setSelectedBluePrint = slot8
-
-function slot8(slot0)
-	slot1 = slot0.noUpdateMod
-
-	if slot1 then
+function slot0.updateMod(slot0)
+	if slot0.noUpdateMod then
 		return
 	end
 
-	slot2 = slot0
-	slot1 = slot0.updateModPanel
-
-	slot1(slot2)
-
-	slot2 = slot0
-	slot1 = slot0.updateModAdditionPanel
-
-	slot1(slot2)
+	slot0:updateModPanel()
+	slot0:updateModAdditionPanel()
 end
 
-slot0.updateMod = slot8
+function slot0.updateModInfo(slot0, slot1)
+	slot2 = slot0:getShipById(slot1.shipId)
+	slot3 = slot0.contextData.shipBluePrintVO
+	slot4 = intProperties(slot3:getShipProperties(slot2))
+	slot6 = Clone(slot1)
+	slot6.level = slot6:getMaxLevel()
 
-function slot8(slot0, slot1)
-	slot3 = slot0
-	slot2 = slot0.getShipById
-	slot4 = slot1.shipId
-	slot2 = slot2(slot3, slot4)
-	slot3 = slot0.contextData
-	slot3 = slot3.shipBluePrintVO
-	slot4 = intProperties
-	slot6 = slot3
-	slot5 = slot3.getShipProperties
-	slot7 = slot2
-	slot4 = slot4(slot5(slot6, slot7))
-	slot5 = intProperties
-	slot7 = slot1
-	slot6 = slot1.getShipProperties
-	slot8 = slot2
-	slot5 = slot5(slot6(slot7, slot8))
-	slot6 = Clone
-	slot7 = slot1
-	slot6 = slot6(slot7)
-	slot8 = slot6
-	slot7 = slot6.getMaxLevel
-	slot7 = slot7(slot8)
-	slot6.level = slot7
-	slot7 = intProperties
-	slot9 = slot6
-	slot8 = slot6.getShipProperties
-	slot10 = slot2
-	slot7 = slot7(slot8(slot9, slot10))
+	for slot13, slot14 in pairs(intProperties(slot1:getShipProperties(slot2))) do
+		if table.contains(ShipModAttr.BLUEPRINT_ATTRS, slot13) then
+			slot9 = 0 + 1
 
-	function slot8(slot0, slot1, slot2, slot3)
-		slot4 = uv0
-		slot5 = slot4
-		slot4 = slot4.findTF
-		slot6 = "attr_bg/name"
-		slot7 = slot0
-		slot4 = slot4(slot5, slot6, slot7)
-		slot5 = uv0
-		slot6 = slot5
-		slot5 = slot5.findTF
-		slot7 = "attr_bg/value"
-		slot8 = slot0
-		slot5 = slot5(slot6, slot7, slot8)
-		slot6 = uv0
-		slot7 = slot6
-		slot6 = slot6.findTF
-		slot8 = "attr_bg/max"
-		slot9 = slot0
-		slot6 = slot6(slot7, slot8, slot9)
-		slot7 = uv0
-		slot8 = slot7
-		slot7 = slot7.findTF
-		slot9 = "slider"
-		slot10 = slot0
-		slot7 = slot7(slot8, slot9, slot10)
-		slot8 = slot7
-		slot7 = slot7.GetComponent
-		slot9 = typeof
-		slot10 = Slider
-		slot7 = slot7(slot8, slot9(slot10))
-		slot8 = uv0
-		slot9 = slot8
-		slot8 = slot8.findTF
-		slot10 = "pre_slider"
-		slot11 = slot0
-		slot8 = slot8(slot9, slot10, slot11)
-		slot9 = slot8
-		slot8 = slot8.GetComponent
-		slot10 = typeof
-		slot11 = Slider
-		slot8 = slot8(slot9, slot10(slot11))
-		slot9 = uv0
-		slot10 = slot9
-		slot9 = slot9.findTF
-		slot11 = "exp"
-		slot12 = slot0
-		slot9 = slot9(slot10, slot11, slot12)
-		slot10 = uv1
-		slot11 = slot10
-		slot10 = slot10.isMaxLevel
-		slot10 = slot10(slot11)
+			function (slot0, slot1, slot2, slot3)
+				slot4 = uv0:findTF("attr_bg/name", slot0)
+				slot5 = uv0:findTF("attr_bg/value", slot0)
+				slot6 = uv0:findTF("attr_bg/max", slot0)
+				slot7 = uv0:findTF("slider", slot0):GetComponent(typeof(Slider))
+				slot8 = uv0:findTF("pre_slider", slot0):GetComponent(typeof(Slider))
+				slot9 = uv0:findTF("exp", slot0)
 
-		if slot10 then
-			slot3 = slot2
-		end
+				if uv1:isMaxLevel() then
+					slot3 = slot2
+				end
 
-		slot10 = setText
-		slot11 = slot6
-		slot12 = slot3
+				setText(slot6, slot3)
+				setText(slot4, AttributeType.Type2Name(slot1))
+				setText(slot5, slot2)
 
-		slot10(slot11, slot12)
+				slot10, slot11 = uv2:getBluePrintAddition(slot1)
+				slot12 = table.indexof(ShipModAttr.BLUEPRINT_ATTRS, slot1)
+				slot13 = uv2:getExpRetio(slot12)
+				slot7.value = slot11 / slot13
+				slot14, slot15 = uv1:getBluePrintAddition(slot1)
 
-		slot10 = setText
-		slot11 = slot4
-		slot12 = AttributeType
-		slot12 = slot12.Type2Name
-		slot13 = slot1
+				setText(slot9, math.floor(slot15) .. "/" .. slot13)
 
-		slot10(slot11, slot12(slot13))
-
-		slot10 = setText
-		slot11 = slot5
-		slot12 = slot2
-
-		slot10(slot11, slot12)
-
-		slot10 = uv2
-		slot11 = slot10
-		slot10 = slot10.getBluePrintAddition
-		slot12 = slot1
-		slot10, slot11 = slot10(slot11, slot12)
-		slot12 = table
-		slot12 = slot12.indexof
-		slot13 = ShipModAttr
-		slot13 = slot13.BLUEPRINT_ATTRS
-		slot14 = slot1
-		slot12 = slot12(slot13, slot14)
-		slot13 = uv2
-		slot14 = slot13
-		slot13 = slot13.getExpRetio
-		slot15 = slot12
-		slot13 = slot13(slot14, slot15)
-		slot14 = slot11 / slot13
-		slot7.value = slot14
-		slot14 = uv1
-		slot15 = slot14
-		slot14 = slot14.getBluePrintAddition
-		slot16 = slot1
-		slot14, slot15 = slot14(slot15, slot16)
-		slot16 = uv1
-		slot17 = slot16
-		slot16 = slot16.getExpRetio
-		slot18 = slot12
-		slot16 = slot16(slot17, slot18)
-		slot17 = setText
-		slot18 = slot9
-		slot19 = math
-		slot19 = slot19.floor
-		slot20 = slot15
-		slot19 = slot19(slot20)
-		slot20 = "/"
-		slot21 = slot13
-		slot19 = slot19 .. slot20 .. slot21
-
-		slot17(slot18, slot19)
-
-		slot17 = math
-		slot17 = slot17.floor
-		slot18 = slot14
-		slot17 = slot17(slot18)
-		slot18 = math
-		slot18 = slot18.floor
-		slot19 = slot10
-		slot18 = slot18(slot19)
-		slot17 = slot18 < slot17 and 1 or slot15 / slot16
-		slot8.value = slot17
-	end
-
-	slot9 = 0
-	slot10 = pairs
-	slot11 = slot5
-	slot10, slot11, slot12 = slot10(slot11)
-
-	for slot13, slot14 in slot10, slot11, slot12 do
-		slot15 = table
-		slot15 = slot15.contains
-		slot16 = ShipModAttr
-		slot16 = slot16.BLUEPRINT_ATTRS
-		slot17 = slot13
-		slot15 = slot15(slot16, slot17)
-
-		if slot15 then
-			slot15 = slot0.attrContainer
-			slot16 = slot15
-			slot15 = slot15.Find
-			slot17 = slot13
-			slot15 = slot15(slot16, slot17)
-			slot9 = slot9 + 1
-			slot16 = slot8
-			slot17 = slot15
-			slot18 = slot13
-			slot19 = slot14
-			slot20 = slot7[slot13]
-
-			if not slot20 then
-				slot20 = 0
-			end
-
-			slot16(slot17, slot18, slot19, slot20)
+				slot8.value = math.floor(slot10) < math.floor(slot14) and 1 or slot15 / uv1:getExpRetio(slot12)
+			end(slot0.attrContainer:Find(slot13), slot13, slot14, intProperties(slot6:getShipProperties(slot2))[slot13] or 0)
 		end
 	end
 
-	slot10 = slot0.modLevel
-	slot12 = slot0
-	slot11 = slot0.formatModLvTxt
-	slot13 = slot1.level
-	slot15 = slot1
-	slot14 = slot1.getMaxLevel
-	slot11 = slot11(slot12, slot13, slot14(slot15))
-	slot10.text = slot11
-	slot11 = slot3
-	slot10 = slot3.getNextLevelExp
-	slot10 = slot10(slot11)
+	slot0.modLevel.text = slot0:formatModLvTxt(slot1.level, slot1:getMaxLevel())
 
-	if slot10 == -1 then
-		slot11 = slot0.levelSlider
-		slot12 = 1
-		slot11.value = slot12
+	if slot3:getNextLevelExp() == -1 then
+		slot0.levelSlider.value = 1
 	else
-		slot11 = slot0.levelSlider
-		slot12 = slot3.exp
-		slot12 = slot12 / slot10
-		slot11.value = slot12
+		slot0.levelSlider.value = slot3.exp / slot10
 	end
 
-	slot12 = slot1
-	slot11 = slot1.getNextLevelExp
-	slot11 = slot11(slot12)
-	slot10 = slot11
+	if slot1:getNextLevelExp() == -1 then
+		setText(slot0.levelSliderTxt, "MAX")
 
-	if slot10 == -1 then
-		slot11 = setText
-		slot12 = slot0.levelSliderTxt
-		slot13 = "MAX"
-
-		slot11(slot12, slot13)
-
-		slot11 = slot0.preLevelSlider
-		slot12 = 1
-		slot11.value = slot12
+		slot0.preLevelSlider.value = 1
 	else
-		slot11 = setText
-		slot12 = slot0.levelSliderTxt
-		slot13 = slot1.exp
-		slot14 = "/"
-		slot16 = slot1
-		slot15 = slot1.getNextLevelExp
-		slot15 = slot15(slot16)
-		slot13 = slot13 .. slot14 .. slot15
+		setText(slot0.levelSliderTxt, slot1.exp .. "/" .. slot1:getNextLevelExp())
 
-		slot11(slot12, slot13)
-
-		slot11 = slot0.preLevelSlider
-		slot12 = slot1.level
-		slot13 = slot3.level
-
-		if slot13 < slot12 then
-			slot12 = 1
-		else
-			slot12 = slot1.exp
-			slot12 = slot12 / slot10
-		end
-
-		slot11.value = slot12
+		slot0.preLevelSlider.value = slot3.level < slot1.level and 1 or slot1.exp / slot10
 	end
 
-	slot12 = slot1
-	slot11 = slot1.isShipModMaxLevel
-	slot13 = slot2
-	slot11, slot12 = slot11(slot12, slot13)
-	slot13 = setActive
-	slot14 = slot0.needLevelTxt
-	slot15 = slot11
+	slot11, slot12 = slot1:isShipModMaxLevel(slot2)
 
-	slot13(slot14, slot15)
-
-	slot13 = setActive
-	slot14 = slot0.levelSliderTxt
-	slot15 = not slot11
-
-	slot13(slot14, slot15)
+	setActive(slot0.needLevelTxt, slot11)
+	setActive(slot0.levelSliderTxt, not slot11)
 
 	if slot11 then
-		slot13 = setText
-		slot14 = slot0.needLevelTxt
-		slot15 = i18n
-		slot16 = "buleprint_need_level_tip"
-		slot17 = slot12
+		setText(slot0.needLevelTxt, i18n("buleprint_need_level_tip", slot12))
 
-		slot13(slot14, slot15(slot16, slot17))
-
-		slot13 = slot0.levelSlider
-		slot14 = 1
-		slot13.value = slot14
+		slot0.levelSlider.value = 1
 	end
 end
 
-slot0.updateModInfo = slot8
-
-function slot8(slot0)
-	slot1 = slot0.inAnim
-
-	return slot1
+function slot0.inModAnim(slot0)
+	return slot0.inAnim
 end
 
-slot0.inModAnim = slot8
-
-function slot8(slot0, slot1, slot2)
-	slot3 = "<size=45>"
-	slot4 = slot1
-	slot5 = "</size>/<size=27>"
-	slot6 = slot2
-	slot7 = "</size>"
-	slot3 = slot3 .. slot4 .. slot5 .. slot6 .. slot7
-
-	return slot3
+function slot0.formatModLvTxt(slot0, slot1, slot2)
+	return "<size=45>" .. slot1 .. "</size>/<size=27>" .. slot2 .. "</size>"
 end
 
-slot0.formatModLvTxt = slot8
 slot8 = 0.2
 
-function slot9(slot0, slot1, slot2)
-	slot4 = slot0
-	slot3 = slot0.clearLeanTween
+function slot0.doModAnim(slot0, slot1, slot2)
+	slot0:clearLeanTween()
 
-	slot3(slot4)
-
-	slot3 = true
-	slot0.inAnim = slot3
+	slot0.inAnim = true
 	slot3 = {}
-	slot5 = slot2
-	slot4 = slot2.getMaxLevel
-	slot4 = slot4(slot5)
-	slot5 = slot1.level
 
-	if slot5 ~= slot4 then
+	if slot1.level ~= slot2:getMaxLevel() then
 		function slot5(slot0, slot1, slot2)
-			slot3 = Clone
-			slot4 = slot0
-			slot3 = slot3(slot4)
-			slot0 = slot3
+			slot0 = Clone(slot0)
 			slot0.level = slot1
 			slot0.exp = slot2
 
 			return slot0
 		end
 
-		slot6 = slot0.preLevelSlider
-		slot7 = 0
-		slot6.value = slot7
-		slot6 = slot1.level
-		slot7 = slot2.level
-		slot8 = 1
+		slot0.preLevelSlider.value = 0
 
-		for slot9 = slot6, slot7, slot8 do
-			slot10 = slot1.level
+		for slot9 = slot1.level, slot2.level do
+			slot10 = slot9 == slot1.level and slot1.exp / slot1:getNextLevelExp() or 0
+			slot11 = slot9 == slot2.level and slot2.level ~= slot4 and slot2.exp / slot2:getNextLevelExp() or 1
 
-			if slot9 == slot10 then
-				slot10 = slot1.exp
-				slot12 = slot1
-				slot11 = slot1.getNextLevelExp
-				slot11 = slot11(slot12)
-				slot10 = slot10 / slot11
+			table.insert(slot3, function (slot0)
+				TweenValue(go(uv0.levelSlider), uv1, uv2, uv3, nil, function (slot0)
+					uv0.levelSlider.value = slot0
+				end, function ()
+					slot1 = uv0 == uv3.level and uv3 or uv2(uv1, uv0 + 1, 0)
 
-				if not slot10 then
-					slot10 = 0
-				end
-			end
+					uv4:doAttrsAinm(uv0 == uv1.level and uv1 or uv2(uv1, uv0, 0), slot1, uv5)
 
-			slot11 = slot2.level
-
-			if slot9 == slot11 then
-				slot11 = slot2.level
-
-				if slot11 ~= slot4 then
-					slot11 = slot2.exp
-					slot13 = slot2
-					slot12 = slot2.getNextLevelExp
-					slot12 = slot12(slot13)
-					slot11 = slot11 / slot12
-
-					if not slot11 then
-						slot11 = 1
-					end
-				end
-			end
-
-			slot12 = table
-			slot12 = slot12.insert
-			slot13 = slot3
-
-			function slot14(slot0)
-				slot1 = TweenValue
-				slot2 = go
-				slot3 = uv0
-				slot3 = slot3.levelSlider
-				slot2 = slot2(slot3)
-				slot3 = uv1
-				slot4 = uv2
-				slot5 = uv3
-				slot6 = nil
-
-				function slot7(slot0)
-					slot1 = uv0
-					slot1 = slot1.levelSlider
-					slot1.value = slot0
-				end
-
-				function slot8()
-					slot0 = uv0
-					slot1 = uv1
-					slot1 = slot1.level
-
-					if slot0 == slot1 then
-						slot0 = uv1
-
-						if not slot0 then
-							slot0 = uv2
-							slot1 = uv1
-							slot2 = uv0
-							slot3 = 0
-							slot0 = slot0(slot1, slot2, slot3)
-						end
-					end
-
-					slot1 = uv0
-					slot2 = uv3
-					slot2 = slot2.level
-
-					if slot1 == slot2 then
-						slot1 = uv3
-
-						if not slot1 then
-							slot1 = uv2
-							slot2 = uv1
-							slot3 = uv0
-							slot3 = slot3 + 1
-							slot4 = 0
-							slot1 = slot1(slot2, slot3, slot4)
-						end
-					end
-
-					slot2 = uv4
-					slot3 = slot2
-					slot2 = slot2.doAttrsAinm
-					slot4 = slot0
-					slot5 = slot1
-					slot6 = uv5
-
-					slot2(slot3, slot4, slot5, slot6)
-
-					slot2 = uv4
-					slot2 = slot2.modLevel
-					slot3 = uv4
-					slot4 = slot3
-					slot3 = slot3.formatModLvTxt
-					slot5 = slot1.level
-					slot6 = uv6
-					slot3 = slot3(slot4, slot5, slot6)
-					slot2.text = slot3
-				end
-
-				slot1(slot2, slot3, slot4, slot5, slot6, slot7, slot8)
-			end
-
-			slot12(slot13, slot14)
+					uv4.modLevel.text = uv4:formatModLvTxt(slot1.level, uv6)
+				end)
+			end)
 		end
 
-		slot6 = table
-		slot6 = slot6.insert
-		slot7 = slot0.leanTweens
-		slot8 = slot0.levelSlider
-
-		slot6(slot7, slot8)
+		table.insert(slot0.leanTweens, slot0.levelSlider)
 	else
-		slot6 = slot2
-		slot5 = slot2.getMaxFateLevel
-		slot5 = slot5(slot6)
-		slot4 = slot5
-
 		function slot5(slot0, slot1, slot2)
-			slot3 = Clone
-			slot4 = slot0
-			slot3 = slot3(slot4)
-			slot0 = slot3
+			slot0 = Clone(slot0)
 			slot0.fateLevel = slot1
 			slot0.exp = slot2
 
 			return slot0
 		end
 
-		slot6 = slot0.prePhaseSlider
-		slot7 = 0
-		slot6.value = slot7
-		slot6 = slot1.fateLevel
-		slot7 = slot2.fateLevel
-		slot8 = 1
+		slot0.prePhaseSlider.value = 0
 
-		for slot9 = slot6, slot7, slot8 do
-			slot10 = slot1.fateLevel
+		for slot9 = slot1.fateLevel, slot2.fateLevel do
+			slot10 = slot9 == slot1.fateLevel and slot1.exp / slot1:getNextFateLevelExp() or 0
+			slot11 = slot9 == slot2.fateLevel and slot2.fateLevel ~= slot2:getMaxFateLevel() and slot2.exp / slot2:getNextFateLevelExp() or 1
 
-			if slot9 == slot10 then
-				slot10 = slot1.exp
-				slot12 = slot1
-				slot11 = slot1.getNextFateLevelExp
-				slot11 = slot11(slot12)
-				slot10 = slot10 / slot11
+			table.insert(slot3, function (slot0)
+				TweenValue(go(uv0.phaseSlider), uv1, uv2, uv3, nil, function (slot0)
+					uv0.phaseSlider.value = slot0
+				end, function ()
+					slot0 = uv0 == uv1.fateLevel and uv1 or uv2(uv1, uv0, 0)
+					slot1 = uv0 == uv3.fateLevel and uv3 or uv2(uv1, uv0 + 1, 0)
 
-				if not slot10 then
-					slot10 = 0
-				end
-			end
-
-			slot11 = slot2.fateLevel
-
-			if slot9 == slot11 then
-				slot11 = slot2.fateLevel
-
-				if slot11 ~= slot4 then
-					slot11 = slot2.exp
-					slot13 = slot2
-					slot12 = slot2.getNextFateLevelExp
-					slot12 = slot12(slot13)
-					slot11 = slot11 / slot12
-
-					if not slot11 then
-						slot11 = 1
-					end
-				end
-			end
-
-			slot12 = table
-			slot12 = slot12.insert
-			slot13 = slot3
-
-			function slot14(slot0)
-				slot1 = TweenValue
-				slot2 = go
-				slot3 = uv0
-				slot3 = slot3.phaseSlider
-				slot2 = slot2(slot3)
-				slot3 = uv1
-				slot4 = uv2
-				slot5 = uv3
-				slot6 = nil
-
-				function slot7(slot0)
-					slot1 = uv0
-					slot1 = slot1.phaseSlider
-					slot1.value = slot0
-				end
-
-				function slot8()
-					slot0 = uv0
-					slot1 = uv1
-					slot1 = slot1.fateLevel
-
-					if slot0 == slot1 then
-						slot0 = uv1
-
-						if not slot0 then
-							slot0 = uv2
-							slot1 = uv1
-							slot2 = uv0
-							slot3 = 0
-							slot0 = slot0(slot1, slot2, slot3)
-						end
-					end
-
-					slot1 = uv0
-					slot2 = uv3
-					slot2 = slot2.fateLevel
-
-					if slot1 == slot2 then
-						slot1 = uv3
-
-						if not slot1 then
-							slot1 = uv2
-							slot2 = uv1
-							slot3 = uv0
-							slot3 = slot3 + 1
-							slot4 = 0
-							slot1 = slot1(slot2, slot3, slot4)
-						end
-					end
-
-					slot2 = uv4
-					slot3 = slot2
-					slot2 = slot2.updateFittingAttrPanel
-					slot4 = slot1
-
-					slot2(slot3, slot4)
-
-					slot2 = GetImageSpriteFromAtlasAsync
-					slot3 = "ui/shipblueprintui_atlas"
-					slot4 = "phase_"
-					slot5 = math
-					slot5 = slot5.min
-					slot6 = slot1.fateLevel
-					slot6 = slot6 + 1
-					slot8 = slot1
-					slot7 = slot1.getMaxFateLevel
-					slot5 = slot5(slot6, slot7(slot8))
-					slot4 = slot4 .. slot5
-					slot5 = uv4
-					slot5 = slot5.phasePic
-					slot6 = true
-
-					slot2(slot3, slot4, slot5, slot6)
-
-					slot2 = uv5
-
-					slot2()
-				end
-
-				slot1(slot2, slot3, slot4, slot5, slot6, slot7, slot8)
-			end
-
-			slot12(slot13, slot14)
+					uv4:updateFittingAttrPanel(slot1)
+					GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "phase_" .. math.min(slot1.fateLevel + 1, slot1:getMaxFateLevel()), uv4.phasePic, true)
+					uv5()
+				end)
+			end)
 		end
 
-		slot6 = table
-		slot6 = slot6.insert
-		slot7 = slot0.leanTweens
-		slot8 = slot0.phaseSlider
-
-		slot6(slot7, slot8)
+		table.insert(slot0.leanTweens, slot0.phaseSlider)
 	end
 
-	slot5 = seriesAsync
-	slot6 = slot3
+	seriesAsync(slot3, function ()
+		uv0.noUpdateMod = false
 
-	function slot7()
-		slot0 = uv0
-		slot1 = false
-		slot0.noUpdateMod = slot1
-		slot0 = uv0
-		slot1 = slot0
-		slot0 = slot0.updateMod
+		uv0:updateMod()
 
-		slot0(slot1)
-
-		slot0 = uv0
-		slot1 = false
-		slot0.inAnim = slot1
-	end
-
-	slot5(slot6, slot7)
+		uv0.inAnim = false
+	end)
 end
 
-slot0.doModAnim = slot9
-
-function slot9(slot0, slot1, slot2, slot3)
+function slot0.doAttrsAinm(slot0, slot1, slot2, slot3)
 	slot4 = {}
-	slot6 = slot0
-	slot5 = slot0.getShipById
-	slot7 = slot1.shipId
-	slot5 = slot5(slot6, slot7)
-	slot6 = intProperties
-	slot8 = slot1
-	slot7 = slot1.getShipProperties
-	slot9 = slot5
-	slot6 = slot6(slot7(slot8, slot9))
-	slot7 = intProperties
-	slot9 = slot2
-	slot8 = slot2.getShipProperties
-	slot10 = slot5
-	slot7 = slot7(slot8(slot9, slot10))
-	slot8 = ipairs
-	slot9 = ShipModAttr
-	slot9 = slot9.BLUEPRINT_ATTRS
-	slot8, slot9, slot10 = slot8(slot9)
+	slot5 = slot0:getShipById(slot1.shipId)
 
-	for slot11, slot12 in slot8, slot9, slot10 do
-		slot13 = AttributeType
-		slot13 = slot13.AntiAircraft
-
-		if slot12 ~= slot13 then
-			slot13 = slot0.attrContainer
-			slot14 = slot13
-			slot13 = slot13.Find
-			slot15 = slot12
-			slot13 = slot13(slot14, slot15)
-			slot15 = slot0
-			slot14 = slot0.findTF
-			slot16 = "attr_bg/value"
-			slot17 = slot13
-			slot14 = slot14(slot15, slot16, slot17)
-			slot15 = slot14
-			slot14 = slot14.GetComponent
-			slot16 = typeof
-			slot17 = Text
-			slot14 = slot14(slot15, slot16(slot17))
-			slot16 = slot0
-			slot15 = slot0.findTF
-			slot17 = "slider"
-			slot18 = slot13
-			slot15 = slot15(slot16, slot17, slot18)
-			slot16 = slot15
-			slot15 = slot15.GetComponent
-			slot17 = typeof
-			slot18 = Slider
-			slot15 = slot15(slot16, slot17(slot18))
-			slot17 = slot0
-			slot16 = slot0.findTF
-			slot18 = "pre_slider"
-			slot19 = slot13
-			slot16 = slot16(slot17, slot18, slot19)
-			slot17 = slot16
-			slot16 = slot16.GetComponent
-			slot18 = typeof
-			slot19 = Slider
-			slot16 = slot16(slot17, slot18(slot19))
-			slot17 = table
-			slot17 = slot17.indexof
-			slot18 = ShipModAttr
-			slot18 = slot18.BLUEPRINT_ATTRS
-			slot19 = slot12
-			slot17 = slot17(slot18, slot19)
-			slot19 = slot1
-			slot18 = slot1.getExpRetio
-			slot20 = slot17
-			slot18 = slot18(slot19, slot20)
-			slot19 = slot6[slot12]
-			slot20 = slot7[slot12]
-			slot22 = slot1
-			slot21 = slot1.getBluePrintAddition
-			slot23 = slot12
-			slot21, slot22 = slot21(slot22, slot23)
-			slot24 = slot2
-			slot23 = slot2.getBluePrintAddition
-			slot25 = slot12
-			slot23, slot24 = slot23(slot24, slot25)
+	for slot11, slot12 in ipairs(ShipModAttr.BLUEPRINT_ATTRS) do
+		if slot12 ~= AttributeType.AntiAircraft then
+			slot13 = slot0.attrContainer:Find(slot12)
+			slot14 = slot0:findTF("attr_bg/value", slot13):GetComponent(typeof(Text))
+			slot15 = slot0:findTF("slider", slot13):GetComponent(typeof(Slider))
+			slot18 = slot1:getExpRetio(table.indexof(ShipModAttr.BLUEPRINT_ATTRS, slot12))
+			slot19 = intProperties(slot1:getShipProperties(slot5))[slot12]
+			slot20 = intProperties(slot2:getShipProperties(slot5))[slot12]
+			slot21, slot22 = slot1:getBluePrintAddition(slot12)
+			slot23, slot24 = slot2:getBluePrintAddition(slot12)
 			slot25 = slot22 / slot18
 			slot26 = slot24 / slot18
-			slot27 = 0
-			slot16.value = slot27
-			slot27 = table
-			slot27 = slot27.insert
-			slot28 = slot4
+			slot0:findTF("pre_slider", slot13):GetComponent(typeof(Slider)).value = 0
 
-			function slot29(slot0)
-				slot1 = uv0
-				slot2 = slot1
-				slot1 = slot1.doAttrAnim
-				slot3 = uv1
-				slot4 = uv2
-				slot5 = uv3
-				slot6 = uv4
-				slot7 = math
-				slot7 = slot7.floor
-				slot8 = uv5
-				slot7 = slot7(slot8)
-				slot8 = math
-				slot8 = slot8.floor
-				slot9 = uv6
-				slot8 = slot8(slot9)
-				slot9 = uv7
-				slot10 = uv8
-				slot11 = slot0
-
-				slot1(slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11)
-			end
-
-			slot27(slot28, slot29)
+			table.insert(slot4, function (slot0)
+				uv0:doAttrAnim(uv1, uv2, uv3, uv4, math.floor(uv5), math.floor(uv6), uv7, uv8, slot0)
+			end)
 		end
 	end
 
-	slot8 = parallelAsync
-	slot9 = slot4
-	slot10 = slot3
-
-	slot8(slot9, slot10)
+	parallelAsync(slot4, slot3)
 end
 
-slot0.doAttrsAinm = slot9
 slot9 = 0.1
 
-function slot10(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
-	slot10 = table
-	slot10 = slot10.insert
-	slot11 = slot0.leanTweens
-	slot12 = slot1
-
-	slot10(slot11, slot12)
+function slot0.doAttrAnim(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
+	table.insert(slot0.leanTweens, slot1)
 
 	slot10 = {}
-	slot11 = slot5
-	slot12 = slot6
-	slot13 = 1
 
-	for slot14 = slot11, slot12, slot13 do
-		if slot14 ~= slot5 or not slot3 then
-			slot15 = 0
+	for slot14 = slot5, slot6 do
+		slot15 = slot14 == slot5 and slot3 or 0
+		slot16 = slot14 == slot6 and slot4 or 1
+
+		table.insert(slot10, function (slot0)
+			TweenValue(go(uv0), uv1, uv2, uv3, nil, function (slot0)
+				uv0.value = slot0
+			end, function ()
+				uv0.text = uv1 - math.min(uv2 - uv3, uv1 - uv4)
+
+				uv5()
+			end)
+		end)
+	end
+
+	seriesAsync(slot10, function ()
+		uv0()
+	end)
+end
+
+function slot0.clearLeanTween(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.leanTweens) do
+		if LeanTween.isTweening(go(slot6)) then
+			LeanTween.cancel(go(slot6))
+		end
+	end
+
+	if slot0.inAnim then
+		slot0.inAnim = nil
+
+		if not slot1 then
+			slot0.noUpdateMod = false
+		end
+	end
+
+	slot0.leanTweens = {}
+end
+
+function slot0.updateModPanel(slot0)
+	slot1 = slot0.contextData.shipBluePrintVO
+	slot2 = slot0:getShipById(slot1.shipId)
+	slot5 = 0
+	slot6 = math.min(slot0:getItemById(slot1:getConfig("strengthen_item")).count, slot1:getUseageMaxItem())
+
+	function slot7(slot0)
+		slot3 = Clone(uv0)
+
+		slot3:addExp(slot0 * uv0:getItemExp())
+		uv1:updateModInfo(slot3)
+		setText(uv1.calcTxt, slot0)
+	end
+
+	slot8 = nil
+
+	if slot0.nameTxts[slot0.itemInfo] then
+		slot8 = slot0.nameTxts[slot0.itemInfo]
+	else
+		slot0.nameTxts[slot0.itemInfo] = ScrollTxt.New(findTF(slot0.itemInfo, "name"), findTF(slot0.itemInfo, "name/Text"))
+	end
+
+	slot8:setText(slot4:getConfig("name"))
+
+	slot0.itemInfoCount.text = slot4.count
+
+	GetImageSpriteFromAtlasAsync(slot4:getConfig("icon"), "", slot0.itemInfoIcon)
+	onButton(slot0, slot0.itemInfoIcon, function ()
+		ItemTipPanel.ShowItemTipbyID(uv0.id, i18n("title_item_ways", uv0:getConfig("name")))
+	end)
+	onButton(slot0, slot0.modBtn, function ()
+		if uv0:inModAnim() then
+			return
 		end
 
-		if slot14 ~= slot6 or not slot4 then
-			slot16 = 1
+		if uv1 == 0 then
+			return
 		end
 
-		slot17 = table
-		slot17 = slot17.insert
-		slot18 = slot10
-
-		function slot19(slot0)
-			slot1 = TweenValue
-			slot2 = go
-			slot3 = uv0
-			slot2 = slot2(slot3)
-			slot3 = uv1
-			slot4 = uv2
-			slot5 = uv3
-			slot6 = nil
-
-			function slot7(slot0)
-				slot1 = uv0
-				slot1.value = slot0
-			end
-
-			function slot8()
-				slot0 = uv0
-				slot1 = uv1
-				slot2 = math
-				slot2 = slot2.min
-				slot3 = uv2
-				slot4 = uv3
-				slot3 = slot3 - slot4
-				slot4 = uv1
-				slot5 = uv4
-				slot4 = slot4 - slot5
-				slot2 = slot2(slot3, slot4)
-				slot1 = slot1 - slot2
-				slot0.text = slot1
-				slot0 = uv5
-
+		uv0:emit(ShipBluePrintMediator.ON_MOD, uv2.id, uv1)
+	end, SFX_PANEL)
+	pressPersistTrigger(slot0.calcMinBtn, 0.5, function (slot0)
+		if uv0:inModAnim() or uv1:isMaxLevel() or uv2 == 0 then
+			if slot0 then
 				slot0()
 			end
 
-			slot1(slot2, slot3, slot4, slot5, slot6, slot7, slot8)
-		end
-
-		slot17(slot18, slot19)
-	end
-
-	slot11 = seriesAsync
-	slot12 = slot10
-
-	function slot13()
-		slot0 = uv0
-
-		slot0()
-	end
-
-	slot11(slot12, slot13)
-end
-
-slot0.doAttrAnim = slot10
-
-function slot10(slot0, slot1)
-	slot2 = pairs
-	slot3 = slot0.leanTweens
-	slot2, slot3, slot4 = slot2(slot3)
-
-	for slot5, slot6 in slot2, slot3, slot4 do
-		slot7 = LeanTween
-		slot7 = slot7.isTweening
-		slot8 = go
-		slot9 = slot6
-		slot7 = slot7(slot8(slot9))
-
-		if slot7 then
-			slot7 = LeanTween
-			slot7 = slot7.cancel
-			slot8 = go
-			slot9 = slot6
-
-			slot7(slot8(slot9))
-		end
-	end
-
-	slot2 = slot0.inAnim
-
-	if slot2 then
-		slot2 = nil
-		slot0.inAnim = slot2
-
-		if not slot1 then
-			slot2 = false
-			slot0.noUpdateMod = slot2
-		end
-	end
-
-	slot2 = {}
-	slot0.leanTweens = slot2
-end
-
-slot0.clearLeanTween = slot10
-
-function slot10(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.shipBluePrintVO
-	slot3 = slot0
-	slot2 = slot0.getShipById
-	slot4 = slot1.shipId
-	slot2 = slot2(slot3, slot4)
-	slot4 = slot1
-	slot3 = slot1.getConfig
-	slot5 = "strengthen_item"
-	slot3 = slot3(slot4, slot5)
-	slot5 = slot0
-	slot4 = slot0.getItemById
-	slot6 = slot3
-	slot4 = slot4(slot5, slot6)
-	slot5 = 0
-	slot6 = math
-	slot6 = slot6.min
-	slot7 = slot4.count
-	slot9 = slot1
-	slot8 = slot1.getUseageMaxItem
-	slot6 = slot6(slot7, slot8(slot9))
-
-	function slot7(slot0)
-		slot1 = uv0
-		slot2 = slot1
-		slot1 = slot1.getItemExp
-		slot1 = slot1(slot2)
-		slot2 = slot0 * slot1
-		slot3 = Clone
-		slot4 = uv0
-		slot3 = slot3(slot4)
-		slot5 = slot3
-		slot4 = slot3.addExp
-		slot6 = slot2
-
-		slot4(slot5, slot6)
-
-		slot4 = uv1
-		slot5 = slot4
-		slot4 = slot4.updateModInfo
-		slot6 = slot3
-
-		slot4(slot5, slot6)
-
-		slot4 = setText
-		slot5 = uv1
-		slot5 = slot5.calcTxt
-		slot6 = slot0
-
-		slot4(slot5, slot6)
-	end
-
-	slot8 = nil
-	slot9 = slot0.nameTxts
-	slot10 = slot0.itemInfo
-	slot9 = slot9[slot10]
-
-	if slot9 then
-		slot9 = slot0.nameTxts
-		slot10 = slot0.itemInfo
-		slot8 = slot9[slot10]
-	else
-		slot9 = ScrollTxt
-		slot9 = slot9.New
-		slot10 = findTF
-		slot11 = slot0.itemInfo
-		slot12 = "name"
-		slot10 = slot10(slot11, slot12)
-		slot11 = findTF
-		slot12 = slot0.itemInfo
-		slot13 = "name/Text"
-		slot9 = slot9(slot10, slot11(slot12, slot13))
-		slot8 = slot9
-		slot9 = slot0.nameTxts
-		slot10 = slot0.itemInfo
-		slot9[slot10] = slot8
-	end
-
-	slot10 = slot8
-	slot9 = slot8.setText
-	slot12 = slot4
-	slot11 = slot4.getConfig
-	slot13 = "name"
-
-	slot9(slot10, slot11(slot12, slot13))
-
-	slot9 = slot0.itemInfoCount
-	slot10 = slot4.count
-	slot9.text = slot10
-	slot9 = GetImageSpriteFromAtlasAsync
-	slot11 = slot4
-	slot10 = slot4.getConfig
-	slot12 = "icon"
-	slot10 = slot10(slot11, slot12)
-	slot11 = ""
-	slot12 = slot0.itemInfoIcon
-
-	slot9(slot10, slot11, slot12)
-
-	slot9 = onButton
-	slot10 = slot0
-	slot11 = slot0.modBtn
-
-	function slot12()
-		slot0 = uv0
-		slot1 = slot0
-		slot0 = slot0.inModAnim
-		slot0 = slot0(slot1)
-
-		if slot0 then
 			return
 		end
 
-		slot0 = uv1
+		uv2 = math.max(uv2 - 1, 0)
 
-		if slot0 == 0 then
+		uv3(uv2)
+	end, nil, true, true, 0.1, SFX_PANEL)
+	pressPersistTrigger(slot0.calcMaxBtn, 0.5, function (slot0)
+		if uv0:inModAnim() or uv1:isMaxLevel() then
+			if slot0 then
+				slot0()
+			end
+
 			return
 		end
 
-		slot0 = uv0
-		slot1 = slot0
-		slot0 = slot0.emit
-		slot2 = ShipBluePrintMediator
-		slot2 = slot2.ON_MOD
-		slot3 = uv2
-		slot3 = slot3.id
-		slot4 = uv1
+		slot4 = Clone(uv1)
 
-		slot0(slot1, slot2, slot3, slot4)
-	end
+		slot4:addExp((uv2 + 1) * uv1:getItemExp())
 
-	slot13 = SFX_PANEL
-
-	slot9(slot10, slot11, slot12, slot13)
-
-	slot9 = pressPersistTrigger
-	slot10 = slot0.calcMinBtn
-	slot11 = 0.5
-
-	function slot12(slot0)
-		slot1 = uv0
-		slot2 = slot1
-		slot1 = slot1.inModAnim
-		slot1 = slot1(slot2)
-
-		if not slot1 then
-			slot1 = uv1
-			slot2 = slot1
-			slot1 = slot1.isMaxLevel
-			slot1 = slot1(slot2)
-
-			if not slot1 then
-				slot1 = uv2
-
-				if slot1 == 0 then
-					if slot0 then
-						slot1 = slot0
-
-						slot1()
-					end
-
-					return
-				end
+		if uv3.level < slot4:getStrengthenConfig(math.min(slot4.level + 1, slot4:getMaxLevel())).need_lv and slot2 <= slot4.exp then
+			if slot0 then
+				slot0()
 			end
+
+			return
 		end
 
-		slot1 = math
-		slot1 = slot1.max
-		slot2 = uv2
-		slot2 = slot2 - 1
-		slot3 = 0
-		slot1 = slot1(slot2, slot3)
-		uv2 = slot1
-		slot1 = uv3
-		slot2 = uv2
-
-		slot1(slot2)
-	end
-
-	slot13 = nil
-	slot14 = true
-	slot15 = true
-	slot16 = 0.1
-	slot17 = SFX_PANEL
-
-	slot9(slot10, slot11, slot12, slot13, slot14, slot15, slot16, slot17)
-
-	slot9 = pressPersistTrigger
-	slot10 = slot0.calcMaxBtn
-	slot11 = 0.5
-
-	function slot12(slot0)
-		slot1 = uv0
-		slot2 = slot1
-		slot1 = slot1.inModAnim
-		slot1 = slot1(slot2)
-
-		if not slot1 then
-			slot1 = uv1
-			slot2 = slot1
-			slot1 = slot1.isMaxLevel
-			slot1 = slot1(slot2)
-
-			if slot1 then
-				if slot0 then
-					slot1 = slot0
-
-					slot1()
-				end
-
-				return
+		if slot4.level == slot4:getMaxLevel() and slot2 <= slot4.exp then
+			if slot0 then
+				slot0()
 			end
+
+			return
 		end
 
-		slot1 = uv2
-		slot1 = slot1 + 1
-		slot2 = uv1
-		slot3 = slot2
-		slot2 = slot2.getItemExp
-		slot2 = slot2(slot3)
-		slot3 = slot1 * slot2
-		slot4 = Clone
-		slot5 = uv1
-		slot4 = slot4(slot5)
-		slot6 = slot4
-		slot5 = slot4.addExp
-		slot7 = slot3
+		uv2 = math.max(math.min(uv2 + 1, uv4), 0)
 
-		slot5(slot6, slot7)
+		uv5(uv2)
+	end, nil, true, true, 0.1, SFX_PANEL)
+	slot7(slot5)
+	function (slot0)
+		setActive(uv0.calcPanel, not slot0)
+		setActive(uv0.fittingBtn, slot0)
+	end(false)
 
-		slot6 = slot4
-		slot5 = slot4.getStrengthenConfig
-		slot7 = math
-		slot7 = slot7.min
-		slot8 = slot4.level
-		slot8 = slot8 + 1
-		slot10 = slot4
-		slot9 = slot4.getMaxLevel
-		slot5 = slot5(slot6, slot7(slot8, slot9(slot10)))
-		slot6 = uv3
-		slot6 = slot6.level
-		slot7 = slot5.need_lv
-
-		if slot6 < slot7 then
-			slot6 = slot4.exp
-
-			if slot2 <= slot6 then
-				if slot0 then
-					slot6 = slot0
-
-					slot6()
-				end
-
-				return
-			end
-		end
-
-		slot6 = slot4.level
-		slot8 = slot4
-		slot7 = slot4.getMaxLevel
-		slot7 = slot7(slot8)
-
-		if slot6 == slot7 then
-			slot6 = slot4.exp
-
-			if slot2 <= slot6 then
-				if slot0 then
-					slot6 = slot0
-
-					slot6()
-				end
-
-				return
-			end
-		end
-
-		slot6 = math
-		slot6 = slot6.max
-		slot7 = math
-		slot7 = slot7.min
-		slot8 = uv2
-		slot8 = slot8 + 1
-		slot9 = uv4
-		slot7 = slot7(slot8, slot9)
-		slot8 = 0
-		slot6 = slot6(slot7, slot8)
-		uv2 = slot6
-		slot6 = uv5
-		slot7 = uv2
-
-		slot6(slot7)
-	end
-
-	slot13 = nil
-	slot14 = true
-	slot15 = true
-	slot16 = 0.1
-	slot17 = SFX_PANEL
-
-	slot9(slot10, slot11, slot12, slot13, slot14, slot15, slot16, slot17)
-
-	slot9 = slot7
-	slot10 = slot5
-
-	slot9(slot10)
-
-	function slot9(slot0)
-		slot1 = setActive
-		slot2 = uv0
-		slot2 = slot2.calcPanel
-		slot3 = not slot0
-
-		slot1(slot2, slot3)
-
-		slot1 = setActive
-		slot2 = uv0
-		slot2 = slot2.fittingBtn
-		slot3 = slot0
-
-		slot1(slot2, slot3)
-	end
-
-	slot10 = slot9
-	slot11 = false
-
-	slot10(slot11)
-
-	slot11 = slot1
-	slot10 = slot1.canFateSimulation
-	slot10 = slot10(slot11)
-
-	if slot10 then
-		slot11 = slot0
-		slot10 = slot0.updateFittingPanel
-
-		slot10(slot11)
-
-		slot10 = onButton
-		slot11 = slot0
-		slot12 = slot0.fittingBtn
-
-		function slot13()
+	if slot1:canFateSimulation() then
+		slot0:updateFittingPanel()
+		onButton(slot0, slot0.fittingBtn, function ()
 			slot0 = 0.3
-			slot1 = setActive
-			slot2 = uv0
-			slot3 = slot2
-			slot2 = slot2.findTF
-			slot4 = "anim/ShipBlue02"
-			slot5 = uv0
-			slot5 = slot5.fittingBtn
-			slot2 = slot2(slot3, slot4, slot5)
-			slot3 = true
 
-			slot1(slot2, slot3)
+			setActive(uv0:findTF("anim/ShipBlue02", uv0.fittingBtn), true)
+			LeanTween.delayedCall(0.6, System.Action(function ()
+				uv0:switch2FittingPanel(uv1, false)
+				LeanTween.delayedCall(uv1 + 0.1, System.Action(function ()
+					setActive(uv0.modPanel, false)
+					setActive(uv0.fittingPanel, true)
+					setActive(uv0:findTF("anim/ShipBlue02", uv0.fittingBtn), false)
 
-			slot1 = LeanTween
-			slot1 = slot1.delayedCall
-			slot2 = 0.6
-			slot3 = System
-			slot3 = slot3.Action
-
-			function slot4()
-				slot0 = uv0
-				slot1 = slot0
-				slot0 = slot0.switch2FittingPanel
-				slot2 = uv1
-				slot3 = false
-
-				slot0(slot1, slot2, slot3)
-
-				slot0 = LeanTween
-				slot0 = slot0.delayedCall
-				slot1 = uv1
-				slot1 = slot1 + 0.1
-				slot2 = System
-				slot2 = slot2.Action
-
-				function slot3()
-					slot0 = setActive
-					slot1 = uv0
-					slot1 = slot1.modPanel
-					slot2 = false
-
-					slot0(slot1, slot2)
-
-					slot0 = setActive
-					slot1 = uv0
-					slot1 = slot1.fittingPanel
-					slot2 = true
-
-					slot0(slot1, slot2)
-
-					slot0 = setActive
-					slot1 = uv0
-					slot2 = slot1
-					slot1 = slot1.findTF
-					slot3 = "anim/ShipBlue02"
-					slot4 = uv0
-					slot4 = slot4.fittingBtn
-					slot1 = slot1(slot2, slot3, slot4)
-					slot2 = false
-
-					slot0(slot1, slot2)
-
-					slot0 = PlayerPrefs
-					slot0 = slot0.HasKey
-					slot1 = "first_fate"
-					slot0 = slot0(slot1)
-
-					if not slot0 then
-						slot0 = triggerButton
-						slot1 = uv0
-						slot1 = slot1.helpBtn
-
-						slot0(slot1)
-
-						slot0 = PlayerPrefs
-						slot0 = slot0.SetInt
-						slot1 = "first_fate"
-						slot2 = 1
-
-						slot0(slot1, slot2)
-
-						slot0 = PlayerPrefs
-						slot0 = slot0.Save
-
-						slot0()
+					if not PlayerPrefs.HasKey("first_fate") then
+						triggerButton(uv0.helpBtn)
+						PlayerPrefs.SetInt("first_fate", 1)
+						PlayerPrefs.Save()
 					end
 
-					slot0 = Canvas
-					slot0 = slot0.ForceUpdateCanvases
+					Canvas.ForceUpdateCanvases()
+					uv0:switch2FittingPanel(uv1, true)
+				end))
+			end))
+		end, SFX_PANEL)
 
-					slot0()
-
-					slot0 = uv0
-					slot1 = slot0
-					slot0 = slot0.switch2FittingPanel
-					slot2 = uv1
-					slot3 = true
-
-					slot0(slot1, slot2, slot3)
-				end
-
-				slot0(slot1, slot2(slot3))
-			end
-
-			slot1(slot2, slot3(slot4))
-		end
-
-		slot14 = SFX_PANEL
-
-		slot10(slot11, slot12, slot13, slot14)
-
-		slot11 = slot1
-		slot10 = slot1.getConfig
-		slot12 = "luck_story"
-		slot10 = slot10(slot11, slot12)
-		slot11 = pg
-		slot11 = slot11.StoryMgr
-		slot11 = slot11.GetInstance
-		slot11 = slot11()
-		slot12 = slot11
-		slot11 = slot11.IsPlayed
-		slot13 = slot10
-		slot11 = slot11(slot12, slot13)
-
-		if not slot11 then
-			slot11 = pg
-			slot11 = slot11.StoryMgr
-			slot11 = slot11.GetInstance
-			slot11 = slot11()
-			slot12 = slot11
-			slot11 = slot11.Play
-			slot13 = slot10
-
-			function slot14()
-				slot0 = uv0
-				slot1 = slot0
-				slot0 = slot0.buildStartAni
-				slot2 = "fateStartWindow"
-
-				function slot3()
-					slot0 = uv0
-					slot1 = true
-
-					slot0(slot1)
-				end
-
-				slot0(slot1, slot2, slot3)
-			end
-
-			slot11(slot12, slot13, slot14)
+		if not pg.StoryMgr.GetInstance():IsPlayed(slot1:getConfig("luck_story")) then
+			pg.StoryMgr.GetInstance():Play(slot10, function ()
+				uv0:buildStartAni("fateStartWindow", function ()
+					uv0(true)
+				end)
+			end)
 		else
-			slot11 = slot9
-			slot12 = true
-
-			slot11(slot12)
+			slot9(true)
 		end
 	end
 end
 
-slot0.updateModPanel = slot10
-
-function slot10(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.shipBluePrintVO
-	slot3 = slot0
-	slot2 = slot0.getShipById
-	slot4 = slot1.shipId
-	slot2 = slot2(slot3, slot4)
-	slot4 = slot1
-	slot3 = slot1.getConfig
-	slot5 = "strengthen_item"
-	slot3 = slot3(slot4, slot5)
-	slot5 = slot0
-	slot4 = slot0.getItemById
-	slot6 = slot3
-	slot4 = slot4(slot5, slot6)
+function slot0.updateFittingPanel(slot0)
+	slot1 = slot0.contextData.shipBluePrintVO
+	slot2 = slot0:getShipById(slot1.shipId)
 	slot5 = 0
-	slot6 = math
-	slot6 = slot6.min
-	slot7 = slot4.count
-	slot9 = slot1
-	slot8 = slot1.getFateUseageMaxItem
-	slot6 = slot6(slot7, slot8(slot9))
+	slot6 = math.min(slot0:getItemById(slot1:getConfig("strengthen_item")).count, slot1:getFateUseageMaxItem())
 
 	function slot7(slot0)
-		slot1 = uv0
-		slot2 = slot1
-		slot1 = slot1.getItemExp
-		slot1 = slot1(slot2)
-		slot2 = slot0 * slot1
-		slot3 = Clone
-		slot4 = uv0
-		slot3 = slot3(slot4)
-		slot5 = slot3
-		slot4 = slot3.addExp
-		slot6 = slot2
+		slot3 = Clone(uv0)
 
-		slot4(slot5, slot6)
-
-		slot4 = uv1
-		slot5 = slot4
-		slot4 = slot4.updateFittingInfo
-		slot6 = slot3
-
-		slot4(slot5, slot6)
-
-		slot4 = setText
-		slot5 = uv1
-		slot5 = slot5.fittingCalcTxt
-		slot6 = slot0
-
-		slot4(slot5, slot6)
+		slot3:addExp(slot0 * uv0:getItemExp())
+		uv1:updateFittingInfo(slot3)
+		setText(uv1.fittingCalcTxt, slot0)
 	end
 
 	slot8 = nil
-	slot9 = slot0.nameTxts
-	slot10 = slot0.fittingItemInfo
-	slot9 = slot9[slot10]
 
-	if slot9 then
-		slot9 = slot0.nameTxts
-		slot10 = slot0.fittingItemInfo
-		slot8 = slot9[slot10]
+	if slot0.nameTxts[slot0.fittingItemInfo] then
+		slot8 = slot0.nameTxts[slot0.fittingItemInfo]
 	else
-		slot9 = ScrollTxt
-		slot9 = slot9.New
-		slot10 = findTF
-		slot11 = slot0.fittingItemInfo
-		slot12 = "name"
-		slot10 = slot10(slot11, slot12)
-		slot11 = findTF
-		slot12 = slot0.fittingItemInfo
-		slot13 = "name/Text"
-		slot9 = slot9(slot10, slot11(slot12, slot13))
-		slot8 = slot9
-		slot9 = slot0.nameTxts
-		slot10 = slot0.fittingItemInfo
-		slot9[slot10] = slot8
+		slot0.nameTxts[slot0.fittingItemInfo] = ScrollTxt.New(findTF(slot0.fittingItemInfo, "name"), findTF(slot0.fittingItemInfo, "name/Text"))
 	end
 
-	slot10 = slot8
-	slot9 = slot8.setText
-	slot12 = slot4
-	slot11 = slot4.getConfig
-	slot13 = "name"
+	slot8:setText(slot4:getConfig("name"))
 
-	slot9(slot10, slot11(slot12, slot13))
+	slot0.fittingItemInfoCount.text = slot4.count
 
-	slot9 = slot0.fittingItemInfoCount
-	slot10 = slot4.count
-	slot9.text = slot10
-	slot9 = GetImageSpriteFromAtlasAsync
-	slot11 = slot4
-	slot10 = slot4.getConfig
-	slot12 = "icon"
-	slot10 = slot10(slot11, slot12)
-	slot11 = ""
-	slot12 = slot0.fittingItemInfoIcon
-
-	slot9(slot10, slot11, slot12)
-
-	slot9 = setText
-	slot11 = slot0
-	slot10 = slot0.findTF
-	slot12 = "attr/name"
-	slot13 = slot0.fittingAttrPanel
-	slot10 = slot10(slot11, slot12, slot13)
-	slot11 = AttributeType
-	slot11 = slot11.Type2Name
-	slot12 = AttributeType
-	slot12 = slot12.Luck
-
-	slot9(slot10, slot11(slot12))
-
-	slot9 = setText
-	slot11 = slot0
-	slot10 = slot0.findTF
-	slot12 = "desc/top/text/Text"
-	slot13 = slot0.fittingPanel
-	slot10 = slot10(slot11, slot12, slot13)
-	slot11 = i18n
-	slot12 = "fate_phase_word"
-
-	slot9(slot10, slot11(slot12))
-
-	slot9 = GetImageSpriteFromAtlasAsync
-	slot10 = "tecfateskillicon/skill_"
-	slot11 = slot1.id
-	slot10 = slot10 .. slot11
-	slot11 = ""
-	slot13 = slot0
-	slot12 = slot0.findTF
-	slot14 = "phase_5/off/icon_off"
-	slot15 = slot0.fittingAttrPanel
-	slot12 = slot12(slot13, slot14, slot15)
-	slot13 = true
-
-	slot9(slot10, slot11, slot12, slot13)
-
-	slot9 = GetImageSpriteFromAtlasAsync
-	slot10 = "tecfateskillicon/skill_on_"
-	slot11 = slot1.id
-	slot10 = slot10 .. slot11
-	slot11 = ""
-	slot13 = slot0
-	slot12 = slot0.findTF
-	slot14 = "phase_5/on/icon_on"
-	slot15 = slot0.fittingAttrPanel
-	slot12 = slot12(slot13, slot14, slot15)
-	slot13 = true
-
-	slot9(slot10, slot11, slot12, slot13)
-
-	slot9 = onButton
-	slot10 = slot0
-	slot11 = slot0.fittingCancelBtn
-
-	function slot12()
+	GetImageSpriteFromAtlasAsync(slot4:getConfig("icon"), "", slot0.fittingItemInfoIcon)
+	onButton(slot0, slot0.fittingItemInfoIcon, function ()
+		ItemTipPanel.ShowItemTipbyID(uv0.id, i18n("title_item_ways", uv0:getConfig("name")))
+	end)
+	setText(slot0:findTF("attr/name", slot0.fittingAttrPanel), AttributeType.Type2Name(AttributeType.Luck))
+	setText(slot0:findTF("desc/top/text/Text", slot0.fittingPanel), i18n("fate_phase_word"))
+	GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_" .. slot1.id, "", slot0:findTF("phase_5/off/icon_off", slot0.fittingAttrPanel), true)
+	GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_on_" .. slot1.id, "", slot0:findTF("phase_5/on/icon_on", slot0.fittingAttrPanel), true)
+	onButton(slot0, slot0.fittingCancelBtn, function ()
 		slot0 = 0.3
-		slot1 = uv0
-		slot2 = slot1
-		slot1 = slot1.switchUI
-		slot3 = slot0
-		slot4 = false
 
-		slot1(slot2, slot3, slot4)
-
-		slot1 = LeanTween
-		slot1 = slot1.delayedCall
-		slot2 = slot0 + 0.1
-		slot3 = System
-		slot3 = slot3.Action
-
-		function slot4()
-			slot0 = setActive
-			slot1 = uv0
-			slot1 = slot1.modPanel
-			slot2 = true
-
-			slot0(slot1, slot2)
-
-			slot0 = setActive
-			slot1 = uv0
-			slot1 = slot1.fittingPanel
-			slot2 = false
-
-			slot0(slot1, slot2)
-
-			slot0 = Canvas
-			slot0 = slot0.ForceUpdateCanvases
-
-			slot0()
-
-			slot0 = uv0
-			slot1 = slot0
-			slot0 = slot0.switchUI
-			slot2 = uv1
-			slot3 = true
-
-			slot0(slot1, slot2, slot3)
-		end
-
-		slot1(slot2, slot3(slot4))
-	end
-
-	slot13 = SFX_PANEL
-
-	slot9(slot10, slot11, slot12, slot13)
-
-	slot9 = onButton
-	slot10 = slot0
-	slot11 = slot0.fittingConfirmBtn
-
-	function slot12()
-		slot0 = uv0
-		slot1 = slot0
-		slot0 = slot0.inModAnim
-		slot0 = slot0(slot1)
-
-		if slot0 then
+		uv0:switchUI(slot0, false)
+		LeanTween.delayedCall(slot0 + 0.1, System.Action(function ()
+			setActive(uv0.modPanel, true)
+			setActive(uv0.fittingPanel, false)
+			Canvas.ForceUpdateCanvases()
+			uv0:switchUI(uv1, true)
+		end))
+	end, SFX_PANEL)
+	onButton(slot0, slot0.fittingConfirmBtn, function ()
+		if uv0:inModAnim() then
 			return
 		end
 
-		slot0 = uv1
-
-		if slot0 == 0 then
+		if uv1 == 0 then
 			return
 		end
 
-		slot0 = uv0
-		slot1 = slot0
-		slot0 = slot0.emit
-		slot2 = ShipBluePrintMediator
-		slot2 = slot2.ON_MOD
-		slot3 = uv2
-		slot3 = slot3.id
-		slot4 = uv1
+		uv0:emit(ShipBluePrintMediator.ON_MOD, uv2.id, uv1)
+	end, SFX_PANEL)
+	pressPersistTrigger(slot0.fittingCalcMinBtn, 0.5, function (slot0)
+		if uv0:inModAnim() or uv1:isMaxFateLevel() or uv2 == 0 then
+			if slot0 then
+				slot0()
+			end
 
-		slot0(slot1, slot2, slot3, slot4)
-	end
+			return
+		end
 
-	slot13 = SFX_PANEL
+		uv2 = math.max(uv2 - 1, 0)
 
-	slot9(slot10, slot11, slot12, slot13)
-
-	slot9 = pressPersistTrigger
-	slot10 = slot0.fittingCalcMinBtn
-	slot11 = 0.5
+		uv3(uv2)
+	end, nil, true, true, 0.1, SFX_PANEL)
 
 	function slot12(slot0)
-		slot1 = uv0
-		slot2 = slot1
-		slot1 = slot1.inModAnim
-		slot1 = slot1(slot2)
-
-		if not slot1 then
-			slot1 = uv1
-			slot2 = slot1
-			slot1 = slot1.isMaxFateLevel
-			slot1 = slot1(slot2)
-
-			if not slot1 then
-				slot1 = uv2
-
-				if slot1 == 0 then
-					if slot0 then
-						slot1 = slot0
-
-						slot1()
-					end
-
-					return
-				end
+		if uv0:inModAnim() or uv1:isMaxFateLevel() then
+			if slot0 then
+				slot0()
 			end
+
+			return
 		end
 
-		slot1 = math
-		slot1 = slot1.max
-		slot2 = uv2
-		slot2 = slot2 - 1
-		slot3 = 0
-		slot1 = slot1(slot2, slot3)
-		uv2 = slot1
-		slot1 = uv3
-		slot2 = uv2
+		slot4 = Clone(uv1)
 
-		slot1(slot2)
+		slot4:addExp((uv2 + 1) * uv1:getItemExp())
+
+		if uv3.level < slot4:getFateStrengthenConfig(math.min(slot4.fateLevel + 1, slot4:getMaxFateLevel())).need_lv and slot2 <= slot4.exp then
+			if slot0 then
+				slot0()
+			end
+
+			return
+		end
+
+		if slot4.fateLevel == slot4:getMaxFateLevel() and slot2 <= slot4.exp then
+			if slot0 then
+				slot0()
+			end
+
+			return
+		end
+
+		uv2 = math.max(math.min(uv2 + 1, uv4), 0)
+
+		uv5(uv2)
 	end
 
-	slot13 = nil
-	slot14 = true
-	slot15 = true
-	slot16 = 0.1
-	slot17 = SFX_PANEL
+	pressPersistTrigger(slot0.fittingCalcMaxBtn, 0.5, slot12, nil, true, true, 0.1, SFX_PANEL)
 
-	slot9(slot10, slot11, slot12, slot13, slot14, slot15, slot16, slot17)
-
-	slot9 = pressPersistTrigger
-	slot10 = slot0.fittingCalcMaxBtn
-	slot11 = 0.5
-
-	function slot12(slot0)
-		slot1 = uv0
-		slot2 = slot1
-		slot1 = slot1.inModAnim
-		slot1 = slot1(slot2)
-
-		if not slot1 then
-			slot1 = uv1
-			slot2 = slot1
-			slot1 = slot1.isMaxFateLevel
-			slot1 = slot1(slot2)
-
-			if slot1 then
-				if slot0 then
-					slot1 = slot0
-
-					slot1()
-				end
-
-				return
-			end
-		end
-
-		slot1 = uv2
-		slot1 = slot1 + 1
-		slot2 = uv1
-		slot3 = slot2
-		slot2 = slot2.getItemExp
-		slot2 = slot2(slot3)
-		slot3 = slot1 * slot2
-		slot4 = Clone
-		slot5 = uv1
-		slot4 = slot4(slot5)
-		slot6 = slot4
-		slot5 = slot4.addExp
-		slot7 = slot3
-
-		slot5(slot6, slot7)
-
-		slot6 = slot4
-		slot5 = slot4.getFateStrengthenConfig
-		slot7 = math
-		slot7 = slot7.min
-		slot8 = slot4.fateLevel
-		slot8 = slot8 + 1
-		slot10 = slot4
-		slot9 = slot4.getMaxFateLevel
-		slot5 = slot5(slot6, slot7(slot8, slot9(slot10)))
-		slot6 = uv3
-		slot6 = slot6.level
-		slot7 = slot5.need_lv
-
-		if slot6 < slot7 then
-			slot6 = slot4.exp
-
-			if slot2 <= slot6 then
-				if slot0 then
-					slot6 = slot0
-
-					slot6()
-				end
-
-				return
-			end
-		end
-
-		slot6 = slot4.fateLevel
-		slot8 = slot4
-		slot7 = slot4.getMaxFateLevel
-		slot7 = slot7(slot8)
-
-		if slot6 == slot7 then
-			slot6 = slot4.exp
-
-			if slot2 <= slot6 then
-				if slot0 then
-					slot6 = slot0
-
-					slot6()
-				end
-
-				return
-			end
-		end
-
-		slot6 = math
-		slot6 = slot6.max
-		slot7 = math
-		slot7 = slot7.min
-		slot8 = uv2
-		slot8 = slot8 + 1
-		slot9 = uv4
-		slot7 = slot7(slot8, slot9)
-		slot8 = 0
-		slot6 = slot6(slot7, slot8)
-		uv2 = slot6
-		slot6 = uv5
-		slot7 = uv2
-
-		slot6(slot7)
+	for slot12 = 1, slot1:getMaxFateLevel() do
+		onButton(slot0, slot0:findTF("phase_" .. slot12, slot0.fittingAttrPanel), function ()
+			uv0:showFittingMsgPanel(uv1)
+		end, SFX_PANEL)
 	end
 
-	slot13 = nil
-	slot14 = true
-	slot15 = true
-	slot16 = 0.1
-	slot17 = SFX_PANEL
-
-	slot9(slot10, slot11, slot12, slot13, slot14, slot15, slot16, slot17)
-
-	slot9 = 1
-	slot11 = slot1
-	slot10 = slot1.getMaxFateLevel
-	slot10 = slot10(slot11)
-	slot11 = 1
-
-	for slot12 = slot9, slot10, slot11 do
-		slot13 = onButton
-		slot14 = slot0
-		slot16 = slot0
-		slot15 = slot0.findTF
-		slot17 = "phase_"
-		slot18 = slot12
-		slot17 = slot17 .. slot18
-		slot18 = slot0.fittingAttrPanel
-		slot15 = slot15(slot16, slot17, slot18)
-
-		function slot16()
-			slot0 = uv0
-			slot1 = slot0
-			slot0 = slot0.showFittingMsgPanel
-			slot2 = uv1
-
-			slot0(slot1, slot2)
-		end
-
-		slot17 = SFX_PANEL
-
-		slot13(slot14, slot15, slot16, slot17)
-	end
-
-	slot9 = slot7
-	slot10 = slot5
-
-	slot9(slot10)
+	slot7(slot5)
 end
 
-slot0.updateFittingPanel = slot10
+function slot0.updateFittingInfo(slot0, slot1)
+	slot2 = slot0:getShipById(slot1.shipId)
+	slot3 = slot0.contextData.shipBluePrintVO
 
-function slot10(slot0, slot1)
-	slot3 = slot0
-	slot2 = slot0.getShipById
-	slot4 = slot1.shipId
-	slot2 = slot2(slot3, slot4)
-	slot3 = slot0.contextData
-	slot3 = slot3.shipBluePrintVO
-	slot5 = slot0
-	slot4 = slot0.updateFittingAttrPanel
-	slot6 = slot3
-	slot7 = slot1
+	slot0:updateFittingAttrPanel(slot3, slot1)
+	GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "phase_" .. math.max(slot1.fateLevel, 1), slot0.phasePic, true)
 
-	slot4(slot5, slot6, slot7)
-
-	slot4 = GetImageSpriteFromAtlasAsync
-	slot5 = "ui/shipblueprintui_atlas"
-	slot6 = "phase_"
-	slot7 = math
-	slot7 = slot7.max
-	slot8 = slot1.fateLevel
-	slot9 = 1
-	slot7 = slot7(slot8, slot9)
-	slot6 = slot6 .. slot7
-	slot7 = slot0.phasePic
-	slot8 = true
-
-	slot4(slot5, slot6, slot7, slot8)
-
-	slot5 = slot3
-	slot4 = slot3.getNextFateLevelExp
-	slot4 = slot4(slot5)
-
-	if slot4 == -1 then
-		slot5 = slot0.phaseSlider
-		slot6 = 1
-		slot5.value = slot6
+	if slot3:getNextFateLevelExp() == -1 then
+		slot0.phaseSlider.value = 1
 	else
-		slot5 = slot0.phaseSlider
-		slot6 = slot3.exp
-		slot6 = slot6 / slot4
-		slot5.value = slot6
+		slot0.phaseSlider.value = slot3.exp / slot4
 	end
 
-	slot6 = slot1
-	slot5 = slot1.getNextFateLevelExp
-	slot5 = slot5(slot6)
-	slot4 = slot5
+	if slot1:getNextFateLevelExp() == -1 then
+		setText(slot0.phaseSliderTxt, "MAX")
 
-	if slot4 == -1 then
-		slot5 = setText
-		slot6 = slot0.phaseSliderTxt
-		slot7 = "MAX"
-
-		slot5(slot6, slot7)
-
-		slot5 = slot0.prePhaseSlider
-		slot6 = 1
-		slot5.value = slot6
+		slot0.prePhaseSlider.value = 1
 	else
-		slot5 = math
-		slot5 = slot5.floor
-		slot6 = slot1.exp
-		slot8 = slot1
-		slot7 = slot1.getNextFateLevelExp
-		slot7 = slot7(slot8)
-		slot6 = slot6 / slot7
-		slot6 = slot6 * 100
-		slot5 = slot5(slot6)
-		slot6 = setText
-		slot7 = slot0.phaseSliderTxt
-		slot8 = tostring
-		slot9 = slot5
-		slot8 = slot8(slot9)
-		slot9 = "%"
-		slot8 = slot8 .. slot9
+		setText(slot0.phaseSliderTxt, tostring(math.floor(slot1.exp / slot1:getNextFateLevelExp() * 100)) .. "%")
 
-		slot6(slot7, slot8)
-
-		slot6 = slot0.prePhaseSlider
-		slot7 = slot1.fateLevel
-		slot8 = slot3.fateLevel
-
-		if slot8 < slot7 then
-			slot7 = 1
-		else
-			slot7 = slot1.exp
-			slot7 = slot7 / slot4
-		end
-
-		slot6.value = slot7
+		slot0.prePhaseSlider.value = slot3.fateLevel < slot1.fateLevel and 1 or slot1.exp / slot4
 	end
 
-	slot6 = slot1
-	slot5 = slot1.isShipModMaxFateLevel
-	slot7 = slot2
-	slot5, slot6 = slot5(slot6, slot7)
-	slot7 = setActive
-	slot8 = slot0.fittingNeedMask
-	slot9 = slot5
+	slot5, slot6 = slot1:isShipModMaxFateLevel(slot2)
 
-	slot7(slot8, slot9)
+	setActive(slot0.fittingNeedMask, slot5)
 
 	if slot5 then
-		slot7 = setText
-		slot9 = slot0
-		slot8 = slot0.findTF
-		slot10 = "limit"
-		slot11 = slot0.fittingNeedMask
-		slot8 = slot8(slot9, slot10, slot11)
-		slot9 = i18n
-		slot10 = "buleprint_need_level_tip"
-		slot11 = slot6
+		setText(slot0:findTF("limit", slot0.fittingNeedMask), i18n("buleprint_need_level_tip", slot6))
 
-		slot7(slot8, slot9(slot10, slot11))
-
-		slot7 = slot0.phaseSlider
-		slot8 = 1
-		slot7.value = slot8
+		slot0.phaseSlider.value = 1
 	end
 end
 
-slot0.updateFittingInfo = slot10
+function slot0.updateFittingAttrPanel(slot0, slot1, slot2)
+	setText(slot0:findTF("attr/name/Text", slot0.fittingAttrPanel), " + " .. defaultValue((slot2 or slot1):attrSpecialAddition()[AttributeType.Luck], 0))
 
-function slot10(slot0, slot1, slot2)
-	slot3 = setText
-	slot5 = slot0
-	slot4 = slot0.findTF
-	slot6 = "attr/name/Text"
-	slot7 = slot0.fittingAttrPanel
-	slot4 = slot4(slot5, slot6, slot7)
-	slot5 = " + "
-	slot6 = defaultValue
+	slot0.blinkTarget = slot0.blinkTarget or {
+		{},
+		{}
+	}
 
-	if not slot2 then
-		slot7 = slot1
-	end
+	for slot6 = 1, slot1:getMaxFateLevel() do
+		slot7 = slot0:findTF("phase_" .. slot6, slot0.fittingAttrPanel)
+		slot8 = slot0:findTF("off", slot7)
+		slot9 = slot0:findTF("on", slot7)
 
-	slot8 = slot7
-	slot7 = slot7.attrSpecialAddition
-	slot7 = slot7(slot8)
-	slot8 = AttributeType
-	slot8 = slot8.Luck
-	slot7 = slot7[slot8]
-	slot8 = 0
-	slot6 = slot6(slot7, slot8)
-	slot5 = slot5 .. slot6
+		if slot2 and slot1.fateLevel < slot6 and slot6 <= slot2.fateLevel then
+			setActive(slot8, true)
+			setActive(slot9, true)
 
-	slot3(slot4, slot5)
-
-	slot3 = slot0.blinkTarget
-
-	if not slot3 then
-		slot3 = {}
-		slot4 = {}
-		slot3[1] = slot4
-		slot4 = {}
-		slot3[2] = slot4
-	end
-
-	slot0.blinkTarget = slot3
-	slot3 = 1
-	slot5 = slot1
-	slot4 = slot1.getMaxFateLevel
-	slot4 = slot4(slot5)
-	slot5 = 1
-
-	for slot6 = slot3, slot4, slot5 do
-		slot8 = slot0
-		slot7 = slot0.findTF
-		slot9 = "phase_"
-		slot10 = slot6
-		slot9 = slot9 .. slot10
-		slot10 = slot0.fittingAttrPanel
-		slot7 = slot7(slot8, slot9, slot10)
-		slot9 = slot0
-		slot8 = slot0.findTF
-		slot10 = "off"
-		slot11 = slot7
-		slot8 = slot8(slot9, slot10, slot11)
-		slot10 = slot0
-		slot9 = slot0.findTF
-		slot11 = "on"
-		slot12 = slot7
-		slot9 = slot9(slot10, slot11, slot12)
-
-		if slot2 then
-			slot10 = slot1.fateLevel
-
-			if slot10 < slot6 then
-				slot10 = slot2.fateLevel
-
-				if slot6 <= slot10 then
-					slot10 = setActive
-					slot11 = slot8
-					slot12 = true
-
-					slot10(slot11, slot12)
-
-					slot10 = setActive
-					slot11 = slot9
-					slot12 = true
-
-					slot10(slot11, slot12)
-
-					slot10 = table
-					slot10 = slot10.contains
-					slot11 = slot0.blinkTarget
-					slot11 = slot11[1]
-					slot12 = slot8
-					slot10 = slot10(slot11, slot12)
-
-					if not slot10 then
-						slot10 = table
-						slot10 = slot10.insert
-						slot11 = slot0.blinkTarget
-						slot11 = slot11[1]
-						slot12 = slot8
-
-						slot10(slot11, slot12)
-
-						slot10 = table
-						slot10 = slot10.insert
-						slot11 = slot0.blinkTarget
-						slot11 = slot11[2]
-						slot12 = slot9
-
-						slot10(slot11, slot12)
-					end
-				end
+			if not table.contains(slot0.blinkTarget[1], slot8) then
+				table.insert(slot0.blinkTarget[1], slot8)
+				table.insert(slot0.blinkTarget[2], slot9)
 			end
 		else
-			slot10 = table
-			slot10 = slot10.indexof
-			slot11 = slot0.blinkTarget
-			slot11 = slot11[1]
-			slot12 = slot8
-			slot10 = slot10(slot11, slot12)
-
-			if slot10 then
-				slot11 = table
-				slot11 = slot11.remove
-				slot12 = slot0.blinkTarget
-				slot12 = slot12[1]
-				slot13 = slot10
-
-				slot11(slot12, slot13)
-
-				slot11 = table
-				slot11 = slot11.remove
-				slot12 = slot0.blinkTarget
-				slot12 = slot12[2]
-				slot13 = slot10
-
-				slot11(slot12, slot13)
+			if table.indexof(slot0.blinkTarget[1], slot8) then
+				table.remove(slot0.blinkTarget[1], slot10)
+				table.remove(slot0.blinkTarget[2], slot10)
 			end
 
-			slot11 = setActive
-			slot12 = slot8
-			slot13 = slot1.fateLevel
+			setActive(slot8, slot1.fateLevel < slot6)
+			setActive(slot9, slot6 <= slot1.fateLevel)
 
-			if slot13 >= slot6 then
-				slot13 = false
-			else
-				slot13 = true
-			end
-
-			slot11(slot12, slot13)
-
-			slot11 = setActive
-			slot12 = slot9
-			slot13 = slot1.fateLevel
-
-			if slot6 > slot13 then
-				slot13 = false
-			else
-				slot13 = true
-			end
-
-			slot11(slot12, slot13)
-
-			slot12 = slot8
-			slot11 = slot8.GetComponent
-			slot13 = typeof
-			slot14 = CanvasGroup
-			slot11 = slot11(slot12, slot13(slot14))
-			slot12 = 1
-			slot11.alpha = slot12
-			slot12 = slot9
-			slot11 = slot9.GetComponent
-			slot13 = typeof
-			slot14 = CanvasGroup
-			slot11 = slot11(slot12, slot13(slot14))
-			slot12 = 1
-			slot11.alpha = slot12
+			slot8:GetComponent(typeof(CanvasGroup)).alpha = 1
+			slot9:GetComponent(typeof(CanvasGroup)).alpha = 1
 		end
 	end
 
-	slot3 = slot0.blinkTarget
-	slot3 = slot3[1]
-	slot3 = #slot3
-
-	if slot3 == 0 then
-		slot3 = LeanTween
-		slot3 = slot3.cancel
-		slot4 = go
-		slot5 = slot0.fittingAttrPanel
-
-		slot3(slot4(slot5))
-	else
-		slot3 = LeanTween
-		slot3 = slot3.isTweening
-		slot4 = go
-		slot5 = slot0.fittingAttrPanel
-		slot3 = slot3(slot4(slot5))
-
-		if not slot3 then
-			slot3 = LeanTween
-			slot3 = slot3.value
-			slot4 = go
-			slot5 = slot0.fittingAttrPanel
-			slot4 = slot4(slot5)
-			slot5 = 1
-			slot6 = 0
-			slot7 = 0.8
-			slot3 = slot3(slot4, slot5, slot6, slot7)
-			slot4 = slot3
-			slot3 = slot3.setOnUpdate
-			slot5 = System
-			slot5 = slot5.Action_float
-
-			function slot6(slot0)
-				slot1 = ipairs
-				slot2 = uv0
-				slot2 = slot2.blinkTarget
-				slot2 = slot2[1]
-				slot1, slot2, slot3 = slot1(slot2)
-
-				for slot4, slot5 in slot1, slot2, slot3 do
-					slot7 = slot5
-					slot6 = slot5.GetComponent
-					slot8 = typeof
-					slot9 = CanvasGroup
-					slot6 = slot6(slot7, slot8(slot9))
-					slot6.alpha = slot0
-				end
-
-				slot1 = ipairs
-				slot2 = uv0
-				slot2 = slot2.blinkTarget
-				slot2 = slot2[2]
-				slot1, slot2, slot3 = slot1(slot2)
-
-				for slot4, slot5 in slot1, slot2, slot3 do
-					slot7 = slot5
-					slot6 = slot5.GetComponent
-					slot8 = typeof
-					slot9 = CanvasGroup
-					slot6 = slot6(slot7, slot8(slot9))
-					slot7 = 1 - slot0
-					slot6.alpha = slot7
-				end
+	if #slot0.blinkTarget[1] == 0 then
+		LeanTween.cancel(go(slot0.fittingAttrPanel))
+	elseif not LeanTween.isTweening(go(slot0.fittingAttrPanel)) then
+		LeanTween.value(go(slot0.fittingAttrPanel), 1, 0, 0.8):setOnUpdate(System.Action_float(function (slot0)
+			for slot4, slot5 in ipairs(uv0.blinkTarget[1]) do
+				slot5:GetComponent(typeof(CanvasGroup)).alpha = slot0
 			end
 
-			slot3 = slot3(slot4, slot5(slot6))
-			slot4 = slot3
-			slot3 = slot3.setEase
-			slot5 = LeanTweenType
-			slot5 = slot5.easeInOutSine
-			slot3 = slot3(slot4, slot5)
-			slot4 = slot3
-			slot3 = slot3.setLoopPingPong
-			slot5 = 0
-
-			slot3(slot4, slot5)
-		end
+			for slot4, slot5 in ipairs(uv0.blinkTarget[2]) do
+				slot5:GetComponent(typeof(CanvasGroup)).alpha = 1 - slot0
+			end
+		end)):setEase(LeanTweenType.easeInOutSine):setLoopPingPong(0)
 	end
 end
 
-slot0.updateFittingAttrPanel = slot10
-
-function slot10(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.shipBluePrintVO
-	slot3 = slot1
-	slot2 = slot1.specialStrengthens
-	slot2 = slot2(slot3)
-	slot3 = slot0.modAdditionContainer
-	slot3 = slot3.childCount
-	slot4 = slot3 - 1
-	slot5 = #slot2
-	slot6 = 1
-
-	for slot7 = slot4, slot5, slot6 do
-		slot9 = slot0
-		slot8 = slot0.cloneTplTo
-		slot10 = slot0.modAdditionTpl
-		slot11 = slot0.modAdditionContainer
-
-		slot8(slot9, slot10, slot11)
+function slot0.updateModAdditionPanel(slot0)
+	for slot7 = slot0.modAdditionContainer.childCount - 1, #slot0.contextData.shipBluePrintVO:specialStrengthens() do
+		slot0:cloneTplTo(slot0.modAdditionTpl, slot0.modAdditionContainer)
 	end
 
-	slot4 = slot0.modAdditionContainer
-	slot3 = slot4.childCount
-	slot4 = 1
-	slot5 = slot3
-	slot6 = 1
+	for slot7 = 1, slot0.modAdditionContainer.childCount do
+		slot8 = slot7 <= #slot2
 
-	for slot7 = slot4, slot5, slot6 do
-		slot8 = #slot2
-
-		if slot7 > slot8 then
-			slot8 = false
-		else
-			slot8 = true
-		end
-
-		slot9 = slot0.modAdditionContainer
-		slot10 = slot9
-		slot9 = slot9.GetChild
-		slot11 = slot7 - 1
-		slot9 = slot9(slot10, slot11)
-		slot10 = setActive
-		slot11 = slot9
-		slot12 = slot8
-
-		slot10(slot11, slot12)
+		setActive(slot0.modAdditionContainer:GetChild(slot7 - 1), slot8)
 
 		if slot8 then
-			slot11 = slot0
-			slot10 = slot0.updateAdvanceTF
-			slot12 = slot1
-			slot13 = slot9
-			slot14 = slot2[slot7]
-
-			slot10(slot11, slot12, slot13, slot14)
+			slot0:updateAdvanceTF(slot1, slot9, slot2[slot7])
 		end
 	end
 end
 
-slot0.updateModAdditionPanel = slot10
+function slot0.updateAdvanceTF(slot0, slot1, slot2, slot3)
+	slot4 = slot1.level < slot3.level
 
-function slot10(slot0, slot1, slot2, slot3)
-	slot4 = slot1.level
-	slot5 = slot3.level
-
-	if slot4 >= slot5 then
-		slot4 = false
-	else
-		slot4 = true
-	end
-
-	slot5 = setActive
-	slot7 = slot2
-	slot6 = slot2.Find
-	slot8 = "mask"
-	slot6 = slot6(slot7, slot8)
-	slot7 = slot4
-
-	slot5(slot6, slot7)
+	setActive(slot2:Find("mask"), slot4)
 
 	if slot4 then
-		slot5 = setText
-		slot7 = slot2
-		slot6 = slot2.Find
-		slot8 = "mask/content/Text"
-		slot6 = slot6(slot7, slot8)
-		slot7 = i18n
-		slot8 = "blueprint_mod_addition_lock"
-		slot9 = slot3.level
-
-		slot5(slot6, slot7(slot8, slot9))
+		setText(slot2:Find("mask/content/Text"), i18n("blueprint_mod_addition_lock", slot3.level))
 	end
 
 	slot5 = slot3.des
-	slot6 = slot3.extraDes
+	slot6 = slot3.extraDes or {}
 
-	if not slot6 then
-		slot6 = {}
-	end
+	removeAllChildren(slot2:Find("additions"))
 
-	slot8 = slot2
-	slot7 = slot2.Find
-	slot9 = "additions"
-	slot7 = slot7(slot8, slot9)
-	slot8 = removeAllChildren
-	slot9 = slot7
+	for slot13 = 1, #slot5 do
+		slot14 = cloneTplTo(slot0:findTF("scroll_rect/info", slot0.modAdditionPanel), slot7)
 
-	slot8(slot9)
+		setActive(slot14:Find("text_tpl"), false)
+		setActive(slot14:Find("attr_tpl"), false)
+		setActive(slot14:Find("breakout_tpl"), false)
+		setActive(slot14:Find("empty_tpl"), false)
 
-	slot9 = slot0
-	slot8 = slot0.findTF
-	slot10 = "scroll_rect/info"
-	slot11 = slot0.modAdditionPanel
-	slot8 = slot8(slot9, slot10, slot11)
+		if slot5[slot13] then
+			if slot5[slot13][1] == ShipBluePrint.STRENGTHEN_TYPE_BREAKOUT then
+				setActive(slot16, true)
+				function (slot0, slot1)
+					slot2 = slot1[2]
+					slot7 = Ship.New({
+						configId = slot2
+					}):getStar()
 
-	function slot9(slot0, slot1)
-		slot2 = slot1[2]
-		slot3 = pg
-		slot3 = slot3.ship_data_breakout
-		slot3 = slot3[slot2]
-		slot3 = slot3.pre_id
-		slot4 = Ship
-		slot4 = slot4.New
-		slot5 = {
-			configId = slot2
-		}
-		slot4 = slot4(slot5)
-		slot5 = Ship
-		slot5 = slot5.New
-		slot6 = {
-			configId = slot3
-		}
-		slot5 = slot5(slot6)
-		slot7 = slot5
-		slot6 = slot5.getStar
-		slot6 = slot6(slot7)
-		slot8 = slot4
-		slot7 = slot4.getStar
-		slot7 = slot7(slot8)
-		slot9 = slot0
-		slot8 = slot0.Find
-		slot10 = "star_tpl"
-		slot8 = slot8(slot9, slot10)
-		slot10 = slot0
-		slot9 = slot0.Find
-		slot11 = "stars"
-		slot9 = slot9(slot10, slot11)
-		slot11 = slot0
-		slot10 = slot0.Find
-		slot12 = "pre_stars"
-		slot10 = slot10(slot11, slot12)
-		slot11 = removeAllChildren
-		slot12 = slot9
+					removeAllChildren(slot0:Find("stars"))
+					removeAllChildren(slot0:Find("pre_stars"))
 
-		slot11(slot12)
+					for slot14 = 1, Ship.New({
+						configId = pg.ship_data_breakout[slot2].pre_id
+					}):getStar() do
+						cloneTplTo(slot0:Find("star_tpl"), slot9)
+					end
 
-		slot11 = removeAllChildren
-		slot12 = slot10
-
-		slot11(slot12)
-
-		slot11 = 1
-		slot12 = slot6
-		slot13 = 1
-
-		for slot14 = slot11, slot12, slot13 do
-			slot15 = cloneTplTo
-			slot16 = slot8
-			slot17 = slot9
-
-			slot15(slot16, slot17)
-		end
-
-		slot11 = 1
-		slot12 = slot7
-		slot13 = 1
-
-		for slot14 = slot11, slot12, slot13 do
-			slot15 = cloneTplTo
-			slot16 = slot8
-			slot17 = slot10
-
-			slot15(slot16, slot17)
-		end
-	end
-
-	slot10 = 1
-	slot11 = #slot5
-	slot12 = 1
-
-	for slot13 = slot10, slot11, slot12 do
-		slot14 = cloneTplTo
-		slot15 = slot8
-		slot16 = slot7
-		slot14 = slot14(slot15, slot16)
-		slot16 = slot14
-		slot15 = slot14.Find
-		slot17 = "text_tpl"
-		slot15 = slot15(slot16, slot17)
-		slot17 = slot14
-		slot16 = slot14.Find
-		slot18 = "breakout_tpl"
-		slot16 = slot16(slot17, slot18)
-		slot17 = setActive
-		slot18 = slot15
-		slot19 = false
-
-		slot17(slot18, slot19)
-
-		slot17 = setActive
-		slot19 = slot14
-		slot18 = slot14.Find
-		slot20 = "attr_tpl"
-		slot18 = slot18(slot19, slot20)
-		slot19 = false
-
-		slot17(slot18, slot19)
-
-		slot17 = setActive
-		slot18 = slot16
-		slot19 = false
-
-		slot17(slot18, slot19)
-
-		slot17 = setActive
-		slot19 = slot14
-		slot18 = slot14.Find
-		slot20 = "empty_tpl"
-		slot18 = slot18(slot19, slot20)
-		slot19 = false
-
-		slot17(slot18, slot19)
-
-		slot17 = slot5[slot13]
-
-		if slot17 then
-			slot17 = slot5[slot13]
-			slot17 = slot17[1]
-			slot18 = ShipBluePrint
-			slot18 = slot18.STRENGTHEN_TYPE_BREAKOUT
-
-			if slot17 == slot18 then
-				slot18 = setActive
-				slot19 = slot16
-				slot20 = true
-
-				slot18(slot19, slot20)
-
-				slot18 = slot9
-				slot19 = slot16
-				slot20 = slot5[slot13]
-
-				slot18(slot19, slot20)
+					for slot14 = 1, slot7 do
+						cloneTplTo(slot8, slot10)
+					end
+				end(slot16, slot5[slot13])
 			else
-				slot18 = setActive
-				slot19 = slot15
-				slot20 = true
-
-				slot18(slot19, slot20)
-
-				slot18 = setText
-				slot20 = slot15
-				slot19 = slot15.Find
-				slot21 = "Text"
-				slot19 = slot19(slot20, slot21)
-				slot20 = slot5[slot13]
-				slot20 = slot20[3]
-
-				slot18(slot19, slot20)
+				setActive(slot15, true)
+				setText(slot15:Find("Text"), slot5[slot13][3])
 			end
 		else
-			slot17 = setActive
-			slot18 = empty_tpl
-			slot19 = true
-
-			slot17(slot18, slot19)
+			setActive(empty_tpl, true)
 		end
 	end
 
-	slot10 = 1
-	slot11 = #slot6
-	slot12 = 1
+	for slot13 = 1, #slot6 do
+		slot14 = cloneTplTo(slot8, slot7)
+		slot15 = slot14:Find("text_tpl")
 
-	for slot13 = slot10, slot11, slot12 do
-		slot14 = cloneTplTo
-		slot15 = slot8
-		slot16 = slot7
-		slot14 = slot14(slot15, slot16)
-		slot16 = slot14
-		slot15 = slot14.Find
-		slot17 = "text_tpl"
-		slot15 = slot15(slot16, slot17)
-		slot16 = setActive
-		slot17 = slot15
-		slot18 = true
-
-		slot16(slot17, slot18)
-
-		slot16 = setActive
-		slot18 = slot14
-		slot17 = slot14.Find
-		slot19 = "attr_tpl"
-		slot17 = slot17(slot18, slot19)
-		slot18 = false
-
-		slot16(slot17, slot18)
-
-		slot16 = setActive
-		slot18 = slot14
-		slot17 = slot14.Find
-		slot19 = "breakout_tpl"
-		slot17 = slot17(slot18, slot19)
-		slot18 = false
-
-		slot16(slot17, slot18)
-
-		slot16 = setActive
-		slot18 = slot14
-		slot17 = slot14.Find
-		slot19 = "empty_tpl"
-		slot17 = slot17(slot18, slot19)
-		slot18 = false
-
-		slot16(slot17, slot18)
-
-		slot16 = setText
-		slot18 = slot15
-		slot17 = slot15.Find
-		slot19 = "Text"
-		slot17 = slot17(slot18, slot19)
-		slot18 = slot6[slot13]
-
-		slot16(slot17, slot18)
+		setActive(slot15, true)
+		setActive(slot14:Find("attr_tpl"), false)
+		setActive(slot14:Find("breakout_tpl"), false)
+		setActive(slot14:Find("empty_tpl"), false)
+		setText(slot15:Find("Text"), slot6[slot13])
 	end
 end
 
-slot0.updateAdvanceTF = slot10
-
-function slot10(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.shipBluePrintVO
+function slot0.updateInfo(slot0)
 	slot2 = nil
-	slot4 = slot1
-	slot3 = slot1.isFetched
-	slot3 = slot3(slot4)
 
-	if slot3 then
-		slot3 = slot0.shipVOs
-		slot4 = slot1.shipId
-		slot2 = slot3[slot4]
+	if slot0.contextData.shipBluePrintVO:isFetched() then
+		slot2 = slot0.shipVOs[slot1.shipId]
 	end
 
-	if not slot2 then
-		slot4 = slot1
-		slot3 = slot1.getShipVO
-		slot3 = slot3(slot4)
-		slot2 = slot3
+	slot2 = slot2 or slot1:getShipVO()
+
+	setText(slot0.shipName, slot2:getName())
+	setText(slot0.englishName, slot2:getConfigTable().english_name)
+	removeAllChildren(slot0.stars)
+
+	slot5 = slot2:getStar()
+
+	for slot10 = 1, slot2:getMaxStar() do
+		cloneTplTo(slot0.shipInfoStarTpl, slot0.stars, "star_" .. slot10)
 	end
 
-	slot4 = slot2
-	slot3 = slot2.getConfigTable
-	slot3 = slot3(slot4)
-	slot5 = slot2
-	slot4 = slot2.getName
-	slot4 = slot4(slot5)
-	slot5 = setText
-	slot6 = slot0.shipName
-	slot7 = slot4
+	for slot11 = 1, slot6 - slot5 do
+		slot12 = slot0.stars:GetChild(slot6 - slot11)
 
-	slot5(slot6, slot7)
-
-	slot5 = setText
-	slot6 = slot0.englishName
-	slot7 = slot3.english_name
-
-	slot5(slot6, slot7)
-
-	slot5 = removeAllChildren
-	slot6 = slot0.stars
-
-	slot5(slot6)
-
-	slot6 = slot2
-	slot5 = slot2.getStar
-	slot5 = slot5(slot6)
-	slot7 = slot2
-	slot6 = slot2.getMaxStar
-	slot6 = slot6(slot7)
-	slot7 = 1
-	slot8 = slot6
-	slot9 = 1
-
-	for slot10 = slot7, slot8, slot9 do
-		slot11 = cloneTplTo
-		slot12 = slot0.shipInfoStarTpl
-		slot13 = slot0.stars
-		slot14 = "star_"
-		slot15 = slot10
-		slot14 = slot14 .. slot15
-
-		slot11(slot12, slot13, slot14)
+		setActive(slot12:Find("star_tpl"), false)
+		setActive(slot12:Find("empty_star_tpl"), true)
 	end
 
-	slot7 = slot6 - slot5
-	slot8 = 1
-	slot9 = slot7
-	slot10 = 1
-
-	for slot11 = slot8, slot9, slot10 do
-		slot12 = slot0.stars
-		slot13 = slot12
-		slot12 = slot12.GetChild
-		slot14 = slot6 - slot11
-		slot12 = slot12(slot13, slot14)
-		slot13 = setActive
-		slot15 = slot12
-		slot14 = slot12.Find
-		slot16 = "star_tpl"
-		slot14 = slot14(slot15, slot16)
-		slot15 = false
-
-		slot13(slot14, slot15)
-
-		slot13 = setActive
-		slot15 = slot12
-		slot14 = slot12.Find
-		slot16 = "empty_star_tpl"
-		slot14 = slot14(slot15, slot16)
-		slot15 = true
-
-		slot13(slot14, slot15)
+	if not GetSpriteFromAtlas("shiptype", slot2:getShipType()) then
+		warning("找不到船形, shipConfigId: " .. slot2.configId)
 	end
 
-	slot8 = GetSpriteFromAtlas
-	slot9 = "shiptype"
-	slot11 = slot2
-	slot10 = slot2.getShipType
-	slot8 = slot8(slot9, slot10(slot11))
+	setImageSprite(slot0.shipType, slot8, true)
 
-	if not slot8 then
-		slot9 = warning
-		slot10 = "找不到船形, shipConfigId: "
-		slot11 = slot2.configId
-		slot10 = slot10 .. slot11
+	slot9 = slot1:isLock()
 
-		slot9(slot10)
-	end
+	setActive(slot0.finishedBtn, slot1:isFinished())
 
-	slot9 = setImageSprite
-	slot10 = slot0.shipType
-	slot11 = slot8
-	slot12 = true
+	slot10 = slot1:isDeving()
 
-	slot9(slot10, slot11, slot12)
-
-	slot10 = slot1
-	slot9 = slot1.isLock
-	slot9 = slot9(slot10)
-	slot10 = setActive
-	slot11 = slot0.finishedBtn
-	slot13 = slot1
-	slot12 = slot1.isFinished
-
-	slot10(slot11, slot12(slot13))
-
-	slot11 = slot1
-	slot10 = slot1.isDeving
-	slot10 = slot10(slot11)
-	slot11 = setActive
-	slot12 = slot0.progressPanel
-	slot13 = slot10
-
-	slot11(slot12, slot13)
+	setActive(slot0.progressPanel, slot10)
 
 	if slot10 then
-		slot12 = slot0
-		slot11 = slot0.updateTasksProgress
-
-		slot11(slot12)
+		slot0:updateTasksProgress()
 	end
 
-	slot12 = slot1
-	slot11 = slot1.isFinishPrevTask
-	slot13 = true
-	slot11 = slot11(slot12, slot13)
-
-	if slot9 and not slot11 then
-		slot13 = slot1
-		slot12 = slot1.isFinishPrevTask
-		slot12 = slot12(slot13)
-
-		if slot12 then
-			slot12 = ipairs
-			slot14 = slot1
-			slot13 = slot1.getOpenTaskList
-			slot12, slot13, slot14 = slot12(slot13(slot14))
-
-			for slot15, slot16 in slot12, slot13, slot14 do
-				slot18 = slot0
-				slot17 = slot0.emit
-				slot19 = ShipBluePrintMediator
-				slot19 = slot19.ON_FINISH_TASK
-				slot20 = slot16
-
-				slot17(slot18, slot19, slot20)
+	if slot9 and not slot1:isFinishPrevTask(true) then
+		if slot1:isFinishPrevTask() then
+			for slot15, slot16 in ipairs(slot1:getOpenTaskList()) do
+				slot0:emit(ShipBluePrintMediator.ON_FINISH_TASK, slot16)
 			end
 
 			slot11 = true
 		else
-			slot12 = getProxy
-			slot13 = TaskProxy
-			slot12 = slot12(slot13)
-			slot14 = slot1
-			slot13 = slot1.getOpenTaskList
-			slot13 = slot13(slot14)
-			slot14 = ipairs
-			slot15 = slot13
-			slot14, slot15, slot16 = slot14(slot15)
+			for slot17, slot18 in ipairs(slot1:getOpenTaskList()) do
+				slot19 = getProxy(TaskProxy):getTaskVO(slot18)
+				slot20 = slot0.lockPanel.childCount < slot17 and cloneTplTo(slot0.lockBtn, slot0.lockPanel) or slot0.lockPanel:GetChild(slot17 - 1)
 
-			for slot17, slot18 in slot14, slot15, slot16 do
-				slot20 = slot12
-				slot19 = slot12.getTaskVO
-				slot21 = slot18
-				slot19 = slot19(slot20, slot21)
-				slot20 = slot0.lockPanel
-				slot20 = slot20.childCount
-
-				if slot20 < slot17 then
-					slot20 = cloneTplTo
-					slot21 = slot0.lockBtn
-					slot22 = slot0.lockPanel
-					slot20 = slot20(slot21, slot22)
-
-					if not slot20 then
-						slot20 = slot0.lockPanel
-						slot21 = slot20
-						slot20 = slot20.GetChild
-						slot22 = slot17 - 1
-						slot20 = slot20(slot21, slot22)
-					end
-				end
-
-				slot21 = setActive
-				slot22 = slot20
-				slot23 = true
-
-				slot21(slot22, slot23)
-
-				slot22 = slot19
-				slot21 = slot19.getProgress
-				slot21 = slot21(slot22)
-				slot23 = slot19
-				slot22 = slot19.getConfig
-				slot24 = "target_num"
-				slot22 = slot22(slot23, slot24)
-				slot23 = setText
-				slot25 = slot0
-				slot24 = slot0.findTF
-				slot26 = "Text"
-				slot27 = slot20
-				slot24 = slot24(slot25, slot26, slot27)
-
-				if slot22 <= slot21 then
-					slot25 = setColorStr
-					slot26 = slot21
-					slot27 = COLOR_GREEN
-					slot25 = slot25(slot26, slot27)
-
-					if not slot25 then
-						slot25 = slot21
-					end
-				end
-
-				slot26 = "/"
-				slot27 = slot22
-				slot25 = slot25 .. slot26 .. slot27
-
-				slot23(slot24, slot25)
+				setActive(slot20, true)
+				setText(slot0:findTF("Text", slot20), (slot19:getConfig("target_num") <= slot19:getProgress() and setColorStr(slot21, COLOR_GREEN) or slot21) .. "/" .. slot22)
 			end
 
-			slot14 = #slot13
-			slot14 = slot14 + 1
-			slot15 = slot0.lockPanel
-			slot15 = slot15.childCount
-			slot16 = 1
-
-			for slot17 = slot14, slot15, slot16 do
-				slot18 = setActive
-				slot19 = slot0.lockPanel
-				slot20 = slot19
-				slot19 = slot19.GetChild
-				slot21 = slot17 - 1
-				slot19 = slot19(slot20, slot21)
-				slot20 = false
-
-				slot18(slot19, slot20)
+			for slot17 = #slot13 + 1, slot0.lockPanel.childCount do
+				setActive(slot0.lockPanel:GetChild(slot17 - 1), false)
 			end
 		end
 	end
 
-	slot12 = setText
-	slot14 = slot0
-	slot13 = slot0.findTF
-	slot15 = "Text"
-	slot16 = slot0.openCondition
-	slot13 = slot13(slot14, slot15, slot16)
-	slot15 = slot1
-	slot14 = slot1.getConfig
-	slot16 = "unlock_word"
-
-	slot12(slot13, slot14(slot15, slot16))
-
-	slot12 = setActive
-	slot13 = slot0.openCondition
-	slot14 = slot9
-
-	slot12(slot13, slot14)
-
-	slot12 = setActive
-	slot13 = slot0.startBtn
-
-	if slot9 then
-		slot14 = slot11
-	end
-
-	slot12(slot13, slot14)
-
-	slot12 = setActive
-	slot13 = slot0.lockPanel
-
-	if slot9 then
-		slot14 = not slot11
-	end
-
-	slot12(slot13, slot14)
+	setText(slot0:findTF("Text", slot0.openCondition), slot1:getConfig("unlock_word"))
+	setActive(slot0.openCondition, slot9)
+	setActive(slot0.startBtn, slot9 and slot11)
+	setActive(slot0.lockPanel, slot9 and not slot11)
 end
 
-slot0.updateInfo = slot10
-
-function slot10(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.shipBluePrintVO
-	slot3 = slot1
-	slot2 = slot1.getTaskIds
-	slot2 = slot2(slot3)
-	slot3 = slot0.progressContainer
-	slot3 = slot3.childCount
-	slot4 = slot3
-	slot5 = #slot2
-	slot6 = 1
-
-	for slot7 = slot4, slot5, slot6 do
-		slot8 = cloneTplTo
-		slot9 = slot0.progressTpl
-		slot10 = slot0.progressContainer
-
-		slot8(slot9, slot10)
+function slot0.updateTasksProgress(slot0)
+	for slot7 = slot0.progressContainer.childCount, #slot0.contextData.shipBluePrintVO:getTaskIds() do
+		cloneTplTo(slot0.progressTpl, slot0.progressContainer)
 	end
 
-	slot4 = slot0.progressContainer
-	slot3 = slot4.childCount
-	slot4 = 1
-	slot5 = slot3
-	slot6 = 1
+	for slot7 = 1, slot0.progressContainer.childCount do
+		slot9 = slot7 <= #slot2
 
-	for slot7 = slot4, slot5, slot6 do
-		slot8 = slot0.progressContainer
-		slot9 = slot8
-		slot8 = slot8.GetChild
-		slot10 = slot7 - 1
-		slot8 = slot8(slot9, slot10)
-		slot9 = #slot2
-
-		if slot7 > slot9 then
-			slot9 = false
-		else
-			slot9 = true
-		end
-
-		slot10 = setActive
-		slot11 = slot8
-		slot12 = slot9
-
-		slot10(slot11, slot12)
+		setActive(slot0.progressContainer:GetChild(slot7 - 1), slot9)
 
 		if slot9 then
-			slot11 = slot1
-			slot10 = slot1.getTaskStateById
-			slot12 = slot2[slot7]
-			slot10 = slot10(slot11, slot12)
-			slot11 = setActive
-			slot12 = findTF
-			slot13 = slot8
-			slot14 = "complete"
-			slot12 = slot12(slot13, slot14)
-			slot13 = ShipBluePrint
-			slot13 = slot13.TASK_STATE_FINISHED
-
-			if slot10 ~= slot13 then
-				slot13 = false
-			else
-				slot13 = true
-			end
-
-			slot11(slot12, slot13)
-
-			slot11 = setActive
-			slot12 = findTF
-			slot13 = slot8
-			slot14 = "lock"
-			slot12 = slot12(slot13, slot14)
-			slot13 = ShipBluePrint
-			slot13 = slot13.TASK_STATE_LOCK
-
-			if slot10 ~= slot13 then
-				slot13 = ShipBluePrint
-				slot13 = slot13.TASK_STATE_WAIT
-
-				if slot10 ~= slot13 then
-					slot13 = false
-				end
-			else
-				slot13 = true
-			end
-
-			slot11(slot12, slot13)
-
-			slot11 = setActive
-			slot12 = findTF
-			slot13 = slot8
-			slot14 = "working"
-			slot12 = slot12(slot13, slot14)
-			slot13 = ShipBluePrint
-			slot13 = slot13.TASK_STATE_ACHIEVED
-
-			if slot10 ~= slot13 then
-				slot13 = ShipBluePrint
-				slot13 = slot13.TASK_STATE_OPENING
-
-				if slot10 ~= slot13 then
-					slot13 = ShipBluePrint
-					slot13 = slot13.TASK_STATE_START
-
-					if slot10 ~= slot13 then
-						slot13 = false
-					end
-				end
-			else
-				slot13 = true
-			end
-
-			slot11(slot12, slot13)
+			setActive(findTF(slot8, "complete"), slot1:getTaskStateById(slot2[slot7]) == ShipBluePrint.TASK_STATE_FINISHED)
+			setActive(findTF(slot8, "lock"), slot10 == ShipBluePrint.TASK_STATE_LOCK or slot10 == ShipBluePrint.TASK_STATE_WAIT)
+			setActive(findTF(slot8, "working"), slot10 == ShipBluePrint.TASK_STATE_ACHIEVED or slot10 == ShipBluePrint.TASK_STATE_OPENING or slot10 == ShipBluePrint.TASK_STATE_START)
 		end
 	end
 end
 
-slot0.updateTasksProgress = slot10
+function slot0.updatePainting(slot0)
+	slot2 = slot0.contextData.shipBluePrintVO:getShipVO()
 
-function slot10(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.shipBluePrintVO
-	slot3 = slot1
-	slot2 = slot1.getShipVO
-	slot2 = slot2(slot3)
-	slot3 = slot0.lastPaintingName
-
-	if slot3 then
-		slot3 = slot0.lastPaintingName
-		slot5 = slot2
-		slot4 = slot2.getPainting
-		slot4 = slot4(slot5)
-
-		if slot3 ~= slot4 then
-			slot3 = retPaintingPrefab
-			slot4 = slot0.painting
-			slot5 = slot0.lastPaintingName
-
-			slot3(slot4, slot5)
-		end
+	if slot0.lastPaintingName and slot0.lastPaintingName ~= slot2:getPainting() then
+		retPaintingPrefab(slot0.painting, slot0.lastPaintingName)
 	end
 
-	slot4 = slot2
-	slot3 = slot2.getPainting
-	slot3 = slot3(slot4)
-	slot4 = setPaintingPrefab
-	slot5 = slot0.painting
-	slot6 = slot3
-	slot7 = "tuzhi"
+	slot3 = slot2:getPainting()
 
-	slot4(slot5, slot6, slot7)
+	setPaintingPrefab(slot0.painting, slot3, "tuzhi")
 
 	slot0.lastPaintingName = slot3
-	slot5 = slot0
-	slot4 = slot0.paintBreath
 
-	slot4(slot5)
+	slot0:paintBreath()
 end
 
-slot0.updatePainting = slot10
+function slot0.updateProperty(slot0)
+	slot2 = slot0.contextData.shipBluePrintVO:getShipVO()
 
-function slot10(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.shipBluePrintVO
-	slot3 = slot1
-	slot2 = slot1.getShipVO
-	slot2 = slot2(slot3)
-	slot3 = slot0.propertyPanel
-	slot4 = slot3
-	slot3 = slot3.initProperty
-	slot5 = slot2.configId
-	slot6 = PropertyPanel
-	slot6 = slot6.TypeFlat
+	slot0.propertyPanel:initProperty(slot2.configId, PropertyPanel.TypeFlat)
 
-	slot3(slot4, slot5, slot6)
-
-	slot3 = uv0
-	slot4 = slot2.configId
-	slot3 = slot3[slot4]
-	slot4 = slot3.buff_list_display
-	slot5 = slot0.skillPanel
-	slot5 = slot5.childCount
-	slot6 = slot5
-	slot7 = #slot4
-	slot7 = slot7 - 1
-	slot8 = 1
-
-	for slot9 = slot6, slot7, slot8 do
-		slot10 = cloneTplTo
-		slot11 = slot0.skillTpl
-		slot12 = slot0.skillPanel
-
-		slot10(slot11, slot12)
+	for slot9 = slot0.skillPanel.childCount, #uv0[slot2.configId].buff_list_display - 1 do
+		cloneTplTo(slot0.skillTpl, slot0.skillPanel)
 	end
 
-	slot6 = slot0.skillPanel
-	slot5 = slot6.childCount
-	slot6 = 1
-	slot7 = slot5
-	slot8 = 1
-
-	for slot9 = slot6, slot7, slot8 do
-		slot10 = slot0.skillPanel
-		slot11 = slot10
-		slot10 = slot10.GetChild
-		slot12 = slot9 - 1
-		slot10 = slot10(slot11, slot12)
-		slot11 = #slot4
-
-		if slot9 > slot11 then
-			slot11 = false
-		else
-			slot11 = true
+	for slot9 = 1, slot0.skillPanel.childCount do
+		if slot9 <= #slot4 then
+			LoadImageSpriteAsync("skillicon/" .. getSkillConfig(slot4[slot9]).icon, findTF(slot0.skillPanel:GetChild(slot9 - 1), "icon"))
+			onButton(slot0, slot10, function ()
+				uv0:emit(ShipBluePrintMediator.SHOW_SKILL_INFO, uv1.id, {
+					id = uv1.id,
+					level = pg.skill_data_template[uv1.id].max_level
+				}, function ()
+				end)
+			end, SFX_PANEL)
 		end
 
-		slot12 = findTF
-		slot13 = slot10
-		slot14 = "icon"
-		slot12 = slot12(slot13, slot14)
-
-		if slot11 then
-			slot13 = slot4[slot9]
-			slot14 = getSkillConfig
-			slot15 = slot13
-			slot14 = slot14(slot15)
-			slot15 = LoadImageSpriteAsync
-			slot16 = "skillicon/"
-			slot17 = slot14.icon
-			slot16 = slot16 .. slot17
-			slot17 = slot12
-
-			slot15(slot16, slot17)
-
-			slot15 = onButton
-			slot16 = slot0
-			slot17 = slot10
-
-			function slot18()
-				slot0 = uv0
-				slot1 = slot0
-				slot0 = slot0.emit
-				slot2 = ShipBluePrintMediator
-				slot2 = slot2.SHOW_SKILL_INFO
-				slot3 = uv1
-				slot3 = slot3.id
-				slot4 = {}
-				slot5 = uv1
-				slot5 = slot5.id
-				slot4.id = slot5
-				slot5 = pg
-				slot5 = slot5.skill_data_template
-				slot6 = uv1
-				slot6 = slot6.id
-				slot5 = slot5[slot6]
-				slot5 = slot5.max_level
-				slot4.level = slot5
-
-				function slot5()
-				end
-
-				slot0(slot1, slot2, slot3, slot4, slot5)
-			end
-
-			slot19 = SFX_PANEL
-
-			slot15(slot16, slot17, slot18, slot19)
-		end
-
-		slot13 = setActive
-		slot14 = slot10
-		slot15 = slot11
-
-		slot13(slot14, slot15)
+		setActive(slot10, slot11)
 	end
 
-	slot6 = setActive
-	slot7 = slot0.skillArrLeft
-	slot8 = #slot4
-	slot9 = 3
+	setActive(slot0.skillArrLeft, #slot4 > 3)
+	setActive(slot0.skillArrRight, #slot4 > 3)
 
-	if slot8 <= slot9 then
-		slot8 = false
+	if #slot4 > 3 then
+		onScroll(slot0, slot0.skillRect, function (slot0)
+			setActive(uv0.skillArrLeft, slot0.x > 0.01)
+			setActive(uv0.skillArrRight, slot0.x < 0.99)
+		end)
 	else
-		slot8 = true
+		GetComponent(slot0.skillRect, typeof(ScrollRect)).onValueChanged:RemoveAllListeners()
 	end
 
-	slot6(slot7, slot8)
-
-	slot6 = setActive
-	slot7 = slot0.skillArrRight
-	slot8 = #slot4
-	slot9 = 3
-
-	if slot8 <= slot9 then
-		slot8 = false
-	else
-		slot8 = true
-	end
-
-	slot6(slot7, slot8)
-
-	slot6 = #slot4
-	slot7 = 3
-
-	if slot6 > slot7 then
-		slot6 = onScroll
-		slot7 = slot0
-		slot8 = slot0.skillRect
-
-		function slot9(slot0)
-			slot1 = setActive
-			slot2 = uv0
-			slot2 = slot2.skillArrLeft
-			slot3 = slot0.x
-			slot4 = 0.01
-
-			if slot3 <= slot4 then
-				slot3 = false
-			else
-				slot3 = true
-			end
-
-			slot1(slot2, slot3)
-
-			slot1 = setActive
-			slot2 = uv0
-			slot2 = slot2.skillArrRight
-			slot3 = slot0.x
-			slot4 = 0.99
-
-			if slot3 >= slot4 then
-				slot3 = false
-			else
-				slot3 = true
-			end
-
-			slot1(slot2, slot3)
-		end
-
-		slot6(slot7, slot8, slot9)
-	else
-		slot6 = GetComponent
-		slot7 = slot0.skillRect
-		slot8 = typeof
-		slot9 = ScrollRect
-		slot6 = slot6(slot7, slot8(slot9))
-		slot6 = slot6.onValueChanged
-		slot8 = slot6
-		slot7 = slot6.RemoveAllListeners
-
-		slot7(slot8)
-	end
-
-	slot6 = setAnchoredPosition
-	slot7 = slot0.skillPanel
-	slot8 = {
+	setAnchoredPosition(slot0.skillPanel, {
 		x = 0
-	}
-
-	slot6(slot7, slot8)
-
-	slot7 = slot1
-	slot6 = slot1.getConfig
-	slot8 = "simulate_dungeon"
-	slot6 = slot6(slot7, slot8)
-	slot7 = setActive
-	slot8 = slot0.simulationBtn
-
-	if slot6 == 0 then
-		slot9 = false
-	else
-		slot9 = true
-	end
-
-	slot7(slot8, slot9)
-
-	slot7 = onButton
-	slot8 = slot0
-	slot9 = slot0.simulationBtn
-
-	function slot10()
-		slot0 = uv0
-
-		if slot0 == 0 then
-			slot0 = pg
-			slot0 = slot0.TipsMgr
-			slot0 = slot0.GetInstance
-			slot0 = slot0()
-			slot1 = slot0
-			slot0 = slot0.ShowTips
-			slot2 = i18n
-			slot3 = "tech_simulate_closed"
-
-			slot0(slot1, slot2(slot3))
+	})
+	setActive(slot0.simulationBtn, slot1:getConfig("simulate_dungeon") ~= 0)
+	onButton(slot0, slot0.simulationBtn, function ()
+		if uv0 == 0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("tech_simulate_closed"))
 		else
-			slot0 = i18n
-			slot1 = "blueprint_simulation_confirm_"
-			slot2 = uv1
-			slot2 = slot2.id
-			slot1 = slot1 .. slot2
-			slot0 = slot0(slot1)
-			slot1 = pg
-			slot1 = slot1.MsgboxMgr
-			slot1 = slot1.GetInstance
-			slot1 = slot1()
-			slot2 = slot1
-			slot1 = slot1.ShowMsgBox
-			slot3 = {
-				content = slot0
-			}
-
-			function slot4()
-				slot0 = uv0
-				slot1 = slot0
-				slot0 = slot0.emit
-				slot2 = ShipBluePrintMediator
-				slot2 = slot2.SIMULATION_BATTLE
-				slot3 = uv1
-
-				slot0(slot1, slot2, slot3)
-			end
-
-			slot3.onYes = slot4
-
-			slot1(slot2, slot3)
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("blueprint_simulation_confirm_" .. uv1.id),
+				onYes = function ()
+					uv0:emit(ShipBluePrintMediator.SIMULATION_BATTLE, uv1)
+				end
+			})
 		end
-	end
-
-	slot11 = SFX_CONFIRM
-
-	slot7(slot8, slot9, slot10, slot11)
+	end, SFX_CONFIRM)
 end
 
-slot0.updateProperty = slot10
-
-function slot10(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.shipBluePrintVO
-	slot3 = slot1
-	slot2 = slot1.getTaskIds
-	slot2 = slot2(slot3)
-	slot3 = slot0.taskContainer
-	slot3 = slot3.childCount
-	slot4 = slot3
-	slot5 = #slot2
-	slot6 = 1
-
-	for slot7 = slot4, slot5, slot6 do
-		slot8 = cloneTplTo
-		slot9 = slot0.taskTpl
-		slot10 = slot0.taskContainer
-
-		slot8(slot9, slot10)
+function slot0.updateTaskList(slot0)
+	for slot7 = slot0.taskContainer.childCount, #slot0.contextData.shipBluePrintVO:getTaskIds() do
+		cloneTplTo(slot0.taskTpl, slot0.taskContainer)
 	end
 
-	slot4 = slot0.taskContainer
-	slot3 = slot4.childCount
-	slot4 = 1
-	slot5 = slot3
-	slot6 = 1
+	for slot7 = 1, slot0.taskContainer.childCount do
+		setActive(slot0.taskContainer:GetChild(slot7 - 1), slot7 <= #slot2)
 
-	for slot7 = slot4, slot5, slot6 do
-		slot8 = slot0.taskContainer
-		slot9 = slot8
-		slot8 = slot8.GetChild
-		slot10 = slot7 - 1
-		slot8 = slot8(slot9, slot10)
-		slot9 = setActive
-		slot10 = slot8
-		slot11 = #slot2
-
-		if slot7 > slot11 then
-			slot11 = false
-		else
-			slot11 = true
+		if slot0.taskTFs[slot7] then
+			slot0.taskTFs[slot7]:clear()
 		end
 
-		slot9(slot10, slot11)
-
-		slot9 = slot0.taskTFs
-		slot9 = slot9[slot7]
-
-		if slot9 then
-			slot9 = slot0.taskTFs
-			slot9 = slot9[slot7]
-			slot10 = slot9
-			slot9 = slot9.clear
-
-			slot9(slot10)
-		end
-
-		slot9 = #slot2
-
-		if slot7 <= slot9 then
-			slot9 = slot0.taskTFs
-			slot9 = slot9[slot7]
-
-			if not slot9 then
-				slot9 = slot0.taskTFs
-				slot11 = slot0
-				slot10 = slot0.createTask
-				slot12 = slot8
-				slot10 = slot10(slot11, slot12)
-				slot9[slot7] = slot10
+		if slot7 <= #slot2 then
+			if not slot0.taskTFs[slot7] then
+				slot0.taskTFs[slot7] = slot0:createTask(slot8)
 			end
 
-			slot9 = slot2[slot7]
-			slot11 = slot0
-			slot10 = slot0.getTaskById
-			slot12 = slot9
-			slot10 = slot10(slot11, slot12)
-			slot11 = slot1.duration
-			slot12 = 0
+			slot10 = slot0:getTaskById(slot2[slot7])
 
-			if slot11 > slot12 then
-				slot12 = slot1
-				slot11 = slot1.getTaskOpenTimeStamp
-				slot13 = slot9
-				slot11 = slot11(slot12, slot13)
-				slot12 = slot1.duration
-				slot12 = slot11 - slot12
-				slot10.leftTime = slot12
+			if slot1.duration > 0 then
+				slot10.leftTime = slot1:getTaskOpenTimeStamp(slot9) - slot1.duration
 			end
 
-			slot12 = slot1
-			slot11 = slot1.getTaskStateById
-			slot13 = slot9
-			slot11 = slot11(slot12, slot13)
-			slot10.taskState = slot11
-			slot12 = slot1
-			slot11 = slot1.getTaskOpenTimeStamp
-			slot13 = slot9
-			slot11 = slot11(slot12, slot13)
-			slot10.dueTime = slot11
+			slot10.taskState = slot1:getTaskStateById(slot9)
+			slot10.dueTime = slot1:getTaskOpenTimeStamp(slot9)
 			slot10.index = slot7
-			slot11 = slot0.taskTFs
-			slot11 = slot11[slot7]
-			slot12 = slot11
-			slot11 = slot11.update
-			slot13 = slot10
 
-			slot11(slot12, slot13)
+			slot0.taskTFs[slot7]:update(slot10)
 		end
 	end
 end
 
-slot0.updateTaskList = slot10
-
-function slot10(slot0, slot1)
-	slot2 = {}
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "title/name"
-	slot6 = slot1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.title = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "desc/Text"
-	slot6 = slot1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.desc = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "title/timer"
-	slot6 = slot1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.timerTF = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "title/timer/Text"
-	slot6 = slot1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.timerTFTxt = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "title/timer/open"
-	slot6 = slot1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.timerOpen = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "title/timer/close"
-	slot6 = slot1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.timerClose = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "title/slider/complete"
-	slot6 = slot1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.maskAchieved = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "title/tip"
-	slot6 = slot1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.tip = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "desc/commit_panel/commit_btn"
-	slot6 = slot1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.commitBtn = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "desc/item_info"
-	slot6 = slot1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.itemInfo = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "items"
-	slot6 = slot2.itemInfo
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.itemContainer = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "item_tpl"
-	slot6 = slot2.itemContainer
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.itemTpl = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "title/number"
-	slot6 = slot1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.numberTF = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "title/slider"
-	slot6 = slot1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.progressTF = slot3
-	slot3 = slot2.progressTF
-	slot4 = slot3
-	slot3 = slot3.GetComponent
-	slot5 = typeof
-	slot6 = Slider
-	slot3 = slot3(slot4, slot5(slot6))
-	slot2.progessSlider = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "desc/commit_panel/lock_btn"
-	slot6 = slot1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.lockBtn = slot3
-	slot3 = slot2.itemTpl
-	slot4 = slot3
-	slot3 = slot3.Find
-	slot5 = "award/icon_bg/count"
-	slot3 = slot3(slot4, slot5)
-	slot2.itemCount = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "desc/commit_panel/progress"
-	slot6 = slot1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.progres = slot3
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "title/shadow"
-	slot6 = slot1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.progreshadow = slot3
-	slot3 = findTF
-	slot4 = slot1
-	slot5 = "title/complete"
-	slot3 = slot3(slot4, slot5)
-	slot2.check = slot3
-	slot3 = findTF
-	slot4 = slot1
-	slot5 = "title/lock"
-	slot3 = slot3(slot4, slot5)
-	slot2.lock = slot3
-	slot3 = findTF
-	slot4 = slot1
-	slot5 = "title/working"
-	slot3 = slot3(slot4, slot5)
-	slot2.working = slot3
-	slot3 = findTF
-	slot4 = slot1
-	slot5 = "title/pause"
-	slot3 = slot3(slot4, slot5)
-	slot2.pause = slot3
-	slot3 = findTF
-	slot4 = slot1
-	slot5 = "title/pause_lock"
-	slot3 = slot3(slot4, slot5)
-	slot2.pauseLock = slot3
+function slot0.createTask(slot0, slot1)
+	slot2 = {
+		title = slot0:findTF("title/name", slot1),
+		desc = slot0:findTF("desc/Text", slot1),
+		timerTF = slot0:findTF("title/timer", slot1),
+		timerTFTxt = slot0:findTF("title/timer/Text", slot1),
+		timerOpen = slot0:findTF("title/timer/open", slot1),
+		timerClose = slot0:findTF("title/timer/close", slot1),
+		maskAchieved = slot0:findTF("title/slider/complete", slot1),
+		tip = slot0:findTF("title/tip", slot1),
+		commitBtn = slot0:findTF("desc/commit_panel/commit_btn", slot1),
+		itemInfo = slot0:findTF("desc/item_info", slot1)
+	}
+	slot2.itemContainer = slot0:findTF("items", slot2.itemInfo)
+	slot2.itemTpl = slot0:findTF("item_tpl", slot2.itemContainer)
+	slot2.numberTF = slot0:findTF("title/number", slot1)
+	slot2.progressTF = slot0:findTF("title/slider", slot1)
+	slot2.progessSlider = slot2.progressTF:GetComponent(typeof(Slider))
+	slot2.lockBtn = slot0:findTF("desc/commit_panel/lock_btn", slot1)
+	slot2.itemCount = slot2.itemTpl:Find("award/icon_bg/count")
+	slot2.progres = slot0:findTF("desc/commit_panel/progress", slot1)
+	slot2.progreshadow = slot0:findTF("title/shadow", slot1)
+	slot2.check = findTF(slot1, "title/complete")
+	slot2.lock = findTF(slot1, "title/lock")
+	slot2.working = findTF(slot1, "title/working")
+	slot2.pause = findTF(slot1, "title/pause")
+	slot2.pauseLock = findTF(slot1, "title/pause_lock")
 	slot2.view = slot0
-	slot3 = onToggle
-	slot4 = slot0
-	slot5 = slot1
 
-	function slot6(slot0)
-		slot1 = setActive
-		slot2 = uv0
-		slot2 = slot2.desc
-		slot3 = slot0
-
-		slot1(slot2, slot3)
-
-		slot1 = setActive
-		slot2 = uv0
-		slot2 = slot2.progreshadow
-		slot3 = slot0
-
-		slot1(slot2, slot3)
+	onToggle(slot0, slot1, function (slot0)
+		setActive(uv0.desc, slot0)
+		setActive(uv0.progreshadow, slot0)
 
 		if slot0 then
-			slot1 = Canvas
-			slot1 = slot1.ForceUpdateCanvases
+			Canvas.ForceUpdateCanvases()
 
-			slot1()
-
-			slot1 = uv1
-			slot1 = slot1.taskContainer
-			slot1 = slot1.parent
-			slot1 = slot1.transform
-			slot2 = slot1
-			slot1 = slot1.InverseTransformPoint
-			slot3 = uv2
-			slot3 = slot3.position
-			slot1 = slot1(slot2, slot3)
-			slot1 = slot1.y
-			slot2 = uv2
-			slot2 = slot2.rect
-			slot2 = slot2.height
-			slot2 = slot1 - slot2
-			slot3 = uv1
-			slot3 = slot3.taskContainer
-			slot3 = slot3.parent
-			slot3 = slot3.transform
-			slot3 = slot3.rect
 			slot4 = 0
-			slot5 = slot3.yMin
 
-			if slot2 < slot5 then
-				slot5 = slot3.yMin
-				slot4 = slot5 - slot2
+			if uv1.taskContainer.parent.transform:InverseTransformPoint(uv2.position).y - uv2.rect.height < uv1.taskContainer.parent.transform.rect.yMin then
+				slot4 = slot3.yMin - slot2
 			end
 
-			slot5 = slot3.yMax
-
-			if slot5 < slot1 then
-				slot5 = slot3.yMax
-				slot4 = slot5 - slot1
+			if slot3.yMax < slot1 then
+				slot4 = slot3.yMax - slot1
 			end
 
-			slot5 = uv1
-			slot5 = slot5.taskContainer
-			slot5 = slot5.localPosition
-			slot6 = slot5.y
-			slot6 = slot6 + slot4
-			slot5.y = slot6
-			slot6 = uv1
-			slot6 = slot6.taskContainer
-			slot6.localPosition = slot5
-			slot6 = uv0
-			slot6 = slot6.progreshadow
-			slot7 = Vector3
-			slot8 = 39
-			slot9 = uv0
-			slot9 = slot9.desc
-			slot9 = slot9.rect
-			slot9 = slot9.height
-			slot9 = 148 + slot9
-			slot9 = slot9 - 150
-			slot9 = -slot9
-			slot7 = slot7(slot8, slot9)
-			slot6.localPosition = slot7
+			slot5 = uv1.taskContainer.localPosition
+			slot5.y = slot5.y + slot4
+			uv1.taskContainer.localPosition = slot5
+			uv0.progreshadow.localPosition = Vector3(39, -(148 + uv0.desc.rect.height - 150))
 		end
+	end, SFX_PANEL)
+
+	function slot2.update(slot0, slot1)
+		slot0:clearTimer()
+
+		slot0.autoCommit = true
+		slot0.isExpTask = false
+
+		removeOnButton(slot0.commitBtn)
+		slot0:updateItemInfo(slot1)
+		slot0:updateView(slot1)
+		slot0:updateProgress(slot1)
 	end
 
-	slot7 = SFX_PANEL
-
-	slot3(slot4, slot5, slot6, slot7)
-
-	function slot3(slot0, slot1)
-		slot3 = slot0
-		slot2 = slot0.clearTimer
-
-		slot2(slot3)
-
-		slot2 = true
-		slot0.autoCommit = slot2
-		slot2 = false
-		slot0.isExpTask = slot2
-		slot2 = removeOnButton
-		slot3 = slot0.commitBtn
-
-		slot2(slot3)
-
-		slot3 = slot0
-		slot2 = slot0.updateItemInfo
-		slot4 = slot1
-
-		slot2(slot3, slot4)
-
-		slot3 = slot0
-		slot2 = slot0.updateView
-		slot4 = slot1
-
-		slot2(slot3, slot4)
-
-		slot3 = slot0
-		slot2 = slot0.updateProgress
-		slot4 = slot1
-
-		slot2(slot3, slot4)
-	end
-
-	slot2.update = slot3
-
-	function slot3(slot0, slot1)
+	function slot2.updateItemInfo(slot0, slot1)
 		slot0.taskVO = slot1
-		slot2 = setText
-		slot3 = slot0.title
-		slot5 = slot1
-		slot4 = slot1.getConfig
-		slot6 = "name"
 
-		slot2(slot3, slot4(slot5, slot6))
-
-		slot2 = setText
-		slot3 = slot0.desc
-		slot5 = slot1
-		slot4 = slot1.getConfig
-		slot6 = "desc"
-		slot4 = slot4(slot5, slot6)
-		slot5 = "\n\n"
-		slot4 = slot4 .. slot5
-
-		slot2(slot3, slot4)
+		setText(slot0.title, slot1:getConfig("name"))
+		setText(slot0.desc, slot1:getConfig("desc") .. "\n\n")
 
 		slot2 = nil
-		slot4 = slot1
-		slot3 = slot1.getConfig
-		slot5 = "target_num"
-		slot3 = slot3(slot4, slot5)
-		slot5 = slot1
-		slot4 = slot1.getConfig
-		slot6 = "sub_type"
-		slot4 = slot4(slot5, slot6)
-		slot5 = TASK_SUB_TYPE_GIVE_ITEM
+		slot3 = slot1:getConfig("target_num")
 
-		if slot4 == slot5 then
-			slot5 = false
-			slot0.autoCommit = slot5
-			slot6 = slot1
-			slot5 = slot1.getConfig
-			slot7 = "target_id_for_client"
-			slot5 = slot5(slot6, slot7)
-			slot2 = slot5
-		else
-			slot5 = TASK_SUB_TYPE_PLAYER_RES
-
-			if slot4 == slot5 then
-				slot5 = false
-				slot0.autoCommit = slot5
-				slot5 = id2ItemId
-				slot7 = slot1
-				slot6 = slot1.getConfig
-				slot8 = "target_id_for_client"
-				slot5 = slot5(slot6(slot7, slot8))
-				slot2 = slot5
-			else
-				slot5 = TASK_SUB_TYPE_BATTLE_EXP
-
-				if slot4 == slot5 then
-					slot5 = true
-					slot0.isExpTask = slot5
-					slot2 = 59000
-				end
-			end
+		if slot1:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
+			slot0.autoCommit = false
+			slot2 = slot1:getConfig("target_id_for_client")
+		elseif slot4 == TASK_SUB_TYPE_PLAYER_RES then
+			slot0.autoCommit = false
+			slot2 = id2ItemId(slot1:getConfig("target_id_for_client"))
+		elseif slot4 == TASK_SUB_TYPE_BATTLE_EXP then
+			slot0.isExpTask = true
+			slot2 = 59000
 		end
 
-		slot5 = setActive
-		slot6 = slot0.itemContainer
-		slot7 = slot0.autoCommit
-
-		if slot7 then
-			slot7 = slot0.isExpTask
-
-			if slot0.isExpTask then
-				slot7 = false
-			end
-		else
-			slot7 = true
-		end
-
-		slot5(slot6, slot7)
+		setActive(slot0.itemContainer, not slot0.autoCommit or slot0.isExpTask)
 
 		if slot2 then
-			slot5 = updateDrop
-			slot6 = slot0.itemTpl
-			slot7 = slot6
-			slot6 = slot6.Find
-			slot8 = "award"
-			slot6 = slot6(slot7, slot8)
-			slot7 = {
+			updateDrop(slot0.itemTpl:Find("award"), {
 				type = 2,
 				id = slot2,
 				count = slot3
-			}
-
-			slot5(slot6, slot7)
-
-			slot5 = setText
-			slot6 = slot0.itemCount
-			slot7 = 1000
-
-			if slot3 > slot7 then
-				slot7 = math
-				slot7 = slot7.floor
-				slot8 = slot3 / 1000
-				slot7 = slot7(slot8)
-				slot8 = "K"
-				slot7 = slot7 .. slot8
-
-				if not slot7 then
-					slot7 = slot3
-				end
-			end
-
-			slot5(slot6, slot7)
+			})
+			setText(slot0.itemCount, slot3 > 1000 and math.floor(slot3 / 1000) .. "K" or slot3)
 		end
 
-		slot5 = setText
-		slot6 = slot0.numberTF
-		slot7 = slot1.index
-
-		slot5(slot6, slot7)
+		setText(slot0.numberTF, slot1.index)
 	end
 
-	slot2.updateItemInfo = slot3
-
-	function slot3(slot0, slot1)
-		slot2 = slot1.taskState
+	function slot2.updateView(slot0, slot1)
 		slot3 = false
 		slot4 = false
 		slot5 = false
-		slot6 = ShipBluePrint
-		slot6 = slot6.TASK_STATE_PAUSE
 
-		if slot2 == slot6 then
-			slot6 = slot1.leftTime
+		if slot1.taskState == ShipBluePrint.TASK_STATE_PAUSE and slot1.leftTime then
+			slot3 = getProxy(TaskProxy):getTaskVO(slot1.id) and slot6:isFinish()
+			slot5 = slot1.leftTime > 0
+			slot4 = slot6 and slot6:isReceive()
 
-			if slot6 then
-				slot6 = getProxy
-				slot7 = TaskProxy
-				slot6 = slot6(slot7)
-				slot7 = slot6
-				slot6 = slot6.getTaskVO
-				slot8 = slot1.id
-				slot6 = slot6(slot7, slot8)
-
-				if slot6 then
-					slot8 = slot6
-					slot7 = slot6.isFinish
-					slot7 = slot7(slot8)
-					slot3 = slot7
-				end
-
-				slot7 = slot1.leftTime
-				slot8 = 0
-
-				if slot7 <= slot8 then
-					slot5 = false
-				else
-					slot5 = true
-				end
-
-				if slot6 then
-					slot8 = slot6
-					slot7 = slot6.isReceive
-					slot7 = slot7(slot8)
-					slot4 = slot7
-				end
-
-				slot7 = slot1.leftTime
-				slot8 = 0
-
-				if slot7 > slot8 then
-					slot7 = setText
-					slot8 = uv0
-					slot8 = slot8.timerTFTxt
-					slot9 = pg
-					slot9 = slot9.TimeMgr
-					slot9 = slot9.GetInstance
-					slot9 = slot9()
-					slot10 = slot9
-					slot9 = slot9.DescCDTime
-					slot11 = slot1.leftTime
-
-					slot7(slot8, slot9(slot10, slot11))
-				end
+			if slot1.leftTime > 0 then
+				setText(uv0.timerTFTxt, pg.TimeMgr.GetInstance():DescCDTime(slot1.leftTime))
 			end
 		end
 
-		slot6 = setActive
-		slot7 = slot0.pause
-		slot8 = ShipBluePrint
-		slot8 = slot8.TASK_STATE_PAUSE
-
-		if slot8 ~= slot2 or slot3 or slot5 then
-			slot8 = ShipBluePrint
-			slot8 = slot8.TASK_STATE_PAUSE
-
-			if slot8 == slot2 and not slot5 then
-				if slot3 then
-					slot8 = slot0.autoCommit
-					slot8 = not slot8
-				end
-			else
-				slot8 = false
-			end
-		else
-			slot8 = true
-		end
-
-		slot6(slot7, slot8)
-
-		slot6 = setActive
-		slot7 = slot0.pauseLock
-		slot8 = ShipBluePrint
-		slot8 = slot8.TASK_STATE_PAUSE
-
-		if slot8 == slot2 and not slot3 then
-			slot8 = slot5
-		else
-			slot8 = false
-
-			if false then
-				slot8 = true
-			end
-		end
-
-		slot6(slot7, slot8)
-
-		slot6 = setActive
-		slot7 = slot0.lockBtn
-		slot8 = ShipBluePrint
-		slot8 = slot8.TASK_STATE_ACHIEVED
-
-		if slot2 ~= slot8 then
-			slot8 = ShipBluePrint
-			slot8 = slot8.TASK_STATE_START
-
-			if slot2 == slot8 then
-				slot8 = slot0.autoCommit
-				slot8 = not slot8
-				slot8 = not slot8
-			end
-		else
-			slot8 = false
-
-			if false then
-				slot8 = true
-			end
-		end
-
-		slot6(slot7, slot8)
-
-		slot6 = setActive
-		slot7 = slot0.commitBtn
-		slot8 = ShipBluePrint
-		slot8 = slot8.TASK_STATE_ACHIEVED
-
-		if slot2 ~= slot8 then
-			slot8 = ShipBluePrint
-			slot8 = slot8.TASK_STATE_START
-
-			if slot2 == slot8 then
-				slot8 = slot0.autoCommit
-				slot8 = not slot8
-			else
-				slot8 = false
-			end
-		else
-			slot8 = true
-		end
-
-		slot6(slot7, slot8)
-
-		slot6 = setActive
-		slot7 = slot0.progressTF
-		slot8 = ShipBluePrint
-		slot8 = slot8.TASK_STATE_ACHIEVED
-
-		if slot2 ~= slot8 then
-			slot8 = ShipBluePrint
-			slot8 = slot8.TASK_STATE_START
-
-			if slot2 ~= slot8 then
-				slot8 = ShipBluePrint
-				slot8 = slot8.TASK_STATE_FINISHED
-
-				if slot2 ~= slot8 then
-					slot8 = ShipBluePrint
-					slot8 = slot8.TASK_STATE_PAUSE
-
-					if slot2 == slot8 then
-						slot8 = not slot5
-					else
-						slot8 = false
-					end
-				end
-			end
-		else
-			slot8 = true
-		end
-
-		slot6(slot7, slot8)
-
-		slot6 = setActive
-		slot7 = slot0.lock
-		slot8 = ShipBluePrint
-		slot8 = slot8.TASK_STATE_LOCK
-
-		if slot2 ~= slot8 then
-			slot8 = ShipBluePrint
-			slot8 = slot8.TASK_STATE_WAIT
-
-			if slot2 ~= slot8 then
-				slot8 = false
-			end
-		else
-			slot8 = true
-		end
-
-		slot6(slot7, slot8)
-
-		slot6 = setActive
-		slot7 = slot0.working
-		slot8 = ShipBluePrint
-		slot8 = slot8.TASK_STATE_OPENING
-
-		if slot2 ~= slot8 then
-			slot8 = ShipBluePrint
-			slot8 = slot8.TASK_STATE_START
-
-			if slot2 ~= slot8 then
-				slot8 = ShipBluePrint
-				slot8 = slot8.TASK_STATE_ACHIEVED
-
-				if slot2 ~= slot8 then
-					slot8 = false
-				end
-			end
-		else
-			slot8 = true
-		end
-
-		slot6(slot7, slot8)
-
-		slot6 = setActive
-		slot7 = slot0.maskAchieved
-		slot8 = ShipBluePrint
-		slot8 = slot8.TASK_STATE_FINISHED
-
-		if slot2 ~= slot8 then
-			slot8 = ShipBluePrint
-			slot8 = slot8.TASK_STATE_PAUSE
-
-			if slot2 == slot8 then
-				slot8 = slot4
-			else
-				slot8 = false
-			end
-		else
-			slot8 = true
-		end
-
-		slot6(slot7, slot8)
-
-		slot6 = setActive
-		slot7 = slot0.timerTF
-		slot8 = ShipBluePrint
-		slot8 = slot8.TASK_STATE_WAIT
-
-		if slot2 ~= slot8 then
-			slot8 = ShipBluePrint
-			slot8 = slot8.TASK_STATE_PAUSE
-
-			if slot2 == slot8 then
-				slot8 = slot1.leftTime
-
-				if slot8 then
-					slot8 = slot1.leftTime
-					slot9 = 0
-
-					if slot8 <= slot9 then
-						slot8 = false
-					end
-				end
-			end
-		else
-			slot8 = true
-		end
-
-		slot6(slot7, slot8)
-
-		slot6 = setActive
-		slot7 = slot0.check
-		slot8 = slot0.autoCommit
-
-		if slot8 then
-			slot8 = TASK_STATE_ACHIEVED
-
-			if slot2 ~= slot8 then
-				slot8 = ShipBluePrint
-				slot8 = slot8.TASK_STATE_FINISHED
-
-				if slot2 ~= slot8 then
-					slot8 = ShipBluePrint
-					slot8 = slot8.TASK_STATE_PAUSE
-
-					if slot2 == slot8 then
-						slot8 = slot4
-					else
-						slot8 = false
-					end
-				end
-			else
-				slot8 = true
-			end
-		end
-
-		slot6(slot7, slot8)
-
-		slot6 = setActive
-		slot7 = slot0.tip
-		slot8 = ShipBluePrint
-		slot8 = slot8.TASK_STATE_ACHIEVED
-
-		if slot2 ~= slot8 then
-			slot8 = false
-		else
-			slot8 = true
-		end
-
-		slot6(slot7, slot8)
-
-		slot6 = setActive
-		slot7 = slot0.timerOpen
-		slot8 = ShipBluePrint
-		slot8 = slot8.TASK_STATE_WAIT
-
-		if slot2 ~= slot8 then
-			slot8 = false
-		else
-			slot8 = true
-		end
-
-		slot6(slot7, slot8)
-
-		slot6 = setActive
-		slot7 = slot0.timerClose
-		slot8 = ShipBluePrint
-		slot8 = slot8.TASK_STATE_PAUSE
-
-		if slot2 == slot8 then
-			slot8 = slot1.leftTime
-
-			if slot8 then
-				slot8 = slot1.leftTime
-				slot9 = 0
-
-				if slot8 <= slot9 then
-					slot8 = false
-				else
-					slot8 = true
-				end
-			end
-		end
-
-		slot6(slot7, slot8)
+		setActive(slot0.pause, ShipBluePrint.TASK_STATE_PAUSE == slot2 and not slot3 and not slot5 or ShipBluePrint.TASK_STATE_PAUSE == slot2 and not slot5 and slot3 and not slot0.autoCommit)
+		setActive(slot0.pauseLock, ShipBluePrint.TASK_STATE_PAUSE == slot2 and not slot3 and slot5)
+		setActive(slot0.lockBtn, slot2 ~= ShipBluePrint.TASK_STATE_ACHIEVED and (slot2 ~= ShipBluePrint.TASK_STATE_START or not not slot0.autoCommit))
+		setActive(slot0.commitBtn, slot2 == ShipBluePrint.TASK_STATE_ACHIEVED or slot2 == ShipBluePrint.TASK_STATE_START and not slot0.autoCommit)
+		setActive(slot0.progressTF, slot2 == ShipBluePrint.TASK_STATE_ACHIEVED or slot2 == ShipBluePrint.TASK_STATE_START or slot2 == ShipBluePrint.TASK_STATE_FINISHED or slot2 == ShipBluePrint.TASK_STATE_PAUSE and not slot5)
+		setActive(slot0.lock, slot2 == ShipBluePrint.TASK_STATE_LOCK or slot2 == ShipBluePrint.TASK_STATE_WAIT)
+		setActive(slot0.working, slot2 == ShipBluePrint.TASK_STATE_OPENING or slot2 == ShipBluePrint.TASK_STATE_START or slot2 == ShipBluePrint.TASK_STATE_ACHIEVED)
+		setActive(slot0.maskAchieved, slot2 == ShipBluePrint.TASK_STATE_FINISHED or slot2 == ShipBluePrint.TASK_STATE_PAUSE and slot4)
+		setActive(slot0.timerTF, slot2 == ShipBluePrint.TASK_STATE_WAIT or slot2 == ShipBluePrint.TASK_STATE_PAUSE and slot1.leftTime and slot1.leftTime > 0)
+		setActive(slot0.check, slot0.autoCommit and slot2 == TASK_STATE_ACHIEVED or slot2 == ShipBluePrint.TASK_STATE_FINISHED or slot2 == ShipBluePrint.TASK_STATE_PAUSE and slot4)
+		setActive(slot0.tip, slot2 == ShipBluePrint.TASK_STATE_ACHIEVED)
+		setActive(slot0.timerOpen, slot2 == ShipBluePrint.TASK_STATE_WAIT)
+		setActive(slot0.timerClose, slot2 == ShipBluePrint.TASK_STATE_PAUSE and slot1.leftTime and slot1.leftTime > 0)
 	end
 
-	slot2.updateView = slot3
+	function slot2.updateProgress(slot0, slot1)
+		slot3 = slot1:getProgress() / slot1:getConfig("target_num")
 
-	function slot3(slot0, slot1)
-		slot2 = slot1.taskState
-		slot4 = slot1
-		slot3 = slot1.getProgress
-		slot3 = slot3(slot4)
-		slot5 = slot1
-		slot4 = slot1.getConfig
-		slot6 = "target_num"
-		slot4 = slot4(slot5, slot6)
-		slot3 = slot3 / slot4
-		slot4 = ShipBluePrint
-		slot4 = slot4.TASK_STATE_WAIT
-
-		if slot2 == slot4 then
-			slot5 = slot0
-			slot4 = slot0.addTimer
-			slot6 = slot1
-			slot7 = slot1.dueTime
-
-			slot4(slot5, slot6, slot7)
+		if slot1.taskState == ShipBluePrint.TASK_STATE_WAIT then
+			slot0:addTimer(slot1, slot1.dueTime)
 
 			slot3 = 0
-		else
-			slot4 = ShipBluePrint
-			slot4 = slot4.TASK_STATE_OPENING
+		elseif slot2 == ShipBluePrint.TASK_STATE_OPENING then
+			slot3 = 0
 
-			if slot2 == slot4 then
-				slot3 = 0
-				slot4 = slot0.view
-				slot5 = slot4
-				slot4 = slot4.emit
-				slot6 = ShipBluePrintMediator
-				slot6 = slot6.ON_TASK_OPEN
-				slot7 = slot1.id
-
-				slot4(slot5, slot6, slot7)
-			else
-				slot4 = ShipBluePrint
-				slot4 = slot4.TASK_STATE_PAUSE
-
-				if slot2 == slot4 then
-					slot5 = slot1
-					slot4 = slot1.isReceive
-					slot4 = slot4(slot5)
-
-					if slot4 then
-						slot3 = 1
-					end
-				else
-					slot4 = ShipBluePrint
-					slot4 = slot4.TASK_STATE_LOCK
-
-					if slot2 == slot4 then
-						slot3 = 0
-					else
-						slot4 = ShipBluePrint
-						slot4 = slot4.TASK_STATE_ACHIEVED
-
-						if slot2 == slot4 then
-							slot4 = onButton
-							slot5 = slot0.view
-							slot6 = slot0.commitBtn
-
-							function slot7()
-								slot0 = uv0
-								slot0 = slot0.view
-								slot1 = slot0
-								slot0 = slot0.emit
-								slot2 = ShipBluePrintMediator
-								slot2 = slot2.ON_FINISH_TASK
-								slot3 = uv1
-								slot3 = slot3.id
-
-								slot0(slot1, slot2, slot3)
-							end
-
-							slot8 = SFX_PANEL
-
-							slot4(slot5, slot6, slot7, slot8)
-
-							slot3 = 1
-						else
-							slot4 = ShipBluePrint
-							slot4 = slot4.TASK_STATE_FINISHED
-
-							if slot2 == slot4 then
-								slot3 = 1
-							else
-								slot4 = ShipBluePrint
-								slot4 = slot4.TASK_STATE_START
-
-								if slot2 == slot4 then
-									slot4 = slot0.autoCommit
-
-									if not slot4 then
-										slot4 = onButton
-										slot5 = slot0.view
-										slot6 = slot0.commitBtn
-
-										function slot7()
-											slot0 = uv0
-											slot0 = slot0.view
-											slot1 = slot0
-											slot0 = slot0.emit
-											slot2 = ShipBluePrintMediator
-											slot2 = slot2.ON_FINISH_TASK
-											slot3 = uv1
-											slot3 = slot3.id
-
-											slot0(slot1, slot2, slot3)
-										end
-
-										slot8 = SFX_PANEL
-
-										slot4(slot5, slot6, slot7, slot8)
-
-										slot3 = 0
-									end
-								end
-							end
-						end
-					end
-				end
+			slot0.view:emit(ShipBluePrintMediator.ON_TASK_OPEN, slot1.id)
+		elseif slot2 == ShipBluePrint.TASK_STATE_PAUSE then
+			if slot1:isReceive() then
+				slot3 = 1
 			end
+		elseif slot2 == ShipBluePrint.TASK_STATE_LOCK then
+			slot3 = 0
+		elseif slot2 == ShipBluePrint.TASK_STATE_ACHIEVED then
+			onButton(slot0.view, slot0.commitBtn, function ()
+				uv0.view:emit(ShipBluePrintMediator.ON_FINISH_TASK, uv1.id)
+			end, SFX_PANEL)
+
+			slot3 = 1
+		elseif slot2 == ShipBluePrint.TASK_STATE_FINISHED then
+			slot3 = 1
+		elseif slot2 == ShipBluePrint.TASK_STATE_START and not slot0.autoCommit then
+			onButton(slot0.view, slot0.commitBtn, function ()
+				uv0.view:emit(ShipBluePrintMediator.ON_FINISH_TASK, uv1.id)
+			end, SFX_PANEL)
+
+			slot3 = 0
 		end
 
-		slot4 = slot0.progessSlider
-		slot4.value = slot3
-		slot4 = math
-		slot4 = slot4.floor
-		slot5 = slot3 * 100
-		slot4 = slot4(slot5)
-		slot5 = setText
-		slot6 = slot0.progres
-		slot7 = math
-		slot7 = slot7.ceil
-		slot8 = math
-		slot8 = slot8.min
-		slot9 = slot4
-		slot10 = 100
-		slot7 = slot7(slot8(slot9, slot10))
-		slot8 = "%"
-		slot7 = slot7 .. slot8
+		slot0.progessSlider.value = slot3
+		slot4 = math.floor(slot3 * 100)
 
-		slot5(slot6, slot7)
-
-		slot5 = setText
-		slot6 = slot0.progreshadow
-		slot7 = math
-		slot7 = slot7.min
-		slot8 = slot4
-		slot9 = 100
-		slot7 = slot7(slot8, slot9)
-		slot8 = "%"
-		slot7 = slot7 .. slot8
-
-		slot5(slot6, slot7)
+		setText(slot0.progres, math.ceil(math.min(slot4, 100)) .. "%")
+		setText(slot0.progreshadow, math.min(slot4, 100) .. "%")
 	end
 
-	slot2.updateProgress = slot3
-
-	function slot3(slot0, slot1, slot2)
+	function slot2.addTimer(slot0, slot1, slot2)
 		function slot3()
-			slot0 = uv0
-			slot1 = slot0
-			slot0 = slot0.clearTimer
-
-			slot0(slot1)
-
-			slot0 = setText
-			slot1 = uv0
-			slot1 = slot1.timerTFTxt
-			slot2 = "00:00:00"
-
-			slot0(slot1, slot2)
-
-			slot0 = uv0
-			slot0 = slot0.view
-			slot1 = slot0
-			slot0 = slot0.emit
-			slot2 = ShipBluePrintMediator
-			slot2 = slot2.ON_TASK_OPEN
-			slot3 = uv1
-			slot3 = slot3.id
-
-			slot0(slot1, slot2, slot3)
+			uv0:clearTimer()
+			setText(uv0.timerTFTxt, "00:00:00")
+			uv0.view:emit(ShipBluePrintMediator.ON_TASK_OPEN, uv1.id)
 		end
 
-		slot5 = slot0
-		slot4 = slot0.clearTimer
+		slot0:clearTimer()
 
-		slot4(slot5)
-
-		slot4 = Timer
-		slot4 = slot4.New
-
-		function slot5()
-			slot0 = pg
-			slot0 = slot0.TimeMgr
-			slot0 = slot0.GetInstance
-			slot0 = slot0()
-			slot1 = slot0
-			slot0 = slot0.GetServerTime
-			slot0 = slot0(slot1)
-			slot1 = uv0
-			slot1 = slot1 - slot0
-			slot2 = 0
-
-			if slot1 > slot2 then
-				slot2 = setText
-				slot3 = uv1
-				slot3 = slot3.timerTFTxt
-				slot4 = pg
-				slot4 = slot4.TimeMgr
-				slot4 = slot4.GetInstance
-				slot4 = slot4()
-				slot5 = slot4
-				slot4 = slot4.DescCDTime
-				slot6 = slot1
-
-				slot2(slot3, slot4(slot5, slot6))
+		slot0.taskTimer = Timer.New(function ()
+			if uv0 - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
+				setText(uv1.timerTFTxt, pg.TimeMgr.GetInstance():DescCDTime(slot1))
 			else
-				slot2 = uv2
-
-				slot2()
+				uv2()
 			end
-		end
+		end, 1, -1)
 
-		slot6 = 1
-		slot7 = -1
-		slot4 = slot4(slot5, slot6, slot7)
-		slot0.taskTimer = slot4
-		slot4 = slot0.taskTimer
-		slot5 = slot4
-		slot4 = slot4.Start
-
-		slot4(slot5)
-
-		slot4 = slot0.taskTimer
-		slot4 = slot4.func
-
-		slot4()
+		slot0.taskTimer:Start()
+		slot0.taskTimer.func()
 	end
 
-	slot2.addTimer = slot3
+	function slot2.clearTimer(slot0)
+		if slot0.taskTimer then
+			slot0.taskTimer:Stop()
 
-	function slot3(slot0)
-		slot1 = slot0.taskTimer
-
-		if slot1 then
-			slot1 = slot0.taskTimer
-			slot2 = slot1
-			slot1 = slot1.Stop
-
-			slot1(slot2)
-
-			slot1 = nil
-			slot0.taskTimer = slot1
+			slot0.taskTimer = nil
 		end
 	end
 
-	slot2.clearTimer = slot3
-
-	function slot3(slot0)
-		slot2 = slot0
-		slot1 = slot0.clearTimer
-
-		slot1(slot2)
+	function slot2.clear(slot0)
+		slot0:clearTimer()
 	end
-
-	slot2.clear = slot3
 
 	return slot2
 end
 
-slot0.createTask = slot10
+function slot0.openPreView(slot0)
+	if slot0.contextData.shipBluePrintVO then
+		setActive(slot0.preViewer, true)
+		setParent(slot0.blurPanel, slot0._tf)
+		pg.UIMgr.GetInstance():BlurPanel(slot0.preViewer)
+		slot0:playLoadingAni()
 
-function slot10(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.shipBluePrintVO
+		slot0.viewShipVO = slot1:getShipVO()
+		slot0.breakIds = slot0:getStages(slot0.viewShipVO)
 
-	if slot1 then
-		slot2 = setActive
-		slot3 = slot0.preViewer
-		slot4 = true
+		for slot5 = 1, uv0 do
+			slot7 = uv1[slot0.breakIds[slot5]]
 
-		slot2(slot3, slot4)
-
-		slot2 = setParent
-		slot3 = slot0.blurPanel
-		slot4 = slot0._tf
-
-		slot2(slot3, slot4)
-
-		slot2 = pg
-		slot2 = slot2.UIMgr
-		slot2 = slot2.GetInstance
-		slot2 = slot2()
-		slot3 = slot2
-		slot2 = slot2.BlurPanel
-		slot4 = slot0.preViewer
-
-		slot2(slot3, slot4)
-
-		slot3 = slot0
-		slot2 = slot0.playLoadingAni
-
-		slot2(slot3)
-
-		slot3 = slot1
-		slot2 = slot1.getShipVO
-		slot2 = slot2(slot3)
-		slot0.viewShipVO = slot2
-		slot3 = slot0
-		slot2 = slot0.getStages
-		slot4 = slot0.viewShipVO
-		slot2 = slot2(slot3, slot4)
-		slot0.breakIds = slot2
-		slot2 = 1
-		slot3 = uv0
-		slot4 = 1
-
-		for slot5 = slot2, slot3, slot4 do
-			slot6 = slot0.breakIds
-			slot6 = slot6[slot5]
-			slot7 = uv1
-			slot7 = slot7[slot6]
-			slot9 = slot0
-			slot8 = slot0.findTF
-			slot10 = "stage"
-			slot11 = slot5
-			slot10 = slot10 .. slot11
-			slot11 = slot0.stages
-			slot8 = slot8(slot9, slot10, slot11)
-			slot9 = onToggle
-			slot10 = slot0
-			slot11 = slot8
-
-			function slot12(slot0)
+			onToggle(slot0, slot0:findTF("stage" .. slot5, slot0.stages), function (slot0)
 				if slot0 then
-					slot1 = setText
-					slot2 = uv0
-					slot2 = slot2.breakView
-					slot3 = uv1
-					slot4 = uv2
-					slot3 = slot3[slot4]
-					slot3 = slot3.breakout_view
-
-					slot1(slot2, slot3)
-
-					slot1 = uv0
-					slot2 = slot1
-					slot1 = slot1.switchStage
-					slot3 = uv2
-
-					slot1(slot2, slot3)
+					setText(uv0.breakView, uv1[uv2].breakout_view)
+					uv0:switchStage(uv2)
 				end
-			end
-
-			slot13 = SFX_PANEL
-
-			slot9(slot10, slot11, slot12, slot13)
+			end, SFX_PANEL)
 
 			if slot5 == 1 then
-				slot9 = triggerToggle
-				slot10 = slot8
-				slot11 = true
-
-				slot9(slot10, slot11)
+				triggerToggle(slot8, true)
 			end
 		end
 
-		slot2 = true
-		slot0.isShowPreview = slot2
-		slot3 = slot0
-		slot2 = slot0.updateMaxLevelAttrs
-		slot4 = slot1
+		slot0.isShowPreview = true
 
-		slot2(slot3, slot4)
+		slot0:updateMaxLevelAttrs(slot1)
 	end
 end
 
-slot0.openPreView = slot10
-slot10 = {}
-slot11 = AttributeType
-slot11 = slot11.Durability
-slot10[1] = slot11
-slot11 = AttributeType
-slot11 = slot11.Cannon
-slot10[2] = slot11
-slot11 = AttributeType
-slot11 = slot11.Torpedo
-slot10[3] = slot11
-slot11 = AttributeType
-slot11 = slot11.AntiAircraft
-slot10[4] = slot11
-slot11 = AttributeType
-slot11 = slot11.Air
-slot10[5] = slot11
-slot11 = AttributeType
-slot11 = slot11.Reload
-slot10[6] = slot11
-slot11 = AttributeType
-slot11 = slot11.ArmorType
-slot10[7] = slot11
-slot11 = AttributeType
-slot11 = slot11.Dodge
-slot10[8] = slot11
-slot0.MAX_LEVEL_ATTRS = slot10
+slot0.MAX_LEVEL_ATTRS = {
+	AttributeType.Durability,
+	AttributeType.Cannon,
+	AttributeType.Torpedo,
+	AttributeType.AntiAircraft,
+	AttributeType.Air,
+	AttributeType.Reload,
+	AttributeType.ArmorType,
+	AttributeType.Dodge
+}
 
-function slot10(slot0, slot1)
-	slot3 = slot1
-	slot2 = slot1.isFetched
-	slot2 = slot2(slot3)
-
-	if not slot2 then
+function slot0.updateMaxLevelAttrs(slot0, slot1)
+	if not slot1:isFetched() then
 		return
 	end
 
-	slot2 = slot0.shipVOs
-	slot3 = slot1.shipId
-	slot2 = slot2[slot3]
-	slot3 = Clone
-	slot4 = slot2
-	slot3 = slot3(slot4)
-	slot4 = 120
-	slot3.level = slot4
-	slot4 = Clone
-	slot5 = slot1
-	slot4 = slot4(slot5)
-	slot6 = slot1
-	slot5 = slot1.getMaxLevel
-	slot5 = slot5(slot6)
-	slot4.level = slot5
-	slot5 = intProperties
-	slot7 = slot4
-	slot6 = slot4.getShipProperties
-	slot8 = slot3
+	slot3 = Clone(slot0.shipVOs[slot1.shipId])
+	slot3.level = 120
+	slot4 = Clone(slot1)
+	slot4.level = slot1:getMaxLevel()
 	slot9 = false
-	slot5 = slot5(slot6(slot7, slot8, slot9))
-	slot6 = ipairs
-	slot7 = uv0
-	slot7 = slot7.MAX_LEVEL_ATTRS
-	slot6, slot7, slot8 = slot6(slot7)
+	slot5 = intProperties(slot4:getShipProperties(slot3, slot9))
 
-	for slot9, slot10 in slot6, slot7, slot8 do
-		slot11 = slot0.previewAttrContainer
-		slot12 = slot11
-		slot11 = slot11.Find
-		slot13 = slot10
-		slot11 = slot11(slot12, slot13)
-		slot12 = AttributeType
-		slot12 = slot12.ArmorType
-
-		if slot10 == slot12 then
-			slot12 = setText
-			slot14 = slot11
-			slot13 = slot11.Find
-			slot15 = "bg/value"
-			slot13 = slot13(slot14, slot15)
-			slot15 = slot2
-			slot14 = slot2.getShipArmorName
-
-			slot12(slot13, slot14(slot15))
+	for slot9, slot10 in ipairs(uv0.MAX_LEVEL_ATTRS) do
+		if slot10 == AttributeType.ArmorType then
+			setText(slot0.previewAttrContainer:Find(slot10):Find("bg/value"), slot2:getShipArmorName())
 		else
-			slot12 = setText
-			slot14 = slot11
-			slot13 = slot11.Find
-			slot15 = "bg/value"
-			slot13 = slot13(slot14, slot15)
-			slot14 = slot5[slot10]
-
-			if not slot14 then
-				slot14 = 0
-			end
-
-			slot12(slot13, slot14)
+			setText(slot11:Find("bg/value"), slot5[slot10] or 0)
 		end
 
-		slot12 = setText
-		slot14 = slot11
-		slot13 = slot11.Find
-		slot15 = "bg/name"
-		slot13 = slot13(slot14, slot15)
-		slot14 = AttributeType
-		slot14 = slot14.Type2Name
-		slot15 = slot10
-
-		slot12(slot13, slot14(slot15))
+		setText(slot11:Find("bg/name"), AttributeType.Type2Name(slot10))
 	end
 end
 
-slot0.updateMaxLevelAttrs = slot10
+function slot0.closePreview(slot0, slot1)
+	if slot0.previewer then
+		slot0.previewer:clear()
 
-function slot10(slot0, slot1)
-	slot2 = slot0.previewer
-
-	if slot2 then
-		slot2 = slot0.previewer
-		slot3 = slot2
-		slot2 = slot2.clear
-
-		slot2(slot3)
-
-		slot2 = nil
-		slot0.previewer = slot2
+		slot0.previewer = nil
 	end
 
-	slot2 = setActive
-	slot3 = slot0.preViewer
-	slot4 = false
-
-	slot2(slot3, slot4)
-
-	slot2 = setActive
-	slot3 = slot0.rawImage
-	slot4 = false
-
-	slot2(slot3, slot4)
+	setActive(slot0.preViewer, false)
+	setActive(slot0.rawImage, false)
 
 	if not slot1 then
-		slot2 = SetParent
-		slot3 = slot0.blurPanel
-		slot4 = pg
-		slot4 = slot4.UIMgr
-		slot4 = slot4.GetInstance
-		slot4 = slot4()
-		slot4 = slot4.OverlayMain
-
-		slot2(slot3, slot4)
+		SetParent(slot0.blurPanel, pg.UIMgr.GetInstance().OverlayMain)
 	end
 
-	slot2 = pg
-	slot2 = slot2.UIMgr
-	slot2 = slot2.GetInstance
-	slot2 = slot2()
-	slot3 = slot2
-	slot2 = slot2.UnblurPanel
-	slot4 = slot0.preViewer
-	slot5 = slot0._tf
+	pg.UIMgr.GetInstance():UnblurPanel(slot0.preViewer, slot0._tf)
 
-	slot2(slot3, slot4, slot5)
-
-	slot2 = nil
-	slot0.isShowPreview = slot2
+	slot0.isShowPreview = nil
 end
 
-slot0.closePreview = slot10
-
-function slot10(slot0)
-	slot1 = setActive
-	slot2 = slot0.seaLoading
-	slot3 = true
-
-	slot1(slot2, slot3)
+function slot0.playLoadingAni(slot0)
+	setActive(slot0.seaLoading, true)
 end
 
-slot0.playLoadingAni = slot10
-
-function slot10(slot0)
-	slot1 = setActive
-	slot2 = slot0.seaLoading
-	slot3 = false
-
-	slot1(slot2, slot3)
+function slot0.stopLoadingAni(slot0)
+	setActive(slot0.seaLoading, false)
 end
 
-slot0.stopLoadingAni = slot10
+function slot0.showBarrage(slot0)
+	slot0.previewer = WeaponPreviewer.New(slot0.rawImage)
 
-function slot10(slot0)
-	slot1 = WeaponPreviewer
-	slot1 = slot1.New
-	slot2 = slot0.rawImage
-	slot1 = slot1(slot2)
-	slot0.previewer = slot1
-	slot1 = slot0.previewer
-	slot2 = slot1
-	slot1 = slot1.configUI
-	slot3 = slot0.healTF
-
-	slot1(slot2, slot3)
-
-	slot1 = slot0.previewer
-	slot2 = slot1
-	slot1 = slot1.setDisplayWeapon
-	slot4 = slot0
-	slot3 = slot0.getWaponIdsById
-	slot5 = slot0.breakOutId
-
-	slot1(slot2, slot3(slot4, slot5))
-
-	slot1 = slot0.previewer
-	slot2 = slot1
-	slot1 = slot1.load
-	slot3 = 40000
-	slot4 = slot0.viewShipVO
-	slot6 = slot0
-	slot5 = slot0.getAllWeaponIds
-	slot5 = slot5(slot6)
-
-	function slot6()
-		slot0 = uv0
-		slot1 = slot0
-		slot0 = slot0.stopLoadingAni
-
-		slot0(slot1)
-	end
-
-	slot1(slot2, slot3, slot4, slot5, slot6)
+	slot0.previewer:configUI(slot0.healTF)
+	slot0.previewer:setDisplayWeapon(slot0:getWaponIdsById(slot0.breakOutId))
+	slot0.previewer:load(40000, slot0.viewShipVO, slot0:getAllWeaponIds(), function ()
+		uv0:stopLoadingAni()
+	end)
 end
 
-slot0.showBarrage = slot10
-
-function slot10(slot0, slot1)
-	slot2 = uv0
-	slot2 = slot2[slot1]
-	slot2 = slot2.weapon_ids
-
-	return slot2
+function slot0.getWaponIdsById(slot0, slot1)
+	return uv0[slot1].weapon_ids
 end
 
-slot0.getWaponIdsById = slot10
-
-function slot10(slot0)
+function slot0.getAllWeaponIds(slot0)
 	slot1 = {}
-	slot2 = ipairs
-	slot3 = slot0.breakIds
-	slot2, slot3, slot4 = slot2(slot3)
 
-	for slot5, slot6 in slot2, slot3, slot4 do
-		slot7 = Clone
-		slot8 = uv0
-		slot8 = slot8[slot6]
-		slot8 = slot8.weapon_ids
-		slot7 = slot7(slot8)
-		slot8 = {}
-
-		function slot9(slot0, slot1)
-			slot2 = ipairs
-			slot3 = slot0
-			slot2, slot3, slot4 = slot2(slot3)
-
-			for slot5, slot6 in slot2, slot3, slot4 do
-				slot7 = table
-				slot7 = slot7.contains
-				slot8 = slot1
-				slot9 = slot6
-				slot7 = slot7(slot8, slot9)
-
-				if not slot7 then
-					slot7 = table
-					slot7 = slot7.insert
-					slot8 = slot1
-					slot9 = slot6
-
-					slot7(slot8, slot9)
+	for slot5, slot6 in ipairs(slot0.breakIds) do
+		setmetatable(slot1, {
+			__add = function (slot0, slot1)
+				for slot5, slot6 in ipairs(slot0) do
+					if not table.contains(slot1, slot6) then
+						table.insert(slot1, slot6)
+					end
 				end
+
+				return slot1
 			end
+		})
 
-			return slot1
-		end
-
-		slot8.__add = slot9
-		slot9 = setmetatable
-		slot10 = slot1
-		slot11 = slot8
-
-		slot9(slot10, slot11)
-
-		slot1 = slot1 + slot7
+		slot1 = slot1 + Clone(uv0[slot6].weapon_ids)
 	end
 
 	return slot1
 end
 
-slot0.getAllWeaponIds = slot10
-
-function slot10(slot0, slot1)
+function slot0.getStages(slot0, slot1)
 	slot2 = {}
-	slot3 = math
-	slot3 = slot3.floor
-	slot4 = slot1.configId
-	slot4 = slot4 / 10
-	slot3 = slot3(slot4)
-	slot4 = 1
-	slot5 = 4
-	slot6 = 1
 
-	for slot7 = slot4, slot5, slot6 do
-		slot8 = tonumber
-		slot9 = slot3
-		slot10 = slot7
-		slot9 = slot9 .. slot10
-		slot8 = slot8(slot9)
-		slot9 = table
-		slot9 = slot9.insert
-		slot10 = slot2
-		slot11 = slot8
-
-		slot9(slot10, slot11)
+	for slot7 = 1, 4 do
+		table.insert(slot2, tonumber(math.floor(slot1.configId / 10) .. slot7))
 	end
 
 	return slot2
 end
 
-slot0.getStages = slot10
-
-function slot10(slot0, slot1)
-	slot2 = slot0.breakOutId
-
-	if slot2 == slot1 then
+function slot0.switchStage(slot0, slot1)
+	if slot0.breakOutId == slot1 then
 		return
 	end
 
 	slot0.breakOutId = slot1
-	slot2 = slot0.previewer
 
-	if slot2 then
-		slot2 = slot0.previewer
-		slot3 = slot2
-		slot2 = slot2.setDisplayWeapon
-		slot5 = slot0
-		slot4 = slot0.getWaponIdsById
-		slot6 = slot0.breakOutId
-
-		slot2(slot3, slot4(slot5, slot6))
+	if slot0.previewer then
+		slot0.previewer:setDisplayWeapon(slot0:getWaponIdsById(slot0.breakOutId))
 	end
 end
 
-slot0.switchStage = slot10
-
-function slot10(slot0)
-	slot1 = pairs
-	slot2 = slot0.taskTFs
-
-	if not slot2 then
-		slot2 = {}
-	end
-
-	slot1, slot2, slot3 = slot1(slot2)
-
-	for slot4, slot5 in slot1, slot2, slot3 do
-		slot7 = slot5
-		slot6 = slot5.clear
-
-		slot6(slot7)
+function slot0.clearTimers(slot0)
+	for slot4, slot5 in pairs(slot0.taskTFs or {}) do
+		slot5:clear()
 	end
 end
 
-slot0.clearTimers = slot10
+function slot0.cloneTplTo(slot0, slot1, slot2)
+	slot3 = tf(Instantiate(slot1))
 
-function slot10(slot0, slot1, slot2)
-	slot3 = tf
-	slot4 = Instantiate
-	slot5 = slot1
-	slot3 = slot3(slot4(slot5))
-	slot4 = SetActive
-	slot5 = slot3
-	slot6 = true
-
-	slot4(slot5, slot6)
-
-	slot5 = slot3
-	slot4 = slot3.SetParent
-	slot6 = tf
-	slot7 = slot2
-	slot6 = slot6(slot7)
-	slot7 = false
-
-	slot4(slot5, slot6, slot7)
+	SetActive(slot3, true)
+	slot3:SetParent(tf(slot2), false)
 
 	return slot3
 end
 
-slot0.cloneTplTo = slot10
-
-function slot10(slot0)
-	slot1 = slot0.isShowPreview
-
-	if slot1 then
-		slot2 = slot0
-		slot1 = slot0.closePreview
-		slot3 = true
-
-		slot1(slot2, slot3)
+function slot0.onBackPressed(slot0)
+	if slot0.isShowPreview then
+		slot0:closePreview(true)
 
 		return
 	end
 
-	slot1 = slot0.awakenPlay
-
-	if not slot1 then
-		slot2 = slot0
-		slot1 = slot0.inModAnim
-		slot1 = slot1(slot2)
-
-		if slot1 then
-			return
-		end
+	if slot0.awakenPlay or slot0:inModAnim() then
+		return
 	end
 
-	slot2 = slot0
-	slot1 = slot0.emit
-	slot3 = uv0
-	slot3 = slot3.ON_BACK_PRESSED
-
-	slot1(slot2, slot3)
+	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 
-slot0.onBackPressed = slot10
-
-function slot10(slot0)
-	slot1 = isActive
-	slot2 = slot0.msgPanel
-	slot1 = slot1(slot2)
-
-	if slot1 then
-		slot1 = pg
-		slot1 = slot1.UIMgr
-		slot1 = slot1.GetInstance
-		slot1 = slot1()
-		slot2 = slot1
-		slot1 = slot1.UnblurPanel
-		slot3 = slot0.msgPanel
-		slot4 = slot0._tf
-
-		slot1(slot2, slot3, slot4)
-
-		slot1 = setActive
-		slot2 = slot0.msgPanel
-		slot3 = false
-
-		slot1(slot2, slot3)
+function slot0.willExit(slot0)
+	if isActive(slot0.msgPanel) then
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.msgPanel, slot0._tf)
+		setActive(slot0.msgPanel, false)
 	end
 
-	slot1 = pg
-	slot1 = slot1.UIMgr
-	slot1 = slot1.GetInstance
-	slot1 = slot1()
-	slot2 = slot1
-	slot1 = slot1.UnOverlayPanel
-	slot3 = slot0.blurPanel
-	slot4 = slot0._tf
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	LeanTween.cancel(go(slot0.fittingAttrPanel))
 
-	slot1(slot2, slot3, slot4)
-
-	slot1 = LeanTween
-	slot1 = slot1.cancel
-	slot2 = go
-	slot3 = slot0.fittingAttrPanel
-
-	slot1(slot2(slot3))
-
-	slot1 = slot0.lastPaintingName
-
-	if slot1 then
-		slot1 = retPaintingPrefab
-		slot2 = slot0.painting
-		slot3 = slot0.lastPaintingName
-
-		slot1(slot2, slot3)
+	if slot0.lastPaintingName then
+		retPaintingPrefab(slot0.painting, slot0.lastPaintingName)
 	end
 
-	slot1 = pairs
-	slot2 = slot0.taskTFs
-
-	if not slot2 then
-		slot2 = {}
+	for slot4, slot5 in pairs(slot0.taskTFs or {}) do
+		slot5:clear()
 	end
 
-	slot1, slot2, slot3 = slot1(slot2)
+	slot0:closePreview(true)
+	slot0:clearLeanTween(true)
 
-	for slot4, slot5 in slot1, slot2, slot3 do
-		slot7 = slot5
-		slot6 = slot5.clear
-
-		slot6(slot7)
+	for slot4, slot5 in pairs(slot0.nameTxts) do
+		slot5:destroy()
 	end
 
-	slot2 = slot0
-	slot1 = slot0.closePreview
-	slot3 = true
+	slot0.nameTxts = nil
 
-	slot1(slot2, slot3)
+	if slot0.previewer then
+		slot0.previewer:clear()
 
-	slot2 = slot0
-	slot1 = slot0.clearLeanTween
-	slot3 = true
-
-	slot1(slot2, slot3)
-
-	slot1 = pairs
-	slot2 = slot0.nameTxts
-	slot1, slot2, slot3 = slot1(slot2)
-
-	for slot4, slot5 in slot1, slot2, slot3 do
-		slot7 = slot5
-		slot6 = slot5.destroy
-
-		slot6(slot7)
-	end
-
-	slot1 = nil
-	slot0.nameTxts = slot1
-	slot1 = slot0.previewer
-
-	if slot1 then
-		slot1 = slot0.previewer
-		slot2 = slot1
-		slot1 = slot1.clear
-
-		slot1(slot2)
-
-		slot1 = nil
-		slot0.previewer = slot1
+		slot0.previewer = nil
 	end
 end
 
-slot0.willExit = slot10
-
-function slot10(slot0)
-	slot1 = LeanTween
-	slot1 = slot1.cancel
-	slot2 = go
-	slot3 = slot0.painting
-
-	slot1(slot2(slot3))
-
-	slot1 = LeanTween
-	slot1 = slot1.moveY
-	slot2 = rtf
-	slot3 = slot0.painting
-	slot2 = slot2(slot3)
-	slot3 = uv0
-	slot4 = uv1
-	slot1 = slot1(slot2, slot3, slot4)
-	slot2 = slot1
-	slot1 = slot1.setLoopPingPong
-	slot1 = slot1(slot2)
-	slot2 = slot1
-	slot1 = slot1.setEase
-	slot3 = LeanTweenType
-	slot3 = slot3.easeInOutCubic
-	slot1 = slot1(slot2, slot3)
-	slot2 = slot1
-	slot1 = slot1.setFrom
-	slot3 = 0
-
-	slot1(slot2, slot3)
+function slot0.paintBreath(slot0)
+	LeanTween.cancel(go(slot0.painting))
+	LeanTween.moveY(rtf(slot0.painting), uv0, uv1):setLoopPingPong():setEase(LeanTweenType.easeInOutCubic):setFrom(0)
 end
 
-slot0.paintBreath = slot10
-
-function slot10(slot0, slot1, slot2)
+function slot0.buildStartAni(slot0, slot1, slot2)
 	if slot1 == "researchStartWindow" then
-		slot3 = slot0.progressPanel
-		slot4 = Vector3
-		slot5 = 0
-		slot6 = 1
-		slot7 = 1
-		slot4 = slot4(slot5, slot6, slot7)
-		slot3.localScale = slot4
-		slot3 = LeanTween
-		slot3 = slot3.scale
-		slot4 = slot0.progressPanel
-		slot5 = Vector3
-		slot6 = 1
-		slot7 = 1
-		slot8 = 1
-		slot5 = slot5(slot6, slot7, slot8)
-		slot6 = 0.2
-		slot3 = slot3(slot4, slot5, slot6)
-		slot4 = slot3
-		slot3 = slot3.setDelay
-		slot5 = 2
+		slot0.progressPanel.localScale = Vector3(0, 1, 1)
 
-		slot3(slot4, slot5)
+		LeanTween.scale(slot0.progressPanel, Vector3(1, 1, 1), 0.2):setDelay(2)
 	end
 
 	function slot3()
-		slot0 = uv0
-		slot0 = slot0.awakenAni
-		slot1 = slot0
-		slot0 = slot0.SetActive
-		slot2 = true
+		uv0.awakenAni:SetActive(true)
 
-		slot0(slot1, slot2)
+		uv0.awakenPlay = true
+		slot0 = tf(uv0.awakenAni)
 
-		slot0 = uv0
-		slot1 = true
-		slot0.awakenPlay = slot1
-		slot0 = tf
-		slot1 = uv0
-		slot1 = slot1.awakenAni
-		slot0 = slot0(slot1)
-		slot1 = pg
-		slot1 = slot1.UIMgr
-		slot1 = slot1.GetInstance
-		slot1 = slot1()
-		slot2 = slot1
-		slot1 = slot1.BlurPanel
-		slot3 = slot0
+		pg.UIMgr.GetInstance():BlurPanel(slot0)
+		slot0:SetAsLastSibling()
+		slot0:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+			if not IsNil(uv0.awakenAni) then
+				pg.UIMgr.GetInstance():UnblurPanel(uv1, uv0.blurPanel)
+				uv0.awakenAni:SetActive(false)
 
-		slot1(slot2, slot3)
+				uv0.awakenPlay = false
 
-		slot2 = slot0
-		slot1 = slot0.SetAsLastSibling
-
-		slot1(slot2)
-
-		slot2 = slot0
-		slot1 = slot0.GetComponent
-		slot3 = "DftAniEvent"
-		slot1 = slot1(slot2, slot3)
-		slot3 = slot1
-		slot2 = slot1.SetEndEvent
-
-		function slot4(slot0)
-			slot1 = IsNil
-			slot2 = uv0
-			slot2 = slot2.awakenAni
-			slot1 = slot1(slot2)
-
-			if not slot1 then
-				slot1 = pg
-				slot1 = slot1.UIMgr
-				slot1 = slot1.GetInstance
-				slot1 = slot1()
-				slot2 = slot1
-				slot1 = slot1.UnblurPanel
-				slot3 = uv1
-				slot4 = uv0
-				slot4 = slot4.blurPanel
-
-				slot1(slot2, slot3, slot4)
-
-				slot1 = uv0
-				slot1 = slot1.awakenAni
-				slot2 = slot1
-				slot1 = slot1.SetActive
-				slot3 = false
-
-				slot1(slot2, slot3)
-
-				slot1 = uv0
-				slot2 = false
-				slot1.awakenPlay = slot2
-				slot1 = uv2
-
-				if slot1 then
-					slot1 = uv2
-
-					slot1()
+				if uv2 then
+					uv2()
 				end
 			end
-		end
-
-		slot2(slot3, slot4)
+		end)
 	end
 
-	slot5 = slot0
-	slot4 = slot0.findTF
-	slot6 = slot1
-	slot7 = "(Clone)"
-	slot6 = slot6 .. slot7
-	slot4 = slot4(slot5, slot6)
+	slot0.awakenAni = slot0:findTF(slot1 .. "(Clone)") and go(slot4)
 
-	if slot4 then
-		slot5 = go
-		slot6 = slot4
-		slot5 = slot5(slot6)
-	end
+	if not slot0.awakenAni then
+		PoolMgr.GetInstance():GetUI(slot1, true, function (slot0)
+			slot0:SetActive(true)
 
-	slot0.awakenAni = slot5
-	slot5 = slot0.awakenAni
+			uv0.awakenAni = slot0
 
-	if not slot5 then
-		slot5 = PoolMgr
-		slot5 = slot5.GetInstance
-		slot5 = slot5()
-		slot6 = slot5
-		slot5 = slot5.GetUI
-		slot7 = slot1
-		slot8 = true
-
-		function slot9(slot0)
-			slot2 = slot0
-			slot1 = slot0.SetActive
-			slot3 = true
-
-			slot1(slot2, slot3)
-
-			slot1 = uv0
-			slot1.awakenAni = slot0
-			slot1 = uv1
-
-			slot1()
-		end
-
-		slot5(slot6, slot7, slot8, slot9)
+			uv1()
+		end)
 	else
-		slot5 = slot3
-
-		slot5()
+		slot3()
 	end
 end
 
-slot0.buildStartAni = slot10
+function slot0.showFittingMsgPanel(slot0, slot1)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.msgPanel)
+	setActive(slot0.msgPanel, true)
 
-function slot10(slot0, slot1)
-	slot2 = pg
-	slot2 = slot2.UIMgr
-	slot2 = slot2.GetInstance
-	slot2 = slot2()
-	slot3 = slot2
-	slot2 = slot2.BlurPanel
-	slot4 = slot0.msgPanel
-
-	slot2(slot3, slot4)
-
-	slot2 = setActive
-	slot3 = slot0.msgPanel
-	slot4 = true
-
-	slot2(slot3, slot4)
-
-	slot2 = slot0.contextData
-	slot2 = slot2.shipBluePrintVO
-	slot4 = slot2
-	slot3 = slot2.getMaxFateLevel
-	slot3 = slot3(slot4)
-	slot5 = slot0
-	slot4 = slot0.findTF
-	slot6 = "window/content"
-	slot7 = slot0.msgPanel
-	slot4 = slot4(slot5, slot6, slot7)
-	slot6 = slot0
-	slot5 = slot0.findTF
-	slot7 = "pre_btn"
-	slot8 = slot4
-	slot5 = slot5(slot6, slot7, slot8)
-	slot7 = slot0
-	slot6 = slot0.findTF
-	slot8 = "next_btn"
-	slot9 = slot4
-	slot6 = slot6(slot7, slot8, slot9)
-	slot8 = slot0
-	slot7 = slot0.findTF
-	slot9 = "attrl_panel"
-	slot10 = slot4
-	slot7 = slot7(slot8, slot9, slot10)
-	slot9 = slot0
-	slot8 = slot0.findTF
-	slot10 = "skill_panel"
-	slot11 = slot4
-	slot8 = slot8(slot9, slot10, slot11)
-	slot10 = slot0
-	slot9 = slot0.findTF
-	slot11 = "phase"
-	slot12 = slot4
-	slot9 = slot9(slot10, slot11, slot12)
+	slot3 = slot0.contextData.shipBluePrintVO:getMaxFateLevel()
+	slot4 = slot0:findTF("window/content", slot0.msgPanel)
+	slot8 = slot0:findTF("skill_panel", slot4)
+	slot9 = slot0:findTF("phase", slot4)
 	slot10 = {
 		"I",
 		"II",
@@ -7576,314 +1868,67 @@ function slot10(slot0, slot1)
 		"V"
 	}
 
-	function slot11()
-		slot0 = setActive
-		slot1 = uv0
-		slot2 = uv1
-		slot3 = 1
+	onButton(slot0, slot0:findTF("pre_btn", slot4), function ()
+		uv0 = uv0 - 1
 
-		if slot2 <= slot3 then
-			slot2 = false
-		else
-			slot2 = true
-		end
+		uv1()
+	end)
+	onButton(slot0, slot0:findTF("next_btn", slot4), function ()
+		uv0 = uv0 + 1
 
-		slot0(slot1, slot2)
+		uv1()
+	end)
+	setText(slot0:findTF("desc", slot0:findTF("attrl_panel", slot4)), i18n("fate_attr_word"))
+	function ()
+		setActive(uv0, uv1 > 1)
+		setActive(uv2, uv1 < uv3)
+		setText(uv4, "PHASE." .. uv5[uv1])
 
-		slot0 = setActive
-		slot1 = uv2
-		slot2 = uv1
-		slot3 = uv3
-
-		if slot2 >= slot3 then
-			slot2 = false
-		else
-			slot2 = true
-		end
-
-		slot0(slot1, slot2)
-
-		slot0 = setText
-		slot1 = uv4
-		slot2 = "PHASE."
-		slot3 = uv5
-		slot4 = uv1
-		slot3 = slot3[slot4]
-		slot2 = slot2 .. slot3
-
-		slot0(slot1, slot2)
-
-		slot0 = uv6
-		slot1 = slot0
-		slot0 = slot0.getFateStrengthenConfig
-		slot2 = uv1
-		slot0 = slot0(slot1, slot2)
-		slot1 = slot0.special_effect
 		slot2 = nil
 		slot3 = {}
-		slot4 = ipairs
-		slot5 = slot1
-		slot4, slot5, slot6 = slot4(slot5)
 
-		for slot7, slot8 in slot4, slot5, slot6 do
-			slot9 = slot8[1]
-			slot10 = ShipBluePrint
-			slot10 = slot10.STRENGTHEN_TYPE_CHANGE_SKILL
-
-			if slot9 == slot10 then
-				slot10 = slot8[2]
-				slot2 = slot10[2]
-			else
-				slot10 = ShipBluePrint
-				slot10 = slot10.STRENGTHEN_TYPE_ATTR
-
-				if slot9 == slot10 then
-					slot10 = table
-					slot10 = slot10.insert
-					slot11 = slot3
-					slot12 = slot8[2]
-
-					slot10(slot11, slot12)
-				end
+		for slot7, slot8 in ipairs(uv6:getFateStrengthenConfig(uv1).special_effect) do
+			if slot8[1] == ShipBluePrint.STRENGTHEN_TYPE_CHANGE_SKILL then
+				slot2 = slot8[2][2]
+			elseif slot9 == ShipBluePrint.STRENGTHEN_TYPE_ATTR then
+				table.insert(slot3, slot8[2])
 			end
 		end
 
-		slot4 = setActive
-		slot5 = uv7
-		slot6 = #slot3
-		slot7 = 0
-
-		if slot6 <= slot7 then
-			slot6 = false
-		else
-			slot6 = true
-		end
-
-		slot4(slot5, slot6)
-
-		slot4 = setActive
-		slot5 = uv8
-		slot6 = slot2
-
-		slot4(slot5, slot6)
+		setActive(uv7, #slot3 > 0)
+		setActive(uv8, slot2)
 
 		if slot2 then
-			slot4 = getSkillConfig
-			slot5 = slot2
-			slot4 = slot4(slot5)
-			slot5 = GetImageSpriteFromAtlasAsync
-			slot6 = "skillicon/"
-			slot7 = slot4.icon
-			slot6 = slot6 .. slot7
-			slot7 = ""
-			slot8 = uv9
-			slot9 = slot8
-			slot8 = slot8.findTF
-			slot10 = "skill_icon"
-			slot11 = uv8
-
-			slot5(slot6, slot7, slot8(slot9, slot10, slot11))
-
-			slot5 = setText
-			slot6 = uv9
-			slot7 = slot6
-			slot6 = slot6.findTF
-			slot8 = "skill_name"
-			slot9 = uv8
-			slot6 = slot6(slot7, slot8, slot9)
-			slot7 = getSkillName
-			slot8 = slot2
-
-			slot5(slot6, slot7(slot8))
-
-			slot5 = 1
-			slot6 = setText
-			slot7 = uv9
-			slot8 = slot7
-			slot7 = slot7.findTF
-			slot9 = "skill_lv"
-			slot10 = uv8
-			slot7 = slot7(slot8, slot9, slot10)
-			slot8 = "Lv."
-			slot9 = slot5
-			slot8 = slot8 .. slot9
-
-			slot6(slot7, slot8)
-
-			slot6 = setText
-			slot7 = uv9
-			slot8 = slot7
-			slot7 = slot7.findTF
-			slot9 = "help_panel/skill_intro"
-			slot10 = uv8
-			slot7 = slot7(slot8, slot9, slot10)
-			slot8 = getSkillDescGet
-			slot9 = slot2
-
-			slot6(slot7, slot8(slot9))
+			GetImageSpriteFromAtlasAsync("skillicon/" .. getSkillConfig(slot2).icon, "", uv9:findTF("skill_icon", uv8))
+			setText(uv9:findTF("skill_name", uv8), getSkillName(slot2))
+			setText(uv9:findTF("skill_lv", uv8), "Lv." .. 1)
+			setText(uv9:findTF("help_panel/skill_intro", uv8), getSkillDescGet(slot2))
 		end
 
-		slot4 = #slot3
-		slot5 = 0
+		if #slot3 > 0 then
+			for slot7, slot8 in ipairs(slot3) do
+				slot9 = slot7 < uv7.childCount and uv7:GetChild(slot7) or cloneTplTo(uv7:GetChild(slot7 - 1), uv7)
 
-		if slot4 > slot5 then
-			slot4 = ipairs
-			slot5 = slot3
-			slot4, slot5, slot6 = slot4(slot5)
-
-			for slot7, slot8 in slot4, slot5, slot6 do
-				slot9 = uv7
-				slot9 = slot9.childCount
-
-				if slot7 < slot9 then
-					slot9 = uv7
-					slot10 = slot9
-					slot9 = slot9.GetChild
-					slot11 = slot7
-					slot9 = slot9(slot10, slot11)
-
-					if not slot9 then
-						slot9 = cloneTplTo
-						slot10 = uv7
-						slot11 = slot10
-						slot10 = slot10.GetChild
-						slot12 = slot7 - 1
-						slot10 = slot10(slot11, slot12)
-						slot11 = uv7
-						slot9 = slot9(slot10, slot11)
-					end
-				end
-
-				slot10 = setText
-				slot12 = slot9
-				slot11 = slot9.Find
-				slot13 = "name"
-				slot11 = slot11(slot12, slot13)
-				slot12 = AttributeType
-				slot12 = slot12.Type2Name
-				slot13 = slot8[1]
-
-				slot10(slot11, slot12(slot13))
-
-				slot10 = setText
-				slot12 = slot9
-				slot11 = slot9.Find
-				slot13 = "number"
-				slot11 = slot11(slot12, slot13)
-				slot12 = " + "
-				slot13 = slot8[2]
-				slot12 = slot12 .. slot13
-
-				slot10(slot11, slot12)
+				setText(slot9:Find("name"), AttributeType.Type2Name(slot8[1]))
+				setText(slot9:Find("number"), " + " .. slot8[2])
 			end
 
-			slot4 = #slot3
-			slot4 = slot4 + 1
-			slot5 = uv7
-			slot5 = slot5.childCount
-			slot5 = slot5 - 1
-			slot6 = 1
-
-			for slot7 = slot4, slot5, slot6 do
-				slot8 = setActive
-				slot9 = uv7
-				slot10 = slot9
-				slot9 = slot9.GetChild
-				slot11 = slot7
-				slot9 = slot9(slot10, slot11)
-				slot10 = false
-
-				slot8(slot9, slot10)
+			for slot7 = #slot3 + 1, uv7.childCount - 1 do
+				setActive(uv7:GetChild(slot7), false)
 			end
 		end
-	end
-
-	slot12 = onButton
-	slot13 = slot0
-	slot14 = slot5
-
-	function slot15()
-		slot0 = uv0
-		slot0 = slot0 - 1
-		uv0 = slot0
-		slot0 = uv1
-
-		slot0()
-	end
-
-	slot12(slot13, slot14, slot15)
-
-	slot12 = onButton
-	slot13 = slot0
-	slot14 = slot6
-
-	function slot15()
-		slot0 = uv0
-		slot0 = slot0 + 1
-		uv0 = slot0
-		slot0 = uv1
-
-		slot0()
-	end
-
-	slot12(slot13, slot14, slot15)
-
-	slot12 = setText
-	slot14 = slot0
-	slot13 = slot0.findTF
-	slot15 = "desc"
-	slot16 = slot7
-	slot13 = slot13(slot14, slot15, slot16)
-	slot14 = i18n
-	slot15 = "fate_attr_word"
-
-	slot12(slot13, slot14(slot15))
-
-	slot12 = slot11
-
-	slot12()
+	end()
 end
 
-slot0.showFittingMsgPanel = slot10
+function slot0.checkStory(slot0)
+	slot0.storyMgr = slot0.storyMgr or pg.StoryMgr.GetInstance()
 
-function slot10(slot0)
-	slot1 = {
+	if ({
 		nil,
 		"FANGAN3"
-	}
-	slot2 = slot0.storyMgr
-
-	if not slot2 then
-		slot2 = pg
-		slot2 = slot2.StoryMgr
-		slot2 = slot2.GetInstance
-		slot2 = slot2()
-	end
-
-	slot0.storyMgr = slot2
-	slot2 = slot0.version
-	slot2 = slot1[slot2]
-
-	if slot2 then
-		slot2 = slot0.storyMgr
-		slot3 = slot2
-		slot2 = slot2.IsPlayed
-		slot4 = slot0.version
-		slot4 = slot1[slot4]
-		slot2 = slot2(slot3, slot4)
-
-		if not slot2 then
-			slot2 = slot0.storyMgr
-			slot3 = slot2
-			slot2 = slot2.Play
-			slot4 = slot0.version
-			slot4 = slot1[slot4]
-
-			slot2(slot3, slot4)
-		end
+	})[slot0.version] and not slot0.storyMgr:IsPlayed(slot1[slot0.version]) then
+		slot0.storyMgr:Play(slot1[slot0.version])
 	end
 end
-
-slot0.checkStory = slot10
 
 return slot0

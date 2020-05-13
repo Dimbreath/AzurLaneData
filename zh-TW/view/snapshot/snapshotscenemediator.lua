@@ -2,13 +2,13 @@ slot0 = class("SnapshotSceneMediator", import("..base.ContextMediator"))
 
 function slot0.register(slot0)
 	slot0:bind(SnapshotScene.SELECT_CHAR_PANEL, function (slot0)
-		slot0:addSubLayers(Context.New({
+		uv0:addSubLayers(Context.New({
 			mediator = SnapshotSelectCharMediator,
 			viewComponent = SnapshotSelectCharLayer
 		}))
 	end)
 	slot0:bind(SnapshotScene.SHARE_PANEL, function (slot0, slot1, slot2)
-		slot0:addSubLayers(Context.New({
+		uv0:addSubLayers(Context.New({
 			mediator = SnapshotShareMediator,
 			viewComponent = SnapshotShareLayer,
 			data = {
@@ -29,10 +29,8 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
-	slot3 = slot1:getBody()
-
 	if slot1:getName() == SnapshotSelectCharMediator.SELECT_CHAR then
-		slot0.viewComponent:setSkin(slot3)
+		slot0.viewComponent:setSkin(slot1:getBody())
 	elseif PERMISSION_GRANTED == slot2 then
 		if slot3 == ANDROID_RECORD_AUDIO_PERMISSION then
 			slot0.viewComponent:changeToTakeVideo()

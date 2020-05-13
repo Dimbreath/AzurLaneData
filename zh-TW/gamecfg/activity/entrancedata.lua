@@ -189,7 +189,7 @@ return {
 		end,
 		isTip = function ()
 			if getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot0:isEnd() then
-				return getProxy(MiniGameProxy).GetHubByHubId(slot1, slot0:getConfig("config_id")).count > 0 and slot2.usedtime < 7
+				return getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id")).count > 0 and slot2.usedtime < 7
 			end
 		end
 	},
@@ -200,12 +200,8 @@ return {
 			11
 		},
 		isShow = function ()
-			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot0:isEnd() and 
-			-- Decompilation error in this vicinity:
-			function ()
-				slot0 = getProxy(MiniGameProxy)
-
-				return slot0:GetHubByHubId(slot0:getConfig("config_id")) and slot1.id == 7
+			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot0:isEnd() and function ()
+				return getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id")) and slot1.id == 7
 			end()
 		end,
 		isTip = function ()

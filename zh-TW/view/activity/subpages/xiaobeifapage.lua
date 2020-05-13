@@ -20,13 +20,13 @@ function slot0.OnFirstFlush(slot0)
 
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	onButton(slot0, slot0.bonusList, function ()
-		slot0 = slot0:getConfig("config_data")
+		slot0 = uv0:getConfig("config_data")
 
 		print(slot0)
-		slot1:emit(ActivityMediator.SHOW_AWARD_WINDOW, TaskAwardWindow, {
+		uv1:emit(ActivityMediator.SHOW_AWARD_WINDOW, TaskAwardWindow, {
 			tasklist = slot0,
-			ptId = slot0:getConfig("config_client").pt_id,
-			totalPt = getProxy(ActivityProxy):getActivityById(slot0:getConfig("config_client").rank_act_id).data1
+			ptId = uv0:getConfig("config_client").pt_id,
+			totalPt = getProxy(ActivityProxy):getActivityById(uv0:getConfig("config_client").rank_act_id).data1
 		})
 	end)
 end
@@ -38,10 +38,11 @@ end
 function slot0.flush_task_list_pt_xiaobeifa(slot0)
 	slot0:flush_task_list_pt()
 
+	slot1 = slot0.activity
 	slot2, slot3, slot4 = slot0:getDoingTask(slot1)
 
-	if slot0.activity:getConfig("config_client").main_task then
-		slot0:setImportantProgress(slot1, slot0:findTF("progress_important"), (slot4 and slot2) or slot2 - 1, slot1:getConfig("config_client").main_task, slot1:getConfig("config_data"))
+	if slot1:getConfig("config_client").main_task then
+		slot0:setImportantProgress(slot1, slot0:findTF("progress_important"), slot4 and slot2 or slot2 - 1, slot1:getConfig("config_client").main_task, slot1:getConfig("config_data"))
 	end
 end
 
@@ -76,19 +77,27 @@ function slot0.getDoingTask(slot0, slot1, slot2)
 end
 
 function slot0.flush_task_list_pt(slot0)
-	slot10, slot4, slot5 = slot0:getDoingTask(slot1)
-	slot7 = getProxy(ActivityProxy):getActivityById(slot0.activity.getConfig(slot1, "config_client").rank_act_id).data1
+	slot1 = slot0.activity
+	slot3, slot4, slot5 = slot0:getDoingTask(slot1)
+	slot7 = getProxy(ActivityProxy):getActivityById(slot1:getConfig("config_client").rank_act_id).data1
 
-	setText(slot0.phaseTxt, slot3 .. "/" .. #_.flatten(slot0.activity.getConfig(slot1, "config_data")))
+	setText(slot0.phaseTxt, slot3 .. "/" .. #_.flatten(slot1:getConfig("config_data")))
 
 	if slot5 then
-		slot10 = math.min(slot7, slot5:getConfig("target_num"))
+		slot8 = slot5:getConfig("target_num")
 
-		setText(slot0.progressTxt, setColorStr)
+		setText(slot0.progressTxt, setColorStr(math.min(slot7, slot8), slot7 < slot8 and COLOR_RED or COLOR_GREEN) .. "/" .. slot8)
 		setSlider(slot0.progress, 0, slot8, math.min(slot7, slot8))
-		updateDrop(slot0.award, (slot7 < slot5.getConfig("target_num") and COLOR_RED) or COLOR_GREEN)
+
+		slot10 = slot5:getConfig("award_display")[1]
+
+		updateDrop(slot0.award, {
+			type = slot10[1],
+			id = slot10[2],
+			count = slot10[3]
+		})
 		onButton(slot0, slot0.award, function ()
-			slot0:emit(BaseUI.ON_DROP, slot0)
+			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
 
 		slot0.btn:GetComponent(typeof(Image)).enabled = not slot5:isFinish()
@@ -96,10 +105,10 @@ function slot0.flush_task_list_pt(slot0)
 		setActive(slot0.btn:Find("get"), slot5:isFinish() and not slot5:isReceive())
 		setActive(slot0.btn:Find("achieved"), slot5:isReceive())
 		onButton(slot0, slot0.btn, function ()
-			if not slot0:isFinish() then
-				slot1:emit(ActivityMediator.ON_TASK_GO, slot1.emit)
+			if not uv0:isFinish() then
+				uv1:emit(ActivityMediator.ON_TASK_GO, uv0)
 			else
-				slot1:emit(ActivityMediator.ON_TASK_SUBMIT, slot1.emit)
+				uv1:emit(ActivityMediator.ON_TASK_SUBMIT, uv0)
 			end
 		end, SFX_PANEL)
 	end
@@ -113,33 +122,44 @@ function slot0.setImportantProgress(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = slot2:Find("award_display")
 	slot8 = getProxy(TaskProxy)
 
-	setSlider(slot2, 0, slot9, slot11)
+	setSlider(slot2, 0, pg.task_data_template[slot5[#slot5]].target_num, getProxy(ActivityProxy):getActivityById(slot1:getConfig("config_client").rank_act_id).data1)
 
 	slot12 = nil
 	slot13 = slot6:GetComponent(typeof(RectTransform)).rect.width
 	slot14 = nil
 
 	removeAllChildren(slot6)
-	setActive(slot7, false)
+	setActive(slot2:Find("important_task_tpl"), false)
 
 	for slot18, slot19 in ipairs(slot4) do
 		for slot23, slot24 in ipairs(slot5) do
 			if slot19 == slot24 then
+				slot14 = Instantiate(slot7)
+
 				SetParent(slot14, slot6)
 				setActive(slot14, true)
 				setAnchoredPosition(slot14, {
 					x = pg.task_data_template[slot5[slot23]].target_num / slot9 * slot13
 				})
 
+				slot25 = pg.task_data_template[slot19]
+				slot26 = slot25.award_display[1]
 				slot27 = slot0:findTF("award", slot14)
 
-				updateDrop(slot27, slot28)
+				updateDrop(slot27, {
+					type = slot26[1],
+					id = slot26[2],
+					count = slot26[3]
+				})
 				onButton(slot0, slot27, function ()
-					slot0:emit(BaseUI.ON_DROP, slot0)
+					uv0:emit(BaseUI.ON_DROP, uv1)
 				end, SFX_PANEL)
-				setText(slot0:findTF("Text", slot14), pg.task_data_template[slot19].target_num)
-				print(pg.task_data_template[slot19].id)
-				setActive(slot0:findTF("mask", slot27), slot23 < slot3 or ((getProxy(TaskProxy):getTaskById(slot5[#slot5]) or getProxy(TaskProxy):getFinishTaskById(slot30)) and getProxy(TaskProxy).getTaskById(slot5[#slot5]) or getProxy(TaskProxy).getFinishTaskById(slot30):isReceive()))
+				setText(slot0:findTF("Text", slot14), slot25.target_num)
+				print(slot25.id)
+
+				slot31 = getProxy(TaskProxy):getTaskById(slot5[#slot5]) or getProxy(TaskProxy):getFinishTaskById(slot30)
+
+				setActive(slot0:findTF("mask", slot27), slot23 < slot3 or slot31 and slot31:isReceive())
 
 				break
 			end
@@ -148,7 +168,6 @@ function slot0.setImportantProgress(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

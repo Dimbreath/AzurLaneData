@@ -1,11 +1,12 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleUnitEvent
-slot2 = class("BattleBossCharacter", ys.Battle.BattleEnemyCharacter)
-ys.Battle.BattleBossCharacter = slot2
+slot0 = ys
+slot1 = slot0.Battle.BattleUnitEvent
+slot2 = class("BattleBossCharacter", slot0.Battle.BattleEnemyCharacter)
+slot0.Battle.BattleBossCharacter = slot2
 slot2.__name = "BattleBossCharacter"
 
 function slot2.Ctor(slot0)
-	slot0.super.Ctor(slot0)
+	uv0.super.Ctor(slot0)
 end
 
 function slot2.Dispose(slot0)
@@ -20,11 +21,11 @@ function slot2.Dispose(slot0)
 	end
 
 	LeanTween.cancel(slot0._HPBar)
-	slot0.super.Dispose(slot0)
+	uv0.super.Dispose(slot0)
 end
 
 function slot2.Update(slot0)
-	slot0.super.Update(slot0)
+	uv0.super.Update(slot0)
 	slot0:UpdateCastClockPosition()
 
 	if slot0._armor then
@@ -37,13 +38,13 @@ function slot2.UpdateVigilantBarPosition(slot0)
 end
 
 function slot2.RegisterWeaponListener(slot0, slot1)
-	slot0.super.RegisterWeaponListener(slot0, slot1)
-	slot1:RegisterEventListener(slot0, slot1.WEAPON_INTERRUPT, slot0.onWeaponInterrupted)
+	uv0.super.RegisterWeaponListener(slot0, slot1)
+	slot1:RegisterEventListener(slot0, uv1.WEAPON_INTERRUPT, slot0.onWeaponInterrupted)
 end
 
 function slot2.UnregisterWeaponListener(slot0, slot1)
-	slot0.super.UnregisterWeaponListener(slot0, slot1)
-	slot1:UnregisterEventListener(slot0, slot1.WEAPON_INTERRUPT)
+	uv0.super.UnregisterWeaponListener(slot0, slot1)
+	slot1:UnregisterEventListener(slot0, uv1.WEAPON_INTERRUPT)
 end
 
 function slot2.AddHPBar(slot0, slot1, slot2)
@@ -51,9 +52,9 @@ function slot2.AddHPBar(slot0, slot1, slot2)
 	slot0._HPBarTf = slot1.transform
 
 	slot1:SetActive(true)
-	slot0._unitData:RegisterEventListener(slot0, slot0.UPDATE_HP, slot0.OnUpdateHP)
+	slot0._unitData:RegisterEventListener(slot0, uv0.UPDATE_HP, slot0.OnUpdateHP)
 
-	slot0._HPBarCountText = slot0._HPBarTf.Find(slot3, "HPBarCount"):GetComponent(typeof(Text))
+	slot0._HPBarCountText = slot0._HPBarTf:Find("HPBarCount"):GetComponent(typeof(Text))
 	slot0._activeVernier = slot2
 
 	slot0:SetTemplateInfo()
@@ -75,8 +76,8 @@ function slot2.SetTemplateInfo(slot0)
 	slot0._HPBarTf:Find("BossName"):GetComponent(typeof(Text)).text = slot2
 	slot0._HPBarTf:Find("BossLv"):GetComponent(typeof(Text)).text = "Lv." .. slot0._unitData:GetLevel()
 
-	setImageSprite(slot0._HPBarTf:Find("BossIcon/typeIcon/icon"), slot4, true)
-	setImageSprite(findTF(slot0._HPBarTf, "BossIcon/icon"), slot6)
+	setImageSprite(slot0._HPBarTf:Find("BossIcon/typeIcon/icon"), GetSpriteFromAtlas("shiptype", shipType2Battleprint(pg.enemy_data_by_type[slot1.type].type)), true)
+	setImageSprite(findTF(slot0._HPBarTf, "BossIcon/icon"), uv0.Battle.BattleResourceManager.GetInstance():GetCharacterSquareIcon(slot0._bossIcon))
 
 	slot0._armorBar = slot0._HPBarTf:Find("ArmorBar")
 	slot0._armorProgress = slot0._HPBarTf:Find("ArmorBar/armorProgress"):GetComponent(typeof(Image))
@@ -104,20 +105,21 @@ function slot2.initBarComponent(slot0)
 	slot1 = 1
 	slot0._stepHP = slot0:GetUnitData():GetMaxHP() / slot0._HPBarTotalCount
 	slot3 = 1
-	slot4 = 5
 	slot5 = {}
 
-	while slot3 <= slot4 do
-		slot9 = slot0._HPBarTf:Find(slot7)
-		slot10 = slot0._HPBarTf:Find(slot8)
-		({
+	while slot3 <= 5 do
+		slot6 = {
 			progressImage = slot9:GetComponent(typeof(Image)),
 			deltaImage = slot10:GetComponent(typeof(Image)),
 			progressTF = slot9.transform,
 			deltaTF = slot10.transform
-		})["progressImage"].fillAmount = 1
-		()["deltaImage"].fillAmount = 1
-		slot5[slot3] = 
+		}
+		slot7 = "bloodBarContainer/hp_" .. slot3
+		slot9 = slot0._HPBarTf:Find(slot7)
+		slot10 = slot0._HPBarTf:Find(slot7 .. "_delta")
+		slot6.progressImage.fillAmount = 1
+		slot6.deltaImage.fillAmount = 1
+		slot5[slot3] = slot6
 		slot3 = slot3 + 1
 	end
 
@@ -128,19 +130,22 @@ function slot2.initBarComponent(slot0)
 			slot6 = slot4
 		end
 
-		slot0._bossBarInfoList[slot1] = {
-			upperBound = slot1 * slot0._stepHP,
-			lowerBound = ()["upperBound"] - slot0._stepHP,
-			progressImage = slot5[slot6].progressImage,
-			deltaImage = slot5[slot6].deltaImage,
-			progressTF = slot5[slot6].progressTF,
-			deltaTF = slot5[slot6].deltaTF
+		slot7 = {
+			upperBound = slot1 * slot0._stepHP
 		}
+		slot7.lowerBound = slot7.upperBound - slot0._stepHP
+		slot7.progressImage = slot5[slot6].progressImage
+		slot7.deltaImage = slot5[slot6].deltaImage
+		slot7.progressTF = slot5[slot6].progressTF
+		slot7.deltaTF = slot5[slot6].deltaTF
+		slot0._bossBarInfoList[slot1] = slot7
 		slot1 = slot1 + 1
 	end
 
 	if slot0._HPBarTotalCount < 5 then
 		while slot1 <= 5 do
+			slot6 = "bloodBarContainer/hp_" .. slot1
+
 			SetActive(slot0._HPBarTf:Find(slot6), false)
 			SetActive(slot0._HPBarTf:Find(slot6 .. "_delta"), false)
 
@@ -154,6 +159,8 @@ function slot2.initBarComponent(slot0)
 		slot7 = slot4
 
 		while slot6 < slot7 do
+			slot8 = "bloodBarContainer/hp_" .. slot7
+
 			slot0._HPBarTf:Find(slot8).transform:SetSiblingIndex(0)
 			slot0._HPBarTf:Find(slot8 .. "_delta").transform:SetSiblingIndex(0)
 
@@ -169,7 +176,7 @@ function slot2.initBarComponent(slot0)
 
 	slot0._currentIndex = #slot0._bossBarInfoList
 	slot0._chargeTimer = Timer.New(function ()
-		slot0._currentTween = slot0:generateTween()
+		uv0._currentTween = uv0:generateTween()
 	end, 1)
 end
 
@@ -245,354 +252,96 @@ function slot2.UpdateHpBar(slot0)
 end
 
 function slot2.generateTween(slot0, slot1, slot2)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-6, warpins: 1 ---
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 9-10, warpins: 2 ---
-	slot4 = slot0._bossBarInfoList[slot0._currentIndex].deltaImage
-
-	if not slot1 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 7-8, warpins: 1 ---
-		slot1 = slot3.progressImage.fillAmount
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	slot2 = slot2 or 0.7
-
-	return LeanTween.value(go(slot0._HPBar), slot4.fillAmount, slot1, slot2 or 0.7):setOnUpdate(System.Action_float(function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-3, warpins: 1 ---
-		slot0.fillAmount = slot0
-
-		return
-		--- END OF BLOCK #0 ---
-
-
-
+	return LeanTween.value(go(slot0._HPBar), slot0._bossBarInfoList[slot0._currentIndex].deltaImage.fillAmount, slot1 or slot3.progressImage.fillAmount, slot2 or 0.7):setOnUpdate(System.Action_float(function (slot0)
+		uv0.fillAmount = slot0
 	end))
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 11-11, warpins: 1 ---
-	slot2 = 0.7
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 12-29, warpins: 2 ---
-	--- END OF BLOCK #3 ---
-
-
-
 end
 
 function slot2.SetHPBarCountText(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0._hideBarNum then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 4-7, warpins: 1 ---
 		slot0._HPBarCountText.text = "X??"
-		--- END OF BLOCK #0 ---
-
-
-
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-12, warpins: 1 ---
 		slot0._HPBarCountText.text = "X " .. slot0._currentIndex
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 13-13, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot2.UpdateHPBarPostition(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-1, warpins: 1 ---
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function slot2.onWeaponPreCast(slot0, slot1)
+	uv0.super.onWeaponPreCast(slot0, slot1)
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-14, warpins: 1 ---
-	slot0.super.onWeaponPreCast(slot0, slot1)
-	slot0:initArmorBar(slot1.Data.armor)
+	slot2 = slot1.Data
 
-	if slot1.Data.armor and slot3 ~= 0 then
+	slot0:initArmorBar(slot2.armor)
 
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 17-21, warpins: 1 ---
+	if slot2.armor and slot3 ~= 0 then
 		slot0:initCastClock(slot2.time, slot1.Dispatcher)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 22-22, warpins: 3 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot2.onWeaponPrecastFinish(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-15, warpins: 1 ---
-	slot0.super.onWeaponPrecastFinish(slot0, slot1)
+	uv0.super.onWeaponPrecastFinish(slot0, slot1)
 
 	slot3 = slot1.Data.armor
 
 	if slot0._castClock:GetCastingWeapon() == slot1.Dispatcher and slot3 and slot3 ~= 0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 20-23, warpins: 1 ---
 		if slot0._armor <= 0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 24-29, warpins: 1 ---
 			slot0._castClock:Interrupt(true)
-			--- END OF BLOCK #0 ---
-
-
-
 		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 30-34, warpins: 1 ---
 			slot0._castClock:Interrupt(false)
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 35-44, warpins: 2 ---
 		slot0._armor = nil
 
 		SetActive(slot0._armorBar, false)
 		SetActive(slot0._gizmos, true)
-		--- END OF BLOCK #1 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 45-45, warpins: 4 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot2.onWeaponInterrupted(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-9, warpins: 1 ---
-	slot0._unitData:StateChange(slot0.Battle.UnitState.STATE_INTERRUPT)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
+	slot0._unitData:StateChange(uv0.Battle.UnitState.STATE_INTERRUPT)
 end
 
 function slot2.initArmorBar(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-2, warpins: 1 ---
 	if slot1 and slot1 ~= 0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 5-18, warpins: 1 ---
 		slot0._armor = slot1
 		slot0._totalArmor = slot1
 
 		slot0:updateWeaponArmor(slot1)
 		SetActive(slot0._armorBar, true)
 		SetActive(slot0._gizmos, false)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 19-19, warpins: 3 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot2.OnUpdateHP(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-11, warpins: 1 ---
-	slot0.super.OnUpdateHP(slot0, slot1)
+	uv0.super.OnUpdateHP(slot0, slot1)
 
 	slot2 = slot1.Data.dHP
 
 	if slot0._armor and slot2 < 0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 15-21, warpins: 1 ---
 		slot0._armor = slot0._armor + slot2
 
 		slot0:updateWeaponArmor(slot0._armor)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 22-22, warpins: 3 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot2.updateWeaponArmor(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-6, warpins: 1 ---
 	slot0._armorProgress.fillAmount = slot0._armor / slot0._totalArmor
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function slot2.initCastClock(slot0, slot1, slot2)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-17, warpins: 1 ---
 	slot0._castClock:Casting(slot1, slot2)
 
 	slot0._castFinishTime = pg.TimeMgr.GetInstance():GetCombatTime() + slot1
 	slot0._castDuration = slot1
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function slot2.UpdateCastClock(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-5, warpins: 1 ---
 	slot0._castClock:UpdateCastClock()
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function slot2.updateComponentDiveInvisible(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-10, warpins: 1 ---
-	slot0.super.updateComponentDiveInvisible(slot0)
+	uv0.super.updateComponentDiveInvisible(slot0)
 	SetActive(slot0._HPBarTf, true)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
-
-return

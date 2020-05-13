@@ -100947,5 +100947,3 @@ pg.equip_data_template = {
 		49050
 	}
 }
-
-return

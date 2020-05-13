@@ -23,7 +23,7 @@ end
 
 function slot0.enoughResForUsage(slot0, slot1)
 	if slot0:getComsume().type == DROP_TYPE_RESOURCE then
-		if getProxy(PlayerProxy):getData().getResById(slot3, slot2.id) < slot2.count * slot1 then
+		if getProxy(PlayerProxy):getData():getResById(slot2.id) < slot2.count * slot1 then
 			return false
 		end
 	elseif slot2.type == DROP_TYPE_ITEM and getProxy(BagProxy):getItemCountById(slot2.id) < slot2.count * slot1 then
@@ -57,17 +57,19 @@ function slot0.filterItems(slot0, slot1)
 	slot2 = slot0:getConfig("main_item")
 
 	return _.map(_.select(slot0:getConfig("item_list"), function (slot0)
-		if slot0 then
-			return table.contains(table.contains, slot0[1])
+		if uv0 then
+			return table.contains(uv1, slot0[1])
 		else
-			return not table.contains(table.contains, slot0[1])
+			return not table.contains(uv1, slot0[1])
 		end
 	end), function (slot0)
+		slot1 = uv0[slot0[1]]
+
 		return {
 			id = slot1.commodity_id,
 			type = slot1.resource_category,
 			count = slot1.num,
-			surplus = slot0[2] - (slot1.awards[slot0[1]] or 0),
+			surplus = slot0[2] - (uv1.awards[slot0[1]] or 0),
 			total = slot0[2]
 		}
 	end)

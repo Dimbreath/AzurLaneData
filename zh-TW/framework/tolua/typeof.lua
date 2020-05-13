@@ -6,13 +6,13 @@ slot3 = tolua.findtype
 function typeof(slot0)
 	slot2 = nil
 
-	if slot0(slot0) == "table" then
-		if slot1[slot0] == nil then
-			slot1[slot0] = slot2(slot0)
+	if uv0(slot0) == "table" then
+		if uv1[slot0] == nil then
+			uv1[slot0] = uv2(slot0)
 		end
 	elseif slot1 == "string" then
-		if slot1[slot0] == nil then
-			slot1[slot0] = slot3(slot0)
+		if uv1[slot0] == nil then
+			uv1[slot0] = uv3(slot0)
 		end
 	else
 		error(debug.traceback("attemp to call typeof on type " .. slot1))
@@ -20,5 +20,3 @@ function typeof(slot0)
 
 	return slot2
 end
-
-return

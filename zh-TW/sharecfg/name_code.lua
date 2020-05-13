@@ -811,5 +811,3 @@ pg.name_code = {
 		code = "卷波"
 	}
 }
-
-return

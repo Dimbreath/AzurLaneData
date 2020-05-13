@@ -40,15 +40,13 @@ slot0.SUBMARINE_FLEET_NUMS = 4
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.name = slot1.name
-	slot0.defaultName = slot0.DEFAULT_NAME[slot0.id]
+	slot0.defaultName = uv0.DEFAULT_NAME[slot0.id]
 
 	slot0:updateShips(slot1.ship_list)
 
 	slot0.commanderIds = {}
-	slot2 = ipairs
-	slot3 = slot1.commanders or {}
 
-	for slot5, slot6 in slot2(slot3) do
+	for slot5, slot6 in ipairs(slot1.commanders or {}) do
 		slot0.commanderIds[slot6.pos] = slot6.id
 	end
 
@@ -58,8 +56,6 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.isUnlock(slot0)
-	slot2 = getProxy(ChapterProxy)
-
 	if ({
 		nil,
 		nil,
@@ -68,7 +64,7 @@ function slot0.isUnlock(slot0)
 		604,
 		704
 	})[slot0.id] then
-		return slot2:getChapterById(slot3) and slot4:isClear(), i18n("formation_chapter_lock", string.sub(tostring(slot3), 1, 1), slot0.id)
+		return getProxy(ChapterProxy):getChapterById(slot3) and slot4:isClear(), i18n("formation_chapter_lock", string.sub(tostring(slot3), 1, 1), slot0.id)
 	end
 
 	return true
@@ -79,17 +75,17 @@ function slot0.containShip(slot0, slot1)
 end
 
 function slot0.isFirstFleet(slot0)
-	return slot0.id == slot0.REGULAR_FLEET_ID
+	return slot0.id == uv0.REGULAR_FLEET_ID
 end
 
 function slot0.getCommanders(slot0)
-	slot1 = {}
-
 	for slot5, slot6 in pairs(slot0.commanderIds) do
-		slot1[slot5] = getProxy(CommanderProxy):getCommanderById(slot6)
+		-- Nothing
 	end
 
-	return slot1
+	return {
+		[slot5] = getProxy(CommanderProxy):getCommanderById(slot6)
+	}
 end
 
 function slot0.getCommanderByPos(slot0, slot1)
@@ -110,10 +106,8 @@ function slot0.getCommandersAddition(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(CommanderConst.PROPERTIES) do
-		slot7 = 0
-
 		for slot11, slot12 in pairs(slot0:getCommanders()) do
-			slot7 = slot7 + slot12:getAbilitysAddition()[slot6]
+			slot7 = 0 + slot12:getAbilitysAddition()[slot6]
 		end
 
 		if slot7 > 0 then
@@ -131,7 +125,7 @@ function slot0.getCommandersTalentDesc(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0:getCommanders()) do
-		for slot11, slot12 in pairs(slot7) do
+		for slot11, slot12 in pairs(slot6:getTalentsDesc()) do
 			if slot1[slot11] then
 				slot1[slot11].value = slot1[slot11].value + slot12.value
 			else
@@ -148,10 +142,10 @@ function slot0.getCommandersTalentDesc(slot0)
 end
 
 function slot0.findCommanderBySkillId(slot0, slot1)
-	for slot6, slot7 in pairs(slot2) do
+	for slot6, slot7 in pairs(slot0:getCommanders()) do
 		if _.any(slot7:getSkills(), function (slot0)
 			return _.any(slot0:getTacticSkill(), function (slot0)
-				return slot0 == slot0
+				return slot0 == uv0
 			end)
 		end) then
 			return slot7
@@ -170,7 +164,7 @@ function slot0.updateCommanderSkills(slot0)
 		slot1 = slot1 - 1
 	end
 
-	for slot6, slot7 in pairs(slot2) do
+	for slot6, slot7 in pairs(slot0:getCommanders()) do
 		for slot11, slot12 in ipairs(slot7:getSkills()) do
 			for slot16, slot17 in ipairs(slot12:getTacticSkill()) do
 				table.insert(slot0.skills, FleetSkill.New(FleetSkill.SystemCommanderNeko, slot17))
@@ -200,8 +194,8 @@ function slot0.buildBattleBuffList(slot0)
 		end
 	end
 
-	for slot8, slot9 in pairs(slot4) do
-		for slot14, slot15 in ipairs(slot10) do
+	for slot8, slot9 in pairs(slot0:getCommanders()) do
+		for slot14, slot15 in ipairs(slot9:getTalents()) do
 			if #slot15:getBuffsAddition() > 0 then
 				slot17 = nil
 
@@ -237,7 +231,11 @@ end
 function slot0.getShipIds(slot0)
 	slot1 = {}
 
-	for slot6, slot7 in ipairs(slot2) do
+	for slot6, slot7 in ipairs({
+		slot0.vanguardShips,
+		slot0.mainShips,
+		slot0.subShips
+	}) do
 		for slot11, slot12 in ipairs(slot7) do
 			table.insert(slot1, slot12)
 		end
@@ -248,7 +246,7 @@ end
 
 function slot0.findSkills(slot0, slot1)
 	return _.filter(slot0:getSkills(), function (slot0)
-		return slot0:GetType() == slot0
+		return slot0:GetType() == uv0
 	end)
 end
 
@@ -257,10 +255,9 @@ function slot0.updateShips(slot0, slot1)
 	slot0.vanguardShips = {}
 	slot0.mainShips = {}
 	slot0.subShips = {}
-	slot2 = getProxy(BayProxy)
 
 	for slot6, slot7 in ipairs(slot1) do
-		if slot2:getShipById(slot7) then
+		if getProxy(BayProxy):getShipById(slot7) then
 			table.insert(slot0.ships, slot7)
 
 			if slot8:getTeamType() == TeamType.Vanguard then
@@ -319,12 +316,9 @@ function slot0.insertShip(slot0, slot1, slot2, slot3)
 end
 
 function slot0.canRemove(slot0, slot1)
-	slot2, slot8 = slot0:getShipPos(slot1)
-	slot4 = slot0:isPvpFleet()
-	slot5 = slot0:isFirstFleet()
-	slot6 = slot0:getTeamByName(slot3) or {}
+	slot2, slot3 = slot0:getShipPos(slot1)
 
-	if #slot6 == 1 and (slot5 or slot4) then
+	if #(slot0:getTeamByName(slot3) or {}) == 1 and (slot0:isFirstFleet() or slot0:isPvpFleet()) then
 		return false
 	else
 		return true
@@ -332,11 +326,11 @@ function slot0.canRemove(slot0, slot1)
 end
 
 function slot0.isRegularFleet(slot0)
-	return (slot0.SUBMARINE_FLEET_ID <= slot0.id and slot0.id < slot0.SUBMARINE_FLEET_ID + slot0.SUBMARINE_FLEET_NUMS) or (slot0.REGULAR_FLEET_ID <= slot0.id and slot0.id < slot0.REGULAR_FLEET_ID + slot0.REGULAR_FLEET_NUMS)
+	return uv0.SUBMARINE_FLEET_ID <= slot0.id and slot0.id < uv0.SUBMARINE_FLEET_ID + uv0.SUBMARINE_FLEET_NUMS or uv0.REGULAR_FLEET_ID <= slot0.id and slot0.id < uv0.REGULAR_FLEET_ID + uv0.REGULAR_FLEET_NUMS
 end
 
 function slot0.isSubmarineFleet(slot0)
-	return slot0.SUBMARINE_FLEET_ID <= slot0.id and slot0.id < slot0.SUBMARINE_FLEET_ID + slot0.SUBMARINE_FLEET_NUMS
+	return uv0.SUBMARINE_FLEET_ID <= slot0.id and slot0.id < uv0.SUBMARINE_FLEET_ID + uv0.SUBMARINE_FLEET_NUMS
 end
 
 function slot0.isPvpFleet(slot0)
@@ -348,7 +342,7 @@ function slot0.getFleetType(slot0)
 		return FleetType.Normal
 	end
 
-	if slot0.SUBMARINE_FLEET_ID <= slot0.id and slot0.id < slot0.SUBMARINE_FLEET_ID + slot0.SUBMARINE_FLEET_NUMS then
+	if uv0.SUBMARINE_FLEET_ID <= slot0.id and slot0.id < uv0.SUBMARINE_FLEET_ID + uv0.SUBMARINE_FLEET_NUMS then
 		return FleetType.Submarine
 	end
 
@@ -356,10 +350,8 @@ function slot0.getFleetType(slot0)
 end
 
 function slot0.removeShip(slot0, slot1)
-	slot2 = slot1.id
-
 	for slot6, slot7 in ipairs(slot0.ships) do
-		if slot7 == slot2 then
+		if slot7 == slot1.id then
 			table.remove(slot0.ships, slot6)
 
 			break
@@ -432,19 +424,28 @@ function slot0.isLegalToFight(slot0)
 end
 
 function slot0.getSkillNum(slot0)
-	slot2 = {}
+	slot2 = {
+		[slot7] = 0
+	}
 
-	for slot6, slot7 in pairs(slot1) do
-		slot2[slot7] = 0
+	for slot6, slot7 in pairs({
+		"zhupao",
+		"yulei",
+		"fangkongpao",
+		"jianzaiji"
+	}) do
+		-- Nothing
 	end
 
-	slot4 = getProxy(BayProxy).getRawData(slot3)
+	slot4 = getProxy(BayProxy):getRawData()
 	slot5 = ys.Battle.BattleConst.EquipmentType
 
 	for slot9, slot10 in ipairs(slot0.ships) do
 		for slot14, slot15 in ipairs(slot4[slot10]:getActiveEquipments()) do
 			if slot15 > 0 then
-				for slot21, slot22 in ipairs(slot17) do
+				for slot21, slot22 in ipairs(Equipment.New({
+					id = slot15
+				}):getConfig("weapon_id")) do
 					if slot22 > 0 then
 						if pg.weapon_property[slot22].type == slot5.POINT_HIT_AND_LOCK then
 							slot2.zhupao = slot2.zhupao + 1
@@ -471,10 +472,9 @@ function slot0.GetPropertiesSum(slot0)
 		air = 0,
 		torpedo = 0
 	}
-	slot2 = getProxy(BayProxy):getRawData()
 
 	for slot6, slot7 in ipairs(slot0.ships) do
-		slot8 = slot2[slot7]:getProperties(slot0:getCommanders())
+		slot8 = getProxy(BayProxy):getRawData()[slot7]:getProperties(slot0:getCommanders())
 		slot1.cannon = slot1.cannon + math.floor(slot8.cannon)
 		slot1.torpedo = slot1.torpedo + math.floor(slot8.torpedo)
 		slot1.antiAir = slot1.antiAir + math.floor(slot8.antiaircraft)
@@ -485,20 +485,19 @@ function slot0.GetPropertiesSum(slot0)
 end
 
 function slot0.GetCostSum(slot0)
-	slot1 = {
-		gold = 0,
-		oil = 0
-	}
 	slot2 = slot0:getStartCost()
-	slot3 = slot0:getEndCost()
 
 	if slot0:getFleetType() == FleetType.Submarine then
-		slot1.oil = slot3.oil
+		-- Nothing
 	else
 		slot1.oil = slot2.oil + slot3.oil
 	end
 
-	return slot1
+	return {
+		gold = 0,
+		oil = 0,
+		oil = slot0:getEndCost().oil
+	}
 end
 
 function slot0.getStartCost(slot0)
@@ -506,10 +505,9 @@ function slot0.getStartCost(slot0)
 		gold = 0,
 		oil = 0
 	}
-	slot2 = getProxy(BayProxy):getRawData()
 
 	for slot6, slot7 in ipairs(slot0.ships) do
-		slot1.oil = slot1.oil + slot2[slot7]:getStartBattleExpend()
+		slot1.oil = slot1.oil + getProxy(BayProxy):getRawData()[slot7]:getStartBattleExpend()
 	end
 
 	return slot1
@@ -520,10 +518,9 @@ function slot0.getEndCost(slot0)
 		gold = 0,
 		oil = 0
 	}
-	slot2 = getProxy(BayProxy):getRawData()
 
 	for slot6, slot7 in ipairs(slot0.ships) do
-		slot1.oil = slot1.oil + slot2[slot7]:getEndBattleExpend()
+		slot1.oil = slot1.oil + getProxy(BayProxy):getRawData()[slot7]:getEndBattleExpend()
 	end
 
 	return slot1
@@ -531,12 +528,9 @@ end
 
 function slot0.GetGearScoreSum(slot0, slot1)
 	slot2 = nil
-	slot2 = (slot1 ~= nil or slot0.ships) and slot0:getTeamByName(slot1)
-	slot3 = 0
-	slot4 = getProxy(BayProxy):getRawData()
 
-	for slot8, slot9 in ipairs(slot2) do
-		slot3 = slot3 + slot4[slot9]:getShipCombatPower(slot0:getCommanders())
+	for slot8, slot9 in ipairs((slot1 ~= nil or slot0.ships) and slot0:getTeamByName(slot1)) do
+		slot3 = 0 + getProxy(BayProxy):getRawData()[slot9]:getShipCombatPower(slot0:getCommanders())
 	end
 
 	return slot3
@@ -547,37 +541,37 @@ function slot0.GetEnergyStatus(slot0)
 	slot3 = ""
 	slot4 = getProxy(BayProxy)
 
-	slot5(slot0.mainShips)
-	slot5(slot0.vanguardShips)
-
-	-- Decompilation error in this vicinity:
-	function (slot0)
-		for slot4 = 1, 3, 1 do
-			if slot0[slot4] and slot0:getShipById(slot0[slot4]).energy == Ship.ENERGY_LOW then
-				slot1 = true
-				slot2 = slot2 .. "「" .. slot5:getConfig("name") .. "」"
+	function slot5(slot0)
+		for slot4 = 1, 3 do
+			if slot0[slot4] and uv0:getShipById(slot0[slot4]).energy == Ship.ENERGY_LOW then
+				uv1 = true
+				uv2 = uv2 .. "「" .. slot5:getConfig("name") .. "」"
 			end
 		end
-	end(slot0.subShips)
+	end
+
+	slot5(slot0.mainShips)
+	slot5(slot0.vanguardShips)
+	slot5(slot0.subShips)
 
 	if false then
-		return slot1, i18n("ship_energy_low_warn", (slot0.name == "" and slot0.DEFAULT_NAME[slot0.id]) or slot0.name, slot3)
+		slot2 = slot0.name == "" and uv0.DEFAULT_NAME[slot0.id] or slot0.name
 	end
+
+	return slot1, i18n("ship_energy_low_warn", slot2, slot3)
 end
 
 function slot0.genRobotDataString(slot0)
-	slot2 = getProxy(BayProxy).getRawData(slot1)
-	slot3 = "99999,"
+	slot2 = getProxy(BayProxy):getRawData()
 
-	for slot7 = 1, 3, 1 do
+	for slot7 = 1, 3 do
 		if slot0.vanguardShips[slot7] and slot0.vanguardShips[slot7] > 0 then
-			slot3 = slot3 .. slot2[slot0.vanguardShips[slot7]].configId .. "," .. slot2[slot0.vanguardShips[slot7]].level .. ",\"{"
+			slot11 = slot2[slot0.vanguardShips[slot7]].level
+			slot12 = ",\"{"
 
 			for slot11, slot12 in pairs(slot2[slot0.vanguardShips[slot7]]:getActiveEquipments()) do
-				slot3 = slot3 .. ((slot12 and slot12.id) or 0)
-
 				if slot11 < 5 then
-					slot3 = slot3 .. ","
+					slot3 = "99999," .. slot2[slot0.vanguardShips[slot7]].configId .. "," .. slot11 .. slot12 .. (slot12 and slot12.id or 0) .. ","
 				end
 			end
 
@@ -587,15 +581,14 @@ function slot0.genRobotDataString(slot0)
 		end
 	end
 
-	for slot7 = 1, 3, 1 do
+	for slot7 = 1, 3 do
 		if slot0.mainShips[slot7] and slot0.mainShips[slot7] > 0 then
-			slot3 = slot3 .. slot2[slot0.mainShips[slot7]].configId .. "," .. slot2[slot0.mainShips[slot7]].level .. ",\"{"
+			slot11 = slot2[slot0.mainShips[slot7]].level
+			slot12 = ",\"{"
 
 			for slot11, slot12 in pairs(slot2[slot0.mainShips[slot7]]:getActiveEquipments()) do
-				slot3 = slot3 .. ((slot12 and slot12.id) or 0)
-
 				if slot11 < 5 then
-					slot3 = slot3 .. ","
+					slot3 = slot3 .. slot2[slot0.mainShips[slot7]].configId .. "," .. slot11 .. slot12 .. (slot12 and slot12.id or 0) .. ","
 				end
 			end
 
@@ -609,10 +602,10 @@ function slot0.genRobotDataString(slot0)
 end
 
 function slot0.getIndex(slot0)
-	if slot0.SUBMARINE_FLEET_ID <= slot0.id and slot0.id < slot0.SUBMARINE_FLEET_ID + slot0.SUBMARINE_FLEET_NUMS then
-		return slot0.id - slot0.SUBMARINE_FLEET_ID + 1
-	elseif slot0.REGULAR_FLEET_ID <= slot0.id and slot0.id < slot0.REGULAR_FLEET_ID + slot0.REGULAR_FLEET_NUMS then
-		return slot0.id - slot0.REGULAR_FLEET_ID + 1
+	if uv0.SUBMARINE_FLEET_ID <= slot0.id and slot0.id < uv0.SUBMARINE_FLEET_ID + uv0.SUBMARINE_FLEET_NUMS then
+		return slot0.id - uv0.SUBMARINE_FLEET_ID + 1
+	elseif uv0.REGULAR_FLEET_ID <= slot0.id and slot0.id < uv0.REGULAR_FLEET_ID + uv0.REGULAR_FLEET_NUMS then
+		return slot0.id - uv0.REGULAR_FLEET_ID + 1
 	end
 
 	return slot0.id
@@ -623,32 +616,27 @@ function slot0.getShipCount(slot0)
 end
 
 function slot0.avgLevel(slot0)
-	slot1 = 0
-
 	for slot5, slot6 in ipairs(slot0.ships) do
-		slot1 = getProxy(BayProxy):getShipById(slot6).level + slot1
+		slot1 = getProxy(BayProxy):getShipById(slot6).level + 0
 	end
 
 	return math.floor(slot1 / #slot0.ships)
 end
 
 function slot0.clearFleet(slot0)
-	slot2 = getProxy(BayProxy)
-
-	for slot6, slot7 in ipairs(slot1) do
-		slot0:removeShip(slot2:getShipById(slot7))
+	for slot6, slot7 in ipairs(Clone(slot0.ships)) do
+		slot0:removeShip(getProxy(BayProxy):getShipById(slot7))
 	end
 end
 
 function slot0.EnergyCheck(slot0, slot1, slot2, slot3)
 	slot4 = slot3 or "ship_energy_low_warn"
 	slot5 = false
-	slot6 = ""
 
 	for slot10, slot11 in ipairs(slot0) do
 		if slot11.energy == Ship.ENERGY_LOW then
 			slot5 = true
-			slot6 = slot6 .. "「" .. slot11:getConfig("name") .. "」"
+			slot6 = "" .. "「" .. slot11:getConfig("name") .. "」"
 		end
 	end
 
@@ -656,7 +644,7 @@ function slot0.EnergyCheck(slot0, slot1, slot2, slot3)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n(slot4, slot1, slot6),
 			onYes = function ()
-				slot0()
+				uv0()
 			end,
 			weight = LayerWeightConst.TOP_LAYER
 		})
@@ -668,33 +656,27 @@ end
 function slot0.getFleetAirDominanceValue(slot0)
 	slot1 = getProxy(BayProxy)
 	slot2 = slot0:getCommanders()
-	slot3 = 0
 
 	for slot7, slot8 in ipairs(slot0.ships) do
-		slot3 = 
-		-- Decompilation error in this vicinity:
-		function (slot0, slot1)
-			return slot0 + calcAirDominanceValue(slot0:getShipById(slot1), slot1)
-		end(slot3, slot8)
+		slot3 = function (slot0, slot1)
+			return slot0 + calcAirDominanceValue(uv0:getShipById(slot1), uv1)
+		end(0, slot8)
 	end
 
 	return slot3
 end
 
 function slot0.RemoveUnusedItems(slot0)
-	slot2 = getProxy(BayProxy)
-
-	for slot6, slot7 in ipairs(slot1) do
-		if not slot2:getShipById(slot7) then
+	for slot6, slot7 in ipairs(Clone(slot0.ships)) do
+		if not getProxy(BayProxy):getShipById(slot7) then
 			slot0:removeShipById(slot7)
 		end
 	end
 
-	slot3 = getProxy(CommanderProxy)
 	slot4 = {}
 
 	for slot8, slot9 in pairs(slot0.commanderIds) do
-		if not slot3:getCommanderById(slot9) then
+		if not getProxy(CommanderProxy):getCommanderById(slot9) then
 			table.insert(slot4, slot8)
 		end
 	end
@@ -739,10 +721,8 @@ function slot0.removeShipById(slot0, slot1)
 end
 
 function slot0.HaveShipsInEvent(slot0)
-	slot1 = getProxy(BayProxy):getRawData()
-
 	for slot5, slot6 in ipairs(slot0.ships) do
-		if slot1[slot6].inEvent then
+		if getProxy(BayProxy):getRawData()[slot6].inEvent then
 			return true, i18n("elite_disable_ship_escort")
 		end
 	end

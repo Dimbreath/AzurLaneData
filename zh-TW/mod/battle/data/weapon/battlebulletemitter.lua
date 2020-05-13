@@ -1,10 +1,11 @@
 ys = ys or {}
+slot0 = ys
 slot1 = pg
-slot2 = ys.Battle.BattleConst
-slot3 = ys.Battle.BattleDataFunction
+slot2 = slot0.Battle.BattleConst
+slot3 = slot0.Battle.BattleDataFunction
 slot4 = math
 slot5 = class("BattleBulletEmitter")
-ys.Battle.BattleBulletEmitter = slot5
+slot0.Battle.BattleBulletEmitter = slot5
 slot5.__name = "BattleBulletEmitter"
 slot5.STATE_ACTIVE = "ACTIVE"
 slot5.STATE_STOP = "STOP"
@@ -13,8 +14,8 @@ function slot5.Ctor(slot0, slot1, slot2, slot3)
 	slot0._spawnFunc = slot1
 	slot0._stopFunc = slot2
 	slot0._barrageID = slot3
-	slot0._barrageTemp = slot0.GetBarrageTmpDataFromID(slot3)
-	slot0._convertedBarrage = slot0.GetConvertedBarrageTableFromID(slot3)
+	slot0._barrageTemp = uv0.GetBarrageTmpDataFromID(slot3)
+	slot0._convertedBarrage = uv0.GetConvertedBarrageTableFromID(slot3)
 	slot0._offsetPriority = slot0._barrageTemp.offset_prioritise
 	slot0._isRandomAngle = slot0._barrageTemp.random_angle
 	slot0._timerList = {}
@@ -30,7 +31,7 @@ function slot5.Ctor(slot0, slot1, slot2, slot3)
 	slot0._primalMax = slot0._barrageTemp.primal_repeat + 1
 
 	function slot0.timerCb(slot0)
-		slot0._timerList[slot0](slot0, slot0)
+		uv0._timerList[slot0](uv0, slot0)
 	end
 end
 
@@ -43,7 +44,7 @@ end
 
 function slot5.Fire(slot0, slot1, slot2)
 	slot0._target = slot1
-	slot0._dir = slot2 or slot0.UnitDir.RIGHT
+	slot0._dir = slot2 or uv0.UnitDir.RIGHT
 	slot0._convertedDirBarrage = slot0._convertedBarrage[slot0._dir]
 
 	slot0:SeniorIteration()
@@ -74,25 +75,26 @@ end
 
 function slot5.ClearAllTimer(slot0)
 	for slot4, slot5 in pairs(slot0._timerList) do
-		slot0.TimeMgr.GetInstance():RemoveBattleTimer(slot4)
+		uv0.TimeMgr.GetInstance():RemoveBattleTimer(slot4)
 	end
 
 	slot0._timerList = {}
 end
 
 function slot5.GenerateBullet(slot0)
-	slot0._delay = slot0._convertedDirBarrage[slot0._primalCounter].Delay
+	slot1 = slot0._convertedDirBarrage[slot0._primalCounter]
+	slot0._delay = slot1.Delay
 	slot3 = nil
 
-	if slot0._spawnFunc(slot0._convertedDirBarrage[slot0._primalCounter].OffsetX, slot1.OffsetZ, (slot0._isRandomAngle and (slot0.random() - 0.5) * slot1.Angle) or slot1.Angle, slot0._offsetPriority, slot0._target, slot0._primalCounter) then
-		slot4:SetBarrageTransformTempate(slot1.GenerateTransBarrage(slot0._barrageID, slot0._dir, slot0._primalCounter))
+	if slot0._spawnFunc(slot1.OffsetX, slot1.OffsetZ, slot0._isRandomAngle and (uv0.random() - 0.5) * slot1.Angle or slot1.Angle, slot0._offsetPriority, slot0._target, slot0._primalCounter) then
+		slot4:SetBarrageTransformTempate(uv1.GenerateTransBarrage(slot0._barrageID, slot0._dir, slot0._primalCounter))
 	end
 
 	slot0:Interation()
 end
 
 function slot5.DelaySeniorFunc(slot0, slot1)
-	slot0.TimeMgr.GetInstance():RemoveBattleTimer(slot1)
+	uv0.TimeMgr.GetInstance():RemoveBattleTimer(slot1)
 
 	slot0._timerList[slot1] = nil
 
@@ -114,7 +116,7 @@ function slot5.SeniorIteration(slot0)
 		slot1 = nil
 
 		if ((slot0._seniorCounter ~= 0 or slot0._barrageTemp.first_delay) and slot0._barrageTemp.senior_delay) > 0 then
-			slot0._timerList[slot0.TimeMgr.GetInstance():AddBattleTimer("spawnBullet", -1, slot1, slot0.timerCb, true)] = slot0.DelaySeniorFunc
+			slot0._timerList[uv0.TimeMgr.GetInstance():AddBattleTimer("spawnBullet", -1, slot1, slot0.timerCb, true)] = slot0.DelaySeniorFunc
 		else
 			slot0:PrimalIteration()
 		end
@@ -142,7 +144,7 @@ function slot5.DelayPrimalConst(slot0, slot1)
 	slot0:GenerateBullet()
 
 	if slot0._primalMax < slot0._primalCounter then
-		slot0.TimeMgr.GetInstance():RemoveBattleTimer(slot1)
+		uv0.TimeMgr.GetInstance():RemoveBattleTimer(slot1)
 
 		slot0._timerList[slot1] = nil
 
@@ -155,11 +157,11 @@ function slot5._averagePrimalIteration(slot0)
 		return
 	end
 
-	slot0._timerList[slot0.TimeMgr.GetInstance():AddBattleTimer("spawnBullet", -1, slot0._delay, slot0.timerCb, true)] = slot0.DelayPrimalConst
+	slot0._timerList[uv0.TimeMgr.GetInstance():AddBattleTimer("spawnBullet", -1, slot0._delay, slot0.timerCb, true)] = slot0.DelayPrimalConst
 end
 
 function slot5.DelayPrimalAdvance(slot0, slot1)
-	slot0.TimeMgr.GetInstance():RemoveBattleTimer(slot1)
+	uv0.TimeMgr.GetInstance():RemoveBattleTimer(slot1)
 
 	slot0._timerList[slot1] = nil
 
@@ -186,7 +188,7 @@ function slot5._advancePrimalIteration(slot0)
 			slot0:PrimalIteration()
 		end
 	else
-		slot0._timerList[slot0.TimeMgr.GetInstance():AddBattleTimer("spawnBullet", -1, slot0._delay, slot0.timerCb, true)] = slot0.DelayPrimalAdvance
+		slot0._timerList[uv0.TimeMgr.GetInstance():AddBattleTimer("spawnBullet", -1, slot0._delay, slot0.timerCb, true)] = slot0.DelayPrimalAdvance
 	end
 end
 
@@ -203,5 +205,3 @@ function slot5._nonDelayPrimalIteration(slot0)
 		slot0:PrimalIteration()
 	end
 end
-
-return

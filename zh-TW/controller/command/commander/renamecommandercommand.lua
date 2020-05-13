@@ -1,7 +1,10 @@
-class("RenameCommanderCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot4 = slot1:getBody().name
+slot0 = class("RenameCommanderCommand", pm.SimpleCommand)
 
-	if not getProxy(CommanderProxy):getCommanderById(slot1.getBody().commanderId) then
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot4 = slot2.name
+
+	if not getProxy(CommanderProxy):getCommanderById(slot2.commanderId) then
 		return
 	end
 
@@ -31,14 +34,14 @@ class("RenameCommanderCommand", pm.SimpleCommand).execute = function (slot0, slo
 		name = slot4
 	}, 25021, function (slot0)
 		if slot0.result == 0 then
-			slot0:setName(slot0.setName)
-			slot0:setRenameTime(slot2)
-			slot2:updateCommander(slot0)
-			slot2.updateCommander:sendNotification(GAME.COMMANDER_RENAME_DONE)
+			uv0:setName(uv1)
+			uv0:setRenameTime(pg.TimeMgr.GetInstance():GetServerTime() + pg.gameset.commander_rename_coldtime.key_value)
+			uv2:updateCommander(uv0)
+			uv3:sendNotification(GAME.COMMANDER_RENAME_DONE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("rename_commander_erro", slot0.result))
 		end
 	end)
 end
 
-return class("RenameCommanderCommand", pm.SimpleCommand)
+return slot0

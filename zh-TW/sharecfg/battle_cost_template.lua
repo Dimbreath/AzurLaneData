@@ -207,5 +207,3 @@ pg.battle_cost_template = {
 		99
 	}
 }
-
-return

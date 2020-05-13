@@ -21,5 +21,3 @@ pg.item_data_frame = {
 		1001
 	}
 }
-
-return

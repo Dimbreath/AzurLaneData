@@ -3241,5 +3241,3 @@ pg.technology_data_template = {
 		1025
 	}
 }
-
-return
