@@ -2,17 +2,15 @@ slot0 = class("BackYardGarnitureLayer", import("..base.BaseUI"))
 
 function slot0.preload(slot0, slot1)
 	PoolMgr.GetInstance():GetUI("BackYardIndexUI", true, function (slot0)
-		slot0.filterTF = tf(slot0)
+		uv0.filterTF = tf(slot0)
 
-		slot0()
+		uv1()
 	end)
 end
 
 function slot0.SORT_FUNC(slot0, slot1, slot2, slot3)
-	slot3 = slot3 or 1
-
-	if ((slot2:getSameConfigIdCount(slot0.configId) == slot0.count and 1) or 0) == ((slot2:getSameConfigIdCount(slot1.configId) == slot1.count and 1) or 0) then
-		if slot3 == BackYardShopFilterPanel.ORDER_MODE_ASC then
+	if (slot2:getSameConfigIdCount(slot0.configId) == slot0.count and 1 or 0) == (slot2:getSameConfigIdCount(slot1.configId) == slot1.count and 1 or 0) then
+		if (slot3 or 1) == BackYardShopFilterPanel.ORDER_MODE_ASC then
 			return slot0.id < slot1.id
 		else
 			return slot1.id < slot0.id
@@ -79,16 +77,14 @@ function slot0.didEnter(slot0)
 	slot0:initThemeBox()
 	slot0:initDecorations()
 
-	slot1 = slot0:findTF("types", slot0.decoratePanel)
-
-	for slot5 = 0, 6, 1 do
+	for slot5 = 0, 6 do
 		slot7 = slot5
 
-		onToggle(slot0, slot1:GetChild(slot5), function (slot0)
+		onToggle(slot0, slot0:findTF("types", slot0.decoratePanel):GetChild(slot5), function (slot0)
 			if slot0 then
-				slot0:filter(slot0.filter)
+				uv0:filter(uv1)
 
-				slot0.contextData.index = slot0.contextData
+				uv0.contextData.index = uv1
 			end
 		end, SFX_PANEL)
 
@@ -98,39 +94,39 @@ function slot0.didEnter(slot0)
 	end
 
 	onButton(slot0, slot0.saveBtn, function ()
-		slot0:emit(BackYardGarnitureMediator.SAVE_FURNITURE)
+		uv0:emit(BackYardGarnitureMediator.SAVE_FURNITURE)
 	end, SFX_FURNITRUE_SAVE)
 	onButton(slot0, slot0.clearBtn, function ()
-		slot0:emit(BackYardGarnitureMediator.ClEAR_FURNITURE, true)
+		uv0:emit(BackYardGarnitureMediator.ClEAR_FURNITURE, true)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.shopBtn, function ()
-		slot0:emit(BackYardGarnitureMediator.OPEN_SHOP)
-		setActive(slot0._tf, false)
+		uv0:emit(BackYardGarnitureMediator.OPEN_SHOP)
+		setActive(uv0._tf, false)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.filterBtn, function ()
-		slot0:showFilterPanel()
+		uv0:showFilterPanel()
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.sortBtn, function (slot0)
-		slot0.orderMode = (slot0 and BackYardShopFilterPanel.ORDER_MODE_ASC) or BackYardShopFilterPanel.ORDER_MODE_DASC
+		uv0.orderMode = slot0 and BackYardShopFilterPanel.ORDER_MODE_ASC or BackYardShopFilterPanel.ORDER_MODE_DASC
 
-		setActive(slot0.sortBtnAsc, slot0)
-		setActive(slot0.sortBtnDasc, not slot0)
+		setActive(uv0.sortBtnAsc, slot0)
+		setActive(uv0.sortBtnDasc, not slot0)
 
-		if slot0.indexPanel then
-			slot0.indexPanel:filterFurnitures(slot0.decorationVOs, slot0.orderMode)
-			slot0.scrollRect:SetTotalCount(#slot0.decorationVOs, slot0.contextData.rectValue or 0)
+		if uv0.indexPanel then
+			uv0.indexPanel:filterFurnitures(uv0.decorationVOs, uv0.orderMode)
+			uv0.scrollRect:SetTotalCount(#uv0.decorationVOs, uv0.contextData.rectValue or 0)
 		else
-			slot0:filter(slot0.contextData.index or 0)
+			uv0:filter(uv0.contextData.index or 0)
 		end
 	end, SFX_PANEL, SFX_PANEL)
 	triggerToggle(slot0.sortBtn, true)
 	onInputChanged(slot0, slot0.searchBar, function (slot0)
-		slot0.searchKey = slot0
+		uv0.searchKey = slot0
 
-		if (slot0.contextData.index or 0) == 0 then
-			slot0:filterTheme()
+		if (uv0.contextData.index or 0) == 0 then
+			uv0:filterTheme()
 		else
-			slot0:filter(slot1)
+			uv0:filter(slot1)
 		end
 	end)
 end
@@ -171,11 +167,11 @@ function slot0.initThemes(slot0)
 		slot0.themeRect = slot0.themesPanel:GetComponent("LScrollRect")
 
 		function slot0.themeRect.onInitItem(slot0)
-			slot0:onInitTheme(slot0)
+			uv0:onInitTheme(slot0)
 		end
 
 		function slot0.themeRect.onUpdateItem(slot0, slot1)
-			slot0:onUpdateTheme(slot0, slot1)
+			uv0:onUpdateTheme(slot0, slot1)
 		end
 
 		slot0.themeTFs = {}
@@ -195,16 +191,16 @@ function slot0.onInitTheme(slot0, slot1)
 	slot2 = slot0:createDecoration(slot1)
 
 	onButton(slot0, slot2.go, function ()
-		slot0.selectThemeVO = slot1.themeVO
+		uv0.selectThemeVO = uv1.themeVO
 
-		slot0:openThemeBox()
+		uv0:openThemeBox()
 	end)
 	onButton(slot0, slot2.add, function ()
-		slot0.selectThemeVO = {
+		uv0.selectThemeVO = {
 			id = 0
 		}
 
-		slot0:openThemeBox()
+		uv0:openThemeBox()
 	end)
 
 	slot0.themeTFs[slot1] = slot2
@@ -222,17 +218,15 @@ end
 
 function slot0.filterTheme(slot0)
 	slot0.themeVOs = {}
-	slot1 = ipairs
-	slot2 = slot0.allThemeVOs or {}
 
-	for slot4, slot5 in slot1(slot2) do
+	for slot4, slot5 in ipairs(slot0.allThemeVOs or {}) do
 		if slot5:isBought(slot0.furnitureVOs) and slot5:isMatchSearchKey(slot0.searchKey) then
 			table.insert(slot0.themeVOs, slot5)
 		end
 	end
 
 	table.sort(slot0.themeVOs, function (slot0, slot1)
-		if ((slot0:isUsing(slot0.curHouse) and 0) or 1) == ((slot1:isUsing(slot0.curHouse) and 0) or 1) then
+		if (slot0:isUsing(uv0.curHouse) and 0 or 1) == (slot1:isUsing(uv0.curHouse) and 0 or 1) then
 			if slot0.type == slot1.type then
 				return slot0.id < slot1.id
 			else
@@ -243,11 +237,9 @@ function slot0.filterTheme(slot0)
 		end
 	end)
 
-	slot1 = 0
-
 	for slot5, slot6 in ipairs(slot0.themeVOs) do
 		if slot6.type == BackYardTheme.TYPE_USER then
-			slot1 = slot1 + 1
+			slot1 = 0 + 1
 		end
 	end
 
@@ -266,8 +258,8 @@ function slot0.applyTheme(slot0, slot1)
 	slot4 = pg.furniture_data_template
 
 	table.sort(slot1, function (slot0, slot1)
-		if ((slot0.parent ~= 0 and 1) or 0) == ((slot1.parent ~= 0 and 1) or 0) then
-			if ((slot0[slot0.id] and slot0[slot0.id].type == Furniture.TYPE_STAGE and 1) or 0) == ((slot0[slot1.id] and slot0[slot1.id].type == Furniture.TYPE_STAGE and 1) or 0) then
+		if (slot0.parent ~= 0 and 1 or 0) == (slot1.parent ~= 0 and 1 or 0) then
+			if (uv0[slot0.id] and uv0[slot0.id].type == Furniture.TYPE_STAGE and 1 or 0) == (uv0[slot1.id] and uv0[slot1.id].type == Furniture.TYPE_STAGE and 1 or 0) then
 				return table.getCount(slot1.child or {}) < table.getCount(slot0.child or {})
 			else
 				return slot5 < slot4
@@ -279,8 +271,8 @@ function slot0.applyTheme(slot0, slot1)
 
 	for slot8, slot9 in ipairs(slot1) do
 		table.insert(slot2, function (slot0)
-			if Furniture.New(slot0).position then
-				slot1:emit(BackYardGarnitureMediator.ADD_FURNITURE, slot1, slot0)
+			if Furniture.New(uv0).position then
+				uv1:emit(BackYardGarnitureMediator.ADD_FURNITURE, slot1, slot0)
 			else
 				slot0()
 			end
@@ -290,7 +282,7 @@ function slot0.applyTheme(slot0, slot1)
 	pg.UIMgr.GetInstance():LoadingOn()
 	seriesAsync(slot2, function ()
 		pg.UIMgr.GetInstance():LoadingOff()
-		pg.UIMgr.GetInstance().LoadingOff:filterTheme()
+		uv0:filterTheme()
 	end)
 end
 
@@ -298,7 +290,7 @@ function slot0.getCloneFurniture(slot0, slot1)
 	slot3 = Clone(slot1)
 
 	if slot0.furnitruesPackage.furnitures[slot1.id] and not slot1:isPaper() then
-		for slot7 = 1, slot1.count - 1, 1 do
+		for slot7 = 1, slot1.count - 1 do
 			if not slot2.furnitures[slot1:getCloneId(slot7)] then
 				slot3.id = slot8
 
@@ -327,8 +319,10 @@ function slot0.createDecoration(slot0, slot1)
 			SetActive(slot0.maskTF, slot2.furnitures[slot1.id])
 
 			if slot1.count > 1 then
+				slot3 = slot2:getSameConfigIdCount(slot1.configId)
+
 				setText(slot0.count, slot3 .. "/" .. slot1.count)
-				SetActive(slot0.maskTF, slot2:getSameConfigIdCount(slot1.configId) == slot1.count)
+				SetActive(slot0.maskTF, slot3 == slot1.count)
 			else
 				setText(slot0.count, "")
 			end
@@ -357,43 +351,43 @@ function slot0.initDecorations(slot0)
 	slot0:filter(slot0.contextData.index or 0)
 
 	function slot0.scrollRect.onInitItem(slot0)
-		slot0:initDecoration(slot0)
+		uv0:initDecoration(slot0)
 	end
 
 	function slot0.scrollRect.onUpdateItem(slot0, slot1)
-		slot0:updateDecoration(slot0, slot1)
+		uv0:updateDecoration(slot0, slot1)
 	end
 
 	slot0.rightEventTrigger = pressPersistTrigger(slot0.rightBtn, 0.1, function ()
-		if #slot0.decorationVOs == 0 then
+		if #uv0.decorationVOs == 0 then
 			return
 		end
 
-		slot0.scrollRect:ScrollTo(math.min(slot0.scrollRect.value + 0.1, 1))
-	end, nil, nil, nil, nil, SFX_PANEL)
+		uv0.scrollRect:ScrollTo(math.min(uv0.scrollRect.value + 0.1, 1))
+	end, nil, , , , SFX_PANEL)
 	slot0.leftEventTrigger = pressPersistTrigger(slot0.leftBtn, 0.1, function ()
-		slot0.scrollRect:ScrollTo(math.max(slot0.scrollRect.value - 0.1, 0))
-	end, nil, nil, nil, nil, SFX_PANEL)
+		uv0.scrollRect:ScrollTo(math.max(uv0.scrollRect.value - 0.1, 0))
+	end, nil, , , , SFX_PANEL)
 end
 
 function slot0.initDecoration(slot0, slot1)
 	slot2 = slot0:createDecoration(slot1)
 
 	onButton(slot0, slot2.go, function ()
-		if not slot0.curHouse:canPutFurniture(slot1.furniture) then
+		if not uv0.curHouse:canPutFurniture(uv1.furniture) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_cant_put_tip"))
 
 			return
 		end
 
-		slot0.furnitureVOs[slot1.furniture.id].isNew = nil
+		uv0.furnitureVOs[uv1.furniture.id].isNew = nil
 
-		slot1.furniture:clearPosition()
-		slot0:emit(BackYardGarnitureMediator.ADD_FURNITURE, slot1.furniture.clearPosition:getCloneFurniture(slot1.furniture))
+		uv1.furniture:clearPosition()
+		uv0:emit(BackYardGarnitureMediator.ADD_FURNITURE, uv0:getCloneFurniture(uv1.furniture))
 	end, SFX_PANEL)
 	onButton(slot0, slot2.maskTF, function ()
-		if slot0.furniture:isPaper() then
-			slot1:emit(BackYardGarnitureMediator.REMOVE_PAPER, slot0.furniture:getConfig("type"))
+		if uv0.furniture:isPaper() then
+			uv1:emit(BackYardGarnitureMediator.REMOVE_PAPER, uv0.furniture:getConfig("type"))
 		end
 	end, SFX_PANEL)
 
@@ -425,7 +419,7 @@ function slot0.filter(slot0, slot1)
 		slot0.indexPanel:filterFurnitures(slot0.decorationVOs)
 	else
 		table.sort(slot0.decorationVOs, function (slot0, slot1)
-			return slot0:SORT_FUNC(slot1, slot1.furnitruesPackage, slot1.orderMode)
+			return uv0.SORT_FUNC(slot0, slot1, uv1.furnitruesPackage, uv1.orderMode)
 		end)
 	end
 
@@ -450,10 +444,7 @@ function slot0.filterAll(slot0, slot1)
 
 	if slot1 == BackYardConst.TAG_INDEX_THEME then
 		setText(slot0.limitText, "")
-
-		slot3 = slot0.themeVOs or {}
-
-		slot0:enableBothBtn(table.getCount(slot0.enableBothBtn) == 0)
+		slot0:enableBothBtn(table.getCount(slot0.themeVOs or {}) == 0)
 
 		return
 	end
@@ -466,8 +457,9 @@ function slot0.filterAll(slot0, slot1)
 end
 
 function slot0.enableBothBtn(slot0, slot1)
-	slot0.rightCG.alpha = (slot1 and 0.2) or 1
-	slot0.leftCG.alpha = (slot1 and 0.2) or 1
+	slot2 = slot1 and 0.2 or 1
+	slot0.rightCG.alpha = slot2
+	slot0.leftCG.alpha = slot2
 end
 
 function slot0.updateTips(slot0, slot1)
@@ -477,7 +469,7 @@ function slot0.updateTips(slot0, slot1)
 		return
 	end
 
-	setText(slot0.limitText, slot2 .. "/" .. pg.dorm_data_template[slot0.curHouse.level].limit[slot1])
+	setText(slot0.limitText, slot0.curHouse:getCountByIndex(slot1) .. "/" .. pg.dorm_data_template[slot0.curHouse.level].limit[slot1])
 end
 
 function slot0.updateDecorationTF(slot0, slot1)
@@ -509,40 +501,52 @@ function slot0.initThemeBox(slot0)
 	slot0.selectThemeVO = nil
 
 	onButton(slot0, slot0.themebox, function ()
-		slot0:closeThemeBox()
+		uv0:closeThemeBox()
 	end)
 	onButton(slot0, slot0.themeCancelBtn, function ()
-		slot0:closeThemeBox()
+		uv0:closeThemeBox()
 	end)
 	onButton(slot0, slot0.themeDeleteBtn, function ()
-		slot0:emit(BackYardGarnitureMediator.DELETE_THEME, slot0.selectThemeVO.id)
+		uv0:emit(BackYardGarnitureMediator.DELETE_THEME, uv0.selectThemeVO.id)
 	end)
 	onButton(slot0, slot0.themeSaveBtn, function ()
-		if table.getCount(slot0.curHouse.furnitures) == 0 then
+		if table.getCount(uv0.curHouse.furnitures) == 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_save_empty_theme"))
 
 			return
 		end
 
-		if wordVer(slot0) > 0 then
+		if wordVer(getInputText(uv0.themeInput)) > 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_theme_name_forbid"))
 
 			return
 		end
 
-		slot0:emit(BackYardGarnitureMediator.SAVE_THEME, slot0.dormProxy:getNewID(), slot0)
-		slot0:closeThemeBox()
+		uv0:emit(BackYardGarnitureMediator.SAVE_THEME, uv0.dormProxy:getNewID(), slot0)
+		uv0:closeThemeBox()
 	end)
 	onButton(slot0, slot0.themeSetBtn, function ()
-		if slot0.selectThemeVO:isOccupyed(slot0.furnitruesPackage, slot0.contextData.floor) then
-			slot0:openMsgBox(i18n("backyarad_theme_replace", slot0.selectThemeVO:getName()), function ()
-				slot0.selectThemeVO(Clone(slot0.selectThemeVO:getUsableFurnituresForFloor(slot0.furnitruesPackage, slot0.contextData.floor)))
-				slot0:closeMsgBox()
+		function slot0(slot0)
+			if table.getCount(slot0) == 0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardScene_error_noFurniture"))
+
+				return
+			end
+
+			uv0:emit(BackYardGarnitureMediator.ClEAR_FURNITURE)
+			uv0:applyTheme(slot0)
+			uv0:closeThemeBox()
+		end
+
+		if uv0.selectThemeVO:isOccupyed(uv0.furnitruesPackage, uv0.contextData.floor) then
+			uv0:openMsgBox(i18n("backyarad_theme_replace", uv0.selectThemeVO:getName()), function ()
+				uv1(Clone(uv0.selectThemeVO:getUsableFurnituresForFloor(uv0.furnitruesPackage, uv0.contextData.floor)))
+				uv0:closeMsgBox()
 			end)
 		else
 			slot3 = {}
 
-			for slot7, slot8 in pairs(Clone(slot2)) do
+			for slot7, slot8 in pairs(Clone(uv0.selectThemeVO.furnitruesByIds)) do
 				table.insert(slot3, slot8)
 			end
 
@@ -550,8 +554,8 @@ function slot0.initThemeBox(slot0)
 		end
 	end)
 	onInputChanged(slot0, slot0.themeInput, function ()
-		if slot0.selectThemeVO.id <= 0 then
-			setText(slot0.themeDesc, i18n("backyard_theme_save_tip", getInputText(slot0.themeInput)))
+		if uv0.selectThemeVO.id <= 0 then
+			setText(uv0.themeDesc, i18n("backyard_theme_save_tip", getInputText(uv0.themeInput)))
 		end
 	end)
 end
@@ -565,12 +569,14 @@ function slot0.openThemeBox(slot0)
 
 	if slot0.selectThemeVO.id > 0 then
 		setText(slot0.themeNameText, slot0.selectThemeVO:getName())
-		setText(slot0.themeDesc, i18n("backyard_theme_set_tip", slot1))
+		setText(slot0.themeDesc, i18n("backyard_theme_set_tip", slot0.selectThemeVO:getName()))
 
 		slot0.themeIcon.sprite = LoadSprite("furnitureicon/" .. slot0.selectThemeVO:getIcon("icon"))
 	else
+		slot1 = slot0.dormProxy:getNewID()
+
 		setInputText(slot0.themeInput, i18n("backyard_theme_defaultname") .. slot1)
-		setText(slot0.themeDesc, i18n("backyard_theme_save_tip", i18n("backyard_theme_defaultname") .. slot0.dormProxy:getNewID()))
+		setText(slot0.themeDesc, i18n("backyard_theme_save_tip", i18n("backyard_theme_defaultname") .. slot1))
 
 		slot0.themeIcon.sprite = LoadSprite("furnitureicon/default_theme")
 	end
@@ -599,8 +605,8 @@ function slot0.openMsgBox(slot0, slot1, slot2)
 	slot0.msgboxContent.text = slot1
 
 	onButton(slot0, slot0.msgboxComfirmBtn, function ()
-		if slot0 then
-			slot0()
+		if uv0 then
+			uv0()
 		end
 	end, SFX_PANEL)
 end
@@ -618,8 +624,8 @@ function slot0.showFilterPanel(slot0)
 		slot0.indexPanel:attach(slot0)
 
 		function slot0.indexPanel.confirmFunc()
-			setText(slot0.filterBtn:Find("Text"), slot0.indexPanel.sortTxt)
-			slot0(setText, slot0.contextData.index or 0)
+			setText(uv0.filterBtn:Find("Text"), uv0.indexPanel.sortTxt)
+			uv0:SetTotalCount(uv0.contextData.index or 0)
 		end
 	end
 

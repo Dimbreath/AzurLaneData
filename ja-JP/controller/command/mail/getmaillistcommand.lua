@@ -1,7 +1,11 @@
-class("GetMailListCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("GetMailListCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+
 	pg.ConnectionMgr.GetInstance():Send(30002, {
-		type = slot1:getBody().type,
-		split_id = slot1.getBody().splitId
+		type = slot2.type,
+		split_id = slot2.splitId
 	}, 30003, function (slot0)
 		slot1 = getProxy(MailProxy)
 
@@ -18,4 +22,4 @@ class("GetMailListCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end)
 end
 
-return class("GetMailListCommand", pm.SimpleCommand)
+return slot0

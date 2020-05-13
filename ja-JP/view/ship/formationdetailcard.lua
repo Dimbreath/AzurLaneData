@@ -36,11 +36,11 @@ end
 
 function slot0.getState(slot0)
 	if slot0.isLocked then
-		return slot0
+		return uv0
 	elseif slot0.shipVO then
-		return slot1
+		return uv1
 	elseif not slot0.isLocked and not slot0.shipVO then
-		return slot2
+		return uv2
 	end
 end
 
@@ -53,10 +53,11 @@ function slot0.flush(slot0)
 		end)
 	end
 
-	if slot1 == slot0 then
-	elseif slot1 == slot1 then
+	if slot1 == uv0 then
+		-- Nothing
+	elseif slot1 == uv1 then
 		setAnchoredPosition(slot0.lvTxtTF, {
-			x = (slot0.shipVO:isBluePrintShip() and -18) or -7.5
+			x = slot0.shipVO:isBluePrintShip() and -18 or -7.5
 		})
 
 		slot0.lvTxt.text = "Lv." .. slot2.level
@@ -64,16 +65,16 @@ function slot0.flush(slot0)
 
 		slot0.UIlist:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
-				setActive(slot2:Find("star"), slot1 < slot0)
+				setActive(slot2:Find("star"), slot1 < uv0)
 			end
 		end)
-		slot0.UIlist:align(setAnchoredPosition)
+		slot0.UIlist:align(slot2:getMaxStar())
 		slot0.nameTxt:setText(slot2:getName())
 		slot0:updateProps({})
 		setPaintingPrefabAsync(slot0.paintingTr, slot2:getPainting(), "biandui")
-		setRectShipCardFrame(slot0.frame, slot0.shipVO:rarity2bgPrint(), (slot2.propose and "prop" .. ((slot2:isBluePrintShip() and ) or "")) or nil)
-		GetSpriteFromAtlasAsync("bg/star_level_card_" .. , "", function (slot0)
-			slot0.bgImage.sprite = slot0
+		setRectShipCardFrame(slot0.frame, slot0.shipVO:rarity2bgPrint(), slot2.propose and "prop" .. (slot2:isBluePrintShip() and slot5 or "") or nil)
+		GetSpriteFromAtlasAsync("bg/star_level_card_" .. slot5, "", function (slot0)
+			uv0.bgImage.sprite = slot0
 		end)
 		setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", shipType2print(slot0.shipVO:getShipType())))
 
@@ -81,37 +82,37 @@ function slot0.flush(slot0)
 		slot8 = false
 
 		if slot2.propose then
-			slot7 = "duang_6_jiehun" .. ((slot2:isBluePrintShip() and "_tuzhi") or "") .. "_1"
+			slot7 = "duang_6_jiehun" .. (slot2:isBluePrintShip() and "_tuzhi" or "") .. "_1"
 		elseif slot2:getRarity() == 6 then
 			slot7 = "duang_6_1"
 		end
 
 		if slot7 then
 			eachChild(slot0.otherBg, function (slot0)
-				setActive(slot0, slot0.name == slot0 .. "(Clone)")
+				setActive(slot0, slot0.name == uv0 .. "(Clone)")
 
-				slot1 = setActive or slot0.name == slot0 .. "(Clone)"
-				slot1 = slot1
+				uv1 = uv1 or slot0.name == uv0 .. "(Clone)"
 			end)
 
 			if not slot8 then
 				PoolMgr.GetInstance():GetPrefab("effect/" .. slot7, "", true, function (slot0)
-					setParent(slot0, slot0.otherBg)
+					setParent(slot0, uv0.otherBg)
 				end)
 			end
 		end
 
 		setActive(slot0.otherBg, slot7)
-	elseif slot1 == slot2 then
+	elseif slot1 == uv2 then
+		-- Nothing
 	end
 
-	setActive(slot0.lockTF, slot1 == slot0)
-	setActive(slot0.addTF, slot1 == setActive)
-	setActive(slot0.content, slot1 == slot1)
+	setActive(slot0.lockTF, slot1 == uv0)
+	setActive(slot0.addTF, slot1 == uv2)
+	setActive(slot0.content, slot1 == uv1)
 end
 
 function slot0.updateProps(slot0, slot1)
-	for slot5 = 0, 2, 1 do
+	for slot5 = 0, 2 do
 		slot6 = slot0.propsTr:GetChild(slot5)
 
 		if slot5 < #slot1 then

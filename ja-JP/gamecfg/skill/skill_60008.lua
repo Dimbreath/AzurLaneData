@@ -17,7 +17,11 @@ return {
 			targetAniEffect = {
 				effect = "aim",
 				posFun = function (slot0, slot1, slot2)
-					return Vector3((slot0.x - slot1.x) * (1 - math.min(1, slot2 / 40)), 1 * math.min(1, slot2 / 40), (math.min(1, slot2 / 40) >= 1 and 0) or (slot2 >= 0.8 and (slot0.z - slot1.z + (slot0.x - slot1.x) * (1 - math.min(1, slot2 / 40)) * math.min(1, slot2 / 40)) * (-4 * slot2 + 4)) or (slot2 >= 0.5 and (slot0.z - slot1.z + (slot0.x - slot1.x) * (1 - math.min(1, slot2 / 40)) * math.min(1, slot2 / 40)) * slot2) or (slot0.z - slot1.z + (slot0.x - slot1.x) * (1 - math.min(1, slot2 / 40)) * math.min(1, slot2 / 40)) * (1 - slot2))
+					slot2 = math.min(1, slot2 / 40)
+					slot3 = slot0.x - slot1.x
+					slot6 = slot0.z - slot1.z + slot3 * (1 - slot2) * slot2
+
+					return Vector3(slot3 * (1 - slot2), 1 * slot2, slot2 >= 1 and 0 or slot2 >= 0.8 and slot6 * (-4 * slot2 + 4) or slot2 >= 0.5 and slot6 * slot2 or slot6 * (1 - slot2))
 				end
 			}
 		}

@@ -36,7 +36,9 @@ return {
 					}
 				},
 				centerPosFun = function (slot0)
-					return Vector3(math.sin(slot1) * 4, -0.5, math.cos(slot0 * 3) * 4 + 5)
+					slot1 = slot0 * 3
+
+					return Vector3(math.sin(slot1) * 4, -0.5, math.cos(slot1) * 4 + 5)
 				end,
 				rotationFun = function (slot0)
 					return Vector3(0, slot0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 90, 0)
@@ -70,7 +72,9 @@ return {
 					}
 				},
 				centerPosFun = function (slot0)
-					return Vector3(math.sin(slot1) * 4, -0.5, math.cos(slot0 * 3 + ys.Battle.BattleConfig.SHIELD_CENTER_CONST) * 4 + 5)
+					slot1 = slot0 * 3 + ys.Battle.BattleConfig.SHIELD_CENTER_CONST
+
+					return Vector3(math.sin(slot1) * 4, -0.5, math.cos(slot1) * 4 + 5)
 				end,
 				rotationFun = function (slot0)
 					return Vector3(0, slot0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST - 90, 0)
@@ -104,7 +108,9 @@ return {
 					}
 				},
 				centerPosFun = function (slot0)
-					return Vector3(math.cos(slot1) * 6, -0.5, math.sin(slot0 * 3) * 6 + 5)
+					slot1 = slot0 * 3
+
+					return Vector3(math.cos(slot1) * 6, -0.5, math.sin(slot1) * 6 + 5)
 				end,
 				rotationFun = function (slot0)
 					return Vector3(0, -slot0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 180, 0)
@@ -138,7 +144,9 @@ return {
 					}
 				},
 				centerPosFun = function (slot0)
-					return Vector3(math.cos(slot1) * 6, -0.5, math.sin(slot0 * 3 + ys.Battle.BattleConfig.SHIELD_CENTER_CONST) * 6 + 5)
+					slot1 = slot0 * 3 + ys.Battle.BattleConfig.SHIELD_CENTER_CONST
+
+					return Vector3(math.cos(slot1) * 6, -0.5, math.sin(slot1) * 6 + 5)
 				end,
 				rotationFun = function (slot0)
 					return Vector3(0, -slot0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST + 0, 0)

@@ -905,5 +905,3 @@ pg.voice_actor_CN = {
 		code = 231
 	}
 }
-
-return

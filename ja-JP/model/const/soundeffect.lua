@@ -49,5 +49,3 @@ SFX_UI_BATTLE_WIN = "ui_battle_win"
 SFX_UI_BATTLE_LOSE = "ui_battle_lose"
 SFX_UI_BATTLE_POINT = "ui_battle_point"
 SFX_UI_BATTLE_LVLUP = "ui_battle_lvlup"
-
-return

@@ -26,20 +26,19 @@ function slot0.initUI(slot0)
 	slot0.backBtn = slot0:findTF("BackBtn")
 	slot0.buffListTF = slot0:findTF("Main/BuffList")
 
-	for slot4 = 1, 3, 1 do
+	for slot4 = 1, 3 do
 		onButton(slot0, slot0.buffListTF:GetChild(slot4 - 1), function ()
-			slot0.contextData.onSelect(slot1)
-			slot0.contextData.onSelect:Destroy()
+			uv0.contextData.onSelect(uv1)
+			uv0:Destroy()
 		end, SFX_PANEL)
 	end
 
 	onButton(slot0, slot0.backBtn, function ()
-		slot0:Destroy()
+		uv0:Destroy()
 	end, SFX_CANCEL)
 end
 
 function slot0.updateView(slot0)
-	return
 end
 
 return slot0

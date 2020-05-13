@@ -27,11 +27,11 @@ function slot0.didEnter(slot0)
 	slot0.tweens = {}
 
 	onButton(slot0, slot0.confirmBtn, function ()
-		if slot0.dormVO.food == 0 then
-			slot0:emit(BackYardSettlementMediator.OPEN_NOFOOD)
+		if uv0.dormVO.food == 0 then
+			uv0:emit(BackYardSettlementMediator.OPEN_NOFOOD)
 		end
 
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SOUND_BACK)
 	slot0:initPainting()
 	slot0:initAddExpInfo()
@@ -54,17 +54,15 @@ function slot0.initAddExpInfo(slot0)
 	setActive(slot0:findTF("ship_word/text_contain2"), slot0.dormVO.food ~= 0)
 	setActive(slot0:findTF("ship_word/Text"), slot0.dormVO.food == 0)
 
-	slot5 = slot0:getTpl("ship_tpl", setActive)
 	slot0.shipDescTF = {}
-	slot6 = table.getCount(slot0.newShipVOs)
 
 	for slot10, slot11 in pairs(slot0.newShipVOs) do
-		slot0.shipDescTF[slot11.id] = cloneTplTo(slot5, slot4)
+		slot0.shipDescTF[slot11.id] = cloneTplTo(slot0:getTpl("ship_tpl", slot0:findTF("container", slot0.frame)), slot4)
 
 		slot0:updateShip(slot11)
 
 		if slot11.level == slot11:getMaxLevel() then
-			slot6 = slot6 - 1
+			slot6 = table.getCount(slot0.newShipVOs) - 1
 		end
 	end
 
@@ -73,7 +71,7 @@ function slot0.initAddExpInfo(slot0)
 	if slot0.dormVO.food == 0 then
 		setText(slot3, i18n("backyard_backyardGranaryLayer_noFood"))
 	else
-		slot10 = string.split(slot9, "||")
+		slot10 = string.split(i18n("backyard_addExp_Info", pg.TimeMgr.GetInstance():DescCDTime(pg.TimeMgr.GetInstance():GetServerTime() - slot0.dormVO.load_time), slot0.dormVO.load_food, slot7), "||")
 		slot11 = slot0:findTF("ship_word/text_contain1")
 		slot12 = 0
 
@@ -98,62 +96,64 @@ end
 slot1 = 0.3
 
 function slot0.updateShip(slot0, slot1)
+	slot2 = slot0.shipDescTF[slot1.id]
+	slot3 = slot0.oldShipVOs[slot1.id]
 	slot5 = findTF(slot2, "exp/level"):GetComponent(typeof(Text))
-	slot6 = findTF(slot2, "addition_bg/Text").GetComponent(slot4, typeof(Text))
+	slot6 = findTF(slot2, "addition_bg/Text"):GetComponent(typeof(Text))
 	slot7 = slot0.dormVO.load_exp
 
-	if slot0.oldShipVOs[slot1.id].level == slot0.oldShipVOs[slot1.id]:getMaxLevel() then
+	if slot3.level == slot3:getMaxLevel() then
 		slot7 = 0
 	end
 
 	slot5.text = "LEVEL" .. slot3.level
 	slot8 = math.max(slot1:getLevelExpConfig().exp, 0.001)
-	slot9 = findTF(slot2, "exp/value"):GetComponent(typeof(Slider))
+	slot10 = slot1.level - slot3.level
 
-	TweenValue(slot4, 0, slot7, slot0 * (slot1.level - slot3.level + 1), 0, function (slot0)
-		slot0.text = "EXP+" .. math.floor(slot0)
+	TweenValue(slot4, 0, slot7, uv0 * (slot10 + 1), 0, function (slot0)
+		uv0.text = "EXP+" .. math.floor(slot0)
 	end)
 	table.insert(slot0.tweens, slot4)
 
-	if slot1.level - slot3.level > 0 then
-		TweenValue(slot9, slot3.exp, math.max(slot3:getLevelExpConfig().exp, 0.001), slot0, 0, function (slot0)
-			slot0:setSliderValue(slot0.setSliderValue, slot0 / slot2)
+	if slot10 > 0 then
+		TweenValue(findTF(slot2, "exp/value"):GetComponent(typeof(Slider)), slot3.exp, math.max(slot3:getLevelExpConfig().exp, 0.001), uv0, 0, function (slot0)
+			uv0:setSliderValue(uv1, slot0 / uv2)
 		end, function ()
 			playSoundEffect(SFX_BOAT_LEVEL_UP)
 
-			slot0 = playSoundEffect - 1
-			SFX_BOAT_LEVEL_UP.text = "LEVEL" .. slot2.level - SFX_BOAT_LEVEL_UP
+			uv0 = uv0 - 1
+			uv1.text = "LEVEL" .. uv2.level - uv0
 
-			if SFX_BOAT_LEVEL_UP > 0 then
-				TweenValue(slot3, 0, 1, slot4, 0, function (slot0)
-					slot0:setSliderValue(slot0.setSliderValue, slot0)
+			if uv0 > 0 then
+				TweenValue(uv3, 0, 1, uv4, 0, function (slot0)
+					uv0:setSliderValue(uv1, slot0)
 				end, function ()
 					playSoundEffect(SFX_BOAT_LEVEL_UP)
 
-					slot0 = playSoundEffect - 1
-					SFX_BOAT_LEVEL_UP.text = "LEVEL" .. slot2.level - SFX_BOAT_LEVEL_UP
+					uv0 = uv0 - 1
+					uv1.text = "LEVEL" .. uv2.level - uv0
 
-					if SFX_BOAT_LEVEL_UP == 0 then
-						TweenValue(slot3, 0, slot2.exp / slot4, slot5, 0, function (slot0)
-							slot0:setSliderValue(slot0.setSliderValue, slot0)
+					if uv0 == 0 then
+						TweenValue(uv3, 0, uv2.exp / uv4, uv5, 0, function (slot0)
+							uv0:setSliderValue(uv1, slot0)
 						end)
 					end
-				end, TweenValue)
+				end, uv0)
 			else
-				TweenValue(slot3, 0, slot2.exp / slot6, slot6, 0, function (slot0)
-					slot0:setSliderValue(slot0.setSliderValue, slot0)
+				TweenValue(uv3, 0, uv2.exp / uv6, uv4, 0, function (slot0)
+					uv0:setSliderValue(uv1, slot0)
 				end)
 			end
 		end)
 	else
-		TweenValue(slot9, slot3.exp, slot1.exp, slot0, 0, function (slot0)
-			slot0:setSliderValue(slot0.setSliderValue, slot0 / slot2)
+		TweenValue(slot9, slot3.exp, slot1.exp, uv0, 0, function (slot0)
+			uv0:setSliderValue(uv1, slot0 / uv2)
 		end)
 	end
 
 	table.insert(slot0.tweens, slot9)
 
-	slot0:findTF("icon", slot2).GetComponent(slot11, typeof(Image)).sprite = LoadSprite("HeroHrzIcon/" .. slot1:getPainting())
+	slot0:findTF("icon", slot2):GetComponent(typeof(Image)).sprite = LoadSprite("HeroHrzIcon/" .. slot1:getPainting())
 
 	setText(slot0:findTF("name_bg/Text", slot2), slot1:getName())
 end
@@ -169,10 +169,7 @@ end
 function slot0.willExit(slot0)
 	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UIMgr.UIMain)
 
-	slot1 = ipairs
-	slot2 = slot0.tweens or {}
-
-	for slot4, slot5 in slot1(slot2) do
+	for slot4, slot5 in ipairs(slot0.tweens or {}) do
 		if LeanTween.isTweening(go(slot5)) then
 			LeanTween.cancel(go(slot5))
 		end

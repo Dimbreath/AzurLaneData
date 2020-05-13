@@ -8,13 +8,13 @@ function slot0.register(slot0)
 	slot0.data = {}
 
 	slot0:on(11300, function (slot0)
-		slot0.data = {}
+		uv0.data = {}
 
 		for slot4, slot5 in ipairs(slot0.notice_list) do
-			table.insert(slot0.data, ServerNotice.New(slot5))
+			table.insert(uv0.data, ServerNotice.New(slot5))
 		end
 
-		slot0:sendNotification(slot1.SERVER_NOTICES_UPDATE)
+		uv0:sendNotification(uv1.SERVER_NOTICES_UPDATE)
 	end)
 end
 
@@ -33,11 +33,10 @@ end
 function slot0.getStopRemind(slot0)
 	slot1 = false
 
-	if PlayerPrefs.HasKey(slot0.KEY_STOP_REMIND) then
-		slot3 = PlayerPrefs.GetInt(slot0.KEY_STOP_REMIND)
+	if PlayerPrefs.HasKey(uv0.KEY_STOP_REMIND) then
 		slot4 = pg.TimeMgr.GetInstance()
 
-		if PlayerPrefs.GetInt(slot0.KEY_NEWLY_ID) == slot0:getUniqueCode() and slot4:IsSameDay(slot3, slot4:GetServerTime()) then
+		if PlayerPrefs.GetInt(uv0.KEY_NEWLY_ID) == slot0:getUniqueCode() and slot4:IsSameDay(PlayerPrefs.GetInt(uv0.KEY_STOP_REMIND), slot4:GetServerTime()) then
 			slot1 = true
 		end
 	end
@@ -47,22 +46,22 @@ end
 
 function slot0.setStopRemind(slot0, slot1)
 	if slot1 then
-		PlayerPrefs.SetInt(slot0.KEY_NEWLY_ID, slot0:getUniqueCode())
-		PlayerPrefs.SetInt(slot0.KEY_STOP_REMIND, pg.TimeMgr.GetInstance():GetServerTime())
+		PlayerPrefs.SetInt(uv0.KEY_NEWLY_ID, slot0:getUniqueCode())
+		PlayerPrefs.SetInt(uv0.KEY_STOP_REMIND, pg.TimeMgr.GetInstance():GetServerTime())
 	else
-		PlayerPrefs.DeleteKey(slot0.KEY_STOP_REMIND)
+		PlayerPrefs.DeleteKey(uv0.KEY_STOP_REMIND)
 	end
 
 	PlayerPrefs.Save()
 end
 
 function slot0.setStopMainTip(slot0)
-	PlayerPrefs.SetInt(slot0.KEY_STOP_TIP, slot0:getUniqueCode())
+	PlayerPrefs.SetInt(uv0.KEY_STOP_TIP, slot0:getUniqueCode())
 	PlayerPrefs.Save()
 end
 
 function slot0.isStopMainTip(slot0)
-	if PlayerPrefs.HasKey(slot0.KEY_STOP_TIP) and PlayerPrefs.GetInt(slot0.KEY_STOP_TIP) == slot0:getUniqueCode() then
+	if PlayerPrefs.HasKey(uv0.KEY_STOP_TIP) and PlayerPrefs.GetInt(uv0.KEY_STOP_TIP) == slot0:getUniqueCode() then
 		return true
 	end
 

@@ -1,4 +1,6 @@
-class("GuildFacilityUpgradeCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("GuildFacilityUpgradeCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if not getProxy(GuildProxy):getData() then
@@ -17,11 +19,11 @@ class("GuildFacilityUpgradeCommand", pm.SimpleCommand).execute = function (slot0
 		facility_id = slot2
 	}, 62047, function (slot0)
 		if slot0.result == 0 then
-			slot0:sendNotification(GAME.GUILD_FACILITY_UPGRADE_DONE)
+			uv0:sendNotification(GAME.GUILD_FACILITY_UPGRADE_DONE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("guild_fire_erro", slot0.result))
 		end
 	end)
 end
 
-return class("GuildFacilityUpgradeCommand", pm.SimpleCommand)
+return slot0

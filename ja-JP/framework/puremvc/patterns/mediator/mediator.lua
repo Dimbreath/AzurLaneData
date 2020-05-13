@@ -1,7 +1,7 @@
 slot1 = class("Mediator", import("..observer.Notifier"))
 
 function slot1.Ctor(slot0, slot1, slot2)
-	slot0.mediatorName = slot1 or slot0.__cname or slot0.NAME
+	slot0.mediatorName = slot1 or slot0.__cname or uv0.NAME
 	slot0.viewComponent = slot2
 end
 
@@ -24,15 +24,12 @@ function slot1.listNotificationInterests(slot0)
 end
 
 function slot1.handleNotification(slot0, slot1)
-	return
 end
 
 function slot1.onRegister(slot0)
-	return
 end
 
 function slot1.onRemove(slot0)
-	return
 end
 
 return slot1

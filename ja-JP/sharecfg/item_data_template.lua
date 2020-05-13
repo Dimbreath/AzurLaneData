@@ -21932,5 +21932,3 @@ pg.item_data_template = {
 		60012
 	}
 }
-
-return

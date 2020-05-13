@@ -45,7 +45,7 @@ function slot0.AddTimer(slot0, slot1, slot2, slot3, slot4)
 
 	if slot2 == DownloadState.CheckToUpdate or slot2 == DownloadState.UpdateFailure or slot2 == DownloadState.Updating then
 		slot0.live2dTimer = Timer.New(function ()
-			slot0.Update(slot2, slot0, (slot0.manager:CheckF(slot0.manager) == DownloadState.UpdateSuccess and true) or slot0)
+			uv0:Update(uv2, uv0.manager:CheckF(uv1) == DownloadState.UpdateSuccess and true or uv3)
 		end, 0.5, 1)
 
 		slot0.live2dTimer:Start()
@@ -59,7 +59,7 @@ function slot0.OnCheckToUpdate(slot0, slot1)
 	setActive(slot0.live2dOn, false)
 	setActive(slot0.live2dOff, true)
 	onButton(slot0, slot0.live2dBtn, function ()
-		slot0.manager:UpdateF(slot0.manager, true)
+		uv0.manager:UpdateF(uv1, true)
 	end, SFX_PANEL)
 end
 
@@ -71,13 +71,13 @@ function slot0.OnUpdating(slot0)
 end
 
 function slot0.OnUpdated(slot0, slot1, slot2)
-	setActive(slot0.live2dBtn, slot3)
+	setActive(slot0.live2dBtn, PathMgr.FileExists(PathMgr.getAssetBundle(slot1)))
 	setActive(slot0.live2dState, false)
 	setActive(slot0.live2dToggle, true)
 	setActive(slot0.live2dOn, slot2)
 	setActive(slot0.live2dOff, not slot2)
 	onButton(slot0, slot0.live2dBtn, function ()
-		slot0:Update(slot0.paintingName, not slot0.isOn)
+		uv0:Update(uv0.paintingName, not uv0.isOn)
 	end, SFX_PANEL)
 
 	if slot0.callback then

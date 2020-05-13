@@ -74,15 +74,15 @@ function slot0.init(slot0)
 	slot0.cardList = slot0:findTF("main/list_card/scroll"):GetComponent("LScrollRect")
 
 	function slot0.cardList.onInitItem(slot0)
-		slot0:onInitCard(slot0)
+		uv0:onInitCard(slot0)
 	end
 
 	function slot0.cardList.onUpdateItem(slot0, slot1)
-		slot0:onUpdateCard(slot0, slot1)
+		uv0:onUpdateCard(slot0, slot1)
 	end
 
 	function slot0.cardList.onReturnItem(slot0, slot1)
-		slot0:onReturnCard(slot0, slot1)
+		uv0:onReturnCard(slot0, slot1)
 	end
 
 	slot0.cardItems = {}
@@ -113,15 +113,15 @@ function slot0.init(slot0)
 	slot0.memoryList = slot0:findTF("main/list_memory"):GetComponent("LScrollRect")
 
 	function slot0.memoryList.onInitItem(slot0)
-		slot0:onInitMemory(slot0)
+		uv0:onInitMemory(slot0)
 	end
 
 	function slot0.memoryList.onUpdateItem(slot0, slot1)
-		slot0:onUpdateMemory(slot0, slot1)
+		uv0:onUpdateMemory(slot0, slot1)
 	end
 
 	function slot0.memoryList.onReturnItem(slot0, slot1)
-		slot0:onReturnMemory(slot0, slot1)
+		uv0:onReturnMemory(slot0, slot1)
 	end
 
 	slot0.memoryViewport = slot0:findTF("main/list_memory/viewport")
@@ -129,7 +129,7 @@ function slot0.init(slot0)
 	slot0.memoryItems = {}
 	slot0.memoryMask = slot0:findTF("blur_panel/adapt/story_mask")
 
-	setActive(slot2, false)
+	setActive(slot0:findTF("memory", slot0.memoryList), false)
 	setActive(slot0.memoryMask, false)
 
 	slot0.memoryTogGroup = slot0:findTF("memory", slot0.top)
@@ -151,12 +151,12 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		slot0.contextData.cardScrollValue = 0
+		uv0.contextData.cardScrollValue = 0
 
-		if slot0.contextData.toggles[4]:GetComponent(typeof(Toggle)).isOn and slot0.memories then
-			slot0:return2MemoryGroup()
+		if uv0.toggles[4]:GetComponent(typeof(Toggle)).isOn and uv0.memories then
+			uv0:return2MemoryGroup()
 		else
-			slot0:emit(slot1.ON_BACK)
+			uv0:emit(uv1.ON_BACK)
 		end
 	end, SFX_CANCEL)
 
@@ -169,35 +169,43 @@ function slot0.didEnter(slot0)
 			weight = LayerWeightConst.THIRD_LAYER
 		})
 	end, SFX_PANEL)
+
+	slot1 = slot0:findTF("stamp", slot0.leftPanel)
+
 	setActive(slot1, getProxy(TaskProxy):mingshiTouchFlagEnabled())
-	onButton(slot0, slot1, function ()
+
+	function slot5()
 		getProxy(TaskProxy):dealMingshiTouchFlag(8)
-	end, SFX_CONFIRM)
+	end
+
+	slot6 = SFX_CONFIRM
+
+	onButton(slot0, slot1, slot5, slot6)
 
 	for slot5, slot6 in ipairs(slot0.toggles) do
 		onToggle(slot0, slot6, function (slot0)
 			if slot0 then
-				if slot0 == 4 and slot1.memories then
-					slot1:return2MemoryGroup()
+				if uv0 == 4 and uv1.memories then
+					uv1:return2MemoryGroup()
 				end
 
-				if slot1.contextData.toggle ~= slot0 then
-					if slot1.contextData.toggle == 1 and slot1.contextData.cardToggle == 1 then
-						slot1.contextData.cardScrollValue = slot1.cardList.value
+				if uv1.contextData.toggle ~= uv0 then
+					if uv1.contextData.toggle == 1 and uv1.contextData.cardToggle == 1 then
+						uv1.contextData.cardScrollValue = uv1.cardList.value
 					end
 
-					slot1.contextData.toggle = slot0
+					uv1.contextData.toggle = uv0
 
-					if slot1.contextData.toggleUpdates[slot0] then
-						slot1[slot1.toggleUpdates[slot0]](slot1[slot1.toggleUpdates[slot0]])
-						slot1[slot1.toggleUpdates[slot0]]:calFavoriteRate()
+					if uv1.toggleUpdates[uv0] then
+						uv1[uv1.toggleUpdates[uv0]](uv1)
+						uv1:calFavoriteRate()
 					end
 				end
 
-				slot1(slot1.helpBtn, slot0 == 1)
+				setActive(uv1.helpBtn, uv0 == 1)
 
-				if slot0 == 1 and not getProxy(SettingsProxy):IsShowCollectionHelp() then
-					triggerButton(slot1.helpBtn)
+				if uv0 == 1 and not getProxy(SettingsProxy):IsShowCollectionHelp() then
+					triggerButton(uv1.helpBtn)
 					slot1:SetCollectionHelpFlag(true)
 				end
 			end
@@ -207,19 +215,19 @@ function slot0.didEnter(slot0)
 	for slot5, slot6 in ipairs(slot0.memoryToggles) do
 		onToggle(slot0, slot6, function (slot0)
 			if slot0 then
-				if slot0 == 1 then
-					slot1.memoryFilterIndex = {
+				if uv0 == 1 then
+					uv1.memoryFilterIndex = {
 						true,
 						true,
 						true
 					}
 				else
-					for slot4 in ipairs(slot1.memoryFilterIndex) do
-						slot1.memoryFilterIndex[slot4] = slot0 - 1 == slot4
+					for slot4 in ipairs(uv1.memoryFilterIndex) do
+						uv1.memoryFilterIndex[slot4] = uv0 - 1 == slot4
 					end
 				end
 
-				slot1:memoryFilter()
+				uv1:memoryFilter()
 			end
 		end, SFX_UI_TAG)
 	end
@@ -237,15 +245,15 @@ function slot0.didEnter(slot0)
 	for slot7, slot8 in ipairs(slot0.cardToggles) do
 		triggerToggle(slot8, slot0.contextData.cardToggle == slot7)
 		onToggle(slot0, slot8, function (slot0)
-			if slot0 and slot0.contextData.cardToggle ~=  then
-				if slot0.contextData.cardToggle == 1 then
-					slot0.contextData.cardScrollValue = slot0.cardList.value
+			if slot0 and uv0.contextData.cardToggle ~= uv1 then
+				if uv0.contextData.cardToggle == 1 then
+					uv0.contextData.cardScrollValue = uv0.cardList.value
 				end
 
-				slot0.contextData.cardToggle = slot0.contextData
+				uv0.contextData.cardToggle = uv1
 
-				slot0:initCardPanel()
-				slot0:calFavoriteRate()
+				uv0:initCardPanel()
+				uv0:calFavoriteRate()
 			end
 		end)
 	end
@@ -253,7 +261,7 @@ function slot0.didEnter(slot0)
 	slot0:initIndexPanel()
 	slot0:calFavoriteRate()
 	onButton(slot0, slot0.bonusPanel, function ()
-		slot0:closeBonus()
+		uv0:closeBonus()
 	end, SFX_PANEL)
 end
 
@@ -262,8 +270,10 @@ function slot0.updateCollectNotices(slot0, slot1)
 end
 
 function slot0.calFavoriteRate(slot0)
-	setActive(slot0:findTF("total/char", slot0.top), not (slot0.contextData.toggle == 1 and slot0.contextData.cardToggle == 2))
-	setActive(slot0:findTF("total/link", slot0.top), slot0.contextData.toggle == 1 and slot0.contextData.cardToggle == 2)
+	slot1 = slot0.contextData.toggle == 1 and slot0.contextData.cardToggle == 2
+
+	setActive(slot0:findTF("total/char", slot0.top), not slot1)
+	setActive(slot0:findTF("total/link", slot0.top), slot1)
 	setText(slot0:findTF("total/char/rate/Text", slot0.top), slot0.rate * 100 .. "%")
 	setText(slot0:findTF("total/char/count/Text", slot0.top), slot0.count .. "/" .. slot0.totalCount)
 	setText(slot0:findTF("total/link/count/Text", slot0.top), slot0.linkCount)
@@ -290,27 +300,27 @@ function slot0.initIndexPanel(slot0)
 	slot0.indexBtn = slot0:findTF("index_button", slot0.top)
 
 	onButton(slot0, slot0.indexBtn, function ()
-		slot0 = Clone(slot0.ShipIndex.display)
+		slot0 = Clone(uv0.ShipIndex.display)
 
-		if slot0.ShipIndex.display.contextData.toggle == 1 and slot1.contextData.cardToggle == 2 then
+		if uv1.contextData.toggle == 1 and uv1.contextData.cardToggle == 2 then
 			slot0.camp = nil
 		end
 
-		slot1:emit(slot0.ON_INDEX, {
+		uv1:emit(uv0.ON_INDEX, {
 			display = slot0,
-			index = slot0.ShipIndex.index,
-			camp = slot0.ShipIndex.camp,
-			rarity = slot0.ShipIndex.rarity,
+			index = uv0.ShipIndex.index,
+			camp = uv0.ShipIndex.camp,
+			rarity = uv0.ShipIndex.rarity,
 			callback = function (slot0)
-				slot0.ShipIndex.index = slot0.index
+				uv0.ShipIndex.index = slot0.index
 
 				if slot0.camp then
-					slot0.ShipIndex.camp = slot0.camp
+					uv0.ShipIndex.camp = slot0.camp
 				end
 
-				slot0.ShipIndex.rarity = slot0.rarity
+				uv0.ShipIndex.rarity = slot0.rarity
 
-				slot0.ShipIndex:initCardPanel()
+				uv1:initCardPanel()
 			end
 		})
 	end, SFX_PANEL)
@@ -321,25 +331,27 @@ function slot0.onInitCard(slot0, slot1)
 		return
 	end
 
-	onButton(slot0, CollectionShipCard.New(slot1).go, function ()
-		if slot0.state == ShipGroup.STATE_UNLOCK then
-			LeanTween.delayedCall(0.2, System.Action(function ()
-				slot0.contextData.cardScrollValue = slot0.cardList.value
+	slot2 = CollectionShipCard.New(slot1)
 
-				slot0.contextData:emit(slot1.SHOW_DETAIL, slot2.showTrans, slot2.shipGroup.id)
+	onButton(slot0, slot2.go, function ()
+		if uv0.state == ShipGroup.STATE_UNLOCK then
+			LeanTween.delayedCall(0.2, System.Action(function ()
+				uv0.contextData.cardScrollValue = uv0.cardList.value
+
+				uv0:emit(uv1.SHOW_DETAIL, uv2.showTrans, uv2.shipGroup.id)
 			end))
-		elseif slot0.state == ShipGroup.STATE_NOTGET then
-			if slot0.showTrans == true and slot0.shipGroup.trans == true then
+		elseif uv0.state == ShipGroup.STATE_NOTGET then
+			if uv0.showTrans == true and uv0.shipGroup.trans == true then
 				return
 			end
 
-			if slot0.config then
-				slot1:showObtain(slot0.config.description, slot0.shipGroup:getShipConfigId())
+			if uv0.config then
+				uv1:showObtain(uv0.config.description, uv0.shipGroup:getShipConfigId())
 			end
 		end
 	end, SOUND_BACK)
 
-	slot0.cardItems[slot1] = CollectionShipCard.New(slot1)
+	slot0.cardItems[slot1] = slot2
 end
 
 function slot0.showObtain(slot0, slot1, slot2)
@@ -391,24 +403,24 @@ end
 
 function slot0.cardFilter(slot0)
 	slot0.codeShips = {}
+	slot1 = _.filter(pg.ship_data_group.all, function (slot0)
+		return pg.ship_data_group[slot0].handbook_type == uv0.contextData.cardToggle - 1
+	end)
 	slot2 = _.min(slot1)
 	slot3 = _.max(slot1)
 
-	if slot0.ShipIndex.index == bit.lshift(1, IndexConst.IndexAll) and slot0.ShipIndex.rarity == bit.lshift(1, IndexConst.RarityAll) and slot0.contextData.cardToggle == 1 and slot0.ShipIndex.camp == bit.lshift(1, IndexConst.CampAll) then
-		for slot7 = slot2, slot3, 1 do
+	if uv0.ShipIndex.index == bit.lshift(1, IndexConst.IndexAll) and uv0.ShipIndex.rarity == bit.lshift(1, IndexConst.RarityAll) and slot0.contextData.cardToggle == 1 and uv0.ShipIndex.camp == bit.lshift(1, IndexConst.CampAll) then
+		for slot7 = slot2, slot3 do
 			slot8 = false
 			slot10 = false
 
 			if pg.ship_data_group[slot7] then
-				slot8 = slot0.shipGroups[slot9.group_type]
-				slot10 = Nation.IsLinkType(ShipGroup.getDefaultShipConfig(slot9.group_type).nationality)
-
-				if slot0.contextData.cardToggle == 1 and not slot10 then
+				if slot0.contextData.cardToggle == 1 and not Nation.IsLinkType(ShipGroup.getDefaultShipConfig(slot9.group_type).nationality) then
 					slot0.codeShips[#slot0.codeShips + 1] = {
 						showTrans = false,
 						id = slot7,
 						code = slot7,
-						group = slot8,
+						group = slot0.shipGroups[slot9.group_type],
 						index_id = slot9.index_id
 					}
 				elseif slot0.contextData.cardToggle == 2 and slot10 then
@@ -431,22 +443,19 @@ function slot0.cardFilter(slot0)
 			end
 		end
 	else
-		for slot7 = slot2, slot3, 1 do
+		for slot7 = slot2, slot3 do
 			if pg.ship_data_group[slot7] then
 				slot9 = ShipGroup.New({
 					id = slot8.group_type
 				})
-				slot10 = slot0.shipGroups[slot8.group_type]
 
-				if ShipGroup.getState(slot7, slot0.shipGroups[slot8.group_type], false) ~= ShipGroup.STATE_LOCK and slot9 and IndexConst.filterByIndex(slot9, slot0.ShipIndex.index) and IndexConst.filterByRarity(slot9, slot0.ShipIndex.rarity) then
-					slot12 = Nation.IsLinkType(slot9:getNation())
-
-					if slot0.contextData.cardToggle == 1 and not slot12 and IndexConst.filterByCamp(slot9, slot0.ShipIndex.camp) then
+				if ShipGroup.getState(slot7, slot0.shipGroups[slot8.group_type], false) ~= ShipGroup.STATE_LOCK and slot9 and IndexConst.filterByIndex(slot9, uv0.ShipIndex.index) and IndexConst.filterByRarity(slot9, uv0.ShipIndex.rarity) then
+					if slot0.contextData.cardToggle == 1 and not Nation.IsLinkType(slot9:getNation()) and IndexConst.filterByCamp(slot9, uv0.ShipIndex.camp) then
 						slot0.codeShips[#slot0.codeShips + 1] = {
 							showTrans = false,
 							id = slot7,
 							code = slot7,
-							group = slot10,
+							group = slot0.shipGroups[slot8.group_type],
 							index_id = slot8.index_id
 						}
 					elseif slot0.contextData.cardToggle == 2 and slot12 then
@@ -457,7 +466,7 @@ function slot0.cardFilter(slot0)
 							group = slot10,
 							index_id = slot8.index_id
 						}
-					elseif slot0.contextData.cardToggle == 3 and IndexConst.filterByCamp(slot9, slot0.ShipIndex.camp) then
+					elseif slot0.contextData.cardToggle == 3 and IndexConst.filterByCamp(slot9, uv0.ShipIndex.camp) then
 						slot0.codeShips[#slot0.codeShips + 1] = {
 							showTrans = false,
 							id = slot7,
@@ -474,11 +483,14 @@ end
 
 function slot0.transFilter(slot0)
 	slot0.codeShips = {}
+	slot1 = _.filter(pg.ship_data_group.all, function (slot0)
+		return pg.ship_data_group[slot0].handbook_type == 0
+	end)
 	slot2 = _.min(slot1)
 	slot3 = _.max(slot1)
 
-	if slot0.ShipIndex.index == bit.lshift(1, IndexConst.IndexAll) and slot0.ShipIndex.rarity == bit.lshift(1, IndexConst.RarityAll) and slot0.ShipIndex.camp == bit.lshift(1, IndexConst.CampAll) then
-		for slot7 = slot2, slot3, 1 do
+	if uv0.ShipIndex.index == bit.lshift(1, IndexConst.IndexAll) and uv0.ShipIndex.rarity == bit.lshift(1, IndexConst.RarityAll) and uv0.ShipIndex.camp == bit.lshift(1, IndexConst.CampAll) then
+		for slot7 = slot2, slot3 do
 			slot8 = false
 
 			if pg.ship_data_group[slot7] and pg.ship_data_trans[slot9.group_type] then
@@ -496,9 +508,9 @@ function slot0.transFilter(slot0)
 			end
 		end
 	else
-		for slot7 = slot2, slot3, 1 do
+		for slot7 = slot2, slot3 do
 			if pg.ship_data_group[slot7] then
-				if slot0.shipGroups[slot8.group_type] and slot9.trans and IndexConst.filterByIndex(slot9, slot0.ShipIndex.index) and IndexConst.filterByRarity(slot9, slot0.ShipIndex.rarity) and IndexConst.filterByCamp(slot9, slot0.ShipIndex.camp) then
+				if slot0.shipGroups[slot8.group_type] and slot9.trans and IndexConst.filterByIndex(slot9, uv0.ShipIndex.index) and IndexConst.filterByRarity(slot9, uv0.ShipIndex.rarity) and IndexConst.filterByCamp(slot9, uv0.ShipIndex.camp) then
 					slot0.codeShips[#slot0.codeShips + 1] = {
 						showTrans = true,
 						id = slot7,
@@ -508,7 +520,7 @@ function slot0.transFilter(slot0)
 					}
 				elseif pg.ship_data_trans[slot8.group_type] and IndexConst.filterByIndex(ShipGroup.New({
 					id = slot8.group_type
-				}), slot0.ShipIndex.index) and IndexConst.filterByRarity(slot10, slot0.ShipIndex.rarity) and IndexConst.filterByCamp(slot10, slot0.ShipIndex.camp) then
+				}), uv0.ShipIndex.index) and IndexConst.filterByRarity(slot10, uv0.ShipIndex.rarity) and IndexConst.filterByCamp(slot10, uv0.ShipIndex.camp) then
 					slot0.codeShips[#slot0.codeShips + 1] = {
 						showTrans = true,
 						id = slot7,
@@ -523,7 +535,7 @@ end
 
 function slot0.sortDisplay(slot0)
 	table.sort(slot0.favoriteVOs, function (slot0, slot1)
-		if slot0:getState(slot0.shipGroups, slot0.awards) == slot1:getState(slot0.shipGroups, slot0.awards) then
+		if slot0:getState(uv0.shipGroups, uv0.awards) == slot1:getState(uv0.shipGroups, uv0.awards) then
 			return slot0.id < slot1.id
 		else
 			return slot2 < slot3
@@ -532,10 +544,9 @@ function slot0.sortDisplay(slot0)
 	slot0.displayRect:SetTotalCount(#slot0.favoriteVOs)
 
 	slot1 = 0
-	slot2 = slot0.contextData.displayGroupId
 
 	for slot6, slot7 in ipairs(slot0.favoriteVOs) do
-		if slot7:containShipGroup(slot2) then
+		if slot7:containShipGroup(slot0.contextData.displayGroupId) then
 			slot1 = slot6
 
 			break
@@ -552,11 +563,11 @@ function slot0.initDisplayPanel(slot0)
 		slot0.displayRect.decelerationRate = 0.07
 
 		function slot0.displayRect.onInitItem(slot0)
-			slot0:initFavoriteCard(slot0)
+			uv0:initFavoriteCard(slot0)
 		end
 
 		function slot0.displayRect.onUpdateItem(slot0, slot1)
-			slot0:updateFavoriteCard(slot0, slot1)
+			uv0:updateFavoriteCard(slot0, slot1)
 		end
 
 		slot0.favoriteCards = {}
@@ -573,18 +584,18 @@ function slot0.initFavoriteCard(slot0, slot1)
 	slot2 = FavoriteCard.New(slot1, slot0.charTpl)
 
 	onButton(slot0, slot2.awardTF, function ()
-		if slot0.state == Favorite.STATE_AWARD then
-			slot1:emit(slot2.GET_AWARD, slot0.favoriteVO.id, slot0.favoriteVO:getNextAwardIndex(slot0.awards))
-		elseif slot0.state == Favorite.STATE_LOCK then
+		if uv0.state == Favorite.STATE_AWARD then
+			uv1:emit(uv2.GET_AWARD, uv0.favoriteVO.id, uv0.favoriteVO:getNextAwardIndex(uv0.awards))
+		elseif uv0.state == Favorite.STATE_LOCK then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("collection_lock"))
-		elseif slot0.state == Favorite.STATE_FETCHED then
+		elseif uv0.state == Favorite.STATE_FETCHED then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("collection_fetched"))
-		elseif slot0.state == Favorite.STATE_STATE_WAIT then
+		elseif uv0.state == Favorite.STATE_STATE_WAIT then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("collection_nostar"))
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot2.box, function ()
-		slot0:openBonus(slot1.favoriteVO)
+		uv0:openBonus(uv1.favoriteVO)
 	end, SFX_PANEL)
 
 	slot0.favoriteCards[slot1] = slot2
@@ -615,10 +626,9 @@ function slot0.openBonus(slot0, slot1)
 	setActive(slot0.bonusPanel, true)
 
 	slot0.boundName.text = slot1:getConfig("name")
-	slot2 = slot1:getConfig("award_display")
 
-	for slot7, slot8 in ipairs(slot3) do
-		slot9 = slot2[slot7]
+	for slot7, slot8 in ipairs(slot1:getConfig("level")) do
+		slot10 = findTF(slot0.bonusPanel, "frame/awards/award" .. slot7)
 
 		setText(findTF(slot10, "process"), slot8)
 		setActive(findTF(slot10, "item_tpl/unfinish"), slot1:getAwardState(slot0.shipGroups, slot0.awards, slot7) == Favorite.STATE_WAIT)
@@ -628,32 +638,32 @@ function slot0.openBonus(slot0, slot1)
 		setActive(findTF(slot10, "item_tpl/icon_bg"), slot11 ~= Favorite.STATE_LOCK)
 		setActive(findTF(slot10, "item_tpl/bg"), slot11 ~= Favorite.STATE_LOCK)
 
-		if slot9 then
+		if slot1:getConfig("award_display")[slot7] then
 			updateDrop(findTF(slot10, "item_tpl"), {
 				count = 0,
 				type = slot9[1],
 				id = slot9[2]
 			})
 			onButton(slot0, slot10, function ()
-				if slot0[1] == DROP_TYPE_RESOURCE then
-					slot1:emit(slot2.ON_ITEM, id2ItemId(slot0[2]))
-				elseif slot0[1] == DROP_TYPE_ITEM then
-					slot1:emit(slot2.ON_DROP, {
-						type = slot0[1],
-						id = slot0[2],
-						count = slot0[3]
+				if uv0[1] == DROP_TYPE_RESOURCE then
+					uv1:emit(uv2.ON_ITEM, id2ItemId(uv0[2]))
+				elseif uv0[1] == DROP_TYPE_ITEM then
+					uv1:emit(uv2.ON_DROP, {
+						type = uv0[1],
+						id = uv0[2],
+						count = uv0[3]
 					})
-				elseif slot0[1] == DROP_TYPE_SHIP then
+				elseif uv0[1] == DROP_TYPE_SHIP then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						hideNo = true,
 						type = MSGBOX_TYPE_SINGLE_ITEM,
 						drop = {
-							type = slot0[1],
-							id = slot0[2],
-							count = slot0[3]
+							type = uv0[1],
+							id = uv0[2],
+							count = uv0[3]
 						}
 					})
-				elseif slot0[1] == DROP_TYPE_FURNITURE then
+				elseif uv0[1] == DROP_TYPE_FURNITURE then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						yesText = "text_confirm",
 						hideNo = true,
@@ -661,13 +671,13 @@ function slot0.openBonus(slot0, slot1)
 						type = MSGBOX_TYPE_SINGLE_ITEM,
 						drop = {
 							type = DROP_TYPE_FURNITURE,
-							id = slot0[2],
-							cfg = pg.furniture_data_template[slot0[2]]
+							id = uv0[2],
+							cfg = pg.furniture_data_template[uv0[2]]
 						}
 					})
-				elseif slot0[1] == DROP_TYPE_EQUIP then
-					slot1:emit(slot2.ON_EQUIPMENT, {
-						equipmentId = slot0[2],
+				elseif uv0[1] == DROP_TYPE_EQUIP then
+					uv1:emit(uv2.ON_EQUIPMENT, {
+						equipmentId = uv0[2],
 						type = EquipmentInfoMediator.TYPE_DISPLAY
 					})
 				end
@@ -718,7 +728,8 @@ function slot0.return2MemoryGroup(slot0)
 		end
 
 		if slot3 >= 0 then
-			slot2 = Mathf.Clamp01(((slot0.memoriesGrid.cellSize.y + slot0.memoriesGrid.spacing.y) * math.floor((slot3 - 1) / slot0) + slot0.memoryList.paddingFront) / ((slot0.memoriesGrid.cellSize.y + slot0.memoriesGrid.spacing.y) * math.floor((#slot0.memoryGroups - 1) / slot0 + 1) - slot0.memoryViewport.rect.height))
+			slot5 = slot0.memoriesGrid.cellSize.y + slot0.memoriesGrid.spacing.y
+			slot2 = Mathf.Clamp01((slot5 * math.floor((slot3 - 1) / uv0) + slot0.memoryList.paddingFront) / (slot5 * math.floor((#slot0.memoryGroups - 1) / uv0 + 1) - slot0.memoryViewport.rect.height))
 		end
 	end
 
@@ -727,13 +738,17 @@ function slot0.return2MemoryGroup(slot0)
 end
 
 function slot0.initMemoryPanel(slot0)
-	if getProxy(ActivityProxy):getActivityById(ActivityConst.QIXI_ACTIVITY_ID) and not slot2:isEnd() and getProxy(TaskProxy):getTaskById(_.flatten(slot3)[#_.flatten(slot3)]) and not slot7:isFinish() then
-		pg.StoryMgr.GetInstance():Play("HOSHO8", function ()
-			slot0:emit(CollectionScene.ACTIVITY_OP, {
-				cmd = 2,
-				activity_id = slot1.id
-			})
-		end, true)
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.QIXI_ACTIVITY_ID) and not slot2:isEnd() then
+		slot4 = _.flatten(slot2:getConfig("config_data"))
+
+		if getProxy(TaskProxy):getTaskById(slot4[#slot4]) and not slot7:isFinish() then
+			pg.StoryMgr.GetInstance():Play("HOSHO8", function ()
+				uv0:emit(CollectionScene.ACTIVITY_OP, {
+					cmd = 2,
+					activity_id = uv1.id
+				})
+			end, true)
+		end
 	end
 
 	slot0:memoryFilter()
@@ -744,17 +759,19 @@ function slot0.onInitMemory(slot0, slot1)
 		return
 	end
 
-	onButton(slot0, MemoryCard.New(slot1).go, function ()
-		if slot0.info then
-			if slot0.isGroup then
-				slot1:showSubMemories(slot0.info)
-			elseif slot0.info.is_open == 1 or pg.StoryMgr.GetInstance():IsPlayed(slot0.info.story, true) then
-				slot1:playMemory(slot0.info)
+	slot2 = MemoryCard.New(slot1)
+
+	onButton(slot0, slot2.go, function ()
+		if uv0.info then
+			if uv0.isGroup then
+				uv1:showSubMemories(uv0.info)
+			elseif uv0.info.is_open == 1 or pg.StoryMgr.GetInstance():IsPlayed(uv0.info.story, true) then
+				uv1:playMemory(uv0.info)
 			end
 		end
 	end, SOUND_BACK)
 
-	slot0.memoryItems[slot1] = MemoryCard.New(slot1)
+	slot0.memoryItems[slot1] = slot2
 end
 
 function slot0.onUpdateMemory(slot0, slot1, slot2)
@@ -780,7 +797,7 @@ function slot0.onUpdateMemory(slot0, slot1, slot2)
 		slot3.group
 	}, function (slot0)
 		if isActive(slot0) then
-			slot0.go:GetComponent(typeof(Button)).targetGraphic = slot0:GetComponent(typeof(Image))
+			uv0.go:GetComponent(typeof(Button)).targetGraphic = slot0:GetComponent(typeof(Image))
 		end
 
 		return slot1
@@ -811,12 +828,12 @@ function slot0.playMemory(slot0, slot1)
 
 		setActive(slot0.memoryMask, true)
 		pg.StoryMgr.GetInstance():Play(slot1.story, function ()
-			setActive(slot0.memoryMask, false)
+			setActive(uv0.memoryMask, false)
 		end, true)
 	elseif slot1.type == 2 then
 		slot3 = 0
 
-		for slot7, slot8 in pairs(slot2) do
+		for slot7, slot8 in pairs(pg.StoryMgr.GetInstance():GetStoryByName("index")) do
 			if slot1.story == slot8 then
 				slot3 = slot7
 
@@ -824,7 +841,7 @@ function slot0.playMemory(slot0, slot1)
 			end
 		end
 
-		slot0:emit(slot0.BEGIN_STAGE, {
+		slot0:emit(uv0.BEGIN_STAGE, {
 			memory = true,
 			system = SYSTEM_PERFORM,
 			stageId = slot3

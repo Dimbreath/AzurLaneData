@@ -23,10 +23,10 @@ slot17 = nil
 function slot18()
 	function slot1(slot0, slot1, slot2, slot3, slot4)
 		slot5 = {}
-		slot7 = math.min((slot1 + slot4) - 1, slot2 - 1)
+		slot7 = math.min(slot1 + slot4 - 1, slot2 - 1)
 
-		for slot11 = slot0, math.min((slot0 + slot4) - 1, slot3 - 1), 1 do
-			for slot15 = slot1, slot7, 1 do
+		for slot11 = slot0, math.min(slot0 + slot4 - 1, slot3 - 1) do
+			for slot15 = slot1, slot7 do
 				table.insert(slot5, Vector2(slot11, slot15))
 			end
 		end
@@ -36,9 +36,8 @@ function slot18()
 
 	function slot2(slot0, slot1)
 		slot2 = {}
-		slot3 = 0
 
-		while slot1 > slot3 do
+		while slot1 > 0 do
 			if not table.contains(slot2, math.random(1, #slot0)) then
 				table.insert(slot2, slot4)
 
@@ -48,11 +47,13 @@ function slot18()
 
 		slot4 = {}
 
-		for slot8 = 1, #slot0, 1 do
+		for slot8 = 1, #slot0 do
+			slot9 = slot0[slot8]
+
 			table.insert(slot4, {
-				slot0[slot8].x,
-				slot0[slot8].y,
-				(table.contains(slot2, slot8) and -1) or 1
+				slot9.x,
+				slot9.y,
+				table.contains(slot2, slot8) and -1 or 1
 			})
 		end
 
@@ -65,8 +66,8 @@ function slot18()
 
 			for slot9 = 0, slot2 - 1, slot3 do
 				for slot13 = 0, slot1 - 1, slot3 do
-					_.each(slot1(slot0(slot9, slot13, slot1, slot2, slot3), slot4), function (slot0)
-						table.insert(slot0, slot0)
+					_.each(uv1(uv0(slot9, slot13, slot1, slot2, slot3), slot4), function (slot0)
+						table.insert(uv0, slot0)
 					end)
 				end
 			end
@@ -74,26 +75,19 @@ function slot18()
 			return slot5
 		end,
 		Dispose = function (slot0)
-			return
 		end
 	}
 end
 
 function slot19(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	function (slot0)
-		slot0._go = slot0
-		slot0._root = slot0
-		slot0.maxCnt = 20
-		slot0.stack = {}
-	end({
+	slot2 = {
 		Get = function (slot0)
 			slot1 = nil
+			slot1 = (#slot0.stack ~= 0 or instantiate(slot0._go)) and table.remove(slot0.stack, 1)
 
-			setActive((#slot0.stack ~= 0 or instantiate(slot0._go)) and table.remove(slot0.stack, 1), true)
+			setActive(slot1, true)
 
-			return (#slot0.stack ~= 0 or instantiate(slot0._go)) and table.remove(slot0.stack, 1)
+			return slot1
 		end,
 		Return = function (slot0, slot1)
 			setActive(slot1, false)
@@ -110,23 +104,23 @@ function slot19(slot0, slot1)
 				Destroy(slot5)
 			end
 		end
-	})
+	}
 
-	return 
+	function (slot0)
+		slot0._go = uv0
+		slot0._root = uv1
+		slot0.maxCnt = 20
+		slot0.stack = {}
+	end(slot2)
+
+	return slot2
 end
 
 function slot20(slot0)
-
-	-- Decompilation error in this vicinity:
-	function (slot0)
-		slot0.root = slot0
-		slot0.white = slot0:Find("white")
-		slot0.black = slot0:Find("black")
-		slot0.pools = {}
-	end({
+	slot1 = {
 		Get = function (slot0, slot1)
 			if not slot0.pools[slot1] then
-				slot0.pools[slot1] = slot0(slot0[slot1], slot0.root)
+				slot0.pools[slot1] = uv0(slot0[slot1], slot0.root)
 			end
 
 			return slot2:Get()
@@ -143,18 +137,20 @@ function slot20(slot0)
 				slot5:Dispose()
 			end
 		end
-	})
+	}
 
-	return 
+	function (slot0)
+		slot0.root = uv0
+		slot0.white = uv0:Find("white")
+		slot0.black = uv0:Find("black")
+		slot0.pools = {}
+	end(slot1)
+
+	return slot1
 end
 
 function slot21(slot0)
-
-	-- Decompilation error in this vicinity:
-	function (slot0)
-		slot0.events = {}
-		slot0.sender = slot0
-	end({
+	slot1 = {
 		AddListener = function (slot0, slot1, slot2)
 			if not slot0.events[slot1] then
 				slot0.events[slot1] = {}
@@ -170,26 +166,29 @@ function slot21(slot0)
 			end
 		end,
 		Notify = function (slot0, slot1, slot2)
-			for slot7, slot8 in ipairs(slot3) do
+			for slot7, slot8 in ipairs(slot0.events[slot1]) do
 				slot8(slot0.sender, slot2)
 			end
 		end
-	})
+	}
 
-	return 
+	function (slot0)
+		slot0.events = {}
+		slot0.sender = uv0
+	end(slot1)
+
+	return slot1
 end
 
 function slot22(slot0)
-	slot2(slot1)
-
-	return setmetatable({
+	slot1 = {
 		Reset = function (slot0)
 			slot0.x = slot0.initData.x
 			slot0.y = slot0.initData.y
 			slot0.color = slot0.initData.color
 			slot0.check = slot0.initData.check
 
-			slot0:Notify(slot0, {
+			slot0:Notify(uv0, {
 				type = slot0.color
 			})
 		end,
@@ -208,59 +207,73 @@ function slot22(slot0)
 			slot0.animCb = slot1
 		end,
 		Reverse = function (slot0)
-			if slot0 == slot0.color then
-				slot0.color = slot1
-			elseif slot1 == slot0.color then
-				slot0.color = slot0
+			if uv0 == slot0.color then
+				slot0.color = uv1
+			elseif uv1 == slot0.color then
+				slot0.color = uv0
 			end
 
-			slot0:Notify(slot0, {
+			slot0:Notify(uv2, {
 				anim = true,
 				type = slot0.color
 			})
 		end,
 		GetCellColorStr = function (slot0)
-			if slot0 == slot0.color then
+			if uv0 == slot0.color then
 				return "white"
-			elseif slot1 == slot0.color then
+			elseif uv1 == slot0.color then
 				return "black"
 			end
 		end,
 		ClearCheck = function (slot0)
 			slot0.check = false
 
-			slot0:Notify(slot0, slot0.check)
+			slot0:Notify(uv0, slot0.check)
 		end,
 		Check = function (slot0)
 			slot0.check = true
 
-			slot0:Notify(slot0, slot0.check)
+			slot0:Notify(uv0, slot0.check)
 		end,
 		IsSame = function (slot0, slot1)
 			return slot0.x == slot1.x and slot0.y == slot1.y
 		end,
 		GetScore = function (slot0)
-			if slot0 == slot0.color then
+			if uv0 == slot0.color then
 				return 1
-			elseif slot1 == slot0.color then
+			elseif uv1 == slot0.color then
 				return -1
 			end
 
 			return 0
 		end,
 		Serialize = function (slot0)
-			return string.format("{%d,%d,%d}", slot0.x, slot0.y, (slot0:GetType() == slot0 and 1) or -1)
+			return string.format("{%d,%d,%d}", slot0.x, slot0.y, slot0:GetType() == uv0 and 1 or -1)
 		end,
 		Dispose = function (slot0)
-			return
 		end
-	}, {
-		__index = slot4()
+	}
+
+	function (slot0)
+		slot0.x = uv0.x
+		slot0.y = uv0.y
+		slot0.color = uv0.color
+		slot0.check = false
+		slot0.initData = {
+			check = false,
+			x = slot0.x,
+			y = slot0.y,
+			color = slot0.color
+		}
+	end(slot1)
+
+	return setmetatable(slot1, {
+		__index = uv4(slot1)
 	})
 end
 
 function slot23(slot0)
-	return setmetatable({
+	slot1 = {
 		id = slot0.id,
 		maxCount = slot0.maxCount,
 		calcStep = slot0.calcStep,
@@ -274,28 +287,32 @@ function slot23(slot0)
 		end,
 		Init = function (slot0)
 			slot0.isInited = true
-			slot0.randomer = slot0()
+			slot0.randomer = uv0()
 
 			if not slot0.maps or #slot1 == 0 then
 				slot1 = slot0:GenRandomMap()
 			end
 
 			slot0:CreatNewMap(slot1)
-			slot0:Notify(slot1)
+			slot0:Notify(uv1)
 		end,
 		CreatNewMap = function (slot0, slot1)
 			slot0.cells = {}
 
 			for slot5, slot6 in ipairs(slot1) do
+				slot7 = slot0:CreateCell(slot6[1], slot6[2], slot6[3])
+
 				table.insert(slot0.cells, slot7)
-				slot0:Notify(slot0, slot0:CreateCell(slot6[1], slot6[2], slot6[3]))
+				slot0:Notify(uv0, slot7)
 			end
 		end,
 		GenRandomMap = function (slot0)
-			return slot0.randomer:RandomMap(slot0[slot0.id].theme[1], slot0[slot0.id].theme[2], slot0[slot0.id], slot0[slot0.id].theme)
+			slot2 = uv0[slot0.id].theme
+
+			return slot0.randomer:RandomMap(slot2[1], slot2[2], uv1, uv2)
 		end,
 		TriggerTip = function (slot0)
-			slot0:Notify(slot0, slot0.primaryCell)
+			slot0:Notify(uv0, slot0.primaryCell)
 		end,
 		NeedTip = function (slot0)
 			return slot0.primaryCell ~= nil
@@ -303,14 +320,14 @@ function slot23(slot0)
 		UpdateTurnCnt = function (slot0, slot1)
 			slot0.calcStep = slot1
 
-			slot0:Notify(slot0, slot0.calcStep)
+			slot0:Notify(uv0, slot0.calcStep)
 
 			if slot0.calcStep == 0 then
 				if slot0.highestScore < slot0:CalcScore() then
 					slot0.highestScore = slot2
 
 					if slot0.isFinished then
-						slot0:Notify(slot1, slot2)
+						slot0:Notify(uv1, slot2)
 					end
 				end
 
@@ -319,13 +336,13 @@ function slot23(slot0)
 		end,
 		CalcScore = function (slot0)
 			_.each(slot0.cells, function (slot0)
-				slot0 = slot0 + slot0:GetScore()
+				uv0 = uv0 + slot0:GetScore()
 			end)
 
 			return 0
 		end,
 		CreateCell = function (slot0, slot1, slot2, slot3)
-			return slot0({
+			return uv0({
 				x = slot1,
 				y = slot2,
 				color = slot3
@@ -333,7 +350,7 @@ function slot23(slot0)
 		end,
 		GetCellByPosition = function (slot0, slot1)
 			return _.detect(slot0.cells, function (slot0)
-				return slot0:IsSame(slot0)
+				return slot0:IsSame(uv0)
 			end)
 		end,
 		GetAroundCells = function (slot0, slot1)
@@ -350,8 +367,8 @@ function slot23(slot0)
 				Vector2(slot3.x - 1, slot3.y + 1),
 				Vector2(slot3.x, slot3.y)
 			}, function (slot0)
-				if slot0:GetCellByPosition(slot0) then
-					table.insert(slot1, slot1)
+				if uv0:GetCellByPosition(slot0) then
+					table.insert(uv1, slot1)
 				end
 			end)
 
@@ -369,11 +386,13 @@ function slot23(slot0)
 
 			_.each(slot0.primaryCells, function (slot0)
 				slot0:SetAnimDoneCallback(function ()
-					if slot0 + 1 == slot1 then
-						slot2()
+					uv0 = uv0 + 1
+
+					if uv0 == uv1 then
+						uv2()
 					end
 
-					slot3:SetAnimDoneCallback(nil)
+					uv3:SetAnimDoneCallback(nil)
 				end)
 				slot0:Reverse()
 			end)
@@ -384,7 +403,7 @@ function slot23(slot0)
 			end
 
 			function slot2()
-				slot0(slot0.primaryCells or {}, function (slot0)
+				_.each(uv0.primaryCells or {}, function (slot0)
 					slot0:ClearCheck()
 				end)
 			end
@@ -393,14 +412,14 @@ function slot23(slot0)
 				slot0.isStartReverse = true
 
 				slot0:Reverse(function ()
-					slot0()
+					uv0()
 
-					slot1.primaryCell = nil
-					nil.primaryCells = nil
+					uv1.primaryCell = nil
+					uv1.primaryCells = nil
 
-					nil:UpdateTurnCnt(slot1.calcStep - 1)
+					uv1:UpdateTurnCnt(uv1.calcStep - 1)
 
-					nil.isStartReverse = false
+					uv1.isStartReverse = false
 				end)
 
 				return
@@ -417,8 +436,11 @@ function slot23(slot0)
 			end)
 		end,
 		ReStart = function (slot0)
-			slot0:Notify(slot0)
-			slot0:CreatNewMap((#slot1[slot0.id].map ~= 0 or slot0:GenRandomMap()) and slot1[slot0.id].map)
+			slot0:Notify(uv0)
+
+			slot1 = nil
+
+			slot0:CreatNewMap((#uv1[slot0.id].map ~= 0 or slot0:GenRandomMap()) and uv1[slot0.id].map)
 			slot0:UpdateTurnCnt(slot0.maxCount)
 
 			slot0.started = false
@@ -429,10 +451,10 @@ function slot23(slot0)
 			end
 
 			_.each(slot0.cells, function (slot0)
-				slot0 = slot0 .. slot0:Serialize() .. ","
+				uv0 = uv0 .. slot0:Serialize() .. ","
 			end)
 
-			return "{" .. "}#" .. slot0.calcStep .. "#" .. ((slot0.started and "1") or "0")
+			return "{" .. "}#" .. slot0.calcStep .. "#" .. (slot0.started and "1" or "0")
 		end,
 		Dispose = function (slot0)
 			_.each(slot0.cells, function (slot0)
@@ -441,78 +463,29 @@ function slot23(slot0)
 
 			slot0.started = false
 		end
-	}, {
-		__index = slot11()
+	}
+
+	return setmetatable(slot1, {
+		__index = uv11(slot1)
 	})
 end
 
 function slot24(slot0, slot1)
-	function slot3(slot0, slot1, slot2)
-		if slot2.anim then
-			slot0.dftAniEvent:SetEndEvent(function ()
-				slot0.dftAniEvent:SetEndEvent(nil)
-				slot0.dftAniEvent.SetEndEvent.cell:OnAnimDone()
-			end)
-			slot0.animation:Stop()
-			slot0.animation:Play(slot0:GetAnimationKey(slot2.type))
-		else
-			slot0.img.color = slot0[slot2.type]
-		end
-	end
-
-	function slot4(slot0, slot1, slot2)
-		if slot2 then
-			slot0.animation:Stop()
-			slot0.animation:Play("blink")
-		else
-			slot0:ResetAlhpa()
-			slot0.animation:Stop("blink")
-		end
-	end
-
-
-	-- Decompilation error in this vicinity:
-	function (slot0)
-		slot0.maxSpriteIndexX = #slot0
-		slot0.maxSpriteIndexY = #slot0[#slot0]
-		slot0.cell = #slot0[#slot0]
-		slot0._tf = slot2
-		slot0.cellImage = slot0._tf:Find("image")
-		slot0.checkTF = slot0.cellImage:Find("check")
-		slot0.dftAniEvent = slot0.cellImage:GetComponent(typeof(DftAniEvent))
-		slot0.animation = slot0.cellImage:GetComponent(typeof(Animation))
-
-		slot0.animation:Stop()
-
-		slot0.img = slot0.cellImage:GetComponent(typeof(Image))
-		slot0.width = slot0._tf.sizeDelta.x
-		slot0.height = slot0._tf.sizeDelta.y
-		slot0.offsetX = 2
-		slot0.offsetY = 0
-
-		slot0:AddListener()
-
-		slot0.img.color = typeof[slot0.cell:GetType()]
-		slot0.img.sprite = slot0:GetSprite()
-
-		slot0.img:SetNativeSize()
-		setAnchoredPosition(slot0.cellImage, Vector2(slot0.cellImage.sizeDelta.x / 2, -slot0.cellImage.sizeDelta.y / 2))
-		slot0:SetScale()
-		slot0:SetPosition()
-	end({
+	slot2 = {
 		onCellTypeChanged = function (slot0, slot1)
-			slot0(slot1, slot0, slot1)
+			uv0(uv1, slot0, slot1)
 		end,
 		onCellCheckChanged = function (slot0, slot1)
-			slot0(slot1, slot0, slot1)
+			uv0(uv1, slot0, slot1)
 		end,
 		SetCheck = function (slot0, slot1)
 			setActive(slot0.checkTF, slot1)
 		end,
 		GetSprite = function (slot0)
-			slot3 = slot0.cell.y
+			slot1 = slot0.cell
+			slot3 = slot1.y
 
-			if slot0.maxSpriteIndexX < slot0.cell.x and slot1.x % slot0.maxSpriteIndexX == 0 then
+			if slot0.maxSpriteIndexX < slot1.x and slot1.x % slot0.maxSpriteIndexX == 0 then
 				slot2 = 0
 			elseif slot0.maxSpriteIndexX < slot2 then
 				slot2 = slot0.maxSpriteIndexX - slot1.x % slot0.maxSpriteIndexX
@@ -522,26 +495,30 @@ function slot24(slot0, slot1)
 				slot3 = slot0.maxSpriteIndexY - slot3 % (slot0.maxSpriteIndexY + 1)
 			end
 
-			return slot0[slot2][slot3]
+			return uv0[slot2][slot3]
 		end,
 		GetAnimationKey = function (slot0, slot1)
 			slot2 = ""
 
-			if slot1 == slot0 then
+			if slot1 == uv0 then
 				slot2 = "b2w"
-			elseif slot1 == slot1 then
+			elseif slot1 == uv1 then
 				slot2 = "w2b"
 			end
 
 			return slot2
 		end,
 		SetScale = function (slot0)
-			slot0.cellImage.localScale = Vector3((slot0.cell.x / slot0.maxSpriteIndexX > 1 and -1) or 1, (slot1.y / slot0.maxSpriteIndexY > 1 and -1) or 1, 1)
+			slot2 = slot0.cell.x / slot0.maxSpriteIndexX > 1 and -1 or 1
+			slot3 = slot1.y / slot0.maxSpriteIndexY > 1 and -1 or 1
+			slot0.cellImage.localScale = Vector3(slot2, slot3, 1)
+			slot4 = slot0.cellImage.anchoredPosition
 
-			setAnchoredPosition(slot0.cellImage, Vector2(slot0.cellImage.anchoredPosition.x * ((slot0.cell.x / slot0.maxSpriteIndexX > 1 and -1) or 1), slot0.cellImage.anchoredPosition.y * ((slot1.y / slot0.maxSpriteIndexY > 1 and -1) or 1)))
+			setAnchoredPosition(slot0.cellImage, Vector2(slot4.x * slot2, slot4.y * slot3))
 		end,
 		ResetAlhpa = function (slot0)
-			slot0.img.color = Color.New(slot0.img.color.r, slot0.img.color.g, slot0.img.color.b, 1)
+			slot1 = slot0.img.color
+			slot0.img.color = Color.New(slot1.r, slot1.g, slot1.b, 1)
 		end,
 		SetPosition = function (slot0)
 			slot1 = slot0.cell:GetPosition()
@@ -558,9 +535,8 @@ function slot24(slot0, slot1)
 			end
 
 			slot0._tf.localPosition = Vector3(slot1.x * slot2, -(slot1.y * slot3), 0)
-			slot7 = slot0.cellImage.localScale.y
 
-			if slot0.cellImage.localScale.x == -1 and slot7 == -1 then
+			if slot0.cellImage.localScale.x == -1 and slot0.cellImage.localScale.y == -1 then
 				anchorMax = Vector2(1, 0)
 				anchorMin = Vector2(1, 0)
 			elseif slot6 == 1 and slot7 == -1 then
@@ -578,12 +554,12 @@ function slot24(slot0, slot1)
 			slot0.cellImage.anchorMin = anchorMin
 		end,
 		AddListener = function (slot0)
-			slot0.cell:AddListener(slot0, slot0.onCellTypeChanged)
-			slot0.cell:AddListener(slot0.cell.AddListener, slot0.onCellCheckChanged)
+			slot0.cell:AddListener(uv0, slot0.onCellTypeChanged)
+			slot0.cell:AddListener(uv1, slot0.onCellCheckChanged)
 		end,
 		RemoveListener = function (slot0)
-			slot0.cell:RemoveListener(slot0, slot0.onCellTypeChanged)
-			slot0.cell:RemoveListener(slot0.cell.RemoveListener, slot0.onCellCheckChanged)
+			slot0.cell:RemoveListener(uv0, slot0.onCellTypeChanged)
+			slot0.cell:RemoveListener(uv1, slot0.onCellCheckChanged)
 		end,
 		Dispose = function (slot0)
 			slot0:ResetAlhpa()
@@ -594,41 +570,195 @@ function slot24(slot0, slot1)
 			slot0.cellImage.localPosition = Vector3(0, 0, 0)
 			slot0.cellImage.localScale = Vector3(1, 1, 1)
 			slot0.img.sprite = nil
-			slot0.img.color = slot0[1]
+			slot0.img.color = uv0[1]
 
 			slot0:RemoveListener()
 			removeOnButton(slot0._tf)
 			setActive(slot0.checkTF, false)
 		end
-	})
+	}
 
-	return 
+	function slot3(slot0, slot1, slot2)
+		if slot2.anim then
+			slot0.dftAniEvent:SetEndEvent(function ()
+				uv0.dftAniEvent:SetEndEvent(nil)
+				uv0.cell:OnAnimDone()
+			end)
+			slot0.animation:Stop()
+			slot0.animation:Play(slot0:GetAnimationKey(slot2.type))
+		else
+			slot0.img.color = uv0[slot2.type]
+		end
+	end
+
+	function slot4(slot0, slot1, slot2)
+		if slot2 then
+			slot0.animation:Stop()
+			slot0.animation:Play("blink")
+		else
+			slot0:ResetAlhpa()
+			slot0.animation:Stop("blink")
+		end
+	end
+
+	function (slot0)
+		slot0.maxSpriteIndexX = #uv0
+		slot0.maxSpriteIndexY = #uv0[#uv0]
+		slot0.cell = uv1
+		slot0._tf = uv2
+		slot0.cellImage = slot0._tf:Find("image")
+		slot0.checkTF = slot0.cellImage:Find("check")
+		slot0.dftAniEvent = slot0.cellImage:GetComponent(typeof(DftAniEvent))
+		slot0.animation = slot0.cellImage:GetComponent(typeof(Animation))
+
+		slot0.animation:Stop()
+
+		slot0.img = slot0.cellImage:GetComponent(typeof(Image))
+		slot0.width = slot0._tf.sizeDelta.x
+		slot0.height = slot0._tf.sizeDelta.y
+		slot0.offsetX = 2
+		slot0.offsetY = 0
+
+		slot0:AddListener()
+
+		slot0.img.color = uv3[slot0.cell:GetType()]
+		slot0.img.sprite = slot0:GetSprite()
+
+		slot0.img:SetNativeSize()
+		setAnchoredPosition(slot0.cellImage, Vector2(slot0.cellImage.sizeDelta.x / 2, -slot0.cellImage.sizeDelta.y / 2))
+		slot0:SetScale()
+		slot0:SetPosition()
+	end(slot2)
+
+	return slot2
 end
 
 function slot25(slot0, slot1, slot2)
-	function slot4(slot0, slot1, slot2)
-		setParent(slot3, slot0.cellContainer)
-		table.insert(slot0.cells, slot4)
-		onButton(nil, slot0:GetCellTpl(slot2).transform, function ()
-			if slot0.tipCellView then
-				slot0.tipCellView:SetCheck(false)
+	slot3 = {
+		poolMgr = slot2,
+		onFirstFinished = function (slot0, slot1)
+		end,
+		onHighestScore = function (slot0, slot1)
+		end,
+		onShowResult = function (slot0, slot1, slot2)
+		end,
+		onCellCreate = function (slot0, slot1)
+			uv0(uv1, slot0, slot1)
+		end,
+		onTurnCntUpdated = function (slot0, slot1)
+			uv0(uv1, slot0, slot1)
+		end,
+		onHighestUpdated = function (slot0, slot1)
+			uv0(uv1, slot0, slot1)
+		end,
+		onDestoryCells = function (slot0)
+			uv0(uv1, slot0)
+		end,
+		onCellTip = function (slot0, slot1)
+			uv0(uv1, slot0, slot1)
+		end,
+		onMapInitDone = function (slot0)
+			uv0(uv1, slot0)
+		end,
+		Reset = function (slot0)
+			slot0.map:ReStart()
+			setActive(slot0.startBg, true)
+			setActive(slot0.cellContainer, false)
 
-				slot0.tipCellView.SetCheck.tipCellView = nil
+			slot0.currScoreTxt.text = "-"
+		end,
+		ResetMap = function (slot0)
+			if slot0.map.calcStep == slot0.map.maxCount then
+				return
 			end
 
-			if slot0.map.calcStep == 0 then
-				slot0:ResetMap()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("black_white_grid_reset"),
+				onYes = function ()
+					uv0:Reset()
+				end
+			})
+		end,
+		AddTipTimer = function (slot0)
+			if slot0.timer then
+				slot0.timer:Stop()
+			end
+
+			slot0.timer = Timer.New(function ()
+				if uv0.map:NeedTip() then
+					uv0.map:TriggerTip()
+				end
+			end, uv0, 1)
+
+			slot0.timer:Start()
+		end,
+		StopTipTimer = function (slot0)
+			if slot0.timer then
+				slot0.timer:Stop()
+
+				slot0.timer = nil
+			end
+		end,
+		ShouldShowStartBg = function (slot0)
+			return not slot0.map:inProcess()
+		end,
+		RecordStartBg = function (slot0)
+		end,
+		GetCellTpl = function (slot0, slot1)
+			return slot0.poolMgr:Get(slot1:GetCellColorStr())
+		end,
+		AddListener = function (slot0)
+			slot0.map:AddListener(uv0, slot0.onCellCreate)
+			slot0.map:AddListener(uv1, slot0.onTurnCntUpdated)
+			slot0.map:AddListener(uv2, slot0.onHighestUpdated)
+			slot0.map:AddListener(uv3, slot0.onDestoryCells)
+			slot0.map:AddListener(uv4, slot0.onCellTip)
+			slot0.map:AddListener(uv5, slot0.onMapInitDone)
+		end,
+		RemoveListener = function (slot0)
+			slot0.map:RemoveListener(uv0, slot0.onCellCreate)
+			slot0.map:RemoveListener(uv1, slot0.onTurnCntUpdated)
+			slot0.map:RemoveListener(uv2, slot0.onHighestUpdated)
+			slot0.map:RemoveListener(uv3, slot0.onDestoryCells)
+			slot0.map:RemoveListener(uv4, slot0.onCellTip)
+			slot0.map:RemoveListener(uv5, slot0.onMapInitDone)
+		end,
+		Dispose = function (slot0)
+			slot0.map:Dispose()
+			removeOnButton(slot0.restartBtn)
+			slot0:RemoveListener()
+			uv0(slot0, nil)
+			slot0:StopTipTimer()
+
+			slot0.tipCellView = nil
+		end
+	}
+
+	function slot4(slot0, slot1, slot2)
+		slot3 = slot0:GetCellTpl(slot2).transform
+
+		setParent(slot3, slot0.cellContainer)
+		table.insert(slot0.cells, uv0(slot3, slot2))
+		onButton(nil, slot3, function ()
+			if uv0.tipCellView then
+				uv0.tipCellView:SetCheck(false)
+
+				uv0.tipCellView = nil
+			end
+
+			if uv0.map.calcStep == 0 then
+				uv0:ResetMap()
 
 				return
 			end
 
-			if not slot0.map.primaryCell or (slot0.map.primaryCell and slot0.map.primaryCell ~= slot1) then
-				slot0:AddTipTimer()
+			if not uv0.map.primaryCell or uv0.map.primaryCell and uv0.map.primaryCell ~= uv1 then
+				uv0:AddTipTimer()
 			else
-				slot0:StopTipTimer()
+				uv0:StopTipTimer()
 			end
 
-			slot0.map:Primary(slot0.map)
+			uv0.map:Primary(uv1)
 		end, SFX_PANEL)
 	end
 
@@ -644,7 +774,7 @@ function slot25(slot0, slot1, slot2)
 			end
 
 			slot0.onShowResult(slot0.map.id, slot3, function ()
-				slot0:Reset()
+				uv0:Reset()
 			end)
 
 			slot0.currScoreTxt.text = "-"
@@ -670,7 +800,7 @@ function slot25(slot0, slot1, slot2)
 
 	function slot8(slot0, slot1, slot2)
 		if _.detect(slot0.cells, function (slot0)
-			return slot0.cell:IsSame(slot0)
+			return slot0.cell:IsSame(uv0)
 		end) then
 			slot0.tipCellView = slot3
 
@@ -681,21 +811,21 @@ function slot25(slot0, slot1, slot2)
 	function slot9(slot0, slot1)
 		slot0.highestScoreTxt.text = slot0.map.highestScore
 		slot0.leftCountTxt.text = slot0.map.calcStep
-		slot0.currScoreTxt.text = (slot0:ShouldShowStartBg() and "-") or slot0.map:CalcScore()
+		slot0.currScoreTxt.text = slot0:ShouldShowStartBg() and "-" or slot0.map:CalcScore()
 
 		setActive(slot0.startBg, slot3)
 		onButton(nil, slot0.startBg, function ()
-			if not slot0.map.isUnlock then
+			if not uv0.map.isUnlock then
 				return
 			end
 
-			setActive(slot0.startBg, false)
-			setActive:RecordStartBg()
+			setActive(uv0.startBg, false)
+			uv0:RecordStartBg()
 
-			setActive.RecordStartBg.currScoreTxt.text = setActive
+			uv0.currScoreTxt.text = uv1
 
-			setActive(slot0.cellContainer, true)
-			setActive.map:Start()
+			setActive(uv0.cellContainer, true)
+			uv0.map:Start()
 		end)
 
 		if not slot3 then
@@ -703,10 +833,8 @@ function slot25(slot0, slot1, slot2)
 		end
 	end
 
-
-	-- Decompilation error in this vicinity:
 	function (slot0)
-		slot0._tf = slot0
+		slot0._tf = uv0
 		slot0.cellWhite = slot0._tf:Find("cell")
 		slot0.cellContainer = slot0._tf:Find("container")
 		slot0.restartBtn = slot0._tf:Find("restart")
@@ -716,137 +844,25 @@ function slot25(slot0, slot1, slot2)
 		slot0.startBg = slot0._tf:Find("start_bg")
 		slot0.startBgText = slot0.startBg:Find("Text"):GetComponent(typeof(Text))
 		slot0.startLabel = slot0.startBg:Find("Image")
-		slot0.map = slot0.startBg.Find("Image")
+		slot0.map = uv1
 		slot0.cells = {}
 
 		slot0:AddListener()
 
-		slot0.startBgText.text = (slot0.map.isUnlock and "") or slot0.map.condition
+		slot0.startBgText.text = slot0.map.isUnlock and "" or slot0.map.condition
 
 		setActive(slot0.startLabel, slot0.map.isUnlock)
 		setActive(slot0.cellContainer, false)
 		onButton(nil, slot0.restartBtn, function ()
-			slot0:ResetMap()
+			uv0:ResetMap()
 		end, SFX_PANEL)
-	end({
-		poolMgr = slot2,
-		onFirstFinished = function (slot0, slot1)
-			return
-		end,
-		onHighestScore = function (slot0, slot1)
-			return
-		end,
-		onShowResult = function (slot0, slot1, slot2)
-			return
-		end,
-		onCellCreate = function (slot0, slot1)
-			slot0(slot1, slot0, slot1)
-		end,
-		onTurnCntUpdated = function (slot0, slot1)
-			slot0(slot1, slot0, slot1)
-		end,
-		onHighestUpdated = function (slot0, slot1)
-			slot0(slot1, slot0, slot1)
-		end,
-		onDestoryCells = function (slot0)
-			slot0(slot0, slot0)
-		end,
-		onCellTip = function (slot0, slot1)
-			slot0(slot1, slot0, slot1)
-		end,
-		onMapInitDone = function (slot0)
-			slot0(slot0, slot0)
-		end,
-		Reset = function (slot0)
-			slot0.map:ReStart()
-			setActive(slot0.startBg, true)
-			setActive(slot0.cellContainer, false)
+	end(slot3)
 
-			slot0.currScoreTxt.text = "-"
-		end,
-		ResetMap = function (slot0)
-			if slot0.map.calcStep == slot0.map.maxCount then
-				return
-			end
-
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("black_white_grid_reset"),
-				onYes = function ()
-					slot0:Reset()
-				end
-			})
-		end,
-		AddTipTimer = function (slot0)
-			if slot0.timer then
-				slot0.timer:Stop()
-			end
-
-			slot0.timer = Timer.New(function ()
-				if slot0.map:NeedTip() then
-					slot0.map:TriggerTip()
-				end
-			end, slot0, 1)
-
-			slot0.timer:Start()
-		end,
-		StopTipTimer = function (slot0)
-			if slot0.timer then
-				slot0.timer:Stop()
-
-				slot0.timer = nil
-			end
-		end,
-		ShouldShowStartBg = function (slot0)
-			return not slot0.map:inProcess()
-		end,
-		RecordStartBg = function (slot0)
-			return
-		end,
-		GetCellTpl = function (slot0, slot1)
-			return slot0.poolMgr:Get(slot1:GetCellColorStr())
-		end,
-		AddListener = function (slot0)
-			slot0.map:AddListener(slot0, slot0.onCellCreate)
-			slot0.map:AddListener(slot0.map.AddListener, slot0.onTurnCntUpdated)
-			slot0.map:AddListener(slot0.map, slot0.onHighestUpdated)
-			slot0.map:AddListener(slot0.map, slot0.onDestoryCells)
-			slot0.map:AddListener(slot0.onDestoryCells, slot0.onCellTip)
-			slot0.map:AddListener(slot5, slot0.onMapInitDone)
-		end,
-		RemoveListener = function (slot0)
-			slot0.map:RemoveListener(slot0, slot0.onCellCreate)
-			slot0.map:RemoveListener(slot0.map.RemoveListener, slot0.onTurnCntUpdated)
-			slot0.map:RemoveListener(slot0.map, slot0.onHighestUpdated)
-			slot0.map:RemoveListener(slot0.map, slot0.onDestoryCells)
-			slot0.map:RemoveListener(slot0.onDestoryCells, slot0.onCellTip)
-			slot0.map:RemoveListener(slot5, slot0.onMapInitDone)
-		end,
-		Dispose = function (slot0)
-			slot0.map:Dispose()
-			removeOnButton(slot0.restartBtn)
-			slot0:RemoveListener()
-			slot0(slot0, nil)
-			slot0:StopTipTimer()
-
-			slot0.tipCellView = nil
-		end
-	})
-
-	return 
+	return slot3
 end
 
 function slot26(slot0)
-
-	-- Decompilation error in this vicinity:
-	function (slot0)
-		setActive(slot0._tf, false)
-
-		slot0.scoreTxt = slot0._tf:Find("score/Text"):GetComponent(typeof(Text))
-
-		onButton(nil, slot0._tf, function ()
-			slot0:Hide()
-		end, SFX_PANEL)
-	end({
+	slot1 = {
 		_tf = slot0,
 		Show = function (slot0, slot1, slot2)
 			setActive(slot0._tf, true)
@@ -867,9 +883,19 @@ function slot26(slot0)
 		Dispose = function (slot0)
 			slot0:Hide()
 		end
-	})
+	}
 
-	return 
+	function (slot0)
+		setActive(slot0._tf, false)
+
+		slot0.scoreTxt = slot0._tf:Find("score/Text"):GetComponent(typeof(Text))
+
+		onButton(nil, slot0._tf, function ()
+			uv0:Hide()
+		end, SFX_PANEL)
+	end(slot1)
+
+	return slot1
 end
 
 function slot0.getUIName(slot0)
@@ -877,22 +903,24 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.preload(slot0, slot1)
-	ResourceMgr.Inst:loadAssetBundleAsync("ui/blackwhitegrid_atlas", function (slot0)
-		for slot4 = 0, 4, 1 do
-			slot0[slot4] = {}
+	uv0 = {}
 
-			for slot8 = 0, 2, 1 do
-				slot0[slot4][slot8] = ResourceMgr.Inst:LoadAssetSync(slot0, slot4 .. "_" .. slot8, nil, true, false)
+	ResourceMgr.Inst:loadAssetBundleAsync("ui/blackwhitegrid_atlas", function (slot0)
+		for slot4 = 0, 4 do
+			uv0[slot4] = {}
+
+			for slot8 = 0, 2 do
+				uv0[slot4][slot8] = ResourceMgr.Inst:LoadAssetSync(slot0, slot4 .. "_" .. slot8, nil, true, false)
 			end
 		end
 	end)
 
-	({})["bgSprite"] = nil
+	slot0.bgSprite = nil
 
 	LoadSpriteAsync("clutter/blackwhite_bg", function (slot0)
-		slot0.bgSprite = slot0
+		uv0.bgSprite = slot0
 
-		slot0()
+		uv1()
 	end)
 end
 
@@ -916,19 +944,9 @@ function slot0.init(slot0)
 	slot0.mapTF = slot0:findTF("map")
 	slot0.backBtn = slot0:findTF("back")
 	slot0.toggleTFs = slot0:findTF("toggles")
-	slot0.poolMgr = 
-	-- Decompilation error in this vicinity:
-	slot0(slot0.mapTF:Find("root"))
-	slot0.successMsgbox = 
-	-- Decompilation error in this vicinity:
-
-	-- Decompilation error in this vicinity:
-	slot0(slot0.mapTF.Find("root"))(slot0:findTF("success_bg"))
-	slot0.failedMsgbox = 
-	-- Decompilation error in this vicinity:
-
-	-- Decompilation error in this vicinity:
-	slot0(slot0.mapTF.Find("root"))(slot0.findTF("success_bg"))(slot0:findTF("failed_bg"))
+	slot0.poolMgr = uv0(slot0.mapTF:Find("root"))
+	slot0.successMsgbox = uv1(slot0:findTF("success_bg"))
+	slot0.failedMsgbox = uv1(slot0:findTF("failed_bg"))
 	slot0.furGot = slot0:findTF("fur/got")
 	slot0.helpBtn = slot0:findTF("help")
 	slot0._tf:GetComponent(typeof(Image)).sprite = slot0.bgSprite
@@ -936,7 +954,7 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -951,51 +969,52 @@ function slot0.didEnter(slot0)
 		eachChild(slot0, function (slot0)
 			if go(slot0).name ~= "text" and go(slot0).activeSelf then
 				slot1 = slot0:GetComponent(typeof(Image))
-				slot1.color = slot0
+				slot1.color = uv0
 
-				table.insert(slot1.selecteds, slot1)
+				table.insert(uv1.selecteds, slot1)
 			end
 		end)
 	end
 
 	function slot3()
-		for slot3, slot4 in ipairs(slot0.selecteds) do
+		for slot3, slot4 in ipairs(uv0.selecteds) do
 			slot4.color = Color.New(1, 1, 1, 1)
 		end
 
-		slot0.selecteds = {}
+		uv0.selecteds = {}
 	end
 
 	slot0.btns = {}
 	slot0.maps = {}
+	slot7 = "config_data"
 
-	for slot7, slot8 in ipairs(slot0.activityVO.getConfig(slot1, "config_data")) do
-		slot0.maps[slot8] = slot0:GetMapVO(slot9)
+	for slot7, slot8 in ipairs(slot0.activityVO:getConfig(slot7)) do
+		slot10 = slot0.toggleTFs:GetChild(slot7 - 1)
+		slot0.maps[slot8] = slot0:GetMapVO(uv2[slot8])
 
-		onButton(slot0, slot0.toggleTFs:GetChild(slot7 - 1), function ()
-			if slot0.id == slot1 then
+		onButton(slot0, slot10, function ()
+			if uv0.id == uv1 then
 				return
 			end
 
-			if slot0.mapView and slot0.mapView.map:inProcess() then
+			if uv0.mapView and uv0.mapView.map:inProcess() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("black_white_grid_switch_tip"))
 
 				return
 			end
 
-			slot0.id = slot1
-			slot0 = slot0:GetMapVO(slot2)
+			uv0.id = uv1
 
-			slot0:loadMap(slot0)
+			uv0:loadMap(uv0:GetMapVO(uv2))
 
-			if #slot0.selecteds > 0 then
-				slot3()
+			if #uv0.selecteds > 0 then
+				uv3()
 			end
 
-			slot4(slot5)
+			uv4(uv5)
 		end, SFX_PANEL)
 
-		slot0.btns[slot8] = slot0.toggleTFs.GetChild(slot7 - 1)
+		slot0.btns[slot8] = slot10
 	end
 
 	if slot0:GetLastestUnlockMap() then
@@ -1007,12 +1026,17 @@ end
 
 function slot0.updateFur(slot0)
 	if slot0.furGot then
-		setActive(slot0.furGot, table.contains(slot0.passIds, slot0.activityVO:getConfig("config_data")[#slot0.activityVO.getConfig("config_data") - 1]))
+		slot1 = slot0.activityVO:getConfig("config_data")
+
+		setActive(slot0.furGot, table.contains(slot0.passIds, slot1[#slot1 - 1]))
 	end
 end
 
 function slot0.isUnlock(slot0, slot1)
-	return slot0.mapVOs[pg.chapter_template[slot1.unlock[2]].map]:getChapter(slot1.unlock[2]) and slot6:isUnlock() and slot6:isAllAchieve() and (slot1.unlock[1] == 0 or table.contains(slot0.passIds, slot1.unlock[1]))
+	slot2 = slot1.unlock[1]
+	slot3 = slot1.unlock[2]
+
+	return slot0.mapVOs[pg.chapter_template[slot3].map]:getChapter(slot3) and slot6:isUnlock() and slot6:isAllAchieve() and (slot2 == 0 or table.contains(slot0.passIds, slot2))
 end
 
 function slot0.GetLastestUnlockMap(slot0)
@@ -1020,12 +1044,9 @@ function slot0.GetLastestUnlockMap(slot0)
 		return slot0.btns[slot1]
 	else
 		slot2 = nil
-		slot3 = 0
 
 		for slot7, slot8 in pairs(slot0.btns) do
-			slot3 = slot3 + 1
-
-			if slot0:isUnlock(slot0[slot7]) or slot3 == 1 then
+			if slot0:isUnlock(uv0[slot7]) or 0 + 1 == 1 then
 				slot2 = slot8
 			end
 		end
@@ -1036,26 +1057,34 @@ end
 
 function slot0.updateBtnsState(slot0)
 	for slot4, slot5 in pairs(slot0.btns) do
+		slot6 = table.contains(slot0.passIds, slot4)
+
 		setActive(slot5:Find("finished"), slot6)
-		setActive(slot5:Find("locked"), not slot0:isUnlock(slot0[slot4]))
-		setActive(slot5:Find("opening"), not table.contains(slot0.passIds, slot4) and slot7)
+		setActive(slot5:Find("locked"), not slot0:isUnlock(uv0[slot4]))
+		setActive(slot5:Find("opening"), not slot6 and slot7)
 	end
 end
 
 function slot0.GetMapVO(slot0, slot1)
 	slot2 = nil
-	slot6 = {
-		highestScore = (table.indexof(slot0.passIds, slot1.id) and slot0.scores[slot3]) or 0,
-		isFinished = table.contains(slot0.passIds, slot1.id),
-		isUnlock = slot0:isUnlock(slot1)
-	}
 
 	if slot0.maps[slot1.id] then
-		slot0.maps[slot1.id]:UpdateData(slot6)
+		slot0.maps[slot1.id]:UpdateData({
+			highestScore = table.indexof(slot0.passIds, slot1.id) and slot0.scores[slot3] or 0,
+			isFinished = table.contains(slot0.passIds, slot1.id),
+			isUnlock = slot0:isUnlock(slot1)
+		})
 	else
-		slot10.maps, slot10.calcStep, slot10.started = slot0:parseMap(slot1)
+		slot7, slot8, slot9 = slot0:parseMap(slot1)
 
-		slot0(slot10):UpdateData(slot6)
+		uv0({
+			id = slot1.id,
+			maps = slot7,
+			calcStep = slot8,
+			maxCount = slot1.num,
+			condition = slot1.condition,
+			started = slot9
+		}):UpdateData(slot6)
 	end
 
 	return slot2
@@ -1067,14 +1096,12 @@ function slot0.parseMap(slot0, slot1)
 	else
 		slot3 = slot2:split("#")
 
-		return 
-		-- Decompilation error in this vicinity:
-		loadstring("return " .. slot3[1])(), tonumber(slot3[2]), slot3[3] == "1"
+		return loadstring("return " .. slot3[1])(), tonumber(slot3[2]), slot3[3] == "1"
 	end
 end
 
 function slot0.SaveMapsData(slot0)
-	for slot5, slot6 in ipairs(slot1) do
+	for slot5, slot6 in ipairs(slot0.maps) do
 		if slot6:Serialize() and slot7 ~= "" then
 			PlayerPrefs.SetString("BlackWhiteGridMapData-" .. slot6.id .. "-" .. slot0.player.id, slot7)
 		end
@@ -1097,21 +1124,21 @@ function slot0.loadMap(slot0, slot1)
 		slot0.mapView:Dispose()
 	end
 
-	slot0.mapView = slot0(slot0.mapTF, slot1, slot0.poolMgr)
+	slot0.mapView = uv0(slot0.mapTF, slot1, slot0.poolMgr)
 
 	function slot0.mapView.onFirstFinished(slot0, slot1)
-		slot0:emit(BlackWhiteGridMediator.ON_FINISH, slot0, slot1)
+		uv0:emit(BlackWhiteGridMediator.ON_FINISH, slot0, slot1)
 	end
 
 	function slot0.mapView.onHighestScore(slot0, slot1)
-		slot0:emit(BlackWhiteGridMediator.ON_UPDATE_SCORE, slot0, slot1)
+		uv0:emit(BlackWhiteGridMediator.ON_UPDATE_SCORE, slot0, slot1)
 	end
 
 	function slot0.mapView.onShowResult(slot0, slot1, slot2)
 		if slot1 >= 0 then
-			slot0.successMsgbox:Show(slot1, slot2)
+			uv0.successMsgbox:Show(slot1, slot2)
 		else
-			slot0.failedMsgbox:Show(slot1, slot2)
+			uv0.failedMsgbox:Show(slot1, slot2)
 		end
 	end
 
@@ -1119,7 +1146,7 @@ function slot0.loadMap(slot0, slot1)
 end
 
 function slot0.playStory(slot0, slot1)
-	if slot0[slot0.mapView.map.id].story and slot2 ~= "" and not pg.StoryMgr.GetInstance():IsPlayed(slot2) then
+	if uv0[slot0.mapView.map.id].story and slot2 ~= "" and not pg.StoryMgr.GetInstance():IsPlayed(slot2) then
 		pg.StoryMgr.GetInstance():Play(slot2, slot1, true, true)
 	else
 		slot1()
@@ -1138,7 +1165,7 @@ function slot0.willExit(slot0)
 	slot0.failedMsgbox:Dispose()
 	slot0.poolMgr:Dispose()
 
-	slot0 = nil
+	uv0 = nil
 end
 
 return slot0

@@ -1,14 +1,16 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleConfig
-ys.Battle.BattleCameraWave = class("BattleCameraWave", ys.Battle.BattleWaveInfo)
-ys.Battle.BattleCameraWave.__name = "BattleCameraWave"
+slot0 = ys
+slot1 = slot0.Battle.BattleConfig
+slot0.Battle.BattleCameraWave = class("BattleCameraWave", slot0.Battle.BattleWaveInfo)
+slot0.Battle.BattleCameraWave.__name = "BattleCameraWave"
+slot2 = slot0.Battle.BattleCameraWave
 
-function ys.Battle.BattleCameraWave.Ctor(slot0)
-	slot0.super.Ctor(slot0)
+function slot2.Ctor(slot0)
+	uv0.super.Ctor(slot0)
 end
 
-function ys.Battle.BattleCameraWave.SetWaveData(slot0, slot1)
-	slot0.super.SetWaveData(slot0, slot1)
+function slot2.SetWaveData(slot0, slot1)
+	uv0.super.SetWaveData(slot0, slot1)
 
 	slot0._pause = slot0._param.pause
 	slot0._type = slot0._param.type or 0
@@ -18,15 +20,15 @@ function ys.Battle.BattleCameraWave.SetWaveData(slot0, slot1)
 	slot0._zoomBounce = slot0._param.zoomBounce
 end
 
-function ys.Battle.BattleCameraWave.DoWave(slot0)
-	slot0.super.DoWave(slot0)
+function slot2.DoWave(slot0)
+	uv0.super.DoWave(slot0)
 
-	slot1 = slot0.super.DoWave.Battle.BattleCameraUtil.GetInstance()
+	slot1 = uv1.Battle.BattleCameraUtil.GetInstance()
 
 	if slot0._type == 1 then
 		slot3 = nil
 
-		for slot7, slot8 in pairs(slot2) do
+		for slot7, slot8 in pairs(uv1.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
 			if slot8:GetTemplateID() == slot0._modelID then
 				slot3 = slot8
 
@@ -40,9 +42,9 @@ function ys.Battle.BattleCameraWave.DoWave(slot0)
 			slot4 = slot0._duration * 0.5
 
 			if slot0._zoomBounce then
-				slot1:ZoomCamara(nil, slot2.CAST_CAM_OVERLOOK_SIZE, slot4)
+				slot1:ZoomCamara(nil, uv2.CAST_CAM_OVERLOOK_SIZE, slot4)
 				LeanTween.delayedCall(slot4, System.Action(function ()
-					slot0:ZoomCamara(slot1.CAST_CAM_OVERLOOK_SIZE, slot2._zoomSize, )
+					uv0:ZoomCamara(uv1.CAST_CAM_OVERLOOK_SIZE, uv2._zoomSize, uv3)
 				end))
 			else
 				slot1:ZoomCamara(nil, slot0._zoomSize, slot0._duration, true)
@@ -50,11 +52,9 @@ function ys.Battle.BattleCameraWave.DoWave(slot0)
 		end
 	elseif slot0._type == 0 then
 		slot1:FocusCharacter(nil, slot0._duration, 0)
-		slot1:ZoomCamara(nil, nil, slot0._duration)
+		slot1:ZoomCamara(nil, , slot0._duration)
 	end
 
-	slot1:BulletTime(slot2.SPEED_FACTOR_FOCUS_CHARACTER, nil)
+	slot1:BulletTime(uv2.SPEED_FACTOR_FOCUS_CHARACTER, nil)
 	slot0:doPass()
 end
-
-return

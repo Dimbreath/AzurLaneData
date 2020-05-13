@@ -1,11 +1,12 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleEvent
-slot2 = ys.Battle.BattleFormulas
-slot3 = ys.Battle.BattleConst
-slot4 = ys.Battle.BattleConfig
-slot5 = ys.Battle.BattleDataFunction
+slot0 = ys
+slot1 = slot0.Battle.BattleEvent
+slot2 = slot0.Battle.BattleFormulas
+slot3 = slot0.Battle.BattleConst
+slot4 = slot0.Battle.BattleConfig
+slot5 = slot0.Battle.BattleDataFunction
 slot6 = class("BattleTeamVO")
-ys.Battle.BattleTeamVO = slot6
+slot0.Battle.BattleTeamVO = slot6
 slot6.__name = "BattleTeamVO"
 
 function slot6.Ctor(slot0, slot1)
@@ -56,23 +57,22 @@ end
 
 function slot6.init(slot0)
 	slot0._enemyList = {}
-	slot0._motionVO = slot0.Battle.BattleFleetMotionVO.New()
+	slot0._motionVO = uv0.Battle.BattleFleetMotionVO.New()
 	slot0._count = 0
 end
 
 function slot6.refreshTeamFormation(slot0)
 	slot1 = 1
-	slot2 = #slot0._enemyList
 	slot3 = {}
 
-	while slot1 <= slot2 do
+	while slot1 <= #slot0._enemyList do
 		slot3[#slot3 + 1] = slot1
 		slot1 = slot1 + 1
 	end
 
-	slot4 = slot0.GetFormationTmpDataFromID(slot1.FORMATION_ID).pos_offset
-	slot0._enemyList = slot0.SortFleetList(slot3, slot0._enemyList)
-	slot5 = slot1.BornOffset
+	slot4 = uv0.GetFormationTmpDataFromID(uv1.FORMATION_ID).pos_offset
+	slot0._enemyList = uv0.SortFleetList(slot3, slot0._enemyList)
+	slot5 = uv1.BornOffset
 
 	for slot9, slot10 in ipairs(slot0._enemyList) do
 		if slot9 == 1 then
@@ -80,7 +80,9 @@ function slot6.refreshTeamFormation(slot0)
 
 			slot10:CancelFollowTeam()
 		else
-			slot10:UpdateFormationOffset(Vector3(slot4[slot9].x, slot4[slot9].y, slot4[slot9].z) + slot5 * (slot9 - 1))
+			slot11 = slot4[slot9]
+
+			slot10:UpdateFormationOffset(Vector3(slot11.x, slot11.y, slot11.z) + slot5 * (slot9 - 1))
 		end
 	end
 end
@@ -90,5 +92,3 @@ function slot6.Dispose(slot0)
 	slot0._motionReferenceUnit = nil
 	slot0._motionVO = nil
 end
-
-return

@@ -41,5 +41,3 @@ pg.draw_data_template = {
 		2
 	}
 }
-
-return

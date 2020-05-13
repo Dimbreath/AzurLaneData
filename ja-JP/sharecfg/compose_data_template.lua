@@ -1931,5 +1931,3 @@ pg.compose_data_template = {
 		13017
 	}
 }
-
-return

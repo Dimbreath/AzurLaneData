@@ -174,5 +174,3 @@ pg.item_data_frame = {
 		403
 	}
 }
-
-return

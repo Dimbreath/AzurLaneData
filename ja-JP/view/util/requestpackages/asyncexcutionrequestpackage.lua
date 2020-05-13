@@ -13,15 +13,15 @@ function slot0.__call(slot0, ...)
 	slot3 = #slot0.funcs
 	slot4 = nil
 
-
-	-- Decompilation error in this vicinity:
 	function (...)
-		if slot0.stopped then
+		if uv0.stopped then
 			return
 		end
 
-		if slot1 + 1 <= slot2 then
-			slot3[slot1](slot4, ...)
+		uv1 = uv1 + 1
+
+		if uv1 <= uv2 then
+			uv3[uv1](uv4, ...)
 		end
 	end(...)
 end

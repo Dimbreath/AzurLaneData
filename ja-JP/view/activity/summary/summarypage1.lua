@@ -1,12 +1,14 @@
-class("SummaryPage1", import(".SummaryAnimationPage")).OnInit = function (slot0)
-	slot4 = findTF(slot3, "mask/painting")
+slot0 = class("SummaryPage1", import(".SummaryAnimationPage"))
 
-	setText(slot2, slot0.summaryInfoVO.name)
+function slot0.OnInit(slot0)
+	slot4 = findTF(findTF(slot0._go, "painting"), "mask/painting")
+
+	setText(findTF(findTF(slot0._go, "name"), "Text"), slot0.summaryInfoVO.name)
 
 	slot6 = {}
 
-	for slot10 = 1, findTF(slot0._go, "time_line").childCount, 1 do
-		for slot16 = 1, slot5:GetChild(slot10 - 1).Find(slot11, "texts").childCount, 1 do
+	for slot10 = 1, findTF(slot0._go, "time_line").childCount do
+		for slot16 = 1, slot5:GetChild(slot10 - 1):Find("texts").childCount do
 			if go(slot12:GetChild(slot16 - 1)).name == "guildName" then
 				if not (not slot0.summaryInfoVO.guildName or slot19 == "") then
 					setText(slot17:Find("text/Text"), "「" .. slot19 .. "」")
@@ -24,8 +26,10 @@ class("SummaryPage1", import(".SummaryAnimationPage")).OnInit = function (slot0)
 		table.insert(slot6, slot11)
 	end
 
-	setPaintingPrefabAsync(slot4, slot7, "chuanwu")
+	setPaintingPrefabAsync(slot4, Ship.New({
+		configId = slot0.summaryInfoVO.flagShipId
+	}):getPainting(), "chuanwu")
 	setActive(slot0._go, false)
 end
 
-return class("SummaryPage1", import(".SummaryAnimationPage"))
+return slot0

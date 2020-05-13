@@ -18,13 +18,13 @@ end
 
 function slot0.OnInit(slot0)
 	onButton(slot0, slot0:findTF("window/actions/cancel_btn"), function ()
-		slot0:Close()
+		uv0:Close()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0._tf, function ()
-		slot0:Close()
+		uv0:Close()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("window/top/btnBack"), function ()
-		slot0:Close()
+		uv0:Close()
 	end, SFX_CANCEL)
 end
 
@@ -37,27 +37,29 @@ function slot0.Open(slot0, slot1, slot2)
 end
 
 function slot0.InitWindow(slot0, slot1, slot2)
+	slot3 = {
+		id = slot1:getConfig("commodity_id"),
+		type = slot1:getConfig("commodity_type"),
+		count = slot1:getConfig("num")
+	}
+
 	onButton(slot0, slot0.confirmBtn, function ()
-		if slot0 then
-			slot0(slot1, 1, slot2.cfg.name)
+		if uv0 then
+			uv0(uv1, 1, uv2.cfg.name)
 		end
 
-		slot3:Close()
+		uv3:Close()
 	end, SFX_CANCEL)
 	updateDrop(slot0.itemTF, slot3)
 
-	slot8, slot8 = GetOwnedpropCount(slot3)
+	slot4, slot5 = GetOwnedpropCount(slot3)
 
 	setActive(slot0.itemOwnTF.parent, slot5)
 	setText(slot0.itemOwnTF, slot4)
 	setText(slot0.itemOwnLabelTF, i18n("word_own1"))
 
-	slot0.descTF.text = ({
-		id = slot1:getConfig("commodity_id"),
-		type = slot1:getConfig("commodity_type"),
-		count = slot1:getConfig("num")
-	})["desc"]
-	slot0.nameTF.text = ()["cfg"].name
+	slot0.descTF.text = slot3.desc
+	slot0.nameTF.text = slot3.cfg.name
 end
 
 function slot0.Close(slot0)

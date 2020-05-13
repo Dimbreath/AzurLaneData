@@ -30,52 +30,22 @@ function slot0.sortEvas(slot0)
 			return slot3 < slot2
 		end
 	end)
-	slot2 = _(slot0.evas):chain():slice(math.min(2, #slot0.evas) + 1, #slot0.evas - math.min(2, #slot0.evas)):sort(function (slot0, slot1)
-		slot3 = slot1.good_count - slot1.bad_count
+	slot1 = math.min(2, #slot0.evas)
 
-		if slot0.good_count - slot0.bad_count <= -5 or slot3 <= -5 then
-			return slot3 < slot2
-		else
-			return slot1.id < slot0.id
-		end
-	end):value()
-
-	for slot6 = 1, #slot0.evas, 1 do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 38-41, warpins: 2 ---
+	for slot6 = 1, #slot0.evas do
 		slot0.evas[slot6].hot = slot6 <= slot1
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 45-47, warpins: 2 ---
 		if slot1 < slot6 then
+			slot0.evas[slot6] = _(slot0.evas):chain():slice(slot1 + 1, #slot0.evas - slot1):sort(function (slot0, slot1)
+				slot3 = slot1.good_count - slot1.bad_count
 
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 48-51, warpins: 1 ---
-			slot0.evas[slot6] = slot2[slot6 - slot1]
-			--- END OF BLOCK #0 ---
-
-
-
+				if slot0.good_count - slot0.bad_count <= -5 or slot3 <= -5 then
+					return slot3 < slot2
+				else
+					return slot1.id < slot0.id
+				end
+			end):value()[slot6 - slot1]
 		end
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 52-52, warpins: 2 ---
-		--- END OF BLOCK #2 ---
-
-
-
 	end
 end
 

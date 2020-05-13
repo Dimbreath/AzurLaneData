@@ -10,7 +10,7 @@ function slot0.netUpdateData(slot0, slot1)
 	slot2 = {}
 
 	_.each(slot1.award_list, function (slot0)
-		slot0[slot0.id] = _.map(slot0.award_list, function (slot0)
+		uv0[slot0.id] = _.map(slot0.award_list, function (slot0)
 			return {
 				type = slot0.type,
 				id = slot0.id,
@@ -28,23 +28,25 @@ function slot0.netUpdateData(slot0, slot1)
 	slot0.colorGroups = {}
 
 	_.each(slot3, function (slot0)
-		ColorGroup.New(slot1):setHasAward(slot0[2] > 0)
+		ColorGroup.New(slot0[1]):setHasAward(slot0[2] > 0)
 
-		if slot1 == slot0.id then
-			_.each(slot0.cell_list, function (slot0)
-				slot0:setFill(slot0.row, slot0.column, slot0.color)
+		if slot1 == uv0.id then
+			_.each(uv0.cell_list, function (slot0)
+				uv0:setFill(slot0.row, slot0.column, slot0.color)
 			end)
 		end
 
-		slot3:setDrops(slot1[slot1] or {})
+		slot4 = uv1[slot1] or {}
 
-		if #(slot1[slot1] or ) > 0 then
+		slot3:setDrops(slot4)
+
+		if #slot4 > 0 then
 			slot3:setState(ColorGroup.StateAchieved)
-		elseif slot1 < slot0.id or slot3:isAllFill() then
+		elseif slot1 < uv0.id or slot3:isAllFill() then
 			slot3:setState(ColorGroup.StateFinish)
 		end
 
-		table.insert(slot2.colorGroups, slot3)
+		table.insert(uv2.colorGroups, slot3)
 	end)
 
 	slot6 = 0
@@ -63,9 +65,9 @@ function slot0.netUpdateData(slot0, slot1)
 		end
 	end
 
-	slot0.colorGroups[slot6 + 1]:setState((slot6 == 0 and ColorGroup.StateColoring) or ColorGroup.StateLock)
+	slot0.colorGroups[slot6 + 1]:setState(slot6 == 0 and ColorGroup.StateColoring or ColorGroup.StateLock)
 
-	for slot10 = slot6 + 2, #slot0.colorGroups, 1 do
+	for slot10 = slot6 + 2, #slot0.colorGroups do
 		if not slot0.colorGroups[slot10]:getState() then
 			slot11:setState(ColorGroup.StateLock)
 		end
@@ -90,7 +92,7 @@ end
 
 function slot0.getColorGroup(slot0, slot1)
 	return _.detect(slot0.colorGroups, function (slot0)
-		return slot0.id == slot0
+		return slot0.id == uv0
 	end)
 end
 
@@ -99,7 +101,8 @@ function slot0.checkState(slot0)
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and not slot3:isEnd() then
 		slot4 = pg.TimeMgr.GetInstance()
-		slot5 = slot4:DiffDay(slot0.startTime, slot4:GetServerTime()) + 1
+		slot9 = slot4
+		slot5 = slot4:DiffDay(slot0.startTime, slot4.GetServerTime(slot9)) + 1
 
 		for slot9, slot10 in ipairs(slot0.colorGroups) do
 			if slot10:getState() == ColorGroup.StateColoring and slot10:isAllFill() then

@@ -4,7 +4,7 @@ ys.Battle.BattleDrops = slot1
 slot1.__name = "BattleDrops"
 
 function slot1.Ctor(slot0, slot1)
-	slot0.EventDispatcher.AttachEventDispatcher(slot0)
+	uv0.EventDispatcher.AttachEventDispatcher(slot0)
 
 	slot0._dropList = slot1
 	slot0._resourceCount = 0
@@ -35,7 +35,5 @@ function slot1.GetDropped(slot0)
 end
 
 function slot1.Dispose(slot0)
-	slot0.EventDispatcher.DetachEventDispatcher(slot0)
+	uv0.EventDispatcher.DetachEventDispatcher(slot0)
 end
-
-return

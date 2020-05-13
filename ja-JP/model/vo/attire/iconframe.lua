@@ -21,7 +21,7 @@ function slot0.getPrefabName(slot0)
 end
 
 function slot0.getIcon(slot0)
-	return slot0.GetIcon(slot0:getPrefabName())
+	return uv0.GetIcon(slot0:getPrefabName())
 end
 
 return slot0

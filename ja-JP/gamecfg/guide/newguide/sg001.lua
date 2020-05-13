@@ -28,7 +28,7 @@ return {
 			}
 		},
 		getSegment = function ()
-			return (getProxy(BuildShipProxy):getFinishCount() > 0 and 2) or 1
+			return getProxy(BuildShipProxy):getFinishCount() > 0 and 2 or 1
 		end
 	},
 	{
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		getSegment = function ()
-			return ((not BuildShipScene.projectName or BuildShipScene.projectName == BuildShipScene.PROJECTS.HEAVY) and 2) or 1
+			return (not BuildShipScene.projectName or BuildShipScene.projectName == BuildShipScene.PROJECTS.HEAVY) and 2 or 1
 		end
 	},
 	{
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		getSegment = function ()
-			return (getProxy(BuildShipProxy):getFinishCount() > 0 and 2) or 1
+			return getProxy(BuildShipProxy):getFinishCount() > 0 and 2 or 1
 		end
 	},
 	{

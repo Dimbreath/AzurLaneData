@@ -3,29 +3,29 @@ ys.Battle.BattleGatePerform = slot0
 slot0.__name = "BattleGatePerform"
 
 function slot0.Entrance(slot0, slot1)
-	slot5 = {
-		prefabFleet = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot3).fleet_prefab,
-		stageId = slot0.stageId,
-		system = SYSTEM_PERFORM,
-		memory = slot0.memory,
-		exitCallback = slot0.exitCallback
-	}
+	slot2 = slot0.stageId
 
 	if slot0.memory then
-		slot1:sendNotification(GAME.BEGIN_STAGE_DONE, slot5)
+		slot1:sendNotification(GAME.BEGIN_STAGE_DONE, {
+			prefabFleet = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot2].dungeon_id).fleet_prefab,
+			stageId = slot2,
+			system = SYSTEM_PERFORM,
+			memory = slot0.memory,
+			exitCallback = slot0.exitCallback
+		})
 	else
 		BeginStageCommand.SendRequest(SYSTEM_PERFORM, {}, {
 			slot2
 		}, function (slot0)
-			slot0:sendNotification(GAME.STORY_UPDATE, {
-				storyId = pg.StoryMgr.GetInstance():GetStoryByName("index")[slot1]
+			uv0:sendNotification(GAME.STORY_UPDATE, {
+				storyId = pg.StoryMgr.GetInstance():GetStoryByName("index")[uv1]
 			})
 
-			slot0.sendNotification.token = slot0.key
+			uv2.token = slot0.key
 
-			slot0:sendNotification(GAME.BEGIN_STAGE_DONE, slot0.sendNotification)
+			uv0:sendNotification(GAME.BEGIN_STAGE_DONE, uv2)
 		end, function (slot0)
-			slot0:RequestFailStandardProcess(slot0)
+			uv0:RequestFailStandardProcess(slot0)
 		end)
 	end
 end
@@ -37,12 +37,12 @@ function slot0.Exit(slot0, slot1)
 		})
 	else
 		slot1:SendRequest(slot1.GeneralPackage(slot0, {}), function (slot0)
-			slot0:sendNotification(GAME.FINISH_STAGE_DONE, {
+			uv0:sendNotification(GAME.FINISH_STAGE_DONE, {
 				system = SYSTEM_PERFORM,
-				exitCallback = slot1.exitCallback
+				exitCallback = uv1.exitCallback
 			})
 		end, function (slot0)
-			slot0:RequestFailStandardProcess(slot0)
+			uv0:RequestFailStandardProcess(slot0)
 		end)
 	end
 end

@@ -12981,7 +12981,7 @@ GET!
 		tip = "指揮官レベル20で開放されます",
 		key = "inform_level_limit"
 	},
-	3match_tip = {
+	["3match_tip"] = {
 		key = "3match_tip",
 		tip = {
 			{
@@ -13123,5 +13123,3 @@ GET!
 		key = "collect_tip2"
 	}
 }
-
-return

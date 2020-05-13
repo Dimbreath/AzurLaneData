@@ -9,14 +9,14 @@ slot6 = tostring
 module("text_format")
 
 function format(slot0)
-	for slot5 = 1, slot0:len(), 16 do
-		slot6 = ""
+	for slot5 = 1, uv0.len(slot0), 16 do
+		slot10 = slot1
 
-		for slot10 = slot5, slot1.min((slot5 + 16) - 1, slot1), 1 do
-			slot6 = slot0.format("%s  %02x", slot6, slot0:byte(slot10))
+		for slot10 = slot5, uv1.min(slot5 + 16 - 1, slot10) do
+			slot6 = uv0.format("%s  %02x", "", uv0.byte(slot0, slot10))
 		end
 
-		slot2(slot6)
+		uv2(slot6)
 	end
 end
 
@@ -25,25 +25,25 @@ slot8 = require("descriptor").FieldDescriptor
 function msg_format_indent(slot0, slot1, slot2)
 	for slot6, slot7 in slot1:ListFields() do
 		function slot8(slot0)
-			slot1(slot2.rep(" ", slot2.rep))
+			uv1(uv2.rep(" ", uv3))
 
-			if slot0.type == slot4.TYPE_MESSAGE then
-				if slot5(slot6)._extensions_by_name[slot0.full_name] then
-					slot1("[" .. slot1 .. "] {\n")
+			if uv0.type == uv4.TYPE_MESSAGE then
+				if uv5(uv6)._extensions_by_name[uv0.full_name] then
+					uv1("[" .. uv0.name .. "] {\n")
 				else
-					slot1(slot1 .. " {\n")
+					uv1(slot1 .. " {\n")
 				end
 
-				msg_format_indent(slot1, slot0, slot3 + 4)
-				slot1(slot2.rep(" ", slot1))
-				slot1("}\n")
+				msg_format_indent(uv1, slot0, uv3 + 4)
+				uv1(uv2.rep(" ", uv3))
+				uv1("}\n")
 			else
-				slot1(slot2.format("%s: %s\n", slot1, slot7(slot0)))
+				uv1(uv2.format("%s: %s\n", slot1, uv7(slot0)))
 			end
 		end
 
-		if slot6.label == slot1.LABEL_REPEATED then
-			for slot12, slot13 in slot4(slot7) do
+		if slot6.label == uv1.LABEL_REPEATED then
+			for slot12, slot13 in uv4(slot7) do
 				slot8(slot13)
 			end
 		else
@@ -53,9 +53,9 @@ function msg_format_indent(slot0, slot1, slot2)
 end
 
 function msg_format(slot0)
-	msg_format_indent(slot2, slot0, 0)
+	msg_format_indent(function (slot0)
+		uv0[#uv0 + 1] = slot0
+	end, slot0, 0)
 
-	return slot0.concat({})
+	return uv0.concat({})
 end
-
-return

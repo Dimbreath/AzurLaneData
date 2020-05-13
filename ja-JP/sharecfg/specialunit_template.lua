@@ -3144,5 +3144,3 @@ pg.specialunit_template = {
 		1210016
 	}
 }
-
-return

@@ -25,7 +25,7 @@ slot1 = {
 }
 
 function slot0.level2WarnPos(slot0)
-	return slot0[slot0]
+	return uv0[slot0]
 end
 
 return slot0

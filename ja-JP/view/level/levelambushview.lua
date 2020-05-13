@@ -17,33 +17,34 @@ function slot0.InitData(slot0)
 end
 
 function slot0.InitUI(slot0)
-	GetImageSpriteFromAtlasAsync("enemies/" .. slot0.template.icon, "", slot3)
-	setText(slot2, slot0.template.level)
-	setText(slot4, math.floor(slot0.chapter:getAmbushDodge(slot0.fleet) * 100) .. "%")
-	onButton(slot0, slot5, function ()
-		slot0:emit(LevelMediator2.ON_OP, {
+	slot1 = findTF(slot0._tf, "window")
+
+	GetImageSpriteFromAtlasAsync("enemies/" .. slot0.template.icon, "", findTF(slot0._tf, "window/ship/icon"))
+	setText(findTF(slot0._tf, "window/ship/lv/Text"), slot0.template.level)
+	setText(findTF(slot0._tf, "window/evade/rate"), math.floor(slot0.chapter:getAmbushDodge(slot0.fleet) * 100) .. "%")
+	onButton(slot0, findTF(slot0._tf, "window/fight_button"), function ()
+		uv0:emit(LevelMediator2.ON_OP, {
 			arg1 = 0,
 			type = ChapterConst.OpAmbush,
-			id = slot0.fleet.id
+			id = uv0.fleet.id
 		})
-		slot0.emit:Destroy()
+		uv0:Destroy()
 	end, SFX_UI_WEIGHANCHOR_ATTACK)
-	onButton(slot0, slot6, function ()
-		slot0:emit(LevelMediator2.ON_OP, {
+	onButton(slot0, findTF(slot0._tf, "window/dodge_button"), function ()
+		uv0:emit(LevelMediator2.ON_OP, {
 			arg1 = 1,
 			type = ChapterConst.OpAmbush,
-			id = slot0.fleet.id
+			id = uv0.fleet.id
 		})
-		slot0.emit:Destroy()
+		uv0:Destroy()
 	end, SFX_UI_WEIGHANCHOR_AVOID)
 
-	findTF(slot0._tf, "window").localScale = Vector3(1, 0, 1)
+	slot1.localScale = Vector3(1, 0, 1)
 
-	LeanTween.scaleY(findTF(slot0._tf, "window").gameObject, 1, 0.3):setOnComplete(System.Action(slot0.onComplete))
+	LeanTween.scaleY(slot1.gameObject, 1, 0.3):setOnComplete(System.Action(slot0.onComplete))
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 function slot0.SetFuncOnComplete(slot0, slot1)

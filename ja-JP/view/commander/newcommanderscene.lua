@@ -39,12 +39,10 @@ function slot0.init(slot0)
 end
 
 function slot0.openTreePanel(slot0, slot1)
-	function slot2()
-		slot0.treePanel:ActionInvoke("openTreePanel", slot0.treePanel)
-	end
-
 	if slot0.treePanel:GetLoaded() then
-		slot2()
+		function ()
+			uv0.treePanel:ActionInvoke("openTreePanel", uv1)
+		end()
 	else
 		slot0.treePanel:Load()
 		slot0.treePanel:AddLoadedCallback(slot2)
@@ -65,22 +63,22 @@ function slot0.enterAnim(slot0)
 	slot1 = slot0._tf:GetComponent(typeof(DftAniEvent))
 
 	slot1:SetTriggerEvent(function (slot0)
-		if slot0.commanderVO:isSSR() then
-			slot0:playerEffect()
+		if uv0.commanderVO:isSSR() then
+			uv0:playerEffect()
 		end
 	end)
 	slot1:SetEndEvent(function ()
-		slot0.isAnim = false
+		uv0.isAnim = false
 
-		setActive(slot0.clickTF, true)
+		setActive(uv0.clickTF, true)
 	end)
 end
 
 function slot0.playerEffect(slot0)
 	PoolMgr.GetInstance():GetUI("AL_zhihuimiao_zhipian", true, function (slot0)
-		slot0.effect = slot0
+		uv0.effect = slot0
 
-		SetParent(slot0, slot0._tf)
+		SetParent(slot0, uv0._tf)
 		setActive(slot0, true)
 	end)
 end
@@ -88,12 +86,10 @@ end
 function slot0.openMsgBox(slot0, slot1)
 	slot0.isShowMsgBox = true
 
-	function slot2()
-		slot0.msgbox:ActionInvoke("OnUpdate", slot0.msgbox)
-	end
-
 	if slot0.msgbox:GetLoaded() then
-		slot2()
+		function ()
+			uv0.msgbox:ActionInvoke("OnUpdate", uv1)
+		end()
 	else
 		slot0.msgbox:Load()
 		slot0.msgbox:AddLoadedCallback(slot2)
@@ -108,38 +104,36 @@ end
 
 function slot0.didEnter(slot0)
 	slot0:updateInfo(function ()
-		slot0:enterAnim()
+		uv0:enterAnim()
 	end)
 	onButton(slot0, slot0.shareBtn, function ()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeCommander, pg.ShareMgr.PANEL_TYPE_PINK)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.lockBtn, function ()
-		slot0 = slot0.commanderVO:getLock()
-
-		slot0:emit(NewCommanderMediator.ON_LOCK, slot0.commanderVO.id, 1 - slot0)
+		uv0:emit(NewCommanderMediator.ON_LOCK, uv0.commanderVO.id, 1 - uv0.commanderVO:getLock())
 	end, SFX_PANEL)
 	onButton(slot0, slot0.clickTF, function ()
-		if slot0.isAnim then
-			slot0.antor:SetBool("play", false)
+		if uv0.isAnim then
+			uv0.antor:SetBool("play", false)
 
-			if slot0.antor.SetBool.commanderVO:isSSR() and not slot0.effect then
-				slot0:playerEffect()
+			if uv0.commanderVO:isSSR() and not uv0.effect then
+				uv0:playerEffect()
 			end
 
-			slot0.isAnim = nil
-		elseif slot0.commanderVO:isSSR() and not slot0.commanderVO:isLocked() then
-			slot0:openMsgBox({
+			uv0.isAnim = nil
+		elseif uv0.commanderVO:isSSR() and not uv0.commanderVO:isLocked() then
+			uv0:openMsgBox({
 				content = i18n("commander_lock_tip"),
 				onYes = function ()
-					slot0:emit(NewCommanderMediator.ON_LOCK, slot0.commanderVO.id, 1)
-					slot0.emit:emit(slot1.ON_CLOSE)
+					uv0:emit(NewCommanderMediator.ON_LOCK, uv0.commanderVO.id, 1)
+					uv0:emit(uv1.ON_CLOSE)
 				end,
 				onNo = function ()
-					slot0:emit(slot1.ON_CLOSE)
+					uv0:emit(uv1.ON_CLOSE)
 				end
 			})
 		else
-			slot0:emit(slot1.ON_CLOSE)
+			uv0:emit(uv1.ON_CLOSE)
 		end
 	end, SFX_CANCEL)
 end
@@ -147,21 +141,23 @@ end
 function slot0.updateLockState(slot0, slot1)
 	setActive(slot0.lockBtn:Find("image"), slot1 == 0)
 	onButton(slot0, slot0.lockBtn, function ()
-		slot1:emit(NewCommanderMediator.ON_LOCK, slot1.commanderVO.id, 1 - slot0)
+		uv1:emit(NewCommanderMediator.ON_LOCK, uv1.commanderVO.id, 1 - uv0)
 	end, SFX_PANEL)
 end
 
 function slot0.updateInfo(slot0, slot1)
-	slot0:updateLockState(slot0.commanderVO.getLock(slot2))
+	slot2 = slot0.commanderVO
 
-	slot0.nameTF.text = slot0.commanderVO.getName(slot2)
-	slot0.nationTF.text = Nation.Nation2Name(slot0.commanderVO.getConfig(slot2, "nationality"))
-	slot0.skillTF.text = slot0.commanderVO.getSkills(slot2)[1].getConfig(slot4, "name")
+	slot0:updateLockState(slot2:getLock())
 
-	LoadImageSpriteAsync("CommanderRarity/" .. slot5, slot0.rarityTF, true)
-	setPaintingPrefab(slot0.paintTF, slot0.commanderVO.getPainting(slot2), "get")
+	slot0.nameTF.text = slot2:getName()
+	slot0.nationTF.text = Nation.Nation2Name(slot2:getConfig("nationality"))
+	slot0.skillTF.text = slot2:getSkills()[1]:getConfig("name")
 
-	slot0.painting = slot0.commanderVO
+	LoadImageSpriteAsync("CommanderRarity/" .. Commander.rarity2Print(slot2:getRarity()), slot0.rarityTF, true)
+	setPaintingPrefab(slot0.paintTF, slot2:getPainting(), "get")
+
+	slot0.painting = slot2
 
 	slot0:updateAbilitys()
 	slot0:updateTalents()
@@ -173,29 +169,33 @@ function slot0.updateInfo(slot0, slot1)
 end
 
 function slot0.updateAbilitys(slot0)
-	slot2 = slot0.commanderVO.getAbilitys(slot1)
+	slot2 = slot0.commanderVO:getAbilitys()
 
 	eachChild(slot0.abilitysTF, function (slot0)
-		setText(slot0:Find("slider/point"), slot0[go(slot0).name].value)
+		slot2 = uv0[go(slot0).name]
 
-		slot0:Find("slider"):GetComponent(typeof(Slider)).value = slot0[go(slot0).name].value / CommanderConst.MAX_ABILITY
+		setText(slot0:Find("slider/point"), slot2.value)
+
+		slot0:Find("slider"):GetComponent(typeof(Slider)).value = slot2.value / CommanderConst.MAX_ABILITY
 	end)
 end
 
 function slot0.updateTalents(slot0)
-	slot2 = slot0.commanderVO.getTalents(slot1)
+	slot2 = slot0.commanderVO:getTalents()
 
 	slot0.talentsList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setActive(slot2:Find("empty"), not slot0[slot1 + 1])
-			setActive(slot2:Find("icon"), slot0[slot1 + 1])
+			slot3 = uv0[slot1 + 1]
 
-			if slot0[slot1 + 1] then
+			setActive(slot2:Find("empty"), not slot3)
+			setActive(slot2:Find("icon"), slot3)
+
+			if slot3 then
 				GetImageSpriteFromAtlasAsync("CommanderTalentIcon/" .. slot3:getConfig("icon"), "", slot2:Find("icon"))
 			end
 
-			onButton(slot1, slot2, function ()
-				slot0:openTreePanel(slot0)
+			onButton(uv1, slot2, function ()
+				uv0:openTreePanel(uv1)
 			end, SFX_PANEL)
 		end
 	end)

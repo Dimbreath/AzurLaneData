@@ -1,12 +1,11 @@
 pg = pg or {}
-pg.word_template = {}
-slot1 = pg.word_template
+slot0 = pg
+slot0.word_template = {}
+slot1 = slot0.word_template
 slot2 = nil
 
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.A = {
+	uv0.A = {
 		N = {
 			A = {
 				L = {
@@ -37,10 +36,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.B = {
+	uv0.B = {
 		I = {
 			T = {
 				C = {
@@ -80,10 +77,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.C = {
+	uv0.C = {
 		H = {
 			I = {
 				N = {
@@ -160,10 +155,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.D = {
+	uv0.D = {
 		I = {
 			C = {
 				K = {
@@ -196,10 +189,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.F = {
+	uv0.F = {
 		["."] = {
 			U = {
 				["."] = {
@@ -244,10 +235,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.H = {
+	uv0.H = {
 		A = {
 			N = {
 				D = {
@@ -281,10 +270,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.J = {
+	uv0.J = {
 		A = {
 			P = {
 				this = true
@@ -304,10 +291,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.K = {
+	uv0.K = {
 		A = {
 			F = {
 				F = {
@@ -328,10 +313,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.L = {
+	uv0.L = {
 		E = {
 			S = {
 				B = {
@@ -343,10 +326,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.M = {
+	uv0.M = {
 		A = {
 			N = {
 				K = {
@@ -386,10 +367,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.N = {
+	uv0.N = {
 		A = {
 			Z = {
 				I = {
@@ -419,10 +398,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.P = {
+	uv0.P = {
 		A = {
 			E = {
 				D = {
@@ -509,10 +486,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.Q = {
+	uv0.Q = {
 		U = {
 			E = {
 				E = {
@@ -522,9 +497,9 @@ function ()
 				}
 			},
 			O = {
-				カ = {
-					ー = {
-						ド = {
+				["カ"] = {
+					["ー"] = {
+						["ド"] = {
 							this = true
 						}
 					}
@@ -533,10 +508,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.R = {
+	uv0.R = {
 		A = {
 			P = {
 				E = {
@@ -559,10 +532,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.S = {
+	uv0.S = {
 		C = {
 			R = {
 				O = {
@@ -578,8 +549,8 @@ function ()
 		},
 		E = {
 			O = {
-				自 = {
-					動 = {
+				["自"] = {
+					["動"] = {
 						this = true
 					}
 				}
@@ -632,10 +603,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.T = {
+	uv0.T = {
 		I = {
 			T = {
 				S = {
@@ -652,10 +621,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.V = {
+	uv0.V = {
 		A = {
 			G = {
 				I = {
@@ -678,10 +645,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.W = {
+	uv0.W = {
 		A = {
 			N = {
 				K = {
@@ -724,10 +689,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.c = {
+	uv0.c = {
 		h = {
 			i = {
 				n = {
@@ -742,99 +705,87 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.い = {
-		て = {
-			ま = {
-				う = {
-					ぞ = {
+	uv0["い"] = {
+		["て"] = {
+			["ま"] = {
+				["う"] = {
+					["ぞ"] = {
 						this = true
 					}
 				}
 			}
 		},
-		ん = {
-			ぽ = {
+		["ん"] = {
+			["ぽ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.う = {
-		ん = {
-			こ = {
+	uv0["う"] = {
+		["ん"] = {
+			["こ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.え = {
-		っ = {
-			ち = {
+	uv0["え"] = {
+		["っ"] = {
+			["ち"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.お = {
-		ま = {
-			と = {
-				め = {
-					ロ = {
-						ー = {
-							ン = {
+	uv0["お"] = {
+		["ま"] = {
+			["と"] = {
+				["め"] = {
+					["ロ"] = {
+						["ー"] = {
+							["ン"] = {
 								this = true
 							}
 						}
 					}
 				}
 			},
-			ん = {
-				こ = {
+			["ん"] = {
+				["こ"] = {
 					this = true
 				}
 			}
 		},
-		花 = {
-			畑 = {
+		["花"] = {
+			["畑"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.か = {
-		た = {
-			わ = {
+	uv0["か"] = {
+		["た"] = {
+			["わ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.き = {
-		ょ = {
-			う = {
-				じ = {
-					ん = {
+	uv0["き"] = {
+		["ょ"] = {
+			["う"] = {
+				["じ"] = {
+					["ん"] = {
 						["（"] = {
-							狂 = {
-								人 = {
+							["狂"] = {
+								["人"] = {
 									["）"] = {
 										this = true
 									}
@@ -847,31 +798,27 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.く = {
-		ろ = {
-			ん = {
-				ぼ = {
+	uv0["く"] = {
+		["ろ"] = {
+			["ん"] = {
+				["ぼ"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.し = {
-		ね = {
+	uv0["し"] = {
+		["ね"] = {
 			this = true
 		},
-		ん = {
-			へ = {
-				い = {
-					み = {
-						ん = {
+		["ん"] = {
+			["へ"] = {
+				["い"] = {
+					["み"] = {
+						["ん"] = {
 							this = true
 						}
 					}
@@ -880,173 +827,155 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.じ = {
-		ゃ = {
-			っ = {
-				ぷ = {
+	uv0["じ"] = {
+		["ゃ"] = {
+			["っ"] = {
+				["ぷ"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.す = {
-		か = {
-			と = {
-				ろ = {
+	uv0["す"] = {
+		["か"] = {
+			["と"] = {
+				["ろ"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.せ = {
-		む = {
-			し = {
+	uv0["せ"] = {
+		["む"] = {
+			["し"] = {
 				this = true
 			}
 		},
-		る = {
-			ふ = {
-				ぬ = {
-					ー = {
-						ど = {
+		["る"] = {
+			["ふ"] = {
+				["ぬ"] = {
+					["ー"] = {
+						["ど"] = {
 							this = true
 						}
 					}
 				}
 			}
 		},
-		ん = {
-			ず = {
-				り = {
+		["ん"] = {
+			["ず"] = {
+				["り"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ぜ = {
-		ん = {
-			ら = {
+	uv0["ぜ"] = {
+		["ん"] = {
+			["ら"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ち = {
-		え = {
-			お = {
-				く = {
-					れ = {
+	uv0["ち"] = {
+		["え"] = {
+			["お"] = {
+				["く"] = {
+					["れ"] = {
 						this = true
 					}
 				}
 			}
 		},
-		じ = {
-			ょ = {
+		["じ"] = {
+			["ょ"] = {
 				this = true
 			}
 		},
-		ゃ = {
-			ん = {
-				こ = {
-					ろ = {
+		["ゃ"] = {
+			["ん"] = {
+				["こ"] = {
+					["ろ"] = {
 						this = true
 					}
 				}
 			}
 		},
-		ん = {
-			か = {
-				す = {
+		["ん"] = {
+			["か"] = {
+				["す"] = {
 					this = true
 				}
 			},
-			こ = {
+			["こ"] = {
 				this = true
 			},
-			ち = {
-				ん = {
+			["ち"] = {
+				["ん"] = {
 					this = true
 				}
 			},
-			ば = {
+			["ば"] = {
 				this = true
 			},
-			ぽ = {
+			["ぽ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.つ = {
-		ん = {
-			ぼ = {
+	uv0["つ"] = {
+		["ん"] = {
+			["ぼ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.と = {
-		さ = {
-			つ = {
+	uv0["と"] = {
+		["さ"] = {
+			["つ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ど = {
-		か = {
-			た = {
+	uv0["ど"] = {
+		["か"] = {
+			["た"] = {
 				this = true
 			}
 		},
-		も = {
-			り = {
+		["も"] = {
+			["り"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.に = {
-		ぐ = {
-			ろ = {
+	uv0["に"] = {
+		["ぐ"] = {
+			["ろ"] = {
 				this = true
 			}
 		},
-		ん = {
-			ぴ = {
-				に = {
-					ん = {
+		["ん"] = {
+			["ぴ"] = {
+				["に"] = {
+					["ん"] = {
 						this = true
 					}
 				}
@@ -1054,72 +983,64 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.は = {
-		く = {
-			ち = {
+	uv0["は"] = {
+		["く"] = {
+			["ち"] = {
 				this = true
 			}
 		},
-		め = {
-			ど = {
-				り = {
+		["め"] = {
+			["ど"] = {
+				["り"] = {
 					this = true
 				}
 			},
-			撮 = {
-				り = {
+			["撮"] = {
+				["り"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ひ = {
-		に = {
-			ん = {
+	uv0["ひ"] = {
+		["に"] = {
+			["ん"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.び = {
-		っ = {
-			こ = {
+	uv0["び"] = {
+		["っ"] = {
+			["こ"] = {
 				this = true
 			},
-			ち = {
+			["ち"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ふ = {
-		ぇ = {
-			ら = {
+	uv0["ふ"] = {
+		["ぇ"] = {
+			["ら"] = {
 				this = true,
-				ち = {
-					お = {
+				["ち"] = {
+					["お"] = {
 						this = true
 					}
 				}
 			}
 		},
-		ろ = {
-			う = {
-				し = {
-					ゃ = {
+		["ろ"] = {
+			["う"] = {
+				["し"] = {
+					["ゃ"] = {
 						this = true
 					}
 				}
@@ -1127,98 +1048,82 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ぶ = {
-		っ = {
-			か = {
-				け = {
+	uv0["ぶ"] = {
+		["っ"] = {
+			["か"] = {
+				["け"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ぺ = {
-		に = {
-			す = {
+	uv0["ぺ"] = {
+		["に"] = {
+			["す"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ぽ = {
-		ん = {
-			び = {
-				き = {
+	uv0["ぽ"] = {
+		["ん"] = {
+			["び"] = {
+				["き"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ま = {
-		ん = {
-			こ = {
+	uv0["ま"] = {
+		["ん"] = {
+			["こ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.め = {
-		く = {
-			ら = {
+	uv0["め"] = {
+		["く"] = {
+			["ら"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.や = {
-		り = {
-			ま = {
-				ん = {
+	uv0["や"] = {
+		["り"] = {
+			["ま"] = {
+				["ん"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.よ = {
-		り = {
-			め = {
+	uv0["よ"] = {
+		["り"] = {
+			["め"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.り = {
-		ょ = {
-			う = {
-				じ = {
-					ょ = {
-						く = {
+	uv0["り"] = {
+		["ょ"] = {
+			["う"] = {
+				["じ"] = {
+					["ょ"] = {
+						["く"] = {
 							this = true
 						}
 					}
@@ -1227,55 +1132,49 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.れ = {
-		い = {
-			ぷ = {
+	uv0["れ"] = {
+		["い"] = {
+			["ぷ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.わ = {
-		き = {
-			が = {
+	uv0["わ"] = {
+		["き"] = {
+			["が"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ア = {
-		ダ = {
-			ル = {
-				ト = {
+	uv0["ア"] = {
+		["ダ"] = {
+			["ル"] = {
+				["ト"] = {
 					this = true
 				}
 			}
 		},
-		ナ = {
-			ル = {
+		["ナ"] = {
+			["ル"] = {
 				this = true
 			}
 		},
-		ヌ = {
-			ス = {
+		["ヌ"] = {
+			["ス"] = {
 				this = true
 			}
 		},
-		フ = {
-			ィ = {
-				リ = {
-					エ = {
-						イ = {
-							ト = {
+		["フ"] = {
+			["ィ"] = {
+				["リ"] = {
+					["エ"] = {
+						["イ"] = {
+							["ト"] = {
 								this = true
 							}
 						}
@@ -1283,28 +1182,28 @@ function ()
 				}
 			}
 		},
-		ホ = {
+		["ホ"] = {
 			this = true
 		},
-		メ = {
-			公 = {
+		["メ"] = {
+			["公"] = {
 				this = true
 			}
 		},
-		ル = {
-			バ = {
-				イ = {
-					ト = {
+		["ル"] = {
+			["バ"] = {
+				["イ"] = {
+					["ト"] = {
 						this = true
 					}
 				}
 			}
 		},
-		ン = {
-			ポ = {
-				ン = {
-					タ = {
-						ン = {
+		["ン"] = {
+			["ポ"] = {
+				["ン"] = {
+					["タ"] = {
+						["ン"] = {
 							this = true
 						}
 					}
@@ -1313,102 +1212,94 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.イ = {
-		ラ = {
-			マ = {
-				チ = {
-					オ = {
+	uv0["イ"] = {
+		["ラ"] = {
+			["マ"] = {
+				["チ"] = {
+					["オ"] = {
 						this = true
 					}
 				}
 			}
 		},
-		ン = {
-			ポ = {
+		["ン"] = {
+			["ポ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ウ = {
-		リ = {
+	uv0["ウ"] = {
+		["リ"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.エ = {
-		イ = {
-			ズ = {
+	uv0["エ"] = {
+		["イ"] = {
+			["ズ"] = {
 				this = true
 			}
 		},
-		ク = {
-			サ = {
-				サ = {
-					イ = {
-						ズ = {
+		["ク"] = {
+			["サ"] = {
+				["サ"] = {
+					["イ"] = {
+						["ズ"] = {
 							this = true
 						}
 					}
 				}
 			}
 		},
-		ッ = {
-			チ = {
+		["ッ"] = {
+			["チ"] = {
 				this = true
 			}
 		},
-		ロ = {
-			い = {
-				女 = {
+		["ロ"] = {
+			["い"] = {
+				["女"] = {
 					this = true
 				}
 			},
-			動 = {
-				画 = {
+			["動"] = {
+				["画"] = {
 					this = true
 				}
 			}
 		},
-		ン = {
-			コ = {
-				ウ = {
+		["ン"] = {
+			["コ"] = {
+				["ウ"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.オ = {
-		ナ = {
-			ニ = {
-				ー = {
+	uv0["オ"] = {
+		["ナ"] = {
+			["ニ"] = {
+				["ー"] = {
 					this = true
 				}
 			}
 		},
-		リ = {
-			ゴ = {
+		["リ"] = {
+			["ゴ"] = {
 				this = true
 			}
 		},
-		ー = {
-			ク = {
-				シ = {
-					ョ = {
-						ン = {
+		["ー"] = {
+			["ク"] = {
+				["シ"] = {
+					["ョ"] = {
+						["ン"] = {
 							this = true
 						}
 					}
@@ -1417,50 +1308,44 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.カ = {
-		ジ = {
-			ノ = {
+	uv0["カ"] = {
+		["ジ"] = {
+			["ノ"] = {
 				this = true
 			}
 		},
-		ス = {
+		["ス"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ガ = {
-		イ = {
-			ジ = {
+	uv0["ガ"] = {
+		["イ"] = {
+			["ジ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.キ = {
-		チ = {
-			ガ = {
-				イ = {
+	uv0["キ"] = {
+		["チ"] = {
+			["ガ"] = {
+				["イ"] = {
 					this = true
 				}
 			}
 		},
-		ャ = {
-			ッ = {
-				シ = {
+		["ャ"] = {
+			["ッ"] = {
+				["シ"] = {
 					this = true,
-					ュ = {
-						バ = {
-							ッ = {
-								ク = {
+					["ュ"] = {
+						["バ"] = {
+							["ッ"] = {
+								["ク"] = {
 									this = true
 								}
 							}
@@ -1471,142 +1356,128 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ク = {
-		ソ = {
+	uv0["ク"] = {
+		["ソ"] = {
 			this = true
 		},
-		リ = {
-			ニ = {
-				ッ = {
-					ク = {
+		["リ"] = {
+			["ニ"] = {
+				["ッ"] = {
+					["ク"] = {
 						this = true
 					}
 				}
 			}
 		},
-		ロ = {
-			ン = {
-				ボ = {
+		["ロ"] = {
+			["ン"] = {
+				["ボ"] = {
 					this = true
 				}
 			}
 		},
-		ー = {
-			リ = {
-				ー = {
+		["ー"] = {
+			["リ"] = {
+				["ー"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.グ = {
-		ラ = {
-			ビ = {
-				ア = {
+	uv0["グ"] = {
+		["ラ"] = {
+			["ビ"] = {
+				["ア"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ゲ = {
-		ス = {
+	uv0["ゲ"] = {
+		["ス"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.コ = {
-		ス = {
-			メ = {
+	uv0["コ"] = {
+		["ス"] = {
+			["メ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.サ = {
-		イ = {
-			ト = {
-				比 = {
-					較 = {
+	uv0["サ"] = {
+		["イ"] = {
+			["ト"] = {
+				["比"] = {
+					["較"] = {
 						this = true
 					}
 				}
 			}
 		},
-		ク = {
-			ラ = {
+		["ク"] = {
+			["ラ"] = {
 				this = true
 			}
 		},
-		プ = {
-			リ = {
+		["プ"] = {
+			["リ"] = {
 				this = true
 			}
 		},
-		ラ = {
-			金 = {
+		["ラ"] = {
+			["金"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ジ = {
-		ャ = {
-			ッ = {
-				プ = {
+	uv0["ジ"] = {
+		["ャ"] = {
+			["ッ"] = {
+				["プ"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ス = {
-		カ = {
-			ト = {
-				ロ = {
+	uv0["ス"] = {
+		["カ"] = {
+			["ト"] = {
+				["ロ"] = {
 					this = true
 				}
 			}
 		},
-		タ = {
-			ー = {
-				ビ = {
-					ー = {
-						チ = {
+		["タ"] = {
+			["ー"] = {
+				["ビ"] = {
+					["ー"] = {
+						["チ"] = {
 							this = true
 						}
 					}
 				}
 			}
 		},
-		ピ = {
-			リ = {
-				チ = {
-					ュ = {
-						ア = {
-							ル = {
+		["ピ"] = {
+			["リ"] = {
+				["チ"] = {
+					["ュ"] = {
+						["ア"] = {
+							["ル"] = {
 								this = true
 							}
 						}
@@ -1614,21 +1485,21 @@ function ()
 				}
 			}
 		},
-		ベ = {
-			タ = {
+		["ベ"] = {
+			["タ"] = {
 				this = true
 			}
 		},
-		リ = {
-			ム = {
+		["リ"] = {
+			["ム"] = {
 				this = true
 			}
 		},
-		ワ = {
-			ッ = {
-				ピ = {
-					ン = {
-						グ = {
+		["ワ"] = {
+			["ッ"] = {
+				["ピ"] = {
+					["ン"] = {
+						["グ"] = {
 							this = true
 						}
 					}
@@ -1637,27 +1508,25 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.セ = {
-		ッ = {
-			ク = {
-				ス = {
+	uv0["セ"] = {
+		["ッ"] = {
+			["ク"] = {
+				["ス"] = {
 					this = true
 				}
 			}
 		},
-		フ = {
-			レ = {
+		["フ"] = {
+			["レ"] = {
 				this = true
 			}
 		},
-		ル = {
-			フ = {
-				ヌ = {
-					ー = {
-						ド = {
+		["ル"] = {
+			["フ"] = {
+				["ヌ"] = {
+					["ー"] = {
+						["ド"] = {
 							this = true
 						}
 					}
@@ -1666,82 +1535,76 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ゼ = {
-		ン = {
-			ラ = {
+	uv0["ゼ"] = {
+		["ン"] = {
+			["ラ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.チ = {
-		ェ = {
-			ン = {
-				メ = {
+	uv0["チ"] = {
+		["ェ"] = {
+			["ン"] = {
+				["メ"] = {
 					this = true
 				}
 			}
 		},
-		ジ = {
-			ョ = {
+		["ジ"] = {
+			["ョ"] = {
 				this = true
 			}
 		},
-		ャ = {
-			ン = {
-				コ = {
-					ロ = {
+		["ャ"] = {
+			["ン"] = {
+				["コ"] = {
+					["ロ"] = {
 						this = true
 					}
 				}
 			},
-			Ｈ = {
+			["Ｈ"] = {
 				this = true
 			}
 		},
-		ョ = {
-			ッ = {
-				パ = {
-					リ = {
+		["ョ"] = {
+			["ッ"] = {
+				["パ"] = {
+					["リ"] = {
 						this = true
 					}
 				}
 			},
-			ン = {
+			["ン"] = {
 				this = true
 			}
 		},
-		ン = {
-			カ = {
-				ス = {
+		["ン"] = {
+			["カ"] = {
+				["ス"] = {
 					this = true
 				}
 			},
-			コ = {
+			["コ"] = {
 				this = true
 			},
-			ポ = {
+			["ポ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.テ = {
-		ク = {
-			ノ = {
-				ス = {
-					ト = {
-						レ = {
-							ス = {
+	uv0["テ"] = {
+		["ク"] = {
+			["ノ"] = {
+				["ス"] = {
+					["ト"] = {
+						["レ"] = {
+							["ス"] = {
 								this = true
 							}
 						}
@@ -1749,11 +1612,11 @@ function ()
 				}
 			}
 		},
-		レ = {
-			ウ = {
-				ェ = {
-					イ = {
-						ヴ = {
+		["レ"] = {
+			["ウ"] = {
+				["ェ"] = {
+					["イ"] = {
+						["ヴ"] = {
 							this = true
 						}
 					}
@@ -1762,69 +1625,61 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.デ = {
-		ブ = {
+	uv0["デ"] = {
+		["ブ"] = {
 			this = true
 		},
-		リ = {
-			ヘ = {
-				ル = {
+		["リ"] = {
+			["ヘ"] = {
+				["ル"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ナ = {
-		ン = {
-			パ = {
+	uv0["ナ"] = {
+		["ン"] = {
+			["パ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ニ = {
-		ガ = {
-			ー = {
+	uv0["ニ"] = {
+		["ガ"] = {
+			["ー"] = {
 				this = true
 			}
 		},
-		グ = {
-			ロ = {
+		["グ"] = {
+			["ロ"] = {
 				this = true
 			}
 		},
-		ダ = {
+		["ダ"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ハ = {
-		ッ = {
-			ピ = {
-				ー = {
-					メ = {
-						ー = {
-							ル = {
+	uv0["ハ"] = {
+		["ッ"] = {
+			["ピ"] = {
+				["ー"] = {
+					["メ"] = {
+						["ー"] = {
+							["ル"] = {
 								this = true
 							}
 						}
 					},
-					ラ = {
-						イ = {
-							フ = {
+					["ラ"] = {
+						["イ"] = {
+							["フ"] = {
 								this = true
 							}
 						}
@@ -1832,20 +1687,20 @@ function ()
 				}
 			}
 		},
-		メ = {
-			ド = {
-				リ = {
+		["メ"] = {
+			["ド"] = {
+				["リ"] = {
 					this = true
 				}
 			},
-			撮 = {
+			["撮"] = {
 				this = true
 			}
 		},
-		リ = {
-			ジ = {
-				ャ = {
-					ン = {
+		["リ"] = {
+			["ジ"] = {
+				["ャ"] = {
+					["ン"] = {
 						this = true
 					}
 				}
@@ -1853,48 +1708,42 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.バ = {
-		イ = {
-			ブ = {
+	uv0["バ"] = {
+		["イ"] = {
+			["ブ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.パ = {
-		チ = {
-			ス = {
-				ロ = {
+	uv0["パ"] = {
+		["チ"] = {
+			["ス"] = {
+				["ロ"] = {
 					this = true
 				}
 			},
-			ン = {
-				コ = {
+			["ン"] = {
+				["コ"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ビ = {
-		ッ = {
-			チ = {
+	uv0["ビ"] = {
+		["ッ"] = {
+			["チ"] = {
 				this = true
 			}
 		},
-		ュ = {
-			ー = {
-				テ = {
-					ィ = {
+		["ュ"] = {
+			["ー"] = {
+				["テ"] = {
+					["ィ"] = {
 						this = true
 					}
 				}
@@ -1902,34 +1751,32 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.フ = {
-		ァ = {
-			シ = {
-				ス = {
-					ト = {
+	uv0["フ"] = {
+		["ァ"] = {
+			["シ"] = {
+				["ス"] = {
+					["ト"] = {
 						this = true
 					}
 				}
 			},
-			ッ = {
-				ク = {
+			["ッ"] = {
+				["ク"] = {
 					this = true
 				}
 			},
-			ビ = {
-				ョ = {
+			["ビ"] = {
+				["ョ"] = {
 					this = true
 				}
 			}
 		},
-		ェ = {
-			ラ = {
+		["ェ"] = {
+			["ラ"] = {
 				this = true,
-				チ = {
-					オ = {
+				["チ"] = {
+					["オ"] = {
 						this = true
 					}
 				}
@@ -1937,81 +1784,73 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ブ = {
-		ウ = {
-			ヨ = {
+	uv0["ブ"] = {
+		["ウ"] = {
+			["ヨ"] = {
 				this = true
 			}
 		},
-		サ = {
-			イ = {
-				ク = {
+		["サ"] = {
+			["イ"] = {
+				["ク"] = {
 					this = true
 				}
 			},
-			ヨ = {
+			["ヨ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.プ = {
-		レ = {
-			ゼ = {
-				ン = {
+	uv0["プ"] = {
+		["レ"] = {
+			["ゼ"] = {
+				["ン"] = {
 					this = true
 				}
 			}
 		},
-		ロ = {
-			奴 = {
-				隷 = {
+		["ロ"] = {
+			["奴"] = {
+				["隷"] = {
 					this = true
 				}
 			},
-			市 = {
-				民 = {
+			["市"] = {
+				["民"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ホ = {
-		ス = {
-			ト = {
+	uv0["ホ"] = {
+		["ス"] = {
+			["ト"] = {
 				this = true
 			}
 		},
-		テ = {
-			ヘ = {
-				ル = {
+		["テ"] = {
+			["ヘ"] = {
+				["ル"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ボ = {
-		ケ = {
+	uv0["ボ"] = {
+		["ケ"] = {
 			this = true
 		},
-		ン = {
-			デ = {
-				ー = {
-					ジ = {
+		["ン"] = {
+			["デ"] = {
+				["ー"] = {
+					["ジ"] = {
 						this = true
 					}
 				}
@@ -2019,50 +1858,46 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ポ = {
-		ル = {
-			ノ = {
+	uv0["ポ"] = {
+		["ル"] = {
+			["ノ"] = {
 				this = true
 			}
 		},
-		ー = {
-			カ = {
-				ー = {
+		["ー"] = {
+			["カ"] = {
+				["ー"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.マ = {
-		イ = {
-			ミ = {
-				ク = {
+	uv0["マ"] = {
+		["イ"] = {
+			["ミ"] = {
+				["ク"] = {
 					this = true
 				}
 			}
 		},
-		ヌ = {
-			ケ = {
+		["ヌ"] = {
+			["ケ"] = {
 				this = true
 			}
 		},
-		ン = {
-			コ = {
+		["ン"] = {
+			["コ"] = {
 				this = true
 			}
 		},
-		ー = {
-			チ = {
-				ャ = {
-					ン = {
-						ト = {
+		["ー"] = {
+			["チ"] = {
+				["ャ"] = {
+					["ン"] = {
+						["ト"] = {
 							this = true
 						}
 					}
@@ -2071,77 +1906,67 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.メ = {
-		ル = {
-			友 = {
+	uv0["メ"] = {
+		["ル"] = {
+			["友"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ラ = {
-		ブ = {
-			ホ = {
+	uv0["ラ"] = {
+		["ブ"] = {
+			["ホ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.リ = {
-		ア = {
-			友 = {
+	uv0["リ"] = {
+		["ア"] = {
+			["友"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.レ = {
-		イ = {
-			ジ = {
-				ョ = {
-					ウ = {
+	uv0["レ"] = {
+		["イ"] = {
+			["ジ"] = {
+				["ョ"] = {
+					["ウ"] = {
 						this = true
 					}
 				}
 			},
-			プ = {
+			["プ"] = {
 				this = true
 			}
 		},
-		ス = {
-			を = {
-				コ = {
-					ピ = {
+		["ス"] = {
+			["を"] = {
+				["コ"] = {
+					["ピ"] = {
 						this = true
 					}
 				}
 			}
 		},
-		ズ = {
+		["ズ"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.ロ = {
-		ー = {
-			シ = {
-				ョ = {
-					ン = {
+	uv0["ロ"] = {
+		["ー"] = {
+			["シ"] = {
+				["ョ"] = {
+					["ン"] = {
 						this = true
 					}
 				}
@@ -2149,49 +1974,41 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.万 = {
-		円 = {
+	uv0["万"] = {
+		["円"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.三 = {
-		国 = {
-			人 = {
+	uv0["三"] = {
+		["国"] = {
+			["人"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.下 = {
-		流 = {
+	uv0["下"] = {
+		["流"] = {
 			this = true
 		},
-		着 = {
+		["着"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.不 = {
-		可 = {
-			触 = {
-				民 = {
+	uv0["不"] = {
+		["可"] = {
+			["触"] = {
+				["民"] = {
 					this = true
 				},
-				賎 = {
-					民 = {
+				["賎"] = {
+					["民"] = {
 						this = true
 					}
 				}
@@ -2199,26 +2016,22 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.中 = {
-		出 = {
-			し = {
+	uv0["中"] = {
+		["出"] = {
+			["し"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.九 = {
-		評 = {
-			論 = {
-				共 = {
-					産 = {
-						黨 = {
+	uv0["九"] = {
+		["評"] = {
+			["論"] = {
+				["共"] = {
+					["産"] = {
+						["黨"] = {
 							this = true
 						}
 					}
@@ -2227,290 +2040,238 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.乱 = {
-		交 = {
+	uv0["乱"] = {
+		["交"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.交 = {
-		際 = {
+	uv0["交"] = {
+		["際"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.人 = {
-		體 = {
-			實 = {
-				驗 = {
+	uv0["人"] = {
+		["體"] = {
+			["實"] = {
+				["驗"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.会 = {
-		え = {
-			る = {
+	uv0["会"] = {
+		["え"] = {
+			["る"] = {
 				this = true
 			}
 		},
-		員 = {
-			募 = {
-				集 = {
+		["員"] = {
+			["募"] = {
+				["集"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.低 = {
-		学 = {
-			歴 = {
+	uv0["低"] = {
+		["学"] = {
+			["歴"] = {
 				this = true
 			}
 		},
-		脳 = {
+		["脳"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.便 = {
-		秘 = {
+	uv0["便"] = {
+		["秘"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.倭 = {
-		人 = {
+	uv0["倭"] = {
+		["人"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.健 = {
-		康 = {
-			器 = {
-				具 = {
+	uv0["健"] = {
+		["康"] = {
+			["器"] = {
+				["具"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.傴 = {
-		僂 = {
+	uv0["傴"] = {
+		["僂"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.億 = {
-		万 = {
-			長 = {
-				者 = {
+	uv0["億"] = {
+		["万"] = {
+			["長"] = {
+				["者"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.儲 = {
-		か = {
+	uv0["儲"] = {
+		["か"] = {
 			this = true
 		},
-		け = {
+		["け"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.六 = {
-		合 = {
-			彩 = {
+	uv0["六"] = {
+		["合"] = {
+			["彩"] = {
 				this = true
 			}
 		},
-		四 = {
+		["四"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.円 = {
-		光 = {
+	uv0["円"] = {
+		["光"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.処 = {
-		女 = {
+	uv0["処"] = {
+		["女"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.出 = {
-		会 = {
+	uv0["出"] = {
+		["会"] = {
 			this = true
 		},
-		版 = {
+		["版"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.分 = {
-		際 = {
+	uv0["分"] = {
+		["際"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.刷 = {
+	uv0["刷"] = {
 		this = true
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.副 = {
-		収 = {
-			入 = {
+	uv0["副"] = {
+		["収"] = {
+			["入"] = {
 				this = true
 			}
 		},
-		業 = {
+		["業"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.包 = {
-		茎 = {
+	uv0["包"] = {
+		["茎"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.北 = {
-		京 = {
-			之 = {
-				春 = {
+	uv0["北"] = {
+		["京"] = {
+			["之"] = {
+				["春"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.南 = {
-		京 = {
+	uv0["南"] = {
+		["京"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.占 = {
+	uv0["占"] = {
 		["?"] = {
 			this = true
 		},
-		い = {
+		["い"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.即 = {
-		金 = {
+	uv0["即"] = {
+		["金"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.友 = {
-		達 = {
-			紹 = {
-				介 = {
+	uv0["友"] = {
+		["達"] = {
+			["紹"] = {
+				["介"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.合 = {
-		法 = {
+	uv0["合"] = {
+		["法"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.告 = {
-		ら = {
-			れ = {
-				レ = {
-					ス = {
+	uv0["告"] = {
+		["ら"] = {
+			["れ"] = {
+				["レ"] = {
+					["ス"] = {
 						this = true
 					}
 				}
@@ -2518,107 +2279,89 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.和 = {
-		平 = {
-			演 = {
-				變 = {
+	uv0["和"] = {
+		["平"] = {
+			["演"] = {
+				["變"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.咥 = {
+	uv0["咥"] = {
 		this = true
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.商 = {
-		材 = {
+	uv0["商"] = {
+		["材"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.喘 = {
-		ぎ = {
+	uv0["喘"] = {
+		["ぎ"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.国 = {
-		服 = {
+	uv0["国"] = {
+		["服"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.在 = {
-		宅 = {
+	uv0["在"] = {
+		["宅"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.売 = {
-		女 = {
+	uv0["売"] = {
+		["女"] = {
 			this = true
 		},
-		春 = {
-			婦 = {
+		["春"] = {
+			["婦"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.多 = {
-		重 = {
-			債 = {
-				務 = {
+	uv0["多"] = {
+		["重"] = {
+			["債"] = {
+				["務"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.大 = {
+	uv0["大"] = {
 		["?"] = {
 			this = true
 		},
-		法 = {
-			弟 = {
-				子 = {
+		["法"] = {
+			["弟"] = {
+				["子"] = {
 					this = true
 				}
 			}
 		},
-		紀 = {
-			元 = {
-				時 = {
-					報 = {
+		["紀"] = {
+			["元"] = {
+				["時"] = {
+					["報"] = {
 						this = true
 					}
 				}
@@ -2626,361 +2369,299 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.天 = {
-		安 = {
-			門 = {
+	uv0["天"] = {
+		["安"] = {
+			["門"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.奇 = {
-		形 = {
-			児 = {
+	uv0["奇"] = {
+		["形"] = {
+			["児"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.姦 = {
+	uv0["姦"] = {
 		this = true,
-		通 = {
+		["通"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.子 = {
-		大 = {
+	uv0["子"] = {
+		["大"] = {
 			this = true
 		},
-		校 = {
+		["校"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.官 = {
-		能 = {
+	uv0["官"] = {
+		["能"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.宝 = {
-		く = {
-			じ = {
+	uv0["宝"] = {
+		["く"] = {
+			["じ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.家 = {
-		出 = {
+	uv0["家"] = {
+		["出"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.寄 = {
-		生 = {
-			虫 = {
+	uv0["寄"] = {
+		["生"] = {
+			["虫"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.射 = {
-		精 = {
+	uv0["射"] = {
+		["精"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.專 = {
-		制 = {
+	uv0["專"] = {
+		["制"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.小 = {
-		児 = {
-			病 = {
+	uv0["小"] = {
+		["児"] = {
+			["病"] = {
 				this = true
 			}
 		},
-		日 = {
-			本 = {
+		["日"] = {
+			["本"] = {
 				this = true
 			}
 		},
-		遣 = {
+		["遣"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.尻 = {
-		軽 = {
+	uv0["尻"] = {
+		["軽"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.屏 = {
-		蔽 = {
+	uv0["屏"] = {
+		["蔽"] = {
 			["?"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.工 = {
-		作 = {
-			員 = {
+	uv0["工"] = {
+		["作"] = {
+			["員"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.帰 = {
-		化 = {
-			人 = {
+	uv0["帰"] = {
+		["化"] = {
+			["人"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.強 = {
-		制 = {
-			堕 = {
-				胎 = {
+	uv0["強"] = {
+		["制"] = {
+			["堕"] = {
+				["胎"] = {
 					this = true
 				}
 			},
-			斷 = {
-				種 = {
+			["斷"] = {
+				["種"] = {
 					this = true
 				}
 			}
 		},
-		姦 = {
+		["姦"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.彼 = {
-		女 = {
-			募 = {
-				集 = {
+	uv0["彼"] = {
+		["女"] = {
+			["募"] = {
+				["集"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.待 = {
-		ち = {
-			合 = {
+	uv0["待"] = {
+		["ち"] = {
+			["合"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.心 = {
-		障 = {
-			児 = {
+	uv0["心"] = {
+		["障"] = {
+			["児"] = {
 				this = true
 			},
-			者 = {
+			["者"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.性 = {
-		交 = {
+	uv0["性"] = {
+		["交"] = {
 			this = true
 		},
-		器 = {
+		["器"] = {
 			this = true
 		},
-		感 = {
+		["感"] = {
 			this = true
 		},
-		病 = {
+		["病"] = {
 			this = true
 		},
-		癖 = {
+		["癖"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.情 = {
-		報 = {
-			商 = {
-				材 = {
+	uv0["情"] = {
+		["報"] = {
+			["商"] = {
+				["材"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.愛 = {
-		人 = {
+	uv0["愛"] = {
+		["人"] = {
 			this = true
 		},
-		液 = {
+		["液"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.感 = {
-		染 = {
+	uv0["感"] = {
+		["染"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.慰 = {
-		安 = {
+	uv0["慰"] = {
+		["安"] = {
 			["?"] = {
 				this = true
 			},
-			婦 = {
+			["婦"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.手 = {
-		淫 = {
+	uv0["手"] = {
+		["淫"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.指 = {
-		マ = {
-			ン = {
+	uv0["指"] = {
+		["マ"] = {
+			["ン"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.接 = {
-		写 = {
+	uv0["接"] = {
+		["写"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.提 = {
-		携 = {
+	uv0["提"] = {
+		["携"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.換 = {
-		金 = {
+	uv0["換"] = {
+		["金"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.援 = {
-		助 = {
+	uv0["援"] = {
+		["助"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.携 = {
-		帯 = {
-			サ = {
-				イ = {
-					ト = {
+	uv0["携"] = {
+		["帯"] = {
+			["サ"] = {
+				["イ"] = {
+					["ト"] = {
 						this = true
 					}
 				}
@@ -2988,217 +2669,179 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.操 = {
+	uv0["操"] = {
 		this = true
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.支 = {
-		那 = {
+	uv0["支"] = {
+		["那"] = {
 			this = true,
-			人 = {
+			["人"] = {
 				this = true
 			},
-			料 = {
-				理 = {
+			["料"] = {
+				["理"] = {
 					this = true
 				}
 			},
-			竹 = {
+			["竹"] = {
 				this = true
 			},
-			蕎 = {
-				麦 = {
-					this = true
-				}
-			}
-		}
-	}
-end()
-
--- Decompilation error in this vicinity:
-function ()
-	slot0.整 = {
-		体 = {
-			this = true
-		}
-	}
-end()
-
--- Decompilation error in this vicinity:
-function ()
-	slot0.文 = {
-		盲 = {
-			this = true
-		},
-		通 = {
-			this = true
-		}
-	}
-end()
-
--- Decompilation error in this vicinity:
-function ()
-	slot0.族 = {
-		淨 = {
-			化 = {
-				this = true
-			}
-		}
-	}
-end()
-
--- Decompilation error in this vicinity:
-function ()
-	slot0.日 = {
-		和 = {
-			見 = {
-				this = true
-			}
-		},
-		服 = {
-			this = true
-		},
-		給 = {
-			this = true
-		}
-	}
-end()
-
--- Decompilation error in this vicinity:
-function ()
-	slot0.春 = {
-		畫 = {
-			this = true
-		}
-	}
-end()
-
--- Decompilation error in this vicinity:
-function ()
-	slot0.月 = {
-		収 = {
-			this = true
-		}
-	}
-end()
-
--- Decompilation error in this vicinity:
-function ()
-	slot0.本 = {
-		番 = {
-			this = true
-		}
-	}
-end()
-
--- Decompilation error in this vicinity:
-function ()
-	slot0.李 = {
-		洪 = {
-			志 = {
-				this = true
-			}
-		}
-	}
-end()
-
--- Decompilation error in this vicinity:
-function ()
-	slot0.歯 = {
-		科 = {
-			this = true
-		}
-	}
-end()
-
--- Decompilation error in this vicinity:
-function ()
-	slot0.死 = {
-		ね = {
-			this = true
-		}
-	}
-end()
-
--- Decompilation error in this vicinity:
-function ()
-	slot0.殺 = {
-		す = {
-			this = true
-		}
-	}
-end()
-
--- Decompilation error in this vicinity:
-function ()
-	slot0.毒 = {
-		品 = {
-			this = true
-		}
-	}
-end()
-
--- Decompilation error in this vicinity:
-function ()
-	slot0.毛 = {
-		唐 = {
-			人 = {
-				this = true
-			}
-		},
-		髪 = {
-			this = true
-		}
-	}
-end()
-
--- Decompilation error in this vicinity:
-function ()
-	slot0.池 = {
-		沼 = {
-			this = true
-		}
-	}
-end()
-
--- Decompilation error in this vicinity:
-function ()
-	slot0.法 = {
-		輪 = {
-			功 = {
-				this = true
-			},
-			大 = {
-				法 = {
+			["蕎"] = {
+				["麦"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.海 = {
-		豹 = {
+	uv0["整"] = {
+		["体"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.消 = {
-		費 = {
-			者 = {
-				金 = {
-					融 = {
+	uv0["文"] = {
+		["盲"] = {
+			this = true
+		},
+		["通"] = {
+			this = true
+		}
+	}
+end()
+function ()
+	uv0["族"] = {
+		["淨"] = {
+			["化"] = {
+				this = true
+			}
+		}
+	}
+end()
+function ()
+	uv0["日"] = {
+		["和"] = {
+			["見"] = {
+				this = true
+			}
+		},
+		["服"] = {
+			this = true
+		},
+		["給"] = {
+			this = true
+		}
+	}
+end()
+function ()
+	uv0["春"] = {
+		["畫"] = {
+			this = true
+		}
+	}
+end()
+function ()
+	uv0["月"] = {
+		["収"] = {
+			this = true
+		}
+	}
+end()
+function ()
+	uv0["本"] = {
+		["番"] = {
+			this = true
+		}
+	}
+end()
+function ()
+	uv0["李"] = {
+		["洪"] = {
+			["志"] = {
+				this = true
+			}
+		}
+	}
+end()
+function ()
+	uv0["歯"] = {
+		["科"] = {
+			this = true
+		}
+	}
+end()
+function ()
+	uv0["死"] = {
+		["ね"] = {
+			this = true
+		}
+	}
+end()
+function ()
+	uv0["殺"] = {
+		["す"] = {
+			this = true
+		}
+	}
+end()
+function ()
+	uv0["毒"] = {
+		["品"] = {
+			this = true
+		}
+	}
+end()
+function ()
+	uv0["毛"] = {
+		["唐"] = {
+			["人"] = {
+				this = true
+			}
+		},
+		["髪"] = {
+			this = true
+		}
+	}
+end()
+function ()
+	uv0["池"] = {
+		["沼"] = {
+			this = true
+		}
+	}
+end()
+function ()
+	uv0["法"] = {
+		["輪"] = {
+			["功"] = {
+				this = true
+			},
+			["大"] = {
+				["法"] = {
+					this = true
+				}
+			}
+		}
+	}
+end()
+function ()
+	uv0["海"] = {
+		["豹"] = {
+			this = true
+		}
+	}
+end()
+function ()
+	uv0["消"] = {
+		["費"] = {
+			["者"] = {
+				["金"] = {
+					["融"] = {
 						this = true
 					}
 				}
@@ -3206,540 +2849,440 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.淫 = {
+	uv0["淫"] = {
 		this = true,
-		乱 = {
+		["乱"] = {
 			this = true
 		},
-		売 = {
+		["売"] = {
 			this = true
 		},
-		語 = {
+		["語"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.激 = {
-		流 = {
-			中 = {
-				國 = {
+	uv0["激"] = {
+		["流"] = {
+			["中"] = {
+				["國"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.火 = {
-		病 = {
+	uv0["火"] = {
+		["病"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.無 = {
-		修 = {
-			正 = {
+	uv0["無"] = {
+		["修"] = {
+			["正"] = {
 				this = true
 			}
 		},
-		料 = {
-			動 = {
-				画 = {
+		["料"] = {
+			["動"] = {
+				["画"] = {
 					this = true
 				}
 			}
 		},
-		理 = {
-			や = {
-				り = {
+		["理"] = {
+			["や"] = {
+				["り"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.爆 = {
-		乳 = {
+	uv0["爆"] = {
+		["乳"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.特 = {
-		亜 = {
+	uv0["特"] = {
+		["亜"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.犬 = {
-		食 = {
-			い = {
+	uv0["犬"] = {
+		["食"] = {
+			["い"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.王 = {
-		丹 = {
+	uv0["王"] = {
+		["丹"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.現 = {
-		金 = {
+	uv0["現"] = {
+		["金"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.痴 = {
+	uv0["痴"] = {
 		this = true
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.癩 = {
-		病 = {
+	uv0["癩"] = {
+		["病"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.白 = {
-		痴 = {
+	uv0["白"] = {
+		["痴"] = {
 			this = true
 		},
-		豚 = {
+		["豚"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.盗 = {
-		撮 = {
+	uv0["盗"] = {
+		["撮"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.着 = {
-		エ = {
-			ロ = {
+	uv0["着"] = {
+		["エ"] = {
+			["ロ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.知 = {
-		障 = {
+	uv0["知"] = {
+		["障"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.矯 = {
-		正 = {
+	uv0["矯"] = {
+		["正"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.破 = {
-		産 = {
+	uv0["破"] = {
+		["産"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.社 = {
-		會 = {
+	uv0["社"] = {
+		["會"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.稼 = {
-		い = {
+	uv0["稼"] = {
+		["い"] = {
 			this = true
 		},
-		ぐ = {
+		["ぐ"] = {
 			this = true
 		},
-		げ = {
+		["げ"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.穢 = {
-		多 = {
+	uv0["穢"] = {
+		["多"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.童 = {
-		貞 = {
+	uv0["童"] = {
+		["貞"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.競 = {
-		馬 = {
+	uv0["競"] = {
+		["馬"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.精 = {
-		力 = {
+	uv0["精"] = {
+		["力"] = {
 			this = true
 		},
-		液 = {
+		["液"] = {
 			this = true
 		},
-		神 = {
-			分 = {
-				裂 = {
+		["神"] = {
+			["分"] = {
+				["裂"] = {
 					this = true
 				}
 			},
-			異 = {
-				常 = {
+			["異"] = {
+				["常"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.糞 = {
-		尿 = {
+	uv0["糞"] = {
+		["尿"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.美 = {
-		容 = {
+	uv0["美"] = {
+		["容"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.老 = {
-		害 = {
+	uv0["老"] = {
+		["害"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.聊 = {
+	uv0["聊"] = {
 		this = true
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.肅 = {
-		清 = {
+	uv0["肅"] = {
+		["清"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.肉 = {
-		棒 = {
+	uv0["肉"] = {
+		["棒"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.胡 = {
-		耀 = {
-			邦 = {
+	uv0["胡"] = {
+		["耀"] = {
+			["邦"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.脱 = {
-		毛 = {
+	uv0["脱"] = {
+		["毛"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.腋 = {
-		臭 = {
+	uv0["腋"] = {
+		["臭"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.膣 = {
+	uv0["膣"] = {
 		this = true
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.自 = {
-		動 = {
-			相 = {
-				互 = {
+	uv0["自"] = {
+		["動"] = {
+			["相"] = {
+				["互"] = {
 					this = true
 				}
 			}
 		},
-		閉 = {
-			症 = {
-				児 = {
+		["閉"] = {
+			["症"] = {
+				["児"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.舐 = {
+	uv0["舐"] = {
 		this = true
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.花 = {
-		粉 = {
+	uv0["花"] = {
+		["粉"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.英 = {
-		会 = {
-			話 = {
+	uv0["英"] = {
+		["会"] = {
+			["話"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.蛮 = {
-		啾 = {
+	uv0["蛮"] = {
+		["啾"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.裏 = {
-		ビ = {
-			デ = {
-				オ = {
+	uv0["裏"] = {
+		["ビ"] = {
+			["デ"] = {
+				["オ"] = {
 					this = true
 				}
 			}
 		},
-		ワ = {
-			ザ = {
+		["ワ"] = {
+			["ザ"] = {
 				this = true
 			}
 		},
-		情 = {
-			報 = {
+		["情"] = {
+			["報"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.裸 = {
+	uv0["裸"] = {
 		this = true
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.見 = {
-		放 = {
-			題 = {
+	uv0["見"] = {
+		["放"] = {
+			["題"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.訳 = {
-		あ = {
-			り = {
+	uv0["訳"] = {
+		["あ"] = {
+			["り"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.証 = {
-		拠 = {
-			金 = {
+	uv0["証"] = {
+		["拠"] = {
+			["金"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.誘 = {
-		拐 = {
+	uv0["誘"] = {
+		["拐"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.謝 = {
-		礼 = {
+	uv0["謝"] = {
+		["礼"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.買 = {
-		賣 = {
-			人 = {
-				口 = {
+	uv0["買"] = {
+		["賣"] = {
+			["人"] = {
+				["口"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.賎 = {
-		民 = {
+	uv0["賎"] = {
+		["民"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.賣 = {
-		淫 = {
+	uv0["賣"] = {
+		["淫"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.賭 = {
-		博 = {
+	uv0["賭"] = {
+		["博"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.赤 = {
+	uv0["赤"] = {
 		["→"] = {
-			あ = {
-				な = {
-					た = {
-						が = {
+			["あ"] = {
+				["な"] = {
+					["た"] = {
+						["が"] = {
 							this = true
 						}
 					}
@@ -3748,126 +3291,100 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.走 = {
-		私 = {
+	uv0["走"] = {
+		["私"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.趙 = {
-		紫 = {
-			陽 = {
+	uv0["趙"] = {
+		["紫"] = {
+			["陽"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.辱 = {
+	uv0["辱"] = {
 		this = true
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.退 = {
-		党 = {
+	uv0["退"] = {
+		["党"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.逆 = {
-		援 = {
+	uv0["逆"] = {
+		["援"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.遊 = {
-		進 = {
+	uv0["遊"] = {
+		["進"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.還 = {
-		政 = {
-			於 = {
-				民 = {
+	uv0["還"] = {
+		["政"] = {
+			["於"] = {
+				["民"] = {
 					this = true
 				}
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.阿 = {
-		片 = {
+	uv0["阿"] = {
+		["片"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.陵 = {
-		辱 = {
+	uv0["陵"] = {
+		["辱"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.隠 = {
-		坊 = {
+	uv0["隠"] = {
+		["坊"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.露 = {
-		出 = {
+	uv0["露"] = {
+		["出"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.非 = {
-		洲 = {
+	uv0["非"] = {
+		["洲"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.頭 = {
-		お = {
-			か = {
-				し = {
-					い = {
+	uv0["頭"] = {
+		["お"] = {
+			["か"] = {
+				["し"] = {
+					["い"] = {
 						this = true
 					}
 				}
@@ -3875,92 +3392,72 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.顔 = {
-		射 = {
+	uv0["顔"] = {
+		["射"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.風 = {
-		俗 = {
+	uv0["風"] = {
+		["俗"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.馬 = {
-		鹿 = {
+	uv0["馬"] = {
+		["鹿"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.驚 = {
-		異 = {
+	uv0["驚"] = {
+		["異"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.高 = {
-		額 = {
+	uv0["高"] = {
+		["額"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.魏 = {
-		京 = {
-			生 = {
+	uv0["魏"] = {
+		["京"] = {
+			["生"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.鮮 = {
-		人 = {
+	uv0["鮮"] = {
+		["人"] = {
 			this = true
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.Ｊ = {
-		Ａ = {
-			Ｐ = {
+	uv0["Ｊ"] = {
+		["Ａ"] = {
+			["Ｐ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.Ｓ = {
-		Ｅ = {
-			Ｘ = {
+	uv0["Ｓ"] = {
+		["Ｅ"] = {
+			["Ｘ"] = {
 				this = true
 			}
 		}
 	}
 end()
-
-return

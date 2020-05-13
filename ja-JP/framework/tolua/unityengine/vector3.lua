@@ -1,432 +1,518 @@
-slot1 = math.acos
-slot2 = math.sqrt
-slot3 = math.max
-slot4 = math.min
+slot0 = math
+slot1 = slot0.acos
+slot2 = slot0.sqrt
+slot3 = slot0.max
+slot4 = slot0.min
 slot5 = Mathf.Clamp
-slot6 = math.cos
-slot7 = math.sin
-slot8 = math.abs
+slot6 = slot0.cos
+slot7 = slot0.sin
+slot8 = slot0.abs
 slot9 = Mathf.Sign
 slot11 = rawset
 slot12 = rawget
 slot13 = type
 slot14 = 57.295779513082
 slot15 = 0.017453292519943
+slot16 = {}
 slot17 = tolua.initget(slot16)
-slot18 = ({
-	__index = function (slot0, slot1)
-		if slot0(slot1, slot1) == nil and slot0(slot2, slot1) ~= nil then
-			return slot2(slot0)
-		end
 
-		return slot2
-	end,
-	New = function (slot0, slot1, slot2)
-		slot0({
-			x = slot0 or 0,
-			y = slot1 or 0,
-			z = slot2 or 0
-		}, slot1)
+function slot16.__index(slot0, slot1)
+	if uv0(uv1, slot1) == nil and uv0(uv2, slot1) ~= nil then
+		return slot2(slot0)
+	end
 
-		return 
-	end,
-	__call = function (slot0, slot1, slot2, slot3)
-		slot0({
-			x = slot1 or 0,
-			y = slot2 or 0,
-			z = slot3 or 0
-		}, slot1)
+	return slot2
+end
 
-		return 
-	end,
-	Set = function (slot0, slot1, slot2, slot3)
-		slot0.x = slot1 or 0
-		slot0.y = slot2 or 0
-		slot0.z = slot3 or 0
-	end,
-	Get = function (slot0)
-		return slot0.x, slot0.y, slot0.z
-	end,
-	Clone = function (slot0)
-		return slot0({
-			x = slot0.x,
-			y = slot0.y,
-			z = slot0.z
-		}, slot0)
-	end,
-	Copy = function (slot0, slot1)
-		slot0.x = slot1.x
-		slot0.y = slot1.y
-		slot0.z = slot1.z
+function slot16.New(slot0, slot1, slot2)
+	slot3 = {
+		x = slot0 or 0,
+		y = slot1 or 0,
+		z = slot2 or 0
+	}
 
-		return slot0
-	end,
-	Copy2 = function (slot0, slot1)
-		if slot1 then
-			slot1.x = slot0.x
-			slot1.y = slot0.y
-			slot1.z = slot0.z
+	uv0(slot3, uv1)
 
-			return slot1
-		else
-			return slot0(slot0.x, slot0.y, slot0.z)
-		end
-	end,
-	Distance = function (slot0, slot1)
-		return slot0((slot0.x - slot1.x)^2 + (slot0.y - slot1.y)^2 + (slot0.z - slot1.z)^2)
-	end,
-	SqrDistance = function (slot0, slot1)
-		return (slot0.x - slot1.x)^2 + (slot0.y - slot1.y)^2 + (slot0.z - slot1.z)^2
-	end,
-	Dot = function (slot0, slot1)
-		return slot0.x * slot1.x + slot0.y * slot1.y + slot0.z * slot1.z
-	end,
-	Lerp = function (slot0, slot1, slot2)
-		return slot1(slot0.x + (slot1.x - slot0.x) * slot0(slot2, 0, 1), slot0.y + (slot1.y - slot0.y) * slot0(slot2, 0, 1), slot0.z + (slot1.z - slot0.z) * slot0(slot2, 0, 1))
-	end,
-	Magnitude = function (slot0)
-		return slot0(slot0.x * slot0.x + slot0.y * slot0.y + slot0.z * slot0.z)
-	end,
-	Max = function (slot0, slot1)
-		return slot0(slot1(slot0.x, slot1.x), slot1(slot0.y, slot1.y), slot1(slot0.z, slot1.z))
-	end,
-	Min = function (slot0, slot1)
-		return slot0(slot1(slot0.x, slot1.x), slot1(slot0.y, slot1.y), slot1(slot0.z, slot1.z))
-	end,
-	Normalize = function (slot0)
-		if slot0(slot0.x *  + slot0.y *  + slot0.z * ) > 1e-05 then
-			return slot1({
-				x = slot1 / slot4,
-				y = slot2 / slot4,
-				z = slot3 / slot4
-			}, slot2)
-		end
+	return slot3
+end
 
-		return slot1({
-			z = 0,
-			x = 0,
-			y = 0
-		}, slot2)
-	end,
-	SetNormalize = function (slot0)
-		if slot0(slot0.x * slot0.x + slot0.y * slot0.y + slot0.z * slot0.z) > 1e-05 then
-			slot0.x = slot0.x / slot1
-			slot0.y = slot0.y / slot1
-			slot0.z = slot0.z / slot1
-		else
-			slot0.x = 0
-			slot0.y = 0
-			slot0.z = 0
-		end
+slot18 = slot16.New
 
-		return slot0
-	end,
-	SqrMagnitude = function (slot0)
-		return slot0.x * slot0.x + slot0.y * slot0.y + slot0.z * slot0.z
-	end,
-	Angle = function (slot0, slot1)
-		return slot0(slot1(slot2(slot0:Normalize(), slot1:Normalize()), -1, 1)) * slot1
-	end,
-	ClampMagnitude = function (slot0, slot1)
-		if slot0:SqrMagnitude() > slot1 * slot1 then
-			slot0:SetNormalize()
-			slot0:Mul(slot1)
-		end
+function slot16.__call(slot0, slot1, slot2, slot3)
+	slot4 = {
+		x = slot1 or 0,
+		y = slot2 or 0,
+		z = slot3 or 0
+	}
 
-		return slot0
-	end,
-	OrthoNormalize = function (slot0, slot1, slot2)
-		slot0:SetNormalize()
-		slot1:Sub(slot1:Project(slot0))
-		slot1:SetNormalize()
+	uv0(slot4, uv1)
 
-		if slot2 == nil then
-			return slot0, slot1
-		end
+	return slot4
+end
 
-		slot2:Sub(slot2:Project(slot0))
-		slot2:Sub(slot2:Project(slot1))
-		slot2:SetNormalize()
+function slot16.Set(slot0, slot1, slot2, slot3)
+	slot0.x = slot1 or 0
+	slot0.y = slot2 or 0
+	slot0.z = slot3 or 0
+end
 
-		return slot0, slot1, slot2
-	end,
-	MoveTowards = function (slot0, slot1, slot2)
-		if slot1 - slot0.SqrMagnitude(slot3) > slot2 * slot2 then
-			if slot0(slot4) > 1e-06 then
-				slot3:Mul(slot2 / slot6)
-				slot3:Add(slot0)
+function slot16.Get(slot0)
+	return slot0.x, slot0.y, slot0.z
+end
 
-				return slot3
-			else
-				return slot0:Clone()
-			end
-		end
+function slot16.Clone(slot0)
+	return uv0({
+		x = slot0.x,
+		y = slot0.y,
+		z = slot0.z
+	}, uv1)
+end
 
-		return slot1:Clone()
-	end,
-	RotateTowards = function (slot0, slot1, slot2, slot3)
-		slot5 = slot1:Magnitude()
+function slot16.Copy(slot0, slot1)
+	slot0.x = slot1.x
+	slot0.y = slot1.y
+	slot0.z = slot1.z
 
-		if slot0:Magnitude() > 1e-06 and slot5 > 1e-06 then
-			if slot0(slot6, slot1 / slot5) > 0.999999 then
-				return slot1.MoveTowards(slot0, slot1, slot3)
-			elseif slot8 < -0.999999 then
-				slot11 = Quaternion.AngleAxis(slot2 * slot3, slot9).MulVec3(slot10, slot6)
+	return slot0
+end
 
-				slot11:Mul(ClampedMove(slot4, slot5, slot3))
+function slot16.Copy2(slot0, slot1)
+	if slot1 then
+		slot1.x = slot0.x
+		slot1.y = slot0.y
+		slot1.z = slot0.z
 
-				return slot11
-			else
-				slot10 = slot1.Cross(slot6, slot7)
+		return slot1
+	else
+		return uv0(slot0.x, slot0.y, slot0.z)
+	end
+end
 
-				slot10:SetNormalize()
+function slot16.Distance(slot0, slot1)
+	return uv0((slot0.x - slot1.x)^2 + (slot0.y - slot1.y)^2 + (slot0.z - slot1.z)^2)
+end
 
-				slot12 = Quaternion.AngleAxis(slot5(slot2, slot9) * slot3, slot10).MulVec3(slot11, slot6)
+function slot16.SqrDistance(slot0, slot1)
+	return (slot0.x - slot1.x)^2 + (slot0.y - slot1.y)^2 + (slot0.z - slot1.z)^2
+end
 
-				slot12:Mul(ClampedMove(slot4, slot5, slot3))
+function slot16.Dot(slot0, slot1)
+	return slot0.x * slot1.x + slot0.y * slot1.y + slot0.z * slot1.z
+end
 
-				return slot12
-			end
-		end
+function slot16.Lerp(slot0, slot1, slot2)
+	slot2 = uv0(slot2, 0, 1)
 
-		return slot1.MoveTowards(slot0, slot1, slot3)
-	end,
-	SmoothDamp = function (slot0, slot1, slot2, slot3)
-		slot0 - slot1.ClampMagnitude(slot11, slot10)
+	return uv1(slot0.x + (slot1.x - slot0.x) * slot2, slot0.y + (slot1.y - slot0.y) * slot2, slot0.z + (slot1.z - slot0.z) * slot2)
+end
 
-		slot2 = (slot2 - (slot2 + (slot0 - slot1) * 2 / slot0(0.0001, slot3)) * Time.deltaTime * 2 / slot0(0.0001, slot3)) * 1 / (1 + 2 / slot0(0.0001, slot3) * Time.deltaTime + 0.48 * 2 / slot0(0.0001, slot3) * Time.deltaTime * 2 / slot0(0.0001, slot3) * Time.deltaTime + 0.235 * 2 / slot0(0.0001, slot3) * Time.deltaTime * 2 / slot0(0.0001, slot3) * Time.deltaTime * 2 / slot0(0.0001, slot3) * Time.deltaTime)
+function slot16.Magnitude(slot0)
+	return uv0(slot0.x * slot0.x + slot0.y * slot0.y + slot0.z * slot0.z)
+end
 
-		if slot1.Dot(slot1:Clone() - slot0, (slot0 - (slot0 - slot1) + (slot0 - slot1 + (slot2 + (slot0 - slot1) * 2 / slot0(0.0001, slot3)) * Time.deltaTime) * 1 / (1 + 2 / slot0(0.0001, slot3) * Time.deltaTime + 0.48 * 2 / slot0(0.0001, slot3) * Time.deltaTime * 2 / slot0(0.0001, slot3) * Time.deltaTime + 0.235 * 2 / slot0(0.0001, slot3) * Time.deltaTime * 2 / slot0(0.0001, slot3) * Time.deltaTime * 2 / slot0(0.0001, slot3) * Time.deltaTime)) - slot1.Clone()) > 0 then
-			slot13 = slot9
+function slot16.Max(slot0, slot1)
+	return uv0(uv1(slot0.x, slot1.x), uv1(slot0.y, slot1.y), uv1(slot0.z, slot1.z))
+end
 
-			slot2:Set(0, 0, 0)
-		end
+function slot16.Min(slot0, slot1)
+	return uv0(uv1(slot0.x, slot1.x), uv1(slot0.y, slot1.y), uv1(slot0.z, slot1.z))
+end
 
-		return slot13, slot2
-	end,
-	Scale = function (slot0, slot1)
-		return slot0(slot0.x * slot1.x, slot0.y * slot1.y, slot0.z * slot1.z)
-	end,
-	Cross2 = function (slot0, slot1)
-		slot0.z = slot0.x * slot1.y - slot0.y * slot1.x
-		slot0.y = slot0.z * slot1.x - slot0.x * slot1.z
-		slot0.x = slot0.y * slot1.z - slot0.z * slot1.y
+function slot16.Normalize(slot0)
+	slot1 = slot0.x
+	slot2 = slot0.y
+	slot3 = slot0.z
 
-		return slot0
-	end,
-	Cross = function (slot0, slot1)
-		return slot0(slot0.y * slot1.z - slot0.z * slot1.y, slot0.z * slot1.x - slot0.x * slot1.z, slot0.x * slot1.y - slot0.y * slot1.x)
-	end,
-	Equals = function (slot0, slot1)
-		return slot0.x == slot1.x and slot0.y == slot1.y and slot0.z == slot1.z
-	end,
-	EqualZero = function (slot0)
-		return slot0.x * slot0.x + slot0.y * slot0.y + slot0.z * slot0.z < 1e-10
-	end,
-	Reflect = function (slot0, slot1)
-		slot1 * -2 * slot0(slot1, slot0):Add(slot0)
+	if uv0(slot1 * slot1 + slot2 * slot2 + slot3 * slot3) > 1e-05 then
+		return uv1({
+			x = slot1 / slot4,
+			y = slot2 / slot4,
+			z = slot3 / slot4
+		}, uv2)
+	end
 
-		return slot1 * -2 * slot0(slot1, slot0)
-	end,
-	Project = function (slot0, slot1)
-		if slot1:SqrMagnitude() < 1.175494e-38 then
-			return slot0(0, 0, 0)
-		end
+	return uv1({
+		z = 0,
+		x = 0,
+		y = 0
+	}, uv2)
+end
 
-		slot4 = slot1:Clone()
-
-		slot4:Mul(slot1(slot0, slot1) / slot2)
-
-		return slot4
-	end,
-	ProjectOnPlane = function (slot0, slot1)
-		slot2 = slot0:Project(slot1)
-
-		slot2:Mul(-1)
-		slot2:Add(slot0)
-
-		return slot2
-	end,
-	Slerp = function (slot0, slot1, slot2)
-		slot3, slot4, slot5, slot6 = nil
-
-		if slot2 <= 0 then
-			return slot0:Clone()
-		elseif slot2 >= 1 then
-			return slot1:Clone()
-		end
-
-		slot7 = slot1:Clone()
-		slot8 = slot0:Clone()
-		slot10 = slot0:Magnitude()
-
-		slot7:Div(slot9)
-		slot8:Div(slot10)
-
-		slot11 = (slot1:Magnitude() - slot10) * slot2 + slot10
-
-		if slot8.x * slot7.x + slot8.y * slot7.y + slot8.z * slot7.z > 0.999999 then
-			slot5 = 1 - slot2
-			slot6 = slot2
-		elseif slot12 < -0.999999 then
-			slot15 = Quaternion.AngleAxis(180 * slot2, slot13).MulVec3(slot14, slot0)
-
-			slot15:Mul(slot11)
-
-			return slot15
-		else
-			slot5 = slot2((1 - slot2) * slot1(slot12)) / slot2(slot3)
-			slot6 = slot2(slot2 * slot1(slot12)) / slot2(slot3)
-		end
-
-		slot8:Mul(slot5)
-		slot7:Mul(slot6)
-		slot7:Add(slot8)
-		slot7:Mul(slot11)
-
-		return slot7
-	end,
-	Mul = function (slot0, slot1)
-		if slot0(slot1) == "number" then
-			slot0.x = slot0.x * slot1
-			slot0.y = slot0.y * slot1
-			slot0.z = slot0.z * slot1
-		else
-			slot0:MulQuat(slot1)
-		end
-
-		return slot0
-	end,
-	Div = function (slot0, slot1)
+function slot16.SetNormalize(slot0)
+	if uv0(slot0.x * slot0.x + slot0.y * slot0.y + slot0.z * slot0.z) > 1e-05 then
 		slot0.x = slot0.x / slot1
 		slot0.y = slot0.y / slot1
 		slot0.z = slot0.z / slot1
-
-		return slot0
-	end,
-	Add = function (slot0, slot1)
-		slot0.x = slot0.x + slot1.x
-		slot0.y = slot0.y + slot1.y
-		slot0.z = slot0.z + slot1.z
-
-		return slot0
-	end,
-	Sub = function (slot0, slot1)
-		slot0.x = slot0.x - slot1.x
-		slot0.y = slot0.y - slot1.y
-		slot0.z = slot0.z - slot1.z
-
-		return slot0
-	end,
-	MulQuat = function (slot0, slot1)
-		slot0:Set((1 - (slot1.y * slot1.y * 2 + slot1.z * slot1.z * 2)) * slot0.x + (slot1.x * slot1.y * 2 - slot1.w * slot1.z * 2) * slot0.y + (slot1.x * slot1.z * 2 + slot1.w * slot1.y * 2) * slot0.z, (slot1.x * slot1.y * 2 + slot1.w * slot1.z * 2) * slot0.x + (1 - (slot1.x * slot1.x * 2 + slot1.z * slot1.z * 2)) * slot0.y + (slot1.y * slot1.z * 2 - slot1.w * slot1.x * 2) * slot0.z, (slot1.x * slot1.z * 2 - slot1.w * slot1.y * 2) * slot0.x + (slot1.y * slot1.z * 2 + slot1.w * slot1.x * 2) * slot0.y + (1 - (slot1.x * slot1.x * 2 + slot1.y * slot1.y * 2)) * slot0.z)
-
-		return slot0
-	end,
-	AngleAroundAxis = function (slot0, slot1, slot2)
-		return slot0:Angle(slot1) * ((slot0.Dot(slot2, slot0.Cross(slot0 - slot0:Project(slot2), slot1 - slot0.Project(slot1, slot2))) < 0 and -1) or 1)
-	end,
-	__tostring = function (slot0)
-		return "[" .. slot0.x .. "," .. slot0.y .. "," .. slot0.z .. "]"
-	end,
-	__div = function (slot0, slot1)
-		return slot0(slot0.x / slot1, slot0.y / slot1, slot0.z / slot1)
-	end,
-	__mul = function (slot0, slot1)
-		if slot0(slot1) == "number" then
-			return slot1(slot0.x * slot1, slot0.y * slot1, slot0.z * slot1)
-		else
-			slot2 = slot0:Clone()
-
-			slot2:MulQuat(slot1)
-
-			return slot2
-		end
-	end,
-	__add = function (slot0, slot1)
-		return slot0(slot0.x + slot1.x, slot0.y + slot1.y, slot0.z + slot1.z)
-	end,
-	__sub = function (slot0, slot1)
-		return slot0(slot0.x - slot1.x, slot0.y - slot1.y, slot0.z - slot1.z)
-	end,
-	__unm = function (slot0)
-		return slot0(-slot0.x, -slot0.y, -slot0.z)
-	end,
-	__eq = function (slot0, slot1)
-		return (slot0.x - slot1.x) * (slot0.x - slot1.x) + (slot0.y - slot1.y) * (slot0.y - slot1.y) + (slot0.z - slot1.z) * (slot0.z - slot1.z) < 1e-10
+	else
+		slot0.x = 0
+		slot0.y = 0
+		slot0.z = 0
 	end
-})["New"]
-slot19 = ()["Dot"]
+
+	return slot0
+end
+
+function slot16.SqrMagnitude(slot0)
+	return slot0.x * slot0.x + slot0.y * slot0.y + slot0.z * slot0.z
+end
+
+slot19 = slot16.Dot
+
+function slot16.Angle(slot0, slot1)
+	return uv0(uv1(uv2(slot0:Normalize(), slot1:Normalize()), -1, 1)) * uv3
+end
+
+function slot16.ClampMagnitude(slot0, slot1)
+	if slot0:SqrMagnitude() > slot1 * slot1 then
+		slot0:SetNormalize()
+		slot0:Mul(slot1)
+	end
+
+	return slot0
+end
+
+function slot16.OrthoNormalize(slot0, slot1, slot2)
+	slot0:SetNormalize()
+	slot1:Sub(slot1:Project(slot0))
+	slot1:SetNormalize()
+
+	if slot2 == nil then
+		return slot0, slot1
+	end
+
+	slot2:Sub(slot2:Project(slot0))
+	slot2:Sub(slot2:Project(slot1))
+	slot2:SetNormalize()
+
+	return slot0, slot1, slot2
+end
+
+function slot16.MoveTowards(slot0, slot1, slot2)
+	if (slot1 - slot0):SqrMagnitude() > slot2 * slot2 then
+		if uv0(slot4) > 1e-06 then
+			slot3:Mul(slot2 / slot6)
+			slot3:Add(slot0)
+
+			return slot3
+		else
+			return slot0:Clone()
+		end
+	end
+
+	return slot1:Clone()
+end
 
 function ClampedMove(slot0, slot1, slot2)
 	if slot1 - slot0 > 0 then
-		return slot0 + slot0(slot3, slot2)
+		return slot0 + uv0(slot3, slot2)
 	else
-		return slot0 - slot0(-slot3, slot2)
+		return slot0 - uv0(-slot3, slot2)
 	end
 end
 
 slot20 = 0.7071067811865476
 
 function slot21(slot0)
-	if slot1(slot0.z) <  then
+	slot1 = uv0()
+
+	if uv2 < uv1(slot0.z) then
+		slot3 = 1 / uv3(slot0.y * slot0.y + slot0.z * slot0.z)
 		slot1.x = 0
-		slot1.y = -slot0.z * 1 / 
-		-- Decompilation error in this vicinity:
-		slot0.z * slot0.z(slot2)
-		slot1.z = slot0.y * 1 / 
-		-- Decompilation error in this vicinity:
-		slot0.z * slot0.z(slot2)
+		slot1.y = -slot0.z * slot3
+		slot1.z = slot0.y * slot3
 	else
-		slot1.x = -slot0.y * 1 / 
-		-- Decompilation error in this vicinity:
-		slot0.y * slot0.y(slot2)
-		slot1.y = slot0.x * 1 / 
-		-- Decompilation error in this vicinity:
-		slot0.y * slot0.y(slot2)
+		slot3 = 1 / uv3(slot0.x * slot0.x + slot0.y * slot0.y)
+		slot1.x = -slot0.y * slot3
+		slot1.y = slot0.x * slot3
 		slot1.z = 0
 	end
 
 	return slot1
 end
 
+function slot16.RotateTowards(slot0, slot1, slot2, slot3)
+	slot5 = slot1:Magnitude()
+
+	if slot0:Magnitude() > 1e-06 and slot5 > 1e-06 then
+		if uv0(slot0 / slot4, slot1 / slot5) > 0.999999 then
+			return uv1.MoveTowards(slot0, slot1, slot3)
+		elseif slot8 < -0.999999 then
+			slot11 = Quaternion.AngleAxis(slot2 * uv3, uv2(slot6)):MulVec3(slot6)
+
+			slot11:Mul(ClampedMove(slot4, slot5, slot3))
+
+			return slot11
+		else
+			slot10 = uv1.Cross(slot6, slot7)
+
+			slot10:SetNormalize()
+
+			slot12 = Quaternion.AngleAxis(uv5(slot2, uv4(slot8)) * uv3, slot10):MulVec3(slot6)
+
+			slot12:Mul(ClampedMove(slot4, slot5, slot3))
+
+			return slot12
+		end
+	end
+
+	return uv1.MoveTowards(slot0, slot1, slot3)
+end
+
+function slot16.SmoothDamp(slot0, slot1, slot2, slot3)
+	slot5 = Time.deltaTime
+	slot3 = uv0(0.0001, slot3)
+	slot6 = 2 / slot3
+	slot7 = slot6 * slot5
+	slot8 = 1 / (1 + slot7 + 0.48 * slot7 * slot7 + 0.235 * slot7 * slot7 * slot7)
+	slot9 = slot1:Clone()
+	slot11 = slot0 - slot1
+
+	slot11:ClampMagnitude(Mathf.Infinity * slot3)
+
+	slot12 = (slot2 + slot11 * slot6) * slot5
+	slot2 = (slot2 - slot12 * slot6) * slot8
+
+	if uv1.Dot(slot9 - slot0, slot0 - slot11 + (slot11 + slot12) * slot8 - slot9) > 0 then
+		slot13 = slot9
+
+		slot2:Set(0, 0, 0)
+	end
+
+	return slot13, slot2
+end
+
+function slot16.Scale(slot0, slot1)
+	return uv0(slot0.x * slot1.x, slot0.y * slot1.y, slot0.z * slot1.z)
+end
+
+function slot16.Cross2(slot0, slot1)
+	slot2 = slot0
+	slot0.z = slot2.x * slot1.y - slot2.y * slot1.x
+	slot0.y = slot2.z * slot1.x - slot2.x * slot1.z
+	slot0.x = slot2.y * slot1.z - slot2.z * slot1.y
+
+	return slot0
+end
+
+function slot16.Cross(slot0, slot1)
+	return uv0(slot0.y * slot1.z - slot0.z * slot1.y, slot0.z * slot1.x - slot0.x * slot1.z, slot0.x * slot1.y - slot0.y * slot1.x)
+end
+
+function slot16.Equals(slot0, slot1)
+	return slot0.x == slot1.x and slot0.y == slot1.y and slot0.z == slot1.z
+end
+
+function slot16.EqualZero(slot0)
+	return slot0.x * slot0.x + slot0.y * slot0.y + slot0.z * slot0.z < 1e-10
+end
+
+function slot16.Reflect(slot0, slot1)
+	slot1 = slot1 * -2 * uv0(slot1, slot0)
+
+	slot1:Add(slot0)
+
+	return slot1
+end
+
+function slot16.Project(slot0, slot1)
+	if slot1:SqrMagnitude() < 1.175494e-38 then
+		return uv0(0, 0, 0)
+	end
+
+	slot4 = slot1:Clone()
+
+	slot4:Mul(uv1(slot0, slot1) / slot2)
+
+	return slot4
+end
+
+function slot16.ProjectOnPlane(slot0, slot1)
+	slot2 = uv0.Project(slot0, slot1)
+
+	slot2:Mul(-1)
+	slot2:Add(slot0)
+
+	return slot2
+end
+
+function slot16.Slerp(slot0, slot1, slot2)
+	slot3, slot4, slot5, slot6 = nil
+
+	if slot2 <= 0 then
+		return slot0:Clone()
+	elseif slot2 >= 1 then
+		return slot1:Clone()
+	end
+
+	slot7 = slot1:Clone()
+	slot8 = slot0:Clone()
+	slot9 = slot1:Magnitude()
+	slot10 = slot0:Magnitude()
+
+	slot7:Div(slot9)
+	slot8:Div(slot10)
+
+	slot11 = (slot9 - slot10) * slot2 + slot10
+
+	if slot8.x * slot7.x + slot8.y * slot7.y + slot8.z * slot7.z > 0.999999 then
+		slot5 = 1 - slot2
+		slot6 = slot2
+	elseif slot12 < -0.999999 then
+		slot15 = Quaternion.AngleAxis(180 * slot2, uv0(slot0)):MulVec3(slot0)
+
+		slot15:Mul(slot11)
+
+		return slot15
+	else
+		slot3 = uv1(slot12)
+		slot4 = uv2(slot3)
+		slot5 = uv2((1 - slot2) * slot3) / slot4
+		slot6 = uv2(slot2 * slot3) / slot4
+	end
+
+	slot8:Mul(slot5)
+	slot7:Mul(slot6)
+	slot7:Add(slot8)
+	slot7:Mul(slot11)
+
+	return slot7
+end
+
+function slot16.Mul(slot0, slot1)
+	if uv0(slot1) == "number" then
+		slot0.x = slot0.x * slot1
+		slot0.y = slot0.y * slot1
+		slot0.z = slot0.z * slot1
+	else
+		slot0:MulQuat(slot1)
+	end
+
+	return slot0
+end
+
+function slot16.Div(slot0, slot1)
+	slot0.x = slot0.x / slot1
+	slot0.y = slot0.y / slot1
+	slot0.z = slot0.z / slot1
+
+	return slot0
+end
+
+function slot16.Add(slot0, slot1)
+	slot0.x = slot0.x + slot1.x
+	slot0.y = slot0.y + slot1.y
+	slot0.z = slot0.z + slot1.z
+
+	return slot0
+end
+
+function slot16.Sub(slot0, slot1)
+	slot0.x = slot0.x - slot1.x
+	slot0.y = slot0.y - slot1.y
+	slot0.z = slot0.z - slot1.z
+
+	return slot0
+end
+
+function slot16.MulQuat(slot0, slot1)
+	slot2 = slot1.x * 2
+	slot3 = slot1.y * 2
+	slot4 = slot1.z * 2
+	slot5 = slot1.x * slot2
+	slot6 = slot1.y * slot3
+	slot7 = slot1.z * slot4
+	slot8 = slot1.x * slot3
+	slot9 = slot1.x * slot4
+	slot10 = slot1.y * slot4
+	slot11 = slot1.w * slot2
+	slot12 = slot1.w * slot3
+	slot13 = slot1.w * slot4
+
+	slot0:Set((1 - (slot6 + slot7)) * slot0.x + (slot8 - slot13) * slot0.y + (slot9 + slot12) * slot0.z, (slot8 + slot13) * slot0.x + (1 - (slot5 + slot7)) * slot0.y + (slot10 - slot11) * slot0.z, (slot9 - slot12) * slot0.x + (slot10 + slot11) * slot0.y + (1 - (slot5 + slot6)) * slot0.z)
+
+	return slot0
+end
+
+function slot16.AngleAroundAxis(slot0, slot1, slot2)
+	slot0 = slot0 - uv0.Project(slot0, slot2)
+	slot1 = slot1 - uv0.Project(slot1, slot2)
+
+	return uv0.Angle(slot0, slot1) * (uv0.Dot(slot2, uv0.Cross(slot0, slot1)) < 0 and -1 or 1)
+end
+
+function slot16.__tostring(slot0)
+	return "[" .. slot0.x .. "," .. slot0.y .. "," .. slot0.z .. "]"
+end
+
+function slot16.__div(slot0, slot1)
+	return uv0(slot0.x / slot1, slot0.y / slot1, slot0.z / slot1)
+end
+
+function slot16.__mul(slot0, slot1)
+	if uv0(slot1) == "number" then
+		return uv1(slot0.x * slot1, slot0.y * slot1, slot0.z * slot1)
+	else
+		slot2 = slot0:Clone()
+
+		slot2:MulQuat(slot1)
+
+		return slot2
+	end
+end
+
+function slot16.__add(slot0, slot1)
+	return uv0(slot0.x + slot1.x, slot0.y + slot1.y, slot0.z + slot1.z)
+end
+
+function slot16.__sub(slot0, slot1)
+	return uv0(slot0.x - slot1.x, slot0.y - slot1.y, slot0.z - slot1.z)
+end
+
+function slot16.__unm(slot0)
+	return uv0(-slot0.x, -slot0.y, -slot0.z)
+end
+
+function slot16.__eq(slot0, slot1)
+	return (slot0.x - slot1.x) * (slot0.x - slot1.x) + (slot0.y - slot1.y) * (slot0.y - slot1.y) + (slot0.z - slot1.z) * (slot0.z - slot1.z) < 1e-10
+end
+
 function slot17.up()
-	return slot0(0, 1, 0)
+	return uv0(0, 1, 0)
 end
 
 function slot17.down()
-	return slot0(0, -1, 0)
+	return uv0(0, -1, 0)
 end
 
 function slot17.right()
-	return slot0(1, 0, 0)
+	return uv0(1, 0, 0)
 end
 
 function slot17.left()
-	return slot0(-1, 0, 0)
+	return uv0(-1, 0, 0)
 end
 
 function slot17.forward()
-	return slot0(0, 0, 1)
+	return uv0(0, 0, 1)
 end
 
 function slot17.back()
-	return slot0(0, 0, -1)
+	return uv0(0, 0, -1)
 end
 
 function slot17.zero()
-	return slot0(0, 0, 0)
+	return uv0(0, 0, 0)
 end
 
 function slot17.one()
-	return slot0(1, 1, 1)
+	return uv0(1, 1, 1)
 end
 
-slot17.magnitude = ()["Magnitude"]
-slot17.normalized = ()["Normalize"]
-slot17.sqrMagnitude = ()["SqrMagnitude"]
-UnityEngine.Vector3 = 
+slot17.magnitude = slot16.Magnitude
+slot17.normalized = slot16.Normalize
+slot17.sqrMagnitude = slot16.SqrMagnitude
+UnityEngine.Vector3 = slot16
 
-setmetatable(, )
+setmetatable(slot16, slot16)
 
-return 
+return slot16

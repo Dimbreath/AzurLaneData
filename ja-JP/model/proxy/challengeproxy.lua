@@ -3,12 +3,12 @@ slot0.MODE_CASUAL = 0
 slot0.MODE_INFINITE = 1
 
 function slot0.register(slot0)
-	slot0._curMode = slot0.MODE_CASUAL
+	slot0._curMode = uv0.MODE_CASUAL
 	slot0._challengeInfo = nil
 	slot0._userChallengeList = {}
 
 	slot0:on(24010, function (slot0)
-		slot0:updateCombatScore(slot0.score)
+		uv0:updateCombatScore(slot0.score)
 	end)
 end
 
@@ -49,10 +49,10 @@ function slot0.getCurMode(slot0)
 end
 
 function slot0.setCurMode(slot0, slot1)
-	if slot1 == slot0.MODE_CASUAL then
-		slot0._curMode = slot0.MODE_CASUAL
-	elseif slot1 == slot0.MODE_INFINITE then
-		slot0._curMode = slot0.MODE_INFINITE
+	if slot1 == uv0.MODE_CASUAL then
+		slot0._curMode = uv0.MODE_CASUAL
+	elseif slot1 == uv0.MODE_INFINITE then
+		slot0._curMode = uv0.MODE_INFINITE
 	end
 end
 

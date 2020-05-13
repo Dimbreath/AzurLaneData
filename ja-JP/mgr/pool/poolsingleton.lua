@@ -7,7 +7,7 @@ function slot1.Ctor(slot0, slot1)
 end
 
 function slot1.Clear(slot0)
-	slot0.Destroy(slot0.prefab)
+	uv0.Destroy(slot0.prefab)
 
 	slot0.prefab = nil
 	slot0.index = 0

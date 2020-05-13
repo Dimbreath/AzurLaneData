@@ -1,4 +1,6 @@
-class("FetchCommanderTalentCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("FetchCommanderTalentCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	if not getProxy(CommanderProxy):getCommanderById(slot1:getBody().id) then
 		return
 	end
@@ -16,10 +18,10 @@ class("FetchCommanderTalentCommand", pm.SimpleCommand).execute = function (slot0
 				}))
 			end
 
-			slot0:updateNotLearnedList(slot1)
-			slot1:updateCommander(slot0)
-			slot1.updateCommander:sendNotification(GAME.COMMANDER_FETCH_NOT_LEARNED_TALENT_DONE, {
-				commander = slot0,
+			uv0:updateNotLearnedList(slot1)
+			uv1:updateCommander(uv0)
+			uv2:sendNotification(GAME.COMMANDER_FETCH_NOT_LEARNED_TALENT_DONE, {
+				commander = uv0,
 				list = slot1
 			})
 		else
@@ -28,4 +30,4 @@ class("FetchCommanderTalentCommand", pm.SimpleCommand).execute = function (slot0
 	end)
 end
 
-return class("FetchCommanderTalentCommand", pm.SimpleCommand)
+return slot0

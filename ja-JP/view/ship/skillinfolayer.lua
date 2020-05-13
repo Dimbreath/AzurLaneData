@@ -27,7 +27,7 @@ function slot0.init(slot0)
 
 	setText(slot0.skillInfoName, getSkillName(slot1))
 	LoadImageSpriteAsync("skillicon/" .. slot5.icon, slot0.skillInfoIcon)
-	setText(slot0.skillInfoLv, "Lv." .. ((slot2 and slot2.level) or 1))
+	setText(slot0.skillInfoLv, "Lv." .. (slot2 and slot2.level or 1))
 
 	if slot4 then
 		setText(slot0.skillInfoIntro, getSkillDescGet(slot1))
@@ -54,21 +54,21 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf, function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.backBtn, function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("panel/buttonList/ok_button"), function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.upgradeBtn, function ()
-		slot0:emit(SkillInfoMediator.WARP_TO_TACTIC)
+		uv0:emit(SkillInfoMediator.WARP_TO_TACTIC)
 	end, SFX_UI_CLICK)
 end
 
 function slot0.close(slot0)
-	slot0:emit(slot0.ON_CLOSE)
+	slot0:emit(uv0.ON_CLOSE)
 end
 
 function slot0.willExit(slot0)

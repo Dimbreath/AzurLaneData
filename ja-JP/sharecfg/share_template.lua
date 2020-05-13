@@ -227,5 +227,3 @@ pg.share_template = {
 		12
 	}
 }
-
-return

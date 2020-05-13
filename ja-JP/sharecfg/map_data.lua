@@ -2103,5 +2103,3 @@ pg.map_data = {
 		100032
 	}
 }
-
-return

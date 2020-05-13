@@ -1,4 +1,6 @@
-class("Challenge2SettleRequestCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("Challenge2SettleRequestCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) or slot4:isEnd() then
@@ -9,9 +11,9 @@ class("Challenge2SettleRequestCommand", pm.SimpleCommand).execute = function (sl
 		activity_id = slot4.id
 	}, 24010, function (slot0)
 		if slot0.result == 0 then
-			slot0:sendNotification(GAME.CHALLENGE2_SETTLE_DONE)
+			uv0:sendNotification(GAME.CHALLENGE2_SETTLE_DONE)
 		end
 	end)
 end
 
-return class("Challenge2SettleRequestCommand", pm.SimpleCommand)
+return slot0

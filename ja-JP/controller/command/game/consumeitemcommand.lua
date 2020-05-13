@@ -1,4 +1,6 @@
-class("ConsumeItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("ConsumeItemCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	if slot1:getBody().type == DROP_TYPE_RESOURCE then
 		slot4 = getProxy(PlayerProxy)
 		slot5 = slot4:getData()
@@ -12,4 +14,4 @@ class("ConsumeItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 end
 
-return class("ConsumeItemCommand", pm.SimpleCommand)
+return slot0

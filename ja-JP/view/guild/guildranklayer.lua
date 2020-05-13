@@ -35,21 +35,21 @@ end
 function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	onButton(slot0, slot0:findTF("btnBack", slot0.topPanel), function (slot0)
-		if slot0.inAwardPage then
-			slot0:closeAwards()
+		if uv0.inAwardPage then
+			uv0:closeAwards()
 		else
-			slot0:emit(slot1.ON_CLOSE)
+			uv0:emit(uv1.ON_CLOSE)
 		end
 	end, SOUND_BACK)
 	onButton(slot0, slot0._tf, function ()
-		if slot0.inAwardPage then
-			slot0:closeAwards()
+		if uv0.inAwardPage then
+			uv0:closeAwards()
 		else
-			slot0:emit(slot1.ON_CLOSE)
+			uv0:emit(uv1.ON_CLOSE)
 		end
 	end, SOUND_BACK)
 	onButton(slot0, slot0.awardBtn, function ()
-		slot0:showAwards()
+		uv0:showAwards()
 	end, SOUND_BACK)
 	slot0:disPlayerRank()
 end
@@ -75,11 +75,14 @@ function slot0.disPlayerRank(slot0)
 end
 
 function slot0.updateGuild(slot0, slot1, slot2)
+	slot3 = slot0.selfGuildVO.id == slot1.id
+	slot4 = slot0.guildTFs[slot1.id]
+
 	setText(findTF(slot4, "name"), slot1.name)
 	setText(findTF(slot4, "container/name"), slot1.playerName)
 	setText(findTF(slot4, "container/policy"), slot1.totalDamage)
 	setText(findTF(slot4, "count_container/count"), slot1:getFinishTime())
-	setText(findTF(slot0.guildTFs[slot1.id], "value"), (slot0.selfGuildVO.id == slot1.id and slot0.guildEvent:getRank()) or slot2)
+	setText(findTF(slot4, "value"), slot3 and slot0.guildEvent:getRank() or slot2)
 	setText(findTF(slot4, "lv/Text"), slot1.level)
 
 	slot5 = JoinGuildLayer.getTheme(slot1:getFaction())
@@ -87,7 +90,7 @@ function slot0.updateGuild(slot0, slot1, slot2)
 	slot4:Find("icon_frame/icon"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/JoinGuildUI_atlas", slot5 .. "_icon")
 	slot4:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/JoinGuildUI_atlas", slot5 .. "_frame")
 
-	setActive(slot4:Find("check_mark"), slot0.selfGuildVO.id == slot1.id)
+	setActive(slot4:Find("check_mark"), slot3)
 end
 
 function slot0.showAwards(slot0)
@@ -108,7 +111,9 @@ function slot0.showAwards(slot0)
 end
 
 function slot0.updateAward(slot0, slot1, slot2)
-	setText(slot1:Find("Text"), slot2.desc)
+	slot6 = "Text"
+
+	setText(slot1:Find(slot6), slot2.desc)
 
 	for slot6, slot7 in ipairs(slot2.award_display) do
 		updateDrop(cloneTplTo(slot0.itemTpl, slot1:Find("awards")), {

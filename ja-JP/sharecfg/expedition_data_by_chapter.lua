@@ -625,5 +625,3 @@ pg.expedition_data_by_chapter = {
 		204
 	}
 }
-
-return

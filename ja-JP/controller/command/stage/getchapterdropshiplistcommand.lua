@@ -1,6 +1,9 @@
-class("GetChapterDropShipListCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot3 = slot1:getBody().chapterId
-	slot4 = slot1.getBody().callback
+slot0 = class("GetChapterDropShipListCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot3 = slot2.chapterId
+	slot4 = slot2.callback
 
 	if not getProxy(ChapterProxy).FectchDropShipListFlags then
 		slot5.FectchDropShipListFlags = {}
@@ -16,21 +19,21 @@ class("GetChapterDropShipListCommand", pm.SimpleCommand).execute = function (slo
 				table.insert(slot1, slot6)
 			end
 
-			slot2 = slot0:getChapterById(slot1)
+			slot2 = uv0:getChapterById(uv1)
 
 			slot2:UpdateDropShipList(slot1)
 
-			slot0.FectchDropShipListFlags[slot1] = true
+			uv0.FectchDropShipListFlags[uv1] = true
 
-			slot0:updateChapter(slot2)
+			uv0:updateChapter(slot2)
 
 			slot3 = slot2:GetDropShipList()
 
-			if slot2 then
-				slot2(slot3)
+			if uv2 then
+				uv2(slot3)
 			end
 
-			slot3:sendNotification(GAME.GET_CHAPTER_DROP_SHIP_LIST_DONE, {
+			uv3:sendNotification(GAME.GET_CHAPTER_DROP_SHIP_LIST_DONE, {
 				shipIds = slot3
 			})
 		end)
@@ -47,4 +50,4 @@ class("GetChapterDropShipListCommand", pm.SimpleCommand).execute = function (slo
 	end
 end
 
-return class("GetChapterDropShipListCommand", pm.SimpleCommand)
+return slot0
