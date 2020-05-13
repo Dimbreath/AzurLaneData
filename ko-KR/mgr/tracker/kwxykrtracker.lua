@@ -1,7 +1,6 @@
 slot0 = class("KwxyKrTracker")
 
 function slot0.Ctor(slot0, slot1)
-	return
 end
 
 function slot0.Tracking(slot0, slot1, slot2, slot3, slot4)

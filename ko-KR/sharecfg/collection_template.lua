@@ -6798,5 +6798,3 @@ pg.collection_template = {
 		40306
 	}
 }
-
-return

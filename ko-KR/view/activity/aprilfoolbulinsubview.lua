@@ -1,7 +1,7 @@
 slot0 = class("AprilFoolBulinSubView", import("view.base.BaseSubPanel"))
 
 function slot0.Ctor(slot0, slot1, slot2)
-	slot0.super.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1)
 
 	slot0.pieceID = slot2
 end
@@ -23,17 +23,19 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.bulin, function ()
 		pg.m02:sendNotification(GAME.PUZZLE_PIECE_OP, {
 			cmd = 2,
-			actId = slot1.id,
-			id = slot0.pieceID,
+			actId = uv1.id,
+			id = uv0.pieceID,
 			callback = function ()
-				slot0.pickup_picturepuzzle:emit(BaseUI.ON_ACHIEVE, {
+				slot0 = uv0.awards[table.indexof(uv0.pickup_picturepuzzle, uv1)]
+
+				uv2:emit(BaseUI.ON_ACHIEVE, {
 					{
-						type = slot0.awards[table.indexof(slot0.pickup_picturepuzzle, table.indexof)][1],
-						id = slot0.awards[table.indexof(slot0.pickup_picturepuzzle, table.indexof)][2],
-						count = slot0.awards[table.indexof(slot0.pickup_picturepuzzle, table.indexof)][3]
+						type = slot0[1],
+						id = slot0[2],
+						count = slot0[3]
 					}
 				})
-				slot0.pickup_picturepuzzle:Destroy()
+				uv2:Destroy()
 			end
 		})
 	end)
@@ -52,7 +54,7 @@ function slot0.ShowAprilFoolBulin(slot0, slot1, slot2)
 		return
 	end
 
-	slot0:New(slot1):Load()
+	uv0.New(slot0, slot1):Load()
 
 	if slot2 then
 		slot4.buffer:SetParent(slot2)

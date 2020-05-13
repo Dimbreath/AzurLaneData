@@ -1,4 +1,6 @@
-class("ActivityBossExchangeTicketCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("ActivityBossExchangeTicketCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	if not slot1:getBody().stageId then
 		return
 	end
@@ -11,7 +13,7 @@ class("ActivityBossExchangeTicketCommand", pm.SimpleCommand).execute = function 
 		return
 	end
 
-	if getProxy(PlayerProxy):getRawData().getResource(slot6, slot5.ticket) <= 0 then
+	if getProxy(PlayerProxy):getRawData():getResource(slot5.ticket) <= 0 then
 		return
 	end
 
@@ -21,21 +23,18 @@ class("ActivityBossExchangeTicketCommand", pm.SimpleCommand).execute = function 
 		arg1 = slot3
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
-			slot1 = getProxy(PlayerProxy)
-			slot2 = slot1:getRawData()
-
-			slot2:consume({
-				[id2res(slot0)] = 1
+			getProxy(PlayerProxy):getRawData():consume({
+				[id2res(uv0)] = 1
 			})
-			slot1:sendNotification(GAME.ACT_BOSS_NORMAL_UPDATE, {
+			uv1:sendNotification(GAME.ACT_BOSS_NORMAL_UPDATE, {
 				num = 1,
-				stageId = slot2
+				stageId = uv2
 			})
-			slot1:sendNotification(GAME.ACT_BOSS_EXCHANGE_TICKET_DONE)
+			uv1:sendNotification(GAME.ACT_BOSS_EXCHANGE_TICKET_DONE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)
 end
 
-return class("ActivityBossExchangeTicketCommand", pm.SimpleCommand)
+return slot0

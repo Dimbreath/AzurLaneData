@@ -8,36 +8,36 @@ function slot0.register(slot0)
 	slot1 = getProxy(GuildProxy)
 	slot1.eventTip = nil
 
-	slot0.viewComponent:setEvent(slot2)
-	slot0.viewComponent:setPlayerVO(slot4)
-	slot0:bind(slot0.GET_RANK_LIST, function (slot0)
-		slot0:sendNotification(GAME.GET_GUILD_MEMBER_RANK)
+	slot0.viewComponent:setEvent(slot1:getGuildEvent())
+	slot0.viewComponent:setPlayerVO(getProxy(PlayerProxy):getData())
+	slot0:bind(uv0.GET_RANK_LIST, function (slot0)
+		uv0:sendNotification(GAME.GET_GUILD_MEMBER_RANK)
 	end)
-	slot0:bind(slot0.OPEN_TASK, function (slot0)
-		slot0:addSubLayers(Context.New({
+	slot0:bind(uv0.OPEN_TASK, function (slot0)
+		uv0:addSubLayers(Context.New({
 			viewComponent = GuildTaskLayer,
 			mediator = GuildTaskMediator
 		}))
 	end)
-	slot0:bind(slot0.OPEN_RANK, function (slot0)
-		slot0:addSubLayers(Context.New({
+	slot0:bind(uv0.OPEN_RANK, function (slot0)
+		uv0:addSubLayers(Context.New({
 			viewComponent = GuildRankLayer,
 			mediator = GuildRankMediator
 		}))
 	end)
-	slot0:bind(slot0.ON_PRE_COMBAT, function (slot0)
+	slot0:bind(uv0.ON_PRE_COMBAT, function (slot0)
 		if not getProxy(ChapterProxy):getGuildChapter() then
 			return
 		end
 
 		if slot2.active then
-			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+			uv0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
 				chapterId = slot2 and slot2.id,
 				mapIdx = slot2 and slot2:getConfig("map"),
 				chapterVO = slot2
 			})
 		else
-			slot0:addSubLayers(Context.New({
+			uv0:addSubLayers(Context.New({
 				mediator = GuildPreCombatMediator,
 				viewComponent = GuildPreCombatLayer,
 				data = {

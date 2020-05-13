@@ -14,45 +14,47 @@ function slot0.register(slot0)
 	slot0.summaryInfo = nil
 
 	slot0:on(11000, function (slot0)
-		slot0:sendNotification(GAME.TIME_SYNCHRONIZATION, slot0)
+		uv0:sendNotification(GAME.TIME_SYNCHRONIZATION, slot0)
 	end)
 	slot0:on(11003, function (slot0)
-		Player.New(slot0).resUpdateTm = pg.TimeMgr.GetInstance():GetServerTime()
+		slot1 = Player.New(slot0)
+		slot1.resUpdateTm = pg.TimeMgr.GetInstance():GetServerTime()
 
-		slot0:updatePlayer(slot1)
-		print("days from regist time to new :" .. slot0.data:GetDaysFromRegister())
+		uv0:updatePlayer(slot1)
+		print("days from regist time to new :" .. uv0.data:GetDaysFromRegister())
 
-		if slot0.data:GetDaysFromRegister() == 1 then
+		if uv0.data:GetDaysFromRegister() == 1 then
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_2D_RETENTION)
-		elseif slot0.data:GetDaysFromRegister() == 6 then
+		elseif uv0.data:GetDaysFromRegister() == 6 then
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_7D_RETENTION)
 		end
 
-		slot0:flushTimesListener()
+		uv0:flushTimesListener()
 	end)
 	slot0:on(11004, function (slot0)
-		if not slot0.data then
+		if not uv0.data then
 			return
 		end
 
-		slot1 = slot0.data:clone()
+		slot1 = uv0.data:clone()
 
 		slot1:updateResources(slot0.resource_list)
 
 		slot1.resUpdateTm = pg.TimeMgr.GetInstance():GetServerTime()
 
-		slot0:updatePlayer(slot1)
+		uv0:updatePlayer(slot1)
 
-		if slot0.data:isFull() then
+		if uv0.data:isFull() then
+			-- Nothing
 		end
 	end)
 	slot0:on(10999, function (slot0)
-		slot0:sendNotification(GAME.LOGOUT, {
+		uv0:sendNotification(GAME.LOGOUT, {
 			code = slot0.reason
 		})
 	end)
 	slot0:on(11015, function (slot0)
-		slot0.data:clone().buff_list = {}
+		uv0.data:clone().buff_list = {}
 
 		for slot5, slot6 in ipairs(slot0.buff_list) do
 			table.insert(slot1.buff_list, {
@@ -61,11 +63,11 @@ function slot0.register(slot0)
 			})
 		end
 
-		slot0:updatePlayer(slot1)
+		uv0:updatePlayer(slot1)
 	end)
 	slot0:on(11503, function (slot0)
-		getProxy(ShopsProxy).removeChargeTimer(slot1, slot0.pay_id)
-		slot0:sendNotification(GAME.CHARGE_SUCCESS, {
+		getProxy(ShopsProxy):removeChargeTimer(slot0.pay_id)
+		uv0:sendNotification(GAME.CHARGE_SUCCESS, {
 			shopId = slot0.shop_id,
 			payId = slot0.pay_id,
 			gem = slot0.gem,
@@ -89,7 +91,7 @@ function slot0.flushTimesListener(slot0)
 
 	slot1 = pg.TimeMgr.GetInstance()
 	slot0.clockId = slot1:AddTimer("daily", slot1:GetNextTime(0, 0, 0) - slot1:GetServerTime(), 86400, function ()
-		slot0:sendNotification(GAME.ZERO_HOUR)
+		uv0:sendNotification(GAME.ZERO_HOUR)
 	end)
 end
 
@@ -109,7 +111,7 @@ function slot0.updatePlayer(slot0, slot1)
 	slot0.data = slot1:clone()
 
 	slot0.data:display("updated")
-	slot0:sendNotification(slot0.UPDATED, slot1:clone())
+	slot0:sendNotification(uv0.UPDATED, slot1:clone())
 end
 
 function slot0.updatePt(slot0, slot1, slot2)
@@ -117,8 +119,9 @@ function slot0.updatePt(slot0, slot1, slot2)
 
 	slot0.activityProxy = slot0.activityProxy or getProxy(ActivityProxy)
 	slot3 = {}
+	slot7 = ActivityConst.ACTIVITY_TYPE_PT_RANK
 
-	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK)) do
+	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(slot7)) do
 		if slot8:getConfig("config_id") > 0 then
 			slot3[slot9] = slot3[slot9] or slot2:getResource(slot9) - slot1:getResource(slot9)
 
@@ -130,7 +133,9 @@ function slot0.updatePt(slot0, slot1, slot2)
 		end
 	end
 
-	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_ACCUM)) do
+	slot7 = ActivityConst.ACTIVITY_TYPE_PT_ACCUM
+
+	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(slot7)) do
 		slot10 = nil
 
 		if slot8:getDataConfig("pt") > 0 then
@@ -154,7 +159,7 @@ function slot0.UpdatePlayerRes(slot0, slot1, slot2)
 	slot3 = id2res(slot1)
 	slot0.data[slot3] = math.max(slot0.data[slot3] + slot2, 0)
 
-	slot0:sendNotification(slot0.RESOURCE_UPDATED, {
+	slot0:sendNotification(uv0.RESOURCE_UPDATED, {
 		id = slot1,
 		diff = slot2,
 		amount = slot0.data[slot3]

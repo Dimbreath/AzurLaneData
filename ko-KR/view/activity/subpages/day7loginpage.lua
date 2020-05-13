@@ -15,20 +15,32 @@ function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	setActive(slot0.item, false)
 
-	for slot4 = 1, 7, 1 do
-		updateDrop(slot6, slot8)
-		onButton(slot0, cloneTplTo(slot0.item, slot0.items), function ()
-			slot0:emit(BaseUI.ON_DROP, slot0)
+	for slot4 = 1, 7 do
+		slot5 = cloneTplTo(slot0.item, slot0.items)
+		slot7 = slot0.config.front_drops[slot4]
+
+		updateDrop(slot0:findTF("item", slot5), {
+			type = slot7[1],
+			id = slot7[2],
+			count = slot7[3]
+		})
+		onButton(slot0, slot5, function ()
+			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
 	end
 end
 
 function slot0.OnUpdateFlush(slot0)
-	GetImageSpriteFromAtlasAsync("ui/activityuipage/day7_login_atlas", string.format("0%d", math.max(slot0.activity.data1, 1)), slot0.labelDay, true)
+	slot4 = slot0.labelDay
 
-	for slot4 = 1, 7, 1 do
-		GetImageSpriteFromAtlasAsync("ui/activityuipage/day7_login_atlas", string.format("day%d", slot4) .. ((slot4 <= slot0.activity.data1 and "_sel") or ""), slot0:findTF("day", slot0.items:GetChild(slot4 - 1)), true)
-		setActive(slot0:findTF("got", slot0.items.GetChild(slot4 - 1)), slot4 <= slot0.activity.data1)
+	GetImageSpriteFromAtlasAsync("ui/activityuipage/day7_login_atlas", string.format("0%d", math.max(slot0.activity.data1, 1)), slot4, true)
+
+	for slot4 = 1, 7 do
+		slot5 = slot0.items:GetChild(slot4 - 1)
+		slot6 = slot4 <= slot0.activity.data1
+
+		GetImageSpriteFromAtlasAsync("ui/activityuipage/day7_login_atlas", string.format("day%d", slot4) .. (slot6 and "_sel" or ""), slot0:findTF("day", slot5), true)
+		setActive(slot0:findTF("got", slot5), slot6)
 	end
 end
 

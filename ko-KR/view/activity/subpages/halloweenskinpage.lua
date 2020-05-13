@@ -13,11 +13,11 @@ function slot0.OnFirstFlush(slot0)
 	slot0.tasks = _.flatten(slot0.activity:getConfig("config_data"))
 
 	onButton(slot0, slot0.goBtn, function ()
-		if slot0:LastTaskBeFinished() then
+		if uv0:LastTaskBeFinished() then
 			return
 		end
 
-		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.NAVALACADEMYSCENE)
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.NAVALACADEMYSCENE)
 	end, SFX_PANEL)
 end
 
@@ -32,10 +32,9 @@ end
 function slot0.OnUpdateFlush(slot0)
 	slot1 = slot0.activity
 	slot2 = 0
-	slot3 = getProxy(TaskProxy)
 
 	for slot7 = #slot0.tasks, 1, -1 do
-		if slot3:getTaskVO(slot0.tasks[slot7]) and slot9:isReceive() then
+		if getProxy(TaskProxy):getTaskVO(slot0.tasks[slot7]) and slot9:isReceive() then
 			slot2 = slot7
 		elseif slot9 and not slot9:isReceive() then
 			slot2 = slot7 - 1
@@ -48,7 +47,6 @@ function slot0.OnUpdateFlush(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

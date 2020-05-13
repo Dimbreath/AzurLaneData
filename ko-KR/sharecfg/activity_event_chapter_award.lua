@@ -333,5 +333,3 @@ pg.activity_event_chapter_award = {
 		20266
 	}
 }
-
-return

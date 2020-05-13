@@ -7,5 +7,3 @@ this.Actions = {
 		dialog_index = 4
 	}
 }
-
-return

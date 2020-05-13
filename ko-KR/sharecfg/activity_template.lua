@@ -15698,5 +15698,3 @@ pg.activity_template = {
 		25037
 	}
 }
-
-return

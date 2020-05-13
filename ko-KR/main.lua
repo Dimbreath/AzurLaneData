@@ -24,9 +24,7 @@ PLATFORM_CODE = PLATFORM_KR
 SDK_EXIT_CODE = 99
 
 function luaIdeDebugFunc()
-	breakInfoFun = 
-	-- Decompilation error in this vicinity:
-	require("LuaDebugjit")("localhost", 7003)
+	breakInfoFun = require("LuaDebugjit")("localhost", 7003)
 	time = Timer.New(breakInfoFun, 0.5, -1, 1)
 
 	time:Start()
@@ -111,8 +109,9 @@ function OnApplicationExit()
 		return
 	end
 
-	slot12 = slot10.viewComponent._tf.parent
-	slot13 = slot10.viewComponent._tf:GetSiblingIndex()
+	slot11 = slot10.viewComponent
+	slot12 = slot11._tf.parent
+	slot13 = slot11._tf:GetSiblingIndex()
 	slot14 = -1
 	slot15 = nil
 
@@ -142,7 +141,6 @@ function OnApplicationExit()
 end
 
 function OnReceiveMemoryWarning()
-	return
 end
 
 function PressBack()
@@ -209,7 +207,7 @@ seriesAsync({
 	end
 }, function (slot0)
 	pg.SdkMgr.GetInstance():QueryWithProduct()
-	print("loading cost: " .. os.clock() - slot0)
+	print("loading cost: " .. os.clock() - uv0)
 	CameraUtil.SetOnlyAdaptMainCam(true)
 	VersionMgr.Inst:DestroyUI()
 
@@ -260,5 +258,3 @@ function SetHXConfig()
 		end
 	end
 end
-
-return

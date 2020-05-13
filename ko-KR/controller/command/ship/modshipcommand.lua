@@ -1,8 +1,12 @@
-class("ModShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot4 = slot1:getBody().shipIds or {}
-	slot7 = Clone(getProxy(BayProxy).getShipById(slot5, slot1.getBody().shipId))
+slot0 = class("ModShipCommand", pm.SimpleCommand)
 
-	if not getProxy(BayProxy).getShipById(slot5, slot1.getBody().shipId) then
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot4 = slot2.shipIds or {}
+	slot6 = getProxy(BayProxy):getShipById(slot2.shipId)
+	slot7 = Clone(slot6)
+
+	if not slot6 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_error_noShip", slot3))
 
 		return
@@ -31,11 +35,12 @@ class("ModShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		material_id_list = slot4
 	}, 12018, function (slot0)
 		if slot0.result == 0 then
-			pg.TrackerMgr.GetInstance():Tracking(TRACKING_SHIP_INTENSIFY, #slot0)
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_SHIP_INTENSIFY, #uv0)
 
+			slot1 = {}
 			slot2 = getProxy(EquipmentProxy)
 
-			for slot6, slot7 in ipairs(slot1) do
+			for slot6, slot7 in ipairs(uv1) do
 				for slot11, slot12 in ipairs(slot7.equipments) do
 					if slot12 then
 						if slot12:hasSkin() then
@@ -56,17 +61,17 @@ class("ModShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					end
 				end
 
-				slot2:removeShip(slot7)
+				uv2:removeShip(slot7)
 			end
 
-			for slot7, slot8 in pairs(slot3) do
-				slot3:addModAttrExp(slot7, slot8)
+			for slot7, slot8 in pairs(ShipModLayer.getModExpAdditions(uv3, uv1)) do
+				uv3:addModAttrExp(slot7, slot8)
 			end
 
-			slot2:updateShip(slot3)
-			slot2.updateShip:sendNotification(GAME.MOD_SHIP_DONE, {
-				oldShip = slot5,
-				newShip = slot3,
+			uv2:updateShip(uv3)
+			uv4:sendNotification(GAME.MOD_SHIP_DONE, {
+				oldShip = uv5,
+				newShip = uv3,
 				equipments = slot1
 			})
 		else
@@ -75,4 +80,4 @@ class("ModShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end)
 end
 
-return class("ModShipCommand", pm.SimpleCommand)
+return slot0

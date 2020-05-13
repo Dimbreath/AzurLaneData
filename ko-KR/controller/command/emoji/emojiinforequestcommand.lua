@@ -1,4 +1,6 @@
-class("EmojiInfoRequestCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("EmojiInfoRequestCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	pg.ConnectionMgr.GetInstance():Send(11601, {
@@ -17,9 +19,9 @@ class("EmojiInfoRequestCommand", pm.SimpleCommand).execute = function (slot0, sl
 
 			slot1:loadNewEmojiIDList()
 			slot1:setInitedTag()
-			slot0:sendNotification(GAME.REQUEST_EMOJI_INFO_FROM_SERVER_DONE)
+			uv0:sendNotification(GAME.REQUEST_EMOJI_INFO_FROM_SERVER_DONE)
 		end
 	end)
 end
 
-return class("EmojiInfoRequestCommand", pm.SimpleCommand)
+return slot0

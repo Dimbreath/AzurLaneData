@@ -23,15 +23,15 @@ function slot0.onBackPressed(slot0)
 	elseif slot0.shrineResultView:CheckState(BaseSubView.STATES.INITED) then
 		slot0.shrineResultView:Destroy()
 	else
-		slot0:emit(slot0.ON_BACK_PRESSED)
+		slot0:emit(uv0.ON_BACK_PRESSED)
 	end
 end
 
 function slot0.OnSendMiniGameOPDone(slot0, slot1)
-	slot4 = slot1.argList[2]
+	slot2 = slot1.argList
 
-	if slot1.argList[1] == slot0.miniGameId then
-		if slot4 == 1 then
+	if slot2[1] == slot0.miniGameId then
+		if slot2[2] == 1 then
 			slot0:updateView()
 			slot0:updateWitchImg()
 		elseif slot4 == 2 then
@@ -48,7 +48,8 @@ function slot0.OnSendMiniGameOPDone(slot0, slot1)
 				getProxy(ActivityProxy):updateActivity(slot6)
 			end
 
-			slot8 = pg.benefit_buff_template[slot2[3]].name
+			slot7 = slot2[3]
+			slot8 = pg.benefit_buff_template[slot7].name
 
 			slot0:playAnime(i18n("tips_shrine_buff"), table.indexof(slot0:GetMGData():getConfig("config_data")[2], slot7, 1))
 			slot0:updateView()
@@ -97,7 +98,7 @@ end
 
 function slot0.initData(slot0)
 	slot0.miniGameId = slot0.contextData.miniGameId
-	slot2 = getProxy(MiniGameProxy).GetHubByGameId(slot1, slot0.miniGameId)
+	slot2 = getProxy(MiniGameProxy):GetHubByGameId(slot0.miniGameId)
 
 	if not slot0:isInitedMiniGameData() then
 		slot0:SendOperator(MiniGameOPCommand.CMD_SPECIAL_GAME, {
@@ -108,32 +109,32 @@ function slot0.initData(slot0)
 
 	slot0.shrineBuffView = ShrineBuffView.New(slot0._tf.parent, slot0.event, {
 		onSelect = function (slot0)
-			if getProxy(PlayerProxy):getData().gold < slot0:GetMGData():getConfig("config_data")[1] then
+			if getProxy(PlayerProxy):getData().gold < uv0:GetMGData():getConfig("config_data")[1] then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 				return
 			end
 
-			if slot0:GetMGData():GetRuntimeData("count") <= 0 then
-				slot0:SendOperator(MiniGameOPCommand.CMD_SPECIAL_GAME, {
-					slot0.miniGameId,
+			if uv0:GetMGData():GetRuntimeData("count") <= 0 then
+				uv0:SendOperator(MiniGameOPCommand.CMD_SPECIAL_GAME, {
+					uv0.miniGameId,
 					3
 				})
 			else
-				slot0:SendOperator(MiniGameOPCommand.CMD_SPECIAL_GAME, {
-					slot0.miniGameId,
+				uv0:SendOperator(MiniGameOPCommand.CMD_SPECIAL_GAME, {
+					uv0.miniGameId,
 					2,
-					slot0:GetMGData():getConfig("config_data")[2][slot0]
+					uv0:GetMGData():getConfig("config_data")[2][slot0]
 				})
 			end
 		end,
 		onClose = function ()
-			slot0.buffEffectAni.enabled = false
-			slot0.buffEffectAni.bgImg.color = Color.New(1, 1, 1)
+			uv0.buffEffectAni.enabled = false
+			uv0.bgImg.color = Color.New(1, 1, 1)
 
-			setActive(slot0.noAdaptPanel, true)
-			setActive(slot0.cloudTF, true)
-			setActive(slot0.witchImg, slot0.activityWitch)
+			setActive(uv0.noAdaptPanel, true)
+			setActive(uv0.cloudTF, true)
+			setActive(uv0.witchImg, uv0.activityWitch)
 		end
 	})
 	slot0.shrineResultView = ShrineResultView.New(slot0._tf, slot0.event)
@@ -155,15 +156,16 @@ function slot0.findUI(slot0)
 	slot0.helpBtn = slot0:findTF("HelpBtn", slot1)
 	slot0.timesText = slot0:findTF("Times/Text", slot1)
 	slot0.goldText = slot0:findTF("Gold/Text", slot1)
+	slot2 = slot0:findTF("Main")
 	slot0.witchImg = slot0:findTF("Witch", slot2)
-	slot0.rope = slot0:findTF("Rope", slot0:findTF("Main"))
+	slot0.rope = slot0:findTF("Rope", slot2)
 	slot0.spineAnim = GetComponent(slot0.rope, "SpineAnimUI")
 	slot0.press = GetComponent(slot0.rope, "EventTriggerListener")
 end
 
 function slot0.addListener(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		slot0:onBackPressed()
+		uv0:onBackPressed()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -172,22 +174,22 @@ function slot0.addListener(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.rope, function ()
-		slot0.bgImg.color = Color.New(0, 0, 0)
+		uv0.bgImg.color = Color.New(0, 0, 0)
 
-		setActive(slot0.noAdaptPanel, false)
-		setActive(slot0.cloudTF, false)
-		setActive(slot0.witchImg, false)
-		setActive.shrineBuffView:Reset()
-		setActive.shrineBuffView.Reset.shrineBuffView:Load()
+		setActive(uv0.noAdaptPanel, false)
+		setActive(uv0.cloudTF, false)
+		setActive(uv0.witchImg, false)
+		uv0.shrineBuffView:Reset()
+		uv0.shrineBuffView:Load()
 	end)
 	onButton(slot0, slot0.buffImg, function ()
-		slot0:updateBuffDesc()
+		uv0:updateBuffDesc()
 	end, SFX_PANEL)
 	slot0.buffDftAniEvent:SetStartEvent(function ()
-		setButtonEnabled(slot0.rope, false)
+		setButtonEnabled(uv0.rope, false)
 	end)
 	slot0.buffDftAniEvent:SetEndEvent(function ()
-		setButtonEnabled(slot0.rope, true)
+		setButtonEnabled(uv0.rope, true)
 	end)
 end
 
@@ -200,25 +202,25 @@ function slot0.playAnime(slot0, slot1, slot2)
 		slot0.spineAnim:SetAction("action", 0)
 		slot0.spineAnim:SetActionCallBack(function (slot0)
 			if slot0 == "finish" then
-				slot0.spineAnim:SetActionCallBack(nil)
+				uv0.spineAnim:SetActionCallBack(nil)
 
-				if slot0.ringSE then
-					slot0.ringSE:Stop(true)
+				if uv0.ringSE then
+					uv0.ringSE:Stop(true)
 				end
 
-				slot0.shrineResultView:Reset()
-				slot0.shrineResultView:Load()
-				slot0.shrineResultView:ActionInvoke("updateView", slot0.shrineResultView.ActionInvoke, slot0.shrineResultView)
-				slot0.shrineResultView:ActionInvoke("setCloseFunc", function ()
-					if slot0 then
-						slot1:updateBuff()
+				uv0.shrineResultView:Reset()
+				uv0.shrineResultView:Load()
+				uv0.shrineResultView:ActionInvoke("updateView", uv1, uv2)
+				uv0.shrineResultView:ActionInvoke("setCloseFunc", function ()
+					if uv0 then
+						uv1:updateBuff()
 
-						slot1.buffEffectAni.enabled = true
+						uv1.buffEffectAni.enabled = true
 					end
 
-					setButtonEnabled(slot1.rope, true)
+					setButtonEnabled(uv1.rope, true)
 				end)
-				slot0.spineAnim:SetAction("normal", 0)
+				uv0.spineAnim:SetAction("normal", 0)
 			end
 		end)
 	end
@@ -229,7 +231,7 @@ function slot0.updateView(slot0)
 		return
 	end
 
-	setText(slot0.timesText, slot1)
+	setText(slot0.timesText, slot0:GetMGData():GetRuntimeData("count"))
 	setText(slot0.goldText, getProxy(PlayerProxy):getData().gold)
 end
 
@@ -238,11 +240,10 @@ function slot0.updateBuff(slot0, slot1)
 		setImageSprite(slot0.buffImg, GetSpriteFromAtlas("ui/shrineui_atlas", "buff_type_" .. slot1, true))
 		setActive(slot0.buffImg, true)
 	else
-		slot3 = slot0:GetMGData():getConfig("config_data")[2]
 		slot4 = nil
 
 		for slot8, slot9 in ipairs(getProxy(PlayerProxy):getData().buff_list) do
-			if table.indexof(slot3, slot9.id, 1) then
+			if table.indexof(slot0:GetMGData():getConfig("config_data")[2], slot9.id, 1) then
 				if pg.TimeMgr:GetInstance():GetServerTime() < slot9.timestamp then
 					setImageSprite(slot0.buffImg, GetSpriteFromAtlas("ui/shrineui_atlas", "buff_type_" .. slot4, true))
 					setActive(slot0.buffImg, true)
@@ -266,10 +267,8 @@ function slot0.updateBuffDesc(slot0)
 	slot1 = nil
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot2:isEnd() then
-		slot3 = slot0:GetMGData():getConfig("config_data")[2]
-
 		for slot8, slot9 in pairs(getProxy(PlayerProxy):getData().buff_list) do
-			if table.contains(slot3, slot9.id) then
+			if table.contains(slot0:GetMGData():getConfig("config_data")[2], slot9.id) then
 				slot1 = ActivityBuff.New(slot2.id, slot9.id, slot9.timestamp)
 
 				break
@@ -285,23 +284,19 @@ function slot0.updateBuffDesc(slot0)
 		slot0._buffTextTimer:Stop()
 	end
 
-	slot3 = slot1:getConfig("desc")
-
 	if slot1:getConfig("max_time") > 0 then
-		slot5 = pg.TimeMgr:GetInstance():GetServerTime()
-
 		if slot1.timestamp then
-			setText(slot0.buffText:Find("Text"), string.gsub(slot3, "$" .. 1, pg.TimeMgr.GetInstance():DescCDTime(slot7)))
+			setText(slot0.buffText:Find("Text"), string.gsub(slot1:getConfig("desc"), "$" .. 1, pg.TimeMgr.GetInstance():DescCDTime(slot6 - pg.TimeMgr:GetInstance():GetServerTime())))
 
 			slot0._buffTimeCountDownTimer = Timer.New(function ()
-				if slot0 > 0 then
-					slot0 = slot0 - 1
+				if uv0 > 0 then
+					uv0 = uv0 - 1
 
-					setText(slot1.buffText:Find("Text"), string.gsub(slot1.buffText.Find("Text"), "$" .. 1, pg.TimeMgr.GetInstance():DescCDTime(pg.TimeMgr.GetInstance().DescCDTime)))
+					setText(uv1.buffText:Find("Text"), string.gsub(uv2, "$" .. 1, pg.TimeMgr.GetInstance():DescCDTime(uv0)))
 				else
-					slot1._buffTimeCountDownTimer:Stop()
-					setActive(slot1._buffTimeCountDownTimer.buffText, false)
-					setActive(slot1._buffTimeCountDownTimer.buffText.buffImg, false)
+					uv1._buffTimeCountDownTimer:Stop()
+					setActive(uv1.buffText, false)
+					setActive(uv1.buffImg, false)
 				end
 			end, 1, -1)
 
@@ -311,8 +306,8 @@ function slot0.updateBuffDesc(slot0)
 	end
 
 	slot0._buffTextTimer = Timer.New(function ()
-		setActive(slot0.buffText, false)
-		setActive._buffTimeCountDownTimer:Stop()
+		setActive(uv0.buffText, false)
+		uv0._buffTimeCountDownTimer:Stop()
 	end, 7, 1)
 
 	slot0._buffTextTimer:Start()

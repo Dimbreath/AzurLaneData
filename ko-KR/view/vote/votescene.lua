@@ -41,7 +41,7 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
-	slot0.PAGES = {
+	uv0.PAGES = {
 		[5] = {
 			VotePreRaceShipPage,
 			VotePreRaceRankPage
@@ -79,17 +79,17 @@ function slot0.didEnter(slot0)
 			VoteFinalsRaceRankPage
 		}
 	}
-	slot0.shipsPage = slot0.PAGES[slot0.voteGroup.id][1].New(slot0:findTF("main/right_panel"), slot0.event)
+	slot0.shipsPage = uv0.PAGES[slot0.voteGroup.id][1].New(slot0:findTF("main/right_panel"), slot0.event)
 
 	slot0.shipsPage:SetCallBack(function (slot0, slot1)
-		slot0:OnVote(slot0, slot1)
+		uv0:OnVote(slot0, slot1)
 	end)
 
-	slot0.rankPage = slot0.PAGES[slot0.voteGroup.id][2].New(slot0:findTF("main/left_panel"), slot0.event)
+	slot0.rankPage = uv0.PAGES[slot0.voteGroup.id][2].New(slot0:findTF("main/left_panel"), slot0.event)
 	slot0.voteMsgBox = VoteDiaplayPage.New(slot0._tf, slot0._event)
 
 	onButton(slot0, slot0.backBtn, function ()
-		slot0:emit(slot1.ON_BACK)
+		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.urlBtn, function ()
 		Application.OpenURL(pg.gameset.vote_web_url.description)
@@ -97,22 +97,22 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip[pg.MsgboxMgr.GetInstance().ShowMsgBox].tip
+			helps = pg.gametip[uv0].tip
 		})
 	end, SFX_PANEL)
 	setActive(slot0.helpBtn, slot0.voteGroup:getConfig("help_text") and slot3 ~= "")
 	onButton(slot0, slot0.filterBtn, function ()
-		slot0:emit(VoteMediator.ON_FILTER, {
-			display = slot1.ShipIndex.display,
-			index = slot1.ShipIndex.index,
-			camp = slot1.ShipIndex.camp,
-			rarity = slot1.ShipIndex.rarity,
+		uv0:emit(VoteMediator.ON_FILTER, {
+			display = uv1.ShipIndex.display,
+			index = uv1.ShipIndex.index,
+			camp = uv1.ShipIndex.camp,
+			rarity = uv1.ShipIndex.rarity,
 			callback = function (slot0)
-				slot0.ShipIndex.index = slot0.index
-				slot0.ShipIndex.camp = slot0.camp
-				slot0.ShipIndex.rarity = slot0.rarity
+				uv0.ShipIndex.index = slot0.index
+				uv0.ShipIndex.camp = slot0.camp
+				uv0.ShipIndex.rarity = slot0.rarity
 
-				slot0.ShipIndex:initShips()
+				uv1:initShips()
 			end
 		})
 	end, SFX_PANEL)
@@ -123,24 +123,27 @@ end
 
 function slot0.UpdateMode(slot0)
 	slot1 = slot0.voteGroup:isResurrectionRace()
+	slot2 = slot0.voteGroup:isFinalsRace()
 
 	setActive(slot0.filterBtn, not slot1)
 	setActive(slot0.urlBtn, slot1)
-	setActive(slot0.titleBg1, not slot1 and not slot0.voteGroup:isFinalsRace())
+	setActive(slot0.titleBg1, not slot1 and not slot2)
 	setActive(slot0.titleBg2, slot1)
-	setActive(slot0.titleBg3, slot0.voteGroup.isFinalsRace())
+	setActive(slot0.titleBg3, slot2)
 end
 
 function slot0.OnVote(slot0, slot1, slot2)
-	slot0.voteMsgBox:ExecuteAction("Open", slot1.voteShip, slot0.voteGroup:GetRank(slot3), slot0.count, defaultValue(slot2, false), function (slot0)
-		if slot0.voteGroup:GetStage() ~= VoteGroup.VOTE_STAGE then
+	slot3 = slot1.voteShip
+
+	slot0.voteMsgBox:ExecuteAction("Open", slot3, slot0.voteGroup:GetRank(slot3), slot0.count, defaultValue(slot2, false), function (slot0)
+		if uv0.voteGroup:GetStage() ~= VoteGroup.VOTE_STAGE then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end
 
-		if slot0 <= slot1 then
-			slot0:emit(VoteMediator.ON_VOTE, slot0.voteGroup.id, slot2.group, slot0)
+		if slot0 <= uv1 then
+			uv0:emit(VoteMediator.ON_VOTE, uv0.voteGroup.id, uv2.group, slot0)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("vote_not_enough"))
 		end
@@ -161,9 +164,9 @@ function slot0.initShips(slot0)
 	slot0.displays = {}
 
 	for slot4, slot5 in ipairs(slot0.voteShips) do
-		if slot0.ShipIndex.index == bit.lshift(1, IndexConst.IndexAll) and slot0.ShipIndex.rarity == bit.lshift(1, IndexConst.RarityAll) and slot0.ShipIndex.camp == bit.lshift(1, IndexConst.CampAll) then
+		if uv0.ShipIndex.index == bit.lshift(1, IndexConst.IndexAll) and uv0.ShipIndex.rarity == bit.lshift(1, IndexConst.RarityAll) and uv0.ShipIndex.camp == bit.lshift(1, IndexConst.CampAll) then
 			table.insert(slot0.displays, slot5)
-		elseif IndexConst.filterByIndex(slot5.shipVO, slot0.ShipIndex.index) and IndexConst.filterByRarity(slot6, slot0.ShipIndex.rarity) and IndexConst.filterByCamp(slot6, slot0.ShipIndex.camp) then
+		elseif IndexConst.filterByIndex(slot5.shipVO, uv0.ShipIndex.index) and IndexConst.filterByRarity(slot6, uv0.ShipIndex.rarity) and IndexConst.filterByCamp(slot6, uv0.ShipIndex.camp) then
 			table.insert(slot0.displays, slot5)
 		end
 	end

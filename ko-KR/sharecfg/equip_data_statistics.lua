@@ -79513,5 +79513,3 @@ pg.equip_data_statistics = {
 		800009
 	}
 }
-
-return

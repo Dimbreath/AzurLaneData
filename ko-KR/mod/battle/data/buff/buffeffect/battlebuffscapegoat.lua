@@ -1,35 +1,37 @@
 ys = ys or {}
-ys.Battle.BattleBuffScapegoat = class("BattleBuffScapegoat", ys.Battle.BattleBuffEffect)
-ys.Battle.BattleBuffScapegoat.__name = "BattleBuffScapegoat"
+slot0 = ys
+slot0.Battle.BattleBuffScapegoat = class("BattleBuffScapegoat", slot0.Battle.BattleBuffEffect)
+slot0.Battle.BattleBuffScapegoat.__name = "BattleBuffScapegoat"
+slot1 = slot0.Battle.BattleBuffScapegoat
 
-function ys.Battle.BattleBuffScapegoat.Ctor(slot0, slot1)
-	slot0.super.Ctor(slot0, slot1)
+function slot1.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1)
 end
 
-function ys.Battle.BattleBuffScapegoat.SetArgs(slot0, slot1, slot2)
+function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._target = slot0._tempData.arg_list.target
 	slot0._rant = slot0._tempData.arg_list.rant or 10000
 end
 
-function ys.Battle.BattleBuffScapegoat.onAttach(slot0, slot1)
+function slot1.onAttach(slot0, slot1)
 	slot0:updateGoatsList(slot1)
 end
 
-function ys.Battle.BattleBuffScapegoat.onStartGame(slot0, slot1)
+function slot1.onStartGame(slot0, slot1)
 	slot0:updateGoatsList(slot1)
 end
 
-function ys.Battle.BattleBuffScapegoat.onFriendlyShipDying(slot0, slot1)
+function slot1.onFriendlyShipDying(slot0, slot1)
 	slot0:updateGoatsList(slot1)
 end
 
-function ys.Battle.BattleBuffScapegoat.updateGoatsList(slot0, slot1)
+function slot1.updateGoatsList(slot0, slot1)
 	slot0._goatList = slot0:getTargetList(slot1, slot0._target, slot0._tempData.arg_list)
 	slot0._goatCount = #slot0._goatList
 end
 
-function ys.Battle.BattleBuffScapegoat.onTakeDamage(slot0, slot1, slot2, slot3)
-	if not slot0.Battle.BattleFormulas.IsHappen(slot0._rant) then
+function slot1.onTakeDamage(slot0, slot1, slot2, slot3)
+	if not uv0.Battle.BattleFormulas.IsHappen(slot0._rant) then
 		return "chance"
 	end
 
@@ -55,5 +57,3 @@ function ys.Battle.BattleBuffScapegoat.onTakeDamage(slot0, slot1, slot2, slot3)
 
 	slot3.damage = 0
 end
-
-return

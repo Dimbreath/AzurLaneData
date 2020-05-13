@@ -1,6 +1,9 @@
-class("PutFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot3 = slot1:getBody().furnsPos
-	slot4 = slot1.getBody().tip
+slot0 = class("PutFurnitureCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot3 = slot2.furnsPos
+	slot4 = slot2.tip
 
 	if not getProxy(DormProxy) then
 		return
@@ -20,18 +23,21 @@ class("PutFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 
 	slot11 = {}
+	slot15 = slot6
 
-	for slot15, slot16 in pairs(slot7:getFurnitrues(slot6)) do
+	for slot15, slot16 in pairs(slot7:getFurnitrues(slot15)) do
 		slot16:clearPosition()
 		slot5:updateFurniture(slot16)
 	end
 
 	for slot15, slot16 in pairs(slot3) do
-		if (slot5:getFurniById(slot15).getConfig(slot17, "type") == Furniture.TYPE_WALLPAPER or slot18 == Furniture.TYPE_FLOORPAPER) and slot5:getWallPaper(slot18) then
+		if (slot5:getFurniById(slot15):getConfig("type") == Furniture.TYPE_WALLPAPER or slot18 == Furniture.TYPE_FLOORPAPER) and slot5:getWallPaper(slot18) then
 			slot19:clearPosition()
 		end
 
-		slot17:updatePosition(Vector2(slot16.x, slot16.y))
+		slot23 = slot16.y
+
+		slot17:updatePosition(Vector2(slot16.x, slot23))
 
 		slot17.dir = slot16.dir
 		slot17.child = slot16.child
@@ -74,4 +80,4 @@ class("PutFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	pg.backyard:sendNotification(BACKYARD.PUT_FURNITURE_DONE)
 end
 
-return class("PutFurnitureCommand", pm.SimpleCommand)
+return slot0

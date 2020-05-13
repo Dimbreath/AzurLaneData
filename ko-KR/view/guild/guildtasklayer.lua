@@ -21,10 +21,10 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:displayTasks()
 	onButton(slot0, slot0:findTF("btnBack", slot0.topPanel), function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SOUND_BACK)
 	onButton(slot0, slot0._tf, function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SOUND_BACK)
 end
 
@@ -39,19 +39,23 @@ function slot0.displayTasks(slot0)
 end
 
 function slot0.updateTask(slot0, slot1)
+	slot2 = slot1.id
+	slot3 = slot0.taskTFs[slot2]
 	slot4 = 0
-	slot0.taskList[slot1.id] = slot1
-	slot5 = slot0.taskTFs[slot1.id].transform:Find("frame/left_panel")
+	slot0.taskList[slot2] = slot1
+	slot5 = slot3.transform:Find("frame/left_panel")
 
 	setText(slot5:Find("task_name"), slot1:getConfig("name"))
 	setText(slot5:Find("task_desc"), slot1:getConfig("desc"))
-	removeAllChildren(slot7)
+	removeAllChildren(slot3.transform:Find("frame/right_panel"):Find("rewards_panel"))
 
-	for slot13 = 1, math.min(#slot1:getConfig("award_display"), 3), 1 do
+	for slot13 = 1, math.min(#slot1:getConfig("award_display"), 3) do
+		slot14 = slot8[slot13]
+
 		updateDrop(cloneTplTo(slot0.awardModel, slot7), {
-			type = slot8[slot13][1],
-			id = slot8[slot13][2],
-			count = slot8[slot13][3]
+			type = slot14[1],
+			id = slot14[2],
+			count = slot14[3]
 		})
 	end
 
@@ -73,7 +77,7 @@ function slot0.updateTask(slot0, slot1)
 			slot4 = 2
 
 			onButton(slot0, slot16, function ()
-				slot0:emit(GuildTaskMediator.ON_TASK_SUBMIT, slot0)
+				uv0:emit(GuildTaskMediator.ON_TASK_SUBMIT, uv1)
 			end, SFX_PANEL)
 			slot3:SetAsFirstSibling()
 		end

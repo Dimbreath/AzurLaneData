@@ -532,5 +532,3 @@ pg.month_shop_template = {
 		12
 	}
 }
-
-return

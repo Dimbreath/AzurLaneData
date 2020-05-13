@@ -1,9 +1,9 @@
-class("BYHouseCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot4 = getBackYardProxy(BackYardHouseProxy)
+slot0 = class("BYHouseCommand", pm.SimpleCommand)
 
+function slot0.execute(slot0, slot1)
 	if slot1:getBody().name == BACKYARD.LEVEL_UP then
-		slot4:updateHouseLevel(slot2.level)
+		getBackYardProxy(BackYardHouseProxy):updateHouseLevel(slot2.level)
 	end
 end
 
-return class("BYHouseCommand", pm.SimpleCommand)
+return slot0

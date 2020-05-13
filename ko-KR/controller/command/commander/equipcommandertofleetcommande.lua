@@ -1,4 +1,6 @@
-class("EquipCommanderToFleetCommande", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("EquipCommanderToFleetCommande", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.pos
 	slot5 = slot2.fleetId
@@ -31,18 +33,18 @@ class("EquipCommanderToFleetCommande", pm.SimpleCommand).execute = function (slo
 		commanderid = slot3
 	}, 25007, function (slot0)
 		if slot0.result == 0 then
-			slot0:updateCommanderByPos(slot0.updateCommanderByPos, slot0)
-			slot3:updateFleet(slot0)
+			uv0:updateCommanderByPos(uv1, uv2)
+			uv3:updateFleet(uv0)
 
-			if slot0 then
-				slot4(slot0)
+			if uv4 then
+				uv4(uv0)
 			end
 
-			slot5:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET_DONE)
+			uv5:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET_DONE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_equip_to_fleet_erro", slot0.result))
 		end
 	end)
 end
 
-return class("EquipCommanderToFleetCommande", pm.SimpleCommand)
+return slot0

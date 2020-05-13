@@ -1390,5 +1390,3 @@ pg.pay_data_display = {
 		22
 	}
 }
-
-return

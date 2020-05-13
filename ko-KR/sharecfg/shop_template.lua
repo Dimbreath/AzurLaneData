@@ -27400,5 +27400,3 @@ pg.shop_template = {
 		99029
 	}
 }
-
-return

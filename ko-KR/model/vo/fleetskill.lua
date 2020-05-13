@@ -29,52 +29,52 @@ function slot0.GetSystem(slot0)
 end
 
 function slot0.bindConfigTable(slot0)
-	if slot0:GetSystem() == slot0.SystemCommanderNeko then
+	if slot0:GetSystem() == uv0.SystemCommanderNeko then
 		return pg.commander_skill_effect_template
 	end
 end
 
 function slot0.GetType(slot0)
-	if slot0:GetSystem() == slot0.SystemCommanderNeko then
+	if slot0:GetSystem() == uv0.SystemCommanderNeko then
 		return slot0:getConfig("effect_type")
 	end
 end
 
 function slot0.GetArgs(slot0)
-	if slot0:GetSystem() == slot0.SystemCommanderNeko then
+	if slot0:GetSystem() == uv0.SystemCommanderNeko then
 		return slot0:getConfig("args")
 	end
 end
 
 function slot0.GetTriggers(slot0)
-	if slot0:GetSystem() == slot0.SystemCommanderNeko then
+	if slot0:GetSystem() == uv0.SystemCommanderNeko then
 		return slot0:getConfig("condition")
 	end
 end
 
 function slot0.triggerSkill(slot0, slot1)
-	return _.reduce(slot2, nil, function (slot0, slot1)
-		slot3 = slot1:GetArgs()
-
-		if slot1:GetType() == FleetSkill.TypeBattleBuff then
-			table.insert(slot0 or {}, slot3[1])
-
-			return slot0 or 
-		end
-	end), _.filter(slot0:findSkills(slot1), function (slot0)
-		return _.any(slot1, function (slot0)
+	slot2 = _.filter(slot0:findSkills(slot1), function (slot0)
+		return _.any(slot0:GetTriggers(), function (slot0)
 			return slot0[1] == FleetSkill.TriggerInSubTeam and slot0[2] == 1
-		end) == slot0:getFleetType() == FleetType.Submarine and _.all(slot0:GetTriggers(), function (slot0)
-			return slot0.NoneChapterFleetCheck(slot0.NoneChapterFleetCheck, , slot0)
+		end) == (uv0:getFleetType() == FleetType.Submarine) and _.all(slot0:GetTriggers(), function (slot0)
+			return uv0.NoneChapterFleetCheck(uv1, uv2, slot0)
 		end)
 	end)
+
+	return _.reduce(slot2, nil, function (slot0, slot1)
+		if slot1:GetType() == FleetSkill.TypeBattleBuff then
+			slot0 = slot0 or {}
+
+			table.insert(slot0, slot1:GetArgs()[1])
+
+			return slot0
+		end
+	end), slot2
 end
 
 function slot0.NoneChapterFleetCheck(slot0, slot1, slot2)
-	slot4 = getProxy(BayProxy)
-
 	if slot2[1] == FleetSkill.TriggerDDCount then
-		slot5 = slot4:getShipByTeam(slot0, TeamType.Vanguard)
+		slot5 = getProxy(BayProxy):getShipByTeam(slot0, TeamType.Vanguard)
 
 		return slot2[2] <= #_.filter(fleetShips, function (slot0)
 			return slot0:getShipType() == ShipType.QuZhu
@@ -85,13 +85,11 @@ function slot0.NoneChapterFleetCheck(slot0, slot1, slot2)
 		return slot2[2] <= #slot4:getShipByTeam(slot0, TeamType.Vanguard) and #slot5 <= slot2[3]
 	elseif slot3 == FleetSkill.TriggerShipCount then
 		return slot2[3] <= #_.filter(slot4:getShipsByFleet(slot0), function (slot0)
-			return table.contains(slot0[2], slot0:getShipType())
+			return table.contains(uv0[2], slot0:getShipType())
 		end) and #slot5 <= slot2[4]
 	elseif slot3 == FleetSkill.TriggerNekoPos then
-		slot5 = slot0:findCommanderBySkillId(slot1.id)
-
 		for slot9, slot10 in pairs(slot0:getCommanders()) do
-			if slot5.id == slot10.id and slot9 == slot2[2] then
+			if slot0:findCommanderBySkillId(slot1.id).id == slot10.id and slot9 == slot2[2] then
 				return true
 			end
 		end
@@ -103,21 +101,23 @@ function slot0.NoneChapterFleetCheck(slot0, slot1, slot2)
 end
 
 function slot0.triggerMirrorSkill(slot0, slot1)
-	return _.reduce(slot2, nil, function (slot0, slot1)
-		slot3 = slot1:GetArgs()
-
-		if slot1:GetType() == FleetSkill.TypeBattleBuff then
-			table.insert(slot0 or {}, slot3[1])
-
-			return slot0 or 
-		end
-	end), _.filter(slot0:findSkills(slot1), function (slot0)
-		return _.any(slot1, function (slot0)
+	slot2 = _.filter(slot0:findSkills(slot1), function (slot0)
+		return _.any(slot0:GetTriggers(), function (slot0)
 			return slot0[1] == FleetSkill.TriggerInSubTeam and slot0[2] == 1
-		end) == slot0:getFleetType() == FleetType.Submarine and _.all(slot0:GetTriggers(), function (slot0)
-			return slot0.MirrorFleetCheck(slot0.MirrorFleetCheck, , slot0)
+		end) == (uv0:getFleetType() == FleetType.Submarine) and _.all(slot0:GetTriggers(), function (slot0)
+			return uv0.MirrorFleetCheck(uv1, uv2, slot0)
 		end)
 	end)
+
+	return _.reduce(slot2, nil, function (slot0, slot1)
+		if slot1:GetType() == FleetSkill.TypeBattleBuff then
+			slot0 = slot0 or {}
+
+			table.insert(slot0, slot1:GetArgs()[1])
+
+			return slot0
+		end
+	end), slot2
 end
 
 function slot0.MirrorFleetCheck(slot0, slot1, slot2)
@@ -135,13 +135,11 @@ function slot0.MirrorFleetCheck(slot0, slot1, slot2)
 		return slot2[2] <= #slot0:getShipsByTeam(TeamType.Vanguard, false) and #slot5 <= slot2[3]
 	elseif slot3 == FleetSkill.TriggerShipCount then
 		return slot2[3] <= #_.filter(slot0:getShips(false), function (slot0)
-			return table.contains(slot0[2], slot0:getShipType())
+			return table.contains(uv0[2], slot0:getShipType())
 		end) and #slot5 <= slot2[4]
 	elseif slot3 == FleetSkill.TriggerNekoPos then
-		slot5 = slot0:findCommanderBySkillId(slot1.id)
-
 		for slot9, slot10 in pairs(slot0:getCommanders()) do
-			if slot5.id == slot10.id and slot9 == slot2[2] then
+			if slot0:findCommanderBySkillId(slot1.id).id == slot10.id and slot9 == slot2[2] then
 				return true
 			end
 		end

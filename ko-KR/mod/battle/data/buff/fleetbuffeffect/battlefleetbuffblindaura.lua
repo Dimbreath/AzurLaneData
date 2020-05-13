@@ -1,16 +1,19 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleConst
-ys.Battle.BattleFleetBuffBlindAura = class("BattleFleetBuffBlindAura", ys.Battle.BattleFleetBuffEffect)
-ys.Battle.BattleFleetBuffBlindAura.__name = "BattleFleetBuffBlindAura"
+slot0 = ys
+slot1 = slot0.Battle.BattleConst
+slot0.Battle.BattleFleetBuffBlindAura = class("BattleFleetBuffBlindAura", slot0.Battle.BattleFleetBuffEffect)
+slot0.Battle.BattleFleetBuffBlindAura.__name = "BattleFleetBuffBlindAura"
+slot2 = slot0.Battle.BattleFleetBuffBlindAura
 
-function ys.Battle.BattleFleetBuffBlindAura.Ctor(slot0, slot1)
-	slot0.super.Ctor(slot0, slot1)
+function slot2.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1)
 end
 
-function ys.Battle.BattleFleetBuffBlindAura.SetArgs(slot0, slot1, slot2)
+function slot2.SetArgs(slot0, slot1, slot2)
 	slot3 = slot0._tempData.arg_list.target
-	slot0._aura = slot0.Battle.BattleDataProxy.GetInstance():SpawnLastingCubeArea(slot1.AOEField.SURFACE, slot1:GetIFF(), Vector3(-55, 0, 55), 180, 70, 0, function (slot0)
-		slot1 = slot0:getTargetList(slot0.getTargetList, slot0, slot0._tempData.arg_list)
+	slot0._aura = uv0.Battle.BattleDataProxy.GetInstance():SpawnLastingCubeArea(uv1.AOEField.SURFACE, slot1:GetIFF(), Vector3(-55, 0, 55), 180, 70, 0, function (slot0)
+		slot5 = uv0._tempData.arg_list
+		slot1 = uv0:getTargetList(uv1, uv2, slot5)
 
 		for slot5, slot6 in ipairs(slot0) do
 			if slot6.Active then
@@ -25,7 +28,9 @@ function ys.Battle.BattleFleetBuffBlindAura.SetArgs(slot0, slot1, slot2)
 		end
 	end, function (slot0)
 		if slot0.Active then
-			for slot5, slot6 in ipairs(slot1) do
+			slot5 = uv0._tempData.arg_list
+
+			for slot5, slot6 in ipairs(uv0:getTargetList(uv1, uv2, slot5)) do
 				if slot6:GetUniqueID() == slot0.UID then
 					slot6:SetBlindInvisible(false)
 
@@ -36,12 +41,10 @@ function ys.Battle.BattleFleetBuffBlindAura.SetArgs(slot0, slot1, slot2)
 	end, false)
 end
 
-function ys.Battle.BattleFleetBuffBlindAura.Clear(slot0)
+function slot2.Clear(slot0)
 	slot0._aura:SetActiveFlag(false)
 
 	slot0._aura = nil
 
-	slot0.super.Clear(slot0)
+	uv0.super.Clear(slot0)
 end
-
-return

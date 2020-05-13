@@ -34,7 +34,7 @@ function slot0.init(slot0)
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back")
 
 	onButton(slot0, slot0.fleetBtn, function ()
-		slot0:emit(TechnologyConst.OPEN_TECHNOLOGY_TREE_SCENE)
+		uv0:emit(TechnologyConst.OPEN_TECHNOLOGY_TREE_SCENE)
 	end)
 	onButton(slot0, slot0.helpBtn, function ()
 		if pg.gametip.help_technolog then
@@ -55,16 +55,16 @@ function slot0.didEnter(slot0)
 	slot0:checkSystemOpen("ShipBluePrintMediator", slot0.bluePrintBtn)
 	slot0:checkSystemOpen("TechnologyMediator", slot0.technologyBtn)
 	onButton(slot0, slot0.bluePrintBtn, function ()
-		slot0:emit(SelectTechnologyMediator.ON_BLUEPRINT)
+		uv0:emit(SelectTechnologyMediator.ON_BLUEPRINT)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.technologyBtn, function ()
-		slot0:emit(SelectTechnologyMediator.ON_TECHNOLOGY)
+		uv0:emit(SelectTechnologyMediator.ON_TECHNOLOGY)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
-		slot0:emit(slot1.ON_BACK)
+		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.helpBtn, function ()
-		if pg.gametip[(pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.playerVO.level, "ShipBluePrintMediator") and "help_technolog") or "help_technolog0"] then
+		if pg.gametip[pg.SystemOpenMgr.GetInstance():isOpenSystem(uv0.playerVO.level, "ShipBluePrintMediator") and "help_technolog" or "help_technolog0"] then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
 				helps = pg.gametip[slot1].tip,
@@ -80,7 +80,7 @@ function slot0.checkSystemOpen(slot0, slot1, slot2)
 	setActive(slot0:findTF("word", slot2), slot3)
 	setGray(slot2, not slot3)
 
-	slot2:GetComponent(typeof(Image)).color = Color.New(1, 1, 1, (slot3 and 1) or 0.7)
+	slot2:GetComponent(typeof(Image)).color = Color.New(1, 1, 1, slot3 and 1 or 0.7)
 
 	if slot0:findTF("locked", slot2) then
 		setActive(slot4, false)
@@ -88,9 +88,10 @@ function slot0.checkSystemOpen(slot0, slot1, slot2)
 
 	if not slot3 then
 		if not slot0.LockedTF then
-			cloneTplTo(slot0.lockedTpl, slot2).localPosition = Vector3.zero
+			slot4 = cloneTplTo(slot0.lockedTpl, slot2)
+			slot4.localPosition = Vector3.zero
 
-			setActive(cloneTplTo(slot0.lockedTpl, slot2), true)
+			setActive(slot4, true)
 		else
 			setActive(slot4, false)
 		end

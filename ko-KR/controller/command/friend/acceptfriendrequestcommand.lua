@@ -1,21 +1,22 @@
-class("AcceptFriendRequestCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("AcceptFriendRequestCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = getProxy(FriendProxy)
 
 	function slot5(slot0)
 		pg.ConnectionMgr.GetInstance():Send(50006, {
-			id = slot0
+			id = uv0
 		}, 50007, function (slot0)
 			if slot0.result == 0 then
-				slot1 = getProxy(NotificationProxy)
+				getProxy(NotificationProxy):removeRequest(uv0)
 
-				slot1:removeRequest(slot0)
-
-				if slot1 then
-					slot2:relieveBlackListById(slot0)
+				if uv1 then
+					uv2:relieveBlackListById(uv0)
 				end
 
 				pg.TipsMgr.GetInstance():ShowTips(i18n("friend_add_ok"))
-				pg.TipsMgr.GetInstance():sendNotification(GAME.FRIEND_ACCEPT_REQUEST_DONE, slot0)
+				uv3:sendNotification(GAME.FRIEND_ACCEPT_REQUEST_DONE, uv0)
 			else
 				if slot0.result == 6 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("friend_max_count_1"))
@@ -26,7 +27,7 @@ class("AcceptFriendRequestCommand", pm.SimpleCommand).execute = function (slot0,
 		end)
 	end
 
-	if getProxy(FriendProxy).getFriendCount(slot3) == MAX_FRIEND_COUNT then
+	if slot3:getFriendCount() == MAX_FRIEND_COUNT then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("friend_max_count"))
 
 		return
@@ -36,7 +37,7 @@ class("AcceptFriendRequestCommand", pm.SimpleCommand).execute = function (slot0,
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("friend_relieve_backlist_tip"),
 			onYes = function ()
-				slot0(true)
+				uv0(true)
 			end
 		})
 	else
@@ -44,4 +45,4 @@ class("AcceptFriendRequestCommand", pm.SimpleCommand).execute = function (slot0,
 	end
 end
 
-return class("AcceptFriendRequestCommand", pm.SimpleCommand)
+return slot0

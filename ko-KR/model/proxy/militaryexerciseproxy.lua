@@ -13,12 +13,12 @@ function slot0.register(slot0)
 			table.insert(slot1, Rival.New(slot6))
 		end
 
-		slot2 = slot0:getSeasonInfo()
+		slot2 = uv0:getSeasonInfo()
 
 		slot2:updateScore(slot0.score + SeasonInfo.INIT_POINT)
 		slot2:updateRank(slot0.rank)
 		slot2:updateRivals(slot1)
-		slot0:updateSeasonInfo(slot2)
+		uv0:updateSeasonInfo(slot2)
 
 		slot3 = getProxy(PlayerProxy)
 		slot4 = slot3:getData()
@@ -31,7 +31,7 @@ end
 function slot0.addSeasonInfo(slot0, slot1)
 	slot0.seasonInfo = slot1
 
-	slot0:sendNotification(slot0.SEASON_INFO_ADDED, slot1:clone())
+	slot0:sendNotification(uv0.SEASON_INFO_ADDED, slot1:clone())
 	slot0:addRefreshCountTimer()
 end
 
@@ -39,12 +39,12 @@ function slot0.addRefreshCountTimer(slot0)
 	slot0:removeRefreshTimer()
 
 	function slot1()
-		slot0:sendNotification(GAME.EXERCISE_COUNT_RECOVER_UP)
+		uv0:sendNotification(GAME.EXERCISE_COUNT_RECOVER_UP)
 	end
 
 	if slot0.seasonInfo.resetTime - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
 		slot0.refreshCountTimer = Timer.New(function ()
-			slot0()
+			uv0()
 		end, slot2, 1)
 
 		slot0.refreshCountTimer:Start()
@@ -58,18 +58,18 @@ function slot0.addSeasonOverTimer(slot0)
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MILITARY_EXERCISE) and not slot2:isEnd() then
 		function slot3()
-			slot0:sendNotification(GAME.GET_SEASON_INFO)
-			slot0.sendNotification:removeSeasonOverTimer()
+			uv0:sendNotification(GAME.GET_SEASON_INFO)
+			uv0:removeSeasonOverTimer()
 
-			slot0 = slot0.sendNotification.removeSeasonOverTimer:getSeasonInfo()
+			slot0 = uv0:getSeasonInfo()
 
 			slot0:setExerciseCount(SeasonInfo.RECOVER_UP_COUNT)
-			slot0:updateSeasonInfo(slot0)
+			uv0:updateSeasonInfo(slot0)
 		end
 
 		if slot2.stopTime - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
 			slot0.SeasonOverTimer = Timer.New(function ()
-				slot0()
+				uv0()
 			end, slot5, 1)
 
 			slot0.SeasonOverTimer:Start()
@@ -103,7 +103,7 @@ end
 function slot0.updateSeasonInfo(slot0, slot1)
 	slot0.seasonInfo = slot1
 
-	slot0:sendNotification(slot0.SEASON_INFO_UPDATED, slot1:clone())
+	slot0:sendNotification(uv0.SEASON_INFO_UPDATED, slot1:clone())
 end
 
 function slot0.getSeasonInfo(slot0)
@@ -112,7 +112,7 @@ end
 
 function slot0.updateRivals(slot0, slot1)
 	slot0.seasonInfo:updateRivals(slot1)
-	slot0:sendNotification(slot0.RIVALS_UPDATED, Clone(slot1))
+	slot0:sendNotification(uv0.RIVALS_UPDATED, Clone(slot1))
 end
 
 function slot0.getRivals(slot0)
@@ -141,7 +141,7 @@ end
 
 function slot0.updateExerciseFleet(slot0, slot1)
 	slot0.seasonInfo:updateFleet(slot1)
-	slot0:sendNotification(slot0.EXERCISE_FLEET_UPDATED, slot1:clone())
+	slot0:sendNotification(uv0.EXERCISE_FLEET_UPDATED, slot1:clone())
 end
 
 function slot0.increaseExerciseCount(slot0)
@@ -155,7 +155,7 @@ end
 function slot0.updateArenaRankLsit(slot0, slot1)
 	slot0.arenaRankLsit = slot1
 
-	slot0:sendNotification(slot0.ARENARANK_UPDATED, Clone(slot1))
+	slot0:sendNotification(uv0.ARENARANK_UPDATED, Clone(slot1))
 end
 
 function slot0.getArenaRankList(slot0)
@@ -175,7 +175,11 @@ function slot0.buildRankMsg(slot0)
 		slot8 = nil
 
 		if slot0.RANK_TYPE_LIST[slot6].act_type then
-			for slot12, slot13 in ipairs(slot8) do
+			slot12 = slot7.act_type
+
+			for slot12, slot13 in ipairs(_.filter(slot1:getActivitiesByType(slot12), function (slot0)
+				return not slot0:isEnd() and (uv0.act_type ~= ActivityConst.ACTIVITY_TYPE_PT_RANK or tonumber(slot0:getConfig("config_data")) > 0)
+			end)) do
 				slot0.rankMsgInfo[slot13.id] = {
 					type = slot7.type,
 					act_id = slot13.id,

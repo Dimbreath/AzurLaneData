@@ -40,11 +40,11 @@ slot0.MotionCombinations = {
 }
 
 function slot0.MatchAction(slot0)
-	return slot0.MotionCombinations[slot0] ~= nil
+	return uv0.MotionCombinations[slot0] ~= nil
 end
 
 function slot0.GetMatchAction(slot0)
-	return slot0.MotionCombinations[slot0]
+	return uv0.MotionCombinations[slot0]
 end
 
 function slot0.GetMonsterAction(slot0)

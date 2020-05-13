@@ -1177,5 +1177,3 @@ pg.activity_event_blackwhite = {
 		5
 	}
 }
-
-return

@@ -157,5 +157,3 @@ pg.activity_event_question = {
 		14
 	}
 }
-
-return

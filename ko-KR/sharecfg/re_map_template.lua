@@ -234,5 +234,3 @@ pg.re_map_template = {
 		6
 	}
 }
-
-return

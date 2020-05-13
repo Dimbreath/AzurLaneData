@@ -51,50 +51,44 @@ slot0.TypeRotation = 1
 slot0.TypeFlat = 2
 
 function slot0.Ctor(slot0, slot1, slot2)
-	if not slot2 then
-		slot3 = slot0
-	end
+	uv0 = slot2 or uv0
+	slot0.tf = slot1
+	slot0.propertyTFs = findTF(slot0.tf, "property")
+	slot0.drawTF = findTF(slot0.tf, "property/draw")
+	slot0.drawPolygon = slot0.drawTF:GetComponent("DrawPolygon")
+	slot0.drawTF2 = findTF(slot0.tf, "property/draw_2")
 
-	slot3 = slot2 or slot0
-	slot2 or slot0.tf = slot1
-	slot2 or slot0.propertyTFs = findTF(slot2 or slot0.tf, "property")
-	slot2 or slot0.drawTF = findTF(slot2 or slot0.tf, "property/draw")
-	slot3.drawPolygon = slot2 or slot0.drawTF:GetComponent("DrawPolygon")
-	slot3.drawTF2 = findTF(slot3.tf, "property/draw_2")
-
-	if slot3.drawTF2 then
+	if slot0.drawTF2 then
 		slot0.drawPolygon2 = slot0.drawTF2:GetComponent("DrawPolygon")
 	end
 end
 
 function slot0.initProperty(slot0, slot1, slot2)
-	if not slot2 then
-		slot3 = slot0.TypeRotation
-	end
+	slot0.type = slot2 or uv0.TypeRotation
 
-	slot0.type = slot3
-
-	slot0:initRadar(ShipGroup.GetGroupConfig(slot3).property_hexagon)
+	slot0:initRadar(ShipGroup.GetGroupConfig(Ship.getGroupIdByConfigId(slot1)).property_hexagon)
 end
 
 function slot0.initRadar(slot0, slot1)
 	slot3 = {}
+	slot7 = 0
+	slot8 = 0
 
-	table.insert(slot2, Vector3(0, 0, 0))
+	table.insert({}, Vector3(slot7, slot8, 0))
 
-	for slot7, slot8 in ipairs(slot0) do
-		slot0:setSpriteTo("resources/" .. slot10, slot0.propertyTFs:Find(slot8 .. "_grade").Find(slot9, "grade"), true)
+	for slot7, slot8 in ipairs(uv0) do
+		slot0:setSpriteTo("resources/" .. slot1[slot7], slot0.propertyTFs:Find(slot8 .. "_grade"):Find("grade"), true)
 
-		if slot0.type == slot1.TypeRotation then
+		if slot0.type == uv1.TypeRotation then
 			table.insert(slot2, slot0:getGradeCoordinate(slot10, slot7))
-		elseif slot0.type == slot1.TypeFlat then
+		elseif slot0.type == uv1.TypeFlat then
 			table.insert(slot2, slot0:getGradeCoordinate1(slot10, slot7))
 		end
 
 		table.insert(slot3, 0)
 		table.insert(slot3, slot7)
 
-		if slot7 + 1 > #slot0 then
+		if slot7 + 1 > #uv0 then
 			table.insert(slot3, 1)
 		else
 			table.insert(slot3, slot7 + 1)
@@ -109,26 +103,25 @@ function slot0.initRadar(slot0, slot1)
 end
 
 function slot0.getGradeCoordinate(slot0, slot1, slot2)
-	return Vector3(0.163 * slot0[slot1] * slot1[slot2][1], 0.163 * slot0[slot1] * slot1[slot2][2], 0)
+	return Vector3(0.163 * uv0[slot1] * uv1[slot2][1], 0.163 * uv0[slot1] * uv1[slot2][2], 0)
 end
 
 function slot0.getGradeCoordinate1(slot0, slot1, slot2)
-	slot3 = 0.66 * slot0[slot1]
-
-	if slot2 == slot1 then
-		return Vector3(-slot3 * slot2, 0, 0)
-	elseif slot2 == slot3 then
-		return Vector3(slot3 * slot2, 0, 0)
+	if slot2 == uv1 then
+		return Vector3(-(0.66 * uv0[slot1]) * uv2, 0, 0)
+	elseif slot2 == uv3 then
+		return Vector3(slot3 * uv2, 0, 0)
 	else
-		slot6 = math.sin(math.rad(slot4)) * slot3 * slot2
-		slot7 = math.cos(math.rad(60)) * slot3 * slot2
+		slot4 = 60
+		slot5 = slot3 * uv2
+		slot6 = math.sin(math.rad(slot4)) * slot5
 
-		if slot2 == 60 then
-			slot7 = -slot7
-		elseif slot2 == slot5 then
+		if slot2 == uv4 then
+			slot7 = -(math.cos(math.rad(slot4)) * slot5)
+		elseif slot2 == uv5 then
 			slot7 = -slot7
 			slot6 = -slot6
-		elseif slot2 == slot6 then
+		elseif slot2 == uv6 then
 			slot6 = -slot6
 		end
 

@@ -1,5 +1,6 @@
-class("ShamChangeMyAssistCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	return
+slot0 = class("ShamChangeMyAssistCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 end
 
-return class("ShamChangeMyAssistCommand", pm.SimpleCommand)
+return slot0

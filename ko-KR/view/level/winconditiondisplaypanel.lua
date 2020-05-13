@@ -30,10 +30,10 @@ function slot0.OnInit(slot0)
 
 	setText(slot0.rewardCond, i18n("text_rest_HP"))
 	onButton(slot0, slot0._tf, function ()
-		slot0:Destroy()
+		uv0:Destroy()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()
-		slot0:Destroy()
+		uv0:Destroy()
 	end, SFX_PANEL)
 end
 
@@ -77,44 +77,43 @@ function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	slot7 = false
 
-	for slot11 = 1, #slot4, 1 do
+	for slot11 = 1, #slot4 do
 		slot12 = slot1.listTF:GetChild(slot6[slot11])
-		slot13 = tostring(slot3[slot11] - 1)
 
 		if slot3[slot11] - 1 ~= slot3[slot11 + 1] then
-			slot13 = tostring(slot3[slot11 + 1]) .. "-" .. slot13
+			slot13 = tostring(slot3[slot11 + 1]) .. "-" .. tostring(slot3[slot11] - 1)
 		end
 
 		setText(slot12:Find("text"), slot13)
-		updateDrop(slot12:Find("award"), slot14, {
+		updateDrop(slot12:Find("award"), slot4[slot11], {
 			hideName = true
 		})
 		onButton(slot1, slot12:Find("award"), function ()
-			slot0:emit(BaseUI.ON_DROP, slot0)
+			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
-
-		slot7 = slot7 or slot3[slot11 + 1] <= slot5
-
-		setActive(slot12:Find("mask"), not (not slot7 and slot3[slot11 + 1] <= slot5))
+		setActive(slot12:Find("mask"), not (not (slot7 or slot3[slot11 + 1] <= slot5) and slot3[slot11 + 1] <= slot5))
 	end
 end
 
 function slot0.Show(slot0)
 	pg.UIMgr.GetInstance():BlurCamera(pg.UIMgr.CameraLevel)
-	slot0.super.Show(slot0)
+	uv0.super.Show(slot0)
 end
 
 function slot0.Hide(slot0)
-	slot0.super.Hide(slot0)
+	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurCamera(pg.UIMgr.CameraLevel)
 end
 
 function slot0.Enter(slot0, slot1)
 	setText(slot0.winCondDesc, slot1:getConfig("win_condition_display")[1])
 	setText(slot0.loseCondDesc, slot1:getConfig("lose_condition_display")[1])
-	setActive(slot0.rewardList, slot1:getPlayType() == ChapterConst.TypeDefence)
 
-	if slot1.getPlayType() == ChapterConst.TypeDefence then
+	slot2 = slot1:getPlayType() == ChapterConst.TypeDefence
+
+	setActive(slot0.rewardList, slot2)
+
+	if slot2 then
 		slot0:UpdateRewardList(slot1)
 	end
 
@@ -127,11 +126,11 @@ function slot0.UpdateRewardList(slot0, slot1)
 		return
 	end
 
-	table.insert(slot4, 1, slot3.port_hp + 1)
+	table.insert(Clone(slot3.score), 1, slot3.port_hp + 1)
 
 	slot5 = {}
 
-	for slot9, slot10 in ipairs(slot0) do
+	for slot9, slot10 in ipairs(uv0) do
 		if #slot3["evaluation_display_" .. slot10] > 0 then
 			table.insert(slot5, {
 				type = slot11[1],

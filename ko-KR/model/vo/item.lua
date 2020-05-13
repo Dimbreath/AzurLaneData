@@ -24,6 +24,7 @@ function slot0.GetIcon(slot0, slot1)
 	elseif slot0 == DROP_TYPE_ITEM then
 		return itemId2icon(slot1)
 	elseif slot0 == DROP_TYPE_WORLD_RESOURCE then
+		-- Nothing
 	elseif slot0 == DROP_TYPE_WORLD_ITEM then
 		return pg.world_item_data_template[slot1].icon
 	end
@@ -39,17 +40,17 @@ function slot0.Ctor(slot0, slot1)
 	slot2 = pg.item_data_template[slot0.configId]
 	slot0.itemConfigData = setmetatable({}, {
 		__index = function (slot0, slot1)
-			if not slot0 then
+			if not uv0 then
 				return nil
 			end
 
-			return slot0[slot1]
+			return uv0[slot1]
 		end
 	})
 end
 
 function slot0.CanOpen(slot0)
-	return slot0:getConfig("type") == slot0.EQUIPMENT_BOX_TYPE_5 or slot1 == slot0.EQUIPMENT_SKIN_BOX or slot1 == slot0.GOLD_BOX_TYPE or slot1 == slot0.OIL_BOX_TYPE or slot1 == slot0.GIFT_BOX
+	return slot0:getConfig("type") == uv0.EQUIPMENT_BOX_TYPE_5 or slot1 == uv0.EQUIPMENT_SKIN_BOX or slot1 == uv0.GOLD_BOX_TYPE or slot1 == uv0.OIL_BOX_TYPE or slot1 == uv0.GIFT_BOX
 end
 
 function slot0.bindConfigTable(slot0)
@@ -89,11 +90,11 @@ function slot0.getTempConfig(slot0, slot1)
 end
 
 function slot0.isEquipmentSkinBox(slot0)
-	return slot0:getConfig("type") == slot0.EQUIPMENT_SKIN_BOX
+	return slot0:getConfig("type") == uv0.EQUIPMENT_SKIN_BOX
 end
 
 function slot0.isBluePrintType(slot0)
-	return slot0:getConfig("type") == slot0.BLUEPRINT_TYPE
+	return slot0:getConfig("type") == uv0.BLUEPRINT_TYPE
 end
 
 return slot0

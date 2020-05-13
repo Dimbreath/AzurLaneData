@@ -40,7 +40,7 @@ function slot5(slot0)
 		slot0 = nil
 	end
 
-	return slot0(loadfile(slot0))
+	return uv0(loadfile(slot0))
 end
 
 function slot6(slot0, slot1)
@@ -48,7 +48,7 @@ function slot6(slot0, slot1)
 		return io.stdout
 	end
 
-	return slot0(io.open(slot0, slot1))
+	return uv0(io.open(slot0, slot1))
 end
 
 slot7 = {
@@ -80,29 +80,25 @@ slot9 = {
 }
 
 function slot10(slot0, slot1, slot2)
-	return (slot0(slot1[string.lower(slot0)], "unknown ", slot2) == true and slot0) or slot3
+	return uv0(slot1[string.lower(slot0)], "unknown ", slot2) == true and slot0 or slot3
 end
 
 function slot11(slot0)
-	return slot0[string.match(string.lower(slot0), "%.(%a+)$")] or "raw"
+	return uv0[string.match(string.lower(slot0), "%.(%a+)$")] or "raw"
 end
 
 function slot12(slot0)
-	slot0(string.match(slot0, "^[%w_.%-]+$"), "bad module name")
+	uv0(string.match(slot0, "^[%w_.%-]+$"), "bad module name")
 
 	return string.gsub(slot0, "[%.%-]", "_")
 end
 
 function slot13(slot0)
+	slot0 = (type(slot0) ~= "string" or string.match(slot2, "^[%w_.%-]+")) and nil
 
-	-- Decompilation error in this vicinity:
-	(type(slot0) ~= "string" or string.match(slot0, "^[%w_.%-]+")) and nil(
-	-- Decompilation error in this vicinity:
-	(type(slot0) ~= "string" or string.match(slot0, "^[%w_.%-]+")) and nil, "cannot derive module name, use -n name")
+	uv0(slot0, "cannot derive module name, use -n name")
 
-	return string.gsub(
-	-- Decompilation error in this vicinity:
-	(type(slot0) ~= "string" or string.match(slot0, "^[%w_.%-]+")) and nil, "[%.%-]", "_")
+	return string.gsub(slot0, "[%.%-]", "_")
 end
 
 function slot14(slot0, slot1, slot2)
@@ -112,18 +108,16 @@ function slot14(slot0, slot1, slot2)
 		slot3, slot4 = slot0:close()
 	end
 
-	slot0(slot3, "cannot write ", slot1, ": ", slot4)
+	uv0(slot3, "cannot write ", slot1, ": ", slot4)
 end
 
 function slot15(slot0, slot1)
-	slot1(slot0(slot0, "wb"), slot0, slot1)
+	uv1(uv0(slot0, "wb"), slot0, slot1)
 end
 
 function slot16(slot0, slot1, slot2)
-	slot3 = slot0(slot1, "w")
-
 	if slot0.type == "c" then
-		slot3:write(string.format([[
+		uv0(slot1, "w"):write(string.format([[
 #ifdef _cplusplus
 extern "C"
 #endif
@@ -131,18 +125,16 @@ extern "C"
 __declspec(dllexport)
 #endif
 const unsigned char %s%s[] = {
-]], slot1, slot0.modname))
+]], uv1, slot0.modname))
 	else
-		slot3:write(string.format("#define %s%s_SIZE %d\nstatic const unsigned char %s%s[] = {\n", slot1, slot0.modname, #slot2, slot1, slot0.modname))
+		slot3:write(string.format("#define %s%s_SIZE %d\nstatic const unsigned char %s%s[] = {\n", uv1, slot0.modname, #slot2, uv1, slot0.modname))
 	end
 
 	slot4 = {}
-	slot5 = 0
-	slot6 = 0
 
-	for slot10 = 1, #slot2, 1 do
-		if slot6 + #tostring(string.byte(slot2, slot10)) + 1 > 78 then
-			slot3:write(table.concat(slot4, ",", 1, slot5), ",\n")
+	for slot10 = 1, #slot2 do
+		if 0 + #tostring(string.byte(slot2, slot10)) + 1 > 78 then
+			slot3:write(table.concat(slot4, ",", 1, 0), ",\n")
 
 			slot6 = #slot11 + 1
 			slot5 = 0
@@ -151,7 +143,7 @@ const unsigned char %s%s[] = {
 		slot4[slot5 + 1] = slot11
 	end
 
-	slot2(slot3, slot1, table.concat(slot4, ",", 1, slot5) .. "\n};\n")
+	uv2(slot3, slot1, table.concat(slot4, ",", 1, slot5) .. "\n};\n")
 end
 
 function slot17(slot0, slot1, slot2, slot3)
@@ -206,7 +198,7 @@ typedef struct {
 } ELF64obj;
 ]])
 
-	slot4 = slot0 .. slot0.modname
+	slot4 = uv0 .. slot0.modname
 	slot5 = false
 	slot6 = false
 
@@ -216,40 +208,37 @@ typedef struct {
 		slot6 = true
 	end
 
-	function slot8(slot0)
+	function slot7(slot0)
 		return slot0
 	end
 
-	function slot9(slot0)
-		return slot0
-	end
+	slot8 = slot7
+	slot9 = slot7
 
 	if slot3.abi("be") ~= slot6 then
-		slot7 = slot1.bswap
+		slot7 = uv1.bswap
 
 		function slot8(slot0)
-			return slot0.rshift(slot0:bswap(), 16)
+			return uv0.rshift(uv0.bswap(slot0), 16)
 		end
 
 		if slot5 then
 			slot10 = slot3.cast("int64_t", 4294967296.0)
 
 			function slot9(slot0)
-				return slot0:bswap() * 
+				return uv0.bswap(slot0) * uv1
 			end
 		else
 			slot9 = slot7
 		end
 	end
 
-	slot11 = slot3.new((slot5 and "ELF64obj") or "ELF32obj").hdr
-
 	if slot0.os == "bsd" or slot0.os == "other" then
 		slot12 = assert(io.open("/bin/ls", "rb"))
 
 		slot12:close()
 		slot3.copy(slot10, slot12:read(9), 9)
-		slot2(slot11.emagic[0] == 127, "no support for writing native object files")
+		uv2(slot3.new(slot5 and "ELF64obj" or "ELF32obj").hdr.emagic[0] == 127, "no support for writing native object files")
 	else
 		slot11.emagic = "ELF"
 		slot11.eosabi = ({
@@ -260,8 +249,8 @@ typedef struct {
 		})[slot0.os] or 0
 	end
 
-	slot11.eclass = (slot5 and 2) or 1
-	slot11.eendian = (slot6 and 2) or 1
+	slot11.eclass = slot5 and 2 or 1
+	slot11.eendian = slot6 and 2 or 1
 	slot11.eversion = 1
 	slot11.type = slot8(1)
 	slot11.machine = slot8(({
@@ -295,8 +284,9 @@ typedef struct {
 		".rodata",
 		".note.GNU-stack"
 	}) do
-		slot10.sect[slot17].align = slot9(1)
-		slot10.sect[slot17].name = slot7(slot13)
+		slot19 = slot10.sect[slot17]
+		slot19.align = slot9(1)
+		slot19.name = slot7(slot13)
 
 		slot3.copy(slot10.space + slot13, slot18)
 
@@ -323,16 +313,17 @@ typedef struct {
 
 	slot3.copy(slot10.space + slot13 + 1, slot4)
 
+	slot13 = slot13 + #slot4 + 2
 	slot10.sect[4].type = slot7(1)
 	slot10.sect[4].flags = slot9(2)
-	slot10.sect[4].ofs = slot9(slot12 + slot13 + #slot4 + 2)
+	slot10.sect[4].ofs = slot9(slot12 + slot13)
 	slot10.sect[4].size = slot9(#slot2)
 	slot10.sect[5].type = slot7(1)
-	slot10.sect[5].ofs = slot9(slot12 + slot13 + #slot4 + 2 + #slot2)
-	slot14 = slot3(slot1, "wb")
+	slot10.sect[5].ofs = slot9(slot12 + slot13 + #slot2)
+	slot14 = uv3(slot1, "wb")
 
-	slot14:write(slot3.string(slot10, slot3.sizeof(slot10) - 4096 + slot13 + #slot4 + 2))
-	slot4(slot14, slot1, slot2)
+	slot14:write(slot3.string(slot10, slot3.sizeof(slot10) - 4096 + slot13))
+	uv4(slot14, slot1, slot2)
 end
 
 function slot18(slot0, slot1, slot2, slot3)
@@ -380,11 +371,10 @@ typedef struct {
 } PEobj;
 ]])
 
-	slot4 = slot0 .. slot0.modname
 	slot5 = false
 
 	if slot0.arch == "x86" then
-		slot4 = "_" .. slot4
+		slot4 = "_" .. (uv0 .. slot0.modname)
 	elseif slot0.arch == "x64" then
 		slot5 = true
 	end
@@ -396,15 +386,16 @@ typedef struct {
 	end
 
 	if slot3.abi("be") then
-		slot7 = slot1.bswap
+		slot7 = uv1.bswap
 
 		function slot8(slot0)
-			return slot0.rshift(slot0:bswap(), 16)
+			return uv0.rshift(uv0.bswap(slot0), 16)
 		end
 	end
 
 	slot9 = slot3.new("PEobj")
-	slot9.hdr.arch = slot8(({
+	slot10 = slot9.hdr
+	slot10.arch = slot8(({
 		arm = 448,
 		ppc = 498,
 		mips = 870,
@@ -412,9 +403,9 @@ typedef struct {
 		x64 = 34404,
 		x86 = 332
 	})[slot0.arch])
-	slot9.hdr.nsects = slot8(2)
-	slot9.hdr.symtabofs = slot7(slot3.offsetof(slot9, "sym0"))
-	slot9.hdr.nsyms = slot7(6)
+	slot10.nsects = slot8(2)
+	slot10.symtabofs = slot7(slot3.offsetof(slot9, "sym0"))
+	slot10.nsyms = slot7(6)
 	slot9.sect[0].name = ".drectve"
 	slot9.sect[0].size = slot7(#slot6)
 	slot9.sect[0].flags = slot7(1051136)
@@ -441,16 +432,18 @@ typedef struct {
 
 	slot3.copy(slot9.space, slot4)
 
-	slot9.strtabsize = slot7(#slot4 + 1 + 4)
-	slot9.sect[0].ofs = slot7(slot3.offsetof(slot9, "space") + #slot4 + 1)
+	slot11 = #slot4 + 1
+	slot9.strtabsize = slot7(slot11 + 4)
+	slot9.sect[0].ofs = slot7(slot3.offsetof(slot9, "space") + slot11)
 
-	slot3.copy(slot9.space + #slot4 + 1, slot6)
+	slot3.copy(slot9.space + slot11, slot6)
 
-	slot9.sect[1].ofs = slot7(slot3.offsetof(slot9, "space") + #slot4 + 1 + #slot6)
-	slot12 = slot2(slot1, "wb")
+	slot11 = slot11 + #slot6
+	slot9.sect[1].ofs = slot7(slot3.offsetof(slot9, "space") + slot11)
+	slot12 = uv2(slot1, "wb")
 
-	slot12:write(slot3.string(slot9, slot3.sizeof(slot9) - 4096 + #slot4 + 1 + #slot6))
-	slot3(slot12, slot1, slot2)
+	slot12:write(slot3.string(slot9, slot3.sizeof(slot9) - 4096 + slot11))
+	uv3(slot12, slot1, slot2)
 end
 
 function slot19(slot0, slot1, slot2, slot3)
@@ -544,7 +537,7 @@ typedef struct {
 } mach_fat_obj;
 ]])
 
-	slot4 = "_" .. slot0 .. slot0.modname
+	slot4 = "_" .. uv0 .. slot0.modname
 	slot5 = false
 	slot6 = false
 	slot7 = 4
@@ -563,11 +556,13 @@ typedef struct {
 		slot7 = 8
 		slot6 = true
 	else
-		slot1(slot0.arch == "x86", "unsupported architecture for OSX")
+		uv1(slot0.arch == "x86", "unsupported architecture for OSX")
 	end
 
-	slot10 = slot2.bswap
-	slot12 = slot9(slot3.offsetof(slot11, "space") + #slot4 + 2, slot7)
+	slot10 = uv2.bswap
+	slot12 = function (slot0, slot1)
+		return uv0.band(slot0 + slot1 - 1, -slot1)
+	end(slot3.offsetof(slot3.new(slot8), "space") + #slot4 + 2, slot7)
 	slot13 = ({
 		x86 = {
 			7
@@ -606,23 +601,25 @@ typedef struct {
 		slot11.fat.nfat_arch = slot10(#slot14)
 	end
 
-	for slot18 = 0, #slot14 - 1, 1 do
+	for slot18 = 0, #slot14 - 1 do
 		slot19 = 0
 
 		if slot5 then
-			slot11.fat_arch[slot18].cputype = slot10(slot13[slot18 + 1])
-			slot11.fat_arch[slot18].cpusubtype = slot10(slot14[slot18 + 1])
-			slot11.fat_arch[slot18].offset = slot10(slot19)
-			slot11.fat_arch[slot18].size = slot10(slot12 - (slot3.offsetof(slot11, "arch") + slot18 * slot3.sizeof(slot11.arch[0])) + #slot2)
+			slot20 = slot11.fat_arch[slot18]
+			slot20.cputype = slot10(slot13[slot18 + 1])
+			slot20.cpusubtype = slot10(slot14[slot18 + 1])
+			slot19 = slot3.offsetof(slot11, "arch") + slot18 * slot3.sizeof(slot11.arch[0])
+			slot20.offset = slot10(slot19)
+			slot20.size = slot10(slot12 - slot19 + #slot2)
 		end
 
-		slot11.arch[slot18].hdr.magic = (slot6 and 4277009103.0) or 4277009102.0
+		slot11.arch[slot18].hdr.magic = slot6 and 4277009103.0 or 4277009102.0
 		slot20.hdr.cputype = slot13[slot18 + 1]
 		slot20.hdr.cpusubtype = slot14[slot18 + 1]
 		slot20.hdr.filetype = 1
 		slot20.hdr.ncmds = 2
 		slot20.hdr.sizeofcmds = slot3.sizeof(slot20.seg) + slot3.sizeof(slot20.sec) + slot3.sizeof(slot20.sym)
-		slot20.seg.cmd = (slot6 and 25) or 1
+		slot20.seg.cmd = slot6 and 25 or 1
 		slot20.seg.cmdsize = slot3.sizeof(slot20.seg) + slot3.sizeof(slot20.sec)
 		slot20.seg.vmsize = #slot2
 		slot20.seg.fileoff = slot12 - slot19
@@ -640,7 +637,7 @@ typedef struct {
 		slot20.sym.cmdsize = slot3.sizeof(slot20.sym)
 		slot20.sym.symoff = slot3.offsetof(slot11, "sym_entry") - slot19
 		slot20.sym.nsyms = 1
-		slot20.sym.stroff = (slot3.offsetof(slot11, "sym_entry") + slot3.sizeof(slot11.sym_entry)) - slot19
+		slot20.sym.stroff = slot3.offsetof(slot11, "sym_entry") + slot3.sizeof(slot11.sym_entry) - slot19
 		slot20.sym.strsize = slot9(#slot4 + 2, slot7)
 	end
 
@@ -650,62 +647,65 @@ typedef struct {
 
 	slot3.copy(slot11.space + 1, slot4)
 
-	slot15 = slot3(slot1, "wb")
+	slot15 = uv3(slot1, "wb")
 
 	slot15:write(slot3.string(slot11, slot12))
-	slot4(slot15, slot1, slot2)
+	uv4(slot15, slot1, slot2)
 end
 
 function slot20(slot0, slot1, slot2)
-	slot6, slot4 = pcall(require, "ffi")
+	slot3, slot4 = pcall(require, "ffi")
 
-	slot0(slot3, "FFI library required to write this file type")
+	uv0(slot3, "FFI library required to write this file type")
 
 	if slot0.os == "windows" then
-		return slot1(slot0, slot1, slot2, slot4)
+		return uv1(slot0, slot1, slot2, slot4)
 	elseif slot0.os == "osx" then
-		return slot2(slot0, slot1, slot2, slot4)
+		return uv2(slot0, slot1, slot2, slot4)
 	else
-		return slot3(slot0, slot1, slot2, slot4)
+		return uv3(slot0, slot1, slot2, slot4)
 	end
 end
 
 function slot21(slot0, slot1)
-	require("jit.bc").dump(slot0(slot0), slot1(slot1, "w"), true)
+	require("jit.bc").dump(uv0(slot0), uv1(slot1, "w"), true)
 end
 
 function slot22(slot0, slot1, slot2)
-	slot4 = string.dump(slot3, slot0.strip)
+	slot4 = string.dump(uv0(slot1), slot0.strip)
 
 	if not slot0.type then
-		slot0.type = slot1(slot2)
+		slot0.type = uv1(slot2)
 	end
 
 	if slot5 == "raw" then
-		slot2(slot2, slot4)
+		uv2(slot2, slot4)
 	else
 		if not slot0.modname then
-			slot0.modname = slot3(slot1)
+			slot0.modname = uv3(slot1)
 		end
 
 		if slot5 == "obj" then
-			slot4(slot0, slot2, slot4)
+			uv4(slot0, slot2, slot4)
 		else
-			slot5(slot0, slot2, slot4)
+			uv5(slot0, slot2, slot4)
 		end
 	end
 end
 
 return {
 	start = function (...)
+		slot0 = {
+			...
+		}
 		slot1 = 1
 		slot2 = false
 		slot3 = {
 			modname = false,
 			strip = true,
 			type = false,
-			arch = slot0.arch,
-			os = string.lower(slot0.os)
+			arch = uv0.arch,
+			os = string.lower(uv0.os)
 		}
 
 		while slot1 <= #slot0 do
@@ -716,7 +716,7 @@ return {
 					break
 				end
 
-				for slot8 = 2, #slot4, 1 do
+				for slot8 = 2, #slot4 do
 					if string.sub(slot4, slot8, slot8) == "l" then
 						slot2 = true
 					elseif slot9 == "s" then
@@ -725,25 +725,25 @@ return {
 						slot3.strip = false
 					else
 						if slot0[slot1] == nil or slot8 ~= #slot4 then
-							slot1()
+							uv1()
 						end
 
 						if slot9 == "e" then
 							if slot1 ~= 1 then
-								slot1()
+								uv1()
 							end
 
-							slot0[1] = slot2(loadstring(slot0[1]))
+							slot0[1] = uv2(loadstring(slot0[1]))
 						elseif slot9 == "n" then
-							slot3.modname = slot3(table.remove(slot0, slot1))
+							slot3.modname = uv3(table.remove(slot0, slot1))
 						elseif slot9 == "t" then
-							slot3.type = slot4(table.remove(slot0, slot1), slot5, "file type")
+							slot3.type = uv4(table.remove(slot0, slot1), uv5, "file type")
 						elseif slot9 == "a" then
-							slot3.arch = slot4(table.remove(slot0, slot1), slot6, "architecture")
+							slot3.arch = uv4(table.remove(slot0, slot1), uv6, "architecture")
 						elseif slot9 == "o" then
-							slot3.os = slot4(table.remove(slot0, slot1), slot7, "OS name")
+							slot3.os = uv4(table.remove(slot0, slot1), uv7, "OS name")
 						else
-							slot1()
+							uv1()
 						end
 					end
 				end
@@ -754,16 +754,16 @@ return {
 
 		if slot2 then
 			if #slot0 == 0 or #slot0 > 2 then
-				slot1()
+				uv1()
 			end
 
-			slot8(slot0[1], slot0[2] or "-")
+			uv8(slot0[1], slot0[2] or "-")
 		else
 			if #slot0 ~= 2 then
-				slot1()
+				uv1()
 			end
 
-			slot9(slot3, slot0[1], slot0[2])
+			uv9(slot3, slot0[1], slot0[2])
 		end
 	end
 }

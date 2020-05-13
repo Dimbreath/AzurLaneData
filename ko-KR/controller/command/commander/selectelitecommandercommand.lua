@@ -1,13 +1,13 @@
-class("SelectEliteCommanderCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("SelectEliteCommanderCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot4 = slot2.index
-	slot5 = slot2.pos
 	slot7 = slot2.callback
 	slot8 = getProxy(ChapterProxy)
-	slot10 = slot8:getSameMapChapters(slot8:getChapterById(slot3))
+	slot10 = slot8:getSameMapChapters(slot8:getChapterById(slot2.chapterId))
 
 	if slot2.commanderId then
-		slot11, slot12 = Commander.canEquipToEliteChapter(slot3, slot4, slot5, slot6)
+		slot11, slot12 = Commander.canEquipToEliteChapter(slot3, slot2.index, slot2.pos, slot6)
 
 		if not slot11 then
 			pg.TipsMgr.GetInstance():ShowTips(slot12)
@@ -29,4 +29,4 @@ class("SelectEliteCommanderCommand", pm.SimpleCommand).execute = function (slot0
 	end
 end
 
-return class("SelectEliteCommanderCommand", pm.SimpleCommand)
+return slot0

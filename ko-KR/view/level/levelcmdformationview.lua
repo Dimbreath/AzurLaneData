@@ -43,20 +43,20 @@ function slot0.InitUI(slot0)
 	slot0.recordList = UIItemList.New(slot0.recordPanel:Find("record/content"), slot0.recordPanel:Find("record/content/commanders"))
 
 	onButton(slot0, slot0.restAllBtn, function ()
-		if slot0.callback then
-			slot0.callback({
+		if uv0.callback then
+			uv0.callback({
 				type = LevelUIConst.COMMANDER_OP_REST_ALL
 			})
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.quickBtn, function ()
-		slot0:OpenRecordPanel()
+		uv0:OpenRecordPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.recordPanel, function ()
-		slot0:CloseRecordPanel()
+		uv0:CloseRecordPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf, function ()
-		slot0:close()
+		uv0:close()
 	end, SFX_PANEL)
 end
 
@@ -86,11 +86,11 @@ function slot0.updatePrefabs(slot0, slot1)
 end
 
 function slot0.updateRecordFleet(slot0)
-	slot1 = slot0.fleet:getCommanders()
-
 	for slot5, slot6 in ipairs(slot0.recordCommanders) do
-		slot0:updateCommander(slot6, slot5, slot1[slot5])
-		slot0:updateSkillTF(slot1[slot5], slot0.reocrdSkills[slot5])
+		slot7 = slot0.fleet:getCommanders()[slot5]
+
+		slot0:updateCommander(slot6, slot5, slot7)
+		slot0:updateSkillTF(slot7, slot0.reocrdSkills[slot5])
 	end
 end
 
@@ -99,54 +99,57 @@ function slot0.updateRecordPanel(slot0)
 
 	slot0.recordList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot0:UpdatePrefabFleet(slot0.prefabFleets[slot1 + 1], slot2, slot1)
+			uv0:UpdatePrefabFleet(uv0.prefabFleets[slot1 + 1], slot2, uv1)
 		end
 	end)
 	slot0.recordList:align(#slot0.prefabFleets)
 end
 
 function slot0.UpdatePrefabFleet(slot0, slot1, slot2, slot3)
-	onInputEndEdit(slot0, slot4, function ()
-		slot0 = getInputText(getInputText)
+	slot4 = slot2:Find("fleet_name")
 
-		if getInputText.callback then
-			slot1.callback({
+	onInputEndEdit(slot0, slot4, function ()
+		if uv1.callback then
+			uv1.callback({
 				type = LevelUIConst.COMMANDER_OP_RENAME,
-				id = slot2.id,
-				str = slot0,
+				id = uv2.id,
+				str = getInputText(uv0),
 				onFailed = function ()
-					setInputText(setInputText, )
+					setInputText(uv0, uv1)
 				end
 			})
 		end
 	end)
-	setInputText(slot4, slot5)
+	setInputText(slot4, slot1:getName())
 	onButton(slot0, slot2:Find("use_btn"), function ()
-		if slot0.callback then
-			slot0.callback({
+		if uv0.callback then
+			uv0.callback({
 				type = LevelUIConst.COMMANDER_OP_USE_PREFAB,
-				id = slot1.id
+				id = uv1.id
 			})
-			slot0.callback:CloseRecordPanel()
+			uv0:CloseRecordPanel()
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot2:Find("record_btn"), function ()
-		if slot0.callback then
-			slot0.callback({
+		if uv0.callback then
+			uv0.callback({
 				type = LevelUIConst.COMMANDER_OP_RECORD_PREFAB,
-				id = slot1.id
+				id = uv1.id
 			})
 		end
 	end, SFX_PANEL)
 
-	slot7 = {
-		slot2:Find("commander1/skill_info"),
-		slot2:Find("commander2/skill_info")
-	}
+	for slot11, slot12 in ipairs({
+		slot2:Find("commander1/frame/info"),
+		slot2:Find("commander2/frame/info")
+	}) do
+		slot13 = slot1:getCommanderByPos(slot11)
 
-	for slot11, slot12 in ipairs(slot6) do
-		slot0:updateCommander(slot12, slot11, slot1:getCommanderByPos(slot11))
-		slot0:updateSkillTF(slot1.getCommanderByPos(slot11), slot7[slot11])
+		slot0:updateCommander(slot12, slot11, slot13)
+		slot0:updateSkillTF(slot13, ({
+			slot2:Find("commander1/skill_info"),
+			slot2:Find("commander2/skill_info")
+		})[slot11])
 	end
 end
 
@@ -167,24 +170,28 @@ function slot0.close(slot0)
 end
 
 function slot0.updateDesc(slot0)
-	slot1 = slot0.fleet:getCommanders()
+	for slot5 = 1, CommanderConst.MAX_FORMATION_POS do
+		slot6 = slot0.fleet:getCommanders()[slot5]
 
-	for slot5 = 1, CommanderConst.MAX_FORMATION_POS, 1 do
 		slot0:updateCommander(slot0["descPos" .. slot5], slot5, slot6)
-		slot0:updateSkillTF(slot1[slot5], slot0["skillTFPos" .. slot5])
+		slot0:updateSkillTF(slot6, slot0["skillTFPos" .. slot5])
 	end
 
 	slot0:updateAdditions()
 end
 
 function slot0.updateAdditions(slot0)
-	slot3, slot4 = slot0.fleet.getCommandersAddition(slot1)
+	slot1 = slot0.fleet
+	slot2 = _.values(slot1:getCommandersTalentDesc())
+	slot3, slot4 = slot1:getCommandersAddition()
 
 	slot0.abilitysTF:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setText(slot2:Find("name"), AttributeType.Type2Name(slot0[slot1 + 1].attrName))
-			setText(slot2:Find("Text"), string.format("%0.3f", slot0[slot1 + 1].value) .. "%")
-			GetImageSpriteFromAtlasAsync("attricon", slot0[slot1 + 1].attrName, slot2:Find("icon"), false)
+			slot3 = uv0[slot1 + 1]
+
+			setText(slot2:Find("name"), AttributeType.Type2Name(slot3.attrName))
+			setText(slot2:Find("Text"), string.format("%0.3f", slot3.value) .. "%")
+			GetImageSpriteFromAtlasAsync("attricon", slot3.attrName, slot2:Find("icon"), false)
 			setImageAlpha(slot2:Find("bg"), slot1 % 2)
 		end
 	end)
@@ -192,27 +199,29 @@ function slot0.updateAdditions(slot0)
 	setActive(slot0.abilityArr, #slot3 > 4)
 	slot0.talentsTF:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = slot0[slot1 + 1]
+			slot3 = uv0[slot1 + 1]
 
-			if not slot1.talentsTextList[slot1 + 1] then
-				slot1.talentsTextList[slot1 + 1] = ScrollTxt.New(findTF(slot2, "name_mask"), findTF(slot2, "name_mask/name"), true)
+			if not uv1.talentsTextList[slot1 + 1] then
+				uv1.talentsTextList[slot1 + 1] = ScrollTxt.New(findTF(slot2, "name_mask"), findTF(slot2, "name_mask/name"), true)
 			end
 
-			slot1.talentsTextList[slot1 + 1]:setText(slot3.name)
-			setText(slot2:Find("Text"), slot3.value .. ((slot3.type == CommanderConst.TALENT_ADDITION_RATIO and "%") or ""))
+			uv1.talentsTextList[slot1 + 1]:setText(slot3.name)
+			setText(slot2:Find("Text"), slot3.value .. (slot3.type == CommanderConst.TALENT_ADDITION_RATIO and "%" or ""))
 			setImageAlpha(slot2:Find("bg"), slot1 % 2)
 		end
 	end)
-	slot0.talentsTF:align(#_.values(slot0.fleet.getCommandersTalentDesc(slot1)))
-	setActive(slot0.talentsArr, #_.values(slot0.fleet.getCommandersTalentDesc(slot1)) > 4)
+	slot0.talentsTF:align(#slot2)
+	setActive(slot0.talentsArr, #slot2 > 4)
 end
 
 function slot0.updateSkillTF(slot0, slot1, slot2)
 	setActive(slot2, slot1)
 
 	if slot1 then
-		GetImageSpriteFromAtlasAsync("CommanderSkillIcon/" .. slot1:getSkills()[1].getConfig(slot3, "icon"), "", slot2:Find("icon"))
-		setText(slot2:Find("level"), "Lv." .. slot1.getSkills()[1]:getLevel())
+		slot3 = slot1:getSkills()[1]
+
+		GetImageSpriteFromAtlasAsync("CommanderSkillIcon/" .. slot3:getConfig("icon"), "", slot2:Find("icon"))
+		setText(slot2:Find("level"), "Lv." .. slot3:getLevel())
 	end
 end
 
@@ -233,18 +242,18 @@ function slot0.updateCommander(slot0, slot1, slot2, slot3)
 	end
 
 	onButton(slot0, slot5, function ()
-		if slot0.callback then
-			slot0.callback({
+		if uv0.callback then
+			uv0.callback({
 				type = LevelUIConst.COMMANDER_OP_ADD,
-				pos = 
+				pos = uv1
 			})
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot4, function ()
-		if slot0.callback then
-			slot0.callback({
+		if uv0.callback then
+			uv0.callback({
 				type = LevelUIConst.COMMANDER_OP_ADD,
-				pos = 
+				pos = uv1
 			})
 		end
 	end, SFX_PANEL)

@@ -1,18 +1,20 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleConfig
-slot2 = ys.Battle.BattleVariable
-ys.Battle.BattleCameraFollowGesture = class("BattleCameraFollowGesture")
-ys.Battle.BattleCameraFollowGesture.__name = "BattleCameraFollowGesture"
+slot0 = ys
+slot1 = slot0.Battle.BattleConfig
+slot2 = slot0.Battle.BattleVariable
+slot0.Battle.BattleCameraFollowGesture = class("BattleCameraFollowGesture")
+slot0.Battle.BattleCameraFollowGesture.__name = "BattleCameraFollowGesture"
+slot3 = slot0.Battle.BattleCameraFollowGesture
 
-function ys.Battle.BattleCameraFollowGesture.Ctor(slot0)
+function slot3.Ctor(slot0)
 	slot0._point = Vector3.zero
 end
 
-function ys.Battle.BattleCameraFollowGesture.SetGestureComponent(slot0, slot1)
+function slot3.SetGestureComponent(slot0, slot1)
 	slot0._slider = slot1
 end
 
-function ys.Battle.BattleCameraFollowGesture.GetCameraPos(slot0, slot1)
+function slot3.GetCameraPos(slot0, slot1)
 	if slot0._slider:IsPress() then
 		slot0._pressPoint = slot0._pressPoint or slot1
 		slot2, slot3 = slot0._slider:IsFirstPress()
@@ -40,8 +42,6 @@ function ys.Battle.BattleCameraFollowGesture.GetCameraPos(slot0, slot1)
 	end
 end
 
-function ys.Battle.BattleCameraFollowGesture.Dispose(slot0)
+function slot3.Dispose(slot0)
 	slot0._slider = nil
 end
-
-return

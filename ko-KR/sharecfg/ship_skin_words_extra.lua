@@ -914,5 +914,3 @@ pg.ship_skin_words_extra = {
 		105030
 	}
 }
-
-return

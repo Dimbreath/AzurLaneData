@@ -1,7 +1,10 @@
-class("WorldShipRepairCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot3 = slot1:getBody().shipIds
+slot0 = class("WorldShipRepairCommand", pm.SimpleCommand)
 
-	if getProxy(WorldProxy).GetWorld(slot5).getInventoryProxy(slot6):GetItemCount(WorldItem.MoneyId) < slot1.getBody().totalCost then
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot3 = slot2.shipIds
+
+	if getProxy(WorldProxy):GetWorld():getInventoryProxy():GetItemCount(WorldItem.MoneyId) < slot2.totalCost then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 		return
@@ -11,12 +14,12 @@ class("WorldShipRepairCommand", pm.SimpleCommand).execute = function (slot0, slo
 		ship_list = slot3
 	}, 33408, function (slot0)
 		if slot0.result == 0 then
-			_.each(slot0, function (slot0)
-				slot0:GetShip(slot0):Repair()
+			_.each(uv0, function (slot0)
+				uv0:GetShip(slot0):Repair()
 			end)
-			slot0:RemoveItem(WorldItem.MoneyId, )
-			slot4:sendNotification(GAME.WORLD_SHIP_REPAIR_DONE, {
-				shipIds = slot0
+			uv2:RemoveItem(WorldItem.MoneyId, uv3)
+			uv4:sendNotification(GAME.WORLD_SHIP_REPAIR_DONE, {
+				shipIds = uv0
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("world_ship_repair_err_", slot0.result))
@@ -24,4 +27,4 @@ class("WorldShipRepairCommand", pm.SimpleCommand).execute = function (slot0, slo
 	end)
 end
 
-return class("WorldShipRepairCommand", pm.SimpleCommand)
+return slot0

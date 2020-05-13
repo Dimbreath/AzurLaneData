@@ -12524,7 +12524,7 @@ TIPS:
 		tip = "신고는 지휘관 레벨 20 달성 후 오픈됩니다.",
 		key = "inform_level_limit"
 	},
-	3match_tip = {
+	["3match_tip"] = {
 		key = "3match_tip",
 		tip = {
 			{
@@ -12662,5 +12662,3 @@ TIPS:
 		key = "collect_tip2"
 	}
 }
-
-return

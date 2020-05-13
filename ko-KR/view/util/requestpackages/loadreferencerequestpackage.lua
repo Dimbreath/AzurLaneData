@@ -6,12 +6,12 @@ function slot0.__call(slot0)
 	end
 
 	ResourceMgr.Inst:getAssetAsync(slot0.path, slot0.name, slot0.type, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if slot0.stopped then
+		if uv0.stopped then
 			return
 		end
 
-		if slot0.onLoaded then
-			slot0:onLoaded()
+		if uv0.onLoaded then
+			uv0.onLoaded(slot0)
 		end
 	end), true, false)
 

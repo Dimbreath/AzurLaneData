@@ -12,7 +12,7 @@ function slot0.comforChatContent(slot0)
 		slot3 = slot2 / (slot1 + slot2) * 100
 	end
 
-	return i18n("backyard_backyardScene_comforChatContent2", slot0.comforChatState[slot0:getComBGIndex()], string.format("%d", slot3), slot0.level - 1) .. i18n("backyard_backyardScene_comforChatContent1", unpack(_.map(slot4, function (slot0)
+	return i18n("backyard_backyardScene_comforChatContent2", uv0.comforChatState[slot0:getComBGIndex()], string.format("%d", slot3), slot0.level - 1) .. i18n("backyard_backyardScene_comforChatContent1", unpack(_.map(slot0:getConfig("comfortable_count"), function (slot0)
 		return slot0[2]
 	end)))
 end
@@ -49,27 +49,27 @@ function slot0.setFloorNum(slot0, slot1)
 end
 
 function slot0.getOtherFloorFurnitrues(slot0, slot1)
-	slot2 = {}
-
 	for slot6, slot7 in pairs(slot0.furnitures) do
 		if slot7.floor ~= slot1 and slot7.floor ~= 0 then
-			slot2[slot7.id] = slot7
+			-- Nothing
 		end
 	end
 
-	return slot2
+	return {
+		[slot7.id] = slot7
+	}
 end
 
 function slot0.getFurnitrues(slot0, slot1)
-	slot2 = {}
-
 	for slot6, slot7 in pairs(slot0.furnitures) do
 		if slot7.floor == slot1 then
-			slot2[slot7.id] = slot7
+			-- Nothing
 		end
 	end
 
-	return slot2
+	return {
+		[slot7.id] = slot7
+	}
 end
 
 function slot0.setName(slot0, slot1)
@@ -101,23 +101,22 @@ function slot0.bindConfigTable(slot0)
 end
 
 function slot0.getPutFurnis(slot0)
-	slot1 = {}
-
 	for slot5, slot6 in pairs(slot0.furnitures) do
 		if slot6.position then
-			slot1[slot6.id] = slot6
+			-- Nothing
 		end
 	end
 
-	return slot1
+	return {
+		[slot6.id] = slot6
+	}
 end
 
 function slot0.getComfortable(slot0, slot1)
 	slot2 = 0
-	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0.furnitures) do
-		table.insert(slot3, slot8)
+		table.insert({}, slot8)
 	end
 
 	if slot1 and table.getCount(slot1) > 0 then
@@ -126,9 +125,9 @@ function slot0.getComfortable(slot0, slot1)
 		end
 	end
 
-	for slot8, slot9 in pairs(slot4) do
+	for slot8, slot9 in pairs(slot0:getConfig("comfortable_count")) do
 		slot2 = _.reduce(_(Clone(slot3)):chain():filter(function (slot0)
-			return slot0:getTypeForComfortable() == slot0[1]
+			return slot0:getTypeForComfortable() == uv0[1]
 		end):sort(function (slot0, slot1)
 			return slot1:getConfig("comfortable") < slot0:getConfig("comfortable")
 		end):slice(1, slot9[2]):value(), 0, function (slot0, slot1)
@@ -136,10 +135,8 @@ function slot0.getComfortable(slot0, slot1)
 		end) + slot2
 	end
 
-	slot2 = slot2 + (slot0.level - 1) * 10
-
 	if slot0:isUnlockFloor(2) then
-		slot2 = slot2 + slot0.DORM_2_FLOOR_COMFORTABLE_ADDITION
+		slot2 = slot2 + (slot0.level - 1) * 10 + uv0.DORM_2_FLOOR_COMFORTABLE_ADDITION
 	end
 
 	return slot2
@@ -217,7 +214,9 @@ function slot0.getFoodLeftTime(slot0)
 		return 0
 	end
 
-	return slot0.next_timestamp + ((slot0.food - slot0.food % (pg.gameset["dorm_food_ratio_by_" .. slot2].key_value / 100 * slot1.consume)) / (pg.gameset["dorm_food_ratio_by_" .. slot2].key_value / 100 * slot1.consume) - 1) * slot1.time
+	slot4 = pg.gameset["dorm_food_ratio_by_" .. slot2].key_value / 100 * slot1.consume
+
+	return slot0.next_timestamp + ((slot0.food - slot0.food % slot4) / slot4 - 1) * slot1.time
 end
 
 function slot0.getComBGIndex(slot0)
@@ -239,27 +238,27 @@ function slot0.addFood(slot0, slot1)
 end
 
 function slot0.getSaveData(slot0)
-	slot1 = {}
-
 	for slot5, slot6 in pairs(slot0:getPutFurnis()) do
-		slot1[slot5] = {
+		slot7 = slot6.position or {}
+	end
+
+	return {
+		[slot5] = {
 			id = slot5,
-			x = slot6.position or {}.x or 0,
-			y = slot6.position or .y or 0,
-			position = Vector2(slot6.position or .x or 0, slot6.position or .y or 0),
+			x = slot7.x or 0,
+			y = slot7.y or 0,
+			position = Vector2(slot7.x or 0, slot7.y or 0),
 			dir = slot6.dir or 1,
 			child = slot6.child or {},
 			parent = slot6.parent or 0,
 			shipId = slot6.shipId or 0
 		}
-	end
-
-	return slot1
+	}
 end
 
 function slot0.checkData(slot0, slot1)
 	for slot5, slot6 in pairs(slot0) do
-		slot7, slot8 = slot0.checkFurnitrueData(slot6, slot0, slot1)
+		slot7, slot8 = uv0.checkFurnitrueData(slot6, slot0, slot1)
 
 		if not slot7 then
 			return slot7, i18n1("[" .. pg.furniture_data_template[slot6.configId].name .. "]的数据出错了哦:" .. slot8 .. "-" .. slot6.id)
@@ -330,15 +329,10 @@ function slot0.checkFurnitrueData(slot0, slot1, slot2)
 	end
 
 	if table.getCount(slot4.child or {}) ~= 0 then
-		slot5 = pairs
-		slot6 = slot4.child or {}
-
-		for slot8, slot9 in slot5(slot6) do
+		for slot8, slot9 in pairs(slot4.child or {}) do
 			if slot1[slot8] then
-				slot11 = BackyardFurnitureVO.New(slot10)
-
 				for slot15, slot16 in pairs(slot4.child) do
-					if slot15 ~= slot8 and slot11:isConflictPos(BackyardFurnitureVO.New(slot17)) then
+					if slot15 ~= slot8 and BackyardFurnitureVO.New(slot10):isConflictPos(BackyardFurnitureVO.New(slot1[slot15])) then
 						return false, 12
 					end
 				end

@@ -10,7 +10,6 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	return
 end
 
 function slot0.UpdateData(slot0, slot1)
@@ -42,25 +41,27 @@ function slot0.initBlackList(slot0)
 	slot0.blackRect = slot0.blackListPanel:Find("mask/view"):GetComponent("LScrollRect")
 
 	function slot0.blackRect.onInitItem(slot0)
-		slot0:onInitItem(slot0)
+		uv0:onInitItem(slot0)
 	end
 
 	function slot0.blackRect.onUpdateItem(slot0, slot1)
-		slot0:onUpdateItem(slot0, slot1)
+		uv0:onUpdateItem(slot0, slot1)
 	end
 end
 
 function slot0.onInitItem(slot0, slot1)
-	onButton(slot0, FriendBlackListCard.New(slot1).btn, function ()
+	slot2 = FriendBlackListCard.New(slot1)
+
+	onButton(slot0, slot2.btn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("firend_relieve_blacklist_tip", slot0.friendVO.name),
+			content = i18n("firend_relieve_blacklist_tip", uv0.friendVO.name),
 			onYes = function ()
-				slot0:emit(FriendMediator.RELIEVE_BLACKLIST, slot1.friendVO.id)
+				uv0:emit(FriendMediator.RELIEVE_BLACKLIST, uv1.friendVO.id)
 			end
 		})
 	end)
 
-	slot0.blackItems[slot1] = FriendBlackListCard.New(slot1)
+	slot0.blackItems[slot1] = slot2
 end
 
 function slot0.onUpdateItem(slot0, slot1, slot2)
@@ -81,10 +82,7 @@ function slot0.sortBlackList(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	slot1 = pairs
-	slot2 = slot0.blackItems or {}
-
-	for slot4, slot5 in slot1(slot2) do
+	for slot4, slot5 in pairs(slot0.blackItems or {}) do
 		slot5:dispose()
 	end
 end

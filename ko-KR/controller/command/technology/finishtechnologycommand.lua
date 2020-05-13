@@ -1,7 +1,10 @@
-class("FinishTechnologyCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot4 = slot1:getBody().pool_id
+slot0 = class("FinishTechnologyCommand", pm.SimpleCommand)
 
-	if not getProxy(TechnologyProxy):getTechnologyById(slot1.getBody().id) then
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot4 = slot2.pool_id
+
+	if not getProxy(TechnologyProxy):getTechnologyById(slot2.id) then
 		return
 	end
 
@@ -14,30 +17,30 @@ class("FinishTechnologyCommand", pm.SimpleCommand).execute = function (slot0, sl
 		refresh_id = slot4
 	}, 63004, function (slot0)
 		if slot0.result == 0 then
-			slot0:reset()
-			slot0.reset:updateTechnology(slot0)
-
-			slot1 = {}
+			uv0:reset()
+			uv1:updateTechnology(uv0)
 
 			for slot5, slot6 in ipairs(slot0.drop_list) do
-				slot2:sendNotification(GAME.ADD_ITEM, Item.New(slot6))
-				table.insert(slot1, Item.New(slot6))
-			end
+				slot7 = Item.New(slot6)
 
-			slot2 = {}
+				uv2:sendNotification(GAME.ADD_ITEM, slot7)
+				table.insert({}, slot7)
+			end
 
 			for slot6, slot7 in ipairs(slot0.common_list) do
-				slot2:sendNotification(GAME.ADD_ITEM, Item.New(slot7))
-				table.insert(slot2, Item.New(slot7))
+				slot8 = Item.New(slot7)
+
+				uv2:sendNotification(GAME.ADD_ITEM, slot8)
+				table.insert({}, slot8)
 			end
 
-			if slot0:hasCondition() and slot0:getTaskId() then
+			if uv0:hasCondition() and uv0:getTaskId() then
 				getProxy(TaskProxy):removeTaskById(slot3)
 			end
 
-			slot1:updateTechnologys(slot0)
-			slot2:sendNotification(GAME.FINISH_TECHNOLOGY_DONE, {
-				technologyId = slot0.id,
+			uv1:updateTechnologys(slot0)
+			uv2:sendNotification(GAME.FINISH_TECHNOLOGY_DONE, {
+				technologyId = uv0.id,
 				items = slot1,
 				commons = slot2
 			})
@@ -47,4 +50,4 @@ class("FinishTechnologyCommand", pm.SimpleCommand).execute = function (slot0, sl
 	end)
 end
 
-return class("FinishTechnologyCommand", pm.SimpleCommand)
+return slot0

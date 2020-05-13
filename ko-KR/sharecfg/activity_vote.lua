@@ -1475,5 +1475,3 @@ pg.activity_vote = {
 		13
 	}
 }
-
-return

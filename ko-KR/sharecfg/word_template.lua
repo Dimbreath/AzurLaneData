@@ -1,11 +1,12 @@
 pg = pg or {}
-pg.word_template = {}
-slot1 = pg.word_template
+slot0 = pg
+slot0.word_template = {}
+slot1 = slot0.word_template
 
 function temp()
-	slot0.屏 = {
-		蔽 = {
-			词 = {
+	uv0["屏"] = {
+		["蔽"] = {
+			["词"] = {
 				this = true
 			}
 		}
@@ -15,15 +16,15 @@ end
 temp()
 
 function temp()
-	slot0.니 = {
-		미 = {
+	uv0["니"] = {
+		["미"] = {
 			this = true,
-			자 = {
+			["자"] = {
 				this = true
 			}
 		},
-		기 = {
-			미 = {
+		["기"] = {
+			["미"] = {
 				this = true
 			}
 		}
@@ -33,9 +34,9 @@ end
 temp()
 
 function temp()
-	slot0.닝 = {
-		기 = {
-			미 = {
+	uv0["닝"] = {
+		["기"] = {
+			["미"] = {
 				this = true
 			}
 		}
@@ -45,68 +46,68 @@ end
 temp()
 
 function temp()
-	slot0.개 = {
-		스 = {
-			키 = {
+	uv0["개"] = {
+		["스"] = {
+			["키"] = {
 				this = true
 			}
 		},
-		새 = {
+		["새"] = {
 			this = true,
-			끼 = {
+			["끼"] = {
 				this = true
 			}
 		},
-		쉐 = {
+		["쉐"] = {
 			this = true,
-			리 = {
+			["리"] = {
 				this = true
 			}
 		},
-		자 = {
+		["자"] = {
 			this = true
 		},
-		놈 = {
+		["놈"] = {
 			this = true
 		},
-		넘 = {
+		["넘"] = {
 			this = true
 		},
-		년 = {
+		["년"] = {
 			this = true
 		},
-		쇅 = {
+		["쇅"] = {
 			this = true
 		},
-		쉑 = {
+		["쉑"] = {
 			this = true
 		},
-		쒝 = {
+		["쒝"] = {
 			this = true
 		},
-		쒜 = {
-			리 = {
+		["쒜"] = {
+			["리"] = {
 				this = true
 			}
 		},
-		보 = {
-			지 = {
+		["보"] = {
+			["지"] = {
 				this = true
 			}
 		},
 		["!"] = {
-			새 = {
-				끼 = {
+			["새"] = {
+				["끼"] = {
 					this = true
 				}
 			}
 		},
-		같 = {
-			은 = {
+		["같"] = {
+			["은"] = {
 				this = true
 			}
 		},
-		좆 = {
+		["좆"] = {
 			this = true
 		}
 	}
@@ -115,8 +116,8 @@ end
 temp()
 
 function temp()
-	slot0.샙 = {
-		새 = {
+	uv0["샙"] = {
+		["새"] = {
 			this = true
 		}
 	}
@@ -125,17 +126,17 @@ end
 temp()
 
 function temp()
-	slot0.십 = {
-		쉐 = {
+	uv0["십"] = {
+		["쉐"] = {
 			this = true
 		},
-		때 = {
-			끼 = {
+		["때"] = {
+			["끼"] = {
 				this = true
 			}
 		},
-		떼 = {
-			끼 = {
+		["떼"] = {
+			["끼"] = {
 				this = true
 			}
 		}
@@ -145,14 +146,14 @@ end
 temp()
 
 function temp()
-	slot0.씹 = {
-		새 = {
+	uv0["씹"] = {
+		["새"] = {
 			this = true
 		},
-		쉐 = {
+		["쉐"] = {
 			this = true
 		},
-		탱 = {
+		["탱"] = {
 			this = true
 		}
 	}
@@ -161,11 +162,11 @@ end
 temp()
 
 function temp()
-	slot0.썅 = {
+	uv0["썅"] = {
 		this = {
 			this = true
 		},
-		놈 = {
+		["놈"] = {
 			this = true
 		}
 	}
@@ -174,17 +175,17 @@ end
 temp()
 
 function temp()
-	slot0.쌍 = {
-		년 = {
+	uv0["쌍"] = {
+		["년"] = {
 			this = true
 		},
-		넌 = {
+		["넌"] = {
 			this = true
 		},
-		놈 = {
+		["놈"] = {
 			this = true
 		},
-		것 = {
+		["것"] = {
 			this = true
 		}
 	}
@@ -193,8 +194,8 @@ end
 temp()
 
 function temp()
-	slot0.창 = {
-		녀 = {
+	uv0["창"] = {
+		["녀"] = {
 			this = true
 		}
 	}
@@ -203,86 +204,86 @@ end
 temp()
 
 function temp()
-	slot0.씨 = {
-		바 = {
+	uv0["씨"] = {
+		["바"] = {
 			this = true
 		},
-		발 = {
+		["발"] = {
 			this = true,
-			노 = {
-				마 = {
+			["노"] = {
+				["마"] = {
 					this = true
 				}
 			},
-			놈 = {
+			["놈"] = {
 				this = true
 			}
 		},
-		방 = {
+		["방"] = {
 			this = true
 		},
-		벌 = {
+		["벌"] = {
 			this = true
 		},
-		불 = {
+		["불"] = {
 			this = true
 		},
-		붕 = {
+		["붕"] = {
 			this = true
 		},
-		빨 = {
+		["빨"] = {
 			this = true
 		},
-		팔 = {
+		["팔"] = {
 			this = true
 		},
-		펄 = {
+		["펄"] = {
 			this = true
 		},
-		풀 = {
+		["풀"] = {
 			this = true
 		},
-		이 = {
-			발 = {
+		["이"] = {
+			["발"] = {
 				this = true
 			},
-			방 = {
+			["방"] = {
 				this = true
 			},
-			벌 = {
+			["벌"] = {
 				this = true
 			},
-			불 = {
+			["불"] = {
 				this = true
 			},
-			붕 = {
+			["붕"] = {
 				this = true
 			},
-			빨 = {
+			["빨"] = {
 				this = true
 			},
-			팔 = {
+			["팔"] = {
 				this = true
 			},
-			펄 = {
+			["펄"] = {
 				this = true
 			},
-			풀 = {
+			["풀"] = {
 				this = true
 			}
 		},
-		키 = {
+		["키"] = {
 			this = true
 		},
-		1 = {
-			발 = {
-				1 = {
+		["1"] = {
+			["발"] = {
+				["1"] = {
 					this = true
 				}
 			}
 		},
 		["!"] = {
-			발 = {
+			["발"] = {
 				this = true
 			}
 		}
@@ -292,48 +293,48 @@ end
 temp()
 
 function temp()
-	slot0.띠 = {
-		발 = {
+	uv0["띠"] = {
+		["발"] = {
 			this = true
 		},
-		방 = {
+		["방"] = {
 			this = true
 		},
-		벌 = {
+		["벌"] = {
 			this = true
 		},
-		불 = {
+		["불"] = {
 			this = true
 		},
-		붕 = {
+		["붕"] = {
 			this = true
 		},
-		팔 = {
+		["팔"] = {
 			this = true
 		},
-		펄 = {
+		["펄"] = {
 			this = true
 		},
-		풀 = {
+		["풀"] = {
 			this = true
 		},
-		이 = {
-			발 = {
+		["이"] = {
+			["발"] = {
 				this = true
 			},
-			방 = {
+			["방"] = {
 				this = true
 			},
-			벌 = {
+			["벌"] = {
 				this = true
 			},
-			불 = {
+			["불"] = {
 				this = true
 			},
-			붕 = {
+			["붕"] = {
 				this = true
 			},
-			펄 = {
+			["펄"] = {
 				this = true
 			}
 		}
@@ -343,52 +344,52 @@ end
 temp()
 
 function temp()
-	slot0.시 = {
-		발 = {
+	uv0["시"] = {
+		["발"] = {
 			this = true
 		},
-		벌 = {
+		["벌"] = {
 			this = true
 		},
-		불 = {
+		["불"] = {
 			this = true
 		},
-		붕 = {
+		["붕"] = {
 			this = true
 		},
-		팔 = {
+		["팔"] = {
 			this = true
 		},
-		펄 = {
+		["펄"] = {
 			this = true
 		},
-		풀 = {
+		["풀"] = {
 			this = true
 		},
-		이 = {
-			발 = {
+		["이"] = {
+			["발"] = {
 				this = true
 			},
-			벌 = {
+			["벌"] = {
 				this = true
 			},
-			불 = {
+			["불"] = {
 				this = true
 			},
-			팔 = {
+			["팔"] = {
 				this = true
 			},
-			펄 = {
+			["펄"] = {
 				this = true
 			},
-			풀 = {
+			["풀"] = {
 				this = true
 			}
 		},
-		끼 = {
+		["끼"] = {
 			this = true
 		},
-		바 = {
+		["바"] = {
 			this = true
 		}
 	}
@@ -397,8 +398,8 @@ end
 temp()
 
 function temp()
-	slot0.싯 = {
-		팔 = {
+	uv0["싯"] = {
+		["팔"] = {
 			this = true
 		}
 	}
@@ -407,141 +408,60 @@ end
 temp()
 
 function temp()
-	slot0.쉬 = {
-		발 = {
+	uv0["쉬"] = {
+		["발"] = {
 			this = true
 		},
-		방 = {
+		["방"] = {
 			this = true
 		},
-		벌 = {
+		["벌"] = {
 			this = true
 		},
-		불 = {
+		["불"] = {
 			this = true
 		},
-		붕 = {
+		["붕"] = {
 			this = true
 		},
-		빨 = {
+		["빨"] = {
 			this = true
 		},
-		팔 = {
+		["팔"] = {
 			this = true
 		},
-		펄 = {
+		["펄"] = {
 			this = true
 		},
-		풀 = {
+		["풀"] = {
 			this = true
 		},
-		이 = {
-			발 = {
+		["이"] = {
+			["발"] = {
 				this = true
 			},
-			방 = {
+			["방"] = {
 				this = true
 			},
-			벌 = {
+			["벌"] = {
 				this = true
 			},
-			불 = {
+			["불"] = {
 				this = true
 			},
-			붕 = {
+			["붕"] = {
 				this = true
 			},
-			빨 = {
+			["빨"] = {
 				this = true
 			},
-			팔 = {
+			["팔"] = {
 				this = true
 			},
-			펄 = {
+			["펄"] = {
 				this = true
 			},
-			풀 = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	slot0.쓰 = {
-		벌 = {
-			this = true
-		},
-		불 = {
-			this = true
-		},
-		으 = {
-			벌 = {
-				this = true
-			}
-		},
-		봉 = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	slot0.쒸 = {
-		발 = {
-			this = true
-		},
-		방 = {
-			this = true
-		},
-		벌 = {
-			this = true
-		},
-		붕 = {
-			this = true
-		},
-		빨 = {
-			this = true
-		},
-		팔 = {
-			this = true
-		},
-		펄 = {
-			this = true
-		},
-		풀 = {
-			this = true
-		},
-		이 = {
-			발 = {
-				this = true
-			},
-			방 = {
-				this = true
-			},
-			벌 = {
-				this = true
-			},
-			불 = {
-				this = true
-			},
-			붕 = {
-				this = true
-			},
-			빨 = {
-				this = true
-			},
-			팔 = {
-				this = true
-			},
-			펄 = {
-				this = true
-			},
-			풀 = {
+			["풀"] = {
 				this = true
 			}
 		}
@@ -551,11 +471,19 @@ end
 temp()
 
 function temp()
-	slot0.스 = {
-		펄 = {
+	uv0["쓰"] = {
+		["벌"] = {
 			this = true
 		},
-		바 = {
+		["불"] = {
+			this = true
+		},
+		["으"] = {
+			["벌"] = {
+				this = true
+			}
+		},
+		["봉"] = {
 			this = true
 		}
 	}
@@ -564,14 +492,71 @@ end
 temp()
 
 function temp()
-	slot0.새 = {
-		끼 = {
+	uv0["쒸"] = {
+		["발"] = {
 			this = true
 		},
-		키 = {
+		["방"] = {
 			this = true
 		},
-		꺄 = {
+		["벌"] = {
+			this = true
+		},
+		["붕"] = {
+			this = true
+		},
+		["빨"] = {
+			this = true
+		},
+		["팔"] = {
+			this = true
+		},
+		["펄"] = {
+			this = true
+		},
+		["풀"] = {
+			this = true
+		},
+		["이"] = {
+			["발"] = {
+				this = true
+			},
+			["방"] = {
+				this = true
+			},
+			["벌"] = {
+				this = true
+			},
+			["불"] = {
+				this = true
+			},
+			["붕"] = {
+				this = true
+			},
+			["빨"] = {
+				this = true
+			},
+			["팔"] = {
+				this = true
+			},
+			["펄"] = {
+				this = true
+			},
+			["풀"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["스"] = {
+		["펄"] = {
+			this = true
+		},
+		["바"] = {
 			this = true
 		}
 	}
@@ -580,11 +565,14 @@ end
 temp()
 
 function temp()
-	slot0.쌔 = {
-		키 = {
+	uv0["새"] = {
+		["끼"] = {
 			this = true
 		},
-		끼 = {
+		["키"] = {
+			this = true
+		},
+		["꺄"] = {
 			this = true
 		}
 	}
@@ -593,8 +581,11 @@ end
 temp()
 
 function temp()
-	slot0.쎄 = {
-		끼 = {
+	uv0["쌔"] = {
+		["키"] = {
+			this = true
+		},
+		["끼"] = {
 			this = true
 		}
 	}
@@ -603,8 +594,8 @@ end
 temp()
 
 function temp()
-	slot0.세 = {
-		끼 = {
+	uv0["쎄"] = {
+		["끼"] = {
 			this = true
 		}
 	}
@@ -613,23 +604,8 @@ end
 temp()
 
 function temp()
-	slot0.색 = {
-		끼 = {
-			this = true
-		},
-		스 = {
-			this = true
-		},
-		수 = {
-			this = true
-		},
-		쓰 = {
-			this = true
-		},
-		쑤 = {
-			this = true
-		},
-		욕 = {
+	uv0["세"] = {
+		["끼"] = {
 			this = true
 		}
 	}
@@ -638,8 +614,23 @@ end
 temp()
 
 function temp()
-	slot0.때 = {
-		끼 = {
+	uv0["색"] = {
+		["끼"] = {
+			this = true
+		},
+		["스"] = {
+			this = true
+		},
+		["수"] = {
+			this = true
+		},
+		["쓰"] = {
+			this = true
+		},
+		["쑤"] = {
+			this = true
+		},
+		["욕"] = {
 			this = true
 		}
 	}
@@ -648,16 +639,26 @@ end
 temp()
 
 function temp()
-	slot0.지 = {
-		랄 = {
+	uv0["때"] = {
+		["끼"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["지"] = {
+		["랄"] = {
 			this = true,
-			하 = {
+			["하"] = {
 				this = true,
-				는 = {
+				["는"] = {
 					this = true
 				}
 			},
-			해 = {
+			["해"] = {
 				this = true
 			}
 		}
@@ -667,8 +668,8 @@ end
 temp()
 
 function temp()
-	slot0.찌 = {
-		랄 = {
+	uv0["찌"] = {
+		["랄"] = {
 			this = true
 		}
 	}
@@ -677,27 +678,27 @@ end
 temp()
 
 function temp()
-	slot0.미 = {
-		친 = {
+	uv0["미"] = {
+		["친"] = {
 			this = true,
-			놈 = {
+			["놈"] = {
 				this = true
 			},
-			년 = {
+			["년"] = {
 				this = true
 			}
 		},
-		췬 = {
+		["췬"] = {
 			this = true,
-			놈 = {
+			["놈"] = {
 				this = true
 			},
-			년 = {
+			["년"] = {
 				this = true
 			}
 		},
 		["!"] = {
-			친 = {
+			["친"] = {
 				this = true
 			}
 		}
@@ -707,17 +708,17 @@ end
 temp()
 
 function temp()
-	slot0.섹 = {
-		스 = {
+	uv0["섹"] = {
+		["스"] = {
 			this = true
 		},
-		수 = {
+		["수"] = {
 			this = true
 		},
-		쓰 = {
+		["쓰"] = {
 			this = true
 		},
-		쑤 = {
+		["쑤"] = {
 			this = true
 		}
 	}
@@ -726,17 +727,17 @@ end
 temp()
 
 function temp()
-	slot0.쎅 = {
-		스 = {
+	uv0["쎅"] = {
+		["스"] = {
 			this = true
 		},
-		수 = {
+		["수"] = {
 			this = true
 		},
-		쓰 = {
+		["쓰"] = {
 			this = true
 		},
-		쑤 = {
+		["쑤"] = {
 			this = true
 		}
 	}
@@ -745,17 +746,17 @@ end
 temp()
 
 function temp()
-	slot0.쌕 = {
-		스 = {
+	uv0["쌕"] = {
+		["스"] = {
 			this = true
 		},
-		수 = {
+		["수"] = {
 			this = true
 		},
-		쓰 = {
+		["쓰"] = {
 			this = true
 		},
-		쑤 = {
+		["쑤"] = {
 			this = true
 		}
 	}
@@ -764,17 +765,17 @@ end
 temp()
 
 function temp()
-	slot0.쉑 = {
-		스 = {
+	uv0["쉑"] = {
+		["스"] = {
 			this = true
 		},
-		수 = {
+		["수"] = {
 			this = true
 		},
-		쓰 = {
+		["쓰"] = {
 			this = true
 		},
-		쑤 = {
+		["쑤"] = {
 			this = true
 		}
 	}
@@ -783,17 +784,17 @@ end
 temp()
 
 function temp()
-	slot0.쇅 = {
-		스 = {
+	uv0["쇅"] = {
+		["스"] = {
 			this = true
 		},
-		수 = {
+		["수"] = {
 			this = true
 		},
-		쓰 = {
+		["쓰"] = {
 			this = true
 		},
-		쑤 = {
+		["쑤"] = {
 			this = true
 		}
 	}
@@ -802,14 +803,14 @@ end
 temp()
 
 function temp()
-	slot0.쒝 = {
-		스 = {
+	uv0["쒝"] = {
+		["스"] = {
 			this = true
 		},
-		수 = {
+		["수"] = {
 			this = true
 		},
-		쓰 = {
+		["쓰"] = {
 			this = true
 		}
 	}
@@ -818,17 +819,17 @@ end
 temp()
 
 function temp()
-	slot0.쐑 = {
-		스 = {
+	uv0["쐑"] = {
+		["스"] = {
 			this = true
 		},
-		수 = {
+		["수"] = {
 			this = true
 		},
-		쓰 = {
+		["쓰"] = {
 			this = true
 		},
-		쑤 = {
+		["쑤"] = {
 			this = true
 		}
 	}
@@ -837,13 +838,13 @@ end
 temp()
 
 function temp()
-	slot0.빠 = {
-		구 = {
-			리 = {
+	uv0["빠"] = {
+		["구"] = {
+			["리"] = {
 				this = true
 			}
 		},
-		굴 = {
+		["굴"] = {
 			this = true
 		}
 	}
@@ -852,20 +853,20 @@ end
 temp()
 
 function temp()
-	slot0.좆 = {
-		나 = {
+	uv0["좆"] = {
+		["나"] = {
 			this = true
 		},
-		까 = {
+		["까"] = {
 			this = true
 		},
 		this = {
 			this = true
 		},
-		밥 = {
+		["밥"] = {
 			this = true
 		},
-		가 = {
+		["가"] = {
 			this = true
 		}
 	}
@@ -874,9 +875,9 @@ end
 temp()
 
 function temp()
-	slot0.쪼 = {
-		까 = {
-			튼 = {
+	uv0["쪼"] = {
+		["까"] = {
+			["튼"] = {
 				this = true
 			}
 		}
@@ -886,21 +887,21 @@ end
 temp()
 
 function temp()
-	slot0.젓 = {
-		같 = {
-			은 = {
+	uv0["젓"] = {
+		["같"] = {
+			["은"] = {
 				this = true
 			}
 		},
-		가 = {
-			튼 = {
+		["가"] = {
+			["튼"] = {
 				this = true
 			}
 		},
-		까 = {
+		["까"] = {
 			this = true
 		},
-		밥 = {
+		["밥"] = {
 			this = true
 		}
 	}
@@ -909,14 +910,14 @@ end
 temp()
 
 function temp()
-	slot0.좃 = {
-		까 = {
+	uv0["좃"] = {
+		["까"] = {
 			this = true
 		},
 		this = {
 			this = true
 		},
-		밥 = {
+		["밥"] = {
 			this = true
 		}
 	}
@@ -925,8 +926,8 @@ end
 temp()
 
 function temp()
-	slot0.조 = {
-		까 = {
+	uv0["조"] = {
+		["까"] = {
 			this = true
 		}
 	}
@@ -935,11 +936,11 @@ end
 temp()
 
 function temp()
-	slot0.젖 = {
-		까 = {
+	uv0["젖"] = {
+		["까"] = {
 			this = true
 		},
-		밥 = {
+		["밥"] = {
 			this = true
 		}
 	}
@@ -948,8 +949,8 @@ end
 temp()
 
 function temp()
-	slot0.저 = {
-		까 = {
+	uv0["저"] = {
+		["까"] = {
 			this = true
 		}
 	}
@@ -958,7 +959,7 @@ end
 temp()
 
 function temp()
-	slot0.좇 = {
+	uv0["좇"] = {
 		this = {
 			this = true
 		}
@@ -968,14 +969,14 @@ end
 temp()
 
 function temp()
-	slot0.자 = {
-		지 = {
+	uv0["자"] = {
+		["지"] = {
 			this = true
 		},
-		궁 = {
+		["궁"] = {
 			this = true
 		},
-		쥐 = {
+		["쥐"] = {
 			this = true
 		}
 	}
@@ -984,22 +985,22 @@ end
 temp()
 
 function temp()
-	slot0.애 = {
-		미 = {
+	uv0["애"] = {
+		["미"] = {
 			this = true,
-			보 = {
-				지 = {
+			["보"] = {
+				["지"] = {
 					this = true
 				}
 			}
 		},
-		자 = {
+		["자"] = {
 			this = true
 		},
-		비 = {
+		["비"] = {
 			this = true
 		},
-		액 = {
+		["액"] = {
 			this = true
 		}
 	}
@@ -1008,11 +1009,11 @@ end
 temp()
 
 function temp()
-	slot0.보 = {
-		지 = {
+	uv0["보"] = {
+		["지"] = {
 			this = true
 		},
-		쥐 = {
+		["쥐"] = {
 			this = true
 		}
 	}
@@ -1021,7 +1022,7 @@ end
 temp()
 
 function temp()
-	slot0.씺 = {
+	uv0["씺"] = {
 		this = {
 			this = true
 		}
@@ -1031,7 +1032,7 @@ end
 temp()
 
 function temp()
-	slot0.씝 = {
+	uv0["씝"] = {
 		this = {
 			this = true
 		}
@@ -1041,7 +1042,7 @@ end
 temp()
 
 function temp()
-	slot0.씞 = {
+	uv0["씞"] = {
 		this = {
 			this = true
 		}
@@ -1051,8 +1052,8 @@ end
 temp()
 
 function temp()
-	slot0.귀 = {
-		두 = {
+	uv0["귀"] = {
+		["두"] = {
 			this = true
 		}
 	}
@@ -1061,36 +1062,36 @@ end
 temp()
 
 function temp()
-	slot0.ㅇ = {
-		ㅐ = {
-			자 = {
+	uv0["ㅇ"] = {
+		["ㅐ"] = {
+			["자"] = {
 				this = true
 			},
-			ㅈ = {
-				ㅏ = {
+			["ㅈ"] = {
+				["ㅏ"] = {
 					this = true
 				}
 			}
 		},
 		[" "] = {
-			ㅐ = {
-				자 = {
+			["ㅐ"] = {
+				["자"] = {
 					this = true
 				},
-				ㅈ = {
-					ㅏ = {
+				["ㅈ"] = {
+					["ㅏ"] = {
 						this = true
 					},
 					[" "] = {
-						ㅏ = {
+						["ㅏ"] = {
 							this = true
 						}
 					}
 				},
 				[" "] = {
-					ㅈ = {
+					["ㅈ"] = {
 						[" "] = {
-							ㅏ = {
+							["ㅏ"] = {
 								this = true
 							}
 						}
@@ -1104,20 +1105,20 @@ end
 temp()
 
 function temp()
-	slot0.아 = {
-		가 = {
-			리 = {
+	uv0["아"] = {
+		["가"] = {
+			["리"] = {
 				this = true
 			}
 		},
-		구 = {
-			지 = {
+		["구"] = {
+			["지"] = {
 				this = true
 			},
-			창 = {
+			["창"] = {
 				this = true
 			},
-			통 = {
+			["통"] = {
 				this = true
 			}
 		}
@@ -1127,12 +1128,12 @@ end
 temp()
 
 function temp()
-	slot0.대 = {
-		갈 = {
+	uv0["대"] = {
+		["갈"] = {
 			this = true
 		},
-		가 = {
-			리 = {
+		["가"] = {
+			["리"] = {
 				this = true
 			}
 		}
@@ -1142,8 +1143,8 @@ end
 temp()
 
 function temp()
-	slot0.눈 = {
-		깔 = {
+	uv0["눈"] = {
+		["깔"] = {
 			this = true
 		}
 	}
@@ -1152,8 +1153,8 @@ end
 temp()
 
 function temp()
-	slot0.짜 = {
-		져 = {
+	uv0["짜"] = {
+		["져"] = {
 			this = true
 		}
 	}
@@ -1162,11 +1163,11 @@ end
 temp()
 
 function temp()
-	slot0.닥 = {
-		쳐 = {
+	uv0["닥"] = {
+		["쳐"] = {
 			this = true
 		},
-		쵸 = {
+		["쵸"] = {
 			this = true
 		}
 	}
@@ -1175,11 +1176,11 @@ end
 temp()
 
 function temp()
-	slot0.닭 = {
-		쳐 = {
+	uv0["닭"] = {
+		["쳐"] = {
 			this = true
 		},
-		쵸 = {
+		["쵸"] = {
 			this = true
 		}
 	}
@@ -1188,8 +1189,8 @@ end
 temp()
 
 function temp()
-	slot0.족 = {
-		밥 = {
+	uv0["족"] = {
+		["밥"] = {
 			this = true
 		}
 	}
@@ -1198,11 +1199,11 @@ end
 temp()
 
 function temp()
-	slot0.구 = {
-		려 = {
+	uv0["구"] = {
+		["려"] = {
 			this = true
 		},
-		리 = {
+		["리"] = {
 			this = true
 		}
 	}
@@ -1211,8 +1212,8 @@ end
 temp()
 
 function temp()
-	slot0.뒤 = {
-		져 = {
+	uv0["뒤"] = {
+		["져"] = {
 			this = true
 		}
 	}
@@ -1221,10 +1222,10 @@ end
 temp()
 
 function temp()
-	slot0.쳐 = {
-		먹 = {
+	uv0["쳐"] = {
+		["먹"] = {
 			this = true,
-			어 = {
+			["어"] = {
 				this = true
 			}
 		}
@@ -1234,19 +1235,19 @@ end
 temp()
 
 function temp()
-	slot0.까 = {
-		발 = {
-			리 = {
+	uv0["까"] = {
+		["발"] = {
+			["리"] = {
 				this = true
 			},
-			려 = {
+			["려"] = {
 				this = true
 			}
 		},
-		대 = {
+		["대"] = {
 			this = true
 		},
-		댄 = {
+		["댄"] = {
 			this = true
 		}
 	}
@@ -1255,8 +1256,8 @@ end
 temp()
 
 function temp()
-	slot0.죽 = {
-		어 = {
+	uv0["죽"] = {
+		["어"] = {
 			this = true
 		}
 	}
@@ -1265,8 +1266,8 @@ end
 temp()
 
 function temp()
-	slot0.허 = {
-		접 = {
+	uv0["허"] = {
+		["접"] = {
 			this = true
 		}
 	}
@@ -1275,8 +1276,8 @@ end
 temp()
 
 function temp()
-	slot0.뽀 = {
-		작 = {
+	uv0["뽀"] = {
+		["작"] = {
 			this = true
 		}
 	}
@@ -1285,7 +1286,7 @@ end
 temp()
 
 function temp()
-	slot0.g = {
+	uv0.g = {
 		m = {
 			this = true
 		},
@@ -1314,7 +1315,7 @@ end
 temp()
 
 function temp()
-	slot0.G = {
+	uv0.G = {
 		M = {
 			this = true
 		},
@@ -1362,11 +1363,11 @@ end
 temp()
 
 function temp()
-	slot0.음 = {
-		탕 = {
+	uv0["음"] = {
+		["탕"] = {
 			this = true
 		},
-		경 = {
+		["경"] = {
 			this = true
 		}
 	}
@@ -1375,8 +1376,8 @@ end
 temp()
 
 function temp()
-	slot0.월 = {
-		경 = {
+	uv0["월"] = {
+		["경"] = {
 			this = true
 		}
 	}
@@ -1385,14 +1386,14 @@ end
 temp()
 
 function temp()
-	slot0.정 = {
-		자 = {
+	uv0["정"] = {
+		["자"] = {
 			this = true
 		},
-		색 = {
+		["색"] = {
 			this = true
 		},
-		액 = {
+		["액"] = {
 			this = true
 		}
 	}
@@ -1401,11 +1402,11 @@ end
 temp()
 
 function temp()
-	slot0.유 = {
-		방 = {
+	uv0["유"] = {
+		["방"] = {
 			this = true
 		},
-		두 = {
+		["두"] = {
 			this = true
 		}
 	}
@@ -1414,9 +1415,9 @@ end
 temp()
 
 function temp()
-	slot0.안 = {
-		마 = {
-			봉 = {
+	uv0["안"] = {
+		["마"] = {
+			["봉"] = {
 				this = true
 			}
 		}
@@ -1426,10 +1427,10 @@ end
 temp()
 
 function temp()
-	slot0.s = {
+	uv0.s = {
 		m = {
-			녀 = {
-				왕 = {
+			["녀"] = {
+				["왕"] = {
 					this = true
 				}
 			}
@@ -1440,8 +1441,8 @@ end
 temp()
 
 function temp()
-	slot0.강 = {
-		간 = {
+	uv0["강"] = {
+		["간"] = {
 			this = true
 		}
 	}
@@ -1450,11 +1451,11 @@ end
 temp()
 
 function temp()
-	slot0.간 = {
-		살 = {
+	uv0["간"] = {
+		["살"] = {
 			this = true
 		},
-		오 = {
+		["오"] = {
 			this = true
 		}
 	}
@@ -1463,8 +1464,8 @@ end
 temp()
 
 function temp()
-	slot0.남 = {
-		노 = {
+	uv0["남"] = {
+		["노"] = {
 			this = true
 		}
 	}
@@ -1473,8 +1474,8 @@ end
 temp()
 
 function temp()
-	slot0.전 = {
-		라 = {
+	uv0["전"] = {
+		["라"] = {
 			this = true
 		}
 	}
@@ -1483,11 +1484,11 @@ end
 temp()
 
 function temp()
-	slot0.육 = {
-		봉 = {
+	uv0["육"] = {
+		["봉"] = {
 			this = true
 		},
-		구 = {
+		["구"] = {
 			this = true
 		}
 	}
@@ -1496,11 +1497,11 @@ end
 temp()
 
 function temp()
-	slot0.수 = {
-		음 = {
+	uv0["수"] = {
+		["음"] = {
 			this = true
 		},
-		욕 = {
+		["욕"] = {
 			this = true
 		}
 	}
@@ -1509,8 +1510,8 @@ end
 temp()
 
 function temp()
-	slot0.숙 = {
-		부 = {
+	uv0["숙"] = {
+		["부"] = {
 			this = true
 		}
 	}
@@ -1519,8 +1520,8 @@ end
 temp()
 
 function temp()
-	slot0.륜 = {
-		간 = {
+	uv0["륜"] = {
+		["간"] = {
 			this = true
 		}
 	}
@@ -1529,17 +1530,17 @@ end
 temp()
 
 function temp()
-	slot0.성 = {
-		교 = {
+	uv0["성"] = {
+		["교"] = {
 			this = true
 		},
-		노 = {
+		["노"] = {
 			this = true,
-			예 = {
+			["예"] = {
 				this = true
 			}
 		},
-		욕 = {
+		["욕"] = {
 			this = true
 		}
 	}
@@ -1548,8 +1549,8 @@ end
 temp()
 
 function temp()
-	slot0.신 = {
-		음 = {
+	uv0["신"] = {
+		["음"] = {
 			this = true
 		}
 	}
@@ -1558,8 +1559,8 @@ end
 temp()
 
 function temp()
-	slot0.발 = {
-		기 = {
+	uv0["발"] = {
+		["기"] = {
 			this = true
 		}
 	}
@@ -1568,8 +1569,8 @@ end
 temp()
 
 function temp()
-	slot0.항 = {
-		문 = {
+	uv0["항"] = {
+		["문"] = {
 			this = true
 		}
 	}
@@ -1578,8 +1579,8 @@ end
 temp()
 
 function temp()
-	slot0.거 = {
-		유 = {
+	uv0["거"] = {
+		["유"] = {
 			this = true
 		}
 	}
@@ -1588,8 +1589,8 @@ end
 temp()
 
 function temp()
-	slot0.Ｇ = {
-		Ｍ = {
+	uv0["Ｇ"] = {
+		["Ｍ"] = {
 			this = true
 		}
 	}
@@ -1598,8 +1599,8 @@ end
 temp()
 
 function temp()
-	slot0.매 = {
-		음 = {
+	uv0["매"] = {
+		["음"] = {
 			this = true
 		}
 	}
@@ -1608,9 +1609,9 @@ end
 temp()
 
 function temp()
-	slot0.이 = {
-		기 = {
-			야 = {
+	uv0["이"] = {
+		["기"] = {
+			["야"] = {
 				this = true
 			}
 		}
@@ -1620,13 +1621,13 @@ end
 temp()
 
 function temp()
-	slot0.노 = {
-		무 = {
-			현 = {
+	uv0["노"] = {
+		["무"] = {
+			["현"] = {
 				this = true
 			}
 		},
-		예 = {
+		["예"] = {
 			this = true
 		}
 	}
@@ -1635,8 +1636,8 @@ end
 temp()
 
 function temp()
-	slot0.놈 = {
-		현 = {
+	uv0["놈"] = {
+		["현"] = {
 			this = true
 		}
 	}
@@ -1645,12 +1646,12 @@ end
 temp()
 
 function temp()
-	slot0.ㅆ = {
-		ㅂ = {
+	uv0["ㅆ"] = {
+		["ㅂ"] = {
 			this = true
 		},
-		발 = {
-			아 = {
+		["발"] = {
+			["아"] = {
 				this = true
 			}
 		}
@@ -1660,11 +1661,11 @@ end
 temp()
 
 function temp()
-	slot0.병 = {
-		신 = {
+	uv0["병"] = {
+		["신"] = {
 			this = true,
-			새 = {
-				끼 = {
+			["새"] = {
+				["끼"] = {
 					this = true
 				}
 			}
@@ -1675,11 +1676,11 @@ end
 temp()
 
 function temp()
-	slot0.ㅂ = {
-		ㅅ = {
+	uv0["ㅂ"] = {
+		["ㅅ"] = {
 			this = true
 		},
-		ㅈ = {
+		["ㅈ"] = {
 			this = true
 		}
 	}
@@ -1688,8 +1689,8 @@ end
 temp()
 
 function temp()
-	slot0.ㅈ = {
-		ㅈ = {
+	uv0["ㅈ"] = {
+		["ㅈ"] = {
 			this = true
 		}
 	}
@@ -1698,8 +1699,8 @@ end
 temp()
 
 function temp()
-	slot0.존 = {
-		나 = {
+	uv0["존"] = {
+		["나"] = {
 			this = true
 		}
 	}
@@ -1708,8 +1709,8 @@ end
 temp()
 
 function temp()
-	slot0.잠 = {
-		지 = {
+	uv0["잠"] = {
+		["지"] = {
 			this = true
 		}
 	}
@@ -1718,8 +1719,8 @@ end
 temp()
 
 function temp()
-	slot0.짬 = {
-		지 = {
+	uv0["짬"] = {
+		["지"] = {
 			this = true
 		}
 	}
@@ -1728,9 +1729,9 @@ end
 temp()
 
 function temp()
-	slot0.소 = {
-		라 = {
-			넷 = {
+	uv0["소"] = {
+		["라"] = {
+			["넷"] = {
 				this = true
 			}
 		}
@@ -1740,9 +1741,9 @@ end
 temp()
 
 function temp()
-	slot0.초 = {
-		대 = {
-			남 = {
+	uv0["초"] = {
+		["대"] = {
+			["남"] = {
 				this = true
 			}
 		}
@@ -1752,9 +1753,9 @@ end
 temp()
 
 function temp()
-	slot0.j = {
+	uv0.j = {
 		i = {
-			랄 = {
+			["랄"] = {
 				this = true
 			}
 		}
@@ -1764,9 +1765,9 @@ end
 temp()
 
 function temp()
-	slot0.z = {
+	uv0.z = {
 		i = {
-			랄 = {
+			["랄"] = {
 				this = true
 			}
 		}
@@ -1776,13 +1777,11 @@ end
 temp()
 
 function temp()
-	slot0.똥 = {
-		꼬 = {
+	uv0["똥"] = {
+		["꼬"] = {
 			this = true
 		}
 	}
 end
 
 temp()
-
-return

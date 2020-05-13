@@ -10,8 +10,8 @@ function slot0.execute(slot0, slot1)
 		skin_id = slot2.skinId
 	}, 12203, function (slot0)
 		if slot0.result == 0 then
-			slot1 = getProxy(BayProxy)
-			slot1:getShipById(slot0).skinId = slot1 or 0
+			slot2 = getProxy(BayProxy):getShipById(uv0)
+			slot2.skinId = uv1 or 0
 
 			if slot2.skinId == 0 then
 				slot2.skinId = slot2:getConfig("skin_id")
@@ -23,17 +23,17 @@ function slot0.execute(slot0, slot1)
 
 			slot1:updateShip(slot2)
 
-			if getProxy(PlayerProxy).getData(slot3).character == slot0 then
+			if getProxy(PlayerProxy):getData().character == uv0 then
 				slot4.skinId = slot2.skinId
 
 				slot3:updatePlayer(slot4)
 			end
 
-			slot2:sendNotification(slot3.SKIN_UPDATED, {
+			uv2:sendNotification(uv3.SKIN_UPDATED, {
 				ship = slot2
 			})
 
-			if not slot4 then
+			if not uv4 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_set_skin_success"))
 			end
 		else

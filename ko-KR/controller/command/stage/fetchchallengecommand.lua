@@ -1,4 +1,6 @@
-class("FetchChallengeCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("FetchChallengeCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) and not slot3:isEnd() then
 		pg.ConnectionMgr.GetInstance():Send(24004, {
 			act = Challenge.FETCH_CHALLENGE,
@@ -14,7 +16,7 @@ class("FetchChallengeCommand", pm.SimpleCommand).execute = function (slot0, slot
 				end
 
 				if slot2:isClear() then
-					slot0:sendNotification(GAME.CHALLENGE_RESET)
+					uv0:sendNotification(GAME.CHALLENGE_RESET)
 				end
 			end
 		end)
@@ -30,4 +32,4 @@ class("FetchChallengeCommand", pm.SimpleCommand).execute = function (slot0, slot
 	end
 end
 
-return class("FetchChallengeCommand", pm.SimpleCommand)
+return slot0

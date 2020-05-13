@@ -28,11 +28,13 @@ function slot0.init(slot0)
 end
 
 function slot0.NotifyIns(slot0, slot1, slot2)
-	setActive(slot0.activityInsBtn, slot1:ExistMsg() and (not slot2 or slot2:isEnd()))
+	slot3 = slot1:ExistMsg() and (not slot2 or slot2:isEnd())
 
-	if slot1.ExistMsg() and (not slot2 or slot2.isEnd()) then
+	setActive(slot0.activityInsBtn, slot3)
+
+	if slot3 then
 		onButton(slot0, slot0.activityInsBtn, function ()
-			slot0:emit(CommissionInfoMediator.ON_INS)
+			uv0:emit(CommissionInfoMediator.ON_INS)
 		end, SFX_PANEL)
 	end
 end
@@ -40,7 +42,7 @@ end
 function slot0.UpdateLinkPanel(slot0)
 	slot1 = false
 
-	for slot5 = 1, slot0.linkBtnPanel.childCount, 1 do
+	for slot5 = 1, slot0.linkBtnPanel.childCount do
 		if isActive(slot0.linkBtnPanel:GetChild(slot5 - 1)) then
 			slot1 = true
 
@@ -53,48 +55,66 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.oilbubbleTF, function ()
-		if LeanTween.isTweening(go(slot0.frame)) then
+		if LeanTween.isTweening(go(uv0.frame)) then
 			return
 		end
 
-		slot0:emit(CommissionInfoMediator.GET_OIL_RES)
+		uv0:emit(CommissionInfoMediator.GET_OIL_RES)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.goldbubbleTF, function ()
-		if LeanTween.isTweening(go(slot0.frame)) then
+		if LeanTween.isTweening(go(uv0.frame)) then
 			return
 		end
 
-		slot0:emit(CommissionInfoMediator.GET_GOLD_RES)
+		uv0:emit(CommissionInfoMediator.GET_GOLD_RES)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf, function ()
-		if LeanTween.isTweening(go(slot0.frame)) then
+		if LeanTween.isTweening(go(uv0.frame)) then
 			return
 		end
 
-		if slot0.contextData.inFinished then
+		if uv0.contextData.inFinished then
 			return
 		end
 
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SOUND_BACK)
 	slot0:initProjects()
 end
 
 function slot0.initProjects(slot0)
+	slot5 = "main/content/technology"
+	slot6 = slot0.frame
 	slot0.projectCards = {}
 
-	for slot5, slot6 in ipairs(slot1) do
+	for slot5, slot6 in ipairs({
+		{
+			CommissionCard.TYPE_EVENT,
+			slot0:findTF("main/content/event", slot0.frame),
+			slot0.eventProxy
+		},
+		{
+			CommissionCard.TYPE_CLASS,
+			slot0:findTF("main/content/class", slot0.frame),
+			slot0.navalAcademyProxy
+		},
+		{
+			CommissionCard.TYPE_TECHNOLOGY,
+			slot0:findTF(slot5, slot6),
+			slot0.technologyProxy
+		}
+	}) do
 		slot7 = CommissionCard.New(slot0, slot6)
 		slot0.projectCards[slot6[1]] = slot7
 
 		slot7:update()
 		onToggle(slot0, slot7.toggle, function (slot0)
-			slot0:updateTips(slot0)
+			uv0:updateTips(slot0)
 
 			if slot0 then
 				slot1, slot2 = nil
 
-				if slot0._type == CommissionCard.TYPE_TECHNOLOGY then
+				if uv0._type == CommissionCard.TYPE_TECHNOLOGY then
 					slot1, slot2 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "TechnologyMediator")
 				else
 					slot1 = true
@@ -102,21 +122,21 @@ function slot0.initProjects(slot0)
 
 				if not slot1 then
 					pg.TipsMgr.GetInstance():ShowTips(slot2)
-					triggerToggle(slot0.toggle)
+					triggerToggle(uv0.toggle)
 
 					return
 				end
 
-				slot1.projectContainer.localPosition = Vector3(slot1.projectContainer.localPosition.x, math.abs(slot0._tf.localPosition.y), 0)
+				uv1.projectContainer.localPosition = Vector3(uv1.projectContainer.localPosition.x, math.abs(uv0._tf.localPosition.y), 0)
 			end
 		end, SFX_PANEL)
 		onButton(slot0, slot7.goBtn, function ()
-			if slot0._type == CommissionCard.TYPE_EVENT then
-				slot1:emit(CommissionInfoMediator.ON_ACTIVE_EVENT)
-			elseif slot0._type == CommissionCard.TYPE_CLASS then
-				slot1:emit(CommissionInfoMediator.ON_ACTIVE_CLASS)
-			elseif slot0._type == CommissionCard.TYPE_TECHNOLOGY then
-				slot1:emit(CommissionInfoMediator.ON_ACTIVE_TECH)
+			if uv0._type == CommissionCard.TYPE_EVENT then
+				uv1:emit(CommissionInfoMediator.ON_ACTIVE_EVENT)
+			elseif uv0._type == CommissionCard.TYPE_CLASS then
+				uv1:emit(CommissionInfoMediator.ON_ACTIVE_CLASS)
+			elseif uv0._type == CommissionCard.TYPE_TECHNOLOGY then
+				uv1:emit(CommissionInfoMediator.ON_ACTIVE_TECH)
 			end
 		end, SFX_PANEL)
 	end

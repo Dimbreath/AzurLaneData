@@ -149269,5 +149269,3 @@ pg.chapter_template_loop = {
 		2200013
 	}
 }
-
-return

@@ -9,14 +9,14 @@ function slot1.Ctor(slot0)
 	})
 
 	function slot0.commonEffectEvent(slot0)
-		if slot0.effectCbMap[slot0][2] ~= nil then
+		if uv0.effectCbMap[slot0][2] ~= nil then
 			slot2(slot0)
 		end
 
-		slot0.effectCbMap[slot0] = nil
+		uv0.effectCbMap[slot0] = nil
 
 		if slot1[1] then
-			slot1:DestroyOb(slot0)
+			uv1:DestroyOb(slot0)
 		else
 			slot0:SetActive(false)
 		end
@@ -58,9 +58,9 @@ function slot1.BattleUIEffect(slot0, slot1, slot2)
 			return
 		end
 
-		LuaHelper.SetGOParentGO(slot0, slot2, false)
+		LuaHelper.SetGOParentGO(slot0, uv0.UIMgr.GetInstance().UIMain, false)
 		SetActive(slot0, true)
-		slot1(slot0)
+		uv1(slot0)
 	end)
 end
 
@@ -69,5 +69,3 @@ function slot1.EndEffect(slot0, slot1)
 		slot2:GetComponent(typeof(ParticleSystem)):Stop()
 	end
 end
-
-return

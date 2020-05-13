@@ -57,7 +57,7 @@ slot0.eliteConditionCompare = {
 }
 
 function slot0.EliteCondition2Name(slot0)
-	return slot0.eliteCondition[slot0]
+	return uv0.eliteCondition[slot0]
 end
 
 return slot0

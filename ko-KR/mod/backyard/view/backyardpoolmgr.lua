@@ -30,7 +30,7 @@ function slot0.Ctor(slot0)
 end
 
 function slot0.init(slot0)
-	for slot4, slot5 in pairs(slot0.POOL_NAME) do
+	for slot4, slot5 in pairs(uv0.POOL_NAME) do
 		if not slot0.pools[slot5] then
 			slot0:initPool(slot5)
 		end
@@ -38,12 +38,14 @@ function slot0.init(slot0)
 end
 
 function slot0.initPool(slot0, slot1)
-	slot7, slot8, slot6 = slot0:getPrefab(slot1)
-	slot0.pools[slot1] = BackyardPool.New(slot2, slot3)
+	slot2, slot8, slot4 = slot0:getPrefab(slot1)
+	slot0.pools[slot1] = BackyardPool.New(slot2, slot8)
 
-	for slot8 = 1, slot4, 1 do
+	for slot8 = 1, slot4 do
+		slot9 = instantiate(slot2)
+
 		setParent(slot9, slot0.root)
-		slot0.pools[slot1]:Enqueue(instantiate(slot2))
+		slot0.pools[slot1]:Enqueue(slot9)
 	end
 end
 
@@ -60,7 +62,7 @@ function slot0.Dequeue(slot0, slot1)
 	slot2 = nil
 
 	if not slot0.pools[slot1] then
-		slot8, slot9, slot5 = slot0:getPrefab(slot1)
+		slot3, slot4, slot5 = slot0:getPrefab(slot1)
 		slot0.pools[slot1] = BackyardPool.New(slot3, slot4)
 		slot2 = slot0.pools[slot1]:Dequeue()
 	else
@@ -71,7 +73,7 @@ function slot0.Dequeue(slot0, slot1)
 end
 
 function slot0.getPrefab(slot0, slot1)
-	return slot0[slot1 .. "Prefab"], slot0.POOL_SIZE[slot1][1], slot0.POOL_SIZE[slot1][2]
+	return slot0[slot1 .. "Prefab"], uv0.POOL_SIZE[slot1][1], uv0.POOL_SIZE[slot1][2]
 end
 
 function slot0.dealEnqueueItems(slot0, slot1, slot2)
@@ -83,7 +85,6 @@ function slot0.dealEnqueueItems(slot0, slot1, slot2)
 end
 
 function slot0.gridDeal(slot0, slot1)
-	return
 end
 
 function slot0.wallDeal(slot0, slot1)
@@ -91,7 +92,6 @@ function slot0.wallDeal(slot0, slot1)
 end
 
 function slot0.furnitureDeal(slot0, slot1)
-	return
 end
 
 function slot0.clear(slot0)

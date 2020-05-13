@@ -13,36 +13,36 @@ slot0.OPEN_EQUIPSKIN_INDEX_LAYER = "EquipmentMediator:OPEN_EQUIPSKIN_INDEX_LAYER
 
 function slot0.register(slot0)
 	if not slot0.contextData.warp then
-		slot0.contextData.warp = getProxy(SettingsProxy).getEquipSceneIndex(slot1)
+		slot0.contextData.warp = getProxy(SettingsProxy):getEquipSceneIndex()
 	end
 
-	slot0:bind(slot0.ITEM_GO_SCENE, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.GO_SCENE, slot1, slot2)
+	slot0:bind(uv0.ITEM_GO_SCENE, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.GO_SCENE, slot1, slot2)
 	end)
-	slot0:bind(slot0.ON_USE_ITEM, function (slot0, slot1, slot2, slot3)
-		slot0:sendNotification(GAME.USE_ITEM, {
+	slot0:bind(uv0.ON_USE_ITEM, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.USE_ITEM, {
 			id = slot1,
 			count = slot2,
 			arg = slot3
 		})
 	end)
-	slot0:bind(slot0.ON_DESTROY, function (slot0, slot1)
-		slot0:sendNotification(GAME.DESTROY_EQUIPMENTS, {
+	slot0:bind(uv0.ON_DESTROY, function (slot0, slot1)
+		uv0:sendNotification(GAME.DESTROY_EQUIPMENTS, {
 			equipments = slot1
 		})
 	end)
-	slot0:bind(slot0.ON_UNEQUIP_EQUIPMENT, function (slot0)
-		slot0:sendNotification(GAME.UNEQUIP_FROM_SHIP, {
-			shipId = slot0.contextData.shipId,
-			pos = slot0.contextData.pos
+	slot0:bind(uv0.ON_UNEQUIP_EQUIPMENT, function (slot0)
+		uv0:sendNotification(GAME.UNEQUIP_FROM_SHIP, {
+			shipId = uv0.contextData.shipId,
+			pos = uv0.contextData.pos
 		})
 	end)
-	slot0:bind(slot0.OPEN_DESIGN, function (slot0)
-		if getProxy(ContextProxy).getContextByMediator(slot1, EquipmentMediator):getContextByMediator(EquipmentDesignMediator) then
+	slot0:bind(uv0.OPEN_DESIGN, function (slot0)
+		if getProxy(ContextProxy):getContextByMediator(EquipmentMediator):getContextByMediator(EquipmentDesignMediator) then
 			return
 		end
 
-		slot0:addSubLayers(Context.New({
+		uv0:addSubLayers(Context.New({
 			viewComponent = EquipmentDesignLayer,
 			mediator = EquipmentDesignMediator,
 			data = {
@@ -50,35 +50,36 @@ function slot0.register(slot0)
 			}
 		}))
 	end)
-	slot0:bind(slot0.CLOSE_DESIGN_LAYER, function (slot0)
-		if getProxy(ContextProxy).getContextByMediator(slot1, EquipmentMediator):getContextByMediator(EquipmentDesignMediator) then
-			slot0:sendNotification(GAME.REMOVE_LAYERS, {
+	slot0:bind(uv0.CLOSE_DESIGN_LAYER, function (slot0)
+		if getProxy(ContextProxy):getContextByMediator(EquipmentMediator):getContextByMediator(EquipmentDesignMediator) then
+			uv0:sendNotification(GAME.REMOVE_LAYERS, {
 				context = slot3
 			})
 		end
 	end)
-	slot0:bind(slot0.ON_EQUIPMENT_SKIN_INFO, function (slot0, slot1, slot2, slot3)
-		slot0:addSubLayers(Context.New({
+	slot0:bind(uv0.ON_EQUIPMENT_SKIN_INFO, function (slot0, slot1, slot2, slot3)
+		slot8.mode = uv0.contextData.shipId and EquipmentSkinLayer.REPLACE or EquipmentSkinLayer.DISPLAY
+		slot8.oldShipInfo = slot3
+		slot8.pos = slot2
+
+		uv0:addSubLayers(Context.New({
 			mediator = EquipmentSkinMediator,
 			viewComponent = EquipmentSkinLayer,
 			data = {
 				skinId = slot1,
-				shipId = slot0.contextData.shipId,
-				mode = (slot0.contextData.shipId and EquipmentSkinLayer.REPLACE) or EquipmentSkinLayer.DISPLAY,
-				oldShipInfo = slot3,
-				pos = slot2
+				shipId = uv0.contextData.shipId
 			}
 		}))
 	end)
-	slot0:bind(slot0.ON_UNEQUIP_EQUIPMENT_SKIN, function (slot0)
-		slot0:sendNotification(GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP, {
+	slot0:bind(uv0.ON_UNEQUIP_EQUIPMENT_SKIN, function (slot0)
+		uv0:sendNotification(GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP, {
 			equipmentSkinId = 0,
-			shipId = slot0.contextData.shipId,
-			pos = slot0.contextData.pos
+			shipId = uv0.contextData.shipId,
+			pos = uv0.contextData.pos
 		})
 	end)
-	slot0:bind(slot0.OPEN_EQUIPSKIN_INDEX_LAYER, function (slot0, slot1)
-		slot0:addSubLayers(Context.New({
+	slot0:bind(uv0.OPEN_EQUIPSKIN_INDEX_LAYER, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
 			mediator = IndexMediator,
 			viewComponent = IndexLayer,
 			data = slot1
@@ -87,7 +88,7 @@ function slot0.register(slot0)
 
 	slot0.canUpdate = true
 
-	slot0.viewComponent:setShip(getProxy(BayProxy).getShipById(slot1, slot0.contextData.shipId))
+	slot0.viewComponent:setShip(getProxy(BayProxy):getShipById(slot0.contextData.shipId))
 
 	slot0.equipmentProxy = getProxy(EquipmentProxy)
 	slot3 = {}
@@ -95,10 +96,8 @@ function slot0.register(slot0)
 	if slot0.contextData.equipmentVOs then
 		slot3 = slot0.contextData.equipmentVOs
 	else
-		slot3 = slot0.equipmentProxy:getEquipments(true)
-
 		for slot7, slot8 in pairs(slot1:getEquipsInShips()) do
-			table.insert(slot3, slot8)
+			table.insert(slot0.equipmentProxy:getEquipments(true), slot8)
 		end
 
 		for slot7, slot8 in pairs(slot0.equipmentProxy:getEquipmentSkins()) do
@@ -122,8 +121,8 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:setEquipments(slot3)
 	slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
-	slot0.viewComponent:setItems(slot5)
-	slot0.viewComponent:setPlayer(getProxy(PlayerProxy).getData(slot6))
+	slot0.viewComponent:setItems(getProxy(BagProxy):getItemsByExclude())
+	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 
 function slot0.listNotificationInterests(slot0)
@@ -137,24 +136,22 @@ function slot0.listNotificationInterests(slot0)
 		GAME.DESTROY_EQUIPMENTS_DONE,
 		BagProxy.ITEM_ADDED,
 		BagProxy.ITEM_UPDATED,
-		slot0.BATCHDESTROY_MODE,
+		uv0.BATCHDESTROY_MODE,
 		GAME.EQUIP_TO_SHIP_DONE,
 		GAME.REVERT_EQUIPMENT_DONE,
 		EquipmentProxy.EQUIPMENT_SKIN_UPDATED,
 		GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP_DONE,
 		GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP_DONE,
-		slot0.NO_UPDATE,
+		uv0.NO_UPDATE,
 		GAME.FRAG_SELL_DONE
 	}
 end
 
 function slot0.handleNotification(slot0, slot1)
-	slot3 = slot1:getBody()
-
 	if slot1:getName() == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED then
 		if slot0.canUpdate then
 			slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
-			slot0.viewComponent:setEquipment(slot3)
+			slot0.viewComponent:setEquipment(slot1:getBody())
 		end
 	elseif slot2 == EquipmentProxy.EQUIPMENT_REMOVED then
 		slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
@@ -187,9 +184,9 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == BagProxy.ITEM_ADDED or slot2 == BagProxy.ITEM_UPDATED then
 		if slot0.canUpdate then
-			slot0.viewComponent:setItems(getProxy(BagProxy).getItemsByExclude(slot4))
+			slot0.viewComponent:setItems(getProxy(BagProxy):getItemsByExclude())
 		end
-	elseif slot2 == slot0.BATCHDESTROY_MODE then
+	elseif slot2 == uv0.BATCHDESTROY_MODE then
 		slot0.viewComponent:SwitchToDestroy()
 	elseif slot2 == GAME.REVERT_EQUIPMENT_DONE then
 		if table.getCount(slot3.awards) > 0 then
@@ -201,7 +198,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:emit(BaseUI.ON_BACK)
 	elseif slot2 == GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP_DONE or slot2 == GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_BACK)
-	elseif slot2 == slot0.NO_UPDATE then
+	elseif slot2 == uv0.NO_UPDATE then
 		slot0.canUpdate = false
 	end
 end

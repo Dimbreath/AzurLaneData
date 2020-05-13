@@ -1,5 +1,7 @@
-class("GatewayNotice", import(".Notice")).prefKey = function (slot0)
+slot0 = class("GatewayNotice", import(".Notice"))
+
+function slot0.prefKey(slot0)
 	return "GatewayNotice" .. slot0.id
 end
 
-return class("GatewayNotice", import(".Notice"))
+return slot0

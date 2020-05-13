@@ -8,9 +8,9 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	slot0.super.OnUpdateFlush(slot0)
+	uv0.super.OnUpdateFlush(slot0)
 	eachChild(slot0.items, function (slot0)
-		setText(slot0:findTF("day/Text", slot0), slot0:GetSiblingIndex() + 1)
+		setText(uv0:findTF("day/Text", slot0), slot0:GetSiblingIndex() + 1)
 	end)
 end
 

@@ -929,5 +929,3 @@ shamshop = slot0.Message(SHAMSHOP)
 shamtargetinfo = slot0.Message(SHAMTARGETINFO)
 shipinsham = slot0.Message(SHIPINSHAM)
 strategyinfo = slot0.Message(STRATEGYINFO)
-
-return

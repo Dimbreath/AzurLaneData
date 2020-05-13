@@ -7373,5 +7373,3 @@ pg.fleet_tech_ship_template = {
 		99901
 	}
 }
-
-return

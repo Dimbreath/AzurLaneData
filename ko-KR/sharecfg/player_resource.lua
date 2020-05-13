@@ -644,5 +644,3 @@ pg.player_resource = {
 		2006
 	}
 }
-
-return

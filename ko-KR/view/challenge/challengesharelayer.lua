@@ -29,21 +29,21 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.touchBtn, function ()
-		if slot0.isLoading then
+		if uv0.isLoading then
 			return
 		end
 
-		slot0:closeView()
+		uv0:closeView()
 	end, SFX_PANEL)
 	slot0.itemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			table.insert(slot0.funcs, function (slot0)
-				LoadSpriteAsync("shipYardIcon/" .. slot0.shipPaintList[slot1 + 1], function (slot0)
-					if not IsNil(slot0) then
-						setImageSprite(slot0:Find("back/Image"), slot0)
+			table.insert(uv0.funcs, function (slot0)
+				LoadSpriteAsync("shipYardIcon/" .. uv0.shipPaintList[uv1 + 1], function (slot0)
+					if not IsNil(uv0) then
+						setImageSprite(uv0:Find("back/Image"), slot0)
 					end
 
-					slot1()
+					uv1()
 				end)
 			end)
 		end
@@ -56,13 +56,13 @@ function slot0.flush(slot0)
 
 	slot0.itemList:align(#slot0.shipPaintList)
 	table.insert(slot0.funcs, function (slot0)
-		setPaintingPrefabAsync(slot0.painting, slot0.flagShipPaint, "chuanwu", slot0)
+		setPaintingPrefabAsync(uv0.painting, uv0.flagShipPaint, "chuanwu", slot0)
 	end)
 
 	slot0.isLoading = true
 
 	parallelAsync(slot0.funcs, function ()
-		slot0.isLoading = false
+		uv0.isLoading = false
 
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeChallenge)
 	end)

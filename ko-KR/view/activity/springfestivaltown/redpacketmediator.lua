@@ -1,7 +1,6 @@
 slot0 = class("RedPacketMediator", import("...base.ContextMediator"))
 
 function slot0.register(slot0)
-	return
 end
 
 function slot0.listNotificationInterests(slot0)

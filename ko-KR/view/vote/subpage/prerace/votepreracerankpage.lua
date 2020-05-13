@@ -16,33 +16,33 @@ function slot0.OnInit(slot0)
 	slot0.rankTitle = slot0:findTF("titles/rank_title")
 
 	onButton(slot0, slot0.nextBtn, function ()
-		if slot0.maxPage < slot0.page + 1 then
+		if uv0.maxPage < uv0.page + 1 then
 			slot0 = 1
 		end
 
-		slot0.page = slot0
+		uv0.page = slot0
 
-		slot0:initRank(slot0.page)
+		uv0:initRank(uv0.page)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.prevBtn, function ()
-		if slot0.page - 1 <= 0 then
-			slot0 = slot0.maxPage
+		if uv0.page - 1 <= 0 then
+			slot0 = uv0.maxPage
 		end
 
-		slot0.page = slot0
+		uv0.page = slot0
 
-		slot0:initRank(slot0.page)
+		uv0:initRank(uv0.page)
 	end, SFX_PANEL)
 	setActive(slot0._tf, true)
 end
 
 function slot0.initRank(slot0, slot1)
-	slot2 = (slot1 - 1) * slot0.RANK_DISPLAY_COUNT
+	slot2 = (slot1 - 1) * uv0.RANK_DISPLAY_COUNT
 	slot3 = slot0.voteShips
 
 	slot0.uiitemlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			if slot1[slot0 + slot1 + 1] then
+			if uv1[uv0 + slot1 + 1] then
 				setText(slot2:Find("Text"), slot4:getShipName())
 				setText(slot2:Find("number"), slot3)
 			end
@@ -50,7 +50,7 @@ function slot0.initRank(slot0, slot1)
 			setActive(slot2, slot4)
 		end
 	end)
-	slot0.uiitemlist:align(slot0.RANK_DISPLAY_COUNT)
+	slot0.uiitemlist:align(uv0.RANK_DISPLAY_COUNT)
 	slot0:UpdateTitle()
 end
 
@@ -63,7 +63,7 @@ end
 function slot0.Update(slot0, slot1)
 	slot0.voteShips = slot1:getList()
 	slot0.page = 1
-	slot0.maxPage = math.ceil(#slot0.voteShips / slot0.RANK_DISPLAY_COUNT)
+	slot0.maxPage = math.ceil(#slot0.voteShips / uv0.RANK_DISPLAY_COUNT)
 	slot0.phase = slot1:GetStage()
 
 	setActive(slot0.title1, slot0.phase == VoteGroup.VOTE_STAGE or slot0.phase == VoteGroup.STTLEMENT_STAGE)
@@ -73,7 +73,6 @@ function slot0.Update(slot0, slot1)
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

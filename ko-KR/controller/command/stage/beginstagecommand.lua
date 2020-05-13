@@ -1,8 +1,10 @@
 slot0 = class("BeginStageCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+
 	ys.Battle.BattleState.GenerateVertifyData()
-	ys.Battle.BattleGate.Gates[slot1:getBody().system].Entrance(slot1.getBody(), slot0)
+	ys.Battle.BattleGate.Gates[slot2.system].Entrance(slot2, slot0)
 end
 
 function slot0.RequestFailStandardProcess(slot0, slot1)
@@ -22,15 +24,15 @@ function slot0.SendRequest(slot0, slot1, slot2, slot3, slot4)
 		data2 = slot2[2]
 	}, 40002, function (slot0)
 		if slot0.result == 0 then
-			slot0(slot0)
+			uv0(slot0)
 		else
-			slot1(slot0)
+			uv1(slot0)
 		end
 	end)
 end
 
 function slot0.DockOverload()
-	if getProxy(PlayerProxy).getData(slot0).ship_bag_max <= getProxy(BayProxy).getShipCount(slot2) then
+	if getProxy(PlayerProxy):getData().ship_bag_max <= getProxy(BayProxy):getShipCount() then
 		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 
 		return true
@@ -58,7 +60,7 @@ function slot0.LegalFleet(slot0)
 end
 
 function slot0.ShipVertify()
-	for slot5, slot6 in pairs(slot1) do
+	for slot5, slot6 in pairs(getProxy(BayProxy):getRawData()) do
 		if not slot6:attrVertify() then
 			BattleVertify.playerShipVertifyFail = true
 

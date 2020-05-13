@@ -73210,5 +73210,3 @@ pg.barrage_template = {
 		990361
 	}
 }
-
-return

@@ -1249,5 +1249,3 @@ pg.activity_random_award_item = {
 		100030
 	}
 }
-
-return

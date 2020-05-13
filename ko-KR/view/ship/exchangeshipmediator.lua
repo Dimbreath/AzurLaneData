@@ -19,24 +19,24 @@ function slot0.register(slot0)
 		slot0.viewComponent:setExchangeItemList(slot6, slot5)
 	end
 
-	slot0.viewComponent:setItemVOs(slot8)
-	slot0:bind(slot0.GET_EXCHANGE_SHIPS, function (slot0, slot1)
-		slot0:sendNotification(GAME.GET_EXCHANGE_SHIPS, {
+	slot0.viewComponent:setItemVOs(getProxy(BagProxy):getItemById(ITEM_ID_SILVER_HOOK))
+	slot0:bind(uv0.GET_EXCHANGE_SHIPS, function (slot0, slot1)
+		uv0:sendNotification(GAME.GET_EXCHANGE_SHIPS, {
 			time = slot1
 		})
 	end)
-	slot0:bind(slot0.SHIP_EXCHANGE, function (slot0, slot1)
-		slot0:sendNotification(GAME.EXCHANGE_SHIP, {
+	slot0:bind(uv0.SHIP_EXCHANGE, function (slot0, slot1)
+		uv0:sendNotification(GAME.EXCHANGE_SHIP, {
 			index = slot1
 		})
 	end)
-	slot0:bind(slot0.GET_EXCHANGE_ITEMS, function (slot0)
-		slot0:sendNotification(GAME.GET_EXCHANGE_ITEMS, {
+	slot0:bind(uv0.GET_EXCHANGE_ITEMS, function (slot0)
+		uv0:sendNotification(GAME.GET_EXCHANGE_ITEMS, {
 			type = 0
 		})
 	end)
-	slot0:bind(slot0.ITEM_EXCHANGE, function (slot0, slot1)
-		slot0:sendNotification(GAME.EXCHANGE_ITEM, {
+	slot0:bind(uv0.ITEM_EXCHANGE, function (slot0, slot1)
+		uv0:sendNotification(GAME.EXCHANGE_ITEM, {
 			index = slot1
 		})
 	end)

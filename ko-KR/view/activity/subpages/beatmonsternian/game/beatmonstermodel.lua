@@ -52,12 +52,10 @@ function slot0.GetPlayableStory(slot0)
 		return
 	end
 
-	slot2 = pg.StoryMgr.GetInstance()
-
 	for slot6, slot7 in pairs(slot1) do
 		slot9 = slot7[2]
 
-		if slot0.mosterNian.hp <= slot7[1] and not slot2:IsPlayed(slot9) then
+		if slot0.mosterNian.hp <= slot7[1] and not pg.StoryMgr.GetInstance():IsPlayed(slot9) then
 			return slot9
 		end
 	end
@@ -92,7 +90,6 @@ function slot0.GetAttackCount(slot0)
 end
 
 function slot0.Dispose(slot0)
-	return
 end
 
 return slot0
