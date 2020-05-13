@@ -1,7 +1,7 @@
 slot0 = class("MiniGameData", import(".BaseVO"))
 
 function slot0.Ctor(slot0, slot1)
-	slot0.super.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1)
 
 	slot0.id = slot1.id
 	slot0.configId = slot1.id

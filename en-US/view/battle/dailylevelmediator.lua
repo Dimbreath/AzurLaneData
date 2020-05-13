@@ -11,7 +11,7 @@ slot0.ON_CHALLENGE_OPEN_DOCK = "DailyLevelMediator:ON_CHALLENGE_OPEN_DOCK"
 slot0.ON_CHALLENGE_OPEN_RANK = "DailyLevelMediator:ON_CHALLENGE_OPEN_RANK"
 
 function slot0.register(slot0)
-	slot0.viewComponent:setDailyCounts(getProxy(DailyLevelProxy).getRawData(slot1))
+	slot0.viewComponent:setDailyCounts(getProxy(DailyLevelProxy):getRawData())
 
 	slot2 = getProxy(BayProxy)
 
@@ -20,9 +20,9 @@ function slot0.register(slot0)
 	slot0.ships = slot2:getRawData()
 
 	slot0.viewComponent:setShips(slot0.ships)
-	slot0.viewComponent:updateRes(slot4)
-	slot0:bind(slot0.ON_STAGE, function (slot0, slot1)
-		slot0.dailyLevelId = slot1.contextData.dailyLevelId
+	slot0.viewComponent:updateRes(getProxy(PlayerProxy):getData())
+	slot0:bind(uv0.ON_STAGE, function (slot0, slot1)
+		uv0.dailyLevelId = uv1.contextData.dailyLevelId
 		slot2 = PreCombatLayer
 		slot3 = SYSTEM_ROUTINE
 
@@ -31,7 +31,7 @@ function slot0.register(slot0)
 			slot3 = SYSTEM_SUB_ROUTINE
 		end
 
-		slot1:addSubLayers(Context.New({
+		uv1:addSubLayers(Context.New({
 			mediator = PreCombatMediator,
 			viewComponent = slot2,
 			data = {
@@ -40,70 +40,68 @@ function slot0.register(slot0)
 			}
 		}))
 	end)
-	slot0:bind(slot0.ON_CHALLENGE, function ()
-		slot0.viewComponent:openChallengeView()
+	slot0:bind(uv0.ON_CHALLENGE, function ()
+		uv0.viewComponent:openChallengeView()
 	end)
-	slot0:bind(slot0.ON_CHALLENGE_EDIT_FLEET, function (slot0, slot1)
+	slot0:bind(uv0.ON_CHALLENGE_EDIT_FLEET, function (slot0, slot1)
 		slot2 = challengeProxy:getCurrentChallengeInfo()
 
 		slot2:setDamageRateID(slot1.damageRateID)
 		slot2:setLevelRateID(slot1.levelRateID)
 		challengeProxy:updateChallenge(slot2)
-		slot0.viewComponent:openChallengeFleetEditView()
+		uv0.viewComponent:openChallengeFleetEditView()
 	end)
-	slot0:bind(slot0.ON_CONTINUE_CHALLENGE, function ()
-		slot0:addSubLayers(Context.New({
+	slot0:bind(uv0.ON_CONTINUE_CHALLENGE, function ()
+		uv0:addSubLayers(Context.New({
 			mediator = ChallengePreCombatMediator,
 			viewComponent = ChallengePreCombatLayer,
 			data = {}
 		}))
 	end)
-	slot0:bind(slot0.ON_RESET_CHALLENGE, function ()
-		slot0:sendNotification(GAME.CHALLENGE_RESET)
+	slot0:bind(uv0.ON_RESET_CHALLENGE, function ()
+		uv0:sendNotification(GAME.CHALLENGE_RESET)
 	end)
-	slot0:bind(slot0.ON_CHALLENGE_FLEET_CLEAR, function ()
+	slot0:bind(uv0.ON_CHALLENGE_FLEET_CLEAR, function ()
 		challengeProxy:clearEdittingFleet()
-		challengeProxy.clearEdittingFleet.viewComponent:flushFleetEditButton()
+		uv0.viewComponent:flushFleetEditButton()
 	end)
-	slot0:bind(slot0.ON_CHALLENGE_FLEET_RECOMMEND, function ()
+	slot0:bind(uv0.ON_CHALLENGE_FLEET_RECOMMEND, function ()
 		challengeProxy:recommendChallengeFleet()
-		challengeProxy.recommendChallengeFleet.viewComponent:flushFleetEditButton()
+		uv0.viewComponent:flushFleetEditButton()
 	end)
-	slot0:bind(slot0.ON_REQUEST_CHALLENGE, function ()
-		slot1 = challengeProxy:getCurrentChallengeInfo().getGSRateID(slot0)
+	slot0:bind(uv0.ON_REQUEST_CHALLENGE, function ()
+		slot1 = challengeProxy:getCurrentChallengeInfo():getGSRateID()
 
-		for slot5 = 1, 4, 1 do
+		for slot5 = 1, 4 do
 			PlayerPrefs.SetInt("challengeShipUID_" .. slot5, nil)
 		end
 
-		for slot5 = 1, #slot0:getShips(), 1 do
+		for slot5 = 1, #slot0:getShips() do
 			PlayerPrefs.SetInt("challengeShipUID_" .. slot5, slot0:getShips()[slot5].id)
 		end
 
-		slot0:sendNotification(GAME.CHALLENGE_REQUEST, {
+		uv0:sendNotification(GAME.CHALLENGE_REQUEST, {
 			shipIDList = slot0:getShips(),
 			levelRate = slot0:getLevelRateID(),
 			damageRate = slot0:getDamageRateID(),
 			gsRate = slot1
 		})
 	end)
-	slot0:bind(slot0.ON_CHALLENGE_OPEN_RANK, function ()
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
+	slot0:bind(uv0.ON_CHALLENGE_OPEN_RANK, function ()
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
 			page = PowerRank.TYPE_CHALLENGE
 		})
 	end)
-	slot0:bind(slot0.ON_CHALLENGE_OPEN_DOCK, function (slot0, slot1)
+	slot0:bind(uv0.ON_CHALLENGE_OPEN_DOCK, function (slot0, slot1)
 		slot2 = slot1.shipType
 		slot3 = slot1.shipVO
 		slot4 = slot1.fleet
-		slot5 = slot1.teamType
-		slot8 = {}
 
-		for slot12, slot13 in pairs(slot7) do
-			if slot13:getTeamType() ~= slot5 or (slot2 ~= 0 and not table.contains({
+		for slot12, slot13 in pairs(getProxy(BayProxy):getRawData()) do
+			if slot13:getTeamType() ~= slot1.teamType or slot2 ~= 0 and not table.contains({
 				slot2
-			}, slot13:getShipType())) then
-				table.insert(slot8, slot12)
+			}, slot13:getShipType()) then
+				table.insert({}, slot12)
 			end
 		end
 
@@ -117,10 +115,10 @@ function slot0.register(slot0)
 			slot10 = slot3.id
 		end
 
-		slot0.contextData.challenge = true
-		slot19.onShip, slot19.confirmSelect, slot19.onSelected = slot0:getDockCallbackFuncs(slot4, slot3)
+		uv0.contextData.challenge = true
+		slot12, slot13, slot14 = uv0:getDockCallbackFuncs(slot4, slot3)
 
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMin = 0,
 			selectedMax = 1,
 			ignoredIds = slot8,
@@ -146,7 +144,7 @@ function slot0.register(slot0)
 	if slot0.contextData.loadBillBoard then
 		slot0.contextData.loadBillBoard = nil
 
-		slot0.viewComponent:emit(slot0.ON_CHALLENGE_OPEN_RANK)
+		slot0.viewComponent:emit(uv0.ON_CHALLENGE_OPEN_RANK)
 	end
 end
 
@@ -161,10 +159,8 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
-	slot3 = slot1:getBody()
-
 	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:updateRes(slot3)
+		slot0.viewComponent:updateRes(slot1:getBody())
 	elseif slot2 == ChallengeProxy.PRECOMBAT then
 		slot0:addSubLayers(Context.New({
 			mediator = ChallengePreCombatMediator,
@@ -185,25 +181,24 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:closeChallengeSettingView()
 		slot0.viewComponent:openChallengeSettingView()
 	elseif slot2 == ChallengeProxy.CHALLENGE_UPDATED then
-		slot0.viewComponent:setChallengeInfo(getProxy(ChallengeProxy).getCurrentChallengeInfo(slot4))
+		slot0.viewComponent:setChallengeInfo(getProxy(ChallengeProxy):getCurrentChallengeInfo())
 	end
 end
 
 function slot0.getDockCallbackFuncs(slot0, slot1, slot2)
 	slot3 = getProxy(BayProxy)
-	slot6 = getProxy(ChallengeProxy).getCurrentChallengeInfo(slot4).getShips(slot5)
+	slot6 = getProxy(ChallengeProxy):getCurrentChallengeInfo():getShips()
 
 	return function (slot0, slot1)
-		if slot0 and slot0:isSameKind(slot0) then
+		if uv0 and uv0:isSameKind(slot0) then
 			return true
 		end
 
 		slot2 = Challenge.shipTypeFixer(slot0:getShipType())
-		slot3 = 0
 
-		for slot7, slot8 in pairs(slot1) do
+		for slot7, slot8 in pairs(uv1) do
 			if Challenge.shipTypeFixer(slot7:getShipType()) == slot2 then
-				slot3 = slot3 + 1
+				slot3 = 0 + 1
 			end
 
 			if slot0:isSameKind(slot7) then
@@ -211,7 +206,7 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2)
 			end
 		end
 
-		if slot0 and Challenge.shipTypeFixer(slot0:getShipType()) == slot2 then
+		if uv0 and Challenge.shipTypeFixer(uv0:getShipType()) == slot2 then
 			slot3 = slot3 - 1
 		end
 
@@ -223,25 +218,27 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2)
 	end, function (slot0, slot1, slot2)
 		slot1()
 	end, function (slot0)
-		if slot0 then
-			for slot5, slot6 in ipairs(slot1) do
-				if slot6.id == slot0.id then
+		if uv0 then
+			slot1 = nil
+
+			for slot5, slot6 in ipairs(uv1) do
+				if slot6.id == uv0.id then
 					slot1 = slot5
 
 					break
 				end
 			end
 
-			table.remove(slot1, slot1)
+			table.remove(uv1, slot1)
 		end
 
 		if #slot0 > 0 then
-			slot1[#slot1 + 1] = {
+			uv1[#uv1 + 1] = {
 				id = slot0[1]
 			}
 		end
 
-		slot2:updateChallenge(slot3)
+		uv2:updateChallenge(uv3)
 	end
 end
 

@@ -2503,5 +2503,3 @@ pg.pay_data_display = {
 		123
 	}
 }
-
-return

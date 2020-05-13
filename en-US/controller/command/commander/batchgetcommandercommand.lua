@@ -1,31 +1,33 @@
-class("BatchGetCommanderCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("BatchGetCommanderCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot4 = {}
 	slot5 = {}
 	slot6 = {}
 
-	for slot10, slot11 in ipairs(slot3) do
+	for slot10, slot11 in ipairs(slot1:getBody().boxIds) do
 		table.insert(slot6, function (slot0)
-			slot0:sendNotification(GAME.COMMANDER_ON_OPEN_BOX, {
+			uv0:sendNotification(GAME.COMMANDER_ON_OPEN_BOX, {
 				notify = false,
-				id = slot1,
+				id = uv1,
 				callback = function (slot0)
 					if slot0 then
-						table.insert(slot0, slot0)
-						table.insert(table.insert, )
+						table.insert(uv0, slot0)
+						table.insert(uv1, uv2)
 					end
 
-					slot3()
+					uv3()
 				end
 			})
 		end)
 	end
 
 	seriesAsync(slot6, function ()
-		slot0:sendNotification(GAME.COMMANDER_ON_BATCH_DONE, {
-			boxIds = slot1,
-			commanders = GAME.COMMANDER_ON_BATCH_DONE
+		uv0:sendNotification(GAME.COMMANDER_ON_BATCH_DONE, {
+			boxIds = uv1,
+			commanders = uv2
 		})
 	end)
 end
 
-return class("BatchGetCommanderCommand", pm.SimpleCommand)
+return slot0

@@ -1,7 +1,10 @@
-class("SendFriendMsgCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot4 = slot1:getBody().msg
+slot0 = class("SendFriendMsgCommand", pm.SimpleCommand)
 
-	if not getProxy(FriendProxy):isFriend(slot1.getBody().playerId) then
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot4 = slot2.msg
+
+	if not getProxy(FriendProxy):isFriend(slot2.playerId) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("friend_sendFriendMsg_error_noFriend"))
 
 		return
@@ -12,14 +15,12 @@ class("SendFriendMsgCommand", pm.SimpleCommand).execute = function (slot0, slot1
 		content = slot4
 	}, 50106, function (slot0)
 		if slot0.result == 0 then
-			slot1 = getProxy(PlayerProxy)
-
-			slot0:addChatMsg(slot1, ChatMsg.New(ChatConst.ChannelFriend, {
-				player = slot1:getData(),
-				content = slot2,
+			uv0:addChatMsg(uv1, ChatMsg.New(ChatConst.ChannelFriend, {
+				player = getProxy(PlayerProxy):getData(),
+				content = uv2,
 				timestamp = pg.TimeMgr.GetInstance():GetServerTime()
 			}))
-			slot0:sendNotification(GAME.FRIEND_SEND_MSG_DONE)
+			uv3:sendNotification(GAME.FRIEND_SEND_MSG_DONE)
 		elseif slot0.result == 28 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("friend_offline"))
 		else
@@ -28,4 +29,4 @@ class("SendFriendMsgCommand", pm.SimpleCommand).execute = function (slot0, slot1
 	end)
 end
 
-return class("SendFriendMsgCommand", pm.SimpleCommand)
+return slot0

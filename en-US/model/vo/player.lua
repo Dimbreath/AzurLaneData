@@ -9,19 +9,18 @@ slot0.ASSISTS_TYPE_GUILD = 1
 slot0.CHANGE_NAME_KEY = 1
 
 function id2res(slot0)
-	return slot0[slot0].name
+	return uv0[slot0].name
 end
 
 function res2id(slot0)
-	return slot0.get_id_list_by_name[slot0][1]
+	return uv0.get_id_list_by_name[slot0][1]
 end
 
 function id2ItemId(slot0)
-	return slot0[slot0].itemid
+	return uv0[slot0].itemid
 end
 
 function itemId2Id(slot0)
-	return
 end
 
 function slot0.skin2Res(slot0)
@@ -41,11 +40,11 @@ function slot0.skin2Res(slot0)
 end
 
 function slot0.getSkinTicket(slot0)
-	return (pg.gameset.skin_ticket.key_value == 0 and 0) or slot0:getResource(slot1)
+	return pg.gameset.skin_ticket.key_value == 0 and 0 or slot0:getResource(slot1)
 end
 
 function slot0.Ctor(slot0, slot1)
-	slot0.super.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1)
 
 	if slot0.character then
 		if type(slot2) == "number" then
@@ -59,12 +58,12 @@ function slot0.Ctor(slot0, slot1)
 		end
 	end
 
-	if not slot1 then
-		slot1 = pg.StoryMgr.GetInstance():GetStoryByName("index")
+	if not uv1 then
+		uv1 = pg.StoryMgr.GetInstance():GetStoryByName("index")
 	end
 
-	if not slot2 then
-		slot2 = pg.StoryMgr.GetInstance():GetStoryByName("index_again")
+	if not uv2 then
+		uv2 = pg.StoryMgr.GetInstance():GetStoryByName("index_again")
 	end
 
 	slot0.id = slot1.id
@@ -91,28 +90,23 @@ function slot0.Ctor(slot0, slot1)
 	slot0.displayTrophyList = slot1.medal_id or {}
 	slot0.rmb = slot1.rmb or 0
 	slot0.cdList = {}
-	slot3 = ipairs
-	slot4 = slot1.cd_list or {}
 
-	for slot6, slot7 in slot3(slot4) do
+	for slot6, slot7 in ipairs(slot1.cd_list or {}) do
 		slot0.cdList[slot7.key] = slot7.timestamp
 	end
 
 	slot0.commonFlagList = {}
-	slot3 = ipairs
-	slot4 = slot1.flag_list or {}
 
-	for slot6, slot7 in slot3(slot4) do
+	for slot6, slot7 in ipairs(slot1.flag_list or {}) do
 		slot0.commonFlagList[slot7] = true
 	end
 
 	slot0.registerTime = slot1.register_time
 	slot0.vipCards = {}
-	slot3 = ipairs
-	slot4 = slot1.card_list or {}
 
-	for slot6, slot7 in slot3(slot4) do
-		slot0.vipCards[VipCard.New(slot7).id] = VipCard.New(slot7)
+	for slot6, slot7 in ipairs(slot1.card_list or {}) do
+		slot8 = VipCard.New(slot7)
+		slot0.vipCards[slot8.id] = slot8
 	end
 
 	slot0:updateResources(slot1.resource_list)
@@ -155,12 +149,12 @@ function slot0.Ctor(slot0, slot1)
 				slot7 = 1137
 			end
 
-			if slot1[slot7] then
-				slot0.stories[slot7] = slot1[slot7]
+			if uv1[slot7] then
+				slot0.stories[slot7] = uv1[slot7]
 			end
 
-			if slot2[slot7] then
-				slot0.storiesAgain[slot7] = slot2[slot7]
+			if uv2[slot7] then
+				slot0.storiesAgain[slot7] = uv2[slot7]
 			end
 		end
 	end
@@ -198,7 +192,7 @@ function slot0.canModifyName(slot0)
 		slot4, slot5, slot6, slot7 = pg.TimeMgr.GetInstance():parseTimeFrom(slot3 - slot1)
 		slot8 = nil
 
-		return false, i18n("player_name_change_time_limit_tip", (slot4 == 0 and ((slot5 == 0 and math.max(slot6, 1) .. i18n("word_minute")) or slot5 .. i18n("word_hour"))) or slot4 .. i18n("word_date"))
+		return false, i18n("player_name_change_time_limit_tip", slot4 == 0 and (slot5 == 0 and math.max(slot6, 1) .. i18n("word_minute") or slot5 .. i18n("word_hour")) or slot4 .. i18n("word_date"))
 	end
 
 	return true
@@ -209,11 +203,11 @@ function slot0.getModifyNameComsume(slot0)
 end
 
 function slot0.getModifyNameTimestamp(slot0)
-	return slot0.cdList[slot0.CHANGE_NAME_KEY] or 0
+	return slot0.cdList[uv0.CHANGE_NAME_KEY] or 0
 end
 
 function slot0.updateModifyNameColdTime(slot0, slot1)
-	slot0.cdList[slot0.CHANGE_NAME_KEY] = slot1
+	slot0.cdList[uv0.CHANGE_NAME_KEY] = slot1
 end
 
 function slot0.getMaxGold(slot0)
@@ -241,7 +235,7 @@ function slot0.getResource(slot0, slot1)
 end
 
 function slot0.updateResources(slot0, slot1)
-	for slot5, slot6 in pairs(slot0) do
+	for slot5, slot6 in pairs(uv0) do
 		slot7 = slot6[1]
 
 		if slot5 == "gem" then
@@ -253,10 +247,7 @@ function slot0.updateResources(slot0, slot1)
 		end
 	end
 
-	slot2 = ipairs
-	slot3 = slot1 or {}
-
-	for slot5, slot6 in slot2(slot3) do
+	for slot5, slot6 in ipairs(slot1 or {}) do
 		if id2res(slot6.type) == "gem" then
 			slot0.chargeGem = slot6.num
 		elseif slot7 == "freeGem" then
@@ -268,7 +259,7 @@ function slot0.updateResources(slot0, slot1)
 end
 
 function slot0.getPainting(slot0)
-	return (pg.ship_skin_template[slot0.skinId] and slot1.painting) or "unknown"
+	return pg.ship_skin_template[slot0.skinId] and slot1.painting or "unknown"
 end
 
 function slot0.inGuildCDTime(slot0)
@@ -280,11 +271,11 @@ function slot0.setGuildWaitTime(slot0, slot1)
 end
 
 function slot0.addStory(slot0, slot1)
-	slot0.stories[slot1] = slot0[slot1]
+	slot0.stories[slot1] = uv0[slot1]
 end
 
 function slot0.getStoryIndexID(slot0, slot1)
-	for slot5, slot6 in pairs(slot0) do
+	for slot5, slot6 in pairs(uv0) do
 		if slot6 == slot1 then
 			return slot5
 		end
@@ -294,15 +285,15 @@ function slot0.getStoryIndexID(slot0, slot1)
 end
 
 function slot0.getStoryByIndexID(slot0, slot1)
-	return slot0[slot1]
+	return uv0[slot1]
 end
 
 function slot0.addStoryAgain(slot0, slot1)
-	slot0.storiesAgain[slot1] = slot0[slot1]
+	slot0.storiesAgain[slot1] = uv0[slot1]
 end
 
 function slot0.getStoryIndexAgainID(slot0, slot1)
-	for slot5, slot6 in pairs(slot0) do
+	for slot5, slot6 in pairs(uv0) do
 		if slot6 == slot1 then
 			return slot5
 		end
@@ -320,12 +311,12 @@ function slot0.IsPlayedAgain(slot0, slot1)
 end
 
 function slot0.getChargeLevel(slot0)
-	slot2 = pg.pay_level_award.all[1]
-	slot3 = pg.pay_level_award.all[#pg.pay_level_award.all]
+	slot1 = pg.pay_level_award
+	slot2 = slot1.all[1]
 
-	for slot7, slot8 in ipairs(pg.pay_level_award.all) do
+	for slot7, slot8 in ipairs(slot1.all) do
 		if slot1[slot8].exp <= slot0.chargeExp then
-			slot2 = math.min(slot8 + 1, slot3)
+			slot2 = math.min(slot8 + 1, slot1.all[#slot1.all])
 		end
 	end
 
@@ -392,11 +383,11 @@ function slot0.increaseAttackWinCount(slot0)
 end
 
 function slot0.increaseShipCount(slot0, slot1)
-	slot0.shipCount = slot0.shipCount + ((slot1 and slot1) or 1)
+	slot0.shipCount = slot0.shipCount + (slot1 and slot1 or 1)
 end
 
 function slot0.isFull(slot0)
-	for slot4, slot5 in pairs(slot0) do
+	for slot4, slot5 in pairs(uv0) do
 		if pg.user_level["max_" .. slot4] and slot0[slot4] < slot6 then
 			return false
 		end
@@ -412,7 +403,7 @@ function slot0.__index(slot0, slot1)
 		return slot0:getTotalGem()
 	end
 
-	return rawget(slot0, slot1) or slot0[slot1] or slot0.super[slot1]
+	return rawget(slot0, slot1) or uv0[slot1] or uv0.super[slot1]
 end
 
 function slot0.__newindex(slot0, slot1, slot2)
@@ -444,8 +435,10 @@ function slot0.consume(slot0, slot1)
 	slot1.gem = nil
 
 	if (slot1.freeGem or 0) + (slot1.gem or 0) > 0 then
-		slot0.awardGem = slot0:getFreeGem() - math.min(slot2, slot3)
-		slot0.chargeGem = slot0.chargeGem - (slot2 - math.min(slot2, slot3))
+		slot3 = slot0:getFreeGem()
+		slot4 = math.min(slot2, slot3)
+		slot0.awardGem = slot3 - slot4
+		slot0.chargeGem = slot0.chargeGem - (slot2 - slot4)
 	end
 
 	for slot6, slot7 in pairs(slot1) do
@@ -484,6 +477,8 @@ function slot0.addExp(slot0, slot1)
 
 		if slot0.level == 30 then
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_USER_LEVEL_THIRTY)
+		elseif slot0.level == 40 then
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_USER_LEVEL_FORTY)
 		end
 	end
 end

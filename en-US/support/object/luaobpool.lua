@@ -9,7 +9,7 @@ function slot2.Ctor(slot0, slot1, slot2, slot3)
 	slot0.list = {}
 	slot0.ob2index = {}
 
-	for slot7 = 1, slot3, 1 do
+	for slot7 = 1, slot3 do
 		slot0.list[slot7] = slot1.New(slot0, slot2)
 	end
 
@@ -23,12 +23,14 @@ function slot2.GetObject(slot0)
 		slot1[#slot1 + 1] = slot0.baseClass.New(slot0, slot0.info)
 	end
 
-	slot0.ob2index[slot1[slot2 + 1]] = slot2 + 1
-	slot0.usedEnd = slot2 + 1
+	slot2 = slot2 + 1
+	slot3 = slot1[slot2]
+	slot0.ob2index[slot3] = slot2
+	slot0.usedEnd = slot2
 
-	slot1[slot2 + 1]:Init()
+	slot3:Init()
 
-	return slot1[slot2 + 1]
+	return slot3
 end
 
 function slot2.Recycle(slot0, slot1)
@@ -37,8 +39,9 @@ function slot2.Recycle(slot0, slot1)
 	slot1:Recycle()
 
 	if slot0.usedEnd ~= slot0.ob2index[slot1] then
-		slot0.ob2index[slot4[slot3]] = slot2
-		slot4[slot2] = slot4[slot3]
+		slot5 = slot4[slot3]
+		slot0.ob2index[slot5] = slot2
+		slot4[slot2] = slot5
 		slot4[slot3] = slot1
 	end
 
@@ -57,5 +60,3 @@ function slot2.Dispose(slot0)
 
 	slot0.ob2index = nil
 end
-
-return

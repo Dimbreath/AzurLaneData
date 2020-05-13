@@ -807,5 +807,3 @@ pg.skill_benefit_template = {
 		1317010
 	}
 }
-
-return

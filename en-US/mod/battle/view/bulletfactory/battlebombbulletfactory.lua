@@ -1,30 +1,36 @@
 ys = ys or {}
-ys.Battle.BattleBombBulletFactory = singletonClass("BattleBombBulletFactory", ys.Battle.BattleBulletFactory)
-ys.Battle.BattleBombBulletFactory.__name = "BattleBombBulletFactory"
+slot0 = ys
+slot0.Battle.BattleBombBulletFactory = singletonClass("BattleBombBulletFactory", slot0.Battle.BattleBulletFactory)
+slot0.Battle.BattleBombBulletFactory.__name = "BattleBombBulletFactory"
+slot1 = slot0.Battle.BattleBombBulletFactory
 
-function ys.Battle.BattleBombBulletFactory.Ctor(slot0)
-	slot0.super.Ctor(slot0)
+function slot1.Ctor(slot0)
+	uv0.super.Ctor(slot0)
 end
 
-function ys.Battle.BattleBombBulletFactory.OutRangeFunc(slot0)
+function slot1.OutRangeFunc(slot0)
 	slot1 = slot0:GetTemplate()
+	slot2 = slot1.hit_type
+	slot3 = uv0.GetDataProxy()
 	slot4 = slot0:GetDiveFilter()
 
-	slot0:BuffTrigger(slot1.Battle.BattleConst.BuffEffectType.ON_BOMB_BULLET_BANG, slot5)
-	slot0.GetDataProxy():SpawnColumnArea(slot0:GetEffectField(), slot0:GetIFF(), slot0:GetExplodePostion(), slot1.hit_type.range, slot1.hit_type.time, function (slot0)
+	slot0:BuffTrigger(uv1.Battle.BattleConst.BuffEffectType.ON_BOMB_BULLET_BANG, {
+		_bullet = slot0,
+		equipIndex = slot0:GetWeapon():GetEquipmentIndex()
+	})
+	slot3:SpawnColumnArea(slot0:GetEffectField(), slot0:GetIFF(), slot0:GetExplodePostion(), slot2.range, slot2.time, function (slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			if slot5.Active then
 				slot7 = false
-				slot8 = slot0.GetSceneMediator():GetCharacter(slot5.UID):GetUnitData().GetCurrentOxyState(slot6)
 
-				for slot12, slot13 in ipairs(slot1) do
-					if slot8 == slot13 then
+				for slot12, slot13 in ipairs(uv1) do
+					if uv0.GetSceneMediator():GetCharacter(slot5.UID):GetUnitData():GetCurrentOxyState() == slot13 then
 						slot7 = true
 					end
 				end
 
 				if not slot7 then
-					slot2:HandleDamage(slot3, slot6)
+					uv2:HandleDamage(uv3, slot6)
 				end
 			end
 		end
@@ -37,28 +43,27 @@ function ys.Battle.BattleBombBulletFactory.OutRangeFunc(slot0)
 	slot3:RemoveBulletUnit(slot0:GetUniqueID())
 end
 
-function ys.Battle.BattleBombBulletFactory.MakeBullet(slot0)
-	return slot0.Battle.BattleBombBullet.New()
+function slot1.MakeBullet(slot0)
+	return uv0.Battle.BattleBombBullet.New()
 end
 
-function ys.Battle.BattleBombBulletFactory.onBulletHitFunc(slot0, slot1, slot2)
+function slot1.onBulletHitFunc(slot0, slot1, slot2)
 	slot3 = slot0:GetBulletData()
 
-	slot0.Battle.PlayBattleSFX(slot3:GetTemplate().hit_sfx)
+	uv0.Battle.PlayBattleSFX(slot3:GetTemplate().hit_sfx)
 
-	slot10, slot13 = slot1.GetFXPool():GetFX(slot0:GetFXID())
+	slot5, slot6 = uv1.GetFXPool():GetFX(slot0:GetFXID())
 
-	pg.EffectMgr.GetInstance():PlayBattleEffect(slot5, pg.Tool.FilterY(slot3:GetPosition()).Add(slot7, slot6), true)
+	pg.EffectMgr.GetInstance():PlayBattleEffect(slot5, pg.Tool.FilterY(slot3:GetPosition()):Add(slot6), true)
 end
 
-function ys.Battle.BattleBombBulletFactory.onBulletMissFunc()
-	return
+function slot1.onBulletMissFunc()
 end
 
-function ys.Battle.BattleBombBulletFactory.MakeModel(slot0, slot1, slot2)
+function slot1.MakeModel(slot0, slot1, slot2)
 	slot5, slot6, slot7, slot8 = slot0:GetDataProxy():GetTotalBounds()
 
-	if slot1:GetBulletData().GetExplodePostion(slot3).z > slot5 + 3 then
+	if slot1:GetBulletData():GetExplodePostion().z > slot5 + 3 then
 		slot0:GetDataProxy():RemoveBulletUnit(slot3:GetUniqueID())
 
 		return
@@ -67,7 +72,7 @@ function ys.Battle.BattleBombBulletFactory.MakeModel(slot0, slot1, slot2)
 	slot9 = slot3:GetTemplate()
 
 	if not slot0:GetBulletPool():InstBullet(slot1:GetModleID(), function (slot0)
-		slot0:AddModel(slot0)
+		uv0:AddModel(slot0)
 	end) then
 		slot1:AddTempModel(slot0:GetTempGOPool():GetObject())
 	end
@@ -75,7 +80,7 @@ function ys.Battle.BattleBombBulletFactory.MakeModel(slot0, slot1, slot2)
 	slot1:SetSpawn(slot2)
 
 	if slot3:GetIFF() ~= slot0:GetDataProxy():GetFriendlyCode() and slot3:GetExist() and slot9.alert_fx ~= "" then
-		slot0.CreateBulletAlert(slot3)
+		uv0.CreateBulletAlert(slot3)
 	end
 
 	slot3:SetExist(true)
@@ -83,12 +88,13 @@ function ys.Battle.BattleBombBulletFactory.MakeModel(slot0, slot1, slot2)
 	slot0:GetSceneMediator():AddBullet(slot1)
 end
 
-function ys.Battle.BattleBombBulletFactory.CreateBulletAlert(slot0)
+function slot1.CreateBulletAlert(slot0)
 	slot1 = slot0:GetTemplate().hit_type.range
-	slot4 = slot0.Battle.BattleFXPool.GetInstance():GetFX(slot2).transform
+	slot2 = slot0:GetTemplate().alert_fx
+	slot4 = uv0.Battle.BattleFXPool.GetInstance():GetFX(slot2).transform
 	slot5 = 0
 
-	if pg.effect_offset[slot0:GetTemplate().alert_fx] and slot6[slot2].y_scale == true then
+	if pg.effect_offset[slot2] and slot6[slot2].y_scale == true then
 		slot5 = slot1
 	end
 
@@ -96,5 +102,3 @@ function ys.Battle.BattleBombBulletFactory.CreateBulletAlert(slot0)
 
 	pg.EffectMgr.GetInstance():PlayBattleEffect(slot3, slot0:GetExplodePostion())
 end
-
-return

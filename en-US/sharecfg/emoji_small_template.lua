@@ -68,5 +68,3 @@ pg.emoji_small_template = {
 		13
 	}
 }
-
-return

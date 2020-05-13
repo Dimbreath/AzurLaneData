@@ -43,8 +43,8 @@ function slot0.Clear(slot0)
 end
 
 function slot0.__index(slot0, slot1)
-	return rawget(slot0, slot1) or slot0[slot1] or function (slot0, ...)
-		slot0:Push(slot0.Push, ...)
+	return rawget(slot0, slot1) or uv0[slot1] or function (slot0, ...)
+		uv0:Push(uv1, ...)
 	end
 end
 

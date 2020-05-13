@@ -380,5 +380,3 @@ pg.mini_game = {
 		12
 	}
 }
-
-return

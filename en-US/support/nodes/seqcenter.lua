@@ -43,7 +43,7 @@ end
 function slot0.Dispose(slot0)
 	slot1 = slot0._list.Head
 
-	for slot5 = 1, slot0._list.Count, 1 do
+	for slot5 = 1, slot0._list.Count do
 		slot1.Data.Dispose()
 
 		slot1 = slot1.Next
@@ -60,7 +60,7 @@ function slot0.IsFinish(slot0)
 
 	slot1 = slot0._list.Head
 
-	for slot5 = 1, slot0._list.Count, 1 do
+	for slot5 = 1, slot0._list.Count do
 		if not slot1.Data:IsFinish() then
 			return false
 		end
@@ -70,5 +70,3 @@ function slot0.IsFinish(slot0)
 
 	return true
 end
-
-return

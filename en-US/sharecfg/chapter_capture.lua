@@ -2547,5 +2547,3 @@ pg.chapter_capture = {
 		1210016
 	}
 }
-
-return

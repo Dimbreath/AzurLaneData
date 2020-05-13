@@ -18,13 +18,13 @@ slot1 = {
 function slot0.preload(slot0, slot1)
 	slot2 = {}
 
-	for slot6, slot7 in ipairs(slot0) do
+	for slot6, slot7 in ipairs(uv0) do
 		table.insert(slot2, function (slot0)
-			PoolMgr.GetInstance():GetUI(slot0, true, function (slot0)
-				slot0.name = slot0
+			PoolMgr.GetInstance():GetUI(uv0, true, function (slot0)
+				slot0.name = uv0
 
 				slot0.transform:SetParent(GameObject.Find("__Pool__").transform)
-				slot0.transform.SetParent()
+				uv1()
 			end)
 		end)
 	end
@@ -32,8 +32,8 @@ function slot0.preload(slot0, slot1)
 	table.insert(slot2, function (slot0)
 		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
 			callback = function (slot0)
-				slot0:SetShops(slot0)
-				slot0.SetShops()
+				uv0:SetShops(slot0)
+				uv1()
 			end
 		})
 	end)
@@ -53,12 +53,12 @@ function slot0.init(slot0)
 	slot0.rightArr = slot0:findTF("frame/bottom/right_arr")
 	slot0.leftArr = slot0:findTF("frame/bottom/left_arr")
 	slot0.pages = {
-		[slot0.TYPE_ACTIVITY] = ActivityShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
-		[slot0.TYPE_SHOP_STREET] = StreetShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
-		[slot0.TYPE_MILITARY_SHOP] = MilitaryShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
-		[slot0.TYPE_GUILD] = GuildShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
-		[slot0.TYPE_SHAM_SHOP] = ShamShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
-		[slot0.TYPE_FRAGMENT] = FragmentShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData)
+		[uv0.TYPE_ACTIVITY] = ActivityShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
+		[uv0.TYPE_SHOP_STREET] = StreetShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
+		[uv0.TYPE_MILITARY_SHOP] = MilitaryShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
+		[uv0.TYPE_GUILD] = GuildShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
+		[uv0.TYPE_SHAM_SHOP] = ShamShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
+		[uv0.TYPE_FRAGMENT] = FragmentShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData)
 	}
 	slot0.contextData.singleWindow = ShopSingleWindow.New(slot0._tf, slot0.event)
 	slot0.contextData.multiWindow = ShopMultiWindow.New(slot0._tf, slot0.event)
@@ -69,7 +69,7 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		slot0:closeView()
+		uv0:closeView()
 	end, SFX_CANCEL)
 	setActive(slot0.stamp, getProxy(TaskProxy):mingshiTouchFlagEnabled())
 
@@ -81,14 +81,16 @@ function slot0.didEnter(slot0)
 		getProxy(TaskProxy):dealMingshiTouchFlag(4)
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.switchBtn, function ()
-		if slot0.contextData ~= nil and slot0.contextData.chargePage ~= nil then
-			slot0 = slot0.contextData.chargePage
+		slot0 = ChargeScene.TYPE_MENU
+
+		if uv0.contextData ~= nil and uv0.contextData.chargePage ~= nil then
+			slot0 = uv0.contextData.chargePage
 		end
 
-		slot0:emit(NewShopsMediator.GO_MALL, slot0)
+		uv0:emit(NewShopsMediator.GO_MALL, slot0)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.skinBtn, function ()
-		slot0:emit(NewShopsMediator.ON_SKIN_SHOP)
+		uv0:emit(NewShopsMediator.ON_SKIN_SHOP)
 	end, SFX_PANEL)
 	slot0:InitEntrances()
 	slot0:BlurView()
@@ -163,34 +165,28 @@ function slot0.InitEntrances(slot0)
 end
 
 function slot0.ActiveDefaultShop(slot0)
-	slot1 = {
-		"activity",
-		"shopstreet",
-		"supplies",
-		"sham",
-		"fragment",
-		"guild"
-	}
-	slot2 = slot0.contextData.warp or slot0.contextData.activeShop or slot0.TYPE_ACTIVITY
-
-	if type(slot2) == "string" then
-		if table.indexof(slot1, slot2) then
+	if type(slot0.contextData.warp or slot0.contextData.activeShop or uv0.TYPE_ACTIVITY) == "string" then
+		if table.indexof({
+			"activity",
+			"shopstreet",
+			"supplies",
+			"sham",
+			"fragment",
+			"guild"
+		}, slot2) then
 			slot2 = slot3
 		end
 
 		if not slot3 then
-			slot2 = slot0.TYPE_ACTIVITY
+			slot2 = uv0.TYPE_ACTIVITY
 		end
 	end
 
 	slot3 = false
 	slot4 = slot0.contextData.index or 1
 
-	if slot2 == slot0.TYPE_ACTIVITY and slot0.contextData.actId then
-		slot5 = ipairs
-		slot6 = slot0.shops[slot2] or {}
-
-		for slot8, slot9 in slot5(slot6) do
+	if slot2 == uv0.TYPE_ACTIVITY and slot0.contextData.actId then
+		for slot8, slot9 in ipairs(slot0.shops[slot2] or {}) do
 			if slot9.activityId == slot0.contextData.actId then
 				slot4 = slot8
 
@@ -206,7 +202,7 @@ function slot0.ActiveDefaultShop(slot0)
 	end
 
 	if not slot3 then
-		triggerButton(slot0.toggleContainer:Find(slot0.TYPE_SHOP_STREET .. "-1"))
+		triggerButton(slot0.toggleContainer:Find(uv0.TYPE_SHOP_STREET .. "-1"))
 	end
 end
 
@@ -217,26 +213,25 @@ function slot0.AddScrollrect(slot0, slot1)
 		return getBounds(slot0):Intersects(getBounds(slot1))
 	end
 
-	slot3 = slot0 < slot1
 	slot4 = slot0.toggleContainer:GetChild(0):Find("unsel")
 	slot5 = slot0.toggleContainer:GetChild(slot0.toggleContainer.childCount - 1):Find("unsel")
 
-	if slot3 then
+	if uv0 < slot1 then
 		slot0.prevPos = -1
 
 		onScroll(slot0, slot0.scrollrect, function (slot0)
-			if math.abs(slot0.prevPos - slot0.x) > 0.1 then
-				slot0.prevPos = slot0.x
+			if math.abs(uv0.prevPos - slot0.x) > 0.1 then
+				uv0.prevPos = slot0.x
 
-				setActive(slot0.rightArr, not slot1(slot0.scrollrect, slot0.rightArr))
-				setActive(slot0.leftArr, not slot1(slot0.scrollrect, slot1))
+				setActive(uv0.rightArr, not uv1(uv0.scrollrect, uv2))
+				setActive(uv0.leftArr, not uv1(uv0.scrollrect, uv3))
 			end
 		end)
 		scrollTo(slot0.scrollrect, 1, 0)
 		onNextTick(function ()
-			if slot0.prevBtn and not slot1(slot0.scrollrect, slot0.prevBtn) then
-				slot0 = slot0.toggleContainer:GetChild(slot0.toggleContainer.childCount - )
-				slot0.toggleContainer.localPosition = Vector3(slot0.toggleContainer.localPosition.x + slot0.localPosition.x - slot0.prevBtn.localPosition.x, slot0.toggleContainer.localPosition.y, slot0.toggleContainer.localPosition.z)
+			if uv0.prevBtn and not uv1(uv0.scrollrect, uv0.prevBtn) then
+				slot2 = uv0.toggleContainer.localPosition
+				uv0.toggleContainer.localPosition = Vector3(slot2.x + uv0.toggleContainer:GetChild(uv0.toggleContainer.childCount - uv2).localPosition.x - uv0.prevBtn.localPosition.x, slot2.y, slot2.z)
 			end
 		end)
 	end
@@ -251,22 +246,22 @@ function slot0.UpdateEntrance(slot0, slot1, slot2)
 	slot3 = cloneTplTo(slot0.toggleTpl, slot0.toggleContainer, slot1 .. "-" .. slot2)
 
 	slot0:OnSwitch(slot3, function ()
-		slot2, slot3 = slot0.pages[].CanOpen(slot1, slot0.shops[slot1][slot2], slot0.player)
+		slot2, slot3 = uv0.pages[uv1]:CanOpen(uv0.shops[uv1][uv2], uv0.player)
 
 		if slot2 then
-			if slot0.page and not slot0.page:GetLoaded() then
+			if uv0.page and not uv0.page:GetLoaded() then
 				return
 			end
 
-			if slot0.page then
-				slot0.page:Hide()
+			if uv0.page then
+				uv0.page:Hide()
 			end
 
-			slot0.contextData.bgView:Init(slot1:GetBg(slot0))
-			slot1:ExecuteAction("SetUp", slot0, slot0.player, slot0.items)
+			uv0.contextData.bgView:Init(slot1:GetBg(slot0))
+			slot1:ExecuteAction("SetUp", slot0, uv0.player, uv0.items)
 
-			slot0.page = slot1
-			slot0.contextData.activeShop = slot1
+			uv0.page = slot1
+			uv0.contextData.activeShop = uv1
 
 			return true
 		else
@@ -282,20 +277,20 @@ end
 
 function slot0.OnSwitch(slot0, slot1, slot2)
 	onButton(slot0, slot1, function ()
-		if slot0.prevBtn == slot1 then
+		if uv0.prevBtn == uv1 then
 			return
 		end
 
-		if slot2() then
-			if slot0.prevBtn then
-				setActive(slot0.prevBtn:Find("unsel"), true)
-				setActive(slot0.prevBtn:Find("sel"), false)
+		if uv2() then
+			if uv0.prevBtn then
+				setActive(uv0.prevBtn:Find("unsel"), true)
+				setActive(uv0.prevBtn:Find("sel"), false)
 			end
 
-			setActive(slot1:Find("unsel"), false)
-			setActive(slot1:Find("sel"), true)
+			setActive(uv1:Find("unsel"), false)
+			setActive(uv1:Find("sel"), true)
 
-			slot0.prevBtn = slot0
+			uv0.prevBtn = uv1
 		end
 	end, SFX_PANEL)
 end
@@ -337,8 +332,8 @@ function slot0.willExit(slot0)
 		slot5:Destroy()
 	end
 
-	for slot4, slot5 in ipairs(slot0) do
-		if not IsNil(findTF(slot6, slot5)) then
+	for slot4, slot5 in ipairs(uv0) do
+		if not IsNil(findTF(GameObject.Find("__Pool__"), slot5)) then
 			PoolMgr.GetInstance():ReturnUI(slot5, slot7.gameObject)
 		end
 	end

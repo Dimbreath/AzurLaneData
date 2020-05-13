@@ -543,5 +543,3 @@ pg.task_data_trigger = {
 		49
 	}
 }
-
-return

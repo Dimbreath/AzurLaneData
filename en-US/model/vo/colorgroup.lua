@@ -12,7 +12,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.cells = {}
 
 	_.each(slot0:getConfig("cells"), function (slot0)
-		slot0:setCell(slot0[1], slot0[2], slot0[3])
+		uv0:setCell(slot0[1], slot0[2], slot0[3])
 	end)
 
 	slot0.colors = _.map(slot0:getConfig("colors"), function (slot0)
@@ -53,10 +53,8 @@ function slot0.getFill(slot0, slot1, slot2)
 end
 
 function slot0.setFill(slot0, slot1, slot2, slot3)
-	slot4 = slot1 .. "_" .. slot2
-
 	if slot3 == 0 then
-		slot0.fills[slot4] = nil
+		slot0.fills[slot1 .. "_" .. slot2] = nil
 	else
 		slot0.fills[slot4] = ColorCell.New(slot1, slot2, slot3)
 	end

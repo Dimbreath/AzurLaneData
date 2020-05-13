@@ -13502,5 +13502,3 @@ pg.activity_template = {
 		30542
 	}
 }
-
-return

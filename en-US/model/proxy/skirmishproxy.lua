@@ -21,13 +21,13 @@ function slot0.TryFetchNewTask(slot0)
 end
 
 function slot0.UpdateSkirmishProgress(slot0)
-	slot1 = getProxy(TaskProxy)
-	activeAmount = math.min(getProxy(ActivityProxy).getActivityById(slot2, ActivityConst.ACTIVITY_ID_US_SKIRMISH).getDayIndex(slot4), #slot0.data)
+	slot3 = slot0.data
+	activeAmount = math.min(getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_ID_US_SKIRMISH):getDayIndex(), #slot3)
 	slot5 = false
 
-	for slot9 = #slot0.data, 1, -1 do
+	for slot9 = #slot3, 1, -1 do
 		v = slot3[slot9]
-		slot11 = slot1:getTaskVO(slot10)
+		slot11 = getProxy(TaskProxy):getTaskVO(v:getConfig("task_id"))
 		slot12 = nil
 
 		if activeAmount < slot9 then
@@ -44,8 +44,10 @@ function slot0.UpdateSkirmishProgress(slot0)
 				slot5 = true
 			end
 		else
-			v:SetState((not slot5 or SkirmishVO.StateClear) and SkirmishVO.StateActive)
+			slot12 = (not slot5 or SkirmishVO.StateClear) and SkirmishVO.StateActive
 		end
+
+		v:SetState(slot12)
 	end
 end
 

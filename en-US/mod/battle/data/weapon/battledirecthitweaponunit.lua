@@ -1,17 +1,17 @@
 ys = ys or {}
-ys.Battle.BattleDirectHitWeaponUnit = class("BattleDirectHitWeaponUnit", ys.Battle.BattleWeaponUnit)
-ys.Battle.BattleDirectHitWeaponUnit.__name = "BattleDirectHitWeaponUnit"
+slot0 = ys
+slot0.Battle.BattleDirectHitWeaponUnit = class("BattleDirectHitWeaponUnit", slot0.Battle.BattleWeaponUnit)
+slot0.Battle.BattleDirectHitWeaponUnit.__name = "BattleDirectHitWeaponUnit"
+slot1 = slot0.Battle.BattleDirectHitWeaponUnit
 
-function ys.Battle.BattleDirectHitWeaponUnit.Ctor(slot0)
-	slot0.super.Ctor(slot0)
+function slot1.Ctor(slot0)
+	uv0.super.Ctor(slot0)
 end
 
-function ys.Battle.BattleDirectHitWeaponUnit.Spawn(slot0, slot1, slot2)
-	slot3 = slot0.super.Spawn(slot0, slot1, slot2)
+function slot1.Spawn(slot0, slot1, slot2)
+	slot3 = uv0.super.Spawn(slot0, slot1, slot2)
 
 	slot3:SetDirectHitUnit(slot2)
 
 	return slot3
 end
-
-return

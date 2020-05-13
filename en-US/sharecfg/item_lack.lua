@@ -687,5 +687,3 @@ pg.item_lack = {
 		18
 	}
 }
-
-return

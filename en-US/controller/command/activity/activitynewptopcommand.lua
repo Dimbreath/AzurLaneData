@@ -1,7 +1,10 @@
-class("ActivityNewPtOPCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot3 = slot1:getBody().callback
+slot0 = class("ActivityNewPtOPCommand", pm.SimpleCommand)
 
-	if not getProxy(ActivityProxy):getActivityById(slot1.getBody().activity_id) or slot5:isEnd() then
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot3 = slot2.callback
+
+	if not getProxy(ActivityProxy):getActivityById(slot2.activity_id) or slot5:isEnd() then
 		return
 	end
 
@@ -14,22 +17,22 @@ class("ActivityNewPtOPCommand", pm.SimpleCommand).execute = function (slot0, slo
 		if slot0.result == 0 then
 			slot1 = {}
 
-			if slot0.cmd == 1 then
+			if uv0.cmd == 1 then
 				for slot5 = #PlayerConst.tranOwnShipSkin(slot0.award_list), 1, -1 do
 					if slot1[slot5].type ~= DROP_TYPE_SHIP then
-						slot1:sendNotification(GAME.ADD_ITEM, slot6)
+						uv1:sendNotification(GAME.ADD_ITEM, slot6)
 					end
 				end
 
-				table.insert(slot2.data1_list, slot0.arg1)
-			elseif slot0.cmd == 2 then
-				slot2.data3 = slot0.number[1]
+				table.insert(uv2.data1_list, uv0.arg1)
+			elseif uv0.cmd == 2 then
+				uv2.data3 = slot0.number[1]
 			end
 
-			slot3:updateActivity(slot3.updateActivity)
-			slot1:sendNotification(GAME.ACT_NEW_PT_DONE, {
+			uv3:updateActivity(uv2)
+			uv1:sendNotification(GAME.ACT_NEW_PT_DONE, {
 				awards = slot1,
-				callback = GAME.ACT_NEW_PT_DONE
+				callback = uv4
 			})
 		else
 			print(errorTip("", slot0.result))
@@ -37,4 +40,4 @@ class("ActivityNewPtOPCommand", pm.SimpleCommand).execute = function (slot0, slo
 	end)
 end
 
-return class("ActivityNewPtOPCommand", pm.SimpleCommand)
+return slot0

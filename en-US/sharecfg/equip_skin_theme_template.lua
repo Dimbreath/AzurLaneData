@@ -330,5 +330,3 @@ pg.equip_skin_theme_template = {
 		18
 	}
 }
-
-return

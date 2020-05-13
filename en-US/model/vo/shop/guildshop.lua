@@ -8,7 +8,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.goods = {}
 
 	for slot5, slot6 in ipairs(slot1.good_list) do
-		slot0.goods[Goods.New(slot6, Goods.TYPE_GUILD).id] = Goods.New(slot6, Goods.TYPE_GUILD)
+		slot7 = Goods.New(slot6, Goods.TYPE_GUILD)
+		slot0.goods[slot7.id] = slot7
 	end
 
 	slot0.refreshCount = slot1.refresh_count
@@ -29,7 +30,6 @@ function slot0.GetCommodities(slot0)
 end
 
 function slot0.bindConfigTable(slot0)
-	return
 end
 
 function slot0.updateNextRefreshTime(slot0, slot1)

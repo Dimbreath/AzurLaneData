@@ -146,5 +146,3 @@ pg.open_systems_limited = {
 		15
 	}
 }
-
-return

@@ -18,27 +18,33 @@ function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	setActive(slot0.item, false)
 
-	slot2 = getProxy(MiniGameProxy).GetHubByHubId(slot1, slot0.activity:getConfig("config_id"))
+	slot2 = getProxy(MiniGameProxy):GetHubByHubId(slot0.activity:getConfig("config_id"))
 
 	setActive(slot0.item, false)
 	slot0.itemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
-			updateDrop(slot3, slot5)
-			onButton(slot0, slot2, function ()
-				slot0:emit(BaseUI.ON_DROP, slot0)
+			slot4 = uv0.drop[slot1 + 1]
+
+			updateDrop(uv0:findTF("item", slot2), {
+				type = slot4[1],
+				id = slot4[2],
+				count = slot4[3]
+			})
+			onButton(uv0, slot2, function ()
+				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
 
 			return
 		end
 
 		if slot0 == UIItemList.EventUpdate then
-			setActive(slot0:findTF("got", slot2), slot1 < slot1.usedtime)
-			setActive(slot0:findTF("mask", slot2), slot1 >= slot1.usedtime + slot1.count)
+			setActive(uv0:findTF("got", slot2), slot1 < uv1.usedtime)
+			setActive(uv0:findTF("mask", slot2), slot1 >= uv1.usedtime + uv1.count)
 		end
 	end)
 	slot0.itemList:align(slot0.day)
 	onButton(slot0, slot0.goBtn, function ()
-		pg.m02:sendNotification(GAME.GO_MINI_GAME, slot0.id)
+		pg.m02:sendNotification(GAME.GO_MINI_GAME, uv0.id)
 	end)
 end
 
@@ -47,7 +53,6 @@ function slot0.OnUpdateFlush(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

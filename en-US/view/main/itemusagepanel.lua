@@ -33,18 +33,19 @@ function slot0.Ctor(slot0, slot1)
 	slot0.batchText = slot0.batchUseBtn:Find("text")
 
 	onButton(slot0, slot0.backBtn, function ()
-		slot0:Close()
+		uv0:Close()
 	end, SFX_PANEL)
 	onButton(slot0, slot0._go, function ()
-		slot0:Close()
+		uv0:Close()
 	end, SFX_PANEL)
 end
 
 function slot0.Open(slot0, slot1)
 	slot0.settings = slot1 or {}
+	slot2 = slot0.settings.item
 
-	slot0:Update(slot1 or )
-	slot0:UpdateAction(slot1 or )
+	slot0:Update(slot2)
+	slot0:UpdateAction(slot2)
 	setActive(slot0._go, true)
 end
 
@@ -70,57 +71,60 @@ end
 
 function slot0.UpdateAction(slot0, slot1)
 	slot2 = slot0.settings
+	slot3 = slot0.settings.mode or uv0.SINGLE
 
-	setActive(slot0.useBtn, (slot0.settings.mode or slot0.SINGLE) == slot0.SINGLE)
-	setActive(slot0.batchUseBtn, (slot0.settings.mode or slot0.SINGLE) == slot0.BATCH)
-	setActive(slot0.useOneBtn, (slot0.settings.mode or slot0.SINGLE) == slot0.BATCH)
-	setActive(slot0.confirmBtn, (slot0.settings.mode or slot0.SINGLE) == slot0.INFO)
+	setActive(slot0.useBtn, slot3 == uv0.SINGLE)
+	setActive(slot0.batchUseBtn, slot3 == uv0.BATCH)
+	setActive(slot0.useOneBtn, slot3 == uv0.BATCH)
+	setActive(slot0.confirmBtn, slot3 == uv0.INFO)
 
-	if slot3 == slot0.SINGLE then
+	if slot3 == uv0.SINGLE then
 		onButton(slot0, slot0.useBtn, function ()
-			if slot0.count == 0 then
+			if uv0.count == 0 then
 				return
 			end
 
-			if slot1.onUse then
-				slot1.onUse()
+			if uv1.onUse then
+				uv1.onUse()
 			end
 
-			slot2:Close()
+			uv2:Close()
 		end, SFX_PANEL)
 	else
-		if slot3 == slot0.BATCH then
+		if slot3 == uv0.BATCH then
+			slot4 = math.min(slot1.count, 10)
+
 			setText(slot0.batchText, slot4)
 			onButton(slot0, slot0.batchUseBtn, function ()
-				if slot0.count == 0 then
+				if uv0.count == 0 then
 					return
 				end
 
-				if slot1.onUseBatch then
-					slot1.onUseBatch(slot2)
+				if uv1.onUseBatch then
+					uv1.onUseBatch(uv2)
 				end
 
-				slot3:Close()
+				uv3:Close()
 			end, SFX_PANEL)
 			onButton(slot0, slot0.useOneBtn, function ()
-				if slot0.count == 0 then
+				if uv0.count == 0 then
 					return
 				end
 
-				if slot1.onUseOne then
-					slot1.onUseOne()
+				if uv1.onUseOne then
+					uv1.onUseOne()
 				end
 
-				slot2:Close()
+				uv2:Close()
 			end, SFX_PANEL)
-			setActive(slot0.batchUseBtn, math.min(slot1.count, 10) > 1)
+			setActive(slot0.batchUseBtn, slot4 > 1)
 
 			return
 		end
 
-		if slot3 == slot0.INFO then
+		if slot3 == uv0.INFO then
 			onButton(slot0, slot0.confirmBtn, function ()
-				slot0:Close()
+				uv0:Close()
 			end, SFX_PANEL)
 		end
 	end

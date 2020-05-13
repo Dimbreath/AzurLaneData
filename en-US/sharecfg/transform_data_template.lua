@@ -31834,5 +31834,3 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		37311
 	}
 }
-
-return

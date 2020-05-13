@@ -23,19 +23,21 @@ function slot0.OnInit(slot0)
 
 	slot0.resPanel:setParent(slot0._tf, false)
 	onButton(slot0, slot0.refreshBtn, function ()
-		if not ShoppingStreet.getRiseShopId(ShopArgs.ShoppingStreetUpgrade, slot0.shop.flashCount) then
+		if not ShoppingStreet.getRiseShopId(ShopArgs.ShoppingStreetUpgrade, uv0.shop.flashCount) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("shopStreet_refresh_max_count"))
 
 			return
 		end
 
+		slot1 = pg.shop_template[slot0]
+
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			yesText = "text_confirm",
 			hideNo = false,
 			noText = "text_cancel",
-			content = i18n("refresh_shopStreet_question", i18n("word_" .. id2res(pg.shop_template[slot0].resource_type) .. "_icon"), pg.shop_template[slot0].resource_num, slot0.shop.flashCount),
+			content = i18n("refresh_shopStreet_question", i18n("word_" .. id2res(slot1.resource_type) .. "_icon"), slot1.resource_num, uv0.shop.flashCount),
 			onYes = function ()
-				slot0:emit(NewShopsMediator.REFRESH_STREET_SHOP, slot0)
+				uv0:emit(NewShopsMediator.REFRESH_STREET_SHOP, uv1)
 			end
 		})
 	end, SFX_PANEL)
@@ -46,7 +48,7 @@ function slot0.OnUpdatePlayer(slot0)
 end
 
 function slot0.OnSetUp(slot0)
-	slot0:InitCommodities(slot1)
+	slot0:InitCommodities(slot0.shop:GetCommodities())
 	slot0:RemoveTimer()
 	slot0:AddTimer(slot0.shop)
 end
@@ -71,7 +73,7 @@ function slot0.InitCommodities(slot0, slot1)
 				type = slot0:getConfig("type")
 			},
 			onYes = function ()
-				slot0:Purchase(slot0)
+				uv0:Purchase(uv1)
 			end
 		})
 	end
@@ -80,14 +82,15 @@ function slot0.InitCommodities(slot0, slot1)
 
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0[slot1 + 1]
 			slot4 = GoodsCard.New(slot2)
 
-			onButton(slot1, slot4.itemTF, function ()
-				slot0(slot1.goodsVO)
+			onButton(uv1, slot4.itemTF, function ()
+				uv0(uv1.goodsVO)
 			end, SFX_PANEL)
-			slot4:update(slot0[slot1 + 1])
+			slot4:update(slot3)
 
-			slot1.cards[slot0[slot1 + 1].id] = slot4
+			uv1.cards[slot3.id] = slot4
 		end
 	end)
 	slot0.uilist:align(#slot1)
@@ -108,7 +111,7 @@ function slot0.Purchase(slot0, slot1)
 				id = slot1:getConfig("effect_args")[1]
 			}):getConfig("name")),
 			onYes = function ()
-				slot0:emit(NewShopsMediator.ON_SHOPPING, slot1.id, 1)
+				uv0:emit(NewShopsMediator.ON_SHOPPING, uv1.id, 1)
 			end
 		})
 	else
@@ -127,11 +130,11 @@ end
 function slot0.AddTimer(slot0)
 	slot1 = slot0.shop
 	slot0.timer = Timer.New(function ()
-		if slot0:isUpdateGoods() then
-			slot1:RemoveTimer()
-			slot1:emit(NewShopsMediator.REFRESH_STREET_SHOP)
+		if uv0:isUpdateGoods() then
+			uv1:RemoveTimer()
+			uv1:emit(NewShopsMediator.REFRESH_STREET_SHOP)
 		else
-			slot1.timerText.text = pg.TimeMgr.GetInstance():DescCDTime(slot0.nextFlashTime - pg.TimeMgr.GetInstance():GetServerTime())
+			uv1.timerText.text = pg.TimeMgr.GetInstance():DescCDTime(uv0.nextFlashTime - pg.TimeMgr.GetInstance():GetServerTime())
 		end
 	end, 1, -1)
 

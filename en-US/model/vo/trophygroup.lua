@@ -30,10 +30,9 @@ end
 
 function slot0.getProgressTrophy(slot0)
 	slot1 = 1
-	slot2 = #slot0._trophyList
 	slot3 = nil
 
-	while slot1 <= slot2 do
+	while slot1 <= #slot0._trophyList do
 		if not slot0._trophyList[slot1]:isClaimed() then
 			break
 		end

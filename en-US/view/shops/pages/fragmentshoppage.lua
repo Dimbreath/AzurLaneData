@@ -5,7 +5,6 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.GetPaintingCommodityUpdateVoice(slot0)
-	return
 end
 
 function slot0.CanOpen(slot0, slot1, slot2)
@@ -20,16 +19,16 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.super.OnInit(slot0)
+	uv0.super.OnInit(slot0)
 	onButton(slot0, slot0.resolveBtn, function ()
-		if not slot0.resolvePanel then
-			slot0.resolvePanel = FragResolvePanel.New(slot0)
+		if not uv0.resolvePanel then
+			uv0.resolvePanel = FragResolvePanel.New(uv0)
 
-			slot0.resolvePanel:Load()
+			uv0.resolvePanel:Load()
 		end
 
-		slot0.resolvePanel.buffer:Reset()
-		slot0.resolvePanel.buffer.Reset.resolvePanel.buffer:Trigger("control")
+		uv0.resolvePanel.buffer:Reset()
+		uv0.resolvePanel.buffer:Trigger("control")
 	end, SFX_PANEL)
 end
 
@@ -46,17 +45,17 @@ function slot0.OnFragmentSellUpdate(slot0)
 end
 
 function slot0.OnUpdateItems(slot0)
-	return
 end
 
 function slot0.OnUpdateCommodity(slot0, slot1)
-	slot0.cards[slot1.id].goodsVO = slot1
+	slot2 = slot0.cards[slot1.id]
+	slot2.goodsVO = slot1
 
-	ActivityGoodsCard.StaticUpdate(slot0.cards[slot1.id].tr, slot1, slot0.TYPE_FRAGMENT)
+	ActivityGoodsCard.StaticUpdate(slot2.tr, slot1, uv0.TYPE_FRAGMENT)
 end
 
 function slot0.AddCard(slot0, slot1, slot2)
-	ActivityGoodsCard.StaticUpdate(slot2, slot1, slot0.TYPE_FRAGMENT)
+	ActivityGoodsCard.StaticUpdate(slot2, slot1, uv0.TYPE_FRAGMENT)
 
 	return {
 		goodsVO = slot1,
@@ -69,7 +68,7 @@ function slot0.OnPurchase(slot0, slot1, slot2)
 end
 
 function slot0.OnDestroy(slot0)
-	slot0.super.OnDestroy(slot0)
+	uv0.super.OnDestroy(slot0)
 
 	if slot0.resolvePanel then
 		slot0.resolvePanel:Destroy()

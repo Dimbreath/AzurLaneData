@@ -39,10 +39,10 @@ end
 function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._blurPanel)
 	onButton(slot0, slot0._backBtn, function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0._filterBtn, function ()
-		slot0:onFilter()
+		uv0:onFilter()
 	end, SFX_PANEL)
 	onButton(slot0, slot0._helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -62,13 +62,12 @@ function slot0.updateTrophyList(slot0)
 
 	removeAllChildren(slot0._trophyContainer)
 
-	slot1 = slot0.Filter[slot0._filterIndex]
 	slot2 = 0
 
 	for slot6, slot7 in pairs(slot0.trophyGroups) do
 		slot8 = nil
 
-		if slot1 == "all" then
+		if uv0.Filter[slot0._filterIndex] == "all" then
 			slot8 = true
 		elseif slot1 == "claimed" then
 			slot8 = slot7:getMaxClaimedTrophy() ~= nil
@@ -78,10 +77,9 @@ function slot0.updateTrophyList(slot0)
 
 		if slot8 then
 			slot9 = nil
-			slot12 = TrophyView.New(cloneTplTo((math.fmod(slot2, 2) ~= 0 or slot0._trophyUpperTpl) and slot0._trophyLowerTpl, slot0._trophyContainer))
 
 			if slot1 == "all" then
-				slot12:UpdateTrophyGroup(slot7)
+				TrophyView.New(cloneTplTo((math.fmod(slot2, 2) ~= 0 or slot0._trophyUpperTpl) and slot0._trophyLowerTpl, slot0._trophyContainer)):UpdateTrophyGroup(slot7)
 			elseif slot1 == "claimed" then
 				slot12:ClaimForm(slot7)
 			elseif slot1 == "unclaim" then
@@ -94,12 +92,12 @@ function slot0.updateTrophyList(slot0)
 			slot2 = slot2 + 1
 
 			onButton(slot0, slot11.transform:Find("frame"), function ()
-				if slot0.trophyGroups[slot1].getProgressTrophy(slot0):canClaimed() and not slot1:isClaimed() then
-					if not slot2:IsPlaying() then
-						slot0:emit(TrophyGalleryMediator.ON_TROPHY_CLAIM, slot1.id)
+				if uv0.trophyGroups[uv1]:getProgressTrophy():canClaimed() and not slot1:isClaimed() then
+					if not uv2:IsPlaying() then
+						uv0:emit(TrophyGalleryMediator.ON_TROPHY_CLAIM, slot1.id)
 					end
 				else
-					slot0:openTrophyDetail(slot0, slot1)
+					uv0:openTrophyDetail(slot0, slot1)
 				end
 			end)
 		end
@@ -108,8 +106,8 @@ end
 
 function slot0.PlayTrophyClaim(slot0, slot1)
 	slot0._trophyTFList[slot1]:PlayClaimAnima(slot0.trophyGroups[slot1], Instantiate(slot0._reminderRes:Find("claim_fx")), function ()
-		slot0:updateTrophyByGroup(slot0)
-		slot0.updateTrophyByGroup:updateTrophyCounter()
+		uv0:updateTrophyByGroup(uv1)
+		uv0:updateTrophyCounter()
 	end)
 end
 
@@ -124,11 +122,9 @@ function slot0.openTrophyDetail(slot0, slot1, slot2)
 end
 
 function slot0.updateTrophyCounter(slot0)
-	slot1 = 0
-
 	for slot5, slot6 in pairs(slot0.trophyList) do
 		if slot6:isClaimed() and not slot6:isHide() then
-			slot1 = slot1 + 1
+			slot1 = 0 + 1
 		end
 	end
 
@@ -138,11 +134,11 @@ end
 function slot0.onFilter(slot0)
 	slot0._filterIndex = slot0._filterIndex + 1
 
-	if slot0._filterIndex > #slot0.Filter then
+	if slot0._filterIndex > #uv0.Filter then
 		slot0._filterIndex = 1
 	end
 
-	for slot4 = 1, #slot0.Filter, 1 do
+	for slot4 = 1, #uv0.Filter do
 		setActive(slot0._filterBtn:GetChild(slot4 - 1), slot4 == slot0._filterIndex)
 	end
 
@@ -153,7 +149,7 @@ function slot0.onBackPressed(slot0)
 	if slot0._trophyDetailPanel:IsActive() then
 		slot0._trophyDetailPanel:SetActive(false)
 	else
-		slot0.super.onBackPressed(slot0)
+		uv0.super.onBackPressed(slot0)
 	end
 end
 

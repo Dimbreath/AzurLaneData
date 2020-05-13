@@ -1,7 +1,10 @@
-class("StopTechnologyCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot4 = slot1:getBody().pool_id
+slot0 = class("StopTechnologyCommand", pm.SimpleCommand)
 
-	if not getProxy(TechnologyProxy):getTechnologyById(slot1.getBody().id) then
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot4 = slot2.pool_id
+
+	if not getProxy(TechnologyProxy):getTechnologyById(slot2.id) then
 		return
 	end
 
@@ -16,18 +19,18 @@ class("StopTechnologyCommand", pm.SimpleCommand).execute = function (slot0, slot
 		refresh_id = slot4
 	}, 63006, function (slot0)
 		if slot0.result == 0 then
-			slot0:reset()
+			uv0:reset()
 
-			if slot0:hasCondition() and slot0:getTaskId() then
+			if uv0:hasCondition() and uv0:getTaskId() then
 				getProxy(TaskProxy):removeTaskById(slot1)
 			end
 
-			slot1:updateTechnology(slot0)
-			slot1:sendNotification(GAME.STOP_TECHNOLOGY_DONE)
+			uv1:updateTechnology(uv0)
+			uv2:sendNotification(GAME.STOP_TECHNOLOGY_DONE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("blueprint_stop_erro") .. slot0.result)
 		end
 	end)
 end
 
-return class("StopTechnologyCommand", pm.SimpleCommand)
+return slot0

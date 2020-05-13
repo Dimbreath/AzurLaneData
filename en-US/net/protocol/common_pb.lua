@@ -953,5 +953,3 @@ skillinfo = slot0.Message(SKILLINFO)
 strength_info = slot0.Message(STRENGTH_INFO)
 transform_info = slot0.Message(TRANSFORM_INFO)
 usersimpleinfo = slot0.Message(USERSIMPLEINFO)
-
-return

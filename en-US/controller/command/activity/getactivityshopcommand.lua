@@ -1,19 +1,20 @@
-class("GetActivityShopCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("GetActivityShopCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot7 = getProxy(ShopsProxy)
-	slot8 = {}
 
-	_.each(slot6, function (slot0)
+	_.each(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
 		if slot0 and not slot0:isEnd() then
-			slot0[slot0.id] = ActivityShop.New(slot0)
+			uv0[slot0.id] = ActivityShop.New(slot0)
 
-			slot1:addActivityShops(slot0)
+			uv1:addActivityShops(uv0)
 		end
 	end)
 	slot0:sendNotification(GAME.GET_ACTIVITY_SHOP_DONE)
 
 	if slot1:getBody() and slot2.callback then
-		slot3(slot8)
+		slot3({})
 	end
 end
 
-return class("GetActivityShopCommand", pm.SimpleCommand)
+return slot0

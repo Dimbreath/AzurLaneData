@@ -1,7 +1,8 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleConfig
+slot0 = ys
+slot1 = slot0.Battle.BattleConfig
 slot2 = class("BattleDropsView")
-ys.Battle.BattleDropsView = slot2
+slot0.Battle.BattleDropsView = slot2
 slot2.__name = "BattleDropsView"
 slot2.FLOAT_DURATION = 0.4
 
@@ -22,14 +23,18 @@ function slot2.AddCamera(slot0, slot1, slot2)
 	slot0._camera = slot1
 	slot0._uiCamera = slot2
 	slot0._cameraTF = slot0._camera.transform
-	slot0._cameraSrcX = slot0._cameraTF.localPosition.x
-	slot0._cameraSrcZ = slot0._cameraTF.localPosition.z
+	slot3 = slot0._cameraTF.localPosition
+	slot0._cameraSrcX = slot3.x
+	slot0._cameraSrcZ = slot3.z
 	slot0._cameraXRotate = slot0._cameraTF.localEulerAngles.x
 end
 
 function slot2.RefreshScaleRate(slot0)
-	slot0._xScale = UnityEngine.Screen.width / slot0._camera:ScreenToWorldPoint(Vector3(UnityEngine.Screen.width, UnityEngine.Screen.height, 0)).x
-	slot0._yScale = UnityEngine.Screen.height / slot0._camera.ScreenToWorldPoint(Vector3(UnityEngine.Screen.width, UnityEngine.Screen.height, 0)).y
+	slot1 = UnityEngine.Screen.width
+	slot2 = UnityEngine.Screen.height
+	slot3 = slot0._camera:ScreenToWorldPoint(Vector3(slot1, slot2, 0))
+	slot0._xScale = slot1 / slot3.x
+	slot0._yScale = slot2 / slot3.y
 end
 
 function slot2.Update(slot0)
@@ -55,13 +60,12 @@ function slot2.init(slot0)
 	slot0:updateCountText(slot0._resourceText)
 
 	slot0._timerList = {}
-	slot3 = {}
 
-	for slot7 = 1, 5, 1 do
-		table.insert(slot3, slot0:pop(slot0._resourcePool))
+	for slot7 = 1, 5 do
+		table.insert({}, slot0:pop(slot0._resourcePool))
 	end
 
-	for slot7 = 1, 5, 1 do
+	for slot7 = 1, 5 do
 		slot0:push(slot3[slot7], slot0._resourcePool)
 	end
 
@@ -113,56 +117,61 @@ function slot2.ShowDrop(slot0, slot1)
 		slot0:updateContainerPosition()
 	end
 
-	slot3 = Vector3(slot0.Battle.BattleVariable.CameraPosToUICamera(slot1.scenePos:Clone()).x, slot0.Battle.BattleVariable.CameraPosToUICamera(slot1.scenePos.Clone()).y, 2)
-	slot5, slot6 = math.modf(slot1.drops.resourceCount / slot1.RESOURCE_STEP)
+	slot2 = uv0.Battle.BattleVariable.CameraPosToUICamera(slot1.scenePos:Clone())
+	slot5, slot6 = math.modf(slot1.drops.resourceCount / uv1.RESOURCE_STEP)
 
 	if slot6 > 0 then
-		slot0:makeFloatAnima(slot3, slot0._resourcePool, slot0._resourceIconX, slot0._resourceIconY, slot0._resourceIcon, "_resourceCount", slot6 * slot1.RESOURCE_STEP, slot0._resourceText, 0)
+		slot0:makeFloatAnima(Vector3(slot2.x, slot2.y, 2), slot0._resourcePool, slot0._resourceIconX, slot0._resourceIconY, slot0._resourceIcon, "_resourceCount", slot6 * uv1.RESOURCE_STEP, slot0._resourceText, 0)
 	end
 
 	while slot5 > 0 do
-		slot0:makeFloatAnima(slot3, slot0._resourcePool, slot0._resourceIconX, slot0._resourceIconY, slot0._resourceIcon, "_resourceCount", slot1.RESOURCE_STEP, slot0._resourceText, slot5)
+		slot0:makeFloatAnima(slot3, slot0._resourcePool, slot0._resourceIconX, slot0._resourceIconY, slot0._resourceIcon, "_resourceCount", uv1.RESOURCE_STEP, slot0._resourceText, slot5)
 
 		slot5 = slot5 - 1
 	end
 end
 
 function slot2.updateContainerPosition(slot0)
-	slot0._containerTF.localPosition = Vector3(slot0._xScale * (slot0._cameraSrcX - slot0._cameraTF.localPosition.x), slot0._yScale * (slot0._cameraSrcZ - slot0._cameraTF.localPosition.z), 0)
+	slot1 = slot0._cameraTF.localPosition
+	slot0._containerTF.localPosition = Vector3(slot0._xScale * (slot0._cameraSrcX - slot1.x), slot0._yScale * (slot0._cameraSrcZ - slot1.z), 0)
 end
 
 function slot2.makeFloatAnima(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
 	slot10 = slot0:pop(slot2)
+	slot11 = slot10.transform
 
 	SetActive(slot10, true)
 
-	slot10.transform.position = slot1
-	slot10.transform.localPosition = slot10.transform.localPosition - slot0._containerTF.localPosition
+	slot11.position = slot1
+	slot11.localPosition = slot11.localPosition - slot0._containerTF.localPosition
 
 	slot0:Update()
-	slot10.transform.SetParent(slot11, slot0._container, false)
-	LeanTween.moveX(rtf(slot10), slot10.transform.anchoredPosition.x + math.random() * 200 - 100, slot0.RESOURCE_STAY_DURATION + slot9 * 0.05):setOnComplete(System.Action(function ()
-		LeanTween.scale(go(slot0), Vector3(0.2, 0.2, 1), slot1.FLOAT_DURATION)
+	slot11:SetParent(slot0._container, false)
 
-		0.localPosition = slot3.localPosition + slot5._containerTF.localPosition
+	slot13 = math.random() * 200
 
-		slot3:SetParent(slot5._go, false)
-		LeanTween.move(rtf(slot0), slot0, slot1.FLOAT_DURATION):setOnComplete(System.Action(function ()
-			slot0:push(slot0, )
+	LeanTween.moveX(rtf(slot10), slot11.anchoredPosition.x + math.random() * 200 - 100, uv0.RESOURCE_STAY_DURATION + slot9 * 0.05):setOnComplete(System.Action(function ()
+		LeanTween.scale(go(uv0), Vector3(0.2, 0.2, 1), uv1.FLOAT_DURATION)
 
-			slot3.transform.localScale = Vector3(0.35, 0.35, 0.35)
-			slot3.transform[slot4] = slot0[slot4] + slot5
+		uv3.localPosition = uv3.localPosition + uv5._containerTF.localPosition
 
-			slot3.transform:updateCountText(slot6)
-			LeanTween.scale(go(slot3), Vector3(0.5, 0.5, 0.5), 0.12):setEase(LeanTweenType.easeOutExpo):setOnComplete(System.Action(function ()
-				LeanTween.scale(go(slot0), Vector3(0.35, 0.35, 0.35), 0.3)
+		uv3:SetParent(uv5._go, false)
+		LeanTween.move(rtf(uv0), Vector3(uv2 - uv3.position.x, uv4 - uv3.position.y, 0), uv1.FLOAT_DURATION):setOnComplete(System.Action(function ()
+			uv0:push(uv1, uv2)
+
+			uv3.transform.localScale = Vector3(0.35, 0.35, 0.35)
+			uv0[uv4] = uv0[uv4] + uv5
+
+			uv0:updateCountText(uv6)
+			LeanTween.scale(go(uv3), Vector3(0.5, 0.5, 0.5), 0.12):setEase(LeanTweenType.easeOutExpo):setOnComplete(System.Action(function ()
+				LeanTween.scale(go(uv0), Vector3(0.35, 0.35, 0.35), 0.3)
 			end))
 		end))
 	end))
-	LeanTween.moveY(rtf(slot10), slot10.transform.anchoredPosition.y + math.random() * 200, 0.5 * (math.random() * 200) / 200):setOnComplete(System.Action(function ()
-		slot0:GetComponent("Animator").enabled = true
+	LeanTween.moveY(rtf(slot10), slot11.anchoredPosition.y + slot13, 0.5 * slot13 / 200):setOnComplete(System.Action(function ()
+		uv0:GetComponent("Animator").enabled = true
 
-		LeanTween.moveY(rtf(slot0), slot1.anchoredPosition.y - , 1.5 * slot1.anchoredPosition.y):setEase(LeanTweenType.easeOutBounce)
+		LeanTween.moveY(rtf(uv0), uv1.anchoredPosition.y - uv2, 1.5 * uv3):setEase(LeanTweenType.easeOutBounce)
 	end))
 end
 
@@ -186,5 +195,3 @@ function slot2.Dispose(slot0)
 	slot0._camera = nil
 	slot0._uiCamera = nil
 end
-
-return

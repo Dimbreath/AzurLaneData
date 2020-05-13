@@ -4,7 +4,6 @@ ys.Battle.BattleBulletPool = slot1
 slot1.__name = "BattleBulletPool"
 
 function slot1.Ctor(slot0)
-	return
 end
 
 function slot1.Init(slot0)
@@ -16,9 +15,9 @@ function slot1.InstantiateBullet(slot0, slot1, slot2)
 		slot2(slot0._bulletResCache[slot1])
 	else
 		ResourceMgr.Inst:getAssetAsync("Item/" .. slot1, slot1, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-			slot0(slot0)
+			uv0(slot0)
 
-			slot0._bulletResCache[slot0] = slot0
+			uv1._bulletResCache[uv2] = slot0
 		end), true, true)
 	end
 end
@@ -26,5 +25,3 @@ end
 function slot1.Clear(slot0)
 	slot0._bulletResCache = nil
 end
-
-return

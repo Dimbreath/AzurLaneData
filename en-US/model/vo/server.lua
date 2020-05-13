@@ -8,10 +8,11 @@ slot0.STATUS = {
 
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
-	slot0.status = slot1.status or slot0.STATUS.NORMAL
+	slot0.status = slot1.status or uv0.STATUS.NORMAL
 	slot0.name = slot1.name
-	slot0.isHot = (slot1.tag_state or 0) == 1
-	slot0.isNew = (slot1.tag_state or 0) == 2
+	slot2 = slot1.tag_state or 0
+	slot0.isHot = slot2 == 1
+	slot0.isNew = slot2 == 2
 	slot0.isLogined = false
 	slot0.sortIndex = slot1.sort or slot0.id
 	slot0.host = slot1.host

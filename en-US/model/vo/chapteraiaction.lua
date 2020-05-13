@@ -30,7 +30,7 @@ function slot0.Ctor(slot0, slot1)
 
 	_.each(slot1.map_update, function (slot0)
 		if slot0.item_type ~= ChapterConst.AttachNone and slot0.item_type ~= ChapterConst.AttachBorn and slot0.item_type ~= ChapterConst.AttachBorn_Sub and (slot0.item_type ~= ChapterConst.AttachStory or slot0.item_data ~= ChapterConst.StoryTrigger) then
-			table.insert(slot0.cellUpdates, (slot0.item_type == ChapterConst.AttachChampion and ChapterChampionPackage.New(slot0)) or ChapterCell.New(slot0))
+			table.insert(uv0.cellUpdates, slot0.item_type == ChapterConst.AttachChampion and ChapterChampionPackage.New(slot0) or ChapterCell.New(slot0))
 		end
 	end)
 
@@ -46,7 +46,7 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 		if pg.land_based_template[slot4.attachmentId].type == ChapterConst.LBCoastalGun then
 			slot2.viewComponent:doPlayAnim("coastalgun", function (slot0)
 				setActive(slot0, false)
-				slot0.viewComponent:easeMoveDown(slot2.viewComponent.grid.cellFleets[slot0:getFleet(FleetType.Normal, slot1.stgTarget.row, slot1.stgTarget.column).id].tf.position, slot0.viewComponent)
+				uv2.viewComponent:easeMoveDown(uv2.viewComponent.grid.cellFleets[uv0:getFleet(FleetType.Normal, uv1.stgTarget.row, uv1.stgTarget.column).id].tf.position, uv3)
 			end)
 		elseif slot5.type == ChapterConst.LBHarbor then
 			if not slot0.hp_del or slot0.hp_del <= 0 then
@@ -60,7 +60,7 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 		elseif slot5.type == ChapterConst.LBAntiAir then
 			slot2.viewComponent:doPlayAnim("AntiAirFire", function (slot0)
 				setActive(slot0, false)
-				slot0.viewComponent.grid:PlayChampionInsideEffect(slot1.stgTarget.row, slot1.stgTarget.column, "huoqiubaozha", slot0.viewComponent.grid)
+				uv0.viewComponent.grid:PlayChampionInsideEffect(uv1.stgTarget.row, uv1.stgTarget.column, "huoqiubaozha", uv2)
 			end)
 		end
 
@@ -71,7 +71,7 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 		if slot0.stgId == ChapterConst.StrategySonarDetect then
 			_.each(slot0.cellUpdates, function (slot0)
 				if isa(slot0, ChapterChampionPackage) then
-					table.insert(slot0, slot0)
+					table.insert(uv0, slot0)
 				end
 			end)
 			slot2.viewComponent.grid:PlaySonarDetectAnim({}, slot3)
@@ -85,10 +85,10 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 	if slot1:getChampionIndex(slot0.line.row, slot0.line.column) then
 		if #slot0.movePath > 0 then
 			slot2.viewComponent.grid:moveChampion(slot6, slot0.movePath, Clone(slot0.movePath), function ()
-				if #slot0.shipUpdate > 0 then
-					slot1.viewComponent:doPlayEnemyAnim(slot2, "SubSairenTorpedoUI", )
+				if #uv0.shipUpdate > 0 then
+					uv1.viewComponent:doPlayEnemyAnim(uv2, "SubSairenTorpedoUI", uv3)
 				else
-					slot3()
+					uv3()
 				end
 			end)
 		elseif #slot0.shipUpdate > 0 then
@@ -147,7 +147,7 @@ function slot0.applyToChampion(slot0, slot1, slot2, slot3)
 		slot6 = slot0.movePath[#slot0.movePath]
 
 		if _.any(slot0.movePath, function (slot0)
-			return not slot0:getChapterCell(slot0.row, slot0.column) or not slot1:IsWalkable()
+			return not uv0:getChapterCell(slot0.row, slot0.column) or not slot1:IsWalkable()
 		end) then
 			return false, "invalide move path"
 		end
@@ -178,7 +178,7 @@ function slot0.applyToChampion(slot0, slot1, slot2, slot3)
 
 		if #slot0.shipUpdate > 0 then
 			_.each(slot0.shipUpdate, function (slot0)
-				slot0:updateFleetShipHp(slot0.id, slot0.hpRant)
+				uv0:updateFleetShipHp(slot0.id, slot0.hpRant)
 			end)
 
 			slot4 = bit.bor(slot4, ChapterConst.DirtyFleet)
@@ -187,13 +187,13 @@ function slot0.applyToChampion(slot0, slot1, slot2, slot3)
 		if #slot0.cellUpdates > 0 then
 			_.each(slot0.cellUpdates, function (slot0)
 				if isa(slot0, ChapterChampionPackage) then
-					slot0:mergeChampion(slot0)
+					uv0:mergeChampion(slot0)
 
-					slot1 = bit.bor(bit.bor, ChapterConst.DirtyChampion)
+					uv1 = bit.bor(uv1, ChapterConst.DirtyChampion)
 				else
-					slot0:mergeChapterCell(slot0)
+					uv0:mergeChapterCell(slot0)
 
-					slot1 = bit.bor(bit.bor, ChapterConst.DirtyAttachment)
+					uv1 = bit.bor(uv1, ChapterConst.DirtyAttachment)
 				end
 			end)
 
@@ -214,13 +214,13 @@ function slot0.applyToStrategy(slot0, slot1, slot2, slot3)
 	if not slot3 and slot0.stgId == ChapterConst.StrategySonarDetect then
 		_.each(slot0.cellUpdates, function (slot0)
 			if isa(slot0, ChapterChampionPackage) then
-				slot0:mergeChampion(slot0)
+				uv0:mergeChampion(slot0)
 
-				slot1 = bit.bor(bit.bor, ChapterConst.DirtyChampion)
+				uv1 = bit.bor(uv1, ChapterConst.DirtyChampion)
 			else
-				slot0:mergeChapterCell(slot0)
+				uv0:mergeChapterCell(slot0)
 
-				slot1 = bit.bor(bit.bor, ChapterConst.DirtyAttachment)
+				uv1 = bit.bor(uv1, ChapterConst.DirtyAttachment)
 			end
 		end)
 	end
@@ -247,13 +247,13 @@ function slot0.applyToCoastalGun(slot0, slot1, slot2, slot3)
 
 		_.each(slot0.cellUpdates, function (slot0)
 			if isa(slot0, ChapterChampionPackage) then
-				slot0:mergeChampion(slot0)
+				uv0:mergeChampion(slot0)
 
-				slot1 = bit.bor(bit.bor, ChapterConst.DirtyChampion)
+				uv1 = bit.bor(uv1, ChapterConst.DirtyChampion)
 			else
-				slot0:mergeChapterCell(slot0)
+				uv0:mergeChapterCell(slot0)
 
-				slot1 = bit.bor(bit.bor, ChapterConst.DirtyAttachment)
+				uv1 = bit.bor(uv1, ChapterConst.DirtyAttachment)
 			end
 		end)
 
@@ -288,12 +288,12 @@ function slot0.applyToHarbor(slot0, slot1, slot2, slot3)
 		if #slot0.cellUpdates > 0 then
 			_.each(slot0.cellUpdates, function (slot0)
 				if isa(slot0, ChapterChampionPackage) then
-					merge = slot0:mergeChampion(slot0)
-					slot1 = bit.bor(bit.bor, ChapterConst.DirtyChampion)
+					merge = uv0:mergeChampion(slot0)
+					uv1 = bit.bor(uv1, ChapterConst.DirtyChampion)
 				else
-					slot0:mergeChapterCell(slot0)
+					uv0:mergeChapterCell(slot0)
 
-					slot1 = bit.bor(bit.bor, ChapterConst.DirtyAttachment)
+					uv1 = bit.bor(uv1, ChapterConst.DirtyAttachment)
 				end
 			end)
 		end
@@ -317,13 +317,13 @@ function slot0.applyToDock(slot0, slot1, slot2, slot3)
 	if not slot3 then
 		_.each(slot0.cellUpdates, function (slot0)
 			if isa(slot0, ChapterCell) then
-				slot0:mergeChapterCell(slot0)
+				uv0:mergeChapterCell(slot0)
 
-				slot1 = bit.bor(bit.bor, ChapterConst.DirtyAttachment)
+				uv1 = bit.bor(uv1, ChapterConst.DirtyAttachment)
 			end
 		end)
 		_.each(slot0.shipUpdate, function (slot0)
-			slot0:updateFleetShipHp(slot0.id, slot0.hpRant)
+			uv0:updateFleetShipHp(slot0.id, slot0.hpRant)
 		end)
 
 		slot4 = bit.bor(slot4, ChapterConst.DirtyFleet)
@@ -351,11 +351,11 @@ function slot0.applyToAntiAir(slot0, slot1, slot2, slot3)
 
 		_.each(slot0.cellUpdates, function (slot0)
 			if isa(slot0, ChapterChampionPackage) then
-				merge = slot0:mergeChampion(slot0)
+				merge = uv0:mergeChampion(slot0)
 			else
-				slot0:mergeChapterCell(slot0)
+				uv0:mergeChapterCell(slot0)
 
-				slot1 = bit.bor(bit.bor, ChapterConst.DirtyAttachment)
+				uv1 = bit.bor(uv1, ChapterConst.DirtyAttachment)
 			end
 		end)
 	end

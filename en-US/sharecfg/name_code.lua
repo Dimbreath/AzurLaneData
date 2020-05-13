@@ -936,5 +936,3 @@ pg.name_code = {
 		code = "槾"
 	}
 }
-
-return

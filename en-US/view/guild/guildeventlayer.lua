@@ -45,22 +45,22 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.awardBtn, function ()
-		slot0:emit(GuildEventMediator.OPEN_TASK)
+		uv0:emit(GuildEventMediator.OPEN_TASK)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.additionBtn, function ()
-		slot0:showAdditions()
+		uv0:showAdditions()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.combatBtn, function ()
-		if slot0.guildEvent.count <= 0 then
+		if uv0.guildEvent.count <= 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("less_count_to_combat"))
 
 			return
 		end
 
-		slot0:emit(GuildEventMediator.ON_PRE_COMBAT)
+		uv0:emit(GuildEventMediator.ON_PRE_COMBAT)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.guildRankBtn, function ()
-		slot0:emit(GuildEventMediator.OPEN_RANK)
+		uv0:emit(GuildEventMediator.OPEN_RANK)
 	end, SFX_PANEL)
 	slot0:updateEvent()
 	slot0:updateRankList()
@@ -73,18 +73,20 @@ end
 function slot0.updateEvent(slot0)
 	if slot0.guildEvent then
 		slot0.levelTxt.text = slot0.guildEvent.bossLevel
-		slot0.shiptypeImg.sprite = GetSpriteFromAtlas("shiptype", pg.enemy_data_statistics[pg.guild_boss_template[slot0.guildEvent.bossId].enemy_id].type)
-		slot0.nameTxt.text = pg.enemy_data_statistics[pg.guild_boss_template[slot0.guildEvent.bossId].enemy_id].name
-		slot0.hpRate.text = math.floor(slot0.guildEvent.bossHp / slot0:getBossMaxHp(slot0.guildEvent.bossLevel, slot2) * 100) .. "%"
-		slot0.hpBarImg.fillAmount = slot0.guildEvent.bossHp / slot0.getBossMaxHp(slot0.guildEvent.bossLevel, slot2)
-		slot6 = ""
+		slot1 = pg.guild_boss_template[slot0.guildEvent.bossId]
+		slot2 = pg.enemy_data_statistics[slot1.enemy_id]
+		slot0.shiptypeImg.sprite = GetSpriteFromAtlas("shiptype", slot2.type)
+		slot0.nameTxt.text = slot2.name
+		slot5 = slot0.guildEvent.bossHp / slot0:getBossMaxHp(slot0.guildEvent.bossLevel, slot2)
+		slot0.hpRate.text = math.floor(slot5 * 100) .. "%"
+		slot0.hpBarImg.fillAmount = slot5
 
-		for slot10, slot11 in pairs(pg.guild_boss_template[slot0.guildEvent.bossId].display_buff_list) do
-			slot6 = slot6 .. getSkillName(slot11) .. "\n"
+		for slot10, slot11 in pairs(slot1.display_buff_list) do
+			slot6 = "" .. getSkillName(slot11) .. "\n"
 		end
 
 		slot0.buffTxt.text = slot6
-		slot0.timeTxt.text = slot7 .. " - " .. slot8
+		slot0.timeTxt.text = pg.TimeMgr.GetInstance():STimeDescC(slot0.guildEvent.startTime, "%m月%d日%H:00") .. " - " .. pg.TimeMgr.GetInstance():STimeDescC(slot0.guildEvent.endTime, "%m月%d日%H:00")
 		slot0.introTxt.text = i18n("guild_event_desc")
 		slot0.combatCountTxt.text = slot0.guildEvent.count
 	end
@@ -95,11 +97,11 @@ function slot0.updateRankList(slot0)
 		if not slot0.guildEvent:getMemberRankList() or #slot1 <= 0 then
 			slot0:emit(GuildEventMediator.GET_RANK_LIST)
 		else
-			for slot6 = slot0.rankContainer.childCount, #slot1 - 1, 1 do
+			for slot6 = slot0.rankContainer.childCount, #slot1 - 1 do
 				cloneTplTo(slot0.rankTpl, slot0.rankContainer)
 			end
 
-			for slot6 = 1, slot0.rankContainer.childCount, 1 do
+			for slot6 = 1, slot0.rankContainer.childCount do
 				setActive(slot0.rankContainer:GetChild(slot6 - 1), slot6 <= #slot1)
 
 				if slot6 <= #slot1 then
@@ -113,18 +115,18 @@ function slot0.updateRankList(slot0)
 end
 
 function slot0.updateRank(slot0, slot1, slot2)
+	slot4 = slot0.guildEvent:getMemberRankList()[slot2]
+
 	setText(slot1:Find("rank"), "No." .. slot2)
-	setText(slot1:Find("name"), slot0.guildEvent:getMemberRankList()[slot2].name)
-	setText(slot1:Find("value"), slot0.guildEvent.getMemberRankList()[slot2].getDamage(slot4))
-	setActive(slot1:Find("arr"), slot0.guildEvent:getMemberRankList()[slot2].id == slot0.playerVO.id)
+	setText(slot1:Find("name"), slot4.name)
+	setText(slot1:Find("value"), slot4:getDamage())
+	setActive(slot1:Find("arr"), slot4.id == slot0.playerVO.id)
 end
 
 function slot0.showAdditions(slot0)
-	return
 end
 
 function slot0.willExit(slot0)
-	return
 end
 
 return slot0

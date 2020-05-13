@@ -1,4 +1,6 @@
-class("ResetCommanderTalentsCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("ResetCommanderTalentsCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	if not getProxy(CommanderProxy):getCommanderById(slot1:getBody().id) then
 		return
 	end
@@ -10,8 +12,8 @@ class("ResetCommanderTalentsCommand", pm.SimpleCommand).execute = function (slot
 	end
 
 	if #slot5:getTalentOrigins() == #slot5:getTalents() and _.all(slot6, function (slot0)
-		return _.any(slot0, function (slot0)
-			return slot0.id == slot0.id
+		return _.any(uv0, function (slot0)
+			return slot0.id == uv0.id
 		end)
 	end) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_reset_talent_is_not_need"))
@@ -19,7 +21,7 @@ class("ResetCommanderTalentsCommand", pm.SimpleCommand).execute = function (slot
 		return
 	end
 
-	if getProxy(PlayerProxy).getData(slot8).gold < slot5:getResetTalentConsume() then
+	if getProxy(PlayerProxy):getData().gold < slot5:getResetTalentConsume() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
@@ -29,16 +31,16 @@ class("ResetCommanderTalentsCommand", pm.SimpleCommand).execute = function (slot
 		commanderid = slot3
 	}, 25015, function (slot0)
 		if slot0.result == 0 then
-			slot0:consume({
-				gold = slot0.consume
+			uv0:consume({
+				gold = uv1
 			})
-			slot0:updatePlayer(slot0)
-			slot3:resetTalents()
-			slot3:updatePt(0)
-			slot3:updateNotLearnedList({})
-			slot4:updateCommander()
-			slot3:updateAbilityTime(pg.TimeMgr.GetInstance():GetServerTime())
-			slot5:sendNotification(GAME.COMMANDER_RESET_TALENTS_DONE)
+			uv2:updatePlayer(uv0)
+			uv3:resetTalents()
+			uv3:updatePt(0)
+			uv3:updateNotLearnedList({})
+			uv4:updateCommander(uv3)
+			uv3:updateAbilityTime(pg.TimeMgr.GetInstance():GetServerTime())
+			uv5:sendNotification(GAME.COMMANDER_RESET_TALENTS_DONE)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_reset_talent_success"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_reset_talent_erro", slot0.result))
@@ -46,4 +48,4 @@ class("ResetCommanderTalentsCommand", pm.SimpleCommand).execute = function (slot
 	end)
 end
 
-return class("ResetCommanderTalentsCommand", pm.SimpleCommand)
+return slot0

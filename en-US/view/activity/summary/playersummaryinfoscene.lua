@@ -30,11 +30,11 @@ function slot0.didEnter(slot0)
 	end
 
 	onButton(slot0, slot0.backBtn, function ()
-		if slot0:inAnim() then
+		if uv0:inAnim() then
 			return
 		end
 
-		slot0:emit(slot1.ON_BACK)
+		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
 end
 
@@ -60,55 +60,57 @@ function slot0.initSummaryInfo(slot0)
 		SummaryPage5.New(slot0:findTF("page5", slot0.pageContainer))
 	}
 
-	table.remove(slot0.pages, (slot0.summaryInfoVO.isProPose and 3) or 2).Hide(slot2)
+	table.remove(slot0.pages, slot0.summaryInfoVO.isProPose and 3 or 2):Hide()
 	setActive(slot0.pageFootContainer, false)
 	seriesAsync({
 		function (slot0)
-			slot0.loadingPage:Init(slot0.summaryInfoVO)
+			uv0.loadingPage:Init(uv0.summaryInfoVO)
 			slot0()
 		end,
 		function (slot0)
-			slot0.loadingPage:Show(slot0)
+			uv0.loadingPage:Show(slot0)
 		end,
 		function (slot0)
-			slot0.loadingPage:Hide(slot0)
+			uv0.loadingPage:Hide(slot0)
 		end,
 		function (slot0)
-			for slot4, slot5 in ipairs(slot0.pages) do
-				slot5:Init(slot0.summaryInfoVO)
+			for slot4, slot5 in ipairs(uv0.pages) do
+				slot5:Init(uv0.summaryInfoVO)
 			end
 
 			slot0()
 		end,
 		function (slot0)
-			slot0:registerFootEvent()
+			uv0:registerFootEvent()
 			slot0()
 		end,
 		function (slot0)
-			slot0:updatePageFoot(1)
+			uv0:updatePageFoot(1)
 			slot0()
 		end,
 		function (slot0)
-			slot0:registerDrag()
+			uv0:registerDrag()
 			slot0()
 		end
 	}, function ()
-		setActive(slot0.pageFootContainer, true)
+		setActive(uv0.pageFootContainer, true)
 	end)
 end
 
 function slot0.registerFootEvent(slot0)
 	slot0.footTFs = {}
 
-	for slot4 = 1, #slot0.pages, 1 do
-		table.insert(slot0.footTFs, slot5)
-		onToggle(slot0, slot0.pageFootContainer:Find("dot_" .. slot4), function (slot0)
-			if slot0 then
-				slot0.pages[]:Show()
+	for slot4 = 1, #slot0.pages do
+		slot5 = slot0.pageFootContainer:Find("dot_" .. slot4)
 
-				slot0.currPage = slot0
+		table.insert(slot0.footTFs, slot5)
+		onToggle(slot0, slot5, function (slot0)
+			if slot0 then
+				uv0.pages[uv1]:Show()
+
+				uv0.currPage = uv1
 			else
-				slot0.pages[slot0.currPage]:Hide()
+				uv0.pages[uv0.currPage]:Hide()
 			end
 		end)
 	end
@@ -116,9 +118,9 @@ end
 
 function slot0.registerDrag(slot0)
 	slot0:addVerticalDrag(slot0:findTF("bg"), function ()
-		slot0:updatePageFoot(slot0.currPage + 1)
+		uv0:updatePageFoot(uv0.currPage + 1)
 	end, function ()
-		slot0:updatePageFoot(slot0.currPage - 1)
+		uv0:updatePageFoot(uv0.currPage - 1)
 	end)
 end
 
@@ -141,25 +143,25 @@ function slot0.addVerticalDrag(slot0, slot1, slot2, slot3)
 	slot7 = 50
 
 	slot4:AddBeginDragFunc(function ()
-		slot0 = 0
-		slot1 = nil
+		uv0 = 0
+		uv1 = nil
 	end)
 	slot4:AddDragFunc(function (slot0, slot1)
 		slot2 = slot1.position
 
-		if not slot0 then
-			slot0 = slot2
+		if not uv0 then
+			uv0 = slot2
 		end
 
-		slot1 = slot2.y - slot0.y
+		uv1 = slot2.y - uv0.y
 	end)
 	slot4:AddDragEndFunc(function (slot0, slot1)
-		if slot0 < -slot1 then
-			if slot2 then
-				slot2()
+		if uv0 < -uv1 then
+			if uv2 then
+				uv2()
 			end
-		elseif slot1 < slot0 and slot3 then
-			slot3()
+		elseif uv1 < uv0 and uv3 then
+			uv3()
 		end
 	end)
 end

@@ -12,5 +12,3 @@ pg.furniture_compose_template = {
 		1
 	}
 }
-
-return

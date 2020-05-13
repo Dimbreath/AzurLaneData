@@ -129,5 +129,3 @@ pg.item_data_frame = {
 		307
 	}
 }
-
-return

@@ -1,23 +1,24 @@
 ys = ys or {}
+slot0 = ys
 slot1 = Vector3.up
-slot2 = class("AutoPilotHiveRelativeCircle", ys.Battle.IPilot)
-ys.Battle.AutoPilotHiveRelativeCircle = slot2
+slot2 = class("AutoPilotHiveRelativeCircle", slot0.Battle.IPilot)
+slot0.Battle.AutoPilotHiveRelativeCircle = slot2
 slot2.__name = "AutoPilotHiveRelativeCircle"
 
 function slot2.Ctor(slot0, ...)
-	slot0.super.Ctor(slot0, ...)
+	uv0.super.Ctor(slot0, ...)
 end
 
 function slot2.SetParameter(slot0, slot1, slot2)
-	slot0.super.SetParameter(slot0, slot1, slot2)
+	uv0.super.SetParameter(slot0, slot1, slot2)
 
 	slot0._radius = slot1.radius
 	slot0._duration = slot1.duration
 
 	if slot1.antiClockWise == true then
-		slot0.GetDirection = slot0._antiClockWise
+		slot0.GetDirection = uv0._antiClockWise
 	else
-		slot0.GetDirection = slot0._clockWise
+		slot0.GetDirection = uv0._clockWise
 	end
 end
 
@@ -34,10 +35,12 @@ function slot2._clockWise(slot0, slot1)
 		return Vector3.zero
 	end
 
-	if slot0._radius < slot1 - slot2:GetPosition().magnitude then
-		return slot3 - slot1.normalized
+	if slot0._radius < (slot1 - slot2:GetPosition()).magnitude then
+		return (slot3 - slot1).normalized
 	else
-		return Vector3(-slot3 - slot1.normalized.z, 0, slot3 - slot1.normalized.x)
+		slot5 = (slot3 - slot1).normalized
+
+		return Vector3(-slot5.z, 0, slot5.x)
 	end
 end
 
@@ -54,11 +57,11 @@ function slot2._antiClockWise(slot0, slot1)
 		return Vector3.zero
 	end
 
-	if slot0._radius < slot1 - slot2:GetPosition().magnitude then
-		return slot3 - slot1.normalized
+	if slot0._radius < (slot1 - slot2:GetPosition()).magnitude then
+		return (slot3 - slot1).normalized
 	else
-		return Vector3(slot3 - slot1.normalized.z, 0, -slot3 - slot1.normalized.x)
+		slot5 = (slot3 - slot1).normalized
+
+		return Vector3(slot5.z, 0, -slot5.x)
 	end
 end
-
-return

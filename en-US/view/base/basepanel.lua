@@ -5,14 +5,12 @@ function slot0.Ctor(slot0, slot1)
 	slot0._tf = slot1.transform
 
 	function slot0.emit()
-		return
 	end
 
 	slot0:init()
 end
 
 function slot0.init(slot0)
-	return
 end
 
 function slot0.attach(slot0, slot1)
@@ -56,7 +54,6 @@ function slot0.getTpl(slot0, slot1, slot2)
 end
 
 function slot0.clear(slot0)
-	return
 end
 
 return slot0

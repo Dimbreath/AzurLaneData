@@ -1,19 +1,20 @@
 slot0 = class("OutPostPtPage", import(".MaoziPtPage"))
 
 function slot0.OnInit(slot0)
-	slot0.super.OnInit(slot0)
+	uv0.super.OnInit(slot0)
 
 	slot0.getBtn1 = slot0:findTF("AD/switcher/phase2/get_btn")
 end
 
 function slot0.OnFirstFlush(slot0)
-	slot0.super.OnFirstFlush(slot0)
+	uv0.super.OnFirstFlush(slot0)
 	setActive(slot0.displayBtn, true)
 
 	slot3, slot4 = slot0:GetActTask()
+	slot5 = slot3 and slot3:isReceive() and slot4
 
-	setActive(slot0.displayBtn:Find("Image1"), not (slot3 and slot3:isReceive() and slot4))
-	setActive(slot0.displayBtn:Find("Image2"), slot3 and slot3.isReceive() and slot4)
+	setActive(slot0.displayBtn:Find("Image1"), not slot5)
+	setActive(slot0.displayBtn:Find("Image2"), slot5)
 
 	if slot3 and not slot3:isReceive() then
 		blinkAni(go(slot1), 0.8, -1, 0.3)
@@ -22,26 +23,26 @@ function slot0.OnFirstFlush(slot0)
 	end
 
 	onButton(slot0, slot0.displayBtn, function ()
-		if slot0 and slot0:isReceive() and not slot1 then
+		if uv0 and uv0:isReceive() and not uv1 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("undermist_tip"))
 
 			return
 		end
 
-		if slot0 and not slot1 then
-			slot2:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
+		if uv0 and not uv1 then
+			uv2:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
 				page = "activity",
-				targetId = slot0.id
+				targetId = uv0.id
 			})
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.getBtn1, function ()
-		triggerButton(slot0.getBtn)
+		triggerButton(uv0.getBtn)
 	end, SFX_PANEL)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	slot0.super.OnUpdateFlush(slot0)
+	uv0.super.OnUpdateFlush(slot0)
 	setActive(slot0.getBtn1, slot0.ptData:CanGetAward())
 end
 

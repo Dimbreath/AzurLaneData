@@ -1,4 +1,6 @@
-class("GetGuildEventCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("GetGuildEventCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	if not getProxy(GuildProxy):getData() then
 		return
 	end
@@ -6,8 +8,8 @@ class("GetGuildEventCommand", pm.SimpleCommand).execute = function (slot0, slot1
 	pg.ConnectionMgr.GetInstance():Send(60042, {
 		guild_id = slot3.id
 	}, 60043, function (slot0)
-		slot0:sendNotification(GAME.GET_GUILD_EVENT_DONE)
+		uv0:sendNotification(GAME.GET_GUILD_EVENT_DONE)
 	end)
 end
 
-return class("GetGuildEventCommand", pm.SimpleCommand)
+return slot0

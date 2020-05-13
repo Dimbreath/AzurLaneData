@@ -21,95 +21,97 @@ function slot0.register(slot0)
 
 	slot0:on(60000, function (slot0)
 		if Guild.New(slot0.guild).id == 0 then
-			slot0:exitGuild()
-		elseif slot0.data == nil then
-			slot0:addGuild(slot1)
+			uv0:exitGuild()
+		elseif uv0.data == nil then
+			uv0:addGuild(slot1)
 		else
-			slot0:updateGuild(slot1)
+			uv0:updateGuild(slot1)
 		end
 
-		if slot0.data and not slot0.isGetChatMsg then
-			slot0:sendNotification(GAME.GET_GUILD_CHAT_LIST)
+		if uv0.data and not uv0.isGetChatMsg then
+			uv0:sendNotification(GAME.GET_GUILD_CHAT_LIST)
 		end
 	end)
 
 	slot0.requestCount = 0
 
 	slot0:on(60009, function (slot0)
-		slot0.requestCount = slot0.count
+		uv0.requestCount = slot0.count
 
-		slot0:sendNotification(slot1.REQUEST_COUNT_UPDATED, slot0.count)
+		uv0:sendNotification(uv1.REQUEST_COUNT_UPDATED, slot0.count)
 	end)
 	slot0:on(60030, function (slot0)
-		slot1 = slot0:getData()
+		slot1 = uv0:getData()
 
 		slot1:updateBaseInfo({
 			base = slot0.guild
 		})
-		slot0:updateGuild(slot1)
+		uv0:updateGuild(slot1)
 	end)
 	slot0:on(60031, function (slot0)
-		slot1 = slot0:getData()
-
 		for slot5, slot6 in ipairs(slot0.member_list) do
-			slot1:modifyMember(GuildMember.New(slot6))
+			uv0:getData():modifyMember(GuildMember.New(slot6))
 		end
 
 		for slot5, slot6 in ipairs(slot0.log_list) do
+			slot7 = GuildLogInfo.New(slot6)
+
 			slot1:addLog(slot7)
-			slot0:sendNotification(slot1.LOG_ADDED, Clone(GuildLogInfo.New(slot6)))
+			uv0:sendNotification(uv1.LOG_ADDED, Clone(slot7))
 		end
 
 		slot1:setMemberCount(table.getCount(slot1.member or {}))
-		slot0:updateGuild(slot1)
+		uv0:updateGuild(slot1)
 	end)
 	slot0:on(60032, function (slot0)
-		slot1 = slot0:getData()
+		slot1 = uv0:getData()
 
 		slot1:updateExp(slot0.exp)
 		slot1:updateLevel(slot0.lv)
-		slot0:updateGuild(slot1)
+		uv0:updateGuild(slot1)
 	end)
 	slot0:on(60008, function (slot0)
-		if slot0.data:warpChatInfo(slot0.chat) then
-			slot0:addMsg(slot2)
-			slot0:sendNotification(slot1.NEW_MSG_ADDED, slot2)
+		if uv0.data:warpChatInfo(slot0.chat) then
+			uv0:addMsg(slot2)
+			uv0:sendNotification(uv1.NEW_MSG_ADDED, slot2)
 		end
 	end)
 	slot0:on(60043, function (slot0)
 		slot1 = GuildEvent.New(slot0)
 
-		if slot0.data and slot1.bossId ~= 0 then
-			if slot0.guildEvent then
-				slot0:updateGuildEvent(slot1)
+		if uv0.data and slot1.bossId ~= 0 then
+			if uv0.guildEvent then
+				uv0:updateGuildEvent(slot1)
 			else
-				slot0:addGuildEvent(slot1)
+				uv0:addGuildEvent(slot1)
 			end
 		end
 	end)
 	slot0:on(62045, function (slot0)
-		slot1 = slot0.data:clone()
+		slot1 = uv0.data:clone()
 
 		for slot5, slot6 in ipairs(slot0.facility_list) do
 			slot1:updateFacility(GuildFacility.New(slot6))
 		end
 
-		slot0:updateGuild(slot1)
+		uv0:updateGuild(slot1)
 	end)
 	slot0:on(62048, function (slot0)
-		slot0:updateFacilityAddition(slot0)
+		uv0:updateFacilityAddition(slot0)
 	end)
 	slot0:on(62051, function (slot0)
-		slot0:updateFaclityLogs(slot0)
+		uv0:updateFaclityLogs(slot0)
 	end)
 	slot0:on(62053, function (slot0)
-		slot0.data:updateResource(slot0.resource or 0)
-		slot0:updateGuild(slot1)
+		slot1 = uv0.data
+
+		slot1:updateResource(slot0.resource or 0)
+		uv0:updateGuild(slot1)
 	end)
 	slot0:on(62054, function (slot0)
-		if slot0.data then
-			slot0.data:setJoinColdTime(slot0.join_cold_time)
-			slot0.data:setContributeFlag(slot0.contribute_flag)
+		if uv0.data then
+			uv0.data:setJoinColdTime(slot0.join_cold_time)
+			uv0.data:setContributeFlag(slot0.contribute_flag)
 		end
 	end)
 end
@@ -122,11 +124,13 @@ function slot0.updateFaclityLogs(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1.log_list) do
+		slot8 = GuildLogInfo.New(slot7)
+
 		table.insert(slot2, slot8)
-		slot0.data:addFacilityLogs(GuildLogInfo.New(slot7))
+		slot0.data:addFacilityLogs(slot8)
 	end
 
-	slot0:sendNotification(slot0.UPDATE_FACILITYLOG, slot2)
+	slot0:sendNotification(uv0.UPDATE_FACILITYLOG, slot2)
 end
 
 function slot0.updateFacilityAddition(slot0, slot1)
@@ -147,7 +151,7 @@ function slot0.updateFacilityAddition(slot0, slot1)
 	end
 
 	slot0:updateGuild(slot2)
-	slot0:sendNotification(slot0.FACILITY_ADDITION_UPDATED)
+	slot0:sendNotification(uv0.FACILITY_ADDITION_UPDATED)
 end
 
 function slot0.getGuildEvent(slot0)
@@ -157,13 +161,13 @@ end
 function slot0.addGuildEvent(slot0, slot1)
 	slot0.guildEvent = slot1
 
-	slot0:sendNotification(slot0.ADDED_EVENT, slot1)
+	slot0:sendNotification(uv0.ADDED_EVENT, slot1)
 end
 
 function slot0.updateGuildEvent(slot0, slot1)
 	slot0.guildEvent = slot1
 
-	slot0:sendNotification(slot0.UPDATED_EVENT, slot1)
+	slot0:sendNotification(uv0.UPDATED_EVENT, slot1)
 end
 
 function slot0.setRequestList(slot0, slot1)
@@ -173,27 +177,27 @@ end
 function slot0.addGuild(slot0, slot1)
 	slot0.data = slot1
 
-	slot0:sendNotification(slot0.NEW_GUILD_ADDED, Clone(slot1))
+	slot0:sendNotification(uv0.NEW_GUILD_ADDED, Clone(slot1))
 end
 
 function slot0.updateGuild(slot0, slot1)
 	slot0.data = slot1
 
-	slot0:sendNotification(slot0.GUILD_UPDATED, Clone(slot1))
+	slot0:sendNotification(uv0.GUILD_UPDATED, Clone(slot1))
 end
 
 function slot0.exitGuild(slot0)
 	slot0.data = nil
 
 	slot0:clearEvent()
-	slot0:sendNotification(slot0.EXIT_GUILD)
+	slot0:sendNotification(uv0.EXIT_GUILD)
 end
 
 function slot0.clearEvent(slot0)
 	if slot0.guildEvent then
 		slot0.guildEvent = nil
 
-		slot0:sendNotification(slot0.GUILD_EVENT_END)
+		slot0:sendNotification(uv0.GUILD_EVENT_END)
 	end
 end
 
@@ -230,7 +234,7 @@ function slot0.deleteRequest(slot0, slot1)
 
 	slot0.requests[slot1] = nil
 
-	slot0:sendNotification(slot0.REQUEST_DELETED, slot1)
+	slot0:sendNotification(uv0.REQUEST_DELETED, slot1)
 end
 
 function slot0.addMsg(slot0, slot1)

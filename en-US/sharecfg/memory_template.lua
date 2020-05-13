@@ -13227,5 +13227,3 @@ pg.memory_template = {
 		10080
 	}
 }
-
-return

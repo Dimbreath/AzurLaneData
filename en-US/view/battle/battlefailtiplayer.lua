@@ -31,63 +31,63 @@ end
 
 function slot0.addListener(slot0)
 	onButton(slot0, slot0.closeBtn, function ()
-		slot0:closeView()
+		uv0:closeView()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.shipLevelUpBtn, function ()
-		if slot0.battleSystem == SYSTEM_SCENARIO then
+		if uv0.battleSystem == SYSTEM_SCENARIO then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("fightfail_up"),
 				onYes = function ()
-					if slot0.contextData.battleSystem == SYSTEM_SCENARIO then
-						slot0.lastClickBtn = slot1.PowerUpBtn.ShipLevelUp
+					if uv0.contextData.battleSystem == SYSTEM_SCENARIO then
+						uv0.lastClickBtn = uv1.PowerUpBtn.ShipLevelUp
 
-						slot0:emit(BattleFailTipMediator.CHAPTER_RETREAT)
+						uv0:emit(BattleFailTipMediator.CHAPTER_RETREAT)
 					else
-						slot0:emit(BattleFailTipMediator.GO_HIGEST_CHAPTER)
+						uv0:emit(BattleFailTipMediator.GO_HIGEST_CHAPTER)
 					end
 				end
 			})
 		else
-			slot0:emit(BattleFailTipMediator.GO_HIGEST_CHAPTER)
+			uv0:emit(BattleFailTipMediator.GO_HIGEST_CHAPTER)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.equipLevelUpBtn, function ()
-		if slot0.battleSystem == SYSTEM_SCENARIO then
+		if uv0.battleSystem == SYSTEM_SCENARIO then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("fightfail_equip"),
 				onYes = function ()
-					if slot0.contextData.battleSystem == SYSTEM_SCENARIO then
-						slot0.lastClickBtn = slot1.PowerUpBtn.EquipLevelUp
+					if uv0.contextData.battleSystem == SYSTEM_SCENARIO then
+						uv0.lastClickBtn = uv1.PowerUpBtn.EquipLevelUp
 
-						slot0:emit(BattleFailTipMediator.CHAPTER_RETREAT)
+						uv0:emit(BattleFailTipMediator.CHAPTER_RETREAT)
 					else
-						slot0:emit(BattleFailTipMediator.GO_DOCKYARD_EQUIP)
+						uv0:emit(BattleFailTipMediator.GO_DOCKYARD_EQUIP)
 					end
 				end
 			})
 		else
-			slot0:emit(BattleFailTipMediator.GO_DOCKYARD_EQUIP)
+			uv0:emit(BattleFailTipMediator.GO_DOCKYARD_EQUIP)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.skillLevelUpBtn, function ()
-		slot0:emit(BattleFailTipMediator.GO_NAVALTACTICS)
+		uv0:emit(BattleFailTipMediator.GO_NAVALTACTICS)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.shipBreakUpBtn, function ()
-		if slot0.battleSystem == SYSTEM_SCENARIO then
+		if uv0.battleSystem == SYSTEM_SCENARIO then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("fight_strengthen"),
 				onYes = function ()
-					if slot0.contextData.battleSystem == SYSTEM_SCENARIO then
-						slot0.lastClickBtn = slot1.PowerUpBtn.ShipBreakUp
+					if uv0.contextData.battleSystem == SYSTEM_SCENARIO then
+						uv0.lastClickBtn = uv1.PowerUpBtn.ShipBreakUp
 
-						slot0:emit(BattleFailTipMediator.CHAPTER_RETREAT)
+						uv0:emit(BattleFailTipMediator.CHAPTER_RETREAT)
 					else
-						slot0:emit(BattleFailTipMediator.GO_DOCKYARD_SHIP)
+						uv0:emit(BattleFailTipMediator.GO_DOCKYARD_SHIP)
 					end
 				end
 			})
 		else
-			slot0:emit(BattleFailTipMediator.GO_DOCKYARD_SHIP)
+			uv0:emit(BattleFailTipMediator.GO_DOCKYARD_SHIP)
 		end
 	end, SFX_PANEL)
 end
@@ -110,7 +110,7 @@ function slot0.aniBeforeEnter(slot0)
 	slot1 = GetComponent(slot0._tf, "CanvasGroup")
 
 	LeanTween.value(go(slot0._tf), 0, 1, 0.6):setOnUpdate(System.Action_float(function (slot0)
-		slot0.alpha = slot0
+		uv0.alpha = slot0
 	end))
 end
 

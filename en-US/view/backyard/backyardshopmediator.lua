@@ -12,8 +12,8 @@ function slot0.register(slot0)
 		slot0.formGarniture = true
 	end
 
-	slot0:bind(slot0.BUY_FURNITURE, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.BUY_FURNITURE, {
+	slot0:bind(uv0.BUY_FURNITURE, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.BUY_FURNITURE, {
 			furnitureIds = slot1,
 			type = slot2
 		})
@@ -43,10 +43,8 @@ function slot0.remove(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
-	slot3 = slot1:getBody()
-
 	if slot1:getName() == DormProxy.FURNITURE_ADDED or slot2 == DormProxy.FURNITURE_UPDATED then
-		slot0.viewComponent:updateFurnitrue(slot3)
+		slot0.viewComponent:updateFurnitrue(slot1:getBody())
 		slot0.viewComponent:setDorm(getProxy(DormProxy):getData())
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:updatePlayer(slot3)

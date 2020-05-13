@@ -69,5 +69,3 @@ pg.benefit_buff_template = {
 		12
 	}
 }
-
-return

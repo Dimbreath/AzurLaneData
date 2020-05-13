@@ -20,9 +20,13 @@ end
 function slot0.GetLasterUpdateTime(slot0)
 	slot1 = {}
 
-	slot2(slot0.time)
+	function (slot0)
+		if slot0 <= pg.TimeMgr.GetInstance():GetServerTime() then
+			table.insert(uv0, slot0)
+		end
+	end(slot0.time)
 
-	for slot7, slot8 in pairs(slot3) do
+	for slot7, slot8 in pairs(slot0:GetAllReplys()) do
 		slot2(slot8.time)
 	end
 
@@ -34,25 +38,20 @@ function slot0.GetLasterUpdateTime(slot0)
 end
 
 function slot0.GetName(slot0)
-	return
 end
 
 function slot0.GetPainting(slot0)
-	return
 end
 
 function slot0.GetType(slot0)
-	return
 end
 
 function slot0.GetFasterRefreshTime(slot0)
-	slot1 = {}
-
 	if slot0:ShouldWaitForShow() then
-		table.insert(slot1, slot0.time)
+		table.insert({}, slot0.time)
 	end
 
-	for slot6, slot7 in ipairs(slot2) do
+	for slot6, slot7 in ipairs(slot0:GetAllReplys()) do
 		if slot7:ShouldWaitForShow() then
 			table.insert(slot1, slot7.time)
 		end
@@ -92,12 +91,10 @@ end
 function slot0.GetAllReplys(slot0)
 	slot2 = nil
 
-
-	-- Decompilation error in this vicinity:
 	function (slot0)
 		for slot4, slot5 in ipairs(slot0) do
-			slot0(slot5.replyList)
-			table.insert(slot1, slot5)
+			uv0(slot5.replyList)
+			table.insert(uv1, slot5)
 		end
 	end(slot0.replyList)
 
@@ -106,13 +103,12 @@ end
 
 function slot0.GetCanDisplayReply(slot0)
 	slot1 = {}
-	slot2 = 0
 
-	for slot7, slot8 in ipairs(slot3) do
+	for slot7, slot8 in ipairs(slot0:GetAllReplys()) do
 		if not slot8:ShouldWaitForShow() then
 			table.insert(slot1, slot8)
 
-			slot2 = slot2 + 1
+			slot2 = 0 + 1
 		end
 	end
 
@@ -130,10 +126,8 @@ function slot0.HasReply(slot0)
 end
 
 function slot0.GetContent(slot0)
-	slot1 = slot0:GetName()
-
 	if slot0.isRoot then
-		return string.format("<color=#000000FF>%s.</color>%s", slot1, slot0.text)
+		return string.format("<color=#000000FF>%s.</color>%s", slot0:GetName(), slot0.text)
 	else
 		slot2 = slot0:GetParentCommentName()
 
@@ -142,11 +136,9 @@ function slot0.GetContent(slot0)
 end
 
 function slot0.GetReplyCnt(slot0)
-	slot1 = 0
-
-	for slot6, slot7 in ipairs(slot2) do
+	for slot6, slot7 in ipairs(slot0:GetAllReplys()) do
 		if not slot7:ShouldWaitForShow() then
-			slot1 = slot1 + 1
+			slot1 = 0 + 1
 		end
 	end
 

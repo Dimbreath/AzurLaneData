@@ -183,5 +183,3 @@ pg.ship_data_create_material = {
 		9
 	}
 }
-
-return
