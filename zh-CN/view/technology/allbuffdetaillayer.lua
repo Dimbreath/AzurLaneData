@@ -46,7 +46,7 @@ end
 
 function slot0.addListener(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 end
 
@@ -55,10 +55,12 @@ function slot0.updateDetail(slot0)
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setImageSprite(slot4, GetSpriteFromAtlas("ShipType", "ch_title_" .. slot6))
-			setImageSprite(slot3, GetSpriteFromAtlas("ShipType", "buffitem_tec_" .. slot0.typeOrder[slot1 + 1]), true)
+			slot6 = uv0.typeOrder[slot1 + 1]
+
+			setImageSprite(uv0:findTF("TypeTitle/TypeTextImg", slot2), GetSpriteFromAtlas("ShipType", "ch_title_" .. slot6))
+			setImageSprite(uv0:findTF("TypeTitle/TypeImg", slot2), GetSpriteFromAtlas("ShipType", "buffitem_tec_" .. slot6), true)
 			Canvas.ForceUpdateCanvases()
-			slot0:updateBuffList(slot0:findTF("Container", slot2), slot0.typeOrder[slot1 + 1])
+			uv0:updateBuffList(uv0:findTF("Container", slot2), slot6)
 		end
 	end)
 	slot1:align(#slot0.typeOrder)
@@ -82,8 +84,10 @@ function slot0.updateBuffList(slot0, slot1, slot2)
 
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setText(slot3, AttributeType.Type2Name(pg.attribute_info_by_type[slot1[slot1 + 1]].name))
-			setText(slot0:findTF("ValueText", slot2), "+" .. slot2[slot1[slot1 + 1]])
+			slot5 = uv1[slot1 + 1]
+
+			setText(uv0:findTF("AttrText", slot2), AttributeType.Type2Name(pg.attribute_info_by_type[slot5].name))
+			setText(uv0:findTF("ValueText", slot2), "+" .. uv2[slot5])
 		end
 	end)
 	slot3:align(#slot0.typeAttrOrderTable[slot2])

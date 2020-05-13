@@ -717,5 +717,3 @@ sc_22204 = slot0.Message(SC_22204)
 shoppingstreet = slot0.Message(SHOPPINGSTREET)
 skill_class = slot0.Message(SKILL_CLASS)
 streetgoods = slot0.Message(STREETGOODS)
-
-return

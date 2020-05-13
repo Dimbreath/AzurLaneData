@@ -1,7 +1,10 @@
-class("ChargeFailedCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot4 = slot1:getBody().code
+slot0 = class("ChargeFailedCommand", pm.SimpleCommand)
 
-	if not slot1.getBody().payId then
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot4 = slot2.code
+
+	if not slot2.payId then
 		return
 	end
 
@@ -15,4 +18,4 @@ class("ChargeFailedCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	})
 end
 
-return class("ChargeFailedCommand", pm.SimpleCommand)
+return slot0

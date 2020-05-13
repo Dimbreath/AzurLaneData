@@ -1,22 +1,23 @@
 ys = ys or {}
-slot1 = class("BattleBuffAddAttr", ys.Battle.BattleBuffEffect)
-ys.Battle.BattleBuffAddAttr = slot1
+slot0 = ys
+slot1 = class("BattleBuffAddAttr", slot0.Battle.BattleBuffEffect)
+slot0.Battle.BattleBuffAddAttr = slot1
 slot1.__name = "BattleBuffAddAttr"
-slot1.FX_TYPE = ys.Battle.BattleBuffEffect.FX_TYPE_MOD_ATTR
+slot1.FX_TYPE = slot0.Battle.BattleBuffEffect.FX_TYPE_MOD_ATTR
 
 function slot1.Ctor(slot0, slot1)
-	slot0.Battle.BattleBuffAddAttr.super.Ctor(slot0, slot1)
+	uv0.Battle.BattleBuffAddAttr.super.Ctor(slot0, slot1)
 end
 
 function slot1.GetEffectType(slot0)
-	return slot0.FX_TYPE
+	return uv0.FX_TYPE
 end
 
 function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._group = slot0._tempData.arg_list.group or slot2:GetID()
 
 	if slot0._tempData.arg_list.comboDamage then
-		slot0._attr = slot0.Battle.BattleAttr.GetCurrent(slot0._caster, "comboTag")
+		slot0._attr = uv0.Battle.BattleAttr.GetCurrent(slot0._caster, "comboTag")
 	else
 		slot0._attr = slot0._tempData.arg_list.attr
 	end
@@ -67,20 +68,18 @@ function slot1.UpdateAttrMul(slot0, slot1)
 	slot4 = {}
 	slot5 = {}
 
-	for slot10, slot11 in pairs(slot6) do
+	for slot10, slot11 in pairs(slot1:GetBuffList()) do
 		for slot15, slot16 in ipairs(slot11._effectList) do
-			if slot16:GetEffectType() == slot0.FX_TYPE and slot16:IsSameAttr(slot0._attr) then
-				slot17 = slot16._number
-				slot19 = slot4[slot16._group] or 0
+			if slot16:GetEffectType() == uv0.FX_TYPE and slot16:IsSameAttr(slot0._attr) then
 				slot20 = slot5[slot18] or 0
 
-				if slot19 < slot17 and slot17 > 0 then
-					slot2 = (slot2 * (1 + slot17)) / (1 + slot19)
+				if (slot4[slot16._group] or 0) < slot16._number and slot17 > 0 then
+					slot2 = slot2 * (1 + slot17) / (1 + slot19)
 					slot19 = slot17
 				end
 
 				if slot17 < slot20 and slot17 < 0 then
-					slot3 = (slot3 * (1 + slot17)) / (1 + slot20)
+					slot3 = slot3 * (1 + slot17) / (1 + slot20)
 					slot20 = slot17
 				end
 
@@ -90,7 +89,7 @@ function slot1.UpdateAttrMul(slot0, slot1)
 		end
 	end
 
-	slot1.Battle.BattleAttr.FlashByBuff(slot1, slot0._attr, slot2 * slot3 - 1)
+	uv1.Battle.BattleAttr.FlashByBuff(slot1, slot0._attr, slot2 * slot3 - 1)
 
 	if slot0:CheckWeapon() then
 		slot1:FlushReloadingWeapon()
@@ -104,20 +103,18 @@ function slot1.UpdateAttrAdd(slot0, slot1)
 	slot7 = {}
 	slot8 = {}
 
-	for slot12, slot13 in pairs(slot4) do
+	for slot12, slot13 in pairs(slot1:GetBuffList()) do
 		for slot17, slot18 in ipairs(slot13._effectList) do
-			if slot18:GetEffectType() == slot0.FX_TYPE and slot18:IsSameAttr(slot0._attr) then
-				slot19 = slot18._number
-				slot21 = slot7[slot18._group] or 0
+			if slot18:GetEffectType() == uv0.FX_TYPE and slot18:IsSameAttr(slot0._attr) then
 				slot22 = slot8[slot20] or 0
 
-				if slot21 < slot19 and slot19 > 0 then
-					slot5 = (slot5 + slot19) - slot21
+				if (slot7[slot18._group] or 0) < slot18._number and slot19 > 0 then
+					slot5 = slot5 + slot19 - slot21
 					slot21 = slot19
 				end
 
 				if slot19 < slot22 and slot19 < 0 then
-					slot6 = (slot6 + slot19) - slot22
+					slot6 = slot6 + slot19 - slot22
 					slot22 = slot19
 				end
 
@@ -127,15 +124,16 @@ function slot1.UpdateAttrAdd(slot0, slot1)
 		end
 	end
 
-	slot1.Battle.BattleAttr.FlashByBuff(slot1, slot0._attr, slot5 + slot6)
-	slot1:SetCurrentHP(math.min(slot9, slot2 + math.max(0, slot1:GetMaxHP() - slot3)))
+	uv1.Battle.BattleAttr.FlashByBuff(slot1, slot0._attr, slot5 + slot6)
+
+	slot9 = slot1:GetMaxHP()
+
+	slot1:SetCurrentHP(math.min(slot9, slot2 + math.max(0, slot9 - slot3)))
 
 	if slot0:CheckWeapon() then
 		slot1:FlushReloadingWeapon()
 	end
 
-	slot1._move:ImmuneAreaLimit(slot1.Battle.BattleAttr.IsImmuneAreaLimit(slot1))
-	slot1._move:ImmuneMaxAreaLimit(slot1.Battle.BattleAttr.IsImmuneMaxAreaLimit(slot1))
+	slot1._move:ImmuneAreaLimit(uv1.Battle.BattleAttr.IsImmuneAreaLimit(slot1))
+	slot1._move:ImmuneMaxAreaLimit(uv1.Battle.BattleAttr.IsImmuneMaxAreaLimit(slot1))
 end
-
-return

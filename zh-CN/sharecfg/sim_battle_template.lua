@@ -574,5 +574,3 @@ pg.sim_battle_template = {
 		12
 	}
 }
-
-return

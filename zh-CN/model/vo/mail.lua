@@ -6,8 +6,9 @@ slot0.ATTACHMENT_TAKEN = 2
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.date = slot1.date
-	slot0.title = string.split(HXSet.hxLan(slot1.title), "||")[1]
-	slot0.sender = (#string.split(HXSet.hxLan(slot1.title), "||") > 1 and slot2[2]) or i18n("mail_sender_default")
+	slot2 = string.split(HXSet.hxLan(slot1.title), "||")
+	slot0.title = slot2[1]
+	slot0.sender = #slot2 > 1 and slot2[2] or i18n("mail_sender_default")
 	slot0.readFlag = slot1.read_flag
 	slot0.attachFlag = slot1.attach_flag
 	slot0.importantFlag = slot1.imp_flag
@@ -34,11 +35,9 @@ function slot0.hasAttachmentsType(slot0, slot1)
 end
 
 function slot0.getAttatchmentsCount(slot0, slot1, slot2)
-	slot3 = 0
-
 	for slot7, slot8 in pairs(slot0.attachments) do
 		if slot1 == slot8.type and slot2 == slot8.id then
-			slot3 = slot3 + slot8.count
+			slot3 = 0 + slot8.count
 		end
 	end
 
@@ -87,15 +86,11 @@ function slot0.IsFudaiAndFullCapcity(slot0)
 		return false, i18n("gold_max_tip_title")
 	end
 
-	slot7 = getProxy(EquipmentProxy):getCapacity()
-
-	if slot4 > 0 and slot6.equip_bag_max < slot4 + slot7 then
+	if slot4 > 0 and slot6.equip_bag_max < slot4 + getProxy(EquipmentProxy):getCapacity() then
 		return false, i18n("mail_takeAttachment_error_magazine_full")
 	end
 
-	slot8 = getProxy(BayProxy):getShipCount()
-
-	if slot5 > 0 and slot6.ship_bag_max < slot5 + slot8 then
+	if slot5 > 0 and slot6.ship_bag_max < slot5 + getProxy(BayProxy):getShipCount() then
 		return false, i18n("mail_takeAttachment_error_dockYrad_full")
 	end
 
@@ -104,7 +99,7 @@ end
 
 function slot0.sortByTime(slot0, slot1)
 	if slot0.readFlag == slot1.readFlag then
-		if ((slot0.attachFlag == slot0.ATTACHMENT_EXIST and 1) or 0) == ((slot1.attachFlag == slot0.ATTACHMENT_EXIST and 1) or 0) then
+		if (slot0.attachFlag == uv0.ATTACHMENT_EXIST and 1 or 0) == (slot1.attachFlag == uv0.ATTACHMENT_EXIST and 1 or 0) then
 			if slot0.date == slot1.date then
 				return slot1.id < slot0.id
 			else

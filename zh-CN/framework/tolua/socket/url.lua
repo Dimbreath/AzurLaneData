@@ -13,14 +13,13 @@ function slot4.escape(slot0)
 end
 
 slot6 = function (slot0)
-	slot1 = {
-		[slot0[slot5]] = 1
-	}
-
 	for slot5, slot6 in uv0.ipairs(slot0) do
+		-- Nothing
 	end
 
-	return slot1
+	return {
+		[slot0[slot5]] = 1
+	}
 end({
 	"-",
 	"_",
@@ -61,13 +60,16 @@ function slot8(slot0, slot1)
 		return slot1
 	end
 
-	while nil ~= uv0.gsub(uv0.gsub(uv0.gsub(slot0, "[^/]*$", "") .. slot1, "([^/]*%./)", function (slot0)
+	slot2 = uv0.gsub(uv0.gsub(uv0.gsub(slot0, "[^/]*$", "") .. slot1, "([^/]*%./)", function (slot0)
 		if slot0 ~= "./" then
 			return slot0
 		else
 			return ""
 		end
-	end), "/%.$", "/") do
+	end), "/%.$", "/")
+	slot3 = nil
+
+	while slot3 ~= slot2 do
 		slot2 = uv0.gsub(slot2, "([^/]*/%.%./)", function (slot0)
 			if slot0 ~= "../../" then
 				return ""
@@ -157,9 +159,11 @@ function slot4.build(slot0)
 		slot2 = slot2 .. "?" .. slot0.query
 	end
 
+	slot3 = slot0.authority
+
 	if slot0.host then
 		if uv1.find(slot0.host, ":") then
-			slot3 = "[" .. slot0.authority .. "]"
+			slot3 = "[" .. slot3 .. "]"
 		end
 
 		if slot0.port then
@@ -243,7 +247,7 @@ function slot4.parse_path(slot0)
 		uv0.insert(uv1, slot0)
 	end)
 
-	for slot5 = 1, #slot1, 1 do
+	for slot5 = 1, #slot1 do
 		slot1[slot5] = uv2.unescape(slot1[slot5])
 	end
 
@@ -263,7 +267,7 @@ function slot4.build_path(slot0, slot1)
 	slot3 = #slot0
 
 	if slot1 then
-		for slot7 = 1, slot3 - 1, 1 do
+		for slot7 = 1, slot3 - 1 do
 			slot2 = slot2 .. slot0[slot7] .. "/"
 		end
 
@@ -273,7 +277,7 @@ function slot4.build_path(slot0, slot1)
 			end
 		end
 	else
-		for slot7 = 1, slot3 - 1, 1 do
+		for slot7 = 1, slot3 - 1 do
 			slot2 = slot2 .. uv0(slot0[slot7]) .. "/"
 		end
 

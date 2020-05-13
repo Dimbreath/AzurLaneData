@@ -1,8 +1,4 @@
-slot0 = class
-slot1 = "Match3GameView"
-slot2 = import
-slot3 = "..BaseMiniGameView"
-slot0 = slot0(slot1, slot2(slot3))
+slot0 = class("Match3GameView", import("..BaseMiniGameView"))
 slot1 = 6
 slot2 = 7
 slot3 = -405
@@ -32,3077 +28,879 @@ slot26 = "event:/ui/sx-perfect"
 slot27 = "event:/ui/sx-jishu"
 slot28 = "event:/ui/furnitrue_save"
 
-function slot29(slot0)
-	slot1 = "Match3GameUI"
-
-	return slot1
+function slot0.getUIName(slot0)
+	return "Match3GameUI"
 end
 
-slot0.getUIName = slot29
-
-function slot29(slot0)
-	slot1 = "backyard"
-
-	return slot1
+function slot0.getBGM(slot0)
+	return "backyard"
 end
 
-slot0.getBGM = slot29
+function slot0.init(slot0)
+	slot0.matchEffect = slot0:findTF("effects/sanxiaoxiaoshi")
+	slot0.goodEffect = slot0:findTF("effects/sanxiaoGood")
+	slot0.greatEffect = slot0:findTF("effects/sanxiaoGreat")
+	slot0.perfectEffect = slot0:findTF("effects/sanxiaoPerfect")
+	slot0.hintEffect = slot0:findTF("effects/hint")
+	slot0.selectedEffect = slot0:findTF("effects/selected")
+	slot0.whitenMat = slot0:findTF("effects/whiten"):GetComponent("Image").material
+	slot0.backBtn = slot0:findTF("button/back")
+	slot0.mainPage = slot0:findTF("main")
+	slot0.startBtn = slot0:findTF("main/start")
+	slot0.helpBtn = slot0:findTF("main/rule")
+	slot0.countdownPage = slot0:findTF("countdown")
+	slot0.countdownAnim = slot0:findTF("countdown")
+	slot0.gamePage = slot0:findTF("game")
+	slot0.gameMask = slot0:findTF("game/mask")
+	slot0.warning = slot0:findTF("game/warning")
+	slot0.countdownTf = slot0:findTF("game/countdown")
+	slot0.countdownText = slot0:findTF("game/countdown/Text")
+	slot0.inf = slot0:findTF("game/countdown/inf")
+	slot0.scoreText = slot0:findTF("game/score/Text")
+	slot0.floatText = slot0:findTF("game/floatText")
+	slot0.floatChar = {}
+	slot0.pausePage = slot0:findTF("game/pause")
+	slot0.pauseYes = slot0:findTF("game/pause/yes")
+	slot0.pauseNo = slot0:findTF("game/pause/no")
 
-function slot29(slot0)
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "effects/sanxiaoxiaoshi"
-	slot1 = slot1(slot2, slot3)
-	slot0.matchEffect = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "effects/sanxiaoGood"
-	slot1 = slot1(slot2, slot3)
-	slot0.goodEffect = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "effects/sanxiaoGreat"
-	slot1 = slot1(slot2, slot3)
-	slot0.greatEffect = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "effects/sanxiaoPerfect"
-	slot1 = slot1(slot2, slot3)
-	slot0.perfectEffect = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "effects/hint"
-	slot1 = slot1(slot2, slot3)
-	slot0.hintEffect = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "effects/selected"
-	slot1 = slot1(slot2, slot3)
-	slot0.selectedEffect = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "effects/whiten"
-	slot1 = slot1(slot2, slot3)
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = "Image"
-	slot1 = slot1(slot2, slot3)
-	slot1 = slot1.material
-	slot0.whitenMat = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "button/back"
-	slot1 = slot1(slot2, slot3)
-	slot0.backBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "main"
-	slot1 = slot1(slot2, slot3)
-	slot0.mainPage = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "main/start"
-	slot1 = slot1(slot2, slot3)
-	slot0.startBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "main/rule"
-	slot1 = slot1(slot2, slot3)
-	slot0.helpBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "countdown"
-	slot1 = slot1(slot2, slot3)
-	slot0.countdownPage = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "countdown"
-	slot1 = slot1(slot2, slot3)
-	slot0.countdownAnim = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "game"
-	slot1 = slot1(slot2, slot3)
-	slot0.gamePage = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "game/mask"
-	slot1 = slot1(slot2, slot3)
-	slot0.gameMask = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "game/warning"
-	slot1 = slot1(slot2, slot3)
-	slot0.warning = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "game/countdown"
-	slot1 = slot1(slot2, slot3)
-	slot0.countdownTf = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "game/countdown/Text"
-	slot1 = slot1(slot2, slot3)
-	slot0.countdownText = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "game/countdown/inf"
-	slot1 = slot1(slot2, slot3)
-	slot0.inf = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "game/score/Text"
-	slot1 = slot1(slot2, slot3)
-	slot0.scoreText = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "game/floatText"
-	slot1 = slot1(slot2, slot3)
-	slot0.floatText = slot1
-	slot1 = {}
-	slot0.floatChar = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "game/pause"
-	slot1 = slot1(slot2, slot3)
-	slot0.pausePage = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "game/pause/yes"
-	slot1 = slot1(slot2, slot3)
-	slot0.pauseYes = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "game/pause/no"
-	slot1 = slot1(slot2, slot3)
-	slot0.pauseNo = slot1
-	slot1 = 0
-	slot2 = 9
-	slot3 = 1
-
-	for slot4 = slot1, slot2, slot3 do
-		slot5 = slot0.floatChar
-		slot7 = slot0
-		slot6 = slot0.findTF
-		slot8 = "game/floatText/"
-		slot9 = slot4
-		slot8 = slot8 .. slot9
-		slot6 = slot6(slot7, slot8)
-		slot5[slot4] = slot6
+	for slot4 = 0, 9 do
+		slot0.floatChar[slot4] = slot0:findTF("game/floatText/" .. slot4)
 	end
 
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "game/tiles"
-	slot1 = slot1(slot2, slot3)
-	slot0.tilesRoot = slot1
-	slot1 = slot0.tilesRoot
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = "EventTriggerListener"
-	slot1 = slot1(slot2, slot3)
-	slot0.gameListener = slot1
-	slot1 = slot0.tilesRoot
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = "UILongPressTrigger"
-	slot1 = slot1(slot2, slot3)
-	slot0.longPressListener = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "end"
-	slot1 = slot1(slot2, slot3)
-	slot0.endPage = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "end/end_btn"
-	slot1 = slot1(slot2, slot3)
-	slot0.endBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "end/score/Text"
-	slot1 = slot1(slot2, slot3)
-	slot0.endScore = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "end/score/Text/new"
-	slot1 = slot1(slot2, slot3)
-	slot0.newSign = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "end/highest/Text"
-	slot1 = slot1(slot2, slot3)
-	slot0.bestScore = slot1
-	slot1 = {}
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "tiles/Akashi"
-	slot2 = slot2(slot3, slot4)
-	slot1[1] = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "tiles/Ayanami"
-	slot2 = slot2(slot3, slot4)
-	slot1[2] = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "tiles/Javelin"
-	slot2 = slot2(slot3, slot4)
-	slot1[3] = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "tiles/Laffey"
-	slot2 = slot2(slot3, slot4)
-	slot1[4] = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "tiles/Z23"
-	slot1[MULTRES] = slot2(slot3, slot4)
-	slot0.tiles = slot1
+	slot0.tilesRoot = slot0:findTF("game/tiles")
+	slot0.gameListener = slot0.tilesRoot:GetComponent("EventTriggerListener")
+	slot0.longPressListener = slot0.tilesRoot:GetComponent("UILongPressTrigger")
+	slot0.endPage = slot0:findTF("end")
+	slot0.endBtn = slot0:findTF("end/end_btn")
+	slot0.endScore = slot0:findTF("end/score/Text")
+	slot0.newSign = slot0:findTF("end/score/Text/new")
+	slot0.bestScore = slot0:findTF("end/highest/Text")
+	slot0.tiles = {
+		slot0:findTF("tiles/Akashi"),
+		slot0:findTF("tiles/Ayanami"),
+		slot0:findTF("tiles/Javelin"),
+		slot0:findTF("tiles/Laffey"),
+		slot0:findTF("tiles/Z23")
+	}
 end
 
-slot0.init = slot29
+function slot0.onBackPressed(slot0)
+	if isActive(slot0.mainPage) then
+		slot0:emit(uv0.ON_BACK)
+	elseif isActive(slot0.pausePage) then
+		triggerButton(slot0.pauseNo)
+	elseif isActive(slot0.gamePage) then
+		slot0:pause()
+	elseif isActive(slot0.endPage) and slot0.endBtn:GetComponent("Button").enabled then
+		triggerButton(slot0.endBtn)
+	end
+end
 
-function slot29(slot0)
-	slot1 = isActive
-	slot2 = slot0.mainPage
-	slot1 = slot1(slot2)
-
-	if slot1 then
-		slot2 = slot0
-		slot1 = slot0.emit
-		slot3 = slot0
-		slot3 = slot3.ON_BACK
-
-		slot1(slot2, slot3)
-	else
-		slot1 = isActive
-		slot2 = slot0.pausePage
-		slot1 = slot1(slot2)
-
-		if slot1 then
-			slot1 = triggerButton
-			slot2 = slot0.pauseNo
-
-			slot1(slot2)
+function slot0.didEnter(slot0)
+	onButton(slot0, slot0.backBtn, function ()
+		uv0:onBackPressed()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.startBtn, function ()
+		if uv0 then
+			setActive(uv1.mainPage, false)
+			setActive(uv1.gamePage, true)
+			uv1:startGame()
 		else
-			slot1 = isActive
-			slot2 = slot0.gamePage
-			slot1 = slot1(slot2)
+			uv1.mainPage:GetComponent("CanvasGroup").blocksRaycasts = false
 
-			if slot1 then
-				slot2 = slot0
-				slot1 = slot0.pause
+			uv1:managedTween(LeanTween.value, function ()
+				uv0.mainPage:GetComponent("CanvasGroup").alpha = 1
+				uv0.mainPage:GetComponent("CanvasGroup").blocksRaycasts = true
 
-				slot1(slot2)
-			else
-				slot1 = isActive
-				slot2 = slot0.endPage
-				slot1 = slot1(slot2)
-
-				if slot1 then
-					slot1 = slot0.endBtn
-					slot2 = slot1
-					slot1 = slot1.GetComponent
-					slot3 = "Button"
-					slot1 = slot1(slot2, slot3)
-					slot1 = slot1.enabled
-
-					if slot1 then
-						slot1 = triggerButton
-						slot2 = slot0.endBtn
-
-						slot1(slot2)
-					end
-				end
-			end
+				setActive(uv0.mainPage, false)
+				setActive(uv0.countdownPage, true)
+				playSoundEffect(uv1)
+			end, go(uv1.mainPage), 1, 0, uv3):setOnUpdate(System.Action_float(function (slot0)
+				uv0.mainPage:GetComponent("CanvasGroup").alpha = slot0
+			end))
 		end
-	end
-end
+	end)
+	onButton(slot0, slot0.helpBtn, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = i18n("3match_tip")
+		})
+	end, SFX_PANEL)
+	slot0.countdownAnim:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+		setActive(uv0.countdownPage, false)
+		setActive(uv0.gamePage, true)
+		uv0:startGame()
+	end)
+	onButton(slot0, slot0.endBtn, function ()
+		uv0.mainPage:GetComponent("CanvasGroup").blocksRaycasts = false
 
-slot0.onBackPressed = slot29
-
-function slot29(slot0)
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.backBtn
-
-	function slot4()
-		slot0 = slot0
-		slot1 = slot0
-		slot0 = slot0.onBackPressed
-
-		slot0(slot1)
-	end
-
-	slot5 = SFX_PANEL
-
-	slot1(slot2, slot3, slot4, slot5)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.startBtn
-
-	function slot4()
-		slot0 = slot0
-
-		if slot0 then
-			slot0 = setActive
-			slot1 = slot1
-			slot1 = slot1.mainPage
-			slot2 = false
-
-			slot0(slot1, slot2)
-
-			slot0 = setActive
-			slot1 = slot1
-			slot1 = slot1.gamePage
-			slot2 = true
-
-			slot0(slot1, slot2)
-
-			slot0 = slot1
-			slot1 = slot0
-			slot0 = slot0.startGame
-
-			slot0(slot1)
-		else
-			slot0 = slot1
-			slot0 = slot0.mainPage
-			slot1 = slot0
-			slot0 = slot0.GetComponent
-			slot2 = "CanvasGroup"
-			slot0 = slot0(slot1, slot2)
-			slot1 = false
-			slot0.blocksRaycasts = slot1
-			slot0 = slot1
-			slot1 = slot0
-			slot0 = slot0.managedTween
-			slot2 = LeanTween
-			slot2 = slot2.value
-
-			function slot3()
-				slot0 = slot0
-				slot0 = slot0.mainPage
-				slot1 = slot0
-				slot0 = slot0.GetComponent
-				slot2 = "CanvasGroup"
-				slot0 = slot0(slot1, slot2)
-				slot1 = 1
-				slot0.alpha = slot1
-				slot0 = slot0
-				slot0 = slot0.mainPage
-				slot1 = slot0
-				slot0 = slot0.GetComponent
-				slot2 = "CanvasGroup"
-				slot0 = slot0(slot1, slot2)
-				slot1 = true
-				slot0.blocksRaycasts = slot1
-				slot0 = setActive
-				slot1 = slot0
-				slot1 = slot1.mainPage
-				slot2 = false
-
-				slot0(slot1, slot2)
-
-				slot0 = setActive
-				slot1 = slot0
-				slot1 = slot1.countdownPage
-				slot2 = true
-
-				slot0(slot1, slot2)
-
-				slot0 = playSoundEffect
-				slot1 = slot1
-
-				slot0(slot1)
-			end
-
-			slot4 = go
-			slot5 = slot1
-			slot5 = slot5.mainPage
-			slot4 = slot4(slot5)
-			slot5 = 1
-			slot6 = 0
-			slot7 = slot3
-			slot0 = slot0(slot1, slot2, slot3, slot4, slot5, slot6, slot7)
-			slot1 = slot0
-			slot0 = slot0.setOnUpdate
-			slot2 = System
-			slot2 = slot2.Action_float
-
-			function slot3(slot0)
-				slot1 = slot0
-				slot1 = slot1.mainPage
-				slot2 = slot1
-				slot1 = slot1.GetComponent
-				slot3 = "CanvasGroup"
-				slot1 = slot1(slot2, slot3)
-				slot1.alpha = slot0
-			end
-
-			slot0(slot1, slot2(slot3))
-		end
-	end
-
-	slot1(slot2, slot3, slot4)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.helpBtn
-
-	function slot4()
-		slot0 = pg
-		slot0 = slot0.MsgboxMgr
-		slot0 = slot0.GetInstance
-		slot0 = slot0()
-		slot1 = slot0
-		slot0 = slot0.ShowMsgBox
-		slot2 = {}
-		slot3 = MSGBOX_TYPE_HELP
-		slot2.type = slot3
-		slot3 = i18n
-		slot4 = "3match_tip"
-		slot3 = slot3(slot4)
-		slot2.helps = slot3
-
-		slot0(slot1, slot2)
-	end
-
-	slot5 = SFX_PANEL
-
-	slot1(slot2, slot3, slot4, slot5)
-
-	slot1 = slot0.countdownAnim
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = typeof
-	slot4 = DftAniEvent
-	slot1 = slot1(slot2, slot3(slot4))
-	slot3 = slot1
-	slot2 = slot1.SetEndEvent
-
-	function slot4(slot0)
-		slot1 = setActive
-		slot2 = slot0
-		slot2 = slot2.countdownPage
-		slot3 = false
-
-		slot1(slot2, slot3)
-
-		slot1 = setActive
-		slot2 = slot0
-		slot2 = slot2.gamePage
-		slot3 = true
-
-		slot1(slot2, slot3)
-
-		slot1 = slot0
-		slot2 = slot1
-		slot1 = slot1.startGame
-
-		slot1(slot2)
-	end
-
-	slot2(slot3, slot4)
-
-	slot2 = onButton
-	slot3 = slot0
-	slot4 = slot0.endBtn
-
-	function slot5()
-		slot0 = slot0
-		slot0 = slot0.mainPage
-		slot1 = slot0
-		slot0 = slot0.GetComponent
-		slot2 = "CanvasGroup"
-		slot0 = slot0(slot1, slot2)
-		slot1 = false
-		slot0.blocksRaycasts = slot1
-		slot0 = slot0
-		slot1 = slot0
-		slot0 = slot0.managedTween
-		slot2 = LeanTween
-		slot2 = slot2.value
-
-		function slot3()
-			slot0 = slot0
-			slot0 = slot0.mainPage
-			slot1 = slot0
-			slot0 = slot0.GetComponent
-			slot2 = "CanvasGroup"
-			slot0 = slot0(slot1, slot2)
-			slot1 = 1
-			slot0.alpha = slot1
-			slot0 = slot0
-			slot0 = slot0.mainPage
-			slot1 = slot0
-			slot0 = slot0.GetComponent
-			slot2 = "CanvasGroup"
-			slot0 = slot0(slot1, slot2)
-			slot1 = true
-			slot0.blocksRaycasts = slot1
-		end
-
-		slot4 = go
-		slot5 = slot0
-		slot5 = slot5.endPage
-		slot4 = slot4(slot5)
-		slot5 = 0
-		slot6 = 1
-		slot7 = slot1
-		slot0 = slot0(slot1, slot2, slot3, slot4, slot5, slot6, slot7)
-		slot1 = slot0
-		slot0 = slot0.setOnUpdate
-		slot2 = System
-		slot2 = slot2.Action_float
-
-		function slot3(slot0)
-			slot1 = slot0
-			slot1 = slot1.mainPage
-			slot2 = slot1
-			slot1 = slot1.GetComponent
-			slot3 = "CanvasGroup"
-			slot1 = slot1(slot2, slot3)
-			slot1.alpha = slot0
-		end
-
-		slot0(slot1, slot2(slot3))
-
-		slot0 = setActive
-		slot1 = slot0
-		slot1 = slot1.mainPage
-		slot2 = true
-
-		slot0(slot1, slot2)
-
-		slot0 = setActive
-		slot1 = slot0
-		slot1 = slot1.countdownPage
-		slot2 = false
-
-		slot0(slot1, slot2)
-
-		slot0 = setActive
-		slot1 = slot0
-		slot1 = slot1.gamePage
-		slot2 = false
-
-		slot0(slot1, slot2)
-
-		slot0 = setActive
-		slot1 = slot0
-		slot1 = slot1.endPage
-		slot2 = false
-
-		slot0(slot1, slot2)
-	end
-
-	slot2(slot3, slot4, slot5)
-
-	slot2 = onButton
-	slot3 = slot0
-	slot4 = slot0.pauseYes
-
-	function slot5()
-		slot0 = slot0
-		slot1 = slot0
-		slot0 = slot0.stopGame
-
-		slot0(slot1)
-	end
-
-	slot2(slot3, slot4, slot5)
-
-	slot2 = onButton
-	slot3 = slot0
-	slot4 = slot0.pauseNo
-
-	function slot5()
-		slot0 = setActive
-		slot1 = slot0
-		slot1 = slot1.pausePage
-		slot2 = false
-
-		slot0(slot1, slot2)
-
-		slot0 = slot0
-		slot1 = slot0
-		slot0 = slot0.resumeGame
-
-		slot0(slot1)
-	end
-
-	slot2(slot3, slot4, slot5)
+		uv0:managedTween(LeanTween.value, function ()
+			uv0.mainPage:GetComponent("CanvasGroup").alpha = 1
+			uv0.mainPage:GetComponent("CanvasGroup").blocksRaycasts = true
+		end, go(uv0.endPage), 0, 1, uv1):setOnUpdate(System.Action_float(function (slot0)
+			uv0.mainPage:GetComponent("CanvasGroup").alpha = slot0
+		end))
+		setActive(uv0.mainPage, true)
+		setActive(uv0.countdownPage, false)
+		setActive(uv0.gamePage, false)
+		setActive(uv0.endPage, false)
+	end)
+	onButton(slot0, slot0.pauseYes, function ()
+		uv0:stopGame()
+	end)
+	onButton(slot0, slot0.pauseNo, function ()
+		setActive(uv0.pausePage, false)
+		uv0:resumeGame()
+	end)
 
 	slot2 = false
-	slot3 = slot0.gameListener
-	slot4 = slot3
-	slot3 = slot3.AddPointClickFunc
 
-	function slot5(slot0, slot1)
-		slot2 = slot0
-
-		if slot2 then
-			slot0 = false
+	slot0.gameListener:AddPointClickFunc(function (slot0, slot1)
+		if uv0 then
+			uv0 = false
 
 			return
 		end
 
-		slot2 = slot1
-		slot2 = slot2.updating
-
-		if slot2 then
+		if uv1.updating then
 			return
 		end
 
-		slot2 = slot1
-		slot2 = slot2.inGame
-
-		if not slot2 then
+		if not uv1.inGame then
 			return
 		end
 
-		slot2 = LuaHelper
-		slot2 = slot2.ScreenToLocal
-		slot3 = slot1
-		slot3 = slot3.tilesRoot
-		slot4 = slot1.position
-		slot5 = GameObject
-		slot5 = slot5.Find
-		slot6 = "UICamera"
-		slot5 = slot5(slot6)
-		slot6 = slot5
-		slot5 = slot5.GetComponent
-		slot7 = typeof
-		slot8 = Camera
-		slot2 = slot2(slot3, slot4, slot5(slot6, slot7(slot8)))
-		slot3 = slot1
-		slot4 = slot3
-		slot3 = slot3.pos2index
-		slot5 = slot2
-		slot3, slot4 = slot3(slot4, slot5)
-		slot5 = slot1
-		slot5 = slot5.selected
+		slot3, slot4 = uv1:pos2index(LuaHelper.ScreenToLocal(uv1.tilesRoot, slot1.position, GameObject.Find("UICamera"):GetComponent(typeof(Camera))))
 
-		if slot5 then
-			slot5 = slot1
-			slot5 = slot5.selected
-			slot6 = slot1
-			slot6 = slot6.tileTfs
-			slot6 = slot6[slot3]
-			slot6 = slot6[slot4]
-
-			if slot5 == slot6 then
-				slot5 = slot1
-				slot6 = slot5
-				slot5 = slot5.unselect
-
-				slot5(slot6)
+		if uv1.selected then
+			if uv1.selected == uv1.tileTfs[slot3][slot4] then
+				uv1:unselect()
+			elseif math.abs(slot3 - uv1.selectedIndex.i) + math.abs(slot4 - uv1.selectedIndex.j) == 1 then
+				uv1:tryMoveTo({
+					i = slot3,
+					j = slot4
+				})
 			else
-				slot5 = math
-				slot5 = slot5.abs
-				slot6 = slot1
-				slot6 = slot6.selectedIndex
-				slot6 = slot6.i
-				slot6 = slot3 - slot6
-				slot5 = slot5(slot6)
-				slot6 = math
-				slot6 = slot6.abs
-				slot7 = slot1
-				slot7 = slot7.selectedIndex
-				slot7 = slot7.j
-				slot7 = slot4 - slot7
-				slot6 = slot6(slot7)
-				slot5 = slot5 + slot6
-
-				if slot5 == 1 then
-					slot5 = slot1
-					slot6 = slot5
-					slot5 = slot5.tryMoveTo
-					slot7 = {
-						i = slot3,
-						j = slot4
-					}
-
-					slot5(slot6, slot7)
-				else
-					slot5 = slot1
-					slot6 = slot5
-					slot5 = slot5.select
-					slot7 = slot3
-					slot8 = slot4
-
-					slot5(slot6, slot7, slot8)
-				end
+				uv1:select(slot3, slot4)
 			end
 		else
-			slot5 = slot1
-			slot6 = slot5
-			slot5 = slot5.select
-			slot7 = slot3
-			slot8 = slot4
-
-			slot5(slot6, slot7, slot8)
+			uv1:select(slot3, slot4)
 		end
-	end
-
-	slot3(slot4, slot5)
-
-	slot3 = slot0.longPressListener
-	slot3 = slot3.onLongPressed
-	slot4 = slot3
-	slot3 = slot3.AddListener
-
-	function slot5()
-		slot0 = slot0
-		slot0 = slot0.updating
-
-		if slot0 then
+	end)
+	slot0.longPressListener.onLongPressed:AddListener(function ()
+		if uv0.updating then
 			return
 		end
 
-		slot0 = slot0
-		slot0 = slot0.inGame
-
-		if not slot0 then
+		if not uv0.inGame then
 			return
 		end
 
-		slot0 = LuaHelper
-		slot0 = slot0.ScreenToLocal
-		slot1 = slot0
-		slot1 = slot1.tilesRoot
-		slot2 = Input
-		slot2 = slot2.mousePosition
-		slot3 = GameObject
-		slot3 = slot3.Find
-		slot4 = "UICamera"
-		slot3 = slot3(slot4)
-		slot4 = slot3
-		slot3 = slot3.GetComponent
-		slot5 = typeof
-		slot6 = Camera
-		slot0 = slot0(slot1, slot2, slot3(slot4, slot5(slot6)))
-		slot1 = slot0
-		slot2 = slot1
-		slot1 = slot1.pos2index
-		slot3 = slot0
-		slot1, slot2 = slot1(slot2, slot3)
-		slot3 = slot0
-		slot4 = slot3
-		slot3 = slot3.unselect
+		slot1, slot2 = uv0:pos2index(LuaHelper.ScreenToLocal(uv0.tilesRoot, Input.mousePosition, GameObject.Find("UICamera"):GetComponent(typeof(Camera))))
 
-		slot3(slot4)
-
-		slot3 = slot0
-		slot4 = slot3
-		slot3 = slot3.animate
-		slot5 = slot1
-		slot6 = slot2
-		slot7 = true
-
-		slot3(slot4, slot5, slot6, slot7)
-	end
-
-	slot3(slot4, slot5)
-
-	slot3 = slot0.gameListener
-	slot4 = slot3
-	slot3 = slot3.AddBeginDragFunc
-
-	function slot5(slot0, slot1)
-		slot2 = slot0
-		slot2 = slot2.updating
-
-		if slot2 then
+		uv0:unselect()
+		uv0:animate(slot1, slot2, true)
+	end)
+	slot0.gameListener:AddBeginDragFunc(function (slot0, slot1)
+		if uv0.updating then
 			return
 		end
 
-		slot2 = slot0
-		slot2 = slot2.inGame
-
-		if not slot2 then
+		if not uv0.inGame then
 			return
 		end
 
-		slot1 = true
+		uv1 = true
 		slot2 = slot1.delta
-		slot3 = LuaHelper
-		slot3 = slot3.ScreenToLocal
-		slot4 = slot0
-		slot4 = slot4.tilesRoot
-		slot5 = slot1.position
-		slot6 = GameObject
-		slot6 = slot6.Find
-		slot7 = "UICamera"
-		slot6 = slot6(slot7)
-		slot7 = slot6
-		slot6 = slot6.GetComponent
-		slot8 = typeof
-		slot9 = Camera
-		slot3 = slot3(slot4, slot5, slot6(slot7, slot8(slot9)))
-		slot4 = slot0
-		slot5 = slot4
-		slot4 = slot4.pos2index
-		slot6 = slot3
-		slot4, slot5 = slot4(slot5, slot6)
-		slot6 = slot0
-		slot7 = slot6
-		slot6 = slot6.animate
-		slot8 = slot4
-		slot9 = slot5
-		slot10 = false
+		slot4, slot5 = uv0:pos2index(LuaHelper.ScreenToLocal(uv0.tilesRoot, slot1.position, GameObject.Find("UICamera"):GetComponent(typeof(Camera))))
 
-		slot6(slot7, slot8, slot9, slot10)
+		uv0:animate(slot4, slot5, false)
+		uv0:unselect()
 
-		slot6 = slot0
-		slot7 = slot6
-		slot6 = slot6.unselect
-
-		slot6(slot7)
-
-		slot6 = slot0
-		slot7 = slot0
-		slot7 = slot7.tileTfs
-		slot7 = slot7[slot4]
-		slot7 = slot7[slot5]
-		slot6.selected = slot7
-		slot6 = slot0
-		slot7 = {
+		uv0.selected = uv0.tileTfs[slot4][slot5]
+		uv0.selectedIndex = {
 			i = slot4,
 			j = slot5
 		}
-		slot6.selectedIndex = slot7
-		slot6 = math
-		slot6 = slot6.abs
-		slot7 = slot2.x
-		slot6 = slot6(slot7)
-		slot7 = math
-		slot7 = slot7.abs
-		slot8 = slot2.y
-		slot7 = slot7(slot8)
 
-		if slot7 < slot6 then
-			slot4 = 0
-			slot5 = (slot2.x > 0 and 1) or -1
-		else
-			slot4 = (slot2.y > 0 and 1) or -1
-			slot5 = 0
-		end
-
-		slot6 = slot0
-		slot7 = slot6
-		slot6 = slot6.tryMoveTo
-		slot8 = {}
-		slot9 = slot0
-		slot9 = slot9.selectedIndex
-		slot9 = slot9.i
-		slot9 = slot9 + slot4
-		slot8.i = slot9
-		slot9 = slot0
-		slot9 = slot9.selectedIndex
-		slot9 = slot9.j
-		slot9 = slot9 + slot5
-		slot8.j = slot9
-
-		slot6(slot7, slot8)
-	end
-
-	slot3(slot4, slot5)
-
-	slot3 = setActive
-	slot4 = slot0.mainPage
-	slot5 = true
-
-	slot3(slot4, slot5)
-
-	slot4 = slot0
-	slot3 = slot0.updateData
-
-	slot3(slot4)
+		uv0:tryMoveTo({
+			i = uv0.selectedIndex.i + slot4,
+			j = uv0.selectedIndex.j + (math.abs(slot2.y) < math.abs(slot2.x) and (slot2.x > 0 and 1 or -1) or 0)
+		})
+	end)
+	setActive(slot0.mainPage, true)
+	slot0:updateData()
 end
 
-slot0.didEnter = slot29
-
-function slot29(slot0)
-
-	-- Decompilation error in this vicinity:
+function slot0.updateData(slot0)
 	slot0.infinite = slot0:GetMGHubData().count == 0
-	slot2 = slot0:GetMGData():GetRuntimeData("elements")
-	slot0.best = slot2[1] or 0
+	slot0.best = slot0:GetMGData():GetRuntimeData("elements") and slot2[1] or 0
 end
 
-slot0.updateData = slot29
-
-function slot29(slot0, slot1, slot2)
-	slot3 = Vector3
-	slot3 = slot3.New
-	slot4 = slot0
-	slot5 = slot2 - 1
-	slot6 = slot1
-	slot5 = slot5 * slot6
-	slot4 = slot4 + slot5
-	slot5 = slot2
-	slot6 = slot1 - 1
-	slot7 = slot3
-	slot6 = slot6 * slot7
-	slot5 = slot5 + slot6
-
-	return slot3(slot4, slot5)
+function slot0.index2pos(slot0, slot1, slot2)
+	return Vector3.New(uv0 + (slot2 - 1) * uv1, uv2 + (slot1 - 1) * uv3)
 end
 
-slot0.index2pos = slot29
-
-function slot29(slot0, slot1)
-	slot2 = slot0
-	slot3 = slot1
-	slot3 = slot3 / 2
-	slot2 = slot2 - slot3
-	slot3 = slot2
-	slot4 = slot3
-	slot4 = slot4 / 2
-	slot3 = slot3 - slot4
-	slot4 = math
-	slot4 = slot4.ceil
-	slot5 = slot1.y
-	slot5 = slot5 - slot3
-	slot6 = slot3
-	slot5 = slot5 / slot6
-	slot4 = slot4(slot5)
-	slot5 = math
-	slot5 = slot5.ceil
-	slot6 = slot1.x
-	slot6 = slot6 - slot2
-	slot7 = slot1
-	slot6 = slot6 / slot7
-
-	return slot4, slot5(slot6)
+function slot0.pos2index(slot0, slot1)
+	return math.ceil((slot1.y - (uv2 - uv3 / 2)) / uv3), math.ceil((slot1.x - (uv0 - uv1 / 2)) / uv1)
 end
 
-slot0.pos2index = slot29
-
-function slot29(slot0)
-	slot1 = math
-	slot1 = slot1.max
-	slot2 = slot0
-	slot2 = slot0 * slot2
-	slot3 = slot1
-
-	return slot1(slot2, slot3)
+function slot0.dropTime(slot0)
+	return math.max(slot0 * uv0, uv1)
 end
 
-slot0.dropTime = slot29
+function slot0.cancelHint(slot0)
+	if slot0.hint then
+		Destroy(slot0.hint)
+		slot0.hint1:GetComponent("Animator"):SetBool("selected", false)
+		slot0.hint2:GetComponent("Animator"):SetBool("selected", false)
 
-function slot29(slot0)
-	slot1 = slot0.hint
-
-	if slot1 then
-		slot1 = Destroy
-		slot2 = slot0.hint
-
-		slot1(slot2)
-
-		slot1 = slot0.hint1
-		slot2 = slot1
-		slot1 = slot1.GetComponent
-		slot3 = "Animator"
-		slot1 = slot1(slot2, slot3)
-		slot2 = slot1
-		slot1 = slot1.SetBool
-		slot3 = "selected"
-		slot4 = false
-
-		slot1(slot2, slot3, slot4)
-
-		slot1 = slot0.hint2
-		slot2 = slot1
-		slot1 = slot1.GetComponent
-		slot3 = "Animator"
-		slot1 = slot1(slot2, slot3)
-		slot2 = slot1
-		slot1 = slot1.SetBool
-		slot3 = "selected"
-		slot4 = false
-
-		slot1(slot2, slot3, slot4)
-
-		slot1 = nil
-		slot0.hint = slot1
-		slot1 = nil
-		slot0.hint1 = slot1
-		slot1 = nil
-		slot0.hint2 = slot1
+		slot0.hint = nil
+		slot0.hint1 = nil
+		slot0.hint2 = nil
 	end
 end
 
-slot0.cancelHint = slot29
-slot29 = {}
-slot30 = {
-	0,
-	1
+slot29 = {
+	{
+		0,
+		1
+	},
+	{
+		0,
+		-1
+	},
+	{
+		-1,
+		0
+	},
+	{
+		1,
+		0
+	}
 }
-slot29[1] = slot30
-slot30 = {
-	0,
-	-1
-}
-slot29[2] = slot30
-slot30 = {
-	-1,
-	0
-}
-slot29[3] = slot30
-slot30 = {
-	1,
-	0
-}
-slot29[4] = slot30
 
-function slot30(slot0)
-	slot1 = slot0.selectedEffectTf
+function slot0.unselect(slot0)
+	if slot0.selectedEffectTf then
+		Destroy(slot0.selectedEffectTf)
 
-	if slot1 then
-		slot1 = Destroy
-		slot2 = slot0.selectedEffectTf
-
-		slot1(slot2)
-
-		slot1 = nil
-		slot0.selectedEffectTf = slot1
+		slot0.selectedEffectTf = nil
 	end
 
-	slot1 = slot0.selected
+	if slot0.selected then
+		slot0:animate(slot0.selectedIndex.i, slot0.selectedIndex.j, false)
 
-	if slot1 then
-		slot2 = slot0
-		slot1 = slot0.animate
-		slot3 = slot0.selectedIndex
-		slot3 = slot3.i
-		slot4 = slot0.selectedIndex
-		slot4 = slot4.j
-		slot5 = false
+		slot0.selected = nil
+		slot0.selectedIndex = nil
 
-		slot1(slot2, slot3, slot4, slot5)
-
-		slot1 = nil
-		slot0.selected = slot1
-		slot1 = nil
-		slot0.selectedIndex = slot1
-		slot2 = slot0
-		slot1 = slot0.reorderTiles
-
-		slot1(slot2)
+		slot0:reorderTiles()
 	end
 end
 
-slot0.unselect = slot30
+function slot0.select(slot0, slot1, slot2)
+	slot0:unselect()
 
-function slot30(slot0, slot1, slot2)
-	slot4 = slot0
-	slot3 = slot0.unselect
-
-	slot3(slot4)
-
-	slot3 = slot0.tileTfs
-	slot3 = slot3[slot1]
-	slot3 = slot3[slot2]
-	slot0.selected = slot3
-	slot3 = {
+	slot0.selected = slot0.tileTfs[slot1][slot2]
+	slot0.selectedIndex = {
 		i = slot1,
 		j = slot2
 	}
-	slot0.selectedIndex = slot3
-	slot3 = rtf
-	slot4 = cloneTplTo
-	slot5 = slot0.selectedEffect
-	slot6 = slot0.tilesRoot
-	slot3 = slot3(slot4(slot5, slot6))
-	slot0.selectedEffectTf = slot3
-	slot3 = slot0.selectedEffectTf
-	slot4 = slot0.selected
-	slot4 = slot4.anchoredPosition
-	slot3.anchoredPosition = slot4
-	slot3 = slot0.selected
-	slot4 = slot3
-	slot3 = slot3.SetAsLastSibling
+	slot0.selectedEffectTf = rtf(cloneTplTo(slot0.selectedEffect, slot0.tilesRoot))
+	slot0.selectedEffectTf.anchoredPosition = slot0.selected.anchoredPosition
 
-	slot3(slot4)
-
-	slot4 = slot0
-	slot3 = slot0.animate
-	slot5 = slot1
-	slot6 = slot2
-	slot7 = true
-
-	slot3(slot4, slot5, slot6, slot7)
+	slot0.selected:SetAsLastSibling()
+	slot0:animate(slot1, slot2, true)
 end
 
-slot0.select = slot30
-
-function slot30(slot0, slot1, slot2, slot3)
-	slot4 = slot0.tileTfs
-	slot4 = slot4[slot1]
-	slot4 = slot4[slot2]
-
-	if not slot4 then
-		slot4 = warning
-		slot5 = "bad position"
-		slot6 = slot1
-		slot7 = slot2
-
-		slot4(slot5, slot6, slot7)
+function slot0.animate(slot0, slot1, slot2, slot3)
+	if not slot0.tileTfs[slot1][slot2] then
+		warning("bad position", slot1, slot2)
 	end
 
-	slot4 = slot0.tileTfs
-	slot4 = slot4[slot1]
-	slot4 = slot4[slot2]
-	slot5 = slot4
-	slot4 = slot4.GetComponent
-	slot6 = "Animator"
-	slot4 = slot4(slot5, slot6)
-	slot5 = slot4
-	slot4 = slot4.SetBool
-	slot6 = "selected"
 	slot7 = slot3
 
-	slot4(slot5, slot6, slot7)
+	slot0.tileTfs[slot1][slot2]:GetComponent("Animator"):SetBool("selected", slot7)
 
-	slot4 = pairs
-	slot5 = slot0
-	slot4, slot5, slot6 = slot4(slot5)
-
-	for slot7, slot8 in slot4, slot5, slot6 do
-		slot9 = slot0.tileTfs
-		slot10 = slot8[1]
-		slot10 = slot1 + slot10
-		slot9 = slot9[slot10]
-		slot10 = slot8[2]
-		slot10 = slot2 + slot10
-		slot9 = slot9[slot10]
-
-		if slot9 then
-			slot11 = slot9
-			slot10 = slot9.GetComponent
-			slot12 = "Animator"
-			slot10 = slot10(slot11, slot12)
-			slot11 = slot10
-			slot10 = slot10.SetBool
-			slot12 = "selected"
-			slot13 = slot3
-
-			slot10(slot11, slot12, slot13)
+	for slot7, slot8 in pairs(uv0) do
+		if slot0.tileTfs[slot1 + slot8[1]][slot2 + slot8[2]] then
+			slot9:GetComponent("Animator"):SetBool("selected", slot3)
 		end
 	end
 
-	slot4 = slot0.hint
-
-	if slot4 then
-		slot4 = slot0.hint1
-		slot5 = slot4
-		slot4 = slot4.GetComponent
-		slot6 = "Animator"
-		slot4 = slot4(slot5, slot6)
-		slot5 = slot4
-		slot4 = slot4.SetBool
-		slot6 = "selected"
-		slot7 = true
-
-		slot4(slot5, slot6, slot7)
-
-		slot4 = slot0.hint2
-		slot5 = slot4
-		slot4 = slot4.GetComponent
-		slot6 = "Animator"
-		slot4 = slot4(slot5, slot6)
-		slot5 = slot4
-		slot4 = slot4.SetBool
-		slot6 = "selected"
-		slot7 = true
-
-		slot4(slot5, slot6, slot7)
+	if slot0.hint then
+		slot0.hint1:GetComponent("Animator"):SetBool("selected", true)
+		slot0.hint2:GetComponent("Animator"):SetBool("selected", true)
 	end
 end
 
-slot0.animate = slot30
-
-function slot30(slot0, slot1)
-	slot2 = slot0.selectedIndex
-
-	if slot2 == nil then
+function slot0.tryMoveTo(slot0, slot1)
+	if slot0.selectedIndex == nil then
 		return
 	end
 
-	slot2 = slot0.hintTimer
-
-	if slot2 then
-		slot2 = slot0.hintTimer
-		slot3 = slot2
-		slot2 = slot2.Pause
-
-		slot2(slot3)
+	if slot0.hintTimer then
+		slot0.hintTimer:Pause()
 	end
 
-	slot2 = slot0.tileIndicies
-	slot3 = slot1.i
-	slot2 = slot2[slot3]
-	slot3 = slot1.j
-	slot2 = slot2[slot3]
-
-	if not slot2 then
+	if not slot0.tileIndicies[slot1.i][slot1.j] then
 		return
 	end
 
-	slot2 = playSoundEffect
-	slot3 = slot0
+	playSoundEffect(uv0)
 
-	slot2(slot3)
+	if slot0:moveValid(slot0.selectedIndex, slot1) then
+		slot0:unselect()
 
-	slot3 = slot0
-	slot2 = slot0.moveValid
-	slot4 = slot0.selectedIndex
-	slot5 = slot1
-	slot2 = slot2(slot3, slot4, slot5)
+		slot0.updating = true
 
-	if slot2 then
-		slot2 = slot0.selectedIndex
-		slot4 = slot0
-		slot3 = slot0.unselect
-
-		slot3(slot4)
-
-		slot3 = true
-		slot0.updating = slot3
-		slot4 = slot0
-		slot3 = slot0.swap
-		slot5 = slot2
-		slot6 = slot1
-
-		slot3(slot4, slot5, slot6)
-
-		slot4 = slot0
-		slot3 = slot0.managedTween
-		slot5 = LeanTween
-		slot5 = slot5.delayedCall
-
-		function slot6()
-			slot0 = slot0
-			slot0 = slot0.inGame
-
-			if not slot0 then
+		slot0:swap(slot0.selectedIndex, slot1)
+		slot0:managedTween(LeanTween.delayedCall, function ()
+			if not uv0.inGame then
 				return
 			end
 
-			slot0 = slot0
-			slot1 = 0
-			slot0.combo = slot1
-			slot0 = slot0
-			slot1 = slot0
-			slot0 = slot0.update
+			uv0.combo = 0
 
-			slot0(slot1)
-		end
-
-		slot7 = slot1
-		slot8 = nil
-
-		slot3(slot4, slot5, slot6, slot7, slot8)
+			uv0:update()
+		end, uv1, nil)
 	else
-		slot2 = slot0.tileTfs
-		slot3 = slot0.selectedIndex
-		slot3 = slot3.i
-		slot2 = slot2[slot3]
-		slot3 = slot0.selectedIndex
-		slot3 = slot3.j
-		slot2 = slot2[slot3]
-		slot3 = slot0.tileTfs
-		slot4 = slot1.i
-		slot3 = slot3[slot4]
-		slot4 = slot1.j
-		slot3 = slot3[slot4]
-		slot5 = slot0
-		slot4 = slot0.index2pos
-		slot6 = slot0.selectedIndex
-		slot6 = slot6.i
-		slot7 = slot0.selectedIndex
-		slot7 = slot7.j
-		slot4 = slot4(slot5, slot6, slot7)
-		slot6 = slot0
-		slot5 = slot0.index2pos
-		slot7 = slot1.i
-		slot8 = slot1.j
-		slot5 = slot5(slot6, slot7, slot8)
-		slot7 = slot0
-		slot6 = slot0.managedTween
-		slot8 = LeanTween
-		slot8 = slot8.move
-		slot9 = nil
-		slot10 = slot2
-		slot11 = slot5
-		slot12 = slot1
-		slot6 = slot6(slot7, slot8, slot9, slot10, slot11, slot12)
-		slot7 = slot6
-		slot6 = slot6.setLoopPingPong
-		slot8 = 1
+		slot0:managedTween(LeanTween.move, nil, slot0.tileTfs[slot0.selectedIndex.i][slot0.selectedIndex.j], slot0:index2pos(slot1.i, slot1.j), uv1):setLoopPingPong(1)
+		slot0:managedTween(LeanTween.move, nil, slot0.tileTfs[slot1.i][slot1.j], slot0:index2pos(slot0.selectedIndex.i, slot0.selectedIndex.j), uv1):setLoopPingPong(1)
 
-		slot6(slot7, slot8)
+		slot0.updating = true
 
-		slot7 = slot0
-		slot6 = slot0.managedTween
-		slot8 = LeanTween
-		slot8 = slot8.move
-		slot9 = nil
-		slot10 = slot3
-		slot11 = slot4
-		slot12 = slot1
-		slot6 = slot6(slot7, slot8, slot9, slot10, slot11, slot12)
-		slot7 = slot6
-		slot6 = slot6.setLoopPingPong
-		slot8 = 1
+		slot0:managedTween(LeanTween.delayedCall, function ()
+			uv0.updating = false
 
-		slot6(slot7, slot8)
-
-		slot6 = true
-		slot0.updating = slot6
-		slot7 = slot0
-		slot6 = slot0.managedTween
-		slot8 = LeanTween
-		slot8 = slot8.delayedCall
-
-		function slot9()
-			slot0 = slot0
-			slot1 = false
-			slot0.updating = slot1
-			slot0 = slot0
-			slot0 = slot0.hintTimer
-			slot1 = slot0
-			slot0 = slot0.Resume
-
-			slot0(slot1)
-		end
-
-		slot10 = slot1
-		slot10 = slot10 * 2
-		slot10 = slot10 + 0.1
-		slot11 = nil
-
-		slot6(slot7, slot8, slot9, slot10, slot11)
-
-		slot7 = slot0
-		slot6 = slot0.unselect
-
-		slot6(slot7)
+			uv0.hintTimer:Resume()
+		end, uv1 * 2 + 0.1, nil)
+		slot0:unselect()
 	end
 end
 
-slot0.tryMoveTo = slot30
-slot30 = {}
-slot31 = {}
-slot32 = {
-	0,
-	-2
+slot30 = {
+	{
+		{
+			0,
+			-2
+		},
+		{
+			0,
+			-1
+		}
+	},
+	{
+		{
+			0,
+			-1
+		},
+		{
+			0,
+			1
+		}
+	},
+	{
+		{
+			0,
+			1
+		},
+		{
+			0,
+			2
+		}
+	}
 }
-slot31[1] = slot32
-slot32 = {
-	0,
-	-1
-}
-slot31[2] = slot32
-slot30[1] = slot31
-slot31 = {}
-slot32 = {
-	0,
-	-1
-}
-slot31[1] = slot32
-slot32 = {
-	0,
-	1
-}
-slot31[2] = slot32
-slot30[2] = slot31
-slot31 = {}
-slot32 = {
-	0,
-	1
-}
-slot31[1] = slot32
-slot32 = {
-	0,
-	2
-}
-slot31[2] = slot32
-slot30[3] = slot31
 
-function slot31(slot0, slot1)
-	slot2 = pairs
-	slot3 = slot0
-	slot2, slot3, slot4 = slot2(slot3)
-
-	for slot5, slot6 in slot2, slot3, slot4 do
+function slot0.isConnected(slot0, slot1)
+	for slot5, slot6 in pairs(uv0) do
 		slot7, slot8, slot9 = nil
-		slot10 = slot0.tileIndicies
-		slot11 = slot1.i
-		slot10 = slot10[slot11]
-		slot11 = slot1.j
-		slot7 = slot10[slot11]
-		slot10 = slot0.tileIndicies
-		slot11 = slot1.i
-		slot12 = slot6[1]
-		slot12 = slot12[1]
-		slot11 = slot11 + slot12
-		slot10 = slot10[slot11]
-		slot11 = slot1.j
-		slot12 = slot6[1]
-		slot12 = slot12[2]
-		slot11 = slot11 + slot12
-		slot8 = slot10[slot11]
-		slot10 = slot0.tileIndicies
-		slot11 = slot1.i
-		slot12 = slot6[2]
-		slot12 = slot12[1]
-		slot11 = slot11 + slot12
-		slot10 = slot10[slot11]
-		slot11 = slot1.j
-		slot12 = slot6[2]
-		slot12 = slot12[2]
-		slot11 = slot11 + slot12
-		slot9 = slot10[slot11]
 
-		if slot7 == slot8 and slot7 == slot9 then
-			slot10 = true
-
-			return slot10
+		if slot0.tileIndicies[slot1.i][slot1.j] == slot0.tileIndicies[slot1.i + slot6[1][1]][slot1.j + slot6[1][2]] and slot7 == slot0.tileIndicies[slot1.i + slot6[2][1]][slot1.j + slot6[2][2]] then
+			return true
 		end
 
-		slot10 = slot0.tileIndicies
-		slot11 = slot1.i
-		slot12 = slot6[1]
-		slot12 = slot12[2]
-		slot11 = slot11 + slot12
-		slot10 = slot10[slot11]
-		slot11 = slot1.j
-		slot12 = slot6[1]
-		slot12 = slot12[1]
-		slot11 = slot11 + slot12
-		slot8 = slot10[slot11]
-		slot10 = slot0.tileIndicies
-		slot11 = slot1.i
-		slot12 = slot6[2]
-		slot12 = slot12[2]
-		slot11 = slot11 + slot12
-		slot10 = slot10[slot11]
-		slot11 = slot1.j
-		slot12 = slot6[2]
-		slot12 = slot12[1]
-		slot11 = slot11 + slot12
-		slot9 = slot10[slot11]
-
-		if slot7 == slot8 and slot7 == slot9 then
-			slot10 = true
-
-			return slot10
+		if slot7 == slot0.tileIndicies[slot1.i + slot6[1][2]][slot1.j + slot6[1][1]] and slot7 == slot0.tileIndicies[slot1.i + slot6[2][2]][slot1.j + slot6[2][1]] then
+			return true
 		end
 	end
 
-	slot2 = false
-
-	return slot2
+	return false
 end
 
-slot0.isConnected = slot31
+function slot0.moveValid(slot0, slot1, slot2)
+	slot0.tileIndicies[slot2.i][slot2.j] = slot0.tileIndicies[slot1.i][slot1.j]
+	slot0.tileIndicies[slot1.i][slot1.j] = slot0.tileIndicies[slot2.i][slot2.j]
+	slot0.tileIndicies[slot2.i][slot2.j] = slot0.tileIndicies[slot1.i][slot1.j]
+	slot0.tileIndicies[slot1.i][slot1.j] = slot0.tileIndicies[slot2.i][slot2.j]
 
-function slot31(slot0, slot1, slot2)
-	slot3 = slot0.tileIndicies
-	slot4 = slot1.i
-	slot3 = slot3[slot4]
-	slot4 = slot1.j
-	slot5 = slot0.tileIndicies
-	slot6 = slot2.i
-	slot5 = slot5[slot6]
-	slot6 = slot2.j
-	slot7 = slot0.tileIndicies
-	slot8 = slot2.i
-	slot7 = slot7[slot8]
-	slot8 = slot2.j
-	slot7 = slot7[slot8]
-	slot8 = slot0.tileIndicies
-	slot9 = slot1.i
-	slot8 = slot8[slot9]
-	slot9 = slot1.j
-	slot8 = slot8[slot9]
-	slot5[slot6] = slot8
-	slot3[slot4] = slot7
-	slot4 = slot0
-	slot3 = slot0.isConnected
-	slot5 = slot1
-	slot3 = slot3(slot4, slot5)
-
-	if not slot3 then
-		slot4 = slot0
-		slot3 = slot0.isConnected
-		slot5 = slot2
-		slot3 = slot3(slot4, slot5)
-	end
-
-	slot4 = slot0.tileIndicies
-	slot5 = slot1.i
-	slot4 = slot4[slot5]
-	slot5 = slot1.j
-	slot6 = slot0.tileIndicies
-	slot7 = slot2.i
-	slot6 = slot6[slot7]
-	slot7 = slot2.j
-	slot8 = slot0.tileIndicies
-	slot9 = slot2.i
-	slot8 = slot8[slot9]
-	slot9 = slot2.j
-	slot8 = slot8[slot9]
-	slot9 = slot0.tileIndicies
-	slot10 = slot1.i
-	slot9 = slot9[slot10]
-	slot10 = slot1.j
-	slot9 = slot9[slot10]
-	slot6[slot7] = slot9
-	slot4[slot5] = slot8
-
-	return slot3
+	return slot0:isConnected(slot1) or slot0:isConnected(slot2)
 end
 
-slot0.moveValid = slot31
-
-function slot31(slot0, slot1, slot2, slot3)
+function slot0.moveTile(slot0, slot1, slot2, slot3)
 	slot0:managedTween(LeanTween.move, nil, slot1, slot0:index2pos(slot2.i, slot2.j), slot3 or 0):setEase(LeanTweenType.easeInQuad)
 end
 
-slot0.moveTile = slot31
+function slot0.swap(slot0, slot1, slot2)
+	slot0:moveTile(slot0.tileTfs[slot1.i][slot1.j], slot2, uv0)
+	slot0:moveTile(slot0.tileTfs[slot2.i][slot2.j], slot1, uv0)
 
-function slot31(slot0, slot1, slot2)
-	slot3 = slot0.tileTfs
-	slot4 = slot1.i
-	slot3 = slot3[slot4]
-	slot4 = slot1.j
-	slot3 = slot3[slot4]
-	slot4 = slot0.tileTfs
-	slot5 = slot2.i
-	slot4 = slot4[slot5]
-	slot5 = slot2.j
-	slot4 = slot4[slot5]
-	slot6 = slot0
-	slot5 = slot0.moveTile
-	slot7 = slot3
-	slot8 = slot2
-	slot9 = slot0
-
-	slot5(slot6, slot7, slot8, slot9)
-
-	slot6 = slot0
-	slot5 = slot0.moveTile
-	slot7 = slot4
-	slot8 = slot1
-	slot9 = slot0
-
-	slot5(slot6, slot7, slot8, slot9)
-
-	slot5 = slot0.tileTfs
-	slot6 = slot1.i
-	slot5 = slot5[slot6]
-	slot6 = slot1.j
-	slot7 = slot0.tileTfs
-	slot8 = slot2.i
-	slot7 = slot7[slot8]
-	slot8 = slot2.j
-	slot9 = slot0.tileTfs
-	slot10 = slot2.i
-	slot9 = slot9[slot10]
-	slot10 = slot2.j
-	slot9 = slot9[slot10]
-	slot10 = slot0.tileTfs
-	slot11 = slot1.i
-	slot10 = slot10[slot11]
-	slot11 = slot1.j
-	slot10 = slot10[slot11]
-	slot7[slot8] = slot10
-	slot5[slot6] = slot9
-	slot5 = slot0.tileIndicies
-	slot6 = slot1.i
-	slot5 = slot5[slot6]
-	slot6 = slot1.j
-	slot7 = slot0.tileIndicies
-	slot8 = slot2.i
-	slot7 = slot7[slot8]
-	slot8 = slot2.j
-	slot9 = slot0.tileIndicies
-	slot10 = slot2.i
-	slot9 = slot9[slot10]
-	slot10 = slot2.j
-	slot9 = slot9[slot10]
-	slot10 = slot0.tileIndicies
-	slot11 = slot1.i
-	slot10 = slot10[slot11]
-	slot11 = slot1.j
-	slot10 = slot10[slot11]
-	slot7[slot8] = slot10
-	slot5[slot6] = slot9
+	slot0.tileTfs[slot2.i][slot2.j] = slot0.tileTfs[slot1.i][slot1.j]
+	slot0.tileTfs[slot1.i][slot1.j] = slot0.tileTfs[slot2.i][slot2.j]
+	slot0.tileIndicies[slot2.i][slot2.j] = slot0.tileIndicies[slot1.i][slot1.j]
+	slot0.tileIndicies[slot1.i][slot1.j] = slot0.tileIndicies[slot2.i][slot2.j]
 end
 
-slot0.swap = slot31
+function slot0.formatTime(slot0, slot1)
+	slot2 = math.floor(slot1 / 60)
 
-function slot31(slot0, slot1)
-	slot2 = math
-	slot2 = slot2.floor
-	slot3 = slot1 / 60
-	slot2 = slot2(slot3)
-	slot3 = slot2 * 60
-	slot1 = slot1 - slot3
-	slot3 = math
-	slot3 = slot3.floor
-	slot4 = slot1
-	slot3 = slot3(slot4)
-	slot4 = slot2
-	slot5 = ":"
-	slot6 = slot3
-	slot4 = slot4 .. slot5 .. slot6
-
-	return slot4
+	return slot2 .. ":" .. math.floor(slot1 - slot2 * 60)
 end
 
-slot0.formatTime = slot31
-
-function slot31(slot0)
-	slot1 = slot0[1]
-
-	if slot1 == 1 then
-		slot1 = -90
-
-		return slot1
-	else
-		slot1 = slot0[1]
-
-		if slot1 == -1 then
-			slot1 = 90
-
-			return slot1
-		else
-			slot1 = slot0[2]
-
-			if slot1 == 1 then
-				slot1 = 180
-
-				return slot1
-			else
-				slot1 = slot0[2]
-
-				if slot1 == -1 then
-					slot1 = 0
-
-					return slot1
-				end
-			end
-		end
+function dir2Angle(slot0)
+	if slot0[1] == 1 then
+		return -90
+	elseif slot0[1] == -1 then
+		return 90
+	elseif slot0[2] == 1 then
+		return 180
+	elseif slot0[2] == -1 then
+		return 0
 	end
 end
 
-dir2Angle = slot31
+function slot0.startGame(slot0)
+	slot0:updateData()
 
-function slot31(slot0)
-	slot2 = slot0
-	slot1 = slot0.updateData
+	slot1 = Timer.New(function ()
+		uv0:managedTween(LeanTween.value, function ()
+			uv0.gamePage:GetComponent("CanvasGroup").alpha = 1
 
-	slot1(slot2)
+			uv0:stopGame()
+		end, go(uv0.gamePage), 1, 0, uv1):setOnUpdate(System.Action_float(function (slot0)
+			uv0.gamePage:GetComponent("CanvasGroup").alpha = slot0
+		end))
+		UpdateBeat:RemoveListener(uv0.handle)
+	end, slot0.infinite and uv1 or uv2)
+	slot0.handle = UpdateBeat:CreateListener(function ()
+		setText(uv0.countdownText, math.floor(uv1.time))
 
-	slot1 = Timer
-	slot1 = slot1.New
-
-	function slot2()
-		slot0 = slot0
-		slot1 = slot0
-		slot0 = slot0.managedTween
-		slot2 = LeanTween
-		slot2 = slot2.value
-
-		function slot3()
-			slot0 = slot0
-			slot0 = slot0.gamePage
-			slot1 = slot0
-			slot0 = slot0.GetComponent
-			slot2 = "CanvasGroup"
-			slot0 = slot0(slot1, slot2)
-			slot1 = 1
-			slot0.alpha = slot1
-			slot0 = slot0
-			slot1 = slot0
-			slot0 = slot0.stopGame
-
-			slot0(slot1)
+		if uv1.time <= uv2 and not isActive(uv0.warning) then
+			setActive(uv0.warning, true)
 		end
+	end, slot0)
 
-		slot4 = go
-		slot5 = slot0
-		slot5 = slot5.gamePage
-		slot4 = slot4(slot5)
-		slot5 = 1
-		slot6 = 0
-		slot7 = slot1
-		slot0 = slot0(slot1, slot2, slot3, slot4, slot5, slot6, slot7)
-		slot1 = slot0
-		slot0 = slot0.setOnUpdate
-		slot2 = System
-		slot2 = slot2.Action_float
+	slot1:Start()
+	UpdateBeat:AddListener(slot0.handle)
 
-		function slot3(slot0)
-			slot1 = slot0
-			slot1 = slot1.gamePage
-			slot2 = slot1
-			slot1 = slot1.GetComponent
-			slot3 = "CanvasGroup"
-			slot1 = slot1(slot2, slot3)
-			slot1.alpha = slot0
-		end
+	slot0.timer = slot1
 
-		slot0(slot1, slot2(slot3))
+	setActive(slot0.inf, false)
+	setActive(slot0.countdownText, true)
 
-		slot0 = UpdateBeat
-		slot1 = slot0
-		slot0 = slot0.RemoveListener
-		slot2 = slot0
-		slot2 = slot2.handle
+	slot0.tileIndicies = {}
 
-		slot0(slot1, slot2)
+	for slot5 = -1, uv4 + 2 do
+		slot0.tileIndicies[slot5] = {}
 	end
 
-	slot3 = slot0.infinite
+	slot0.tileTfs = {}
 
-	if slot3 then
-		slot1 = slot1(slot2, slot1 or slot2)
-		slot2 = UpdateBeat
-		slot3 = slot2
-		slot2 = slot2.CreateListener
-
-		function slot4()
-			slot0 = setText
-			slot1 = slot0
-			slot1 = slot1.countdownText
-			slot2 = math
-			slot2 = slot2.floor
-			slot3 = slot1
-			slot3 = slot3.time
-
-			slot0(slot1, slot2(slot3))
-
-			slot0 = slot1
-			slot0 = slot0.time
-			slot1 = slot2
-
-			if slot0 <= slot1 then
-				slot0 = isActive
-				slot1 = slot0
-				slot1 = slot1.warning
-				slot0 = slot0(slot1)
-
-				if not slot0 then
-					slot0 = setActive
-					slot1 = slot0
-					slot1 = slot1.warning
-					slot2 = true
-
-					slot0(slot1, slot2)
-				end
-			end
-		end
-
-		slot5 = slot0
-		slot2 = slot2(slot3, slot4, slot5)
-		slot0.handle = slot2
-		slot3 = slot1
-		slot2 = slot1.Start
-
-		slot2(slot3)
-
-		slot2 = UpdateBeat
-		slot3 = slot2
-		slot2 = slot2.AddListener
-		slot4 = slot0.handle
-
-		slot2(slot3, slot4)
-
-		slot0.timer = slot1
-		slot2 = setActive
-		slot3 = slot0.inf
-		slot4 = false
-
-		slot2(slot3, slot4)
-
-		slot2 = setActive
-		slot3 = slot0.countdownText
-		slot4 = true
-
-		slot2(slot3, slot4)
-
-		slot2 = {}
-		slot0.tileIndicies = slot2
-		slot2 = -1
-		slot3 = slot4
-		slot3 = slot3 + 2
-		slot4 = 1
-
-		for slot5 = slot2, slot3, slot4 do
-			slot6 = slot0.tileIndicies
-			slot7 = {}
-			slot6[slot5] = slot7
-		end
-
-		slot2 = {}
-		slot0.tileTfs = slot2
-		slot2 = -1
-		slot3 = slot4
-		slot3 = slot3 + 2
-		slot4 = 1
-
-		for slot5 = slot2, slot3, slot4 do
-			slot6 = slot0.tileTfs
-			slot7 = {}
-			slot6[slot5] = slot7
-		end
+	for slot5 = -1, uv4 + 2 do
+		slot0.tileTfs[slot5] = {}
 	end
 
-	slot3 = slot0
-	slot2 = slot0.fillTileIndicies
+	slot0:fillTileIndicies()
+	slot0:fillTiles(true)
 
-	slot2(slot3)
+	slot0.selected = nil
+	slot0.updating = false
+	slot0.score = 0
+	slot0.combo = 0
+	slot0.inGame = true
 
-	slot3 = slot0
-	slot2 = slot0.fillTiles
-	slot4 = true
+	setText(slot0.scoreText, slot0.score)
 
-	slot2(slot3, slot4)
-
-	slot2 = nil
-	slot0.selected = slot2
-	slot2 = false
-	slot0.updating = slot2
-	slot2 = 0
-	slot0.score = slot2
-	slot2 = 0
-	slot0.combo = slot2
-	slot2 = true
-	slot0.inGame = slot2
-	slot2 = setText
-	slot3 = slot0.scoreText
-	slot4 = slot0.score
-
-	slot2(slot3, slot4)
-
-	function slot2()
-		slot0 = slot0
-		slot0 = slot0.hint
-
-		if slot0 then
+	function slot0.hintFunc()
+		if uv0.hint then
 			return
 		end
 
-		slot0 = slot0
-		slot1 = slot0
-		slot0 = slot0.findMove
-		slot0, slot1, slot2 = slot0(slot1)
-		slot3 = slot0
-		slot4 = slot3
-		slot3 = slot3.index2pos
-		slot5 = slot0
-		slot6 = slot1
-		slot3 = slot3(slot4, slot5, slot6)
-		slot4 = slot0
-		slot5 = slot4
-		slot4 = slot4.index2pos
-		slot6 = slot2[1]
-		slot6 = slot0 + slot6
-		slot7 = slot2[2]
-		slot7 = slot1 + slot7
-		slot4 = slot4(slot5, slot6, slot7)
-		slot3 = slot3 + slot4
-		slot3 = slot3 / 2
-		slot4 = rtf
-		slot5 = cloneTplTo
-		slot6 = slot0
-		slot6 = slot6.hintEffect
-		slot7 = slot0
-		slot7 = slot7.tilesRoot
-		slot4 = slot4(slot5(slot6, slot7))
-		slot4.anchoredPosition = slot3
-		slot5 = Vector3
-		slot5 = slot5.New
-		slot6 = 0
-		slot7 = 0
-		slot8 = dir2Angle
-		slot9 = slot2
-		slot5 = slot5(slot6, slot7, slot8(slot9))
-		slot4.localEulerAngles = slot5
-		slot5 = slot0
-		slot5.hint = slot4
-		slot5 = slot0
-		slot6 = slot0
-		slot6 = slot6.tileTfs
-		slot6 = slot6[slot0]
-		slot6 = slot6[slot1]
-		slot5.hint1 = slot6
-		slot5 = slot0
-		slot6 = slot0
-		slot6 = slot6.tileTfs
-		slot7 = slot2[1]
-		slot7 = slot0 + slot7
-		slot6 = slot6[slot7]
-		slot7 = slot2[2]
-		slot7 = slot1 + slot7
-		slot6 = slot6[slot7]
-		slot5.hint2 = slot6
-		slot5 = slot0
-		slot5 = slot5.hint1
-		slot6 = slot5
-		slot5 = slot5.GetComponent
-		slot7 = "Animator"
-		slot5 = slot5(slot6, slot7)
-		slot6 = slot5
-		slot5 = slot5.SetBool
-		slot7 = "selected"
-		slot8 = true
+		slot0, slot1, slot2 = uv0:findMove()
+		slot4 = rtf(cloneTplTo(uv0.hintEffect, uv0.tilesRoot))
+		slot4.anchoredPosition = (uv0:index2pos(slot0, slot1) + uv0:index2pos(slot0 + slot2[1], slot1 + slot2[2])) / 2
+		slot4.localEulerAngles = Vector3.New(0, 0, dir2Angle(slot2))
+		uv0.hint = slot4
+		uv0.hint1 = uv0.tileTfs[slot0][slot1]
+		uv0.hint2 = uv0.tileTfs[slot0 + slot2[1]][slot1 + slot2[2]]
 
-		slot5(slot6, slot7, slot8)
-
-		slot5 = slot0
-		slot5 = slot5.hint2
-		slot6 = slot5
-		slot5 = slot5.GetComponent
-		slot7 = "Animator"
-		slot5 = slot5(slot6, slot7)
-		slot6 = slot5
-		slot5 = slot5.SetBool
-		slot7 = "selected"
-		slot8 = true
-
-		slot5(slot6, slot7, slot8)
+		uv0.hint1:GetComponent("Animator"):SetBool("selected", true)
+		uv0.hint2:GetComponent("Animator"):SetBool("selected", true)
 	end
 
-	slot0.hintFunc = slot2
-	slot2 = Timer
-	slot2 = slot2.New
-	slot3 = slot0.hintFunc
-	slot4 = slot5
-	slot2 = slot2(slot3, slot4)
-	slot0.hintTimer = slot2
-	slot2 = slot0.hintTimer
-	slot3 = slot2
-	slot2 = slot2.Start
+	slot0.hintTimer = Timer.New(slot0.hintFunc, uv5)
 
-	slot2(slot3)
+	slot0.hintTimer:Start()
 end
 
-slot0.startGame = slot31
-
-function slot31(slot0)
-	slot1 = slot0.timer
-
-	if slot1 then
-		slot1 = slot0.timer
-		slot2 = slot1
-		slot1 = slot1.Pause
-
-		slot1(slot2)
+function slot0.pauseGame(slot0)
+	if slot0.timer then
+		slot0.timer:Pause()
 	end
 
-	slot1 = slot0.hintTimer
-
-	if slot1 then
-		slot1 = slot0.hintTimer
-		slot2 = slot1
-		slot1 = slot1.Pause
-
-		slot1(slot2)
+	if slot0.hintTimer then
+		slot0.hintTimer:Pause()
 	end
 
-	slot1 = slot0.warning
-
-	if slot1 then
-		slot1 = slot0.warning
-		slot2 = slot1
-		slot1 = slot1.GetComponent
-		slot3 = "Animator"
-		slot1 = slot1(slot2, slot3)
-		slot2 = false
-		slot1.enabled = slot2
+	if slot0.warning then
+		slot0.warning:GetComponent("Animator").enabled = false
 	end
 
-	slot2 = slot0
-	slot1 = slot0.pauseManagedTween
-
-	slot1(slot2)
+	slot0:pauseManagedTween()
 end
 
-slot0.pauseGame = slot31
-
-function slot31(slot0)
-	slot1 = setActive
-	slot2 = slot0.pausePage
-	slot3 = true
-
-	slot1(slot2, slot3)
-
-	slot2 = slot0
-	slot1 = slot0.pauseGame
-
-	slot1(slot2)
+function slot0.pause(slot0)
+	setActive(slot0.pausePage, true)
+	slot0:pauseGame()
 end
 
-slot0.pause = slot31
-
-function slot31(slot0)
-	slot1 = slot0.timer
-
-	if slot1 then
-		slot1 = slot0.timer
-		slot2 = slot1
-		slot1 = slot1.Resume
-
-		slot1(slot2)
+function slot0.resumeGame(slot0)
+	if slot0.timer then
+		slot0.timer:Resume()
 	end
 
-	slot1 = slot0.hintTimer
-
-	if slot1 then
-		slot1 = slot0.hintTimer
-		slot2 = slot1
-		slot1 = slot1.Resume
-
-		slot1(slot2)
+	if slot0.hintTimer then
+		slot0.hintTimer:Resume()
 	end
 
-	slot1 = slot0.warning
-
-	if slot1 then
-		slot1 = slot0.warning
-		slot2 = slot1
-		slot1 = slot1.GetComponent
-		slot3 = "Animator"
-		slot1 = slot1(slot2, slot3)
-		slot2 = true
-		slot1.enabled = slot2
+	if slot0.warning then
+		slot0.warning:GetComponent("Animator").enabled = true
 	end
 
-	slot2 = slot0
-	slot1 = slot0.resumeManagedTween
-
-	slot1(slot2)
+	slot0:resumeManagedTween()
 end
 
-slot0.resumeGame = slot31
+function slot0.fillTileIndicies(slot0)
+	slot1 = {
+		[slot5] = {}
+	}
 
-function slot31(slot0)
-	slot1 = {}
-	slot2 = -1
-	slot3 = slot0
-	slot3 = slot3 + 2
-	slot4 = 1
-
-	for slot5 = slot2, slot3, slot4 do
-		slot6 = {}
-		slot1[slot5] = slot6
-		slot6 = 1
-		slot7 = slot1
-		slot8 = 1
-
-		for slot9 = slot6, slot7, slot8 do
-			slot10 = slot1[slot5]
-			slot11 = slot0.tileIndicies
-			slot11 = slot11[slot5]
-			slot11 = slot11[slot9]
-			slot10[slot9] = slot11
+	for slot5 = -1, uv0 + 2 do
+		for slot9 = 1, uv1 do
+			slot1[slot5][slot9] = slot0.tileIndicies[slot5][slot9]
 		end
 	end
 
 	repeat
-		slot2 = {}
-		slot0.tileIndicies = slot2
-		slot2 = -1
-		slot3 = slot0
-		slot3 = slot3 + 2
-		slot4 = 1
+		slot0.tileIndicies = {}
 
-		for slot5 = slot2, slot3, slot4 do
-			slot6 = slot0.tileIndicies
-			slot7 = {}
-			slot6[slot5] = slot7
-			slot6 = 1
-			slot7 = slot1
-			slot8 = 1
+		for slot5 = -1, uv0 + 2 do
+			slot0.tileIndicies[slot5] = {}
 
-			for slot9 = slot6, slot7, slot8 do
-				slot10 = slot0.tileIndicies
-				slot10 = slot10[slot5]
-				slot11 = slot1[slot5]
-				slot11 = slot11[slot9]
-				slot10[slot9] = slot11
+			for slot9 = 1, uv1 do
+				slot0.tileIndicies[slot5][slot9] = slot1[slot5][slot9]
 			end
 		end
 
-		slot2 = 1
-		slot3 = slot0
-		slot4 = 1
-
-		for slot5 = slot2, slot3, slot4 do
-			slot6 = 1
-			slot7 = slot1
-			slot8 = 1
-
-			for slot9 = slot6, slot7, slot8 do
-				slot10 = slot0.tileIndicies
-				slot10 = slot10[slot5]
-				slot10 = slot10[slot9]
-
-				if not slot10 then
+		for slot5 = 1, uv0 do
+			for slot9 = 1, uv1 do
+				if not slot0.tileIndicies[slot5][slot9] then
 					slot10, slot11 = nil
-					slot12 = slot0.tileIndicies
-					slot13 = slot5 - 1
-					slot12 = slot12[slot13]
-					slot12 = slot12[slot9]
 
-					if slot12 then
-						slot12 = slot0.tileIndicies
-						slot13 = slot5 - 1
-						slot12 = slot12[slot13]
-						slot12 = slot12[slot9]
-						slot13 = slot0.tileIndicies
-						slot14 = slot5 - 2
-						slot13 = slot13[slot14]
-						slot13 = slot13[slot9]
-
-						if slot12 == slot13 then
-							slot12 = slot0.tileIndicies
-							slot13 = slot5 - 1
-							slot12 = slot12[slot13]
-							slot10 = slot12[slot9]
-						end
+					if slot0.tileIndicies[slot5 - 1][slot9] and slot0.tileIndicies[slot5 - 1][slot9] == slot0.tileIndicies[slot5 - 2][slot9] then
+						slot10 = slot0.tileIndicies[slot5 - 1][slot9]
 					end
 
-					slot12 = slot0.tileIndicies
-					slot12 = slot12[slot5]
-					slot13 = slot9 - 1
-					slot12 = slot12[slot13]
-
-					if slot12 then
-						slot12 = slot0.tileIndicies
-						slot12 = slot12[slot5]
-						slot13 = slot9 - 1
-						slot12 = slot12[slot13]
-						slot13 = slot0.tileIndicies
-						slot13 = slot13[slot5]
-						slot14 = slot9 - 2
-						slot13 = slot13[slot14]
-
-						if slot12 == slot13 then
-							slot12 = slot0.tileIndicies
-							slot12 = slot12[slot5]
-							slot13 = slot9 - 2
-							slot11 = slot12[slot13]
-						end
+					if slot0.tileIndicies[slot5][slot9 - 1] and slot0.tileIndicies[slot5][slot9 - 1] == slot0.tileIndicies[slot5][slot9 - 2] then
+						slot11 = slot0.tileIndicies[slot5][slot9 - 2]
 					end
 
-					slot12 = math
-					slot12 = slot12.random
-					slot13 = 1
-					slot14 = slot0.tiles
-					slot14 = #slot14
-					slot12 = slot12(slot13, slot14)
+					slot12 = math.random(1, #slot0.tiles)
 
 					while slot12 == slot10 or slot12 == slot11 do
-						slot13 = math
-						slot13 = slot13.random
-						slot14 = 1
-						slot15 = slot0.tiles
-						slot15 = #slot15
-						slot13 = slot13(slot14, slot15)
-						slot12 = slot13
+						slot12 = math.random(1, #slot0.tiles)
 					end
 
-					slot13 = slot0.tileIndicies
-					slot13 = slot13[slot5]
-					slot13[slot9] = slot12
+					slot0.tileIndicies[slot5][slot9] = slot12
 				end
 			end
 		end
-
-		slot3 = slot0
-		slot2 = slot0.findMove
-		slot2 = slot2(slot3)
-	until slot2
+	until slot0:findMove()
 end
 
-slot0.fillTileIndicies = slot31
-
-function slot31(slot0)
-	slot1 = 1
-	slot2 = slot0
-	slot3 = 1
-
-	for slot4 = slot1, slot2, slot3 do
-		slot5 = 1
-		slot6 = slot1
-		slot7 = 1
-
-		for slot8 = slot5, slot6, slot7 do
-			slot9 = slot0.tileTfs
-			slot9 = slot9[slot4]
-			slot9 = slot9[slot8]
-
-			if slot9 then
-				slot9 = slot0.tileTfs
-				slot9 = slot9[slot4]
-				slot9 = slot9[slot8]
-				slot10 = slot9
-				slot9 = slot9.SetAsFirstSibling
-
-				slot9(slot10)
+function slot0.reorderTiles(slot0)
+	for slot4 = 1, uv0 do
+		for slot8 = 1, uv1 do
+			if slot0.tileTfs[slot4][slot8] then
+				slot0.tileTfs[slot4][slot8]:SetAsFirstSibling()
 			end
 		end
 	end
 end
 
-slot0.reorderTiles = slot31
-
-function slot31(slot0, slot1)
+function slot0.fillTiles(slot0, slot1)
 	slot2 = 0
-	slot3 = 1
-	slot4 = slot0
-	slot5 = 1
 
-	for slot6 = slot3, slot4, slot5 do
-		slot7 = 0
-		slot8 = slot1
-		slot9 = 1
-		slot10 = -1
-
-		for slot11 = slot8, slot9, slot10 do
-			slot12 = slot0.tileTfs
-			slot12 = slot12[slot11]
-			slot12 = slot12[slot6]
-
-			if not slot12 then
-				slot7 = slot7 + 1
+	for slot6 = 1, uv0 do
+		for slot11 = uv1, 1, -1 do
+			if not slot0.tileTfs[slot11][slot6] then
+				slot7 = 0 + 1
 			end
 		end
 
-		slot8 = math
-		slot8 = slot8.max
-		slot9 = slot7
-		slot10 = slot2
-		slot8 = slot8(slot9, slot10)
-		slot2 = slot8
-		slot8 = 1
-		slot9 = slot1
-		slot10 = 1
+		slot2 = math.max(slot7, slot2)
 
-		for slot11 = slot8, slot9, slot10 do
-			slot12 = slot0.tileTfs
-			slot12 = slot12[slot11]
-			slot12 = slot12[slot6]
-
-			if not slot12 then
-				slot12 = rtf
-				slot13 = cloneTplTo
-				slot14 = slot0.tiles
-				slot15 = slot0.tileIndicies
-				slot15 = slot15[slot11]
-				slot15 = slot15[slot6]
-				slot14 = slot14[slot15]
-				slot15 = slot0.tilesRoot
-				slot12 = slot12(slot13(slot14, slot15))
-
+		for slot11 = 1, uv1 do
+			if not slot0.tileTfs[slot11][slot6] then
 				if slot1 then
-					slot14 = slot0
-					slot13 = slot0.index2pos
-					slot15 = slot11
-					slot16 = slot6
-					slot13 = slot13(slot14, slot15, slot16)
-					slot12.anchoredPosition = slot13
+					rtf(cloneTplTo(slot0.tiles[slot0.tileIndicies[slot11][slot6]], slot0.tilesRoot)).anchoredPosition = slot0:index2pos(slot11, slot6)
 				else
-					slot14 = slot0
-					slot13 = slot0.index2pos
-					slot15 = slot11 + slot7
-					slot16 = slot6
-					slot13 = slot13(slot14, slot15, slot16)
-					slot12.anchoredPosition = slot13
-					slot14 = slot0
-					slot13 = slot0.moveTile
-					slot15 = slot12
-					slot16 = {
+					slot12.anchoredPosition = slot0:index2pos(slot11 + slot7, slot6)
+
+					slot0:moveTile(slot12, {
 						i = slot11,
 						j = slot6
-					}
-					slot17 = slot0.dropTime
-					slot18 = slot7
-
-					slot13(slot14, slot15, slot16, slot17(slot18))
+					}, slot0.dropTime(slot7))
 				end
 
-				slot13 = slot0.tileTfs
-				slot13 = slot13[slot11]
-				slot13[slot6] = slot12
+				slot0.tileTfs[slot11][slot6] = slot12
 			end
 		end
 	end
 
-	slot4 = slot0
-	slot3 = slot0.reorderTiles
-
-	slot3(slot4)
+	slot0:reorderTiles()
 
 	return slot2
 end
 
-slot0.fillTiles = slot31
-slot31 = {}
-slot32 = {}
-slot33 = {
-	-1,
-	-2
+slot31 = {
+	{
+		{
+			-1,
+			-2
+		},
+		{
+			-1,
+			-1
+		}
+	},
+	{
+		{
+			-1,
+			-1
+		},
+		{
+			-1,
+			1
+		}
+	},
+	{
+		{
+			-1,
+			1
+		},
+		{
+			-1,
+			2
+		}
+	}
 }
-slot32[1] = slot33
-slot33 = {
-	-1,
-	-1
-}
-slot32[2] = slot33
-slot31[1] = slot32
-slot32 = {}
-slot33 = {
-	-1,
-	-1
-}
-slot32[1] = slot33
-slot33 = {
-	-1,
-	1
-}
-slot32[2] = slot33
-slot31[2] = slot32
-slot32 = {}
-slot33 = {
-	-1,
-	1
-}
-slot32[1] = slot33
-slot33 = {
-	-1,
-	2
-}
-slot32[2] = slot33
-slot31[3] = slot32
 
-function slot32(slot0)
-	slot1 = 1
-	slot2 = slot0
-	slot3 = 1
-
-	for slot4 = slot1, slot2, slot3 do
-		slot5 = 1
-		slot6 = slot1
-		slot7 = 1
-
-		for slot8 = slot5, slot6, slot7 do
-			slot9 = slot0.tileIndicies
-			slot9 = slot9[slot4]
-			slot9 = slot9[slot8]
+function slot0.findMove(slot0)
+	for slot4 = 1, uv0 do
+		for slot8 = 1, uv1 do
+			slot9 = slot0.tileIndicies[slot4][slot8]
 			slot10, slot11 = nil
-			slot12 = pairs
-			slot13 = slot2
-			slot12, slot13, slot14 = slot12(slot13)
 
-			for slot15, slot16 in slot12, slot13, slot14 do
-				slot17 = slot0.tileIndicies
-				slot18 = slot16[1]
-				slot18 = slot18[1]
-				slot18 = slot4 + slot18
-				slot17 = slot17[slot18]
-				slot18 = slot16[1]
-				slot18 = slot18[2]
-				slot18 = slot8 + slot18
-				slot10 = slot17[slot18]
-				slot17 = slot0.tileIndicies
-				slot18 = slot16[2]
-				slot18 = slot18[1]
-				slot18 = slot4 + slot18
-				slot17 = slot17[slot18]
-				slot18 = slot16[2]
-				slot18 = slot18[2]
-				slot18 = slot8 + slot18
-				slot11 = slot17[slot18]
-
-				if slot9 == slot10 and slot9 == slot11 then
-					slot17 = slot4
-					slot18 = slot8
-					slot19 = {
+			for slot15, slot16 in pairs(uv2) do
+				if slot9 == slot0.tileIndicies[slot4 + slot16[1][1]][slot8 + slot16[1][2]] and slot9 == slot0.tileIndicies[slot4 + slot16[2][1]][slot8 + slot16[2][2]] then
+					return slot4, slot8, {
 						-1,
 						0
 					}
-
-					return slot17, slot18, slot19
 				end
 
-				slot17 = slot0.tileIndicies
-				slot18 = slot16[1]
-				slot18 = slot18[1]
-				slot18 = slot4 - slot18
-				slot17 = slot17[slot18]
-				slot18 = slot16[1]
-				slot18 = slot18[2]
-				slot18 = slot8 - slot18
-				slot10 = slot17[slot18]
-				slot17 = slot0.tileIndicies
-				slot18 = slot16[2]
-				slot18 = slot18[1]
-				slot18 = slot4 - slot18
-				slot17 = slot17[slot18]
-				slot18 = slot16[2]
-				slot18 = slot18[2]
-				slot18 = slot8 - slot18
-				slot11 = slot17[slot18]
-
-				if slot9 == slot10 and slot9 == slot11 then
-					slot17 = slot4
-					slot18 = slot8
-					slot19 = {
+				if slot9 == slot0.tileIndicies[slot4 - slot16[1][1]][slot8 - slot16[1][2]] and slot9 == slot0.tileIndicies[slot4 - slot16[2][1]][slot8 - slot16[2][2]] then
+					return slot4, slot8, {
 						1,
 						0
 					}
-
-					return slot17, slot18, slot19
 				end
 
-				slot17 = slot0.tileIndicies
-				slot18 = slot16[1]
-				slot18 = slot18[2]
-				slot18 = slot4 - slot18
-				slot17 = slot17[slot18]
-				slot18 = slot16[1]
-				slot18 = slot18[1]
-				slot18 = slot8 + slot18
-				slot10 = slot17[slot18]
-				slot17 = slot0.tileIndicies
-				slot18 = slot16[2]
-				slot18 = slot18[2]
-				slot18 = slot4 - slot18
-				slot17 = slot17[slot18]
-				slot18 = slot16[2]
-				slot18 = slot18[1]
-				slot18 = slot8 + slot18
-				slot11 = slot17[slot18]
-
-				if slot9 == slot10 and slot9 == slot11 then
-					slot17 = slot4
-					slot18 = slot8
-					slot19 = {
+				if slot9 == slot0.tileIndicies[slot4 - slot16[1][2]][slot8 + slot16[1][1]] and slot9 == slot0.tileIndicies[slot4 - slot16[2][2]][slot8 + slot16[2][1]] then
+					return slot4, slot8, {
 						0,
 						-1
 					}
-
-					return slot17, slot18, slot19
 				end
 
-				slot17 = slot0.tileIndicies
-				slot18 = slot16[1]
-				slot18 = slot18[2]
-				slot18 = slot4 + slot18
-				slot17 = slot17[slot18]
-				slot18 = slot16[1]
-				slot18 = slot18[1]
-				slot18 = slot8 - slot18
-				slot10 = slot17[slot18]
-				slot17 = slot0.tileIndicies
-				slot18 = slot16[2]
-				slot18 = slot18[2]
-				slot18 = slot4 + slot18
-				slot17 = slot17[slot18]
-				slot18 = slot16[2]
-				slot18 = slot18[1]
-				slot18 = slot8 - slot18
-				slot11 = slot17[slot18]
-
-				if slot9 == slot10 and slot9 == slot11 then
-					slot17 = slot4
-					slot18 = slot8
-					slot19 = {
+				if slot9 == slot0.tileIndicies[slot4 + slot16[1][2]][slot8 - slot16[1][1]] and slot9 == slot0.tileIndicies[slot4 + slot16[2][2]][slot8 - slot16[2][1]] then
+					return slot4, slot8, {
 						0,
 						1
 					}
-
-					return slot17, slot18, slot19
 				end
 			end
 		end
 	end
 end
 
-slot0.findMove = slot32
+function slot0.stopGame(slot0)
+	slot0.inGame = false
 
-function slot32(slot0)
+	setActive(slot0.warning, false)
+	slot0.hintTimer:Reset(slot0.hintFunc, 5)
+	slot0.hintTimer:Stop()
+	slot0:cleanManagedTween(true)
+	slot0:cancelHint()
 
-	-- Decompilation error in this vicinity:
-	slot1 = false
-	slot0.inGame = slot1
-	slot1 = setActive
-	slot2 = slot0.warning
-	slot3 = false
-
-	slot1(slot2, slot3)
-
-	slot1 = slot0.hintTimer
-	slot2 = slot1
-	slot1 = slot1.Reset
-	slot3 = slot0.hintFunc
-	slot4 = 5
-
-	slot1(slot2, slot3, slot4)
-
-	slot1 = slot0.hintTimer
-	slot2 = slot1
-	slot1 = slot1.Stop
-
-	slot1(slot2)
-
-	slot2 = slot0
-	slot1 = slot0.cleanManagedTween
-	slot3 = true
-
-	slot1(slot2, slot3)
-
-	slot2 = slot0
-	slot1 = slot0.cancelHint
-
-	slot1(slot2)
-
-	slot1 = slot0.timer
-
-	if slot1 then
-		slot1 = slot0.timer
-		slot2 = slot1
-		slot1 = slot1.Pause
-
-		slot1(slot2)
+	if slot0.timer then
+		slot0.timer:Pause()
 	end
 
-	slot1 = slot0.handle
-
-	if slot1 then
-		slot1 = UpdateBeat
-		slot2 = slot1
-		slot1 = slot1.RemoveListener
-		slot3 = slot0.handle
-
-		slot1(slot2, slot3)
+	if slot0.handle then
+		UpdateBeat:RemoveListener(slot0.handle)
 	end
 
-	slot1 = 1
-	slot2 = slot0
-	slot3 = 1
-
-	for slot4 = slot1, slot2, slot3 do
-		slot5 = 1
-		slot6 = slot1
-		slot7 = 1
-
-		for slot8 = slot5, slot6, slot7 do
-			slot9 = slot0.tileTfs
-			slot9 = slot9[slot4]
-			slot9 = slot9[slot8]
-
-			if slot9 then
-				slot9 = Destroy
-				slot10 = slot0.tileTfs
-				slot10 = slot10[slot4]
-				slot10 = slot10[slot8]
-
-				slot9(slot10)
+	for slot4 = 1, uv0 do
+		for slot8 = 1, uv1 do
+			if slot0.tileTfs[slot4][slot8] then
+				Destroy(slot0.tileTfs[slot4][slot8])
 			end
 		end
 	end
 
-	slot1 = slot0.selectedEffectTf
+	if slot0.selectedEffectTf then
+		Destroy(slot0.selectedEffectTf)
 
-	if slot1 then
-		slot1 = Destroy
-		slot2 = slot0.selectedEffectTf
-
-		slot1(slot2)
-
-		slot1 = nil
-		slot0.selectedEffectTf = slot1
+		slot0.selectedEffectTf = nil
 	end
 
-	slot1 = setText
-	slot2 = slot0.bestScore
-	slot3 = math
-	slot3 = slot3.max
-	slot4 = slot0.best
-	slot5 = slot0.score
+	setText(slot0.bestScore, math.max(slot0.best, slot0.score))
+	setActive(slot0.gamePage, false)
+	setActive(slot0.pausePage, false)
+	setActive(slot0.endBtn, false)
+	setActive(slot0.endPage, true)
 
-	slot1(slot2, slot3(slot4, slot5))
-
-	slot1 = setActive
-	slot2 = slot0.gamePage
-	slot3 = false
-
-	slot1(slot2, slot3)
-
-	slot1 = setActive
-	slot2 = slot0.pausePage
-	slot3 = false
-
-	slot1(slot2, slot3)
-
-	slot1 = setActive
-	slot2 = slot0.endBtn
-	slot3 = false
-
-	slot1(slot2, slot3)
-
-	slot1 = setActive
-	slot2 = slot0.endPage
-	slot3 = true
-
-	slot1(slot2, slot3)
-
-	slot1 = slot0.score
-	slot2 = 0
-
-	if slot1 > slot2 then
-		slot1 = playSoundEffect
-		slot2 = slot2
-
-		slot1(slot2)
+	if slot0.score > 0 then
+		playSoundEffect(uv2)
 	end
 
-	slot1 = setActive
-	slot2 = slot0.newSign
-	slot3 = false
+	setActive(slot0.newSign, false)
+	setText(slot0.endScore, 0)
+	slot0:managedTween(LeanTween.value, function ()
+		setActive(uv0.newSign, uv0.best < uv0.score)
+		setActive(uv0.endBtn, true)
+		setImageAlpha(uv0.endBtn, 0)
 
-	slot1(slot2, slot3)
+		uv0.endBtn:GetComponent("Button").enabled = false
 
-	slot1 = setText
-	slot2 = slot0.endScore
-	slot3 = 0
+		playSoundEffect(uv1)
+		uv0:managedTween(LeanTween.value, function ()
+			uv0.endBtn:GetComponent("Button").enabled = true
 
-	slot1(slot2, slot3)
+			if uv0.infinite or uv0.timer and uv0.timer.time <= 0 then
+				if not uv0.infinite then
+					uv0:SendSuccess(0)
+				end
 
-	slot2 = slot0
-	slot1 = slot0.managedTween
-	slot3 = LeanTween
-	slot3 = slot3.value
-
-	function slot4()
-		setActive(slot0.newSign, slot0.best < slot0.score)
-		setActive(slot0.endBtn, true)
-		setImageAlpha(slot0.endBtn, 0)
-
-		setImageAlpha.endBtn:GetComponent("Button").enabled = false
-
-		playSoundEffect(false)
-
-		slot1 = playSoundEffect
-		slot0 = playSoundEffect.managedTween
-		slot2 = LeanTween.value
-
-		function slot3()
-			slot0 = slot0
-			slot0 = slot0.endBtn
-			slot1 = slot0
-			slot0 = slot0.GetComponent
-			slot2 = "Button"
-			slot0 = slot0(slot1, slot2)
-			slot1 = true
-			slot0.enabled = slot1
-			slot0 = slot0
-			slot0 = slot0.infinite
-
-			if not slot0 then
-				slot0 = slot0
-				slot0 = slot0.timer
-
-				if slot0 then
-					slot0 = slot0
-					slot0 = slot0.timer
-					slot0 = slot0.time
-					slot1 = 0
-
-					if slot0 <= slot1 then
-						slot0 = slot0
-						slot0 = slot0.infinite
-
-						if not slot0 then
-							slot0 = slot0
-							slot1 = slot0
-							slot0 = slot0.SendSuccess
-							slot2 = 0
-
-							slot0(slot1, slot2)
-						end
-
-						slot0 = slot0
-						slot0 = slot0.score
-						slot1 = slot0
-						slot1 = slot1.best
-
-						if slot1 < slot0 then
-							slot0 = slot0
-							slot1 = slot0
-							slot0 = slot0.StoreDataToServer
-							slot2 = {}
-							slot3 = slot0
-							slot3 = slot3.score
-							slot2[1] = slot3
-
-							slot0(slot1, slot2)
-						end
-					end
+				if uv0.best < uv0.score then
+					uv0:StoreDataToServer({
+						uv0.score
+					})
 				end
 			end
 
-			slot0 = slot0
-			slot1 = nil
-			slot0.timer = slot1
-		end
-
-		slot4 = go
-		slot5 = slot0
-		slot5 = slot5.endBtn
-		slot4 = slot4(slot5)
-		slot5 = 0
-		slot6 = 1
-		slot7 = slot2
-		slot0 = slot0(slot1, slot2, slot3, slot4, slot5, slot6, slot7)
-		slot1 = slot0
-		slot0 = slot0.setOnUpdate
-		slot2 = System
-		slot2 = slot2.Action_float
-
-		function slot3(slot0)
-			slot1 = setImageAlpha
-			slot2 = slot0
-			slot2 = slot2.endBtn
-			slot3 = slot0
-
-			slot1(slot2, slot3)
-		end
-
-		slot0(slot1, slot2(slot3))
-	end
-
-	slot5 = go
-	slot6 = slot0.endScore
-	slot5 = slot5(slot6)
-	slot6 = 0
-	slot7 = slot0.score
-	slot8 = slot0.score
-	slot9 = 0
-
-	slot1(slot2, slot3, slot4, slot5, slot6, slot7, slot5 or 0):setOnUpdate(System.Action_float(function (slot0)
-		setText(slot0.endScore, math.floor(slot0))
+			uv0.timer = nil
+		end, go(uv0.endBtn), 0, 1, uv2):setOnUpdate(System.Action_float(function (slot0)
+			setImageAlpha(uv0.endBtn, slot0)
+		end))
+	end, go(slot0.endScore), 0, slot0.score, slot0.score > 0 and uv5 or 0):setOnUpdate(System.Action_float(function (slot0)
+		setText(uv0.endScore, math.floor(slot0))
 	end))
 end
 
-slot0.stopGame = slot32
-
-function slot32(slot0, slot1, slot2)
+function slot0.formatScore(slot0, slot1, slot2)
 	slot3 = {}
-	slot4 = 0
 
-	while slot2 > slot4 do
-		slot4 = table
-		slot4 = slot4.insert
-		slot5 = slot3
-		slot6 = math
-		slot6 = slot6.fmod
-		slot7 = slot2
-		slot8 = 10
+	while slot2 > 0 do
+		table.insert(slot3, math.fmod(slot2, 10))
 
-		slot4(slot5, slot6(slot7, slot8))
-
-		slot4 = math
-		slot4 = slot4.floor
-		slot5 = slot2 / 10
-		slot4 = slot4(slot5)
-		slot2 = slot4
+		slot2 = math.floor(slot2 / 10)
 	end
 
-	slot4 = #slot3
-	slot5 = 1
-	slot6 = -1
-
-	for slot7 = slot4, slot5, slot6 do
-		slot8 = cloneTplTo
-		slot9 = slot0.floatChar
-		slot10 = slot3[slot7]
-		slot9 = slot9[slot10]
-		slot10 = slot1
-
-		slot8(slot9, slot10)
+	for slot7 = #slot3, 1, -1 do
+		cloneTplTo(slot0.floatChar[slot3[slot7]], slot1)
 	end
 end
 
-slot0.formatScore = slot32
-
-function slot32(slot0)
-	slot1 = slot0.hintTimer
-	slot2 = slot1
-	slot1 = slot1.Stop
-
-	slot1(slot2)
+function slot0.update(slot0)
+	slot0.hintTimer:Stop()
 
 	slot1 = true
-	slot2 = true
-	slot0.updating = slot2
-	slot3 = slot0
-	slot2 = slot0.tryMatch
-	slot2 = slot2(slot3)
-	slot3 = next
-	slot4 = slot2
-	slot3 = slot3(slot4)
+	slot0.updating = true
 
-	if slot3 ~= nil then
-		slot4 = slot0
-		slot3 = slot0.cancelHint
-
-		slot3(slot4)
+	if next(slot0:tryMatch()) ~= nil then
+		slot0:cancelHint()
 
 		slot1 = false
-		slot3 = slot0.combo
-		slot3 = slot3 + 1
-		slot0.combo = slot3
-		slot3 = playSoundEffect
-		slot4 = slot0
+		slot0.combo = slot0.combo + 1
 
-		slot3(slot4)
+		playSoundEffect(uv0)
 
 		slot3 = nil
-		slot4 = pairs
-		slot5 = slot2
-		slot4, slot5, slot6 = slot4(slot5)
 
-		for slot7, slot8 in slot4, slot5, slot6 do
-			slot9 = #slot8
+		for slot7, slot8 in pairs(slot2) do
+			slot3 = #slot8 == 3 and 30 * slot0.combo or #slot8 == 4 and 60 * slot0.combo or 20 * #slot8 * slot0.combo
+			slot0.score = slot0.score + slot3
 
-			if slot9 == 3 then
-				slot9 = slot0.combo
-				slot3 = 30 * slot9
-			else
-				slot9 = #slot8
+			setText(slot0.scoreText, slot0.score)
+			_.each(slot8, function (slot0)
+				uv0.tileIndicies[slot0[1]][slot0[2]] = nil
 
-				if slot9 == 4 then
-					slot9 = slot0.combo
-					slot3 = 60 * slot9
-				else
-					slot9 = #slot8
-					slot9 = 20 * slot9
-					slot10 = slot0.combo
-					slot3 = slot9 * slot10
-				end
-			end
-
-			slot9 = slot0.score
-			slot9 = slot9 + slot3
-			slot0.score = slot9
-			slot9 = setText
-			slot10 = slot0.scoreText
-			slot11 = slot0.score
-
-			slot9(slot10, slot11)
-
-			slot9 = Vector2
-			slot9 = slot9.zero
-			slot10 = _
-			slot10 = slot10.each
-			slot11 = slot8
-
-			function slot12(slot0)
-				slot1 = slot0
-				slot1 = slot1.tileIndicies
-				slot2 = slot0[1]
-				slot1 = slot1[slot2]
-				slot2 = slot0[2]
-				slot3 = nil
-				slot1[slot2] = slot3
-				slot1 = slot0
-				slot1 = slot1.tileTfs
-				slot2 = slot0[1]
-				slot1 = slot1[slot2]
-				slot2 = slot0[2]
-				slot1 = slot1[slot2]
-
-				if slot1 then
-					slot1 = slot0
-					slot1 = slot1.tileTfs
-					slot2 = slot0[1]
-					slot1 = slot1[slot2]
-					slot2 = slot0[2]
-					slot1 = slot1[slot2]
-					slot2 = slot1
-					slot3 = slot1.anchoredPosition
-					slot2 = slot2 + slot3
-					slot1 = slot2
-					slot3 = slot1
-					slot2 = slot1.GetComponent
-					slot4 = "Image"
-					slot2 = slot2(slot3, slot4)
-					slot3 = slot0
-					slot3 = slot3.whitenMat
-					slot2.material = slot3
+				if uv0.tileTfs[slot0[1]][slot0[2]] then
+					slot1 = uv0.tileTfs[slot0[1]][slot0[2]]
+					uv1 = uv1 + slot1.anchoredPosition
+					slot1:GetComponent("Image").material = uv0.whitenMat
 					slot2 = slot1.localPosition
-					slot3 = -50
-					slot2.z = slot3
-					slot3 = cloneTplTo
-					slot4 = slot0
-					slot4 = slot4.matchEffect
-					slot5 = slot0
-					slot5 = slot5.tilesRoot
-					slot3 = slot3(slot4, slot5)
-					slot3.localPosition = slot2
-					slot4 = slot0
-					slot5 = slot4
-					slot4 = slot4.managedTween
-					slot6 = LeanTween
-					slot6 = slot6.value
+					slot2.z = -50
+					cloneTplTo(uv0.matchEffect, uv0.tilesRoot).localPosition = slot2
 
-					function slot7()
-						slot0 = Destroy
-						slot1 = slot0
-
-						slot0(slot1)
-
-						slot0 = Destroy
-						slot1 = slot1
-
-						slot0(slot1)
-					end
-
-					slot8 = go
-					slot9 = slot1
-					slot8 = slot8(slot9)
-					slot9 = 1
-					slot10 = 0
-					slot11 = slot2
-					slot4 = slot4(slot5, slot6, slot7, slot8, slot9, slot10, slot11)
-					slot5 = slot4
-					slot4 = slot4.setOnUpdate
-					slot6 = System
-					slot6 = slot6.Action_float
-
-					function slot7(slot0)
-						slot1 = setImageAlpha
-						slot2 = slot0
-						slot3 = slot0
-
-						slot1(slot2, slot3)
-
-						slot1 = setLocalScale
-						slot2 = slot0
-						slot3 = Vector3
-						slot3 = slot3.one
-						slot3 = slot3 * slot0
-						slot3 = slot3 * 2.7
-
-						slot1(slot2, slot3)
-					end
-
-					slot4(slot5, slot6(slot7))
+					uv0:managedTween(LeanTween.value, function ()
+						Destroy(uv0)
+						Destroy(uv1)
+					end, go(slot1), 1, 0, uv2):setOnUpdate(System.Action_float(function (slot0)
+						setImageAlpha(uv0, slot0)
+						setLocalScale(uv0, Vector3.one * slot0 * 2.7)
+					end))
 				end
 
-				slot1 = slot0
-				slot1 = slot1.tileTfs
-				slot2 = slot0[1]
-				slot1 = slot1[slot2]
-				slot2 = slot0[2]
-				slot3 = nil
-				slot1[slot2] = slot3
-			end
+				uv0.tileTfs[slot0[1]][slot0[2]] = nil
+			end)
 
-			slot10(slot11, slot12)
-
-			slot10 = #slot8
-			slot9 = slot9 / slot10
-			slot10 = rtf
-			slot11 = cloneTplTo
-			slot12 = slot0.floatText
-			slot13 = slot0.tilesRoot
-			slot10 = slot10(slot11(slot12, slot13))
+			slot9 = Vector2.zero / #slot8
+			slot10 = rtf(cloneTplTo(slot0.floatText, slot0.tilesRoot))
 			slot10.anchoredPosition = slot9
-			slot12 = slot0
-			slot11 = slot0.formatScore
-			slot13 = slot10
-			slot14 = slot3
 
-			slot11(slot12, slot13, slot14)
-
-			slot12 = slot0
-			slot11 = slot0.managedTween
-			slot13 = LeanTween
-			slot13 = slot13.moveY
-
-			function slot14()
-				slot0 = Destroy
-				slot1 = slot0
-
-				slot0(slot1)
-			end
-
-			slot15 = slot10
-			slot16 = slot9.y
-			slot17 = slot2
-			slot16 = slot16 + slot17
-			slot17 = slot3
-
-			slot11(slot12, slot13, slot14, slot15, slot16, slot17)
+			slot0:formatScore(slot10, slot3)
+			slot0:managedTween(LeanTween.moveY, function ()
+				Destroy(uv0)
+			end, slot10, slot9.y + uv2, uv3)
 		end
 
-		slot5 = slot0
-		slot4 = slot0.managedTween
-		slot6 = LeanTween
-		slot6 = slot6.delayedCall
-
-		function slot7()
-			slot0 = slot0
-			slot0 = slot0.inGame
-
-			if not slot0 then
+		slot0:managedTween(LeanTween.delayedCall, function ()
+			if not uv0.inGame then
 				return
 			end
 
 			slot0 = 0
-			slot1 = 1
-			slot2 = slot1
-			slot3 = 1
 
-			for slot4 = slot1, slot2, slot3 do
-				slot5 = 1
-				slot6 = slot2
-				slot7 = 1
-
-				for slot8 = slot5, slot6, slot7 do
-					slot9 = slot0
-					slot9 = slot9.tileIndicies
-					slot9 = slot9[slot4]
-					slot9 = slot9[slot8]
-
-					if slot9 then
+			for slot4 = 1, uv1 do
+				for slot8 = 1, uv2 do
+					if uv0.tileIndicies[slot4][slot8] then
 						slot9 = slot4
-						slot10 = slot4
-						slot11 = 1
-						slot12 = -1
 
-						for slot13 = slot10, slot11, slot12 do
-							slot14 = slot0
-							slot14 = slot14.tileIndicies
-							slot15 = slot13 - 1
-							slot14 = slot14[slot15]
-							slot14 = slot14[slot8]
-
-							if slot14 or slot13 == 1 then
+						for slot13 = slot4, 1, -1 do
+							if uv0.tileIndicies[slot13 - 1][slot8] or slot13 == 1 then
 								slot9 = slot13
 
 								break
@@ -3111,371 +909,125 @@ function slot32(slot0)
 
 						if slot9 ~= slot4 then
 							slot10 = slot4 - slot9
-							slot11 = math
-							slot11 = slot11.max
-							slot12 = slot10
-							slot13 = slot0
-							slot11 = slot11(slot12, slot13)
-							slot0 = slot11
-							slot11 = slot0
-							slot12 = slot11
-							slot11 = slot11.moveTile
-							slot13 = slot0
-							slot13 = slot13.tileTfs
-							slot13 = slot13[slot4]
-							slot13 = slot13[slot8]
-							slot14 = {
+							slot0 = math.max(slot10, slot0)
+
+							uv0:moveTile(uv0.tileTfs[slot4][slot8], {
 								i = slot9,
 								j = slot8
-							}
-							slot15 = slot0
-							slot15 = slot15.dropTime
-							slot16 = slot10
+							}, uv0.dropTime(slot10))
 
-							slot11(slot12, slot13, slot14, slot15(slot16))
-
-							slot11 = slot0
-							slot11 = slot11.tileTfs
-							slot11 = slot11[slot9]
-							slot12 = slot0
-							slot12 = slot12.tileTfs
-							slot12 = slot12[slot4]
-							slot12 = slot12[slot8]
-							slot11[slot8] = slot12
-							slot11 = slot0
-							slot11 = slot11.tileIndicies
-							slot11 = slot11[slot9]
-							slot12 = slot0
-							slot12 = slot12.tileIndicies
-							slot12 = slot12[slot4]
-							slot12 = slot12[slot8]
-							slot11[slot8] = slot12
-							slot11 = slot0
-							slot11 = slot11.tileTfs
-							slot11 = slot11[slot4]
-							slot12 = nil
-							slot11[slot8] = slot12
-							slot11 = slot0
-							slot11 = slot11.tileIndicies
-							slot11 = slot11[slot4]
-							slot12 = nil
-							slot11[slot8] = slot12
+							uv0.tileTfs[slot9][slot8] = uv0.tileTfs[slot4][slot8]
+							uv0.tileIndicies[slot9][slot8] = uv0.tileIndicies[slot4][slot8]
+							uv0.tileTfs[slot4][slot8] = nil
+							uv0.tileIndicies[slot4][slot8] = nil
 						end
 					end
 				end
 			end
 
-			slot1 = slot0
-			slot2 = slot1
-			slot1 = slot1.fillTileIndicies
+			uv0:fillTileIndicies()
 
-			slot1(slot2)
+			if uv0.combo > 1 and next(uv0:tryMatch()) == nil then
+				slot2 = nil
+				slot3 = Vector3.New(0, 0, -50)
 
-			slot1 = slot0
-			slot2 = slot1
-			slot1 = slot1.tryMatch
-			slot1 = slot1(slot2)
-			slot2 = slot0
-			slot2 = slot2.combo
-			slot3 = 1
+				if uv0.combo == 2 then
+					slot2 = cloneTplTo(uv0.goodEffect, uv0.tilesRoot)
 
-			if slot2 > slot3 then
-				slot2 = next
-				slot3 = slot1
-				slot2 = slot2(slot3)
+					playSoundEffect(uv3)
+				elseif uv0.combo == 3 then
+					slot2 = cloneTplTo(uv0.greatEffect, uv0.tilesRoot)
 
-				if slot2 == nil then
-					slot2 = nil
-					slot3 = Vector3
-					slot3 = slot3.New
-					slot4 = 0
-					slot5 = 0
-					slot6 = -50
-					slot3 = slot3(slot4, slot5, slot6)
-					slot4 = slot0
-					slot4 = slot4.combo
+					playSoundEffect(uv3)
+				else
+					slot2 = cloneTplTo(uv0.perfectEffect, uv0.tilesRoot)
 
-					if slot4 == 2 then
-						slot4 = cloneTplTo
-						slot5 = slot0
-						slot5 = slot5.goodEffect
-						slot6 = slot0
-						slot6 = slot6.tilesRoot
-						slot4 = slot4(slot5, slot6)
-						slot2 = slot4
-						slot4 = playSoundEffect
-						slot5 = slot3
-
-						slot4(slot5)
-					else
-						slot4 = slot0
-						slot4 = slot4.combo
-
-						if slot4 == 3 then
-							slot4 = cloneTplTo
-							slot5 = slot0
-							slot5 = slot5.greatEffect
-							slot6 = slot0
-							slot6 = slot6.tilesRoot
-							slot4 = slot4(slot5, slot6)
-							slot2 = slot4
-							slot4 = playSoundEffect
-							slot5 = slot3
-
-							slot4(slot5)
-						else
-							slot4 = cloneTplTo
-							slot5 = slot0
-							slot5 = slot5.perfectEffect
-							slot6 = slot0
-							slot6 = slot6.tilesRoot
-							slot4 = slot4(slot5, slot6)
-							slot2 = slot4
-							slot4 = playSoundEffect
-							slot5 = slot4
-
-							slot4(slot5)
-						end
-					end
-
-					slot2.localPosition = slot3
-					slot4 = slot0
-					slot5 = slot4
-					slot4 = slot4.managedTween
-					slot6 = LeanTween
-					slot6 = slot6.delayedCall
-
-					function slot7()
-						slot0 = Destroy
-						slot1 = slot0
-
-						slot0(slot1)
-					end
-
-					slot8 = slot5
-					slot9 = nil
-
-					slot4(slot5, slot6, slot7, slot8, slot9)
+					playSoundEffect(uv4)
 				end
+
+				slot2.localPosition = slot3
+
+				uv0:managedTween(LeanTween.delayedCall, function ()
+					Destroy(uv0)
+				end, uv5, nil)
 			end
 
-			slot2 = math
-			slot2 = slot2.max
-			slot3 = slot0
-			slot4 = slot3
-			slot3 = slot3.fillTiles
-			slot3 = slot3(slot4)
-			slot4 = slot0
-			slot2 = slot2(slot3, slot4)
-			slot0 = slot2
-			slot2 = slot0
-			slot3 = slot2
-			slot2 = slot2.managedTween
-			slot4 = LeanTween
-			slot4 = slot4.delayedCall
-
-			function slot5()
-				slot0 = slot0
-				slot0 = slot0.inGame
-
-				if not slot0 then
+			uv0:managedTween(LeanTween.delayedCall, function ()
+				if not uv0.inGame then
 					return
 				end
 
-				slot0 = slot0
-				slot1 = slot0
-				slot0 = slot0.update
-
-				slot0(slot1)
-			end
-
-			slot6 = math
-			slot6 = slot6.max
-			slot7 = slot5
-			slot8 = slot0
-			slot8 = slot8.dropTime
-			slot9 = slot0
-			slot6 = slot6(slot7, slot8(slot9))
-			slot7 = nil
-
-			slot2(slot3, slot4, slot5, slot6, slot7)
-		end
-
-		slot8 = slot1
-		slot9 = nil
-
-		slot4(slot5, slot6, slot7, slot8, slot9)
+				uv0:update()
+			end, math.max(uv5, uv0.dropTime(math.max(uv0:fillTiles(), slot0))), nil)
+		end, uv1, nil)
 	end
 
-	slot3 = slot0.inGame
-
-	if slot3 then
-		slot3 = slot0.hintTimer
-		slot4 = slot3
-		slot3 = slot3.Reset
-		slot5 = slot0.hintFunc
-		slot6 = slot9
-
-		slot3(slot4, slot5, slot6)
-
-		slot3 = slot0.hintTimer
-		slot4 = slot3
-		slot3 = slot3.Start
-
-		slot3(slot4)
+	if slot0.inGame then
+		slot0.hintTimer:Reset(slot0.hintFunc, uv9)
+		slot0.hintTimer:Start()
 	end
 
-	slot3 = not slot1
-	slot0.updating = slot3
+	slot0.updating = not slot1
 end
 
-slot0.update = slot32
-
-function slot32(slot0)
-	slot1 = {}
-	slot2 = 1
-	slot3 = slot0
-	slot4 = 1
-
-	for slot5 = slot2, slot3, slot4 do
-		slot6 = {}
-		slot1[slot5] = slot6
+function slot0.tryMatch(slot0)
+	for slot5 = 1, uv0 do
 	end
 
-	slot3 = slot0
-	slot2 = slot0.bfs
-	slot4 = slot1
-
-	return slot2(slot3, slot4)
+	return slot0:bfs({
+		[slot5] = {}
+	})
 end
 
-slot0.tryMatch = slot32
-
-function slot32(slot0, slot1)
+function slot0.bfs(slot0, slot1)
 	slot2 = {}
-	slot3 = 1
-	slot4 = slot0
-	slot5 = 1
 
-	for slot6 = slot3, slot4, slot5 do
-		slot7 = 1
-		slot8 = slot1
-		slot9 = 1
-
-		for slot10 = slot7, slot8, slot9 do
-			slot11 = slot1[slot6]
-			slot11 = slot11[slot10]
-
-			if not slot11 then
-				slot12 = slot0
-				slot11 = slot0.isConnected
-				slot13 = {
+	for slot6 = 1, uv0 do
+		for slot10 = 1, uv1 do
+			if not slot1[slot6][slot10] then
+				if not slot0:isConnected({
 					i = slot6,
 					j = slot10
-				}
-				slot11 = slot11(slot12, slot13)
-
-				if not slot11 then
-					slot11 = slot1[slot6]
-					slot12 = true
-					slot11[slot10] = slot12
+				}) then
+					slot1[slot6][slot10] = true
 				else
-					slot11 = {}
+					slot11 = {
+						{
+							slot6,
+							slot10
+						}
+					}
 					slot12 = {
-						slot6,
-						slot10
+						{
+							slot6,
+							slot10
+						}
 					}
-					slot11[1] = slot12
-					slot12 = {}
-					slot13 = {
-						slot6,
-						slot10
-					}
-					slot12[1] = slot13
-					slot13 = slot0.tileIndicies
-					slot13 = slot13[slot6]
-					slot13 = slot13[slot10]
-					slot14 = next
-					slot15 = slot11
-					slot14 = slot14(slot15)
+					slot13 = slot0.tileIndicies[slot6][slot10]
 
-					while slot14 ~= nil do
-						slot14 = unpack
-						slot15 = table
-						slot15 = slot15.remove
-						slot16 = slot11
-						slot14, slot15 = slot14(slot15(slot16))
-						slot16 = slot1[slot14]
-						slot17 = true
-						slot16[slot15] = slot17
-						slot16 = pairs
-						slot17 = slot2
-						slot16, slot17, slot18 = slot16(slot17)
+					while next(slot11) ~= nil do
+						slot14, slot15 = unpack(table.remove(slot11))
+						slot1[slot14][slot15] = true
 
-						for slot19, slot20 in slot16, slot17, slot18 do
-							slot21 = slot20[1]
-							slot21 = slot14 + slot21
-							slot22 = slot20[2]
-							slot22 = slot15 + slot22
-							slot23 = slot0.tileIndicies
-							slot23 = slot23[slot21]
-							slot23 = slot23[slot22]
-
-							if slot23 then
-								slot23 = slot1[slot21]
-								slot23 = slot23[slot22]
-
-								if not slot23 then
-									slot23 = slot0.tileIndicies
-									slot23 = slot23[slot21]
-									slot23 = slot23[slot22]
-
-									if slot23 == slot13 then
-										slot24 = slot0
-										slot23 = slot0.isConnected
-										slot25 = {
-											i = slot21,
-											j = slot22
-										}
-										slot23 = slot23(slot24, slot25)
-
-										if slot23 then
-											slot23 = table
-											slot23 = slot23.insert
-											slot24 = slot11
-											slot25 = {
-												slot21,
-												slot22
-											}
-
-											slot23(slot24, slot25)
-
-											slot23 = table
-											slot23 = slot23.insert
-											slot24 = slot12
-											slot25 = {
-												slot21,
-												slot22
-											}
-
-											slot23(slot24, slot25)
-										end
-									end
-								end
+						for slot19, slot20 in pairs(uv2) do
+							if slot0.tileIndicies[slot14 + slot20[1]][slot15 + slot20[2]] and not slot1[slot21][slot22] and slot0.tileIndicies[slot21][slot22] == slot13 and slot0:isConnected({
+								i = slot21,
+								j = slot22
+							}) then
+								table.insert(slot11, {
+									slot21,
+									slot22
+								})
+								table.insert(slot12, {
+									slot21,
+									slot22
+								})
 							end
 						end
 					end
 
-					slot14 = #slot12
-					slot15 = 3
-
-					if slot14 >= slot15 then
-						slot14 = table
-						slot14 = slot14.insert
-						slot15 = slot2
-						slot16 = slot12
-
-						slot14(slot15, slot16)
+					if #slot12 >= 3 then
+						table.insert(slot2, slot12)
 					end
 				end
 			end
@@ -3484,7 +1036,5 @@ function slot32(slot0, slot1)
 
 	return slot2
 end
-
-slot0.bfs = slot32
 
 return slot0

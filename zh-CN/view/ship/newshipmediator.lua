@@ -7,29 +7,30 @@ slot0.ON_SKIP_BATCH = "NewShipMediator:ON_SKIP_BATCH"
 slot0.OPEN = "NewShipMediator:OPEN"
 
 function slot0.register(slot0)
+	slot1 = slot0.contextData.ship
 	slot0.fromRemould = slot0.contextData.fromRemould
-	slot0.showTrans = slot0.contextData.ship.isRemoulded(slot1)
+	slot0.showTrans = slot1:isRemoulded()
 
 	slot0.viewComponent:setShip(slot1)
-	slot0:bind(slot0.ON_EXIT, function (slot0, slot1, slot2)
-		slot0:sendNotification(slot0.contextData.onExit or GAME.REMOVE_LAYERS, {
-			context = getProxy(ContextProxy).getCurrentContext(slot3).getContextByMediator(slot4, slot0.class)
+	slot0:bind(uv0.ON_EXIT, function (slot0, slot1, slot2)
+		uv0:sendNotification(uv0.contextData.onExit or GAME.REMOVE_LAYERS, {
+			context = getProxy(ContextProxy):getCurrentContext():getContextByMediator(uv0.class)
 		})
 	end)
-	slot0:bind(slot0.ON_SKIP_BATCH, function (slot0, slot1, slot2)
+	slot0:bind(uv0.ON_SKIP_BATCH, function (slot0, slot1, slot2)
 		getProxy(BuildShipProxy):setSkipBatchBuildFlag(true)
-		slot0:sendNotification(slot0.contextData.onExit or GAME.REMOVE_LAYERS, {
-			context = getProxy(ContextProxy).getCurrentContext(slot3).getContextByMediator(slot4, slot0.class)
+		uv0:sendNotification(uv0.contextData.onExit or GAME.REMOVE_LAYERS, {
+			context = getProxy(ContextProxy):getCurrentContext():getContextByMediator(uv0.class)
 		})
 	end)
-	slot0:bind(slot0.ON_LOCK, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.UPDATE_LOCK, {
+	slot0:bind(uv0.ON_LOCK, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.UPDATE_LOCK, {
 			ship_id_list = slot1,
 			is_locked = slot2
 		})
 	end)
-	slot0:bind(slot0.ON_SKILLINFO, function (slot0, slot1, slot2, slot3)
-		slot0:addSubLayers(Context.New({
+	slot0:bind(uv0.ON_SKILLINFO, function (slot0, slot1, slot2, slot3)
+		uv0:addSubLayers(Context.New({
 			mediator = SkillInfoMediator,
 			viewComponent = SkillInfoLayer,
 			data = {
@@ -40,10 +41,10 @@ function slot0.register(slot0)
 			}
 		}))
 	end)
-	slot0:bind(slot0.ON_EVALIATION, function (slot0, slot1)
-		slot0:sendNotification(GAME.FETCH_EVALUATION, slot1)
+	slot0:bind(uv0.ON_EVALIATION, function (slot0, slot1)
+		uv0:sendNotification(GAME.FETCH_EVALUATION, slot1)
 	end)
-	slot0:sendNotification(slot0.OPEN, {})
+	slot0:sendNotification(uv0.OPEN, {})
 end
 
 function slot0.listNotificationInterests(slot0)

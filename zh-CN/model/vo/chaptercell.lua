@@ -12,10 +12,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.item = nil
 	slot0.itemOffset = Vector2(0, 0)
 	slot0.flagList = {}
-	slot2 = ipairs
-	slot3 = slot1.flag_list or {}
 
-	for slot5, slot6 in slot2(slot3) do
+	for slot5, slot6 in ipairs(slot1.flag_list or {}) do
 		table.insert(slot0.flagList, slot6)
 	end
 
@@ -23,16 +21,16 @@ function slot0.Ctor(slot0, slot1)
 		slot2 = {}
 
 		_.each(slot1.item_state, function (slot0)
-			slot0[slot0.id] = slot0.hp_rant
+			uv0[slot0.id] = slot0.hp_rant
 		end)
 
 		slot3 = ShamRival.New(slot1.item_info)
 
 		_.each(slot3.vanguardShips, function (slot0)
-			slot0.hpRant = slot0[slot0.id] or 10000
+			slot0.hpRant = uv0[slot0.id] or 10000
 		end)
 		_.each(slot3.mainShips, function (slot0)
-			slot0.hpRant = slot0[slot0.id] or 10000
+			slot0.hpRant = uv0[slot0.id] or 10000
 		end)
 
 		slot0.rival = slot3
@@ -76,8 +74,8 @@ end
 function slot0.LineAround(slot0, slot1, slot2)
 	slot3 = {}
 
-	for slot7 = -slot2, slot2, 1 do
-		for slot11 = -slot2, slot2, 1 do
+	for slot7 = -slot2, slot2 do
+		for slot11 = -slot2, slot2 do
 			if slot2 >= math.abs(slot7) + math.abs(slot11) then
 				table.insert(slot3, {
 					row = slot0 + slot7,

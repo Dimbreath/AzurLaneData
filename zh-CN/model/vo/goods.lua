@@ -28,11 +28,11 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.bindConfigTable(slot0)
-	if slot0.type == slot0.TYPE_CHARGE then
+	if slot0.type == uv0.TYPE_CHARGE then
 		return pg.pay_data_display
-	elseif slot0.type == slot0.TYPE_ACTIVITY or slot0.type == slot0.TYPE_SHAM_BATTLE or slot0.type == slot0.TYPE_FRAGMENT or slot0.type == slot0.TYPE_ESCORT then
+	elseif slot0.type == uv0.TYPE_ACTIVITY or slot0.type == uv0.TYPE_SHAM_BATTLE or slot0.type == uv0.TYPE_FRAGMENT or slot0.type == uv0.TYPE_ESCORT then
 		return pg.activity_shop_template
-	elseif slot0.type == slot0.TYPE_ACTIVITY_EXTRA then
+	elseif slot0.type == uv0.TYPE_ACTIVITY_EXTRA then
 		return pg.activity_shop_extra
 	else
 		return pg.shop_template
@@ -40,7 +40,7 @@ function slot0.bindConfigTable(slot0)
 end
 
 function slot0.isChargeType(slot0)
-	return slot0.type == slot0.TYPE_CHARGE
+	return slot0.type == uv0.TYPE_CHARGE
 end
 
 function slot0.reduceBuyCount(slot0)
@@ -72,15 +72,18 @@ function slot0.canPurchase(slot0)
 		end
 
 		if slot0:getConfig("commodity_type") == DROP_TYPE_SKIN then
-			slot3 = pg.ship_skin_template[slot0:getConfig("commodity_id")]
+			slot2 = slot0:getConfig("commodity_id")
+			slot3 = pg.ship_skin_template[slot2]
 
-			if getProxy(ShipSkinProxy):hasSkin(slot0.getConfig("commodity_id")) then
+			if getProxy(ShipSkinProxy):hasSkin(slot2) then
 				return false, i18n("common_already owned")
 			end
 
 			return slot0.buyCount < slot0:getConfig("num_limit")
 		elseif slot1 == DROP_TYPE_FURNITURE then
-			return getProxy(DormProxy):getFurnitrueCount(slot2) < pg.furniture_data_template[slot0:getConfig("commodity_id")].count and slot0.buyCount < slot0:getConfig("num_limit")
+			slot2 = slot0:getConfig("commodity_id")
+
+			return getProxy(DormProxy):getFurnitrueCount(slot2) < pg.furniture_data_template[slot2].count and slot0.buyCount < slot0:getConfig("num_limit")
 		else
 			return slot0.buyCount < slot0:getConfig("num_limit")
 		end
@@ -92,7 +95,7 @@ function slot0.hasDiscount(slot0)
 end
 
 function slot0.isDisCount(slot0)
-	if slot0.type ~= slot0.TYPE_CHARGE and slot0.type ~= slot0.TYPE_ACTIVITY and slot0.type ~= slot0.TYPE_ACTIVITY_EXTRA and slot0.type ~= slot0.TYPE_SHAM_BATTLE and slot0.type ~= slot0.TYPE_FRAGMENT and slot0.type ~= slot0.TYPE_ESCORT then
+	if slot0.type ~= uv0.TYPE_CHARGE and slot0.type ~= uv0.TYPE_ACTIVITY and slot0.type ~= uv0.TYPE_ACTIVITY_EXTRA and slot0.type ~= uv0.TYPE_SHAM_BATTLE and slot0.type ~= uv0.TYPE_FRAGMENT and slot0.type ~= slot0.TYPE_ESCORT then
 		slot2 = true
 
 		if table.getCount(slot0:getConfig("discount_time")) ~= 0 then
@@ -116,7 +119,7 @@ function slot0.isLevelLimit(slot0, slot1, slot2)
 end
 
 function slot0.getLevelLimit(slot0)
-	for slot5, slot6 in ipairs(slot1) do
+	for slot5, slot6 in ipairs(slot0:getConfig("limit_args")) do
 		if slot6[1] == "level" then
 			return slot6[2], slot6[3]
 		end
@@ -138,29 +141,29 @@ function slot0.hasExtraGem(slot0)
 end
 
 function slot0.isGiftBox(slot0)
-	return slot0:getConfig("extra_service") == slot0.GIFT_BOX
+	return slot0:getConfig("extra_service") == uv0.GIFT_BOX
 end
 
 function slot0.isMonthCard(slot0)
-	return slot0:getConfig("extra_service") == slot0.MONTH_CARD
+	return slot0:getConfig("extra_service") == uv0.MONTH_CARD
 end
 
 function slot0.isGem(slot0)
-	return slot0:getConfig("extra_service") == slot0.GEM
+	return slot0:getConfig("extra_service") == uv0.GEM
 end
 
 function slot0.isItemBox(slot0)
-	return slot0:getConfig("extra_service") == slot0.ITEM_BOX
+	return slot0:getConfig("extra_service") == uv0.ITEM_BOX
 end
 
 function slot0.isGiftPackage(slot0)
-	return slot0.type == slot0.TYPE_GIFT_PACKAGE
+	return slot0.type == uv0.TYPE_GIFT_PACKAGE
 end
 
 function slot0.getSkinId(slot0)
-	if slot0.type == slot0.TYPE_ACTIVITY_EXTRA or slot0.type == slot0.TYPE_ACTIVITY then
+	if slot0.type == uv0.TYPE_ACTIVITY_EXTRA or slot0.type == uv0.TYPE_ACTIVITY then
 		return slot0:getConfig("commodity_id")
-	elseif slot0.type == slot0.TYPE_SKIN then
+	elseif slot0.type == uv0.TYPE_SKIN then
 		return slot0:getConfig("effect_args")[1]
 	end
 end
@@ -170,12 +173,10 @@ function slot0.getKey(slot0)
 end
 
 function slot0.getLimitCount(slot0)
-	if slot0.type == slot0.TYPE_CHARGE then
+	if slot0.type == uv0.TYPE_CHARGE then
 		return slot0:getConfig("limit_arg")
 	else
-		slot1 = slot0:getConfig("limit_args") or {}
-
-		for slot5, slot6 in ipairs(slot1) do
+		for slot5, slot6 in ipairs(slot0:getConfig("limit_args") or {}) do
 			if slot6[1] == "time" then
 				return slot6[2]
 			end

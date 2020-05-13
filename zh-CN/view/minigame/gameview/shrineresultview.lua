@@ -19,7 +19,6 @@ function slot0.OnDestroy(slot0)
 end
 
 function slot0.initData(slot0)
-	return
 end
 
 function slot0.initUI(slot0)
@@ -31,7 +30,7 @@ function slot0.initUI(slot0)
 	slot0.buffImg_3 = slot0:findTF("Main/MainBox/Buff_3")
 
 	onButton(slot0, slot0.bg, function ()
-		slot0:Destroy()
+		uv0:Destroy()
 	end, SFX_CANCEL)
 end
 

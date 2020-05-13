@@ -1,6 +1,8 @@
-class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0, slot1)
+slot0 = class("ChapterOpCommand", import(".ChapterOpRoutine"))
+
+function slot0.execute(slot0, slot1)
 	if slot1:getBody().type == ChapterConst.OpSwitch then
-		for slot8, slot9 in ipairs(getProxy(ChapterProxy).getActiveChapter(slot3).fleets) do
+		for slot8, slot9 in ipairs(getProxy(ChapterProxy):getActiveChapter().fleets) do
 			if slot9.id == slot2.id then
 				slot4.findex = slot8
 
@@ -16,10 +18,11 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 
 		return
 	elseif slot2.type == ChapterConst.OpSkipBattle then
-		slot4 = getProxy(ChapterProxy).getActiveChapter(slot3)
+		slot4 = getProxy(ChapterProxy):getActiveChapter()
+		slot6 = slot4.fleet.line
 		slot7 = nil
 
-		if slot4:existChampion(slot4.fleet.line.row, slot4.fleet.line.column) then
+		if slot4:existChampion(slot6.row, slot6.column) then
 			slot8 = slot4:getChampion(slot6.row, slot6.column)
 
 			slot8:Iter()
@@ -75,98 +78,100 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 		act_arg_2 = slot2.arg2
 	}, 13104, function (slot0)
 		if slot0.result == 0 then
-			slot0:initData(false, slot0, getProxy(ChapterProxy).getActiveChapter(slot2))
-			slot0:doDropUpdate()
+			slot1 = false
 
-			if slot0.chapter then
-				slot0:doMapUpdate()
-				slot0:doAIUpdate()
-				slot0:doShipUpdate()
-				slot0:doBuffUpdate()
-				slot0:doCellFlagUpdate()
-				slot0:doExtraFlagUpdate()
+			uv0:initData(uv1, slot0, getProxy(ChapterProxy):getActiveChapter())
+			uv0:doDropUpdate()
 
-				if slot1.type == ChapterConst.OpRetreat then
-					if slot3:getPlayType() == ChapterConst.TypeMainSub and (slot1.win or not slot3:isValid()) then
-						slot3:retreat(slot1.win)
+			if uv0.chapter then
+				uv0:doMapUpdate()
+				uv0:doAIUpdate()
+				uv0:doShipUpdate()
+				uv0:doBuffUpdate()
+				uv0:doCellFlagUpdate()
+				uv0:doExtraFlagUpdate()
+
+				if uv1.type == ChapterConst.OpRetreat then
+					if slot3:getPlayType() == ChapterConst.TypeMainSub and (uv1.win or not slot3:isValid()) then
+						slot3:retreat(uv1.win)
 						slot3:clearSubChapter()
 						slot2:updateChapter(slot3)
-						slot0:sendNotification(GAME.CHAPTER_OP_DONE, {
-							type = slot1.type,
-							win = slot1.win
+						uv0:sendNotification(GAME.CHAPTER_OP_DONE, {
+							type = uv1.type,
+							win = uv1.win
 						})
 
 						return
 					end
 
-					slot0:doRetreat()
-				elseif slot1.type == ChapterConst.OpMove then
-					slot0:doCollectAI()
-					slot0:doMove()
-				elseif slot1.type == ChapterConst.OpBox then
-					slot0:doCollectAI()
-					slot0:doOpenBox()
-				elseif slot1.type == ChapterConst.OpStory then
-					slot0:doCollectAI()
-					slot0:doPlayStory()
-				elseif slot1.type == ChapterConst.OpAmbush then
-					slot0:doAmbush()
-				elseif slot1.type == ChapterConst.OpStrategy then
-					slot0:doCollectAI()
-					slot0:doStrategy()
-				elseif slot1.type == ChapterConst.OpRepair then
-					slot0:doRepair()
-				elseif slot1.type == ChapterConst.OpSupply then
-					slot0:doSupply()
-				elseif slot1.type == ChapterConst.OpEnemyRound then
-					slot0:doCollectAI()
-					slot0:doEnemyRound()
-				elseif slot1.type == ChapterConst.OpSubState then
-					slot0:doSubState()
-				elseif slot1.type == ChapterConst.OpBarrier then
-					slot0:doBarrier()
-				elseif slot1.type == ChapterConst.OpRequest then
-					slot0:doRequest()
-				elseif slot1.type == ChapterConst.OpSkipBattle then
-					slot0:doSkipBattle()
-				elseif slot1.type == ChapterConst.OpSubTeleport then
-					slot0:doTeleportSub()
+					uv0:doRetreat()
+				elseif uv1.type == ChapterConst.OpMove then
+					uv0:doCollectAI()
+					uv0:doMove()
+				elseif uv1.type == ChapterConst.OpBox then
+					uv0:doCollectAI()
+					uv0:doOpenBox()
+				elseif uv1.type == ChapterConst.OpStory then
+					uv0:doCollectAI()
+					uv0:doPlayStory()
+				elseif uv1.type == ChapterConst.OpAmbush then
+					uv0:doAmbush()
+				elseif uv1.type == ChapterConst.OpStrategy then
+					uv0:doCollectAI()
+					uv0:doStrategy()
+				elseif uv1.type == ChapterConst.OpRepair then
+					uv0:doRepair()
+				elseif uv1.type == ChapterConst.OpSupply then
+					uv0:doSupply()
+				elseif uv1.type == ChapterConst.OpEnemyRound then
+					uv0:doCollectAI()
+					uv0:doEnemyRound()
+				elseif uv1.type == ChapterConst.OpSubState then
+					uv0:doSubState()
+				elseif uv1.type == ChapterConst.OpBarrier then
+					uv0:doBarrier()
+				elseif uv1.type == ChapterConst.OpRequest then
+					uv0:doRequest()
+				elseif uv1.type == ChapterConst.OpSkipBattle then
+					uv0:doSkipBattle()
+				elseif uv1.type == ChapterConst.OpSubTeleport then
+					uv0:doTeleportSub()
 				end
 
-				if slot1.type ~= ChapterConst.OpEnemyRound and slot1.type ~= ChapterConst.OpMove then
-					slot0.flag = bit.bor(slot0.flag, slot0.extraFlag)
+				if uv1.type ~= ChapterConst.OpEnemyRound and uv1.type ~= ChapterConst.OpMove then
+					uv0.flag = bit.bor(uv0.flag, uv0.extraFlag)
 				end
 
-				slot2:updateChapter(slot0.chapter, slot0.flag)
-				slot0:sendNotification(GAME.CHAPTER_OP_DONE, {
-					type = slot1.type,
-					id = slot1.id,
-					arg1 = slot1.arg1,
-					arg2 = slot1.arg2,
+				slot2:updateChapter(uv0.chapter, uv0.flag)
+				uv0:sendNotification(GAME.CHAPTER_OP_DONE, {
+					type = uv1.type,
+					id = uv1.id,
+					arg1 = uv1.arg1,
+					arg2 = uv1.arg2,
 					path = slot0.move_path,
-					fullpath = slot0.fullpath,
-					items = slot0.items,
-					exittype = slot1.exittype or 0,
-					aiActs = slot0.aiActs,
-					extraFlag = slot0.extraFlag or 0,
-					oldLine = slot1.ordLine,
+					fullpath = uv0.fullpath,
+					items = uv0.items,
+					exittype = uv1.exittype or 0,
+					aiActs = uv0.aiActs,
+					extraFlag = uv0.extraFlag or 0,
+					oldLine = uv1.ordLine,
 					extraFlagRemoveList = slot0.del_flag_list,
 					extraFlagAddList = slot0.add_flag_list,
-					win = slot1.win
+					win = uv1.win
 				})
 			end
 		else
-			warning(string.format("SLG操作%d 请求失效，重新拉取信息", slot1.type))
+			warning(string.format("SLG操作%d 请求失效，重新拉取信息", uv1.type))
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("levelScene_operation", slot0.result))
 
-			if pg.TipsMgr.GetInstance().ShowTips.type ~= ChapterConst.OpRequest and slot1.type ~= ChapterConst.OpRetreat and slot1.type ~= ChapterConst.OpSubTeleport then
-				slot0:sendNotification(GAME.CHAPTER_OP, {
+			if uv1.type ~= ChapterConst.OpRequest and uv1.type ~= ChapterConst.OpRetreat and uv1.type ~= ChapterConst.OpSubTeleport then
+				uv0:sendNotification(GAME.CHAPTER_OP, {
 					type = ChapterConst.OpRequest,
-					id = slot1.id
+					id = uv1.id
 				})
 			end
 		end
 	end)
 end
 
-return class("ChapterOpCommand", import(".ChapterOpRoutine"))
+return slot0

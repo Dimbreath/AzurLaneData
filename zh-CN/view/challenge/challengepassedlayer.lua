@@ -25,10 +25,10 @@ function slot0.didEnter(slot0)
 	slot0:updateSlider(slot0.curIndex)
 	slot0:moveSlider(slot0.curIndex)
 	onButton(slot0, slot0._tf, function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end)
 	slot0._tf:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end)
 end
 
@@ -62,7 +62,7 @@ function slot0.findUI(slot0)
 end
 
 function slot0.initData(slot0)
-	slot0.curIndex = getProxy(ChallengeProxy):getUserChallengeInfo(slot1).getLevel(slot2)
+	slot0.curIndex = getProxy(ChallengeProxy):getUserChallengeInfo(slot0.contextData.mode):getLevel()
 
 	if slot0.curIndex % ChallengeConst.BOSS_NUM == 0 then
 		slot3 = ChallengeConst.BOSS_NUM
@@ -71,21 +71,25 @@ function slot0.initData(slot0)
 	slot5 = slot2:getDungeonIDList()[slot3]
 	slot6 = 0
 
-	if slot1 == ChallengeProxy.MODE_CASUAL and slot3 ~= ChallengeConst.BOSS_NUM then
-		slot6 = slot4[slot3 + 1]
+	if slot1 == ChallengeProxy.MODE_CASUAL then
+		if slot3 ~= ChallengeConst.BOSS_NUM then
+			slot6 = slot4[slot3 + 1]
+		end
+	else
+		slot6 = (slot3 ~= ChallengeConst.BOSS_NUM or slot2:getNextInfiniteDungeonIDList()[1]) and slot4[slot3 + 1]
 	end
 
 	slot0.paintingName = pg.expedition_challenge_template[slot5].char_icon[1]
 
-	if ((slot3 ~= ChallengeConst.BOSS_NUM or slot2:getNextInfiniteDungeonIDList()[1]) and slot4[slot3 + 1]) ~= 0 then
+	if slot6 ~= 0 then
 		slot0.paintingNamemNext = pg.expedition_challenge_template[slot6].char_icon[1]
 	end
 end
 
 function slot0.addListener(slot0)
 	onButton(slot0, slot0._tf, function ()
-		LeanTween.cancel(go(slot0.slider))
-		LeanTween.cancel:emit(slot1.ON_CLOSE)
+		LeanTween.cancel(go(uv0.slider))
+		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 end
 
@@ -94,108 +98,105 @@ function slot0.updatePainting(slot0, slot1, slot2, slot3, slot4)
 		slot0.material:SetFloat("_LineGray", 0.3)
 		slot0.material:SetFloat("_TearDistance", 0)
 		LeanTween.cancel(slot0.gameObject)
-		table.insert(slot0.tweenObjs, slot0.gameObject)
+		table.insert(uv0.tweenObjs, slot0.gameObject)
 		LeanTween.value(slot0.gameObject, 0, 2, 2):setLoopClamp():setOnUpdate(System.Action_float(function (slot0)
 			if slot0 >= 1.2 then
-				slot0.material:SetFloat("_LineGray", 0.3)
+				uv0.material:SetFloat("_LineGray", 0.3)
 			elseif slot0 >= 1.1 then
-				slot0.material:SetFloat("_LineGray", 0.45)
+				uv0.material:SetFloat("_LineGray", 0.45)
 			elseif slot0 >= 1.03 then
-				slot0.material:SetFloat("_TearDistance", 0)
+				uv0.material:SetFloat("_TearDistance", 0)
 			elseif slot0 >= 1 then
-				slot0.material:SetFloat("_TearDistance", 0.3)
+				uv0.material:SetFloat("_TearDistance", 0.3)
 			elseif slot0 >= 0.35 then
-				slot0.material:SetFloat("_LineGray", 0.3)
+				uv0.material:SetFloat("_LineGray", 0.3)
 			elseif slot0 >= 0.3 then
-				slot0.material:SetFloat("_LineGray", 0.4)
+				uv0.material:SetFloat("_LineGray", 0.4)
 			elseif slot0 >= 0.25 then
-				slot0.material:SetFloat("_LineGray", 0.3)
+				uv0.material:SetFloat("_LineGray", 0.3)
 			elseif slot0 >= 0.2 then
-				slot0.material:SetFloat("_LineGray", 0.4)
+				uv0.material:SetFloat("_LineGray", 0.4)
 			end
 		end))
 	end
 
 	setPaintingPrefabAsync(slot2, slot1, "chuanwu", function ()
-		if slot0:findTF("fitter", slot0):GetChild(0) then
+		if uv0:findTF("fitter", uv1):GetChild(0) then
 			slot1 = GetComponent(slot0, "MeshImage")
 
-			if slot0 then
-				slot1.material = slot0.material1
+			if uv2 then
+				slot1.material = uv0.material1
 
 				slot1.material:SetFloat("_LineDensity", 7)
-				slot1:material()
+				uv3(slot1)
 			end
 		end
 	end)
 	setPaintingPrefabAsync(slot3, slot1, "chuanwu", function ()
-		if slot0:findTF("fitter", slot0):GetChild(0) then
+		if uv0:findTF("fitter", uv1):GetChild(0) then
 			slot0:GetComponent("Image").color = Color.New(1, 1, 1, 0.15)
 		end
 
-		slot1.localScale = Vector3(2.2, 2.2, 1)
+		uv1.localScale = Vector3(2.2, 2.2, 1)
 	end)
 end
 
 function slot0.updateSlider(slot0, slot1)
 	if ChallengeConst.BOSS_NUM < (slot1 or slot0.curIndex) then
-		slot0.sliderSC.value = (((slot2 % ChallengeConst.BOSS_NUM == 0 and ChallengeConst.BOSS_NUM) or slot2 % ChallengeConst.BOSS_NUM) - 1) * 1 / (ChallengeConst.BOSS_NUM - 1)
-
-		slot0.squareList:make(function (slot0, slot1, slot2)
-			slot3 = slot0:findTF("UnFinished", slot2)
-			slot4 = slot0:findTF("Finished", slot2)
-			slot5 = slot0:findTF("Challengeing", slot2)
-			slot6 = slot0:findTF("Arrow", slot2)
-
-			function slot7()
-				setActive(setActive, true)
-				setActive(setActive, false)
-				setActive(false, false)
-			end
-
-			function slot8()
-				setActive(setActive, false)
-				setActive(setActive, true)
-				setActive(true, false)
-			end
-
-			function slot9()
-				setActive(setActive, false)
-				setActive(setActive, false)
-				setActive(false, true)
-			end
-
-			if slot0 == UIItemList.EventUpdate then
-				if slot1 + 1 < slot1 then
-					setActive(slot6, false)
-					slot7()
-				elseif slot1 + 1 == slot1 then
-					setActive(slot6, true)
-					slot9()
-				elseif slot1 < slot1 + 1 then
-					setActive(slot6, false)
-					slot8()
-				end
-			end
-		end)
-		slot0.squareList:align(ChallengeConst.BOSS_NUM)
-
-		return
+		slot2 = slot2 % ChallengeConst.BOSS_NUM == 0 and ChallengeConst.BOSS_NUM or slot2 % ChallengeConst.BOSS_NUM
 	end
+
+	slot0.sliderSC.value = (slot2 - 1) * 1 / (ChallengeConst.BOSS_NUM - 1)
+
+	slot0.squareList:make(function (slot0, slot1, slot2)
+		slot3 = uv0:findTF("UnFinished", slot2)
+		slot4 = uv0:findTF("Finished", slot2)
+		slot5 = uv0:findTF("Challengeing", slot2)
+
+		function slot8()
+			setActive(uv0, false)
+			setActive(uv1, true)
+			setActive(uv2, false)
+		end
+
+		function slot9()
+			setActive(uv0, false)
+			setActive(uv1, false)
+			setActive(uv2, true)
+		end
+
+		if slot0 == UIItemList.EventUpdate then
+			if slot1 + 1 < uv1 then
+				setActive(uv0:findTF("Arrow", slot2), false)
+				function ()
+					setActive(uv0, true)
+					setActive(uv1, false)
+					setActive(uv2, false)
+				end()
+			elseif slot1 + 1 == uv1 then
+				setActive(slot6, true)
+				slot9()
+			elseif uv1 < slot1 + 1 then
+				setActive(slot6, false)
+				slot8()
+			end
+		end
+	end)
+	slot0.squareList:align(ChallengeConst.BOSS_NUM)
 end
 
 function slot0.moveSlider(slot0, slot1)
 	if ChallengeConst.BOSS_NUM < (slot1 or slot0.curIndex) then
-		slot2 = (slot2 % ChallengeConst.BOSS_NUM == 0 and ChallengeConst.BOSS_NUM) or slot2 % ChallengeConst.BOSS_NUM
-
-		LeanTween.value(go(slot0.slider), slot4, slot5, slot0.GROW_TIME):setDelay(1.4):setOnUpdate(System.Action_float(function (slot0)
-			slot0.sliderSC.value = slot0
-		end)):setOnComplete(System.Action(function ()
-			slot0:updateSlider(slot1 + 1)
-		end))
-
-		return
+		slot2 = slot2 % ChallengeConst.BOSS_NUM == 0 and ChallengeConst.BOSS_NUM or slot2 % ChallengeConst.BOSS_NUM
 	end
+
+	slot3 = 1 / (ChallengeConst.BOSS_NUM - 1)
+
+	LeanTween.value(go(slot0.slider), (slot2 - 1) * slot3, slot2 * slot3, uv0.GROW_TIME):setDelay(1.4):setOnUpdate(System.Action_float(function (slot0)
+		uv0.sliderSC.value = slot0
+	end)):setOnComplete(System.Action(function ()
+		uv0:updateSlider(uv1 + 1)
+	end))
 end
 
 return slot0

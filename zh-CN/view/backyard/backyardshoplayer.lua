@@ -7,9 +7,9 @@ end
 
 function slot0.preload(slot0, slot1)
 	PoolMgr.GetInstance():GetUI("BackYardIndexUI", true, function (slot0)
-		slot0.filterTF = tf(slot0)
+		uv0.filterTF = tf(slot0)
 
-		slot0()
+		uv1()
 	end)
 end
 
@@ -35,26 +35,16 @@ slot2 = {
 }
 
 function slot0.SORT_FURNITURE_FUNC(slot0, slot1, slot2, slot3)
-	slot3 = slot3 or 1
-
-	if ((slot0:getConfig("gem_price") > 0 and slot0:getConfig("dorm_icon_price") <= 0 and 2) or (slot0:getConfig("gem_price") > 0 and 1) or 0) == ((slot1:getConfig("gem_price") > 0 and slot1:getConfig("dorm_icon_price") <= 0 and 2) or (slot1:getConfig("gem_price") > 0 and 1) or 0) then
-		if ((slot0:isTimeLimit() and slot0:inTime() and slot0:canPurchase() and 1) or 0) == ((slot1:isTimeLimit() and slot1:inTime() and slot1:canPurchase() and 1) or 0) then
-			if ((slot0:canPurchase() and 1) or 0) == ((slot1:canPurchase() and 1) or 0) then
+	if (slot0:getConfig("gem_price") > 0 and slot0:getConfig("dorm_icon_price") <= 0 and 2 or slot0:getConfig("gem_price") > 0 and 1 or 0) == (slot1:getConfig("gem_price") > 0 and slot1:getConfig("dorm_icon_price") <= 0 and 2 or slot1:getConfig("gem_price") > 0 and 1 or 0) then
+		if (slot0:isTimeLimit() and slot0:inTime() and slot0:canPurchase() and 1 or 0) == (slot1:isTimeLimit() and slot1:inTime() and slot1:canPurchase() and 1 or 0) then
+			if (slot0:canPurchase() and 1 or 0) == (slot1:canPurchase() and 1 or 0) then
 				if slot0:getSortCurrency() == slot1:getSortCurrency() then
-					if ((slot0:isLock(slot2) and 1) or 0) == ((slot1:isLock(slot2) and 1) or 0) then
-						if slot3 == 1 then
-							slot12 = {
-								slot1.id < slot0.id
-							}
-
-							if not slot12 then
-								slot12 = {
-									slot0.id < slot1.id
-								}
-							end
-						end
-
-						return slot12[1]
+					if (slot0:isLock(slot2) and 1 or 0) == (slot1:isLock(slot2) and 1 or 0) then
+						return ((slot3 or 1) == 1 and {
+							slot1.id < slot0.id
+						} or {
+							slot0.id < slot1.id
+						})[1]
 					else
 						return slot10 < slot11
 					end
@@ -114,28 +104,28 @@ end
 function slot0.didEnter(slot0)
 	slot0:initTags()
 	onToggle(slot0, slot0.ascToggle, function (slot0)
-		slot0:updateFurnitureOrder(slot0)
+		uv0:updateFurnitureOrder(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.filterBtn, function ()
-		slot0:openIndexPanel()
+		uv0:openIndexPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.descPanel, function ()
-		slot0:closeItemDesc()
+		uv0:closeItemDesc()
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf, function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 
 	slot0.searchKey = ""
 
 	onInputChanged(slot0, slot0.searchInput, function (slot0)
-		slot0.searchKey = slot0
+		uv0.searchKey = slot0
 
-		if (slot0.index or 1) ~= 1 then
-			slot0:setFurnitrues(slot1[slot1 - 1])
-			slot0.viewRect:SetTotalCount(#slot0.furnitures, -1)
+		if (uv0.index or 1) ~= 1 then
+			uv0:setFurnitrues(uv1[slot1 - 1])
+			uv0.viewRect:SetTotalCount(#uv0.furnitures, -1)
 		else
-			slot0:sortThemes()
+			uv0:sortThemes()
 		end
 	end)
 	triggerToggle(slot0.tagsPanel:Find("tag_1"), true)
@@ -145,7 +135,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.updateFurnitureOrder(slot0, slot1)
-	slot0.orderFlag = (slot1 and BackYardShopFilterPanel.ORDER_MODE_ASC) or BackYardShopFilterPanel.ORDER_MODE_DASC
+	slot0.orderFlag = slot1 and BackYardShopFilterPanel.ORDER_MODE_ASC or BackYardShopFilterPanel.ORDER_MODE_DASC
 
 	setActive(slot0.ascTxt, slot1)
 	setActive(slot0.dascTxt, not slot1)
@@ -153,7 +143,7 @@ function slot0.updateFurnitureOrder(slot0, slot1)
 	if slot0.indexPanel then
 		slot0.indexPanel:filterFurnitures(slot0.furnitures, slot0.orderFlag)
 	else
-		slot0:setFurnitrues(slot0[(slot0.index or 1) - 1])
+		slot0:setFurnitrues(uv0[(slot0.index or 1) - 1])
 	end
 
 	slot0.viewRect:SetTotalCount(#slot0.furnitures, -1)
@@ -167,13 +157,13 @@ function slot0.updatePlayer(slot0, slot1)
 end
 
 function slot0.initTags(slot0)
-	for slot4, slot5 in ipairs(slot0) do
+	for slot4, slot5 in ipairs(uv0) do
 		slot6 = slot0.tagsPanel:Find("tag_" .. slot4)
 
 		setText(slot6:Find("Text"), slot5)
 		onToggle(slot0, slot6, function (slot0)
 			if slot0 then
-				slot0:filter(slot0.filter)
+				uv0:filter(uv1)
 			end
 		end, SFX_PANEL)
 	end
@@ -190,7 +180,7 @@ function slot0.filter(slot0, slot1)
 	else
 		slot0.index = slot1
 
-		slot0:setFurnitrues(slot0[slot1 - 1])
+		slot0:setFurnitrues(uv0[slot1 - 1])
 
 		if slot0.indexPanel then
 			slot0.indexPanel:filterFurnitures(slot0.furnitures)
@@ -214,11 +204,11 @@ function slot0.initTheme(slot0)
 	slot0.themVewRect = slot0.themeView:GetComponent("LScrollRect")
 
 	function slot0.themVewRect.onInitItem(slot0)
-		slot0:initThemeItem(slot0)
+		uv0:initThemeItem(slot0)
 	end
 
 	function slot0.themVewRect.onUpdateItem(slot0, slot1)
-		slot0:updateThemeItem(slot0, slot1)
+		uv0:updateThemeItem(slot0, slot1)
 	end
 
 	slot0.themeItems = {}
@@ -227,54 +217,56 @@ function slot0.initTheme(slot0)
 end
 
 function slot0.createThemeItem(slot0, slot1)
-	slot3 = findTF(({
+	slot2 = {
 		tr = tf(slot1),
-		_go = slot1,
-		maskBought = findTF(()["tr"], "bought"),
-		maskLocked = findTF(()["tr"], "mask"),
-		update = function (slot0, slot1, slot2, slot3, slot4)
-			slot0.themeVO = slot1
-			slot0.text = slot1:getConfig("desc")
-			slot1.text = slot1:getConfig("name")
+		_go = slot1
+	}
+	slot3 = findTF(slot2.tr, "desc"):GetComponent(typeof(Text))
+	slot2.maskBought = findTF(slot2.tr, "bought")
+	slot2.maskLocked = findTF(slot2.tr, "mask")
+	slot4 = findTF(slot2.tr, "name/Text"):GetComponent(typeof(Text))
+	slot5 = findTF(slot2.tr, "icon"):GetComponent(typeof(Image))
+	slot6 = findTF(slot2.tr, "tags/tag_discount")
+	slot7 = findTF(slot2.tr, "tags/tag_new")
+	slot8 = findTF(slot2.tr, "tags/tag_hot")
 
-			SetActive(slot2, slot1:getConfig("new") == 1)
-			SetActive(slot3, slot1:getConfig("hot") == 1)
-			SetActive(slot4, defaultValue(SetActive, 0) > 0 and pg.TimeMgr.GetInstance():inTime(slot1:getConfig("discount_time")))
-			setText(findTF(slot4, "Text"), defaultValue(SetActive, 0) .. "%off")
+	function slot2.update(slot0, slot1, slot2, slot3, slot4)
+		slot0.themeVO = slot1
+		uv0.text = slot1:getConfig("desc")
+		uv1.text = slot1:getConfig("name")
 
-			if not slot4 then
-				SetActive(slot5.maskBought, slot1:isBought(slot3))
-				SetActive(slot5.maskLocked, not slot1:isUnLock(slot2))
-			end
+		SetActive(uv2, slot1:getConfig("new") == 1)
+		SetActive(uv3, slot1:getConfig("hot") == 1)
+		SetActive(uv4, defaultValue(slot1:getConfig("discount"), 0) > 0 and pg.TimeMgr.GetInstance():inTime(slot1:getConfig("discount_time")))
+		setText(findTF(uv4, "Text"), defaultValue(slot5, 0) .. "%off")
 
-			slot6.sprite = GetSpriteFromAtlas("furnitureicon/" .. slot1:getConfig("icon"), "")
+		if not slot4 then
+			SetActive(uv5.maskBought, slot1:isBought(slot3))
+			SetActive(uv5.maskLocked, not slot1:isUnLock(slot2))
 		end
-	})["tr"], "desc"):GetComponent(typeof(Text))
-	slot4 = findTF(()["tr"], "name/Text"):GetComponent(typeof(Text))
-	slot5 = findTF(()["tr"], "icon"):GetComponent(typeof(Image))
-	slot6 = findTF(()["tr"], "tags/tag_discount")
-	slot7 = findTF(()["tr"], "tags/tag_new")
-	slot8 = findTF(()["tr"], "tags/tag_hot")
 
-	return 
+		uv6.sprite = GetSpriteFromAtlas("furnitureicon/" .. slot1:getConfig("icon"), "")
+	end
+
+	return slot2
 end
 
 function slot0.initThemeItem(slot0, slot1)
 	slot2 = slot0:createThemeItem(slot1)
 
 	onButton(slot0, slot2.maskLocked, function ()
-		slot0:showMsgBox({
-			icon = slot1.themeVO:getConfig("icon"),
+		uv0:showMsgBox({
+			icon = uv1.themeVO:getConfig("icon"),
 			content = i18n("backyard_theme_lock_tip"),
-			desc = i18n("backyard_theme_open_tip", slot1.themeVO:getConfig("deblocking"))
+			desc = i18n("backyard_theme_open_tip", uv1.themeVO:getConfig("deblocking"))
 		}, nil, true)
 	end)
 	onButton(slot0, slot2.tr, function ()
-		if not slot0.themeVO or (not slot0.themeVO:isUnLock(slot1.playerVO) and not slot0.themeVO:isBought(slot1.furnitureVOs)) then
+		if not uv0.themeVO or not uv0.themeVO:isUnLock(uv1.playerVO) and not uv0.themeVO:isBought(uv1.furnitureVOs) then
 			return
 		end
 
-		slot1:openItemDesc(slot0.themeVO)
+		uv1:openItemDesc(uv0.themeVO)
 	end)
 
 	slot0.themeItems[slot1] = slot2
@@ -292,8 +284,8 @@ function slot0.sortThemes(slot0)
 	slot0.tempThemeVOs = slot1
 
 	table.sort(slot0.tempThemeVOs, function (slot0, slot1)
-		if ((slot0:isBought(slot0.furnitureVOs) and 0) or 1) == ((slot1:isBought(slot0.furnitureVOs) and 0) or 1) then
-			if ((slot0:isUnLock(slot0.playerVO) and 1) or 0) == ((slot1:isUnLock(slot0.playerVO) and 1) or 0) then
+		if (slot0:isBought(uv0.furnitureVOs) and 0 or 1) == (slot1:isBought(uv0.furnitureVOs) and 0 or 1) then
+			if (slot0:isUnLock(uv0.playerVO) and 1 or 0) == (slot1:isUnLock(uv0.playerVO) and 1 or 0) then
 				if slot0:getConfig("deblocking") == slot1:getConfig("deblocking") then
 					if slot0:getConfig("new") == slot1:getConfig("new") then
 						if slot0:GetDisCount() == slot1:GetDisCount() then
@@ -338,22 +330,22 @@ function slot0.openItemDesc(slot0, slot1)
 end
 
 function slot0.updateThemeDesc(slot0, slot1)
-	slot0:createThemeItem(slot0.themDesc).update(slot2, slot1, slot0.playerVO, slot0.furnitureVOs, true)
+	slot0:createThemeItem(slot0.themDesc):update(slot1, slot0.playerVO, slot0.furnitureVOs, true)
 	setActive(slot0.themDescBtn, not slot1:isBought(slot0.furnitureVOs))
 	onButton(slot0, slot0.themDescBtn, function ()
-		slot0:showMsgBox({
+		uv0:showMsgBox({
 			number = 0,
 			isShowCalc = true,
 			maxNumber = 1,
 			isTheme = true,
 			hideGem = true,
 			max = 1,
-			ids = slot1:getRemainFurIds(slot0.furnitureVOs),
-			icon = slot1:getConfig("icon"),
-			desc = slot1:getConfig("desc"),
-			content = slot1:getConfig("name")
+			ids = uv1:getRemainFurIds(uv0.furnitureVOs),
+			icon = uv1:getConfig("icon"),
+			desc = uv1:getConfig("desc"),
+			content = uv1:getConfig("name")
 		}, function (slot0, slot1)
-			slot0:emit(BackYardShopMediator.BUY_FURNITURE, slot1:getRemainFurIds(slot0.furnitureVOs), slot0)
+			uv0:emit(BackYardShopMediator.BUY_FURNITURE, uv1:getRemainFurIds(uv0.furnitureVOs), slot0)
 		end)
 	end)
 end
@@ -370,11 +362,11 @@ function slot0.updateSubThemeList(slot0, slot1)
 	slot0.descRect = slot0.descView:GetComponent("LScrollRect")
 
 	function slot0.descRect.onInitItem(slot0)
-		slot0:onInitThemeDesc(slot0)
+		uv0:onInitThemeDesc(slot0)
 	end
 
 	function slot0.descRect.onUpdateItem(slot0, slot1)
-		slot0:onUpdateTheme(slot0, slot1)
+		uv0:onUpdateTheme(slot0, slot1)
 	end
 
 	slot0:sortSubTheme()
@@ -392,56 +384,56 @@ end
 
 function slot0.onInitThemeDesc(slot0, slot1)
 	if slot0:getDescItem(slot1) == nil then
-		function slot3()
-			slot0 = slot0.furnitureVO:getConfig("name")
+		slot2 = FurnitureCard.New(slot1) or slot2
+	end
 
-			return {
-				isShowCalc = true,
-				ids = {
-					slot0.furnitureVO.id
-				},
-				icon = slot0.furnitureVO:getConfig("icon"),
-				desc = slot0.furnitureVO:getConfig("describe"),
-				content = slot0.furnitureVO:getConfig("name"),
-				dormMoney = slot0.furnitureVO:getPrice(6),
-				gem = slot0.furnitureVO:getPrice(4),
-				max = slot0.furnitureVO:getConfig("count") - slot0.furnitureVO.count,
-				maxNumber = slot0.furnitureVO:getConfig("count"),
-				number = slot0.furnitureVO.count,
-				purchased = not slot0.furnitureVO:canPurchase(),
-				comfortable = slot0.furnitureVO:getConfig("comfortable")
-			}
+	function slot3()
+		slot0 = uv0.furnitureVO:getConfig("name")
+
+		return {
+			isShowCalc = true,
+			ids = {
+				uv0.furnitureVO.id
+			},
+			icon = uv0.furnitureVO:getConfig("icon"),
+			desc = uv0.furnitureVO:getConfig("describe"),
+			content = uv0.furnitureVO:getConfig("name"),
+			dormMoney = uv0.furnitureVO:getPrice(6),
+			gem = uv0.furnitureVO:getPrice(4),
+			max = uv0.furnitureVO:getConfig("count") - uv0.furnitureVO.count,
+			maxNumber = uv0.furnitureVO:getConfig("count"),
+			number = uv0.furnitureVO.count,
+			purchased = not uv0.furnitureVO:canPurchase(),
+			comfortable = uv0.furnitureVO:getConfig("comfortable")
+		}
+	end
+
+	onButton(slot0, slot2.tr, function ()
+		if not uv0.furnitureVO then
+			return
 		end
 
-		onButton(slot0, FurnitureCard.New(slot1) or slot2.tr, function ()
-			if not slot0.furnitureVO then
-				return
-			end
+		if not uv0.furnitureVO:inTime() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_furniture_overtime"))
 
-			if not slot0.furnitureVO:inTime() then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("buy_furniture_overtime"))
+			return
+		end
 
-				return
-			end
-
-			slot1:showMsgBox(slot2(), function (slot0, slot1)
-				slot0:purchase(slot0, slot1, slot1)
-			end)
+		uv1:showMsgBox(uv2(), function (slot0, slot1)
+			uv0:purchase(slot0, slot1, uv1)
 		end)
-		onButton(slot0, FurnitureCard.New(slot1) or slot2.maskTF, function ()
-			slot0:showMsgBox(slot1(), nil, true)
-		end)
+	end)
+	onButton(slot0, slot2.maskTF, function ()
+		uv0:showMsgBox(uv1(), nil, true)
+	end)
 
-		slot0.descItems[slot1] = FurnitureCard.New(slot1) or slot2
-
-		return
-	end
+	slot0.descItems[slot1] = slot2
 end
 
 function slot0.purchase(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
-	for slot8 = 1, slot2, 1 do
+	for slot8 = 1, slot2 do
 		table.insert(slot4, slot3.furnitureVO.id)
 	end
 
@@ -460,7 +452,7 @@ end
 
 function slot0.sortSubTheme(slot0)
 	table.sort(slot0.descItemVOs, function (slot0, slot1)
-		return slot0:SORT_FURNITURE_FUNC(slot1, slot1.playerVO.level)
+		return uv0.SORT_FURNITURE_FUNC(slot0, slot1, uv1.playerVO.level)
 	end)
 	slot0.descRect:SetTotalCount(#slot0.descItemVOs, -1)
 end
@@ -502,7 +494,7 @@ function slot0.setFurnitrues(slot0, slot1)
 		slot0.indexPanel:filterFurnitures(slot0.furnitures)
 	else
 		table.sort(slot0.furnitures, function (slot0, slot1)
-			return slot0:SORT_FURNITURE_FUNC(slot1, slot1.playerVO.level, slot1.orderFlag)
+			return uv0.SORT_FURNITURE_FUNC(slot0, slot1, uv1.playerVO.level, uv1.orderFlag)
 		end)
 	end
 end
@@ -512,9 +504,7 @@ function slot0.setAllFurnitrues(slot0, slot1)
 
 	for slot6, slot7 in pairs(pg.furniture_shop_template.all) do
 		if slot0:getActiveFurnitureById(slot7) and slot8:isMatchSearchKey(slot0.searchKey) then
-			slot9 = slot8:getConfig("type")
-
-			if slot1 and table.contains(slot1, slot9) then
+			if slot1 and table.contains(slot1, slot8:getConfig("type")) then
 				table.insert(slot0.furnitures, slot8)
 			end
 		end
@@ -525,11 +515,11 @@ function slot0.initSubFurnitureType(slot0)
 	slot0.viewRect = slot0.furnitureTypeView:GetComponent("LScrollRect")
 
 	function slot0.viewRect.onInitItem(slot0)
-		slot0:onInitFurnitrue(slot0)
+		uv0:onInitFurnitrue(slot0)
 	end
 
 	function slot0.viewRect.onUpdateItem(slot0, slot1)
-		slot0:onUpdateCard(slot0, slot1)
+		uv0:onUpdateCard(slot0, slot1)
 	end
 end
 
@@ -545,50 +535,48 @@ end
 
 function slot0.onInitFurnitrue(slot0, slot1)
 	if slot0:getCardItem(slot1) == nil then
-		function slot3()
-			return {
-				isShowCalc = true,
-				ids = {
-					slot0.furnitureVO.id
-				},
-				icon = slot0.furnitureVO:getConfig("icon"),
-				desc = slot0.furnitureVO:getConfig("describe"),
-				content = slot0.furnitureVO:getConfig("name"),
-				max = slot0.furnitureVO:getConfig("count") - slot0.furnitureVO.count,
-				maxNumber = slot0.furnitureVO:getConfig("count"),
-				number = slot0.furnitureVO.count,
-				dormMoney = slot0.furnitureVO:getPrice(6),
-				gem = slot0.furnitureVO:getPrice(4),
-				comfortable = slot0.furnitureVO:getConfig("comfortable"),
-				purchased = not slot0.furnitureVO:canPurchase()
-			}
-		end
-
-		onButton(slot0, FurnitureCard.New(slot1) or slot2.go, function ()
-			if slot0.furnitureVO then
-				slot1:showMsgBox(slot2(), function (slot0, slot1)
-					slot0:purchase(slot0, slot1, slot1)
-				end)
-			end
-		end, SOUND_PANEL)
-		onButton(slot0, FurnitureCard.New(slot1) or slot2.maskTF, function ()
-			if slot0.furnitureVO then
-				slot1 = pg.backyard_theme_template[slot0.furnitureVO:getConfig("themeId")]
-
-				if slot0.furnitureVO:inTheme() and slot1.playerVO.level < slot1.deblocking then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_theme_lock_tip"))
-
-					return
-				end
-
-				slot1:showMsgBox(slot2(), nil, true)
-			end
-		end)
-
-		slot0.cardItems[slot1] = FurnitureCard.New(slot1) or slot2
-
-		return
+		slot2 = FurnitureCard.New(slot1) or slot2
 	end
+
+	function slot3()
+		return {
+			isShowCalc = true,
+			ids = {
+				uv0.furnitureVO.id
+			},
+			icon = uv0.furnitureVO:getConfig("icon"),
+			desc = uv0.furnitureVO:getConfig("describe"),
+			content = uv0.furnitureVO:getConfig("name"),
+			max = uv0.furnitureVO:getConfig("count") - uv0.furnitureVO.count,
+			maxNumber = uv0.furnitureVO:getConfig("count"),
+			number = uv0.furnitureVO.count,
+			dormMoney = uv0.furnitureVO:getPrice(6),
+			gem = uv0.furnitureVO:getPrice(4),
+			comfortable = uv0.furnitureVO:getConfig("comfortable"),
+			purchased = not uv0.furnitureVO:canPurchase()
+		}
+	end
+
+	onButton(slot0, slot2.go, function ()
+		if uv0.furnitureVO then
+			uv1:showMsgBox(uv2(), function (slot0, slot1)
+				uv0:purchase(slot0, slot1, uv1)
+			end)
+		end
+	end, SOUND_PANEL)
+	onButton(slot0, slot2.maskTF, function ()
+		if uv0.furnitureVO then
+			if uv0.furnitureVO:inTheme() and uv1.playerVO.level < pg.backyard_theme_template[uv0.furnitureVO:getConfig("themeId")].deblocking then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_theme_lock_tip"))
+
+				return
+			end
+
+			uv1:showMsgBox(uv2(), nil, true)
+		end
+	end)
+
+	slot0.cardItems[slot1] = slot2
 end
 
 function slot0.onUpdateCard(slot0, slot1, slot2)
@@ -611,11 +599,11 @@ function slot0.showMsgBox(slot0, slot1, slot2, slot3)
 
 	slot6 = slot0:findTF("frame/border/infoPanel", slot0.msgBoxPanel)
 
-	setActive(slot7, true)
-	setActive(slot8, true)
-	setActive(slot9, false)
-	setActive(slot10, false)
-	setActive(slot5, slot1.isShowCalc)
+	setActive(slot0:findTF("frame/btns/ok_btn", slot0.msgBoxPanel), true)
+	setActive(slot0:findTF("frame/btns/cancel_btn", slot0.msgBoxPanel), true)
+	setActive(slot0:findTF("frame/btns/dm_btn", slot0.msgBoxPanel), false)
+	setActive(slot0:findTF("frame/btns/gem_btn", slot0.msgBoxPanel), false)
+	setActive(slot0:findTF("frame/border/calPanel", slot0.msgBoxPanel), slot1.isShowCalc)
 	setImageSprite(slot0:findTF("frame/border/icon", slot0.msgBoxPanel), GetSpriteFromAtlas("furnitureicon/" .. slot1.icon, ""))
 	setText(slot0:findTF("frame/border/desc", slot0.msgBoxPanel), slot1.content or "")
 	setText(slot0:findTF("frame/border/desc_1", slot0.msgBoxPanel), slot1.desc or "")
@@ -635,21 +623,30 @@ function slot0.showMsgBox(slot0, slot1, slot2, slot3)
 
 		slot14 = slot0.dromVO:getComfortable()
 
-		slot15(slot13)
+		function (slot0)
+			setActive(uv0:findTF("icons/green", uv2), Clone(uv0.dromVO):getComfortable(slot0) - uv1 > 0)
+			setActive(uv0:findTF("icons/yellow", uv2), slot2 == 0)
+
+			if slot2 > 0 then
+				setText(uv0:findTF("Text", uv2), "+" .. slot2)
+			else
+				setText(slot3, "+0")
+			end
+		end(slot13)
 
 		if not slot1.isTheme then
 			function slot11(slot0)
-				for slot4 = table.getCount(slot0), slot0 - 1, 1 do
-					table.insert(slot0, Furniture.New({
-						id = slot1.ids[1]
+				for slot4 = table.getCount(uv0), slot0 - 1 do
+					table.insert(uv0, Furniture.New({
+						id = uv1.ids[1]
 					}))
 				end
 
-				for slot4 = 1, table.getCount(slot0) - slot0, 1 do
-					table.remove(slot0, #slot0)
+				for slot4 = 1, table.getCount(uv0) - slot0 do
+					table.remove(uv0, #uv0)
 				end
 
-				slot2(slot0)
+				uv2(uv0)
 			end
 		end
 	end
@@ -657,7 +654,7 @@ function slot0.showMsgBox(slot0, slot1, slot2, slot3)
 	slot13 = 1
 
 	if slot1.isShowCalc then
-		slot14, slot15 = slot0.calcFurnituresPrice(slot1.ids)
+		slot14, slot15 = uv0.calcFurnituresPrice(slot1.ids)
 
 		if slot1.hideGem then
 			slot14 = 0
@@ -666,44 +663,51 @@ function slot0.showMsgBox(slot0, slot1, slot2, slot3)
 		slot16 = slot0:findTF("value/Text", slot5)
 
 		setText(slot0:findTF("max/Text", slot5), "+" .. slot1.max)
+
+		slot18 = slot0:findTF("price/gem_icon/Text", slot5)
+
 		setActive(slot0:findTF("price/dm_icon/Text", slot5).parent, slot15 > 0)
-		setActive(slot0:findTF("price/gem_icon/Text", slot5).parent, slot14 > 0)
+		setActive(slot18.parent, slot14 > 0)
 		setActive(slot0:findTF("price/line", slot5), slot15 > 0 and slot14 > 0)
 		setText(slot17, slot15)
-		setText(slot0.findTF("price/gem_icon/Text", slot5), slot14)
+		setText(slot18, slot14)
 
 		if not slot1.isTheme then
-			slot20()
+			function ()
+				setText(uv0, uv1)
+				setText(uv2, uv1 * uv3.dormMoney)
+				setText(uv4, uv1 * uv3.gem)
+
+				if uv5 then
+					uv5(uv1)
+				end
+			end()
 			onButton(slot0, slot0:findTF("arr_left", slot5), function ()
-				if slot0.max == slot1 then
+				if uv0.max == uv1 then
 					return
 				end
 
-				slot1 = math.min(slot1 + 1, slot0.max)
+				uv1 = math.min(uv1 + 1, uv0.max)
 
-				slot0.max()
+				uv2()
 			end)
 			onButton(slot0, slot0:findTF("arr_right", slot5), function ()
-				if slot0 == 1 then
+				if uv0 == 1 then
 					return
 				end
 
-				slot0 = math.max(
-				-- Decompilation error in this vicinity:
-				slot0 - 1, 1)
+				uv0 = math.max(uv0 - 1, 1)
 
-
-				-- Decompilation error in this vicinity:
-				slot0 - 1()
+				uv1()
 			end)
 			onButton(slot0, slot0:findTF("max", slot5), function ()
-				if slot0.max == slot1 then
+				if uv0.max == uv1 then
 					return
 				end
 
-				slot1 = slot0.max
+				uv1 = uv0.max
 
-				slot2()
+				uv2()
 			end)
 		else
 			setText(slot16, 1)
@@ -723,19 +727,21 @@ function slot0.showMsgBox(slot0, slot1, slot2, slot3)
 	setActive(slot8, not slot3)
 
 	if slot1.purchased then
-		slot14, slot15 = slot0.calcFurnituresPrice(slot1.ids)
+		slot14, slot15 = uv0.calcFurnituresPrice(slot1.ids)
 
 		if slot1.hideGem then
 			slot14 = 0
 		end
 
+		slot20 = slot0:findTF("price/gem_icon/Text", slot6)
+
 		setActive(slot0:findTF("price/dm_icon/Text", slot6).parent, slot15 > 0)
-		setActive(slot0:findTF("price/gem_icon/Text", slot6).parent, slot14 > 0)
+		setActive(slot20.parent, slot14 > 0)
 		setActive(slot0:findTF("price/line", slot6), slot15 > 0 and slot14 > 0)
 		setText(slot19, slot15)
-		setText(slot0.findTF("price/gem_icon/Text", slot6), slot14)
-		setText(setActive, slot1.number .. "/" .. slot1.maxNumber)
-		setText(slot0.findTF("price/line", slot6), slot1.comfortable)
+		setText(slot20, slot14)
+		setText(slot0:findTF("count/Text", slot6), slot1.number .. "/" .. slot1.maxNumber)
+		setText(slot0:findTF("comfortable/Text", slot6), slot1.comfortable)
 		setActive(slot7, true)
 		setActive(slot8, not slot3)
 		setActive(slot9, false)
@@ -743,37 +749,34 @@ function slot0.showMsgBox(slot0, slot1, slot2, slot3)
 	end
 
 	onButton(slot0, slot7, function ()
-		slot0:closeMsgBox()
+		uv0:closeMsgBox()
 	end, SFX_CONFIRM)
 	onButton(slot0, slot8, function ()
-		slot0:closeMsgBox()
+		uv0:closeMsgBox()
 	end, SFX_CANCEL)
 	onButton(slot0, slot10, function ()
-		slot0:closeMsgBox()
+		uv0:closeMsgBox()
 
-		if slot0 then
-			slot1(4, slot2)
+		if uv1 then
+			uv1(4, uv2)
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot9, function ()
-		slot0:closeMsgBox()
+		uv0:closeMsgBox()
 
-		if slot0 then
-			slot1(6, slot2)
+		if uv1 then
+			uv1(6, uv2)
 		end
 	end, SFX_CANCEL)
 end
 
 function slot0.calcFurnituresPrice(slot0)
-	slot1 = 0
-	slot2 = 0
-
 	for slot6, slot7 in ipairs(slot0) do
 		slot8 = Furniture.New({
 			id = slot7
 		})
-		slot1 = slot1 + slot8:getPrice(4)
-		slot2 = slot2 + slot8:getPrice(6)
+		slot1 = 0 + slot8:getPrice(4)
+		slot2 = 0 + slot8:getPrice(6)
 	end
 
 	return slot1, slot2
@@ -838,20 +841,20 @@ function slot0.openIndexPanel(slot0)
 	if (slot0.index or 1) ~= 1 then
 		slot0.index = slot1
 
-		slot0:setAllFurnitrues(slot0[slot1 - 1])
+		slot0:setAllFurnitrues(uv0[slot1 - 1])
 		slot0.indexPanel:setFilterData(slot0.furnitures)
 	end
 
 	function slot0.indexPanel.confirmFunc()
-		if slot0 ~= 1 then
-			slot1.viewRect:SetTotalCount(#slot1.furnitures, -1)
+		if uv0 ~= 1 then
+			uv1.viewRect:SetTotalCount(#uv1.furnitures, -1)
 		end
 
-		setText(slot1.filterBtn:Find("Text"), slot1.indexPanel.sortTxt)
+		setText(uv1.filterBtn:Find("Text"), uv1.indexPanel.sortTxt)
 	end
 
 	function slot0.indexPanel.onHideFunc()
-		setParent(slot0.filterTF, slot0._tf)
+		setParent(uv0.filterTF, uv0._tf)
 	end
 end
 
@@ -875,17 +878,11 @@ function slot0.willExit(slot0)
 		slot0:closeMsgBox()
 	end
 
-	slot1 = pairs
-	slot2 = slot0.cardItems or {}
-
-	for slot4, slot5 in slot1(slot2) do
+	for slot4, slot5 in pairs(slot0.cardItems or {}) do
 		slot5:dispose()
 	end
 
-	slot1 = pairs
-	slot2 = slot0.descItems or {}
-
-	for slot4, slot5 in slot1(slot2) do
+	for slot4, slot5 in pairs(slot0.descItems or {}) do
 		slot5:dispose()
 	end
 

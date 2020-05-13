@@ -1,4 +1,6 @@
-class("GetMilitaryShopCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("GetMilitaryShopCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot3 = slot1:getBody() and slot2.callback
 
 	pg.ConnectionMgr.GetInstance():Send(18100, {
@@ -11,12 +13,12 @@ class("GetMilitaryShopCommand", pm.SimpleCommand).execute = function (slot0, slo
 			nextTime = slot0.next_flash_time
 		}))
 
-		if slot0 then
-			slot0(slot1)
+		if uv0 then
+			uv0(slot1)
 		end
 
-		slot1:sendNotification(GAME.GET_MILITARY_SHOP_DONE, Clone(slot1))
+		uv1:sendNotification(GAME.GET_MILITARY_SHOP_DONE, Clone(slot1))
 	end)
 end
 
-return class("GetMilitaryShopCommand", pm.SimpleCommand)
+return slot0

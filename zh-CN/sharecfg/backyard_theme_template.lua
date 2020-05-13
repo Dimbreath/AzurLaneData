@@ -2623,5 +2623,3 @@ pg.backyard_theme_template = {
 		61
 	}
 }
-
-return

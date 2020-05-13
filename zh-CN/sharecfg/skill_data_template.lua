@@ -44225,5 +44225,3 @@ pg.skill_data_template = {
 		105150
 	}
 }
-
-return

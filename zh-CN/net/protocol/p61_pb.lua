@@ -807,5 +807,3 @@ sc_61009 = slot0.Message(SC_61009)
 sc_61010 = slot0.Message(SC_61010)
 shipinguild = slot0.Message(SHIPINGUILD)
 strategyinfo = slot0.Message(STRATEGYINFO)
-
-return

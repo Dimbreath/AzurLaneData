@@ -53,5 +53,3 @@ pg.skill_need_exp = {
 		10
 	}
 }
-
-return

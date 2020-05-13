@@ -159,7 +159,9 @@ function slot0.Vect2Index(slot0, slot1)
 end
 
 function slot0.Index2Vect(slot0)
-	return math.ceil(slot0 / slot0.MAP_COLUMN), slot0 - (math.ceil(slot0 / slot0.MAP_COLUMN) - 1) * slot0.MAP_COLUMN
+	slot1 = math.ceil(slot0 / uv0.MAP_COLUMN)
+
+	return slot1, slot0 - (slot1 - 1) * uv0.MAP_COLUMN
 end
 
 slot0.HELP_BGS = {

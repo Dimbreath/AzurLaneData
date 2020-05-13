@@ -2,7 +2,6 @@ slot0 = import("..facade.Facade")
 slot1 = class("Notifier")
 
 function slot1.Ctor(slot0)
-	return
 end
 
 function slot1.sendNotification(slot0, slot1, slot2, slot3)
@@ -18,10 +17,10 @@ end
 
 function slot1.getFacade(slot0)
 	if slot0.multitonKey == nil then
-		error(slot0.MULTITON_MSG)
+		error(uv0.MULTITON_MSG)
 	end
 
-	return slot1.getInstance(slot0.multitonKey)
+	return uv1.getInstance(slot0.multitonKey)
 end
 
 slot1.MULTITON_MSG = "multitonKey for this Notifier not yet initialized!"

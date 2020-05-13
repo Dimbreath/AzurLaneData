@@ -19,34 +19,34 @@ function slot0.register(slot0)
 		slot1:SetLevel(slot0.oil_well_level)
 		slot1:SetUpgradeTimeStamp(slot0.oil_well_lv_up_time)
 
-		slot0._oilVO = slot1
+		uv0._oilVO = slot1
 		slot2 = ResourceField.New(ResourceField.TYPE_GOLD)
 
 		slot2:SetLevel(slot0.gold_well_level)
 		slot2:SetUpgradeTimeStamp(slot0.gold_well_lv_up_time)
 
-		slot0._goldVO = slot2
+		uv0._goldVO = slot2
 		slot3 = ResourceField.New(ResourceField.TYPE_CLASS)
 
 		slot3:SetLevel(slot0.class_lv)
 		slot3:SetUpgradeTimeStamp(slot0.class_lv_up_time)
 
-		slot0._classVO = slot3
+		uv0._classVO = slot3
 
-		slot0.course:update(slot0.class)
-
-		slot4 = {}
+		uv0.course:update(slot0.class)
 
 		for slot8, slot9 in ipairs(slot0.skill_class_list) do
-			slot4[Student.New(slot9).id] = Student.New(slot9)
+			slot10 = Student.New(slot9)
 		end
 
-		slot0.skillClassNum = (LOCK_CLASSROOM and 2) or slot0.skill_class_num or 2
+		uv0.skillClassNum = LOCK_CLASSROOM and 2 or slot0.skill_class_num or 2
 
-		slot0:setStudents(slot4)
+		uv0:setStudents({
+			[slot10.id] = slot10
+		})
 
-		slot0._mainUITimer = pg.TimeMgr.GetInstance():AddTimer("NavalAcademyProxy", 0, 10, function ()
-			slot0:notification()
+		uv0._mainUITimer = pg.TimeMgr.GetInstance():AddTimer("NavalAcademyProxy", 0, 10, function ()
+			uv0:notification()
 		end)
 	end)
 end
@@ -58,36 +58,34 @@ end
 slot0.MAX_SKILL_CLASS_NUM = 3
 
 function slot0.inCreaseKillClassNum(slot0)
-	slot0.skillClassNum = math.min(slot0.skillClassNum + 1, slot0.MAX_SKILL_CLASS_NUM)
+	slot0.skillClassNum = math.min(slot0.skillClassNum + 1, uv0.MAX_SKILL_CLASS_NUM)
 
-	slot0:sendNotification(slot0.SKILL_CLASS_POS_UPDATED, slot0.skillClassNum)
+	slot0:sendNotification(uv0.SKILL_CLASS_POS_UPDATED, slot0.skillClassNum)
 end
 
 function slot0.notification(slot0)
 	if getProxy(PlayerProxy) and not slot1:getFlag("blockResourceUpgrade") and slot1:getData() and slot0:isResourceFieldUpgradeConditionSatisfy() then
-		slot0.facade:sendNotification(slot0.BUILDING_FINISH)
+		slot0.facade:sendNotification(uv0.BUILDING_FINISH)
 
 		return
 	end
 
 	if getProxy(ShopsProxy) and slot2:getShopStreet() and slot3:isUpdateGoods() then
-		slot0.facade:sendNotification(slot0.BUILDING_FINISH)
+		slot0.facade:sendNotification(uv0.BUILDING_FINISH)
 
 		return
 	end
 
-	slot3 = pg.TimeMgr.GetInstance():GetServerTime()
-
 	for slot7, slot8 in pairs(slot0.students) do
-		if slot8:getFinishTime() <= slot3 then
-			slot0.facade:sendNotification(slot0.BUILDING_FINISH)
+		if slot8:getFinishTime() <= pg.TimeMgr.GetInstance():GetServerTime() then
+			slot0.facade:sendNotification(uv0.BUILDING_FINISH)
 
 			return
 		end
 	end
 
 	if getProxy(CollectionProxy) and slot4:unclaimTrophyCount() > 0 then
-		slot0.facade:sendNotification(slot0.BUILDING_FINISH)
+		slot0.facade:sendNotification(uv0.BUILDING_FINISH)
 
 		return
 	end
@@ -98,7 +96,7 @@ function slot0.onRemove(slot0)
 		pg.TimeMgr.GetInstance():RemoveTimer(slot0._mainUITimer)
 	end
 
-	slot0.super.onRemove(slot0)
+	uv0.super.onRemove(slot0)
 end
 
 function slot0.getStudentById(slot0, slot1)
@@ -132,7 +130,7 @@ end
 function slot0.addStudent(slot0, slot1)
 	slot0.students[slot1.id] = slot1
 
-	slot0:sendNotification(slot0.START_LEARN_TACTICS, Clone(slot1))
+	slot0:sendNotification(uv0.START_LEARN_TACTICS, Clone(slot1))
 end
 
 function slot0.updateStudent(slot0, slot1)
@@ -142,7 +140,7 @@ end
 function slot0.deleteStudent(slot0, slot1)
 	slot0.students[slot1] = nil
 
-	slot0:sendNotification(slot0.CANCEL_LEARN_TACTICS, slot1)
+	slot0:sendNotification(uv0.CANCEL_LEARN_TACTICS, slot1)
 end
 
 function slot0.GetOilVO(slot0)
@@ -177,7 +175,7 @@ end
 
 function slot0.StartUpGradeSuccess(slot0, slot1)
 	slot1:SetUpgradeTimeStamp(pg.TimeMgr.GetInstance():GetServerTime() + slot1:bindConfigTable()[slot1:GetLevel()].time)
-	slot0.facade:sendNotification(slot0.RESOURCE_UPGRADE, {
+	slot0.facade:sendNotification(uv0.RESOURCE_UPGRADE, {
 		resVO = slot1
 	})
 end
@@ -203,7 +201,9 @@ function slot0.UpgradeFinish(slot0)
 end
 
 function slot0.isResourceFieldUpgradeConditionSatisfy(slot0)
-	if slot0:GetOilVO():CanUpgrade(getProxy(PlayerProxy).getData(slot1).level, getProxy(PlayerProxy).getData(slot1).gold) or slot0:GetGoldVO():CanUpgrade(slot2.level, slot2.gold) or slot0:GetClassVO():CanUpgrade(slot2.level, slot2.gold) then
+	slot2 = getProxy(PlayerProxy):getData()
+
+	if slot0:GetOilVO():CanUpgrade(slot2.level, slot2.gold) or slot0:GetGoldVO():CanUpgrade(slot2.level, slot2.gold) or slot0:GetClassVO():CanUpgrade(slot2.level, slot2.gold) then
 		return true
 	end
 
@@ -211,17 +211,15 @@ function slot0.isResourceFieldUpgradeConditionSatisfy(slot0)
 end
 
 function slot0.fillStudens(slot0, slot1)
-	slot2 = pg.gameset.academy_random_ship_count.key_value
-	slot3 = {}
+	slot3 = {
+		[slot8.groupId] = true
+	}
 
 	for slot7, slot8 in pairs(slot1) do
-		slot3[slot8.groupId] = true
-		slot2 = slot2 - 1
+		slot2 = pg.gameset.academy_random_ship_count.key_value - 1
 	end
 
-	slot4 = pg.gameset.academy_random_ship_coldtime.key_value
-
-	if not slot0._timeStamp or slot4 < os.time() - slot0._timeStamp then
+	if not slot0._timeStamp or pg.gameset.academy_random_ship_coldtime.key_value < os.time() - slot0._timeStamp then
 		slot0._studentsFiller = nil
 	end
 
@@ -230,10 +228,10 @@ function slot0.fillStudens(slot0, slot1)
 		slot0._timeStamp = os.time()
 		slot0._studentsFiller = {}
 		slot7 = getProxy(BayProxy)
-		slot9 = getProxy(ShipSkinProxy).getSkinList(slot8)
+		slot9 = getProxy(ShipSkinProxy):getSkinList()
 		slot10 = {}
 
-		for slot14, slot15 in pairs(slot6) do
+		for slot14, slot15 in pairs(getProxy(CollectionProxy):getGroups()) do
 			if not table.contains(slot3, slot14) then
 				slot10[#slot10 + 1] = slot14
 			end
@@ -242,14 +240,15 @@ function slot0.fillStudens(slot0, slot1)
 		slot11 = #slot10
 
 		while slot2 > 0 and slot11 > 0 do
-			slot14 = slot6[slot10[math.random(#slot10)]]
-			slot16 = 10000000000.0 + slot10[math.random(#slot10)] * 10 + 1
+			slot13 = slot10[math.random(#slot10)]
+			slot14 = slot6[slot13]
+			slot16 = 10000000000.0 + slot13 * 10 + 1
 			slot18 = {}
 			slot19 = nil
 			slot20 = {}
 
-			for slot24, slot25 in ipairs(slot17) do
-				if slot25.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or table.contains(slot9, slot25.id) or (slot26 == ShipSkin.SKIN_TYPE_REMAKE and slot14.trans) or (slot26 == ShipSkin.SKIN_TYPE_PROPOSE and slot14.married == 1) then
+			for slot24, slot25 in ipairs(ShipGroup.getSkinList(slot13)) do
+				if slot25.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or table.contains(slot9, slot25.id) or slot26 == ShipSkin.SKIN_TYPE_REMAKE and slot14.trans or slot26 == ShipSkin.SKIN_TYPE_PROPOSE and slot14.married == 1 then
 					slot20[#slot20 + 1] = slot25.id
 				end
 

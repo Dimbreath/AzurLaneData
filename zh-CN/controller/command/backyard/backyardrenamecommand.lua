@@ -1,4 +1,6 @@
-class("BackYardRenameCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("BackYardRenameCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(19016, {
 		name = slot1:getBody()
 	}, 19017, function (slot0)
@@ -6,9 +8,9 @@ class("BackYardRenameCommand", pm.SimpleCommand).execute = function (slot0, slot
 			slot1 = getProxy(DormProxy)
 			slot2 = slot1:getData()
 
-			slot2:setName(slot0)
+			slot2:setName(uv0)
 			slot1:updateDrom(slot2)
-			slot1:sendNotification(GAME.BACKYARD_RENAME_DONE)
+			uv1:sendNotification(GAME.BACKYARD_RENAME_DONE)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_rename_success"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
@@ -16,4 +18,4 @@ class("BackYardRenameCommand", pm.SimpleCommand).execute = function (slot0, slot
 	end)
 end
 
-return class("BackYardRenameCommand", pm.SimpleCommand)
+return slot0

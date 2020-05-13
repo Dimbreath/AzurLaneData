@@ -1,4 +1,6 @@
-class("GetWBDamageRankCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("GetWBDamageRankCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(33505, {
 		boss_id = slot1:getBody().bossId
 	}, 33506, function (slot0)
@@ -13,9 +15,9 @@ class("GetWBDamageRankCommand", pm.SimpleCommand).execute = function (slot0, slo
 				})
 			end
 
-			getProxy(WorldProxy):GetWorld().GetBossProxy(slot2).SetRank(slot3, slot0, slot1)
-			slot1:sendNotification(GAME.WORLD_GET_BOSS_RANK_DONE, {
-				bossId = slot0
+			getProxy(WorldProxy):GetWorld():GetBossProxy():SetRank(uv0, slot1)
+			uv1:sendNotification(GAME.WORLD_GET_BOSS_RANK_DONE, {
+				bossId = uv0
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("world_activate_error_", slot0.result))
@@ -23,4 +25,4 @@ class("GetWBDamageRankCommand", pm.SimpleCommand).execute = function (slot0, slo
 	end)
 end
 
-return class("GetWBDamageRankCommand", pm.SimpleCommand)
+return slot0

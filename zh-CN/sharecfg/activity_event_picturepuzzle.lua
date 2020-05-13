@@ -52,5 +52,3 @@ pg.activity_event_picturepuzzle = {
 		549
 	}
 }
-
-return

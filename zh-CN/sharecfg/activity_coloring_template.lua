@@ -135734,5 +135734,3 @@ pg.activity_coloring_template = {
 		54
 	}
 }
-
-return

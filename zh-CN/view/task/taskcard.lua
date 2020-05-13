@@ -66,11 +66,11 @@ function slot0.update(slot0, slot1)
 
 		LoadSpriteAsync("shipmodels/" .. slot5, function (slot0)
 			if slot0 then
-				setImageSprite(slot0.storyIcon, slot0, true)
+				setImageSprite(uv0.storyIcon, slot0, true)
 			end
 		end)
 		onButton(slot0, slot0.storyIconFrame, function ()
-			pg.StoryMgr.GetInstance():Play(pg.StoryMgr.GetInstance().Play, nil, true)
+			pg.StoryMgr.GetInstance():Play(uv0, nil, true)
 		end, SFX_PANEL)
 	else
 		removeOnButton(slot0.storyIconFrame)
@@ -82,395 +82,122 @@ function slot0.update(slot0, slot1)
 end
 
 function slot0.updateBtnState(slot0, slot1)
-	slot2 = slot0
+	slot2 = uv0
 
 	removeOnButton(slot0.GotoBtn)
 	removeOnButton(slot0.GetBtn)
 
 	if slot1:isFinish() then
-		slot2 = (slot1:isReceive() and slot1) or slot2
+		slot2 = slot1:isReceive() and uv1 or uv2
 
 		onButton(slot0, slot0.GetBtn, function ()
 			function slot0()
-				if not slot0.isClick then
-					slot0.isClick = true
+				if not uv0.isClick then
+					uv0.isClick = true
+					slot0 = uv0.frame.localPosition
 
-					LeanTween.alphaCanvas(slot0.cg, 0, LeanTween.alphaCanvas):setFrom(1)
-					LeanTween.value(go(slot0.frame), slot0.frame.localPosition.x, slot0.frame.localPosition.x + slot0._modelWidth, LeanTween.value):setOnUpdate(System.Action_float(function (slot0)
-						slot0.frame.transform.localPosition = Vector3(slot0, slot1.y, slot1.z)
+					LeanTween.alphaCanvas(uv0.cg, 0, uv1):setFrom(1)
+					LeanTween.value(go(uv0.frame), slot0.x, slot0.x + uv0._modelWidth, uv1):setOnUpdate(System.Action_float(function (slot0)
+						uv0.frame.transform.localPosition = Vector3(slot0, uv1.y, uv1.z)
 					end)):setOnComplete(System.Action(function ()
-						slot0.frame.transform.localPosition = slot1
+						uv0.frame.transform.localPosition = uv1
 
-						setActive(slot0.frame, false)
+						setActive(uv0.frame, false)
 
-						setActive.isClick = nil
+						uv0.isClick = nil
 
-						setActive.viewComponent:onSubmit(false)
+						uv0.viewComponent:onSubmit(uv2)
 					end))
 				end
 			end
 
+			function slot2()
+				function uv0.overFlow.onYes()
+					uv0()
+				end
+
+				pg.MsgboxMgr.GetInstance():ShowMsgBox(uv0.overFlow)
+			end
+
 			function slot3()
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-14, warpins: 1 ---
-				function slot0.choice.onYes()
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-4, warpins: 1 ---
-					if not slot0.index then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 5-13, warpins: 1 ---
+				function uv0.choice.onYes()
+					if not uv0.index then
 						pg.TipsMgr.GetInstance():ShowTips("未选择奖励,放弃领取")
 
 						return
-						--- END OF BLOCK #0 ---
-
-
-
 					end
 
-					--- END OF BLOCK #0 ---
-
-					FLOW; TARGET BLOCK #1
-
-
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #1 14-17, warpins: 2 ---
-					if slot1.overFlow then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 18-20, warpins: 1 ---
-						slot2()
-						--- END OF BLOCK #0 ---
-
-
-
+					if uv1.overFlow then
+						uv2()
 					else
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 21-22, warpins: 1 ---
-						slot3()
-						--- END OF BLOCK #0 ---
-
-
-
+						uv3()
 					end
-
-					--- END OF BLOCK #1 ---
-
-					FLOW; TARGET BLOCK #2
-
-
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #2 23-23, warpins: 2 ---
-					return
-					--- END OF BLOCK #2 ---
-
-
-
 				end
 
-				pg.MsgboxMgr.GetInstance():ShowMsgBox(slot0.choice)
-
-				return
-				--- END OF BLOCK #0 ---
-
-
-
+				pg.MsgboxMgr.GetInstance():ShowMsgBox(uv0.choice)
 			end
 
-			function slot4()
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-14, warpins: 1 ---
-				function slot0.sub.onYes()
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-4, warpins: 1 ---
-					if slot0.choice then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 5-7, warpins: 1 ---
-						slot1()
-						--- END OF BLOCK #0 ---
-
-
-
-					else
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 8-11, warpins: 1 ---
-						if slot0.overFlow then
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 12-14, warpins: 1 ---
-							slot2()
-							--- END OF BLOCK #0 ---
-
-
-
+			if uv2:getConfirmSetting().sub then
+				function ()
+					function uv0.sub.onYes()
+						if uv0.choice then
+							uv1()
+						elseif uv0.overFlow then
+							uv2()
 						else
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 15-16, warpins: 1 ---
-							slot3()
-							--- END OF BLOCK #0 ---
-
-
-
+							uv3()
 						end
-						--- END OF BLOCK #0 ---
-
-
-
 					end
 
-					--- END OF BLOCK #0 ---
-
-					FLOW; TARGET BLOCK #1
-
-
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #1 17-17, warpins: 3 ---
-					return
-					--- END OF BLOCK #1 ---
-
-
-
-				end
-
-				pg.MsgboxMgr.GetInstance():ShowMsgBox(slot0.sub)
-
-				return
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-
-			if function ()
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-14, warpins: 1 ---
-				function slot0.overFlow.onYes()
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-3, warpins: 1 ---
-					slot0()
-
-					return
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-
-				pg.MsgboxMgr.GetInstance():ShowMsgBox(slot0.overFlow)
-
-				return
-				--- END OF BLOCK #0 ---
-
-
-
-			end:getConfirmSetting().sub then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 12-14, warpins: 1 ---
-				slot4()
-				--- END OF BLOCK #0 ---
-
-
-
+					pg.MsgboxMgr.GetInstance():ShowMsgBox(uv0.sub)
+				end()
+			elseif slot1.choice then
+				slot3()
+			elseif slot1.overFlow then
+				slot2()
 			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 15-17, warpins: 1 ---
-				if slot1.choice then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 18-20, warpins: 1 ---
-					slot3()
-					--- END OF BLOCK #0 ---
-
-
-
-				else
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 21-23, warpins: 1 ---
-					if slot1.overFlow then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 24-26, warpins: 1 ---
-						slot2()
-						--- END OF BLOCK #0 ---
-
-
-
-					else
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 27-28, warpins: 1 ---
-						slot0()
-						--- END OF BLOCK #0 ---
-
-
-
-					end
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-				--- END OF BLOCK #0 ---
-
-
-
+				slot0()
 			end
 		end, SFX_PANEL)
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 29-35, warpins: 1 ---
-		slot2 = slot4
+		slot2 = uv4
 
 		onButton(slot0, slot0.GotoBtn, function ()
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-7, warpins: 1 ---
-			slot0.viewComponent:onGo(slot0.viewComponent)
-
-			return
-			--- END OF BLOCK #0 ---
-
-
-
+			uv0.viewComponent:onGo(uv1)
 		end, SFX_PANEL)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	SetActive(slot4, slot2 == slot0.GotoBtn)
-	SetActive(slot0.GetBtn, slot2 == slot2)
-	setActive(slot0.finishBg, slot2 == slot2 or slot2 == slot1)
-	setActive(slot0.unfinishBg, slot2 ~= slot2 and slot2 ~= BTN_STATE_FETC)
-	setActive(slot0.tip, slot2 == slot2 or slot2 == slot1)
+	SetActive(slot0.GotoBtn, slot2 == uv4)
+	SetActive(slot0.GetBtn, slot2 == uv2)
+	setActive(slot0.finishBg, slot2 == uv2 or slot2 == uv1)
+	setActive(slot0.unfinishBg, slot2 ~= uv2 and slot2 ~= BTN_STATE_FETC)
+	setActive(slot0.tip, slot2 == uv2 or slot2 == uv1)
 end
 
 function slot0.updateAwards(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-16, warpins: 1 ---
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 17-21, warpins: 0 ---
-	for slot7 = slot0.rewardPanel.childCount, #_.slice(slot1:getConfig("award_display"), 1, 3) - 1, 1 do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 17-21, warpins: 2 ---
+	for slot7 = slot0.rewardPanel.childCount, #_.slice(slot1:getConfig("award_display"), 1, 3) - 1 do
 		cloneTplTo(slot0._rewardModel, slot0.rewardPanel)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
+	for slot7 = 1, slot0.rewardPanel.childCount do
+		slot9 = slot7 <= #slot2
 
-	FLOW; TARGET BLOCK #2
+		setActive(slot0.rewardPanel:GetChild(slot7 - 1), slot9)
 
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 22-27, warpins: 1 ---
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 28-56, warpins: 0 ---
-	for slot7 = 1, slot0.rewardPanel.childCount, 1 do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 28-35, warpins: 2 ---
-		setActive(slot0.rewardPanel:GetChild(slot7 - 1), slot7 <= #slot2)
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 39-44, warpins: 2 ---
 		if slot9 then
+			slot10 = slot2[slot7]
 
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 45-55, warpins: 1 ---
 			updateDrop(slot8, {
-				type = slot2[slot7][1],
-				id = slot2[slot7][2],
-				count = slot2[slot7][3]
+				type = slot10[1],
+				id = slot10[2],
+				count = slot10[3]
 			})
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 56-56, warpins: 2 ---
-		--- END OF BLOCK #2 ---
-
-
-
 	end
-
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 57-57, warpins: 1 ---
-	return
-	--- END OF BLOCK #4 ---
-
-
-
 end
 
 function slot0.dispose(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-6, warpins: 1 ---
 	pg.DelegateInfo.Dispose(slot0)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 return slot0

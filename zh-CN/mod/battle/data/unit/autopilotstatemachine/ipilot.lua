@@ -10,7 +10,7 @@ end
 
 function slot1.SetParameter(slot0, slot1, slot2)
 	slot0._paramList = slot1
-	slot0._valve = slot1.valve or slot0.Battle.AutoPilot.PILOT_VALVE
+	slot0._valve = slot1.valve or uv0.Battle.AutoPilot.PILOT_VALVE
 	slot0._toIndex = slot2
 end
 
@@ -27,11 +27,8 @@ function slot1.Active(slot0, slot1)
 end
 
 function slot1.GetDirection(slot0, slot1)
-	return
 end
 
 function slot1.Finish(slot0)
 	slot0._pilot:NextStep()
 end
-
-return

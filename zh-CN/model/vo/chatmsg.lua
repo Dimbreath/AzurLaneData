@@ -1,4 +1,6 @@
-class("ChatMsg", import(".BaseVO")).Ctor = function (slot0, slot1, slot2)
+slot0 = class("ChatMsg", import(".BaseVO"))
+
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0.type = slot1
 	slot0.timestamp = slot2.timestamp
 	slot0.content = slot2.content
@@ -14,4 +16,4 @@ class("ChatMsg", import(".BaseVO")).Ctor = function (slot0, slot1, slot2)
 	slot0.args = slot2.args
 end
 
-return class("ChatMsg", import(".BaseVO"))
+return slot0

@@ -25,7 +25,7 @@ end
 
 function slot0.AddListener(slot0)
 	onButton(slot0, slot0:findTF("qr_btn"), function ()
-		slot0.confirmFunc()
+		uv0.confirmFunc()
 	end, SFX_CONFIRM)
 end
 
@@ -38,12 +38,14 @@ function slot0.initSkills(slot0)
 
 		if slot0._shipVO.skills[slot8] then
 			onButton(slot0, cloneTplTo(slot0.skillTpl, slot0.skillContainer), function ()
-				slot0:emit(NewShipMediator.ON_SKILLINFO, slot1.id, "", slot2[slot1.id])
+				uv0:emit(NewShipMediator.ON_SKILLINFO, uv1.id, "", uv2[uv3])
 			end, SFX_PANEL)
 		else
+			slot11 = cloneTplTo(slot0.emptyTpl, slot0.skillContainer)
+
 			setActive(slot0:findTF("mask", slot11), true)
-			onButton(slot0, cloneTplTo(slot0.emptyTpl, slot0.skillContainer), function ()
-				slot0:emit(NewShipMediator.ON_SKILLINFO, slot1.id, i18n("ship_skill_unlock_tip"))
+			onButton(slot0, slot11, function ()
+				uv0:emit(NewShipMediator.ON_SKILLINFO, uv1.id, i18n("ship_skill_unlock_tip"))
 			end, SFX_PANEL)
 		end
 
@@ -52,7 +54,7 @@ function slot0.initSkills(slot0)
 		LoadImageSpriteAsync("skillicon/" .. slot9.icon, findTF(slot11, "icon"))
 	end
 
-	for slot7 = slot3, 3, 1 do
+	for slot7 = slot3, 3 do
 		cloneTplTo(slot0.addTpl, slot0.skillContainer)
 	end
 end

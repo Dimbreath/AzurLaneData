@@ -1,10 +1,12 @@
-class("GuildQuitCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("GuildQuitCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(60018, {
 		id = slot1:getBody()
 	}, 60019, function (slot0)
 		if slot0.result == 0 then
-			getProxy(GuildProxy).exitGuild(slot1)
-			slot0:sendNotification(GAME.GUILD_QUIT_DONE)
+			getProxy(GuildProxy):exitGuild()
+			uv0:sendNotification(GAME.GUILD_QUIT_DONE)
 
 			slot2 = getProxy(PlayerProxy)
 			slot3 = slot2:getData()
@@ -18,4 +20,4 @@ class("GuildQuitCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end)
 end
 
-return class("GuildQuitCommand", pm.SimpleCommand)
+return slot0

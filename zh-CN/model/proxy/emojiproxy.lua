@@ -34,13 +34,13 @@ function slot0.saveNewEmojiIDList(slot0)
 		table.insert(slot1, slot6)
 	end
 
-	PlayerPrefs.SetString(slot0.NEW_EMOJI_SAVE_TAG .. slot2, table.concat(slot1, ":"))
+	PlayerPrefs.SetString(uv0.NEW_EMOJI_SAVE_TAG .. getProxy(PlayerProxy):getRawData().id, table.concat(slot1, ":"))
 end
 
 function slot0.loadNewEmojiIDList(slot0)
 	slot0._newIDList = {}
 
-	if #string.split(PlayerPrefs.GetString(slot0.NEW_EMOJI_SAVE_TAG .. getProxy(PlayerProxy):getRawData().id) or "", ":") > 0 then
+	if #string.split(PlayerPrefs.GetString(uv0.NEW_EMOJI_SAVE_TAG .. getProxy(PlayerProxy):getRawData().id) or "", ":") > 0 then
 		for slot6, slot7 in pairs(slot2) do
 			table.insert(slot0._newIDList, tonumber(slot7))
 		end
@@ -58,8 +58,7 @@ function slot0.addNewEmojiID(slot0, slot1)
 end
 
 function slot0.removeNewEmojiID(slot0, slot1)
-	if not table.indexof(slot0._newIDList, slot1, 1) then
-	else
+	if table.indexof(slot0._newIDList, slot1, 1) then
 		table.remove(slot0._newIDList, slot2)
 	end
 

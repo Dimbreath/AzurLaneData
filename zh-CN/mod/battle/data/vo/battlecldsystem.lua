@@ -1,10 +1,12 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleFormulas
+slot0 = ys
+slot1 = slot0.Battle.BattleFormulas
+slot2 = slot0.Battle.BattleConst
 slot3 = Vector3.zero
-slot4 = ys.Battle.BattleConst.OXY_STATE
-slot5 = ys.Battle.BattleConst.BulletType
+slot4 = slot2.OXY_STATE
+slot5 = slot2.BulletType
 slot6 = class("BattleCldSystem")
-ys.Battle.BattleCldSystem = slot6
+slot0.Battle.BattleCldSystem = slot6
 slot6.__name = "BattleCldSystem"
 
 function slot6.Ctor(slot0, slot1)
@@ -34,7 +36,7 @@ function slot6.Dispose(slot0)
 end
 
 function slot6.InitCldTree(slot0)
-	slot9, slot8, slot6, slot7 = slot0._proxy:GetTotalBounds()
+	slot1, slot2, slot3, slot4 = slot0._proxy:GetTotalBounds()
 	slot5 = Vector3(slot3, 0, slot2)
 	slot6 = Vector3(slot4, 0, slot1)
 	slot0._shipTree = pg.ColliderTree.New("shipTree", slot5, slot6, 2)
@@ -43,20 +45,20 @@ function slot6.InitCldTree(slot0)
 	slot0._surfaceBulletTree = pg.ColliderTree.New("surfaceBullets", slot5, slot6, 4)
 	slot0._airBulletTree = pg.ColliderTree.New("airBullets", slot5, slot6, 3)
 	slot0._bulletTreeList = {
-		[slot0.BulletField.SURFACE] = slot0._surfaceBulletTree,
-		[slot0.BulletField.AIR] = slot0._airBulletTree
+		[uv0.BulletField.SURFACE] = slot0._surfaceBulletTree,
+		[uv0.BulletField.AIR] = slot0._airBulletTree
 	}
 	slot0._foeSurafceBulletTree = pg.ColliderTree.New("foeSurfaceBullets", slot5, slot6, 3)
 	slot0._foeAirbulletTree = pg.ColliderTree.New("foeAirBullets", slot5, slot6, 3)
 	slot0._foeBulleetTreeList = {
-		[slot0.BulletField.SURFACE] = slot0._foeSurafceBulletTree,
-		[slot0.BulletField.AIR] = slot0._foeAirbulletTree
+		[uv0.BulletField.SURFACE] = slot0._foeSurafceBulletTree,
+		[uv0.BulletField.AIR] = slot0._foeAirbulletTree
 	}
 	slot0._surfaceAOETree = pg.ColliderTree.New("surfaceAOE", slot5, slot6, 2)
 	slot0._airAOETree = pg.ColliderTree.New("airAOE", slot5, slot6, 2)
 	slot0._AOETreeList = {
-		[slot0.AOEField.SURFACE] = slot0._surfaceAOETree,
-		[slot0.AOEField.AIR] = slot0._airAOETree
+		[uv0.AOEField.SURFACE] = slot0._surfaceAOETree,
+		[uv0.AOEField.AIR] = slot0._airAOETree
 	}
 	slot0._wallTree = pg.ColliderTree.New("wall", slot5, slot6, 2)
 end
@@ -67,7 +69,7 @@ function slot6.UpdateShipCldTree(slot0, slot1)
 	slot4 = nil
 	slot5 = true
 
-	if slot1:GetCldData().Surface == slot0.OXY_STATE.DIVE then
+	if slot1:GetCldData().Surface == uv0.OXY_STATE.DIVE then
 		slot5 = false
 	end
 
@@ -81,14 +83,16 @@ function slot6.UpdateShipCldTree(slot0, slot1)
 		end
 
 		if slot5 then
-			slot0._proxy:HandleShipCrashDecelerate(slot1, slot7)
-			slot0:HandlePlayerShipCld(slot0._shipTree:GetCldList(slot3, slot2), slot1)
+			slot6 = slot0._shipTree:GetCldList(slot3, slot2)
+
+			slot0._proxy:HandleShipCrashDecelerate(slot1, slot0.surfaceFilterCount(slot1, slot6))
+			slot0:HandlePlayerShipCld(slot6, slot1)
 		end
 
 		slot4 = slot0._foeShipTree
 	elseif slot1:GetIFF() == slot0._friendlyCode then
 		if slot5 then
-			slot0._proxy:HandleShipCrashDecelerate(slot1, slot0.surfaceFilterCount(slot1, slot6))
+			slot0._proxy:HandleShipCrashDecelerate(slot1, slot0.surfaceFilterCount(slot1, slot0._foeShipTree:GetCldList(slot3, slot2)))
 		end
 
 		slot4 = slot0._shipTree
@@ -104,12 +108,14 @@ function slot6.HandlePlayerShipCld(slot0, slot1, slot2)
 
 	slot5 = {}
 
-	for slot9 = 1, #slot1, 1 do
+	for slot9 = 1, #slot1 do
 		if slot1[slot9].data.Active == false then
+			-- Nothing
 		elseif slot10.UID == slot2:GetUniqueID() then
+			-- Nothing
 		elseif slot3.IFF == slot10.IFF then
-		elseif slot3.Surface ~= slot10.Surface then
-		else
+			-- Nothing
+		elseif slot3.Surface == slot10.Surface then
 			slot5[#slot5 + 1] = slot10.UID
 		end
 	end
@@ -125,14 +131,17 @@ function slot6.HandleEnemyShipCld(slot0, slot1, slot2)
 	slot4 = slot2:GetPosition()
 	slot5 = {}
 
-	for slot10 = 1, #slot1, 1 do
+	for slot10 = 1, #slot1 do
 		if slot1[slot10].data.Active == false then
+			-- Nothing
 		elseif slot11.UID == slot2:GetUniqueID() then
+			-- Nothing
 		elseif slot3.IFF ~= slot11.IFF then
+			-- Nothing
 		elseif not slot11.FriendlyCld then
-		elseif slot3.Surface ~= slot11.Surface then
-		else
-			slot5[#slot5 + 1] = slot4 - slot0:GetShip(slot11.UID).GetPosition(slot12)
+			-- Nothing
+		elseif slot3.Surface == slot11.Surface then
+			slot5[#slot5 + 1] = slot4 - slot0:GetShip(slot11.UID):GetPosition()
 		end
 	end
 
@@ -141,11 +150,10 @@ end
 
 function slot6.surfaceFilterCount(slot0, slot1)
 	slot2 = slot0:GetCldData()
-	slot3 = 0
 
-	for slot8 = 1, #slot1, 1 do
+	for slot8 = 1, #slot1 do
 		if slot1[slot8].data.Active == true and slot9.UID ~= slot0:GetUniqueID() and slot2.IFF ~= slot9.IFF and slot2.Surface == slot9.Surface then
-			slot3 = slot3 + 1
+			slot3 = 0 + 1
 		end
 	end
 
@@ -158,42 +166,41 @@ function slot6.UpdateAircraftCld(slot0, slot1)
 	slot4 = nil
 
 	if slot1:GetIFF() == slot0._foeCode then
-		slot4 = slot0:GetBulletTree(slot0.BulletField.AIR)
+		slot4 = slot0:GetBulletTree(uv0.BulletField.AIR)
 	elseif slot1:GetIFF() == slot0._friendlyCode then
-		slot4 = slot0:GetFoeBulletTree(slot0.BulletField.AIR)
+		slot4 = slot0:GetFoeBulletTree(uv0.BulletField.AIR)
 	end
 
-	slot0:HandleBulletCldWithAircraft(slot5, slot1)
+	slot0:HandleBulletCldWithAircraft(slot4:GetCldList(slot3, slot2), slot1)
 	slot0._aircraftTree:Update(slot1:GetCldBox())
 end
 
 function slot6.HandleBulletCldWithAircraft(slot0, slot1, slot2)
-	for slot7 = 1, #slot1, 1 do
-		if slot1[slot7].data.type == slot0.CldType.BULLET and slot8.Active == true then
+	for slot7 = 1, #slot1 do
+		if slot1[slot7].data.type == uv0.CldType.BULLET and slot8.Active == true then
 			slot0._proxy:HandleBulletHit(slot0:GetBullet(slot8.UID), slot2)
 		end
 	end
 end
 
 function slot6.UpdateBulletCld(slot0, slot1)
-	slot2 = slot1:GetEffectField()
 	slot3 = slot1:GetCldBox()
 	slot5, slot6 = nil
 
 	if slot1:GetCldData().IFF == slot0._friendlyCode then
-		slot5 = slot0:GetBulletTree(slot2)
+		slot5 = slot0:GetBulletTree(slot1:GetEffectField())
 	elseif slot4 == slot0._foeCode then
 		slot5 = slot0:GetFoeBulletTree(slot2)
 	end
 
-	if slot2 == slot0.BulletField.SURFACE then
+	if slot2 == uv0.BulletField.SURFACE then
 		if slot4 == slot0._friendlyCode then
 			slot6 = slot0:GetFoeShipTree()
 		elseif slot4 == slot0._foeCode then
 			slot6 = slot0:GetShipTree()
 		end
 
-		slot0:HandleBulletCldWithShip(slot6:GetCldList(slot3, slot1), slot1)
+		slot0:HandleBulletCldWithShip(slot6:GetCldList(slot3, uv1), slot1)
 	end
 
 	slot5:Update(slot3)
@@ -202,9 +209,10 @@ end
 function slot6.HandleBulletCldWithShip(slot0, slot1, slot2)
 	slot4 = slot2:GetType()
 
-	for slot8 = 1, #slot1, 1 do
-		if slot1[slot8].data.type == slot0.CldType.SHIP and slot9.Active == true then
-			if slot0:GetShip(slot9.UID):GetOxyState() and slot11:GetCurrentDiveState() == slot1.DIVE and slot2:GetCldData().Surface ~= slot0.OXY_STATE.DIVE then
+	for slot8 = 1, #slot1 do
+		if slot1[slot8].data.type == uv0.CldType.SHIP and slot9.Active == true then
+			if slot0:GetShip(slot9.UID):GetOxyState() and slot11:GetCurrentDiveState() == uv1.DIVE and slot2:GetCldData().Surface ~= uv0.OXY_STATE.DIVE then
+				-- Nothing
 			elseif slot0._proxy:HandleBulletHit(slot2, slot10) then
 				break
 			end
@@ -217,9 +225,10 @@ function slot6.UpdateAOECld(slot0, slot1)
 	slot4 = slot1:GetAngle() * math.deg2Rad
 	slot5 = nil
 
-	if slot1:GetFieldType() == slot0.BulletField.SURFACE then
+	if slot1:GetFieldType() == uv0.BulletField.SURFACE then
+		slot6 = slot1:GetCldData().IFF
 		slot8 = nil
-		slot8 = (not slot1:OpponentAffected() or ((slot1:GetCldData().IFF ~= slot0._foeCode or slot0._shipTree) and slot0._foeShipTree)) and (slot1.GetCldData().IFF ~= slot0._foeCode or slot0._foeShipTree) and slot0._shipTree
+		slot8 = (not slot1:OpponentAffected() or (slot6 ~= slot0._foeCode or slot0._shipTree) and slot0._foeShipTree) and (slot6 ~= slot0._foeCode or slot0._foeShipTree) and slot0._shipTree
 
 		if math.abs(math.cos(slot4)) ~= 1 then
 			if slot1:GetIFF() == -1 then
@@ -228,10 +237,10 @@ function slot6.UpdateAOECld(slot0, slot1)
 
 			slot5 = slot8:GetCldListGradient(slot4, slot1:GetHeight(), slot1:GetWidth(), slot1:GetPosition())
 		else
-			slot5 = slot8:GetCldList(slot2, slot1)
+			slot5 = slot8:GetCldList(slot2, uv1)
 		end
 	else
-		slot5 = slot0._aircraftTree:GetCldList(slot2, slot1)
+		slot5 = slot0._aircraftTree:GetCldList(slot2, uv1)
 	end
 
 	slot1:ClearCLDList()
@@ -242,24 +251,25 @@ function slot6.HandleAreaCldWithVehicle(slot0, slot1, slot2)
 	slot3 = slot1:GetCldData()
 	slot4 = slot1:OpponentAffected()
 
-	for slot9 = 1, #slot2, 1 do
+	for slot9 = 1, #slot2 do
 		slot10 = slot2[slot9].data
 
-		if (slot4 and slot10.IFF ~= slot3.IFF) or (not slot4 and slot10.IFF == slot3.IFF) then
+		if slot4 and slot10.IFF ~= slot3.IFF or not slot4 and slot10.IFF == slot3.IFF then
 			slot1:AppendCldObj(slot10)
 		end
 	end
 end
 
 function slot6.UpdateWallCld(slot0, slot1)
+	slot2 = slot1:GetCldBox()
 	slot3 = nil
 
-	slot0:HandleWallCldWithBullet(slot1, (slot1:GetIFF() ~= slot0._friendlyCode or slot0._foeSurafceBulletTree:GetCldList(slot1:GetCldBox(), slot0)) and slot0._surfaceBulletTree:GetCldList(slot1.GetCldBox(), slot0))
+	slot0:HandleWallCldWithBullet(slot1, (slot1:GetIFF() ~= slot0._friendlyCode or slot0._foeSurafceBulletTree:GetCldList(slot2, uv0)) and slot0._surfaceBulletTree:GetCldList(slot2, uv0))
 end
 
 function slot6.HandleWallCldWithBullet(slot0, slot1, slot2)
-	for slot7 = 1, #slot2, 1 do
-		if slot2[slot7].data.type == slot0.CldType.BULLET and slot8.Active == true and not slot0._proxy:HandleWallHitByBullet(slot1, slot0:GetBullet(slot8.UID)) then
+	for slot7 = 1, #slot2 do
+		if slot2[slot7].data.type == uv0.CldType.BULLET and slot8.Active == true and not slot0._proxy:HandleWallHitByBullet(slot1, slot0:GetBullet(slot8.UID)) then
 			return
 		end
 	end
@@ -393,7 +403,6 @@ function slot6.DeleteBulletCld(slot0, slot1)
 end
 
 function slot6.ShiftBulletCld(slot0, slot1)
-	return
 end
 
 function slot6.InitAOECld(slot0, slot1)
@@ -416,5 +425,3 @@ function slot6.DeleteWallCld(slot0, slot1)
 		slot0.DeleteCldLeaf(slot2, slot1)
 	end
 end
-
-return

@@ -1,8 +1,10 @@
-class("UnequipFromShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("UnequipFromShipCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.pos
 	slot5 = slot2.callback
-	slot7 = getProxy(BayProxy).getShipById(slot6, slot3)
+	slot7 = getProxy(BayProxy):getShipById(slot2.shipId)
 
 	if getProxy(PlayerProxy):getData().equip_bag_max <= getProxy(EquipmentProxy):getCapacity() then
 		NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
@@ -43,28 +45,28 @@ class("UnequipFromShipCommand", pm.SimpleCommand).execute = function (slot0, slo
 		if slot0.result == 0 then
 			slot1 = getProxy(EquipmentProxy)
 
-			if slot0:hasSkin() then
-				slot1:updateEquipmentSkin(slot1.updateEquipmentSkin, 0)
-				slot1:addEquipmentSkin(slot0.skinId, 1)
+			if uv0:hasSkin() then
+				uv1:updateEquipmentSkin(uv2, 0)
+				slot1:addEquipmentSkin(uv0.skinId, 1)
 
-				slot0.skinId = 0
+				uv0.skinId = 0
 
 				pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
 			end
 
-			slot1:updateEquip(slot1.updateEquip, nil)
-			slot1:updateShip(slot1)
-			slot1:addEquipment(slot0)
-			slot4:sendNotification(GAME.UNEQUIP_FROM_SHIP_DONE, slot1)
-			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequipFromShip_ok", slot0.config.name), "red")
+			uv1:updateEquip(uv2, nil)
+			uv3:updateShip(uv1)
+			slot1:addEquipment(uv0)
+			uv4:sendNotification(GAME.UNEQUIP_FROM_SHIP_DONE, uv1)
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequipFromShip_ok", uv0.config.name), "red")
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_unequipFromShip", slot0.result))
 		end
 
-		if slot5 then
-			slot5()
+		if uv5 then
+			uv5()
 		end
 	end)
 end
 
-return class("UnequipFromShipCommand", pm.SimpleCommand)
+return slot0

@@ -19,7 +19,7 @@ function slot0.update(slot0, slot1)
 
 	ChatProxy.InjectPublic(slot0.richText, slot1)
 	slot0.richText:AddListener(function (slot0, slot1)
-		slot0:clickItem(slot0, slot1.args[tonumber(slot1)])
+		uv0:clickItem(slot0, uv1.args[tonumber(slot1)])
 	end)
 
 	if slot0.channel then

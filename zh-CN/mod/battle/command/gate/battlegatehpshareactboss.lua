@@ -9,8 +9,6 @@ function slot0.Entrance(slot0, slot1)
 
 	slot2 = slot0.actID
 	slot3 = getProxy(PlayerProxy)
-	slot4 = getProxy(BayProxy)
-	slot5 = getProxy(FleetProxy)
 	slot7 = pg.battle_cost_template[SYSTEM_HP_SHARE_ACT_BOSS].oil_cost > 0
 	slot8 = {}
 	slot9 = 0
@@ -18,7 +16,7 @@ function slot0.Entrance(slot0, slot1)
 	slot11 = 0
 	slot12 = 0
 
-	for slot18, slot19 in ipairs(slot14) do
+	for slot18, slot19 in ipairs(getProxy(BayProxy):getSortShipsByFleet(getProxy(FleetProxy):getActivityFleets()[slot2][slot0.mainFleetId])) do
 		slot8[#slot8 + 1] = slot19.id
 	end
 
@@ -39,64 +37,63 @@ function slot0.Entrance(slot0, slot1)
 	end
 
 	slot20 = slot0.mainFleetId
-	slot23 = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot22).fleet_prefab
+	slot21 = slot0.stageId
+	slot23 = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot21].dungeon_id).fleet_prefab
 
 	slot1.ShipVertify()
 	BeginStageCommand.SendRequest(SYSTEM_HP_SHARE_ACT_BOSS, slot8, {
-		slot0.stageId,
+		slot21,
 		attachData
 	}, function (slot0)
-		if slot0 then
-			slot1:consume({
+		if uv0 then
+			uv1:consume({
 				gold = 0,
-				oil = slot1
+				oil = uv2
 			})
 		end
 
-		slot1:consume({
-			[id2res(slot3)] = 1
+		uv1:consume({
+			[id2res(uv3)] = 1
 		})
 
-		if slot4.enter_energy_cost > 0 and not exFlag then
-			slot2 = pg.gameset.battle_consume_energy.key_value
-
-			for slot6, slot7 in ipairs(slot5) do
-				slot7:cosumeEnergy(slot2)
-				slot6:updateShip(slot7)
+		if uv4.enter_energy_cost > 0 and not exFlag then
+			for slot6, slot7 in ipairs(uv5) do
+				slot7:cosumeEnergy(pg.gameset.battle_consume_energy.key_value)
+				uv6:updateShip(slot7)
 			end
 		end
 
-		slot7:updatePlayer(slot1)
-		slot12:sendNotification(GAME.BEGIN_STAGE_DONE, {
-			mainFleetId = slot8,
-			actId = slot9,
-			prefabFleet = slot10,
-			stageId = slot11,
+		uv7:updatePlayer(uv1)
+		uv12:sendNotification(GAME.BEGIN_STAGE_DONE, {
+			mainFleetId = uv8,
+			actId = uv9,
+			prefabFleet = uv10,
+			stageId = uv11,
 			system = SYSTEM_HP_SHARE_ACT_BOSS,
 			token = slot0.key
 		})
 	end, function (slot0)
-		slot0:RequestFailStandardProcess(slot0)
+		uv0:RequestFailStandardProcess(slot0)
 	end)
 end
 
 function slot0.Exit(slot0, slot1)
 	slot2 = pg.battle_cost_template[SYSTEM_HP_SHARE_ACT_BOSS]
 	slot4 = getProxy(BayProxy)
+	slot7 = getProxy(FleetProxy):getActivityFleets()[slot0.actID][slot0.mainFleetId]
 	slot8 = 0
 	slot9 = {}
-	slot8 = getProxy(FleetProxy).getActivityFleets(slot3)[slot0.actID][slot0.mainFleetId].getEndCost(slot7).oil
-	slot11 = {}
+	slot8 = slot7:getEndCost().oil
 
-	for slot15, slot16 in pairs(getProxy(FleetProxy).getActivityFleets(slot3)[slot0.actID][slot0.mainFleetId].commanderIds) do
-		table.insert(slot11, slot16)
+	for slot15, slot16 in pairs(slot7.commanderIds) do
+		table.insert({}, slot16)
 	end
 
 	slot9 = slot4:getSortShipsByFleet(slot7)
 
 	if slot0.statistics.submarineAid then
 		if slot6[slot0.mainFleetId + 10] then
-			for slot17, slot18 in ipairs(slot13) do
+			for slot17, slot18 in ipairs(slot4:getShipsByFleet(slot12)) do
 				if slot0.statistics[slot18.id] then
 					table.insert(slot9, slot18)
 
@@ -127,22 +124,22 @@ function slot0.Exit(slot0, slot1)
 	slot13.enemy_info = slot14
 
 	slot1:SendRequest(slot13, function (slot0)
-		if slot0.end_sink_cost > 0 then
-			slot1.DeadShipEnergyCosume(slot2, slot3)
+		if uv0.end_sink_cost > 0 then
+			uv1.DeadShipEnergyCosume(uv2, uv3)
 		end
 
-		slot1.addShipsExp(slot0.ship_exp_list, slot2.statistics, true)
+		uv1.addShipsExp(slot0.ship_exp_list, uv2.statistics, true)
 
-		slot2.statistics.mvpShipID = slot0.mvp
-		slot1, slot2 = slot2.statistics:GeneralLoot(slot0)
+		uv2.statistics.mvpShipID = slot0.mvp
+		slot1, slot2 = uv1:GeneralLoot(slot0)
 
-		slot1.GeneralPlayerCosume(SYSTEM_HP_SHARE_ACT_BOSS, ys.Battle.BattleConst.BattleScore.C < true, , slot0.player_exp, exFlag)
-		slot1:sendNotification(GAME.FINISH_STAGE_DONE, {
+		uv1.GeneralPlayerCosume(SYSTEM_HP_SHARE_ACT_BOSS, ys.Battle.BattleConst.BattleScore.C < uv4, uv6, slot0.player_exp, exFlag)
+		uv1:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = SYSTEM_HP_SHARE_ACT_BOSS,
-			statistics = slot2.statistics,
-			score = slot4,
+			statistics = uv2.statistics,
+			score = uv4,
 			drops = slot1,
-			commanderExps = slot1.GenerateCommanderExp(slot0, ),
+			commanderExps = uv1.GenerateCommanderExp(slot0, uv5),
 			result = slot0.result,
 			extraDrops = slot2
 		})

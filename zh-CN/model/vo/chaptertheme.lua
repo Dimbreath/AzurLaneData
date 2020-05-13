@@ -13,7 +13,9 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.GetLinePosition(slot0, slot1, slot2)
-	return Vector3(Vector2(slot2 + 0.5, ChapterConst.MaxRow * 0.5 - slot1 - 0.5).x * (slot0.cellSize.x + slot0.cellSpace.x), Vector2(slot2 + 0.5, ChapterConst.MaxRow * 0.5 - slot1 - 0.5).y * (slot0.cellSize.y + slot0.cellSpace.y), 0)
+	slot3 = Vector2(slot2 + 0.5, ChapterConst.MaxRow * 0.5 - slot1 - 0.5)
+
+	return Vector3(slot3.x * (slot0.cellSize.x + slot0.cellSpace.x), slot3.y * (slot0.cellSize.y + slot0.cellSpace.y), 0)
 end
 
 return slot0

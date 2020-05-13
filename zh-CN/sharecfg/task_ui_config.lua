@@ -60,5 +60,3 @@ pg.taskUIConfig = {
 		activity = {}
 	}
 }
-
-return

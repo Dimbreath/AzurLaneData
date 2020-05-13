@@ -8,27 +8,27 @@ end
 function slot0.SetUp(slot0, slot1, slot2)
 	seriesAsync({
 		function (slot0)
-			slot0.OnDisenabelUIEvent = slot0
+			uv0.OnDisenabelUIEvent = uv1
 
-			slot0:InitStage(slot0)
+			uv0:InitStage(uv2)
 
-			if not slot0.model:GetPlayableStory() then
+			if not uv0.model:GetPlayableStory() then
 				slot0()
 
 				return
 			end
 
-			slot0.mediator:PlayStory(slot1, slot0)
+			uv0.mediator:PlayStory(slot1, slot0)
 		end,
 		function (slot0)
-			if slot0.hp > 0 then
-				slot1.mediator:DoCurtainUp(slot0)
+			if uv0.hp > 0 then
+				uv1.mediator:DoCurtainUp(slot0)
 			else
 				slot0()
 			end
 		end,
 		function (slot0)
-			slot0.mediator:OnInited()
+			uv0.mediator:OnInited()
 		end
 	})
 end
@@ -42,7 +42,10 @@ end
 function slot0.InitStage(slot0, slot1)
 	slot0.model:AddMonsterNian(slot1.hp, slot1.maxHp)
 	slot0.model:AddFuShun()
-	slot0.mediator:OnAddMonsterNian(slot2, slot3)
+
+	slot2 = slot0.model.mosterNian.hp
+
+	slot0.mediator:OnAddMonsterNian(slot2, slot0.model.mosterNian.maxHp)
 	slot0.mediator:OnAddFuShun(slot2)
 	slot0.model:SetAttackCnt(slot1.leftCount)
 	slot0.mediator:OnAttackCntUpdate(slot0.model.attackCnt, slot0.isFake or slot0.model.mosterNian.hp <= 0)
@@ -57,7 +60,7 @@ function slot0.Input(slot0, slot1)
 	slot0:RemoveInputTimer()
 	slot0:UpdateActionStr(slot1)
 
-	slot3 = (slot0.model:IsMatchAction() and 0.5) or BeatMonsterNianConst.INPUT_TIME
+	slot3 = slot0.model:IsMatchAction() and 0.5 or BeatMonsterNianConst.INPUT_TIME
 
 	if slot2 then
 		slot0.OnDisenabelUIEvent(true)
@@ -66,10 +69,10 @@ function slot0.Input(slot0, slot1)
 	end
 
 	slot0.inputTimer = Timer.New(function ()
-		slot0:UpdateActionStr("")
+		uv0:UpdateActionStr("")
 
-		if slot0.model:GetMonsterAction() then
-			slot0:StartAction(slot0, slot1)
+		if uv1 then
+			uv0:StartAction(uv0.model:GetMatchAction(), uv0.model:GetMonsterAction())
 		end
 	end, slot3, 1)
 
@@ -83,45 +86,45 @@ function slot0.StartAction(slot0, slot1, slot2)
 
 	seriesAsync({
 		function (slot0)
-			slot0:SendRequestToServer(function (slot0)
-				slot0 = slot0
+			uv0:SendRequestToServer(function (slot0)
+				uv0 = slot0
 
-				slot1()
+				uv1()
 			end)
 		end,
 		function (slot0)
-			slot0.mediator:OnChangeFuShunAction(slot0.mediator.OnChangeFuShunAction)
-			slot0.mediator:OnChangeNianAction(slot0.mediator)
+			uv0.mediator:OnChangeFuShunAction(uv1)
+			uv0.mediator:OnChangeNianAction(uv2)
 
-			slot0.animationTimer = Timer.New(slot0, 2, 1)
+			uv0.animationTimer = Timer.New(slot0, 2, 1)
 
-			slot0.animationTimer:Start()
+			uv0.animationTimer:Start()
 		end,
 		function (slot0)
-			slot0.mediator:OnUIHpUpdate(slot0.model.mosterNian.hp, slot0.model.mosterNian.maxHp, slot0)
+			uv0.mediator:OnUIHpUpdate(uv0.model.mosterNian.hp, uv0.model.mosterNian.maxHp, slot0)
 		end,
 		function (slot0)
-			if not slot0.model:GetPlayableStory() then
+			if not uv0.model:GetPlayableStory() then
 				slot0()
 
 				return
 			end
 
-			slot0.mediator:PlayStory(slot1, slot0)
+			uv0.mediator:PlayStory(slot1, slot0)
 		end,
 		function (slot0)
-			if not slot0 or #slot0 == 0 then
+			if not uv0 or #uv0 == 0 then
 				slot0()
 
 				return
 			end
 
-			slot1.mediator:DisplayAwards(slot0, slot0)
+			uv1.mediator:DisplayAwards(uv0, slot0)
 		end,
 		function (slot0)
-			slot0.isOnAction = false
+			uv0.isOnAction = false
 
-			slot0.OnDisenabelUIEvent(false)
+			uv0.OnDisenabelUIEvent(false)
 		end
 	})
 end

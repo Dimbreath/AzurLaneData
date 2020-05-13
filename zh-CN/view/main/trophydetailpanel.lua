@@ -19,7 +19,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._conditionTpl = findTF(slot0._tf, "center/conditions/condition_tpl")
 
 	onButton(slot0, slot0._go, function ()
-		slot0:SetActive(false)
+		uv0:SetActive(false)
 	end, SFX_CANCEL)
 
 	slot0._stepper = findTF(slot0._tf, "center/stepper")
@@ -28,10 +28,10 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._pageText = findTF(slot0._stepper, "page")
 
 	onButton(slot0, slot0._postTrophyBtn, function ()
-		slot0:UpdateTrophy(slot0._trophyGroup:getPostTrophy(slot0._trophy))
+		uv0:UpdateTrophy(uv0._trophyGroup:getPostTrophy(uv0._trophy))
 	end)
 	onButton(slot0, slot0._preTrophyBtn, function ()
-		slot0:UpdateTrophy(slot0._trophyGroup:getPreTrophy(slot0._trophy))
+		uv0:UpdateTrophy(uv0._trophyGroup:getPreTrophy(uv0._trophy))
 	end)
 
 	slot0._active = false
@@ -62,20 +62,18 @@ function slot0.UpdateTrophy(slot0, slot1)
 	SetActive(slot0._lock, not slot1:isClaimed())
 	LoadImageSpriteAsync("medal/" .. slot1:getConfig("label"), slot0._nameLabel, true)
 
-	function slot2(slot0, slot1)
-		setText(findTF(slot0, "desc"), slot1:getConfig("condition"))
-
-		slot2, slot3 = slot1:getProgress()
-
-		if slot1:getTargetType() == Trophy.INTAMACT_TYPE then
-			setText(findTF(slot0, "progress"), (slot1:isDummy() and "") or "[" .. math.modf(slot2 / 100) .. "/" .. math.modf(slot3 / 100) .. "]")
-		else
-			setText(findTF(slot0, "progress"), (slot1:isDummy() and "") or "[" .. slot2 .. "/" .. slot3 .. "]")
-		end
-	end
-
 	if not slot1:isComplexTrophy() then
-		slot2(cloneTplTo(slot0._conditionTpl, slot0._conditionList), slot1)
+		function (slot0, slot1)
+			setText(findTF(slot0, "desc"), slot1:getConfig("condition"))
+
+			slot2, slot3 = slot1:getProgress()
+
+			if slot1:getTargetType() == Trophy.INTAMACT_TYPE then
+				setText(findTF(slot0, "progress"), slot1:isDummy() and "" or "[" .. math.modf(slot2 / 100) .. "/" .. math.modf(slot3 / 100) .. "]")
+			else
+				setText(findTF(slot0, "progress"), slot1:isDummy() and "" or "[" .. slot2 .. "/" .. slot3 .. "]")
+			end
+		end(cloneTplTo(slot0._conditionTpl, slot0._conditionList), slot1)
 	else
 		for slot6, slot7 in pairs(slot1:getSubTrophy()) do
 			slot2(cloneTplTo(slot0._conditionTpl, slot0._conditionList), slot7)
@@ -88,7 +86,7 @@ function slot0.UpdateTrophy(slot0, slot1)
 end
 
 function slot0.updateStepper(slot0, slot1)
-	setText(slot0._pageText, slot2 .. "/" .. slot0._trophyGroup:getTrophyCount())
+	setText(slot0._pageText, slot0._trophyGroup:getTrophyIndex(slot0._trophy) .. "/" .. slot0._trophyGroup:getTrophyCount())
 end
 
 function slot0.SetActive(slot0, slot1)

@@ -9,12 +9,11 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDataSetting(slot0)
-	return
 end
 
 function slot0.OnFirstFlush(slot0)
 	onButton(slot0, slot0.startBtn, function ()
-		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CARD_PAIRS)
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CARD_PAIRS)
 	end, SFX_PANEL)
 end
 

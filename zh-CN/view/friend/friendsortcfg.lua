@@ -9,12 +9,12 @@ return {
 						if slot0.online == slot1.online then
 							if slot0.preOnLineTime == slot1.preOnLineTime then
 								return slot0.id < slot1.id
-							elseif slot0 then
+							elseif uv0 then
 								return slot0.preOnLineTime < slot1.preOnLineTime
 							else
 								return slot1.preOnLineTime < slot0.preOnLineTime
 							end
-						elseif slot0 then
+						elseif uv0 then
 							return slot0.online < slot1.online
 						else
 							return slot1.online < slot0.online
@@ -32,18 +32,18 @@ return {
 				slot2 = pg.ship_data_statistics
 
 				table.sort(slot0, function (slot0, slot1)
-					if slot0[slot0.icon].star == slot0[slot1.icon].star then
+					if uv0[slot0.icon].star == uv0[slot1.icon].star then
 						if slot0.level == slot1.level then
 							return slot0.id < slot1.id
-						elseif slot1 then
+						elseif uv1 then
 							return slot0.level < slot1.level
 						else
 							return slot1.level < slot0.level
 						end
-					elseif slot1 then
-						return slot0[slot0.icon].star < slot0[slot1.icon].star
+					elseif uv1 then
+						return uv0[slot0.icon].star < uv0[slot1.icon].star
 					else
-						return slot0[slot1.icon].star < slot0[slot0.icon].star
+						return uv0[slot1.icon].star < uv0[slot0.icon].star
 					end
 				end)
 			end
@@ -55,7 +55,7 @@ return {
 				table.sort(slot0, function (slot0, slot1)
 					if slot0.level == slot1.level then
 						return slot0.id < slot1.id
-					elseif slot0 then
+					elseif uv0 then
 						return slot0.level < slot1.level
 					else
 						return slot1.level < slot0.level

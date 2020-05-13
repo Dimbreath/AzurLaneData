@@ -74,7 +74,7 @@ function slot0.init(slot0)
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.overLay = pg.UIMgr.GetInstance().OverlayMain
 
-	setActive(slot1, false)
+	setActive(slot0:findTF("facility", slot0.togglesRoot), false)
 
 	slot0._bg = slot0:findTF("bg")
 
@@ -90,9 +90,9 @@ end
 function slot0.preload(slot0, slot1)
 	if GuildMainMediator.BG then
 		GetSpriteFromAtlasAsync(GuildMainMediator.BG, "", function (slot0)
-			slot0.bgSprite = slot0
+			uv0.bgSprite = slot0
 
-			slot0()
+			uv1()
 		end)
 	else
 		slot1()
@@ -107,8 +107,8 @@ function slot0.updateBg(slot0)
 		GuildMainMediator.BG = slot2
 
 		GetSpriteFromAtlasAsync(GuildMainMediator.BG, "", function (slot0)
-			if not IsNil(slot0._bg) then
-				setImageSprite(slot0._bg, slot0, false)
+			if not IsNil(uv0._bg) then
+				setImageSprite(uv0._bg, slot0, false)
 			end
 		end)
 	end
@@ -117,12 +117,12 @@ end
 function slot0.didEnter(slot0)
 	setParent(slot0.blurPanel, slot0.overLay)
 	onButton(slot0, slot0.back, function ()
-		if not slot0.loadFinish then
+		if not uv0.loadFinish then
 			return
 		end
 
 		LeanTween.delayedCall(0.31, System.Action(function ()
-			slot0:emit(GuildMainMediator.ON_BACK)
+			uv0:emit(GuildMainMediator.ON_BACK)
 		end))
 	end, SOUND_BACK)
 	slot0:initTheme()
@@ -133,7 +133,7 @@ function slot0.updateNotices(slot0, slot1)
 end
 
 function slot0.enterPage(slot0)
-	triggerToggle(slot0.toggles[slot0.contextData.page or slot0], true)
+	triggerToggle(slot0.toggles[slot0.contextData.page or uv0], true)
 end
 
 function slot0.initTheme(slot0)
@@ -146,8 +146,8 @@ function slot0.initTheme(slot0)
 		GuildMainMediator.BG = slot0.guildVO:getBgName()
 
 		GetSpriteFromAtlasAsync(GuildMainMediator.BG, "", function (slot0)
-			if not IsNil(slot0._bg) then
-				setImageSprite(slot0._bg, slot0, false)
+			if not IsNil(uv0._bg) then
+				setImageSprite(uv0._bg, slot0, false)
 			end
 		end)
 	end
@@ -162,22 +162,22 @@ function slot0.initTheme(slot0)
 		PoolMgr.GetInstance():GetUI(slot2, true, function (slot0)
 			pg.UIMgr.GetInstance():LoadingOff()
 
-			if slot0.exited then
-				PoolMgr.GetInstance():ReturnUI(PoolMgr.GetInstance().ReturnUI, slot0)
+			if uv0.exited then
+				PoolMgr.GetInstance():ReturnUI(uv1, slot0)
 
 				return
 			end
 
-			slot0.themePanel = tf(slot0)
+			uv0.themePanel = tf(slot0)
 
-			setParent(tf(slot0), slot0:findTF("main"))
-			slot0:updateTheme()
-			slot0:updateGuildInfo(slot0.guildVO)
-			slot0:initToggles()
-			slot0:enterPage()
-			slot0:updateAdmin()
+			setParent(tf(slot0), uv0:findTF("main"))
+			uv0:updateTheme()
+			uv0:updateGuildInfo(uv0.guildVO)
+			uv0:initToggles()
+			uv0:enterPage()
+			uv0:updateAdmin()
 
-			slot0.loadFinish = true
+			uv0.loadFinish = true
 		end)
 	else
 		slot0:updateGuildInfo(slot0.guildVO)
@@ -191,27 +191,28 @@ end
 function slot0.initToggles(slot0)
 	slot0.toggles = {}
 
-	for slot4, slot5 in ipairs(slot0) do
-		slot0.toggles[slot5[1]] = slot0.togglesRoot:Find(slot5[1])
+	for slot4, slot5 in ipairs(uv0) do
+		slot6 = slot5[1]
+		slot0.toggles[slot6] = slot0.togglesRoot:Find(slot6)
 
-		setActive(slot0.toggles[slot5[1]], slot4 <= 3)
+		setActive(slot0.toggles[slot6], slot4 <= 3)
 		onToggle(slot0, slot0.toggles[slot6], function (slot0)
 			if slot0 then
-				slot0:openPage(slot0.openPage)
+				uv0:openPage(uv1)
 			else
-				slot0:closePage(slot0.closePage)
+				uv0:closePage(uv1)
 			end
 		end, SFX_PANEL)
 	end
 
 	slot0:updateEventBtn(getProxy(GuildProxy).eventTip)
-	slot1(slot0.toggles[slot1], slot0.activity and not slot0.activity:isEnd())
+	setActive(slot0.toggles[uv1], slot0.activity and not slot0.activity:isEnd())
 end
 
 function slot0.updateEventBtn(slot0, slot1)
 	if slot0.toggles then
-		setActive(slot0.toggles[slot0], slot0.guildEvent and not slot0.guildEvent:isEnd())
-		setActive(slot0.toggles[slot0]:Find("tip"), slot1)
+		setActive(slot0.toggles[uv0], slot0.guildEvent and not slot0.guildEvent:isEnd())
+		setActive(slot0.toggles[uv0]:Find("tip"), slot1)
 	end
 end
 
@@ -222,42 +223,42 @@ function slot0.openPage(slot0, slot1)
 
 	slot0.init = nil
 
-	if slot1 == slot0 then
+	if slot1 == uv0 then
 		setActive(slot0.themePanel, true)
-	elseif slot1 == slot1 then
+	elseif slot1 == uv1 then
 		slot0:emit(GuildMainMediator.OPEN_MEMBER)
-	elseif slot1 == slot2 then
+	elseif slot1 == uv2 then
 		slot0:emit(GuildMainMediator.OPEN_APPLY)
-	elseif slot1 == slot3 then
+	elseif slot1 == uv3 then
 		slot0:emit(GuildMainMediator.OPEN_ACTIVITY)
-	elseif slot1 == slot4 then
+	elseif slot1 == uv4 then
 		slot0:emit(GuildMainMediator.OPEN_BOSS_ACTIVITY, slot0.guildVO.faction)
-	elseif slot1 == slot5 then
+	elseif slot1 == uv5 then
 		slot0:emit(GuildMainMediator.OPEN_SHOP)
-	elseif slot1 == slot6 then
+	elseif slot1 == uv6 then
 		slot0:emit(GuildMainMediator.OPEN_FACILITY)
 	end
 
-	if slot1 ~= slot5 then
+	if slot1 ~= uv5 then
 		slot0.contextData.page = slot1
 	end
 end
 
 function slot0.closePage(slot0, slot1)
-	if slot1 == slot0 then
+	if slot1 == uv0 then
 		setActive(slot0.themePanel, false)
 		slot0:closeModifyPanel()
-	elseif slot1 == slot1 then
+	elseif slot1 == uv1 then
 		slot0:emit(GuildMainMediator.CLOSE_MEMBER)
-	elseif slot1 == slot2 then
+	elseif slot1 == uv2 then
 		slot0:emit(GuildMainMediator.CLOSE_APPLY)
-	elseif slot1 == slot3 then
+	elseif slot1 == uv3 then
 		slot0:emit(GuildMainMediator.CLOSE_ACTIVITY)
-	elseif slot1 == slot4 then
+	elseif slot1 == uv4 then
 		slot0:emit(GuildMainMediator.CLOSE_BOSS_ACTIVITY)
-	elseif slot1 == slot5 then
+	elseif slot1 == uv5 then
 		slot0:emit(GuildMainMediator.CLOSE_SHOP)
-	elseif slot1 == slot6 then
+	elseif slot1 == uv6 then
 		slot0:emit(GuildMainMediator.CLOSE_FACILITY)
 	end
 end
@@ -292,7 +293,7 @@ function slot0.updateTheme(slot0)
 	onInputEndEdit(slot0, slot0.announce.gameObject, function (slot0)
 		if wordVer(slot0) > 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("playerinfo_mask_word"))
-			setInputText(slot0.announce, slot0.guildVO.announce)
+			setInputText(uv0.announce, uv0.guildVO.announce)
 
 			return
 		end
@@ -301,17 +302,17 @@ function slot0.updateTheme(slot0)
 			return
 		end
 
-		if slot0 == slot0.guildVO.announce then
+		if slot0 == uv0.guildVO.announce then
 			return
 		end
 
-		slot0:emit(GuildMainMediator.MODIFY, 5, 0, slot0)
+		uv0:emit(GuildMainMediator.MODIFY, 5, 0, slot0)
 	end)
 	onButton(slot0, slot0.modifyBtn, function ()
-		slot0:showModifyPanel()
+		uv0:showModifyPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.sendBtn, function ()
-		if wordVer(slot0) > 0 then
+		if wordVer(uv0.msgInput.text) > 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("playerinfo_mask_word"))
 
 			return
@@ -323,21 +324,23 @@ function slot0.updateTheme(slot0)
 			return
 		end
 
-		if slot0.chatTimer and pg.TimeMgr.GetInstance():GetServerTime() - slot0.chatTimer < 5 then
+		if uv0.chatTimer and pg.TimeMgr.GetInstance():GetServerTime() - uv0.chatTimer < 5 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("dont_send_message_frequently"))
 
 			return
 		end
 
-		slot0.chatTimer = pg.TimeMgr.GetInstance():GetServerTime()
+		uv0.chatTimer = pg.TimeMgr.GetInstance():GetServerTime()
 
-		slot0:emit(GuildMainMediator.SEND_MSG, slot0)
+		uv0:emit(GuildMainMediator.SEND_MSG, slot0)
 
-		slot0.msgInput.text = ""
+		uv0.msgInput.text = ""
 	end, SFX_PANEL)
 	onButton(slot0, slot0.emojiBtn, function ()
-		slot0:emit(GuildMainMediator.OPEN_EMOJI, Vector3(slot0.emojiBtn.position.x, slot0.emojiBtn.position.y, 0), function (slot0)
-			slot0:emit(GuildMainMediator.SEND_MSG, string.gsub(ChatConst.EmojiCode, "code", slot0))
+		slot0 = uv0.emojiBtn.position
+
+		uv0:emit(GuildMainMediator.OPEN_EMOJI, Vector3(slot0.x, slot0.y, 0), function (slot0)
+			uv0:emit(GuildMainMediator.SEND_MSG, string.gsub(ChatConst.EmojiCode, "code", slot0))
 		end)
 	end, SFX_PANEL)
 	slot0:updateModifyPanel()
@@ -350,7 +353,7 @@ function slot0.updateAdmin(slot0)
 
 	slot0.announce.interactable = slot0.guildVO:getDutyByMemberId(slot0.playerVO.id) == GuildMember.DUTY_COMMANDER or slot1 == GuildMember.DUTY_DEPUTY_COMMANDER
 
-	setActive(slot0.toggles[slot0], slot1 == GuildMember.DUTY_COMMANDER or slot1 == GuildMember.DUTY_DEPUTY_COMMANDER)
+	setActive(slot0.toggles[uv0], slot1 == GuildMember.DUTY_COMMANDER or slot1 == GuildMember.DUTY_DEPUTY_COMMANDER)
 	setActive(slot0.quitBtn, slot1 ~= GuildMember.DUTY_COMMANDER)
 	setActive(slot0.dissolveBtn, slot1 == GuildMember.DUTY_COMMANDER)
 end
@@ -366,11 +369,12 @@ function slot0.showModifyPanel(slot0)
 
 	slot0.nameInput.text = slot0.guildVO:getName()
 	slot0.manifestoInput.text = slot0.guildVO.manifesto
-	slot0.nameInput.interactable = slot0.guildVO:getDutyByMemberId(slot0.playerVO.id) == GuildMember.DUTY_COMMANDER
-	slot0.manifestoInput.interactable = slot0.guildVO.getDutyByMemberId(slot0.playerVO.id) == GuildMember.DUTY_COMMANDER
+	slot1 = slot0.guildVO:getDutyByMemberId(slot0.playerVO.id) == GuildMember.DUTY_COMMANDER
+	slot0.nameInput.interactable = slot1
+	slot0.manifestoInput.interactable = slot1
 
-	setActive(slot0.confirmBtn, slot0.guildVO.getDutyByMemberId(slot0.playerVO.id) == GuildMember.DUTY_COMMANDER)
-	setActive(slot0.cancelBtn, slot0.guildVO.getDutyByMemberId(slot0.playerVO.id) == GuildMember.DUTY_COMMANDER)
+	setActive(slot0.confirmBtn, slot1)
+	setActive(slot0.cancelBtn, slot1)
 	setActive(slot0.factionMask, slot0.guildVO:inChangefactionTime())
 
 	if slot0.guildVO:inChangefactionTime() then
@@ -381,12 +385,12 @@ function slot0.showModifyPanel(slot0)
 
 	onToggle(slot0, slot0.factionBLHXToggle, function (slot0)
 		if slot0 then
-			slot0.faction = Guild.FACTION_TYPE_BLHX
+			uv0.faction = Guild.FACTION_TYPE_BLHX
 		end
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.factionCSZZToggle, function (slot0)
 		if slot0 then
-			slot0.faction = Guild.FACTION_TYPE_CSZZ
+			uv0.faction = Guild.FACTION_TYPE_CSZZ
 		end
 	end, SFX_PANEL)
 
@@ -394,12 +398,12 @@ function slot0.showModifyPanel(slot0)
 
 	onToggle(slot0, slot0.policyRELAXToggle, function (slot0)
 		if slot0 then
-			slot0.policy = Guild.POLICY_TYPE_RELAXATION
+			uv0.policy = Guild.POLICY_TYPE_RELAXATION
 		end
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.policyPOWERToggle, function (slot0)
 		if slot0 then
-			slot0.policy = Guild.POLICY_TYPE_POWER
+			uv0.policy = Guild.POLICY_TYPE_POWER
 		end
 	end, SFX_PANEL)
 
@@ -441,14 +445,14 @@ function slot0.updateModifyPanel(slot0)
 
 	setActive(slot0.modifyPanel, false)
 	onButton(slot0, slot0.cancelBtn, function ()
-		slot0:closeModifyPanel()
+		uv0:closeModifyPanel()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.dissolveBtn, function ()
-		if slot0.guildVO then
+		if uv0.guildVO then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("guild_tip_dissolve"),
 				onYes = function ()
-					slot0:emit(GuildMainMediator.DISSOLVE, slot0.guildVO.id)
+					uv0:emit(GuildMainMediator.DISSOLVE, uv0.guildVO.id)
 				end
 			})
 		end
@@ -457,23 +461,24 @@ function slot0.updateModifyPanel(slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_tip_quit"),
 			onYes = function ()
-				slot0:emit(GuildMainMediator.QUIT, slot0.guildVO.id)
+				uv0:emit(GuildMainMediator.QUIT, uv0.guildVO.id)
 			end
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.modifyBackBG, function ()
-		slot0:closeModifyPanel()
+		uv0:closeModifyPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
-		slot2 = slot0.manifestoInput.text
+		slot0 = Clone(uv0.guildVO)
+		slot2 = uv0.manifestoInput.text
 
-		if not slot0.nameInput.text or slot1 == "" then
+		if not uv0.nameInput.text or slot1 == "" then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_create_error_noname"))
 
 			return
 		end
 
-		if slot0.guildVO:getName() ~= slot1 and not nameValidityCheck(slot1, 0, 20, {
+		if uv0.guildVO:getName() ~= slot1 and not nameValidityCheck(slot1, 0, 20, {
 			"spece_illegal_tip",
 			"login_newPlayerScene_name_tooShort",
 			"login_newPlayerScene_name_tooLong",
@@ -482,7 +487,7 @@ function slot0.updateModifyPanel(slot0)
 			return
 		end
 
-		if slot1 ~= slot0.guildVO:getName() and getProxy(PlayerProxy):getData():getTotalGem() < pg.gameset.modify_guild_cost.key_value then
+		if slot1 ~= uv0.guildVO:getName() and getProxy(PlayerProxy):getData():getTotalGem() < pg.gameset.modify_guild_cost.key_value then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_rmb"))
 
 			return
@@ -495,46 +500,67 @@ function slot0.updateModifyPanel(slot0)
 		end
 
 		slot0:setName(slot1)
-		slot0:setPolicy(slot0.policy)
-		slot0:setFaction(slot0.faction)
+		slot0:setPolicy(uv0.policy)
+		slot0:setFaction(uv0.faction)
 		slot0:setManifesto(slot2)
 
 		function slot3()
-			if slot0:getPolicy() ~= slot1.guildVO:getPolicy() then
-				slot1:emit(GuildMainMediator.MODIFY, 3, slot0:getPolicy(), "")
+			slot0 = false
+
+			if uv0:getPolicy() ~= uv1.guildVO:getPolicy() then
+				uv1:emit(GuildMainMediator.MODIFY, 3, uv0:getPolicy(), "")
 
 				slot0 = true
 			end
 
-			if slot0:getManifesto() ~= slot1.guildVO:getManifesto() then
-				slot1:emit(GuildMainMediator.MODIFY, 4, 0, slot0:getManifesto())
+			if uv0:getManifesto() ~= uv1.guildVO:getManifesto() then
+				uv1:emit(GuildMainMediator.MODIFY, 4, 0, uv0:getManifesto())
 
 				slot0 = true
 			end
 
-			if slot0:getName() ~= slot1.guildVO:getName() then
-				slot1:emit(GuildMainMediator.MODIFY, 1, 0, slot0:getName())
+			if uv0:getName() ~= uv1.guildVO:getName() then
+				uv1:emit(GuildMainMediator.MODIFY, 1, 0, uv0:getName())
 
 				slot0 = true
 			end
 
 			if not slot0 then
-				slot1:closeModifyPanel()
+				uv1:closeModifyPanel()
 			end
 		end
 
-		if slot0:getFaction() ~= slot0.guildVO:getFaction() then
+		if slot0:getFaction() ~= uv0.guildVO:getFaction() then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("guild_faction_change_tip"),
 				onYes = function ()
-					slot0()
-					slot1:emit(GuildMainMediator.MODIFY, 2, slot2:getFaction(), "")
+					uv0()
+					uv1:emit(GuildMainMediator.MODIFY, 2, uv2:getFaction(), "")
 				end
 			})
 		else
 			slot3()
 		end
 	end, SFX_CONFIRM)
+
+	function slot2(slot0)
+		onInputChanged(uv0, slot0, function ()
+			slot1, slot2 = wordVer(getInputText(uv0), {
+				isReplace = true
+			})
+
+			if slot1 > 0 then
+				setInputText(uv0, slot2)
+			end
+
+			if getInputText(uv1.nameInput) ~= uv1.guildVO:getName() then
+				setText(uv1.costTF, uv2)
+			else
+				setText(uv1.costTF, 0)
+			end
+		end)
+	end
+
 	slot2(slot0.nameInput)
 	slot2(slot0.manifestoInput)
 	slot0:updateAllLog(slot0.logs)
@@ -560,7 +586,7 @@ function slot0.updateGuildInfo(slot0, slot1)
 
 	slot0.nameTF.text = slot1:getName()
 	slot0.idTF.text = slot1.id
-	slot0.LevelTF.text = (slot1.level <= 9 and "0" .. slot1.level) or slot1.level
+	slot0.LevelTF.text = slot1.level <= 9 and "0" .. slot1.level or slot1.level
 	slot0.expTF.text = slot1.exp .. "/" .. slot1:getLevelMaxExp()
 	slot0.countTF.text = slot1.memberCount .. "/" .. slot1:getMaxMember()
 	slot0.polity.text = slot1:getPolicyName()
@@ -577,382 +603,110 @@ function slot0.updateAllChat(slot0, slot1)
 	slot3 = {}
 	slot0.index = math.max(1, #(slot1 or {}) - Guild.CHAT_LOG_MAX_COUNT)
 
-	for slot7 = slot0.index, #slot2, 1 do
+	for slot7 = slot0.index, #slot2 do
 		table.insert(slot3, function (slot0)
-			slot0:append(slot1[slot2], -1)
+			uv0:append(uv1[uv2], -1)
 			slot0()
 		end)
 	end
 
 	seriesAsync(slot3, function ()
 		Timer.New(function ()
-			if not IsNil(slot0.chatContent) then
-				scrollToBottom(slot0.chatContent.parent)
+			if not IsNil(uv0.chatContent) then
+				scrollToBottom(uv0.chatContent.parent)
 			end
 		end, 0.5, 1):Start()
 	end)
 end
 
 function slot0.append(slot0, slot1, slot2, slot3)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-5, warpins: 1 ---
 	if IsNil(slot0.themePanel) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 6-6, warpins: 1 ---
 		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 7-13, warpins: 2 ---
 	if slot0.chatContent.childCount >= Guild.CHAT_LOG_MAX_COUNT * 2 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 14-19, warpins: 1 ---
 		slot0:emit(GuildMainMediator.REBUILD_ALL)
-		--- END OF BLOCK #0 ---
-
-
-
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 20-26, warpins: 1 ---
 		slot0:appendWorld(slot1, slot2)
 
 		if slot3 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 27-30, warpins: 1 ---
 			scrollToBottom(slot0.chatContent.parent)
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 31-31, warpins: 3 ---
-	return
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function slot0.appendWorld(slot0, slot1, slot2)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-10, warpins: 1 ---
 	slot5 = slot0.prefabOthers
 
 	if Clone(slot1).player.id == slot0.playerVO.id then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 11-20, warpins: 1 ---
 		slot5 = slot0.prefabSelf
 		slot3.player = setmetatable(Clone(slot0.playerVO), {
 			__index = slot3.player
 		})
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 21-31, warpins: 2 ---
-	slot7 = GuildChatBubble.New(slot6)
+	slot7 = GuildChatBubble.New(cloneTplTo(slot5, slot0.chatContent))
 
 	if slot2 >= 0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 32-36, warpins: 1 ---
 		slot7.tf:SetSiblingIndex(slot2)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 37-41, warpins: 2 ---
 	slot3.isSelf = slot4.id == slot0.playerVO.id
 
 	slot7:update(slot3)
-
-	return
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 45-50, warpins: 2 ---
-	--- END OF BLOCK #3 ---
-
-
-
 end
 
 function slot0.updateAllLog(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-7, warpins: 1 ---
 	removeAllChildren(slot0.logContent)
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 8-13, warpins: 0 ---
 	for slot5, slot6 in ipairs(slot1) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-11, warpins: 1 ---
 		slot0:appendLog(slot6)
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 12-13, warpins: 2 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 14-14, warpins: 1 ---
-	return
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function slot0.appendLog(slot0, slot1, slot2)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-5, warpins: 1 ---
 	if IsNil(slot0.themePanel) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 6-6, warpins: 1 ---
 		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 7-11, warpins: 2 ---
 	if slot0.logContent.childCount >= 200 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 12-17, warpins: 1 ---
 		slot0:emit(GuildMainMediator.ON_REBUILD_LOG_ALL)
-		--- END OF BLOCK #0 ---
-
-
-
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 18-23, warpins: 1 ---
 		slot3 = cloneTplTo(slot0.prefabPublic, slot0.logContent)
 
 		if slot2 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 24-26, warpins: 1 ---
 			slot3:SetAsFirstSibling()
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 27-52, warpins: 2 ---
-		slot4 = slot3:Find("content/text"):GetComponent("RichText")
 		slot5 = slot3:Find("content/time"):GetComponent(typeof(Text))
 		slot6, slot7 = slot1:getConent()
 
 		if slot1.cmd == GuildLogInfo.CMD_TYPE_GET_SHIP then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 53-58, warpins: 1 ---
-			ChatProxy.InjectPublic(slot4, slot6)
-			--- END OF BLOCK #0 ---
-
-
-
+			ChatProxy.InjectPublic(slot3:Find("content/text"):GetComponent("RichText"), slot6)
 		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 59-59, warpins: 1 ---
 			slot4.text = slot6
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 60-60, warpins: 2 ---
 		slot5.text = slot7
-		--- END OF BLOCK #2 ---
-
-
-
 	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 61-61, warpins: 2 ---
-	return
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function slot0.willExit(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.tweens then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 4-6, warpins: 1 ---
 		cancelTweens(slot0.tweens)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 7-12, warpins: 2 ---
 	slot0:closeModifyPanel()
 
 	if slot0.themePanel then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 13-25, warpins: 1 ---
 		PoolMgr.GetInstance():ReturnUI(slot0.guildVO:getMainUIName(), go(slot0.themePanel))
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 26-30, warpins: 2 ---
 	setParent(slot0.blurPanel, slot0._tf)
-
-	return
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function slot0.insertEmojiToInputText(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-13, warpins: 1 ---
 	slot0.msgInput.text = slot0.msgInput.text .. string.gsub(ChatConst.EmojiIconCode, "code", slot1)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 return slot0

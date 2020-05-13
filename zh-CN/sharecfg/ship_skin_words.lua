@@ -36301,5 +36301,3 @@ pg.ship_skin_words = {
 		999011
 	}
 }
-
-return

@@ -10,18 +10,18 @@ changdaoTaskStartId = 5031
 
 function slot0.register(slot0)
 	slot0:on(20001, function (slot0)
-		slot0.data = {}
-		slot0.finishData = {}
-		slot0.tmpInfo = {}
+		uv0.data = {}
+		uv0.finishData = {}
+		uv0.tmpInfo = {}
 
 		for slot4, slot5 in ipairs(slot0.info) do
 			if Task.New(slot5):getConfigTable() ~= nil then
 				slot6:display("loaded")
 
 				if slot6:getTaskStatus() ~= 2 then
-					slot0.data[slot6.id] = slot6
+					uv0.data[slot6.id] = slot6
 				else
-					slot0.finishData[slot6.id] = slot6
+					uv0.finishData[slot6.id] = slot6
 				end
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("task_notfound_error") .. tostring(slot5.id))
@@ -33,21 +33,21 @@ function slot0.register(slot0)
 	end)
 	slot0:on(20002, function (slot0)
 		for slot4, slot5 in ipairs(slot0.info) do
-			if slot0.data[slot5.id] ~= nil then
+			if uv0.data[slot5.id] ~= nil then
 				slot6.progress = slot5.progress
 
-				slot0:updateTask(slot6)
+				uv0:updateTask(slot6)
 			end
 		end
 	end)
 	slot0:on(20003, function (slot0)
 		for slot4, slot5 in ipairs(slot0.info) do
-			slot0:addTask(Task.New(slot5))
+			uv0:addTask(Task.New(slot5))
 		end
 	end)
 	slot0:on(20004, function (slot0)
 		for slot4, slot5 in ipairs(slot0.id_list) do
-			slot0:removeTaskById(slot5)
+			uv0:removeTaskById(slot5)
 		end
 	end)
 
@@ -55,12 +55,12 @@ function slot0.register(slot0)
 end
 
 function slot0.getTasksForBluePrint(slot0)
-	slot1 = {}
-	slot2 = pairs
-	slot3 = slot0.data or {}
+	slot1 = {
+		[slot6.id] = slot6
+	}
 
-	for slot5, slot6 in slot2(slot3) do
-		slot1[slot6.id] = slot6
+	for slot5, slot6 in pairs(slot0.data or {}) do
+		-- Nothing
 	end
 
 	for slot5, slot6 in pairs(slot0.finishData) do
@@ -100,7 +100,7 @@ function slot0.addTask(slot0, slot1)
 
 	slot0.data[slot1.id]:display("added")
 	slot0.data[slot1.id]:onAdded()
-	slot0.facade:sendNotification(slot0.TASK_ADDED, slot1:clone())
+	slot0.facade:sendNotification(uv0.TASK_ADDED, slot1:clone())
 
 	if slot1:getConfig("type") == 10 and slot1:isFinish() then
 		slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
@@ -112,7 +112,7 @@ function slot0.updateTask(slot0, slot1)
 	slot0.data[slot1.id].acceptTime = slot0.data[slot1.id].acceptTime
 
 	slot0.data[slot1.id]:display("updated")
-	slot0.facade:sendNotification(slot0.TASK_UPDATED, slot1:clone())
+	slot0.facade:sendNotification(uv0.TASK_UPDATED, slot1:clone())
 
 	if slot1:getConfig("type") == 10 and slot1:isFinish() then
 		slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
@@ -146,11 +146,9 @@ function slot0.getTaskVO(slot0, slot1)
 end
 
 function slot0.getCanReceiveCount(slot0)
-	slot1 = 0
-
 	for slot5, slot6 in pairs(slot0.data) do
 		if slot6:getConfig("visibility") == 1 and slot6:isFinish() and slot6:isReceive() == false then
-			slot1 = slot1 + 1
+			slot1 = 0 + 1
 		end
 	end
 
@@ -158,12 +156,9 @@ function slot0.getCanReceiveCount(slot0)
 end
 
 function slot0.getNotFinishCount(slot0, slot1)
-	slot2 = slot1 or 3
-	slot3 = 0
-
 	for slot7, slot8 in pairs(slot0.data) do
-		if slot8:getConfig("type") == slot2 and slot8:isFinish() == false then
-			slot3 = slot3 + 1
+		if slot8:getConfig("type") == (slot1 or 3) and slot8:isFinish() == false then
+			slot3 = 0 + 1
 		end
 	end
 
@@ -183,12 +178,12 @@ function slot0.removeTaskById(slot0, slot1)
 	slot0.finishData[slot1].submitTime = pg.TimeMgr.GetInstance():GetServerTime()
 	slot0.data[slot1] = nil
 
-	slot0.facade:sendNotification(slot0.TASK_REMOVED, slot2)
+	slot0.facade:sendNotification(uv0.TASK_REMOVED, slot2)
 	slot0:checkTmpTask(slot1)
 end
 
 function slot0.getmingshiTaskID(slot0, slot1)
-	for slot6, slot7 in pairs(slot2) do
+	for slot6, slot7 in pairs(pg.task_data_trigger[mingshiTriggerId].args) do
 		if slot7[1] <= slot1 and slot7[2] and not slot0:getTaskVO(slot8) then
 			return slot8
 		end
@@ -254,8 +249,8 @@ function slot0.mingshiTouchFlagEnabled(slot0)
 end
 
 function slot0.getAcademyTask(slot0, slot1)
-	if _.detect(getProxy(ActivityProxy).getActivitiesByType(slot2, ActivityConst.ACTIVITY_TYPE_TASK_LIST), function (slot0)
-		return slot0:getTaskShip() and slot1.groupId == slot0
+	if _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST), function (slot0)
+		return slot0:getTaskShip() and slot1.groupId == uv0
 	end) and not slot4:isEnd() then
 		return getActivityTask(slot4, true)
 	end
@@ -266,7 +261,9 @@ function slot0.isFinishPrevTasks(slot0, slot1)
 		id = slot1
 	}):getConfig("open_need") and type(slot3) == "table" and #slot3 > 0 then
 		return _.all(slot3, function (slot0)
-			return (slot0:getTaskById(slot0) or slot0:getFinishTaskById(slot0)) and slot0:getTaskById() or slot0:getFinishTaskById():isReceive()
+			slot1 = uv0:getTaskById(slot0) or uv0:getFinishTaskById(slot0)
+
+			return slot1 and slot1:isReceive()
 		end)
 	end
 
@@ -275,7 +272,7 @@ end
 
 function slot0.isReceiveTasks(slot0, slot1)
 	return _.all(slot1, function (slot0)
-		return slot0:getFinishTaskById(slot0) and slot1:isReceive()
+		return uv0:getFinishTaskById(slot0) and slot1:isReceive()
 	end)
 end
 

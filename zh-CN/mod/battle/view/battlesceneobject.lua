@@ -4,7 +4,6 @@ ys.Battle.BattleSceneObject = slot1
 slot1.__name = "BattleSceneObject"
 
 function slot1.Ctor(slot0)
-	return
 end
 
 function slot1.GetGO(slot0)
@@ -21,15 +20,12 @@ function slot1.SetGO(slot0, slot1)
 end
 
 function slot1.GetCldBoxSize(slot0)
-	return
 end
 
 function slot1.GetCldBox(slot0)
-	return
 end
 
 function slot1.GetCldData(slot0)
-	return
 end
 
 function slot1.GetGOPosition(slot0)
@@ -43,9 +39,7 @@ end
 function slot1.Dispose(slot0)
 	slot0._tf = nil
 
-	slot0.Battle.BattleResourceManager.GetInstance():DestroyOb(slot0._go)
+	uv0.Battle.BattleResourceManager.GetInstance():DestroyOb(slot0._go)
 
 	slot0._go = nil
 end
-
-return

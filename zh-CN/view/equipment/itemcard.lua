@@ -13,12 +13,11 @@ function slot0.update(slot0, slot1)
 	updateItem(rtf(slot0.bg), slot1)
 	TweenItemAlphaAndWhite(slot0.go)
 
-	slot0.countTF.text = (slot1.count > 0 and slot1.count) or ""
+	slot0.countTF.text = slot1.count > 0 and slot1.count or ""
 	slot0.nameTF.text = shortenString(HXSet.hxLan(slot1:getConfig("name")), 5)
 end
 
 function slot0.dispose(slot0)
-	return
 end
 
 return slot0

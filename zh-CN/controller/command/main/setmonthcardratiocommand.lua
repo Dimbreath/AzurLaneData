@@ -1,10 +1,12 @@
-class("SetMonthCardRatioCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("SetMonthCardRatioCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(11601, {
 		ratio = slot1:getBody()
 	}, 11602, function (slot0)
 		if slot0.result == 0 then
-			if getProxy(PlayerProxy).getData(slot1):getCardById(VipCard.MONTH) and not slot3:isExpire() then
-				slot3.data = slot0
+			if getProxy(PlayerProxy):getData():getCardById(VipCard.MONTH) and not slot3:isExpire() then
+				slot3.data = uv0
 
 				slot2:addVipCard(slot3)
 				slot1:updatePlayer(slot2)
@@ -17,4 +19,4 @@ class("SetMonthCardRatioCommand", pm.SimpleCommand).execute = function (slot0, s
 	end)
 end
 
-return class("SetMonthCardRatioCommand", pm.SimpleCommand)
+return slot0

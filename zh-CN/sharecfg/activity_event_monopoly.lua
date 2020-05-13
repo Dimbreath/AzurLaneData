@@ -133,5 +133,3 @@ pg.activity_event_monopoly = {
 		2
 	}
 }
-
-return

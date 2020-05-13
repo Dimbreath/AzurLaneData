@@ -1006,5 +1006,3 @@ sc_10997 = slot0.Message(SC_10997)
 sc_10998 = slot0.Message(SC_10998)
 sc_10999 = slot0.Message(SC_10999)
 serverinfo = slot0.Message(SERVERINFO)
-
-return

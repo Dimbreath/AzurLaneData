@@ -15,24 +15,23 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	return
 end
 
 function slot0.EnterAnim(slot0, slot1, slot2)
 	LeanTween.moveX(rtf(slot0._tf), 0, slot1):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(function ()
-		if slot0 then
-			slot0()
+		if uv0 then
+			uv0()
 		end
 	end))
 end
 
 function slot0.ExistAnim(slot0, slot1, slot2)
 	LeanTween.moveX(rtf(slot0._tf), 1000, slot1):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(function ()
-		if slot0 then
-			slot0()
+		if uv0 then
+			uv0()
 		end
 
-		slot1:Hide()
+		uv1:Hide()
 	end))
 end
 
@@ -66,22 +65,17 @@ function slot0.InitSkills(slot0)
 
 	if not slot0.showTrans then
 		_.each(slot0.shipGroup.groupConfig.trans_skill, function (slot0)
-			table.removebyvalue(slot0, slot0)
+			table.removebyvalue(uv0, slot0)
 		end)
 	end
 
-	slot4 = slot0.skillPanel.childCount
-	slot5 = (#slot3 < 3 and 3) or #slot3
-
-	for slot9 = slot4 + 1, slot5, 1 do
+	for slot9 = slot0.skillPanel.childCount + 1, #slot3 < 3 and 3 or #slot3 do
 		cloneTplTo(slot0.skillTpl, slot0.skillPanel)
 	end
 
-	for slot9 = 1, slot0.skillPanel.childCount, 1 do
-		slot10 = slot0.skillPanel:GetChild(slot9 - 1)
-
+	for slot9 = 1, slot0.skillPanel.childCount do
 		if slot9 <= #slot3 then
-			slot0:UpdateSkill(slot10, slot3[slot9])
+			slot0:UpdateSkill(slot0.skillPanel:GetChild(slot9 - 1), slot3[slot9])
 		else
 			setActive(slot0:findTF("icon", slot10), false)
 			setActive(slot0:findTF("add", slot10), true)
@@ -95,8 +89,8 @@ function slot0.InitSkills(slot0)
 
 	if #slot3 > 3 then
 		onScroll(slot0, slot0.skillRect, function (slot0)
-			setActive(slot0.skillArrLeft, slot0.x > 0.01)
-			setActive(slot0.skillArrRight, slot0.x < 0.99)
+			setActive(uv0.skillArrLeft, slot0.x > 0.01)
+			setActive(uv0.skillArrRight, slot0.x < 0.99)
 		end)
 	else
 		GetComponent(slot0.skillRect, typeof(ScrollRect)).onValueChanged:RemoveAllListeners()
@@ -118,19 +112,18 @@ function slot0.UpdateSkill(slot0, slot1, slot2)
 		end
 	end
 
-	LoadImageSpriteAsync("skillicon/" .. getSkillConfig(slot2).icon, slot3)
+	LoadImageSpriteAsync("skillicon/" .. getSkillConfig(slot2).icon, findTF(slot1, "icon"))
 	setActive(slot0:findTF("icon", slot1), true)
 	setActive(slot0:findTF("add", slot1), false)
 	onButton(slot0, slot1, function ()
-		slot0:emit(ShipProfileScene.SHOW_SKILL_INFO, slot1.id, {
-			id = slot1.id,
-			level = pg.skill_data_template[slot1.id].max_level
+		uv0:emit(ShipProfileScene.SHOW_SKILL_INFO, uv1.id, {
+			id = uv1.id,
+			level = pg.skill_data_template[uv1.id].max_level
 		})
 	end, SFX_PANEL)
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

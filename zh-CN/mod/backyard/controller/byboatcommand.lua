@@ -10,7 +10,7 @@ function slot0.execute(slot0, slot1)
 	slot0.house = slot4:getData()
 
 	if slot2.name == BACKYARD.BOAT_HARVEST then
-		slot4:shipHarvest(BackyardBoatVO.New(slot5))
+		slot4:shipHarvest(BackyardBoatVO.New(slot2.ship))
 	elseif slot3 == BACKYARD.CANCEL_BOAT_MOVE then
 		slot4:cancelShipMove(slot2.id)
 	elseif slot3 == BACKYARD.RESET_BOAT_POS then
@@ -40,9 +40,14 @@ function slot0.execute(slot0, slot1)
 	elseif slot3 == BACKYARD.CLEAR_SPINE then
 		slot4:clearSpineInterAction(slot2.shipId)
 	elseif slot3 == BACKYARD.INTERACTION_SPINE then
+		slot5 = slot2.shipId
+
 		slot4:clearInterAction(slot5)
-		slot4:changeShipPos(slot5, slot8)
-		slot4:addSpineInterAction(slot2.shipId, slot2.furnitureId)
+
+		slot6 = slot2.furnitureId
+
+		slot4:changeShipPos(slot5, slot4:getFurnitureById(slot6):getSpineAinTriggerPos())
+		slot4:addSpineInterAction(slot5, slot6)
 	elseif slot3 == BACKYARD.INTERACTION_STAGE then
 		slot6 = slot2.furnitureId
 
@@ -64,17 +69,15 @@ function slot0.execute(slot0, slot1)
 	elseif slot3 == BACKYARD.CLEAR_SPINE_EXTRA then
 		slot4:clearSpineExtraInterAction(slot2.shipId, slot2.furnitureId)
 	elseif slot3 == BACKYARD.SHIP_ADDED then
-		slot5 = slot2.id
-
 		if not slot0.house:getSingleByRamdom() then
 			pg.m02:sendNotification(GAME.EXIT_SHIP, {
-				shipId = slot5,
+				shipId = slot2.id,
 				callback = function ()
 					pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_notPosition_shipExit"))
 				end
 			})
 		else
-			slot4:addShip(BackyardBoatVO.New(slot7))
+			slot4:addShip(BackyardBoatVO.New(getProxy(BayProxy):getShipById(slot5)))
 		end
 	elseif slot3 == BACKYARD.SHIP_EXITED then
 		slot4:exitShipById(slot2.id)
@@ -128,7 +131,7 @@ function slot0.setPositionForShip(slot0, slot1)
 			shipId = slot1,
 			callback = function ()
 				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_notPosition_shipExit"))
-				pg.TipsMgr.GetInstance().ShowTips.backYardHouseProxy:exitShipById(pg.TipsMgr.GetInstance().ShowTips.backYardHouseProxy)
+				uv0.backYardHouseProxy:exitShipById(uv1)
 			end
 		})
 	end

@@ -17,37 +17,44 @@ end
 function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 
-	for slot4 = 1, #slot0.chapterIDList, 1 do
+	for slot4 = 1, #slot0.chapterIDList do
 		slot7 = cloneTplTo(slot0.taskItemTpl, slot0.container, "TaskItem" .. tostring(slot4))
-		slot9 = slot0:findTF("ItemListContainer", slot7)
 		slot10 = slot0:findTF("GotTag", slot7)
 		slot11 = slot0:findTF("GetBtn", slot7)
 
-		setText(slot8, slot6)
+		setText(slot0:findTF("TaskTitle/LevelBum", slot7), pg.chapter_template[slot0.chapterIDList[slot4]].chapter_name)
 
-		for slot15 = 1, #slot0.config.award_display[slot4], 1 do
-			updateDrop(slot16, slot18)
-			onButton(slot0, cloneTplTo(slot0.itemTpl, slot9), function ()
-				slot0:emit(BaseUI.ON_DROP, slot0)
+		for slot15 = 1, #slot0.config.award_display[slot4] do
+			slot16 = cloneTplTo(slot0.itemTpl, slot0:findTF("ItemListContainer", slot7))
+			slot17 = slot0.config.award_display[slot4][slot15]
+
+			updateDrop(slot16, {
+				type = slot17[1],
+				id = slot17[2],
+				count = slot17[3]
+			})
+			onButton(slot0, slot16, function ()
+				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
 		end
 
 		onButton(slot0, slot11, function ()
-			slot0:emit(ActivityMediator.EVENT_OPERATION, {
+			uv0:emit(ActivityMediator.EVENT_OPERATION, {
 				cmd = 1,
-				activity_id = slot0.activity.id,
-				arg1 = slot0
+				activity_id = uv0.activity.id,
+				arg1 = uv1
 			})
 		end, SFX_PANEL)
 	end
 
 	onScroll(slot0, slot0.scrollTF, function (slot0)
-		setActive(slot0.arrow, slot0.y >= 0.01)
+		setActive(uv0.arrow, slot0.y >= 0.01)
 	end)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	for slot4 = 1, #slot0.chapterIDList, 1 do
+	for slot4 = 1, #slot0.chapterIDList do
+		slot6 = slot0:findTF("TaskItem" .. tostring(slot4), slot0.container)
 		slot7 = slot0:findTF("GotTag", slot6)
 		slot8 = slot0:findTF("GetBtn", slot6)
 
@@ -55,15 +62,14 @@ function slot0.OnUpdateFlush(slot0)
 			slot6.transform:SetAsLastSibling()
 		end
 
-		setGray(slot10, slot9)
-		setGray(slot11, slot9)
+		setGray(slot0:findTF("TaskTitle", slot6), slot9)
+		setGray(slot0:findTF("ItemListContainer", slot6), slot9)
 		setActive(slot7, slot9)
 		setActive(slot8, getProxy(ChapterProxy):isClear(slot5) and not slot9)
 	end
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

@@ -1,4 +1,6 @@
-class("DeleteAllMailCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("DeleteAllMailCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(30006, {
 		id = 0
 	}, 30007, function (slot0)
@@ -10,8 +12,8 @@ class("DeleteAllMailCommand", pm.SimpleCommand).execute = function (slot0, slot1
 			end
 		end
 
-		slot0:sendNotification(GAME.DELETE_ALL_MAIL_DONE)
+		uv0:sendNotification(GAME.DELETE_ALL_MAIL_DONE)
 	end)
 end
 
-return class("DeleteAllMailCommand", pm.SimpleCommand)
+return slot0

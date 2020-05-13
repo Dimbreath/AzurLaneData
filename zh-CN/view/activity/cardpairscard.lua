@@ -25,7 +25,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 	slot0:initCard(slot3)
 	onButton(slot0, slot0.cardTf, function ()
-		slot0(slot1)
+		uv0(uv1)
 	end)
 end
 
@@ -92,17 +92,17 @@ function slot0.aniShowBack(slot0, slot1, slot2, slot3)
 	slot0.cardTf.localScale = Vector3(1, 1, 1)
 
 	LeanTween.scale(go(slot0.cardTf), Vector3(0, 1, 1), slot0.ANI_TIME):setDelay(defaultValue(slot3, 0)):setOnComplete(System.Action(function ()
-		if slot0 then
-			slot1:showFront()
+		if uv0 then
+			uv1:showFront()
 		else
-			slot1:showBack()
+			uv1:showBack()
 		end
 
-		LeanTween.scale(go(slot1.cardTf), Vector3(1, 1, 1), slot1.ANI_TIME):setOnComplete(System.Action(function ()
-			slot0.canClick = true
+		LeanTween.scale(go(uv1.cardTf), Vector3(1, 1, 1), uv1.ANI_TIME):setOnComplete(System.Action(function ()
+			uv0.canClick = true
 
-			if not true then
-				slot0.aniCallBack(slot0.aniCallBack, slot2)
+			if not uv1 then
+				uv0:aniCallBack(uv2)
 			end
 		end))
 	end))

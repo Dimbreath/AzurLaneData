@@ -24,7 +24,7 @@ function slot0.getFinishTime(slot0)
 end
 
 function slot0.costTime(slot0)
-	if slot0:getState() == slot0.STATE_STARTING or slot1 == slot0.STATE_FINISHED then
+	if slot0:getState() == uv0.STATE_STARTING or slot1 == uv0.STATE_FINISHED then
 		return slot0.finishTime - slot0.beginTime
 	else
 		return 0
@@ -35,13 +35,13 @@ function slot0.getState(slot0)
 	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
 
 	if slot0.finishTime == 0 then
-		return slot0.STATE_EMPTY
+		return uv0.STATE_EMPTY
 	elseif slot0.finishTime <= slot1 then
-		return slot0.STATE_FINISHED
+		return uv0.STATE_FINISHED
 	elseif slot0.finishTime > 0 and slot1 < slot0.beginTime then
-		return slot0.STATE_WAITING
+		return uv0.STATE_WAITING
 	elseif slot0.finishTime > 0 and slot1 < slot0.finishTime then
-		return slot0.STATE_STARTING
+		return uv0.STATE_STARTING
 	end
 end
 
@@ -60,13 +60,11 @@ function slot0.getPrefab(slot0)
 	end
 
 	if slot0.pool then
-		slot1 = slot0.rarity2Str[slot0.pool:getRarity()]
-
-		if slot0:getState() == slot0.STATE_WAITING then
-			return slot1 .. "NekoBox1"
-		elseif slot2 == slot0.STATE_STARTING then
+		if slot0:getState() == uv0.STATE_WAITING then
+			return slot0.rarity2Str[slot0.pool:getRarity()] .. "NekoBox1"
+		elseif slot2 == uv0.STATE_STARTING then
 			return slot1 .. "NekoBox2"
-		elseif slot2 == slot0.STATE_FINISHED then
+		elseif slot2 == uv0.STATE_FINISHED then
 			return slot1 .. "NekoBox3"
 		end
 	else
@@ -83,7 +81,7 @@ function slot0.getFetchPrefab(slot0)
 		}
 	end
 
-	return slot1 .. "NekoBox4"
+	return slot0.rarity2Str[slot0.pool:getRarity()] .. "NekoBox4"
 end
 
 return slot0

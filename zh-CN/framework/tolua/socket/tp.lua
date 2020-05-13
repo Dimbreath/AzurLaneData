@@ -14,7 +14,7 @@ function slot5(slot0)
 		return nil, slot5
 	end
 
-	slot1, slot3 = uv0.skip(2, uv1.find(slot4, "^(%d%d%d)(.?)"))
+	slot7, slot3 = uv0.skip(2, uv1.find(slot4, "^(%d%d%d)(.?)"))
 
 	if not slot7 then
 		return nil, "invalid server reply"
@@ -22,13 +22,13 @@ function slot5(slot0)
 
 	if slot3 == "-" then
 		repeat
-			slot4, slot5 = slot0:receive()
+			slot4, slot8 = slot0:receive()
 
 			if slot8 then
 				return nil, slot5
 			end
 
-			slot2, slot3 = uv0.skip(2, uv1.find(slot4, "^(%d%d%d)(.?)"))
+			slot7, slot3 = uv0.skip(2, uv1.find(slot4, "^(%d%d%d)(.?)"))
 			slot6 = slot6 .. "\n" .. slot4
 		until slot1 == slot7 and slot3 == " "
 	end
@@ -83,8 +83,7 @@ function slot6.__index.command(slot0, slot1, slot2)
 end
 
 function slot6.__index.sink(slot0, slot1, slot2)
-	slot3 = slot0.c
-	slot6, slot7 = slot3:receive(slot2)
+	slot3, slot4 = slot0.c:receive(slot2)
 
 	return slot1(slot3, slot4)
 end
@@ -110,9 +109,7 @@ function slot6.__index.getcontrol(slot0)
 end
 
 function slot6.__index.source(slot0, slot1, slot2)
-	slot4 = uv1.pump.all
-	slot5 = slot1
-	slot6, slot7 = slot4(slot5, uv0.sink("keep-open", slot0.c), slot2 or uv1.pump.step)
+	slot4, slot5 = uv1.pump.all(slot1, uv0.sink("keep-open", slot0.c), slot2 or uv1.pump.step)
 
 	return slot4, slot5
 end
@@ -130,7 +127,7 @@ function slot4.connect(slot0, slot1, slot2, slot3)
 		return nil, slot5
 	end
 
-	slot4.settimeout(slot4, slot2 or uv1.TIMEOUT)
+	slot4:settimeout(slot2 or uv1.TIMEOUT)
 
 	slot6, slot7 = slot4:connect(slot0, slot1)
 

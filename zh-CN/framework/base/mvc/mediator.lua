@@ -1,32 +1,27 @@
 ys = ys or {}
-ys or .MVC = ys.MVC or {}
-ys or .MVC.Mediator = class("MVC.Mediator")
-ys or .MVC.Mediator.__name = "MVC.Mediator"
+slot0.MVC = ys.MVC or {}
+slot0.MVC.Mediator = class("MVC.Mediator")
+slot0.MVC.Mediator.__name = "MVC.Mediator"
 
-ys or .MVC.Mediator.Ctor = function (slot0)
-	return
+function slot0.MVC.Mediator.Ctor(slot0)
 end
 
-ys or .MVC.Mediator.Initialize = function (slot0)
-	slot0.EventDispatcher.AttachEventDispatcher(slot0)
-	slot0.EventListener.AttachEventListener(slot0)
+function slot0.MVC.Mediator.Initialize(slot0)
+	uv0.EventDispatcher.AttachEventDispatcher(slot0)
+	uv0.EventListener.AttachEventListener(slot0)
 end
 
-ys or .MVC.Mediator.Update = function (slot0)
-	return
+function slot0.MVC.Mediator.Update(slot0)
 end
 
-ys or .MVC.Mediator.UpdatePause = function (slot0)
-	return
+function slot0.MVC.Mediator.UpdatePause(slot0)
 end
 
-ys or .MVC.Mediator.Dispose = function (slot0)
-	slot0.EventListener.DetachEventListener(slot0)
-	slot0.EventDispatcher.DetachEventDispatcher(slot0)
+function slot0.MVC.Mediator.Dispose(slot0)
+	uv0.EventListener.DetachEventListener(slot0)
+	uv0.EventDispatcher.DetachEventDispatcher(slot0)
 end
 
-ys or .MVC.Mediator.GetState = function (slot0)
+function slot0.MVC.Mediator.GetState(slot0)
 	return slot0._state
 end
-
-return

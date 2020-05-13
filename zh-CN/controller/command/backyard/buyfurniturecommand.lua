@@ -1,9 +1,11 @@
-class("BuyFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot4 = slot1:getBody().type
-	slot5 = getProxy(DormProxy)
-	slot7 = getProxy(PlayerProxy).getData(slot6)
+slot0 = class("BuyFurnitureCommand", pm.SimpleCommand)
 
-	if #slot1:getBody().furnitureIds == 0 or not slot4 then
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot5 = getProxy(DormProxy)
+	slot7 = getProxy(PlayerProxy):getData()
+
+	if #slot2.furnitureIds == 0 or not slot2.type then
 		return
 	end
 
@@ -31,23 +33,26 @@ class("BuyFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	function slot9()
 		pg.ConnectionMgr.GetInstance():Send(19006, {
-			furniture_id = slot0,
-			currency = slot1
+			furniture_id = uv0,
+			currency = uv1
 		}, 19007, function (slot0)
 			if slot0.result == 0 then
-				slot0:consume({
-					[id2res(slot1)] = slot0
-				})
-				slot3:updatePlayer(slot0)
+				slot4 = id2res(uv1)
+				slot5 = uv2
 
-				for slot4, slot5 in ipairs(slot4) do
-					slot5:addFurniture(Furniture.New({
+				uv0:consume({
+					[slot4] = slot5
+				})
+				uv3:updatePlayer(uv0)
+
+				for slot4, slot5 in ipairs(uv4) do
+					uv5:addFurniture(Furniture.New({
 						count = 1,
 						id = slot5
 					}))
 				end
 
-				slot6:sendNotification(GAME.BUY_FURNITURE_DONE, slot5:getData())
+				uv6:sendNotification(GAME.BUY_FURNITURE_DONE, uv5:getData())
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
 			else
 				pg.TipsMgr.GetInstance():ShowTips(errorTip("backyard_buyFurniture_error", slot0.result))
@@ -67,7 +72,7 @@ class("BuyFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("charge_scene_buy_confirm", slot8, slot10),
 			onYes = function ()
-				slot0()
+				uv0()
 			end
 		})
 	else
@@ -75,4 +80,4 @@ class("BuyFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 end
 
-return class("BuyFurnitureCommand", pm.SimpleCommand)
+return slot0

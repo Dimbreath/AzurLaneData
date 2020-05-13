@@ -17,7 +17,7 @@ slot0.ON_SHIP_EXP = "BaseUI.ON_SHIP_EXP"
 slot0.ON_BACK_PRESSED = "BaseUI:ON_BACK_PRESS"
 
 function slot0.Ctor(slot0)
-	slot0.super.Ctor(slot0)
+	uv0.super.Ctor(slot0)
 
 	slot0._isLoaded = false
 	slot0._go = nil
@@ -37,7 +37,7 @@ function slot0.getGroupName(slot0)
 end
 
 function slot0.getBGM(slot0)
-	return (pg.voice_bgm[slot0.__cname] and slot1.bgm) or nil
+	return pg.voice_bgm[slot0.__cname] and slot1.bgm or nil
 end
 
 function slot0.preload(slot0, slot1)
@@ -45,9 +45,11 @@ function slot0.preload(slot0, slot1)
 end
 
 function slot0.loadUISync(slot0, slot1)
-	LoadAndInstantiateSync("UI", slot1, true, false).transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
+	slot2 = LoadAndInstantiateSync("UI", slot1, true, false)
 
-	return LoadAndInstantiateSync("UI", slot1, true, false)
+	slot2.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
+
+	return slot2
 end
 
 function slot0.load(slot0)
@@ -56,21 +58,21 @@ function slot0.load(slot0)
 
 	seriesAsync({
 		function (slot0)
-			PoolMgr.GetInstance():GetUI(slot0:getUIName(), true, function (slot0)
-				slot0 = slot0
+			PoolMgr.GetInstance():GetUI(uv0:getUIName(), true, function (slot0)
+				uv0 = slot0
 
-				slot1()
+				uv1()
 			end)
 		end,
 		function (slot0)
-			slot0:preload(slot0)
+			uv0:preload(slot0)
 		end
 	}, function ()
-		print("load " .. slot0.name .. " time cost: " .. Time.realtimeSinceStartup - "load ")
-		slot0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
-		slot0:SetActive(true)
-		slot0:onUILoaded(pg.UIMgr.GetInstance().UIMain)
-		slot0:PlayBGM()
+		print("load " .. uv0.name .. " time cost: " .. Time.realtimeSinceStartup - uv1)
+		uv0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
+		uv0:SetActive(true)
+		uv2:onUILoaded(uv0)
+		uv2:PlayBGM()
 	end)
 end
 
@@ -152,8 +154,8 @@ function slot0.onUILoaded(slot0, slot1)
 	}
 
 	slot0:init()
-	setActive(slot0._tf, not slot0.event:chectConnect(slot0.LOADED))
-	slot0:emit(slot0.LOADED)
+	setActive(slot0._tf, not slot0.event:chectConnect(uv0.LOADED))
+	slot0:emit(uv0.LOADED)
 end
 
 function slot0.onUIAnimEnd(slot0, slot1)
@@ -161,18 +163,17 @@ function slot0.onUIAnimEnd(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	return
 end
 
 function slot0.quckExitFunc(slot0)
-	slot0:emit(slot0.ON_HOME)
+	slot0:emit(uv0.ON_HOME)
 end
 
 function slot0.quickExit(slot0)
 	for slot4, slot5 in pairs(slot0.optionBtns) do
 		if not IsNil(slot5) then
 			onButton(slot0, slot5, function ()
-				slot0:quckExitFunc()
+				uv0:quckExitFunc()
 			end, SFX_PANEL)
 		end
 	end
@@ -184,18 +185,18 @@ function slot0.enter(slot0)
 	setActive(slot0._tf, true)
 
 	function slot1()
-		slot0:emit(slot1.DID_ENTER)
-		slot0.emit:didEnter()
-		slot0.emit.didEnter:emit(slot1.AVALIBLE)
-		slot0.emit.didEnter.emit:onUIAnimEnd(function ()
+		uv0:emit(uv1.DID_ENTER)
+		uv0:didEnter()
+		uv0:emit(uv1.AVALIBLE)
+		uv0:onUIAnimEnd(function ()
 			pg.SeriesGuideMgr.GetInstance():start({
-				view = slot0.__cname,
+				view = uv0.__cname,
 				code = {
 					pg.SeriesGuideMgr.CODES.MAINUI
 				}
 			})
 			pg.GuideMgr.GetInstance():onSceneAnimDone({
-				view = slot0.__cname
+				view = uv0.__cname
 			})
 		end)
 	end
@@ -203,9 +204,7 @@ function slot0.enter(slot0)
 	slot2 = false
 
 	if slot0.animTF ~= nil then
-		slot4 = slot0.animTF:GetComponent(typeof(UIEventTrigger))
-
-		if slot0.animTF:GetComponent(typeof(Animation)) ~= nil and slot4 ~= nil then
+		if slot0.animTF:GetComponent(typeof(Animation)) ~= nil and slot0.animTF:GetComponent(typeof(UIEventTrigger)) ~= nil then
 			if slot3:get_Item("enter") == nil then
 				print("cound not found enter animation")
 			else
@@ -240,19 +239,17 @@ function slot0.prepareAnimtion(slot0)
 end
 
 function slot0.didEnter(slot0)
-	return
 end
 
 function slot0.closeView(slot0)
 	if slot0.contextData.isLayer then
-		slot0:emit(slot0.ON_CLOSE)
+		slot0:emit(uv0.ON_CLOSE)
 	else
-		slot0:emit(slot0.ON_BACK)
+		slot0:emit(uv0.ON_BACK)
 	end
 end
 
 function slot0.willExit(slot0)
-	return
 end
 
 function slot0.exit(slot0)
@@ -260,22 +257,19 @@ function slot0.exit(slot0)
 
 	pg.DelegateInfo.Dispose(slot0)
 
-	function slot1()
-		slot0:willExit()
-		slot0.willExit:detach()
-		pg.GuideMgr.GetInstance():onSceneExit({
-			view = slot0.__cname
-		})
-		pg.GuideMgr.GetInstance().onSceneExit:emit(slot1.DID_EXIT)
-	end
-
 	if not false then
-		slot1()
+		function ()
+			uv0:willExit()
+			uv0:detach()
+			pg.GuideMgr.GetInstance():onSceneExit({
+				view = uv0.__cname
+			})
+			uv0:emit(uv1.DID_EXIT)
+		end()
 	end
 end
 
 function slot0.attach(slot0, slot1)
-	return
 end
 
 function slot0.ClearTweens(slot0, slot1)
@@ -331,7 +325,7 @@ function slot0.setImageAmount(slot0, slot1, slot2)
 end
 
 function slot0.onBackPressed(slot0)
-	slot0:emit(slot0.ON_BACK_PRESSED)
+	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 
 return slot0

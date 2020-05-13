@@ -1678,5 +1678,3 @@ pg.activity_event_challenge = {
 		5
 	}
 }
-
-return

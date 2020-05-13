@@ -31,12 +31,11 @@ function slot0.flush(slot0)
 		setText(slot0.groupTitle, HXSet.hxLan(slot0.info.title))
 		GetImageSpriteFromAtlasAsync("memoryicon/" .. slot0.info.icon, "", slot0.group)
 
-		slot1 = 0
 		slot2 = #slot0.info.memories
 
 		for slot6, slot7 in ipairs(slot0.info.memories) do
 			if pg.memory_template[slot7].is_open == 1 or pg.StoryMgr.GetInstance():IsPlayed(slot8.story, true) then
-				slot1 = slot1 + 1
+				slot1 = 0 + 1
 			end
 		end
 
@@ -61,7 +60,6 @@ function slot0.flush(slot0)
 end
 
 function slot0.clear(slot0)
-	return
 end
 
 return slot0

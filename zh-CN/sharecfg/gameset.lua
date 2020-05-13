@@ -831,5 +831,3 @@ pg.gameset = {
 		key_value = 3
 	}
 }
-
-return

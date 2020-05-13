@@ -1,18 +1,21 @@
-class("EditActivityFleetCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot3 = slot1:getBody().actID
+slot0 = class("EditActivityFleetCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot3 = slot2.actID
 	slot5 = {}
 
-	for slot9, slot10 in pairs(slot4) do
+	for slot9, slot10 in pairs(slot2.fleets) do
 		slot11 = {}
 
 		_.each(slot10.vanguardShips, function (slot0)
-			slot0[#slot0 + 1] = slot0
+			uv0[#uv0 + 1] = slot0
 		end)
 		_.each(slot10.mainShips, function (slot0)
-			slot0[#slot0 + 1] = slot0
+			uv0[#uv0 + 1] = slot0
 		end)
 		_.each(slot10.subShips, function (slot0)
-			slot0[#slot0 + 1] = slot0
+			uv0[#uv0 + 1] = slot0
 		end)
 
 		slot12 = {}
@@ -36,8 +39,9 @@ class("EditActivityFleetCommand", pm.SimpleCommand).execute = function (slot0, s
 		group_list = slot5
 	}, 11205, function (slot0)
 		if slot0.result == 0 then
+			-- Nothing
 		end
 	end)
 end
 
-return class("EditActivityFleetCommand", pm.SimpleCommand)
+return slot0
