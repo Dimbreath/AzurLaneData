@@ -118,5 +118,3 @@ pg.server_language = {
 		23
 	}
 }
-
-return

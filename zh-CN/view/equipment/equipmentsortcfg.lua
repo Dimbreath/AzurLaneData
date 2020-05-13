@@ -106,67 +106,34 @@ return {
 	},
 	sortFunc = function (slot0, slot1, slot2, slot3)
 		slot4 = pg.equip_skin_template
-		slot5 = (slot0.isSkin and 1) or 0
 
-		if slot5 == ((slot1.isSkin and 1) or 0) and slot5 == 0 then
+		if (slot0.isSkin and 1 or 0) == (slot1.isSkin and 1 or 0) and slot5 == 0 then
 			if slot0.config[slot2.value] == slot1.config[slot2.value] then
-				if slot3 then
-					slot9 = {
-						slot0.id < slot1.id
-					}
-
-					if not slot9 then
-						slot9 = {
-							slot1.id < slot0.id
-						}
-					end
-				end
-
-				return slot9[1]
+				return (slot3 and {
+					slot0.id < slot1.id
+				} or {
+					slot1.id < slot0.id
+				})[1]
 			else
-				if slot3 then
-					slot9 = {
-						slot7 < slot8
-					}
-
-					if not slot9 then
-						slot9 = {
-							slot8 < slot7
-						}
-					end
-				end
-
-				return slot9[1]
+				return (slot3 and {
+					slot7 < slot8
+				} or {
+					slot8 < slot7
+				})[1]
 			end
 		elseif slot6 == slot5 then
-			if ((slot0.isSkin and slot4[slot0.id]) or slot0.config[slot2.value] or 0) == ((slot1.isSkin and slot4[slot1.id]) or slot1.config[slot2.value] or 0) then
-				if slot3 then
-					slot11 = {
-						slot0.id < slot1.id
-					}
-
-					if not slot11 then
-						slot11 = {
-							slot1.id < slot0.id
-						}
-					end
-				end
-
-				return slot11[1]
+			if ((slot0.isSkin and slot4[slot0.id] or slot0.config)[slot2.value] or 0) == ((slot1.isSkin and slot4[slot1.id] or slot1.config)[slot2.value] or 0) then
+				return (slot3 and {
+					slot0.id < slot1.id
+				} or {
+					slot1.id < slot0.id
+				})[1]
 			else
-				if slot3 then
-					slot11 = {
-						slot10 < slot9
-					}
-
-					if not slot11 then
-						slot11 = {
-							slot9 < slot10
-						}
-					end
-				end
-
-				return slot11[1]
+				return (slot3 and {
+					slot10 < slot9
+				} or {
+					slot9 < slot10
+				})[1]
 			end
 		else
 			return slot6 < slot5

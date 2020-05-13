@@ -6,10 +6,10 @@ slot0.OPEN_EMOJI = "NotificationMediator:OPEN_EMOJI"
 slot0.BATTLE_CHAT_CLOSE = "NotificationMediator:BATTLE_CHAT_CLOSE"
 
 function slot0.register(slot0)
-	slot0.viewComponent:setPlayer(slot2)
+	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getRawData())
 	slot0.viewComponent:setInGuild(getProxy(GuildProxy):getRawData() ~= nil)
-	slot0.viewComponent:setMessages(slot0.viewComponent.setInGuild)
-	slot0:bind(slot0.ON_SEND_PUBLIC, function (slot0, slot1, slot2)
+	slot0.viewComponent:setMessages(slot0:getAllMessages())
+	slot0:bind(uv0.ON_SEND_PUBLIC, function (slot0, slot1, slot2)
 		if slot2:match("^$ (%S+)") then
 			slot4 = {}
 
@@ -17,21 +17,21 @@ function slot0.register(slot0)
 				table.insert(slot4, slot8)
 			end
 
-			slot0:sendNotification(GAME.SEND_CMD, {
+			uv0:sendNotification(GAME.SEND_CMD, {
 				cmd = slot4[1],
 				arg1 = slot4[2],
 				arg2 = slot4[3],
 				arg3 = slot4[4]
 			})
 		elseif slot2 == pg.gameset.code_switch.description then
-			if getProxy(PlayerProxy).getRawData(slot4).level >= 9 then
+			if getProxy(PlayerProxy):getRawData().level >= 9 then
 				HXSet.switchCodeMode()
 			end
 		else
-			slot5 = getProxy(PlayerProxy).getData(slot4)
+			slot5 = getProxy(PlayerProxy):getData()
 			slot8 = 0
 
-			for slot12 = #getProxy(ChatProxy).getData(slot6), 1, -1 do
+			for slot12 = #getProxy(ChatProxy):getData(), 1, -1 do
 				if slot7[slot12].type == ChatConst.ChannelWorld and slot7[slot12].player.id == slot5.id then
 					slot8 = slot7[slot12].timestamp
 
@@ -54,38 +54,38 @@ function slot0.register(slot0)
 				})
 
 				if slot1 == ChatConst.ChannelWorld then
-					slot0:sendNotification(GAME.SEND_MSG, slot11)
+					uv0:sendNotification(GAME.SEND_MSG, slot11)
 				elseif slot1 == ChatConst.ChannelGuild then
-					slot0:sendNotification(GAME.GUILD_SEND_MSG, slot11)
+					uv0:sendNotification(GAME.GUILD_SEND_MSG, slot11)
 				end
 			end
 		end
 	end)
-	slot0:bind(slot0.CHANGE_ROOM, function (slot0, slot1)
-		if slot1 == getProxy(PlayerProxy).getRawData(slot2).chatRoomId then
-			slot0:onChangeChatRoomDone()
+	slot0:bind(uv0.CHANGE_ROOM, function (slot0, slot1)
+		if slot1 == getProxy(PlayerProxy):getRawData().chatRoomId then
+			uv0:onChangeChatRoomDone()
 		else
-			slot0:sendNotification(GAME.CHANGE_CHAT_ROOM, slot1)
+			uv0:sendNotification(GAME.CHANGE_CHAT_ROOM, slot1)
 		end
 	end)
-	slot0:bind(slot0.BATTLE_CHAT_CLOSE, function (slot0)
-		slot0:sendNotification(BattleMediator.CLOSE_CHAT)
+	slot0:bind(uv0.BATTLE_CHAT_CLOSE, function (slot0)
+		uv0:sendNotification(BattleMediator.CLOSE_CHAT)
 	end)
-	slot0:bind(slot0.OPEN_INFO, function (slot0, slot1, slot2, slot3)
-		if slot1.id == slot0.id then
+	slot0:bind(uv0.OPEN_INFO, function (slot0, slot1, slot2, slot3)
+		if slot1.id == uv0.id then
 			return
 		end
 
-		slot1.contextData.pos = slot2
-		slot1.contextData.msg = slot3
+		uv1.contextData.pos = slot2
+		uv1.contextData.msg = slot3
 
-		slot1:sendNotification(GAME.FRIEND_SEARCH, {
+		uv1:sendNotification(GAME.FRIEND_SEARCH, {
 			type = SearchFriendCommand.SEARCH_TYPE_RESUME,
 			keyword = slot1.id
 		})
 	end)
-	slot0:bind(slot0.OPEN_EMOJI, function (slot0, slot1, slot2)
-		slot0:addSubLayers(Context.New({
+	slot0:bind(uv0.OPEN_EMOJI, function (slot0, slot1, slot2)
+		uv0:addSubLayers(Context.New({
 			viewComponent = EmojiLayer,
 			mediator = EmojiMediator,
 			data = {
@@ -93,7 +93,7 @@ function slot0.register(slot0)
 				pos = slot2,
 				LayerWeightMgr_groupName = LayerWeightConst.GROUP_NOTIFICATION,
 				emojiIconCallback = function (slot0)
-					slot0.viewComponent:insertEmojiToInputText(slot0)
+					uv0.viewComponent:insertEmojiToInputText(slot0)
 				end
 			}
 		}), true)
@@ -117,17 +117,19 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ChatProxy.NEW_MSG or slot2 == FriendProxy.FRIEND_NEW_MSG or slot2 == GuildProxy.NEW_MSG_ADDED then
+		slot4 = slot0.viewComponent.messages
+
 		table.insert(slot4, slot3)
 		slot0.viewComponent:setMessages(slot4)
 
-		slot6 = getProxy(PlayerProxy).getRawData(slot5)
+		slot6 = getProxy(PlayerProxy):getRawData()
 
 		if NotificationLayer.ChannelBits.recv == bit.lshift(1, ChatConst.ChannelAll) or bit.band(slot7, bit.lshift(1, slot3.type)) > 0 then
 			table.insert(slot0.viewComponent.filteredMessages, slot3)
 			slot0.viewComponent:append(slot3, -1, true)
 		elseif slot3.player and slot3.player.id == slot6.id then
 			slot0.viewComponent.recvTypes:each(function (slot0, slot1)
-				if ChatConst.RecvChannels[slot0 + 1] == slot0.type then
+				if ChatConst.RecvChannels[slot0 + 1] == uv0.type then
 					triggerButton(slot1)
 				end
 			end)
@@ -168,22 +170,22 @@ end
 function slot0.getAllMessages(slot0)
 	slot1 = {}
 
-	_.each(getProxy(ChatProxy).getRawData(slot2), function (slot0)
-		table.insert(slot0, slot0)
+	_.each(getProxy(ChatProxy):getRawData(), function (slot0)
+		table.insert(uv0, slot0)
 	end)
 
 	if getProxy(GuildProxy):getRawData() then
 		_.each(slot3:getChatMsgs(), function (slot0)
-			table.insert(slot0, slot0)
+			table.insert(uv0, slot0)
 		end)
 	end
 
-	_.each(getProxy(FriendProxy).getCacheMsgList(slot4), function (slot0)
-		table.insert(slot0, slot0)
+	_.each(getProxy(FriendProxy):getCacheMsgList(), function (slot0)
+		table.insert(uv0, slot0)
 	end)
 
 	return _(slot1):chain():filter(function (slot0)
-		return not slot0:isInBlackList(slot0.playerId)
+		return not uv0:isInBlackList(slot0.playerId)
 	end):sort(function (slot0, slot1)
 		return slot0.timestamp < slot1.timestamp
 	end):value()

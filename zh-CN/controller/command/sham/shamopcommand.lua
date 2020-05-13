@@ -10,52 +10,50 @@ function slot0.execute(slot0, slot1)
 		act_arg_2 = slot2.arg2
 	}, 23005, function (slot0)
 		if slot0.result == 0 then
-			slot1 = getProxy(ChapterProxy)
+			uv0:initData(uv1, slot0, getProxy(ChapterProxy):getShamChapter())
+			uv0:doDropUpdate()
 
-			slot0:initData(slot1, slot0, slot1:getShamChapter())
-			slot0:doDropUpdate()
+			if uv0.chapter and uv0.chapter:inWartime() then
+				uv0:doMapUpdate()
+				uv0:doShipUpdate()
 
-			if slot0.chapter and slot0.chapter:inWartime() then
-				slot0:doMapUpdate()
-				slot0:doShipUpdate()
-
-				if slot1.type == ChapterConst.OpRetreat then
-					slot0:doRetreat()
-				elseif slot1.type == ChapterConst.OpMove then
-					slot0:doMove()
-				elseif slot1.type == ChapterConst.OpBox then
-					slot0:doOpenBox()
-				elseif slot1.type == ChapterConst.OpAmbush then
-					slot0:doAmbush()
-				elseif slot1.type == ChapterConst.OpStrategy then
-					slot0:doStrategy()
-				elseif slot1.type == ChapterConst.OpRepair then
-					slot0:doRepair()
-				elseif slot1.type == ChapterConst.OpSupply then
-					slot0:doSupply()
-				elseif slot1.type == ChapterConst.OpRequest then
-					slot0:doRequest()
-				elseif slot1.type == ChapterConst.OpSkipBattle then
-					slot0:doSkipBattle()
+				if uv1.type == ChapterConst.OpRetreat then
+					uv0:doRetreat()
+				elseif uv1.type == ChapterConst.OpMove then
+					uv0:doMove()
+				elseif uv1.type == ChapterConst.OpBox then
+					uv0:doOpenBox()
+				elseif uv1.type == ChapterConst.OpAmbush then
+					uv0:doAmbush()
+				elseif uv1.type == ChapterConst.OpStrategy then
+					uv0:doStrategy()
+				elseif uv1.type == ChapterConst.OpRepair then
+					uv0:doRepair()
+				elseif uv1.type == ChapterConst.OpSupply then
+					uv0:doSupply()
+				elseif uv1.type == ChapterConst.OpRequest then
+					uv0:doRequest()
+				elseif uv1.type == ChapterConst.OpSkipBattle then
+					uv0:doSkipBattle()
 				end
 
-				slot1:updateShamChapter(slot0.chapter, slot0.flag)
-				slot0:sendNotification(GAME.SHAM_OP_DONE, {
-					type = slot1.type,
-					id = slot1.id,
+				slot1:updateShamChapter(uv0.chapter, uv0.flag)
+				uv0:sendNotification(GAME.SHAM_OP_DONE, {
+					type = uv1.type,
+					id = uv1.id,
 					path = slot0.move_path,
-					fullpath = slot0.fullpath,
-					items = slot0.items,
-					extraFlag = slot0.extraFlag or 0
+					fullpath = uv0.fullpath,
+					items = uv0.items,
+					extraFlag = uv0.extraFlag or 0
 				})
 			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("sham_op_error", slot0.result))
 
-			if pg.TipsMgr.GetInstance().ShowTips.type ~= ChapterConst.OpRequest and slot1.type ~= ChapterConst.OpRetreat then
-				slot0:sendNotification(GAME.SHAM_OP, {
+			if uv1.type ~= ChapterConst.OpRequest and uv1.type ~= ChapterConst.OpRetreat then
+				uv0:sendNotification(GAME.SHAM_OP, {
 					type = ChapterConst.OpRequest,
-					id = slot1.id
+					id = uv1.id
 				})
 			end
 		end
@@ -63,9 +61,11 @@ function slot0.execute(slot0, slot1)
 end
 
 function slot0.doRetreat(slot0)
-	slot0.chapter:retreat()
+	slot1 = slot0.chapter
 
-	slot0.chapter.shamResetCount = slot0.chapter.shamResetCount + 1
+	slot1:retreat()
+
+	slot1.shamResetCount = slot1.shamResetCount + 1
 	slot0.flag = 0
 end
 
@@ -94,10 +94,11 @@ function slot0.doStrategy(slot0)
 end
 
 function slot0.doRepair(slot0)
-	slot0.chapter.repairTimes = slot0.chapter.repairTimes + 1
+	slot1 = slot0.chapter
+	slot1.repairTimes = slot1.repairTimes + 1
 	slot2, slot3, slot4 = ChapterConst.GetShamRepairParams()
 
-	if slot2 < slot0.chapter.repairTimes then
+	if slot2 < slot1.repairTimes then
 		slot5 = getProxy(PlayerProxy)
 		slot6 = slot5:getData()
 

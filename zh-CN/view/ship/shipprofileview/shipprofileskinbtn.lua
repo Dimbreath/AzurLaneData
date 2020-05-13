@@ -14,19 +14,21 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 
 	slot0.sctxt:SetText(HXSet.hxLan(slot1.name))
 
-	slot0.unlock = slot1.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or slot3 or (slot1.skin_type == ShipSkin.SKIN_TYPE_REMAKE and slot0.shipGroup.trans) or (slot1.skin_type == ShipSkin.SKIN_TYPE_PROPOSE and slot0.shipGroup.married == 1)
+	slot0.unlock = slot1.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or slot3 or slot1.skin_type == ShipSkin.SKIN_TYPE_REMAKE and slot0.shipGroup.trans or slot1.skin_type == ShipSkin.SKIN_TYPE_PROPOSE and slot0.shipGroup.married == 1
 
 	setActive(slot0.lockTF, not slot0.unlock)
 	slot0:AddTimer(slot1)
 end
 
 function slot0.AddTimer(slot0, slot1)
-	setActive(slot0.timelimitTF, getProxy(ShipSkinProxy):getSkinById(slot1.id) and slot2:isExpireType() and not slot2:isExpired())
+	slot3 = getProxy(ShipSkinProxy):getSkinById(slot1.id) and slot2:isExpireType() and not slot2:isExpired()
+
+	setActive(slot0.timelimitTF, slot3)
 	slot0:RemoveTimer()
 
-	if getProxy(ShipSkinProxy).getSkinById(slot1.id) and slot2.isExpireType() and not slot2.isExpired() then
+	if slot3 then
 		slot0.timer = Timer.New(function ()
-			slot0.timelimitTxt.text = skinTimeStamp(slot1:getRemainTime())
+			uv0.timelimitTxt.text = skinTimeStamp(uv1:getRemainTime())
 		end, 1, -1)
 
 		slot0.timer:Start()

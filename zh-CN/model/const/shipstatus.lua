@@ -28,7 +28,7 @@ function slot0.ShipStatu2Name(slot0)
 	elseif slot0.shamInFleet or slot0.inSham then
 		slot1 = i18n("word_status_inFight")
 	elseif slot0.inFleet then
-		slot1 = (slot0:getFleetId() == FleetProxy.PVP_FLEET_ID and i18n("word_status_inPVP")) or i18n("word_status_inFight")
+		slot1 = slot0:getFleetId() == FleetProxy.PVP_FLEET_ID and i18n("word_status_inPVP") or i18n("word_status_inFight")
 	elseif slot0.inEvent then
 		slot1 = i18n("word_status_inEvent")
 	elseif slot0.inEventFinished then

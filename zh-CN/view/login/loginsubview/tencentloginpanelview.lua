@@ -5,7 +5,6 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	return
 end
 
 function slot0.SetShareData(slot0, slot1)
@@ -30,7 +29,6 @@ function slot0.InitEvent(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

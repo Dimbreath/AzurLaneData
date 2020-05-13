@@ -44,7 +44,7 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf, function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	slot0:updateAll()
 end
@@ -76,7 +76,7 @@ function slot0.displayEquipments(slot0)
 			slot7 = cloneTplTo(slot0.equipmentTpl, slot0.equipmentContain)
 
 			updateEquipment(slot7, slot6)
-			setActive(slot8, false)
+			setActive(slot7:Find("tip"), false)
 
 			if slot0:isMaterialEnough(slot6) and slot6.config.next ~= 0 then
 				setActive(slot8, true)
@@ -84,19 +84,20 @@ function slot0.displayEquipments(slot0)
 			end
 
 			onButton(slot0, slot7, function ()
-				if slot0.contextData.pos then
-					setActive(slot0.equipmentTFs[slot0]:Find("selected"), false)
-					slot1(slot0.equipmentTFs[slot0]:Find("tip"), slot0:isMaterialEnough(slot1:getEquip(slot0)) and slot1:getEquip(slot0).config.next ~= 0)
+				if uv0.contextData.pos then
+					setActive(uv0.equipmentTFs[slot0]:Find("selected"), false)
+					setActive(uv0.equipmentTFs[slot0]:Find("tip"), uv0:isMaterialEnough(uv1:getEquip(slot0)) and uv1:getEquip(slot0).config.next ~= 0)
 				end
 
-				slot0.contextData.pos = slot2
-				slot0.contextData.equipmentId = slot3.id
-				slot0.contextData.equipmentVO = slot3
+				uv0.contextData.pos = uv2
+				uv0.contextData.equipmentId = uv3.id
+				uv0.contextData.equipmentVO = uv3
+				slot0 = uv0.contextData.pos
 
-				setActive(slot0.equipmentTFs[slot0.contextData.pos]:Find("selected"), true)
-				setActive(slot0.equipmentTFs[slot0.contextData.pos]:Find("tip"), false)
-				slot0:updateEquipment()
-				slot0:updateMaterials()
+				setActive(uv0.equipmentTFs[slot0]:Find("selected"), true)
+				setActive(uv0.equipmentTFs[slot0]:Find("tip"), false)
+				uv0:updateEquipment()
+				uv0:updateMaterials()
 			end, SFX_PANEL)
 
 			slot0.equipmentTFs[slot5] = slot7
@@ -111,7 +112,7 @@ function slot0.isMaterialEnough(slot0, slot1)
 		return false
 	end
 
-	for slot7 = 1, #slot3, 1 do
+	for slot7 = 1, #slot3 do
 		if defaultValue(slot0.itemVOs[slot3[slot7][1]], {
 			count = 0
 		}).count < slot3[slot7][2] then
@@ -123,9 +124,10 @@ function slot0.isMaterialEnough(slot0, slot1)
 end
 
 function slot0.updateEquipment(slot0)
-	slot0.contextData.equipmentId = slot0.contextData.equipmentVO.id
+	slot2 = slot0.contextData.equipmentVO
+	slot0.contextData.equipmentId = slot2.id
 
-	slot0:updateAttrs(slot0:findTF("attrs", slot0.equipmentPanel), slot2, (slot0.contextData.equipmentVO.config.next > 0 and slot2:MigrateTo(slot2.config.next)) or nil)
+	slot0:updateAttrs(slot0:findTF("attrs", slot0.equipmentPanel), slot2, slot2.config.next > 0 and slot2:MigrateTo(slot2.config.next) or nil)
 	setText(findTF(slot0.equipmentPanel, "name_container"), slot2.config.name)
 	setActive(findTF(slot0.equipmentPanel, "unique"), slot2:isUnique())
 	updateEquipment(slot0:findTF("equiptpl", slot0.equipmentPanel), slot2)
@@ -133,36 +135,40 @@ end
 
 function slot0.updateAttrs(slot0, slot1, slot2, slot3)
 	slot4 = slot2:GetProperties()
-	slot5 = (slot3 and slot3:GetProperties()) or nil
+	slot5 = slot3 and slot3:GetProperties() or nil
 	slot6 = 0
 
 	function slot7(slot0)
-		setActive(findTF(findTF, "attr_" .. slot1), slot1 + 1)
+		slot1 = uv0[slot0]
+		uv1 = uv1 + 1
 
-		if slot1 + 1 then
+		setActive(findTF(uv2, "attr_" .. uv1), slot1)
+
+		if slot1 then
 			slot4 = findTF(slot2, "from")
 			slot5 = findTF(slot2, ">")
 			slot6 = findTF(slot2, "to")
 
-			setActive(slot7, false)
+			setActive(findTF(slot2, "delta"), false)
 
 			slot8 = nil
 
-			if not EquipType.isDevice(slot3.configId) and slot1.type == AttributeType.Reload then
+			if not EquipType.isDevice(uv3.configId) and slot1.type == AttributeType.Reload then
 				slot9 = nil
 
-				if slot4.contextData.shipVO then
-					setText(slot3, AttributeType.Type2Name(AttributeType.CD))
+				if uv4.contextData.shipVO then
+					setText(findTF(slot2, "tag"), AttributeType.Type2Name(AttributeType.CD))
 
-					slot9 = slot4.contextData.shipVO:calcWeaponCD(slot3)
-					slot8 = (slot5 and slot4.contextData.shipVO:calcWeaponCD(slot5)) or nil
+					slot9 = uv4.contextData.shipVO:calcWeaponCD(uv3)
+					slot8 = uv5 and uv4.contextData.shipVO:calcWeaponCD(uv5) or nil
 				else
 					setText(slot3, i18n("cd_normal"))
 
-					slot9 = slot3:getWeaponCD()
-					slot8 = (slot5 and slot5:getWeaponCD()) or nil
-					slot10 = 0
+					slot9 = uv3:getWeaponCD()
+					slot8 = uv5 and uv5:getWeaponCD() or nil
 				end
+
+				slot10 = 0
 
 				if slot8 then
 					setActive(slot7, true)
@@ -170,13 +176,13 @@ function slot0.updateAttrs(slot0, slot1, slot2, slot3)
 					slot10 = slot8 - slot9
 				end
 
-				slot11 = (math.abs(slot10) < 0.01 and math.abs(slot10) ~= 0 and "%.3f") or "%.2f"
-
-				setText(slot4, slot12 .. "s" .. i18n("word_secondseach"))
+				setText(slot4, string.format(math.abs(slot10) < 0.01 and math.abs(slot10) ~= 0 and "%.3f" or "%.2f", slot9) .. "s" .. i18n("word_secondseach"))
 
 				if slot8 then
+					slot13 = string.format(slot11, slot8)
+
 					setText(slot6, slot13 .. "s" .. i18n("word_secondseach"))
-					setText(slot7, string.format(slot11, slot12 - string.format(slot11, slot8)))
+					setText(slot7, string.format(slot11, slot12 - slot13))
 				else
 					setText(slot6, "")
 					setText(slot7, "")
@@ -185,7 +191,7 @@ function slot0.updateAttrs(slot0, slot1, slot2, slot3)
 				setText(slot4, slot1.value)
 				setText(slot3, AttributeType.Type2Name(slot1.type))
 
-				if (slot6 and slot6[slot0]) or nil then
+				if uv6 and uv6[slot0] or nil then
 					if type(slot1.value) == "number" and slot8.value ~= slot1.value then
 						setActive(slot7, true)
 						setText(slot7, slot8.value - slot1.value)
@@ -222,34 +228,43 @@ end
 
 function slot0.updateMaterials(slot0)
 	slot1 = true
-	slot4 = slot0.contextData.equipmentVO.config.trans_use_gold
-	slot3 = defaultValue(slot0.contextData.equipmentVO.config.trans_use_item, {})
+	slot2 = slot0.contextData.equipmentVO
+	slot4 = slot2.config.trans_use_gold
+	slot3 = defaultValue(slot2.config.trans_use_item, {})
 	slot5 = nil
 
-	for slot9 = 1, 3, 1 do
+	for slot9 = 1, 3 do
+		slot10 = slot0.materialsContain:GetChild(slot9 - 1)
+
 		setActive(findTF(slot10, "off"), not slot3[slot9])
 		setActive(findTF(slot10, "equiptpl"), slot3[slot9])
 
 		if slot3[slot9] then
+			slot11 = slot3[slot9][1]
+			slot12 = findTF(slot10, "equiptpl")
+
 			updateItem(slot12, Item.New({
-				id = slot3[slot9][1]
+				id = slot11
 			}))
 			onButton(slot0, slot12, function ()
-				slot0:emit(EquipUpgradeMediator.ON_ITEM, slot0)
+				uv0:emit(EquipUpgradeMediator.ON_ITEM, uv1)
 			end, SFX_PANEL)
 
-			slot14 = defaultValue(slot0.itemVOs[slot3[slot9][1]], {
+			slot13 = defaultValue(slot0.itemVOs[slot11], {
 				count = 0
-			}).count .. "/" .. slot3[slot9][2]
+			})
+			slot14 = slot13.count .. "/" .. slot3[slot9][2]
 
-			if defaultValue(slot0.itemVOs[slot3[slot9][1]], ).count < slot3[slot9][2] then
+			if slot13.count < slot3[slot9][2] then
 				slot14 = setColorStr(slot13.count, COLOR_RED) .. "/" .. slot3[slot9][2]
 				slot1 = false
 				slot5 = slot3[slot9]
 			end
 
+			slot15 = findTF(slot12, "icon_bg/count")
+
 			setActive(slot15, true)
-			setText(findTF(slot12, "icon_bg/count"), slot14)
+			setText(slot15, slot14)
 		end
 	end
 
@@ -261,27 +276,27 @@ function slot0.updateMaterials(slot0)
 	setActive(slot0.materialsContain, slot6)
 	setActive(slot0.overLimit, not slot6)
 	onButton(slot0, slot0.startBtn, function ()
-		if not slot0 then
-			if not ItemTipPanel.ShowItemTipbyID(slot1[1]) then
+		if not uv0 then
+			if not ItemTipPanel.ShowItemTipbyID(uv1[1]) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_shipUpgradeLayer2_noMaterail"))
 			end
 
 			return
 		end
 
-		if slot2.playerVO.gold < slot3 then
+		if uv2.playerVO.gold < uv3 then
 			GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
 				{
 					59001,
-					slot3 - slot2.playerVO.gold,
-
+					uv3 - uv2.playerVO.gold,
+					uv3
 				}
 			})
 
 			return
 		end
 
-		slot2:emit(EquipUpgradeMediator.EQUIPMENT_UPGRDE)
+		uv2:emit(EquipUpgradeMediator.EQUIPMENT_UPGRDE)
 	end, SFX_UI_DOCKYARD_REINFORCE)
 	setButtonEnabled(slot0.startBtn, slot6)
 end
@@ -290,12 +305,12 @@ function slot0.upgradeFinish(slot0, slot1, slot2)
 	setActive(slot0.mainPanel, false)
 	setActive(slot0.finishPanel, true)
 	onButton(slot0, slot0.finishPanel, function ()
-		setActive(slot0.mainPanel, true)
-		setActive(slot0.finishPanel, false)
+		setActive(uv0.mainPanel, true)
+		setActive(uv0.finishPanel, false)
 	end, SFX_CANCEL)
 	setText(findTF(slot0.finishPanel, "frame/equipment_panel/name_container"), slot2.config.name)
 	setActive(findTF(slot0.finishPanel, "frame/equipment_panel/unique"), slot2:isUnique())
-	updateEquipment(slot3, slot2)
+	updateEquipment(slot0:findTF("frame/equipment_panel/equiptpl", slot0.finishPanel), slot2)
 	slot0:updateAttrs(slot0:findTF("frame/equipment_panel/attrs", slot0.finishPanel), slot1, slot2)
 end
 

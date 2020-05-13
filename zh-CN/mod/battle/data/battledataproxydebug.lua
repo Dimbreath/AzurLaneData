@@ -20,14 +20,14 @@ function ys.Battle.BattleDataProxy.__debug__BlockCldUpdate__(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._bulletList) do
 		slot7 = slot6:GetSpeed()
 
-		if (slot0._bulletRightBound < slot6:GetPosition().x and slot7.x > 0) or (slot8.z < slot0._bulletLowerBound and slot7.z < 0) then
+		if slot0._bulletRightBound < slot6:GetPosition().x and slot7.x > 0 or slot8.z < slot0._bulletLowerBound and slot7.z < 0 then
 			slot0:RemoveBulletUnit(slot6:GetUniqueID())
-		elseif slot8.x < slot0._bulletLeftBound and slot7.x < 0 and slot6:GetType() ~= slot0.BulletType.BOMB then
+		elseif slot8.x < slot0._bulletLeftBound and slot7.x < 0 and slot6:GetType() ~= uv0.BulletType.BOMB then
 			slot0:RemoveBulletUnit(slot6:GetUniqueID())
 		else
 			slot6:Update(slot1)
 
-			if (slot0._bulletUpperBound < slot8.z and slot7.z > 0) or slot6:IsOutRange(slot1) then
+			if slot0._bulletUpperBound < slot8.z and slot7.z > 0 or slot6:IsOutRange(slot1) then
 				slot6:OutRange()
 			end
 		end
@@ -38,9 +38,9 @@ function ys.Battle.BattleDataProxy.__debug__BlockCldUpdate__(slot0, slot1)
 
 		slot7, slot8 = slot6:GetIFF()
 
-		if slot7 == slot1.FRIENDLY_CODE then
+		if slot7 == uv1.FRIENDLY_CODE then
 			slot8 = slot0._totalRightBound
-		elseif slot7 == slot1.FOE_CODE then
+		elseif slot7 == uv1.FOE_CODE then
 			slot8 = slot0._totalLeftBound
 		end
 
@@ -65,9 +65,7 @@ function ys.Battle.BattleDataProxy.__debug__BlockCldUpdate__(slot0, slot1)
 		if slot6:GetPosition().x + slot6:GetBoxSize().x < slot0._leftZoneLeftBound then
 			slot6:DeadAction()
 			slot0:KillUnit(slot6:GetUniqueID())
-			slot0:HandleShipMissDamage(slot6, slot0._fleetList[slot1.FRIENDLY_CODE])
+			slot0:HandleShipMissDamage(slot6, slot0._fleetList[uv1.FRIENDLY_CODE])
 		end
 	end
 end
-
-return

@@ -1,4 +1,6 @@
-class("SetSecondaryPasswordCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("SetSecondaryPasswordCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	pg.UIMgr.GetInstance():LoadingOn()
@@ -10,11 +12,11 @@ class("SetSecondaryPasswordCommand", pm.SimpleCommand).execute = function (slot0
 		pg.UIMgr.GetInstance():LoadingOff()
 
 		if slot0.result == 0 then
-			getProxy(SecondaryPWDProxy):OnFirstSet(slot0)
+			getProxy(SecondaryPWDProxy):OnFirstSet(uv0)
 		end
 
-		slot1:sendNotification(GAME.SET_PASSWORD_DONE, slot0)
+		uv1:sendNotification(GAME.SET_PASSWORD_DONE, slot0)
 	end)
 end
 
-return class("SetSecondaryPasswordCommand", pm.SimpleCommand)
+return slot0

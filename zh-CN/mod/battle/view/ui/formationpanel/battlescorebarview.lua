@@ -1,7 +1,8 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleDataFunction
+slot0 = ys
+slot1 = slot0.Battle.BattleDataFunction
 slot2 = class("BattleScoreBarView")
-ys.Battle.BattleScoreBarView = slot2
+slot0.Battle.BattleScoreBarView = slot2
 slot2.__name = "BattleScoreBarView"
 
 function slot2.Ctor(slot0, slot1)
@@ -34,5 +35,3 @@ function slot2.UpdateCombo(slot0, slot1)
 
 	setText(slot0._comboText, slot1)
 end
-
-return

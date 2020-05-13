@@ -1,7 +1,10 @@
-class("ActivityBeatMonsterNianCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot3 = slot1:getBody().callback
+slot0 = class("ActivityBeatMonsterNianCommand", pm.SimpleCommand)
 
-	if not getProxy(ActivityProxy):getActivityById(slot1.getBody().activity_id) or slot4:isEnd() then
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot3 = slot2.callback
+
+	if not getProxy(ActivityProxy):getActivityById(slot2.activity_id) or slot4:isEnd() then
 		return
 	end
 
@@ -12,28 +15,28 @@ class("ActivityBeatMonsterNianCommand", pm.SimpleCommand).execute = function (sl
 		arg2 = slot2.arg2
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
-			slot1 = {}
-
 			for slot5, slot6 in ipairs(slot0.award_list) do
-				table.insert(slot1, slot7)
-				slot0:sendNotification(GAME.ADD_ITEM, Item.New({
+				slot7 = {
 					type = slot6.type,
 					id = slot6.id,
 					count = slot6.number
-				}))
+				}
+
+				table.insert({}, slot7)
+				uv0:sendNotification(GAME.ADD_ITEM, Item.New(slot7))
 			end
 
-			slot1.data2 = slot1.data2 + 1
-			slot1.data3 = slot0.number[1]
+			uv1.data2 = uv1.data2 + 1
+			uv1.data3 = slot0.number[1]
 
-			if slot1:GetDataConfig("hp") - slot1.data3 <= 0 then
-				slot1.data1 = 1
+			if uv1:GetDataConfig("hp") - uv1.data3 <= 0 then
+				uv1.data1 = 1
 			end
 
-			getProxy(ActivityProxy):updateActivity(slot1)
+			getProxy(ActivityProxy):updateActivity(uv1)
 
-			if slot2 then
-				slot2(slot1)
+			if uv2 then
+				uv2(slot1)
 			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
@@ -41,4 +44,4 @@ class("ActivityBeatMonsterNianCommand", pm.SimpleCommand).execute = function (sl
 	end)
 end
 
-return class("ActivityBeatMonsterNianCommand", pm.SimpleCommand)
+return slot0

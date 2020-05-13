@@ -15,11 +15,11 @@ function slot0.register(slot0)
 		slot0.viewComponent:initRequests()
 	end
 
-	slot0:bind(slot0.ACCPET, function (slot0, slot1)
-		slot0:sendNotification(GAME.GUIDL_REQUEST_ACCEPT, slot1)
+	slot0:bind(uv0.ACCPET, function (slot0, slot1)
+		uv0:sendNotification(GAME.GUIDL_REQUEST_ACCEPT, slot1)
 	end)
-	slot0:bind(slot0.REJECT, function (slot0, slot1)
-		slot0:sendNotification(GAME.GUIDL_REQUEST_REJECT, slot1)
+	slot0:bind(uv0.REJECT, function (slot0, slot1)
+		uv0:sendNotification(GAME.GUIDL_REQUEST_REJECT, slot1)
 	end)
 end
 
@@ -32,10 +32,8 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
-	slot3 = slot1:getBody()
-
 	if slot1:getName() == GuildProxy.REQUEST_DELETED then
-		slot0.viewComponent:deleteRequest(slot3)
+		slot0.viewComponent:deleteRequest(slot1:getBody())
 	elseif slot2 == GAME.GUILD_GET_REQUEST_LIST_DONE then
 		slot0.viewComponent:setRequest(slot3)
 

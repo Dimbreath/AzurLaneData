@@ -1,6 +1,10 @@
-class("TimeSynchronizationCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	pg.TimeMgr.GetInstance():SetServerTime(slot1:getBody().timestamp, slot1.getBody().monday_0oclock_timestamp)
-	getProxy(BuildShipProxy).setBuildShipState(slot3)
+slot0 = class("TimeSynchronizationCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+
+	pg.TimeMgr.GetInstance():SetServerTime(slot2.timestamp, slot2.monday_0oclock_timestamp)
+	getProxy(BuildShipProxy):setBuildShipState()
 
 	if getProxy(PlayerProxy):getData() then
 		slot4:flushTimesListener()
@@ -22,4 +26,4 @@ class("TimeSynchronizationCommand", pm.SimpleCommand).execute = function (slot0,
 	end
 end
 
-return class("TimeSynchronizationCommand", pm.SimpleCommand)
+return slot0

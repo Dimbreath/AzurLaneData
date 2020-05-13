@@ -1,9 +1,12 @@
-class("EscortShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot6 = getProxy(PlayerProxy).getRawData(slot5)
-	slot9 = getProxy(ChapterProxy).getEscortShop(slot7).getGoodsCfg(slot8, slot3)
+slot0 = class("EscortShoppingCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot6 = getProxy(PlayerProxy):getRawData()
+	slot9 = getProxy(ChapterProxy):getEscortShop():getGoodsCfg(slot2.id)
 	slot10, slot11 = getPlayerOwn(slot9.resource_category, slot9.resource_type)
 
-	if slot11 < slot9.resource_num * slot1:getBody().count then
+	if slot11 < slot9.resource_num * slot2.count then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot10))
 
 		return
@@ -28,26 +31,27 @@ class("EscortShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot
 		count = slot4
 	}, 23011, function (slot0)
 		if slot0.result == 0 then
+			slot1 = {}
+
 			table.insert(slot1, {
-				type = slot0.commodity_type,
-				id = slot0.commodity_id,
-				count = slot1 * slot0.num
+				type = uv0.commodity_type,
+				id = uv0.commodity_id,
+				count = uv1 * uv0.num
 			})
 			_.each(slot1, function (slot0)
-				slot0:sendNotification(GAME.ADD_ITEM, Item.New(slot0))
+				uv0:sendNotification(GAME.ADD_ITEM, Item.New(slot0))
 			end)
 
-			slot2 = slot1:getEscortShop()
-			slot3 = slot2:getGoodsById(slot4)
+			slot2 = uv3:getEscortShop()
 
-			slot3:addBuyCount(slot1)
-			slot3:updateEscortShop(slot2)
-			reducePlayerOwn(slot0.resource_category, slot0.resource_type, slot0.resource_num * {})
-			slot2:sendNotification(GAME.ESCORT_SHOPPING_DONE, {
-				awards = 
+			slot2:getGoodsById(uv4):addBuyCount(uv1)
+			uv3:updateEscortShop(slot2)
+			reducePlayerOwn(uv0.resource_category, uv0.resource_type, uv0.resource_num * uv1)
+			uv2:sendNotification(GAME.ESCORT_SHOPPING_DONE, {
+				awards = slot1
 			})
 		end
 	end)
 end
 
-return class("EscortShoppingCommand", pm.SimpleCommand)
+return slot0

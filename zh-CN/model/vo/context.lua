@@ -5,16 +5,17 @@ slot0.TRANS_TYPE = {
 }
 
 function slot0.Ctor(slot0, slot1)
-	slot0.mediator = slot1 or {}.mediator
-	slot0.viewComponent = slot1 or .viewComponent
-	slot0.scene = slot1 or .scene
-	slot0.onRemoved = slot1 or .onRemoved
-	slot0.cleanStack = defaultValue(slot1 or .cleanStack, false)
-	slot0.ignoreBack = defaultValue(slot1 or .ignoreBack, false)
-	slot0.data = slot1 or .data or {}
-	slot0.parent = slot1 or .parent
+	slot1 = slot1 or {}
+	slot0.mediator = slot1.mediator
+	slot0.viewComponent = slot1.viewComponent
+	slot0.scene = slot1.scene
+	slot0.onRemoved = slot1.onRemoved
+	slot0.cleanStack = defaultValue(slot1.cleanStack, false)
+	slot0.ignoreBack = defaultValue(slot1.ignoreBack, false)
+	slot0.data = slot1.data or {}
+	slot0.parent = slot1.parent
 	slot0.children = {}
-	slot0.transType = defaultValue(slot1 or .transType, slot0.TRANS_TYPE.CROSS)
+	slot0.transType = defaultValue(slot1.transType, uv0.TRANS_TYPE.CROSS)
 end
 
 function slot0.extendData(slot0, slot1)
@@ -54,15 +55,13 @@ function slot0.retriveLastChild(slot0)
 end
 
 function slot0.getContextByMediator(slot0, slot1)
-	return 
-	-- Decompilation error in this vicinity:
-	function (slot0, slot1)
+	return function (slot0, slot1)
 		if slot0.mediator == slot1 then
 			return slot0
 		end
 
 		for slot5, slot6 in ipairs(slot0.children) do
-			if slot0(slot6, slot1) ~= nil then
+			if uv0(slot6, slot1) ~= nil then
 				return slot7
 			end
 		end

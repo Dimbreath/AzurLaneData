@@ -27782,5 +27782,3 @@ pg.shop_template = {
 		90042
 	}
 }
-
-return

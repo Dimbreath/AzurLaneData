@@ -1,4 +1,6 @@
-class("FetchChallengeCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("FetchChallengeCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) or slot3:isEnd() then
 		return
 	end
@@ -17,10 +19,10 @@ class("FetchChallengeCommand", pm.SimpleCommand).execute = function (slot0, slot
 			end
 
 			if slot2:isClear() then
-				slot0:sendNotification(GAME.CHALLENGE_RESET)
+				uv0:sendNotification(GAME.CHALLENGE_RESET)
 			end
 		end
 	end)
 end
 
-return class("FetchChallengeCommand", pm.SimpleCommand)
+return slot0

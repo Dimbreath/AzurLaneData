@@ -28,7 +28,8 @@ end
 
 function slot0.init(slot0)
 	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot0.rankRect = slot0:findTF("main/frame/ranks"):GetComponent("LScrollRect")
+	slot1 = slot0:findTF("main/frame/ranks")
+	slot0.rankRect = slot1:GetComponent("LScrollRect")
 	slot0.playerRankTF = slot0:findTF("main/frame/player_rank")
 
 	setActive(slot0.playerRankTF, false)
@@ -103,14 +104,18 @@ function slot0.updateToggles(slot0)
 end
 
 function slot0.didEnter(slot0)
-	onButton(slot0, slot0:findTF("back_btn", slot0.topPanel), function ()
-		slot0:emit(slot1.ON_BACK)
-	end, SFX_CANCEL)
+	function slot4()
+		uv0:emit(uv1.ON_BACK)
+	end
+
+	slot5 = SFX_CANCEL
+
+	onButton(slot0, slot0:findTF("back_btn", slot0.topPanel), slot4, slot5)
 
 	for slot4, slot5 in pairs(slot0.toggles) do
 		onToggle(slot0, slot5, function (slot0)
 			if slot0 then
-				slot1:switchPage(slot0, checkExist(PowerRank:getActivityByRankType(slot0), {
+				uv1:switchPage(uv0, checkExist(PowerRank:getActivityByRankType(uv0), {
 					"id"
 				}))
 			end
@@ -120,7 +125,7 @@ function slot0.didEnter(slot0)
 	for slot4, slot5 in pairs(slot0.ptToggles) do
 		onToggle(slot0, slot5, function (slot0)
 			if slot0 then
-				slot0:switchPage(PowerRank.TYPE_PT, slot0.switchPage)
+				uv0:switchPage(PowerRank.TYPE_PT, uv1)
 			end
 		end, SFX_PANEL)
 	end
@@ -128,11 +133,11 @@ function slot0.didEnter(slot0)
 	slot0.cards = {}
 
 	function slot0.rankRect.onInitItem(slot0)
-		slot0:onInintItem(slot0)
+		uv0:onInintItem(slot0)
 	end
 
 	function slot0.rankRect.onUpdateItem(slot0, slot1)
-		slot0:onUpdateItem(slot0, slot1)
+		uv0:onUpdateItem(slot0, slot1)
 	end
 
 	slot0.playerCard = RankCard.New(slot0.playerRankTF, RankCard.TYPE_SELF)
@@ -141,13 +146,15 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.onInintItem(slot0, slot1)
-	onButton(slot0, RankCard.New(slot1, RankCard.TYPE_OTHER)._tf, function ()
-		if slot0.rankVO.type == PowerRank.TYPE_MILITARY_RANK then
-			slot1:emit(BillboardMediator.OPEN_RIVAL_INFO, slot0.rankVO.id)
+	slot2 = RankCard.New(slot1, RankCard.TYPE_OTHER)
+
+	onButton(slot0, slot2._tf, function ()
+		if uv0.rankVO.type == PowerRank.TYPE_MILITARY_RANK then
+			uv1:emit(BillboardMediator.OPEN_RIVAL_INFO, uv0.rankVO.id)
 		end
 	end)
 
-	slot0.cards[slot1] = RankCard.New(slot1, RankCard.TYPE_OTHER)
+	slot0.cards[slot1] = slot2
 end
 
 function slot0.onUpdateItem(slot0, slot1, slot2)
@@ -166,10 +173,9 @@ function slot0.filter(slot0, slot1, slot2)
 	end
 
 	slot4 = nil
-	slot4 = (PowerRank.TYPE_PT ~= slot1 or slot0.ptRanks[slot2]) and slot0.rankVOs[slot0.page]
 	slot0.displayRankVOs = {}
 
-	for slot8, slot9 in ipairs(slot4) do
+	for slot8, slot9 in ipairs((PowerRank.TYPE_PT ~= slot1 or slot0.ptRanks[slot2]) and slot0.rankVOs[slot0.page]) do
 		table.insert(slot0.displayRankVOs, slot9)
 	end
 
@@ -199,11 +205,8 @@ function slot0.switchPage(slot0, slot1, slot2)
 end
 
 function slot0.updateScoreTitle(slot0, slot1, slot2)
-	slot3 = slot0:findTF("main/frame/title")
-	slot4 = PowerRank:getTitleWord(slot1, slot2)
-
-	for slot8 = 1, 4, 1 do
-		setText(slot3:GetChild(slot8 - 1), slot4[slot8])
+	for slot8 = 1, 4 do
+		setText(slot0:findTF("main/frame/title"):GetChild(slot8 - 1), PowerRank:getTitleWord(slot1, slot2)[slot8])
 	end
 end
 

@@ -18,22 +18,23 @@ end
 
 function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
-	setText(slot0.nums, _.reduce(_.slice(slot2, 1, slot0.activity.data2), 0, function (slot0, slot1)
+
+	slot1 = slot0.activity
+
+	setText(slot0.nums, _.reduce(_.slice(slot1:getConfig("config_client")[3], 1, slot1.data2), 0, function (slot0, slot1)
 		return slot0 + slot1
 	end))
-	setActive(slot0.getSign, slot0.activity.data1 == 1)
+	setActive(slot0.getSign, slot1.data1 == 1)
 
 	slot3 = slot1:getConfig("config_data")[4]
 	slot0.progress.sizeDelta = Vector2.New(10 + 90 * math.max(slot1.data2 - 1, 0), slot0.progress.sizeDelta.y)
-	slot4 = Color.New(1, 0.83, 0.15)
-	slot5 = Color.New(0.59, 0.62, 0.69)
 
-	for slot9 = 1, 7, 1 do
-		setTextColor(slot0.days:Find(slot9), (slot9 <= slot1.data2 and slot4) or slot5)
+	for slot9 = 1, 7 do
+		setTextColor(slot0.days:Find(slot9), slot9 <= slot1.data2 and Color.New(1, 0.83, 0.15) or Color.New(0.59, 0.62, 0.69))
 	end
 
 	onButton(slot0, slot0.gameBtn, function ()
-		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.LINK_LINK)
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.LINK_LINK)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -44,11 +45,9 @@ function slot0.OnFirstFlush(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	return
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

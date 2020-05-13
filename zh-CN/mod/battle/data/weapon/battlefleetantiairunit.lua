@@ -1,13 +1,14 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleEvent
-slot2 = ys.Battle.BattleFormulas
-slot3 = ys.Battle.BattleConst
-slot4 = ys.Battle.BattleConfig
-slot5 = ys.Battle.BattleDataFunction
-slot6 = ys.Battle.BattleAttr
-slot7 = ys.Battle.BattleVariable
+slot0 = ys
+slot1 = slot0.Battle.BattleEvent
+slot2 = slot0.Battle.BattleFormulas
+slot3 = slot0.Battle.BattleConst
+slot4 = slot0.Battle.BattleConfig
+slot5 = slot0.Battle.BattleDataFunction
+slot6 = slot0.Battle.BattleAttr
+slot7 = slot0.Battle.BattleVariable
 slot8 = class("BattleFleetAntiAirUnit")
-ys.Battle.BattleFleetAntiAirUnit = slot8
+slot0.Battle.BattleFleetAntiAirUnit = slot8
 slot8.__name = "BattleFleetAntiAirUnit"
 slot8.STATE_DISABLE = "DISABLE"
 slot8.STATE_READY = "READY"
@@ -23,14 +24,14 @@ end
 function slot8.init(slot0)
 	slot0._crewUnitList = {}
 	slot0._hitFXResIDList = {}
-	slot0._currentState = slot0.STATE_DISABLE
-	slot0._dataProxy = slot0.STATE_DISABLE.Battle.BattleDataProxy.GetInstance()
+	slot0._currentState = uv0.STATE_DISABLE
+	slot0._dataProxy = uv1.Battle.BattleDataProxy.GetInstance()
 	slot0._range = 0
 end
 
 function slot8.AppendCrewUnit(slot0, slot1)
 	if #slot1:GetFleetAntiAirList() > 0 then
-		slot0._currentState = slot0.STATE_READY
+		slot0._currentState = uv0.STATE_READY
 		slot0._crewUnitList[slot1] = slot2
 
 		slot0:flush()
@@ -71,18 +72,18 @@ function slot8.flush(slot0)
 			slot0._interval = slot0._interval + slot12:GetReloadTime()
 			slot13 = slot12:GetTemplateData()
 			slot0._range = slot0._range + slot13.range
-			slot0._hitFXResIDList[slot12] = slot0.Battle.BattleDataFunction.GetBulletTmpDataFromID(slot13.bullet_ID[1]).hit_fx
+			slot0._hitFXResIDList[slot12] = uv0.Battle.BattleDataFunction.GetBulletTmpDataFromID(slot13.bullet_ID[1]).hit_fx
 			slot0._SFXID = slot13.fire_sfx
 		end
 
 		slot1[#slot1 + 1] = {
-			weight = slot1.AntiAirPowerWeight(slot8),
+			weight = uv1.AntiAirPowerWeight(slot6:GetAttrByName("antiAirPower")),
 			rst = slot6
 		}
 	end
 
 	if slot2 == 0 then
-		slot0._currentState = slot2.STATE_DISABLE
+		slot0._currentState = uv2.STATE_DISABLE
 
 		if slot0._precastTimer then
 			slot0:RemovePrecastTimer()
@@ -90,21 +91,21 @@ function slot8.flush(slot0)
 	else
 		slot0._range = slot0._range / slot2
 		slot0._interval = slot0._interval / slot2 + 0.5
-		slot0._weightList, slot0._totalWeight = slot1:GenerateWeightList()
+		slot0._weightList, slot0._totalWeight = uv1.GenerateWeightList(slot1)
 	end
 end
 
 function slot8.Update(slot0)
-	if slot0._currentState == slot0.STATE_READY and #slot0:FilterRange(slot0:FilterTarget()) > 0 then
+	if slot0._currentState == uv0.STATE_READY and #slot0:FilterRange(slot0:FilterTarget()) > 0 then
 		slot0:AddPreCastTimer()
 	end
 end
 
 function slot8.AddPreCastTimer(slot0)
-	slot0._currentState = slot0.STATE_PRECAST
-	slot0._precastTimer = pg.TimeMgr.GetInstance():AddBattleTimer("", 0, slot1.AntiAirConfig.Precast_duration, function ()
-		slot0:RemovePrecastTimer()
-		slot0.RemovePrecastTimer:Fire()
+	slot0._currentState = uv0.STATE_PRECAST
+	slot0._precastTimer = pg.TimeMgr.GetInstance():AddBattleTimer("", 0, uv1.AntiAirConfig.Precast_duration, function ()
+		uv0:RemovePrecastTimer()
+		uv0:Fire()
 	end, true)
 end
 
@@ -115,18 +116,17 @@ function slot8.RemovePrecastTimer(slot0)
 end
 
 function slot8.FilterTarget(slot0)
-	slot2 = {}
-	slot3 = slot0._host:GetIFF()
 	slot4 = 1
 
-	for slot8, slot9 in pairs(slot1) do
-		if slot9:GetIFF() ~= slot3 and slot9:IsVisitable() then
-			slot2[slot4] = slot9
+	for slot8, slot9 in pairs(slot0._dataProxy:GetAircraftList()) do
+		if slot9:GetIFF() ~= slot0._host:GetIFF() and slot9:IsVisitable() then
 			slot4 = slot4 + 1
 		end
 	end
 
-	return slot2
+	return {
+		[slot4] = slot9
+	}
 end
 
 function slot8.FilterRange(slot0, slot1)
@@ -152,35 +152,34 @@ function slot8.Fire(slot0)
 		return
 	end
 
-	slot0._dataProxy:SpawnColumnArea(slot1.AOEField.AIR, slot0._host:GetIFF(), slot0._host:GetPosition(), slot0._range * 2, -1, function (slot0)
+	slot5 = slot0._host:GetIFF()
+	slot6 = slot0._host:GetPosition()
+
+	slot0._dataProxy:SpawnColumnArea(uv1.AOEField.AIR, slot5, slot6, slot0._range * 2, -1, function (slot0)
 		slot1 = {}
-		slot2 = slot0._dataProxy:GetAircraftList()
 
 		for slot6, slot7 in ipairs(slot0) do
-			if slot7.Active and slot2[slot7.UID] and slot8:IsVisitable() then
+			if slot7.Active and uv0._dataProxy:GetAircraftList()[slot7.UID] and slot8:IsVisitable() then
 				slot1[#slot1 + 1] = slot8
 			end
 		end
 
-		slot3 = slot1.CalculateFleetAntiAirTotalDamage(slot0)
-		slot4 = slot1.GetMeteoDamageRatio(#slot1)
-
 		for slot8, slot9 in ipairs(slot1) do
-			slot0._dataProxy:HandleDirectDamage(slot9, math.max(1, math.floor(slot3 * slot4[slot8])), slot1.WeightListRandom(slot0._weightList, slot0._totalWeight))
+			uv0._dataProxy:HandleDirectDamage(slot9, math.max(1, math.floor(uv1.CalculateFleetAntiAirTotalDamage(uv0) * uv1.GetMeteoDamageRatio(#slot1)[slot8])), uv1.WeightListRandom(uv0._weightList, uv0._totalWeight))
 		end
 	end)
 	slot0:EnterCoolDown()
 
 	for slot5, slot6 in pairs(slot0._crewUnitList) do
-		slot5:TriggerBuff(slot2.Battle.BattleConst.BuffEffectType.ON_ANTIAIR_FIRE, {})
+		slot5:TriggerBuff(uv2.Battle.BattleConst.BuffEffectType.ON_ANTIAIR_FIRE, {})
 		slot5:PlayFX(slot6[1]:GetTemplateData().fire_fx, true)
 	end
 
 	for slot5, slot6 in pairs(slot0._hitFXResIDList) do
-		pg.EffectMgr.GetInstance():PlayBattleEffect(slot2.Battle.BattleFXPool.GetInstance():GetFX(slot6), slot0._host:GetPosition() + Vector3(slot7, 10, slot8), true)
+		pg.EffectMgr.GetInstance():PlayBattleEffect(uv2.Battle.BattleFXPool.GetInstance():GetFX(slot6), slot0._host:GetPosition() + Vector3((math.random() * 2 - 1) * slot0._range, 10, (math.random() * 2 - 1) * slot0._range), true)
 	end
 
-	slot2.Battle.PlayBattleSFX(slot0._SFXID)
+	uv2.Battle.PlayBattleSFX(slot0._SFXID)
 end
 
 function slot8.EnterCoolDown(slot0)
@@ -197,9 +196,9 @@ function slot8.AddCDTimer(slot0, slot1)
 	slot0:RemoveCDTimer()
 
 	slot0._cdTimer = pg.TimeMgr.GetInstance():AddBattleTimer("weaponTimer", -1, slot1, function ()
-		slot0._currentState = slot0.STATE_READY
+		uv0._currentState = uv0.STATE_READY
 
-		slot0:RemoveCDTimer()
+		uv0:RemoveCDTimer()
 	end, true)
 end
 
@@ -219,5 +218,3 @@ function slot8.Dispose(slot0)
 	slot0._dataProxy = nil
 	slot0._SFXID = nil
 end
-
-return

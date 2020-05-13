@@ -36,7 +36,7 @@ end
 function slot0.isInValidMap(slot0)
 	slot1 = slot0:getMapType()
 
-	if not slot0:isRemaster() and (slot1 == slot0.ACTIVITY_EASY or slot1 == slot0.ACTIVITY_HARD or slot0.ACT_EXTRA == slot1) then
+	if not slot0:isRemaster() and (slot1 == uv0.ACTIVITY_EASY or slot1 == uv0.ACTIVITY_HARD or uv0.ACT_EXTRA == slot1) then
 		if slot0:getConfig("on_activity") == 0 then
 			return true
 		end
@@ -122,7 +122,7 @@ function slot0.updateChapters(slot0, slot1)
 end
 
 function slot0.isClear(slot0)
-	if slot0:getMapType() == slot0.SCENARIO or slot1 == slot0.ACTIVITY_EASY then
+	if slot0:getMapType() == uv0.SCENARIO or slot1 == uv0.ACTIVITY_EASY then
 		for slot5, slot6 in pairs(slot0.chapters) do
 			if not slot6:isClear() then
 				return false
@@ -136,7 +136,7 @@ end
 function slot0.isEliteEnabled(slot0)
 	slot1 = nil
 
-	if slot0:getMapType() == slot0.ELITE then
+	if slot0:getMapType() == uv0.ELITE then
 		if not slot0.bindingMap then
 			return false
 		end
@@ -180,7 +180,7 @@ function slot0.isClearForActivity(slot0)
 end
 
 function slot0.isActExtra(slot0)
-	return slot0:getConfig("type") == slot0.ACT_EXTRA
+	return slot0:getConfig("type") == uv0.ACT_EXTRA
 end
 
 function slot0.isGuildBoss(slot0)
@@ -210,7 +210,7 @@ function slot0.IsType(slot0, slot1)
 end
 
 function slot0.NeedRecordMap(slot0)
-	return slot0:getConfig("type") == slot0.INVALID or slot1 == slot0.SCENARIO or slot1 == slot0.ELITE
+	return slot0:getConfig("type") == uv0.INVALID or slot1 == uv0.SCENARIO or slot1 == uv0.ELITE
 end
 
 function slot0.existHardMap(slot0)
@@ -218,7 +218,7 @@ function slot0.existHardMap(slot0)
 	slot2 = slot0:getConfigTable()
 
 	while slot2 ~= nil and slot1 > 0 do
-		if slot2.type == slot0.ACTIVITY_HARD or slot2.type == slot0.ELITE then
+		if slot2.type == uv0.ACTIVITY_HARD or slot2.type == uv0.ELITE then
 			return true
 		end
 

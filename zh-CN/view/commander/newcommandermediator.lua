@@ -2,8 +2,8 @@ slot0 = class("NewCommanderMediator", import("..base.ContextMediator"))
 slot0.ON_LOCK = "NewCommanderMediator:ON_LOCK"
 
 function slot0.register(slot0)
-	slot0:bind(slot0.ON_LOCK, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.COMMANDER_LOCK, {
+	slot0:bind(uv0.ON_LOCK, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.COMMANDER_LOCK, {
 			commanderId = slot1,
 			flag = slot2
 		})

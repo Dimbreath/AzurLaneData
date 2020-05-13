@@ -1,439 +1,122 @@
-slot0 = class
-slot1 = "InstagramLayer"
-slot2 = import
-slot3 = "...base.BaseUI"
-slot0 = slot0(slot1, slot2(slot3))
+slot0 = class("InstagramLayer", import("...base.BaseUI"))
 
-function slot1(slot0)
-	slot1 = "InstagramUI"
-
-	return slot1
+function slot0.getUIName(slot0)
+	return "InstagramUI"
 end
 
-slot0.getUIName = slot1
-
-function slot1(slot0, slot1)
+function slot0.SetProxy(slot0, slot1)
 	slot0.proxy = slot1
-	slot3 = slot1
-	slot2 = slot1.GetData
-	slot2 = slot2(slot3)
-	slot0.instagramVOById = slot2
-	slot3 = slot1
-	slot2 = slot1.GetMessages
-	slot2 = slot2(slot3)
-	slot0.messages = slot2
+	slot0.instagramVOById = slot1:GetData()
+	slot0.messages = slot1:GetMessages()
 end
 
-slot0.SetProxy = slot1
+function slot0.UpdateSelectedInstagram(slot0, slot1)
+	if slot0.contextData.instagram and slot0.contextData.instagram.id == slot1 then
+		slot0.contextData.instagram = slot0.instagramVOById[slot1]
 
-function slot1(slot0, slot1)
-	slot2 = slot0.contextData
-	slot2 = slot2.instagram
-
-	if slot2 then
-		slot2 = slot0.contextData
-		slot2 = slot2.instagram
-		slot2 = slot2.id
-
-		if slot2 == slot1 then
-			slot2 = slot0.contextData
-			slot3 = slot0.instagramVOById
-			slot3 = slot3[slot1]
-			slot2.instagram = slot3
-			slot3 = slot0
-			slot2 = slot0.UpdateCommentList
-
-			slot2(slot3)
-		end
+		slot0:UpdateCommentList()
 	end
 end
 
-slot0.UpdateSelectedInstagram = slot1
+function slot0.init(slot0)
+	slot1 = GameObject.Find("MainObject")
+	slot0.downloadmgr = BulletinBoardMgr.Inst
+	slot0.listTF = slot0:findTF("list")
+	slot0.mainTF = slot0:findTF("main")
 
-function slot1(slot0)
-	slot1 = GameObject
-	slot1 = slot1.Find
-	slot2 = "MainObject"
-	slot1 = slot1(slot2)
-	slot2 = BulletinBoardMgr
-	slot2 = slot2.Inst
-	slot0.downloadmgr = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "list"
-	slot2 = slot2(slot3, slot4)
-	slot0.listTF = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "main"
-	slot2 = slot2(slot3, slot4)
-	slot0.mainTF = slot2
-	slot2 = setActive
-	slot3 = slot0.listTF
-	slot4 = true
+	setActive(slot0.listTF, true)
+	setActive(slot0.mainTF, false)
 
-	slot2(slot3, slot4)
+	slot0.closeBtn = slot0:findTF("close_btn")
+	slot0.helpBtn = slot0:findTF("list/bg/help")
+	slot0.noMsgTF = slot0:findTF("list/bg/no_msg")
+	slot0.list = slot0:findTF("list/bg/scrollrect"):GetComponent("LScrollRect")
+	slot0.imageTF = slot0:findTF("main/left_panel/Image")
+	slot0.likeBtn = slot0:findTF("main/left_panel/heart")
+	slot0.bubbleTF = slot0:findTF("main/left_panel/bubble")
+	slot0.planeTF = slot0:findTF("main/left_panel/plane")
+	slot0.likeCntTxt = slot0:findTF("main/left_panel/zan"):GetComponent(typeof(Text))
+	slot0.pushTimeTxt = slot0:findTF("main/left_panel/time"):GetComponent(typeof(Text))
+	slot0.iconTF = slot0:findTF("main/right_panel/top/head/icon")
+	slot0.nameTxt = slot0:findTF("main/right_panel/top/name"):GetComponent(typeof(Text))
+	slot0.centerTF = slot0:findTF("main/right_panel/center")
+	slot0.contentTxt = slot0:findTF("main/right_panel/center/Text/Text"):GetComponent(typeof(Text))
+	slot0.commentList = UIItemList.New(slot0:findTF("main/right_panel/center/bottom/scroll/content"), slot0:findTF("main/right_panel/center/bottom/scroll/content/tpl"))
+	slot0.commentPanel = slot0:findTF("main/right_panel/last/bg2")
+	slot0.optionalPanel = slot0:findTF("main/right_panel/last/bg2/option")
+	slot0.sprites = {}
+	slot0.timers = {}
+	slot0.UIMgr = pg.UIMgr.GetInstance()
 
-	slot2 = setActive
-	slot3 = slot0.mainTF
-	slot4 = false
-
-	slot2(slot3, slot4)
-
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "close_btn"
-	slot2 = slot2(slot3, slot4)
-	slot0.closeBtn = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "list/bg/help"
-	slot2 = slot2(slot3, slot4)
-	slot0.helpBtn = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "list/bg/no_msg"
-	slot2 = slot2(slot3, slot4)
-	slot0.noMsgTF = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "list/bg/scrollrect"
-	slot2 = slot2(slot3, slot4)
-	slot3 = slot2
-	slot2 = slot2.GetComponent
-	slot4 = "LScrollRect"
-	slot2 = slot2(slot3, slot4)
-	slot0.list = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "main/left_panel/Image"
-	slot2 = slot2(slot3, slot4)
-	slot0.imageTF = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "main/left_panel/heart"
-	slot2 = slot2(slot3, slot4)
-	slot0.likeBtn = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "main/left_panel/bubble"
-	slot2 = slot2(slot3, slot4)
-	slot0.bubbleTF = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "main/left_panel/plane"
-	slot2 = slot2(slot3, slot4)
-	slot0.planeTF = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "main/left_panel/zan"
-	slot2 = slot2(slot3, slot4)
-	slot3 = slot2
-	slot2 = slot2.GetComponent
-	slot4 = typeof
-	slot5 = Text
-	slot2 = slot2(slot3, slot4(slot5))
-	slot0.likeCntTxt = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "main/left_panel/time"
-	slot2 = slot2(slot3, slot4)
-	slot3 = slot2
-	slot2 = slot2.GetComponent
-	slot4 = typeof
-	slot5 = Text
-	slot2 = slot2(slot3, slot4(slot5))
-	slot0.pushTimeTxt = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "main/right_panel/top/head/icon"
-	slot2 = slot2(slot3, slot4)
-	slot0.iconTF = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "main/right_panel/top/name"
-	slot2 = slot2(slot3, slot4)
-	slot3 = slot2
-	slot2 = slot2.GetComponent
-	slot4 = typeof
-	slot5 = Text
-	slot2 = slot2(slot3, slot4(slot5))
-	slot0.nameTxt = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "main/right_panel/center"
-	slot2 = slot2(slot3, slot4)
-	slot0.centerTF = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "main/right_panel/center/Text/Text"
-	slot2 = slot2(slot3, slot4)
-	slot3 = slot2
-	slot2 = slot2.GetComponent
-	slot4 = typeof
-	slot5 = Text
-	slot2 = slot2(slot3, slot4(slot5))
-	slot0.contentTxt = slot2
-	slot2 = UIItemList
-	slot2 = slot2.New
-	slot4 = slot0
-	slot3 = slot0.findTF
-	slot5 = "main/right_panel/center/bottom/scroll/content"
-	slot3 = slot3(slot4, slot5)
-	slot5 = slot0
-	slot4 = slot0.findTF
-	slot6 = "main/right_panel/center/bottom/scroll/content/tpl"
-	slot2 = slot2(slot3, slot4(slot5, slot6))
-	slot0.commentList = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "main/right_panel/last/bg2"
-	slot2 = slot2(slot3, slot4)
-	slot0.commentPanel = slot2
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "main/right_panel/last/bg2/option"
-	slot2 = slot2(slot3, slot4)
-	slot0.optionalPanel = slot2
-	slot2 = {}
-	slot0.sprites = slot2
-	slot2 = {}
-	slot0.timers = slot2
-	slot2 = pg
-	slot2 = slot2.UIMgr
-	slot2 = slot2.GetInstance
-	slot2 = slot2()
-	slot0.UIMgr = slot2
-	slot2 = slot0.UIMgr
-	slot3 = slot2
-	slot2 = slot2.BlurPanel
-	slot4 = slot0._tf
-
-	slot2(slot3, slot4)
+	slot0.UIMgr:BlurPanel(slot0._tf)
 end
 
-slot0.init = slot1
-
-function slot1(slot0, slot1, slot2)
-	slot4 = slot2
-	slot3 = slot2.GetComponent
-	slot5 = typeof
-	slot6 = Image
-	slot3 = slot3(slot4, slot5(slot6))
-
+function slot0.SetImageByUrl(slot0, slot1, slot2)
 	if not slot1 or slot1 == "" then
-		slot4 = LoadSprite
-		slot5 = "bg/bg_night"
-		slot4 = slot4(slot5)
+		slot2:GetComponent(typeof(Image)).sprite = LoadSprite("bg/bg_night")
+	elseif slot0.sprites[slot1] then
 		slot3.sprite = slot4
 	else
-		slot4 = slot0.sprites
-		slot4 = slot4[slot1]
+		slot3.enabled = false
 
-		if slot4 then
-			slot3.sprite = slot4
-		else
-			slot5 = false
-			slot3.enabled = slot5
-			slot5 = slot0.downloadmgr
-			slot6 = slot5
-			slot5 = slot5.GetSprite
-			slot7 = "ins"
-			slot8 = "1"
-			slot9 = slot1
-			slot10 = UnityEngine
-			slot10 = slot10.Events
-			slot10 = slot10.UnityAction_UnityEngine_Sprite
-
-			function slot11(slot0)
-				slot1 = slot0
-				slot1 = slot1.sprites
-
-				if not slot1 then
-					return
-				end
-
-				slot1 = slot0
-				slot1 = slot1.sprites
-				slot2 = slot1
-				slot1[slot2] = slot0
-				slot1 = slot2
-				slot1.sprite = slot0
-				slot1 = slot2
-				slot2 = true
-				slot1.enabled = slot2
+		slot0.downloadmgr:GetSprite("ins", "1", slot1, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
+			if not uv0.sprites then
+				return
 			end
 
-			slot5(slot6, slot7, slot8, slot9, slot10(slot11))
-		end
+			uv0.sprites[uv1] = slot0
+			uv2.sprite = slot0
+			uv2.enabled = true
+		end))
 	end
 end
 
-slot0.SetImageByUrl = slot1
-
-function slot1(slot0)
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.closeBtn
-
-	function slot4()
-		slot0 = slot0
-		slot0 = slot0.inDetail
-
-		if slot0 then
-			slot0 = slot0
-			slot1 = slot0
-			slot0 = slot0.ExitDetail
-
-			slot0(slot1)
+function slot0.didEnter(slot0)
+	onButton(slot0, slot0.closeBtn, function ()
+		if uv0.inDetail then
+			uv0:ExitDetail()
 		else
-			slot0 = slot0
-			slot1 = slot0
-			slot0 = slot0.emit
-			slot2 = slot1
-			slot2 = slot2.ON_CLOSE
-
-			slot0(slot1, slot2)
+			uv0:emit(uv1.ON_CLOSE)
 		end
-	end
-
-	slot5 = SFX_PANEL
-
-	slot1(slot2, slot3, slot4, slot5)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.helpBtn
-
-	function slot4()
-		slot0 = pg
-		slot0 = slot0.MsgboxMgr
-		slot0 = slot0.GetInstance
-		slot0 = slot0()
-		slot1 = slot0
-		slot0 = slot0.ShowMsgBox
-		slot2 = {}
-		slot3 = MSGBOX_TYPE_HELP
-		slot2.type = slot3
-		slot3 = pg
-		slot3 = slot3.gametip
-		slot3 = slot3.music_juus
-		slot3 = slot3.tip
-		slot2.helps = slot3
-
-		slot0(slot1, slot2)
-	end
-
-	slot5 = SFX_PANEL
-
-	slot1(slot2, slot3, slot4, slot5)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0._tf
-
-	function slot4()
-		slot0 = slot0
-		slot0 = slot0.inDetail
-
-		if slot0 then
-			slot0 = slot0
-			slot1 = slot0
-			slot0 = slot0.ExitDetail
-
-			slot0(slot1)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.helpBtn, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.music_juus.tip
+		})
+	end, SFX_PANEL)
+	onButton(slot0, slot0._tf, function ()
+		if uv0.inDetail then
+			uv0:ExitDetail()
 		else
-			slot0 = slot0
-			slot1 = slot0
-			slot0 = slot0.emit
-			slot2 = slot1
-			slot2 = slot2.ON_CLOSE
-
-			slot0(slot1, slot2)
+			uv0:emit(uv1.ON_CLOSE)
 		end
+	end, SFX_PANEL)
+
+	slot0.cards = {}
+
+	function slot0.list.onInitItem(slot0)
+		slot1 = InstagramCard.New(slot0, uv0)
+
+		onButton(uv0, slot1._go, function ()
+			uv0:EnterDetail(uv1.instagram)
+		end, SFX_PANEL)
+
+		uv0.cards[slot0] = slot1
 	end
 
-	slot5 = SFX_PANEL
-
-	slot1(slot2, slot3, slot4, slot5)
-
-	slot1 = {}
-	slot0.cards = slot1
-	slot1 = slot0.list
-
-	function slot2(slot0)
-		slot1 = InstagramCard
-		slot1 = slot1.New
-		slot2 = slot0
-		slot3 = slot0
-		slot1 = slot1(slot2, slot3)
-		slot2 = onButton
-		slot3 = slot0
-		slot4 = slot1._go
-
-		function slot5()
-			slot0 = slot0
-			slot1 = slot0
-			slot0 = slot0.EnterDetail
-			slot2 = slot1
-			slot2 = slot2.instagram
-
-			slot0(slot1, slot2)
+	function slot0.list.onUpdateItem(slot0, slot1)
+		if not uv0.cards[slot1] then
+			uv0.cards[slot1] = InstagramCard.New(slot1)
 		end
 
-		slot6 = SFX_PANEL
-
-		slot2(slot3, slot4, slot5, slot6)
-
-		slot2 = slot0
-		slot2 = slot2.cards
-		slot2[slot0] = slot1
+		slot2:Update(uv0.instagramVOById[uv0.display[slot0 + 1].id])
 	end
 
-	slot1.onInitItem = slot2
-	slot1 = slot0.list
-
-	function slot2(slot0, slot1)
-		slot2 = slot0
-		slot2 = slot2.cards
-		slot2 = slot2[slot1]
-
-		if not slot2 then
-			slot3 = InstagramCard
-			slot3 = slot3.New
-			slot4 = slot1
-			slot3 = slot3(slot4)
-			slot2 = slot3
-			slot3 = slot0
-			slot3 = slot3.cards
-			slot3[slot1] = slot2
-		end
-
-		slot3 = slot0
-		slot3 = slot3.display
-		slot4 = slot0 + 1
-		slot3 = slot3[slot4]
-		slot4 = slot0
-		slot4 = slot4.instagramVOById
-		slot5 = slot3.id
-		slot4 = slot4[slot5]
-		slot6 = slot2
-		slot5 = slot2.Update
-		slot7 = slot4
-
-		slot5(slot6, slot7)
-	end
-
-	slot1.onUpdateItem = slot2
-	slot2 = slot0
-	slot1 = slot0.InitList
-
-	slot1(slot2)
+	slot0:InitList()
 end
 
-slot0.didEnter = slot1
-
-function slot1(slot0)
+function slot0.InitList(slot0)
 	slot0.display = _.map(slot0.messages, function (slot0)
 		return {
 			time = slot0:GetLasterUpdateTime(),
@@ -448,576 +131,149 @@ function slot1(slot0)
 	setActive(slot0.noMsgTF, #slot0.display == 0)
 end
 
-slot0.InitList = slot1
-
-function slot1(slot0, slot1, slot2)
-	slot3 = pairs
-	slot4 = slot0.cards
-	slot3, slot4, slot5 = slot3(slot4)
-
-	for slot6, slot7 in slot3, slot4, slot5 do
-		slot8 = slot7.instagram
-
-		if slot8 then
-			slot8 = slot7.instagram
-			slot8 = slot8.id
-
-			if slot8 == slot1 then
-				slot9 = slot7
-				slot8 = slot7.Update
-				slot10 = slot0.instagramVOById
-				slot10 = slot10[slot1]
-				slot11 = slot2
-
-				slot8(slot9, slot10, slot11)
-			end
+function slot0.UpdateInstagram(slot0, slot1, slot2)
+	for slot6, slot7 in pairs(slot0.cards) do
+		if slot7.instagram and slot7.instagram.id == slot1 then
+			slot7:Update(slot0.instagramVOById[slot1], slot2)
 		end
 	end
 end
 
-slot0.UpdateInstagram = slot1
+function slot0.EnterDetail(slot0, slot1)
+	slot0.contextData.instagram = slot1
 
-function slot1(slot0, slot1)
-	slot2 = slot0.contextData
-	slot2.instagram = slot1
-	slot2 = setActive
-	slot3 = slot0.mainTF
-	slot4 = true
+	setActive(slot0.mainTF, true)
+	setActive(slot0.listTF, false)
+	slot0:InitDetailPage()
 
-	slot2(slot3, slot4)
+	slot0.inDetail = true
 
-	slot2 = setActive
-	slot3 = slot0.listTF
-	slot4 = false
-
-	slot2(slot3, slot4)
-
-	slot3 = slot0
-	slot2 = slot0.InitDetailPage
-
-	slot2(slot3)
-
-	slot2 = true
-	slot0.inDetail = slot2
-	slot2 = pg
-	slot2 = slot2.SystemGuideMgr
-	slot3 = slot2
-	slot2 = slot2.GetInstance
-	slot2 = slot2(slot3)
-	slot3 = slot2
-	slot2 = slot2.Play
-	slot4 = slot0
-
-	slot2(slot3, slot4)
-
-	slot3 = slot0
-	slot2 = slot0.RefreshInstagram
-
-	slot2(slot3)
+	pg.SystemGuideMgr:GetInstance():Play(slot0)
+	slot0:RefreshInstagram()
 end
 
-slot0.EnterDetail = slot1
-
-function slot1(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.instagram
-
-	if slot1 then
-		slot3 = slot1
-		slot2 = slot1.IsReaded
-		slot2 = slot2(slot3)
-
-		if not slot2 then
-			slot3 = slot0
-			slot2 = slot0.emit
-			slot4 = InstagramMediator
-			slot4 = slot4.ON_READED
-			slot5 = slot1.id
-
-			slot2(slot3, slot4, slot5)
-		end
+function slot0.ExitDetail(slot0)
+	if slot0.contextData.instagram and not slot1:IsReaded() then
+		slot0:emit(InstagramMediator.ON_READED, slot1.id)
 	end
 
-	slot2 = slot0.contextData
-	slot3 = nil
-	slot2.instagram = slot3
-	slot2 = setActive
-	slot3 = slot0.mainTF
-	slot4 = false
+	slot0.contextData.instagram = nil
 
-	slot2(slot3, slot4)
+	setActive(slot0.mainTF, false)
+	setActive(slot0.listTF, true)
 
-	slot2 = setActive
-	slot3 = slot0.listTF
-	slot4 = true
+	slot0.inDetail = false
 
-	slot2(slot3, slot4)
-
-	slot2 = false
-	slot0.inDetail = slot2
-	slot3 = slot0
-	slot2 = slot0.CloseCommentPanel
-
-	slot2(slot3)
+	slot0:CloseCommentPanel()
 end
 
-slot0.ExitDetail = slot1
-
-function slot1(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.instagram
-	slot3 = slot1
-	slot2 = slot1.GetFastestRefreshTime
-	slot2 = slot2(slot3)
-
-	if slot2 then
-		slot3 = pg
-		slot3 = slot3.TimeMgr
-		slot3 = slot3.GetInstance
-		slot3 = slot3()
-		slot4 = slot3
-		slot3 = slot3.GetServerTime
-		slot3 = slot3(slot4)
-		slot4 = slot2 - slot3
-		slot5 = 0
-
-		if slot4 <= slot5 then
-			slot6 = slot0
-			slot5 = slot0.emit
-			slot7 = InstagramMediator
-			slot7 = slot7.ON_REPLY_UPDATE
-			slot8 = slot1.id
-
-			slot5(slot6, slot7, slot8)
-		end
+function slot0.RefreshInstagram(slot0)
+	if slot0.contextData.instagram:GetFastestRefreshTime() and slot2 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
+		slot0:emit(InstagramMediator.ON_REPLY_UPDATE, slot1.id)
 	end
 end
 
-slot0.RefreshInstagram = slot1
+function slot0.InitDetailPage(slot0)
+	slot1 = slot0.contextData.instagram
 
-function slot1(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.instagram
-	slot3 = slot0
-	slot2 = slot0.SetImageByUrl
-	slot5 = slot1
-	slot4 = slot1.GetImage
-	slot4 = slot4(slot5)
-	slot5 = slot0.imageTF
+	slot0:SetImageByUrl(slot1:GetImage(), slot0.imageTF)
+	onButton(slot0, slot0.planeTF, function ()
+		uv0:emit(InstagramMediator.ON_SHARE, uv1.id)
+	end, SFX_PANEL)
 
-	slot2(slot3, slot4, slot5)
+	slot0.pushTimeTxt.text = slot1:GetPushTime()
 
-	slot2 = onButton
-	slot3 = slot0
-	slot4 = slot0.planeTF
+	setImageSprite(slot0.iconTF, LoadSprite("qicon/" .. slot1:GetIcon()), false)
 
-	function slot5()
-		slot0 = slot0
-		slot1 = slot0
-		slot0 = slot0.emit
-		slot2 = InstagramMediator
-		slot2 = slot2.ON_SHARE
-		slot3 = slot1
-		slot3 = slot3.id
+	slot0.nameTxt.text = HXSet.hxLan(slot1:GetName())
+	slot0.contentTxt.text = HXSet.hxLan(slot1:GetContent())
 
-		slot0(slot1, slot2, slot3)
-	end
-
-	slot6 = SFX_PANEL
-
-	slot2(slot3, slot4, slot5, slot6)
-
-	slot2 = slot0.pushTimeTxt
-	slot4 = slot1
-	slot3 = slot1.GetPushTime
-	slot3 = slot3(slot4)
-	slot2.text = slot3
-	slot2 = setImageSprite
-	slot3 = slot0.iconTF
-	slot4 = LoadSprite
-	slot5 = "qicon/"
-	slot7 = slot1
-	slot6 = slot1.GetIcon
-	slot6 = slot6(slot7)
-	slot5 = slot5 .. slot6
-	slot4 = slot4(slot5)
-	slot5 = false
-
-	slot2(slot3, slot4, slot5)
-
-	slot2 = slot0.nameTxt
-	slot3 = HXSet
-	slot3 = slot3.hxLan
-	slot5 = slot1
-	slot4 = slot1.GetName
-	slot3 = slot3(slot4(slot5))
-	slot2.text = slot3
-	slot2 = slot0.contentTxt
-	slot3 = HXSet
-	slot3 = slot3.hxLan
-	slot5 = slot1
-	slot4 = slot1.GetContent
-	slot3 = slot3(slot4(slot5))
-	slot2.text = slot3
-	slot2 = onToggle
-	slot3 = slot0
-	slot4 = slot0.commentPanel
-
-	function slot5(slot0)
+	onToggle(slot0, slot0.commentPanel, function (slot0)
 		if slot0 then
-			slot1 = slot0
-			slot2 = slot1
-			slot1 = slot1.OpenCommentPanel
-
-			slot1(slot2)
+			uv0:OpenCommentPanel()
 		else
-			slot1 = slot0
-			slot2 = slot1
-			slot1 = slot1.CloseCommentPanel
-
-			slot1(slot2)
+			uv0:CloseCommentPanel()
 		end
-	end
-
-	slot6 = SFX_PANEL
-
-	slot2(slot3, slot4, slot5, slot6)
-
-	slot3 = slot0
-	slot2 = slot0.UpdateLikeBtn
-
-	slot2(slot3)
-
-	slot3 = slot0
-	slot2 = slot0.UpdateCommentList
-
-	slot2(slot3)
+	end, SFX_PANEL)
+	slot0:UpdateLikeBtn()
+	slot0:UpdateCommentList()
 end
 
-slot0.InitDetailPage = slot1
-
-function slot1(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.instagram
-	slot3 = slot1
-	slot2 = slot1.IsLiking
-	slot2 = slot2(slot3)
-
-	if not slot2 then
-		slot3 = onButton
-		slot4 = slot0
-		slot5 = slot0.likeBtn
-
-		function slot6()
-			slot0 = slot0
-			slot1 = slot0
-			slot0 = slot0.emit
-			slot2 = InstagramMediator
-			slot2 = slot2.ON_LIKE
-			slot3 = slot1
-			slot3 = slot3.id
-
-			slot0(slot1, slot2, slot3)
-		end
-
-		slot7 = SFX_PANEL
-
-		slot3(slot4, slot5, slot6, slot7)
+function slot0.UpdateLikeBtn(slot0)
+	if not slot0.contextData.instagram:IsLiking() then
+		onButton(slot0, slot0.likeBtn, function ()
+			uv0:emit(InstagramMediator.ON_LIKE, uv1.id)
+		end, SFX_PANEL)
 	else
-		slot3 = removeOnButton
-		slot4 = slot0.likeBtn
-
-		slot3(slot4)
+		removeOnButton(slot0.likeBtn)
 	end
 
-	slot3 = setActive
-	slot4 = slot0.likeBtn
-	slot5 = slot4
-	slot4 = slot4.Find
-	slot6 = "heart"
-	slot4 = slot4(slot5, slot6)
-	slot5 = slot2
+	setActive(slot0.likeBtn:Find("heart"), slot2)
 
-	slot3(slot4, slot5)
-
-	slot3 = slot0.likeBtn
-	slot4 = slot3
-	slot3 = slot3.GetComponent
-	slot5 = typeof
-	slot6 = Image
-	slot3 = slot3(slot4, slot5(slot6))
-	slot4 = not slot2
-	slot3.enabled = slot4
-	slot3 = slot0.likeCntTxt
-	slot4 = i18n
-	slot5 = "ins_word_like"
-	slot7 = slot1
-	slot6 = slot1.GetLikeCnt
-	slot4 = slot4(slot5, slot6(slot7))
-	slot3.text = slot4
+	slot0.likeBtn:GetComponent(typeof(Image)).enabled = not slot2
+	slot0.likeCntTxt.text = i18n("ins_word_like", slot1:GetLikeCnt())
 end
 
-slot0.UpdateLikeBtn = slot1
-
-function slot1(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.instagram
-
-	if not slot1 then
+function slot0.UpdateCommentList(slot0)
+	if not slot0.contextData.instagram then
 		return
 	end
 
-	slot3 = slot1
-	slot2 = slot1.GetCanDisplayComments
-	slot2, slot3 = slot2(slot3)
-	slot4 = table
-	slot4 = slot4.sort
-	slot5 = slot2
+	slot2, slot3 = slot1:GetCanDisplayComments()
 
-	function slot6(slot0, slot1)
+	table.sort(slot2, function (slot0, slot1)
 		return slot0.time < slot1.time
-	end
+	end)
+	slot0.commentList:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0[slot1 + 1]
+			slot4 = slot3:HasReply()
 
-	slot4(slot5, slot6)
+			setText(slot2:Find("main/reply"), slot3:GetReplyBtnTxt())
 
-	slot4 = slot0.commentList
-	slot5 = slot4
-	slot4 = slot4.make
-
-	function slot6(slot0, slot1, slot2)
-		slot3 = UIItemList
-		slot3 = slot3.EventUpdate
-
-		if slot0 == slot3 then
-			slot3 = slot0
-			slot4 = slot1 + 1
-			slot3 = slot3[slot4]
-			slot5 = slot3
-			slot4 = slot3.HasReply
-			slot4 = slot4(slot5)
-			slot5 = setText
-			slot7 = slot2
-			slot6 = slot2.Find
-			slot8 = "main/reply"
-			slot6 = slot6(slot7, slot8)
-			slot8 = slot3
-			slot7 = slot3.GetReplyBtnTxt
-
-			slot5(slot6, slot7(slot8))
-
-			slot6 = slot3
-			slot5 = slot3.GetContent
-			slot5 = slot5(slot6)
-			slot6 = PLATFORM_CODE
-			slot7 = PLATFORM_US
-
-			if slot6 ~= slot7 then
-				slot7 = slot5
-				slot6 = slot5.gsub
-				slot8 = "%s"
-				slot9 = " "
-				slot6 = slot6(slot7, slot8, slot9)
-				slot5 = slot6
+			if PLATFORM_CODE ~= PLATFORM_US then
+				slot5 = slot3:GetContent():gsub("%s", " ")
 			end
 
-			slot6 = setText
-			slot8 = slot2
-			slot7 = slot2.Find
-			slot9 = "main/content"
-			slot7 = slot7(slot8, slot9)
-			slot8 = HXSet
-			slot8 = slot8.hxLan
-			slot9 = slot5
+			setText(slot2:Find("main/content"), HXSet.hxLan(slot5))
+			setText(slot2:Find("main/bubble/Text"), slot3:GetReplyCnt())
+			setText(slot2:Find("main/time"), slot3:GetTime())
 
-			slot6(slot7, slot8(slot9))
+			if slot3:GetType() == Instagram.TYPE_PLAYER_COMMENT then
+				slot6, slot7 = slot3:GetIcon()
 
-			slot6 = setText
-			slot8 = slot2
-			slot7 = slot2.Find
-			slot9 = "main/bubble/Text"
-			slot7 = slot7(slot8, slot9)
-			slot9 = slot3
-			slot8 = slot3.GetReplyCnt
-
-			slot6(slot7, slot8(slot9))
-
-			slot6 = setText
-			slot8 = slot2
-			slot7 = slot2.Find
-			slot9 = "main/time"
-			slot7 = slot7(slot8, slot9)
-			slot9 = slot3
-			slot8 = slot3.GetTime
-
-			slot6(slot7, slot8(slot9))
-
-			slot7 = slot3
-			slot6 = slot3.GetType
-			slot6 = slot6(slot7)
-			slot7 = Instagram
-			slot7 = slot7.TYPE_PLAYER_COMMENT
-
-			if slot6 == slot7 then
-				slot7 = slot3
-				slot6 = slot3.GetIcon
-				slot6, slot7 = slot6(slot7)
-				slot8 = setImageSprite
-				slot10 = slot2
-				slot9 = slot2.Find
-				slot11 = "main/head/icon"
-				slot9 = slot9(slot10, slot11)
-				slot10 = GetSpriteFromAtlas
-				slot11 = slot6
-				slot12 = slot7
-
-				slot8(slot9, slot10(slot11, slot12))
+				setImageSprite(slot2:Find("main/head/icon"), GetSpriteFromAtlas(slot6, slot7))
 			else
-				slot6 = setImageSprite
-				slot8 = slot2
-				slot7 = slot2.Find
-				slot9 = "main/head/icon"
-				slot7 = slot7(slot8, slot9)
-				slot8 = LoadSprite
-				slot9 = "qicon/"
-				slot11 = slot3
-				slot10 = slot3.GetIcon
-				slot10 = slot10(slot11)
-				slot9 = slot9 .. slot10
-				slot8 = slot8(slot9)
-				slot9 = false
-
-				slot6(slot7, slot8, slot9)
+				setImageSprite(slot2:Find("main/head/icon"), LoadSprite("qicon/" .. slot3:GetIcon()), false)
 			end
 
 			if slot4 then
-				slot6 = onToggle
-				slot7 = slot1
-				slot9 = slot2
-				slot8 = slot2.Find
-				slot10 = "main/bubble"
-				slot8 = slot8(slot9, slot10)
-
-				function slot9(slot0)
-					slot1 = setActive
-					slot2 = slot0
-					slot3 = slot2
-					slot2 = slot2.Find
-					slot4 = "replys"
-					slot2 = slot2(slot3, slot4)
-					slot3 = slot0
-
-					slot1(slot2, slot3)
-				end
-
-				slot10 = SFX_PANEL
-
-				slot6(slot7, slot8, slot9, slot10)
-
-				slot6 = slot1
-				slot7 = slot6
-				slot6 = slot6.UpdateReplys
-				slot8 = slot2
-				slot9 = slot3
-
-				slot6(slot7, slot8, slot9)
-
-				slot6 = triggerToggle
-				slot8 = slot2
-				slot7 = slot2.Find
-				slot9 = "main/bubble"
-				slot7 = slot7(slot8, slot9)
-				slot8 = true
-
-				slot6(slot7, slot8)
+				onToggle(uv1, slot2:Find("main/bubble"), function (slot0)
+					setActive(uv0:Find("replys"), slot0)
+				end, SFX_PANEL)
+				uv1:UpdateReplys(slot2, slot3)
+				triggerToggle(slot2:Find("main/bubble"), true)
 			else
-				slot6 = setActive
-				slot8 = slot2
-				slot7 = slot2.Find
-				slot9 = "replys"
-				slot7 = slot7(slot8, slot9)
-				slot8 = false
-
-				slot6(slot7, slot8)
-
-				slot6 = triggerToggle
-				slot8 = slot2
-				slot7 = slot2.Find
-				slot9 = "main/bubble"
-				slot7 = slot7(slot8, slot9)
-				slot8 = false
-
-				slot6(slot7, slot8)
+				setActive(slot2:Find("replys"), false)
+				triggerToggle(slot2:Find("main/bubble"), false)
 			end
 
-			slot7 = slot2
-			slot6 = slot2.Find
-			slot8 = "main/bubble"
-			slot6 = slot6(slot7, slot8)
-			slot7 = slot6
-			slot6 = slot6.GetComponent
-			slot8 = typeof
-			slot9 = Toggle
-			slot6 = slot6(slot7, slot8(slot9))
-			slot6.enabled = slot4
+			slot2:Find("main/bubble"):GetComponent(typeof(Toggle)).enabled = slot4
 		end
-	end
-
-	slot4(slot5, slot6)
-
-	slot4 = setActive
-	slot5 = slot0.centerTF
-	slot6 = false
-
-	slot4(slot5, slot6)
-
-	slot4 = setActive
-	slot5 = slot0.centerTF
-	slot6 = true
-
-	slot4(slot5, slot6)
-
-	slot4 = Canvas
-	slot4 = slot4.ForceUpdateCanvases
-
-	slot4()
-
-	slot4 = slot0.commentList
-	slot5 = slot4
-	slot4 = slot4.align
-	slot6 = #slot2
-
-	slot4(slot5, slot6)
+	end)
+	setActive(slot0.centerTF, false)
+	setActive(slot0.centerTF, true)
+	Canvas.ForceUpdateCanvases()
+	slot0.commentList:align(#slot2)
 end
 
-slot0.UpdateCommentList = slot1
+function slot0.UpdateReplys(slot0, slot1, slot2)
+	slot3, slot4 = slot2:GetCanDisplayReply()
+	slot5 = UIItemList.New(slot1:Find("replys"), slot1:Find("replys/sub"))
 
-function slot1(slot0, slot1, slot2)
-	slot4 = slot2
-	slot3 = slot2.GetCanDisplayReply
-	slot3, slot4 = slot3(slot4)
-	slot5 = UIItemList
-	slot5 = slot5.New
-	slot7 = slot1
-	slot6 = slot1.Find
-	slot8 = "replys"
-	slot6 = slot6(slot7, slot8)
-	slot8 = slot1
-	slot7 = slot1.Find
-	slot9 = "replys/sub"
-	slot5 = slot5(slot6, slot7(slot8, slot9))
-	slot6 = table
-	slot6 = slot6.sort
-	slot7 = slot3
-
-	function slot8(slot0, slot1)
-		slot2 = slot0.level
-		slot3 = slot1.level
-
-		if slot2 == slot3 then
-			slot2 = slot0.time
-			slot3 = slot1.time
-
-			if slot2 == slot3 then
+	table.sort(slot3, function (slot0, slot1)
+		if slot0.level == slot1.level then
+			if slot0.time == slot1.time then
 				return slot0.id < slot1.id
 			else
 				return slot0.time < slot1.time
@@ -1025,230 +281,69 @@ function slot1(slot0, slot1, slot2)
 		else
 			return slot0.level < slot1.level
 		end
-	end
+	end)
+	slot5:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0[slot1 + 1]
 
-	slot6(slot7, slot8)
+			setImageSprite(slot2:Find("head/icon"), LoadSprite("qicon/" .. slot3:GetIcon()), false)
 
-	slot7 = slot5
-	slot6 = slot5.make
-
-	function slot8(slot0, slot1, slot2)
-		slot3 = UIItemList
-		slot3 = slot3.EventUpdate
-
-		if slot0 == slot3 then
-			slot3 = slot0
-			slot4 = slot1 + 1
-			slot3 = slot3[slot4]
-			slot4 = setImageSprite
-			slot6 = slot2
-			slot5 = slot2.Find
-			slot7 = "head/icon"
-			slot5 = slot5(slot6, slot7)
-			slot6 = LoadSprite
-			slot7 = "qicon/"
-			slot9 = slot3
-			slot8 = slot3.GetIcon
-			slot8 = slot8(slot9)
-			slot7 = slot7 .. slot8
-			slot6 = slot6(slot7)
-			slot7 = false
-
-			slot4(slot5, slot6, slot7)
-
-			slot5 = slot3
-			slot4 = slot3.GetContent
-			slot4 = slot4(slot5)
-			slot5 = PLATFORM_CODE
-			slot6 = PLATFORM_US
-
-			if slot5 ~= slot6 then
-				slot6 = slot4
-				slot5 = slot4.gsub
-				slot7 = "%s"
-				slot8 = " "
-				slot5 = slot5(slot6, slot7, slot8)
-				slot4 = slot5
+			if PLATFORM_CODE ~= PLATFORM_US then
+				slot4 = slot3:GetContent():gsub("%s", " ")
 			end
 
-			slot5 = setText
-			slot7 = slot2
-			slot6 = slot2.Find
-			slot8 = "content"
-			slot6 = slot6(slot7, slot8)
-			slot7 = HXSet
-			slot7 = slot7.hxLan
-			slot8 = slot4
-
-			slot5(slot6, slot7(slot8))
+			setText(slot2:Find("content"), HXSet.hxLan(slot4))
 		end
-	end
-
-	slot6(slot7, slot8)
-
-	slot7 = slot5
-	slot6 = slot5.align
-	slot8 = #slot3
-
-	slot6(slot7, slot8)
+	end)
+	slot5:align(#slot3)
 end
 
-slot0.UpdateReplys = slot1
-
-function slot1(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.instagram
-	slot3 = slot1
-	slot2 = slot1.CanOpenComment
-	slot2 = slot2(slot3)
-
-	if not slot2 then
+function slot0.OpenCommentPanel(slot0)
+	if not slot0.contextData.instagram:CanOpenComment() then
 		return
 	end
 
-	slot2 = setActive
-	slot3 = slot0.optionalPanel
-	slot4 = true
+	setActive(slot0.optionalPanel, true)
 
-	slot2(slot3, slot4)
+	slot2 = slot1:GetOptionComment()
+	slot0.commentPanel.sizeDelta = Vector2(642.6, (#slot2 + 1) * 150)
+	slot3 = UIItemList.New(slot0.optionalPanel, slot0.optionalPanel:Find("option1"))
 
-	slot3 = slot1
-	slot2 = slot1.GetOptionComment
-	slot2 = slot2(slot3)
-	slot3 = slot0.commentPanel
-	slot4 = Vector2
-	slot5 = 642.6
-	slot6 = #slot2
-	slot6 = slot6 + 1
-	slot6 = slot6 * 150
-	slot4 = slot4(slot5, slot6)
-	slot3.sizeDelta = slot4
-	slot3 = UIItemList
-	slot3 = slot3.New
-	slot4 = slot0.optionalPanel
-	slot5 = slot0.optionalPanel
-	slot6 = slot5
-	slot5 = slot5.Find
-	slot7 = "option1"
-	slot3 = slot3(slot4, slot5(slot6, slot7))
-	slot5 = slot3
-	slot4 = slot3.make
-
-	function slot6(slot0, slot1, slot2)
-		slot3 = UIItemList
-		slot3 = slot3.EventUpdate
-
-		if slot0 == slot3 then
+	slot3:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
 			slot3 = slot1 + 1
-			slot4 = slot0
-			slot4 = slot4[slot3]
-			slot4 = slot4.text
-			slot5 = slot0
-			slot5 = slot5[slot3]
-			slot5 = slot5.id
-			slot6 = slot0
-			slot6 = slot6[slot3]
-			slot6 = slot6.index
-			slot7 = setText
-			slot9 = slot2
-			slot8 = slot2.Find
-			slot10 = "Text"
-			slot8 = slot8(slot9, slot10)
-			slot9 = HXSet
-			slot9 = slot9.hxLan
-			slot10 = slot4
+			slot5 = uv0[slot3].id
+			slot6 = uv0[slot3].index
 
-			slot7(slot8, slot9(slot10))
-
-			slot7 = onButton
-			slot8 = slot1
-			slot9 = slot2
-
-			function slot10()
-				slot0 = slot0
-				slot1 = slot0
-				slot0 = slot0.emit
-				slot2 = InstagramMediator
-				slot2 = slot2.ON_COMMENT
-				slot3 = slot1
-				slot3 = slot3.id
-				slot4 = slot2
-				slot5 = slot3
-
-				slot0(slot1, slot2, slot3, slot4, slot5)
-
-				slot0 = slot0
-				slot1 = slot0
-				slot0 = slot0.CloseCommentPanel
-
-				slot0(slot1)
-			end
-
-			slot11 = SFX_PANEL
-
-			slot7(slot8, slot9, slot10, slot11)
+			setText(slot2:Find("Text"), HXSet.hxLan(uv0[slot3].text))
+			onButton(uv1, slot2, function ()
+				uv0:emit(InstagramMediator.ON_COMMENT, uv1.id, uv2, uv3)
+				uv0:CloseCommentPanel()
+			end, SFX_PANEL)
 		end
+	end)
+	slot3:align(#slot2)
+end
+
+function slot0.CloseCommentPanel(slot0)
+	slot0.commentPanel.sizeDelta = Vector2(642.6, 150)
+
+	setActive(slot0.optionalPanel, false)
+end
+
+function slot0.willExit(slot0)
+	slot4 = slot0.UIMgr._normalUIMain
+
+	slot0.UIMgr:UnblurPanel(slot0._tf, slot4)
+	slot0:ExitDetail()
+
+	slot0.sprites = nil
+
+	for slot4, slot5 in pairs(slot0.cards) do
+		slot5:Dispose()
 	end
 
-	slot4(slot5, slot6)
-
-	slot5 = slot3
-	slot4 = slot3.align
-	slot6 = #slot2
-
-	slot4(slot5, slot6)
+	slot0.cards = {}
 end
-
-slot0.OpenCommentPanel = slot1
-
-function slot1(slot0)
-	slot1 = slot0.commentPanel
-	slot2 = Vector2
-	slot3 = 642.6
-	slot4 = 150
-	slot2 = slot2(slot3, slot4)
-	slot1.sizeDelta = slot2
-	slot1 = setActive
-	slot2 = slot0.optionalPanel
-	slot3 = false
-
-	slot1(slot2, slot3)
-end
-
-slot0.CloseCommentPanel = slot1
-
-function slot1(slot0)
-	slot1 = slot0.UIMgr
-	slot2 = slot1
-	slot1 = slot1.UnblurPanel
-	slot3 = slot0._tf
-	slot4 = slot0.UIMgr
-	slot4 = slot4._normalUIMain
-
-	slot1(slot2, slot3, slot4)
-
-	slot2 = slot0
-	slot1 = slot0.ExitDetail
-
-	slot1(slot2)
-
-	slot1 = nil
-	slot0.sprites = slot1
-	slot1 = pairs
-	slot2 = slot0.cards
-	slot1, slot2, slot3 = slot1(slot2)
-
-	for slot4, slot5 in slot1, slot2, slot3 do
-		slot7 = slot5
-		slot6 = slot5.Dispose
-
-		slot6(slot7)
-	end
-
-	slot1 = {}
-	slot0.cards = slot1
-end
-
-slot0.willExit = slot1
 
 return slot0

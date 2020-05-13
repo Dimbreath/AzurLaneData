@@ -1597,5 +1597,3 @@ pg.activity_shop_extra = {
 		51
 	}
 }
-
-return

@@ -5,7 +5,6 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	return
 end
 
 function slot0.OnInit(slot0)
@@ -18,26 +17,26 @@ function slot0.OnInit(slot0)
 	slot0.checkLabel = slot0.remind:Find("Text"):GetComponent(typeof(Text))
 
 	onButton(nil, slot0.cancelBtn, function ()
-		slot0:Hide()
+		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(nil, slot0._tf, function ()
-		slot0:Hide()
+		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(nil, slot0.closeBtn, function ()
-		slot0:Hide()
+		uv0:Hide()
 	end, SFX_PANEL)
 
 	slot0.isOn = false
 
 	onToggle(nil, slot0.remind, function (slot0)
-		slot0.isOn = slot0
+		uv0.isOn = slot0
 	end, SFX_PANEL)
 	onButton(nil, slot0.confirmBtn, function ()
-		if slot0.func then
-			slot0.func(slot0.isOn)
+		if uv0.func then
+			uv0.func(uv0.isOn)
 		end
 
-		slot0:Hide()
+		uv0:Hide()
 	end, SFX_PANEL)
 end
 

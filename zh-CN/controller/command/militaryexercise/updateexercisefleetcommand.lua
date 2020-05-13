@@ -1,10 +1,13 @@
-class("UpdateExerciseFleetCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot4 = slot1:getBody().fleet.vanguardShips
-	slot6 = slot1.getBody().callback
-	slot9 = Clone(slot8)
-	slot11 = getProxy(FleetProxy).getFleetById(slot10, 1)
+slot0 = class("UpdateExerciseFleetCommand", pm.SimpleCommand)
 
-	if table.getCount(slot1:getBody().fleet.mainShips) == 0 or table.getCount(slot4) == 0 then
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot3 = slot2.fleet
+	slot6 = slot2.callback
+	slot9 = Clone(getProxy(MilitaryExerciseProxy):getExerciseFleet())
+	slot11 = getProxy(FleetProxy):getFleetById(1)
+
+	if table.getCount(slot3.mainShips) == 0 or table.getCount(slot3.vanguardShips) == 0 then
 		slot4 = slot11.vanguardShips
 		slot5 = slot11.mainShips
 		slot0.resetFleet = true
@@ -19,35 +22,33 @@ class("UpdateExerciseFleetCommand", pm.SimpleCommand).execute = function (slot0,
 		main_ship_id_list = slot5
 	}, 18009, function (slot0)
 		if slot0.result == 0 then
-			slot1 = getProxy(MilitaryExerciseProxy)
-
-			_.each(slot0, function (slot0)
-				table.insert(slot0, slot0)
+			_.each(uv0, function (slot0)
+				table.insert(uv0, slot0)
 			end)
-			_.each(slot1, function (slot0)
-				table.insert(slot0, slot0)
+			_.each(uv1, function (slot0)
+				table.insert(uv0, slot0)
 			end)
-			slot2:updateShips(slot2)
-			slot1:updateExerciseFleet({})
+			uv2:updateShips({})
+			getProxy(MilitaryExerciseProxy):updateExerciseFleet(uv2)
 
-			if slot1.updateExerciseFleet.resetFleet then
-				slot3.resetFleet = nil
+			if uv3.resetFleet then
+				uv3.resetFleet = nil
 
-				slot3:sendNotification(GAME.EXERCISE_FLEET_RESET, slot2)
+				uv3:sendNotification(GAME.EXERCISE_FLEET_RESET, uv2)
 			end
 
-			slot3:sendNotification(GAME.UPDATE_EXERCISE_FLEET_DONE, {
-				oldFleet = slot4,
-				newFleet = slot2
+			uv3:sendNotification(GAME.UPDATE_EXERCISE_FLEET_DONE, {
+				oldFleet = uv4,
+				newFleet = uv2
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 
-		if slot5 then
-			slot5()
+		if uv5 then
+			uv5()
 		end
 	end)
 end
 
-return class("UpdateExerciseFleetCommand", pm.SimpleCommand)
+return slot0

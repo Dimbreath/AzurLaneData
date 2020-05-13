@@ -4,31 +4,31 @@ function slot0.register(slot0)
 	slot0.eventList = {}
 
 	slot0:on(13002, function (slot0)
-		slot0.maxFleetNums = slot0.max_team
+		uv0.maxFleetNums = slot0.max_team
 
-		slot0:updateInfo(slot0.collection_list)
+		uv0:updateInfo(slot0.collection_list)
 	end)
 	slot0:on(13011, function (slot0)
 		for slot4, slot5 in ipairs(slot0.collection) do
 			slot6 = EventInfo.New(slot5)
-			slot7, slot8 = slot0:findInfoById(slot5.id)
+			slot7, slot8 = uv0:findInfoById(slot5.id)
 
 			if slot8 == -1 then
-				table.insert(slot0.eventList, slot6)
+				table.insert(uv0.eventList, slot6)
 
-				slot0.eventForMsg = slot6
+				uv0.eventForMsg = slot6
 			else
-				slot0.eventList[slot8] = slot6
+				uv0.eventList[slot8] = slot6
 			end
 		end
 
-		slot0.virgin = true
+		uv0.virgin = true
 
-		slot0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
+		uv0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
 	end)
 
 	slot0.timer = Timer.New(function ()
-		slot0:updateTime()
+		uv0:updateTime()
 	end, 1, -1)
 
 	slot0.timer:Start()
@@ -85,11 +85,9 @@ function slot0.findInfoById(slot0, slot1)
 end
 
 function slot0.countByState(slot0, slot1)
-	slot2 = 0
-
 	for slot6, slot7 in ipairs(slot0.eventList) do
 		if slot7.state == slot1 then
-			slot2 = slot2 + 1
+			slot2 = 0 + 1
 		end
 	end
 
@@ -103,11 +101,9 @@ function slot0.hasFinishState(slot0)
 end
 
 function slot0.countBusyFleetNums(slot0)
-	slot1 = 0
-
 	for slot5, slot6 in ipairs(slot0.eventList) do
 		if slot6.state ~= EventInfo.StateNone then
-			slot1 = slot1 + 1
+			slot1 = 0 + 1
 		end
 	end
 
@@ -145,14 +141,16 @@ function slot0.getActiveEvents(slot0)
 end
 
 function slot0.fillRecommendShip(slot0, slot1)
-	for slot7, slot8 in ipairs(slot3) do
+	for slot7, slot8 in ipairs(getProxy(BayProxy):getDelegationRecommendShips(slot1)) do
 		table.insert(slot1.shipIds, slot8)
 	end
 end
 
 function slot0.checkNightEvent(slot0)
-	return ((pg.gameset.night_collection_begin.key_value <= pg.TimeMgr.GetInstance():GetServerHour() and slot1 < 24) or (slot1 >= 0 and slot1 < pg.gameset.night_collection_end.key_value)) and not _.any(slot0.eventList, function (slot0)
-		return slot0.template.type == EventConst.EVENT_TYPE_NIGHT and (not slot0:GetCountDownTime() or slot0.GetCountDownTime() > 0)
+	return (pg.gameset.night_collection_begin.key_value <= pg.TimeMgr.GetInstance():GetServerHour() and slot1 < 24 or slot1 >= 0 and slot1 < pg.gameset.night_collection_end.key_value) and not _.any(slot0.eventList, function (slot0)
+		slot1 = slot0:GetCountDownTime()
+
+		return slot0.template.type == EventConst.EVENT_TYPE_NIGHT and (not slot1 or slot1 > 0)
 	end)
 end
 

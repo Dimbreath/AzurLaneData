@@ -36,12 +36,12 @@ slot0.TeamPos = {
 }
 
 function slot0.TeamToTypeList(slot0)
-	if slot0 == slot0.Vanguard then
-		return slot0.VanguardShipType
-	elseif slot0 == slot0.Main then
-		return slot0.MainShipType
-	elseif slot0 == slot0.Submarine then
-		return slot0.SubShipType
+	if slot0 == uv0.Vanguard then
+		return uv0.VanguardShipType
+	elseif slot0 == uv0.Main then
+		return uv0.MainShipType
+	elseif slot0 == uv0.Submarine then
+		return uv0.SubShipType
 	end
 end
 

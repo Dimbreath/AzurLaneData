@@ -19,10 +19,11 @@ function slot0.init(slot0)
 	slot0.btngroup = slot0:Clone2Full(slot0.containerbtn, 10)
 
 	_.each(slot0.btngroup, function (slot0)
+		slot1 = (slot0:GetSiblingIndex() + 1) % 10
 		slot0.name = tostring(slot1)
 
 		setText(slot0:Find("text"), tostring(slot1))
-		setText(slot0:Find("highlight/text2"), tostring((slot0:GetSiblingIndex() + 1) % 10))
+		setText(slot0:Find("highlight/text2"), tostring(slot1))
 	end)
 
 	slot0.btnconfirm = slot0:findTF("confirmbtn", slot0.inputpanel)
@@ -37,11 +38,11 @@ function slot0.init(slot0)
 	slot0:Clone2Full(slot0.setLine1Grid, 6)
 	slot0:Clone2Full(slot0.setLine2Grid, 6)
 
-	for slot5 = 0, slot0.setLine1Grid.childCount - 1, 1 do
+	for slot5 = 0, slot0.setLine1Grid.childCount - 1 do
 		table.insert(slot0.setDigitGroup, slot0.setLine1Grid:GetChild(slot5))
 	end
 
-	for slot5 = 0, slot1 - 1, 1 do
+	for slot5 = 0, slot1 - 1 do
 		table.insert(slot0.setDigitGroup, slot0.setLine2Grid:GetChild(slot5))
 	end
 
@@ -53,7 +54,7 @@ function slot0.init(slot0)
 
 	slot0:Clone2Full(slot0.inputLineGrid, 6)
 
-	for slot6 = 0, slot0.inputLineGrid.childCount - 1, 1 do
+	for slot6 = 0, slot0.inputLineGrid.childCount - 1 do
 		table.insert(slot0.inputDigitGroup, slot0.inputLineGrid:GetChild(slot6))
 	end
 
@@ -65,96 +66,91 @@ end
 
 function slot0.InitInteractable(slot0)
 	_.each(slot0.btngroup, function (slot0)
-		onButton(slot0, slot0, function ()
-			slot0 = (slot0:GetSiblingIndex() + 1) % 10
+		onButton(uv0, slot0, function ()
+			slot0 = (uv0:GetSiblingIndex() + 1) % 10
 
-			if slot0.inputPos + 1 > 0 and slot1 <= #slot1.digitGroup then
-				slot1.inputs = slot1.inputs .. tostring(slot0)
+			if uv1.inputPos + 1 > 0 and slot1 <= #uv1.digitGroup then
+				uv1.inputs = uv1.inputs .. tostring(slot0)
 
-				setText(slot2, slot0)
-				setActive(slot1.digitGroup[slot1]:Find("filled"), false)
-				setActive(slot1.digitGroup[slot1]:Find("space"), false)
+				setText(uv1.digitGroup[slot1]:Find("text"), slot0)
+				setActive(uv1.digitGroup[slot1]:Find("filled"), false)
+				setActive(uv1.digitGroup[slot1]:Find("space"), false)
 
-				function slot3()
-					setText(setText, "")
-					setActive(setText.digitGroup[""]:Find("filled"), true)
-				end
-
-				if not slot1.inputMode then
-					if slot1.timers["input" .. slot1] then
-						slot1.timers["input" .. slot1]:Reset(slot3, 1, 1)
+				if not uv1.inputMode then
+					if uv1.timers["input" .. slot1] then
+						uv1.timers["input" .. slot1]:Reset(function ()
+							setText(uv0, "")
+							setActive(uv1.digitGroup[uv2]:Find("filled"), true)
+						end, 1, 1)
 					else
-						slot1.timers["input" .. slot1] = Timer.New(slot3, 1, 1)
+						uv1.timers["input" .. slot1] = Timer.New(slot3, 1, 1)
 					end
 
-					slot1.timers["input" .. slot1]:Start()
+					uv1.timers["input" .. slot1]:Start()
 				end
 
-				slot1:SetInputPos(slot1)
+				uv1:SetInputPos(slot1)
 			end
 
-			setActive(slot0:Find("highlight"), true)
+			setActive(uv0:Find("highlight"), true)
 
-			function slot2()
-				setActive(slot0:Find("highlight"), false)
-			end
-
-			if slot1.timers["btn" .. slot0] then
-				slot1.timers["btn" .. slot0]:Reset(slot2, 0.2, 1)
+			if uv1.timers["btn" .. slot0] then
+				uv1.timers["btn" .. slot0]:Reset(function ()
+					setActive(uv0:Find("highlight"), false)
+				end, 0.2, 1)
 			else
-				slot1.timers["btn" .. slot0] = Timer.New(slot2, 0.2, 1)
+				uv1.timers["btn" .. slot0] = Timer.New(slot2, 0.2, 1)
 			end
 
-			slot1.timers["btn" .. slot0]:Start()
+			uv1.timers["btn" .. slot0]:Start()
 		end)
 	end)
 	onButton(slot0, slot0.btndelete, function ()
-		if slot0.inputPos > 0 and slot0 <= #slot0.digitGroup then
-			slot0.inputs = string.sub(slot0.inputs, 1, -2)
+		if uv0.inputPos > 0 and slot0 <= #uv0.digitGroup then
+			uv0.inputs = string.sub(uv0.inputs, 1, -2)
 
-			setText(slot0.digitGroup[slot0]:Find("text"), "")
-			setActive(slot0.digitGroup[slot0]:Find("filled"), false)
-			setActive(slot0.digitGroup[slot0]:Find("space"), not slot0.inputMode)
+			setText(uv0.digitGroup[slot0]:Find("text"), "")
+			setActive(uv0.digitGroup[slot0]:Find("filled"), false)
+			setActive(uv0.digitGroup[slot0]:Find("space"), not uv0.inputMode)
 
-			if slot0.timers["input" .. slot0] then
-				slot0.timers["input" .. slot0]:Stop()
+			if uv0.timers["input" .. slot0] then
+				uv0.timers["input" .. slot0]:Stop()
 			end
 
-			slot0:SetInputPos(slot0 - 1)
+			uv0:SetInputPos(slot0 - 1)
 		end
 
-		setActive(slot0.btndelete:Find("highlight"), true)
+		setActive(uv0.btndelete:Find("highlight"), true)
 
-		function slot1()
-			setActive(slot0.btndelete:Find("highlight"), false)
-		end
-
-		if slot0.timers.btndel then
-			slot0.timers.btndel:Reset(slot1, 0.3, 1)
+		if uv0.timers.btndel then
+			uv0.timers.btndel:Reset(function ()
+				setActive(uv0.btndelete:Find("highlight"), false)
+			end, 0.3, 1)
 		else
-			slot0.timers.btndel = Timer.New(slot1, 0.3, 1)
+			uv0.timers.btndel = Timer.New(slot1, 0.3, 1)
 		end
 
-		slot0.timers.btndel:Start()
+		uv0.timers.btndel:Start()
 	end)
 	onButton(slot0, slot0.btnconfirm, function ()
-		if slot0.mode == slot1.InputView then
-			slot0.inputnone = false
+		if uv0.mode == uv1.InputView then
+			uv0.inputnone = false
 
-			if #slot0.inputs ~= 6 then
+			if #uv0.inputs ~= 6 then
 				return
 			end
 
-			slot0:emit(SecondaryPasswordMediator.CONFIRM_PASSWORD, slot0.inputs)
+			uv0:emit(SecondaryPasswordMediator.CONFIRM_PASSWORD, uv0.inputs)
 		else
-			slot0.inputnone = false
+			uv0.inputnone = false
+			slot0 = true
 
-			if #slot0.inputs ~= 12 then
+			if #uv0.inputs ~= 12 then
 				slot0 = false
 			end
 
-			for slot4 = 1, 6, 1 do
-				if string.byte(slot0.inputs, slot4) ~= string.byte(slot0.inputs, 6 + slot4) then
+			for slot4 = 1, 6 do
+				if string.byte(uv0.inputs, slot4) ~= string.byte(uv0.inputs, 6 + slot4) then
 					slot0 = false
 
 					break
@@ -162,12 +158,12 @@ function slot0.InitInteractable(slot0)
 			end
 
 			if not slot0 then
-				slot0:UpdateView()
+				uv0:UpdateView()
 
 				return
 			end
 
-			slot1 = string.sub(slot0.inputs, 1, 6)
+			slot1 = string.sub(uv0.inputs, 1, 6)
 			slot2 = nil
 			slot4 = nil
 
@@ -179,52 +175,52 @@ function slot0.InitInteractable(slot0)
 				type = MSGBOX_TYPE_SECONDPWD,
 				references = {},
 				onYes = function ()
-					slot0.lasttext = slot0.inputfield.text
-					slot1 = {
+					slot0 = uv0.inputfield.text
+					uv0.lasttext = slot0
+					uv1 = {
 						modal = true,
-						content = string.format(i18n("secondarypassword_confirm_tips"), slot0.inputfield.text),
+						content = string.format(i18n("secondarypassword_confirm_tips"), slot0),
 						onNo = function ()
-							pg.MsgboxMgr.GetInstance():ShowMsgBox(pg.MsgboxMgr.GetInstance().ShowMsgBox)
+							pg.MsgboxMgr.GetInstance():ShowMsgBox(uv0)
 						end,
 						onYes = function ()
-							slot0:emit(SecondaryPasswordMediator.SET_PASSWORD, slot0, )
+							uv0:emit(SecondaryPasswordMediator.SET_PASSWORD, uv1, uv2)
 						end
 					}
 
-					pg.MsgboxMgr.GetInstance():ShowMsgBox(pg.MsgboxMgr.GetInstance().ShowMsgBox)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox(uv1)
 				end,
 				onNo = function ()
-					slot0:emit(slot1.ON_CLOSE)
+					uv0:emit(uv1.ON_CLOSE)
 				end,
 				onPreShow = function ()
-					slot0:Hide()
+					uv0:Hide()
 				end
 			})
 		end
 	end)
 	onButton(slot0, slot0.btnhide, function ()
-		slot0.inputMode = not slot0.inputMode
+		uv0.inputMode = not uv0.inputMode
 
-		slot0:UpdateInputSlider()
-		setActive(slot0.btnhide, not slot0.inputMode)
-		setActive(slot0.btnshow, slot0.inputMode)
+		uv0:UpdateInputSlider()
+		setActive(uv0.btnhide, not uv0.inputMode)
+		setActive(uv0.btnshow, uv0.inputMode)
 	end)
 	onButton(slot0, slot0.btnshow, function ()
-		slot0.inputMode = not slot0.inputMode
+		uv0.inputMode = not uv0.inputMode
 
-		slot0:UpdateInputSlider()
-		setActive(slot0.btnhide, not slot0.inputMode)
-		setActive(slot0.btnshow, slot0.inputMode)
+		uv0:UpdateInputSlider()
+		setActive(uv0.btnhide, not uv0.inputMode)
+		setActive(uv0.btnshow, uv0.inputMode)
 	end)
 	onButton(slot0, slot0.btnclose, function ()
-		if slot0.mode == slot1.InputView then
-			slot0:emit(SecondaryPasswordMediator.CANCEL_OPERATION)
+		if uv0.mode == uv1.InputView then
+			uv0:emit(SecondaryPasswordMediator.CANCEL_OPERATION)
 		end
 
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SOUND_BACK)
 	onButton(slot0, slot0._tf, function ()
-		return
 	end, SOUND_BACK)
 end
 
@@ -237,16 +233,17 @@ function slot0.didEnter(slot0)
 		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	end
 
-	setActive(slot0.setView, slot0.contextData.mode == slot0.SetView)
-	setActive(slot0.inputView, slot1 == slot0.InputView)
+	setActive(slot0.setView, slot0.contextData.mode == uv0.SetView)
+	setActive(slot0.inputView, slot1 == uv0.InputView)
 
 	slot0.mode = slot1
 	slot0.type = slot0.contextData.type
-	slot0.digitGroup = (slot1 == slot0.SetView and slot0.setDigitGroup) or slot0.inputDigitGroup
-	slot0.textTitle.text = (slot1 == slot0.SetView and i18n("words_set_password")) or i18n("words_information")
-	slot0.textTitleEn.text = (slot1 == slot0.SetView and "PASSWORD") or "INFORM"
-	slot0.informBg.sizeDelta.x = slot0.textTitle.preferredWidth + slot0.textTitleEn.preferredWidth + slot1
-	slot0.informBg.sizeDelta = slot0.informBg.sizeDelta
+	slot0.digitGroup = slot1 == uv0.SetView and slot0.setDigitGroup or slot0.inputDigitGroup
+	slot0.textTitle.text = slot1 == uv0.SetView and i18n("words_set_password") or i18n("words_information")
+	slot0.textTitleEn.text = slot1 == uv0.SetView and "PASSWORD" or "INFORM"
+	slot2 = slot0.informBg.sizeDelta
+	slot2.x = slot0.textTitle.preferredWidth + slot0.textTitleEn.preferredWidth + uv1
+	slot0.informBg.sizeDelta = slot2
 	slot0.inputs = ""
 
 	slot0:SetInputPos(0)
@@ -264,15 +261,18 @@ function slot0.UpdateInputSlider(slot0)
 
 	slot0:SetInputXian(slot0.inputPos + 1)
 
-	for slot5 = 1, #slot0.digitGroup, 1 do
-		setText(slot0.digitGroup[slot5]:Find("text"), (slot1 and ((slot5 <= #slot0.inputs and string.char(string.byte(slot0.inputs, slot5))) or nil)) or "")
-		setActive(slot0.digitGroup[slot5]:Find("space"), not slot1 and ((slot5 <= #slot0.inputs and string.char(string.byte(slot0.inputs, slot5))) or nil) == nil)
-		setActive(slot0.digitGroup[slot5]:Find("filled"), not slot1 and ((slot5 <= #slot0.inputs and string.char(string.byte(slot0.inputs, slot5))) or nil) ~= nil)
+	for slot5 = 1, #slot0.digitGroup do
+		slot6 = slot0.digitGroup[slot5]
+		slot7 = slot5 <= #slot0.inputs and string.char(string.byte(slot0.inputs, slot5)) or nil
+
+		setText(slot6:Find("text"), slot1 and slot7 or "")
+		setActive(slot6:Find("space"), not slot1 and slot7 == nil)
+		setActive(slot6:Find("filled"), not slot1 and slot7 ~= nil)
 	end
 end
 
 function slot0.ClearInputTimers(slot0)
-	for slot4 = 1, 12, 1 do
+	for slot4 = 1, 12 do
 		if slot0.timers["input" .. slot4] then
 			slot0.timers["input" .. slot4]:Stop()
 
@@ -299,7 +299,7 @@ function slot0.ClearInputs(slot0)
 end
 
 function slot0.UpdateView(slot0)
-	if slot0.mode == slot0.InputView then
+	if slot0.mode == uv0.InputView then
 		slot0:UpdateInputView()
 	else
 		slot0:UpdateSetView()
@@ -310,8 +310,7 @@ slot2 = nil
 
 function slot3(slot0)
 	slot1 = pg.SecondaryPWDMgr.GetInstance()
-
-	return slot0[slot0 or {
+	uv0 = uv0 or {
 		[slot1.UNLOCK_SHIP] = function (slot0)
 			slot3 = getProxy(BayProxy)
 			slot4 = slot3:getData()
@@ -327,10 +326,8 @@ function slot3(slot0)
 		end,
 		[slot1.RESOLVE_EQUIPMENT] = function (slot0)
 			if getProxy(EquipmentProxy):getEquipmentById(slot0.contextData.info) then
-				slot4 = slot3.config.name
-
 				if slot3.config.id % 20 > 0 then
-					slot4 = slot4 .. "+" .. tostring(slot3.config.id % 20)
+					slot4 = slot3.config.name .. "+" .. tostring(slot3.config.id % 20)
 				end
 
 				return string.format(i18n("words_desc_resolve_equip"), slot4)
@@ -345,13 +342,17 @@ function slot3(slot0)
 		[slot1.CHANGE_SETTING] = function ()
 			return i18n("words_desc_change_settings")
 		end
-	}]
+	}
+
+	return uv0[slot0]
 end
 
 function slot0.UpdateInputView(slot0)
-	setText(slot3, getProxy(SecondaryPWDProxy).getRawData(slot1).notice)
+	slot3 = slot0.inputView:Find("line1/tip")
+
+	setText(slot3, getProxy(SecondaryPWDProxy):getRawData().notice)
 	setActive(slot3, not slot0.inputnone)
-	setText(slot0.inputView:Find("line1/tip1"), (slot0(slot0.contextData.type) and slot5(slot0)) or "")
+	setText(slot0.inputView:Find("line1/tip1"), uv0(slot0.contextData.type) and slot5(slot0) or "")
 end
 
 function slot0.UpdateConfirmButton(slot0)
@@ -365,14 +366,13 @@ function slot0.UpdateSetView(slot0)
 end
 
 function slot0.Clone2Full(slot0, slot1, slot2)
-	slot3 = {}
 	slot4 = slot1:GetChild(0)
 
-	for slot9 = 0, slot1.childCount - 1, 1 do
-		table.insert(slot3, slot1:GetChild(slot9))
+	for slot9 = 0, slot1.childCount - 1 do
+		table.insert({}, slot1:GetChild(slot9))
 	end
 
-	for slot9 = slot5, slot2 - 1, 1 do
+	for slot9 = slot5, slot2 - 1 do
 		table.insert(slot3, tf(cloneTplTo(slot4, slot1)))
 	end
 

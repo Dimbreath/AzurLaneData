@@ -12735,7 +12735,7 @@ TIPS：
 		tip = "举报将在指挥官等级达到20级后开放 ",
 		key = "inform_level_limit"
 	},
-	3match_tip = {
+	["3match_tip"] = {
 		key = "3match_tip",
 		tip = {
 			{
@@ -12876,5 +12876,3 @@ TIPS：
 		key = "collect_tip2"
 	}
 }
-
-return

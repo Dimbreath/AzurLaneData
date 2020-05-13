@@ -42,9 +42,10 @@ function slot0.getLeftTime(slot0)
 end
 
 function slot0.getBuildConsume(slot0, slot1, slot2)
+	slot3 = pg.draw_data_template[slot0]
 	slot4 = nil
 
-	return (slot1 ~= 1 or pg.draw_data_template[slot0].use_gem_1[math.min(slot2 + 1, #pg.draw_data_template[slot0].use_gem_1)]) and pg.draw_data_template[slot0].use_gem_10[math.min(slot2 + 1, #pg.draw_data_template[slot0].use_gem_10)]
+	return (slot1 ~= 1 or slot3.use_gem_1[math.min(slot2 + 1, #slot3.use_gem_1)]) and slot3.use_gem_10[math.min(slot2 + 1, #slot3.use_gem_10)]
 end
 
 function slot0.canBuildShipByBuildId(slot0, slot1)
@@ -54,21 +55,19 @@ function slot0.canBuildShipByBuildId(slot0, slot1)
 		return false, i18n("ship_buildShip_error_noTemplate", slot0)
 	end
 
-	if MAX_BUILD_WORK_COUNT < table.getCount(slot4) + slot1 then
+	if MAX_BUILD_WORK_COUNT < table.getCount(getProxy(BuildShipProxy):getData()) + slot1 then
 		return false, i18n("ship_buildShip_not_position")
 	end
 
-	slot5 = {}
-
-	if getProxy(PlayerProxy).getData(slot6).gold < slot2.use_gold * slot1 then
-		table.insert(slot5, {
+	if getProxy(PlayerProxy):getData().gold < slot2.use_gold * slot1 then
+		table.insert({}, {
 			59001,
 			slot2.use_gold * slot1 - slot7.gold,
 			slot2.use_gold * slot1
 		})
 	end
 
-	if not getProxy(BagProxy).getData(slot8)[slot2.use_item] or slot9[slot2.use_item].count < slot2.number_1 * slot1 then
+	if not getProxy(BagProxy):getData()[slot2.use_item] or slot9[slot2.use_item].count < slot2.number_1 * slot1 then
 		slot10 = slot2.number_1 * slot1
 		slot11 = slot2.use_item
 
@@ -99,9 +98,9 @@ function slot0.canQuickBuildShip(slot0)
 		return false, i18n("ship_buildShipImmediately_error_finished")
 	end
 
-	if getProxy(BagProxy):getItemById(ITEM_ID_EQUIP_QUICK_FINISH) or {
+	if (getProxy(BagProxy):getItemById(ITEM_ID_EQUIP_QUICK_FINISH) or {
 		count = 0
-	}.count <= 0 then
+	}).count <= 0 then
 		return false, i18n("ship_buildShip_error_notEnoughItem"), {
 			{
 				ITEM_ID_EQUIP_QUICK_FINISH,
@@ -115,7 +114,20 @@ function slot0.canQuickBuildShip(slot0)
 end
 
 function slot0.getPageFromPoolType(slot0)
-	for slot5, slot6 in pairs(slot1) do
+	for slot5, slot6 in pairs({
+		[BuildShipScene.PAGE_BUILD] = {
+			1,
+			2,
+			3,
+			4,
+			5
+		},
+		[BuildShipScene.PAGE_PRAY] = {
+			6,
+			7,
+			8
+		}
+	}) do
 		if table.contains(slot6, slot0) then
 			return slot5
 		end

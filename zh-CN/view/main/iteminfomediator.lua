@@ -5,11 +5,11 @@ slot0.ON_BLUEPRINT_SCENE = "ItemInfoMediator:ON_BLUEPRINT_SCENE"
 slot0.SELL_BLUEPRINT = "sell blueprint"
 
 function slot0.register(slot0)
-	slot0:bind(slot0.ON_BLUEPRINT_SCENE, function ()
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPBLUEPRINT)
+	slot0:bind(uv0.ON_BLUEPRINT_SCENE, function ()
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHIPBLUEPRINT)
 	end)
-	slot0:bind(slot0.SELL_BLUEPRINT, function (slot0, slot1, slot2, slot3)
-		slot0:sendNotification(GAME.FRAG_SELL, {
+	slot0:bind(uv0.SELL_BLUEPRINT, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.FRAG_SELL, {
 			{
 				id = slot2,
 				count = slot3,
@@ -26,34 +26,34 @@ function slot0.register(slot0)
 		slot0:updateItem()
 
 		if slot2 then
-			slot0:bind(slot0.USE_ITEM, function (slot0, slot1, slot2)
+			slot0:bind(uv0.USE_ITEM, function (slot0, slot1, slot2)
 				if not UseItemCommand.Check(getProxy(BagProxy):getItemById(slot1), slot2) then
-					slot0.viewComponent:emit(BaseUI.ON_CLOSE)
+					uv0.viewComponent:emit(BaseUI.ON_CLOSE)
 
 					return
 				end
 
-				slot0.viewComponent:PlayOpenBox(slot3:getTempConfig("display_effect"), function ()
-					if table.contains(ITEM_ID_FUDAIS, table.contains) then
-						slot1:sendNotification(GAME.OPEN_MAIL_ATTACHMENT, {
+				uv0.viewComponent:PlayOpenBox(slot3:getTempConfig("display_effect"), function ()
+					if table.contains(ITEM_ID_FUDAIS, uv0) then
+						uv1:sendNotification(GAME.OPEN_MAIL_ATTACHMENT, {
 							items = {
 								{
-									id = slot0,
+									id = uv0,
 									type = DROP_TYPE_ITEM,
-									count = GAME.OPEN_MAIL_ATTACHMENT
+									count = uv2
 								}
 							}
 						})
 					else
-						slot1:sendNotification(GAME.USE_ITEM, {
-							id = slot0,
-							count = GAME.USE_ITEM
+						uv1:sendNotification(GAME.USE_ITEM, {
+							id = uv0,
+							count = uv2
 						})
 					end
 				end)
 			end)
-			slot0:bind(slot0.COMPOSE_ITEM, function (slot0, slot1, slot2)
-				slot0:sendNotification(GAME.COMPOSE_ITEM, {
+			slot0:bind(uv0.COMPOSE_ITEM, function (slot0, slot1, slot2)
+				uv0:sendNotification(GAME.COMPOSE_ITEM, {
 					id = slot1,
 					count = slot2
 				})
@@ -84,8 +84,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:SetOperateCount(1)
 	elseif slot2 == GAME.OPEN_MAIL_ATTACHMENT_DONE and slot3.items and #slot4 > 0 then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot4, function ()
-			if slot0.callback then
-				slot0.callback()
+			if uv0.callback then
+				uv0.callback()
 			end
 		end)
 	end
@@ -93,20 +93,14 @@ end
 
 function slot0.updateItem(slot0)
 	slot1 = slot0.contextData.info
-	slot3 = getProxy(BagProxy)
 	slot4 = nil
-
-	if slot0.contextData.mine then
-		slot4 = slot3:getItemById(slot1.id) or Item.New({
-			count = 0,
-			id = slot1.id
-		})
-	else
-		slot4 = Item.New({
-			id = slot1.id,
-			count = defaultValue(slot1.count, 0)
-		})
-	end
+	slot4 = slot0.contextData.mine and (getProxy(BagProxy):getItemById(slot1.id) or Item.New({
+		count = 0,
+		id = slot1.id
+	})) or Item.New({
+		id = slot1.id,
+		count = defaultValue(slot1.count, 0)
+	})
 
 	slot0.viewComponent:setItem(slot4)
 

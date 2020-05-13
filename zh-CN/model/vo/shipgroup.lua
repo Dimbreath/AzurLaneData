@@ -22,7 +22,7 @@ function slot0.getDefaultShipConfig(slot0)
 end
 
 function slot0.getDefaultShipNameByGroupID(slot0)
-	return slot0:getDefaultShipConfig().name
+	return uv0.getDefaultShipConfig(slot0).name
 end
 
 function slot0.IsBluePrintGroup(slot0)
@@ -36,45 +36,44 @@ slot0.ENABLE_SKIP_TO_CHAPTER = true
 slot1 = pg.ship_data_group
 
 function slot0.getState(slot0, slot1, slot2)
-	if slot0.ENABLE_SKIP_TO_CHAPTER then
+	if uv0.ENABLE_SKIP_TO_CHAPTER then
 		if slot2 and not slot1 then
-			return slot0.STATE_NOTGET
+			return uv0.STATE_NOTGET
 		end
 
-		if slot1[slot0] then
-			if not slot1[slot0].hide then
-				return slot0.STATE_LOCK
+		if uv1[slot0] then
+			if not uv1[slot0].hide then
+				return uv0.STATE_LOCK
 			end
 
 			if slot3.hide == 1 then
-				return slot0.STATE_LOCK
+				return uv0.STATE_LOCK
 			elseif slot3.hide ~= 0 then
-				return slot0.STATE_LOCK
+				return uv0.STATE_LOCK
 			end
 		end
 
 		if slot1 then
-			return slot0.STATE_UNLOCK
+			return uv0.STATE_UNLOCK
 		else
-			if not slot1[slot0] then
-				return slot0.STATE_LOCK
+			if not uv1[slot0] then
+				return uv0.STATE_LOCK
 			end
 
-			slot5 = getProxy(ChapterProxy)
 			slot6 = nil
 
 			if slot3.redirect_id ~= 0 then
-				slot6 = slot5:getChapterById(slot4)
+				slot6 = getProxy(ChapterProxy):getChapterById(slot4)
 			end
 
-			if slot4 == 0 or (slot6 and slot6:isClear()) then
-				return slot0.STATE_NOTGET
+			if slot4 == 0 or slot6 and slot6:isClear() then
+				return uv0.STATE_NOTGET
 			else
-				return slot0.STATE_LOCK
+				return uv0.STATE_LOCK
 			end
 		end
 	else
-		return (slot1 and slot0.STATE_UNLOCK) or slot0.STATE_LOCK
+		return slot1 and uv0.STATE_UNLOCK or uv0.STATE_LOCK
 	end
 end
 
@@ -89,16 +88,16 @@ function slot0.Ctor(slot0, slot1)
 	slot0.evaluation = nil
 	slot0.lastReqStamp = 0
 	slot0.trans = false
-	slot2 = slot0.getDefaultShipConfig(slot0.id)
+	slot2 = uv0.getDefaultShipConfig(slot0.id)
 	slot0.shipConfig = setmetatable({}, {
 		__index = function (slot0, slot1)
-			return slot0[slot1]
+			return uv0[slot1]
 		end
 	})
-	slot3 = slot0.GetGroupConfig(slot0.id)
+	slot3 = uv0.GetGroupConfig(slot0.id)
 	slot0.groupConfig = setmetatable({}, {
 		__index = function (slot0, slot1)
-			return slot0[slot1]
+			return uv0[slot1]
 		end
 	})
 end
@@ -118,10 +117,8 @@ function slot0.getNation(slot0)
 end
 
 function slot0.getRarity(slot0, slot1)
-	slot2 = slot0.shipConfig.rarity
-
 	if slot1 and slot0.trans then
-		slot2 = slot2 + 1
+		slot2 = slot0.shipConfig.rarity + 1
 	end
 
 	return slot2
@@ -168,12 +165,10 @@ end
 function slot0.getDisplayableSkinList(slot0)
 	slot1 = {}
 
-	function slot2(slot0)
-		return slot0.skin_type == ShipSkin.SKIN_TYPE_OLD or (slot0.skin_type == ShipSkin.SKIN_TYPE_NOT_HAVE_HIDE and not getProxy(ShipSkinProxy):hasSkin(slot0.id))
-	end
-
 	for slot6, slot7 in ipairs(pg.ship_skin_template.all) do
-		if pg.ship_skin_template[slot7].ship_group == slot0.id and slot8.no_showing ~= "1" and not slot2(slot8) then
+		if pg.ship_skin_template[slot7].ship_group == slot0.id and slot8.no_showing ~= "1" and not function (slot0)
+			return slot0.skin_type == ShipSkin.SKIN_TYPE_OLD or slot0.skin_type == ShipSkin.SKIN_TYPE_NOT_HAVE_HIDE and not getProxy(ShipSkinProxy):hasSkin(slot0.id)
+		end(slot8) then
 			table.insert(slot1, slot8)
 		end
 	end
@@ -199,9 +194,9 @@ end
 
 function slot0.GetSkin(slot0, slot1)
 	if not slot1 then
-		return slot0.getDefaultSkin(slot0.id)
+		return uv0.getDefaultSkin(slot0.id)
 	else
-		return slot0.getModSkin(slot0.id)
+		return uv0.getModSkin(slot0.id)
 	end
 end
 
@@ -214,7 +209,7 @@ function slot0.updateMarriedFlag(slot0)
 end
 
 function slot0.isBluePrintGroup(slot0)
-	return slot0.IsBluePrintGroup(slot0.id)
+	return uv0.IsBluePrintGroup(slot0.id)
 end
 
 function slot0.getBluePrintChangeSkillList(slot0)
@@ -223,14 +218,16 @@ end
 
 function slot0.GetSkin(slot0, slot1)
 	if not slot1 then
-		return slot0.getDefaultSkin(slot0.id)
+		return uv0.getDefaultSkin(slot0.id)
 	else
-		return slot0.getModSkin(slot0.id)
+		return uv0.getModSkin(slot0.id)
 	end
 end
 
 function slot0.GetNationTxt(slot0)
-	return Nation.Nation2facionName(slot1) .. "-" .. Nation.Nation2Name(slot0.shipConfig.nationality)
+	slot1 = slot0.shipConfig.nationality
+
+	return Nation.Nation2facionName(slot1) .. "-" .. Nation.Nation2Name(slot1)
 end
 
 slot0.CONDITION_FORBIDDEN = -1
@@ -242,16 +239,16 @@ function slot0.VoiceReplayCodition(slot0, slot1)
 	slot2 = true
 	slot3 = ""
 
-	if slot0:isBluePrintGroup() and not table.contains(getProxy(TechnologyProxy):getBluePrintById(slot0.id).getUnlockVoices(slot4), slot1.key) and slot4:getUnlockLevel(slot1.key) > 0 then
+	if slot0:isBluePrintGroup() and not table.contains(getProxy(TechnologyProxy):getBluePrintById(slot0.id):getUnlockVoices(), slot1.key) and slot4:getUnlockLevel(slot1.key) > 0 then
 		return false, i18n("ship_profile_voice_locked_design", slot6)
 	end
 
-	if slot1.unlock_condition[1] == slot0.CONDITION_INTIMACY then
+	if slot1.unlock_condition[1] == uv0.CONDITION_INTIMACY then
 		if slot0.maxIntimacy < slot1.unlock_condition[2] then
 			slot2 = false
 			slot3 = i18n("ship_profile_voice_locked_intimacy", math.floor(slot1.unlock_condition[2] / 100))
 		end
-	elseif slot1.unlock_condition[1] == slot0.CONDITION_MARRIED and slot0.married == 0 then
+	elseif slot1.unlock_condition[1] == uv0.CONDITION_MARRIED and slot0.married == 0 then
 		slot2 = false
 		slot3 = i18n("ship_profile_voice_locked_propose")
 	end
@@ -260,7 +257,7 @@ function slot0.VoiceReplayCodition(slot0, slot1)
 end
 
 function slot0.GetMaxIntimacy(slot0)
-	return slot0.maxIntimacy / 100 + ((slot0.married and slot0.married * 1000) or 0)
+	return slot0.maxIntimacy / 100 + (slot0.married and slot0.married * 1000 or 0)
 end
 
 return slot0

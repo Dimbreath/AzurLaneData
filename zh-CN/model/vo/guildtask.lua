@@ -14,7 +14,6 @@ function slot0.setProgress(slot0, slot1)
 end
 
 function slot0.isActive(slot0)
-	return
 end
 
 function slot0.isFinish(slot0)
@@ -34,7 +33,6 @@ function slot0.getProgress(slot0)
 end
 
 function slot0.getMaxProgress(slot0)
-	return
 end
 
 function slot0.bindConfigTable(slot0)

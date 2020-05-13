@@ -1,20 +1,16 @@
 slot0 = class("IndexConst")
 
 function slot0.Flags2Bits(slot0)
-	slot1 = 0
-
 	for slot5, slot6 in ipairs(slot0) do
-		slot1 = bit.bor(slot1, bit.lshift(1, slot6))
+		slot1 = bit.bor(0, bit.lshift(1, slot6))
 	end
 
 	return slot1
 end
 
 function slot0.FlagRange2Bits(slot0, slot1)
-	slot2 = 0
-
-	for slot6 = slot0, slot1, 1 do
-		slot2 = bit.bor(slot2, bit.lshift(1, slot6))
+	for slot6 = slot0, slot1 do
+		slot2 = bit.bor(0, bit.lshift(1, slot6))
 	end
 
 	return slot2
@@ -22,14 +18,13 @@ end
 
 function slot0.ToggleBits(slot0, slot1, slot2, slot3)
 	slot4 = slot0
-	slot5 = bit.lshift(1, slot3)
 
 	if slot2 then
 		slot7 = _.reduce(slot1, 0, function (slot0, slot1)
-			return slot0 + ((slot1 ~= slot0 and bit.lshift(1, slot1)) or 0)
+			return slot0 + (slot1 ~= uv0 and bit.lshift(1, slot1) or 0)
 		end)
 
-		if slot5 == bit.lshift(1, slot2) then
+		if bit.lshift(1, slot3) == bit.lshift(1, slot2) then
 			slot4 = slot6
 		else
 			if bit.band(slot4, slot6) > 0 then
@@ -255,7 +250,7 @@ function slot0.filterEquipSkinByIndex(slot0, slot1)
 		return true
 	end
 
-	if bit.band(slot1, bit.lshift(1, slot0.EquipSkinIndexAll)) > 0 then
+	if bit.band(slot1, bit.lshift(1, uv0.EquipSkinIndexAll)) > 0 then
 		return true
 	end
 
@@ -267,9 +262,9 @@ function slot0.filterEquipSkinByIndex(slot0, slot1)
 		5
 	}
 
-	for slot7, slot8 in ipairs(slot0.EquipSkinIndexTypes) do
+	for slot7, slot8 in ipairs(uv0.EquipSkinIndexTypes) do
 		if bit.band(slot1, bit.lshift(1, slot8)) > 0 then
-			for slot14, slot15 in ipairs(slot10) do
+			for slot14, slot15 in ipairs(EquipmentSortCfg.index[slot3[slot8]].types) do
 				table.insert(slot2, slot15)
 			end
 		end
@@ -278,7 +273,7 @@ function slot0.filterEquipSkinByIndex(slot0, slot1)
 	slot4 = pg.equip_skin_template
 
 	if slot0.count > 0 and slot0.isSkin then
-		for slot10, slot11 in pairs(slot6) do
+		for slot10, slot11 in pairs(slot4[slot0.id].equip_type) do
 			if table.contains(slot2, slot11) then
 				return true
 			end
@@ -291,18 +286,17 @@ function slot0.filterEquipSkinByTheme(slot0, slot1)
 		return true
 	end
 
-	if bit.band(slot1, bit.lshift(1, slot0.EquipSkinThemeAll)) > 0 then
+	if bit.band(slot1, bit.lshift(1, uv0.EquipSkinThemeAll)) > 0 then
 		return true
 	end
 
-	slot2 = pg.equip_skin_template
 	slot3 = pg.equip_skin_theme_template
 
 	if slot0.count > 0 and slot0.isSkin then
-		slot5 = slot2[slot0.id].themeid
+		slot5 = pg.equip_skin_template[slot0.id].themeid
 		slot6 = nil
 
-		for slot10, slot11 in ipairs(slot0.EquipSkinThemeTypes) do
+		for slot10, slot11 in ipairs(uv0.EquipSkinThemeTypes) do
 			if bit.band(slot1, bit.lshift(1, slot10)) > 0 and table.contains(slot3[slot3[pg.equip_skin_theme_template.all[slot11 - 1]].id].ids, slot4) then
 				return true
 			end
@@ -332,18 +326,18 @@ slot0.shipType2Index = {
 }
 
 function slot0.filterByIndex(slot0, slot1)
-	if bit.band(slot1, bit.lshift(1, slot0.IndexAll)) > 0 then
+	if bit.band(slot1, bit.lshift(1, uv0.IndexAll)) > 0 then
 		return true
 	end
 
 	slot2 = slot0:getTeamType()
 
-	if (bit.band(slot1, bit.lshift(1, slot0.IndexVanguard)) > 0 and slot2 == TeamType.Vanguard) or (bit.band(slot1, bit.lshift(1, slot0.IndexMain)) > 0 and slot2 == TeamType.Main) then
+	if bit.band(slot1, bit.lshift(1, uv0.IndexVanguard)) > 0 and slot2 == TeamType.Vanguard or bit.band(slot1, bit.lshift(1, uv0.IndexMain)) > 0 and slot2 == TeamType.Main then
 		return true
 	end
 
-	for slot6 = slot0.IndexQuZhu, slot0.IndexOther, 1 do
-		if bit.band(slot1, bit.lshift(1, slot6)) > 0 and slot0.shipType2Index[slot0:getShipType()] + 3 == slot6 then
+	for slot6 = uv0.IndexQuZhu, uv0.IndexOther do
+		if bit.band(slot1, bit.lshift(1, slot6)) > 0 and uv0.shipType2Index[slot0:getShipType()] + 3 == slot6 then
 			return true
 		end
 	end
@@ -364,21 +358,21 @@ slot0.Nation2Camp = {
 }
 
 function slot0.filterByCamp(slot0, slot1)
-	if bit.band(slot1, bit.lshift(1, slot0.CampAll)) > 0 then
+	if bit.band(slot1, bit.lshift(1, uv0.CampAll)) > 0 then
 		return true
 	end
 
-	if slot0.Nation2Camp[slot0:getNation()] == nil then
-		slot3 = slot0.CampOther
+	if uv0.Nation2Camp[slot0:getNation()] == nil then
+		slot3 = uv0.CampOther
 	end
 
-	for slot7 = slot0.CampUS, slot0.CampMNF, 1 do
+	for slot7 = uv0.CampUS, uv0.CampMNF do
 		if bit.band(slot1, bit.lshift(1, slot7)) > 0 and slot3 == slot7 then
 			return true
 		end
 	end
 
-	if bit.band(slot1, bit.lshift(1, slot0.CampOther)) > 0 and slot3 == slot0.CampOther then
+	if bit.band(slot1, bit.lshift(1, uv0.CampOther)) > 0 and slot3 == uv0.CampOther then
 		return true
 	end
 
@@ -386,11 +380,11 @@ function slot0.filterByCamp(slot0, slot1)
 end
 
 function slot0.filterByRarity(slot0, slot1)
-	if bit.band(slot1, bit.lshift(1, slot0.RarityAll)) > 0 then
+	if bit.band(slot1, bit.lshift(1, uv0.RarityAll)) > 0 then
 		return true
 	end
 
-	for slot5 = slot0.Rarity1, slot0.Rarity5, 1 do
+	for slot5 = uv0.Rarity1, uv0.Rarity5 do
 		if bit.band(slot1, bit.lshift(1, slot5)) > 0 and slot0:getRarity() == slot5 then
 			return true
 		end
@@ -400,45 +394,49 @@ function slot0.filterByRarity(slot0, slot1)
 end
 
 function slot0.sortByOrder(slot0, slot1, slot2)
-	if slot1 == slot0.SortPower then
-		slot0.combatPowerCaches = {}
+	if slot1 == uv0.SortPower then
+		uv0.combatPowerCaches = {}
 
-		table.sort(slot0, (slot2 and slot0.sortByCombatPowerAsc) or slot0.sortByCombatPower)
-	elseif slot1 == slot0.SortRarity then
-		table.sort(slot0, (slot2 and slot0.sortByCfgAsc("rarity")) or slot0.sortByCfg("rarity"))
-	elseif slot1 == slot0.SortLevel or slot1 == slot0.SortAchivedTime then
-		table.sort(slot0, (slot2 and slot0.sortByFieldAsc(({
+		table.sort(slot0, slot2 and uv0.sortByCombatPowerAsc or uv0.sortByCombatPower)
+	elseif slot1 == uv0.SortRarity then
+		table.sort(slot0, slot2 and uv0.sortByCfgAsc("rarity") or uv0.sortByCfg("rarity"))
+	elseif slot1 == uv0.SortLevel or slot1 == uv0.SortAchivedTime then
+		slot3 = {
 			"",
 			"level",
 			"",
 			"createTime"
-		})[slot1])) or slot0.sortByField(()[slot1]))
-	elseif slot1 == slot0.SortVotes then
-		table.sort(slot0, (slot2 and slot0.sortByFieldAsc("votes")) or slot0.sortByField("votes"))
-	elseif slot0.SortDurability <= slot1 and slot1 <= slot0.SortAntiAircraft then
-		table.sort(slot0, (slot2 and slot0.sortByPropertyAsc(({
+		}
+
+		table.sort(slot0, slot2 and uv0.sortByFieldAsc(slot3[slot1]) or uv0.sortByField(slot3[slot1]))
+	elseif slot1 == uv0.SortVotes then
+		table.sort(slot0, slot2 and uv0.sortByFieldAsc("votes") or uv0.sortByField("votes"))
+	elseif uv0.SortDurability <= slot1 and slot1 <= uv0.SortAntiAircraft then
+		slot3 = {
 			"durability",
 			"cannon",
 			"torpedo",
 			"air",
 			"antiaircraft"
-		})[slot1 - 4])) or slot0.sortByProperty(()[slot1 - 4]))
+		}
+
+		table.sort(slot0, slot2 and uv0.sortByPropertyAsc(slot3[slot1 - 4]) or uv0.sortByProperty(slot3[slot1 - 4]))
 	end
 end
 
 slot0.combatPowerCaches = {}
 
 function slot0.sortByCombatPower(slot0, slot1)
-	if not slot0.combatPowerCaches[slot0] then
-		slot0.combatPowerCaches[slot0] = slot0:getShipCombatPower()
+	if not uv0.combatPowerCaches[slot0] then
+		uv0.combatPowerCaches[slot0] = slot0:getShipCombatPower()
 	end
 
-	if not slot0.combatPowerCaches[slot1] then
-		slot0.combatPowerCaches[slot1] = slot1:getShipCombatPower()
+	if not uv0.combatPowerCaches[slot1] then
+		uv0.combatPowerCaches[slot1] = slot1:getShipCombatPower()
 	end
 
-	slot2 = slot0.combatPowerCaches[slot0]
-	slot3 = slot0.combatPowerCaches[slot1]
+	slot2 = uv0.combatPowerCaches[slot0]
+	slot3 = uv0.combatPowerCaches[slot1]
 
 	if slot0:getDockSortValue() == slot1:getDockSortValue() then
 		if slot2 ~= slot3 then
@@ -452,16 +450,16 @@ function slot0.sortByCombatPower(slot0, slot1)
 end
 
 function slot0.sortByCombatPowerAsc(slot0, slot1)
-	if not slot0.combatPowerCaches[slot0] then
-		slot0.combatPowerCaches[slot0] = slot0:getShipCombatPower()
+	if not uv0.combatPowerCaches[slot0] then
+		uv0.combatPowerCaches[slot0] = slot0:getShipCombatPower()
 	end
 
-	if not slot0.combatPowerCaches[slot1] then
-		slot0.combatPowerCaches[slot1] = slot1:getShipCombatPower()
+	if not uv0.combatPowerCaches[slot1] then
+		uv0.combatPowerCaches[slot1] = slot1:getShipCombatPower()
 	end
 
-	slot2 = slot0.combatPowerCaches[slot0]
-	slot3 = slot0.combatPowerCaches[slot1]
+	slot2 = uv0.combatPowerCaches[slot0]
+	slot3 = uv0.combatPowerCaches[slot1]
 
 	if slot0:getDockSortValue() == slot1:getDockSortValue() then
 		if slot2 ~= slot3 then
@@ -476,8 +474,8 @@ end
 
 function slot0.sortByField(slot0)
 	return function (slot0, slot1)
-		slot2 = slot0[slot0]
-		slot3 = slot1[slot0]
+		slot2 = slot0[uv0]
+		slot3 = slot1[uv0]
 
 		if slot0:getDockSortValue() == slot1:getDockSortValue() then
 			if slot2 ~= slot3 then
@@ -495,8 +493,8 @@ end
 
 function slot0.sortByFieldAsc(slot0)
 	return function (slot0, slot1)
-		slot2 = slot0[slot0]
-		slot3 = slot1[slot0]
+		slot2 = slot0[uv0]
+		slot3 = slot1[uv0]
 
 		if slot0:getDockSortValue() == slot1:getDockSortValue() then
 			if slot2 ~= slot3 then
@@ -513,23 +511,23 @@ function slot0.sortByFieldAsc(slot0)
 end
 
 function slot0.sortByProperty(slot0)
-	slot0.propertyCaches = {}
+	uv0.propertyCaches = {}
 
 	return function (slot0, slot1)
-		if not slot0.propertyCaches[slot0] then
-			slot0.propertyCaches[slot0] = slot0:getShipProperties()
+		if not uv0.propertyCaches[slot0] then
+			uv0.propertyCaches[slot0] = slot0:getShipProperties()
 		end
 
-		if not slot0.propertyCaches[slot1] then
-			slot0.propertyCaches[slot1] = slot1:getShipProperties()
+		if not uv0.propertyCaches[slot1] then
+			uv0.propertyCaches[slot1] = slot1:getShipProperties()
 		end
 
-		slot2 = slot0.propertyCaches[slot0]
-		slot3 = slot0.propertyCaches[slot1]
+		slot2 = uv0.propertyCaches[slot0]
+		slot3 = uv0.propertyCaches[slot1]
 
 		if slot0:getDockSortValue() == slot1:getDockSortValue() then
-			if slot2[slot1] ~= slot3[slot1] then
-				return slot3[slot1] < slot2[slot1]
+			if slot2[uv1] ~= slot3[uv1] then
+				return slot3[uv1] < slot2[uv1]
 			else
 				return slot0.configId < slot1.configId
 			end
@@ -540,23 +538,23 @@ function slot0.sortByProperty(slot0)
 end
 
 function slot0.sortByPropertyAsc(slot0)
-	slot0.propertyCaches = {}
+	uv0.propertyCaches = {}
 
 	return function (slot0, slot1)
-		if not slot0.propertyCaches[slot0] then
-			slot0.propertyCaches[slot0] = slot0:getShipProperties()
+		if not uv0.propertyCaches[slot0] then
+			uv0.propertyCaches[slot0] = slot0:getShipProperties()
 		end
 
-		if not slot0.propertyCaches[slot1] then
-			slot0.propertyCaches[slot1] = slot1:getShipProperties()
+		if not uv0.propertyCaches[slot1] then
+			uv0.propertyCaches[slot1] = slot1:getShipProperties()
 		end
 
-		slot2 = slot0.propertyCaches[slot0]
-		slot3 = slot0.propertyCaches[slot1]
+		slot2 = uv0.propertyCaches[slot0]
+		slot3 = uv0.propertyCaches[slot1]
 
 		if slot0:getDockSortValue() == slot1:getDockSortValue() then
-			if slot2[slot1] ~= slot3[slot1] then
-				return slot2[slot1] < slot3[slot1]
+			if slot2[uv1] ~= slot3[uv1] then
+				return slot2[uv1] < slot3[uv1]
 			else
 				return slot0.configId < slot1.configId
 			end
@@ -570,10 +568,10 @@ function slot0.sortByCfg(slot0)
 	return function (slot0, slot1)
 		slot2 = slot0:getDockSortValue()
 		slot3 = slot1:getDockSortValue()
-		slot4 = slot0:getConfig(slot0)
-		slot5 = slot1:getConfig(slot0)
+		slot4 = slot0:getConfig(uv0)
+		slot5 = slot1:getConfig(uv0)
 
-		if slot0 == "rarity" then
+		if uv0 == "rarity" then
 			slot4 = slot0:getRarity()
 			slot5 = slot1:getRarity()
 		end
@@ -594,10 +592,10 @@ function slot0.sortByCfgAsc(slot0)
 	return function (slot0, slot1)
 		slot2 = slot0:getDockSortValue()
 		slot3 = slot1:getDockSortValue()
-		slot4 = slot0:getConfig(slot0)
-		slot5 = slot1:getConfig(slot0)
+		slot4 = slot0:getConfig(uv0)
+		slot5 = slot1:getConfig(uv0)
 
-		if slot0 == "rarity" then
+		if uv0 == "rarity" then
 			slot4 = slot0:getRarity()
 			slot5 = slot1:getRarity()
 		end
@@ -615,7 +613,7 @@ function slot0.sortByCfgAsc(slot0)
 end
 
 function slot0.sortByPriorityFullSkill(slot0, slot1, slot2)
-	if ((slot0:isFullSkillLevel() and 1) or 0) == ((slot1:isFullSkillLevel() and 1) or 0) then
+	if (slot0:isFullSkillLevel() and 1 or 0) == (slot1:isFullSkillLevel() and 1 or 0) then
 		return slot2(slot0, slot1)
 	else
 		return slot3 < slot4
@@ -623,12 +621,12 @@ function slot0.sortByPriorityFullSkill(slot0, slot1, slot2)
 end
 
 function slot0.sortForGuider(slot0, slot1)
-	return ((table.contains({
+	return (table.contains({
 		101171,
 		201211,
 		401231,
 		301051
-	}, slot0.configId) and 1) or 0) > ((table.contains(slot2, slot1.configId) and 1) or 0)
+	}, slot0.configId) and 1 or 0) > (table.contains(slot2, slot1.configId) and 1 or 0)
 end
 
 function slot0.sortByIntimacy(slot0, slot1)

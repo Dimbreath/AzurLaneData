@@ -1,28 +1,30 @@
 ys = ys or {}
-ys.Battle.BattleBuffFixRange = class("BattleBuffFixRange", ys.Battle.BattleBuffEffect)
-ys.Battle.BattleBuffFixRange.__name = "BattleBuffFixRange"
+slot0 = ys
+slot0.Battle.BattleBuffFixRange = class("BattleBuffFixRange", slot0.Battle.BattleBuffEffect)
+slot0.Battle.BattleBuffFixRange.__name = "BattleBuffFixRange"
+slot1 = slot0.Battle.BattleBuffFixRange
 
-function ys.Battle.BattleBuffFixRange.Ctor(slot0, slot1)
-	slot0.super.Ctor(slot0, slot1)
+function slot1.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1)
 end
 
-function ys.Battle.BattleBuffFixRange.SetArgs(slot0, slot1, slot2)
+function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._weaponRange = slot0._tempData.arg_list.weaponRange
 	slot0._bulletRange = slot0._tempData.arg_list.bulletRange
 	slot0._minRange = slot0._tempData.arg_list.minRange
 end
 
-function ys.Battle.BattleBuffFixRange.onAttach(slot0, slot1)
+function slot1.onAttach(slot0, slot1)
 	if slot0._weaponRange or slot0._bulletRange then
 		slot0:updateBulletRange(slot1, slot0._weaponRange, slot0._bulletRange, slot0._minRange)
 	end
 end
 
-function ys.Battle.BattleBuffFixRange.onRemove(slot0, slot1)
+function slot1.onRemove(slot0, slot1)
 	slot0:updateBulletRange(slot1)
 end
 
-function ys.Battle.BattleBuffFixRange.updateBulletRange(slot0, slot1, slot2, slot3, slot4)
+function slot1.updateBulletRange(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1:GetAllWeapon()
 
 	for slot9, slot10 in ipairs(slot0._indexRequire) do
@@ -33,5 +35,3 @@ function ys.Battle.BattleBuffFixRange.updateBulletRange(slot0, slot1, slot2, slo
 		end
 	end
 end
-
-return

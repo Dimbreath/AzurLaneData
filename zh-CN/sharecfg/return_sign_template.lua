@@ -311,5 +311,3 @@ pg.return_sign_template = {
 		14
 	}
 }
-
-return

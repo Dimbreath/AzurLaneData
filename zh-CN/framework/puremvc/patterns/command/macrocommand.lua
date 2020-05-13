@@ -1,7 +1,7 @@
 slot1 = class("MacroCommand", import("..observer.Notifier"))
 
 function slot1.Ctor(slot0)
-	slot0.super.Ctor(slot0)
+	uv0.super.Ctor(slot0)
 
 	slot0.subCommands = {}
 
@@ -9,7 +9,6 @@ function slot1.Ctor(slot0)
 end
 
 function slot1.initializeMacroCommand(slot0)
-	return
 end
 
 function slot1.addSubCommand(slot0, slot1)

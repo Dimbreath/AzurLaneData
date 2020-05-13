@@ -10,9 +10,9 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
-	slot0:SetPainting((slot0.skin and slot0.skin.id) or slot0.shipGroup:GetSkin(slot0.showTrans).id, slot0.showTrans)
+	slot0:SetPainting(slot0.skin and slot0.skin.id or slot0.shipGroup:GetSkin(slot0.showTrans).id, slot0.showTrans)
 	slot0.paintingView:setBGCallback(function ()
-		slot0:closeView()
+		uv0:closeView()
 	end)
 	slot0.paintingView:Start()
 	setActive(slot0:findTF("Enc"), true)
@@ -39,9 +39,12 @@ end
 
 function slot0.SetPainting(slot0, slot1, slot2)
 	slot0:RecyclePainting()
-	setPaintingPrefabAsync(slot0.painting, pg.ship_skin_template[slot1].painting, "chuanwu")
 
-	slot0.paintingName = pg.ship_skin_template[slot1].painting
+	slot3 = pg.ship_skin_template[slot1].painting
+
+	setPaintingPrefabAsync(slot0.painting, slot3, "chuanwu")
+
+	slot0.paintingName = slot3
 end
 
 function slot0.RecyclePainting(slot0)

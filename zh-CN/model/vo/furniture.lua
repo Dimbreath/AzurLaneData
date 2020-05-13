@@ -133,7 +133,7 @@ function slot0.getConfig(slot0, slot1)
 end
 
 function slot0.getTypeForComfortable(slot0)
-	return (slot0.INDEX_TO_COMFORTABLE_TYPE[slot0:getConfig("type")] and slot2) or slot0.TYPE_FURNITURE
+	return uv0.INDEX_TO_COMFORTABLE_TYPE[slot0:getConfig("type")] and slot2 or uv0.TYPE_FURNITURE
 end
 
 function slot0.getDeblocking(slot0)
@@ -177,11 +177,10 @@ function slot0.sortSizeFunc(slot0)
 end
 
 function slot0.getPrice(slot0, slot1)
-	slot3 = (100 - ((slot0:isDisCount() and slot0:getConfig("discount")) or 0)) / 100
-	slot4 = (slot1 == 4 and slot0:getConfig("gem_price")) or (slot1 == 6 and slot0:getConfig("dorm_icon_price"))
+	if slot1 == 4 and slot0:getConfig("gem_price") or slot1 == 6 and slot0:getConfig("dorm_icon_price") then
+		slot5 = math.floor(slot4 * (100 - (slot0:isDisCount() and slot0:getConfig("discount") or 0)) / 100)
 
-	if slot4 then
-		return (slot4 > 0 and math.floor(slot4 * slot3) == 0 and 1) or math.floor(slot4 * slot3)
+		return slot4 > 0 and slot5 == 0 and 1 or slot5
 	end
 end
 
@@ -194,10 +193,8 @@ function slot0.canPurchaseByDormMoeny(slot0)
 end
 
 function slot0.getSortCurrency(slot0)
-	slot1 = 0
-
 	if slot0:canPurchaseByGem() then
-		slot1 = slot1 + 2
+		slot1 = 0 + 2
 	elseif slot0:canPurchaseByDormMoeny() then
 		slot1 = slot1 + 1
 	end

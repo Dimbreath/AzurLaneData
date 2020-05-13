@@ -13,8 +13,8 @@ end
 
 function slot0.match(slot0, slot1)
 	return _.all(slot0.ids, function (slot0)
-		return _.any(slot0, function (slot0)
-			return slot0 == slot0
+		return _.any(uv0, function (slot0)
+			return slot0 == uv0
 		end)
 	end)
 end

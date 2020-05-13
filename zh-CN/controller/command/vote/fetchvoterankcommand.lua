@@ -1,9 +1,11 @@
-class("FetchVoteRankCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("FetchVoteRankCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(17203, {
 		type = slot1:getBody().type
 	}, 17204, function (slot0)
-		slot0:callback()
+		uv0.callback(slot0)
 	end)
 end
 
-return class("FetchVoteRankCommand", pm.SimpleCommand)
+return slot0

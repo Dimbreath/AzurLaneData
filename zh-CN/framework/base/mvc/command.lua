@@ -1,24 +1,20 @@
 ys = ys or {}
-ys or .MVC = ys.MVC or {}
-ys or .MVC.Command = class("MVC.Command")
-ys or .MVC.Command.__name = "MVC.Command"
+slot0.MVC = ys.MVC or {}
+slot0.MVC.Command = class("MVC.Command")
+slot0.MVC.Command.__name = "MVC.Command"
 
-ys or .MVC.Command.Ctor = function (slot0)
-	return
+function slot0.MVC.Command.Ctor(slot0)
 end
 
-ys or .MVC.Command.Initialize = function (slot0)
-	slot0.EventDispatcher.AttachEventDispatcher(slot0)
-	slot0.EventListener.AttachEventListener(slot0)
+function slot0.MVC.Command.Initialize(slot0)
+	uv0.EventDispatcher.AttachEventDispatcher(slot0)
+	uv0.EventListener.AttachEventListener(slot0)
 end
 
-ys or .MVC.Command.Update = function (slot0)
-	return
+function slot0.MVC.Command.Update(slot0)
 end
 
-ys or .MVC.Command.Dispose = function (slot0)
-	slot0.EventListener.DetachEventListener(slot0)
-	slot0.EventDispatcher.DetachEventDispatcher(slot0)
+function slot0.MVC.Command.Dispose(slot0)
+	uv0.EventListener.DetachEventListener(slot0)
+	uv0.EventDispatcher.DetachEventDispatcher(slot0)
 end
-
-return

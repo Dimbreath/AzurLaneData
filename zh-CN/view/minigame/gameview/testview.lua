@@ -14,13 +14,13 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._closeBtn, function ()
-		slot0:emit(slot1.ON_BACK)
+		uv0:emit(uv1.ON_BACK)
 	end)
 	onButton(slot0, slot0._btn1, function ()
-		slot0:SendSuccess(1)
+		uv0:SendSuccess(1)
 	end)
 	onButton(slot0, slot0._btn2, function ()
-		slot0:SendFailure(1)
+		uv0:SendFailure(1)
 	end)
 end
 

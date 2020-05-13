@@ -11,7 +11,7 @@ slot0.ON_CHALLENGE_OPEN_DOCK = "DailyLevelMediator:ON_CHALLENGE_OPEN_DOCK"
 slot0.ON_CHALLENGE_OPEN_RANK = "DailyLevelMediator:ON_CHALLENGE_OPEN_RANK"
 
 function slot0.register(slot0)
-	slot0.viewComponent:setDailyCounts(getProxy(DailyLevelProxy).getRawData(slot1))
+	slot0.viewComponent:setDailyCounts(getProxy(DailyLevelProxy):getRawData())
 
 	slot2 = getProxy(BayProxy)
 
@@ -20,9 +20,9 @@ function slot0.register(slot0)
 	slot0.ships = slot2:getRawData()
 
 	slot0.viewComponent:setShips(slot0.ships)
-	slot0.viewComponent:updateRes(slot4)
-	slot0:bind(slot0.ON_STAGE, function (slot0, slot1)
-		slot0.dailyLevelId = slot1.contextData.dailyLevelId
+	slot0.viewComponent:updateRes(getProxy(PlayerProxy):getData())
+	slot0:bind(uv0.ON_STAGE, function (slot0, slot1)
+		uv0.dailyLevelId = uv1.contextData.dailyLevelId
 		slot2 = PreCombatLayer
 		slot3 = SYSTEM_ROUTINE
 
@@ -31,7 +31,7 @@ function slot0.register(slot0)
 			slot3 = SYSTEM_SUB_ROUTINE
 		end
 
-		slot1:addSubLayers(Context.New({
+		uv1:addSubLayers(Context.New({
 			mediator = PreCombatMediator,
 			viewComponent = slot2,
 			data = {
@@ -49,10 +49,8 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
-	slot3 = slot1:getBody()
-
 	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:updateRes(slot3)
+		slot0.viewComponent:updateRes(slot1:getBody())
 	end
 end
 

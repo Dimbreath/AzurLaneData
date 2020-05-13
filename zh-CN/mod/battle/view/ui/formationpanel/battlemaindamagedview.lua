@@ -1,8 +1,9 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleConfig
-ys.Battle.BattleMainDamagedView = class("BattleMainDamagedView")
+slot0 = ys
+slot1 = slot0.Battle.BattleConfig
+slot0.Battle.BattleMainDamagedView = class("BattleMainDamagedView")
 slot2 = class("BattleMainDamagedView")
-ys.Battle.BattleMainDamagedView = slot2
+slot0.Battle.BattleMainDamagedView = slot2
 slot2.__name = "BattleMainDamagedView"
 
 function slot2.Ctor(slot0, slot1)
@@ -16,10 +17,10 @@ function slot2.Init(slot0)
 	slot0._bleedView = findTF(slot0._tf, "mainUnitDamaged")
 	slot0._bleedAnimation = slot0._bleedView:GetComponent(typeof(Animator))
 
-	slot0._bleedView:GetComponent(typeof(DftAniEvent)).SetEndEvent(slot1, function (slot0)
-		setActive(slot0._bleedView, false)
+	slot0._bleedView:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+		setActive(uv0._bleedView, false)
 
-		slot0._isPlaying = false
+		uv0._isPlaying = false
 	end)
 	setActive(slot0._bleedView, false)
 
@@ -40,5 +41,3 @@ function slot2.Dispose(slot0)
 	slot0._tf = nil
 	slot0._go = nil
 end
-
-return

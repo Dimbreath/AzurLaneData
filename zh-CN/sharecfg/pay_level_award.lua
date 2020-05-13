@@ -178,5 +178,3 @@ pg.pay_level_award = {
 		25
 	}
 }
-
-return

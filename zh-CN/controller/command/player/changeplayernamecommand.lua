@@ -1,9 +1,11 @@
-class("ChangePlayerNameCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("ChangePlayerNameCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	if not slot1:getBody().name or slot3 == "" then
 		return
 	end
 
-	if slot3 == getProxy(PlayerProxy).getData(slot4).name then
+	if slot3 == getProxy(PlayerProxy):getData().name then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("same_player_name_tip"))
 
 		return
@@ -65,19 +67,19 @@ class("ChangePlayerNameCommand", pm.SimpleCommand).execute = function (slot0, sl
 
 	function slot12()
 		pg.ConnectionMgr.GetInstance():Send(11007, {
-			name = slot0
+			name = uv0
 		}, 11008, function (slot0)
 			if slot0.result == 0 then
-				slot0.name = slot0
+				uv0.name = uv1
 
-				slot0:updateModifyNameColdTime(slot1)
-				slot0:updatePlayer(slot0)
-				slot4:sendNotification(GAME.CONSUME_ITEM, Item.New({
-					type = slot5[1],
-					id = slot5[2],
-					count = slot5[3]
+				uv0:updateModifyNameColdTime(pg.TimeMgr.GetInstance():GetServerTime() + uv2)
+				uv3:updatePlayer(uv0)
+				uv4:sendNotification(GAME.CONSUME_ITEM, Item.New({
+					type = uv5[1],
+					id = uv5[2],
+					count = uv5[3]
 				}))
-				slot4:sendNotification(GAME.CHANGE_PLAYER_NAME_DONE)
+				uv4:sendNotification(GAME.CHANGE_PLAYER_NAME_DONE)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("player_changePlayerName_ok"))
 			else
 				pg.TipsMgr.GetInstance():ShowTips(errorTip("player_changePlayerName", slot0.result))
@@ -90,9 +92,9 @@ class("ChangePlayerNameCommand", pm.SimpleCommand).execute = function (slot0, sl
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = i18n("player_name_change_warning", slot10.count, slot10:getConfig("name"), slot3),
 		onYes = function ()
-			slot0()
+			uv0()
 		end
 	})
 end
 
-return class("ChangePlayerNameCommand", pm.SimpleCommand)
+return slot0

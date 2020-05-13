@@ -1573,5 +1573,3 @@ pg.commander_skill_effect_template = {
 		420213
 	}
 }
-
-return
