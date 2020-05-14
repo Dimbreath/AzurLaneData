@@ -8344,6 +8344,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5081] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5072,
+		type = 5,
+		name = "화를 잘 내는 비서함",
+		count_inherit = 0,
+		desc = "산소 콜라를 9개 제출한다.",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "haman",
+		award_choice = "",
+		level = 1,
+		next_task = "5082",
+		visibility = 1,
+		story_id = "HAMAN1",
+		target_id_for_client = 50001,
+		id = 5081,
+		target_num = 9,
+		fix_task = 0,
+		target_id = "50001",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5082] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5073,
+		type = 5,
+		name = "기쁘지 않은 이유·상",
+		count_inherit = 0,
+		desc = "임의의 장비를 10회 강화한다.",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 1,
+		story_icon = "haman",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5083",
+		visibility = 1,
+		story_id = "HAMAN2",
+		target_id_for_client = 0,
+		id = 5082,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5083] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5074,
+		type = 5,
+		name = "기쁘지 않은 이유·중",
+		count_inherit = 0,
+		desc = "허먼을 포함한 함대를 출격시켜\n20회 승리한다.'",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "haman",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5084",
+		visibility = 1,
+		story_id = "HAMAN3",
+		target_id_for_client = 10125,
+		id = 5083,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "10125",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5084] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5075,
+		type = 5,
+		name = "기쁘지 않은 이유·하",
+		count_inherit = 0,
+		desc = "허먼을 포함한 함대로 데일리 챌린지를\n3회 클리어한다.'",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "haman",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5085",
+		visibility = 1,
+		story_id = "HAMAN4",
+		target_id_for_client = 10125,
+		id = 5084,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "10125",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5085] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5076,
+		type = 5,
+		name = "허먼과 요크타운",
+		count_inherit = 0,
+		desc = "허먼의 호감도를 100까지 달성한다.'",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "haman",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5086",
+		visibility = 1,
+		story_id = "HAMAN5",
+		target_id_for_client = 10125,
+		id = 5085,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "10125",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5086] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5077,
+		type = 5,
+		name = "여보세요, 해군 사령부인가요!?",
+		count_inherit = 0,
+		desc = "허먼의 한계돌파를 3회 진행한다.'",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "haman",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5087",
+		visibility = 1,
+		story_id = "HAMAN6",
+		target_id_for_client = 101254,
+		id = 5086,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "101254",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[5087] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5078,
+		type = 5,
+		name = "솔직함은… 한 순간!",
+		count_inherit = 0,
+		desc = "허먼의 레벨을 100까지 달성한다.'",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "haman",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "HAMAN7",
+		target_id_for_client = 10125,
+		id = 5087,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "10125",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				2
+			}
+		}
+	},
 	[5091] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -82495,6 +82751,364 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15565] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93006,
+		type = 6,
+		name = "『法系SP』通关SP1",
+		count_inherit = 0,
+		desc = "SP1을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15566",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350001,
+		id = 15565,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350001",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[15566] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93007,
+		type = 6,
+		name = "『法系SP』通关SP2",
+		count_inherit = 0,
+		desc = "SP2를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15567",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350002,
+		id = 15566,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[15567] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93008,
+		type = 6,
+		name = "『法系SP』通关SP3",
+		count_inherit = 0,
+		desc = "SP3을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15567,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[15568] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93009,
+		type = 6,
+		name = "『法系SP』SP1的三星",
+		count_inherit = 0,
+		desc = "SP1을 ☆3으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15569",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350001,
+		id = 15568,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[15569] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93010,
+		type = 6,
+		name = "『法系SP』SP2的三星",
+		count_inherit = 0,
+		desc = "SP2를 ☆3으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15570",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350002,
+		id = 15569,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[15570] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93011,
+		type = 6,
+		name = "『法系SP』SP3的三星",
+		count_inherit = 0,
+		desc = "SP3을 ☆3으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15570,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[15571] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93012,
+		type = 6,
+		name = "『法系SP』SP3累计通关10次",
+		count_inherit = 0,
+		desc = "SP3을 10회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15571,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15572] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93013,
+		type = 6,
+		name = "『法系SP』SP3累计通关20次",
+		count_inherit = 0,
+		desc = "SP3을 20회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15572,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15573] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93014,
+		type = 6,
+		name = "『法系SP』SP3累计通关40次",
+		count_inherit = 0,
+		desc = "SP3을 40회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15573,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15574] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93015,
+		type = 6,
+		name = "『法系SP』SP3累计通关60次",
+		count_inherit = 0,
+		desc = "SP3을 60회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15574,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				901021,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -92663,6 +93277,13 @@ pg.task_data_template = {
 		5075,
 		5076,
 		5077,
+		5081,
+		5082,
+		5083,
+		5084,
+		5085,
+		5086,
+		5087,
 		5091,
 		5092,
 		5093,
@@ -94688,6 +95309,16 @@ pg.task_data_template = {
 		15562,
 		15563,
 		15564,
+		15565,
+		15566,
+		15567,
+		15568,
+		15569,
+		15570,
+		15571,
+		15572,
+		15573,
+		15574,
 		30201,
 		30202,
 		30203,

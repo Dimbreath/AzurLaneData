@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -100,7 +100,7 @@ return {
 			say = "에에?! 이 여름철에 전골 대회?!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 301150,
 			actorName = "{namecode:17}",
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -231,7 +231,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -251,7 +251,7 @@ return {
 			say = "고기도 준비 완료야~",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
 			actor = 302040,
 			actorName = "{namecode:46}",
@@ -269,7 +269,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -303,7 +303,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -323,7 +323,7 @@ return {
 			say = "무슨 일인가 했더니, 이렇게 더울 때 전골 대회라니……",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 307030,
 			actorName = "{namecode:93}",
@@ -341,7 +341,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,

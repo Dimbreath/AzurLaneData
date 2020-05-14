@@ -390,52 +390,79 @@ return {
 								hpBarNum = 75,
 								icon = "yefeng"
 							}
+						},
+						{
+							monsterTemplateID = 10044027,
+							score = 0,
+							reinforceDelay = 8,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								-15,
+								0,
+								70
+							}
 						}
 					},
 					reinforcement = {
 						{
-							monsterTemplateID = 10044060,
+							monsterTemplateID = 10044005,
 							score = 10,
-							delay = 3,
+							delay = 0,
 							moveCast = true,
 							corrdinate = {
 								20,
 								0,
-								75
+								65
 							},
 							buffList = {
 								8001,
-								8002
+								8007
 							}
 						},
 						{
-							monsterTemplateID = 10044060,
+							monsterTemplateID = 10044012,
 							score = 10,
-							delay = 3,
+							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								20,
+								10,
 								0,
-								55
+								80
 							},
 							buffList = {
 								8001,
-								8002
+								8007
 							}
 						},
 						{
-							monsterTemplateID = 10044060,
+							monsterTemplateID = 10044012,
 							score = 10,
-							delay = 3,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								10,
+								0,
+								30
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						},
+						{
+							monsterTemplateID = 10044005,
+							score = 10,
+							delay = 0,
 							moveCast = true,
 							corrdinate = {
 								20,
 								0,
-								35
+								45
 							},
 							buffList = {
 								8001,
-								8002
+								8007
 							}
 						}
 					}

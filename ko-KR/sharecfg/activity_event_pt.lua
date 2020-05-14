@@ -5553,9 +5553,7 @@ pg.activity_event_pt = {
 				1
 			}
 		},
-		allplayer = {
-			0.1
-		},
+		allplayer = {},
 		day_unlock = {
 			0,
 			0,

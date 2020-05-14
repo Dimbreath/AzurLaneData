@@ -26,11 +26,11 @@ function slot0.Chat(slot0, slot1, slot2, slot3)
 		slot0:StopChat()
 
 		if slot2 then
-			slot0:PlayCV(slot2)
-		end
-
-		if slot1 then
-			slot0:ShowShipWord(slot1)
+			slot0:PlayCV(slot2, function ()
+				if uv0 then
+					uv1:ShowShipWord(uv0)
+				end
+			end)
 		end
 	end
 end
@@ -42,11 +42,15 @@ function slot0.ShowShipWord(slot0, slot1)
 		LeanTween.cancel(go(slot0.chat))
 	end
 
-	slot3 = 3
+	slot2 = 0.3
+
+	if slot0._cueInfo and 3 < long2int(slot0._cueInfo.length) / 1000 then
+		slot3 = slot4
+	end
 
 	setActive(slot0.chat, true)
 	setText(slot0.chatText, slot1)
-	LeanTween.scale(slot0.chat.gameObject, Vector3.New(1, 1, 1), 0.3):setFrom(Vector3.New(0, 0, 0)):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
+	LeanTween.scale(slot0.chat.gameObject, Vector3.New(1, 1, 1), slot2):setFrom(Vector3.New(0, 0, 0)):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
 		if IsNil(uv0.chat) then
 			return
 		end
@@ -72,13 +76,15 @@ function slot0.StopChat(slot0)
 	slot0:StopCV()
 end
 
-function slot0.PlayCV(slot0, slot1)
+function slot0.PlayCV(slot0, slot1, slot2)
 	if "event:/cv/shop/" .. slot1 then
 		if slot0.loadedCVBankName then
 			function ()
 				uv0:StopCV()
 
-				uv0._currentVoice = playSoundEffect(uv1)
+				uv0._currentVoice, uv0._cueInfo = playSoundEffect(uv1)
+
+				uv2()
 			end()
 		else
 			pg.CriMgr:LoadCV("shop", function ()

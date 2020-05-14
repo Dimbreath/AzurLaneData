@@ -51,7 +51,10 @@ return {
 					triggerType = 5,
 					waveIndex = 1101,
 					preWaves = {
-						1001
+						103,
+						102,
+						101,
+						104
 					},
 					triggerParams = {
 						bgm = "battle-boss-1"

@@ -235,6 +235,17 @@ return {
 					}
 				},
 				{
+					triggerType = 3,
+					waveIndex = 500,
+					preWaves = {
+						102,
+						101
+					},
+					triggerParams = {
+						id = "YESEXIADEGUITU5"
+					}
+				},
+				{
 					triggerType = 0,
 					key = true,
 					waveIndex = 104,

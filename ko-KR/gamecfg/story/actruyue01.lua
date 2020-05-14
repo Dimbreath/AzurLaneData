@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -75,7 +75,7 @@ return {
 			say = "윽…대체 어디서 잘못된 걸까요……",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -293,7 +293,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,

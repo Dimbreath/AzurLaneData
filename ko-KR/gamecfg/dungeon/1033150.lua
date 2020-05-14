@@ -80,7 +80,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 10043016,
+							monsterTemplateID = 10043013,
 							score = 0,
 							reinforceDelay = 8,
 							delay = 0,
@@ -388,9 +388,36 @@ return {
 								hpBarNum = 75,
 								icon = "shancheng"
 							}
+						},
+						{
+							monsterTemplateID = 10043021,
+							score = 0,
+							reinforceDelay = 8,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								-10,
+								0,
+								55
+							}
 						}
 					},
 					reinforcement = {
+						{
+							monsterTemplateID = 10043003,
+							score = 10,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								20,
+								0,
+								65
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						},
 						{
 							monsterTemplateID = 10043012,
 							score = 10,
@@ -415,6 +442,21 @@ return {
 								10,
 								0,
 								30
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						},
+						{
+							monsterTemplateID = 10043003,
+							score = 10,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								20,
+								0,
+								45
 							},
 							buffList = {
 								8001,

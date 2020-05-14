@@ -121,4 +121,8 @@ function slot0.CanRecordPrevFormation(slot0)
 	return slot0.template.oil >= 800
 end
 
+function slot0.GetCountDownTime(slot0)
+	return slot0.state == EventInfo.StateNone and slot0.overTime > 0 and slot0.overTime - pg.TimeMgr.GetInstance():GetServerTime()
+end
+
 return slot0

@@ -26,6 +26,7 @@ MSGBOX_TYPE_HELP = 7
 MSGBOX_TYPE_SECONDPWD = 8
 MSGBOX_TYPE_OBTAIN = 9
 MSGBOX_TYPE_ITEMTIP = 10
+MSGBOX_TYPE_JUST_FOR_SHOW = 11
 slot1.enable = false
 slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
@@ -344,6 +345,10 @@ function slot8(slot0, slot1)
 		setText(slot2, slot1.drop.cfg.describe)
 	elseif slot1.drop.type == DROP_TYPE_SHIP then
 		slot12, slot13, slot14 = ShipWordHelper.GetWordAndCV(uv2.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
+
+		setText(slot2, slot14 or i18n("ship_drop_desc_default"))
+	elseif slot1.drop.type == DROP_TYPE_NPC_SHIP then
+		slot12, slot13, slot14 = ShipWordHelper.GetWordAndCV(slot1.drop.cfg.skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
 
 		setText(slot2, slot14 or i18n("ship_drop_desc_default"))
 	elseif slot1.drop.type == DROP_TYPE_EQUIP then
@@ -1081,6 +1086,8 @@ function slot1.ShowMsgBox(slot0, slot1)
 		uv9(slot0, slot1)
 	elseif slot2 == MSGBOX_TYPE_ITEMTIP then
 		slot0:GetPanel(ItemTipPanel).buffer:UpdateView(slot1)
+	elseif slot2 == MSGBOX_TYPE_JUST_FOR_SHOW then
+		slot0:GetPanel(ItemShowPanel).buffer:UpdateView(slot1)
 	end
 end
 

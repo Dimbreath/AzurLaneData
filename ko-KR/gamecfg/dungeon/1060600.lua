@@ -449,7 +449,7 @@ return {
 						main_unitList = {
 							{
 								configId = 900135,
-								level = 110,
+								level = 120,
 								skinId = 900135,
 								id = 1,
 								tmpID = 900135,
@@ -480,7 +480,7 @@ return {
 							},
 							{
 								configId = 900133,
-								level = 110,
+								level = 120,
 								skinId = 900133,
 								id = 2,
 								tmpID = 900133,
@@ -511,7 +511,7 @@ return {
 							},
 							{
 								configId = 900134,
-								level = 110,
+								level = 120,
 								skinId = 900134,
 								id = 3,
 								tmpID = 900134,
@@ -585,7 +585,7 @@ return {
 				exp = 10,
 				tmpID = 900132,
 				id = 1,
-				level = 110,
+				level = 120,
 				equipment = {
 					false,
 					false,
@@ -615,7 +615,7 @@ return {
 		main_unitList = {
 			{
 				configId = 900133,
-				level = 110,
+				level = 120,
 				skinId = 900133,
 				id = 1,
 				tmpID = 900133,
@@ -640,7 +640,7 @@ return {
 			},
 			{
 				configId = 900134,
-				level = 110,
+				level = 120,
 				skinId = 900134,
 				id = 2,
 				tmpID = 900134,

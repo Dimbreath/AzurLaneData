@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=45>四 不高兴的理由·下</size>",
+					"허먼 관찰일기\n\n<size=45>4. 기쁘지 않은 이유·하</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "被看到了…哈曼…被人看到了……",
+			say = "들켰어… 허먼… 들켜버렸어……",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -36,7 +36,7 @@ return {
 			actor = 101240,
 			side = 0,
 			bgName = "bg_story_task",
-			say = "虽然不是故意要看的…你那是在干吗？",
+			say = "일부러 보려던 건 아니지만… 뭐 하는 거야?",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -55,7 +55,7 @@ return {
 			actor = 101250,
 			side = 1,
 			bgName = "bg_story_task",
-			say = "事情是这样的——",
+			say = "그러니까——",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 101250,
-			say = "…刚才的事快忘掉！一定要忘掉哦！",
+			say = "…방금 일은 잊어야 해! 절대로 잊어줘!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊啊别摇我啦！也不是什么大事嘛……",
+			say = "흔들지 마! 별 일도 아니면서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 101250,
-			say = "就是很大的事啦！指挥官…不知道现在在怎么样了……",
+			say = "큰일이라고! 지휘관… 지금 뭘 하고 있는지도 모르는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "话说回来，不就是因为哈曼不肯老实道歉，才搞得事情这么复杂的吗？",
+			say = "그러고 보니 허먼이 솔직하게 사과하지 않아서 일이 이렇게 복잡하게 된 거잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "说是这么说…可是道歉什么的…哈曼一个人做不到啊！西姆斯你要帮我啦！",
+			say = "그렇긴 하지만… 사과 같은 거… 허먼 혼자서는 못 해! 심즈, 좀 도와줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不不就算你找我也没用啊…对了，去问问约克城吧！",
+			say = "나나나한테 그래도 소용 없다구… 맞아, 요크타운한테 가서 물어보자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "对哦！约克城姐姐的话…！谢了西姆斯！帮我看会指挥室！",
+			say = "그래! 요크타운 언니라면…! 고마워, 심즈! 나 대신 지휘실 좀 봐줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哈曼一溜烟地跑掉了。",
+			say = "허먼은 순식간에 달려 나갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊……又这么慌慌张张的…",
+			say = "아…… 또 저렇게 허둥지둥…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过刚才哈曼那表情我都录下来了，这就算是必要的投入吧～",
+			say = "하지만 방금 전 허먼의 표정은 전부 다 녹화해뒀으니까, 나름 괜찮은 투자였지~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "等下要怎么耍她呢~嘿嘿嘿♪",
+			say = "어떻게 놀려줄까~ 헤헤헤♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			},
 			options = {
 				{
-					content = "绕到指挥室里的西姆斯身后警告她",
+					content = "지휘실에 있는 심즈의 뒤로 돌아가 경고한다",
 					flag = 1
 				}
 			}
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101240,
-			say = "吓！？指挥官，什么时候出现的！？",
+			say = "으악?! 지휘관, 언제 왔어?!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "带你去约克城那里？可以是可以——还要把刚才录的视频删掉？！怎么这样——",
+			say = "요크타운 있는 데로 데려가 달라고? 못할 건 없지만—— 방금 찍은 영상까지 지우라고?! 어떻게 이럴 수 있어——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
