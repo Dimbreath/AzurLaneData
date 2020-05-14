@@ -24,7 +24,7 @@ return {
 			bgName = "bg_story_room",
 			bgm = "story-1",
 			actor = 312010,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "차, 착하지냥! 무츠키도 잘못했다 했으니, 이제 용서해줘라냥!",
 			flashout = {
 				dur = 1,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -76,11 +76,11 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 301320,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "응……?",
 			subActors = {
 				{
-					actor = 301330,
+					actor = 301331,
 					pos = {
 						x = 1125
 					}
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			actor = 312010,
@@ -142,7 +142,7 @@ return {
 			actor = 301180,
 			dir = 1,
 			actorName = "{namecode:20}",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			effects = {
 				{
 					active = false,
@@ -163,7 +163,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -197,7 +197,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_room",
 			actor = 301140,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "고기 확보! 우걱우걱!",
 			flashout = {
 				dur = 1,
@@ -268,7 +268,7 @@ return {
 			say = "아앗! 또 내 고길 뺏어갔겠다!",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 301150,
 			actorName = "{namecode:17}",
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -303,7 +303,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_room",
 			actor = 307040,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "후우…졸인 우동도 국물이 잘 배어들었네요!",
 			flashout = {
 				dur = 1,
@@ -357,7 +357,7 @@ return {
 			say = "여름이라고 별 기대 안 했는데, 맛있었어.",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 307030,
 			actorName = "{namecode:93}",
@@ -375,7 +375,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_room",
 			actor = 301320,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "키사라기, 미안…고기랑 사탕 줄 테니까, 이제 화내지 마…",
 			flashout = {
 				dur = 1,
@@ -429,9 +429,9 @@ return {
 			say = "안 화났어…그치만 이제 장난 안 칠거지…?",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301330,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -447,7 +447,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_room",
 			actor = 312010,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "미식과 과학의 승리다냥!",
 			flashout = {
 				dur = 1,
@@ -498,7 +498,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -515,7 +515,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -532,12 +532,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 301330,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "전골도 좋지만……다음에는 평범한 걸로 해주세요……",
 			typewriter = {

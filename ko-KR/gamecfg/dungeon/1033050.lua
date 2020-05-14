@@ -385,7 +385,7 @@ return {
 								55
 							},
 							bossData = {
-								hpBarNum = 40,
+								hpBarNum = 70,
 								icon = "shancheng"
 							}
 						},

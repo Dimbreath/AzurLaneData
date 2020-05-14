@@ -14105,6 +14105,7 @@ pg.activity_template = {
 	[20443] = {
 		mark = 20200416,
 		title_res_tag = "donghuawanbo",
+		time = "stop",
 		type = 3,
 		login_pop = 3,
 		config_id = 18,
@@ -14112,33 +14113,6 @@ pg.activity_template = {
 		config_client = "",
 		id = 20443,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/donghuawanbo_login"
 		}
@@ -14146,6 +14120,7 @@ pg.activity_template = {
 	[20444] = {
 		mark = 20200423,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -14170,33 +14145,6 @@ pg.activity_template = {
 			15560,
 			15561,
 			15562
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20445] = {
@@ -14291,7 +14239,6 @@ pg.activity_template = {
 		login_pop = 0,
 		config_id = 20447,
 		is_show = 73,
-		config_client = "",
 		id = 20447,
 		config_data = {},
 		time = {
@@ -14323,6 +14270,9 @@ pg.activity_template = {
 		},
 		bg = {
 			"clutter/activity_bg_tianchengfk_pt"
+		},
+		config_client = {
+			linkActID = 20452
 		}
 	},
 	[20448] = {
@@ -14403,6 +14353,7 @@ pg.activity_template = {
 	[20449] = {
 		mark = 20200423,
 		title_res_tag = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -14410,38 +14361,12 @@ pg.activity_template = {
 		config_client = "",
 		bg = "",
 		id = 20449,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[20450] = {
 		mark = 20200423,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -14450,33 +14375,6 @@ pg.activity_template = {
 		id = 20450,
 		config_data = {
 			15563
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			npc = {
@@ -14488,6 +14386,7 @@ pg.activity_template = {
 	[20451] = {
 		mark = 20200423,
 		title_res_tag = "xiaoshengwang_pt",
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 20451,
@@ -14495,33 +14394,6 @@ pg.activity_template = {
 		config_client = "",
 		id = 20451,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_bg_xiaoshengwang_pt"
 		}
@@ -14529,6 +14401,7 @@ pg.activity_template = {
 	[20452] = {
 		mark = 20200423,
 		title_res_tag = "tianchengfk",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -14550,33 +14423,6 @@ pg.activity_template = {
 			1340016,
 			1340021
 		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/tianchengfk_zhuye"
 		}
@@ -14594,6 +14440,180 @@ pg.activity_template = {
 		id = 20453,
 		config_data = {
 			15564
+		}
+	},
+	[20454] = {
+		mark = 20200514,
+		title_res_tag = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 20454,
+		config_data = {
+			1350001,
+			1350002,
+			1350003
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20455] = {
+		mark = 20200514,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 20455,
+		config_data = {
+			15565,
+			15566,
+			15567,
+			15568,
+			15569,
+			15570
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20456] = {
+		mark = 20200514,
+		title_res_tag = "france_sp",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 76,
+		config_client = "",
+		id = 20456,
+		config_data = {
+			15571,
+			15572,
+			15573,
+			15574
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_france_sp"
+		}
+	},
+	[20457] = {
+		mark = 20200514,
+		title_res_tag = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 9,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 20457,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[25000] = {
@@ -15204,6 +15224,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[25038] = {
+		mark = 20200514,
+		title_res_tag = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5081,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 25038,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -15658,6 +15694,10 @@ pg.activity_template = {
 		20451,
 		20452,
 		20453,
+		20454,
+		20455,
+		20456,
+		20457,
 		25000,
 		25001,
 		25002,
@@ -15695,6 +15735,7 @@ pg.activity_template = {
 		25034,
 		25035,
 		25036,
-		25037
+		25037,
+		25038
 	}
 }

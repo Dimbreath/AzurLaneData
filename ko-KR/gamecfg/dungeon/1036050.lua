@@ -412,12 +412,12 @@ return {
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								-5,
+								5,
 								0,
 								55
 							},
 							bossData = {
-								hpBarNum = 52,
+								hpBarNum = 80,
 								icon = "chicheng"
 							}
 						},
@@ -427,12 +427,12 @@ return {
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								-5,
+								0,
 								0,
 								55
 							},
 							bossData = {
-								hpBarNum = 52,
+								hpBarNum = 80,
 								icon = "jiahe"
 							}
 						}
@@ -444,9 +444,9 @@ return {
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								25,
+								20,
 								0,
-								55
+								75
 							},
 							buffList = {
 								8001,
@@ -459,9 +459,9 @@ return {
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								10,
+								20,
 								0,
-								55
+								30
 							},
 							buffList = {
 								8001,

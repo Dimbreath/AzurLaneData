@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=45>五 哈曼和约克城</size>",
+					"허먼 관찰일기\n\n<size=45>5. 허먼과 요크타운</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "——然后呢，哈曼就把指挥官赶出指挥室了……",
+			say = "——그래서, 허먼이 지휘관을 지휘실에서 내쫓았어……",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -36,7 +36,7 @@ return {
 			actor = 107050,
 			side = 0,
 			bgName = "bg_story_room",
-			say = "嗯嗯。",
+			say = "응응.",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "……想去找指挥官又不知道人在哪……",
+			say = "……지휘관을 찾아가고 싶지만 어디에 있는지도 모르겠고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "嗯嗯。",
+			say = "응응.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "……就算找到了也不知道该怎么道歉……",
+			say = "……찾는다고 해도 어떻게 사과를 해야 할지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "嗯嗯。哈曼，真辛苦呢……",
+			say = "응응. 허먼, 정말 고생했네요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "呜哇啊啊约克城姐姐～",
+			say = "으아아앙. 요크타운 언니~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "约克城摸着哈曼的头安慰她，哈曼把脸埋进约克城胸口撒娇。",
+			say = "요크타운이 허먼의 머리를 쓰다듬으며 위로하자 허먼은 얼굴을 요크타운의 가슴에 파묻고 애교를 부렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "哈曼想道歉的话，用自己的方式就好了呀。",
+			say = "허먼이 사과하고 싶다면 자기만의 방식으로 하면 된다고 생각해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "只要发自真心，自然能传达你的心意，指挥官也能理解你的",
+			say = "진심을 다 해서 마음을 전하면 지휘관님도 이해해 줄 거라고 생각해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "说得…是呢…谢谢约克城姐姐…",
+			say = "듣고보니… 그렇네… 고마워, 요크타운 언니…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "另一边……",
+			say = "다른 한 쪽……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "嗯…好像错过了出场的时机？…我没在录像啦！",
+			say = "음… 나갈 타이밍을 놓친 것 같은데? …녹화 안 했어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			},
 			options = {
 				{
-					content = "确实错过了出面的时机呢……",
+					content = "확실히 나갈 타이밍을 놓쳤는데……",
 					flag = 1
 				}
 			}
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "说不定其实她们已经发现了……",
+			say = "어쩌면 이미 발견했을지도 모르겠는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "是的。西姆斯？指挥官？我知道你们在那边哦。",
+			say = "맞아요. 심즈? 지휘관님? 거기에 있는 거 알고 있답니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 101240,
-			say = "诶！？",
+			say = "에?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

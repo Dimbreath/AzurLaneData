@@ -251,8 +251,7 @@ return {
 					conditionType = 0,
 					preWaves = {
 						101,
-						102,
-						500
+						102
 					},
 					triggerParam = {},
 					spawn = {
@@ -327,17 +326,6 @@ return {
 					}
 				},
 				{
-					triggerType = 3,
-					waveIndex = 500,
-					preWaves = {
-						101,
-						102
-					},
-					triggerParams = {
-						id = "TACT10008"
-					}
-				},
-				{
 					triggerType = 1,
 					waveIndex = 205,
 					preWaves = {
@@ -349,24 +337,12 @@ return {
 				},
 				{
 					triggerType = 3,
-					key = true,
 					waveIndex = 501,
 					preWaves = {
 						205
 					},
 					triggerParams = {
-						id = "TACT10009"
-					}
-				},
-				{
-					triggerType = 3,
-					waveIndex = 502,
-					preWaves = {
-						501,
-						205
-					},
-					triggerParams = {
-						id = "TACT10010",
+						id = "TACT10005",
 						progress = 100
 					}
 				},
@@ -376,8 +352,8 @@ return {
 					waveIndex = 206,
 					conditionType = 0,
 					preWaves = {
-						501,
-						502
+						205,
+						501
 					},
 					triggerParams = {
 						timeout = 0.5

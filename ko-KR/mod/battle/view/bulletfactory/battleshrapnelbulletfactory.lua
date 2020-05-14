@@ -94,15 +94,26 @@ function slot1.bulletSplit(slot0, slot1)
 		slot15 = slot14.barrage_ID
 		slot16 = slot14.bullet_ID
 		slot18 = slot14.inheritAngle
-		slot20 = nil
-		slot20 = uv1.Battle[slot14.emitterType or uv1.Battle.BattleWeaponUnit.EMITTER_SHOTGUN].New(function (slot0, slot1, slot2, slot3)
+		slot19 = slot14.reaim
+		slot21 = nil
+		slot21 = uv1.Battle[slot14.emitterType or uv1.Battle.BattleWeaponUnit.EMITTER_SHOTGUN].New(function (slot0, slot1, slot2, slot3)
 			slot4 = uv0:CreateBulletUnit(uv1, uv2, uv3, Vector3.zero)
 
 			slot4:OverrideCorrectedDMG(uv4.damage)
 			slot4:SetOffsetPriority(slot3)
 			slot4:SetShiftInfo(slot0, slot1)
-			slot4:SetRotateInfo(nil, uv5 and uv6:GetYAngle() or uv7, slot2)
-			uv8.GetFactoryList()[slot4:GetTemplate().type]:CreateBullet(uv9:GetTf(), slot4, uv9:GetPosition())
+
+			if uv8 then
+				if uv9.Battle.BattleTargetChoise.TargetHarmNearest(uv6)[1] == nil then
+					slot4:SetRotateInfo(nil, uv5 and uv6:GetYAngle() or uv7, slot2)
+				else
+					slot4:SetRotateInfo(slot6:GetCLDZCenterPosition(), slot5, slot2)
+				end
+			else
+				slot4:SetRotateInfo(nil, slot5, slot2)
+			end
+
+			uv10.GetFactoryList()[slot4:GetTemplate().type]:CreateBullet(uv11:GetTf(), slot4, uv11:GetPosition())
 		end, function ()
 			uv0:Destroy()
 
@@ -113,8 +124,8 @@ function slot1.bulletSplit(slot0, slot1)
 			end
 		end, slot15)
 
-		slot20:Ready()
-		slot20:Fire(nil, slot7:GetDirection(), uv1.Battle.BattleDataFunction.GetBarrageTmpDataFromID(slot15).angle)
+		slot21:Ready()
+		slot21:Fire(nil, slot7:GetDirection(), uv1.Battle.BattleDataFunction.GetBarrageTmpDataFromID(slot15).angle)
 	end
 end
 

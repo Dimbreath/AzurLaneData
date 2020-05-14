@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=45>一  爱发脾气的秘书舰</size>",
+					"허먼 관찰일기\n\n<size=45>1. 화를 잘 내는 비서함</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "모항·지휘실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "喂！",
+			say = "이봐!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 		},
 		{
 			actor = 0,
-			say = "哎…？",
+			say = "에…?",
 			bgName = "bg_story_task",
 			withoutPainting = true,
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "哈曼提交的报告书，你还没看吗？",
+			say = "허먼의 보고서, 아직 안 본거야?",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 101250,
-			say = "一小时前就放这里了！为什么还不看！",
+			say = "한 시간 전에 뒀다고! 왜 아직도 보지 않은거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,11 +101,11 @@ return {
 			},
 			options = {
 				{
-					content = "三小时前的文件都没处理完呢…",
+					content = "3시간 전의 문서도 아직이야…",
 					flag = 1
 				},
 				{
-					content = "我没说过这资料明天再交也行吗？",
+					content = "자료는 내일 줘도 된다고 하지 않았어?",
 					flag = 2
 				}
 			}
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 101250,
-			say = "不许找借口！",
+			say = "변명하지마!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "说你没看就是没看！哈曼费了这么大劲才写好的！你怎么赔我！",
+			say = "안 봤으면 안 봤다고 해! 힘들여서 작성했단 말이야! 어떻게 보상할 거야!",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -154,7 +154,7 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（小声）还，还想说要是你好好看了就给你点奖励呢……",
+			say = "(작은 소리) 잘, 잘 봤으니까 상을 준다고 하던가……",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -170,7 +170,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "怎么突然变小声了…",
+			say = "왜 갑자기 목소리가 작아진 거야…",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "没什么！现在立刻马上看完来陪…给我指示！",
+			say = "아냐! 지금 당장 보상을… 지시를 내려!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "之后的行程是要去演习视察吧？现在不找哈曼晚点可就找不着了！",
+			say = "앞으로의 일정은 연습 시찰이지? 지금 허먼을 찾지 않으면 이따가는 찾을 수 없을걸!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……什么叫“太突然了没有工作让你做”啊！？明明总是忙个不停为什么不让哈曼帮忙啦！",
+			say = "……뭐가 '너무 갑자기라서 시킬 일이 없어'야! 그렇게 바쁘면 도와달라고 하지 그랬어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊烦死了！你就赶紧出门去你的演习海域好了啦！",
+			say = "짜증나! 당장 나가서 연습 해역이나 찾아와!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "<size=60>笨蛋！</size>",
+			say = "<size=60>바보! </size>",
 			action = {
 				{
 					y = 30,
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（咚！）",
+			say = "(쿵!) ",
 			dialogShake = {
 				speed = 0.04,
 				x = 12.75,
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "不知为何被哈曼赶出了指挥室……",
+			say = "왠지 모르게 허먼에게 지휘실에서 쫓겨났다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

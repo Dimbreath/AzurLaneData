@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -66,7 +66,7 @@ return {
 			say = "저, 전골 대회…?",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 301330,
 			actorName = "{namecode:34}",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,

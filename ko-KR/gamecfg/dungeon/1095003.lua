@@ -158,7 +158,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 10105103,
+							monsterTemplateID = 10105003,
 							score = 0,
 							delay = 0,
 							moveCast = true,

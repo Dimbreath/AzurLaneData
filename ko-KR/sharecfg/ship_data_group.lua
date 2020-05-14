@@ -513,17 +513,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"소형함 건조",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -5543,16 +5532,6 @@ pg.ship_data_group = {
 					""
 				},
 				0
-			},
-			{
-				"메인 스테이지 해역3-2",
-				{
-					"LEVEL",
-					{
-						chapterid = 302
-					}
-				},
-				0
 			}
 		}
 	},
@@ -5582,16 +5561,6 @@ pg.ship_data_group = {
 				"이벤트 : 피오르드의 별",
 				{
 					""
-				},
-				0
-			},
-			{
-				"메인 스테이지 해역3-2",
-				{
-					"LEVEL",
-					{
-						chapterid = 302
-					}
 				},
 				0
 			}
@@ -5696,17 +5665,6 @@ pg.ship_data_group = {
 					"LEVEL",
 					{
 						chapterid = 201
-					}
-				},
-				0
-			},
-			{
-				"소형함 건조",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
 					}
 				},
 				0
@@ -14760,7 +14718,7 @@ pg.ship_data_group = {
 			}
 		}
 	},
-	[394] = {
+	[452] = {
 		type = 1,
 		trans_skin = 0,
 		trans_type = 0,
@@ -14769,6 +14727,37 @@ pg.ship_data_group = {
 		nationality = 9,
 		hide = 0,
 		index_id = 364,
+		group_type = 90102,
+		code = 452,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트：어둠 속의 귀로",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[394] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 9,
+		hide = 0,
+		index_id = 365,
 		group_type = 90111,
 		code = 394,
 		property_hexagon = {
@@ -14799,7 +14788,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 365,
+		index_id = 366,
 		group_type = 90401,
 		code = 352,
 		property_hexagon = {
@@ -14830,7 +14819,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 366,
+		index_id = 367,
 		group_type = 90501,
 		code = 353,
 		property_hexagon = {
@@ -14861,7 +14850,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 367,
+		index_id = 368,
 		group_type = 90503,
 		code = 418,
 		property_hexagon = {
@@ -16429,6 +16418,7 @@ pg.ship_data_group = {
 		349,
 		350,
 		351,
+		452,
 		394,
 		352,
 		353,

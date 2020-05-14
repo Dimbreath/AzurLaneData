@@ -49,7 +49,7 @@ return {
 			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 0,
 			actorName = "모두",
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -111,7 +111,7 @@ return {
 			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 0,
 			actorName = "모두",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = -1,
@@ -146,7 +146,7 @@ return {
 			say = "전골에 사탕을 넣어서는 안 된답니다……",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
@@ -164,11 +164,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301330,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "무, 무츠키?! 겨울옷 입으라며…?",
 			typewriter = {
@@ -184,7 +184,7 @@ return {
 			say = "응? 아…까, 깜빡했다!",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 301320,
 			actorName = "{namecode:33}",
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -222,9 +222,9 @@ return {
 			say = "우으…무츠키를 믿었는데…무츠키 바아아보!!",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301330,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,

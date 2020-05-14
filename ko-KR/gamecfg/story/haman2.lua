@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=45>二 不高兴的理由·上</size>",
+					"허먼 관찰일기\n\n<size=45>2. 기쁘지 않은 이유·상</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "被哈曼赶出指挥室一分钟后——",
+			say = "허먼에게 지휘실에서 쫓겨난지 1분 뒤——",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -32,7 +32,7 @@ return {
 			},
 			options = {
 				{
-					content = "从窗外看看哈曼怎么样了。",
+					content = "창 밖으로 허먼이 어떻게 하는지 보자.",
 					flag = 1
 				}
 			}
@@ -42,7 +42,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101250,
-			say = "那个大笨蛋！难得哈曼开口说要帮他，居然说什么“太努力过头了不好啊—”！？",
+			say = "그 바보! 허먼이 모처럼 도와준다고 했는데 '너무 무리해도 좋지 않아'라니?!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "工作忙的话让秘书舰帮忙不是再正常不过的吗！？",
+			say = "일이 바쁘면 비서함이 도와주는게 당연한 거 아니야?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……下次演习视察的时间是……下午4点……还有两个小时！？",
+			say = "……다음 연습 시찰 시간은…… 오후 4시…… 2시간 남았잖아?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……呜呃……",
+			say = "……우우……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			},
 			options = {
 				{
-					content = "啊，呆住了",
+					content = "아, 멍 때린다",
 					flag = 1
 				}
 			}
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哼，哼哒！都怪指挥官处理文件太慢了啦！",
+			say = "흥, 흥! 전부 지휘관이 문서를 늦게 처리해서야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……今天要处理的是……这堆全是！？",
+			say = "……오늘 처리해야하는 건…… 이거 전부?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…文件时间是…一早上就有这么多！？",
+			say = "…시간은… 아침부터 이렇게나 많이?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "所，所以才说资料明天也行……",
+			say = "그, 그래서 자료는 내일이라고 한 거구나……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…………呜呃………………",
+			say = "…………우우………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			},
 			options = {
 				{
-					content = "啊，又定住了",
+					content = "아, 또 멈췄다",
 					flag = 1
 				}
 			}
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "还，还是挺努力的嘛……不愧是哈曼的指挥官……",
+			say = "힘, 힘냈구나…… 역시 허먼의 지휘관이야……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然有时候会做出下流的举动，但是对大家都很温柔……",
+			say = "가끔은 저질스럽긴 하지만 그래도 모두에게는 상냥하니까……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "而且明明在战场上表现得那么帅气，为什么对哈曼就……",
+			say = "게다가 전장에서는 그렇게 멋있으면서 왜 허먼에게는……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊!",
+			say = "아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 101250,
-			say = "哈曼为什么把指挥官赶出去了啊！！",
+			say = "왜 지휘관을 쫓아낸 거지!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

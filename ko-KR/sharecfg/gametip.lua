@@ -8006,22 +8006,18 @@ B평가:<color=#92fc63>70</color>점
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 2,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -8878,7 +8874,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "토사, 아마기 등 캐릭터 건조 확률 UP! ",
+		tip = "타르투 출현확률UP! ",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {

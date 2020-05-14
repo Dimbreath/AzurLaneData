@@ -921,7 +921,7 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 80,
+							monsterTemplateID = 13100601,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {

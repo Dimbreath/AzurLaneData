@@ -265,7 +265,8 @@ return {
 					waveIndex = 206,
 					conditionType = 0,
 					preWaves = {
-						501
+						501,
+						503
 					},
 					triggerParams = {
 						timeout = 0.5

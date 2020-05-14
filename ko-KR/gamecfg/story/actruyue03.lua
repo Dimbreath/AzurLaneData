@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = -1,
@@ -66,7 +66,7 @@ return {
 			say = "다녀오셨습니까…",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 			say = "히류도 왔어?",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 307030,
 			actorName = "{namecode:93}",
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -176,7 +176,7 @@ return {
 			say = "기, 기다려…하아…하아…유다치, 너무 빨라……",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 301130,
 			actorName = "{namecode:15}",
@@ -194,7 +194,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301330,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "하아…하아……역시 더워요…키사라기도 왔, 왔어요……",
 			typewriter = {
@@ -231,7 +231,7 @@ return {
 			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 0,
 			actorName = "모두",
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301330,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "……흐에?",
 			typewriter = {
@@ -273,7 +273,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -293,7 +293,7 @@ return {
 			say = "전골 대회에 그런 모습은…우왓…생각만 해도 더워지는구먼……",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 301170,
 			actorName = "{namecode:19}",
@@ -311,11 +311,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301330,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "겨, 겨울의 '전골 대회' 는, 겨울옷을 입는 게 좋다고 그래서……",
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			say = "그런 말은 대체 어디서……",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 301330,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "무, 무츠키가……",
 			typewriter = {

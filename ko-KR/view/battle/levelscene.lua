@@ -1250,6 +1250,13 @@ function slot0.setMap(slot0, slot1)
 		PlayerPrefs.Save()
 	end
 
+	if slot0.contextData.map:isRemaster() then
+		PlayerPrefs.SetInt("remaster_lastmap_" .. slot0.contextData.map.remasterId, slot1)
+		PlayerPrefs.Save()
+	end
+
+	slot2 = getProxy(ChapterProxy):IsChapterInRemaster(chapterID)
+
 	slot0:updateBattleActivity(slot1)
 	slot0:updateMap()
 	slot0:tryPlayMapStory()
@@ -2189,7 +2196,7 @@ function slot0.displayRemasterPanel(slot0, slot1)
 	slot0.levelRemasterView:Load()
 	slot0.levelRemasterView:ActionInvoke("set", slot3, slot2.remasterTickets, slot1)
 	slot0.levelRemasterView:ActionInvoke("setCBFunc", function (slot0)
-		uv0:setMap(pg.chapter_template[slot0.config_data[1]].map)
+		uv0:setMap(PlayerPrefs.HasKey("remaster_lastmap_" .. slot0.id) and PlayerPrefs.GetInt("remaster_lastmap_" .. slot0.id) or pg.chapter_template[slot0.config_data[1]].map)
 		uv0:hideRemasterPanel()
 	end, function ()
 		uv0:hideRemasterPanel()

@@ -495,6 +495,14 @@ slot1 = {
 	[ActivityConst.LITTLE_RENOWN_PAGE] = {
 		className = "LittleRenownPage",
 		uiName = "LittleRenownPage"
+	},
+	[ActivityConst.TWXIAOBEIFA_ID] = {
+		className = "XiaobeiFaPage",
+		uiName = "XiaobeiFaPage"
+	},
+	[ActivityConst.FRANCE_SP] = {
+		className = "FranceSpPage",
+		uiName = "FranceSpPage"
 	}
 }
 slot2 = {

@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=45>三 不高兴的理由·中</size>",
+					"허먼 관찰일기\n\n<size=45>3. 기쁘지 않은 이유·중</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "被哈曼赶出指挥室后过了一会儿……",
+			say = "허먼에게 지휘실에서 쫓겨난지 조금 뒤……",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -28,7 +28,7 @@ return {
 			},
 			options = {
 				{
-					content = "吃着外卖继续观察哈曼",
+					content = "배달 음식을 먹으면서 계속 허먼을 관찰한다",
 					flag = 1
 				}
 			}
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101250,
-			say = "总，总之先打扫一下指挥室吧……",
+			say = "일, 일단 지휘실 청소를 하고……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "五分钟后——",
+			say = "5분 뒤——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101250,
-			say = "怎，怎么办…要是被指挥官嫌弃了…哈曼就…",
+			say = "어, 어떡하지… 만약 지휘관에게 버림받으면… 허먼은…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不会的，现在还不会，只要去找指挥官道个歉……可我又不知道他现在去哪了……",
+			say = "아냐, 아직은 괜찮아. 지휘관을 찾아서 사과를 하면…… 하지만 지금 어디에 있는지 모르는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "对了，去问问正在用演习海域的列克星敦姐姐…",
+			say = "맞아, 연습 해역에 있는 렉싱턴 언니에게 물어보면…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不行不行不行！我得预习一下要是在路上碰到指挥官了该怎么办…！",
+			say = "안돼안돼안돼! 가는 길에 지휘관을 만나면 어떡해…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哈曼啪啪的拍了拍脸，振作精神。",
+			say = "허먼은 자기 얼굴을 톡톡 두드리더니 정신을 차렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指，指指，指挥官！把，把你赶出去对不起啦！",
+			say = "지, 지지, 지휘관! 쫓, 쫓아낸 건 미안했어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "别在这里摸鱼了！快回指挥室去！",
+			say = "여기서 농땡이 피우지 마! 얼른 지휘실로 돌아가!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊不行！这么说的话指挥官又要消沉了…！",
+			say = "안 돼! 이렇게 말하면 지휘관이 화날지도 몰라…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哈曼抱着脑袋，十分苦恼的样子。",
+			say = "머리를 싸맨 허먼은 꽤나 괴로운 것 같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊啊不管了！就用萨拉托加上次告诉我的办法……",
+			say = "아아, 몰라! 새러토가가 알려준 방법을 쓰자……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "“不好意思啦指挥官♪哈曼刚才呀，犯了个小错误呢☆”",
+			say = "“미안해, 지휘관. 허먼이 방금 전에 작은 실수를 했지 뭐야☆”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "“哈曼会为了指挥官更~努力的，所以你就原谅哈曼嘛(>_<)”",
+			say = "“다 지휘관을 위한 거였으니까 용서해줄 거지(>_<)”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（开门）",
+			say = "(문이 열린다)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哈曼♪我来找你玩了~",
+			say = "허먼♪ 놀러왔어~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "诶？",
+			say = "에?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "诶？",
+			say = "에?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 101250,
-			say = "啊啊啊啊啊啊啊！！！！",
+			say = "으아아아아아!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
