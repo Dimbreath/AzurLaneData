@@ -406,12 +406,12 @@ function slot0.fireBlocks(slot0)
 				if uv0 == uv1.TYPE_A then
 					uv1:removeUsingBlock(uv2)
 					uv1:showBucketAEffect()
-					pg.CriMgr.GetInstance():PlaySE("ui-minigame_hitcake")
+					pg.CriMgr.GetInstance():PlaySE_V3("ui-minigame_hitcake")
 				elseif uv0 == uv1.TYPE_B then
 					setActive(uv1["cut" .. uv3], true)
 					uv1["cut" .. uv3 .. "Animator"]:Play("cut_fruit", -1, 0)
 					uv1:removeUsingBlock(uv2)
-					pg.CriMgr.GetInstance():PlaySE("ui-minigame_sword")
+					pg.CriMgr.GetInstance():PlaySE_V3("ui-minigame_sword")
 				elseif uv0 == uv1.TYPE_C then
 					uv1:msClearHold()
 					uv1:msHoldBlock(uv2)
@@ -426,7 +426,7 @@ function slot0.fireBlocks(slot0)
 			end)
 		end
 
-		pg.CriMgr.GetInstance():PlaySE("ui-minigame_hitwood")
+		pg.CriMgr.GetInstance():PlaySE_V3("ui-minigame_hitwood")
 		uv1:countScore(uv2)
 	end)
 	slot0:managedTween(LeanTween.delayedCall, function ()

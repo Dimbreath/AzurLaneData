@@ -34,48 +34,48 @@ end
 
 function slot0.update(slot0, slot1, slot2, slot3, slot4)
 	slot0.goodsVO = slot1
-	slot5, slot6 = slot0.goodsVO:canPurchase()
+	slot5 = slot0.goodsVO:canPurchase()
 
 	setActive(slot0.mask, not slot5)
 	setActive(slot0.selloutTag, not slot5)
 
-	slot7 = slot1:getConfig("commodity_type")
+	slot6 = slot1:getConfig("commodity_type")
 
 	updateDrop(slot0.itemTF, {
-		type = slot7,
+		type = slot6,
 		id = slot1:getConfig("commodity_id"),
 		count = slot1:getConfig("num")
 	})
 
 	slot0.countTF.text = slot1:getConfig("resource_num")
 
-	if string.match(slot7 == DROP_TYPE_SKIN and (pg.ship_skin_template[slot8].name or "??") or slot9.cfg.name or "??", "(%d+)") then
+	if string.match(slot6 == DROP_TYPE_SKIN and (pg.ship_skin_template[slot7].name or "??") or slot8.cfg.name or "??", "(%d+)") then
 		setText(slot0.nameTxt, shortenString("", 5))
 	else
-		setText(slot0.nameTxt, shortenString(slot10, 6))
+		setText(slot0.nameTxt, shortenString(slot9, 6))
 	end
 
-	slot11 = nil
+	slot10 = nil
 
 	if slot1:getConfig("resource_category") == DROP_TYPE_RESOURCE then
-		slot11 = GetSpriteFromAtlas(pg.item_data_statistics[id2ItemId(slot1:getConfig("resource_type"))].icon, "")
-	elseif slot12 == DROP_TYPE_ITEM then
-		slot11 = GetSpriteFromAtlas(pg.item_data_statistics[slot1:getConfig("resource_type")].icon, "")
+		slot10 = GetSpriteFromAtlas(pg.item_data_statistics[id2ItemId(slot1:getConfig("resource_type"))].icon, "")
+	elseif slot11 == DROP_TYPE_ITEM then
+		slot10 = GetSpriteFromAtlas(pg.item_data_statistics[slot1:getConfig("resource_type")].icon, "")
 	end
 
-	slot0.resIconTF.sprite = slot11
+	slot0.resIconTF.sprite = slot10
 
 	if slot1:getConfig("num_limit") == 0 then
 		slot0.limitCountTF.text = i18n("common_no_limit")
-	elseif slot7 == DROP_TYPE_SKIN and not slot5 then
+	elseif slot6 == DROP_TYPE_SKIN and not slot5 then
 		slot0.limitCountTF.text = "0/" .. slot1:getConfig("num_limit")
 	else
-		slot0.limitCountTF.text = slot13 - slot1.buyCount .. "/" .. slot13
+		slot0.limitCountTF.text = slot12 - slot1.buyCount .. "/" .. slot12
 	end
 
-	slot13 = uv0.Color[slot2] or uv0.DefaultColor
-	slot0.limitCountTF.color = slot3 or Color.New(slot13[1], slot13[2], slot13[3], 1)
-	slot0.limitCountLabelTF.color = slot3 or Color.New(slot13[1], slot13[2], slot13[3], 1)
+	slot12 = uv0.Color[slot2] or uv0.DefaultColor
+	slot0.limitCountTF.color = slot3 or Color.New(unpack(slot12))
+	slot0.limitCountLabelTF.color = slot3 or Color.New(unpack(slot12))
 
 	if GetComponent(slot0.limitCountTF, typeof(Outline)) then
 		setOutlineColor(slot0.limitCountTF, slot4 or Color.New(0, 0, 0, 1))

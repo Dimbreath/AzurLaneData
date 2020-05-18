@@ -37,8 +37,6 @@ function slot0.initRivalInfo(slot0)
 	setActive(findTF(slot0._tf, "info/medal"), slot0.rivalVO.rank ~= nil)
 	setActive(findTF(slot0._tf, "info/medal/Text"), slot0.rivalVO.rank ~= nil)
 
-	slot0._nameTxts = {}
-
 	if slot0.rivalVO.rank then
 		setText(findTF(slot0._tf, "info/rank/container/value"), slot0.rivalVO.rank)
 
@@ -61,10 +59,7 @@ function slot0.initRivalInfo(slot0)
 
 	function slot1(slot0, slot1)
 		flushShipCard(slot0, slot1)
-
-		uv0._nameTxts[slot0] = defaultValue(uv0._nameTxts[slot0], ScrollTxt.New(findTF(slot0, "content/info/name_mask"), findTF(slot0, "content/info/name_mask/name")))
-
-		uv0._nameTxts[slot0]:setText(slot1:getName())
+		setScrollText(findTF(slot0, "content/info/name_mask/name"), slot1:getName())
 	end
 
 	for slot8 = 1, 3 do
@@ -100,15 +95,7 @@ function slot0.initRivalInfo(slot0)
 end
 
 function slot0.willExit(slot0)
-	slot4 = pg.UIMgr.GetInstance().UIMain
-
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot4)
-
-	for slot4, slot5 in pairs(slot0._nameTxts) do
-		slot5:destroy()
-	end
-
-	slot0._nameTxts = nil
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 end
 
 return slot0

@@ -47906,7 +47906,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "笨蛋指挥官，{namecode:17}大人才不是什么潜水舰！想被酸素鱼雷敲头吗！",
+		desc = "笨蛋指挥官，{namecode:17}大人才不是什么潜艇！想被酸素鱼雷敲头吗！",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "shiyu_2",
@@ -57055,7 +57055,7 @@ pg.ship_skin_template = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "104",
-		skin_type = 0,
+		skin_type = 4,
 		id = 301831,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -67150,7 +67150,7 @@ pg.ship_skin_template = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "106",
-		skin_type = 0,
+		skin_type = 4,
 		id = 305081,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -71351,7 +71351,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "巡潜乙型潜水舰伊19",
+		desc = "巡潜乙型潜艇伊19",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I19",
@@ -71541,7 +71541,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "巡潜乙型潜水舰伊26",
+		desc = "巡潜乙型潜艇伊26",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I26",
@@ -71827,7 +71827,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "巡潜乙型改二型潜水舰伊58",
+		desc = "巡潜乙型改二型潜艇伊58",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I58",
@@ -71921,7 +71921,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "巡潜乙型潜水舰伊25",
+		desc = "巡潜乙型潜艇伊25",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I25",
@@ -72111,7 +72111,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "巡潜乙型改二型潜水舰伊56",
+		desc = "巡潜乙型改二型潜艇伊56",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I56",
@@ -72301,7 +72301,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "海大VI型a型潜水舰伊168",
+		desc = "海大VI型a型潜艇伊168",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I168",
@@ -73063,7 +73063,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "巡潜甲型改二型潜水舰伊13",
+		desc = "巡潜甲型改二型潜艇伊13",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I13",
@@ -74597,6 +74597,114 @@ pg.ship_skin_template = {
 				{
 					1.005,
 					0.804,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.473,
+							2.485,
+							-0.38
+						}
+					}
+				}
+			}
+		}
+	},
+	[401235] = {
+		ship_group = 40123,
+		name = "新设基地・茶店体验",
+		bg_sp = "",
+		group_index = 5,
+		illustrator2 = -1,
+		desc = "欢迎光临！一名客人…指挥官？！啊，唔，这个是重樱的喫茶店服务生体验活动…所以才换上这身…你觉得…怎么样？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "z23_8",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 4,
+		id = 401235,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "z23_8",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 3,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.14,
+					1.176,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.163,
+					1.133,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.008,
+					0.016,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.189,
+					1.146,
 					0
 				}
 			}
@@ -87320,6 +87428,116 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[801031] = {
+		ship_group = 80103,
+		name = "盛夏Festival！",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "指挥官，我换好泳装啦！嘿嘿，夏日的海滩，要尽全力去享受才行呢！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "lumang_2",
+		air_bullet_skin = "",
+		shop_type_id = 6,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "106",
+		skin_type = 0,
+		id = 801031,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lumang_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70350,
+		voice_actor = 158,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.355,
+					1.216,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.342,
+					1.18,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.002,
+					0.003,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.434,
+					1.16,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[801040] = {
 		ship_group = 80104,
 		name = "倔强",
@@ -88673,7 +88891,7 @@ pg.ship_skin_template = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "106",
-		skin_type = 0,
+		skin_type = 4,
 		id = 901021,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -109362,7 +109580,8 @@ pg.ship_skin_template = {
 			801041
 		},
 		[80103] = {
-			801030
+			801030,
+			801031
 		},
 		[80102] = {
 			801020,
@@ -109581,6 +109800,7 @@ pg.ship_skin_template = {
 			401231,
 			401233,
 			401234,
+			401235,
 			401236,
 			401239
 		},
@@ -111568,6 +111788,7 @@ pg.ship_skin_template = {
 		401231,
 		401233,
 		401234,
+		401235,
 		401236,
 		401239,
 		401250,
@@ -111683,6 +111904,7 @@ pg.ship_skin_template = {
 		801022,
 		801029,
 		801030,
+		801031,
 		801040,
 		801041,
 		802010,

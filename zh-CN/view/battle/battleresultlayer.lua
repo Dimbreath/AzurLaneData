@@ -513,17 +513,16 @@ function slot0.displayShips(slot0)
 				slot33, slot34, slot35 = nil
 
 				if slot0.contextData.score > 1 then
-					slot33, slot35, slot34 = ShipWordHelper.GetWordAndCV(slot0.mvpShipVO.skinId, ShipWordHelper.WORD_TYPE_MVP)
+					slot33, slot35, slot34 = ShipWordHelper.GetWordAndCV(slot0.mvpShipVO.skinId, ShipWordHelper.WORD_TYPE_MVP, nil, , slot0.mvpShipVO:getCVIntimacy())
 				else
 					slot33, slot35, slot34 = ShipWordHelper.GetWordAndCV(slot0.mvpShipVO.skinId, ShipWordHelper.WORD_TYPE_LOSE)
 				end
 
 				if slot35 then
-					if slot0._currentVoice then
-						slot0._currentVoice:Stop(true)
-					end
-
-					slot0._currentVoice = playSoundEffect(slot35)
+					slot0:stopVoice()
+					pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot35, function (slot0)
+						uv0._currentVoice = slot0
+					end)
 				end
 			end
 
@@ -585,6 +584,14 @@ function slot0.displayShips(slot0)
 
 			uv0:skip()
 		end)
+	end
+end
+
+function slot0.stopVoice(slot0)
+	if slot0._currentVoice then
+		slot0._currentVoice:PlaybackStop()
+
+		slot0._currentVoice = nil
 	end
 end
 
@@ -892,12 +899,7 @@ function slot0.willExit(slot0)
 	end
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
-
-	if slot0._currentVoice then
-		slot0._currentVoice:Stop(true)
-	end
-
-	slot0._currentVoice = nil
+	slot0:stopVoice()
 end
 
 return slot0
