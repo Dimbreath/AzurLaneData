@@ -2,15 +2,7 @@ return {
 	{
 		Tip = "tip_1920",
 		Image = "event_all",
-		ButtonName = "activityButton",
-		UpdateButton = function (slot0, slot1)
-			setActive(slot1, true)
-			onButton(slot0, slot1, function ()
-				uv0:emit(MainUIMediator.GO_SCENE, {
-					SCENE.ACTIVITY
-				})
-			end, SFX_PANEL)
-		end
+		ButtonName = "activityButton"
 	},
 	{
 		Image = "event_map",

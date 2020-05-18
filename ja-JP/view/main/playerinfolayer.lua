@@ -324,7 +324,7 @@ function slot0.onBackPressed(slot0)
 	if slot0.isOpenChangeNamePanel then
 		slot0:closeChangePlayerNamePanel()
 	else
-		playSoundEffect(SFX_CANCEL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		triggerButton(slot0.backBtn)
 	end
 end
@@ -784,7 +784,7 @@ function slot0.attachOnCardButton(slot0, slot1)
 	slot2:AddPointClickFunc(function (slot0, slot1)
 		if not uv0.carddrag and slot0 == uv1.go then
 			uv0:emit(PlayerInfoMediator.CHANGE_PAINT, uv1.shipVO)
-			playSoundEffect(SFX_PANEL)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
 		end
 	end)
 

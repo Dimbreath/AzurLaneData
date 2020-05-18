@@ -1355,7 +1355,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30507] = {
 		shiptype = 5,
-		name = "紀伊级",
+		name = "紀伊級",
 		t_level = 8,
 		id = 30507,
 		t_level_1 = 98,
@@ -1411,7 +1411,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30605] = {
 		shiptype = 6,
-		name = "瑞鳳级",
+		name = "瑞鳳級",
 		t_level = 4,
 		id = 30605,
 		t_level_1 = 102,
@@ -1821,7 +1821,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60302] = {
 		shiptype = 3,
-		name = "トレント级",
+		name = "トレント級",
 		t_level = 5,
 		id = 60302,
 		t_level_1 = 133,

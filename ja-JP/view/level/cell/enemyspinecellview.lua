@@ -45,7 +45,7 @@ function slot0.Update(slot0)
 		setActive(findTF(slot0.tf, slot1.attachment == ChapterConst.AttachBoss and "effect_found_boss" or "effect_found"), slot1.trait == ChapterConst.TraitVirgin)
 
 		if slot1.trait == ChapterConst.TraitVirgin then
-			playSoundEffect(SFX_UI_WEIGHANCHOR_ENEMY)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)
 		end
 
 		setActive(findTF(slot0.tf, "fighting"), slot0.chapter:existFleet(FleetType.Normal, slot3, slot4))

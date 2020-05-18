@@ -65,8 +65,6 @@ function slot0.init(slot0)
 	setActive(slot0.bonusWindow, false)
 
 	slot0.topPanel = slot0:findTF("top")
-	slot0.nameTxts = {}
-	slot0.nameTxtsN = {}
 end
 
 function slot0.didEnter(slot0)
@@ -271,7 +269,7 @@ function slot0.showBonus(slot0, slot1, slot2)
 	slot0.dropList = UIItemList.New(slot0.trDrops, slot0.trDropTpl)
 
 	slot0.dropList:make(function (slot0, slot1, slot2)
-		uv0:updateDrop(slot0, slot1, slot2, uv0.nameTxts, uv0.awardMain)
+		uv0:updateDrop(slot0, slot1, slot2, uv0.awardMain)
 	end)
 	slot0.dropList:align(#slot0.awardMain)
 
@@ -279,45 +277,24 @@ function slot0.showBonus(slot0, slot1, slot2)
 	slot0.dropListN = UIItemList.New(slot0.trDropsN, slot0.trDropTpl)
 
 	slot0.dropListN:make(function (slot0, slot1, slot2)
-		uv0:updateDrop(slot0, slot1, slot2, uv0.nameTxtsN, uv0.awardNormal)
+		uv0:updateDrop(slot0, slot1, slot2, uv0.awardNormal)
 	end)
 	slot0.dropListN:align(#slot0.awardNormal)
 end
 
-function slot0.updateDrop(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot0.updateDrop(slot0, slot1, slot2, slot3, slot4)
 	if slot1 == UIItemList.EventUpdate then
-		slot6 = slot5[slot2 + 1]
+		slot5 = slot4[slot2 + 1]
 
-		updateDrop(slot3, slot6)
-		setText(slot3:Find("count"), slot6.surplus .. "/" .. slot6.total)
-		setActive(slot3:Find("mask"), slot6.surplus <= 0)
-
-		if not slot4[slot2] then
-			slot4[slot2] = ScrollTxt.New(findTF(slot3, "name_mask"), findTF(slot3, "name_mask/name"), true)
-		end
-
-		slot7:setText(slot6.name or slot6.cfg.name)
-	end
-end
-
-function slot0.clearAllNameTxt(slot0, slot1)
-	if not slot1 then
-		return
-	end
-
-	for slot5 = #slot1, 1, -1 do
-		if slot1[slot5] then
-			slot1[slot5]:destroy()
-			table.remove(slot1, slot5)
-		end
+		updateDrop(slot3, slot5)
+		setText(slot3:Find("count"), slot5.surplus .. "/" .. slot5.total)
+		setActive(slot3:Find("mask"), slot5.surplus <= 0)
+		setScrollText(findTF(slot3, "name_mask/name"), slot5.name or slot5.cfg.name)
 	end
 end
 
 function slot0.willExit(slot0)
 	slot0.bgs = nil
-
-	slot0:clearAllNameTxt(slot0.nameTxts)
-	slot0:clearAllNameTxt(slot0.nameTxtsN)
 end
 
 return slot0

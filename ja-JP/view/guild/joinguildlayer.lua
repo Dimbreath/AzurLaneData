@@ -401,7 +401,7 @@ function slot0.onBackPressed(slot0)
 	elseif slot0.isShowApply then
 		slot0:closeApply()
 	else
-		playSoundEffect(SFX_CANCEL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		slot0:emit(uv0.ON_CLOSE)
 	end
 end

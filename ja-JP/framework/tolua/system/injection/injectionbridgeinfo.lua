@@ -7,19 +7,60 @@ return {
 	},
 	AiriJPSdkMgr = {
 		get_isPlatform = 3071,
-		GoLoginScene = 3073,
+		get_channelUID = 8087,
 		set_isPlatform = 3072,
+		GoLoginScene = 3073,
+		callSdkApi = 8088,
 		get_inst = 3069,
 		get_loginType = 3070
 	},
 	AiriJPSdkMgrWrap = {
-		get_isPlatform = 497,
-		_CreateAiriJPSdkMgr = 493,
-		Register = 492,
+		get_channelUID = 7622,
+		get_IOS_CHANNEL_ID = 7620,
 		GoLoginScene = 494,
-		set_isPlatform = 498,
+		get_ANDROID_AU_CHANNEL_ID = 7621,
+		callSdkApi = 7618,
+		get_ANDROID_CHANNEL_ID = 7619,
 		get_inst = 495,
-		get_loginType = 496
+		get_loginType = 496,
+		get_isPlatform = 497,
+		Register = 492,
+		set_isPlatform = 498,
+		_CreateAiriJPSdkMgr = 493
+	},
+	["Airisdk.webrequest.HttpWebMananger"] = {
+		CreatePostHttpResponse = 8082,
+		RespCallback = 8083,
+		CheckValidationResult = 8081
+	},
+	["Airisdk.webrequest.RequestState"] = {
+		get_request = 8079,
+		get_onRespone = 8080
+	},
+	AiriUserEvent = {
+		AddParam = 8089
+	},
+	AiriUSSdkMgr = {
+		get_isPlatform = 8092,
+		get_channelUID = 8094,
+		set_isPlatform = 8093,
+		GoLoginScene = 8095,
+		callSdkApi = 8096,
+		get_inst = 8090,
+		get_loginType = 8091
+	},
+	AiriUSSdkMgrWrap = {
+		get_channelUID = 7632,
+		get_IOS_CHANNEL_ID = 7628,
+		Register = 7623,
+		GoLoginScene = 7625,
+		callSdkApi = 7626,
+		get_ANDROID_CHANNEL_ID = 7627,
+		get_inst = 7629,
+		get_loginType = 7630,
+		get_isPlatform = 7631,
+		set_isPlatform = 7633,
+		_CreateAiriUSSdkMgr = 7624
 	},
 	AlDelay = {
 		NcEffectReset = 955,
@@ -27,6 +68,20 @@ return {
 		Start = 952,
 		DelayFunc = 954,
 		get_CacheGameObject = 956
+	},
+	AliOSSMgr = {
+		UpdateLoad = 8062,
+		UpdateLoadAsyn = 8063,
+		get_ins = 8060,
+		Init = 8061
+	},
+	AliOSSMgrWrap = {
+		UpdateLoadAsyn = 7638,
+		get_ins = 7639,
+		Register = 7634,
+		_CreateAliOSSMgr = 7635,
+		UpdateLoad = 7637,
+		Init = 7636
 	},
 	AlphaCheck = {
 		OnEnable = 3135
@@ -48,10 +103,4369 @@ return {
 		Raycast = 3141,
 		OnEnable = 3140
 	},
+	["Amazon.AWSConfigs"] = {
+		get_ProxyConfig = 3975,
+		OnPropertyChanged = 3978,
+		get_AWSProfilesLocation = 3961,
+		GetLoggingSetting = 3965,
+		LoadConfigFromResource = 3950,
+		set_UseSdkCache = 3973,
+		get_LoggingConfig = 3974,
+		set_ApplicationName = 3944,
+		get_AWSRegion = 3957,
+		get_UseSdkCache = 3972,
+		set_AWSProfileName = 3960,
+		set_AWSRegion = 3958,
+		set_RegionEndpoint = 3977,
+		set_ClockOffset = 3956,
+		set_ResponseLogging = 3967,
+		get_ResponseLogging = 3966,
+		GetConfig = 3945,
+		XmlSectionExists = 3946,
+		AddTraceListener = 3947,
+		GetUnresolvedElements = 3952,
+		set_LogMetrics = 3969,
+		set_EndpointDefinition = 3971,
+		get_Logging = 3963,
+		get_AWSProfileName = 3959,
+		TraceListeners = 3949,
+		set_CorrectForClockSkew = 3954,
+		get_LogMetrics = 3968,
+		get_CorrectForClockSkew = 3953,
+		RemoveTraceListener = 3948,
+		get_EndpointDefinition = 3970,
+		GetConfigBool = 3979,
+		get_ApplicationName = 3943,
+		set_AWSProfilesLocation = 3962,
+		get_ClockOffset = 3955,
+		set_Logging = 3964,
+		get_RegionEndpoint = 3976,
+		GetObject = 3951
+	},
+	["Amazon.AWSConfigsS3"] = {
+		get_UseSignatureVersion4 = 5679,
+		set_UseSignatureVersion4 = 5680,
+		Configure = 5681
+	},
+	["Amazon.AWSSection"] = {
+		set_EndpointDefinition = 4001,
+		get_UseSdkCache = 4004,
+		get_Region = 4002,
+		set_ProfileName = 4011,
+		set_CorrectForClockSkew = 4007,
+		set_ServiceSections = 4017,
+		set_Proxy = 4009,
+		set_ApplicationName = 4015,
+		get_CorrectForClockSkew = 4006,
+		get_ServiceSections = 4016,
+		get_ProfileName = 4010,
+		set_UseSdkCache = 4005,
+		get_Proxy = 4008,
+		get_EndpointDefinition = 4000,
+		get_ApplicationName = 4014,
+		get_ProfilesLocation = 4012,
+		set_Logging = 3999,
+		set_ProfilesLocation = 4013,
+		get_Logging = 3998,
+		set_Region = 4003
+	},
+	["Amazon.LoggingSection"] = {
+		set_LogMetrics = 4033,
+		get_LogResponsesSizeLimit = 4030,
+		get_LogTo = 4026,
+		get_LogMetricsFormat = 4034,
+		get_LogMetrics = 4032,
+		set_LogTo = 4027,
+		set_LogResponses = 4029,
+		set_LogMetricsFormat = 4035,
+		get_LogMetricsCustomFormatter = 4036,
+		get_LogResponses = 4028,
+		set_LogMetricsCustomFormatter = 4037,
+		set_LogResponsesSizeLimit = 4031
+	},
+	["Amazon.ProxySection"] = {
+		set_Password = 4025,
+		set_Host = 4019,
+		get_Host = 4018,
+		set_Port = 4021,
+		get_Password = 4024,
+		get_Username = 4022,
+		set_Username = 4023,
+		get_Port = 4020
+	},
+	["Amazon.RegionEndpoint"] = {
+		set_SystemName = 5378,
+		get_EnumerableAllRegions = 5371,
+		GetEndpointForService = 5368,
+		get_SystemName = 5377,
+		GetBySystemName = 5372,
+		LoadEndpointDefinitionsFromEmbeddedResource = 5375,
+		LoadEndpointDefinitions = 5373,
+		ReadEndpointFile = 5374,
+		set_DisplayName = 5380,
+		ToString = 5381,
+		NewEndpoint = 5370,
+		GetEndpointRule = 5369,
+		get_DisplayName = 5379,
+		UnloadEndpointDefinitions = 5376
+	},
+	["Amazon.RegionEndpoint.Endpoint"] = {
+		set_AuthRegion = 5364,
+		ToString = 5365,
+		set_Hostname = 5362,
+		get_AuthRegion = 5363,
+		get_SignatureVersionOverride = 5366,
+		get_Hostname = 5361,
+		set_SignatureVersionOverride = 5367
+	},
+	["Amazon.Runtime.AmazonServiceClient"] = {
+		get_SupportResponseLogging = 4105,
+		Dispose_bool = 4114,
+		CloneConfig = 4120,
+		ComposeUrl = 4118,
+		CustomizeRuntimePipeline = 4116,
+		set_Config = 4103,
+		set_Credentials = 4101,
+		ThrowIfDisposed = 4115,
+		set_RuntimePipeline = 4099,
+		ProcessPreRequestHandlers = 4109,
+		get_Config = 4102,
+		ProcessExceptionHandlers = 4112,
+		DontUnescapePathDotsAndSlashes = 4119,
+		get_Signer = 4106,
+		get_Credentials = 4100,
+		get_RuntimePipeline = 4098,
+		get_Logger = 4104,
+		ProcessResponseHandlers = 4111,
+		Initialize = 4108,
+		ProcessRequestHandlers = 4110,
+		Dispose = 4113,
+		set_Signer = 4107,
+		BuildRuntimePipeline = 4117
+	},
+	["Amazon.Runtime.AmazonServiceException"] = {
+		set_RequestId = 4127,
+		set_StatusCode = 4129,
+		get_ErrorType = 4122,
+		get_RequestId = 4126,
+		set_ErrorType = 4123,
+		BuildGenericErrorMessage = 4121,
+		get_ErrorCode = 4124,
+		get_StatusCode = 4128,
+		set_ErrorCode = 4125
+	},
+	["Amazon.Runtime.AmazonUnityServiceClient"] = {
+		CustomizeRuntimePipeline = 3992,
+		BuildRuntimePipeline = 3993
+	},
+	["Amazon.Runtime.AmazonUnmarshallingException"] = {
+		get_LastKnownLocation = 4130,
+		get_ResponseBody = 4132,
+		get_Message = 4134,
+		AppendFormat = 4135,
+		set_LastKnownLocation = 4131,
+		set_ResponseBody = 4133
+	},
+	["Amazon.Runtime.AmazonWebServiceRequest"] = {
+		FireBeforeRequestEvent = 4141,
+		get_IncludeSHA256Header = 4146,
+		GetExpect100Continue = 4145,
+		GetIncludeSHA256Header = 4147,
+		["Amazon.Runtime.Internal.IAmazonWebServiceRequest.get_UseSigV4"] = 4142,
+		["Amazon.Runtime.Internal.IAmazonWebServiceRequest.set_StreamUploadProgressCallback"] = 4137,
+		["Amazon.Runtime.Internal.IAmazonWebServiceRequest.get_RequestState"] = 4138,
+		["Amazon.Runtime.Internal.IAmazonWebServiceRequest.set_UseSigV4"] = 4143,
+		["Amazon.Runtime.Internal.IAmazonWebServiceRequest.AddBeforeRequestHandler"] = 4139,
+		["Amazon.Runtime.Internal.IAmazonWebServiceRequest.get_StreamUploadProgressCallback"] = 4136,
+		get_Expect100Continue = 4144,
+		["Amazon.Runtime.Internal.IAmazonWebServiceRequest.RemoveBeforeRequestHandler"] = 4140
+	},
+	["Amazon.Runtime.AmazonWebServiceResponse"] = {
+		get_HttpStatusCode = 4152,
+		set_ContentLength = 4151,
+		get_ResponseMetadata = 4148,
+		set_HttpStatusCode = 4153,
+		get_ContentLength = 4150,
+		set_ResponseMetadata = 4149
+	},
+	["Amazon.Runtime.AnonymousAWSCredentials"] = {
+		GetCredentials = 4211
+	},
+	["Amazon.Runtime.AsyncOptions"] = {
+		set_State = 3997,
+		get_State = 3996,
+		set_ExecuteCallbackOnMainThread = 3995,
+		get_ExecuteCallbackOnMainThread = 3994
+	},
+	["Amazon.Runtime.BasicAWSCredentials"] = {
+		GetCredentials = 4164
+	},
+	["Amazon.Runtime.ClientConfig"] = {
+		Initialize = 4087,
+		get_MaxErrorRetry = 4067,
+		get_DisableLogging = 4083,
+		get_Timeout = 4088,
+		set_AuthenticationServiceName = 4066,
+		get_SignatureMethod = 4051,
+		get_ServiceURL = 4057,
+		get_AllowAutoRedirect = 4079,
+		set_ProxyPort = 4042,
+		get_LogMetrics = 4081,
+		set_ProgressUpdateInterval = 4076,
+		get_ResignRetries = 4077,
+		set_AllowAutoRedirect = 4080,
+		get_MaxIdleTime = 4043,
+		set_ConnectionLimit = 4046,
+		get_ConnectionLimit = 4045,
+		set_UseHttp = 4060,
+		get_ReadWriteTimeout = 4049,
+		set_ProxyHost = 4040,
+		set_ReadEntireResponse = 4072,
+		get_UseHttp = 4059,
+		set_ResignRetries = 4078,
+		GetUrl = 4062,
+		set_ServiceURL = 4058,
+		get_AuthenticationServiceName = 4065,
+		set_AuthenticationRegion = 4064,
+		set_LogMetrics = 4082,
+		set_MaxIdleTime = 4044,
+		set_SignatureVersion = 4054,
+		get_ProgressUpdateInterval = 4075,
+		set_ReadWriteTimeout = 4050,
+		set_RegionEndpoint = 4056,
+		set_LogResponse = 4070,
+		get_UseNagleAlgorithm = 4047,
+		SetUseNagleIfAvailable = 4090,
+		get_ReadEntireResponse = 4071,
+		get_AuthenticationRegion = 4063,
+		GetDefaultRegionEndpoint = 4038,
+		set_DisableLogging = 4084,
+		set_UseNagleAlgorithm = 4048,
+		get_SignatureVersion = 4053,
+		get_ProxyPort = 4041,
+		set_ProxyCredentials = 4086,
+		get_BufferSize = 4073,
+		GetTimeoutValue = 4093,
+		set_SignatureMethod = 4052,
+		set_BufferSize = 4074,
+		DetermineServiceURL = 4061,
+		Validate = 4091,
+		get_ProxyHost = 4039,
+		set_Timeout = 4089,
+		ValidateTimeout = 4092,
+		get_ProxyCredentials = 4085,
+		get_RegionEndpoint = 4055,
+		get_LogResponse = 4069,
+		set_MaxErrorRetry = 4068
+	},
+	["Amazon.Runtime.ConstantClass"] = {
+		Equals_ConstantClass = 4225,
+		ToString = 4219,
+		get_Value = 4217,
+		set_Value = 4218,
+		Intern = 4221,
+		LoadFields = 4222,
+		GetHashCode = 4223,
+		ToString_IFormatProvider = 4220,
+		Equals_object = 4224
+	},
+	["Amazon.Runtime.FallbackCredentialsFactory"] = {
+		set_CredentialsGenerators = 4213,
+		GetCredentials_bool = 4216,
+		Reset = 4214,
+		get_CredentialsGenerators = 4212,
+		GetCredentials = 4215
+	},
+	["Amazon.Runtime.HeadersRequestEventArgs"] = {
+		set_Headers = 5070,
+		Create = 5071,
+		get_Headers = 5069
+	},
+	["Amazon.Runtime.ImmutableCredentials"] = {
+		get_Token = 4158,
+		get_UseToken = 4160,
+		set_Token = 4159,
+		Copy = 4161,
+		set_SecretKey = 4157,
+		set_AccessKey = 4155,
+		get_SecretKey = 4156,
+		Equals = 4163,
+		get_AccessKey = 4154,
+		GetHashCode = 4162
+	},
+	["Amazon.Runtime.InstanceProfileAWSCredentials"] = {
+		GetContents = 4209,
+		get_CurrentRoleUri = 4202,
+		GetRefreshState = 4205,
+		GetFirstRole = 4210,
+		get_InfoUri = 4203,
+		GetServiceInfo = 4206,
+		GetEarlyRefreshState = 4204,
+		get_Role = 4197,
+		set_Role = 4198,
+		get_RolesUri = 4201,
+		ValidateResponse = 4208,
+		GetRoleCredentials = 4207,
+		GetAvailableRoles = 4200,
+		GenerateNewCredentials = 4199
+	},
+	["Amazon.Runtime.InstanceProfileAWSCredentials.SecurityBase"] = {
+		get_LastUpdated = 4181,
+		get_Message = 4179,
+		set_Code = 4178,
+		set_LastUpdated = 4182,
+		set_Message = 4180,
+		get_Code = 4177
+	},
+	["Amazon.Runtime.InstanceProfileAWSCredentials.SecurityCredentials"] = {
+		set_Type = 4188,
+		get_Token = 4193,
+		set_Token = 4194,
+		get_SecretAccessKey = 4191,
+		set_AccessKeyId = 4190,
+		set_Expiration = 4196,
+		get_Type = 4187,
+		set_SecretAccessKey = 4192,
+		get_AccessKeyId = 4189,
+		get_Expiration = 4195
+	},
+	["Amazon.Runtime.InstanceProfileAWSCredentials.SecurityInfo"] = {
+		set_InstanceProfileArn = 4184,
+		get_InstanceProfileArn = 4183,
+		get_InstanceProfileId = 4185,
+		set_InstanceProfileId = 4186
+	},
+	["Amazon.Runtime.Internal.AsyncExecutionContext"] = {
+		set_RequestContext = 4878,
+		set_ResponseContext = 4876,
+		get_RuntimeState = 4879,
+		get_RequestContext = 4877,
+		get_ResponseContext = 4875,
+		set_RuntimeState = 4880
+	},
+	["Amazon.Runtime.Internal.AsyncRequestContext"] = {
+		get_AsyncOptions = 4860,
+		get_State = 4858,
+		set_Callback = 4857,
+		set_Action = 4863,
+		set_AsyncOptions = 4861,
+		get_Callback = 4856,
+		set_State = 4859,
+		get_Action = 4862
+	},
+	["Amazon.Runtime.Internal.AsyncResponseContext"] = {
+		get_AsyncResult = 4868,
+		set_AsyncResult = 4869
+	},
+	["Amazon.Runtime.Internal.AsyncResult"] = {
+		set_Request = 4260,
+		get_Request = 4259,
+		get_Metrics = 4269,
+		get_Exception = 4249,
+		get_AsyncState = 4275,
+		set_Callback = 4262,
+		get_Unmarshaller = 4257,
+		get_RequestName = 4267,
+		set_IsCompleted = 4274,
+		get_Callback = 4261,
+		set_RequestState = 4254,
+		set_Signer = 4264,
+		set_Unmarshaller = 4258,
+		get_AsyncWaitHandle = 4276,
+		get_Id = 4281,
+		SignalWaitHandle = 4278,
+		get_Signer = 4263,
+		HandleException = 4279,
+		set_RetriesAttempt = 4252,
+		get_FinalResponse = 4255,
+		set_RequestName = 4268,
+		Dispose_bool = 4282,
+		SetCompletedSynchronously = 4277,
+		get_RetriesAttempt = 4251,
+		set_FinalResponse = 4256,
+		set_Exception = 4250,
+		get_State = 4265,
+		InvokeCallback = 4280,
+		get_IsCompleted = 4273,
+		set_CompletedSynchronously = 4272,
+		get_CompletedSynchronously = 4271,
+		get_RequestState = 4253,
+		Dispose = 4283,
+		set_State = 4266,
+		set_Metrics = 4270
+	},
+	["Amazon.Runtime.Internal.AsyncResult.AsyncRequestState"] = {
+		get_GetResponseCallbackCalled = 4247,
+		get_GetRequestStreamCallbackCalled = 4245,
+		set_RequestData = 4242,
+		set_WebRequest = 4240,
+		set_GetResponseCallbackCalled = 4248,
+		get_WebRequest = 4239,
+		get_RequestStream = 4243,
+		set_GetRequestStreamCallbackCalled = 4246,
+		get_RequestData = 4241,
+		set_RequestStream = 4244
+	},
+	["Amazon.Runtime.Internal.Auth.AbstractAWSSigner"] = {
+		get_AWS4SignerInstance = 4284,
+		["ComputeHash_byte[]_string_SigningAlgorithm"] = 4286,
+		ComputeHash_string_string_SigningAlgorithm = 4285,
+		SelectSigner_AbstractAWSSigner_bool_IRequest_ClientConfig = 4289,
+		SelectSigner_IRequest_ClientConfig = 4288,
+		UseV4Signing = 4287
+	},
+	["Amazon.Runtime.Internal.Auth.AWS3Signer"] = {
+		SignHttps = 4294,
+		Sign = 4293,
+		GetCanonicalizedResourcePath = 4296,
+		IsHttpsRequest = 4297,
+		GetCanonicalizedQueryString = 4298,
+		set_UseAws3Https = 4291,
+		SignHttp = 4295,
+		GetHeadersForStringToSign = 4301,
+		GetCanonicalizedHeadersForStringToSign = 4302,
+		GetSignedHeadersComponent = 4300,
+		get_UseAws3Https = 4290,
+		get_Protocol = 4292,
+		GetRequestPayload = 4299
+	},
+	["Amazon.Runtime.Internal.Auth.AWS4PreSignedUrlSigner"] = {
+		Sign = 4335,
+		SignRequest_IRequest_ClientConfig_RequestMetrics_string_string_string_string = 4337,
+		SignRequest_IRequest_ClientConfig_RequestMetrics_string_string = 4336
+	},
+	["Amazon.Runtime.Internal.Auth.AWS4Signer"] = {
+		ComputeHash_string = 4319,
+		SortHeaders = 4325,
+		CanonicalizeHeaderNames = 4327,
+		["ComputeKeyedHash_SigningAlgorithm_byte[]_string"] = 4317,
+		["CanonicalizeQueryParameters_IDictionary<string,string>"] = 4331,
+		ComposeSigningKey = 4313,
+		["InitializeHeaders_IDictionary<string,string>_Uri"] = 4306,
+		["ComputeHash_byte[]"] = 4320,
+		ComputeSignature_string_string_string_DateTime_string_string_string = 4310,
+		CanonicalizeHeaders = 4326,
+		SignRequest = 4305,
+		GetParametersToCanonicalize = 4328,
+		CanonicalizeRequest = 4323,
+		["InitializeHeaders_IDictionary<string,string>_Uri_DateTime"] = 4307,
+		Sign = 4304,
+		GetRequestPayloadBytes = 4334,
+		ComputeSignature_string_string_string_DateTime_string_string_string_RequestMetrics = 4311,
+		SetRequestBodyHash = 4314,
+		DetermineService = 4322,
+		ComputeSignature_ImmutableCredentials_string_DateTime_string_string_string = 4309,
+		["SignBlob_byte[]_byte[]"] = 4316,
+		["ComputeKeyedHash_SigningAlgorithm_byte[]_byte[]"] = 4318,
+		FormatDateTime = 4312,
+		["CanonicalizeQueryParameters_IDictionary<string,string>_bool"] = 4332,
+		["SignBlob_byte[]_string"] = 4315,
+		CanonicalizeRequestUrl = 4324,
+		DetermineSigningRegion = 4321,
+		CleanHeaders = 4308,
+		CanonicalizeQueryParameters_string_bool = 4330,
+		CanonicalizeQueryParameters_string = 4329,
+		get_Protocol = 4303,
+		CompressSpaces = 4333
+	},
+	["Amazon.Runtime.Internal.Auth.AWS4SigningResult"] = {
+		get_ISO8601Date = 4340,
+		get_ISO8601DateTime = 4339,
+		get_SignatureBytes = 4345,
+		get_SignedHeaders = 4341,
+		get_ForAuthorizationHeader = 4346,
+		get_SigningKey = 4343,
+		get_ForQueryParameters = 4347,
+		get_Signature = 4344,
+		get_AccessKeyId = 4338,
+		get_Scope = 4342
+	},
+	["Amazon.Runtime.Internal.Auth.CloudFrontSigner"] = {
+		get_Protocol = 4348,
+		Sign = 4349
+	},
+	["Amazon.Runtime.Internal.Auth.NullSigner"] = {
+		get_Protocol = 4351,
+		Sign = 4350
+	},
+	["Amazon.Runtime.Internal.Auth.QueryStringSigner"] = {
+		get_Protocol = 4352,
+		Sign = 4353
+	},
+	["Amazon.Runtime.Internal.CallbackHandler"] = {
+		set_OnPreInvoke = 4891,
+		InvokeAsync = 4895,
+		PostInvoke = 4898,
+		InvokeAsyncCallback = 4896,
+		InvokeSync = 4894,
+		PreInvoke = 4897,
+		RaiseOnPreInvoke = 4899,
+		set_OnPostInvoke = 4893,
+		get_OnPreInvoke = 4890,
+		get_OnPostInvoke = 4892,
+		RaiseOnPostInvoke = 4900
+	},
+	["Amazon.Runtime.Internal.ClientContext"] = {
+		AddCustomAttributes = 4096,
+		set_AppID = 4095,
+		get_AppID = 4094,
+		ToJsonString = 4097
+	},
+	["Amazon.Runtime.Internal.CredentialsRetriever"] = {
+		get_Credentials = 4901,
+		InvokeAsync = 4905,
+		InvokeSync = 4904,
+		PreInvoke = 4903,
+		set_Credentials = 4902
+	},
+	["Amazon.Runtime.Internal.DefaultRequest"] = {
+		set_AuthenticationRegion = 4394,
+		set_ContentStream = 4376,
+		get_RequestName = 4354,
+		get_UseSigV4 = 4391,
+		get_Content = 4371,
+		get_Suppress404Exceptions = 4383,
+		AddSubResource_string = 4363,
+		get_CanonicalResource = 4369,
+		set_CanonicalResourcePrefix = 4390,
+		get_AlternateEndpoint = 4381,
+		AddSubResource_string_string = 4364,
+		get_ServiceName = 4380,
+		get_Endpoint = 4365,
+		set_Content = 4372,
+		set_AlternateEndpoint = 4382,
+		set_HttpMethod = 4356,
+		set_OriginalStreamPosition = 4378,
+		get_OriginalStreamPosition = 4377,
+		set_ResourcePath = 4368,
+		get_OriginalRequest = 4359,
+		get_CanonicalResourcePrefix = 4389,
+		get_ContentStream = 4375,
+		get_ResourcePath = 4367,
+		ComputeContentStreamHash = 4379,
+		set_SetContentFromParameters = 4374,
+		set_CanonicalResource = 4370,
+		get_AWS4SignerResult = 4385,
+		MayContainRequestBody = 4396,
+		set_Suppress404Exceptions = 4384,
+		get_SetContentFromParameters = 4373,
+		get_SubResources = 4362,
+		set_UseChunkEncoding = 4388,
+		set_UseQueryString = 4358,
+		HasRequestBody = 4397,
+		get_AuthenticationRegion = 4393,
+		get_Parameters = 4361,
+		get_UseQueryString = 4357,
+		IsRequestStreamRewindable = 4395,
+		get_HttpMethod = 4355,
+		set_Endpoint = 4366,
+		set_AWS4SignerResult = 4386,
+		set_UseSigV4 = 4392,
+		get_Headers = 4360,
+		get_UseChunkEncoding = 4387
+	},
+	["Amazon.Runtime.Internal.DefaultRetryPolicy"] = {
+		set_MaxBackoffInMilliseconds = 4991,
+		WaitBeforeRetry_IExecutionContext = 4997,
+		WaitBeforeRetry_int_int = 4998,
+		CanRetry = 4994,
+		RetryLimitReached = 4996,
+		RetryForException = 4995,
+		get_WebExceptionStatusesToRetryOn = 4993,
+		get_MaxBackoffInMilliseconds = 4990,
+		get_ErrorCodesToRetryOn = 4992
+	},
+	["Amazon.Runtime.Internal.EndpointResolver"] = {
+		PreInvoke = 4908,
+		InvokeAsync = 4907,
+		InvokeSync = 4906,
+		DetermineEndpoint_IRequestContext = 4909,
+		DetermineEndpoint_ClientConfig_IRequest = 4910
+	},
+	["Amazon.Runtime.Internal.ErrorCallbackHandler"] = {
+		HandleException = 4915,
+		get_OnError = 4911,
+		set_OnError = 4912,
+		InvokeAsyncCallback = 4914,
+		InvokeSync = 4913
+	},
+	["Amazon.Runtime.Internal.ErrorHandler"] = {
+		DisposeReponse = 4885,
+		ProcessException = 4886,
+		get_ExceptionHandlers = 4881,
+		InvokeAsyncCallback = 4884,
+		InvokeSync = 4883,
+		set_ExceptionHandlers = 4882
+	},
+	["Amazon.Runtime.Internal.ErrorResponse"] = {
+		set_Type = 4399,
+		get_Message = 4402,
+		set_Code = 4401,
+		get_Type = 4398,
+		set_RequestId = 4405,
+		set_Message = 4403,
+		get_RequestId = 4404,
+		get_Code = 4400
+	},
+	["Amazon.Runtime.Internal.ExecutionContext"] = {
+		set_RequestContext = 4871,
+		set_ResponseContext = 4873,
+		get_RequestContext = 4870,
+		get_ResponseContext = 4872,
+		CreateFromAsyncContext = 4874
+	},
+	["Amazon.Runtime.Internal.HttpErrorResponseException"] = {
+		get_Response = 4936,
+		set_Response = 4937
+	},
+	["Amazon.Runtime.Internal.HttpErrorResponseExceptionHandler"] = {
+		HandleSuppressed404 = 4888,
+		HandleException = 4887
+	},
+	["Amazon.Runtime.Internal.Marshaller"] = {
+		InvokeAsync = 4917,
+		InvokeSync = 4916,
+		PreInvoke = 4918
+	},
+	["Amazon.Runtime.Internal.MetricsHandler"] = {
+		InvokeAsyncCallback = 4921,
+		InvokeSync = 4919,
+		InvokeAsync = 4920
+	},
+	["Amazon.Runtime.Internal.PipelineHandler"] = {
+		set_OuterHandler = 4984,
+		InvokeAsync = 4986,
+		AsyncCallback = 4987,
+		set_Logger = 4980,
+		InvokeAsyncCallback = 4988,
+		InvokeSync = 4985,
+		get_Logger = 4979,
+		get_OuterHandler = 4983,
+		set_InnerHandler = 4982,
+		LogMetrics = 4989,
+		get_InnerHandler = 4981
+	},
+	["Amazon.Runtime.Internal.RedirectHandler"] = {
+		InvokeAsyncCallback = 4923,
+		FinalizeForRedirect = 4925,
+		HandleRedirect = 4924,
+		InvokeSync = 4922
+	},
+	["Amazon.Runtime.Internal.RequestContext"] = {
+		set_Retries = 4842,
+		set_ClientConfig = 4840,
+		get_Metrics = 4835,
+		get_Signer = 4837,
+		get_Retries = 4841,
+		set_IsSigned = 4844,
+		get_Unmarshaller = 4851,
+		get_Request = 4833,
+		get_Marshaller = 4849,
+		set_Marshaller = 4850,
+		set_Metrics = 4836,
+		set_Request = 4834,
+		get_ImmutableCredentials = 4853,
+		set_Unmarshaller = 4852,
+		set_Signer = 4838,
+		set_OriginalRequest = 4848,
+		get_IsAsync = 4845,
+		get_OriginalRequest = 4847,
+		set_ImmutableCredentials = 4854,
+		get_IsSigned = 4843,
+		get_RequestName = 4855,
+		get_ClientConfig = 4839,
+		set_IsAsync = 4846
+	},
+	["Amazon.Runtime.Internal.ResponseContext"] = {
+		get_Response = 4864,
+		set_HttpResponse = 4867,
+		set_Response = 4865,
+		get_HttpResponse = 4866
+	},
+	["Amazon.Runtime.Internal.RetryHandler"] = {
+		LogForError = 5007,
+		get_RetryPolicy = 5001,
+		set_Logger = 5000,
+		PrepareForRetry = 5005,
+		InvokeAsyncCallback = 5004,
+		InvokeSync = 5003,
+		get_Logger = 4999,
+		set_RetryPolicy = 5002,
+		LogForRetry = 5006
+	},
+	["Amazon.Runtime.Internal.RuntimeAsyncResult"] = {
+		set_AsyncCallback = 5019,
+		get_Request = 5031,
+		InvokeCallback = 5039,
+		get_Exception = 5027,
+		get_IsCompleted = 5025,
+		Dispose_bool = 5040,
+		set_AsyncOptions = 5036,
+		get_Action = 5033,
+		get_Response = 5029,
+		set_CompletedSynchronously = 5024,
+		set_AsyncState = 5021,
+		set_Exception = 5028,
+		set_Response = 5030,
+		get_AsyncWaitHandle = 5022,
+		get_AsyncState = 5020,
+		get_AsyncOptions = 5035,
+		SignalWaitHandle = 5037,
+		set_Action = 5034,
+		get_CompletedSynchronously = 5023,
+		HandleException = 5038,
+		set_IsCompleted = 5026,
+		Dispose = 5041,
+		get_AsyncCallback = 5018,
+		set_Request = 5032
+	},
+	["Amazon.Runtime.Internal.RuntimePipeline"] = {
+		ThrowIfDisposed = 5053,
+		Dispose_bool = 5052,
+		InvokeAsync = 5044,
+		InsertHandler = 5046,
+		GetInnermostHandler = 5047,
+		get_Handlers = 5049,
+		InvokeSync = 5043,
+		Dispose = 5051,
+		EnumerateHandlers = 5050,
+		SetHandlerProperties = 5048,
+		AddHandler = 5045,
+		get_Handler = 5042
+	},
+	["Amazon.Runtime.Internal.ServiceClientHelpers"] = {
+		CreateServiceConfig = 4407,
+		LoadServiceClientType = 4406
+	},
+	["Amazon.Runtime.Internal.Signer"] = {
+		PreInvoke = 4928,
+		SignRequest = 4930,
+		InvokeAsync = 4927,
+		InvokeSync = 4926,
+		ShouldSign = 4929
+	},
+	["Amazon.Runtime.Internal.SimpleAsyncResult"] = {
+		get_AsyncState = 4974,
+		set_AsyncState = 4975,
+		get_CompletedSynchronously = 4977,
+		get_AsyncWaitHandle = 4976,
+		get_IsCompleted = 4978
+	},
+	["Amazon.Runtime.Internal.StreamReadTracker"] = {
+		ReadProgress = 4408
+	},
+	["Amazon.Runtime.Internal.ThreadPoolExecutionHandler"] = {
+		InvokeAsync = 4815,
+		ErrorCallback = 4817,
+		InvokeAsyncHelper = 4816
+	},
+	["Amazon.Runtime.Internal.Transform.BoolUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 4487,
+		GetInstance = 4485,
+		get_Instance = 4484,
+		Unmarshall_XmlUnmarshallerContext = 4486
+	},
+	["Amazon.Runtime.Internal.Transform.ByteUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 4495,
+		GetInstance = 4493,
+		get_Instance = 4492,
+		Unmarshall_XmlUnmarshallerContext = 4494
+	},
+	["Amazon.Runtime.Internal.Transform.DateTimeEpochLongMillisecondsUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 4503,
+		GetInstance = 4501,
+		get_Instance = 4500,
+		Unmarshall_XmlUnmarshallerContext = 4502
+	},
+	["Amazon.Runtime.Internal.Transform.DateTimeUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 4499,
+		GetInstance = 4497,
+		get_Instance = 4496,
+		Unmarshall_XmlUnmarshallerContext = 4498
+	},
+	["Amazon.Runtime.Internal.Transform.DoubleUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 4483,
+		GetInstance = 4481,
+		get_Instance = 4480,
+		Unmarshall_XmlUnmarshallerContext = 4482
+	},
+	["Amazon.Runtime.Internal.Transform.EC2ResponseUnmarshaller"] = {
+		ConstructUnmarshallerContext = 4463,
+		Unmarshall = 4462
+	},
+	["Amazon.Runtime.Internal.Transform.EC2UnmarshallerContext"] = {
+		Read = 4548,
+		set_RequestId = 4547,
+		get_RequestId = 4546
+	},
+	["Amazon.Runtime.Internal.Transform.ErrorResponseUnmarshaller"] = {
+		Unmarshall = 4424,
+		GetInstance = 4425
+	},
+	["Amazon.Runtime.Internal.Transform.FloatUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 4479,
+		GetInstance = 4477,
+		get_Instance = 4476,
+		Unmarshall_XmlUnmarshallerContext = 4478
+	},
+	["Amazon.Runtime.Internal.Transform.IntUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 4471,
+		GetInstance = 4469,
+		get_Instance = 4468,
+		Unmarshall_XmlUnmarshallerContext = 4470
+	},
+	["Amazon.Runtime.Internal.Transform.JsonErrorResponseUnmarshaller"] = {
+		Unmarshall = 4432,
+		GetInstance = 4433
+	},
+	["Amazon.Runtime.Internal.Transform.JsonMarshallerContext"] = {
+		get_Writer = 4430,
+		set_Writer = 4431
+	},
+	["Amazon.Runtime.Internal.Transform.JsonResponseUnmarshaller"] = {
+		Unmarshall = 4464,
+		ConstructUnmarshallerContext = 4466,
+		ShouldReadEntireResponse = 4467,
+		UnmarshallException = 4465
+	},
+	["Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext"] = {
+		get_IsStartOfDocument = 4440,
+		Dispose = 4453,
+		get_IsEndElement = 4441,
+		get_CurrentDepth = 4443,
+		get_Stream = 4449,
+		get_CurrentPath = 4444,
+		Peek = 4450,
+		Peek_JsonToken = 4446,
+		get_CurrentTokenType = 4448,
+		UpdateContext = 4452,
+		Read = 4445,
+		get_IsStartElement = 4442,
+		ReadText = 4447,
+		StreamPeek = 4451
+	},
+	["Amazon.Runtime.Internal.Transform.JsonUnmarshallerContext.JsonPathStack"] = {
+		Pop = 4437,
+		get_CurrentPath = 4435,
+		get_Count = 4439,
+		Push = 4436,
+		get_CurrentDepth = 4434,
+		Peek = 4438
+	},
+	["Amazon.Runtime.Internal.Transform.LongUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 4475,
+		GetInstance = 4473,
+		get_Instance = 4472,
+		Unmarshall_XmlUnmarshallerContext = 4474
+	},
+	["Amazon.Runtime.Internal.Transform.MarshallerContext"] = {
+		set_Request = 4427,
+		get_Request = 4426
+	},
+	["Amazon.Runtime.Internal.Transform.MemoryStreamUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 4507,
+		GetInstance = 4505,
+		get_Instance = 4504,
+		Unmarshall_XmlUnmarshallerContext = 4506
+	},
+	["Amazon.Runtime.Internal.Transform.ResponseMetadataUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 4511,
+		GetInstance = 4509,
+		get_Instance = 4508,
+		Unmarshall_XmlUnmarshallerContext = 4510
+	},
+	["Amazon.Runtime.Internal.Transform.ResponseUnmarshaller"] = {
+		get_HasStreamingProperty = 4455,
+		CreateContext = 4454,
+		UnmarshallException = 4456,
+		ShouldReadEntireResponse = 4458,
+		UnmarshallResponse = 4457
+	},
+	["Amazon.Runtime.Internal.Transform.StringUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 4491,
+		GetInstance = 4489,
+		get_Instance = 4488,
+		Unmarshall_XmlUnmarshallerContext = 4490
+	},
+	["Amazon.Runtime.Internal.Transform.UnityWebResponseData"] = {
+		Dispose = 4423,
+		IsHeaderPresent = 4418,
+		get_ResponseBody = 4420,
+		OpenResponse = 4422,
+		set_ContentLength = 4410,
+		get_ContentLength = 4409,
+		set_ContentType = 4412,
+		set_IsSuccessStatusCode = 4416,
+		set_StatusCode = 4414,
+		get_IsResponseBodyPresent = 4421,
+		get_ContentType = 4411,
+		GetHeaderNames = 4417,
+		get_StatusCode = 4413,
+		GetHeaderValue = 4419,
+		get_IsSuccessStatusCode = 4415
+	},
+	["Amazon.Runtime.Internal.Transform.UnmarshallerContext"] = {
+		set_WebResponseData = 4519,
+		Dispose_bool = 4531,
+		set_Crc32Result = 4517,
+		ReadAtDepth = 4528,
+		set_MaintainResponseBody = 4513,
+		Dispose = 4532,
+		TestExpression_string_int_string_int = 4530,
+		TestExpression_string_string = 4529,
+		TestExpression_string = 4526,
+		get_WebResponseData = 4518,
+		get_ResponseData = 4523,
+		get_Crc32Result = 4516,
+		set_WrappingStream = 4521,
+		set_CrcStream = 4515,
+		get_WrappingStream = 4520,
+		get_ResponseBody = 4522,
+		ValidateCRC32IfAvailable = 4524,
+		get_MaintainResponseBody = 4512,
+		TestExpression_string_int = 4527,
+		SetupCRCStream = 4525,
+		get_CrcStream = 4514
+	},
+	["Amazon.Runtime.Internal.Transform.XmlMarshallerContext"] = {
+		get_Writer = 4428,
+		set_Writer = 4429
+	},
+	["Amazon.Runtime.Internal.Transform.XmlResponseUnmarshaller"] = {
+		Unmarshall = 4459,
+		UnmarshallException = 4460,
+		ConstructUnmarshallerContext = 4461
+	},
+	["Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext"] = {
+		get_XmlReader = 4534,
+		StackToPath = 4543,
+		get_IsEndElement = 4540,
+		get_IsStartElement = 4539,
+		get_Stream = 4533,
+		get_CurrentPath = 4535,
+		get_CurrentDepth = 4536,
+		get_IsStartOfDocument = 4541,
+		Read = 4537,
+		get_IsAttribute = 4542,
+		Dispose = 4545,
+		ReadText = 4538,
+		ReadElement = 4544
+	},
+	["Amazon.Runtime.Internal.UnityHttpErrorResponseException"] = {
+		get_Response = 4818,
+		get_Request = 4820,
+		set_Request = 4821,
+		set_Response = 4819
+	},
+	["Amazon.Runtime.Internal.UnityMainThreadDispatcher"] = {
+		ProcessRequests = 4824,
+		Update = 4823,
+		Awake = 4822,
+		InvokeRequest = 4825
+	},
+	["Amazon.Runtime.Internal.UnityRequestQueue"] = {
+		EnqueueRequest = 4827,
+		DequeueMainThreadOperation = 4832,
+		EnqueueCallback = 4829,
+		DequeueRequest = 4828,
+		get_Instance = 4826,
+		DequeueCallback = 4830,
+		ExecuteOnMainThread = 4831
+	},
+	["Amazon.Runtime.Internal.UnityWebRequest"] = {
+		["WriteToRequestBody_string_byte[]_IDictionary<string,string>"] = 4967,
+		set_Exception = 4959,
+		GetResponse = 4965,
+		set_RequestUri = 4941,
+		get_WaitHandle = 4952,
+		EndGetRequestContent = 4970,
+		Abort = 4968,
+		GetRequestContent = 4964,
+		get_Response = 4956,
+		get_Method = 4960,
+		get_AsyncResult = 4950,
+		get_Exception = 4958,
+		set_IsSync = 4955,
+		get_Headers = 4946,
+		set_Callback = 4949,
+		EndGetResponse = 4972,
+		set_Method = 4961,
+		BeginGetRequestContent = 4969,
+		set_WwwRequest = 4943,
+		get_Callback = 4948,
+		ConfigureRequest = 4962,
+		set_WaitHandle = 4953,
+		["WriteToRequestBody_string_Stream_IDictionary<string,string>_IRequestContext"] = 4966,
+		get_IsSync = 4954,
+		set_AsyncResult = 4951,
+		set_Headers = 4947,
+		set_RequestContent = 4945,
+		get_RequestContent = 4944,
+		get_WwwRequest = 4942,
+		BeginGetResponse = 4971,
+		set_Response = 4957,
+		SetRequestHeaders = 4963,
+		Dispose = 4973,
+		get_RequestUri = 4940
+	},
+	["Amazon.Runtime.Internal.UnityWebRequestFactory"] = {
+		Dispose = 4939,
+		CreateHttpRequest = 4938
+	},
+	["Amazon.Runtime.Internal.Unmarshaller"] = {
+		ShouldLogResponseBody = 4935,
+		InvokeAsyncCallback = 4932,
+		Unmarshall = 4933,
+		InvokeSync = 4931,
+		UnmarshallResponse = 4934
+	},
+	["Amazon.Runtime.Internal.Util.CachingWrapperStream"] = {
+		Seek = 4586,
+		set_Position = 4585,
+		get_CanSeek = 4583,
+		set_AllReadBytes = 4581,
+		Read = 4582,
+		get_Position = 4584,
+		get_AllReadBytes = 4580
+	},
+	["Amazon.Runtime.Internal.Util.ChunkedUploadWrapperStream"] = {
+		get_HeaderSigningResult = 4588,
+		get_PreviousChunkSignature = 4590,
+		get_CanSeek = 4594,
+		CalculateChunkHeaderLength = 4596,
+		FillInputBuffer = 4597,
+		Read = 4587,
+		set_HeaderSigningResult = 4589,
+		get_Length = 4593,
+		set_PreviousChunkSignature = 4591,
+		ConstructOutputBufferChunk = 4592,
+		ComputeChunkedContentLength = 4595
+	},
+	["Amazon.Runtime.Internal.Util.EventStream"] = {
+		SetLength = 4623,
+		set_Position = 4615,
+		get_CanWrite = 4612,
+		get_CanSeek = 4610,
+		Read = 4621,
+		EndRead = 4629,
+		get_CanRead = 4609,
+		get_Length = 4613,
+		set_ReadTimeout = 4617,
+		set_WriteTimeout = 4619,
+		get_ReadTimeout = 4616,
+		Flush = 4620,
+		Write = 4624,
+		get_WriteTimeout = 4618,
+		Seek = 4622,
+		BeginRead = 4626,
+		BeginWrite = 4627,
+		Close = 4628,
+		get_CanTimeout = 4611,
+		get_Position = 4614,
+		WriteByte = 4625,
+		Dispose = 4608,
+		EndWrite = 4630
+	},
+	["Amazon.Runtime.Internal.Util.EventStream.AsyncResult"] = {
+		set_CompletedSynchronously = 4603,
+		get_AsyncState = 4598,
+		set_IsCompleted = 4605,
+		set_Return = 4607,
+		get_CompletedSynchronously = 4602,
+		get_Return = 4606,
+		set_AsyncWaitHandle = 4601,
+		set_AsyncState = 4599,
+		get_AsyncWaitHandle = 4600,
+		get_IsCompleted = 4604
+	},
+	["Amazon.Runtime.Internal.Util.Extensions"] = {
+		GetElapsedDateTimeTicks = 4631,
+		HasRequestData = 4632
+	},
+	["Amazon.Runtime.Internal.Util.Hashing"] = {
+		CombineHashesInternal = 4635,
+		Hash = 4633,
+		CombineHashes = 4634
+	},
+	["Amazon.Runtime.Internal.Util.HashingWrapper"] = {
+		Clear = 4550,
+		Dispose_bool = 4555,
+		ComputeHash_Stream = 4552,
+		["AppendLastBlock_byte[]_int_int"] = 4554,
+		Init = 4549,
+		["ComputeHash_byte[]"] = 4551,
+		["AppendLastBlock_byte[]"] = 4557,
+		Dispose = 4558,
+		["AppendBlock_byte[]_int_int"] = 4553,
+		["AppendBlock_byte[]"] = 4556
+	},
+	["Amazon.Runtime.Internal.Util.HashStream"] = {
+		get_Algorithm = 4636,
+		get_CurrentPosition = 4639,
+		get_CanSeek = 4650,
+		get_CalculatedHash = 4641,
+		Read = 4647,
+		set_CurrentPosition = 4640,
+		get_ExpectedLength = 4645,
+		set_CalculatedHash = 4642,
+		get_FinishedHashing = 4638,
+		set_ExpectedHash = 4644,
+		CalculateHash = 4655,
+		get_Length = 4654,
+		set_Position = 4652,
+		Seek = 4653,
+		CompareHashes = 4658,
+		Close = 4648,
+		get_Position = 4651,
+		ValidateBaseStream = 4657,
+		set_Algorithm = 4637,
+		get_ExpectedHash = 4643,
+		Reset = 4656,
+		Dispose = 4649,
+		set_ExpectedLength = 4646
+	},
+	["Amazon.Runtime.Internal.Util.InternalLog4netLogger"] = {
+		Flush = 4684,
+		get_IsDebugEnabled = 4687,
+		loadStatics = 4683,
+		Error = 4686,
+		DebugFormat = 4689,
+		Debug = 4688,
+		get_IsInfoEnabled = 4690,
+		InfoFormat = 4691,
+		get_IsErrorEnabled = 4685
+	},
+	["Amazon.Runtime.Internal.Util.InternalLogger"] = {
+		set_DeclaringType = 4677,
+		get_IsEnabled = 4678,
+		get_IsInfoEnabled = 4682,
+		get_IsDebugEnabled = 4681,
+		get_DeclaringType = 4676,
+		set_IsEnabled = 4679,
+		get_IsErrorEnabled = 4680
+	},
+	["Amazon.Runtime.Internal.Util.Logger"] = {
+		Flush = 4671,
+		GetLogger = 4668,
+		Error = 4672,
+		get_EmptyLogger = 4670,
+		ClearLoggerCache = 4669,
+		DebugFormat = 4674,
+		Debug = 4673,
+		ConfigsChanged = 4666,
+		InfoFormat = 4675,
+		ConfigureLoggers = 4667
+	},
+	["Amazon.Runtime.Internal.Util.LogMessage"] = {
+		ToString = 4665,
+		set_Format = 4664,
+		get_Provider = 4661,
+		set_Args = 4660,
+		get_Format = 4663,
+		set_Provider = 4662,
+		get_Args = 4659
+	},
+	["Amazon.Runtime.Internal.Util.MetricError"] = {
+		set_Metric = 4722,
+		get_Message = 4723,
+		get_Metric = 4721,
+		get_Exception = 4725,
+		set_Time = 4728,
+		set_Message = 4724,
+		get_Time = 4727,
+		set_Exception = 4726
+	},
+	["Amazon.Runtime.Internal.Util.NonDisposingWrapperStream"] = {
+		Close = 4729,
+		Dispose = 4730
+	},
+	["Amazon.Runtime.Internal.Util.PartialReadOnlyWrapperStream"] = {
+		Read = 4753,
+		get_Position = 4755,
+		get_RemainingSize = 4752,
+		get_Length = 4754
+	},
+	["Amazon.Runtime.Internal.Util.PartialWrapperStream"] = {
+		SetLength = 4737,
+		set_Position = 4734,
+		get_RemainingPartSize = 4731,
+		Read = 4735,
+		get_Position = 4733,
+		WriteByte = 4739,
+		get_Length = 4732,
+		Write = 4738,
+		Seek = 4736
+	},
+	["Amazon.Runtime.Internal.Util.ReadOnlyWrapperStream"] = {
+		SetLength = 4747,
+		BeginWrite = 4740,
+		get_CanWrite = 4744,
+		get_CanRead = 4742,
+		get_CanSeek = 4743,
+		get_Position = 4749,
+		set_Position = 4750,
+		Flush = 4751,
+		get_Length = 4748,
+		Write = 4746,
+		EndWrite = 4741,
+		Seek = 4745
+	},
+	["Amazon.Runtime.Internal.Util.RequestMetrics"] = {
+		set_IsEnabled = 4705,
+		ToString = 4712,
+		LogError_Locked = 4693,
+		LogHelper = 4696,
+		AddProperty = 4708,
+		set_Counters = 4703,
+		get_IsEnabled = 4704,
+		StartEvent = 4706,
+		IncrementCounter = 4710,
+		set_Timings = 4701,
+		StopEvent = 4707,
+		["Log_StringBuilder_Metric_List<object>"] = 4695,
+		get_Properties = 4698,
+		ToJSON = 4713,
+		ObjectToString = 4697,
+		get_Counters = 4702,
+		GetErrors = 4711,
+		Log_StringBuilder_Metric_object = 4694,
+		get_CurrentTime = 4692,
+		SetCounter = 4709,
+		set_Properties = 4699,
+		get_Timings = 4700
+	},
+	["Amazon.Runtime.Internal.Util.S3Uri"] = {
+		set_Bucket = 4759,
+		get_Region = 4762,
+		set_IsPathStyle = 4757,
+		Decode_string = 4764,
+		get_IsPathStyle = 4756,
+		set_Key = 4761,
+		FromHex = 4767,
+		get_Bucket = 4758,
+		set_Region = 4763,
+		AppendDecoded = 4766,
+		get_Key = 4760,
+		Decode_string_int = 4765
+	},
+	["Amazon.Runtime.Internal.Util.SdkCache"] = {
+		Clear = 4780,
+		Clear_object = 4781
+	},
+	["Amazon.Runtime.Internal.Util.SdkCache.CacheKey"] = {
+		set_CacheType = 4775,
+		Equals = 4779,
+		get_ServiceUrl = 4772,
+		Create_AmazonServiceClient_object = 4776,
+		get_CacheType = 4774,
+		get_ImmutableCredentials = 4768,
+		set_ImmutableCredentials = 4769,
+		set_ServiceUrl = 4773,
+		Create_object = 4777,
+		get_RegionEndpoint = 4770,
+		GetHashCode = 4778,
+		set_RegionEndpoint = 4771
+	},
+	["Amazon.Runtime.Internal.Util.StringUtils"] = {
+		FromDateTime = 4789,
+		FromDouble = 4790,
+		FromBool = 4788,
+		["FromInt_Nullable<int>"] = 4786,
+		FromString_string = 4782,
+		FromLong = 4787,
+		Utf8ByteLength = 4791,
+		FromMemoryStream = 4784,
+		FromInt_int = 4785,
+		FromString_ConstantClass = 4783
+	},
+	["Amazon.Runtime.Internal.Util.Timing"] = {
+		get_ElapsedTime = 4718,
+		get_IsFinished = 4715,
+		get_ElapsedTicks = 4717,
+		set_IsFinished = 4716,
+		Stop = 4714
+	},
+	["Amazon.Runtime.Internal.Util.TimingEvent"] = {
+		Dispose_bool = 4719,
+		Dispose = 4720
+	},
+	["Amazon.Runtime.Internal.Util.UnityDebugLogger"] = {
+		Flush = 4559,
+		DebugFormat = 4562,
+		get_IsDebugEnabled = 4564,
+		Debug = 4561,
+		get_IsInfoEnabled = 4566,
+		InfoFormat = 4563,
+		Error = 4560,
+		get_IsErrorEnabled = 4565
+	},
+	["Amazon.Runtime.Internal.Util.UnityDebugTraceListener"] = {
+		Fail_string = 4573,
+		TraceEvent_TraceEventCache_string_TraceEventType_int_string = 4571,
+		Write_object = 4575,
+		WriteLine_object_string = 4577,
+		["TraceData_TraceEventCache_string_TraceEventType_int_object[]"] = 4572,
+		LogMessage = 4579,
+		Fail_string_string = 4574,
+		WriteLine_string = 4568,
+		Write_string = 4567,
+		["TraceEvent_TraceEventCache_string_TraceEventType_int_string_object[]"] = 4569,
+		TraceData_TraceEventCache_string_TraceEventType_int_object = 4570,
+		WriteLine_object = 4576,
+		get_IsThreadSafe = 4578
+	},
+	["Amazon.Runtime.Internal.Util.WrapperStream"] = {
+		get_BaseStream = 4792,
+		set_Position = 4805,
+		get_CanRead = 4799,
+		["SearchWrappedStream_Stream_Func<Stream,bool>"] = 4798,
+		Read = 4811,
+		get_CanSeek = 4800,
+		["SearchWrappedStream_Func<Stream,bool>"] = 4797,
+		GetNonWrapperBaseStream = 4794,
+		get_CanWrite = 4801,
+		Flush = 4810,
+		GetSeekableBaseStream = 4795,
+		get_Length = 4803,
+		set_BaseStream = 4793,
+		Write = 4814,
+		get_ReadTimeout = 4806,
+		Seek = 4812,
+		set_ReadTimeout = 4807,
+		set_WriteTimeout = 4809,
+		Close = 4802,
+		SetLength = 4813,
+		get_WriteTimeout = 4808,
+		get_Position = 4804,
+		GetNonWrapperBaseStream_Stream = 4796
+	},
+	["Amazon.Runtime.Internal.WebExceptionHandler"] = {
+		HandleException = 4889
+	},
+	["Amazon.Runtime.PreRequestEventArgs"] = {
+		get_Request = 5054,
+		Create = 5056,
+		set_Request = 5055
+	},
+	["Amazon.Runtime.RefreshingAWSCredentials"] = {
+		get_ShouldUpdate = 4174,
+		set_PreemptExpiryTime = 4171,
+		UpdateToGeneratedCredentials = 4173,
+		GetCredentials = 4172,
+		get_PreemptExpiryTime = 4170,
+		ClearCredentials = 4176,
+		GenerateNewCredentials = 4175
+	},
+	["Amazon.Runtime.RefreshingAWSCredentials.CredentialsRefreshState"] = {
+		set_Credentials = 4167,
+		set_Expiration = 4169,
+		get_Expiration = 4168,
+		get_Credentials = 4166
+	},
+	["Amazon.Runtime.ResponseMetadata"] = {
+		get_Metadata = 5089,
+		set_RequestId = 5088,
+		get_RequestId = 5087
+	},
+	["Amazon.Runtime.RetryPolicy"] = {
+		TryParseExceptionMessage = 5016,
+		set_Logger = 5011,
+		set_MaxRetries = 5009,
+		get_Logger = 5010,
+		get_MaxRetries = 5008,
+		Retry = 5012,
+		RetryForExceptionHelper = 5013,
+		TryParseDateHeader = 5015,
+		IsClockskew = 5014,
+		GetWebData = 5017
+	},
+	["Amazon.Runtime.SessionAWSCredentials"] = {
+		GetCredentials = 4165
+	},
+	["Amazon.Runtime.StreamTransferProgressArgs"] = {
+		get_PercentDone = 5090,
+		ToString = 5094,
+		get_IncrementTransferred = 5091,
+		get_TransferredBytes = 5092,
+		get_TotalBytes = 5093
+	},
+	["Amazon.Runtime.WebServiceExceptionEventArgs"] = {
+		set_Endpoint = 4233,
+		get_ServiceName = 4230,
+		get_Request = 4234,
+		get_Exception = 4236,
+		set_Exception = 4237,
+		set_ServiceName = 4231,
+		set_Parameters = 4229,
+		get_Parameters = 4228,
+		set_Headers = 4227,
+		Create = 4238,
+		get_Headers = 4226,
+		get_Endpoint = 4232,
+		set_Request = 4235
+	},
+	["Amazon.Runtime.WebServiceRequestEventArgs"] = {
+		set_Endpoint = 5064,
+		get_ServiceName = 5061,
+		get_Request = 5065,
+		get_OriginalRequest = 5067,
+		set_Headers = 5058,
+		set_ServiceName = 5062,
+		set_Parameters = 5060,
+		get_Parameters = 5059,
+		Create = 5068,
+		get_Headers = 5057,
+		get_Endpoint = 5063,
+		set_Request = 5066
+	},
+	["Amazon.Runtime.WebServiceResponseEventArgs"] = {
+		set_Endpoint = 5081,
+		get_ServiceName = 5078,
+		get_ResponseHeaders = 5074,
+		set_Parameters = 5077,
+		set_Response = 5085,
+		set_ServiceName = 5079,
+		get_Request = 5082,
+		get_Parameters = 5076,
+		get_Response = 5084,
+		Create = 5086,
+		set_RequestHeaders = 5073,
+		get_Endpoint = 5080,
+		set_Request = 5083,
+		set_ResponseHeaders = 5075,
+		get_RequestHeaders = 5072
+	},
+	["Amazon.S3.AmazonS3Client"] = {
+		CustomizeRuntimePipeline = 5626,
+		["GetBucketPolicyAsync_string_AmazonServiceCallback<GetBucketPolicyRequest,GetBucketPolicyResponse>_AsyncOptions"] = 5637,
+		["GetBucketWebsiteAsync_string_AmazonServiceCallback<GetBucketWebsiteRequest,GetBucketWebsiteResponse>_AsyncOptions"] = 5644,
+		["GetBucketRequestPaymentAsync_string_AmazonServiceCallback<GetBucketRequestPaymentRequest,GetBucketRequestPaymentResponse>_AsyncOptions"] = 5639,
+		["GetACLAsync_GetACLRequest_AmazonServiceCallback<GetACLRequest,GetACLResponse>_AsyncOptions"] = 5630,
+		["GetBucketRequestPaymentAsync_GetBucketRequestPaymentRequest_AmazonServiceCallback<GetBucketRequestPaymentRequest,GetBucketRequestPaymentResponse>_AsyncOptions"] = 5640,
+		["ListBucketsAsync_ListBucketsRequest_AmazonServiceCallback<ListBucketsRequest,ListBucketsResponse>_AsyncOptions"] = 5656,
+		["RestoreObjectAsync_string_string_int_AmazonServiceCallback<RestoreObjectRequest,RestoreObjectResponse>_AsyncOptions"] = 5664,
+		["ListObjectsAsync_string_AmazonServiceCallback<ListObjectsRequest,ListObjectsResponse>_AsyncOptions"] = 5657,
+		["GetObjectAsync_string_string_AmazonServiceCallback<GetObjectRequest,GetObjectResponse>_AsyncOptions"] = 5650,
+		["ListVersionsAsync_ListVersionsRequest_AmazonServiceCallback<ListVersionsRequest,ListVersionsResponse>_AsyncOptions"] = 5662,
+		["RestoreObjectAsync_string_string_string_int_AmazonServiceCallback<RestoreObjectRequest,RestoreObjectResponse>_AsyncOptions"] = 5666,
+		["GetObjectAsync_string_string_string_AmazonServiceCallback<GetObjectRequest,GetObjectResponse>_AsyncOptions"] = 5651,
+		["ListVersionsAsync_string_string_AmazonServiceCallback<ListVersionsRequest,ListVersionsResponse>_AsyncOptions"] = 5661,
+		["GetObjectTorrentAsync_string_string_AmazonServiceCallback<GetObjectTorrentRequest,GetObjectTorrentResponse>_AsyncOptions"] = 5653,
+		PostObject = 5622,
+		GetBucketTaggingAsync = 5641,
+		["ListBucketsAsync_AmazonServiceCallback<ListBucketsRequest,ListBucketsResponse>_AsyncOptions"] = 5655,
+		DeleteObjectsAsync = 5628,
+		["GetLifecycleConfigurationAsync_string_AmazonServiceCallback<GetLifecycleConfigurationRequest,GetLifecycleConfigurationResponse>_AsyncOptions"] = 5648,
+		["GetBucketNotificationAsync_string_AmazonServiceCallback<GetBucketNotificationRequest,GetBucketNotificationResponse>_AsyncOptions"] = 5635,
+		["GetObjectTorrentAsync_GetObjectTorrentRequest_AmazonServiceCallback<GetObjectTorrentRequest,GetObjectTorrentResponse>_AsyncOptions"] = 5654,
+		PostResponseHelper = 5624,
+		ProcessPostResponse = 5623,
+		["RestoreObjectAsync_RestoreObjectRequest_AmazonServiceCallback<RestoreObjectRequest,RestoreObjectResponse>_AsyncOptions"] = 5667,
+		["GetBucketLocationAsync_string_AmazonServiceCallback<GetBucketLocationRequest,GetBucketLocationResponse>_AsyncOptions"] = 5631,
+		["ListObjectsAsync_ListObjectsRequest_AmazonServiceCallback<ListObjectsRequest,ListObjectsResponse>_AsyncOptions"] = 5659,
+		["RestoreObjectAsync_string_string_string_AmazonServiceCallback<RestoreObjectRequest,RestoreObjectResponse>_AsyncOptions"] = 5665,
+		["GetBucketWebsiteAsync_GetBucketWebsiteRequest_AmazonServiceCallback<GetBucketWebsiteRequest,GetBucketWebsiteResponse>_AsyncOptions"] = 5645,
+		["ListVersionsAsync_string_AmazonServiceCallback<ListVersionsRequest,ListVersionsResponse>_AsyncOptions"] = 5660,
+		CreateSignedPolicy = 5621,
+		["GetBucketLoggingAsync_GetBucketLoggingRequest_AmazonServiceCallback<GetBucketLoggingRequest,GetBucketLoggingResponse>_AsyncOptions"] = 5634,
+		CreateSigner = 5625,
+		["GetLifecycleConfigurationAsync_GetLifecycleConfigurationRequest_AmazonServiceCallback<GetLifecycleConfigurationRequest,GetLifecycleConfigurationResponse>_AsyncOptions"] = 5649,
+		["GetBucketNotificationAsync_GetBucketNotificationRequest_AmazonServiceCallback<GetBucketNotificationRequest,GetBucketNotificationResponse>_AsyncOptions"] = 5636,
+		["GetCORSConfigurationAsync_string_AmazonServiceCallback<GetCORSConfigurationRequest,GetCORSConfigurationResponse>_AsyncOptions"] = 5646,
+		PostObjectAsync = 5620,
+		["ListObjectsAsync_string_string_AmazonServiceCallback<ListObjectsRequest,ListObjectsResponse>_AsyncOptions"] = 5658,
+		["GetBucketPolicyAsync_GetBucketPolicyRequest_AmazonServiceCallback<GetBucketPolicyRequest,GetBucketPolicyResponse>_AsyncOptions"] = 5638,
+		["GetBucketVersioningAsync_GetBucketVersioningRequest_AmazonServiceCallback<GetBucketVersioningRequest,GetBucketVersioningResponse>_AsyncOptions"] = 5643,
+		["GetBucketVersioningAsync_string_AmazonServiceCallback<GetBucketVersioningRequest,GetBucketVersioningResponse>_AsyncOptions"] = 5642,
+		["GetACLAsync_string_AmazonServiceCallback<GetACLRequest,GetACLResponse>_AsyncOptions"] = 5629,
+		["GetBucketLoggingAsync_string_AmazonServiceCallback<GetBucketLoggingRequest,GetBucketLoggingResponse>_AsyncOptions"] = 5633,
+		["RestoreObjectAsync_string_string_AmazonServiceCallback<RestoreObjectRequest,RestoreObjectResponse>_AsyncOptions"] = 5663,
+		["GetBucketLocationAsync_GetBucketLocationRequest_AmazonServiceCallback<GetBucketLocationRequest,GetBucketLocationResponse>_AsyncOptions"] = 5632,
+		["GetCORSConfigurationAsync_GetCORSConfigurationRequest_AmazonServiceCallback<GetCORSConfigurationRequest,GetCORSConfigurationResponse>_AsyncOptions"] = 5647,
+		Dispose = 5627,
+		["GetObjectAsync_GetObjectRequest_AmazonServiceCallback<GetObjectRequest,GetObjectResponse>_AsyncOptions"] = 5652
+	},
+	["Amazon.S3.AmazonS3Config"] = {
+		get_ForcePathStyle = 5668,
+		get_RegionEndpointServiceName = 5671,
+		Initialize = 5670,
+		set_ForcePathStyle = 5669,
+		get_ServiceVersion = 5672,
+		get_UserAgent = 5673
+	},
+	["Amazon.S3.AmazonS3Exception"] = {
+		get_ResponseBody = 5676,
+		get_Message = 5678,
+		get_AmazonId2 = 5674,
+		set_ResponseBody = 5677,
+		set_AmazonId2 = 5675
+	},
+	["Amazon.S3.DeleteObjectsException"] = {
+		get_Response = 6162,
+		CreateMessage = 6164,
+		set_Response = 6163
+	},
+	["Amazon.S3.EncodingType"] = {
+		FindValue = 7574
+	},
+	["Amazon.S3.EventType"] = {
+		FindValue = 7575
+	},
+	["Amazon.S3.GranteeType"] = {
+		FindValue = 7571
+	},
+	["Amazon.S3.Internal.AmazonS3ExceptionHandler"] = {
+		InvokeAsyncCallback = 5687,
+		HandleException = 5688,
+		InvokeSync = 5686
+	},
+	["Amazon.S3.Internal.AmazonS3KmsHandler"] = {
+		InvokeAsync = 5690,
+		InvokeSync = 5689,
+		PreInvoke = 5691,
+		EvaluateIfSigV4Required = 5692
+	},
+	["Amazon.S3.Internal.AmazonS3PostMarshallHandler"] = {
+		IsDnsCompatibleBucketName = 5702,
+		InvokeSync = 5693,
+		IsValidBucketName = 5701,
+		ValidateSseKeyHeaders = 5699,
+		InvokeAsync = 5694,
+		GetBucketName = 5700,
+		PreInvoke = 5695,
+		ValidateHttpsOnlyHeaders = 5697,
+		StringContainsAny = 5703,
+		ProcessRequestHandlers = 5696,
+		ValidateSseHeaderValue = 5698
+	},
+	["Amazon.S3.Internal.AmazonS3PreMarshallHandler"] = {
+		DetermineBucketRegionCode = 5708,
+		ProcessPreRequestHandlers = 5707,
+		InvokeAsync = 5705,
+		InvokeSync = 5704,
+		PreInvoke = 5706
+	},
+	["Amazon.S3.Internal.AmazonS3RedirectHandler"] = {
+		FinalizeForRedirect = 5709
+	},
+	["Amazon.S3.Internal.AmazonS3ResponseHandler"] = {
+		HasSSEHeaders = 5714,
+		CompareHashes = 5715,
+		ProcessResponseHandlers = 5713,
+		PostInvoke = 5712,
+		InvokeAsyncCallback = 5711,
+		InvokeSync = 5710
+	},
+	["Amazon.S3.Internal.AmazonS3RetryPolicy"] = {
+		RetryForException = 5716
+	},
+	["Amazon.S3.Internal.S3Signer"] = {
+		BuildCanonicalizedResource = 5722,
+		BuildCanonicalizedHeaders = 5721,
+		SignRequest = 5719,
+		Sign = 5718,
+		BuildStringToSign = 5720,
+		get_Protocol = 5717
+	},
+	["Amazon.S3.LifecycleRuleStatus"] = {
+		FindValue = 7572
+	},
+	["Amazon.S3.Model.AbortMultipartUploadRequest"] = {
+		set_Key = 5857,
+		IsSetUploadId = 5861,
+		IsSetBucketName = 5855,
+		get_UploadId = 5859,
+		IsSetKey = 5858,
+		get_BucketName = 5853,
+		set_UploadId = 5860,
+		set_BucketName = 5854,
+		get_Key = 5856
+	},
+	["Amazon.S3.Model.ByteRange"] = {
+		get_Start = 5862,
+		get_End = 5864,
+		set_End = 5865,
+		set_Start = 5863,
+		get_FormattedByteRange = 5866
+	},
+	["Amazon.S3.Model.CloudFunctionConfiguration"] = {
+		IsSetInvocationRole = 5878,
+		set_CloudFunction = 5874,
+		IsSetId = 5869,
+		IsSetCloudFunction = 5875,
+		set_InvocationRole = 5877,
+		set_Id = 5868,
+		get_InvocationRole = 5876,
+		IsSetEvents = 5872,
+		set_Events = 5871,
+		get_CloudFunction = 5873,
+		get_Events = 5870,
+		get_Id = 5867
+	},
+	["Amazon.S3.Model.CompleteMultipartUploadRequest"] = {
+		set_Key = 5883,
+		["AddPartETags_CopyPartResponse[]"] = 5891,
+		["AddPartETags_IEnumerable<PartETag>"] = 5888,
+		get_UploadId = 5893,
+		IsSetKey = 5884,
+		IsSetUploadId = 5895,
+		["AddPartETags_PartETag[]"] = 5887,
+		set_BucketName = 5880,
+		get_Key = 5882,
+		["AddPartETags_IEnumerable<UploadPartResponse>"] = 5890,
+		set_PartETags = 5886,
+		IsSetBucketName = 5881,
+		get_PartETags = 5885,
+		get_BucketName = 5879,
+		set_UploadId = 5894,
+		["AddPartETags_UploadPartResponse[]"] = 5889,
+		["AddPartETags_IEnumerable<CopyPartResponse>"] = 5892
+	},
+	["Amazon.S3.Model.CompleteMultipartUploadResponse"] = {
+		IsSetETag = 5907,
+		IsSetLocation = 5898,
+		set_ServerSideEncryptionMethod = 5911,
+		IsSetKey = 5904,
+		IsSetServerSideEncryptionKeyManagementServiceKeyId = 5917,
+		set_Key = 5903,
+		get_ServerSideEncryptionMethod = 5910,
+		set_Location = 5897,
+		set_ServerSideEncryptionKeyManagementServiceKeyId = 5916,
+		get_BucketName = 5899,
+		set_VersionId = 5913,
+		set_BucketName = 5900,
+		get_Key = 5902,
+		get_ServerSideEncryptionKeyManagementServiceKeyId = 5915,
+		get_ETag = 5905,
+		IsSetBucketName = 5901,
+		get_VersionId = 5912,
+		set_ETag = 5906,
+		IsSetVersionId = 5914,
+		set_Expiration = 5909,
+		get_Expiration = 5908,
+		get_Location = 5896
+	},
+	["Amazon.S3.Model.CopyObjectRequest"] = {
+		IsSetServerSideEncryptionCustomerProvidedKey = 5971,
+		IsSetCopySourceServerSideEncryptionCustomerProvidedKeyMD5 = 5983,
+		set_ServerSideEncryptionMethod = 5951,
+		set_StorageClass = 5957,
+		set_DestinationKey = 5931,
+		IsSetStorageClass = 5958,
+		set_CopySourceServerSideEncryptionCustomerProvidedKeyMD5 = 5982,
+		set_ModifiedSinceDate = 5943,
+		get_ETagToMatch = 5936,
+		get_CannedACL = 5933,
+		get_CopySourceServerSideEncryptionCustomerProvidedKey = 5978,
+		IsSetCannedACL = 5935,
+		get_DestinationKey = 5930,
+		get_ServerSideEncryptionKeyManagementServiceKeyId = 5953,
+		IsSetServerSideEncryptionMethod = 5952,
+		IsSetWebsiteRedirectLocation = 5961,
+		IsSetSourceVersionId = 5926,
+		get_ServerSideEncryptionCustomerProvidedKey = 5969,
+		set_ServerSideEncryptionKeyManagementServiceKeyId = 5954,
+		get_ModifiedSinceDate = 5942,
+		set_CannedACL = 5934,
+		IsSetETagToNotMatch = 5941,
+		IsSetServerSideEncryptionCustomerMethod = 5968,
+		IsSetSourceKey = 5923,
+		set_ServerSideEncryptionCustomerProvidedKeyMD5 = 5973,
+		set_ETagToMatch = 5937,
+		get_UnmodifiedSinceDate = 5945,
+		IsSetSourceBucket = 5920,
+		set_CopySourceServerSideEncryptionCustomerProvidedKey = 5979,
+		set_UnmodifiedSinceDate = 5946,
+		get_CopySourceServerSideEncryptionCustomerProvidedKeyMD5 = 5981,
+		get_ServerSideEncryptionMethod = 5950,
+		get_Metadata = 5963,
+		set_ContentType = 5965,
+		set_ServerSideEncryptionCustomerMethod = 5967,
+		IsSetDestinationKey = 5932,
+		IsSetETagToMatch = 5938,
+		get_DestinationBucket = 5927,
+		get_StorageClass = 5956,
+		get_ContentType = 5964,
+		get_SourceKey = 5921,
+		set_WebsiteRedirectLocation = 5960,
+		get_WebsiteRedirectLocation = 5959,
+		set_SourceVersionId = 5925,
+		IsSetDestinationBucket = 5929,
+		get_MetadataDirective = 5948,
+		get_ServerSideEncryptionCustomerProvidedKeyMD5 = 5972,
+		set_SourceBucket = 5919,
+		set_DestinationBucket = 5928,
+		IsSetUnmodifiedSinceDate = 5947,
+		set_ServerSideEncryptionCustomerProvidedKey = 5970,
+		get_CopySourceServerSideEncryptionCustomerMethod = 5975,
+		IsSetModifiedSinceDate = 5944,
+		IsSetServerSideEncryptionKeyManagementServiceKeyId = 5955,
+		set_CopySourceServerSideEncryptionCustomerMethod = 5976,
+		set_SourceKey = 5922,
+		IsSetCopySourceServerSideEncryptionCustomerMethod = 5977,
+		IsSetCopySourceServerSideEncryptionCustomerProvidedKey = 5980,
+		IsSetServerSideEncryptionCustomerProvidedKeyMD5 = 5974,
+		get_SourceVersionId = 5924,
+		get_ServerSideEncryptionCustomerMethod = 5966,
+		get_SourceBucket = 5918,
+		set_ETagToNotMatch = 5940,
+		get_ETagToNotMatch = 5939,
+		set_MetadataDirective = 5949,
+		get_Headers = 5962
+	},
+	["Amazon.S3.Model.CopyObjectResponse"] = {
+		IsSetServerSideEncryptionKeyManagementServiceKeyId = 5996,
+		get_SourceVersionId = 5990,
+		set_ServerSideEncryptionKeyManagementServiceKeyId = 5995,
+		get_LastModified = 5986,
+		set_ETag = 5985,
+		get_ServerSideEncryptionKeyManagementServiceKeyId = 5994,
+		get_ServerSideEncryptionMethod = 5992,
+		set_LastModified = 5987,
+		set_ServerSideEncryptionMethod = 5993,
+		set_SourceVersionId = 5991,
+		set_Expiration = 5989,
+		get_Expiration = 5988,
+		get_ETag = 5984
+	},
+	["Amazon.S3.Model.CopyPartRequest"] = {
+		get_UnmodifiedSinceDate = 6024,
+		IsSetETagToMatch = 6017,
+		set_ServerSideEncryptionMethod = 6037,
+		set_ETagToMatch = 6016,
+		IsSetDestinationBucket = 6008,
+		get_CopySourceServerSideEncryptionCustomerProvidedKey = 6054,
+		set_CopySourceServerSideEncryptionCustomerProvidedKeyMD5 = 6058,
+		set_ModifiedSinceDate = 6022,
+		get_ServerSideEncryptionCustomerProvidedKey = 6042,
+		IsSetPartNumber = 6029,
+		IsSetFirstByte = 6032,
+		IsSetServerSideEncryptionCustomerMethod = 6041,
+		get_ServerSideEncryptionCustomerProvidedKeyMD5 = 6045,
+		IsSetServerSideEncryptionCustomerProvidedKey = 6044,
+		get_ServerSideEncryptionKeyManagementServiceKeyId = 6048,
+		IsSetServerSideEncryptionCustomerProvidedKeyMD5 = 6047,
+		set_FirstByte = 6031,
+		set_DestinationBucket = 6007,
+		set_ServerSideEncryptionKeyManagementServiceKeyId = 6049,
+		IsSetUnmodifiedSinceDate = 6026,
+		IsSetSourceVersionId = 6005,
+		IsSetETagToNotMatch = 6020,
+		IsSetLastByte = 6035,
+		IsSetSourceKey = 6002,
+		get_CopySourceServerSideEncryptionCustomerMethod = 6051,
+		set_UploadId = 6013,
+		IsSetServerSideEncryptionMethod = 6038,
+		IsSetModifiedSinceDate = 6023,
+		set_CopySourceServerSideEncryptionCustomerProvidedKey = 6055,
+		set_DestinationKey = 6010,
+		set_ETagsToNotMatch = 6019,
+		get_ETagToMatch = 6015,
+		get_DestinationKey = 6009,
+		get_PartNumber = 6027,
+		get_CopySourceServerSideEncryptionCustomerProvidedKeyMD5 = 6057,
+		IsSetServerSideEncryptionKeyManagementServiceKeyId = 6050,
+		set_CopySourceServerSideEncryptionCustomerMethod = 6052,
+		get_UploadId = 6012,
+		get_ServerSideEncryptionMethod = 6036,
+		IsSetUploadId = 6014,
+		IsSetCopySourceServerSideEncryptionCustomerMethod = 6053,
+		get_ETagsToNotMatch = 6018,
+		set_PartNumber = 6028,
+		set_LastByte = 6034,
+		IsSetCopySourceServerSideEncryptionCustomerProvidedKey = 6056,
+		get_FirstByte = 6030,
+		set_ServerSideEncryptionCustomerMethod = 6040,
+		get_SourceVersionId = 6003,
+		set_ServerSideEncryptionCustomerProvidedKey = 6043,
+		set_ServerSideEncryptionCustomerProvidedKeyMD5 = 6046,
+		IsSetSourceBucket = 5999,
+		get_ServerSideEncryptionCustomerMethod = 6039,
+		get_SourceBucket = 5997,
+		get_DestinationBucket = 6006,
+		IsSetDestinationKey = 6011,
+		get_LastByte = 6033,
+		set_SourceBucket = 5998,
+		set_SourceKey = 6001,
+		IsSetCopySourceServerSideEncryptionCustomerProvidedKeyMD5 = 6059,
+		get_SourceKey = 6000,
+		set_SourceVersionId = 6004,
+		set_UnmodifiedSinceDate = 6025,
+		get_ModifiedSinceDate = 6021
+	},
+	["Amazon.S3.Model.CopyPartResponse"] = {
+		set_PartNumber = 6073,
+		get_PartNumber = 6072,
+		get_CopySourceVersionId = 6060,
+		get_LastModified = 6066,
+		set_CopySourceVersionId = 6061,
+		IsSetServerSideEncryptionMethod = 6071,
+		get_ServerSideEncryptionMethod = 6069,
+		IsSetETag = 6065,
+		set_ServerSideEncryptionMethod = 6070,
+		IsSetCopySourceVersionId = 6062,
+		get_ServerSideEncryptionKeyManagementServiceKeyId = 6074,
+		get_ETag = 6063,
+		set_ServerSideEncryptionKeyManagementServiceKeyId = 6075,
+		set_ETag = 6064,
+		IsSetLastModified = 6068,
+		set_LastModified = 6067,
+		IsSetServerSideEncryptionKeyManagementServiceKeyId = 6076
+	},
+	["Amazon.S3.Model.CORSConfiguration"] = {
+		IsSetRules = 6079,
+		get_Rules = 6077,
+		set_Rules = 6078
+	},
+	["Amazon.S3.Model.CORSRule"] = {
+		set_AllowedMethods = 6081,
+		get_ExposeHeaders = 6089,
+		get_AllowedMethods = 6080,
+		IsSetAllowedMethods = 6082,
+		IsSetAllowedOrigins = 6085,
+		set_AllowedHeaders = 6096,
+		set_AllowedOrigins = 6084,
+		set_Id = 6087,
+		get_Id = 6086,
+		IsSetExposeHeaders = 6091,
+		IsSetId = 6088,
+		set_MaxAgeSeconds = 6093,
+		get_MaxAgeSeconds = 6092,
+		get_AllowedHeaders = 6095,
+		get_AllowedOrigins = 6083,
+		IsSetMaxAgeSeconds = 6094,
+		set_ExposeHeaders = 6090,
+		IsSetAllowedHeaders = 6097
+	},
+	["Amazon.S3.Model.DeleteBucketPolicyRequest"] = {
+		set_BucketName = 6099,
+		IsSetBucketName = 6100,
+		get_BucketName = 6098
+	},
+	["Amazon.S3.Model.DeleteBucketReplicationRequest"] = {
+		set_BucketName = 6102,
+		IsSetBucketName = 6103,
+		get_BucketName = 6101
+	},
+	["Amazon.S3.Model.DeleteBucketRequest"] = {
+		IsSetBucketRegion = 6109,
+		set_UseClientRegion = 6111,
+		IsSetBucketName = 6106,
+		set_BucketRegion = 6108,
+		set_BucketName = 6105,
+		get_UseClientRegion = 6110,
+		get_BucketRegion = 6107,
+		get_BucketName = 6104
+	},
+	["Amazon.S3.Model.DeleteBucketTaggingRequest"] = {
+		set_BucketName = 6113,
+		IsSetBucketName = 6114,
+		get_BucketName = 6112
+	},
+	["Amazon.S3.Model.DeleteBucketWebsiteRequest"] = {
+		set_BucketName = 6116,
+		IsSetBucketName = 6117,
+		get_BucketName = 6115
+	},
+	["Amazon.S3.Model.DeleteCORSConfigurationRequest"] = {
+		set_BucketName = 6119,
+		IsSetBucketName = 6120,
+		get_BucketName = 6118
+	},
+	["Amazon.S3.Model.DeletedObject"] = {
+		get_DeleteMarker = 6121,
+		IsSetDeleteMarkerVersionId = 6126,
+		IsSetVersionId = 6132,
+		get_VersionId = 6130,
+		set_DeleteMarker = 6122,
+		set_Key = 6128,
+		IsSetKey = 6129,
+		get_DeleteMarkerVersionId = 6124,
+		set_VersionId = 6131,
+		IsSetDeleteMarker = 6123,
+		set_DeleteMarkerVersionId = 6125,
+		get_Key = 6127
+	},
+	["Amazon.S3.Model.DeleteError"] = {
+		set_Key = 6134,
+		get_Message = 6139,
+		set_Code = 6138,
+		get_VersionId = 6135,
+		set_Message = 6140,
+		get_Key = 6133,
+		set_VersionId = 6136,
+		get_Code = 6137
+	},
+	["Amazon.S3.Model.DeleteLifecycleConfigurationRequest"] = {
+		set_BucketName = 6142,
+		IsSetBucketName = 6143,
+		get_BucketName = 6141
+	},
+	["Amazon.S3.Model.DeleteObjectRequest"] = {
+		IsSetVersionId = 6152,
+		IsSetMfaCodes = 6155,
+		IsSetBucketName = 6146,
+		get_VersionId = 6150,
+		set_Key = 6148,
+		set_MfaCodes = 6154,
+		IsSetKey = 6149,
+		get_BucketName = 6144,
+		set_VersionId = 6151,
+		get_MfaCodes = 6153,
+		set_BucketName = 6145,
+		get_Key = 6147
+	},
+	["Amazon.S3.Model.DeleteObjectResponse"] = {
+		get_DeleteMarker = 6156,
+		IsSetDeleteMarker = 6158,
+		set_VersionId = 6160,
+		get_VersionId = 6159,
+		set_DeleteMarker = 6157,
+		IsSetVersionId = 6161
+	},
+	["Amazon.S3.Model.DeleteObjectsRequest"] = {
+		IsSetMfaCodes = 6176,
+		set_Quiet = 6172,
+		IsSetBucketName = 6167,
+		get_Objects = 6168,
+		set_Objects = 6169,
+		IsSetObjects = 6170,
+		get_Quiet = 6171,
+		get_BucketName = 6165,
+		IsSetQuiet = 6173,
+		get_MfaCodes = 6174,
+		AddKey_string = 6177,
+		set_BucketName = 6166,
+		set_MfaCodes = 6175,
+		AddKey_string_string = 6178,
+		AddKey_KeyVersion = 6179
+	},
+	["Amazon.S3.Model.DeleteObjectsResponse"] = {
+		IsSetDeletedObjects = 6182,
+		set_DeletedObjects = 6181,
+		IsSetDeleteErrors = 6185,
+		get_DeleteErrors = 6183,
+		set_DeleteErrors = 6184,
+		get_DeletedObjects = 6180
+	},
+	["Amazon.S3.Model.Expiration"] = {
+		UrlDecode = 6190,
+		get_ExpiryDate = 6186,
+		set_RuleId = 6189,
+		set_ExpiryDate = 6187,
+		get_RuleId = 6188
+	},
+	["Amazon.S3.Model.Filter"] = {
+		get_S3KeyFilter = 6191,
+		set_S3KeyFilter = 6192,
+		IsSetS3KeyFilter = 6193
+	},
+	["Amazon.S3.Model.FilterRule"] = {
+		set_Name = 6195,
+		IsSetValue = 6199,
+		set_Value = 6198,
+		get_Value = 6197,
+		IsSetName = 6196,
+		get_Name = 6194
+	},
+	["Amazon.S3.Model.GetACLRequest"] = {
+		set_Key = 6204,
+		IsSetVersionId = 6208,
+		set_VersionId = 6207,
+		get_VersionId = 6206,
+		IsSetKey = 6205,
+		get_BucketName = 6200,
+		set_BucketName = 6201,
+		get_Key = 6203,
+		IsSetBucket = 6202
+	},
+	["Amazon.S3.Model.GetACLResponse"] = {
+		set_AccessControlList = 6210,
+		get_AccessControlList = 6209
+	},
+	["Amazon.S3.Model.GetBucketLocationRequest"] = {
+		set_BucketName = 6212,
+		IsSetBucketName = 6213,
+		get_BucketName = 6211
+	},
+	["Amazon.S3.Model.GetBucketLocationResponse"] = {
+		set_Location = 6215,
+		get_Location = 6214
+	},
+	["Amazon.S3.Model.GetBucketLoggingRequest"] = {
+		set_BucketName = 6217,
+		IsSetBucketName = 6218,
+		get_BucketName = 6216
+	},
+	["Amazon.S3.Model.GetBucketLoggingResponse"] = {
+		get_BucketLoggingConfig = 6219,
+		set_BucketLoggingConfig = 6220
+	},
+	["Amazon.S3.Model.GetBucketNotificationRequest"] = {
+		set_BucketName = 6222,
+		IsSetBucketName = 6223,
+		get_BucketName = 6221
+	},
+	["Amazon.S3.Model.GetBucketNotificationResponse"] = {
+		set_TopicConfigurations = 6225,
+		get_QueueConfigurations = 6226,
+		get_TopicConfigurations = 6224,
+		get_LambdaFunctionConfigurations = 6228,
+		set_QueueConfigurations = 6227,
+		set_LambdaFunctionConfigurations = 6229
+	},
+	["Amazon.S3.Model.GetBucketPolicyRequest"] = {
+		set_BucketName = 6231,
+		IsSetBucket = 6232,
+		get_BucketName = 6230
+	},
+	["Amazon.S3.Model.GetBucketPolicyResponse"] = {
+		set_Policy = 6234,
+		get_Policy = 6233,
+		IsSetPolicy = 6235
+	},
+	["Amazon.S3.Model.GetBucketReplicationRequest"] = {
+		set_BucketName = 6237,
+		IsSetBucketName = 6238,
+		get_BucketName = 6236
+	},
+	["Amazon.S3.Model.GetBucketReplicationResponse"] = {
+		get_Configuration = 6239,
+		set_Configuration = 6240
+	},
+	["Amazon.S3.Model.GetBucketRequestPaymentRequest"] = {
+		set_BucketName = 6242,
+		IsSetBucketName = 6243,
+		get_BucketName = 6241
+	},
+	["Amazon.S3.Model.GetBucketRequestPaymentResponse"] = {
+		set_Payer = 6245,
+		IsSetPayer = 6246,
+		get_Payer = 6244
+	},
+	["Amazon.S3.Model.GetBucketTaggingRequest"] = {
+		set_BucketName = 6248,
+		IsSetBucketName = 6249,
+		get_BucketName = 6247
+	},
+	["Amazon.S3.Model.GetBucketTaggingResponse"] = {
+		set_TagSet = 6251,
+		get_TagSet = 6250,
+		IsSetTagSet = 6252
+	},
+	["Amazon.S3.Model.GetBucketVersioningRequest"] = {
+		set_BucketName = 6254,
+		IsSetBucketName = 6255,
+		get_BucketName = 6253
+	},
+	["Amazon.S3.Model.GetBucketVersioningResponse"] = {
+		get_VersioningConfig = 6256,
+		set_VersioningConfig = 6257
+	},
+	["Amazon.S3.Model.GetBucketWebsiteRequest"] = {
+		set_BucketName = 6259,
+		IsSetBucketName = 6260,
+		get_BucketName = 6258
+	},
+	["Amazon.S3.Model.GetBucketWebsiteResponse"] = {
+		set_WebsiteConfiguration = 6262,
+		get_WebsiteConfiguration = 6261
+	},
+	["Amazon.S3.Model.GetCORSConfigurationRequest"] = {
+		set_BucketName = 6264,
+		IsSetBucketName = 6265,
+		get_BucketName = 6263
+	},
+	["Amazon.S3.Model.GetCORSConfigurationResponse"] = {
+		set_Configuration = 6267,
+		IsSetConfiguration = 6268,
+		get_Configuration = 6266
+	},
+	["Amazon.S3.Model.GetLifecycleConfigurationRequest"] = {
+		set_BucketName = 6270,
+		IsSetBucketName = 6271,
+		get_BucketName = 6269
+	},
+	["Amazon.S3.Model.GetLifecycleConfigurationResponse"] = {
+		get_Configuration = 6272,
+		set_Configuration = 6273
+	},
+	["Amazon.S3.Model.GetObjectMetadataRequest"] = {
+		get_UnmodifiedSinceDate = 6286,
+		get_ServerSideEncryptionCustomerMethod = 6295,
+		get_ServerSideEncryptionCustomerProvidedKey = 6298,
+		get_ModifiedSinceDate = 6280,
+		get_ServerSideEncryptionCustomerProvidedKeyMD5 = 6301,
+		IsSetServerSideEncryptionCustomerProvidedKey = 6300,
+		IsSetKey = 6291,
+		set_ModifiedSinceDate = 6281,
+		get_EtagToMatch = 6277,
+		IsSetUnmodifiedSinceDate = 6288,
+		IsSetEtagToMatch = 6279,
+		IsSetVersionId = 6294,
+		IsSetServerSideEncryptionCustomerMethod = 6297,
+		get_Key = 6289,
+		set_BucketName = 6275,
+		set_ServerSideEncryptionCustomerMethod = 6296,
+		set_EtagToNotMatch = 6284,
+		set_Key = 6290,
+		IsSetBucketName = 6276,
+		get_VersionId = 6292,
+		IsSetServerSideEncryptionCustomerProvidedKeyMD5 = 6303,
+		IsSetEtagToNotMatch = 6285,
+		set_ServerSideEncryptionCustomerProvidedKey = 6299,
+		get_BucketName = 6274,
+		set_ServerSideEncryptionCustomerProvidedKeyMD5 = 6302,
+		get_EtagToNotMatch = 6283,
+		set_EtagToMatch = 6278,
+		IsSetModifiedSinceDate = 6282,
+		set_UnmodifiedSinceDate = 6287,
+		set_VersionId = 6293
+	},
+	["Amazon.S3.Model.GetObjectMetadataResponse"] = {
+		get_StorageClass = 6349,
+		get_ETag = 6322,
+		get_WebsiteRedirectLocation = 6334,
+		get_LastModified = 6319,
+		set_Expires = 6332,
+		IsSetStorageClass = 6351,
+		IsSetMissingMeta = 6327,
+		IsSetReplicationStatus = 6348,
+		IsSetExpiration = 6314,
+		get_ServerSideEncryptionKeyManagementServiceKeyId = 6343,
+		IsSetExpires = 6333,
+		set_RestoreInProgress = 6318,
+		get_ReplicationStatus = 6346,
+		set_DeleteMarker = 6307,
+		IsSetServerSideEncryptionMethod = 6339,
+		IsSetWebsiteRedirectLocation = 6336,
+		set_ETag = 6323,
+		IsSetAcceptRanges = 6311,
+		set_ServerSideEncryptionKeyManagementServiceKeyId = 6344,
+		get_VersionId = 6328,
+		set_ReplicationStatus = 6347,
+		get_MissingMeta = 6325,
+		IsSetLastModified = 6321,
+		get_RestoreInProgress = 6317,
+		get_Expires = 6331,
+		IsSetDeleteMarker = 6308,
+		set_RestoreExpiration = 6316,
+		IsSetServerSideEncryptionCustomerMethod = 6342,
+		set_LastModified = 6320,
+		set_ServerSideEncryptionMethod = 6338,
+		get_Expiration = 6312,
+		IsSetServerSideEncryptionKeyManagementServiceKeyId = 6345,
+		set_StorageClass = 6350,
+		set_MissingMeta = 6326,
+		set_VersionId = 6329,
+		get_ServerSideEncryptionMethod = 6337,
+		set_AcceptRanges = 6310,
+		get_Metadata = 6305,
+		IsSetETag = 6324,
+		set_ServerSideEncryptionCustomerMethod = 6341,
+		get_DeleteMarker = 6306,
+		get_ServerSideEncryptionCustomerMethod = 6340,
+		get_AcceptRanges = 6309,
+		IsSetVersionId = 6330,
+		set_Expiration = 6313,
+		get_Headers = 6304,
+		set_WebsiteRedirectLocation = 6335,
+		get_RestoreExpiration = 6315
+	},
+	["Amazon.S3.Model.GetObjectRequest"] = {
+		IsSetServerSideEncryptionCustomerProvidedKey = 6386,
+		IsSetVersionId = 6380,
+		IsSetUnmodifiedSinceDate = 6366,
+		IsSetServerSideEncryptionCustomerProvidedKeyMD5 = 6389,
+		IsSetEtagToNotMatch = 6363,
+		IsSetServerSideEncryptionCustomerMethod = 6383,
+		get_ServerSideEncryptionCustomerProvidedKeyMD5 = 6387,
+		set_ModifiedSinceDate = 6359,
+		get_EtagToMatch = 6355,
+		IsSetResponseExpires = 6377,
+		IsSetByteRange = 6372,
+		get_ResponseExpires = 6375,
+		set_BucketName = 6353,
+		get_Key = 6367,
+		IsSetModifiedSinceDate = 6360,
+		set_ResponseHeaderOverrides = 6374,
+		get_ModifiedSinceDate = 6358,
+		get_ServerSideEncryptionCustomerMethod = 6381,
+		IsSetBucketName = 6354,
+		get_VersionId = 6378,
+		get_UnmodifiedSinceDate = 6364,
+		set_EtagToNotMatch = 6362,
+		set_ServerSideEncryptionCustomerProvidedKey = 6385,
+		get_ByteRange = 6370,
+		set_ServerSideEncryptionCustomerProvidedKeyMD5 = 6388,
+		get_EtagToNotMatch = 6361,
+		set_UnmodifiedSinceDate = 6365,
+		get_ResponseHeaderOverrides = 6373,
+		set_VersionId = 6379,
+		get_ServerSideEncryptionCustomerProvidedKey = 6384,
+		IsSetKey = 6369,
+		IsSetEtagToMatch = 6357,
+		set_EtagToMatch = 6356,
+		set_Key = 6368,
+		set_ServerSideEncryptionCustomerMethod = 6382,
+		set_ResponseExpires = 6376,
+		get_BucketName = 6352,
+		set_ByteRange = 6371
+	},
+	["Amazon.S3.Model.GetObjectResponse"] = {
+		get_BucketName = 6390,
+		get_ServerSideEncryptionKeyManagementServiceKeyId = 6433,
+		get_WebsiteRedirectLocation = 6424,
+		get_LastModified = 6409,
+		set_Expires = 6422,
+		IsSetStorageClass = 6432,
+		IsSetReplicationStatus = 6438,
+		IsSetMissingMeta = 6417,
+		IsSetExpiration = 6404,
+		get_ReplicationStatus = 6436,
+		IsSetExpires = 6423,
+		set_RestoreInProgress = 6408,
+		set_BucketName = 6391,
+		get_Key = 6392,
+		IsSetServerSideEncryptionMethod = 6429,
+		get_ETag = 6412,
+		IsSetWebsiteRedirectLocation = 6426,
+		set_DeleteMarker = 6395,
+		set_ServerSideEncryptionKeyManagementServiceKeyId = 6434,
+		get_VersionId = 6418,
+		IsSetAcceptRanges = 6401,
+		get_MissingMeta = 6415,
+		IsSetLastModified = 6411,
+		get_RestoreInProgress = 6407,
+		get_Expires = 6421,
+		IsSetDeleteMarker = 6396,
+		set_Key = 6393,
+		set_LastModified = 6410,
+		set_ReplicationStatus = 6437,
+		set_RestoreExpiration = 6406,
+		get_Expiration = 6402,
+		IsSetServerSideEncryptionKeyManagementServiceKeyId = 6435,
+		get_StorageClass = 6430,
+		set_MissingMeta = 6416,
+		set_ETag = 6413,
+		set_ServerSideEncryptionMethod = 6428,
+		set_StorageClass = 6431,
+		set_VersionId = 6419,
+		get_ServerSideEncryptionMethod = 6427,
+		set_AcceptRanges = 6400,
+		get_Metadata = 6398,
+		IsSetETag = 6414,
+		set_ServerSideEncryptionCustomerMethod = 6440,
+		get_DeleteMarker = 6394,
+		get_ServerSideEncryptionCustomerMethod = 6439,
+		get_AcceptRanges = 6399,
+		IsSetVersionId = 6420,
+		set_Expiration = 6403,
+		get_Headers = 6397,
+		set_WebsiteRedirectLocation = 6425,
+		get_RestoreExpiration = 6405
+	},
+	["Amazon.S3.Model.GetObjectTorrentRequest"] = {
+		set_Key = 6445,
+		IsSetBucketName = 6443,
+		set_BucketName = 6442,
+		get_Key = 6444,
+		IsSetKey = 6446,
+		get_BucketName = 6441
+	},
+	["Amazon.S3.Model.GetPreSignedUrlRequest"] = {
+		get_ServerSideEncryptionMethod = 6465,
+		set_Metadata = 6478,
+		set_ServerSideEncryptionMethod = 6466,
+		IsSetServerSideEncryptionCustomerMethod = 6472,
+		set_Expires = 6456,
+		set_BucketName = 6448,
+		IsSetKey = 6452,
+		set_Headers = 6476,
+		IsSetVersionId = 6464,
+		set_ContentType = 6454,
+		IsSetExpires = 6457,
+		set_Key = 6451,
+		get_Metadata = 6477,
+		get_Key = 6450,
+		get_ServerSideEncryptionKeyManagementServiceKeyId = 6467,
+		set_ResponseHeaderOverrides = 6474,
+		set_Protocol = 6459,
+		get_Verb = 6460,
+		IsSetBucketName = 6449,
+		get_VersionId = 6462,
+		get_ServerSideEncryptionCustomerMethod = 6470,
+		set_Verb = 6461,
+		set_ServerSideEncryptionKeyManagementServiceKeyId = 6468,
+		get_BucketName = 6447,
+		get_Expires = 6455,
+		get_ResponseHeaderOverrides = 6473,
+		get_ContentType = 6453,
+		get_Headers = 6475,
+		set_ServerSideEncryptionCustomerMethod = 6471,
+		set_VersionId = 6463,
+		get_Protocol = 6458,
+		IsSetServerSideEncryptionKeyManagementServiceKeyId = 6469
+	},
+	["Amazon.S3.Model.HeadBucketRequest"] = {
+		set_BucketName = 6480,
+		IsSetBucketName = 6481,
+		get_BucketName = 6479
+	},
+	["Amazon.S3.Model.HeadersCollection"] = {
+		set_Expires = 6500,
+		get_Keys = 6485,
+		get_ContentDisposition = 6488,
+		get_Item = 6482,
+		set_ContentType = 6497,
+		IsSetContentType = 6498,
+		set_Item = 6483,
+		set_ContentLength = 6493,
+		set_CacheControl = 6487,
+		get_ContentLength = 6492,
+		get_Count = 6484,
+		get_ContentMD5 = 6494,
+		get_Expires = 6499,
+		get_ContentEncoding = 6490,
+		get_ContentType = 6496,
+		set_ContentMD5 = 6495,
+		set_ContentEncoding = 6491,
+		get_CacheControl = 6486,
+		set_ContentDisposition = 6489
+	},
+	["Amazon.S3.Model.InitiateMultipartUploadRequest"] = {
+		IsSetServerSideEncryptionCustomerProvidedKey = 6537,
+		IsSetServerSideEncryptionCustomerProvidedKeyMD5 = 6540,
+		get_WebsiteRedirectLocation = 6517,
+		get_IV = 6503,
+		get_BucketName = 6508,
+		IsSetStorageClass = 6516,
+		get_ServerSideEncryptionMethod = 6526,
+		set_CannedACL = 6506,
+		IsSetServerSideEncryptionCustomerMethod = 6534,
+		IsSetCannedACL = 6507,
+		get_ServerSideEncryptionKeyManagementServiceKeyId = 6529,
+		set_EnvelopeKey = 6502,
+		set_BucketName = 6509,
+		get_Key = 6511,
+		IsSetServerSideEncryptionMethod = 6528,
+		IsSetWebsiteRedirectLocation = 6519,
+		get_ServerSideEncryptionCustomerProvidedKeyMD5 = 6538,
+		get_CannedACL = 6505,
+		IsSetBucketName = 6510,
+		set_ServerSideEncryptionKeyManagementServiceKeyId = 6530,
+		set_ServerSideEncryptionMethod = 6527,
+		set_StorageClass = 6515,
+		set_ServerSideEncryptionCustomerProvidedKey = 6536,
+		get_EnvelopeKey = 6501,
+		set_ServerSideEncryptionCustomerProvidedKeyMD5 = 6539,
+		set_IV = 6504,
+		IsSetServerSideEncryptionKeyManagementServiceKeyId = 6531,
+		set_Metadata = 6523,
+		get_ServerSideEncryptionCustomerProvidedKey = 6535,
+		IsSetKey = 6513,
+		set_Headers = 6521,
+		get_Metadata = 6522,
+		set_Key = 6512,
+		set_ContentType = 6525,
+		set_ServerSideEncryptionCustomerMethod = 6533,
+		get_ServerSideEncryptionCustomerMethod = 6532,
+		get_StorageClass = 6514,
+		get_ContentType = 6524,
+		get_Headers = 6520,
+		set_WebsiteRedirectLocation = 6518
+	},
+	["Amazon.S3.Model.InitiateMultipartUploadResponse"] = {
+		get_ServerSideEncryptionMethod = 6550,
+		IsSetUploadId = 6549,
+		IsSetBucketName = 6543,
+		set_Key = 6545,
+		set_ServerSideEncryptionKeyManagementServiceKeyId = 6553,
+		get_UploadId = 6547,
+		IsSetKey = 6546,
+		get_BucketName = 6541,
+		set_ServerSideEncryptionMethod = 6551,
+		set_UploadId = 6548,
+		set_BucketName = 6542,
+		get_Key = 6544,
+		get_ServerSideEncryptionKeyManagementServiceKeyId = 6552,
+		IsSetServerSideEncryptionKeyManagementServiceKeyId = 6554
+	},
+	["Amazon.S3.Model.Initiator"] = {
+		set_DisplayName = 6556,
+		IsSetDisplayName = 6557,
+		IsSetId = 6560,
+		set_Id = 6559,
+		get_DisplayName = 6555,
+		get_Id = 6558
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.AbortMultipartUploadRequestMarshaller"] = {
+		Marshall_AbortMultipartUploadRequest = 6562,
+		Marshall_AmazonWebServiceRequest = 6561
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.AbortMultipartUploadResponseUnmarshaller"] = {
+		get_Instance = 6564,
+		Unmarshall = 6563
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.BucketUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6566,
+		Unmarshall_XmlUnmarshallerContext = 6565,
+		get_Instance = 6567
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.CommonPrefixesItemUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6572,
+		Unmarshall_XmlUnmarshallerContext = 6571,
+		get_Instance = 6573
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.CompleteMultipartUploadRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6574,
+		Marshall_CompleteMultipartUploadRequest = 6575
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.CompleteMultipartUploadResponseUnmarshaller"] = {
+		Unmarshall = 6576,
+		get_Instance = 6578,
+		UnmarshallResult = 6577
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.ContentsItemUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6580,
+		Unmarshall_XmlUnmarshallerContext = 6579,
+		get_Instance = 6581
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.CopyObjectRequestMarshaller"] = {
+		ConstructCopySourceHeaderValue = 6584,
+		Marshall_CopyObjectRequest = 6583,
+		Marshall_AmazonWebServiceRequest = 6582
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.CopyObjectResponseUnmarshaller"] = {
+		Unmarshall = 6585,
+		get_Instance = 6587,
+		UnmarshallResult = 6586
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.CopyPartRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6588,
+		Marshall_CopyPartRequest = 6589,
+		ConstructCopySourceHeaderValue = 6590,
+		ConstructCopySourceRangeHeader = 6591
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.CopyPartResponseUnmarshaller"] = {
+		Unmarshall = 6592,
+		get_Instance = 6594,
+		UnmarshallResult = 6593
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.CORSRuleUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6596,
+		Unmarshall_XmlUnmarshallerContext = 6595,
+		get_Instance = 6597
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteBucketPolicyRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6600,
+		Marshall_DeleteBucketPolicyRequest = 6601
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteBucketPolicyResponseUnmarshaller"] = {
+		get_Instance = 6603,
+		Unmarshall = 6602
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteBucketReplicationRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6604,
+		Marshall_DeleteBucketReplicationRequest = 6605
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteBucketReplicationResponseUnmarshaller"] = {
+		get_Instance = 6607,
+		Unmarshall = 6606
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteBucketRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6608,
+		Marshall_DeleteBucketRequest = 6609
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteBucketResponseUnmarshaller"] = {
+		get_Instance = 6611,
+		Unmarshall = 6610
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteBucketTaggingRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6612,
+		Marshall_DeleteBucketTaggingRequest = 6613
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteBucketTaggingResponseUnmarshaller"] = {
+		get_Instance = 6615,
+		Unmarshall = 6614
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteBucketWebsiteRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6616,
+		Marshall_DeleteBucketWebsiteRequest = 6617
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteBucketWebsiteResponseUnmarshaller"] = {
+		get_Instance = 6619,
+		Unmarshall = 6618
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteCORSConfigurationRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6620,
+		Marshall_DeleteCORSConfigurationRequest = 6621
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteCORSConfigurationResponseUnmarshaller"] = {
+		get_Instance = 6599,
+		Unmarshall = 6598
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeletedObjectUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6623,
+		Unmarshall_XmlUnmarshallerContext = 6622,
+		get_Instance = 6624
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteLifecycleConfigurationRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6625,
+		Marshall_DeleteLifecycleConfigurationRequest = 6626
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteLifecycleConfigurationResponseUnmarshaller"] = {
+		get_Instance = 6628,
+		Unmarshall = 6627
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteObjectRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6629,
+		Marshall_DeleteObjectRequest = 6630
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteObjectResponseUnmarshaller"] = {
+		Unmarshall = 6631,
+		get_Instance = 6633,
+		UnmarshallResult = 6632
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteObjectsRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6634,
+		Marshall_DeleteObjectsRequest = 6635
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.DeleteObjectsResponseUnmarshaller"] = {
+		Unmarshall = 6636,
+		get_Instance = 6638,
+		UnmarshallResult = 6637
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.ErrorsItemUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6640,
+		Unmarshall_XmlUnmarshallerContext = 6639,
+		get_Instance = 6641
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.ExpirationUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6643,
+		Unmarshall_XmlUnmarshallerContext = 6642,
+		get_Instance = 6644
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.FilterRuleUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6646,
+		Unmarshall_XmlUnmarshallerContext = 6645,
+		get_Instance = 6647
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.FilterUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6649,
+		Unmarshall_XmlUnmarshallerContext = 6648,
+		get_Instance = 6650
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetACLRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6651,
+		Marshall_GetACLRequest = 6652
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetACLResponseUnmarshaller"] = {
+		Unmarshall = 6653,
+		get_Instance = 6655,
+		UnmarshallResult = 6654
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketLocationRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6656,
+		Marshall_GetBucketLocationRequest = 6657
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketLocationResponseUnmarshaller"] = {
+		Unmarshall = 6658,
+		get_Instance = 6660,
+		UnmarshallResult = 6659
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketLoggingRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6661,
+		Marshall_GetBucketLoggingRequest = 6662
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketLoggingResponseUnmarshaller"] = {
+		Unmarshall = 6663,
+		get_Instance = 6665,
+		UnmarshallResult = 6664
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketNotificationRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6666,
+		Marshall_GetBucketNotificationRequest = 6667
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketNotificationResponseUnmarshaller"] = {
+		Unmarshall = 6668,
+		get_Instance = 6670,
+		UnmarshallResult = 6669
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketPolicyRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6671,
+		Marshall_GetBucketPolicyRequest = 6672
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketPolicyResponseUnmarshaller"] = {
+		Unmarshall = 6673,
+		get_Instance = 6675,
+		UnmarshallResult = 6674
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketReplicationRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6676,
+		Marshall_GetBucketReplicationRequest = 6677
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketReplicationResponseUnmarshaller"] = {
+		Unmarshall = 6678,
+		get_Instance = 6680,
+		UnmarshallResult = 6679
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketRequestPaymentRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6681,
+		Marshall_GetBucketRequestPaymentRequest = 6682
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketRequestPaymentResponseUnmarshaller"] = {
+		Unmarshall = 6683,
+		get_Instance = 6685,
+		UnmarshallResult = 6684
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketTaggingRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6686,
+		Marshall_GetBucketTaggingRequest = 6687
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketTaggingResponseUnmarshaller"] = {
+		Unmarshall = 6688,
+		get_Instance = 6690,
+		UnmarshallResult = 6689
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketVersioningRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6691,
+		Marshall_GetBucketVersioningRequest = 6692
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketVersioningResponseUnmarshaller"] = {
+		Unmarshall = 6693,
+		get_Instance = 6695,
+		UnmarshallResult = 6694
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketWebsiteRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6696,
+		Marshall_GetBucketWebsiteRequest = 6697
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetBucketWebsiteResponseUnmarshaller"] = {
+		Unmarshall = 6698,
+		get_Instance = 6700,
+		UnmarshallResult = 6699
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetCORSConfigurationRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6701,
+		Marshall_GetCORSConfigurationRequest = 6702
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetCORSConfigurationResponseUnmarshaller"] = {
+		Unmarshall = 6703,
+		get_Instance = 6705,
+		UnmarshallResult = 6704
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetLifecycleConfigurationRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6706,
+		Marshall_GetLifecycleConfigurationRequest = 6707
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetLifecycleConfigurationResponseUnmarshaller"] = {
+		Unmarshall = 6708,
+		get_Instance = 6710,
+		UnmarshallResult = 6709
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetObjectMetadataRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6711,
+		Marshall_GetObjectMetadataRequest = 6712
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetObjectMetadataResponseUnmarshaller"] = {
+		Unmarshall = 6713,
+		get_Instance = 6715,
+		UnmarshallResult = 6714
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetObjectRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6716,
+		Marshall_GetObjectRequest = 6717
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetObjectResponseUnmarshaller"] = {
+		get_HasStreamingProperty = 6720,
+		Unmarshall = 6718,
+		get_Instance = 6721,
+		UnmarshallResult = 6719
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetObjectTorrentRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6722,
+		Marshall_GetObjectTorrentRequest = 6723
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GetObjectTorrentResponseUnmarshaller"] = {
+		get_HasStreamingProperty = 6726,
+		Unmarshall = 6724,
+		get_Instance = 6727,
+		UnmarshallResult = 6725
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GranteeUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6729,
+		Unmarshall_XmlUnmarshallerContext = 6728,
+		get_Instance = 6730
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.GrantUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6732,
+		Unmarshall_XmlUnmarshallerContext = 6731,
+		get_Instance = 6733
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.HeadBucketRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6734,
+		Marshall_HeadBucketRequest = 6735
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.HeadBucketResponseUnmarshaller"] = {
+		get_Instance = 6737,
+		Unmarshall = 6736
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.InitiateMultipartUploadRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6738,
+		Marshall_InitiateMultipartUploadRequest = 6739
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.InitiateMultipartUploadResponseUnmarshaller"] = {
+		Unmarshall = 6740,
+		get_Instance = 6742,
+		UnmarshallResult = 6741
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.InitiatorUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6744,
+		Unmarshall_XmlUnmarshallerContext = 6743,
+		get_Instance = 6745
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.LambdaFunctionConfigurationUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6569,
+		Unmarshall_XmlUnmarshallerContext = 6568,
+		get_Instance = 6570
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.LifecycleRuleNoncurrentVersionExpirationUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6747,
+		Unmarshall_XmlUnmarshallerContext = 6746,
+		get_Instance = 6748
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.LifecycleRuleNoncurrentVersionTransitionUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6750,
+		Unmarshall_XmlUnmarshallerContext = 6749,
+		get_Instance = 6751
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.ListBucketsRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6752,
+		Marshall_ListBucketsRequest = 6753
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.ListBucketsResponseUnmarshaller"] = {
+		Unmarshall = 6754,
+		get_Instance = 6756,
+		UnmarshallResult = 6755
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.ListMultipartUploadsRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6757,
+		Marshall_ListMultipartUploadsRequest = 6758
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.ListMultipartUploadsResponseUnmarshaller"] = {
+		Unmarshall = 6759,
+		get_Instance = 6761,
+		UnmarshallResult = 6760
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.ListObjectsRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6762,
+		Marshall_ListObjectsRequest = 6763
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.ListObjectsResponseUnmarshaller"] = {
+		Unmarshall = 6764,
+		get_Instance = 6766,
+		UnmarshallResult = 6765
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.ListPartsRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6767,
+		Marshall_ListPartsRequest = 6768
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.ListPartsResponseUnmarshaller"] = {
+		Unmarshall = 6769,
+		get_Instance = 6771,
+		UnmarshallResult = 6770
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.ListVersionsRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6772,
+		Marshall_ListVersionsRequest = 6773
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.ListVersionsResponseUnmarshaller"] = {
+		Unmarshall = 6774,
+		get_Instance = 6776,
+		UnmarshallResult = 6775
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.LoggingEnabledUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6778,
+		Unmarshall_XmlUnmarshallerContext = 6777,
+		get_Instance = 6779
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.MultipartUploadUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6781,
+		Unmarshall_XmlUnmarshallerContext = 6780,
+		get_Instance = 6782
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.OwnerUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6784,
+		Unmarshall_XmlUnmarshallerContext = 6783,
+		get_Instance = 6785
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PartDetailUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6787,
+		Unmarshall_XmlUnmarshallerContext = 6786,
+		get_Instance = 6788
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutACLRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6789,
+		Marshall_PutACLRequest = 6790
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutACLResponseUnmarshaller"] = {
+		get_Instance = 6792,
+		Unmarshall = 6791
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketLoggingRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6793,
+		Marshall_PutBucketLoggingRequest = 6794
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketLoggingResponseUnmarshaller"] = {
+		get_Instance = 6796,
+		Unmarshall = 6795
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketNotificationRequestMarshaller"] = {
+		Marshall_PutBucketNotificationRequest = 6798,
+		WriteConfigurationCommon = 6799,
+		Marshall_AmazonWebServiceRequest = 6797
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketNotificationResponseUnmarshaller"] = {
+		get_Instance = 6801,
+		Unmarshall = 6800
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketPolicyRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6802,
+		Marshall_PutBucketPolicyRequest = 6803
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketPolicyResponseUnmarshaller"] = {
+		get_Instance = 6805,
+		Unmarshall = 6804
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketReplicationRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6806,
+		Marshall_PutBucketReplicationRequest = 6807
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketReplicationResponseUnmarshaller"] = {
+		get_Instance = 6809,
+		Unmarshall = 6808
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketRequestMarshaller"] = {
+		ConvertPutWithACLRequest = 6812,
+		Marshall_AmazonWebServiceRequest = 6810,
+		Marshall_PutBucketRequest = 6811
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketRequestPaymentRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6813,
+		Marshall_PutBucketRequestPaymentRequest = 6814
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketRequestPaymentResponseUnmarshaller"] = {
+		get_Instance = 6816,
+		Unmarshall = 6815
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketResponseUnmarshaller"] = {
+		Unmarshall = 6817,
+		get_Instance = 6819,
+		UnmarshallResult = 6818
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketTaggingRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6820,
+		Marshall_PutBucketTaggingRequest = 6821
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketTaggingResponseUnmarshaller"] = {
+		get_Instance = 6823,
+		Unmarshall = 6822
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketVersioningRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6824,
+		Marshall_PutBucketVersioningRequest = 6825
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketVersioningResponseUnmarshaller"] = {
+		get_Instance = 6827,
+		Unmarshall = 6826
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketWebsiteRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6828,
+		Marshall_PutBucketWebsiteRequest = 6829
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutBucketWebsiteResponseUnmarshaller"] = {
+		get_Instance = 6831,
+		Unmarshall = 6830
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutCORSConfigurationRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6832,
+		Marshall_PutCORSConfigurationRequest = 6833
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutCORSConfigurationResponseUnmarshaller"] = {
+		get_Instance = 6835,
+		Unmarshall = 6834
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutLifecycleConfigurationRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6836,
+		Marshall_PutLifecycleConfigurationRequest = 6837
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutLifecycleConfigurationResponseUnmarshaller"] = {
+		get_Instance = 6839,
+		Unmarshall = 6838
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutObjectRequestMarshaller"] = {
+		GetStreamWithLength = 6842,
+		Marshall_PutObjectRequest = 6841,
+		Marshall_AmazonWebServiceRequest = 6840
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.PutObjectResponseUnmarshaller"] = {
+		Unmarshall = 6843,
+		get_Instance = 6845,
+		UnmarshallResult = 6844
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.QueueConfigurationUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6847,
+		Unmarshall_XmlUnmarshallerContext = 6846,
+		get_Instance = 6848
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.ReplicationDestinationUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6850,
+		Unmarshall_XmlUnmarshallerContext = 6849,
+		get_Instance = 6851
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.ReplicationRuleUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6853,
+		Unmarshall_XmlUnmarshallerContext = 6852,
+		get_Instance = 6854
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.RestoreObjectRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6855,
+		Marshall_RestoreObjectRequest = 6856
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.RestoreObjectResponseUnmarshaller"] = {
+		get_Instance = 6858,
+		Unmarshall = 6857
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.RoutingRuleConditionUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6860,
+		Unmarshall_XmlUnmarshallerContext = 6859,
+		get_Instance = 6861
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.RoutingRuleRedirectUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6863,
+		Unmarshall_XmlUnmarshallerContext = 6862,
+		get_Instance = 6864
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.RoutingRuleUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6866,
+		Unmarshall_XmlUnmarshallerContext = 6865,
+		get_Instance = 6867
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.RulesItemUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6869,
+		Unmarshall_XmlUnmarshallerContext = 6868,
+		get_Instance = 6870
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.S3ErrorResponse"] = {
+		set_Id2 = 6876,
+		set_Resource = 6874,
+		set_ParsingException = 6878,
+		get_Resource = 6873,
+		get_ParsingException = 6877,
+		get_Id2 = 6875
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.S3ErrorResponseUnmarshaller"] = {
+		get_Instance = 6872,
+		Unmarshall = 6871
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.S3KeyFilterUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6880,
+		Unmarshall_XmlUnmarshallerContext = 6879,
+		get_Instance = 6881
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.S3ReponseUnmarshaller"] = {
+		Unmarshall = 6883,
+		CreateContext = 6882,
+		ConstructUnmarshallerContext = 6884,
+		UnmarshallException = 6885
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.S3Transforms"] = {
+		ToURLEncodedValue_string_bool = 6886,
+		ToString = 6897,
+		ToInt = 6896,
+		ToXmlStringValue_int = 6894,
+		ToXmlStringValue_string = 6892,
+		ToURLEncodedValue_DateTime_bool = 6888,
+		ToStringValue_int = 6890,
+		ToStringValue_string = 6889,
+		ToStringValue_DateTime = 6891,
+		BuildQueryParameterMap = 6898,
+		ToURLEncodedValue_int_bool = 6887,
+		ToDateTime = 6895,
+		ToXmlStringValue_DateTime = 6893
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.S3UnmarshallerContext"] = {
+		Read = 6899
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.TagUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6901,
+		Unmarshall_XmlUnmarshallerContext = 6900,
+		get_Instance = 6902
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.TopicConfigurationUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6904,
+		Unmarshall_XmlUnmarshallerContext = 6903,
+		get_Instance = 6905
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.TransitionUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6907,
+		Unmarshall_XmlUnmarshallerContext = 6906,
+		get_Instance = 6908
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.UploadPartRequestMarshaller"] = {
+		Marshall_AmazonWebServiceRequest = 6909,
+		Marshall_UploadPartRequest = 6910
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.UploadPartResponseUnmarshaller"] = {
+		Unmarshall = 6911,
+		get_Instance = 6913,
+		UnmarshallResult = 6912
+	},
+	["Amazon.S3.Model.Internal.MarshallTransformations.VersionsItemUnmarshaller"] = {
+		Unmarshall_JsonUnmarshallerContext = 6915,
+		Unmarshall_XmlUnmarshallerContext = 6914,
+		get_Instance = 6916
+	},
+	["Amazon.S3.Model.KeyVersion"] = {
+		set_Key = 6918,
+		set_VersionId = 6921,
+		get_VersionId = 6920,
+		get_Key = 6917,
+		IsSetKey = 6919,
+		IsSetVersionId = 6922
+	},
+	["Amazon.S3.Model.LambdaFunctionConfiguration"] = {
+		get_FunctionArn = 6926,
+		set_Id = 6924,
+		IsSetId = 6925,
+		set_FunctionArn = 6927,
+		get_Id = 6923,
+		IsSetFunctionArn = 6928
+	},
+	["Amazon.S3.Model.LifecycleConfiguration"] = {
+		IsSetRules = 6931,
+		get_Rules = 6929,
+		set_Rules = 6930
+	},
+	["Amazon.S3.Model.LifecycleRule"] = {
+		get_Prefix = 6938,
+		IsSetNoncurrentVersionExpiration = 6949,
+		get_NoncurrentVersionTransition = 6950,
+		set_NoncurrentVersionExpiration = 6948,
+		set_Prefix = 6939,
+		set_Status = 6942,
+		IsSetNoncurrentVersionTransition = 6952,
+		get_Transitions = 6953,
+		IsSetPrefix = 6940,
+		get_Status = 6941,
+		IsSetExpiration = 6934,
+		IsSetTransition = 6946,
+		set_NoncurrentVersionTransitions = 6957,
+		set_NoncurrentVersionTransition = 6951,
+		get_Id = 6935,
+		get_NoncurrentVersionExpiration = 6947,
+		get_Transition = 6944,
+		get_NoncurrentVersionTransitions = 6956,
+		IsSetId = 6937,
+		set_Transitions = 6954,
+		set_Transition = 6945,
+		set_Id = 6936,
+		IsSetTransitions = 6955,
+		IsSetStatus = 6943,
+		set_Expiration = 6933,
+		IsSetNoncurrentVersionTransitions = 6958,
+		get_Expiration = 6932
+	},
+	["Amazon.S3.Model.LifecycleRuleExpiration"] = {
+		set_Date = 6960,
+		IsSetDate = 6961,
+		get_Days = 6962,
+		get_Date = 6959,
+		IsSetDays = 6964,
+		set_Days = 6963
+	},
+	["Amazon.S3.Model.LifecycleRuleNoncurrentVersionExpiration"] = {
+		IsSetNoncurrentDays = 6967,
+		get_NoncurrentDays = 6965,
+		set_NoncurrentDays = 6966
+	},
+	["Amazon.S3.Model.LifecycleRuleNoncurrentVersionTransition"] = {
+		IsSetNoncurrentDays = 6970,
+		set_NoncurrentDays = 6969,
+		set_StorageClass = 6972,
+		get_NoncurrentDays = 6968,
+		IsSetStorageClass = 6973,
+		get_StorageClass = 6971
+	},
+	["Amazon.S3.Model.LifecycleTransition"] = {
+		set_StorageClass = 6981,
+		get_Date = 6974,
+		IsSetStorageClass = 6982,
+		get_StorageClass = 6980,
+		set_Date = 6975,
+		IsSetDate = 6976,
+		get_Days = 6977,
+		IsSetDays = 6979,
+		set_Days = 6978
+	},
+	["Amazon.S3.Model.ListBucketsResponse"] = {
+		set_Buckets = 6984,
+		IsSetOwner = 6988,
+		get_Owner = 6986,
+		set_Owner = 6987,
+		get_Buckets = 6983,
+		IsSetBuckets = 6985
+	},
+	["Amazon.S3.Model.ListMultipartUploadsRequest"] = {
+		IsSetBucketName = 6991,
+		get_Delimiter = 6992,
+		get_KeyMarker = 6995,
+		set_Encoding = 7008,
+		get_UploadIdMarker = 7004,
+		set_MaxUploads = 6999,
+		set_Prefix = 7002,
+		IsSetPrefix = 7003,
+		IsSetMaxUploads = 7000,
+		get_MaxUploads = 6998,
+		set_BucketName = 6990,
+		IsSetUploadIdMarker = 7006,
+		IsSetKeyMarker = 6997,
+		set_UploadIdMarker = 7005,
+		set_KeyMarker = 6996,
+		IsSetDelimiter = 6994,
+		get_BucketName = 6989,
+		get_Prefix = 7001,
+		get_Encoding = 7007,
+		IsSetEncoding = 7009,
+		set_Delimiter = 6993
+	},
+	["Amazon.S3.Model.ListMultipartUploadsResponse"] = {
+		get_UploadIdMarker = 7016,
+		set_IsTruncated = 7029,
+		get_KeyMarker = 7013,
+		set_MultipartUploads = 7032,
+		IsSetIsTruncated = 7030,
+		get_NextKeyMarker = 7019,
+		get_CommonPrefixes = 7037,
+		IsSetNextUploadIdMarker = 7024,
+		set_NextUploadIdMarker = 7023,
+		IsSetMaxUploads = 7027,
+		get_MaxUploads = 7025,
+		get_Delimiter = 7035,
+		get_NextUploadIdMarker = 7022,
+		IsSetUploadIdMarker = 7018,
+		IsSetNextKeyMarker = 7021,
+		IsSetKeyMarker = 7015,
+		set_UploadIdMarker = 7017,
+		set_KeyMarker = 7014,
+		IsSetBucketName = 7012,
+		get_MultipartUploads = 7031,
+		set_NextKeyMarker = 7020,
+		get_IsTruncated = 7028,
+		set_BucketName = 7011,
+		get_BucketName = 7010,
+		get_Prefix = 7033,
+		set_Prefix = 7034,
+		set_MaxUploads = 7026,
+		set_Delimiter = 7036
+	},
+	["Amazon.S3.Model.ListObjectsRequest"] = {
+		get_Marker = 7044,
+		IsSetMaxKeys = 7049,
+		IsSetDelimiter = 7043,
+		set_BucketName = 7039,
+		set_Prefix = 7051,
+		set_MaxKeys = 7048,
+		IsSetPrefix = 7052,
+		IsSetMarker = 7046,
+		get_Delimiter = 7041,
+		set_Marker = 7045,
+		set_Encoding = 7054,
+		get_MaxKeys = 7047,
+		IsSetBucketName = 7040,
+		get_BucketName = 7038,
+		get_Prefix = 7050,
+		get_Encoding = 7053,
+		IsSetEncoding = 7055,
+		set_Delimiter = 7042
+	},
+	["Amazon.S3.Model.ListObjectsResponse"] = {
+		IsSetMaxKeys = 7073,
+		set_IsTruncated = 7057,
+		IsSetCommonPrefixes = 7076,
+		set_Delimiter = 7078,
+		get_S3Objects = 7062,
+		IsSetIsTruncated = 7058,
+		get_CommonPrefixes = 7074,
+		set_MaxKeys = 7072,
+		IsSetPrefix = 7070,
+		set_NextMarker = 7060,
+		set_Prefix = 7069,
+		get_Delimiter = 7077,
+		IsSetName = 7067,
+		get_Name = 7065,
+		set_S3Objects = 7063,
+		get_MaxKeys = 7071,
+		set_CommonPrefixes = 7075,
+		set_Name = 7066,
+		get_IsTruncated = 7056,
+		get_Prefix = 7068,
+		IsSetNextMarker = 7061,
+		get_NextMarker = 7059,
+		IsSetContents = 7064
+	},
+	["Amazon.S3.Model.ListPartsRequest"] = {
+		IsSetMaxParts = 7087,
+		set_Encoding = 7095,
+		IsSetPartNumberMarker = 7090,
+		get_UploadId = 7091,
+		set_Key = 7083,
+		set_MaxParts = 7086,
+		IsSetKey = 7084,
+		IsSetUploadId = 7093,
+		set_UploadId = 7092,
+		set_BucketName = 7080,
+		get_Key = 7082,
+		get_PartNumberMarker = 7088,
+		get_MaxParts = 7085,
+		IsSetBucketName = 7081,
+		get_BucketName = 7079,
+		get_Encoding = 7094,
+		IsSetEncoding = 7096,
+		set_PartNumberMarker = 7089
+	},
+	["Amazon.S3.Model.ListPartsResponse"] = {
+		get_BucketName = 7097,
+		get_MaxParts = 7112,
+		IsSetNextPartNumberMarker = 7111,
+		set_StorageClass = 7128,
+		get_UploadId = 7103,
+		IsSetStorageClass = 7129,
+		get_Parts = 7118,
+		IsSetMaxParts = 7114,
+		set_UploadId = 7104,
+		set_BucketName = 7098,
+		get_Key = 7100,
+		get_PartNumberMarker = 7106,
+		IsSetBucketName = 7099,
+		get_NextPartNumberMarker = 7109,
+		set_Initiator = 7122,
+		get_Initiator = 7121,
+		set_PartNumberMarker = 7107,
+		set_Owner = 7125,
+		set_IsTruncated = 7116,
+		IsSetPartNumberMarker = 7108,
+		IsSetParts = 7120,
+		IsSetIsTruncated = 7117,
+		set_MaxParts = 7113,
+		IsSetKey = 7102,
+		IsSetUploadId = 7105,
+		get_Owner = 7124,
+		set_Key = 7101,
+		set_NextPartNumberMarker = 7110,
+		IsSetInitiator = 7123,
+		set_Parts = 7119,
+		get_IsTruncated = 7115,
+		get_StorageClass = 7127,
+		IsSetOwner = 7126
+	},
+	["Amazon.S3.Model.ListVersionsRequest"] = {
+		IsSetMaxKeys = 7141,
+		set_VersionIdMarker = 7146,
+		get_KeyMarker = 7136,
+		set_KeyMarker = 7137,
+		IsSetVersionIdMarker = 7147,
+		set_MaxKeys = 7140,
+		set_Prefix = 7143,
+		IsSetBucketName = 7132,
+		IsSetPrefix = 7144,
+		get_Delimiter = 7133,
+		set_BucketName = 7131,
+		set_Encoding = 7149,
+		IsSetKeyMarker = 7138,
+		get_MaxKeys = 7139,
+		IsSetDelimiter = 7135,
+		get_BucketName = 7130,
+		get_Prefix = 7142,
+		get_Encoding = 7148,
+		IsSetEncoding = 7150,
+		get_VersionIdMarker = 7145,
+		set_Delimiter = 7134
+	},
+	["Amazon.S3.Model.ListVersionsResponse"] = {
+		get_NextVersionIdMarker = 7163,
+		get_Versions = 7166,
+		get_KeyMarker = 7154,
+		IsSetCommonPrefixes = 7180,
+		IsSetIsTruncated = 7153,
+		set_Versions = 7167,
+		get_CommonPrefixes = 7178,
+		IsSetNextVersionIdMarker = 7165,
+		IsSetPrefix = 7174,
+		IsSetKeyMarker = 7156,
+		get_NextKeyMarker = 7160,
+		get_Delimiter = 7181,
+		IsSetVersionIdMarker = 7159,
+		IsSetName = 7171,
+		IsSetNextKeyMarker = 7162,
+		get_Name = 7169,
+		IsSetVersions = 7168,
+		get_MaxKeys = 7175,
+		set_CommonPrefixes = 7179,
+		set_Name = 7170,
+		set_KeyMarker = 7155,
+		get_IsTruncated = 7151,
+		set_MaxKeys = 7176,
+		set_IsTruncated = 7152,
+		get_Prefix = 7172,
+		set_NextKeyMarker = 7161,
+		set_NextVersionIdMarker = 7164,
+		set_Prefix = 7173,
+		get_VersionIdMarker = 7157,
+		set_VersionIdMarker = 7158,
+		IsSetMaxKeys = 7177,
+		set_Delimiter = 7182
+	},
+	["Amazon.S3.Model.MetadataCollection"] = {
+		get_Keys = 7187,
+		set_Item = 7184,
+		Add = 7185,
+		get_Item = 7183,
+		get_Count = 7186
+	},
+	["Amazon.S3.Model.MfaCodes"] = {
+		get_FormattedMfaCodes = 7192,
+		set_SerialNumber = 7189,
+		set_AuthenticationValue = 7191,
+		get_SerialNumber = 7188,
+		get_AuthenticationValue = 7190
+	},
+	["Amazon.S3.Model.MultipartUpload"] = {
+		set_Owner = 7203,
+		get_StorageClass = 7205,
+		IsSetStorageClass = 7207,
+		set_StorageClass = 7206,
+		set_Initiated = 7194,
+		get_UploadId = 7208,
+		IsSetKey = 7201,
+		IsSetUploadId = 7210,
+		get_Initiated = 7193,
+		get_Key = 7199,
+		IsSetOwner = 7204,
+		set_UploadId = 7209,
+		get_Owner = 7202,
+		set_Key = 7200,
+		IsSetInitiator = 7198,
+		set_Initiator = 7197,
+		IsSetInitiated = 7195,
+		get_Initiator = 7196
+	},
+	["Amazon.S3.Model.NotificationConfiguration"] = {
+		IsSetEvents = 7213,
+		get_Filter = 7214,
+		set_Events = 7212,
+		set_Filter = 7215,
+		get_Events = 7211,
+		IsSetFilter = 7216
+	},
+	["Amazon.S3.Model.Owner"] = {
+		set_DisplayName = 7217,
+		IsSetDisplayName = 7219,
+		IsSetId = 7222,
+		set_Id = 7221,
+		get_DisplayName = 7218,
+		get_Id = 7220
+	},
+	["Amazon.S3.Model.PartDetail"] = {
+		IsLastModified = 7225,
+		IsSize = 7228,
+		get_Size = 7226,
+		get_LastModified = 7223,
+		set_Size = 7227,
+		set_LastModified = 7224
+	},
+	["Amazon.S3.Model.PartETag"] = {
+		get_ETag = 7233,
+		get_PartNumber = 7230,
+		IsSetPartNumber = 7232,
+		set_PartNumber = 7231,
+		set_ETag = 7234,
+		IsSetETag = 7235,
+		CompareTo = 7229
+	},
+	["Amazon.S3.Model.PostObjectRequest"] = {
+		get_SignedPolicy = 5735,
+		set_Metadata = 5746,
+		set_Path = 5730,
+		get_Region = 5743,
+		get_StorageClass = 5741,
+		set_Key = 5726,
+		set_SignedPolicy = 5736,
+		set_CannedACL = 5734,
+		set_StorageClass = 5742,
+		set_SuccessActionRedirect = 5738,
+		get_SuccessActionRedirect = 5737,
+		WriteFormData = 5747,
+		get_Metadata = 5745,
+		get_Key = 5725,
+		set_ContentType = 5732,
+		WriteFormDatum = 5748,
+		set_Bucket = 5724,
+		set_SuccessActionStatus = 5740,
+		get_Bucket = 5723,
+		get_InputStream = 5727,
+		get_SuccessActionStatus = 5739,
+		get_ContentType = 5731,
+		get_CannedACL = 5733,
+		set_InputStream = 5728,
+		get_Path = 5729,
+		set_Region = 5744
+	},
+	["Amazon.S3.Model.PostObjectResponse"] = {
+		set_HostId = 5752,
+		set_RequestId = 5750,
+		get_HostId = 5751,
+		get_RequestId = 5749
+	},
+	["Amazon.S3.Model.PutACLRequest"] = {
+		IsSetAccessControlPolicy = 7241,
+		get_AccessControlList = 7239,
+		IsSetBucketName = 7244,
+		get_VersionId = 7248,
+		get_CannedACL = 7236,
+		IsSetVersionId = 7250,
+		IsSetKey = 7247,
+		get_BucketName = 7242,
+		set_AccessControlList = 7240,
+		set_CannedACL = 7237,
+		set_Key = 7246,
+		IsSetCannedACL = 7238,
+		set_BucketName = 7243,
+		get_Key = 7245,
+		set_VersionId = 7249
+	},
+	["Amazon.S3.Model.PutBucketLoggingRequest"] = {
+		IsSetLoggingConfig = 7256,
+		get_LoggingConfig = 7254,
+		IsSetBucketName = 7253,
+		set_LoggingConfig = 7255,
+		set_BucketName = 7252,
+		get_BucketName = 7251
+	},
+	["Amazon.S3.Model.PutBucketNotificationRequest"] = {
+		set_TopicConfigurations = 7261,
+		get_QueueConfigurations = 7263,
+		IsSetQueueConfigurations = 7265,
+		set_LambdaFunctionConfigurations = 7267,
+		set_QueueConfigurations = 7264,
+		IsSetBucketName = 7259,
+		IsSetLambdaFunctionConfigurations = 7268,
+		get_BucketName = 7257,
+		IsSetTopicConfigurations = 7262,
+		get_LambdaFunctionConfigurations = 7266,
+		set_BucketName = 7258,
+		get_TopicConfigurations = 7260
+	},
+	["Amazon.S3.Model.PutBucketPolicyRequest"] = {
+		IsSetBucket = 7271,
+		get_IncludeSHA256Header = 7278,
+		get_ContentMD5 = 7272,
+		set_ContentMD5 = 7273,
+		get_BucketName = 7269,
+		set_Policy = 7276,
+		IsSetPolicy = 7277,
+		set_BucketName = 7270,
+		get_Policy = 7275,
+		IsSetContentMD5 = 7274
+	},
+	["Amazon.S3.Model.PutBucketReplicationRequest"] = {
+		IsSetBucketName = 7281,
+		get_Configuration = 7282,
+		set_BucketName = 7280,
+		IsSetConfiguration = 7284,
+		set_Configuration = 7283,
+		get_BucketName = 7279
+	},
+	["Amazon.S3.Model.PutBucketRequest"] = {
+		IsSetBucketRegion = 7295,
+		IsSetBucketRegionName = 7298,
+		IsSetBucketName = 7292,
+		get_BucketRegion = 7293,
+		get_BucketRegionName = 7296,
+		get_UseClientRegion = 7288,
+		IsSetCannedACL = 7287,
+		get_BucketName = 7290,
+		set_BucketRegion = 7294,
+		set_UseClientRegion = 7289,
+		set_CannedACL = 7286,
+		get_CannedACL = 7285,
+		set_BucketName = 7291,
+		set_BucketRegionName = 7297
+	},
+	["Amazon.S3.Model.PutBucketRequestPaymentRequest"] = {
+		set_RequestPaymentConfiguration = 7303,
+		IsSetBucketName = 7301,
+		IsSetRequestPaymentConfiguration = 7304,
+		set_BucketName = 7300,
+		get_RequestPaymentConfiguration = 7302,
+		get_BucketName = 7299
+	},
+	["Amazon.S3.Model.PutBucketTaggingRequest"] = {
+		set_TagSet = 7309,
+		IsSetBucketName = 7307,
+		IsSetTagSet = 7310,
+		set_BucketName = 7306,
+		get_TagSet = 7308,
+		get_BucketName = 7305
+	},
+	["Amazon.S3.Model.PutBucketVersioningRequest"] = {
+		get_MfaCodes = 7314,
+		IsSetBucketName = 7313,
+		set_VersioningConfig = 7318,
+		get_BucketName = 7311,
+		IsSetMfaCodes = 7316,
+		get_VersioningConfig = 7317,
+		set_BucketName = 7312,
+		set_MfaCodes = 7315,
+		IsSetVersioningConfiguration = 7319
+	},
+	["Amazon.S3.Model.PutBucketWebsiteRequest"] = {
+		IsSetWebsiteConfiguration = 7325,
+		get_WebsiteConfiguration = 7323,
+		IsSetBucketName = 7322,
+		set_WebsiteConfiguration = 7324,
+		set_BucketName = 7321,
+		get_BucketName = 7320
+	},
+	["Amazon.S3.Model.PutCORSConfigurationRequest"] = {
+		IsSetBucketName = 7328,
+		get_Configuration = 7329,
+		set_BucketName = 7327,
+		IsSetConfiguration = 7331,
+		set_Configuration = 7330,
+		get_BucketName = 7326
+	},
+	["Amazon.S3.Model.PutLifecycleConfigurationRequest"] = {
+		IsSetBucketName = 7334,
+		get_Configuration = 7335,
+		set_BucketName = 7333,
+		IsSetConfiguration = 7337,
+		set_Configuration = 7336,
+		get_BucketName = 7332
+	},
+	["Amazon.S3.Model.PutObjectRequest"] = {
+		IsSetServerSideEncryptionCustomerProvidedKey = 5786,
+		IsSetInputStream = 5759,
+		get_WebsiteRedirectLocation = 5796,
+		set_MD5Digest = 5804,
+		get_Metadata = 5773,
+		IsSetStorageClass = 5795,
+		get_StorageClass = 5793,
+		set_CannedACL = 5755,
+		get_ContentType = 5801,
+		get_BucketName = 5768,
+		get_StreamTransferProgress = 5799,
+		IsSetCannedACL = 5756,
+		get_ServerSideEncryptionCustomerProvidedKeyMD5 = 5787,
+		get_Key = 5775,
+		IsSetServerSideEncryptionMethod = 5780,
+		IsSetBucket = 5770,
+		IsSetWebsiteRedirectLocation = 5798,
+		set_AutoCloseStream = 5765,
+		set_ServerSideEncryptionKeyManagementServiceKeyId = 5791,
+		get_ServerSideEncryptionMethod = 5778,
+		set_ContentBody = 5763,
+		set_FilePath = 5761,
+		IsSetMD5Digest = 5805,
+		set_Key = 5776,
+		set_ServerSideEncryptionCustomerProvidedKeyMD5 = 5788,
+		set_Metadata = 5774,
+		set_ServerSideEncryptionCustomerProvidedKey = 5785,
+		get_CannedACL = 5754,
+		get_ServerSideEncryptionKeyManagementServiceKeyId = 5790,
+		get_Expect100Continue = 5807,
+		set_BucketName = 5769,
+		IsSetServerSideEncryptionKeyManagementServiceKeyId = 5792,
+		get_MD5Digest = 5803,
+		get_IncludeSHA256Header = 5806,
+		get_ServerSideEncryptionCustomerProvidedKey = 5784,
+		set_ServerSideEncryptionMethod = 5779,
+		set_StorageClass = 5794,
+		get_AutoResetStreamPosition = 5766,
+		IsSetKey = 5777,
+		set_Headers = 5772,
+		set_StreamTransferProgress = 5800,
+		SetupForFilePath = 5753,
+		IsSetServerSideEncryptionCustomerMethod = 5783,
+		IsSetServerSideEncryptionCustomerProvidedKeyMD5 = 5789,
+		set_ContentType = 5802,
+		set_ServerSideEncryptionCustomerMethod = 5782,
+		get_ServerSideEncryptionCustomerMethod = 5781,
+		get_AutoCloseStream = 5764,
+		get_ContentBody = 5762,
+		get_InputStream = 5757,
+		set_AutoResetStreamPosition = 5767,
+		get_FilePath = 5760,
+		get_Headers = 5771,
+		set_InputStream = 5758,
+		set_WebsiteRedirectLocation = 5797
+	},
+	["Amazon.S3.Model.PutObjectResponse"] = {
+		IsSetServerSideEncryptionKeyManagementServiceKeyId = 7350,
+		get_ServerSideEncryptionKeyManagementServiceKeyId = 7348,
+		set_ServerSideEncryptionKeyManagementServiceKeyId = 7349,
+		get_VersionId = 7345,
+		set_ETag = 7343,
+		set_ServerSideEncryptionMethod = 7341,
+		get_ServerSideEncryptionMethod = 7340,
+		IsSetVersionId = 7347,
+		set_VersionId = 7346,
+		set_Expiration = 7339,
+		IsSetETag = 7344,
+		get_Expiration = 7338,
+		get_ETag = 7342
+	},
+	["Amazon.S3.Model.PutWithACLRequest"] = {
+		set_Grants = 7352,
+		get_Grants = 7351
+	},
+	["Amazon.S3.Model.QueueConfiguration"] = {
+		IsSetQueue = 7358,
+		set_Id = 7354,
+		IsSetId = 7355,
+		get_Queue = 7356,
+		get_Id = 7353,
+		set_Queue = 7357
+	},
+	["Amazon.S3.Model.ReplicationConfiguration"] = {
+		set_Role = 7360,
+		set_Rules = 7363,
+		IsSetRole = 7361,
+		IsSetRules = 7364,
+		get_Rules = 7362,
+		get_Role = 7359
+	},
+	["Amazon.S3.Model.ReplicationDestination"] = {
+		IsSetBucketArn = 7367,
+		set_BucketArn = 7366,
+		set_StorageClass = 7369,
+		get_BucketArn = 7365,
+		IsSetStorageClass = 7370,
+		get_StorageClass = 7368
+	},
+	["Amazon.S3.Model.ReplicationRule"] = {
+		IsSetPrefix = 7376,
+		IsSetDestination = 7382,
+		IsSetId = 7373,
+		get_Status = 7377,
+		set_Prefix = 7375,
+		set_Status = 7378,
+		set_Id = 7372,
+		get_Prefix = 7374,
+		IsSetStatus = 7379,
+		get_Destination = 7380,
+		set_Destination = 7381,
+		get_Id = 7371
+	},
+	["Amazon.S3.Model.RequestPaymentConfiguration"] = {
+		set_Payer = 7384,
+		IsSetPayer = 7385,
+		get_Payer = 7383
+	},
+	["Amazon.S3.Model.ResponseHeaderOverrides"] = {
+		get_ContentLanguage = 7388,
+		get_ContentDisposition = 7394,
+		set_CacheControl = 7393,
+		set_ContentType = 7387,
+		set_ContentLanguage = 7389,
+		set_Expires = 7391,
+		get_Expires = 7390,
+		get_ContentEncoding = 7396,
+		get_ContentType = 7386,
+		set_ContentEncoding = 7397,
+		get_CacheControl = 7392,
+		set_ContentDisposition = 7395
+	},
+	["Amazon.S3.Model.RestoreObjectRequest"] = {
+		IsSetVersionId = 7409,
+		set_BucketName = 7399,
+		IsSetBucketName = 7400,
+		get_VersionId = 7407,
+		set_Key = 7402,
+		set_VersionId = 7408,
+		IsSetKey = 7403,
+		get_BucketName = 7398,
+		get_Days = 7404,
+		IsSetDays = 7406,
+		get_Key = 7401,
+		set_Days = 7405
+	},
+	["Amazon.S3.Model.RoutingRule"] = {
+		get_Condition = 7410,
+		set_Redirect = 7414,
+		get_Redirect = 7413,
+		IsSetRedirect = 7415,
+		set_Condition = 7411,
+		IsSetCondition = 7412
+	},
+	["Amazon.S3.Model.RoutingRuleCondition"] = {
+		IsSetHttpErrorCodeReturnedEquals = 7418,
+		set_HttpErrorCodeReturnedEquals = 7417,
+		get_KeyPrefixEquals = 7419,
+		set_KeyPrefixEquals = 7420,
+		IsSetKeyPrefixEquals = 7421,
+		get_HttpErrorCodeReturnedEquals = 7416
+	},
+	["Amazon.S3.Model.RoutingRuleRedirect"] = {
+		get_ReplaceKeyWith = 7434,
+		get_ReplaceKeyPrefixWith = 7431,
+		set_ReplaceKeyPrefixWith = 7432,
+		IsSetHostName = 7424,
+		IsSetReplaceKeyPrefixWith = 7433,
+		set_HostName = 7423,
+		set_ReplaceKeyWith = 7435,
+		IsSetReplaceKeyWith = 7436,
+		get_HttpRedirectCode = 7425,
+		IsSetProtocol = 7430,
+		set_Protocol = 7429,
+		get_HostName = 7422,
+		IsSetHttpRedirectCode = 7427,
+		set_HttpRedirectCode = 7426,
+		get_Protocol = 7428
+	},
+	["Amazon.S3.Model.S3AccessControlList"] = {
+		set_Owner = 7441,
+		IsSetOwner = 7442,
+		RemoveGrant_S3Grantee = 7439,
+		AddGrant = 7437,
+		set_Grants = 7444,
+		RemoveGrant_S3Grantee_S3Permission = 7438,
+		get_Grants = 7443,
+		get_Owner = 7440,
+		IsSetGrants = 7445
+	},
+	["Amazon.S3.Model.S3Bucket"] = {
+		IsSetCreationDate = 7448,
+		set_CreationDate = 7447,
+		IsSetBucketName = 7451,
+		set_BucketName = 7450,
+		get_CreationDate = 7446,
+		get_BucketName = 7449
+	},
+	["Amazon.S3.Model.S3BucketLoggingConfig"] = {
+		RemoveGrant_S3Grantee = 7463,
+		get_TargetPrefix = 7458,
+		IsSetTargetPrefix = 7460,
+		AddGrant = 7461,
+		IsSetTargetBucket = 7454,
+		get_TargetBucketName = 7452,
+		set_Grants = 7456,
+		RemoveGrant_S3Grantee_S3Permission = 7462,
+		set_TargetBucketName = 7453,
+		get_Grants = 7455,
+		set_TargetPrefix = 7459,
+		IsSetGrants = 7457
+	},
+	["Amazon.S3.Model.S3BucketVersioningConfig"] = {
+		IsSetStatus = 7466,
+		get_Status = 7464,
+		get_EnableMfaDelete = 7467,
+		set_EnableMfaDelete = 7468,
+		IsSetEnableMfaDelete = 7469,
+		set_Status = 7465
+	},
+	["Amazon.S3.Model.S3Grant"] = {
+		IsSetPermission = 7475,
+		get_Permission = 7473,
+		set_Grantee = 7471,
+		IsSetGrantee = 7472,
+		set_Permission = 7474,
+		get_Grantee = 7470
+	},
+	["Amazon.S3.Model.S3Grantee"] = {
+		get_Type = 7476,
+		IsSetURI = 7489,
+		set_DisplayName = 7479,
+		IsSetCanonicalUser = 7486,
+		set_EmailAddress = 7482,
+		IsSetType = 7477,
+		IsSetDisplayName = 7480,
+		set_CanonicalUser = 7485,
+		get_EmailAddress = 7481,
+		get_URI = 7487,
+		set_URI = 7488,
+		get_CanonicalUser = 7484,
+		get_DisplayName = 7478,
+		IsSetEmailAddress = 7483
+	},
+	["Amazon.S3.Model.S3KeyFilter"] = {
+		get_FilterRules = 7490,
+		set_FilterRules = 7491,
+		IsSetFilterRules = 7492
+	},
+	["Amazon.S3.Model.S3Object"] = {
+		set_Owner = 7503,
+		set_Key = 7497,
+		get_StorageClass = 7508,
+		get_LastModified = 7499,
+		IsSetSize = 7507,
+		IsSetStorageClass = 7510,
+		IsSetKey = 7498,
+		set_Size = 7506,
+		get_Key = 7496,
+		set_StorageClass = 7509,
+		get_Owner = 7502,
+		IsSetETag = 7495,
+		get_ETag = 7493,
+		get_Size = 7505,
+		set_ETag = 7494,
+		IsSetLastModified = 7501,
+		set_LastModified = 7500,
+		IsSetOwner = 7504
+	},
+	["Amazon.S3.Model.S3ObjectVersion"] = {
+		set_IsDeleteMarker = 7516,
+		get_IsLatest = 7511,
+		set_IsLatest = 7512,
+		get_VersionId = 7513,
+		get_IsDeleteMarker = 7515,
+		set_VersionId = 7514
+	},
+	["Amazon.S3.Model.S3ReponseUnmarshaller"] = {
+		Unmarshall = 7518,
+		CreateContext = 7517,
+		ConstructUnmarshallerContext = 7519,
+		UnmarshallException = 7520
+	},
+	["Amazon.S3.Model.StreamResponse"] = {
+		IsSetResponseStream = 7525,
+		Dispose_bool = 7522,
+		set_ResponseStream = 7524,
+		Dispose = 7521,
+		get_ResponseStream = 7523
+	},
+	["Amazon.S3.Model.StreamSizeMismatchException"] = {
+		get_ExpectedSize = 7526,
+		get_ActualSize = 7528,
+		set_ActualSize = 7529,
+		set_ExpectedSize = 7527
+	},
+	["Amazon.S3.Model.Tag"] = {
+		set_Key = 7531,
+		IsSetValue = 7535,
+		get_Value = 7533,
+		get_Key = 7530,
+		IsSetKey = 7532,
+		set_Value = 7534
+	},
+	["Amazon.S3.Model.TopicConfiguration"] = {
+		get_Topic = 7541,
+		IsSetTopic = 7543,
+		IsSetId = 7538,
+		set_Event = 7540,
+		set_Id = 7537,
+		set_Topic = 7542,
+		get_Id = 7536,
+		get_Event = 7539
+	},
+	["Amazon.S3.Model.UploadPartRequest"] = {
+		IsSetServerSideEncryptionCustomerProvidedKey = 5838,
+		IsSetFilePath = 5844,
+		get_FilePosition = 5845,
+		set_MD5Digest = 5832,
+		get_PartSize = 5825,
+		IsSetInputStream = 5815,
+		IsSetFilePosition = 5847,
+		IsSetKey = 5821,
+		get_StreamTransferProgress = 5849,
+		IsSetPartNumber = 5824,
+		IsSetPartSize = 5827,
+		get_PartNumber = 5822,
+		set_BucketName = 5817,
+		get_Key = 5819,
+		set_FilePath = 5843,
+		set_IVSize = 5810,
+		set_Key = 5820,
+		get_ServerSideEncryptionCustomerProvidedKeyMD5 = 5839,
+		IsSetBucketName = 5818,
+		set_PartNumber = 5823,
+		set_PartSize = 5826,
+		set_ServerSideEncryptionCustomerProvidedKey = 5837,
+		IsSetMD5Digest = 5848,
+		set_StreamTransferProgress = 5850,
+		set_ServerSideEncryptionCustomerProvidedKeyMD5 = 5840,
+		set_UploadId = 5829,
+		SetupForFilePath = 5808,
+		set_IsLastPart = 5812,
+		get_Expect100Continue = 5852,
+		get_MD5Digest = 5831,
+		get_IncludeSHA256Header = 5851,
+		get_ServerSideEncryptionCustomerProvidedKey = 5836,
+		get_UploadId = 5828,
+		set_FilePosition = 5846,
+		IsSetUploadId = 5830,
+		IsSetServerSideEncryptionCustomerMethod = 5835,
+		IsSetServerSideEncryptionCustomerProvidedKeyMD5 = 5841,
+		set_ServerSideEncryptionCustomerMethod = 5834,
+		get_IsLastPart = 5811,
+		get_IVSize = 5809,
+		get_ServerSideEncryptionCustomerMethod = 5833,
+		get_BucketName = 5816,
+		get_InputStream = 5813,
+		get_FilePath = 5842,
+		set_InputStream = 5814
+	},
+	["Amazon.S3.Model.UploadPartResponse"] = {
+		set_PartNumber = 7550,
+		get_PartNumber = 7549,
+		set_ServerSideEncryptionMethod = 7545,
+		set_ETag = 7547,
+		IsSetETag = 7548,
+		get_ServerSideEncryptionMethod = 7544,
+		get_ETag = 7546
+	},
+	["Amazon.S3.Model.WebsiteConfiguration"] = {
+		get_RedirectAllRequestsTo = 7557,
+		IsSetRoutingRules = 7562,
+		get_ErrorDocument = 7551,
+		get_RoutingRules = 7560,
+		IsSetErrorDocument = 7553,
+		set_ErrorDocument = 7552,
+		set_RedirectAllRequestsTo = 7558,
+		IsSetRedirectAllRequestsTo = 7559,
+		set_IndexDocumentSuffix = 7555,
+		get_IndexDocumentSuffix = 7554,
+		IsSetIndexDocumentSuffix = 7556,
+		set_RoutingRules = 7561
+	},
+	["Amazon.S3.ReplicationRuleStatus"] = {
+		FindValue = 7577
+	},
+	["Amazon.S3.ReplicationStatus"] = {
+		FindValue = 7576
+	},
+	["Amazon.S3.S3CannedACL"] = {
+		FindValue = 7563
+	},
+	["Amazon.S3.S3Permission"] = {
+		FindValue = 7567,
+		get_HeaderName = 7565,
+		set_HeaderName = 7566
+	},
+	["Amazon.S3.S3Region"] = {
+		FindValue = 7564
+	},
+	["Amazon.S3.S3StorageClass"] = {
+		FindValue = 7568
+	},
+	["Amazon.S3.ServerSideEncryptionCustomerMethod"] = {
+		FindValue = 7569
+	},
+	["Amazon.S3.ServerSideEncryptionMethod"] = {
+		FindValue = 7570
+	},
+	["Amazon.S3.Util.AmazonS3Uri"] = {
+		set_Bucket = 7596,
+		IsAmazonS3Endpoint_Uri = 7602,
+		get_Region = 7599,
+		Decode_string = 7603,
+		get_IsPathStyle = 7593,
+		set_IsPathStyle = 7594,
+		FromHex = 7606,
+		get_Bucket = 7595,
+		set_Key = 7598,
+		IsAmazonS3Endpoint_string = 7601,
+		AppendDecoded = 7605,
+		set_Region = 7600,
+		get_Key = 7597,
+		Decode_string_int = 7604
+	},
+	["Amazon.S3.Util.AmazonS3Util"] = {
+		ValidateV2Bucket = 7614,
+		ParseAmzRestoreHeader = 7617,
+		AddQueryStringParameter_StringBuilder_string_string = 7615,
+		UrlEncode = 7608,
+		["AddQueryStringParameter_StringBuilder_string_string_IDictionary<string,string>"] = 7616,
+		GenerateChecksumForContent = 7611,
+		ComputeEncodedMD5FromEncodedString = 7612,
+		SetMetadataHeaders = 7613,
+		get_FormattedCurrentTimestamp = 7610,
+		MakeStreamSeekable = 7609,
+		MimeTypeFromExtension = 7607
+	},
+	["Amazon.S3.Util.S3PostUploadSignedPolicy"] = {
+		get_SecurityToken = 7586,
+		GetSignedPolicyFromXml = 7592,
+		get_Policy = 7580,
+		get_AccessKeyId = 7584,
+		ToXml = 7590,
+		GetSignedPolicy = 7578,
+		set_Signature = 7583,
+		set_SecurityToken = 7587,
+		set_Policy = 7581,
+		set_AccessKeyId = 7585,
+		GetReadablePolicy = 7588,
+		get_Signature = 7582,
+		GetSignedPolicyFromJson = 7591,
+		addTokenToPolicy = 7579,
+		ToJson = 7589
+	},
+	["Amazon.S3.VersionStatus"] = {
+		FindValue = 7573
+	},
+	["Amazon.UnityInitializer"] = {
+		set_IsEditorPlaying = 3988,
+		IsMainThread = 3986,
+		get_Instance = 3984,
+		set_IsEditorPaused = 3990,
+		get_IsEditorPlaying = 3987,
+		HandleEditorPlayModeChange = 3991,
+		Awake = 3985,
+		get_IsEditorPaused = 3989
+	},
+	["Amazon.Util.AWSPublicIpAddressRange"] = {
+		set_IpPrefix = 5194,
+		get_Service = 5197,
+		set_Service = 5198,
+		get_Region = 5195,
+		get_IpPrefix = 5193,
+		set_Region = 5196
+	},
+	["Amazon.Util.AWSPublicIpAddressRanges"] = {
+		set_AllAddressRanges = 5188,
+		get_ServiceKeys = 5184,
+		Parse = 5192,
+		set_CreateDate = 5186,
+		get_AllAddressRanges = 5187,
+		get_CreateDate = 5185,
+		AddressRangesByServiceKey = 5189,
+		AddressRangesByRegion = 5190,
+		Load = 5191
+	},
+	["Amazon.Util.AWSSDKUtils"] = {
+		PreserveStackTrace = 5140,
+		GetMaxIdleTime = 5142,
+		ForceCanonicalPathAndQuery = 5139,
+		AreEqual_object_object = 5159,
+		DetermineValidPathCharacters = 5144,
+		ConvertFromUnixEpochSeconds = 5152,
+		get_FormattedCurrentTimestampISO8601 = 5164,
+		get_CorrectedUtcNow = 5173,
+		get_FormattedCurrentTimestampGMT = 5163,
+		Join = 5149,
+		Sleep_TimeSpan = 5170,
+		CopyStream_Stream_Stream_int = 5162,
+		UrlEncode_string_bool = 5168,
+		Sleep_int = 5143,
+		CalculateStringToSignV2 = 5147,
+		CopyStream_Stream_Stream = 5161,
+		BytesToHexString = 5171,
+		GetFormattedTimestampRFC822 = 5167,
+		ConvertToUnixEpochSeconds = 5153,
+		ParseQueryParameters = 5157,
+		ConvertToUnixEpochMilliSeconds = 5154,
+		DetermineRegion = 5150,
+		UrlEncode_int_string_bool = 5169,
+		["AreEqual_object[]_object[]"] = 5158,
+		GetFormattedTimestampISO8601 = 5165,
+		HexStringToBytes = 5172,
+		IsPathSeparator = 5146,
+		DetermineService = 5151,
+		GetExtension = 5145,
+		GetConnectionLimit = 5141,
+		get_FormattedCurrentTimestampRFC822 = 5166,
+		get_Dispatcher = 5156,
+		ToHex = 5155,
+		get_IsIL2CPP = 5174,
+		GetParametersAsString = 5148,
+		GenerateMemoryStreamFromString = 5160
+	},
+	["Amazon.Util.CircularReferenceTracking"] = {
+		Track = 5330,
+		PopTracker = 5331,
+		TrackerExists = 5332
+	},
+	["Amazon.Util.CircularReferenceTracking.Tracker"] = {
+		get_State = 5325,
+		Dispose_bool = 5328,
+		get_Target = 5323,
+		Dispose = 5329,
+		ToString = 5327,
+		set_State = 5326,
+		set_Target = 5324
+	},
+	["Amazon.Util.CryptoUtilFactory"] = {
+		get_CryptoInstance = 5183
+	},
+	["Amazon.Util.CryptoUtilFactory.CryptoUtil"] = {
+		get_SHA256HashAlgorithmInstance = 5182,
+		["HMACSign_byte[]_string_SigningAlgorithm"] = 5176,
+		ComputeSHA256Hash_Stream = 5178,
+		ComputeMD5Hash_Stream = 5180,
+		["ComputeMD5Hash_byte[]"] = 5179,
+		HMACSign_string_string_SigningAlgorithm = 5175,
+		["ComputeSHA256Hash_byte[]"] = 5177,
+		HMACSignBinary = 5181
+	},
+	["Amazon.Util.Internal.AmazonHookedPlatformInfo"] = {
+		get_PackageName = 5108,
+		get_Model = 5097,
+		get_Locale = 5105,
+		set_VersionCode = 5113,
+		get_PersistentDataPath = 5103,
+		set_Model = 5098,
+		get_PlatformVersion = 5101,
+		get_Make = 5099,
+		set_Platform = 5096,
+		set_PersistentDataPath = 5104,
+		set_VersionName = 5111,
+		set_Make = 5100,
+		set_PackageName = 5109,
+		set_Locale = 5106,
+		Init = 5116,
+		get_VersionName = 5110,
+		get_Platform = 5095,
+		get_Title = 5114,
+		get_Instance = 5107,
+		set_PlatformVersion = 5102,
+		set_Title = 5115,
+		get_VersionCode = 5112
+	},
+	["Amazon.Util.Internal.ConfigurationElement"] = {
+		get_ElementInformation = 3980,
+		set_ElementInformation = 3981
+	},
+	["Amazon.Util.Internal.ElementInformation"] = {
+		get_IsPresent = 3982,
+		set_IsPresent = 3983
+	},
+	["Amazon.Util.Internal.InternalSDKUtils"] = {
+		SetUserAgent_string_string = 5203,
+		get_IsAndroid = 5200,
+		get_IsiOS = 5201,
+		SetUserAgent_string_string_string = 5204,
+		SafeExecute = 5209,
+		GetTypeFromUnityEngine = 5202,
+		BuildCustomUserAgentString = 5205,
+		ApplyValues = 5207,
+		AsyncExecutor = 5208,
+		BuildUserAgentString = 5206,
+		GetMonoRuntimeVersion = 5199
+	},
+	["Amazon.Util.Internal.PlatformServices.ApplicationInfo"] = {
+		get_AppTitle = 5248,
+		get_PackageName = 5251,
+		get_AppVersionCode = 5250,
+		get_AppVersionName = 5249
+	},
+	["Amazon.Util.Internal.PlatformServices.ApplicationSettings"] = {
+		SetValue = 5252,
+		RemoveValue = 5254,
+		GetValue = 5253
+	},
+	["Amazon.Util.Internal.PlatformServices.EnvironmentInfo"] = {
+		set_Model = 5258,
+		set_PclPlatform = 5268,
+		set_Platform = 5256,
+		get_Locale = 5263,
+		get_Model = 5257,
+		set_PlatformUserAgent = 5270,
+		get_PlatformVersion = 5261,
+		get_Make = 5259,
+		get_PclPlatform = 5267,
+		get_PlatformUserAgent = 5269,
+		set_Make = 5260,
+		set_Locale = 5264,
+		set_FrameworkUserAgent = 5266,
+		DetermineFramework = 5271,
+		get_FrameworkUserAgent = 5265,
+		get_Platform = 5255,
+		set_PlatformVersion = 5262
+	},
+	["Amazon.Util.Internal.PlatformServices.NetworkReachability"] = {
+		get_NetworkStatus = 5272
+	},
+	["Amazon.Util.Internal.PlatformServices.NetworkStatusEventArgs"] = {
+		set_Status = 5274,
+		get_Status = 5273
+	},
+	["Amazon.Util.Internal.RootConfig"] = {
+		get_RegionEndpoint = 5287,
+		Choose = 5295,
+		GetServiceSection = 5298,
+		get_Region = 5281,
+		set_CorrectForClockSkew = 5292,
+		set_ServiceSections = 5297,
+		get_ProfileName = 5283,
+		set_ApplicationName = 5294,
+		get_CorrectForClockSkew = 5291,
+		get_ServiceSections = 5296,
+		set_ProfileName = 5284,
+		set_ProfilesLocation = 5286,
+		set_Proxy = 5278,
+		set_RegionEndpoint = 5288,
+		get_Proxy = 5277,
+		get_EndpointDefinition = 5279,
+		get_UseSdkCache = 5289,
+		set_UseSdkCache = 5290,
+		get_ApplicationName = 5293,
+		get_ProfilesLocation = 5285,
+		set_Logging = 5276,
+		set_EndpointDefinition = 5280,
+		get_Logging = 5275,
+		set_Region = 5282
+	},
+	["Amazon.Util.Internal.TypeFactory"] = {
+		GetTypeInfo = 5247
+	},
+	["Amazon.Util.Internal.TypeFactory.AbstractTypeInfo"] = {
+		EnumToObject = 5240,
+		EnumGetUnderlyingType = 5241,
+		get_Type = 5235,
+		GetElementType = 5244,
+		get_IsArray = 5239,
+		ArrayCreateInstance = 5243,
+		get_FullName = 5245,
+		IsType = 5238,
+		Equals = 5237,
+		CreateInstance = 5242,
+		GetHashCode = 5236,
+		get_Name = 5246
+	},
+	["Amazon.Util.Internal.TypeFactory.TypeInfoWrapper"] = {
+		GetInterfaces = 5213,
+		get_ContainsGenericParameters = 5227,
+		get_IsClass = 5217,
+		get_IsGenericTypeDefinition = 5228,
+		GetInterface = 5212,
+		["GetMethod_string_ITypeInfo[]"] = 5223,
+		GetCustomAttributes_ITypeInfo_bool = 5233,
+		GetMethod_string = 5222,
+		GetGenericTypeDefinition = 5230,
+		GetConstructor = 5224,
+		GetProperties = 5214,
+		IsAssignableFrom = 5226,
+		GetField = 5211,
+		get_IsValueType = 5218,
+		get_BaseType = 5210,
+		get_Assembly = 5234,
+		GetMembers = 5216,
+		GetGenericArguments = 5231,
+		GetCustomAttributes_bool = 5232,
+		get_IsInterface = 5219,
+		get_IsEnum = 5221,
+		GetProperty = 5225,
+		get_IsAbstract = 5220,
+		get_IsGenericType = 5229,
+		GetFields = 5215
+	},
+	["Amazon.Util.LoggingConfig"] = {
+		set_LogMetrics = 5134,
+		set_LogTo = 5128,
+		get_LogResponsesSizeLimit = 5131,
+		get_LogTo = 5127,
+		get_LogMetricsFormat = 5135,
+		get_LogMetrics = 5133,
+		Configure = 5126,
+		set_LogResponses = 5130,
+		set_LogMetricsFormat = 5136,
+		get_LogMetricsCustomFormatter = 5137,
+		get_LogResponses = 5129,
+		set_LogMetricsCustomFormatter = 5138,
+		set_LogResponsesSizeLimit = 5132
+	},
+	["Amazon.Util.PaginatedResourceFactory"] = {
+		SetPropertyValueAtPath = 5300,
+		GetPropertyTypeFromPath = 5301
+	},
+	["Amazon.Util.PaginatedResourceInfo"] = {
+		VerifyProperty_string_Type_string_Type_bool = 5322,
+		get_Request = 5306,
+		set_TokenResponsePropertyPath = 5311,
+		set_Request = 5307,
+		get_TokenResponsePropertyPath = 5310,
+		VerifyProperty_string_Type_string_Type = 5321,
+		WithTokenRequestPropertyPath = 5317,
+		Verify = 5320,
+		set_Client = 5303,
+		set_ItemListPropertyPath = 5313,
+		get_MethodName = 5304,
+		set_TokenRequestPropertyPath = 5309,
+		WithItemListPropertyPath = 5319,
+		set_MethodName = 5305,
+		WithMethodName = 5315,
+		WithTokenResponsePropertyPath = 5318,
+		WithRequest = 5316,
+		get_TokenRequestPropertyPath = 5308,
+		get_Client = 5302,
+		get_ItemListPropertyPath = 5312,
+		WithClient = 5314
+	},
+	["Amazon.Util.ProxyConfig"] = {
+		get_Port = 5120,
+		set_Username = 5123,
+		get_Host = 5118,
+		Configure = 5117,
+		set_Password = 5125,
+		set_Host = 5119,
+		set_Port = 5121,
+		get_Password = 5124,
+		get_Username = 5122
+	},
+	["Amazon.Util.Storage.Internal.NetworkInfo"] = {
+		GetReachability = 5299
+	},
+	["Amazon.Util.Storage.Internal.PlayerPreferenceKVStore"] = {
+		GetHelper = 5338,
+		Put = 5334,
+		Clear = 5333,
+		Get = 5335,
+		PutHelper = 5336,
+		ClearHelper = 5337
+	},
+	["Amazon.Util.Storage.Internal.SQLiteDatabase"] = {
+		LastInsertRowid = 5344,
+		Prepare = 5342,
+		Exec = 5345,
+		OpenDatabase = 5343,
+		PtrToString = 5340,
+		ErrorMsg = 5346,
+		StringToUTF8ByteArray = 5339,
+		CloseDatabase = 5341
+	},
+	["Amazon.Util.Storage.Internal.SQLiteField"] = {
+		get_INTEGER = 5359,
+		get_DATETIME = 5360,
+		IsNull = 5356,
+		get_BOOL = 5357,
+		Read = 5355,
+		get_TEXT = 5358
+	},
+	["Amazon.Util.Storage.Internal.SQLiteStatement"] = {
+		FinalizeStm = 5354,
+		BindText = 5348,
+		Reset = 5352,
+		Read = 5351,
+		ClearBindings = 5353,
+		BindInt = 5349,
+		BindDateTime = 5350,
+		Step = 5347
+	},
+	["Amazon.V4ClientSection"] = {
+		set_UseSignatureVersion4 = 5685,
+		get_UseSignatureVersion4 = 5684
+	},
+	["Amazon.V4ClientSectionRoot"] = {
+		get_S3 = 5682,
+		set_S3 = 5683
+	},
 	AndroidSupportListener = {
-		get_inMutilWindow = 3075,
+		onResume = 8098,
 		ExitMultiWindow = 3078,
 		set_inMutilWindow = 3074,
+		get_inMutilWindow = 3075,
+		OnPause = 8097,
 		Awake = 3076,
 		EnterMultiWindow = 3077
 	},
@@ -65,25 +4479,45 @@ return {
 	AutoSpacingHLayout = {
 		CalculateLayoutInputHorizontal = 3255
 	},
+	AwsOSSMgr = {
+		UpdateLoad = 8066,
+		UpdateLoadAsyn = 8067,
+		get_ins = 8064,
+		Init = 8065
+	},
+	AwsOSSMgrWrap = {
+		_CreateAwsOSSMgr = 7641,
+		UpdateLoadAsyn = 7644,
+		get_ins = 7645,
+		Register = 7640,
+		UpdateLoad = 7643,
+		Init = 7642
+	},
+	BgInfoList = {
+		GetBgNameByindex = 7982
+	},
 	BilibiliCallBackListerner = {
 		PayFailed = 3087,
-		LoginFailed = 3082,
 		InitSuccess = 3079,
+		OnFetchFreeHostErro = 8101,
 		AccountInvalid = 3084,
+		LoginFailed = 3082,
+		PaySuccess = 3086,
 		LoginSuccess = 3081,
 		GameExit = 3088,
 		SetChannelId = 3085,
 		InitFailed = 3080,
-		PaySuccess = 3086,
+		OnFetchFreeHostFailed = 8100,
+		OnFetchFreeHostSuccess = 8099,
 		LoginOut = 3083
 	},
 	BilibiliSdkMgr = {
-		get_serverId = 3110,
 		Log = 3133,
-		LevelUp_int = 3126,
-		set_payId = 3104,
-		isHuawei = 3130,
+		get_channelUID = 3108,
 		InitData = 3121,
+		set_payId = 3104,
+		Init = 3114,
+		get_serverName = 3095,
 		TryLogin = 3115,
 		get_loginType = 3111,
 		get_isTencent = 3103,
@@ -91,33 +4525,36 @@ return {
 		EnterServer = 3125,
 		DCStop = 3122,
 		LoginPlatform = 3119,
-		get_serverName = 3095,
-		callSdkApi = 3131,
+		get_isPlatform = 3101,
+		OnLoginTimeOut = 3120,
 		Logout = 3129,
+		callSdkApi = 3131,
+		LevelUp_int = 3126,
 		set_channelUID = 3109,
-		get_channelUID = 3108,
-		set_isTencent = 3102,
 		GoLoginScene = 3112,
 		set_isPlatform = 3100,
-		get_isInitDataSDK = 3099,
+		set_isLoginGetWay = 8102,
 		get_inst = 3094,
 		Login = 3116,
-		Init = 3114,
+		set_isTencent = 3102,
+		isHuawei = 3130,
+		ChooseServer = 3124,
 		LocalLogout = 3113,
 		set_sandboxKey = 3096,
 		get_sandboxKey = 3097,
 		OnLoginGatewayFailed = 3118,
 		set_isLocalExit = 3106,
-		get_isPlatform = 3101,
+		GetFreeUrl = 8104,
 		LevelUp = 3127,
 		onBackPressed = 3128,
-		OnLoginTimeOut = 3120,
+		get_isInitDataSDK = 3099,
 		get_payId = 3105,
 		set_isInitDataSDK = 3098,
-		ChooseServer = 3124,
+		get_serverId = 3110,
 		CreateRole = 3123,
 		GetKey = 3134,
 		get_isLocalExit = 3107,
+		get_isLoginGetWay = 8103,
 		OnGatewayLogined = 3117
 	},
 	blDelay = {
@@ -174,21 +4611,24 @@ return {
 	},
 	BulletinBoardMgr = {
 		ClearCache = 2837,
-		GetSprite = 2838,
-		GetFileName = 2841,
-		GetCacheFolderName = 2842,
-		LoadSprite = 2839,
 		get_Inst = 2835,
-		Awake = 2836,
-		StopLoader = 2840
+		StopLoader = 2840,
+		GetCacheFolderName = 2842,
+		LoadTexture = 7984,
+		GetTexture = 7983,
+		GetSprite = 2838,
+		LoadSprite = 2839,
+		GetFileName = 2841,
+		Awake = 2836
 	},
 	BulletinBoardMgrWrap = {
 		ClearCache = 505,
 		GetSprite = 506,
 		get_Inst = 509,
 		Register = 504,
-		StopLoader = 507,
-		op_Equality = 508
+		op_Equality = 508,
+		GetTexture = 7646,
+		StopLoader = 507
 	},
 	BulletRotation = {
 		Update = 3145,
@@ -196,16 +4636,32 @@ return {
 		Start = 3143,
 		OnEnable = 3144
 	},
+	ButtonEventExtend = {
+		set_onPointerDown = 8186,
+		OnPointerDown = 8187,
+		Start = 8184,
+		get_onPointerDown = 8185
+	},
+	ButtonEventExtendWrap = {
+		set_onPointerDown = 7651,
+		OnPointerDown = 7648,
+		Register = 7647,
+		op_Equality = 7649,
+		get_onPointerDown = 7650
+	},
 	ButtonExtend = {
-		get_grayOnDisabled = 3146,
+		OnDisable = 3151,
 		DoStateTransition = 3152,
-		set_grayOnDisabled = 3147,
+		get_grayOnDisabled = 3146,
 		InternalEvaluateAndTransitionToSelectionState = 3154,
+		set_grayOnDisabled = 3147,
 		OnSetProperty = 3153,
 		set_externalGrayOnDisabled = 3149,
 		OnEnable = 3150,
+		OnPointerDown = 8126,
 		get_externalGrayOnDisabled = 3148,
-		OnDisable = 3151
+		set_onPointerDown = 8125,
+		get_onPointerDown = 8124
 	},
 	ButtonExtendArchiver = {
 		Clear = 3614,
@@ -221,14 +4677,122 @@ return {
 		OnDestroy = 949
 	},
 	CameraUtil = {
+		SetAdaptBattleCamera = 8188,
 		Adapt = 3723,
-		SetOnlyAdaptMainCam = 3726,
 		AdaptTo = 3724,
+		SetOnlyAdaptMainCam = 3726,
 		Revert = 3725
+	},
+	ChannelData = {
+		CheckSingleKey = 8015
+	},
+	ChannelDataWrap = {
+		get_channelType = 7656,
+		_CreateChannelData = 7653,
+		set_channelType = 7660,
+		Register = 7652,
+		set_curCueDataKey = 7662,
+		set_channelName = 7659,
+		get_channelPlayer = 7657,
+		get_channelName = 7655,
+		set_channelPlayer = 7661,
+		get_curCueDataKey = 7658,
+		CheckSingleKey = 7654
 	},
 	ChargeArea = {
 		Start = 3155,
 		Update = 3156
+	},
+	CircleList = {
+		SetRotateAngle = 8507,
+		BatchAddItem = 8504,
+		RotateItemToTarget = 8510,
+		OnDisable = 8514,
+		assistItemComparison = 8506,
+		RemoveItem = 8502,
+		OnEnable = 8513,
+		SetItemToTargetDirectly = 8511,
+		AddItem = 8501,
+		SetPosiztionByDistance = 8505,
+		AddToRotateAngle = 8508,
+		Init = 8500,
+		InsertItem = 8503,
+		Update = 8512,
+		CalculateItemRealAngle = 8509,
+		set_ItemTransformList = 8499,
+		get_ItemTransformList = 8498
+	},
+	CircleListWrap = {
+		set_MinScale = 8401,
+		CalculateItemRealAngle = 8360,
+		get_MaxAlpha = 8378,
+		set_MaxScale = 8402,
+		CircleList_FinishInstantiateTpl = 8421,
+		set_onRotateToFace = 8417,
+		get_CenterY = 8372,
+		set_IsFade = 8412,
+		set_CenterX = 8397,
+		set_MinDistanceStartDrag = 8407,
+		get_IsAutoSetDeltaAngle = 8388,
+		set_IsAutoMove = 8411,
+		get_TimeOnAutoRotateEndDrag = 8380,
+		get_IsNeedRotateOnClick = 8384,
+		get_onRotateToFace = 8391,
+		OnDisable = 8365,
+		set_IsDragable = 8413,
+		get_MinAlpha = 8377,
+		set_CenterY = 8398,
+		get_MinDistanceStartDrag = 8381,
+		CircleList_FinishRotateToFace = 8419,
+		get_AdjustArg = 8382,
+		get_MinScale = 8375,
+		RemoveItem = 8355,
+		set_RadiusY = 8400,
+		get_IsDragable = 8387,
+		get_OriginalRotation = 8383,
+		set_TimeOnAutoRotateEndDrag = 8406,
+		get_CenterX = 8371,
+		Update = 8363,
+		set_IsAutoSetDeltaAngle = 8414,
+		set_AdjustArg = 8408,
+		get_RadiusX = 8373,
+		set_OriginalRotation = 8409,
+		Init = 8353,
+		get_DeltaAngle = 8369,
+		get_RadiusY = 8374,
+		get_SpeedOnDrag = 8379,
+		set_ItemCount = 8393,
+		get_ItemTransformList = 8392,
+		set_TargetAngle = 8396,
+		SetRotateAngle = 8358,
+		BatchAddItem = 8357,
+		RotateItemToTarget = 8361,
+		get_TargetAngle = 8370,
+		set_DeltaAngle = 8395,
+		get_MaxScale = 8376,
+		OnEnable = 8364,
+		SetItemToTargetDirectly = 8362,
+		AddItem = 8354,
+		get_IsAutoMove = 8385,
+		set_RadiusX = 8399,
+		InsertItem = 8356,
+		Register = 8352,
+		op_Equality = 8366,
+		get_ItemRectTpl = 8368,
+		set_ItemRectTpl = 8394,
+		set_IsNeedRotateOnClick = 8410,
+		set_onItemInited = 8415,
+		set_MinAlpha = 8403,
+		get_onItemInited = 8389,
+		get_ItemCount = 8367,
+		AddToRotateAngle = 8359,
+		get_IsFade = 8386,
+		set_onFinishInited = 8416,
+		set_SpeedOnDrag = 8405,
+		set_MaxAlpha = 8404,
+		set_ItemTransformList = 8418,
+		CircleList_FinishInit = 8420,
+		get_onFinishInited = 8390
 	},
 	ClickEffect = {
 		Update = 3165,
@@ -283,6 +4847,33 @@ return {
 	CriAtomExAcbDebug = {
 		GetAcbInfo = 217
 	},
+	CriAtomExAcf = {
+		GetGlobalAisacValue = 3916,
+		GetGlobalAisacInfoByName = 3914,
+		GetDspBusLinkInformation = 3906,
+		GetDspSettingInformation = 3903,
+		GetGlobalAisacGraphInfo = 3915,
+		GetSelectorInfoByName = 3920,
+		GetNumBuses = 3922,
+		FindBusName = 3924,
+		GetCategoryInfoByName = 3910,
+		GetNumCategoriesPerPlayback = 3908,
+		GetNumSelectors = 3918,
+		GetNumDspSettings = 3902,
+		GetNumCategories = 3907,
+		GetSelectorInfoByIndex = 3919,
+		GetAcfInfo = 3917,
+		GetAisacControlInfo = 3901,
+		GetDspBusInformation = 3905,
+		GetMaxBusesOfDspBusSettings = 3923,
+		GetDspSettingSnapshotInformation = 3904,
+		GetSelectorLabelInfo = 3921,
+		GetNumGlobalAisacs = 3912,
+		GetGlobalAisacInfoByIndex = 3913,
+		GetNumAisacControls = 3900,
+		GetCategoryInfoById = 3911,
+		GetCategoryInfoByIndex = 3909
+	},
 	CriAtomExAcfDebug = {
 		GetNumBuses = 204,
 		GetNumCategories = 200,
@@ -320,6 +4911,18 @@ return {
 		RegisterEffectInterface = 60,
 		DetachBusAnalyzer_string = 47,
 		["GetBusAnalyzerInfo_int_BusAnalyzerInfo&"] = 50
+	},
+	CriAtomExAsr_BusAnalyzerInfoWrap = {
+		Register = 7663,
+		get_rmsLevels = 7666,
+		set_numChannels = 7669,
+		set_peakHoldLevels = 7672,
+		set_rmsLevels = 7670,
+		_CreateCriAtomExAsr_BusAnalyzerInfo = 7664,
+		get_peakLevels = 7667,
+		set_peakLevels = 7671,
+		get_numChannels = 7665,
+		get_peakHoldLevels = 7668
 	},
 	CriAtomExAuxIn = {
 		SetVolume = 70,
@@ -413,6 +5016,15 @@ return {
 		ExecutePcmCaptureCallback_PcmCaptureCallback = 115,
 		GetSpectrumLevels = 111
 	},
+	CriAtomExPlayback_StatusWrap = {
+		get_Playing = 7677,
+		IntToEnum = 7679,
+		get_Removed = 7678,
+		CheckType = 7675,
+		Push = 7674,
+		Register = 7673,
+		get_Prep = 7676
+	},
 	CriAtomExPlaybackDebug = {
 		["GetAisacControl_CriAtomExPlayback_string_float&"] = 222,
 		["GetParameter_CriAtomExPlayback_Parameter_int&"] = 220,
@@ -440,8 +5052,8 @@ return {
 	},
 	["CriMana.Player"] = {
 		SetExtraAudioTrack_AudioTrack = 173,
-		SetSeekPosition = 162,
 		set_playerHolder = 147,
+		OnWillRenderObject = 186,
 		SetSubAudioTrack_AudioTrack = 171,
 		UpdateNativePlayer = 193,
 		Dispose_bool = 189,
@@ -449,29 +5061,34 @@ return {
 		Pause = 155,
 		get_additiveMode = 129,
 		SetData = 158,
-		get_playerHolder = 146,
-		SetAsrRackId = 184,
-		SetMinBufferSize = 167,
+		SetMasterTimerType = 3928,
 		SetAudioTrack_AudioTrack = 169,
-		get_maxFrameDrop = 131,
+		SetMinBufferSize = 167,
+		SetAsrRackId = 184,
+		get_playerHolder = 146,
 		DeallocateSubtitleBuffer = 195,
-		SetBusSendLevel = 177,
+		get_maxFrameDrop = 131,
 		get_movieInfo = 136,
 		SetVolume = 174,
 		get_frameInfo = 137,
 		CreateRendererResource = 149,
-		Loop = 161,
-		get_status = 138,
+		SetSeekPosition = 162,
+		SetBusSendLevel = 177,
+		Start = 153,
+		StopForSeek = 3927,
 		IssuePluginUpdatesForFrames = 190,
+		UpdateWithUserTime = 3929,
 		SetSubAudioTrack_int = 170,
 		get_atomEx3DsourceForAmbisonics = 145,
 		SetBufferingTime = 166,
 		SetExtraAudioVolume = 176,
-		OnWillRenderObject = 186,
+		Loop = 161,
 		get_applyTargetAlpha = 133,
 		SetMovieEventSyncMode = 163,
 		SetSubAudioBusSendLevel = 178,
 		SetExtraAudioTrack_int = 172,
+		UpdateWithManualTimeAdvanced = 3931,
+		InternalUpdate = 3932,
 		SetExtraAudioBusSendLevel = 179,
 		SetSubtitleChannel = 180,
 		Update = 185,
@@ -481,6 +5098,7 @@ return {
 		Dispose = 148,
 		DisableInfos = 191,
 		IssuePluginEvent = 188,
+		SetManualTimerUnit = 3930,
 		SetAudioTrack_int = 168,
 		get_atomExPlayer = 144,
 		Stop = 154,
@@ -503,10 +5121,35 @@ return {
 		get_subtitleBuffer = 140,
 		GetTime = 182,
 		AllocateSubtitleBuffer = 194,
-		Start = 153,
+		get_status = 138,
 		set_applyTargetAlpha = 134,
 		set_additiveMode = 130,
 		set_subtitleBuffer = 141
+	},
+	CriManaAniCtrl = {
+		PlayMana = 8189,
+		StopMana = 8190
+	},
+	CriManaCpkUI = {
+		PlayCpk = 8193,
+		PlayCpkHandler = 8194,
+		OnDestroy = 8197,
+		StopCpk = 8196,
+		GetCpkPath = 8195,
+		Start = 8192,
+		OnDisable = 8191
+	},
+	CriManaCpkUIWrap = {
+		set_cpkPath = 7687,
+		StopCpk = 7682,
+		Register = 7680,
+		op_Equality = 7683,
+		PlayCpk = 7681,
+		set_cpkPlayOnStart = 7689,
+		get_cpkPath = 7684,
+		get_movieName = 7685,
+		get_cpkPlayOnStart = 7686,
+		set_movieName = 7688
 	},
 	CriManaEffect = {
 		OnDestroy = 3728,
@@ -519,18 +5162,170 @@ return {
 		Start = 3730
 	},
 	CriManaMoviePlayerHolder = {
+		set_player = 126,
 		Start = 128,
+		CriInternalLateUpdate = 3926,
 		Awake = 127,
-		set_player = 126
+		CriInternalUpdate = 3925
 	},
 	CriManaVp9 = {
 		SupportCurrentPlatform = 224,
 		SetupVp9Decoder = 225
 	},
+	CriMonoBehaviour = {
+		Awake = 3933,
+		OnDestroy = 3934
+	},
+	CriMonoBehaviourManager = {
+		LateUpdate = 3942,
+		Update = 3941,
+		GetIndex = 3937,
+		CreateInstance = 3936,
+		UnRegister = 3939,
+		get_instance = 3935,
+		Awake = 3940,
+		Register = 3938
+	},
+	CriMonoBehaviourWrap = {
+		get_guid = 7694,
+		CriInternalLateUpdate = 7692,
+		Register = 7690,
+		set_guid = 7695,
+		op_Equality = 7693,
+		CriInternalUpdate = 7691
+	},
 	CriWareDecrypter = {
 		Initialize_string_string_bool_bool = 198,
 		CallbackFromNative = 199,
 		Initialize_CriWareDecrypterConfig = 197
+	},
+	CriWareMgr = {
+		LoadAndRegister = 7990,
+		GetCueInfo = 7998,
+		PlaySE = 8011,
+		StopVoice = 8010,
+		PlayAndCreatePlaybackInfo = 8005,
+		get_Inst = 7985,
+		CreateChannel = 7992,
+		CreateDefaultChannels = 7991,
+		PlayBattleSE = 8013,
+		GetInstance = 7987,
+		PlayVoice = 8009,
+		ChangeChannelType = 7994,
+		SetDspBus = 7995,
+		RemoveDspBus = 7996,
+		StopBattleSE = 8014,
+		Init = 7989,
+		PlayBGM = 8007,
+		Update = 8000,
+		StopSound = 8002,
+		PlaySound = 8001,
+		TryGetCuePlayData = 7999,
+		UnloadCueSheet = 8004,
+		StopSE = 8012,
+		RemoveChannel = 7993,
+		GetChannelData = 7997,
+		LoadCueSheet = 8003,
+		OnGUI = 7988,
+		DebugPrint = 8006,
+		StopBGM = 8008,
+		Awake = 7986
+	},
+	CriWareMgr_CRI_CHANNEL_TYPEWrap = {
+		get_WITHOUT_LIMIT = 7702,
+		get_MULTI_NOT_REPEAT = 7700,
+		IntToEnum = 7703,
+		CheckType = 7698,
+		get_SINGLE = 7699,
+		Push = 7697,
+		get_MULTI = 7701,
+		Register = 7696
+	},
+	CriWareMgr_CRI_FADE_TYPEWrap = {
+		get_FADE_INOUT = 7708,
+		IntToEnum = 7710,
+		Push = 7705,
+		CheckType = 7706,
+		get_FADE_CROSS = 7709,
+		Register = 7704,
+		get_NONE = 7707
+	},
+	CriWareMgrWrap = {
+		Init = 7713,
+		GetCueInfo = 7722,
+		PlayBattleSE = 7735,
+		get_C_VOICE = 7740,
+		PlayAndCreatePlaybackInfo = 7727,
+		get_Inst = 7745,
+		LoadCueSheet = 7725,
+		set_C_BATTLE_SE = 7750,
+		PlaySound = 7723,
+		GetInstance = 7712,
+		PlaySE = 7733,
+		ChangeChannelType = 7718,
+		get_fadeTime = 7743,
+		RemoveDspBus = 7720,
+		set_C_VOICE = 7748,
+		SetDspBus = 7719,
+		StopBattleSE = 7736,
+		set_C_SE = 7749,
+		StopBGM = 7730,
+		Register = 7711,
+		StopSound = 7724,
+		op_Equality = 7737,
+		StopVoice = 7732,
+		RemoveChannel = 7717,
+		GetChannelData = 7721,
+		set_acfPath = 7752,
+		LoadAndRegister = 7714,
+		get_C_BATTLE_SE = 7742,
+		CreateChannel = 7716,
+		CreateDefaultChannels = 7715,
+		set_DEBUG_ENABLE = 7746,
+		StopSE = 7734,
+		PlayVoice = 7731,
+		get_C_SE = 7741,
+		set_C_BGM = 7747,
+		PlayBGM = 7729,
+		get_DEBUG_ENABLE = 7738,
+		get_C_BGM = 7739,
+		DebugPrint = 7728,
+		get_acfPath = 7744,
+		UnloadCueSheet = 7726,
+		set_fadeTime = 7751
+	},
+	CueData = {
+		GetKey = 8016,
+		ParseKey = 8017
+	},
+	CueDataWrap = {
+		set_cueName = 7762,
+		Register = 7753,
+		set_channelName = 7760,
+		GetKey = 7755,
+		_CreateCueData = 7754,
+		set_cueSheetName = 7761,
+		get_channelName = 7757,
+		ParseKey = 7756,
+		get_cueSheetName = 7758,
+		get_cueName = 7759
+	},
+	CuePlayData = {
+		ClearPlayback = 8029,
+		StopAllPlayback = 8024,
+		CheckDelayDispose = 8027,
+		Dispose = 8030,
+		DelayDispose = 8026,
+		CheckAllPlaybackEnd = 8023,
+		ResetDispose = 8025,
+		CheckDelayEnd = 8028
+	},
+	CueSheetLoadData = {
+		CallbackHander = 8018,
+		CheckAllPlaybackEnd = 8020,
+		Reset = 8021,
+		Dispose = 8022,
+		ClearEvent = 8019
 	},
 	CVUpdateMgr = {
 		Awake = 2847,
@@ -561,18 +5356,27 @@ return {
 		SetTriggerEvent = 944,
 		OnAniStart = 940
 	},
+	["DigitalSea.Scipio"] = {
+		www = 8201
+	},
 	DownloadMgr = {
-		Clear = 2871,
-		NeedD = 2868,
-		DoUpdateD = 2873,
-		CheckD = 2869,
-		OnError = 2877,
-		UpdateF = 2867,
 		DoCheckD = 2872,
 		DoUpdateF = 2874,
-		UpdateHashFile = 2876,
-		CleanD = 2875,
+		DoUpdateD = 2873,
 		CheckF = 2866,
+		DisplayInfo = 8041,
+		UpdateF = 2867,
+		SetDisplayInfo = 8042,
+		StartVerify = 8039,
+		DoUpdateD_bool = 8038,
+		OnError = 2877,
+		Clear = 2871,
+		CleanD = 2875,
+		NeedD = 2868,
+		CheckD = 2869,
+		DisplayMsg = 8043,
+		UpdateHashFile = 2876,
+		VerifyResources = 8040,
 		FixVersion = 2879,
 		FindF = 2865,
 		DisplayDialog = 2880,
@@ -680,6 +5484,131 @@ return {
 		SearchPath = 3735,
 		GetAllFiles = 3734,
 		GetCurrentDirectiory = 3733
+	},
+	FMultiSpriteRenderCtrl = {
+		UpdateAlpha = 8518,
+		Update = 8517,
+		Awake = 8515,
+		Init = 8516
+	},
+	FMultiSpriteRenderCtrlWrap = {
+		UpdateAlpha = 8424,
+		get_alpha = 8426,
+		Register = 8422,
+		op_Equality = 8425,
+		set_alpha = 8427,
+		Init = 8423
+	},
+	FreeConnectMgr = {
+		get_total = 8106,
+		ConvertFreeUrl = 8112,
+		get_inst = 8109,
+		get_count = 8108,
+		SetFreeHost = 8113,
+		SwitchToFreeUrl = 8111,
+		set_count = 8107,
+		set_total = 8105,
+		Init = 8110
+	},
+	FScrollItem = {
+		OnScrollInit = 8127,
+		OnPointerDown = 8130,
+		OnScrollClick = 8128,
+		OnPointerUp = 8131,
+		OnScrollPitch = 8129
+	},
+	FScrollItemWrap = {
+		OnScrollInit = 7764,
+		get_ItemID = 7771,
+		set_rectTF = 7777,
+		OnScrollClick = 7765,
+		set_lastPointer = 7776,
+		op_Equality = 7769,
+		get_rectTF = 7773,
+		OnScrollPitch = 7766,
+		get_lastPointer = 7772,
+		OnPointerDown = 7767,
+		Register = 7763,
+		get_scrollPage = 7770,
+		OnPointerUp = 7768,
+		set_ItemID = 7775,
+		set_scrollPage = 7774
+	},
+	FScrollPage = {
+		sizeUpdata = 8145,
+		moveToItem = 8143,
+		getProgress = 8144,
+		OnPointerUp = 8149,
+		BackEaseOut = 8132,
+		Update = 8137,
+		MoveToItemID = 8134,
+		moveBack = 8142,
+		Init = 8133,
+		MoveScrollItem = 8139,
+		OnPointerExit = 8150,
+		OnScrollUp = 8146,
+		SetMaxItemAsLast = 8135,
+		Start = 8136,
+		UpdataPostion = 8141,
+		OnScrollDown = 8147,
+		OnPointerDown = 8148,
+		PostionScrollItem = 8140,
+		MouseMove = 8138
+	},
+	FScrollPageWrap = {
+		OnPointerUp = 7783,
+		set_MiddleIndexOnInit = 7811,
+		set_PitchAlpha = 7824,
+		set_ChildNum = 7809,
+		get_PitchAlpha = 7802,
+		get_ChildNum = 7787,
+		get_ScrollSize = 7793,
+		get_IsPitchMod = 7799,
+		get_IsBanItemClick = 7804,
+		get_itemPitchCallback = 7807,
+		set_itemInitedCallback = 7827,
+		set_IsPitchMod = 7821,
+		set_Content = 7812,
+		get_Margin = 7792,
+		get_itemInitedCallback = 7805,
+		get_IsSlipMode = 7803,
+		get_SlideCoefficient = 7796,
+		OnPointerExit = 7784,
+		get_CenterAnchorPosition = 7791,
+		Register = 7778,
+		set_NarrowScale = 7820,
+		op_Equality = 7785,
+		set_IsSlipMode = 7825,
+		get_Content = 7790,
+		set_NormalAlpha = 7823,
+		OnPointerDown = 7782,
+		set_Margin = 7814,
+		set_PicthScale = 7819,
+		set_IsBanItemClick = 7826,
+		get_SlideType = 7794,
+		set_CenterAnchorPosition = 7813,
+		get_ChildTpl = 7788,
+		FScrollPage_FScrollItemCallback = 7830,
+		get_IsAutoInit = 7786,
+		set_itemClickCallback = 7828,
+		set_ScrollSize = 7815,
+		set_SlideCoefficient = 7818,
+		get_NormalAlpha = 7801,
+		MoveToItemID = 7780,
+		set_itemPitchCallback = 7829,
+		set_SlideDis = 7817,
+		set_SlideType = 7816,
+		get_NarrowScale = 7798,
+		set_ChildTpl = 7810,
+		get_MiddleIndexOnInit = 7789,
+		Init = 7779,
+		SetMaxItemAsLast = 7781,
+		set_IsFadeMode = 7822,
+		get_itemClickCallback = 7806,
+		get_PicthScale = 7797,
+		get_IsFadeMode = 7800,
+		set_IsAutoInit = 7808,
+		get_SlideDis = 7795
 	},
 	FXMakerAsset = {
 		DeleteEffectPrefab = 1311,
@@ -1765,6 +6694,29 @@ return {
 	HorizontalSlip = {
 		Update = 3217
 	},
+	HotUpdateBgSwitcher = {
+		_loadAssetBundleAsync = 8170,
+		set_sprites = 8157,
+		get_sprites = 8158,
+		get_bgInfoList = 8154,
+		get_bgImage = 8152,
+		_LoadAssetAsync = 8171,
+		set_bgImage = 8151,
+		set_changeBtn = 8155,
+		GetAssetAsyc = 8168,
+		SetBG = 8164,
+		UpdateBgSync = 8165,
+		_getAssetAsyc = 8169,
+		LoadAssetBundleSync = 8167,
+		Start = 8162,
+		SwitchToNextBg = 8163,
+		set_bgIndex = 8159,
+		set_bgInfoList = 8153,
+		OnDestroy = 8166,
+		get_changeBtn = 8156,
+		get_bgIndex = 8160,
+		Awake = 8161
+	},
 	HTSpriteSheet = {
 		Camera_BillboardingMode = 2823,
 		Update = 2821,
@@ -2069,14 +7021,15 @@ return {
 		SetData = 3091
 	},
 	LoginTypeWrap = {
-		get_PLATFORM_INNER = 541,
-		IntToEnum = 545,
-		get_PLATFORM = 542,
 		CheckType = 540,
+		IntToEnum = 545,
+		get_PLATFORM_INNER = 541,
 		get_PLATFORM_TENCENT = 543,
+		Register = 538,
 		get_PLATFORM_AIRIJP = 544,
-		Push = 539,
-		Register = 538
+		get_PLATFORM_AIRIUS = 7831,
+		get_PLATFORM = 542,
+		Push = 539
 	},
 	LOutLine = {
 		_ProcessVertices = 3291,
@@ -2096,6 +7049,32 @@ return {
 		OnEndDrag = 3298,
 		OnPointerUp = 3300,
 		OnBeginDrag = 3297
+	},
+	LSlider = {
+		OnDrag = 8180,
+		RemovePointUpFunc = 8176,
+		OnPointerDown = 8178,
+		OnPointerUp = 8179,
+		SetValueWithoutEvent = 8181,
+		RemovePointDownFunc = 8175,
+		RemoveDragFunc = 8177,
+		AddPointUpFunc = 8173,
+		AddDragFunc = 8174,
+		AddPointDownFunc = 8172
+	},
+	LSliderWrap = {
+		OnPointerUp = 7840,
+		RemovePointUpFunc = 7837,
+		RemovePointDownFunc = 7836,
+		Register = 7832,
+		OnPointerDown = 7839,
+		op_Equality = 7843,
+		SetValueWithoutEvent = 7842,
+		OnDrag = 7841,
+		RemoveDragFunc = 7838,
+		AddPointUpFunc = 7834,
+		AddDragFunc = 7835,
+		AddPointDownFunc = 7833
 	},
 	LTBezier = {
 		map = 229,
@@ -2263,10 +7242,11 @@ return {
 		GetPlatformInt = 3785,
 		getHostByDomain = 3802,
 		SetParticleSpeed = 3801,
-		Vibrate = 3807,
+		GetAgeRating = 8198,
 		SetGOParentTF = 3790,
-		WrapContent = 3804,
+		Vibrate = 3807,
 		UnityGC = 3782,
+		WrapContent = 3804,
 		CopyTransformInfoTF = 3792,
 		GetWorldCorners = 3787,
 		getGuid = 3805,
@@ -2306,6 +7286,9 @@ return {
 		Update = 2705,
 		OnDestroy = 2706,
 		Awake = 2703
+	},
+	MaskRaycast = {
+		Raycast = 8519
 	},
 	MeshImage = {
 		OnPopulateMesh = 3424,
@@ -2355,6 +7338,15 @@ return {
 		Update = 3432,
 		Start = 3430,
 		SetZoomTarget = 3431
+	},
+	MusicUpdateMgr = {
+		Awake = 8045,
+		get_Inst = 8044
+	},
+	MusicUpdateMgrWrap = {
+		op_Equality = 7845,
+		get_Inst = 7846,
+		Register = 7844
 	},
 	MyLocalNotification = {
 		CancelNotification = 3821,
@@ -2901,6 +7893,7 @@ return {
 		GetAnimationState = 2678
 	},
 	NetConst = {
+		IsOfficial = 7981,
 		GetServerStateUrl = 938
 	},
 	NgAnimation = {
@@ -3246,28 +8239,34 @@ return {
 	NotchAdapt = {
 		Update = 3437,
 		AdaptUI = 3438,
-		Start = 3436
+		LateUpdate = 8183,
+		Start = 3436,
+		AdjustUI = 8182
 	},
 	NotchAdaptWrap = {
 		set_CheckNotchRatio = 552,
 		get_KeepRatioValue = 550,
-		set_equalRatioImgs = 555,
+		get_KeepRatio = 549,
 		Register = 546,
-		set_KeepRatio = 553,
+		set_equalRatioImgs = 555,
 		op_Equality = 547,
+		set_KeepRatio = 553,
 		get_equalRatioImgs = 551,
 		get_CheckNotchRatio = 548,
 		set_KeepRatioValue = 554,
-		get_KeepRatio = 549
+		AdjustUI = 7847
 	},
 	NotificationMgr = {
-		ScheduleLocalNotification = 2916,
+		RegisterNotifications = 2912,
 		CancelAllLocalNotifications = 2917,
 		get_isRegistered = 2914,
+		ScheduleLocalNotification = 2916,
 		Update = 2915,
 		get_Inst = 2909,
+		PlayShutterSound = 8046,
+		PlayStartRecordSound = 8047,
 		get_DeviceToken = 2913,
-		RegisterNotifications = 2912,
+		PlayStopRecordSound = 8048,
 		Awake = 2910,
 		Init = 2911
 	},
@@ -3308,6 +8307,100 @@ return {
 		AddAudioSource = 2368,
 		GetSharedAudioSource = 2367
 	},
+	OSS = {
+		Url2Json = 8069,
+		Init = 8068
+	},
+	OSSStarter = {
+		get_initMode = 8070,
+		InitWithArgs_string_string_string_string = 8075,
+		UpdateLoad = 8076,
+		Start = 8073,
+		AsynUpdateLoad = 8077,
+		InitWithArgs_string_string = 8074,
+		get_ins = 8071,
+		Log = 8078,
+		Awake = 8072
+	},
+	OSSStarterWrap = {
+		get__initMode = 7854,
+		get_initMode = 7856,
+		InitWithArgs = 7849,
+		Register = 7848,
+		set__initMode = 7859,
+		op_Equality = 7852,
+		set_prefab = 7860,
+		AsynUpdateLoad = 7851,
+		get_prefab = 7855,
+		get_ins = 7857,
+		set_server = 7858,
+		UpdateLoad = 7850,
+		get_server = 7853
+	},
+	OSSWrap = {
+		Register = 7861,
+		UpdateLoadAsyn = 7864,
+		UpdateLoad = 7863,
+		Init = 7862
+	},
+	OSUtils = {
+		CheckFreeDiskspaceEnough = 8199
+	},
+	["p10.cs_10001"] = {
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8210,
+		get_password = 8206,
+		set_mail_box = 8209,
+		get_account = 8204,
+		set_password = 8207,
+		get_mail_box = 8208,
+		set_account = 8205
+	},
+	["p10.cs_10020"] = {
+		set_arg2 = 8219,
+		get_login_type = 8214,
+		get_check_key = 8224,
+		get_device = 8226,
+		set_arg3 = 8221,
+		set_arg4 = 8223,
+		get_arg3 = 8220,
+		set_check_key = 8225,
+		set_login_type = 8215,
+		get_arg1 = 8216,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8228,
+		get_arg2 = 8218,
+		get_arg4 = 8222,
+		set_arg1 = 8217,
+		set_device = 8227
+	},
+	["p10.cs_10022"] = {
+		set_account_id = 8266,
+		get_serverid = 8271,
+		get_platform = 8269,
+		set_platform = 8270,
+		get_account_id = 8265,
+		get_check_key = 8273,
+		set_server_ticket = 8268,
+		set_check_key = 8274,
+		set_serverid = 8272,
+		get_device_id = 8275,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8277,
+		get_server_ticket = 8267,
+		set_device_id = 8276
+	},
+	["p10.cs_10024"] = {
+		get_ship_id = 8291,
+		get_device_id = 8293,
+		get_nick_name = 8289,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8295,
+		set_nick_name = 8290,
+		set_ship_id = 8292,
+		set_device_id = 8294
+	},
+	["p10.cs_10100"] = {
+		set_need_request = 8302,
+		get_need_request = 8301,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8303
+	},
 	["p10.cs_10800"] = {
 		set_state = 3878,
 		set_platform = 3880,
@@ -3315,19 +8408,139 @@ return {
 		["ProtoBuf.IExtensible.GetExtensionObject"] = 3881,
 		get_state = 3877
 	},
+	["p10.cs_10994"] = {
+		get_type = 8307,
+		set_type = 8308,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8309
+	},
+	["p10.cs_10996"] = {
+		set_state = 8314,
+		set_platform = 8316,
+		get_platform = 8315,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8317,
+		get_state = 8313
+	},
+	["p10.noticeinfo"] = {
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8264,
+		set_content = 8263,
+		set_title = 8261,
+		get_id = 8258,
+		set_id = 8259,
+		get_content = 8262,
+		get_title = 8260
+	},
+	["p10.sc_10002"] = {
+		get_result = 8211,
+		set_result = 8212,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8213
+	},
+	["p10.sc_10021"] = {
+		set_account_id = 8233,
+		set_server_ticket = 8235,
+		get_result = 8229,
+		get_device = 8237,
+		get_account_id = 8232,
+		get_serverlist = 8231,
+		get_notice_list = 8236,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8239,
+		set_result = 8230,
+		get_server_ticket = 8234,
+		set_device = 8238
+	},
+	["p10.sc_10023"] = {
+		get_result = 8278,
+		set_server_ticket = 8283,
+		set_db_load = 8287,
+		set_server_load = 8285,
+		get_user_id = 8280,
+		set_user_id = 8281,
+		get_server_load = 8284,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8288,
+		set_result = 8279,
+		get_server_ticket = 8282,
+		get_db_load = 8286
+	},
+	["p10.sc_10025"] = {
+		get_result = 8296,
+		set_user_id = 8299,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8300,
+		set_result = 8297,
+		get_user_id = 8298
+	},
+	["p10.sc_10101"] = {
+		get_state = 8304,
+		set_state = 8305,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8306
+	},
 	["p10.sc_10801"] = {
-		get_version = 3888,
-		get_gateway_ip = 3882,
-		get_url = 3886,
-		get_proxy_ip = 3889,
-		set_proxy_ip = 3890,
 		get_gateway_port = 3884,
+		get_url = 3886,
+		get_gateway_ip = 3882,
+		set_gateway_ip = 3883,
+		set_proxy_ip = 3890,
+		get_version = 3888,
 		set_gateway_port = 3885,
 		set_proxy_port = 3892,
-		set_gateway_ip = 3883,
+		get_proxy_ip = 3889,
 		get_proxy_port = 3891,
+		get_is_ts = 8341,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 3893,
 		set_url = 3887,
-		["ProtoBuf.IExtensible.GetExtensionObject"] = 3893
+		set_is_ts = 8342
+	},
+	["p10.sc_10995"] = {
+		get_result = 8310,
+		set_result = 8311,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8312
+	},
+	["p10.sc_10997"] = {
+		get_version4 = 8324,
+		get_gateway_ip = 8326,
+		get_version1 = 8318,
+		get_url = 8330,
+		set_gateway_ip = 8327,
+		get_gateway_port = 8328,
+		set_url = 8331,
+		set_version1 = 8319,
+		get_version2 = 8320,
+		set_gateway_port = 8329,
+		set_version3 = 8323,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8332,
+		set_version2 = 8321,
+		set_version4 = 8325,
+		get_version3 = 8322
+	},
+	["p10.sc_10998"] = {
+		get_result = 8335,
+		set_cmd = 8334,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8337,
+		set_result = 8336,
+		get_cmd = 8333
+	},
+	["p10.sc_10999"] = {
+		set_reason = 8339,
+		get_reason = 8338,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8340
+	},
+	["p10.serverinfo"] = {
+		set_sort = 8252,
+		get_ip = 8241,
+		get_port = 8243,
+		get_tag_state = 8249,
+		set_proxy_ip = 8254,
+		set_proxy_port = 8256,
+		set_state = 8246,
+		get_proxy_ip = 8253,
+		get_name = 8247,
+		get_state = 8245,
+		set_ip = 8242,
+		get_ids = 8240,
+		set_port = 8244,
+		get_proxy_port = 8255,
+		set_tag_state = 8250,
+		["ProtoBuf.IExtensible.GetExtensionObject"] = 8257,
+		get_sort = 8251,
+		set_name = 8248
 	},
 	Packet = {
 		get_isVaild = 3025,
@@ -3466,8 +8679,79 @@ return {
 		get_IsDispose = 2844,
 		get_IsDown = 2843
 	},
+	PicUpdateMgr = {
+		Awake = 8050,
+		get_Inst = 8049
+	},
+	PicUpdateMgrWrap = {
+		op_Equality = 7866,
+		get_Inst = 7867,
+		Register = 7865
+	},
 	PinchZoom = {
 		Update = 2720
+	},
+	PlaybackInfo = {
+		GetLength = 8031,
+		SetIgnoreAutoUnload = 8036,
+		SetStartTime = 8032,
+		Dispose = 8037,
+		PlaybackStop = 8034,
+		GetTime = 8035,
+		SetStartTimeAndPlay = 8033
+	},
+	PlaybackInfoWrap = {
+		get_cueData = 7877,
+		GetLength = 7870,
+		set_channelPlayer = 7885,
+		get_cueInfo = 7878,
+		PlaybackStop = 7873,
+		SetStartTime = 7871,
+		_CreatePlaybackInfo = 7869,
+		SetStartTimeAndPlay = 7872,
+		SetIgnoreAutoUnload = 7875,
+		set_playback = 7884,
+		GetTime = 7874,
+		set_cueInfo = 7883,
+		get_playback = 7879,
+		set_ignoreAutoUnload = 7886,
+		Register = 7868,
+		get_channelPlayer = 7880,
+		Dispose = 7876,
+		set_cueData = 7882,
+		get_ignoreAutoUnload = 7881
+	},
+	PointerInfo = {
+		GetPointerColor = 8520,
+		AddColorMaskClickListener = 8522,
+		GetMapScreenPos = 8521
+	},
+	PointerInfoUI = {
+		GetPointerColor = 8523,
+		AddColorMaskClickListener = 8525,
+		GetMapScreenPos = 8524
+	},
+	PointerInfoUIWrap = {
+		GetMapScreenPos = 8430,
+		Register = 8428,
+		set_tex = 8434,
+		get_tex = 8433,
+		GetPointerColor = 8429,
+		op_Equality = 8432,
+		AddColorMaskClickListener = 8431
+	},
+	PointerInfoWrap = {
+		get_tex = 8440,
+		GetMapScreenPos = 8437,
+		set_cam = 8445,
+		Register = 8435,
+		GetPointerColor = 8436,
+		op_Equality = 8439,
+		get_layer = 8441,
+		set_tex = 8443,
+		get_cam = 8442,
+		set_layer = 8444,
+		AddColorMaskClickListener = 8438
 	},
 	ReceiveWindow = {
 		ParsePackets = 3064,
@@ -3478,8 +8762,8 @@ return {
 	},
 	ResourceMgr = {
 		_loadAssetBundleAsync = 2957,
-		getAssetSync_string_string_bool_bool = 2955,
 		get_Inst = 2946,
+		_loadAssetBundleTotallyAsync = 8485,
 		loadAssetBundleAsync = 2956,
 		LoadAssetSync_AssetBundle_string_bool_bool = 2953,
 		_LoadAssetAsync = 2964,
@@ -3487,16 +8771,19 @@ return {
 		AssetExist = 2950,
 		unloadUnusedAssetBundles = 2967,
 		["LoadAssetAsync_AssetBundle_string_UnityAction<Object>_bool_bool"] = 2962,
-		["getAssetAsync_string_string_Type_UnityAction<Object>_bool_bool"] = 2958,
-		loadAssetBundleSync = 2951,
 		Init = 2948,
 		["LoadAssetAsync_AssetBundle_UnityAction<Object>_bool_bool"] = 2963,
+		ClearBundleRefTotally = 8486,
+		loadAssetBundleSync = 2951,
+		loadAssetBundleTotallyAsync = 8484,
 		ClearBundleRef_AssetBundle_bool = 2965,
 		getAssetSync_string_string_Type_bool_bool = 2954,
 		["getAssetAsync_string_string_UnityAction<Object>_bool_bool"] = 2959,
+		["getAssetAsync_string_string_Type_UnityAction<Object>_bool_bool"] = 2958,
+		GetAllDependencies = 2949,
 		dumpAssetBundles = 2968,
 		_getAssetAsync = 2960,
-		GetAllDependencies = 2949,
+		getAssetSync_string_string_bool_bool = 2955,
 		LoadAssetSync_AssetBundle_string_Type_bool_bool = 2952,
 		["LoadAssetAsync_AssetBundle_string_Type_UnityAction<Object>_bool_bool"] = 2961,
 		Awake = 2947
@@ -3518,13 +8805,40 @@ return {
 	},
 	SaltAdapter = {
 		Make = 3829,
+		___ = 8200,
 		Init = 3828
+	},
+	SceneOpMgr = {
+		OnSceneLoaded = 8491,
+		DelSceneUnload = 8495,
+		AddSceneUnload = 8494,
+		AddSceneLoaded = 8492,
+		Init = 8489,
+		get_Inst = 8487,
+		OnSceneUnloaded = 8490,
+		UnloadSceneAsync = 8497,
+		LoadSceneAsync = 8496,
+		Awake = 8488,
+		DelSceneLoaded = 8493
+	},
+	SceneOpMgrWrap = {
+		get_Inst = 8455,
+		Init = 8447,
+		AddSceneUnload = 8450,
+		Register = 8446,
+		DelSceneUnload = 8451,
+		op_Equality = 8454,
+		AddSceneLoaded = 8448,
+		LoadSceneAsync = 8452,
+		UnloadSceneAsync = 8453,
+		DelSceneLoaded = 8449
 	},
 	ScreenShooter = {
 		Take = 3830,
 		TakeMultiCam = 3831,
 		TakePhotoMultiCam = 3832,
-		TakePhoto = 3833
+		TakePhoto = 3833,
+		EncodeToJPG = 8202
 	},
 	ScrollText = {
 		Begin = 3837,
@@ -3532,10 +8846,11 @@ return {
 		OnDisable = 3845,
 		PreCalFunc = 3838,
 		Clear = 3843,
+		ResetBaseAnchor = 8203,
 		SetText = 3836,
-		StartTween = 3839,
 		OnEnable = 3844,
 		StartTweenVertical = 3840,
+		StartTween = 3839,
 		OnDestroy = 3846,
 		SetMaskEnable = 3842,
 		Awake = 3834,
@@ -3743,11 +9058,324 @@ return {
 		CreateDirectory = 673,
 		Exists = 675
 	},
+	TasharenWater = {
+		Clear = 8536,
+		CopyCamera = 8537,
+		SetQuality = 8533,
+		OnWillRenderObject = 8541,
+		get_useRefraction = 8528,
+		get_reflectionTextureSize = 8526,
+		GetQuality = 8532,
+		CalculateReflectionMatrix = 8531,
+		get_reflectionMask = 8527,
+		GetReflectionCamera = 8538,
+		LateUpdate = 8540,
+		CameraSpacePlane = 8539,
+		CalculateObliqueMatrix = 8530,
+		SignExt = 8529,
+		Awake = 8534,
+		OnDisable = 8535
+	},
+	Tex2DExtension = {
+		EncodeToEXR_Texture2D_EXRFlags = 8053,
+		EncodeToEXR_Texture2D = 8054,
+		EncodeToJPG_Texture2D = 8056,
+		EncodeToPNG = 8057,
+		["LoadImage_Texture2D_byte[]"] = 8059,
+		["LoadImage_Texture2D_byte[]_bool"] = 8058,
+		EncodeToJPG_Texture2D_int = 8055
+	},
+	Tex2DExtensionWrap = {
+		Register = 7887,
+		EncodeToPNG = 7891,
+		EncodeToEXR = 7889,
+		EncodeToJPG = 7890,
+		LoadImage = 7892,
+		_CreateTex2DExtension = 7888
+	},
+	["ThirdParty.Ionic.Zlib.CRC32"] = {
+		get_Crc32Result = 5383,
+		GetCrc32AndCopy = 5385,
+		get_TotalBytesRead = 5382,
+		GetCrc32 = 5384,
+		SlurpBlock = 5388,
+		_InternalComputeCrc32 = 5387,
+		ComputeCrc32 = 5386
+	},
+	["ThirdParty.Ionic.Zlib.CrcCalculatorStream"] = {
+		SetLength = 5401,
+		set_Position = 5399,
+		get_CanWrite = 5395,
+		get_CanRead = 5393,
+		Read = 5391,
+		get_Position = 5398,
+		get_CanSeek = 5394,
+		Flush = 5396,
+		get_TotalBytesSlurped = 5389,
+		get_Crc32 = 5390,
+		get_Length = 5397,
+		Write = 5392,
+		Seek = 5400
+	},
+	["ThirdParty.Json.LitJson.ArrayMetadata"] = {
+		set_ElementType = 5486,
+		get_IsArray = 5487,
+		set_IsArray = 5488,
+		set_IsList = 5490,
+		get_IsList = 5489,
+		get_ElementType = 5485
+	},
+	["ThirdParty.Json.LitJson.JsonData"] = {
+		EnsureList = 5468,
+		["System.Collections.IList.Clear"] = 5457,
+		["System.Collections.IList.set_Item"] = 5431,
+		EnsureDictionary = 5467,
+		["System.Collections.ICollection.get_IsSynchronized"] = 5411,
+		["System.Collections.IDictionary.Clear"] = 5439,
+		["System.Collections.IList.get_IsReadOnly"] = 5425,
+		["System.Collections.IList.RemoveAt"] = 5462,
+		["System.Collections.ICollection.get_SyncRoot"] = 5412,
+		["System.Collections.IDictionary.get_IsReadOnly"] = 5414,
+		EnsureCollection = 5466,
+		set_Item_int_JsonData = 5436,
+		["System.Collections.IDictionary.set_Item"] = 5427,
+		get_Count = 5402,
+		["ThirdParty.Json.LitJson.IJsonWrapper.get_IsLong"] = 5421,
+		get_PropertyNames = 5432,
+		get_IsLong = 5407,
+		get_IsArray = 5403,
+		get_Item_int = 5435,
+		["System.Collections.IList.IndexOf"] = 5459,
+		["System.Collections.IList.get_Item"] = 5430,
+		["ThirdParty.Json.LitJson.IJsonWrapper.GetBoolean"] = 5444,
+		["System.Collections.Specialized.IOrderedDictionary.set_Item"] = 5429,
+		["ThirdParty.Json.LitJson.IJsonWrapper.ToJson"] = 5454,
+		["ThirdParty.Json.LitJson.IJsonWrapper.SetBoolean"] = 5449,
+		["System.Collections.IList.get_IsFixedSize"] = 5424,
+		["ThirdParty.Json.LitJson.IJsonWrapper.SetDouble"] = 5450,
+		["System.Collections.ICollection.CopyTo"] = 5437,
+		SetJsonType = 5475,
+		["ThirdParty.Json.LitJson.IJsonWrapper.SetInt"] = 5451,
+		["ThirdParty.Json.LitJson.IJsonWrapper.SetLong"] = 5452,
+		["ThirdParty.Json.LitJson.IJsonWrapper.SetString"] = 5453,
+		["ThirdParty.Json.LitJson.IJsonWrapper.GetString"] = 5448,
+		get_IsInt = 5406,
+		["System.Collections.IDictionary.Contains"] = 5440,
+		get_IsObject = 5408,
+		["System.Collections.IDictionary.Add"] = 5438,
+		["System.Collections.Specialized.IOrderedDictionary.Insert"] = 5464,
+		["ThirdParty.Json.LitJson.IJsonWrapper.get_IsObject"] = 5422,
+		["System.Collections.Specialized.IOrderedDictionary.GetEnumerator"] = 5463,
+		Equals = 5473,
+		["System.Collections.Specialized.IOrderedDictionary.get_Item"] = 5428,
+		["ThirdParty.Json.LitJson.IJsonWrapper.get_IsArray"] = 5417,
+		["System.Collections.IList.Contains"] = 5458,
+		["ThirdParty.Json.LitJson.IJsonWrapper.get_IsDouble"] = 5419,
+		["System.Collections.IDictionary.Remove"] = 5442,
+		get_Item_string = 5433,
+		["System.Collections.IDictionary.get_Item"] = 5426,
+		get_IsBoolean = 5404,
+		ToJson_JsonWriter = 5477,
+		ToString = 5478,
+		["ThirdParty.Json.LitJson.IJsonWrapper.get_IsInt"] = 5420,
+		["System.Collections.IEnumerable.GetEnumerator"] = 5443,
+		["ThirdParty.Json.LitJson.IJsonWrapper.GetDouble"] = 5445,
+		["System.Collections.IList.Add"] = 5456,
+		["ThirdParty.Json.LitJson.IJsonWrapper.get_IsBoolean"] = 5418,
+		["System.Collections.IDictionary.get_Values"] = 5416,
+		["System.Collections.IList.Insert"] = 5460,
+		ToJsonData = 5469,
+		["ThirdParty.Json.LitJson.IJsonWrapper.ToJson_JsonWriter"] = 5455,
+		WriteJson = 5470,
+		Clear = 5472,
+		["System.Collections.ICollection.get_Count"] = 5410,
+		get_IsDouble = 5405,
+		["System.Collections.IList.Remove"] = 5461,
+		["ThirdParty.Json.LitJson.IJsonWrapper.GetLong"] = 5447,
+		GetJsonType = 5474,
+		Add = 5471,
+		["ThirdParty.Json.LitJson.IJsonWrapper.GetInt"] = 5446,
+		["System.Collections.IDictionary.GetEnumerator"] = 5441,
+		get_IsString = 5409,
+		set_Item_string_JsonData = 5434,
+		["System.Collections.IDictionary.get_IsFixedSize"] = 5413,
+		["System.Collections.IDictionary.get_Keys"] = 5415,
+		["ThirdParty.Json.LitJson.IJsonWrapper.get_IsString"] = 5423,
+		["System.Collections.Specialized.IOrderedDictionary.RemoveAt"] = 5465,
+		ToJson = 5476
+	},
+	["ThirdParty.Json.LitJson.JsonMapper"] = {
+		RegisterImporter = 5505,
+		ToObject_JsonReader = 5509,
+		AddTypeProperties = 5499,
+		ToJson_object_JsonWriter = 5508,
+		WriteValue = 5506,
+		AddArrayMetadata = 5497,
+		UnregisterExporters = 5514,
+		RegisterBaseImporters = 5504,
+		ToObject_TextReader = 5510,
+		AddObjectMetadata = 5498,
+		GetConvOp = 5500,
+		ToObject_string = 5511,
+		ReadValue_Type_JsonReader = 5501,
+		ToJson_object = 5507,
+		ToWrapper_WrapperFactory_string = 5513,
+		ToWrapper_WrapperFactory_JsonReader = 5512,
+		UnregisterImporters = 5515,
+		ReadValue_WrapperFactory_JsonReader = 5502,
+		RegisterBaseExporters = 5503
+	},
+	["ThirdParty.Json.LitJson.JsonReader"] = {
+		ReadToken = 5526,
+		get_Token = 5522,
+		Close = 5527,
+		get_AllowSingleQuotedStrings = 5518,
+		Read = 5528,
+		get_EndOfInput = 5520,
+		set_AllowComments = 5517,
+		ProcessSymbol = 5525,
+		get_AllowComments = 5516,
+		get_EndOfJson = 5521,
+		get_Value = 5523,
+		ProcessNumber = 5524,
+		set_AllowSingleQuotedStrings = 5519
+	},
+	["ThirdParty.Json.LitJson.JsonWriter"] = {
+		get_IndentValue = 5529,
+		ToString = 5545,
+		Reset = 5546,
+		set_IndentValue = 5530,
+		PutNewline_bool = 5542,
+		IntToHex = 5538,
+		get_Validate = 5534,
+		Indent = 5539,
+		set_PrettyPrint = 5532,
+		get_TextWriter = 5533,
+		Unindent = 5544,
+		WriteRaw = 5553,
+		get_PrettyPrint = 5531,
+		Write_Decimal = 5548,
+		Write_long = 5551,
+		Init = 5537,
+		Write_double = 5549,
+		Write_int = 5550,
+		Write_ulong = 5554,
+		WriteArrayEnd = 5556,
+		WriteObjectEnd = 5558,
+		WriteObjectStart = 5559,
+		Write_bool = 5547,
+		WritePropertyName = 5560,
+		Write_string = 5552,
+		Put = 5540,
+		PutString = 5543,
+		Write_DateTime = 5555,
+		set_Validate = 5535,
+		WriteArrayStart = 5557,
+		PutNewline = 5541,
+		DoValidation = 5536
+	},
+	["ThirdParty.Json.LitJson.Lexer"] = {
+		get_StringValue = 5567,
+		State22 = 5592,
+		UngetChar = 5602,
+		State23 = 5593,
+		State8 = 5578,
+		State19 = 5589,
+		get_EndOfInput = 5565,
+		NextToken = 5601,
+		get_Token = 5566,
+		State1 = 5571,
+		State10 = 5580,
+		State27 = 5597,
+		State12 = 5582,
+		State20 = 5590,
+		State17 = 5587,
+		set_AllowSingleQuotedStrings = 5564,
+		GetChar = 5599,
+		State3 = 5573,
+		State15 = 5585,
+		State5 = 5575,
+		set_AllowComments = 5562,
+		State6 = 5576,
+		State9 = 5579,
+		State2 = 5572,
+		State14 = 5584,
+		get_AllowComments = 5561,
+		State11 = 5581,
+		PopulateFsmTables = 5569,
+		State25 = 5595,
+		HexValue = 5568,
+		State16 = 5586,
+		State24 = 5594,
+		State21 = 5591,
+		State4 = 5574,
+		NextChar = 5600,
+		State18 = 5588,
+		ProcessEscChar = 5570,
+		State7 = 5577,
+		State26 = 5596,
+		State13 = 5583,
+		State28 = 5598,
+		get_AllowSingleQuotedStrings = 5563
+	},
+	["ThirdParty.Json.LitJson.ObjectMetadata"] = {
+		set_ElementType = 5492,
+		set_Properties = 5496,
+		set_IsDictionary = 5494,
+		get_Properties = 5495,
+		get_ElementType = 5491,
+		get_IsDictionary = 5493
+	},
+	["ThirdParty.Json.LitJson.OrderedDictionaryEnumerator"] = {
+		get_Value = 5482,
+		MoveNext = 5483,
+		get_Current = 5479,
+		get_Entry = 5480,
+		Reset = 5484,
+		get_Key = 5481
+	},
+	["ThirdParty.MD5.MD5Core"] = {
+		LSR = 5615,
+		GetHashFinalBlock = 5609,
+		r2 = 5612,
+		r3 = 5613,
+		GetHashString_string_Encoding = 5606,
+		GetHash_string_Encoding = 5603,
+		Converter = 5616,
+		["GetHash_byte[]"] = 5608,
+		GetHash_string = 5604,
+		r4 = 5614,
+		r1 = 5611,
+		GetHashBlock = 5610,
+		GetHashString_string = 5607,
+		["GetHashString_byte[]"] = 5605
+	},
+	["ThirdParty.MD5.MD5Managed"] = {
+		Initialize = 5617,
+		HashCore = 5618,
+		HashFinal = 5619
+	},
 	TimeUtil = {
 		DescLeftTime = 3851,
 		TickToMilliSec = 3853,
 		GetSystemTime = 3852,
 		NewUnityTimer = 3850
+	},
+	TxwyKrSdkMgr = {
+		get_isPlatform = 8115,
+		set_isPlatform = 8116,
+		GoLoginScene = 8117,
+		callSdkApi = 8118,
+		get_loginType = 8114
+	},
+	TxwyKrSdkMgrWrap = {
+		get_isPlatform = 7898,
+		get_loginType = 7897,
+		Register = 7893,
+		GoLoginScene = 7895,
+		callSdkApi = 7896,
+		set_isPlatform = 7899,
+		_CreateTxwyKrSdkMgr = 7894
 	},
 	TypeConvert = {
 		getInt = 3860,
@@ -4156,6 +9784,12 @@ return {
 		set_transitionDuration = 3645,
 		Awake = 3646
 	},
+	UnityEngine_Events_UnityEvent_UnityEngine_TextureWrap = {
+		RemoveListener = 7902,
+		AddListener = 7901,
+		Invoke = 7903,
+		Register = 7900
+	},
 	UnityEngine_EventSystems_BaseRaycasterWrap = {
 		get_eventCamera = 701,
 		get_sortOrderPriority = 702,
@@ -4164,6 +9798,15 @@ return {
 		Register = 697,
 		op_Equality = 700,
 		ToString = 699
+	},
+	UnityEngine_NetworkReachabilityWrap = {
+		IntToEnum = 7910,
+		get_ReachableViaLocalAreaNetwork = 7909,
+		get_NotReachable = 7907,
+		CheckType = 7906,
+		Push = 7905,
+		Register = 7904,
+		get_ReachableViaCarrierDataNetwork = 7908
 	},
 	UnityEngine_ParticleSystem_EmissionModuleWrap = {
 		_CreateUnityEngine_ParticleSystem_EmissionModule = 705,
@@ -4377,6 +10020,95 @@ return {
 		set_radius = 880,
 		set_position = 903
 	},
+	UnityEngine_SceneManagement_LoadSceneModeWrap = {
+		IntToEnum = 8461,
+		get_Additive = 8460,
+		Push = 8457,
+		CheckType = 8458,
+		Register = 8456,
+		get_Single = 8459
+	},
+	UnityEngine_SceneManagement_SceneManagerWrap = {
+		GetSceneByBuildIndex = 8468,
+		get_activeSceneChanged = 8480,
+		set_activeSceneChanged = 8483,
+		GetSceneByPath = 8466,
+		GetActiveScene = 8464,
+		set_sceneLoaded = 8481,
+		set_sceneUnloaded = 8482,
+		SetActiveScene = 8465,
+		CreateScene = 8472,
+		UnloadSceneAsync = 8473,
+		LoadSceneAsync = 8471,
+		_CreateUnityEngine_SceneManagement_SceneManager = 8463,
+		get_sceneCountInBuildSettings = 8477,
+		GetSceneAt = 8469,
+		MoveGameObjectToScene = 8475,
+		Register = 8462,
+		GetSceneByName = 8467,
+		get_sceneLoaded = 8478,
+		get_sceneUnloaded = 8479,
+		LoadScene = 8470,
+		get_sceneCount = 8476,
+		MergeScenes = 8474
+	},
+	UnityEngine_SystemInfoWrap = {
+		get_graphicsDeviceVendorID = 7929,
+		get_graphicsDeviceType = 7930,
+		get_unsupportedIdentifier = 7916,
+		get_operatingSystemFamily = 7920,
+		get_maxCubemapSize = 7963,
+		get_processorType = 7921,
+		get_graphicsShaderLevel = 7933,
+		get_graphicsMultiThreaded = 7934,
+		get_supportsAudio = 7960,
+		get_supportsCubemapArrayTextures = 7943,
+		get_supportedRenderTargetCount = 7948,
+		get_supportsInstancing = 7946,
+		get_supports2DArrayTextures = 7941,
+		get_copyTextureSupport = 7944,
+		get_supportsGyroscope = 7957,
+		get_deviceModel = 7955,
+		SupportsRenderTextureFormat = 7913,
+		get_graphicsDeviceVersion = 7932,
+		get_supports3DRenderTextures = 7942,
+		Register = 7911,
+		get_supportsMultisampledTextures = 7949,
+		get_supportsRawShadowDepthSampling = 7936,
+		get_supportsRenderToCubemap = 7938,
+		get_supportsAccelerometer = 7956,
+		get_supportsTextureWrapMirrorOnce = 7950,
+		get_supportsVibration = 7959,
+		get_supportsSparseTextures = 7947,
+		get_batteryLevel = 7917,
+		get_batteryStatus = 7918,
+		get_deviceUniqueIdentifier = 7953,
+		get_graphicsMemorySize = 7925,
+		get_usesReversedZBuffer = 7951,
+		get_deviceName = 7954,
+		get_supportsMotionVectors = 7937,
+		get_processorCount = 7923,
+		get_deviceType = 7961,
+		get_supportsLocationService = 7958,
+		get_supportsComputeShaders = 7945,
+		SupportsTextureFormat = 7915,
+		get_npotSupport = 7952,
+		get_supportsAsyncCompute = 7964,
+		get_graphicsDeviceID = 7928,
+		get_graphicsDeviceName = 7926,
+		SupportsBlendingOnRenderTextureFormat = 7914,
+		get_graphicsUVStartsAtTop = 7931,
+		get_supports3DTextures = 7940,
+		get_supportsGPUFence = 7965,
+		_CreateUnityEngine_SystemInfo = 7912,
+		get_maxTextureSize = 7962,
+		get_supportsShadows = 7935,
+		get_operatingSystem = 7919,
+		get_processorFrequency = 7922,
+		get_systemMemorySize = 7924,
+		get_graphicsDeviceVendor = 7927,
+		get_supportsImageEffects = 7939
+	},
 	UnityEngine_UI_GraphicRaycasterWrap = {
 		get_eventCamera = 913,
 		get_renderOrderPriority = 910,
@@ -4463,18 +10195,20 @@ return {
 		BackPress = 2982,
 		GetServerState = 2990,
 		OnProxyUsing = 2987,
-		GetProxyHost = 2988,
+		FetchVersion = 2984,
 		get_Inst = 2974,
 		Update = 2979,
 		CheckUpdate = 2977,
-		FetchVersion = 2984,
+		GetProxyPort = 2989,
+		enableProgrees = 8051,
 		WebRequest = 2991,
 		DestroyUI = 2983,
 		Init = 2976,
 		RequestVersion = 2978,
 		DisplayDialog = 2981,
-		GetProxyPort = 2989,
+		GetProxyHost = 2988,
 		DeleteCacheFiles = 2980,
+		GetChannelId = 8052,
 		StartFecthVersion = 2985,
 		Awake = 2975,
 		SetUseProxy = 2986
@@ -4528,6 +10262,48 @@ return {
 		IsSupportShare = 2999,
 		Awake = 3000,
 		Init = 3001
+	},
+	YARecorder = {
+		StartRecording = 8348,
+		get_Inst = 8343,
+		Start = 8345,
+		DiscardVideo = 8351,
+		StopRecording = 8349,
+		set_Inst = 8344,
+		OnDestroy = 8346,
+		Preview = 8350,
+		SetVideoFilename = 8347
+	},
+	YARecorderWrap = {
+		StopRecording = 7969,
+		SetVideoFilename = 7967,
+		get_Inst = 7973,
+		Register = 7966,
+		Preview = 7970,
+		op_Equality = 7972,
+		StartRecording = 7968,
+		DiscardVideo = 7971
+	},
+	YongshiSdkMgr = {
+		get_isPlatform = 8120,
+		set_isPlatform = 8121,
+		GoLoginScene = 8122,
+		callSdkApi = 8123,
+		get_loginType = 8119
+	},
+	YongshiSdkMgrWrap = {
+		get_isPlatform = 7979,
+		_CreateYongshiSdkMgr = 7975,
+		Register = 7974,
+		GoLoginScene = 7976,
+		callSdkApi = 7977,
+		set_isPlatform = 7980,
+		get_loginType = 7978
+	},
+	YS2S = {
+		Server2ServerResponse = 8085,
+		S2S = 8084,
+		GetTimeStamp = 8086
 	},
 	Zoom = {
 		Update = 3669,

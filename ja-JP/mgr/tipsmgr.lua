@@ -28,7 +28,7 @@ function slot1.Init(slot0, slot1)
 end
 
 function slot1.ShowTips(slot0, slot1, slot2, slot3)
-	playSoundEffect(slot3 or SFX_UI_TIP)
+	uv0.CriMgr.GetInstance():PlaySoundEffect_V3(slot3 or SFX_UI_TIP)
 	slot0._go.transform:SetAsLastSibling()
 	SetActive(slot0._go, true)
 
@@ -84,7 +84,7 @@ function slot1.ShowTips(slot0, slot1, slot2, slot3)
 end
 
 function slot1.ShowPicTips(slot0, slot1, slot2, slot3, slot4)
-	playSoundEffect(slot4 or SFX_UI_TIP)
+	uv0.CriMgr.GetInstance():PlaySoundEffect_V3(slot4 or SFX_UI_TIP)
 	slot0._go.transform:SetAsLastSibling()
 	SetActive(slot0._go, true)
 

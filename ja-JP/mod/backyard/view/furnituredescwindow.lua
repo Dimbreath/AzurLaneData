@@ -86,33 +86,17 @@ end
 function slot0.playFurnitureVoice(slot0)
 	slot2 = slot0.furnitureVO:getVoice()
 
-	if slot0.loadedBank then
-		function ()
-			uv0:stopCV()
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot2)
 
-			uv0.currVoice = playSoundEffect(uv1)
-		end()
-	else
-		pg.CriMgr.GetInstance():LoadCV("furniture", function ()
-			if uv1.exited then
-				pg.CriMgr.UnloadCVBank(pg.CriMgr.GetCVBankName(uv0))
-			else
-				uv2()
-
-				if uv1.currVoice then
-					uv1.loadedBank = slot0
-				end
-			end
-		end)
-	end
+	slot0.curVoiceKey = slot2
 end
 
 function slot0.stopCV(slot0)
-	if slot0.currVoice then
-		slot0.currVoice:Stop(true)
-	end
+	if slot0.curVoiceKey then
+		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(slot0.curVoiceKey)
 
-	slot0.currVoice = nil
+		slot0.curVoiceKey = nil
+	end
 end
 
 function slot0.Destroy(slot0)

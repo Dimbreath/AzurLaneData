@@ -216,7 +216,7 @@ function slot0.loadAllCharacter(slot0)
 		slot16.onLongPressed:RemoveAllListeners()
 		slot16.onLongPressed:AddListener(function ()
 			uv0:emit(DefenseFormationMedator.OPEN_SHIP_INFO, uv1.id, uv0._currentFleetVO, uv2.TOGGLE_FORMATION)
-			playSoundEffect(SFX_PANEL)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
 		end)
 
 		slot19, slot20, slot21, slot22, slot23 = nil
@@ -224,7 +224,7 @@ function slot0.loadAllCharacter(slot0)
 		pg.DelegateInfo.Add(uv0, slot15.onModelClick)
 		slot15.onModelClick:AddListener(function ()
 			uv0:emit(DefenseFormationMedator.CHANGE_FLEET_SHIP, uv1, uv2)
-			playSoundEffect(SFX_PANEL)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
 		end)
 		slot17:AddBeginDragFunc(function ()
 			setButtonEnabled(uv0.backBtn, false)
@@ -645,7 +645,7 @@ function slot0.attachOnCardButton(slot0, slot1, slot2)
 				uv0:emit(DefenseFormationMedator.CHANGE_FLEET_SHIP, uv1.shipVO, uv3)
 			end
 
-			playSoundEffect(SFX_PANEL)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
 		end
 	end)
 

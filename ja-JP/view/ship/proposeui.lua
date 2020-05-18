@@ -268,7 +268,7 @@ end
 
 function slot0.onBackPressed(slot0)
 	if isActive(slot0.window) then
-		playSoundEffect(SFX_CANCEL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		triggerButton(slot0:findTF("close_end"))
 	end
 end
@@ -424,7 +424,7 @@ function slot0.stampWindow(slot0)
 		setActive(uv1.doneTF, true)
 		uv1:setMask(false)
 		setActive(uv1:findTF("close_end"), true)
-		playSoundEffect(SFX_UI_SEAL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_SEAL)
 	end)).id
 end
 
@@ -493,7 +493,7 @@ function slot0.showProposePanel(slot0)
 		LeanTween.alpha(rtf(uv0.doorLightBG), 1, 2):setFrom(0)
 		uv0:showBlackBG(false, 0.1)
 		uv0.doorAni:SetAction("OPEN", 0)
-		playSoundEffect(SFX_UI_DOOR)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_DOOR)
 	end
 
 	pg.CriMgr.GetInstance():PlayBGM("wedding", true)
@@ -689,10 +689,12 @@ function slot0.displayShipWord(slot0, slot1)
 	if slot4 then
 		function slot8()
 			if uv0._currentVoice then
-				uv0._currentVoice:Stop(true)
+				uv0._currentVoice:PlaybackStop()
 			end
 
-			uv0._currentVoice = playSoundEffect(uv1)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv1, function (slot0)
+				uv0._currentVoice = slot0
+			end)
 		end
 
 		if slot0.l2dChar and slot7 and slot7 ~= 0 then
@@ -782,7 +784,7 @@ function slot0.showStoryUI(slot0, slot1)
 				end))
 
 				if uv0._currentVoice then
-					uv0._currentVoice:Stop(true)
+					uv0._currentVoice:PlaybackStop()
 				end
 
 				uv0._currentVoice = nil

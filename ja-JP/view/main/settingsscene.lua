@@ -34,14 +34,14 @@ end
 function slot0.initResDownloadPanel(slot0, slot1)
 	setActive(slot1, false)
 
-	slot0.live2DDownloadBtn = slot0:findTF("main/resources/main_panel/live2d")
-	slot0.live2DDownloadProgress = slot0:findTF("main/resources/main_panel/live2d/progress")
-	slot0.live2DDownloadProgressHandle = slot0:findTF("main/resources/main_panel/live2d/progress/handle")
-	slot0.live2DDownloadInfo1 = slot0:findTF("main/resources/main_panel/live2d/status")
-	slot0.live2DDownloadInfo2 = slot0:findTF("main/resources/main_panel/live2d/version")
-	slot0.live2DDownloadLabelNew = slot0:findTF("main/resources/main_panel/live2d/version/new")
-	slot0.live2DDownloadDot = slot0:findTF("main/resources/main_panel/live2d/new")
-	slot0.live2DDownloadLoading = slot0:findTF("main/resources/main_panel/live2d/loading")
+	slot0.live2DDownloadBtn = slot0:findTF("main/resources/mask/main_panel/live2d")
+	slot0.live2DDownloadProgress = slot0:findTF("main/resources/mask/main_panel/live2d/progress")
+	slot0.live2DDownloadProgressHandle = slot0:findTF("main/resources/mask/main_panel/live2d/progress/handle")
+	slot0.live2DDownloadInfo1 = slot0:findTF("main/resources/mask/main_panel/live2d/status")
+	slot0.live2DDownloadInfo2 = slot0:findTF("main/resources/mask/main_panel/live2d/version")
+	slot0.live2DDownloadLabelNew = slot0:findTF("main/resources/mask/main_panel/live2d/version/new")
+	slot0.live2DDownloadDot = slot0:findTF("main/resources/mask/main_panel/live2d/new")
+	slot0.live2DDownloadLoading = slot0:findTF("main/resources/mask/main_panel/live2d/loading")
 
 	setSlider(slot0.live2DDownloadProgress, 0, 1, 0)
 	setActive(slot0.live2DDownloadDot, false)
@@ -66,14 +66,14 @@ function slot0.initResDownloadPanel(slot0, slot1)
 		end
 	end, SFX_PANEL)
 
-	slot0.soundDownloadBtn = slot0:findTF("main/resources/main_panel/cv")
-	slot0.soundDownloadProgress = slot0:findTF("main/resources/main_panel/cv/progress")
-	slot0.soundDownloadProgressHandle = slot0:findTF("main/resources/main_panel/cv/progress/handle")
-	slot0.soundDownloadInfo1 = slot0:findTF("main/resources/main_panel/cv/status")
-	slot0.soundDownloadInfo2 = slot0:findTF("main/resources/main_panel/cv/version")
-	slot0.soundDownloadLabelNew = slot0:findTF("main/resources/main_panel/cv/version/new")
-	slot0.soundDownloadDot = slot0:findTF("main/resources/main_panel/cv/new")
-	slot0.soundDownloadLoading = slot0:findTF("main/resources/main_panel/cv/loading")
+	slot0.soundDownloadBtn = slot0:findTF("main/resources/mask/main_panel/cv")
+	slot0.soundDownloadProgress = slot0:findTF("main/resources/mask/main_panel/cv/progress")
+	slot0.soundDownloadProgressHandle = slot0:findTF("main/resources/mask/main_panel/cv/progress/handle")
+	slot0.soundDownloadInfo1 = slot0:findTF("main/resources/mask/main_panel/cv/status")
+	slot0.soundDownloadInfo2 = slot0:findTF("main/resources/mask/main_panel/cv/version")
+	slot0.soundDownloadLabelNew = slot0:findTF("main/resources/mask/main_panel/cv/version/new")
+	slot0.soundDownloadDot = slot0:findTF("main/resources/mask/main_panel/cv/new")
+	slot0.soundDownloadLoading = slot0:findTF("main/resources/mask/main_panel/cv/loading")
 
 	setSlider(slot0.soundDownloadProgress, 0, 1, 0)
 	setActive(slot0.soundDownloadDot, false)
@@ -94,7 +94,63 @@ function slot0.initResDownloadPanel(slot0, slot1)
 		end
 	end, SFX_PANEL)
 
-	slot0.repairBtn = slot0:findTF("main/resources/main_panel/settings/buttons/repair")
+	slot0.galleryDownloadBtn = slot0:findTF("main/resources/mask/main_panel/gallery")
+	slot0.galleryDownloadProgress = slot0:findTF("main/resources/mask/main_panel/gallery/progress")
+	slot0.galleryDownloadProgressHandle = slot0:findTF("main/resources/mask/main_panel/gallery/progress/handle")
+	slot0.galleryDownloadInfo1 = slot0:findTF("main/resources/mask/main_panel/gallery/status")
+	slot0.galleryDownloadInfo2 = slot0:findTF("main/resources/mask/main_panel/gallery/version")
+	slot0.galleryDownloadLabelNew = slot0:findTF("main/resources/mask/main_panel/gallery/version/new")
+	slot0.galleryDownloadDot = slot0:findTF("main/resources/mask/main_panel/gallery/new")
+	slot0.galleryDownloadLoading = slot0:findTF("main/resources/mask/main_panel/gallery/loading")
+
+	setSlider(slot0.galleryDownloadProgress, 0, 1, 0)
+	setActive(slot0.galleryDownloadDot, false)
+	setActive(slot0.galleryDownloadLoading, false)
+	PicUpdateMgr.Inst:CheckD()
+
+	slot0.galleryDownloadTimer = Timer.New(function ()
+		uv0:updateGalleryDownloadState()
+	end, 0.5, -1)
+
+	slot0.galleryDownloadTimer:Start()
+	slot0:updateGalleryDownloadState()
+	onButton(slot0, slot0.galleryDownloadBtn, function ()
+		if uv0.state == DownloadState.CheckFailure then
+			uv0:CheckD()
+		elseif uv0.state == DownloadState.CheckToUpdate or uv0.state == DownloadState.UpdateFailure then
+			uv0:UpdateD(true)
+		end
+	end, SFX_PANEL)
+
+	slot0.musicDownloadBtn = slot0:findTF("main/resources/mask/main_panel/music")
+	slot0.musicDownloadProgress = slot0:findTF("main/resources/mask/main_panel/music/progress")
+	slot0.musicDownloadProgressHandle = slot0:findTF("main/resources/mask/main_panel/music/progress/handle")
+	slot0.musicDownloadInfo1 = slot0:findTF("main/resources/mask/main_panel/music/status")
+	slot0.musicDownloadInfo2 = slot0:findTF("main/resources/mask/main_panel/music/version")
+	slot0.musicDownloadLabelNew = slot0:findTF("main/resources/mask/main_panel/music/version/new")
+	slot0.musicDownloadDot = slot0:findTF("main/resources/mask/main_panel/music/new")
+	slot0.musicDownloadLoading = slot0:findTF("main/resources/mask/main_panel/music/loading")
+
+	setSlider(slot0.musicDownloadProgress, 0, 1, 0)
+	setActive(slot0.musicDownloadDot, false)
+	setActive(slot0.musicDownloadLoading, false)
+	MusicUpdateMgr.Inst:CheckD()
+
+	slot0.musicDownloadTimer = Timer.New(function ()
+		uv0:updateMusicDownloadState()
+	end, 0.5, -1)
+
+	slot0.musicDownloadTimer:Start()
+	slot0:updateMusicDownloadState()
+	onButton(slot0, slot0.musicDownloadBtn, function ()
+		if uv0.state == DownloadState.CheckFailure then
+			uv0:CheckD()
+		elseif uv0.state == DownloadState.CheckToUpdate or uv0.state == DownloadState.UpdateFailure then
+			uv0:UpdateD(true)
+		end
+	end, SFX_PANEL)
+
+	slot0.repairBtn = slot0:findTF("main/resources/mask/main_panel/settings/buttons/repair")
 	slot0.repairProgress = slot0.repairBtn:Find("progress")
 
 	if CSharpVersion >= 35 then
@@ -117,22 +173,22 @@ end
 function slot0.initSoundPanel(slot0, slot1)
 	setActive(slot1, false)
 
-	slot0.revertBtn = slot0:findTF("main/resources/main_panel/settings/buttons/reset")
-	slot0.bgmSlider = slot0:findTF("main/resources/main_panel/settings/bgm/slider")
+	slot0.revertBtn = slot0:findTF("main/resources/mask/main_panel/settings/buttons/reset")
+	slot0.bgmSlider = slot0:findTF("main/resources/mask/main_panel/settings/bgm/slider")
 
 	setSlider(slot0.bgmSlider, 0, 1, pg.CriMgr.GetInstance():getBGMVolume())
 	slot0:initSoundSlider(slot0.bgmSlider, function (slot0)
 		pg.CriMgr.GetInstance():setBGMVolume(slot0)
 	end)
 
-	slot0.effectSlider = slot0:findTF("main/resources/main_panel/settings/sfx/slider")
+	slot0.effectSlider = slot0:findTF("main/resources/mask/main_panel/settings/sfx/slider")
 
 	setSlider(slot0.effectSlider, 0, 1, pg.CriMgr.GetInstance():getSEVolume())
 	slot0:initSoundSlider(slot0.effectSlider, function (slot0)
 		pg.CriMgr.GetInstance():setSEVolume(slot0)
 	end)
 
-	slot0.mainSlider = slot0:findTF("main/resources/main_panel/settings/cv/slider")
+	slot0.mainSlider = slot0:findTF("main/resources/mask/main_panel/settings/cv/slider")
 
 	setSlider(slot0.mainSlider, 0, 1, pg.CriMgr.GetInstance():getCVVolume())
 	slot0:initSoundSlider(slot0.mainSlider, function (slot0)
@@ -687,6 +743,148 @@ function slot0.updateLive2DDownloadState(slot0)
 	setActive(slot0.live2DDownloadLabelNew, slot2 == DownloadState.CheckToUpdate)
 end
 
+function slot0.updateGalleryDownloadState(slot0)
+	slot3, slot4, slot5, slot6, slot7 = nil
+	slot8 = false
+
+	if PicUpdateMgr.Inst.state == DownloadState.None then
+		slot3 = i18n("word_soundfiles_download_title")
+		slot4 = i18n("word_soundfiles_download")
+		slot5 = "DOWNLOAD"
+		slot6 = 0
+		slot7 = false
+	elseif slot2 == DownloadState.Checking then
+		slot3 = i18n("word_soundfiles_checking_title")
+		slot4 = i18n("word_soundfiles_checking")
+		slot5 = "CHECKING"
+		slot6 = 0
+		slot7 = false
+	elseif slot2 == DownloadState.CheckToUpdate then
+		slot3 = i18n("word_soundfiles_checkend_title")
+		slot4 = i18n("word_soundfiles_checkend")
+		slot5 = string.format("V.%d > V.%d", slot1.localVersion.Build, slot1.serverVersion.Build)
+		slot6 = 0
+		slot7 = true
+	elseif slot2 == DownloadState.CheckOver then
+		slot3 = i18n("word_soundfiles_checkend_title")
+		slot4 = i18n("word_soundfiles_noneedupdate")
+		slot5 = "V." .. slot1.currentVersion.Build
+		slot6 = 1
+		slot7 = false
+	elseif slot2 == DownloadState.CheckFailure then
+		slot3 = i18n("word_soundfiles_checkfailed")
+		slot4 = i18n("word_soundfiles_retry")
+		slot5 = string.format("ERROR(CODE:%d)", slot1.errorCode)
+		slot6 = 0
+		slot7 = false
+	elseif slot2 == DownloadState.Updating then
+		slot3 = i18n("word_soundfiles_update")
+		slot4 = string.format("(%d/%d)", slot1.downloadCount, slot1.downloadTotal)
+		slot5 = slot1.downPath
+		slot6 = slot1.downloadCount / math.max(slot1.downloadTotal, 1)
+		slot7 = false
+		slot8 = true
+	elseif slot2 == DownloadState.UpdateSuccess then
+		slot3 = i18n("word_soundfiles_update_end_title")
+		slot4 = i18n("word_soundfiles_update_end")
+		slot5 = "V." .. slot1.currentVersion.Build
+		slot6 = 1
+		slot7 = false
+	elseif slot2 == DownloadState.UpdateFailure then
+		slot3 = i18n("word_soundfiles_update_failed")
+		slot4 = i18n("word_soundfiles_update_retry")
+		slot5 = string.format("ERROR(CODE:%d)", slot1.errorCode)
+		slot6 = slot1.downloadCount / math.max(slot1.downloadTotal, 1)
+		slot7 = true
+	end
+
+	if slot5:len() > 15 then
+		slot5 = slot5:sub(1, 12) .. "..."
+	end
+
+	setText(slot0.galleryDownloadInfo1, slot4)
+	setText(slot0.galleryDownloadInfo2, slot5)
+	setAnchoredPosition(slot0.galleryDownloadInfo2, {
+		x = slot2 == DownloadState.CheckToUpdate and 82.5 or 91.5
+	})
+	setSlider(slot0.galleryDownloadProgress, 0, 1, slot6)
+	setActive(slot0.galleryDownloadProgressHandle, slot6 ~= 0 and slot6 ~= 1)
+	setActive(slot0.galleryDownloadDot, slot7)
+	setActive(slot0.galleryDownloadLoading, slot8)
+	setActive(slot0.galleryDownloadLabelNew, slot2 == DownloadState.CheckToUpdate)
+end
+
+function slot0.updateMusicDownloadState(slot0)
+	slot3, slot4, slot5, slot6, slot7 = nil
+	slot8 = false
+
+	if MusicUpdateMgr.Inst.state == DownloadState.None then
+		slot3 = i18n("word_soundfiles_download_title")
+		slot4 = i18n("word_soundfiles_download")
+		slot5 = "DOWNLOAD"
+		slot6 = 0
+		slot7 = false
+	elseif slot2 == DownloadState.Checking then
+		slot3 = i18n("word_soundfiles_checking_title")
+		slot4 = i18n("word_soundfiles_checking")
+		slot5 = "CHECKING"
+		slot6 = 0
+		slot7 = false
+	elseif slot2 == DownloadState.CheckToUpdate then
+		slot3 = i18n("word_soundfiles_checkend_title")
+		slot4 = i18n("word_soundfiles_checkend")
+		slot5 = string.format("V.%d > V.%d", slot1.localVersion.Build, slot1.serverVersion.Build)
+		slot6 = 0
+		slot7 = true
+	elseif slot2 == DownloadState.CheckOver then
+		slot3 = i18n("word_soundfiles_checkend_title")
+		slot4 = i18n("word_soundfiles_noneedupdate")
+		slot5 = "V." .. slot1.currentVersion.Build
+		slot6 = 1
+		slot7 = false
+	elseif slot2 == DownloadState.CheckFailure then
+		slot3 = i18n("word_soundfiles_checkfailed")
+		slot4 = i18n("word_soundfiles_retry")
+		slot5 = string.format("ERROR(CODE:%d)", slot1.errorCode)
+		slot6 = 0
+		slot7 = false
+	elseif slot2 == DownloadState.Updating then
+		slot3 = i18n("word_soundfiles_update")
+		slot4 = string.format("(%d/%d)", slot1.downloadCount, slot1.downloadTotal)
+		slot5 = slot1.downPath
+		slot6 = slot1.downloadCount / math.max(slot1.downloadTotal, 1)
+		slot7 = false
+		slot8 = true
+	elseif slot2 == DownloadState.UpdateSuccess then
+		slot3 = i18n("word_soundfiles_update_end_title")
+		slot4 = i18n("word_soundfiles_update_end")
+		slot5 = "V." .. slot1.currentVersion.Build
+		slot6 = 1
+		slot7 = false
+	elseif slot2 == DownloadState.UpdateFailure then
+		slot3 = i18n("word_soundfiles_update_failed")
+		slot4 = i18n("word_soundfiles_update_retry")
+		slot5 = string.format("ERROR(CODE:%d)", slot1.errorCode)
+		slot6 = slot1.downloadCount / math.max(slot1.downloadTotal, 1)
+		slot7 = true
+	end
+
+	if slot5:len() > 15 then
+		slot5 = slot5:sub(1, 12) .. "..."
+	end
+
+	setText(slot0.musicDownloadInfo1, slot4)
+	setText(slot0.musicDownloadInfo2, slot5)
+	setAnchoredPosition(slot0.musicDownloadInfo2, {
+		x = slot2 == DownloadState.CheckToUpdate and 82.5 or 91.5
+	})
+	setSlider(slot0.musicDownloadProgress, 0, 1, slot6)
+	setActive(slot0.musicDownloadProgressHandle, slot6 ~= 0 and slot6 ~= 1)
+	setActive(slot0.musicDownloadDot, slot7)
+	setActive(slot0.musicDownloadLoading, slot8)
+	setActive(slot0.musicDownloadLabelNew, slot2 == DownloadState.CheckToUpdate)
+end
+
 slot4 = nil
 
 function slot5()
@@ -909,9 +1107,9 @@ function slot0.onAddToggleEvent(slot0, slot1, slot2, slot3, slot4, slot5)
 			if slot0 and uv1 and uv2.isOn == slot0 then
 				uv1 = SFX_UI_TAG
 
-				playSoundEffect(uv1)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv1)
 			elseif not slot0 and uv3 then
-				playSoundEffect(uv3)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv3)
 			end
 		end
 
@@ -1102,7 +1300,7 @@ function slot0.didEnter(slot0)
 
 		function slot1()
 			if uv0._currentVoice then
-				uv0._currentVoice:Stop(true)
+				uv0._currentVoice:PlaybackStop()
 			end
 
 			slot1 = uv0._cvNameList[uv0._cvIndex]
@@ -1111,10 +1309,17 @@ function slot0.didEnter(slot0)
 			if slot1[1] == "skill" then
 				slot2, slot3, slot4 = ShipWordHelper.GetWordAndCV(tonumber(uv0._cvID:GetComponent(typeof(InputField)).text), slot1[1])
 				uv0._cvChat:GetComponent(typeof(Text)).text = ""
-				uv0._currentVoice = playSoundEffect(slot3)
+
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot3, function (slot0)
+					uv0._currentVoice = slot0
+				end)
 			else
-				slot2, slot3, uv0._cvChat:GetComponent(typeof(Text)).text = ShipWordHelper.GetWordAndCV(slot0, slot1[2], slot1[3])
-				uv0._currentVoice = playSoundEffect(slot3)
+				slot2, slot3, slot5:GetComponent(typeof(Text)).text = ShipWordHelper.GetWordAndCV(slot0, slot1[2], slot1[3])
+				slot5 = uv0._cvChat
+
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot3, function (slot0)
+					uv0._currentVoice = slot0
+				end)
 			end
 		end
 
@@ -1209,7 +1414,7 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if isActive(GameObject.Find("OverlayCamera/Overlay/UIMain/DialogPanel")) then
 		triggerButton(slot1.transform:Find("dialog/title/back"))
@@ -1220,7 +1425,7 @@ function slot0.onBackPressed(slot0)
 	slot0:emit(uv0.ON_BACK)
 
 	if BUTTON_SOUND_EFFECT then
-		playSoundEffect(SFX_CANCEL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 	end
 end
 
@@ -1258,6 +1463,14 @@ function slot0.willExit(slot0)
 	slot0.live2DDownloadTimer:Stop()
 
 	slot0.live2DDownloadTimer = nil
+
+	slot0.galleryDownloadTimer:Stop()
+
+	slot0.galleryDownloadTimer = nil
+
+	slot0.musicDownloadTimer:Stop()
+
+	slot0.musicDownloadTimer = nil
 	slot0.userProxy = nil
 end
 
@@ -1359,15 +1572,25 @@ end
 
 function slot0.initUSAccountPanel(slot0, slot1)
 	slot2 = slot0:findTF("page1", slot1)
-	slot0.btnBindTwitter = slot0:findTF("bind_twitter", slot2)
-	slot0.btnUnlinkTwitter = slot0:findTF("unlink_twitter", slot2)
-	slot0.twitterStatus = slot0:findTF("twitter_status", slot2)
-	slot0.btnBindFacebook = slot0:findTF("bind_facebook", slot2)
-	slot0.btnUnlinkFacebook = slot0:findTF("unlink_facebook", slot2)
-	slot0.facebookStatus = slot0:findTF("facebook_status", slot2)
-	slot0.btnBindYostar = slot0:findTF("bind_yostar", slot2)
-	slot0.btnUnlinkYostar = slot0:findTF("unlink_yostar", slot2)
-	slot0.yostarStatus = slot0:findTF("yostar_status", slot2)
+	slot3 = slot0:findTF("btn_layout/twitter_con", slot2)
+	slot0.btnBindTwitter = slot0:findTF("bind_twitter", slot3)
+	slot0.btnUnlinkTwitter = slot0:findTF("unlink_twitter", slot3)
+	slot0.twitterStatus = slot0:findTF("twitter_status", slot3)
+	slot4 = slot0:findTF("btn_layout/facebook_con", slot2)
+	slot0.btnBindFacebook = slot0:findTF("bind_facebook", slot4)
+	slot0.btnUnlinkFacebook = slot0:findTF("unlink_facebook", slot4)
+	slot0.facebookStatus = slot0:findTF("facebook_status", slot4)
+	slot5 = slot0:findTF("btn_layout/yostar_con", slot2)
+	slot0.btnBindYostar = slot0:findTF("bind_yostar", slot5)
+	slot0.btnUnlinkYostar = slot0:findTF("unlink_yostar", slot5)
+	slot0.yostarStatus = slot0:findTF("yostar_status", slot5)
+	slot6 = slot0:findTF("btn_layout/apple_con", slot2)
+	slot0.btnBindApple = slot0:findTF("bind_apple", slot6)
+	slot0.btnUnlinkApple = slot0:findTF("unlink_apple", slot6)
+	slot0.appleStatus = slot0:findTF("apple_status", slot6)
+
+	setActive(slot6, PLATFORM_CODE == PLATFORM_US and pg.SdkMgr.GetInstance():GetChannelUID() == "1" and CSharpVersion > 36)
+
 	slot0.yostarAlert = slot0:findTF("page2", slot1)
 	slot0.yostarEmailTxt = slot0:findTF("email_input_txt", slot0.yostarAlert)
 	slot0.yostarCodeTxt = slot0:findTF("code_input_txt", slot0.yostarAlert)
@@ -1376,20 +1599,22 @@ function slot0.initUSAccountPanel(slot0, slot1)
 	slot0.yostarSureBtn = slot0:findTF("login_btn", slot0.yostarAlert)
 
 	onButton(slot0, slot0.btnBindTwitter, function ()
-		pg.UIMgr.GetInstance():LoadingOn()
 		pg.SdkMgr.GetInstance():LinkSocial(AIRI_PLATFORM_TWITTER)
 	end)
 	onButton(slot0, slot0.btnUnlinkTwitter, function ()
-		pg.UIMgr.GetInstance():LoadingOn()
 		pg.SdkMgr.GetInstance():UnlinkSocial(AIRI_PLATFORM_TWITTER)
 	end)
 	onButton(slot0, slot0.btnBindFacebook, function ()
-		pg.UIMgr.GetInstance():LoadingOn()
 		pg.SdkMgr.GetInstance():LinkSocial(AIRI_PLATFORM_FACEBOOK)
 	end)
 	onButton(slot0, slot0.btnUnlinkFacebook, function ()
-		pg.UIMgr.GetInstance():LoadingOn()
 		pg.SdkMgr.GetInstance():UnlinkSocial(AIRI_PLATFORM_FACEBOOK)
+	end)
+	onButton(slot0, slot0.btnBindApple, function ()
+		pg.SdkMgr.GetInstance():LinkSocial(AIRI_PLATFORM_APPLE)
+	end)
+	onButton(slot0, slot0.btnUnlinkApple, function ()
+		pg.SdkMgr.GetInstance():UnlinkSocial(AIRI_PLATFORM_APPLE)
 	end)
 	onButton(slot0, slot0.btnBindYostar, function ()
 		pg.UIMgr.GetInstance():BlurPanel(uv0.yostarAlert, false)
@@ -1421,6 +1646,7 @@ function slot0.initUSAccountPanel(slot0, slot1)
 	end)
 	slot0:checkAccountTwitterView_US()
 	slot0:checkAccountFacebookView_US()
+	slot0:checkAccountAppleView_US()
 	slot0:checkAccountYostarView_US()
 
 	if CSharpVersion > 24 then
@@ -1449,6 +1675,18 @@ function slot0.checkAccountFacebookView_US(slot0)
 
 	if slot1 then
 		setText(slot0.facebookStatus, i18n("facebook_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_FACEBOOK)))
+	end
+end
+
+function slot0.checkAccountAppleView_US(slot0)
+	slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_APPLE)
+
+	setActive(slot0.btnUnlinkApple, slot1)
+	setActive(slot0.appleStatus, slot1)
+	setActive(slot0.btnBindApple, not slot1)
+
+	if slot1 then
+		setText(slot0.appleStatus, i18n("apple_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_APPLE)))
 	end
 end
 

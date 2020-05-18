@@ -14,7 +14,6 @@ end
 function slot0.InitData(slot0)
 	slot0.selectedVO = nil
 	slot0.count = 1
-	slot0.scrollTxts = {}
 end
 
 function slot0.InitUI(slot0)
@@ -87,12 +86,6 @@ function slot0.OnDestroy(slot0)
 	end
 
 	slot0.selectedItem = nil
-
-	if slot0.scrollTxts and #slot0.scrollTxts > 0 then
-		for slot4, slot5 in pairs(slot0.scrollTxts) do
-			slot5:destroy()
-		end
-	end
 end
 
 function slot0.update(slot0, slot1)
@@ -121,11 +114,7 @@ function slot0.update(slot0, slot1)
 					uv0.selectedItem = uv5
 				end
 			end, SFX_PANEL)
-
-			slot6 = ScrollTxt.New(slot2:Find("name_bg"), slot2:Find("name_bg/Text"))
-
-			slot6:setText(slot4.cfg.name)
-			table.insert(uv1.scrollTxts, slot6)
+			setScrollText(slot2:Find("name_bg/Text"), slot4.cfg.name)
 		end
 	end)
 	slot0.ulist:align(#slot1:getConfig("display_icon"))
