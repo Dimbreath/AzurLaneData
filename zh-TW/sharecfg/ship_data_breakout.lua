@@ -4382,6 +4382,67 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[108011] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10801,
+		breakout_id = 108012,
+		breakout_view = "獲得全彈發射I/魚雷效率提高5%",
+		id = 108011,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			70311
+		}
+	},
+	[108012] = {
+		use_gold = 1500,
+		pre_id = 108011,
+		use_char_num = 1,
+		use_char = 10801,
+		breakout_id = 108013,
+		breakout_view = "魚雷底座+1/狩獵範圍升級",
+		id = 108012,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[108013] = {
+		use_gold = 2500,
+		pre_id = 108012,
+		use_char_num = 2,
+		use_char = 10801,
+		breakout_id = 108014,
+		breakout_view = "全彈發射彈幕升級/魚雷效率提高10%",
+		id = 108013,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			70312
+		}
+	},
+	[108014] = {
+		use_gold = 0,
+		pre_id = 108013,
+		use_char_num = 0,
+		use_char = 10801,
+		breakout_id = 0,
+		breakout_view = "無",
+		id = 108014,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[112011] = {
 		use_gold = 500,
 		pre_id = 0,
@@ -12395,6 +12456,189 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[308011] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 30801,
+		breakout_id = 308012,
+		breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
+		id = 308011,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79261
+		}
+	},
+	[308012] = {
+		use_gold = 3000,
+		pre_id = 308011,
+		use_char_num = 1,
+		use_char = 30801,
+		breakout_id = 308013,
+		breakout_view = "魚雷底座+1/狩獵範圍升級",
+		id = 308012,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[308013] = {
+		use_gold = 10000,
+		pre_id = 308012,
+		use_char_num = 2,
+		use_char = 30801,
+		breakout_id = 308014,
+		breakout_view = "專屬彈幕升級/魚雷效率提高10%",
+		id = 308013,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79262
+		}
+	},
+	[308014] = {
+		use_gold = 0,
+		pre_id = 308013,
+		use_char_num = 0,
+		use_char = 30801,
+		breakout_id = 0,
+		breakout_view = "無",
+		id = 308014,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[308021] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 30802,
+		breakout_id = 308022,
+		breakout_view = "獲得全彈發射I/魚雷效率提高5%",
+		id = 308021,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			72311
+		}
+	},
+	[308022] = {
+		use_gold = 1500,
+		pre_id = 308021,
+		use_char_num = 1,
+		use_char = 30802,
+		breakout_id = 308023,
+		breakout_view = "魚雷底座+1/狩獵範圍升級",
+		id = 308022,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[308023] = {
+		use_gold = 2500,
+		pre_id = 308022,
+		use_char_num = 2,
+		use_char = 30802,
+		breakout_id = 308024,
+		breakout_view = "全彈發射彈幕升級/魚雷效率提高10%",
+		id = 308023,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			72312
+		}
+	},
+	[308024] = {
+		use_gold = 0,
+		pre_id = 308023,
+		use_char_num = 0,
+		use_char = 30802,
+		breakout_id = 0,
+		breakout_view = "無",
+		id = 308024,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[308031] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 30803,
+		breakout_id = 308032,
+		breakout_view = "獲得全彈發射I/魚雷效率提高5%",
+		id = 308031,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			72311
+		}
+	},
+	[308032] = {
+		use_gold = 1500,
+		pre_id = 308031,
+		use_char_num = 1,
+		use_char = 30803,
+		breakout_id = 308033,
+		breakout_view = "魚雷底座+1/狩獵範圍升級",
+		id = 308032,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[308033] = {
+		use_gold = 2500,
+		pre_id = 308032,
+		use_char_num = 2,
+		use_char = 30803,
+		breakout_id = 308034,
+		breakout_view = "全彈發射彈幕升級/魚雷效率提高10%",
+		id = 308033,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			72312
+		}
+	},
+	[308034] = {
+		use_gold = 0,
+		pre_id = 308033,
+		use_char_num = 0,
+		use_char = 30803,
+		breakout_id = 0,
+		breakout_view = "無",
+		id = 308034,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[310011] = {
 		use_gold = 300,
 		pre_id = 0,
@@ -13708,6 +13952,67 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[408011] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 40801,
+		breakout_id = 408012,
+		breakout_view = "獲得專屬彈幕I/魚雷效率提高5%",
+		id = 408011,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79271
+		}
+	},
+	[408012] = {
+		use_gold = 3000,
+		pre_id = 408011,
+		use_char_num = 1,
+		use_char = 40801,
+		breakout_id = 408013,
+		breakout_view = "魚雷底座+1/狩獵範圍升級",
+		id = 408012,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[408013] = {
+		use_gold = 10000,
+		pre_id = 408012,
+		use_char_num = 2,
+		use_char = 40801,
+		breakout_id = 408014,
+		breakout_view = "專屬彈幕升級/魚雷效率提高10%",
+		id = 408013,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79272
+		}
+	},
+	[408014] = {
+		use_gold = 0,
+		pre_id = 408013,
+		use_char_num = 0,
+		use_char = 40801,
+		breakout_id = 0,
+		breakout_view = "無",
+		id = 408014,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[501011] = {
 		use_gold = 500,
 		pre_id = 0,
@@ -14833,6 +15138,10 @@ pg.ship_data_breakout = {
 		107082,
 		107083,
 		107084,
+		108011,
+		108012,
+		108013,
+		108014,
 		112011,
 		112012,
 		112013,
@@ -15365,6 +15674,18 @@ pg.ship_data_breakout = {
 		307062,
 		307063,
 		307064,
+		308011,
+		308012,
+		308013,
+		308014,
+		308021,
+		308022,
+		308023,
+		308024,
+		308031,
+		308032,
+		308033,
+		308034,
 		310011,
 		310012,
 		310013,
@@ -15453,6 +15774,10 @@ pg.ship_data_breakout = {
 		407012,
 		407013,
 		407014,
+		408011,
+		408012,
+		408013,
+		408014,
 		501011,
 		501012,
 		501013,

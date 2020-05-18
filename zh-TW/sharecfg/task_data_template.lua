@@ -151,7 +151,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[5,1001,1061,1071,1101,1111,1112,1121,1131,1132,1141,1201,2001,2021,2031,2101,2111,2112,2121,2131,2132,2141,2201,2301,3000,3001,6001,5041,5042,7001,7002,7003,7004,7005,7006,7007,7008,7009,7010,7011,7013,7014,7015,7016,7017,7018,7019,7020,7021,7022,7101,7102,7103,7104,7105,7106,7107,7108,7109,7111,7112,7113,7114,7115,7116,7117,7118,7119,7120,7121]",
+		next_task = "[5,1001,1061,1071,1101,1111,1112,1121,1131,1132,1141,1201,2001,2021,2031,2101,2111,2112,2121,2131,2132,2141,2201,2301,3000,3001,6001,5041,5042,7001,7002,7003,7004,7005,7006,7007,7008,7009,7010,7011,7013,7014,7015,7016,7017,7018,7019,7020,7021,7022,7101,7102,7103,7104,7105,7106,7107,7108,7109,7111,7112,7113,7114,7115,7116,7117,7118,7119,7120,7121,10302]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 101,
@@ -1337,7 +1337,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[33,3029]",
+		next_task = "[33,3029,6029]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 801,
@@ -1379,7 +1379,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[34,3030]",
+		next_task = "[34,3030,6030]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 802,
@@ -1421,7 +1421,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[35,3031]",
+		next_task = "[35,3031,6031]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 803,
@@ -1463,7 +1463,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[36,3032]",
+		next_task = "[36,3032,6032]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 804,
@@ -17268,6 +17268,154 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[6029] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6029,
+		type = 2,
+		name = "困難·寒風",
+		count_inherit = 0,
+		desc = "完成困難8-1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10801,
+		id = 6029,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10801",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				2
+			},
+			{
+				2,
+				15008,
+				250
+			}
+		}
+	},
+	[6030] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6030,
+		type = 2,
+		name = "困難·北極圈的拂曉",
+		count_inherit = 0,
+		desc = "完成困難8-2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10802,
+		id = 6030,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10802",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				2
+			},
+			{
+				2,
+				15008,
+				350
+			}
+		}
+	},
+	[6031] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6031,
+		type = 2,
+		name = "困難·冰海怒濤",
+		count_inherit = 0,
+		desc = "完成困難8-3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10803,
+		id = 6031,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10803",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				2
+			},
+			{
+				2,
+				15008,
+				450
+			}
+		}
+	},
+	[6032] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6032,
+		type = 2,
+		name = "困難·被遺忘的戰場",
+		count_inherit = 0,
+		desc = "完成困難8-4的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10804,
+		id = 6032,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10804",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				2
+			},
+			{
+				2,
+				15008,
+				550
+			}
+		}
+	},
 	[7001] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -21464,6 +21612,48 @@ pg.task_data_template = {
 			{
 				7,
 				201101,
+				1
+			}
+		}
+	},
+	[10302] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8389,
+		type = 2,
+		name = "通關3-4贈送伊58",
+		count_inherit = 0,
+		desc = "潛艇艦隊新兵報到！通關3-4",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 304,
+		id = 10302,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "304",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				308031,
+				1
+			},
+			{
+				3,
+				4040,
+				1
+			},
+			{
+				3,
+				2920,
 				1
 			}
 		}
@@ -42565,6 +42755,10 @@ pg.task_data_template = {
 		6026,
 		6027,
 		6028,
+		6029,
+		6030,
+		6031,
+		6032,
 		7001,
 		7002,
 		7003,
@@ -42683,6 +42877,7 @@ pg.task_data_template = {
 		10278,
 		10279,
 		10280,
+		10302,
 		10401,
 		10402,
 		10403,

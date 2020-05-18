@@ -27,6 +27,11 @@ function slot0.register(slot0)
 			if getProxy(PlayerProxy):getRawData().level >= 9 then
 				HXSet.switchCodeMode()
 			end
+		elseif slot2 == "test upload" then
+			uv0:addSubLayers(Context.New({
+				viewComponent = TestUpload2ResServerLayer,
+				mediator = TestUpload2ResServerMediator
+			}))
 		else
 			slot5 = getProxy(PlayerProxy):getData()
 			slot8 = 0

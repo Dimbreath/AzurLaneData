@@ -1049,13 +1049,37 @@ pg.gametip = {
 		tip = "擊敗所有的敵方角色",
 		key = "battle_result_defeat_all_enemys"
 	},
+	battle_result_base_score = {
+		tip = "通關基礎分：",
+		key = "battle_result_base_score"
+	},
+	battle_result_dead_score = {
+		tip = "我方陣亡*$1：",
+		key = "battle_result_dead_score"
+	},
+	battle_result_score = {
+		tip = "摧毀運輸艦*$1：",
+		key = "battle_result_score"
+	},
+	battle_result_score_total = {
+		tip = "總計：",
+		key = "battle_result_score_total"
+	},
 	battle_result_total_damage = {
-		tip = "累计伤害：",
+		tip = "累計傷害：",
 		key = "battle_result_total_damage"
 	},
 	battle_result_contribution = {
-		tip = "获得贡献：",
+		tip = "獲得貢獻：",
 		key = "battle_result_contribution"
+	},
+	battle_result_total_score = {
+		tip = "累計得分：",
+		key = "battle_result_total_score"
+	},
+	battle_result_max_combo = {
+		tip = "最高COMBO：",
+		key = "battle_result_max_combo"
 	},
 	battle_levelScene_0Oil = {
 		tip = "石油產量為0",
@@ -1136,6 +1160,10 @@ pg.gametip = {
 	battle_preCombatLayer_damage_before_end = {
 		tip = "战斗结束前尽可能取得更高伤害",
 		key = "battle_preCombatLayer_damage_before_end"
+	},
+	battle_preCombatLayer_destory_transport_ship = {
+		tip = "至少摧毀$1艘運輸艦",
+		key = "battle_preCombatLayer_destory_transport_ship"
 	},
 	battle_preCombatMediator_leastLimit = {
 		tip = "無法取消，第一艦隊上必須要有艦船！",
@@ -1228,6 +1256,10 @@ pg.gametip = {
 	battle_autobot_unlock = {
 		tip = "自律戰鬥功能已開放",
 		key = "battle_autobot_unlock"
+	},
+	tips_confirm_teleport_sub = {
+		tip = "發布指令：將<color=#92fc63FF>潛艇編隊</color>從<color=#92fc63FF>$1</color>區域調動到<color=#92fc63FF>$2</color>區域，需要移動<color=# 92fc63FF>$3</color>格，消耗<color=#92fc63FF>$4</color>點石油，是否確認？",
+		key = "tips_confirm_teleport_sub"
 	},
 	backyard_addExp_Info = {
 		tip = "指揮官不在的||<color=#FAFAF7FF>$1</color>||裡得到了充分的休息！||一共消滅了|| <color=#A9F548FF>$2</color>||的食物，獲得了|| <color=#A9F548FF>$3</color>||的經驗~",
@@ -4294,6 +4326,12 @@ pg.gametip = {
 					atlas = "helpbg/levelup"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 1,
@@ -4356,9 +4394,15 @@ pg.gametip = {
 					atlas = "helpbg/levelup"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
 				x = 1263,
@@ -4416,6 +4460,12 @@ pg.gametip = {
 				icon = {
 					path = "",
 					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
 				}
 			},
 			disableScroll = true,
@@ -4480,6 +4530,12 @@ pg.gametip = {
 					atlas = "helpbg/levelup"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 1,
@@ -4540,6 +4596,12 @@ pg.gametip = {
 				icon = {
 					path = "",
 					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
 				}
 			},
 			disableScroll = true,
@@ -4660,7 +4722,16 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 		key = "help_shipinfo_attr",
 		tip = {
 			{
-				info = "1.屬性說明："
+				info = "1.加成顯示："
+			},
+			{
+				info = "       <color=#92fc63FF>裝備</color>：角色裝備產生的屬性加成"
+			},
+			{
+				info = "       <color=#FFDE00FF>科技</color>：艦隊科技產生的屬性加成"
+			},
+			{
+				info = "2.屬性說明："
 			},
 			{
 				info = "       耐久：角色的最大生命值",
@@ -4693,7 +4764,7 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 				}
 			},
 			{
-				info = "       裝甲類型：共分三種，裝甲型號越高，傷害減免越明\n       顯，被小口徑火炮擊中越容易規避傷害\n      （傷害減免效率：重型裝甲>中型裝甲>輕型裝甲）",
+				info = "       裝甲類型：共分三種，裝甲型號越高，傷害減免越明\n 顯，被小口徑火炮擊中越容易規避傷害\n （傷害減免效率：重型裝甲>中型裝甲>輕型裝甲）",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4733,7 +4804,7 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 				}
 			},
 			{
-				info = "       機動：角色的回避機率",
+				info = "       機動：角色的迴避機率",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4753,7 +4824,52 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 				}
 			},
 			{
-				info = "       幸運：角色由過去的模因產生的屬性，在戰鬥中產生\n       細微的影響",
+				info = "       反潛：提高反潛武器的傷害",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.6,
+					path = "antisub"
+				}
+			},
+			{
+				info = "       氧氣：潛艇角色的氧氣存量，下潛作戰時會不斷損失\n 氧氣含量為0時，潛艇將上浮",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.6,
+					path = "oxy_max"
+				}
+			},
+			{
+				info = "       彈藥量：潛艇編隊進行作戰、對地圖上的敵人進行打\n 擊、需要消耗彈藥",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.6,
+					path = "ammo"
+				}
+			},
+			{
+				info = [[
+       狩獵範圍：與潛艇作戰範圍內的敵人戰鬥時，可以
+ 耗潛艇編隊的彈藥，請求潛艇編隊進行協助戰鬥；
+ 潛艇編隊可在待機模式與自主尋敵模式之間切換，處
+ 於自主尋敵模式下的潛艇編隊會自行尋找狩獵範圍內
+ 的敵人進行魚雷打擊]],
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.6,
+					path = "hunt_range"
+				}
+			},
+			{
+				info = "       幸運：角色由過去的模因產生的屬性，在戰鬥中產生\n 細微的影響",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4763,7 +4879,7 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 				}
 			},
 			{
-				info = "2.角色心情:\n       心情好的角色在出戰時可以享受經驗加成效果\n       心情值過低的角色出戰會減少好感度"
+				info = "3.角色心情:\n 心情好的角色在出戰時可以享受經驗加成效果\n 心情值過低的角色出戰會減少好感度"
 			}
 		}
 	},
@@ -4820,6 +4936,22 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 		tip = {
 			{
 				info = [[
+※ 破交作戰開啟時間：每天開放，每週最多可挑戰兩次
+◆ 破交作戰模式下，指揮官將操縱<color=#92fc63>潛艇編隊</color>出戰
+◆ 不同的<color=#92fc63>魚雷武器</color>將為<color=#92fc63>裝備艦船</color>提供不同數量的<color=#92fc63>彈藥</color>
+<color=#92fc63>◆ 魚雷設備</color>將為<color=#92fc63>裝備艦船</color>提供額外的<color=#92fc63>彈藥</color>
+◆ 破交作戰模式下，<color=#92fc63>所有潛艇技能</color>不生效，潛艇的全彈
+發射、專屬彈幕通過<color=#92fc63>特殊攻擊按鈕</color>觸發(<color=#92fc63>速科夫專屬彈幕</color>
+通過<color=#92fc63>上浮</color>觸發，每場戰鬥僅限1次)
+◆ 破交作戰模式下，全彈發射、專屬彈幕<color=#92fc63>傷害提高</color>
+◆ 計分方式：
+◆ 通關基礎分：<color=#92fc63>100</color>分
+◆ 擊破1艘運輸艦：<color=#92fc63>+10</color>分
+◆ 1位己方艦船被重創：<color=#92fc63>-15</color>分
+◆ S評價：<color=#92fc63>120</color>分
+◆ A評價：<color=#92fc63>100</color>分
+◆ B評價：<color=#92fc63>70</color>分
+
 ※商船護送開啟時間為：每週一、週四、週日
 
 ※海域突進開啟時間為：每週二、週五、週日
@@ -4844,20 +4976,20 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 狩獵範圍說明：
 
 ▪狩獵範圍等級：
-狩獵範圍等級可以通過突破、裝備技能、角色技能效果等方式
-來提高。
+狩獵範圍等級可以通過突破、裝備技能、角色技能效果
+等方式來提高。
 
 角色的狩獵範圍等級越高，自身的狩獵範圍也就越大
 
 ▪狩獵範圍：
-潛艇編隊進入作戰地圖時，根據潛艇編隊領隊的狩獵範圍等級、
-樣式確定潛艇編隊的狩獵範圍；
+潛艇編隊進入作戰地圖時，根據潛艇編隊領隊的狩獵範
+圍等級、樣式確定潛艇編隊的狩獵範圍；
 
-與潛艇作戰範圍內的敵人戰鬥時，可以消耗潛艇編隊的彈藥，
-請求潛艇編隊進行協助戰鬥；
+與潛艇作戰範圍內的敵人戰鬥時，可以消耗潛艇編隊的
+彈藥，請求潛艇編隊進行協助戰鬥；
 
-可以切換潛艇的行動方式，令其自行尋找狩獵範圍內的敵人
-進行魚雷打擊、或原地待機]]
+可以切換潛艇的行動方式，令其自行尋找狩獵範圍內的
+敵人進行魚雷打擊、或原地待機]]
 			}
 		}
 	},
@@ -5098,6 +5230,24 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 				icon = {
 					path = "",
 					atlas = "helpbg/battle_plane"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_sub_3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_sub_4"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_sub_5"
 				}
 			},
 			disableScroll = true,
@@ -6707,7 +6857,8 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 週日：大講堂休息，出擊獲取熟練度比例翻倍
 
 （淺水重炮艦參加戰艦的課程，維修艦可以參加驅逐與
-巡洋的課程，航戰可以參加航母與戰艦的課程）
+巡洋的課程，航戰可以參加航母與戰艦的課程，潛艇參
+加驅逐的課程）
 
 •上課：
 大講堂課程最大時長為12小時，下課時扣除消耗的熟練
@@ -7350,22 +7501,18 @@ $3]],
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 2,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -7388,6 +7535,18 @@ $3]],
 				icon = {
 					path = "",
 					atlas = "helpbg/blueprint_dev"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree2"
 				}
 			},
 			disableScroll = true,
@@ -7530,30 +7689,31 @@ $3]],
 正常接收信號
 
 信號定位
-・我們可以對接收到的求救信號進行定位，找到這個信號的
-來源海域
+・我們可以對接收到的求救信號進行定位，找到這個信
+號的來源海域
 ・定位完成後會開啟救援行動，救援行動會持續12小時
-・如果無法在限定時間內完成救援，我們將會失去信號來源，
-導致無法行動。
+・如果無法在限定時間內完成救援，我們將會失去信號
+來源，導致無法行動。
 ・一個章節內最多同時只能出現一個海域救援行動
-・在增強信號之前，我們只能搜尋到來自第三章海域的訊息
+・在增強信號之前，我們只能搜尋到來自第三章海域的
+訊息
 
 信號強度
-・信號接收器的強度一共分為8檔，在初始狀態下我們的信
-號強度為1檔。
-・信號強度每增強1檔，可收到的求救信號數量上限增加1件，
-可定位的海域也能增加1章
-・指揮官需要先通關該章節的所有關卡後才能在對應章節
-搜尋到海域救援行動
-・信號強度等級越高，完成救援可獲得的獎勵會變得越豐厚
-・以S評價完成當前可定位到的最高章節的救援行動時，信
-號強度會增強1檔
-・信號強度決定了指揮官可以存儲的信號數量上限，每個
-信號強度對應一件信號存儲上限數量
+・信號接收器的強度一共分為8檔，在初始狀態下我們
+的信號強度為1檔。
+・信號強度每增強1檔，可收到的求救信號數量上限增
+加1件，可定位的海域也能增加1章
+・指揮官需要先通關該章節的所有關卡後才能在對應章
+節搜尋到海域救援行動
+・信號強度等級越高，完成救援可獲得的獎勵會變得越
+豐厚・以S評價完成當前可定位到的最高章節的救援行
+動時，信號強度會增強1檔
+・信號強度決定了指揮官可以存儲的信號數量上限，每
+個信號強度對應一件信號存儲上限數量
 
 戰鬥遭遇
-・在救援過程中會遭遇到敵方的潛艇部隊，請指揮官務必為
-出擊的艦隊配備反潛設備]]
+・在救援過程中會遭遇到敵方的潛艇部隊，請指揮官務
+必為出擊的艦隊配備反潛設備]]
 			}
 		}
 	},
@@ -7590,9 +7750,57 @@ $3]],
 					atlas = "helpbg/battle_ac_1"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_4"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_5"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_6"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_7"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/level_ui_help_8"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 4,
 			ImageMode = true,
 			windowSize = {
 				x = 1263,
@@ -8068,7 +8276,7 @@ $3]],
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "愛宕建造追加！",
+		tip = "伊19、伊26、伊58、U-81、鰷魚建造追加！",
 		key = "buildship_special_tip"
 	},
 	world_log_1 = {
@@ -9225,7 +9433,7 @@ P.S. 我方防空力量可以有效的降低敵方制空值哦！
 		key = "tech_simulate_quit"
 	},
 	technology_uplevel_error_no_res = {
-		tip = "是否消耗<color=#A9F548>$1</color>物资解锁科技等级？\n所需时间：<color=#A9F548>$2</color>\n等级变化：<color=#A9F548>Lv.$3->Lv.$4</color>",
+		tip = "是否消耗<color=#A9F548>$1</color>物資解鎖科技等級？\n所需時間：<color=#A9F548>$2</color>\n等級變化：<color=#A9F548>Lv.$3->Lv.$4</color>",
 		key = "technology_uplevel_error_no_res"
 	},
 	help_technologytree = {
@@ -9233,40 +9441,42 @@ P.S. 我方防空力量可以有效的降低敵方制空值哦！
 		tip = {
 			{
 				info = [[
-<size=24><color=#FFDD00>舰队科技</color></size>
+<color=#FFDD00>艦隊科技</color>
 
-达成以下条件可以获得相应舰船的<color=#A9F548>科技点</color>，并解锁特定的<color=#A9F548>属性
-加成</color>：
-a <color=#A9F548>获得</color>特定舰船（获得科技点，解锁对应的全舰队<color=#A9F548>属性加成</color>）
-b 特定舰船突破<color=#A9F548>达到满星</color>（获得科技点）
-c 特定舰船达到120级（获得科技点，解锁对应的全舰队<color=#A9F548>属性加
+達成以下條件可以獲得相應艦船的<color=#A9F548>科技點</color>，並解鎖特定的
+<color=#A9F548>屬性加成</color>：
+a <color=#A9F548>獲得</color>特定艦船（獲得科技點，解鎖對應的全艦隊<color=#A9F548>屬性加
 成</color>）
-<color=#A9F548>*相同舰船只取最高进度</color>
+b 特定艦船突破<color=#A9F548>達到滿星</color>（獲得科技點）
+c 特定艦船達到120級（獲得科技點，解鎖對應的全艦隊
+<color=#A9F548>屬性加成</color>）
+<color=#A9F548>*相同艦船只取最高進度</color>
 
-<size=24><color=#FFDD00>阵营科技</color></size>
+<color=#FFDD00>陣營科技</color>
 
-特定阵营的<color=#A9F548>阵营科技点</color>达到一定值以后，可以提升相应阵营的
-<color=#A9F548>科技等级</color>
-提升阵营科技等级需要消耗一定数量的<color=#A9F548>物资</color>，并且需要等待一
-定的<color=#A9F548>时间</color>
-阵营科技达到对应等级，可以解锁对应的全舰队<color=#A9F548>属性加成</color>
-定的<color=#A9F548>时间</color>
-<color=#D6341D>同时只能进行一项阵营科技等级的提升</color>
+特定陣營的<color=#A9F548>陣營科技點</color>達到一定值以後，可以提升相應陣
+營的<color=#A9F548>科技等級</color>
+提升陣營科技等級需要消耗一定數量的<color=#A9F548>物資</color>，並且需要等
+待一定的<color=#A9F548>時間</color>
+陣營科技達到對應等級，可以解鎖對應的全艦隊<color=#A9F548>屬性加成</color>
+<color=#D6341D>同時只能進行一項陣營科技等級的提升</color>
 
-*舰队科技&阵营科技的属性加成只对<color=#D6341D>突破至满星</color>的舰船生效
+*艦隊科技&陣營科技的屬性加成只對<color=#D6341D>突破至滿星</color>的艦船
+生效
 
-<size=24><color=#FFDD00>阵营科技点计算</color></size>
+<color=#FFDD00>陣營科技點計算</color>
 
-阵营科技点是指挥官解锁<color=#A9F548>对应阵营</color>的<color=#A9F548>舰队科技</color>获得的科技点的
-<color=#A9F548>累计总和</color>
+陣營科技點是指揮官解鎖<color=#A9F548>對應陣營</color>的<color=#A9F548>艦隊科技</color>獲得的科技
+點的<color=#A9F548>累計總和</color>
 
-例：指挥官获得了
-<size=20>拉菲(白鹰) 科技点<color=#A9F548>+1</color>
-长岛(白鹰) 科技点<color=#A9F548>+1</color>
-Z23(<color=#D6341D>铁血</color>) 科技点<color=#A9F548>+1</color></size>
-则此时的<color=#A9F548>阵营科技点</color>为
-白鹰阵营科技点 <color=#A9F548>+2</color>
-<color=#D6341D>铁血</color>阵营科技点 <color=#A9F548>+1</color>]]
+例：指揮官獲得了
+拉菲(白鷹) 科技點<color=#A9F548>+1</color>
+長島(白鷹) 科技點<color=#A9F548>+1</color>
+Z23(<color=#D6341D>鐵血</color>) 科技點<color=#A9F548>+1</color>
+
+則此時的<color=#A9F548>陣營科技點</color>為
+白鷹陣營科技點<color=#A9F548>+2</color>
+<color=#D6341D>鐵血</color>陣營科技點<color=#A9F548>+1</color>]]
 			}
 		}
 	},
@@ -9275,7 +9485,7 @@ Z23(<color=#D6341D>铁血</color>) 科技点<color=#A9F548>+1</color></size>
 		key = "tech_change_version_mark"
 	},
 	technology_uplevel_error_studying = {
-		tip = "<color=#A9F548>$1</color>正在升级中，需要升级完成后才能继续",
+		tip = "<color=#A9F548>$1</color>正在升級中，需要升級完成後才能繼續",
 		key = "technology_uplevel_error_studying"
 	},
 	fate_attr_word = {
@@ -9900,7 +10110,7 @@ TIPS：
 		key = "tips_shrine_nobuff"
 	},
 	paint_hide_other_obj_tip = {
-		tip = "隐藏背景物件",
+		tip = "隱藏背景物件",
 		key = "paint_hide_other_obj_tip"
 	},
 	help_vote = {
@@ -10422,11 +10632,11 @@ combo达到10/20/40/60/80/100时，分别为每次有效
 		key = "compose_amount_prefix"
 	},
 	help_sub_limits = {
-		tip = "关闭/显示潜艇范围",
+		tip = "關閉/顯示潛艇範圍 ",
 		key = "help_sub_limits"
 	},
 	help_sub_display = {
-		tip = "自主寻敌/待机模式",
+		tip = "自主尋敵/待機模式 ",
 		key = "help_sub_display"
 	},
 	confirm_unlock_ship_main = {
@@ -11075,6 +11285,10 @@ TIPS：
 	retire_title = {
 		tip = "一鍵退役設置",
 		key = "retire_title"
+	},
+	apple_link_title = {
+		tip = "連携中のアカウント完了",
+		key = "apple_link_title"
 	},
 	retire_setting_help = {
 		key = "retire_setting_help",

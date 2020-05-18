@@ -31,8 +31,6 @@ function slot0.init(slot0)
 	slot0.topLeft = slot0:findTF("blur_panel/adapt/top/topLeftBg$")
 	slot0.topLeftBg = slot0:findTF("blur_panel/adapt/top/topLeftBg$").gameObject
 	slot0.labelShipNums = slot0:findTF("blur_panel/adapt/top/topLeftBg$/labelShipNums$"):GetComponent("Text")
-	slot0.btnFlush = slot0:findTF("blur_panel/btnFlush$").gameObject
-	slot0.labelFlushTimes = slot0:findTF("blur_panel/btnFlush$/label"):GetComponent(typeof(Text))
 	slot0.mask = slot0:findTF("mask$"):GetComponent("Image")
 	slot0.scrollItem = EventListItem.New(slot0:findTF("blur_panel/scrollItem").gameObject, slot0.dispatch)
 
@@ -94,17 +92,13 @@ function slot0.didEnter(slot0)
 		setActive(slot0:findTF("stamp"), false)
 	end
 
-	onButton(slot0, slot0:findTF("stamp"), function ()
-		getProxy(TaskProxy):dealMingshiTouchFlag(9)
-	end, SFX_CONFIRM)
-
 	function slot4()
-		uv0.dispatch(EventConst.EVENT_FLUSH)
+		getProxy(TaskProxy):dealMingshiTouchFlag(9)
 	end
 
-	slot5 = SFX_PANEL
+	slot5 = SFX_CONFIRM
 
-	onButton(slot0, slot0.btnFlush, slot4, slot5)
+	onButton(slot0, slot0:findTF("stamp"), slot4, slot5)
 
 	slot0.toggles = {}
 	slot0.toggleIndex = -1
@@ -143,13 +137,7 @@ function slot0.didEnter(slot0)
 
 				uv0.contextData.index = uv1
 
-				if slot1 then
-					uv0:Flush()
-				else
-					uv0:filter()
-					uv0.scrollRect:SetTotalCount(#uv0.eventList, 0)
-					setActive(uv0.listEmptyTF, #uv0.eventList <= 0)
-				end
+				uv0:Flush(not slot1)
 			end
 		end)
 	end
@@ -174,7 +162,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 	triggerButton(slot0.btnBack)
 end
 
@@ -192,8 +180,6 @@ function slot0.updateAll(slot0, slot1, slot2, slot3)
 			if not slot3 then
 				slot0.invalide = true
 			end
-
-			slot0:updateFlushTimes(slot1)
 		else
 			slot0:Flush()
 		end
@@ -228,54 +214,56 @@ function slot0.updateOne(slot0, slot1)
 	slot0:updateBtnTip()
 end
 
-function slot0.updateFlushTimes(slot0, slot1)
-	slot0.eventProxy = slot1
-	slot0.labelFlushTimes.text = EventConst.MaxFlushTimes - slot0.eventProxy.flushTimes .. "/" .. EventConst.MaxFlushTimes
-end
+function slot0.Flush(slot0, slot1)
+	if uv0[slot0.contextData.index] == "urgency" and slot0.eventProxy:checkNightEvent() then
+		slot0.dispatch(EventConst.EVENT_FLUSH_NIGHT)
 
-function slot0.Flush(slot0)
-	slot0.labelShipNums.text = slot0.eventProxy.maxFleetNums - slot0.eventProxy.busyFleetNums .. "/" .. slot0.eventProxy.maxFleetNums
-	slot0.labelFlushTimes.text = EventConst.MaxFlushTimes - slot0.eventProxy.flushTimes .. "/" .. EventConst.MaxFlushTimes
+		return
+	end
 
-	slot0:filter()
-	slot0.scrollRect:SetTotalCount(#slot0.eventList, slot0.scrollRect.value)
-	setActive(slot0.listEmptyTF, #slot0.eventList <= 0)
+	if not slot1 then
+		slot0.labelShipNums.text = slot0.eventProxy.maxFleetNums - slot0.eventProxy.busyFleetNums .. "/" .. slot0.eventProxy.maxFleetNums
 
-	if slot0.eventProxy.selectedEvent then
-		if slot0.scrollRect.isStart then
-			function ()
-				slot1 = 1
+		if slot0.eventProxy.selectedEvent then
+			if slot0.scrollRect.isStart then
+				function ()
+					slot1 = 1
 
-				for slot5, slot6 in ipairs(uv0.eventList) do
-					if slot6.id == uv0.eventProxy.selectedEvent.id then
-						slot1 = slot5
+					for slot5, slot6 in ipairs(uv0.eventList) do
+						if slot6.id == uv0.eventProxy.selectedEvent.id then
+							slot1 = slot5
 
-						break
+							break
+						end
 					end
-				end
 
-				uv0.scrollRect:ScrollTo(uv0.scrollRect:HeadIndexToValue(slot1 - 1))
+					uv0.scrollRect:ScrollTo(uv0.scrollRect:HeadIndexToValue(slot1 - 1))
 
-				for slot6, slot7 in pairs(uv0.scrollItems) do
-					if slot7.event and slot7.event.id == slot0 then
-						uv0.selectedItem = slot7
+					for slot6, slot7 in pairs(uv0.scrollItems) do
+						if slot7.event and slot7.event.id == slot0 then
+							uv0.selectedItem = slot7
 
-						uv0:showDetail()
+							uv0:showDetail()
 
-						break
+							break
+						end
 					end
-				end
 
-				uv0.eventProxy.selectedEvent = nil
+					uv0.eventProxy.selectedEvent = nil
 
-				pg.UIMgr.GetInstance():LoadingOff()
-			end()
-		else
-			slot0.scrollRect.onStart = slot1
+					pg.UIMgr.GetInstance():LoadingOff()
+				end()
+			else
+				slot0.scrollRect.onStart = slot2
 
-			pg.UIMgr.GetInstance():LoadingOn()
+				pg.UIMgr.GetInstance():LoadingOn()
+			end
 		end
 	end
+
+	slot0:filter()
+	slot0.scrollRect:SetTotalCount(#slot0.eventList, slot1 and 0 or slot0.scrollRect.value)
+	setActive(slot0.listEmptyTF, #slot0.eventList <= 0)
 end
 
 function slot0.filter(slot0)
@@ -527,15 +515,16 @@ function slot0.ctimer(slot0)
 			uv0.scrollItem:UpdateTime()
 		end
 
+		slot0 = pg.TimeMgr.GetInstance():GetServerTime()
 		slot1 = false
 
 		for slot5, slot6 in pairs(uv0.scrollItems) do
 			slot6:UpdateTime()
 
-			if slot6.event.state == EventInfo.StateNone and slot6.event.overTime > 0 and slot6.event.overTime < pg.TimeMgr.GetInstance():GetServerTime() then
-				slot7, slot8 = uv0.eventProxy:findInfoById(slot6.event.id)
+			if slot6.event:GetCountDownTime() and slot7 < 0 then
+				slot8, slot9 = uv0.eventProxy:findInfoById(slot6.event.id)
 
-				table.remove(uv0.eventProxy.eventList, slot8)
+				table.remove(uv0.eventProxy.eventList, slot9)
 
 				slot1 = true
 			end
@@ -561,15 +550,14 @@ function slot0.setOpEnabled(slot0, slot1)
 	_.each(slot0.toggles, function (slot0)
 		setToggleEnabled(slot0, uv0)
 	end)
-	setButtonEnabled(slot0.btnFlush, slot1)
 	setButtonEnabled(slot0.btnBack, slot1)
 end
 
 function slot0.updateBtnTip(slot0)
 	slot1 = {
 		false,
-		false,
-		[slot6.template.type] = true
+		[slot6.template.type] = true,
+		slot0.eventProxy:checkNightEvent()
 	}
 
 	for slot5, slot6 in ipairs(slot0.eventProxy.eventList) do

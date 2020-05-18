@@ -37,10 +37,16 @@ end
 
 function slot0.PlaySound(slot0, slot1)
 	slot0:StopSound()
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot1, function (slot0)
+		if slot0 then
+			uv0 = slot0.playback
+			uv1 = slot0.cueInfo
+		end
+	end)
 
-	slot0.currentVoice, slot3 = playSoundEffect(slot1)
+	slot0.currentVoice = nil
 
-	return slot3
+	return nil
 end
 
 function slot0.DelayPlaySound(slot0, slot1, slot2, slot3)
@@ -64,12 +70,12 @@ function slot0.RawPlaySound(slot0, slot1, slot2)
 
 	if slot2 > 0 then
 		slot0.timers[slot1] = Timer.New(function ()
-			playSoundEffect(uv0)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0)
 		end, slot2, 1)
 
 		slot0.timers[slot1]:Start()
 	else
-		playSoundEffect(slot1)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot1)
 	end
 end
 

@@ -2,9 +2,9 @@ return {
 	id = "SYG001",
 	events = {
 		{
-			alpha = 0,
+			alpha = 0.258,
 			style = {
-				text = "<color=#ff7d36>後宅</color>從這裏進入喲",
+				text = "讓我們打開<color=#ff7d36>生活區</color>",
 				mode = 2,
 				dir = 1,
 				posY = 0,
@@ -12,13 +12,34 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/haremButton",
+				path = "/OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/liveButton",
 				triggerType = {
 					1
 				},
 				fingerPos = {
 					posY = -25.87,
 					posX = 41.49
+				}
+			}
+		},
+		{
+			alpha = 0,
+			style = {
+				text = "<color=#ff7d36>後宅</color>從這裏進入喲",
+				mode = 2,
+				dir = 1,
+				posY = 319,
+				posX = -361
+			},
+			ui = {
+				pathIndex = -1,
+				path = "/OverlayCamera/Overlay/UIMain/secondary_panel/frame/bg/backyard_btn",
+				triggerType = {
+					1
+				},
+				fingerPos = {
+					posY = -72.47,
+					posX = 78.58
 				}
 			}
 		},
@@ -235,7 +256,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "UICamera/Canvas/UIMain/DockyardUI(Clone)/select_panel/confirm_button",
+				path = "OverlayCamera/Overlay/UIMain/blur_panel/select_panel/confirm_button",
 				triggerType = {
 					1
 				},

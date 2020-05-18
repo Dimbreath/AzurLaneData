@@ -1,14 +1,12 @@
 slot0 = class("EventProxy", import(".NetProxy"))
-slot0.EVENT_FLUSHTIMES_UPDATED = "EventProxy:EVENT_FLUSHTIMES_UPDATED"
 
 function slot0.register(slot0)
-	slot0.flushTimes = 0
 	slot0.eventList = {}
 
 	slot0:on(13002, function (slot0)
 		uv0.maxFleetNums = slot0.max_team
 
-		uv0:updateInfo(slot0)
+		uv0:updateInfo(slot0.collection_list)
 	end)
 	slot0:on(13011, function (slot0)
 		for slot4, slot5 in ipairs(slot0.collection) do
@@ -47,21 +45,19 @@ end
 function slot0.updateInfo(slot0, slot1)
 	slot0.eventList = {}
 
-	if slot1.result == nil or slot1.result == 0 then
-		slot0.flushTimes = slot1.flash_count
-
-		for slot5, slot6 in ipairs(slot1.collection_list) do
-			table.insert(slot0.eventList, EventInfo.New(slot6))
-		end
-
-		slot0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
+	for slot5, slot6 in ipairs(slot1) do
+		table.insert(slot0.eventList, EventInfo.New(slot6))
 	end
+
+	slot0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
 end
 
-function slot0.resetFlushTimes(slot0)
-	slot0.flushTimes = 0
+function slot0.updateNightInfo(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		table.insert(slot0.eventList, EventInfo.New(slot6))
+	end
 
-	slot0.facade:sendNotification(uv0.EVENT_FLUSHTIMES_UPDATED)
+	slot0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
 end
 
 function slot0.getActiveShipIds(slot0)
@@ -148,6 +144,14 @@ function slot0.fillRecommendShip(slot0, slot1)
 	for slot7, slot8 in ipairs(getProxy(BayProxy):getDelegationRecommendShips(slot1)) do
 		table.insert(slot1.shipIds, slot8)
 	end
+end
+
+function slot0.checkNightEvent(slot0)
+	return (pg.gameset.night_collection_begin.key_value <= pg.TimeMgr.GetInstance():GetServerHour() and slot1 < 24 or slot1 >= 0 and slot1 < pg.gameset.night_collection_end.key_value) and not _.any(slot0.eventList, function (slot0)
+		slot1 = slot0:GetCountDownTime()
+
+		return slot0.template.type == EventConst.EVENT_TYPE_NIGHT and (not slot1 or slot1 > 0)
+	end)
 end
 
 return slot0

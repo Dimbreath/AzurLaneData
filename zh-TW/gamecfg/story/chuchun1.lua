@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:30}的烦恼\n\n<size=45>一 害羞的黑猫</size>",
+					"{namecode:30}的煩惱\n\n<size=45>一 害羞的黑貓</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（敲门声）",
+			say = "（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这个时间的话……是委托队回来了吧——",
+			say = "這個時間的話……是委託隊回來了吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "…那，那个……",
+			say = "…那，那個……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "负责报告的是{namecode:30}吗。",
+			say = "負責報告的是初春嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#92fc63",
-			say = "委，委托完成了…",
+			say = "委，委託完成了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指挥室变得格外安静起来",
+			say = "指揮室變得格外安靜起來",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "唔…对话似乎没法继续下去了",
+			say = "唔…對話似乎沒法繼續下去了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			},
 			options = {
 				{
-					content = "温柔地询问",
+					content = "溫柔地詢問",
 					flag = 1
 				}
 			}
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#92fc63",
-			say = "！！呜……",
+			say = "！ ！嗚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "对，对不起！",
+			say = "對，對不起！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "<size=30>明明都练习过那么多遍了…</size>",
+			say = "<size=30>明明都練習過那麼多遍了…</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "<size=30>我，我果然还是不行！！——</size>",
+			say = "<size=30>我，我果然還是不行！ ！ ——</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "委托队的情况等会再找找其它人问问吧",
+			say = "委託隊的情況等會再找找其它人問問吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "不过{namecode:30}的情况…稍微有点让人担心啊…",
+			say = "不過初春的情況…稍微有點讓人擔心啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

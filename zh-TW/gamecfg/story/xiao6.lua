@@ -21,7 +21,7 @@ return {
 			stopbgm = true,
 			dir = 1,
 			blackBg = true,
-			say = "在这黑暗中，不知道过去了多久。时间仿佛也慢了下来。",
+			say = "在這黑暗中，不知道過去了多久。時間彷彿也慢了下來。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -63,7 +63,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "在下真不争气呢……",
+			say = "在下真不爭氣呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "明明身为年长者，却只是个怕黑的胆小鬼……",
+			say = "明明身為年長者，卻只是個怕黑的膽小鬼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "不行，身为忍者，摸黑什么在下才不怕！",
+			say = "不行，身為忍者，摸黑什麼在下才不怕！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "呜呜，身体还是不听使唤吗……",
+			say = "嗚嗚，身體還是不聽使喚嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "感觉{namecode:11}抱得更紧了。",
+			say = "感覺{namecode:11}抱得更緊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官，果然是个可靠又温柔的人呢。",
+			say = "指揮官，果然是個可靠又溫柔的人呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "总觉得，在指挥官身边的话，在下就能变得勇敢了呢。",
+			say = "總覺得，在指揮官身邊的話，在下就能變得勇敢了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "再，再等一下，在下就一定能克服着黑暗的！",
+			say = "再，再等一下，在下就一定能克服著黑暗的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,14 +161,14 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "对了，光顾着注意{namecode:11}的状态，忘记了一件重要的事情。面前的桌面上，没记错的话应该放了一个手电筒。",
+			say = "對了，光顧著注意{namecode:11}的狀態，忘記了一件重要的事情。面前的桌面上，沒記錯的話應該放了一個手電筒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "告诉{namecode:11}",
+					content = "告訴{namecode:11}",
 					flag = 1
 				}
 			}
@@ -179,7 +179,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "真，真的吗！",
+			say = "真，真的嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "原本被紧紧抱住的触感消失了。",
+			say = "原本被緊緊抱住的觸感消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哦哦！我找到了！这下得救了！",
+			say = "哦哦！我找到了！這下得救了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:11}迫不及待地打开了手电筒。",
+			say = "{namecode:11}迫不及待地打開了手電筒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "面前猝不及防地出现了一个人。",
+			say = "面前猝不及防地出現了一個人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:11}吓得晕了过去。",
+			say = "{namecode:11}嚇得暈了過去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgm = "story-1",
 			actor = 102060,
 			nameColor = "#a9f548",
-			say = "我，我只是刚好路过指挥室，担心这里的情况所以进来看看……没，没事吧！",
+			say = "我，我只是剛好路過指揮室，擔心這裡的情況所以進來看看……沒，沒事吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "结果为了照顾到{namecode:11}醒来，在来电之后还折腾了一小会。",
+			say = "結果為了照顧到{namecode:11}醒來，在來電之後還折騰了一小會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "停电是由于科研部门的特别实验导致的……不过这是后来才知道的了。",
+			say = "停電是由於科研部門的特別實驗導致的……不過這是後來才知道的了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

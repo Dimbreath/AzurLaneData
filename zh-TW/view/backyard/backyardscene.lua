@@ -645,7 +645,7 @@ function slot0.onBackPressed(slot0)
 	elseif slot0.isShowFloorSel then
 		slot0:closeFloorSel()
 	else
-		playSoundEffect(SFX_CANCEL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		slot0:emit(uv0.ON_BACK)
 	end
 end

@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "今天是{namecode:11}担任秘书舰的第一天。",
+			say = "今天是{namecode:11}擔任秘書艦的第一天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过，明明已经超过了预定的时间，{namecode:11}还是没有出现。",
+			say = "不過，明明已經超過了預定的時間，{namecode:11}還是沒有出現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,14 +69,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "会不会发生什么事了？",
+			say = "會不會發生什麼事了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "去查看{namecode:11}的情况。",
+					content = "去查看{namecode:11}的情況。",
 					flag = 1
 				}
 			}
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 301010,
 			nameColor = "#a9f548",
-			say = "啊，指挥官，早上好！",
+			say = "啊，指揮官，早上好！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？是在找{namecode:11}吗？我明白了！",
+			say = "嗯？是在找{namecode:11}嗎？我明白了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:11}的话……唔唔……几分钟前好像往那个方向去了呢！",
+			say = "{namecode:11}的話……唔唔……幾分鐘前好像往那個方向去了呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}好像看到她去那边了……",
+			say = "{namecode:6}好像看到她去那邊了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 301170,
 			nameColor = "#a9f548",
-			say = "{namecode:11}吗？吾辈记得看到过她来着。嗯……",
+			say = "{namecode:11}嗎？吾輩記得看到過她來著。嗯……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			actor = 301170,
 			nameColor = "#a9f548",
-			say = "哦哦！想起来了，吾辈看到她往那个方向跑过去了！",
+			say = "哦哦！想起來了，吾輩看到她往那個方向跑過去了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 2,
 			dir = 1,
-			say = "集合目前收集到的线索，{namecode:11}似乎绕整个港区一圈……",
+			say = "集合目前收集到的線索，{namecode:11}似乎繞整個港區一圈……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "难道……？",
+			say = "難道……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,23 +307,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…这边应该是…转这个方向吧——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301090,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "啊——指、指挥官？",
+			say = "嗯…這邊應該是…轉這個方向吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,12 +318,28 @@ return {
 			}
 		},
 		{
+			actor = 301090,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "啊——指、指揮官？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 301090,
 			nameColor = "#a9f548",
-			say = "欸？已经这个时间了！？万、万分抱歉！在下原本是想准时到达指挥室的……",
+			say = "欸？已經這個時間了！？萬、萬分抱歉！在下原本是想準時到達指揮室的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，前往指挥室的道路似乎比在下想象的要远一些…",
+			say = "不過，前往指揮室的道路似乎比在下想像的要遠一些…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "看来果然是迷路了",
+			say = "看來果然是迷路了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			actor = 301090,
 			nameColor = "#a9f548",
-			say = "欸欸欸？往指挥室的路是那个方向吗？！",
+			say = "欸欸欸？往指揮室的路是那個方向嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…下次，下次在下一定能准时到达！",
+			say = "嗚…下次，下次在下一定能準時到達！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "{namecode:11}鞠了一个躬，看起来十分愧疚。",
+			say = "{namecode:11}鞠了一個躬，看起來十分愧疚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "带着{namecode:11}一起回到了指挥室",
+			say = "帶著{namecode:11}一起回到了指揮室",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -469,7 +469,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "有机会的话，还是带{namecode:11}熟悉一下港区吧。",
+			say = "有機會的話，還是帶{namecode:11}熟悉一下港區吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

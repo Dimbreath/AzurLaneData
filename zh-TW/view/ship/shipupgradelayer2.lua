@@ -284,7 +284,8 @@ slot2 = {
 	"cannon",
 	"torpedo",
 	"antiaircraft",
-	"air"
+	"air",
+	"antisub"
 }
 
 function slot0.showBarrage(slot0)
@@ -386,31 +387,36 @@ function slot0.updateBreakOutView(slot0, slot1)
 	end
 
 	for slot16 = 1, #uv0 do
-		slot11(slot0:findTF("attr_" .. slot12 + slot16, slot0.attrs), {
+		slot17 = slot0:findTF("attr_" .. slot12 + slot16, slot0.attrs)
+
+		setActive(slot17, true)
+		slot11(slot17, {
 			preAttr = math.floor(slot2[uv0[slot16]]),
 			afterAttr = math.floor(slot4[uv0[slot16]]),
 			name = i18n("word_attr_" .. uv0[slot16])
 		})
 	end
 
-	if slot5 then
-		setActive(slot0:findTF("attr_7", slot0.attrs), false)
-		slot11(slot0:findTF("attr_6", slot0.attrs), {
-			preAttr = slot6,
-			afterAttr = slot7,
-			name = i18n("word_attr_luck")
-		})
-	else
-		slot11(slot0:findTF("attr_7", slot0.attrs), {
-			preAttr = slot6,
-			afterAttr = slot7,
-			name = i18n("word_attr_luck")
-		})
+	slot13 = slot12 + #uv0 + 1
+	slot14 = slot0:findTF("attr_" .. slot13, slot0.attrs)
+
+	setActive(slot14, true)
+
+	slot18 = i18n("word_attr_luck")
+
+	slot11(slot14, {
+		preAttr = slot6,
+		afterAttr = slot7,
+		name = slot18
+	})
+
+	for slot18 = slot13 + 1, 8 do
+		setActive(slot0:findTF("attr_" .. slot18, slot0.attrs), false)
 	end
 
 	removeAllChildren(slot0.starsFrom)
 
-	for slot16 = 1, slot1:getStar() do
+	for slot18 = 1, slot1:getStar() do
 		cloneTplTo(slot0.starTpl, slot0.starsFrom)
 	end
 
@@ -421,7 +427,7 @@ function slot0.updateBreakOutView(slot0, slot1)
 	removeAllChildren(slot0.starsTo)
 
 	if slot1:getStar() < slot3:getStar() and not slot5 then
-		for slot16 = 1, slot3:getStar() do
+		for slot18 = 1, slot3:getStar() do
 			cloneTplTo(slot0.starTpl, slot0.starsTo)
 		end
 	end
@@ -430,10 +436,10 @@ function slot0.updateBreakOutView(slot0, slot1)
 	setActive(slot0.starOpera, slot3:getStar() ~= slot1:getStar())
 
 	if slot0.player.gold < slot0.breakCfg.use_gold then
-		slot13 = "<color=#FB4A2C>" .. slot13 .. "</color>"
+		slot15 = "<color=#FB4A2C>" .. slot15 .. "</color>"
 	end
 
-	setText(slot0.tipActive:Find("text"), slot13)
+	setText(slot0.tipActive:Find("text"), slot15)
 	slot0:initMaterialShips()
 end
 

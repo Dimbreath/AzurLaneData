@@ -100,6 +100,7 @@ function slot0.execute(slot0, slot1)
 			uv0.facade:removeProxy(InstagramProxy.__cname)
 			uv0.facade:removeProxy(MiniGameProxy.__cname)
 			uv0.facade:removeProxy(EmojiProxy.__cname)
+			uv0.facade:removeProxy(AppreciateProxy.__cname)
 		end
 	})
 

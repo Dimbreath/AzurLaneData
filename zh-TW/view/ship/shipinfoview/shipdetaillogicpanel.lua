@@ -40,7 +40,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0.worldBuff = findTF(slot0._tf, "world_buff")
 	slot0.worldBuffContainer = findTF(slot0.worldBuff, "buff_list")
 	slot0.worldBuffItem = findTF(slot0.worldBuffContainer, "item")
-	slot0.masks = {}
 end
 
 function slot0.attach(slot0, slot1)
@@ -77,7 +76,7 @@ function slot0.flush(slot0, slot1)
 		triggerToggle(slot0.evalueToggle, false)
 	end
 
-	setActive(slot0.evalueToggle, false)
+	setActive(slot0.evalueToggle, true)
 end
 
 function slot0.updateEvalues(slot0)
@@ -110,14 +109,15 @@ function slot0.updateWorldBuffs(slot0)
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
+			slot4 = slot3:GetBuffLevel()
 
-			setText(slot2:Find("level"), slot3.level .. "/" .. slot3:GetMaxLevel())
+			setText(slot2:Find("level"), slot4 .. "/" .. slot3:GetMaxFloor())
 
 			if slot3.config.percent[1] == 1 then
-				slot4 = slot3.config.buff_effect[1] * slot3.level / 100 .. "%"
+				slot5 = slot3.config.buff_effect[1] * slot4 / 100 .. "%"
 			end
 
-			setText(slot2:Find("value"), slot4)
+			setText(slot2:Find("value"), slot5)
 		end
 	end)
 	slot3:align(#slot1:GetBuffList())
@@ -168,6 +168,9 @@ function slot0.updateShipAttrs(slot0)
 				setActive(slot14, false)
 				setActive(slot15, false)
 			end
+		elseif slot11 == AttributeType.AntiSub then
+			setActive(slot13, not slot2)
+			setActive(slot12, not slot2)
 		elseif slot11 == AttributeType.OxyMax or slot11 == AttributeType.Ammo then
 			setActive(slot13, slot2)
 			setActive(slot12, slot2)
@@ -225,12 +228,7 @@ function slot0.updateSkillTF(slot0, slot1, slot2, slot3)
 		setActive(findTF(slot1, "unknown"), false)
 		setActive(findTF(slot1, "lock"), not slot3)
 		LoadImageSpriteAsync("skillicon/" .. slot2.icon, findTF(slot4, "icon"))
-
-		slot7 = slot2.color or "blue"
-		slot8 = ScrollTxt.New(findTF(slot4, "mask"), findTF(slot4, "mask/name"))
-
-		slot8:setText(getSkillName(slot2.id))
-		table.insert(slot0.masks, slot8)
+		setScrollText(findTF(slot4, "mask/name"), getSkillName(slot2.id))
 		setText(findTF(slot4, "level"), "LEVEL: " .. (slot3 and slot3.level or "??"))
 	else
 		setActive(slot4, false)
@@ -494,12 +492,6 @@ function slot0.clear(slot0)
 	end
 
 	slot0:removeLevelUpTip()
-
-	for slot4, slot5 in ipairs(slot0.masks or {}) do
-		if slot5 then
-			slot5:destroy()
-		end
-	end
 
 	slot0.additionValues = nil
 end

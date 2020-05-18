@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"忍者修行之路？\n\n<size=45>二　忍者的“修炼”</size>",
+					"忍者修行之路？\n\n<size=45>二　忍者的“修煉”</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "在学院后面一块比较隐秘的空地上，看到了正在做着什么的{namecode:11}和{namecode:21}。",
+			say = "在學院後面一塊比較隱秘的空地上，看到了正在做著什麼的{namecode:11}和{namecode:21}。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "只见{namecode:21}向前一冲，然后以一个漂亮的后空翻回到了原地。",
+			say = "只見{namecode:21}向前一衝，然後以一個漂亮的後空翻回到了原地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 301090,
 			nameColor = "#a9f548",
-			say = "好厉害！",
+			say = "好厲害！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			say = "这不过是平时修炼的基本功而已。多练习的话，你也可以做到的。",
+			say = "這不過是平時修煉的基本功而已。多練習的話，你也可以做到的。",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 301090,
 			nameColor = "#a9f548",
-			say = "哦哦！我试试！嘿——哇！！",
+			say = "哦哦！我試試！嘿——哇！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "{namecode:21}轻巧地接住了在空中失去平衡的{namecode:11}。",
+			say = "{namecode:21}輕巧地接住了在空中失去平衡的{namecode:11}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喔喔…抱歉…谢谢啦",
+			say = "喔喔…抱歉…謝謝啦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我再试一次！",
+			say = "我再試一次！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "{namecode:21}再次接住了头朝下往下落的{namecode:11}。",
+			say = "{namecode:21}再次接住了頭朝下往下落的{namecode:11}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			actor = 301090,
 			nameColor = "#a9f548",
-			say = "呜呜……再，再来一次！",
+			say = "嗚嗚……再，再來一次！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			actor = 301090,
 			nameColor = "#a9f548",
-			say = "这次一定能行！嘿！——哇哇！！",
+			say = "這次一定能行！嘿！——哇哇！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然还是太难了吗？",
+			say = "果然還是太難了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			say = "抱歉……看来还是在下修炼不够……",
+			say = "抱歉……看來還是在下修煉不夠……",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -335,7 +335,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系，一开始都是这样子的。",
+			say = "沒關係，一開始都是這樣子的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，{namecode:11}为什么要突然找我帮忙特训呢？",
+			say = "不過，{namecode:11}為什麼要突然找我幫忙特訓呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……我一直觉得自己身为忍者，却在很多方面都没有忍者的样子……",
+			say = "唔……我一直覺得自己身為忍者，卻在很多方面都沒有忍者的樣子……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我想要变得更强！这样的话，{namecode:12}见到我的时候，一定会大吃一惊的吧！",
+			say = "我想要變得更強！這樣的話，{namecode:12}見到我的時候，一定會大吃一驚的吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "忍术可不是什么拿来炫耀的东西。",
+			say = "忍術可不是什麼拿來炫耀的東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，想让他人看到自己的表现这点，我不讨厌呢。{namecode:135}也经常这个样子，拉着我给我讲故事……",
+			say = "但是，想讓他人看到自己的表現這點，我不討厭呢。{namecode:135}也經常這個樣子，拉著我給我講故事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之先继续吧。我会好好接住你的，放心吧",
+			say = "總之先繼續吧。我會好好接住你的，放心吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "两名“忍者”之间的交流似乎还挺融洽的呢",
+			say = "兩名“忍者”之間的交流似乎還挺融洽的呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

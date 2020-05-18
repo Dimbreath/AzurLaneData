@@ -495,6 +495,18 @@ slot1 = {
 	[ActivityConst.TWXIAOBEIFA_ID] = {
 		className = "XiaobeiFaPage",
 		uiName = "XiaobeiFaPage"
+	},
+	[ActivityConst.FRANCE_SP] = {
+		className = "FranceSpPage",
+		uiName = "FranceSpPage"
+	},
+	[ActivityConst.LEMARS_RE_OIL_PAGE] = {
+		className = "LeMarsReOilPage",
+		uiName = "LeMarsReOilPage"
+	},
+	[ActivityConst.FRANCE_ICON_TASK] = {
+		className = "FranceIconTaskPage",
+		uiName = "FranceIconTaskPage"
 	}
 }
 slot2 = {

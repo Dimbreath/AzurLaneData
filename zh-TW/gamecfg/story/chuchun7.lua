@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:30}的烦恼\n\n<size=45>七 秘书舰的日常</size>",
+					"{namecode:30}的煩惱\n\n<size=45>七 秘書艦的日常</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "一段时间过后，港区·指挥室",
+			say = "一段時間過後，港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，真的不行吗？",
+			say = "欸，真的不行嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我想应该是不行的呢，毕竟这可是用于舰队扩充的预算…",
+			say = "我想應該是不行的呢，畢竟這可是用於艦隊擴充的預算…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			actor = 106011,
 			nameColor = "#a9f548",
-			say = "啊啊啊！…以文化研究的名义免费弄到游戏新作的计划竟然泡汤了——",
+			say = "啊啊啊！ …以文化研究的名義免費弄到遊戲新作的計劃竟然泡湯了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜…我明白了…不过还是谢谢你的接待了，{namecode:30}",
+			say = "嗚嗚…我明白了…不過還是謝謝你的接待了，初春",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼~该说…很有长岛小姐的风格吗？",
+			say = "呼~該說…很有長島小姐的風格嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "居然想用多余的公费来买游戏…不过…",
+			say = "居然想用多餘的公費來買遊戲…不過…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:30}已经变得能和其他人正常交流了",
+			say = "初春已經變得能和其他人正常交流了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接着是近期的演习计划…还有科研项目的安排…",
+			say = "接著是近期的演習計劃…還有科研項目的安排…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			actor = 301230,
 			nameColor = "#a9f548",
-			say = "{namecode:30}姐姐！",
+			say = "初春姐姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#a9f548",
-			say = "{namecode:141}？呀！不要突然扑过来啊！",
+			say = "若葉？呀！不要突然撲過來啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，有点想姐姐了呢",
+			say = "嘿嘿，有點想姐姐了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "昨天不是才在一个宿舍睡的吗…",
+			say = "昨天不是才在一個宿舍睡的嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "两人的关系依旧是那么好啊",
+			say = "兩人的關係依舊是那麼好啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			actor = 301230,
 			nameColor = "#a9f548",
-			say = "对了对了，姐姐，你什么时候和指挥官表白呀？",
+			say = "對了對了，姐姐，你什麼時候和指揮官表白呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "！？",
+			say = "！ ？",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -345,7 +345,7 @@ return {
 			bgm = "story-1",
 			actor = 301210,
 			nameColor = "#a9f548",
-			say = "<size=67.5>你你你你你在说什么呀！</size>",
+			say = "<size=67.5>你你你你你在說什麼呀！</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我上次听到了哦，姐姐一个人在宿舍的时候，说什么“什么时候指挥官会教我表白的话”。嘿嘿，姐姐一定是对指挥官——",
+			say = "我上次聽到了哦，姐姐一個人在宿舍的時候，說什麼“什麼時候指揮官會教我表白的話”。嘿嘿，姐姐一定是對指揮官——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			actor = 301230,
 			nameColor = "#a9f548",
-			say = "啊呜！",
+			say = "啊嗚！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#a9f548",
-			say = "为、为什么{namecode:141}会听到这些啊！！！",
+			say = "為、為什麼若葉會聽到這些啊！ ！ ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			}
 		},
 		{
-			say = "欸嘿嘿，不要小看了{namecode:141}酱的耳朵哟~",
+			say = "欸嘿嘿，不要小看了若葉醬的耳朵喲~",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -463,7 +463,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了对了，还有——",
+			say = "對了對了，還有——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#a9f548",
-			say = "<size=67.5>不，不要再说了啦！！！</size>",
+			say = "<size=67.5>不，不要再說了啦！ ！ ！</size>",
 			effects = {
 				{
 					active = true,
@@ -506,7 +506,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "似乎有所进展，又似乎没什么改变，和{namecode:30}一起的日子，还将持续下去",
+			say = "似乎有所進展，又似乎沒什麼改變，和初春一起的日子，還將持續下去",
 			effects = {
 				{
 					active = false,

@@ -570,6 +570,21 @@ pg.memory_group = {
 			314
 		}
 	},
+	[511] = {
+		title = "Best Pictures!",
+		type = 3,
+		id = 511,
+		icon = "title_chara_salatuojia",
+		memories = {
+			322,
+			323,
+			324,
+			325,
+			326,
+			327,
+			328
+		}
+	},
 	[512] = {
 		title = "和姐姐的一日約會",
 		type = 3,
@@ -613,6 +628,21 @@ pg.memory_group = {
 			415,
 			416,
 			417
+		}
+	},
+	[525] = {
+		title = "忍者修行之路？",
+		type = 3,
+		id = 525,
+		icon = "title_chara_xiao",
+		memories = {
+			471,
+			472,
+			473,
+			474,
+			475,
+			476,
+			477
 		}
 	},
 	[527] = {
@@ -690,6 +720,21 @@ pg.memory_group = {
 			591
 		}
 	},
+	[535] = {
+		title = "{namecode:30}的煩惱",
+		type = 3,
+		id = 535,
+		icon = "title_chara_chuchun",
+		memories = {
+			642,
+			643,
+			644,
+			645,
+			646,
+			647,
+			648
+		}
+	},
 	[537] = {
 		title = "這個女僕不太冷",
 		type = 3,
@@ -757,14 +802,17 @@ pg.memory_group = {
 		504,
 		509,
 		510,
+		511,
 		512,
 		513,
 		520,
+		525,
 		527,
 		528,
 		529,
 		530,
 		532,
+		535,
 		537,
 		538
 	}

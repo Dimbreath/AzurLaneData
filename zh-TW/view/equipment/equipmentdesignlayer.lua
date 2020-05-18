@@ -525,7 +525,7 @@ function slot0.onBackPressed(slot0)
 	if slot0.isShowDesc then
 		slot0:hideMsgBox()
 	else
-		playSoundEffect(SFX_CANCEL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		slot0:emit(uv0.ON_BACK)
 	end
 end

@@ -1054,31 +1054,17 @@ function slot0.playCV(slot0, slot1)
 	end
 
 	if slot3 then
-		if slot0.loadedCVBankName then
-			function ()
-				uv0:stopCV()
+		slot0:stopCV()
 
-				uv0._currentVoice = playSoundEffect(uv1)
-			end()
-		else
-			pg.CriMgr:LoadCV("chargeShop", function ()
-				if uv1.exited then
-					pg.CriMgr.UnloadCVBank(pg.CriMgr.GetCVBankName(uv0))
-				else
-					uv2()
+		slot0._currentVoice = slot3
 
-					if uv1._currentVoice then
-						uv1.loadedCVBankName = slot0
-					end
-				end
-			end)
-		end
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot3)
 	end
 end
 
 function slot0.stopCV(slot0)
 	if slot0._currentVoice then
-		slot0._currentVoice:Stop(true)
+		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(slot0._currentVoice)
 	end
 
 	slot0._currentVoice = nil
@@ -1091,7 +1077,7 @@ function slot0.onBackPressed(slot0)
 	elseif slot0.prePage ~= uv0.TYPE_MENU then
 		slot0:switchToMenu()
 	else
-		playSoundEffect(SFX_CANCEL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		slot0:emit(uv0.ON_BACK)
 	end
 end
@@ -1158,12 +1144,6 @@ function slot0.willExit(slot0)
 	end
 
 	slot0:stopCV()
-
-	if slot0.loadedCVBankName then
-		pg.CriMgr.UnloadCVBank(slot0.loadedCVBankName)
-
-		slot0.loadedCVBankName = nil
-	end
 end
 
 function slot0.checkSetBirth(slot0)

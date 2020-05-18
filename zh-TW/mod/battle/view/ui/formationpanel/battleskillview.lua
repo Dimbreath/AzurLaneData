@@ -54,7 +54,7 @@ function slot2.InitBtns(slot0)
 			uv0._main_cannon_sound:Stop(true)
 		end
 
-		uv0._main_cannon_sound = pg.CriMgr.GetInstance():PlaySE("battle-cannon-main-prepared")
+		uv0._main_cannon_sound = pg.CriMgr.GetInstance():PlaySE_V3("battle-cannon-main-prepared")
 
 		uv0._fleetVO:CastChargeWeapon()
 	end, function ()
