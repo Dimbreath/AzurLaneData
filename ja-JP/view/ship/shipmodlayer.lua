@@ -280,7 +280,7 @@ function slot0.modAttrAnim(slot0, slot1, slot2, slot3)
 				slot0:tweenValue(slot22, slot22.value, 1, slot4, nil, function (slot0)
 					uv0:setSliderValue(uv1, slot0)
 				end, function ()
-					playSoundEffect(SFX_BREAK_OUT_FULL)
+					pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BREAK_OUT_FULL)
 
 					uv0 = uv0 + 1
 
@@ -290,7 +290,7 @@ function slot0.modAttrAnim(slot0, slot1, slot2, slot3)
 						uv4:tweenValue(uv5, 0, 1, uv6, nil, function (slot0)
 							uv0:setSliderValue(uv1, slot0)
 						end, function ()
-							playSoundEffect(SFX_BREAK_OUT_FULL)
+							pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BREAK_OUT_FULL)
 
 							uv0 = uv0 + 1
 

@@ -449,6 +449,13 @@ slot4, slot5 = nil
 function slot0.didEnter(slot0)
 	slot0:setBG()
 	setActive(slot0._phonyui, false)
+
+	if ENABLE_TEST_OSS then
+		onButton(slot0, slot0._settingBtn.parent:Find("OSS") or cloneTplTo(slot0._settingBtn, slot0._settingBtn.parent, "OSS"), function ()
+			uv0:emit("TEST_OSS")
+		end, SFX_MAIN)
+	end
+
 	onToggle(slot0, slot0._moveBtn, function (slot0)
 		setActive(uv0._moveOn, slot0)
 		setActive(uv0._moveOff, not slot0)
@@ -747,11 +754,7 @@ function slot0.didEnter(slot0)
 
 		uv0._currentVoice = nil
 
-		if uv0.loadedCVBankName then
-			pg.CriMgr.UnloadCVBank(uv0.loadedCVBankName)
-
-			uv0.loadedCVBankName = nil
-		end
+		uv0:stopCurVoice()
 
 		uv0.chatFlag = false
 
@@ -1024,7 +1027,7 @@ function slot0.updateBossBattleBtn(slot0, slot1)
 end
 
 function slot0.onBackPressed(slot0)
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if slot0.isOpenSecondary then
 		slot0:closeSecondaryPanel(true)
@@ -1412,7 +1415,7 @@ function slot0.displayShipWord(slot0, slot1)
 
 	if slot0.live2dChar and slot8 then
 		slot0._delayL2dSeID = LeanTween.delayedCall(slot8[2], System.Action(function ()
-			playSoundEffect("event:/ui/" .. uv0[1])
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3("event:/ui/" .. uv0[1])
 
 			uv1._delayL2dSeID = nil
 		end)).id
@@ -1423,67 +1426,49 @@ function slot0.displayShipWord(slot0, slot1)
 	if getProxy(ContextProxy):getContextByMediator(NewShipMediator) then
 		-- Nothing
 	elseif slot6 and not slot13 then
-		if slot0.loadedCVBankName then
-			function ()
-				if uv0._currentVoice then
-					uv0._currentVoice:Stop(true)
-				end
+		function slot14()
+			if uv0._currentVoice then
+				uv0._currentVoice:Stop(true)
+			end
 
-				slot0 = nil
-
-				function slot1()
-					uv0._currentVoice, uv1 = playSoundEffect(uv2)
-
-					if uv1 then
-						uv3 = long2int(uv1.length) * 0.001
+			function slot0()
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0, function (slot0)
+					if slot0 then
+						uv0._currentVoice = slot0.playback
+						uv1 = slot0:GetLength() * 0.001
 					end
+				end)
+				uv3()
+			end
 
-					uv4()
-				end
+			if uv0._delayVoiceTweenID then
+				LeanTween.cancel(uv0._delayVoiceTweenID)
 
-				if uv0._delayVoiceTweenID then
-					LeanTween.cancel(uv0._delayVoiceTweenID)
+				uv0._delayVoiceTweenID = nil
+			end
 
-					uv0._delayVoiceTweenID = nil
-				end
+			if uv0.live2dChar and uv4 and uv4 ~= 0 then
+				uv0._delayVoiceTweenID = LeanTween.delayedCall(uv4, System.Action(function ()
+					uv0()
 
-				if uv0.live2dChar and uv4 and uv4 ~= 0 then
-					uv0._delayVoiceTweenID = LeanTween.delayedCall(uv4, System.Action(function ()
-						uv0()
-
-						uv1._delayVoiceTweenID = nil
-					end)).id
-				else
-					slot1()
-				end
-			end()
-		else
-			slot15 = ShipWordHelper.RawGetCVKey(slot0.flagShip.skinId)
-
-			pg.CriMgr:LoadCV(slot15, function ()
-				if pg.CriMgr.GetInstance().onStopCV then
-					print("CV track --> onStopCV true")
-
-					return
-				else
-					print("CV track --> onStopCV false")
-				end
-
-				uv0.loadingKey = nil
-
-				if uv0.exited then
-					pg.CriMgr.UnloadCVBank(pg.CriMgr.GetCVBankName(uv1))
-				else
-					uv2()
-
-					if uv0._currentVoice then
-						uv0.loadedCVBankName = slot0
-					end
-				end
-			end)
-
-			slot0.loadingKey = slot15
+					uv1._delayVoiceTweenID = nil
+				end)).id
+			else
+				slot0()
+			end
 		end
+
+		slot16 = pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.flagShip.skinId))
+
+		pg.CriMgr.GetInstance():LoadCueSheet(slot16, function (slot0)
+			if slot0 then
+				uv0()
+			else
+				uv1()
+			end
+		end)
+
+		slot0.preCvCueSheetName = slot16
 	elseif slot5 then
 		slot12()
 	else
@@ -1503,12 +1488,14 @@ function slot0.displayShipWord(slot0, slot1)
 end
 
 function slot0.stopCurVoice(slot0)
-	if slot0.loadingKey then
-		pg.CriMgr.UnloadCVBank(pg.CriMgr.GetCVBankName(slot0.loadingKey))
-	end
-
 	if slot0._currentVoice then
 		slot0._currentVoice:Stop(true)
+	end
+
+	if slot0.preCvCueSheetName then
+		pg.CriMgr.GetInstance():UnloadCueSheet(slot0.preCvCueSheetName)
+
+		slot0.preCvCueSheetName = nil
 	end
 end
 
@@ -2014,6 +2001,7 @@ end
 function slot0.notifyActivitySummary(slot0, slot1, slot2)
 	slot0._activitySummaryBtn = slot0:findTF("activityButton", slot0._ActivityBtns)
 
+	setActive(slot0._activitySummaryBtn, true)
 	setActive(slot0._activitySummaryBtn:Find("Tip/Text").parent, slot1 > 0)
 
 	if slot1 > 0 then
@@ -2356,12 +2344,7 @@ function slot0.willExit(slot0)
 
 	slot0._currentVoice = nil
 
-	if slot0.loadedCVBankName then
-		pg.CriMgr.UnloadCVBank(slot0.loadedCVBankName)
-
-		slot0.loadedCVBankName = nil
-	end
-
+	slot0:stopCurVoice()
 	setActive(slot0._bg:Find("bg"), true)
 
 	if slot0.defaultBgSprite then

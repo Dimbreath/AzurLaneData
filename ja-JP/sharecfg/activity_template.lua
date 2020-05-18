@@ -3043,7 +3043,7 @@ pg.activity_template = {
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 10,
+		is_show = 8,
 		config_client = "",
 		id = 573,
 		config_data = {
@@ -3120,6 +3120,203 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[579] = {
+		mark = 20200514,
+		title_res_tag = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 579,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[580] = {
+		mark = 20200514,
+		title_res_tag = "france_framev2",
+		type = 54,
+		login_pop = 0,
+		config_id = 580,
+		is_show = 10,
+		id = 580,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/france_framev2_bg"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[581] = {
+		mark = 20200514,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 581,
+		config_data = {
+			15580,
+			15581,
+			15582,
+			15583,
+			15584,
+			15585,
+			15586,
+			15587,
+			15588,
+			15589
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[582] = {
+		mark = 20200514,
+		title_res_tag = "france_re2_oil",
+		type = 54,
+		login_pop = 0,
+		config_id = 582,
+		is_show = 9,
+		config_client = "",
+		id = 582,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_france_re2_oil"
 		}
 	},
 	[10006] = {
@@ -4284,6 +4481,10 @@ pg.activity_template = {
 		572,
 		573,
 		574,
+		579,
+		580,
+		581,
+		582,
 		10006,
 		10056,
 		10123,

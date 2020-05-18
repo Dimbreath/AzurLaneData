@@ -3866,6 +3866,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -6568,7 +6579,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造、大型艦建造、特型艦建造",
+				"支援要請（ランダム出現）",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"小型艦建造",
 				{
 					"GETBOAT",
 					{
@@ -6603,7 +6624,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造、大型艦建造、特型艦建造",
+				"支援要請（ランダム出現）",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"小型艦建造",
 				{
 					"GETBOAT",
 					{
@@ -8072,7 +8103,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造、小型艦建造",
+				"特型艦建造",
 				{
 					"GETBOAT",
 					{
@@ -10021,6 +10052,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"支援要請（ランダム出現）",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -11552,6 +11593,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"支援要請（ランダム出現）",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -11600,6 +11651,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"支援要請（ランダム出現）",
+				{
+					"GETBOAT",
+					{
+						page = 3
 					}
 				},
 				0
@@ -14693,6 +14754,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14759,6 +14831,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14788,6 +14871,17 @@ pg.ship_data_group = {
 				"イベント：光と影のアイリス",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -14830,6 +14924,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"コアショップ",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14859,6 +14963,17 @@ pg.ship_data_group = {
 				"イベント：光と影のアイリス",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -14899,6 +15014,16 @@ pg.ship_data_group = {
 				"イベント：光と影のアイリス",
 				{
 					""
+				},
+				0
+			},
+			{
+				"コアショップ",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -14963,6 +15088,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14994,6 +15130,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -15023,6 +15170,17 @@ pg.ship_data_group = {
 				"イベント：光と影のアイリス",
 				{
 					""
+				},
+				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}

@@ -8098,14 +8098,22 @@ No.7 駆逐艦「鞍山」
 					atlas = "helpbg/blueprint_dev"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree2"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 2,
+			defaultpage = 1,
 			ImageMode = true,
-			windowSize = {
-				x = 836,
-				y = 720
-			},
 			windowSize = {
 				x = 1263,
 				y = 873
@@ -8389,6 +8397,18 @@ No.7 駆逐艦「鞍山」
 				icon = {
 					path = "",
 					atlas = "helpbg/level_ui_help"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_ac_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_ac_2"
 				}
 			},
 			disableScroll = true,
@@ -8928,15 +8948,15 @@ No.7 駆逐艦「鞍山」
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "「比叡ちゃん」常設追加！",
+		tip = "「ジャン・バール」、「マサチューセッツ」、「ダンケルク」常設追加！",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "「ホビー」、「カーク」常設追加！",
+		tip = "「ル・マルス」、「ル・トリオンファン」など常設追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "「赤城ちゃん」、「ツェッペリンちゃん」常設追加！",
+		tip = "「シュルクーフ」常設追加！",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -13121,5 +13141,9 @@ GET!
 	collect_tip2 = {
 		tip = "出撃中の艦船がいます。委託チームを編成できません ",
 		key = "collect_tip2"
+	},
+	apple_link_title = {
+		tip = "連携中のアカウント完了",
+		key = "apple_link_title"
 	}
 }

@@ -37,6 +37,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:checkAccountTwitterView_US()
 			slot0.viewComponent:checkAccountFacebookView_US()
 			slot0.viewComponent:checkAccountYostarView_US()
+			slot0.viewComponent:checkAccountAppleView_US()
 		end
 	elseif slot2 == GAME.ON_SOCIAL_UNLINKED then
 		if PLATFORM_CODE == PLATFORM_JP then
@@ -45,6 +46,7 @@ function slot0.handleNotification(slot0, slot1)
 		elseif PLATFORM_CODE == PLATFORM_US then
 			slot0.viewComponent:checkAccountTwitterView_US()
 			slot0.viewComponent:checkAccountFacebookView_US()
+			slot0.viewComponent:checkAccountAppleView_US()
 		end
 	end
 end

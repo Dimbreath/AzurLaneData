@@ -43,15 +43,12 @@ return {
 				posX = -257
 			},
 			ui = {
-				scale = 1.8,
 				eventPath = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/quads/chapter_cell_quad_4_6",
+				isLevelPoint = true,
 				delay = 1,
 				pathIndex = -1,
+				scale = 1.8,
 				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_6/attachment",
-				pos = {
-					x = 392.1,
-					y = 66.8
-				},
 				triggerType = {
 					1
 				},

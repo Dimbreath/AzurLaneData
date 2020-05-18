@@ -128,6 +128,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「恐れなき自由の雷よ、暗闇を払い行き先を示せ！」</color>\n――「闇靄払う銀翼 」イベントで入手可能",
 		scene = {}
 	},
+	[308] = {
+		name = "アイリス讃頌",
+		time_second = 0,
+		id = 308,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>後日イベントで入手可能</color>\n",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂入り：エンタープライズ",
 		time_second = 0,
@@ -169,6 +177,7 @@ pg.item_data_frame = {
 		305,
 		306,
 		307,
+		308,
 		401,
 		402,
 		403

@@ -31,13 +31,11 @@ function slot0.init(slot0)
 	slot0.rarityTF = slot0:findTF("painting/rarity"):GetComponent(typeof(Image))
 	slot0.exchangeBtn = slot0:findTF("painting/exchange_btn")
 	slot0.shipTypeTF = slot0:findTF("painting/name_bg/shiptype"):GetComponent(typeof(Image))
-	slot0.nameTF = slot0:findTF("painting/name_bg/name"):GetComponent(typeof(Text))
+	slot0.nameTF = slot0:findTF("painting/name_bg/name")
 	slot0.resIconTF = slot0:findTF("painting/name_bg/res_icon"):GetComponent(typeof(Image))
 	slot0.resCountTF = slot0:findTF("painting/name_bg/res_icon/Text"):GetComponent(typeof(Text))
 	slot0.shipsContainer = slot0:findTF("frame/content_ship")
-	slot0.shipsScrolltxt = {}
 	slot0.itemContainer = slot0:findTF("frame/content_item")
-	slot0.itemScrolltxt = {}
 	slot0.quickCountTF = slot0:findTF("quick_count/value")
 	slot0.quickLableTF = slot0:findTF("quick_count/label")
 	slot0.leftTimeTF = slot0:findTF("title/ship_timer")
@@ -131,18 +129,14 @@ end
 
 function slot0.updateItem(slot0, slot1, slot2)
 	slot3 = slot0.itemExchangeCfg[slot2.id]
+	slot4 = slot0.itemContainer:GetChild(slot1 - 1)
 
-	updateDrop(slot0.itemContainer:GetChild(slot1 - 1):Find("icon"), {
+	updateDrop(slot4:Find("icon"), {
 		type = DROP_TYPE_ITEM,
 		id = slot3.itemid,
 		count = slot3.itemquantity
 	})
-
-	if not slot0.itemScrolltxt[slot1] then
-		slot0.itemScrolltxt[slot1] = ScrollTxt:changeToScroll(slot4:Find("icon/name"))
-	end
-
-	slot0.itemScrolltxt[slot1]:setText(getText(slot4:Find("icon/name")))
+	changeToScrollText(slot4:Find("icon/name"), getText(slot4:Find("icon/name")))
 	setText(slot0:findTF("price_bg/Text", slot4), slot3.price)
 	slot0:activeItem(slot1, slot2.isFetched)
 	onButton(slot0, slot4, function ()
@@ -289,11 +283,7 @@ function slot0.updateMainShip(slot0, slot1, slot2)
 
 	slot0.shipTypeTF.sprite = slot5
 
-	if not slot0._scrollNameText then
-		slot0._scrollNameText = ScrollTxt:changeToScroll(slot0.nameTF)
-	end
-
-	slot0._scrollNameText:setText(slot3:getConfig("name"))
+	changeToScrollText(slot0.nameTF, slot3:getConfig("name"))
 
 	slot0.resCountTF.text = slot4
 end
@@ -302,20 +292,15 @@ function slot0.updateShips(slot0, slot1, slot2)
 	slot3 = Ship.New({
 		configId = slot2.id
 	})
-	slot4 = slot1 - 2
+	slot5 = slot0.shipsContainer:GetChild(slot1 - 2)
 
-	updateDrop(slot0.shipsContainer:GetChild(slot4):Find("icon"), {
+	updateDrop(slot5:Find("icon"), {
 		type = DROP_TYPE_SHIP,
 		id = slot2.id
 	}, {
 		initStar = true
 	})
-
-	if not slot0.shipsScrolltxt[slot4 + 1] then
-		slot0.shipsScrolltxt[slot4 + 1] = ScrollTxt:changeToScroll(slot5:Find("icon/name"))
-	end
-
-	slot0.shipsScrolltxt[slot4 + 1]:setText(getText(slot5:Find("icon/name")))
+	changeToScrollText(slot5:Find("icon/name"), getText(slot5:Find("icon/name")))
 	setText(slot0:findTF("price_bg/Text", slot5), slot3:getExchangePrice())
 
 	slot7 = slot0:findTF("icon/icon_bg/shiptype", slot5):GetComponent(typeof(Image))
@@ -367,26 +352,6 @@ function slot0.activeExchangeShip(slot0, slot1, slot2)
 end
 
 function slot0.willExit(slot0)
-	if slot0._scrollNameText then
-		slot0._scrollNameText:destroy()
-	end
-
-	if slot0.itemScrolltxt then
-		for slot4, slot5 in pairs(slot0.itemScrolltxt) do
-			slot5:destroy()
-		end
-
-		slot0.itemScrolltxt = {}
-	end
-
-	if slot0.shipsScrolltxt then
-		for slot4, slot5 in pairs(slot0.shipsScrolltxt) do
-			slot5:destroy()
-		end
-
-		slot0.shipsScrolltxt = {}
-	end
-
 	if slot0.exchangeTiemr then
 		slot0.exchangeTiemr:Stop()
 

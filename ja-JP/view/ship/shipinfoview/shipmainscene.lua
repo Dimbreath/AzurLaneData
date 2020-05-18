@@ -50,17 +50,7 @@ function slot0.setShip(slot0, slot1)
 	slot2 = false
 
 	if slot0.shipVO and slot0.shipVO.id ~= slot1.id then
-		if slot0._currentVoice then
-			slot0._currentVoice:Stop(true)
-		end
-
-		slot0._currentVoice = nil
-
-		if slot0.loadedCVBankName then
-			pg.CriMgr.UnloadCVBank(slot0.loadedCVBankName)
-
-			slot0.loadedCVBankName = nil
-		end
+		slot0:StopPreVoice()
 
 		slot2 = true
 	end
@@ -355,7 +345,7 @@ function slot0.didEnter(slot0)
 		GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
 
 		LeanTween.delayedCall(0.3, System.Action(function ()
-			uv0:emit(uv1.ON_BACK)
+			uv0:closeView()
 		end))
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.npcFlagTF, function ()
@@ -501,9 +491,7 @@ function slot0.showAwakenCompleteAni(slot0, slot1)
 end
 
 function slot0.updatePreference(slot0, slot1)
-	slot0.scrollTxt = ScrollTxt.New(slot0.shipName:Find("nameRect/name_mask"), slot0.shipName:Find("nameRect/name_mask/Text"))
-
-	slot0.scrollTxt:setText(slot0.shipVO:getName())
+	setScrollText(slot0.shipName:Find("nameRect/name_mask/Text"), slot0.shipVO:getName())
 	setText(slot0:findTF("english_name", slot0.shipName), slot1:getConfigTable().english_name)
 	setActive(slot0.nameEditFlag, slot1.propose)
 
@@ -675,37 +663,25 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 		end
 
 		if slot5 then
-			if slot0.loadedCVBankName then
-				function ()
-					if uv0._currentVoice then
-						uv0._currentVoice:Stop(true)
-					end
+			slot0:StopPreVoice()
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot5, function (slot0)
+				if slot0 then
+					uv0 = slot0:GetLength() * 0.001
+				end
 
-					slot0 = nil
-					uv0._currentVoice, slot3 = playSoundEffect(uv1)
+				uv1()
+			end)
 
-					if slot3 then
-						uv2 = long2int(slot0.length) * 0.001
-					end
-
-					uv3()
-				end()
-			else
-				pg.CriMgr:LoadCV(ShipWordHelper.RawGetCVKey(slot0.shipVO.skinId), function ()
-					if uv1.exited then
-						pg.CriMgr.UnloadCVBank(pg.CriMgr.GetCVBankName(uv0))
-					else
-						uv2()
-
-						if uv1._currentVoice then
-							uv1.loadedCVBankName = slot0
-						end
-					end
-				end)
-			end
+			slot0.preVoiceContent = slot5
 		else
 			slot10()
 		end
+	end
+end
+
+function slot0.StopPreVoice(slot0)
+	if slot0.preVoiceContent ~= nil then
+		pg.CriMgr:StopSoundEffect_V3(slot0.preVoiceContent)
 	end
 end
 
@@ -742,9 +718,7 @@ function slot0.hideShipWord(slot0)
 		end))
 	end
 
-	if slot0._currentVoice then
-		slot0._currentVoice:Stop(true)
-	end
+	slot0:StopPreVoice()
 end
 
 function slot0.gotoPage(slot0, slot1)
@@ -1216,7 +1190,7 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 	triggerButton(slot0:findTF("top/back_btn", slot0.common))
 end
 
@@ -1265,26 +1239,11 @@ function slot0.willExit(slot0)
 		slot0.chatTimer = nil
 	end
 
-	if slot0._currentVoice then
-		slot0._currentVoice:Stop(true)
-	end
-
-	slot0._currentVoice = nil
-
-	if slot0.loadedCVBankName then
-		pg.CriMgr.UnloadCVBank(slot0.loadedCVBankName)
-
-		slot0.loadedCVBankName = nil
-	end
-
+	slot0:StopPreVoice()
 	cameraPaintViewAdjust(false)
 
 	if slot0.tweens then
 		cancelTweens(slot0.tweens)
-	end
-
-	if slot0.scrollTxt then
-		slot0.scrollTxt:destroy()
 	end
 
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)

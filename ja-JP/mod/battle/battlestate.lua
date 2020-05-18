@@ -445,7 +445,7 @@ end
 
 function slot0.Battle.PlayBattleSFX(slot0)
 	if slot0 ~= "" then
-		playSoundEffect("event:/" .. slot0)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3("event:/" .. slot0)
 	end
 end
 

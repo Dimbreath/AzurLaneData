@@ -142,11 +142,14 @@ function slot0.addBtnListener(slot0)
 
 				if uv0.nationSelectedCount == #uv0.nationToggleList then
 					triggerToggle(uv0.nationAllToggle, true)
+					onNextTick(function ()
+						setActive(uv0:findTF("UnSelectedImg", uv1), true)
+					end)
 
 					return
 				end
 
-				table.insert(uv0.nationSelectedList, TechnologyConst.NationOrder[uv1])
+				table.insert(uv0.nationSelectedList, TechnologyConst.NationOrder[uv2])
 
 				if uv0.nationAllToggleCom.isOn == true then
 					triggerToggle(uv0.nationAllToggle, false)
@@ -162,7 +165,7 @@ function slot0.addBtnListener(slot0)
 					return
 				end
 
-				if table.indexof(uv0.nationSelectedList, TechnologyConst.NationOrder[uv1], 1) then
+				if table.indexof(uv0.nationSelectedList, TechnologyConst.NationOrder[uv2], 1) then
 					table.remove(uv0.nationSelectedList, slot1)
 				end
 
@@ -178,11 +181,14 @@ function slot0.addBtnListener(slot0)
 
 				if uv0.typeSelectedCount == #uv0.typeToggleList then
 					triggerToggle(uv0.typeAllToggle, true)
+					onNextTick(function ()
+						setActive(uv0:findTF("UnSelectedImg", uv1), true)
+					end)
 
 					return
 				end
 
-				for slot4, slot5 in ipairs(TechnologyConst.TypeOrder[uv1]) do
+				for slot4, slot5 in ipairs(TechnologyConst.TypeOrder[uv2]) do
 					table.insert(uv0.typeSelectedList, slot5)
 				end
 
@@ -200,7 +206,7 @@ function slot0.addBtnListener(slot0)
 					return
 				end
 
-				for slot4, slot5 in ipairs(TechnologyConst.TypeOrder[uv1]) do
+				for slot4, slot5 in ipairs(TechnologyConst.TypeOrder[uv2]) do
 					if table.indexof(uv0.typeSelectedList, slot5, 1) then
 						table.remove(uv0.typeSelectedList, slot6)
 					end

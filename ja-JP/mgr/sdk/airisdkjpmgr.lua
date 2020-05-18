@@ -223,7 +223,7 @@ return {
 			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.TWITTER)
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
 			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.YOSTAR)
-		elseif slot0 == AIRI_PLATFORM_APPLE and CSharpVersion > 36 then
+		elseif slot0 == AIRI_PLATFORM_APPLE then
 			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.APPLE)
 		end
 

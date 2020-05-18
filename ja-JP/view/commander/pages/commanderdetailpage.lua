@@ -21,7 +21,6 @@ function slot0.OnInit(slot0)
 	slot0.abilityAdditionTF = slot0:findTF("atttrs/content", slot0.statement)
 	slot0.talentAdditionTF = slot0:findTF("talents/scroll/content", slot0.statement)
 	slot0.talentAdditionList = UIItemList.New(slot0.talentAdditionTF, slot0.talentAdditionTF:GetChild(0))
-	slot0.talentAdditionTextList = {}
 	slot0.skillIcon = slot0:findTF("skill/icon/Image", slot0.talentSkill)
 	slot0.lockTF = slot0:findTF("lock")
 	slot0.commanderInfo = slot0:findTF("info")
@@ -245,11 +244,7 @@ function slot0.updateTalentAddition(slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
 
-			if not uv1.talentAdditionTextList[slot1 + 1] then
-				uv1.talentAdditionTextList[slot1 + 1] = ScrollTxt.New(findTF(slot2, "bg/name_mask"), findTF(slot2, "bg/name_mask/name"), true)
-			end
-
-			uv1.talentAdditionTextList[slot1 + 1]:setText(slot3.name)
+			setScrollText(findTF(slot2, "bg/name_mask/name"), slot3.name)
 			setText(slot2:Find("bg/value"), (slot3.value > 0 and "+" or "") .. slot3.value .. (slot3.type == CommanderConst.TALENT_ADDITION_RATIO and "%" or ""))
 			setActive(slot2:Find("up"), false)
 			setActive(slot2:Find("down"), false)

@@ -31,6 +31,7 @@ function slot0.OnInit(slot0)
 	slot0.twitterLoginBtn_en = slot0:findTF("twitter_login_en", slot0.airijpPanel)
 	slot0.facebookLoginBtn_en = slot0:findTF("facebook_login_en", slot0.airijpPanel)
 	slot0.yostarLoginBtn_en = slot0:findTF("yostar_login_en", slot0.airijpPanel)
+	slot0.appleLoginBtn_en = slot0:findTF("apple_login_en", slot0.airijpPanel)
 
 	setActive(slot0.clearTranscodeBtn, not LOCK_CLEAR_ACCOUNT)
 	setActive(slot0.twitterLoginBtn, PLATFORM_CODE == PLATFORM_JP)
@@ -46,6 +47,7 @@ function slot0.OnInit(slot0)
 	setActive(slot0.twitterLoginBtn_en, PLATFORM_CODE == PLATFORM_US)
 	setActive(slot0.facebookLoginBtn_en, PLATFORM_CODE == PLATFORM_US)
 	setActive(slot0.yostarLoginBtn_en, PLATFORM_CODE == PLATFORM_US)
+	setActive(slot0.appleLoginBtn_en, PLATFORM_CODE == PLATFORM_US and pg.SdkMgr.GetInstance():GetChannelUID() == "1" and CSharpVersion > 36)
 	slot0:InitEvent()
 end
 
@@ -56,7 +58,7 @@ function slot0.InitEvent(slot0)
 	end
 
 	onButton(slot0, slot0.airiLoginBtn, function ()
-		playSoundEffect(SFX_CONFIRM)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CONFIRM)
 
 		if not getProxy(SettingsProxy):getUserAgreement() then
 			uv0.event:emit(LoginMediator.ON_LOGIN_PROCESS)
@@ -109,6 +111,9 @@ function slot0.InitEvent(slot0)
 			LoginSceneConst.DEFINE.AIRI_LOGIN_PANEL_VIEW,
 			LoginSceneConst.DEFINE.PRESS_TO_LOGIN
 		})
+	end)
+	onButton(slot0, slot0.appleLoginBtn_en, function ()
+		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_APPLE)
 	end)
 	function ()
 		if not pg.SdkMgr.GetInstance():CheckHadAccountCache() then
