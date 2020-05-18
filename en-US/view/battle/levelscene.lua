@@ -225,10 +225,9 @@ function slot0.initUI(slot0)
 
 	setActive(slot0.levelGrid, true)
 
-	slot0.dragLayer = slot0.levelGrid:Find("DragLayer") or cloneTplTo(slot0.levelGrid, slot0.levelGrid, "DragLayer")
-	slot0.dragLayer.localEulerAngles = Vector3.zero
+	slot0.dragLayer = slot0.levelGrid:Find("DragLayer")
 
-	RemoveComponent(slot0.levelGrid, typeof(Image))
+	setImageAlpha(slot0.dragLayer, 0.27450980392156865)
 
 	slot0.float = slot0:findTF("float")
 	slot0.clouds = slot0:findTF("clouds", slot0.float)
@@ -576,7 +575,7 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if slot0.levelInfoView and slot0.levelInfoView:CheckState(BaseSubView.STATES.INITED) then
 		slot0:hideChapterPanel()
@@ -2043,9 +2042,9 @@ function slot0.doAmbushWarning(slot0, slot1)
 			uv0.ambushWarning:SetActive(false)
 			uv0:unfrozen()
 		end)
-		playSoundEffect(SFX_UI_WARNING)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WARNING)
 		Timer.New(function ()
-			playSoundEffect(SFX_UI_WARNING)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WARNING)
 		end, 1, 1):Start()
 	end
 
@@ -2279,7 +2278,7 @@ function slot0.doTracking(slot0, slot1)
 			uv0:unfrozen()
 			uv1()
 		end)
-		playSoundEffect(SFX_UI_WEIGHANCHOR_SEARCH)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_SEARCH)
 	end
 
 	if not slot0.radar then
@@ -2334,7 +2333,7 @@ function slot0.doPlayAirStrike(slot0, slot1, slot2, slot3)
 			removeOnButton(slot0)
 		end
 
-		playSoundEffect(SFX_UI_WARNING)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WARNING)
 	end
 
 	if not slot0.airStrike then
@@ -2386,7 +2385,7 @@ function slot0.doPlayAnim(slot0, slot1, slot2, slot3)
 
 			uv0:unfrozen()
 		end)
-		playSoundEffect(SFX_UI_WARNING)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WARNING)
 	end
 
 	if not slot0.uiAnims[slot1] then
@@ -2436,7 +2435,7 @@ function slot0.doPlayTorpedo(slot0, slot1)
 
 			uv0:unfrozen()
 		end)
-		playSoundEffect(SFX_UI_WARNING)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WARNING)
 	end
 
 	if not slot0.torpetoAni then
@@ -2684,7 +2683,7 @@ function slot0.doSignalSearch(slot0, slot1)
 
 			uv0:unfrozen()
 		end)
-		playSoundEffect(SFX_UI_WARNING)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WARNING)
 	end
 
 	if not slot0.signalAni then

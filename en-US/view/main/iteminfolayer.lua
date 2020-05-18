@@ -484,7 +484,7 @@ function slot0.PlayOpenBox(slot0, slot1, slot2)
 
 			uv0:emit(uv2.ON_CLOSE)
 		end)
-		playSoundEffect(SFX_UI_EQUIPMENT_OPEN)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_EQUIPMENT_OPEN)
 	end
 
 	if slot0:findTF(slot1 .. "(Clone)") then

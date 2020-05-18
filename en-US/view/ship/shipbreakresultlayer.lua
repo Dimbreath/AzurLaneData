@@ -167,29 +167,18 @@ function slot0.voice(slot0, slot1)
 		return
 	end
 
-	if slot0.loadedCVBankName then
-		function ()
-			if uv0._currentVoice then
-				uv0._currentVoice:Stop(true)
-			end
+	slot0:stopVoice()
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot1)
 
-			uv0._currentVoice = playSoundEffect(uv1)
-		end()
-	else
-		pg.CriMgr:LoadCV(Ship.getCVKeyID(slot0.contextData.newShip.skinId), function ()
-			if uv1.exited then
-				pg.CriMgr.UnloadCVBank(pg.CriMgr.GetCVBankName(uv0))
-			else
-				uv1.loadedCVBankName = slot0
+	slot0._currentVoice = slot1
+end
 
-				uv2()
-			end
-
-			uv1.loadedCVBankName = slot0
-
-			uv2()
-		end)
+function slot0.stopVoice(slot0)
+	if slot0._currentVoice then
+		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(slot0._currentVoice)
 	end
+
+	slot0._currentVoice = nil
 end
 
 function slot0.recycleSpineChar(slot0)
@@ -216,11 +205,7 @@ function slot0.willExit(slot0)
 		LeanTween:cancelAll()
 	end
 
-	if slot0._currentVoice then
-		slot0._currentVoice:Stop(true)
-	end
-
-	slot0._currentVoice = nil
+	slot0:stopVoice()
 
 	if slot0.loadedCVBankName then
 		pg.CriMgr.UnloadCVBank(slot0.loadedCVBankName)

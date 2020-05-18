@@ -40,13 +40,13 @@ function slot0.showNext(slot0)
 			uv0.alpha = slot0
 			uv1.trFrame.localScale = Vector3(0.8, 0.8, 1) + Vector3(0.2, 0.2, 0) * slot0
 		end))
-		playSoundEffect(SFX_PANEL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
 
 		return
 	end
 
 	slot0:emit(BaseUI.ON_CLOSE)
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 end
 
 function slot0.willExit(slot0)

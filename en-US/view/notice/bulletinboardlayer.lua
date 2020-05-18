@@ -50,7 +50,6 @@ end
 function slot0.setNotices(slot0, slot1)
 	slot2 = {}
 	slot3 = {}
-	slot0.titleScrolls = {}
 
 	for slot7, slot8 in pairs(slot1) do
 		table.insert(slot2, tostring(slot8.id))
@@ -60,16 +59,8 @@ function slot0.setNotices(slot0, slot1)
 
 		setWidgetText(slot9, slot8.btnTitle, "common_state/title_txt")
 		setWidgetText(slot9, slot8.btnTitle, "select_state/title_txt")
-
-		slot10 = ScrollTxt:changeToScroll(slot9:Find("common_state/time_txt"))
-
-		slot10:setText(slot8.title)
-		table.insert(slot0.titleScrolls, slot10)
-
-		slot11 = ScrollTxt:changeToScroll(slot9:Find("select_state/time_txt"))
-
-		slot11:setText(slot8.title)
-		table.insert(slot0.titleScrolls, slot11)
+		changeToScrollText(slot9:Find("common_state/time_txt"), slot8.title)
+		changeToScrollText(slot9:Find("select_state/time_txt"), slot8.title)
 		table.insert(slot0._tabList, slot9)
 		SetActive(slot9, true)
 

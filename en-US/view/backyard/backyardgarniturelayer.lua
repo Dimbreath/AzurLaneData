@@ -304,12 +304,12 @@ end
 function slot0.createDecoration(slot0, slot1)
 	return {
 		go = slot1,
-		maskTF = slot0:findTF("mask", slot1),
-		iconImg = slot0:findTF("icon", slot1):GetComponent(typeof(Image)),
-		comfortableTF = slot0:findTF("comfortable/Text", slot1),
-		newTF = slot0:findTF("new_bg", slot1),
-		add = slot0:findTF("Add", slot1),
-		count = slot0:findTF("count", slot1),
+		maskTF = slot0:findTF("itemtpl/mask", slot1),
+		iconImg = slot0:findTF("itemtpl/icon", slot1):GetComponent(typeof(Image)),
+		comfortableTF = slot0:findTF("itemtpl/comfortable/Text", slot1),
+		newTF = slot0:findTF("itemtpl/new_bg", slot1),
+		add = slot0:findTF("itemtpl/Add", slot1),
+		count = slot0:findTF("itemtpl/count", slot1),
 		update = function (slot0, slot1, slot2)
 			slot0.furniture = slot1
 			slot0.iconImg.sprite = LoadSprite("furnitureicon/" .. slot1:getConfig("icon"))

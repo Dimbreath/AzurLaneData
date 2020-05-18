@@ -4368,6 +4368,30 @@ pg.activity_shop_template = {
 		resource_num = 500,
 		order = 4
 	},
+	[10032] = {
+		commodity_id = 201271,
+		resource_category = 2,
+		activity = 0,
+		num = 1,
+		num_limit = 1,
+		commodity_type = 4,
+		resource_type = 59900,
+		id = 10032,
+		resource_num = 1200,
+		order = 0
+	},
+	[10033] = {
+		commodity_id = 202161,
+		resource_category = 2,
+		activity = 0,
+		num = 1,
+		num_limit = 1,
+		commodity_type = 4,
+		resource_type = 59900,
+		id = 10033,
+		resource_num = 1000,
+		order = 1
+	},
 	[10034] = {
 		commodity_id = 17060,
 		resource_category = 2,
@@ -5081,6 +5105,8 @@ pg.activity_shop_template = {
 		10028,
 		10029,
 		10030,
+		10032,
+		10033,
 		10034,
 		10035,
 		10036,

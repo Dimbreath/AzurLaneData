@@ -270,7 +270,7 @@ function slot0.PlaySE(slot0)
 		if uv0.SECount <= 0 then
 			uv0.SECount = math.random(5, 20)
 
-			pg.CriMgr.GetInstance():PlaySE("battle-firework")
+			pg.CriMgr.GetInstance():PlaySE_V3("battle-firework")
 		end
 	end, 0.1, -1)
 
@@ -279,7 +279,7 @@ end
 
 function slot0.StopSE(slot0)
 	if slot0.SETimer then
-		pg.CriMgr.GetInstance():StopSEBattle()
+		pg.CriMgr.GetInstance():StopSEBattle_V3()
 		slot0.SETimer:Stop()
 
 		slot0.SETimer = nil

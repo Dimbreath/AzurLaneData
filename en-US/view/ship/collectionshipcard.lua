@@ -15,7 +15,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.shipFrameImg = findTF(slot0.content, "front/frame")
 	slot0.iconShip = findTF(slot0.content, "ship_icon"):GetComponent(typeof(Image))
 	slot0.imageBg = findTF(slot0.content, "bg"):GetComponent(typeof(Image))
-	slot0.labelName = ScrollTxt.New(findTF(slot0.content, "info/name_mask"), findTF(slot0.content, "info/name_mask/name"))
+	slot0.labelName = findTF(slot0.content, "info/name_mask/name")
 	slot0.iconType = findTF(slot0.content, "info/top/type"):GetComponent(typeof(Image))
 	slot0.ringTF = findTF(slot0.content, "front/ring")
 	slot0.maskTF = findTF(slot0.content, "collection/mask")
@@ -88,13 +88,11 @@ function slot0.loadImage(slot0, slot1)
 
 	slot0.iconType.sprite = GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType(slot0.showTrans)))
 
-	slot0.labelName:setText(slot1:getName(slot0.showTrans))
+	setScrollText(slot0.labelName, slot1:getName(slot0.showTrans))
 	setShipCardFrame(slot0.shipFrameImg, slot3)
 end
 
 function slot0.clear(slot0)
-	slot0.labelName:clear()
-
 	slot0.shipGroup = nil
 	slot0.showTrans = nil
 	slot0.propose = nil

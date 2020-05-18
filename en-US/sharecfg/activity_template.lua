@@ -11875,6 +11875,7 @@ pg.activity_template = {
 	[30386] = {
 		mark = 20200423,
 		title_res_tag = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -11889,38 +11890,12 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[30387] = {
 		mark = 20200423,
 		title_res_tag = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 151,
@@ -11928,71 +11903,18 @@ pg.activity_template = {
 		config_data = "100",
 		config_client = "",
 		bg = "",
-		id = 30387,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 30387
 	},
 	[30388] = {
 		mark = 20200423,
 		title_res_tag = "tianchengptfk",
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 30388,
 		is_show = 71,
 		id = 30388,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_bg_tianchengfk_pt"
 		},
@@ -12003,6 +11925,7 @@ pg.activity_template = {
 	[30389] = {
 		mark = 20200423,
 		title_res_tag = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -12029,33 +11952,6 @@ pg.activity_template = {
 			1126,
 			1127,
 			1128
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_tianchengfk",
@@ -12338,6 +12234,61 @@ pg.activity_template = {
 					59,
 					59
 				}
+			}
+		}
+	},
+	[30399] = {
+		mark = 20200514,
+		title_res_tag = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30399",
+		bg = "",
+		id = 30399,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "Rate Up characters: Victorious, Duke of York and more",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"Common：30%",
+				"<color=#ffde38>Victorious</color>：2%(<color=#92fc63>up!</color>)",
+				"<color=#ffde38>Duke of York</color>：2%(<color=#92fc63>up!</color>)",
+				"<color=#ffde38>Sirius</color>：2%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>Sheffield</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>Matchless</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#3dc6ff>Jamaica</color>：5.0%(<color=#92fc63>up!</color>)"
 			}
 		}
 	},
@@ -13457,6 +13408,7 @@ pg.activity_template = {
 		30396,
 		30397,
 		30398,
+		30399,
 		30500,
 		30501,
 		30502,

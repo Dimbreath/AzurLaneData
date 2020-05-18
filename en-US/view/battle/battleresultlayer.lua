@@ -428,7 +428,6 @@ end
 
 function slot0.displayShips(slot0)
 	slot0._expTFs = {}
-	slot0._nameTxts = {}
 	slot0._initExp = {}
 	slot0._skipExp = {}
 	slot0._subSkipExp = {}
@@ -517,7 +516,9 @@ function slot0.displayShips(slot0)
 			slot29 = findTF(slot27, "content")
 			slot30 = findTF(slot29, "exp")
 			slot0._expTFs[#slot0._expTFs + 1] = slot27
-			slot0._nameTxts[#slot0._nameTxts + 1] = ScrollTxt.New(findTF(slot29, "info/name_mask"), findTF(slot29, "info/name_mask/name"))
+
+			setScrollText(findTF(slot29, "info/name_mask/name"), slot15:getName())
+
 			slot32 = findTF(slot19, "result/stars")
 			slot33 = findTF(slot19, "result/stars/star_tpl")
 			slot36 = slot15:getMaxStar() - slot15:getStar()
@@ -531,8 +532,6 @@ function slot0.displayShips(slot0)
 				slot35 = slot35 - 1
 			end
 
-			slot31:setText(slot15:getName())
-
 			if slot4 and slot15.id == slot4.id then
 				slot0.mvpShipVO = slot15
 
@@ -541,17 +540,16 @@ function slot0.displayShips(slot0)
 				slot39, slot40 = nil
 
 				if slot0.contextData.score > 1 then
-					slot39, slot40 = Ship.getWords(slot0.mvpShipVO.skinId, "win_mvp")
+					cvKey, slot40, slot39 = ShipWordHelper.GetWordAndCV(slot0.mvpShipVO.skinId, ShipWordHelper.WORD_TYPE_MVP, nil, , slot0.mvpShipVO:getCVIntimacy())
 				else
 					slot39, slot40 = Ship.getWords(slot0.mvpShipVO.skinId, "lose")
 				end
 
 				if slot40 then
-					if slot0._currentVoice then
-						slot0._currentVoice:Stop(true)
-					end
-
-					slot0._currentVoice = playSoundEffect(slot40)
+					slot0:stopVoice()
+					pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot40, function (slot0)
+						uv0._currentVoice = slot0
+					end)
 				end
 			end
 
@@ -598,7 +596,7 @@ function slot0.displayShips(slot0)
 
 							uv0.localPosition = uv1
 
-							playSoundEffect(SFX_BOAT_LEVEL_UP)
+							pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_LEVEL_UP)
 						end))
 
 						if slot0 <= uv2.level then
@@ -730,6 +728,14 @@ function slot0.displayShips(slot0)
 
 			uv0:skip()
 		end)
+	end
+end
+
+function slot0.stopVoice(slot0)
+	if slot0._currentVoice then
+		slot0._currentVoice:PlaybackStop()
+
+		slot0._currentVoice = nil
 	end
 end
 
@@ -1031,21 +1037,7 @@ function slot0.willExit(slot0)
 	end
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
-
-	if slot0._currentVoice then
-		slot0._currentVoice:Stop(true)
-	end
-
-	slot0._currentVoice = nil
-
-	if slot0._nameTxts then
-		for slot4 = #slot0._nameTxts, 1, -1 do
-			slot0._nameTxts[slot4]:destroy()
-			table.remove(slot0._nameTxts, slot4)
-		end
-
-		slot0._nameTxts = nil
-	end
+	slot0:stopVoice()
 end
 
 return slot0

@@ -28246,6 +28246,117 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[201261] = {
+		name = "Escort Me Please!",
+		ship_group = 20126,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Ah, Commander, over here! Hm, you're going to take care of all the plans for today's date? In that case, I look forward to seeing just how suave you can be! Hehe~",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "wudi_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 9,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "113",
+		skin_type = 0,
+		id = 201261,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "wudi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70194,
+		voice_actor = 92,
+		air_bomb_skin = "",
+		illustrator = 40,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.002,
+					0.936,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.884,
+					0.88,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.012,
+					0.026,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.892,
+					0.876,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.37,
+							2.38,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201270] = {
 		name = "Musketeer",
 		ship_group = 20127,
@@ -32046,6 +32157,115 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[202161] = {
+		name = "Trendy and Vogue?",
+		ship_group = 20216,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Did I keep you waiting, Commander? Ahaha... A girl's gotta take her time before stepping out onto the streets, remember? Come on, take my hand, and let's get going! Hehe~",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "feiji_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 9,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 0,
+		id = 202161,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "feiji_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70195,
+		voice_actor = 97,
+		air_bomb_skin = "",
+		illustrator = 6,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.014,
+					1.013,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.935,
+					1.009,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.026,
+					0.077,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.93,
+					1.024,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.35,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202170] = {
 		name = "Jamaica",
 		ship_group = 20217,
@@ -33700,7 +33920,7 @@ pg.ship_skin_template = {
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "tianlangxing_3",
-		no_showing = "1",
+		no_showing = "0",
 		air_bullet_skin = "",
 		bg_sp = "",
 		shop_type_id = 6,
@@ -33928,6 +34148,226 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[202230] = {
+		name = "Swiftsure ",
+		ship_group = 20223,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "I am Swiftsure, a light cruiser of the Royal Navy... If it is not too much for one such as myself to ask, I would like to support your fleet in whatever way I can. ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "quejie",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 202230,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "quejie",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 188,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.18,
+					0.937,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.993,
+					0.876,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.003,
+					0.892,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.526,
+							2.455,
+							-0.568
+						}
+					}
+				}
+			}
+		}
+	},
+	[202231] = {
+		name = "Study Hall Cyclamen",
+		ship_group = 20223,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Commander, why are you here...? Me? Yes, as you can see, I'm still studying... I figured that acquiring knowledge would be the best way to make up for my lack of experience on the actual battlefield.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "quejie_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 4,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "103",
+		skin_type = 0,
+		id = 202231,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "quejie_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70196,
+		voice_actor = 188,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.2,
+					0.71,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.24,
+					0.87,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.34,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.25,
+					0.73,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							2.42,
+							-0.568
+						}
+					}
+				}
+			}
+		}
+	},
 	[202232] = {
 		name = "Beauty of White Jade ",
 		ship_group = 20223,
@@ -33937,7 +34377,7 @@ pg.ship_skin_template = {
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "quejie_3",
-		no_showing = "0",
+		no_showing = "1",
 		air_bullet_skin = "",
 		bg_sp = "",
 		shop_type_id = 3,
@@ -55713,7 +56153,7 @@ pg.ship_skin_template = {
 		l2d_animations = "",
 		bgm = "",
 		bg = "104",
-		skin_type = 0,
+		skin_type = -1,
 		id = 301831,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -65792,7 +66232,7 @@ pg.ship_skin_template = {
 		l2d_animations = "",
 		bgm = "",
 		bg = "106",
-		skin_type = 0,
+		skin_type = -1,
 		id = 305081,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -73111,6 +73551,115 @@ pg.ship_skin_template = {
 				{
 					1.005,
 					0.804,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.473,
+							2.485,
+							-0.38
+						}
+					}
+				}
+			}
+		}
+	},
+	[401235] = {
+		name = "Café Trainee @New Base",
+		ship_group = 40123,
+		group_index = 5,
+		illustrator2 = -1,
+		desc = "Hi, welcome! How may I serve y– It's you, Commander?! Err, well, I'm working as a trainee at this Sakura Empire-style café, you see... What do you think of this outfit?",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "z23_8",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 4,
+		id = 401235,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "z23_8",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 3,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.14,
+					1.176,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.163,
+					1.133,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.008,
+					0.016,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.189,
+					1.146,
 					0
 				}
 			}
@@ -87231,7 +87780,7 @@ pg.ship_skin_template = {
 		l2d_animations = "",
 		bgm = "",
 		bg = "106",
-		skin_type = 0,
+		skin_type = -1,
 		id = 901021,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -107081,6 +107630,7 @@ pg.ship_skin_template = {
 			401231,
 			401233,
 			401234,
+			401235,
 			401236,
 			401237,
 			401239
@@ -107738,6 +108288,8 @@ pg.ship_skin_template = {
 			202242
 		},
 		[20223] = {
+			202230,
+			202231,
 			202232
 		},
 		[20220] = {
@@ -107770,7 +108322,8 @@ pg.ship_skin_template = {
 			202172
 		},
 		[20216] = {
-			202160
+			202160,
+			202161
 		},
 		[20215] = {
 			202150,
@@ -107833,7 +108386,8 @@ pg.ship_skin_template = {
 			201270
 		},
 		[20126] = {
-			201260
+			201260,
+			201261
 		},
 		[20125] = {
 			201250
@@ -108614,6 +109168,7 @@ pg.ship_skin_template = {
 		201241,
 		201250,
 		201260,
+		201261,
 		201270,
 		201290,
 		202010,
@@ -108647,6 +109202,7 @@ pg.ship_skin_template = {
 		202152,
 		202153,
 		202160,
+		202161,
 		202170,
 		202171,
 		202172,
@@ -108664,6 +109220,8 @@ pg.ship_skin_template = {
 		202201,
 		202202,
 		202203,
+		202230,
+		202231,
 		202232,
 		202240,
 		202241,
@@ -109021,6 +109579,7 @@ pg.ship_skin_template = {
 		401231,
 		401233,
 		401234,
+		401235,
 		401236,
 		401237,
 		401239,

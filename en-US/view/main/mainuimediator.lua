@@ -28,7 +28,6 @@ slot0.TMP_DEBUG = "MainUIMediator:TMP_DEBUG"
 slot0.OPEN_GUILD = "MainUIMediator:OPEN_GUILD"
 slot0.OPEN_MONTH_CARD_SET = "MainUIMediator:OPEN_MONTH_CARD_SET"
 slot0.OPEN_SHOP_LAYER = "MainUIMediator:OPEN_SHOP_LAYER"
-slot0.ON_ACTIVITY = "MainUIMediator:ON_ACTIVITY"
 slot0.ON_ACTIVITY_MAP = "MainUIMediator:ON_ACTIVITY_MAP"
 slot0.ON_ACTIVITY_PT = "MainUIMediator:ON_ACTIVITY_PT"
 slot0.ON_VOTE = "MainUIMediator:ON_VOTE"
@@ -62,6 +61,16 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:setFlagShip(slot1:getShipById(slot4.character))
 	slot0.viewComponent:updatePlayerInfo(slot4)
+
+	if ENABLE_TEST_OSS then
+		slot0:bind("TEST_OSS", function (slot0)
+			uv0:addSubLayers(Context.New({
+				viewComponent = TestUpload2ResServerLayer,
+				mediator = TestUpload2ResServerMediator
+			}))
+		end)
+	end
+
 	slot0:updateCourseNotices(false)
 
 	slot6 = getProxy(TaskProxy)
@@ -163,7 +172,6 @@ function slot0.register(slot0)
 		elseif slot1 == DockyardScene.MODE_DESTROY then
 			uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 				blockLock = true,
-				prevFlag = false,
 				mode = slot1,
 				leftTopInfo = i18n("word_destroy"),
 				onShip = Ship.canDestroyShip
@@ -341,11 +349,6 @@ function slot0.register(slot0)
 			viewComponent = MemoryBookLayer,
 			mediator = MemoryBookMediator
 		}))
-	end)
-	slot0:bind(uv0.ON_ACTIVITY, function (slot0, slot1)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
-			id = slot1
-		})
 	end)
 	slot0:bind(uv0.ON_ACTIVITY_MAP, function (slot0, slot1)
 		slot2, slot3 = getProxy(ChapterProxy):getLastMapForActivity()
@@ -838,7 +841,7 @@ function slot0.onChapterTimeUp(slot0)
 	end
 end
 
-function slot0.tryShowItemIconChnageNotice(slot0)
+function slot0.tryShowItemIconChnageNotice(slot0, slot1)
 	if PlayerPrefs.GetInt("ItemIconChange_" .. getProxy(PlayerProxy):getRawData().id, 0) == 0 then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			modal = true,
@@ -848,12 +851,16 @@ function slot0.tryShowItemIconChnageNotice(slot0)
 			title = pg.MsgboxMgr.TITLE_INFORMATION,
 			weight = LayerWeightConst.TOP_LAYER,
 			onClose = function ()
-				PlayerPrefs.SetInt("ItemIconChange_" .. uv0, 1)
+				uv0()
+				PlayerPrefs.SetInt("ItemIconChange_" .. uv1, 1)
 			end,
 			onYes = function ()
 				PlayerPrefs.SetInt("ItemIconChange_" .. uv0, 1)
+				uv1()
 			end
 		})
+	else
+		slot1()
 	end
 end
 
@@ -892,6 +899,11 @@ function slot0.handleEnterMainUI(slot0)
 				return
 			end
 
+			uv0:tryShowItemIconChnageNotice(function ()
+				onNextTick(uv0)
+			end)
+			coroutine.yield()
+
 			if #getProxy(ServerNoticeProxy):getServerNotices(false) > 0 and not slot3:getStopRemind() and not slot3.__autoPopped then
 				slot3.__autoPopped = true
 
@@ -922,7 +934,6 @@ function slot0.handleEnterMainUI(slot0)
 			uv0:handlingActivityBtn()
 			uv0:handleOverdueAttire()
 			uv0:updateExSkinOverDue()
-			uv0:tryShowItemIconChnageNotice()
 		end))
 	end
 end

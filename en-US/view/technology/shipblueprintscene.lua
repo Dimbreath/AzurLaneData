@@ -184,7 +184,6 @@ function slot0.init(slot0)
 	slot0.helpBtn = slot0:findTF("helpBtn", slot0.top)
 	slot0.bottomWidth = slot0.bottomPanel.rect.height
 	slot0.topWidth = slot0.topPanel.rect.height * 2
-	slot0.nameTxts = {}
 	slot0.taskTFs = {}
 	slot0.leanTweens = {}
 end
@@ -791,26 +790,10 @@ end
 function slot0.updateModPanel(slot0)
 	slot1 = slot0.contextData.shipBluePrintVO
 	slot2 = slot0:getShipById(slot1.shipId)
-	slot5 = 0
-	slot6 = math.min(slot0:getItemById(slot1:getConfig("strengthen_item")).count, slot1:getUseageMaxItem())
+	slot4 = slot0:getItemById(slot1:getConfig("strengthen_item"))
+	slot6 = math.min(slot4.count, slot1:getUseageMaxItem())
 
-	function slot7(slot0)
-		slot3 = Clone(uv0)
-
-		slot3:addExp(slot0 * uv0:getItemExp())
-		uv1:updateModInfo(slot3)
-		setText(uv1.calcTxt, slot0)
-	end
-
-	slot8 = nil
-
-	if slot0.nameTxts[slot0.itemInfo] then
-		slot8 = slot0.nameTxts[slot0.itemInfo]
-	else
-		slot0.nameTxts[slot0.itemInfo] = ScrollTxt.New(findTF(slot0.itemInfo, "name"), findTF(slot0.itemInfo, "name/Text"))
-	end
-
-	slot8:setText(slot4:getConfig("name"))
+	setScrollText(findTF(slot0.itemInfo, "name/Text"), slot4:getConfig("name"))
 
 	slot0.itemInfoCount.text = slot4.count
 
@@ -875,7 +858,13 @@ function slot0.updateModPanel(slot0)
 
 		uv5(uv2)
 	end, nil, true, true, 0.1, SFX_PANEL)
-	slot7(slot5)
+	function (slot0)
+		slot3 = Clone(uv0)
+
+		slot3:addExp(slot0 * uv0:getItemExp())
+		uv1:updateModInfo(slot3)
+		setText(uv1.calcTxt, slot0)
+	end(0)
 	function (slot0)
 		setActive(uv0.calcPanel, not slot0)
 		setActive(uv0.fittingBtn, slot0)
@@ -907,13 +896,13 @@ function slot0.updateModPanel(slot0)
 		end, SFX_PANEL)
 
 		if not pg.StoryMgr.GetInstance():IsPlayed(slot1:getConfig("luck_story")) then
-			pg.StoryMgr.GetInstance():Play(slot10, function ()
+			pg.StoryMgr.GetInstance():Play(slot9, function ()
 				uv0:buildStartAni("fateStartWindow", function ()
 					uv0(true)
 				end)
 			end)
 		else
-			slot9(true)
+			slot8(true)
 		end
 	end
 end
@@ -921,8 +910,9 @@ end
 function slot0.updateFittingPanel(slot0)
 	slot1 = slot0.contextData.shipBluePrintVO
 	slot2 = slot0:getShipById(slot1.shipId)
+	slot4 = slot0:getItemById(slot1:getConfig("strengthen_item"))
 	slot5 = 0
-	slot6 = math.min(slot0:getItemById(slot1:getConfig("strengthen_item")).count, slot1:getFateUseageMaxItem())
+	slot6 = math.min(slot4.count, slot1:getFateUseageMaxItem())
 
 	function slot7(slot0)
 		slot3 = Clone(uv0)
@@ -932,15 +922,7 @@ function slot0.updateFittingPanel(slot0)
 		setText(uv1.fittingCalcTxt, slot0)
 	end
 
-	slot8 = nil
-
-	if slot0.nameTxts[slot0.fittingItemInfo] then
-		slot8 = slot0.nameTxts[slot0.fittingItemInfo]
-	else
-		slot0.nameTxts[slot0.fittingItemInfo] = ScrollTxt.New(findTF(slot0.fittingItemInfo, "name"), findTF(slot0.fittingItemInfo, "name/Text"))
-	end
-
-	slot8:setText(slot4:getConfig("name"))
+	setScrollText(findTF(slot0.fittingItemInfo, "name/Text"), slot4:getConfig("name"))
 
 	slot0.fittingItemInfoCount.text = slot4.count
 
@@ -988,7 +970,7 @@ function slot0.updateFittingPanel(slot0)
 		uv3(uv2)
 	end, nil, true, true, 0.1, SFX_PANEL)
 
-	function slot12(slot0)
+	function slot11(slot0)
 		if uv0:inModAnim() or uv1:isMaxFateLevel() then
 			if slot0 then
 				slot0()
@@ -1022,10 +1004,10 @@ function slot0.updateFittingPanel(slot0)
 		uv5(uv2)
 	end
 
-	pressPersistTrigger(slot0.fittingCalcMaxBtn, 0.5, slot12, nil, true, true, 0.1, SFX_PANEL)
+	pressPersistTrigger(slot0.fittingCalcMaxBtn, 0.5, slot11, nil, true, true, 0.1, SFX_PANEL)
 
-	for slot12 = 1, slot1:getMaxFateLevel() do
-		onButton(slot0, slot0:findTF("phase_" .. slot12, slot0.fittingAttrPanel), function ()
+	for slot11 = 1, slot1:getMaxFateLevel() do
+		onButton(slot0, slot0:findTF("phase_" .. slot11, slot0.fittingAttrPanel), function ()
 			uv0:showFittingMsgPanel(uv1)
 		end, SFX_PANEL)
 	end
@@ -1793,12 +1775,6 @@ function slot0.willExit(slot0)
 
 	slot0:closePreview(true)
 	slot0:clearLeanTween(true)
-
-	for slot4, slot5 in pairs(slot0.nameTxts) do
-		slot5:destroy()
-	end
-
-	slot0.nameTxts = nil
 
 	if slot0.previewer then
 		slot0.previewer:clear()

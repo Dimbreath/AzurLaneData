@@ -2468,6 +2468,104 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[124] = {
+		limit_arg = 1,
+		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
+		name = "Third Anniversary Gift Bag ",
+		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
+		subject = "Third Anniversary Gift Bag ",
+		extra_service = 3,
+		money = 2999,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe4_l",
+		id_str = "com.yostaren.azurlane.diamond134",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 124,
+		airijp_id = "com.yostaren.azurlane.diamond134",
+		extra_service_item = {
+			{
+				2,
+				69910,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69910,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2500,6 +2598,7 @@ pg.pay_data_display = {
 		120,
 		121,
 		122,
-		123
+		123,
+		124
 	}
 }

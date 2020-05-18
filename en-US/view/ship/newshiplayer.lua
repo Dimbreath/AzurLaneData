@@ -64,29 +64,19 @@ function slot0.voice(slot0, slot1)
 		return
 	end
 
-	if slot0.loadedCVBankName then
-		function ()
-			if uv0._currentVoice then
-				uv0._currentVoice:Stop(true)
-			end
+	slot0:stopVoice()
 
-			uv0._currentVoice = playSoundEffect(uv1)
-		end()
-	else
-		pg.CriMgr:LoadCV(Ship.getCVKeyID(slot0._shipVO.skinId), function ()
-			if uv1.exited then
-				pg.CriMgr.UnloadCVBank(pg.CriMgr.GetCVBankName(uv0))
-			else
-				uv1.loadedCVBankName = slot0
+	slot0._currentVoice = slot1
 
-				uv2()
-			end
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot1)
+end
 
-			uv1.loadedCVBankName = slot0
-
-			uv2()
-		end)
+function slot0.stopVoice(slot0)
+	if slot0._currentVoice then
+		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(slot0._currentVoice)
 	end
+
+	slot0._currentVoice = nil
 end
 
 function slot0.setShip(slot0, slot1)
@@ -242,9 +232,8 @@ function slot0.setShip(slot0, slot1)
 
 	slot23 = slot0._shipVO:getConfigTable()
 	findTF(slot16, "type_bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("shiptype", tostring(slot0._shipVO:getShipType()))
-	slot0.scrollTxt = ScrollTxt.New(slot16:Find("name_bg/mask"), slot16:Find("name_bg/mask/Text"))
 
-	slot0.scrollTxt:setText(slot0._shipVO:getName())
+	setScrollText(slot16:Find("name_bg/mask/Text"), slot0._shipVO:getName())
 
 	if slot2 then
 		slot6 = slot6 .. "_1"
@@ -384,7 +373,7 @@ function slot0.didEnter(slot0)
 			uv0:emit(NewShipMediator.ON_SKIP_BATCH)
 		end)
 	end, SFX_PANEL)
-	playSoundEffect(SFX_UI_DOCKYARD_CHARGET)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_DOCKYARD_CHARGET)
 
 	slot0.hideParentList = {}
 
@@ -401,7 +390,7 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if slot0.isInView then
 		slot0:hidePaintView(true)
@@ -567,7 +556,7 @@ function slot0.starsAnimation(slot0)
 
 			uv0:AddLeanTween(function ()
 				return LeanTween.scale(rtf(uv0), Vector3(1.8, 1.8, 1.8), 0):setDelay(uv1):setOnStart(System.Action(function ()
-					playSoundEffect(SFX_UI_DOCKYARD_STAR)
+					pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_DOCKYARD_STAR)
 				end)):setOnComplete(System.Action(function ()
 					setActive(uv0, false)
 					setActive(uv1, true)
@@ -617,10 +606,6 @@ end
 function slot0.willExit(slot0)
 	slot0:DestroyNewShipDocumentView()
 
-	if slot0.scrollTxt then
-		slot0.scrollTxt:destroy()
-	end
-
 	if slot0.designBg then
 		PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
 	end
@@ -643,12 +628,7 @@ function slot0.willExit(slot0)
 
 	slot0:recyclePainting()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
-
-	if slot0._currentVoice then
-		slot0._currentVoice:Stop(true)
-	end
-
-	slot0._currentVoice = nil
+	slot0:stopVoice()
 
 	if slot0.loadedCVBankName then
 		pg.CriMgr.UnloadCVBank(slot0.loadedCVBankName)

@@ -119,7 +119,7 @@ function slot0.updateShip(slot0, slot1)
 		TweenValue(findTF(slot2, "exp/value"):GetComponent(typeof(Slider)), slot3.exp, math.max(slot3:getLevelExpConfig().exp, 0.001), uv0, 0, function (slot0)
 			uv0:setSliderValue(uv1, slot0 / uv2)
 		end, function ()
-			playSoundEffect(SFX_BOAT_LEVEL_UP)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_LEVEL_UP)
 
 			uv0 = uv0 - 1
 			uv1.text = "LEVEL" .. uv2.level - uv0
@@ -128,7 +128,7 @@ function slot0.updateShip(slot0, slot1)
 				TweenValue(uv3, 0, 1, uv4, 0, function (slot0)
 					uv0:setSliderValue(uv1, slot0)
 				end, function ()
-					playSoundEffect(SFX_BOAT_LEVEL_UP)
+					pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_LEVEL_UP)
 
 					uv0 = uv0 - 1
 					uv1.text = "LEVEL" .. uv2.level - uv0

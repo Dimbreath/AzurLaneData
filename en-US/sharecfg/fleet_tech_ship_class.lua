@@ -105,7 +105,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10108] = {
 		shiptype = 1,
-		name = "Allen M. Sumner-class ",
+		name = "Allen M. Sumner-Class ",
 		t_level = 9,
 		id = 10108,
 		t_level_1 = 4,
@@ -403,7 +403,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10607] = {
 		shiptype = 6,
-		name = "Casablanca-class ",
+		name = "Casablanca-Class ",
 		t_level = 3,
 		id = 10607,
 		t_level_1 = 31,
@@ -704,6 +704,17 @@ pg.fleet_tech_ship_class = {
 		nation = 2,
 		ships = {
 			29901
+		}
+	},
+	[20209] = {
+		shiptype = 2,
+		name = "Swiftsure-Class ",
+		t_level = 7,
+		id = 20209,
+		t_level_1 = 1,
+		nation = 2,
+		ships = {
+			20223
 		}
 	},
 	[20210] = {
@@ -1329,7 +1340,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30507] = {
 		shiptype = 5,
-		name = "Kiigata-class ",
+		name = "Kii-Class ",
 		t_level = 8,
 		id = 30507,
 		t_level_1 = 98,
@@ -1385,7 +1396,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30605] = {
 		shiptype = 6,
-		name = "Zuihou-class ",
+		name = "Zuihou-Class ",
 		t_level = 4,
 		id = 30605,
 		t_level_1 = 102,
@@ -1761,7 +1772,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60101] = {
 		shiptype = 1,
-		name = "Soldati-class",
+		name = "Soldati-Class",
 		t_level = 6,
 		id = 60101,
 		t_level_1 = 131,
@@ -1772,7 +1783,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60301] = {
 		shiptype = 3,
-		name = "Zara-class",
+		name = "Zara-Class",
 		t_level = 7,
 		id = 60301,
 		t_level_1 = 132,
@@ -1783,7 +1794,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60302] = {
 		shiptype = 3,
-		name = "Trento-class",
+		name = "Trento-Class",
 		t_level = 5,
 		id = 60302,
 		t_level_1 = 133,
@@ -1794,7 +1805,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60501] = {
 		shiptype = 5,
-		name = "Vittorio Veneto-class",
+		name = "Vittorio Veneto-Class",
 		t_level = 7,
 		id = 60501,
 		t_level_1 = 134,
@@ -1805,7 +1816,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60502] = {
 		shiptype = 5,
-		name = "Conte di Cavour-class",
+		name = "Conte di Cavour-Class",
 		t_level = 4,
 		id = 60502,
 		t_level_1 = 135,
@@ -1817,7 +1828,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70101] = {
 		shiptype = 1,
-		name = "Gnevny-class",
+		name = "Gnevny-Class",
 		t_level = 4,
 		id = 70101,
 		t_level_1 = 136,
@@ -1828,7 +1839,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70102] = {
 		shiptype = 1,
-		name = "Leningrad-class",
+		name = "Leningrad-Class",
 		t_level = 5,
 		id = 70102,
 		t_level_1 = 134,
@@ -1839,7 +1850,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70103] = {
 		shiptype = 1,
-		name = "Tashkent-class",
+		name = "Tashkent-Class",
 		t_level = 8,
 		id = 70103,
 		t_level_1 = 130,
@@ -1861,7 +1872,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70202] = {
 		shiptype = 2,
-		name = "Bogatyr-class",
+		name = "Bogatyr-Class",
 		t_level = 1,
 		id = 70202,
 		t_level_1 = 132,
@@ -1872,7 +1883,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70203] = {
 		shiptype = 2,
-		name = "Chapayev-class",
+		name = "Chapayev-Class",
 		t_level = 7,
 		id = 70203,
 		t_level_1 = 135,
@@ -1883,7 +1894,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70501] = {
 		shiptype = 5,
-		name = "Gangut-class",
+		name = "Gangut-Class",
 		t_level = 5,
 		id = 70501,
 		t_level_1 = 135,
@@ -1894,7 +1905,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70502] = {
 		shiptype = 5,
-		name = "Sovetsky Soyuz-class",
+		name = "Sovetsky Soyuz-Class",
 		t_level = 8,
 		id = 70502,
 		t_level_1 = 131,
@@ -1905,7 +1916,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80101] = {
 		shiptype = 1,
-		name = "Le Fantasque-class",
+		name = "Le Fantasque-Class",
 		t_level = 8,
 		id = 80101,
 		t_level_1 = 132,
@@ -1982,7 +1993,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[90104] = {
 		shiptype = 1,
-		name = "Vauquelin-class ",
+		name = "Vauquelin-Class ",
 		t_level = 7,
 		id = 90104,
 		t_level_1 = 131,
@@ -2071,6 +2082,7 @@ pg.fleet_tech_ship_class = {
 		20206,
 		20207,
 		20208,
+		20209,
 		20210,
 		20301,
 		20302,

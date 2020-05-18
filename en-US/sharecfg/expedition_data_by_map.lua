@@ -576,7 +576,7 @@ pg.expedition_data_by_map = {
 		bg = "map_10",
 		destory_icon_suffix = "blue",
 		animtor = 0,
-		bind_map = 0,
+		bind_map = 210,
 		clouds_pos = {
 			{
 				76,
@@ -1135,6 +1135,51 @@ pg.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 0,
 		bind_map = 9,
+		clouds_pos = {
+			{
+				76,
+				263
+			},
+			{
+				881,
+				44
+			},
+			{
+				23,
+				-143
+			},
+			{
+				473,
+				163
+			},
+			{
+				514,
+				-245
+			},
+			{
+				830,
+				-109
+			}
+		}
+	},
+	[210] = {
+		map = 210,
+		name = "Battle of Kolombangara",
+		bgm = "level",
+		type = 2,
+		on_activity = 0,
+		title = "10",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 45,
+		uifx = "UIhuohua2",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "Map_210",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 10,
 		clouds_pos = {
 			{
 				76,
@@ -5381,6 +5426,170 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100020] = {
+		map = 2100020,
+		name = "Frigid Winter's Crown: Prequel || || S.P. || E.X.",
+		bgm = "Story-6",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm",
+		cloud_suffix = "",
+		bg = "Map_1090000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100030,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100021] = {
+		map = 2100021,
+		name = "Frigid Winter's Crown: Sequel || || S.P. || E.X.",
+		bgm = "level03",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm_hard",
+		cloud_suffix = "",
+		bg = "Map_1090001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100031,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100030] = {
+		map = 2100030,
+		name = "Frigid Winter's Crown: Prequel || || S.P. || E.X.",
+		bgm = "Story-6",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm",
+		cloud_suffix = "",
+		bg = "Map_1090000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100020,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100031] = {
+		map = 2100031,
+		name = "Frigid Winter's Crown: Sequel || || S.P. || E.X.",
+		bgm = "level03",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm_hard",
+		cloud_suffix = "",
+		bg = "Map_1090001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100021,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100060] = {
 		map = 2100060,
 		name = "Fallen Wings: Prequel || || S.P. || E.X.",
@@ -5751,6 +5960,7 @@ pg.expedition_data_by_map = {
 		207,
 		208,
 		209,
+		210,
 		10000,
 		70000,
 		1040000,
@@ -5858,6 +6068,10 @@ pg.expedition_data_by_map = {
 		2100001,
 		2100010,
 		2100011,
+		2100020,
+		2100021,
+		2100030,
+		2100031,
 		2100060,
 		2100061,
 		2100070,
