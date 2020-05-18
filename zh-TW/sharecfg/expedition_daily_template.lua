@@ -128,6 +128,46 @@ pg.expedition_daily_template = {
 			}
 		}
 	},
+	[501] = {
+		tips = "破交作战每天开启，每周上限两次",
+		limit_type = 2,
+		limit_time = 2,
+		pic = "daily5",
+		title = "破交作战",
+		id = 501,
+		des = "潜艇编队开始了破交行动，行动成功将获得各种潜艇装备设计图",
+		weekday = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		},
+		expedition_and_lv_limit_list = {
+			{
+				1000,
+				35
+			},
+			{
+				1001,
+				45
+			},
+			{
+				1002,
+				55
+			},
+			{
+				1003,
+				65
+			},
+			{
+				1004,
+				75
+			}
+		}
+	},
 	[601] = {
 		tips = "戰術研修每天開啟",
 		limit_type = 1,
@@ -160,35 +200,11 @@ pg.expedition_daily_template = {
 			}
 		}
 	},
-	[701] = {
-		tips = "該副本暫未開放，敬請期待",
-		limit_type = 1,
-		limit_time = 0,
-		pic = "daily4",
-		title = "敬請期待",
-		id = 701,
-		des = "該副本暫未開放，敬請期待",
-		weekday = {},
-		expedition_and_lv_limit_list = {
-			{
-				6000,
-				60
-			},
-			{
-				6001,
-				60
-			},
-			{
-				6002,
-				60
-			}
-		}
-	},
 	all = {
 		201,
 		301,
 		401,
-		601,
-		701
+		501,
+		601
 	}
 }

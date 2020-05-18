@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"忍者修行之路？\n\n<size=45>七　约定与等待</size>",
+					"忍者修行之路？\n\n<size=45>七　約定與等待</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·海边",
+			say = "港區·海邊",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天也没有{namecode:12}的消息呢。",
+			say = "今天也沒有{namecode:12}的消息呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "今天是休息日，和{namecode:11}一起来到了海边",
+			say = "今天是休息日，和{namecode:11}一起來到了海邊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,23 +93,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在下好像也习惯了这样等待的日子了呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301090,
-			side = 2,
-			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "不过，在下觉得这种寂寞感已经没有一开始那么强烈了。",
+			say = "在下好像也習慣了這樣等待的日子了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,12 +104,28 @@ return {
 			}
 		},
 		{
+			actor = 301090,
+			side = 2,
+			bgName = "star_level_bg_106",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "不過，在下覺得這種寂寞感已經沒有一開始那麼強烈了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 301090,
 			nameColor = "#a9f548",
-			say = "这，这绝对不是在下不关心{namecode:12}什么的！",
+			say = "這，這絕對不是在下不關心{namecode:12}什麼的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过在下觉得，会有这种变化，一定是因为指挥官吧。",
+			say = "不過在下覺得，會有這種變化，一定是因為指揮官吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官的陪伴，让在下感觉非常温暖觉，而且十分开心……",
+			say = "指揮官的陪伴，讓在下感覺非常溫暖，而且十分開心……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			actor = 301090,
 			nameColor = "#a9f548",
-			say = "有指挥官在身边，在下感觉变得勇敢了很多！",
+			say = "有指揮官在身邊，在下感覺變得勇敢了很多！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			},
 			options = {
 				{
-					content = "摸摸{namecode:11}的头",
+					content = "摸摸{namecode:11}的頭",
 					flag = 1
 				}
 			}
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			actor = 301090,
 			nameColor = "#a9f548",
-			say = "请，请不要趁机欺负在下！",
+			say = "請，請不要趁機欺負在下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			},
 			options = {
 				{
-					content = "{namecode:11}真的很喜欢第六驱逐队呢。",
+					content = "{namecode:11}真的很喜歡第六驅逐隊呢。",
 					flag = 1
 				}
 			}
@@ -253,7 +253,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是当然！在下一直，一直希望曾经的第六驱逐队能在港口再次团聚！{namecode:12}，{namecode:13}，{namecode:14}，每一个对在下来说，都是最重要的妹妹！",
+			say = "那是當然！在下一直，一直希望曾經的第六驅逐隊能在港口再次團聚！{namecode:12}，{namecode:13}，{namecode:14}，每一個對在下來說，都是最重要的妹妹！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们第六驱逐队，一定会团聚，然后永远不分开的！当然，指挥官要在一起！",
+			say = "我們第六驅逐隊，一定會團聚，然後永遠不分開的！當然，指揮官要在一起！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那，那个，指挥官阁下！！在，在下，其实对指挥官——",
+			say = "那，那個，指揮官閣下！！在，在下，其實對指揮官——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官！！{namecode:11}！！",
+			say = "指揮官！！{namecode:11}！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:13}…看来不知道什么叫读空气呢……（小声）",
+			say = "{namecode:13}…看來不知道什麼叫讀空氣呢……（小聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "{namecode:13}迎面跑了过来，{namecode:14}在后面跟着",
+			say = "{namecode:13}迎面跑了過來，{namecode:14}在後面跟著",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			actor = 301110,
 			nameColor = "#a9f548",
-			say = "指挥官，{namecode:11}，一起去吃午饭吧！",
+			say = "指揮官，{namecode:11}，一起去吃午飯吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "第六驱逐队，一定会团聚的吧。那个时候的{namecode:11}，会是怎样的表情呢？",
+			say = "第六驅逐隊，一定會團聚的吧。那個時候的{namecode:11}，會是怎樣的表情呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			say = "一定，会是最幸福的笑容吧——",
+			say = "一定，會是最幸福的笑容吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

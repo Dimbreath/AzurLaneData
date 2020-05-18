@@ -3206,7 +3206,7 @@ pg.ship_data_group = {
 	},
 	[74] = {
 		type = 7,
-		trans_skin = 0,
+		trans_skin = 107039,
 		trans_type = 7,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -3223,8 +3223,17 @@ pg.ship_data_group = {
 			"B",
 			"A"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"E",
+			"S",
+			"C",
+			"A",
+			"A"
+		},
+		trans_skill = {
+			11400
+		},
 		description = {
 			{
 				"榮譽勳章兌換（機率刷新）",
@@ -3496,6 +3505,41 @@ pg.ship_data_group = {
 				},
 				0
 			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[342] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 111,
+		group_type = 10801,
+		code = 342,
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
 			{
 				"進行特型艦建造",
 				{
@@ -7253,7 +7297,7 @@ pg.ship_data_group = {
 	},
 	[168] = {
 		type = 1,
-		trans_skin = 0,
+		trans_skin = 301189,
 		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -7270,8 +7314,17 @@ pg.ship_data_group = {
 			"D",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_skill = {
+			5021
+		},
 		description = {
 			{
 				"推薦探索關卡4-1",
@@ -8879,6 +8932,111 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[338] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 294,
+		group_type = 30801,
+		code = 338,
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[339] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 296,
+		group_type = 30802,
+		code = 339,
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[340] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 298,
+		group_type = 30803,
+		code = 340,
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
 	[232] = {
 		type = 12,
 		trans_skin = 0,
@@ -9589,6 +9747,41 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[341] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 330,
+		group_type = 40801,
+		code = 341,
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
 	[253] = {
 		type = 1,
 		trans_skin = 0,
@@ -10146,6 +10339,7 @@ pg.ship_data_group = {
 		77,
 		79,
 		78,
+		342,
 		80,
 		103,
 		81,
@@ -10278,6 +10472,9 @@ pg.ship_data_group = {
 		227,
 		228,
 		229,
+		338,
+		339,
+		340,
 		232,
 		233,
 		264,
@@ -10296,6 +10493,7 @@ pg.ship_data_group = {
 		249,
 		251,
 		252,
+		341,
 		253,
 		254,
 		255,

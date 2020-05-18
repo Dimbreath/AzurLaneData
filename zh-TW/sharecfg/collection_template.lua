@@ -100,7 +100,8 @@ pg.collection_template = {
 		ship_lv = 1,
 		ship_type = {
 			1,
-			2
+			2,
+			8
 		},
 		drop_display = {
 			{
@@ -141,7 +142,8 @@ pg.collection_template = {
 		ship_lv = 1,
 		ship_type = {
 			1,
-			4
+			4,
+			8
 		},
 		drop_display = {
 			{
@@ -173,7 +175,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			7
+			7,
+			8
 		},
 		drop_display = {
 			{
@@ -205,7 +208,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			5
+			5,
+			8
 		},
 		drop_display = {
 			{
@@ -237,7 +241,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			6
+			6,
+			8
 		},
 		drop_display = {
 			{
@@ -269,7 +274,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			3
+			3,
+			8
 		},
 		drop_display = {
 			{
@@ -307,7 +313,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			5
+			5,
+			8
 		},
 		drop_display = {
 			{
@@ -345,7 +352,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			6
+			6,
+			8
 		},
 		drop_display = {
 			{
@@ -466,7 +474,8 @@ pg.collection_template = {
 		ship_lv = 10,
 		ship_type = {
 			1,
-			3
+			3,
+			8
 		},
 		drop_display = {
 			{
@@ -508,7 +517,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			7
+			7,
+			8
 		},
 		drop_display = {
 			{
@@ -540,7 +550,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			5
+			5,
+			8
 		},
 		drop_display = {
 			{
@@ -604,7 +615,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			4,
-			5
+			5,
+			8
 		},
 		drop_display = {
 			{
@@ -636,7 +648,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			3
+			3,
+			8
 		},
 		drop_display = {
 			{
@@ -834,7 +847,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			5
+			5,
+			8
 		},
 		drop_display = {
 			{
@@ -908,7 +922,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			5
+			5,
+			8
 		},
 		drop_display = {
 			{
@@ -940,7 +955,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			6
+			6,
+			8
 		},
 		drop_display = {
 			{
@@ -1004,7 +1020,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			6
+			6,
+			8
 		},
 		drop_display = {
 			{
@@ -1118,7 +1135,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			5
+			5,
+			8
 		},
 		drop_display = {
 			{
@@ -1160,7 +1178,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			7
+			7,
+			8
 		},
 		drop_display = {
 			{
@@ -1202,7 +1221,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			5
+			5,
+			8
 		},
 		drop_display = {
 			{
@@ -1234,7 +1254,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			6,
-			7
+			7,
+			8
 		},
 		drop_display = {
 			{
@@ -1265,7 +1286,8 @@ pg.collection_template = {
 		ship_lv = 5,
 		ship_type = {
 			1,
-			2
+			2,
+			8
 		},
 		drop_display = {
 			{
@@ -1306,7 +1328,8 @@ pg.collection_template = {
 		ship_lv = 5,
 		ship_type = {
 			1,
-			6
+			6,
+			8
 		},
 		drop_display = {
 			{
@@ -1348,7 +1371,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			4
+			4,
+			8
 		},
 		drop_display = {
 			{
@@ -1390,7 +1414,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			6
+			6,
+			8
 		},
 		drop_display = {
 			{
@@ -1432,7 +1457,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			4
+			4,
+			8
 		},
 		drop_display = {
 			{
@@ -1464,7 +1490,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			7
+			7,
+			8
 		},
 		drop_display = {
 			{
@@ -1620,7 +1647,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			5
+			5,
+			8
 		},
 		drop_display = {
 			{
@@ -1662,7 +1690,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			7
+			7,
+			8
 		},
 		drop_display = {
 			{
@@ -1704,7 +1733,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			5
+			5,
+			8
 		},
 		drop_display = {
 			{
@@ -1736,7 +1766,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			6,
-			7
+			7,
+			8
 		},
 		drop_display = {
 			{
@@ -1766,7 +1797,8 @@ pg.collection_template = {
 		lv = 25,
 		ship_lv = 25,
 		ship_type = {
-			1
+			1,
+			8
 		},
 		drop_display = {
 			{
@@ -1849,7 +1881,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			4
+			4,
+			8
 		},
 		drop_display = {
 			{
@@ -1891,7 +1924,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			6
+			6,
+			8
 		},
 		drop_display = {
 			{
@@ -1933,7 +1967,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			4
+			4,
+			8
 		},
 		drop_display = {
 			{
@@ -1965,7 +2000,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			7
+			7,
+			8
 		},
 		drop_display = {
 			{
@@ -2205,7 +2241,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			5
+			5,
+			8
 		},
 		drop_display = {
 			{
@@ -2237,7 +2274,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			6,
-			7
+			7,
+			8
 		},
 		drop_display = {
 			{
@@ -2437,7 +2475,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			4
+			4,
+			8
 		},
 		drop_display = {
 			{
@@ -2469,7 +2508,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			7
+			7,
+			8
 		},
 		drop_display = {
 			{
@@ -5884,7 +5924,8 @@ pg.collection_template = {
 		ship_lv = 1,
 		ship_type = {
 			1,
-			2
+			2,
+			8
 		},
 		drop_display = {
 			{
@@ -5926,7 +5967,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			5
+			5,
+			8
 		},
 		drop_display = {
 			{
@@ -5958,7 +6000,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			6
+			6,
+			8
 		},
 		drop_display = {
 			{
@@ -5990,7 +6033,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			6
+			6,
+			8
 		},
 		drop_display = {
 			{
@@ -6027,7 +6071,8 @@ pg.collection_template = {
 		ship_lv = 1,
 		ship_type = {
 			1,
-			2
+			2,
+			8
 		},
 		drop_display = {
 			{
@@ -6069,7 +6114,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			2,
-			6
+			6,
+			8
 		},
 		drop_display = {
 			{
@@ -6106,7 +6152,8 @@ pg.collection_template = {
 		ship_lv = 10,
 		ship_type = {
 			1,
-			3
+			3,
+			8
 		},
 		drop_display = {
 			{
@@ -6180,7 +6227,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			4,
-			5
+			5,
+			8
 		},
 		drop_display = {
 			{
@@ -6249,7 +6297,8 @@ pg.collection_template = {
 		ship_lv = 10,
 		ship_type = {
 			1,
-			3
+			3,
+			8
 		},
 		drop_display = {
 			{
@@ -6329,7 +6378,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			5
+			5,
+			8
 		},
 		drop_display = {
 			{
@@ -6371,7 +6421,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			6
+			6,
+			8
 		},
 		drop_display = {
 			{
@@ -6473,7 +6524,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			3,
-			5
+			5,
+			8
 		},
 		drop_display = {
 			{

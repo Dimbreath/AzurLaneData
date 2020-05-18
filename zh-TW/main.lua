@@ -78,7 +78,7 @@ function OnApplicationExit()
 
 	if pg.StoryMgr.GetInstance() and slot4.storyId then
 		if slot3 and slot3.activeSelf then
-			playSoundEffect(SFX_CANCEL)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 			triggerButton(slot2._closeBtn)
 		end
 
@@ -98,7 +98,7 @@ function OnApplicationExit()
 	end
 
 	if pg.ShareMgr.GetInstance() and slot8.panel and slot9.gameObject.activeSelf then
-		playSoundEffect(SFX_CANCEL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		triggerButton(slot9:Find("main/top/btnBack"))
 
 		return
@@ -126,7 +126,7 @@ function OnApplicationExit()
 	end
 
 	if slot3 and slot3.activeSelf then
-		playSoundEffect(SFX_CANCEL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		triggerButton(slot2._closeBtn)
 
 		return
@@ -237,4 +237,8 @@ seriesAsync({
 			DebugMgr.Inst:Switch2QATool()
 		end)
 	end
+
+	pg.UIMgr.GetInstance():AddDebugButton("Physics2D", function ()
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.PHYSICS2D_TEST)
+	end)
 end)

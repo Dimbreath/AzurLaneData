@@ -4,7 +4,7 @@ function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.shipIds
 
-	if getProxy(EventProxy):findInfoById(slot2.id).overTime > 0 and slot6.overTime < pg.TimeMgr.GetInstance():GetServerTime() then
+	if getProxy(EventProxy):findInfoById(slot2.id):GetCountDownTime() and slot7 < 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("event_over_time_expired"))
 
 		return

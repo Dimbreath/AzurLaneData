@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:30}的烦恼\n\n<size=45>四 秘书舰{namecode:30}，着任！</size>",
+					"{namecode:30}的煩惱\n\n<size=45>四 秘書艦{namecode:30}，就任！</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#a9f548",
-			say = "请，请让我担任秘书舰吧！！",
+			say = "請，請讓我擔任秘書艦吧！ ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "！？这，这是发生什么了…",
+			say = "！ ？這，這是發生什麼了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我，我知道我，那个，比较胆小……但，但是，秘书舰的工作，我，我一定会努力去做的！",
+			say = "我，我知道我，那個，比較膽小……但，但是，秘書艦的工作，我，我一定會努力去做的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#a9f548",
-			say = "我也想为港区的大，大家，出一份力！",
+			say = "我也想為港區的大，大家，出一份力！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…指挥官一脸疑惑呢，还好我跟着来了～其实事情是这样的…",
+			say = "啊哈哈…指揮官一臉疑惑呢，還好我跟著來了～其實事情是這樣的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "从{namecode:141}那里听说了之前发生的种种——",
+			say = "從若葉那裡聽說了之前發生的種種——",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "原、原来如此……",
+			say = "原、原來如此……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			},
 			options = {
 				{
-					content = "答应{namecode:30}的请求",
+					content = "答應{namecode:30}的請求",
 					flag = 1
 				}
 			}
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，这，这是同意了吗？",
+			say = "欸，這，這是同意了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 301230,
 			nameColor = "#a9f548",
-			say = "太好了～姐姐加油哦～我就不打扰你们的工作啦～拜拜～",
+			say = "太好了～姐姐加油哦～我就不打擾你們的工作啦～拜拜～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#a9f548",
-			say = "诶？啊，好、好的！我会加油的！",
+			say = "欸？啊，好、好的！我會加油的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽说有这份热情是挺好的，不过——",
+			say = "雖說有這份熱情是挺好的，不過——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 103110,
 			nameColor = "#a9f548",
-			say = "喂，重樱的小姑娘，能给我看一下明天演习海域的安排情况吗？",
+			say = "喂，重櫻的小姑娘，能給我看一下明天演習海域的安排情況嗎？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#a9f548",
-			say = "咿！！对，对不起！我，我……",
+			say = "咿！ ！對，對不起！我，我……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，为什么突然要道歉啊？这不就像是我在欺负人一样…",
+			say = "等等，為什麼突然要道歉啊？這不就像是我在欺負人一樣…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			actor = 203070,
 			nameColor = "#a9f548",
-			say = "关于明天下午的试炼<Tribulation>，结界<Zone>已经准备好了吗？",
+			say = "關於明天下午的試煉<Tribulation>，結界<Zone>已經準備好了嗎？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，没能明白我的用意，你并不是力量<Force>的持有者吗……",
+			say = "唔，沒能明白我的用意，你並不是力量<Force>的持有者嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#a9f548",
-			say = "呜、呜呜…对、对不起…",
+			say = "嗚、嗚嗚…對、對不起…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "看来果然没有那么顺利呢",
+			say = "看來果然沒有那麼順利呢",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#a9f548",
-			say = "对不起，给指挥官添了很多麻烦…我，我果然还是不太擅长和别人交流……",
+			say = "對不起，給指揮官添了很多麻煩…我，我果然還是不太擅長和別人交流……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…指挥官…谢谢你",
+			say = "嗚…指揮官…謝謝你",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊？对话的练习？指挥官和我吗？",
+			say = "啊？對話的練習？指揮官和我嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的可以吗？那，那就麻烦指挥官了！",
+			say = "真的可以嗎？那，那就麻煩指揮官了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然{namecode:30}自己似乎没意识到，不过…她似乎已经能正常地和这边对话了",
+			say = "雖然初春自己似乎沒意識到，不過…她似乎已經能正常地和這邊對話了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "先从哪个话题开始练习呢——",
+			say = "先從哪個話題開始練習呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

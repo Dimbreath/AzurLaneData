@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "第三十六张照片上是——晚上在厨房做着什么的萨拉托加。",
+			say = "第三十六張照片上是——晚上在廚房做著什麼的薩拉托加。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			bgm = "story-1",
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "格里德利，帮我拿一下那个——",
+			say = "格里德利，幫我拿一下那個——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "抱歉小加加，那个我也够不着……麻烦你用舰载机了！",
+			say = "抱歉小加加，那個我也夠不著……麻煩你用艦載機了！",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……好吧，舰载机，呃，帮我拿一下，荷兰芹，胡椒还有香草的瓶子！格里德利把这根萝卜磨一下！",
+			say = "唔……好吧，艦載機，呃，幫我拿一下，荷蘭芹，胡椒還有香草的瓶子！格里德利把這根蘿蔔磨一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好的！这点小事当做照片钱太划算了！……不过这是怎么了，突然说什么“我也要做便当”？",
+			say = "好的！這點小事當做照片錢太划算了！……不過這是怎麼了，突然說什麼“我也要做便當”？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，是指挥官明天要去学园视察，我跟重樱的孩子打听了一下，说在学园是要吃便当的，所以就——",
+			say = "嗯，是指揮官明天要去學園視察，我跟重櫻的孩子打聽了一下，說在學園是要吃便當的，所以就——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "停——！别说了！",
+			say = "停——！別說了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "哇！怎么啦？",
+			say = "哇！怎麼啦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些话别对我说，留着说给指挥官吧。",
+			say = "這些話別對我說，留著說給指揮官吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我会支持你的！……对了，佐料放什么？……等等，那瓶是！？",
+			say = "我會支持你的！……對了，佐料放什麼？……等等，那瓶是！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，重樱的孩子们说，便当是要符合每个人个性的！",
+			say = "嘿嘿，重櫻的孩子們說，便當是要符合每個人個性的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是萨拉妹妹亲手做的特制便当，佐料当然也只能用这个啦~",
+			say = "這是薩拉妹妹親手做的特製便當，佐料當然也只能用這個啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 101050,
 			nameColor = "#a9f548",
-			say = "指挥官快跑——！",
+			say = "指揮官快跑——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "剩下的，就是最后一张了……",
+			say = "剩下的，就是最後一張了……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，你在看什么呢？",
+			say = "指揮官，你在看什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "抬起头就看到，萨拉托加凑过来的脸，很近。",
+			say = "抬起頭就看到，薩拉托加湊過來的臉，很近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

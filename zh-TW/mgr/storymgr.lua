@@ -295,7 +295,7 @@ function slot0.isRecall(slot0)
 end
 
 function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
-	pg.CriMgr.GetInstance():StopCV()
+	pg.CriMgr.GetInstance():StopCV_V3()
 
 	if not slot0.keepSeletedOptions then
 		slot0.selectedOptions = {}
@@ -587,10 +587,10 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 							uv0.bgm = uv1.bgm
 							uv0.stopBGM = nil
 
-							playSoundEffect(uv1.soundeffect)
+							pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv1.soundeffect)
 						end))
 					else
-						playSoundEffect(slot4.soundeffect)
+						pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot4.soundeffect)
 					end
 				end
 
@@ -635,8 +635,7 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 			pg.CriMgr.GetInstance():resumeNormalBGM()
 		end
 
-		pg.CriMgr.GetInstance():StopSEUI()
-		pg.CriMgr.GetInstance():StopSEBattle()
+		pg.CriMgr.GetInstance():StopSE_V3()
 
 		if not uv2 and uv0.fadeOut then
 			if uv0.noWaitFade and uv5 then
@@ -922,14 +921,6 @@ function slot0.initDialog(slot0, slot1)
 					setImageSprite(slot1, GetSpriteFromAtlas("paintingface/" .. uv0, uv1.expression))
 				end
 
-				if uv1.paingtingGray then
-					onNextTick(function ()
-						setGray(uv0, true)
-					end)
-				else
-					setGray(slot0, false)
-				end
-
 				if findTF(slot0, "shadow") then
 					setActive(slot3, uv1.actorShadow)
 				end
@@ -946,6 +937,14 @@ function slot0.initDialog(slot0, slot1)
 					return
 				end
 
+				uv5:updatePainting(uv4, uv1.paintingNoise)
+
+				if uv1.paingtingGray then
+					setGray(slot0, true)
+				else
+					setGray(slot0, false)
+				end
+
 				if uv5.targetActorTF and uv3.CENTER ~= uv1.side and not uv1.hideOther then
 					setActive(uv5.targetActorTF, true)
 					uv5:setFade(uv5.targetActorTF, 1, uv6.alpha or uv7, uv6.time or uv8)
@@ -956,8 +955,6 @@ function slot0.initDialog(slot0, slot1)
 
 					uv5.targetActorTF = uv4
 				end
-
-				uv5:updatePainting(uv4, uv1.paintingNoise)
 			end(findTF(slot4, "fitter"):GetChild(0))
 
 			if slot1.shake then
@@ -1176,38 +1173,36 @@ function slot0.setFade(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 	slot6 = {}
 
-	function (slot0, slot1)
-		slot4 = findTF(slot0, "face"):GetComponent(typeof(Image))
+	function (slot0)
+		table.insert(uv0, slot0:GetComponent(typeof(Image)).material.shader.name == "UI/GrayScale" and {
+			name = "_GrayScale",
+			color = Color.New(0.21176470588235294, 0.7137254901960784, 0.07058823529411765)
+		} or slot1.material.shader.name == "UI/Line_Add_Blue" and {
+			name = "_GrayScale",
+			color = Color.New(1, 1, 1, 0.5882352941176471)
+		} or {
+			name = "_Color",
+			color = Color.white
+		})
 
-		if slot0:GetComponent(typeof(Image)) then
-			slot2.color = Color.New(0, 0, 0)
-			slot4.color = Color.New(0, 0, 0)
-		end
+		if slot1.material == slot1.defaultGraphicMaterial then
+			slot1.material = Material.Instantiate(slot1.defaultGraphicMaterial)
+			findTF(slot0, "face"):GetComponent(typeof(Image)).material = slot1.material
 
-		table.insert(uv0, slot2)
-		table.insert(uv0, slot4)
-		table.insert(uv1, slot0)
-		table.insert(uv1, slot3)
+			if findTF(slot0, "shadow") then
+				slot4:GetComponent(typeof(Image)):GetComponent(typeof(Image)).material = slot1.material
+			end
 
-		if findTF(slot0, "shadow") then
-			slot6 = slot5:GetComponent(typeof(Image))
-			slot6.color = Color.New(0, 0, 0)
-
-			table.insert(uv0, slot6)
-		end
-
-		if LeanTween.isTweening(go(slot0)) then
-			LeanTween.cancel(go(slot0))
-		end
-
-		if findTF(slot0, "hx") then
-			for slot10 = 0, slot6.childCount - 1 do
-				if slot6:GetChild(slot10) and slot11:GetComponent(typeof(Image)) then
-					table.insert(uv0, slot12)
-					table.insert(uv1, slot11)
+			if findTF(slot0, "hx") then
+				for slot9 = 0, slot5.childCount - 1 do
+					if slot5:GetChild(slot9) and slot10:GetComponent(typeof(Image)) then
+						slot11:GetComponent(typeof(Image)).material = slot1.material
+					end
 				end
 			end
 		end
+
+		table.insert(uv1, slot1.material)
 	end(findTF(slot1, "fitter"):GetChild(0))
 
 	if findTF(slot1, "actor_sub") and slot9.childCount > 0 then
@@ -1218,10 +1213,10 @@ function slot0.setFade(slot0, slot1, slot2, slot3, slot4)
 
 	slot0.interactive = false
 
-	LeanTween.value(go(slot1), slot2, slot3, slot4):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
+	LeanTween.value(go(slot1), slot2, slot3, slot4):setOnUpdate(System.Action_float(function (slot0)
 		for slot4, slot5 in ipairs(uv0) do
 			if not IsNil(slot5) then
-				slot5.color = Color.New(slot0, slot0, slot0)
+				slot5:SetColor(uv1[slot4].name, uv1[slot4].color * Color.New(slot0, slot0, slot0))
 			end
 		end
 	end)):setOnComplete(System.Action(function ()
@@ -1540,7 +1535,6 @@ function slot0.setEffects(slot0, slot1)
 end
 
 function slot0.EndStory(slot0, slot1)
-	pg.CriMgr.GetInstance():ResumeCV()
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:removeOptBtns()
 
@@ -1601,7 +1595,7 @@ function slot0.setSubActors(slot0, slot1, slot2)
 		return
 	end
 
-	for slot8, slot9 in pairs(slot2) do
+	for slot8, slot9 in ipairs(slot2) do
 		slot10, slot11 = slot0:getNameAndPainting({
 			actor = slot9.actor
 		})
@@ -1704,7 +1698,7 @@ function slot0.updatePainting(slot0, slot1, slot2)
 			slot7 = GetComponent(slot6, "Image")
 
 			if slot2 then
-				slot7.material = slot0.material2
+				slot7.material = slot0.material1
 
 				slot7.material:SetFloat("_LineDensity", 7)
 				slot3(slot7)

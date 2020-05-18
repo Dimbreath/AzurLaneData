@@ -47,7 +47,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -101,7 +102,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -155,7 +157,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -209,7 +212,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -263,7 +267,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -603,7 +608,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -819,7 +825,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -845,7 +852,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -1027,7 +1035,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -1053,7 +1062,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -1079,7 +1089,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -1647,7 +1658,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -1673,7 +1685,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -1699,7 +1712,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -2127,7 +2141,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -2153,7 +2168,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,
@@ -2179,7 +2195,8 @@ pg.equip_skin_template = {
 		derivate_torpedo = "",
 		ship_skin_id = 0,
 		equip_type = {
-			5
+			5,
+			13
 		},
 		weapon_ids = {
 			107,

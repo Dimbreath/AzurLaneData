@@ -521,7 +521,6 @@ pg.gameset = {
 			40118,
 			20121,
 			10117,
-			40123,
 			30105
 		}
 	},
@@ -810,5 +809,15 @@ pg.gameset = {
 		description = "奖励超过20只就不一个一个展示获得界面，直接显示全部获得",
 		key = "award_ship_limit",
 		key_value = 20
+	},
+	night_collection_begin = {
+		description = "",
+		key = "night_collection_begin",
+		key_value = 21
+	},
+	night_collection_end = {
+		description = "",
+		key = "night_collection_end",
+		key_value = 3
 	}
 }

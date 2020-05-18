@@ -35370,6 +35370,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[28031] = {
+		desc_get = "",
+		name = "全弹发射I",
+		desc = "主炮每进行15次攻击，触发全弹发射-沃克兰级I",
+		type = 1,
+		max_level = 1,
+		id = 28031,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[28032] = {
+		desc_get = "",
+		name = "全弹发射II",
+		desc = "主炮每进行10次攻击，触发全弹发射-沃克兰级II",
+		type = 1,
+		max_level = 1,
+		id = 28032,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[28111] = {
 		desc_get = "",
 		name = "全彈發射I",
@@ -35944,8 +35966,8 @@ pg.skill_data_template = {
 	},
 	[29261] = {
 		desc_get = "",
-		name = "專屬彈幕-I19I",
-		desc = "進入戰鬥時，觸發專屬彈幕-I19I",
+		name = "專屬彈幕-伊19I",
+		desc = "進入戰鬥時，觸發專屬彈幕-伊19I",
 		type = 1,
 		max_level = 1,
 		id = 29261,
@@ -35955,8 +35977,8 @@ pg.skill_data_template = {
 	},
 	[29262] = {
 		desc_get = "",
-		name = "專屬彈幕-I19II",
-		desc = "進入戰鬥時，觸發專屬彈幕-I19II",
+		name = "專屬彈幕-伊19II",
+		desc = "進入戰鬥時，觸發專屬彈幕-伊19II",
 		type = 1,
 		max_level = 1,
 		id = 29262,
@@ -40041,6 +40063,8 @@ pg.skill_data_template = {
 		28012,
 		28021,
 		28022,
+		28031,
+		28032,
 		28111,
 		28112,
 		29011,

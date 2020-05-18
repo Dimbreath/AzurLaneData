@@ -93,7 +93,7 @@ function slot0.DoCurtain(slot0, slot1)
 				uv0 = uv0 - 1
 
 				if uv0 == 3 then
-					playSoundEffect(SFX_STEP_PILE_COUNTDOWN)
+					pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_STEP_PILE_COUNTDOWN)
 				end
 
 				uv1.countDown.text = uv0
@@ -130,7 +130,7 @@ function slot0.UpdateScore(slot0, slot1, slot2)
 	if slot2 then
 		slot0.itemIndexTF.localPosition = Vector3(slot2.position.x / PileGameConst.RATIO, 0, 0)
 
-		playSoundEffect(SFX_STEP_PILE_SUCCESS)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_STEP_PILE_SUCCESS)
 	end
 end
 

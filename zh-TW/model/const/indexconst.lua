@@ -101,6 +101,7 @@ slot0.SortNames = {
 	i18n("word_attr_torpedo"),
 	i18n("word_attr_air"),
 	i18n("word_attr_antiaircraft"),
+	i18n("word_attr_antisub"),
 	i18n("word_votes")
 }
 slot0.IndexAll = 1
@@ -112,6 +113,7 @@ slot0.IndexZhongXun = 6
 slot0.IndexZhanLie = 7
 slot0.IndexHangMu = 8
 slot0.IndexWeiXiu = 9
+slot0.IndexQianTing = 10
 slot0.IndexOther = 11
 slot0.IndexTypes = {
 	slot0.IndexAll,
@@ -123,6 +125,7 @@ slot0.IndexTypes = {
 	slot0.IndexZhanLie,
 	slot0.IndexHangMu,
 	slot0.IndexWeiXiu,
+	slot0.IndexQianTing,
 	slot0.IndexOther
 }
 slot0.IndexNames = {
@@ -135,6 +138,7 @@ slot0.IndexNames = {
 	"index_shipType_zhanLie",
 	"index_shipType_hangMu",
 	"index_shipType_weiXiu",
+	"index_shipType_qianTing",
 	"index_other"
 }
 slot0.CampAll = 1

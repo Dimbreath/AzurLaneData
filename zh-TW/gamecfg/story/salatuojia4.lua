@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "第十二张照片，是萨拉托加从身后抱住姐姐列星頓的一幕——",
+			say = "第十二張照片，是薩拉托加從身後抱住姐姐列星頓的一幕——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			bgm = "story-1",
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "今天萨拉妹妹的恶作剧也是大成功~诶嘿♪",
+			say = "今天薩拉妹妹的惡作劇也是大成功~欸嘿♪",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -76,7 +76,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……下一个轮到谁了呢？小千岁生气了有点可怕，还是指挥官——",
+			say = "嗯……下一個輪到誰了呢？小千歲生氣了有點可怕，還是指揮官——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			say = "萨拉？",
+			say = "薩拉？",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -137,7 +137,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉，姐姐听说了哦？你又对别的孩子恶作剧了吧……",
+			say = "薩拉，姐姐聽說了哦？你又對別的孩子惡作劇了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "对，对不起……",
+			say = "對，對不起……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉老是这样，不光是别的孩子，指挥官也会困扰啊？指挥官要去安抚别的孩子，",
+			say = "薩拉老是這樣，不光是別的孩子，指揮官也會困擾啊？指揮官要去安撫別的孩子，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就会影响到日常业务，不光是被你恶作剧的孩子，大家都会难过的。而且下次出击的时候如果受了影响，别的孩子和指挥官都会有危险，",
+			say = "就會影響到日常業務，不光是被你惡作劇的孩子，大家都會難過的。而且下次出擊的時候如果受了影響，別的孩子和指揮官都會有危險，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉你和他们一起出击的话也很危险啊。姐姐是不想看到萨拉受伤，这么说你是为了让你明白恶作剧以后不好好道歉会有什么后果。",
+			say = "薩拉你和他們一起出擊的話也很危險啊。姐姐是不想看到薩拉受傷，這麼說你是為了讓你明白惡作劇以後不好好道歉會有什麼後果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉也不是小孩子了，让你别再恶作剧你不听，那至少做到能马上对人家道歉好不好？",
+			say = "薩拉也不是小孩子了，讓你別再惡作劇你不聽，那至少做到能馬上對人家道歉好不好？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐一听说萨拉又对别的孩子恶作剧了就特别特别伤心啊……",
+			say = "姐姐一聽說薩拉又對別的孩子惡作劇了就特別特別傷心啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "姐姐……对不起……",
+			say = "姐姐……對不起……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉啊……等下要好好给人家道歉哦……",
+			say = "薩拉啊……等下要好好給人家道歉哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "到了第二天，她依然是那个爱恶作剧的萨拉托加。",
+			say = "到了第二天，她依然是那個愛惡作劇的薩拉托加。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……但事后她会好好道歉，也没造成什么实际损害，让人反而会觉得是不是列星頓太多虑了呢。",
+			say = "……但事後她會好好道歉，也沒造成什麼實際損害，讓人反而會覺得是不是列星頓太多慮了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

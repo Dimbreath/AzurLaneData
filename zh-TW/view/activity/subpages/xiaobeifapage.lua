@@ -106,7 +106,11 @@ function slot0.flush_task_list_pt(slot0)
 		setActive(slot0.btn:Find("achieved"), slot5:isReceive())
 		onButton(slot0, slot0.btn, function ()
 			if not uv0:isFinish() then
-				uv1:emit(ActivityMediator.ON_TASK_GO, uv0)
+				if pg.TimeMgr:GetInstance():inTime(ActivityConst.XIAOBEIFA_PT_SKIP) then
+					uv1:emit(ActivityMediator.ON_TASK_GO, uv0)
+				else
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+				end
 			else
 				uv1:emit(ActivityMediator.ON_TASK_SUBMIT, uv0)
 			end

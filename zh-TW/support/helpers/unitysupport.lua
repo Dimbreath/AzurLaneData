@@ -154,12 +154,18 @@ function onButton(slot0, slot1, slot2, slot3, slot4)
 
 		uv0 = Time.frameCount
 
-		if uv1 and uv2 then
-			playSoundEffect(uv1)
-		end
-
-		uv3()
+		uv1()
 	end)
+
+	if slot3 and uv1 then
+		slot8 = GetOrAddComponent(slot1, "ButtonEventExtend").onPointerDown
+
+		pg.DelegateInfo.Add(slot0, slot8)
+		slot8:RemoveAllListeners()
+		slot8:AddListener(function ()
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0)
+		end)
+	end
 end
 
 function removeOnButton(slot0)
@@ -197,9 +203,9 @@ function onToggle(slot0, slot1, slot2, slot3, slot4)
 			if slot0 and uv1 and uv2.isOn == slot0 then
 				uv1 = SFX_UI_TAG
 
-				playSoundEffect(uv1)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv1)
 			elseif not slot0 and uv3 then
-				playSoundEffect(uv3)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv3)
 			end
 		end
 
@@ -310,6 +316,10 @@ end
 
 function RemoveComponent(slot0, slot1)
 	if slot0:GetComponent(slot1) then
+		if slot1 == "Button" then
+			RemoveComponent(slot0, "ButtonEventExtend")
+		end
+
 		Object.Destroy(slot2)
 	end
 end
@@ -574,7 +584,7 @@ function pressPersistTrigger(slot0, slot1, slot2, slot3, slot4, slot5, slot6, sl
 		end
 
 		if uv7 and uv8 then
-			playSoundEffect(uv7)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv7)
 		end
 	end)
 	slot8:AddPointUpFunc(function ()
@@ -620,9 +630,10 @@ function cloneTplTo(slot0, slot1, slot2)
 end
 
 function setGray(slot0, slot1, slot2)
-	slot3 = GetOrAddComponent(slot0, "UIGrayScale")
-	slot3.recursive = slot2 ~= nil and slot2 or true
-	slot3.enabled = slot1
+	if slot1 and GetOrAddComponent(slot0, "UIGrayScale") or GetComponent(slot0, "UIGrayScale") then
+		slot3.recursive = slot2 ~= nil and slot2 or true
+		slot3.enabled = slot1
+	end
 end
 
 function long2int(slot0)

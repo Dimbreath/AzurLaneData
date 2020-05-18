@@ -792,6 +792,204 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	{
+		display = "基礎聲納T2設計圖",
+		rarity = 2,
+		type = 9,
+		drop_oil_max = 0,
+		name = "基礎聲納T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 45,
+		icon = "Equips/2900",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "改良聲納T1設計圖",
+		rarity = 2,
+		type = 9,
+		drop_oil_max = 0,
+		name = "改良聲納T1設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 46,
+		icon = "Equips/3000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "基礎深彈投射器T3設計圖",
+		rarity = 2,
+		type = 9,
+		drop_oil_max = 0,
+		name = "基礎深彈投射器T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 47,
+		icon = "Equips/4000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "改良深彈投射器T2設計圖",
+		rarity = 2,
+		type = 9,
+		drop_oil_max = 0,
+		name = "改良深彈投射器T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 48,
+		icon = "Equips/4100",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "潛艇用Mark14魚雷T2設計圖",
+		rarity = 2,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用Mark14魚雷T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 49,
+		icon = "Equips/15000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "潛艇用Mark16魚雷T1設計圖",
+		rarity = 2,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用Mark16魚雷T1設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 50,
+		icon = "Equips/15100",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "潛艇用92式潛射魚雷T2設計圖",
+		rarity = 2,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用92式潛射魚雷T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 51,
+		icon = "Equips/35400",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "潛艇用95式純氧魚雷T1設計圖",
+		rarity = 2,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用95式純氧魚雷T1設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 52,
+		icon = "Equips/35500",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "潛艇用G7a潛射魚雷T2設計圖",
+		rarity = 2,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用G7a潛射魚雷T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 53,
+		icon = "Equips/45300",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "潛艇用G7e聲導魚雷T1設計圖",
+		rarity = 2,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用G7e聲導魚雷T1設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 54,
+		icon = "Equips/45400",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "潛艇用550mm24V魚雷T2設計圖",
+		rarity = 2,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用550mm24V魚雷T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 55,
+		icon = "Equips/5500",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[1001] = {
 		display = "可樂配洋芋片即是正義！",
 		rarity = 4,
@@ -2430,6 +2628,186 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[10091] = {
+		display = "基礎聲納T3設計圖",
+		rarity = 3,
+		type = 9,
+		drop_oil_max = 0,
+		name = "基礎聲納T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 10091,
+		icon = "Equips/2900",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10092] = {
+		display = "改良聲納T2設計圖",
+		rarity = 3,
+		type = 9,
+		drop_oil_max = 0,
+		name = "改良聲納T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 10092,
+		icon = "Equips/3000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10093] = {
+		display = "改良深彈投射器T3設計圖",
+		rarity = 3,
+		type = 9,
+		drop_oil_max = 0,
+		name = "改良深彈投射器T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 10093,
+		icon = "Equips/4100",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10094] = {
+		display = "潛艇用Mark14魚雷T3設計圖",
+		rarity = 3,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用Mark14魚雷T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 10094,
+		icon = "Equips/15000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10095] = {
+		display = "潛艇用Mark16魚雷T2設計圖",
+		rarity = 3,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用Mark16魚雷T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 10095,
+		icon = "Equips/15100",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10096] = {
+		display = "潛艇用92式潛射魚雷T3設計圖",
+		rarity = 3,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用92式潛射魚雷T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 10096,
+		icon = "Equips/35400",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10097] = {
+		display = "潛艇用95式純氧魚雷T2設計圖",
+		rarity = 3,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用95式純氧魚雷T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 10097,
+		icon = "Equips/35500",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10098] = {
+		display = "潛艇用G7a潛射魚雷T3設計圖",
+		rarity = 3,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用G7a潛射魚雷T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 10098,
+		icon = "Equips/45300",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10099] = {
+		display = "潛艇用G7e聲導魚雷T2設計圖",
+		rarity = 3,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用G7e聲導魚雷T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 10099,
+		icon = "Equips/45400",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10100] = {
+		display = "潛艇用550mm24V魚雷T3設計圖",
+		rarity = 3,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用550mm24V魚雷T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 10100,
+		icon = "Equips/5500",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[11000] = {
 		display = "艦艇維修設備T3設計圖",
 		rarity = 4,
@@ -2947,6 +3325,78 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 11033,
 		icon = "Equips/38200",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[11034] = {
+		display = "改良聲納T3設計圖",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "改良聲納T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 11034,
+		icon = "Equips/3000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[11035] = {
+		display = "潛艇用Mark16魚雷T3設計圖",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用Mark16魚雷T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 11035,
+		icon = "Equips/15100",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[11036] = {
+		display = "潛艇用95式純氧魚雷T3設計圖",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用95式純氧魚雷T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 11036,
+		icon = "Equips/35500",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[11037] = {
+		display = "潛艇用G7e聲導魚雷T3設計圖",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "潛艇用G7e聲導魚雷T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 11037,
+		icon = "Equips/45400",
 		replace_item = 0,
 		display_icon = {},
 		price = {},
@@ -4099,6 +4549,27 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 20013,
 		icon = "Props/20013",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			1,
+			100
+		},
+		index = {}
+	},
+	[30001] = {
+		display = "包含一件稀有的深海潛航版本裝備：\n較低機率獲得<color=#60a9ff>稀有裝備</color>\n較高機率獲得普通裝備",
+		rarity = 2,
+		type = 5,
+		drop_oil_max = 0,
+		name = "深海潛航新手裝備補給箱 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 30001,
+		icon = "Props/30000",
 		replace_item = 0,
 		display_icon = {},
 		price = {
@@ -7180,6 +7651,60 @@ pg.item_data_statistics = {
 				2,
 				30304,
 				3
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40910] = {
+		display = "購買禮包可獲得隨機換裝*1，鑽石*2020，心智單元*50，心智魔方*20，定向藍圖・一期*2，快速建造*10，傢俱幣*100",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "福袋",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40910,
+		icon = "Props/lihe1",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				69910,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42000,
+				2
+			},
+			{
+				2,
+				15008,
+				50
 			},
 			{
 				2,
@@ -17866,6 +18391,410 @@ pg.item_data_statistics = {
 			{
 				2,
 				30,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[53990] = {
+		display = "有機率獲得以下設計圖",
+		rarity = 2,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 53990,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
+				1
+			},
+			{
+				2,
+				47,
+				1
+			},
+			{
+				2,
+				48,
+				1
+			},
+			{
+				2,
+				49,
+				1
+			},
+			{
+				2,
+				50,
+				1
+			},
+			{
+				2,
+				51,
+				1
+			},
+			{
+				2,
+				52,
+				1
+			},
+			{
+				2,
+				53,
+				1
+			},
+			{
+				2,
+				54,
+				1
+			},
+			{
+				2,
+				55,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[53991] = {
+		display = "有機率獲得以下設計圖",
+		rarity = 3,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 53991,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10091,
+				1
+			},
+			{
+				2,
+				10092,
+				1
+			},
+			{
+				2,
+				10093,
+				1
+			},
+			{
+				2,
+				10094,
+				1
+			},
+			{
+				2,
+				10095,
+				1
+			},
+			{
+				2,
+				10096,
+				1
+			},
+			{
+				2,
+				10097,
+				1
+			},
+			{
+				2,
+				10098,
+				1
+			},
+			{
+				2,
+				10099,
+				1
+			},
+			{
+				2,
+				10100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
+				1
+			},
+			{
+				2,
+				47,
+				1
+			},
+			{
+				2,
+				48,
+				1
+			},
+			{
+				2,
+				49,
+				1
+			},
+			{
+				2,
+				50,
+				1
+			},
+			{
+				2,
+				51,
+				1
+			},
+			{
+				2,
+				52,
+				1
+			},
+			{
+				2,
+				53,
+				1
+			},
+			{
+				2,
+				54,
+				1
+			},
+			{
+				2,
+				55,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[53992] = {
+		display = "有機率獲得以下設計圖",
+		rarity = 4,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 53992,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				11034,
+				1
+			},
+			{
+				2,
+				11035,
+				1
+			},
+			{
+				2,
+				11036,
+				1
+			},
+			{
+				2,
+				11037,
+				1
+			},
+			{
+				2,
+				10091,
+				1
+			},
+			{
+				2,
+				10092,
+				1
+			},
+			{
+				2,
+				10093,
+				1
+			},
+			{
+				2,
+				10094,
+				1
+			},
+			{
+				2,
+				10095,
+				1
+			},
+			{
+				2,
+				10096,
+				1
+			},
+			{
+				2,
+				10097,
+				1
+			},
+			{
+				2,
+				10098,
+				1
+			},
+			{
+				2,
+				10099,
+				1
+			},
+			{
+				2,
+				10100,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[53993] = {
+		display = "有機率獲得隨機裝備部件T1",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知裝備部件T1",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 53993,
+		icon = "Props/54011",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				17001,
+				1
+			},
+			{
+				2,
+				17021,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[53994] = {
+		display = "有機率獲得隨機裝備部件T1~T2",
+		rarity = 2,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知裝備部件T2",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 53994,
+		icon = "Props/54012",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				17002,
+				1
+			},
+			{
+				2,
+				17022,
+				1
+			},
+			{
+				2,
+				17001,
+				1
+			},
+			{
+				2,
+				17021,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[53995] = {
+		display = "有機率獲得隨機裝備部件T1~T3",
+		rarity = 3,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知裝備部件T3",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 53995,
+		icon = "Props/54013",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				17003,
+				1
+			},
+			{
+				2,
+				17023,
+				1
+			},
+			{
+				2,
+				17002,
+				1
+			},
+			{
+				2,
+				17022,
+				1
+			},
+			{
+				2,
+				17001,
+				1
+			},
+			{
+				2,
+				17021,
 				1
 			}
 		},
@@ -58650,6 +59579,38 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[69910] = {
+		display = [[
+從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的的鑽石) 
+包含的換裝和機率如下：
+（<color=#92fc63>9.0%</color>）吹雪換裝  Music Pixy（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.0%</color>）克里夫蘭換裝  騎士之夜（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.4%</color>）君主換裝  素羅華威；
+（<color=#92fc63>8.4%</color>）讓·巴爾換裝  不羈的BloodStone；
+（<color=#92fc63>8.4%</color>）明石換裝  黑貓來襲！；
+（<color=#92fc63>8.4%</color>）南達科他換裝  劇場上的獨奏；
+（<color=#92fc63>8.4%</color>）U-81換裝  靜謐小夜曲；
+（<color=#92fc63>8.0%</color>）光輝換裝  光輝的舞會；
+（<color=#92fc63>8.0%</color>）歐若拉換裝  黎明的贊歌； 
+（<color=#92fc63>8.0%</color>）伊莉莎白女王換裝  女王的舞踏會；
+（<color=#92fc63>8.0%</color>）阿賈克斯換裝  晚會女王；
+（<color=#92fc63>8.0%</color>）女將換裝  小小的管弦樂隊；]],
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "随机换装",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 69910,
+		icon = "Props/clothIcon",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[70050] = {
 		display = "幫山城收集的度假海灘的空氣。用於『開幕慶典』活動兌換，活動結束後將會消失。",
 		rarity = 2,
@@ -58752,6 +59713,17 @@ pg.item_data_statistics = {
 		42,
 		43,
 		44,
+		45,
+		46,
+		47,
+		48,
+		49,
+		50,
+		51,
+		52,
+		53,
+		54,
+		55,
 		1001,
 		1004,
 		1005,
@@ -58843,6 +59815,16 @@ pg.item_data_statistics = {
 		10088,
 		10089,
 		10090,
+		10091,
+		10092,
+		10093,
+		10094,
+		10095,
+		10096,
+		10097,
+		10098,
+		10099,
+		10100,
 		11000,
 		11001,
 		11002,
@@ -58872,6 +59854,10 @@ pg.item_data_statistics = {
 		11031,
 		11032,
 		11033,
+		11034,
+		11035,
+		11036,
+		11037,
 		12003,
 		13000,
 		13001,
@@ -58933,6 +59919,7 @@ pg.item_data_statistics = {
 		20011,
 		20012,
 		20013,
+		30001,
 		30011,
 		30012,
 		30013,
@@ -59002,6 +59989,7 @@ pg.item_data_statistics = {
 		40118,
 		40908,
 		40909,
+		40910,
 		41201,
 		41202,
 		41203,
@@ -59361,6 +60349,12 @@ pg.item_data_statistics = {
 		53097,
 		53098,
 		53099,
+		53990,
+		53991,
+		53992,
+		53993,
+		53994,
+		53995,
 		54001,
 		54002,
 		54003,
@@ -60040,6 +61034,7 @@ pg.item_data_statistics = {
 		60038,
 		69908,
 		69909,
+		69910,
 		70050,
 		70051
 	}

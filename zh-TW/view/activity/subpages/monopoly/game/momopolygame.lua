@@ -403,7 +403,7 @@ function slot14(slot0, slot1)
 				slot1
 			}, function ()
 				uv0()
-				playSoundEffect(SFX_STEP_MONOPOLY)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_STEP_MONOPOLY)
 			end, slot0.jumpSpeed)
 		end,
 		UpdatePos = function (slot0, slot1)

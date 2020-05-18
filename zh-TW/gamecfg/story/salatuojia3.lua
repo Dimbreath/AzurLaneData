@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "第四张照片上是休息日里还在进行着偶像工作（？）的萨拉托加——",
+			say = "第四張照片上是休息日裡還在進行著偶像工作（？）的薩拉托加——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			bgm = "story-1",
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "嗯嗯！今天的宣传照也拍得不错！",
+			say = "嗯嗯！今天的宣傳照也拍得不錯！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然作战经验丰富的船就是容易被找上门作宣传啊~好，决定了！有机会演个电影吧！",
+			say = "果然作戰經驗豐富的船就是容易被找上門作宣傳啊~好，決定了！有機會演個電影吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			say = "萨拉托加，咱……咳，我们真的能演吗……",
+			say = "薩拉托加，咱……咳，我們真的能演嗎……",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事！小彗星你们还没适应，有什么情况我会支援你们的！",
+			say = "沒事！小彗星你們還沒適應，有什麼情況我會支援你們的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "萨拉托加说得没错！小天鹅你也是，抬头挺胸！",
+			say = "薩拉托加說得沒錯！小天鵝你也是，抬頭挺胸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯！咱也会加油的！……为庆功宴做准备！",
+			say = "嗯！咱也會加油的！……為慶功宴做準備！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂——！这边准备好啦！",
+			say = "喂——！這邊準備好啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "干杯——！",
+			say = "乾杯——！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			say = "干杯——！……咳咳！萨拉托加，莫非你……",
+			say = "乾杯——！……咳咳！薩拉托加，莫非你……",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "嘿嘿嘿嘿，我往里放了点姜♪恶作剧得手",
+			say = "嘿嘿嘿嘿，我往裡放了點薑♪惡作劇得手",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我这杯是放了黑醋吧……该不会这里每个人都被你动了手脚……",
+			say = "我這杯是放了黑醋吧……該不會這裡每個人都被你動了手腳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉抱歉！今天一整天都老老实实的，有点手痒……",
+			say = "抱歉抱歉！今天一整天都老老實實的，有點手癢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过我帮你们点了新的饮料，等我去拿来哦！",
+			say = "不過我幫你們點了新的飲料，等我去拿來哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，咱也去帮你！",
+			say = "啊，咱也去幫你！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢啦！啊，指挥官那杯放了汽……不对是墨鱼汁！等下记得要好好刷牙哦！",
+			say = "謝啦！啊，指揮官那杯放了汽……不對是墨魚汁！等下記得要好好刷牙哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			}
 		},
 		{
-			say = "……诶。",
+			say = "……欸。",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			say = "这么说来，隔天早上确实遇到麻烦了……",
+			say = "這麼說來，隔天早上確實遇到麻煩了……",
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",

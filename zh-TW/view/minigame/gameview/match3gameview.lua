@@ -114,7 +114,7 @@ function slot0.didEnter(slot0)
 
 				setActive(uv0.mainPage, false)
 				setActive(uv0.countdownPage, true)
-				playSoundEffect(uv1)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv1)
 			end, go(uv1.mainPage), 1, 0, uv3):setOnUpdate(System.Action_float(function (slot0)
 				uv0.mainPage:GetComponent("CanvasGroup").alpha = slot0
 			end))
@@ -346,7 +346,7 @@ function slot0.tryMoveTo(slot0, slot1)
 		return
 	end
 
-	playSoundEffect(uv0)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0)
 
 	if slot0:moveValid(slot0.selectedIndex, slot1) then
 		slot0:unselect()
@@ -782,7 +782,7 @@ function slot0.stopGame(slot0)
 	setActive(slot0.endPage, true)
 
 	if slot0.score > 0 then
-		playSoundEffect(uv2)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv2)
 	end
 
 	setActive(slot0.newSign, false)
@@ -794,7 +794,7 @@ function slot0.stopGame(slot0)
 
 		uv0.endBtn:GetComponent("Button").enabled = false
 
-		playSoundEffect(uv1)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv1)
 		uv0:managedTween(LeanTween.value, function ()
 			uv0.endBtn:GetComponent("Button").enabled = true
 
@@ -845,7 +845,7 @@ function slot0.update(slot0)
 		slot1 = false
 		slot0.combo = slot0.combo + 1
 
-		playSoundEffect(uv0)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0)
 
 		slot3 = nil
 
@@ -934,15 +934,15 @@ function slot0.update(slot0)
 				if uv0.combo == 2 then
 					slot2 = cloneTplTo(uv0.goodEffect, uv0.tilesRoot)
 
-					playSoundEffect(uv3)
+					pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv3)
 				elseif uv0.combo == 3 then
 					slot2 = cloneTplTo(uv0.greatEffect, uv0.tilesRoot)
 
-					playSoundEffect(uv3)
+					pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv3)
 				else
 					slot2 = cloneTplTo(uv0.perfectEffect, uv0.tilesRoot)
 
-					playSoundEffect(uv4)
+					pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv4)
 				end
 
 				slot2.localPosition = slot3

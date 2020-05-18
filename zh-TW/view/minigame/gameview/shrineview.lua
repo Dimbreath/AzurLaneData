@@ -196,7 +196,7 @@ end
 function slot0.playAnime(slot0, slot1, slot2)
 	setButtonEnabled(slot0.rope, false)
 
-	slot0.ringSE = pg.CriMgr.GetInstance():PlaySE("ui-shensheling")
+	slot0.ringSE = pg.CriMgr.GetInstance():PlaySE_V3("ui-shensheling")
 
 	if slot0.spineAnim then
 		slot0.spineAnim:SetAction("action", 0)

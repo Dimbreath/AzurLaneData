@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:30}的烦恼\n\n<size=45>二 同伴的建议</size>",
+					"{namecode:30}的煩惱\n\n<size=45>二 同伴的建議</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·重樱宿舍",
+			say = "港區·重櫻宿舍",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "呜…早知道会变成这个样子，就不要自告奋勇去做报告了…",
+			say = "嗚…早知道會變成這個樣子，就不要自告奮勇去做報告了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#92fc63",
-			say = "明明在回来的路上已经做过那么多次练习了，为什么在指挥官面前还是……",
+			say = "明明在回來的路上已經做過那麼多次練習了，為什麼在指揮官面前還是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "哟！",
+			say = "喲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#92fc63",
-			say = "呀！呜、呜呜…原来是{namecode:85}小姐吗",
+			say = "呀！嗚、嗚嗚…原來是飛鷹小姐嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			say = "啊，抱、抱歉，吓到你了吗？",
+			say = "啊，抱、抱歉，嚇到你了嗎？",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "不用担心，委托报告我已经帮你完成了。真是的，害怕的话，一开始就交给我不就好了嘛！",
+			say = "不用擔心，委託報告我已經幫你完成了。真是的，害怕的話，一開始就交給我不就好了嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "那个，谢、谢谢…不过我还是想……",
+			say = "那個，謝、謝謝…不過我還是想……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "…还在烦恼刚刚的事情吗？",
+			say = "…還在煩惱剛剛的事情嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嗯…我想变得自信一点，所以想试着努力一下",
+			say = "嗯…我想變得自信一點，所以想試著努力一下",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "…但是一站在指挥官面前，之前想好的话突然一下子就全部忘记了…",
+			say = "…但是一站在指揮官面前，之前想好的話突然一下子就全部忘記了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嗯…原来如此，我明白了！{namecode:30}还是太缺乏自信了啊！",
+			say = "嗯…原來如此，我明白了！初春還是太缺乏自信了啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#92fc63",
-			say = "（点头）",
+			say = "（點頭）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "自信的话——啊，有了！",
+			say = "自信的話——啊，有了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "这是…眼罩？",
+			say = "這是…眼罩？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "没错！靠这个把软弱和缺乏自信都隐藏起来！来，戴上吧。对了，还要有个佩刀……要不把我的借给你吧！",
+			say = "沒錯！靠這個把軟弱和缺乏自信都隱藏起來！來，戴上吧。對了，還要有個佩刀……要不把我的借給你吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#92fc63",
-			say = "呜…还、还是不用了——",
+			say = "嗚…還、還是不用了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "不行！在这里犹豫，停滞不前的话是没法变得自信的！",
+			say = "不行！在這裡猶豫，停滯不前的話是沒法變得自信的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			actor = 306010,
 			nameColor = "#92fc63",
-			say = "就是现在，出发吧，大海盗{namecode:30}！无论是指挥官还是别的什么的，就用你的力量通通去征服吧！",
+			say = "就是現在，出發吧，大海盜初春！無論是指揮官還是別的什麼的，就用你的力量通通去征服吧！",
 			effects = {
 				{
 					active = true,
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#92fc63",
-			say = "啊呜…我……",
+			say = "啊嗚…我……",
 			effects = {
 				{
 					active = false,
@@ -437,7 +437,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "{namecode:30}姐，一会有个巡逻任务一起去——",
+			say = "初春姐，一會有個巡邏任務一起去——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			actor = 301230,
 			nameColor = "#92fc63",
-			say = "哇，姐姐好帅！",
+			say = "哇，姐姐好帥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#92fc63",
-			say = "呜呜呜…我果然还是不行啦！！！",
+			say = "嗚嗚嗚…我果然還是不行啦！ ！ ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "如此这般，伟大的“征服”在出发前便夭折了",
+			say = "如此這般，偉大的“征服”在出發前便夭折了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

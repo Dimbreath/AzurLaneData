@@ -26,6 +26,7 @@ MSGBOX_TYPE_HELP = 7
 MSGBOX_TYPE_SECONDPWD = 8
 MSGBOX_TYPE_OBTAIN = 9
 MSGBOX_TYPE_ITEMTIP = 10
+MSGBOX_TYPE_JUST_FOR_SHOW = 11
 slot1.enable = false
 slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
@@ -93,7 +94,6 @@ function slot1.Init(slot0, slot1)
 		uv0._discountDate = uv0._sliders:Find("discountDate")
 		uv0._discount = uv0._sliders:Find("discountInfo/discount")
 		uv0._strike = uv0._sliders:Find("strike")
-		uv0._scrollTxts = {}
 		uv0.stopRemindToggle = uv0._window:Find("stopRemind"):GetComponent(typeof(Toggle))
 		uv0.stopRemindText = tf(uv0.stopRemindToggle.gameObject):Find("Label"):GetComponent(typeof(Text))
 		uv0._btnContainer = uv0._window:Find("button_container")
@@ -223,11 +223,7 @@ function slot6(slot0, slot1)
 
 			setActive(slot10, false)
 			setActive(slot11, true)
-
-			slot12 = ScrollTxt.New(slot11, findTF(slot9, "name_mask/name"))
-
-			slot12:setText(getText(slot10))
-			table.insert(slot0._scrollTxts, slot12)
+			setScrollText(slot11:Find("name"), getText(slot10))
 		end
 
 		if not slot8.anonymous then
@@ -252,7 +248,7 @@ function slot7(slot0, slot1)
 	SetActive(slot0._sigleItemPanel:Find("icon_bg/startpl"), false)
 	SetActive(slot0._sigleItemPanel:Find("intro_view/Viewport/Content/intro"), true)
 	setFrame(slot0._sigleItemPanel:Find("icon_bg/frame"), slot1.frame or 1)
-	ScrollTxt.New(findTF(slot0._sigleItemPanel, "name_mode/name_mask"), findTF(slot0._sigleItemPanel, "name_mode/name_mask/name")):setText(slot1.name or "")
+	setScrollText(findTF(slot0._sigleItemPanel, "name_mode/name_mask/name"), slot1.name or "")
 	setText(slot4, slot1.content or "")
 	SetActive(slot0._sigleItemPanel:Find("icon_bg/icon").parent, slot1.sprite)
 
@@ -287,22 +283,17 @@ function slot8(slot0, slot1)
 
 	SetActive(slot0._sigleItemPanel:Find("intro_view/Viewport/Content/intro"), slot1.drop.type == DROP_TYPE_SHIP or slot1.drop.type == DROP_TYPE_RESOURCE or slot1.drop.type == DROP_TYPE_ITEM or slot1.drop.type == DROP_TYPE_FURNITURE or slot1.drop.type == DROP_TYPE_STRATEGY or slot1.drop.type == DROP_TYPE_SKIN)
 	setActive(slot0._countDescTxt, slot0.settings.numUpdate ~= nil)
-
-	slot8 = slot1.name or slot1.drop.cfg.name or ""
-	slot8 = ScrollTxt.New(slot0._sigleItemPanel:Find("name_mode/name_mask"), slot0._sigleItemPanel:Find("name_mode/name_mask/name"))
-
-	slot8:setText(HXSet.hxLan(slot8))
-	table.insert(slot0._scrollTxts, slot8)
+	setScrollText(slot0._sigleItemPanel:Find("name_mode/name_mask/name"), HXSet.hxLan(slot1.name or slot1.drop.cfg.name or ""))
 	setParent(slot0._singleItemshipTypeTF, slot0._sigleItemPanel:Find("name_mode"))
 	slot0._singleItemshipTypeTF:SetSiblingIndex(1)
 	setActive(slot0._singleItemshipTypeBgTF, isActive(slot0._singleItemshipTypeTF))
 
-	slot10 = slot1.drop.type == DROP_TYPE_ITEM and slot1.drop.cfg.type == 11
+	slot7 = slot1.drop.type == DROP_TYPE_ITEM and slot1.drop.cfg.type == 11
 
-	setActive(slot0._sigleItemPanel:Find("detail"), slot10)
+	setActive(slot0._sigleItemPanel:Find("detail"), slot7)
 
-	if slot10 then
-		slot9:GetComponent("RichText"):AddListener(function (slot0, slot1)
+	if slot7 then
+		slot6:GetComponent("RichText"):AddListener(function (slot0, slot1)
 			slot2 = {
 				items = _.map(uv0.drop.cfg.display_icon, function (slot0)
 					return {
@@ -343,9 +334,13 @@ function slot8(slot0, slot1)
 	elseif slot1.drop.type == DROP_TYPE_FURNITURE then
 		setText(slot2, slot1.drop.cfg.describe)
 	elseif slot1.drop.type == DROP_TYPE_SHIP then
-		slot12, slot13, slot14 = ShipWordHelper.GetWordAndCV(uv2.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
+		slot9, slot10, slot11 = ShipWordHelper.GetWordAndCV(uv2.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
 
-		setText(slot2, slot14 or i18n("ship_drop_desc_default"))
+		setText(slot2, slot11 or i18n("ship_drop_desc_default"))
+	elseif slot1.drop.type == DROP_TYPE_NPC_SHIP then
+		slot9, slot10, slot11 = ShipWordHelper.GetWordAndCV(slot1.drop.cfg.skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
+
+		setText(slot2, slot11 or i18n("ship_drop_desc_default"))
 	elseif slot1.drop.type == DROP_TYPE_EQUIP then
 		-- Nothing
 	elseif slot1.drop.type == DROP_TYPE_STRATEGY then
@@ -379,16 +374,16 @@ function slot8(slot0, slot1)
 	end
 
 	if slot1.enabelYesBtn ~= nil then
-		slot11 = slot0._btnContainer:GetChild(1)
+		slot8 = slot0._btnContainer:GetChild(1)
 
-		setButtonEnabled(slot11, slot1.enabelYesBtn)
-		eachChild(slot11, function (slot0)
+		setButtonEnabled(slot8, slot1.enabelYesBtn)
+		eachChild(slot8, function (slot0)
 			GetOrAddComponent(slot0, typeof(CanvasGroup)).alpha = uv0.enabelYesBtn and 1 or 0.3
 		end)
 	end
 
-	for slot14, slot15 in ipairs(slot0.singleItemIntros) do
-		setActive(slot15, slot14 <= slot3 and slot4 == nil)
+	for slot11, slot12 in ipairs(slot0.singleItemIntros) do
+		setActive(slot12, slot11 <= slot3 and slot4 == nil)
 	end
 
 	if slot1.show_medal then
@@ -1007,13 +1002,6 @@ function slot1.Clear(slot0)
 		slot0._helpList:GetChild(slot5):Find("icon"):GetComponent(typeof(Image)).sprite = nil
 	end
 
-	for slot5 = #slot0._scrollTxts, 1, -1 do
-		if slot0._scrollTxts[slot5] then
-			slot0._scrollTxts[slot5]:destroy()
-			table.remove(slot0._scrollTxts, slot5)
-		end
-	end
-
 	for slot5, slot6 in pairs(slot0.pools) do
 		if slot6 then
 			PoolMgr.GetInstance():ReturnUI(slot6.name, slot6)
@@ -1081,6 +1069,8 @@ function slot1.ShowMsgBox(slot0, slot1)
 		uv9(slot0, slot1)
 	elseif slot2 == MSGBOX_TYPE_ITEMTIP then
 		slot0:GetPanel(ItemTipPanel).buffer:UpdateView(slot1)
+	elseif slot2 == MSGBOX_TYPE_JUST_FOR_SHOW then
+		slot0:GetPanel(ItemShowPanel).buffer:UpdateView(slot1)
 	end
 end
 
