@@ -8327,9 +8327,21 @@ $3]],
 					atlas = "helpbg/blueprint_dev"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree2"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 2,
+			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
 				x = 1263,
@@ -8579,6 +8591,18 @@ $3]],
 				icon = {
 					path = "",
 					atlas = "helpbg/level_ui_help"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_ac_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_ac_2"
 				}
 			},
 			disableScroll = true,
@@ -9092,15 +9116,15 @@ $3]],
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "{namecode:169} 建造追加",
+		tip = "让·巴尔、马萨诸塞、敦刻尔克 建造追加！",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "霍比、科尔克 建造追加！",
+		tip = "恶毒、凯旋、倔强、福尔班 建造追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "{namecode:170}、小齐柏林 建造追加",
+		tip = "絮库夫 建造追加！",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -12800,6 +12824,10 @@ TIPS：
 	retire_title = {
 		tip = "一键退役设置",
 		key = "retire_title"
+	},
+	apple_link_title = {
+		tip = "連携中のアカウント完了",
+		key = "apple_link_title"
 	},
 	retire_setting_help = {
 		key = "retire_setting_help",

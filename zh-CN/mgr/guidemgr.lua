@@ -637,6 +637,8 @@ function slot0.cloneGO(slot0, slot1, slot2, slot3)
 	else
 		if slot3.pos then
 			slot4.localPosition = Vector3(slot3.pos.x, slot3.pos.y, slot3.pos.z or 0)
+		elseif slot3.isLevelPoint then
+			slot4.localPosition = LuaHelper.ScreenToLocal(slot2, GameObject.Find("LevelCamera"):GetComponent(typeof(Camera)):WorldToScreenPoint(slot1.transform.parent:TransformPoint(slot1.transform.localPosition)), GameObject.Find("OverlayCamera"):GetComponent(typeof(Camera)))
 		else
 			slot4.position = slot1.transform.position
 			slot5 = slot4.localPosition

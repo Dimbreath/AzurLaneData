@@ -3866,6 +3866,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -6568,7 +6579,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"进行轻型、重型、特型舰建造",
+				"荣誉勋章兑换（概率刷新）",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6603,7 +6624,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"进行轻型、重型、特型舰建造",
+				"荣誉勋章兑换（概率刷新）",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -8076,11 +8107,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"进行轻型、特型舰建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
+						projectName = "special",
 						page = 1
 					}
 				},
@@ -10016,6 +10047,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"荣誉勋章兑换（概率刷新）",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -11554,6 +11595,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"荣誉勋章兑换（概率刷新）",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -11602,6 +11653,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"荣誉勋章兑换（概率刷新）",
+				{
+					"GETBOAT",
+					{
+						page = 3
 					}
 				},
 				0
@@ -14706,6 +14767,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14772,6 +14844,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14801,6 +14884,17 @@ pg.ship_data_group = {
 				"限时活动：光与影的鸢尾之华",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -14843,6 +14937,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"核心兑换获得",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14872,6 +14976,17 @@ pg.ship_data_group = {
 				"限时活动：光与影的鸢尾之华",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -14912,6 +15027,16 @@ pg.ship_data_group = {
 				"限时活动：光与影的鸢尾之华",
 				{
 					""
+				},
+				0
+			},
+			{
+				"核心兑换获得",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -14976,6 +15101,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -15007,6 +15143,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -15036,6 +15183,17 @@ pg.ship_data_group = {
 				"限时活动：光与影的鸢尾之华",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}

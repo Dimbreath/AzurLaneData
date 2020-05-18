@@ -136,6 +136,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「无畏的闪电划破黑暗，照亮我们前进的方向」</color>\n「微层混合」活动获取",
 		scene = {}
 	},
+	[308] = {
+		name = "鸢尾之颂",
+		time_second = 0,
+		id = 308,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>通过后续活动获取</color>\n",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂纪念：企业",
 		time_second = 0,
@@ -178,6 +186,7 @@ pg.item_data_frame = {
 		305,
 		306,
 		307,
+		308,
 		401,
 		402,
 		404

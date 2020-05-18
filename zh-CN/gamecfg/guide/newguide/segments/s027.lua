@@ -38,15 +38,12 @@ return {
 				posX = 20.04
 			},
 			ui = {
-				scale = 1.8,
 				pathIndex = -1,
 				eventPath = "LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/quads/chapter_cell_quad_4_7",
+				isLevelPoint = true,
 				delay = 0.8,
-				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_7/attachment",
-				pos = {
-					x = 0,
-					y = 2.4
-				}
+				scale = 1.8,
+				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_7/attachment"
 			},
 			baseui = {
 				pathIndex = -1,
@@ -79,15 +76,12 @@ return {
 				posX = 20.04
 			},
 			ui = {
-				scale = 1.8,
 				pathIndex = -1,
 				eventPath = "LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/quads/chapter_cell_quad_4_7",
+				isLevelPoint = true,
 				delay = 0.2,
-				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_7/attachment",
-				pos = {
-					x = 0,
-					y = 2.4
-				}
+				scale = 1.8,
+				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_7/attachment"
 			},
 			baseui = {
 				pathIndex = -1,

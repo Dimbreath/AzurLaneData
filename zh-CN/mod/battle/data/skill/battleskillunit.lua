@@ -54,7 +54,7 @@ function slot3.Cast(slot0, slot1, slot2)
 	elseif slot5 == "table" then
 		slot6, slot7, slot8 = ShipWordHelper.GetWordAndCV(slot0._tempData.castCV.skinID, slot0._tempData.castCV.key)
 
-		playSoundEffect(slot7)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot7)
 	end
 
 	for slot10, slot11 in ipairs(slot0._effectList) do

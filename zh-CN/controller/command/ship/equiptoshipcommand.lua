@@ -65,7 +65,7 @@ function slot0.execute(slot0, slot1)
 			uv2:removeEquipmentById(uv3, 1)
 			uv5:sendNotification(GAME.EQUIP_TO_SHIP_DONE, uv0)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_equipToShip_ok", slot2.config.name), "green")
-			playSoundEffect(SFX_UI_DOCKYARD_EQUIPON)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_DOCKYARD_EQUIPON)
 
 			if uv6 then
 				uv6()

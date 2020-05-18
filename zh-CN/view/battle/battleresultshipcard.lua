@@ -9,7 +9,7 @@ end
 function slot0.init(slot0)
 	slot0._expContent = findTF(slot0._expTF, "content")
 	slot0._expInfo = findTF(slot0._expContent, "exp")
-	slot0._nameTxt = ScrollTxt.New(findTF(slot0._expContent, "info/name_mask"), findTF(slot0._expContent, "info/name_mask/name"))
+	slot0._nameTxt = findTF(slot0._expContent, "info/name_mask/name")
 	slot0._intimacyUpFX = findTF(slot0._expContent, "heartsfly")
 	slot0._intimacyDownFX = findTF(slot0._expContent, "heartsbroken")
 	slot0._lvText = findTF(slot0._expContent, "dockyard/lv/Text")
@@ -50,7 +50,7 @@ function slot0.ConfigCallback(slot0, slot1)
 end
 
 function slot0.setShipInfo(slot0)
-	slot0._nameTxt:setText(slot0._oldShipVO:getName())
+	setScrollText(slot0._nameTxt, slot0._oldShipVO:getName())
 	setActive(findTF(slot0._expContent, "mvp"), slot0._isMVP)
 	SetActive(slot0._expBuff, slot0._buffName ~= nil)
 	setText(slot0._expBuff, slot0._buffName or "")
@@ -122,7 +122,7 @@ function slot0.levelUpEffect(slot0)
 
 		uv0._lvUp.localPosition = uv1
 
-		playSoundEffect(SFX_BOAT_LEVEL_UP)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_LEVEL_UP)
 	end))
 
 	if slot0._animationLV <= slot0._newShipVO.level then
@@ -188,8 +188,6 @@ end
 function slot0.Dispose(slot0)
 	slot0._oldShipVO = nil
 	slot0._newShipVO = nil
-
-	slot0._nameTxt:destroy()
 end
 
 return slot0
