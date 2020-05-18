@@ -27,7 +27,7 @@ function slot1.Init(slot0, slot1)
 end
 
 function slot1.ShowTips(slot0, slot1)
-	playSoundEffect(sound or SFX_UI_TIP)
+	uv0.CriMgr.GetInstance():PlaySoundEffect_V3(sound or SFX_UI_TIP)
 	slot0._go.transform:SetAsLastSibling()
 	SetActive(slot0._go, true)
 

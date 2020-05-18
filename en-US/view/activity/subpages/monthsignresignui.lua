@@ -55,7 +55,7 @@ function slot0.displayAwards(slot0)
 		setActive(findTF(slot5, "bonus"), slot6.riraty)
 		setActive(findTF(slot5, "name"), false)
 		setActive(findTF(slot5, "name_mask"), true)
-		findTF(slot5, "name_mask/name"):GetComponent("ScrollText"):SetText(slot6.name or getText(slot7))
+		setScrollText(findTF(slot5, "name_mask/name"), slot6.name or getText(slot7))
 		onButton(slot0, slot5, function ()
 			if uv0.inAniming then
 				return

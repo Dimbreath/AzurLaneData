@@ -2004,6 +2004,79 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[150] = {
+		advice = 0,
+		describe = "Perfectly suitable for outside display!",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "Special-Type Hot Rod",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "amazonicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 1,
+		id = 150,
+		picture = "chuanmo/amazon",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			15,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					24,
+					-67
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-247,
+					-149
+				},
+				{
+					-1,
+					1
+				},
+				"chuanmo/amazon_using2"
+			},
+			{
+				"sit",
+				{
+					377.7,
+					-22.7
+				},
+				{
+					-1,
+					1
+				},
+				"chuanmo/amazon_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[151] = {
 		advice = 0,
 		describe = "An intricately designed imperial medal. Looking at it makes you think of a glorious empire that once ruled the sea. Given to commanders who participated in the \"Empyreal Tragicomedy\" event.",
@@ -57827,6 +57900,7 @@ pg.furniture_data_template = {
 		147,
 		148,
 		149,
+		150,
 		151,
 		155,
 		156,

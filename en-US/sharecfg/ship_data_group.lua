@@ -5743,6 +5743,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Special Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -5772,6 +5783,16 @@ pg.ship_data_group = {
 				"Event: Winter's Crown",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Core Data Exchange",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -6304,6 +6325,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Special Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -6396,7 +6428,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Light/Heavy/Special Construction",
+				"Honor medal exchange",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"Light Construction",
 				{
 					"GETBOAT",
 					{
@@ -6431,7 +6473,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Light/Heavy/Special Construction",
+				"Honor medal exchange",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"Light Construction",
 				{
 					"GETBOAT",
 					{
@@ -6564,6 +6616,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Special Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -6630,6 +6693,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Core Data Exchange",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -6659,6 +6732,52 @@ pg.ship_data_group = {
 				"Event: Winter's Crown",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Special Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[393] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 157,
+		group_type = 20223,
+		code = 393,
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -7670,6 +7789,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Special Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -7995,6 +8125,17 @@ pg.ship_data_group = {
 				"Event: Winter's Crown",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Special Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -9683,6 +9824,16 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"Honor medal exchange",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
+			},
+			{
 				"Event: Visitors Dyed in Red",
 				{
 					""
@@ -11188,6 +11339,16 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
+				"Honor medal exchange",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
+			},
+			{
 				"Event: Visitors Dyed in Red",
 				{
 					""
@@ -11238,6 +11399,16 @@ pg.ship_data_group = {
 			11600
 		},
 		description = {
+			{
+				"Honor medal exchange",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
+			},
 			{
 				"Event: Visitors Dyed in Red",
 				{
@@ -12764,11 +12935,11 @@ pg.ship_data_group = {
 			"C"
 		},
 		trans_radar_chart = {
-			"C",
 			"B",
+			"A",
 			"E",
 			"B",
-			"C",
+			"A",
 			"C"
 		},
 		trans_skill = {
@@ -15620,6 +15791,7 @@ pg.ship_data_group = {
 		408,
 		327,
 		328,
+		393,
 		119,
 		120,
 		337,

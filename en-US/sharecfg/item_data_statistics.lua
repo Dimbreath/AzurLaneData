@@ -8968,6 +8968,60 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[40910] = {
+		display = "Contains 1 Random Outfit, 2020 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 2 Advanced Universal Blueprints (2nd Batch), 10 Instant Finishers, and 100 Furniture Coins ",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "Third Anniversary Gift Bag ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40910,
+		icon = "Props/lihe4",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				69910,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[40951] = {
 		display = "Nep's Lucky Bag contains 1 x Nep Ship skin, 3 x Nep Gear skins, 8 x Wisdom Cubes, 4 x Quick Finishers, 100 x Decor Tokens, and 2018 x Gems",
 		rarity = 4,
@@ -89668,6 +89722,39 @@ Skins and drop rates:
 		price = {},
 		index = {}
 	},
+	[69910] = {
+		display = [[
+Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems) 
+The available outfits and their rarities are as follows:
+(<color=#92fc63>10.25%</color>)Ping Hai’s Anniversary Outfit(<color=#92fc63>Live 2d</color>;
+(<color=#92fc63>10.25%</color>)St. Louis’s Anniversary Outfit(<color=#92fc63>Live 2d</color>;
+(<color=#92fc63>7.5%</color>)Dido’s Anniversary Outfit;
+(<color=#92fc63>7.5%</color>)Enterprise’s Anniversary Outfit;
+(<color=#92fc63>7.5%</color>）Massachussett’s Anniversary Outfit;
+(<color=#92fc63>7.5%</color>)Albacore’s Anniversary Outfit;
+(<color=#92fc63>7.5%</color>)Littorio’s Anniversary Outfit;
+(<color=#92fc63>7.0%</color>）Ninghai’s Anniversary Outfit;
+(<color=#92fc63>7.0%</color>)Biloxi’s Anniversary Outfit;
+(<color=#92fc63>7.0%</color>)Abukuma’s Anniversary Outfit;
+(<color=#92fc63>7.0%</color>）Hammann’s Anniversary Outfit;
+(<color=#92fc63>7.0%</color>)Forbin’s Anniversary Outfit;
+(<color=#92fc63>7.0%</color>)Sussex’s Anniversary Outfit ]],
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Random Third Anniversary Outfit ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 69910,
+		icon = "Props/clothIcon",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[69951] = {
 		display = [[
 This lucky bag contains a random Nep Ship skin (If you draw an already owned ship skin, you will be refunded 80% of the gem cost) 
@@ -91191,6 +91278,7 @@ Skins and their drop rates:
 		40906,
 		40908,
 		40909,
+		40910,
 		40951,
 		40952,
 		40953,
@@ -92981,6 +93069,7 @@ Skins and their drop rates:
 		69906,
 		69908,
 		69909,
+		69910,
 		69951,
 		69952,
 		69953,

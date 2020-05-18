@@ -8964,6 +8964,65 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[202231] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20223,
+		breakout_id = 202232,
+		breakout_view = "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
+		id = 202231,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79401
+		}
+	},
+	[202232] = {
+		use_gold = 3000,
+		pre_id = 202231,
+		use_char_num = 1,
+		use_char = 20223,
+		breakout_id = 202233,
+		breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		id = 202232,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[202233] = {
+		use_gold = 10000,
+		pre_id = 202232,
+		use_char_num = 2,
+		use_char = 20223,
+		breakout_id = 202234,
+		breakout_view = "Improve EX Barrage/Main gun efficiency +15%",
+		id = 202233,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79402
+		}
+	},
+	[202234] = {
+		use_gold = 0,
+		pre_id = 202233,
+		use_char_num = 0,
+		use_char = 20223,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 202234,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[202241] = {
 		use_gold = 500,
 		pre_id = 0,
@@ -24521,6 +24580,10 @@ pg.ship_data_breakout = {
 		202222,
 		202223,
 		202224,
+		202231,
+		202232,
+		202233,
+		202234,
 		202241,
 		202242,
 		202243,

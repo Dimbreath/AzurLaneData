@@ -6,8 +6,7 @@ slot0.TITLE = {
 }
 slot1 = 4
 slot2 = 4
-slot3 = 100
-slot4 = 0.15
+slot3 = 0.15
 
 function slot0.getUIName(slot0)
 	return "AwardInfoUI"
@@ -84,7 +83,7 @@ function slot0.doAnim(slot0, slot1)
 			return
 		end
 
-		setLocalScale(uv1.spriteMask, Vector3(uv1.spriteMask.rect.width / uv2 * uv3, uv1.spriteMask.rect.height / uv4 * uv3, 1))
+		setLocalScale(uv1.spriteMask, Vector3(uv1.spriteMask.rect.width / uv2 * PIXEL_PER_UNIT, uv1.spriteMask.rect.height / uv3 * PIXEL_PER_UNIT, 1))
 	end))
 end
 
@@ -123,7 +122,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.continueBtn, function ()
 		triggerButton(uv0._tf)
 	end)
-	playSoundEffect(SFX_UI_GETITEM)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_GETITEM)
 end
 
 function slot0.onUIAnimEnd(slot0, slot1)
@@ -148,18 +147,18 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 	triggerButton(slot0._tf)
 end
 
-function slot5(slot0, slot1)
+function slot4(slot0, slot1)
 	slot2 = pg.ship_data_statistics[slot1.id]
 	slot3 = Ship.New({
 		configId = slot1.id
 	})
 	slot3.virgin = slot1.virgin
 
-	ScrollTxt.New(findTF(slot0, "content/info/name_mask"), findTF(slot0, "content/info/name_mask/name")):setText(slot3:getName())
+	setScrollText(findTF(slot0, "content/info/name_mask/name"), slot3:getName())
 	flushShipCard(slot0, slot3)
 	setActive(findTF(slot0, "content/front/new"), slot1.virgin)
 end
@@ -193,7 +192,7 @@ function slot0.displayAwards(slot0)
 			setActive(findTF(slot5, "bonus"), slot6.riraty)
 			setActive(findTF(slot5, "name"), false)
 			setActive(findTF(slot5, "name_mask"), true)
-			findTF(slot5, "name_mask/name"):GetComponent("ScrollText"):SetText(slot6.name or getText(slot7))
+			setScrollText(findTF(slot5, "name_mask/name"), slot6.name or getText(slot7))
 			onButton(slot0, slot5, function ()
 				if uv0.inAniming then
 					return
@@ -228,19 +227,19 @@ function slot0.playAnim(slot0, slot1)
 			if not uv0.tweenItems then
 				function ()
 					uv0()
-					setLocalScale(uv1.spriteMask, Vector3(uv1.spriteMask.rect.width / uv2 * uv3, uv1.spriteMask.rect.height / uv4 * uv3, 1))
+					setLocalScale(uv1.spriteMask, Vector3(uv1.spriteMask.rect.width / uv2 * PIXEL_PER_UNIT, uv1.spriteMask.rect.height / uv3 * PIXEL_PER_UNIT, 1))
 				end()
 
 				return
 			end
 
-			setActive(uv4, true)
+			setActive(uv3, true)
 
-			if uv0.title ~= uv5.TITLE.SHIP and #uv0.awards > 10 then
+			if uv0.title ~= uv4.TITLE.SHIP and #uv0.awards > 10 then
 				scrollTo(uv0._itemsWindow:Find("items_scroll"), 0, 0)
 			end
 
-			table.insert(uv0.tweenItems, LeanTween.delayedCall(uv6, System.Action(slot1)).id)
+			table.insert(uv0.tweenItems, LeanTween.delayedCall(uv5, System.Action(slot1)).id)
 		end)
 	end
 

@@ -5,6 +5,7 @@ AIRI_PLATFORM_FACEBOOK = "facebook"
 AIRI_PLATFORM_TWITTER = "twitter"
 AIRI_PLATFORM_YOSTAR = "yostar"
 AIRI_PLATFORM_APPLE = "apple"
+AIRI_PLATFORM_AMAZON = "amazon"
 AIRI_SDK_INITED = false
 
 function GoLoginScene()
@@ -161,6 +162,8 @@ return {
 			uv0:LoginWithSDKAccount(slot1, slot2)
 		elseif slot0 == AIRI_PLATFORM_APPLE then
 			uv0:LoginWithApple()
+		elseif slot0 == AIRI_PLATFORM_AMAZON then
+			uv0:LoginWithAmazon()
 		end
 	end,
 	LoginWithTranscode = function (slot0, slot1)
@@ -193,6 +196,8 @@ return {
 			uv1:LinkSocial(Airisdk.LoginPlatform.YOSTAR, slot1, slot2)
 		elseif slot0 == AIRI_PLATFORM_APPLE then
 			uv1:LinkSocial(Airisdk.LoginPlatform.APPLE)
+		elseif slot0 == AIRI_PLATFORM_AMAZON then
+			uv1:LinkSocial(Airisdk.LoginPlatform.AMAZON)
 		end
 	end,
 	UnlinkSocial = function (slot0)
@@ -204,6 +209,8 @@ return {
 			uv1:UnlinkSocial(Airisdk.LoginPlatform.TWITTER)
 		elseif slot0 == AIRI_PLATFORM_APPLE then
 			uv1:UnlinkSocial(Airisdk.LoginPlatform.APPLE)
+		elseif slot0 == AIRI_PLATFORM_AMAZON then
+			uv1:UnlinkSocial(Airisdk.LoginPlatform.AMAZON)
 		end
 	end,
 	IsSocialLink = function (slot0)
@@ -217,8 +224,10 @@ return {
 			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.TWITTER)
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
 			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.YOSTAR)
-		elseif slot0 == AIRI_PLATFORM_APPLE and CSharpVersion > 36 then
+		elseif slot0 == AIRI_PLATFORM_APPLE then
 			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.APPLE)
+		elseif slot0 == AIRI_PLATFORM_AMAZON then
+			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.AMAZON)
 		end
 
 		return false
@@ -232,6 +241,8 @@ return {
 			return uv0.loginRet.SDK_NAME
 		elseif slot0 == AIRI_PLATFORM_APPLE then
 			return uv0.loginRet.APPLE_ID
+		elseif slot0 == AIRI_PLATFORM_AMAZON then
+			return uv0.loginRet.AMAZON_NAME
 		end
 
 		return ""

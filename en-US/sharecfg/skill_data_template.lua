@@ -24024,6 +24024,208 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12300] = {
+		desc_get = "",
+		name = "Swift Shooting",
+		desc = "When this ship fires its Anti-Air Guns: $1 chance to increase your Vanguard's AA by $1 for 10s. For every 5 enemy aircraft shot down in your fleet's Anti-Air Gun range: increases this ship's FP by 1.0% and decreases the DMG your Main Fleet takes from enemy aircraft by 1.0%. Can be stacked up to $2 times.",
+		type = 2,
+		max_level = 10,
+		id = 12300,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"10.0%",
+				"30.0%"
+			},
+			{
+				"5",
+				"10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+2.2%"
+				},
+				{
+					"12.2%",
+					"+2.2%"
+				},
+				{
+					"14.4%",
+					"+2.2%"
+				},
+				{
+					"16.6%",
+					"+2.2%"
+				},
+				{
+					"18.8%",
+					"+2.2%"
+				},
+				{
+					"21.0%",
+					"+2.2%"
+				},
+				{
+					"23.2%",
+					"+2.2%"
+				},
+				{
+					"25.4%",
+					"+2.2%"
+				},
+				{
+					"27.6%",
+					"+2.4%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"5"
+				},
+				{
+					"5",
+					"+1"
+				},
+				{
+					"6"
+				},
+				{
+					"6",
+					"+1"
+				},
+				{
+					"7"
+				},
+				{
+					"7",
+					"+1"
+				},
+				{
+					"8"
+				},
+				{
+					"8",
+					"+1"
+				},
+				{
+					"9",
+					"+1"
+				},
+				{
+					"10"
+				}
+			}
+		}
+	},
+	[12310] = {
+		desc_get = "",
+		name = "Swift Analysis",
+		desc = "Increases this ship's Crit Rate by $1 and its Hit Rate against enemy DDs and CLs by $2. When this ship hits an enemy with its Main Guns: 10.0% chance to decrease that enemy's Evasion Rate by $2 for 6s.",
+		type = 1,
+		max_level = 10,
+		id = 12310,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"10.0%",
+				"30.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+2.2%"
+				},
+				{
+					"12.2%",
+					"+2.2%"
+				},
+				{
+					"14.4%",
+					"+2.2%"
+				},
+				{
+					"16.6%",
+					"+2.2%"
+				},
+				{
+					"18.8%",
+					"+2.2%"
+				},
+				{
+					"21.0%",
+					"+2.2%"
+				},
+				{
+					"23.2%",
+					"+2.2%"
+				},
+				{
+					"25.4%",
+					"+2.2%"
+				},
+				{
+					"27.6%",
+					"+2.4%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
 	[12360] = {
 		desc_get = "",
 		name = "Messenger of Love ",
@@ -37451,6 +37653,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[29401] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Swiftsure once every 12 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29401,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29402] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Swiftsure once every 8 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29402,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[29421] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -41235,6 +41459,8 @@ pg.skill_data_template = {
 		12270,
 		12280,
 		12290,
+		12300,
+		12310,
 		12360,
 		12370,
 		12380,
@@ -41608,6 +41834,8 @@ pg.skill_data_template = {
 		29382,
 		29391,
 		29392,
+		29401,
+		29402,
 		29421,
 		29422,
 		29431,

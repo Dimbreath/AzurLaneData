@@ -26,9 +26,13 @@ function slot0.Chat(slot0, slot1, slot2, slot3)
 		slot0:StopChat()
 
 		if slot2 then
-			slot0:PlayCV(slot2, function ()
-				if uv0 then
-					uv1:ShowShipWord(uv0)
+			slot0:PlayCV(slot2, function (slot0)
+				if slot0 then
+					uv0._cueInfo = slot0.cueInfo
+				end
+
+				if uv1 then
+					uv0:ShowShipWord(uv1)
 				end
 			end)
 		end
@@ -77,37 +81,21 @@ function slot0.StopChat(slot0)
 end
 
 function slot0.PlayCV(slot0, slot1, slot2)
-	if "event:/cv/shop/" .. slot1 then
-		if slot0.loadedCVBankName then
-			function ()
-				uv0:StopCV()
+	slot3 = "event:/cv/shop/" .. slot1
 
-				uv0._currentVoice, uv0._cueInfo = playSoundEffect(uv1)
+	slot0:StopCV()
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot3, slot2)
 
-				uv2()
-			end()
-		else
-			pg.CriMgr:LoadCV("shop", function ()
-				if uv1.exited then
-					pg.CriMgr.UnloadCVBank(pg.CriMgr.GetCVBankName(uv0))
-				else
-					uv2()
-
-					if uv1._currentVoice then
-						uv1.loadedCVBankName = slot0
-					end
-				end
-			end)
-		end
-	end
+	slot0._currentVoice = slot3
 end
 
 function slot0.StopCV(slot0)
 	if slot0._currentVoice then
-		slot0._currentVoice:Stop(true)
+		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(slot0._currentVoice)
 	end
 
 	slot0._currentVoice = nil
+	slot0._cueInfo = nil
 end
 
 function slot0.UnLoad(slot0)

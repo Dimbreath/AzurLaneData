@@ -23,8 +23,6 @@ function slot0.init(slot0)
 	slot0.replacePanel = slot0:findTF("replace")
 
 	setActive(slot0.replacePanel, false)
-
-	slot0.scrollTxtList = {}
 end
 
 function slot0.didEnter(slot0)
@@ -117,14 +115,14 @@ function slot0.updateSkinView(slot0, slot1, slot2, slot3)
 		slot0:findTF("info/display_panel/name_container/name", slot1):GetComponent(typeof(Text)).text = slot7.name
 		slot0:findTF("info/display_panel/desc", slot1):GetComponent(typeof(Text)).text = slot7.desc
 
-		(slot0.scrollTxtList[slot1] or ScrollTxt.New(slot0:findTF("info/display_panel/equip_type/mask", slot1), slot0:findTF("info/display_panel/equip_type/mask/Text", slot1), true)):setText(table.concat(_.map(slot7.equip_type, function (slot0)
+		setScrollText(slot0:findTF("info/display_panel/equip_type/mask/Text", slot1), table.concat(_.map(slot7.equip_type, function (slot0)
 			return EquipType.Type2Name2(slot0)
 		end), ","))
 
-		slot12 = slot0:findTF("info/play_btn", slot1)
+		slot11 = slot0:findTF("info/play_btn", slot1)
 
-		setActive(slot12, true)
-		onButton(slot0, slot12, function ()
+		setActive(slot11, true)
+		onButton(slot0, slot11, function ()
 			uv0:emit(EquipmentSkinMediator.ON_PREVIEW, uv1)
 		end, SFX_PANEL)
 		updateDrop(slot0:findTF("info/equip", slot1), {
@@ -133,23 +131,17 @@ function slot0.updateSkinView(slot0, slot1, slot2, slot3)
 		})
 
 		if slot0:findTF("info/head", slot1) then
-			setActive(slot13, slot3)
+			setActive(slot12, slot3)
 
 			if slot3 and getProxy(BayProxy):getShipById(slot3.id) then
-				setImageSprite(slot13:Find("Image"), LoadSprite("qicon/" .. slot14:getPainting()))
+				setImageSprite(slot12:Find("Image"), LoadSprite("qicon/" .. slot13:getPainting()))
 			end
 		end
 	end
 end
 
 function slot0.willExit(slot0)
-	slot4 = slot0.UIMain
-
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot4)
-
-	for slot4, slot5 in ipairs(slot0.scrollTxtList) do
-		slot5:destroy()
-	end
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.UIMain)
 end
 
 return slot0

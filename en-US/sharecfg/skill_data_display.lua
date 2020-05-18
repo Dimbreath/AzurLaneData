@@ -1860,6 +1860,14 @@ pg.skill_data_display = {
 		id = 12270,
 		name = "Sparkling Star"
 	},
+	[12300] = {
+		id = 12300,
+		name = "Swift Shooting"
+	},
+	[12310] = {
+		id = 12310,
+		name = "Swift Analysis"
+	},
 	[12360] = {
 		id = 12360,
 		name = "Messenger of Love "
@@ -3820,6 +3828,14 @@ pg.skill_data_display = {
 		id = 29392,
 		name = "All Out Assault Ⅱ"
 	},
+	[29401] = {
+		id = 29401,
+		name = "All Out Assault Ⅰ"
+	},
+	[29402] = {
+		id = 29402,
+		name = "All Out Assault Ⅱ"
+	},
 	[29421] = {
 		id = 29421,
 		name = "All Out Assault Ⅰ"
@@ -4646,6 +4662,8 @@ pg.skill_data_display = {
 		12251,
 		12260,
 		12270,
+		12300,
+		12310,
 		12360,
 		12370,
 		12380,
@@ -5136,6 +5154,8 @@ pg.skill_data_display = {
 		29382,
 		29391,
 		29392,
+		29401,
+		29402,
 		29421,
 		29422,
 		29431,

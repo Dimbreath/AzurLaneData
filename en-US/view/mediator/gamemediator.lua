@@ -227,6 +227,9 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3 == SCENE.IDOL_MEDAL_COLLECTION_SCENE then
 			slot4.mediator = IdolMedalCollectionMediator
 			slot4.viewComponent = IdolMedalCollectionView
+		elseif slot3 == SCENE.PHYSICS2D_TEST then
+			slot4.mediator = Physics2dMediator
+			slot4.viewComponent = Physics2dScene
 		end
 
 		print("load scene: " .. slot3)

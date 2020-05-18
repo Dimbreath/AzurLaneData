@@ -1,165 +1,5 @@
 pg = pg or {}
 pg.gametip = {
-	apple_link_title = {
-		tip = "Apple account connected ",
-		key = "apple_link_title"
-	},
-	facebook_link_title = {
-		tip = "Facebook Account:$1",
-		key = "facebook_link_title"
-	},
-	verification_code_req_tip1 = {
-		tip = "The e-mail box cannot be left blank.",
-		key = "verification_code_req_tip1"
-	},
-	verification_code_req_tip2 = {
-		tip = "Verification request successful! Please check your e-mail for the verification code.",
-		key = "verification_code_req_tip2"
-	},
-	verification_code_req_tip3 = {
-		tip = "Email and Verification Code cannot be empty",
-		key = "verification_code_req_tip3"
-	},
-	yostar_link_title = {
-		tip = "Yostar Account:$1",
-		key = "yostar_link_title"
-	},
-	pay_cancel = {
-		tip = "Cancel Payment",
-		key = "pay_cancel"
-	},
-	order_error = {
-		tip = "Balance Calculation Failed",
-		key = "order_error"
-	},
-	pay_fail = {
-		tip = "Payment Failed",
-		key = "pay_fail"
-	},
-	user_cancel = {
-		tip = "Cancelled by Player",
-		key = "user_cancel"
-	},
-	system_error = {
-		tip = "System Error",
-		key = "system_error"
-	},
-	time_out = {
-		tip = "You are not logged in or afk too long",
-		key = "time_out"
-	},
-	server_error = {
-		tip = "Server communication Error",
-		key = "server_error"
-	},
-	data_error = {
-		tip = "Data Verification Failed",
-		key = "data_error"
-	},
-	share_success = {
-		tip = "Sharing Successfully",
-		key = "share_success"
-	},
-	shoot_screen_fail = {
-		tip = "Screenshot Failed",
-		key = "shoot_screen_fail"
-	},
-	server_name = {
-		tip = "Event Server",
-		key = "server_name"
-	},
-	non_support_share = {
-		tip = "Commander, the \"Share\" option is still unavailable.",
-		key = "non_support_share"
-	},
-	save_success = {
-		tip = "Data Saved Successfully",
-		key = "save_success"
-	},
-	word_guild_join_err1 = {
-		tip = "You can't join multiple guilds.",
-		key = "word_guild_join_err1"
-	},
-	task_empty_tip_1 = {
-		tip = "No events available now!",
-		key = "task_empty_tip_1"
-	},
-	task_empty_tip_2 = {
-		tip = "No events available now! \nStay tuned with our Facebook & Twitter official Page!",
-		key = "task_empty_tip_2"
-	},
-	["airi_error_code_ 100210"] = {
-		tip = "TW Failed to authorize, unable to login",
-		key = "airi_error_code_ 100210"
-	},
-	["airi_error_code_ 100211"] = {
-		tip = "TW Unable to login, please bind your account first",
-		key = "airi_error_code_ 100211"
-	},
-	["airi_error_code_ 100212"] = {
-		tip = "TW Login verification failed.",
-		key = "airi_error_code_ 100212"
-	},
-	["airi_error_code_ 100610"] = {
-		tip = "TW Failed to authorize, unable to bind",
-		key = "airi_error_code_ 100610"
-	},
-	["airi_error_code_ 100611"] = {
-		tip = "TW Already binded to another user",
-		key = "airi_error_code_ 100611"
-	},
-	["airi_error_code_ 100612"] = {
-		tip = "TW Login verification failed, unable to bind",
-		key = "airi_error_code_ 100612"
-	},
-	["airi_error_code_ 100710"] = {
-		tip = "TW Failed to authorize, unable to unbind",
-		key = "airi_error_code_ 100710"
-	},
-	["airi_error_code_ 100711"] = {
-		tip = "TW The account is not binded to any user",
-		key = "airi_error_code_ 100711"
-	},
-	["airi_error_code_ 100712"] = {
-		tip = "TW Invalid login verification, unable to unbind",
-		key = "airi_error_code_ 100712"
-	},
-	["airi_error_code_ 100810"] = {
-		tip = "FB Failed to authorize, unable to login",
-		key = "airi_error_code_ 100810"
-	},
-	["airi_error_code_ 100811"] = {
-		tip = "FB Unable to login, please bind your account first",
-		key = "airi_error_code_ 100811"
-	},
-	["airi_error_code_ 100812"] = {
-		tip = "FB Login verification failed, unable to login",
-		key = "airi_error_code_ 100812"
-	},
-	["airi_error_code_ 100813"] = {
-		tip = "FB Failed to authorize, unable to bind",
-		key = "airi_error_code_ 100813"
-	},
-	["airi_error_code_ 100814"] = {
-		tip = "FB Already binded to another user",
-		key = "airi_error_code_ 100814"
-	},
-	["airi_error_code_ 100815"] = {
-		tip = "FB Login verification failed, unable to bind",
-		key = "airi_error_code_ 100815"
-	},
-	["airi_error_code_ 100816"] = {
-		tip = "FB Failed to authorize, unable to unbind",
-		key = "airi_error_code_ 100816"
-	},
-	["airi_error_code_ 100817"] = {
-		tip = "FB The account is not binded to any user",
-		key = "airi_error_code_ 100817"
-	},
-	["airi_error_code_ 100818"] = {
-		tip = "FB Login verification failed, unable to unbind",
-		key = "airi_error_code_ 100818"
-	},
 	ad_0 = {
 		tip = "",
 		key = "ad_0"
@@ -7136,11 +6976,11 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "new_airi_error_code_0"
 	},
 	new_airi_error_code_100100 = {
-		tip = "This Device ID is banned",
+		tip = "Device ID is banned",
 		key = "new_airi_error_code_100100"
 	},
 	new_airi_error_code_100110 = {
-		tip = "Verification failed, UID does not match with Token",
+		tip = "Verification failed",
 		key = "new_airi_error_code_100110"
 	},
 	new_airi_error_code_100111 = {
@@ -7148,35 +6988,35 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "new_airi_error_code_100111"
 	},
 	new_airi_error_code_100112 = {
-		tip = "Account creation failed",
+		tip = "Account creation success; Account binding failed",
 		key = "new_airi_error_code_100112"
 	},
 	new_airi_error_code_100113 = {
-		tip = "Account binding success; Verification failed, this UID does not match with Token, failed to acquire Access Token",
+		tip = "Account binding success; Verification failed",
 		key = "new_airi_error_code_100113"
 	},
 	new_airi_error_code_100114 = {
-		tip = "Account binding success; IP restricted, failed to acquire Access Token",
+		tip = "IP is restricted during login creation",
 		key = "new_airi_error_code_100114"
 	},
 	new_airi_error_code_100115 = {
-		tip = "Account binding success; Device ID is banned, failed to acquire Access Token",
+		tip = "Device ID is banned during login creation",
 		key = "new_airi_error_code_100115"
 	},
 	new_airi_error_code_100116 = {
-		tip = "Account binding success; UID is banned, failed to acquire Access Token",
+		tip = "UID is banned during login creation",
 		key = "new_airi_error_code_100116"
 	},
 	new_airi_error_code_100117 = {
-		tip = "Illegal parameters",
+		tip = "Missing parameters",
 		key = "new_airi_error_code_100117"
 	},
 	new_airi_error_code_100120 = {
-		tip = "IP restricted",
+		tip = "Login failed, IP is restricted",
 		key = "new_airi_error_code_100120"
 	},
 	new_airi_error_code_100130 = {
-		tip = "This UID is banned",
+		tip = "Login failed, UID is banned",
 		key = "new_airi_error_code_100130"
 	},
 	new_airi_error_code_100140 = {
@@ -7184,7 +7024,7 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "new_airi_error_code_100140"
 	},
 	new_airi_error_code_100150 = {
-		tip = "This UID does not match with Transcode",
+		tip = "UID does not match with Transcode",
 		key = "new_airi_error_code_100150"
 	},
 	new_airi_error_code_100160 = {
@@ -7196,19 +7036,19 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "new_airi_error_code_100170"
 	},
 	new_airi_error_code_100180 = {
-		tip = "This Twitter/Facebook account is not bound with the game account",
+		tip = "The third party account is not bound with any game account",
 		key = "new_airi_error_code_100180"
 	},
 	new_airi_error_code_100190 = {
-		tip = "Failed to verify the Token and Secret of this Twitter/Facebook account",
+		tip = "Failed to verify the third party parameter",
 		key = "new_airi_error_code_100190"
 	},
 	new_airi_error_code_100200 = {
-		tip = "This Twitter/Facebook account is already bound with another Airi UID",
+		tip = "The third party account is already bound with another UID",
 		key = "new_airi_error_code_100200"
 	},
 	new_airi_error_code_100210 = {
-		tip = "This UID does not match with the UID bound to the Twitter/Facebook account",
+		tip = "The third party account does not match with the one bound to this account",
 		key = "new_airi_error_code_100210"
 	},
 	new_airi_error_code_100211 = {
@@ -7220,24 +7060,96 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "new_airi_error_code_100212"
 	},
 	new_airi_error_code_100213 = {
-		tip = "Account binding with FB/TW failed",
+		tip = "Unable to unbind the account",
 		key = "new_airi_error_code_100213"
 	},
 	new_airi_error_code_100220 = {
-		tip = "Facebook login cancelled",
+		tip = "Authorization canceled",
 		key = "new_airi_error_code_100220"
 	},
 	new_airi_error_code_100221 = {
-		tip = "FB authorization failed ",
+		tip = "FB authorization failed",
 		key = "new_airi_error_code_100221"
 	},
 	new_airi_error_code_100222 = {
 		tip = "TW authorization failed",
 		key = "new_airi_error_code_100222"
 	},
+	new_airi_error_code_100223 = {
+		tip = "Google authorization failed",
+		key = "new_airi_error_code_100223"
+	},
+	new_airi_error_code_100224 = {
+		tip = "Unable to use Google service",
+		key = "new_airi_error_code_100224"
+	},
+	new_airi_error_code_100225 = {
+		tip = "Google authorization was canceled by user",
+		key = "new_airi_error_code_100225"
+	},
+	new_airi_error_code_100226 = {
+		tip = "Unable to login during another login request",
+		key = "new_airi_error_code_100226"
+	},
+	new_airi_error_code_100227 = {
+		tip = "Failed to login with the current account",
+		key = "new_airi_error_code_100227"
+	},
+	new_airi_error_code_100228 = {
+		tip = "The account was already deleted by user",
+		key = "new_airi_error_code_100228"
+	},
+	new_airi_error_code_100229 = {
+		tip = "Account deletion cannot be performed repeatedly",
+		key = "new_airi_error_code_100229"
+	},
+	new_airi_error_code_100231 = {
+		tip = "Failed to restore, the account was deleted completely",
+		key = "new_airi_error_code_100231"
+	},
+	new_airi_error_code_100232 = {
+		tip = "Unable to restore, no deletion history of the account",
+		key = "new_airi_error_code_100232"
+	},
+	new_airi_error_code_100233 = {
+		tip = "Unable to login, the account was deleted",
+		key = "new_airi_error_code_100233"
+	},
+	new_airi_error_code_100234 = {
+		tip = "The account is not authorized to login",
+		key = "new_airi_error_code_100234"
+	},
 	new_airi_error_code_100230 = {
 		tip = "Initialization failed",
 		key = "new_airi_error_code_100230"
+	},
+	new_airi_error_code_100240 = {
+		tip = "Apple authorization information does not match",
+		key = "new_airi_error_code_100240"
+	},
+	new_airi_error_code_100241 = {
+		tip = "User cancelled Apple authorization request",
+		key = "new_airi_error_code_100241"
+	},
+	new_airi_error_code_100242 = {
+		tip = "Apple authorization request failed",
+		key = "new_airi_error_code_100242"
+	},
+	new_airi_error_code_100243 = {
+		tip = "Invalid response from Apple authorization request",
+		key = "new_airi_error_code_100243"
+	},
+	new_airi_error_code_100244 = {
+		tip = "Failed to process Apple authorization request",
+		key = "new_airi_error_code_100244"
+	},
+	new_airi_error_code_100245 = {
+		tip = "Apple authorization request failed for unknown reason",
+		key = "new_airi_error_code_100245"
+	},
+	new_airi_error_code_100246 = {
+		tip = "System version does not support Apple authorization",
+		key = "new_airi_error_code_100246"
 	},
 	new_airi_error_code_100300 = {
 		tip = "Invalid email address format",
@@ -7252,15 +7164,15 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "new_airi_error_code_100302"
 	},
 	new_airi_error_code_100303 = {
-		tip = "Verification failed, this verification code does not match or has become expired(30 minutes)",
+		tip = "Verification failed",
 		key = "new_airi_error_code_100303"
 	},
 	new_airi_error_code_100304 = {
-		tip = "Verification failed too many times, this verification code has become expired upon the 10th failed attempt, please acquire a new verification code",
+		tip = "Verification failed too many times",
 		key = "new_airi_error_code_100304"
 	},
 	new_airi_error_code_100305 = {
-		tip = "This account is banned",
+		tip = "The account is banned",
 		key = "new_airi_error_code_100305"
 	},
 	new_airi_error_code_100306 = {
@@ -7272,23 +7184,23 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "new_airi_error_code_100404"
 	},
 	new_airi_error_code_200100 = {
-		tip = "Purchase order creation failed - User birthday is required",
+		tip = "User birthday is required",
 		key = "new_airi_error_code_200100"
 	},
 	new_airi_error_code_200110 = {
-		tip = "Purchase order creation failed - Monthly purchase limit exceeded",
+		tip = "Monthly purchase limit exceeded",
 		key = "new_airi_error_code_200110"
 	},
 	new_airi_error_code_200120 = {
-		tip = "Purchase order creation failed - Invalid order information / Item does not exist",
+		tip = "Item does not exist",
 		key = "new_airi_error_code_200120"
 	},
 	new_airi_error_code_200130 = {
-		tip = "Purchase order creation failed - Invalid order information / Payment method does not exist",
+		tip = "Payment method does not exist",
 		key = "new_airi_error_code_200130"
 	},
 	new_airi_error_code_200140 = {
-		tip = "Purchase order creation failed - serverTag does not exist",
+		tip = "serverTag does not exist",
 		key = "new_airi_error_code_200140"
 	},
 	new_airi_error_code_200150 = {
@@ -7296,15 +7208,15 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "new_airi_error_code_200150"
 	},
 	new_airi_error_code_200160 = {
-		tip = "Invalid purchase request (invalid user Token, invalid order, or item does not exist)",
+		tip = "Invalid purchase request",
 		key = "new_airi_error_code_200160"
 	},
 	new_airi_error_code_200170 = {
-		tip = "Purchase request failed on game server (Determined as an invalid purchase by game logic server)",
+		tip = "Purchase request failed on game server",
 		key = "new_airi_error_code_200170"
 	},
 	new_airi_error_code_200180 = {
-		tip = "The request is proceeding for a long time, notify the client to start a polling",
+		tip = "It takes a long time for searching the purchase result",
 		key = "new_airi_error_code_200180"
 	},
 	new_airi_error_code_200190 = {
@@ -7316,15 +7228,15 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "new_airi_error_code_200200"
 	},
 	new_airi_error_code_200210 = {
-		tip = "productid does not exist on GooglePay / AppStorePay / Molpay",
+		tip = "productid does not exist on payment backend",
 		key = "new_airi_error_code_200210"
 	},
 	new_airi_error_code_200220 = {
-		tip = "GooglePay / AppStorePay / Molpay failed",
+		tip = "Payment backend response - payment failed",
 		key = "new_airi_error_code_200220"
 	},
 	new_airi_error_code_200230 = {
-		tip = "GooglePay / AppStorePay / Molpay cancelled",
+		tip = "Payment backend response - payment canceled",
 		key = "new_airi_error_code_200230"
 	},
 	new_airi_error_code_200240 = {
@@ -7380,7 +7292,7 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "new_airi_error_code_200360"
 	},
 	new_airi_error_code_300100 = {
-		tip = "Sharing failed",
+		tip = "System sharing failed",
 		key = "new_airi_error_code_300100"
 	},
 	need_break_tip = {
@@ -8133,6 +8045,24 @@ Updating the Research Project list
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/technology"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/blueprint_build"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/blueprint_dev"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/technologytree1"
 				}
 			},
@@ -8142,15 +8072,9 @@ Updating the Research Project list
 					atlas = "helpbg/technologytree2"
 				}
 			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/blueprint_dev"
-				}
-			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 2,
+			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
 				x = 1263,
@@ -8160,7 +8084,7 @@ Updating the Research Project list
 				y = -70
 			},
 			helpSize = {
-				x = 1255,
+				x = 1176,
 				y = 1024
 			}
 		}
@@ -8380,6 +8304,18 @@ Combat Details:
 				icon = {
 					path = "",
 					atlas = "helpbg/level_ui_help"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_ac_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_ac_2"
 				}
 			},
 			disableScroll = true,
@@ -8868,7 +8804,7 @@ Combat Details:
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "Hobby and Kalk are now available from construction!",
+		tip = "Swiftsure added to standard build pool! ",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
@@ -12285,6 +12221,226 @@ Event Rules:
 	retire_title = {
 		tip = "Quick Retire Options",
 		key = "retire_title"
+	},
+	res_unlock_tip = {
+		tip = "Unlock by spending the following resources",
+		key = "res_unlock_tip"
+	},
+	res_wifi_tip = {
+		tip = "You are currently not on a Wi-Fi network. Downloading may use up a large amount of cellular data. Continue with download anyway?",
+		key = "res_wifi_tip"
+	},
+	res_downloading = {
+		tip = "Downloading",
+		key = "res_downloading"
+	},
+	res_pic_time_all = {
+		tip = "All",
+		key = "res_pic_time_all"
+	},
+	res_pic_time_2017_up = {
+		tip = "2017 (1/2)",
+		key = "res_pic_time_2017_up"
+	},
+	res_pic_time_2017_down = {
+		tip = "2017 (2/2)",
+		key = "res_pic_time_2017_down"
+	},
+	res_pic_time_2018_up = {
+		tip = "2018 (1/2)",
+		key = "res_pic_time_2018_up"
+	},
+	res_pic_time_2018_down = {
+		tip = "2018 (2/2)",
+		key = "res_pic_time_2018_down"
+	},
+	res_pic_time_2019_up = {
+		tip = "2019 (1/2)",
+		key = "res_pic_time_2019_up"
+	},
+	res_pic_time_2019_down = {
+		tip = "2019 (2/2)",
+		key = "res_pic_time_2019_down"
+	},
+	res_pic_time_2020_up = {
+		tip = "2020 (1/2)",
+		key = "res_pic_time_2020_up"
+	},
+	res_pic_new_tip = {
+		tip = "$1 new illustrations were added in this update. Come take a look!",
+		key = "res_pic_new_tip"
+	},
+	res_music_no_pre_tip = {
+		tip = "First Track",
+		key = "res_music_no_pre_tip"
+	},
+	res_music_no_next_tip = {
+		tip = "Last Track",
+		key = "res_music_no_next_tip"
+	},
+	res_music_new_tip = {
+		tip = "Apple ID Link Complete",
+		key = "res_music_new_tip"
+	},
+	apple_link_title = {
+		tip = "Account Link Complete",
+		key = "apple_link_title"
+	},
+	facebook_link_title = {
+		tip = "Facebook Account:$1",
+		key = "facebook_link_title"
+	},
+	verification_code_req_tip1 = {
+		tip = "The e-mail box cannot be left blank.",
+		key = "verification_code_req_tip1"
+	},
+	verification_code_req_tip2 = {
+		tip = "Verification request successful! Please check your e-mail for the verification code.",
+		key = "verification_code_req_tip2"
+	},
+	verification_code_req_tip3 = {
+		tip = "Email and Verification Code cannot be empty",
+		key = "verification_code_req_tip3"
+	},
+	yostar_link_title = {
+		tip = "Yostar Account:$1",
+		key = "yostar_link_title"
+	},
+	pay_cancel = {
+		tip = "Cancel Payment",
+		key = "pay_cancel"
+	},
+	order_error = {
+		tip = "Balance Calculation Failed",
+		key = "order_error"
+	},
+	pay_fail = {
+		tip = "Payment Failed",
+		key = "pay_fail"
+	},
+	user_cancel = {
+		tip = "Cancelled by Player",
+		key = "user_cancel"
+	},
+	system_error = {
+		tip = "System Error",
+		key = "system_error"
+	},
+	time_out = {
+		tip = "You are not logged in or afk too long",
+		key = "time_out"
+	},
+	server_error = {
+		tip = "Server communication Error",
+		key = "server_error"
+	},
+	data_error = {
+		tip = "Data Verification Failed",
+		key = "data_error"
+	},
+	share_success = {
+		tip = "Sharing Successfully",
+		key = "share_success"
+	},
+	shoot_screen_fail = {
+		tip = "Screenshot Failed",
+		key = "shoot_screen_fail"
+	},
+	server_name = {
+		tip = "Event Server",
+		key = "server_name"
+	},
+	non_support_share = {
+		tip = "Commander, the \"Share\" option is still unavailable.",
+		key = "non_support_share"
+	},
+	save_success = {
+		tip = "Data Saved Successfully",
+		key = "save_success"
+	},
+	word_guild_join_err1 = {
+		tip = "You can't join multiple guilds.",
+		key = "word_guild_join_err1"
+	},
+	task_empty_tip_1 = {
+		tip = "No events available now!",
+		key = "task_empty_tip_1"
+	},
+	task_empty_tip_2 = {
+		tip = "No events available now! \nStay tuned with our Facebook & Twitter official Page!",
+		key = "task_empty_tip_2"
+	},
+	["airi_error_code_ 100210"] = {
+		tip = "TW Failed to authorize, unable to login",
+		key = "airi_error_code_ 100210"
+	},
+	["airi_error_code_ 100211"] = {
+		tip = "TW Unable to login, please bind your account first",
+		key = "airi_error_code_ 100211"
+	},
+	["airi_error_code_ 100212"] = {
+		tip = "TW Login verification failed.",
+		key = "airi_error_code_ 100212"
+	},
+	["airi_error_code_ 100610"] = {
+		tip = "TW Failed to authorize, unable to bind",
+		key = "airi_error_code_ 100610"
+	},
+	["airi_error_code_ 100611"] = {
+		tip = "TW Already binded to another user",
+		key = "airi_error_code_ 100611"
+	},
+	["airi_error_code_ 100612"] = {
+		tip = "TW Login verification failed, unable to bind",
+		key = "airi_error_code_ 100612"
+	},
+	["airi_error_code_ 100710"] = {
+		tip = "TW Failed to authorize, unable to unbind",
+		key = "airi_error_code_ 100710"
+	},
+	["airi_error_code_ 100711"] = {
+		tip = "TW The account is not binded to any user",
+		key = "airi_error_code_ 100711"
+	},
+	["airi_error_code_ 100712"] = {
+		tip = "TW Invalid login verification, unable to unbind",
+		key = "airi_error_code_ 100712"
+	},
+	["airi_error_code_ 100810"] = {
+		tip = "FB Failed to authorize, unable to login",
+		key = "airi_error_code_ 100810"
+	},
+	["airi_error_code_ 100811"] = {
+		tip = "FB Unable to login, please bind your account first",
+		key = "airi_error_code_ 100811"
+	},
+	["airi_error_code_ 100812"] = {
+		tip = "FB Login verification failed, unable to login",
+		key = "airi_error_code_ 100812"
+	},
+	["airi_error_code_ 100813"] = {
+		tip = "FB Failed to authorize, unable to bind",
+		key = "airi_error_code_ 100813"
+	},
+	["airi_error_code_ 100814"] = {
+		tip = "FB Already binded to another user",
+		key = "airi_error_code_ 100814"
+	},
+	["airi_error_code_ 100815"] = {
+		tip = "FB Login verification failed, unable to bind",
+		key = "airi_error_code_ 100815"
+	},
+	["airi_error_code_ 100816"] = {
+		tip = "FB Failed to authorize, unable to unbind",
+		key = "airi_error_code_ 100816"
+	},
+	["airi_error_code_ 100817"] = {
+		tip = "FB The account is not binded to any user",
+		key = "airi_error_code_ 100817"
+	},
+	["airi_error_code_ 100818"] = {
+		tip = "FB Login verification failed, unable to unbind",
+		key = "airi_error_code_ 100818"
 	},
 	retire_setting_help = {
 		key = "retire_setting_help",

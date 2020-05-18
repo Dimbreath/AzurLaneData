@@ -47,6 +47,7 @@ SCENE = {
 	PROPINFO = "scene prop info",
 	VOTE = "scene vote",
 	LOGIN = "scene login",
+	PHYSICS2D_TEST = "physics2d test",
 	NEWGUILD = "scene newguild",
 	ACTIVITY = "scene activity",
 	SUMMER_FEAST = "summer feast",
