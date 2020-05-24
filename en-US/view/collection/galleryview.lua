@@ -18,7 +18,8 @@ function slot0.OnInit(slot0)
 	slot0.scrollTimer = Timer.New(function ()
 		if uv0.lScrollPageSC.isDraging == true then
 			uv0.scrollTag = false
-			uv0.scrollBarSC.value = uv0.lScrollPageSC.MaskPos.x / ((uv0.lScrollPageSC.MarginSize.x + uv0.lScrollPageSC.ItemSize.x) * (#uv0.picForShowConfigList - 1))
+			slot0 = nil
+			uv0.scrollBarSC.value = #uv0.picForShowConfigList == 1 and 1 or uv0.lScrollPageSC.MaskPos.x / ((uv0.lScrollPageSC.MarginSize.x + uv0.lScrollPageSC.ItemSize.x) * (#uv0.picForShowConfigList - 1))
 			uv0.scrollTag = true
 		end
 	end, 0.016666666666666666, -1, 1)
@@ -31,6 +32,10 @@ function slot0.OnDestroy(slot0)
 
 	if slot0.appreciateUnlockMsgBox and slot0.appreciateUnlockMsgBox:CheckState(BaseSubView.STATES.INITED) then
 		slot0.appreciateUnlockMsgBox:hideCustomMsgBox()
+	end
+
+	if isActive(slot0.picPanel) then
+		slot0:closePicPanel(true)
 	end
 
 	if slot0.downloadCheckTimer then
@@ -49,6 +54,10 @@ end
 function slot0.onBackPressed(slot0)
 	if slot0.appreciateUnlockMsgBox and slot0.appreciateUnlockMsgBox:CheckState(BaseSubView.STATES.INITED) then
 		slot0.appreciateUnlockMsgBox:hideCustomMsgBox()
+
+		return false
+	elseif isActive(slot0.picPanel) then
+		slot0:closePicPanel()
 
 		return false
 	else
@@ -75,6 +84,8 @@ function slot0.initData(slot0)
 	slot0.recoveryDataTag = false
 	slot0.recoveryDataLikeTag = false
 	slot0.recoveryDataBGFilteTag = false
+	slot0.picLikeToggleTag = false
+	slot0.scrollTag = true
 end
 
 function slot0.findUI(slot0)
@@ -107,10 +118,15 @@ function slot0.findUI(slot0)
 	slot0.scrollPanel = slot0:findTF("Scroll")
 	slot0.lScrollPageSC = GetComponent(slot0.scrollPanel, "LScrollPage")
 	slot0.picPanel = slot0:findTF("PicPanel")
+	slot0.picPanelBG = slot0:findTF("PanelBG", slot0.picPanel)
+	slot0.picTopContainer = slot0:findTF("Container", slot0.picPanel)
 	slot0.picContainer = slot0:findTF("Container/Picture", slot0.picPanel)
+	slot0.picBGImg = slot0:findTF("Container/Picture/PicBG", slot0.picPanel)
 	slot0.picImg = slot0:findTF("Container/Picture/Pic", slot0.picPanel)
 	slot0.picLikeToggle = slot0:findTF("LikeBtn", slot0.picContainer)
 	slot0.picName = slot0:findTF("PicName", slot0.picContainer)
+	slot0.picPreBtn = slot0:findTF("PreBtn", slot0.picPanel)
+	slot0.picNextBtn = slot0:findTF("NextBtn", slot0.picPanel)
 
 	setActive(slot0.picLikeToggle, true)
 
@@ -208,29 +224,39 @@ function slot0.initCardListPanel(slot0)
 	end
 
 	function slot0.lScrollPageSC.itemClickCallback(slot0, slot1)
-		if slot0 + 1 == uv0.curMiddleDataIndex then
-			slot4 = uv0:getPicConfigForShowByIndex(slot2).id
-			slot5, slot6 = nil
+		slot4 = uv0:getPicConfigForShowByIndex(slot0 + 1).id
+		slot5, slot6 = nil
 
-			if uv0:getPicStateByID(slot4) == GalleryConst.CardStates.Unlocked and uv0.appreciateProxy:getPicExistStateByID(slot4) then
-				uv0:updatePicImg()
-				uv0:openPicPanel()
-			end
+		if uv0:getPicStateByID(slot4) == GalleryConst.CardStates.Unlocked and uv0.appreciateProxy:getPicExistStateByID(slot4) then
+			uv0:updatePicImg(slot2)
+			uv0:openPicPanel()
 		end
 	end
 
 	function slot0.lScrollPageSC.itemPitchCallback(slot0, slot1)
-		slot2 = slot0 + 1
+		uv0:setMovingTag(false)
 
-		setText(uv0.progressText, slot2 .. "/" .. #uv0.picForShowConfigList)
+		if uv0.curMiddleDataIndex ~= slot0 + 1 then
+			setText(uv0.progressText, slot2 .. "/" .. #uv0.picForShowConfigList)
 
-		uv0.curMiddleDataIndex = slot2
+			uv0.curMiddleDataIndex = slot2
 
-		uv0:saveRunData()
+			uv0:saveRunData()
 
-		uv0.scrollTag = false
-		uv0.scrollBarSC.value = slot0 / (#uv0.picForShowConfigList - 1)
-		uv0.scrollTag = true
+			uv0.scrollTag = false
+
+			if #uv0.picForShowConfigList == 1 then
+				uv0.scrollBarSC.value = 1
+			else
+				uv0.scrollBarSC.value = slot0 / (#uv0.picForShowConfigList - 1)
+			end
+
+			uv0.scrollTag = true
+
+			if isActive(uv0.picPanel) then
+				uv0:switchPicImg(uv0.curMiddleDataIndex)
+			end
+		end
 	end
 
 	function slot0.lScrollPageSC.itemRecycleCallback(slot0, slot1)
@@ -278,10 +304,69 @@ function slot0.updateCardListPanel(slot0)
 end
 
 function slot0.initPicPanel(slot0)
-	onButton(slot0, slot0.picPanel, function ()
+	onButton(slot0, slot0.picPanelBG, function ()
 		uv0:closePicPanel()
 	end, SFX_CANCEL)
+	addSlip(SLIP_TYPE_HRZ, slot0.picImg, function ()
+		triggerButton(uv0.picPreBtn)
+	end, function ()
+		triggerButton(uv0.picNextBtn)
+	end, function ()
+		uv0:emit(GalleryConst.OPEN_FULL_SCREEN_PIC_VIEW, uv0:getPicConfigForShowByIndex(uv0.curMiddleDataIndex).id)
+	end)
+	onButton(slot0, slot0.picPreBtn, function ()
+		if uv0.isMoving == true then
+			return
+		end
+
+		slot0 = uv0.curMiddleDataIndex
+		slot1 = nil
+
+		while slot0 > 1 do
+			slot3 = uv0:getPicConfigForShowByIndex(slot0 - 1).id
+
+			if uv0.appreciateProxy:getPicExistStateByID(slot3) and uv0:getPicStateByID(slot3) == GalleryConst.CardStates.Unlocked then
+				slot1 = slot0
+
+				break
+			end
+		end
+
+		if slot1 and slot1 > 0 then
+			uv0:setMovingTag(true)
+			uv0.lScrollPageSC:MoveToItemID(slot1 - 1)
+		end
+	end, SFX_PANEL)
+	onButton(slot0, slot0.picNextBtn, function ()
+		if uv0.isMoving == true then
+			return
+		end
+
+		slot0 = uv0.curMiddleDataIndex
+		slot1 = nil
+
+		while slot0 < #uv0.picForShowConfigList do
+			slot3 = uv0:getPicConfigForShowByIndex(slot0 + 1).id
+
+			if uv0.appreciateProxy:getPicExistStateByID(slot3) and uv0:getPicStateByID(slot3) == GalleryConst.CardStates.Unlocked then
+				slot1 = slot0
+
+				break
+			end
+		end
+
+		if slot1 and slot1 <= #uv0.picForShowConfigList then
+			uv0:setMovingTag(true)
+			uv0.lScrollPageSC:MoveToItemID(slot1 - 1)
+		end
+	end, SFX_PANEL)
 	onToggle(slot0, slot0.picLikeToggle, function (slot0)
+		if uv0.picLikeToggleTag == true then
+			uv0.picLikeToggleTag = false
+
+			return
+		end
+
 		if (slot0 == true and 0 or 1) == 0 then
 			if uv0.appreciateProxy:isLikedByPicID(uv0:getPicConfigForShowByIndex(uv0.curMiddleDataIndex).id) then
 				return
@@ -318,21 +403,88 @@ function slot0.initPicPanel(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updatePicImg(slot0)
-	slot1 = slot0:getPicConfigForShowByIndex(slot0.curMiddleDataIndex)
-	slot4 = slot1.illustration
+function slot0.updatePicImg(slot0, slot1)
+	slot3 = slot0:getPicConfigForShowByIndex(slot1 or slot0.curMiddleDataIndex)
+	slot6 = slot3.illustration
 
-	slot0.resLoader:LoadSprite(GalleryConst.PIC_PATH_PREFIX .. slot4, slot4, slot0.picImg, false)
-	setText(slot0.picName, slot1.name)
-	triggerToggle(slot0.picLikeToggle, slot0.appreciateProxy:isLikedByPicID(slot1.id))
+	setImageSprite(slot0.picImg, LoadSprite(GalleryConst.PIC_PATH_PREFIX .. slot6, slot6))
+	setText(slot0.picName, slot3.name)
+
+	slot0.picLikeToggleTag = true
+
+	triggerToggle(slot0.picLikeToggle, slot0.appreciateProxy:isLikedByPicID(slot3.id))
+end
+
+function slot0.switchPicImg(slot0, slot1)
+	slot3 = slot0:getPicConfigForShowByIndex(slot1 or slot0.curMiddleDataIndex)
+	slot5 = slot3.name
+	slot6 = slot3.illustration
+
+	setImageSprite(slot0.picBGImg, LoadSprite(GalleryConst.PIC_PATH_PREFIX .. slot6, slot6))
+
+	slot0.picLikeToggleTag = true
+
+	triggerToggle(slot0.picLikeToggle, slot0.appreciateProxy:isLikedByPicID(slot3.id))
+	LeanTween.value(go(slot0.picImg), 1, 0, 0.5):setOnUpdate(System.Action_float(function (slot0)
+		setImageAlpha(uv0.picImg, slot0)
+	end)):setOnComplete(System.Action(function ()
+		setImageFromImage(uv0.picImg, uv0.picBGImg)
+		setImageAlpha(uv0.picImg, 1)
+	end))
 end
 
 function slot0.openPicPanel(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.picPanel, false, {
+		groupName = LayerWeightConst.GROUP_COLLECTION
+	})
+
+	slot0.picPanel.offsetMax = slot0._tf.parent.offsetMax
+	slot0.picPanel.offsetMin = slot0._tf.parent.offsetMin
+
 	setActive(slot0.picPanel, true)
+	setActive(slot0.scrollBar, false)
+	LeanTween.value(go(slot0.picTopContainer), 0, 1, 0.3):setOnUpdate(System.Action_float(function (slot0)
+		setLocalScale(uv0.picTopContainer, {
+			x = slot0,
+			y = slot0
+		})
+	end)):setOnComplete(System.Action(function ()
+		setLocalScale(uv0.picTopContainer, {
+			x = 1,
+			y = 1
+		})
+	end))
 end
 
-function slot0.closePicPanel(slot0)
-	setActive(slot0.picPanel, false)
+function slot0.closePicPanel(slot0, slot1)
+	if slot1 == true then
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.picPanel, slot0._tf)
+		setActive(slot0.picPanel, false)
+		setActive(slot0.scrollBar, true)
+
+		return
+	end
+
+	if isActive(slot0.picPanel) then
+		LeanTween.value(go(slot0.picTopContainer), 1, 0, 0.3):setOnUpdate(System.Action_float(function (slot0)
+			setLocalScale(uv0.picTopContainer, {
+				x = slot0,
+				y = slot0
+			})
+		end)):setOnComplete(System.Action(function ()
+			setLocalScale(uv0.picTopContainer, {
+				x = 0,
+				y = 0
+			})
+			pg.UIMgr.GetInstance():UnblurPanel(uv0.picPanel, uv0._tf)
+			setActive(uv0.picPanel, false)
+			setActive(uv0.scrollBar, true)
+		end))
+	end
+end
+
+function slot0.setMovingTag(slot0, slot1)
+	slot0.isMoving = slot1
 end
 
 function slot0.saveRunData(slot0)
@@ -368,13 +520,16 @@ function slot0.tryShowTipMsgBox(slot0)
 		function slot2()
 			uv0.lScrollPageSC:MoveToItemID(GalleryConst.AutoScrollIndex - 1)
 			PlayerPrefs.SetInt("galleryVersion", GalleryConst.Version)
+			uv0:emit(CollectionScene.UPDATE_RED_POINT)
 		end
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,
+			hideClose = true,
 			content = i18n("res_pic_new_tip", GalleryConst.NewCount),
 			onYes = slot2,
-			onCancel = slot2
+			onCancel = slot2,
+			onClose = slot2
 		})
 	end
 end
@@ -423,88 +578,85 @@ function slot0.cardUpdate(slot0, slot1, slot2)
 		if slot18 then
 			setActive(slot5, GalleryConst.GetBGFuncTag())
 			setActive(slot6, false)
-			setImageColor(slot5, GalleryConst.IsInBGIDList(slot16) and Color.New(0.37, 0.61, 1, 1) or Color.New(1, 1, 1, 1))
 			onButton(slot0, slot5, function ()
-				if uv0 == uv1 then
-					if GalleryConst.RemoveBGID(uv2) then
-						uv0 = uv3
+				if strColor == green then
+					if GalleryConst.RemoveBGID(uv0) then
+						strColor = white
 
-						setImageColor(uv4, uv0)
+						setImageColor(uv1, strColor)
 					end
-				elseif uv0 == uv3 and GalleryConst.AddBGID(uv2) then
-					uv0 = uv1
+				elseif strColor == white and GalleryConst.AddBGID(uv0) then
+					strColor = green
 
-					setImageColor(uv4, uv0)
+					setImageColor(uv1, strColor)
 				end
 			end, SFX_PANEL)
+		else
+			setActive(slot5, false)
 
-			return
-		end
-
-		setActive(slot5, false)
-
-		if slot0.manager.state == DownloadState.None or slot19 == DownloadState.CheckFailure then
-			slot0.manager:CheckD()
-		end
-
-		if slot0.manager:CheckF(GalleryConst.PIC_PATH_PREFIX .. slot13.illustration) == DownloadState.None or slot22 == DownloadState.CheckToUpdate or slot22 == DownloadState.UpdateFailure then
-			setActive(slot6, true)
-			setActive(slot7, true)
-			setActive(slot8, false)
-			setActive(slot9, false)
-			setActive(slot10, false)
-			setActive(slot11, false)
-			table.removebyvalue(slot0.downloadCheckIDList, slot16, true)
-
-			if #slot0.downloadCheckIDList == 0 and slot0.downloadCheckTimer then
-				slot0.downloadCheckTimer:Stop()
-
-				slot0.downloadCheckTimer = nil
+			if slot0.manager.state == DownloadState.None or slot19 == DownloadState.CheckFailure then
+				slot0.manager:CheckD()
 			end
 
-			onButton(slot0, slot7, function ()
-				if Application.internetReachability == UnityEngine.NetworkReachability.ReachableViaCarrierDataNetwork then
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n("res_wifi_tip"),
-						onYes = function ()
-							setActive(uv0, true)
-							setActive(uv1, false)
-							setActive(uv2, false)
-							setActive(uv3, false)
-							setActive(uv4, false)
-							setActive(uv5, true)
-							uv6.manager:UpdateF(uv7, false)
+			if slot0.manager:CheckF(GalleryConst.PIC_PATH_PREFIX .. slot13.illustration) == DownloadState.None or slot22 == DownloadState.CheckToUpdate or slot22 == DownloadState.UpdateFailure then
+				setActive(slot6, true)
+				setActive(slot7, true)
+				setActive(slot8, false)
+				setActive(slot9, false)
+				setActive(slot10, false)
+				setActive(slot11, false)
+				table.removebyvalue(slot0.downloadCheckIDList, slot16, true)
 
-							if not table.contains(uv6.downloadCheckIDList, uv8) then
-								table.insert(uv6.downloadCheckIDList, uv8)
+				if #slot0.downloadCheckIDList == 0 and slot0.downloadCheckTimer then
+					slot0.downloadCheckTimer:Stop()
+
+					slot0.downloadCheckTimer = nil
+				end
+
+				onButton(slot0, slot7, function ()
+					if Application.internetReachability == UnityEngine.NetworkReachability.ReachableViaCarrierDataNetwork then
+						pg.MsgboxMgr.GetInstance():ShowMsgBox({
+							content = i18n("res_wifi_tip"),
+							onYes = function ()
+								setActive(uv0, true)
+								setActive(uv1, false)
+								setActive(uv2, false)
+								setActive(uv3, false)
+								setActive(uv4, false)
+								setActive(uv5, true)
+								uv6.manager:UpdateF(uv7, false)
+
+								if not table.contains(uv6.downloadCheckIDList, uv8) then
+									table.insert(uv6.downloadCheckIDList, uv8)
+								end
+
+								uv6:tryStartDownloadCheckTimer()
 							end
+						})
+					else
+						slot0()
+					end
+				end, SFX_PANEL)
+			elseif slot22 == DownloadState.Updating then
+				setActive(slot6, true)
+				setActive(slot7, false)
+				setActive(slot8, false)
+				setActive(slot9, false)
+				setActive(slot10, false)
+				setActive(slot11, true)
+			elseif PathMgr.FileExists(PathMgr.getAssetBundle(slot21)) then
+				slot0.appreciateProxy:updatePicFileExistStateTable(slot16, true)
+				table.removebyvalue(slot0.downloadCheckIDList, slot16, true)
 
-							uv6:tryStartDownloadCheckTimer()
-						end
-					})
-				else
-					slot0()
+				if #slot0.downloadCheckIDList == 0 and slot0.downloadCheckTimer then
+					slot0.downloadCheckTimer:Stop()
+
+					slot0.downloadCheckTimer = nil
 				end
-			end, SFX_PANEL)
-		elseif slot22 == DownloadState.Updating then
-			setActive(slot6, true)
-			setActive(slot7, false)
-			setActive(slot8, false)
-			setActive(slot9, false)
-			setActive(slot10, false)
-			setActive(slot11, true)
-		elseif PathMgr.FileExists(PathMgr.getAssetBundle(slot21)) then
-			slot0.appreciateProxy:updatePicFileExistStateTable(slot16, true)
-			table.removebyvalue(slot0.downloadCheckIDList, slot16, true)
 
-			if #slot0.downloadCheckIDList == 0 and slot0.downloadCheckTimer then
-				slot0.downloadCheckTimer:Stop()
-
-				slot0.downloadCheckTimer = nil
+				setActive(slot5, true)
+				setActive(slot6, false)
 			end
-
-			setActive(slot5, true)
-			setActive(slot6, false)
 		end
 	elseif slot17 == GalleryConst.CardStates.Unlockable then
 		setActive(slot5, false)

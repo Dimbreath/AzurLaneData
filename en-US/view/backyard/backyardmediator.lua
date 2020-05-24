@@ -8,11 +8,20 @@ slot0.OPEN_NOFOOD = "BackYardMediator:OPEN_NOFOOD"
 slot0.ON_SWITCH_FLOOR = "BackYardMediator:ON_SWITCH_FLOOR"
 slot0.ON_SHOPPING = "BackYardMediator:ON_SHOPPING"
 slot0.ITEM_UPDATED = "BackYardMediator:ITEM_UPDATED"
+slot0.GO_THEME_TEMPLATE = "BackYardMediator:GO_THEME_TEMPLATE"
 
 function slot0.register(slot0)
-	slot0.backyardPoolMgr = BackyardPoolMgr.New()
-	slot1, slot2 = slot0:startUpBackyard(slot0.contextData.floor or 1)
+	pg.OSSMgr:GetInstance():Init()
 
+	if getProxy(ContextProxy):getContextByMediator(NewBackYardThemeTemplateMediator) then
+		slot1:cleanUntilMediator(MainUIMediator)
+	end
+
+	slot0.backyardPoolMgr = BackyardPoolMgr.New()
+
+	slot0:bind(uv0.GO_THEME_TEMPLATE, function (slot0)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.BACKYARD_THEME_TEMPLATE)
+	end)
 	slot0:bind(uv0.GO_GRANARY, function (slot0)
 		BackYardMediator.isInitAddExpPanel = true
 
@@ -36,10 +45,26 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.GO_SHOP, function (slot0)
 		BackYardMediator.isInitAddExpPanel = true
+		slot1 = false
+
+		if getProxy(ContextProxy):getContextByMediator(BackYardDecorationMediator) then
+			uv0:sendNotification(GAME.REMOVE_LAYERS, {
+				context = slot3
+			})
+
+			slot1 = true
+		end
 
 		uv0:addSubLayers(Context.New({
-			mediator = BackYardShopMediator,
-			viewComponent = BackYardShopLayer
+			mediator = NewBackYardShopMediator,
+			viewComponent = NewBackYardShopLayer,
+			data = {
+				onDeattch = function ()
+					if uv0 then
+						uv1:sendNotification(GAME.OPEN_BACKYARD_GARNARY)
+					end
+				end
+			}
 		}))
 	end)
 	slot0:bind(uv0.GO_SHIPINFO, function (slot0, slot1)
@@ -61,8 +86,35 @@ function slot0.register(slot0)
 		uv0:quitBackYard()
 		uv0:startUpBackyard(slot1)
 	end)
-	slot0.viewComponent:setPlayerVO(slot1)
-	slot0.viewComponent:setDormVO(slot2)
+
+	function slot2(slot0)
+		if mode == BackYardConst.MODE_VISIT then
+			slot0()
+
+			return
+		end
+
+		if not getProxy(DormProxy):GetVisitorShip() then
+			uv0:sendNotification(GAME.BACKYARD_GET_VISITOR_SHIP, {
+				callback = slot0
+			})
+		else
+			slot0()
+		end
+	end
+
+	seriesAsync({
+		function (slot0)
+			uv0(slot0)
+		end,
+		function ()
+			slot0, slot1 = uv0:startUpBackyard(uv0.contextData.floor or 1)
+
+			uv0.viewComponent:setPlayerVO(slot0)
+			uv0.viewComponent:setDormVO(slot1)
+			uv0.viewComponent:StartUp()
+		end
+	})
 end
 
 function slot0.startUpBackyard(slot0, slot1)
@@ -89,29 +141,42 @@ function slot0.startUpBackyard(slot0, slot1)
 
 	slot3 = {}
 	slot4 = {}
-	slot5 = nil
+	slot5, slot6 = nil
 
 	if (slot0.contextData.mode or BackYardConst.MODE_DEFAULT) == BackYardConst.MODE_VISIT then
-		for slot10, slot11 in pairs(slot0.contextData.ships) do
-			if slot11.state == (slot1 == 1 and Ship.STATE_TRAIN or Ship.STATE_REST) then
-				slot3[slot11.id] = slot11
+		for slot11, slot12 in pairs(slot0.contextData.ships) do
+			if slot12.state == (slot1 == 1 and Ship.STATE_TRAIN or Ship.STATE_REST) then
+				slot3[slot12.id] = slot12
 			end
 		end
 
 		slot5 = slot0.contextData.dorm
-		player = slot0.contextData.player
+		slot6 = slot0.contextData.player
 	elseif slot2 == BackYardConst.MODE_DEFAULT then
 		slot0.dormProxy = getProxy(DormProxy)
 		slot5 = slot0.dormProxy:getData()
-		slot6 = slot0.dormProxy:getShipsByState(Ship.STATE_TRAIN)
-		slot7 = slot0.dormProxy:getShipsByState(Ship.STATE_REST)
-		slot3 = slot1 == 1 and slot6 or slot7
-		player = getProxy(PlayerProxy):getData()
+		slot9 = {
+			[slot15.id] = slot15
+		}
 
-		slot0.viewComponent:setShipIds(slot6, slot7)
+		for slot14, slot15 in pairs(slot1 == 1 and slot0.dormProxy:getShipsByState(Ship.STATE_TRAIN) or slot0.dormProxy:getShipsByState(Ship.STATE_REST)) do
+			-- Nothing
+		end
+
+		slot11 = slot0.dormProxy:GetVisitorShip()
+
+		if slot1 == 1 and slot11 and getProxy(PlayerProxy):getData():GetCommonFlag(SHOW_FIREND_BACKYARD_SHIP_FLAG) then
+			slot11.isVisitor = true
+			slot9[slot11.id] = slot11
+		end
+
+		slot3 = slot9
+		slot13 = getProxy(PlayerProxy)
+
+		slot0.viewComponent:setShipIds(slot7, slot8)
 	end
 
-	slot6 = pg.backyard.sendNotification
+	slot7 = pg.backyard.sendNotification
 
 	function pg.backyard.sendNotification(slot0, slot1, slot2, slot3)
 		if BackYardConst.MODE_VISIT == uv0 and (BACKYARD.BOAT_ADDITION_DONE == slot1 or slot1 == BACKYARD.BOAT_ADDITION_DONE) then
@@ -128,7 +193,7 @@ function slot0.startUpBackyard(slot0, slot1)
 	})
 
 	slot0.viewComponent.isLoadedMainUI = false
-	slot7 = nil
+	slot8 = nil
 
 	if not IsNil(slot0.viewComponent._tf:Find(BackYardConst.MAIN_UI_NAME)) then
 		function (slot0)
@@ -142,28 +207,30 @@ function slot0.startUpBackyard(slot0, slot1)
 				setParent(slot0, uv0.viewComponent._tf)
 				tf(slot0):SetSiblingIndex(1)
 				pg.backyard:registerMediator(BackyardMainMediator.New(uv1))
-				uv1:init()
+				uv1:init(uv0.contextData)
 			end
-		end(slot9)
+		end(slot10)
 	else
-		PoolMgr.GetInstance():GetUI(BackYardConst.MAIN_UI_NAME, true, slot8)
+		PoolMgr.GetInstance():GetUI(BackYardConst.MAIN_UI_NAME, true, slot9)
 	end
 
 	getProxy(DormProxy).floor = slot0.contextData.floor
 
-	return player, slot5
+	return slot6, slot5
 end
 
 function slot0.quitBackYard(slot0)
-	pg.backyard:removeMediator(BackyardMainMediator.__cname)
-	pg.backyard:removeProxy(BackYardHouseProxy.__cname)
-	pg.backyard:removeCommand(StartUpBackYardCommand.__cname)
-	pg.backyard:removeCommand(BYBoatCommand.__cname)
-	pg.backyard:removeCommand(BYFurnitureCommand.__cname)
-	pg.backyard:removeCommand(BYHouseCommand.__cname)
-	pm.Facade.removeCore("m02.backyard")
+	if pg.backyard then
+		pg.backyard:removeMediator(BackyardMainMediator.__cname)
+		pg.backyard:removeProxy(BackYardHouseProxy.__cname)
+		pg.backyard:removeCommand(StartUpBackYardCommand.__cname)
+		pg.backyard:removeCommand(BYBoatCommand.__cname)
+		pg.backyard:removeCommand(BYFurnitureCommand.__cname)
+		pg.backyard:removeCommand(BYHouseCommand.__cname)
+		pm.Facade.removeCore("m02.backyard")
 
-	pg.backyard = nil
+		pg.backyard = nil
+	end
 end
 
 function slot0.remove(slot0)
@@ -191,7 +258,9 @@ function slot0.listNotificationInterests(slot0)
 		BagProxy.ITEM_UPDATED,
 		BagProxy.ITEM_ADDED,
 		GAME.ADD_SHIP_DONE,
-		GAME.EXIT_SHIP_DONE
+		GAME.EXIT_SHIP_DONE,
+		GAME.LOAD_LAYERS,
+		GAME.REMOVE_LAYERS
 	}
 end
 
@@ -206,6 +275,7 @@ function slot0.handleNotification(slot0, slot1)
 	if slot2 == DormProxy.DORM_UPDATEED then
 		slot0.viewComponent:setShipIds(slot0.dormProxy:getShipsByState(Ship.STATE_TRAIN), slot0.dormProxy:getShipsByState(Ship.STATE_REST))
 		slot0.viewComponent:setDormVO(slot0.dormProxy:getData())
+		slot0.viewComponent:UpdateThemetemplateBtn()
 	elseif slot2 == GAME.PUT_FURNITURE_DONE then
 		slot0.viewComponent:setDormVO(slot0.dormProxy:getData())
 	elseif slot2 == BagProxy.ITEM_UPDATED or slot2 == BagProxy.ITEM_ADDED then
@@ -241,18 +311,15 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:closeRenameBox()
 	elseif slot2 == GAME.OPEN_BACKYARD_GARNARY then
 		slot0:addSubLayers(Context.New({
-			mediator = BackYardGarnitureMediator,
-			viewComponent = BackYardGarnitureLayer
+			mediator = BackYardDecorationMediator,
+			viewComponent = BackYardDecrationLayer
 		}), nil, function ()
 			if uv0 and uv0.callback then
 				uv0.callback()
 			end
 		end)
 	elseif slot2 == GAME.OPEN_BACKYARD_SHOP then
-		slot0:addSubLayers(Context.New({
-			mediator = BackYardShopMediator,
-			viewComponent = BackYardShopLayer
-		}))
+		slot0.viewComponent:emit(uv0.GO_SHOP)
 	elseif slot2 == GAME.ADD_SHIP_DONE then
 		if not pg.backyard then
 			return
@@ -279,6 +346,12 @@ function slot0.handleNotification(slot0, slot1)
 			name = BACKYARD.SHIP_EXITED,
 			id = slot3.id
 		})
+	elseif slot2 == GAME.LOAD_LAYERS then
+		if slot3.context.mediator == NewBackYardShopMediator then
+			pg.backyard:sendNotification(BACKYARD.OPEN_SHOP_LAYER)
+		end
+	elseif slot2 == GAME.REMOVE_LAYERS and slot3.context.mediator == NewBackYardShopMediator then
+		pg.backyard:sendNotification(BACKYARD.CLOSE_SHOP_LAYER)
 	end
 end
 

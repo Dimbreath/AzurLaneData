@@ -25,7 +25,7 @@ pg.shop_template = {
 	{
 		group_type = 0,
 		resource_num = 200,
-		desc = "Spend 200 Gems to increase dock capacity by 10",
+		desc = "Spend 200 Gems to increase dock capacity by 10 (when dock capacity is between 0-1999) ",
 		type = 0,
 		is_auto_use = 0,
 		group_limit = 0,
@@ -42,7 +42,11 @@ pg.shop_template = {
 		id = 2,
 		genre = "",
 		discount_time = {},
-		limit_args = {}
+		limit_args = {
+			"count",
+			0,
+			1999
+		}
 	},
 	{
 		group_type = 0,
@@ -149,7 +153,7 @@ pg.shop_template = {
 		limit_args = {
 			"count",
 			10,
-			24
+			30
 		}
 	},
 	{
@@ -607,6 +611,60 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			1
+		}
+	},
+	[25] = {
+		group_type = 0,
+		resource_num = 300,
+		desc = "Spend 300 Gems to increase dock capacity by 10 (when dock capacity is between 2000-2999) ",
+		type = 0,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 0,
+		time = "always",
+		effect_args = "ship_bag_size",
+		group = 0,
+		num = 10,
+		discount = 0,
+		resource_type = 14,
+		id = 25,
+		genre = "",
+		discount_time = {},
+		limit_args = {
+			"count",
+			2000,
+			2999
+		}
+	},
+	[26] = {
+		group_type = 0,
+		resource_num = 1200,
+		desc = "Spend 1200 Gems to increase Dorm Slots by 1 ",
+		type = 0,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 0,
+		time = "always",
+		effect_args = "dorm_exp_pos",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 26,
+		genre = "",
+		discount_time = {},
+		limit_args = {
+			{
+				"number",
+				5,
+				5
+			}
 		}
 	},
 	[21001] = {
@@ -3295,6 +3353,30 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			100011
+		}
+	},
+	[43005] = {
+		group_type = 0,
+		resource_num = 20000,
+		desc = "20000功勋兑换大青花鱼",
+		type = 4,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 0,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 3,
+		id = 43005,
+		genre = "arena_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			108021
 		}
 	},
 	[50002] = {
@@ -6841,10 +6923,118 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60196] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买限时建造补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60196,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40118
+		},
+		time = {
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60197] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60197,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[61001] = {
 		group_type = 0,
 		resource_num = 200,
-		desc = "Spend 200 Gems to increase dock capacity by 10",
+		desc = "Spend 200 Gems to increase dock capacity by 10 (when dock capacity is between 0-1999) ",
 		type = 0,
 		is_auto_use = 0,
 		group_limit = 0,
@@ -6861,7 +7051,11 @@ pg.shop_template = {
 		id = 61001,
 		genre = "gem_shop",
 		discount_time = {},
-		limit_args = {}
+		limit_args = {
+			"count",
+			0,
+			1999
+		}
 	},
 	[61002] = {
 		group_type = 0,
@@ -6873,7 +7067,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 0,
+		order = 10,
 		time = "always",
 		effect_args = "equip_bag_size",
 		group = 0,
@@ -6895,7 +7089,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 0,
+		order = 9,
 		time = "always",
 		group = 0,
 		num = 11,
@@ -6919,7 +7113,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 8,
 		time = "always",
 		group = 0,
 		num = 11,
@@ -6943,7 +7137,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 7,
 		time = "always",
 		group = 0,
 		num = 3000,
@@ -6967,7 +7161,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 0,
+		order = 6,
 		time = "always",
 		group = 0,
 		num = 15000,
@@ -6991,7 +7185,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 2,
 		time_second = 0,
-		order = 0,
+		order = 5,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -7015,7 +7209,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 0,
+		order = 4,
 		time = "always",
 		group = 0,
 		num = 11,
@@ -7039,7 +7233,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 11,
+		order = 8,
 		time = "always",
 		group = 0,
 		num = 11,
@@ -7063,7 +7257,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 2,
 		time_second = 0,
-		order = 0,
+		order = 7,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -7087,7 +7281,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 0,
+		order = 3,
 		time = "always",
 		effect_args = "commander_bag_size",
 		group = 0,
@@ -7102,6 +7296,32 @@ pg.shop_template = {
 				"level",
 				40
 			}
+		}
+	},
+	[61013] = {
+		group_type = 0,
+		resource_num = 300,
+		desc = "Spend 300 Gems to increase dock capacity by 10 (when dock capacity is between 2000-2999) ",
+		type = 0,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 2,
+		time = "always",
+		effect_args = "ship_bag_size",
+		group = 0,
+		num = 10,
+		discount = 0,
+		resource_type = 14,
+		id = 61013,
+		genre = "gem_shop",
+		discount_time = {},
+		limit_args = {
+			"count",
+			2000,
+			2999
 		}
 	},
 	[70001] = {
@@ -9678,9 +9898,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 9851,
+		order = 8962,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -9695,8 +9915,8 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2019,
-					11,
+					2020,
+					5,
 					21
 				},
 				{
@@ -9707,9 +9927,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					4
+					2020,
+					6,
+					2
 				},
 				{
 					23,
@@ -9727,9 +9947,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 9850,
+		order = 8962,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -9744,8 +9964,8 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2019,
-					11,
+					2020,
+					5,
 					21
 				},
 				{
@@ -9756,9 +9976,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					4
+					2020,
+					6,
+					2
 				},
 				{
 					23,
@@ -9776,9 +9996,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 9849,
+		order = 8962,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -9793,8 +10013,8 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2019,
-					11,
+					2020,
+					5,
 					21
 				},
 				{
@@ -9805,9 +10025,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					4
+					2020,
+					6,
+					2
 				},
 				{
 					23,
@@ -13386,7 +13606,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 0,
 		time_second = 0,
 		order = 8963,
 		group = 0,
@@ -13435,7 +13655,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 0,
 		time_second = 0,
 		order = 8963,
 		group = 0,
@@ -13484,7 +13704,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 0,
 		time_second = 0,
 		order = 8963,
 		group = 0,
@@ -13533,7 +13753,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 0,
 		time_second = 0,
 		order = 8963,
 		group = 0,
@@ -13623,6 +13843,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70198] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "购买皮肤：让巴尔皮肤",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8961,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70198,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			901111
+		},
+		time = {
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70199] = {
 		group_type = 0,
 		resource_num = 780,
@@ -13631,9 +13900,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 9844,
+		order = 8962,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13648,8 +13917,8 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2019,
-					11,
+					2020,
+					5,
 					21
 				},
 				{
@@ -13660,9 +13929,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					4
+					2020,
+					6,
+					2
 				},
 				{
 					23,
@@ -13680,9 +13949,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 9845,
+		order = 8962,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13697,8 +13966,8 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2019,
-					11,
+					2020,
+					5,
 					21
 				},
 				{
@@ -13709,9 +13978,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					4
+					2020,
+					6,
+					2
 				},
 				{
 					23,
@@ -13729,9 +13998,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 9846,
+		order = 8962,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13746,8 +14015,8 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2019,
-					11,
+					2020,
+					5,
 					21
 				},
 				{
@@ -13758,9 +14027,58 @@ pg.shop_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					4
+					2020,
+					6,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70202] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：倔强泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8960,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70202,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			801041
+		},
+		time = {
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					2
 				},
 				{
 					23,
@@ -22609,6 +22927,114 @@ pg.shop_template = {
 			}
 		}
 	},
+	[99035] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 99035,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2020,
+					2,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[99036] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买限时建造补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 99036,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40118
+		},
+		time = {
+			{
+				{
+					2020,
+					2,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -22633,6 +23059,8 @@ pg.shop_template = {
 		21,
 		23,
 		24,
+		25,
+		26,
 		21001,
 		21002,
 		21003,
@@ -22745,6 +23173,7 @@ pg.shop_template = {
 		43002,
 		43003,
 		43004,
+		43005,
 		50002,
 		50003,
 		50004,
@@ -22819,6 +23248,8 @@ pg.shop_template = {
 		60192,
 		60193,
 		60194,
+		60196,
+		60197,
 		61001,
 		61002,
 		61003,
@@ -22830,6 +23261,7 @@ pg.shop_template = {
 		61009,
 		61010,
 		61012,
+		61013,
 		70001,
 		70002,
 		70003,
@@ -23011,9 +23443,11 @@ pg.shop_template = {
 		70195,
 		70196,
 		70197,
+		70198,
 		70199,
 		70200,
 		70201,
+		70202,
 		70203,
 		70204,
 		70205,
@@ -23209,6 +23643,8 @@ pg.shop_template = {
 		99031,
 		99032,
 		99033,
-		99034
+		99034,
+		99035,
+		99036
 	}
 }

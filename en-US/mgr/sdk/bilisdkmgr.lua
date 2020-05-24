@@ -1,5 +1,5 @@
 slot1 = BilibiliSdkMgr.inst
-slot2 = "BLHXSESAUH180704"
+slot2 = "BLHX3hZ20200514"
 slot3 = "FTBLHX20190524WW"
 
 function StartSdkLogin()

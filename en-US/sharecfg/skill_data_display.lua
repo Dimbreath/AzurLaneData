@@ -1868,6 +1868,26 @@ pg.skill_data_display = {
 		id = 12310,
 		name = "Swift Analysis"
 	},
+	[12320] = {
+		id = 12320,
+		name = "Poisonous Sting "
+	},
+	[12321] = {
+		id = 12321,
+		name = "Poisonous Sting "
+	},
+	[12330] = {
+		id = 12330,
+		name = "Vichya's Vindictive Blade "
+	},
+	[12350] = {
+		id = 12350,
+		name = "Unyielding Magician "
+	},
+	[12351] = {
+		id = 12351,
+		name = "Unyielding Magician "
+	},
 	[12360] = {
 		id = 12360,
 		name = "Messenger of Love "
@@ -3836,6 +3856,14 @@ pg.skill_data_display = {
 		id = 29402,
 		name = "All Out Assault Ⅱ"
 	},
+	[29411] = {
+		id = 29411,
+		name = "All Out Assault Ⅰ"
+	},
+	[29412] = {
+		id = 29412,
+		name = "All Out Assault Ⅱ"
+	},
 	[29421] = {
 		id = 29421,
 		name = "All Out Assault Ⅰ"
@@ -4664,6 +4692,11 @@ pg.skill_data_display = {
 		12270,
 		12300,
 		12310,
+		12320,
+		12321,
+		12330,
+		12350,
+		12351,
 		12360,
 		12370,
 		12380,
@@ -5156,6 +5189,8 @@ pg.skill_data_display = {
 		29392,
 		29401,
 		29402,
+		29411,
+		29412,
 		29421,
 		29422,
 		29431,

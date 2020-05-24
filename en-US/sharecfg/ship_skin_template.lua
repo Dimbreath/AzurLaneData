@@ -55833,7 +55833,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 232,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -55942,7 +55942,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70346,
-		voice_actor = -1,
+		voice_actor = 232,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -56053,7 +56053,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 233,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -56153,7 +56153,7 @@ pg.ship_skin_template = {
 		l2d_animations = "",
 		bgm = "",
 		bg = "104",
-		skin_type = -1,
+		skin_type = 0,
 		id = 301831,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -56162,7 +56162,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70348,
-		voice_actor = -1,
+		voice_actor = 233,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -66232,7 +66232,7 @@ pg.ship_skin_template = {
 		l2d_animations = "",
 		bgm = "",
 		bg = "106",
-		skin_type = -1,
+		skin_type = 0,
 		id = 305081,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -86413,11 +86413,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[801040] = {
-		name = "L'Opiniâtre",
+		name = "L'Opiniâtre ",
 		ship_group = 80104,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "自由鸢尾大胆级驱逐舰—倔强",
+		desc = "Le Hardi-class destroyer – L'Opiniâtre. ",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "juejiang",
@@ -86522,11 +86522,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[801041] = {
-		name = "沙滩上的魔法使(?)",
+		name = "Beachside Magician",
 		ship_group = 80104,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "据说夏天的海洋有着非同寻常的魔力，吸引人们驻足沙滩。但是，我除了热之外，一点魔力也没有察觉到……是我弄错了什么吗？",
+		desc = "It is said that the summertime sea holds an extraordinary enchantment over people... but the only supernatural thing I'm feeling is this accursed heat... Am I missing something?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "juejiang_2",
@@ -87780,7 +87780,7 @@ pg.ship_skin_template = {
 		l2d_animations = "",
 		bgm = "",
 		bg = "106",
-		skin_type = -1,
+		skin_type = 0,
 		id = 901021,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -87853,6 +87853,224 @@ pg.ship_skin_template = {
 				{
 					1.17,
 					1.155,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[901110] = {
+		name = "Le Malin ",
+		ship_group = 90111,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "Le Fantasque-class destroyer – Le Malin. ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "edu",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 901110,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "edu",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 132,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.78,
+					0.96,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.76,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.054,
+					0.027,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.78,
+					0.96,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[901111] = {
+		name = "Sleepy Sunday",
+		ship_group = 90111,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Morning, Commander~ Mm, the Sabbath is the day of rest, so I shall not budge from my sacred charge even if you were to call Triomphant over. I solemnly swear to do absolutely nothing today.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "edu_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 9,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 0,
+		id = 901111,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "edu_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70198,
+		voice_actor = 132,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.972,
+					1.143,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.987,
+					1.06,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.075,
+					0.048,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.962,
+					0.996,
 					0
 				}
 			}
@@ -100770,6 +100988,236 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[900238] = {
+		name = "阿尔及利亚？",
+		ship_group = 900238,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "阿尔及利亚？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "aerjiliya_hei",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 900238,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "aerjiliya_hei",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 72,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.35,
+					0.67,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.13,
+					0.25,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.35,
+					0.67,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.09,
+							0.59,
+							-0.15
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							2.24,
+							-0.59
+						}
+					}
+				}
+			}
+		}
+	},
+	[900239] = {
+		name = "让·巴尔",
+		ship_group = 900239,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "让·巴尔黑色剪影",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "rangbaer_hei",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 900239,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "rangbaer_hei",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 72,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.35,
+					0.67,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.13,
+					0.25,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.35,
+					0.67,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.09,
+							0.59,
+							-0.15
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							2.24,
+							-0.59
+						}
+					}
+				}
+			}
+		}
+	},
 	[10100010] = {
 		name = "Neptune",
 		ship_group = 1010001,
@@ -107052,6 +107500,12 @@ pg.ship_skin_template = {
 		[1010001] = {
 			10100010
 		},
+		[900239] = {
+			900239
+		},
+		[900238] = {
+			900238
+		},
 		[900236] = {
 			900236
 		},
@@ -107388,6 +107842,10 @@ pg.ship_skin_template = {
 			904010,
 			904011,
 			904012
+		},
+		[90111] = {
+			901110,
+			901111
 		},
 		[90102] = {
 			901020,
@@ -109707,6 +110165,8 @@ pg.ship_skin_template = {
 		901019,
 		901020,
 		901021,
+		901110,
+		901111,
 		904010,
 		904011,
 		904012,
@@ -109824,6 +110284,8 @@ pg.ship_skin_template = {
 		900234,
 		900235,
 		900236,
+		900238,
+		900239,
 		10100010,
 		10100020,
 		10100030,

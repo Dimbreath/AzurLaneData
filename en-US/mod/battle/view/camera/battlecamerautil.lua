@@ -33,6 +33,7 @@ function slot4.Initialize(slot0)
 	slot0:active()
 	slot0:SwitchCameraPos()
 
+	slot0._shakeEnabled = true
 	slot0._uiMediator = uv2.Battle.BattleState.GetInstance():GetMediatorByName(uv2.Battle.BattleUIMediator.__name)
 end
 
@@ -107,13 +108,13 @@ function slot4.Update(slot0)
 		uv0.UpdateCameraPositionArgs()
 	end
 
-	if slot0._shakeInfo then
+	if slot0._shakeInfo and slot0._shakeEnabled then
 		slot0:DoShake()
 	end
 end
 
 function slot4.StartShake(slot0, slot1)
-	if slot0._shakeInfo ~= nil then
+	if slot0._shakeInfo and (slot1.priority < slot0._shakeInfo._priority or slot1.priority == 0) then
 		return
 	end
 
@@ -123,14 +124,21 @@ function slot4.StartShake(slot0, slot1)
 		_count = 0,
 		_loop = slot1.loop or 1,
 		_direction = 1,
-		_horizontalDeep = slot1.horizontalDeep or 0,
-		_horizontalDeltaDeep = slot1.horizontalDeltaDeep or 0,
-		_horizontalRatio = slot1.horizontalRatio or 1,
-		_verticalDeep = slot1.verticalDeep or 0,
-		_verticalDeltaDeep = slot1.verticalDeep or 0,
-		_verticalRatio = slot1.verticalRatio or 1,
-		_diff = Vector3.zero
+		_vibrationH = slot1.vibration_H or 0,
+		_fricConstH = slot1.friction_const_H or 0,
+		_fricCoefH = slot1.friction_coefficient_H or 1,
+		_vibrationV = slot1.vibration_V or 0,
+		_fricConstV = slot1.friction_const_V or 0,
+		_fricCoefV = slot1.friction_coefficient_V or 1,
+		_diff = Vector3.zero,
+		_bounce = slot1.bounce
 	}
+
+	if slot0._shakeInfo._bounce then
+		slot0._shakeInfo._duration = slot0._shakeInfo._duration * 0.5
+	end
+
+	slot0._shakeInfo._priority = slot1.priority
 end
 
 function slot4.StopShake(slot0)
@@ -141,20 +149,48 @@ function slot4.DoShake(slot0)
 	slot0._shakeInfo._count = slot0._shakeInfo._count + 1
 	slot0._shakeInfo._elapsed = slot0._shakeInfo._elapsed + Time.deltaTime
 
-	LuaHelper.UpdateTFLocalPos(slot0._cameraTF, Vector3(slot0._shakeInfo._horizontalDeep * (math.random() * 0.5 + 0.5) * slot0._shakeInfo._count, slot0._shakeInfo._verticalDeep * (math.random() * 0.5 + 0.5) * slot0._shakeInfo._count, 0):Mul(slot0._shakeInfo._direction) - slot0._shakeInfo._diff)
+	LuaHelper.UpdateTFLocalPos(slot0._cameraTF, Vector3(slot0._shakeInfo._vibrationH * (math.random() * 0.5 + 0.5) * slot0._shakeInfo._count, slot0._shakeInfo._vibrationV * (math.random() * 0.5 + 0.5) * slot0._shakeInfo._count, 0):Mul(slot0._shakeInfo._direction) - slot0._shakeInfo._diff)
 
 	if slot0._shakeInfo._loop <= slot0._shakeInfo._count then
-		slot0._shakeInfo._horizontalDeep = slot0._shakeInfo._horizontalDeep * slot0._shakeInfo._horizontalRatio + slot0._shakeInfo._horizontalDeltaDeep
-		slot0._shakeInfo._verticalDeep = slot0._shakeInfo._verticalDeep * slot0._shakeInfo._verticalRatio + slot0._shakeInfo._verticalDeltaDeep
+		slot0._shakeInfo._vibrationH = slot0._shakeInfo._vibrationH * slot0._shakeInfo._fricCoefH + slot0._shakeInfo._fricConstH
+		slot0._shakeInfo._vibrationV = slot0._shakeInfo._vibrationV * slot0._shakeInfo._fricCoefV + slot0._shakeInfo._fricConstV
 		slot0._shakeInfo._direction = -slot0._shakeInfo._direction
 		slot0._shakeInfo._count = 0
 	end
 
 	if slot0._shakeInfo._duration < slot0._shakeInfo._elapsed then
-		slot0:StopShake()
+		if slot0._shakeInfo._bounce then
+			uv0.bounceReverse(slot0._shakeInfo)
+
+			slot0._shakeInfo._elapsed = 0
+			slot0._shakeInfo._bounce = false
+		else
+			slot0:StopShake()
+		end
 	else
 		slot0._shakeInfo._diff = slot3
 	end
+end
+
+function slot4.bounceReverse(slot0)
+	if slot0._fricCoefH ~= 0 then
+		slot0._fricCoefH = 1 / slot0._fricCoefH
+	end
+
+	if slot0._fricCoefV ~= 0 then
+		slot0._fricCoefV = 1 / slot0._fricCoefV
+	end
+
+	slot0._fricConstH = slot0._fricConstH * -1
+	slot0._fricConstV = slot0._fricConstV * -1
+end
+
+function slot4.PauseShake(slot0)
+	slot0._shakeEnabled = false
+end
+
+function slot4.ResumeShake(slot0)
+	slot0._shakeEnabled = true
 end
 
 function slot4.active(slot0)

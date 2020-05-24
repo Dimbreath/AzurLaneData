@@ -16,7 +16,7 @@ function slot0.OnDestroy(slot0)
 end
 
 function slot0.OnBackPress(slot0)
-	if isActive(slot0.boxTF) then
+	if slot0:GetLoaded() and isActive(slot0.boxTF) then
 		slot0.buildMsgBox:hide()
 
 		return true

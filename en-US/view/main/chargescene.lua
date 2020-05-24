@@ -300,8 +300,8 @@ function slot0.initDamonds(slot0)
 	slot0:initDamondsData()
 
 	slot0.damondItems = {}
-
-	function slot1(slot0)
+	slot0.diamondUIItemList = slot0:initDiamondList(slot0.viewContainer:Find("diamondPanel"))
+	slot0.giftRect = slot0:initRect(slot0.viewContainer:Find("giftPanel"), function (slot0)
 		slot1 = uv0:createGoods(slot0)
 
 		onButton(uv0, slot1.tr, function ()
@@ -311,9 +311,33 @@ function slot0.initDamonds(slot0)
 		end, SFX_PANEL)
 
 		uv0.damondItems[slot0] = slot1
+	end, function (slot0, slot1)
+		if not uv0.damondItems[slot1] then
+			uv1(slot1)
+
+			slot2 = uv0.damondItems[slot1]
+		end
+
+		if uv0.tempDamondVOs[slot0 + 1] then
+			slot2:update(slot3, uv0.player, uv0.firstChargeIds)
+		end
+	end)
+end
+
+function slot0.initDiamondList(slot0, slot1)
+	slot4 = slot0:findTF("content/ItemMonth", slot1)
+
+	function slot5(slot0)
+		slot1 = ChargeDiamondCard.New(slot0, uv0, uv1)
+
+		onButton(uv1, slot1.tr, function ()
+			uv0:confirm(uv1)
+		end, SFX_PANEL)
+
+		uv1.damondItems[slot0] = slot1
 	end
 
-	function slot2(slot0, slot1)
+	function slot6(slot0, slot1)
 		if not uv0.damondItems[slot1] then
 			uv1(slot1)
 
@@ -325,8 +349,17 @@ function slot0.initDamonds(slot0)
 		end
 	end
 
-	slot0.diamondRect = slot0:initRect(slot0.viewContainer:Find("diamondPanel"), slot1, slot2)
-	slot0.giftRect = slot0:initRect(slot0.viewContainer:Find("giftPanel"), slot1, slot2)
+	slot7 = UIItemList.New(slot0:findTF("content/ItemList", slot1), slot0:findTF("ItemTpl", slot1))
+
+	slot7:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventInit then
+			uv0(go(slot2))
+		elseif slot0 == UIItemList.EventUpdate then
+			uv1(slot1, go(slot2))
+		end
+	end)
+
+	return slot7
 end
 
 function slot0.confirm(slot0, slot1)
@@ -501,25 +534,17 @@ function slot0.sortDamondItems(slot0, slot1)
 			return slot6 < slot7
 		end
 
-		if slot3 and slot5 then
-			if slot2 == slot4 then
-				if (slot0:getConfig("tag") == 2 and 1 or 0) == (slot1:getConfig("tag") == 2 and 1 or 0) then
-					return slot0.id < slot1.id
-				else
-					return slot10 < slot9
-				end
-			else
-				return (slot2 and 1 or 0) > (slot4 and 1 or 0)
-			end
+		if slot3 == slot5 and (slot0:getConfig("tag") == 2 and 1 or 0) == (slot1:getConfig("tag") == 2 and 1 or 0) then
+			return slot0.id < slot1.id
+		else
+			return slot5 < slot3 or slot3 == slot5 and slot10 < slot9
 		end
-
-		return slot0.id < slot1.id
 	end)
 
 	if slot2 == uv0.TYPE_DIAMOND then
-		slot0.diamondRect:SetTotalCount(#slot0.tempDamondVOs, slot0.diamondRect.value)
+		slot0.diamondUIItemList:align(#slot0.tempDamondVOs)
 	elseif slot2 == uv0.TYPE_GIFT then
-		slot0.giftRect:SetTotalCount(#slot0.tempDamondVOs, slot0.diamondRect.value)
+		slot0.giftRect:SetTotalCount(#slot0.tempDamondVOs, slot0.giftRect.value)
 	end
 end
 
@@ -532,10 +557,42 @@ function slot0.setItemVOs(slot0)
 
 	for slot5, slot6 in pairs(pg.shop_template.all) do
 		if slot1[slot6].genre == "gem_shop" then
-			table.insert(slot0.itemVOs, Goods.New({
-				count = 0,
-				shop_id = slot6
-			}, Goods.TYPE_MILITARY))
+			if slot1[slot6].effect_args == "ship_bag_size" then
+				slot9 = slot1[slot6].limit_args[3]
+
+				if slot1[slot6].limit_args[2] and slot9 and slot8 <= slot0.player.ship_bag_max and slot0.player.ship_bag_max <= slot9 then
+					print("根据船坞大小插入商品ID", slot6)
+					table.insert(slot0.itemVOs, Goods.New({
+						count = 0,
+						shop_id = slot6
+					}, Goods.TYPE_MILITARY))
+				end
+			elseif slot7 == "equip_bag_max" then
+				slot9 = slot1[slot6].limit_args[3]
+
+				if slot1[slot6].limit_args[2] and slot9 and slot8 <= slot0.player.equip_bag_max and slot0.player.equip_bag_max <= slot9 then
+					print("根据装备仓库大小插入商品ID", slot6)
+					table.insert(slot0.itemVOs, Goods.New({
+						count = 0,
+						shop_id = slot6
+					}, Goods.TYPE_MILITARY))
+				end
+			elseif slot7 == "commander_bag_size" then
+				slot9 = slot1[slot6].limit_args[3]
+
+				if slot1[slot6].limit_args[2] and slot9 and slot8 <= slot0.player.commanderBagMax and slot0.player.commanderBagMax <= slot9 then
+					print("根据指挥猫大小插入商品ID", slot6)
+					table.insert(slot0.itemVOs, Goods.New({
+						count = 0,
+						shop_id = slot6
+					}, Goods.TYPE_MILITARY))
+				end
+			else
+				table.insert(slot0.itemVOs, Goods.New({
+					count = 0,
+					shop_id = slot6
+				}, Goods.TYPE_MILITARY))
+			end
 		end
 	end
 end
@@ -642,11 +699,18 @@ end
 
 function slot0.sortItems(slot0)
 	table.sort(slot0.itemVOs, function (slot0, slot1)
-		if (slot0:isLevelLimit(uv0.player.level) and 1 or 0) == (slot1:isLevelLimit(uv0.player.level) and 1 or 0) then
-			return slot1.id < slot0.id
-		end
+		slot2 = slot0:isLevelLimit(uv0.player.level) and 1 or 0
+		slot3 = slot1:isLevelLimit(uv0.player.level) and 1 or 0
 
-		return slot2 < slot3
+		if slot0:getConfig("order") == slot1:getConfig("order") then
+			if slot2 == slot3 then
+				return slot1.id < slot0.id
+			end
+
+			return slot2 < slot3
+		else
+			return slot4 < slot5
+		end
 	end)
 	slot0.itemRect:SetTotalCount(#slot0.itemVOs, -1)
 end

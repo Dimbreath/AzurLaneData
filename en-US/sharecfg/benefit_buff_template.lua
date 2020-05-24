@@ -30,6 +30,20 @@ pg.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		desc = "Dorm EXP bonus +20%"
 	},
+	{
+		max_time = 0,
+		name = "EXP Bonus",
+		icon = "Props/xinshou",
+		benefit_effect = "100",
+		id = 4,
+		benefit_type = "rookie_battle_exp",
+		desc = "Earn 100% bonus Commander EXP and Ship EXP from Normal stages, Hard stages, Event stages, War Archives stages and daily missions when you are lower than lv. 30.",
+		benefit_condition = {
+			"lv",
+			"<",
+			30
+		}
+	},
 	[10] = {
 		max_time = 86400,
 		name = "Academic Achievement",
@@ -60,12 +74,229 @@ pg.benefit_buff_template = {
 		benefit_type = "intimacy_up_extra",
 		desc = "Increases the rate at which your secretary ship gains Affection. \nTime remaining: $1"
 	},
+	[13] = {
+		max_time = 0,
+		name = "Combat Insight I",
+		icon = "Props/xinshou",
+		benefit_effect = "3",
+		id = 13,
+		benefit_type = "ship_battle_exp",
+		desc = "Increases the EXP that ships gain from Normal, Hard, and Event stages by 3%",
+		benefit_condition = {
+			"activity",
+			30412,
+			{
+				1,
+				1
+			}
+		}
+	},
+	[14] = {
+		max_time = 0,
+		name = "Combat Insight II",
+		icon = "Props/xinshou",
+		benefit_effect = "4",
+		id = 14,
+		benefit_type = "ship_battle_exp",
+		desc = "Increases the EXP that ships gain from Normal, Hard, and Event stages by 4%",
+		benefit_condition = {
+			"activity",
+			30412,
+			{
+				1,
+				2
+			}
+		}
+	},
+	[15] = {
+		max_time = 0,
+		name = "Combat Insight III",
+		icon = "Props/xinshou",
+		benefit_effect = "5",
+		id = 15,
+		benefit_type = "ship_battle_exp",
+		desc = "Increases the EXP that ships gain from Normal, Hard, and Event stages by 5%",
+		benefit_condition = {
+			"activity",
+			30412,
+			{
+				1,
+				3
+			}
+		}
+	},
+	[16] = {
+		max_time = 0,
+		name = "Battle Acumen I",
+		icon = "Props/buff_minigame_11",
+		benefit_effect = "502",
+		id = 16,
+		benefit_type = "battle_buff",
+		desc = "Increases the DMG your ships deal in Normal, Hard, and Event stages by 1%",
+		benefit_condition = {
+			"activity",
+			30412,
+			{
+				2,
+				1
+			}
+		}
+	},
+	[17] = {
+		max_time = 0,
+		name = "Battle Acumen II",
+		icon = "Props/buff_minigame_11",
+		benefit_effect = "504",
+		id = 17,
+		benefit_type = "battle_buff",
+		desc = "Increases the DMG your ships deal in Normal, Hard, and Event stages by 2%",
+		benefit_condition = {
+			"activity",
+			30412,
+			{
+				2,
+				2
+			}
+		}
+	},
+	[18] = {
+		max_time = 0,
+		name = "Battle Acumen III",
+		icon = "Props/buff_minigame_11",
+		benefit_effect = "500",
+		id = 18,
+		benefit_type = "battle_buff",
+		desc = "Increases the DMG your ships deal in Normal, Hard, and Event stages by 3%",
+		benefit_condition = {
+			"activity",
+			30412,
+			{
+				2,
+				3
+			}
+		}
+	},
+	[19] = {
+		max_time = 0,
+		name = "Efficient Education I",
+		icon = "Props/buff_minigame_10",
+		benefit_effect = "300",
+		id = 19,
+		benefit_type = "skill_learncost_up",
+		desc = "Reduces Tactical Class training time by 3%",
+		benefit_condition = {
+			"activity",
+			30412,
+			{
+				3,
+				1
+			}
+		}
+	},
+	[20] = {
+		max_time = 0,
+		name = "Efficient Education II",
+		icon = "Props/buff_minigame_10",
+		benefit_effect = "400",
+		id = 20,
+		benefit_type = "skill_learncost_up",
+		desc = "Reduces Tactical Class training time by 4%",
+		benefit_condition = {
+			"activity",
+			30412,
+			{
+				3,
+				2
+			}
+		}
+	},
+	[21] = {
+		max_time = 0,
+		name = "Efficient Education III",
+		icon = "Props/buff_minigame_10",
+		benefit_effect = "500",
+		id = 21,
+		benefit_type = "skill_learncost_up",
+		desc = "Reduces Tactical Class training time by 5%",
+		benefit_condition = {
+			"activity",
+			30412,
+			{
+				3,
+				3
+			}
+		}
+	},
+	[22] = {
+		max_time = 0,
+		name = "Leisurely Learning I",
+		icon = "Props/buff_minigame_12",
+		benefit_effect = "3",
+		id = 22,
+		benefit_type = "dorm_exp",
+		desc = "Increases EXP gained in the Dorm by 3%",
+		benefit_condition = {
+			"activity",
+			30412,
+			{
+				4,
+				1
+			}
+		}
+	},
+	[23] = {
+		max_time = 0,
+		name = "Leisurely Learning II",
+		icon = "Props/buff_minigame_12",
+		benefit_effect = "4",
+		id = 23,
+		benefit_type = "dorm_exp",
+		desc = "Increases EXP gained in the Dorm by 4%",
+		benefit_condition = {
+			"activity",
+			30412,
+			{
+				4,
+				2
+			}
+		}
+	},
+	[24] = {
+		max_time = 0,
+		name = "Leisurely Learning III",
+		icon = "Props/buff_minigame_12",
+		benefit_effect = "5",
+		id = 24,
+		benefit_type = "dorm_exp",
+		desc = "Increases EXP gained in the Dorm by 5%",
+		benefit_condition = {
+			"activity",
+			30412,
+			{
+				4,
+				3
+			}
+		}
+	},
 	all = {
 		1,
 		2,
 		3,
+		4,
 		10,
 		11,
-		12
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		20,
+		21,
+		22,
+		23,
+		24
 	}
 }

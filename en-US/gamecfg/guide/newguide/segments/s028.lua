@@ -64,7 +64,7 @@ return {
 		{
 			alpha = 0.409,
 			style = {
-				text = "点击<color=#ff7d36>出击</color>进行战斗！",
+				text = "Tap <color=#ff7d36>Battle</color> to start the battle!",
 				mode = 2,
 				dir = 1,
 				posY = -68.93,

@@ -12066,6 +12066,7 @@ pg.activity_template = {
 	[30395] = {
 		mark = 20200507,
 		title_res_tag = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -12077,38 +12078,12 @@ pg.activity_template = {
 			1350001,
 			1350002,
 			1350003
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[30396] = {
 		mark = 20200507,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -12123,38 +12098,12 @@ pg.activity_template = {
 			15568,
 			15569,
 			15570
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[30397] = {
 		mark = 20200507,
 		title_res_tag = "france_sp",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -12167,33 +12116,6 @@ pg.activity_template = {
 			15573,
 			15574
 		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_france_sp"
 		}
@@ -12201,6 +12123,7 @@ pg.activity_template = {
 	[30398] = {
 		mark = 20200507,
 		title_res_tag = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 9,
@@ -12208,38 +12131,12 @@ pg.activity_template = {
 		config_client = "",
 		bg = "",
 		id = 30398,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[30399] = {
 		mark = 20200514,
 		title_res_tag = "",
+		time = "stop",
 		type = 26,
 		login_pop = 0,
 		config_id = 0,
@@ -12247,33 +12144,6 @@ pg.activity_template = {
 		config_data = "activity_drop_30399",
 		bg = "",
 		id = 30399,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 1,
 			bg = "loadingbg/bg_build_1_act",
@@ -12289,6 +12159,671 @@ pg.activity_template = {
 				"<color=#d797ff>Sheffield</color>：2.5%(<color=#92fc63>up!</color>)",
 				"<color=#d797ff>Matchless</color>：2.5%(<color=#92fc63>up!</color>)",
 				"<color=#3dc6ff>Jamaica</color>：5.0%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[30400] = {
+		mark = 20200521,
+		title_res_tag = "",
+		type = 30,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30400,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30401] = {
+		mark = 20200521,
+		title_res_tag = "france_re_main",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 77,
+		config_client = "",
+		id = 30401,
+		config_data = {
+			1240001,
+			1240003,
+			1240004,
+			1240011,
+			1240013,
+			1240014,
+			1240005,
+			1240007,
+			1240008,
+			1240015,
+			1240017,
+			1240018,
+			1240019,
+			1240021
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_france_re_main"
+		}
+	},
+	[30402] = {
+		mark = 20200521,
+		title_res_tag = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30402,
+		config_data = {
+			4001201,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30403] = {
+		mark = 20200521,
+		title_res_tag = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 130,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		bg = "",
+		id = 30403,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30404] = {
+		mark = 20200521,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30404,
+		config_data = {
+			14730,
+			14731,
+			14732,
+			14733,
+			14734,
+			14735,
+			14736,
+			14737,
+			14738,
+			14739,
+			14740,
+			14741,
+			14742,
+			14743,
+			14744,
+			14745,
+			14746
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30405] = {
+		mark = 20200521,
+		title_res_tag = "france_re_oil",
+		type = 54,
+		login_pop = 0,
+		config_id = 30405,
+		is_show = 75,
+		config_client = "",
+		id = 30405,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_france_re_oil"
+		}
+	},
+	[30406] = {
+		mark = 20200521,
+		title_res_tag = "france_re_pt",
+		type = 54,
+		login_pop = 0,
+		config_id = 30406,
+		is_show = 76,
+		config_client = "",
+		id = 30406,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_france_re_pt"
+		}
+	},
+	[30407] = {
+		mark = 20200521,
+		title_res_tag = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		bg = "",
+		id = 30407,
+		config_data = {
+			850,
+			851,
+			852,
+			853,
+			854,
+			855,
+			856,
+			857,
+			858,
+			859,
+			860,
+			861,
+			862,
+			863,
+			864,
+			865,
+			866,
+			867,
+			868,
+			869,
+			870,
+			871
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_faxi",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			pt_id = 130,
+			painting = "kaixuan_pt"
+		}
+	},
+	[30408] = {
+		mark = 20200521,
+		title_res_tag = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30408,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30409] = {
+		mark = 20200521,
+		title_res_tag = "",
+		type = 55,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30409,
+		config_data = {
+			1,
+			2,
+			3
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30410] = {
+		mark = 20200521,
+		title_res_tag = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 9,
+		is_show = 0,
+		bg = "",
+		id = 30410,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			ships = {
+				"dafeng_4",
+				"guanghui_5",
+				"wuqi_2",
+				"tianlangxing_4",
+				"ninghai_5",
+				"pinghai_5"
+			}
+		}
+	},
+	[30411] = {
+		mark = 20200521,
+		title_res_tag = "towerclimbingsign",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 78,
+		config_client = "",
+		bg = "clutter/towerclimbingsign_bg",
+		id = 30411,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30412] = {
+		mark = 20200521,
+		title_res_tag = "",
+		type = 67,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30412,
+		config_data = {
+			1,
+			2,
+			3,
+			4
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30413] = {
+		mark = 20200521,
+		title_res_tag = "",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30413,
+		config_data = {
+			{
+				15662
+			},
+			{
+				15664
+			},
+			{
+				15666
+			},
+			{
+				15668
+			},
+			{
+				15670
+			},
+			{
+				15672
+			},
+			{
+				15674
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -13409,6 +13944,20 @@ pg.activity_template = {
 		30397,
 		30398,
 		30399,
+		30400,
+		30401,
+		30402,
+		30403,
+		30404,
+		30405,
+		30406,
+		30407,
+		30408,
+		30409,
+		30410,
+		30411,
+		30412,
+		30413,
 		30500,
 		30501,
 		30502,

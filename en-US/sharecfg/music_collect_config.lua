@@ -1,30 +1,24 @@
 pg = pg or {}
 pg.music_collect_config = {
 	{
-		music = "gallerybgm-test1",
-		name = "测试名字1",
+		music = "bgm-login",
+		name = "Weigh Anchor",
 		unlock_other = 0,
 		id = 1,
-		cover = "musicCoverTest1",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
 			0
 		},
-		unlock_cost = {
-			{
-				1,
-				1,
-				100
-			}
-		}
+		unlock_cost = {}
 	},
 	{
-		music = "gallerybgm-test2",
-		name = "测试名字2",
+		music = "bgm-main",
+		name = "Port",
 		unlock_other = 0,
 		id = 2,
-		cover = "musicCoverTest2",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -33,30 +27,24 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		music = "gallerybgm-test3",
-		name = "测试名字3",
+		music = "bgm-backyard",
+		name = "Leisurely Moment",
 		unlock_other = 0,
 		id = 3,
-		cover = "musicCoverTest3",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
 			0
 		},
-		unlock_cost = {
-			{
-				1,
-				2,
-				100
-			}
-		}
+		unlock_cost = {}
 	},
 	{
-		music = "gallerybgm-test4",
-		name = "测试名字4",
+		music = "bgm-story-1",
+		name = "Daily Life",
 		unlock_other = 0,
 		id = 4,
-		cover = "musicCoverTest4",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -65,86 +53,119 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		music = "gallerybgm-test5",
-		name = "测试名字5",
+		music = "bgm-story-2",
+		name = "Thoughts",
 		unlock_other = 0,
 		id = 5,
-		cover = "musicCoverTest5",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
 			0
 		},
-		unlock_cost = {
-			{
-				1,
-				1,
-				300
-			}
-		}
+		unlock_cost = {}
 	},
 	{
-		music = "gallerybgm-test6",
-		name = "测试名字6",
+		music = "bgm-level",
+		name = "Sortie",
 		unlock_other = 0,
 		id = 6,
-		cover = "musicCoverTest6",
-		illustrate = "指挥官等级达到LV.10后开放",
+		cover = "MusicCover1",
+		illustrate = "",
 		unlock_level = {
-			10,
+			1,
 			0
 		},
 		unlock_cost = {}
 	},
 	{
-		music = "gallerybgm-test7",
-		name = "测试名字7",
+		music = "bgm-battle-1",
+		name = "Azur Wind",
 		unlock_other = 0,
 		id = 7,
-		cover = "musicCoverTest7",
-		illustrate = "指挥官等级达到LV.15后开放",
+		cover = "MusicCover1",
+		illustrate = "",
 		unlock_level = {
-			15,
-			1
+			1,
+			0
 		},
 		unlock_cost = {}
 	},
 	{
-		music = "gallerybgm-test8",
-		name = "测试名字8",
+		music = "bgm-battle-2",
+		name = "Solomon Night",
 		unlock_other = 0,
 		id = 8,
-		cover = "musicCoverTest8",
-		illustrate = "指挥官等级达到LV.20后开放",
+		cover = "MusicCover1",
+		illustrate = "",
 		unlock_level = {
-			20,
-			1
+			1,
+			0
 		},
 		unlock_cost = {}
 	},
 	{
-		music = "gallerybgm-test9",
-		name = "测试名字9",
+		music = "bgm-battle-boss-1",
+		name = "Fierce Battle",
 		unlock_other = 0,
 		id = 9,
-		cover = "musicCoverTest9",
-		illustrate = "指挥官等级达到LV.25后开放",
+		cover = "MusicCover1",
+		illustrate = "",
 		unlock_level = {
-			25,
-			1
+			1,
+			0
 		},
 		unlock_cost = {}
 	},
 	{
-		music = "gallerybgm-test10",
-		name = "测试名字10",
+		music = "bgm-battle-boss-2",
+		name = "Determination",
 		unlock_other = 0,
 		id = 10,
-		cover = "musicCoverTest10",
-		illustrate = "指挥官等级达到LV.30后开放",
+		cover = "MusicCover1",
+		illustrate = "",
 		unlock_level = {
-			30,
-			1
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-level02",
+		name = "Purpose",
+		unlock_other = 0,
+		id = 11,
+		cover = "MusicCover1",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-battle-boss-4",
+		name = "DISPOSE THE PAWNS",
+		unlock_other = 0,
+		id = 12,
+		cover = "MusicCover1",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-wedding",
+		name = "The Promised Moment",
+		unlock_other = 0,
+		id = 13,
+		cover = "MusicCover1",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
 		},
 		unlock_cost = {}
 	},
@@ -158,6 +179,9 @@ pg.music_collect_config = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11,
+		12,
+		13
 	}
 }

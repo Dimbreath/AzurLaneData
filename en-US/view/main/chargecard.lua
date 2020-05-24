@@ -25,6 +25,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.limitText = slot0.tr:Find("real_tpl/LimitText")
 	slot0.countDown = slot0.tr:Find("real_tpl/countDown")
 	slot0.countDownTm = slot0.countDown:Find("Text")
+	slot0.timeLeftTag = slot0.tr:Find("real_tpl/time_left")
+	slot0.dayLeftTag = slot0.tr:Find("real_tpl/time_left/day")
+	slot0.hourLeftTag = slot0.tr:Find("real_tpl/time_left/hour")
+	slot0.minLeftTag = slot0.tr:Find("real_tpl/time_left/min")
+	slot0.numLeftText = slot0.timeLeftTag:Find("Text")
 	slot0.tag = slot0.tr:Find("real_tpl/tag")
 	slot0.tags = {}
 
@@ -69,6 +74,7 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 
 	slot6 = (table.contains(slot3, slot1.id) or slot1:firstPayDouble()) and 4 or slot1:getConfig("tag")
 
+	setActive(slot0.timeLeftTag, false)
 	setActive(slot0.tag, slot6 > 0)
 
 	if slot6 > 0 then
@@ -77,33 +83,93 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 		end
 	end
 
+	setActive(slot0.timeLeftTag, false)
+
+	slot7, slot8 = slot1:inTime()
+
+	if slot7 and slot8 and slot8 > 0 then
+		slot9, slot10, slot11 = pg.TimeMgr.GetInstance():parseTimeFrom(slot8)
+
+		if slot9 > 0 then
+			setActive(slot0.timeLeftTag, true)
+			setActive(slot0.dayLeftTag, true)
+			setActive(slot0.hourLeftTag, false)
+			setActive(slot0.minLeftTag, false)
+			setText(slot0.numLeftText, slot9)
+		elseif slot10 > 0 then
+			setActive(slot0.timeLeftTag, true)
+			setActive(slot0.dayLeftTag, false)
+			setActive(slot0.hourLeftTag, true)
+			setActive(slot0.minLeftTag, false)
+			setText(slot0.numLeftText, slot10)
+		elseif slot11 > 0 then
+			setActive(slot0.timeLeftTag, true)
+			setActive(slot0.dayLeftTag, false)
+			setActive(slot0.hourLeftTag, false)
+			setActive(slot0.minLeftTag, true)
+			setText(slot0.numLeftText, slot11)
+		else
+			setActive(slot0.timeLeftTag, true)
+			setActive(slot0.dayLeftTag, false)
+			setActive(slot0.hourLeftTag, false)
+			setActive(slot0.minLeftTag, true)
+			setText(slot0.numLeftText, 0)
+		end
+
+		slot12 = 60
+		slot13 = 3600
+		slot15 = nil
+
+		if 86400 <= slot8 then
+			slot15 = slot8 % slot14
+		elseif slot13 <= slot8 then
+			slot15 = slot8 % slot13
+		elseif slot12 <= slot8 then
+			slot15 = slot8 % slot12
+		end
+
+		if slot15 and slot15 > 0 then
+			if slot0.countDownTimer then
+				slot0.countDownTimer:Stop()
+
+				slot0.countDownTimer = nil
+			end
+
+			slot0.countDownTimer = Timer.New(function ()
+				uv0:updateGemItem(uv1, uv2)
+			end, slot15, 1)
+
+			slot0.countDownTimer:Start()
+		end
+	end
+
 	setActive(slot0.resIcon, not slot1:isItemBox())
 	setActive(slot0.resCount, not slot1:isItemBox())
 	setActive(slot0.name, not slot1:isGem())
 	setText(slot0.name, slot1:getConfig("name"))
 	setActive(slot0.important, slot1:isItemBox() or slot1:isGiftBox())
-	setActive(slot0.count, slot7 or slot1:isMonthCard())
+	setActive(slot0.count, slot9 or slot1:isMonthCard())
 
 	if slot1:isItemBox() or slot1:isGiftBox() then
 		slot0:updateImport(slot1:getConfig("display"), slot1:getConfig("descrip"))
 	end
 
-	slot9 = slot1.buyCount
-	slot10 = slot1:getLimitCount()
+	slot11 = slot1.buyCount
+	slot12 = slot1:getLimitCount()
 
 	if slot1:getConfig("limit_type") == 2 then
-		setText(slot0.limitText, i18n("charge_limit_all", slot10 - slot9, slot10))
-		setActive(slot0.mask, slot10 - slot9 <= 0)
+		setText(slot0.limitText, i18n("charge_limit_all", slot12 - slot11, slot12))
+		setActive(slot0.mask, slot12 - slot11 <= 0)
 	else
 		setText(slot0.limitText, "")
 	end
 
 	if slot1:isMonthCard() then
-		if slot2:getCardById(VipCard.MONTH) and not slot11:isExpire() then
-			slot14 = math.floor((slot11:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400)
+		if slot2:getCardById(VipCard.MONTH) and not slot13:isExpire() then
+			slot16 = math.floor((slot13:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400)
 
-			setActive(slot0.mask, (slot1:getConfig("limit_arg") or 0) < slot14)
-			setText(slot0.limitText, i18n("charge_month_card_lefttime_tip", slot14))
+			setActive(slot0.mask, (slot1:getConfig("limit_arg") or 0) < slot16)
+			setText(slot0.limitText, i18n("charge_month_card_lefttime_tip", slot16))
 		end
 
 		setText(slot0.desc, string.gsub(slot1:getConfig("descrip"), "$1", slot4 and slot1:getConfig("gem") or slot1:getConfig("extra_gem")))
@@ -170,17 +236,77 @@ function slot0.updateGemItem(slot0, slot1, slot2)
 		end
 	end
 
+	setActive(slot0.timeLeftTag, false)
+
+	slot7, slot8 = slot1:inTime()
+
+	if slot7 and slot8 and slot8 > 0 then
+		slot9, slot10, slot11 = pg.TimeMgr.GetInstance():parseTimeFrom(slot8)
+
+		if slot9 > 0 then
+			setActive(slot0.timeLeftTag, true)
+			setActive(slot0.dayLeftTag, true)
+			setActive(slot0.hourLeftTag, false)
+			setActive(slot0.minLeftTag, false)
+			setText(slot0.numLeftText, slot9)
+		elseif slot10 > 0 then
+			setActive(slot0.timeLeftTag, true)
+			setActive(slot0.dayLeftTag, false)
+			setActive(slot0.hourLeftTag, true)
+			setActive(slot0.minLeftTag, false)
+			setText(slot0.numLeftText, slot10)
+		elseif slot11 > 0 then
+			setActive(slot0.timeLeftTag, true)
+			setActive(slot0.dayLeftTag, false)
+			setActive(slot0.hourLeftTag, false)
+			setActive(slot0.minLeftTag, true)
+			setText(slot0.numLeftText, slot11)
+		else
+			setActive(slot0.timeLeftTag, true)
+			setActive(slot0.dayLeftTag, false)
+			setActive(slot0.hourLeftTag, false)
+			setActive(slot0.minLeftTag, true)
+			setText(slot0.numLeftText, 0)
+		end
+
+		slot12 = 60
+		slot13 = 3600
+		slot15 = nil
+
+		if 86400 <= slot8 then
+			slot15 = slot8 % slot14
+		elseif slot13 <= slot8 then
+			slot15 = slot8 % slot13
+		elseif slot12 <= slot8 then
+			slot15 = slot8 % slot12
+		end
+
+		if slot15 and slot15 > 0 then
+			if slot0.countDownTimer then
+				slot0.countDownTimer:Stop()
+
+				slot0.countDownTimer = nil
+			end
+
+			slot0.countDownTimer = Timer.New(function ()
+				uv0:updateGemItem(uv1, uv2)
+			end, slot15, 1)
+
+			slot0.countDownTimer:Start()
+		end
+	end
+
 	setActive(slot0.name, true)
 
 	if #slot1:getConfig("effect_args") > 0 then
-		if pg.item_data_statistics[slot7[1]] then
-			setText(slot0.name, slot8.name)
-			slot0:updateImport(slot8.display_icon, slot8.display)
+		if pg.item_data_statistics[slot9[1]] then
+			setText(slot0.name, slot10.name)
+			slot0:updateImport(slot10.display_icon, slot10.display)
 		end
 
 		slot0.iconTF.sprite = GetSpriteFromAtlas("chargeicon/1", "")
 
-		LoadSpriteAsync(slot8.icon, function (slot0)
+		LoadSpriteAsync(slot10.icon, function (slot0)
 			if slot0 then
 				uv0.iconTF.sprite = slot0
 			end
@@ -262,6 +388,12 @@ function slot0.destoryTimer(slot0)
 		slot0.updateTimer:Stop()
 
 		slot0.updateTimer = nil
+	end
+
+	if slot0.countDownTimer then
+		slot0.countDownTimer:Stop()
+
+		slot0.countDownTimer = nil
 	end
 end
 

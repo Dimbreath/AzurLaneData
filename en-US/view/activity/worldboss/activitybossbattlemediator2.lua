@@ -294,7 +294,9 @@ function slot0.handleNotification(slot0, slot1)
 end
 
 function slot0.tryBattle(slot0)
-	if getProxy(FleetProxy):checkActivityFleet(slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2).id) ~= true then
+	slot1 = slot0.activityProxy
+
+	if getProxy(FleetProxy):checkActivityFleet(slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2).id) ~= true then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
 
 		return

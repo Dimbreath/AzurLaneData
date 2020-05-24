@@ -262,6 +262,29 @@ slot2 = {
 		desc = i18n("option_desc6")
 	}
 }
+slot3 = {
+	{
+		default = 1,
+		title = i18n("words_visit_backyard_toggle"),
+		name = ALLOW_FIREND_VISIT_BACKYARD,
+		desc = i18n("option_desc7"),
+		playerFlag = ALLOW_FIREND_VISIT_BACKYARD_FLAG
+	},
+	{
+		default = 0,
+		title = i18n("words_show_friend_backyardship_toggle"),
+		name = SHOW_FIREND_BACKYARD_SHIP,
+		desc = i18n("option_desc8"),
+		playerFlag = SHOW_FIREND_BACKYARD_SHIP_FLAG
+	},
+	{
+		default = 0,
+		title = i18n("words_show_my_backyardship_toggle"),
+		name = SHOW_MY_BACKYARD_SHIP,
+		desc = i18n("option_desc9"),
+		playerFlag = SHOW_MY_BACKYARD_SHIP_FLAG
+	}
+}
 
 function slot0.initOptionsPanel(slot0, slot1)
 	slot2 = slot1:Find("scroll_view/Viewport/content/fps_setting")
@@ -344,6 +367,50 @@ function slot0.initOptionsPanel(slot0, slot1)
 			triggerToggle(slot15:Find("off"), not slot0[slot14.name])
 		end
 	end
+
+	slot0:UpdateBackYardConfig()
+end
+
+function slot0.UpdateBackYardConfig(slot0)
+	if not slot0.backyardConfigToggles then
+		slot0.backyardConfigToggles = {}
+		slot5 = slot0
+		slot6 = "main/options"
+		notiTpl = slot0:findTF("scroll_view/Viewport/content/other_settings/options", slot0.findTF(slot5, slot6)):Find("notify_tpl")
+
+		for slot5, slot6 in ipairs(uv0) do
+			slot7 = cloneTplTo(notiTpl, slot1)
+
+			setText(slot0:findTF("Text", slot7), slot6.title)
+			onButton(slot0, slot0:findTF("Text", slot7), function ()
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					hideNo = true,
+					hideYes = true,
+					content = uv0.desc
+				})
+			end)
+			table.insert(slot0.backyardConfigToggles, {
+				value = slot6,
+				btn = slot7
+			})
+		end
+	end
+
+	for slot4, slot5 in ipairs(slot0.backyardConfigToggles) do
+		slot0:InitOptionByPlayerFlag(slot5.value, slot5.btn)
+	end
+end
+
+function slot0.InitOptionByPlayerFlag(slot0, slot1, slot2)
+	slot4 = getProxy(PlayerProxy):getData():GetCommonFlag(slot1.playerFlag)
+	slot5 = nil
+	slot5 = slot1.default == 1 and slot4 or not slot4
+
+	onToggle(slot0, slot2:Find("on"), function (slot0)
+		uv0:emit(SettingsMediator.SET_PLAYER_FLAG, uv1.playerFlag)
+	end, SFX_UI_TAG, SFX_UI_CANCEL)
+	triggerToggle(slot2:Find("on"), not slot5)
+	triggerToggle(slot2:Find("off"), slot5)
 end
 
 function slot0.initInterfacePreference(slot0, slot1)
@@ -518,7 +585,7 @@ function slot0.setInterfaceAnchor(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot1.localPosition = Vector3((slot6 - 0.5) * rtf(slot0.interface).rect.width, (slot7 - 0.5) * rtf(slot0.interface).rect.height, 0)
 end
 
-function slot3(slot0)
+function slot4(slot0)
 	slot1 = rtf(slot0)
 	slot2 = slot1.rect
 	slot3 = slot2.width * slot1.lossyScale.x
@@ -885,9 +952,9 @@ function slot0.updateMusicDownloadState(slot0)
 	setActive(slot0.musicDownloadLabelNew, slot2 == DownloadState.CheckToUpdate)
 end
 
-slot4 = nil
+slot5 = nil
 
-function slot5()
+function slot6()
 	slot0 = pg.SecondaryPWDMgr.GetInstance()
 	uv0 = uv0 or {
 		[slot0.UNLOCK_SHIP] = {
@@ -1094,7 +1161,7 @@ function slot0.clearExchangeCode(slot0)
 	slot0.codeInput:GetComponent(typeof(InputField)).text = ""
 end
 
-slot6 = true
+slot7 = true
 
 function slot0.onAddToggleEvent(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot7 = GetComponent(slot2, typeof(Toggle)).onValueChanged
@@ -1486,6 +1553,13 @@ function slot0.initJPAccountPanel(slot0, slot1)
 
 	setActive(slot4, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "1" and CSharpVersion > 36)
 
+	slot5 = slot0:findTF("btn_layout/amazon_con", slot0.accountTwitterUI)
+	slot0.amazonBtn = slot0:findTF("bind_amazon", slot5)
+	slot0.amazonUnlinkBtn = slot0:findTF("unlink_amazon", slot5)
+	slot0.amazonLinkSign = slot0:findTF("amazon_status", slot5)
+
+	setActive(slot5, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "3" and CSharpVersion > 36)
+
 	slot0.transcodeUI = slot0:findTF("page2", slot1)
 	slot0.uidTxt = slot0:findTF("account_name/Text", slot0.transcodeUI)
 	slot0.transcodeTxt = slot0:findTF("password/Text", slot0.transcodeUI)
@@ -1517,9 +1591,14 @@ function slot0.initJPAccountPanel(slot0, slot1)
 		setActive(uv0.accountTwitterUI, false)
 		setActive(uv0.transcodeUI, true)
 	end)
+	slot0:checkAllAccountState()
+end
+
+function slot0.checkAllAccountState(slot0)
 	slot0:checkTranscodeView()
 	slot0:checkAccountTwitterView()
 	slot0:checkAccountAppleView()
+	slot0:checkAccountAmazonView()
 end
 
 function slot0.showTranscode(slot0, slot1)
@@ -1564,6 +1643,20 @@ function slot0.checkAccountAppleView(slot0)
 
 	if isTwitterLinked then
 		setText(slot0.appleLinkSign, i18n("apple_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_APPLE)))
+	end
+end
+
+function slot0.checkAccountAmazonView(slot0)
+	if pg.SdkMgr.GetInstance():GetChannelUID() == "3" and CSharpVersion > 36 then
+		slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_AMAZON)
+
+		setActive(slot0.amazonUnlinkBtn, slot1)
+		setActive(slot0.amazonLinkSign, slot1)
+		setActive(slot0.amazonBtn, not slot1)
+
+		if isTwitterLinked then
+			setText(slot0.amazonLinkSign, i18n("amazon_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_AMAZON)))
+		end
 	end
 end
 

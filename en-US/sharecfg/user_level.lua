@@ -837,8 +837,568 @@ pg.user_level = {
 		max_oil = 12900,
 		max_collection = 8,
 		max_gold = 77400,
-		exp = 0,
+		exp = 102250,
 		level = 120
+	},
+	{
+		max_oil = 13000,
+		max_collection = 8,
+		max_gold = 78000,
+		exp = 105880,
+		level = 121
+	},
+	{
+		max_oil = 13100,
+		max_collection = 8,
+		max_gold = 78600,
+		exp = 109540,
+		level = 122
+	},
+	{
+		max_oil = 13200,
+		max_collection = 8,
+		max_gold = 79200,
+		exp = 113230,
+		level = 123
+	},
+	{
+		max_oil = 13300,
+		max_collection = 8,
+		max_gold = 79800,
+		exp = 116950,
+		level = 124
+	},
+	{
+		max_oil = 13400,
+		max_collection = 8,
+		max_gold = 80400,
+		exp = 120700,
+		level = 125
+	},
+	{
+		max_oil = 13500,
+		max_collection = 8,
+		max_gold = 81000,
+		exp = 124480,
+		level = 126
+	},
+	{
+		max_oil = 13600,
+		max_collection = 8,
+		max_gold = 81600,
+		exp = 128290,
+		level = 127
+	},
+	{
+		max_oil = 13700,
+		max_collection = 8,
+		max_gold = 82200,
+		exp = 132130,
+		level = 128
+	},
+	{
+		max_oil = 13800,
+		max_collection = 8,
+		max_gold = 82800,
+		exp = 136000,
+		level = 129
+	},
+	{
+		max_oil = 13900,
+		max_collection = 8,
+		max_gold = 83400,
+		exp = 139900,
+		level = 130
+	},
+	{
+		max_oil = 14000,
+		max_collection = 8,
+		max_gold = 84000,
+		exp = 145140,
+		level = 131
+	},
+	{
+		max_oil = 14100,
+		max_collection = 8,
+		max_gold = 84600,
+		exp = 150420,
+		level = 132
+	},
+	{
+		max_oil = 14200,
+		max_collection = 8,
+		max_gold = 85200,
+		exp = 155740,
+		level = 133
+	},
+	{
+		max_oil = 14300,
+		max_collection = 8,
+		max_gold = 85800,
+		exp = 161100,
+		level = 134
+	},
+	{
+		max_oil = 14400,
+		max_collection = 8,
+		max_gold = 86400,
+		exp = 166500,
+		level = 135
+	},
+	{
+		max_oil = 14500,
+		max_collection = 8,
+		max_gold = 87000,
+		exp = 171940,
+		level = 136
+	},
+	{
+		max_oil = 14600,
+		max_collection = 8,
+		max_gold = 87600,
+		exp = 177420,
+		level = 137
+	},
+	{
+		max_oil = 14700,
+		max_collection = 8,
+		max_gold = 88200,
+		exp = 182940,
+		level = 138
+	},
+	{
+		max_oil = 14800,
+		max_collection = 8,
+		max_gold = 88800,
+		exp = 188500,
+		level = 139
+	},
+	{
+		max_oil = 14900,
+		max_collection = 8,
+		max_gold = 89400,
+		exp = 194100,
+		level = 140
+	},
+	{
+		max_oil = 15000,
+		max_collection = 8,
+		max_gold = 90000,
+		exp = 199740,
+		level = 141
+	},
+	{
+		max_oil = 15100,
+		max_collection = 8,
+		max_gold = 90600,
+		exp = 205420,
+		level = 142
+	},
+	{
+		max_oil = 15200,
+		max_collection = 8,
+		max_gold = 91200,
+		exp = 211140,
+		level = 143
+	},
+	{
+		max_oil = 15300,
+		max_collection = 8,
+		max_gold = 91800,
+		exp = 216900,
+		level = 144
+	},
+	{
+		max_oil = 15400,
+		max_collection = 8,
+		max_gold = 92400,
+		exp = 222700,
+		level = 145
+	},
+	{
+		max_oil = 15500,
+		max_collection = 8,
+		max_gold = 93000,
+		exp = 228540,
+		level = 146
+	},
+	{
+		max_oil = 15600,
+		max_collection = 8,
+		max_gold = 93600,
+		exp = 234420,
+		level = 147
+	},
+	{
+		max_oil = 15700,
+		max_collection = 8,
+		max_gold = 94200,
+		exp = 240340,
+		level = 148
+	},
+	{
+		max_oil = 15800,
+		max_collection = 8,
+		max_gold = 94800,
+		exp = 246300,
+		level = 149
+	},
+	{
+		max_oil = 15900,
+		max_collection = 8,
+		max_gold = 95400,
+		exp = 252300,
+		level = 150
+	},
+	{
+		max_oil = 16000,
+		max_collection = 8,
+		max_gold = 96000,
+		exp = 259850,
+		level = 151
+	},
+	{
+		max_oil = 16100,
+		max_collection = 8,
+		max_gold = 96600,
+		exp = 267450,
+		level = 152
+	},
+	{
+		max_oil = 16200,
+		max_collection = 8,
+		max_gold = 97200,
+		exp = 275100,
+		level = 153
+	},
+	{
+		max_oil = 16300,
+		max_collection = 8,
+		max_gold = 97800,
+		exp = 282800,
+		level = 154
+	},
+	{
+		max_oil = 16400,
+		max_collection = 8,
+		max_gold = 98400,
+		exp = 290550,
+		level = 155
+	},
+	{
+		max_oil = 16500,
+		max_collection = 8,
+		max_gold = 99000,
+		exp = 298350,
+		level = 156
+	},
+	{
+		max_oil = 16600,
+		max_collection = 8,
+		max_gold = 99600,
+		exp = 306200,
+		level = 157
+	},
+	{
+		max_oil = 16700,
+		max_collection = 8,
+		max_gold = 100200,
+		exp = 314100,
+		level = 158
+	},
+	{
+		max_oil = 16800,
+		max_collection = 8,
+		max_gold = 100800,
+		exp = 322050,
+		level = 159
+	},
+	{
+		max_oil = 16900,
+		max_collection = 8,
+		max_gold = 101400,
+		exp = 330050,
+		level = 160
+	},
+	{
+		max_oil = 17000,
+		max_collection = 8,
+		max_gold = 102000,
+		exp = 338100,
+		level = 161
+	},
+	{
+		max_oil = 17100,
+		max_collection = 8,
+		max_gold = 102600,
+		exp = 346200,
+		level = 162
+	},
+	{
+		max_oil = 17200,
+		max_collection = 8,
+		max_gold = 103200,
+		exp = 354350,
+		level = 163
+	},
+	{
+		max_oil = 17300,
+		max_collection = 8,
+		max_gold = 103800,
+		exp = 362550,
+		level = 164
+	},
+	{
+		max_oil = 17400,
+		max_collection = 8,
+		max_gold = 104400,
+		exp = 370800,
+		level = 165
+	},
+	{
+		max_oil = 17500,
+		max_collection = 8,
+		max_gold = 105000,
+		exp = 379100,
+		level = 166
+	},
+	{
+		max_oil = 17600,
+		max_collection = 8,
+		max_gold = 105600,
+		exp = 387450,
+		level = 167
+	},
+	{
+		max_oil = 17700,
+		max_collection = 8,
+		max_gold = 106200,
+		exp = 395850,
+		level = 168
+	},
+	{
+		max_oil = 17800,
+		max_collection = 8,
+		max_gold = 106800,
+		exp = 404300,
+		level = 169
+	},
+	{
+		max_oil = 17900,
+		max_collection = 8,
+		max_gold = 107400,
+		exp = 412800,
+		level = 170
+	},
+	{
+		max_oil = 18000,
+		max_collection = 8,
+		max_gold = 108000,
+		exp = 423060,
+		level = 171
+	},
+	{
+		max_oil = 18100,
+		max_collection = 8,
+		max_gold = 108600,
+		exp = 433380,
+		level = 172
+	},
+	{
+		max_oil = 18200,
+		max_collection = 8,
+		max_gold = 109200,
+		exp = 443760,
+		level = 173
+	},
+	{
+		max_oil = 18300,
+		max_collection = 8,
+		max_gold = 109800,
+		exp = 454200,
+		level = 174
+	},
+	{
+		max_oil = 18400,
+		max_collection = 8,
+		max_gold = 110400,
+		exp = 464700,
+		level = 175
+	},
+	{
+		max_oil = 18500,
+		max_collection = 8,
+		max_gold = 111000,
+		exp = 475260,
+		level = 176
+	},
+	{
+		max_oil = 18600,
+		max_collection = 8,
+		max_gold = 111600,
+		exp = 485880,
+		level = 177
+	},
+	{
+		max_oil = 18700,
+		max_collection = 8,
+		max_gold = 112200,
+		exp = 496560,
+		level = 178
+	},
+	{
+		max_oil = 18800,
+		max_collection = 8,
+		max_gold = 112800,
+		exp = 507300,
+		level = 179
+	},
+	{
+		max_oil = 18900,
+		max_collection = 8,
+		max_gold = 113400,
+		exp = 518100,
+		level = 180
+	},
+	{
+		max_oil = 19000,
+		max_collection = 8,
+		max_gold = 114000,
+		exp = 528960,
+		level = 181
+	},
+	{
+		max_oil = 19100,
+		max_collection = 8,
+		max_gold = 114600,
+		exp = 539880,
+		level = 182
+	},
+	{
+		max_oil = 19200,
+		max_collection = 8,
+		max_gold = 115200,
+		exp = 550860,
+		level = 183
+	},
+	{
+		max_oil = 19300,
+		max_collection = 8,
+		max_gold = 115800,
+		exp = 561900,
+		level = 184
+	},
+	{
+		max_oil = 19400,
+		max_collection = 8,
+		max_gold = 116400,
+		exp = 573000,
+		level = 185
+	},
+	{
+		max_oil = 19500,
+		max_collection = 8,
+		max_gold = 117000,
+		exp = 584160,
+		level = 186
+	},
+	{
+		max_oil = 19600,
+		max_collection = 8,
+		max_gold = 117600,
+		exp = 595380,
+		level = 187
+	},
+	{
+		max_oil = 19700,
+		max_collection = 8,
+		max_gold = 118200,
+		exp = 606660,
+		level = 188
+	},
+	{
+		max_oil = 19800,
+		max_collection = 8,
+		max_gold = 118800,
+		exp = 618000,
+		level = 189
+	},
+	{
+		max_oil = 19900,
+		max_collection = 8,
+		max_gold = 119400,
+		exp = 629400,
+		level = 190
+	},
+	{
+		max_oil = 20000,
+		max_collection = 8,
+		max_gold = 120000,
+		exp = 642770,
+		level = 191
+	},
+	{
+		max_oil = 20100,
+		max_collection = 8,
+		max_gold = 120600,
+		exp = 656210,
+		level = 192
+	},
+	{
+		max_oil = 20200,
+		max_collection = 8,
+		max_gold = 121200,
+		exp = 669720,
+		level = 193
+	},
+	{
+		max_oil = 20300,
+		max_collection = 8,
+		max_gold = 121800,
+		exp = 683300,
+		level = 194
+	},
+	{
+		max_oil = 20400,
+		max_collection = 8,
+		max_gold = 122400,
+		exp = 696950,
+		level = 195
+	},
+	{
+		max_oil = 20500,
+		max_collection = 8,
+		max_gold = 123000,
+		exp = 710670,
+		level = 196
+	},
+	{
+		max_oil = 20600,
+		max_collection = 8,
+		max_gold = 123600,
+		exp = 724460,
+		level = 197
+	},
+	{
+		max_oil = 20700,
+		max_collection = 8,
+		max_gold = 124200,
+		exp = 738320,
+		level = 198
+	},
+	{
+		max_oil = 20800,
+		max_collection = 8,
+		max_gold = 124800,
+		exp = 752250,
+		level = 199
+	},
+	{
+		max_oil = 20900,
+		max_collection = 8,
+		max_gold = 125400,
+		exp = 0,
+		level = 200
 	},
 	all = {
 		1,
@@ -960,6 +1520,86 @@ pg.user_level = {
 		117,
 		118,
 		119,
-		120
+		120,
+		121,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128,
+		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
+		136,
+		137,
+		138,
+		139,
+		140,
+		141,
+		142,
+		143,
+		144,
+		145,
+		146,
+		147,
+		148,
+		149,
+		150,
+		151,
+		152,
+		153,
+		154,
+		155,
+		156,
+		157,
+		158,
+		159,
+		160,
+		161,
+		162,
+		163,
+		164,
+		165,
+		166,
+		167,
+		168,
+		169,
+		170,
+		171,
+		172,
+		173,
+		174,
+		175,
+		176,
+		177,
+		178,
+		179,
+		180,
+		181,
+		182,
+		183,
+		184,
+		185,
+		186,
+		187,
+		188,
+		189,
+		190,
+		191,
+		192,
+		193,
+		194,
+		195,
+		196,
+		197,
+		198,
+		199,
+		200
 	}
 }

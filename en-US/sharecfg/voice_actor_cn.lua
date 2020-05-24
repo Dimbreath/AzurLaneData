@@ -923,5 +923,13 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Meiko Kawasaki",
 		code = 231
+	},
+	{
+		actor_name = "Honoka Kuroki",
+		code = 232
+	},
+	{
+		actor_name = "Yomogi Ashitaba",
+		code = 233
 	}
 }

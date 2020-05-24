@@ -53121,6 +53121,696 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14730] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91250,
+		type = 36,
+		name = "『法系复刻活动』-日常建造",
+		count_inherit = 0,
+		desc = "Build 3 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14730,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59133,
+				300
+			}
+		}
+	},
+	[14731] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91251,
+		type = 36,
+		name = "『法系复刻活动』-日常出击",
+		count_inherit = 0,
+		desc = "Claim victory 15 times.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14731,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59133,
+				300
+			}
+		}
+	},
+	[14732] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91252,
+		type = 36,
+		name = "『法系复刻活动』-日常困难本",
+		count_inherit = 0,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14732,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59133,
+				100
+			}
+		}
+	},
+	[14733] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91253,
+		type = 6,
+		name = "『法系复刻活动』通关A1/C1",
+		count_inherit = 0,
+		desc = "Clear A1 or C1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14734",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14733,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240001,
+			1240011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				200
+			}
+		}
+	},
+	[14734] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91254,
+		type = 6,
+		name = "『法系复刻活动』通关A2/C2",
+		count_inherit = 0,
+		desc = "Clear A2 or C2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14735",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14734,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240003,
+			1240013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				400
+			}
+		}
+	},
+	[14735] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91255,
+		type = 6,
+		name = "『法系复刻活动』通关A3/C3",
+		count_inherit = 0,
+		desc = "Clear A3 or C3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14736",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14735,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240004,
+			1240014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59133,
+				600
+			}
+		}
+	},
+	[14736] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91256,
+		type = 6,
+		name = "『法系复刻活动』通关B1/D1",
+		count_inherit = 0,
+		desc = "Clear B1 or D1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14737",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14736,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240005,
+			1240015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				400
+			}
+		}
+	},
+	[14737] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91257,
+		type = 6,
+		name = "『法系复刻活动』通关B2/D2",
+		count_inherit = 0,
+		desc = "Clear B2 or D2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14738",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14737,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240007,
+			1240017
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				600
+			}
+		}
+	},
+	[14738] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91258,
+		type = 6,
+		name = "『法系复刻活动』通关B3/D3",
+		count_inherit = 0,
+		desc = "Clear B3 or D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14740",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14738,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240008,
+			1240018
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59133,
+				800
+			}
+		}
+	},
+	[14739] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91259,
+		type = 6,
+		name = "『法系复刻活动』通关D3",
+		count_inherit = 0,
+		desc = "Clear D3 Stage<color=#92fc63> (can only be obtained once) </color> ",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1240018,
+		id = 14739,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1240018",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				129,
+				1
+			}
+		}
+	},
+	[14740] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91260,
+		type = 6,
+		name = "『法系复刻活动』通关SP",
+		count_inherit = 0,
+		desc = "Clear SP.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1240019,
+		id = 14740,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1240019",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[14741] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91261,
+		type = 6,
+		name = "『法系复刻活动』A1/C1的3星",
+		count_inherit = 0,
+		desc = "Complete A1 or C1 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14742",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14741,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240001,
+			1240011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[14742] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91262,
+		type = 6,
+		name = "『法系复刻活动』A2/C2的3星",
+		count_inherit = 0,
+		desc = "Complete A2 or C2 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14743",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14742,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240003,
+			1240013
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[14743] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91263,
+		type = 6,
+		name = "『法系复刻活动』A3/C3的3星",
+		count_inherit = 0,
+		desc = "Complete A3 or C3 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14744",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14743,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240004,
+			1240014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[14744] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91264,
+		type = 6,
+		name = "『法系复刻活动』B1/D1的3星",
+		count_inherit = 0,
+		desc = "Complete B1 or D1 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14745",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14744,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240005,
+			1240015
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[14745] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91265,
+		type = 6,
+		name = "『法系复刻活动』B2/D2的3星",
+		count_inherit = 0,
+		desc = "Complete B2 or D2 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14746",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14745,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240007,
+			1240017
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		}
+	},
+	[14746] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91266,
+		type = 6,
+		name = "『法系复刻活动』B3/D3的3星",
+		count_inherit = 0,
+		desc = "Complete B3 or D3 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14746,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240008,
+			1240018
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
 	[14757] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -75802,6 +76492,265 @@ pg.task_data_template = {
 			"ACTIVITY_MAP"
 		}
 	},
+	[15662] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93206,
+		type = 26,
+		name = "国服三周年后山活动1",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15662,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54013,
+				5
+			},
+			{
+				8,
+				59164,
+				15
+			}
+		}
+	},
+	[15664] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93208,
+		type = 26,
+		name = "国服三周年后山活动2",
+		count_inherit = 0,
+		desc = "Conduct tactical training 2 times.",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15664,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			},
+			{
+				8,
+				59164,
+				15
+			}
+		}
+	},
+	[15666] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93210,
+		type = 26,
+		name = "国服三周年后山活动3",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges.",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15666,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50005,
+				3
+			},
+			{
+				8,
+				59164,
+				15
+			}
+		}
+	},
+	[15668] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93212,
+		type = 26,
+		name = "国服三周年后山活动4",
+		count_inherit = 0,
+		desc = "Defeat 20 enemies.",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15668,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				2
+			},
+			{
+				8,
+				59164,
+				15
+			}
+		}
+	},
+	[15670] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93214,
+		type = 26,
+		name = "国服三周年后山活动5",
+		count_inherit = 0,
+		desc = "Build 2 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15670,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54003,
+				2
+			},
+			{
+				8,
+				59164,
+				15
+			}
+		}
+	},
+	[15672] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93216,
+		type = 26,
+		name = "国服三周年后山活动6",
+		count_inherit = 0,
+		desc = "Complete 2 Commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15672,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54024,
+				2
+			},
+			{
+				8,
+				59164,
+				15
+			}
+		}
+	},
+	[15674] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93218,
+		type = 26,
+		name = "国服三周年后山活动7",
+		count_inherit = 0,
+		desc = "Enhance gear 2 times.",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15674,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50006,
+				3
+			},
+			{
+				8,
+				59164,
+				10
+			}
+		}
+	},
 	[31013] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -85680,6 +86629,23 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		14671,
 		14672,
 		14673,
+		14730,
+		14731,
+		14732,
+		14733,
+		14734,
+		14735,
+		14736,
+		14737,
+		14738,
+		14739,
+		14740,
+		14741,
+		14742,
+		14743,
+		14744,
+		14745,
+		14746,
 		14757,
 		14758,
 		14759,
@@ -86265,6 +87231,13 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		15572,
 		15573,
 		15574,
+		15662,
+		15664,
+		15666,
+		15668,
+		15670,
+		15672,
+		15674,
 		31013,
 		31014,
 		31015,

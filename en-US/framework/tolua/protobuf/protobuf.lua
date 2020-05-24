@@ -726,10 +726,12 @@ function slot57(slot0, slot1)
 		slot5, slot6, slot7 = nil
 
 		while slot2 ~= slot3 do
-			slot8, slot6 = uv1(slot1, slot2)
+			slot5, slot6 = uv1(slot1, slot2)
 
-			if uv2[slot8] == nil then
-				if uv3(slot1, slot6, slot3, slot5) == -1 then
+			uv3("===========================", slot5)
+
+			if uv2[slot5] == nil then
+				if uv4(slot1, slot6, slot3, slot5) == -1 then
 					return slot2
 				end
 
@@ -754,7 +756,8 @@ function slot57(slot0, slot1)
 
 	function slot1._member.ParseFromString(slot0, slot1)
 		uv0._member.Clear(slot0)
-		uv1(slot0, slot1)
+		uv1("------------------------------")
+		uv2(slot0, slot1)
 	end
 end
 

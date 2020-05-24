@@ -35,7 +35,23 @@ pg.pay_data_display = {
 				1
 			}
 		},
-		display = {}
+		display = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		}
 	},
 	{
 		limit_arg = 1,
@@ -49,7 +65,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		time = "always",
-		picture = "box1",
+		picture = "boxNewplayer",
 		id_str = "com.yostaren.azurlane.diamond101",
 		first_pay_double = 0,
 		extra_gem = 0,
@@ -2471,15 +2487,15 @@ pg.pay_data_display = {
 	[124] = {
 		limit_arg = 1,
 		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
-		name = "Third Anniversary Gift Bag ",
+		name = "Night Out Lucky Bag ",
 		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
-		subject = "Third Anniversary Gift Bag ",
+		subject = "Night Out Lucky Bag ",
 		extra_service = 3,
 		money = 2999,
 		tag = 1,
 		gem = 0,
 		limit_type = 2,
-		picture = "lihe4_l",
+		picture = "lihe1_l",
 		id_str = "com.yostaren.azurlane.diamond134",
 		first_pay_double = 0,
 		extra_gem = 0,
@@ -2527,7 +2543,7 @@ pg.pay_data_display = {
 				{
 					2020,
 					5,
-					28
+					30
 				},
 				{
 					0,

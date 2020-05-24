@@ -70,14 +70,13 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Common：30%",
-			"<color=#ffde38>{namecode:81}</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>{namecode:161}</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>{namecode:92}(BB)</color>：0.5%",
-			"<color=#d797ff>{namecode:185}</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>{namecode:29}</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>{namecode:144}</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>{namecode:40}</color>：5.0%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>{namecode:140}</color>：5.0%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>Le Malin</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Jean Bart</color>：1.8%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Massachusetts</color>：1.8%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>L'Opiniâtre</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Dunkerque</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Surcouf</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>Forbin</color>：5.0%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

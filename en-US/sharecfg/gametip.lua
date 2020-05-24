@@ -1,5 +1,333 @@
 pg = pg or {}
 pg.gametip = {
+	["new_airi_error_code_-1"] = {
+		tip = "Unknown Error",
+		key = "new_airi_error_code_-1"
+	},
+	new_airi_error_code_0 = {
+		tip = "Success",
+		key = "new_airi_error_code_0"
+	},
+	new_airi_error_code_100100 = {
+		tip = "Device ID is banned",
+		key = "new_airi_error_code_100100"
+	},
+	new_airi_error_code_100110 = {
+		tip = "Verification failed",
+		key = "new_airi_error_code_100110"
+	},
+	new_airi_error_code_100111 = {
+		tip = "Account creation failed",
+		key = "new_airi_error_code_100111"
+	},
+	new_airi_error_code_100112 = {
+		tip = "Account creation success; Account binding failed",
+		key = "new_airi_error_code_100112"
+	},
+	new_airi_error_code_100113 = {
+		tip = "Account binding success; Verification failed",
+		key = "new_airi_error_code_100113"
+	},
+	new_airi_error_code_100114 = {
+		tip = "IP is restricted during login creation",
+		key = "new_airi_error_code_100114"
+	},
+	new_airi_error_code_100115 = {
+		tip = "Device ID is banned during login creation",
+		key = "new_airi_error_code_100115"
+	},
+	new_airi_error_code_100116 = {
+		tip = "UID is banned during login creation",
+		key = "new_airi_error_code_100116"
+	},
+	new_airi_error_code_100117 = {
+		tip = "Missing parameters",
+		key = "new_airi_error_code_100117"
+	},
+	new_airi_error_code_100120 = {
+		tip = "Login failed, IP is restricted",
+		key = "new_airi_error_code_100120"
+	},
+	new_airi_error_code_100130 = {
+		tip = "Login failed, UID is banned",
+		key = "new_airi_error_code_100130"
+	},
+	new_airi_error_code_100140 = {
+		tip = "Access Token verification failed",
+		key = "new_airi_error_code_100140"
+	},
+	new_airi_error_code_100150 = {
+		tip = "UID does not match with Transcode",
+		key = "new_airi_error_code_100150"
+	},
+	new_airi_error_code_100160 = {
+		tip = "User birthday has already been added",
+		key = "new_airi_error_code_100160"
+	},
+	new_airi_error_code_100170 = {
+		tip = "Invalid birthday format",
+		key = "new_airi_error_code_100170"
+	},
+	new_airi_error_code_100180 = {
+		tip = "The third party account is not bound with any game account",
+		key = "new_airi_error_code_100180"
+	},
+	new_airi_error_code_100190 = {
+		tip = "Failed to verify the third party parameter",
+		key = "new_airi_error_code_100190"
+	},
+	new_airi_error_code_100200 = {
+		tip = "The third party account is already bound with another UID",
+		key = "new_airi_error_code_100200"
+	},
+	new_airi_error_code_100210 = {
+		tip = "The third party account does not match with the one bound to this account",
+		key = "new_airi_error_code_100210"
+	},
+	new_airi_error_code_100211 = {
+		tip = "Platform binding error",
+		key = "new_airi_error_code_100211"
+	},
+	new_airi_error_code_100212 = {
+		tip = "Platform unbinding error",
+		key = "new_airi_error_code_100212"
+	},
+	new_airi_error_code_100213 = {
+		tip = "Unable to unbind the account",
+		key = "new_airi_error_code_100213"
+	},
+	new_airi_error_code_100220 = {
+		tip = "Authorization canceled",
+		key = "new_airi_error_code_100220"
+	},
+	new_airi_error_code_100221 = {
+		tip = "FB authorization failed",
+		key = "new_airi_error_code_100221"
+	},
+	new_airi_error_code_100222 = {
+		tip = "TW authorization failed",
+		key = "new_airi_error_code_100222"
+	},
+	new_airi_error_code_100223 = {
+		tip = "Google authorization failed",
+		key = "new_airi_error_code_100223"
+	},
+	new_airi_error_code_100224 = {
+		tip = "Unable to use Google service",
+		key = "new_airi_error_code_100224"
+	},
+	new_airi_error_code_100225 = {
+		tip = "Google authorization was canceled by user",
+		key = "new_airi_error_code_100225"
+	},
+	new_airi_error_code_100226 = {
+		tip = "Unable to login during another login request",
+		key = "new_airi_error_code_100226"
+	},
+	new_airi_error_code_100227 = {
+		tip = "Failed to login with the current account",
+		key = "new_airi_error_code_100227"
+	},
+	new_airi_error_code_100228 = {
+		tip = "The account was already deleted by user",
+		key = "new_airi_error_code_100228"
+	},
+	new_airi_error_code_100229 = {
+		tip = "Account deletion cannot be performed repeatedly",
+		key = "new_airi_error_code_100229"
+	},
+	new_airi_error_code_100231 = {
+		tip = "Failed to restore, the account was deleted completely",
+		key = "new_airi_error_code_100231"
+	},
+	new_airi_error_code_100232 = {
+		tip = "Unable to restore, no deletion history of the account",
+		key = "new_airi_error_code_100232"
+	},
+	new_airi_error_code_100233 = {
+		tip = "Unable to login, the account was deleted",
+		key = "new_airi_error_code_100233"
+	},
+	new_airi_error_code_100234 = {
+		tip = "The account is not authorized to login",
+		key = "new_airi_error_code_100234"
+	},
+	new_airi_error_code_100230 = {
+		tip = "Initialization failed",
+		key = "new_airi_error_code_100230"
+	},
+	new_airi_error_code_100240 = {
+		tip = "Apple authorization information does not match",
+		key = "new_airi_error_code_100240"
+	},
+	new_airi_error_code_100241 = {
+		tip = "User cancelled Apple authorization request",
+		key = "new_airi_error_code_100241"
+	},
+	new_airi_error_code_100242 = {
+		tip = "Apple authorization request failed",
+		key = "new_airi_error_code_100242"
+	},
+	new_airi_error_code_100243 = {
+		tip = "Invalid response from Apple authorization request",
+		key = "new_airi_error_code_100243"
+	},
+	new_airi_error_code_100244 = {
+		tip = "Failed to process Apple authorization request",
+		key = "new_airi_error_code_100244"
+	},
+	new_airi_error_code_100245 = {
+		tip = "Apple authorization request failed for unknown reason",
+		key = "new_airi_error_code_100245"
+	},
+	new_airi_error_code_100246 = {
+		tip = "System version does not support Apple authorization",
+		key = "new_airi_error_code_100246"
+	},
+	new_airi_error_code_100300 = {
+		tip = "Invalid email address format",
+		key = "new_airi_error_code_100300"
+	},
+	new_airi_error_code_100301 = {
+		tip = "Email addresses do not match",
+		key = "new_airi_error_code_100301"
+	},
+	new_airi_error_code_100302 = {
+		tip = "Verification code request is too frequent",
+		key = "new_airi_error_code_100302"
+	},
+	new_airi_error_code_100303 = {
+		tip = "Verification failed",
+		key = "new_airi_error_code_100303"
+	},
+	new_airi_error_code_100304 = {
+		tip = "Verification failed too many times",
+		key = "new_airi_error_code_100304"
+	},
+	new_airi_error_code_100305 = {
+		tip = "The account is banned",
+		key = "new_airi_error_code_100305"
+	},
+	new_airi_error_code_100306 = {
+		tip = "Verification code cannot be empty",
+		key = "new_airi_error_code_100306"
+	},
+	new_airi_error_code_100404 = {
+		tip = "Network error",
+		key = "new_airi_error_code_100404"
+	},
+	new_airi_error_code_200100 = {
+		tip = "User birthday is required",
+		key = "new_airi_error_code_200100"
+	},
+	new_airi_error_code_200110 = {
+		tip = "Monthly purchase limit exceeded",
+		key = "new_airi_error_code_200110"
+	},
+	new_airi_error_code_200120 = {
+		tip = "Item does not exist",
+		key = "new_airi_error_code_200120"
+	},
+	new_airi_error_code_200130 = {
+		tip = "Payment method does not exist",
+		key = "new_airi_error_code_200130"
+	},
+	new_airi_error_code_200140 = {
+		tip = "serverTag does not exist",
+		key = "new_airi_error_code_200140"
+	},
+	new_airi_error_code_200150 = {
+		tip = "Payment receipt verification failed",
+		key = "new_airi_error_code_200150"
+	},
+	new_airi_error_code_200160 = {
+		tip = "Invalid purchase request",
+		key = "new_airi_error_code_200160"
+	},
+	new_airi_error_code_200170 = {
+		tip = "Purchase request failed on game server",
+		key = "new_airi_error_code_200170"
+	},
+	new_airi_error_code_200180 = {
+		tip = "It takes a long time for searching the purchase result",
+		key = "new_airi_error_code_200180"
+	},
+	new_airi_error_code_200190 = {
+		tip = "Order ID does not exist",
+		key = "new_airi_error_code_200190"
+	},
+	new_airi_error_code_200200 = {
+		tip = "Order status tracking timed out",
+		key = "new_airi_error_code_200200"
+	},
+	new_airi_error_code_200210 = {
+		tip = "productid does not exist on payment backend",
+		key = "new_airi_error_code_200210"
+	},
+	new_airi_error_code_200220 = {
+		tip = "Payment backend response - payment failed",
+		key = "new_airi_error_code_200220"
+	},
+	new_airi_error_code_200230 = {
+		tip = "Payment backend response - payment canceled",
+		key = "new_airi_error_code_200230"
+	},
+	new_airi_error_code_200240 = {
+		tip = "Current API version does not support the request",
+		key = "new_airi_error_code_200240"
+	},
+	new_airi_error_code_200250 = {
+		tip = "Invalid parameters provided to API",
+		key = "new_airi_error_code_200250"
+	},
+	new_airi_error_code_200260 = {
+		tip = "Fatal error during API operation",
+		key = "new_airi_error_code_200260"
+	},
+	new_airi_error_code_200270 = {
+		tip = "The request is not supported by the Play store on current device",
+		key = "new_airi_error_code_200270"
+	},
+	new_airi_error_code_200280 = {
+		tip = "Item has already been purchased, not consumed yet",
+		key = "new_airi_error_code_200280"
+	},
+	new_airi_error_code_200290 = {
+		tip = "Item has already been purchased, failed to consume",
+		key = "new_airi_error_code_200290"
+	},
+	new_airi_error_code_200300 = {
+		tip = "Unable to purchase the requested item",
+		key = "new_airi_error_code_200300"
+	},
+	new_airi_error_code_200310 = {
+		tip = "Unable to connect to Google Play service",
+		key = "new_airi_error_code_200310"
+	},
+	new_airi_error_code_200320 = {
+		tip = "Request reached maximum timeout before receiving any response from Google Play",
+		key = "new_airi_error_code_200320"
+	},
+	new_airi_error_code_200330 = {
+		tip = "Network connection is turned off",
+		key = "new_airi_error_code_200330"
+	},
+	new_airi_error_code_200340 = {
+		tip = "Payment canceled by user",
+		key = "new_airi_error_code_200340"
+	},
+	new_airi_error_code_200350 = {
+		tip = "Item ID search failed",
+		key = "new_airi_error_code_200350"
+	},
+	new_airi_error_code_200360 = {
+		tip = "Connection to play services failed",
+		key = "new_airi_error_code_200360"
+	},
+	new_airi_error_code_300100 = {
+		tip = "System sharing failed",
+		key = "new_airi_error_code_300100"
+	},
 	ad_0 = {
 		tip = "",
 		key = "ad_0"
@@ -6967,334 +7295,6 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		tip = "Not received: $1",
 		key = "err_cloth_change_noship"
 	},
-	["new_airi_error_code_-1"] = {
-		tip = "Unknown Error",
-		key = "new_airi_error_code_-1"
-	},
-	new_airi_error_code_0 = {
-		tip = "Success",
-		key = "new_airi_error_code_0"
-	},
-	new_airi_error_code_100100 = {
-		tip = "Device ID is banned",
-		key = "new_airi_error_code_100100"
-	},
-	new_airi_error_code_100110 = {
-		tip = "Verification failed",
-		key = "new_airi_error_code_100110"
-	},
-	new_airi_error_code_100111 = {
-		tip = "Account creation failed",
-		key = "new_airi_error_code_100111"
-	},
-	new_airi_error_code_100112 = {
-		tip = "Account creation success; Account binding failed",
-		key = "new_airi_error_code_100112"
-	},
-	new_airi_error_code_100113 = {
-		tip = "Account binding success; Verification failed",
-		key = "new_airi_error_code_100113"
-	},
-	new_airi_error_code_100114 = {
-		tip = "IP is restricted during login creation",
-		key = "new_airi_error_code_100114"
-	},
-	new_airi_error_code_100115 = {
-		tip = "Device ID is banned during login creation",
-		key = "new_airi_error_code_100115"
-	},
-	new_airi_error_code_100116 = {
-		tip = "UID is banned during login creation",
-		key = "new_airi_error_code_100116"
-	},
-	new_airi_error_code_100117 = {
-		tip = "Missing parameters",
-		key = "new_airi_error_code_100117"
-	},
-	new_airi_error_code_100120 = {
-		tip = "Login failed, IP is restricted",
-		key = "new_airi_error_code_100120"
-	},
-	new_airi_error_code_100130 = {
-		tip = "Login failed, UID is banned",
-		key = "new_airi_error_code_100130"
-	},
-	new_airi_error_code_100140 = {
-		tip = "Access Token verification failed",
-		key = "new_airi_error_code_100140"
-	},
-	new_airi_error_code_100150 = {
-		tip = "UID does not match with Transcode",
-		key = "new_airi_error_code_100150"
-	},
-	new_airi_error_code_100160 = {
-		tip = "User birthday has already been added",
-		key = "new_airi_error_code_100160"
-	},
-	new_airi_error_code_100170 = {
-		tip = "Invalid birthday format",
-		key = "new_airi_error_code_100170"
-	},
-	new_airi_error_code_100180 = {
-		tip = "The third party account is not bound with any game account",
-		key = "new_airi_error_code_100180"
-	},
-	new_airi_error_code_100190 = {
-		tip = "Failed to verify the third party parameter",
-		key = "new_airi_error_code_100190"
-	},
-	new_airi_error_code_100200 = {
-		tip = "The third party account is already bound with another UID",
-		key = "new_airi_error_code_100200"
-	},
-	new_airi_error_code_100210 = {
-		tip = "The third party account does not match with the one bound to this account",
-		key = "new_airi_error_code_100210"
-	},
-	new_airi_error_code_100211 = {
-		tip = "Platform binding error",
-		key = "new_airi_error_code_100211"
-	},
-	new_airi_error_code_100212 = {
-		tip = "Platform unbinding error",
-		key = "new_airi_error_code_100212"
-	},
-	new_airi_error_code_100213 = {
-		tip = "Unable to unbind the account",
-		key = "new_airi_error_code_100213"
-	},
-	new_airi_error_code_100220 = {
-		tip = "Authorization canceled",
-		key = "new_airi_error_code_100220"
-	},
-	new_airi_error_code_100221 = {
-		tip = "FB authorization failed",
-		key = "new_airi_error_code_100221"
-	},
-	new_airi_error_code_100222 = {
-		tip = "TW authorization failed",
-		key = "new_airi_error_code_100222"
-	},
-	new_airi_error_code_100223 = {
-		tip = "Google authorization failed",
-		key = "new_airi_error_code_100223"
-	},
-	new_airi_error_code_100224 = {
-		tip = "Unable to use Google service",
-		key = "new_airi_error_code_100224"
-	},
-	new_airi_error_code_100225 = {
-		tip = "Google authorization was canceled by user",
-		key = "new_airi_error_code_100225"
-	},
-	new_airi_error_code_100226 = {
-		tip = "Unable to login during another login request",
-		key = "new_airi_error_code_100226"
-	},
-	new_airi_error_code_100227 = {
-		tip = "Failed to login with the current account",
-		key = "new_airi_error_code_100227"
-	},
-	new_airi_error_code_100228 = {
-		tip = "The account was already deleted by user",
-		key = "new_airi_error_code_100228"
-	},
-	new_airi_error_code_100229 = {
-		tip = "Account deletion cannot be performed repeatedly",
-		key = "new_airi_error_code_100229"
-	},
-	new_airi_error_code_100231 = {
-		tip = "Failed to restore, the account was deleted completely",
-		key = "new_airi_error_code_100231"
-	},
-	new_airi_error_code_100232 = {
-		tip = "Unable to restore, no deletion history of the account",
-		key = "new_airi_error_code_100232"
-	},
-	new_airi_error_code_100233 = {
-		tip = "Unable to login, the account was deleted",
-		key = "new_airi_error_code_100233"
-	},
-	new_airi_error_code_100234 = {
-		tip = "The account is not authorized to login",
-		key = "new_airi_error_code_100234"
-	},
-	new_airi_error_code_100230 = {
-		tip = "Initialization failed",
-		key = "new_airi_error_code_100230"
-	},
-	new_airi_error_code_100240 = {
-		tip = "Apple authorization information does not match",
-		key = "new_airi_error_code_100240"
-	},
-	new_airi_error_code_100241 = {
-		tip = "User cancelled Apple authorization request",
-		key = "new_airi_error_code_100241"
-	},
-	new_airi_error_code_100242 = {
-		tip = "Apple authorization request failed",
-		key = "new_airi_error_code_100242"
-	},
-	new_airi_error_code_100243 = {
-		tip = "Invalid response from Apple authorization request",
-		key = "new_airi_error_code_100243"
-	},
-	new_airi_error_code_100244 = {
-		tip = "Failed to process Apple authorization request",
-		key = "new_airi_error_code_100244"
-	},
-	new_airi_error_code_100245 = {
-		tip = "Apple authorization request failed for unknown reason",
-		key = "new_airi_error_code_100245"
-	},
-	new_airi_error_code_100246 = {
-		tip = "System version does not support Apple authorization",
-		key = "new_airi_error_code_100246"
-	},
-	new_airi_error_code_100300 = {
-		tip = "Invalid email address format",
-		key = "new_airi_error_code_100300"
-	},
-	new_airi_error_code_100301 = {
-		tip = "Email addresses do not match",
-		key = "new_airi_error_code_100301"
-	},
-	new_airi_error_code_100302 = {
-		tip = "Verification code request is too frequent",
-		key = "new_airi_error_code_100302"
-	},
-	new_airi_error_code_100303 = {
-		tip = "Verification failed",
-		key = "new_airi_error_code_100303"
-	},
-	new_airi_error_code_100304 = {
-		tip = "Verification failed too many times",
-		key = "new_airi_error_code_100304"
-	},
-	new_airi_error_code_100305 = {
-		tip = "The account is banned",
-		key = "new_airi_error_code_100305"
-	},
-	new_airi_error_code_100306 = {
-		tip = "Verification code cannot be empty",
-		key = "new_airi_error_code_100306"
-	},
-	new_airi_error_code_100404 = {
-		tip = "Network error",
-		key = "new_airi_error_code_100404"
-	},
-	new_airi_error_code_200100 = {
-		tip = "User birthday is required",
-		key = "new_airi_error_code_200100"
-	},
-	new_airi_error_code_200110 = {
-		tip = "Monthly purchase limit exceeded",
-		key = "new_airi_error_code_200110"
-	},
-	new_airi_error_code_200120 = {
-		tip = "Item does not exist",
-		key = "new_airi_error_code_200120"
-	},
-	new_airi_error_code_200130 = {
-		tip = "Payment method does not exist",
-		key = "new_airi_error_code_200130"
-	},
-	new_airi_error_code_200140 = {
-		tip = "serverTag does not exist",
-		key = "new_airi_error_code_200140"
-	},
-	new_airi_error_code_200150 = {
-		tip = "Payment receipt verification failed",
-		key = "new_airi_error_code_200150"
-	},
-	new_airi_error_code_200160 = {
-		tip = "Invalid purchase request",
-		key = "new_airi_error_code_200160"
-	},
-	new_airi_error_code_200170 = {
-		tip = "Purchase request failed on game server",
-		key = "new_airi_error_code_200170"
-	},
-	new_airi_error_code_200180 = {
-		tip = "It takes a long time for searching the purchase result",
-		key = "new_airi_error_code_200180"
-	},
-	new_airi_error_code_200190 = {
-		tip = "Order ID does not exist",
-		key = "new_airi_error_code_200190"
-	},
-	new_airi_error_code_200200 = {
-		tip = "Order status tracking timed out",
-		key = "new_airi_error_code_200200"
-	},
-	new_airi_error_code_200210 = {
-		tip = "productid does not exist on payment backend",
-		key = "new_airi_error_code_200210"
-	},
-	new_airi_error_code_200220 = {
-		tip = "Payment backend response - payment failed",
-		key = "new_airi_error_code_200220"
-	},
-	new_airi_error_code_200230 = {
-		tip = "Payment backend response - payment canceled",
-		key = "new_airi_error_code_200230"
-	},
-	new_airi_error_code_200240 = {
-		tip = "Current API version does not support the request",
-		key = "new_airi_error_code_200240"
-	},
-	new_airi_error_code_200250 = {
-		tip = "Invalid parameters provided to API",
-		key = "new_airi_error_code_200250"
-	},
-	new_airi_error_code_200260 = {
-		tip = "Fatal error during API operation",
-		key = "new_airi_error_code_200260"
-	},
-	new_airi_error_code_200270 = {
-		tip = "The request is not supported by the Play store on current device",
-		key = "new_airi_error_code_200270"
-	},
-	new_airi_error_code_200280 = {
-		tip = "Item has already been purchased, not consumed yet",
-		key = "new_airi_error_code_200280"
-	},
-	new_airi_error_code_200290 = {
-		tip = "Item has already been purchased, failed to consume",
-		key = "new_airi_error_code_200290"
-	},
-	new_airi_error_code_200300 = {
-		tip = "Unable to purchase the requested item",
-		key = "new_airi_error_code_200300"
-	},
-	new_airi_error_code_200310 = {
-		tip = "Unable to connect to Google Play service",
-		key = "new_airi_error_code_200310"
-	},
-	new_airi_error_code_200320 = {
-		tip = "Request reached maximum timeout before receiving any response from Google Play",
-		key = "new_airi_error_code_200320"
-	},
-	new_airi_error_code_200330 = {
-		tip = "Network connection is turned off",
-		key = "new_airi_error_code_200330"
-	},
-	new_airi_error_code_200340 = {
-		tip = "Payment canceled by user",
-		key = "new_airi_error_code_200340"
-	},
-	new_airi_error_code_200350 = {
-		tip = "Item ID search failed",
-		key = "new_airi_error_code_200350"
-	},
-	new_airi_error_code_200360 = {
-		tip = "Connection to play services failed",
-		key = "new_airi_error_code_200360"
-	},
-	new_airi_error_code_300100 = {
-		tip = "System sharing failed",
-		key = "new_airi_error_code_300100"
-	},
 	need_break_tip = {
 		tip = "Limit break required.",
 		key = "need_break_tip"
@@ -8796,19 +8796,19 @@ Combat Details:
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "Tartu Rate UP! ",
+		tip = "L'Opiniâtre, Le Malin, Dunkerque, Surcouf, and others are now available from construction!",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "Hiei-chan added to standard build pool! ",
+		tip = "Duke of York added to standard build pool! ",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "Swiftsure added to standard build pool! ",
+		tip = "Sirius and others are added to standard build pool! ",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "Akagi-chan and Zeppy added to standard build pool! ",
+		tip = "Victorious added to standard build pool! ",
 		key = "buildship_special_tip"
 	},
 	world_log_1 = {
@@ -10354,7 +10354,7 @@ Event Information:
 				info = "4. You may choose two ships on which to focus your wishes."
 			},
 			{
-				info = "5. Only ships added to the normal building pool prior to July 26th can hear your wishes."
+				info = "5. Only ships added to the normal building pool prior to March 19th can hear your wishes."
 			},
 			{
 				info = "6. Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."
@@ -11596,12 +11596,24 @@ Each passing day since the start of the event gives you 1 opportunity to earn Pe
 		tip = "Secretary",
 		key = "common_flag_ship"
 	},
+	fenjie_lantu_tip = {
+		tip = "You can only analyze Prototype Blueprints after reaching Development Level 30 with that corresponding ship.",
+		key = "fenjie_lantu_tip"
+	},
+	msgbox_text_analyse = {
+		tip = "Analyze",
+		key = "msgbox_text_analyse"
+	},
+	fragresolve_empty_tip = {
+		tip = "There are no Prototype Blueprints that can currently be analyzed.",
+		key = "fragresolve_empty_tip"
+	},
 	confirm_unlock_lv = {
 		tip = "Are you sure you want to unlock $1 ($2)?",
 		key = "confirm_unlock_lv"
 	},
 	shops_rest_day = {
-		tip = "Core Data store refreshes in :",
+		tip = "Store refreshes in :",
 		key = "shops_rest_day"
 	},
 	title_limit_time = {
@@ -12279,7 +12291,7 @@ Event Rules:
 		key = "res_music_no_next_tip"
 	},
 	res_music_new_tip = {
-		tip = "Apple ID Link Complete",
+		tip = "This update adds $1 music",
 		key = "res_music_new_tip"
 	},
 	apple_link_title = {
@@ -12510,5 +12522,227 @@ By tapping the “Quick Retire” button to the bottom left of the Retire interf
 	collect_tip2 = {
 		tip = "Some selected ships are busy. Unable to form commsion fleet. ",
 		key = "collect_tip2"
+	},
+	towerclimbing_gametip = {
+		key = "towerclimbing_gametip",
+		tip = {
+			{
+				info = [[
+Minigame Instructions:
+1. Use the Left, Right, and Jump buttons to control Saratoga and get her to higher Floors.
+2. Watch your Health - falling from platforms, touching traps, or being caught by Angry Manjuus will deplete your Health. The game ends when you have 0 Health.
+Minigame Rules:
+During the event, you will earn one Credit every day,up to a maximum of seven (7) Credits.
+1. Playing Manjuu Misadventures while you have any number of Credits remaining will consume 1 Credit and reward you with 1 Check-in. Get 7 Check-Ins to earn an “Early Summer Invitation (2020).”
+2. Credits can be seen on the right side of the Manjuu Plaza event page, and Check-In progress can be viewed by tapping the “Invitation” button on the Manjuu Plaza event page.
+3. You will not earn Check-Ins for playing Manjuu Misadventures with no Credits remaining.
+4. Exiting the minigame for any reason while it is in progress will not consume a Credit, but no rewards will be given.]]
+			}
+		}
+	},
+	qingdianguangchang_help = {
+		key = "qingdianguangchang_help",
+		tip = {
+			{
+				info = [[
+Event Duration: 5/21/20 – 6/17/20
+Event Rules:
+1. Starting from 5/21, a new daily mission will unlock every day at midnight. Complete it to earn a “Building Material.” Event missions do not have to be completed the day they are unlocked.
+2. Use “Building Materials” to upgrade the facilities in the “Manjuu Plaza” event. Each facility provides different beneficial buffs.
+3. Each facility has three levels. Upgrading the levels of the facilities will improve the effects of the buffs.
+4. The four upgradeable facilities are as follows: 
+Manjuu Café
+Dango Shop
+Hamburger Joint
+Dumpling House]]
+			}
+		}
+	},
+	building_tip = {
+		tip = "Insufficient building materials. Please head to <color=#92fc63>Tasks</color> and complete <color=#92fc63>Event missions</color> to get more. ",
+		key = "building_tip"
+	},
+	building_upgrade_tip = {
+		tip = "Are you sure you want to upgrade? Building materials will be consumed.",
+		key = "building_upgrade_tip"
+	},
+	msgbox_text_upgrade = {
+		tip = "Upgrade",
+		key = "msgbox_text_upgrade"
+	},
+	towerclimbing_sign_help = {
+		key = "towerclimbing_sign_help",
+		tip = {
+			{
+				info = [[
+Event Rules:
+During the event, you will earn 1 Credit (rewarded game
+attempt) every day, up to a maximum of 7 Credits.
+1. Playing “Manjuu Misadventures” while you have Credits
+available will consume 1 Credit and award you with a
+Check-In. Obtain 7 Check-Ins to get the “Early Summer
+Invitation 2020.”
+2. You can check your number of Credits on the right side
+of the Manjuu Plaza page. Your Check-In progress can be
+viewed by tapping the “Invitation” button on the Manjuu
+Plaza page.
+3. Playing “Manjuu Misadventures” while you have no
+Credits remaining will give no rewards.
+4. Exiting the minigame for any reason will not consume
+any Credits, or give any rewards.]]
+			}
+		}
+	},
+	building_complete_tip = {
+		tip = "Upgrade Complete ",
+		key = "building_complete_tip"
+	},
+	backyard_theme_refresh_time_tip = {
+		tip = "Please wait before refreshing",
+		key = "backyard_theme_refresh_time_tip"
+	},
+	backyard_theme_total_print = {
+		tip = "Total",
+		key = "backyard_theme_total_print"
+	},
+	backyard_theme_shop_title = {
+		tip = "Explore Loadouts",
+		key = "backyard_theme_shop_title"
+	},
+	backyard_theme_mine_title = {
+		tip = "My Loadout",
+		key = "backyard_theme_mine_title"
+	},
+	backyard_theme_collection_title = {
+		tip = "My Favorites",
+		key = "backyard_theme_collection_title"
+	},
+	backyard_theme_ban_upload_tip = {
+		tip = "Your uploaded loadout has been reported, and you are not currently able to use the Upload feature\nBan time remaining: $1",
+		key = "backyard_theme_ban_upload_tip"
+	},
+	backyard_theme_upload_over_maxcnt = {
+		tip = "Maximum number of uploaded loadouts exceeded.\nPlease delete old uploaded loadouts and try again.",
+		key = "backyard_theme_upload_over_maxcnt"
+	},
+	backyard_theme_apply_tip1 = {
+		tip = "You do not own all the furniture for this loadout. Please continue arranging furniture or head to the Furniture Store.",
+		key = "backyard_theme_apply_tip1"
+	},
+	backyard_theme_word_buy = {
+		tip = "Buy",
+		key = "backyard_theme_word_buy"
+	},
+	backyard_theme_word_apply = {
+		tip = "Apply",
+		key = "backyard_theme_word_apply"
+	},
+	backyard_theme_apply_success = {
+		tip = "Loadout Saved",
+		key = "backyard_theme_apply_success"
+	},
+	backyard_theme_unload_success = {
+		tip = "Upload Cancelled",
+		key = "backyard_theme_unload_success"
+	},
+	backyard_theme_upload_success = {
+		tip = "Uploaded",
+		key = "backyard_theme_upload_success"
+	},
+	backyard_theme_delete_success = {
+		tip = "Deleted",
+		key = "backyard_theme_delete_success"
+	},
+	backyard_theme_apply_tip2 = {
+		tip = "Are you sure you want to Quicksave this loadout?",
+		key = "backyard_theme_apply_tip2"
+	},
+	backyard_theme_upload_cnt = {
+		tip = "Uploaded Loadouts: $1/$2",
+		key = "backyard_theme_upload_cnt"
+	},
+	backyard_theme_upload_time = {
+		tip = "Upload Time:",
+		key = "backyard_theme_upload_time"
+	},
+	backyard_theme_word_like = {
+		tip = "Likes",
+		key = "backyard_theme_word_like"
+	},
+	backyard_theme_word_collection = {
+		tip = "Favorites",
+		key = "backyard_theme_word_collection"
+	},
+	backyard_theme_cancel_collection = {
+		tip = "Are you sure you want to unfavorite this?",
+		key = "backyard_theme_cancel_collection"
+	},
+	backyard_theme_inform_them = {
+		tip = "\nLoadout ID: $1",
+		key = "backyard_theme_inform_them"
+	},
+	sort_default = {
+		tip = "Default",
+		key = "sort_default"
+	},
+	sort_time = {
+		tip = "Time",
+		key = "sort_time"
+	},
+	sort_like = {
+		tip = "Popularity",
+		key = "sort_like"
+	},
+	open_backyard_theme_template_tip = {
+		tip = "Furniture loadout templates are now available!",
+		key = "open_backyard_theme_template_tip"
+	},
+	backyard_theme_cancel_template_upload_tip = {
+		tip = "Are you sure you want to take down this uploaded loadout? Once taken down, you will lose all Likes and Favorites associated with that loadout.",
+		key = "backyard_theme_cancel_template_upload_tip"
+	},
+	backyard_theme_delete_themplate_tip = {
+		tip = "Are you sure you want to delete this loadout? Once deleted, you will lose all Likes and Favorites associated with that loadout.",
+		key = "backyard_theme_delete_themplate_tip"
+	},
+	backyard_theme_template_be_delete_tip = {
+		tip = "This loadout has already been deleted.",
+		key = "backyard_theme_template_be_delete_tip"
+	},
+	backyard_theme_template_collection_cnt_max = {
+		tip = "Your favorite loadouts list is full!",
+		key = "backyard_theme_template_collection_cnt_max"
+	},
+	backyard_theme_template_collection_cnt = {
+		tip = "Favorite Loadouts:",
+		key = "backyard_theme_template_collection_cnt"
+	},
+	words_visit_backyard_toggle = {
+		tip = "Allow friends to \nvisit your Dorm",
+		key = "words_visit_backyard_toggle"
+	},
+	words_show_friend_backyardship_toggle = {
+		tip = "Display the secretary \nof friends visiting your Dorm",
+		key = "words_show_friend_backyardship_toggle"
+	},
+	words_show_my_backyardship_toggle = {
+		tip = "Show your secretary \nship after visiting a friend's Dorm",
+		key = "words_show_my_backyardship_toggle"
+	},
+	option_desc7 = {
+		tip = "When toggled on, allows your friends to visit your Dorm.",
+		key = "option_desc7"
+	},
+	option_desc8 = {
+		tip = "When toggled on, displays the secretary of friends visiting your Dorm.",
+		key = "option_desc8"
+	},
+	option_desc9 = {
+		tip = "When toggled on, your friends will be able to see your secretary ship after you visit their Dorm.",
+		key = "option_desc9"
+	},
+	backyard_unopen = {
+		tip = "Dorm has not been made public",
+		key = "backyard_unopen"
 	}
 }

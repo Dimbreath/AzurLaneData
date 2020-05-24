@@ -115,6 +115,7 @@ function slot5.AddEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.REMOVE_AIR_FIGHTER, slot0.onRemoveAirFighter)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_AREA, slot0.onAddArea)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.REMOVE_AREA, slot0.onRemoveArea)
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_EFFECT, slot0.onAddEffect)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_SHELTER, slot0.onAddShelter)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.REMOVE_SHELTER, slot0.onRemoveShleter)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ANTI_AIR_AREA, slot0.onAntiAirArea)
@@ -131,6 +132,7 @@ function slot5.RemoveEvent(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.REMOVE_AIR_FIGHTER)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_AREA)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.REMOVE_AREA)
+	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_EFFECT)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_SHELTER)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.REMOVE_SHELTER)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ANTI_AIR_AREA)
@@ -185,6 +187,10 @@ end
 
 function slot5.onRemoveArea(slot0, slot1)
 	slot0:RemoveArea(slot1.Data.id)
+end
+
+function slot5.onAddEffect(slot0, slot1)
+	slot0:AddEffect(slot1.Data.FXID, slot1.Data.position, slot1.Data.localScale)
 end
 
 function slot5.onAddShelter(slot0, slot1)
@@ -340,6 +346,8 @@ function slot5.Pause(slot0)
 		end
 	end
 
+	slot0._cameraUtil:PauseShake()
+
 	for slot4, slot5 in ipairs(slot0._arcEffectList) do
 		for slot10 = 0, slot5._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1 do
 			slot6[slot10]:Pause()
@@ -353,6 +361,8 @@ function slot5.Resume(slot0)
 			slot6[slot10]:Play()
 		end
 	end
+
+	slot0._cameraUtil:ResumeShake()
 
 	for slot4, slot5 in ipairs(slot0._arcEffectList) do
 		for slot10 = 0, slot5._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1 do
@@ -499,6 +509,14 @@ function slot5.RemoveArea(slot0, slot1)
 
 		slot0._areaList[slot1] = nil
 	end
+end
+
+function slot5.AddEffect(slot0, slot1, slot2, slot3)
+	slot4 = slot0._fxPool:GetFX(slot1)
+	slot3 = slot3 or 1
+	slot4.transform.localScale = Vector3(slot3, 1, slot3)
+
+	pg.EffectMgr.GetInstance():PlayBattleEffect(slot4, slot2, true)
 end
 
 function slot5.AddArcEffect(slot0, slot1, slot2, slot3, slot4)

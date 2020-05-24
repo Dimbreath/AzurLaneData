@@ -1039,6 +1039,112 @@ pg.equip_data_statistics = {
 			"DB"
 		}
 	},
+	[125] = {
+		name = "默认鸢尾战斗机",
+		type = 7,
+		id = 125,
+		tech = 1,
+		nationality = 3,
+		speciality = "空战",
+		range = 90,
+		angle = 30,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "3/轮",
+		is_siren = 0,
+		rarity = 1,
+		scatter = "无",
+		descrip = "默认装备",
+		ammo = "通常",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			125,
+			128
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"FT"
+		}
+	},
+	[126] = {
+		name = "默认鸢尾鱼雷机",
+		type = 8,
+		id = 126,
+		tech = 1,
+		nationality = 3,
+		speciality = "雷击",
+		range = 90,
+		angle = 90,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "19 x 1",
+		is_siren = 0,
+		rarity = 1,
+		scatter = "无",
+		descrip = "默认装备",
+		ammo = "通常",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			126
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"TB"
+		}
+	},
+	[127] = {
+		name = "默认鸢尾轰炸机",
+		type = 9,
+		id = 127,
+		tech = 1,
+		nationality = 3,
+		speciality = "轰炸",
+		range = 90,
+		angle = 90,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "60/轮",
+		is_siren = 0,
+		rarity = 1,
+		scatter = "8",
+		descrip = "默认装备",
+		ammo = "通常",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			127
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"DB"
+		}
+	},
 	[140] = {
 		name = "Default Submarine Torpedo",
 		type = 13,
@@ -59046,6 +59152,58 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[60511] = {
+		name = "航空攻击展示-贝亚恩I",
+		type = 99,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		is_siren = 0,
+		rarity = 1,
+		descrip = "航母空袭展示用",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 60511,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60511
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60512] = {
+		id = 60512,
+		name = "航空攻击展示-贝亚恩II",
+		base = 60511,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60512
+		},
+		property_rate = {}
+	},
+	[60513] = {
+		id = 60513,
+		name = "航空攻击展示-贝亚恩III",
+		base = 60511,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60513
+		},
+		property_rate = {}
+	},
 	[61007] = {
 		name = "0",
 		type = 1,
@@ -63243,6 +63401,88 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[78121] = {
+		name = "全弹发射-拉·加利索尼埃I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		is_siren = 0,
+		rarity = 1,
+		descrip = "技能弹幕",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 78121,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			78121
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[78122] = {
+		id = 78122,
+		name = "全弹发射-拉·加利索尼埃II",
+		base = 78121,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			78122
+		},
+		property_rate = {}
+	},
+	[78211] = {
+		name = "全弹发射-阿尔及利亚I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		is_siren = 0,
+		rarity = 1,
+		descrip = "技能弹幕",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 78211,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			78211
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[78212] = {
+		id = 78212,
+		name = "全弹发射-阿尔及利亚II",
+		base = 78211,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			78212
+		},
+		property_rate = {}
+	},
 	[79011] = {
 		name = "0",
 		type = 1,
@@ -65331,6 +65571,47 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			79522
+		},
+		property_rate = {}
+	},
+	[79541] = {
+		name = "专属弹幕-圣女贞德I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		is_siren = 0,
+		rarity = 1,
+		descrip = "技能弹幕",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 79541,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60501
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[79542] = {
+		id = 79542,
+		name = "专属弹幕-圣女贞德II",
+		base = 79541,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60502
 		},
 		property_rate = {}
 	},
@@ -73196,6 +73477,169 @@ pg.equip_data_statistics = {
 		equip_parameters = {},
 		label = {}
 	},
+	[650601] = {
+		name = "【2020法系活动剧情用】双联装155mm主炮Mle1920",
+		type = 2,
+		id = 650601,
+		tech = 0,
+		speciality = "锁定",
+		range = 60,
+		scatter = "10°",
+		angle = 120,
+		value_2 = 12,
+		icon = "50780",
+		value_1 = "10 x 4",
+		attribute_2 = "cannon",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常弹",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			650601
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[650602] = {
+		name = "【2020法系活动剧情用】双联装130mm主炮Mle1935",
+		type = 1,
+		id = 650602,
+		tech = 1,
+		speciality = "锁定",
+		range = 55,
+		scatter = "12°",
+		angle = 360,
+		value_2 = 5,
+		icon = "50500",
+		value_1 = "9 x 2",
+		attribute_2 = "cannon",
+		rarity = 2,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常弹",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			650602
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[650603] = {
+		name = "【2020法系活动剧情用】双联550mm鱼雷T1",
+		type = 5,
+		id = 650603,
+		tech = 1,
+		nationality = 8,
+		speciality = "雷击",
+		range = 50,
+		angle = 60,
+		value_2 = 0,
+		icon = "5300",
+		value_1 = "42 x 2",
+		is_siren = 0,
+		rarity = 1,
+		scatter = "40°",
+		descrip = "说明未填写",
+		ammo = "通常",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			650603
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		}
+	},
+	[650604] = {
+		name = "【2020法系活动剧情用】四联装380mm主炮Mle1935",
+		type = 4,
+		id = 650604,
+		tech = 3,
+		speciality = "跨射",
+		range = 200,
+		scatter = "24",
+		angle = 45,
+		value_2 = 45,
+		icon = "50400",
+		value_1 = "48 x 4",
+		attribute_2 = "cannon",
+		rarity = 5,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "高爆弹",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			650604
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
 	[800000] = {
 		id = 800000,
 		name = "【三笠剧情】驱逐武器",
@@ -73367,6 +73811,9 @@ pg.equip_data_statistics = {
 		121,
 		122,
 		123,
+		125,
+		126,
+		127,
 		140,
 		141,
 		144,
@@ -77423,6 +77870,9 @@ pg.equip_data_statistics = {
 		60491,
 		60492,
 		60493,
+		60511,
+		60512,
+		60513,
 		61007,
 		61008,
 		61009,
@@ -77623,6 +78073,10 @@ pg.equip_data_statistics = {
 		78032,
 		78111,
 		78112,
+		78121,
+		78122,
+		78211,
+		78212,
 		79011,
 		79012,
 		79021,
@@ -77725,6 +78179,8 @@ pg.equip_data_statistics = {
 		79512,
 		79521,
 		79522,
+		79541,
+		79542,
 		85000,
 		85001,
 		85002,
@@ -78270,6 +78726,10 @@ pg.equip_data_statistics = {
 		594019,
 		630011,
 		630012,
+		650601,
+		650602,
+		650603,
+		650604,
 		800000,
 		800001,
 		800002,

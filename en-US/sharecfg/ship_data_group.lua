@@ -5745,11 +5745,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Special Ship Construction",
+				"Light ship Construction",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
+						projectName = "light",
 						page = 1
 					}
 				},
@@ -6327,11 +6327,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Special Ship Construction",
+				"Light Construction",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
+						projectName = "light",
 						page = 1
 					}
 				},
@@ -6618,11 +6618,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Special Ship Construction",
+				"Light Construction",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
+						projectName = "light",
 						page = 1
 					}
 				},
@@ -6736,11 +6736,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Special Ship Construction",
+				"Light Construction",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
+						projectName = "light",
 						page = 1
 					}
 				},
@@ -7791,11 +7791,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Special Ship Construction",
+				"Heavy Ship Construction",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
+						projectName = "heavy",
 						page = 1
 					}
 				},
@@ -14375,6 +14375,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[395] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 8,
+		hide = 0,
+		index_id = 359,
+		group_type = 80104,
+		code = 395,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"A",
+			"B",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Iris of Light and Dark",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[347] = {
 		type = 1,
 		trans_skin = 0,
@@ -14454,7 +14485,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 8,
 		hide = 0,
-		index_id = 362,
+		index_id = 365,
 		group_type = 80801,
 		code = 350,
 		property_hexagon = {
@@ -14485,7 +14516,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 363,
+		index_id = 366,
 		group_type = 90101,
 		code = 351,
 		property_hexagon = {
@@ -14525,7 +14556,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 364,
+		index_id = 367,
 		group_type = 90102,
 		code = 452,
 		property_hexagon = {
@@ -14548,6 +14579,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[394] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 9,
+		hide = 0,
+		index_id = 369,
+		group_type = 90111,
+		code = 394,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Iris of Light and Dark",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[352] = {
 		type = 4,
 		trans_skin = 0,
@@ -14556,7 +14618,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 366,
+		index_id = 372,
 		group_type = 90401,
 		code = 352,
 		property_hexagon = {
@@ -14587,7 +14649,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 367,
+		index_id = 373,
 		group_type = 90501,
 		code = 353,
 		property_hexagon = {
@@ -14618,7 +14680,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 9,
 		hide = 0,
-		index_id = 368,
+		index_id = 374,
 		group_type = 90503,
 		code = 418,
 		property_hexagon = {
@@ -15989,11 +16051,13 @@ pg.ship_data_group = {
 		441,
 		348,
 		359,
+		395,
 		347,
 		349,
 		350,
 		351,
 		452,
+		394,
 		352,
 		353,
 		418,

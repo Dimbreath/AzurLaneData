@@ -319,7 +319,7 @@ function slot0.setAttachment(slot0, slot1, slot2, slot3)
 	onButton(slot0, slot1, function ()
 		if uv0.dropType == DROP_TYPE_RESOURCE then
 			uv1:emit(uv2.ON_ITEM, id2ItemId(uv0.id))
-		elseif uv0.dropType == DROP_TYPE_ITEM or uv0.dropType == DROP_TYPE_SHIP then
+		elseif uv0.dropType == DROP_TYPE_ITEM or uv0.dropType == DROP_TYPE_VITEM or uv0.dropType == DROP_TYPE_SHIP then
 			uv1:emit(uv2.ON_DROP, {
 				type = uv0.dropType,
 				id = uv0.id,

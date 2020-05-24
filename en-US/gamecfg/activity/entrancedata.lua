@@ -87,19 +87,6 @@ return {
 	},
 	{},
 	{
-		banner = "commom_build",
-		event = ActivityMediator.EVENT_GO_SCENE,
-		data = {
-			SCENE.GETBOAT,
-			{
-				projectName = BuildShipScene.PROJECTS.ACTIVITY
-			}
-		},
-		isShow = function ()
-			return getProxy(ActivityProxy):getActivityById(ActivityConst.FRANCE_RE_BUILD) and not slot0:isEnd()
-		end
-	},
-	{
 		banner = "commom_pt_shop",
 		event = ActivityMediator.GO_SHOPS_LAYER,
 		data = {

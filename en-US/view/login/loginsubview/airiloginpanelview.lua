@@ -17,11 +17,13 @@ function slot0.OnInit(slot0)
 	slot0.clearTranscodeBtn = slot0:findTF("clear_transcode", slot0.airijpPanel)
 	slot0.jpLoginCon = slot0:findTF("jp_login_btns", slot0.airijpPanel)
 	slot0.appleLoginBtn = slot0:findTF("apple_login", slot0.jpLoginCon)
+	slot0.amazonLoginBtn = slot0:findTF("amazon_login", slot0.jpLoginCon)
 	slot0.twitterLoginBtn = slot0:findTF("twitter_login", slot0.jpLoginCon)
 	slot0.transcodeLoginBtn = slot0:findTF("transcode_login", slot0.jpLoginCon)
 	slot0.touristLoginBtn = slot0:findTF("tourist_login", slot0.jpLoginCon)
 	slot0.firstAlertWin = slot0:findTF("empty_alert", slot0.airijpPanel)
 	slot0.appleToggleTf = slot0:findTF("window/content_bg/apple_toggle", slot0.firstAlertWin)
+	slot0.amazonToggleTf = slot0:findTF("window/content_bg/amazon_toggle", slot0.firstAlertWin)
 	slot0.twitterToggleTf = slot0:findTF("window/content_bg/twitter_toggle", slot0.firstAlertWin)
 	slot0.transcodeToggleTf = slot0:findTF("window/content_bg/transcode_toggle", slot0.firstAlertWin)
 	slot0.touristToggleTf = slot0:findTF("window/content_bg/tourist_toggle", slot0.firstAlertWin)
@@ -41,6 +43,8 @@ function slot0.OnInit(slot0)
 	setActive(slot0.touristLoginBtn, false)
 	setActive(slot0.appleLoginBtn, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "1" and CSharpVersion > 36)
 	setActive(slot0.appleToggleTf, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "1" and CSharpVersion > 36)
+	setActive(slot0.amazonLoginBtn, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "3" and CSharpVersion > 36)
+	setActive(slot0.amazonToggleTf, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "3" and CSharpVersion > 36)
 
 	if PLATFORM_CODE == PLATFORM_JP then
 		setActive(slot0.firstAlertWin, false)
@@ -88,6 +92,9 @@ function slot0.InitEvent(slot0)
 	end)
 	onButton(slot0, slot0.appleLoginBtn, function ()
 		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_APPLE)
+	end)
+	onButton(slot0, slot0.amazonLoginBtn, function ()
+		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_AMAZON)
 	end)
 	onButton(slot0, slot0.twitterLoginBtn, function ()
 		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_TWITTER)
@@ -141,6 +148,7 @@ function slot0.InitEvent(slot0)
 		slot1 = getToggleState(uv0.transcodeToggleTf)
 		slot2 = getToggleState(uv0.touristToggleTf)
 		slot3 = getToggleState(uv0.appleToggleTf)
+		slot4 = getToggleState(uv0.amazonToggleTf)
 
 		if getToggleState(uv0.twitterToggleTf) then
 			pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_TWITTER)
@@ -154,10 +162,16 @@ function slot0.InitEvent(slot0)
 			pg.SdkMgr.GetInstance():LoginWithDevice()
 		elseif slot3 then
 			pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_APPLE)
+		elseif slot4 then
+			pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_AMAZON)
 		end
 
 		uv1()
 	end)
+
+	if PLATFORM_CODE == PLATFORM_JP then
+		triggerToggle(pg.SdkMgr.GetInstance():GetChannelUID() == "3" and slot0.amazonToggleTf or slot0.twitterToggleTf, true)
+	end
 end
 
 function slot0.OnDestroy(slot0)

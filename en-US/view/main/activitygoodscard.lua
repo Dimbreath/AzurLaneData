@@ -58,6 +58,8 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 	slot11 = nil
 
 	if slot1:getConfig("resource_category") == DROP_TYPE_RESOURCE then
+		print(id)
+
 		slot11 = GetSpriteFromAtlas(pg.item_data_statistics[id2ItemId(slot1:getConfig("resource_type"))].icon, "")
 	elseif slot12 == DROP_TYPE_ITEM then
 		slot11 = GetSpriteFromAtlas(pg.item_data_statistics[slot1:getConfig("resource_type")].icon, "")

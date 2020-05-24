@@ -4536,6 +4536,112 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[14001] = {
+		display = [[
+Can be exchanged for one of the following SR gear blueprints:
+Prototype Triple 381mm Main Gun T0 Design
+Prototype Triple 410mm Mounted Gun T0 Design
+Prototype Triple 203mm Main Gun (SK C) T0 Design
+Prototype Triple 203mm Main Gun T0 Design
+Prototype Triple 152mm Main Gun T0 Design
+Twin 100mm (Type 98) AA Gun T0 Design]],
+		rarity = 4,
+		type = 13,
+		drop_oil_max = 0,
+		name = "Prototype Weapon Blueprint - Series 1",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 14001,
+		icon = "Props/14001",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				13001,
+				1
+			},
+			{
+				2,
+				13003,
+				1
+			},
+			{
+				2,
+				13004,
+				1
+			},
+			{
+				2,
+				13005,
+				1
+			},
+			{
+				2,
+				13006,
+				1
+			},
+			{
+				2,
+				13008,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[14002] = {
+		display = [[
+Can be converted to one of the following SR gear blueprints:
+Prototype Twin 406mm Main Gun (SK C/34) T0 Design
+Prototype Triple 152mm Main Gun (DP MK17) T0 Design
+Prototype 40mm AA Gun (Type 5) T0 Design
+Prototype Triple 310mm Main Gun (Type 0) T0 Design
+Twin 37mm AA Gun (Mle 1936) T0 Design]],
+		rarity = 4,
+		type = 13,
+		drop_oil_max = 0,
+		name = "Prototype Weapon Blueprint - Series 2",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 14002,
+		icon = "Props/14001",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				13013,
+				1
+			},
+			{
+				2,
+				13014,
+				1
+			},
+			{
+				2,
+				13015,
+				1
+			},
+			{
+				2,
+				13016,
+				1
+			},
+			{
+				2,
+				13017,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[15001] = {
 		display = "A Medal of Honor granted after retiring a ship. Use to apply for rare ships.",
 		rarity = 3,
@@ -7837,7 +7943,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		virtual_type = 0,
 		link_id = 0,
 		id = 40005,
-		icon = "ChargeIcon/box1",
+		icon = "ChargeIcon/boxLv10",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -7881,7 +7987,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		virtual_type = 0,
 		link_id = 0,
 		id = 40006,
-		icon = "ChargeIcon/box2",
+		icon = "ChargeIcon/boxLv20",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -7925,7 +8031,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		virtual_type = 0,
 		link_id = 0,
 		id = 40007,
-		icon = "ChargeIcon/box3",
+		icon = "ChargeIcon/boxLv30",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -7984,7 +8090,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		virtual_type = 0,
 		link_id = 0,
 		id = 40008,
-		icon = "ChargeIcon/box4",
+		icon = "ChargeIcon/boxLv50",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -8043,7 +8149,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		virtual_type = 0,
 		link_id = 0,
 		id = 40009,
-		icon = "ChargeIcon/box1",
+		icon = "ChargeIcon/boxDaily",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -8449,7 +8555,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		virtual_type = 0,
 		link_id = 0,
 		id = 40106,
-		icon = "ChargeIcon/box4",
+		icon = "ChargeIcon/boxFur",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -8618,7 +8724,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		virtual_type = 0,
 		link_id = 0,
 		id = 40117,
-		icon = "ChargeIcon/box4",
+		icon = "ChargeIcon/boxOil",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -8642,7 +8748,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		virtual_type = 0,
 		link_id = 0,
 		id = 40118,
-		icon = "ChargeIcon/box4",
+		icon = "ChargeIcon/boxBuild",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -8973,14 +9079,14 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		rarity = 4,
 		type = 17,
 		drop_oil_max = 0,
-		name = "Third Anniversary Gift Bag ",
+		name = "Night Out Lucky Bag ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 0,
 		link_id = 0,
 		id = 40910,
-		icon = "Props/lihe4",
+		icon = "Props/lihe1",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -85645,6 +85751,24 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59009] = {
+		display = "Obtained by analyzing Prototype Blueprints. Can be exchanged for a number of items in the Prototype Core Shop. ",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Prototype Core ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59009,
+		icon = "Props/design_prt",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59100] = {
 		display = "Increase Depot capacity by 20 slots",
 		rarity = 5,
@@ -85982,6 +86106,24 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		link_id = 0,
 		id = 59130,
 		icon = "Props/shengdiyagePT",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59133] = {
+		display = "Used in the exchange shop for \"Iris of Light and Dark.\" Expires after the event period ends. ",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Iris Écu ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59133,
+		icon = "Props/faxipt",
 		replace_item = 0,
 		display_icon = {},
 		price = {},
@@ -86450,6 +86592,42 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		link_id = 0,
 		id = 59159,
 		icon = "Props/skinTicket",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59164] = {
+		display = "Used to upgrade buildings in the \"Manjuu Plaza\" event (Will be removed after the event ends). ",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Building Materials ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 12,
+		link_id = 30412,
+		id = 59164,
+		icon = "Props/houshancailiao",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59167] = {
+		display = "By participating in Manjuu Misadventures, you can obtain certificates. After obtaining 7 manjuu certificates, you can exchange it for an \"Early Summer Invitation (2020)\". ",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Manjuu Certificate ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59167,
+		icon = "props/yaoqinghan",
 		replace_item = 0,
 		display_icon = {},
 		price = {},
@@ -88979,6 +89157,70 @@ let us celebrate."]],
 		price = {},
 		index = {}
 	},
+	[59955] = {
+		display = "Can be used to invite a special partner to join you from a selection of ships. ",
+		rarity = 4,
+		type = 13,
+		drop_oil_max = 0,
+		name = "Early Summer Invitation (2020) ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59955,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				303121,
+				1
+			},
+			{
+				4,
+				202121,
+				1
+			},
+			{
+				4,
+				207031,
+				1
+			},
+			{
+				4,
+				204031,
+				1
+			},
+			{
+				4,
+				107061,
+				1
+			},
+			{
+				4,
+				207041,
+				1
+			},
+			{
+				4,
+				307051,
+				1
+			},
+			{
+				4,
+				307061,
+				1
+			},
+			{
+				4,
+				205021,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59960] = {
 		display = "Pigment A used during Anshan's Diary event. Disappears after event has ended.",
 		rarity = 2,
@@ -89537,6 +89779,330 @@ let us celebrate."]],
 		price = {},
 		index = {}
 	},
+	[60039] = {
+		display = "可以获得舰船和回礼",
+		rarity = 2,
+		type = 11,
+		drop_oil_max = 0,
+		name = "天狼星礼包（新）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60039,
+		icon = "Props/30000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60040] = {
+		display = "可以获得舰船和回礼",
+		rarity = 2,
+		type = 11,
+		drop_oil_max = 0,
+		name = "贝尔法斯特礼包（新）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60040,
+		icon = "Props/30000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60041] = {
+		display = "可以获得舰船和回礼",
+		rarity = 2,
+		type = 11,
+		drop_oil_max = 0,
+		name = "胜利礼包（新）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60041,
+		icon = "Props/30000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60042] = {
+		display = "可以获得舰船和回礼",
+		rarity = 2,
+		type = 11,
+		drop_oil_max = 0,
+		name = "厌战礼包（新）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60042,
+		icon = "Props/30000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60043] = {
+		display = "可以获得舰船和回礼",
+		rarity = 2,
+		type = 11,
+		drop_oil_max = 0,
+		name = "胡德礼包（新）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60043,
+		icon = "Props/30000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60044] = {
+		display = "可以获得舰船和回礼",
+		rarity = 2,
+		type = 11,
+		drop_oil_max = 0,
+		name = "企业礼包（新）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60044,
+		icon = "Props/30000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60045] = {
+		display = "可以获得舰船和回礼",
+		rarity = 2,
+		type = 11,
+		drop_oil_max = 0,
+		name = "光辉礼包（新）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60045,
+		icon = "Props/30000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60046] = {
+		display = "可以获得舰船和回礼",
+		rarity = 2,
+		type = 11,
+		drop_oil_max = 0,
+		name = "威尔士亲王礼包（新）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60046,
+		icon = "Props/30000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60047] = {
+		display = "可以获得舰船和回礼",
+		rarity = 2,
+		type = 11,
+		drop_oil_max = 0,
+		name = "犬礼包（新）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60047,
+		icon = "Props/30000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60048] = {
+		display = "A letter from Zuikaku. ",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Zuikaku",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60048,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60049] = {
+		display = "A letter from Belfast. ",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Belfast",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60049,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60050] = {
+		display = "A letter from Shoukaku. ",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Shoukaku",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60050,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60051] = {
+		display = "A letter from Warspite. ",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Warspite",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60051,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60052] = {
+		display = "A letter from Hood. ",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Hood",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60052,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60053] = {
+		display = "A letter from Enterprise. ",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Enterprise",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60053,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60054] = {
+		display = "A letter from Illustrious. ",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Illustrious",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60054,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60055] = {
+		display = "A letter from Prince of Wales. ",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Prince of Wales",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60055,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60056] = {
+		display = "A letter from Atago. ",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Atago",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60056,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[69903] = {
 		display = [[
 This lucky bag contains a random Ship skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
@@ -89724,8 +90290,8 @@ Skins and drop rates:
 	},
 	[69910] = {
 		display = [[
-Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems) 
-The available outfits and their rarities are as follows:
+This lucky bag contains a random Ship skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
+Skins and their drop rates:
 (<color=#92fc63>10.25%</color>)Ping Hai’s Anniversary Outfit(<color=#92fc63>Live 2d</color>;
 (<color=#92fc63>10.25%</color>)St. Louis’s Anniversary Outfit(<color=#92fc63>Live 2d</color>;
 (<color=#92fc63>7.5%</color>)Dido’s Anniversary Outfit;
@@ -89742,7 +90308,7 @@ The available outfits and their rarities are as follows:
 		rarity = 4,
 		type = 98,
 		drop_oil_max = 0,
-		name = "Random Third Anniversary Outfit ",
+		name = "Random Skin",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -91159,6 +91725,8 @@ Skins and their drop rates:
 		13015,
 		13016,
 		13017,
+		14001,
+		14002,
 		15001,
 		15002,
 		15003,
@@ -92853,6 +93421,7 @@ Skins and their drop rates:
 		59004,
 		59005,
 		59006,
+		59009,
 		59100,
 		59101,
 		59104,
@@ -92872,6 +93441,7 @@ Skins and their drop rates:
 		59128,
 		59129,
 		59130,
+		59133,
 		59134,
 		59135,
 		59136,
@@ -92898,6 +93468,8 @@ Skins and their drop rates:
 		59157,
 		59158,
 		59159,
+		59164,
+		59167,
 		59601,
 		59602,
 		59603,
@@ -93032,6 +93604,7 @@ Skins and their drop rates:
 		59952,
 		59953,
 		59954,
+		59955,
 		59960,
 		59961,
 		59962,
@@ -93063,6 +93636,24 @@ Skins and their drop rates:
 		60036,
 		60037,
 		60038,
+		60039,
+		60040,
+		60041,
+		60042,
+		60043,
+		60044,
+		60045,
+		60046,
+		60047,
+		60048,
+		60049,
+		60050,
+		60051,
+		60052,
+		60053,
+		60054,
+		60055,
+		60056,
 		69903,
 		69904,
 		69905,

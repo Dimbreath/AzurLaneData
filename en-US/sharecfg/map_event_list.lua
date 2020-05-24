@@ -425,6 +425,287 @@ pg.map_event_list = {
 			"helpbg/battle_holo_4"
 		}
 	},
+	[1360003] = {
+		help_open = 1,
+		chapter_id = 1360003,
+		event_list = {
+			347,
+			348,
+			349,
+			350,
+			351,
+			352,
+			353,
+			354,
+			355,
+			356,
+			357,
+			358,
+			359,
+			374
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_faxiv2_1"
+		}
+	},
+	[1360004] = {
+		help_open = 0,
+		chapter_id = 1360004,
+		event_list = {
+			360,
+			361,
+			362,
+			363,
+			364,
+			365,
+			366,
+			367,
+			368,
+			369,
+			370,
+			371,
+			372,
+			373
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_faxiv2_1"
+		}
+	},
+	[1360005] = {
+		help_open = 1,
+		chapter_id = 1360005,
+		event_list = {
+			267,
+			268,
+			269,
+			270,
+			271,
+			272,
+			273,
+			274,
+			275,
+			276,
+			277,
+			278,
+			279,
+			280,
+			281,
+			282,
+			283,
+			284
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_faxiv2_2",
+			"helpbg/battle_faxiv2_1"
+		}
+	},
+	[1360006] = {
+		help_open = 0,
+		chapter_id = 1360006,
+		event_list = {
+			285,
+			286,
+			287,
+			288,
+			289,
+			290,
+			291,
+			292,
+			293,
+			294,
+			295,
+			296,
+			297,
+			298,
+			299,
+			300,
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			308,
+			309,
+			310,
+			311,
+			312,
+			313,
+			314,
+			315,
+			316
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_faxiv2_2",
+			"helpbg/battle_faxiv2_1"
+		}
+	},
+	[1360023] = {
+		help_open = 1,
+		chapter_id = 1360023,
+		event_list = {
+			347,
+			348,
+			349,
+			350,
+			351,
+			352,
+			353,
+			354,
+			355,
+			356,
+			357,
+			358,
+			359,
+			374
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_faxiv2_1"
+		}
+	},
+	[1360024] = {
+		help_open = 0,
+		chapter_id = 1360024,
+		event_list = {
+			360,
+			361,
+			362,
+			363,
+			364,
+			365,
+			366,
+			367,
+			368,
+			369,
+			370,
+			371,
+			372,
+			373
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_faxiv2_1"
+		}
+	},
+	[1360025] = {
+		help_open = 1,
+		chapter_id = 1360025,
+		event_list = {
+			267,
+			268,
+			269,
+			270,
+			271,
+			272,
+			273,
+			274,
+			275,
+			276,
+			277,
+			278,
+			279,
+			280,
+			281,
+			282,
+			283,
+			284
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_faxiv2_2",
+			"helpbg/battle_faxiv2_1"
+		}
+	},
+	[1360026] = {
+		help_open = 0,
+		chapter_id = 1360026,
+		event_list = {
+			285,
+			286,
+			287,
+			288,
+			289,
+			290,
+			291,
+			292,
+			293,
+			294,
+			295,
+			296,
+			297,
+			298,
+			299,
+			300,
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			308,
+			309,
+			310,
+			311,
+			312,
+			313,
+			314,
+			315,
+			316
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_faxiv2_2",
+			"helpbg/battle_faxiv2_1"
+		}
+	},
+	[1360041] = {
+		help_open = 0,
+		chapter_id = 1360041,
+		event_list = {
+			317,
+			318,
+			319,
+			320,
+			321,
+			322,
+			323,
+			324,
+			325,
+			326,
+			327,
+			328,
+			329,
+			330,
+			331,
+			332,
+			333,
+			334,
+			335,
+			336,
+			337,
+			338,
+			339,
+			340,
+			341,
+			342,
+			343,
+			344,
+			345,
+			346
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_faxiv2_2",
+			"helpbg/battle_faxiv2_1"
+		}
+	},
 	all = {
 		1220001,
 		1220002,
@@ -444,6 +725,15 @@ pg.map_event_list = {
 		1290009,
 		1290010,
 		1290011,
-		1290031
+		1290031,
+		1360003,
+		1360004,
+		1360005,
+		1360006,
+		1360023,
+		1360024,
+		1360025,
+		1360026,
+		1360041
 	}
 }

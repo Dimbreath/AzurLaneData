@@ -24226,6 +24226,270 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12320] = {
+		desc_get = "",
+		name = "Poisonous Sting",
+		desc = "When this ship hits an enemy with 10 consecutive shots: increases that enemy's DMG taken from DD guns and torpedoes by $1 for 5s. When this ship sinks an enemy: increases this ship's FP by $2 until the end of the battle. Can be stacked up to 10 times.",
+		type = 1,
+		max_level = 10,
+		id = 12320,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"0.5%",
+				"2.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"0.5%",
+					"+0.1%"
+				},
+				{
+					"0.6%",
+					"+0.1%"
+				},
+				{
+					"0.7%",
+					"+0.1%"
+				},
+				{
+					"0.8%",
+					"+0.15%"
+				},
+				{
+					"0.95%",
+					"+0.15%"
+				},
+				{
+					"1.1%",
+					"+0.15%"
+				},
+				{
+					"1.25%",
+					"+0.2%"
+				},
+				{
+					"1.45%",
+					"+0.25%"
+				},
+				{
+					"1.7%",
+					"+0.3%"
+				},
+				{
+					"2.0%"
+				}
+			}
+		}
+	},
+	[12330] = {
+		desc_get = "",
+		name = "Vichya's Vindictive Blade",
+		desc = "At the start of the battle: increases this ship's EVA and TRP by $1 for 30s, after which point this buff will decrease in effectiveness over 20s until it is gone.",
+		type = 2,
+		max_level = 10,
+		id = 12330,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.2%"
+				},
+				{
+					"6.2%",
+					"+1.2%"
+				},
+				{
+					"7.4%",
+					"+1.6%"
+				},
+				{
+					"9.0%",
+					"+1.5%"
+				},
+				{
+					"10.5%",
+					"+1.5%"
+				},
+				{
+					"12.0%",
+					"+2.0%"
+				},
+				{
+					"14.0%",
+					"+1.8%"
+				},
+				{
+					"15.8%",
+					"+1.8%"
+				},
+				{
+					"17.6%",
+					"+2.4%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[12350] = {
+		desc_get = "",
+		name = "Unyielding Magician ",
+		desc = "Starting at 80.0% of this ship's max HP: increases this ship's FP and TRP (up to a maximum of $2) based on its HP lost. Additionally, once per battle, when this ship's HP falls below 30.0%: increases this ship's AA by $1 until the end of the battle. ",
+		type = 1,
+		max_level = 10,
+		id = 12350,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"6%",
+				"12.0%"
+			},
+			{
+				"20",
+				"40"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%",
+					"+0.6%"
+				},
+				{
+					"10.6%",
+					"+0.6%"
+				},
+				{
+					"11.2%",
+					"+0.8%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"20.0",
+					"+2"
+				},
+				{
+					"22",
+					"+2"
+				},
+				{
+					"24",
+					"+2"
+				},
+				{
+					"26",
+					"+2"
+				},
+				{
+					"28",
+					"+2"
+				},
+				{
+					"30",
+					"+2"
+				},
+				{
+					"32",
+					"+2"
+				},
+				{
+					"34",
+					"+2"
+				},
+				{
+					"36",
+					"+4"
+				},
+				{
+					"40"
+				}
+			}
+		}
+	},
 	[12360] = {
 		desc_get = "",
 		name = "Messenger of Love ",
@@ -37675,6 +37939,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[29411] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Le Malin once every 15 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29411,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29412] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Le Malin once every 10 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29412,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[29421] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -41461,6 +41747,9 @@ pg.skill_data_template = {
 		12290,
 		12300,
 		12310,
+		12320,
+		12330,
+		12350,
 		12360,
 		12370,
 		12380,
@@ -41836,6 +42125,8 @@ pg.skill_data_template = {
 		29392,
 		29401,
 		29402,
+		29411,
+		29412,
 		29421,
 		29422,
 		29431,

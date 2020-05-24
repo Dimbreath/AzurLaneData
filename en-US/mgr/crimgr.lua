@@ -11,6 +11,7 @@ slot1.C_SE = "C_SE"
 slot1.C_BATTLE_SE = "C_BATTLE_SE"
 slot1.C_STORY_BGM = "C_STORY_BGM"
 slot1.C_GALLERY_MUSIC = "C_GALLERY_MUSIC"
+slot1.NEXT_VER = 40
 
 function slot1.Init(slot0, slot1)
 	print("initializing cri manager...")
@@ -97,7 +98,7 @@ function slot1.PlayBGM(slot0, slot1, slot2)
 
 	slot0.bgmName = slot3
 
-	if CSharpVersion <= 37 then
+	if CSharpVersion < uv0.NEXT_VER then
 		CriWareMgr.Inst:PlayBGM(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
 			if slot0 == nil then
 				warning("Missing BGM :" .. (uv0 or "NIL"))
@@ -125,7 +126,7 @@ function slot1.playStory(slot0, slot1)
 	slot3.cueSheetName = slot2
 	slot3.cueName = ""
 
-	if CSharpVersion <= 37 then
+	if CSharpVersion < uv0.NEXT_VER then
 		CriWareMgr.Inst:PlaySound(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
 			if slot0 == nil then
 				warning("Missing BGM :" .. (bgm or "NIL"))
@@ -211,7 +212,7 @@ function slot1.UnloadSoundEffect_V3(slot0, slot1)
 end
 
 function slot1.PlayCV_V3(slot0, slot1, slot2, slot3)
-	if CSharpVersion > 37 then
+	if uv0.NEXT_VER <= CSharpVersion then
 		CriWareMgr.Inst:PlayVoice(slot2, CriWareMgr.CRI_FADE_TYPE.NONE, slot1, function (slot0)
 			if uv0 ~= nil then
 				uv0(slot0)

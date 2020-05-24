@@ -548,12 +548,19 @@ end
 
 function slot0.updateServerList(slot0, slot1)
 	slot0.serverList = slot1
+	slot2 = _.sort(_.values(slot1), function (slot0, slot1)
+		return slot0.sortIndex < slot1.sortIndex
+	end)
 
 	removeAllChildren(slot0.servers)
 
-	for slot6, slot7 in pairs(_.sort(_.values(slot1), function (slot0, slot1)
-		return slot0.sortIndex < slot1.sortIndex
-	end)) do
+	if Application.isEditor then
+		table.sort(slot2, function (slot0, slot1)
+			return string.byte(string.lower(slot1.name), 1) < string.byte(string.lower(slot0.name), 1)
+		end)
+	end
+
+	for slot6, slot7 in pairs(slot2) do
 		slot0:updateServerTF(cloneTplTo(slot0.serverTpl, slot0.servers), slot7)
 	end
 end

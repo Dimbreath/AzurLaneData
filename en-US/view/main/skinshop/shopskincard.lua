@@ -36,7 +36,9 @@ function slot0.update(slot0, slot1)
 	slot0.shipSkinConfig = uv0[slot2]
 
 	LoadSpriteAsync("shipYardIcon/" .. uv0[slot2].prefab, function (slot0)
-		uv0._icon.sprite = slot0
+		if not IsNil(uv0._icon) then
+			uv0._icon.sprite = slot0
+		end
 	end)
 
 	for slot7, slot8 in pairs(slot0._tagTFs) do
@@ -45,27 +47,21 @@ function slot0.update(slot0, slot1)
 
 	if slot0.goodsVO.type == Goods.TYPE_SKIN then
 		slot0._priceIcon.sprite = LoadSprite("props/" .. id2res(slot1:getConfig("resource_type")))
+		slot0._priceTxt.text, slot9 = slot1:GetPrice()
+		slot0._opriceTxt.text = slot1:getConfig("resource_num")
 
-		if slot1:isDisCount() then
-			slot0._priceTxt.text = slot1:getConfig("resource_num") * (100 - slot1:getConfig("discount")) / 100
-		else
-			slot0._priceTxt.text = slot6
-		end
+		setActive(go(slot0._opriceTxt), slot1:isDisCount() and slot9 > 0)
 
-		slot0._opriceTxt.text = slot6
-
-		setActive(go(slot0._opriceTxt), slot8 and slot7 < 1)
-
-		slot9 = slot1.buyCount == 0
+		slot10 = slot1.buyCount == 0
 
 		if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
 			setActive(slot0._tagTFs[9], true)
-		elseif slot9 then
-			if slot8 or slot0.goodsVO:getConfig("tag") == 5 then
-				setText(slot0._tagTFs[5]:Find("Text"), slot1:getConfig("discount") .. "%")
+		elseif slot10 then
+			if slot7 or slot0.goodsVO:getConfig("tag") == 5 then
+				setText(slot0._tagTFs[5]:Find("Text"), slot9 .. "%")
 				setActive(slot0._tagTFs[5], true)
-			elseif slot0._tagTFs[slot11] then
-				setActive(slot0._tagTFs[slot11], true)
+			elseif slot0._tagTFs[slot12] then
+				setActive(slot0._tagTFs[slot12], true)
 			else
 				setActive(slot0._tagTFs[6], true)
 			end
