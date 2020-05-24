@@ -63,6 +63,7 @@ function slot0.init(slot0)
 	slot0.UIMain = pg.UIMgr.GetInstance().OverlayMain
 	slot0.shopBtn = slot0:findTF("shop_btn", slot0.bottomPanel)
 	slot0.shareBtn = slot0:findTF("share_btn", slot0.bottomPanel)
+	slot0.themeTemplateBtn = slot0:findTF("theme_template_btn", slot0.bottomPanel)
 	slot0.renameBox = slot0:findTF("rename_box")
 	slot0.renameBtn = slot0:findTF("frame/ok_btn", slot0.renameBox)
 	slot0.renameCancelBtn = slot0:findTF("frame/cancel_btn", slot0.renameBox)
@@ -111,6 +112,9 @@ function slot0.didEnter(slot0)
 	onToggle(slot0, slot0.eyeBtn, function (slot0)
 		uv0:switch2View(slot0)
 	end, SFX_PANEL)
+end
+
+function slot0.StartUp(slot0)
 	slot0:setMode()
 	slot0:displayBuff()
 
@@ -189,7 +193,17 @@ function slot0.switch2View(slot0, slot1)
 	end)
 end
 
+function slot0.UpdateThemetemplateBtn(slot0)
+	if LOCK_BACKYARD_TEMPLATE then
+		setActive(slot0.themeTemplateBtn, false)
+	else
+		pg.SystemGuideMgr:GetInstance():PlayBackYardThemeTemplate()
+		setActive(slot0.themeTemplateBtn, not slot0.isVisitMode and slot0.dormVO:IsMaxLevel())
+	end
+end
+
 function slot0.setMode(slot0)
+	slot0:UpdateThemetemplateBtn()
 	setActive(slot0.shopBtn, not slot0.isVisitMode)
 	setActive(slot0.shareBtn, not slot0.isVisitMode)
 	setActive(slot0.helpBtn, false)
@@ -240,6 +254,9 @@ function slot0.setMode(slot0)
 		end, SFX_PANEL)
 		onButton(slot0, slot0.shopBtn, function ()
 			uv0:emit(BackYardMediator.GO_SHOP)
+		end, SFX_PANEL)
+		onButton(slot0, slot0.themeTemplateBtn, function ()
+			uv0:emit(BackYardMediator.GO_THEME_TEMPLATE)
 		end, SFX_PANEL)
 		onButton(slot0, slot0.shareBtn, function ()
 			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeBackyard, pg.ShareMgr.PANEL_TYPE_PINK)
@@ -638,6 +655,10 @@ function slot0.closeNofoodBox(slot0, slot1)
 end
 
 function slot0.onBackPressed(slot0)
+	if slot0.view and slot0.view.inInitFurnitrues then
+		return
+	end
+
 	if slot0.isOpenNofoodBox then
 		slot0:closeNofoodBox()
 	elseif slot0.isOpenRenameBox then
@@ -659,8 +680,10 @@ function slot0.willExit(slot0)
 
 	pg.TimeMgr.GetInstance():RemoveTimer(slot0.calFoodTimer)
 
-	for slot4, slot5 in pairs(slot0.buffTimer) do
-		slot5:Stop()
+	if slot0.buffTimer then
+		for slot4, slot5 in pairs(slot0.buffTimer) do
+			slot5:Stop()
+		end
 	end
 
 	if slot0.isOpenNofoodBox then
@@ -685,6 +708,8 @@ function slot0.willExit(slot0)
 
 	slot0.calFoodTimer = nil
 	slot0.buffTimer = nil
+
+	BackYardThemeTempalteUtil.ClearAllCache()
 end
 
 return slot0

@@ -171,7 +171,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot4.viewComponent = RefluxScene
 		elseif slot3 == SCENE.SUMMARY then
 			slot4.mediator = PlayerSummaryInfoMediator
-			slot4.viewComponent = PlayerSummaryInfoScene
+			slot4.viewComponent = PlayerSecondSummaryInfoScene
 		elseif slot3 == SCENE.SNAPSHOT then
 			slot4.mediator = SnapshotSceneMediator
 			slot4.viewComponent = SnapshotScene
@@ -230,6 +230,12 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3 == SCENE.PHYSICS2D_TEST then
 			slot4.mediator = Physics2dMediator
 			slot4.viewComponent = Physics2dScene
+		elseif slot3 == SCENE.THIRD_ANNIVERSARY_SQUARE then
+			slot4.mediator = ThirdAnniversarySquareMediator
+			slot4.viewComponent = ThirdAnniversarySquareScene
+		elseif slot3 == SCENE.BACKYARD_THEME_TEMPLATE then
+			slot4.mediator = NewBackYardThemeTemplateMediator
+			slot4.viewComponent = NewBackYardThemeTemplateLayer
 		end
 
 		print("load scene: " .. slot3)

@@ -4,9 +4,17 @@ slot0.OPEN_RESUME = "FriendInfoMediator:OPEN_RESUME"
 slot0.OPEN_BACKYARD = "FriendInfoMediator:OPEN_BACKYARD"
 slot0.TOGGLE_BLACK = "FriendInfoMediator:TOGGLE_BLACK"
 slot0.INFORM = "FriendInfoMediator:INFORM"
+slot0.INFORM_BACKYARD = "FriendInfoMediator:INFORM_BACKYARD"
 
 function slot0.register(slot0)
 	slot0.viewComponent:setFriend(slot0.contextData.friend)
+	slot0:bind(uv0.INFORM_BACKYARD, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.INFORM_THEME_TEMPLATE, {
+			uid = slot1,
+			content = slot2,
+			tid = slot3
+		})
+	end)
 	slot0:bind(uv0.OPEND_FRIEND, function (slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			onNo = true,
@@ -74,6 +82,7 @@ function slot0.listNotificationInterests(slot0)
 		GAME.FRIEND_ADD_BLACKLIST_DONE,
 		GAME.FRIEND_RELIEVE_BLACKLIST_DONE,
 		GAME.INFORM_DONE,
+		GAME.INFORM_THEME_TEMPLATE_DONE,
 		GAME.FINISH_STAGE
 	}
 end
@@ -91,7 +100,7 @@ function slot0.handleNotification(slot0, slot1)
 		})
 	elseif slot2 == GAME.GET_BLACK_LIST_DONE or slot2 == GAME.FRIEND_ADD_BLACKLIST_DONE or slot2 == GAME.FRIEND_RELIEVE_BLACKLIST_DONE then
 		slot0.viewComponent:updateBlack()
-	elseif slot2 == GAME.INFORM_DONE then
+	elseif slot2 == GAME.INFORM_DONE or slot2 == GAME.INFORM_THEME_TEMPLATE_DONE then
 		slot0.viewComponent:closeInfromPanel()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,

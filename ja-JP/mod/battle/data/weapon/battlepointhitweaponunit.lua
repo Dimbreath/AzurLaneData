@@ -210,13 +210,14 @@ function slot4.Spawn(slot0, slot1, slot2, slot3)
 end
 
 function slot4.SpawnPointBullet(slot0, slot1, slot2)
+	slot0:TriggerBuffWhenSpawn(bulletUnit, uv0.BuffEffectType.ON_MANUAL_BULLET_CREATE)
+
 	slot3 = slot0._dataProxy:CreateBulletUnit(slot1, slot0._host, slot0, slot2)
 
 	slot0:setBulletSkin(slot3, slot1)
-	slot3:SetDamageEnhance(uv0.Battle.BattleConfig.ChargeWeaponConfig.Enhance + slot0._host:GetAttrByName("initialEnhancement") + slot0._host:GetAttrByName("manualEnhancement"))
+	slot3:SetDamageEnhance(uv1.Battle.BattleConfig.ChargeWeaponConfig.Enhance + slot0._host:GetAttrByName("initialEnhancement") + slot0._host:GetAttrByName("manualEnhancement"))
 	slot0:TriggerBuffWhenSpawn(slot3)
-	slot0:TriggerBuffWhenSpawn(slot3, uv1.BuffEffectType.ON_INTERNAL_BULLET_CREATE)
-	slot0:TriggerBuffWhenSpawn(slot3, uv1.BuffEffectType.ON_MANUAL_BULLET_CREATE)
+	slot0:TriggerBuffWhenSpawn(slot3, uv0.BuffEffectType.ON_INTERNAL_BULLET_CREATE)
 
 	return slot3
 end

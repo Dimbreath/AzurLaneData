@@ -40,7 +40,7 @@ function slot0.execute(slot0, slot1)
 				uv5()
 			end
 		else
-			print("UnLock Fail", tostring(slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips("UnLock Fail, Code:" .. tostring(slot0.result))
 		end
 	end)
 end

@@ -1,5 +1,333 @@
 pg = pg or {}
 pg.gametip = {
+	["new_airi_error_code_-1"] = {
+		tip = "不明なエラーが発生しました",
+		key = "new_airi_error_code_-1"
+	},
+	new_airi_error_code_0 = {
+		tip = "操作に成功しました",
+		key = "new_airi_error_code_0"
+	},
+	new_airi_error_code_100100 = {
+		tip = "このデバイスによるゲーム利用は制限されています",
+		key = "new_airi_error_code_100100"
+	},
+	new_airi_error_code_100110 = {
+		tip = "ログイン中にエラーが発生しました（UIDとtoken照合失敗）",
+		key = "new_airi_error_code_100110"
+	},
+	new_airi_error_code_100111 = {
+		tip = "アカウント作成に失敗しました",
+		key = "new_airi_error_code_100111"
+	},
+	new_airi_error_code_100112 = {
+		tip = "アカウント連携に失敗しました",
+		key = "new_airi_error_code_100112"
+	},
+	new_airi_error_code_100113 = {
+		tip = "ユーザー認証に失敗したため、ログインに失敗しました",
+		key = "new_airi_error_code_100113"
+	},
+	new_airi_error_code_100114 = {
+		tip = "このIPアドレスでのアクセスは制限されています",
+		key = "new_airi_error_code_100114"
+	},
+	new_airi_error_code_100115 = {
+		tip = "このデバイスのゲーム利用は制限されています",
+		key = "new_airi_error_code_100115"
+	},
+	new_airi_error_code_100116 = {
+		tip = "このアカウントのゲーム利用は制限されています",
+		key = "new_airi_error_code_100116"
+	},
+	new_airi_error_code_100117 = {
+		tip = "認証データにエラーが発生しました",
+		key = "new_airi_error_code_100117"
+	},
+	new_airi_error_code_100120 = {
+		tip = "このIPアドレスでのアクセスは制限されています",
+		key = "new_airi_error_code_100120"
+	},
+	new_airi_error_code_100130 = {
+		tip = "このアカウントのゲーム利用は制限されています",
+		key = "new_airi_error_code_100130"
+	},
+	new_airi_error_code_100140 = {
+		tip = "アカウント認証に失敗しました",
+		key = "new_airi_error_code_100140"
+	},
+	new_airi_error_code_100150 = {
+		tip = "引継ぎコードとUIDが一致しません",
+		key = "new_airi_error_code_100150"
+	},
+	new_airi_error_code_100160 = {
+		tip = "誕生日が入力済です",
+		key = "new_airi_error_code_100160"
+	},
+	new_airi_error_code_100170 = {
+		tip = "誕生日は【YYYYMMDD】の形式（例：19900101）で入力してください",
+		key = "new_airi_error_code_100170"
+	},
+	new_airi_error_code_100180 = {
+		tip = "ゲームアカウントと連携していないSNSアカウントです",
+		key = "new_airi_error_code_100180"
+	},
+	new_airi_error_code_100190 = {
+		tip = "SNSアカウント連携状況の照合に失敗しました",
+		key = "new_airi_error_code_100190"
+	},
+	new_airi_error_code_100200 = {
+		tip = "提すでに他のアカウントと連携済みです",
+		key = "new_airi_error_code_100200"
+	},
+	new_airi_error_code_100210 = {
+		tip = "ゲームアカウントと連携していないSNSアカウントです",
+		key = "new_airi_error_code_100210"
+	},
+	new_airi_error_code_100211 = {
+		tip = "外部サービスとの通信時にエラーが発生しました",
+		key = "new_airi_error_code_100211"
+	},
+	new_airi_error_code_100212 = {
+		tip = "外部サービスとの通信時にエラーが発生しました",
+		key = "new_airi_error_code_100212"
+	},
+	new_airi_error_code_100213 = {
+		tip = "連携解除に失敗しました",
+		key = "new_airi_error_code_100213"
+	},
+	new_airi_error_code_100220 = {
+		tip = "連携を解除しました",
+		key = "new_airi_error_code_100220"
+	},
+	new_airi_error_code_100221 = {
+		tip = "Facebook連携に失敗しました",
+		key = "new_airi_error_code_100221"
+	},
+	new_airi_error_code_100222 = {
+		tip = "Twitter連携に失敗しました",
+		key = "new_airi_error_code_100222"
+	},
+	new_airi_error_code_100223 = {
+		tip = "Google連携に失敗しました",
+		key = "new_airi_error_code_100223"
+	},
+	new_airi_error_code_100224 = {
+		tip = "Googleとの通信に失敗しました",
+		key = "new_airi_error_code_100224"
+	},
+	new_airi_error_code_100225 = {
+		tip = "Google連携を解除しました",
+		key = "new_airi_error_code_100225"
+	},
+	new_airi_error_code_100226 = {
+		tip = "ログイン中のため、しばらくお待ち下さい",
+		key = "new_airi_error_code_100226"
+	},
+	new_airi_error_code_100227 = {
+		tip = "このアカウントでのログインに失敗しました",
+		key = "new_airi_error_code_100227"
+	},
+	new_airi_error_code_100228 = {
+		tip = "アカウントが削除されました",
+		key = "new_airi_error_code_100228"
+	},
+	new_airi_error_code_100229 = {
+		tip = "すでに削除済みです",
+		key = "new_airi_error_code_100229"
+	},
+	new_airi_error_code_100231 = {
+		tip = "このアカウントは完全に削除されたため、復元できません",
+		key = "new_airi_error_code_100231"
+	},
+	new_airi_error_code_100232 = {
+		tip = "このアカウントは削除されていないため、復元できません",
+		key = "new_airi_error_code_100232"
+	},
+	new_airi_error_code_100233 = {
+		tip = "このアカウントは削除されたため、ログインできません",
+		key = "new_airi_error_code_100233"
+	},
+	new_airi_error_code_100234 = {
+		tip = "このアカウントはログインできません",
+		key = "new_airi_error_code_100234"
+	},
+	new_airi_error_code_100230 = {
+		tip = "SDK起動に失敗しました",
+		key = "new_airi_error_code_100230"
+	},
+	new_airi_error_code_100240 = {
+		tip = "Appleアカウントの情報を正しく入力してください",
+		key = "new_airi_error_code_100240"
+	},
+	new_airi_error_code_100241 = {
+		tip = "Apple連携がキャンセルされました",
+		key = "new_airi_error_code_100241"
+	},
+	new_airi_error_code_100242 = {
+		tip = "Apple連携に失敗しました",
+		key = "new_airi_error_code_100242"
+	},
+	new_airi_error_code_100243 = {
+		tip = "Apple連携に失敗しました",
+		key = "new_airi_error_code_100243"
+	},
+	new_airi_error_code_100244 = {
+		tip = "Apple連携に失敗しました",
+		key = "new_airi_error_code_100244"
+	},
+	new_airi_error_code_100245 = {
+		tip = "Apple連携に失敗しました",
+		key = "new_airi_error_code_100245"
+	},
+	new_airi_error_code_100246 = {
+		tip = "システムバージョンが古いため、Apple連携できません",
+		key = "new_airi_error_code_100246"
+	},
+	new_airi_error_code_100300 = {
+		tip = "無効なメールアドレスです",
+		key = "new_airi_error_code_100300"
+	},
+	new_airi_error_code_100301 = {
+		tip = "メールアドレスが一致しません",
+		key = "new_airi_error_code_100301"
+	},
+	new_airi_error_code_100302 = {
+		tip = "認証メッセージの送信回数が上限に達したため、しばらく経ってからお試しください",
+		key = "new_airi_error_code_100302"
+	},
+	new_airi_error_code_100303 = {
+		tip = "正しい認証コードを入力してください",
+		key = "new_airi_error_code_100303"
+	},
+	new_airi_error_code_100304 = {
+		tip = "認証コード入力に失敗しました。認証コードを再度発行してください",
+		key = "new_airi_error_code_100304"
+	},
+	new_airi_error_code_100305 = {
+		tip = "このメールアドレスでの利用は制限されています",
+		key = "new_airi_error_code_100305"
+	},
+	new_airi_error_code_100306 = {
+		tip = "認証コードを入力してください",
+		key = "new_airi_error_code_100306"
+	},
+	new_airi_error_code_100404 = {
+		tip = "通信エラーが発生しました",
+		key = "new_airi_error_code_100404"
+	},
+	new_airi_error_code_200100 = {
+		tip = "購入に失敗しました、誕生日が設定されていません",
+		key = "new_airi_error_code_200100"
+	},
+	new_airi_error_code_200110 = {
+		tip = "購入に失敗しました、今月の購入上限金額に達しています",
+		key = "new_airi_error_code_200110"
+	},
+	new_airi_error_code_200120 = {
+		tip = "購入に失敗しました、アイテムが存在しません",
+		key = "new_airi_error_code_200120"
+	},
+	new_airi_error_code_200130 = {
+		tip = "購入に失敗しました、決済システムにエラーが発生しました",
+		key = "new_airi_error_code_200130"
+	},
+	new_airi_error_code_200140 = {
+		tip = "購入に失敗しました、サーバーとの通信に失敗しました",
+		key = "new_airi_error_code_200140"
+	},
+	new_airi_error_code_200150 = {
+		tip = "領収書の照合に失敗しました",
+		key = "new_airi_error_code_200150"
+	},
+	new_airi_error_code_200160 = {
+		tip = "不正な購入リクエストです",
+		key = "new_airi_error_code_200160"
+	},
+	new_airi_error_code_200170 = {
+		tip = "不正な購入リクエストです",
+		key = "new_airi_error_code_200170"
+	},
+	new_airi_error_code_200180 = {
+		tip = "サーバーと通信中です。しばらくお待ち下さい",
+		key = "new_airi_error_code_200180"
+	},
+	new_airi_error_code_200190 = {
+		tip = "購入リクエストが存在しません",
+		key = "new_airi_error_code_200190"
+	},
+	new_airi_error_code_200200 = {
+		tip = "購入時に通信エラーが発生しました",
+		key = "new_airi_error_code_200200"
+	},
+	new_airi_error_code_200210 = {
+		tip = "決済システムにエラーが発生しました",
+		key = "new_airi_error_code_200210"
+	},
+	new_airi_error_code_200220 = {
+		tip = "決済システムへの通信時にエラーが発生しました",
+		key = "new_airi_error_code_200220"
+	},
+	new_airi_error_code_200230 = {
+		tip = "決済システムへの通信がキャンセルされました",
+		key = "new_airi_error_code_200230"
+	},
+	new_airi_error_code_200240 = {
+		tip = "Google Playをバージョンアップしてください",
+		key = "new_airi_error_code_200240"
+	},
+	new_airi_error_code_200250 = {
+		tip = "APIに問題が発生しました",
+		key = "new_airi_error_code_200250"
+	},
+	new_airi_error_code_200260 = {
+		tip = "APIに問題が発生しました",
+		key = "new_airi_error_code_200260"
+	},
+	new_airi_error_code_200270 = {
+		tip = "Google Playをバージョンアップしてください",
+		key = "new_airi_error_code_200270"
+	},
+	new_airi_error_code_200280 = {
+		tip = "このアイテムはすでに所持済みです",
+		key = "new_airi_error_code_200280"
+	},
+	new_airi_error_code_200290 = {
+		tip = "このアイテムはすでに所持済みです",
+		key = "new_airi_error_code_200290"
+	},
+	new_airi_error_code_200300 = {
+		tip = "このアイテムは現在購入できません",
+		key = "new_airi_error_code_200300"
+	},
+	new_airi_error_code_200310 = {
+		tip = "Google Playへの接続に失敗しました、電波の良いところで再度お試しください",
+		key = "new_airi_error_code_200310"
+	},
+	new_airi_error_code_200320 = {
+		tip = "Google Playへの接続に失敗しました、電波の良いところで再度お試しください",
+		key = "new_airi_error_code_200320"
+	},
+	new_airi_error_code_200330 = {
+		tip = "ネットワークに接続してください",
+		key = "new_airi_error_code_200330"
+	},
+	new_airi_error_code_200340 = {
+		tip = "購入がキャンセルされました",
+		key = "new_airi_error_code_200340"
+	},
+	new_airi_error_code_200350 = {
+		tip = "アイテムの照合に失敗しました",
+		key = "new_airi_error_code_200350"
+	},
+	new_airi_error_code_200360 = {
+		tip = "決済システムへの接続に失敗しました",
+		key = "new_airi_error_code_200360"
+	},
+	new_airi_error_code_300100 = {
+		tip = "システムシェアに失敗しました",
+		key = "new_airi_error_code_300100"
+	},
 	ad_0 = {
 		tip = "",
 		key = "ad_0"
@@ -777,7 +1105,7 @@ pg.gametip = {
 		key = "word_wait"
 	},
 	word_consume = {
-		tip = "消耗",
+		tip = "消費",
 		key = "word_consume"
 	},
 	word_sell_out = {
@@ -7064,254 +7392,6 @@ No.7 駆逐艦「鞍山」
 		tip = "$1は所持していません",
 		key = "err_cloth_change_noship"
 	},
-	new_airi_error_code_100100 = {
-		tip = "ゲーム利用は制限されています（デバイス）",
-		key = "new_airi_error_code_100100"
-	},
-	new_airi_error_code_100110 = {
-		tip = "ログイン中にエラーが発生しました（UIDとtoken照合失敗）",
-		key = "new_airi_error_code_100110"
-	},
-	new_airi_error_code_100111 = {
-		tip = "アカウント作成に失敗しました",
-		key = "new_airi_error_code_100111"
-	},
-	new_airi_error_code_100112 = {
-		tip = "アカウント連携に失敗しました",
-		key = "new_airi_error_code_100112"
-	},
-	new_airi_error_code_100113 = {
-		tip = "アカウント連携に成功し、ログインに失敗しました（ユーザー認証に失敗しました）",
-		key = "new_airi_error_code_100113"
-	},
-	new_airi_error_code_100114 = {
-		tip = "アカウント連携に成功し、ログインに失敗しました（IPアドレスでのアクセスは制限されています）",
-		key = "new_airi_error_code_100114"
-	},
-	new_airi_error_code_100115 = {
-		tip = "アカウント連携に成功し、ログインに失敗しました（デバイスのゲーム利用は制限されています）",
-		key = "new_airi_error_code_100115"
-	},
-	new_airi_error_code_100116 = {
-		tip = "アカウント連携に成功し、ログインに失敗しました（UIDのゲーム利用は制限されています）",
-		key = "new_airi_error_code_100116"
-	},
-	new_airi_error_code_100117 = {
-		tip = "認証データにエラーが発生しました",
-		key = "new_airi_error_code_100117"
-	},
-	new_airi_error_code_100120 = {
-		tip = "IPアドレスのアクセス制限中です",
-		key = "new_airi_error_code_100120"
-	},
-	new_airi_error_code_100130 = {
-		tip = "UIDのゲーム利用が制限中です",
-		key = "new_airi_error_code_100130"
-	},
-	new_airi_error_code_100140 = {
-		tip = "accessToken照合に失敗しました",
-		key = "new_airi_error_code_100140"
-	},
-	new_airi_error_code_100150 = {
-		tip = "引継コードとUIDが一致しません。もう一度お試しください",
-		key = "new_airi_error_code_100150"
-	},
-	new_airi_error_code_100160 = {
-		tip = "誕生日が入力済です",
-		key = "new_airi_error_code_100160"
-	},
-	new_airi_error_code_100170 = {
-		tip = "誕生日は【YYYYMMDD】の形式で入力してください",
-		key = "new_airi_error_code_100170"
-	},
-	new_airi_error_code_100180 = {
-		tip = "ゲームアカウントと連携していないツイッターアカウントです",
-		key = "new_airi_error_code_100180"
-	},
-	new_airi_error_code_100190 = {
-		tip = "ツイッターアカウント連携状況の照合に失敗しました",
-		key = "new_airi_error_code_100190"
-	},
-	new_airi_error_code_100200 = {
-		tip = "すでに他のアカウントと連携済のツイッターアカウントです",
-		key = "new_airi_error_code_100200"
-	},
-	new_airi_error_code_100210 = {
-		tip = "ゲームアカウントとは連携していないツイッターアカウントです",
-		key = "new_airi_error_code_100210"
-	},
-	new_airi_error_code_100211 = {
-		tip = "外部サービスとの通信時にエラーが発生しました",
-		key = "new_airi_error_code_100211"
-	},
-	new_airi_error_code_100212 = {
-		tip = "外部サービスとの通信時にエラーが発生しました",
-		key = "new_airi_error_code_100212"
-	},
-	new_airi_error_code_100213 = {
-		tip = "連携解除に失敗しました",
-		key = "new_airi_error_code_100213"
-	},
-	new_airi_error_code_100220 = {
-		tip = "フェイスブック連携をキャンセルしました",
-		key = "new_airi_error_code_100220"
-	},
-	new_airi_error_code_100221 = {
-		tip = "フェイスブック連携承認に失敗しました",
-		key = "new_airi_error_code_100221"
-	},
-	new_airi_error_code_100222 = {
-		tip = "ツイッター連携承認に失敗しました",
-		key = "new_airi_error_code_100222"
-	},
-	new_airi_error_code_100230 = {
-		tip = "SDK初期化に失敗しました",
-		key = "new_airi_error_code_100230"
-	},
-	new_airi_error_code_100300 = {
-		tip = "メールアドレスが有効ではありません",
-		key = "new_airi_error_code_100300"
-	},
-	new_airi_error_code_100301 = {
-		tip = "確認入力したメールアドレスが一致しません",
-		key = "new_airi_error_code_100301"
-	},
-	new_airi_error_code_100302 = {
-		tip = "メール認証メッセージをこれ以上送信できません（送信数が上限になっています）。しばらく経ってからお試しください",
-		key = "new_airi_error_code_100302"
-	},
-	new_airi_error_code_100303 = {
-		tip = "認証コード入力に失敗しました",
-		key = "new_airi_error_code_100303"
-	},
-	new_airi_error_code_100304 = {
-		tip = "認証コード入力に失敗しました。認証コードを再度発行してください",
-		key = "new_airi_error_code_100304"
-	},
-	new_airi_error_code_100305 = {
-		tip = "YostarIDの利用は制限されています",
-		key = "new_airi_error_code_100305"
-	},
-	new_airi_error_code_100306 = {
-		tip = "認証コードを入力してください",
-		key = "new_airi_error_code_100306"
-	},
-	new_airi_error_code_100404 = {
-		tip = "通信エラーが発生しました",
-		key = "new_airi_error_code_100404"
-	},
-	new_airi_error_code_200100 = {
-		tip = "購入に失敗しました-誕生日が設定されていません",
-		key = "new_airi_error_code_200100"
-	},
-	new_airi_error_code_200110 = {
-		tip = "購入に失敗しました-今月購入金額が上限になっています",
-		key = "new_airi_error_code_200110"
-	},
-	new_airi_error_code_200120 = {
-		tip = "購入に失敗しました-アイテムが存在しません",
-		key = "new_airi_error_code_200120"
-	},
-	new_airi_error_code_200130 = {
-		tip = "購入に失敗しました-決済システムにエラーが発生しました",
-		key = "new_airi_error_code_200130"
-	},
-	new_airi_error_code_200140 = {
-		tip = "購入に失敗しました-serverTagが存在しません",
-		key = "new_airi_error_code_200140"
-	},
-	new_airi_error_code_200150 = {
-		tip = "支払いレシートの照合に失敗しました",
-		key = "new_airi_error_code_200150"
-	},
-	new_airi_error_code_200160 = {
-		tip = "不正な購入リクエストです",
-		key = "new_airi_error_code_200160"
-	},
-	new_airi_error_code_200170 = {
-		tip = "不正な購入リクエストです",
-		key = "new_airi_error_code_200170"
-	},
-	new_airi_error_code_200180 = {
-		tip = "サーバーと通信中です。しばらくお待ち下さい",
-		key = "new_airi_error_code_200180"
-	},
-	new_airi_error_code_200190 = {
-		tip = "購入リクエストが存在しません",
-		key = "new_airi_error_code_200190"
-	},
-	new_airi_error_code_200200 = {
-		tip = "購入時に通信エラーが発生しました",
-		key = "new_airi_error_code_200200"
-	},
-	new_airi_error_code_200210 = {
-		tip = "決済システムにエラーが発生しました",
-		key = "new_airi_error_code_200210"
-	},
-	new_airi_error_code_200220 = {
-		tip = "決済システムへの通信時にエラーが発生しました",
-		key = "new_airi_error_code_200220"
-	},
-	new_airi_error_code_200230 = {
-		tip = "決済システムへの通信がキャンセルされました",
-		key = "new_airi_error_code_200230"
-	},
-	new_airi_error_code_200240 = {
-		tip = "購入リクエストは現バージョンで処理できません",
-		key = "new_airi_error_code_200240"
-	},
-	new_airi_error_code_200250 = {
-		tip = "無効なパラメータ",
-		key = "new_airi_error_code_200250"
-	},
-	new_airi_error_code_200260 = {
-		tip = "購入手続きに致命的なエラーが発生しました",
-		key = "new_airi_error_code_200260"
-	},
-	new_airi_error_code_200270 = {
-		tip = "端末のGoogle Play Storeは該当リクエストを処理できません",
-		key = "new_airi_error_code_200270"
-	},
-	new_airi_error_code_200280 = {
-		tip = "既に該当商品を所有し且つ使用していないため、購入できません",
-		key = "new_airi_error_code_200280"
-	},
-	new_airi_error_code_200290 = {
-		tip = "既に該当商品を所有し且つ使用失敗したため、購入できません",
-		key = "new_airi_error_code_200290"
-	},
-	new_airi_error_code_200300 = {
-		tip = "該当商品を購入できません",
-		key = "new_airi_error_code_200300"
-	},
-	new_airi_error_code_200310 = {
-		tip = "Google Playに接続できません",
-		key = "new_airi_error_code_200310"
-	},
-	new_airi_error_code_200320 = {
-		tip = "タイムオーバー",
-		key = "new_airi_error_code_200320"
-	},
-	new_airi_error_code_200330 = {
-		tip = "ネット環境はありません",
-		key = "new_airi_error_code_200330"
-	},
-	new_airi_error_code_200340 = {
-		tip = "支払いキャンセル",
-		key = "new_airi_error_code_200340"
-	},
-	new_airi_error_code_200350 = {
-		tip = "商品ID確認できません",
-		key = "new_airi_error_code_200350"
-	},
-	new_airi_error_code_200360 = {
-		tip = "Play servicesに接続できません",
-		key = "new_airi_error_code_200360"
-	},
-	new_airi_error_code_300100 = {
-		tip = "シェアに失敗しました",
-		key = "new_airi_error_code_300100"
-	},
 	need_break_tip = {
 		tip = "要限界突破",
 		key = "need_break_tip"
@@ -7675,7 +7755,7 @@ No.7 駆逐艦「鞍山」
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "*<color=#A1E400FF>20.3.26-20.4.8</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します",
+		tip = "*<color=#A1E400FF>20.5.21-20.6.2</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -8944,7 +9024,7 @@ No.7 駆逐艦「鞍山」
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "「タルテュ」 の出現率UP！",
+		tip = "「リシュリュー」、「アルジェリー」 、「ヴォークラン」の出現率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -10579,7 +10659,7 @@ No.7 駆逐艦「鞍山」
 下記の条件を満たした指揮官は「現役指揮官」として
 分類され、「現役指揮官」専用の目標を達成することで
 報酬を入手できます。
-・2019年8月11日（日）～9月11日（水）メンテナン
+・2020年5月7日（木）～5月21日（木）メンテナン
 スまでに一度でもログインしたことがある
 上記の条件を満たしていない場合は「カムバック・新人指
 揮官」として、専用任務をクリアすることで報酬を入手す
@@ -10656,7 +10736,7 @@ Pt」が加算されます。
 				info = [[
 2.同建造で出現する艦船から2種類を選び「ピックアッ
 プ状態」（出現率がUPする状態）にできます
-<color=#FF5C5C>（※2019年7月26日まで常設建造した艦しか出現し
+<color=#FF5C5C>（※2020年3月19日まで常設建造した艦しか出現し
 ません）</color>]]
 			},
 			{
@@ -13071,6 +13151,38 @@ GET!
 		tip = "一括退役設定",
 		key = "retire_title"
 	},
+	res_unlock_tip = {
+		tip = "下記アイテムを消費して、音楽鑑賞を開放（アセットダウンロード）します",
+		key = "res_unlock_tip"
+	},
+	res_wifi_tip = {
+		tip = "wifi環境でのダウンロードをお勧めします。ダウンロードを続行しますか？",
+		key = "res_wifi_tip"
+	},
+	res_downloading = {
+		tip = "ダウンロード中",
+		key = "res_downloading"
+	},
+	res_pic_new_tip = {
+		tip = "$1枚のスチルが更新されました",
+		key = "res_pic_new_tip"
+	},
+	res_music_no_pre_tip = {
+		tip = "最初のBGMです",
+		key = "res_music_no_pre_tip"
+	},
+	res_music_no_next_tip = {
+		tip = "最後のBGMです",
+		key = "res_music_no_next_tip"
+	},
+	res_music_new_tip = {
+		tip = "$1個のBGMのが更新されました",
+		key = "res_music_new_tip"
+	},
+	apple_link_title = {
+		tip = "連携中のアカウント完了",
+		key = "apple_link_title"
+	},
 	retire_setting_help = {
 		key = "retire_setting_help",
 		tip = {
@@ -13142,8 +13254,147 @@ GET!
 		tip = "出撃中の艦船がいます。委託チームを編成できません ",
 		key = "collect_tip2"
 	},
-	apple_link_title = {
-		tip = "連携中のアカウント完了",
-		key = "apple_link_title"
+	towerclimbing_gametip = {
+		key = "towerclimbing_gametip",
+		tip = {
+			{
+				info = [[
+■概要
+「饅頭大冒険」とは、移動とジャンプでできるだけ高い
+階層を目指すミニゲームになります。
+「ゲーム回数」を所持している状態でゲームをクリアす
+ると、「ゲーム回数」が1回消費され、「特別招待状」
+の入手進捗が1つ進行します。
+「ゲーム回数」が7回消費されると、イベントバナーの
+「特別招待状」でアイテム「初夏招待状2020」を入手
+できます。
+■ゲームルール
+・画面下部の矢印キーとジャンプボタンで、SDサラト
+ガを操作して上の階層に移動します。
+・棘や罠にぶつかったり、画面下部の饅頭に触れたりす
+ると、ライフが1個減ります。ライフが０になるとゲー
+ム終了（クリア）になります。
+・到達する階層数によって得点（スコア）が記録されま
+す。ハイスコアを目指しましょう！
+■注意
+・「ゲーム回数」を所持していなくてもミニゲームを遊
+べますが、「特別招待状」の入手進捗を進行させること
+はできません。
+・「ゲーム回数」はイベント期間中、1日1回自動で付与
+されます。
+・イベントバナー「特別招待状」はイベント一覧か、祝
+祭広場右上の「招待状」から遷移できます。]]
+			}
+		}
+	},
+	qingdianguangchang_help = {
+		key = "qingdianguangchang_help",
+		tip = {
+			{
+				info = [[
+■概要
+「祝祭広場」イベントとは、ミニゲームを楽しみなが
+ら、SSR艦船と交換できる「特別招待状」を入手できる
+イベントです。
+「特別招待状」を入手するには、イベント期間中に
+「饅頭大冒険」を7回クリアする必要があります。
+また、イベント期間中に毎日解放される特別任務をクリ
+アすると、広場にある各種飲食店を増築できる素材を入
+手できます。
+増築を行うと、イベント期間中様々な特殊効果を得るこ
+とができます。
+■開催期間
+2020.5.21-6.18
+■ミニゲームについて
+「祝祭広場」左上の「饅頭大冒険」をタップすると、ミ
+ニゲームを遊ぶことができます。
+「ゲーム回数」を所持している状態でゲームをクリアす
+ると、「ゲーム回数」が1回消費され、「特別招待状」
+の入手進捗が1つ進行します。
+「ゲーム回数」が7回消費されると、イベントバナーの
+「特別招待状」でアイテム「初夏招待状2020」を入手で
+きます。
+※「ゲーム回数」を所持していなくてもミニゲームを遊
+べますが、「特別招待状」の入手進捗を進行させること
+はできません。
+※「ゲーム回数」はイベント期間中、1日1回自動で付与
+されます。
+※イベントバナー「特別招待状」はイベント一覧か、祝
+祭広場右上の「招待状」から遷移できます。
+■飲食店について 「祝祭広場」では「饅頭中華」
+「饅頭茶屋」「饅頭カフェ」「饅頭バーガー」の4つの
+飲食店施設があります。
+飲食店をそれぞれタップすると、現在の強化効果と増築
+ボタンを確認することができます。
+増築ボタンをタップすると、素材を消費して施設を増築
+させることができます。
+増築素材を入手するには、毎日「任務一覧」にて出現す
+る限定任務をクリアする必要があります。]]
+			}
+		}
+	},
+	building_tip = {
+		tip = "任務一覧の<color=#92fc63>期間限定任務</color>をクリアし、増築に必要な素材を入手しよう！",
+		key = "building_tip"
+	},
+	building_upgrade_tip = {
+		tip = "施設を増築しますか？",
+		key = "building_upgrade_tip"
+	},
+	msgbox_text_upgrade = {
+		tip = "増 築",
+		key = "msgbox_text_upgrade"
+	},
+	towerclimbing_sign_help = {
+		key = "towerclimbing_sign_help",
+		tip = {
+			{
+				info = [[
+■注意
+・「ゲーム回数」を所持していなくてもミニゲームを遊
+べますが、「特別招待状」の入手進捗を進行させること
+はできません。
+・「ゲーム回数」はイベント期間中、1日1回自動で付与
+されます。
+・イベントバナー「特別招待状」はイベント一覧か、祝
+祭広場右上の「招待状」から遷移できます。]]
+			}
+		}
+	},
+	building_complete_tip = {
+		tip = "増築に成功しました",
+		key = "building_complete_tip"
+	},
+	backyard_theme_total_print = {
+		tip = "合計",
+		key = "backyard_theme_total_print"
+	},
+	words_visit_backyard_toggle = {
+		tip = "友達の寮舎訪問を許可",
+		key = "words_visit_backyard_toggle"
+	},
+	words_show_friend_backyardship_toggle = {
+		tip = "寮舎で友達の秘書艦を表示",
+		key = "words_show_friend_backyardship_toggle"
+	},
+	words_show_my_backyardship_toggle = {
+		tip = "友達の寮舎で秘書艦を表示",
+		key = "words_show_my_backyardship_toggle"
+	},
+	option_desc7 = {
+		tip = "ONにすると、友達が自分の寮舎を訪問できる",
+		key = "option_desc7"
+	},
+	option_desc8 = {
+		tip = "ONにすると、自分の寮舎画面で来訪した（寮舎表示をONにした）友達の秘書艦が表示される",
+		key = "option_desc8"
+	},
+	option_desc9 = {
+		tip = "ONにすると、自分が訪問した友達の寮舎に自分の秘書艦が表示されるようになる",
+		key = "option_desc9"
+	},
+	backyard_unopen = {
+		tip = "相手の寮舎が開放されていません",
+		key = "backyard_unopen"
 	}
 }

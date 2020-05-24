@@ -33,6 +33,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._maxWeaponNumber = slot3.maxWeaponNumber or 10000
 	slot0._rant = slot3.rant or 10000
 	slot0._streak = slot3.streakRange
+	slot0._effectAttachData = slot3.effectAttachData
 	slot0._group = slot3.group
 end
 
@@ -49,10 +50,10 @@ function slot1.onBulletCreate(slot0, slot1, slot2, slot3)
 end
 
 function slot1.onTrigger(slot0, slot1, slot2, slot3)
-	return slot0:castSkill(slot1, slot3)
+	return slot0:castSkill(slot1, slot3, slot2)
 end
 
-function slot1.castSkill(slot0, slot1, slot2)
+function slot1.castSkill(slot0, slot1, slot2, slot3)
 	if slot0:IsInCD(pg.TimeMgr.GetInstance():GetCombatTime()) then
 		return "overheat"
 	end
@@ -66,11 +67,11 @@ function slot1.castSkill(slot0, slot1, slot2)
 			return "check"
 		end
 
-		if #slot4 < slot0._minTargetNumber then
+		if #slot5 < slot0._minTargetNumber then
 			return "check"
 		end
 
-		if slot0._maxTargetNumber < slot5 then
+		if slot0._maxTargetNumber < slot6 then
 			return "check"
 		end
 	end
@@ -80,13 +81,13 @@ function slot1.castSkill(slot0, slot1, slot2)
 			return "check"
 		end
 
-		if slot0._maxWeaponNumber < slot5 then
+		if slot0._maxWeaponNumber < slot6 then
 			return "check"
 		end
 	end
 
 	if slot0._hpUpperBound or slot0._hpLowerBound then
-		slot4 = nil
+		slot5 = nil
 
 		if not slot0:hpIntervalRequire((slot2 and slot2.unit or slot1:GetHPRate()) and slot2.unit:GetHPRate()) then
 			return "check"
@@ -101,18 +102,22 @@ function slot1.castSkill(slot0, slot1, slot2)
 		return "check"
 	end
 
-	slot8 = slot0._tempData.arg_list
+	if slot0._effectAttachData and not slot0:BuffAttachDataCondition(slot3) then
+		return "check"
+	end
+
+	slot9 = slot0._tempData.arg_list
 
 	uv1.super.onTrigger(slot0, slot1)
 
-	for slot8, slot9 in ipairs(slot0:getTargetList(slot1, slot0._target, slot8)) do
-		slot10 = true
+	for slot9, slot10 in ipairs(slot0:getTargetList(slot1, slot0._target, slot9)) do
+		slot11 = true
 
 		if slot0._group then
-			for slot15, slot16 in pairs(slot9:GetBuffList()) do
-				for slot20, slot21 in ipairs(slot16._effectList) do
-					if slot21:GetEffectType() == uv1.FX_TYPE and slot21:GetGroupData() and slot21:GetGroupData().id == slot0._group.id and slot0._group.level < slot22.level then
-						slot10 = false
+			for slot16, slot17 in pairs(slot10:GetBuffList()) do
+				for slot21, slot22 in ipairs(slot17._effectList) do
+					if slot22:GetEffectType() == uv1.FX_TYPE and slot22:GetGroupData() and slot22:GetGroupData().id == slot0._group.id and slot0._group.level < slot23.level then
+						slot11 = false
 
 						break
 					end
@@ -120,12 +125,12 @@ function slot1.castSkill(slot0, slot1, slot2)
 			end
 		end
 
-		if slot10 then
-			slot0:spell(slot9)
+		if slot11 then
+			slot0:spell(slot10)
 		end
 	end
 
-	slot0:enterCoolDown(slot3)
+	slot0:enterCoolDown(slot4)
 end
 
 function slot1.IsInCD(slot0, slot1)
@@ -156,6 +161,34 @@ function slot1.Clear(slot0)
 	if slot0._skill then
 		slot0._skill:Clear()
 	end
+end
+
+function slot1.BuffAttachDataCondition(slot0, slot1)
+	slot2 = true
+
+	for slot7, slot8 in ipairs(slot1:GetEffectList()) do
+		for slot12, slot13 in ipairs(slot0._effectAttachData) do
+			if slot8.__name == slot13.type then
+				slot14 = slot13.type
+
+				if slot13.op == "equal" and slot8:GetEffectAttachData() ~= slot13.value then
+					slot2 = false
+				elseif slot16 == "notequal" and slot17 == slot15 then
+					slot2 = false
+				elseif slot16 == "lessequal" and slot15 < slot17 then
+					slot2 = false
+				elseif slot16 == "greatequal" and slot17 < slot15 then
+					slot2 = false
+				elseif slot16 == "great" and slot17 <= slot15 then
+					slot2 = false
+				elseif slot16 == "less" and slot15 <= slot17 then
+					slot2 = false
+				end
+			end
+		end
+	end
+
+	return slot2
 end
 
 function slot1.GetWinningStreak(slot0)

@@ -1026,3 +1026,9 @@ end
 function slot7.UpdateHorizon(slot0)
 	slot0:DispatchEvent(uv0.Event.New(uv1.FLEET_HORIZON_UPDATE, {}))
 end
+
+function slot7.AutoBotUpdated(slot0, slot1)
+	for slot6, slot7 in ipairs(slot0._unitList) do
+		slot7:TriggerBuff(slot1 and uv0.BuffEffectType.ON_AUTOBOT or uv0.BuffEffectType.ON_MANUAL)
+	end
+end

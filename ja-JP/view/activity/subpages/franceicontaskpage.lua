@@ -69,7 +69,7 @@ end
 
 function slot0.OnUpdateFlush(slot0)
 	uv0.super.OnUpdateFlush(slot0)
-	setActive(slot0.battleBtn, pg.TimeMgr.GetInstance():inTime(slot0.activity:getConfig("config_client")))
+	setActive(slot0.battleBtn, isActive(slot0.battleBtn) and pg.TimeMgr.GetInstance():inTime(slot0.activity:getConfig("config_client")))
 	slot0:UpdateAwardGot()
 
 	slot4, slot5, slot6 = slot0.ptData:GetResProgress()

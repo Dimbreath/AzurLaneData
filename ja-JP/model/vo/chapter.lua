@@ -85,6 +85,15 @@ function slot0.Ctor(slot0, slot1)
 	end
 
 	slot0.extraFlagList = {}
+	slot0.wallAssets = {}
+
+	if slot0:getConfig("wall_prefab") and #slot0:getConfig("wall_prefab") > 0 then
+		slot8 = "wall_prefab"
+
+		for slot8, slot9 in ipairs(slot0:getConfig(slot8)) do
+			slot0.wallAssets[slot9[1] .. "_" .. slot9[2]] = slot9
+		end
+	end
 end
 
 function slot0.BuildEliteFleetList(slot0)
@@ -251,12 +260,33 @@ function slot0.update(slot0, slot1)
 	slot0.cells = {}
 
 	function slot6(slot0)
+		slot1 = ChapterCell.Line2Name(slot0.pos.row, slot0.pos.column)
+
 		if slot0.item_type == ChapterConst.AttachStory and slot0.item_data == ChapterConst.StoryTrigger then
-			table.insert(uv0.cellAttachments, ChapterCell.New(slot0))
+			if uv0.cellAttachments[slot1] then
+				warning("Multi Cell Attachemnts in one cell " .. slot0.pos.row .. " " .. slot0.pos.column)
+			end
+
+			uv0.cellAttachments[slot1] = ChapterCell.New(slot0)
+
+			if not uv0.cells[slot1] then
+				uv0.cells[slot1] = ChapterCell.New({
+					item_id = 0,
+					item_data = 0,
+					item_flag = 0,
+					pos = {
+						row = slot0.pos.row,
+						column = slot0.pos.column
+					},
+					item_type = ChapterConst.AttachNone
+				})
+			end
+
+			return
 		end
 
-		if not uv0.cells[ChapterCell.Line2Name(slot0.pos.row, slot0.pos.column)] or uv0.cells[slot1].attachment == ChapterConst.AttachNone then
-			if ChapterCell.New(slot0).attachment == ChapterConst.AttachOni_Target or slot2.attachment == ChapterConst.AttachOni or slot2.attachment == ChapterConst.AttachStory and slot2.data == ChapterConst.StoryTrigger then
+		if not uv0.cells[slot1] or uv0.cells[slot1].attachment == ChapterConst.AttachNone then
+			if ChapterCell.New(slot0).attachment == ChapterConst.AttachOni_Target or slot2.attachment == ChapterConst.AttachOni then
 				slot2.attachment = ChapterConst.AttachNone
 			end
 
@@ -277,17 +307,13 @@ function slot0.update(slot0, slot1)
 		uv0(slot0)
 	end)
 	_.each(slot5, function (slot0)
-		if uv0.cells[ChapterCell.Line2Name(slot0[1], slot0[2])] then
-			slot2.walkable = slot0[3]
-		elseif not slot0[3] then
-			uv1({
-				pos = {
-					row = slot0[1],
-					column = slot0[2]
-				},
-				item_type = ChapterConst.AttachNone
-			}).walkable = false
-		end
+		(uv0.cells[ChapterCell.Line2Name(slot0[1], slot0[2])] or uv1({
+			pos = {
+				row = slot0[1],
+				column = slot0[2]
+			},
+			item_type = ChapterConst.AttachNone
+		})):SetWalkable(slot0[3])
 	end)
 
 	slot0.indexMax = Vector2(-ChapterConst.MaxRow, -ChapterConst.MaxColumn)
@@ -315,7 +341,7 @@ function slot0.update(slot0, slot1)
 		end
 	end
 
-	slot0.pathFinder = PathFinding.New({}, ChapterConst.MaxRow, ChapterConst.MaxColumn)
+	slot0.pathFinder = OrientedPathFinding.New({}, ChapterConst.MaxRow, ChapterConst.MaxColumn)
 	slot0.fleets = {}
 
 	for slot11, slot12 in ipairs(slot1.group_list) do
@@ -448,6 +474,10 @@ end
 
 function slot0.getChapterCell(slot0, slot1, slot2)
 	return Clone(slot0.cells[ChapterCell.Line2Name(slot1, slot2)])
+end
+
+function slot0.GetRawChapterCell(slot0, slot1, slot2)
+	return slot0.cells[ChapterCell.Line2Name(slot1, slot2)]
 end
 
 function slot0.findChapterCell(slot0, slot1, slot2)
@@ -673,26 +703,29 @@ function slot0.findPath(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	for slot8 = 0, ChapterConst.MaxRow - 1 do
-		if not slot4[slot8] then
-			slot4[slot8] = {}
-		end
+		slot4[slot8] = slot4[slot8] or {}
 
 		for slot12 = 0, ChapterConst.MaxColumn - 1 do
+			slot4[slot8][slot12] = slot4[slot8][slot12] or {}
 			slot13 = PathFinding.PrioForbidden
+			slot14 = ChapterConst.ForbiddenAll
 
-			if slot0.cells[ChapterCell.Line2Name(slot8, slot12)] and slot15:IsWalkable() then
+			if slot0.cells[ChapterCell.Line2Name(slot8, slot12)] and slot16:IsWalkable() then
 				slot13 = PathFinding.PrioNormal
 
-				if slot15.row == slot3.row and slot15.column == slot3.column then
-					if not slot0:considerAsStayPoint(slot1, slot15.row, slot15.column) then
+				if slot16.row == slot3.row and slot16.column == slot3.column then
+					if not slot0:considerAsStayPoint(slot1, slot16.row, slot16.column) then
 						slot13 = PathFinding.PrioObstacle
 					end
-				elseif slot0:considerAsObstacle(slot1, slot15.row, slot15.column) then
+				elseif slot0:considerAsObstacle(slot1, slot16.row, slot16.column) then
 					slot13 = PathFinding.PrioObstacle
 				end
+
+				slot14 = (slot1 ~= ChapterConst.SubjectPlayer or slot16.forbiddenDirections) and ChapterConst.ForbiddenNone
 			end
 
-			slot4[slot8][slot12] = slot13
+			slot4[slot8][slot12].forbiddens = slot14
+			slot4[slot8][slot12].priority = slot13
 		end
 	end
 
@@ -855,40 +888,36 @@ function slot0.updateShipStg(slot0, slot1, slot2, slot3)
 end
 
 function slot0.getFleetBattleBuffs(slot0, slot1)
-	slot2 = slot0.buff_list and {
-		unpack(slot0.buff_list)
-	} or {}
+	slot2 = slot0.buff_list and Clone(slot0.buff_list) or {}
 
 	_.each(slot0:getFleetStgIds(slot1), function (slot0)
 		table.insert(uv0, pg.strategy_data_template[slot0].buff_id)
 	end)
-	table.insertto(slot2, slot0:GetAttachmentBuffs(slot1.line.row, slot1.line.column) or {})
+	table.insertto(slot2, slot0:GetFleetAttachmentConfig("attach_buff", slot1.line.row, slot1.line.column) or {})
 
 	return slot2, slot0:buildBattleBuffList(slot1)
 end
 
-function slot0.GetAttachmentBuffs(slot0, slot1, slot2)
-	if not _.detect(slot0.cellAttachments, function (slot0)
-		return slot0.row == uv0 and slot0.column == uv1
-	end) then
+function slot0.GetFleetAttachmentConfig(slot0, slot1, slot2, slot3)
+	if not slot0.cellAttachments[ChapterCell.Line2Name(slot2 or slot0.fleet.line.row, slot3 or slot0.fleet.line.column)] then
 		return
 	end
 
-	if not pg.map_event_template[slot3.attachmentId] then
+	if not pg.map_event_template[slot5.attachmentId] then
 		return
 	end
 
-	slot5 = {}
+	slot7 = {}
 
-	for slot9, slot10 in ipairs(slot4.effect) do
-		if slot10[1] == "attach_buff" then
-			for slot14 = 2, #slot10 do
-				table.insert(slot5, slot10[slot14])
+	for slot11, slot12 in ipairs(slot6.effect) do
+		if slot12[1] == slot1 then
+			for slot16 = 2, #slot12 do
+				table.insert(slot7, slot12[slot16])
 			end
 		end
 	end
 
-	return slot5
+	return slot7
 end
 
 function slot0.buildBattleBuffList(slot0, slot1)
@@ -1110,8 +1139,8 @@ function slot0.IsPropertyLimitationSatisfy(slot0)
 	return slot4, slot2
 end
 
-function slot0.EliteShipTypeFilter(slot0, slot1)
-	function slot2(slot0, slot1, slot2)
+function slot0.EliteShipTypeFilter(slot0)
+	function slot1(slot0, slot1, slot2)
 		for slot7, slot8 in ipairs(slot1) do
 			if slot8 == 0 then
 				slot3 = 0 + 1
@@ -1134,15 +1163,17 @@ function slot0.EliteShipTypeFilter(slot0, slot1)
 
 		for slot8, slot9 in pairs(slot2) do
 			if table.contains(slot1, slot8:getShipType()) then
-				for slot14, slot15 in ipairs(slot1) do
-					if slot15 == slot10 then
-						uv0 = slot14
+				slot11 = nil
+
+				for slot15, slot16 in ipairs(slot1) do
+					if slot16 == slot10 then
+						slot11 = slot15
 
 						break
 					end
 				end
 
-				table.remove(slot1, uv0)
+				table.remove(slot1, slot11)
 			elseif slot3 - 1 < 0 then
 				slot11 = nil
 
@@ -1159,31 +1190,31 @@ function slot0.EliteShipTypeFilter(slot0, slot1)
 		end
 	end
 
-	slot6 = "limitation"
+	slot5 = "limitation"
 
-	for slot6, slot7 in ipairs(slot0:getConfig(slot6)) do
+	for slot5, slot6 in ipairs(slot0:getConfig(slot5)) do
+		slot10 = {}
 		slot11 = {}
-		slot12 = {}
 
-		for slot16, slot17 in ipairs(slot0.eliteFleetList[slot6]) do
-			if getProxy(BayProxy):getRawData()[slot17]:getTeamType() == TeamType.Main then
+		for slot15, slot16 in ipairs(slot0.eliteFleetList[slot5]) do
+			if getProxy(BayProxy):getRawData()[slot16]:getTeamType() == TeamType.Main then
 				-- Nothing
-			elseif slot19 == TeamType.Vanguard then
-				slot11[slot18] = slot17
-			elseif slot19 == TeamType.Submarine then
-				slot12[slot18] = slot17
+			elseif slot18 == TeamType.Vanguard then
+				slot10[slot17] = slot16
+			elseif slot18 == TeamType.Submarine then
+				slot11[slot17] = slot16
 			end
 		end
 
-		slot2(slot9, slot7[1], {
-			[slot18] = slot17
+		slot1(slot8, slot6[1], {
+			[slot17] = slot16
 		})
-		slot2(slot9, slot7[2], slot11)
-		slot2(slot9, {
+		slot1(slot8, slot6[2], slot10)
+		slot1(slot8, {
 			0,
 			0,
 			0
-		}, slot12)
+		}, slot11)
 	end
 end
 
@@ -1285,7 +1316,7 @@ function slot0.getDragExtend(slot0)
 	slot7 = (slot4 + slot2) * 0.5
 	slot8 = slot1.cellSize + slot1.cellSpace
 
-	return math.max((slot6 - slot3 + 1) * slot8.x, 0), math.max((slot5 - slot6 + 1) * slot8.x, 0), math.max((slot7 - slot2) * slot8.y, 0), math.max((slot4 - slot7 + 1) * slot8.y, 0)
+	return math.max((slot6 - slot3 + 1) * slot8.x, 0), math.max((slot5 - slot6 + 1) * slot8.x, 0), math.max((slot7 - slot2 + 1) * slot8.y, 0), math.max((slot4 - slot7 + 1) * slot8.y, 0)
 end
 
 function slot0.getPoisonArea(slot0, slot1)
@@ -1373,9 +1404,7 @@ function slot0.selectFleets(slot0, slot1, slot2)
 end
 
 function slot0.isEliteChapter(slot0)
-	return Map.New({
-		id = slot0:getConfig("map")
-	}):getConfig("type") == Map.ELITE
+	return Map.IsType(slot0:getConfig("map"), Map.ELITE)
 end
 
 function slot0.getInEliteShipIDs(slot0)
@@ -1391,9 +1420,7 @@ function slot0.getInEliteShipIDs(slot0)
 end
 
 function slot0.isActivity(slot0)
-	return Map.New({
-		id = slot0:getConfig("map")
-	}):isActivity()
+	return Map.StaticIsActivity(slot0:getConfig("map"))
 end
 
 function slot0.activeAlways(slot0)
@@ -1521,11 +1548,9 @@ function slot0.getOni(slot0)
 end
 
 function slot0.getChampion(slot0, slot1, slot2)
-	champion = _.detect(slot0.champions, function (slot0)
+	return _.detect(slot0.champions, function (slot0)
 		return slot0.row == uv0 and slot0.column == uv1
 	end)
-
-	return champion
 end
 
 function slot0.getChampionIndex(slot0, slot1, slot2)
@@ -1535,9 +1560,6 @@ function slot0.getChampionIndex(slot0, slot1, slot2)
 end
 
 function slot0.getChampionVisibility(slot0, slot1, slot2, slot3)
-	slot2 = slot2 or slot1.row
-	slot3 = slot3 or slot1.column
-
 	return slot1.flag == 0
 end
 
@@ -1621,7 +1643,7 @@ function slot0.considerAsStayPoint(slot0, slot1, slot2, slot3)
 			return true
 		end
 
-		if slot4.attachment == ChapterConst.AttachLandbase and slot4.attachmentId == ChapterConst.LBIDHarbor then
+		if slot4.attachment == ChapterConst.AttachLandbase and pg.land_based_template[slot4.attachmentId] and pg.land_based_template[slot4.attachmentId].type == ChapterConst.LBHarbor then
 			return false
 		end
 
@@ -1755,6 +1777,25 @@ function slot0.existCoastalGunNoMatterLiveOrDead(slot0)
 	return false
 end
 
+slot5 = {
+	{
+		1,
+		0
+	},
+	{
+		-1,
+		0
+	},
+	{
+		0,
+		1
+	},
+	{
+		0,
+		-1
+	}
+}
+
 function slot0.calcWalkableCells(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 
@@ -1764,7 +1805,7 @@ function slot0.calcWalkableCells(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		for slot13 = 0, ChapterConst.MaxColumn - 1 do
-			slot5[slot9][slot13] = slot0.cells[ChapterCell.Line2Name(slot9, slot13)] and slot15:IsWalkable(slot1)
+			slot5[slot9][slot13] = slot0.cells[ChapterCell.Line2Name(slot9, slot13)] and slot15:IsWalkable()
 		end
 	end
 
@@ -1776,49 +1817,44 @@ function slot0.calcWalkableCells(slot0, slot1, slot2, slot3, slot4)
 		end
 	end
 
-	slot7 = {}
-	slot8 = {
+	if not slot0:GetRawChapterCell(slot2, slot3) then
+		return {}
+	end
+
+	slot9 = {
 		{
 			step = 0,
 			row = slot2,
-			column = slot3
+			column = slot3,
+			forbiddens = slot8.forbiddenDirections
 		}
 	}
-	slot9 = {}
+	slot10 = {}
 
-	while #slot8 > 0 do
-		table.insert(slot9, table.remove(slot8, 1))
-		_.each({
-			{
-				row = 1,
-				column = 0
-			},
-			{
-				row = -1,
-				column = 0
-			},
-			{
-				row = 0,
-				column = 1
-			},
-			{
-				row = 0,
-				column = -1
+	while #slot9 > 0 do
+		table.insert(slot10, table.remove(slot9, 1))
+		_.each(uv0, function (slot0)
+			slot1 = {
+				row = uv0.row + slot0[1],
+				column = uv0.column + slot0[2],
+				step = uv0.step + 1
 			}
-		}, function (slot0)
-			slot0.row = uv0.row + slot0.row
-			slot0.column = uv0.column + slot0.column
-			slot0.step = uv0.step + 1
 
-			if slot0.row >= 0 and slot0.row < ChapterConst.MaxRow and slot0.column >= 0 and slot0.column < ChapterConst.MaxColumn and slot0.step <= uv1 and not (_.any(uv2, function (slot0)
-				return slot0.row == uv0.row and slot0.column == uv0.column
-			end) or _.any(uv3, function (slot0)
-				return slot0.row == uv0.row and slot0.column == uv0.column
-			end)) and uv4[slot0.row][slot0.column] then
-				table.insert(uv5, slot0)
+			if not uv1:GetRawChapterCell(slot1.row, slot1.column) then
+				return
+			end
 
-				if not uv6:existEnemy(uv7, slot0.row, slot0.column) and not uv6:existBarrier(slot0.row, slot0.column) and not uv8[slot0.row .. "_" .. slot0.column] then
-					table.insert(uv2, slot0)
+			slot1.forbiddens = slot2.forbiddenDirections
+
+			if slot1.step <= uv2 and not OrientedPathFinding.IsDirectionForbidden(uv0, slot0[1], slot0[2]) and not (_.any(uv3, function (slot0)
+				return slot0.row == uv0.row and slot0.column == uv0.column
+			end) or _.any(uv4, function (slot0)
+				return slot0.row == uv0.row and slot0.column == uv0.column
+			end)) and uv5[slot1.row][slot1.column] then
+				table.insert(uv6, slot1)
+
+				if not uv1:existEnemy(uv7, slot1.row, slot1.column) and not uv1:existBarrier(slot1.row, slot1.column) and not uv8[slot1.row .. "_" .. slot1.column] then
+					table.insert(uv3, slot1)
 				end
 			end
 		end)
@@ -1854,37 +1890,20 @@ function slot0.calcAreaCells(slot0, slot1, slot2, slot3, slot4)
 
 	while #slot7 > 0 do
 		table.insert(slot8, table.remove(slot7, 1))
-		_.each({
-			{
-				row = 1,
-				column = 0
-			},
-			{
-				row = -1,
-				column = 0
-			},
-			{
-				row = 0,
-				column = 1
-			},
-			{
-				row = 0,
-				column = -1
-			}
-		}, function (slot0)
-			slot0.row = uv0.row + slot0.row
-			slot0.column = uv0.column + slot0.column
-			slot0.step = uv0.step + 1
-
-			if slot0.row >= 0 and slot0.row < ChapterConst.MaxRow and slot0.column >= 0 and slot0.column < ChapterConst.MaxColumn and slot0.step <= uv1 and not (_.any(uv2, function (slot0)
+		_.each(uv0, function (slot0)
+			if ({
+				row = uv0.row + slot0[1],
+				column = uv0.column + slot0[2],
+				step = uv0.step + 1
+			}).row >= 0 and slot1.row < ChapterConst.MaxRow and slot1.column >= 0 and slot1.column < ChapterConst.MaxColumn and slot1.step <= uv1 and not (_.any(uv2, function (slot0)
 				return slot0.row == uv0.row and slot0.column == uv0.column
 			end) or _.any(uv3, function (slot0)
 				return slot0.row == uv0.row and slot0.column == uv0.column
 			end)) then
-				table.insert(uv2, slot0)
+				table.insert(uv2, slot1)
 
-				if uv4[slot0.row][slot0.column] and uv5 <= slot0.step then
-					table.insert(uv6, slot0)
+				if uv4[slot1.row][slot1.column] and uv5 <= slot1.step then
+					table.insert(uv6, slot1)
 				end
 			end
 		end)
@@ -1982,7 +2001,7 @@ function slot0.getQuadCellPic(slot0, slot1)
 		slot2 = "cell_box"
 	elseif slot1.attachment == ChapterConst.AttachTransport_Target then
 		slot2 = "cell_box"
-	elseif slot1.attachment == ChapterConst.AttachLandbase and (slot1.attachmentId == ChapterConst.LBIDHarbor or slot1.attachmentId == ChapterConst.LBIDDock) then
+	elseif slot1.attachment == ChapterConst.AttachLandbase and pg.land_based_template[slot1.attachmentId] and (slot3.type == ChapterConst.LBHarbor or slot3.type == ChapterConst.LBDock) then
 		slot2 = "cell_box"
 	end
 
@@ -1994,7 +2013,7 @@ function slot0.getMapShip(slot0, slot1)
 
 	if slot0:getDataType() == ChapterConst.TypeNone then
 		if slot1:isValid() and not _.detect(slot1:getShips(false), function (slot0)
-			return slot0.isNpc and slot0.hpRant > 0
+			return slot0.isNpc and uv0.hpRant > 0
 		end) then
 			if slot1:getFleetType() == FleetType.Normal then
 				slot2 = slot1:getShipsByTeam(TeamType.Main, false)[1]
@@ -2473,7 +2492,7 @@ function slot0.triggerCheck(slot0, slot1, slot2, slot3)
 	end
 end
 
-slot5 = {
+slot6 = {
 	{
 		1,
 		0
@@ -2648,38 +2667,36 @@ function slot0.GetAntiAirGunArea(slot0)
 
 	for slot6, slot7 in pairs(slot0.cells) do
 		if slot7.attachment == ChapterConst.AttachLandbase and slot7.flag ~= 1 and pg.land_based_template[slot7.attachmentId].type == ChapterConst.LBAntiAir then
-			function getIndex(slot0, slot1)
-				return ChapterConst.MaxColumn * slot0 + slot1
-			end
-
-			slot12 = {}
+			slot13 = {}
 
 			if math.abs(slot8.function_args[1]) > 0 then
 				-- Nothing
 			end
 
 			while next({
-				[getIndex(slot7.row, slot7.column)] = slot7
+				[function (slot0, slot1)
+					return ChapterConst.MaxColumn * slot0 + slot1
+				end(slot7.row, slot7.column)] = slot7
 			}) do
-				slot13 = next(slot11)
-				slot11[slot13] = nil
+				slot14 = next(slot12)
+				slot12[slot14] = nil
 
-				if math.abs(slot11[slot13].row - slot7.row) <= slot10 and math.abs(slot14.column - slot7.column) <= slot10 then
-					slot12[slot13] = slot14
+				if math.abs(slot12[slot14].row - slot7.row) <= slot10 and math.abs(slot15.column - slot7.column) <= slot10 then
+					slot13[slot14] = slot15
 
-					for slot18 = 1, #uv0 do
-						if not slot12[getIndex(slot14.row + uv0[slot18][1], slot14.column + uv0[slot18][2])] then
-							slot11[slot21] = {
-								row = slot19,
-								column = slot20
+					for slot19 = 1, #uv0 do
+						if not slot13[slot11(slot15.row + uv0[slot19][1], slot15.column + uv0[slot19][2])] then
+							slot12[slot22] = {
+								row = slot20,
+								column = slot21
 							}
 						end
 					end
 				end
 			end
 
-			for slot16, slot17 in pairs(slot12) do
-				slot2[slot16] = slot17
+			for slot17, slot18 in pairs(slot13) do
+				slot2[slot17] = slot18
 			end
 		end
 	end

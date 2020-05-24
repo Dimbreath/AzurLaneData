@@ -101,6 +101,8 @@ function slot6.OpeningEffect(slot0, slot1, slot2)
 		uv0._uiMGR:SetActive(true)
 		uv0:EnableComponent(true)
 
+		uv0._ui._go:GetComponent("DftAniEvent").enabled = false
+
 		if uv1 then
 			uv1()
 		end
@@ -150,8 +152,8 @@ function slot6.InitAirStrikeIcon(slot0)
 	slot0._airStrikeView = uv0.Battle.BattleAirStrikeIconView.New(slot0._ui:findTF("AirFighterContainer/AirStrikeIcon"))
 end
 
-function slot6.InitSubmarineWarning(slot0)
-	slot0._submarineView = uv0.Battle.BattleSubmarineView.New(slot0._ui:findTF("Submarine"))
+function slot6.InitCommonWarning(slot0)
+	slot0._warningView = uv0.Battle.BattleCommonWarningView.New(slot0._ui:findTF("WarningView"))
 end
 
 function slot6.InitScoreBar(slot0)
@@ -245,6 +247,7 @@ function slot6.AddUIEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_AIR_FIGHTER_ICON, slot0.onAddAirStrike)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.REMOVE_AIR_FIGHTER_ICON, slot0.onRemoveAirStrike)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_HOSTILE_SUBMARINE, slot0.onUpdateHostileSubmarine)
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_ENVIRONMENT_WARNING, slot0.onUpdateEnvironmentWarning)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_COUNT_DOWN, slot0.onUpdateCountDown)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.KIZUNA_JAMMING, slot0.onJamming)
 end
@@ -270,6 +273,8 @@ function slot6.RemoveUIEvent(slot0)
 	slot0._userFleet:UnregisterEventListener(slot0, uv0.MANUAL_SUBMARINE_SHIFT)
 	slot0._userFleet:UnregisterEventListener(slot0, uv0.FLEET_BLIND)
 	slot0._userFleet:UnregisterEventListener(slot0, uv0.FLEET_HORIZON_UPDATE)
+	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_HOSTILE_SUBMARINE)
+	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_ENVIRONMENT_WARNING)
 end
 
 function slot6.ShowSkillPainting(slot0, slot1, slot2, slot3)
@@ -319,7 +324,7 @@ function slot6.onStageInit(slot0, slot1)
 	slot0:InitTimer()
 	slot0:InitEnemyHpBar()
 	slot0:InitAirStrikeIcon()
-	slot0:InitSubmarineWarning()
+	slot0:InitCommonWarning()
 	slot0:InitAutoBtn()
 	slot0:InitMainDamagedView()
 end
@@ -488,7 +493,15 @@ function slot6.onRemoveAirStrike(slot0, slot1)
 end
 
 function slot6.onUpdateHostileSubmarine(slot0, slot1)
-	slot0._submarineView:UpdateHostileSubmarineCount(slot1.Data.count)
+	slot0._warningView:UpdateHostileSubmarineCount(slot1.Data.count)
+end
+
+function slot6.onUpdateEnvironmentWarning(slot0, slot1)
+	if slot1.Data.isActive then
+		slot0._warningView:ActiveWarning(slot0._warningView.WARNING_TYPE_ARTILLERY)
+	else
+		slot0._warningView:DeactiveWarning(slot0._warningView.WARNING_TYPE_ARTILLERY)
+	end
 end
 
 function slot6.onCameraFocus(slot0, slot1)
@@ -611,7 +624,7 @@ function slot6.Dispose(slot0)
 	slot0._airStrikeView:Dispose()
 	slot0._sightView:Dispose()
 	slot0._mainDamagedView:Dispose()
-	slot0._submarineView:Dispose()
+	slot0._warningView:Dispose()
 
 	slot0._seaView = nil
 	slot0._enemyHpBar = nil
@@ -619,7 +632,7 @@ function slot6.Dispose(slot0)
 	slot0._timerView = nil
 	slot0._joystick = nil
 	slot0._airStrikeView = nil
-	slot0._submarineView = nil
+	slot0._warningView = nil
 	slot0._mainDamagedView = nil
 
 	if slot0._duelRateBar then

@@ -132,7 +132,7 @@ function slot0.updateSelectedShipList(slot0)
 
 			slot15 = pg.ship_data_statistics[slot6].name
 
-			setText(slot12, slot15)
+			setText(slot12, shortenString(slot15, 8))
 
 			slot16 = slot12.localPosition
 

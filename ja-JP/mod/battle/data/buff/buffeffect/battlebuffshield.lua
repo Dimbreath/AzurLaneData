@@ -8,6 +8,10 @@ function slot1.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
+function slot1.GetEffectAttachData(slot0)
+	return slot0._shield
+end
+
 function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._number = slot0._tempData.arg_list.number or 0
 	slot0._maxHPRatio = slot3.maxHPRatio or 0

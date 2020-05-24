@@ -17,7 +17,9 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0.zoom = slot0:findTF("bg"):GetComponent("Zoom")
 end
 
-function slot0.init(slot0)
+function slot0.init(slot0, slot1)
+	slot0.contextData = slot1
+
 	slot0:OnInit()
 	slot0:OnDidEnter()
 end

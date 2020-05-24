@@ -384,8 +384,7 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 			end()
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				parent = rtf(uv0.UIOverlay),
-				canvasOrder = GetComponent(uv0._go, typeof(Canvas)).sortingOrder + 1,
+				parent = rtf(uv0._go),
 				content = i18n("story_skip_confirm"),
 				onYes = function ()
 					uv0()

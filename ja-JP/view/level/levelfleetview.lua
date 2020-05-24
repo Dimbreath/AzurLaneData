@@ -342,9 +342,9 @@ function slot0.updateCommanders(slot0, slot1, slot2)
 end
 
 function slot0.updateShips(slot0, slot1, slot2)
-	slot4 = UIItemList.New(slot1, slot0.tfShipTpl)
+	slot3 = UIItemList.New(slot1, slot0.tfShipTpl)
 
-	slot4:make(function (slot0, slot1, slot2)
+	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = getProxy(BayProxy):getShipById(uv0[slot1 + 1])
 
@@ -361,14 +361,14 @@ function slot0.updateShips(slot0, slot1, slot2)
 			end
 		end
 	end)
-	slot4:align(#slot2)
+	slot3:align(#slot2)
 
-	for slot8, slot9 in ipairs(slot2) do
-		slot11 = GetOrAddComponent(slot1:GetChild(slot8 - 1), "UILongPressTrigger").onLongPressed
+	for slot7, slot8 in ipairs(slot2) do
+		slot10 = GetOrAddComponent(slot1:GetChild(slot7 - 1), "UILongPressTrigger").onLongPressed
 
-		pg.DelegateInfo.Add(slot0, slot11)
-		slot11:RemoveAllListeners()
-		slot11:AddListener(function ()
+		pg.DelegateInfo.Add(slot0, slot10)
+		slot10:RemoveAllListeners()
+		slot10:AddListener(function ()
 			uv0:emit(LevelMediator2.ON_SHIP_DETAIL, {
 				id = uv1,
 				chapter = uv0.chapter

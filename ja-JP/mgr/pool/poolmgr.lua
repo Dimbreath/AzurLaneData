@@ -289,7 +289,7 @@ function slot0.ReturnUI(slot0, slot1, slot2)
 		else
 			slot0.pools_plural[slot4]:Enqueue(slot2, true)
 
-			if slot0.pools_plural[slot4]:AllReturned() then
+			if slot0.pools_plural[slot4]:AllReturned() and (not slot0.callbacks[slot4] or #slot0.callbacks[slot4] == 0) then
 				uv3:ClearBundleRef(slot3, true, true)
 				slot0.pools_plural[slot4]:Clear()
 
@@ -547,7 +547,7 @@ function slot0.ReturnPrefab(slot0, slot1, slot2, slot3, slot4)
 		slot3.transform:SetParent(slot0.root, false)
 		slot0.pools_plural[slot5]:Enqueue(slot3)
 
-		if slot4 and slot0.pools_plural[slot5].balance <= 0 then
+		if slot4 and slot0.pools_plural[slot5].balance <= 0 and (not slot0.callbacks[slot5] or #slot0.callbacks[slot5] == 0) then
 			slot0:DestroyPrefab(slot1, slot2)
 		end
 	else
@@ -675,6 +675,10 @@ end
 
 function slot0.LoadAsset(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if slot0.callbacks[slot1 .. slot2] then
+		if not slot3 then
+			errorMsg("Sync Loading after async operation")
+		end
+
 		table.insert(slot0.callbacks[slot7], slot5)
 	elseif slot3 then
 		slot0.callbacks[slot7] = {
@@ -683,11 +687,11 @@ function slot0.LoadAsset(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 		uv0:getAssetAsync(slot1, slot2, slot4, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			if uv0.callbacks[uv1] then
-				uv0.callbacks[uv1] = nil
-
-				for slot5 = 1, #uv0.callbacks[uv1] do
-					slot1[slot5](slot0)
+				for slot6 = 1, #uv0.callbacks[uv1] do
+					table.remove(slot1)(slot0)
 				end
+
+				uv0.callbacks[uv1] = nil
 			end
 		end), slot6, false)
 	else

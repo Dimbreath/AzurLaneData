@@ -3117,6 +3117,48 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[175] = {
+		advice = 0,
+		describe = "ヴィシア聖座の「聖堂」の防衛システム――のデモンストレーション用に使われたミニチュア。「神穹を衝く聖歌」イベントに参加した指揮官に贈る",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "神穹の光幕",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "神穹を衝く聖歌",
+		themeId = 0,
+		icon = "faxi2xunzhangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 175,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"faxi2xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -67349,6 +67391,882 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[62001] = {
+		advice = 0,
+		describe = "春の匂いを感じ取れる（気がする）アイリス風情の床",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "アイリスの芝生床",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 62,
+		icon = "dibanfaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62001,
+		picture = "fax/dibanfax",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62002] = {
+		advice = 0,
+		describe = "海の潮騒が聞こえる（気がする）アイリス風情の壁紙",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "港町の壁",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 62,
+		icon = "qiangbifaxicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62002,
+		picture = "fax/qiangbifax",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62101] = {
+		advice = 0,
+		describe = "室内に飾るラベンダー。いい匂いがする",
+		count = 6,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ラベンダー・パープル",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 62,
+		icon = "cao2faxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62101,
+		picture = "fax/cao2fax",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62102] = {
+		advice = 0,
+		describe = "室内に飾るラベンダー。いい匂いがする",
+		count = 6,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ラベンダー・ピンク",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 62,
+		icon = "caofaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62102,
+		picture = "fax/caofax",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62103] = {
+		advice = 0,
+		describe = " ボンジュール、ビヤンブニュピョ！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "アイリス売店饅頭",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 62,
+		icon = "fang2faxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62103,
+		picture = "fax/fang2fax",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62104] = {
+		advice = 0,
+		describe = "アイリスの花に囲まれて幸せそうな饅頭である",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "メゾンと饅頭",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 62,
+		icon = "fang3faxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 62104,
+		picture = "fax/fang3fax",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					146,
+					55
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62105] = {
+		advice = 0,
+		describe = "信仰篤きアイリスの民が日々を過ごす小屋",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "アイリス家屋",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 62,
+		icon = "fangfaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62105,
+		picture = "fax/fangfax",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62106] = {
+		advice = 0,
+		describe = "某バターほどではないがこれでも近接武器として使用できる硬さである",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "アイリスパン",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 62,
+		icon = "gunfaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 62106,
+		picture = "fax/gunfax",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-5,
+					39
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62107] = {
+		advice = 0,
+		describe = "「洗礼を受ける気はありますか？…ふふふ、冗談ですよ」",
+		count = 3,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "アイリス河川",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 62,
+		icon = "hefaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62107,
+		picture = "fax/hefax",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62108] = {
+		advice = 0,
+		describe = "「石畳みを美しい風景へと変える素敵な『マホウ』…」「ピーちゃん、こっちこっち～！」",
+		count = 4,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "花びらの舗装",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 62,
+		icon = "huabanfaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62108,
+		picture = "fax/huabanfax",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62109] = {
+		advice = 0,
+		describe = "「あいつが好きそうなものだな。オレの部屋には不要だ」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "アイリス花壇",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 62,
+		icon = "huapufaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62109,
+		picture = "fax/huapufax",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62110] = {
+		advice = 0,
+		describe = "小さな花を飾るのは、誰の発案かしら",
+		count = 13,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "アイリスフェンス",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 62,
+		icon = "hulanfaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62110,
+		picture = "fax/hulanfax",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62111] = {
+		advice = 0,
+		describe = "「あなたにも、アイリスの加護があらんことを」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "白の教会跡",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 62,
+		icon = "loufaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 62111,
+		picture = "fax/loufax",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					46,
+					70
+				},
+				{
+					1,
+					1
+				},
+				"fax/loufax_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62112] = {
+		advice = 0,
+		describe = "「時間通りですね。指揮官様、そろそろセットの確認を」",
+		count = 1,
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		name = "アーチ・アイリス",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 62,
+		icon = "menfaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62112,
+		picture = "fax/menfax",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			7
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62113] = {
+		advice = 0,
+		describe = "「これを立てれば今日から寮舎が観光スポットに！…ってならないよ！みんなに宣伝するな！」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "プロバンス看板",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 62,
+		icon = "paizifaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 62113,
+		picture = "fax/paizifax",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62114] = {
+		advice = 0,
+		describe = "普通の木。…普通の木。",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "港町の緑化木",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 62,
+		icon = "shufaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62114,
+		picture = "fax/shufax",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62115] = {
+		advice = 0,
+		describe = "「花の匂いがするバス！Fantastique!」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "アイリス風饅頭バス",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 62,
+		icon = "zaopengfaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 62115,
+		picture = "fax/zaopengfax",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-15.3,
+					-22.6
+				},
+				{
+					1,
+					1
+				},
+				"fax/zaopengfax_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62116] = {
+		advice = 0,
+		describe = "「良い店だわ。今度ダンケルクと指揮官も連れてこようかしら。ふふふ」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "エレガントコート",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 62,
+		icon = "zhuofaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 62116,
+		picture = "fax/zhuofax",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-67.8,
+					54.4
+				},
+				{
+					1,
+					1
+				},
+				"fax/zhuofax_using"
+			},
+			{
+				"sit",
+				{
+					78.9,
+					80.3
+				},
+				{
+					-1,
+					1
+				},
+				"fax/zhuofax_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62117] = {
+		advice = 0,
+		describe = "これで寮舎の1階まで丸見えだピョ！",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "モンゴルフィエ饅頭",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 62,
+		icon = "qiqiufaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62117,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiqiufaxB",
+				"normal"
+			},
+			{
+				"qiqiufaxT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"qiqiufaxCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[62118] = {
+		advice = 0,
+		describe = "風が吹きひき臼が周り、饅頭がみんなに幸せなパンをお届け――",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ムーラン・アイリス",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 62,
+		icon = "fengchefaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62118,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fengchegfax",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -67417,6 +68335,7 @@ pg.furniture_data_template = {
 		169,
 		171,
 		173,
+		175,
 		100002,
 		100003,
 		100004,
@@ -68902,6 +69821,26 @@ pg.furniture_data_template = {
 		61126,
 		61301,
 		61302,
-		61303
+		61303,
+		62001,
+		62002,
+		62101,
+		62102,
+		62103,
+		62104,
+		62105,
+		62106,
+		62107,
+		62108,
+		62109,
+		62110,
+		62111,
+		62112,
+		62113,
+		62114,
+		62115,
+		62116,
+		62117,
+		62118
 	}
 }

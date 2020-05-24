@@ -988,7 +988,7 @@ function slot0.addFurniture(slot0, slot1, slot2)
 		slot0:replacePaper(slot1)
 
 		if slot2 then
-			slot2()
+			slot2(slot1)
 		end
 
 		return
@@ -999,7 +999,7 @@ function slot0.addFurniture(slot0, slot1, slot2)
 			uv0:updateHouse(uv0.data)
 
 			if uv1 then
-				uv1()
+				uv1(uv2)
 			end
 		end)
 	else
@@ -1007,7 +1007,7 @@ function slot0.addFurniture(slot0, slot1, slot2)
 			uv0:updateHouse(uv0.data)
 
 			if uv1 then
-				uv1()
+				uv1(uv2)
 			end
 		end)
 	end

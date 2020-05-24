@@ -14,6 +14,7 @@ function slot1.SetWaveData(slot0, slot1)
 	uv0.super.SetWaveData(slot0, slot1)
 
 	slot0._sapwnData = slot1.spawn or {}
+	slot0._environWarning = slot1.warning
 end
 
 function slot1.DoWave(slot0)
@@ -26,10 +27,22 @@ function slot1.DoWave(slot0)
 			slot0:doSpawn(slot5)
 		end
 	end
+
+	if slot0._environWarning then
+		uv1.Battle.BattleDataProxy.GetInstance():DispatchWarning(true)
+	end
 end
 
 function slot1.doSpawn(slot0, slot1)
-	uv0.Battle.BattleDataProxy.GetInstance():SpawnEnvironment(slot1)
+	uv0.Battle.BattleDataProxy.GetInstance():SpawnEnvironment(slot1):ConfigCallback(function ()
+		uv0:doPass()
+	end)
+end
+
+function slot1.doPass(slot0)
+	if slot0._environWarning then
+		uv0.Battle.BattleDataProxy.GetInstance():DispatchWarning(false)
+	end
 end
 
 function slot1.spawnTimer(slot0, slot1)

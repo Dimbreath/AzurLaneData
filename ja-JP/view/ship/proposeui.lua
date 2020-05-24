@@ -361,10 +361,12 @@ function slot0.showPainting(slot0, slot1, slot2)
 	slot4()
 end
 
+slot0.Live2DProposeDelayTime = 2
+
 function slot0.showLive2D(slot0, slot1)
 	setActive(slot0:findTF("fitter", slot0.targetActorTF), false)
 	setActive(slot0:findTF("live2d", slot0.targetActorTF), true)
-	LeanTween.alphaCanvas(GetOrAddComponent(slot0.targetActorTF, typeof(CanvasGroup)), 1, 2):setFrom(0):setOnComplete(System.Action(function ()
+	LeanTween.alphaCanvas(GetOrAddComponent(slot0.targetActorTF, typeof(CanvasGroup)), 1, uv0.Live2DProposeDelayTime):setFrom(0):setOnComplete(System.Action(function ()
 		uv0.l2dChar:SetAction(pg.AssistantInfo.action2Id[uv1])
 	end))
 end

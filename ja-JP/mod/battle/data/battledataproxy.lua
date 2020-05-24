@@ -719,7 +719,7 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 		end
 	end
 
-	slot11 = uv0.CreateBattleUnitData(slot6, slot3, slot4, slot1.monsterTemplateID, nil, slot8, slot1.extraInfo, nil, slot0._completelyRepress, slot0._repressReduce, slot0._repressEnemyHpRant, nil, )
+	slot11 = uv0.CreateBattleUnitData(slot6, slot3, slot4, slot1.monsterTemplateID, nil, slot8, slot1.extraInfo, nil, slot0._completelyRepress, slot0._repressReduce, slot0._repressEnemyHpRant, nil, , slot1.level)
 
 	slot11:SetPosition(uv1.RandomPos(slot1.corrdinate))
 	slot11:SetAI(slot1.pilotAITemplateID or slot7.pilot_ai_template_id)
@@ -1513,6 +1513,8 @@ function slot8.SpawnEnvironment(slot0, slot1)
 	slot3:SetAOEData((#slot1.cld_data ~= 1 or slot0:SpawnLastingColumnArea(slot9, slot10, slot5, slot1.cld_data[1], slot11, slot6, slot7, false, slot1.prefab, slot8)) and slot0:SpawnLastingCubeArea(slot9, slot10, slot5, slot1.cld_data[1], slot1.cld_data[2], slot11, slot6, slot7, false, slot1.prefab, slot8))
 
 	slot0._environmentList[slot2] = slot3
+
+	return slot3
 end
 
 function slot8.RemoveEnvironment(slot0, slot1)
@@ -1524,6 +1526,12 @@ function slot8.RemoveEnvironment(slot0, slot1)
 	slot0._environmentList[slot1] = nil
 end
 
+function slot8.DispatchWarning(slot0, slot1, slot2)
+	slot0:DispatchEvent(uv0.Event.New(uv1.UPDATE_ENVIRONMENT_WARNING, {
+		isActive = slot1
+	}))
+end
+
 function slot8.GetEnvironmentList(slot0)
 	return slot0._environmentList
 end
@@ -1532,6 +1540,14 @@ function slot8.GernerateEnvironmentID(slot0)
 	slot0._environmentIndex = slot0._environmentIndex + 1
 
 	return slot0._environmentIndex
+end
+
+function slot8.SpawnEffect(slot0, slot1, slot2, slot3)
+	slot0:DispatchEvent(uv0.Event.New(uv1.ADD_EFFECT, {
+		FXID = slot1,
+		position = slot2,
+		localScale = slot3
+	}))
 end
 
 function slot8.GetFriendlyCode(slot0)

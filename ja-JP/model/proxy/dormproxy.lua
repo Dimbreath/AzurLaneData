@@ -9,9 +9,18 @@ slot0.INIMACY_AND_MONEY_ADD = "DormProxy inimacy and money added"
 slot0.SHIPS_EXP_ADDED = "DormProxy SHIPS_EXP_ADDED"
 slot0.THEME_ADDED = "DormProxy THEME_ADDED"
 slot0.THEME_DELETED = "DormProxy THEME_DELETED"
+slot0.THEME_TEMPLATE_UPDATED = "DormProxy THEME_TEMPLATE_UPDATED"
+slot0.THEME_TEMPLATE_DELTETED = "DormProxy THEME_TEMPLATE_DELTETED"
+slot0.COLLECTION_THEME_TEMPLATE_ADDED = "DormProxy COLLECTION_THEME_TEMPLATE_ADDED"
+slot0.COLLECTION_THEME_TEMPLATE_DELETED = "DormProxy COLLECTION_THEME_TEMPLATE_DELETED"
+slot0.THEME_TEMPLATE_ADDED = "DormProxy THEME_TEMPLATE_ADDED"
+slot0.SHOP_THEME_TEMPLATE_DELETED = "DormProxy SHOP_THEME_TEMPLATE_DELETED"
 
 function slot0.register(slot0)
+	slot0.TYPE = 5
+	slot0.PAGE = 1
 	slot0.friendData = nil
+	slot0.systemThemes = {}
 
 	slot0:on(19001, function (slot0)
 		uv0:sendNotification(GAME.GET_BACKYARD_DATA, {
@@ -35,6 +44,14 @@ function slot0.register(slot0)
 			uv0:addInimacyAndMoney(slot0.pop_list[slot4].id, slot0.pop_list[slot4].intimacy, slot0.pop_list[slot4].dorm_icon)
 		end
 	end)
+end
+
+function slot0.GetVisitorShip(slot0)
+	return slot0.visitorShip
+end
+
+function slot0.SetVisitorShip(slot0, slot1)
+	slot0.visitorShip = slot1
 end
 
 function slot0.getBackYardShips(slot0)
@@ -328,6 +345,151 @@ function slot0.getNewID(slot0)
 			return slot4
 		end
 	end
+end
+
+function slot0.GetCustomThemeTemplates(slot0)
+	return slot0.customThemeTemplates
+end
+
+function slot0.SetCustomThemeTemplates(slot0, slot1)
+	slot0.customThemeTemplates = slot1
+end
+
+function slot0.GetCustomThemeTemplateById(slot0, slot1)
+	return slot0.customThemeTemplates[slot1]
+end
+
+function slot0.UpdateCustomThemeTemplate(slot0, slot1)
+	slot0.customThemeTemplates[slot1.id] = slot1
+
+	slot0:sendNotification(uv0.THEME_TEMPLATE_UPDATED, {
+		type = BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM,
+		template = slot1
+	})
+end
+
+function slot0.DeleteCustomThemeTemplate(slot0, slot1)
+	slot0.customThemeTemplates[slot1] = nil
+
+	slot0:sendNotification(uv0.THEME_TEMPLATE_DELTETED, {
+		templateId = slot1
+	})
+end
+
+function slot0.AddCustomThemeTemplate(slot0, slot1)
+	slot0.customThemeTemplates[slot1.id] = slot1
+
+	slot0:sendNotification(uv0.THEME_TEMPLATE_ADDED, {
+		template = slot1
+	})
+end
+
+function slot0.GetUploadThemeTemplateCnt(slot0)
+	for slot5, slot6 in pairs(slot0.customThemeTemplates) do
+		if slot6:IsPushed() then
+			slot1 = 0 + 1
+		end
+	end
+
+	return slot1
+end
+
+function slot0.GetShopThemeTemplates(slot0)
+	return slot0.shopThemeTemplates
+end
+
+function slot0.SetShopThemeTemplates(slot0, slot1)
+	slot0.shopThemeTemplates = slot1
+end
+
+function slot0.GetShopThemeTemplateById(slot0, slot1)
+	return slot0.shopThemeTemplates[slot1]
+end
+
+function slot0.IsInitShopThemeTemplates(slot0)
+	return slot0.shopThemeTemplates ~= nil
+end
+
+function slot0.UpdateShopThemeTemplate(slot0, slot1)
+	slot0.shopThemeTemplates[slot1.id] = slot1
+
+	slot0:sendNotification(uv0.THEME_TEMPLATE_UPDATED, {
+		type = BackYardConst.THEME_TEMPLATE_TYPE_SHOP,
+		template = slot1
+	})
+end
+
+function slot0.DeleteShopThemeTemplate(slot0, slot1)
+	slot0.shopThemeTemplates[slot1] = nil
+
+	slot0:sendNotification(uv0.SHOP_THEME_TEMPLATE_DELETED, {
+		id = slot1
+	})
+end
+
+function slot0.GetCollectionThemeTemplates(slot0)
+	return slot0.collectionThemeTemplates
+end
+
+function slot0.SetCollectionThemeTemplates(slot0, slot1)
+	slot0.collectionThemeTemplates = slot1
+end
+
+function slot0.GetCollectionThemeTemplateById(slot0, slot1)
+	return slot0.collectionThemeTemplates[slot1]
+end
+
+function slot0.AddCollectionThemeTemplate(slot0, slot1)
+	slot0.collectionThemeTemplates[slot1.id] = slot1
+
+	slot0:sendNotification(uv0.COLLECTION_THEME_TEMPLATE_ADDED, {
+		template = slot1
+	})
+end
+
+function slot0.DeleteCollectionThemeTemplate(slot0, slot1)
+	slot0.collectionThemeTemplates[slot1] = nil
+
+	slot0:sendNotification(uv0.COLLECTION_THEME_TEMPLATE_DELETED, {
+		id = slot1
+	})
+end
+
+function slot0.GetThemeTemplateCollectionCnt(slot0)
+	return table.getCount(slot0.collectionThemeTemplates or {})
+end
+
+function slot0.UpdateCollectionThemeTemplate(slot0, slot1)
+	slot0.collectionThemeTemplates[slot1.id] = slot1
+
+	slot0:sendNotification(uv0.THEME_TEMPLATE_UPDATED, {
+		type = BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION,
+		template = slot1
+	})
+end
+
+function slot0.GetTemplateNewID(slot0)
+	for slot5 = 1, 10 do
+		if not table.contains(_.map(_.values(slot0.customThemeTemplates or {}), function (slot0)
+			return slot0:GetPos()
+		end), slot5) then
+			return slot5
+		end
+	end
+end
+
+function slot0.GetSystemThemes(slot0)
+	if not slot0.systemThemes or #slot0.systemThemes == 0 then
+		for slot5, slot6 in ipairs(pg.backyard_theme_template.all) do
+			if slot1[slot6].is_view == 1 then
+				table.insert(slot0.systemThemes, BackYardTheme.New({
+					id = slot6
+				}))
+			end
+		end
+	end
+
+	return slot0.systemThemes
 end
 
 return slot0

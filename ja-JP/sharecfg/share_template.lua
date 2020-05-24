@@ -212,6 +212,36 @@ pg.share_template = {
 			130
 		}
 	},
+	{
+		description = "#アズールレーン#",
+		name = "必胜客分享",
+		deck = 2,
+		hidden_comps = "",
+		move_comps = "",
+		camera = "UICamera",
+		id = 13,
+		qrcode_location = {
+			314.5,
+			-539
+		},
+		show_comps = {
+			"UICamera/Canvas/UIMain/PizzahutSharePage(Clone)"
+		}
+	},
+	{
+		description = "#アズールレーン#",
+		name = "玩家历程MarkII界面分享",
+		deck = 0,
+		hidden_comps = "",
+		move_comps = "",
+		camera = "UICamera",
+		show_comps = "",
+		id = 14,
+		qrcode_location = {
+			-50,
+			-269
+		}
+	},
 	all = {
 		1,
 		2,
@@ -224,6 +254,8 @@ pg.share_template = {
 		9,
 		10,
 		11,
-		12
+		12,
+		13,
+		14
 	}
 }

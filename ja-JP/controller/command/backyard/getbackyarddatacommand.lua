@@ -50,6 +50,10 @@ function slot0.initFurnitures(slot0)
 end
 
 function slot0.allocFurnituresId(slot0, slot1)
+	slot2 = {
+		[slot7.floor] = {}
+	}
+
 	for slot6, slot7 in ipairs(slot0.furniture_put_list) do
 		table.sort(slot7.furniture_put_list, function (slot0, slot1)
 			if #slot0.child == #slot1.child then
@@ -90,9 +94,11 @@ function slot0.allocFurnituresId(slot0, slot1)
 		end
 	end
 
-	uv0.checkFurnitures({
-		[slot7.floor] = {}
-	}, slot1, slot0.lv)
+	if slot0.skipCheck then
+		return
+	end
+
+	uv0.checkFurnitures(slot2, slot1, slot0.lv)
 end
 
 function slot0.checkFurnitures(slot0, slot1, slot2)

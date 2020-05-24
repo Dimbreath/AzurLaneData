@@ -9,6 +9,10 @@ function slot0.Ctor(slot0, slot1)
 	slot0._loadedSpineName = nil
 end
 
+function slot0.GetOrder(slot0)
+	return slot0.info and slot0.info.flag == 1 and ChapterConst.CellPriorityLittle or ChapterConst.CellPriorityEnemy
+end
+
 function slot0.SetTpl(slot0, slot1, slot2)
 	slot0._aliveTpl = slot1
 	slot0._deadTpl = slot2
@@ -26,7 +30,7 @@ function slot0.Update(slot0)
 		if slot0:UpdateGO(slot0._aliveTpl) then
 			slot0.tf.anchoredPosition = Vector2(0, 0)
 
-			slot0:LoadSprite("enemies/" .. slot2.icon, nil, slot0.tf:Find("icon"))
+			slot0:GetLoader():LoadSprite("enemies/" .. slot2.icon, nil, slot0.tf:Find("icon"))
 			slot0:ExtraUpdate(slot2)
 		end
 
@@ -45,7 +49,7 @@ function slot0.Update(slot0)
 		if slot2.icon_type == 1 then
 			slot0.tf.anchoredPosition = Vector2(0, 10)
 
-			slot0:LoadSprite("enemies/" .. slot2.icon .. "_d_" .. "blue", "", slot0.tf:Find("icon"))
+			slot0:GetLoader():LoadSprite("enemies/" .. slot2.icon .. "_d_" .. "blue", "", slot0.tf:Find("icon"))
 			setActive(slot0.tf:Find("effect_not_open"), false)
 			setActive(slot0.tf:Find("effect_open"), false)
 		end
@@ -78,6 +82,9 @@ function slot0.UpdateGO(slot0, slot1)
 
 		slot0.tf = slot0.go.transform
 
+		slot0:OverrideCanvas()
+		slot0:ResetCanvasOrder()
+
 		return true
 	end
 
@@ -94,7 +101,7 @@ function slot0.ExtraUpdate(slot0, slot1)
 	setActive(findTF(slot0.tf, "titleContain/bg_boss"), ChapterConst.EnemySize[slot1.type] == 99)
 
 	if slot1.effect_prefab and #slot2 > 0 then
-		slot0:LoadPrefab("effect/" .. slot2, slot2, function (slot0)
+		slot0:GetLoader():LoadPrefab("effect/" .. slot2, slot2, function (slot0)
 			slot0.transform:SetParent(uv0.tf, false)
 
 			slot0.transform.localScale = slot0.transform.localScale

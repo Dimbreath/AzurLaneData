@@ -70,6 +70,11 @@ pg.gameset = {
 		key = "dorm_exp_ratio_by_5",
 		key_value = 64
 	},
+	dorm_exp_ratio_by_6 = {
+		description = "",
+		key = "dorm_exp_ratio_by_6",
+		key_value = 60
+	},
 	dorm_food_ratio_by_1 = {
 		description = "",
 		key = "dorm_food_ratio_by_1",
@@ -94,6 +99,11 @@ pg.gameset = {
 		description = "",
 		key = "dorm_food_ratio_by_5",
 		key_value = 320
+	},
+	dorm_food_ratio_by_6 = {
+		description = "",
+		key = "dorm_food_ratio_by_6",
+		key_value = 360
 	},
 	dorm_exp_base = {
 		description = "",
@@ -383,9 +393,9 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "天城复刻PT",
+		description = "法系PT",
 		key = "activity_res_id",
-		key_value = 151
+		key_value = 159
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -782,7 +792,7 @@ pg.gameset = {
 	skin_ticket = {
 		description = "",
 		key = "skin_ticket",
-		key_value = 153
+		key_value = 160
 	},
 	order_pt_max = {
 		key = "order_pt_max",

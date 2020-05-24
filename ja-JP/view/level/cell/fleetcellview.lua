@@ -8,47 +8,34 @@ function slot0.Ctor(slot0, slot1)
 	slot0.tfAmmo = slot0.tf:Find("ammo")
 	slot0.tfAmmoText = slot0.tfAmmo:Find("text")
 	slot0.tfOp = slot0.tf:Find("op")
-	slot0.onClear = false
 end
 
-function slot0.getOrder(slot0)
-	return 3
+function slot0.GetOrder(slot0)
+	return ChapterConst.CellPriorityFleet
 end
 
 function slot0.showPoisonDamage(slot0, slot1)
 	slot2 = "banai_dian01"
 	slot3 = slot0.tfShip.localPosition
 
-	PoolMgr.GetInstance():LoadAsset("ui/" .. slot2, slot2, false, nil, function (slot0)
-		if uv0.onClear then
-			PoolMgr.GetInstance():ReturnPrefab("ui/" .. uv1, uv1, slot0)
-		else
-			slot1 = Instantiate(slot0)
+	slot0:GetLoader():GetPrefab("ui/" .. slot2, slot2, function (slot0)
+		setParent(slot0.transform, uv0.tf, false)
 
-			setParent(slot1.transform, uv0.tf, false)
+		slot1 = LeanTween.moveY(uv0.tfShip, uv1.y - 10, 0.1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
 
-			slot2 = LeanTween.moveY(uv0.tfShip, uv2.y - 10, 0.1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
+		if not IsNil(slot0:GetComponent(typeof(ParticleSystemEvent))) then
+			slot2:AddEndEvent(function (slot0)
+				uv0.tfShip.localPosition = uv1
 
-			if not IsNil(slot1:GetComponent(typeof(ParticleSystemEvent))) then
-				slot3:AddEndEvent(function (slot0)
-					uv0.tfShip.localPosition = uv1
+				uv0.loader:ClearRequest("PoisonDamage")
+				LeanTween.cancel(uv0.tfShip.gameObject)
 
-					PoolMgr.GetInstance():ReturnPrefab("ui/" .. uv2, uv2, slot0)
-					LeanTween.cancel(uv0.tfShip.gameObject)
-
-					if uv3 then
-						uv3()
-					end
-				end)
-			end
+				if uv2 then
+					uv2()
+				end
+			end)
 		end
-	end, true)
-end
-
-function slot0.clear(slot0)
-	uv0.super.clear(slot0)
-
-	slot0.onClear = true
+	end, "PoisonDamage")
 end
 
 return slot0

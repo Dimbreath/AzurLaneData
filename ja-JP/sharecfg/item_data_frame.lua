@@ -133,7 +133,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 308,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>後日イベントで入手可能</color>\n",
+		desc = "<color=#ffffff>数多なる賛美歌をこの海に響かせよう――Vive la Iris！  </color>\n――「神穹を衝く聖歌」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {

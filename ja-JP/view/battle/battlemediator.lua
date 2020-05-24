@@ -287,11 +287,20 @@ function slot0.GenBattleData(slot0)
 	slot1.ActID = slot0.contextData.actId
 
 	if pg.battle_cost_template[slot0.contextData.system].global_buff_effected > 0 then
-		_.each(getProxy(PlayerProxy):getData():getBuffByType(ys.Battle.BattleConst.BATTLE_GLOBAL_BUFF), function (slot0)
+		slot3 = {}
+		slot5 = getProxy(PlayerProxy):getData():getBuffByType(ys.Battle.BattleConst.BATTLE_GLOBAL_BUFF)
+
+		for slot10, slot11 in ipairs(getProxy(ActivityProxy):GetBuildingBuff()) do
+			if pg.benefit_buff_template[slot11.id].benefit_type == ys.Battle.BattleConst.BATTLE_GLOBAL_BUFF then
+				table.insert(slot5, slot11)
+			end
+		end
+
+		_.each(slot5, function (slot0)
 			table.insert(uv0, pg.benefit_buff_template[slot0.id].benefit_effect)
 		end)
 
-		slot1.GlobalBuffIDs = {} or {}
+		slot1.GlobalBuffIDs = slot3 or {}
 	end
 
 	slot3 = getProxy(BayProxy)
@@ -314,6 +323,7 @@ function slot0.GenBattleData(slot0)
 		slot1.KizunaJamming = slot6.extraFlagList
 		slot1.DefeatCount = slot7:getDefeatCount()
 		slot1.ChapterBuffIDs, slot1.CommanderList = slot6:getFleetBattleBuffs(slot7)
+		slot1.StageWaveFlags = slot6:GetFleetAttachmentConfig("stage_flags", slot7.line.row, slot7.line.column)
 		slot1.MapAuraSkills = slot5.GetChapterAuraBuffs(slot6)
 		slot8 = _.values(slot7:getCommanders())
 		slot9 = {}
