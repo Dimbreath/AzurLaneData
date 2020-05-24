@@ -118,6 +118,7 @@ HScrollSnap = UnityEngine.UI.Extensions.HScrollSnap
 CanvasScaler = UnityEngine.UI.CanvasScaler
 SleepTimeout = UnityEngine.SleepTimeout
 GraphicRaycaster = UnityEngine.UI.GraphicRaycaster
+Physics2D = UnityEngine.Physics2D
 SocketError = System.Net.Sockets.SocketError
 GCHandle = System.Runtime.InteropServices.GCHandle
 GCHandleType = System.Runtime.InteropServices.GCHandleType

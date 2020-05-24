@@ -125,7 +125,7 @@ function slot0.initTechnologys(slot0)
 				end
 
 				uv0.lastButtonListener[slot2] = function ()
-					playSoundEffect(SFX_PANEL)
+					pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
 
 					if uv0.technologyVOs[uv1 + 1]:getState() == Technology.STATE_FINISHED then
 						uv0:emit(TechnologyMediator.ON_FINISHED, {

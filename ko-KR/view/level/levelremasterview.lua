@@ -130,7 +130,7 @@ function slot0.flush(slot0, slot1)
 					return slot0.activity_type == uv0
 				end)
 
-				uv2:align(math.max(math.ceil(#uv0.temp / 4), 4))
+				uv2:align(math.max(math.ceil(#uv0.temp / 2) * 2), 4)
 			end
 		end, SFX_PANEL)
 	end

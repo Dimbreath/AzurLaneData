@@ -45,9 +45,6 @@ function slot0.loginProcessHandler(slot0)
 			uv0.viewComponent:switchToAiriLogin()
 		end
 
-		uv0:CheckMaintain()
-		coroutine.yield()
-
 		if uv0.contextData.code then
 			if uv0.contextData.code ~= 0 then
 				if uv0.contextData.code ~= SDK_EXIT_CODE then

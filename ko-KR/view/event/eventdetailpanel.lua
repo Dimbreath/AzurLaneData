@@ -9,9 +9,9 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.dispatch = slot2
 	slot0.btn = slot0:findTF("btn").gameObject
 	slot0.conditions = findTF(slot0.tr, "conditions")
-	slot0.condition1 = ScrollTxt.New(findTF(slot0.conditions, "condition_1"), findTF(slot0.conditions, "condition_1/Text"), true)
-	slot0.condition2 = ScrollTxt.New(findTF(slot0.conditions, "condition_2"), findTF(slot0.conditions, "condition_2/Text"), true)
-	slot0.condition3 = ScrollTxt.New(findTF(slot0.conditions, "condition_3"), findTF(slot0.conditions, "condition_3/Text"), true)
+	slot0.condition1 = findTF(slot0.conditions, "condition_1/mask/Text")
+	slot0.condition2 = findTF(slot0.conditions, "condition_2/mask/Text")
+	slot0.condition3 = findTF(slot0.conditions, "condition_3/mask/Text")
 	slot0.consume = slot0:findTF("consume/Text")
 	slot0.leftShips = slot0:findTF("frame/ship_contain_left")
 	slot0.rightShips = slot0:findTF("frame/ship_contain_right")
@@ -73,13 +73,13 @@ function slot0.Flush(slot0)
 	slot4 = slot0.event.ships
 	slot5 = slot0.event.template
 
-	slot0.condition1:setText(slot0:setConditionStr(i18n("event_condition_ship_level", slot5.ship_lv), slot1))
+	setScrollText(slot0.condition1, slot0:setConditionStr(i18n("event_condition_ship_level", slot5.ship_lv), slot1))
 	setActive(findTF(slot0.conditions, "condition_1/mark"), slot1)
 	setActive(findTF(slot0.conditions, "condition_1/mark1"), not slot1)
-	slot0.condition2:setText(slot0:setConditionStr(i18n("event_condition_ship_count", slot5.ship_num), slot2))
+	setScrollText(slot0.condition2, slot0:setConditionStr(i18n("event_condition_ship_count", slot5.ship_num), slot2))
 	setActive(findTF(slot0.conditions, "condition_2/mark"), slot2)
 	setActive(findTF(slot0.conditions, "condition_2/mark1"), not slot2)
-	slot0.condition3:setText(slot0:setConditionStr(slot0.event:getTypesStr(), slot3))
+	setScrollText(slot0.condition3, slot0:setConditionStr(slot0.event:getTypesStr(), slot3))
 	setActive(findTF(slot0.conditions, "condition_3/mark"), slot3)
 	setActive(findTF(slot0.conditions, "condition_3/mark1"), not slot3)
 	setText(slot0.consume, slot0.event:getOilConsume())
@@ -120,9 +120,6 @@ end
 
 function slot0.Clear(slot0)
 	pg.DelegateInfo.Dispose(slot0)
-	slot0.condition1:destroy()
-	slot0.condition2:destroy()
-	slot0.condition3:destroy()
 end
 
 function slot0.onChangeClick(slot0)

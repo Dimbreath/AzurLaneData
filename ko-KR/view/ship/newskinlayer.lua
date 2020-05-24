@@ -60,29 +60,19 @@ function slot0.voice(slot0, slot1)
 		return
 	end
 
-	if slot0.loadedCVBankName then
-		function ()
-			if uv0._currentVoice then
-				uv0._currentVoice:Stop(true)
-			end
+	slot0:stopVoice()
 
-			uv0._currentVoice = playSoundEffect(uv1)
-		end()
-	else
-		pg.CriMgr:LoadCV(ShipWordHelper.RawGetCVKey(slot0._skinConfig.id), function ()
-			if uv1.exited then
-				pg.CriMgr.UnloadCVBank(pg.CriMgr.GetCVBankName(uv0))
-			else
-				uv1.loadedCVBankName = slot0
+	slot0._currentVoice = slot1
 
-				uv2()
-			end
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot1)
+end
 
-			uv1.loadedCVBankName = slot0
-
-			uv2()
-		end)
+function slot0.stopVoice(slot0)
+	if slot0._currentVoice then
+		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(slot0._currentVoice)
 	end
+
+	slot0._currentVoice = nil
 end
 
 function slot0.setSkin(slot0, slot1)
@@ -108,7 +98,7 @@ function slot0.setSkinPri(slot0, slot1)
 	slot2.transform.localPosition = Vector3(0, 0, -10)
 
 	setParent(slot2, slot0._tf, false)
-	playSoundEffect(SFX_UI_DOCKYARD_CHARGET)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_DOCKYARD_CHARGET)
 
 	slot0.cg.alpha = 1
 	slot0._shade:GetComponent(typeof(Image)).color = Color.New(0, 0, 0, 0)
@@ -200,7 +190,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if slot0.isInView then
 		slot0:hidePaintView(true)
@@ -521,12 +511,7 @@ function slot0.willExit(slot0)
 	pg.TipsMgr.GetInstance():ShowTips(i18n("ship_newSkinLayer_get", pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1].name, HXSet.hxLan(slot0._skinConfig.name)), COLOR_GREEN)
 	slot0:recyclePainting()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
-
-	if slot0._currentVoice then
-		slot0._currentVoice:Stop(true)
-	end
-
-	slot0._currentVoice = nil
+	slot0:stopVoice()
 
 	if slot0.loadedCVBankName then
 		pg.CriMgr.UnloadCVBank(slot0.loadedCVBankName)

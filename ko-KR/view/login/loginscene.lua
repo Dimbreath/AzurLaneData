@@ -159,7 +159,7 @@ function slot0.switchSubView(slot0, slot1)
 end
 
 function slot0.onBackPressed(slot0)
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if isActive(slot0.serversPanel) then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.serversPanel, slot0._tf)
@@ -387,7 +387,7 @@ function slot0.didEnter(slot0)
 						pg.TipsMgr.GetInstance():ShowTips(i18n("login_loginScene_server_disabled"))
 					elseif slot0 == uv1 then
 						uv2.event:emit(LoginMediator.ON_SERVER, uv2.shareData.lastLoginServer)
-						playSoundEffect(SFX_CONFIRM)
+						pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CONFIRM)
 					end
 				end)
 
@@ -395,7 +395,7 @@ function slot0.didEnter(slot0)
 			end
 
 			uv0.event:emit(LoginMediator.ON_SERVER, uv0.shareData.lastLoginServer)
-			playSoundEffect(SFX_CONFIRM)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CONFIRM)
 		end
 	end)
 	slot0:checkVersion()
@@ -437,17 +437,10 @@ end
 
 function slot0.playExtraVoice(slot0)
 	if pg.gameset.login_extra_voice.description and #slot1 > 0 then
-		pg.CriMgr.GetInstance():LoadCueSheet("cv-" .. slot1[math.clamp(math.floor(math.random() * #slot1) + 1, 1, #slot1)], function ()
-			if uv0.exited then
-				uv1:UnloadCueSheet(uv2)
+		slot4 = "cv-" .. slot1[math.clamp(math.floor(math.random() * #slot1) + 1, 1, #slot1)]
+		slot0.loginCueSheet = slot4
 
-				return
-			end
-
-			uv0.loginCueSheet = uv2
-
-			uv1:PlayCV(uv2, "extra")
-		end)
+		pg.CriMgr.GetInstance():PlayCV_V3(slot4, "extra")
 	end
 end
 

@@ -242,7 +242,7 @@ function slot0.UpdateTecpoint(slot0, slot1, slot2, slot3)
 end
 
 function slot0.UpdateTrophy(slot0, slot1, slot2, slot3)
-	playSoundEffect(slot1.info.sound or SFX_UI_TIP)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot1.info.sound or SFX_UI_TIP)
 
 	slot4 = slot0:GetAndSet(slot1.type, slot0.container)
 	slot5 = pg.medal_template[slot1.info.id]

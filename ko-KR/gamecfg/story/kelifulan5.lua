@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=45>五　强敌出场！？</size>",
+					"기사와 포상\n\n<size=45>5. 강적 출현!?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "克利夫兰的队伍一路过关斩将闯进了决赛。",
+			say = "클리블랜드 팀은 상대를 하나하나 물리치고 결승전에 진출했다.",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			actor = 102100,
 			nameColor = "#92fc63",
-			say = "下场比赛的对手是……不会吧！？{namecode:38}和{namecode:49}，还有{namecode:63}！？",
+			say = "다음 경기의 상대는...... 말도 안돼!? {namecode:38}, {namecode:49}? 그리고 {namecode:63}!?",
 			action = {
 				{
 					y = 30,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			say = "哼，管他对手是谁，干掉就行了。我说的没错吧，大姐头？",
+			say = "흥, 적이 누구던지, 날려버리면 그만이지. 내 말 맞지, 언니?",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
@@ -78,7 +78,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "还是没那么好的事啊…她们应该有研究过我们的阵容了…这场比赛我们要小心。",
+			say = "그리 좋은 상황인 것만은 아니야... 상대는 분명 우리 팀에 대해 분석했을거야... 이번 경기는 조심해야 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,14 +89,14 @@ return {
 			}
 		},
 		{
-			actorName = "丹佛&哥伦比亚",
+			actorName = "덴버&컬럼비아",
 			side = 0,
 			actor = 102150,
 			dir = -1,
 			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#92fc63",
-			say = "嗯！",
+			say = "응!",
 			action = {
 				{
 					y = 15,
@@ -131,7 +131,7 @@ return {
 			bgm = "story-4",
 			actor = 102140,
 			nameColor = "#92fc63",
-			say = "不愧是三水战的旗舰，真难对付…！",
+			say = "역시 삼수전의 기함, 맞서기 어려운걸...!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			say = "能和我较量到这地步你也不错了……不过别指望能和那时一样！",
+			say = "나와 이 정도까지 겨루다니 너도 만만치 않구나...... 다만 그때와 같을 것이라고는 기대하지 마라!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			actor = 302120,
@@ -191,7 +191,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = -1,
-			say = "就算对手是重巡…我也绝不会输的！",
+			say = "상대가 중순양함이라고는 해도... 나도 질 순 없다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			say = "来吧！让你们尝尝我卧薪尝胆的苦练成果！",
+			say = "와라! 와신상담하여 이룬 고된 성과를 맛보게 해주지!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
@@ -228,7 +228,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "竟然每个人都来一对一盯防…！是受了那时战训的启发吗！",
+			say = "한 사람씩 1대1로 마크하다니...! 그때의 전술 훈련에 감명받은 건가!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			}
 		},
 		{
-			say = "对我们的战术有意见的话，就赶紧认输吧，呵呵～",
+			say = "저희의 전술에 의견이 있다면 얼른 항복하시죠, 후훗~",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "由于重樱队的各个击破战术，克利夫兰的队伍陷入了苦战。",
+			say = "사쿠라 엠파이어 팀의 각개 격파 전술로 인해, 클리블랜드 팀은 고전에 휩싸였다.",
 			effects = {
 				{
 					active = false,
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#92fc63",
-			say = "呜……指挥官……我对不住大家……都是我这个队长太没用了……",
+			say = "음...... 지휘관...... 모두 미안...... 모두 쓸모 없는 팀장인 내 탓이야......",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -314,7 +314,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "好不容易都打进决赛了……要是输在这里，我……",
+			say = "힘들게 결승까지 올라왔는데...... 여기서 진다면, 난......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "最后的休息时间，虽然比赛还未结束，看着与重樱的比分差，连豪迈的克利夫兰都露出了难得一见的沮丧表情。",
+			say = "마지막 휴식 시간, 경기가 끝나진 않았지만, 점수차를 보고 있자니, 씩씩한 클리블랜드마저 보기 힘든 상심한 표정을 내비쳤다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

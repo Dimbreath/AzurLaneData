@@ -63,13 +63,17 @@ function slot0.init(slot0)
 		slot0:findTF("frame/tagRoot/card", slot0.leftPanel),
 		slot0:findTF("frame/tagRoot/display", slot0.leftPanel),
 		slot0:findTF("frame/tagRoot/trans", slot0.leftPanel),
-		slot0:findTF("frame/tagRoot/memory", slot0.leftPanel)
+		slot0:findTF("frame/tagRoot/memory", slot0.leftPanel),
+		slot0:findTF("frame/tagRoot/gallery", slot0.leftPanel),
+		slot0:findTF("frame/tagRoot/music", slot0.leftPanel)
 	}
 	slot0.toggleUpdates = {
 		"initCardPanel",
 		"initDisplayPanel",
 		"initCardPanel",
-		"initMemoryPanel"
+		"initMemoryPanel",
+		"initGalleryPanel",
+		"initMusicPanel"
 	}
 	slot0.cardList = slot0:findTF("main/list_card/scroll"):GetComponent("LScrollRect")
 
@@ -147,6 +151,8 @@ function slot0.init(slot0)
 		true,
 		true
 	}
+	slot0.galleryPanelContainer = slot0:findTF("main/GalleryContainer")
+	slot0.musicPanelContainer = slot0:findTF("main/MusicContainer")
 end
 
 function slot0.didEnter(slot0)
@@ -170,7 +176,7 @@ function slot0.didEnter(slot0)
 		})
 	end, SFX_PANEL)
 
-	slot1 = slot0:findTF("stamp", slot0.leftPanel)
+	slot1 = slot0:findTF("stamp", slot0.top)
 
 	setActive(slot1, getProxy(TaskProxy):mingshiTouchFlagEnabled())
 
@@ -207,6 +213,18 @@ function slot0.didEnter(slot0)
 				if uv0 == 1 and not getProxy(SettingsProxy):IsShowCollectionHelp() then
 					triggerButton(uv1.helpBtn)
 					slot1:SetCollectionHelpFlag(true)
+				end
+
+				if uv0 ~= 6 then
+					if uv1.musicView and uv1.musicView:CheckState(BaseSubView.STATES.INITED) then
+						uv1.musicView:tryPauseMusic()
+						uv1.musicView:closeSongListPanel()
+					end
+
+					pg.CriMgr:GetInstance():resumeNormalBGM()
+				elseif uv0 == 6 and uv1.musicView and uv1.musicView:CheckState(BaseSubView.STATES.INITED) then
+					pg.CriMgr:GetInstance():stopBGM()
+					uv1.musicView:tryPlayMusic()
 				end
 			end
 		end, SFX_UI_TAG)
@@ -260,6 +278,9 @@ function slot0.didEnter(slot0)
 
 	slot0:initIndexPanel()
 	slot0:calFavoriteRate()
+	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.blurPanel, {
+		groupName = LayerWeightConst.GROUP_COLLECTION
+	})
 	onButton(slot0, slot0.bonusPanel, function ()
 		uv0:closeBonus()
 	end, SFX_PANEL)
@@ -869,6 +890,8 @@ function slot0.willExit(slot0)
 		cancelTweens(slot0.tweens)
 	end
 
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+
 	if slot0.bonusPanel.gameObject.activeSelf then
 		slot0:closeBonus()
 	end
@@ -886,15 +909,66 @@ function slot0.willExit(slot0)
 
 		slot0.resPanel = nil
 	end
+
+	if slot0.galleryView then
+		slot0.galleryView:Destroy()
+
+		slot0.galleryView = nil
+	end
+
+	if slot0.musicView then
+		slot0.musicView:Destroy()
+
+		slot0.musicView = nil
+	end
+end
+
+function slot0.initGalleryPanel(slot0)
+	if not slot0.galleryView then
+		slot0.galleryView = GalleryView.New(slot0.galleryPanelContainer, slot0.event, slot0.contextData)
+
+		slot0.galleryView:Reset()
+		slot0.galleryView:Load()
+	end
+end
+
+function slot0.initMusicPanel(slot0)
+	if not slot0.musicView then
+		slot0.musicView = MusicCollectionView.New(slot0.musicPanelContainer, slot0.event, slot0.contextData)
+
+		slot0.musicView:Reset()
+		slot0.musicView:Load()
+		pg.CriMgr:GetInstance():stopBGM()
+	end
 end
 
 function slot0.onBackPressed(slot0)
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if slot0.bonusPanel.gameObject.activeSelf then
 		slot0:closeBonus()
 
 		return
+	end
+
+	if slot0.galleryView then
+		if slot0.galleryView:onBackPressed() == true then
+			slot0.galleryView:Destroy()
+
+			slot0.galleryView = nil
+		else
+			return
+		end
+	end
+
+	if slot0.musicView then
+		if slot0.musicView:onBackPressed() == true then
+			slot0.musicView:Destroy()
+
+			slot0.musicView = nil
+		else
+			return
+		end
 	end
 
 	triggerButton(slot0.backBtn)

@@ -154,6 +154,7 @@ function slot0.GetSpineChar(slot0, slot1, slot2, slot3)
 				slot0 = SpineAnimUI.AnimChar(uv2, slot0)
 
 				slot0:SetActive(false)
+				tf(slot0):SetParent(uv0.root, false)
 
 				uv0.pools_plural[uv1] = uv3.New(slot0, 1)
 			end
@@ -235,11 +236,9 @@ function slot0.IsSpineSkelCached(slot0, slot1)
 end
 
 slot6 = {
-	"ProfileUI",
 	"ResPanel"
 }
 slot7 = {
-	"ProfileUI",
 	"ResPanel",
 	"MainUI",
 	"DockyardUI",
@@ -538,7 +537,8 @@ function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4, slot5)
 		end
 
 		slot0:SetActive(true)
-		uv1(slot0)
+		tf(slot0):SetParent(uv1.root, false)
+		uv2(slot0)
 	end, true)
 end
 

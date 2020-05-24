@@ -226,6 +226,7 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 	slot8 = slot6 and not pg.TimeMgr.GetInstance():inTime(slot6.time)
 	slot10 = slot1.id == slot0:GetShipVO():getConfig("skin_id") or slot5 >= 1 or slot1.skin_type == ShipSkin.SKIN_TYPE_OLD
 	slot11 = getProxy(ShipSkinProxy):getSkinById(slot1.id)
+	slot12 = getProxy(ShipSkinProxy):InForbiddenSkinListAndShow(slot1.id)
 
 	setGray(slot2.confirm, false)
 	setActive(slot2.using, false)
@@ -241,19 +242,20 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 		setActive(slot2.change, true)
 	elseif slot6 then
 		setActive(slot2.buy, true)
-		setGray(slot2.confirm, slot8)
+		setGray(slot2.confirm, slot8 or slot12)
 	else
 		setActive(slot2.change, true)
 		setGray(slot2.confirm, true)
 	end
 
+	print(slot12)
 	onButton(slot0, slot2.confirm, function ()
 		if uv0 then
 			-- Nothing
 		elseif uv1 then
 			uv2:emit(ShipMainMediator.CHANGE_SKIN, uv2:GetShipVO().id, uv3.id == uv2:GetShipVO():getConfig("skin_id") and 0 or uv3.id)
 		elseif uv4 then
-			if uv5 then
+			if uv5 or uv6 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_skin_out_of_stock"))
 			else
 				slot0 = true

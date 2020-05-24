@@ -3,7 +3,7 @@ slot0 = class("ShanchengPTOilPage", import(".TemplatePage.PtTemplatePage"))
 function slot0.OnFirstFlush(slot0)
 	uv0.super.OnFirstFlush(slot0)
 
-	uv0.scrolltext = ScrollTxt:changeToScroll(slot0:findTF("name", slot0.awardTF))
+	uv0.scrolltext = slot0:findTF("name", slot0.awardTF)
 end
 
 function slot0.OnUpdateFlush(slot0)
@@ -19,13 +19,11 @@ function slot0.OnUpdateFlush(slot0)
 end
 
 function slot0.SetAwardName(slot0)
-	uv0.scrolltext:clear()
-
 	if pg.item_data_statistics[slot0.ptData:GetAward().id] then
 		if slot1.type == 1 then
-			uv0.scrolltext:setText(pg.item_data_statistics[pg.player_resource[slot1.id].itemid].name)
+			changeToScrollText(uv0.scrolltext, pg.item_data_statistics[pg.player_resource[slot1.id].itemid].name)
 		else
-			uv0.scrolltext:setText(pg.item_data_statistics[slot1.id].name)
+			changeToScrollText(uv0.scrolltext, pg.item_data_statistics[slot1.id].name)
 		end
 	else
 		setActive(slot0:findTF("name", slot0.awardTF), false)

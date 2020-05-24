@@ -1,5 +1,28 @@
 pg = pg or {}
 pg.activity_event_pt = {
+	[580] = {
+		link_id = 0,
+		type = 1,
+		pic_list = "",
+		pt_list = "",
+		id_2 = 580,
+		id = 580,
+		pt = 154,
+		target = {
+			3000
+		},
+		drop_client = {
+			{
+				14,
+				308,
+				1
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			0
+		}
+	},
 	[20176] = {
 		link_id = 0,
 		type = 1,
@@ -5682,7 +5705,31 @@ pg.activity_event_pt = {
 			7
 		}
 	},
+	[20459] = {
+		link_id = 0,
+		type = 1,
+		pic_list = "",
+		pt_list = "",
+		id_2 = 20459,
+		id = 20459,
+		pt = 154,
+		target = {
+			3000
+		},
+		drop_client = {
+			{
+				14,
+				308,
+				1
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			0
+		}
+	},
 	all = {
+		580,
 		20176,
 		20200,
 		20205,
@@ -5712,6 +5759,7 @@ pg.activity_event_pt = {
 		20439,
 		20440,
 		20447,
-		20451
+		20451,
+		20459
 	}
 }

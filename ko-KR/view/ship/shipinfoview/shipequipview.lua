@@ -62,14 +62,11 @@ function slot0.InitEquipment(slot0)
 		slot0.equipmentL1,
 		slot0.equipmentL2
 	}
-	slot0.equipmentNames = {}
 
 	for slot4, slot5 in ipairs(slot0.equipmentPanels) do
 		if IsNil(slot5:Find("info")) then
 			cloneTplTo(slot4 <= Ship.WEAPON_COUNT and slot0.infoTplR or slot0.infoTplL, slot5, "info")
 		end
-
-		table.insert(slot0.equipmentNames, ScrollTxt.New(slot5:Find("info/cont/name_mask"), slot5:Find("info/cont/name_mask/name")))
 	end
 
 	slot0.onSelected = false
@@ -238,7 +235,7 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 			setActive(slot16, EquipType.isDevice(slot2.configId) and slot1 <= 3)
 		end
 
-		slot0.equipmentNames[slot1]:setText(slot14)
+		setScrollText(slot0.equipmentPanels[slot1]:Find("info/cont/name_mask/name"), slot14)
 
 		slot17 = slot2:GetProperties()
 		slot18 = false
@@ -387,12 +384,6 @@ function slot0.switch2EquipmentSkinPage(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	for slot4, slot5 in ipairs(slot0.equipmentNames) do
-		slot5:destroy()
-	end
-
-	slot0.equipmentNames = nil
-
 	setParent(slot0.equipmentR, slot0._tf)
 	setParent(slot0.equipmentL, slot0._tf)
 

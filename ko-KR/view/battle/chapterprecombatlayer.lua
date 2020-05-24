@@ -148,10 +148,10 @@ end
 
 function slot0.onBackPressed(slot0)
 	if slot0.strategyPanel and slot0.strategyPanel._go and isActive(slot0.strategyPanel._go) then
-		playSoundEffect(SFX_CANCEL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		slot0:hideStrategyInfo()
 	else
-		playSoundEffect(SFX_CANCEL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		triggerButton(slot0._backBtn)
 	end
 end
@@ -643,7 +643,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 				uv0:switchToShiftMode(uv1, uv2)
 				uv1:GetComponent("SpineAnimUI"):SetAction("tuozhuai", 0)
 				tf(uv1):SetParent(uv0._moveLayer, false)
-				playSoundEffect(SFX_UI_HOME_DRAG)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_DRAG)
 			end)
 			slot7:AddDragFunc(function (slot0, slot1)
 				rtf(uv0).anchoredPosition = Vector2((slot1.position.x - screenWidth / 2) * widthRate + 20, (slot1.position.y - screenHeight / 2) * heightRate - 20)
@@ -653,7 +653,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 				tf(uv0):SetParent(uv1._heroContainer, false)
 				uv1:switchToEditMode()
 				uv1:sortSiblingIndex()
-				playSoundEffect(SFX_UI_HOME_PUT)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_PUT)
 			end)
 		end
 	else

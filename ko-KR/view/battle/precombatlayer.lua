@@ -130,25 +130,21 @@ function slot0.SetStageID(slot0, slot1)
 			})
 			onButton(slot0, slot10, function ()
 				if pg.item_data_statistics[uv0[2]] and uv1[slot0.type] then
-					uv2:emit(PreCombatMediator.GET_CHAPTER_DROP_SHIP_LIST, uv2.chapter.id, function (slot0)
-						slot2 = {}
+					slot2 = {}
 
-						for slot6, slot7 in ipairs(uv0.display_icon) do
-							slot9 = slot7[2]
-							slot2[#slot2 + 1] = {
-								hideName = true,
-								type = slot8,
-								id = slot9,
-								anonymous = slot7[1] == DROP_TYPE_SHIP and not table.contains(slot0, slot9)
-							}
-						end
+					for slot6, slot7 in ipairs(slot0.display_icon) do
+						slot2[#slot2 + 1] = {
+							hideName = true,
+							type = slot7[1],
+							id = slot7[2]
+						}
+					end
 
-						uv1:emit(uv2.ON_DROP_LIST, {
-							item2Row = true,
-							itemList = slot2,
-							content = uv0.display
-						})
-					end)
+					uv2:emit(uv3.ON_DROP_LIST, {
+						item2Row = true,
+						itemList = slot2,
+						content = slot0.display
+					})
 				else
 					uv2:emit(uv3.ON_DROP, uv4)
 				end
@@ -394,7 +390,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 	triggerButton(slot0._backBtn)
 end
 
@@ -770,7 +766,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 			pg.DelegateInfo.Add(slot0, slot6.onModelClick)
 			slot6.onModelClick:AddListener(function ()
 				if uv0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS and uv0.contextData.system ~= SYSTEM_ACT_BOSS and uv0.contextData.system ~= SYSTEM_BOSS_EXPERIMENT then
-					playSoundEffect(SFX_UI_CLICK)
+					pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_CLICK)
 					uv0:emit(PreCombatMediator.CHANGE_FLEET_SHIP, uv1, uv0._currentFleetVO, uv2)
 				end
 			end)
@@ -784,7 +780,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 				uv0:switchToShiftMode(uv1, uv2)
 				uv1:GetComponent("SpineAnimUI"):SetAction("tuozhuai", 0)
 				tf(uv1):SetParent(uv0._moveLayer, false)
-				playSoundEffect(SFX_UI_HOME_DRAG)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_DRAG)
 			end)
 			slot8:AddDragFunc(function (slot0, slot1)
 				rtf(uv0).anchoredPosition = Vector2((slot1.position.x - screenWidth / 2) * widthRate + 20, (slot1.position.y - screenHeight / 2) * heightRate - 20)
@@ -829,7 +825,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 					slot2()
 				end
 
-				playSoundEffect(SFX_UI_HOME_PUT)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_PUT)
 			end)
 		end
 	elseif not IsNil(tf(slot1):Find("mouseChild")) then

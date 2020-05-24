@@ -161,7 +161,7 @@ function slot0.updateResource(slot0, slot1)
 end
 
 function slot0.onBackPressed(slot0)
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 	triggerButton(slot0._tf)
 end
 

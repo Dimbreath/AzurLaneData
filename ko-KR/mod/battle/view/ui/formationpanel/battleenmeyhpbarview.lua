@@ -77,12 +77,7 @@ function slot1.SwitchTarget(slot0, slot1, slot2)
 	slot0._typeIcon.sprite = GetSpriteFromAtlas("shiptype", shipType2Battleprint(uv0.Battle.BattleDataFunction.GetEnemyTypeDataByType(slot1:GetTemplate().type).type))
 
 	slot0._typeIcon:SetNativeSize()
-
-	if not slot0._scrollNameText then
-		slot0._scrollNameText = ScrollTxt:changeToScroll(slot0._nameTF)
-	end
-
-	slot0._scrollNameText:setText(slot1._tmpData.name)
+	changeToScrollText(slot0._nameTF, slot1._tmpData.name)
 
 	slot0._lvText.text = " Lv." .. slot1:GetLevel()
 end
@@ -143,10 +138,4 @@ function slot1.Dispose(slot0)
 	slot0._hpBarTF = nil
 	slot0._monsterTF = nil
 	slot0._monster = nil
-
-	if slot0._scrollNameText then
-		slot0._scrollNameText:destroy()
-
-		slot0._scrollNameText = nil
-	end
 end

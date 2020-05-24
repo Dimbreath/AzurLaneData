@@ -11,7 +11,7 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffAura",
+			type = "BattleBuffField",
 			trigger = {},
 			arg_list = {
 				buff_id = 50311,

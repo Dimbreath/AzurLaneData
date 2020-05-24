@@ -54,7 +54,6 @@ function slot0.bindEvent(slot0)
 		end
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			prevFlag = false,
 			priorEquipUpShipIDList = uv0.tempShipIDList,
 			priorMode = DockyardScene.PRIOR_MODE_EQUIP_UP,
 			mode = DockyardScene.MODE_OVERVIEW,
@@ -82,7 +81,6 @@ function slot0.bindEvent(slot0)
 		end
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			prevFlag = false,
 			priorEquipUpShipIDList = uv0.tempShipIDList,
 			priorMode = DockyardScene.PRIOR_MODE_SHIP_UP,
 			mode = DockyardScene.MODE_OVERVIEW,
@@ -140,7 +138,6 @@ function slot0.handleNotification(slot0, slot1)
 			end
 
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-				prevFlag = false,
 				priorEquipUpShipIDList = slot0.tempShipIDList,
 				priorMode = DockyardScene.PRIOR_MODE_EQUIP_UP,
 				mode = DockyardScene.MODE_OVERVIEW,
@@ -177,7 +174,6 @@ function slot0.handleNotification(slot0, slot1)
 			end
 
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-				prevFlag = false,
 				priorEquipUpShipIDList = slot0.tempShipIDList,
 				priorMode = DockyardScene.PRIOR_MODE_SHIP_UP,
 				mode = DockyardScene.MODE_OVERVIEW,

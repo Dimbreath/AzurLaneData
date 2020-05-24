@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=45>三　赛前集训！</size>",
+					"기사와 포상\n\n<size=45>3. 사전 합동 훈련!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "几天后·体育馆",
+			say = "며칠 후. 체육관",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			actorScale = 0.6,
 			actor = 102090,
 			nameColor = "#92fc63",
-			say = "哈……哈……对不起我来晚了！",
+			say = "하아...... 하아...... 늦어서 미안!",
 			effects = {
 				{
 					active = true,
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "正当大家为了篮球对抗赛奋力练习的时候，身为队长的克利夫兰竟然意外地迟到了。",
+			say = "모두들 농구 대항전을 위해 열심히 연습할 때, 팀장 클리블랜드가 뜻밖에 지각을 했다.",
 			effects = {
 				{
 					active = false,
@@ -115,7 +115,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "呼……抱歉！在港区出了点事！啊，指挥官，谢谢你的水！",
+			say = "후...... 미안! 항구에 일이 좀 생겨서! 아, 지휘관, 물 고마워!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#92fc63",
-			say = "咕嘟咕嘟…哈！其实是刚才过来的路上——",
+			say = "꿀꺽꿀꺽...... 하! 사실은 방금 오는 길에——",
 			action = {
 				{
 					y = 15,
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#92fc63",
-			say = "诶诶！圣地亚哥害得宿舍后院里长满了小麦！？……那不是正好可以补贴粮食……",
+			say = "아아! 샌디에이고 기숙사 뒷마당에 밀이 가득 자랐다고!? ......그럼 마침 식량을 보충할 수 있는거 아닌가......",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -203,7 +203,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "放着不管的话弗莱彻那些孩子没地方玩！？……后院本来就玩不下那么多人吧！……",
+			say = "가만히 두면 플레처 애들이 놀 곳이 없어!? ...... 원래 뒷마당은 그렇게 많은 애들이 놀 수가 없을텐데!......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "上次我捐过来的树也被埋起来了！？……捐都捐了埋就埋呗……",
+			say = "지난 번에 내가 기증한 나무도 묻혔어!? ...... 이미 기증한거, 묻을라면 묻어......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#92fc63",
-			say = "行了行了！大家一起动手收割总行了吧，别再叫我克爹了！",
+			say = "됐어 됐어! 다같이 수확이나 하자. 날 다시는 형님이라고 부르지마!",
 			action = {
 				{
 					y = 22.5,
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#92fc63",
-			say = "所以就给白鹰宿舍帮忙去了……实在抱歉！",
+			say = "그래서 이글 유니온 기숙사로 도우러 갔어...... 정말 미안!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "克利夫兰双手合十道着歉。一起在舰队待久了，总觉得对这些也早就习以为常了",
+			say = "클리블랜드는 두 손을 모으며 사과했다. 함대에 함께 오래 있었으니, 아무래도 이것들에 대해서도 벌써 익숙해진 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "马上开始练习！……啊，等等——各位！海伦娜给我们做了便当哦！等下一起吃吧！",
+			say = "바로 연습 시작하자! ...... 아, 잠깐——얘들아! 헬레나가 도시락을 싸줬어! 이따가 같이 먹자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			say = "多谢大姐头！真体贴！",
+			say = "고마워 언니! 정말 배려심이 많다니깐!",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
@@ -339,7 +339,7 @@ return {
 			dir = -1,
 			actor = 102100,
 			nameColor = "#92fc63",
-			say = "大姐头太迟钝啦～海伦娜的便当虽然不错，偶尔也想尝尝克利夫兰的手艺啊，是吧指挥官？",
+			say = "언니 너무 무디다~ 헬레나의 도시락은 좋지만, 가끔은 클리블랜드의 손재주도 맛보고 싶다고, 맞지 지휘관?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			},
 			options = {
 				{
-					content = "对哥伦比亚的话表示同意",
+					content = "컬럼비아의 말에 동의한다.",
 					flag = 1
 				}
 			}
@@ -362,7 +362,7 @@ return {
 			blackBg = true,
 			actor = 102090,
 			nameColor = "#92fc63",
-			say = "真，真的吗？那我下次问问海伦娜吧……是因为指挥官想吃我才做的哦！",
+			say = "지, 진짜? 그럼 다음에 헬레나한테 물어볼게...... 지휘관이 원하니까 하는거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=45>二 骑士团结成！</size>",
+					"기사와 포상\n\n<size=45>2. 기사단 결성!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "傍晚·体育馆的一角",
+			say = "저녁. 체육관 한 쪽",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "我把队员找齐了！…虽然其实就是我那些妹妹吧。咳，“海上骑士团”，全体集合！",
+			say = "팀원 모두 모았어! ...사실 내 동생들이긴 하지만. 크흠, “해상기사단”, 전체 집합!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,14 +44,14 @@ return {
 			}
 		},
 		{
-			actorName = "丹佛&蒙彼利埃",
+			actorName = "덴버&몬트필리어",
 			side = 0,
 			actor = 102150,
 			dir = -1,
 			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#92fc63",
-			say = "噢——！",
+			say = "오——!",
 			action = {
 				{
 					y = 30,
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 102100,
 			nameColor = "#92fc63",
-			say = "……噗。……噢——！",
+			say = "......풉. ......오——！",
 			action = {
 				{
 					y = 30,
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "看来是由克利夫兰级轻巡四人组成了队伍。",
+			say = "보아하니 클리블랜드급 경순양함 4인조로 팀을 구성했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "好了，这次就由我们四个人组队参赛！指挥官来担任我们的教练！大家一起努力争取冠军吧！",
+			say = "좋아, 이번엔 우리 4명이 한 팀으로 참가한다! 지휘관은 우리 코치를 맡아줘! 우승을 쟁취하자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "我先来说一下这次事情的经过和比赛规则！指挥官如果有什么要补充的也尽管说吧！",
+			say = "우선 이번 일의 경과와 경기 규칙을 설명해줄게! 지휘관은 만약 보충할 게 있으면 바로 말해줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = -1,
 			actor = 102140,
 			nameColor = "#92fc63",
-			say = "……明白了。只要大姐头一声令下，就算只有我一个人也会去干掉对方全队的",
+			say = "...... 알았어. 언니가 명령만 내린다면, 나 혼자서라도 상대방 전부를 날려버려주겠어.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			say = "不是啦！不是干掉对方，是要靠比赛赢过她们啊！",
+			say = "아니야! 상대를 날려버리는 게 아니라, 경기를 이겨야 하는거야!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = -1,
-			say = "懂了，大家一起比赛一起挥洒汗水，既能促进团队精神，更有利于消除势力间的隔阂对吧！不愧是大姐头！",
+			say = "이해했어, 모두 함께 경기하고 함께 땀을 흘리면, 팀워크를 북돋우고 세력 간 장벽을 없애는 데도 도움이 될거야! 역시 언니야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "我倒是没想那么远……唉……哥伦比亚应该明白我的意思吧？",
+			say = "그렇게 멀리까진 생각해 보진 않았지만... 음...... 컬럼비아는 내 말이 무슨 말인지 알지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = -1,
-			say = "重点我倒是明白啦……（小声）说白了就是大姐头让指挥官看到自己的优点嘛？",
+			say = "중점은 잘 알았어...... (작게) 솔직히 말해서 지휘관에게 언니의 장점을 보여주려는 거잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#92fc63",
-			say = "……什么！？///（脸红）",
+			say = "...... 뭐라고!? ///(얼굴 빨개짐)",
 			action = {
 				{
 					y = 0,
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "克利夫兰瞬间变得满脸通红。",
+			say = "클리블랜드는 순간 얼굴 전체가 빨개졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = -1,
-			say = "懂了！和指挥官确定恋爱关系的话，整个舰队的战力也能提高对吧！为了大姐头和舰队的幸福，我会全力支持你们的！",
+			say = "알았어! 지휘관이랑 연애 관계가 확실해지면, 모든 함대의 사기도 높아질거야! 언니와 함대의 행복을 위해서, 전력으로 지지할거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			say = "我明白了。……喂，大姐头为了讨你喜欢都做到这份上了，以后不许你离开她半步听见没有。你要把她的一言一行都牢牢记住。",
+			say = "알았어...... 어이, 언니가 너를 위해 이번 일을 해냈으니까, 앞으로 한발짝도 언니에게서 떨어지지마. 알아들었지? 너는 언니의 일언일행을 모두 확실히 기억해야해.",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -325,7 +325,7 @@ return {
 			blackBg = true,
 			actor = 102090,
 			nameColor = "#92fc63",
-			say = "不——是——啦！！你们倒是好好听人说话啊——！",
+			say = "아——니——야!! 사람 말 좀 똑바로 들어——!",
 			action = {
 				{
 					y = 30,

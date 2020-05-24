@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAura",
+			type = "BattleBuffField",
 			trigger = {},
 			arg_list = {
 				buff_id = 12832,

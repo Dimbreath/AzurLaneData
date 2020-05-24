@@ -527,7 +527,7 @@ function slot0.ShowTip(slot0, slot1)
 end
 
 function slot0.PlayVoice(slot0, slot1)
-	playSoundEffect(slot1)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot1)
 end
 
 function slot0.OnSwitchMap(slot0, slot1)

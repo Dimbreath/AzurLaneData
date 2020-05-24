@@ -9,7 +9,6 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.selectedVO = nil
 	slot0.count = 1
 	slot0.view = slot2
-	slot0.scrollTxts = {}
 end
 
 function slot0.findTF(slot0, slot1)
@@ -127,11 +126,7 @@ function slot0.update(slot0, slot1)
 					uv0.selectedItem = uv5
 				end
 			end, SFX_PANEL)
-
-			slot6 = ScrollTxt.New(slot2:Find("name_bg"), slot2:Find("name_bg/Text"))
-
-			slot6:setText(slot4.cfg.name)
-			table.insert(uv1.scrollTxts, slot6)
+			setScrollText(slot2:Find("name_bg/Text"), slot4.cfg.name)
 		end
 	end)
 	slot0.ulist:align(#slot1:getConfig("display_icon"))
@@ -147,12 +142,6 @@ end
 
 function slot0.dispose(slot0)
 	pg.DelegateInfo.Dispose(slot0)
-
-	if slot0.scrollTxts and #slot0.scrollTxts > 0 then
-		for slot4, slot5 in pairs(slot0.scrollTxts) do
-			slot5:destroy()
-		end
-	end
 end
 
 return slot0

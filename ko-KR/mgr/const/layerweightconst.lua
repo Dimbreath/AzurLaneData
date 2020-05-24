@@ -24,4 +24,5 @@ slot0.GROUP_SHIPINFOUI = "group_ShipInfoUI_top"
 slot0.GROUP_LEVELUI = "group_LevelUI"
 slot0.GROUP_SHIP_PROFILE = "group_ShipProfileScene"
 slot0.GROUP_FORMATION_PAGE = "group_FormationPage"
+slot0.GROUP_COLLECTION = "group_collection"
 LayerWeightConst = slot0

@@ -17,7 +17,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.shipType = slot0.detailTF:Find("top/type")
 	slot0.propsTr = slot0.detailTF:Find("info")
 	slot0.propsTr1 = slot0.detailTF:Find("info1")
-	slot0.nameTxt = ScrollTxt.New(findTF(slot0.detailTF, "name_mask"), findTF(slot0.detailTF, "name_mask/name"))
+	slot0.nameTxt = slot0.detailTF:Find("name_mask/name")
 	slot0.frame = slot0.content:Find("front/frame")
 	slot0.UIlist = UIItemList.New(slot0.content:Find("front/stars"), slot0.content:Find("front/stars/star_tpl"))
 	slot0.shipState = slot0.content:Find("front/flag")
@@ -69,7 +69,7 @@ function slot0.flush(slot0)
 			end
 		end)
 		slot0.UIlist:align(slot2:getMaxStar())
-		slot0.nameTxt:setText(slot2:getName())
+		setScrollText(slot0.nameTxt, slot2:getName())
 		slot0:updateProps({})
 		setPaintingPrefabAsync(slot0.paintingTr, slot2:getPainting(), "biandui")
 		setRectShipCardFrame(slot0.frame, slot0.shipVO:rarity2bgPrint(), slot2.propose and "prop" .. (slot2:isBluePrintShip() and slot5 or "") or nil)
@@ -129,12 +129,6 @@ end
 function slot0.clear(slot0)
 	if slot0.shipVO then
 		retPaintingPrefab(slot0.paintingTr, slot1:getPainting())
-	end
-
-	if slot0.nameTxt then
-		slot0.nameTxt:destroy()
-
-		slot0.nameTxt = nil
 	end
 end
 

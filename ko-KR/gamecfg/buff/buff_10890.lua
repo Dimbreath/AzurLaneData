@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAura",
+			type = "BattleBuffField",
 			trigger = {},
 			arg_list = {
 				buff_id = 10891,
@@ -40,7 +40,7 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAura",
+			type = "BattleBuffField",
 			trigger = {},
 			arg_list = {
 				buff_id = 10891,

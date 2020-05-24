@@ -10,7 +10,7 @@ return {
 	last_effect = "hongsebuff",
 	effect_list = {
 		{
-			type = "BattleBuffAura",
+			type = "BattleBuffField",
 			trigger = {
 				"onUpdate"
 			},

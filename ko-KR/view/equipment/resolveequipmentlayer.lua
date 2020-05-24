@@ -104,7 +104,7 @@ function slot0.OnResolveEquipDone(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if isActive(slot0.destroyConfirm) then
 		triggerButton(findTF(slot0.destroyConfirm, "actions/cancel_button"))

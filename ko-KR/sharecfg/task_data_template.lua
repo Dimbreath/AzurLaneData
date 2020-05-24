@@ -8856,6 +8856,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5101] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5086,
+		type = 5,
+		name = "갑작스런 요청",
+		count_inherit = 0,
+		desc = "어뢰 튀김을 3개 제출한다.",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "kelifulan",
+		award_choice = "",
+		level = 1,
+		next_task = "5102",
+		visibility = 1,
+		story_id = "KELIFULAN1",
+		target_id_for_client = 50003,
+		id = 5101,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5102] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5087,
+		type = 5,
+		name = "기사단 결성!",
+		count_inherit = 0,
+		desc = "임의의 함선을 10회 강화한다.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "kelifulan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5103",
+		visibility = 1,
+		story_id = "KELIFULAN2",
+		target_id_for_client = 0,
+		id = 5102,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5103] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5088,
+		type = 5,
+		name = "사전 합동 훈련!",
+		count_inherit = 0,
+		desc = "클리블랜드를 포함한 함대를 출격시켜 20회 승리한다.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "kelifulan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5104",
+		visibility = 1,
+		story_id = "KELIFULAN3",
+		target_id_for_client = 10209,
+		id = 5103,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "10209",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5104] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5089,
+		type = 5,
+		name = "경기 시작!",
+		count_inherit = 0,
+		desc = "클리블랜드를 포함한 함대로 데일리 챌린지를 3회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "kelifulan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5105",
+		visibility = 1,
+		story_id = "KELIFULAN4",
+		target_id_for_client = 10209,
+		id = 5104,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "10209",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5105] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5090,
+		type = 5,
+		name = "강적 출현!?",
+		count_inherit = 0,
+		desc = "클리블랜드의 호감도를 100까지 달성한다.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "kelifulan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5106",
+		visibility = 1,
+		story_id = "KELIFULAN5",
+		target_id_for_client = 10209,
+		id = 5105,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "10209",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5106] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5091,
+		type = 5,
+		name = "분발해!",
+		count_inherit = 0,
+		desc = "클리블랜드의 한계돌파를 3회 진행한다.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "kelifulan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5107",
+		visibility = 1,
+		story_id = "KELIFULAN6",
+		target_id_for_client = 102094,
+		id = 5106,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "102094",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5107] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5092,
+		type = 5,
+		name = "최고의 우승 보상",
+		count_inherit = 0,
+		desc = "클리블랜드의 레벨을 100까지 달성한다.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "kelifulan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "KELIFULAN7",
+		target_id_for_client = 10209,
+		id = 5107,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "10209",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
 	[5121] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -17377,7 +17633,7 @@ pg.task_data_template = {
 		type = 5,
 		name = "{namecode:162}가 도와줄게!",
 		count_inherit = 0,
-		desc = "임의의 장비를 10회 강화한다.",
+		desc = "임의의 함선소녀를 10회 강화한다.",
 		target_id_2 = "",
 		sub_type = 34,
 		added_tip = 1,
@@ -93291,6 +93547,13 @@ pg.task_data_template = {
 		5095,
 		5096,
 		5097,
+		5101,
+		5102,
+		5103,
+		5104,
+		5105,
+		5106,
+		5107,
 		5121,
 		5122,
 		5123,

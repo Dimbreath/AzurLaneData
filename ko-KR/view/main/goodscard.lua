@@ -61,15 +61,14 @@ end
 
 function slot0.update(slot0, slot1)
 	slot0.goodsVO = slot1
-	slot2, slot3 = slot0.goodsVO:canPurchase()
 
-	setActive(slot0.mask, not slot2)
+	setActive(slot0.mask, not slot0.goodsVO:canPurchase())
 
-	slot4 = slot1:getConfig("type")
+	slot3 = slot1:getConfig("type")
 
 	setActive(slot0.stars, false)
 
-	slot6 = ""
+	slot5 = ""
 
 	if slot1:getConfig("effect_args") == "ship_bag_size" then
 		updateDrop(slot0.itemTF, {
@@ -78,42 +77,42 @@ function slot0.update(slot0, slot1)
 			id = Goods.SHIP_BAG_SIZE_ITEM
 		})
 
-		slot6 = pg.item_data_statistics[Goods.SHIP_BAG_SIZE_ITEM].name or "??"
-	elseif slot5 == "equip_bag_size" then
+		slot5 = pg.item_data_statistics[Goods.SHIP_BAG_SIZE_ITEM].name or "??"
+	elseif slot4 == "equip_bag_size" then
 		updateDrop(slot0.itemTF, {
 			count = 1,
 			type = DROP_TYPE_ITEM,
 			id = Goods.EQUIP_BAG_SIZE_ITEM
 		})
 
-		slot6 = pg.item_data_statistics[Goods.EQUIP_BAG_SIZE_ITEM].name or "??"
-	elseif slot5 == "commander_bag_size" then
+		slot5 = pg.item_data_statistics[Goods.EQUIP_BAG_SIZE_ITEM].name or "??"
+	elseif slot4 == "commander_bag_size" then
 		updateDrop(slot0.itemTF, {
 			count = 1,
 			type = DROP_TYPE_ITEM,
 			id = Goods.COMMANDER_BAG_SIZE_ITEM
 		})
 
-		slot6 = pg.item_data_statistics[Goods.COMMANDER_BAG_SIZE_ITEM].name or "??"
+		slot5 = pg.item_data_statistics[Goods.COMMANDER_BAG_SIZE_ITEM].name or "??"
 	else
-		slot7 = {
+		slot6 = {
 			type = slot1:getConfig("type"),
-			id = slot5[1],
+			id = slot4[1],
 			count = slot1:getConfig("num")
 		}
 
-		updateDrop(slot0.itemTF, slot7)
+		updateDrop(slot0.itemTF, slot6)
 
-		slot6 = slot7.cfg.name or "??"
+		slot5 = slot6.cfg.name or "??"
 	end
 
-	setText(slot0.nameTxt, shortenString(slot6, 6))
+	setText(slot0.nameTxt, shortenString(slot5, 6))
 
-	slot7 = ""
+	slot6 = ""
 
 	if slot1:getConfig("genre") == ShopArgs.ShoppingStreetLimit then
-		slot7 = 100 - slot1.discount .. "%OFF"
-		slot8 = slot1:getConfig("resource_num") * slot1.discount / 100
+		slot6 = 100 - slot1.discount .. "%OFF"
+		slot7 = slot1:getConfig("resource_num") * slot1.discount / 100
 	end
 
 	setActive(slot0.discountTF, false)
@@ -123,8 +122,8 @@ function slot0.update(slot0, slot1)
 
 	setActive(slot0.discountTF, slot1:hasDiscount())
 
-	slot0.discountTextTF.text = slot7
-	slot0.countTF.text = math.ceil(slot8)
+	slot0.discountTextTF.text = slot6
+	slot0.countTF.text = math.ceil(slot7)
 
 	GetImageSpriteFromAtlasAsync(pg.item_data_statistics[id2ItemId(slot1:getConfig("resource_type"))].icon, "", tf(slot0.resIconTF))
 end

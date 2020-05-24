@@ -514,7 +514,7 @@ function slot0.setOnHard(slot0, slot1)
 						uv0:emit(LevelUIConst.TRACK_CHAPTER, uv0.chapter, function ()
 							uv0:emit(LevelMediator2.ON_ELITE_TRACKING, uv0.chapter.id, uv0.chapter.loopFlag)
 						end)
-						playSoundEffect(SFX_UI_WEIGHANCHOR_BATTLE)
+						pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_BATTLE)
 					end
 				})
 			else

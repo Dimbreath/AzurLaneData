@@ -175,7 +175,7 @@ function slot0.loadClick(slot0)
 			return
 		end
 
-		playSoundEffect(SFX_BOAT_CLICK)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_CLICK)
 		uv0:switchAnimation("touch")
 
 		if uv0.inimacyTF.gameObject.activeSelf == true or uv0.moneyTF.gameObject.activeSelf == true then
@@ -289,7 +289,7 @@ function slot0.addBoatDragListenter(slot0)
 		uv0.viewComponent.dragShip = slot0
 
 		uv0.viewComponent:enableZoom(false)
-		playSoundEffect(SFX_BOAT_DRAG)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_DRAG)
 
 		uv1 = uv0.boatVO:getPosition()
 		uv0.isMove = nil
@@ -339,7 +339,7 @@ function slot0.addBoatDragListenter(slot0)
 			uv0.viewComponent:enableZoom(true)
 			uv0:endDrag(uv2, uv1.getMapPos(uv1.change2ScrPos(uv0.floorGrid, slot1.position)))
 			uv0:updateShadowPos()
-			playSoundEffect(SFX_BOAT_DRAG)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_DRAG)
 		end
 	end)
 end

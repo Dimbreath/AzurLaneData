@@ -24308,7 +24308,7 @@ pg.shop_template = {
 		order = 695,
 		group = 0,
 		num = 1,
-		isHX = 0,
+		isHX = 1,
 		showInAudit = 0,
 		discount = 0,
 		resource_type = 14,
@@ -24405,7 +24405,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 0,
 		time_second = 0,
 		order = 692,
 		group = 0,
@@ -24427,6 +24427,57 @@ pg.shop_template = {
 					2020,
 					5,
 					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					5,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70350] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:鲁莽泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 691,
+		group = 0,
+		num = 1,
+		isHX = 1,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70350,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			801031
+		},
+		time = {
+			{
+				{
+					2020,
+					5,
+					21
 				},
 				{
 					0,
@@ -27444,6 +27495,7 @@ pg.shop_template = {
 		70347,
 		70348,
 		70349,
+		70350,
 		90001,
 		90002,
 		90003,

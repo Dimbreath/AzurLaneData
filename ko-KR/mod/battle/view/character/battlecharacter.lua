@@ -661,11 +661,11 @@ function slot5.Dispose(slot0)
 
 	Object.Destroy(slot0._popGO)
 
-	if slot0._voice then
-		slot0._voice:Stop(true)
+	if slot0._voicePlaybackInfo then
+		slot0._voicePlaybackInfo:PlaybackStop()
 	end
 
-	slot0._voice = nil
+	slot0._voicePlaybackInfo = nil
 	slot0._popGO = nil
 	slot0._popTF = nil
 	slot0._cacheWeapon = nil
@@ -979,18 +979,19 @@ function slot5.Voice(slot0, slot1, slot2)
 		return
 	end
 
-	slot3 = nil
-	slot0._voice, slot5 = playSoundEffect(slot1)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot1, function (slot0)
+		if slot0 then
+			uv0._voiceKey = uv1
+			uv0._voicePlaybackInfo = slot0
+			uv0._voiceTimer = pg.TimeMgr.GetInstance():AddBattleTimer("", 0, uv0._voicePlaybackInfo:GetLength() * 0.001, function ()
+				pg.TimeMgr.GetInstance():RemoveBattleTimer(uv0._voiceTimer)
 
-	if slot5 then
-		slot0._voiceKey = slot2
-		slot0._voiceTimer = pg.TimeMgr.GetInstance():AddBattleTimer("", 0, long2int(slot3.length) * 0.001, function ()
-			pg.TimeMgr.GetInstance():RemoveBattleTimer(uv0._voiceTimer)
-
-			uv0._voiceKey = nil
-			uv0._voiceTimer = nil
-		end)
-	end
+				uv0._voiceTimer = nil
+				uv0._voiceKey = nil
+				uv0._voicePlaybackInfo = nil
+			end)
+		end
+	end)
 end
 
 function slot5.SonarAcitve(slot0, slot1)

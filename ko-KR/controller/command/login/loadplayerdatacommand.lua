@@ -43,6 +43,7 @@ function slot0.execute(slot0, slot1)
 	slot0.facade:registerProxy(EmojiProxy.New())
 	slot0.facade:registerProxy(MiniGameProxy.New())
 	slot0.facade:registerProxy(InstagramProxy.New())
+	slot0.facade:registerProxy(AppreciateProxy.New())
 	pg.ConnectionMgr.GetInstance():setPacketIdx(1)
 	pg.ConnectionMgr.GetInstance():Send(11001, {
 		timestamp = 0

@@ -79,6 +79,7 @@ function slot0.openSelectSkinPanel(slot0)
 		slot14 = slot13 and not pg.TimeMgr.GetInstance():inTime(slot13.time)
 		slot15 = slot6.id == slot0.shipVO.skinId
 		slot16 = slot6.id == slot0.shipVO:getConfig("skin_id") or ((slot0.shipVO:proposeSkinOwned(slot6) or table.contains(slot0.skinList, slot6.id) or slot0.shipVO:getRemouldSkinId() == slot6.id and slot0.shipVO:isRemoulded()) and 1 or 0) >= 1 or slot6.skin_type == ShipSkin.SKIN_TYPE_OLD
+		slot17 = getProxy(ShipSkinProxy):InForbiddenSkinListAndShow(slot6.id)
 
 		onToggle(slot0, slot8.hideObjToggleTF, function (slot0)
 			PlayerPrefs.SetInt("paint_hide_other_obj_" .. uv0.paintingName, slot0 and 1 or 0)
@@ -92,7 +93,7 @@ function slot0.openSelectSkinPanel(slot0)
 				uv1:emit(SwichSkinMediator.CHANGE_SKIN, uv1.shipVO.id, uv3.id == uv1.shipVO:getConfig("skin_id") and 0 or uv3.id)
 				uv1:back()
 			elseif uv4 then
-				if uv5 then
+				if uv5 or uv6 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_skin_out_of_stock"))
 				else
 					slot0 = true

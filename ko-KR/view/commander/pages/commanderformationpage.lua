@@ -22,7 +22,6 @@ function slot0.OnInit(slot0)
 	slot0.skillTFPos2 = slot0:findTF("commander2/skill_info", slot0.descFrameTF)
 	slot0.abilitysTF = UIItemList.New(slot0:findTF("atttr_panel/abilitys/mask/content", slot0.descFrameTF), slot0:findTF("atttr_panel/abilitys/mask/content/attr", slot0.descFrameTF))
 	slot0.talentsTF = UIItemList.New(slot0:findTF("atttr_panel/talents/mask/content", slot0.descFrameTF), slot0:findTF("atttr_panel/talents/mask/content/attr", slot0.descFrameTF))
-	slot0.talentsTextList = {}
 	slot0.abilityArr = slot0:findTF("desc/frame/atttr_panel/abilitys/arr")
 	slot0.talentsArr = slot0:findTF("desc/frame/atttr_panel/talents/arr")
 	slot0.restAllBtn = slot0:findTF("rest_all", slot0.descFrameTF)
@@ -156,11 +155,7 @@ function slot0.updateAdditions(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
 
-			if not uv1.talentsTextList[slot1 + 1] then
-				uv1.talentsTextList[slot1 + 1] = ScrollTxt.New(findTF(slot2, "name_mask"), findTF(slot2, "name_mask/name"), true)
-			end
-
-			uv1.talentsTextList[slot1 + 1]:setText(slot3.name)
+			setScrollText(findTF(slot2, "name_mask/name"), slot3.name)
 			setText(slot2:Find("Text"), (slot3.value > 0 and "+" or "") .. slot3.value .. (slot3.type == CommanderConst.TALENT_ADDITION_RATIO and "%" or ""))
 			setImageAlpha(slot2:Find("bg"), slot1 % 2)
 		end

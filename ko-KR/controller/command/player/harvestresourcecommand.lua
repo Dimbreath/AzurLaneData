@@ -40,7 +40,7 @@ function slot0.execute(slot0, slot1)
 				type = uv5,
 				outPut = slot2
 			})
-			playSoundEffect(SFX_UI_ACADEMY_GETMATERIAL)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_ACADEMY_GETMATERIAL)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("player_harvestResource", slot0.result))
 		end

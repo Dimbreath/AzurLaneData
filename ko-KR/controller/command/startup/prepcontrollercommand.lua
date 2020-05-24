@@ -196,6 +196,10 @@ function slot0.execute(slot0, slot1)
 	slot0.facade:registerCommand(GAME.SELECT_ACTIVITY_COMMANDER, SelectActivityCommanderCommand)
 	slot0.facade:registerCommand(GAME.COMMANDER_ON_BATCH, BatchGetCommanderCommand)
 	slot0.facade:registerCommand(GAME.COLLECT_GET_AWARD, CollectionGetAwardCommand)
+	slot0.facade:registerCommand(GAME.APPRECIATE_GALLERY_UNLOCK, GalleryUnlockCommand)
+	slot0.facade:registerCommand(GAME.APPRECIATE_MUSIC_UNLOCK, MusicUnlockCommand)
+	slot0.facade:registerCommand(GAME.APPRECIATE_GALLERY_LIKE, GalleryLikeCommand)
+	slot0.facade:registerCommand(GAME.APPRECIATE_MUSIC_LIKE, MusicLikeCommand)
 	slot0.facade:registerCommand(GAME.TROPHY_CLAIM, TrophyClaimCommand)
 	slot0.facade:registerCommand(GAME.EVENT_FINISH, EventFinishCommand)
 	slot0.facade:registerCommand(GAME.EVENT_FLUSH_NIGHT, EventFlushCommand)
@@ -275,6 +279,7 @@ function slot0.execute(slot0, slot1)
 	slot0.facade:registerCommand(GAME.SEND_MINI_GAME_OP, MiniGameOPCommand)
 	slot0.facade:registerCommand(GAME.REQUEST_MINI_GAME, MiniGameRequestCommand)
 	slot0.facade:registerCommand(GAME.MODIFY_MINI_GAME_DATA, MiniGameModifyDataCommand)
+	slot0.facade:registerCommand(GAME.GET_OSS_ARGS, GetOSSArgsCommand)
 end
 
 return slot0

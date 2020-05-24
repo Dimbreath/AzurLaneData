@@ -12,7 +12,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.detailLayoutTr = findTF(slot0.detail, "layout")
 	slot0.imageQuit = slot0.quit:GetComponent("Image")
 	slot0.imageFrame = findTF(slot0.tr, "content/front/frame"):GetComponent("Image")
-	slot0.labelName = ScrollTxt.New(findTF(slot0.tr, "content/info/name_mask"), findTF(slot0.tr, "content/info/name_mask/name"))
+	slot0.labelName = findTF(slot0.tr, "content/info/name_mask/name")
 	slot0.npc = findTF(slot0.tr, "content/dockyard/npc")
 
 	setActive(slot0.npc, false)
@@ -78,7 +78,7 @@ function slot0.flush(slot0)
 		end
 
 		setActive(slot0.energyTF, slot7)
-		slot0.labelName:setText(slot1:getName())
+		setScrollText(slot0.labelName, slot1:getName())
 
 		slot8 = slot1:getFleetId() == FleetProxy.PVP_FLEET_ID
 
@@ -149,8 +149,6 @@ function slot0.clear(slot0)
 	slot0.iconShip.sprite = nil
 	slot0.iconStatus.sprite = nil
 	slot0.shipVO = nil
-
-	slot0.labelName:clear()
 end
 
 return slot0

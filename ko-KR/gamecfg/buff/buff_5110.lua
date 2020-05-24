@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAura",
+			type = "BattleBuffField",
 			trigger = {
 				""
 			},
@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAura",
+			type = "BattleBuffField",
 			trigger = {
 				""
 			},

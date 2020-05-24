@@ -90,6 +90,25 @@ function slot0.Ctor(slot0, slot1)
 	slot0.guildWaitTime = slot1.guild_wait_time or 0
 	slot0.commanderBagMax = slot1.commander_bag_max
 	slot0.displayTrophyList = slot1.medal_id or {}
+
+	if slot1.appreciation then
+		for slot7, slot8 in ipairs(slot1.appreciation.gallerys or {}) do
+			getProxy(AppreciateProxy):addPicIDToUnlockList(slot8)
+		end
+
+		for slot7, slot8 in ipairs(slot1.appreciation.musics or {}) do
+			slot3:addMusicIDToUnlockList(slot8)
+		end
+
+		for slot7, slot8 in ipairs(slot1.appreciation.favor_gallerys or {}) do
+			slot3:addPicIDToLikeList(slot8)
+		end
+
+		for slot7, slot8 in ipairs(slot1.appreciation.favor_musics or {}) do
+			slot3:addMusicIDToLikeList(slot8)
+		end
+	end
+
 	slot0.cdList = {}
 
 	for slot6, slot7 in ipairs(slot1.cd_list or {}) do

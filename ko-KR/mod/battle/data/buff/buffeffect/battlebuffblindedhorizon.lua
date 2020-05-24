@@ -1,6 +1,6 @@
 ys = ys or {}
 slot0 = ys
-slot1 = class("BattleBuffBlindedHorizon", slot0.Battle.BattleBuffAura)
+slot1 = class("BattleBuffBlindedHorizon", slot0.Battle.BattleBuffEffect)
 slot0.Battle.BattleBuffBlindedHorizon = slot1
 slot1.__name = "BattleBuffBlindedHorizon"
 slot2 = slot0.Battle.BattleConst
@@ -63,4 +63,12 @@ end
 
 function slot1.onRemove(slot0, slot1, slot2)
 	uv0.Battle.BattleAttr.FlashByBuff(slot1, "blindedHorizon", 0)
+end
+
+function slot1.Clear(slot0)
+	slot0._aura:SetActiveFlag(false)
+
+	slot0._aura = nil
+
+	uv0.super.Clear(slot0)
 end

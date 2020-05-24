@@ -18,7 +18,6 @@ function slot0.register(slot0)
 			selectedMin = 0,
 			skipSelect = true,
 			blockLock = true,
-			prevFlag = false,
 			selectedMax = 12,
 			leftTopInfo = i18n("word_equipment_intensify"),
 			mode = DockyardScene.MODE_MOD,

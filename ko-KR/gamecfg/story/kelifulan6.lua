@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=45>六　奋发努力！</size>",
+					"기사와 포상\n\n<size=45>6. 분발해!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "体育馆的休息室里。克利夫兰和队员们嘴上虽不说，每个人脸上都是愁云满布。",
+			say = "체육관의 휴게실. 클리블랜드와 팀원들은 말은 안했지만, 모두의 얼굴에 근심어린 기색이 역력했다.",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -28,7 +28,7 @@ return {
 			},
 			options = {
 				{
-					content = "给克利夫兰打气",
+					content = "클리블랜드의 용기를 북돋아준다.",
 					flag = 1
 				}
 			}
@@ -39,7 +39,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "谢谢你鼓励我指挥官，可事到如今都是我的责任……作为队长，我要怎么面对一路努力过来的队员和指挥官……",
+			say = "격려 고마워 지휘관, 일이 이렇게 된 건 모두 내 책임이야...... 팀장으로서, 지금껏 노력해온 팀원들과 지휘관을 어떻게 마주해야 할지......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "再说这次比赛本来就是我把大家硬拉进来的，就更对不住……",
+			say = "게다가 이번 시합도 원래 내가 모두를 강제를 끌고와서 시킨거니까, 더더욱 미안해......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "“不想看到克爹垂头丧气的样子”？……所以说为啥要叫我克爹啊！明、明明人家正在低落的时候！",
+			say = "형님의 풀이 죽은 모습은 보고 싶지 않다고? ...... 그러니까 왜 나를 형님이라고 부르는건데! 며, 명명백백히 의기소침해 하고 있을 때!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "……“不想被叫克爹的话，就要有克爹的样子”？……",
+			say = "...... \"형님 소리 듣기 싫으면, 형님다운 모습을 보여라\"라고? ......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "行了！让你们看看就是了！……回头一定要让你后悔拿我开心！",
+			say = "됐어! 보여주면 되잖아! ...... 나중에 날 놀린 걸 꼭 후회하게 만들어주겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "被气呼呼的克利夫兰所感染，大家的表情也恢复了生气。",
+			say = "열받은 클리블랜드에게 감염되어, 모두의 표정에도 생기가 돌아왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#92fc63",
-			say = "各位！比赛还没有结束！让她们见识见识我们“海上骑士团”真正的实力吧！！",
+			say = "모두들! 경기 아직 안끝났어! 상대에게 우리 \"해상기사단\"의 진정한 실력을 보여주자!!",
 			action = {
 				{
 					y = 30,
@@ -149,14 +149,14 @@ return {
 			}
 		},
 		{
-			actorName = "丹佛＆蒙彼利埃",
+			actorName = "덴버＆몬트필리어",
 			side = 0,
 			actor = 102150,
 			dir = -1,
 			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#92fc63",
-			say = "噢噢噢！！！",
+			say = "우오오!!!",
 			action = {
 				{
 					y = 30,
@@ -190,7 +190,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "（小声）谢啦，指挥官♪",
+			say = "(작게) 고마워, 지휘관♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgm = "battle-boss-6",
 			actor = 303070,
 			nameColor = "#92fc63",
-			say = "这样下去要被反超了！一定要截住她们的传球！",
+			say = "이대로 가다간 역전 당하겠어! 패스 무조건 차단해!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			say = "！要是让她们配合成功，我们的战术就没用了…！",
+			say = "! 상대가 서로 호응이 잘 맞으면, 우리 전술은 소용이 없어...!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
@@ -268,7 +268,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "为了大家…为了指挥官……这场比赛我赢定了！！！",
+			say = "모두를 위해... 지휘관을 위해...... 이번 경기는 내가 이긴다!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "（咣！！！）",
+			say = "(콰앙!!!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "随着终场哨声的响起，克利夫兰的一记猛烈的灌篮，宣告了比赛的结束。",
+			say = "종료 휘슬과 동시에, 클리블랜드의 맹렬한 덩크슛이 경기의 종료를 알렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "赢了！我们赢了！！！",
+			say = "이겼어!! 우리가 이겼다!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "打进致胜一球的克利夫兰朝这边飞奔而来。",
+			say = "결승골을 넣은 클리블랜드는 이쪽을 향해 쏜살같이 달려왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "谢谢你指挥官！！我爱你！！！",
+			say = "고마워 지휘관!!!! 사랑해!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "——少女的身体虽娇弱，分享胜利喜悦的拥抱却充满了力量。",
+			say = "——소녀의 몸은 가냘팠지만 승리의 기쁨을 나누는 포옹은 힘이 넘쳤다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

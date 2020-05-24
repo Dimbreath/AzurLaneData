@@ -14150,6 +14150,7 @@ pg.activity_template = {
 	[20445] = {
 		mark = 20200423,
 		title_res_tag = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -14164,38 +14165,12 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20446] = {
 		mark = 20200423,
 		title_res_tag = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 151,
@@ -14203,71 +14178,18 @@ pg.activity_template = {
 		config_data = "100",
 		config_client = "",
 		bg = "",
-		id = 20446,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 20446
 	},
 	[20447] = {
 		mark = 20200423,
 		title_res_tag = "tianchengptfk",
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 20447,
 		is_show = 73,
 		id = 20447,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_bg_tianchengfk_pt"
 		},
@@ -14278,6 +14200,7 @@ pg.activity_template = {
 	[20448] = {
 		mark = 20200423,
 		title_res_tag = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -14304,33 +14227,6 @@ pg.activity_template = {
 			1126,
 			1127,
 			1128
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_tianchengfk",
@@ -14607,6 +14503,162 @@ pg.activity_template = {
 					2020,
 					5,
 					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20458] = {
+		mark = 20200521,
+		title_res_tag = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 20458,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20459] = {
+		mark = 20200521,
+		title_res_tag = "france_framev2",
+		type = 54,
+		login_pop = 0,
+		config_id = 20459,
+		is_show = 77,
+		id = 20459,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/france_framev2_bg"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20460] = {
+		mark = 20200521,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 20460,
+		config_data = {
+			15580,
+			15581,
+			15582,
+			15583,
+			15584,
+			15585,
+			15586,
+			15587,
+			15588,
+			15589
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					17
 				},
 				{
 					23,
@@ -15240,6 +15292,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[25039] = {
+		mark = 20200521,
+		title_res_tag = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5101,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 25039,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -15698,6 +15766,9 @@ pg.activity_template = {
 		20455,
 		20456,
 		20457,
+		20458,
+		20459,
+		20460,
 		25000,
 		25001,
 		25002,
@@ -15736,6 +15807,7 @@ pg.activity_template = {
 		25035,
 		25036,
 		25037,
-		25038
+		25038,
+		25039
 	}
 }

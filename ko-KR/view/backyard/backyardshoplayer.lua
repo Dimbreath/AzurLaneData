@@ -74,7 +74,7 @@ function slot0.init(slot0)
 	slot0.furnitureTypeView = slot0:findTF("bg/frame/furniture_type/bg", slot0.shopPanel)
 	slot0.descPanel = slot0:findTF("descPanel")
 	slot0.themDesc = slot0.descPanel:Find("frame/theme_desc")
-	slot0.themDescBtn = slot0.descPanel:Find("frame/theme_desc/buy_btn")
+	slot0.themDescBtn = slot0.descPanel:Find("frame/theme_desc/theme_tpl/buy_btn")
 	slot0.descView = slot0.descPanel:Find("frame/bg/themeView")
 
 	setActive(slot0.descPanel, false)
@@ -221,14 +221,14 @@ function slot0.createThemeItem(slot0, slot1)
 		tr = tf(slot1),
 		_go = slot1
 	}
-	slot3 = findTF(slot2.tr, "desc"):GetComponent(typeof(Text))
-	slot2.maskBought = findTF(slot2.tr, "bought")
-	slot2.maskLocked = findTF(slot2.tr, "mask")
-	slot4 = findTF(slot2.tr, "name/Text"):GetComponent(typeof(Text))
-	slot5 = findTF(slot2.tr, "icon"):GetComponent(typeof(Image))
-	slot6 = findTF(slot2.tr, "tags/tag_discount")
-	slot7 = findTF(slot2.tr, "tags/tag_new")
-	slot8 = findTF(slot2.tr, "tags/tag_hot")
+	slot3 = findTF(slot2.tr, "theme_tpl/desc"):GetComponent(typeof(Text))
+	slot2.maskBought = findTF(slot2.tr, "theme_tpl/bought")
+	slot2.maskLocked = findTF(slot2.tr, "theme_tpl/mask")
+	slot4 = findTF(slot2.tr, "theme_tpl/name/Text"):GetComponent(typeof(Text))
+	slot5 = findTF(slot2.tr, "theme_tpl/icon"):GetComponent(typeof(Image))
+	slot6 = findTF(slot2.tr, "theme_tpl/tags/tag_discount")
+	slot7 = findTF(slot2.tr, "theme_tpl/tags/tag_new")
+	slot8 = findTF(slot2.tr, "theme_tpl/tags/tag_hot")
 
 	function slot2.update(slot0, slot1, slot2, slot3, slot4)
 		slot0.themeVO = slot1
@@ -384,7 +384,7 @@ end
 
 function slot0.onInitThemeDesc(slot0, slot1)
 	if slot0:getDescItem(slot1) == nil then
-		slot2 = FurnitureCard.New(slot1) or slot2
+		slot2 = FurnitureCard.New(tf(slot1):Find("furniture_tpl")) or slot2
 	end
 
 	function slot3()
@@ -535,7 +535,7 @@ end
 
 function slot0.onInitFurnitrue(slot0, slot1)
 	if slot0:getCardItem(slot1) == nil then
-		slot2 = FurnitureCard.New(slot1) or slot2
+		slot2 = FurnitureCard.New(tf(slot1):Find("furniture_tpl")) or slot2
 	end
 
 	function slot3()

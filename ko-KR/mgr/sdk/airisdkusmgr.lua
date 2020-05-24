@@ -4,6 +4,7 @@ slot3 = AiriUSSdkMgr.AiriSdkDataInst
 AIRI_PLATFORM_FACEBOOK = "facebook"
 AIRI_PLATFORM_TWITTER = "twitter"
 AIRI_PLATFORM_YOSTAR = "yostar"
+AIRI_PLATFORM_APPLE = "apple"
 AIRI_SDK_INITED = false
 
 function GoLoginScene()
@@ -86,7 +87,7 @@ function SetBirthResult(slot0)
 end
 
 function LinkSocialResult(slot0)
-	pg.UIMgr.GetInstance():LoadingOff()
+	uv0.EndAiriTimeout()
 
 	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
 		pg.m02:sendNotification(GAME.ON_SOCIAL_LINKED)
@@ -94,7 +95,7 @@ function LinkSocialResult(slot0)
 end
 
 function UnlinkSocialResult(slot0)
-	pg.UIMgr.GetInstance():LoadingOff()
+	uv0.EndAiriTimeout()
 
 	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
 		pg.m02:sendNotification(GAME.ON_SOCIAL_UNLINKED)
@@ -158,6 +159,8 @@ return {
 			uv0:LoginWithTW()
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
 			uv0:LoginWithSDKAccount(slot1, slot2)
+		elseif slot0 == AIRI_PLATFORM_APPLE then
+			uv0:LoginWithApple()
 		end
 	end,
 	LoginWithTranscode = function (slot0, slot1)
@@ -180,19 +183,27 @@ return {
 		end
 	end,
 	LinkSocial = function (slot0, slot1, slot2)
+		uv0.SetAiriTimeout()
+
 		if slot0 == AIRI_PLATFORM_FACEBOOK then
-			uv0:LinkSocial(Airisdk.LoginPlatform.FACEBOOK)
+			uv1:LinkSocial(Airisdk.LoginPlatform.FACEBOOK)
 		elseif slot0 == AIRI_PLATFORM_TWITTER then
-			uv0:LinkSocial(Airisdk.LoginPlatform.TWITTER)
+			uv1:LinkSocial(Airisdk.LoginPlatform.TWITTER)
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
-			uv0:LinkSocial(Airisdk.LoginPlatform.YOSTAR, slot1, slot2)
+			uv1:LinkSocial(Airisdk.LoginPlatform.YOSTAR, slot1, slot2)
+		elseif slot0 == AIRI_PLATFORM_APPLE then
+			uv1:LinkSocial(Airisdk.LoginPlatform.APPLE)
 		end
 	end,
 	UnlinkSocial = function (slot0)
+		uv0.SetAiriTimeout()
+
 		if slot0 == AIRI_PLATFORM_FACEBOOK then
-			uv0:UnlinkSocial(Airisdk.LoginPlatform.FACEBOOK)
+			uv1:UnlinkSocial(Airisdk.LoginPlatform.FACEBOOK)
 		elseif slot0 == AIRI_PLATFORM_TWITTER then
-			uv0:UnlinkSocial(Airisdk.LoginPlatform.TWITTER)
+			uv1:UnlinkSocial(Airisdk.LoginPlatform.TWITTER)
+		elseif slot0 == AIRI_PLATFORM_APPLE then
+			uv1:UnlinkSocial(Airisdk.LoginPlatform.APPLE)
 		end
 	end,
 	IsSocialLink = function (slot0)
@@ -206,6 +217,8 @@ return {
 			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.TWITTER)
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
 			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.YOSTAR)
+		elseif slot0 == AIRI_PLATFORM_APPLE then
+			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.APPLE)
 		end
 
 		return false
@@ -217,6 +230,8 @@ return {
 			return uv0.loginRet.TWITTER_NAME
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
 			return uv0.loginRet.SDK_NAME
+		elseif slot0 == AIRI_PLATFORM_APPLE then
+			return uv0.loginRet.APPLE_ID
 		end
 
 		return ""
@@ -305,5 +320,24 @@ return {
 		end
 
 		return false
+	end,
+	ON_AIRI_LOADING = false,
+	SetAiriTimeout = function ()
+		pg.UIMgr.GetInstance():LoadingOn()
+
+		uv0.ON_AIRI_LOADING = true
+
+		onDelayTick(function ()
+			if uv0.ON_AIRI_LOADING then
+				pg.UIMgr.GetInstance():LoadingOff()
+
+				uv0.ON_AIRI_LOADING = false
+			end
+		end, 15)
+	end,
+	EndAiriTimeout = function ()
+		uv0.ON_AIRI_LOADING = false
+
+		pg.UIMgr.GetInstance():LoadingOff()
 	end
 }

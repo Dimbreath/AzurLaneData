@@ -48,7 +48,8 @@ function slot0.onRegister(slot0)
 				data = {
 					equipmentId = slot1.cfg.id,
 					type = EquipmentInfoMediator.TYPE_DISPLAY,
-					onRemoved = slot2
+					onRemoved = slot2,
+					LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
 				}
 			}))
 		else
@@ -278,7 +279,7 @@ function slot0.unblockEvents(slot0)
 end
 
 function slot0.onBackPressed(slot0, slot1)
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if slot1 then
 		if getProxy(ContextProxy):getContextByMediator(slot0.class).parent and pg.m02:retrieveMediator(slot3.mediator.__cname) and slot4.viewComponent then

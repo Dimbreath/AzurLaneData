@@ -10,9 +10,9 @@ function slot0.register(slot0)
 		seriesAsync({
 			function (slot0)
 				if uv0 then
-					playSoundEffect(uv1.SUCCESS_SOUND)
+					pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv1.SUCCESS_SOUND)
 				else
-					playSoundEffect(uv1.FAILED_SOUND)
+					pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv1.FAILED_SOUND)
 				end
 
 				uv2:blockEvents()

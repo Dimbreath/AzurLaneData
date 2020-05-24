@@ -8042,9 +8042,21 @@ B평가:<color=#92fc63>70</color>점
 					atlas = "helpbg/blueprint_dev"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree2"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 2,
+			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
 				x = 1263,
@@ -8305,6 +8317,18 @@ B평가:<color=#92fc63>70</color>점
 					atlas = "helpbg/level_ui_help"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_ac_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_ac_2"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 1,
@@ -8505,58 +8529,6 @@ B평가:<color=#92fc63>70</color>점
 	resource_verify_success = {
 		tip = "리소스 복구 완료",
 		key = "resource_verify_success"
-	},
-	pay_cancel = {
-		tip = "지불 취소",
-		key = "pay_cancel"
-	},
-	order_error = {
-		tip = "결제 생성 실패",
-		key = "order_error"
-	},
-	pay_fail = {
-		tip = "지불 실패",
-		key = "pay_fail"
-	},
-	user_cancel = {
-		tip = "유저 중도 취소",
-		key = "user_cancel"
-	},
-	system_error = {
-		tip = "시스템 에러",
-		key = "system_error"
-	},
-	time_out = {
-		tip = "미등록 혹은 세션 시간이 초과했습니다.",
-		key = "time_out"
-	},
-	server_error = {
-		tip = "서버 리턴 에러",
-		key = "server_error"
-	},
-	data_error = {
-		tip = "데이터 타입 검증 에러",
-		key = "data_error"
-	},
-	share_success = {
-		tip = "공유 성공",
-		key = "share_success"
-	},
-	shoot_screen_fail = {
-		tip = "캡쳐 실패",
-		key = "shoot_screen_fail"
-	},
-	server_name = {
-		tip = "활동 서버",
-		key = "server_name"
-	},
-	non_support_share = {
-		tip = "지휘관님, 아직은 공유 기능을 사용할 수 없습니다.",
-		key = "non_support_share"
-	},
-	save_success = {
-		tip = "저장 성공",
-		key = "save_success"
 	},
 	resource_clear_all = {
 		tip = "캐시 리소스를 제거하시겠습니까? (제거 완료 후 게임은 자동 종료됩니다)",
@@ -12585,6 +12557,70 @@ TIPS:
 	retire_title = {
 		tip = "일괄 퇴역 설정",
 		key = "retire_title"
+	},
+	res_unlock_tip = {
+		tip = "消耗以下材料完成解锁",
+		key = "res_unlock_tip"
+	},
+	res_wifi_tip = {
+		tip = "正在使用非WIFI网络，下载可能产生流量，是否继续下载?",
+		key = "res_wifi_tip"
+	},
+	res_downloading = {
+		tip = "下载中",
+		key = "res_downloading"
+	},
+	res_pic_time_all = {
+		tip = "全部",
+		key = "res_pic_time_all"
+	},
+	res_pic_time_2017_up = {
+		tip = "2017 上",
+		key = "res_pic_time_2017_up"
+	},
+	res_pic_time_2017_down = {
+		tip = "2017 下",
+		key = "res_pic_time_2017_down"
+	},
+	res_pic_time_2018_up = {
+		tip = "2018 上",
+		key = "res_pic_time_2018_up"
+	},
+	res_pic_time_2018_down = {
+		tip = "2018 下",
+		key = "res_pic_time_2018_down"
+	},
+	res_pic_time_2019_up = {
+		tip = "2019 上",
+		key = "res_pic_time_2019_up"
+	},
+	res_pic_time_2019_down = {
+		tip = "2019 下",
+		key = "res_pic_time_2019_down"
+	},
+	res_pic_time_2020_up = {
+		tip = "2020 上",
+		key = "res_pic_time_2020_up"
+	},
+	res_pic_new_tip = {
+		tip = "本次更新新增了$1张插画，快来看看吧",
+		key = "res_pic_new_tip"
+	},
+	res_music_no_pre_tip = {
+		tip = "没有前一首了",
+		key = "res_music_no_pre_tip"
+	},
+	res_music_no_next_tip = {
+		tip = "没有下一首了",
+		key = "res_music_no_next_tip"
+	},
+	res_music_new_tip = {
+		tip = "本次更新新增了$1首音乐，快来看看吧",
+		key = "res_music_new_tip"
+	},
+	apple_link_title = {
+		tip = "連携中のアカウント完了",
+		key = "apple_link_title"
 	},
 	retire_setting_help = {
 		key = "retire_setting_help",

@@ -362,23 +362,6 @@ function setSizeStr(slot0, slot1)
 	return slot2
 end
 
-function playSoundEffect(slot0)
-	if not slot0 then
-		return
-	end
-
-	string.gsub(slot0, "event:/cv/(.+)/(.+)", function (slot0, slot1)
-		uv0 = "cv-" .. slot0 .. (tobool(ShipWordHelper.CVBattleKey[string.gsub(slot1, "_%w+", "")]) and "-battle" or "")
-		uv1 = slot1
-	end)
-
-	if nil and slot2 then
-		return pg.CriMgr.GetInstance():PlayCV(slot1, slot2)
-	else
-		return pg.CriMgr.GetInstance():PlaySE(string.gsub(string.gsub(slot0, "event:/(battle)/(.+)", "%1-%2"), "event:/(ui)/(.+)", "%1-%2"))
-	end
-end
-
 function playBGM(slot0)
 	pg.CriMgr.GetInstance():PlayBGM(slot0)
 end
@@ -1209,9 +1192,8 @@ function openDockyardClear()
 
 	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 		blockLock = true,
-		prevFlag = false,
-		selectedMax = 10,
 		skipSelect = true,
+		selectedMax = 10,
 		mode = DockyardScene.MODE_DESTROY,
 		leftTopInfo = i18n("word_destroy"),
 		onShip = Ship.canDestroyShip,
@@ -1221,7 +1203,6 @@ end
 
 function openDockyardIntensify()
 	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-		prevFlag = false,
 		mode = DockyardScene.MODE_OVERVIEW,
 		onClick = function (slot0, slot1)
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
@@ -1363,7 +1344,7 @@ function onBackButton(slot0, slot1, slot2, slot3)
 	function slot5(slot0)
 		return function ()
 			if uv0 then
-				playSoundEffect(SOUND_BACK)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SOUND_BACK)
 			end
 
 			slot0, slot1 = uv1()
@@ -2626,4 +2607,19 @@ function GetServerState(slot0)
 			uv0(slot2 and uv1 or uv2)
 		end
 	end)
+end
+
+function setScrollText(slot0, slot1)
+	GetOrAddComponent(slot0, "ScrollText"):SetText(slot1)
+end
+
+function changeToScrollText(slot0, slot1)
+	slot2 = GetComponent(slot0, typeof(Text))
+
+	if slot0.childCount == 0 then
+		slot3 = cloneTplTo(slot0, slot0)
+		slot0:GetComponent(typeof(Text)).enabled = false
+	end
+
+	setScrollText(slot0:GetChild(0), slot1)
 end

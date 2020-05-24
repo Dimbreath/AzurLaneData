@@ -58,7 +58,6 @@ function slot0.display(slot0)
 	end
 
 	slot0._expTFs = {}
-	slot0._nameTxts = {}
 	slot0._skipExp = {}
 	slot0._maxRightDelay = 0
 	slot2 = {
@@ -75,25 +74,23 @@ function slot0.display(slot0)
 		slot11 = cloneTplTo(slot0._extpl, slot0._expContainer)
 		slot12 = slot11.transform.anchoredPosition
 		slot14 = findTF(slot11, "content")
-		slot15 = ScrollTxt.New(findTF(slot14, "info/name_mask"), findTF(slot14, "info/name_mask/name"))
 		slot11.transform.anchoredPosition = Vector3(slot12.x + (16.2 + rtf(slot11).rect.width) * (slot8 - 1), slot12.y, slot12.z)
 		slot0._expTFs[#slot0._expTFs + 1] = slot11
-		slot0._nameTxts[#slot0._nameTxts + 1] = slot15
 
 		flushShipCard(slot11, slot9)
-		slot15:setText(slot9:getName())
+		setScrollText(findTF(slot14, "info/name_mask/name"), slot9:getName())
 
-		slot17 = findTF(slot14, "dockyard/lv_bg/levelUpLabel")
-		slot18 = findTF(slot14, "dockyard/lv_bg/levelup")
+		slot16 = findTF(slot14, "dockyard/lv_bg/levelUpLabel")
+		slot17 = findTF(slot14, "dockyard/lv_bg/levelup")
 
 		setText(findTF(slot14, "dockyard/lv/Text"), slot9.level)
 
-		slot19 = findTF(slot14, "exp")
-		slot20 = findTF(slot19, "exp_text")
-		slot21 = findTF(slot19, "exp_progress")
+		slot18 = findTF(slot14, "exp")
+		slot19 = findTF(slot18, "exp_text")
+		slot20 = findTF(slot18, "exp_progress")
 		slot0._maxRightDelay = math.max(slot0._maxRightDelay, slot2[slot9.id].level - slot9.level + slot8 * 0.5)
 
-		function slot22()
+		function slot21()
 			SetActive(uv0, true)
 
 			slot1 = uv2:getLevelExpConfig().exp
@@ -116,7 +113,7 @@ function slot0.display(slot0)
 
 						uv0.localPosition = uv1
 
-						playSoundEffect(SFX_BOAT_LEVEL_UP)
+						pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_LEVEL_UP)
 					end))
 					setText(uv2, slot0)
 					table.insert(uv3.tweenTFs, uv0)
@@ -210,18 +207,18 @@ function slot0.display(slot0)
 			rtf(uv1).anchoredPosition = Vector2(rtf(uv1).anchoredPosition.x, 0)
 		end
 
-		slot23 = slot11:GetComponent("CanvasGroup")
-		slot24 = slot8 * 0.2
+		slot22 = slot11:GetComponent("CanvasGroup")
+		slot23 = slot8 * 0.2
 
 		setActive(slot11, false)
 		LeanTween.moveY(rtf(slot11), 0, 0.2):setOnComplete(System.Action(function ()
 			setActive(uv0, true)
 			uv1()
-		end)):setDelay(slot24)
+		end)):setDelay(slot23)
 		table.insert(slot0.tweenTFs, slot11)
 		LeanTween.value(go(slot11), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
 			uv0.alpha = slot0
-		end)):setDelay(slot24)
+		end)):setDelay(slot23)
 	end
 end
 
@@ -262,13 +259,6 @@ function slot0.willExit(slot0)
 	end
 
 	slot0.timerId = nil
-
-	for slot4 = #slot0._nameTxts, 1, -1 do
-		slot0._nameTxts[slot4]:destroy()
-		table.remove(slot0._nameTxts, slot4)
-	end
-
-	slot0._nameTxts = nil
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end

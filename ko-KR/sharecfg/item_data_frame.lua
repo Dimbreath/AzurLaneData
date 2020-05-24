@@ -120,6 +120,14 @@ pg.item_data_frame = {
 		desc = "<Color=#ffffff>「두려움을 모르는 번개가 어둠을 가르고 우리가 나아갈 방향을 밝게 비춘다」</color>\n「어둠을 쫓는 은익」이벤트 획득 ",
 		scene = {}
 	},
+	[308] = {
+		name = "아이리스의 찬양",
+		time_second = 0,
+		id = 308,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>추후 이벤트를 통해 획득</color>\n",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -135,6 +143,7 @@ pg.item_data_frame = {
 		304,
 		305,
 		306,
-		307
+		307,
+		308
 	}
 }

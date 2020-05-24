@@ -31,7 +31,6 @@ function slot0.register(slot0)
 	slot0:bind(uv0.OPEN_DESTROY, function (slot0)
 		uv1:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			blockLock = true,
-			prevFlag = false,
 			selectedMax = 10,
 			mode = DockyardScene.MODE_DESTROY,
 			leftTopInfo = i18n("word_destroy"),

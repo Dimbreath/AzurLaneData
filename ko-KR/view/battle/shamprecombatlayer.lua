@@ -86,13 +86,13 @@ end
 
 function slot0.onBackPressed(slot0)
 	if slot0.strategyPanel and slot0.strategyPanel._go and isActive(slot0.strategyPanel._go) then
-		playSoundEffect(SFX_CANCEL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		slot0:hideStrategyInfo()
 	elseif slot0.repairWindow and slot0.repairWindow._go and isActive(slot0.repairWindow._go) then
-		playSoundEffect(SFX_CANCEL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		slot0:hideRepairWindow()
 	else
-		playSoundEffect(SFX_CANCEL)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		triggerButton(slot0._backBtn)
 	end
 end
@@ -633,7 +633,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 			end)
 			pg.DelegateInfo.Add(slot0, slot6.onModelClick)
 			slot6.onModelClick:AddListener(function ()
-				playSoundEffect(SFX_UI_CLICK)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_CLICK)
 				uv0:emit(ShamPreCombatMediator.CHANGE_FLEET_SHIP, {
 					type = 0,
 					shipVO = uv1,
@@ -691,7 +691,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 					slot2()
 				end
 
-				playSoundEffect(SFX_UI_HOME_PUT)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_PUT)
 			end)
 		end
 	else

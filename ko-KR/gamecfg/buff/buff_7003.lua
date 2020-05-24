@@ -43,7 +43,7 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAura",
+			type = "BattleBuffField",
 			trigger = {
 				"onUpdate",
 				"onRemove"

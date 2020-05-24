@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=45>四　比赛开始！</size>",
+					"기사와 포상\n\n<size=45>4. 경기 시작</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "篮球对抗赛当天·会场",
+			say = "농구 대항전 당일. 경기장",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#92fc63",
-			say = "这一天终于来了……指挥官，我们都准备好了！比赛的指挥就靠你了！",
+			say = "드디어 이 날이 왔구나...... 지휘관, 우린 다 준비됐어! 경기 지휘는 너에게 맡길게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,11 +44,11 @@ return {
 			},
 			options = {
 				{
-					content = "没问题！",
+					content = "문제 없어!",
 					flag = 1
 				},
 				{
-					content = "大家加油！",
+					content = "모두 화이팅!",
 					flag = 2
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "克利夫兰加油哦——！赢了再让海伦娜给你做便当哦——！",
+			say = "클리블랜드 화이팅——! 이기면 또 헬레나가 도시락 싸줄거야——!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			say = "姐、姐姐！！别说了！",
+			say = "어, 언니!! 말하지마!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "啊哈哈……她还是老样子啊。先不管这些，趁比赛还没开始，我们再讨论一下战术吧！时间就是金钱♪",
+			say = "아하하...... 여전하네. 우선 신경쓰지 말고, 경기 시작 전이니까 잠깐 전술 토론하자! 시간이 금이라고♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
-			say = "第一回合的比赛对手是“正义海狸”队。",
+			say = "첫 번째 경기의 상대는 \"정의의 비버즈\"팀이었다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			actor = 101110,
 			nameColor = "#92fc63",
-			say = "让对手见识见识我们的正义吧！小海狸分队，出击！……咦？",
+			say = "적에게 우리의 정의를 보여주자! 리틀 비버즈 분대, 출격! ...... 엣?",
 			effects = {
 				{
 					active = true,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			say = "太麻烦了……我做替补就好啦。",
+			say = "귀찮아...... 난 후보면 됐는데.",
 			side = 1,
 			bgName = "star_level_bg_103",
 			actor = 101140,
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			actor = 101120,
 			nameColor = "#92fc63",
-			say = "哈哈哈斯彭斯又差点摔了！……啊啊啊要撞上了！",
+			say = "하하하 스펜스 또 넘어질 뻔 했다! ...... 으아앗 부딪힌다!",
 			action = {
 				{
 					y = 0,
@@ -212,7 +212,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "啊啊啊！要撞上撒切尔了！！",
+			say = "으아앗! 대처 언니랑 부딪히겠어!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "机会来了！大家上啊！",
+			say = "기회다! 모두 돌격!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "教练唐斯的努力也没能挽回局面，克利夫兰队大获全胜",
+			say = "코치 다운즈의 노력에도 만회하지 못하였고, 클리블랜드의 팀이 완승을 거두었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#92fc63",
-			say = "好，开局还不错！一口气赢下冠军吧！……不会有这么好的事吧，嘿嘿♪",
+			say = "좋아, 시작이 나쁘지 않네! 단숨에 우승까지 달리자! ...... 그렇게 잘 될리는 없겠지, 헤헤♪",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -282,7 +282,7 @@ return {
 			},
 			options = {
 				{
-					content = "拍拍克利夫兰的肩",
+					content = "클리블랜드의 어깨를 두드린다.",
 					flag = 1
 				}
 			}
@@ -294,7 +294,7 @@ return {
 			blackBg = true,
 			actor = 102090,
 			nameColor = "#92fc63",
-			say = "好！指挥官也睁大眼睛好好看着吧！我们会使出全力的♪",
+			say = "좋아! 지휘관도 눈 크게 뜨고 잘 봐! 우린 전력을 다할거라고♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

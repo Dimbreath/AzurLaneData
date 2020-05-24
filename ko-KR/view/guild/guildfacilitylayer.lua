@@ -44,7 +44,6 @@ function slot0.getContributeProjectConfig(slot0)
 end
 
 function slot0.init(slot0)
-	slot0.scrollTxts = {}
 	slot0.projectToggles = {}
 	slot0.oilTotalTxt = slot0:findTF("top_panel/res/Text"):GetComponent(typeof(Text))
 	slot0._playerResOb = slot0:findTF("res")
@@ -418,18 +417,10 @@ function slot0.updateLogTF(slot0, slot1, slot2)
 	slot3, slot4, slot5, slot6, slot7 = slot2:getConent()
 
 	setText(slot0:findTF("date", slot1), slot4)
-
-	slot8 = ScrollTxt.New(slot0:findTF("name", slot1), slot0:findTF("name/Text", slot1))
-
-	table.insert(slot0.scrollTxts, slot8)
-	slot8:setText(slot3)
+	setScrollText(slot0:findTF("name/Text", slot1), slot3)
 	setText(slot0:findTF("opera", slot1), slot5)
 	setText(slot0:findTF("count", slot1), slot6)
-
-	slot9 = ScrollTxt.New(slot0:findTF("get", slot1), slot0:findTF("get/name", slot1))
-
-	table.insert(slot0.scrollTxts, slot9)
-	slot9:setText(slot7)
+	setScrollText(slot0:findTF("get/name", slot1), slot7)
 end
 
 function slot0.willExit(slot0)
@@ -437,14 +428,6 @@ function slot0.willExit(slot0)
 		slot0.resPanel:exit()
 
 		slot0.resPanel = nil
-	end
-
-	if slot0.scrollTxts then
-		for slot4, slot5 in ipairs(slot0.scrollTxts or {}) do
-			if slot5 then
-				slot5:destroy()
-			end
-		end
 	end
 end
 

@@ -192,8 +192,8 @@ function slot0.didEnter(slot0)
 		if not uv0.ahead_timeflag then
 			uv0.song_Tstamp:Pause()
 
-			slot0 = tonumber(tostring(uv0.song_Tstamp:GetTime()))
-			slot1 = tonumber(tostring(uv0.song_Tlength.length))
+			slot0 = long2int(uv0.song_Tstamp:GetTime())
+			slot1 = long2int(uv0.song_Tlength.length)
 
 			function slot2(slot0)
 				if slot0 < 10 then
@@ -487,7 +487,7 @@ function slot0.game_start(slot0)
 
 		if uv0.song_Tstamp then
 			if type(uv0.song_Tstamp) ~= "number" then
-				uv0.musicgame_nowtime = tonumber(tostring(uv0.song_Tstamp:GetTime())) / 1000
+				uv0.musicgame_nowtime = long2int(uv0.song_Tstamp:GetTime()) / 1000
 			else
 				uv0.musicgame_nowtime = uv0.song_Tstamp
 			end
@@ -495,7 +495,7 @@ function slot0.game_start(slot0)
 			uv0.musicgame_nowtime = 0
 		end
 
-		if uv0.song_Tlength and not uv0.scoreview_flag and tonumber(tostring(uv0.song_Tlength.length)) / 1000 - uv0.musicgame_nowtime <= 0.01666 then
+		if uv0.song_Tlength and not uv0.scoreview_flag and long2int(uv0.song_Tlength.length) / 1000 - uv0.musicgame_nowtime <= 0.01666 then
 			uv0.game_playingflag = false
 
 			uv0.CeiMgr_ob:UnloadCueSheet("bgm-song0" .. uv0.game_music)
@@ -1614,7 +1614,7 @@ function slot0.score_update(slot0, slot1)
 			setActive(slot0.game_content:Find("combo_n"), false)
 		end
 
-		pg.CriMgr.GetInstance():PlaySE("ui-maoudamashii")
+		pg.CriMgr.GetInstance():PlaySE_V3("ui-maoudamashii")
 	end
 
 	for slot7 = 1, #slot0.combo_interval do

@@ -1638,6 +1638,21 @@ pg.memory_group = {
 			287
 		}
 	},
+	[508] = {
+		title = "기사와 포상 ",
+		type = 3,
+		id = 508,
+		icon = "title_chara_kelifulan",
+		memories = {
+			288,
+			289,
+			290,
+			291,
+			292,
+			293,
+			294
+		}
+	},
 	[510] = {
 		title = "영광스런 간주곡",
 		type = 3,
@@ -2241,6 +2256,7 @@ pg.memory_group = {
 		505,
 		506,
 		507,
+		508,
 		510,
 		512,
 		513,

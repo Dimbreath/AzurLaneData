@@ -620,7 +620,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 			end)
 			pg.DelegateInfo.Add(slot0, slot6.onModelClick)
 			slot6.onModelClick:AddListener(function ()
-				playSoundEffect(SFX_UI_CLICK)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_CLICK)
 				uv0:emit(GuildPreCombatMediator.CHANGE_FLEET_SHIP, {
 					type = 0,
 					shipVO = uv1,
@@ -637,7 +637,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 				uv0:switchToShiftMode(uv1, uv2)
 				uv1:GetComponent("SpineAnimUI"):SetAction("tuozhuai", 0)
 				tf(uv1):SetParent(uv0._moveLayer, false)
-				playSoundEffect(SFX_UI_HOME_DRAG)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_DRAG)
 			end)
 			slot8:AddDragFunc(function (slot0, slot1)
 				rtf(uv0).anchoredPosition = Vector2((slot1.position.x - screenWidth / 2) * widthRate + 20, (slot1.position.y - screenHeight / 2) * heightRate - 20)
@@ -679,7 +679,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 					slot2()
 				end
 
-				playSoundEffect(SFX_UI_HOME_PUT)
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_PUT)
 			end)
 		end
 	else

@@ -5,6 +5,12 @@ slot1 = slot0.CriMgr
 slot1.Category_CV = "Category_CV"
 slot1.Category_BGM = "Category_BGM"
 slot1.Category_SE = "Category_SE"
+slot1.C_BGM = "C_BGM"
+slot1.C_VOICE = "cv"
+slot1.C_SE = "C_SE"
+slot1.C_BATTLE_SE = "C_BATTLE_SE"
+slot1.C_STORY_BGM = "C_STORY_BGM"
+slot1.C_GALLERY_MUSIC = "C_GALLERY_MUSIC"
 
 function slot1.Init(slot0, slot1)
 	print("initializing cri manager...")
@@ -13,102 +19,49 @@ function slot1.Init(slot0, slot1)
 			uv0:InitCri(slot0)
 		end,
 		function (slot0)
-			uv0:LoadCueSheet("se-ui", slot0)
+			slot1 = CueData.New()
+			slot1.cueSheetName = "se-ui"
+			slot1.channelName = uv0.C_SE
 
-			uv0.seuiPlayer.cueSheet = "se-ui"
+			CriWareMgr.Inst:LoadCueSheet(slot1, function (slot0)
+				uv0()
+			end, true)
 		end,
 		function (slot0)
-			uv0:LoadCueSheet("se-battle", slot0)
+			slot1 = CueData.New()
+			slot1.cueSheetName = "se-battle"
+			slot1.channelName = uv0.C_BATTLE_SE
 
-			uv0.sebattlePlayer.cueSheet = "se-battle"
+			CriWareMgr.Inst:LoadCueSheet(slot1, function (slot0)
+				uv0()
+			end, true)
 		end
 	}, slot1)
 end
 
 function slot1.InitCri(slot0, slot1)
-	WWWLoader.Inst:LoadFile("cue/sound.f", function (slot0)
-		GCHandle.Alloc(slot0, GCHandleType.Pinned)
+	slot0.criInitializer = GameObject.Find("CRIWARE"):GetComponent(typeof(CriWareInitializer))
+	slot0.criInitializer.fileSystemConfig.numberOfLoaders = 128
+	slot0.criInitializer.manaConfig.numberOfDecoders = 128
 
-		uv0.acf = slot0
-		slot1 = GameObject.Find("CRIWARE")
-		uv0.criErrorHandler = slot1:GetComponent(typeof(CriWareErrorHandler))
-		uv0.criErrorHandler.enabled = true
-		uv0.criInitializer = slot1:GetComponent(typeof(CriWareInitializer))
-		uv0.criInitializer.fileSystemConfig.numberOfLoaders = 255
-		uv0.criInitializer.manaConfig.numberOfDecoders = 255
+	slot0.criInitializer:Initialize()
+	CriWareMgr.Inst:Init(function ()
+		CriAtom.SetCategoryVolume(uv0.Category_CV, uv1:getCVVolume())
+		CriAtom.SetCategoryVolume(uv0.Category_SE, uv1:getSEVolume())
+		CriAtom.SetCategoryVolume(uv0.Category_BGM, uv1:getBGMVolume())
+		CriWareMgr.Inst:RemoveChannel("C_VOICE")
+		Object.Destroy(GameObject.Find("CRIWARE/C_VOICE"))
+		CriWareMgr.Inst:CreateChannel(uv0.C_VOICE, CriWareMgr.CRI_CHANNEL_TYPE.MULTI_NOT_REPEAT)
 
-		uv0.criInitializer:Initialize()
+		CriWareMgr.C_VOICE = uv0.C_VOICE
 
-		uv0.criAtom = slot1:GetComponent(typeof(CriAtom))
-		uv0.criAtom.enabled = true
+		CriWareMgr.Inst:CreateChannel(uv0.C_STORY_BGM, CriWareMgr.CRI_CHANNEL_TYPE.SINGLE)
+		CriWareMgr.Inst:CreateChannel(uv0.C_GALLERY_MUSIC, CriWareMgr.CRI_CHANNEL_TYPE.SINGLE)
 
-		CriAtomEx.RegisterAcf(uv0.acf)
-		_.each({
-			"bgm",
-			"cv",
-			"story",
-			"seui",
-			"sebattle"
-		}, function (slot0)
-			slot1 = GameObject.New(slot0)
+		CriWareMgr.Inst:GetChannelData(uv0.C_BGM).channelPlayer.loop = true
 
-			slot1.transform:SetParent(uv0.transform, false)
-
-			uv1[slot0 .. "Player"] = slot1:AddComponent(typeof(CriAtomSource))
-		end)
-		CriAtom.SetCategoryVolume(uv1.Category_CV, uv0:getCVVolume())
-		CriAtom.SetCategoryVolume(uv1.Category_SE, uv0:getSEVolume())
-		CriAtom.SetCategoryVolume(uv1.Category_BGM, uv0:getBGMVolume())
 		uv2()
 	end)
-end
-
-function slot1.Play(slot0, slot1, slot2, slot3)
-	if CriAtom.GetCueSheet(slot2) and slot4.acb then
-		slot5, slot6 = slot4.acb:GetCueInfo(slot3, nil)
-
-		if slot5 and slot6 then
-			slot1.cueSheet = slot2
-
-			return slot1:Play(slot3), slot6
-		end
-	end
-end
-
-function slot1.PlaySE(slot0, slot1)
-	if CriAtom.GetCueSheet(slot0.seuiPlayer.cueSheet) and slot2.acb and slot2.acb:Exists(slot1) then
-		return slot0:Play(slot0.seuiPlayer, slot0.seuiPlayer.cueSheet, slot1)
-	end
-
-	if CriAtom.GetCueSheet(slot0.sebattlePlayer.cueSheet) and slot3.acb and slot3.acb:Exists(slot1) then
-		return slot0:Play(slot0.sebattlePlayer, slot0.sebattlePlayer.cueSheet, slot1)
-	end
-end
-
-function slot1.PlayCV(slot0, slot1, slot2)
-	return slot0:Play(slot0.cvPlayer, slot1, slot2)
-end
-
-function slot1.StopCV(slot0)
-	print("CV track --> StopCV")
-
-	slot0.onStopCV = true
-
-	slot0.cvPlayer:Stop()
-end
-
-function slot1.StopSEUI(slot0)
-	slot0.seuiPlayer:Stop()
-end
-
-function slot1.StopSEBattle(slot0)
-	slot0.sebattlePlayer:Stop()
-end
-
-function slot1.ResumeCV(slot0)
-	print("CV track --> ResumeCV")
-
-	slot0.onStopCV = false
 end
 
 function slot1.setStoryBGM(slot0, slot1)
@@ -142,28 +95,23 @@ function slot1.PlayBGM(slot0, slot1, slot2)
 		return
 	end
 
-	slot0:stopBGM()
-
 	slot0.bgmName = slot3
 
-	slot0:LoadCueSheet(slot3, function ()
-		uv0.bgmPlayer.loop = true
-		uv0.bgmPlayer.cueSheet = uv1
-
-		uv0.bgmPlayer:Play(0)
-	end)
+	if CSharpVersion <= 37 then
+		CriWareMgr.Inst:PlayBGM(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
+			if slot0 == nil then
+				warning("Missing BGM :" .. (uv0 or "NIL"))
+			end
+		end)
+	else
+		CriWareMgr.Inst:PlayBGM(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
+	end
 end
 
 function slot1.stopBGM(slot0)
-	if slot0.bgmPlayer.status ~= CriAtomSource.Status.Stop then
-		slot0.bgmPlayer:Stop()
-	end
+	CriWareMgr.Inst:StopBGM(CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
 
-	if slot0.bgmName then
-		slot0:UnloadCueSheet(slot0.bgmName)
-
-		slot0.bgmName = nil
-	end
+	slot0.bgmName = nil
 end
 
 function slot1.playStory(slot0, slot1)
@@ -171,28 +119,170 @@ function slot1.playStory(slot0, slot1)
 		return
 	end
 
-	slot0:stopStory()
-
 	slot0.storySound = slot2
+	slot3 = CueData.New()
+	slot3.channelName = uv0.C_STORY_BGM
+	slot3.cueSheetName = slot2
+	slot3.cueName = ""
 
-	slot0:LoadCueSheet(slot2, function ()
-		uv0.storyPlayer.loop = true
-		uv0.storyPlayer.cueSheet = uv1
-
-		uv0.storyPlayer:Play(0)
-	end)
+	if CSharpVersion <= 37 then
+		CriWareMgr.Inst:PlaySound(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
+			if slot0 == nil then
+				warning("Missing BGM :" .. (bgm or "NIL"))
+			end
+		end)
+	else
+		CriWareMgr.Inst:PlaySound(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
+	end
 end
 
 function slot1.stopStory(slot0)
-	if slot0.storyPlayer.status ~= CriAtomSource.Status.Stop then
-		slot0.storyPlayer:Stop()
+	slot1 = CueData.New()
+	slot1.channelName = uv0.C_STORY_BGM
+
+	CriWareMgr.Inst:StopSound(slot1, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
+
+	slot0.storySound = nil
+end
+
+function slot1.LoadCV(slot0, slot1, slot2)
+	slot0:LoadCueSheet(uv0.GetCVBankName(slot1), slot2)
+end
+
+function slot1.LoadBattleCV(slot0, slot1, slot2)
+	slot0:LoadCueSheet(uv0.GetBattleCVBankName(slot1), slot2)
+end
+
+function slot1.UnloadCVBank(slot0)
+	uv0.GetInstance():UnloadCueSheet(slot0)
+end
+
+function slot1.GetCVBankName(slot0)
+	return "cv-" .. slot0
+end
+
+function slot1.GetBattleCVBankName(slot0)
+	return "cv-" .. slot0 .. "-battle"
+end
+
+function slot1.CheckFModeEvent(slot0, slot1, slot2, slot3)
+	if not slot1 then
+		return
 	end
 
-	if slot0.storySound then
-		slot0:UnloadCueSheet(slot0.storySound)
+	string.gsub(slot1, "event:/cv/(.+)/(.+)", function (slot0, slot1)
+		uv0 = "cv-" .. slot0 .. (tobool(ShipWordHelper.CVBattleKey[string.gsub(slot1, "_%w+", "")]) and "-battle" or "")
+		uv1 = slot1
+	end)
 
-		slot0.storySound = nil
+	if nil and slot5 then
+		slot2(slot4, slot5)
+	else
+		slot3(string.gsub(string.gsub(slot1, "event:/(battle)/(.+)", "%1-%2"), "event:/(ui)/(.+)", "%1-%2"))
 	end
+end
+
+function slot1.CheckHasCue(slot0, slot1, slot2)
+	return CriAtom.GetCueSheet(slot1) ~= nil and slot3.acb:Exists(slot2)
+end
+
+function slot1.PlaySoundEffect_V3(slot0, slot1, slot2)
+	slot0:CheckFModeEvent(slot1, function (slot0, slot1)
+		uv0:PlayCV_V3(slot0, slot1, uv1)
+	end, function (slot0)
+		uv0:PlaySE_V3(slot0, uv1)
+	end)
+end
+
+function slot1.StopSoundEffect_V3(slot0, slot1)
+	slot0:CheckFModeEvent(slot1, function (slot0, slot1)
+		uv0:StopCV_V3()
+	end, function (slot0)
+		uv0:StopSE_V3()
+	end)
+end
+
+function slot1.UnloadSoundEffect_V3(slot0, slot1)
+	slot0:CheckFModeEvent(slot1, function (slot0, slot1)
+		uv0:UnloadCueSheet(slot0)
+	end, function (slot0)
+		uv0:StopSE_V3()
+	end)
+end
+
+function slot1.PlayCV_V3(slot0, slot1, slot2, slot3)
+	if CSharpVersion > 37 then
+		CriWareMgr.Inst:PlayVoice(slot2, CriWareMgr.CRI_FADE_TYPE.NONE, slot1, function (slot0)
+			if uv0 ~= nil then
+				uv0(slot0)
+			end
+		end)
+	else
+		slot0:LoadCueSheet(slot1, function (slot0)
+			if slot0 then
+				if uv0:CheckHasCue(uv1, uv2) then
+					slot1 = CueData.New()
+					slot1.channelName = uv3.C_VOICE
+					slot1.cueSheetName = uv1
+					slot1.cueName = uv2
+
+					CriWareMgr.Inst:PlaySound(slot1, CriWareMgr.CRI_FADE_TYPE.NONE, function (slot0)
+						if uv0 then
+							uv0(slot0)
+						end
+					end)
+				elseif uv4 then
+					uv4(nil)
+				end
+			elseif uv4 then
+				uv4(nil)
+			end
+		end)
+	end
+end
+
+function slot1.StopCV_V3(slot0)
+	CriWareMgr.Inst:GetChannelData(uv0.C_VOICE).channelPlayer:Stop()
+end
+
+function slot1.PlaySE_V3(slot0, slot1, slot2)
+	if CriAtom.GetCueSheet("se-ui") and slot3.acb and slot3.acb:Exists(slot1) then
+		CriWareMgr.Inst:PlaySE(slot1, nil, function (slot0)
+			if uv0 ~= nil then
+				uv0(slot0)
+			end
+		end)
+	end
+
+	if CriAtom.GetCueSheet("se-battle") and slot4.acb and slot4.acb:Exists(slot1) then
+		CriWareMgr.Inst:PlayBattleSE(slot1, nil, function (slot0)
+			if uv0 ~= nil then
+				uv0(slot0)
+			end
+		end)
+	end
+end
+
+function slot1.StopSE_V3(slot0)
+	CriWareMgr.Inst:GetChannelData(uv0.C_SE).channelPlayer:Stop()
+	CriWareMgr.Inst:GetChannelData(uv0.C_BATTLE_SE).channelPlayer:Stop()
+end
+
+function slot1.StopSEBattle_V3(slot0)
+	CriWareMgr.Inst:GetChannelData(uv0.C_BATTLE_SE).channelPlayer:Stop()
+end
+
+function slot1.LoadCueSheet(slot0, slot1, slot2)
+	slot3 = CueData.New()
+	slot3.cueSheetName = slot1
+
+	CriWareMgr.Inst:LoadCueSheet(slot3, function (slot0)
+		uv0(slot0)
+	end, true)
+end
+
+function slot1.UnloadCueSheet(slot0, slot1)
+	CriWareMgr.Inst:UnloadCueSheet(slot1)
 end
 
 function slot1.getCVVolume(slot0)
@@ -220,77 +310,4 @@ end
 function slot1.setSEVolume(slot0, slot1)
 	PlayerPrefs.SetFloat("se_vol", slot1)
 	CriAtom.SetCategoryVolume(uv0.Category_SE, slot1)
-end
-
-slot2 = {}
-
-function slot1.LoadCueSheet(slot0, slot1, slot2)
-	if not uv0[slot1] then
-		uv0[slot1] = {
-			state = "loading",
-			callbacks = {}
-		}
-	end
-
-	if slot3.state == "loaded" then
-		if slot2 then
-			slot2()
-		end
-	else
-		if slot2 then
-			table.insert(slot3.callbacks, slot2)
-		end
-
-		WWWLoader.Inst:LoadFile("cue/" .. slot1 .. ".b", function (slot0)
-			if uv0[uv1] then
-				if slot1.state == "loading" then
-					if not IsNil(slot0) then
-						slot1.gch = GCHandle.Alloc(slot0, GCHandleType.Pinned)
-
-						CriAtom.AddCueSheet(uv1, slot0, nil, )
-					end
-
-					slot1.state = "loaded"
-				end
-
-				slot1.callbacks = {}
-
-				for slot6 = 1, #slot1.callbacks do
-					slot2[slot6]()
-				end
-			end
-		end)
-	end
-end
-
-function slot1.UnloadCueSheet(slot0, slot1)
-	if uv0[slot1] then
-		CriAtom.RemoveCueSheet(slot1)
-
-		if slot2.gch then
-			GCHandle.Free(slot2.gch)
-		end
-
-		uv0[slot1] = nil
-	end
-end
-
-function slot1.LoadCV(slot0, slot1, slot2)
-	slot0:LoadCueSheet(uv0.GetCVBankName(slot1), slot2)
-end
-
-function slot1.LoadBattleCV(slot0, slot1, slot2)
-	slot0:LoadCueSheet(uv0.GetBattleCVBankName(slot1), slot2)
-end
-
-function slot1.UnloadCVBank(slot0)
-	uv0.GetInstance():UnloadCueSheet(slot0)
-end
-
-function slot1.GetCVBankName(slot0)
-	return "cv-" .. slot0
-end
-
-function slot1.GetBattleCVBankName(slot0)
-	return "cv-" .. slot0 .. "-battle"
 end

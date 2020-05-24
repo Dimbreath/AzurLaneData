@@ -537,7 +537,7 @@ function slot0.loadAllCharacter(slot0)
 		pg.DelegateInfo.Add(uv0, slot18.onLongPressed)
 		slot18.onLongPressed:AddListener(function ()
 			uv0:emit(FormationMediator.OPEN_SHIP_INFO, uv1.id, uv0._currentFleetVO, uv2.TOGGLE_FORMATION)
-			playSoundEffect(SFX_PANEL)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
 		end)
 
 		slot21, slot22, slot23, slot24 = nil
@@ -545,7 +545,7 @@ function slot0.loadAllCharacter(slot0)
 		pg.DelegateInfo.Add(uv0, slot17.onModelClick)
 		slot17.onModelClick:AddListener(function ()
 			uv0:emit(FormationMediator.CHANGE_FLEET_SHIP, uv1, uv0._currentFleetVO, uv2.TOGGLE_FORMATION, uv3)
-			playSoundEffect(SFX_PANEL)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
 		end)
 		slot19:AddBeginDragFunc(function ()
 			if uv0._modelDrag then
@@ -564,7 +564,7 @@ function slot0.loadAllCharacter(slot0)
 			uv0:switchToShiftMode(uv7, uv8)
 			SetAction(go(uv1), "tuozhuai")
 			SetActive(uv9, false)
-			playSoundEffect(SFX_UI_HOME_DRAG)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_DRAG)
 		end)
 		slot19:AddDragFunc(function (slot0, slot1)
 			if uv0._modelDrag ~= uv1 then
@@ -631,7 +631,7 @@ function slot0.loadAllCharacter(slot0)
 				slot3()
 			end
 
-			playSoundEffect(SFX_UI_HOME_PUT)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_PUT)
 		end)
 		uv0:setCharacterPos(slot2, slot3, slot5)
 	end
@@ -1092,7 +1092,7 @@ function slot0.attachOnCardButton(slot0, slot1, slot2)
 				uv0:emit(FormationMediator.CHANGE_FLEET_SHIP, uv1.shipVO, uv0._currentFleetVO, uv2.TOGGLE_DETAIL, uv3)
 			end
 
-			playSoundEffect(SFX_PANEL)
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
 		end
 	end)
 
@@ -1293,7 +1293,7 @@ function slot0.recyclePainting(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	playSoundEffect(SFX_CANCEL)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if isActive(slot0._renamePanel) then
 		slot0:DisplayRenamePanel(false)

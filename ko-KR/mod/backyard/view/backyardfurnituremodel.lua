@@ -287,33 +287,19 @@ function slot0.TouchSpineAnim(slot0, slot1, slot2, slot3)
 end
 
 function slot0.playFurnitureVoice(slot0, slot1)
-	if slot0.loadedBank then
-		function ()
-			uv0:stopCV()
+	slot0:stopCV()
 
-			uv0.currVoice = playSoundEffect(uv1)
-		end()
-	else
-		pg.CriMgr.GetInstance():LoadCV("furniture", function ()
-			if uv1.exited then
-				pg.CriMgr.UnloadCVBank(pg.CriMgr.GetCVBankName(uv0))
-			else
-				uv2()
+	slot0.curVoiceKey = slot1
 
-				if uv1.currVoice then
-					uv1.loadedBank = slot0
-				end
-			end
-		end)
-	end
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot0.curVoiceKey)
 end
 
 function slot0.stopCV(slot0)
-	if slot0.currVoice then
-		slot0.currVoice:Stop(true)
+	if slot0.curVoiceKey ~= nil then
+		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(slot0.curVoiceKey)
 	end
 
-	slot0.currVoice = nil
+	slot0.curVoiceKey = nil
 end
 
 function slot0.MoveToTarget(slot0, slot1, slot2)
