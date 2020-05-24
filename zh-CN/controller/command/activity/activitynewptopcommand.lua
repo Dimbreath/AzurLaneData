@@ -18,19 +18,19 @@ function slot0.execute(slot0, slot1)
 			slot1 = {}
 
 			if uv0.cmd == 1 then
-				for slot5 = #PlayerConst.tranOwnShipSkin(slot0.award_list), 1, -1 do
-					if slot1[slot5].type ~= DROP_TYPE_SHIP then
-						uv1:sendNotification(GAME.ADD_ITEM, slot6)
-					end
-				end
+				slot1 = PlayerConst.addTranDrop(slot0.award_list)
 
-				table.insert(uv2.data1_list, uv0.arg1)
+				table.insert(uv1.data1_list, uv0.arg1)
+
+				if uv1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PIZZA_PT and uv0.arg2 and uv0.arg2 > 0 then
+					table.insert(uv1.data2_list, uv0.arg2)
+				end
 			elseif uv0.cmd == 2 then
-				uv2.data3 = slot0.number[1]
+				uv1.data3 = slot0.number[1]
 			end
 
-			uv3:updateActivity(uv2)
-			uv1:sendNotification(GAME.ACT_NEW_PT_DONE, {
+			uv2:updateActivity(uv1)
+			uv3:sendNotification(GAME.ACT_NEW_PT_DONE, {
 				awards = slot1,
 				callback = uv4
 			})

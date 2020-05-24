@@ -51,16 +51,9 @@ function slot0.execute(slot0, slot1)
 			end
 		end
 
-		slot2 = {}
-
-		for slot6, slot7 in ipairs(slot0.attachment_list) do
-			table.insert(slot2, Item.New(slot7))
-			uv1:sendNotification(GAME.ADD_ITEM, MailAttachment.New(slot7))
-		end
-
 		uv0:unpdateExistAttachment(math.max(uv0._existAttachmentCount - #slot0.attachment_list, 0))
 		uv1:sendNotification(GAME.OPEN_MAIL_ATTACHMENT, {
-			items = slot2
+			items = PlayerConst.addTranDrop(slot0.attachment_list)
 		})
 		uv1:sendNotification(GAME.TAKE_ALL_ATTACHMENT_DONE)
 	end)

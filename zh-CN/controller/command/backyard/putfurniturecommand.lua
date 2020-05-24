@@ -4,72 +4,75 @@ function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.furnsPos
 	slot4 = slot2.tip
+	slot5 = slot2.callback
 
 	if not getProxy(DormProxy) then
 		return
 	end
 
-	if not pg.backyard then
-		return
-	end
+	slot7 = slot2.floor or slot6.floor
+	slot10, slot11 = Dorm.checkData(slot3, slot6:getData().level)
 
-	slot6 = slot5.floor
-	slot9, slot10 = Dorm.checkData(slot3, slot5:getData().level)
+	if not slot10 then
+		if slot5 then
+			slot5(false, slot11)
 
-	if not slot9 then
-		pg.TipsMgr.GetInstance():ShowTips(slot10)
-
-		return
-	end
-
-	slot11 = {}
-	slot15 = slot6
-
-	for slot15, slot16 in pairs(slot7:getFurnitrues(slot15)) do
-		slot16:clearPosition()
-		slot5:updateFurniture(slot16)
-	end
-
-	for slot15, slot16 in pairs(slot3) do
-		if (slot5:getFurniById(slot15):getConfig("type") == Furniture.TYPE_WALLPAPER or slot18 == Furniture.TYPE_FLOORPAPER) and slot5:getWallPaper(slot18) then
-			slot19:clearPosition()
+			return
 		end
 
-		slot23 = slot16.y
+		pg.TipsMgr.GetInstance():ShowTips(slot11)
 
-		slot17:updatePosition(Vector2(slot16.x, slot23))
+		return
+	end
 
-		slot17.dir = slot16.dir
-		slot17.child = slot16.child
-		slot17.parent = slot16.parent
-		slot17.floor = slot6
+	slot12 = {}
+	slot16 = slot7
 
-		slot5:updateFurniture(slot17)
+	for slot16, slot17 in pairs(slot8:getFurnitrues(slot16)) do
+		slot17:clearPosition()
+		slot6:updateFurniture(slot17)
+	end
 
-		slot19 = {}
+	for slot16, slot17 in pairs(slot3) do
+		if (slot6:getFurniById(slot16):getConfig("type") == Furniture.TYPE_WALLPAPER or slot19 == Furniture.TYPE_FLOORPAPER) and slot6:getWallPaper(slot19) then
+			slot20:clearPosition()
+		end
 
-		for slot23, slot24 in pairs(slot16.child) do
-			table.insert(slot19, {
-				id = tostring(slot23),
-				x = slot24.x,
-				y = slot24.y
+		slot24 = slot17.y
+
+		slot18:updatePosition(Vector2(slot17.x, slot24))
+
+		slot18.dir = slot17.dir
+		slot18.child = slot17.child
+		slot18.parent = slot17.parent
+		slot18.floor = slot7
+
+		slot6:updateFurniture(slot18)
+
+		slot20 = {}
+
+		for slot24, slot25 in pairs(slot17.child) do
+			table.insert(slot20, {
+				id = tostring(slot24),
+				x = slot25.x,
+				y = slot25.y
 			})
 		end
 
-		table.insert(slot11, {
+		table.insert(slot12, {
 			shipId = 0,
-			id = tostring(slot17:getConfig("id")),
-			x = slot16.x,
-			y = slot16.y,
-			dir = slot16.dir,
-			child = slot19,
-			parent = slot16.parent
+			id = tostring(slot18:getConfig("id")),
+			x = slot17.x,
+			y = slot17.y,
+			dir = slot17.dir,
+			child = slot20,
+			parent = slot17.parent
 		})
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(19008, {
-		floor = slot6,
-		furniture_put_list = slot11
+		floor = slot7,
+		furniture_put_list = slot12
 	})
 
 	if slot4 then
@@ -77,7 +80,14 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot0:sendNotification(GAME.PUT_FURNITURE_DONE)
-	pg.backyard:sendNotification(BACKYARD.PUT_FURNITURE_DONE)
+
+	if pg.backyard then
+		pg.backyard:sendNotification(BACKYARD.PUT_FURNITURE_DONE)
+	end
+
+	if slot5 then
+		slot5(true)
+	end
 end
 
 return slot0

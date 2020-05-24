@@ -35,7 +35,23 @@ pg.pay_data_display = {
 				1
 			}
 		},
-		display = {}
+		display = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		}
 	},
 	{
 		limit_arg = 1,
@@ -49,7 +65,7 @@ pg.pay_data_display = {
 		gem = 30,
 		limit_type = 2,
 		time = "always",
-		picture = "box1",
+		picture = "boxNewplayer",
 		id_str = "com.bilibili.blhx.zuanshi101",
 		first_pay_double = 0,
 		extra_gem = 0,

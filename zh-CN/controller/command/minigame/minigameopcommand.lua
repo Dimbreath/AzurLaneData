@@ -28,7 +28,7 @@ function slot0.execute(slot0, slot1)
 			end
 
 			if slot0.data.id > 0 then
-				MiniGameDataCreator.DataCreateFunc(uv0, uv1, slot0.data.datas)
+				MiniGameDataCreator.DataCreateFunc(uv0, uv1, slot0.data.datas, slot0.data.date1_key_value_list)
 			end
 
 			for slot6, slot7 in ipairs(slot0.award_list) do

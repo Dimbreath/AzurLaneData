@@ -1436,6 +1436,8 @@ function slot0.displayShipWord(slot0, slot1)
 		pg.CriMgr.GetInstance():LoadCueSheet(slot16, function (slot0)
 			if slot0 then
 				uv0()
+			else
+				uv1()
 			end
 		end)
 
@@ -1903,7 +1905,7 @@ end
 function slot0.updateCollectNotices(slot0, slot1)
 	slot0.hasCollectCanGetRes = slot1
 
-	SetActive(findTF(slot0._collectionBtn, "tip"), slot1)
+	SetActive(findTF(slot0._collectionBtn, "tip"), slot1 or getProxy(AppreciateProxy):isGalleryHaveNewRes() or getProxy(AppreciateProxy):isMusicHaveNewRes())
 end
 
 function slot0.updateGuildNotices(slot0, slot1)

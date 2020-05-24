@@ -26,9 +26,13 @@ function slot0.Chat(slot0, slot1, slot2, slot3)
 		slot0:StopChat()
 
 		if slot2 then
-			slot0:PlayCV(slot2, function ()
-				if uv0 then
-					uv1:ShowShipWord(uv0)
+			slot0:PlayCV(slot2, function (slot0)
+				if slot0 then
+					uv0._cueInfo = slot0.cueInfo
+				end
+
+				if uv1 then
+					uv0:ShowShipWord(uv1)
 				end
 			end)
 		end
@@ -80,7 +84,7 @@ function slot0.PlayCV(slot0, slot1, slot2)
 	slot3 = "event:/cv/shop/" .. slot1
 
 	slot0:StopCV()
-	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot3)
+	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot3, slot2)
 
 	slot0._currentVoice = slot3
 end
@@ -91,6 +95,7 @@ function slot0.StopCV(slot0)
 	end
 
 	slot0._currentVoice = nil
+	slot0._cueInfo = nil
 end
 
 function slot0.UnLoad(slot0)

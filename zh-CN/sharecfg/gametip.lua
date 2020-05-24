@@ -6950,262 +6950,6 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		tip = "未获得$1",
 		key = "err_cloth_change_noship"
 	},
-	["new_airi_error_code_-1"] = {
-		tip = "Unknown Error",
-		key = "new_airi_error_code_-1"
-	},
-	new_airi_error_code_0 = {
-		tip = "Success",
-		key = "new_airi_error_code_0"
-	},
-	new_airi_error_code_100100 = {
-		tip = "This Device ID is banned",
-		key = "new_airi_error_code_100100"
-	},
-	new_airi_error_code_100110 = {
-		tip = "Verification failed, UID does not match with Token",
-		key = "new_airi_error_code_100110"
-	},
-	new_airi_error_code_100111 = {
-		tip = "Account creation failed",
-		key = "new_airi_error_code_100111"
-	},
-	new_airi_error_code_100112 = {
-		tip = "Account creation failed",
-		key = "new_airi_error_code_100112"
-	},
-	new_airi_error_code_100113 = {
-		tip = "Account binding success; Verification failed, this UID does not match with Token, failed to acquire Access Token",
-		key = "new_airi_error_code_100113"
-	},
-	new_airi_error_code_100114 = {
-		tip = "Account binding success; IP restricted, failed to acquire Access Token",
-		key = "new_airi_error_code_100114"
-	},
-	new_airi_error_code_100115 = {
-		tip = "Account binding success; Device ID is banned, failed to acquire Access Token",
-		key = "new_airi_error_code_100115"
-	},
-	new_airi_error_code_100116 = {
-		tip = "Account binding success; UID is banned, failed to acquire Access Token",
-		key = "new_airi_error_code_100116"
-	},
-	new_airi_error_code_100117 = {
-		tip = "Illegal parameters",
-		key = "new_airi_error_code_100117"
-	},
-	new_airi_error_code_100120 = {
-		tip = "IP restricted",
-		key = "new_airi_error_code_100120"
-	},
-	new_airi_error_code_100130 = {
-		tip = "This UID is banned",
-		key = "new_airi_error_code_100130"
-	},
-	new_airi_error_code_100140 = {
-		tip = "Access Token verification failed",
-		key = "new_airi_error_code_100140"
-	},
-	new_airi_error_code_100150 = {
-		tip = "This UID does not match with Transcode",
-		key = "new_airi_error_code_100150"
-	},
-	new_airi_error_code_100160 = {
-		tip = "User birthday has already been added",
-		key = "new_airi_error_code_100160"
-	},
-	new_airi_error_code_100170 = {
-		tip = "Invalid birthday format",
-		key = "new_airi_error_code_100170"
-	},
-	new_airi_error_code_100180 = {
-		tip = "This Twitter/Facebook account is not bound with the game account",
-		key = "new_airi_error_code_100180"
-	},
-	new_airi_error_code_100190 = {
-		tip = "Failed to verify the Token and Secret of this Twitter/Facebook account",
-		key = "new_airi_error_code_100190"
-	},
-	new_airi_error_code_100200 = {
-		tip = "This Twitter/Facebook account is already bound with another Airi UID",
-		key = "new_airi_error_code_100200"
-	},
-	new_airi_error_code_100210 = {
-		tip = "This UID does not match with the UID bound to the Twitter/Facebook account",
-		key = "new_airi_error_code_100210"
-	},
-	new_airi_error_code_100211 = {
-		tip = "Platform binding error",
-		key = "new_airi_error_code_100211"
-	},
-	new_airi_error_code_100212 = {
-		tip = "Platform unbinding error",
-		key = "new_airi_error_code_100212"
-	},
-	new_airi_error_code_100213 = {
-		tip = "Account binding with FB/TW failed",
-		key = "new_airi_error_code_100213"
-	},
-	new_airi_error_code_100220 = {
-		tip = "Facebook login cancelled",
-		key = "new_airi_error_code_100220"
-	},
-	new_airi_error_code_100221 = {
-		tip = "フェイスブック連携承認に失敗しました",
-		key = "new_airi_error_code_100221"
-	},
-	new_airi_error_code_100222 = {
-		tip = "ツイッター連携承認に失敗しました",
-		key = "new_airi_error_code_100222"
-	},
-	new_airi_error_code_100230 = {
-		tip = "Initialization failed",
-		key = "new_airi_error_code_100230"
-	},
-	new_airi_error_code_100300 = {
-		tip = "Invalid email address format",
-		key = "new_airi_error_code_100300"
-	},
-	new_airi_error_code_100301 = {
-		tip = "Email addresses do not match",
-		key = "new_airi_error_code_100301"
-	},
-	new_airi_error_code_100302 = {
-		tip = "Verification code request is too frequent",
-		key = "new_airi_error_code_100302"
-	},
-	new_airi_error_code_100303 = {
-		tip = "Verification failed, this verification code does not match or has become expired(30 minutes)",
-		key = "new_airi_error_code_100303"
-	},
-	new_airi_error_code_100304 = {
-		tip = "Verification failed too many times, this verification code has become expired upon the 10th failed attempt, please acquire a new verification code",
-		key = "new_airi_error_code_100304"
-	},
-	new_airi_error_code_100305 = {
-		tip = "This account is banned",
-		key = "new_airi_error_code_100305"
-	},
-	new_airi_error_code_100306 = {
-		tip = "Verification code cannot be empty",
-		key = "new_airi_error_code_100306"
-	},
-	new_airi_error_code_100404 = {
-		tip = "Network error",
-		key = "new_airi_error_code_100404"
-	},
-	new_airi_error_code_200100 = {
-		tip = "Purchase order creation failed - User birthday is required",
-		key = "new_airi_error_code_200100"
-	},
-	new_airi_error_code_200110 = {
-		tip = "Purchase order creation failed - Monthly purchase limit exceeded",
-		key = "new_airi_error_code_200110"
-	},
-	new_airi_error_code_200120 = {
-		tip = "Purchase order creation failed - Invalid order information / Item does not exist",
-		key = "new_airi_error_code_200120"
-	},
-	new_airi_error_code_200130 = {
-		tip = "Purchase order creation failed - Invalid order information / Payment method does not exist",
-		key = "new_airi_error_code_200130"
-	},
-	new_airi_error_code_200140 = {
-		tip = "Purchase order creation failed - serverTag does not exist",
-		key = "new_airi_error_code_200140"
-	},
-	new_airi_error_code_200150 = {
-		tip = "Payment receipt verification failed",
-		key = "new_airi_error_code_200150"
-	},
-	new_airi_error_code_200160 = {
-		tip = "Invalid purchase request (invalid user Token, invalid order, or item does not exist)",
-		key = "new_airi_error_code_200160"
-	},
-	new_airi_error_code_200170 = {
-		tip = "Purchase request failed on game server (Determined as an invalid purchase by game logic server)",
-		key = "new_airi_error_code_200170"
-	},
-	new_airi_error_code_200180 = {
-		tip = "The request is proceeding for a long time, notify the client to start a polling",
-		key = "new_airi_error_code_200180"
-	},
-	new_airi_error_code_200190 = {
-		tip = "Order ID does not exist",
-		key = "new_airi_error_code_200190"
-	},
-	new_airi_error_code_200200 = {
-		tip = "Order status tracking timed out",
-		key = "new_airi_error_code_200200"
-	},
-	new_airi_error_code_200210 = {
-		tip = "productid does not exist on GooglePay / AppStorePay / Molpay",
-		key = "new_airi_error_code_200210"
-	},
-	new_airi_error_code_200220 = {
-		tip = "GooglePay / AppStorePay / Molpay failed",
-		key = "new_airi_error_code_200220"
-	},
-	new_airi_error_code_200230 = {
-		tip = "GooglePay / AppStorePay / Molpay cancelled",
-		key = "new_airi_error_code_200230"
-	},
-	new_airi_error_code_200240 = {
-		tip = "请求的类型不支持结算API版本",
-		key = "new_airi_error_code_200240"
-	},
-	new_airi_error_code_200250 = {
-		tip = "提供给API的参数无效",
-		key = "new_airi_error_code_200250"
-	},
-	new_airi_error_code_200260 = {
-		tip = "API操作期间发生致命错误",
-		key = "new_airi_error_code_200260"
-	},
-	new_airi_error_code_200270 = {
-		tip = "当前设备上的Play商店不支持请求的功能",
-		key = "new_airi_error_code_200270"
-	},
-	new_airi_error_code_200280 = {
-		tip = "由于物品已经拥有，未消耗",
-		key = "new_airi_error_code_200280"
-	},
-	new_airi_error_code_200290 = {
-		tip = "由于物品已经拥有，并且消耗失败",
-		key = "new_airi_error_code_200290"
-	},
-	new_airi_error_code_200300 = {
-		tip = "请求的产品无法购买",
-		key = "new_airi_error_code_200300"
-	},
-	new_airi_error_code_200310 = {
-		tip = "Google Play服务无法连接",
-		key = "new_airi_error_code_200310"
-	},
-	new_airi_error_code_200320 = {
-		tip = "在Google Play响应之前，请求已达到最大超时时间",
-		key = "new_airi_error_code_200320"
-	},
-	new_airi_error_code_200330 = {
-		tip = "网络连接已关闭",
-		key = "new_airi_error_code_200330"
-	},
-	new_airi_error_code_200340 = {
-		tip = "用户取消了支付",
-		key = "new_airi_error_code_200340"
-	},
-	new_airi_error_code_200350 = {
-		tip = "查询商品ID失败",
-		key = "new_airi_error_code_200350"
-	},
-	new_airi_error_code_200360 = {
-		tip = "连接Play services失败",
-		key = "new_airi_error_code_200360"
-	},
-	new_airi_error_code_300100 = {
-		tip = "Sharing failed",
-		key = "new_airi_error_code_300100"
-	},
 	new_skin_no_choose = {
 		tip = "没有选择需要换装的角色，是否要退出换装",
 		key = "new_skin_no_choose"
@@ -7891,7 +7635,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		}
 	},
 	shop_street_activity_tip = {
-		tip = "*活动期间(<color=#A1E400FF>20.3.26-20.4.9</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>",
+		tip = "*活动期间(<color=#A1E400FF>20.5.21-20.6.2</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>",
 		key = "shop_street_activity_tip"
 	},
 	battle_result_boss_destruct = {
@@ -9112,7 +8856,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "塔尔图 出现概率UP！",
+		tip = "黎塞留、阿尔及利亚、沃克兰 出现概率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -10691,14 +10435,14 @@ Z23(<color=#ff5c5c>铁血</color>) 科技点<color=#92fc63>+1</color></size>
 
 被邀请者：
 回归指挥官：
-在2019年8月11日至9月11日维护期间没有过登录行为的
+在2020年5月7日至5月21日维护期间没有过登录行为的
 指挥官
 新人指挥官：
-在2019年9月11日至10月31日维护期间新注册的指挥官
+在2020年5月21日至6月18日维护期间新注册的指挥官
 满足被邀请资格的指挥官在活动期间登录可在特别活动页
 内输入邀请者的UID参与活动
 邀请者：
-2019年8月11日至9月11日维护前有过登录行为的指挥官
+2020年5月7日至5月21日维护前有过登录行为的指挥官
 邀请者可以使用自己的UID邀请满足被邀请资格的指挥官
 参与活动
 召集指挥官：
@@ -10780,7 +10524,7 @@ UID：
 				info = "4.指挥官可以从中选择2名角色作为祈愿角色"
 			},
 			{
-				info = "5.可选名单仅包含7月26日前常驻加入对应建造的角色"
+				info = "5.可选名单仅包含3月19日前常驻加入对应建造的角色"
 			},
 			{
 				info = "6.有建造解锁条件的角色无法被选为祈愿角色，\n不会在祈愿建造中出现。"
@@ -10789,7 +10533,7 @@ UID：
 				info = "7.所选祈愿角色的建造概率因稀有度差异而有所不同"
 			},
 			{
-				info = "<color=#ffde38>超稀有</color>:2.0%  <color=#d797ff>精锐</color>:.2.5%  <color=#3dc6ff>稀有</color>:2.5%  普通:2.5%"
+				info = "<color=#ffde38>超稀有</color>:2.0%  <color=#d797ff>精锐</color>:2.5%  <color=#3dc6ff>稀有</color>:2.5%  普通:2.5%"
 			},
 			{
 				info = "8.选择完2名角色后，才算构建祈愿建造成功"
@@ -12825,6 +12569,34 @@ TIPS：
 		tip = "一键退役设置",
 		key = "retire_title"
 	},
+	res_unlock_tip = {
+		tip = "消耗以下材料完成解锁",
+		key = "res_unlock_tip"
+	},
+	res_wifi_tip = {
+		tip = "正在使用非WIFI网络，下载可能产生流量，是否继续下载?",
+		key = "res_wifi_tip"
+	},
+	res_downloading = {
+		tip = "下载中",
+		key = "res_downloading"
+	},
+	res_pic_new_tip = {
+		tip = "本次更新新增了$1张插画",
+		key = "res_pic_new_tip"
+	},
+	res_music_no_pre_tip = {
+		tip = "已经是第一首了",
+		key = "res_music_no_pre_tip"
+	},
+	res_music_no_next_tip = {
+		tip = "已经是最后一首了",
+		key = "res_music_no_next_tip"
+	},
+	res_music_new_tip = {
+		tip = "本次更新新增了$1首音乐",
+		key = "res_music_new_tip"
+	},
 	apple_link_title = {
 		tip = "連携中のアカウント完了",
 		key = "apple_link_title"
@@ -12902,5 +12674,165 @@ TIPS：
 	collect_tip2 = {
 		tip = "队伍中有角色正处于编队，无法加入委托阵容",
 		key = "collect_tip2"
+	},
+	discount_coupon_tip = {
+		tip = "是否使用<color=#92fc63FF>$1钻石</color>及<color=#92fc63FF>$2 </color>购买<color=#92fc63FF>$3</color>",
+		key = "discount_coupon_tip"
+	},
+	pizzahut_help = {
+		key = "pizzahut_help",
+		tip = {
+			{
+				info = [[
+通关下列指定关卡会获得不同数量<color=#92fc63>「比萨研发物资」</color>
+1.三章及以后的普通主线海域
+2.活动关卡「穹顶下的圣咏曲」（EX关卡除外）
+活动规则：
+1.活动期间指挥官获得<color=#92fc63>「比萨研发物资」</color>后可以在活动页
+面投入研发，当研发进度到达特殊阶段时会出现食材选择
+界面，指挥官需要选择研发比萨的食材
+2.当完成所有特殊阶段的研发后，会解锁自由组合模式，
+指挥官可以在该模式中自由组合各种食材，研发自己喜欢
+的比萨
+3.研发完成后，可以点击分享按钮将自己研发的比萨与其
+他指挥官分享]]
+			}
+		}
+	},
+	towerclimbing_gametip = {
+		key = "towerclimbing_gametip",
+		tip = {
+			{
+				info = [[
+小游戏玩法：
+1.指挥官通过点击画面上的左、右和跳跃按钮，控制萨拉
+托加向上跳跃。每上升一个台阶则层数加1
+2.指挥官需要注意右侧的生命值，从平台边缘坠落、触碰
+到陷阱或者被生气啾追上都会扣除生命值，生命值耗尽
+游戏结束
+3.指挥官在任意关卡内到达10、20、30、40、50层时，可
+以获得收集品，收集品会显示在收集手册中。完成第一本
+收集手册后，再次到达任意关卡50层即可收集完成第二本
+收集手册。完成每本收集手册都可以获得奖励
+活动规则：
+活动期间每日可获得一次可用次数，可用次数最多可以叠
+加7次
+1.在有可用次数的情况下参与啾啾大冒险会消耗掉可用次
+数并获得签到次数，集齐7次签到次数可以获得
+「三周年邀请函」
+2.可用次数可以在庆典广场页面右侧看到，签到进度可以
+通过点击庆典广场页面「邀请函」按钮查看
+3.在没有可用次数的情况下进行啾啾大冒险不会获得签到
+次数
+4.使用游戏内退出按钮退出时，会进行结算。因为其他原
+因中途退出小游戏不会消耗可用次数，同时也不会获得任
+何奖励]]
+			}
+		}
+	},
+	qingdianguangchang_help = {
+		key = "qingdianguangchang_help",
+		tip = {
+			{
+				info = [[
+活动时间：2020.5.21-6.18
+活动规则：
+1.5月27日为止每天零点解锁1个任务，完成活动任务可以
+获得「庆典建材」及奖励，活动任务可累积
+2.消耗「庆典建材」可以在庆典广场中升级建筑，每种建
+筑会提供不同的BUFF加成
+3.每种建筑分为三个等级，随着等级的提升，提供的
+BUFF加成也会增加
+4.可升级建筑有四种：
+啾啾咖啡
+啾啾和菓子
+啾啾汉堡
+啾啾小笼]]
+			}
+		}
+	},
+	building_tip = {
+		tip = "升级所需材料不足，请前往<color=#92fc63>任务界面</color>完成<color=#92fc63>活动任务</color>获取",
+		key = "building_tip"
+	},
+	building_upgrade_tip = {
+		tip = "是否升级？升级会消耗对应材料",
+		key = "building_upgrade_tip"
+	},
+	msgbox_text_upgrade = {
+		tip = "升 级",
+		key = "msgbox_text_upgrade"
+	},
+	towerclimbing_sign_help = {
+		key = "towerclimbing_sign_help",
+		tip = {
+			{
+				info = [[
+活动规则：
+活动期间每日可获得一次可用次数，可用次数最多可以叠
+加7次
+1.在有可用次数的情况下参与啾啾大冒险会消耗掉可用次
+数并获得签到次数，集齐7次签到次数可以获得
+「三周年邀请函」
+2.可用次数可以在庆典广场页面右侧看到，签到进度可以
+通过点击庆典广场页面「邀请函」按钮查看
+3.在没有可用次数的情况下进行啾啾大冒险不会获得签到
+次数
+4.因为其他原因中途退出小游戏不会消耗可用次数，同时
+也不会获得任何奖励]]
+			}
+		}
+	},
+	building_complete_tip = {
+		tip = "升级完成",
+		key = "building_complete_tip"
+	},
+	backyard_theme_total_print = {
+		tip = "总价",
+		key = "backyard_theme_total_print"
+	},
+	towerclimbing_book_tip = {
+		tip = "完成前一本收集手册后可解锁",
+		key = "towerclimbing_book_tip"
+	},
+	towerclimbing_reward_tip = {
+		tip = "完成手册收集后可领取奖励",
+		key = "towerclimbing_reward_tip"
+	},
+	words_visit_backyard_toggle = {
+		tip = "允许好友拜访后宅",
+		key = "words_visit_backyard_toggle"
+	},
+	words_show_friend_backyardship_toggle = {
+		tip = "显示他人拜访痕迹",
+		key = "words_show_friend_backyardship_toggle"
+	},
+	words_show_my_backyardship_toggle = {
+		tip = "显示我的拜访痕迹",
+		key = "words_show_my_backyardship_toggle"
+	},
+	option_desc7 = {
+		tip = "功能开启后，允许我的好友来我的后宅拜访",
+		key = "option_desc7"
+	},
+	option_desc8 = {
+		tip = "功能开启后，好友来拜访我的后宅后，会在我的后宅显示该好友的秘书舰",
+		key = "option_desc8"
+	},
+	option_desc9 = {
+		tip = "功能开启后，我拜访好友的后宅后，会在好友的后宅显示我的秘书舰",
+		key = "option_desc9"
+	},
+	backyard_unopen = {
+		tip = "后宅未开放",
+		key = "backyard_unopen"
+	},
+	coupon_timeout_tip = {
+		tip = "<color=#92fc63>「$1」</color>已过期，无法获得",
+		key = "coupon_timeout_tip"
+	},
+	coupon_repeat_tip = {
+		tip = "已获得<color=#92fc63>「$1」</color>，无法重复获得",
+		key = "coupon_repeat_tip"
 	}
 }

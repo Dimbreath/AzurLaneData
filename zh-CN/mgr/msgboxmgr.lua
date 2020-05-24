@@ -100,21 +100,6 @@ function slot1.Init(slot0, slot1)
 		uv0._defaultSize = Vector2(930, 620)
 		uv0._defaultHelpSize = Vector2(870, 480)
 		uv0._defaultHelpPos = Vector2(0, -40)
-
-		onButton(nil, uv0._inputCancelBtn, function ()
-			uv0:hide()
-		end, SFX_CANCEL)
-		onButton(nil, uv0._closeBtn, function ()
-			uv0:hide()
-		end, SFX_CANCEL)
-		onButton(nil, uv0._inputConfirmBtn, function ()
-			if uv0.settings.onYes then
-				uv0.settings.onYes(uv0._inputField.text)
-			end
-
-			uv0:hide()
-		end, SFX_CONFIRM)
-
 		uv0.pools = {}
 		uv0.panelDict = {}
 		uv0.timers = {}
@@ -151,10 +136,16 @@ function slot4(slot0, slot1)
 	setActive(slot0._inputCancelBtn, not slot1.onNo)
 	slot0:updateButton(slot0._inputCancelBtn, slot1.noText or uv0.TEXT_CANCEL)
 	slot0:updateButton(slot0._inputConfirmBtn, slot1.yesText or uv0.TEXT_CONFIRM)
-	slot0._tf:SetAsLastSibling()
-	onButton(slot0, slot0._closeBtn, function ()
+	onButton(slot0, slot0._inputCancelBtn, function ()
 		uv0:hide()
 	end, SFX_CANCEL)
+	onButton(slot0, slot0._inputConfirmBtn, function ()
+		if uv0.onYes then
+			uv0.onYes(uv1._inputField.text)
+		end
+
+		uv1:hide()
+	end, SFX_CONFIRM)
 	slot0:Loaded(slot1)
 end
 
@@ -438,7 +429,6 @@ function slot9(slot0, slot1)
 
 	if slot1.helps.buttonsHeight then
 		setAnchoredPosition(slot0._btnContainer, {
-			x = 0,
 			y = slot1.helps.buttonsHeight
 		})
 	end
@@ -500,7 +490,6 @@ function slot9(slot0, slot1)
 	end
 
 	slot0:Loaded(slot1)
-	setActive(slot0._btnContainer, slot0._btnContainer.transform.childCount > 0)
 end
 
 function slot10(slot0, slot1)
@@ -947,20 +936,14 @@ function slot1.updateButton(slot0, slot1, slot2)
 end
 
 function slot1.Loaded(slot0, slot1)
+	uv0.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		groupName = slot1.groupName,
+		weight = slot1.weight,
+		blurLevelCamera = slot1.blurLevelCamera
+	})
+
 	if slot1.parent then
 		setParent(slot0._tf, slot1.parent)
-
-		if slot1.canvasOrder then
-			slot2 = GetComponent(slot0._tf, typeof(Canvas))
-			slot0.originCanvasOrder = slot2.sortingOrder
-			slot2.sortingOrder = slot1.canvasOrder
-		end
-	else
-		uv0.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-			groupName = slot1.groupName,
-			weight = slot1.weight,
-			blurLevelCamera = slot1.blurLevelCamera
-		})
 	end
 
 	uv0.m02:sendNotification(GAME.OPEN_MSGBOX_DONE)
@@ -981,8 +964,7 @@ function slot1.Clear(slot0)
 		y = 0
 	})
 	setAnchoredPosition(slot0._btnContainer, {
-		x = 0,
-		y = 0
+		y = 15
 	})
 	setAnchoredPosition(slot0._helpPanel, {
 		x = slot0._defaultHelpPos.x,
@@ -1018,17 +1000,7 @@ function slot1.Clear(slot0)
 
 	uv0.DelegateInfo.Dispose(slot0)
 	removeAllChildren(slot0._btnContainer)
-
-	if slot0.settings and slot0.settings.parent then
-		uv0.UIMgr.GetInstance():UnblurPanel(slot0._tf, uv0.UIMgr.GetInstance().OverlayMain)
-
-		if slot0.settings.canvasOrder then
-			GetComponent(slot0._tf, typeof(Canvas)).sortingOrder = slot0.originCanvasOrder
-		end
-	else
-		uv0.UIMgr.GetInstance():UnblurPanel(slot0._tf, uv0.UIMgr.GetInstance().OverlayMain)
-	end
-
+	uv0.UIMgr.GetInstance():UnblurPanel(slot0._tf, uv0.UIMgr.GetInstance().OverlayMain)
 	slot0.contentText:RemoveAllListeners()
 
 	slot0.settings = nil

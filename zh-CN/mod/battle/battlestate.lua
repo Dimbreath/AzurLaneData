@@ -363,6 +363,7 @@ function slot2.disableCommon(slot0)
 	slot0._dataProxy:KillAllAircraft()
 	slot0._sceneMediator:AllBulletNeutralize()
 	slot0._sceneMediator:AllCharAnimAutoCalcComplex(false)
+	uv0.Battle.BattleCameraUtil.GetInstance():StopShake()
 	slot0._uiMediator:DisableComponent()
 	slot0:Deactive()
 end

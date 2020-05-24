@@ -27,6 +27,7 @@ slot0.ON_TECHNOLOGY = "ShipMainMediator:ON_TECHNOLOGY"
 slot0.OPEN_SHIPPROFILE = "ShipMainMediator:OPEN_SHIPPROFILE"
 slot0.ON_SEL_COMMANDER = "ShipMainMediator:ON_SEL_COMMANDER"
 slot0.OPEN_EQUIP_UPGRADE = "ShipMainMediator:OPEN_EQUIP_UPGRADE"
+slot0.BUY_ITEM_BY_ACT = "ShipMainMediator:BUY_ITEM_BY_ACT"
 
 function slot0.register(slot0)
 	slot0.bayProxy = getProxy(BayProxy)
@@ -59,6 +60,12 @@ function slot0.register(slot0)
 
 	slot4 = getProxy(ContextProxy)
 
+	slot0:bind(uv0.BUY_ITEM_BY_ACT, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.SKIN_COUPON_SHOPPING, {
+			shopId = slot1,
+			cnt = slot2
+		})
+	end)
 	slot0:bind(uv0.OPEN_SHIPPROFILE, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHIP_PROFILE, {
 			showTrans = slot2,
@@ -474,7 +481,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.RENAME_SHIP_DONE,
 		GAME.RECORD_SHIP_EQUIPMENT_DONE,
 		GAME.SHOPPING_DONE,
-		GAME.UPGRADE_MAX_LEVEL_DONE
+		GAME.UPGRADE_MAX_LEVEL_DONE,
+		GAME.SKIN_COUPON_SHOPPING_DONE
 	}
 end
 
@@ -527,7 +535,7 @@ function slot0.handleNotification(slot0, slot1)
 		if slot3.shipId == slot0.contextData.shipId and slot3.type == 1 then
 			slot0.viewComponent:updateRecordEquipments(slot3.index)
 		end
-	elseif slot2 == GAME.SHOPPING_DONE then
+	elseif slot2 == GAME.SHOPPING_DONE or slot2 == GAME.SKIN_COUPON_SHOPPING_DONE then
 		if slot3.awards and #slot3.awards > 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 				items = slot3.awards

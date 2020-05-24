@@ -464,7 +464,15 @@ function slot0.OnCVBtnClick(slot0, slot1)
 
 			parallelAsync({
 				function (slot0)
-					uv0.l2dChar:TriggerAction(uv1.l2d_action, slot0)
+					uv0:RemoveLive2DTimer()
+
+					if uv1.voice.key == "propose" then
+						uv0.Live2DTimer = LeanTween.delayedCall(ProposeUI.Live2DProposeDelayTime, System.Action(function ()
+							uv0.l2dChar:TriggerAction(uv1.l2d_action, uv2)
+						end)).id
+					else
+						uv0.l2dChar:TriggerAction(uv2.l2d_action, slot0)
+					end
 				end,
 				function (slot0)
 					uv0:PlayVoice(uv1, uv2)
@@ -544,6 +552,14 @@ function slot0.RemoveCvTimer(slot0)
 		slot0.cvTimer:Stop()
 
 		slot0.cvTimer = nil
+	end
+end
+
+function slot0.RemoveLive2DTimer(slot0)
+	if slot0.Live2DTimer then
+		LeanTween.cancel(slot0.Live2DTimer)
+
+		slot0.Live2DTimer = nil
 	end
 end
 
@@ -683,6 +699,7 @@ function slot0.willExit(slot0)
 	end)
 	slot0:RemoveCvTimer()
 	slot0:RemoveCvSeTimer()
+	slot0:RemoveLive2DTimer()
 end
 
 return slot0

@@ -27,79 +27,85 @@ slot24 = pg.map_data
 slot0.Battle.BattleDataFunction = slot0.Battle.BattleDataFunction or {}
 slot25 = slot0.Battle.BattleDataFunction
 
-function slot25.CreateBattleUnitData(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12)
-	slot13, slot14 = nil
+function slot25.CreateBattleUnitData(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12, slot13)
+	slot14, slot15 = nil
 
 	if slot1 == uv0.UnitType.PLAYER_UNIT then
-		slot13 = uv1.Battle.BattlePlayerUnit.New(slot0, slot2)
+		slot14 = uv1.Battle.BattlePlayerUnit.New(slot0, slot2)
 
-		slot13:SetSkinId(slot4)
-		slot13:SetRepressReduce(slot9)
-		slot13:SetWeaponInfo(slot11, slot12)
+		slot14:SetSkinId(slot4)
+		slot14:SetRepressReduce(slot9)
+		slot14:SetWeaponInfo(slot11, slot12)
 
-		slot14 = Ship.WEAPON_COUNT
+		slot15 = Ship.WEAPON_COUNT
 	elseif slot1 == uv0.UnitType.SUB_UNIT then
-		slot13 = uv1.Battle.BattleSubUnit.New(slot0, slot2)
+		slot14 = uv1.Battle.BattleSubUnit.New(slot0, slot2)
 
-		slot13:SetSkinId(slot4)
-		slot13:SetRepressReduce(slot9)
-		slot13:SetWeaponInfo(slot11, slot12)
+		slot14:SetSkinId(slot4)
+		slot14:SetRepressReduce(slot9)
+		slot14:SetWeaponInfo(slot11, slot12)
 
-		slot14 = Ship.WEAPON_COUNT
+		slot15 = Ship.WEAPON_COUNT
 	elseif slot1 == uv0.UnitType.ENEMY_UNIT then
-		uv1.Battle.BattleEnemyUnit.New(slot0, slot2):SetRepress(slot8)
+		slot14 = uv1.Battle.BattleEnemyUnit.New(slot0, slot2)
+
+		slot14:SetRepress(slot8)
+		slot14:SetOverrideLevel(slot13)
 	elseif slot1 == uv0.UnitType.BOSS_UNIT then
-		uv1.Battle.BattleBossUnit.New(slot0, slot2):SetRepress(slot8)
+		slot14 = uv1.Battle.BattleBossUnit.New(slot0, slot2)
+
+		slot14:SetRepress(slot8)
+		slot14:SetOverrideLevel(slot13)
 	elseif slot1 == uv0.UnitType.NPC_UNIT then
-		slot13 = uv1.Battle.BattleNPCUnit.New(slot0, slot2)
+		slot14 = uv1.Battle.BattleNPCUnit.New(slot0, slot2)
 	end
 
-	slot13:SetTemplate(slot3, slot6)
+	slot14:SetTemplate(slot3, slot6)
 
 	if slot1 == uv0.UnitType.ENEMY_UNIT or slot1 == uv0.UnitType.BOSS_UNIT then
-		slot13:SetCurrentHP(slot13:GetMaxHP() * slot10)
+		slot14:SetCurrentHP(slot14:GetMaxHP() * slot10)
 	end
 
-	slot15 = {}
+	slot16 = {}
 
 	if slot1 == uv0.UnitType.ENEMY_UNIT or slot1 == uv0.UnitType.BOSS_UNIT then
-		for slot19, slot20 in ipairs(slot5) do
-			slot15[#slot15 + 1] = {
+		for slot20, slot21 in ipairs(slot5) do
+			slot16[#slot16 + 1] = {
 				equipment = {
 					weapon_id = {
-						slot20.id
+						slot21.id
 					}
 				}
 			}
 		end
 	else
-		for slot19, slot20 in ipairs(slot5) do
-			if not slot20.id then
-				slot15[#slot15 + 1] = {
+		for slot20, slot21 in ipairs(slot5) do
+			if not slot21.id then
+				slot16[#slot16 + 1] = {
 					equipment = false,
 					torpedoAmmo = 0,
-					skin = slot20.skin
+					skin = slot21.skin
 				}
-			elseif not slot14 or slot19 <= slot14 or #uv2.GetWeaponDataFromID(slot20.id).weapon_id then
-				slot15[#slot15 + 1] = {
-					equipment = uv2.GetWeaponDataFromID(slot20.id),
-					skin = slot20.skin,
-					torpedoAmmo = slot20.equipmentInfo and slot20.equipmentInfo.config.torpedo_ammo or 0
+			elseif not slot15 or slot20 <= slot15 or #uv2.GetWeaponDataFromID(slot21.id).weapon_id then
+				slot16[#slot16 + 1] = {
+					equipment = uv2.GetWeaponDataFromID(slot21.id),
+					skin = slot21.skin,
+					torpedoAmmo = slot21.equipmentInfo and slot21.equipmentInfo.config.torpedo_ammo or 0
 				}
 			else
-				slot15[#slot15 + 1] = {
+				slot16[#slot16 + 1] = {
 					equipment = false,
-					skin = slot20.skin,
-					torpedoAmmo = slot21
+					skin = slot21.skin,
+					torpedoAmmo = slot22
 				}
 			end
 		end
 	end
 
-	slot13:SetProficiencyList(slot7)
-	slot13:SetEquipment(slot15)
+	slot14:SetProficiencyList(slot7)
+	slot14:SetEquipment(slot16)
 
-	return slot13
+	return slot14
 end
 
 function slot25.InitUnitSkill(slot0, slot1)

@@ -11,6 +11,7 @@ slot1.C_SE = "C_SE"
 slot1.C_BATTLE_SE = "C_BATTLE_SE"
 slot1.C_STORY_BGM = "C_STORY_BGM"
 slot1.C_GALLERY_MUSIC = "C_GALLERY_MUSIC"
+slot1.NEXT_VER = 40
 
 function slot1.Init(slot0, slot1)
 	print("initializing cri manager...")
@@ -97,7 +98,15 @@ function slot1.PlayBGM(slot0, slot1, slot2)
 
 	slot0.bgmName = slot3
 
-	CriWareMgr.Inst:PlayBGM(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
+	if CSharpVersion < uv0.NEXT_VER then
+		CriWareMgr.Inst:PlayBGM(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
+			if slot0 == nil then
+				warning("Missing BGM :" .. (uv0 or "NIL"))
+			end
+		end)
+	else
+		CriWareMgr.Inst:PlayBGM(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
+	end
 end
 
 function slot1.stopBGM(slot0)
@@ -117,7 +126,15 @@ function slot1.playStory(slot0, slot1)
 	slot3.cueSheetName = slot2
 	slot3.cueName = ""
 
-	CriWareMgr.Inst:PlaySound(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
+	if CSharpVersion < uv0.NEXT_VER then
+		CriWareMgr.Inst:PlaySound(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
+			if slot0 == nil then
+				warning("Missing BGM :" .. (bgm or "NIL"))
+			end
+		end)
+	else
+		CriWareMgr.Inst:PlaySound(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
+	end
 end
 
 function slot1.stopStory(slot0)
@@ -166,6 +183,10 @@ function slot1.CheckFModeEvent(slot0, slot1, slot2, slot3)
 	end
 end
 
+function slot1.CheckHasCue(slot0, slot1, slot2)
+	return CriAtom.GetCueSheet(slot1) ~= nil and slot3.acb:Exists(slot2)
+end
+
 function slot1.PlaySoundEffect_V3(slot0, slot1, slot2)
 	slot0:CheckFModeEvent(slot1, function (slot0, slot1)
 		uv0:PlayCV_V3(slot0, slot1, uv1)
@@ -191,11 +212,34 @@ function slot1.UnloadSoundEffect_V3(slot0, slot1)
 end
 
 function slot1.PlayCV_V3(slot0, slot1, slot2, slot3)
-	CriWareMgr.Inst:PlayVoice(slot2, CriWareMgr.CRI_FADE_TYPE.NONE, slot1, function (slot0)
-		if uv0 ~= nil then
-			uv0(slot0)
-		end
-	end)
+	if uv0.NEXT_VER <= CSharpVersion then
+		CriWareMgr.Inst:PlayVoice(slot2, CriWareMgr.CRI_FADE_TYPE.NONE, slot1, function (slot0)
+			if uv0 ~= nil then
+				uv0(slot0)
+			end
+		end)
+	else
+		slot0:LoadCueSheet(slot1, function (slot0)
+			if slot0 then
+				if uv0:CheckHasCue(uv1, uv2) then
+					slot1 = CueData.New()
+					slot1.channelName = uv3.C_VOICE
+					slot1.cueSheetName = uv1
+					slot1.cueName = uv2
+
+					CriWareMgr.Inst:PlaySound(slot1, CriWareMgr.CRI_FADE_TYPE.NONE, function (slot0)
+						if uv0 then
+							uv0(slot0)
+						end
+					end)
+				elseif uv4 then
+					uv4(nil)
+				end
+			elseif uv4 then
+				uv4(nil)
+			end
+		end)
+	end
 end
 
 function slot1.StopCV_V3(slot0)

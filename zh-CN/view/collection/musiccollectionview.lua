@@ -40,15 +40,17 @@ function slot0.OnDestroy(slot0)
 		slot0.appreciateUnlockMsgBox:Destroy()
 	end
 
-	slot0:closeSongListPanel()
+	slot0:closeSongListPanel(true)
 end
 
 function slot0.onBackPressed(slot0)
-	slot0:closeSongListPanel()
-
 	if slot0.appreciateUnlockMsgBox and slot0.appreciateUnlockMsgBox:CheckState(BaseSubView.STATES.INITED) then
 		slot0.appreciateUnlockMsgBox:hideCustomMsgBox()
 		slot0.appreciateUnlockMsgBox:Destroy()
+
+		return false
+	elseif isActive(slot0.songListPanel) then
+		slot0:closeSongListPanel()
 
 		return false
 	else
@@ -118,7 +120,7 @@ function slot0.findUI(slot0)
 	slot0.topPanel = slot0:findTF("TopPanel")
 	slot0.likeFilteToggle = slot0:findTF("LikeBtn", slot0.topPanel)
 	slot0.sortToggle = slot0:findTF("SortBtn", slot0.topPanel)
-	slot0.songNameText = slot0:findTF("MusicName", slot0.topPanel)
+	slot0.songNameText = slot0:findTF("MusicNameMask/MusicName", slot0.topPanel)
 	slot0.staicImg = slot0:findTF("SoundImg", slot0.topPanel)
 	slot0.playingAni = slot0:findTF("SoundAni", slot0.topPanel)
 
@@ -296,13 +298,16 @@ function slot0.tryShowTipMsgBox(slot0)
 		function slot2()
 			uv0.lScrollPageSC:MoveToItemID(MusicCollectionConst.AutoScrollIndex - 1)
 			PlayerPrefs.SetInt("musicVersion", MusicCollectionConst.Version)
+			uv0:emit(CollectionScene.UPDATE_RED_POINT)
 		end
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,
+			hideClose = true,
 			content = i18n("res_music_new_tip", MusicCollectionConst.NewCount),
 			onYes = slot2,
-			onCancel = slot2
+			onCancel = slot2,
+			onClose = slot2
 		})
 	end
 end
@@ -492,6 +497,7 @@ function slot0.updatePlateTF(slot0, slot1, slot2)
 							uv0:updatePlateTF(uv1, uv2)
 							uv0:updateSongTF(uv0.songTFList[uv2 + 1], uv2 + 1)
 							uv0:updatePlayPanel()
+							uv0:tryPlayMusic()
 							uv0.appreciateUnlockMsgBox:hideCustomMsgBox()
 						end
 					})
@@ -718,7 +724,7 @@ function slot0.updatePlayPanel(slot0)
 		return
 	else
 		setActive(slot0.playPanel, true)
-		setActive(slot0.playingAni, true)
+		setActive(slot0.playingAni, false)
 		setActive(slot0.staicImg, true)
 		setActive(slot0.songNameText, true)
 		setActive(slot0.emptyPanel, false)
@@ -731,7 +737,7 @@ function slot0.updatePlayPanel(slot0)
 
 	slot4 = slot1.name
 
-	setText(slot0.songNameText, slot4)
+	setScrollText(slot0.songNameText, slot4)
 	setText(slot0.playPanelNameText, slot4)
 	setActive(slot0.likeOnImg, slot0.appreciateProxy:isLikedByMusicID(slot1.id))
 
@@ -798,6 +804,7 @@ function slot0.initTimer(slot0)
 				uv0:stopMusic()
 				SetActive(uv0.pauseBtn, false)
 				SetActive(uv0.playBtn, true)
+				uv0:tryPlayMusic()
 			end
 		end
 	end, 0.033, -1)
@@ -858,11 +865,37 @@ function slot0.openSongListPanel(slot0)
 	slot0.songListPanel.offsetMin = slot0._tf.parent.offsetMin
 
 	setActive(slot0.songListPanel, true)
+	LeanTween.value(go(slot0.panel), -460, 500, 0.3):setOnUpdate(System.Action_float(function (slot0)
+		setAnchoredPosition(uv0.panel, {
+			y = slot0
+		})
+	end)):setOnComplete(System.Action(function ()
+		setAnchoredPosition(uv0.panel, {
+			y = 500
+		})
+	end))
 end
 
-function slot0.closeSongListPanel(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.songListPanel, slot0._tf)
-	setActive(slot0.songListPanel, false)
+function slot0.closeSongListPanel(slot0, slot1)
+	if slot1 == true then
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.songListPanel, slot0._tf)
+		setActive(slot0.songListPanel, false)
+	end
+
+	if isActive(slot0.songListPanel) then
+		LeanTween.cancel(go(slot0.panel))
+		LeanTween.value(go(slot0.panel), getAnchoredPosition(slot0.panel).y, -460, 0.3):setOnUpdate(System.Action_float(function (slot0)
+			setAnchoredPosition(uv0.panel, {
+				y = slot0
+			})
+		end)):setOnComplete(System.Action(function ()
+			setAnchoredPosition(uv0.panel, {
+				y = -460
+			})
+			pg.UIMgr.GetInstance():UnblurPanel(uv0.songListPanel, uv0._tf)
+			setActive(uv0.songListPanel, false)
+		end))
+	end
 end
 
 function slot0.playMusic(slot0)
@@ -921,7 +954,7 @@ function slot0.tryPlayMusic(slot0)
 end
 
 function slot0.tryPauseMusic(slot0)
-	if isActive(slot0.pauseBtn) then
+	if isActive(slot0.pauseBtn) and slot0.playbackInfo then
 		triggerButton(slot0.pauseBtn)
 	end
 end

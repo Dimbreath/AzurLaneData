@@ -9,6 +9,7 @@ end
 function slot0.initData(slot0)
 	slot0.picManager = PicUpdateMgr.Inst
 	slot0.musicManager = MusicUpdateMgr.Inst
+	slot0.reForVer = PathMgr.MD5Result
 	slot0.galleryPicUnLockIDLIst = {}
 	slot0.galleryPicExistStateTable = {}
 	slot0.galleryPicLikeIDList = {}
@@ -191,6 +192,14 @@ function slot0.getMusicUnlockTipTextByID(slot0, slot1)
 	end
 end
 
+function slot0.getResultForVer(slot0)
+	return slot0.reForVer
+end
+
+function slot0.clearVer(slot0)
+	slot0.reForVer = nil
+end
+
 function slot0.addPicIDToUnlockList(slot0, slot1)
 	if table.contains(slot0.galleryPicUnLockIDLIst, slot1) then
 		print("already exist picID:" .. slot1)
@@ -304,12 +313,16 @@ end
 function slot0.isGalleryHaveNewRes(slot0)
 	if PlayerPrefs.GetInt("galleryVersion", 0) < GalleryConst.Version then
 		return true
+	else
+		return false
 	end
 end
 
 function slot0.isMusicHaveNewRes(slot0)
 	if PlayerPrefs.GetInt("musicVersion", 0) < MusicCollectionConst.Version then
 		return true
+	else
+		return false
 	end
 end
 

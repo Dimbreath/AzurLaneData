@@ -166,7 +166,7 @@ function slot0.onRegister(slot0)
 		})
 	end)
 	slot0:bind(uv0.CLOSE_GARNITURE, function (slot0)
-		if getProxy(ContextProxy):getCurrentContext() and slot2:getContextByMediator(BackYardGarnitureMediator) then
+		if getProxy(ContextProxy):getCurrentContext() and slot2:getContextByMediator(BackYardDecorationMediator) then
 			pg.m02:sendNotification(GAME.REMOVE_LAYERS, {
 				context = slot3
 			})
@@ -301,7 +301,10 @@ function slot0.listNotificationInterests(slot0)
 		BackYardHouseProxy.TRANSPORT_INTERAACTION_START,
 		BackYardHouseProxy.TRANSPORT_INTERAACTION_START_AGAIN,
 		BackYardHouseProxy.TRANSPORT_INTERAACTION_START_END,
-		BackYardHouseProxy.ROTATE_FURNITURE
+		BackYardHouseProxy.ROTATE_FURNITURE,
+		BACKYARD.ON_SELECTED_FURNITRUE,
+		BACKYARD.OPEN_SHOP_LAYER,
+		BACKYARD.CLOSE_SHOP_LAYER
 	}
 end
 
@@ -310,6 +313,8 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == BackYardHouseProxy.BACKYARD_SHIP_MOVE then
 		slot0.viewComponent:boatMove(slot3.id, slot3.pos, slot3.isLastStep)
+	elseif slot2 == BACKYARD.ON_SELECTED_FURNITRUE then
+		slot0.viewComponent:SelectFurnitrue(slot3.id)
 	elseif slot2 == BackYardMediator.ITEM_UPDATED then
 		slot0.viewComponent:updateExtendItemVO(getProxy(BagProxy))
 	elseif slot2 == BackYardHouseProxy.BACKYARD_FURNITURE_POS_CHANGE then
@@ -432,6 +437,10 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:InterActionTransportEnd(slot3.shipId)
 	elseif slot2 == BackYardHouseProxy.ROTATE_FURNITURE then
 		slot0.viewComponent:UpdateFurnitrueDir(slot3.id)
+	elseif slot2 == BACKYARD.OPEN_SHOP_LAYER then
+		slot0.viewComponent.effectMgr:ShowOrHide(false)
+	elseif slot2 == BACKYARD.CLOSE_SHOP_LAYER then
+		slot0.viewComponent.effectMgr:ShowOrHide(true)
 	end
 end
 

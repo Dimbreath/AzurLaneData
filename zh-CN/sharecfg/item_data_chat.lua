@@ -24,6 +24,14 @@ pg.item_data_chat = {
 		desc = "献给所有两年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与二周年限定活动获取</color>",
 		scene = {}
 	},
+	[103] = {
+		name = "三周年纪念",
+		time_second = 0,
+		id = 103,
+		time_limit_type = 0,
+		desc = "献给所有三年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与三周年限定活动获取</color>",
+		scene = {}
+	},
 	[300] = {
 		name = "召集者",
 		time_second = 2592000,
@@ -44,6 +52,7 @@ pg.item_data_chat = {
 		0,
 		101,
 		102,
+		103,
 		300,
 		301
 	}

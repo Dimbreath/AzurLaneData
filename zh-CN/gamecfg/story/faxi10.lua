@@ -501,7 +501,7 @@ return {
 			soundeffect = "event:/ui/noice"
 		},
 		{
-			say = "原教廷所属全部军舰听令，司令部紧急电报：司令部已经沦陷，司令部已经沦陷",
+			say = "教廷所属全部舰队全员听令，司令部紧急电报：铁血向圣座发动了进攻，司令部已经沦陷，重复，司令部已经沦陷",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -513,7 +513,7 @@ return {
 			}
 		},
 		{
-			say = "所有军舰立刻就近加入碧蓝航线同盟，维希教廷于今日起正式解散，立刻执行，不得有误",
+			say = "各地舰队立刻驶离港口就近加入碧蓝航线同盟。此命令为维希圣座最后的命令，所有舰队立刻执行，不得有误",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -658,7 +658,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "甚至连司令部的叛徒也想要我们卖国求荣——",
+			say = "甚至连司令部的叛徒也想要我们束手就擒——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

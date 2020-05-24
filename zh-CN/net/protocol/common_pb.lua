@@ -79,7 +79,10 @@ slot1 = {
 	APPRECIATIONINFO_GALLERYS_FIELD = slot0.FieldDescriptor(),
 	APPRECIATIONINFO_MUSICS_FIELD = slot0.FieldDescriptor(),
 	APPRECIATIONINFO_FAVOR_GALLERYS_FIELD = slot0.FieldDescriptor(),
-	APPRECIATIONINFO_FAVOR_MUSICS_FIELD = slot0.FieldDescriptor()
+	APPRECIATIONINFO_FAVOR_MUSICS_FIELD = slot0.FieldDescriptor(),
+	BUILDINFO_TIME_FIELD = slot0.FieldDescriptor(),
+	BUILDINFO_FINISH_TIME_FIELD = slot0.FieldDescriptor(),
+	BUILDINFO_BUILD_ID_FIELD = slot0.FieldDescriptor()
 }
 SHIPINFO = slot0.Descriptor()
 SHIPSTATE = slot0.Descriptor()
@@ -96,6 +99,7 @@ USERSIMPLEINFO = slot0.Descriptor()
 DISPLAYINFO = slot0.Descriptor()
 IDTIMEINFO = slot0.Descriptor()
 APPRECIATIONINFO = slot0.Descriptor()
+BUILDINFO = slot0.Descriptor()
 slot1.SHIPINFO_ID_FIELD.name = "id"
 slot1.SHIPINFO_ID_FIELD.full_name = "common.shipinfo.id"
 slot1.SHIPINFO_ID_FIELD.number = 1
@@ -994,8 +998,47 @@ APPRECIATIONINFO.fields = {
 }
 APPRECIATIONINFO.is_extendable = false
 APPRECIATIONINFO.extensions = {}
+slot1.BUILDINFO_TIME_FIELD.name = "time"
+slot1.BUILDINFO_TIME_FIELD.full_name = "common.buildinfo.time"
+slot1.BUILDINFO_TIME_FIELD.number = 1
+slot1.BUILDINFO_TIME_FIELD.index = 0
+slot1.BUILDINFO_TIME_FIELD.label = 2
+slot1.BUILDINFO_TIME_FIELD.has_default_value = false
+slot1.BUILDINFO_TIME_FIELD.default_value = 0
+slot1.BUILDINFO_TIME_FIELD.type = 13
+slot1.BUILDINFO_TIME_FIELD.cpp_type = 3
+slot1.BUILDINFO_FINISH_TIME_FIELD.name = "finish_time"
+slot1.BUILDINFO_FINISH_TIME_FIELD.full_name = "common.buildinfo.finish_time"
+slot1.BUILDINFO_FINISH_TIME_FIELD.number = 2
+slot1.BUILDINFO_FINISH_TIME_FIELD.index = 1
+slot1.BUILDINFO_FINISH_TIME_FIELD.label = 2
+slot1.BUILDINFO_FINISH_TIME_FIELD.has_default_value = false
+slot1.BUILDINFO_FINISH_TIME_FIELD.default_value = 0
+slot1.BUILDINFO_FINISH_TIME_FIELD.type = 13
+slot1.BUILDINFO_FINISH_TIME_FIELD.cpp_type = 3
+slot1.BUILDINFO_BUILD_ID_FIELD.name = "build_id"
+slot1.BUILDINFO_BUILD_ID_FIELD.full_name = "common.buildinfo.build_id"
+slot1.BUILDINFO_BUILD_ID_FIELD.number = 3
+slot1.BUILDINFO_BUILD_ID_FIELD.index = 2
+slot1.BUILDINFO_BUILD_ID_FIELD.label = 2
+slot1.BUILDINFO_BUILD_ID_FIELD.has_default_value = false
+slot1.BUILDINFO_BUILD_ID_FIELD.default_value = 0
+slot1.BUILDINFO_BUILD_ID_FIELD.type = 13
+slot1.BUILDINFO_BUILD_ID_FIELD.cpp_type = 3
+BUILDINFO.name = "buildinfo"
+BUILDINFO.full_name = "common.buildinfo"
+BUILDINFO.nested_types = {}
+BUILDINFO.enum_types = {}
+BUILDINFO.fields = {
+	slot1.BUILDINFO_TIME_FIELD,
+	slot1.BUILDINFO_FINISH_TIME_FIELD,
+	slot1.BUILDINFO_BUILD_ID_FIELD
+}
+BUILDINFO.is_extendable = false
+BUILDINFO.extensions = {}
 affixinfo = slot0.Message(AFFIXINFO)
 appreciationinfo = slot0.Message(APPRECIATIONINFO)
+buildinfo = slot0.Message(BUILDINFO)
 commanderinfo = slot0.Message(COMMANDERINFO)
 commandersinfo = slot0.Message(COMMANDERSINFO)
 displayinfo = slot0.Message(DISPLAYINFO)

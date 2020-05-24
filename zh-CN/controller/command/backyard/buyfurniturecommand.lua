@@ -52,7 +52,7 @@ function slot0.execute(slot0, slot1)
 					}))
 				end
 
-				uv6:sendNotification(GAME.BUY_FURNITURE_DONE, uv5:getData())
+				uv6:sendNotification(GAME.BUY_FURNITURE_DONE, uv5:getData(), uv4)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
 			else
 				pg.TipsMgr.GetInstance():ShowTips(errorTip("backyard_buyFurniture_error", slot0.result))

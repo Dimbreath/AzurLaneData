@@ -68,6 +68,10 @@ function slot3.SetCommander(slot0, slot1)
 	end
 end
 
+function slot3.GetEffectList(slot0)
+	return slot0._effectList
+end
+
 function slot3.GetCommander(slot0)
 	return slot0._commander
 end

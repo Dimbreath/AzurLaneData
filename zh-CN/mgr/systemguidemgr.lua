@@ -112,6 +112,21 @@ function slot0.PlayDailyLevel(slot0, slot1)
 	end
 end
 
+function slot0.PlayBackYardThemeTemplate(slot0)
+	if not uv0("NG0020") and getProxy(DormProxy):getData():IsMaxLevel() then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			modal = true,
+			hideNo = true,
+			hideClose = true,
+			content = i18n("open_backyard_theme_template_tip"),
+			weight = LayerWeightConst.TOP_LAYER
+		})
+		pg.m02:sendNotification(GAME.STORY_UPDATE, {
+			storyId = "NG0020"
+		})
+	end
+end
+
 function slot0.PlayCommander(slot0)
 	slot3 = {}
 

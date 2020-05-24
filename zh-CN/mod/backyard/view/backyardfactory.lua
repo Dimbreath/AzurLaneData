@@ -272,6 +272,11 @@ end
 function slot0.LoadBoatPart(slot0, slot1, slot2, slot3)
 	slot4 = {
 		{
+			"name",
+			Vector3(0, 330, 0),
+			Vector3(1, 1, 1)
+		},
+		{
 			"addition",
 			Vector3(0, 250, 0),
 			Vector3(1, 1, 1)

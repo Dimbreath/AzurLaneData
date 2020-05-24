@@ -27,9 +27,7 @@ function slot1.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	slot8 = slot2:GetTemplate().extra_param.shrapnel
 
-	if slot2:GetTemplate().extra_param.initialSplit then
-		uv0.bulletSplit(slot6)
-	end
+	uv0.bulletSplit(slot6)
 
 	return slot6
 end
@@ -88,44 +86,48 @@ function slot1.bulletSplit(slot0, slot1)
 
 	slot8 = nil
 	slot8 = slot2:GetSpeed().x > 0 and 0 or 180
-	slot9 = 0
+	slot10 = 0
 
-	for slot13, slot14 in ipairs(slot5) do
-		slot15 = slot14.barrage_ID
-		slot16 = slot14.bullet_ID
-		slot18 = slot14.inheritAngle
-		slot19 = slot14.reaim
-		slot21 = nil
-		slot21 = uv1.Battle[slot14.emitterType or uv1.Battle.BattleWeaponUnit.EMITTER_SHOTGUN].New(function (slot0, slot1, slot2, slot3)
-			slot4 = uv0:CreateBulletUnit(uv1, uv2, uv3, Vector3.zero)
+	for slot14, slot15 in ipairs(slot5) do
+		slot9 = 0 + (not slot15.initialSplit and 1 or 0)
 
-			slot4:OverrideCorrectedDMG(uv4.damage)
-			slot4:SetOffsetPriority(slot3)
-			slot4:SetShiftInfo(slot0, slot1)
+		if slot1 ~= slot15.initialSplit then
+			slot16 = slot15.barrage_ID
+			slot17 = slot15.bullet_ID
+			slot19 = slot15.inheritAngle
+			slot20 = slot15.reaim
+			slot22 = nil
+			slot22 = uv1.Battle[slot15.emitterType or uv1.Battle.BattleWeaponUnit.EMITTER_SHOTGUN].New(function (slot0, slot1, slot2, slot3)
+				slot4 = uv0:CreateBulletUnit(uv1, uv2, uv3, Vector3.zero)
 
-			if uv8 then
-				if uv9.Battle.BattleTargetChoise.TargetHarmNearest(uv6)[1] == nil then
-					slot4:SetRotateInfo(nil, uv5 and uv6:GetYAngle() or uv7, slot2)
+				slot4:OverrideCorrectedDMG(uv4.damage)
+				slot4:SetOffsetPriority(slot3)
+				slot4:SetShiftInfo(slot0, slot1)
+
+				if uv8 then
+					if uv9.Battle.BattleTargetChoise.TargetHarmNearest(uv6)[1] == nil then
+						slot4:SetRotateInfo(nil, uv5 and uv6:GetYAngle() or uv7, slot2)
+					else
+						slot4:SetRotateInfo(slot6:GetCLDZCenterPosition(), slot5, slot2)
+					end
 				else
-					slot4:SetRotateInfo(slot6:GetCLDZCenterPosition(), slot5, slot2)
+					slot4:SetRotateInfo(nil, slot5, slot2)
 				end
-			else
-				slot4:SetRotateInfo(nil, slot5, slot2)
-			end
 
-			uv10.GetFactoryList()[slot4:GetTemplate().type]:CreateBullet(uv11:GetTf(), slot4, uv11:GetPosition())
-		end, function ()
-			uv0:Destroy()
+				uv10.GetFactoryList()[slot4:GetTemplate().type]:CreateBullet(uv11:GetTf(), slot4, uv11:GetPosition())
+			end, function ()
+				uv0:Destroy()
 
-			uv1 = uv1 + 1
+				uv1 = uv1 + 1
 
-			if uv2 and uv1 == #uv3 then
-				uv4:RemoveBulletUnit(uv5:GetUniqueID())
-			end
-		end, slot15)
+				if uv2 and uv1 == uv3 then
+					uv4:RemoveBulletUnit(uv5:GetUniqueID())
+				end
+			end, slot16)
 
-		slot21:Ready()
-		slot21:Fire(nil, slot7:GetDirection(), uv1.Battle.BattleDataFunction.GetBarrageTmpDataFromID(slot15).angle)
+			slot22:Ready()
+			slot22:Fire(nil, slot7:GetDirection(), uv1.Battle.BattleDataFunction.GetBarrageTmpDataFromID(slot16).angle)
+		end
 	end
 end
 

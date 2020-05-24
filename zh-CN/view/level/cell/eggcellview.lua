@@ -1,4 +1,4 @@
-slot0 = class("EggCellView")
+slot0 = class("EggCellView", import("view.level.cell.LevelCellView"))
 
 function slot0.Ctor(slot0, slot1)
 	slot0.go = slot1
@@ -15,25 +15,16 @@ function slot0.Ctor(slot0, slot1)
 	slot0.tfEffectFound.transform.localPosition = Vector2(0, -12)
 	slot0.level = 0
 	slot0.enemyType = 1
+
+	slot0:OverrideCanvas()
 end
 
-function slot0.getOrder(slot0)
-	return 2
+function slot0.GetOrder(slot0)
+	return ChapterConst.CellPriorityEnemy
 end
 
 function slot0.SetActive(slot0, slot1)
 	slot0.go:SetActive(slot1)
-end
-
-function slot0.getLine(slot0)
-	return slot0.line
-end
-
-function slot0.setLine(slot0, slot1)
-	slot0.line = {
-		row = slot1.row,
-		column = slot1.column
-	}
 end
 
 function slot0.getPrefab(slot0)

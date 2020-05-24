@@ -32,6 +32,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>愿能一起走过下一个、再下一个，再下无数个的千日~啾！</color>\n碧蓝航线港区开设1000天奖励",
 		scene = {}
 	},
+	[104] = {
+		name = "三周年纪念",
+		time_second = 0,
+		id = 104,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>献给所有三年间持续奋斗在港区的指挥官们</color>\n通过参与三周年限定活动获取",
+		scene = {}
+	},
 	[201] = {
 		name = "限界的挑战者",
 		time_second = 0,
@@ -141,7 +149,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 308,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>通过后续活动获取</color>\n",
+		desc = "<color=#ffffff>愿昔日的颂歌再次响彻天空，Vive la Iris！</color>\n「穹顶下的圣咏曲」活动获取",
 		scene = {}
 	},
 	[401] = {
@@ -168,11 +176,20 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>为椿特别制作的角色专属头像框</color>\n「Azurlane人气投票2019」活动获取",
 		scene = {}
 	},
+	[501] = {
+		name = "美味的纪念 ",
+		time_second = 0,
+		id = 501,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>献给所有对美味比萨有爱的指挥官们</color>\n通过参与「啾啾欢乐餐厅」活动获取",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		102,
 		103,
+		104,
 		201,
 		202,
 		203,
@@ -189,6 +206,7 @@ pg.item_data_frame = {
 		308,
 		401,
 		402,
-		404
+		404,
+		501
 	}
 }

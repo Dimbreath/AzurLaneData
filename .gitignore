@@ -1,8 +1,0 @@
-bin/
-logs/
-temp/
-utils/
-*.py
-*.service
-*.service.default
-*.json

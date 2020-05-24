@@ -102,10 +102,39 @@ function slot0.isDisCount(slot0)
 			slot2 = pg.TimeMgr.GetInstance():inTime(slot1)
 		end
 
-		return slot0:getConfig("discount") ~= 0 and slot2
+		if slot0:IsItemDiscountType() then
+			return slot2
+		else
+			return slot0:getConfig("discount") ~= 0 and slot2
+		end
 	end
 
 	return false
+end
+
+function slot0.GetPrice(slot0)
+	slot1 = 0
+	slot2 = slot0:getConfig("resource_num")
+
+	if slot0:isDisCount() and slot0:IsItemDiscountType() then
+		slot4 = pg.shop_discount_coupon_template[slot0.id].discounted_price
+		slot1 = (slot2 - slot4) / slot2 * 100
+		slot2 = slot4
+	elseif slot3 then
+		slot2 = (100 - slot0:getConfig("discount")) / 100 * slot2
+	end
+
+	return slot2, slot1
+end
+
+function slot0.IsItemDiscountType(slot0)
+	return slot0:getConfig("genre") == ShopArgs.SkinShop and pg.shop_discount_coupon_template[slot0.id] ~= nil and function ()
+		return getProxy(ActivityProxy):ExistSkinCouponActivityAndShopId(uv0.id)
+	end()
+end
+
+function slot0.GetDiscountItem(slot0)
+	return pg.item_data_statistics[pg.shop_discount_coupon_template[slot0.id].item]
 end
 
 function slot0.isLevelLimit(slot0, slot1, slot2)
@@ -120,7 +149,7 @@ end
 
 function slot0.getLevelLimit(slot0)
 	for slot5, slot6 in ipairs(slot0:getConfig("limit_args")) do
-		if slot6[1] == "level" then
+		if type(slot6) == "table" and slot6[1] == "level" then
 			return slot6[2], slot6[3]
 		end
 	end
@@ -215,10 +244,18 @@ function slot0.inTime(slot0)
 		end
 
 		if slot2 and slot3 then
-			return slot2 <= pg.TimeMgr.GetInstance():GetServerTime() and slot4 <= slot3
+			return slot2 <= pg.TimeMgr.GetInstance():GetServerTime() and slot4 <= slot3, slot3 - slot4
 		end
 
 		return true
+	end
+end
+
+function slot0.calDayLeft(slot0)
+	slot1, slot2 = slot0:inTime()
+
+	if slot1 and slot2 and slot2 > 0 then
+		return slot1, pg.TimeMgr.GetInstance():parseTimeFrom(slot2) + 1
 	end
 end
 

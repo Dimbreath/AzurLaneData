@@ -12,6 +12,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.money = slot1.state_info_4
 	slot0.energy = slot1.energy
 	slot0.skinId = slot1.skinId
+	slot0.isVisitor = slot1.isVisitor
+	slot0.name = slot1.name
 	slot0.lockPathList = {}
 	slot0.furnitureId = slot1.furnitureId
 	slot0.spineId = slot1.spineId
@@ -19,6 +21,14 @@ function slot0.Ctor(slot0, slot1)
 	slot0.spineExtra = nil
 	slot0.rawShip = slot1
 	slot0.rate = slot1.rate or 100
+end
+
+function slot0.IsVisitor(slot0)
+	return slot0.isVisitor
+end
+
+function slot0.GetName(slot0)
+	return slot0.name
 end
 
 function slot0.hasSpineExtra(slot0)
@@ -126,10 +136,18 @@ function slot0.setInimacy(slot0, slot1)
 end
 
 function slot0.hasInimacy(slot0)
+	if slot0.isVisitor then
+		return false
+	end
+
 	return slot0.inimacy ~= 0
 end
 
 function slot0.hasMoney(slot0)
+	if slot0.isVisitor then
+		return false
+	end
+
 	return slot0.money ~= 0
 end
 

@@ -1,29 +1,17 @@
-slot0 = class("SpineCellView")
-slot1 = import("view.util.RequestPackages.LoadPrefabRequestPackage")
+slot0 = class("SpineCellView", import("view.level.cell.LevelCellView"))
 
 function slot0.Ctor(slot0, slot1)
 	slot0.go = slot1
 	slot0.tf = slot0.go.transform
 	slot0.tfShip = slot0.tf:Find("ship")
-	slot0.validate = true
 	slot0._attachmentList = {}
 	slot0._extraEffect = nil
-	slot0._loadingRequest = {}
+
+	slot0:OverrideCanvas()
 end
 
-function slot0.getOrder(slot0)
-	return 0
-end
-
-function slot0.getLine(slot0)
-	return slot0.line
-end
-
-function slot0.setLine(slot0, slot1)
-	slot0.line = {
-		row = slot1.row,
-		column = slot1.column
-	}
+function slot0.GetOrder(slot0)
+	return ChapterConst.CellPriorityNone
 end
 
 function slot0.getPrefab(slot0)
@@ -52,16 +40,12 @@ end
 
 function slot0.setModel(slot0, slot1)
 	slot2 = slot1.transform
-	slot2.name = "model"
 	slot2:GetComponent("SkeletonGraphic").raycastTarget = false
 
 	slot2:SetParent(slot0.tfShip, false)
 
 	slot2.localPosition = Vector3.zero
 	slot2.localScale = Vector3(0.4, 0.4, 1)
-
-	pg.ViewUtils.SetLayer(slot2, Layer.UI)
-
 	slot0.model = slot1
 	slot0.anim = slot2:GetComponent("SpineAnimUI")
 
@@ -89,57 +73,15 @@ function slot0.loadSpine(slot0, slot1)
 
 	slot2 = slot0:getPrefab()
 
-	function slot3()
-		if uv0._attachmentInfo then
-			for slot3, slot4 in pairs(uv0._attachmentInfo) do
-				if slot4.attachment_combat_ui[1] ~= "" then
-					slot6 = "Effect/" .. slot5
-					slot7 = uv1.New(slot6, slot5, function (slot0)
-						uv0._attachmentList[uv1] = slot0
+	slot0:GetLoader():GetSpine(slot2, function (slot0)
+		uv0:setModel(slot0)
 
-						tf(slot0):SetParent(tf(uv0.model))
-
-						tf(slot0).localPosition = BuildVector3(uv2.attachment_combat_ui[2])
-						uv0._loadingRequest[uv1] = nil
-					end)
-					uv0._loadingRequest[slot6] = slot7
-
-					slot7()
-				end
-			end
+		if uv1 then
+			uv1()
 		end
 
-		if uv0._extraEffect and #uv0._extraEffect > 0 then
-			slot0 = uv0._extraEffect
-			slot1 = "effect/" .. slot0
-			slot2 = uv1.New(slot1, slot0, function (slot0)
-				uv0._attachmentList[uv1] = slot0
-
-				tf(slot0):SetParent(tf(uv0.model))
-
-				uv0._loadingRequest[uv1] = nil
-			end)
-			uv0._loadingRequest[slot1] = slot2
-
-			slot2()
-		end
-	end
-
-	PoolMgr.GetInstance():GetSpineChar(slot2, true, function (slot0)
-		if uv0 ~= uv1:getPrefab() or not uv1.validate then
-			PoolMgr.GetInstance():ReturnSpineChar(uv0, slot0)
-
-			return
-		end
-
-		uv1:setModel(slot0)
-
-		if uv2 then
-			uv2()
-		end
-
-		uv3()
-		uv1:OnLoadSpine()
+		uv0:LoadAttachments()
+		uv0:OnLoadSpine()
 	end)
 
 	slot0.lastPrefab = slot2
@@ -148,28 +90,56 @@ end
 function slot0.OnLoadSpine(slot0)
 end
 
+function slot0.LoadAttachments(slot0)
+	if slot0._attachmentInfo then
+		for slot4, slot5 in pairs(slot0._attachmentInfo) do
+			if slot5.attachment_combat_ui[1] ~= "" then
+				slot0:GetLoader():LoadPrefab("Effect/" .. slot6, slot6, function (slot0)
+					uv0._attachmentList[uv1] = slot0
+
+					tf(slot0):SetParent(tf(uv0.model))
+
+					tf(slot0).localPosition = BuildVector3(uv2.attachment_combat_ui[2])
+				end)
+			end
+		end
+	end
+
+	if slot0._extraEffect and #slot0._extraEffect > 0 then
+		slot1 = slot0._extraEffect
+
+		slot0:GetLoader():LoadPrefab("effect/" .. slot1, slot1, function (slot0)
+			uv0._attachmentList[uv1] = slot0
+
+			tf(slot0):SetParent(tf(uv0.model))
+		end)
+	end
+end
+
 function slot0.unloadSpine(slot0)
 	if slot0.prefab and slot0.model then
 		slot0:SetSpineVisible(true)
+
+		slot0.model:GetComponent("SkeletonGraphic").raycastTarget = true
+
 		slot0:setAction(ChapterConst.ShipIdleAction)
 		slot0:ClearAttachments()
-		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefab, slot0.model)
 
 		slot0.model = nil
 		slot0._attachmentInfo = nil
 		slot0._extraEffect = nil
 	end
 
-	for slot4, slot5 in pairs(slot0._loadingRequest) do
-		slot5:Stop()
+	if slot0.loader then
+		slot0.loader:ClearRequests()
 	end
-
-	table.clear(slot0._loadingRequest)
 end
 
 function slot0.ClearAttachments(slot0)
 	for slot4, slot5 in pairs(slot0._attachmentList) do
-		Destroy(slot5)
+		if not IsNil(slot5) then
+			Destroy(slot5)
+		end
 	end
 
 	table.clear(slot0._attachmentList)
@@ -183,12 +153,11 @@ function slot0.SetSpineVisible(slot0, slot1)
 	slot2:GetComponent("SkeletonGraphic").color = Color.New(1, 1, 1, slot1 and 1 or 0)
 end
 
-function slot0.clear(slot0)
+function slot0.Clear(slot0)
 	slot0:unloadSpine()
 
 	slot0.prefab = nil
 	slot0.anim = nil
-	slot0.validate = nil
 end
 
 return slot0
