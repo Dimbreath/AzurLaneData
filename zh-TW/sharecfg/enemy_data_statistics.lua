@@ -50403,7 +50403,7 @@ pg.enemy_data_statistics = {
 	},
 	[800] = {
 		cannon = 25,
-		name = "新手护卫舰",
+		name = "新手護衛艦",
 		air_growth = 0,
 		speed_growth = 0,
 		air = 0,
@@ -50478,7 +50478,7 @@ pg.enemy_data_statistics = {
 	},
 	[801] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "運輸艦",
 		air_growth = 0,
 		speed_growth = 0,
 		air = 0,
@@ -50632,7 +50632,7 @@ pg.enemy_data_statistics = {
 	},
 	[810] = {
 		cannon = 35,
-		name = "标准护卫舰",
+		name = "標準護衛艦",
 		air_growth = 0,
 		speed_growth = 0,
 		air = 0,
@@ -50707,7 +50707,7 @@ pg.enemy_data_statistics = {
 	},
 	[811] = {
 		cannon = 50,
-		name = "标准巡逻舰",
+		name = "標準巡邏艦",
 		air_growth = 0,
 		speed_growth = 0,
 		air = 0,
@@ -50782,7 +50782,7 @@ pg.enemy_data_statistics = {
 	},
 	[812] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "運輸艦",
 		air_growth = 0,
 		speed_growth = 0,
 		air = 0,
@@ -50936,7 +50936,7 @@ pg.enemy_data_statistics = {
 	},
 	[820] = {
 		cannon = 45,
-		name = "熟练护卫舰",
+		name = "熟練護衛艦",
 		air_growth = 0,
 		speed_growth = 0,
 		air = 0,
@@ -51011,7 +51011,7 @@ pg.enemy_data_statistics = {
 	},
 	[821] = {
 		cannon = 65,
-		name = "熟练巡逻舰",
+		name = "熟練巡邏艦",
 		air_growth = 0,
 		speed_growth = 0,
 		air = 0,
@@ -51086,7 +51086,7 @@ pg.enemy_data_statistics = {
 	},
 	[822] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "運輸艦",
 		air_growth = 0,
 		speed_growth = 0,
 		air = 0,
@@ -51281,7 +51281,7 @@ pg.enemy_data_statistics = {
 	},
 	[830] = {
 		cannon = 55,
-		name = "精锐护卫舰",
+		name = "精銳護衛艦",
 		air_growth = 0,
 		speed_growth = 0,
 		air = 0,
@@ -51356,7 +51356,7 @@ pg.enemy_data_statistics = {
 	},
 	[831] = {
 		cannon = 80,
-		name = "精锐巡逻舰",
+		name = "精銳巡邏艦",
 		air_growth = 0,
 		speed_growth = 0,
 		air = 0,
@@ -51431,7 +51431,7 @@ pg.enemy_data_statistics = {
 	},
 	[832] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "運輸艦",
 		air_growth = 0,
 		speed_growth = 0,
 		air = 0,
@@ -51667,7 +51667,7 @@ pg.enemy_data_statistics = {
 	},
 	[840] = {
 		cannon = 65,
-		name = "王牌护卫舰",
+		name = "王牌護衛艦",
 		air_growth = 0,
 		speed_growth = 0,
 		air = 0,
@@ -51742,7 +51742,7 @@ pg.enemy_data_statistics = {
 	},
 	[841] = {
 		cannon = 95,
-		name = "王牌巡逻舰",
+		name = "王牌巡邏艦",
 		air_growth = 0,
 		speed_growth = 0,
 		air = 0,
@@ -51817,7 +51817,7 @@ pg.enemy_data_statistics = {
 	},
 	[842] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "運輸艦",
 		air_growth = 0,
 		speed_growth = 0,
 		air = 0,
