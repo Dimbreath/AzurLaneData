@@ -139788,7 +139788,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"Your fleet was destroyed or harbor is at 0 integrity"
+			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -140334,7 +140334,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"Your fleet was destroyed or harbor is at 0 integrity"
+			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -140986,7 +140986,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"Your fleet was destroyed or harbor is at 0 integrity"
+			"Your fleet was destroyed"
 		},
 		icon = {
 			"dunkeerke"
@@ -141748,7 +141748,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"Your fleet was destroyed or harbor is at 0 integrity"
+			"Your fleet was destroyed"
 		},
 		icon = {
 			"lemaer",
@@ -142307,7 +142307,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"Your fleet was destroyed or harbor is at 0 integrity"
+			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -142970,7 +142970,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"Your fleet was destroyed or harbor is at 0 integrity"
+			"Your fleet was destroyed"
 		},
 		icon = {
 			"rangbaer"
@@ -143799,7 +143799,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"Your fleet was destroyed or harbor is at 0 integrity"
+			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -144386,7 +144386,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"Your fleet was destroyed or harbor is at 0 integrity"
+			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -145079,7 +145079,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"Your fleet was destroyed or harbor is at 0 integrity"
+			"Your fleet was destroyed"
 		},
 		icon = {
 			"dunkeerke"
@@ -145884,7 +145884,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"Your fleet was destroyed or harbor is at 0 integrity"
+			"Your fleet was destroyed"
 		},
 		icon = {
 			"lemaer",
@@ -146486,7 +146486,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"Your fleet was destroyed or harbor is at 0 integrity"
+			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -147193,7 +147193,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"Your fleet was destroyed or harbor is at 0 integrity"
+			"Your fleet was destroyed"
 		},
 		icon = {
 			"rangbaer"
@@ -148015,7 +148015,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"Your fleet was destroyed or harbor is at 0 integrity"
+			"Your fleet was destroyed"
 		},
 		icon = {
 			"rangbaer"
@@ -148620,7 +148620,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"Your fleet was destroyed or harbor is at 0 integrity"
+			"Your fleet was destroyed"
 		},
 		icon = {
 			"rangbaer",

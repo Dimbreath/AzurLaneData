@@ -557,31 +557,46 @@ function slot0.setItemVOs(slot0)
 
 	for slot5, slot6 in pairs(pg.shop_template.all) do
 		if slot1[slot6].genre == "gem_shop" then
-			if slot1[slot6].effect_args == "ship_bag_size" then
-				slot9 = slot1[slot6].limit_args[3]
+			slot7 = slot1[slot6].effect_args
+			slot8, slot9, slot10 = nil
 
-				if slot1[slot6].limit_args[2] and slot9 and slot8 <= slot0.player.ship_bag_max and slot0.player.ship_bag_max <= slot9 then
-					print("根据船坞大小插入商品ID", slot6)
+			if type(slot1[slot6].limit_args[1]) == "table" then
+				for slot15, slot16 in ipairs(slot1[slot6].limit_args) do
+					if slot16[1] == "level" then
+						slot8 = slot16[2]
+					elseif slot17 == "count" then
+						slot9 = slot16[2]
+						slot10 = slot16[3]
+					end
+				end
+			elseif type(slot11) == "string" then
+				if slot11 == "level" then
+					slot8 = slot1[slot6].limit_args[2]
+				elseif slot11 == "count" then
+					slot9 = slot1[slot6].limit_args[2]
+					slot10 = slot1[slot6].limit_args[3]
+				end
+			end
+
+			if slot7 == "ship_bag_size" and slot9 and slot10 then
+				if slot9 <= slot0.player.ship_bag_max and slot0.player.ship_bag_max <= slot10 then
+					print("ship_bag_size type shop id", slot6)
 					table.insert(slot0.itemVOs, Goods.New({
 						count = 0,
 						shop_id = slot6
 					}, Goods.TYPE_MILITARY))
 				end
-			elseif slot7 == "equip_bag_max" then
-				slot9 = slot1[slot6].limit_args[3]
-
-				if slot1[slot6].limit_args[2] and slot9 and slot8 <= slot0.player.equip_bag_max and slot0.player.equip_bag_max <= slot9 then
-					print("根据装备仓库大小插入商品ID", slot6)
+			elseif slot7 == "equip_bag_max" and slot9 and slot10 then
+				if slot9 <= slot0.player.equip_bag_max and slot0.player.equip_bag_max <= slot10 then
+					print("equip_bag_max type shop id", slot6)
 					table.insert(slot0.itemVOs, Goods.New({
 						count = 0,
 						shop_id = slot6
 					}, Goods.TYPE_MILITARY))
 				end
-			elseif slot7 == "commander_bag_size" then
-				slot9 = slot1[slot6].limit_args[3]
-
-				if slot1[slot6].limit_args[2] and slot9 and slot8 <= slot0.player.commanderBagMax and slot0.player.commanderBagMax <= slot9 then
-					print("根据指挥猫大小插入商品ID", slot6)
+			elseif slot7 == "commander_bag_size" and slot9 and slot10 then
+				if slot9 <= slot0.player.commanderBagMax and slot0.player.commanderBagMax <= slot10 then
+					print("commander_bag_size shop id", slot6)
 					table.insert(slot0.itemVOs, Goods.New({
 						count = 0,
 						shop_id = slot6
