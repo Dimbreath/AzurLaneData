@@ -261,7 +261,7 @@ function scrollTo(slot0, slot1, slot2)
 	Canvas.ForceUpdateCanvases()
 
 	slot3 = GetComponent(slot0, typeof(ScrollRect))
-	slot4 = Vector2(slot1, slot2)
+	slot4 = Vector2(slot1 or slot3.normalizedPosition.x, slot2 or slot3.normalizedPosition.y)
 	slot3.normalizedPosition = slot4
 
 	slot3.onValueChanged:Invoke(slot4)

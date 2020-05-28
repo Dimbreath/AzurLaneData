@@ -89466,6 +89466,474 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[207091] = {
+		oxy_max = 0,
+		type = 7,
+		name = "リトル・イラストリアス ",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.6",
+		rarity = 4,
+		ammo = 0,
+		id = 207091,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Illustrious",
+		oxy_cost = 0,
+		skin_id = 207090,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1018,
+			0,
+			0,
+			50,
+			72,
+			41,
+			0,
+			29,
+			13,
+			30.5,
+			44,
+			0
+		},
+		attrs_growth = {
+			24820,
+			0,
+			0,
+			976,
+			710,
+			202,
+			0,
+			432,
+			186,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			113,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[207092] = {
+		oxy_max = 0,
+		type = 7,
+		name = "リトル・イラストリアス ",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.6",
+		rarity = 4,
+		ammo = 0,
+		id = 207092,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Illustrious",
+		oxy_cost = 0,
+		skin_id = 207090,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1266,
+			0,
+			0,
+			62,
+			90,
+			41,
+			0,
+			29,
+			13,
+			30.5,
+			44,
+			0
+		},
+		attrs_growth = {
+			24820,
+			0,
+			0,
+			976,
+			710,
+			202,
+			0,
+			432,
+			186,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			113,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.13,
+			1.13,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[207093] = {
+		oxy_max = 0,
+		type = 7,
+		name = "リトル・イラストリアス ",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.6",
+		rarity = 4,
+		ammo = 0,
+		id = 207093,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Illustrious",
+		oxy_cost = 0,
+		skin_id = 207090,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1763,
+			0,
+			0,
+			87,
+			125,
+			41,
+			0,
+			29,
+			13,
+			30.5,
+			44,
+			0
+		},
+		attrs_growth = {
+			24820,
+			0,
+			0,
+			976,
+			710,
+			202,
+			0,
+			432,
+			186,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			113,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.18,
+			1.18,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[207094] = {
+		oxy_max = 0,
+		type = 7,
+		name = "リトル・イラストリアス ",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.6",
+		rarity = 4,
+		ammo = 0,
+		id = 207094,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Illustrious",
+		oxy_cost = 0,
+		skin_id = 207090,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2507,
+			0,
+			0,
+			123,
+			179,
+			41,
+			0,
+			29,
+			13,
+			30.5,
+			44,
+			0
+		},
+		attrs_growth = {
+			24820,
+			0,
+			0,
+			976,
+			710,
+			202,
+			0,
+			432,
+			186,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			7446,
+			0,
+			0,
+			614,
+			1210,
+			473,
+			0,
+			5,
+			769,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			113,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[213011] = {
 		oxy_max = 0,
 		type = 13,
@@ -228876,6 +229344,10 @@ pg.ship_data_statistics = {
 		207062,
 		207063,
 		207064,
+		207091,
+		207092,
+		207093,
+		207094,
 		213011,
 		213012,
 		213013,

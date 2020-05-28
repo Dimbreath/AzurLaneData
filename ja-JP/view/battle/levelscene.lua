@@ -34,15 +34,19 @@ function slot0.preload(slot0, slot1)
 		uv0:ReturnPrefab("chapter/cell_quad_mark", "", slot0)
 		uv1()
 	end)
+	slot5:GetPrefab("chapter/cell", "", true, function (slot0)
+		uv0:ReturnPrefab("chapter/cell", "", slot0)
+		uv1()
+	end)
 
 	slot10 = true
 
 	function slot11(slot0)
-		uv0:ReturnPrefab("chapter/cell", "", slot0)
+		uv0:ReturnPrefab("chapter/plane", "", slot0)
 		uv1()
 	end
 
-	slot5:GetPrefab("chapter/cell", "", slot10, slot11)
+	slot5:GetPrefab("chapter/plane", "", slot10, slot11)
 
 	slot6 = {
 		{
@@ -52,7 +56,7 @@ function slot0.preload(slot0, slot1)
 		}
 	}
 	slot0.loadedTpls = {}
-	slot3 = 0 + 4 + #slot6
+	slot3 = 0 + 5 + #slot6
 
 	for slot10, slot11 in pairs(slot6) do
 		LoadAndInstantiateAsync(slot11[2], slot11[1], function (slot0)
@@ -3125,7 +3129,7 @@ function slot0.willExit(slot0)
 
 	slot4 = ""
 
-	PoolMgr.GetInstance():DestroyPrefab("effect/juguangdeng_SLG", slot4)
+	PoolMgr.GetInstance():DestroyPrefab("chapter/plane", slot4)
 
 	for slot4, slot5 in pairs(slot0.mbDict) do
 		slot5:Destroy()

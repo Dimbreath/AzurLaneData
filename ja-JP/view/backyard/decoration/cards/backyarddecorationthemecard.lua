@@ -23,7 +23,7 @@ function slot0.Update(slot0, slot1, slot2)
 
 		if not slot3 then
 			if BackYardThemeTempalteUtil.FileExists(slot1:GetTextureIconName()) or slot1:IsPushed() then
-				BackYardThemeTempalteUtil.GetTexture(slot1:GetTextureIconName(), function (slot0)
+				BackYardThemeTempalteUtil.GetTexture(slot1:GetTextureIconName(), slot1:GetIconMd5(), function (slot0)
 					if slot0 then
 						setActive(uv0.rawIcon.gameObject, true)
 

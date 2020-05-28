@@ -238,4 +238,8 @@ seriesAsync({
 			DebugMgr.Inst:Switch2QATool()
 		end)
 	end
+
+	pg.UIMgr.GetInstance():AddDebugButton("Print", function ()
+		getProxy(TechnologyNationProxy):printNationPointLog()
+	end)
 end)

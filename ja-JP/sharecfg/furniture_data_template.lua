@@ -4156,6 +4156,88 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100015] = {
+		advice = 0,
+		describe = "どんなサプライズなんだ…？",
+		count = 1,
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		name = "サプライズミニチュライズ ",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "yurenheicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 100015,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yurenheB",
+				"normal"
+			},
+			{
+				"yurenheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action1",
+						"yurenheCharControl",
+						"sit"
+					},
+					{
+						"action2",
+						"yurenheCharControl2",
+						"sit"
+					},
+					{
+						"action3",
+						"yurenheCharControl",
+						"sit"
+					}
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"yurenheCharControl",
+				"yurenheCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "至る所がぼろぼろになっているフローリング。足元注意。",
@@ -68349,6 +68431,7 @@ pg.furniture_data_template = {
 		100012,
 		100013,
 		100014,
+		100015,
 		1001,
 		1002,
 		1101,

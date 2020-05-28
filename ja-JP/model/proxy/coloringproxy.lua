@@ -65,7 +65,9 @@ function slot0.netUpdateData(slot0, slot1)
 		end
 	end
 
-	slot0.colorGroups[slot6 + 1]:setState(slot6 == 0 and ColorGroup.StateColoring or ColorGroup.StateLock)
+	if slot6 + 1 <= #slot0.colorGroups then
+		slot0.colorGroups[slot6 + 1]:setState(slot6 == 0 and ColorGroup.StateColoring or ColorGroup.StateLock)
+	end
 
 	for slot10 = slot6 + 2, #slot0.colorGroups do
 		if not slot0.colorGroups[slot10]:getState() then

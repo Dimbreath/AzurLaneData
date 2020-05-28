@@ -9999,6 +9999,60 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40910] = {
+		display = "ランダムなドレス（夏2020）シリーズの着せ替え衣装、上級指向型強化ユニット・二期目×2、ダイヤ×2020、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "福袋（夏2020）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40910,
+		icon = "Props/lihe3",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				69910,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[41001] = {
 		display = "明石からのバレンタインプレゼント",
 		rarity = 8,
@@ -100247,6 +100301,132 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59791] = {
+		display = "絵の具A",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "絵の具A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 607,
+		id = 59791,
+		icon = "props/draw_a",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59792] = {
+		display = "絵の具B",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "絵の具B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 607,
+		id = 59792,
+		icon = "props/draw_b",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59793] = {
+		display = "絵の具C",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "絵の具C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 607,
+		id = 59793,
+		icon = "props/draw_c",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59794] = {
+		display = "絵の具D",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "絵の具D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 607,
+		id = 59794,
+		icon = "props/draw_d",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59795] = {
+		display = "絵の具E",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "絵の具E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 607,
+		id = 59795,
+		icon = "props/draw_e",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59796] = {
+		display = "絵の具F",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "絵の具F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 607,
+		id = 59796,
+		icon = "props/draw_f",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59797] = {
+		display = "絵の具G",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "絵の具G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 607,
+		id = 59797,
+		icon = "props/draw_g",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59801] = {
 		display = "ピースA-1",
 		rarity = 2,
@@ -102769,6 +102949,39 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[69910] = {
+		display = [[
+下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
+各衣装の出現割合：
+（<color=#92fc63>10.0%</color>）平海：デリシャス・クリムゾン（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.0%</color>）セントルイス：Luxury Handle（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.6%</color>）ダイドー：多感なるBIsqueDoll；
+（<color=#92fc63>7.6%</color>）エンタープライズ：英雄の儀典礼装；
+（<color=#92fc63>7.6%</color>）マサチューセッツ：ドレッシービューティー；
+（<color=#92fc63>7.6%</color>）アルバコア：ミッション・アカンプリス；
+（<color=#92fc63>7.6%</color>）リットリオ：カラブリア・アウレア；
+（<color=#92fc63>7.0%</color>）寧海：ゴージャス・ヴァイオレット；
+（<color=#92fc63>7.0%</color>）ビロクシ：羅府エンプレス；
+（<color=#92fc63>7.0%</color>）阿賀野：蒼き告白モルフォ；
+（<color=#92fc63>7.0%</color>）ハムマン：ポニデレ・キャッツンイヤー；
+（<color=#92fc63>7.0%</color>）フォルバン：フェット・シャンパーニュ；
+（<color=#92fc63>7.0%</color>）サセックス：ワインと赤薔薇；]],
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "ランダム衣装（夏2020）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 69910,
+		icon = "Props/clothIcon",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[70000] = {
 		display = "「AIメモリアル」No.1開放用",
 		rarity = 4,
@@ -104030,6 +104243,7 @@ pg.item_data_statistics = {
 		40907,
 		40908,
 		40909,
+		40910,
 		41001,
 		41002,
 		41003,
@@ -106026,6 +106240,13 @@ pg.item_data_statistics = {
 		59785,
 		59786,
 		59788,
+		59791,
+		59792,
+		59793,
+		59794,
+		59795,
+		59796,
+		59797,
 		59801,
 		59802,
 		59803,
@@ -106153,6 +106374,7 @@ pg.item_data_statistics = {
 		69907,
 		69908,
 		69909,
+		69910,
 		70000,
 		70001,
 		70002,

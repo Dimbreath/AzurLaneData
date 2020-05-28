@@ -16,7 +16,7 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭茶屋",
+		name = "饅頭中華",
 		material_id = 59164,
 		id = 2,
 		desc = "「フフフ、ご注文はいかがでございましょうか？」",
@@ -46,7 +46,7 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭中華",
+		name = "饅頭茶屋",
 		material_id = 59164,
 		id = 4,
 		desc = "「はいバオズお待ち！」",

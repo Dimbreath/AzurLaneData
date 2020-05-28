@@ -180,7 +180,7 @@ function slot0.initInform(slot0)
 				return
 			end
 
-			uv0:emit(FriendInfoMediator.INFORM_BACKYARD, uv0.friend.id, uv0.informInfoForBackYard, uv0.contextData.msg)
+			uv0:emit(FriendInfoMediator.INFORM_BACKYARD, uv0.friend.id, uv0.informInfoForBackYard, uv0.contextData.msg, uv0.friend.name)
 		else
 			if not uv0.informInfo then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("inform_select_type"))

@@ -91,6 +91,7 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
+	PlayerPrefs.SetInt("Ever_Enter_Mall_" .. Goods.CUR_PACKET_ID, 1)
 	setActive(slot0.chat, false)
 	onButton(slot0, slot0:findTF("back_button", slot0.top), function ()
 		if uv0.prePage ~= uv1.TYPE_MENU then
@@ -482,8 +483,11 @@ function slot0.sortDamondItems(slot0, slot1)
 	slot0.tempDamondVOs = {}
 
 	for slot6, slot7 in ipairs(slot0.damondItemVOs) do
+		print(slot7.id, slot7:getConfig("name"), slot7.buyCount)
+
 		if slot7:isChargeType() then
 			slot7:updateBuyCount(slot0:getBuyCount(slot0.chargedList, slot7.id))
+			print(slot7.id, slot7:getConfig("name"), slot7.buyCount)
 
 			if slot2 == uv0.TYPE_DIAMOND and (slot7:isMonthCard() or slot7:isGem() or slot7:isGiftBox()) then
 				if slot7:canPurchase() and slot7:inTime() then

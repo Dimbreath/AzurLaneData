@@ -11379,6 +11379,71 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[207091] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20709,
+		breakout_id = 207092,
+		breakout_view = "戦闘機数+1/戦闘機補正+3%",
+		id = 207091,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60111,
+			54014
+		}
+	},
+	[207092] = {
+		use_gold = 1500,
+		pre_id = 207091,
+		use_char_num = 1,
+		use_char = 20709,
+		breakout_id = 207093,
+		breakout_view = "攻撃隊上限+1/攻撃機数+1/戦闘機補正+5%",
+		id = 207092,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60112,
+			54014,
+			60112,
+			54014
+		}
+	},
+	[207093] = {
+		use_gold = 2500,
+		pre_id = 207092,
+		use_char_num = 2,
+		use_char = 20709,
+		breakout_id = 207094,
+		breakout_view = "戦闘機数+1/戦闘機補正+7%",
+		id = 207093,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60113,
+			54015,
+			60113,
+			54015
+		}
+	},
+	[207094] = {
+		use_gold = 0,
+		pre_id = 207093,
+		use_char_num = 0,
+		use_char = 20709,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 207094,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[213011] = {
 		use_gold = 500,
 		pre_id = 0,
@@ -26012,6 +26077,10 @@ pg.ship_data_breakout = {
 		207062,
 		207063,
 		207064,
+		207091,
+		207092,
+		207093,
+		207094,
 		213011,
 		213012,
 		213013,

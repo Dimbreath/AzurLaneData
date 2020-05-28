@@ -1,53 +1,77 @@
 slot0 = class("BackYardRefreshShopTemplateCommand", pm.SimpleCommand)
-slot1 = 300
-slot0.nextRefreshTime = 0
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot5 = slot2.force
 
-	if pg.TimeMgr.GetInstance():GetServerTime() <= uv0.nextRefreshTime then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_theme_refresh_time_tip"))
+	if getProxy(DormProxy).lastPages[slot2.type] < slot2.page then
+		slot0:sendNotification(GAME.BACKYARD_REFRESH_SHOP_TEMPLATE_ERRO)
 
 		return
 	end
 
-	slot3 = getProxy(DormProxy)
-
-	function slot4(slot0)
-		for slot5, slot6 in ipairs(slot0.theme_id_list or {}) do
-			if not uv0:GetShopThemeTemplateById(slot6) then
-				slot8 = BackYardThemeTemplate.New({
-					id = slot6
-				})
+	function slot7(slot0, slot1)
+		for slot6, slot7 in ipairs(slot0.theme_id_list or {}) do
+			if not uv0:GetShopThemeTemplateById(slot7) then
+				BackYardThemeTemplate.New({
+					id = slot7
+				}):SetSortIndex(slot6)
 			else
-				slot1[slot7.id] = slot7
+				slot8:SetSortIndex(slot6)
+
+				slot2[slot8.id] = slot8
 			end
 		end
 
 		if table.getCount({
-			[slot8.id] = slot8
+			[slot9.id] = slot9
 		}) > 0 then
-			uv0:SetShopThemeTemplates(slot1)
+			uv0:SetShopThemeTemplates(slot2)
+
+			uv0.TYPE = uv1
+			uv0.PAGE = uv2
 		end
 
-		if table.getCount(slot1) == 0 then
-			uv0.PAGE = 1
+		if table.getCount(slot2) < BackYardConst.THEME_TEMPLATE_SHOP_REFRSH_CNT then
+			uv0.lastPages[uv1] = uv2
+
+			if not uv3 then
+				-- Nothing
+			end
 		end
 
-		uv1.nextRefreshTime = pg.TimeMgr.GetInstance():GetServerTime() + uv2
+		if slot1 then
+			slot1()
+		end
+	end
 
-		uv3:sendNotification(GAME.BACKYARD_REFRESH_SHOP_TEMPLATE_DONE)
+	function slot8(slot0)
+		uv0:sendNotification(GAME.BACKYARD_GET_IMG_MD5, {
+			type = BackYardConst.THEME_TEMPLATE_TYPE_SHOP,
+			callback = slot0
+		})
+	end
+
+	function slot9(slot0)
+		seriesAsync({
+			function (slot0)
+				uv0(uv1, slot0)
+			end,
+			function (slot0)
+				uv0(slot0)
+			end
+		}, function ()
+			uv0:sendNotification(GAME.BACKYARD_REFRESH_SHOP_TEMPLATE_DONE)
+		end)
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(19117, {
-		typ = slot3.TYPE,
-		page = slot3.PAGE,
+		typ = slot3,
+		page = slot4,
 		num = BackYardConst.THEME_TEMPLATE_SHOP_REFRSH_CNT
 	}, 19118, function (slot0)
 		if slot0.result == 0 then
-			uv0.PAGE = uv0.PAGE + 1
-
-			uv1(slot0)
+			uv0(slot0)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

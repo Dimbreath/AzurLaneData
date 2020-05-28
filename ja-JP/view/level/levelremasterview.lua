@@ -49,9 +49,8 @@ end
 
 function slot0.flush(slot0, slot1)
 	slot2 = pg.TimeMgr.GetInstance()
-	slot3 = UIItemList.New(slot0.content, slot0.item)
 
-	slot3:make(function (slot0, slot1, slot2)
+	UIItemList.New(slot0.content, slot0.item):make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			setActive(slot2:Find("right"), slot1 % 2 == 0)
 			setActive(slot2:Find("bg/icon"), false)
@@ -86,7 +85,6 @@ function slot0.flush(slot0, slot1)
 			end
 		end
 	end)
-	slot3:align(math.ceil(#slot0.templates / 4) * 4)
 	setText(slot0.numsTxt, slot0.tickets .. "/" .. pg.gameset.reactivity_ticket_max.key_value)
 	onButton(slot0, slot0._tf, function ()
 		uv0.onCancel()
@@ -130,7 +128,7 @@ function slot0.flush(slot0, slot1)
 					return slot0.activity_type == uv0
 				end)
 
-				uv2:align(math.max(math.ceil(#uv0.temp / 2) * 2), 4)
+				uv2:align(math.max(math.ceil(#uv0.temp / 2) * 2, 4))
 			end
 		end, SFX_PANEL)
 	end

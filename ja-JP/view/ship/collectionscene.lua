@@ -224,9 +224,9 @@ function slot0.didEnter(slot0)
 						uv1.musicView:closeSongListPanel()
 					end
 
-					pg.CriMgr:GetInstance():resumeNormalBGM()
+					pg.CriMgr:GetInstance():ResumeNormalBGM()
 				elseif uv0 == 6 and uv1.musicView and uv1.musicView:CheckState(BaseSubView.STATES.INITED) then
-					pg.CriMgr:GetInstance():stopBGM()
+					pg.CriMgr:GetInstance():StopBGM()
 					uv1.musicView:tryPlayMusic()
 				end
 
@@ -947,7 +947,7 @@ function slot0.initMusicPanel(slot0)
 
 		slot0.musicView:Reset()
 		slot0.musicView:Load()
-		pg.CriMgr:GetInstance():stopBGM()
+		pg.CriMgr:GetInstance():StopBGM()
 	end
 end
 

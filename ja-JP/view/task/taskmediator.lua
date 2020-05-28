@@ -79,9 +79,9 @@ function slot0.register(slot0)
 				end
 
 				if uv1.overFlow then
-					uv2()
+					uv2(uv3, uv1, uv0)
 				else
-					uv3(uv4, uv0)
+					uv4(uv3, uv0)
 				end
 			end
 
@@ -95,11 +95,11 @@ function slot0.register(slot0)
 		function slot7(slot0, slot1, slot2)
 			function slot1.sub.onYes()
 				if uv0.choice then
-					uv1()
+					uv1(uv2, uv0, uv3)
 				elseif uv0.overFlow then
-					uv2()
+					uv4(uv2, uv0, uv3)
 				else
-					uv3(uv4, uv5)
+					uv5(uv2, uv3)
 				end
 			end
 

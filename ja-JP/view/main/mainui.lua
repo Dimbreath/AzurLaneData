@@ -161,6 +161,7 @@ function slot0.init(slot0)
 	slot0._taskBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/taskButton")
 	slot0._guildButton = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/guildButton")
 	slot0._mallBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/mallBtn")
+	slot0._mallSellTag = slot0:findTF("SellTag", slot0._mallBtn)
 	slot0._liveBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/liveButton")
 	slot0._technologyBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/technologyButton")
 
@@ -1064,6 +1065,10 @@ function slot0.ResetActivityBtns(slot0)
 		slot2.spacing = slot1.LayoutProperty.Spacing
 	end
 
+	if slot1.LayoutProperty.Padding then
+		slot2.padding = slot2.padding.New(unpack(slot1.LayoutProperty.Padding))
+	end
+
 	for slot7, slot8 in ipairs(slot1.CurrentEntrancesList) do
 		if IsNil(tf(slot2):Find(slot1[slot8].ButtonName)) then
 			slot10 = cloneTplTo(slot0._ActivityBtnTpl, slot2, slot9.ButtonName)
@@ -1080,6 +1085,10 @@ function slot0.ResetActivityBtns(slot0)
 			if slot9.CtorButton then
 				slot9.CtorButton(slot0, slot10)
 			end
+		end
+
+		if slot1.LayoutProperty.CellScale then
+			slot10.localScale = slot1.LayoutProperty.CellScale
 		end
 
 		if slot9.UpdateButton then
@@ -2476,6 +2485,26 @@ function slot0.recycleSpineChar(slot0)
 		slot0.shipPrefab = nil
 		slot0.shipModel = nil
 	end
+end
+
+function slot0.updateMallBtnSellTag(slot0)
+	slot1 = false
+
+	if PlayerPrefs.GetInt("Ever_Enter_Mall_" .. Goods.CUR_PACKET_ID, 0) == 0 then
+		slot5 = nil
+
+		if getProxy(ShopsProxy):getChargedList() then
+			slot5 = slot4[slot2]
+		end
+
+		if slot5 and slot5.buyCount == 0 then
+			slot1 = true
+		elseif not slot5 then
+			slot1 = true
+		end
+	end
+
+	setActive(slot0._mallSellTag, slot1)
 end
 
 return slot0

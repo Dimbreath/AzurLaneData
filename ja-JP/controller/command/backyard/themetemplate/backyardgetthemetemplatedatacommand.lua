@@ -22,7 +22,9 @@ function slot0.execute(slot0, slot1)
 					fav_count = slot1.fav_count,
 					upload_time = slot1.upload_time,
 					is_collection = slot0.has_fav and 1 or 0,
-					is_like = slot0.has_like and 1 or 0
+					is_like = slot0.has_like and 1 or 0,
+					image_md5 = slot1.image_md5,
+					icon_image_md5 = slot1.icon_image_md5
 				}))
 			end
 

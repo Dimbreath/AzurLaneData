@@ -118,13 +118,13 @@ function slot0.BuildEliteFleetList(slot0)
 		slot1[slot6] = slot8
 
 		for slot13, slot14 in ipairs(slot7.commanders) do
-			if getProxy(CommanderProxy):getCommanderById(slot14.id) then
+			if getProxy(CommanderProxy):getCommanderById(slot14.id) and Commander.canEquipToFleetList(slot2, slot6, slot14.pos, slot15) then
 				-- Nothing
 			end
 		end
 
 		slot2[slot6] = {
-			[slot14.pos] = slot14.id
+			[slot16] = slot15
 		}
 	end
 

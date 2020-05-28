@@ -17,8 +17,13 @@ slot0.THEME_TEMPLATE_ADDED = "DormProxy THEME_TEMPLATE_ADDED"
 slot0.SHOP_THEME_TEMPLATE_DELETED = "DormProxy SHOP_THEME_TEMPLATE_DELETED"
 
 function slot0.register(slot0)
-	slot0.TYPE = 5
+	slot0.TYPE = 2
 	slot0.PAGE = 1
+	slot0.lastPages = {
+		[2] = math.huge,
+		[3] = math.huge,
+		[5] = math.huge
+	}
 	slot0.friendData = nil
 	slot0.systemThemes = {}
 
@@ -490,6 +495,33 @@ function slot0.GetSystemThemes(slot0)
 	end
 
 	return slot0.systemThemes
+end
+
+function slot0.NeedRefreshThemeTemplateShop(slot0)
+	if not slot0.refreshThemeTemplateShopTime then
+		slot0.refreshThemeTemplateShopTime = 0
+	end
+
+	if slot0.refreshThemeTemplateShopTime < pg.TimeMgr.GetInstance():GetServerTime() then
+		slot0.refreshThemeTemplateShopTime = slot1 + BackYardConst.AUTO_REFRESH_THEME_TEMPLATE_TIME
+
+		return true
+	end
+
+	return false
+end
+
+function slot0.NeedCollectionTip(slot0)
+	if slot0:GetThemeTemplateCollectionCnt() ~= PlayerPrefs.GetInt("backyard_template" .. getProxy(PlayerProxy):getRawData().id, 0) then
+		PlayerPrefs.SetInt("backyard_template" .. slot1, slot3)
+		PlayerPrefs.Save()
+	end
+
+	if slot3 < slot2 then
+		return true
+	end
+
+	return false
 end
 
 return slot0

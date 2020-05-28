@@ -344,9 +344,13 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0:findTF("top/back_btn", slot0.common), function ()
 		GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
 
-		LeanTween.delayedCall(0.3, System.Action(function ()
-			uv0:closeView()
-		end))
+		if not uv0.everTriggerBack then
+			LeanTween.delayedCall(0.3, System.Action(function ()
+				uv0:closeView()
+			end))
+
+			uv0.everTriggerBack = true
+		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.npcFlagTF, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

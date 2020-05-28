@@ -24,21 +24,28 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.SAVE_THEME, function (slot0, slot1, slot2)
+		pg.UIMgr.GetInstance():LoadingOn()
+
 		if table.getCount(getBackYardProxy(BackYardHouseProxy):getData().furnitures) == 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_save_empty_theme"))
 
 			return
 		end
 
+		slot4 = BackYardBaseThemeTemplate.BuildId(slot1)
+
 		seriesAsync({
 			function (slot0)
-				BackYardThemeTempalteUtil.TakePhoto(BackYardBaseThemeTemplate.BuildId(uv0), slot0)
+				BackYardThemeTempalteUtil.TakePhoto(uv0, slot0)
 			end,
 			function (slot0)
-				uv1:sendNotification(GAME.BACKYARD_SAVE_THEME_TEMPLATE, {
-					id = uv2,
-					name = uv3,
-					furnitureputList = uv0:getSaveData()
+				pg.UIMgr.GetInstance():LoadingOff()
+				uv2:sendNotification(GAME.BACKYARD_SAVE_THEME_TEMPLATE, {
+					id = uv3,
+					name = uv4,
+					furnitureputList = uv1:getSaveData(),
+					iconMd5 = BackYardThemeTempalteUtil.GetIconMd5(uv0),
+					imageMd5 = BackYardThemeTempalteUtil.GetMd5(uv0)
 				})
 				slot0()
 			end

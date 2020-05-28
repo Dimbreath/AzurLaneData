@@ -523,6 +523,14 @@ slot1 = {
 	[ActivityConst.FRANCE_PT_PAGE] = {
 		className = "FrancePTPage",
 		uiName = "FrancePTPage"
+	},
+	[ActivityConst.THIRD_ANNIVERSARY_PAGE] = {
+		className = "ThirdAnniversaryPage",
+		uiName = "ThirdAnniversaryPage"
+	},
+	[ActivityConst.JIQILIFU_SKIN] = {
+		className = "JiqilifuSkinPage",
+		uiName = "JiqilifuSkinPage"
 	}
 }
 slot2 = {

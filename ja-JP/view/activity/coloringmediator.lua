@@ -19,6 +19,7 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:setColorItems(slot3:getColorItems())
 	slot0.viewComponent:setColorGroups(slot3:getColorGroups())
+	slot0.viewComponent:DidMediatorRegisterDone()
 	slot0:tryColoringAchieve()
 end
 

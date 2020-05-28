@@ -1,7 +1,7 @@
 slot0 = class("InformBackYardThemeTemplateCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
+	slot3 = slot1:getBody().playerName
 
 	if getProxy(PlayerProxy):getRawData().level < 20 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("inform_level_limit"))
@@ -9,17 +9,23 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot4 = slot2.uid
-	slot5 = slot2.tid
+	slot5 = slot2.uid
+	slot6 = slot2.tid
 
-	for slot10, slot11 in ipairs(slot2.content) do
-		slot6 = slot11 + 0
+	for slot11, slot12 in ipairs(slot2.content) do
+		slot7 = slot12 + 0
+	end
+
+	if not getProxy(DormProxy):GetShopThemeTemplateById(slot6) and not slot8:GetCollectionThemeTemplateById(slot6) or not slot9.name then
+		return
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(19129, {
-		target_id = slot4,
-		theme_id = slot5,
-		reason = slot6
+		target_id = slot5,
+		target_name = slot3,
+		theme_id = slot6,
+		theme_name = slot9.name,
+		reason = slot7
 	}, 19130, function (slot0)
 		if slot0.result == 0 then
 			table.insert(getProxy(ChatProxy).informs, uv0 .. uv1)
