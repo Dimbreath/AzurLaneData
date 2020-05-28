@@ -97,4 +97,16 @@ function slot0.isBluePrintType(slot0)
 	return slot0:getConfig("type") == uv0.BLUEPRINT_TYPE
 end
 
+function slot0.IsSkinCoupun(slot0)
+	return pg.item_data_statistics[slot0].type == 0 and slot1.virtual_type == 13
+end
+
+function slot0.VItem2SkinCouponShopId(slot0)
+	for slot5, slot6 in ipairs(pg.shop_discount_coupon_template.all) do
+		if slot1[slot6].item == slot0 then
+			return slot6
+		end
+	end
+end
+
 return slot0

@@ -21,6 +21,26 @@ return {
 				dotType = 1,
 				number = 5
 			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				skill_id = 60,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onRemove"
+			},
+			arg_list = {
+				skill_id = 61,
+				target = "TargetSelf"
+			}
 		}
 	}
 }

@@ -178,7 +178,10 @@ function slot0.init(slot0)
 
 	if slot0.contextData.type ~= uv1.SHIP_CLASS_TYPE then
 		slot0.backyardMain = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui")
-		slot0.prevPos = tf(slot0.backyardMain).localPosition
+
+		if slot0.backyardMain then
+			slot0.prevPos = tf(slot0.backyardMain).localPosition
+		end
 	end
 end
 
@@ -352,16 +355,24 @@ function slot0.getExpAdditionSpeed(slot0)
 			end
 
 			slot1 = pg.dorm_data_template[uv0.dormVO.id]
+			slot2 = pg.benefit_buff_template
+			slot3 = uv0.playerVO:getBuffByType(BackYardConst.BACKYARD_BUFF)
 
-			for slot8, slot9 in pairs(uv0.playerVO:getBuffByType(BackYardConst.BACKYARD_BUFF)) do
-				if slot9.timestamp >= pg.TimeMgr.GetInstance():GetServerTime() then
-					slot4 = tonumber(pg.benefit_buff_template[slot9.id].benefit_effect) / 100 + 1
+			for slot8, slot9 in ipairs(getProxy(ActivityProxy):GetBuildingBuff()) do
+				if pg.benefit_buff_template[slot9.id].benefit_type == BackYardConst.BACKYARD_BUFF then
+					table.insert(slot3, slot9)
 				end
 			end
 
-			slot8 = uv0.dormVO:getComfortable()
+			for slot9, slot10 in pairs(slot3) do
+				if not slot10.timestamp or slot10.timestamp >= pg.TimeMgr.GetInstance():GetServerTime() then
+					slot5 = tonumber(slot2[slot10.id].benefit_effect) / 100 + 1
+				end
+			end
 
-			return pg.gameset["dorm_exp_ratio_by_" .. slot0].key_value / 100 * (pg.gameset.dorm_exp_base.key_value + slot1.exp * slot8 / (slot8 + pg.gameset.dorm_exp_ratio_comfort_degree.key_value)) * slot4 * (1 + 0.05 * uv0.playerVO.level)
+			slot9 = uv0.dormVO:getComfortable()
+
+			return pg.gameset["dorm_exp_ratio_by_" .. slot0].key_value / 100 * (pg.gameset.dorm_exp_base.key_value + slot1.exp * slot9 / (slot9 + pg.gameset.dorm_exp_ratio_comfort_degree.key_value)) * slot5 * (1 + 0.05 * uv0.playerVO.level)
 		end() * 3600 / pg.dorm_data_template[slot0.dormVO.id].time)
 	elseif slot0.contextData.type == uv0.SHIP_CLASS_TYPE then
 		slot2 = 0

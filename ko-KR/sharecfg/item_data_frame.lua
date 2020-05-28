@@ -125,7 +125,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 308,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>추후 이벤트를 통해 획득</color>\n",
+		desc = "<color=#ffffff>과거의 찬송가가 다시 천공에 울려 퍼지기를, Vive la Iris!</color>\n「하늘 아래의 찬송가」 이벤트 획득",
 		scene = {}
 	},
 	all = {

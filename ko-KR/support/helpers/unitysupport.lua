@@ -642,17 +642,17 @@ function long2int(slot0)
 	return slot1
 end
 
-function addSlip(slot0, slot1, slot2, slot3)
-	slot4 = GetOrAddComponent(slot1, "EventTriggerListener")
-	slot5 = nil
-	slot6 = 0
-	slot7 = 50
+function addSlip(slot0, slot1, slot2, slot3, slot4)
+	slot5 = GetOrAddComponent(slot1, "EventTriggerListener")
+	slot6 = nil
+	slot7 = 0
+	slot8 = 50
 
-	slot4:AddBeginDragFunc(function ()
+	slot5:AddPointDownFunc(function ()
 		uv0 = 0
 		uv1 = nil
 	end)
-	slot4:AddDragFunc(function (slot0, slot1)
+	slot5:AddDragFunc(function (slot0, slot1)
 		if not uv0 then
 			uv0 = slot1.position
 		end
@@ -663,13 +663,17 @@ function addSlip(slot0, slot1, slot2, slot3)
 			uv2 = slot2.y - uv0.y
 		end
 	end)
-	slot4:AddDragEndFunc(function (slot0, slot1)
+	slot5:AddPointUpFunc(function (slot0, slot1)
 		if uv0 < -uv1 then
 			if uv2 then
 				uv2()
 			end
-		elseif uv1 < uv0 and uv3 then
-			uv3()
+		elseif uv1 < uv0 then
+			if uv3 then
+				uv3()
+			end
+		elseif uv4 then
+			uv4()
 		end
 	end)
 end

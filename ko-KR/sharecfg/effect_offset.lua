@@ -1031,5 +1031,89 @@ pg.effect_offset = {
 			0.4,
 			0
 		}
+	},
+	weixi_qianghua = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		id = "weixi_qianghua",
+		offset = {
+			0,
+			-0.5,
+			-0.6
+		}
+	},
+	weixi_heihuaSTG = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		id = "weixi_heihuaSTG",
+		offset = {
+			0.3,
+			2.4,
+			-1.2
+		}
+	},
+	qianghuamo_kuangfeng = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		id = "qianghuamo_kuangfeng",
+		offset = {
+			-6.86,
+			1.8,
+			-2.75
+		}
+	},
+	qianghuamo_aimierbeierding = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		id = "qianghuamo_aimierbeierding",
+		offset = {
+			12.75,
+			3.04,
+			-2.75
+		}
+	},
+	qianghuamo_aerjiliya = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		id = "qianghuamo_aerjiliya",
+		offset = {
+			0.1,
+			3.37,
+			-2.75
+		}
+	},
+	qianghuamo_beiyaen = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		id = "qianghuamo_beiyaen",
+		offset = {
+			0,
+			3.88,
+			-2.75
+		}
+	},
+	qianghuamo_bulietani = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		id = "qianghuamo_bulietani",
+		offset = {
+			6.82,
+			2.5,
+			-2.75
+		}
 	}
 }

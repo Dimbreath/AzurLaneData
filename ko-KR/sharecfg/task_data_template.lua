@@ -83365,6 +83365,1395 @@ pg.task_data_template = {
 			"ACTIVITY_MAP"
 		}
 	},
+	[15580] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93050,
+		type = 6,
+		name = "『法系V2』角色收集：黎塞留",
+		count_inherit = 0,
+		desc = "[리슐리외] 한계돌파 3회 진행",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 805014,
+		id = 15580,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "805014",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				600
+			}
+		}
+	},
+	[15581] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93051,
+		type = 6,
+		name = "『法系V2』角色收集：阿尔及利亚",
+		count_inherit = 0,
+		desc = "[알제리] 한계돌파 3회 진행",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 903024,
+		id = 15581,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "903024",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				600
+			}
+		}
+	},
+	[15582] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93052,
+		type = 6,
+		name = "『法系V2』角色收集：圣女贞德",
+		count_inherit = 0,
+		desc = "[잔 다르크] 한계돌파 3회 진행",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 802024,
+		id = 15582,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "802024",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				600
+			}
+		}
+	},
+	[15583] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93053,
+		type = 6,
+		name = "『法系V2』角色收集：拉加利索尼耶",
+		count_inherit = 0,
+		desc = "[라 갈리소니에르] 한계돌파 3회 진행",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 902014,
+		id = 15583,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "902014",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				400
+			}
+		}
+	},
+	[15584] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93054,
+		type = 6,
+		name = "『法系V2』角色收集：沃克兰",
+		count_inherit = 0,
+		desc = "[보클랭] 한계돌파 3회 진행",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 901034,
+		id = 15584,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "901034",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				400
+			}
+		}
+	},
+	[15585] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93055,
+		type = 6,
+		name = "『法系V2』角色收集：贝亚恩",
+		count_inherit = 0,
+		desc = "[베아른] 한계돌파 3회 진행",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 807014,
+		id = 15585,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "807014",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				400
+			}
+		}
+	},
+	[15586] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93056,
+		type = 6,
+		name = "『法系V2』角色刷关：让巴尔",
+		count_inherit = 0,
+		desc = "한계돌파를 달성한 장 바르를 사용해 B3 혹은 B3의 적 기함을 10회 격파하고 생존",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15586,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1391213,
+			1393213
+		},
+		target_id_2 = {
+			905014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15587] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93057,
+		type = 6,
+		name = "『法系V2』角色刷关：鲁莽",
+		count_inherit = 0,
+		desc = "한계돌파를 달성한 르 테메레르를 사용해 B2 혹은 D2의 적 기함을 10회 격파하고 생존",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15587,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1391113,
+			1393113
+		},
+		target_id_2 = {
+			801034
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15588] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93058,
+		type = 6,
+		name = "『法系V2』角色刷关：倔强",
+		count_inherit = 0,
+		desc = "한계돌파를 달성한 로피니아트르를 사용해 A3 혹은 C3의 적 기함을 10회 격파하고 생존",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15588,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1390213,
+			1392213
+		},
+		target_id_2 = {
+			801044
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15589] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93059,
+		type = 6,
+		name = "『法系V2』角色刷关：命运女神",
+		count_inherit = 0,
+		desc = "한계돌파를 달성한 포춘을 사용해 A2 혹은 C2의 적 기함을 10회 격파하고 생존",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15589,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1390113,
+			1392113
+		},
+		target_id_2 = {
+			201124
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15662] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93206,
+		type = 26,
+		name = "国服三周年后山活动1",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 적 중요함대를 3번 격파하라!",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15662,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54013,
+				5
+			},
+			{
+				8,
+				59164,
+				15
+			}
+		}
+	},
+	[15664] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93208,
+		type = 26,
+		name = "国服三周年后山活动2",
+		count_inherit = 0,
+		desc = "전술 훈련을 2회 진행한다",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15664,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			},
+			{
+				8,
+				59164,
+				15
+			}
+		}
+	},
+	[15666] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93210,
+		type = 26,
+		name = "国服三周年后山活动3",
+		count_inherit = 0,
+		desc = "데일리 챌린지를 3회 진행한다",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15666,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50005,
+				3
+			},
+			{
+				8,
+				59164,
+				15
+			}
+		}
+	},
+	[15668] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93212,
+		type = 26,
+		name = "国服三周年后山活动4",
+		count_inherit = 0,
+		desc = "임의의 적함을 20척 격침한다",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15668,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				2
+			},
+			{
+				8,
+				59164,
+				15
+			}
+		}
+	},
+	[15670] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93214,
+		type = 26,
+		name = "国服三周年后山活动5",
+		count_inherit = 0,
+		desc = "함선 건조를 2회 진행한다",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15670,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54003,
+				2
+			},
+			{
+				8,
+				59164,
+				15
+			}
+		}
+	},
+	[15672] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93216,
+		type = 26,
+		name = "国服三周年后山活动6",
+		count_inherit = 0,
+		desc = "군사 의뢰를 2회 진행한다",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15672,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54024,
+				2
+			},
+			{
+				8,
+				59164,
+				15
+			}
+		}
+	},
+	[15674] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93218,
+		type = 26,
+		name = "国服三周年后山活动7",
+		count_inherit = 0,
+		desc = "장비 강화를 2회 진행한다",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15674,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50006,
+				3
+			},
+			{
+				8,
+				59164,
+				10
+			}
+		}
+	},
+	[15676] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93234,
+		type = 36,
+		name = "『法系V2』-日常建造",
+		count_inherit = 0,
+		desc = "함선 건조를 3회 진행한다",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15676,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59165,
+				300
+			}
+		}
+	},
+	[15677] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93235,
+		type = 36,
+		name = "『法系V2』-日常出击",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 전투에서 15번 승리하라!",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15677,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59165,
+				300
+			}
+		}
+	},
+	[15678] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93236,
+		type = 36,
+		name = "『法系V2』-日常困难本",
+		count_inherit = 0,
+		desc = "임의의 메인 스테이지 어려움 모드를 1회 클리어",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15678,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59165,
+				150
+			}
+		}
+	},
+	[15679] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93220,
+		type = 6,
+		name = "『法系V2』通关A1/C1",
+		count_inherit = 0,
+		desc = "A1 혹은 C1을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15680",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15679,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360001,
+			1360021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59165,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15680] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93221,
+		type = 6,
+		name = "『法系V2』通关A2/C2",
+		count_inherit = 0,
+		desc = "A2 혹은 C2 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15681",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15680,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360002,
+			1360022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59165,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15681] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93222,
+		type = 6,
+		name = "『法系V2』通关A3/C3",
+		count_inherit = 0,
+		desc = "A3 혹은 C3 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15682",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15681,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360003,
+			1360023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59165,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15682] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93223,
+		type = 6,
+		name = "『法系V2』通关B1/D1",
+		count_inherit = 0,
+		desc = "B1 혹은 D1 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15683",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15682,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360004,
+			1360024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59165,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15683] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93224,
+		type = 6,
+		name = "『法系V2』通关B2/D2",
+		count_inherit = 0,
+		desc = "B2 혹은 D2 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15684",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15683,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360005,
+			1360025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59165,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15684] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93225,
+		type = 6,
+		name = "『法系V2』通关B3/D3",
+		count_inherit = 0,
+		desc = "B3 혹은 D3 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15685",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15684,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360006,
+			1360026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59165,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15685] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93226,
+		type = 6,
+		name = "『法系V2』通关SP",
+		count_inherit = 0,
+		desc = "SP 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1360041,
+		id = 15685,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1360041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15686] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93227,
+		type = 6,
+		name = "『法系V2』通关D3",
+		count_inherit = 0,
+		desc = "D3 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1360026,
+		id = 15686,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1360026",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				175,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15687] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93228,
+		type = 6,
+		name = "『法系V2』A1/C1的3星",
+		count_inherit = 0,
+		desc = "A1 혹은 C1의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15688",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15687,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360001,
+			1360021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15688] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93229,
+		type = 6,
+		name = "『法系V2』A2/C2的3星",
+		count_inherit = 0,
+		desc = "A2 혹은 C2의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15689",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15688,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360002,
+			1360022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15689] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93230,
+		type = 6,
+		name = "『法系V2』A3/C3的3星",
+		count_inherit = 0,
+		desc = "A3 혹은 C3의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15690",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15689,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360003,
+			1360023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15690] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93231,
+		type = 6,
+		name = "『法系V2』B1/D1的3星",
+		count_inherit = 0,
+		desc = "B1 혹은 D1의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15691",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15690,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360004,
+			1360024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15691] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93232,
+		type = 6,
+		name = "『法系V2』B2/D2的3星",
+		count_inherit = 0,
+		desc = "B2 혹은 D2의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15692",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15691,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360005,
+			1360025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15692] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93233,
+		type = 6,
+		name = "『法系V2』B3/D3的3星",
+		count_inherit = 0,
+		desc = "B3 혹은 D3의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15692,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360006,
+			1360026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15693] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93292,
+		type = 6,
+		name = "登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "게임 로그인하기",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15693,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				160,
+				2
+			}
+		}
+	},
+	[15694] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93293,
+		type = 6,
+		name = "登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "게임 로그인하기",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15694,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				160,
+				2
+			}
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -95582,6 +96971,42 @@ pg.task_data_template = {
 		15572,
 		15573,
 		15574,
+		15580,
+		15581,
+		15582,
+		15583,
+		15584,
+		15585,
+		15586,
+		15587,
+		15588,
+		15589,
+		15662,
+		15664,
+		15666,
+		15668,
+		15670,
+		15672,
+		15674,
+		15676,
+		15677,
+		15678,
+		15679,
+		15680,
+		15681,
+		15682,
+		15683,
+		15684,
+		15685,
+		15686,
+		15687,
+		15688,
+		15689,
+		15690,
+		15691,
+		15692,
+		15693,
+		15694,
 		30201,
 		30202,
 		30203,

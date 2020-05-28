@@ -1,15 +1,15 @@
 slot0 = class("BackHillTemplate", import("view.base.BaseUI"))
 
 function slot0.getUIName(slot0)
+	return slot0.UIName
 end
 
-function slot0.Init(slot0)
-end
-
-function slot0.didEnter(slot0)
+function slot0.init(slot0)
+	slot0.loader = AutoLoader.New()
 end
 
 function slot0.willExit(slot0)
+	slot0.loader:Clear()
 end
 
 function slot0.InitFacility(slot0, slot1, slot2, slot3)
@@ -81,6 +81,10 @@ end
 function slot0.ChooseRandomPos(slot0, slot1)
 	if not math.random(1, slot1) then
 		return nil
+	end
+
+	while slot0[slot2].outRandom do
+		slot2 = math.random(1, slot1)
 	end
 
 	pg.Tool.Swap(slot0, slot2, slot1)

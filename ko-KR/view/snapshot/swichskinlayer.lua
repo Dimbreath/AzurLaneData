@@ -96,28 +96,31 @@ function slot0.openSelectSkinPanel(slot0)
 				if uv5 or uv6 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_skin_out_of_stock"))
 				else
-					slot0 = true
+					slot0 = Goods.New({
+						shop_id = uv4.id
+					}, Goods.TYPE_SKIN)
+					slot3 = i18n("text_buy_fashion_tip", slot0:GetPrice(), HXSet.hxLan(uv3.name))
 
-					if HXSet.isHx() then
-						slot0 = pg.shop_template[uv4.id].isHX ~= 1
+					if slot0:isDisCount() and slot0:IsItemDiscountType() then
+						slot3 = i18n("discount_coupon_tip", slot2, slot0:GetDiscountItem().name, HXSet.hxLan(uv3.name))
 					end
 
-					if slot0 then
-						slot1 = Goods.New({
-							shop_id = uv4.id
-						}, Goods.TYPE_SKIN)
-
-						if slot1:isDisCount() then
-							slot2 = slot1:getConfig("resource_num") * (100 - slot1:getConfig("discount")) / 100
-						end
-
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							content = i18n("text_buy_fashion_tip", slot2, HXSet.hxLan(uv3.name)),
-							onYes = function ()
-								uv0:emit(SwichSkinMediator.BUY_ITEM, uv1.id, 1)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = slot3,
+						onYes = function ()
+							if uv0 then
+								uv1:emit(SwichSkinMediator.BUY_ITEM_BY_ACT, uv2.id, 1)
+							else
+								uv1:emit(SwichSkinMediator.BUY_ITEM, uv2.id, 1)
 							end
-						})
-					end
+						end
+					})
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("text_buy_fashion_tip", slot2, HXSet.hxLan(uv3.name)),
+						onYes = function ()
+							uv0:emit(SwichSkinMediator.BUY_ITEM, uv1.id, 1)
+						end
+					})
 				end
 			end
 		end)

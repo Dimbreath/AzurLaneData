@@ -819,6 +819,10 @@ function getDropInfo(slot0)
 			table.insert(slot1, Item.New({
 				id = slot8
 			}):getConfig("name") .. "x" .. slot9)
+		elseif slot7 == DROP_TYPE_VITEM then
+			table.insert(slot1, Item.New({
+				id = slot8
+			}):getConfig("name") .. "x" .. slot9)
 		elseif slot7 == DROP_TYPE_FURNITURE then
 			table.insert(slot1, Furniture.New({
 				id = slot8
@@ -2143,6 +2147,10 @@ function getSpecialItemPage(slot0)
 		{
 			mediator = AssignedShipMediator,
 			viewComponent = AssignedShipScene3
+		},
+		{
+			mediator = AssignedShipMediator,
+			viewComponent = AssignedShipScene4
 		}
 	})[slot0]
 end

@@ -149,6 +149,23 @@ function slot0.updatePt(slot0, slot1, slot2)
 			end
 		end
 	end
+
+	slot7 = ActivityConst.ACTIVITY_TYPE_PIZZA_PT
+
+	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(slot7)) do
+		slot10 = nil
+
+		if slot8:getDataConfig("pt") > 0 then
+			slot3[slot9] = slot3[slot9] or slot2:getResource(slot9) - slot1:getResource(slot9)
+			slot10 = (slot8:getDataConfig("type") ~= 1 or math.max(slot3[slot9], 0)) and (slot8:getDataConfig("type") ~= 2 or math.min(slot3[slot9], 0)) and 0
+
+			if not slot8:isEnd() and slot10 ~= 0 then
+				slot8.data1 = slot8.data1 + math.abs(slot10)
+
+				slot0.activityProxy:updateActivity(slot8)
+			end
+		end
+	end
 end
 
 function slot0.UpdatePlayerRes(slot0, slot1, slot2)

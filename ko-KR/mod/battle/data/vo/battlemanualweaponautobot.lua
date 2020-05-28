@@ -58,6 +58,8 @@ function slot3.SetActive(slot0, slot1, slot2)
 		slot0._lastActiveTimeStamp = nil
 	end
 
+	slot0._fleetVO:AutoBotUpdated(slot1)
+
 	slot0._active = slot1
 	slot0._isPlayFocus = slot2
 end

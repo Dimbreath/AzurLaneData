@@ -1,7 +1,7 @@
 slot0 = class("Player", import(".PlayerAttire"))
 slot2 = pg.player_resource.get_id_list_by_name
 slot3, slot4 = nil
-slot0.MAX_SHIP_BAG = 2000
+slot0.MAX_SHIP_BAG = 4000
 slot0.MAX_EQUIP_BAG = 2000
 slot0.MAX_COMMANDER_BAG = 200
 slot0.ASSISTS_TYPE_SHAM = 0
@@ -90,6 +90,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.guildWaitTime = slot1.guild_wait_time or 0
 	slot0.commanderBagMax = slot1.commander_bag_max
 	slot0.displayTrophyList = slot1.medal_id or {}
+	slot0.banBackyardUploadTime = slot1.theme_upload_not_allowed_time or 0
 
 	if slot1.appreciation then
 		for slot7, slot8 in ipairs(slot1.appreciation.gallerys or {}) do
@@ -106,6 +107,14 @@ function slot0.Ctor(slot0, slot1)
 
 		for slot7, slot8 in ipairs(slot1.appreciation.favor_musics or {}) do
 			slot3:addMusicIDToLikeList(slot8)
+		end
+
+		if slot3:getResultForVer() then
+			pg.ConnectionMgr.GetInstance():Send(15300, {
+				type = 0,
+				ver_str = slot4
+			})
+			slot3:clearVer()
 		end
 	end
 
@@ -565,6 +574,10 @@ function slot0.GetCommonFlag(slot0, slot1)
 	return slot0.commonFlagList[slot1]
 end
 
+function slot0.CancelCommonFlag(slot0, slot1)
+	slot0.commonFlagList[slot1] = false
+end
+
 function slot0.updateCommanderBagMax(slot0, slot1)
 	slot0.commanderBagMax = slot0.commanderBagMax + slot1
 end
@@ -587,6 +600,14 @@ function slot0.GetDaysFromRegister(slot0)
 		month = os.date("%m", slot0.registerTime),
 		day = os.date("%d", slot0.registerTime)
 	})) / 86400)
+end
+
+function slot0.CanUploadBackYardThemeTemplate(slot0)
+	return slot0.banBackyardUploadTime <= pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+function slot0.GetBanUploadBackYardThemeTemplateTime(slot0)
+	return pg.TimeMgr.GetInstance():STimeDescC(slot0.banBackyardUploadTime or 0)
 end
 
 return slot0

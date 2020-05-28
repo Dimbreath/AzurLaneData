@@ -1,5 +1,113 @@
 pg = pg or {}
 pg.gametip = {
+	["new_airi_error_code_-1"] = {
+		tip = "Unknown Error",
+		key = "new_airi_error_code_-1"
+	},
+	new_airi_error_code_0 = {
+		tip = "Success",
+		key = "new_airi_error_code_0"
+	},
+	new_airi_error_code_100100 = {
+		tip = "This Device ID is banned",
+		key = "new_airi_error_code_100100"
+	},
+	new_airi_error_code_100110 = {
+		tip = "Verification failed, UID does not match with Token",
+		key = "new_airi_error_code_100110"
+	},
+	new_airi_error_code_100111 = {
+		tip = "Account creation failed",
+		key = "new_airi_error_code_100111"
+	},
+	new_airi_error_code_100112 = {
+		tip = "Account creation failed",
+		key = "new_airi_error_code_100112"
+	},
+	new_airi_error_code_100113 = {
+		tip = "Account binding success; Verification failed, this UID does not match with Token, failed to acquire Access Token",
+		key = "new_airi_error_code_100113"
+	},
+	new_airi_error_code_100114 = {
+		tip = "Account binding success; IP restricted, failed to acquire Access Token",
+		key = "new_airi_error_code_100114"
+	},
+	new_airi_error_code_100115 = {
+		tip = "Account binding success; Device ID is banned, failed to acquire Access Token",
+		key = "new_airi_error_code_100115"
+	},
+	new_airi_error_code_100116 = {
+		tip = "Account binding success; UID is banned, failed to acquire Access Token",
+		key = "new_airi_error_code_100116"
+	},
+	new_airi_error_code_100117 = {
+		tip = "Illegal parameters",
+		key = "new_airi_error_code_100117"
+	},
+	new_airi_error_code_100120 = {
+		tip = "IP restricted",
+		key = "new_airi_error_code_100120"
+	},
+	new_airi_error_code_100130 = {
+		tip = "This UID is banned",
+		key = "new_airi_error_code_100130"
+	},
+	new_airi_error_code_100140 = {
+		tip = "Access Token verification failed",
+		key = "new_airi_error_code_100140"
+	},
+	new_airi_error_code_100150 = {
+		tip = "This UID does not match with Transcode",
+		key = "new_airi_error_code_100150"
+	},
+	new_airi_error_code_100160 = {
+		tip = "User birthday has already been added",
+		key = "new_airi_error_code_100160"
+	},
+	new_airi_error_code_100170 = {
+		tip = "Invalid birthday format",
+		key = "new_airi_error_code_100170"
+	},
+	new_airi_error_code_100180 = {
+		tip = "This Twitter/Facebook account is not bound with the game account",
+		key = "new_airi_error_code_100180"
+	},
+	new_airi_error_code_100190 = {
+		tip = "Failed to verify the Token and Secret of this Twitter/Facebook account",
+		key = "new_airi_error_code_100190"
+	},
+	new_airi_error_code_100200 = {
+		tip = "This Twitter/Facebook account is already bound with another Airi UID",
+		key = "new_airi_error_code_100200"
+	},
+	new_airi_error_code_100210 = {
+		tip = "This UID does not match with the UID bound to the Twitter/Facebook account",
+		key = "new_airi_error_code_100210"
+	},
+	new_airi_error_code_100211 = {
+		tip = "Platform binding error",
+		key = "new_airi_error_code_100211"
+	},
+	new_airi_error_code_100212 = {
+		tip = "Platform unbinding error",
+		key = "new_airi_error_code_100212"
+	},
+	new_airi_error_code_100213 = {
+		tip = "Account binding with FB/TW failed",
+		key = "new_airi_error_code_100213"
+	},
+	new_airi_error_code_100220 = {
+		tip = "Facebook login cancelled",
+		key = "new_airi_error_code_100220"
+	},
+	new_airi_error_code_100221 = {
+		tip = "フェイスブック連携承認に失敗しました",
+		key = "new_airi_error_code_100221"
+	},
+	new_airi_error_code_100222 = {
+		tip = "ツイッター連携承認に失敗しました",
+		key = "new_airi_error_code_100222"
+	},
 	ad_0 = {
 		tip = "",
 		key = "ad_0"
@@ -6960,262 +7068,6 @@ B평가:<color=#92fc63>70</color>점
 		tip = "$1은(는) 가지고 있지 않습니다.",
 		key = "err_cloth_change_noship"
 	},
-	["new_airi_error_code_-1"] = {
-		tip = "Unknown Error",
-		key = "new_airi_error_code_-1"
-	},
-	new_airi_error_code_0 = {
-		tip = "Success",
-		key = "new_airi_error_code_0"
-	},
-	new_airi_error_code_100100 = {
-		tip = "This Device ID is banned",
-		key = "new_airi_error_code_100100"
-	},
-	new_airi_error_code_100110 = {
-		tip = "Verification failed, UID does not match with Token",
-		key = "new_airi_error_code_100110"
-	},
-	new_airi_error_code_100111 = {
-		tip = "Account creation failed",
-		key = "new_airi_error_code_100111"
-	},
-	new_airi_error_code_100112 = {
-		tip = "Account creation failed",
-		key = "new_airi_error_code_100112"
-	},
-	new_airi_error_code_100113 = {
-		tip = "Account binding success; Verification failed, this UID does not match with Token, failed to acquire Access Token",
-		key = "new_airi_error_code_100113"
-	},
-	new_airi_error_code_100114 = {
-		tip = "Account binding success; IP restricted, failed to acquire Access Token",
-		key = "new_airi_error_code_100114"
-	},
-	new_airi_error_code_100115 = {
-		tip = "Account binding success; Device ID is banned, failed to acquire Access Token",
-		key = "new_airi_error_code_100115"
-	},
-	new_airi_error_code_100116 = {
-		tip = "Account binding success; UID is banned, failed to acquire Access Token",
-		key = "new_airi_error_code_100116"
-	},
-	new_airi_error_code_100117 = {
-		tip = "Illegal parameters",
-		key = "new_airi_error_code_100117"
-	},
-	new_airi_error_code_100120 = {
-		tip = "IP restricted",
-		key = "new_airi_error_code_100120"
-	},
-	new_airi_error_code_100130 = {
-		tip = "This UID is banned",
-		key = "new_airi_error_code_100130"
-	},
-	new_airi_error_code_100140 = {
-		tip = "Access Token verification failed",
-		key = "new_airi_error_code_100140"
-	},
-	new_airi_error_code_100150 = {
-		tip = "This UID does not match with Transcode",
-		key = "new_airi_error_code_100150"
-	},
-	new_airi_error_code_100160 = {
-		tip = "User birthday has already been added",
-		key = "new_airi_error_code_100160"
-	},
-	new_airi_error_code_100170 = {
-		tip = "Invalid birthday format",
-		key = "new_airi_error_code_100170"
-	},
-	new_airi_error_code_100180 = {
-		tip = "This Twitter/Facebook account is not bound with the game account",
-		key = "new_airi_error_code_100180"
-	},
-	new_airi_error_code_100190 = {
-		tip = "Failed to verify the Token and Secret of this Twitter/Facebook account",
-		key = "new_airi_error_code_100190"
-	},
-	new_airi_error_code_100200 = {
-		tip = "This Twitter/Facebook account is already bound with another Airi UID",
-		key = "new_airi_error_code_100200"
-	},
-	new_airi_error_code_100210 = {
-		tip = "This UID does not match with the UID bound to the Twitter/Facebook account",
-		key = "new_airi_error_code_100210"
-	},
-	new_airi_error_code_100211 = {
-		tip = "Platform binding error",
-		key = "new_airi_error_code_100211"
-	},
-	new_airi_error_code_100212 = {
-		tip = "Platform unbinding error",
-		key = "new_airi_error_code_100212"
-	},
-	new_airi_error_code_100213 = {
-		tip = "Account binding with FB/TW failed",
-		key = "new_airi_error_code_100213"
-	},
-	new_airi_error_code_100220 = {
-		tip = "Facebook login cancelled",
-		key = "new_airi_error_code_100220"
-	},
-	new_airi_error_code_100221 = {
-		tip = "フェイスブック連携承認に失敗しました",
-		key = "new_airi_error_code_100221"
-	},
-	new_airi_error_code_100222 = {
-		tip = "ツイッター連携承認に失敗しました",
-		key = "new_airi_error_code_100222"
-	},
-	new_airi_error_code_100230 = {
-		tip = "Initialization failed",
-		key = "new_airi_error_code_100230"
-	},
-	new_airi_error_code_100300 = {
-		tip = "Invalid email address format",
-		key = "new_airi_error_code_100300"
-	},
-	new_airi_error_code_100301 = {
-		tip = "Email addresses do not match",
-		key = "new_airi_error_code_100301"
-	},
-	new_airi_error_code_100302 = {
-		tip = "Verification code request is too frequent",
-		key = "new_airi_error_code_100302"
-	},
-	new_airi_error_code_100303 = {
-		tip = "Verification failed, this verification code does not match or has become expired(30 minutes)",
-		key = "new_airi_error_code_100303"
-	},
-	new_airi_error_code_100304 = {
-		tip = "Verification failed too many times, this verification code has become expired upon the 10th failed attempt, please acquire a new verification code",
-		key = "new_airi_error_code_100304"
-	},
-	new_airi_error_code_100305 = {
-		tip = "This account is banned",
-		key = "new_airi_error_code_100305"
-	},
-	new_airi_error_code_100306 = {
-		tip = "Verification code cannot be empty",
-		key = "new_airi_error_code_100306"
-	},
-	new_airi_error_code_100404 = {
-		tip = "Network error",
-		key = "new_airi_error_code_100404"
-	},
-	new_airi_error_code_200100 = {
-		tip = "Purchase order creation failed - User birthday is required",
-		key = "new_airi_error_code_200100"
-	},
-	new_airi_error_code_200110 = {
-		tip = "Purchase order creation failed - Monthly purchase limit exceeded",
-		key = "new_airi_error_code_200110"
-	},
-	new_airi_error_code_200120 = {
-		tip = "Purchase order creation failed - Invalid order information / Item does not exist",
-		key = "new_airi_error_code_200120"
-	},
-	new_airi_error_code_200130 = {
-		tip = "Purchase order creation failed - Invalid order information / Payment method does not exist",
-		key = "new_airi_error_code_200130"
-	},
-	new_airi_error_code_200140 = {
-		tip = "Purchase order creation failed - serverTag does not exist",
-		key = "new_airi_error_code_200140"
-	},
-	new_airi_error_code_200150 = {
-		tip = "Payment receipt verification failed",
-		key = "new_airi_error_code_200150"
-	},
-	new_airi_error_code_200160 = {
-		tip = "Invalid purchase request (invalid user Token, invalid order, or item does not exist)",
-		key = "new_airi_error_code_200160"
-	},
-	new_airi_error_code_200170 = {
-		tip = "Purchase request failed on game server (Determined as an invalid purchase by game logic server)",
-		key = "new_airi_error_code_200170"
-	},
-	new_airi_error_code_200180 = {
-		tip = "The request is proceeding for a long time, notify the client to start a polling",
-		key = "new_airi_error_code_200180"
-	},
-	new_airi_error_code_200190 = {
-		tip = "Order ID does not exist",
-		key = "new_airi_error_code_200190"
-	},
-	new_airi_error_code_200200 = {
-		tip = "Order status tracking timed out",
-		key = "new_airi_error_code_200200"
-	},
-	new_airi_error_code_200210 = {
-		tip = "productid does not exist on GooglePay / AppStorePay / Molpay",
-		key = "new_airi_error_code_200210"
-	},
-	new_airi_error_code_200220 = {
-		tip = "GooglePay / AppStorePay / Molpay failed",
-		key = "new_airi_error_code_200220"
-	},
-	new_airi_error_code_200230 = {
-		tip = "GooglePay / AppStorePay / Molpay cancelled",
-		key = "new_airi_error_code_200230"
-	},
-	new_airi_error_code_200240 = {
-		tip = "请求的类型不支持结算API版本",
-		key = "new_airi_error_code_200240"
-	},
-	new_airi_error_code_200250 = {
-		tip = "提供给API的参数无效",
-		key = "new_airi_error_code_200250"
-	},
-	new_airi_error_code_200260 = {
-		tip = "API操作期间发生致命错误",
-		key = "new_airi_error_code_200260"
-	},
-	new_airi_error_code_200270 = {
-		tip = "当前设备上的Play商店不支持请求的功能",
-		key = "new_airi_error_code_200270"
-	},
-	new_airi_error_code_200280 = {
-		tip = "由于物品已经拥有，未消耗",
-		key = "new_airi_error_code_200280"
-	},
-	new_airi_error_code_200290 = {
-		tip = "由于物品已经拥有，并且消耗失败",
-		key = "new_airi_error_code_200290"
-	},
-	new_airi_error_code_200300 = {
-		tip = "请求的产品无法购买",
-		key = "new_airi_error_code_200300"
-	},
-	new_airi_error_code_200310 = {
-		tip = "Google Play服务无法连接",
-		key = "new_airi_error_code_200310"
-	},
-	new_airi_error_code_200320 = {
-		tip = "在Google Play响应之前，请求已达到最大超时时间",
-		key = "new_airi_error_code_200320"
-	},
-	new_airi_error_code_200330 = {
-		tip = "网络连接已关闭",
-		key = "new_airi_error_code_200330"
-	},
-	new_airi_error_code_200340 = {
-		tip = "用户取消了支付",
-		key = "new_airi_error_code_200340"
-	},
-	new_airi_error_code_200350 = {
-		tip = "查询商品ID失败",
-		key = "new_airi_error_code_200350"
-	},
-	new_airi_error_code_200360 = {
-		tip = "连接Play services失败",
-		key = "new_airi_error_code_200360"
-	},
-	new_airi_error_code_300100 = {
-		tip = "Sharing failed",
-		key = "new_airi_error_code_300100"
-	},
 	need_break_tip = {
 		tip = "한계돌파 필요",
 		key = "need_break_tip"
@@ -7621,7 +7473,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "·이벤트 기간(<color=#A1E400FF>2020.04.02-2020.04.15</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다.",
+		tip = "·이벤트 기간(<color=#A1E400FF>2020.05.28-2020.06.09</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다.",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -8846,7 +8698,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "타르투 출현확률UP! ",
+		tip = "리슐리외, 알제리, 보클랭 출현 확률 UP! ",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -12559,63 +12411,63 @@ TIPS:
 		key = "retire_title"
 	},
 	res_unlock_tip = {
-		tip = "消耗以下材料完成解锁",
+		tip = "다음의 재료를 소모하여 개방 가능",
 		key = "res_unlock_tip"
 	},
 	res_wifi_tip = {
-		tip = "正在使用非WIFI网络，下载可能产生流量，是否继续下载?",
+		tip = "현재 WIFI 환경이 아닙니다. 다운로드에 데이터가 발생할 수 있습니다. 계속 다운로드를 진행하시겠습니까?",
 		key = "res_wifi_tip"
 	},
 	res_downloading = {
-		tip = "下载中",
+		tip = "다운로드 중",
 		key = "res_downloading"
 	},
 	res_pic_time_all = {
-		tip = "全部",
+		tip = "모두",
 		key = "res_pic_time_all"
 	},
 	res_pic_time_2017_up = {
-		tip = "2017 上",
+		tip = "2017 상",
 		key = "res_pic_time_2017_up"
 	},
 	res_pic_time_2017_down = {
-		tip = "2017 下",
+		tip = "2017 하",
 		key = "res_pic_time_2017_down"
 	},
 	res_pic_time_2018_up = {
-		tip = "2018 上",
+		tip = "2018 상",
 		key = "res_pic_time_2018_up"
 	},
 	res_pic_time_2018_down = {
-		tip = "2018 下",
+		tip = "2018 하",
 		key = "res_pic_time_2018_down"
 	},
 	res_pic_time_2019_up = {
-		tip = "2019 上",
+		tip = "2019 상",
 		key = "res_pic_time_2019_up"
 	},
 	res_pic_time_2019_down = {
-		tip = "2019 下",
+		tip = "2019 하",
 		key = "res_pic_time_2019_down"
 	},
 	res_pic_time_2020_up = {
-		tip = "2020 上",
+		tip = "2020 상",
 		key = "res_pic_time_2020_up"
 	},
 	res_pic_new_tip = {
-		tip = "本次更新新增了$1张插画，快来看看吧",
+		tip = "이번 업데이트에서 신규 삽화가 $1장 추가되었습니다.",
 		key = "res_pic_new_tip"
 	},
 	res_music_no_pre_tip = {
-		tip = "没有前一首了",
+		tip = "첫 번째 곡입니다.",
 		key = "res_music_no_pre_tip"
 	},
 	res_music_no_next_tip = {
-		tip = "没有下一首了",
+		tip = "마지막 곡입니다.",
 		key = "res_music_no_next_tip"
 	},
 	res_music_new_tip = {
-		tip = "本次更新新增了$1首音乐，快来看看吧",
+		tip = "이번 업데이트에서 신규 음악이 $1곡 추가되었습니다.",
 		key = "res_music_new_tip"
 	},
 	apple_link_title = {
@@ -12692,5 +12544,168 @@ TIPS:
 	collect_tip2 = {
 		tip = "편성 중인 함선이 있습니다. 의뢰에 포함시킬 수 없습니다.",
 		key = "collect_tip2"
+	},
+	discount_coupon_tip = {
+		tip = "<color=#92fc63FF>$1 다이아</color> 및 <color=#92fc63FF>$2 </color>를 사용하여 <color=#92fc63FF>$3</color>를 구매하시겠습니까?",
+		key = "discount_coupon_tip"
+	},
+	pizzahut_help = {
+		key = "pizzahut_help",
+		tip = {
+			{
+				info = [[
+아래 지정된 스테이지 클리어 시 각기 다른 수량의<color=#92fc63>「피자 연구 물자」</color> 획득
+1. 제3장 및 이후의 일반 메인 해역
+2. 이벤트 스테이지 「하늘 아래의 찬송가」(EX 스테이지 제외)
+이벤트 규칙:
+1. 이벤트 기간 동안 지휘관은 <color=#92fc63>「피자 연구 물자」</color>를 획득 후 이벤트 페이지에서
+연구에 투입 가능. 연구 진도가 특정 단계에 도달 시 식재료 선택 화면
+등장. 지휘관은 피자의 재료를 선택
+2. 모든 특정 단계 연구를 완성 후, 자유 조합 모드가 해제됨.
+지휘관은 해당 모드에서 자유롭게 각종 식재료를 조합하여, 자신이 좋아하는
+피자를 연구 가능
+3. 연구 완성 후, 공유 버튼을 눌러 자신이 연구한 피자를 다른
+지휘관들과 공유 가능]]
+			}
+		}
+	},
+	towerclimbing_gametip = {
+		key = "towerclimbing_gametip",
+		tip = {
+			{
+				info = [[
+미니게임 설명:
+1. 화면의 좌우측과 점프 버튼으로 새러토가를 조종하여 위를 
+향해 올라갑니다. 한 계단을 오를 때마다 1층씩 더해집니다.
+2. 우측의 생명력에 주의하세요. 낙하하거나 함정에 빠지거나 
+화난 쥬쥬와 부딪히면 생명력이 차감되며, 모두 소진될 시
+게임 오버.
+3. 임의의 스테이지에서 10, 20, 30, 40, 50층에 도달할 시 수
+집품을 획득하며, 수집품은 수집수첩에 표시됩니다. 첫 번째 
+수첩을 완성 후, 다시 임의의 스테이지에서 50층에 도달하면 
+두 번째 수집수첩을 완성 가능합니다. 수첩을 완성할 때마다 
+보상을 획득합니다.
+이벤트 규칙:
+이벤트 기간 동안 매일 사용 가능 횟수 1회 획득. 사용 가능 
+횟수는 최대 7회 저장
+1. 사용 가능 횟수가 있을 경우, 쥬쥬대모험에 참가하면 횟수를 
+차감 하며 출석 횟수를 얻습니다. 출석 횟수 7회가 되면
+「특별 초대장」을 획득 가능
+2. 사용 가능 횟수는 축제광장 우측에서 볼 수 있으며, 출석 
+진도는 축제광장의 「초대장」 버튼을 통해 확인 가능
+3. 사용 가능 횟수가 없는 상황에서 쥬쥬대모험 진행 시 출석 
+횟수를 획득하지 않습니다.
+4. 기타 원인으로 인하여 미니게임 도중 퇴장할 경우 사용 가능 
+횟수를 소모하지 않으며,어떠한 보상도 획득할 수 없습니다.]]
+			}
+		}
+	},
+	qingdianguangchang_help = {
+		key = "qingdianguangchang_help",
+		tip = {
+			{
+				info = [[
+이벤트 기간: 2020.5.28-6.24
+이벤트 규칙:
+1.6월 3일까지 매일 0시에 1개 임무가 개방되며, 이벤트 
+임무를 완성하여「축제용 건축 자재」 와 보상을 획득할 수 
+있습니다. 임무는 누적 가능
+2.「축제용 건축 자재」를 사용하여 축제광장에서 건물을 
+업그레이드할 수 있으며, 모든 건 물은 각기 다른 
+BUFF 보너스를 제공합니다.
+3. 건물들은 3개 레벨로 나뉩니다. 레벨이 높을수록 제공하는
+BUFF 보너스도 증가합니다.
+4. 업그레이드 가능 건물:
+쥬쥬카페
+쥬쥬화과자
+쥬쥬버거
+쥬쥬만두]]
+			}
+		}
+	},
+	building_tip = {
+		tip = "업그레이드에 필요한 자재가 부족합니다.",
+		key = "building_tip"
+	},
+	building_upgrade_tip = {
+		tip = "업그레이드하시겠습니까? 그에 맞는 자재를 소모합니다.",
+		key = "building_upgrade_tip"
+	},
+	msgbox_text_upgrade = {
+		tip = "업그레이드",
+		key = "msgbox_text_upgrade"
+	},
+	towerclimbing_sign_help = {
+		key = "towerclimbing_sign_help",
+		tip = {
+			{
+				info = [[
+이벤트 규칙:
+이벤트 기간 동안 매일 사용 가능 횟수 1회 획득. 사용 가능 
+횟수는 최대 7회 저장
+1. 사용 가능 횟수가 있을 경우, 쥬쥬대모험에 참가하면 횟수를 
+차감 하며 출석 횟수를 얻습니다. 출석 횟수 7회가 되면
+「특별 초대장」을 획득 가능
+2. 사용 가능 횟수는 축제광장 우측에서 볼 수 있으며, 출석 
+진도는 축제광장의 「초대장」 버튼을 통해 확인 가능
+3. 사용 가능 횟수가 없는 상황에서 쥬쥬대모험 진행 시 출석 
+횟수를 획득하지 않습니다.
+4. 게임 내 퇴장 버튼을 통해 퇴장 시 결산이 진행됩니다. 기타 
+원인으로 인하여 미니게임 도중 퇴장할 경우 사용 가능 횟수를 
+소모하지 않으며,어떠한 보상도 획득할 수 없습니다.]]
+			}
+		}
+	},
+	building_complete_tip = {
+		tip = "업그레이드 완성",
+		key = "building_complete_tip"
+	},
+	backyard_theme_total_print = {
+		tip = "총 가격",
+		key = "backyard_theme_total_print"
+	},
+	towerclimbing_book_tip = {
+		tip = "이전의 수첩 수집 완성 후 해제 가능",
+		key = "towerclimbing_book_tip"
+	},
+	towerclimbing_reward_tip = {
+		tip = "수첩 수집 완성 후 보상 수령 가능",
+		key = "towerclimbing_reward_tip"
+	},
+	words_visit_backyard_toggle = {
+		tip = "친구 숙소 방문 허가",
+		key = "words_visit_backyard_toggle"
+	},
+	words_show_friend_backyardship_toggle = {
+		tip = "다른 사람 방문 흔적 표시",
+		key = "words_show_friend_backyardship_toggle"
+	},
+	words_show_my_backyardship_toggle = {
+		tip = "내 방문 흔적 표시",
+		key = "words_show_my_backyardship_toggle"
+	},
+	option_desc7 = {
+		tip = "기능 개방 후, 친구가 내 숙소를 방문할 수 있게 됩니다.",
+		key = "option_desc7"
+	},
+	option_desc8 = {
+		tip = "기능 개방 후, 친구가 내 숙소를 방문하면, 내 숙소에 친구의 비서함이 나타납니다.",
+		key = "option_desc8"
+	},
+	option_desc9 = {
+		tip = "기능 개방 후, 자신이 친구의 숙소를 방문하면, 친구 숙소에 내 비서함이 나타납니다.",
+		key = "option_desc9"
+	},
+	backyard_unopen = {
+		tip = "숙소 미개방",
+		key = "backyard_unopen"
+	},
+	coupon_timeout_tip = {
+		tip = "<color=#92fc63>「$1」</color> 기한 만료. 획득 불가",
+		key = "coupon_timeout_tip"
+	},
+	coupon_repeat_tip = {
+		tip = "<color=#92fc63>「$1」</color>를 이미 획득하였습니다. 중복 획득 불가",
+		key = "coupon_repeat_tip"
 	}
 }

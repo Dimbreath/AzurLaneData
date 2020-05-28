@@ -67,7 +67,7 @@ function slot0.update(slot0, slot1)
 					column = slot0[2]
 				},
 				item_type = ChapterConst.AttachNone
-			}).walkable = false
+			}):SetWalkable(slot0[3])
 		end
 	end)
 	_.each(slot1.cell_list, function (slot0)

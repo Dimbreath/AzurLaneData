@@ -10,8 +10,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.tfBufficons = slot0.tf:Find("random_buff_container")
 end
 
-function slot0.getOrder(slot0)
-	return 2
+function slot0.GetOrder(slot0)
+	return ChapterConst.CellPriorityEnemy
 end
 
 function slot0.SetActive(slot0, slot1)

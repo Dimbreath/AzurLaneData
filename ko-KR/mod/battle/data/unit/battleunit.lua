@@ -374,6 +374,10 @@ function slot9.GetRepressReduce(slot0)
 	return slot0._repressReduce or 1
 end
 
+function slot9.SetOverrideLevel(slot0, slot1)
+	slot0._overrideLevel = slot1
+end
+
 function slot9.SetSkinId(slot0)
 end
 

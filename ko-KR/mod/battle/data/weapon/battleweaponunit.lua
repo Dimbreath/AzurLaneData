@@ -26,6 +26,7 @@ function slot6.Ctor(slot0)
 	slot0._equipmentIndex = -1
 	slot0._dataProxy = uv0.Battle.BattleDataProxy.GetInstance()
 	slot0._tempEmittersList = {}
+	slot0._dumpedEmittersList = {}
 	slot0._reloadFacotrList = {}
 	slot0._diveEnabled = true
 	slot0._comboIDList = {}
@@ -59,12 +60,10 @@ function slot6.SetTemplateData(slot0, slot1)
 	slot0._minRangeSqr = slot1.min_range
 	slot0._fireFXFlag = slot1.fire_fx_loop_type
 	slot0._oxyList = slot1.oxy_type
-	slot0._majorEmitterList = {}
 	slot0._bulletList = slot1.bullet_ID
+	slot0._majorEmitterList = {}
 
-	for slot5, slot6 in ipairs(slot1.barrage_ID) do
-		slot0:createMajorEmitter(slot6, slot5)
-	end
+	slot0:ShiftBarrage(slot1.barrage_ID)
 
 	slot0._GCD = slot1.recover_time
 	slot0._preCastInfo = slot1.precast_param
@@ -631,7 +630,7 @@ function slot6.SingleFire(slot0, slot1, slot2)
 		slot1 = nil
 	end
 
-	for slot7, slot8 in ipairs(slot0._tmpData.barrage_ID) do
+	for slot7, slot8 in ipairs(slot0._barrageList) do
 		slot3[#slot3 + 1] = uv1.Battle[slot2 or uv0.EMITTER_NORMAL].New(function (slot0, slot1, slot2, slot3)
 			slot5 = uv0:Spawn(uv0._bulletList[uv1], uv2, uv3.EXTERNAL)
 
@@ -740,6 +739,12 @@ function slot6.Clear(slot0)
 			slot10:Destroy()
 		end
 	end
+
+	for slot4, slot5 in ipairs(slot0._dumpedEmittersList) do
+		for slot9, slot10 in ipairs(slot5) do
+			slot10:Destroy()
+		end
+	end
 end
 
 function slot6.Dispose(slot0)
@@ -814,6 +819,33 @@ function slot6.RevertBullet(slot0)
 	slot0._bulletList = slot0._tmpData.bullet_ID
 end
 
+function slot6.ShiftBarrage(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0._majorEmitterList) do
+		table.insert(slot0._dumpedEmittersList, slot6)
+	end
+
+	slot0._majorEmitterList = {}
+
+	if type(slot1) == "number" then
+		for slot6 = 1, #slot0._barrageList do
+		end
+
+		slot0._barrageList = {
+			[slot6] = slot1
+		}
+	elseif type(slot1) == "table" then
+		slot0._barrageList = slot1
+	end
+
+	for slot5, slot6 in ipairs(slot0._barrageList) do
+		slot0:createMajorEmitter(slot6, slot5)
+	end
+end
+
+function slot6.RevertBarrage(slot0)
+	slot0:ShiftBarrage(slot0._tmpData.barrage_ID)
+end
+
 function slot6.GetPrimalAmmoType(slot0)
 	return uv0.GetBulletTmpDataFromID(slot0._bulletList[1]).ammo_type
 end
@@ -852,8 +884,8 @@ function slot6.DispatchFireEvent(slot0, slot1, slot2)
 end
 
 function slot6.CheckAndShake(slot0)
-	if slot0._tmpData.shakescreen == 1 then
-		uv0.Battle.BattleCameraUtil.GetInstance():StartShake(pg.shake_template[uv1.ShakeType.FIRE])
+	if slot0._tmpData.shakescreen ~= 0 then
+		uv0.Battle.BattleCameraUtil.GetInstance():StartShake(pg.shake_template[slot0._tmpData.shakescreen])
 	end
 end
 

@@ -2800,6 +2800,48 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[175] = {
+		advice = 0,
+		describe = "「하늘 아래의 찬송가」 작전 중 뛰어난 업적을 거둔 자에게 수여하는 기념장. 과거 아이리스의 영광을 빛내는 것처럼 보인다.",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "하늘 기념장",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "하늘 아래의 찬송가 ",
+		themeId = 0,
+		icon = "faxi2xunzhangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 175,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"faxi2xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -3793,6 +3835,88 @@ pg.furniture_data_template = {
 					"Houzhai_yinghua",
 					"action1"
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100015] = {
+		advice = 0,
+		describe = "이 설레는 선물을 받을 준비 됐나요~?",
+		count = 1,
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		name = "「서프라이즈」선물",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "yurenheicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 100015,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yurenheB",
+				"normal"
+			},
+			{
+				"yurenheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action1",
+						"yurenheCharControl",
+						"sit"
+					},
+					{
+						"action2",
+						"yurenheCharControl2",
+						"sit"
+					},
+					{
+						"action3",
+						"yurenheCharControl",
+						"sit"
+					}
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"yurenheCharControl",
+				"yurenheCharControl2"
 			}
 		},
 		interAction_group = {}
@@ -65512,6 +65636,882 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[62001] = {
+		advice = 0,
+		describe = "조용하고 평화롭다. 이상적 생활이란 이런 것.",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "아이리스의 흔적 바닥",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 62,
+		icon = "dibanfaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62001,
+		picture = "fax/dibanfax",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62002] = {
+		advice = 0,
+		describe = "조용하고 평화롭다. 이상적 생활이란 이런 것.",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "아이리스의 흔적 벽지",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 62,
+		icon = "qiangbifaxicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62002,
+		picture = "fax/qiangbifax",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62101] = {
+		advice = 0,
+		describe = "환경을 꾸며주는 라벤더 꽃밭, 향긋한 냄새가 은은하게 풍긴다.",
+		count = 6,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "보라색 라벤더",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 62,
+		icon = "cao2faxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62101,
+		picture = "fax/cao2fax",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62102] = {
+		advice = 0,
+		describe = "환경을 꾸며주는 라벤더 꽃밭, 향긋한 냄새가 은은하게 풍긴다.",
+		count = 6,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "분홍색 라벤더",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 62,
+		icon = "caofaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62102,
+		picture = "fax/caofax",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62103] = {
+		advice = 0,
+		describe = "무엇을 사고 싶은지 구경해봐쥬!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "기념 상점쥬",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 62,
+		icon = "fang2faxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62103,
+		picture = "fax/fang2fax",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62104] = {
+		advice = 0,
+		describe = "꽃과 푸른 잎으로 둘러싸여 있는 것도 멋진 것 같아쥬!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "정원 계단",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 62,
+		icon = "fang3faxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 62104,
+		picture = "fax/fang3fax",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					146,
+					55
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62105] = {
+		advice = 0,
+		describe = "아이리스의 사람들이 일상적으로 거주하는 집",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "아이리스 주민",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 62,
+		icon = "fangfaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62105,
+		picture = "fax/fangfax",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62106] = {
+		advice = 0,
+		describe = "무기로 삼기에도 충분할 정도...",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "바게트",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 62,
+		icon = "gunfaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 62106,
+		picture = "fax/gunfax",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-5,
+					39
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62107] = {
+		advice = 0,
+		describe = "환상적인 색의 강물을 비치고 있어요",
+		count = 3,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "아이리스 강",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 62,
+		icon = "hefaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62107,
+		picture = "fax/hefax",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62108] = {
+		advice = 0,
+		describe = "지면을 더욱 다채롭게 꾸며줄 거에요",
+		count = 4,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "꽃잎 장식",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 62,
+		icon = "huabanfaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62108,
+		picture = "fax/huabanfax",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62109] = {
+		advice = 0,
+		describe = "3개 1묶음인 예쁜 화단",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "아이리스 화단",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 62,
+		icon = "huapufaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62109,
+		picture = "fax/huapufax",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62110] = {
+		advice = 0,
+		describe = "꽃 장식이야말로 예술이네요",
+		count = 13,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "아이리스 울타리",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 62,
+		icon = "hulanfaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62110,
+		picture = "fax/hulanfax",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62111] = {
+		advice = 0,
+		describe = "당신에게도 아이리스의 축복이 깃들기를",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "오래된 교회",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 62,
+		icon = "loufaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 62111,
+		picture = "fax/loufax",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					46,
+					70
+				},
+				{
+					1,
+					1
+				},
+				"fax/loufax_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62112] = {
+		advice = 0,
+		describe = "세월의 흔적이 느껴지는 것 같아요",
+		count = 1,
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		name = "아이리스 아치형 문",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 62,
+		icon = "menfaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62112,
+		picture = "fax/menfax",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			7
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62113] = {
+		advice = 0,
+		describe = "색다른 풍채의 나무 간판",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "마을 간판",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 62,
+		icon = "paizifaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 62113,
+		picture = "fax/paizifax",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62114] = {
+		advice = 0,
+		describe = "평범한 나무일 뿐이에요. 평범한.",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "아이리스 나무",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 62,
+		icon = "shufaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62114,
+		picture = "fax/shufax",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62115] = {
+		advice = 0,
+		describe = "강과 같이 환상적인 색을 비치고 있는 욕조",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "아이리스 욕조",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 62,
+		icon = "zaopengfaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 62115,
+		picture = "fax/zaopengfax",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-15.3,
+					-22.6
+				},
+				{
+					1,
+					1
+				},
+				"fax/zaopengfax_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62116] = {
+		advice = 0,
+		describe = "자연에 둘러싸여 식사를 하면 빵이 얼마나 맛있는지 느낄 수 있어요",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "야외 식사 구역",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 62,
+		icon = "zhuofaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 62116,
+		picture = "fax/zhuofax",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-67.8,
+					54.4
+				},
+				{
+					1,
+					1
+				},
+				"fax/zhuofax_using"
+			},
+			{
+				"sit",
+				{
+					78.9,
+					80.3
+				},
+				{
+					-1,
+					1
+				},
+				"fax/zhuofax_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[62117] = {
+		advice = 0,
+		describe = "여기서 모든 곳을 똑똑히 볼 수 있어...쥬!",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "관광 열기구",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 62,
+		icon = "qiqiufaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62117,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiqiufaxB",
+				"normal"
+			},
+			{
+				"qiqiufaxT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"qiqiufaxCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[62118] = {
+		advice = 0,
+		describe = "유유히 돌아가는 풍차, 한가로운 생활쥬~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "순백 풍차",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 62,
+		icon = "fengchefaxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 62118,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fengchegfax",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -65574,6 +66574,7 @@ pg.furniture_data_template = {
 		169,
 		171,
 		173,
+		175,
 		100002,
 		100003,
 		100004,
@@ -65587,6 +66588,7 @@ pg.furniture_data_template = {
 		100012,
 		100013,
 		100014,
+		100015,
 		1001,
 		1002,
 		1101,
@@ -67026,6 +68028,26 @@ pg.furniture_data_template = {
 		61126,
 		61301,
 		61302,
-		61303
+		61303,
+		62001,
+		62002,
+		62101,
+		62102,
+		62103,
+		62104,
+		62105,
+		62106,
+		62107,
+		62108,
+		62109,
+		62110,
+		62111,
+		62112,
+		62113,
+		62114,
+		62115,
+		62116,
+		62117,
+		62118
 	}
 }

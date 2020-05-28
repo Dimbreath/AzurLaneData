@@ -30,6 +30,16 @@ function slot0.getContextByMediator(slot0, slot1)
 	return nil
 end
 
+function slot0.cleanUntilMediator(slot0, slot1)
+	for slot5 = #slot0.data, 1, -1 do
+		if not (slot0.data[slot5].mediator.__cname == slot1.__cname) then
+			table.remove(slot0.data, slot5)
+		else
+			break
+		end
+	end
+end
+
 function slot0.onRegister(slot0)
 	slot0.delegateOnces = {}
 	slot0.lastContext = nil

@@ -105,6 +105,7 @@ function slot5(slot0, slot1)
 					resourceNum = uv3,
 					shopId = uv4
 				})
+				uv5._tf:SetSiblingIndex(0)
 			end, SFX_CONFIRM)
 		end,
 		Hide = function (slot0)

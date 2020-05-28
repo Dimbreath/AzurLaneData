@@ -315,6 +315,26 @@ pg.player_resource = {
 		name = "xunliandianshu_fv2",
 		itemid = 59160
 	},
+	[156] = {
+		id = 156,
+		name = "union3_pt",
+		itemid = 59162
+	},
+	[157] = {
+		id = 157,
+		name = "bishengke_pt",
+		itemid = 59163
+	},
+	[159] = {
+		id = 159,
+		name = "faxiv2_pt",
+		itemid = 59165
+	},
+	[160] = {
+		id = 160,
+		name = "skinTicket6",
+		itemid = 59168
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -387,6 +407,18 @@ pg.player_resource = {
 		},
 		vote2019_pt = {
 			1001
+		},
+		skinTicket6 = {
+			160
+		},
+		faxiv2_pt = {
+			159
+		},
+		bishengke_pt = {
+			157
+		},
+		union3_pt = {
+			156
 		},
 		xunliandianshu_fv2 = {
 			154
@@ -642,6 +674,10 @@ pg.player_resource = {
 		152,
 		153,
 		154,
+		156,
+		157,
+		159,
+		160,
 		1001,
 		950,
 		951,

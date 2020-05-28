@@ -130,7 +130,7 @@ function slot0.RawShow(slot0)
 end
 
 function slot0.IsShowing(slot0)
-	return isActive(slot0._go)
+	return slot0:GetLoaded() and isActive(slot0._go)
 end
 
 function slot0.Destroy(slot0)

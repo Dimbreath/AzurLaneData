@@ -207,6 +207,12 @@ function slot0.IsType(slot0, slot1)
 	end
 end
 
+function slot0.StaticIsActivity(slot0)
+	if Map.bindConfigTable()[slot0] then
+		return slot2.type == Map.EVENT or slot3 == Map.ACTIVITY_HARD or slot3 == Map.ACTIVITY_EASY or slot3 == Map.ACT_EXTRA
+	end
+end
+
 function slot0.NeedRecordMap(slot0)
 	return slot0:getConfig("type") == uv0.INVALID or slot1 == uv0.SCENARIO or slot1 == uv0.ELITE
 end

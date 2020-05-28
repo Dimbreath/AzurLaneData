@@ -4,6 +4,7 @@ slot0 = pg.OSSMgr
 
 function slot0.Ctor(slot0)
 	slot0.instance = OSSStarter.ins
+	slot0.isIninted = false
 end
 
 function slot0.InitConfig(slot0)
@@ -25,24 +26,28 @@ function slot0.InitConfig(slot0)
 	elseif PLATFORM_CODE == PLATFORM_KR then
 		OSS_STS_URL = ""
 		OSS_ENDPOINT = "ap-northeast-2"
-		OSSBUCKETNAME = "cdn-blhx-s3"
+		OSSBUCKETNAME = "blhx-s3-houzhai-upload"
 		FOLDERNAME = "dorm_kr/"
 	elseif PLATFORM_CODE == PLATFORM_JP then
 		OSS_STS_URL = ""
 		OSS_ENDPOINT = "ap-northeast-1"
-		OSSBUCKETNAME = "blhxstatic"
+		OSSBUCKETNAME = "blhx-dorm-jp"
 		FOLDERNAME = "dorm_jp/"
 	end
 end
 
 function slot0.Init(slot0)
-	slot0:InitConfig()
-	slot0:InitOSS(slot0.instance.initMode)
+	if not slot0.isIninted then
+		slot0.isIninted = true
+
+		slot0:InitConfig()
+		slot0:InitClinet()
+	end
 end
 
-function slot0.InitOSS(slot0, slot1)
+function slot0.InitClinet(slot0, slot1)
 	pg.m02:sendNotification(GAME.GET_OSS_ARGS, {
-		mode = slot1,
+		mode = slot0.instance.initMode,
 		callback = function (slot0, slot1)
 			uv0:AddExpireTimer(slot1)
 			uv0.instance:InitWithArgs(unpack(slot0))
@@ -85,7 +90,7 @@ function slot0.AddExpireTimer(slot0, slot1)
 	print("expireTime: ", slot2)
 
 	slot0.timer = Timer.New(function ()
-		uv0:Init()
+		uv0:InitClinet()
 	end, slot2, 1)
 
 	slot0.timer:Start()

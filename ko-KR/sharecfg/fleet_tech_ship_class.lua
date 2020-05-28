@@ -1985,6 +1985,17 @@ pg.fleet_tech_ship_class = {
 			80201
 		}
 	},
+	[80202] = {
+		shiptype = 2,
+		name = "잔 다르크 ",
+		t_level = 3,
+		id = 80202,
+		t_level_1 = 132,
+		nation = 8,
+		ships = {
+			80202
+		}
+	},
 	[80301] = {
 		shiptype = 3,
 		name = "생 루이",
@@ -1994,6 +2005,28 @@ pg.fleet_tech_ship_class = {
 		nation = 8,
 		ships = {
 			89901
+		}
+	},
+	[80501] = {
+		shiptype = 5,
+		name = "리슐리외급",
+		t_level = 7,
+		id = 80501,
+		t_level_1 = 139,
+		nation = 8,
+		ships = {
+			80501
+		}
+	},
+	[80701] = {
+		shiptype = 7,
+		name = "베아른",
+		t_level = 4,
+		id = 80701,
+		t_level_1 = 138,
+		nation = 8,
+		ships = {
+			80701
 		}
 	},
 	[80801] = {
@@ -2037,7 +2070,30 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 131,
 		nation = 9,
 		ships = {
-			90102
+			90102,
+			90103
+		}
+	},
+	[90201] = {
+		shiptype = 2,
+		name = "라 갈리소니에르",
+		t_level = 5,
+		id = 90201,
+		t_level_1 = 135,
+		nation = 9,
+		ships = {
+			90201
+		}
+	},
+	[90301] = {
+		shiptype = 3,
+		name = "알제리",
+		t_level = 7,
+		id = 90301,
+		t_level_1 = 136,
+		nation = 9,
+		ships = {
+			90302
 		}
 	},
 	[90401] = {
@@ -2227,11 +2283,16 @@ pg.fleet_tech_ship_class = {
 		80102,
 		80103,
 		80201,
+		80202,
 		80301,
+		80501,
+		80701,
 		80801,
 		90101,
 		90103,
 		90104,
+		90201,
+		90301,
 		90401,
 		90501
 	}

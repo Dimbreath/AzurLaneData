@@ -5,13 +5,14 @@ function slot0.Ctor(slot0, slot1)
 	slot0.points = {}
 
 	for slot5, slot6 in pairs(slot1.Points) do
-		slot0.points[slot5] = setmetatable({
+		slot7 = {
 			id = slot5,
-			x = slot6.x,
-			y = slot6.y,
-			nexts = {},
-			scale = slot6.scale
-		}, Vector2)
+			nexts = {}
+		}
+
+		table.merge2dest(slot7, slot6)
+
+		slot0.points[slot5] = setmetatable(slot7, Vector2)
 	end
 
 	for slot5, slot6 in pairs(slot1.Edges) do

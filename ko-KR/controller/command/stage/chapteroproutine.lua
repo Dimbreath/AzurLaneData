@@ -27,27 +27,19 @@ function slot0.doMapUpdate(slot0)
 	if #slot0.data.map_update > 0 then
 		_.each(slot1.map_update, function (slot0)
 			if slot0.item_type == ChapterConst.AttachStory and slot0.item_data == ChapterConst.StoryTrigger then
-				slot1 = ChapterCell.New(slot0)
-
-				if _.detect(uv0.cellAttachments, function (slot0)
-					return slot0.row == uv0.row and slot0.column == uv0.column
-				end) then
-					if slot2.flag == 3 and slot1.flag == 4 and pg.map_event_template[slot2.attachmentId].gametip ~= "" then
+				if uv0.cellAttachments[ChapterCell.Line2Name(slot0.pos.row, slot0.pos.column)] then
+					if slot2.flag == 3 and slot0.item_flag == 4 and pg.map_event_template[slot2.attachmentId].gametip ~= "" then
 						pg.TipsMgr.GetInstance():ShowTips(i18n(slot3))
 					end
 
-					slot2.attachment = slot1.attachment
-					slot2.attachmentId = slot1.attachmentId
-					slot2.flag = slot1.flag
-					slot2.data = slot1.data
+					slot2.attachment = slot0.item_type
+					slot2.attachmentId = slot0.item_id
+					slot2.flag = slot0.item_flag
+					slot2.data = slot0.item_data
 				else
-					table.insert(uv0.cellAttachments, slot1)
+					uv0.cellAttachments[slot1] = ChapterCell.New(slot0)
 				end
-
-				return
-			end
-
-			if slot0.item_type ~= ChapterConst.AttachNone and slot0.item_type ~= ChapterConst.AttachBorn and slot0.item_type ~= ChapterConst.AttachBorn_Sub then
+			elseif slot0.item_type ~= ChapterConst.AttachNone and slot0.item_type ~= ChapterConst.AttachBorn and slot0.item_type ~= ChapterConst.AttachBorn_Sub then
 				uv0:mergeChapterCell(ChapterCell.New(slot0))
 			end
 		end)

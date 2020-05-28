@@ -1893,7 +1893,7 @@ end
 function slot0.updateCollectNotices(slot0, slot1)
 	slot0.hasCollectCanGetRes = slot1
 
-	SetActive(findTF(slot0._collectionBtn, "tip"), slot1)
+	SetActive(findTF(slot0._collectionBtn, "tip"), slot1 or getProxy(AppreciateProxy):isGalleryHaveNewRes() or getProxy(AppreciateProxy):isMusicHaveNewRes())
 end
 
 function slot0.updateGuildNotices(slot0, slot1)

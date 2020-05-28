@@ -122,7 +122,6 @@ function slot0.onLoadSlotModel(slot0, slot1)
 	slot0.canvasGroup = GetOrAddComponent(slot0.go, "CanvasGroup")
 	slot0.chatTF = slot0.tf:Find("chat")
 
-	slot0:loadClick()
 	slot0:loadExp()
 	slot0:loadInimacy()
 	slot0:loadMoeny()
@@ -131,9 +130,21 @@ function slot0.onLoadSlotModel(slot0, slot1)
 	slot0:updateShadowTF(true)
 	slot0:updatePosition(slot0.boatVO:getPosition())
 	slot0:updateShadowPos()
-	slot0:addBoatDragListenter()
+
+	if not slot0.boatVO:IsVisitor() then
+		slot0:addBoatDragListenter()
+		slot0:loadClick()
+	else
+		slot0:LoadName()
+	end
 
 	slot0.actionCallback = {}
+end
+
+function slot0.LoadName(slot0)
+	slot0.nameTF = slot0.tf:Find("name")
+
+	setText(slot0.nameTF, slot0.boatVO:GetName())
 end
 
 function slot0.CancelInterAction(slot0)
@@ -574,6 +585,10 @@ function slot0.updateInterActionPos(slot0, slot1, slot2)
 
 		setActive(slot12, true)
 		slot12:SetAsLastSibling()
+	end
+
+	if slot0.nameTF then
+		slot0.nameTF.localScale = Vector3(Mathf.Sign(slot0.tf.localScale.x), 1, 1)
 	end
 
 	slot0.tf.anchoredPosition = Vector3(slot5[1], slot5[2], 0)
@@ -1261,6 +1276,10 @@ function slot0.startMove(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0.tf.localScale = Vector3(uv1 * slot7 * slot8, uv1, 1)
+
+	if slot0.nameTF then
+		slot0.nameTF.localScale = Vector3(Mathf.Sign(slot0.tf.localScale.x), 1, 1)
+	end
 
 	slot0:changeInnerDir(slot7)
 

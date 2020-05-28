@@ -6121,6 +6121,252 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1360001] = {
+		map = 1360001,
+		name = "하늘 아래의 찬송가·상|| ||CHAPTER EX||E.X.",
+		bgm = "level03",
+		type = 4,
+		on_activity = 20464,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "SHENGYONGQU1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1320001",
+		cloud_suffix = "",
+		bg = "Map_1320001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1360011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1360002] = {
+		map = 1360002,
+		name = "하늘 아래의 찬송가·하| ||CHAPTER EX||E.X.",
+		bgm = "bsm-3",
+		type = 4,
+		on_activity = 20465,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "SHENGYONGQU16",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1320002",
+		cloud_suffix = "",
+		bg = "Map_1320002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1360012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1360011] = {
+		map = 1360011,
+		name = "하늘 아래의 찬송가·상|| ||CHAPTER EX||E.X.",
+		bgm = "level03",
+		type = 5,
+		on_activity = 20464,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "SHENGYONGQU1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1320003",
+		cloud_suffix = "",
+		bg = "Map_1320003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1360001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1360012] = {
+		map = 1360012,
+		name = "하늘 아래의 찬송가·하| ||CHAPTER EX||E.X.",
+		bgm = "bsm-3",
+		type = 5,
+		on_activity = 20465,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "SHENGYONGQU16",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1320004",
+		cloud_suffix = "",
+		bg = "Map_1320004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1360002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1360025] = {
+		map = 1360025,
+		name = "하늘 아래의 찬송가·SP|| ||CHAPTER EX||E.X.",
+		bgm = "level-french2",
+		type = 8,
+		on_activity = 20465,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1320004",
+		cloud_suffix = "",
+		bg = "Map_1320004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1360012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1360026] = {
+		map = 1360026,
+		name = "하늘 아래의 찬송가·EX|| ||CHAPTER EX||E.X.",
+		bgm = "level-french2",
+		type = 8,
+		on_activity = 20465,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1320004",
+		cloud_suffix = "",
+		bg = "Map_1320004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1360012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『홍염의 방문자』-전편|| ||CHAPTER EX||E.X.",
@@ -6945,6 +7191,12 @@ pg.expedition_data_by_map = {
 		1340012,
 		1340021,
 		1350001,
+		1360001,
+		1360002,
+		1360011,
+		1360012,
+		1360025,
+		1360026,
 		2100000,
 		2100001,
 		2100010,

@@ -42,39 +42,32 @@ function slot0.execute(slot0, slot1)
 					slot3:updatePlayer(slot4)
 				end
 
-				for slot5 = #PlayerConst.tranOwnShipSkin(slot0.award_list), 1, -1 do
-					slot6 = slot1[slot5]
-					uv1[#uv1 + 1] = slot6
-
-					if slot6.type ~= DROP_TYPE_SHIP then
-						uv2:sendNotification(GAME.ADD_ITEM, slot6)
-					end
-
-					if slot6.type == DROP_TYPE_ITEM and pg.item_data_statistics[slot6.id].virtual_type == 6 then
+				for slot4, slot5 in ipairs(PlayerConst.addTranDrop(slot0.award_list)) do
+					if slot5.type == DROP_TYPE_VITEM and pg.item_data_statistics[slot5.id].virtual_type == 6 then
 						if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) then
-							slot9[uv0.id] = (slot8.data1KeyValueList[1][uv0.id] or 0) + slot6.count
+							slot8[uv0.id] = (slot7.data1KeyValueList[1][uv0.id] or 0) + slot5.count
 
-							slot7:updateActivity(slot8)
+							slot6:updateActivity(slot7)
 						end
-
-						table.remove(uv1, slot5)
+					else
+						table.insert(uv1, slot5)
 					end
 				end
 
 				if uv0:getConfig("type") ~= 8 then
-					uv3:removeTask(uv0)
+					uv2:removeTask(uv0)
 				else
 					uv0.submitTime = 1
 
-					uv3:updateTask(uv0)
+					uv2:updateTask(uv0)
 				end
 
-				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR) and not slot3:isEnd() and table.contains(slot3:getConfig("config_data")[1] or {}, uv0.id) then
-					slot2:monitorTaskList(slot3)
+				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR) and not slot2:isEnd() and table.contains(slot2:getConfig("config_data")[1] or {}, uv0.id) then
+					slot1:monitorTaskList(slot2)
 				end
 
-				if uv4 == #uv5 then
-					uv2:sendNotification(GAME.SUBMIT_TASK_DONE, uv1, _.map(uv5, function (slot0)
+				if uv3 == #uv4 then
+					uv5:sendNotification(GAME.SUBMIT_TASK_DONE, uv1, _.map(uv4, function (slot0)
 						return slot0.id
 					end))
 				end

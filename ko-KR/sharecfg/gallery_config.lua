@@ -2,30 +2,24 @@ pg = pg or {}
 pg.gallery_config = {
 	{
 		unlock_other = 0,
-		name = "测试插画1",
+		name = "",
 		year = 1,
 		id = 1,
 		illustrate = "",
-		illustration = "gallerypictest_1",
+		illustration = "gallerypic1",
 		unlock_level = {
 			1,
 			0
 		},
-		unlock_cost = {
-			{
-				1,
-				1,
-				100
-			}
-		}
+		unlock_cost = {}
 	},
 	{
 		unlock_other = 0,
-		name = "测试插画2",
+		name = "",
 		year = 1,
 		id = 2,
 		illustrate = "",
-		illustration = "gallerypictest_2",
+		illustration = "gallerypic2",
 		unlock_level = {
 			1,
 			0
@@ -34,30 +28,24 @@ pg.gallery_config = {
 	},
 	{
 		unlock_other = 0,
-		name = "测试插画3",
-		year = 2,
+		name = "",
+		year = 1,
 		id = 3,
 		illustrate = "",
-		illustration = "gallerypictest_3",
+		illustration = "gallerypic3",
 		unlock_level = {
 			1,
 			0
 		},
-		unlock_cost = {
-			{
-				1,
-				2,
-				100
-			}
-		}
+		unlock_cost = {}
 	},
 	{
 		unlock_other = 0,
-		name = "测试插画4",
-		year = 2,
+		name = "",
+		year = 1,
 		id = 4,
 		illustrate = "",
-		illustration = "gallerypictest_4",
+		illustration = "gallerypic4",
 		unlock_level = {
 			1,
 			0
@@ -66,85 +54,339 @@ pg.gallery_config = {
 	},
 	{
 		unlock_other = 0,
-		name = "测试插画5",
-		year = 3,
+		name = "",
+		year = 1,
 		id = 5,
 		illustrate = "",
-		illustration = "gallerypictest_5",
+		illustration = "gallerypic5",
 		unlock_level = {
 			1,
 			0
 		},
-		unlock_cost = {
-			{
-				1,
-				1,
-				300
-			}
-		}
+		unlock_cost = {}
 	},
 	{
 		unlock_other = 0,
-		name = "测试插画6",
-		year = 3,
+		name = "",
+		year = 1,
 		id = 6,
-		illustrate = "指挥官等级达到LV.10后开放",
-		illustration = "gallerypictest_6",
+		illustrate = "",
+		illustration = "gallerypic6",
 		unlock_level = {
-			10,
+			1,
 			0
 		},
 		unlock_cost = {}
 	},
 	{
 		unlock_other = 0,
-		name = "测试插画7",
-		year = 4,
+		name = "",
+		year = 1,
 		id = 7,
-		illustrate = "指挥官等级达到LV.15后开放",
-		illustration = "gallerypictest_7",
+		illustrate = "",
+		illustration = "gallerypic7",
 		unlock_level = {
-			15,
-			1
+			1,
+			0
 		},
 		unlock_cost = {}
 	},
 	{
 		unlock_other = 0,
-		name = "测试插画8",
-		year = 4,
+		name = "",
+		year = 1,
 		id = 8,
-		illustrate = "指挥官等级达到LV.20后开放",
-		illustration = "gallerypictest_8",
+		illustrate = "",
+		illustration = "gallerypic8",
 		unlock_level = {
-			20,
-			1
+			1,
+			0
 		},
 		unlock_cost = {}
 	},
 	{
 		unlock_other = 0,
-		name = "测试插画9",
-		year = 5,
+		name = "",
+		year = 1,
 		id = 9,
-		illustrate = "指挥官等级达到LV.25后开放",
-		illustration = "gallerypictest_9",
+		illustrate = "",
+		illustration = "gallerypic9",
 		unlock_level = {
-			25,
-			1
+			1,
+			0
 		},
 		unlock_cost = {}
 	},
 	{
 		unlock_other = 0,
-		name = "测试插画10",
-		year = 5,
+		name = "",
+		year = 1,
 		id = 10,
-		illustrate = "指挥官等级达到LV.30后开放",
-		illustration = "gallerypictest_10",
+		illustrate = "",
+		illustration = "gallerypic10",
 		unlock_level = {
-			30,
-			1
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 11,
+		illustrate = "",
+		illustration = "gallerypic11",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 12,
+		illustrate = "",
+		illustration = "gallerypic12",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 13,
+		illustrate = "",
+		illustration = "gallerypic13",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 14,
+		illustrate = "",
+		illustration = "gallerypic14",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 15,
+		illustrate = "",
+		illustration = "gallerypic15",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 16,
+		illustrate = "",
+		illustration = "gallerypic16",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 17,
+		illustrate = "",
+		illustration = "gallerypic17",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 18,
+		illustrate = "",
+		illustration = "gallerypic18",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 19,
+		illustrate = "",
+		illustration = "gallerypic19",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 20,
+		illustrate = "",
+		illustration = "gallerypic20",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 21,
+		illustrate = "",
+		illustration = "gallerypic21",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 22,
+		illustrate = "",
+		illustration = "gallerypic22",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 23,
+		illustrate = "",
+		illustration = "gallerypic23",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 24,
+		illustrate = "",
+		illustration = "gallerypic24",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 25,
+		illustrate = "",
+		illustration = "gallerypic25",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 26,
+		illustrate = "",
+		illustration = "gallerypic26",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 27,
+		illustrate = "",
+		illustration = "gallerypic27",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 28,
+		illustrate = "",
+		illustration = "gallerypic28",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 29,
+		illustrate = "",
+		illustration = "gallerypic29",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 30,
+		illustrate = "",
+		illustration = "gallerypic30",
+		unlock_level = {
+			1,
+			0
 		},
 		unlock_cost = {}
 	},
@@ -158,6 +400,26 @@ pg.gallery_config = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		20,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28,
+		29,
+		30
 	}
 }

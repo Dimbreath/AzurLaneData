@@ -70,14 +70,13 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>S Rare</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Normal：30%",
-			"<color=#ffde38>{namecode:81}</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>{namecode:161}</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>{namecode:92}(BB)</color>：0.5%",
-			"<color=#d797ff>{namecode:185}</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>{namecode:29}</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>{namecode:144}</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>{namecode:40}</color>：5.0%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>{namecode:140}</color>：5.0%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>리슐리외</color>：2.0%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#ffde38>알제리</color>：2.0%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#ffde38>잔 다르크</color>：0.5%",
+			" ",
+			"<color=#d797ff>보클랭</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

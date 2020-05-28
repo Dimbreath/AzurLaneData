@@ -9,12 +9,13 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0:UpdateFurnitureVO(slot2)
 
 	slot0._go.name = slot2.id
-	slot0.dragTF = slot0._tf:Find("drag")
+	slot0.dragContainer = slot0._tf:Find("drag_container")
+	slot0.dragTF = slot0._tf:Find("drag_container/drag")
 
 	setActive(slot0.dragTF, false)
 
 	slot0.dragTF.anchoredPosition3D = Vector3(0, 0, 0)
-	slot0.dragEvent = GetOrAddComponent(slot0.dragTF, "EventTriggerListener")
+	slot0.dragEvent = GetOrAddComponent(slot0.dragTF:Find("move"), "EventTriggerListener")
 	slot0.rotationTF = slot0.dragTF:Find("rotation")
 
 	SetActive(slot0.rotationTF, slot2:isFloor() and slot2:canRotate())
@@ -117,6 +118,14 @@ function slot0.SetTargetPosition(slot0, slot1, slot2)
 	else
 		slot0._tf.localPosition = slot3
 	end
+end
+
+function slot0.SetSelectState(slot0, slot1)
+	SetActive(slot0.dragTF, slot1)
+	SetActive(slot0.gridsTF, slot1)
+
+	slot0.dragTF.localScale = Vector3(1, 1, 1)
+	slot0.dragTF.anchoredPosition3D = Vector3(0, 0, 0)
 end
 
 function slot0.FallBackAnim(slot0, slot1, slot2)
@@ -372,7 +381,7 @@ function slot0.Clear(slot0)
 			"mask"
 		},
 		{
-			"drag"
+			"drag_container"
 		}
 	})
 

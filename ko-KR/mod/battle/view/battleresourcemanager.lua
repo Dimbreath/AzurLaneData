@@ -922,17 +922,7 @@ function slot5.GetStageResource(slot0)
 				end
 			elseif slot13.triggerType == uv0.Battle.BattleConst.WaveTriggerType.ENVIRONMENT then
 				for slot17, slot18 in ipairs(slot13.spawn) do
-					table.insert(slot2, slot18.prefab and uv1.GetFXPath(slot18.prefab))
-
-					for slot22, slot23 in ipairs(slot18.behaviours) do
-						if slot23.type == uv0.Battle.BattleConst.EnviroumentBehaviour.BUFF then
-							for slot29, slot30 in ipairs(uv0.Battle.BattleDataFunction.GetResFromBuff(slot23.buff_id, 1, {})) do
-								slot2[#slot2 + 1] = slot30
-							end
-						elseif slot24 == uv0.Battle.BattleConst.EnviroumentBehaviour.SPAWN and slot23.child_prefab and slot23.child_prefab.prefab then
-							slot2[#slot2 + 1] = uv1.GetFXPath(slot25)
-						end
-					end
+					uv1.GetEnvironmentRes(slot2, slot18)
 				end
 			end
 
@@ -947,6 +937,28 @@ function slot5.GetStageResource(slot0)
 	end
 
 	return slot2, slot3
+end
+
+function slot5.GetEnvironmentRes(slot0, slot1)
+	table.insert(slot0, slot1.prefab and uv0.GetFXPath(slot1.prefab))
+
+	for slot5, slot6 in ipairs(slot1.behaviours) do
+		if slot6.type == uv1.Battle.BattleConst.EnviroumentBehaviour.BUFF then
+			for slot12, slot13 in ipairs(uv1.Battle.BattleDataFunction.GetResFromBuff(slot6.buff_id, 1, {})) do
+				slot0[#slot0 + 1] = slot13
+			end
+		elseif slot7 == uv1.Battle.BattleConst.EnviroumentBehaviour.SPAWN then
+			slot8 = slot6.content and slot6.content.alert and slot6.content.alert.alert_fx
+
+			table.insert(slot0, slot8 and uv0.GetFXPath(slot8))
+
+			if slot6.content and slot6.content.child_prefab then
+				uv0.GetEnvironmentRes(slot0, slot9)
+			end
+		elseif slot7 == uv1.Battle.BattleConst.EnviroumentBehaviour.PLAY_FX then
+			slot0[#slot0 + 1] = uv0.GetFXPath(slot6.FX_ID)
+		end
+	end
 end
 
 function slot5.GetMonsterRes(slot0)
