@@ -169,7 +169,7 @@ function slot0.inTime(slot0)
 end
 
 function slot0.isTimeLimit(slot0)
-	return type(slot0:getConfig("time")) == "table"
+	return slot0:getConfig("time") and type(slot1) == "table"
 end
 
 function slot0.isRecordTime(slot0)

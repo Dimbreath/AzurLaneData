@@ -151,15 +151,11 @@ function slot0.UpdateBoxesBtn(slot0)
 	if not IsNil(slot0:findTF("boxes_btn/tip/Text", slot0.boxTF)) then
 		slot2 = 0
 
-		for slot7, slot8 in ipairs(_.select(slot0.boxes, function (slot0)
+		setText(slot1, #_.select(slot0.boxes, function (slot0)
 			slot1 = uv0 + 1
 
 			return slot0:getState() == CommanderBox.STATE_FINISHED or slot0:getState() == CommanderBox.STATE_EMPTY
-		end)) do
-			print("v:" .. slot8:getState())
-		end
-
-		setText(slot1, #slot3)
+		end))
 		setActive(slot0:findTF("boxes_btn/tip", slot0.boxTF), _.any(slot0.boxes, function (slot0)
 			return slot0:getState() == CommanderBox.STATE_FINISHED or slot0:getState() == CommanderBox.STATE_EMPTY
 		end))

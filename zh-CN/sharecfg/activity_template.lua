@@ -3629,6 +3629,7 @@ pg.activity_template = {
 	[582] = {
 		mark = 20200514,
 		title_res_tag = "france_re2_oil",
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 582,
@@ -3636,33 +3637,6 @@ pg.activity_template = {
 		config_client = "",
 		id = 582,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_bg_france_re2_oil"
 		}
@@ -4626,6 +4600,285 @@ pg.activity_template = {
 			}
 		}
 	},
+	[606] = {
+		mark = 20200528,
+		title_res_tag = "jiqidress",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 11,
+		config_client = "",
+		id = 606,
+		config_data = {
+			{
+				15700,
+				15701
+			},
+			{
+				15702,
+				15703
+			},
+			{
+				15704,
+				15705
+			},
+			{
+				15706,
+				15707
+			},
+			{
+				15708,
+				15709
+			},
+			{
+				15710,
+				15711
+			},
+			{
+				15712,
+				15713
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/skin_jiqidress"
+		}
+	},
+	[607] = {
+		mark = 20200528,
+		title_res_tag = "",
+		type = 43,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 607,
+		config_data = {
+			{
+				55,
+				93323
+			},
+			{
+				56,
+				93324
+			},
+			{
+				57,
+				93325
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[608] = {
+		mark = 20200528,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 608,
+		config_data = {
+			15714,
+			15715,
+			15716,
+			15717,
+			15718,
+			15719,
+			15720,
+			15721,
+			15722
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[609] = {
+		mark = 20200528,
+		title_res_tag = "sanzhounianhuizong",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 12,
+		config_client = "",
+		id = 609,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_sanzhounian"
+		}
+	},
+	[610] = {
+		mark = 20200528,
+		title_res_tag = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 610,
+		config_data = {
+			61,
+			62,
+			63,
+			64,
+			65,
+			66,
+			67,
+			68,
+			69,
+			70,
+			71,
+			72,
+			73,
+			74,
+			75,
+			76,
+			77,
+			78,
+			79,
+			80,
+			81,
+			82,
+			83,
+			84,
+			85,
+			86,
+			87
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[2001] = {
 		mark = 20180327,
 		title_res_tag = "",
@@ -5509,6 +5762,11 @@ pg.activity_template = {
 		603,
 		604,
 		605,
+		606,
+		607,
+		608,
+		609,
+		610,
 		2001,
 		2002,
 		2003,

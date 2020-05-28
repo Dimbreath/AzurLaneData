@@ -2739,7 +2739,7 @@ function slot0.CreateEdge(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		slot12 = slot12 + 1
 
 		if bit.band(slot1, slot11) > 0 then
-			slot13 = slot0.CreateEdgeIndex(slot2.row, slot2.column, 0, slot6)
+			slot13 = slot0.CreateEdgeIndex(slot2.row, slot2.column, slot12, slot6)
 			slot0.cellEdges[slot6] = slot0.cellEdges[slot6] or {}
 			slot0.cellEdges[slot6][slot13] = slot0.cellEdges[slot6][slot13] or tf(slot7:Dequeue())
 			slot14 = slot0.cellEdges[slot6][slot13]

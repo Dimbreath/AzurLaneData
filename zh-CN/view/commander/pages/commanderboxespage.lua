@@ -43,7 +43,7 @@ function slot0.OnInit(slot0)
 			return
 		end
 
-		scrollTo(uv0.scrollRect, 0, 1)
+		scrollTo(uv0.scrollRect, nil, 1)
 		uv0:emit(CommandRoomMediator.ON_BATCH_GET, uv0.boxes)
 	end, SFX_PANEL)
 	setActive(slot0._tf:Find("frame"), true)

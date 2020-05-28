@@ -36,7 +36,9 @@ function slot0.execute(slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(19109, {
 		pos = slot2.id,
 		name = slot2.name,
-		furniture_put_list = slot6
+		furniture_put_list = slot6,
+		icon_image_md5 = slot2.iconMd5,
+		image_md5 = slot2.imageMd5
 	}, 19110, function (slot0)
 		if slot0.result == 0 then
 			uv1.id = BackYardBaseThemeTemplate.BuildId(uv0.id)

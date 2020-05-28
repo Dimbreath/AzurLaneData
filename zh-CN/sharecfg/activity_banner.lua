@@ -7,7 +7,7 @@ pg.activity_banner = {
 		param = {
 			"scene charge",
 			{
-				wrap = 3
+				wrap = 4
 			}
 		},
 		time = {
@@ -27,7 +27,7 @@ pg.activity_banner = {
 				{
 					2020,
 					6,
-					18
+					2
 				},
 				{
 					23,
@@ -38,10 +38,10 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "592",
+		param = "609",
 		type = 3,
 		id = 2,
-		pic = "temp2",
+		pic = "temp6",
 		time = {
 			{
 				{
@@ -72,6 +72,73 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 3,
+		pic = "temp4",
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "592",
+		type = 3,
+		id = 4,
+		pic = "temp2",
+		time = {
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
 		pic = "temp3",
 		param = {
 			"scene get boat",
@@ -107,13 +174,10 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
-		id = 4,
-		pic = "temp4",
-		param = {
-			"scene skinshop",
-			{}
-		},
+		param = "606",
+		type = 3,
+		id = 6,
+		pic = "temp8",
 		time = {
 			{
 				{
@@ -131,7 +195,7 @@ pg.activity_banner = {
 				{
 					2020,
 					6,
-					3
+					18
 				},
 				{
 					23,
@@ -144,7 +208,7 @@ pg.activity_banner = {
 	{
 		param = "588",
 		type = 3,
-		id = 5,
+		id = 7,
 		pic = "temp5",
 		time = {
 			{
@@ -175,44 +239,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 6,
-		pic = "temp6",
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		},
-		time = {
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 7,
+		id = 8,
 		pic = "temp7",
 		param = {
 			"scene back yard"
@@ -251,6 +278,7 @@ pg.activity_banner = {
 		4,
 		5,
 		6,
-		7
+		7,
+		8
 	}
 }

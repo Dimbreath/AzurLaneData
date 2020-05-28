@@ -72,18 +72,72 @@ function slot0.nationPointFilter(slot0)
 		0,
 		0
 	}
+	slot0.nationToPointLog = {
+		{
+			{},
+			{},
+			{}
+		},
+		{
+			{},
+			{},
+			{}
+		},
+		{
+			{},
+			{},
+			{}
+		},
+		{
+			{},
+			{},
+			{}
+		},
+		{
+			{},
+			{},
+			{}
+		},
+		{
+			{},
+			{},
+			{}
+		},
+		{
+			{},
+			{},
+			{}
+		},
+		{
+			{},
+			{},
+			{}
+		},
+		{
+			{},
+			{},
+			{}
+		}
+	}
 
 	for slot4, slot5 in ipairs(slot0.groupListInCount) do
 		slot6 = slot5:getNation()
+		slot7 = slot5.id
 
 		if not slot5.maxLV or slot5.maxLV < TechnologyConst.MAX_LV then
-			slot0.nationToPoint[slot6] = slot0.nationToPoint[slot6] + pg.fleet_tech_ship_template[slot5.id].pt_get
+			slot0.nationToPoint[slot6] = slot0.nationToPoint[slot6] + pg.fleet_tech_ship_template[slot7].pt_get
+
+			table.insert(slot0.nationToPointLog[slot6][1], slot7)
 		else
 			slot0.nationToPoint[slot6] = slot0.nationToPoint[slot6] + pg.fleet_tech_ship_template[slot7].pt_get + pg.fleet_tech_ship_template[slot7].pt_level
+
+			table.insert(slot0.nationToPointLog[slot6][2], slot7)
 		end
 
 		if pg.fleet_tech_ship_template[slot7].max_star <= slot5.star then
 			slot0.nationToPoint[slot6] = slot0.nationToPoint[slot6] + pg.fleet_tech_ship_template[slot7].pt_upgrage
+
+			table.insert(slot0.nationToPointLog[slot6][3], slot7)
 		end
 	end
 
@@ -314,6 +368,22 @@ function slot0.getShipAddition(slot0, slot1, slot2)
 	end
 
 	return slot4
+end
+
+function slot0.printNationPointLog(slot0)
+	for slot4, slot5 in ipairs(slot0.nationToPointLog) do
+		slot9 = "----------------"
+
+		print("----------------" .. slot4 .. slot9)
+
+		for slot9, slot10 in ipairs(slot5) do
+			for slot15, slot16 in ipairs(slot10) do
+				slot11 = slot9 .. "    :" .. "  " .. slot16
+			end
+
+			print(slot11)
+		end
+	end
 end
 
 return slot0

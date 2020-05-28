@@ -412,7 +412,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，即使是普通的原来填饱肚子料理……做的美味一点也无妨吧？",
+			say = "不过，即使是普通的用来填饱肚子料理……做的美味一点也无妨吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

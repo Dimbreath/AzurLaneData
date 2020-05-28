@@ -22,7 +22,7 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.setDuty(slot0, slot1)
-	slot0.duty = slot1
+	slot0.duty = slot1 or uv0.DUTY_ORDINARY
 end
 
 function slot0.isLongOffLine(slot0)

@@ -20,7 +20,7 @@ function slot0.UpdateMainInfo(slot0)
 
 	setActive(slot0.icon.gameObject, false)
 	setActive(slot0.rawIcon.gameObject, false)
-	BackYardThemeTempalteUtil.GetTexture(slot0.template:GetTextureIconName(), function (slot0)
+	BackYardThemeTempalteUtil.GetTexture(slot0.template:GetTextureIconName(), slot0.template:GetIconMd5(), function (slot0)
 		if slot0 then
 			setActive(uv0.rawIcon.gameObject, true)
 
@@ -36,7 +36,9 @@ function slot0.GetAddList(slot0)
 		if pg.furniture_data_template[slot7] and (slot0.dorm:GetAllFurniture()[slot7] or Furniture.New({
 			id = slot7
 		})):canPurchase() and slot9:inTime() and slot9:canPurchaseByDormMoeny() then
-			table.insert(slot1, slot9)
+			for slot13 = 1, slot8 do
+				table.insert(slot1, slot9)
+			end
 		end
 	end
 

@@ -17,6 +17,13 @@ function slot0.Ctor(slot0, slot1)
 	slot0.isCollection = slot1.is_collection or 0
 	slot0.desc = slot1.desc or ""
 	slot0.rawPutList = slot1.furniture_put_list or {}
+	slot0.imageMd5 = slot1.image_md5
+	slot0.iconImageMd5 = slot1.icon_image_md5
+	slot0.sortIndex = 0
+end
+
+function slot0.SetSortIndex(slot0, slot1)
+	slot0.sortIndex = slot1
 end
 
 function slot0.GetType(slot0)
@@ -77,6 +84,7 @@ end
 function slot0.CancelCollection(slot0)
 	if slot0:IsCollected() then
 		slot0.isCollection = 0
+		slot0.collectionCnt = slot0.collectionCnt - 1
 	end
 end
 
@@ -95,7 +103,11 @@ function slot0.AddLike(slot0)
 end
 
 function slot0.ExistLocalImage(slot0)
-	return BackYardThemeTempalteUtil.FileExists(slot0.id)
+	return BackYardThemeTempalteUtil.FileExists(slot0.id) and function ()
+		slot0 = BackYardBaseThemeTemplate.BuildId(uv0.pos)
+
+		return BackYardThemeTempalteUtil.GetMd5(slot0) == uv0.imageMd5 and BackYardThemeTempalteUtil.GetIconMd5(slot0) == uv0.iconImageMd5
+	end()
 end
 
 function slot0.GetAllFurniture(slot0)
@@ -147,6 +159,22 @@ end
 
 function slot0.ShouldFetch(slot0)
 	return false
+end
+
+function slot0.IsPurchased(slot0)
+	return true
+end
+
+function slot0.GetImageMd5(slot0)
+	return slot0.imageMd5
+end
+
+function slot0.GetIconMd5(slot0)
+	return slot0.iconImageMd5
+end
+
+function slot0.UpdateIconMd5(slot0, slot1)
+	slot0.iconImageMd5 = slot1
 end
 
 return slot0

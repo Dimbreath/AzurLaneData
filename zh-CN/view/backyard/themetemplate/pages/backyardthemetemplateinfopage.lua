@@ -3,7 +3,7 @@ slot0 = class("BackYardThemeTemplateInfoPage", import("...Shop.pages.BackYardThe
 function slot0.OnInit(slot0)
 	uv0.super.OnInit(slot0)
 	onButton(slot0, slot0.purchaseBtn, function ()
-		uv0.contextData.themeMsgBox:ExecuteAction("SetUp", uv0.template, uv0.dorm, uv0.target)
+		uv0.contextData.themeMsgBox:ExecuteAction("SetUp", uv0.template, uv0.dorm, uv0.player)
 	end, SFX_PANEL)
 	setActive(slot0.icon, false)
 
@@ -49,9 +49,23 @@ function slot0.InitFurnitureList(slot0)
 		end
 	end
 
+	function slot3(slot0)
+		if slot0:inTime() then
+			if slot0:canPurchaseByGem() and not slot0:canPurchaseByDormMoeny() then
+				return 1
+			elseif slot0:canPurchaseByGem() and slot0:canPurchaseByDormMoeny() then
+				return 2
+			else
+				return 3
+			end
+		else
+			return 4
+		end
+	end
+
 	table.sort(slot0.displays, function (slot0, slot1)
 		if (slot0:canPurchase() and 1 or 0) == (slot1:canPurchase() and 1 or 0) then
-			return ((not slot0:canPurchaseByGem() and not slot0:canPurchaseByDormMoeny() or not slot0:inTime()) and 1 or 0) < ((not slot1:canPurchaseByGem() and not slot1:canPurchaseByDormMoeny() or not slot0:inTime()) and 1 or 0)
+			return uv0(slot0) < uv0(slot1)
 		else
 			return slot3 < slot2
 		end
@@ -65,7 +79,7 @@ function slot0.UpdateThemeInfo(slot0)
 	slot0.enNameTxt.text = "FURNITURE"
 
 	setActive(slot0.iconRaw.gameObject, false)
-	BackYardThemeTempalteUtil.GetTexture(slot1:GetTextureName(), function (slot0)
+	BackYardThemeTempalteUtil.GetTexture(slot1:GetTextureName(), slot1:GetImageMd5(), function (slot0)
 		if slot0 then
 			uv0.iconRaw.texture = slot0
 
@@ -79,10 +93,10 @@ function slot0.UpdateThemeInfo(slot0)
 end
 
 function slot0.UpdatePurchaseBtn(slot0)
-	slot1 = slot0.displays
-
-	setActive(slot0.purchaseBtn, _.any(slot0.displays, function (slot0)
-		return slot0:canPurchase() and slot0:inTime() and slot0:canPurchaseByDormMoeny()
+	setActive(slot0.purchaseBtn, not slot0.dorm:OwnThemeTemplateFurniture(slot0.template) and _.any(_.keys(slot0.template:GetFurnitureCnt()), function (slot0)
+		return Furniture.New({
+			id = slot0
+		}):inTime() and slot1:canPurchaseByDormMoeny()
 	end))
 end
 

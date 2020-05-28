@@ -1,4 +1,5 @@
 slot0 = class("BackYardThemeTemplateListPage", import("...Shop.pages.BackYardThemePage"))
+slot0.nextClickRefreshTime = 0
 
 function slot0.LoadDetail(slot0)
 	setActive(slot0:findTF("adpter/descript"), false)
@@ -16,14 +17,56 @@ function slot0.OnInit(slot0)
 	slot0.goBtn = slot0:findTF("go_btn")
 	slot0.rawImage = slot0:findTF("preview_raw"):GetComponent(typeof(RawImage))
 	slot0.listRect = slot0:findTF("adpter/list")
-	slot0.refreshBtn = slot0:findTF("adpter/list/refresh_btn")
+	slot0.sortBg = slot0:findTF("sort_bg")
 
-	setActive(slot0.refreshBtn, true)
-	onButton(slot0, slot0.refreshBtn, function ()
-		uv0:emit(NewBackYardThemeTemplateMediator.ON_REFRESH)
-	end, SFX_PANEL)
+	setActive(slot0.sortBg, false)
+
+	slot0.refreshBtns = slot0:findTF("refresh_btns")
+
+	setActive(slot0.refreshBtns, true)
+	setText(slot0.refreshBtns:Find("random/Text"), i18n("word_random"))
+	setText(slot0.refreshBtns:Find("hot/Text"), i18n("word_hot"))
+	setText(slot0.refreshBtns:Find("new/Text"), i18n("word_new"))
+
+	slot4 = "new"
+	slot0.btns = {
+		[5] = slot0.refreshBtns:Find("random"),
+		[3] = slot0.refreshBtns:Find("hot"),
+		[2] = slot0.refreshBtns:Find(slot4)
+	}
+
+	for slot4, slot5 in pairs(slot0.btns) do
+		onButton(slot0, slot5, function ()
+			if uv0:CanClickRefBtn(uv1) then
+				if uv0.selectedRefBtn then
+					setActive(uv0.selectedRefBtn:Find("sel"), false)
+				end
+
+				setActive(uv2:Find("sel"), true)
+				uv0:SwitchPage(uv1, 1)
+
+				uv0.selectedRefBtn = uv2
+			end
+		end, SFX_PANEL)
+	end
+
 	onButton(slot0, slot0.goBtn, function ()
 		uv0:emit(NewBackYardThemeTemplateMediator.GO_DECORATION)
+	end, SFX_PANEL)
+	slot0.scrollRect.onValueChanged:RemoveAllListeners()
+	onButton(slot0, slot0.arrLeftBtn, function ()
+		if uv0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
+			if getProxy(DormProxy).PAGE > 1 then
+				uv0:SwitchPage(getProxy(DormProxy).TYPE, slot0 - 1, true)
+			end
+		end
+	end, SFX_PANEL)
+	onButton(slot0, slot0.arrRightBtn, function ()
+		if uv0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
+			getProxy(DormProxy).ClickPage = true
+
+			uv0:SwitchPage(getProxy(DormProxy).TYPE, getProxy(DormProxy).PAGE + 1, true)
+		end
 	end, SFX_PANEL)
 
 	function slot1()
@@ -53,6 +96,45 @@ function slot0.OnInit(slot0)
 	slot0.contextData.infoPage = BackYardThemeTemplateInfoPage.New(slot0._parentTf, slot0.event, slot0.contextData)
 	slot0.contextData.furnitureMsgBox = BackYardFurnitureMsgBoxPage.New(slot0._parentTf, slot0.event, slot0.contextData)
 	slot0.contextData.themeMsgBox = BackYardThemeTemplatePurchaseMsgbox.New(slot0._parentTf, slot0.event, slot0.contextData)
+end
+
+function slot0.UpdateArr(slot0)
+	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
+		setActive(slot0.arrLeftBtn, getProxy(DormProxy).PAGE > 1)
+		setActive(slot0.arrRightBtn, slot1 < getProxy(DormProxy).lastPages[getProxy(DormProxy).TYPE] or not getProxy(DormProxy).ClickPage)
+	elseif slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM then
+		setActive(slot0.arrLeftBtn, false)
+		setActive(slot0.arrRightBtn, false)
+	else
+		setActive(slot0.arrLeftBtn, true)
+		setActive(slot0.arrRightBtn, true)
+	end
+end
+
+function slot0.CanClickRefBtn(slot0, slot1)
+	slot2 = getProxy(DormProxy).TYPE
+
+	if pg.TimeMgr.GetInstance():GetServerTime() < uv0.nextClickRefreshTime then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_shop_refresh_frequently", math.ceil(uv0.nextClickRefreshTime - slot3)))
+
+		return false
+	end
+
+	if slot2 == slot1 and slot1 ~= 5 then
+		return false
+	end
+
+	return true
+end
+
+function slot0.SwitchPage(slot0, slot1, slot2, slot3)
+	if getProxy(DormProxy).TYPE ~= slot1 or slot3 then
+		slot0:emit(NewBackYardThemeTemplateMediator.ON_REFRESH, slot1, slot2, slot3)
+
+		if not slot3 then
+			uv0.nextClickRefreshTime = BackYardConst.MANUAL_REFRESH_THEME_TEMPLATE_TIME + pg.TimeMgr.GetInstance():GetServerTime()
+		end
+	end
 end
 
 function slot0.UpdateDorm(slot0, slot1)
@@ -109,10 +191,8 @@ function slot0.ThemeTemplatesUpdate(slot0, slot1)
 	slot0:Flush(slot1)
 end
 
-function slot0.SearchKeyChange(slot0, slot1)
-	slot0.searchKey = slot1
-
-	slot0:InitThemeList()
+function slot0.OnSearchKeyChange(slot0)
+	slot0:emit(NewBackYardThemeTemplateMediator.ON_SEARCH, slot0.pageType, getInputText(slot0.searchInput))
 end
 
 function slot0.ShopSearchKeyChange(slot0, slot1)
@@ -126,6 +206,12 @@ function slot0.ShopSearchKeyChange(slot0, slot1)
 
 			break
 		end
+	end
+end
+
+function slot0.OnSearchKeyEditEnd(slot0)
+	if not getInputText(slot0.searchInput) or slot1 == "" then
+		slot0:emit(NewBackYardThemeTemplateMediator.ON_SEARCH, slot0.pageType, slot1)
 	end
 end
 
@@ -180,25 +266,35 @@ function slot0.DeleteShopThemeTemplate(slot0, slot1)
 	slot0:ForceActiveFirstCard()
 end
 
+function slot0.ThemeTemplatesErro(slot0)
+	slot0:UpdateArr()
+end
+
 function slot0.GetData(slot0)
-	slot1, slot2 = nil
-
-	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM then
-		slot1, slot2 = BackYardConst.ServerIndex2ThemeSortIndex(getProxy(DormProxy).TYPE)
+	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
+		table.sort(slot0.list, function (slot0, slot1)
+			return slot0.sortIndex < slot1.sortIndex
+		end)
 	else
-		slot1 = defaultValue(slot0.sortIndex, 1)
-		slot2 = defaultValue(slot0.asc, true)
-	end
+		slot1, slot2 = nil
 
-	slot3 = BackYardThemeTemplateSortPanel.GetSortArr(slot1)
-
-	table.sort(slot0.list, function (slot0, slot1)
-		if uv0 then
-			return slot0[uv1] < slot1[uv1]
+		if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM then
+			slot1, slot2 = BackYardConst.ServerIndex2ThemeSortIndex(getProxy(DormProxy).TYPE)
 		else
-			return slot1[uv1] < slot0[uv1]
+			slot1 = defaultValue(slot0.sortIndex, 1)
+			slot2 = defaultValue(slot0.asc, true)
 		end
-	end)
+
+		slot3 = BackYardThemeTemplateSortPanel.GetSortArr(slot1)
+
+		table.sort(slot0.list, function (slot0, slot1)
+			if uv0 then
+				return slot0[uv1] < slot1[uv1]
+			else
+				return slot1[uv1] < slot0[uv1]
+			end
+		end)
+	end
 
 	return slot0.list
 end
@@ -223,13 +319,32 @@ function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
 	slot0.player = slot4
 
 	slot0:Flush(slot2)
-	setActive(slot0.refreshBtn, slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP)
+
+	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
+		slot5 = getProxy(DormProxy).TYPE
+
+		setActive(slot0.btns[slot5]:Find("sel"), true)
+
+		slot0.selectedRefBtn = slot0.btns[slot5]
+
+		if getProxy(DormProxy):NeedRefreshThemeTemplateShop() then
+			slot0:SwitchPage(slot5, getProxy(DormProxy).PAGE, true)
+		end
+	end
+
+	setActive(slot0.refreshBtns, slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP)
+	setActive(slot0.searchInput.gameObject, slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP)
+
+	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION and getProxy(DormProxy):NeedCollectionTip() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("BackYard_collection_be_delete_tip"))
+	end
 end
 
 function slot0.Flush(slot0, slot1)
 	slot0.list = slot1 or {}
 
 	slot0:InitThemeList()
+	slot0:UpdateArr()
 	slot0:Show()
 	onNextTick(function ()
 		uv0:ForceActiveFirstCard()
@@ -297,7 +412,7 @@ function slot0.OnCardClick(slot0, slot1)
 	setActive(slot0.rawImage.gameObject, false)
 
 	function slot2(slot0)
-		BackYardThemeTempalteUtil.GetTexture(slot0:GetTextureName(), function (slot0)
+		BackYardThemeTempalteUtil.GetTexture(slot0:GetTextureName(), slot0:GetImageMd5(), function (slot0)
 			if slot0 then
 				uv0.rawImage.texture = slot0
 

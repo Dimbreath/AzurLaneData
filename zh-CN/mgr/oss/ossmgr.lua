@@ -5,6 +5,11 @@ slot0 = pg.OSSMgr
 function slot0.Ctor(slot0)
 	slot0.instance = OSSStarter.ins
 	slot0.isIninted = false
+	slot1 = System.Reflection.BindingFlags
+	slot3 = tolua.getfield(typeof("OSSStarter"), "debug", bit.bor(slot1.NonPublic, slot1.Instance))
+
+	slot3:Set(slot0.instance, false)
+	slot3:Destroy()
 end
 
 function slot0.InitConfig(slot0)

@@ -10354,6 +10354,60 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40910] = {
+		display = "购买礼包可获得随机换装*1，钻石*2020，心智单元*50，心智魔方*20，高级定向蓝图二期*2，快速建造*10，家具币*100",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "三周年礼盒",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40910,
+		icon = "Props/lihe4",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				69910,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[41001] = {
 		display = "{namecode:98}赠送的情人节礼物",
 		rarity = 8,
@@ -102266,6 +102320,132 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59791] = {
+		display = "颜料A，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "颜料A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 607,
+		id = 59791,
+		icon = "props/draw_a",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59792] = {
+		display = "颜料B，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "颜料B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 607,
+		id = 59792,
+		icon = "props/draw_b",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59793] = {
+		display = "颜料C，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "颜料C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 607,
+		id = 59793,
+		icon = "props/draw_c",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59794] = {
+		display = "颜料D，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "颜料D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 607,
+		id = 59794,
+		icon = "props/draw_d",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59795] = {
+		display = "颜料E，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "颜料E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 607,
+		id = 59795,
+		icon = "props/draw_e",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59796] = {
+		display = "颜料F，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "颜料F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 607,
+		id = 59796,
+		icon = "props/draw_f",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59797] = {
+		display = "颜料G，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "颜料G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 607,
+		id = 59797,
+		icon = "props/draw_g",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59801] = {
 		display = "拼图A-1",
 		rarity = 2,
@@ -104757,6 +104937,39 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[69910] = {
+		display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>10.0%</color>）平海换装  甜蜜嫣红（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.0%</color>）圣路易斯换装  Luxury Handle（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.6%</color>）黛朵换装 多愁的BIsqueDoll；
+（<color=#92fc63>7.6%</color>）企业换装   英雄的礼服；
+（<color=#92fc63>7.6%</color>）马萨诸塞换装  盛宴的准备；
+（<color=#92fc63>7.6%</color>）大青花鱼换装  黑裙下的「秘密」；
+（<color=#92fc63>7.6%</color>）利托里奥换装  Calabria Aurea；
+（<color=#92fc63>7.0%</color>）宁海换装  姹紫盛筵；
+（<color=#92fc63>7.0%</color>）比洛克西换装  洛城女帝；
+（<color=#92fc63>7.0%</color>）豼换装  告白的蓝闪蝶；
+（<color=#92fc63>7.0%</color>）哈曼换装 舞会的傲娇妖精；
+（<color=#92fc63>7.0%</color>）福尔班换装  香槟盛宴；
+（<color=#92fc63>7.0%</color>）苏塞克斯换装  葡萄酒与红玫瑰]],
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "随机三周年换装",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 69910,
+		icon = "Props/clothIcon",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[70000] = {
 		display = "可用于解锁「港区回忆手账」No.1",
 		rarity = 4,
@@ -106035,6 +106248,7 @@ pg.item_data_statistics = {
 		40906,
 		40908,
 		40909,
+		40910,
 		41001,
 		41002,
 		41003,
@@ -108060,6 +108274,13 @@ pg.item_data_statistics = {
 		59788,
 		59789,
 		59790,
+		59791,
+		59792,
+		59793,
+		59794,
+		59795,
+		59796,
+		59797,
 		59801,
 		59802,
 		59803,
@@ -108186,6 +108407,7 @@ pg.item_data_statistics = {
 		69906,
 		69908,
 		69909,
+		69910,
 		70000,
 		70001,
 		70002,
