@@ -31,7 +31,7 @@ return {
 		{
 			actor = 301140,
 			side = 0,
-			say = "饿了！啊不对，我是把东西给你带过来了！Z23让我带给你！……嗯？",
+			say = "饿了！啊不对，我是把东西给妳带过来了！Z23让我带给妳！……嗯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 		{
 			actor = 301140,
 			side = 0,
-			say = "{namecode:89}你的气味跟平常不一样欸？",
+			say = "{namecode:89}妳的气味跟平常不一样欸？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 		{
 			actor = 301140,
 			side = 0,
-			say = "是这样吗……算了，总之东西给你！我和Z23一起去委托的时候找到的！Z23还说“什么好事，不就是又丢了东西吗……”",
+			say = "是这样吗……算了，总之东西给妳！我和Z23一起去委托的时候找到的！Z23还说“什么好事，不就是又丢了东西吗……”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 		{
 			actor = 301140,
 			side = 0,
-			say = "哇，{namecode:89}你真能丢东西欸！",
+			say = "哇，{namecode:89}妳真能丢东西欸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 		{
 			actor = 306031,
 			side = 1,
-			say = "呵呵……正好，{namecode:16}，这样东西就拜托你好了，帮我找回来的话今晚我就给你做你喜欢吃的东西~",
+			say = "呵呵……正好，{namecode:16}，这样东西就拜托妳好了，帮我找回来的话今晚我就给妳做妳喜欢吃的东西~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

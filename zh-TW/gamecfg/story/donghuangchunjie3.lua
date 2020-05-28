@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "沒事沒事～夠分量才有趣不是嘛！好了，太原你們都往後退一點，我要點火了哦！",
+			say = "沒事沒事～夠分量才有趣不是嘛！好了，太原妳們都往後退一點，我要點火了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 501010,
 			nameColor = "#a9f548",
-			say = "剛…剛才那是什麼聲音？！撫順，你又闖什麼禍了！那麼大的聲音，耳朵都嗡嗡響了！",
+			say = "剛…剛才那是什麼聲音？！撫順，妳又闖什麼禍了！那麼大的聲音，耳朵都嗡嗡響了！",
 			flashout = {
 				dur = 0.2,
 				black = true,
@@ -288,7 +288,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…撫！順！！你過來！",
+			say = "…撫！順！！妳過來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？拉菲？你怎麼在這裡？剛剛到底發生了什麼事？",
+			say = "嗯？拉菲？妳怎麼在這裡？剛剛到底發生了什麼事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

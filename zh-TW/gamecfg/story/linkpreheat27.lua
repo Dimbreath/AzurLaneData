@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			actor = 10300020,
 			nameColor = "#a9f548",
-			say = "谢谢你，指挥官……那我就不客气了，就先从这个书架开始看吧",
+			say = "谢谢妳，指挥官……那我就不客气了，就先从这个书架开始看吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "话说回来……虽然我们对话时没什么隔阂，不过听说我们用的文字是不一样的吧。你能看懂这个世界的文字吗？",
+			say = "话说回来……虽然我们对话时没什么隔阂，不过听说我们用的文字是不一样的吧。妳能看懂这个世界的文字吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "这么短的时间里居然都学会了……猫音，你难道是天才吗？",
+			say = "这么短的时间里居然都学会了……猫音，妳难道是天才吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

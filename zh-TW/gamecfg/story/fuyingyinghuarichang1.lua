@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "是铁血的腓特烈大帝啊…唔…你这一身…",
+			say = "是铁血的腓特烈大帝啊…唔…妳这一身…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 499021,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这就是你们重樱称作“和服”的装扮吧。质地舒适，色调高雅，确实是非常棒呢~",
+			say = "这就是妳们重樱称作“和服”的装扮吧。质地舒适，色调高雅，确实是非常棒呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			actor = 202071,
 			nameColor = "#a9f548",
-			say = "我知道重樱的新年活动还有“羽板球”！克利夫兰她们和重樱的小伙伴还约了要比赛呢，嘿嘿，后面我要去给她们做裁判来着~",
+			say = "我知道重樱的新年活动还有“羽板球”！克利夫兰她们和重樱的小夥伴还约了要比赛呢，嘿嘿，后面我要去给她们做裁判来着~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			blackBg = true,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "哦哦…羽板球！我也…——啊，咳咳，希望你们都能过一个有意思的新年",
+			say = "哦哦…羽板球！我也…——啊，咳咳，希望妳们都能过一个有意思的新年",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

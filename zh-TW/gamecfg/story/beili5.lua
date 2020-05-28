@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			actor = 101270,
 			nameColor = "#a9f548",
-			say = "不要亂跑哦~嗯，趁現在貝利來給你們添草和加水~",
+			say = "不要亂跑哦~嗯，趁現在貝利來給妳們添草和加水~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿咻……啊，果然你們兩個又把房間弄髒了，真拿你們沒辦法呢……",
+			say = "嘿咻……啊，果然妳們兩個又把房間弄髒了，真拿妳們沒辦法呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

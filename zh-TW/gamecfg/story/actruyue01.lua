@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "我记得…你说回头就处理掉的",
+			say = "我记得…妳说回头就处理掉的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "火、火锅大会？！刚才那几个词究竟是怎么让你联想到这个的…",
+			say = "火、火锅大会？！刚才那几个词究竟是怎么让妳联想到这个的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "就算你这么说…真的会有人来参加吗…盛夏的火锅大会…",
+			say = "就算妳这么说…真的会有人来参加吗…盛夏的火锅大会…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

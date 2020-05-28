@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 603020,
 			nameColor = "#a9f548",
-			say = "有什么想让扎拉帮你做的吗？不用顾虑太多，什么事情都可以的",
+			say = "有什么想让扎拉帮妳做的吗？不用顾虑太多，什么事情都可以的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

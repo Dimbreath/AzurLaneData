@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了……你没事……我好担心你啊，猫音",
+			say = "太好了……妳没事……我好担心妳啊，猫音",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			say = "姐姐大人，我相信你一定会来救我的……所以我一个人也坚持到了现在……",
+			say = "姐姐大人，我相信妳一定会来救我的……所以我一个人也坚持到了现在……",
 			dir = 1,
 			actor = 10300020,
 			nameColor = "#a9f548",
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "和我的伙伴们喵",
+			say = "和我的夥伴们喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

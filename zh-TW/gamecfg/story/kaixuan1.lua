@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=45>一 皇家茶会的客人</size>",
+					"騎士公主的憂鬱\n\n<size=45>一 皇家茶會的客人</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "某日港区的午后…",
+			say = "某日港區的午後…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "欢迎，主人、凯旋小姐，请坐在这里",
+			say = "歡迎，主人、凱旋小姐，請坐在這裡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "和凯旋一起受邀参加了皇家不定时举办的茶会",
+			say = "和凱旋一起受邀參加了皇家不定時舉辦的茶會",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "承蒙皇家诸位的邀请，非常荣幸能来参加下午茶会——",
+			say = "承蒙皇家諸位的邀請，非常榮幸能來參加下午茶會——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,22 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "凯旋边说边行了个礼",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			say = "哼～你就是新来的自由鸢尾的小女孩吗",
+			say = "凱旋邊說邊行了個禮",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "不错！自由鸢尾也是有上得了台面的人物的嘛～",
+			say = "哼～妳就是新來的自由鳶尾的小女孩嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +127,22 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "另外那边的庶民！感到荣幸吧！你可是受邀参加了女王的茶会喔！",
+			say = "不錯！自由鳶尾也是有上得了檯面的人物的嘛～",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_story_school",
+			dir = 1,
+			say = "另外那邊的庶民！感到榮幸吧！妳可是受邀參加了女王的茶會喔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			},
 			options = {
 				{
-					content = "是！女王大人万岁！",
+					content = "是！女王大人萬歲！",
 					flag = 1
 				}
 			}
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "看来女王殿下对凯旋印象不错…",
+			say = "看來女王殿下對凱旋印像不錯…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "毕竟从各种意义上来说，确实都算是同伴呢",
+			say = "畢竟從各種意義上來說，確實都算是同伴呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "指挥官，莫非你刚才在想着什么无比失礼的事情？",
+			say = "指揮官，莫非妳剛才在想著什麼無比失禮的事情？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "贝尔法斯特为大家倒了茶",
+			say = "貝爾法斯特為大家倒了茶",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "这个口感是…大吉岭吗？",
+			say = "這個口感是…大吉嶺嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 202120,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "是的，而且是新运来的春茶，这是伊丽莎白殿下也相当喜欢的品种",
+			say = "是的，而且是新運來的春茶，這是伊莉莎白殿下也相當喜歡的品種",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -271,7 +271,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "难怪这么好喝～春茶据说是大吉岭中最珍贵，也是口感最好的呢",
+			say = "難怪這麼好喝～春茶據說是大吉嶺中最珍貴，也是口感最好的呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "哼哼哼，没错，区区自由鸢尾看来也有识货的人在嘛！",
+			say = "哼哼哼，沒錯，區區自由鳶尾看來也有識貨的人在嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "茶会啊…让人不禁想起过去在自由鸢尾办过的茶会呢…",
+			say = "茶會啊…讓人不禁想起過去在自由鳶尾辦過的茶會呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "凯旋露出混杂着眷恋与寂寞的神情",
+			say = "凱旋露出混雜著眷戀與寂寞的神情",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "下次…为她办一次自由鸢尾和维希教廷的茶会吧",
+			say = "下次…為她辦一次自由鳶尾和維希教廷的茶會吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

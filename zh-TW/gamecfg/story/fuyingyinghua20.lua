@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:158}，抱歉了，你还能正常行动吗？",
+			say = "{namecode:158}，抱歉了，妳还能正常行动吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

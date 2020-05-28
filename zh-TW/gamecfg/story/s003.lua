@@ -42,7 +42,7 @@ return {
 			actor = 900007,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "對不起，我是威爾斯親王號，你們可是也認錯人了哦",
+			say = "對不起，我是威爾斯親王號，妳們可是也認錯人了哦",
 			shake = {
 				speed = 1,
 				number = 3
@@ -60,7 +60,7 @@ return {
 			actor = 900009,
 			nameColor = "#ff0000",
 			side = 1,
-			say = "哎呀呀不管啦，波斯貓醬，人家都替你抗了那麼久了，你也該發揮一下實力了吧！",
+			say = "哎呀呀不管啦，波斯貓醬，人家都替妳抗了那麼久了，妳也該發揮一下實力了吧！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -78,7 +78,7 @@ return {
 			actor = 900010,
 			nameColor = "#ff0000",
 			side = 2,
-			say = "辛苦你了，看來這場戰鬥已經是沒法避免了，Jot Dora！",
+			say = "辛苦妳了，看來這場戰鬥已經是沒法避免了，Jot Dora！",
 			shake = {
 				speed = 1,
 				number = 3

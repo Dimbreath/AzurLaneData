@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这条航线上竟然真的有拦路的铁血舰队……虽然不想承认，看起来你也许是对的。快把这个家伙也解决掉去拉普拉塔河吧。",
+			say = "这条航线上竟然真的有拦路的铁血舰队……虽然不想承认，看起来妳也许是对的。快把这个家伙也解决掉去拉普拉塔河吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，你是……Z驱吧？",
+			say = "呵呵，妳是……Z驱吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "总之我是,不会让你们过去的！",
+			say = "总之我是,不会让妳们过去的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

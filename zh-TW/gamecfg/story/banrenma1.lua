@@ -140,7 +140,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "啊，指、指挥官，你好！",
+			say = "啊，指、指挥官，妳好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是……我记得是新加入的半人马吧，听说你有个妹妹也叫竞技神是吗？",
+			say = "妳是……我记得是新加入的半人马吧，听说妳有个妹妹也叫竞技神是吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好吧，那就让我用决斗来试试你灵魂的热度！",
+			say = "好吧，那就让我用决斗来试试妳灵魂的热度！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

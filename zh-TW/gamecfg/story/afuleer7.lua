@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>七、总能见到曙光</size>",
+					"阿芙乐尔和愉快的夥伴们\n\n<size=45>七、总能见到曙光</size>",
 					1
 				}
 			}
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，看来和你说的一样，确实需要有战舰护航才好呢",
+			say = "嗯，看来和妳说的一样，确实需要有战舰护航才好呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是阿芙乐尔你啊。即使退居二线，也还能这么出色的率领北方联合的年轻人们",
+			say = "不愧是阿芙乐尔妳啊。即使退居二线，也还能这么出色的率领北方联合的年轻人们",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样吗？{namecode:82}你不也是在带领重樱的孩子们吗？",
+			say = "这样吗？{namecode:82}妳不也是在带领重樱的孩子们吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			nameColor = "#a9f548",
-			say = "我不过是在后面监督她们不要误入歧途。成为她们的破晓之光、照耀她们的未来这种事——只有你才能办到",
+			say = "我不过是在后面监督她们不要误入歧途。成为她们的破晓之光、照耀她们的未来这种事——只有妳才能办到",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

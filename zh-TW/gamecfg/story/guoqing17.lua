@@ -69,7 +69,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "你的性格果真還是一點都沒變呢",
+			say = "妳的性格果真還是一點都沒變呢",
 			shake = {
 				speed = 1,
 				number = 3

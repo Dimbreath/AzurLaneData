@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "……说起来，自从来到这个港区之后，真的认识了很多的伙伴呢",
+			say = "……说起来，自从来到这个港区之后，真的认识了很多的夥伴呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，指挥官你也知道，我是那种属于比起参加更喜欢观察记录的性格…",
+			say = "嗯，指挥官妳也知道，我是那种属于比起参加更喜欢观察记录的性格…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			optionFlag = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "名字是“伙伴”，背面的文字是“香格里拉，第一次发小脾气的结果”",
+			say = "名字是“夥伴”，背面的文字是“香格里拉，第一次发小脾气的结果”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:20}，拜託你的那個到貨了嗎？",
+			say = "{namecode:20}，拜託妳的那個到貨了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			say = "還沒有，到了的話我會親自給你送過去的。",
+			say = "還沒有，到了的話我會親自給妳送過去的。",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我知道，雖然我覺得遲早……不，肯定已經有人發現你的“秘密”了。",
+			say = "我知道，雖然我覺得遲早……不，肯定已經有人發現妳的“秘密”了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你還真是一如既往地嘴上不饒人……算了，總之拜託你了。",
+			say = "妳還真是一如既往地嘴上不饒人……算了，總之拜託妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			say = "你也是老樣子，開口沒有好話呢。",
+			say = "妳也是老樣子，開口沒有好話呢。",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,

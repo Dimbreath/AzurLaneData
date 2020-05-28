@@ -21,7 +21,7 @@ return {
 		{
 			actor = 306031,
 			side = 1,
-			say = "哦？是{namecode:98}啊，你是来送东西的吗？",
+			say = "哦？是{namecode:98}啊，妳是来送东西的吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			actor = 312010,
 			side = 0,
 			dir = -1,
-			say = "对！{namecode:16}饿了在{namecode:98}的店里大吃特吃喵！先把东西送给你等下还要去找指挥官结账喵！……喵？今天的{namecode:89}，和{namecode:16}说的一样，有点不大一样喵！",
+			say = "对！{namecode:16}饿了在{namecode:98}的店里大吃特吃喵！先把东西送给妳等下还要去找指挥官结账喵！……喵？今天的{namecode:89}，和{namecode:16}说的一样，有点不大一样喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 		{
 			actor = 306031,
 			side = 1,
-			say = "是这样哦~对了{namecode:98}，虽然东西已经齐了，不过还有最后一件事，就麻烦你好了~",
+			say = "是这样哦~对了{namecode:98}，虽然东西已经齐了，不过还有最后一件事，就麻烦妳好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 		{
 			actor = 306031,
 			side = 1,
-			say = "舰队的器械都是由你来维护的对吧，最近档案记录室不是开放了吗，要不要大家一起去看个电影呢～？",
+			say = "舰队的器械都是由妳来维护的对吧，最近档案记录室不是开放了吗，要不要大家一起去看个电影呢～？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

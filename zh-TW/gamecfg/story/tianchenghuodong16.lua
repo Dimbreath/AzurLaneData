@@ -297,7 +297,7 @@ return {
 			blackBg = true,
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "还剩…还剩最后一步…就拜托你了…",
+			say = "还剩…还剩最后一步…就拜托妳了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

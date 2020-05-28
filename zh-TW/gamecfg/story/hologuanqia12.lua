@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "我回来了~队长，净化亲你们还好么。",
+			say = "我回来了~队长，净化亲妳们还好么。",
 			bgm = "holo-tokiwa",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500030,
-			say = "祭！！一直没回来担心死我了。吹雪和澪，你们也平安无事真是太好了！",
+			say = "祭！！一直没回来担心死我了。吹雪和澪，妳们也平安无事真是太好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "净化亲",
-			say = "啊，祭回来了啊~正好阿库娅的舰装也调试完毕，旁边的是你失散的同伴么？",
+			say = "啊，祭回来了啊~正好阿库娅的舰装也调试完毕，旁边的是妳失散的同伴么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哇哇哇，{namecode:158}，{namecode:96}，你们等一下！",
+			say = "啊哇哇哇，{namecode:158}，{namecode:96}，妳们等一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是真的，失忆也不能让她过去的所作所为一笔勾销，为了我们的世界，我必须在这里解决你。",
+			say = "就算是真的，失忆也不能让她过去的所作所为一笔勾销，为了我们的世界，我必须在这里解决妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:158}稍等下！虽然我能理解你的想法，但是，我们现在对这里完全不了解，而且……",
+			say = "{namecode:158}稍等下！虽然我能理解妳的想法，但是，我们现在对这里完全不了解，而且……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "净化亲",
-			say = "那个，我真的对你们做了很过分的事情吗？要是那样的话…我还是现在就出去和测试怪人拼了算了！",
+			say = "那个，我真的对妳们做了很过分的事情吗？要是那样的话…我还是现在就出去和测试怪人拼了算了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900215,
-			say = "太好了，刚才{namecode:158}的样子把咱吓的都不敢动了……那现在大家是统一战线的伙伴了吧？",
+			say = "太好了，刚才{namecode:158}的样子把咱吓的都不敢动了……那现在大家是统一战线的夥伴了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "充其量只是临时休战而已。净化者，吹雪和澪的舰装就交给你了，请努力工作哦",
+			say = "充其量只是临时休战而已。净化者，吹雪和澪的舰装就交给妳了，请努力工作哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "净化亲",
-			say = "切…我知道啦！已经差不多熟悉感觉了，很快就能造出几套很厉害的舰装让你们刮目相看的！",
+			say = "切…我知道啦！已经差不多熟悉感觉了，很快就能造出几套很厉害的舰装让妳们刮目相看的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们还有多少同伴在这里？",
+			say = "妳们还有多少同伴在这里？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

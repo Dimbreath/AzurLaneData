@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "半人马，来玩扮家家酒吧！{namecode:34}也想和你一起玩呢！",
+			say = "半人马，来玩扮家家酒吧！{namecode:34}也想和妳一起玩呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快点快点，没看到你来哈曼正在发脾气呢。",
+			say = "快点快点，没看到妳来哈曼正在发脾气呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			say = "嗯，小天鹅前辈，你先过去吧，我等会儿就到。",
+			say = "嗯，小天鹅前辈，妳先过去吧，我等会儿就到。",
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，有半人马在感觉大家都有自信了很多，你一定要来哦？",
+			say = "嗯，有半人马在感觉大家都有自信了很多，妳一定要来哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "啊，皇家方舟前辈，你好~",
+			say = "啊，皇家方舟前辈，妳好~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

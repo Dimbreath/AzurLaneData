@@ -57,7 +57,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:95}",
-			say = "拜你們所賜，大家都開始期待萬聖夜了~唉，我也想參加“Trick or treat”呀",
+			say = "拜妳們所賜，大家都開始期待萬聖夜了~唉，我也想參加“Trick or treat”呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
-			say = "哼哼哼，很可惜，你已經是大人了！",
+			say = "哼哼哼，很可惜，妳已經是大人了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:95}",
-			say = "明明……對了，你們知道嗎？聽說最近港區深夜裡有“幽靈”出沒",
+			say = "明明……對了，妳們知道嗎？聽說最近港區深夜裡有“幽靈”出沒",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
-			say = "欸，你也有嗎？你有找到什麼線索嗎？",
+			say = "欸，妳也有嗎？妳有找到什麼線索嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

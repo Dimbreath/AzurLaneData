@@ -990,6 +990,60 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	{
+		display = "130mm單裝炮Mle1924T3設計圖",
+		rarity = 2,
+		type = 9,
+		drop_oil_max = 0,
+		name = "130mm單裝炮Mle1924T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 56,
+		icon = "Equips/50000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "三聯裝152mm主炮Mle1930T3設計圖",
+		rarity = 2,
+		type = 9,
+		drop_oil_max = 0,
+		name = "三聯裝152mm主炮Mle1930T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57,
+		icon = "Equips/50200",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "四聯裝330mm主炮Mle1931T2設計圖",
+		rarity = 2,
+		type = 9,
+		drop_oil_max = 0,
+		name = "四聯裝330mm主炮Mle1931T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 58,
+		icon = "Equips/50300",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[1001] = {
 		display = "可樂配洋芋片即是正義！",
 		rarity = 4,
@@ -2808,6 +2862,60 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[10101] = {
+		display = "138.6mm單裝炮Mle1929T2設計圖",
+		rarity = 3,
+		type = 9,
+		drop_oil_max = 0,
+		name = "138.6mm單裝炮Mle1929T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 10101,
+		icon = "Equips/50100",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10102] = {
+		display = "四聯裝330mm主炮Mle1931T3設計圖",
+		rarity = 3,
+		type = 9,
+		drop_oil_max = 0,
+		name = "四聯裝330mm主炮Mle1931T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 10102,
+		icon = "Equips/50300",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10103] = {
+		display = "四聯裝380mm主炮Mle1935T2設計圖",
+		rarity = 3,
+		type = 9,
+		drop_oil_max = 0,
+		name = "四聯裝380mm主炮Mle1935T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 10103,
+		icon = "Equips/50400",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[11000] = {
 		display = "艦艇維修設備T3設計圖",
 		rarity = 4,
@@ -3397,6 +3505,42 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 11037,
 		icon = "Equips/45400",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[11038] = {
+		display = "138.6mm單裝炮Mle1929T3設計圖",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "138.6mm單裝炮Mle1929T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 11038,
+		icon = "Equips/50100",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[11039] = {
+		display = "四聯裝380mm主炮Mle1935T3設計圖",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "四聯裝380mm主炮Mle1935T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 11039,
+		icon = "Equips/50400",
 		replace_item = 0,
 		display_icon = {},
 		price = {},
@@ -6508,7 +6652,7 @@ pg.item_data_statistics = {
 		virtual_type = 0,
 		link_id = 0,
 		id = 40005,
-		icon = "ChargeIcon/box1",
+		icon = "ChargeIcon/boxLv10",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -6552,7 +6696,7 @@ pg.item_data_statistics = {
 		virtual_type = 0,
 		link_id = 0,
 		id = 40006,
-		icon = "ChargeIcon/box2",
+		icon = "ChargeIcon/boxLv20",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -6596,7 +6740,7 @@ pg.item_data_statistics = {
 		virtual_type = 0,
 		link_id = 0,
 		id = 40007,
-		icon = "ChargeIcon/box3",
+		icon = "ChargeIcon/boxLv30",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -6655,7 +6799,7 @@ pg.item_data_statistics = {
 		virtual_type = 0,
 		link_id = 0,
 		id = 40008,
-		icon = "ChargeIcon/box4",
+		icon = "ChargeIcon/boxLv50",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -6714,7 +6858,7 @@ pg.item_data_statistics = {
 		virtual_type = 0,
 		link_id = 0,
 		id = 40009,
-		icon = "ChargeIcon/box1",
+		icon = "ChargeIcon/boxDaily",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -6753,7 +6897,7 @@ pg.item_data_statistics = {
 		virtual_type = 0,
 		link_id = 0,
 		id = 40011,
-		icon = "ChargeIcon/box4",
+		icon = "ChargeIcon/boxLv70",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -7208,7 +7352,7 @@ pg.item_data_statistics = {
 		virtual_type = 0,
 		link_id = 0,
 		id = 40106,
-		icon = "ChargeIcon/box4",
+		icon = "ChargeIcon/boxFur",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -7527,7 +7671,7 @@ pg.item_data_statistics = {
 		virtual_type = 0,
 		link_id = 0,
 		id = 40117,
-		icon = "ChargeIcon/box4",
+		icon = "ChargeIcon/boxOil",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -7551,7 +7695,7 @@ pg.item_data_statistics = {
 		virtual_type = 0,
 		link_id = 0,
 		id = 40118,
-		icon = "ChargeIcon/box4",
+		icon = "ChargeIcon/boxBuild",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -7683,7 +7827,7 @@ pg.item_data_statistics = {
 		virtual_type = 0,
 		link_id = 0,
 		id = 40910,
-		icon = "Props/lihe1",
+		icon = "Props/lihe3",
 		replace_item = 0,
 		display_icon = {
 			{
@@ -12316,7 +12460,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[41456] = {
-		display = "埃米爾·貝爾汀贈送的情人節禮物",
+		display = "埃米爾•貝爾坦贈送的情人節禮物",
 		rarity = 8,
 		type = 1,
 		drop_oil_max = 0,
@@ -57725,6 +57869,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59150] = {
+		display = "用於『限時體驗商店』兌換角色限時換裝，2020年6月10日後將無法使用 ",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "換裝體驗券",
+		shop_id = 1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59150,
+		icon = "Props/skinTicket",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59152] = {
 		display = "{namecode:98}特意準備的禮品券，不小心遺落在了各個出擊海域，回收後投入使用可提高商店營業額，活動結束後將會消失",
 		rarity = 2,
@@ -58005,7 +58167,7 @@ pg.item_data_statistics = {
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 6,
-		link_id = 0,
+		link_id = 162,
 		id = 59615,
 		icon = "Props/jiujiu",
 		replace_item = 0,
@@ -59583,22 +59745,22 @@ pg.item_data_statistics = {
 		display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的的鑽石) 
 包含的換裝和機率如下：
-（<color=#92fc63>9.0%</color>）吹雪換裝  Music Pixy（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9.0%</color>）克里夫蘭換裝  騎士之夜（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8.4%</color>）君主換裝  素羅華威；
+（<color=#92fc63>9.3%</color>）吹雪換裝  Music Pixy（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.3%</color>）克里夫蘭換裝  騎士之夜（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>8.4%</color>）讓·巴爾換裝  不羈的BloodStone；
 （<color=#92fc63>8.4%</color>）明石換裝  黑貓來襲！；
 （<color=#92fc63>8.4%</color>）南達科他換裝  劇場上的獨奏；
 （<color=#92fc63>8.4%</color>）U-81換裝  靜謐小夜曲；
-（<color=#92fc63>8.0%</color>）光輝換裝  光輝的舞會；
-（<color=#92fc63>8.0%</color>）歐若拉換裝  黎明的贊歌； 
-（<color=#92fc63>8.0%</color>）伊莉莎白女王換裝  女王的舞踏會；
-（<color=#92fc63>8.0%</color>）阿賈克斯換裝  晚會女王；
-（<color=#92fc63>8.0%</color>）女將換裝  小小的管弦樂隊；]],
+（<color=#92fc63>8.4%</color>）光輝換裝  光輝的舞會；
+（<color=#92fc63>8.2%</color>）君主換裝  素羅華威；
+（<color=#92fc63>7.8%</color>）歐若拉換裝  黎明的贊歌； 
+（<color=#92fc63>7.8%</color>）伊莉莎白女王換裝  女王的舞踏會；
+（<color=#92fc63>7.8%</color>）阿賈克斯換裝  晚會女王；
+（<color=#92fc63>7.8%</color>）女將換裝  小小的管弦樂隊；]],
 		rarity = 4,
 		type = 98,
 		drop_oil_max = 0,
-		name = "随机换装",
+		name = "隨機換裝",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -59724,6 +59886,9 @@ pg.item_data_statistics = {
 		53,
 		54,
 		55,
+		56,
+		57,
+		58,
 		1001,
 		1004,
 		1005,
@@ -59825,6 +59990,9 @@ pg.item_data_statistics = {
 		10098,
 		10099,
 		10100,
+		10101,
+		10102,
+		10103,
 		11000,
 		11001,
 		11002,
@@ -59858,6 +60026,8 @@ pg.item_data_statistics = {
 		11035,
 		11036,
 		11037,
+		11038,
+		11039,
 		12003,
 		13000,
 		13001,
@@ -60933,6 +61103,7 @@ pg.item_data_statistics = {
 		59128,
 		59136,
 		59140,
+		59150,
 		59152,
 		59601,
 		59602,

@@ -42,7 +42,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "真自信啊……这场演习对你来说不过就是一场游戏而已吧？",
+			say = "真自信啊……这场演习对妳来说不过就是一场游戏而已吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 301790,
-			say = "……你真是，幸好你不是我真正的敌人。",
+			say = "……妳真是，幸好妳不是我真正的敌人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

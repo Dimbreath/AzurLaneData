@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "“很高興能收到你的來信，沒想到能多了一個這麼可愛的小小歌迷呢”",
+			say = "“很高興能收到妳的來信，沒想到能多了一個這麼可愛的小小歌迷呢”",
 			side = 0,
 			actorName = "星塵",
 			blackBg = true,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			say = "“從你的信裡，可以充分感受到你的心意”",
+			say = "“從妳的信裡，可以充分感受到妳的心意”",
 			side = 0,
 			actorName = "星塵",
 			blackBg = true,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			say = "“獨角獸真的很喜歡你的指揮官哥哥呀～”",
+			say = "“獨角獸真的很喜歡妳的指揮官哥哥呀～”",
 			side = 0,
 			actorName = "星塵",
 			blackBg = true,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			say = "“對於這麼可愛的獨角獸妹妹，就讓姐姐給你一點小小的建議吧”",
+			say = "“對於這麼可愛的獨角獸妹妹，就讓姐姐給妳一點小小的建議吧”",
 			side = 0,
 			actorName = "星塵",
 			blackBg = true,
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			say = "“踏出一小步，讓獨角獸的哥哥看看不一樣的你吧！”",
+			say = "“踏出一小步，讓獨角獸的哥哥看看不一樣的妳吧！”",
 			side = 0,
 			actorName = "星塵",
 			blackBg = true,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			say = "“我會在這裡為你加油的”",
+			say = "“我會在這裡為妳加油的”",
 			side = 0,
 			actorName = "星塵",
 			blackBg = true,
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			say = "“為你應援的歌姬 星塵”",
+			say = "“為妳應援的歌姬 星塵”",
 			side = 0,
 			actorName = "星塵",
 			blackBg = true,

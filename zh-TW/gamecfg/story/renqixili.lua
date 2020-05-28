@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也来要来一串吗？喏，给你~",
+			say = "指挥官也来要来一串吗？喏，给妳~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，等等，指挥官你的脸上——",
+			say = "啊，等等，指挥官妳的脸上——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官的脸上沾了酱汁呢，嘿嘿，帮你舔掉啦！",
+			say = "指挥官的脸上沾了酱汁呢，嘿嘿，帮妳舔掉啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇，指挥官，你看，这朵好大！",
+			say = "哇，指挥官，妳看，这朵好大！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

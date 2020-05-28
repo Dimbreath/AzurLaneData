@@ -12,7 +12,7 @@ return {
 			bgm = "holo-control-inst",
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊！祭，你没事吗，太好了…..",
+			say = "哇啊啊啊！祭，妳没事吗，太好了…..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余等能得救，还是多亏了拉菲和{namecode:6}的帮助呢，谢谢你们。",
+			say = "余等能得救，还是多亏了拉菲和{namecode:6}的帮助呢，谢谢妳们。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为，你们不是坏人。",
+			say = "因为，妳们不是坏人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用难过绫目酱！等战斗结束之后，我们陪你一起重建，建一个更大，更帅气，更坚固的百鬼城~！",
+			say = "不用难过绫目酱！等战斗结束之后，我们陪妳一起重建，建一个更大，更帅气，更坚固的百鬼城~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

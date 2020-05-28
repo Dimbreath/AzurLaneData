@@ -66,7 +66,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			nameColor = "#a9f548",
-			say = "不明物体？在暴风雨中？快告诉我你的方位！",
+			say = "不明物体？在暴风雨中？快告诉我妳的方位！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			nameColor = "#a9f548",
-			say = "回话呀，{namecode:95}姐，告诉我你的方位",
+			say = "回话呀，{namecode:95}姐，告诉我妳的方位",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			blackBg = true,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "收回前言…至少，终于让我找到你了…",
+			say = "收回前言…至少，终于让我找到妳了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

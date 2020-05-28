@@ -98,7 +98,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305070,
-			say = "{namecode:161}，你这是——",
+			say = "{namecode:161}，妳这是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 304050,
-			say = "时间不多了，必须带着你们从这里…",
+			say = "时间不多了，必须带着妳们从这里…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 304050,
-			say = "咳…笨蛋…这个你明明可以躲开的…",
+			say = "咳…笨蛋…这个妳明明可以躲开的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，我的装甲可比你的厚多了，这点擦伤算什么，你就给我老实的…",
+			say = "哼，我的装甲可比妳的厚多了，这点擦伤算什么，妳就给我老实的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			say = "喂！你可是被称为“重樱的鬼谋”的家伙啊，快给我想想办法啊喂！",
+			say = "喂！妳可是被称为“重樱的鬼谋”的家伙啊，快给我想想办法啊喂！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305070,
-			say = "你这家伙！不会想就这样在这边结束吧？！",
+			say = "妳这家伙！不会想就这样在这边结束吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			blackBg = true,
 			actor = 305070,
 			nameColor = "#a9f548",
-			say = "你不该过来找我的，我自己的错误就应该由我自己承担——",
+			say = "妳不该过来找我的，我自己的错误就应该由我自己承担——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，该说真不愧是你吗，不愧是我们“重樱的鬼谋”！！",
+			say = "哈哈哈，该说真不愧是妳吗，不愧是我们“重樱的鬼谋”！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "行，我服了！等我们回到港区，我愿意成为你麾下的利剑，斩断一切阻挡在我们面前的对手！",
+			say = "行，我服了！等我们回到港区，我愿意成为妳麾下的利剑，斩断一切阻挡在我们面前的对手！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -744,7 +744,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以你也给我提起精神，我们，回家了！",
+			say = "所以妳也给我提起精神，我们，回家了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

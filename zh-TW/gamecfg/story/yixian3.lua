@@ -94,7 +94,7 @@ return {
 			actor = 502020,
 			side = 1,
 			dir = 1,
-			say = "那我跟着你，也是我的自由！哼！",
+			say = "那我跟着妳，也是我的自由！哼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 502020,
 			side = 1,
 			dir = 1,
-			say = "心酸是什么意思啦心酸！？不过到头来，你到底在看什么东西？",
+			say = "心酸是什么意思啦心酸！？不过到头来，妳到底在看什么东西？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 502020,
 			side = 1,
 			dir = 1,
-			say = "你就是待着不动才什么都想不到，一起去干点别的事情吧！",
+			say = "妳就是待着不动才什么都想不到，一起去干点别的事情吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

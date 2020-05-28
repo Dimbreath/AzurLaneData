@@ -96,7 +96,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官没事真是太好了！你们就是北方联合的主力舰队…？",
+			say = "指挥官没事真是太好了！妳们就是北方联合的主力舰队…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 701030,
 			nameColor = "#a9f548",
-			say = "啊，对了！听我说啊，从刚刚路上开始通讯器就被一个嚣张的人给黑了，跟你们也联络不上了！",
+			say = "啊，对了！听我说啊，从刚刚路上开始通讯器就被一个嚣张的人给黑了，跟妳们也联络不上了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

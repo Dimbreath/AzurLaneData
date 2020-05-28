@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "原来如此……你的担心也不是没有道理呢。",
+			say = "原来如此……妳的担心也不是没有道理呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

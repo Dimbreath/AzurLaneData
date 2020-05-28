@@ -146,7 +146,7 @@ return {
 			bgm = "holo-inochi",
 			actor = 10500020,
 			actorName = "时乃空？",
-			say = "我的人格根源在你哦，真正的你将来肯定会超越我的。不过…首先要在这里打败我才有未来就是了~",
+			say = "我的人格根源在妳哦，真正的妳将来肯定会超越我的。不过…首先要在这里打败我才有未来就是了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			bgm = "holo-inochi",
 			actor = 10500020,
 			actorName = "时乃空？",
-			say = "时间要到了么…很遗憾，这次是你们胜利了",
+			say = "时间要到了么…很遗憾，这次是妳们胜利了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			bgm = "holo-inochi",
 			actor = 10500020,
 			actorName = "时乃空？",
-			say = "“大家，不要停下来哦！”这是时间与空间的支配者让我带的话，也是我想对你们说的…",
+			say = "“大家，不要停下来哦！”这是时间与空间的支配者让我带的话，也是我想对妳们说的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

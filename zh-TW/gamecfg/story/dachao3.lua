@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？{namecode:146}親你來啦！看看我剛完成的美甲~欸？怎麼指揮官也過來了？",
+			say = "嗯？{namecode:146}親妳來啦！看看我剛完成的美甲~欸？怎麼指揮官也過來了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:16}醬起床了哦！我帶來了點心給你。",
+			say = "{namecode:16}醬起床了哦！我帶來了點心給妳。",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,

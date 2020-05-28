@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			actor = 205031,
 			nameColor = "#a9f548",
-			say = "不過這下就無路可逃了。你究竟是誰？你的目的是什麼？",
+			say = "不過這下就無路可逃了。妳究竟是誰？妳的目的是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "幽靈小姐，貝利和大家都不是壞人哦，我們是來幫助你的呢！",
+			say = "幽靈小姐，貝利和大家都不是壞人哦，我們是來幫助妳的呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，等、等等，這樣的話你會掉下去——",
+			say = "喂，等、等等，這樣的話妳會掉下去——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			actor = 101271,
 			nameColor = "#a9f548",
-			say = "啊哈哈哈~真的是飛翔的魔女耶~{namecode:48}、納爾遜，你們也快來呀~",
+			say = "啊哈哈哈~真的是飛翔的魔女耶~{namecode:48}、納爾遜，妳們也快來呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -167,7 +167,7 @@ return {
 			actor = 408022,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……我不擅长应付人多的场合，那里就交给你们了",
+			say = "……我不擅长应付人多的场合，那里就交给妳们了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 408022,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "好吧…既然你们都这么说了……",
+			say = "好吧…既然妳们都这么说了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "star_level_bg_115",
 			actor = 499011,
 			nameColor = "#a9f548",
-			say = "欢笑的伙伴，欢快的宴席…呼…真是美好…不过，也真是无趣呢……",
+			say = "欢笑的夥伴，欢快的宴席…呼…真是美好…不过，也真是无趣呢……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 199011,
 			nameColor = "#a9f548",
-			say = "这可是你们铁血的宴会呢！要再…怎么说呢，再high一点？",
+			say = "这可是妳们铁血的宴会呢！要再…怎么说呢，再high一点？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			actor = 499011,
 			nameColor = "#a9f548",
-			say = "嗯…？是西雅图啊，还有峦？你们也来了呀……",
+			say = "嗯…？是西雅图啊，还有峦？妳们也来了呀……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

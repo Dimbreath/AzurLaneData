@@ -12,7 +12,7 @@ return {
 			bgm = "azumaster-ins",
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "啊哈哈哈哈哈！上吧我的妹妹！让全世界都知道你的魅力！",
+			say = "啊哈哈哈哈哈！上吧我的妹妹！让全世界都知道妳的魅力！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 403070,
-			say = "你姐那边确实麻烦啊…",
+			say = "妳姐那边确实麻烦啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 403054,
-			say = "还是有点傲娇啊……我是你们下一个对手，做好心理准备哦？",
+			say = "还是有点傲娇啊……我是妳们下一个对手，做好心理准备哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

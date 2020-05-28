@@ -132,7 +132,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…就在你们一来一回的时候，{namecode:13}和{namecode:14}已经确认完内容了，的说",
+			say = "…就在妳们一来一回的时候，{namecode:13}和{namecode:14}已经确认完内容了，的说",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

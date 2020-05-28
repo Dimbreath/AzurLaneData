@@ -884,5 +884,381 @@ pg.ship_skin_expression_ex = {
 				"1"
 			}
 		}
+	},
+	lisailiu = {
+		feeling3 = "",
+		mail = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		painting = "lisailiu",
+		upgrade = "",
+		lose = "",
+		main_3 = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"3"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_1 = {
+			{
+				1100,
+				"4"
+			}
+		},
+		main_2 = {
+			{
+				1100,
+				"1"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"3"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"1"
+			}
+		}
+	},
+	nake = {
+		touch = "",
+		feeling3 = "",
+		mail = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		painting = "nake",
+		upgrade = "",
+		main_2 = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		detail = "",
+		win_mvp = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_1 = {
+			{
+				1100,
+				"3"
+			}
+		},
+		main_3 = {
+			{
+				1100,
+				"3"
+			}
+		}
+	},
+	huayue = {
+		touch = "",
+		feeling3 = "",
+		mail = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		feeling1 = "",
+		painting = "huayue",
+		upgrade = "",
+		lose = "",
+		main_3 = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"6"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"3"
+			}
+		},
+		main_1 = {
+			{
+				1100,
+				"7"
+			}
+		},
+		main_2 = {
+			{
+				1100,
+				"5"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"6"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"7"
+			}
+		}
+	},
+	tuzuo = {
+		feeling3 = "",
+		win_mvp = "",
+		feeling1 = "",
+		painting = "tuzuo",
+		upgrade = "",
+		lose = "",
+		feeling4 = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"4"
+			}
+		},
+		home = {
+			{
+				1100,
+				"5"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"1"
+			}
+		},
+		main_1 = {
+			{
+				1100,
+				"5"
+			}
+		},
+		main_2 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_3 = {
+			{
+				1100,
+				"1"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"6"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"5"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"1"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"5"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"8"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"5"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"5"
+			}
+		}
+	},
+	aerjiliya = {
+		touch = "",
+		feeling3 = "",
+		main_1 = "",
+		mail = "",
+		expedition = "",
+		win_mvp = "",
+		feeling1 = "",
+		painting = "aerjiliya",
+		upgrade = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"2"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"3"
+			}
+		},
+		home = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_2 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_3 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"1"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"2"
+			}
+		}
+	},
+	shengnvzhende = {
+		feeling3 = "",
+		mail = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		feeling1 = "",
+		painting = "shengnvzhende",
+		upgrade = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_1 = {
+			{
+				1100,
+				"3"
+			}
+		},
+		main_2 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_3 = {
+			{
+				1100,
+				"1"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"2"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"2"
+			}
+		}
 	}
 }

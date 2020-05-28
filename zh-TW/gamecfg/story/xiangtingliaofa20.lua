@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "等、等等！你突然记些什么啊！",
+			say = "等、等等！妳突然记些什么啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……如果你在報導中幫我宣傳店鋪的話，倒不是不能考慮。",
+			say = "……如果妳在報導中幫我宣傳店鋪的話，倒不是不能考慮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是笨蛋嗎？",
+			say = "妳是笨蛋嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的，比如現在趴在你背上就有一隻……",
+			say = "真的，比如現在趴在妳背上就有一隻……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "雖然是騙你的就是了……",
+			say = "雖然是騙妳的就是了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

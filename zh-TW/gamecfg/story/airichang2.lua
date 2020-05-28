@@ -311,7 +311,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "！？长岛，小心。有什么在你身后！",
+			say = "！？长岛，小心。有什么在妳身后！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

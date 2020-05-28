@@ -72,7 +72,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，欧根，虽说宴会可以适当纵情…你这是不是太放开了一点……",
+			say = "唔，欧根，虽说宴会可以适当纵情…妳这是不是太放开了一点……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			actor = 403033,
 			nameColor = "#a9f548",
-			say = "你也一起来吧，重樱的小姑娘～光是说话多没意思～",
+			say = "妳也一起来吧，重樱的小姑娘～光是说话多没意思～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

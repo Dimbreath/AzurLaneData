@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 301601,
 			actorName = "{namecode:143}",
-			say = "{namecode:142}{namecode:142}，你的尾巴在颤抖耶，这难道就是传说中的“武者震”？",
+			say = "{namecode:142}{namecode:142}，妳的尾巴在颤抖耶，这难道就是传说中的“武者震”？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵呵，二位也要加入这场雪战吗？呼呼呼，正好，就让你们知道，谁才是最适合待在指挥官身边的人吧！",
+			say = "呵呵呵，二位也要加入这场雪战吗？呼呼呼，正好，就让妳们知道，谁才是最适合待在指挥官身边的人吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，好不容易打扫好的院子，你们闹起来又要弄乱了！",
+			say = "等等，好不容易打扫好的院子，妳们闹起来又要弄乱了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:128}酱真聪明，感觉什么问题都难不倒你呢~",
+			say = "{namecode:128}酱真聪明，感觉什么问题都难不倒妳呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

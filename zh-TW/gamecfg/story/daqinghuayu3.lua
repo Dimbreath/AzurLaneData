@@ -565,7 +565,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "看起来，和港区里的其他小伙伴也相处得很好的样子。——不对，这家伙一点也没有破绽…！",
+			say = "看起来，和港区里的其他小夥伴也相处得很好的样子。——不对，这家伙一点也没有破绽…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

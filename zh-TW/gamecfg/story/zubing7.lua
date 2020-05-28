@@ -297,7 +297,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:63}",
-			say = "喂，你们几个堆在门这里干啥？在偷听吗？",
+			say = "喂，妳们几个堆在门这里干啥？在偷听吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小{namecode:63}……你这也太不解风情了吧？",
+			say = "小{namecode:63}……妳这也太不解风情了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

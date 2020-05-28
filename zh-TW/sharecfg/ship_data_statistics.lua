@@ -29502,6 +29502,474 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[105191] = {
+		oxy_max = 0,
+		type = 5,
+		name = "麻薩諸塞",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 105191,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Massachusetts",
+		oxy_cost = 0,
+		skin_id = 105190,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1303,
+			80,
+			0,
+			79,
+			0,
+			57,
+			0,
+			24,
+			7,
+			27.5,
+			82,
+			0
+		},
+		attrs_growth = {
+			31790,
+			796,
+			0,
+			1540,
+			0,
+			286,
+			0,
+			348,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105192] = {
+		oxy_max = 0,
+		type = 5,
+		name = "麻薩諸塞",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 105192,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Massachusetts",
+		oxy_cost = 0,
+		skin_id = 105190,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1621,
+			100,
+			0,
+			98,
+			0,
+			57,
+			0,
+			24,
+			7,
+			27.5,
+			82,
+			0
+		},
+		attrs_growth = {
+			31790,
+			796,
+			0,
+			1540,
+			0,
+			286,
+			0,
+			348,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105193] = {
+		oxy_max = 0,
+		type = 5,
+		name = "麻薩諸塞",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 105193,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Massachusetts",
+		oxy_cost = 0,
+		skin_id = 105190,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2257,
+			140,
+			0,
+			137,
+			0,
+			57,
+			0,
+			24,
+			7,
+			27.5,
+			82,
+			0
+		},
+		attrs_growth = {
+			31790,
+			796,
+			0,
+			1540,
+			0,
+			286,
+			0,
+			348,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105194] = {
+		oxy_max = 0,
+		type = 5,
+		name = "麻薩諸塞",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 105194,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Massachusetts",
+		oxy_cost = 0,
+		skin_id = 105190,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3210,
+			199,
+			0,
+			195,
+			0,
+			57,
+			0,
+			24,
+			7,
+			27.5,
+			82,
+			0
+		},
+		attrs_growth = {
+			31790,
+			796,
+			0,
+			1540,
+			0,
+			286,
+			0,
+			348,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			17479,
+			881,
+			0,
+			0,
+			0,
+			674,
+			0,
+			242,
+			577,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[106011] = {
 		oxy_max = 0,
 		type = 6,
@@ -78975,6 +79443,474 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[301601] = {
+		oxy_max = 0,
+		type = 1,
+		name = "磯風",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301601,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Isokaze",
+		oxy_cost = 0,
+		skin_id = 301600,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			336,
+			12,
+			97,
+			28,
+			0,
+			74,
+			0,
+			67,
+			71,
+			42,
+			18,
+			49
+		},
+		attrs_growth = {
+			8190,
+			120,
+			956,
+			544,
+			0,
+			366,
+			0,
+			990,
+			1050,
+			0,
+			0,
+			482
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301602] = {
+		oxy_max = 0,
+		type = 1,
+		name = "磯風",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301602,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Isokaze",
+		oxy_cost = 0,
+		skin_id = 301600,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			418,
+			15,
+			121,
+			35,
+			0,
+			74,
+			0,
+			67,
+			71,
+			42,
+			18,
+			61
+		},
+		attrs_growth = {
+			8190,
+			120,
+			956,
+			544,
+			0,
+			366,
+			0,
+			990,
+			1050,
+			0,
+			0,
+			482
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301603] = {
+		oxy_max = 0,
+		type = 1,
+		name = "磯風",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301603,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Isokaze",
+		oxy_cost = 0,
+		skin_id = 301600,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			582,
+			21,
+			169,
+			48,
+			0,
+			74,
+			0,
+			67,
+			71,
+			42,
+			18,
+			85
+		},
+		attrs_growth = {
+			8190,
+			120,
+			956,
+			544,
+			0,
+			366,
+			0,
+			990,
+			1050,
+			0,
+			0,
+			482
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.45,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301604] = {
+		oxy_max = 0,
+		type = 1,
+		name = "磯風",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301604,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Isokaze",
+		oxy_cost = 0,
+		skin_id = 301600,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			827,
+			30,
+			240,
+			69,
+			0,
+			74,
+			0,
+			67,
+			71,
+			42,
+			18,
+			121
+		},
+		attrs_growth = {
+			8190,
+			120,
+			956,
+			544,
+			0,
+			366,
+			0,
+			990,
+			1050,
+			0,
+			0,
+			482
+		},
+		attrs_growth_extra = {
+			8180,
+			278,
+			1194,
+			371,
+			0,
+			872,
+			0,
+			-578,
+			-765,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[301611] = {
 		oxy_max = 0,
 		type = 1,
@@ -114182,6 +115118,3802 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[801011] = {
+		oxy_max = 0,
+		type = 1,
+		name = "凱旋",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 801011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Le Triomphant",
+		oxy_cost = 0,
+		skin_id = 801010,
+		attack_duration = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			326,
+			24,
+			49,
+			31,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			77,
+			51
+		},
+		attrs_growth = {
+			7945,
+			242,
+			490,
+			608,
+			0,
+			380,
+			0,
+			1008,
+			1170,
+			0,
+			0,
+			504
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			1.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[801012] = {
+		oxy_max = 0,
+		type = 1,
+		name = "凱旋",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 801012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Le Triomphant",
+		oxy_cost = 0,
+		skin_id = 801010,
+		attack_duration = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			405,
+			30,
+			61,
+			39,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			77,
+			64
+		},
+		attrs_growth = {
+			7945,
+			242,
+			490,
+			608,
+			0,
+			380,
+			0,
+			1008,
+			1170,
+			0,
+			0,
+			504
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			1.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[801013] = {
+		oxy_max = 0,
+		type = 1,
+		name = "凱旋",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 801013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Le Triomphant",
+		oxy_cost = 0,
+		skin_id = 801010,
+		attack_duration = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			564,
+			42,
+			86,
+			54,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			77,
+			89
+		},
+		attrs_growth = {
+			7945,
+			242,
+			490,
+			608,
+			0,
+			380,
+			0,
+			1008,
+			1170,
+			0,
+			0,
+			504
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.2,
+			1.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[801014] = {
+		oxy_max = 0,
+		type = 1,
+		name = "凱旋",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 801014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Le Triomphant",
+		oxy_cost = 0,
+		skin_id = 801010,
+		attack_duration = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			803,
+			60,
+			123,
+			77,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			77,
+			127
+		},
+		attrs_growth = {
+			7945,
+			242,
+			490,
+			608,
+			0,
+			380,
+			0,
+			1008,
+			1170,
+			0,
+			0,
+			504
+		},
+		attrs_growth_extra = {
+			7945,
+			561,
+			1105,
+			420,
+			0,
+			895,
+			0,
+			-591,
+			-835,
+			0,
+			0,
+			446
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.25,
+			1.45
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[801021] = {
+		oxy_max = 0,
+		type = 1,
+		name = "福爾班",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 801021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Forbin",
+		oxy_cost = 0,
+		skin_id = 801020,
+		attack_duration = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			222,
+			13,
+			78,
+			26,
+			0,
+			71,
+			0,
+			68,
+			74,
+			39.6,
+			69,
+			46
+		},
+		attrs_growth = {
+			5410,
+			126,
+			772,
+			504,
+			0,
+			352,
+			0,
+			1008,
+			1092,
+			0,
+			0,
+			460
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[801022] = {
+		oxy_max = 0,
+		type = 1,
+		name = "福爾班",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 801022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Forbin",
+		oxy_cost = 0,
+		skin_id = 801020,
+		attack_duration = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			276,
+			16,
+			97,
+			32,
+			0,
+			71,
+			0,
+			68,
+			74,
+			39.6,
+			69,
+			58
+		},
+		attrs_growth = {
+			5410,
+			126,
+			772,
+			504,
+			0,
+			352,
+			0,
+			1008,
+			1092,
+			0,
+			0,
+			460
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.25,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[801023] = {
+		oxy_max = 0,
+		type = 1,
+		name = "福爾班",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 801023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Forbin",
+		oxy_cost = 0,
+		skin_id = 801020,
+		attack_duration = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			384,
+			22,
+			136,
+			45,
+			0,
+			71,
+			0,
+			68,
+			74,
+			39.6,
+			69,
+			81
+		},
+		attrs_growth = {
+			5410,
+			126,
+			772,
+			504,
+			0,
+			352,
+			0,
+			1008,
+			1092,
+			0,
+			0,
+			460
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[801024] = {
+		oxy_max = 0,
+		type = 1,
+		name = "福爾班",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 801024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Forbin",
+		oxy_cost = 0,
+		skin_id = 801020,
+		attack_duration = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			547,
+			32,
+			194,
+			64,
+			0,
+			71,
+			0,
+			68,
+			74,
+			39.6,
+			69,
+			115
+		},
+		attrs_growth = {
+			5410,
+			126,
+			772,
+			504,
+			0,
+			352,
+			0,
+			1008,
+			1092,
+			0,
+			0,
+			460
+		},
+		attrs_growth_extra = {
+			5410,
+			302,
+			1193,
+			344,
+			0,
+			833,
+			0,
+			-591,
+			-737,
+			0,
+			0,
+			447
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[802011] = {
+		oxy_max = 0,
+		type = 2,
+		name = "埃米爾•貝爾坦",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 802011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Émile Bertin",
+		oxy_cost = 0,
+		skin_id = 802010,
+		attack_duration = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			548,
+			30,
+			51,
+			51,
+			0,
+			64,
+			0,
+			57,
+			30,
+			34,
+			67,
+			35
+		},
+		attrs_growth = {
+			13355,
+			294,
+			502,
+			1000,
+			0,
+			316,
+			0,
+			846,
+			444,
+			0,
+			0,
+			344
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			271
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.45,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Bertin"
+		}
+	},
+	[802012] = {
+		oxy_max = 0,
+		type = 2,
+		name = "埃米爾•貝爾坦",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 802012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Émile Bertin",
+		oxy_cost = 0,
+		skin_id = 802010,
+		attack_duration = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			682,
+			37,
+			64,
+			64,
+			0,
+			64,
+			0,
+			57,
+			30,
+			34,
+			67,
+			44
+		},
+		attrs_growth = {
+			13355,
+			294,
+			502,
+			1000,
+			0,
+			316,
+			0,
+			846,
+			444,
+			0,
+			0,
+			344
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			272
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.32,
+			1.47,
+			0.92,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Bertin"
+		}
+	},
+	[802013] = {
+		oxy_max = 0,
+		type = 2,
+		name = "埃米爾•貝爾坦",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 802013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Émile Bertin",
+		oxy_cost = 0,
+		skin_id = 802010,
+		attack_duration = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			949,
+			52,
+			89,
+			89,
+			0,
+			64,
+			0,
+			57,
+			30,
+			34,
+			67,
+			61
+		},
+		attrs_growth = {
+			13355,
+			294,
+			502,
+			1000,
+			0,
+			316,
+			0,
+			846,
+			444,
+			0,
+			0,
+			344
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			273
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.5,
+			0.95,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Bertin"
+		}
+	},
+	[802014] = {
+		oxy_max = 0,
+		type = 2,
+		name = "埃米爾•貝爾坦",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 802014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Émile Bertin",
+		oxy_cost = 0,
+		skin_id = 802010,
+		attack_duration = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1349,
+			74,
+			126,
+			126,
+			0,
+			64,
+			0,
+			57,
+			30,
+			34,
+			67,
+			87
+		},
+		attrs_growth = {
+			13355,
+			294,
+			502,
+			1000,
+			0,
+			316,
+			0,
+			846,
+			444,
+			0,
+			0,
+			344
+		},
+		attrs_growth_extra = {
+			3339,
+			696,
+			1115,
+			617,
+			0,
+			749,
+			0,
+			154,
+			1421,
+			0,
+			0,
+			420
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			274
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.55,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Bertin"
+		}
+	},
+	[808011] = {
+		oxy_max = 180,
+		type = 8,
+		name = "速科夫",
+		huntingrange_level = 1,
+		star = 2,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 808011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 35,
+		english_name = "FFNF Surcouf",
+		oxy_cost = 10,
+		skin_id = 808010,
+		attack_duration = 6,
+		nationality = 8,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			454,
+			26,
+			98,
+			0,
+			0,
+			28,
+			0,
+			57,
+			8,
+			18.5,
+			60,
+			0
+		},
+		attrs_growth = {
+			11085,
+			254,
+			970,
+			0,
+			0,
+			140,
+			0,
+			846,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			102
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.05,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					2,
+					-2
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[808012] = {
+		oxy_max = 180,
+		type = 8,
+		name = "速科夫",
+		huntingrange_level = 1,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 808012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 35,
+		english_name = "FFNF Surcouf",
+		oxy_cost = 10,
+		skin_id = 808010,
+		attack_duration = 6,
+		nationality = 8,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			565,
+			32,
+			122,
+			0,
+			0,
+			28,
+			0,
+			57,
+			8,
+			14.8,
+			60,
+			0
+		},
+		attrs_growth = {
+			11085,
+			254,
+			970,
+			0,
+			0,
+			140,
+			0,
+			846,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			102
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.05,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					2,
+					-2
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[808013] = {
+		oxy_max = 180,
+		type = 8,
+		name = "速科夫",
+		huntingrange_level = 2,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 808013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 35,
+		english_name = "FFNF Surcouf",
+		oxy_cost = 10,
+		skin_id = 808010,
+		attack_duration = 6,
+		nationality = 8,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			787,
+			45,
+			171,
+			0,
+			0,
+			28,
+			0,
+			57,
+			8,
+			14.8,
+			60,
+			0
+		},
+		attrs_growth = {
+			11085,
+			254,
+			970,
+			0,
+			0,
+			140,
+			0,
+			846,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			102
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.05,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					2,
+					-2
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[808014] = {
+		oxy_max = 180,
+		type = 8,
+		name = "速科夫",
+		huntingrange_level = 2,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 808014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 35,
+		english_name = "FFNF Surcouf",
+		oxy_cost = 10,
+		skin_id = 808010,
+		attack_duration = 6,
+		nationality = 8,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			1119,
+			64,
+			244,
+			0,
+			0,
+			28,
+			0,
+			57,
+			8,
+			14.8,
+			60,
+			0
+		},
+		attrs_growth = {
+			11085,
+			254,
+			970,
+			0,
+			0,
+			140,
+			0,
+			846,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			11075,
+			601,
+			1215,
+			0,
+			0,
+			325,
+			0,
+			-146,
+			-19,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			102
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					2,
+					-2
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[901011] = {
+		oxy_max = 0,
+		type = 1,
+		name = "勒馬爾",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 901011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Le Mars",
+		oxy_cost = 0,
+		skin_id = 901010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			222,
+			13,
+			78,
+			26,
+			0,
+			71,
+			0,
+			68,
+			74,
+			39.6,
+			24,
+			46
+		},
+		attrs_growth = {
+			5410,
+			126,
+			772,
+			504,
+			0,
+			352,
+			0,
+			1008,
+			1092,
+			0,
+			0,
+			454
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[901012] = {
+		oxy_max = 0,
+		type = 1,
+		name = "勒馬爾",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 901012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Le Mars",
+		oxy_cost = 0,
+		skin_id = 901010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			276,
+			16,
+			97,
+			32,
+			0,
+			71,
+			0,
+			68,
+			74,
+			39.6,
+			24,
+			57
+		},
+		attrs_growth = {
+			5410,
+			126,
+			772,
+			504,
+			0,
+			352,
+			0,
+			1008,
+			1092,
+			0,
+			0,
+			454
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.25,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[901013] = {
+		oxy_max = 0,
+		type = 1,
+		name = "勒馬爾",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 901013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Le Mars",
+		oxy_cost = 0,
+		skin_id = 901010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			384,
+			22,
+			136,
+			45,
+			0,
+			71,
+			0,
+			68,
+			74,
+			39.6,
+			24,
+			80
+		},
+		attrs_growth = {
+			5410,
+			126,
+			772,
+			504,
+			0,
+			352,
+			0,
+			1008,
+			1092,
+			0,
+			0,
+			454
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[901014] = {
+		oxy_max = 0,
+		type = 1,
+		name = "勒馬爾",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 901014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Le Mars",
+		oxy_cost = 0,
+		skin_id = 901010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			547,
+			32,
+			194,
+			64,
+			0,
+			71,
+			0,
+			68,
+			74,
+			39.6,
+			24,
+			114
+		},
+		attrs_growth = {
+			5410,
+			126,
+			772,
+			504,
+			0,
+			352,
+			0,
+			1008,
+			1092,
+			0,
+			0,
+			454
+		},
+		attrs_growth_extra = {
+			5410,
+			302,
+			1193,
+			344,
+			0,
+			833,
+			0,
+			-591,
+			-737,
+			0,
+			0,
+			447
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[904011] = {
+		oxy_max = 0,
+		type = 4,
+		name = "敦克爾克",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 904011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Dunkerque",
+		oxy_cost = 0,
+		skin_id = 904010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1127,
+			67,
+			0,
+			42,
+			0,
+			60,
+			0,
+			24,
+			9,
+			31,
+			35,
+			0
+		},
+		attrs_growth = {
+			27490,
+			666,
+			0,
+			832,
+			0,
+			298,
+			0,
+			348,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.5,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[904012] = {
+		oxy_max = 0,
+		type = 4,
+		name = "敦克爾克",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 904012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Dunkerque",
+		oxy_cost = 0,
+		skin_id = 904010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1402,
+			84,
+			0,
+			52,
+			0,
+			60,
+			0,
+			24,
+			9,
+			31,
+			35,
+			0
+		},
+		attrs_growth = {
+			27490,
+			666,
+			0,
+			832,
+			0,
+			298,
+			0,
+			348,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.5,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[904013] = {
+		oxy_max = 0,
+		type = 4,
+		name = "敦克爾克",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 904013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Dunkerque",
+		oxy_cost = 0,
+		skin_id = 904010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1952,
+			117,
+			0,
+			73,
+			0,
+			60,
+			0,
+			24,
+			9,
+			31,
+			35,
+			0
+		},
+		attrs_growth = {
+			27490,
+			666,
+			0,
+			832,
+			0,
+			298,
+			0,
+			348,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.5,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[904014] = {
+		oxy_max = 0,
+		type = 4,
+		name = "敦克爾克",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 904014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Dunkerque",
+		oxy_cost = 0,
+		skin_id = 904010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2776,
+			167,
+			0,
+			104,
+			0,
+			60,
+			0,
+			24,
+			9,
+			31,
+			35,
+			0
+		},
+		attrs_growth = {
+			27490,
+			666,
+			0,
+			832,
+			0,
+			298,
+			0,
+			348,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			17862,
+			1206,
+			0,
+			563,
+			0,
+			707,
+			0,
+			100,
+			779,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.7,
+			1.5,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[905011] = {
+		oxy_max = 0,
+		type = 5,
+		name = "讓·巴爾",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 905011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Jean Bart",
+		oxy_cost = 0,
+		skin_id = 905010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1334,
+			80,
+			0,
+			45,
+			0,
+			66,
+			0,
+			23,
+			9,
+			32,
+			17,
+			0
+		},
+		attrs_growth = {
+			32540,
+			794,
+			0,
+			884,
+			0,
+			328,
+			0,
+			342,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[905012] = {
+		oxy_max = 0,
+		type = 5,
+		name = "讓·巴爾",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 905012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Jean Bart",
+		oxy_cost = 0,
+		skin_id = 905010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1659,
+			100,
+			0,
+			56,
+			0,
+			66,
+			0,
+			23,
+			9,
+			32,
+			17,
+			0
+		},
+		attrs_growth = {
+			32540,
+			794,
+			0,
+			884,
+			0,
+			328,
+			0,
+			342,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[905013] = {
+		oxy_max = 0,
+		type = 5,
+		name = "讓·巴爾",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 905013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Jean Bart",
+		oxy_cost = 0,
+		skin_id = 905010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2310,
+			140,
+			0,
+			78,
+			0,
+			66,
+			0,
+			23,
+			9,
+			32,
+			17,
+			0
+		},
+		attrs_growth = {
+			32540,
+			794,
+			0,
+			884,
+			0,
+			328,
+			0,
+			342,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[905014] = {
+		oxy_max = 0,
+		type = 5,
+		name = "讓·巴爾",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 905014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Jean Bart",
+		oxy_cost = 0,
+		skin_id = 905010,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3286,
+			199,
+			0,
+			111,
+			0,
+			66,
+			0,
+			23,
+			9,
+			32,
+			17,
+			0
+		},
+		attrs_growth = {
+			32540,
+			794,
+			0,
+			884,
+			0,
+			328,
+			0,
+			342,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			21145,
+			1182,
+			0,
+			601,
+			0,
+			775,
+			0,
+			-62,
+			778,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.6,
+			2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[900001] = {
 		oxy_max = 0,
 		type = 2,
@@ -124733,7 +129465,7 @@ pg.ship_data_statistics = {
 	[900092] = {
 		oxy_max = 0,
 		type = 2,
-		name = "讓巴爾",
+		name = "讓·巴爾",
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
@@ -126487,7 +131219,7 @@ pg.ship_data_statistics = {
 	[900107] = {
 		oxy_max = 0,
 		type = 1,
-		name = "埃米爾·貝爾汀",
+		name = "埃米爾•貝爾坦",
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
@@ -134806,7 +139538,7 @@ pg.ship_data_statistics = {
 	[900235] = {
 		oxy_max = 0,
 		type = 2,
-		name = "泛用型布里 ",
+		name = "泛用型布里",
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
@@ -138140,6 +142872,10 @@ pg.ship_data_statistics = {
 		105142,
 		105143,
 		105144,
+		105191,
+		105192,
+		105193,
+		105194,
 		106011,
 		106012,
 		106013,
@@ -138556,6 +143292,10 @@ pg.ship_data_statistics = {
 		301592,
 		301593,
 		301594,
+		301601,
+		301602,
+		301603,
+		301604,
 		301611,
 		301612,
 		301613,
@@ -138837,6 +143577,34 @@ pg.ship_data_statistics = {
 		702012,
 		702013,
 		702014,
+		801011,
+		801012,
+		801013,
+		801014,
+		801021,
+		801022,
+		801023,
+		801024,
+		802011,
+		802012,
+		802013,
+		802014,
+		808011,
+		808012,
+		808013,
+		808014,
+		901011,
+		901012,
+		901013,
+		901014,
+		904011,
+		904012,
+		904013,
+		904014,
+		905011,
+		905012,
+		905013,
+		905014,
 		900001,
 		900002,
 		900003,

@@ -224,7 +224,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "——你们的“愿望”是什么",
+			say = "——妳们的“愿望”是什么",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			actorName = "观察者",
-			say = "“我会实现你们的愿望”…言外之意就是要我们付出相应的代价吧",
+			say = "“我会实现妳们的愿望”…言外之意就是要我们付出相应的代价吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

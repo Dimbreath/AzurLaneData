@@ -46,7 +46,7 @@ return {
 			actor = 204030,
 			side = 1,
 			nameColor = "#D6341D",
-			say = "不妨先把你的“小姐”去了如何？",
+			say = "不妨先把妳的“小姐”去了如何？",
 			shake = {
 				speed = 1,
 				number = 3

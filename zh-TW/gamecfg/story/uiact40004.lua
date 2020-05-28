@@ -97,7 +97,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			actorName = "观察者",
-			say = "放心~很快就会有新的指令传递给你了~",
+			say = "放心~很快就会有新的指令传递给妳了~",
 			shake = {
 				speed = 1,
 				number = 3

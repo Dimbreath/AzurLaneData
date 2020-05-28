@@ -88,12 +88,10 @@ function slot0.getAwards(slot0, slot1, slot2)
 		})
 	end
 
-	slot4 = PlayerConst.tranOwnShipSkin(slot3)
+	slot4 = PlayerConst.addTranDrop(slot3)
 
 	for slot8, slot9 in ipairs(slot3) do
-		if slot9.type ~= DROP_TYPE_SHIP then
-			slot0:sendNotification(GAME.ADD_ITEM, Item.New(slot9))
-		elseif not getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot9.id].group_type) and Ship.inUnlockTip(slot9.id) then
+		if slot9.type == DROP_TYPE_SHIP and not getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot9.id].group_type) and Ship.inUnlockTip(slot9.id) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("collection_award_ship", slot10.name))
 		end
 	end
@@ -378,6 +376,13 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 
 			slot8:updateActivity(slot9)
 		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then
+		slot9 = slot3.data1KeyValueList[2][slot1.arg1] or 0
+		slot3.data1KeyValueList[2][slot1.arg1] = slot9 + 1
+
+		if slot9 < #pg.activity_event_building[slot1.arg1].buff then
+			slot3.data1KeyValueList[1][slot10] = math.max((slot3.data1KeyValueList[1][slot8.material_id] or 0) - slot8.material[slot9], 0)
+		end
 	end
 
 	return slot3
@@ -436,17 +441,21 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 					count = slot0[3]
 				})
 			end
-		elseif uv0 == ActivityConst.ACTIVITY_TYPE_SHOP and #uv6 == 1 and uv6[1].type == DROP_TYPE_ITEM then
-			if slot0.type == DROP_TYPE_ITEM and Item.EQUIPMENT_SKIN_BOX == pg.item_data_statistics[uv6[1].id].type then
-				uv6 = {}
+		elseif uv0 == ActivityConst.ACTIVITY_TYPE_SHOP then
+			if #uv6 == 1 and uv6[1].type == DROP_TYPE_ITEM then
+				if slot0.type == DROP_TYPE_ITEM and Item.EQUIPMENT_SKIN_BOX == pg.item_data_statistics[uv6[1].id].type then
+					uv6 = {}
 
-				uv3:sendNotification(GAME.USE_ITEM, {
-					skip_check = true,
-					id = slot0.id,
-					count = slot0.count
-				})
-				pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
+					uv3:sendNotification(GAME.USE_ITEM, {
+						skip_check = true,
+						id = slot0.id,
+						count = slot0.count
+					})
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
+				end
 			end
+		elseif uv0 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("building_complete_tip"))
 		end
 
 		if #uv6 > 0 then

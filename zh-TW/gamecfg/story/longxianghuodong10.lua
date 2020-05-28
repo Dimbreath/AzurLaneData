@@ -43,7 +43,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下次、下次不会再输给你们了啊啊啊——",
+			say = "下次、下次不会再输给妳们了啊啊啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "波特兰，你还好吧？",
+			say = "波特兰，妳还好吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

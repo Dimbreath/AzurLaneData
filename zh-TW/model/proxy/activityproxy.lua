@@ -329,6 +329,20 @@ function slot0.getBuffList(slot0)
 	end)
 end
 
+function slot0.GetBuildingBuff(slot0)
+	_.each(slot0:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF), function (slot0)
+		if slot0 and not slot0:isEnd() then
+			for slot5, slot6 in pairs(slot0.data1KeyValueList[2]) do
+				if pg.activity_event_building[slot5] then
+					table.insert(uv0, ActivityBuff.New(slot0.id, slot7.buff[slot6]))
+				end
+			end
+		end
+	end)
+
+	return {}
+end
+
 function slot0.getBuffShipList(slot0)
 	_.each(slot0:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHIP_BUFF), function (slot0)
 		if slot0 and not slot0:isEnd() then
@@ -494,6 +508,26 @@ function slot0.ShouldShowInsTip(slot0)
 	end
 
 	return slot1:ShouldShowTip()
+end
+
+function slot0.ExistSkinCouponActivityAndShopId(slot0, slot1)
+	return slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON) and not slot2:isEnd() and table.contains(slot2.data1_list, slot1)
+end
+
+function slot0.ExistSkinCouponActivity(slot0)
+	return slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON) and not slot1:isEnd()
+end
+
+function slot0.MarkSkinCoupon(slot0, slot1)
+	if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON) and not slot2:isEnd() then
+		slot2.data1 = slot2.data1 + 1
+
+		if not table.contains(slot2.data1_list, slot1) then
+			table.insert(slot2.data1_list, slot1)
+		end
+
+		slot0:updateActivity(slot2)
+	end
 end
 
 return slot0

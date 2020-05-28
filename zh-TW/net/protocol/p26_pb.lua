@@ -78,7 +78,13 @@ slot2 = {
 	MINIGAMEHUB_USED_CNT_FIELD = slot0.FieldDescriptor(),
 	MINIGAMEHUB_ULTIMATE_FIELD = slot0.FieldDescriptor(),
 	MINIGAMEDATA_ID_FIELD = slot0.FieldDescriptor(),
-	MINIGAMEDATA_DATAS_FIELD = slot0.FieldDescriptor()
+	MINIGAMEDATA_DATAS_FIELD = slot0.FieldDescriptor(),
+	MINIGAMEDATA_DATE1_KEY_VALUE_LIST_FIELD = slot0.FieldDescriptor(),
+	KEYVALUELIST_KEY_FIELD = slot0.FieldDescriptor(),
+	KEYVALUELIST_VALUE_LIST_FIELD = slot0.FieldDescriptor(),
+	KEYVALUE_KEY_FIELD = slot0.FieldDescriptor(),
+	KEYVALUE_VALUE_FIELD = slot0.FieldDescriptor(),
+	KEYVALUE_VALUE2_FIELD = slot0.FieldDescriptor()
 }
 SC_26001 = slot0.Descriptor()
 CS_26002 = slot0.Descriptor()
@@ -109,6 +115,8 @@ SC_26104 = slot0.Descriptor()
 CS_26105 = slot0.Descriptor()
 MINIGAMEHUB = slot0.Descriptor()
 MINIGAMEDATA = slot0.Descriptor()
+KEYVALUELIST = slot0.Descriptor()
+KEYVALUE = slot0.Descriptor()
 slot2.SC_26001_ID_FIELD.name = "id"
 slot2.SC_26001_ID_FIELD.full_name = "p26.sc_26001.id"
 slot2.SC_26001_ID_FIELD.number = 1
@@ -1096,16 +1104,94 @@ slot2.MINIGAMEDATA_DATAS_FIELD.has_default_value = false
 slot2.MINIGAMEDATA_DATAS_FIELD.default_value = {}
 slot2.MINIGAMEDATA_DATAS_FIELD.type = 13
 slot2.MINIGAMEDATA_DATAS_FIELD.cpp_type = 3
+slot2.MINIGAMEDATA_DATE1_KEY_VALUE_LIST_FIELD.name = "date1_key_value_list"
+slot2.MINIGAMEDATA_DATE1_KEY_VALUE_LIST_FIELD.full_name = "p26.minigamedata.date1_key_value_list"
+slot2.MINIGAMEDATA_DATE1_KEY_VALUE_LIST_FIELD.number = 3
+slot2.MINIGAMEDATA_DATE1_KEY_VALUE_LIST_FIELD.index = 2
+slot2.MINIGAMEDATA_DATE1_KEY_VALUE_LIST_FIELD.label = 3
+slot2.MINIGAMEDATA_DATE1_KEY_VALUE_LIST_FIELD.has_default_value = false
+slot2.MINIGAMEDATA_DATE1_KEY_VALUE_LIST_FIELD.default_value = {}
+slot2.MINIGAMEDATA_DATE1_KEY_VALUE_LIST_FIELD.message_type = KEYVALUELIST
+slot2.MINIGAMEDATA_DATE1_KEY_VALUE_LIST_FIELD.type = 11
+slot2.MINIGAMEDATA_DATE1_KEY_VALUE_LIST_FIELD.cpp_type = 10
 MINIGAMEDATA.name = "minigamedata"
 MINIGAMEDATA.full_name = "p26.minigamedata"
 MINIGAMEDATA.nested_types = {}
 MINIGAMEDATA.enum_types = {}
 MINIGAMEDATA.fields = {
 	slot2.MINIGAMEDATA_ID_FIELD,
-	slot2.MINIGAMEDATA_DATAS_FIELD
+	slot2.MINIGAMEDATA_DATAS_FIELD,
+	slot2.MINIGAMEDATA_DATE1_KEY_VALUE_LIST_FIELD
 }
 MINIGAMEDATA.is_extendable = false
 MINIGAMEDATA.extensions = {}
+slot2.KEYVALUELIST_KEY_FIELD.name = "key"
+slot2.KEYVALUELIST_KEY_FIELD.full_name = "p26.keyvaluelist.key"
+slot2.KEYVALUELIST_KEY_FIELD.number = 1
+slot2.KEYVALUELIST_KEY_FIELD.index = 0
+slot2.KEYVALUELIST_KEY_FIELD.label = 2
+slot2.KEYVALUELIST_KEY_FIELD.has_default_value = false
+slot2.KEYVALUELIST_KEY_FIELD.default_value = 0
+slot2.KEYVALUELIST_KEY_FIELD.type = 13
+slot2.KEYVALUELIST_KEY_FIELD.cpp_type = 3
+slot2.KEYVALUELIST_VALUE_LIST_FIELD.name = "value_list"
+slot2.KEYVALUELIST_VALUE_LIST_FIELD.full_name = "p26.keyvaluelist.value_list"
+slot2.KEYVALUELIST_VALUE_LIST_FIELD.number = 2
+slot2.KEYVALUELIST_VALUE_LIST_FIELD.index = 1
+slot2.KEYVALUELIST_VALUE_LIST_FIELD.label = 3
+slot2.KEYVALUELIST_VALUE_LIST_FIELD.has_default_value = false
+slot2.KEYVALUELIST_VALUE_LIST_FIELD.default_value = {}
+slot2.KEYVALUELIST_VALUE_LIST_FIELD.message_type = KEYVALUE
+slot2.KEYVALUELIST_VALUE_LIST_FIELD.type = 11
+slot2.KEYVALUELIST_VALUE_LIST_FIELD.cpp_type = 10
+KEYVALUELIST.name = "keyvaluelist"
+KEYVALUELIST.full_name = "p26.keyvaluelist"
+KEYVALUELIST.nested_types = {}
+KEYVALUELIST.enum_types = {}
+KEYVALUELIST.fields = {
+	slot2.KEYVALUELIST_KEY_FIELD,
+	slot2.KEYVALUELIST_VALUE_LIST_FIELD
+}
+KEYVALUELIST.is_extendable = false
+KEYVALUELIST.extensions = {}
+slot2.KEYVALUE_KEY_FIELD.name = "key"
+slot2.KEYVALUE_KEY_FIELD.full_name = "p26.keyvalue.key"
+slot2.KEYVALUE_KEY_FIELD.number = 1
+slot2.KEYVALUE_KEY_FIELD.index = 0
+slot2.KEYVALUE_KEY_FIELD.label = 2
+slot2.KEYVALUE_KEY_FIELD.has_default_value = false
+slot2.KEYVALUE_KEY_FIELD.default_value = 0
+slot2.KEYVALUE_KEY_FIELD.type = 13
+slot2.KEYVALUE_KEY_FIELD.cpp_type = 3
+slot2.KEYVALUE_VALUE_FIELD.name = "value"
+slot2.KEYVALUE_VALUE_FIELD.full_name = "p26.keyvalue.value"
+slot2.KEYVALUE_VALUE_FIELD.number = 2
+slot2.KEYVALUE_VALUE_FIELD.index = 1
+slot2.KEYVALUE_VALUE_FIELD.label = 2
+slot2.KEYVALUE_VALUE_FIELD.has_default_value = false
+slot2.KEYVALUE_VALUE_FIELD.default_value = 0
+slot2.KEYVALUE_VALUE_FIELD.type = 13
+slot2.KEYVALUE_VALUE_FIELD.cpp_type = 3
+slot2.KEYVALUE_VALUE2_FIELD.name = "value2"
+slot2.KEYVALUE_VALUE2_FIELD.full_name = "p26.keyvalue.value2"
+slot2.KEYVALUE_VALUE2_FIELD.number = 3
+slot2.KEYVALUE_VALUE2_FIELD.index = 2
+slot2.KEYVALUE_VALUE2_FIELD.label = 1
+slot2.KEYVALUE_VALUE2_FIELD.has_default_value = false
+slot2.KEYVALUE_VALUE2_FIELD.default_value = 0
+slot2.KEYVALUE_VALUE2_FIELD.type = 13
+slot2.KEYVALUE_VALUE2_FIELD.cpp_type = 3
+KEYVALUE.name = "keyvalue"
+KEYVALUE.full_name = "p26.keyvalue"
+KEYVALUE.nested_types = {}
+KEYVALUE.enum_types = {}
+KEYVALUE.fields = {
+	slot2.KEYVALUE_KEY_FIELD,
+	slot2.KEYVALUE_VALUE_FIELD,
+	slot2.KEYVALUE_VALUE2_FIELD
+}
+KEYVALUE.is_extendable = false
+KEYVALUE.extensions = {}
 answerinfo = slot0.Message(ANSWERINFO)
 awardinfo = slot0.Message(AWARDINFO)
 cellsinfo = slot0.Message(CELLSINFO)
@@ -1121,6 +1207,8 @@ cs_26031 = slot0.Message(CS_26031)
 cs_26101 = slot0.Message(CS_26101)
 cs_26103 = slot0.Message(CS_26103)
 cs_26105 = slot0.Message(CS_26105)
+keyvalue = slot0.Message(KEYVALUE)
+keyvaluelist = slot0.Message(KEYVALUELIST)
 minigamedata = slot0.Message(MINIGAMEDATA)
 minigamehub = slot0.Message(MINIGAMEHUB)
 sc_26001 = slot0.Message(SC_26001)

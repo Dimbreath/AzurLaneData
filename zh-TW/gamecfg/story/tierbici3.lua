@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根吗…这点程度没什么值得夸耀的，你和希佩尔也做得很好不是吗？",
+			say = "欧根吗…这点程度没什么值得夸耀的，妳和希佩尔也做得很好不是吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵，提尔比茨真是谦逊呢，希佩尔，你看到了吗，你也要好好向人家学习哦。",
+			say = "呵呵，提尔比茨真是谦逊呢，希佩尔，妳看到了吗，妳也要好好向人家学习哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "因为你看，提尔比茨那~么厉害，却一点也不骄傲，跟某个只是完成任务就迫不及待地向指挥官邀功的金毛笨蛋完全不同呢。",
+			say = "因为妳看，提尔比茨那~么厉害，却一点也不骄傲，跟某个只是完成任务就迫不及待地向指挥官邀功的金毛笨蛋完全不同呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			actor = 403010,
 			nameColor = "#a9f548",
-			say = "哈？！我的性格就是这样还真是对不起啊！欧根我看你今天是皮痒了……",
+			say = "哈？！我的性格就是这样还真是对不起啊！欧根我看妳今天是皮痒了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			actor = 403010,
 			nameColor = "#a9f548",
-			say = "指挥官你不要管，啧，欧根，给我站住，不要跑！今天我就要让你明白我这个姐姐不是白当的！",
+			say = "指挥官妳不要管，啧，欧根，给我站住，不要跑！今天我就要让妳明白我这个姐姐不是白当的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

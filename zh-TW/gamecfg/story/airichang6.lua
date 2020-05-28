@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			say = "约克酱！！？？女灶神小姐！拜托你治疗了！！",
+			say = "约克酱！！？？女灶神小姐！拜托妳治疗了！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

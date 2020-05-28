@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你怎么知道的？还有你是……",
+			say = "妳怎么知道的？还有妳是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			actor = 101110,
 			actorName = "???",
-			say = "我是正义的伙伴，小海狸分队的队长，查尔斯·奥斯本！稍等一下，我这就把大家召集过来。",
+			say = "我是正义的夥伴，小海狸分队的队长，查尔斯·奥斯本！稍等一下，我这就把大家召集过来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			}
 		},
 		{
-			say = "谢谢你们，我会将你们的帮助向指挥官汇报的。",
+			say = "谢谢妳们，我会将妳们的帮助向指挥官汇报的。",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,

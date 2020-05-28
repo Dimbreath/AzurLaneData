@@ -31,7 +31,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "沒用沒用沒用purin！你的攻擊是無法打倒我的purin！",
+			say = "沒用沒用沒用purin！妳的攻擊是無法打倒我的purin！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

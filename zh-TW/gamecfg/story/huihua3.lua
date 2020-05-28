@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "……欸，我只是想吓一吓你，怎么昏过去了。",
+			say = "……欸，我只是想吓一吓妳，怎么昏过去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "欸，你可别又晕过去了，蛮啾们，麻烦你们端杯水过来。",
+			say = "欸，妳可别又晕过去了，蛮啾们，麻烦妳们端杯水过来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_room",
-			say = "你、你这家伙，怎么会大大咧咧地出现在我的宿舍里。",
+			say = "妳、妳这家伙，怎么会大大咧咧地出现在我的宿舍里。",
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也没什么特别的理由啦，就是想来找你玩而已。",
+			say = "也没什么特别的理由啦，就是想来找妳玩而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看，以后都要在同一支舰队里生活了，还是尽量好好相处比较好嘛",
+			say = "妳看，以后都要在同一支舰队里生活了，还是尽量好好相处比较好嘛",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "快把你的舰载机收起来收起来，蛮啾们都要被你吓到啦！",
+			say = "快把妳的舰载机收起来收起来，蛮啾们都要被妳吓到啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "是、是嘛…真是个缠人的家伙，就陪你这么一次好了…",
+			say = "是、是嘛…真是个缠人的家伙，就陪妳这么一次好了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

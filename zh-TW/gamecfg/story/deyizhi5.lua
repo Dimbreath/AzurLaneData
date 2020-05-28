@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉，德意志，不过有一点请你相信，大家都是真心为你好的。",
+			say = "抱歉，德意志，不过有一点请妳相信，大家都是真心为妳好的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			say = "你要让我怎么相信这种事啊！",
+			say = "妳要让我怎么相信这种事啊！",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样吧，我召集铁血的大家来说一下这个事情，请你们两位旁听一下吧。",
+			say = "这样吧，我召集铁血的大家来说一下这个事情，请妳们两位旁听一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "那么，欧根，斯佩，提尔比茨，Z1，谢谢你们抽空过来。",
+			say = "那么，欧根，斯佩，提尔比茨，Z1，谢谢妳们抽空过来。",
 			subActors = {
 				{
 					actor = 403040,
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "是的，斯佩你可能不太清楚，我们曾经约定好，尽可能地迁就她的性格，让她能够继续无忧无虑地生活下去。",
+			say = "是的，斯佩妳可能不太清楚，我们曾经约定好，尽可能地迁就她的性格，让她能够继续无忧无虑地生活下去。",
 			subActors = {
 				{
 					actor = 403040,

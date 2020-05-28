@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后，你呢，纽卡斯尔？",
+			say = "然后，妳呢，纽卡斯尔？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本王本来想说就拉你来当一时的帮手——",
+			say = "本王本来想说就拉妳来当一时的帮手——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是仔细想想，你还是在女仆队里更合适嘛！",
+			say = "但是仔细想想，妳还是在女仆队里更合适嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "就这样，演习顺利结束，舰队也迎来了新的伙伴，可喜可贺，可喜可贺",
+			say = "就这样，演习顺利结束，舰队也迎来了新的夥伴，可喜可贺，可喜可贺",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

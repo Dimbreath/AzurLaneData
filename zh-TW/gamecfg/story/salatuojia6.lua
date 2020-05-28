@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "抱歉小加加，那個我也夠不著……麻煩你用艦載機了！",
+			say = "抱歉小加加，那個我也夠不著……麻煩妳用艦載機了！",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我會支持你的！……對了，佐料放什麼？……等等，那瓶是！？",
+			say = "我會支持妳的！……對了，佐料放什麼？……等等，那瓶是！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官，你在看什麼呢？",
+			say = "指揮官，妳在看什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

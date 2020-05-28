@@ -1,4 +1,4 @@
-slot0 = class("ProposeSceneUI", import("..base.BaseUI"))
+slot0 = class("ProposeUI", import("..base.BaseUI"))
 slot1 = {
 	1,
 	2,
@@ -68,6 +68,7 @@ function slot0.init(slot0)
 	slot0.actorPainting = nil
 	slot0.weddingReview = slot0.contextData.review
 	slot0.commonTF = GameObject.Find("OverlayCamera/Overlay/UIMain/common")
+	slot0.tweenList = {}
 end
 
 function slot0.didEnter(slot0)
@@ -90,7 +91,12 @@ function slot0.didEnter(slot0)
 
 		setActive(slot0.skipBtn, true)
 		onButton(slot0, slot0.skipBtn, function ()
-			LeanTween.cancelAll(false)
+			if uv0.tweenList then
+				cancelTweens(uv0.tweenList)
+
+				uv0.tweenList = {}
+			end
+
 			uv0:emit(uv1.ON_CLOSE)
 		end, SFX_CANCEL)
 		slot0:setMask(true)
@@ -267,7 +273,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	if isActive(slot0.window) then
+	if slot0.window and isActive(slot0.window) then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		triggerButton(slot0:findTF("close_end"))
 	end
@@ -297,11 +303,13 @@ function slot0.willExit(slot0)
 		slot0._delayVoiceTweenID = nil
 	end
 
-	if not slot0.contextData.shipId then
-		LeanTween.cancelAll()
+	if slot0.tweenList then
+		cancelTweens(slot0.tweenList)
+
+		slot0.tweenList = nil
 	end
 
-	pg.CriMgr.GetInstance():resumeNormalBGM()
+	pg.CriMgr.GetInstance():ResumeNormalBGM()
 
 	if slot0.contextData.callback then
 		slot0.contextData.callback()
@@ -318,24 +326,24 @@ function slot0.bgAddAnimation(slot0, slot1)
 end
 
 function slot0.showbgChurch(slot0)
-	LeanTween.scale(slot0.storybg, Vector3(1, 1, 1), 6)
+	table.insert(slot0.tweenList, LeanTween.scale(slot0.storybg, Vector3(1, 1, 1), 6).uniqueId)
 	setActive(slot0.churchLight, true)
-	LeanTween.delayedCall(6, System.Action(function ()
+	table.insert(slot0.tweenList, LeanTween.delayedCall(6, System.Action(function ()
 		setActive(uv0.churchLight, false)
-	end))
+	end)).uniqueId)
 end
 
 function slot0.showbgAdd(slot0, slot1, slot2)
-	LeanTween.alphaCanvas(GetOrAddComponent(slot0.bgAdd, typeof(CanvasGroup)), slot1 and 0 or 1, slot2):setFrom(slot1 and 1 or 0)
+	table.insert(slot0.tweenList, LeanTween.alphaCanvas(GetOrAddComponent(slot0.bgAdd, typeof(CanvasGroup)), slot1 and 0 or 1, slot2):setFrom(slot1 and 1 or 0).uniqueId)
 	setActive(slot0.bgAdd, true)
 end
 
 function slot0.showBlackBG(slot0, slot1, slot2)
-	LeanTween.alphaCanvas(GetOrAddComponent(slot0.blackBG, typeof(CanvasGroup)), slot1 and 0 or 1, slot2):setFrom(slot1 and 1 or 0):setOnComplete(System.Action(function ()
+	table.insert(slot0.tweenList, LeanTween.alphaCanvas(GetOrAddComponent(slot0.blackBG, typeof(CanvasGroup)), slot1 and 0 or 1, slot2):setFrom(slot1 and 1 or 0):setOnComplete(System.Action(function ()
 		if uv0 then
 			setActive(uv1.blackBG, false)
 		end
-	end))
+	end)).uniqueId)
 	setActive(slot0.blackBG, true)
 end
 
@@ -349,7 +357,7 @@ function slot0.showPainting(slot0, slot1, slot2)
 
 		uv0 = true
 
-		LeanTween.alphaCanvas(GetOrAddComponent(uv2.targetActorTF, typeof(CanvasGroup)), uv1 and 1 or 0, uv3):setFrom(uv1 and 0 or 1)
+		table.insert(uv2.tweenList, LeanTween.alphaCanvas(GetOrAddComponent(uv2.targetActorTF, typeof(CanvasGroup)), uv1 and 1 or 0, uv3):setFrom(uv1 and 0 or 1).uniqueId)
 	end
 
 	if slot1 then
@@ -361,21 +369,23 @@ function slot0.showPainting(slot0, slot1, slot2)
 	slot4()
 end
 
+slot0.Live2DProposeDelayTime = 2
+
 function slot0.showLive2D(slot0, slot1)
 	setActive(slot0:findTF("fitter", slot0.targetActorTF), false)
 	setActive(slot0:findTF("live2d", slot0.targetActorTF), true)
-	LeanTween.alphaCanvas(GetOrAddComponent(slot0.targetActorTF, typeof(CanvasGroup)), 1, 2):setFrom(0):setOnComplete(System.Action(function ()
+	table.insert(slot0.tweenList, LeanTween.alphaCanvas(GetOrAddComponent(slot0.targetActorTF, typeof(CanvasGroup)), 1, uv0.Live2DProposeDelayTime):setFrom(0):setOnComplete(System.Action(function ()
 		uv0.l2dChar:SetAction(pg.AssistantInfo.action2Id[uv1])
-	end))
+	end)).uniqueId)
 end
 
 function slot0.hideWindow(slot0)
 	slot1 = GetOrAddComponent(slot0.window, typeof(CanvasGroup))
 	slot1.interactable = false
 
-	LeanTween.alphaCanvas(slot1, 0, 0.2):setFrom(1):setOnComplete(System.Action(function ()
+	table.insert(slot0.tweenList, LeanTween.alphaCanvas(slot1, 0, 0.2):setFrom(1):setOnComplete(System.Action(function ()
 		uv0.interactable = true
-	end))
+	end)).uniqueId)
 end
 
 function slot0.stampWindow(slot0)
@@ -409,10 +419,10 @@ function slot0.stampWindow(slot0)
 	slot2 = GetOrAddComponent(slot0.window, typeof(CanvasGroup))
 	slot2.interactable = false
 
-	LeanTween.alphaCanvas(slot2, 1, 0.8):setFrom(0)
-	LeanTween.delayedCall(1.5, System.Action(function ()
-		LeanTween.alphaCanvas(uv0, 1, 2):setFrom(0)
-	end))
+	table.insert(slot0.tweenList, LeanTween.alphaCanvas(slot2, 1, 0.8):setFrom(0).uniqueId)
+	table.insert(slot0.tweenList, LeanTween.delayedCall(1.5, System.Action(function ()
+		table.insert(uv0.tweenList, LeanTween.alphaCanvas(uv1, 1, 2):setFrom(0).uniqueId)
+	end)).uniqueId)
 
 	slot0.delayTId = LeanTween.delayedCall(5, System.Action(function ()
 		if not uv0 then
@@ -442,13 +452,13 @@ function slot0.showProposePanel(slot0)
 			uv0.handTF:GetComponent(typeof(Image)).color = Color.New(1, 1, 1, 0)
 
 			uv0:bgAddAnimation(2)
-			LeanTween.delayedCall(2, System.Action(function ()
+			table.insert(uv0.tweenList, LeanTween.delayedCall(2, System.Action(function ()
 				uv0:showPainting(true, 1.5)
-			end))
-			LeanTween.delayedCall(5, System.Action(function ()
+			end)).uniqueId)
+			table.insert(uv0.tweenList, LeanTween.delayedCall(5, System.Action(function ()
 				uv0:showPainting(false, 1)
-			end))
-			LeanTween.delayedCall(6, System.Action(function ()
+			end)).uniqueId)
+			table.insert(uv0.tweenList, LeanTween.delayedCall(6, System.Action(function ()
 				setAnchoredPosition(uv0.handTF, {
 					y = uv0.handTF.rect.height
 				})
@@ -461,23 +471,23 @@ function slot0.showProposePanel(slot0)
 
 				uv0.ringBoxCG.alpha = 0
 
-				LeanTween.alpha(rtf(uv0.handTF), 1, 1.2)
-				LeanTween.moveY(rtf(uv0.handTF), 0, 2):setOnComplete(System.Action(function ()
-					LeanTween.alphaCanvas(uv0.ringBoxCG, 1, 1.5):setFrom(0):setOnComplete(System.Action(function ()
+				table.insert(uv0.tweenList, LeanTween.alpha(rtf(uv0.handTF), 1, 1.2).uniqueId)
+				table.insert(uv0.tweenList, LeanTween.moveY(rtf(uv0.handTF), 0, 2):setOnComplete(System.Action(function ()
+					table.insert(uv0.tweenList, LeanTween.alphaCanvas(uv0.ringBoxCG, 1, 1.5):setFrom(0):setOnComplete(System.Action(function ()
 						uv0:setMask(false)
 						triggerButton(uv0.ringBoxTF)
-					end))
-				end))
-			end))
-			LeanTween.delayedCall(5, System.Action(function ()
+					end)).uniqueId)
+				end)).uniqueId)
+			end)).uniqueId)
+			table.insert(uv0.tweenList, LeanTween.delayedCall(5, System.Action(function ()
 				uv0:showBlackBG(false, 1.2)
-			end))
-			LeanTween.delayedCall(6.2, System.Action(function ()
+			end)).uniqueId)
+			table.insert(uv0.tweenList, LeanTween.delayedCall(6.2, System.Action(function ()
 				uv0:showBlackBG(true, 1.2)
-			end))
+			end)).uniqueId)
 		end
 
-		LeanTween.scale(uv0.door, Vector3(2.1, 2.1, 2.1), 4)
+		table.insert(uv0.tweenList, LeanTween.scale(uv0.door, Vector3(2.1, 2.1, 2.1), 4).uniqueId)
 		uv0.doorAni:SetActionCallBack(function (slot0)
 			if slot0 == "FINISH" then
 				uv0.doorAni:SetActionCallBack(nil)
@@ -487,10 +497,10 @@ function slot0.showProposePanel(slot0)
 				uv1()
 			end
 		end)
-		LeanTween.delayedCall(2, System.Action(function ()
+		table.insert(uv0.tweenList, LeanTween.delayedCall(2, System.Action(function ()
 			uv0:showbgAdd(false, 2)
-		end))
-		LeanTween.alpha(rtf(uv0.doorLightBG), 1, 2):setFrom(0)
+		end)).uniqueId)
+		table.insert(uv0.tweenList, LeanTween.alpha(rtf(uv0.doorLightBG), 1, 2):setFrom(0).uniqueId)
 		uv0:showBlackBG(false, 0.1)
 		uv0.doorAni:SetAction("OPEN", 0)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_DOOR)
@@ -565,20 +575,20 @@ function slot0.showProposePanel(slot0)
 
 				uv0.ringBoxClicked = true
 
-				LeanTween.alpha(rtf(uv0.ringBoxFull), 0, 0.6):setOnComplete(System.Action(function ()
-					LeanTween.delayedCall(0.1, System.Action(function ()
+				table.insert(uv0.tweenList, LeanTween.alpha(rtf(uv0.ringBoxFull), 0, 0.6):setOnComplete(System.Action(function ()
+					table.insert(uv0.tweenList, LeanTween.delayedCall(0.1, System.Action(function ()
 						uv0.ringAnim.enabled = true
 
 						uv0.ringAnim:Play("movein")
-						LeanTween.delayedCall(0.5, System.Action(function ()
+						table.insert(uv0.tweenList, LeanTween.delayedCall(0.5, System.Action(function ()
 							uv0.ringAnim:Play("blink")
-							LeanTween.alphaCanvas(uv0.ringTipCG, 1, 1.5):setFrom(0):setOnComplete(System.Action(function ()
+							table.insert(uv0.tweenList, LeanTween.alphaCanvas(uv0.ringTipCG, 1, 1.5):setFrom(0):setOnComplete(System.Action(function ()
 								setActive(uv0:findTF("finger", uv0.ringTipTF), true)
 								uv0:enableRingDrag(true)
-							end))
-						end))
-					end))
-				end))
+							end)).uniqueId)
+						end)).uniqueId)
+					end)).uniqueId)
+				end)).uniqueId)
 			end)
 			LoadImageSpriteAsync(uv0.bgName, uv0.storybg)
 
@@ -626,7 +636,7 @@ function slot0.ringOn(slot0)
 	slot0.ringAnim:Play("wear")
 
 	if slot0.handId == "101" then
-		LeanTween.alphaCanvas(GetOrAddComponent(slot0.handTF, typeof(CanvasGroup)), 0, 2)
+		table.insert(slot0.tweenList, LeanTween.alphaCanvas(GetOrAddComponent(slot0.handTF, typeof(CanvasGroup)), 0, 2).uniqueId)
 	end
 end
 
@@ -662,21 +672,21 @@ function slot0.addRingDragListenter(slot0)
 end
 
 function slot0.RingFadeout(slot0, slot1)
-	LeanTween.alphaCanvas(slot0.ringLightCG, 0.7, 0.5):setFrom(0)
-	LeanTween.scale(slot0.ringLight, Vector3(8, 8, 8), 1)
-	LeanTween.rotate(slot0.ringLight, 90, 3)
-	LeanTween.delayedCall(3.5, System.Action(function ()
+	table.insert(slot0.tweenList, LeanTween.alphaCanvas(slot0.ringLightCG, 0.7, 0.5):setFrom(0).uniqueId)
+	table.insert(slot0.tweenList, LeanTween.scale(slot0.ringLight, Vector3(8, 8, 8), 1).uniqueId)
+	table.insert(slot0.tweenList, LeanTween.rotate(slot0.ringLight, 90, 3).uniqueId)
+	table.insert(slot0.tweenList, LeanTween.delayedCall(3.5, System.Action(function ()
 		if uv0 then
 			uv0()
 		end
-	end))
-	LeanTween.delayedCall(1.2, System.Action(function ()
+	end)).uniqueId)
+	table.insert(slot0.tweenList, LeanTween.delayedCall(1.2, System.Action(function ()
 		uv0:showbgAdd(false, 1.8)
-	end))
-	LeanTween.delayedCall(3.2, System.Action(function ()
+	end)).uniqueId)
+	table.insert(slot0.tweenList, LeanTween.delayedCall(3.2, System.Action(function ()
 		setActive(uv0.proposePanel, false)
 		uv0:showbgAdd(true, 2)
-	end))
+	end)).uniqueId)
 end
 
 function slot0.displayShipWord(slot0, slot1)
@@ -702,7 +712,7 @@ function slot0.displayShipWord(slot0, slot1)
 				uv0()
 
 				uv1._delayVoiceTweenID = nil
-			end)).id
+			end)).uniqueId
 		else
 			slot8()
 		end
@@ -726,7 +736,7 @@ function slot0.showStoryUI(slot0, slot1)
 
 		uv0.initStory = false
 
-		LeanTween.alphaCanvas(uv0.storyCG, 1, 1):setFrom(0):setDelay(1):setOnComplete(System.Action(function ()
+		table.insert(uv0.tweenList, LeanTween.alphaCanvas(uv0.storyCG, 1, 1):setFrom(0):setDelay(1):setOnComplete(System.Action(function ()
 			if findTF(uv0.targetActorTF, "fitter").childCount > 0 then
 				Ship.SetExpression(findTF(uv0.targetActorTF, "fitter"):GetChild(0), uv0.paintingName, "propose")
 			end
@@ -744,7 +754,7 @@ function slot0.showStoryUI(slot0, slot1)
 			if not uv0.weddingReview then
 				uv0:showTip()
 			end
-		end))
+		end)).uniqueId)
 	end
 
 	if not slot0.storyTF then
@@ -779,9 +789,9 @@ function slot0.showStoryUI(slot0, slot1)
 					return
 				end
 
-				LeanTween.alphaCanvas(uv0.storyCG, 0, 1):setFrom(1):setOnComplete(System.Action(function ()
+				table.insert(uv0.tweenList, LeanTween.alphaCanvas(uv0.storyCG, 0, 1):setFrom(1):setOnComplete(System.Action(function ()
 					setActive(uv0.storyTF, false)
-				end))
+				end)).uniqueId)
 
 				if uv0._currentVoice then
 					uv0._currentVoice:PlaybackStop()
@@ -790,14 +800,14 @@ function slot0.showStoryUI(slot0, slot1)
 				uv0._currentVoice = nil
 
 				uv0:setMask(true)
-				LeanTween.delayedCall(0.5, System.Action(function ()
+				table.insert(uv0.tweenList, LeanTween.delayedCall(0.5, System.Action(function ()
 					if uv0.weddingReview then
 						uv0:close()
 					else
 						uv0:initChangeNamePanel()
 						uv0:stampWindow()
 					end
-				end))
+				end)).uniqueId)
 			end)
 			onNextTick(function ()
 				if uv0.exited then
@@ -936,8 +946,8 @@ function slot0.showTip(slot0)
 	slot4 = GetOrAddComponent(slot2, typeof(CanvasGroup))
 
 	setActive(slot2, true)
-	LeanTween.alphaCanvas(slot4, 1, 0.01):setFrom(0)
-	LeanTween.alphaCanvas(slot4, 0, 1.5):setFrom(1):setDelay(4)
+	table.insert(slot0.tweenList, LeanTween.alphaCanvas(slot4, 1, 0.01):setFrom(0).uniqueId)
+	table.insert(slot0.tweenList, LeanTween.alphaCanvas(slot4, 0, 1.5):setFrom(1):setDelay(4).uniqueId)
 end
 
 function slot0.initChangeNamePanel(slot0)

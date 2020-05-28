@@ -397,7 +397,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，谁叫{namecode:92}你总是急于进攻呢，当你的王将走到中段时结局就已经显而易见了~",
+			say = "哼哼，谁叫{namecode:92}妳总是急于进攻呢，当妳的王将走到中段时结局就已经显而易见了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔唔唔…随你喜欢吧……",
+			say = "唔唔唔…随妳喜欢吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

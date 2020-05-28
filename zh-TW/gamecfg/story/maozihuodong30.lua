@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			say = "嗯？你在想什么呢，当然不是我做的啦！",
+			say = "嗯？妳在想什么呢，当然不是我做的啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			actor = 701040,
 			nameColor = "#a9f548",
-			say = "同志酱，这里就是回港之后，塔什干和伙伴们休息的地方。",
+			say = "同志酱，这里就是回港之后，塔什干和夥伴们休息的地方。",
 			flashout = {
 				dur = 0.25,
 				black = true,

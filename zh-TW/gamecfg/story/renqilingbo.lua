@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，给你道具。坦克就交给{namecode:6}，指挥官在后面支援就好的说。Buff就拜托了的说",
+			say = "指挥官，给妳道具。坦克就交给{namecode:6}，指挥官在后面支援就好的说。Buff就拜托了的说",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			optionFlag = 1,
-			say = "【来信：♪标枪♪】{namecode:6}在干什么啊——！现在不是应该到了要按照之前特训一样，给指挥官尝你做的料理的时间了吗！",
+			say = "【来信：♪标枪♪】{namecode:6}在干什么啊——！现在不是应该到了要按照之前特训一样，给指挥官尝妳做的料理的时间了吗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			optionFlag = 1,
-			say = "【来信：{namecode:87}】{namecode:6}你怎么让指挥官都吃了！而且做得也太多了！这边看着都被吓着了！",
+			say = "【来信：{namecode:87}】{namecode:6}妳怎么让指挥官都吃了！而且做得也太多了！这边看着都被吓着了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

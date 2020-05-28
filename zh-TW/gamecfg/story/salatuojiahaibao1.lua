@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "作为港区公益活动的一环，今年萨拉托加（和其他伙伴们）也准备进行一些宣传活动。",
+			say = "作为港区公益活动的一环，今年萨拉托加（和其他夥伴们）也准备进行一些宣传活动。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，姐姐，你怎么来啦？",
+			say = "啊，姐姐，妳怎么来啦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "太好了！指挥官，谢谢你！",
+			say = "太好了！指挥官，谢谢妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

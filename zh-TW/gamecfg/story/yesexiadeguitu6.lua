@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "抱歉，要让你失去意识一段时间了。",
+			say = "抱歉，要让妳失去意识一段时间了。",
 			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			actor = 900236,
 			nameColor = "#a9f548",
-			say = "好厉害，好厉害，你看到了吗，塔尔图，这就是战舰级的实力欸！",
+			say = "好厉害，好厉害，妳看到了吗，塔尔图，这就是战舰级的实力欸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 904010,
-			say = "不过…“着眼于眼前的事”多亏了你们对我说的话，我已经下定决心了。",
+			say = "不过…“着眼于眼前的事”多亏了妳们对我说的话，我已经下定决心了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我该做的事，就是回到土伦港，帮助我的妹妹斯特拉斯堡和维希教廷的同伴们，带领你们走出困境。",
+			say = "我该做的事，就是回到土伦港，帮助我的妹妹斯特拉斯堡和维希教廷的同伴们，带领妳们走出困境。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

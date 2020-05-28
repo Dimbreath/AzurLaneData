@@ -188,7 +188,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实，之前{namecode:91}在镜面海域内的行为是不可理解的，甚至伤害了重樱的同伴，伤害了你们。",
+			say = "确实，之前{namecode:91}在镜面海域内的行为是不可理解的，甚至伤害了重樱的同伴，伤害了妳们。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

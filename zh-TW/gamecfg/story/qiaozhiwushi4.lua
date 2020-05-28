@@ -346,7 +346,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以你觉得乔治五世比起陛下更像“陛下”……？",
+			say = "所以妳觉得乔治五世比起陛下更像“陛下”……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			optionFlag = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "呵呵，这可是你的过错哦，乔治？",
+			say = "呵呵，这可是妳的过错哦，乔治？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			optionFlag = 2,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "让指挥官产生这样的想法本身，就是你的问题哦，乔治。",
+			say = "让指挥官产生这样的想法本身，就是妳的问题哦，乔治。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

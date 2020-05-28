@@ -31,7 +31,7 @@ return {
 			side = 2,
 			dir = 0,
 			nameColor = "#ff0000",
-			say = "就让我再测试一下你们的反应吧呵呵呵~",
+			say = "就让我再测试一下妳们的反应吧呵呵呵~",
 			shake = {
 				speed = 1,
 				number = 3

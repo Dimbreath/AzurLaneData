@@ -25,7 +25,7 @@ return {
 			actor = 900006,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "啊———這股不尋常的力量是…果然你們也染指了……",
+			say = "啊———這股不尋常的力量是…果然妳們也染指了……",
 			subBgName = {
 				name = "bg_story_1_sub",
 				anchors = {
@@ -93,7 +93,7 @@ return {
 			actor = 900006,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "…為什麼…你們要選擇背叛同盟…背叛碧藍航線…",
+			say = "…為什麼…妳們要選擇背叛同盟…背叛碧藍航線…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 900010,
 			side = 1,
 			nameColor = "#ff0000",
-			say = "不指望能被你們所理解，然而這一切是非，未來終有人可鑒。",
+			say = "不指望能被妳們所理解，然而這一切是非，未來終有人可鑒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

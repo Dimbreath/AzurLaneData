@@ -165,7 +165,7 @@ return {
 			blackBg = true,
 			actor = 900136,
 			paingtingGray = true,
-			say = "为什么你被派来这里？",
+			say = "为什么妳被派来这里？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

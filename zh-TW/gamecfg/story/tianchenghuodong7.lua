@@ -28,7 +28,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 301790,
-			say = "哎呀，{namecode:161}大人你来得正好，这边情况不太妙，快跟我来！",
+			say = "哎呀，{namecode:161}大人妳来得正好，这边情况不太妙，快跟我来！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			bgm = "story-tiancheng",
 			actorName = "{namecode:92}",
-			say = "哈？！你是笨蛋吗？",
+			say = "哈？！妳是笨蛋吗？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“如果你能参加演习的话根本轮不到{namecode:161}姐出手？”就凭你这未完工的武装和一股脑的傻劲？",
+			say = "“如果妳能参加演习的话根本轮不到{namecode:161}姐出手？”就凭妳这未完工的武装和一股脑的傻劲？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，你也就只能这个时候耍耍嘴皮子了，昨天的演习中怎么连你的影子在哪里都见不到！？",
+			say = "哼，妳也就只能这个时候耍耍嘴皮子了，昨天的演习中怎么连妳的影子在哪里都见不到！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再说了，我可是“战列舰”，跟你们“战列巡洋舰”的防护能力可不是同一个水平的！",
+			say = "再说了，我可是“战列舰”，跟妳们“战列巡洋舰”的防护能力可不是同一个水平的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看看你们那薄弱的装甲，正面对决的话觉得我会害怕吗？？",
+			say = "看看妳们那薄弱的装甲，正面对决的话觉得我会害怕吗？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，我和姐姐在一开始的设计上就和你有着本质的差别，就凭我们三十节的航速就能追着你打得满地求饶！",
+			say = "哼，我和姐姐在一开始的设计上就和妳有着本质的差别，就凭我们三十节的航速就能追着妳打得满地求饶！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你的意思是你们在逃跑时能跑得更快一点咯？",
+			say = "妳的意思是妳们在逃跑时能跑得更快一点咯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			side = 0,
 			dir = 1,
-			say = "你！！你个不讲道理的白毛老妖怪！！！",
+			say = "妳！！妳个不讲道理的白毛老妖怪！！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			side = 1,
 			dir = 1,
-			say = "你才是不讲道理，胸大无脑的小跟屁虫！",
+			say = "妳才是不讲道理，胸大无脑的小跟屁虫！",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯~~~你说谁是“狡猾的老狐狸”呢？~",
+			say = "嗯~~~妳说谁是“狡猾的老狐狸”呢？~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啦~不是跟你说过大家应该要和睦相处的吗？怎么能戳到{namecode:92}大人的痛处呢~",
+			say = "啊啦~不是跟妳说过大家应该要和睦相处的吗？怎么能戳到{namecode:92}大人的痛处呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "切，今天就先放过你了，小跟屁虫，等你能真的站上战场再来一较高下吧。",
+			say = "切，今天就先放过妳了，小跟屁虫，等妳能真的站上战场再来一较高下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，{namecode:161}姐今天就会教会你{namecode:161}级才是最完美的设计，你可别再逃跑了。",
+			say = "哼，{namecode:161}姐今天就会教会妳{namecode:161}级才是最完美的设计，妳可别再逃跑了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

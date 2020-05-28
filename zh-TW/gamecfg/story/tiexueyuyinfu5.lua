@@ -24,7 +24,7 @@ return {
 			useBg2 = true,
 			bgm = "bsm-2",
 			nameColor = "#ffde38",
-			say = "我们凭什么相信你",
+			say = "我们凭什么相信妳",
 			bgAspectMode = AspectMode.FitInParent,
 			typewriter = {
 				speed = 0.05,
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ff5c5c",
-			say = "而你们的对手，将在原本属于你们的家园里享受胜利的美酒",
+			say = "而妳们的对手，将在原本属于妳们的家园里享受胜利的美酒",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ff5c5c",
-			say = "想想你的战友、想想你还没服役的妹妹吧",
+			say = "想想妳的战友、想想妳还没服役的妹妹吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ff5c5c",
-			say = "难道，你们还想再品尝次“第十一节”的屈辱吗？",
+			say = "难道，妳们还想再品尝次“第十一节”的屈辱吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ffde38",
-			say = "我会重新带领战友和人民取得荣耀，将你们彻底赶回黑暗的海底!",
+			say = "我会重新带领战友和人民取得荣耀，将妳们彻底赶回黑暗的海底!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ff5c5c",
-			say = "难道，你不向往日出吗？",
+			say = "难道，妳不向往日出吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "好好想想，你们有什么利益是值得我们贪图的？",
+			say = "好好想想，妳们有什么利益是值得我们贪图的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ff5c5c",
-			say = "你们一无所有",
+			say = "妳们一无所有",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ff5c5c",
-			say = "皇家舰队有着数倍于你们的实力，甚至封锁了原本属于你们的海洋",
+			say = "皇家舰队有着数倍于妳们的实力，甚至封锁了原本属于妳们的海洋",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ff5c5c",
-			say = "你的对手并不是我，而是一海相隔的她们",
+			say = "妳的对手并不是我，而是一海相隔的她们",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ff5c5c",
-			say = "和那些愚蠢的蛮族相比，相信你更能理解大局的重要性",
+			say = "和那些愚蠢的蛮族相比，相信妳更能理解大局的重要性",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ff5c5c",
-			say = "我将开启未来的钥匙交给你了。它能给你带来毁灭，也能带来希望",
+			say = "我将开启未来的钥匙交给妳了。它能给妳带来毁灭，也能带来希望",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ff5c5c",
-			say = "至于要成为科学的牺牲品，还是成为巨轮下的残渣，就看你自己的选择了",
+			say = "至于要成为科学的牺牲品，还是成为巨轮下的残渣，就看妳自己的选择了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

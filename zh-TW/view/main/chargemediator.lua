@@ -120,6 +120,36 @@ function slot0.handleNotification(slot0, slot1)
 		slot6 = pg.shop_template[slot3.id]
 
 		slot0.viewComponent:checkBuyDone(slot3.id)
+
+		slot7 = pg.shop_template
+		slot8, slot9, slot10 = nil
+
+		for slot14, slot15 in ipairs(slot0.viewComponent.itemVOs) do
+			if slot7[slot15.id].genre == "gem_shop" then
+				if slot7[slot15.id].effect_args == "ship_bag_size" then
+					slot8 = slot15.id
+				elseif slot7[slot15.id].effect_args == "equip_bag_max" then
+					slot9 = slot15.id
+				elseif slot7[slot15.id].effect_args == "commander_bag_size" then
+					slot10 = slot15.id
+				end
+			end
+		end
+
+		if slot3.id == slot8 then
+			if slot7[slot3.id].limit_args[3] and slot11 < slot0.viewComponent.player.ship_bag_max then
+				slot0.viewComponent:setItemVOs()
+				slot0.viewComponent:sortItems()
+			end
+		elseif slot3.id == slot9 then
+			if slot7[slot3.id].limit_args[3] and slot11 < slot0.viewComponent.player.equip_bag_max then
+				slot0.viewComponent:setItemVOs()
+				slot0.viewComponent:sortItems()
+			end
+		elseif slot3.id == slot10 and slot7[slot3.id].limit_args[3] and slot11 < slot0.viewComponent.player.commanderBagMax then
+			slot0.viewComponent:setItemVOs()
+			slot0.viewComponent:sortItems()
+		end
 	elseif slot2 == GAME.USE_ITEM_DONE then
 		if table.getCount(slot3) ~= 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {

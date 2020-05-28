@@ -107,7 +107,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…我陪你找你的伙伴们吧",
+			say = "…我陪妳找妳的夥伴们吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			actor = 403053,
 			nameColor = "#a9f548",
-			say = "那边的…是你的伙伴们吧",
+			say = "那边的…是妳的夥伴们吧",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -200,7 +200,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喔！{namecode:32}！原来你在这里啊，刚才还在想说怎么一回头你人就没了",
+			say = "喔！{namecode:32}！原来妳在这里啊，刚才还在想说怎么一回头妳人就没了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你，帮了大忙了",
+			say = "谢谢妳，帮了大忙了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "享受晚会的原则就是---看你想要做什么就做什么呗～",
+			say = "享受晚会的原则就是---看妳想要做什么就做什么呗～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			actor = 301152,
 			nameColor = "#a9f548",
-			say = "你看，像白鹰那几位那样跳跳舞，或者像{namecode:16}那家伙那样放开了吃～只要自己觉得开心不就好了嘛～",
+			say = "妳看，像白鹰那几位那样跳跳舞，或者像{namecode:16}那家伙那样放开了吃～只要自己觉得开心不就好了嘛～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "做自己想做的事情…吗…谢谢你，{namecode:17}，我好像明白一些了",
+			say = "做自己想做的事情…吗…谢谢妳，{namecode:17}，我好像明白一些了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

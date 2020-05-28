@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "文森斯，别睡了，指挥官来咯，你们不是约好一起玩的吗？",
+			say = "文森斯，别睡了，指挥官来咯，妳们不是约好一起玩的吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，姐姐你们…有点吵",
+			say = "唔，姐姐妳们…有点吵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是…重樱的——",
+			say = "妳是…重樱的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			}
 		},
 		{
-			say = "你也没资格笑！",
+			say = "妳也没资格笑！",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "接受挑衅的你也有问题！还有克雷文！他们俩精力过剩也就算了，你跟着凑什么热闹啊！",
+			say = "接受挑衅的妳也有问题！还有克雷文！他们俩精力过剩也就算了，妳跟着凑什么热闹啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "总之三个人都过来！我要好好说一下你们！",
+			say = "总之三个人都过来！我要好好说一下妳们！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

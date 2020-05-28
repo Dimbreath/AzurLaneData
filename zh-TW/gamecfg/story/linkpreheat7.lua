@@ -9,7 +9,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "露露缇耶——！我们来救你了——！",
+			say = "露露缇耶——！我们来救妳了——！",
 			bgm = "battle-uta",
 			typewriter = {
 				speed = 0.05,
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "久远大人！大家……！你们还好吧！",
+			say = "久远大人！大家……！妳们还好吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			say = "我们才是要问你还好吗。露露缇耶小姐要是出了什么事的话，我们该如何向主人赔礼才好",
+			say = "我们才是要问妳还好吗。露露缇耶小姐要是出了什么事的话，我们该如何向主人赔礼才好",
 			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论如何，没事就好。大家都很担心你",
+			say = "无论如何，没事就好。大家都很担心妳",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10300030,
-			say = "芙米露露大人，乌璐露大人，萨拉娜大人……谢谢你们。抱歉让你们担心了。",
+			say = "芙米露露大人，乌璐露大人，萨拉娜大人……谢谢妳们。抱歉让妳们担心了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是的喵！{namecode:98}和愉快的伙伴们喵！",
+			say = "是的喵！{namecode:98}和愉快的夥伴们喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -167,7 +167,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，你就是指挥官说过的来自异界的人工智能吗？今天请好好放松一下吧",
+			say = "哎呀，妳就是指挥官说过的来自异界的人工智能吗？今天请好好放松一下吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

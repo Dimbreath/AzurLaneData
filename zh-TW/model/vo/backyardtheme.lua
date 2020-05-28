@@ -3,24 +3,40 @@ slot0.TYPE_SYSTEM = 1
 slot0.TYPE_USER = 2
 slot0.MAX_USER_THEME = 5
 
-function slot0.Ctor(slot0, slot1)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0.id = slot1.id
 	slot0.configId = slot1.id
 	slot0.name = slot1.name or ""
-	slot0.type = slot1.type or slot0.TYPE_SYSTEM
+	slot0.type = slot2 or slot1.type or slot0.TYPE_SYSTEM
 
 	if slot0.type == slot0.TYPE_SYSTEM then
-		slot0:initTheme({
+		slot5 = {
 			floor = 1,
 			furniture_put_list = slot0:getSystemThemeFurnitures(getProxy(DormProxy):getData().level)
-		})
+		}
+
+		slot0:initTheme(slot5)
+
+		slot0.furnitruesByIds = slot0:getThemeFurnitures(slot5)
 
 		if slot0:isSameConfigId(slot0.furnitures) then
 			slot0:checkSystemTheme()
 		end
 	else
 		slot0:initTheme(slot1)
+
+		slot0.furnitruesByIds = slot0:getThemeFurnitures(slot1)
 	end
+end
+
+function slot0.ContainsFurniture(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.furnitures) do
+		if slot6.id == slot1.id then
+			return true
+		end
+	end
+
+	return false
 end
 
 function slot0.isSameConfigId(slot0, slot1)
@@ -76,7 +92,7 @@ function slot0.initTheme(slot0, slot1)
 	slot2 = getProxy(DormProxy).floor
 	slot0.furnitures = {}
 
-	for slot6, slot7 in ipairs(slot1.furniture_put_list) do
+	for slot6, slot7 in ipairs(slot1.furniture_put_list or {}) do
 		for slot12, slot13 in ipairs(slot7.child) do
 			-- Nothing
 		end
@@ -98,8 +114,6 @@ function slot0.initTheme(slot0, slot1)
 			floor = slot2
 		}))
 	end
-
-	slot0.furnitruesByIds = slot0:getThemeFurnitures(slot1)
 end
 
 function slot0.getThemeFurnitures(slot0, slot1)
@@ -118,11 +132,9 @@ function slot0.getThemeFurnitures(slot0, slot1)
 		end
 	end
 
-	slot5 = {}
-
-	table.insert(slot5, {
+	table.insert({}, {
 		floor = 1,
-		furniture_put_list = slot1.furniture_put_list
+		furniture_put_list = slot1.furniture_put_list or {}
 	})
 
 	return GetBackYardDataCommand.initFurnitures({
@@ -180,10 +192,8 @@ function slot0.getSystemThemeFurnitures(slot0, slot1)
 end
 
 function slot0.isOccupyed(slot0, slot1, slot2)
-	slot3 = {}
-
-	for slot9, slot10 in pairs(slot0.furnitruesByIds) do
-		if slot1.furnitures[slot10.id] and slot11.floor ~= 0 and slot11.floor ~= slot2 then
+	for slot7, slot8 in pairs(slot0.furnitruesByIds) do
+		if slot1[slot8.id] and slot9.floor ~= 0 and slot9.floor ~= slot2 then
 			return true
 		end
 	end
@@ -197,7 +207,7 @@ function slot0.getUsableFurnituresForFloor(slot0, slot1, slot2)
 		[slot9.id] = slot9
 	}
 
-	for slot8, slot9 in pairs(slot1.furnitures) do
+	for slot8, slot9 in pairs(slot1) do
 		if slot9.floor ~= slot2 then
 			-- Nothing
 		end
@@ -234,21 +244,25 @@ function slot0.getUsableFurnituresForFloor(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.isUsing(slot0, slot1)
-	if slot1.wallPaper then
-		Clone(slot1.furnitures)[slot1.wallPaper.id] = slot1.wallPaper
+function slot0.IsUsing(slot0, slot1)
+	function slot3(slot0)
+		slot1 = {}
+
+		for slot5, slot6 in pairs(uv0) do
+			if slot6:getConfig("id") == slot0 then
+				table.insert(slot1, slot6)
+			end
+		end
+
+		return slot1
 	end
 
-	if slot1.floorPaper then
-		slot2[slot1.floorPaper.id] = slot1.floorPaper
-	end
-
-	if table.getCount(slot2) ~= table.getCount(slot0.furnitures) then
+	if table.getCount(slot1) ~= table.getCount(slot0.furnitures) then
 		return false
 	end
 
-	for slot7, slot8 in pairs(slot3) do
-		if not slot2[slot8.id] then
+	for slot7, slot8 in pairs(slot2) do
+		if not slot1[slot8.id] then
 			return false
 		elseif not slot9:isPaper() then
 			if not slot9.position then
@@ -257,7 +271,7 @@ function slot0.isUsing(slot0, slot1)
 
 			slot11 = false
 
-			for slot15, slot16 in ipairs(slot1:getSameConfigIdFurnitrues(slot8.id)) do
+			for slot15, slot16 in ipairs(slot3(slot8.id)) do
 				if slot16:isSame(slot8) then
 					slot11 = true
 
@@ -272,6 +286,18 @@ function slot0.isUsing(slot0, slot1)
 	end
 
 	return true
+end
+
+function slot0.isUsing(slot0, slot1)
+	if slot1.wallPaper then
+		Clone(slot1.furnitures)[slot1.wallPaper.id] = slot1.wallPaper
+	end
+
+	if slot1.floorPaper then
+		slot2[slot1.floorPaper.id] = slot1.floorPaper
+	end
+
+	return slot0:IsUsing(slot2)
 end
 
 function slot0.getName(slot0)

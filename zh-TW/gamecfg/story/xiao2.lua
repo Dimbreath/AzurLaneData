@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			say = "這不過是平時修煉的基本功而已。多練習的話，你也可以做到的。",
+			say = "這不過是平時修煉的基本功而已。多練習的話，妳也可以做到的。",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -457,7 +457,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "總之先繼續吧。我會好好接住你的，放心吧",
+			say = "總之先繼續吧。我會好好接住妳的，放心吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

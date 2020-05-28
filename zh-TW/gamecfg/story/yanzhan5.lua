@@ -500,7 +500,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？你说想听听皇家海军史？",
+			say = "嗯？妳说想听听皇家海军史？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…你想听的话，说说也无妨。不过可能会很长呢，要做好心理准备哦！",
+			say = "…妳想听的话，说说也无妨。不过可能会很长呢，要做好心理准备哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

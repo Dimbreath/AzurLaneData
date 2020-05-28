@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			mode = 3,
-			say = "後輩們，拿出你們的氣勢來！戰鬥才剛剛開始！！！",
+			say = "後輩們，拿出妳們的氣勢來！戰鬥才剛剛開始！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			mode = 3,
-			say = "而未來，將因你們今日的努力改變",
+			say = "而未來，將因妳們今日的努力改變",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

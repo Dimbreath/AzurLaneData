@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 102270,
 			nameColor = "#a9f548",
-			say = "里、里诺？！！你怎么会在这里啊！",
+			say = "里、里诺？！！妳怎么会在这里啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……里诺你不是在要塞西侧驻防么，怎么跑到这里来了？",
+			say = "……里诺妳不是在要塞西侧驻防么，怎么跑到这里来了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "哎？！不是你们跑来西侧了么！",
+			say = "哎？！不是妳们跑来西侧了么！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不清楚，如果迷雾真能联通要塞东西两侧的话，哪边也就不重要了……你们还是没找到企业么？",
+			say = "不清楚，如果迷雾真能联通要塞东西两侧的话，哪边也就不重要了……妳们还是没找到企业么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

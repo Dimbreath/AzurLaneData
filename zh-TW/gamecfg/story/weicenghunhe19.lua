@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 106550,
 			nameColor = "#a9f548",
-			say = "哼，放马过来吧塞壬。今天巴拿马要塞就是你们的葬身之处…",
+			say = "哼，放马过来吧塞壬。今天巴拿马要塞就是妳们的葬身之处…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

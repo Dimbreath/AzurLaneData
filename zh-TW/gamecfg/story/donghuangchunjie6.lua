@@ -89,7 +89,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "撫順姐，慢一點…你都要爬到桌子上去了…",
+			say = "撫順姐，慢一點…妳都要爬到桌子上去了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 206042,
 			actorName = "半人馬",
-			say = "太多美味了反而有點不知該從哪道開始下手呢…嗯，企業前輩，你怎麼了嗎？",
+			say = "太多美味了反而有點不知該從哪道開始下手呢…嗯，企業前輩，妳怎麼了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

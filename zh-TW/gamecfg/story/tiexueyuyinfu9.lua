@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放弃无畏的抵抗吧，你现在只是一只受伤的鳟鱼罢了",
+			say = "放弃无畏的抵抗吧，妳现在只是一只受伤的鳟鱼罢了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

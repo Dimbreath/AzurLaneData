@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "勇敢，这已经是你一小时里问的第46次了，不想找的话你可以回去的。",
+			say = "勇敢，这已经是妳一小时里问的第46次了，不想找的话妳可以回去的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 201160,
 			nameColor = "#a9f548",
-			say = "哼，我只是怕你到时候无法应付而已！",
+			say = "哼，我只是怕妳到时候无法应付而已！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

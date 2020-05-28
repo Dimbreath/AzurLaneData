@@ -41,7 +41,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "埃克塞特，你没事吧！",
+			say = "埃克塞特，妳没事吧！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，她虽然撤退了，但是光凭你们两个能做什么……我，咳咳，我还……",
+			say = "等等，她虽然撤退了，但是光凭妳们两个能做什么……我，咳咳，我还……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，前辈，在担心我之前，还是先担心你自己吧~",
+			say = "呵呵，前辈，在担心我之前，还是先担心妳自己吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我知道了，祝你们好运。",
+			say = "……我知道了，祝妳们好运。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

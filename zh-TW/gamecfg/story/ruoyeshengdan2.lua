@@ -199,7 +199,7 @@ return {
 			actor = 299011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哦？难得会有你觉得烦恼的时候啊？",
+			say = "哦？难得会有妳觉得烦恼的时候啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actor = 299011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎呀，说要帮忙试吃的可是{namecode:141}你自己吧？",
+			say = "哎呀，说要帮忙试吃的可是{namecode:141}妳自己吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			actor = 299011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:141}酱，你的牺牲，不会白费的——",
+			say = "{namecode:141}酱，妳的牺牲，不会白费的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			actor = 301231,
 			nameColor = "#a9f548",
-			say = "啊，西雅图等等我，我也跟你一起去！",
+			say = "啊，西雅图等等我，我也跟妳一起去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			actor = 299011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔…算了，这边也做的差不多了。晚上我们会和伊丽莎白陛下她们一起参加派对的，你也要加油哦，西雅图",
+			say = "唔…算了，这边也做的差不多了。晚上我们会和伊丽莎白陛下她们一起参加派对的，妳也要加油哦，西雅图",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

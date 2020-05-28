@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，这不是指挥官的小秘书{namecode:162}吗？这是第一次在办公室见到你呢。",
+			say = "哎呀，这不是指挥官的小秘书{namecode:162}吗？这是第一次在办公室见到妳呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，真不错。回去让{namecode:71}姐姐帮你做些好吃的东西怎么样？",
+			say = "嗯嗯，真不错。回去让{namecode:71}姐姐帮妳做些好吃的东西怎么样？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			actor = 304010,
 			nameColor = "#a9f548",
-			say = "啊，没事，我知道的。{namecode:162}，{namecode:70}姐姐有点事情想拜托你，能把这个送给{namecode:98}姐姐吗？",
+			say = "啊，没事，我知道的。{namecode:162}，{namecode:70}姐姐有点事情想拜托妳，能把这个送给{namecode:98}姐姐吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 304010,
 			nameColor = "#a9f548",
-			say = "嗯嗯，我要说的就是这些，辛苦你了。想必这几天指挥官也不容易吧，我听{namecode:162}酱说，指挥官每天都要加班到很晚。",
+			say = "嗯嗯，我要说的就是这些，辛苦妳了。想必这几天指挥官也不容易吧，我听{namecode:162}酱说，指挥官每天都要加班到很晚。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			actor = 304010,
 			nameColor = "#a9f548",
-			say = "别看那孩子一直都在笑着，她也是会感到寂寞的呢。如果可以的话，稍微抽点时间陪陪她吧？指挥官，拜托你了。",
+			say = "别看那孩子一直都在笑着，她也是会感到寂寞的呢。如果可以的话，稍微抽点时间陪陪她吧？指挥官，拜托妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

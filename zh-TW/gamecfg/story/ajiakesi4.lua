@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 1,
 			dir = 1,
-			say = "我才没有…不像你，我是不会捉弄指挥官的。不然铁血之名都要哭泣了。",
+			say = "我才没有…不像妳，我是不会捉弄指挥官的。不然铁血之名都要哭泣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 1,
 			dir = 1,
-			say = "是、是这样啊…谢谢你了，阿贾克斯。",
+			say = "是、是这样啊…谢谢妳了，阿贾克斯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

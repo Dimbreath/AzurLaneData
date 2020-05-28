@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "贝法，我们快要输掉了欸，为什么你看起来反而很高兴啊？！",
+			say = "贝法，我们快要输掉了欸，为什么妳看起来反而很高兴啊？！",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = -1,
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "贝法，没想到你心里这么关心陛下的啊。",
+			say = "贝法，没想到妳心里这么关心陛下的啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……好吧，我知道啦，反正我总是说不过你啦。",
+			say = "……好吧，我知道啦，反正我总是说不过妳啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，而且，好不容易女仆队全体参加的活动，姐姐你不努力一下我也没法尽兴呢",
+			say = "呵呵，而且，好不容易女仆队全体参加的活动，姐姐妳不努力一下我也没法尽兴呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			}
 		},
 		{
-			say = "纽卡斯尔，你回来了。见到其他人了吗？",
+			say = "纽卡斯尔，妳回来了。见到其他人了吗？",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,

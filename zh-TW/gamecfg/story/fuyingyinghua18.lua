@@ -184,7 +184,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "啊，真正的{namecode:181}和{namecode:180}，你们平安无事真是太好了~",
+			say = "啊，真正的{namecode:181}和{namecode:180}，妳们平安无事真是太好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

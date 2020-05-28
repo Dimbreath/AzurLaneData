@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，秘书舰这种事你换个更加厉害的家伙去做不就好了。",
+			say = "哼，秘书舰这种事妳换个更加厉害的家伙去做不就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别用我了，反正我在那里也帮不了你什么忙。",
+			say = "别用我了，反正我在那里也帮不了妳什么忙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "指挥官你肯定也是吧，从一开始就没有指望我能帮上忙，只是抱着看我笑话的心态让我担任秘书舰。",
+			say = "指挥官妳肯定也是吧，从一开始就没有指望我能帮上忙，只是抱着看我笑话的心态让我担任秘书舰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

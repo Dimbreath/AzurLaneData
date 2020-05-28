@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "終於找到你了~鐵·必·制~",
+			say = "終於找到妳了~鐵·必·制~",
 			bgm = "story-5",
 			typewriter = {
 				speed = 0.05,
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂喂，你知道嗎，您的大名甚至遠在世界的另一端也被人津津樂道呢",
+			say = "喂喂，妳知道嗎，您的大名甚至遠在世界的另一端也被人津津樂道呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "對了對了，快看我特意為你從白鷹帶回來的特產~鏘鏘——七百二十公斤級特製穿甲航彈！",
+			say = "對了對了，快看我特意為妳從白鷹帶回來的特產~鏘鏘——七百二十公斤級特製穿甲航彈！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "這已經是第幾次了呢…總之，我會盡力攔下你的攻擊的！",
+			say = "這已經是第幾次了呢…總之，我會盡力攔下妳的攻擊的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -89,7 +89,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "？？？",
-			say = "夏色祭，hololive中，你最喜欢的女孩子是谁？",
+			say = "夏色祭，hololive中，妳最喜欢的女孩子是谁？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			actorName = "夏 色 祭",
-			say = "镜像？那作为本体的你，来回答我刚才的问题啊。在hololive中，你最喜欢的女孩子是谁？",
+			say = "镜像？那作为本体的妳，来回答我刚才的问题啊。在hololive中，妳最喜欢的女孩子是谁？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也真虧你能一直忍到今天，還……",
+			say = "也真虧妳能一直忍到今天，還……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 102120,
 			nameColor = "#a9f548",
 			flag = 2,
-			say = "你的興趣還真是夠奇怪的……",
+			say = "妳的興趣還真是夠奇怪的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "指揮官，你說我該怎麼辦才好呢……",
+			say = "指揮官，妳說我該怎麼辦才好呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是哦…隨、隨你的便吧。",
+			say = "是、是哦…隨、隨妳的便吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

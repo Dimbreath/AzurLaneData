@@ -9,7 +9,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "用久远你们世界的技术生成的镜面海域，已经基本完全消失了呢喵",
+			say = "用久远妳们世界的技术生成的镜面海域，已经基本完全消失了呢喵",
 			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小事不值一提喵。算是你们帮我们击退塞壬的谢礼喵",
+			say = "小事不值一提喵。算是妳们帮我们击退塞壬的谢礼喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也推荐你们跟我们回去一趟喵，我会叫大家一起帮着确保回程安全的喵",
+			say = "我也推荐妳们跟我们回去一趟喵，我会叫大家一起帮着确保回程安全的喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……那么，你怎么看，小久？",
+			say = "……那么，妳怎么看，小久？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

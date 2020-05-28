@@ -44,6 +44,10 @@ function slot0.disableEffect(slot0, slot1)
 	end
 end
 
+function slot0.ShowOrHide(slot0, slot1)
+	setActive(slot0.effectContains, slot1)
+end
+
 function slot0.Destroy(slot0)
 	for slot4, slot5 in pairs(slot0.effects) do
 		PoolMgr.GetInstance():ReturnPrefab("ui/" .. slot4, slot4, slot5)

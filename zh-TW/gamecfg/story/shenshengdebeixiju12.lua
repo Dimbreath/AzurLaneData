@@ -249,7 +249,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "别想逃跑，就凭你们的航速——",
+			say = "别想逃跑，就凭妳们的航速——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "光辉女士！此战是你们的胜利，虽然不甘，但您的战斗之姿令人着迷！",
+			say = "光辉女士！此战是妳们的胜利，虽然不甘，但您的战斗之姿令人着迷！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

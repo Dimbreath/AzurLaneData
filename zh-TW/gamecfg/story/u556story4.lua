@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "俾斯麦姐姐！我来找你玩啦！",
+			say = "俾斯麦姐姐！我来找妳玩啦！",
 			effects = {
 				{
 					active = true,
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_guild_red",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如你所见，我正在为下次的演习制定方案，暂时抽不出身。",
+			say = "如妳所见，我正在为下次的演习制定方案，暂时抽不出身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

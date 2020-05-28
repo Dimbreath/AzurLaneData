@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}，你不看好“决战计划”的战斗能力么？",
+			say = "{namecode:91}，妳不看好“决战计划”的战斗能力么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:79}，你在这方面是专业的，说说你的看法？",
+			say = "{namecode:79}，妳在这方面是专业的，说说妳的看法？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…你居然真的相信祭典的传说了，{namecode:92}？",
+			say = "…妳居然真的相信祭典的传说了，{namecode:92}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

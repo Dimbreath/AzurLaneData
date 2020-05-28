@@ -238,7 +238,7 @@ seriesAsync({
 		end)
 	end
 
-	pg.UIMgr.GetInstance():AddDebugButton("Physics2D", function ()
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.PHYSICS2D_TEST)
+	pg.UIMgr.GetInstance():AddDebugButton("Print", function ()
+		getProxy(TechnologyNationProxy):printNationPointLog()
 	end)
 end)

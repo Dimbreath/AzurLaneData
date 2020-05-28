@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "……哼，這可是指揮官實在想去{namecode:22}大人迫不得已才跟著你去的哦！",
+			say = "……哼，這可是指揮官實在想去{namecode:22}大人迫不得已才跟著妳去的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

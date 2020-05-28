@@ -62,7 +62,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们能适应舰装，是特例中的特例，或许是因为你们异世界来客的身份，也许还和塞壬的奇怪实验有关。",
+			say = "妳们能适应舰装，是特例中的特例，或许是因为妳们异世界来客的身份，也许还和塞壬的奇怪实验有关。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…没关系。说起来，hololive是你的所属组织吧，成为hololive反抗军的感觉如何？",
+			say = "…没关系。说起来，hololive是妳的所属组织吧，成为hololive反抗军的感觉如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们这个世界的人真怪…",
+			say = "妳们这个世界的人真怪…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -24,21 +24,17 @@ function slot0.Update(slot0)
 			slot6.localScale = Vector3(0.5, 0.5, 1)
 			slot6.anchoredPosition = Vector2(61.1, -30.6)
 
-			slot0:GetSpine(slot2.icon, function (slot0)
-				uv0:ReturnSpine()
-
-				slot1 = uv1.scale * 0.01
+			slot0:GetLoader():GetSpine(slot2.icon, function (slot0)
+				slot1 = uv0.scale * 0.01
 				slot0.transform.localScale = Vector3(0.4 * slot1, 0.4 * slot1, 1)
 
 				slot0.transform:GetComponent("SpineAnimUI"):SetAction(ChapterConst.ShipIdleAction, 0)
 
 				slot0.transform:GetComponent("SkeletonGraphic").raycastTarget = false
 
-				slot0.transform:SetParent(uv0.tf, false)
+				slot0.transform:SetParent(uv1.tf, false)
 				slot0.transform:SetAsFirstSibling()
-
-				uv0._loadedSpineName = uv1.icon
-			end)
+			end, "LoadedSpine")
 			slot0:ExtraUpdate(slot2)
 		end
 
@@ -58,13 +54,9 @@ function slot0.Update(slot0)
 end
 
 function slot0.ReturnSpine(slot0)
-	if slot0._loadedSpineName and slot0._returnRequest["spine/" .. slot0._loadedSpineName] then
-		slot0._returnRequest["spine/" .. slot0._loadedSpineName]:Start()
-
-		slot0._returnRequest["spine/" .. slot0._loadedSpineName] = nil
+	if slot0.loader then
+		slot0.loader:ClearRequest("LoadedSpine")
 	end
-
-	slot0._loadedSpineName = nil
 end
 
 function slot0.DestroyGO(slot0)

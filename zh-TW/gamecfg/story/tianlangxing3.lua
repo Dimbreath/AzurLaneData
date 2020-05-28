@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			actor = 203040,
 			nameColor = "#a9f548",
-			say = "我可以教你一點不會被女僕長發現的摸魚方法哦？",
+			say = "我可以教妳一點不會被女僕長發現的摸魚方法哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

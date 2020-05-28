@@ -13,11 +13,10 @@ end
 
 function slot0.OnInit(slot0)
 	slot0.loginPanel = slot0._tf
-	slot0.loginUsername = slot0:findTF("username", slot0.loginPanel)
-	slot0.loginPassword = slot0:findTF("password", slot0.loginPanel)
+	slot0.loginUsername = slot0:findTF("account/username", slot0.loginPanel)
+	slot0.loginPassword = slot0:findTF("password/password", slot0.loginPanel)
 	slot0.loginButton = slot0:findTF("login_button", slot0.loginPanel)
 	slot0.registerButton = slot0:findTF("register_button", slot0.loginPanel)
-	slot0.forgetButton = slot0:findTF("forget_button", slot0.loginPanel)
 
 	slot0:InitEvent()
 end
@@ -37,24 +36,14 @@ function slot0.InitEvent(slot0)
 			return
 		end
 
-		if getInputText(uv0.loginPassword) == "" then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("login_loginScene_error_noPassword"))
-			ActivateInputField(uv0.loginPassword)
-
-			return
-		end
-
 		if User.New({
 			type = 2,
 			arg1 = slot0,
-			arg2 = slot1
+			arg2 = getInputText(uv0.loginPassword) or ""
 		}) then
 			uv0.event:emit(LoginMediator.ON_LOGIN, slot2)
 		end
 	end, SFX_CONFIRM)
-	onButton(slot0, slot0.forgetButton, function ()
-		pg.TipsMgr.GetInstance():ShowTips(i18n("word_systemClose"))
-	end, SFX_MAIN)
 	onButton(slot0, slot0.registerButton, function ()
 		uv0:emit(LoginSceneConst.SWITCH_SUB_VIEW, {
 			LoginSceneConst.DEFINE.REGISTER_PANEL_VIEW

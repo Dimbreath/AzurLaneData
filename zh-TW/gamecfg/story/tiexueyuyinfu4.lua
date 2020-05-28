@@ -91,7 +91,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "可是，恕我直言，你身上的伤...恐怕坚持不了这么远的航程",
+			say = "可是，恕我直言，妳身上的伤...恐怕坚持不了这么远的航程",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "我的意思是...让你独自返航，我另有打算",
+			say = "我的意思是...让妳独自返航，我另有打算",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "是要我抛下你吗？这听起来可不像是个好主意",
+			say = "是要我抛下妳吗？这听起来可不像是个好主意",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "希望你能尊重我的命令，这次可容不得你任性了，欧根",
+			say = "希望妳能尊重我的命令，这次可容不得妳任性了，欧根",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "欧根亲王号重巡洋舰遵命。祝你好运，俾斯麦",
+			say = "欧根亲王号重巡洋舰遵命。祝妳好运，俾斯麦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "祝你好运",
+			say = "祝妳好运",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

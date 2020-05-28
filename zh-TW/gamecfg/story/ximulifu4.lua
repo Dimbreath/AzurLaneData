@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你就好好学习一下如何享受就好。",
+			say = "妳就好好学习一下如何享受就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系，反正没有弄脏礼服…不过，你怎么了吗，慌慌张张的…",
+			say = "没关系，反正没有弄脏礼服…不过，妳怎么了吗，慌慌张张的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

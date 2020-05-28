@@ -5096,6 +5096,118 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70091] = {
+		id = 70091,
+		name = "2020法系沃克兰回中心",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = 0,
+					z = 58
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70092] = {
+		id = 70092,
+		name = "沃克兰人形有节奏的随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 3,
+				param = {
+					stopCount = 0,
+					Z2 = 75,
+					moveCount = 5000,
+					Z1 = 35,
+					duration = 2.9,
+					X1 = -20,
+					X2 = -5
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 1.6
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 0,
+					Z2 = 75,
+					moveCount = 5000,
+					Z1 = 35,
+					duration = 5.1,
+					X1 = -20,
+					X2 = -5
+				}
+			}
+		}
+	},
+	[70093] = {
+		id = 70093,
+		name = "2020法系阿尔及利亚回中心",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -5,
+					z = 55
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70094] = {
+		id = 70094,
+		name = "2020法系阿尔及利亚随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 35,
+					duration = -1,
+					X1 = -15,
+					X2 = 0
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

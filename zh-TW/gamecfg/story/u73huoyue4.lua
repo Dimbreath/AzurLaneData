@@ -142,7 +142,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，不过看在你一心追求科学的份上，这一次我就睁一只眼闭一只眼吧。",
+			say = "哼哼，不过看在妳一心追求科学的份上，这一次我就睁一只眼闭一只眼吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			actor = 408050,
 			nameColor = "#a9f548",
-			say = "谢谢你，{namecode:37}！",
+			say = "谢谢妳，{namecode:37}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你用的这些成分…原来如此，你是想要研制糖分弹药吗",
+			say = "妳用的这些成分…原来如此，妳是想要研制糖分弹药吗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让你们学习一下什么是“真正的科学实验”！",
+			say = "让妳们学习一下什么是“真正的科学实验”！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

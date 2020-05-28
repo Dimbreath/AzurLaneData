@@ -27,7 +27,7 @@ return {
 			side = 0,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你就是传说中的{namecode:80}级三号舰{namecode:175}么…嗯，真是百闻不如一见啊！祭典的准备辛苦了。我代表重樱的伙伴们向你表示感谢~",
+			say = "妳就是传说中的{namecode:80}级三号舰{namecode:175}么…嗯，真是百闻不如一见啊！祭典的准备辛苦了。我代表重樱的夥伴们向妳表示感谢~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -144,7 +144,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你刚刚心里在想，“哎？这么突然？！这种性格我超不擅长应付啊……”了吧~",
+			say = "妳刚刚心里在想，“哎？这么突然？！这种性格我超不擅长应付啊……”了吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说你的演习成绩很不错，接下来的演武我可是很期待的哦~",
+			say = "听说妳的演习成绩很不错，接下来的演武我可是很期待的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

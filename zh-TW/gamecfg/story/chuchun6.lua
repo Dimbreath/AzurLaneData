@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "謝謝你們…飛鷹、初霜、若葉…還有…指揮官…我、我會再努力一把的！",
+			say = "謝謝妳們…飛鷹、初霜、若葉…還有…指揮官…我、我會再努力一把的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

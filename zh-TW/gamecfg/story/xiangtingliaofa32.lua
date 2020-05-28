@@ -321,7 +321,7 @@ return {
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "其实，你还在逃避吧？",
+			say = "其实，妳还在逃避吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			actor = 900072,
 			actorName = "？？？",
-			say = "将我的行踪汇报给主机，就是你的全部任务。",
+			say = "将我的行踪汇报给主机，就是妳的全部任务。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			actor = 900072,
 			actorName = "？？？",
-			say = "不要再多管闲事，你不可能再妨碍我一次了。",
+			say = "不要再多管闲事，妳不可能再妨碍我一次了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

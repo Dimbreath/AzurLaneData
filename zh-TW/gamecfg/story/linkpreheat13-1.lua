@@ -35,7 +35,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "乌璐露？你……难道是想一个人去么",
+			say = "乌璐露？妳……难道是想一个人去么",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10300010,
-			say = "诶？你们双胞胎一起去不就好了？",
+			say = "诶？妳们双胞胎一起去不就好了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我，我知道了喵。乌璐露，交给你了喵",
+			say = "我，我知道了喵。乌璐露，交给妳了喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

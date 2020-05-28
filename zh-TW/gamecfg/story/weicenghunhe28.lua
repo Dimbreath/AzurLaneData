@@ -158,7 +158,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "现在，也存在于你的心里了。",
+			say = "现在，也存在于妳的心里了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "……我没时间和你打哑谜，为什么要给我看这些虚假的闹剧？",
+			say = "……我没时间和妳打哑谜，为什么要给我看这些虚假的闹剧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "哟，这不是企业么！没想到在这里遇到你了，需要帮助么~",
+			say = "哟，这不是企业么！没想到在这里遇到妳了，需要帮助么~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "啊，我知道你有很多疑问，实际上我们自己也没搞清楚状况，不过---",
+			say = "啊，我知道妳有很多疑问，实际上我们自己也没搞清楚状况，不过---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

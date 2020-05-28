@@ -323,7 +323,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，我還以為是貝法做的，你們兩人的茶點味道真是一模一樣啊",
+			say = "咦，我還以為是貝法做的，妳們兩人的茶點味道真是一模一樣啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

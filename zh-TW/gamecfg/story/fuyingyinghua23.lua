@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "终于找到你了，没有收到邀请函却不请自来的客人~",
+			say = "终于找到妳了，没有收到邀请函却不请自来的客人~",
 			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦~~这可真是柄好刀啊，快转过身来让我看看你究竟是什么人？",
+			say = "哦~~这可真是柄好刀啊，快转过身来让我看看妳究竟是什么人？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "！！！你是…？",
+			say = "！！！妳是…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来者何人？看你的装备，想必也是习武之人",
+			say = "来者何人？看妳的装备，想必也是习武之人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "一是阻止观察者和其他人夺走神石，这一点…你们已经看到了",
+			say = "一是阻止观察者和其他人夺走神石，这一点…妳们已经看到了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

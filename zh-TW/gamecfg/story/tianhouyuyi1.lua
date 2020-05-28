@@ -434,7 +434,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们还找了其他伙伴来帮忙哦",
+			say = "我们还找了其他夥伴来帮忙哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！那就开始准备吧！也要喊上其他阵营的伙伴才行呢~",
+			say = "嗯！那就开始准备吧！也要喊上其他阵营的夥伴才行呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

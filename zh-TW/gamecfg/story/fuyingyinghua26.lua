@@ -359,7 +359,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}，如果你真的能够利用塞壬技术引领重樱的未来，我绝不会阻碍你",
+			say = "{namecode:91}，如果妳真的能够利用塞壬技术引领重樱的未来，我绝不会阻碍妳",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是现在…究竟是你在利用塞壬，还是塞壬在利用你呢？",
+			say = "可是现在…究竟是妳在利用塞壬，还是塞壬在利用妳呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "相信我，塞壬可不是那么温和，能任你摆布的存在",
+			say = "相信我，塞壬可不是那么温和，能任妳摆布的存在",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你陷入执念太深了，以至于狭隘了视野，偏离了正道",
+			say = "妳陷入执念太深了，以至于狭隘了视野，偏离了正道",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果她看到现在的你-----",
+			say = "如果她看到现在的妳-----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			bgm = "xinnong-4",
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "{namecode:82}大人！不好了，未知的敌人再次突破了我们的防线，请你们注意——",
+			say = "{namecode:82}大人！不好了，未知的敌人再次突破了我们的防线，请妳们注意——",
 			flashout = {
 				dur = 0.5,
 				black = true,

@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			actor = 900179,
 			nameColor = "#a9f548",
-			say = "算了，调整心情，开始玩碧蓝航线啦！{namecode:66}酱！你还好吗！？",
+			say = "算了，调整心情，开始玩碧蓝航线啦！{namecode:66}酱！妳还好吗！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

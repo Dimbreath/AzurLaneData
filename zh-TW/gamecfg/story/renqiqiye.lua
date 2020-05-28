@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来了吗，指挥官，等你很久了。",
+			say = "来了吗，指挥官，等妳很久了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈。要是和别人说这些的话，大概都会被认为“完全不像企业你啊”之类的，所以我很少能找到这样倾诉的对象呢",
+			say = "哈哈。要是和别人说这些的话，大概都会被认为“完全不像企业妳啊”之类的，所以我很少能找到这样倾诉的对象呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,7 +842,7 @@ return {
 			blackBg = true,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "与你一起瞭望的碧蓝大海，就是世界上最美丽的风景——",
+			say = "与妳一起瞭望的碧蓝大海，就是世界上最美丽的风景——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

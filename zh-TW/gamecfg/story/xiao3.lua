@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:13}，{namecode:14}？你們怎麼來了？",
+			say = "{namecode:13}，{namecode:14}？妳們怎麼來了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			actor = 301090,
 			nameColor = "#a9f548",
-			say = "指揮官剛剛的全聽到了吧！嗚嗚，讓你看到了不成器的一面，真是太羞愧了…",
+			say = "指揮官剛剛的全聽到了吧！嗚嗚，讓妳看到了不成器的一面，真是太羞愧了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -61,7 +61,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "值得令人敬佩的精神，我為之前稱呼你們為矯情的貴婦人而道歉",
+			say = "值得令人敬佩的精神，我為之前稱呼妳們為矯情的貴婦人而道歉",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

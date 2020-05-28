@@ -44,7 +44,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？你们是——",
+			say = "嗯？妳们是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你自己不也是小姑娘啊！！！！",
+			say = "妳自己不也是小姑娘啊！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "……你们到底在说什么……",
+			say = "……妳们到底在说什么……",
 			action = {
 				{
 					y = 30,
@@ -437,7 +437,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于看不起鲨鱼的对手，U110，要在这里解决你们！",
+			say = "对于看不起鲨鱼的对手，U110，要在这里解决妳们！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼！就让本小姐给你示范一下什么叫做反潜战吧！",
+			say = "哼哼！就让本小姐给妳示范一下什么叫做反潜战吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

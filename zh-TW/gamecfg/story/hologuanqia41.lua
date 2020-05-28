@@ -40,7 +40,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			actorName = "测试怪人",
-			say = "现在之前战斗中损坏的棋子还没修好吧，你打算怎么办？",
+			say = "现在之前战斗中损坏的棋子还没修好吧，妳打算怎么办？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拜托你不要提那个，上次坐那个之后我一天都吃不下东西……",
+			say = "拜托妳不要提那个，上次坐那个之后我一天都吃不下东西……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

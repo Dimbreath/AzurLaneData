@@ -95,7 +95,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "哎？里诺小姐，你对机械学还有研究么！",
+			say = "哎？里诺小姐，妳对机械学还有研究么！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103160,
-			say = "哟，不好意思啊，路上花了点时间。看来你们这儿也经历了场大战啊…",
+			say = "哟，不好意思啊，路上花了点时间。看来妳们这儿也经历了场大战啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

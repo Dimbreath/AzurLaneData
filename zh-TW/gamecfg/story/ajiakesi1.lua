@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			actor = 202010,
 			nameColor = "#a9f548",
-			say = "阿贾克斯你也该学学做饭了吧？每次都让指挥官做…",
+			say = "阿贾克斯妳也该学学做饭了吧？每次都让指挥官做…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "来喝一口？还是说…想要我喂你喝？",
+			say = "来喝一口？还是说…想要我喂妳喝？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "真是的……虽然不知道你们说的“简洁kiss”是什么…不过阿贾克斯，可不能老为难指挥官哦？",
+			say = "真是的……虽然不知道妳们说的“简洁kiss”是什么…不过阿贾克斯，可不能老为难指挥官哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "指挥官想喝的话，下次想喝多少我喂你多少～",
+			say = "指挥官想喝的话，下次想喝多少我喂妳多少～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

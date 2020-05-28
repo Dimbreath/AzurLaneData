@@ -12,7 +12,7 @@ return {
 			bgm = "holo-control",
 			actor = 10500060,
 			nameColor = "#a9f548",
-			say = "到此为止了，你这个冒牌货！！居然敢破坏本诗音大人辛辛苦苦搭建的过山车！",
+			say = "到此为止了，妳这个冒牌货！！居然敢破坏本诗音大人辛辛苦苦搭建的过山车！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500060,
-			say = "你还打算做什么啊？！",
+			say = "妳还打算做什么啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			actor = 10500060,
 			actorName = "诗 音",
-			say = "要开始了哦~有一些事，想要说给你听啊！果然祭酱，是最可爱的啊！喜欢你，喜欢你，最------",
+			say = "要开始了哦~有一些事，想要说给妳听啊！果然祭酱，是最可爱的啊！喜欢妳，喜欢妳，最------",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

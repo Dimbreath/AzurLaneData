@@ -50,7 +50,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说不定你真的被幸运女神笼罩着呢",
+			say = "说不定妳真的被幸运女神笼罩着呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

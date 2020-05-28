@@ -39,7 +39,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "…这里不需要你们插手",
+			say = "…这里不需要妳们插手",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

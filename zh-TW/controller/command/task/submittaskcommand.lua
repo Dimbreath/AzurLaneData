@@ -48,12 +48,8 @@ function slot0.execute(slot0, slot1)
 				slot3:updatePlayer(slot4)
 			end
 
-			for slot5 = #PlayerConst.tranOwnShipSkin(slot0.award_list), 1, -1 do
-				if slot1[slot5].type ~= DROP_TYPE_SHIP then
-					uv1:sendNotification(GAME.ADD_ITEM, slot6)
-				end
-
-				if slot6.type == DROP_TYPE_ITEM and pg.item_data_statistics[slot6.id].virtual_type == 6 then
+			for slot5 = #PlayerConst.addTranDrop(slot0.award_list), 1, -1 do
+				if slot1[slot5].type == DROP_TYPE_VITEM and pg.item_data_statistics[slot6.id].virtual_type == 6 then
 					if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) then
 						slot9[uv0.id] = (slot8.data1KeyValueList[1][uv0.id] or 0) + slot6.count
 
@@ -65,14 +61,14 @@ function slot0.execute(slot0, slot1)
 			end
 
 			if uv0:getConfig("type") ~= 8 then
-				uv2:removeTask(uv0)
+				uv1:removeTask(uv0)
 			else
 				uv0.submitTime = 1
 
-				uv2:updateTask(uv0)
+				uv1:updateTask(uv0)
 			end
 
-			uv1:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
+			uv2:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
 				uv0.id
 			})
 

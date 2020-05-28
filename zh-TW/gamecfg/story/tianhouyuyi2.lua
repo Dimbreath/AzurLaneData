@@ -192,7 +192,7 @@ return {
 			actor = 201221,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哇，{namecode:13}和{namecode:14}都好可爱呀，谢谢你们的邀请呢~",
+			say = "哇，{namecode:13}和{namecode:14}都好可爱呀，谢谢妳们的邀请呢~",
 			effects = {
 				{
 					active = false,
@@ -545,7 +545,7 @@ return {
 			actor = 102124,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "(碎碎念)真是的…圣路易斯那家伙，说什么“穿这样指挥官一定会被你迷倒”…我、我才不期待这种事情呢！",
+			say = "(碎碎念)真是的…圣路易斯那家伙，说什么“穿这样指挥官一定会被妳迷倒”…我、我才不期待这种事情呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

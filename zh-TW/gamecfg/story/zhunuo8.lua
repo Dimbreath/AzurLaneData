@@ -49,7 +49,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "啊哈哈，你這不是沒事嗎——抱歉",
+			say = "啊哈哈，妳這不是沒事嗎——抱歉",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

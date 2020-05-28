@@ -69,7 +69,7 @@ return {
 			dir = -1,
 			actor = 307040,
 			nameColor = "#ff0000",
-			say = "讓你們看看二航戰的底力，這是我們“最後的反擊”！",
+			say = "讓妳們看看二航戰的底力，這是我們“最後的反擊”！",
 			shake = {
 				speed = 1,
 				number = 3

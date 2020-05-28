@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=45>二 努力的凯旋小姐</size>",
+					"騎士公主的憂鬱\n\n<size=45>二 努力的凱旋小姐</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指挥官，今天预订进行的联合演习，参加者名单在这里，请过目——",
+			say = "指揮官，今天預訂進行的聯合演習，參加者名單在這裡，請過目——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			},
 			options = {
 				{
-					content = "联合…演习？",
+					content = "聯合…演習？",
 					flag = 1
 				}
 			}
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊，真是的，您忘记了吗。根据之前制定的计划，作为日常训练的一环，今天要进行自由鸢尾与皇家的联合演习呀",
+			say = "啊，真是的，您忘記了嗎。根據之前制定的計畫，作為日常訓練的一環，今天要進行自由鳶尾與皇家的聯合演習呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "作为舰队的指挥者，不振作一点可是不行的喔，指挥官。来，快确认一下名单吧！",
+			say = "作為艦隊的指揮者，不振作一點可是不行的喔，指揮官。來，快確認一下名單吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "被秘书舰教育了…",
+			say = "被秘書艦教育了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "检查了名单，稍微修改了一点内容",
+			say = "檢查了名單，稍微修改了一點內容",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "需要调整名单吗？我看看…",
+			say = "需要調整名單嗎？我看看…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "咦？由我来带领先锋编队吗？",
+			say = "咦？由我來帶領先鋒編隊嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "想让大家看看我的战斗能力？",
+			say = "想讓大家看看我的戰鬥能力？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哼哼，既然如此，我就不客气了。",
+			say = "哼哼，既然如此，我就不客氣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "就让指挥官还有大家都见识一下自由鸢尾的空想级的实力吧～",
+			say = "就讓指揮官還有大家都見識一下自由鳶尾的空想級的實力吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
-			say = "下午，港区附近的演习海域",
+			say = "下午，港區附近的演習海域",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "不要冒进，配合友军的节奏进攻！",
+			say = "不要冒進，配合友軍的節奏進攻！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "不要慌张，我们现在不是孤军奋战，发送信号！",
+			say = "不要慌張，我們現在不是孤軍奮戰，發送信號！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "……好，这片海域的目标清扫完毕，接下来……唔，我们去支援相邻海域的同伴吧！",
+			say = "……好，這片海域的目標清掃完畢，接下來……唔，我們去支援相鄰海域的同伴吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "由于凯旋的活跃，自由鸢尾在演习中取得了十分不错的成绩",
+			say = "由於凱旋的活躍，自由鳶尾在演習中取得了十分不錯的成績",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			},
 			options = {
 				{
-					content = "表扬凯旋",
+					content = "表揚凱旋",
 					flag = 1
 				}
 			}
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "嘻嘻，谢谢指挥官的赞赏",
+			say = "嘻嘻，謝謝指揮官的讚賞",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "我说过的吧，让你们见识一下空想级的实力～",
+			say = "我說過的吧，讓妳們見識一下空想級的實力～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "不过，也不能说是十全十美吧",
+			say = "不過，也不能說是十全十美吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "如果有姐姐大人们在的话——",
+			say = "如果有姐姐大人們在的話——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "凯旋似乎又要陷入回忆了",
+			say = "凱旋似乎又要陷入回憶了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "咳、咳咳，没什么。好了，让我们开始今天演习的总结吧！皇家的姐妹们也一起——",
+			say = "咳、咳咳，沒什麼。好了，讓我們開始今天演習的總結吧！皇家的姐妹們也一起——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "真是名无比优秀的秘书舰",
+			say = "真是名無比優秀的秘書艦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

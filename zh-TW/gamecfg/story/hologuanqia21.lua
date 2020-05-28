@@ -125,7 +125,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬这么快就制造出了你的镜像了么……",
+			say = "塞壬这么快就制造出了妳的镜像了么……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 10500030,
 			actorName = "山田·赫敏",
-			say = "我，山田·赫敏，将会遵照主人的命令，在此将你们尽数消灭！",
+			say = "我，山田·赫敏，将会遵照主人的命令，在此将妳们尽数消灭！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 307060,
-			say = "战意高涨啊对面……喂，阿库娅，如果你下不去手，就站在旁边看着吧，这不怪你。",
+			say = "战意高涨啊对面……喂，阿库娅，如果妳下不去手，就站在旁边看着吧，这不怪妳。",
 			effects = {
 				{
 					active = false,

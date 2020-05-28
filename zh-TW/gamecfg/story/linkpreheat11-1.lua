@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "露露缇耶……好吧喵，能拜托你吗喵？",
+			say = "露露缇耶……好吧喵，能拜托妳吗喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "露露缇耶……千万不要勉强自己哦，要是出什么事我会立刻去救你的",
+			say = "露露缇耶……千万不要勉强自己哦，要是出什么事我会立刻去救妳的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			actor = 301011,
 			actorName = "{namecode:2}",
-			say = "快、快迟到了不是吗——啊咧？{namecode:94}、{namecode:94}？你这一身…",
+			say = "快、快迟到了不是吗——啊咧？{namecode:94}、{namecode:94}？妳这一身…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "赌上{namecode:63}托付给我的风纪委员之名，就算是妹妹，不、正因为是妹妹，才更要纠正你！",
+			say = "赌上{namecode:63}托付给我的风纪委员之名，就算是妹妹，不、正因为是妹妹，才更要纠正妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "{namecode:94}！回头我再找你！",
+			say = "{namecode:94}！回头我再找妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

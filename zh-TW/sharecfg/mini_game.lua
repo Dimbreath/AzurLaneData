@@ -365,6 +365,73 @@ pg.mini_game = {
 		hub_id = 8,
 		request_data = 1
 	},
+	{
+		name = "啾啾大冒险",
+		view_name = "TowerClimbingGameView",
+		mediator_name = "TowerClimbingMediator",
+		type = 4,
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 13,
+		hub_id = 9,
+		request_data = 1,
+		simple_config_data = {
+			{
+				{
+					10,
+					20,
+					30,
+					40,
+					50
+				},
+				{
+					{
+						14,
+						104,
+						1
+					}
+				}
+			},
+			{
+				{
+					10,
+					20,
+					30,
+					40,
+					50
+				},
+				{
+					{
+						2,
+						59789,
+						1
+					}
+				}
+			},
+			{
+				{
+					10,
+					20,
+					30,
+					40,
+					50
+				},
+				{
+					{
+						2,
+						59790,
+						1
+					},
+					{
+						15,
+						103,
+						1
+					}
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -377,6 +444,7 @@ pg.mini_game = {
 		9,
 		10,
 		11,
-		12
+		12,
+		13
 	}
 }

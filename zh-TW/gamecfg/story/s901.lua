@@ -14,10 +14,10 @@ return {
 			say = "谁？",
 			options = {
 				{
-					content = "既然你诚心诚意地问了"
+					content = "既然妳诚心诚意地问了"
 				},
 				{
-					content = "不告诉你",
+					content = "不告诉妳",
 					skip = 2
 				},
 				{
@@ -41,7 +41,7 @@ return {
 		},
 		{
 			skip = 1,
-			say = "接下来有个新手引导，需要你完成一场战斗"
+			say = "接下来有个新手引导，需要妳完成一场战斗"
 		},
 		{
 			actor = 101030,

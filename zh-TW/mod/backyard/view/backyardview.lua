@@ -26,6 +26,7 @@ end
 
 function slot0.OnInit(slot0)
 	slot0.furnitureModals = {}
+	slot0.bg = slot0:findTF("bg")
 	slot0.floorContain = slot0:findTF("bg/furContain/floor")
 	slot0.floorGrid = slot0:findTF("bg/floorGrid")
 	slot0.furContain = slot0:findTF("bg/furContain")
@@ -38,6 +39,9 @@ function slot0.OnInit(slot0)
 	slot0.eyeBtn = findTF(slot0._tf.parent, "main/eye_btn")
 	slot0.warnCG = slot0.warn:GetComponent("CanvasGroup")
 	slot0.road = slot0:findTF("bg/road"):GetComponent(typeof(Image))
+	slot0.leftPanel = slot0._tf.parent:Find("main/leftPanel")
+	slot0.floorBtn = slot0._tf.parent:Find("main/rightPanel/floor_btn")
+	slot0.bottomPanel = slot0._tf.parent:Find("main/bottomPanel")
 	slot0.wallPaperModel = BackYardPaperModel.New(slot0:findTF("bg/wall"), BackYardPaperModel.PAPER_TYPE_WALL)
 	slot0.baseWallPaperModel = BackYardPaperModel.New(slot0:findTF("bg/wall_base"), BackYardPaperModel.PAPER_TYPE_BASEWALL)
 	slot0.floorPaperModel = BackYardPaperModel.New(slot0:findTF("bg/floor"), BackYardPaperModel.PAPER_TYPE_FLOOR)
@@ -79,6 +83,23 @@ function slot0.enableDecorateMode(slot0, slot1)
 		slot0:emit(BackyardMainMediator.CLOSE_GARNITURE)
 		slot0.map.afterSortFunc(slot0.map.sortedItems)
 	end
+
+	slot2 = slot0:findTF("bg")
+
+	if slot1 then
+		slot0.prevScale = slot0.bg.localScale.x
+		slot3 = slot0.zoom.minZoom
+		slot0.bg.localScale = Vector3(slot3, slot3, slot3)
+		slot2.sizeDelta = Vector2(slot2.sizeDelta.x, slot2.sizeDelta.y + 300)
+	elseif not slot1 and slot0.prevScale then
+		slot0.bg.localScale = Vector3(slot0.prevScale, slot0.prevScale, slot0.prevScale)
+		slot2.sizeDelta = Vector2(slot2.sizeDelta.x, slot2.sizeDelta.y - 300)
+	end
+
+	setActive(slot0.leftPanel, not slot1)
+	setActive(slot0.floorBtn, not slot1)
+	setActive(slot0.bottomPanel, not slot1)
+	setActive(slot0.decorationBtn, not slot1)
 end
 
 function slot0.OnDidEnter(slot0)
@@ -162,7 +183,7 @@ function slot0.updateHouseArea(slot0, slot1)
 
 	tf(go(slot0.road)).anchoredPosition = Vector3(0, slot0.roadPositions[slot1], 0)
 	slot2 = slot0:findTF("bg")
-	slot2.sizeDelta = Vector2(slot2.sizeDelta.x, 1080 + (slot1 - 1) * 120)
+	slot2.sizeDelta = Vector2(slot2.sizeDelta.x, 1080 + (slot1 - 1) * 150)
 
 	scrollTo(slot0._tf, 0.5, 0.5)
 
@@ -315,6 +336,10 @@ function slot0.initFurnitures(slot0)
 
 		uv0:sortWallFurns()
 		uv0:sortAllMat()
+
+		if uv0.contextData.openDecoration then
+			triggerButton(uv0.decorationBtn)
+		end
 	end)
 end
 
@@ -370,25 +395,10 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 	slot4 = slot2.dragEvent
 
 	slot2:EnableTouch(slot1:canBeTouch() or slot0.decorateMode)
-	slot2.iconEvent:AddPointClickFunc(function ()
-		if uv0.decorateMode then
-			if uv0.isDraging then
-				return
-			end
 
-			uv1:TouchAnim()
-			uv0:closePreFurnSelected()
-
-			uv0.preFurnSelected = uv2
-			uv0.curFurnModal = uv1
-
-			SetActive(uv2, true)
-			SetActive(uv1.gridsTF, true)
-			uv0:setPreSelectedParent(uv0.furContain)
-
-			uv0.preFurnSelected.localScale = Vector3(1, 1, 1)
-		elseif uv3:isShowDesc() then
-			uv0.furnitureDescWindow:Show(uv3, function (slot0)
+	function slot6()
+		if uv0:isShowDesc() then
+			uv1.furnitureDescWindow:Show(uv0, function (slot0)
 				slot1, slot2, slot3 = uv0:GetVoiceAnim()
 
 				uv1:PlayAnim(slot0 and slot2 or slot1)
@@ -399,10 +409,10 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 					uv1:StopEffect(slot3)
 				end
 			end)
-		elseif uv3:isTouchSpine() then
-			slot0, slot1, slot2, slot3 = uv3:getTouchSpineConfig()
+		elseif uv0:isTouchSpine() then
+			slot0, slot1, slot2, slot3 = uv0:getTouchSpineConfig()
 
-			uv1:TouchSpineAnim(function ()
+			uv2:TouchSpineAnim(function ()
 				uv0:emit(BackyardMainMediator.ON_REMOVE_MOVE_FURNITURE, uv1.id)
 			end, function ()
 				uv0:emit(BackyardMainMediator.ON_ADD_MOVE_FURNITURE, uv1.id)
@@ -415,6 +425,18 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 					end
 				end
 			end)
+		end
+	end
+
+	function slot7()
+		uv0:SelectFurnitrue(uv1.id)
+	end
+
+	slot2.iconEvent:AddPointClickFunc(function ()
+		if not uv0.decorateMode then
+			uv1()
+		else
+			uv2()
 		end
 	end)
 	slot4:AddBeginDragFunc(function ()
@@ -456,7 +478,7 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 			slot0:closePreFurnSelected()
 		end
 
-		slot6()
+		slot7()
 	end
 end
 
@@ -556,7 +578,7 @@ function slot0.furnitureBeginDrag(slot0, slot1)
 	slot0.isDraging = true
 
 	if IsNil(slot0.decoratePanelCG) then
-		slot0.decoratePanelCG = GetOrAddComponent(GameObject.Find("/UICamera/Canvas/UIMain/BackYardGarnitureUI(Clone)/decoratePanel"), typeof(CanvasGroup))
+		slot0.decoratePanelCG = GetOrAddComponent(GameObject.Find("/UICamera/Canvas/UIMain/BackYardDecorationUI(Clone)"), typeof(CanvasGroup))
 	end
 
 	slot0.decoratePanelCG.blocksRaycasts = false
@@ -564,7 +586,7 @@ function slot0.furnitureBeginDrag(slot0, slot1)
 	function (slot0)
 		slot1 = uv0.furnitureModals[slot0.id]
 
-		uv0:setPreSelectedParent(slot1._tf)
+		uv0:setPreSelectedParent(slot1.dragContainer)
 		slot1:SetAsLastSibling()
 
 		if not slot0:isMapItem() then
@@ -699,7 +721,7 @@ function slot0.rotateFurn(slot0, slot1)
 		slot0:createItem(slot1)
 
 		if slot0.preFurnSelected then
-			slot0:setPreSelectedParent(slot2._tf)
+			slot0:setPreSelectedParent(slot2.dragContainer)
 
 			slot0.preFurnSelected.anchoredPosition3D = Vector3(0, 0, 0)
 
@@ -712,12 +734,8 @@ end
 
 function slot0.closePreFurnSelected(slot0)
 	if not IsNil(slot0.preFurnSelected) and slot0.curFurnModal then
-		slot0:setPreSelectedParent(slot0.curFurnModal._tf)
-
-		slot0.preFurnSelected.anchoredPosition3D = Vector3(0, 0, 0)
-
-		SetActive(slot0.preFurnSelected, false)
-		SetActive(slot0.curFurnModal.gridsTF, false)
+		slot0:setPreSelectedParent(slot0.curFurnModal.dragContainer)
+		slot0.curFurnModal:SetSelectState(false)
 
 		slot0.preFurnSelected = nil
 		slot0.curFurnModal = nil
@@ -727,6 +745,10 @@ end
 function slot0.setPreSelectedParent(slot0, slot1)
 	if not IsNil(slot0.preFurnSelected) and not IsNil(slot1) then
 		slot0.preFurnSelected:SetParent(slot1, true)
+
+		if slot1 == slot0.furContain then
+			slot0.preFurnSelected.localScale = Vector3(1, 1, 1)
+		end
 	end
 end
 
@@ -744,7 +766,7 @@ function slot0.setWallModalDir(slot0, slot1, slot2)
 	slot3:UpdateScale(slot2)
 
 	if not IsNil(slot0.preFurnSelected) then
-		slot0:setPreSelectedParent(slot3._tf)
+		slot0:setPreSelectedParent(slot3.dragContainer)
 
 		slot0.preFurnSelected.anchoredPosition3D = Vector3(0, 0, 0)
 	end
@@ -840,6 +862,25 @@ end
 
 function slot0.GetFurnitureGo(slot0, slot1)
 	return slot0.furnitureModals[slot1]._tf
+end
+
+function slot0.SelectFurnitrue(slot0, slot1)
+	if not slot0.furnitureModals[slot1] then
+		return
+	end
+
+	if slot0.isDraging then
+		return
+	end
+
+	slot2:TouchAnim()
+	slot0:closePreFurnSelected()
+
+	slot0.preFurnSelected = slot2.dragTF
+	slot0.curFurnModal = slot2
+
+	slot2:SetSelectState(true)
+	slot0:setPreSelectedParent(slot0.furContain)
 end
 
 function slot0.OnWillExit(slot0)

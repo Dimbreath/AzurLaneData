@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			say = "哎呀，{namecode:94}你来了吗",
+			say = "哎呀，{namecode:94}妳来了吗",
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",

@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107030,
-			say = "那些是你们北方联合在极北之地的特产么…？",
+			say = "那些是妳们北方联合在极北之地的特产么…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，时间也差不多了，该去和帝国的舰队接头了，祝你们好运~God bless the queen!",
+			say = "好了，时间也差不多了，该去和帝国的舰队接头了，祝妳们好运~God bless the queen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			actor = 205029,
 			actorName = "厌战",
-			say = "如果，收到的是红色信号的话，你准备怎么做呢",
+			say = "如果，收到的是红色信号的话，妳准备怎么做呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

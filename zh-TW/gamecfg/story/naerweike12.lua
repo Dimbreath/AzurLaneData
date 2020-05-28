@@ -35,7 +35,7 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			say = "太好了，猎人，你终于醒了！",
+			say = "太好了，猎人，妳终于醒了！",
 			dir = -1,
 			actor = 201160,
 			nameColor = "#a9f548",
@@ -67,7 +67,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这里是奥福克峡湾外的海滩……我的燃料也耗尽了，只能把你拖到这里……",
+			say = "这里是奥福克峡湾外的海滩……我的燃料也耗尽了，只能把妳拖到这里……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "抱歉，猎人，都是我不够谨慎，才害你为了保护我受了这么重的伤……",
+			say = "抱歉，猎人，都是我不够谨慎，才害妳为了保护我受了这么重的伤……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "你觉得，漂亮吗？",
+			say = "妳觉得，漂亮吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "嗯，我会在你身边的，安心睡吧。",
+			say = "嗯，我会在妳身边的，安心睡吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

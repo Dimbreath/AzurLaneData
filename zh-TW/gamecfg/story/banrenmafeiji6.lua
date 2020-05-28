@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你站在这边干什么呢，看夕阳吗？",
+			say = "妳站在这边干什么呢，看夕阳吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事没事，我觉得半人马你很正常啦~",
+			say = "没事没事，我觉得半人马妳很正常啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比起这个，你刚才说回味今天，不过今天还没有结束哦？",
+			say = "比起这个，妳刚才说回味今天，不过今天还没有结束哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看那边~",
+			say = "妳看那边~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "是专门为了欢迎自由和维希的新同伴，还有你的加入而准备的哦！",
+			say = "是专门为了欢迎自由和维希的新同伴，还有妳的加入而准备的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

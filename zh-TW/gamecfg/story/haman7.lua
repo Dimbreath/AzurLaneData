@@ -20,7 +20,7 @@ return {
 			actor = 107050,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "哈曼，指挥官人就在这里，你就为刚才的事诚实道个歉吧？",
+			say = "哈曼，指挥官人就在这里，妳就为刚才的事诚实道个歉吧？",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "你这…不是，指，指挥官！",
+			say = "妳这…不是，指，指挥官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "刚，刚才是我不好…把你赶出指挥室……",
+			say = "刚，刚才是我不好…把妳赶出指挥室……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "（小声）……但是你不理我……明明我这么喜欢指挥官……",
+			say = "（小声）……但是妳不理我……明明我这么喜欢指挥官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "你不理哈曼的话哈曼就会不开心……所以……",
+			say = "妳不理哈曼的话哈曼就会不开心……所以……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

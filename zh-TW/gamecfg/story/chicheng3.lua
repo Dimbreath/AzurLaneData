@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "指挥官…？你累了吗？毕竟是人类嘛，不用那么逞强啊…{namecode:91}全都能帮你拿哦～",
+			say = "指挥官…？妳累了吗？毕竟是人类嘛，不用那么逞强啊…{namecode:91}全都能帮妳拿哦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			actorName = "{namecode:91}",
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "刚才你看那个女孩子了吧？呐，为什么不看{namecode:91}？明明你是和{namecode:91}来逛街的？被她勾引了么？就那种货色，{namecode:91}马上就收拾掉……",
+			say = "刚才妳看那个女孩子了吧？呐，为什么不看{namecode:91}？明明妳是和{namecode:91}来逛街的？被她勾引了么？就那种货色，{namecode:91}马上就收拾掉……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "我…就算了。难得你能和指挥官一起休假，我可不要做灯泡啊",
+			say = "我…就算了。难得妳能和指挥官一起休假，我可不要做灯泡啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "不要逞强嘛。{namecode:92}的话指挥官分享给你一点也行哦。指挥官也没意见吧？",
+			say = "不要逞强嘛。{namecode:92}的话指挥官分享给妳一点也行哦。指挥官也没意见吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

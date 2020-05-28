@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指，指指，指挥官！把，把你赶出去对不起啦！",
+			say = "指，指指，指挥官！把，把妳赶出去对不起啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "“哈曼会为了指挥官更~努力的，所以你就原谅哈曼嘛(>_<)”",
+			say = "“哈曼会为了指挥官更~努力的，所以妳就原谅哈曼嘛(>_<)”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哈曼♪我来找你玩了~",
+			say = "哈曼♪我来找妳玩了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

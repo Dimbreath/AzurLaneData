@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 301641,
 			actorName = "{namecode:146}",
-			say = "啊啦，皇家的可爱战列舰和可爱驱逐舰！你们也是来选礼物的嘛？",
+			say = "啊啦，皇家的可爱战列舰和可爱驱逐舰！妳们也是来选礼物的嘛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，我们正是来为伙伴们购买礼物的，虽然……还没决定要买什么。",
+			say = "是的，我们正是来为夥伴们购买礼物的，虽然……还没决定要买什么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们也不希望耽误了你们的时间。不过，你们的服装，有些令我在意，这就是圣诞节时大家穿的服装吗？",
+			say = "我们也不希望耽误了妳们的时间。不过，妳们的服装，有些令我在意，这就是圣诞节时大家穿的服装吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			say = "卡萨布兰卡和土伦的悲剧已经过去了，一批伟大的圣教骑士们为了贯彻自己的信仰和誓言，选择了牺牲",
+			say = "卡薩布蘭卡和土倫的悲劇已經過去了，一批偉大的聖教騎士們為了貫徹自己的信仰和誓言，選擇了犧牲",
 			dir = 1,
 			bgm = "level-french2",
 			effects = {
@@ -30,7 +30,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "她们是伟大的，她们是自由的",
+			say = "她們是偉大的，她們是自由的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "面对巨人的挑衅，大卫说：“你来攻击我，用的是刀枪和铜戟”",
+			say = "面對巨人的挑釁，大衛說：“妳來攻擊我，用的是刀槍和銅戟”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "“而我的攻击，靠着万军耶和华之名！”",
+			say = "“而我的攻擊，靠著萬軍耶和華之名！ ”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在崭新的时代，自由的力量已经觉醒",
+			say = "在嶄新的時代，自由的力量已經覺醒",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在崭新的时代，她们的名字令我们团结",
+			say = "在嶄新的時代，她們的名字令我們團結",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在崭新的时代，我们必将夺回我们的家园！",
+			say = "在嶄新的時代，我們必將奪回我們的家園！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "我愿用我的红袍覆盖一切，愿天下向往自由之士共驻于洛林十字旗下",
+			say = "我願用我的紅袍覆蓋一切，願天下嚮往自由之士共駐於洛林十字旗下",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "因父及子及圣神之名",
+			say = "因父及子及聖神之名",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "自由鸢尾第一旗舰——黎塞留",
+			say = "自由鳶尾第一旗艦——黎胥留",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 801020,
 			side = 2,
 			dir = 1,
-			say = "前方发现正在逃跑的帝国小型舰队，请求旗舰指示",
+			say = "前方發現正在逃跑的帝國小型艦隊，請求旗艦指示",
 			effects = {
 				{
 					active = false,
@@ -185,7 +185,7 @@ return {
 		{
 			actor = 801010,
 			side = 0,
-			say = "拦截追击这种工作对我们姐妹来说最擅长的啦，快下指示吧！",
+			say = "攔截追擊這種工作對我們姐妹來說最擅長的啦，快下指示吧！",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -204,7 +204,7 @@ return {
 			actor = 802010,
 			side = 1,
 			dir = 1,
-			say = "敌方已进入攻击范围，是时候给对方与制裁的铁锤啦！",
+			say = "敵方已進入攻擊範圍，是時候給予對方制裁的鐵鎚啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 900053,
 			side = 2,
 			dir = 1,
-			say = "哈…哈……非常抱歉，大家的速度都太快了…这才赶上来",
+			say = "哈…哈……非常抱歉，大家的速度都太快了…這才趕上來",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			actor = 900053,
 			side = 2,
 			dir = 1,
-			say = "自由鸢尾第二游击舰队旗舰——圣女贞德号下令！",
+			say = "自由鳶尾第二游擊艦隊旗艦——聖女貞德號下令！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 900053,
 			side = 2,
 			dir = 1,
-			say = "以自由之名，全舰开火！",
+			say = "以自由之名，全艦開火！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -111,7 +111,7 @@ return {
 			actorName = "？？？",
 			actor = 900022,
 			nameColor = "#a9f548",
-			say = "平海，你又浪费粮食了！快把食物都收拾干净！",
+			say = "平海，妳又浪费粮食了！快把食物都收拾干净！",
 			flashout = {
 				dur = 0.2,
 				black = true,
@@ -256,7 +256,7 @@ return {
 		},
 		{
 			side = 1,
-			say = "真是漂亮的战斗，一段时间不见，你们还是那么身手不凡呢",
+			say = "真是漂亮的战斗，一段时间不见，妳们还是那么身手不凡呢",
 			dir = -1,
 			actor = 502010,
 			nameColor = "#a9f548",
@@ -319,7 +319,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
-			say = "从刚才的战斗开始，脑袋里就一直有种奇怪的既视感…逸仙你有调查到什么情报吗？",
+			say = "从刚才的战斗开始，脑袋里就一直有种奇怪的既视感…逸仙妳有调查到什么情报吗？",
 			shake = {
 				speed = 1,
 				number = 3
@@ -419,7 +419,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 1,
-			say = "看你一脸犹豫的表情，是不是想家了？",
+			say = "看妳一脸犹豫的表情，是不是想家了？",
 			shake = {
 				speed = 1,
 				number = 3
@@ -494,7 +494,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
-			say = "（脸红）呀！傻丫头别老学人家说话，回去不给你肉包吃了！",
+			say = "（脸红）呀！傻丫头别老学人家说话，回去不给妳肉包吃了！",
 			shake = {
 				speed = 1,
 				number = 3

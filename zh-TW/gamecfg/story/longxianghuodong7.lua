@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业！你没事吧？！",
+			say = "企业！妳没事吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶，企业你先退后休息下，剩下的就交给萨拉酱吧！",
+			say = "可恶，企业妳先退后休息下，剩下的就交给萨拉酱吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "萨拉，你一个人没问题吗？",
+			say = "萨拉，妳一个人没问题吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，等会儿再告诉你～",
+			say = "嘿嘿，等会儿再告诉妳～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵，每次你这么笑的时候，就是有谁要倒霉的时候",
+			say = "呵呵，每次妳这么笑的时候，就是有谁要倒霉的时候",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻～要让你们后悔得罪了萨拉小姐这件事！",
+			say = "嘻嘻～要让妳们后悔得罪了萨拉小姐这件事！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

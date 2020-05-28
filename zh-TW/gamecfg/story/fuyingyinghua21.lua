@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哪里哪里，只不过是酒劲上头了罢~天岩岛自酿的酒果然名不虚传啊哈哈哈，{namecode:92}你说是吧",
+			say = "哪里哪里，只不过是酒劲上头了罢~天岩岛自酿的酒果然名不虚传啊哈哈哈，{namecode:92}妳说是吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "人都走了，你也该起来了——",
+			say = "人都走了，妳也该起来了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

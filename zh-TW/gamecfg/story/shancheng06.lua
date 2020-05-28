@@ -53,7 +53,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:66}",
-			say = "努喔喔哦喔喔！这次在下绝对不会输给你了！萨拉托加小姐！！",
+			say = "努喔喔哦喔喔！这次在下绝对不会输给妳了！萨拉托加小姐！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

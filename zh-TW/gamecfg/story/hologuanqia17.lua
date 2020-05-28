@@ -27,7 +27,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "那两个可爱的女孩子是你的同伴吗？",
+			say = "那两个可爱的女孩子是妳的同伴吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -178,7 +178,7 @@ return {
 			optionFlag = 1,
 			actor = 205020,
 			nameColor = "#a9f548",
-			say = "陛下，该起床了。还有会议要等着你主持呢，陛下——",
+			say = "陛下，该起床了。还有会议要等着妳主持呢，陛下——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			optionFlag = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "唔唔……嗯……嗯？怎么了，厌战，你就在旁边吗？太好了…啊——",
+			say = "唔唔……嗯……嗯？怎么了，厌战，妳就在旁边吗？太好了…啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			optionFlag = 2,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "你，你在干什么啊厌战！！欸，等等——",
+			say = "妳，妳在干什么啊厌战！！欸，等等——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

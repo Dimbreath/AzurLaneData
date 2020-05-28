@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "打扰了，这是你和主人的红茶，我放这里了。",
+			say = "打扰了，这是妳和主人的红茶，我放这里了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			say = "辛苦你了。",
+			say = "辛苦妳了。",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "打扰了。提尔比茨，上次谢谢你的帮忙了。",
+			say = "打扰了。提尔比茨，上次谢谢妳的帮忙了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "提尔比茨还没有察觉到，自己早已成为舰队众人信任的好伙伴",
+			say = "提尔比茨还没有察觉到，自己早已成为舰队众人信任的好夥伴",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

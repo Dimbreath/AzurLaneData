@@ -410,7 +410,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			actorName = "测试者α",
-			say = "呼呼……好啊，就让我来会会你吧……",
+			say = "呼呼……好啊，就让我来会会妳吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

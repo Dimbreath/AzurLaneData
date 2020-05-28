@@ -96,7 +96,7 @@ function slot8.GetRarity(slot0)
 end
 
 function slot8.GetLevel(slot0)
-	return slot0._level or 1
+	return slot0._overrideLevel or slot0._level or 1
 end
 
 function slot8.GetTeam(slot0)

@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "喂，那边的是皇家方舟么！你也被迷雾困在这里了？",
+			say = "喂，那边的是皇家方舟么！妳也被迷雾困在这里了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "企业？你终于到了，我在这等你好久了。",
+			say = "企业？妳终于到了，我在这等妳好久了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "顺利脱身的人…你在说些什么？皇家方舟，现在我们在什么地方。",
+			say = "顺利脱身的人…妳在说些什么？皇家方舟，现在我们在什么地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

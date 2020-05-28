@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "萨拉托加小姐……今天没有心情陪你恶作剧。抱歉。",
+			say = "萨拉托加小姐……今天没有心情陪妳恶作剧。抱歉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样啊…？那就让加加我来帮你解决烦恼吧！",
+			say = "这样啊…？那就让加加我来帮妳解决烦恼吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "虽然大家现在都是同一个舰队的伙伴，但也不能那么轻易的把内心敞开给别人！",
+			say = "虽然大家现在都是同一个舰队的夥伴，但也不能那么轻易的把内心敞开给别人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过说起来，好像听说你之前去给主公送和列星頓小姐一起的什么“演唱会”的门票吧！",
+			say = "不过说起来，好像听说妳之前去给主公送和列星頓小姐一起的什么“演唱会”的门票吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "…………直说的话，萨拉托加小姐你是宿敌才对！",
+			say = "…………直说的话，萨拉托加小姐妳是宿敌才对！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

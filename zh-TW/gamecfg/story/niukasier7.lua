@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			withoutActorName = true,
-			say = "纽卡斯尔对伙伴十分重视，正如伙伴们重视她一样",
+			say = "纽卡斯尔对夥伴十分重视，正如夥伴们重视她一样",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你，指挥官",
+			say = "谢谢妳，指挥官",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "为什么你能在这样漆黑的夜晚还射得那么准啊…",
+			say = "为什么妳能在这样漆黑的夜晚还射得那么准啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			actor = 205029,
 			actorName = "厌战",
-			say = "作为一个长者，我就要告诉你们……",
+			say = "作为一个长者，我就要告诉妳们……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 603020,
-			say = "我们才不要听你长话连篇呢，哔哔——",
+			say = "我们才不要听妳长话连篇呢，哔哔——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

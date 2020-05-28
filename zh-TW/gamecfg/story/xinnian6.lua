@@ -57,7 +57,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "{namecode:16}你當心點，都要掉進鍋裡去了……",
+			say = "{namecode:16}妳當心點，都要掉進鍋裡去了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

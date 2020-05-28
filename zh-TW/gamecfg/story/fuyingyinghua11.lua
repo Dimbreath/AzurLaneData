@@ -26,7 +26,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "看来你刚才所说的献丑不是在开玩笑啊~",
+			say = "看来妳刚才所说的献丑不是在开玩笑啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 0,
-			say = "至于其他的，对付刚刚的你还用不上那些复杂的东西。",
+			say = "至于其他的，对付刚刚的妳还用不上那些复杂的东西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "虽然是预定之外的事，既然你这么念念不忘，就切身体会一下重樱新锐巡洋舰的威力吧。",
+			say = "虽然是预定之外的事，既然妳这么念念不忘，就切身体会一下重樱新锐巡洋舰的威力吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

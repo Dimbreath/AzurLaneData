@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "亚特兰大，我跟你说哦，我家印第啊——",
+			say = "亚特兰大，我跟妳说哦，我家印第啊——",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,

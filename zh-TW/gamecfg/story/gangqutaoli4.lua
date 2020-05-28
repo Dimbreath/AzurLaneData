@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看起来你也和我们一样，和舰装比起来身体相当娇小",
+			say = "看起来妳也和我们一样，和舰装比起来身体相当娇小",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道你也是被指挥官诱拐来的……",
+			say = "难道妳也是被指挥官诱拐来的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

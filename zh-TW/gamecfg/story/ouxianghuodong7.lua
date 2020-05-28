@@ -240,7 +240,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 403070,
-			say = "虽然我不大懂你的意思，不过你说的就是你自己的事吧",
+			say = "虽然我不大懂妳的意思，不过妳说的就是妳自己的事吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

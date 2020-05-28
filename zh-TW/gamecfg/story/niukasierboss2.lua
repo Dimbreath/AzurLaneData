@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			actor = 203030,
 			nameColor = "#a9f548",
-			say = "比如，“拿出你们的全力吧！”“Come on，你们的实力不止这一点吧？”什么的~",
+			say = "比如，“拿出妳们的全力吧！”“Come on，妳们的实力不止这一点吧？”什么的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			actor = 203040,
 			nameColor = "#a9f548",
-			say = "肯特，你回去后肯定要被大家修理的啦……",
+			say = "肯特，妳回去后肯定要被大家修理的啦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			actor = 203040,
 			nameColor = "#a9f548",
-			say = "哈啊…真羡慕你呢，哎，好想看看云，摸摸鱼什么的呀…",
+			say = "哈啊…真羡慕妳呢，哎，好想看看云，摸摸鱼什么的呀…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			actor = 203040,
 			nameColor = "#a9f548",
-			say = "哎呀，好疼！谁弹我的头！咦，你是…",
+			say = "哎呀，好疼！谁弹我的头！咦，妳是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，纽卡斯尔！你怎么会在这里？",
+			say = "啊，纽卡斯尔！妳怎么会在这里？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下怕你们人手不足，所以特地让我过来助阵。",
+			say = "陛下怕妳们人手不足，所以特地让我过来助阵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			actor = 203040,
 			nameColor = "#a9f548",
-			say = "因为贝尔法斯特虽然很可靠，但是好亲近这点还是纽卡斯尔你最好亲近嘛～",
+			say = "因为贝尔法斯特虽然很可靠，但是好亲近这点还是纽卡斯尔妳最好亲近嘛～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，这样能让你安心下来了吗？",
+			say = "不过，这样能让妳安心下来了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

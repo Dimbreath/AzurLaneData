@@ -112,7 +112,7 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_107",
-			say = "胡德，我要谢谢你。",
+			say = "胡德，我要谢谢妳。",
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
@@ -151,7 +151,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。多亏有你，指挥官的误解……不对，“乔治五世比陛下更像陛下”这个疑惑才能得以解决",
+			say = "嗯。多亏有妳，指挥官的误解……不对，“乔治五世比陛下更像陛下”这个疑惑才能得以解决",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然努力的是指挥官，但是这个契机完全是你给准备出来的吧……",
+			say = "虽然努力的是指挥官，但是这个契机完全是妳给准备出来的吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "对你来说是最合适的",
+			say = "对妳来说是最合适的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "无论如何，我要感谢你，让我能够认清我的本心，也让我能够和指挥官的关系更进一步。",
+			say = "无论如何，我要感谢妳，让我能够认清我的本心，也让我能够和指挥官的关系更进一步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

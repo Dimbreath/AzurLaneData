@@ -10,7 +10,7 @@ return {
 	{},
 	{},
 	time = 0,
-	name = "与你眺望的夏日之花",
+	name = "与妳眺望的夏日之花",
 	init_effect = "",
 	id = 105080,
 	picture = "",

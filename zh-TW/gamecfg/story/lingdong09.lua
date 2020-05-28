@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "無數次死裡逃生，最終卻敗在了你這個魯莽的小傢伙手上，",
+			say = "無數次死裡逃生，最終卻敗在了妳這個魯莽的小傢伙手上，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
-			say = "不過，這也正是你最迷人的一點呀...",
+			say = "不過，這也正是妳最迷人的一點呀...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

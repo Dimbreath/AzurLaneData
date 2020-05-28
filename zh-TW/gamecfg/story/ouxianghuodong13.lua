@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			actor = 403054,
 			nameColor = "#a9f548",
-			say = "你这么一说我挺开心的。不过我也没想到加斯科涅能这样参与到Polaris里来呢",
+			say = "妳这么一说我挺开心的。不过我也没想到加斯科涅能这样参与到Polaris里来呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_ouxianglevel",
 			side = 2,
 			dir = 1,
-			say = "算了，都到这步了，就尽全力努力到最后吧。你们也没问题吧！",
+			say = "算了，都到这步了，就尽全力努力到最后吧。妳们也没问题吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

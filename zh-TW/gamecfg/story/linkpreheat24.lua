@@ -24,7 +24,7 @@ return {
 			bgm = "story-uta",
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "……好了，穿过这片海域久远你们应该就能回到原来的世界了喵",
+			say = "……好了，穿过这片海域久远妳们应该就能回到原来的世界了喵",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的吗？！谢谢你，猫神大人！",
+			say = "真的吗？！谢谢妳，猫神大人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们能平安回去真是太好了，久远小姐",
+			say = "妳们能平安回去真是太好了，久远小姐",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你，标枪。还有23，{namecode:6}，拉菲和猫神大人……这份恩情我一辈子都不会忘记的",
+			say = "谢谢妳，标枪。还有23，{namecode:6}，拉菲和猫神大人……这份恩情我一辈子都不会忘记的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，我们才是不会忘记你们帮了我们的事",
+			say = "不，我们才是不会忘记妳们帮了我们的事",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道说它们是不想让你们回去吗",
+			say = "难道说它们是不想让妳们回去吗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然敢伤害指挥官大人的客人们，真是不成体统……看我{namecode:91}不把你们一只不剩地全部烧死",
+			say = "居然敢伤害指挥官大人的客人们，真是不成体统……看我{namecode:91}不把妳们一只不剩地全部烧死",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "哦哦，你们终于来了喵！重樱的荣耀，无双的一航战！",
+			say = "哦哦，妳们终于来了喵！重樱的荣耀，无双的一航战！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			bgm = "main-uta",
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "你是叫做……久远，对吧",
+			say = "妳是叫做……久远，对吧",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -801,7 +801,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我听别人说起过你……妹妹们没事吧？",
+			say = "我听别人说起过妳……妹妹们没事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -833,7 +833,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟你想守护的人很多嘛。重要的人也是……",
+			say = "毕竟妳想守护的人很多嘛。重要的人也是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我懂的。因为，你身上……有和我一样的气味",
+			say = "我懂的。因为，妳身上……有和我一样的气味",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -899,7 +899,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "坚强地活下去吧，久远。——你想让大家都幸福的话，首先自己要变强才行",
+			say = "坚强地活下去吧，久远。——妳想让大家都幸福的话，首先自己要变强才行",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,7 +915,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让大家幸福的力量就在你的心里……",
+			say = "让大家幸福的力量就在妳的心里……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -947,7 +947,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "异世界的客人们回去之前，我们来给她们殿后——{namecode:92}，{namecode:98}，还有驱逐队，你们准备好了吗？",
+			say = "异世界的客人们回去之前，我们来给她们殿后——{namecode:92}，{namecode:98}，还有驱逐队，妳们准备好了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

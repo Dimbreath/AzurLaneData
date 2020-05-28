@@ -31,7 +31,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小天鵝，你和愛丁堡在做什麼？臉都弄髒了，來，擦一下",
+			say = "小天鵝，妳和愛丁堡在做什麼？臉都弄髒了，來，擦一下",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你吃的時候也沒有洗吧，沒關係，用原汁原味的吃法就好",
+			say = "妳吃的時候也沒有洗吧，沒關係，用原汁原味的吃法就好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？是會弄髒手啦，不過，這也是這種食物的樂趣之一嘛。小天鵝，你該不會……",
+			say = "嗯？是會弄髒手啦，不過，這也是這種食物的樂趣之一嘛。小天鵝，妳該不會……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（輕笑）你究竟是怎麼看待我的啊。如果優雅就不能親手剝開番薯，那那種優雅——一定只是虛張聲勢而已",
+			say = "（輕笑）妳究竟是怎麼看待我的啊。如果優雅就不能親手剝開番薯，那那種優雅——一定只是虛張聲勢而已",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "沒錯沒錯！胡德，我來教你怎麼烤~",
+			say = "沒錯沒錯！胡德，我來教妳怎麼烤~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "貝法死活不肯陪我出來烤番薯！真是的，如果她能像你一樣善解人意——",
+			say = "貝法死活不肯陪我出來烤番薯！真是的，如果她能像妳一樣善解人意——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大概因為貝爾法斯特小姐，和你在一起的時候最為放鬆吧",
+			say = "大概因為貝爾法斯特小姐，和妳在一起的時候最為放鬆吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "貝法你也來嘛～把葉子聚到一起，呼一下火就升起來啦",
+			say = "貝法妳也來嘛～把葉子聚到一起，呼一下火就升起來啦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下，我來教你怎麼烤~",
+			say = "陛下，我來教妳怎麼烤~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

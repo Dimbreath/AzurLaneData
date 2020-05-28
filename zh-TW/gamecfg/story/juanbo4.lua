@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "那个，指挥官，你现在有空吗？",
+			say = "那个，指挥官，妳现在有空吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

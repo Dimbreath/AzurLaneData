@@ -342,7 +342,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "对于{namecode:90}的告白，你会——",
+			say = "对于{namecode:90}的告白，妳会——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

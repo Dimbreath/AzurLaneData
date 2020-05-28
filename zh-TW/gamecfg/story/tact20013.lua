@@ -8,7 +8,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			actorName = "測試者β型",
-			say = "終於見到你們了，「造物者」的寵兒們~",
+			say = "終於見到妳們了，「造物者」的寵兒們~",
 			shake = {
 				speed = 1,
 				number = 3
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			actorName = "測試者β型",
-			say = "“你們”跟之前向我們尋求力量的“她們”有點不一樣，我從“她們”的眼神中看到更多的是無奈和猜疑…",
+			say = "“妳們”跟之前向我們尋求力量的“她們”有點不一樣，我從“她們”的眼神中看到更多的是無奈和猜疑…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			actorName = "測試者β型",
-			say = "你們現在所持有的一些「模因」正是我們一直在人類身上所尋求的改變…",
+			say = "妳們現在所持有的一些「模因」正是我們一直在人類身上所尋求的改變…",
 			shake = {
 				speed = 1,
 				number = 3

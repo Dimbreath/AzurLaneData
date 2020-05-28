@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			actor = 603010,
 			nameColor = "#a9f548",
-			say = "啊，指挥官，太好了，你在呢",
+			say = "啊，指挥官，太好了，妳在呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			actor = 603010,
 			nameColor = "#a9f548",
-			say = "昨天带我去品尝重樱美食的事情，多谢你了呢",
+			say = "昨天带我去品尝重樱美食的事情，多谢妳了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			actor = 603010,
 			nameColor = "#a9f548",
-			say = "好孩子好孩子，姐姐要好好谢谢你呢！",
+			say = "好孩子好孩子，姐姐要好好谢谢妳呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

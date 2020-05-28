@@ -236,7 +236,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（原来是你在拖地么！！不好，这个距离躲不开了，要撞上了！）",
+			say = "（原来是妳在拖地么！！不好，这个距离躲不开了，要撞上了！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……萨福克，你怎么打扫到走廊里来了。不是说只要把会议室打扫完就行了吗",
+			say = "……萨福克，妳怎么打扫到走廊里来了。不是说只要把会议室打扫完就行了吗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

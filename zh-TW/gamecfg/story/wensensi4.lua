@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，文森斯，抱歉，姐姐现在和指挥官有些军务要商量，等结束了再陪你。",
+			say = "啊，文森斯，抱歉，姐姐现在和指挥官有些军务要商量，等结束了再陪妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "文森斯，你不用想复杂的事，一切都交给姐姐来安排就好了。",
+			say = "文森斯，妳不用想复杂的事，一切都交给姐姐来安排就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

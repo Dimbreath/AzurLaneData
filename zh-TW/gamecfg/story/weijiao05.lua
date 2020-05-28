@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "哎呀，我说为什么明明射程上是你有利却比我们还要急着近身，原来是看错了吗，堂堂斯佩伯爵，也不过如此嘛~",
+			say = "哎呀，我说为什么明明射程上是妳有利却比我们还要急着近身，原来是看错了吗，堂堂斯佩伯爵，也不过如此嘛~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "……就算这样，你们也不是我的对手。",
+			say = "……就算这样，妳们也不是我的对手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

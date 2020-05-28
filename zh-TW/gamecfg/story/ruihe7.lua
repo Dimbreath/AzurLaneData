@@ -194,7 +194,7 @@ return {
 			actorName = "{namecode:96}",
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "指揮官，剛才謝謝你了",
+			say = "指揮官，剛才謝謝妳了",
 			flashout = {
 				dur = 1,
 				black = true,

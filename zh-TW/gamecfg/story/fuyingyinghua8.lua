@@ -172,7 +172,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说你后生可畏可不是单纯的客套话而已，你的装备更先进，头脑也很灵光。",
+			say = "说妳后生可畏可不是单纯的客套话而已，妳的装备更先进，头脑也很灵光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果能拥有和我相同的战斗经验的话，现在我就该是你的手下败将咯~",
+			say = "如果能拥有和我相同的战斗经验的话，现在我就该是妳的手下败将咯~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

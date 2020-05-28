@@ -65,7 +65,7 @@ return {
 			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "這件有點……Z46你可以打扮更漂亮點的嘛～又不是Z23～",
+			say = "這件有點……Z46妳可以打扮更漂亮點的嘛～又不是Z23～",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -83,7 +83,7 @@ return {
 			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "是啊……你人太認真了容易選到土裡土氣的衣服，乾脆去問問Z35？",
+			say = "是啊……妳人太認真了容易選到土裡土氣的衣服，乾脆去問問Z35？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "大家真是的，把Z46晾在一邊自己說個沒完……Z46你挑自己喜歡的衣服就行啦！",
+			say = "大家真是的，把Z46晾在一邊自己說個沒完……Z46妳挑自己喜歡的衣服就行啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

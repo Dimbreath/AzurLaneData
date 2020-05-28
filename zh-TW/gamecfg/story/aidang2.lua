@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "比約定的時間早了半個小時？你該不會是……覺得姐姐我是和你一樣守規矩又懂禮貌的好孩子？",
+			say = "比約定的時間早了半個小時？妳該不會是……覺得姐姐我是和妳一樣守規矩又懂禮貌的好孩子？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "那你可就誤會了哦？姐姐來得早是因為……你看那邊。",
+			say = "那妳可就誤會了哦？姐姐來得早是因為……妳看那邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_outdoor",
 			actor = 303110,
 			nameColor = "#a9f548",
-			say = "{namecode:67}？還有……指揮官？你們也是來晨練的嗎？",
+			say = "{namecode:67}？還有……指揮官？妳們也是來晨練的嗎？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "不是。啊，這個先給你。",
+			say = "不是。啊，這個先給妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

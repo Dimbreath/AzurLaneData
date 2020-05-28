@@ -133,7 +133,7 @@ return {
 			blackBg = true,
 			actor = 900028,
 			nameColor = "#a9f548",
-			say = "但是，姐姐你…",
+			say = "但是，姐姐妳…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -173,7 +173,7 @@ return {
 			blackBg = true,
 			actor = 900027,
 			nameColor = "#a9f548",
-			say = "我會守護你的，記住，下一次，不許再這麼魯——",
+			say = "我會守護妳的，記住，下一次，不許再這麼魯——",
 			shake = {
 				speed = 1,
 				number = 3

@@ -360,7 +360,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:179}，原来你在这里啊。",
+			say = "{namecode:179}，原来妳在这里啊。",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "来者是客。{namecode:50}，接待使团的工作能交给你负责吗？",
+			say = "来者是客。{namecode:50}，接待使团的工作能交给妳负责吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "{namecode:179}，演武环节的准备就拜托你了。帮我选个好次序哦~",
+			say = "{namecode:179}，演武环节的准备就拜托妳了。帮我选个好次序哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "看来首先是你的回合呢，{namecode:179}。",
+			say = "看来首先是妳的回合呢，{namecode:179}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

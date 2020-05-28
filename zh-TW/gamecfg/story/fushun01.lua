@@ -59,7 +59,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "沒事啦太原，你看這倉庫雖然掛著個鎖但是都不用開，晃兩下就掉下來了",
+			say = "沒事啦太原，妳看這倉庫雖然掛著個鎖但是都不用開，晃兩下就掉下來了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "那就來尋寶吧！我從這裡開始翻，太原你從那邊開始找哦！",
+			say = "那就來尋寶吧！我從這裡開始翻，太原妳從那邊開始找哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

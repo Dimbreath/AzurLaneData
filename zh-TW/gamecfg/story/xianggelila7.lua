@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "名字叫做“伙伴”。反面要写上些什么可以和大家商量下吗……？",
+			say = "名字叫做“夥伴”。反面要写上些什么可以和大家商量下吗……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "对香格里拉来说，这张照片就是她第一次在港区找到“伙伴”瞬间的记录也说不定——",
+			say = "对香格里拉来说，这张照片就是她第一次在港区找到“夥伴”瞬间的记录也说不定——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，这份邀请函就交给你了，到时候记得来参加啊，指挥官",
+			say = "那么，这份邀请函就交给妳了，到时候记得来参加啊，指挥官",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 401234,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			say = "想起来了吗？真是的，还好我来找你了",
+			say = "想起来了吗？真是的，还好我来找妳了",
 			flashout = {
 				dur = 0.5,
 				alpha = {

@@ -222,7 +222,7 @@ return {
 			blackBg = true,
 			actor = 408030,
 			nameColor = "#a9f548",
-			say = "嘘——你的话太多了…再不下潜就要被目标发现了",
+			say = "嘘——妳的话太多了…再不下潜就要被目标发现了",
 			effects = {
 				{
 					active = false,

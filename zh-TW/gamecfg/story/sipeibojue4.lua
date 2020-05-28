@@ -11,19 +11,19 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>“有能够理解你全部的人”</size>",
+					"<size=51>“有能够理解妳全部的人”</size>",
 					1.5
 				},
 				{
-					"<size=51>“能够倾听你的烦恼”</size>",
+					"<size=51>“能够倾听妳的烦恼”</size>",
 					3
 				},
 				{
-					"<size=51>“并且发自内心为你着想的人”</size>",
+					"<size=51>“并且发自内心为妳着想的人”</size>",
 					4.5
 				},
 				{
-					"<size=51>“你就不会再感到自己是孤身一人了吧？呵呵~”</size>",
+					"<size=51>“妳就不会再感到自己是孤身一人了吧？呵呵~”</size>",
 					6.5
 				}
 			}
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我吗？如你所见，我在一个人休息呢。",
+			say = "我吗？如妳所见，我在一个人休息呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgm = "story-2",
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "嘻嘻，看你的表情就知道了。",
+			say = "嘻嘻，看妳的表情就知道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像你这样的类型，在舰队里不是第一个，我想，也不会是最后一个哦？",
+			say = "像妳这样的类型，在舰队里不是第一个，我想，也不会是最后一个哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谁知道呢，我又不是你，不会知道你想要什么的唷？",
+			say = "谁知道呢，我又不是妳，不会知道妳想要什么的唷？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，不只是铁血的我们，指挥官大概也会为你做点什么吧",
+			say = "不过，不只是铁血的我们，指挥官大概也会为妳做点什么吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "喂，你说，我们是为了对抗帝国的维内托级才被人类给制造出来的吧？",
+			say = "喂，妳說，我們是為了對抗帝國的維內托級才被人類給製造出來的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "嗯？...从根本目的上来说确实是这样",
+			say = "嗯？...從根本目的上來說確實是這樣",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "那么说白了，我们只是一堆冰冷的用来制造死亡的兵器罢了",
+			say = "那麼說白了，我們只是一堆冰冷的用來製造死亡的兵器罷了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "不是这样的，我的妹妹",
+			say = "不是這樣的，我的妹妹",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "在每一个时代，人类都需要英雄和信仰，失去这些的话他们也许就无法生存了也说不定",
+			say = "在每一個時代，人類都需要英雄和信仰，失去這些的話他們也許就無法生存了也說不定",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "你的意思是，我们是英雄？",
+			say = "妳的意思是，我們是英雄？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "现在还不是哦，至少得等你先动起来再说呀，噗呲——",
+			say = "現在還不是哦，至少得等妳先動起來再說呀，噗嗤——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "啊，可恶的姐姐，又趁机嘲笑我了！再给我一点时间，再给我一点时间我就能追上你了！！！",
+			say = "啊，可惡的姐姐，又趁機嘲笑我了！再給我一點時間，再給我一點時間我就能追上妳了！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "那么，你知道“名字”的含义吗？",
+			say = "那麼，妳知道“名字”的含義嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "我们的名字都是来源于历史上有名的人物哦，这正说明他们对我们赋予了多大的期望",
+			say = "我們的名字都是來源於歷史上有名的人物哦，這正說明他們對我們賦予了多大的期望",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "咦，那我的名字来源是什么呢？",
+			say = "咦，那我的名字來源是什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "好像...是个凶残的海盗吧，呵呵…真的很适合你呢",
+			say = "好像...是個兇殘的海盜吧，呵呵…真的很適合妳呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "啊！可恶的姐姐！",
+			say = "啊！可惡的姐姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "我们究竟是成为制造死亡的兵器，还是能够守护国土，成为他们所期待的“英雄”——这一切都看你自己",
+			say = "我們究竟是成為製造死亡的兵器，還是能夠守護國土，成為他們所期待的“英雄”——這一切都看妳自己",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "不要，做出对不起你“名字”的选择",
+			say = "不要，做出對不起妳“名字”的選擇",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			say = "...又是这个梦吗，真是讽刺呢",
+			say = "...又是這個夢嗎，真是諷刺呢",
 			side = 2,
 			bgName = "bg_story_faxi2",
 			dir = 1,
@@ -299,7 +299,7 @@ return {
 			actor = 905010,
 			side = 2,
 			bgName = "bg_story_faxi2",
-			say = "堂堂的圣教骑士、大洋上最强的战舰，最后却选择了依附别人的力量，呵呵",
+			say = "堂堂的聖教騎士、大洋上最強的戰艦，最後卻選擇了依附別人的力量，呵呵",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			actor = 905010,
 			side = 2,
 			bgName = "bg_story_faxi2",
-			say = "——真是愚蠢而软弱",
+			say = "——真是愚蠢而軟弱",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {

@@ -11,15 +11,15 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"記住，不要輕易去接觸那些凡人，這樣會有失你的神格",
+					"記住，不要輕易去接觸那些凡人，這樣會有失妳的神格",
 					0
 				},
 				{
-					"    記住，不要輕易的露出笑容，要保持你在民眾中的威嚴",
+					"    記住，不要輕易的露出笑容，要保持妳在民眾中的威嚴",
 					3
 				},
 				{
-					"        記住，這個世界上可以相信的，只有我們，你的創造者",
+					"        記住，這個世界上可以相信的，只有我們，妳的創造者",
 					6
 				}
 			}
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "過度的自我意識只會導致你的毀滅！",
+			say = "過度的自我意識只會導致妳的毀滅！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "記住！你只要一切都服從我們的安排，這就是對重櫻做出的最大貢獻了！明白嗎？",
+			say = "記住！妳只要一切都服從我們的安排，這就是對重櫻做出的最大貢獻了！明白嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "你說，桌上的這些人偶會不會也有自己的心智和靈魂呢？...",
+			say = "妳說，桌上的這些人偶會不會也有自己的心智和靈魂呢？...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "你知道嗎，在遙遠的大洋彼岸，也有跟我們一樣被冠與了BIG7頭銜的5個孩子...",
+			say = "妳知道嗎，在遙遠的大洋彼岸，也有跟我們一樣被冠與了BIG7頭銜的5個孩子...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "哇，姐姐你笑了！",
+			say = "哇，姐姐妳笑了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

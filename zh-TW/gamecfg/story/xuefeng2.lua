@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "哼，想必你也聽說過{namecode:22}大人在的活躍事蹟了吧！",
+			say = "哼，想必妳也聽說過{namecode:22}大人在的活躍事蹟了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "哼！這麼簡單的問題都回答不出來嗎？看本大人一下子就給你解決掉！",
+			say = "哼！這麼簡單的問題都回答不出來嗎？看本大人一下子就給妳解決掉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			blackBg = true,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "“先去給我倒杯茶”……！？什麼啊！你居然要{namecode:22}大人幹這種跑腿的事嗎――！",
+			say = "“先去給我倒杯茶”……！？什麼啊！妳居然要{namecode:22}大人幹這種跑腿的事嗎――！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

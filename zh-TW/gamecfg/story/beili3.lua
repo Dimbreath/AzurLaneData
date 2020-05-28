@@ -77,7 +77,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘁，又是你啊。",
+			say = "嘁，又是妳啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			say = "別姐姐姐姐地叫那麼親熱，我可沒打算和你搞好關係……",
+			say = "別姐姐姐姐地叫那麼親熱，我可沒打算和妳搞好關係……",
 			side = 1,
 			bgName = "bg_night",
 			dir = -1,
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……算了，既然現在是戰友了，隨你高興吧。",
+			say = "……算了，既然現在是戰友了，隨妳高興吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不過你還真是努力呢，每天下班後都會抽出時間在這邊練習嗎？",
+			say = "不過妳還真是努力呢，每天下班後都會抽出時間在這邊練習嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "………………咳咳，總、總之，你也不要太累到自己，白天還要擔任秘書艦的吧？",
+			say = "………………咳咳，總、總之，妳也不要太累到自己，白天還要擔任秘書艦的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "總之，既然你要在這裡練習，那我就不打擾了。",
+			say = "總之，既然妳要在這裡練習，那我就不打擾了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

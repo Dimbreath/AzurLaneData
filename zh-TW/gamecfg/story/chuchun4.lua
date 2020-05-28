@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 301230,
 			nameColor = "#a9f548",
-			say = "太好了～姐姐加油哦～我就不打擾你們的工作啦～拜拜～",
+			say = "太好了～姐姐加油哦～我就不打擾妳們的工作啦～拜拜～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，沒能明白我的用意，你並不是力量<Force>的持有者嗎……",
+			say = "唔，沒能明白我的用意，妳並不是力量<Force>的持有者嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗚…指揮官…謝謝你",
+			say = "嗚…指揮官…謝謝妳",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

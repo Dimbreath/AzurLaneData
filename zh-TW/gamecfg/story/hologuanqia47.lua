@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你就是测试怪人手中的最后的底牌么",
+			say = "妳就是测试怪人手中的最后的底牌么",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "净化亲",
-			say = "哈哈哈，活该测试怪人！这么说只要把你打败了，战斗就结束了吧！",
+			say = "哈哈哈，活该测试怪人！这么说只要把妳打败了，战斗就结束了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "哼哼哼，大家且慢，测试怪人有和你们拼个你死我活的打算，我可没有哦。",
+			say = "哼哼哼，大家且慢，测试怪人有和妳们拼个妳死我活的打算，我可没有哦。",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -165,7 +165,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "我的计划是允许你们存在的！毕竟我的计划比测试怪人的更加伟大嘛！",
+			say = "我的计划是允许妳们存在的！毕竟我的计划比测试怪人的更加伟大嘛！",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -369,7 +369,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "至于你们这些舰船和不是“棋子”的Vtuber，你们也不用担心自己失去工作——",
+			say = "至于妳们这些舰船和不是“棋子”的Vtuber，妳们也不用担心自己失去工作——",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -391,7 +391,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "在我日更的“永久更新定番企划”里面，你们会一直和塞壬战斗下去，直到永远！哈哈哈哈哈！",
+			say = "在我日更的“永久更新定番企划”里面，妳们会一直和塞壬战斗下去，直到永远！哈哈哈哈哈！",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -473,7 +473,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "DARK FOX BIZZARD，你的想法我完全理解了！",
+			say = "DARK FOX BIZZARD，妳的想法我完全理解了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "但是，在你的计划里面有一个致命的破绽！那就是你制造的“棋子”会和你一样有自己独立的思想！",
+			say = "但是，在妳的计划里面有一个致命的破绽！那就是妳制造的“棋子”会和妳一样有自己独立的思想！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "如果她们也有机会成为像你一样的存在的话，是不会安心当你的部下为你所用的！",
+			say = "如果她们也有机会成为像妳一样的存在的话，是不会安心当妳的部下为妳所用的！",
 			effects = {
 				{
 					active = true,
@@ -582,7 +582,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "哼哼，虽然你马上发觉了我计划的弱点，但是我会立刻修复它！“棋子”们，出来吧！",
+			say = "哼哼，虽然妳马上发觉了我计划的弱点，但是我会立刻修复它！“棋子”们，出来吧！",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -735,7 +735,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "DARK FOX BIZZARD，现在你明白了吧！",
+			say = "DARK FOX BIZZARD，现在妳明白了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "向他人强加自己的野心，不重视别人的想法的你，就算造出再多的“棋子”也是无法让世界幸福的！",
+			say = "向他人强加自己的野心，不重视别人的想法的妳，就算造出再多的“棋子”也是无法让世界幸福的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "……………交涉决裂了么。那么，你们就在此被毁灭吧",
+			say = "……………交涉决裂了么。那么，妳们就在此被毁灭吧",
 			actorPosition = {
 				x = 150,
 				y = -400

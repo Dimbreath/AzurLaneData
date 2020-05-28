@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:56}",
-			say = "就是，姐姐，而且你难道忘了出发前喊着这次绝对没戏喊得最响的人是谁了吗？",
+			say = "就是，姐姐，而且妳难道忘了出发前喊着这次绝对没戏喊得最响的人是谁了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,7 +14,7 @@ return {
 			stopbgm = true,
 			actor = 900011,
 			nameColor = "#ff5c5c",
-			say = "你也输了么…果然不论如何强化，“棋子”还是有极限的",
+			say = "妳也输了么…果然不论如何强化，“棋子”还是有极限的",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -58,7 +58,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			actorName = "测试怪人",
-			say = "无所谓了，最初也没指望你们能打赢。争取到了关键的时间也算任务完成了",
+			say = "无所谓了，最初也没指望妳们能打赢。争取到了关键的时间也算任务完成了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			actorName = "测试怪人",
-			say = "之前受损的“棋子”应该都快修好了，看看你这身伤…要是现在去做点应急处理，说不定还赶得上最终决战哦？",
+			say = "之前受损的“棋子”应该都快修好了，看看妳这身伤…要是现在去做点应急处理，说不定还赶得上最终决战哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			actorName = "测试怪人",
-			say = "嗯，你们确实成功拖延到我夺回权限的时候了。好了，快下去准备-------",
+			say = "嗯，妳们确实成功拖延到我夺回权限的时候了。好了，快下去准备-------",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，你们也会开Live吗？",
+			say = "咦，妳们也会开Live吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "上面写着holo…live，这里就是你们世界里进行偶像活动的…舞台区？",
+			say = "上面写着holo…live，这里就是妳们世界里进行偶像活动的…舞台区？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

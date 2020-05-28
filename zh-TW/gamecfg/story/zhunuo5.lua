@@ -13,7 +13,7 @@ return {
 			actor = 404020,
 			nameColor = "#D6341D",
 			stopBGM = true,
-			say = "希佩爾，“區區皇家雜魚，我一個人就能輕鬆解決掉”，這句話不是從你口裡說出來的嗎？",
+			say = "希佩爾，“區區皇家雜魚，我一個人就能輕鬆解決掉”，這句話不是從妳口裡說出來的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			}
 		},
 		{
-			say = "咕……嘁，誰知道對面會跑得那麼乾脆啦…任務失敗就是失敗了，要懲罰還是什麼的，隨你吧！",
+			say = "咕……嘁，誰知道對面會跑得那麼乾脆啦…任務失敗就是失敗了，要懲罰還是什麼的，隨妳吧！",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -65,7 +65,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "哈？誰要向你求助啊！",
+			say = "哈？誰要向妳求助啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			blackBg = true,
 			actor = 403010,
 			nameColor = "#D6341D",
-			say = "別說的我好像死了一樣！而且誰要你們幫我報仇了！喂，聽我說話啊！",
+			say = "別說的我好像死了一樣！而且誰要妳們幫我報仇了！喂，聽我說話啊！",
 			shake = {
 				speed = 8,
 				number = 2

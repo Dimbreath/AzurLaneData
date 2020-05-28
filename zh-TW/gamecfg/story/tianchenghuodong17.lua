@@ -14,7 +14,7 @@ return {
 			dir = -1,
 			actor = 305070,
 			stopbgm = true,
-			say = "{namecode:161}，你究竟在想什么！现在来参加这种演习你…",
+			say = "{namecode:161}，妳究竟在想什么！现在来参加这种演习妳…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "{namecode:140}已经都告诉你了吧？我身体的状况…留给我的时间已经不多了。",
+			say = "{namecode:140}已经都告诉妳了吧？我身体的状况…留给我的时间已经不多了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "…也许你可能会笑，不过我真的很想再以战列巡洋舰的身份尽情地奏响主炮！…哪怕只有最后一次也好。",
+			say = "…也许妳可能会笑，不过我真的很想再以战列巡洋舰的身份尽情地奏响主炮！…哪怕只有最后一次也好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 304050,
-			say = "来吧，{namecode:92}，你不是视我为“一生的对手”么，你可还一次都没有赢过我哦？",
+			say = "来吧，{namecode:92}，妳不是视我为“一生的对手”么，妳可还一次都没有赢过我哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 304050,
-			say = "如果你敢放水，我一生都不会原谅你的。",
+			say = "如果妳敢放水，我一生都不会原谅妳的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 305070,
-			say = "能拥有这像你这样直到最后都在贯彻理念的对手，我可真是幸运呢。",
+			say = "能拥有这像妳这样直到最后都在贯彻理念的对手，我可真是幸运呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

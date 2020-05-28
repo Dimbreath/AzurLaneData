@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "原来是U73啊…不对，U73！你趁着中午的时候在教室做什么呢！？咳、咳咳…",
+			say = "原来是U73啊…不对，U73！妳趁着中午的时候在教室做什么呢！？咳、咳咳…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喔，是Z23呀，还有你们，呀吼，中午有好好休息了吗？准备好应付下午的课程了吗～？",
+			say = "喔，是Z23呀，还有妳们，呀吼，中午有好好休息了吗？准备好应付下午的课程了吗～？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			actor = 408051,
 			nameColor = "#a9f548",
-			say = "啊，吵到你们午休了吗，抱歉抱歉～",
+			say = "啊，吵到妳们午休了吗，抱歉抱歉～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以U73你在做什么呀，弄出这么大的声响？",
+			say = "所以U73妳在做什么呀，弄出这么大的声响？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

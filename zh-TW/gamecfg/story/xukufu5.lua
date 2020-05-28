@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"絮库夫的一天\n\n<size=45>五 午后的絮库夫·上</size>",
+					"速科夫的一天\n\n<size=45>五 午後的速科夫·上</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "吃饱喝足，是时候午睡了呢。",
+			say = "吃飽喝足，是時候午睡了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也想午睡了吗？",
+			say = "指揮官也想午睡了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，工作了一上午，不好好休息可没办法应付下午的工作哦？",
+			say = "嘻嘻，工作了一上午，不好好休息可沒辦法應付下午的工作哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "所以指挥官去午睡吧，我会在午休结束时喊你起来的！",
+			say = "所以指揮官去午睡吧，我會在午休結束時喊妳起來的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,11 +132,11 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "點頭",
 					flag = 1
 				},
 				{
-					content = "怀疑她也会睡着",
+					content = "懷疑她也會睡著",
 					flag = 2
 				}
 			}
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "虽然想这么做，不过一产生午睡的念头，困意就滚滚袭来，眼皮一下子就撑不住了。",
+			say = "雖然想這麼做，不過一產生午睡的念頭，睏意就滾滾襲來，眼皮一下子就撐不住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……稍微睡会儿吧。",
+			say = "……稍微睡會兒吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "朦胧中似乎听到了什么……",
+			say = "朦朧中似乎聽到了什麼……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -222,7 +222,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官还真是，说睡就睡着了呢。",
+			say = "啊，指揮官還真是，說睡就睡著了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过平时要做那么多的事，会累也是没有办法的事呢，指挥官辛苦啦~",
+			say = "不過平時要做那麼多的事，會累也是沒有辦法的事呢，指揮官辛苦啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "头上似乎被轻轻摸了一下。",
+			say = "頭上似乎被輕輕摸了一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "近距离观察指挥官的脸还是头一次，让我好好看看……",
+			say = "近距離觀察指揮官的臉還是頭一次，讓我好好看看……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯……仔细一看，指挥官果然……",
+			say = "嗯……仔細一看，指揮官果然……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "还是很普通嘛~完全没有我可爱，或者巴尔那种帅气感。",
+			say = "還是很普通嘛~完全沒有我可愛，或者巴爾那種帥氣感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过…愿意陪我一起玩，不会嫌我烦，而且总是知道我喜欢什么，我想要什么。",
+			say = "不過…願意陪我一起玩，不會嫌我煩，而且總是知道我喜歡什麼，我想要什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "明明要管理这么大的舰队，却从来不会冷落我，甚至会抽时间陪我午睡。",
+			say = "明明要管理這麼大的艦隊，卻從來不會冷落我，甚至會抽時間陪我午睡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "真是的…这样不是让人家根本离不开你了嘛…",
+			say = "真是的…這樣不是讓人家根本離不開妳了嘛…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "脸上传来了柔软的触感和熟悉的香气……是什么呢……",
+			say = "臉上傳來了柔軟的觸感和熟悉的香氣……是什麼呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "我最……你了哦，指挥官~",
+			say = "我最……妳了哦，指揮官~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "絮库夫好像说了什么很重要的话。不过，已经撑不住困意了……",
+			say = "速科夫好像說了什麼很重要的話。不過，已經撐不住睏意了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

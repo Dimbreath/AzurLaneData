@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官，你醒了。",
+			say = "啊，指挥官，妳醒了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 603020,
 			nameColor = "#a9f548",
-			say = "昨天明明提醒你去休息了，结果早上来的时候就发现你趴在桌子上。指挥官昨晚一直在工作对吧？",
+			say = "昨天明明提醒妳去休息了，结果早上来的时候就发现妳趴在桌子上。指挥官昨晚一直在工作对吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			actor = 603020,
 			nameColor = "#a9f548",
-			say = "我不是说过了吗，作为秘书舰，会为你分担工作，指挥官不需要让自己那么辛苦……",
+			say = "我不是说过了吗，作为秘书舰，会为妳分担工作，指挥官不需要让自己那么辛苦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

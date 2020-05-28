@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯小姐，我能占用你一点时间吗？",
+			say = "埃塞克斯小姐，我能占用妳一点时间吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "真是充满埃塞克斯风格的一番发言呢～不过就独立小姐的情况来说，其实你已经知道答案了不是吗？",
+			say = "真是充满埃塞克斯风格的一番发言呢～不过就独立小姐的情况来说，其实妳已经知道答案了不是吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "就像之前说过的那样，独立小姐，你是不是太心急了一些呢？",
+			say = "就像之前说过的那样，独立小姐，妳是不是太心急了一些呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			actor = 107220,
 			nameColor = "#a9f548",
-			say = "谢谢你们，埃塞克斯，香格里拉。我想我现在有点明白了……",
+			say = "谢谢妳们，埃塞克斯，香格里拉。我想我现在有点明白了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

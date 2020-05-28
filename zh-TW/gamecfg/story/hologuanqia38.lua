@@ -117,7 +117,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500050,
-			say = "诗音…过山车原来是被你摧毁的么？！",
+			say = "诗音…过山车原来是被妳摧毁的么？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

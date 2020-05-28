@@ -8,7 +8,7 @@ return {
 			side = 2,
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
-			say = "可惡，{namecode:92}居然被你們…",
+			say = "可惡，{namecode:92}居然被妳們…",
 			shake = {
 				speed = 1,
 				number = 3

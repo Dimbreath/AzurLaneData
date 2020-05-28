@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "指揮官，今天辛苦你了。",
+			say = "指揮官，今天辛苦妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "如果有一天回了頭，從那一刻起你就無法再前進了。別看我這樣，姐姐可是個執著的人啊。",
+			say = "如果有一天回了頭，從那一刻起妳就無法再前進了。別看我這樣，姐姐可是個執著的人啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			nameColor = "#a9f548",
-			say = "我此時此刻最想要的東西——你能送給我嗎？",
+			say = "我此時此刻最想要的東西——妳能送給我嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

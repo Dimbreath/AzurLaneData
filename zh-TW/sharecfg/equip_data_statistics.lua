@@ -977,6 +977,112 @@ pg.equip_data_statistics = {
 			"DB"
 		}
 	},
+	[125] = {
+		name = "默认鸢尾战斗机",
+		type = 7,
+		id = 125,
+		tech = 1,
+		nationality = 3,
+		speciality = "空战",
+		range = 90,
+		angle = 30,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "3/轮",
+		is_siren = 0,
+		rarity = 1,
+		scatter = "无",
+		descrip = "默认装备",
+		ammo = "通常",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			125,
+			128
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"FT"
+		}
+	},
+	[126] = {
+		name = "默认鸢尾鱼雷机",
+		type = 8,
+		id = 126,
+		tech = 1,
+		nationality = 3,
+		speciality = "雷击",
+		range = 90,
+		angle = 90,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "19 x 1",
+		is_siren = 0,
+		rarity = 1,
+		scatter = "无",
+		descrip = "默认装备",
+		ammo = "通常",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			126
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"TB"
+		}
+	},
+	[127] = {
+		name = "默认鸢尾轰炸机",
+		type = 9,
+		id = 127,
+		tech = 1,
+		nationality = 3,
+		speciality = "轰炸",
+		range = 90,
+		angle = 90,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "60/轮",
+		is_siren = 0,
+		rarity = 1,
+		scatter = "8",
+		descrip = "默认装备",
+		ammo = "通常",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			127
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"DB"
+		}
+	},
 	[140] = {
 		name = "預設潛艇魚雷",
 		type = 13,
@@ -7445,6 +7551,128 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 4,
 		property_rate = {}
 	},
+	[2800] = {
+		name = "94式高射裝置",
+		type = 10,
+		id = 2800,
+		tech = 0,
+		speciality = "無",
+		range = 0,
+		scatter = "無",
+		angle = 0,
+		value_2 = 4,
+		icon = "2800",
+		value_1 = "22",
+		attribute_2 = "hit",
+		rarity = 4,
+		is_siren = 0,
+		nationality = 3,
+		ammo = "無",
+		descrip = "高角炮對空射擊用的高射裝置，安裝了測距儀，用以支持高射炮進行有效的對空射擊。",
+		value_3 = 0,
+		attribute_1 = "antiaircraft",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2801] = {
+		is_siren = 0,
+		id = 2801,
+		base = 2800,
+		value_2 = 5,
+		value_1 = "25",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2802] = {
+		is_siren = 0,
+		id = 2802,
+		base = 2800,
+		value_2 = 5,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2803] = {
+		is_siren = 0,
+		id = 2803,
+		base = 2800,
+		value_2 = 6,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2804] = {
+		is_siren = 0,
+		id = 2804,
+		base = 2800,
+		value_2 = 6,
+		value_1 = "35",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2805] = {
+		is_siren = 0,
+		id = 2805,
+		base = 2800,
+		value_2 = 7,
+		value_1 = "38",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2806] = {
+		is_siren = 0,
+		id = 2806,
+		base = 2800,
+		value_2 = 7,
+		value_1 = "42",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2807] = {
+		is_siren = 0,
+		id = 2807,
+		base = 2800,
+		value_2 = 8,
+		value_1 = "45",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2808] = {
+		is_siren = 0,
+		id = 2808,
+		base = 2800,
+		value_2 = 8,
+		value_1 = "48",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2809] = {
+		is_siren = 0,
+		id = 2809,
+		base = 2800,
+		value_2 = 9,
+		value_1 = "51",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2810] = {
+		is_siren = 0,
+		id = 2810,
+		base = 2800,
+		value_2 = 10,
+		value_1 = "55",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[2900] = {
 		name = "基礎聲納",
 		type = 10,
@@ -10627,6 +10855,177 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[5400] = {
+		name = "三聯裝550mm魚雷",
+		type = 5,
+		id = 5400,
+		tech = 1,
+		speciality = "雷擊",
+		range = 50,
+		scatter = "50°",
+		angle = 60,
+		value_2 = 5,
+		icon = "5400",
+		value_1 = "47 x 3",
+		attribute_2 = "torpedo",
+		rarity = 2,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			5400
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		}
+	},
+	[5401] = {
+		value_1 = "55 x 3",
+		id = 5401,
+		base = 5400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			5401
+		},
+		property_rate = {}
+	},
+	[5402] = {
+		value_1 = "63 x 3",
+		id = 5402,
+		base = 5400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			5402
+		},
+		property_rate = {}
+	},
+	[5403] = {
+		value_1 = "72 x 3",
+		id = 5403,
+		base = 5400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			5403
+		},
+		property_rate = {}
+	},
+	[5420] = {
+		name = "三聯裝550mm魚雷",
+		type = 5,
+		id = 5420,
+		tech = 2,
+		speciality = "雷擊",
+		range = 50,
+		scatter = "50°",
+		angle = 60,
+		value_2 = 12,
+		icon = "5400",
+		value_1 = "52 x 3",
+		attribute_2 = "torpedo",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			5420
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		}
+	},
+	[5421] = {
+		value_1 = "61 x 3",
+		id = 5421,
+		base = 5420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			5421
+		},
+		property_rate = {}
+	},
+	[5422] = {
+		value_1 = "70 x 3",
+		id = 5422,
+		base = 5420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			5422
+		},
+		property_rate = {}
+	},
+	[5423] = {
+		value_1 = "79 x 3",
+		id = 5423,
+		base = 5420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			5423
+		},
+		property_rate = {}
+	},
+	[5424] = {
+		value_1 = "88 x 3",
+		id = 5424,
+		base = 5420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			5424
+		},
+		property_rate = {}
+	},
+	[5425] = {
+		value_1 = "98 x 3",
+		id = 5425,
+		base = 5420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			5425
+		},
+		property_rate = {}
+	},
+	[5426] = {
+		value_1 = "108 x 3",
+		id = 5426,
+		base = 5420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			5426
+		},
+		property_rate = {}
+	},
 	[5440] = {
 		name = "三聯裝550mm魚雷",
 		type = 5,
@@ -11326,6 +11725,143 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			6046
+		},
+		property_rate = {}
+	},
+	[6100] = {
+		name = "雙聯裝100mm高炮",
+		type = 6,
+		id = 6100,
+		tech = 1,
+		nationality = 8,
+		speciality = "防空",
+		range = 32,
+		angle = 360,
+		value_2 = 0,
+		icon = "6100",
+		value_1 = "18/輪",
+		is_siren = 0,
+		rarity = 1,
+		scatter = "無",
+		descrip = "說明未填寫",
+		ammo = "通常",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			6100
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		}
+	},
+	[6101] = {
+		value_1 = "20/輪",
+		id = 6101,
+		base = 6100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			6101
+		},
+		property_rate = {}
+	},
+	[6102] = {
+		value_1 = "22/輪",
+		id = 6102,
+		base = 6100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			6102
+		},
+		property_rate = {}
+	},
+	[6103] = {
+		value_1 = "25/輪",
+		id = 6103,
+		base = 6100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			6103
+		},
+		property_rate = {}
+	},
+	[6120] = {
+		name = "雙聯裝100mm高炮",
+		type = 6,
+		id = 6120,
+		tech = 2,
+		speciality = "防空",
+		range = 32,
+		scatter = "無",
+		angle = 360,
+		value_2 = 5,
+		icon = "6100",
+		value_1 = "20/輪",
+		attribute_2 = "antiaircraft",
+		rarity = 2,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			6120
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		}
+	},
+	[6121] = {
+		value_1 = "23/輪",
+		id = 6121,
+		base = 6120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			6121
+		},
+		property_rate = {}
+	},
+	[6122] = {
+		value_1 = "26/輪",
+		id = 6122,
+		base = 6120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			6122
+		},
+		property_rate = {}
+	},
+	[6123] = {
+		value_1 = "29/輪",
+		id = 6123,
+		base = 6120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			6123
 		},
 		property_rate = {}
 	},
@@ -12433,6 +12969,221 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			7310
+		},
+		property_rate = {}
+	},
+	[7320] = {
+		name = "四聯裝130mm副炮Mle1932",
+		type = 1,
+		id = 7320,
+		tech = 0,
+		speciality = "鎖定",
+		range = 60,
+		scatter = "15°",
+		angle = 360,
+		value_2 = 12,
+		icon = "7320",
+		value_1 = "4 x 4",
+		attribute_2 = "cannon",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			7320
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[7321] = {
+		value_1 = "5 x 4",
+		id = 7321,
+		base = 7320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7321
+		},
+		property_rate = {}
+	},
+	[7322] = {
+		value_1 = "6 x 4",
+		id = 7322,
+		base = 7320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7322
+		},
+		property_rate = {}
+	},
+	[7323] = {
+		value_1 = "7 x 4",
+		id = 7323,
+		base = 7320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7323
+		},
+		property_rate = {}
+	},
+	[7324] = {
+		value_1 = "8 x 4",
+		id = 7324,
+		base = 7320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7324
+		},
+		property_rate = {}
+	},
+	[7325] = {
+		value_1 = "9 x 4",
+		id = 7325,
+		base = 7320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7325
+		},
+		property_rate = {}
+	},
+	[7326] = {
+		value_1 = "10 x 4",
+		id = 7326,
+		base = 7320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7326
+		},
+		property_rate = {}
+	},
+	[7340] = {
+		name = "雙聯裝203mm主炮Mle1924(潛艇用)",
+		type = 3,
+		id = 7340,
+		tech = 0,
+		speciality = "鎖定",
+		range = 80,
+		scatter = "12°",
+		angle = 40,
+		value_2 = 12,
+		icon = "7340",
+		value_1 = "22 x 4",
+		attribute_2 = "cannon",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			7340
+		},
+		skill_id = {},
+		part_main = {
+			8
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"SS",
+			"MG"
+		}
+	},
+	[7341] = {
+		value_1 = "24 x 4",
+		id = 7341,
+		base = 7340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7341
+		},
+		property_rate = {}
+	},
+	[7342] = {
+		value_1 = "26 x 4",
+		id = 7342,
+		base = 7340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7342
+		},
+		property_rate = {}
+	},
+	[7343] = {
+		value_1 = "28 x 4",
+		id = 7343,
+		base = 7340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7343
+		},
+		property_rate = {}
+	},
+	[7344] = {
+		value_1 = "30 x 4",
+		id = 7344,
+		base = 7340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7344
+		},
+		property_rate = {}
+	},
+	[7345] = {
+		value_1 = "32 x 4",
+		id = 7345,
+		base = 7340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7345
+		},
+		property_rate = {}
+	},
+	[7346] = {
+		value_1 = "34 x 4",
+		id = 7346,
+		base = 7340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7346
 		},
 		property_rate = {}
 	},
@@ -43959,7 +44710,7 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		nationality = 4,
 		ammo = "通常彈",
-		descrip = "三聯283mmSKC34主炮，沙恩霍斯特級戰列巡洋艦主炮，戰巡和戰列可以使用",
+		descrip = "三聯283mmSKC34主炮，沙恩霍斯特級戰鬥巡洋艦主炮，戰巡和戰列可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -44033,7 +44784,7 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		nationality = 4,
 		ammo = "通常彈",
-		descrip = "三聯283mmSKC34主炮，沙恩霍斯特級戰列巡洋艦主炮，戰巡和戰列可以使用",
+		descrip = "三聯283mmSKC34主炮，沙恩霍斯特級戰鬥巡洋艦主炮，戰巡和戰列可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -44140,7 +44891,7 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		nationality = 4,
 		ammo = "通常彈",
-		descrip = "三聯283mmSKC34主炮，沙恩霍斯特級戰列巡洋艦主炮，戰巡和戰列可以使用",
+		descrip = "三聯283mmSKC34主炮，沙恩霍斯特級戰鬥巡洋艦主炮，戰巡和戰列可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -51563,6 +52314,58 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[60511] = {
+		name = "航空攻击展示-贝亚恩I",
+		type = 99,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		is_siren = 0,
+		rarity = 1,
+		descrip = "航母空袭展示用",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 60511,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60511
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60512] = {
+		id = 60512,
+		name = "航空攻击展示-贝亚恩II",
+		base = 60511,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60512
+		},
+		property_rate = {}
+	},
+	[60513] = {
+		id = 60513,
+		name = "航空攻击展示-贝亚恩III",
+		base = 60511,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60513
+		},
+		property_rate = {}
+	},
 	[61007] = {
 		name = "約克镇技能隨機掃射海面LV1",
 		type = 1,
@@ -55228,7 +56031,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[78011] = {
-		name = "全彈發射-機敏級I",
+		name = "全彈發射-靈巧級I",
 		type = 1,
 		nationality = 0,
 		speciality = "無",
@@ -55259,7 +56062,7 @@ pg.equip_data_statistics = {
 	},
 	[78012] = {
 		id = 78012,
-		name = "全彈發射-機敏級II",
+		name = "全彈發射-靈巧級II",
 		base = 78011,
 		is_siren = 0,
 		torpedo_ammo = 0,
@@ -55351,7 +56154,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[78111] = {
-		name = "全彈發射-埃米爾·貝爾汀I",
+		name = "全彈發射-埃米爾•貝爾坦I",
 		type = 1,
 		nationality = 0,
 		speciality = "無",
@@ -55382,12 +56185,94 @@ pg.equip_data_statistics = {
 	},
 	[78112] = {
 		id = 78112,
-		name = "全彈發射-埃米爾·貝爾汀II",
+		name = "全彈發射-埃米爾•貝爾坦II",
 		base = 78111,
 		is_siren = 0,
 		torpedo_ammo = 0,
 		weapon_id = {
 			78112
+		},
+		property_rate = {}
+	},
+	[78121] = {
+		name = "全弹发射-拉·加利索尼埃I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		is_siren = 0,
+		rarity = 1,
+		descrip = "技能弹幕",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 78121,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			78121
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[78122] = {
+		id = 78122,
+		name = "全弹发射-拉·加利索尼埃II",
+		base = 78121,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			78122
+		},
+		property_rate = {}
+	},
+	[78211] = {
+		name = "全弹发射-阿尔及利亚I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		is_siren = 0,
+		rarity = 1,
+		descrip = "技能弹幕",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 78211,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			78211
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[78212] = {
+		id = 78212,
+		name = "全弹发射-阿尔及利亚II",
+		base = 78211,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			78212
 		},
 		property_rate = {}
 	},
@@ -57359,6 +58244,1727 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[79541] = {
+		name = "专属弹幕-圣女贞德I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		is_siren = 0,
+		rarity = 1,
+		descrip = "技能弹幕",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 79541,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60501
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[79542] = {
+		id = 79542,
+		name = "专属弹幕-圣女贞德II",
+		base = 79541,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60502
+		},
+		property_rate = {}
+	},
+	[90000] = {
+		name = "130mm單裝炮Mle1924",
+		type = 1,
+		id = 90000,
+		tech = 1,
+		nationality = 8,
+		speciality = "鎖定",
+		range = 50,
+		angle = 360,
+		value_2 = 0,
+		icon = "50000",
+		value_1 = "3 x 5",
+		is_siren = 0,
+		rarity = 1,
+		scatter = "15°",
+		descrip = "說明未填寫",
+		ammo = "通常彈",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			90000
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[90001] = {
+		value_1 = "3 x 5",
+		id = 90001,
+		base = 90000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90001
+		},
+		property_rate = {}
+	},
+	[90002] = {
+		value_1 = "4 x 5",
+		id = 90002,
+		base = 90000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90002
+		},
+		property_rate = {}
+	},
+	[90003] = {
+		value_1 = "4 x 5",
+		id = 90003,
+		base = 90000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90003
+		},
+		property_rate = {}
+	},
+	[90020] = {
+		name = "130mm單裝炮Mle1924",
+		type = 1,
+		id = 90020,
+		tech = 2,
+		speciality = "鎖定",
+		range = 50,
+		scatter = "15°",
+		angle = 360,
+		value_2 = 5,
+		icon = "50000",
+		value_1 = "3 x 5",
+		attribute_2 = "cannon",
+		rarity = 2,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			90020
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[90021] = {
+		value_1 = "4 x 5",
+		id = 90021,
+		base = 90020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90021
+		},
+		property_rate = {}
+	},
+	[90022] = {
+		value_1 = "4 x 5",
+		id = 90022,
+		base = 90020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90022
+		},
+		property_rate = {}
+	},
+	[90023] = {
+		value_1 = "5 x 5",
+		id = 90023,
+		base = 90020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90023
+		},
+		property_rate = {}
+	},
+	[90040] = {
+		name = "130mm單裝炮Mle1924",
+		type = 1,
+		id = 90040,
+		tech = 3,
+		speciality = "鎖定",
+		range = 50,
+		scatter = "15°",
+		angle = 360,
+		value_2 = 12,
+		icon = "50000",
+		value_1 = "4 x 5",
+		attribute_2 = "cannon",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			90040
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[90041] = {
+		value_1 = "5 x 5",
+		id = 90041,
+		base = 90040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90041
+		},
+		property_rate = {}
+	},
+	[90042] = {
+		value_1 = "5 x 5",
+		id = 90042,
+		base = 90040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90042
+		},
+		property_rate = {}
+	},
+	[90043] = {
+		value_1 = "6 x 5",
+		id = 90043,
+		base = 90040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90043
+		},
+		property_rate = {}
+	},
+	[90044] = {
+		value_1 = "6 x 5",
+		id = 90044,
+		base = 90040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90044
+		},
+		property_rate = {}
+	},
+	[90045] = {
+		value_1 = "7 x 5",
+		id = 90045,
+		base = 90040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90045
+		},
+		property_rate = {}
+	},
+	[90046] = {
+		value_1 = "8 x 5",
+		id = 90046,
+		base = 90040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90046
+		},
+		property_rate = {}
+	},
+	[90100] = {
+		name = "138.6mm單裝炮Mle1929",
+		type = 1,
+		id = 90100,
+		tech = 1,
+		speciality = "鎖定",
+		range = 60,
+		scatter = "15°",
+		angle = 360,
+		value_2 = 12,
+		icon = "50100",
+		value_1 = "4 x 5",
+		attribute_2 = "cannon",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			90100
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[90101] = {
+		value_1 = "4 x 5",
+		id = 90101,
+		base = 90100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90101
+		},
+		property_rate = {}
+	},
+	[90102] = {
+		value_1 = "5 x 5",
+		id = 90102,
+		base = 90100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90102
+		},
+		property_rate = {}
+	},
+	[90103] = {
+		value_1 = "6 x 5",
+		id = 90103,
+		base = 90100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90103
+		},
+		property_rate = {}
+	},
+	[90104] = {
+		value_1 = "7 x 5",
+		id = 90104,
+		base = 90100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90104
+		},
+		property_rate = {}
+	},
+	[90105] = {
+		value_1 = "8 x 5",
+		id = 90105,
+		base = 90100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90105
+		},
+		property_rate = {}
+	},
+	[90106] = {
+		value_1 = "9 x 5",
+		id = 90106,
+		base = 90100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90106
+		},
+		property_rate = {}
+	},
+	[90120] = {
+		name = "138.6mm單裝炮Mle1929",
+		type = 1,
+		id = 90120,
+		tech = 2,
+		speciality = "鎖定",
+		range = 60,
+		scatter = "15°",
+		angle = 360,
+		value_2 = 25,
+		icon = "50100",
+		value_1 = "4 x 5",
+		attribute_2 = "cannon",
+		rarity = 4,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "高爆彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			90120
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG",
+			"HE"
+		}
+	},
+	[90121] = {
+		value_1 = "5 x 5",
+		id = 90121,
+		base = 90120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90121
+		},
+		property_rate = {}
+	},
+	[90122] = {
+		value_1 = "6 x 5",
+		id = 90122,
+		base = 90120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90122
+		},
+		property_rate = {}
+	},
+	[90123] = {
+		value_1 = "7 x 5",
+		id = 90123,
+		base = 90120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90123
+		},
+		property_rate = {}
+	},
+	[90124] = {
+		value_1 = "8 x 5",
+		id = 90124,
+		base = 90120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90124
+		},
+		property_rate = {}
+	},
+	[90125] = {
+		value_1 = "9 x 5",
+		id = 90125,
+		base = 90120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90125
+		},
+		property_rate = {}
+	},
+	[90126] = {
+		value_1 = "10 x 5",
+		id = 90126,
+		base = 90120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90126
+		},
+		property_rate = {}
+	},
+	[90127] = {
+		value_1 = "11 x 5",
+		id = 90127,
+		base = 90120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90127
+		},
+		property_rate = {}
+	},
+	[90128] = {
+		value_1 = "12 x 5",
+		id = 90128,
+		base = 90120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90128
+		},
+		property_rate = {}
+	},
+	[90129] = {
+		value_1 = "13 x 5",
+		id = 90129,
+		base = 90120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90129
+		},
+		property_rate = {}
+	},
+	[90130] = {
+		value_1 = "14 x 5",
+		id = 90130,
+		base = 90120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90130
+		},
+		property_rate = {}
+	},
+	[90140] = {
+		name = "138.6mm單裝炮Mle1929",
+		type = 1,
+		id = 90140,
+		tech = 3,
+		speciality = "鎖定",
+		range = 60,
+		scatter = "15°",
+		angle = 360,
+		value_2 = 35,
+		icon = "50100",
+		value_1 = "5 x 5",
+		attribute_2 = "cannon",
+		rarity = 5,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "高爆彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			90140
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG",
+			"HE"
+		}
+	},
+	[90141] = {
+		value_1 = "6 x 5",
+		id = 90141,
+		base = 90140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90141
+		},
+		property_rate = {}
+	},
+	[90142] = {
+		value_1 = "7 x 5",
+		id = 90142,
+		base = 90140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90142
+		},
+		property_rate = {}
+	},
+	[90143] = {
+		value_1 = "8 x 5",
+		id = 90143,
+		base = 90140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90143
+		},
+		property_rate = {}
+	},
+	[90144] = {
+		value_1 = "9 x 5",
+		id = 90144,
+		base = 90140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90144
+		},
+		property_rate = {}
+	},
+	[90145] = {
+		value_1 = "10 x 5",
+		id = 90145,
+		base = 90140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90145
+		},
+		property_rate = {}
+	},
+	[90146] = {
+		value_1 = "11 x 5",
+		id = 90146,
+		base = 90140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90146
+		},
+		property_rate = {}
+	},
+	[90147] = {
+		value_1 = "12 x 5",
+		id = 90147,
+		base = 90140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90147
+		},
+		property_rate = {}
+	},
+	[90148] = {
+		value_1 = "13 x 5",
+		id = 90148,
+		base = 90140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90148
+		},
+		property_rate = {}
+	},
+	[90149] = {
+		value_1 = "14 x 5",
+		id = 90149,
+		base = 90140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90149
+		},
+		property_rate = {}
+	},
+	[90150] = {
+		value_1 = "15 x 5",
+		id = 90150,
+		base = 90140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90150
+		},
+		property_rate = {}
+	},
+	[90200] = {
+		name = "三聯裝152mm主炮Mle1930",
+		type = 2,
+		id = 90200,
+		tech = 1,
+		nationality = 8,
+		speciality = "散射",
+		range = 65,
+		angle = 120,
+		value_2 = 0,
+		icon = "50200",
+		value_1 = "7 x 6",
+		is_siren = 0,
+		rarity = 1,
+		scatter = "42°",
+		descrip = "說明未填寫",
+		ammo = "通常彈",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			90200
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		}
+	},
+	[90201] = {
+		value_1 = "8 x 6",
+		id = 90201,
+		base = 90200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90201
+		},
+		property_rate = {}
+	},
+	[90202] = {
+		value_1 = "9 x 6",
+		id = 90202,
+		base = 90200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90202
+		},
+		property_rate = {}
+	},
+	[90203] = {
+		value_1 = "10 x 6",
+		id = 90203,
+		base = 90200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90203
+		},
+		property_rate = {}
+	},
+	[90220] = {
+		name = "三聯裝152mm主炮Mle1930",
+		type = 2,
+		id = 90220,
+		tech = 2,
+		speciality = "散射",
+		range = 65,
+		scatter = "42°",
+		angle = 120,
+		value_2 = 5,
+		icon = "50200",
+		value_1 = "8 x 6",
+		attribute_2 = "cannon",
+		rarity = 2,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			90220
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		}
+	},
+	[90221] = {
+		value_1 = "9 x 6",
+		id = 90221,
+		base = 90220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90221
+		},
+		property_rate = {}
+	},
+	[90222] = {
+		value_1 = "10 x 6",
+		id = 90222,
+		base = 90220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90222
+		},
+		property_rate = {}
+	},
+	[90223] = {
+		value_1 = "11 x 6",
+		id = 90223,
+		base = 90220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90223
+		},
+		property_rate = {}
+	},
+	[90240] = {
+		name = "三聯裝152mm主炮Mle1930",
+		type = 2,
+		id = 90240,
+		tech = 3,
+		speciality = "散射",
+		range = 65,
+		scatter = "42°",
+		angle = 120,
+		value_2 = 12,
+		icon = "50200",
+		value_1 = "9 x 6",
+		attribute_2 = "cannon",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "穿甲彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		weapon_id = {
+			90240
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[90241] = {
+		value_1 = "10 x 6",
+		id = 90241,
+		base = 90240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90241
+		},
+		property_rate = {}
+	},
+	[90242] = {
+		value_1 = "11 x 6",
+		id = 90242,
+		base = 90240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90242
+		},
+		property_rate = {}
+	},
+	[90243] = {
+		value_1 = "12 x 6",
+		id = 90243,
+		base = 90240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90243
+		},
+		property_rate = {}
+	},
+	[90244] = {
+		value_1 = "13 x 6",
+		id = 90244,
+		base = 90240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90244
+		},
+		property_rate = {}
+	},
+	[90245] = {
+		value_1 = "14 x 6",
+		id = 90245,
+		base = 90240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90245
+		},
+		property_rate = {}
+	},
+	[90246] = {
+		value_1 = "15 x 6",
+		id = 90246,
+		base = 90240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90246
+		},
+		property_rate = {}
+	},
+	[90300] = {
+		name = "四聯裝330mm主炮Mle1931",
+		type = 4,
+		id = 90300,
+		tech = 1,
+		speciality = "跨射",
+		range = 200,
+		scatter = "24",
+		angle = 45,
+		value_2 = 5,
+		icon = "50300",
+		value_1 = "34 x 4",
+		attribute_2 = "cannon",
+		rarity = 2,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			90300
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		}
+	},
+	[90301] = {
+		value_1 = "39 x 4",
+		id = 90301,
+		base = 90300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90301
+		},
+		property_rate = {}
+	},
+	[90302] = {
+		value_1 = "44 x 4",
+		id = 90302,
+		base = 90300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90302
+		},
+		property_rate = {}
+	},
+	[90303] = {
+		value_1 = "49 x 4",
+		id = 90303,
+		base = 90300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90303
+		},
+		property_rate = {}
+	},
+	[90320] = {
+		name = "四聯裝330mm主炮Mle1931",
+		type = 4,
+		id = 90320,
+		tech = 2,
+		speciality = "跨射",
+		range = 200,
+		scatter = "24",
+		angle = 45,
+		value_2 = 12,
+		icon = "50300",
+		value_1 = "37 x 4",
+		attribute_2 = "cannon",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			90320
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		}
+	},
+	[90321] = {
+		value_1 = "42 x 4",
+		id = 90321,
+		base = 90320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90321
+		},
+		property_rate = {}
+	},
+	[90322] = {
+		value_1 = "47 x 4",
+		id = 90322,
+		base = 90320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90322
+		},
+		property_rate = {}
+	},
+	[90323] = {
+		value_1 = "52 x 4",
+		id = 90323,
+		base = 90320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90323
+		},
+		property_rate = {}
+	},
+	[90324] = {
+		value_1 = "57 x 4",
+		id = 90324,
+		base = 90320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90324
+		},
+		property_rate = {}
+	},
+	[90325] = {
+		value_1 = "63 x 4",
+		id = 90325,
+		base = 90320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90325
+		},
+		property_rate = {}
+	},
+	[90326] = {
+		value_1 = "69 x 4",
+		id = 90326,
+		base = 90320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90326
+		},
+		property_rate = {}
+	},
+	[90340] = {
+		name = "四聯裝330mm主炮Mle1931",
+		type = 4,
+		id = 90340,
+		tech = 3,
+		speciality = "跨射",
+		range = 200,
+		scatter = "24",
+		angle = 45,
+		value_2 = 25,
+		icon = "50300",
+		value_1 = "41 x 4",
+		attribute_2 = "cannon",
+		rarity = 4,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "穿甲彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		weapon_id = {
+			90340
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[90341] = {
+		value_1 = "47 x 4",
+		id = 90341,
+		base = 90340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90341
+		},
+		property_rate = {}
+	},
+	[90342] = {
+		value_1 = "53 x 4",
+		id = 90342,
+		base = 90340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90342
+		},
+		property_rate = {}
+	},
+	[90343] = {
+		value_1 = "59 x 4",
+		id = 90343,
+		base = 90340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90343
+		},
+		property_rate = {}
+	},
+	[90344] = {
+		value_1 = "65 x 4",
+		id = 90344,
+		base = 90340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90344
+		},
+		property_rate = {}
+	},
+	[90345] = {
+		value_1 = "71 x 4",
+		id = 90345,
+		base = 90340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90345
+		},
+		property_rate = {}
+	},
+	[90346] = {
+		value_1 = "77 x 4",
+		id = 90346,
+		base = 90340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90346
+		},
+		property_rate = {}
+	},
+	[90347] = {
+		value_1 = "83 x 4",
+		id = 90347,
+		base = 90340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90347
+		},
+		property_rate = {}
+	},
+	[90348] = {
+		value_1 = "89 x 4",
+		id = 90348,
+		base = 90340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90348
+		},
+		property_rate = {}
+	},
+	[90349] = {
+		value_1 = "95 x 4",
+		id = 90349,
+		base = 90340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90349
+		},
+		property_rate = {}
+	},
+	[90350] = {
+		value_1 = "102 x 4",
+		id = 90350,
+		base = 90340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90350
+		},
+		property_rate = {}
+	},
+	[90400] = {
+		name = "四聯裝380mm主炮Mle1935",
+		type = 4,
+		id = 90400,
+		tech = 1,
+		speciality = "跨射",
+		range = 200,
+		scatter = "24",
+		angle = 45,
+		value_2 = 12,
+		icon = "50400",
+		value_1 = "40 x 4",
+		attribute_2 = "cannon",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			90400
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		}
+	},
+	[90401] = {
+		value_1 = "46 x 4",
+		id = 90401,
+		base = 90400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90401
+		},
+		property_rate = {}
+	},
+	[90402] = {
+		value_1 = "52 x 4",
+		id = 90402,
+		base = 90400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90402
+		},
+		property_rate = {}
+	},
+	[90403] = {
+		value_1 = "58 x 4",
+		id = 90403,
+		base = 90400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90403
+		},
+		property_rate = {}
+	},
+	[90404] = {
+		value_1 = "64 x 4",
+		id = 90404,
+		base = 90400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90404
+		},
+		property_rate = {}
+	},
+	[90405] = {
+		value_1 = "70 x 4",
+		id = 90405,
+		base = 90400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90405
+		},
+		property_rate = {}
+	},
+	[90406] = {
+		value_1 = "76 x 4",
+		id = 90406,
+		base = 90400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90406
+		},
+		property_rate = {}
+	},
+	[90420] = {
+		name = "四聯裝380mm主炮Mle1935",
+		type = 4,
+		id = 90420,
+		tech = 2,
+		speciality = "跨射",
+		range = 200,
+		scatter = "24",
+		angle = 45,
+		value_2 = 25,
+		icon = "50400",
+		value_1 = "44 x 4",
+		attribute_2 = "cannon",
+		rarity = 4,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "高爆彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			90420
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
+	[90421] = {
+		value_1 = "50 x 4",
+		id = 90421,
+		base = 90420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90421
+		},
+		property_rate = {}
+	},
+	[90422] = {
+		value_1 = "56 x 4",
+		id = 90422,
+		base = 90420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90422
+		},
+		property_rate = {}
+	},
+	[90423] = {
+		value_1 = "62 x 4",
+		id = 90423,
+		base = 90420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90423
+		},
+		property_rate = {}
+	},
+	[90424] = {
+		value_1 = "68 x 4",
+		id = 90424,
+		base = 90420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90424
+		},
+		property_rate = {}
+	},
+	[90425] = {
+		value_1 = "75 x 4",
+		id = 90425,
+		base = 90420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90425
+		},
+		property_rate = {}
+	},
+	[90426] = {
+		value_1 = "82 x 4",
+		id = 90426,
+		base = 90420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90426
+		},
+		property_rate = {}
+	},
+	[90427] = {
+		value_1 = "89 x 4",
+		id = 90427,
+		base = 90420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90427
+		},
+		property_rate = {}
+	},
+	[90428] = {
+		value_1 = "96 x 4",
+		id = 90428,
+		base = 90420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90428
+		},
+		property_rate = {}
+	},
+	[90429] = {
+		value_1 = "103 x 4",
+		id = 90429,
+		base = 90420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90429
+		},
+		property_rate = {}
+	},
+	[90430] = {
+		value_1 = "110 x 4",
+		id = 90430,
+		base = 90420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90430
+		},
+		property_rate = {}
+	},
+	[90440] = {
+		name = "四聯裝380mm主炮Mle1935",
+		type = 4,
+		id = 90440,
+		tech = 3,
+		speciality = "跨射",
+		range = 200,
+		scatter = "24",
+		angle = 45,
+		value_2 = 45,
+		icon = "50400",
+		value_1 = "48 x 4",
+		attribute_2 = "cannon",
+		rarity = 5,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "高爆彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			90440
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
+	[90441] = {
+		value_1 = "55 x 4",
+		id = 90441,
+		base = 90440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90441
+		},
+		property_rate = {}
+	},
+	[90442] = {
+		value_1 = "62 x 4",
+		id = 90442,
+		base = 90440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90442
+		},
+		property_rate = {}
+	},
+	[90443] = {
+		value_1 = "69 x 4",
+		id = 90443,
+		base = 90440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90443
+		},
+		property_rate = {}
+	},
+	[90444] = {
+		value_1 = "76 x 4",
+		id = 90444,
+		base = 90440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90444
+		},
+		property_rate = {}
+	},
+	[90445] = {
+		value_1 = "83 x 4",
+		id = 90445,
+		base = 90440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90445
+		},
+		property_rate = {}
+	},
+	[90446] = {
+		value_1 = "90 x 4",
+		id = 90446,
+		base = 90440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90446
+		},
+		property_rate = {}
+	},
+	[90447] = {
+		value_1 = "97 x 4",
+		id = 90447,
+		base = 90440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90447
+		},
+		property_rate = {}
+	},
+	[90448] = {
+		value_1 = "104 x 4",
+		id = 90448,
+		base = 90440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90448
+		},
+		property_rate = {}
+	},
+	[90449] = {
+		value_1 = "112 x 4",
+		id = 90449,
+		base = 90440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90449
+		},
+		property_rate = {}
+	},
+	[90450] = {
+		value_1 = "120 x 4",
+		id = 90450,
+		base = 90440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90450
+		},
+		property_rate = {}
+	},
 	[100000] = {
 		name = "裝備模板",
 		type = 0,
@@ -57571,6 +60177,169 @@ pg.equip_data_statistics = {
 		equip_parameters = {},
 		label = {}
 	},
+	[650601] = {
+		name = "【2020法系活动剧情用】双联装155mm主炮Mle1920",
+		type = 2,
+		id = 650601,
+		tech = 0,
+		speciality = "锁定",
+		range = 60,
+		scatter = "10°",
+		angle = 120,
+		value_2 = 12,
+		icon = "50780",
+		value_1 = "10 x 4",
+		attribute_2 = "cannon",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常弹",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			650601
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[650602] = {
+		name = "【2020法系活动剧情用】双联装130mm主炮Mle1935",
+		type = 1,
+		id = 650602,
+		tech = 1,
+		speciality = "锁定",
+		range = 55,
+		scatter = "12°",
+		angle = 360,
+		value_2 = 5,
+		icon = "50500",
+		value_1 = "9 x 2",
+		attribute_2 = "cannon",
+		rarity = 2,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "通常弹",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			650602
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[650603] = {
+		name = "【2020法系活动剧情用】双联550mm鱼雷T1",
+		type = 5,
+		id = 650603,
+		tech = 1,
+		nationality = 8,
+		speciality = "雷击",
+		range = 50,
+		angle = 60,
+		value_2 = 0,
+		icon = "5300",
+		value_1 = "42 x 2",
+		is_siren = 0,
+		rarity = 1,
+		scatter = "40°",
+		descrip = "说明未填写",
+		ammo = "通常",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			650603
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		}
+	},
+	[650604] = {
+		name = "【2020法系活动剧情用】四联装380mm主炮Mle1935",
+		type = 4,
+		id = 650604,
+		tech = 3,
+		speciality = "跨射",
+		range = 200,
+		scatter = "24",
+		angle = 45,
+		value_2 = 45,
+		icon = "50400",
+		value_1 = "48 x 4",
+		attribute_2 = "cannon",
+		rarity = 5,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "高爆弹",
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			650604
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"HE"
+		}
+	},
 	[800000] = {
 		id = 800000,
 		name = "【三笠劇情】驅逐武器",
@@ -57740,6 +60509,9 @@ pg.equip_data_statistics = {
 		121,
 		122,
 		123,
+		125,
+		126,
+		127,
 		140,
 		141,
 		201,
@@ -58263,6 +61035,17 @@ pg.equip_data_statistics = {
 		2648,
 		2649,
 		2650,
+		2800,
+		2801,
+		2802,
+		2803,
+		2804,
+		2805,
+		2806,
+		2807,
+		2808,
+		2809,
+		2810,
 		2900,
 		2901,
 		2902,
@@ -58501,6 +61284,17 @@ pg.equip_data_statistics = {
 		5344,
 		5345,
 		5346,
+		5400,
+		5401,
+		5402,
+		5403,
+		5420,
+		5421,
+		5422,
+		5423,
+		5424,
+		5425,
+		5426,
 		5440,
 		5441,
 		5442,
@@ -58549,6 +61343,14 @@ pg.equip_data_statistics = {
 		6044,
 		6045,
 		6046,
+		6100,
+		6101,
+		6102,
+		6103,
+		6120,
+		6121,
+		6122,
+		6123,
 		6140,
 		6141,
 		6142,
@@ -58619,6 +61421,20 @@ pg.equip_data_statistics = {
 		7308,
 		7309,
 		7310,
+		7320,
+		7321,
+		7322,
+		7323,
+		7324,
+		7325,
+		7326,
+		7340,
+		7341,
+		7342,
+		7343,
+		7344,
+		7345,
+		7346,
 		11000,
 		11001,
 		11002,
@@ -61234,6 +64050,9 @@ pg.equip_data_statistics = {
 		60491,
 		60492,
 		60493,
+		60511,
+		60512,
+		60513,
 		61007,
 		61008,
 		61009,
@@ -61416,6 +64235,10 @@ pg.equip_data_statistics = {
 		78032,
 		78111,
 		78112,
+		78121,
+		78122,
+		78211,
+		78212,
 		79011,
 		79012,
 		79021,
@@ -61512,12 +64335,128 @@ pg.equip_data_statistics = {
 		79482,
 		79491,
 		79492,
+		79541,
+		79542,
+		90000,
+		90001,
+		90002,
+		90003,
+		90020,
+		90021,
+		90022,
+		90023,
+		90040,
+		90041,
+		90042,
+		90043,
+		90044,
+		90045,
+		90046,
+		90100,
+		90101,
+		90102,
+		90103,
+		90104,
+		90105,
+		90106,
+		90120,
+		90121,
+		90122,
+		90123,
+		90124,
+		90125,
+		90126,
+		90127,
+		90128,
+		90129,
+		90130,
+		90140,
+		90141,
+		90142,
+		90143,
+		90144,
+		90145,
+		90146,
+		90147,
+		90148,
+		90149,
+		90150,
+		90200,
+		90201,
+		90202,
+		90203,
+		90220,
+		90221,
+		90222,
+		90223,
+		90240,
+		90241,
+		90242,
+		90243,
+		90244,
+		90245,
+		90246,
+		90300,
+		90301,
+		90302,
+		90303,
+		90320,
+		90321,
+		90322,
+		90323,
+		90324,
+		90325,
+		90326,
+		90340,
+		90341,
+		90342,
+		90343,
+		90344,
+		90345,
+		90346,
+		90347,
+		90348,
+		90349,
+		90350,
+		90400,
+		90401,
+		90402,
+		90403,
+		90404,
+		90405,
+		90406,
+		90420,
+		90421,
+		90422,
+		90423,
+		90424,
+		90425,
+		90426,
+		90427,
+		90428,
+		90429,
+		90430,
+		90440,
+		90441,
+		90442,
+		90443,
+		90444,
+		90445,
+		90446,
+		90447,
+		90448,
+		90449,
+		90450,
 		100000,
 		594017,
 		594018,
 		594019,
 		630011,
 		630012,
+		650601,
+		650602,
+		650603,
+		650604,
 		800000,
 		800001,
 		800002,

@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:34}",
-			say = "{namecode:93}，你在幹什麼呀？",
+			say = "{namecode:93}，妳在幹什麼呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "當然可以了，你想寫給誰？",
+			say = "當然可以了，妳想寫給誰？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "你真的要寫？那就過來這邊坐下吧。{namecode:34}也是，我把卡片和筆分給你們。",
+			say = "妳真的要寫？那就過來這邊坐下吧。{namecode:34}也是，我把卡片和筆分給妳們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "那就從這四個字開始教起吧……來，我寫一遍，你們按照我的筆劃跟著寫。",
+			say = "那就從這四個字開始教起吧……來，我寫一遍，妳們按照我的筆劃跟著寫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:55}",
-			say = "咦，{namecode:93}，你們三個在這裡幹什麼呢？",
+			say = "咦，{namecode:93}，妳們三個在這裡幹什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "{namecode:55}，是你幹的吧……",
+			say = "{namecode:55}，是妳幹的吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:33}",
-			say = "{namecode:93}老師，你看我畫的花好看嗎！",
+			say = "{namecode:93}老師，妳看我畫的花好看嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:19}",
-			say = "{namecode:93}，你看吾輩的字寫得好看嗎？",
+			say = "{namecode:93}，妳看吾輩的字寫得好看嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

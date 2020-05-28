@@ -64,7 +64,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈……你還真是在哪兒都老樣子呢。",
+			say = "哈……妳還真是在哪兒都老樣子呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，沒關係，你們只需要保持最基本的警戒就好，有我在，沒有什麼東西是可怕的~",
+			say = "哈哈哈，沒關係，妳們只需要保持最基本的警戒就好，有我在，沒有什麼東西是可怕的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

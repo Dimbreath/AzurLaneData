@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			actorName = "{namecode:95}",
-			say = "哎呀呀……姐姐幫你整理，快去洗漱一下吧",
+			say = "哎呀呀……姐姐幫妳整理，快去洗漱一下吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			actorName = "{namecode:95}",
-			say = "…指揮官在等著你哦？呵呵",
+			say = "…指揮官在等著妳哦？呵呵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

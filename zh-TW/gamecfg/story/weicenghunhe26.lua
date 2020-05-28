@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？你们都很喜欢超级英雄呀~",
+			say = "哦？妳们都很喜欢超级英雄呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错没错~库珀也要像英雄们一样，为了伙伴们和世界的明天而战斗~",
+			say = "没错没错~库珀也要像英雄们一样，为了夥伴们和世界的明天而战斗~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，超级英雄的装备只有你们想不到，没有我没有的~！",
+			say = "嘿嘿，超级英雄的装备只有妳们想不到，没有我没有的~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101440,
-			say = "震惊！！里诺你真的很喜欢英雄呢！",
+			say = "震惊！！里诺妳真的很喜欢英雄呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101440,
-			say = "哎？里诺，你没有想过成为英雄的一员么？",
+			say = "哎？里诺，妳没有想过成为英雄的一员么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "如果你一直紧随英雄的脚步，你终究会变为英雄的一份子，巴尔的摩是这么认为的。",
+			say = "如果妳一直紧随英雄的脚步，妳终究会变为英雄的一份子，巴尔的摩是这么认为的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101440,
-			say = "那接下来的战斗护航也都拜托你了哦，英雄里诺~",
+			say = "那接下来的战斗护航也都拜托妳了哦，英雄里诺~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -23,7 +23,7 @@ return {
 			bgm = "story-nepu1",
 			actor = 10100010,
 			nameColor = "#a9f548",
-			say = "好～那么大家一起～把你们涅普涅普掉～♪",
+			say = "好～那么大家一起～把妳们涅普涅普掉～♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			nameColor = "#a9f548",
 			actor = 201210,
 			actorName = "拉菲＆标枪",
-			say = "把你们涅普涅普掉～♪",
+			say = "把妳们涅普涅普掉～♪",
 			subActors = {
 				{
 					actor = 101170,
@@ -70,7 +70,7 @@ return {
 			nameColor = "#a9f548",
 			actor = 301120,
 			actorName = "{namecode:14}&{namecode:13}",
-			say = "把你们涅普涅普掉～♪",
+			say = "把妳们涅普涅普掉～♪",
 			subActors = {
 				{
 					actor = 301110,
@@ -98,7 +98,7 @@ return {
 			nameColor = "#a9f548",
 			actor = 107030,
 			actorName = "萨拉托加＆圣地亚哥",
-			say = "把你们涅普涅普掉～♪",
+			say = "把妳们涅普涅普掉～♪",
 			subActors = {
 				{
 					actor = 102080,
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的…明明连这里是个什么世界都还没弄清楚，亏你能这么悠哉悠哉的呢",
+			say = "真是的…明明连这里是个什么世界都还没弄清楚，亏妳能这么悠哉悠哉的呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真羡慕你这积极向上的思考模式啊。但毕竟还有伊斯特瓦尔的任务在，还是要尽快调查一下这个世界呢",
+			say = "真羡慕妳这积极向上的思考模式啊。但毕竟还有伊斯特瓦尔的任务在，还是要尽快调查一下这个世界呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -869,7 +869,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你，{namecode:6}。那就拜托了",
+			say = "谢谢妳，{namecode:6}。那就拜托了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -72,7 +72,7 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "哈曼提交的报告书，你还没看吗？",
+			say = "哈曼提交的报告书，妳还没看吗？",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -138,7 +138,7 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "说你没看就是没看！哈曼费了这么大劲才写好的！你怎么赔我！",
+			say = "说妳没看就是没看！哈曼费了这么大劲才写好的！妳怎么赔我！",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -154,7 +154,7 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（小声）还，还想说要是你好好看了就给你点奖励呢……",
+			say = "（小声）还，还想说要是妳好好看了就给妳点奖励呢……",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……什么叫“太突然了没有工作让你做”啊！？明明总是忙个不停为什么不让哈曼帮忙啦！",
+			say = "……什么叫“太突然了没有工作让妳做”啊！？明明总是忙个不停为什么不让哈曼帮忙啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊烦死了！你就赶紧出门去你的演习海域好了啦！",
+			say = "啊烦死了！妳就赶紧出门去妳的演习海域好了啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

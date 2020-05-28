@@ -46,7 +46,7 @@ return {
 			actorName = "{namecode:67}",
 			actor = 303120,
 			nameColor = "#a9f548",
-			say = "我最想要的，就是你呀，指揮官。",
+			say = "我最想要的，就是妳呀，指揮官。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "我當然明白，要獨佔你很難，雖然我很想。",
+			say = "我當然明白，要獨佔妳很難，雖然我很想。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "呐，指揮官，成為只屬於姐姐的存在吧。你只要聽姐姐的話，什麼都不用想……",
+			say = "呐，指揮官，成為只屬於姐姐的存在吧。妳只要聽姐姐的話，什麼都不用想……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "因為這次，我絕不會放過你的♪",
+			say = "因為這次，我絕不會放過妳的♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

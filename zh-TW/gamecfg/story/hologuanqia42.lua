@@ -212,7 +212,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "净化亲",
-			say = "本来是之前给你们制作舰装的时候，突发奇想做的改造，没想到能在这里派上用场。",
+			say = "本来是之前给妳们制作舰装的时候，突发奇想做的改造，没想到能在这里派上用场。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "消灭塞壬是我们作为舰船的职责，不会强迫你们动手的。",
+			say = "消灭塞壬是我们作为舰船的职责，不会强迫妳们动手的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -29,7 +29,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "承让了~你已经尽到你的职责了。",
+			say = "承让了~妳已经尽到妳的职责了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 301790,
-			say = "……{namecode:161}，你是认真的吗？",
+			say = "……{namecode:161}，妳是认真的吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你是指？",
+			say = "妳是指？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 301790,
-			say = "虽然你表现得和往常一样，但是和你交手就感觉出来了……",
+			say = "虽然妳表现得和往常一样，但是和妳交手就感觉出来了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "我从未感觉过你的战意如此昂扬。",
+			say = "我从未感觉过妳的战意如此昂扬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 301790,
-			say = "按照以往的作战风格，你只需在后方运筹帷幄就可以掌控全局，根本不需要采用如此激进的战术..",
+			say = "按照以往的作战风格，妳只需在后方运筹帷幄就可以掌控全局，根本不需要采用如此激进的战术..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 301790,
-			say = "不论你们是谁赢得了最后的胜利，我都会全力的支持她的。",
+			say = "不论妳们是谁赢得了最后的胜利，我都会全力的支持她的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

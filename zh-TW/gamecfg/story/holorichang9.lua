@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			actor = 305051,
 			nameColor = "#a9f548",
-			say = "―――――！？你们是谁！？",
+			say = "―――――！？妳们是谁！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，{namecode:76}和{namecode:77}居然和你们的绫目直接交手了啊…",
+			say = "不过，{namecode:76}和{namecode:77}居然和妳们的绫目直接交手了啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			actor = 305050,
 			nameColor = "#a9f548",
-			say = "啊啊啊……如果你都说到这个份上了的话",
+			say = "啊啊啊……如果妳都说到这个份上了的话",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			say = "而且比你要可爱多了。",
+			say = "而且比妳要可爱多了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，在听到你们提想来参观的时候，{namecode:74}大人是真心地期待着你们的到来",
+			say = "所以，在听到妳们提想来参观的时候，{namecode:74}大人是真心地期待着妳们的到来",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

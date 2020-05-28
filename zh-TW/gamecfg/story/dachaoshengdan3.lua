@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦呀？如果是圣诞礼物相关的事情，萨拉小姐知道一个人或许可以帮上你们哦！",
+			say = "哦呀？如果是圣诞礼物相关的事情，萨拉小姐知道一个人或许可以帮上妳们哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是你的同伴吗？那么有劳带路了。",
+			say = "是妳的同伴吗？那么有劳带路了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

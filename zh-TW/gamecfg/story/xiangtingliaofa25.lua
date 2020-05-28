@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你也这么认为吧，正义的伙伴！",
+			say = "妳也这么认为吧，正义的夥伴！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前我的伯明翰妹妹受你们照顾了，十分感谢！",
+			say = "之前我的伯明翰妹妹受妳们照顾了，十分感谢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "幸亏你们及时赶到，受伤的结果才会止步于严重受损…",
+			say = "幸亏妳们及时赶到，受伤的结果才会止步于严重受损…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奥斯本，你的妹妹们还好么？",
+			say = "奥斯本，妳的妹妹们还好么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次行动的伙伴这么少，大家组成大舰队一路消灭敌人不是更好吗？",
+			say = "这次行动的夥伴这么少，大家组成大舰队一路消灭敌人不是更好吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "无论是我还是克利夫兰，还有蒙彼利埃也好，虽然大家平时不一定会把正义挂在嘴边，但是大家都和你一样是正义的伙伴哦。",
+			say = "无论是我还是克利夫兰，还有蒙彼利埃也好，虽然大家平时不一定会把正义挂在嘴边，但是大家都和妳一样是正义的夥伴哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦！那么正义的伙伴们呀，让我们赶紧把敌人都消灭了吧！",
+			say = "哦哦！那么正义的夥伴们呀，让我们赶紧把敌人都消灭了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -69,7 +69,7 @@ return {
 		{
 			expression = 1,
 			side = 1,
-			say = "欸？{namecode:46}姐？你怎麼知道的——",
+			say = "欸？{namecode:46}姐？妳怎麼知道的——",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -194,7 +194,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "加油，{namecode:48}！姐姐相信你~",
+			say = "加油，{namecode:48}！姐姐相信妳~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			actor = 101271,
 			nameColor = "#a9f548",
-			say = "跟你說哦，我剛才聽到了情報呢，幽靈小姐其實在倉庫！",
+			say = "跟妳說哦，我剛才聽到了情報呢，幽靈小姐其實在倉庫！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

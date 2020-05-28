@@ -17,80 +17,74 @@ end
 function slot4.SetTemplate(slot0, slot1)
 	uv0.super.SetTemplate(slot0, slot1)
 
-	slot0._alert = slot1.alert
-	slot0._prefab = slot1.child_prefab or {}
+	slot0._content = slot1.content
 	slot0._route = slot1.route or {}
 	slot0._reloadTime = slot1.reload_time
-	slot0._moveEndTime = pg.TimeMgr.GetInstance():GetCombatTime() + (slot1.offset_time or 0)
+	slot0._rounds = slot1.rounds
 end
 
 function slot4.doBehaviour(slot0)
-	slot1 = pg.TimeMgr.GetInstance():GetCombatTime()
+	slot0._targetIndex = slot0._targetIndex + 1
 
-	if slot0._moveEndTime and slot0._moveEndTime <= slot1 then
-		slot0._targetIndex = slot0._targetIndex + 1
-		slot0._moveEndTime = nil
+	if slot0._targetIndex <= slot0._rounds then
+		slot2 = uv0.Battle.BattleDataProxy.GetInstance()
+		slot4 = slot0._unit._aoeData:GetPosition()
+		slot5 = Clone(slot0._content)
 
 		if slot0._route[slot0._targetIndex] then
-			slot3 = uv0.Battle.BattleDataProxy.GetInstance()
-			slot5 = slot0._unit._aoeData:GetPosition()
-
-			for slot10, slot11 in pairs(slot2) do
-				if slot10 ~= "count" then
-					Clone(slot0._prefab)[slot10] = slot11
-				end
-			end
-
-			slot8 = nil
-
-			if slot4:GetAreaType() == uv1.AreaType.CUBE then
-				slot16, slot10 = unpack(slot6.cld_data)
-				slot8 = slot0.GenerateRandomRectanglePosition(slot4:GetWidth(), slot4:GetHeight(), slot2.count, math.max(slot16, slot10 or 0))
-			elseif slot4:GetAreaType() == uv1.AreaType.COLUMN then
-				slot15, slot10 = unpack(slot6.cld_data)
-				slot8 = slot0.GenerateRandomCirclePosition(slot4:GetRange(), slot7, math.max(slot15, slot10 or 0))
-			end
-
-			for slot12 = 1, slot7 do
-				slot8[slot12] = slot8[slot12] + slot5
-			end
-
-			seriesAsync({
-				function (slot0)
-					if not uv0._alert then
-						slot0()
-
-						return
-					end
-
-					for slot4 = 1, uv1 do
-						uv0.PlayAlert(uv0._alert, uv2[slot4])
-					end
-
-					uv0:RemoveAlertTimer()
-
-					uv0._alertTimer = pg.TimeMgr.GetInstance():AddBattleTimer("", 1, uv0._alert.delay or 1, slot0, true)
-				end,
-				function (slot0)
-					for slot4 = 1, uv0 do
-						slot5 = Clone(uv1)
-						slot6 = uv2[slot4]
-						slot5.coordinate = {
-							slot6.x,
-							slot6.y,
-							slot6.z
-						}
-
-						uv3:SpawnEnvironment(slot5)
-					end
-				end
-			})
-
-			slot0._moveEndTime = slot1 + slot0._reloadTime
+			table.merge2dest(slot5, slot1)
 		end
+
+		slot8 = nil
+
+		if slot3:GetAreaType() == uv1.AreaType.CUBE then
+			slot16, slot10 = unpack(slot5.child_prefab.cld_data)
+			slot8 = slot0.GenerateRandomRectanglePosition(slot3:GetWidth(), slot3:GetHeight(), slot5.count, math.max(slot16, slot10 or 0))
+		elseif slot3:GetAreaType() == uv1.AreaType.COLUMN then
+			slot15, slot10 = unpack(slot7.cld_data)
+			slot8 = slot0.GenerateRandomCirclePosition(slot3:GetRange(), slot6, math.max(slot15, slot10 or 0))
+		end
+
+		for slot12 = 1, slot6 do
+			slot8[slot12] = slot8[slot12] + slot4
+		end
+
+		seriesAsync({
+			function (slot0)
+				if not uv0.alert then
+					slot0()
+
+					return
+				end
+
+				for slot4 = 1, uv1 do
+					uv3.PlayAlert(uv0.alert, uv2[slot4])
+				end
+
+				uv3:RemoveAlertTimer()
+
+				uv3._alertTimer = pg.TimeMgr.GetInstance():AddBattleTimer("", 1, uv0.alert.delay or 1, slot0, true)
+			end,
+			function (slot0)
+				for slot4 = 1, uv0 do
+					slot5 = Clone(uv1)
+					slot6 = uv2[slot4]
+					slot5.coordinate = {
+						slot6.x,
+						slot6.y,
+						slot6.z
+					}
+
+					uv3:SpawnEnvironment(slot5)
+				end
+			end
+		})
+		uv2.super.doBehaviour(slot0)
+
+		return
 	end
 
-	uv2.super.doBehaviour(slot0)
+	slot0:doExpire()
 end
 
 function slot4.RemoveAlertTimer(slot0)
@@ -192,12 +186,10 @@ function slot4.GenerateRandomCirclePosition(slot0, slot1, slot2)
 		slot6[slot12].weight = 0
 		slot13 = slot12 - 1
 		slot15 = Vector2(0, 0)
-		slot16 = slot5
 
 		for slot20 = slot3, 2, -1 do
-			slot15:Add(slot16 * uv2[slot13 - uv1.floor(slot13 / 7) * 7 + 1])
+			slot15:Add(slot5 * 3 * uv2[slot13 - uv1.floor(slot13 / 7) * 7 + 1])
 
-			slot16 = slot16 * 3
 			slot14 = 1 * 7
 
 			if slot20 > 2 and slot20 == slot3 then
@@ -208,7 +200,7 @@ function slot4.GenerateRandomCirclePosition(slot0, slot1, slot2)
 		end
 
 		slot17 = uv1.random(1, 360)
-		slot18 = uv1.random(1, 1000) / 1000 * (slot5 - slot2) * 0.5
+		slot18 = uv1.random(1, 1000) / 1000 * uv1.max(slot5 - slot2, 0)
 
 		slot15:Add(Vector2(slot18 * uv1.cos(slot17), slot18 * uv1.sin(slot17)))
 		table.insert(slot7, Vector3(slot15.x, 0, slot15.y))

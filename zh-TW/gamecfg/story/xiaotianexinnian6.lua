@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			actor = 102132,
 			nameColor = "#a9f548",
-			say = "不用担心的，海伦娜，克利夫兰怎么可能会那么容易受伤呢？你太多虑了啦。",
+			say = "不用担心的，海伦娜，克利夫兰怎么可能会那么容易受伤呢？妳太多虑了啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			actor = 102132,
 			nameColor = "#a9f548",
-			say = "你看，我说什么来着。回来的正好，这种面条一旦冷掉就不好吃了哦。",
+			say = "妳看，我说什么来着。回来的正好，这种面条一旦冷掉就不好吃了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来了来了，诶？你们的桌子边上，怎么会有一圈被子？",
+			say = "来了来了，诶？妳们的桌子边上，怎么会有一圈被子？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

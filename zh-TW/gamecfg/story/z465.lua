@@ -85,7 +85,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "我們單是要讓自己的艦裝聽話就要費不少力。與其他陣營共存的話更需多加留心。要多謝46你的協助。",
+			say = "我們單是要讓自己的艦裝聽話就要費不少力。與其他陣營共存的話更需多加留心。要多謝46妳的協助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "沒關係。齊柏林是我重要的朋友，出手幫你乃是理所當然。",
+			say = "沒關係。齊柏林是我重要的朋友，出手幫妳乃是理所當然。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "既然如此，我也給你一個建議吧。46，你這個說話口氣能否改一改？",
+			say = "既然如此，我也給妳一個建議吧。46，妳這個說話口氣能否改一改？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "你不是因為難以融入驅逐艦的氛圍而煩惱著嗎。那麼不妨試著學一學？",
+			say = "妳不是因為難以融入驅逐艦的氛圍而煩惱著嗎。那麼不妨試著學一學？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "呵。繼續努力吧。我會支持你的。",
+			say = "呵。繼續努力吧。我會支持妳的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

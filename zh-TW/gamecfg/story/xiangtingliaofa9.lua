@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "法拉格特级驱逐舰...你们就是现在留守长岛的防御舰队吗？",
+			say = "法拉格特级驱逐舰...妳们就是现在留守长岛的防御舰队吗？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "保持距离在后方航行，我们来保护你们的安全。",
+			say = "保持距离在后方航行，我们来保护妳们的安全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

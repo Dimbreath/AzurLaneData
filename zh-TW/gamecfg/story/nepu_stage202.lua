@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "姆姆？未见其人先闻其声，你是空气嘛？",
+			say = "姆姆？未见其人先闻其声，妳是空气嘛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊斯特瓦尔，关于那些冒牌货，你了解多少呢？",
+			say = "伊斯特瓦尔，关于那些冒牌货，妳了解多少呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬...？虽然不是很明白，不过听你的说法应该是些阴险的家伙吧。不过居然能制造出能使出全力的女神...",
+			say = "塞壬...？虽然不是很明白，不过听妳的说法应该是些阴险的家伙吧。不过居然能制造出能使出全力的女神...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

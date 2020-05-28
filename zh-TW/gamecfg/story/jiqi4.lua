@@ -610,7 +610,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，没关系的。顺便一提，{namecode:96}，要在分清楚敌友之后再攻击哦？你刚刚过于紧张了呢。",
+			say = "呵呵，没关系的。顺便一提，{namecode:96}，要在分清楚敌友之后再攻击哦？妳刚刚过于紧张了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "对，对不起…吓到你了",
+			say = "对，对不起…吓到妳了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为惩罚，你的天妇罗要分一半给指挥官和小鱼们哦。",
+			say = "作为惩罚，妳的天妇罗要分一半给指挥官和小鱼们哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

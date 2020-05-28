@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 401020,
 			nameColor = "#a9f548",
-			say = "真是的，都怪欧根你在宴会阶段就醉倒了，仪式厅里发生了什么我们都没看到",
+			say = "真是的，都怪欧根妳在宴会阶段就醉倒了，仪式厅里发生了什么我们都没看到",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对的，你的睡像演得可真好——",
+			say = "对的，妳的睡像演得可真好——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，还记得你在酒会时说的事情吗？",
+			say = "嗯，还记得妳在酒会时说的事情吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

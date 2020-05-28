@@ -91,7 +91,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			actorName = "测试怪人",
-			say = "说的不错。我还要继续工作，你就再陪她们玩一阵子吧。",
+			say = "说的不错。我还要继续工作，妳就再陪她们玩一阵子吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500050,
-			say = "余和其它伙伴也参与过改造工程，在天气好的时候乘坐的话，可以浏览hololive全景哦~",
+			say = "余和其它夥伴也参与过改造工程，在天气好的时候乘坐的话，可以浏览hololive全景哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

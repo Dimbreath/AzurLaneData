@@ -45,7 +45,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是暂时性的调动，不用太担心了。你怀疑皇家跟这件事有关系？",
+			say = "只是暂时性的调动，不用太担心了。妳怀疑皇家跟这件事有关系？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些先不说，之前给你的资料看了么？",
+			say = "这些先不说，之前给妳的资料看了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_newyork",
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "企业…你刚刚说什么？",
+			say = "企业…妳刚刚说什么？",
 			flashout = {
 				dur = 0.15,
 				alpha = {

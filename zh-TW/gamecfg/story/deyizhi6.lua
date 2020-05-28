@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "没错。她不管如何都是我们的伙伴。但是我们太过于谨慎反而伤到了她……真是事与愿违呢。",
+			say = "没错。她不管如何都是我们的夥伴。但是我们太过于谨慎反而伤到了她……真是事与愿违呢。",
 			subActors = {
 				{
 					actor = 403040,
@@ -479,7 +479,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没这个必要呢……格奈森瑙，你说对吧？",
+			say = "没这个必要呢……格奈森瑙，妳说对吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "松开抱着她的手。德意志打开门，出现在伙伴们的面前",
+			say = "松开抱着她的手。德意志打开门，出现在夥伴们的面前",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是瞒不过欧根你。",
+			say = "真是瞒不过欧根妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然啦。……于是你要怎么处罚我们呢。",
+			say = "当然啦。……于是妳要怎么处罚我们呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "——沉默片刻后，少女向伙伴们道出了心声",
+			say = "——沉默片刻后，少女向夥伴们道出了心声",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让我成为你们的伙伴，真的谢谢大家——",
+			say = "让我成为妳们的夥伴，真的谢谢大家——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -39,7 +39,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你鼓励我指挥官，可事到如今都是我的责任……作为队长，我要怎么面对一路努力过来的队员和指挥官……",
+			say = "谢谢妳鼓励我指挥官，可事到如今都是我的责任……作为队长，我要怎么面对一路努力过来的队员和指挥官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "行了！让你们看看就是了！……回头一定要让你后悔拿我开心！",
+			say = "行了！让妳们看看就是了！……回头一定要让妳后悔拿我开心！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你指挥官！！我爱你！！！",
+			say = "谢谢妳指挥官！！我爱妳！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

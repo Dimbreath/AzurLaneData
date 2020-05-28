@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "哈啊哈啊，吸血鬼妹妹今天還是一如既往地…不對，你知道這些衣服怎麼來的嗎？",
+			say = "哈啊哈啊，吸血鬼妹妹今天還是一如既往地…不對，妳知道這些衣服怎麼來的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

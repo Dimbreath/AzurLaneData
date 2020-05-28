@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
-			say = "指揮官給我揉揉肩膀嘛~我會給你回禮的哦~？",
+			say = "指揮官給我揉揉肩膀嘛~我會給妳回禮的哦~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
-			say = "好~給你我的回禮~",
+			say = "好~給妳我的回禮~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

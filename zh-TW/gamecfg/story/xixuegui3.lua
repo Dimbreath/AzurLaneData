@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "指揮官這個大笨蛋，大傻瓜，大木頭，人家再也不理你了！",
+			say = "指揮官這個大笨蛋，大傻瓜，大木頭，人家再也不理妳了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "標槍，你有沒有什麼不舒服的地方？",
+			say = "標槍，妳有沒有什麼不舒服的地方？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "螢火蟲，不要整天用你的頭撞來撞去，過來躺下，讓人家來照顧你。",
+			say = "螢火蟲，不要整天用妳的頭撞來撞去，過來躺下，讓人家來照顧妳。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "雖然我個人是想這麼做，不過……指揮官在找你呢。",
+			say = "雖然我個人是想這麼做，不過……指揮官在找妳呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

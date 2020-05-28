@@ -95,7 +95,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "啊，是的。你好，胡德前辈。",
+			say = "啊，是的。妳好，胡德前辈。",
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前送你的茶叶，试过了吗？",
+			say = "之前送妳的茶叶，试过了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你喜欢就好，对茶叶还感兴趣的话，随时来找我哦？",
+			say = "妳喜欢就好，对茶叶还感兴趣的话，随时来找我哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "半人马，给你糖，记得来找我们玩哦！",
+			say = "半人马，给妳糖，记得来找我们玩哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "好的~我晚点再去找你们~",
+			say = "好的~我晚点再去找妳们~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

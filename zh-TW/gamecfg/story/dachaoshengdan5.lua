@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 205020,
 			nameColor = "#a9f548",
-			say = "刚才……有些言重了。其实，我们是想向有经验的你请教如何帮大家选择礼物。",
+			say = "刚才……有些言重了。其实，我们是想向有经验的妳请教如何帮大家选择礼物。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这……这么说，你早就计划好要挑选什么样的礼物了吗？请务必告诉我秘诀！",
+			say = "这……这么说，妳早就计划好要挑选什么样的礼物了吗？请务必告诉我秘诀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "计划？秘诀？哈哈哈，我想你应该是误会了。圣诞礼物是不需要挑选的呀。",
+			say = "计划？秘诀？哈哈哈，我想妳应该是误会了。圣诞礼物是不需要挑选的呀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "只要能够将自己关心伙伴的心意通过礼物传达给对方，无论礼物的种类如何，只要对方感受到了你的心意，都会十分高兴的吧，至少我是这么觉得。",
+			say = "只要能够将自己关心夥伴的心意通过礼物传达给对方，无论礼物的种类如何，只要对方感受到了妳的心意，都会十分高兴的吧，至少我是这么觉得。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "就是这样！那么，接下来你就要去当皇家的圣诞老人了吧？",
+			say = "就是这样！那么，接下来妳就要去当皇家的圣诞老人了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "说起来，你有准备适合圣诞氛围的服装吗？",
+			say = "说起来，妳有准备适合圣诞氛围的服装吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小天鹅……谢谢你！你满满的心意已经确确实实地传达到了！",
+			say = "小天鹅……谢谢妳！妳满满的心意已经确确实实地传达到了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

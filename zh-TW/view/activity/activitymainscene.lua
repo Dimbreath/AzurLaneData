@@ -20,7 +20,7 @@ slot1 = {
 		className = "ChargeAwardPage",
 		uiName = "chargeawardpage"
 	},
-	[ActivityConst.ACTIVITY_TYPE_RETURN_AWARD_ID2] = {
+	[ActivityConst.ACTIVITY_TYPE_RETURN_AWARD_ID3] = {
 		className = "Returner.ReturnAwardPage",
 		uiName = "returnawardpage"
 	},
@@ -507,6 +507,34 @@ slot1 = {
 	[ActivityConst.FRANCE_ICON_TASK] = {
 		className = "FranceIconTaskPage",
 		uiName = "FranceIconTaskPage"
+	},
+	[ActivityConst.FRANCE_SP] = {
+		className = "FranceSpPage",
+		uiName = "FranceSpPage"
+	},
+	[ActivityConst.PIZZAHUT_PT_PAGE] = {
+		className = "PizzahutPTPage",
+		uiName = "PizzahutPTPage"
+	},
+	[ActivityConst.FRANCE_MIAN_PAGE] = {
+		className = "FranceMainPage",
+		uiName = "FranceMainPage"
+	},
+	[ActivityConst.TOWERCLIMBING_SIGN] = {
+		className = "TowerClimbingSignPage",
+		uiName = "TowerClimbingSignPage"
+	},
+	[ActivityConst.FRANCE_PT_PAGE] = {
+		className = "FrancePTPage",
+		uiName = "FrancePTPage"
+	},
+	[ActivityConst.THIRD_ANNIVERSARY_PAGE] = {
+		className = "ThirdAnniversaryPage",
+		uiName = "ThirdAnniversaryPage"
+	},
+	[ActivityConst.JIQILIFU_SKIN] = {
+		className = "JiqilifuSkinPage",
+		uiName = "JiqilifuSkinPage"
 	}
 }
 slot2 = {

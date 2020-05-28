@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-1",
 			actor = 401190,
 			nameColor = "#ff5c5c",
-			say = "你们是怎么突破进来的？！",
+			say = "妳们是怎么突破进来的？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201160,
-			say = "这个问题，去问你们巡逻的人吧！",
+			say = "这个问题，去问妳们巡逻的人吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……你说得对。",
+			say = "……妳说得对。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唔，好吧……反正我说不过你。",
+			say = "唔，好吧……反正我说不过妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

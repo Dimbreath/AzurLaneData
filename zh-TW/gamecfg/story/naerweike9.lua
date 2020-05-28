@@ -121,7 +121,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "事到如今，就算猎人你突然怕了，我也不会管你哦？",
+			say = "事到如今，就算猎人妳突然怕了，我也不会管妳哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "那我就稍微期待一下，你所说的雪景吧。",
+			say = "那我就稍微期待一下，妳所说的雪景吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

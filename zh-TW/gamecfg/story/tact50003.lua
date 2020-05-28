@@ -48,7 +48,7 @@ return {
 			actor = 103080,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "欸，那你把外套脱了过来姐姐帮你拿着吧。",
+			say = "欸，那妳把外套脱了过来姐姐帮妳拿着吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "话是这么说……唔，不行，我不甘心，昆西，这次任务结束后来教我怎么才能变得像你一样知道得那么多。",
+			say = "话是这么说……唔，不行，我不甘心，昆西，这次任务结束后来教我怎么才能变得像妳一样知道得那么多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "唔，真是没办法，过来吧，我来背你。",
+			say = "唔，真是没办法，过来吧，我来背妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

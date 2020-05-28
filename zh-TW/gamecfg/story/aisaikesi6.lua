@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "当你抱着这种想法的时候，就已经偏离自己的道路了啊。",
+			say = "当妳抱着这种想法的时候，就已经偏离自己的道路了啊。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -170,7 +170,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你的进步大家有目共睹，这次的平局也算是预料之中",
+			say = "妳的进步大家有目共睹，这次的平局也算是预料之中",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道你要用“前辈没有尽全力”来否定掉自己一直以来努力训练的成果吗？",
+			say = "难道妳要用“前辈没有尽全力”来否定掉自己一直以来努力训练的成果吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你那股一心求胜的执着，也要随着这个平局一并消逝了吗？",
+			say = "妳那股一心求胜的执着，也要随着这个平局一并消逝了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯，你是我引以为傲的后辈，也是我认可的对手之一",
+			say = "埃塞克斯，妳是我引以为傲的后辈，也是我认可的对手之一",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你的顶点不会是我，也不会是别人，而是你自己。",
+			say = "妳的顶点不会是我，也不会是别人，而是妳自己。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对自己更有信心一点，你的实力远不止于此",
+			say = "对自己更有信心一点，妳的实力远不止于此",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "指挥官，你觉得呢？",
+			say = "指挥官，妳觉得呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了。谢谢你，企业前辈，如果没有前辈的一番话，我现在恐怕还会处在迷茫之中吧",
+			say = "我明白了。谢谢妳，企业前辈，如果没有前辈的一番话，我现在恐怕还会处在迷茫之中吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "也、也谢谢你，指挥官",
+			say = "也、也谢谢妳，指挥官",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

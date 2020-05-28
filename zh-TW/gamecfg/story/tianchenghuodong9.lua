@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "“以包围迫近玉将”——你已经无路可退了。",
+			say = "“以包围迫近玉将”——妳已经无路可退了。",
 			bgm = "battle-boss-tiancheng",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305070,
-			say = "居然不知不觉地被包围了吗…原来之前的你一直都在隐藏实力…",
+			say = "居然不知不觉地被包围了吗…原来之前的妳一直都在隐藏实力…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305070,
-			say = "最后还是输给了你一手…",
+			say = "最后还是输给了妳一手…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "好吧，输给这样的你，我心服口服。",
+			say = "好吧，输给这样的妳，我心服口服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "喂！你这家伙，可别得寸进尺啊！",
+			say = "喂！妳这家伙，可别得寸进尺啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不管怎么说，你在战斗时完全不顾周围一切的行动也太鲁莽了！",
+			say = "不管怎么说，妳在战斗时完全不顾周围一切的行动也太鲁莽了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "如果这次不是演习而是实战的话，{namecode:92}你现在可就…",
+			say = "如果这次不是演习而是实战的话，{namecode:92}妳现在可就…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "维希教廷的驱逐舰队，你们怎么会在这里……？",
+			say = "维希教廷的驱逐舰队，妳们怎么会在这里……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 1,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "等等，你难道是……敦刻尔克？！",
+			say = "等等，妳难道是……敦刻尔克？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

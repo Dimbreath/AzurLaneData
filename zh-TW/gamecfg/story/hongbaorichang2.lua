@@ -353,7 +353,7 @@ return {
 			actor = 202101,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "还有黑太子，你已经摆弄那个留声机很久了。",
+			say = "还有黑太子，妳已经摆弄那个留声机很久了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			actor = 202101,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哦、哦哦…那就麻烦你了，{namecode:97}小姐。",
+			say = "哦、哦哦…那就麻烦妳了，{namecode:97}小姐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

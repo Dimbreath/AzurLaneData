@@ -31,7 +31,7 @@ return {
 			dir = 1,
 			actor = 701040,
 			nameColor = "#a9f548",
-			say = "…这样，果然是陷入危机了吗，就让塔什干来挽救你们吧",
+			say = "…这样，果然是陷入危机了吗，就让塔什干来挽救妳们吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

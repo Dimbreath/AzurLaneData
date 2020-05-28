@@ -66,7 +66,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "净化者",
-			say = "唉，你们一直耗在我这边真的好么，那边，越烧越厉害了哦？",
+			say = "唉，妳们一直耗在我这边真的好么，那边，越烧越厉害了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "净化者",
-			say = "背后吗…居然是你这个不起眼的小姑娘，大意了…",
+			say = "背后吗…居然是妳这个不起眼的小姑娘，大意了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102230,
-			say = "朱诺…做的不错，这样大家也会对你刮目相看了吧。",
+			say = "朱诺…做的不错，这样大家也会对妳刮目相看了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

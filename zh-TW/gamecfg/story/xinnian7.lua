@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:92}",
-			say = "{namecode:91}……你居然還記得參拜……",
+			say = "{namecode:91}……妳居然還記得參拜……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 307022,
 			actorName = "{namecode:92}",
-			say = "也謝謝你的破魔矢，我會好好保管的。",
+			say = "也謝謝妳的破魔矢，我會好好保管的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			}
 		},
 		{
-			say = "願望說出來就不靈了啦！而且你這個也算不上願望吧！",
+			say = "願望說出來就不靈了啦！而且妳這個也算不上願望吧！",
 			side = 1,
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:93}",

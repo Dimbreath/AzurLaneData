@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是遇到危险一定要大声呼救哦……我们会立刻去帮你的",
+			say = "要是遇到危险一定要大声呼救哦……我们会立刻去帮妳的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10300020,
-			say = "姐姐大人，露露缇耶大人……好的！拜托你们了！",
+			say = "姐姐大人，露露缇耶大人……好的！拜托妳们了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -54,33 +54,84 @@ function getPlayerOwn(slot0, slot1)
 	return slot2, slot3
 end
 
-function slot0.tranOwnShipSkin(slot0)
+function slot0.addTranDrop(slot0)
 	slot1 = {}
+	slot2 = pg.item_data_statistics
+	slot3 = pg.ship_skin_template
 
-	for slot7, slot8 in ipairs(slot0) do
-		slot9 = nil
+	for slot8, slot9 in ipairs(slot0) do
+		slot10, slot11 = function (slot0)
+			if slot0.type == DROP_TYPE_SKIN then
+				slot1 = slot0.number or slot0.count
 
-		if slot8.type == DROP_TYPE_SKIN and getProxy(ShipSkinProxy):hasNonLimitSkin(slot8.id) then
-			slot10, slot11 = Player.skin2Res(slot8.id)
-			slot9 = {
-				type = DROP_TYPE_RESOURCE,
-				id = slot10,
-				count = slot11,
-				name = pg.item_data_statistics[id2ItemId(slot10)].name .. "(" .. pg.ship_skin_template[slot8.id].name .. ")"
-			}
-		else
-			slot9 = (slot8.type ~= DROP_TYPE_NPC_SHIP or {
-				count = 1,
-				type = slot8.type,
-				id = slot8.number or slot8.count
-			}) and {
-				type = slot8.type,
-				id = slot8.id,
-				count = slot8.number or slot8.count
-			}
+				warning(slot1)
+
+				if slot1 == 0 then
+					return Item.New({
+						count = 1,
+						type = slot0.type,
+						id = slot0.id
+					})
+				else
+					slot2, slot3 = Player.skin2Res(slot0.id, slot1)
+
+					return Item.New({
+						type = DROP_TYPE_RESOURCE,
+						id = slot2,
+						count = slot3,
+						name = uv0[id2ItemId(slot2)].name .. "(" .. uv1[slot0.id].name .. ")"
+					})
+				end
+			elseif slot0.type == DROP_TYPE_NPC_SHIP then
+				return Item.New({
+					count = 1,
+					type = slot0.type,
+					id = slot0.number or slot0.count
+				})
+			elseif slot0.type == DROP_TYPE_VITEM and Item.IsSkinCoupun(slot0.id) then
+				slot2 = Item.VItem2SkinCouponShopId(slot0.id)
+
+				if not getProxy(ActivityProxy):ExistSkinCouponActivity() then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_timeout_tip", uv0[slot0.id].name))
+
+					return
+				elseif slot1:ExistSkinCouponActivityAndShopId(slot2) then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", uv0[slot0.id].name))
+
+					return
+				elseif getProxy(ShipSkinProxy):hasSkin(pg.shop_template[slot2].effect_args[1]) then
+					if (slot0.number or slot0.count) > 1 then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", uv0[slot0.id].name))
+					end
+
+					return Item.New({
+						id = 14,
+						type = DROP_TYPE_RESOURCE,
+						count = pg.shop_discount_coupon_template[slot2].change,
+						name = uv0[id2ItemId(14)].name .. "(" .. uv0[slot0.id].name .. ")"
+					}), Item.New({
+						count = 1,
+						type = slot0.type,
+						id = slot0.id
+					})
+				end
+			end
+
+			return Item.New({
+				type = slot0.type,
+				id = slot0.id,
+				count = slot0.number or slot0.count
+			})
+		end(slot9)
+
+		if slot10 then
+			table.insert(slot1, slot10)
+			pg.m02:sendNotification(GAME.ADD_ITEM, slot10)
 		end
 
-		table.insert(slot1, Item.New(slot9))
+		if slot11 then
+			pg.m02:sendNotification(GAME.ADD_ITEM, slot11)
+		end
 	end
 
 	return slot1

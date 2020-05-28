@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前在镜面海域里没有时间细问。你们所处的世界，究竟是一个什么样的世界？",
+			say = "之前在镜面海域里没有时间细问。妳们所处的世界，究竟是一个什么样的世界？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于你们的世界，可以再告诉我一些情报么？",
+			say = "关于妳们的世界，可以再告诉我一些情报么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我只是有些好奇，能让你们这样不懂得战斗的人都能活下去的「普通的世界」，是什么样的世界。",
+			say = "我只是有些好奇，能让妳们这样不懂得战斗的人都能活下去的「普通的世界」，是什么样的世界。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从和平的世界而来的人，是你们这个样子么…",
+			say = "从和平的世界而来的人，是妳们这个样子么…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说不定，就这样让那家伙跟你回去也是个不错的选择",
+			say = "说不定，就这样让那家伙跟妳回去也是个不错的选择",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "喂，你们别把我这个伤员撇在一边擅自营造出很好的氛围啊！倒是来扶我一下啊！",
+			say = "喂，妳们别把我这个伤员撇在一边擅自营造出很好的氛围啊！倒是来扶我一下啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，诗音酱，悄悄告诉你，今天{namecode:158}知道你一个人冲出去时，可是第一个赶过去救你的。",
+			say = "好啦，诗音酱，悄悄告诉妳，今天{namecode:158}知道妳一个人冲出去时，可是第一个赶过去救妳的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			blackBg = true,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "不要加这种破坏气氛而且只有你懂的吐槽啦！",
+			say = "不要加这种破坏气氛而且只有妳懂的吐槽啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

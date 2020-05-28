@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"角落的向日葵\n\n<size=45>三 新的伙伴？</size>",
+					"角落的向日葵\n\n<size=45>三 新的夥伴？</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 308041,
 			nameColor = "#a9f548",
-			say = "哎呀，你是……",
+			say = "哎呀，妳是……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -58,7 +58,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿～你们好呀，重樱的潜艇，我是铁血的U522！",
+			say = "嘿嘿～妳们好呀，重樱的潜艇，我是铁血的U522！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_103",
-			say = "不好意思突然跳出来吓到你们啦",
+			say = "不好意思突然跳出来吓到妳们啦",
 			dir = 1,
 			actor = 408070,
 			nameColor = "#a9f548",
@@ -153,7 +153,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "于是你们刚才在搞什么呢？",
+			say = "于是妳们刚才在搞什么呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			actor = 308041,
 			nameColor = "#a9f548",
-			say = "……没想到，56你这么关注大家…",
+			say = "……没想到，56妳这么关注大家…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

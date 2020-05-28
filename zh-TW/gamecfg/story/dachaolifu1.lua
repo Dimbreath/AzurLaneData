@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感到荣幸吧，终于有你能发挥的机会了，仆人！",
+			say = "感到荣幸吧，终于有妳能发挥的机会了，仆人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			actor = 403053,
 			nameColor = "#a9f548",
-			say = "非常抱歉，指挥官，姐姐给你添麻烦了…另外也谢谢指挥官帮忙一起筹办了这场宴会……",
+			say = "非常抱歉，指挥官，姐姐给妳添麻烦了…另外也谢谢指挥官帮忙一起筹办了这场宴会……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

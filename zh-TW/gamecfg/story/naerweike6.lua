@@ -43,7 +43,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "对了，勇敢，你知道吗？",
+			say = "对了，勇敢，妳知道吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我……不知道，我没看过，你看过吗？",
+			say = "我……不知道，我没看过，妳看过吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……搞不懂，你的想法还真奇怪。",
+			say = "……搞不懂，妳的想法还真奇怪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

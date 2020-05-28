@@ -5,77 +5,55 @@ function slot0.Ctor(slot0, slot1)
 
 	slot0.chapter = nil
 	slot0.triggerUpper = nil
-	slot0.refattachments = nil
+end
+
+function slot0.GetOrder(slot0)
+	return ChapterConst.CellPriorityAttachment
 end
 
 function slot0.Update(slot0)
-	slot1 = slot0.info
-	slot4 = slot1.data
-	slot5 = slot0.chapter
-	slot7 = pg.map_event_template[slot1.attachmentId].icon
-	slot8 = "story_" .. slot1.row .. "_" .. slot1.column .. "_" .. slot1.attachmentId
-	slot0.active = slot1.flag == 3 and slot1.trait ~= ChapterConst.TraitLurk
+	slot2 = slot0.info.flag == 3 and slot1.trait ~= ChapterConst.TraitLurk
 
-	if slot0.updateExe then
-		return
+	if IsNil(slot0.go) then
+		slot5 = slot1.data
+		slot6 = slot0.chapter
+
+		slot0:PrepareBase("story_" .. slot1.row .. "_" .. slot1.column .. "_" .. slot1.attachmentId)
+
+		if pg.map_event_template[slot1.attachmentId].icon and #slot8 > 0 then
+			slot0:GetLoader():GetPrefab("ui/" .. slot8 .. "_1", slot8 .. "_1", function (slot0)
+				slot0.transform:SetParent(uv0.tf, false)
+			end)
+		end
+
+		slot10 = slot8 .. "_1shangceng"
+
+		if IsNil(slot0.triggerUpper) then
+			slot13 = GameObject.New(slot9 .. "_upper")
+
+			slot13:AddComponent(typeof(RectTransform))
+			tf(slot13):SetParent(slot0.cellRoot, false)
+
+			tf(slot13).localPosition = slot6.theme:GetLinePosition(slot3, slot4)
+			tf(slot13).localEulerAngles = Vector3(-slot6.theme.angle, 0, 0)
+
+			if slot8 and #slot8 > 0 then
+				slot0:GetLoader():GetPrefab("ui/" .. slot10, slot10, function (slot0)
+					tf(slot0):SetParent(tf(uv0), false)
+				end)
+			end
+
+			slot0.triggerUpper = HaloAttachmentView.New(slot13, slot3, slot4)
+		end
 	end
 
-	slot0.updateExe = AsyncExcutionRequestPackage.New({
-		function (slot0)
-			if IsNil(uv0.go) then
-				uv0.go = GameObject.New(uv1)
-				uv0.tf = uv0.go:AddComponent(typeof(RectTransform))
-
-				uv0.go.transform:SetParent(uv0.parent, false)
-
-				uv0.tf.sizeDelta = uv0.parent.sizeDelta
-
-				uv0.tf:SetAsFirstSibling()
-				uv0:GetPrefab("ui/" .. uv2 .. "_1", uv2 .. "_1", function (slot0)
-					slot0.transform:SetParent(uv0.tf, false)
-				end)
-			end
-
-			slot1 = uv2 .. "_1shangceng"
-
-			slot0("ui/" .. slot1, slot1)
-		end,
-		function (slot0, slot1, slot2)
-			if IsNil(uv0.triggerUpper) then
-				slot3 = GameObject.New(uv1 .. "_upper")
-				uv0.triggerUpper = slot3:AddComponent(typeof(RectTransform))
-
-				uv0.triggerUpper:SetParent(uv0.cellRoot, false)
-
-				uv0.triggerUpper.localPosition = uv2.theme:GetLinePosition(uv3, uv4)
-				uv0.triggerUpper.localEulerAngles = Vector3(-uv2.theme.angle, 0, 0)
-
-				table.insert(uv0.refattachments, HaloAttachmentView.New(slot3.transform, uv3, uv4))
-				uv0:GetPrefab(slot1, slot2, function (slot0)
-					slot0.transform:SetParent(uv0.triggerUpper, false)
-				end)
-			end
-
-			slot0()
-		end,
-		function (slot0)
-			setActive(uv0.tf, uv0.active)
-			setActive(uv0.triggerUpper, uv0.active)
-
-			uv0.updateExe = nil
-		end
-	}):Start()
+	setActive(slot0.tf, slot2)
+	setActive(slot0.triggerUpper.go, slot2)
 end
 
 function slot0.DestroyGO(slot0)
-	if slot0.updateExe then
-		slot0.updateExe:Stop()
-	end
-
-	slot0.updateExe = nil
-
 	if slot0.triggerUpper then
-		Destroy(slot0.triggerUpper)
+		slot0.triggerUpper:Clear()
 	end
 
 	slot0.triggerUpper = nil

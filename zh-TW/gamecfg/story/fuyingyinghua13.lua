@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 900192,
 			actorName = "？？？",
-			say = "……没有和你沟通的必要。",
+			say = "……没有和妳沟通的必要。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			actor = 900012,
 			actorName = "观察者",
-			say = "关键点G姑且不论，你们成员全都是这种个性么…？",
+			say = "关键点G姑且不论，妳们成员全都是这种个性么…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			actor = 900012,
 			actorName = "观察者",
-			say = "自从你们到来后的这几个月，子终端的消耗量和工作占用率整整提升了314个百分点。",
+			say = "自从妳们到来后的这几个月，子终端的消耗量和工作占用率整整提升了314个百分点。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			actor = 900192,
 			actorName = "？？？",
-			say = "原来是来打听她的计划的……与你无关，消失吧。",
+			say = "原来是来打听她的计划的……与妳无关，消失吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			actor = 302040,
 			nameColor = "#a9f548",
-			say = "啊对，其实是想问问你要不要一起去神社的…{namecode:73}也要一起去吗？",
+			say = "啊对，其实是想问问妳要不要一起去神社的…{namecode:73}也要一起去吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -321,7 +321,7 @@ return {
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说得好！虽然战场历练得少，到底还是白鹰优秀的战士。很荣幸与你并肩战斗，巴尔的摩级的布莱默顿。",
+			say = "说得好！虽然战场历练得少，到底还是白鹰优秀的战士。很荣幸与妳并肩战斗，巴尔的摩级的布莱默顿。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "布莱默顿",
-			say = "彼此彼此~很荣幸能同你并肩战斗，埃塞克斯级的邦克山小姐~",
+			say = "彼此彼此~很荣幸能同妳并肩战斗，埃塞克斯级的邦克山小姐~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,12 +7,14 @@ slot5 = import("view.util.RequestPackages.GetSpriteRequestPackage")
 slot6 = import("view.util.RequestPackages.ReturnPrefabRequestPackage")
 slot7 = import("view.util.RequestPackages.ReturnSpineRequestPackage")
 slot8 = import("view.util.RequestPackages.DestroyAtlasPoolRequestPackage")
+slot0.PartLoading = 1
+slot0.PartLoaded = 2
 
 function slot0.Ctor(slot0)
 	slot0._loadingRequest = {}
 	slot0._returnRequest = {}
-	slot0._insKeyDict = {}
-	slot0._keyInsDict = {}
+	slot0._instKeyDict = {}
+	slot0._keyInstDict = {}
 end
 
 function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4)
@@ -21,8 +23,8 @@ function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4)
 	slot5 = nil
 	slot5 = uv0.New(slot1, slot2 or "", function (slot0)
 		uv0._loadingRequest[uv1] = nil
-		uv0._insKeyDict[slot0] = uv1
-		uv0._keyInsDict[uv1] = slot0
+		uv0._instKeyDict[slot0] = uv1
+		uv0._keyInstDict[uv1] = slot0
 		uv0._returnRequest[uv1] = uv2.New(uv3, uv4, slot0)
 
 		if uv5 then
@@ -35,7 +37,7 @@ function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.ReturnPrefab(slot0, slot1)
-	slot0:ClearRequest(slot0._insKeyDict[go(slot1)])
+	slot0:ClearRequest(slot0._instKeyDict[go(slot1)])
 end
 
 function slot0.GetSpine(slot0, slot1, slot2, slot3)
@@ -48,8 +50,8 @@ function slot0.GetSpine(slot0, slot1, slot2, slot3)
 	slot4 = nil
 	slot4 = uv0.New(slot1 or "", function (slot0)
 		uv0._loadingRequest[uv1] = nil
-		uv0._insKeyDict[slot0] = uv1
-		uv0._keyInsDict[uv1] = slot0
+		uv0._instKeyDict[slot0] = uv1
+		uv0._keyInstDict[uv1] = slot0
 		uv0._returnRequest[uv1] = uv2.New(uv3, slot0)
 
 		if uv4 then
@@ -62,7 +64,7 @@ function slot0.GetSpine(slot0, slot1, slot2, slot3)
 end
 
 function slot0.ReturnSpine(slot0, slot1)
-	slot0:ClearRequest(slot0._insKeyDict[go(slot1)])
+	slot0:ClearRequest(slot0._instKeyDict[go(slot1)])
 end
 
 function slot0.GetSprite(slot0, slot1, slot2, slot3, slot4)
@@ -85,7 +87,7 @@ function slot0.GetSprite(slot0, slot1, slot2, slot3, slot4)
 
 	slot7:Start()
 
-	slot0._returnRequest["Atlas/" .. slot1] = uv1.New(slot1)
+	slot0._returnRequest[slot1] = uv1.New(slot1)
 end
 
 function slot0.GetOffSpriteRequest(slot0, slot1)
@@ -129,23 +131,63 @@ function slot0.LoadSprite(slot0, slot1, slot2, slot3, slot4)
 	slot7:Start()
 end
 
-function slot0.ClearRequest(slot0, slot1)
-	if slot0._loadingRequest[slot1] then
+function slot0.LoadReference(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot0:ClearRequest(slot5)
+
+	slot6 = nil
+	slot6 = uv0.New(slot1, slot2 or "", slot3, slot4, function (slot0)
+		uv0._loadingRequest[uv1] = nil
+
+		if uv2 then
+			uv2(go)
+		end
+	end)
+	slot0._loadingRequest[slot5 or #slot0._loadingRequest + 1] = slot6
+
+	slot6:Start()
+end
+
+function slot0.DestroyAtlas(slot0, slot1)
+	slot0:ClearRequest(slot1)
+end
+
+function slot0.GetRequestPackage(slot0, slot1, slot2)
+	slot2 = slot2 or uv0.PartLoading + uv0.PartLoaded
+
+	return bit.band(slot2, uv0.PartLoading) > 0 and slot0._loadingRequest[slot1] or bit.band(slot2, uv0.PartLoaded) > 0 and slot0._returnRequest[slot1]
+end
+
+function slot0.GetLoadingRP(slot0, slot1)
+	return slot0._loadingRequest[slot1]
+end
+
+function slot0.ClearRequest(slot0, slot1, slot2)
+	if (not slot2 or bit.band(slot2, uv0.PartLoading) > 0) and slot0._loadingRequest[slot1] then
 		slot0._loadingRequest[slot1]:Stop()
 
 		slot0._loadingRequest[slot1] = nil
 	end
 
-	if slot0._returnRequest[slot1] then
-		slot0._returnRequest[slot1]:Start()
+	if not slot2 or bit.band(slot2, uv0.PartLoaded) > 0 then
+		if slot0._returnRequest[slot1] then
+			slot0._returnRequest[slot1]:Start()
 
-		slot0._returnRequest[slot1] = nil
+			slot0._returnRequest[slot1] = nil
+		end
+
+		if slot0._keyInstDict[slot1] then
+			slot0._instKeyDict[slot0._keyInstDict[slot1]] = nil
+			slot0._keyInstDict[slot1] = nil
+		end
+	end
+end
+
+function slot0.ClearLoadingRequests(slot0)
+	for slot4, slot5 in pairs(slot0._loadingRequest) do
+		slot5:Stop()
 	end
 
-	if slot0._keyInsDict[slot1] then
-		slot0._insKeyDict[slot0._keyInsDict[slot1]] = nil
-		slot0._keyInsDict[slot1] = nil
-	end
+	table.clear(slot0._loadingRequest)
 end
 
 function slot0.ClearRequests(slot0)
@@ -160,8 +202,8 @@ function slot0.ClearRequests(slot0)
 	end
 
 	table.clear(slot0._returnRequest)
-	table.clear(slot0._insKeyDict)
-	table.clear(slot0._keyInsDict)
+	table.clear(slot0._instKeyDict)
+	table.clear(slot0._keyInstDict)
 end
 
 function slot0.Clear(slot0)

@@ -28,7 +28,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "果然……吗，你们的胆子还真是大。",
+			say = "果然……吗，妳们的胆子还真是大。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201160,
-			say = "没错，光凭你们，能不能胜过我们，还不知道呢！",
+			say = "没错，光凭妳们，能不能胜过我们，还不知道呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

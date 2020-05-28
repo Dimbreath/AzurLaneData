@@ -11,7 +11,7 @@ return {
 			bgm = "level-uta",
 			actor = 900011,
 			actorName = "测试者",
-			say = "我还想着怎么净化者这么烦人……没想到你们真的在这儿啊",
+			say = "我还想着怎么净化者这么烦人……没想到妳们真的在这儿啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "测试者",
-			say = "啊你们不必费心，是我们自己的事情……虽然有点超出预想，不过也就是给收集数据稍微添了点麻烦的程度罢了",
+			say = "啊妳们不必费心，是我们自己的事情……虽然有点超出预想，不过也就是给收集数据稍微添了点麻烦的程度罢了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "测试者",
-			say = "在这种地方浪费时间真的好吗，你们的朋友们现在可是惹了大麻烦了哦？",
+			say = "在这种地方浪费时间真的好吗，妳们的朋友们现在可是惹了大麻烦了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10300010,
-			say = "你们……对她们俩做了什么？！",
+			say = "妳们……对她们俩做了什么？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "测试者",
-			say = "又不是我干的……不过你们也懂的吧，这里就是那种海域……为了战斗而存在的舞台",
+			say = "又不是我干的……不过妳们也懂的吧，这里就是那种海域……为了战斗而存在的舞台",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "测试者",
-			say = "而且，袭击她们的是她们熟悉得不能再熟悉的人……想必你们也已经体验过了吧",
+			say = "而且，袭击她们的是她们熟悉得不能再熟悉的人……想必妳们也已经体验过了吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "测试者",
-			say = "虽然我觉得她们现在应该还没事，不过你们最好快点哦。——拜啦",
+			say = "虽然我觉得她们现在应该还没事，不过妳们最好快点哦。——拜啦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "久远小姐，你们的伙伴里还有没找到的人吗？",
+			say = "久远小姐，妳们的夥伴里还有没找到的人吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "出发吧，久远小姐。——我们也来帮你们！",
+			say = "出发吧，久远小姐。——我们也来帮妳们！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

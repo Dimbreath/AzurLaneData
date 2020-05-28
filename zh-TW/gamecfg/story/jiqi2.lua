@@ -255,7 +255,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，我照着指挥官的安排，和其他伙伴们一起帮助{namecode:98}度过了仓库的危机！",
+			say = "哼哼，我照着指挥官的安排，和其他夥伴们一起帮助{namecode:98}度过了仓库的危机！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

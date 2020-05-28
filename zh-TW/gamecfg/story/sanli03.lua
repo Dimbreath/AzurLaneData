@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:95}",
-			say = "………{namecode:96}…你快走吧，我會盡全力掩護你的！至少…",
+			say = "………{namecode:96}…妳快走吧，我會盡全力掩護妳的！至少…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

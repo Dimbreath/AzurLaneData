@@ -63,7 +63,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "指揮官真是好人喵…好吧！材料和設計圖都給你喵！把“那個”完成了交給{namecode:98}，{namecode:98}就加入指揮官的艦隊喵！",
+			say = "指揮官真是好人喵…好吧！材料和設計圖都給妳喵！把“那個”完成了交給{namecode:98}，{namecode:98}就加入指揮官的艦隊喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

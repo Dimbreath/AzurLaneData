@@ -29,7 +29,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "“以三金银守玉将”没想到你也学会了以守为攻呢。",
+			say = "“以三金银守玉将”没想到妳也学会了以守为攻呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305070,
-			say = "还不都是跟你学来的。实话说，在战术计略上，我确实略逊你一筹…",
+			say = "还不都是跟妳学来的。实话说，在战术计略上，我确实略逊妳一筹…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305070,
-			say = "然而，论实战，我可不会在你之下！",
+			say = "然而，论实战，我可不会在妳之下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那就这样如何——如果你赢了，我就辅助你，为你排除前路上所有的障碍。",
+			say = "那就这样如何——如果妳赢了，我就辅助妳，为妳排除前路上所有的障碍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "但是，如果我赢了，那你就要乖乖协助我——",
+			say = "但是，如果我赢了，那妳就要乖乖协助我——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

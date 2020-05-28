@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 10400020,
 			actorName = "绊爱",
-			say = "这都多亏了的大家的热心指导！谢谢你们！",
+			say = "这都多亏了的大家的热心指导！谢谢妳们！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱小姐，晚安。祝你做个好梦",
+			say = "爱小姐，晚安。祝妳做个好梦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			say = "这、这点小事就害怕可不行！让你们见识一下和大家一起训练的成果吧！嘿呀啊啊啊————！！！",
+			say = "这、这点小事就害怕可不行！让妳们见识一下和大家一起训练的成果吧！嘿呀啊啊啊————！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			say = "是绊爱舰队的各位！？谢谢～！不过，为什么你们会在这里！？",
+			say = "是绊爱舰队的各位！？谢谢～！不过，为什么妳们会在这里！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			actor = 303118,
 			actorName = "{namecode:66}酱",
-			say = "这个姑且不说，你是不是也该来看看我们了呢？",
+			say = "这个姑且不说，妳是不是也该来看看我们了呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			actor = 403038,
 			actorName = "欧根酱",
-			say = "已经等了你好久了哦？",
+			say = "已经等了妳好久了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			actorName = "{namecode:95}酱",
-			say = "呵呵呵，让我们等太久的话，就要对你做点恶作剧了哦？",
+			say = "呵呵呵，让我们等太久的话，就要对妳做点恶作剧了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，在{namecode:98}写信关切之前就要去见见她才行啦。今天也要出击，赶快做好准备吧。{namecode:13}先到外面等你哦",
+			say = "真是的，在{namecode:98}写信关切之前就要去见见她才行啦。今天也要出击，赶快做好准备吧。{namecode:13}先到外面等妳哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,7 +764,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，嗯…谢谢你叫醒我，{namecode:13}酱",
+			say = "啊，嗯…谢谢妳叫醒我，{namecode:13}酱",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

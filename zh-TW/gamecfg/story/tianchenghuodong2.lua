@@ -214,7 +214,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，算是意料之中的分配吗，{namecode:161}…只要在这里把你击败的话…",
+			say = "哼，算是意料之中的分配吗，{namecode:161}…只要在这里把妳击败的话…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

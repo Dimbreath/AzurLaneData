@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "噗哈哈…邦克山，接待讲话这种工作果然还是不适合你啊！",
+			say = "噗哈哈…邦克山，接待讲话这种工作果然还是不适合妳啊！",
 			effects = {
 				{
 					active = false,
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…好久不见。咳，埃塞克斯、还有企业…前辈？，现在向你们汇报要塞驻防情况。",
+			say = "嗯…好久不见。咳，埃塞克斯、还有企业…前辈？，现在向妳们汇报要塞驻防情况。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都是并肩作战的伙伴，直接叫我企业就好。",
+			say = "大家都是并肩作战的夥伴，直接叫我企业就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "咦？企业发现什么线索了么，要不要我们陪你去？",
+			say = "咦？企业发现什么线索了么，要不要我们陪妳去？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

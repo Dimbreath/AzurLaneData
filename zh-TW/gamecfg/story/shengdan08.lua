@@ -98,7 +98,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎呀，真是拍到了不少好照片呀，都是很棒的回憶呢，指揮官你看——",
+			say = "哎呀，真是拍到了不少好照片呀，都是很棒的回憶呢，指揮官妳看——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈嘍~大家的聖誕偶像，聖誕牙哥登場，指揮官~給你帶了祝福和歌聲來啦~",
+			say = "哈嘍~大家的聖誕偶像，聖誕牙哥登場，指揮官~給妳帶了祝福和歌聲來啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

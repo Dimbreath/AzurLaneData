@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "必须要立刻清除掉…而且刚才镜面海域贝露你不也是彻底的干掉了自己的冒牌货吗……",
+			say = "必须要立刻清除掉…而且刚才镜面海域贝露妳不也是彻底的干掉了自己的冒牌货吗……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "该死的……贝露你倒是一点遇事不惊的。这下还是回不去原来的世界啊？",
+			say = "该死的……贝露妳倒是一点遇事不惊的。这下还是回不去原来的世界啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……出现了。贝露这个估计都是病了……真是的，没空理你…",
+			say = "……出现了。贝露这个估计都是病了……真是的，没空理妳…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

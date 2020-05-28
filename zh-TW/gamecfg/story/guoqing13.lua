@@ -28,7 +28,7 @@ return {
 		},
 		{
 			side = 0,
-			say = "哼哼，也許只是你的對手幸運值更高罷了～",
+			say = "哼哼，也許只是妳的對手幸運值更高罷了～",
 			actorName = "{namecode:96}",
 			actor = 307060,
 			nameColor = "#a9f548",
@@ -54,7 +54,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "好了，把你知道的陰謀都告訴我",
+			say = "好了，把妳知道的陰謀都告訴我",
 			shake = {
 				speed = 1,
 				number = 3
@@ -111,7 +111,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "被帶來的嗎...果然和情報所說的“聖域”一樣。看來你沒有撒謊。",
+			say = "被帶來的嗎...果然和情報所說的“聖域”一樣。看來妳沒有撒謊。",
 			shake = {
 				speed = 1,
 				number = 3
@@ -206,7 +206,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "明白了，祝你好運～",
+			say = "明白了，祝妳好運～",
 			shake = {
 				speed = 1,
 				number = 3

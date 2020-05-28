@@ -11,7 +11,7 @@ return {
 			bgm = "level-uta",
 			actor = 900011,
 			actorName = "测试者",
-			say = "哎呀，你们成功汇合了啊……挺不错嘛，小姑娘们",
+			say = "哎呀，妳们成功汇合了啊……挺不错嘛，小姑娘们",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10300010,
-			say = "承您吉言…你以为我会这么说吗",
+			say = "承您吉言…妳以为我会这么说吗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			say = "你们盗用我们的世界的技术，打开了通向这个世界的通道也就算了，还造出了这么个诡异的空间，这都是你们的实验吗！",
+			say = "妳们盗用我们的世界的技术，打开了通向这个世界的通道也就算了，还造出了这么个诡异的空间，这都是妳们的实验吗！",
 			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}你知道什么的内情的吗",
+			say = "{namecode:98}妳知道什么的内情的吗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，这次轮到我们来帮助你们咯？",
+			say = "那么，这次轮到我们来帮助妳们咯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "久远小姐，难道你……",
+			say = "久远小姐，难道妳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

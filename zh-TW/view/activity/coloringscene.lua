@@ -1,19 +1,9 @@
 slot0 = class("ColoringScene", import("view.base.BaseUI"))
-slot0.Letters = {
-	"A",
-	"B",
-	"C",
-	"D",
-	"E",
-	"F",
-	"G",
-	"H",
-	"I"
-}
 slot1 = 387
 slot2 = 467
 slot3 = 812.5
 slot4 = 1200
+slot5 = Vector2(49, -436.12)
 
 function slot0.getUIName(slot0)
 	return "ColoringUI"
@@ -44,30 +34,47 @@ function slot0.init(slot0)
 	slot0.line = slot0:findTF("line", slot0.bg)
 	slot0.btnHelp = slot0:findTF("top/btnHelp")
 	slot0.btnShare = slot0:findTF("top/btnShare")
-	slot0.colorgroupbehind = slot0:findTF("center/colorgroupbehind")
 	slot0.colorgroupfront = slot0:findTF("center/colorgroupfront")
 	slot0.scrollColor = slot0:findTF("color_bar/scroll")
-	slot0.groupColor = slot0:findTF("content", slot0.scrollColor)
 	slot0.barExtra = slot0:findTF("color_bar/extra")
 	slot0.toggleEraser = slot0:findTF("eraser", slot0.barExtra)
 	slot0.btnEraserAll = slot0:findTF("eraser_all", slot0.barExtra)
 	slot0.arrowDown = slot0:findTF("arrow", slot0.barExtra)
-	slot0.paintsgroup = {}
-	slot1 = 1
-
-	while true do
-		if not slot0:findTF(slot1, slot0.colorgroupbehind) then
-			break
-		end
-
-		table.insert(slot0.paintsgroup, slot2)
-
-		slot1 = slot1 + 1
-	end
 
 	setActive(slot0.cell, false)
 	setActive(slot0.line, false)
 	setActive(slot0.barExtra, false)
+
+	slot0.loader = AutoLoader.New()
+end
+
+function slot0.DidMediatorRegisterDone(slot0)
+	slot6 = "content"
+	slot5 = #slot0.colorGroups[1]:getConfig("color_id_list")
+	slot0.colorPlates = slot0:Clone2Full(slot0:findTF(slot6, slot0.scrollColor), slot5)
+
+	for slot5, slot6 in ipairs(slot0.colorPlates) do
+		slot0.loader:GetSprite("ui/coloring_atlas", string.char(string.byte("A") + slot5 - 1), slot6:Find("icon"))
+	end
+
+	slot0.coloringUIGroupName = "ColoringUIGroupSize" .. #slot0.colorGroups
+
+	PoolMgr.GetInstance():GetUI(slot0.coloringUIGroupName, false, function (slot0)
+		slot3 = uv0
+		slot4 = slot3
+
+		setParent(slot0, slot3.findTF(slot4, "center"))
+		setAnchoredPosition(slot0, uv1)
+		tf(slot0):SetSiblingIndex(1)
+		setActive(slot0, true)
+
+		uv0.colorgroupbehind = tf(slot0)
+		uv0.paintsgroup = {}
+
+		for slot4 = uv0.colorgroupbehind.childCount - 1, 0, -1 do
+			table.insert(uv0.paintsgroup, uv0.colorgroupbehind:GetChild(slot4))
+		end
+	end)
 end
 
 function slot0.didEnter(slot0)
@@ -148,7 +155,7 @@ function slot0.initColoring(slot0)
 
 	slot0.selectedColorIndex = 0
 
-	triggerToggle(slot0.groupColor:GetChild(0), true)
+	triggerToggle(slot0.colorPlates[1], true)
 end
 
 function slot0.initInteractive(slot0)
@@ -173,8 +180,8 @@ function slot0.initInteractive(slot0)
 		end, SFX_PANEL)
 	end
 
-	for slot4 = 0, slot0.groupColor.childCount - 1 do
-		onToggle(slot0, slot0.groupColor:GetChild(slot4), function (slot0)
+	for slot4 = 0, #slot0.colorPlates - 1 do
+		onToggle(slot0, slot0.colorPlates[slot4 + 1], function (slot0)
 			slot1 = uv0:findTF("icon", uv1)
 
 			if slot0 then
@@ -193,8 +200,8 @@ function slot0.initInteractive(slot0)
 	end
 
 	onToggle(slot0, slot0.toggleEraser, function ()
-		if uv0.selectedColorIndex > 0 and uv0.selectedColorIndex <= uv0.groupColor.childCount then
-			triggerToggle(uv0.groupColor:GetChild(uv0.selectedColorIndex - 1), false)
+		if uv0.selectedColorIndex > 0 and uv0.selectedColorIndex <= #uv0.colorPlates then
+			triggerToggle(uv0.colorPlates[uv0.selectedColorIndex], false)
 		end
 
 		uv0.selectedColorIndex = 0
@@ -202,9 +209,11 @@ function slot0.initInteractive(slot0)
 end
 
 function slot0.updatePage(slot0)
-	for slot4, slot5 in pairs(slot0.paintsgroup) do
+	warning("UpdatePage")
+
+	for slot4, slot5 in ipairs(slot0.paintsgroup) do
 		setActive(slot5:Find("lock"), slot0.colorGroups[slot4]:getState() == ColorGroup.StateLock)
-		setActive(slot5:Find("get"), slot8 == ColorGroup.StateAchieved)
+		setActive(slot5:Find("get"), slot7 == ColorGroup.StateAchieved)
 	end
 
 	slot2 = 0
@@ -224,8 +233,8 @@ function slot0.updateSelectedColoring(slot0)
 	slot1 = slot0.colorGroups[slot0.selectedIndex]
 	slot3 = slot1.colors
 
-	for slot7 = 0, slot0.groupColor.childCount - 1 do
-		setText(slot0.groupColor:GetChild(slot7):Find("icon/x/nums"), slot0.colorItems[slot1:getConfig("color_id_list")[slot7 + 1]] or 0)
+	for slot7 = 1, #slot0.colorPlates do
+		setText(slot0.colorPlates[slot7]:Find("icon/x/nums"), slot0.colorItems[slot1:getConfig("color_id_list")[slot7]] or 0)
 	end
 
 	slot4 = slot1:getConfig("name")
@@ -351,7 +360,7 @@ function slot0.updateCell(slot0, slot1, slot2)
 		if slot5 then
 			setImageColor(slot8:Find("image"), slot3.colors[slot5.type])
 		else
-			setText(slot10, uv0.Letters[slot4.type])
+			setText(slot10, string.char(string.byte("A") + slot4.type - 1))
 		end
 
 		setActive(slot9, slot5)
@@ -480,6 +489,25 @@ end
 function slot0.onBackPressed(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 	triggerButton(slot0.btnBack)
+end
+
+function slot0.willExit(slot0)
+	slot0.loader:Clear()
+	PoolMgr.GetInstance():ReturnUI(slot0.coloringUIGroupName, slot0.colorgroupbehind)
+end
+
+function slot0.Clone2Full(slot0, slot1, slot2)
+	slot4 = slot1:GetChild(0)
+
+	for slot9 = 0, slot1.childCount - 1 do
+		table.insert({}, slot1:GetChild(slot9))
+	end
+
+	for slot9 = slot5, slot2 - 1 do
+		table.insert(slot3, tf(cloneTplTo(slot4, slot1)))
+	end
+
+	return slot3
 end
 
 return slot0

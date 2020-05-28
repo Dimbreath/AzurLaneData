@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			say = "啊，指挥官！你来啦！",
+			say = "啊，指挥官！妳来啦！",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,

@@ -144,7 +144,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "不是企業，是“聖誕老人”哦~來，這是你的禮物，聖誕快樂~",
+			say = "不是企業，是“聖誕老人”哦~來，這是妳的禮物，聖誕快樂~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -210,7 +210,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "不是企業，是“聖誕老人”，接著你的禮物~聖誕快樂~",
+			say = "不是企業，是“聖誕老人”，接著妳的禮物~聖誕快樂~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "嗯哼，先交涉再做进一步的决策，你们考虑得还算挺周到的，不错！",
+			say = "嗯哼，先交涉再做进一步的决策，妳们考虑得还算挺周到的，不错！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -444,7 +444,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“陛下就拜托你了”吗？呵呵，真是",
+			say = "“陛下就拜托妳了”吗？呵呵，真是",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

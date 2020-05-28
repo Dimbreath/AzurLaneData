@@ -316,7 +316,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官，你还好么，指挥官？",
+			say = "指挥官，妳还好么，指挥官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			say = "早上好，指挥官~这里是我控制的量产型上哦，你的指挥舰已经在刚才的战斗中被摧毁了",
+			say = "早上好，指挥官~这里是我控制的量产型上哦，妳的指挥舰已经在刚才的战斗中被摧毁了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			say = "没错！既然已经清醒了，指挥就拜托你了哦，指挥官！",
+			say = "没错！既然已经清醒了，指挥就拜托妳了哦，指挥官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			actor = 10500010,
 			actorName = "名侦探吹雪",
-			say = "怎…怎么可能…这张卡怎么会在你的手上！？（倒",
+			say = "怎…怎么可能…这张卡怎么会在妳的手上！？（倒",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

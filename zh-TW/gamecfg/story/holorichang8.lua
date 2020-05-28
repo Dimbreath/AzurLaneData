@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			actor = 305040,
 			nameColor = "#a9f548",
-			say = "好洞察力！在这里为你们来一场重樱演武。",
+			say = "好洞察力！在这里为妳们来一场重樱演武。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			say = "唔唔唔......没办法了，余作为鬼神的一面，今天就向你们展示一下吧",
+			say = "唔唔唔......没办法了，余作为鬼神的一面，今天就向妳们展示一下吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			actor = 10500050,
 			nameColor = "#a9f548",
-			say = "面对真正姿态的余，你们承受得住么！",
+			say = "面对真正姿态的余，妳们承受得住么！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

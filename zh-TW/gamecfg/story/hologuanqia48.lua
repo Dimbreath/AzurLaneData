@@ -195,7 +195,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们打算做什么…？",
+			say = "妳们打算做什么…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬科技的危险性你刚刚也看到了，依靠塞壬的力量最后带来的只有毁灭…",
+			say = "塞壬科技的危险性妳刚刚也看到了，依靠塞壬的力量最后带来的只有毁灭…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

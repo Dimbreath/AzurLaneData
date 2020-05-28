@@ -106,7 +106,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀～企业你也不用太过自责啦，被迫返航补给也不能算是我们的错嘛",
+			say = "哎呀～企业妳也不用太过自责啦，被迫返航补给也不能算是我们的错嘛",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……我知道了，你说得对。",
+			say = "……我知道了，妳说得对。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "抱歉，萨拉，明明你也在担心列星頓，还要让你来安慰我……",
+			say = "抱歉，萨拉，明明妳也在担心列星頓，还要让妳来安慰我……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "说得对，我也要向你学习，连带姐姐的份，向重樱讨回来才行。",
+			say = "说得对，我也要向妳学习，连带姐姐的份，向重樱讨回来才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

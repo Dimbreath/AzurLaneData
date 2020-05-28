@@ -190,7 +190,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgName = "bg_xinnong_cg1",
-			say = "{namecode:179}、{namecode:50}、{namecode:175}，今天三人都辛苦了哦。我代表参会的诸位来宾敬你们一杯~",
+			say = "{namecode:179}、{namecode:50}、{namecode:175}，今天三人都辛苦了哦。我代表参会的诸位来宾敬妳们一杯~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgName = "bg_xinnong_cg1",
-			say = "说起来上一次见你的时候，你还没有正式服役吧。当时你还是个跟在…………",
+			say = "说起来上一次见妳的时候，妳还没有正式服役吧。当时妳还是个跟在…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgName = "bg_xinnong_cg1",
-			say = "一晃这么多年过去了……{namecode:91}，现在居然由你在引领重樱前进的方向啊",
+			say = "一晃这么多年过去了……{namecode:91}，现在居然由妳在引领重樱前进的方向啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgName = "bg_xinnong_cg1",
-			say = "你是说“新生重樱联合”吗，那不过是和一些同好们组成的互助社团，不用在意，不用在意",
+			say = "妳是说“新生重樱联合”吗，那不过是和一些同好们组成的互助社团，不用在意，不用在意",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgName = "bg_xinnong_cg1",
-			say = "希望重樱回归繁荣昌盛，是我们每个人的信念！这一点你们也一样吧？",
+			say = "希望重樱回归繁荣昌盛，是我们每个人的信念！这一点妳们也一样吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgName = "bg_xinnong_cg1",
-			say = "呵呵~据说从来不愿出门的神巫女{namecode:74}大人，可是也加入了你们的“社团”哦",
+			say = "呵呵~据说从来不愿出门的神巫女{namecode:74}大人，可是也加入了妳们的“社团”哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgName = "bg_xinnong_cg1",
-			say = "五航战，不要在这种场合舞刀弄剑的！{namecode:95}，好好管教好你的妹妹",
+			say = "五航战，不要在这种场合舞刀弄剑的！{namecode:95}，好好管教好妳的妹妹",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgName = "bg_xinnong_cg1",
-			say = "真是的，{namecode:96}，在{namecode:82}大人和{namecode:91}大人面前多失礼！啊，你要离开一会？好吧，大家请继续享受宴会~♪",
+			say = "真是的，{namecode:96}，在{namecode:82}大人和{namecode:91}大人面前多失礼！啊，妳要离开一会？好吧，大家请继续享受宴会~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,7 +848,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgName = "bg_xinnong_cg1",
-			say = "哈哈哈，你一下也沾太多了",
+			say = "哈哈哈，妳一下也沾太多了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

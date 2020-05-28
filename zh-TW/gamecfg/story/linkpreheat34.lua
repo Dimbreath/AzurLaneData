@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就拜托你们了喵。乌璐露&萨拉娜",
+			say = "就拜托妳们了喵。乌璐露&萨拉娜",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

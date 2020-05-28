@@ -105,7 +105,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是我必须搞清楚你不是在胡乱地下达指令！",
+			say = "但是我必须搞清楚妳不是在胡乱地下达指令！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你！",
+			say = "妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎呀，埃克塞特姐姐，我家妹妹平时就是这样没大没小的，让你生气了我替她向你道歉。",
+			say = "哎呀，埃克塞特姐姐，我家妹妹平时就是这样没大没小的，让妳生气了我替她向妳道歉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，电报的位置在南大西洋，而拉普拉塔河口作为那一带航线最为拥堵的地方，如果你是斯佩伯爵，会不会想去那个能给敌人造成最大损伤的地方？",
+			say = "呵呵呵，电报的位置在南大西洋，而拉普拉塔河口作为那一带航线最为拥堵的地方，如果妳是斯佩伯爵，会不会想去那个能给敌人造成最大损伤的地方？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………我知道了，但愿你的判断没有出错，还有——",
+			say = "…………我知道了，但愿妳的判断没有出错，还有——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "回去后我会把你的一言一行都上报给军部的！",
+			say = "回去后我会把妳的一言一行都上报给军部的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊哈哈，你们关系不错嘛~",
+			say = "啊哈哈，妳们关系不错嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>二、思乡</size>",
+					"阿芙乐尔和愉快的夥伴们\n\n<size=45>二、思乡</size>",
 					1
 				}
 			}
@@ -264,7 +264,7 @@ return {
 			optionFlag = 1,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "指挥官，你还好么？",
+			say = "指挥官，妳还好么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			optionFlag = 2,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "指挥官，你没事吧？",
+			say = "指挥官，妳没事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在聊起北方联合伙伴们的趣事时，她毫不掩饰自己的开心。",
+			say = "在聊起北方联合夥伴们的趣事时，她毫不掩饰自己的开心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

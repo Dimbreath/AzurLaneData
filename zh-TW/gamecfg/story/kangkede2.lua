@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
-			say = "放心吧~小羅利吃不下的部分，就由我來幫你品嘗~",
+			say = "放心吧~小羅利吃不下的部分，就由我來幫妳品嘗~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "star_level_bg_104",
-			say = "姐姐，你不是說要減肥麼…一來就拿了五人份的蛋糕——",
+			say = "姐姐，妳不是說要減肥麼…一來就拿了五人份的蛋糕——",
 			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
@@ -315,7 +315,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "話說回來，康克德你不也拿了很多甜品了嘛。",
+			say = "話說回來，康克德妳不也拿了很多甜品了嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我說你們啊……",
+			say = "我說妳們啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

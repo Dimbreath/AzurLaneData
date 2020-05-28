@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			actor = 301130,
 			actorName = "{namecode:15}",
-			say = "{namecode:19}、{namecode:19}和{namecode:24}你們也來勸勸啊……",
+			say = "{namecode:19}、{namecode:19}和{namecode:24}妳們也來勸勸啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			actor = 301170,
 			actorName = "{namecode:19}",
-			say = "哈哈哈！你看指揮官不也在看戲嘛！",
+			say = "哈哈哈！妳看指揮官不也在看戲嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			actorName = "{namecode:17}",
 			actor = 301150,
 			nameColor = "#a9f548",
-			say = "哈…哈…沒想到這傢伙這麼厲害……說你光運氣好是錯怪你了呢……",
+			say = "哈…哈…沒想到這傢伙這麼厲害……說妳光運氣好是錯怪妳了呢……",
 			flashout = {
 				dur = 1,
 				black = true,

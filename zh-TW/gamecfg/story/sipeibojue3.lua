@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>“有人与你一同出航，有人与你并肩战斗”</size>",
+					"<size=51>“有人与妳一同出航，有人与妳并肩战斗”</size>",
 					1.5
 				},
 				{
@@ -19,11 +19,11 @@ return {
 					3
 				},
 				{
-					"<size=51>“即便是失败，只要有能彼此安慰的伙伴”</size>",
+					"<size=51>“即便是失败，只要有能彼此安慰的夥伴”</size>",
 					4.5
 				},
 				{
-					"<size=51>“你就不会感到那么孤独了吧”</size>",
+					"<size=51>“妳就不会感到那么孤独了吧”</size>",
 					6
 				}
 			}
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有干劲是件好事，但是申请的演习海域使用时间已经到了，还是说你要妨碍指挥官的安排吗？",
+			say = "有干劲是件好事，但是申请的演习海域使用时间已经到了，还是说妳要妨碍指挥官的安排吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那斯佩你呢？你的“愿望”又是什么呢？",
+			say = "那斯佩妳呢？妳的“愿望”又是什么呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

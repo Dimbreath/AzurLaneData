@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你好啊，我叫久远——",
+			say = "妳好啊，我叫久远——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			actor = 10300010,
 			nameColor = "#a9f548",
-			say = "虽然是这样没错，怎么说呢…我怎么感觉一直是我在照顾你",
+			say = "虽然是这样没错，怎么说呢…我怎么感觉一直是我在照顾妳",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,7 +915,7 @@ return {
 			dir = 1,
 			actor = 10300030,
 			nameColor = "#a9f548",
-			say = "啊，对了，独角兽大人。作为朋友的象征，这本书送给你",
+			say = "啊，对了，独角兽大人。作为朋友的象征，这本书送给妳",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -965,7 +965,7 @@ return {
 			dir = 1,
 			actor = 10300010,
 			nameColor = "#a9f548",
-			say = "等下露露缇耶！你怎么能给这么纯洁的孩子看这种东西！？",
+			say = "等下露露缇耶！妳怎么能给这么纯洁的孩子看这种东西！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

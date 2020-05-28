@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次行动要麻烦你们了。",
+			say = "这次行动要麻烦妳们了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事没事，这是我们应该做的，毕竟你可是我们的“大明星”哦！",
+			say = "没事没事，这是我们应该做的，毕竟妳可是我们的“大明星”哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900236,
-			say = "唔，那可不行，斯特拉斯堡特别叮嘱我们一定要保证你的安全。",
+			say = "唔，那可不行，斯特拉斯堡特别叮嘱我们一定要保证妳的安全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你要是这么说，那可就代表我们这三个月白费了哦？",
+			say = "妳要是这么说，那可就代表我们这三个月白费了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，你说得对，不论如何我的事已经麻烦你们很多了。",
+			say = "不，妳说得对，不论如何我的事已经麻烦妳们很多了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 904010,
-			say = "我应该向你道歉的，抱歉，沃克兰，这次护航就拜托了你们哦。",
+			say = "我应该向妳道歉的，抱歉，沃克兰，这次护航就拜托了妳们哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……没事没事，我才是，经常被说说话不经大脑，希望你不要介意~",
+			say = "……没事没事，我才是，经常被说说话不经大脑，希望妳不要介意~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900236,
-			say = "热情和叛逆，还有凯尔森已经先一步去确保航线了，就差你了，准备好了么？",
+			say = "热情和叛逆，还有凯尔森已经先一步去确保航线了，就差妳了，准备好了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			actor = 900236,
 			nameColor = "#a9f548",
-			say = "喂，塔尔图，你又走神了吧！",
+			say = "喂，塔尔图，妳又走神了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900236,
-			say = "算了…是和你较劲的我不好。",
+			say = "算了…是和妳较劲的我不好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

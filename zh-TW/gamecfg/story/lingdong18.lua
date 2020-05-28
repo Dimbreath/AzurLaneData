@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "淨化者",
-			say = "記住，我們塞壬是你們的敵人，是侵佔你們海權、引發戰爭的大惡人~",
+			say = "記住，我們塞壬是妳們的敵人，是侵佔妳們海權、引發戰爭的大惡人~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "淨化者",
-			say = "我們還有更多，更強的怪物在等著你們~努力變得更強吧，我們還會再見面的",
+			say = "我們還有更多，更強的怪物在等著妳們~努力變得更強吧，我們還會再見面的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被奪走了皇冠的北方女王嗎…如果這就是你所期望的宿命",
+			say = "被奪走了皇冠的北方女王嗎…如果這就是妳所期望的宿命",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			actorName = "測試者",
-			say = "那麼，你也該回到新的載體了吧——淨化者",
+			say = "那麼，妳也該回到新的載體了吧——淨化者",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

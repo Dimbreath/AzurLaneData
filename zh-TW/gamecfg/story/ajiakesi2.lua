@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 203080,
 			nameColor = "#a9f548",
-			say = "阿贾克斯，你这人真是——！",
+			say = "阿贾克斯，妳这人真是——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "埃克塞特前辈才是，太执着于皇家的荣耀了吧？在那种情况下分割己方战力，是打算独自面对敌方主力吗？那样的话我也不拦着你就是了♪",
+			say = "埃克塞特前辈才是，太执着于皇家的荣耀了吧？在那种情况下分割己方战力，是打算独自面对敌方主力吗？那样的话我也不拦着妳就是了♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			blackBg = true,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "…就是这样我才喜欢你呀。呵呵♪",
+			say = "…就是这样我才喜欢妳呀。呵呵♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

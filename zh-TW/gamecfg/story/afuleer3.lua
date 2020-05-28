@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>三、特别的欢迎会</size>",
+					"阿芙乐尔和愉快的夥伴们\n\n<size=45>三、特别的欢迎会</size>",
 					1
 				}
 			}
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "阿芙乐尔同志，我们为你准备了一个特别的欢迎会！",
+			say = "阿芙乐尔同志，我们为妳准备了一个特别的欢迎会！",
 			effects = {
 				{
 					active = false,
@@ -341,7 +341,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欢迎会？但是，对这个港区而言，该被欢迎的不是你们才对吗？",
+			say = "欢迎会？但是，对这个港区而言，该被欢迎的不是妳们才对吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们……",
+			say = "妳们……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

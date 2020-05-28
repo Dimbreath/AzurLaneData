@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，今天一定会让你笑出来的！",
+			say = "指挥官，今天一定会让妳笑出来的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "难道是{namecode:162}弄错了？唔……指挥官，你来摸我的头试试？",
+			say = "难道是{namecode:162}弄错了？唔……指挥官，妳来摸我的头试试？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

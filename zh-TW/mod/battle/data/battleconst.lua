@@ -193,6 +193,8 @@ slot0.ShakeType = {
 slot0.BuffEffectType = {
 	ON_INIT_GAME = "onInitGame",
 	ON_START_GAME = "onStartGame",
+	ON_MANUAL = "onManual",
+	ON_AUTOBOT = "onAutoBot",
 	ON_FLAG_SHIP = "onFlagShip",
 	ON_UPPER_CONSORT = "onUpperConsort",
 	ON_LOWER_CONSORT = "onLowerConsort",
@@ -316,5 +318,6 @@ slot0.EnviroumentBehaviour = {
 	MOVEMENT = 4,
 	FORCE = 5,
 	SPAWN = 6,
-	PLAY_SFX = 7
+	PLAY_SFX = 7,
+	SHAKE_SCREEN = 8
 }

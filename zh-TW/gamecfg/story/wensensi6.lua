@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			actor = 103080,
 			nameColor = "#a9f548",
-			say = "唔唔唔，我该教些什么呢……啊，对了，我来教你指挥官喜欢吃什么吧！",
+			say = "唔唔唔，我该教些什么呢……啊，对了，我来教妳指挥官喜欢吃什么吧！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			actor = 103130,
 			nameColor = "#a9f548",
-			say = "文森斯，我来教你打猎！…话说为什么我也加入了教授的行列…",
+			say = "文森斯，我来教妳打猎！…话说为什么我也加入了教授的行列…",
 			flashout = {
 				dur = 0.5,
 				black = true,

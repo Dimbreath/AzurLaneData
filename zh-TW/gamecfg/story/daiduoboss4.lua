@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			actor = 202100,
 			nameColor = "#a9f548",
-			say = "在你站在主人面前的时候，我们女仆队全员的辅助都是为了你能更好的战斗",
+			say = "在妳站在主人面前的时候，我们女仆队全员的辅助都是为了妳能更好的战斗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			actor = 202100,
 			nameColor = "#a9f548",
-			say = "黛朵只需要尽自己的全力就好。主人自然会对你有公正的评价",
+			say = "黛朵只需要尽自己的全力就好。主人自然会对妳有公正的评价",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -144,7 +144,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "如果我沒有記錯，你們都是午睡社的成員吧",
+			say = "如果我沒有記錯，妳們都是午睡社的成員吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家方舟？你怎麼才來？",
+			say = "皇家方舟？妳怎麼才來？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "該不會你又……",
+			say = "該不會妳又……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "也就是說，你跟蹤了她們？",
+			say = "也就是說，妳跟蹤了她們？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“謝、謝謝方舟救了我，如果沒有你咱真的不知道怎麼辦才好……今後咱能管你叫姐姐嗎？”“方舟姐姐，我好冷……”“謝謝方舟姐姐，那個、那個，人家最喜歡方舟姐姐啦！”",
+			say = "“謝、謝謝方舟救了我，如果沒有妳咱真的不知道怎麼辦才好……今後咱能管妳叫姐姐嗎？”“方舟姐姐，我好冷……”“謝謝方舟姐姐，那個、那個，人家最喜歡方舟姐姐啦！”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然如此，你怎麼來參加茶會了？",
+			say = "既然如此，妳怎麼來參加茶會了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因為我聽說陛下也來了，只是沒想到，貝爾法斯特你也在這裡……",
+			say = "因為我聽說陛下也來了，只是沒想到，貝爾法斯特妳也在這裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然，你還是離陛下遠一點比較好！",
+			say = "果然，妳還是離陛下遠一點比較好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（火大）你們兩人都聽好了，本王可不是驅逐艦！",
+			say = "（火大）妳們兩人都聽好了，本王可不是驅逐艦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

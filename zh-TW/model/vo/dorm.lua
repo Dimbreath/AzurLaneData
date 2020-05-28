@@ -40,6 +40,26 @@ function slot0.Ctor(slot0, slot1)
 	slot0.floorNum = slot1.floor_num or 1
 end
 
+function slot0.IsMaxLevel(slot0)
+	return uv0.MAX_LEVEL <= slot0.level
+end
+
+function slot0.GetMapSize(slot0)
+	slot1 = 12 - (slot0.level - 1) * 4
+
+	return slot1, slot1, BackYardHouseVO.MAX_SIZE_X, BackYardHouseVO.MAX_SIZE_Y
+end
+
+function slot0.GetPutCntForFurniture(slot0, slot1)
+	for slot7, slot8 in pairs(slot0:getPutFurnis()) do
+		if slot8:getConfig("id") == slot1:getConfig("id") then
+			slot3 = 0 + 1
+		end
+	end
+
+	return slot3
+end
+
 function slot0.isUnlockFloor(slot0, slot1)
 	return slot1 <= slot0.floorNum
 end
@@ -58,6 +78,10 @@ function slot0.getOtherFloorFurnitrues(slot0, slot1)
 	return {
 		[slot7.id] = slot7
 	}
+end
+
+function slot0.GetAllFurniture(slot0)
+	return slot0.furnitures
 end
 
 function slot0.getFurnitrues(slot0, slot1)
@@ -341,6 +365,36 @@ function slot0.checkFurnitrueData(slot0, slot1, slot2)
 	end
 
 	return true
+end
+
+function slot0.OwnThemeTemplateFurniture(slot0, slot1)
+	slot2 = slot0:GetAllFurniture()
+
+	for slot8, slot9 in pairs(slot1:GetFurnitureCnt()) do
+		if not function (slot0, slot1)
+			return uv0[slot0] and slot1 <= slot2.count
+		end(slot8, slot9) then
+			return false
+		end
+	end
+
+	return true
+end
+
+function slot0.ClearPositionByFloor(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.furnitures) do
+		if slot6.floor == slot1 then
+			slot6:clearPosition()
+		end
+	end
+end
+
+function slot0.SetPostionForFloor(slot0, slot1, slot2)
+	for slot7, slot8 in pairs(slot2) do
+		if slot0.furnitures[slot8.id] then
+			slot0.furnitures[slot8.id] = slot8
+		end
+	end
 end
 
 return slot0

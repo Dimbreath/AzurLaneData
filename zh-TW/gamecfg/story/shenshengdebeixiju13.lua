@@ -133,7 +133,7 @@ return {
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "胜利，可畏，你们可是都迟到了哦",
+			say = "胜利，可畏，妳们可是都迟到了哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，胜利，你的服役测试都还顺利吗？",
+			say = "对了，胜利，妳的服役测试都还顺利吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为妹妹的可畏反倒是比你先服役了呢，之后可要加把劲呢",
+			say = "作为妹妹的可畏反倒是比妳先服役了呢，之后可要加把劲呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之，是这样的，你们…",
+			say = "总之，是这样的，妳们…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

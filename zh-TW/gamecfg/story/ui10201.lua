@@ -27,7 +27,7 @@ return {
 			withoutPainting = true,
 			mode = 2,
 			blackBg = true,
-			say = "姐姐…你在哪裡",
+			say = "姐姐…妳在哪裡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

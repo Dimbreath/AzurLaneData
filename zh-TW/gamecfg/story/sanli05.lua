@@ -96,7 +96,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "測試者α",
-			say = "有趣，出現了計算之外的厲害角色，看來今天就只能陪你們玩到這兒了",
+			say = "有趣，出現了計算之外的厲害角色，看來今天就只能陪妳們玩到這兒了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "測試者α",
-			say = "離開鏡面海域的水道，我已經給你們打開了",
+			say = "離開鏡面海域的水道，我已經給妳們打開了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "測試者α",
-			say = "記住，我們會一直觀察著你們的",
+			say = "記住，我們會一直觀察著妳們的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "測試者α",
-			say = "呵呵呵，正確的判斷，恭喜你們撿回了一次性命～",
+			say = "呵呵呵，正確的判斷，恭喜妳們撿回了一次性命～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

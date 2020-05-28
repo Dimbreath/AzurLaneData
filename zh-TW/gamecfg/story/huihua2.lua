@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 305030,
 			nameColor = "#a9f548",
-			say = "哈哈哈，我会输给你？先做好请客的准备吧",
+			say = "哈哈哈，我会输给妳？先做好请客的准备吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不瞒你说，这回的舞台其实是有个目的的。",
+			say = "不瞒妳说，这回的舞台其实是有个目的的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，好了，我们还有活要干，就不跟你多聊了，你要玩的话还是别在这玩，等Live开始了再过来吧。",
+			say = "哈哈，好了，我们还有活要干，就不跟妳多聊了，妳要玩的话还是别在这玩，等Live开始了再过来吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			dir = -1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "出来喵！看{namecode:98}不给你来个物价翻倍套餐喵！",
+			say = "出来喵！看{namecode:98}不给妳来个物价翻倍套餐喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

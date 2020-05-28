@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "负责进攻的[桂马]是你啊，{namecode:40}。 ",
+			say = "负责进攻的[桂马]是妳啊，{namecode:40}。 ",
 			bgm = "battle-boss-tiancheng",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "呵呵，很有精神呢。这应该是你第一次参加这样的演习吧？",
+			say = "呵呵，很有精神呢。这应该是妳第一次参加这样的演习吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

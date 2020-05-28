@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哟，等你们好久了！",
+			say = "哟，等妳们好久了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉...如你们所见，虽说都是些杂兵，但是因为这庞大的数量，清理起来还需要不少时间",
+			say = "唉...如妳们所见，虽说都是些杂兵，但是因为这庞大的数量，清理起来还需要不少时间",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

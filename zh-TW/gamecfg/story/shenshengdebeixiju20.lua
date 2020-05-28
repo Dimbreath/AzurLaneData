@@ -243,7 +243,7 @@ return {
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "铁血目前的实力，已经大大超出了你们的想象，与她们继续合作，我们只会被黑暗的泥沼吞噬",
+			say = "铁血目前的实力，已经大大超出了妳们的想象，与她们继续合作，我们只会被黑暗的泥沼吞噬",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们的立场我明白了…呼",
+			say = "妳们的立场我明白了…呼",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“言语之约不足为信”，所以这一路上你们的阻拦便是你们所希望的“测试”吗",
+			say = "“言语之约不足为信”，所以这一路上妳们的阻拦便是妳们所希望的“测试”吗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可畏，空中支援就交给你了",
+			say = "可畏，空中支援就交给妳了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "可畏妹妹，你的姐姐们呢？（小声",
+			say = "可畏妹妹，妳的姐姐们呢？（小声",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

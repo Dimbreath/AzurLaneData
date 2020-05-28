@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "是的，乔治你总是太耀眼了，导致会连陛下的光芒盖过",
+			say = "是的，乔治妳总是太耀眼了，导致会连陛下的光芒盖过",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -93,7 +93,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是你的个性——也就是“领袖魅力”，如果不注意收敛，有时候可是会给陛下添麻烦的",
+			say = "但是妳的个性——也就是“领袖魅力”，如果不注意收敛，有时候可是会给陛下添麻烦的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你和陛下在作为领导者方面很容易产生“重叠”呢…",
+			say = "妳和陛下在作为领导者方面很容易产生“重叠”呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在皇家内部，大家都知道乔治五世你是怎样的人，知道你没有那么大的野心，你只是天生如此。",
+			say = "在皇家内部，大家都知道乔治五世妳是怎样的人，知道妳没有那么大的野心，妳只是天生如此。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这种话由你一说听起来可有点吓人啊……",
+			say = "……这种话由妳一说听起来可有点吓人啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让指挥官多了解一点你才行呢。乔治五世",
+			say = "让指挥官多了解一点妳才行呢。乔治五世",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，没错，乔治，这里需要你给指挥官展示一点你的“弱点”呢",
+			say = "呵呵呵，没错，乔治，这里需要妳给指挥官展示一点妳的“弱点”呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			blackBg = true,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "指挥官，能拜托你为乔治做饭吗？",
+			say = "指挥官，能拜托妳为乔治做饭吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

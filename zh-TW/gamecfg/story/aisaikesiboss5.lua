@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "埃塞克斯、香格里拉、独立，还有其他参与演习的大家，辛苦你们了。",
+			say = "埃塞克斯、香格里拉、独立，还有其他参与演习的大家，辛苦妳们了。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "埃塞克斯。说实话，在一开始设想敌对方的时候，我完全没料到将会面对如此猛烈的攻势……不过你依然完美地完成了任务。",
+			say = "埃塞克斯。说实话，在一开始设想敌对方的时候，我完全没料到将会面对如此猛烈的攻势……不过妳依然完美地完成了任务。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，不必谦虚，这次最大的功臣非你莫属。",
+			say = "哈哈哈，不必谦虚，这次最大的功臣非妳莫属。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "你可是队长啊，队长不在最前面怎么行。埃塞克斯也是，赶紧上来吧。",
+			say = "妳可是队长啊，队长不在最前面怎么行。埃塞克斯也是，赶紧上来吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

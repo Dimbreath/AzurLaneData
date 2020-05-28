@@ -35,7 +35,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10300010,
-			say = "芙米露露？难道你真打算自己去吗？",
+			say = "芙米露露？难道妳真打算自己去吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀呀呀呀!你，你别真的露啊？？！",
+			say = "哎呀呀呀呀!妳，妳别真的露啊？？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10300010,
-			say = "芙米露露……你可千万别乱来哦",
+			say = "芙米露露……妳可千万别乱来哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "芙米露露小姐，虽然这个任务很危险……不过还是拜托你了",
+			say = "芙米露露小姐，虽然这个任务很危险……不过还是拜托妳了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

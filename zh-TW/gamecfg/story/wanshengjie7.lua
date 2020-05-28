@@ -88,7 +88,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "{namecode:95}，謝謝你的衣服",
+			say = "{namecode:95}，謝謝妳的衣服",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
-			say = "哈哈~被猜到了呢，正因為有你們，萬聖節才能這麼有氣氛~",
+			say = "哈哈~被猜到了呢，正因為有妳們，萬聖節才能這麼有氣氛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯~{namecode:96}你炸天婦羅確實很有一手",
+			say = "嗯~{namecode:96}妳炸天婦羅確實很有一手",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "哼哼，你終於認識到我無論哪方面都是最優秀的了嗎！",
+			say = "哼哼，妳終於認識到我無論哪方面都是最優秀的了嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好好好，我會一直在你前方等著的——等你心服口服的那天",
+			say = "好好好，我會一直在妳前方等著的——等妳心服口服的那天",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "手下敗將，你在說什麼！？",
+			say = "手下敗將，妳在說什麼！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			}
 		},
 		{
-			say = "姐、姐姐！？為什麼你在飛！？",
+			say = "姐、姐姐！？為什麼妳在飛！？",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -425,7 +425,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:19}",
-			say = "不要對姐姐撒謊！真是的，都冷了吧——好鹹！難道吾輩搞錯了鹽和糖！還、還好其他妹妹都沒有吃到——你也不要吃了！",
+			say = "不要對姐姐撒謊！真是的，都冷了吧——好鹹！難道吾輩搞錯了鹽和糖！還、還好其他妹妹都沒有吃到——妳也不要吃了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:19}",
-			say = "你才是笨蛋，明明直接和吾輩說就行——",
+			say = "妳才是笨蛋，明明直接和吾輩說就行——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:19}",
-			say = "笨蛋，只要你們能吃上最棒的南瓜派，吾輩才不在意是否有時間玩！",
+			say = "笨蛋，只要妳們能吃上最棒的南瓜派，吾輩才不在意是否有時間玩！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:19}",
-			say = "……你也不要蹲在牆角吃這種又鹹又冷的派了！",
+			say = "……妳也不要蹲在牆角吃這種又鹹又冷的派了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

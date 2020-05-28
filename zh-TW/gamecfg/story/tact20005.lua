@@ -47,7 +47,7 @@ return {
 		},
 		{
 			side = 1,
-			say = "是你嗎？",
+			say = "是妳嗎？",
 			nameColor = "#a9f548",
 			blackBg = true,
 			actor = 900010,
@@ -75,7 +75,7 @@ return {
 			blackBg = true,
 			actor = 900010,
 			actorName = "???",
-			say = "是你嗎…我的妹妹",
+			say = "是妳嗎…我的妹妹",
 			shake = {
 				speed = 1,
 				number = 3
@@ -94,7 +94,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			blackBg = true,
-			say = "？？你是？……",
+			say = "？？妳是？……",
 			shake = {
 				speed = 1,
 				number = 3
@@ -153,7 +153,7 @@ return {
 			blackBg = true,
 			actor = 900010,
 			actorName = "???",
-			say = "對不起，為了國家，我們只能這麼做，希望將來的你能理解我所做的一切",
+			say = "對不起，為了國家，我們只能這麼做，希望將來的妳能理解我所做的一切",
 			shake = {
 				speed = 1,
 				number = 3

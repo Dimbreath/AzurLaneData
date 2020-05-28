@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = -1,
 			actorName = "{namecode:19}",
-			say = "抱歉，吾輩遇到了緊急事態——你們有看到吾輩的南瓜派嗎？",
+			say = "抱歉，吾輩遇到了緊急事態——妳們有看到吾輩的南瓜派嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:19}",
-			say = "真的嗎？你可不要騙姐姐！",
+			say = "真的嗎？妳可不要騙姐姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
-			say = "那時候這裡只有你們兩個人？",
+			say = "那時候這裡只有妳們兩個人？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:19}",
-			say = "你“路過”了那麼久嗎",
+			say = "妳“路過”了那麼久嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:20}",
-			say = "萬聖夜可不是用來烤派的。姐姐，她們都在那邊等你呢",
+			say = "萬聖夜可不是用來烤派的。姐姐，她們都在那邊等妳呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嘻嘻，你也，辛苦啦！",
+			say = "嘻嘻，妳也，辛苦啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			dir = -1,
 			actor = 306051,
 			nameColor = "#a9f548",
-			say = "克里夫蘭，海倫娜為什麼沒有跟你一起來？",
+			say = "克里夫蘭，海倫娜為什麼沒有跟妳一起來？",
 			flashout = {
 				dur = 1,
 				black = true,

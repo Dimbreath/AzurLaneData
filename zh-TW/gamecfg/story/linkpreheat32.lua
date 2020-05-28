@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			actor = 10300010,
 			nameColor = "#a9f548",
-			say = "啊，指挥官你来的正好……能帮我阻止露露缇耶吗？",
+			say = "啊，指挥官妳来的正好……能帮我阻止露露缇耶吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			actor = 10300010,
 			nameColor = "#a9f548",
-			say = "露露缇耶，等一下。虽然不能说你描述的不准确，但是有哪里不对吧",
+			say = "露露缇耶，等一下。虽然不能说妳描述的不准确，但是有哪里不对吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

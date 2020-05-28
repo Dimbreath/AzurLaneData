@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
-			say = "指揮官，我給你準備了個東西~稍等我一會哦♪",
+			say = "指揮官，我給妳準備了個東西~稍等我一會哦♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
-			say = "這次不會讓你失望的～",
+			say = "這次不會讓妳失望的～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			},
 			options = {
 				{
-					content = "告訴康克德“做你自己就好”",
+					content = "告訴康克德“做妳自己就好”",
 					flag = 1
 				}
 			}

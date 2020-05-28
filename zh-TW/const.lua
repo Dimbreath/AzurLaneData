@@ -73,6 +73,9 @@ LOG_GUIDE2 = false
 LOG_CONNECTION = false
 BATTLE_AUTO_ENABLED = 1000001
 GAME_RESTOREVIEW_ALREADY = 1000002
+ALLOW_FIREND_VISIT_BACKYARD_FLAG = 1000003
+SHOW_FIREND_BACKYARD_SHIP_FLAG = 1000004
+SHOW_MY_BACKYARD_SHIP_FLAG = 1000005
 PROLOGUE_DUNGEON = 100000
 EPILOGUE_STORY = "S008"
 CURTAIN_STORY = "S999"
@@ -233,6 +236,9 @@ RARE_SHIP_VIBRATE = "rare_ship_vibrate"
 DISPLAY_SHIP_GET_EFFECT = "display_ship_get_effect"
 SHOW_TOUCH_EFFECT = "show_touch_effect"
 BG_FIT_MODE = "bgFitMode"
+ALLOW_FIREND_VISIT_BACKYARD = "allow_friend_visit_backyard"
+SHOW_FIREND_BACKYARD_SHIP = "show_friend_backyard_ship"
+SHOW_MY_BACKYARD_SHIP = "show_my_backyard_ship"
 DISCONNECT_TIME_OUT = "time_out"
 LOCK_PROPOSE = false
 LOCK_CLASSROOM = false
@@ -256,82 +262,12 @@ LOCK_CLEAR_ACCOUNT = true
 LOCK_COMMANDER_TALENT_TIP = false
 LOCK_GUILD_SHOP = true
 LOCK_DESTROY_GUIDE = true
+LOCK_BACKYARD_TEMPLATE = true
+LOCK_TOWERCLIMBING_AWARD = false
 DEFAULT_CVVOLUME = 0.8
 DEFAULT_BGMVOLUME = 0.8
 DEFAULT_SEVOLUME = 0.8
 HIDE_CHAT_FLAG = "HideChat"
-ERROR_MESSAGE = {
-	"無效操作",
-	"缺少配置",
-	"超時",
-	"時間未到",
-	"已達到最大等級",
-	"已達到最大數量限制",
-	"已經完成",
-	"未定義參數",
-	"錯誤參數",
-	"欄位已滿",
-	"資料庫錯誤",
-	"系統異常",
-	"禁止登錄",
-	nil,
-	"註冊數已達上限，感謝您的支持。",
-	nil,
-	nil,
-	nil,
-	"无效的重复操作",
-	"資料不存在",
-	"玩家不存在",
-	"艦船不存在",
-	"物品不存在",
-	"裝備不存在",
-	"任務不存在",
-	"戰鬥資訊不存在",
-	"採集點不存在",
-	"好友不存在",
-	"郵件不存在",
-	"目標不足",
-	"資源不足",
-	"金幣不足",
-	"石油不足",
-	"銀沙不足",
-	"晶鑽不足",
-	"傢俱幣不足",
-	"物品不足",
-	"食物不足",
-	"體力不足",
-	"不合法限制條件",
-	"等級不符合",
-	"類型不符合",
-	[2015.0] = "名字已被使用",
-	[2011.0] = "名字過長",
-	[1010.0] = "帳號錯誤",
-	[2014.0] = "名字錯誤字元",
-	[2013.0] = "名字有遮罩詞",
-	[2010.0] = "名字檢查錯誤",
-	[1011.0] = "帳號已存在",
-	[1040.0] = "伺服器已關閉",
-	[1030.0] = "md5驗證錯誤",
-	[2012.0] = "名字過短",
-	[1031.0] = "md5長度錯誤",
-	[4020.0] = "艦船是看板娘",
-	[4030.0] = "艦船在編隊中",
-	[4201.0] = "禮包碼已過期",
-	[4010.0] = "艦船不可用",
-	[4203.0] = "禮包碼不存在",
-	[9999.0] = "未定義錯誤",
-	[4205.0] = "禮包碼兌換有誤，請重試",
-	[4206.0] = "該類型禮包碼已被兌換",
-	[3010.0] = "艦船不可戰鬥",
-	[3020.0] = "前置關卡未通過",
-	[4207.0] = "沒有禮包碼兌換URL",
-	[4204.0] = "禮包碼已被使用",
-	[4050.0] = "相同的艦船",
-	[4040.0] = "艦船不在編隊中",
-	[1020.0] = "密碼錯誤",
-	[4202.0] = "該渠道不支持",
-	[1012.0] = "純數字帳號"
-}
 SPECIAL_DATE = {
 	{
 		"20200401",
@@ -347,8 +283,8 @@ OPEN_REMASTER = false
 OPEN_AIR_DOMINANCE = true
 AUTO_LINKLINK = false
 IS_OPEN_TEC_SYSTEM = true
-PLAY_OPENING = false
-OP_VERSION = "20200430"
+PLAY_OPENING = true
+OP_VERSION = "20200528"
 OPEN_TEC_TREE_SYSTEM = true
 SECRETARY_POS = true
 ADAPT_MIN = 1.8

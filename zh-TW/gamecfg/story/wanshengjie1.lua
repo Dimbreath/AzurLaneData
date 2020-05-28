@@ -205,7 +205,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "倒是很符合{namecode:87}的氣質……被你的姐姐們誇讚了嗎？",
+			say = "倒是很符合{namecode:87}的氣質……被妳的姐姐們誇讚了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
-			say = "當然！你不要總沉溺在戰鬥與訓練中啦",
+			say = "當然！妳不要總沉溺在戰鬥與訓練中啦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "很遺憾，我不知道……你們請加油喲~",
+			say = "很遺憾，我不知道……妳們請加油喲~",
 			flashout = {
 				dur = 1,
 				black = true,

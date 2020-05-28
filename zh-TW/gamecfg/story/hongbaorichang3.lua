@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			actor = 101431,
 			nameColor = "#a9f548",
-			say = "哇啊！？哦哦…是{namecode:152}呀，嘿嘿，吓到你了吗？",
+			say = "哇啊！？哦哦…是{namecode:152}呀，嘿嘿，吓到妳了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "star_level_bg_127",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，你好，哈尔西…你是在…挂灯笼？爬那么高…",
+			say = "啊，妳好，哈尔西…妳是在…挂灯笼？爬那么高…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			actor = 102251,
 			nameColor = "#a9f548",
-			say = "从东煌那边借衣服的时候不是都跟你说了么？这就都忘啦？",
+			say = "从东煌那边借衣服的时候不是都跟妳说了么？这就都忘啦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			actor = 101431,
 			nameColor = "#a9f548",
-			say = "才没忘呢！你看我这就想起来！ 想……呃呃呃……",
+			say = "才没忘呢！妳看我这就想起来！ 想……呃呃呃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，就想着吃。不过，就让你来抽好了，去吧，平海",
+			say = "真是的，就想着吃。不过，就让妳来抽好了，去吧，平海",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

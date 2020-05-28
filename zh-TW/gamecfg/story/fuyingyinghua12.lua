@@ -115,7 +115,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是你及时赶到的话，恐怕我就要命丧这位小姑娘的刀法之下咯~",
+			say = "不是妳及时赶到的话，恐怕我就要命丧这位小姑娘的刀法之下咯~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……要不是我及时拦下，你不会真忍不住要下手了吧？",
+			say = "……要不是我及时拦下，妳不会真忍不住要下手了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在你那一招命中之前，欧根一轮齐射就能送你回去大修了。",
+			say = "在妳那一招命中之前，欧根一轮齐射就能送妳回去大修了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个破绽，是她为了引诱你到射击位置上故意暴露给你的。",
+			say = "那个破绽，是她为了引诱妳到射击位置上故意暴露给妳的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你刚刚的应对，已经能被写进应对欧根亲王的教科书了。",
+			say = "妳刚刚的应对，已经能被写进应对欧根亲王的教科书了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对不起了，{namecode:50}小姐。刚刚只是我一时起了玩心，说的话都不是真心的，请你千万不要在意~",
+			say = "对不起了，{namecode:50}小姐。刚刚只是我一时起了玩心，说的话都不是真心的，请妳千万不要在意~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哪里哪里，你们重樱秘境，海域上结界重重。我们路上走了不少弯路，好不容易才找到正确航线嘛~",
+			say = "哪里哪里，妳们重樱秘境，海域上结界重重。我们路上走了不少弯路，好不容易才找到正确航线嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特意，专门给你们留好了上等席，以及丰盛的午餐！",
+			say = "特意，专门给妳们留好了上等席，以及丰盛的午餐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

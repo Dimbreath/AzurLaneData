@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "嘻嘻嘻，太天真了！以为用{namecode:90}做诱饵达成了目的？这下有的你们哭的～",
+			say = "嘻嘻嘻，太天真了！以为用{namecode:90}做诱饵达成了目的？这下有的妳们哭的～",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "萨拉，咳咳，你做了什么？",
+			say = "萨拉，咳咳，妳做了什么？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -46,7 +46,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，就让萨拉老师来为你分析一下吧～",
+			say = "嘿嘿嘿，就让萨拉老师来为妳分析一下吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从这点来说，能够如此成功的阻止敌人的计划也是企业你的功劳呢！",
+			say = "从这点来说，能够如此成功的阻止敌人的计划也是企业妳的功劳呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要说这种话啦…企业你伤得有点重了呢…",
+			say = "不要说这种话啦…企业妳伤得有点重了呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种情况下对面的{namecode:95}{namecode:96}多半也已经撤退了，你就先安心回港口修养吧～",
+			say = "这种情况下对面的{namecode:95}{namecode:96}多半也已经撤退了，妳就先安心回港口修养吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那就……麻烦你们了。",
+			say = "那就……麻烦妳们了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

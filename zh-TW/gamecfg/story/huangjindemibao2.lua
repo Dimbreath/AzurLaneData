@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "我愚蠢的妹妹啊！你也想要這個“黃金的秘寶”嗎？",
+			say = "我愚蠢的妹妹啊！妳也想要這個“黃金的秘寶”嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "指揮官，你好慢。",
+			say = "指揮官，妳好慢。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "……你那是什麼眼神，女孩子在意卡路里不是理所當然的事嗎！",
+			say = "……妳那是什麼眼神，女孩子在意卡路里不是理所當然的事嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是你懂海倫娜還是我懂海倫娜？",
+			say = "是妳懂海倫娜還是我懂海倫娜？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…？揮官你也給誰買了禮物嗎？包裝得這麼好。",
+			say = "嗯…？揮官妳也給誰買了禮物嗎？包裝得這麼好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

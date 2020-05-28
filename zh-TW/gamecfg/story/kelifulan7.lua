@@ -75,7 +75,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官？呃，不好意思……我本来是想，这个能长钱的话……就能给你添点经费了……",
+			say = "啊，指挥官？呃，不好意思……我本来是想，这个能长钱的话……就能给妳添点经费了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最后还被你安慰了……唔……结果呢，你觉得刚才我怎么样？ ",
+			say = "最后还被妳安慰了……唔……结果呢，妳觉得刚才我怎么样？ ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,6 +12,10 @@ function slot3.Ctor(slot0, slot1, slot2)
 	slot0._uid = slot1
 end
 
+function slot3.ConfigCallback(slot0, slot1)
+	slot0._callback = slot1
+end
+
 function slot3.GetUniqueID(slot0)
 	return slot0._uid
 end
@@ -56,6 +60,10 @@ function slot3.IsExpire(slot0, slot1)
 end
 
 function slot3.Dispose(slot0)
+	if slot0._callback then
+		slot0._callback()
+	end
+
 	for slot4, slot5 in ipairs(slot0._behaviours) do
 		slot5:Dispose()
 	end

@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:71}你……",
+			say = "{namecode:71}妳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_sanli_cg_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，小{namecode:33}你們也來啦~儘管參觀吧！當心腳下不要摔倒了哦~",
+			say = "呵呵呵，小{namecode:33}妳們也來啦~儘管參觀吧！當心腳下不要摔倒了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -793,7 +793,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "好啦，{namecode:33}{namecode:34}也不要哭啦，{namecode:96}，你去找人來一起幫忙，接下來有得忙了",
+			say = "好啦，{namecode:33}{namecode:34}也不要哭啦，{namecode:96}，妳去找人來一起幫忙，接下來有得忙了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

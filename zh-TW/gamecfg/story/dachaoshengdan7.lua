@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "才……才没有看很久呢！不过，既然是你用心准备的，本王也没有拒绝的理由不是嘛",
+			say = "才……才没有看很久呢！不过，既然是妳用心准备的，本王也没有拒绝的理由不是嘛",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = -1,
 			actor = 107061,
 			nameColor = "#a9f548",
-			say = "抱歉！厌战，刚刚跟我一起出来的驱逐舰尼古拉斯不见了！你有没有看到她？",
+			say = "抱歉！厌战，刚刚跟我一起出来的驱逐舰尼古拉斯不见了！妳有没有看到她？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈哈哈，原来是这么一回事。那么，这孩子就是给你的圣诞礼物，企业。",
+			say = "哈哈哈，原来是这么一回事。那么，这孩子就是给妳的圣诞礼物，企业。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			blackBg = true,
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "祝你圣诞快乐！",
+			say = "祝妳圣诞快乐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

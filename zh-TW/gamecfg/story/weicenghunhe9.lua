@@ -94,7 +94,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后在之后数年间进行了不间断的拓宽、改进、加强防御。最终才变成了如今你所见到的巴拿马要塞。",
+			say = "然后在之后数年间进行了不间断的拓宽、改进、加强防御。最终才变成了如今妳所见到的巴拿马要塞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "卡萨布兰卡，你去引导商船避难，里诺留在防空阵地附近，一架飞机都不能放过去。",
+			say = "卡萨布兰卡，妳去引导商船避难，里诺留在防空阵地附近，一架飞机都不能放过去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然解决不了什么问题，不过就用你们的身体来稍微平息一下我怒火吧！",
+			say = "虽然解决不了什么问题，不过就用妳们的身体来稍微平息一下我怒火吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -518,7 +518,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…那…{namecode:22}和{namecode:33}你们要不要放放看？我这里还有一些“鞍山7号”",
+			say = "唔…那…{namecode:22}和{namecode:33}妳们要不要放放看？我这里还有一些“鞍山7号”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			actor = 404011,
 			nameColor = "#a9f548",
-			say = "可惜没能见识到，啧啧…不过，德意志啊，你如果想要一起玩，就过去呗？",
+			say = "可惜没能见识到，啧啧…不过，德意志啊，妳如果想要一起玩，就过去呗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

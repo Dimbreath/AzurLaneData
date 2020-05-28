@@ -272,7 +272,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:19}",
-			say = "眼前什麼都看不到，全是南瓜燈……你們沒事吧，可惡，吾輩的連裝炮呢！？",
+			say = "眼前什麼都看不到，全是南瓜燈……妳們沒事吧，可惡，吾輩的連裝炮呢！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
-			say = "你是——呀呀呀呀！",
+			say = "妳是——呀呀呀呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			withoutPainting = true,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "翔——White姐，我本來也想像你那樣縫幾套衣服，可是動手後發現縫衣服好難……所以，先勉強用這個吧",
+			say = "翔——White姐，我本來也想像妳那樣縫幾套衣服，可是動手後發現縫衣服好難……所以，先勉強用這個吧",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -420,7 +420,7 @@ return {
 		{
 			withoutPainting = true,
 			side = 1,
-			say = "這個南瓜是不是忘記挖透氣孔了，我怎麼什麼都看不到！？{namecode:96}、企業你們究竟要幹什麼？",
+			say = "這個南瓜是不是忘記挖透氣孔了，我怎麼什麼都看不到！？{namecode:96}、企業妳們究竟要幹什麼？",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -483,7 +483,7 @@ return {
 			blackBg = true,
 			actor = 307060,
 			actorName = "？？？",
-			say = "喂，你難道一點不甘心都沒有嗎！",
+			say = "喂，妳難道一點不甘心都沒有嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			blackBg = true,
 			actor = 107060,
 			actorName = "？？？",
-			say = "好好好，那麼長不大的孩子們就盡情惡作劇吧，我會用南瓜燈配合你們的",
+			say = "好好好，那麼長不大的孩子們就盡情惡作劇吧，我會用南瓜燈配合妳們的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			blackBg = true,
 			actor = 307060,
 			actorName = "？？？",
-			say = "哼哼，畢竟“我”可比你小不少，gray",
+			say = "哼哼，畢竟“我”可比妳小不少，gray",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

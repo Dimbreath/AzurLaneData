@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			actor = 205051,
 			nameColor = "#a9f548",
-			say = "放心吧，我们都在这里，不会让你独自忙碌的",
+			say = "放心吧，我们都在这里，不会让妳独自忙碌的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

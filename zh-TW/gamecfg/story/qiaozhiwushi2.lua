@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是想问，那个女人，为什么那么害怕我们共同的姐姐，乔治五世？",
+			say = "妳是想问，那个女人，为什么那么害怕我们共同的姐姐，乔治五世？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			actor = 105130,
 			nameColor = "#a9f548",
-			say = "我说，姐姐，你还在在意个性的事吗？？",
+			say = "我说，姐姐，妳还在在意个性的事吗？？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -228,7 +228,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐你这个是想太多了……",
+			say = "姐姐妳这个是想太多了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			actor = 105130,
 			nameColor = "#a9f548",
-			say = "你是……皇家的乔治五世？！",
+			say = "妳是……皇家的乔治五世？！",
 			effects = {
 				{
 					active = false,
@@ -289,7 +289,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉插入你们的对话。正如华盛顿小姐所说，没有个性，寻找个性，这正是北卡罗莱纳小姐你的个性。",
+			say = "抱歉插入妳们的对话。正如华盛顿小姐所说，没有个性，寻找个性，这正是北卡罗莱纳小姐妳的个性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "你的个性，应该是建立在你自己承认自己的基础之上",
+			say = "妳的个性，应该是建立在妳自己承认自己的基础之上",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "有什么疑问吗？如果你的个性需要他人承认的话，我来承认就好",
+			say = "有什么疑问吗？如果妳的个性需要他人承认的话，我来承认就好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，舒展你紧皱的眉头，露出笑容吧，那样更适合你。",
+			say = "所以，舒展妳紧皱的眉头，露出笑容吧，那样更适合妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好、好像你这么一说我心里就舒服多了呢！谢谢你！",
+			say = "好、好像妳这么一说我心里就舒服多了呢！谢谢妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如你所见，指挥官，她就是这样的人。",
+			say = "如妳所见，指挥官，她就是这样的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

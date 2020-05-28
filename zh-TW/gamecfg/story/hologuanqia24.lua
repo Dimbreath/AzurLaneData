@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一上来就是这种发言…你这家伙，真的失忆了吗……！",
+			say = "一上来就是这种发言…妳这家伙，真的失忆了吗……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "虽然很感谢Z23你的好意，但是，请让我也去前线吧。",
+			say = "虽然很感谢Z23妳的好意，但是，请让我也去前线吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……好吧，既然你们都这么说了，那就A组也一起去吧。",
+			say = "……好吧，既然妳们都这么说了，那就A组也一起去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}，标枪基地就拜托你们了",
+			say = "{namecode:6}，标枪基地就拜托妳们了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于净化亲你……你还是在家留守吧，我暂时也不知道该怎么安排你比较好。",
+			say = "至于净化亲妳……妳还是在家留守吧，我暂时也不知道该怎么安排妳比较好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

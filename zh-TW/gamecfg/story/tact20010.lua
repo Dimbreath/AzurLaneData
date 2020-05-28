@@ -25,7 +25,7 @@ return {
 			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "就算如此，你們也要繼續前進麼？好吧…就讓我看看你們的執著吧",
+			say = "就算如此，妳們也要繼續前進麼？好吧…就讓我看看妳們的執著吧",
 			shake = {
 				speed = 1,
 				number = 3

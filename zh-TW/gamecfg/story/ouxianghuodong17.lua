@@ -13,7 +13,7 @@ return {
 			bgm = "azumaster-ins",
 			actor = 301014,
 			nameColor = "#a9f548",
-			say = "放马过来吧Polaris！你们的对手是特型偶像{namecode:2}以及加农偶像埃尔德里奇！",
+			say = "放马过来吧Polaris！妳们的对手是特型偶像{namecode:2}以及加农偶像埃尔德里奇！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…你们在说什么啊",
+			say = "哈啊…妳们在说什么啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:2}…命名什么的随你们喜欢就好了，再不开始活动就要进行不下去了哦？",
+			say = "{namecode:2}…命名什么的随妳们喜欢就好了，再不开始活动就要进行不下去了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			actor = 301014,
 			nameColor = "#a9f548",
-			say = "放马过来吧Polaris！你们的对手是特型偶像{namecode:2}以及喵喵偶像埃尔德里奇！",
+			say = "放马过来吧Polaris！妳们的对手是特型偶像{namecode:2}以及喵喵偶像埃尔德里奇！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

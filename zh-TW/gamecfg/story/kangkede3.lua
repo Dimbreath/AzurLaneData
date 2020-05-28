@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
-			say = "指揮官……嘻嘻，想不到你挺會說話嘛~",
+			say = "指揮官……嘻嘻，想不到妳挺會說話嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因為想要冷氣就靠近我，你是笨蛋嗎？",
+			say = "因為想要冷氣就靠近我，妳是笨蛋嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			actor = 301180,
 			nameColor = "#a9f548",
-			say = "指揮官，運氣不好就要用數量來彌補，相信自己，你可以的。",
+			say = "指揮官，運氣不好就要用數量來彌補，相信自己，妳可以的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

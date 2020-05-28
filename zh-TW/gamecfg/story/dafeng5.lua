@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "啊，{namecode:91}前辈、{namecode:92}前辈，你们好",
+			say = "啊，{namecode:91}前辈、{namecode:92}前辈，妳们好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			}
 		},
 		{
-			say = "你这小丫头……私下配指挥官房间的钥匙然后每天晚上图谋夜袭的就是你吧……",
+			say = "妳这小丫头……私下配指挥官房间的钥匙然后每天晚上图谋夜袭的就是妳吧……",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "呵呵呵，{namecode:91}前辈你不也是威胁{namecode:98}把指挥官出差时的便当材料全都换成了自己的？",
+			say = "呵呵呵，{namecode:91}前辈妳不也是威胁{namecode:98}把指挥官出差时的便当材料全都换成了自己的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

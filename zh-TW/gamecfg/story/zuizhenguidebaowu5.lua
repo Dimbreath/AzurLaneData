@@ -225,7 +225,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "明明你自己也是半斤八两！",
+			say = "明明妳自己也是半斤八两！",
 			action = {
 				{
 					y = 30,
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被你这么一说，倒也是。",
+			say = "被妳这么一说，倒也是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "怎么可能放你回去啊？！！！",
+			say = "怎么可能放妳回去啊？！！！",
 			action = {
 				{
 					y = 30,

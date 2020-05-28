@@ -31,7 +31,7 @@ return {
 					10
 				},
 				{
-					"<size=51>联合舰队和重樱的未来就拜托你了——</size>",
+					"<size=51>联合舰队和重樱的未来就拜托妳了——</size>",
 					12
 				},
 				{
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（真像是你的性格会写出来的东西啊…{namecode:92}，难道你……）",
+			say = "（真像是妳的性格会写出来的东西啊…{namecode:92}，难道妳……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "情况我都了解了。麻烦你们继续在外围搜索吧。后续的事我会妥善安排的。",
+			say = "情况我都了解了。麻烦妳们继续在外围搜索吧。后续的事我会妥善安排的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:161}姐，你说啊，那个只会漫天乱飞的小玩意真的能替代巨炮么？",
+			say = "{namecode:161}姐，妳说啊，那个只会漫天乱飞的小玩意真的能替代巨炮么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:89}大人…你是重樱第一艘完工的航空母舰！也是我们唯一的航空母舰……",
+			say = "{namecode:89}大人…妳是重樱第一艘完工的航空母舰！也是我们唯一的航空母舰……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 304050,
-			say = "…能拜托你派出飞机去镜面海域寻找{namecode:92}吗？！",
+			say = "…能拜托妳派出飞机去镜面海域寻找{namecode:92}吗？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了。祝你们好运",
+			say = "我明白了。祝妳们好运",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 304050,
-			say = "{namecode:91}，你也看到了吧？舰载机并不是你想象的那么没用。",
+			say = "{namecode:91}，妳也看到了吧？舰载机并不是妳想象的那么没用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你的武装还没完成，现在跟我们出海也是徒增累赘，乖乖的留在港区接受改装吧",
+			say = "妳的武装还没完成，现在跟我们出海也是徒增累赘，乖乖的留在港区接受改装吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

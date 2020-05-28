@@ -141,7 +141,7 @@ return {
 			dir = -1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "！你、你怎么知道",
+			say = "！妳、妳怎么知道",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = -1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "（小声）哇？难道你会读心术吗，香格里拉？",
+			say = "（小声）哇？难道妳会读心术吗，香格里拉？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "（小声）看这反应，你的烦恼八成还跟我们那位“前辈”脱不开关系吧~？",
+			say = "（小声）看这反应，妳的烦恼八成还跟我们那位“前辈”脱不开关系吧~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "不介意的话，就让我来给你提供一点小小的帮助如何~？",
+			say = "不介意的话，就让我来给妳提供一点小小的帮助如何~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正好我也想验证一下自己基于记录总结的部分战斗理论，也算是麻烦埃塞克斯你来帮一次忙呢",
+			say = "正好我也想验证一下自己基于记录总结的部分战斗理论，也算是麻烦埃塞克斯妳来帮一次忙呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "嗯，之后再按照记录，针对企业前辈的战斗风格来给埃塞克斯你定制一个特训吧",
+			say = "嗯，之后再按照记录，针对企业前辈的战斗风格来给埃塞克斯妳定制一个特训吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

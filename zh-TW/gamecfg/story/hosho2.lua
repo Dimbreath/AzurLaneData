@@ -19,7 +19,7 @@ return {
 		{
 			actor = 306031,
 			side = 1,
-			say = "哎呀，这不是{namecode:93}吗？你怎么来了",
+			say = "哎呀，这不是{namecode:93}吗？妳怎么来了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			actor = 307030,
 			side = 0,
 			dir = -1,
-			say = "路上碰到了宁海，说这个是你要的，就顺便帮你带过来了",
+			say = "路上碰到了宁海，说这个是妳要的，就顺便帮妳带过来了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 307030,
 			side = 0,
 			dir = -1,
-			say = "不过…你要这个做什么…难道要拿来送指挥官的吗？",
+			say = "不过…妳要这个做什么…难道要拿来送指挥官的吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 307030,
 			side = 0,
 			dir = -1,
-			say = "另外听说不少姐妹听了你的话出去寻找传说中巧克力配方了？这么奇妙的情报你从哪里得来的……",
+			say = "另外听说不少姐妹听了妳的话出去寻找传说中巧克力配方了？这么奇妙的情报妳从哪里得来的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 307030,
 			side = 0,
 			dir = -1,
-			say = "嗯……？嗯……然后呢，你在这里等应该是还有什么事吧？",
+			say = "嗯……？嗯……然后呢，妳在这里等应该是还有什么事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

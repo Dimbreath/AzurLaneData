@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			say = "算啦~来，这是敦刻尔克今天份的甜点补给，给你留了一份哦",
+			say = "算啦~来，这是敦刻尔克今天份的甜点补给，给妳留了一份哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

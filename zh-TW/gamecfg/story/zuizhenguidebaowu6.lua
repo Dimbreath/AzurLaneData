@@ -189,7 +189,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "密码本？俾斯麦姐姐说，不能告诉皇家。所以，不告诉你。",
+			say = "密码本？俾斯麦姐姐说，不能告诉皇家。所以，不告诉妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "只要你把恩尼格玛和密码本交给我就给你，怎么样？",
+			say = "只要妳把恩尼格玛和密码本交给我就给妳，怎么样？",
 			action = {
 				{
 					y = 0,
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…你们是真的很缠人诶！",
+			say = "…妳们是真的很缠人诶！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

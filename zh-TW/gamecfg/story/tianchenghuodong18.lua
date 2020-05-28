@@ -14,7 +14,7 @@ return {
 			bgm = "theme",
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "你变强了呢，终于不会那么容易就上当了呵呵呵",
+			say = "妳变强了呢，终于不会那么容易就上当了呵呵呵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 305070,
-			say = "还不都是跟你学来的…",
+			say = "还不都是跟妳学来的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么现在的我已经没有什么可以教会你的了，嗯嗯，姐姐很满意～",
+			say = "那么现在的我已经没有什么可以教会妳的了，嗯嗯，姐姐很满意～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 304050,
-			say = "而到那时，改装成航母的你和{namecode:91}，将会成为重樱的中流砥柱。",
+			say = "而到那时，改装成航母的妳和{namecode:91}，将会成为重樱的中流砥柱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 304050,
-			say = "然后世界在世界的各个地方也会出现跟你们一样…不，甚至比你们更厉害的对手。",
+			say = "然后世界在世界的各个地方也会出现跟妳们一样…不，甚至比妳们更厉害的对手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 304050,
-			say = "与作为「弱者」而生的我不同，你已经是「强者」，并且注定成为更强的存在",
+			say = "与作为「弱者」而生的我不同，妳已经是「强者」，并且注定成为更强的存在",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 304050,
-			say = "你们有这样的资格、与义务。",
+			say = "妳们有这样的资格、与义务。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 304050,
-			say = "所以，请背负起并非作为“弱者”的{namecode:161}，而是你认为是“强者”的我的意志……",
+			say = "所以，请背负起并非作为“弱者”的{namecode:161}，而是妳认为是“强者”的我的意志……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			blackBg = true,
 			bgName = "bg_story_tiancheng5",
 			nameColor = "#a9f548",
-			say = "——我的妹妹，{namecode:91}就拜托你了……",
+			say = "——我的妹妹，{namecode:91}就拜托妳了……",
 			flashout = {
 				dur = 1,
 				black = true,

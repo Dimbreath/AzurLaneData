@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "抱歉指揮官，還要你和我一起去找皇家方舟……",
+			say = "抱歉指揮官，還要妳和我一起去找皇家方舟……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "閉嘴！我看見了！你笑得一臉詭異，偷偷摸摸跟在厭戰後面！",
+			say = "閉嘴！我看見了！妳笑得一臉詭異，偷偷摸摸跟在厭戰後面！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用了！這叫做間接證據！加上你平時的所作所為，這次決不能放過你！",
+			say = "不用了！這叫做間接證據！加上妳平時的所作所為，這次決不能放過妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -366,7 +366,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也感謝你們的幫忙呢，追趕者、半人馬、君主",
+			say = "也感謝妳們的幫忙呢，追趕者、半人馬、君主",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

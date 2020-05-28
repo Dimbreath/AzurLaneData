@@ -119,7 +119,7 @@ return {
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你在说什么呢，无畏。塞壬能投入这种程度的部队拼命抵抗，恰好说明你判断的方向是正确的。",
+			say = "妳在说什么呢，无畏。塞壬能投入这种程度的部队拼命抵抗，恰好说明妳判断的方向是正确的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开战的时候你不是还想劝我要自信点么，现在先对自己失去信心了？",
+			say = "开战的时候妳不是还想劝我要自信点么，现在先对自己失去信心了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被你发现了么……",
+			say = "被妳发现了么……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无畏，这是你的作战计划，决定我们接下来的方向吧。",
+			say = "无畏，这是妳的作战计划，决定我们接下来的方向吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们也知道我的运气…现在情况危急，要是在这时候选错方向……",
+			say = "妳们也知道我的运气…现在情况危急，要是在这时候选错方向……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgm = "hunhe-eagle",
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "唔…你们发现了么，从刚才开始，雾气有点点变淡了。",
+			say = "唔…妳们发现了么，从刚才开始，雾气有点点变淡了。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "邦克山，你能用舰载机侦查一下周围雾气的密度变化么？不需要特别精确，只要有变化趋势就可以！",
+			say = "邦克山，妳能用舰载机侦查一下周围雾气的密度变化么？不需要特别精确，只要有变化趋势就可以！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题，不过你打算做什么…？",
+			say = "没问题，不过妳打算做什么…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

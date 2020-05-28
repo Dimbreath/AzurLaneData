@@ -11,7 +11,7 @@ return {
 			bgm = "battle-boss-uta",
 			actor = 900021,
 			actorName = "净化者",
-			say = "啊哈哈哈哈哈！真有你们的！还有异世界来的客人们，居然有本事把我逼到这种地步！",
+			say = "啊哈哈哈哈哈！真有妳们的！还有异世界来的客人们，居然有本事把我逼到这种地步！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明是小看我们的你们不对吧？",
+			say = "明明是小看我们的妳们不对吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们也是和指挥官一起一直在为了阻止你们而奋斗着呢",
+			say = "我们也是和指挥官一起一直在为了阻止妳们而奋斗着呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			say = "你都已经不能继续战斗了。而且，你看",
+			say = "妳都已经不能继续战斗了。而且，妳看",
 			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你这蠢货被佯攻引开注意力的时候，我们可是在卖力解除镜面海域啊喵",
+			say = "妳这蠢货被佯攻引开注意力的时候，我们可是在卖力解除镜面海域啊喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "净化者",
-			say = "啧！我说怎么突然一个人冒出来这么跳！这次是我被你们算计了！",
+			say = "啧！我说怎么突然一个人冒出来这么跳！这次是我被妳们算计了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "净化者",
-			say = "今天就算是你们赢了吧！下次还会为你们准备新的游玩舞台的，敬请期待吧！啊哈哈哈哈哈哈哈……",
+			say = "今天就算是妳们赢了吧！下次还会为妳们准备新的游玩舞台的，敬请期待吧！啊哈哈哈哈哈哈哈……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲酱，你想说的是后会无期吧",
+			say = "拉菲酱，妳想说的是后会无期吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

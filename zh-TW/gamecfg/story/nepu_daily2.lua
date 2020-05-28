@@ -23,7 +23,7 @@ return {
 			bgm = "story-nepu1",
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "…原来如此。也就是说，你们是从其他次元过来的？",
+			say = "…原来如此。也就是说，妳们是从其他次元过来的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "就是这样！我是涅普顿，请多指教～！叫涅普涅普还是涅普子都可以，随你喜欢～",
+			say = "就是这样！我是涅普顿，请多指教～！叫涅普涅普还是涅普子都可以，随妳喜欢～",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那，就叫你涅普涅普吧。听起来比较可爱",
+			say = "那，就叫妳涅普涅普吧。听起来比较可爱",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "证据？真拿你们没办法呢，只能看一会会哦。变身！",
+			say = "证据？真拿妳们没办法呢，只能看一会会哦。变身！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算你这么问我们……",
+			say = "就算妳这么问我们……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是不好意思呢。突然出现给你们添了这么多麻烦…我们刚来到这个世界，现在还是找不着北的状态",
+			say = "真是不好意思呢。突然出现给妳们添了这么多麻烦…我们刚来到这个世界，现在还是找不着北的状态",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哦哦！难道说，包三餐带午睡！？呜哇～神对应！谢谢你Z23！",
+			say = "哦哦！难道说，包三餐带午睡！？呜哇～神对应！谢谢妳Z23！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "午睡什么的不需要吧…不过确实帮大忙了。谢谢你，Z23",
+			say = "午睡什么的不需要吧…不过确实帮大忙了。谢谢妳，Z23",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			}
 		},
 		{
-			say = "总算找到你们了…你们也体谅下我们找的辛苦……",
+			say = "总算找到妳们了…妳们也体谅下我们找的辛苦……",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -624,7 +624,7 @@ return {
 			}
 		},
 		{
-			say = "贝露？还有布兰？你们怎么会在这里！？",
+			say = "贝露？还有布兰？妳们怎么会在这里！？",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -660,7 +660,7 @@ return {
 			}
 		},
 		{
-			say = "果然是布兰和贝露！难道你们也找不到学院在哪一直在海上徘徊吗？",
+			say = "果然是布兰和贝露！难道妳们也找不到学院在哪一直在海上徘徊吗？",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -685,7 +685,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我们又不是涅普顿，怎么可能会像你们那样",
+			say = "我们又不是涅普顿，怎么可能会像妳们那样",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为担心你们两位，于是就来迎接你们了呀",
+			say = "因为担心妳们两位，于是就来迎接妳们了呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……才不是为了你们特意来的…喂！别抱过来！眼泪鼻涕都粘过来了啊！",
+			say = "……才不是为了妳们特意来的…喂！别抱过来！眼泪鼻涕都粘过来了啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后？来的只有你们？伊斯特瓦尔呢？",
+			say = "然后？来的只有妳们？伊斯特瓦尔呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯…交给你们了，拉菲，要睡觉了…ｚｚｚ",
+			say = "嗯…交给妳们了，拉菲，要睡觉了…ｚｚｚ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

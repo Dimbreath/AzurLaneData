@@ -11,7 +11,7 @@ return {
 			actor = 404010,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "竟然能到達這裡…不得不承認，你們和以往的那些對手確實有點“不一樣”…",
+			say = "竟然能到達這裡…不得不承認，妳們和以往的那些對手確實有點“不一樣”…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -29,7 +29,7 @@ return {
 			actor = 404010,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "不過，目前為止還沒有任何獵物，能從我們獵殺姐妹的炮口下逃掉，你們也不會例外！",
+			say = "不過，目前為止還沒有任何獵物，能從我們獵殺姐妹的炮口下逃掉，妳們也不會例外！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -91,7 +91,7 @@ return {
 			actor = 404010,
 			hideOther = true,
 			nameColor = "#ff0000",
-			say = "碾壓敵人！沙恩霍斯特級戰列巡洋艦，參戰！",
+			say = "碾壓敵人！沙恩霍斯特級戰鬥巡洋艦，參戰！",
 			subActors = {
 				{
 					actor = 404020,

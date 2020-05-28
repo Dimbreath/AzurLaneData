@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			say = "啊哈哈…突然叫住你們不好意思，只是想問問你們要不要一起來賞櫻花而已",
+			say = "啊哈哈…突然叫住妳們不好意思，只是想問問妳們要不要一起來賞櫻花而已",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "{namecode:96}…姐姐開始擔心你未來會不會被人騙了",
+			say = "{namecode:96}…姐姐開始擔心妳未來會不會被人騙了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "你这…！小猪仔…！等我好了…！等我好了一定要给你好看……",
+			say = "妳这…！小猪仔…！等我好了…！等我好了一定要给妳好看……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

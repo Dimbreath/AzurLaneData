@@ -82,7 +82,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:67}",
-			say = "指揮官？都0點了，你是不是該睡了？",
+			say = "指揮官？都0點了，妳是不是該睡了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "明天不用值班，你只管休息，夜班就交給姐姐我吧。",
+			say = "明天不用值班，妳只管休息，夜班就交給姐姐我吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "反正明天看來也沒什麼事，什麼時候回去都沒關係，陪陪你也行啊。",
+			say = "反正明天看來也沒什麼事，什麼時候回去都沒關係，陪陪妳也行啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "然後呢，你想買什麼？",
+			say = "然後呢，妳想買什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "你還真是準備充分呢，這樣一來姐姐也可以放心讓你帶路啦。",
+			say = "妳還真是準備充分呢，這樣一來姐姐也可以放心讓妳帶路啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "好了，明天還要早起，今天你就早點睡吧。",
+			say = "好了，明天還要早起，今天妳就早點睡吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

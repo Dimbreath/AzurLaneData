@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等著吧，貝利一定會幫助你的！兔美，兔吉，我們出發！",
+			say = "等著吧，貝利一定會幫助妳的！兔美，兔吉，我們出發！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那個，你聽說了嗎？聽說港區的倉庫鬧鬼了呢！",
+			say = "那個，妳聽說了嗎？聽說港區的倉庫鬧鬼了呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "計畫進行完美！那麼，就祝你好運啦！",
+			say = "計畫進行完美！那麼，就祝妳好運啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事，并不是诺瓦露你的错！那一定是…镜面海域的锅！",
+			say = "没事，并不是诺瓦露妳的错！那一定是…镜面海域的锅！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "涅噗！？布兰还有贝露？你们也来了呀！？",
+			say = "涅噗！？布兰还有贝露？妳们也来了呀！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "......不放心你们两个就来了",
+			say = "......不放心妳们两个就来了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢，{namecode:6}...你们也遇到自己的冒牌货了吗？",
+			say = "谢谢，{namecode:6}...妳们也遇到自己的冒牌货了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			actor = 301050,
 			actorName = "{namecode:6}",
-			say = "说起来…{namecode:98}她正在找涅普涅普你们呢",
+			say = "说起来…{namecode:98}她正在找涅普涅普妳们呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

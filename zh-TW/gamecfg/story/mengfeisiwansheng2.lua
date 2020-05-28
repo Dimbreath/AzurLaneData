@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 101110,
 			nameColor = "#a9f548",
-			say = "正义的伙伴，小海狸分队，查尔斯奥斯本参上！今天又有什么样的不正义之事在等着我们解决呢~",
+			say = "正义的夥伴，小海狸分队，查尔斯奥斯本参上！今天又有什么样的不正义之事在等着我们解决呢~",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀！斯莫利！你在做什么呢！",
+			say = "呀！斯莫利！妳在做什么呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			actor = 101421,
 			nameColor = "#a9f548",
-			say = "哦哦…你们也要一起加入魔女快递的行列吗！",
+			say = "哦哦…妳们也要一起加入魔女快递的行列吗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

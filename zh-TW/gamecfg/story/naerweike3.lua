@@ -44,7 +44,7 @@ return {
 			dir = -1,
 			actor = 201160,
 			nameColor = "#a9f548",
-			say = "你在说什么傻话，猎人，我们可是身负任务而来的，可没有时间让你去和北极熊做游戏。",
+			say = "妳在说什么傻话，猎人，我们可是身负任务而来的，可没有时间让妳去和北极熊做游戏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…勇敢你总是把神经绷得太紧了。",
+			say = "嗯…勇敢妳总是把神经绷得太紧了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你是说，对手会是铁血驱逐？",
+			say = "妳是说，对手会是铁血驱逐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯，总之，该收起你那副没精打采的样子了，猎人。",
+			say = "嗯，总之，该收起妳那副没精打采的样子了，猎人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

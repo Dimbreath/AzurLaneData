@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			actorName = "{namecode:82}",
-			say = "不只是超越灰色幽靈這件事，對{namecode:95}和重櫻的同伴、港區的同伴們、人類的世界、甚至還有指揮官你——都想要獨自背負",
+			say = "不只是超越灰色幽靈這件事，對{namecode:95}和重櫻的同伴、港區的同伴們、人類的世界、甚至還有指揮官妳——都想要獨自背負",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			blackBg = true,
 			actor = 305110,
 			nameColor = "#a9f548",
-			say = "……呵呵，你的回答，我會記著的。{namecode:96}就拜託你了啊",
+			say = "……呵呵，妳的回答，我會記著的。{namecode:96}就拜託妳了啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

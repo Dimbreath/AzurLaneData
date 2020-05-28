@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			actor = 10300060,
 			nameColor = "#a9f548",
-			say = "久酱，你说什么？",
+			say = "久酱，妳说什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:95}姐，你漆黑的内心全漏出来了哦",
+			say = "{namecode:95}姐，妳漆黑的内心全漏出来了哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

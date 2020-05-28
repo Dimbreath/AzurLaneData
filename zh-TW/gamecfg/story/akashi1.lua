@@ -63,7 +63,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "加油上吧指揮官！{namecode:98}看好你喵！",
+			say = "加油上吧指揮官！{namecode:98}看好妳喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

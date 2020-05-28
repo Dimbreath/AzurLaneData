@@ -211,7 +211,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "話說{namecode:11}呢？怎麼沒跟你們一起來",
+			say = "話說{namecode:11}呢？怎麼沒跟妳們一起來",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

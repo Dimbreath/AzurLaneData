@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，无畏，你在这里啊。来的正好，我们发现塞壬准备展开袭击正在部署呢。",
+			say = "啊，无畏，妳在这里啊。来的正好，我们发现塞壬准备展开袭击正在部署呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "…哎？企业前辈呢，你不是去找她了么？",
+			say = "…哎？企业前辈呢，妳不是去找她了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

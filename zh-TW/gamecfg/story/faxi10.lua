@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			bgm = "story-french2",
 			actor = 107040,
-			say = "无畏式，再次俯冲！",
+			say = "無畏式，再次俯衝！",
 			flashN = {
 				color = {
 					1,
@@ -58,7 +58,7 @@ return {
 		{
 			actor = 105190,
 			side = 0,
-			say = "算了，她已经..失去反抗的能力了",
+			say = "算了，她已經..失去反抗的能力了",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -77,7 +77,7 @@ return {
 			actor = 905010,
 			side = 1,
 			dir = 1,
-			say = "可恶…动起来啊！快动起来啊！！！",
+			say = "可惡…動起來啊！快動起來啊！！！",
 			action = {
 				{
 					y = 0,
@@ -114,7 +114,7 @@ return {
 			actor = 905010,
 			side = 1,
 			dir = 1,
-			say = "可恶，为什么，为什么就不能把我完整的造完！！",
+			say = "可惡，為什麼，為什麼就不能把我完整的造完！！",
 			action = {
 				{
 					y = 0,
@@ -137,7 +137,7 @@ return {
 			actor = 905010,
 			side = 1,
 			dir = 1,
-			say = "为什么，为什么姐姐就可以！！",
+			say = "為什麼，為什麼姐姐就可以！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 105190,
 			side = 0,
 			dir = 1,
-			say = "…你的二号炮台并没有开炮过，是在放水瞧不起我吗？",
+			say = "…妳的二號炮台並沒有開炮過，是在放水瞧不起我嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			blackBg = true,
 			actor = 900055,
 			stopbgm = true,
-			say = "姐，司令部突然下令要把我们从造船厂转移到遥远的港口，这是真的吗？！",
+			say = "姐，司令部突然下令要把我們從造船廠轉移到遙遠的港口，這是真的嗎？！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "是的，似乎是…战局发生了不可预料的变化，为了安全起见…",
+			say = "是的，似乎是…戰局發生了不可預料的變化，為了安全起見…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "这不就是要我们逃跑吗！？我们怎么可能接受这么懦弱的行动！",
+			say = "這不就是要我們逃跑嗎！？我們怎麼可能接受這麼懦弱的行動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "也许司令部有更长远的想法吧，至少，现在还没有动力的你，必须找个更安全的地方隐蔽起来",
+			say = "也許司令部有更長遠的想法吧，至少，現在還沒有動力的妳，必須找個更安全的地方隱蔽起來",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "反击啊！就算现在的我只有一门主炮，加上大姐，我们也能让帝国的那群异教徒有来无回！",
+			say = "反擊啊！就算現在的我只有一門主炮，加上大姐，我們也能讓帝國的那群異教徒有來無回！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "难道…不是帝国的那群家伙？",
+			say = "難道…不是帝國的那群傢伙？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "情况可能比你想象的更复杂，接受命令吧，等你把动力和火力系统都完成了以后，来找我，我会在前面等着你的",
+			say = "情況可能比妳想像的更複雜，接受命令吧，等妳把動力和火力系統都完成了以後，來找我，我會在前面等著妳的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "好吧，迟早有一天，我会追上你的！一定要给我好好等着！",
+			say = "好吧，遲早有一天，我會追上妳的！一定要給我好好等著！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-french2",
 			actor = 905010,
-			say = "…也许从一开始，司令部就没打算把我完整的造出来…",
+			say = "…也許從一開始，司令部就沒打算把我完整的造出來…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -380,7 +380,7 @@ return {
 			actor = 905010,
 			side = 2,
 			dir = 1,
-			say = "在铁血和帝国的包夹下，就算再多一艘大型军舰，也只不过会成为新的傀儡，他们从一开始就是这么想的",
+			say = "在鐵血和帝國的包夾下，就算再多一艘大型軍艦，也只不過會成為新的傀儡，他們從一開始就是這麼想的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			actor = 905010,
 			side = 2,
 			dir = 1,
-			say = "本还寄希望于塞壬赋予的能力让自己更接近一个完成体，可惜最后也是徒劳",
+			say = "本還寄希望於塞壬賦予的能力讓自己更接近一個完成體，可惜最後也是徒勞",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 905010,
 			side = 2,
 			dir = 1,
-			say = "呵呵，一心想守护自己的家园，一面却得看着国家分崩离析…",
+			say = "呵呵，一心想守護自己的家園，一面卻得看著國家分崩離析…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			actor = 905010,
 			side = 2,
 			dir = 1,
-			say = "一心想追上前面的人，一面却得面对对方的背叛…真是讽刺啊",
+			say = "一心想追上前面的人，一面卻得面對對方的背叛…真是諷刺啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			actor = 107040,
 			side = 2,
 			dir = 1,
-			say = "收到了司令部紧急电报…",
+			say = "收到了司令部緊急電報…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 		{
 			actor = 105190,
 			side = 0,
-			say = "…铁血机动部队正在高速南下，登陆部队全员做好战斗准备…居然在这个时候？",
+			say = "…鐵血機動部隊正在高速南下，登陸部隊全員做好戰鬥準備…居然在這個時候？",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -472,7 +472,7 @@ return {
 			actor = 905010,
 			side = 1,
 			dir = 1,
-			say = "呵呵呵，他们并不是冲着你们来的…",
+			say = "呵呵呵，他們並不是衝著妳們來的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			actor = 905010,
 			side = 1,
 			dir = 1,
-			say = "我们的圣教骑士分布在陆间海的各个港口…怕不是…",
+			say = "我們的聖教騎士分佈在陸間海的各個港口…怕不是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			soundeffect = "event:/ui/noice"
 		},
 		{
-			say = "原教廷所属全部军舰听令，司令部紧急电报：司令部已经沦陷，司令部已经沦陷",
+			say = "教廷所屬全部艦隊全員聽令，司令部緊急電報：鐵血向聖座發動了進攻，司令部已經淪陷，重複，司令部已經淪陷",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -513,7 +513,7 @@ return {
 			}
 		},
 		{
-			say = "所有军舰立刻就近加入碧蓝航线同盟，维希教廷于今日起正式解散，立刻执行，不得有误",
+			say = "各地艦隊立刻駛離港口就近加入碧藍航線同盟。此命令為維希聖座最後的命令，所有艦隊立刻執行，不得有誤",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -525,7 +525,7 @@ return {
 			}
 		},
 		{
-			say = "——愿天父的恩赐与你们同在，因父及子及圣神之名",
+			say = "——願天父的恩賜與妳們同在，因父及子及聖神之名",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -568,7 +568,7 @@ return {
 			actor = 204010,
 			side = 0,
 			dir = 1,
-			say = "……放下武装吧，和我们一起…",
+			say = "……放下武裝吧，和我們一起…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			actor = 905010,
 			side = 1,
 			dir = 1,
-			say = "闭嘴！你们这群无耻之徒，凯比尔港的事情我们不会再让他发生第二次",
+			say = "閉嘴！妳們這群無恥之徒，凱比爾港的事情我們不會再讓它發生第二次",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "原维希教廷第一旗舰——让·巴尔号通告陆间海全军舰队",
+			say = "原維希教廷第一旗艦——讓·巴爾號通告陸間海全軍艦隊",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -632,7 +632,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "卡萨布兰卡已经失守，异教徒的獠牙已经伸向了祖国的内陆",
+			say = "卡薩布蘭卡已經失守，異教徒的獠牙已經伸向了祖國的內陸",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "铁血想要侵占我们的躯体、帝国想要分食我们的血液",
+			say = "鐵血想要侵占我們的軀體、帝國想要分食我們的血液",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "甚至连司令部的叛徒也想要我们卖国求荣——",
+			say = "甚至連司令部的叛徒也想要我們束手就擒——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "凯比尔港的惨案已经给予了我们答案",
+			say = "凱比爾港的慘案已經給予了我們答案",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "骄傲的圣教骑士不会和他们同流合污，骄傲的天之子民绝不会向淫威屈服",
+			say = "驕傲的聖教騎士不會和他們同流合污，驕傲的天之子民絕不會向淫威屈服",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "前有狼，后有虎，现在是存亡的最后时刻",
+			say = "前有狼，後有虎，現在是存亡的最後時刻",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "勇敢的圣教骑士绝不低头，绝不成为任何人的傀儡！",
+			say = "勇敢的聖教騎士絕不低頭，絕不成為任何人的傀儡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -736,7 +736,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "以自由之名，我命令，陆间海全军舰队，就地自沉，就地自沉！",
+			say = "以自由之名，我命令，陸間海全軍艦隊，就地自沉，就地自沉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "生终将死，灵终将灭，然而，汝无需痛苦和哀伤，此为生命的循环，并无丝毫掩盖、虚伪和黑暗",
+			say = "生終將死，靈終將滅，然而，汝無需痛苦和哀傷，此為生命的循環，並無絲毫掩蓋、虛偽和黑暗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "在另一个黎明，我将醒来",
+			say = "在另一個黎明，我將醒來",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,7 +775,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "我将感谢主，感谢又把这么强大的国家赐予了我",
+			say = "我將感謝主，感謝又把這麼強大的國家賜予了我",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "还使我能享受我们国家所有的一切祝福",
+			say = "還使我能享受我們國家所有的一切祝福",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "使我也能享受天国里的一切丰盛",
+			say = "使我也能享受天國裡的一切豐盛",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "这是我们最后的荣耀，让我们的名字成为后辈们的荣光",
+			say = "這是我們最後的榮耀，讓我們的名字成為後輩們的榮光",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "自由万岁",
+			say = "自由萬歲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,7 +840,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "因父及子及圣神之名",
+			say = "因父及子及聖神之名",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -853,7 +853,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "维…自由鸢尾第二旗舰——让·巴尔号",
+			say = "維…自由鳶尾第二旗艦——讓·巴爾號",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 			actor = 105190,
 			side = 2,
 			dir = 1,
-			say = "这是何苦呢…",
+			say = "這是何苦呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,7 +901,7 @@ return {
 		{
 			actor = 905010,
 			side = 1,
-			say = "这样也算…遵守了同盟时期许下的诺言吧…永世，不为铁血和帝国所用…不成为赤色中轴的獠牙",
+			say = "這樣也算…遵守了同盟時期許下的諾言吧…永世，不為鐵血和帝國所用…不成為赤色中軸的獠牙",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -934,7 +934,7 @@ return {
 			actor = 905010,
 			side = 1,
 			dir = 1,
-			say = "呵呵，可恶啊，真是羡慕你们，拥有这么强大的国力…可以造出这么强而有力的船身和舰炮…",
+			say = "呵呵，可惡啊，真是羨慕妳們，擁有這麼強大的國力…可以造出這麼強而有力的船身和艦炮…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -948,7 +948,7 @@ return {
 			actor = 905010,
 			side = 1,
 			dir = 1,
-			say = "如果我也能…哪怕是再强大一点点，就能追上…",
+			say = "如果我也能…哪怕是再強大一點點，就能追上…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -976,7 +976,7 @@ return {
 			actor = 105190,
 			side = 0,
 			dir = 1,
-			say = "等战争结束后，也许你就能有机会获得一个更完整的身躯了，我会期待着跟那样的你来一次堂堂正正的对决的",
+			say = "等戰爭結束後，也許妳就能有機會獲得一個更完整的身軀了，我會期待著跟那樣的妳來一次堂堂正正的對決的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -990,7 +990,7 @@ return {
 			actor = 905010,
 			side = 1,
 			dir = 1,
-			say = "呵呵…你们这群白鹰的军舰哪懂得骑士精神..",
+			say = "呵呵…妳們這群白鷹的軍艦哪懂得騎士精神..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1005,7 +1005,7 @@ return {
 			side = 0,
 			actor = 105190,
 			dir = 1,
-			say = "呵呵，至少向往自由的牛仔是不会轻易食言的",
+			say = "呵呵，至少嚮往自由的牛仔是不會輕易食言的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			actor = 905010,
 			side = 1,
 			dir = 1,
-			say = "(哼，又是想让我追上的背影吗…你们这两个家伙，在这种地方倒是出乎意料的相似啊…）",
+			say = "(哼，又是想讓我追上的背影嗎…妳們這兩個傢伙，在這種地方倒是出乎意料的相似啊…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1033,7 +1033,7 @@ return {
 			actor = 905010,
 			side = 1,
 			dir = 1,
-			say = "那么…希望能有那么一天…在此之前，我可能得先沉睡上一会了…",
+			say = "那麼…希望能有那麼一天…在此之前，我可能得先沉睡上一會了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1047,7 +1047,7 @@ return {
 			actor = 105190,
 			side = 0,
 			dir = 1,
-			say = "嗯，好好休息吧，你们和铁血、帝国的恩怨",
+			say = "嗯，好好休息吧，妳們和鐵血、帝國的恩怨",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1061,7 +1061,7 @@ return {
 			actor = 105190,
 			side = 0,
 			dir = 1,
-			say = "——就由我们来了结吧！",
+			say = "——就由我們來了結吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1077,7 +1077,7 @@ return {
 			blackBg = true,
 			actor = 900054,
 			stopbgm = true,
-			say = "那么，你知道“名字”的含义吗？",
+			say = "那麼，妳知道“名字”的含義嗎？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -1124,7 +1124,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "我们的名字都是来源于历史上有名的人物，这正说明他们对我们赋予了多大的期望",
+			say = "我們的名字都是來源於歷史上有名的人物，這正說明他們對我們賦予了多大的期望",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1139,7 +1139,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "我们究竟是成为制造死亡的兵器，还是能够守护国土，成为他们所期待的“英雄”——",
+			say = "我們究竟是成為製造死亡的兵器，還是能夠守護國土，成為他們所期待的“英雄”——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1154,7 +1154,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "这一切都看你自己",
+			say = "這一切都看妳自己",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1184,7 +1184,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "不要，做出对不起你“名字”的选择",
+			say = "不要，做出對不起妳“名字”的選擇",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

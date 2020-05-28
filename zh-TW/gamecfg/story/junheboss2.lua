@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诱饵的任务就交给{namecode:22}大人好了！你就安心下令吧！",
+			say = "诱饵的任务就交给{namecode:22}大人好了！妳就安心下令吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 900200,
 			nameColor = "#a9f548",
-			say = "你能自告奋勇确实是帮大忙了，不过，考虑到对方的行军速度，我们准备迎击也是需要一点时间的。",
+			say = "妳能自告奋勇确实是帮大忙了，不过，考虑到对方的行军速度，我们准备迎击也是需要一点时间的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			actor = 900200,
 			nameColor = "#a9f548",
-			say = "因此并非单纯引诱对方就好，还得想办法拖延一会时间——{namecode:22}你有什么好点子吗？",
+			say = "因此并非单纯引诱对方就好，还得想办法拖延一会时间——{namecode:22}妳有什么好点子吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…虽然说是这么说，不过万一发生什么意外，还得靠你来帮忙哦！",
+			say = "…虽然说是这么说，不过万一发生什么意外，还得靠妳来帮忙哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈！你们两个都非常可靠啊！就让我们一举拿下这次联合演习初战的辉煌胜利吧！",
+			say = "哈哈哈！妳们两个都非常可靠啊！就让我们一举拿下这次联合演习初战的辉煌胜利吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

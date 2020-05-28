@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>五、刹车带</size>",
+					"阿芙乐尔和愉快的夥伴们\n\n<size=45>五、刹车带</size>",
 					1
 				}
 			}
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 701030,
 			nameColor = "#a9f548",
-			say = "到了！你看，她们还在吵架呢！",
+			say = "到了！妳看，她们还在吵架呢！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "那是因为你们北方联合根本就没有多少航空母舰，所以也不知道航母的战术是怎么样的啦！",
+			say = "那是因为妳们北方联合根本就没有多少航空母舰，所以也不知道航母的战术是怎么样的啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "你这——",
+			say = "妳这——",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们是在有关舰队运用的一些问题上出现了分歧，对吧？既然如此的话，我有一个好的提议——",
+			say = "妳们是在有关舰队运用的一些问题上出现了分歧，对吧？既然如此的话，我有一个好的提议——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

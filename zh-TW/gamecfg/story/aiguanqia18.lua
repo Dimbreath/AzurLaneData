@@ -206,7 +206,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "欧根酱",
-			say = "没事，你不需要道歉。不过，至少…想和那个废柴AI指挥官说句话呢……",
+			say = "没事，妳不需要道歉。不过，至少…想和那个废柴AI指挥官说句话呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赶紧结束这一切吧！爱酱，我们一定会把你救出来的！！",
+			say = "赶紧结束这一切吧！爱酱，我们一定会把妳救出来的！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

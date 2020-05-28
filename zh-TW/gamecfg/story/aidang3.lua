@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "感覺好久沒來買東西了呢……指揮官你還好吧？還拿得動嗎？",
+			say = "感覺好久沒來買東西了呢……指揮官妳還好吧？還拿得動嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "啊啦，這不是{namecode:69}和{namecode:68}嘛。你們也來買東西？",
+			say = "啊啦，這不是{namecode:69}和{namecode:68}嘛。妳們也來買東西？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			actor = 303140,
 			actorName = "{namecode:69}",
-			say = "是的！今天我們來買新衣服！啊，指揮官你也辛苦了！",
+			say = "是的！今天我們來買新衣服！啊，指揮官妳也辛苦了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			actor = 303140,
 			actorName = "{namecode:69}",
-			say = "啊，{namecode:67}前輩！聽說這附近新開了一家自助餐廳誒！要不等會兒你和指揮官一起去看看吧！",
+			say = "啊，{namecode:67}前輩！聽說這附近新開了一家自助餐廳誒！要不等會兒妳和指揮官一起去看看吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			actor = 303130,
 			actorName = "{namecode:68}",
-			say = "就算你這麼說……唉……{namecode:67}前輩一開始就很大所以完全不用操心啊……",
+			say = "就算妳這麼說……唉……{namecode:67}前輩一開始就很大所以完全不用操心啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "（驚）你剛剛說什麼？",
+			say = "（驚）妳剛剛說什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

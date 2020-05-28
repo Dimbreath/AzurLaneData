@@ -242,7 +242,7 @@ return {
 			dir = -1,
 			actor = 303020,
 			actorName = "{namecode:54}",
-			say = "嗯。抱歉，臨時拜託你",
+			say = "嗯。抱歉，臨時拜託妳",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

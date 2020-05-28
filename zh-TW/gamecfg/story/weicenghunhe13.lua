@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			actor = 102270,
 			nameColor = "#a9f548",
-			say = "你没有资格说我吧…！刚才隔着老远就听到你在喊什么“雷霆切断”“旋风一击”那都些是什么啊！",
+			say = "妳没有资格说我吧…！刚才隔着老远就听到妳在喊什么“雷霆切断”“旋风一击”那都些是什么啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯，你没事吧？",
+			say = "埃塞克斯，妳没事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "……真败给你了，这种时候发什么呆呢，又有一波敌人靠过来了哦。",
+			say = "……真败给妳了，这种时候发什么呆呢，又有一波敌人靠过来了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "不是不是不是，你误会了！我是在想如果这种局面下企业前辈会怎么做啦！",
+			say = "不是不是不是，妳误会了！我是在想如果这种局面下企业前辈会怎么做啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "有些时候企业前辈的战术根本构不成参考，埃塞克斯你应该更----",
+			say = "有些时候企业前辈的战术根本构不成参考，埃塞克斯妳应该更----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

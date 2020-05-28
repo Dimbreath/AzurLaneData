@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "这这这、这是什么东西啊，怎么会这么辣！你不是说不辣的吗！",
+			say = "这这这、这是什么东西啊，怎么会这么辣！妳不是说不辣的吗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "哦？指挥官，你也来了……你看到刚才了吗？",
+			say = "哦？指挥官，妳也来了……妳看到刚才了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，即使是普通的原来填饱肚子料理……做的美味一点也无妨吧？",
+			say = "不过，即使是普通的用来填饱肚子料理……做的美味一点也无妨吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

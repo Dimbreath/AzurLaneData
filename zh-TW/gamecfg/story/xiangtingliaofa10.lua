@@ -181,7 +181,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "净化者",
-			say = "不过要是就这么顺势向我求饶，说不定我真的会放过你哦~？",
+			say = "不过要是就这么顺势向我求饶，说不定我真的会放过妳哦~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "净化者",
-			say = "反正这次本来的目的也不是你们这些无关紧要的存在~",
+			say = "反正这次本来的目的也不是妳们这些无关紧要的存在~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "杜威…艾尔温！你、你们怎么又回来了---啊！是指挥官的舰队！",
+			say = "杜威…艾尔温！妳、妳们怎么又回来了---啊！是指挥官的舰队！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，净化者，欺负小姑娘算什么本事，你的对手在这边吧！",
+			say = "喂，净化者，欺负小姑娘算什么本事，妳的对手在这边吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			}
 		},
 		{
-			say = "这是…哈啊，Bingo，果然和观察者所说的一样，你会亲自上阵啊",
+			say = "这是…哈啊，Bingo，果然和观察者所说的一样，妳会亲自上阵啊",
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,

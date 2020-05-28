@@ -13,7 +13,7 @@ return {
 			bgm = "story-6",
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "啊啊啊啊啊啊---不会让你们继续轰炸下去了！",
+			say = "啊啊啊啊啊啊---不会让妳们继续轰炸下去了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，就是相信你们一定会来，我才能拼命战斗到现在啊~",
+			say = "嘿嘿，就是相信妳们一定会来，我才能拼命战斗到现在啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你受的伤不轻，还能战斗么？",
+			say = "妳受的伤不轻，还能战斗么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们也没意见吧，塞壬？你们犯下的罪恶，就在此处用生命偿还吧！",
+			say = "妳们也没意见吧，塞壬？妳们犯下的罪恶，就在此处用生命偿还吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

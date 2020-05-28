@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "等、等等，敦刻尔克！就凭维希教廷现在的处境，就算你回去又能怎么样，你又能做到什么？",
+			say = "等、等等，敦刻尔克！就凭维希教廷现在的处境，就算妳回去又能怎么样，妳又能做到什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "只要你们老老实实返回凯比尔港，皇家可以保证你们在接下来战争中的安全！",
+			say = "只要妳们老老实实返回凯比尔港，皇家可以保证妳们在接下来战争中的安全！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "祝你好运，鸢尾教国的敦刻尔克。",
+			say = "祝妳好运，鸢尾教国的敦刻尔克。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900236,
-			say = "是是是，我知道啦~区区塔尔图，今天感觉怎么总是在被你说教啊！",
+			say = "是是是，我知道啦~区区塔尔图，今天感觉怎么总是在被妳说教啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

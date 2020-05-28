@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "你看，这边是厨神大赛，我记得是明天开赛，场地已经完全布置好了呢。",
+			say = "妳看，这边是厨神大赛，我记得是明天开赛，场地已经完全布置好了呢。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "这条路通往海边，牌子上写的是……“赶上夏日的尾巴！泳装大赛期待你的到来！”",
+			say = "这条路通往海边，牌子上写的是……“赶上夏日的尾巴！泳装大赛期待妳的到来！”",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "明明才刚加入舰队，你还真是了解呢。",
+			say = "明明才刚加入舰队，妳还真是了解呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "所以{namecode:97}你这样把自己关在房间里太可惜啦！",
+			say = "所以{namecode:97}妳这样把自己关在房间里太可惜啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "{namecode:2}你拿的这个是什么啊？",
+			say = "{namecode:2}妳拿的这个是什么啊？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			actor = 408011,
 			nameColor = "#a9f548",
-			say = "诶，{namecode:2}你会吹大号吗？",
+			say = "诶，{namecode:2}妳会吹大号吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			actor = 408011,
 			nameColor = "#a9f548",
-			say = "呃……{namecode:2}你在旁边一直吹号最后谁赢了都没听清……",
+			say = "呃……{namecode:2}妳在旁边一直吹号最后谁赢了都没听清……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

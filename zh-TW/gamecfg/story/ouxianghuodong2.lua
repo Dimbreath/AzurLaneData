@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			actor = 403070,
 			nameColor = "#a9f548",
-			say = "哈？你想唱自己来不就好了",
+			say = "哈？妳想唱自己来不就好了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -24,7 +24,7 @@ return {
 			actor = 307060,
 			side = 2,
 			dir = 0,
-			say = "哈？原來你早就認識我們的嘛",
+			say = "哈？原來妳早就認識我們的嘛",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 301490,
 			side = 2,
 			dir = 0,
-			say = "如果是你們的話，或許…真的能拯救她吧……",
+			say = "如果是妳們的話，或許…真的能拯救她吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
-			say = "所以，希望你們的到來能夠改變現狀，能夠拯救她的靈魂",
+			say = "所以，希望妳們的到來能夠改變現狀，能夠拯救她的靈魂",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_nagato3",
 			dir = 0,
 			blackBg = true,
-			say = "這正是我們此行的目的，你做得已經很好了！剩下的——就交給我們吧！",
+			say = "這正是我們此行的目的，妳做得已經很好了！剩下的——就交給我們吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

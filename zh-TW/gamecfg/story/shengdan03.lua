@@ -134,7 +134,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "嗯？這個是…聖誕裝…吧？哎呀？你有興趣嗎~？",
+			say = "嗯？這個是…聖誕裝…吧？哎呀？妳有興趣嗎~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "那就把你的身影留在指揮官殿下的這份回憶中吧~",
+			say = "那就把妳的身影留在指揮官殿下的這份回憶中吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

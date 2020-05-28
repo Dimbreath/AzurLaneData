@@ -10,7 +10,7 @@ return {
 			bgm = "level-uta",
 			actor = 10300060,
 			nameColor = "#a9f548",
-			say = "小久~~！小猫音~~！露露缇耶大人~！你们在这里吗~！?",
+			say = "小久~~！小猫音~~！露露缇耶大人~！妳们在这里吗~！?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "芙米露露的小伙伴们～！听到的话请回答——！",
+			say = "芙米露露的小夥伴们～！听到的话请回答——！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不是回话……Z23，刚才那声你听到了吗",
+			say = "虽然不是回话……Z23，刚才那声妳听到了吗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

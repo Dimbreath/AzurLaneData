@@ -139,7 +139,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 403070,
-			say = "那啥，这是Z35还是Z36教你的吧",
+			say = "那啥，这是Z35还是Z36教妳的吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给你们看看和L.I小姐一起通宵看视频学到的偶像表演技术",
+			say = "给妳们看看和L.I小姐一起通宵看视频学到的偶像表演技术",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

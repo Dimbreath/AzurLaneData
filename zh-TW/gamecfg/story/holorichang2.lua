@@ -25,7 +25,7 @@ return {
 			bgm = "holo-shion",
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "吹雪酱，你的脸色很差哦，身体不舒服么？",
+			say = "吹雪酱，妳的脸色很差哦，身体不舒服么？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "hololive的各位你们好，初次见面，我是来自重樱的{namecode:146}，从今往后还请多指教呢。",
+			say = "hololive的各位妳们好，初次见面，我是来自重樱的{namecode:146}，从今往后还请多指教呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

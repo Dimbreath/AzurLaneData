@@ -66,7 +66,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "测试者",
-			say = "这么快就陷入穷途末路了，你刚才的那股气势呢？",
+			say = "这么快就陷入穷途末路了，妳刚才的那股气势呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "哈哈哈哈！塞壬，你犯了一个很大的错误。",
+			say = "哈哈哈哈！塞壬，妳犯了一个很大的错误。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你以为，防卫舰队的旗舰就一定是这片区域里最强的战舰吗？",
+			say = "妳以为，防卫舰队的旗舰就一定是这片区域里最强的战舰吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "坚持了这么久，终于把你引到目标位置了！",
+			say = "坚持了这么久，终于把妳引到目标位置了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这片海域里，还有一位优秀的战士一直默默的守护着大家呢，你们居然将她忽略了。",
+			say = "在这片海域里，还有一位优秀的战士一直默默的守护着大家呢，妳们居然将她忽略了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "阿拉巴马",
-			say = "你的引导也很…好。",
+			say = "妳的引导也很…好。",
 			effects = {
 				{
 					active = true,
@@ -480,7 +480,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们只是疯了的屠夫，仅此而已。",
+			say = "妳们只是疯了的屠夫，仅此而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊~！真是够了。什么无知不无知的，不是因为你们从来都没有说清楚过么！",
+			say = "啊~！真是够了。什么无知不无知的，不是因为妳们从来都没有说清楚过么！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们一次都没有，把话说明白啊！！",
+			say = "妳们一次都没有，把话说明白啊！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，测试者，在你喋喋不休的时候，你布下的挡路喽啰已经被清理得差不多了！",
+			say = "哼哼，测试者，在妳喋喋不休的时候，妳布下的挡路喽啰已经被清理得差不多了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么，还有残余的敌机？！这是…F4U海盗？？萨拉托加，你在做什么！？",
+			say = "什么，还有残余的敌机？！这是…F4U海盗？？萨拉托加，妳在做什么！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1168,7 +1168,7 @@ return {
 			blackBg = true,
 			actor = 900189,
 			actorName = "？？？",
-			say = "你这么肯定这次我们的目标就是…？",
+			say = "妳这么肯定这次我们的目标就是…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1202,7 +1202,7 @@ return {
 			blackBg = true,
 			actor = 900189,
 			actorName = "？？？",
-			say = "在那个人的身边，一定还有“她”存在吧，到时候你要如何处置？",
+			say = "在那个人的身边，一定还有“她”存在吧，到时候妳要如何处置？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1236,7 +1236,7 @@ return {
 			blackBg = true,
 			actor = 900189,
 			actorName = "？？？",
-			say = "行吧，到时候我会帮你一把的。",
+			say = "行吧，到时候我会帮妳一把的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1253,7 +1253,7 @@ return {
 			blackBg = true,
 			actor = 900189,
 			actorName = "？？？",
-			say = "你只要，坚定地往前走就好。",
+			say = "妳只要，坚定地往前走就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

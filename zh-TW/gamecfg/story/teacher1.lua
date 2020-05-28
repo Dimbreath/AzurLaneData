@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐、姐姐…你的“教育”還是稍微收斂一點……",
+			say = "姐、姐姐…妳的“教育”還是稍微收斂一點……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

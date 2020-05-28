@@ -273,7 +273,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题哦，我会负起责任来好好保护你的指挥舰，你就安心指挥战斗吧~",
+			say = "没问题哦，我会负起责任来好好保护妳的指挥舰，妳就安心指挥战斗吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

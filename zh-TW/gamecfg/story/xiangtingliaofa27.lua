@@ -35,7 +35,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "事到如今，你还把能单兵摧毁整个第二舰队的怪物称为“人类”？",
+			say = "事到如今，妳还把能单兵摧毁整个第二舰队的怪物称为“人类”？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "今日起，你的实验团队被正式解散，实验资料将由Division13统一收集作为证据。",
+			say = "今日起，妳的实验团队被正式解散，实验资料将由Division13统一收集作为证据。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "而你，将面临军事法庭的审判，有时间担心它们，不如想好怎么面对接下来的牢狱生活吧！",
+			say = "而妳，将面临军事法庭的审判，有时间担心它们，不如想好怎么面对接下来的牢狱生活吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

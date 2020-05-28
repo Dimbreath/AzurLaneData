@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "又、又是你！！！",
+			say = "又、又是妳！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "多亏了你，{namecode:97}现在精神得很！",
+			say = "多亏了妳，{namecode:97}现在精神得很！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "对了的了，我找到了新的游戏，你今天有没有时间呀，一起来试试新游戏嘛",
+			say = "对了的了，我找到了新的游戏，妳今天有没有时间呀，一起来试试新游戏嘛",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "{namecode:97}作为指挥官大人的秘书舰，有义务随时陪伴在指挥官大人身边。才没有时间陪你玩游戏呢——",
+			say = "{namecode:97}作为指挥官大人的秘书舰，有义务随时陪伴在指挥官大人身边。才没有时间陪妳玩游戏呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "嘿嘿，太好了。那我晚点再来找你们~指挥官、{namecode:97}，拜拜~",
+			say = "嘿嘿，太好了。那我晚点再来找妳们~指挥官、{namecode:97}，拜拜~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -133,7 +133,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "但是你身上的伤…",
+			say = "但是妳身上的伤…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "不管了~我要休息一下，你就趁机稍微处理一下吧",
+			say = "不管了~我要休息一下，妳就趁机稍微处理一下吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "你……",
+			say = "妳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "唯独在辩歪理上，我是无法赢过你的，欧根。",
+			say = "唯独在辩歪理上，我是无法赢过妳的，欧根。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

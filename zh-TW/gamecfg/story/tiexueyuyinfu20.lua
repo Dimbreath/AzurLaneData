@@ -61,7 +61,7 @@ return {
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "姐...姐姐…？谁允许你叫我姐姐了！！？",
+			say = "姐...姐姐…？谁允许妳叫我姐姐了！！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "如果你再胡闹，我就要叫管制部队来收拾你了！",
+			say = "如果妳再胡闹，我就要叫管制部队来收拾妳了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_bsm_2",
 			dir = 1,
 			actorName = "提尔比茨",
-			say = "你——别跑！！",
+			say = "妳——别跑！！",
 			effects = {
 				{
 					active = true,

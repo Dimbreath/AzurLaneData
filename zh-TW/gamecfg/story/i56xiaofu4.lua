@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 408070,
 			nameColor = "#a9f548",
-			say = "哇？！U101，你去哪儿啊，这么急？",
+			say = "哇？！U101，妳去哪儿啊，这么急？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是你啊，U522，还有重樱的潜艇，你们在聊天吗？",
+			say = "啊，是妳啊，U522，还有重樱的潜艇，妳们在聊天吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 408070,
 			nameColor = "#a9f548",
-			say = "是啊，我们正在聊有趣的事情呢，你要不要一起来？",
+			say = "是啊，我们正在聊有趣的事情呢，妳要不要一起来？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊对了，你们要不要一起来算了？",
+			say = "啊对了，妳们要不要一起来算了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好，那你们一起上车吧，这样快一点！",
+			say = "好，那妳们一起上车吧，这样快一点！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你的舰装载得动四个人？",
+			say = "妳的舰装载得动四个人？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,73 +13,53 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.preload(slot0, slot1)
-	slot2 = {
-		loadAmount = 0,
-		loadCount = 0
-	}
-	slot3 = nil
-	slot2.loadAmount = slot2.loadAmount + 4
+	slot2 = 0
+	slot4 = nil
 
 	GetSpriteFromAtlasAsync("chapter/pic/cellgrid", "cell_grid", function ()
-		uv0.loadCount = uv0.loadCount + 1
+		uv0 = uv0 + 1
 
-		if uv0.loadAmount <= uv0.loadCount then
-			uv1()
+		if uv1 <= uv0 then
+			uv2()
 		end
 	end)
 
-	slot4 = PoolMgr.GetInstance()
+	slot5 = PoolMgr.GetInstance()
 
-	slot4:GetPrefab("chapter/cell_quad", "", true, function (slot0)
+	slot5:GetPrefab("chapter/cell_quad", "", true, function (slot0)
 		uv0:ReturnPrefab("chapter/cell_quad", "", slot0)
 		uv1()
 	end)
-	slot4:GetPrefab("chapter/cell_quad_mark", "", true, function (slot0)
+	slot5:GetPrefab("chapter/cell_quad_mark", "", true, function (slot0)
 		uv0:ReturnPrefab("chapter/cell_quad_mark", "", slot0)
 		uv1()
 	end)
-
-	slot9 = true
-
-	function slot10(slot0)
+	slot5:GetPrefab("chapter/cell", "", true, function (slot0)
 		uv0:ReturnPrefab("chapter/cell", "", slot0)
+		uv1()
+	end)
+
+	slot10 = true
+
+	function slot11(slot0)
+		uv0:ReturnPrefab("chapter/plane", "", slot0)
 		uv1()
 	end
 
-	slot4:GetPrefab("chapter/cell", "", slot9, slot10)
+	slot5:GetPrefab("chapter/plane", "", slot10, slot11)
 
-	slot5 = {
-		{
-			"zulanwangheng",
-			"chapter",
-			"barrierTpl"
-		},
-		{
-			"Tpl_Dockyard",
-			"leveluiview",
-			"dockTpl"
-		},
+	slot6 = {
 		{
 			"Tpl_Destination_Mark",
 			"leveluiview",
 			"destinationMarkTpl"
-		},
-		{
-			"Tpl_AntiAirGun",
-			"leveluiview",
-			"antiairgunTpl"
-		},
-		{
-			"Tpl_AntiAirGunArea",
-			"leveluiview",
-			"antiairgunareaTpl"
 		}
 	}
 	slot0.loadedTpls = {}
-	slot2.loadAmount = slot2.loadAmount + #slot5
+	slot3 = 0 + 5 + #slot6
 
-	for slot9, slot10 in pairs(slot5) do
-		LoadAndInstantiateAsync(slot10[2], slot10[1], function (slot0)
+	for slot10, slot11 in pairs(slot6) do
+		LoadAndInstantiateAsync(slot11[2], slot11[1], function (slot0)
 			slot0:SetActive(false)
 
 			slot0.name = uv0[3]
@@ -89,6 +69,46 @@ function slot0.preload(slot0, slot1)
 			uv2()
 		end, true)
 	end
+
+	slot3 = slot3 + 1
+	slot8 = getProxy(ChapterProxy):getMaps()
+	slot9 = slot0.contextData.mapIdx
+	slot10 = slot0.contextData.chapterId
+
+	if (slot0.contextData.chapterVO and slot11:getDataType() or ChapterConst.TypeNone) == ChapterConst.TypeSham then
+		slot0.contextData.chapterVO = slot7:getShamChapter()
+	elseif slot12 == ChapterConst.TypeGuild then
+		slot0.contextData.chapterVO = slot7:getGuildChapter()
+	elseif slot12 == ChapterConst.TypeNone and slot10 and slot8[slot9] then
+		slot0.contextData.chapterVO = slot13:getChapter(slot10)
+	end
+
+	slot0:setMaps(slot8)
+
+	slot14 = function ()
+		uv0 = uv1.contextData.chapterVO
+
+		if uv0 and uv0.active then
+			return uv0:getConfig("map")
+		end
+
+		slot0 = nil
+
+		if uv1.contextData.targetChapter and uv1.contextData.targetMap then
+			uv1.contextData.openChapterId = uv1.contextData.targetChapter
+			slot0 = uv1.contextData.targetMap.id
+			uv1.contextData.targetChapter = nil
+			uv1.contextData.targetMap = nil
+		elseif uv1.contextData.eliteDefault then
+			slot0 = uv2:getUseableMaxEliteMap() and slot1.id or nil
+			uv1.contextData.eliteDefault = nil
+		end
+
+		return slot0 or uv1:selectMap(uv3)
+	end()
+	slot0.contextData.InitializeMap = slot14
+
+	GetSpriteFromAtlasAsync("levelmap/" .. slot8[slot14]:getConfig("bg"), "", slot4)
 end
 
 function slot0.init(slot0)
@@ -316,9 +336,7 @@ function slot0.initEvents(slot0)
 		uv0.levelStageView.isFrozen = uv0:isfrozen()
 	end)
 	slot0:bind(LevelUIConst.DESTROY_LEVEL_STAGE_VIEW, function (slot0)
-		if uv0.levelStageView then
-			uv0.levelStageView:Destroy()
-		end
+		uv0:DestroyLevelStageView()
 	end)
 	slot0:bind(LevelUIConst.DO_TRACKING, function (slot0, slot1)
 		uv0:doTracking(slot1)
@@ -563,7 +581,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.checkChallengeOpen(slot0)
-	return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "ChallengeMainMediator")
+	return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "ChallengeMainMediator")
 end
 
 function slot0.tryPlaySubGuide(slot0)
@@ -577,7 +595,7 @@ function slot0.onBackPressed(slot0)
 
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
-	if slot0.levelInfoView and slot0.levelInfoView:CheckState(BaseSubView.STATES.INITED) then
+	if slot0.levelInfoView then
 		slot0:hideChapterPanel()
 
 		return
@@ -800,7 +818,7 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 		end
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyCellFlag) > 0 then
-			slot0.grid:updateCellFlagList()
+			slot0.grid:UpdateFloor()
 		end
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyBase) > 0 then
@@ -886,6 +904,7 @@ function slot0.updateCouldAnimator(slot0)
 
 				uv1.aniName = uv0
 
+				pg.ViewUtils.SetSortingOrder(slot0, ChapterConst.LayerWeightMapAnimation)
 				uv2()
 			end)
 		else
@@ -1249,14 +1268,10 @@ function slot0.setMap(slot0, slot1)
 	if slot0.contextData.map:getMapType() == Map.ACT_EXTRA then
 		PlayerPrefs.SetInt("ex_mapId", slot0.contextData.map.id)
 		PlayerPrefs.Save()
-	end
-
-	if slot0.contextData.map:isRemaster() then
+	elseif slot0.contextData.map:isRemaster() then
 		PlayerPrefs.SetInt("remaster_lastmap_" .. slot0.contextData.map.remasterId, slot1)
 		PlayerPrefs.Save()
 	end
-
-	slot2 = getProxy(ChapterProxy):IsChapterInRemaster(chapterID)
 
 	slot0:updateBattleActivity(slot1)
 	slot0:updateMap()
@@ -1291,7 +1306,10 @@ function slot0.GetMapBuilderInBuffer(slot0, slot1, slot2)
 end
 
 function slot0.updateMap(slot0)
-	playBGM(slot0.contextData.map:getConfig("bgm"))
+	if slot0.contextData.map:getConfig("bgm") and #slot2 > 0 then
+		playBGM(slot2)
+	end
+
 	seriesAsync({
 		function (slot0)
 			uv0:SwitchBG(uv1:getConfig("bg"))
@@ -1520,8 +1538,10 @@ function slot0.displayChapterPanel(slot0, slot1, slot2)
 end
 
 function slot0.hideChapterPanel(slot0)
-	if slot0.levelInfoView and slot0.levelInfoView:CheckState(BaseSubView.STATES.INITED) then
+	if slot0.levelInfoView then
 		slot0.levelInfoView:Destroy()
+
+		slot0.levelInfoView = nil
 	end
 end
 
@@ -1792,9 +1812,12 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 
 	slot0:onSubLayerContextChange()
 
-	slot0.levelStageView = LevelStageView.New(slot0.topPanel, slot0.event, slot0.contextData)
+	if not slot0.levelStageView then
+		slot0.levelStageView = LevelStageView.New(slot0.topPanel, slot0.event, slot0.contextData)
 
-	slot0.levelStageView:Load()
+		slot0.levelStageView:Load()
+	end
+
 	slot0:frozen(function ()
 		uv0.levelStageView:tryAutoAction(function ()
 			uv0.levelStageView:DoSafeCheckOnBegin()
@@ -1839,7 +1862,7 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 					uv0.count = uv0.count + 1
 
 					if uv0.amount <= uv0.count then
-						uv1()
+						onNextTick(uv1)
 					end
 				end
 
@@ -1876,7 +1899,9 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 				uv0.leftCanvasGroup.blocksRaycasts = true
 				uv0.rightCanvasGroup.blocksRaycasts = true
 
-				uv0:initGrid()
+				uv0:initGrid(slot0)
+			end,
+			function (slot0)
 				uv0.levelStageView:SetGrid(uv0.grid)
 
 				uv0.contextData.huntingRangeVisibility = uv0.contextData.huntingRangeVisibility - 1
@@ -1959,14 +1984,18 @@ function slot0.switchToMap(slot0)
 
 	if slot0.levelStageView then
 		slot0.levelStageView:ShiftStagePanelOut(function ()
-			if not uv0.contextData.chapterVO and uv0.levelStageView then
-				uv0.levelStageView:Destroy()
+			if not uv0.contextData.chapterVO then
+				uv0:DestroyLevelStageView()
 			end
 		end)
 	end
 
 	slot0:SwitchBG(slot0.contextData.map:getConfig("bg"))
-	playBGM(slot0.contextData.map:getConfig("bgm"))
+
+	if slot0.contextData.map:getConfig("bgm") and #slot8 > 0 then
+		playBGM(slot8)
+	end
+
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
 
 	if slot0.ambushWarning and slot0.ambushWarning.activeSelf then
@@ -1994,14 +2023,6 @@ function slot0.SwitchBG(slot0, slot1, slot2)
 		if slot2 then
 			slot2()
 		end
-	elseif slot0.currentBG == nil then
-		slot0.currentBG = slot1
-
-		setImageSprite(slot0.map, GetSpriteFromAtlas("levelmap/" .. slot1, "", true))
-
-		if slot2 then
-			slot2()
-		end
 	elseif slot0.currentBG ~= slot1 then
 		slot0.currentBG = slot1
 
@@ -2014,6 +2035,14 @@ function slot0.SwitchBG(slot0, slot1, slot2)
 				end
 			end
 		end)
+	end
+end
+
+function slot0.DestroyLevelStageView(slot0)
+	if slot0.levelStageView then
+		slot0.levelStageView:Destroy()
+
+		slot0.levelStageView = nil
 	end
 end
 
@@ -2210,27 +2239,24 @@ function slot0.hideRemasterPanel(slot0)
 	slot0.levelRemasterView:Destroy()
 end
 
-function slot0.initGrid(slot0)
-	slot1 = slot0.contextData.chapterVO
+function slot0.initGrid(slot0, slot1)
+	slot2 = slot0.contextData.chapterVO
 
+	slot0:enableLevelCamera()
 	setActive(slot0.uiMain, true)
 
-	slot0.levelGrid.localEulerAngles = Vector3(slot1.theme.angle, 0, 0)
+	slot0.levelGrid.localEulerAngles = Vector3(slot2.theme.angle, 0, 0)
 	slot0.grid = LevelGrid.New(slot0.dragLayer)
 
 	slot0.grid:attach(slot0)
 	slot0.grid:setItems(slot0.shipTpl, slot0.subTpl, slot0.transportTpl, slot0.transportTargetTpl, slot0.enemyTpl, slot0.deadTpl, slot0.boxTpl, slot0.supplyTpl, slot0.rivalTpl, slot0.championTpl, slot0.spineTpl, slot0.oniTpl, slot0.oniTargetTpl, slot0.bombEnemyTpl, slot0.arrowTarget)
-	slot0.grid:ExtendItem("barrierTpl", slot0.barrierTpl)
-	slot0.grid:ExtendItem("dockTpl", slot0.dockTpl)
 	slot0.grid:ExtendItem("destinationMarkTpl", slot0.destinationMarkTpl)
-	slot0.grid:ExtendItem("antiairgunTpl", slot0.antiairgunTpl)
-	slot0.grid:ExtendItem("antiairgunareaTpl", slot0.antiairgunareaTpl)
 
 	function slot0.grid.onCellClick(slot0)
 		uv0:clickGridCell(slot0)
 	end
 
-	if slot1:getDataType() == ChapterConst.TypeNone then
+	if slot2:getDataType() == ChapterConst.TypeNone then
 		function slot0.grid.onShipStepChange(slot0)
 			uv0.levelStageView:updateAmbushRate(slot0)
 		end
@@ -2242,9 +2268,10 @@ function slot0.initGrid(slot0)
 		uv0.levelStageView:updateStageStrategy()
 	end
 
-	slot0.grid:initAll()
-	slot0:tryFocusForGuide()
-	slot0:enableLevelCamera()
+	slot0.grid:initAll(function ()
+		uv0:tryFocusForGuide()
+		uv1()
+	end)
 end
 
 function slot0.tryFocusForGuide(slot0)
@@ -3025,7 +3052,7 @@ end
 function slot0.updatePoisonAreaTip(slot0)
 	slot1 = slot0.contextData.chapterVO
 
-	function getTypeEvent(slot0)
+	if function (slot0)
 		slot1 = {}
 		slot2 = pg.map_event_list[uv0.id] or {}
 		slot3 = nil
@@ -3037,12 +3064,10 @@ function slot0.updatePoisonAreaTip(slot0)
 		end
 
 		return slot1
-	end
-
-	if getTypeEvent(ChapterConst.EvtType_Poison) then
-		for slot6, slot7 in ipairs(slot2) do
-			if slot7.round_gametip ~= nil and slot8 ~= "" and slot1:getRoundNum() == slot8[1] then
-				pg.TipsMgr.GetInstance():ShowTips(i18n(slot8[2]))
+	end(ChapterConst.EvtType_Poison) then
+		for slot7, slot8 in ipairs(slot3) do
+			if slot8.round_gametip ~= nil and slot9 ~= "" and slot1:getRoundNum() == slot9[1] then
+				pg.TipsMgr.GetInstance():ShowTips(i18n(slot9[2]))
 			end
 		end
 	end
@@ -3097,10 +3122,7 @@ function slot0.willExit(slot0)
 		end
 	end
 
-	if slot0.levelStageView then
-		slot0.levelStageView:Destroy()
-	end
-
+	slot0:DestroyLevelStageView()
 	slot0:hideChapterPanel()
 	slot0:hideFleetEdit()
 	slot0:hideSpResult()
@@ -3119,7 +3141,7 @@ function slot0.willExit(slot0)
 
 	slot4 = ""
 
-	PoolMgr.GetInstance():DestroyPrefab("effect/juguangdeng_SLG", slot4)
+	PoolMgr.GetInstance():DestroyPrefab("chapter/plane", slot4)
 
 	for slot4, slot5 in pairs(slot0.mbDict) do
 		slot5:Destroy()

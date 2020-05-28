@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你好你好~咦？突然發現，大家都換上了新衣服欸～還是我們東煌風格的！",
+			say = "妳好妳好~咦？突然發現，大家都換上了新衣服欸～還是我們東煌風格的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真好呀真好呀～哦，對了對了，正有點事情想問你們",
+			say = "真好呀真好呀～哦，對了對了，正有點事情想問妳們",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我們正在尋找能製作爆竹的火藥呢，你們知道哪裡有嘛～？",
+			say = "我們正在尋找能製作爆竹的火藥呢，妳們知道哪裡有嘛～？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

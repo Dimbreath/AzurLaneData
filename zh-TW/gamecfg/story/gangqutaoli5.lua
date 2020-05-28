@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 407010,
 			nameColor = "#a9f548",
-			say = "也就是说，你进行的高能热线照射试验，偶然诞生出了这些孩子吗",
+			say = "也就是说，妳进行的高能热线照射试验，偶然诞生出了这些孩子吗",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就这样吧。话说{namecode:98}，还是把那奇怪的设备封印掉吧。要是再发生这类的麻烦事…你知道会怎样的吧？",
+			say = "那就这样吧。话说{namecode:98}，还是把那奇怪的设备封印掉吧。要是再发生这类的麻烦事…妳知道会怎样的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么各位，让我带你们去宿舍吧。小贝法就去向指挥官报告三人都平安无事吧",
+			say = "那么各位，让我带妳们去宿舍吧。小贝法就去向指挥官报告三人都平安无事吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…你也是呢，呵呵呵",
+			say = "…妳也是呢，呵呵呵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

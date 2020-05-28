@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "总之把你留下来也只是为了给你提个醒，倒也没什么…",
+			say = "总之把妳留下来也只是为了给妳提个醒，倒也没什么…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "对于你们两个精力过剩的“问题儿童”，有必要从最基本的“学生的本分”开始教育起了呢…",
+			say = "对于妳们两个精力过剩的“问题儿童”，有必要从最基本的“学生的本分”开始教育起了呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

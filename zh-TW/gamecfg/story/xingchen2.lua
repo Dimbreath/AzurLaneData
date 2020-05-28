@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			say = "星塵醬我們愛你啊啊啊啊！！！",
+			say = "星塵醬我們愛妳啊啊啊啊！！！",
 			side = 1,
 			bgName = "bg_story_star1",
 			actorName = "觀眾B",
@@ -109,7 +109,7 @@ return {
 			blackBg = true,
 			actor = 0,
 			nameColor = "#a9f548",
-			say = "謝謝大家的應援～我已經感受到你們的感情了～讓我們更加燃起來吧～！",
+			say = "謝謝大家的應援～我已經感受到妳們的感情了～讓我們更加燃起來吧～！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

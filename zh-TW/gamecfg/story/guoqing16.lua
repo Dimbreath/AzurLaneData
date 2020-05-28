@@ -31,7 +31,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 2,
 			nameColor = "#ff0000",
-			say = "你的靈魂，我們就收下了！",
+			say = "妳的靈魂，我們就收下了！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -313,7 +313,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "{namecode:95}姐？我終於找到你了，你沒事吧！",
+			say = "{namecode:95}姐？我終於找到妳了，妳沒事吧！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -332,7 +332,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "{namecode:96}...你來了啊...感覺好像做了一個很長的夢。",
+			say = "{namecode:96}...妳來了啊...感覺好像做了一個很長的夢。",
 			shake = {
 				speed = 1,
 				number = 3
@@ -408,7 +408,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "只要你能夠平安無事，我們就還有希望...只有你，能夠戰勝那個對手....",
+			say = "只要妳能夠平安無事，我們就還有希望...只有妳，能夠戰勝那個對手....",
 			shake = {
 				speed = 1,
 				number = 3
@@ -427,7 +427,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "在那之前，姐姐會一直在你身邊...一直守護著你...",
+			say = "在那之前，姐姐會一直在妳身邊...一直守護著妳...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -446,7 +446,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "你只要…放心的看著前方…看著那個目標就好…",
+			say = "妳只要…放心的看著前方…看著那個目標就好…",
 			shake = {
 				speed = 1,
 				number = 3

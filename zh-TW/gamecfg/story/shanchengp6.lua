@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "哇啊……濕透了……殿下，給你毛巾擦擦吧！",
+			say = "哇啊……濕透了……殿下，給妳毛巾擦擦吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嘿嘿……你問“為什麼要這麼拼命”？嗯，我沒和殿下說過嗎？",
+			say = "嘿嘿……妳問“為什麼要這麼拼命”？嗯，我沒和殿下說過嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

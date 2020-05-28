@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我刚去看了下萨福克那边。谢菲你这边看来还好呢",
+			say = "我刚去看了下萨福克那边。谢菲妳这边看来还好呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此……谢菲你呢？和陛下一样在舰队里过得高兴吗？",
+			say = "原来如此……谢菲妳呢？和陛下一样在舰队里过得高兴吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

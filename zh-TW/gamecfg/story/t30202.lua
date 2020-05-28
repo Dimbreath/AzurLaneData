@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
-			say = "這一回合，是你們的勝利",
+			say = "這一回合，是妳們的勝利",
 			shake = {
 				speed = 1,
 				number = 3

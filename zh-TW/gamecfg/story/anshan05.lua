@@ -228,7 +228,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = -1,
-			say = "哎呀，原來你們都在這兒呀",
+			say = "哎呀，原來妳們都在這兒呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			}
 		},
 		{
-			say = "逸仙！你怎麼來了",
+			say = "逸仙！妳怎麼來了",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -456,7 +456,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "既、既然你們都這麼說，那我就收下了…",
+			say = "既、既然妳們都這麼說，那我就收下了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

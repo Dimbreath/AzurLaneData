@@ -100,7 +100,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "是你在召喚我嗎？",
+			say = "是妳在召喚我嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "很可惜，現在我還沒有名字，你就暫時叫我Z46吧。",
+			say = "很可惜，現在我還沒有名字，妳就暫時叫我Z46吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "直到尋找到真正的名字為止，Z46這個名字就是維繫你我的絲線。",
+			say = "直到尋找到真正的名字為止，Z46這個名字就是維繫妳我的絲線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "我的主人啊，請你牽引這絲線，指引我前進的方向吧！",
+			say = "我的主人啊，請妳牽引這絲線，指引我前進的方向吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 		{
 			bgName = "bg_story_task",
 			blackBg = true,
-			say = "至少在你以這個名字呼喚我的時候，讓透明的我看到世界的色彩吧。",
+			say = "至少在妳以這個名字呼喚我的時候，讓透明的我看到世界的色彩吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

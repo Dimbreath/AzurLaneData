@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			actor = 603020,
 			nameColor = "#a9f548",
-			say = "也作为今天让你当了一天苦力的答谢和致歉吧，呵呵，指挥官不会放在心上的吧？",
+			say = "也作为今天让妳当了一天苦力的答谢和致歉吧，呵呵，指挥官不会放在心上的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			actor = 603020,
 			nameColor = "#a9f548",
-			say = "虽然这么说好像有点过分，不过比起潇洒自如的舰队统领者，我还是更喜欢那个中了圈套之后不知所措的你呢。",
+			say = "虽然这么说好像有点过分，不过比起潇洒自如的舰队统领者，我还是更喜欢那个中了圈套之后不知所措的妳呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也不是天边的星星，我就在你的身边。",
+			say = "我也不是天边的星星，我就在妳的身边。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我会一直陪着你的。",
+			say = "指挥官，我会一直陪着妳的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

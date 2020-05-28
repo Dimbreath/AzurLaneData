@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}认为城堡中的可能是你们的伙伴，因为我们这边离得比较近，她让我们快去看一下",
+			say = "{namecode:96}认为城堡中的可能是妳们的夥伴，因为我们这边离得比较近，她让我们快去看一下",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

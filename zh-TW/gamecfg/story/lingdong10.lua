@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我希望在將來，你們中的任何人面對強大於自己數倍的對手時，會像今天沙恩霍斯特一樣勇敢作戰！",
+			say = "我希望在將來，妳們中的任何人面對強大於自己數倍的對手時，會像今天沙恩霍斯特一樣勇敢作戰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			actorName = "觀察者",
-			say = "你發現的這個情報，確實也有必要詳細觀察一下...",
+			say = "妳發現的這個情報，確實也有必要詳細觀察一下...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			actorName = "觀察者",
-			say = "那麼，北海區域就交給你負責了——「淨化者」",
+			say = "那麼，北海區域就交給妳負責了——「淨化者」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			say = "如果是那個傢伙在搗蛋的話，你知道該如何處理...",
+			say = "如果是那個傢伙在搗蛋的話，妳知道該如何處理...",
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,

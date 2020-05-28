@@ -39,7 +39,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过话说回来，真亏你能穿着这么轻飘飘的衣服在战场上来来去去呢",
+			say = "不过话说回来，真亏妳能穿着这么轻飘飘的衣服在战场上来来去去呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

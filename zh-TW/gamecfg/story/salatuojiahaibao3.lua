@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，抱歉你们先在这里停一下。",
+			say = "指挥官，抱歉妳们先在这里停一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，恭喜你，成为了被海豹选中之人，过去吧。",
+			say = "嗯，恭喜妳，成为了被海豹选中之人，过去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "……噗，没想到你们会这么投入啊！？",
+			say = "……噗，没想到妳们会这么投入啊！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

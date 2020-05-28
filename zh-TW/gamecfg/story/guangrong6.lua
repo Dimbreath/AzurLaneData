@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？你是說“早知道這樣的話就該多叫幾個人來了”？",
+			say = "嗯？妳是說“早知道這樣的話就該多叫幾個人來了”？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

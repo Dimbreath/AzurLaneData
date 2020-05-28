@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "看来半人马你还不理解这一点呢，你这么漂亮没有穿泳装来太可惜了。",
+			say = "看来半人马妳还不理解这一点呢，妳这么漂亮没有穿泳装来太可惜了。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -78,7 +78,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系，我们去那边坐下，我先来好好传授你一下，什么是名为夏天的战争！",
+			say = "没关系，我们去那边坐下，我先来好好传授妳一下，什么是名为夏天的战争！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "嘻嘻嘻，你叫我站住我就会站住吗~~~",
+			say = "嘻嘻嘻，妳叫我站住我就会站住吗~~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "喏，如你所见…虽然台词和动作都挺帅气的啦——",
+			say = "喏，如妳所见…虽然台词和动作都挺帅气的啦——",
 			effects = {
 				{
 					active = false,
@@ -447,7 +447,7 @@ return {
 			bgName = "star_level_bg_106",
 			actor = 206040,
 			dir = 1,
-			say = "皇家方舟前辈，你好！",
+			say = "皇家方舟前辈，妳好！",
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -591,7 +591,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是吗，你这么漂亮，不穿泳装真是可惜了",
+			say = "是吗，妳这么漂亮，不穿泳装真是可惜了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

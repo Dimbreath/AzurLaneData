@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "若是能取得那份馈赠，我一定能为你做到更多的事。",
+			say = "若是能取得那份馈赠，我一定能为妳做到更多的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

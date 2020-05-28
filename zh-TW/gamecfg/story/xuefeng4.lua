@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			say = "你知道嗎？蹭蹭{namecode:22}的尾巴據說就能提升運氣呢！",
+			say = "妳知道嗎？蹭蹭{namecode:22}的尾巴據說就能提升運氣呢！",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "指揮官只要你對{namecode:22}搖搖尾巴，{namecode:22}的尾巴也會給你摸兩下的喲――嗯！？",
+			say = "指揮官只要妳對{namecode:22}搖搖尾巴，{namecode:22}的尾巴也會給妳摸兩下的喲――嗯！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "哼哼哼，東方之國的冰風暴<SnowFrost>呦！把你的好運<RealLuck>貢獻給我吧！",
+			say = "哼哼哼，東方之國的冰風暴<SnowFrost>呦！把妳的好運<RealLuck>貢獻給我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "哼！不、不過是蹭蹭尾巴毛罷了，本大人就滿足你們——！",
+			say = "哼！不、不過是蹭蹭尾巴毛罷了，本大人就滿足妳們——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

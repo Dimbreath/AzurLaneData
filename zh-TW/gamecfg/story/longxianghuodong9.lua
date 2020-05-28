@@ -42,7 +42,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "喂，你知道自己被上头当作弃子了吗？即使这样还要坚持战斗吗？",
+			say = "喂，妳知道自己被上头当作弃子了吗？即使这样还要坚持战斗吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，这有什么～如果是为了印第的话，我连这个世界也能毁灭给你看！",
+			say = "哼，这有什么～如果是为了印第的话，我连这个世界也能毁灭给妳看！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

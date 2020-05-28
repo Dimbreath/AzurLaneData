@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>六、真正的实力</size>",
+					"阿芙乐尔和愉快的夥伴们\n\n<size=45>六、真正的实力</size>",
 					1
 				}
 			}
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，拜托你和塔什干同志了，务必要利用你们的优势牵制住她们的前锋部队。",
+			say = "嗯，拜托妳和塔什干同志了，务必要利用妳们的优势牵制住她们的前锋部队。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，拜托你们了。",
+			say = "嗯，拜托妳们了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

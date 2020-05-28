@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"自由的天使\n\n<size=45>五 埃米尔的浪漫说·上</size>",
+					"自由的天使\n\n<size=45>五 埃米爾的浪漫說·上</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "和埃米尔闲聊了起来。",
+			say = "和埃米爾閒聊了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "只有细心留意，才能发掘生活中的美。而珍惜这些细小的美好，我觉得，就是浪漫的本质哦~",
+			say = "只有細心留意，才能發掘生活中的美。而珍惜這些細小的美好，我覺得，就是浪漫的本質哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "生活中的美好东西有许多呢，即使每天都是一样的环境，其中也会有细微的变化。",
+			say = "生活中的美好東西有許多呢，即使每天都是一樣的環境，其中也會有細微的變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的鸟儿叫声是不是和昨天不一样呢？这里有一朵没有见过的花呢~在不同的地方跳舞的感觉也完全不同……",
+			say = "今天的鳥兒叫聲是不是和昨天不一樣呢？這裡有一朵沒有見過的花呢~在不同的地方跳舞的感覺也完全不同……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,23 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "埃米尔闭上双眼，双手抱在胸前，像是在拥抱着什么美好的东西一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802010,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "和人交流也是一样的，世上不存在两个性格完全一样的人，即使看起来相似，也一定存在着某些差异。",
+			say = "埃米爾閉上雙眼，雙手抱在胸前，像是在擁抱著什麼美好的東西一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +129,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "去发现每个人身上的不同，我觉得是十分重要的~",
+			say = "和人交流也是一樣的，世上不存在兩個性格完全一樣的人，即使看起來相似，也一定存在著某些差異。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "去發現每個人身上的不同，我覺得是十分重要的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "而且指挥官你不觉得，如果发现一个人身上有非常美好的品质，会是一件十分开心的事吗？",
+			say = "而且指揮官妳不覺得，如果發現一個人身上有非常美好的品質，會是一件十分開心的事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "點頭",
 					flag = 1
 				}
 			}
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以呢，虽然也会有难过和悲伤的时候，不过只要想到世界上还有那么多值得我去体验和发现的东西，就觉得一定要坚持下去。",
+			say = "所以呢，雖然也會有難過和悲傷的時候，不過只要想到世界上還有那麼多值得我去體驗和發現的東西，就覺得一定要堅持下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "离别也好，战争也好，哪怕有多么痛苦，只要我的这份热情没有消退，我就永远不会屈服。",
+			say = "離別也好，戰爭也好，哪怕有多麼痛苦，只要我的這份熱情沒有消退，我就永遠不會屈服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "埃米尔回过神来，露出有点不好意思的表情",
+			say = "埃米爾回過神來，露出有點不好意思的表情",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，好像说了一些非常自大的话，有点不好意思呢…指挥官你听过就算了哦？",
+			say = "啊哈哈，好像說了一些非常自大的話，有點不好意思呢…指揮官妳聽過就算了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,23 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过她马上像是想到了什么一样凑了过来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802010,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "对了，指挥官！我们来约会吧~",
+			say = "不過她馬上像是想到了什麼一樣湊了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +273,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看，既然聊到了浪漫，比起说些大道理，来实践不是更好的方法吗？",
+			say = "對了，指揮官！我們來約會吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +289,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是说，指挥官不愿意和我约会呢？嘻嘻",
+			say = "妳看，既然聊到了浪漫，比起說些大道理，來實踐不是更好的方法嗎？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "還是說，指揮官不願意和我約會呢？嘻嘻",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "…定下了和埃米尔约会的行程",
+			say = "…定下了和埃米爾約會的行程",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

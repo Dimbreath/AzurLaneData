@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "沒事！小彗星你們還沒適應，有什麼情況我會支援你們的！",
+			say = "沒事！小彗星妳們還沒適應，有什麼情況我會支援妳們的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "薩拉托加說得沒錯！小天鵝你也是，抬頭挺胸！",
+			say = "薩拉托加說得沒錯！小天鵝妳也是，抬頭挺胸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			say = "乾杯——！……咳咳！薩拉托加，莫非你……",
+			say = "乾杯——！……咳咳！薩拉托加，莫非妳……",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我這杯是放了黑醋吧……該不會這裡每個人都被你動了手腳……",
+			say = "我這杯是放了黑醋吧……該不會這裡每個人都被妳動了手腳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不過我幫你們點了新的飲料，等我去拿來哦！",
+			say = "不過我幫妳們點了新的飲料，等我去拿來哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，咱也去幫你！",
+			say = "啊，咱也去幫妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

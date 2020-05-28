@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "这样吗…？总觉得你们刚才一直在听呢…",
+			say = "这样吗…？总觉得妳们刚才一直在听呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			actor = 107050,
 			side = 0,
 			bgName = "bg_story_room",
-			say = "…你看，指挥官这不是因为担心哈曼才找过来的吗？",
+			say = "…妳看，指挥官这不是因为担心哈曼才找过来的吗？",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -196,7 +196,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "指挥官，真是对不起…哈曼总是给你添麻烦…",
+			say = "指挥官，真是对不起…哈曼总是给妳添麻烦…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

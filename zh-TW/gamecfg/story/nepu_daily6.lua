@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你说什么，布兰？",
+			say = "妳说什么，布兰？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "…没什么…来吧，突击者、Z19。让你们见识一下电子小说的魅力……",
+			say = "…没什么…来吧，突击者、Z19。让妳们见识一下电子小说的魅力……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……电子小说的文学性，解读剧情，通往正确选项的方法…我仔细给你们解说……",
+			say = "……电子小说的文学性，解读剧情，通往正确选项的方法…我仔细给妳们解说……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是！拜托你了布兰老师！",
+			say = "是！拜托妳了布兰老师！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "布兰…老师？你到底教了她们什么……？",
+			say = "布兰…老师？妳到底教了她们什么……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是如此——“见义不为无勇也”！就让我助你们一臂之力吧！",
+			say = "正是如此——“见义不为无勇也”！就让我助妳们一臂之力吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -841,7 +841,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你，从头到尾都只顾着踩油门啊",
+			say = "妳，从头到尾都只顾着踩油门啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -922,7 +922,7 @@ return {
 			}
 		},
 		{
-			say = "玩几次输的都是涅普顿啦。这两个孩子明显玩得比你好",
+			say = "玩几次输的都是涅普顿啦。这两个孩子明显玩得比妳好",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -963,7 +963,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真拿你没办法啊。我也尽量给你些建议吧",
+			say = "真拿妳没办法啊。我也尽量给妳些建议吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -979,7 +979,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来在搞些似乎很有趣的活动呢！就让本王也加入你们吧！把有趣的游戏都拿过来吧！",
+			say = "看来在搞些似乎很有趣的活动呢！就让本王也加入妳们吧！把有趣的游戏都拿过来吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -990,7 +990,7 @@ return {
 			}
 		},
 		{
-			say = "是是～快请快请伊丽莎白酱～！你想玩什么样的游戏呢～？",
+			say = "是是～快请快请伊丽莎白酱～！妳想玩什么样的游戏呢～？",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -1079,7 +1079,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那～你想玩格斗系的还是动作系的？真实度都比较高",
+			say = "那～妳想玩格斗系的还是动作系的？真实度都比较高",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

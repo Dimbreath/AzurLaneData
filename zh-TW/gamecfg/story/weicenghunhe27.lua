@@ -141,7 +141,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "你的姐妹舰孟菲斯也在失踪的舰队里…很担心她么？",
+			say = "妳的姐妹舰孟菲斯也在失踪的舰队里…很担心她么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不能向你证明，不过既然同为奥马哈级的你还在拼命战斗着，我想孟菲斯自己也一定不会轻易放弃吧。",
+			say = "虽然不能向妳证明，不过既然同为奥马哈级的妳还在拼命战斗着，我想孟菲斯自己也一定不会轻易放弃吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "还是笑容更适合你哦，马布尔黑德。",
+			say = "还是笑容更适合妳哦，马布尔黑德。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "咳…你没事了就好。我们继续向下一片区域转移吧~",
+			say = "咳…妳没事了就好。我们继续向下一片区域转移吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

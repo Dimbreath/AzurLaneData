@@ -115,7 +115,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最近…你在本王身边的时间是不是有点…变少了？相比之下指挥官在一起的时间倒是越来越长…",
+			say = "最近…妳在本王身边的时间是不是有点…变少了？相比之下指挥官在一起的时间倒是越来越长…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…总之，厌战你有什么想法的话，本王也不会去干涉的。毕竟自己的问题也要自己才能解决呢，咳咳……",
+			say = "…总之，厌战妳有什么想法的话，本王也不会去干涉的。毕竟自己的问题也要自己才能解决呢，咳咳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

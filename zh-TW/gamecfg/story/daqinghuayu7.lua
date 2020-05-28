@@ -177,7 +177,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "今天谢谢你了呢。虽然是我用“条件”让你陪我的，但是，听到指挥官说和我一起很开心的时候，我真的非常高兴呢。",
+			say = "今天谢谢妳了呢。虽然是我用“条件”让妳陪我的，但是，听到指挥官说和我一起很开心的时候，我真的非常高兴呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			blackBg = true,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "还有指挥官，虽然我好像一直在捉弄你，不过其实——",
+			say = "还有指挥官，虽然我好像一直在捉弄妳，不过其实——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			blackBg = true,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "对了，明天还有我给你准备的惊喜呢……装睡听别人真心话的指挥官要吃点苦头才行呢~",
+			say = "对了，明天还有我给妳准备的惊喜呢……装睡听别人真心话的指挥官要吃点苦头才行呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

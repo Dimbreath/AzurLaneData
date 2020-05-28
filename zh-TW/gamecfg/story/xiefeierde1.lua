@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，我才不要，反正我也跑不過你，讓我再發會兒呆…",
+			say = "欸，我才不要，反正我也跑不過妳，讓我再發會兒呆…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你們兩個，我只是稍微離開了一會兒就變成這樣了……",
+			say = "妳們兩個，我只是稍微離開了一會兒就變成這樣了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 202080,
 			nameColor = "#a9f548",
-			say = "肯特，雖然你跑得很勤，但是在拖過的地面上跑多少次都不會變乾淨的。",
+			say = "肯特，雖然妳跑得很勤，但是在拖過的地面上跑多少次都不會變乾淨的。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…薩福克，我剛才離開的時候你就已經在那裡了吧？",
+			say = "…薩福克，我剛才離開的時候妳就已經在那裡了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

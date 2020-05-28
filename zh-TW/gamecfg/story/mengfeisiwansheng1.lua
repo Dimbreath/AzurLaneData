@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱丁堡，你这身是…魔女吗？",
+			say = "爱丁堡，妳这身是…魔女吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻…要不要我也给你准备一套呀？",
+			say = "嘻嘻…要不要我也给妳准备一套呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

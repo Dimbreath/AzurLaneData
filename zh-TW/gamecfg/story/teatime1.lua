@@ -36,7 +36,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "等等，在正式開始前，我有個問題。你們為什麼要舉辦茶會？",
+			say = "等等，在正式開始前，我有個問題。妳們為什麼要舉辦茶會？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是指北方的那位嗎？很遺憾，她還是有點害羞……",
+			say = "妳是指北方的那位嗎？很遺憾，她還是有點害羞……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			blackBg = true,
 			actor = 301090,
 			nameColor = "#a9f548",
-			say = "沒有{namecode:12}的茶會，我才不會參加！{namecode:12}，等著我，我一定會帶你回來！",
+			say = "沒有{namecode:12}的茶會，我才不會參加！{namecode:12}，等著我，我一定會帶妳回來！",
 			flashout = {
 				dur = 1,
 				black = true,

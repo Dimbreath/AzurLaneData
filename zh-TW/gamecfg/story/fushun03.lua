@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "真、真拿你沒辦法喵…這次就破例給你免費服務好了喵…",
+			say = "真、真拿妳沒辦法喵…這次就破例給妳免費服務好了喵…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

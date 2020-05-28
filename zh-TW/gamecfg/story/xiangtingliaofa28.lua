@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "为什么你们会来这里…",
+			say = "为什么妳们会来这里…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你就是报告中多次提到的“神秘人”么！？",
+			say = "妳就是报告中多次提到的“神秘人”么！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…你究竟是谁？",
+			say = "…妳究竟是谁？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

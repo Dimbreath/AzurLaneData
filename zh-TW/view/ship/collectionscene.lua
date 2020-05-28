@@ -4,6 +4,7 @@ slot0.GET_AWARD = "event get award"
 slot0.ACTIVITY_OP = "event activity op"
 slot0.BEGIN_STAGE = "event begin state"
 slot0.ON_INDEX = "event on index"
+slot0.UPDATE_RED_POINT = "CollectionScene:UPDATE_RED_POINT"
 slot0.ShipOrderAsc = false
 slot0.ShipIndex = {
 	display = {
@@ -53,6 +54,8 @@ function slot0.setProposeList(slot0, slot1)
 end
 
 function slot0.init(slot0)
+	slot0:initEvents()
+
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.top = slot0:findTF("blur_panel/adapt/top")
 	slot0.leftPanel = slot0:findTF("blur_panel/adapt/left_length")
@@ -221,10 +224,14 @@ function slot0.didEnter(slot0)
 						uv1.musicView:closeSongListPanel()
 					end
 
-					pg.CriMgr:GetInstance():resumeNormalBGM()
+					pg.CriMgr:GetInstance():ResumeNormalBGM()
 				elseif uv0 == 6 and uv1.musicView and uv1.musicView:CheckState(BaseSubView.STATES.INITED) then
-					pg.CriMgr:GetInstance():stopBGM()
+					pg.CriMgr:GetInstance():StopBGM()
 					uv1.musicView:tryPlayMusic()
+				end
+
+				if uv0 ~= 5 and uv1.galleryView and uv1.galleryView:CheckState(BaseSubView.STATES.INITED) then
+					uv1.galleryView:closePicPanel()
 				end
 			end
 		end, SFX_UI_TAG)
@@ -288,6 +295,8 @@ end
 
 function slot0.updateCollectNotices(slot0, slot1)
 	setActive(slot0.tip, slot1)
+	setActive(slot0:findTF("tip", slot0.toggles[5]), getProxy(AppreciateProxy):isGalleryHaveNewRes())
+	setActive(slot0:findTF("tip", slot0.toggles[6]), getProxy(AppreciateProxy):isMusicHaveNewRes())
 end
 
 function slot0.calFavoriteRate(slot0)
@@ -938,8 +947,17 @@ function slot0.initMusicPanel(slot0)
 
 		slot0.musicView:Reset()
 		slot0.musicView:Load()
-		pg.CriMgr:GetInstance():stopBGM()
+		pg.CriMgr:GetInstance():StopBGM()
 	end
+end
+
+function slot0.initEvents(slot0)
+	slot0:bind(GalleryConst.OPEN_FULL_SCREEN_PIC_VIEW, function (slot0, slot1)
+		uv0:emit(CollectionMediator.EVENT_OPEN_FULL_SCREEN_PIC_VIEW, slot1)
+	end)
+	slot0:bind(uv0.UPDATE_RED_POINT, function ()
+		uv0:updateCollectNotices()
+	end)
 end
 
 function slot0.onBackPressed(slot0)

@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是嗎，那，你最近有……",
+			say = "是、是嗎，那，妳最近有……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "挺好呀，火奴魯魯你呢？",
+			say = "挺好呀，火奴魯魯妳呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官你從哪……算了，總覺得你什麼時候出現在我身邊我都不奇怪了。",
+			say = "指揮官妳從哪……算了，總覺得妳什麼時候出現在我身邊我都不奇怪了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "就算你說這不怪我，但我連關心海倫娜都做不到，我不是個笨蛋還能是什麼呢……",
+			say = "就算妳說這不怪我，但我連關心海倫娜都做不到，我不是個笨蛋還能是什麼呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "為什麼我非要依靠你不可啊…",
+			say = "為什麼我非要依靠妳不可啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……不過，真不可思議……感覺如果是你的話，或許確實能說這些也說不定。",
+			say = "……不過，真不可思議……感覺如果是妳的話，或許確實能說這些也說不定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

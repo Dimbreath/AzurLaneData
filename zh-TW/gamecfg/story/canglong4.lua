@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官，你也来找姐姐呀。",
+			say = "啊，指挥官，妳也来找姐姐呀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那你就要从现在开始好好学习。",
+			say = "那妳就要从现在开始好好学习。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			actor = 307040,
 			nameColor = "#a9f548",
-			say = "不是啦，我是说，姐姐你投入工作时，看起来好漂亮啊，指挥官也这么想吧？",
+			say = "不是啦，我是说，姐姐妳投入工作时，看起来好漂亮啊，指挥官也这么想吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这点和作为一名女性的幸福什么的，还有你平常说的什么女子力什么的可没有关系哦",
+			say = "这点和作为一名女性的幸福什么的，还有妳平常说的什么女子力什么的可没有关系哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那会有什么让姐姐你也变得关心女子力吗？",
+			say = "那会有什么让姐姐妳也变得关心女子力吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你这孩子，这么关心这个干什么……",
+			say = "妳这孩子，这么关心这个干什么……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

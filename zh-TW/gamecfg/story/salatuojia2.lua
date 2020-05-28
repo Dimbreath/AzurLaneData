@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "薩拉老師，有勞你了。",
+			say = "薩拉老師，有勞妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

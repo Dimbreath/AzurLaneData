@@ -109,7 +109,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「想要拯救你的朋友吗」",
+			say = "「想要拯救妳的朋友吗」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900201,
-			say = "「想要拯救朋友的话，就献上你最重要的东西吧」",
+			say = "「想要拯救朋友的话，就献上妳最重要的东西吧」",
 			effects = {
 				{
 					active = true,
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「用最重要的东西作为代价，拯救你的朋友」",
+			say = "「用最重要的东西作为代价，拯救妳的朋友」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，那就把这个给你",
+			say = "嗯，那就把这个给妳",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

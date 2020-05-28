@@ -286,7 +286,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "让我的战斗机中队跟着你，如果有任何发现派它们回来联络就好。浓雾之中隐藏了很多敌人，注意安全。",
+			say = "让我的战斗机中队跟着妳，如果有任何发现派它们回来联络就好。浓雾之中隐藏了很多敌人，注意安全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

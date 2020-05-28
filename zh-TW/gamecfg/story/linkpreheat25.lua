@@ -24,7 +24,7 @@ return {
 			bgm = "story-uta",
 			actor = 10300010,
 			nameColor = "#a9f548",
-			say = "啊，你好啊指挥官，今天天气不错呢",
+			say = "啊，妳好啊指挥官，今天天气不错呢",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，有没有什么需要我们帮忙的？毕竟受你们照顾了，能帮忙的我们都会帮忙的",
+			say = "对了，有没有什么需要我们帮忙的？毕竟受妳们照顾了，能帮忙的我们都会帮忙的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

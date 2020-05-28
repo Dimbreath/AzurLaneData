@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			say = "啊，抱、抱歉，嚇到你了嗎？",
+			say = "啊，抱、抱歉，嚇到妳了嗎？",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "不用擔心，委託報告我已經幫你完成了。真是的，害怕的話，一開始就交給我不就好了嘛！",
+			say = "不用擔心，委託報告我已經幫妳完成了。真是的，害怕的話，一開始就交給我不就好了嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "沒錯！靠這個把軟弱和缺乏自信都隱藏起來！來，戴上吧。對了，還要有個佩刀……要不把我的借給你吧！",
+			say = "沒錯！靠這個把軟弱和缺乏自信都隱藏起來！來，戴上吧。對了，還要有個佩刀……要不把我的借給妳吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			actor = 306010,
 			nameColor = "#92fc63",
-			say = "就是現在，出發吧，大海盜初春！無論是指揮官還是別的什麼的，就用你的力量通通去征服吧！",
+			say = "就是現在，出發吧，大海盜初春！無論是指揮官還是別的什麼的，就用妳的力量通通去征服吧！",
 			effects = {
 				{
 					active = true,

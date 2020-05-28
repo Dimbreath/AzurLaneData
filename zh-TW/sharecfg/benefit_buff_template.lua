@@ -41,7 +41,7 @@ pg.benefit_buff_template = {
 		benefit_condition = {
 			"lv",
 			"<",
-			40
+			30
 		}
 	},
 	all = {

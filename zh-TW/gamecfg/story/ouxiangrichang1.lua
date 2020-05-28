@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "新生组合polaris，初次的共同练习！这种感觉喵！fighting喵！指挥官也在为你们加油喵！",
+			say = "新生组合polaris，初次的共同练习！这种感觉喵！fighting喵！指挥官也在为妳们加油喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

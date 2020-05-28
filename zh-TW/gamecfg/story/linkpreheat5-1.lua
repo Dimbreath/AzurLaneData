@@ -62,7 +62,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10300010,
-			say = "如果我说我们是从异世界来的……你们也不会相信吧",
+			say = "如果我说我们是从异世界来的……妳们也不会相信吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也难免你会惊讶了。其实之前也有过类似的事",
+			say = "也难免妳会惊讶了。其实之前也有过类似的事",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和久远小姐你们一样，有过从别的世界来的客人呢",
+			say = "和久远小姐妳们一样，有过从别的世界来的客人呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

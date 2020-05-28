@@ -29,7 +29,7 @@ return {
 			blackBg = true,
 			actor = 900071,
 			actorName = "觀察者α",
-			say = "恭喜你又消滅了所有對手，獲得了本輪勝利~",
+			say = "恭喜妳又消滅了所有對手，獲得了本輪勝利~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			nameColor = "#D6341DFF",
 			dir = 1,
 			blackBg = true,
-			say = "……你們這是在諷刺我嗎？",
+			say = "……妳們這是在諷刺我嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			blackBg = true,
 			actor = 900071,
 			actorName = "觀察者α",
-			say = "我們或多或少可是由你的【模因】裡誕生出來的呢呵呵呵",
+			say = "我們或多或少可是由妳的【模因】裡誕生出來的呢呵呵呵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			blackBg = true,
 			actor = 900071,
 			actorName = "觀察者α",
-			say = "那麼，按照約定，我們將允許你再進行一輪“遊戲”，請問你的選擇是？",
+			say = "那麼，按照約定，我們將允許妳再進行一輪“遊戲”，請問妳的選擇是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

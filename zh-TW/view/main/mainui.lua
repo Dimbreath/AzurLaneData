@@ -161,6 +161,7 @@ function slot0.init(slot0)
 	slot0._taskBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/taskButton")
 	slot0._guildButton = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/guildButton")
 	slot0._mallBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/mallBtn")
+	slot0._mallSellTag = slot0:findTF("SellTag", slot0._mallBtn)
 	slot0._liveBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/liveButton")
 	slot0._technologyBtn = slot0:findTF("toTop/frame/bottomPanel/btm/buttons_container/technologyButton")
 
@@ -570,12 +571,17 @@ function slot0.didEnter(slot0)
 			LeanTween.cancel(go(uv0._paintingTF))
 
 			uv0.paintMoving = true
-			findTF(uv0._paintingTF, "live2d").anchoredPosition = Vector2(170, 0)
-			slot1, slot2, slot3 = getProxy(SettingsProxy):getSkinPosSetting(uv0.flagShip.skinId)
+			slot1 = GetOrAddComponent(findTF(uv0._paintingTF, "fitter"), "PaintingScaler")
 
-			if slot1 then
-				uv0._paintingTF.anchoredPosition = Vector2(slot1, slot2)
-				uv0._paintingTF.localScale = Vector3(slot3, slot3, 1)
+			slot1:Snapshoot()
+
+			slot1.FrameName = "mainNormal"
+			findTF(uv0._paintingTF, "live2d").anchoredPosition = Vector2(170, 0)
+			slot2, slot3, slot4 = getProxy(SettingsProxy):getSkinPosSetting(uv0.flagShip.skinId)
+
+			if slot2 then
+				uv0._paintingTF.anchoredPosition = Vector2(slot2, slot3)
+				uv0._paintingTF.localScale = Vector3(slot4, slot4, 1)
 			else
 				uv0._paintingTF.anchoredPosition = Vector2(uv1.PAINT_DEFAULT_POS_X, uv1.DEFAULT_HEIGHT)
 				uv0._paintingTF.localScale = Vector3.one
@@ -583,43 +589,43 @@ function slot0.didEnter(slot0)
 
 			uv0._bg:GetComponent(typeof(Button)).enabled = false
 			uv0._paintingTF:GetComponent("CanvasGroup").blocksRaycasts = false
-			slot4 = uv0.flagShip
-			slot5 = slot4:getPainting()
-			slot6 = getProxy(SettingsProxy):getCharacterSetting(slot4.id, "l2d") and (slot5 == "biaoqiang" or slot5 == "z23" or slot5 == "lafei" or slot5 == "lingbo" or slot5 == "mingshi" or slot5 == "xuefeng")
-			slot7 = uv0._paintingTF
-			slot8 = slot7.anchoredPosition.x
-			slot9 = slot7.anchoredPosition.y
-			slot12 = uv0._tf.rect.width / UnityEngine.Screen.width
-			slot13 = uv0._tf.rect.height / UnityEngine.Screen.height
-			slot14 = slot7.rect.width / 2
-			slot15 = slot7.rect.height / 2
-			slot16, slot17 = nil
-			slot18 = GetOrAddComponent(uv0._bg, "MultiTouchZoom")
+			slot5 = uv0.flagShip
+			slot6 = slot5:getPainting()
+			slot7 = getProxy(SettingsProxy):getCharacterSetting(slot5.id, "l2d") and (slot6 == "biaoqiang" or slot6 == "z23" or slot6 == "lafei" or slot6 == "lingbo" or slot6 == "mingshi" or slot6 == "xuefeng")
+			slot8 = uv0._paintingTF
+			slot9 = slot8.anchoredPosition.x
+			slot10 = slot8.anchoredPosition.y
+			slot13 = uv0._tf.rect.width / UnityEngine.Screen.width
+			slot14 = uv0._tf.rect.height / UnityEngine.Screen.height
+			slot15 = slot8.rect.width / 2
+			slot16 = slot8.rect.height / 2
+			slot17, slot18 = nil
+			slot19 = GetOrAddComponent(uv0._bg, "MultiTouchZoom")
 
-			slot18:SetZoomTarget(uv0._paintingTF)
+			slot19:SetZoomTarget(uv0._paintingTF)
 
-			slot19 = GetOrAddComponent(uv0._bg, "EventTriggerListener")
+			slot20 = GetOrAddComponent(uv0._bg, "EventTriggerListener")
+			slot20.enabled = true
 			slot19.enabled = true
-			slot18.enabled = true
-			slot20 = true
+			slot21 = true
 
-			slot19:AddPointDownFunc(function (slot0)
+			slot20:AddPointDownFunc(function (slot0)
 				if Input.touchCount == 1 or Application.isEditor then
 					uv0 = true
 				elseif Input.touchCount >= 2 then
 					uv0 = false
 				end
 			end)
-			slot19:AddPointUpFunc(function (slot0)
+			slot20:AddPointUpFunc(function (slot0)
 				if Input.touchCount <= 2 then
 					uv0 = true
 				end
 			end)
-			slot19:AddBeginDragFunc(function (slot0, slot1)
+			slot20:AddBeginDragFunc(function (slot0, slot1)
 				uv0 = slot1.position.x * uv1 - uv2 - tf(uv3._paintingTF).localPosition.x
 				uv4 = slot1.position.y * uv5 - uv6 - tf(uv3._paintingTF).localPosition.y
 			end)
-			slot19:AddDragFunc(function (slot0, slot1)
+			slot20:AddDragFunc(function (slot0, slot1)
 				if uv0 then
 					slot2 = tf(uv1._paintingTF).localPosition
 
@@ -662,9 +668,12 @@ function slot0.didEnter(slot0)
 		end
 
 		uv0._moveBtn:GetComponent(typeof(Toggle)).interactable = true
+
+		uv0:paintMove(uv0._paintingOffset, "mainFullScreen", true, 0, 0)
+
 		uv0._bg:GetComponent(typeof(Button)).enabled = true
 		uv0._paintingTF:GetComponent("CanvasGroup").blocksRaycasts = true
-		uv0.anchoredY = uv0._paintingTF.anchoredPosition.y
+		uv0.anchoredY = uv1.DEFAULT_HEIGHT
 
 		uv0:paintBreath()
 	end)
@@ -1029,6 +1038,10 @@ function slot0.ResetActivityBtns(slot0)
 		slot2.spacing = slot1.LayoutProperty.Spacing
 	end
 
+	if slot1.LayoutProperty.Padding then
+		slot2.padding = slot2.padding.New(unpack(slot1.LayoutProperty.Padding))
+	end
+
 	for slot7, slot8 in ipairs(slot1.CurrentEntrancesList) do
 		if IsNil(tf(slot2):Find(slot1[slot8].ButtonName)) then
 			slot10 = cloneTplTo(slot0._ActivityBtnTpl, slot2, slot9.ButtonName)
@@ -1045,6 +1058,10 @@ function slot0.ResetActivityBtns(slot0)
 			if slot9.CtorButton then
 				slot9.CtorButton(slot0, slot10)
 			end
+		end
+
+		if slot1.LayoutProperty.CellScale then
+			slot10.localScale = slot1.LayoutProperty.CellScale
 		end
 
 		if slot9.UpdateButton then
@@ -1905,7 +1922,7 @@ end
 function slot0.updateCollectNotices(slot0, slot1)
 	slot0.hasCollectCanGetRes = slot1
 
-	SetActive(findTF(slot0._collectionBtn, "tip"), slot1)
+	SetActive(findTF(slot0._collectionBtn, "tip"), slot1 or getProxy(AppreciateProxy):isGalleryHaveNewRes() or getProxy(AppreciateProxy):isMusicHaveNewRes())
 end
 
 function slot0.updateGuildNotices(slot0, slot1)
@@ -2441,6 +2458,26 @@ function slot0.recycleSpineChar(slot0)
 		slot0.shipPrefab = nil
 		slot0.shipModel = nil
 	end
+end
+
+function slot0.updateMallBtnSellTag(slot0)
+	slot1 = false
+
+	if PlayerPrefs.GetInt("Ever_Enter_Mall_" .. Goods.CUR_PACKET_ID, 0) == 0 then
+		slot5 = nil
+
+		if getProxy(ShopsProxy):getChargedList() then
+			slot5 = slot4[slot2]
+		end
+
+		if slot5 and slot5.buyCount == 0 then
+			slot1 = true
+		elseif not slot5 then
+			slot1 = true
+		end
+	end
+
+	setActive(slot0._mallSellTag, slot1)
 end
 
 return slot0

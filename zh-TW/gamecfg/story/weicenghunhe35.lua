@@ -41,7 +41,7 @@ return {
 			blackBg = true,
 			actor = 900230,
 			actorName = "构建者",
-			say = "你的计划失败了，观察者。",
+			say = "妳的计划失败了，观察者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			blackBg = true,
 			actor = 900232,
 			actorName = "观察者",
-			say = "零，你究竟还隐瞒了多少东西…",
+			say = "零，妳究竟还隐瞒了多少东西…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

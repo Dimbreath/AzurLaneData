@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			actor = 900212,
 			nameColor = "#a9f548",
-			say = "我跟你们说，{namecode:158}果然很可爱啊！真人比游戏里要可爱一百倍！",
+			say = "我跟妳们说，{namecode:158}果然很可爱啊！真人比游戏里要可爱一百倍！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "祭你又开始了啊…",
+			say = "祭妳又开始了啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			say = "你们稍等一下哦。",
+			say = "妳们稍等一下哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgm = "holo-ayame",
 			actor = 301140,
 			nameColor = "#a9f548",
-			say = "绫目，你说这里有大餐是真的吗？",
+			say = "绫目，妳说这里有大餐是真的吗？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -731,7 +731,7 @@ return {
 			dir = 1,
 			actor = 900212,
 			nameColor = "#a9f548",
-			say = "你们稍微等我一下哦，祭去找她过来~",
+			say = "妳们稍微等我一下哦，祭去找她过来~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

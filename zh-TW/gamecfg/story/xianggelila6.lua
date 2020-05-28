@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哼～就让大黄蜂大人来好好挫挫你的锐气吧！",
+			say = "哼～就让大黄蜂大人来好好挫挫妳的锐气吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真巧呢，这边也想说，就请你切身体会一下战术的重要性吧！",
+			say = "真巧呢，这边也想说，就请妳切身体会一下战术的重要性吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

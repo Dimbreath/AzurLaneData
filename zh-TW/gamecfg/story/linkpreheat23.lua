@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈哈！真能干啊小不点！你是叫猫音吗？你的话没准能当战舰呢！喔啦喔啦！挡路的杂鱼给我闪开！！",
+			say = "哈哈哈哈！真能干啊小不点！妳是叫猫音吗？妳的话没准能当战舰呢！喔啦喔啦！挡路的杂鱼给我闪开！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐！猫音！不是说了冲那么前面很危险了吗！多看看周围的情况再…喂，等等，你们…我不是说了叫你们等着么！！！！",
+			say = "姐姐！猫音！不是说了冲那么前面很危险了吗！多看看周围的情况再…喂，等等，妳们…我不是说了叫妳们等着么！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿，居然想要和我一决高下?而且还要用击沉数量来比吗……有意思，我就跟你比一比！{namecode:77}，你也来的吧？总不至于缩了吧？",
+			say = "嘿，居然想要和我一决高下?而且还要用击沉数量来比吗……有意思，我就跟妳比一比！{namecode:77}，妳也来的吧？总不至于缩了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就约好了哦……来吧杂鱼们！看我不把你们全部掀翻！",
+			say = "那就约好了哦……来吧杂鱼们！看我不把妳们全部掀翻！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是我还是觉得有点没闹够呢……{namecode:77}，你怎么想？",
+			say = "但是我还是觉得有点没闹够呢……{namecode:77}，妳怎么想？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊咧咧?猫音酱，你干嘛用舰装指着{namecode:76}她们?",
+			say = "啊咧咧?猫音酱，妳干嘛用舰装指着{namecode:76}她们?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊，{namecode:76}小姐？!你们等一下！同伴之间不能互相攻击啊！",
+			say = "伊，{namecode:76}小姐？!妳们等一下！同伴之间不能互相攻击啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			dir = 1,
 			actor = 10300010,
 			nameColor = "#a9f548",
-			say = "不不不不你们用的不还是实战武器吗！再装填都结束了吧！{namecode:77}小姐这不行的吧！？",
+			say = "不不不不妳们用的不还是实战武器吗！再装填都结束了吧！{namecode:77}小姐这不行的吧！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有敌人的时候不准胡乱射击喵！你们以为炮弹不要钱吗喵！",
+			say = "没有敌人的时候不准胡乱射击喵！妳们以为炮弹不要钱吗喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -916,7 +916,7 @@ return {
 			}
 		},
 		{
-			say = "姐姐，你想要的是这个吧——来，红薯烧酒",
+			say = "姐姐，妳想要的是这个吧——来，红薯烧酒",
 			side = 1,
 			bgName = "bg_story_chuansong",
 			dir = 1,
@@ -957,7 +957,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来来猫音，为了庆祝你的奋斗…先来干一杯",
+			say = "来来猫音，为了庆祝妳的奋斗…先来干一杯",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

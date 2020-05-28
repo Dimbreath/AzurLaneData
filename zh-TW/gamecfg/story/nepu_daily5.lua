@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "感觉如何，布兰小姐？有没有让你满意？",
+			say = "感觉如何，布兰小姐？有没有让妳满意？",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你喜欢就再好不过了。果然，还是对镜面海域很在意吗？",
+			say = "妳喜欢就再好不过了。果然，还是对镜面海域很在意吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…那不妨让我也帮点忙吧。如果有想看的资料跟我说，我会帮你找的",
+			say = "啊哈哈…那不妨让我也帮点忙吧。如果有想看的资料跟我说，我会帮妳找的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，帮大忙了。谢谢你,Z23…………！",
+			say = "嗯，帮大忙了。谢谢妳,Z23…………！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			}
 		},
 		{
-			say = "突击者老师，日安。老师你又在这里做什么呢？",
+			say = "突击者老师，日安。老师妳又在这里做什么呢？",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,

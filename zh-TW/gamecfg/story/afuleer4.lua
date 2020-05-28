@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>四、同为“老兵”</size>",
+					"阿芙乐尔和愉快的夥伴们\n\n<size=45>四、同为“老兵”</size>",
 					1
 				}
 			}
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:82}，感谢你用家乡的茶叶招待我们。",
+			say = "{namecode:82}，感谢妳用家乡的茶叶招待我们。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈，哪里哪里。大家都是活跃在一个时代的伙伴，不用客气！",
+			say = "啊哈，哪里哪里。大家都是活跃在一个时代的夥伴，不用客气！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，水星纪念，每个人的兴趣都是不同的啦。你也不要每天光玩游戏比较好哦",
+			say = "好啦，水星纪念，每个人的兴趣都是不同的啦。妳也不要每天光玩游戏比较好哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……即使在这个艰难状况下，为了守护碧蓝色的航线，各个阵营的伙伴们并肩战斗——",
+			say = "……即使在这个艰难状况下，为了守护碧蓝色的航线，各个阵营的夥伴们并肩战斗——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，虽然状况有所不同，但是就各个阵营的伙伴们都聚集在一起这件事上来说，这个港区和当时确实很像呢",
+			say = "嗯，虽然状况有所不同，但是就各个阵营的夥伴们都聚集在一起这件事上来说，这个港区和当时确实很像呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

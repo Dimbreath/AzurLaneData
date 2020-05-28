@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拜托你了，谢菲",
+			say = "拜托妳了，谢菲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "纽卡斯尔姐姐，主人就麻烦你照顾了",
+			say = "纽卡斯尔姐姐，主人就麻烦妳照顾了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			blackBg = true,
 			actor = 202190,
 			nameColor = "#a9f548",
-			say = "——因为大家都是守护平稳日常的最重要的伙伴呢",
+			say = "——因为大家都是守护平稳日常的最重要的夥伴呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贵安~听闻到你发来的电报，我便立刻从皇家三岛启航而来了",
+			say = "贵安~听闻到妳发来的电报，我便立刻从皇家三岛启航而来了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是你担心其中有诈，对么",
+			say = "但是妳担心其中有诈，对么",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是你了！",
+			say = "就是妳了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

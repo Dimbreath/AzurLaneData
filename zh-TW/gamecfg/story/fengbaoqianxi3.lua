@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "咦，孟菲斯？你不是留在司令部进行会议准备么",
+			say = "咦，孟菲斯？妳不是留在司令部进行会议准备么",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -104,7 +104,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，不用这么拘谨，你们也辛苦了。",
+			say = "哈哈哈，不用这么拘谨，妳们也辛苦了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 102160,
-			say = "企业，按照原计划你们要与冲突海域的克利夫兰舰合流，之后前往护卫指挥官的舰队对吧？",
+			say = "企业，按照原计划妳们要与冲突海域的克利夫兰舰合流，之后前往护卫指挥官的舰队对吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

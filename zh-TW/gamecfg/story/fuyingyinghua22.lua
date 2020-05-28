@@ -742,7 +742,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "观察者",
-			say = "在暗礁区埋伏的战斗终端居然没办法拦下你们吗？",
+			say = "在暗礁区埋伏的战斗终端居然没办法拦下妳们吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -964,7 +964,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301810,
-			say = "{namecode:82}大人，不…不好了，一个无法识别的舰船快速突破了我们的外防线...正向你们驶去",
+			say = "{namecode:82}大人，不…不好了，一个无法识别的舰船快速突破了我们的外防线...正向妳们驶去",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -995,7 +995,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系，迄今为止你们已经做得够多了，祭典的后半段，就交给我们吧——",
+			say = "没关系，迄今为止妳们已经做得够多了，祭典的后半段，就交给我们吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1041,7 +1041,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诸位大人，就让我和{namecode:95}姐去会会这位不速之客，你们请在此继续重要的仪式",
+			say = "诸位大人，就让我和{namecode:95}姐去会会这位不速之客，妳们请在此继续重要的仪式",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1056,7 +1056,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拜托你们了！",
+			say = "拜托妳们了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "春節快樂～哎呀，這麼多的東西，辛苦你們拿過來了，真是不好意思…",
+			say = "春節快樂～哎呀，這麼多的東西，辛苦妳們拿過來了，真是不好意思…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，貝爾法斯特小姐，你們也來了嗎",
+			say = "哎呀，貝爾法斯特小姐，妳們也來了嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

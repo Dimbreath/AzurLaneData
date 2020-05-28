@@ -42,7 +42,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "作为初阵，你的表现很好，胜利！",
+			say = "作为初阵，妳的表现很好，胜利！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

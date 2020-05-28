@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "別磨蹭啦，大家都在等著你呢，快去",
+			say = "別磨蹭啦，大家都在等著妳呢，快去",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "謝謝你，我的妹妹",
+			say = "謝謝妳，我的妹妹",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

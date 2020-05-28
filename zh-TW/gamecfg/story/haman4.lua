@@ -36,7 +36,7 @@ return {
 			actor = 101240,
 			side = 0,
 			bgName = "bg_story_task",
-			say = "虽然不是故意要看的…你那是在干吗？",
+			say = "虽然不是故意要看的…妳那是在干吗？",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -168,7 +168,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "说是这么说…可是道歉什么的…哈曼一个人做不到啊！西姆斯你要帮我啦！",
+			say = "说是这么说…可是道歉什么的…哈曼一个人做不到啊！西姆斯妳要帮我啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不不就算你找我也没用啊…对了，去问问约克城吧！",
+			say = "不不就算妳找我也没用啊…对了，去问问约克城吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "带你去约克城那里？可以是可以——还要把刚才录的视频删掉？！怎么这样——",
+			say = "带妳去约克城那里？可以是可以——还要把刚才录的视频删掉？！怎么这样——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

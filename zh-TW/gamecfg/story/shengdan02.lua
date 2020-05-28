@@ -69,7 +69,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是我！超厲害！嘿嘿，來吧！不管什麼問題我都會回答你的！",
+			say = "不愧是我！超厲害！嘿嘿，來吧！不管什麼問題我都會回答妳的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看你的裝備…還有剛才的…是在準備表演嗎？",
+			say = "看妳的裝備…還有剛才的…是在準備表演嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被你發現啦~我打算在聖誕節把這首歌送給大家",
+			say = "被妳發現啦~我打算在聖誕節把這首歌送給大家",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "聖誕牙哥！嘻嘻，我很期待你的表演哦~",
+			say = "聖誕牙哥！嘻嘻，我很期待妳的表演哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸嘿嘿，既然如此，我就提前披露一點點給你聽看看吧！",
+			say = "欸嘿嘿，既然如此，我就提前披露一點點給妳聽看看吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

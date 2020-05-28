@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			say = "因為你這蠢貓會主動來找我多半沒有好事。",
+			say = "因為妳這蠢貓會主動來找我多半沒有好事。",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:20}還是老樣子喵，你應該學習{namecode:98}喵，每天都充滿活力喵！",
+			say = "{namecode:20}還是老樣子喵，妳應該學習{namecode:98}喵，每天都充滿活力喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然沒有好事……你這蠢貓的促銷計畫每次都弄些奇怪的東西，我才懶得奉陪。",
+			say = "果然沒有好事……妳這蠢貓的促銷計畫每次都弄些奇怪的東西，我才懶得奉陪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			actor = 301180,
 			actorName = "明石",
-			say = "{namecode:20}喵，幫幫喵，就這一次喵！{namecode:98}一定會報答你的喵！",
+			say = "{namecode:20}喵，幫幫喵，就這一次喵！{namecode:98}一定會報答妳的喵！",
 			subActors = {
 				{
 					actor = 312010,

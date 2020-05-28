@@ -126,7 +126,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐大人……祝你武运昌隆",
+			say = "姐姐大人……祝妳武运昌隆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "知道。到时候可就靠你了",
+			say = "知道。到时候可就靠妳了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么久远，就拜托你了喵？",
+			say = "那么久远，就拜托妳了喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

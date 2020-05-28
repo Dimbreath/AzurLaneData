@@ -298,7 +298,7 @@ return {
 			expression = 14,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			say = "肯特……呼，呼……你跑的，太快了啦……",
+			say = "肯特……呼，呼……妳跑的，太快了啦……",
 			dir = 1,
 			actor = 203040,
 			nameColor = "#a9f548",

@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "哎？！！！{namecode:6}，拉菲，只有你们两个真的没关系吗！",
+			say = "哎？！！！{namecode:6}，拉菲，只有妳们两个真的没关系吗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			say = "就、就是说啊，不、不然余也和你们一起去吧，余的刀还是很锋利的！",
+			say = "就、就是说啊，不、不然余也和妳们一起去吧，余的刀还是很锋利的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行，你们没有舰装，会很危险。",
+			say = "不行，妳们没有舰装，会很危险。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

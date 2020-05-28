@@ -354,7 +354,7 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_room",
-			say = "{namecode:124}、{namecode:124}前辈？你怎么会在这里？",
+			say = "{namecode:124}、{namecode:124}前辈？妳怎么会在这里？",
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "路过指挥室的时候看到你不在，有点在意就过来看看，没想到真的有情况啊，嚯嚯",
+			say = "路过指挥室的时候看到妳不在，有点在意就过来看看，没想到真的有情况啊，嚯嚯",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用担心，指挥官那边我帮你请假了，以“身体抱恙”的理由呢。",
+			say = "不用担心，指挥官那边我帮妳请假了，以“身体抱恙”的理由呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一定是训练太累了，休息不足才会这样，今天你就好好休息吧。",
+			say = "一定是训练太累了，休息不足才会这样，今天妳就好好休息吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道说……你其实很在意指挥官对你的看法~？",
+			say = "难道说……妳其实很在意指挥官对妳的看法~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

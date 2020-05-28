@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊，撫順姐姐你又塗歪了",
+			say = "啊啊，撫順姐姐妳又塗歪了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你只是想去追布里們吧…",
+			say = "妳只是想去追布里們吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

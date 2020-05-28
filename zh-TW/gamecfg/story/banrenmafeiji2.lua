@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "嗨，平海，{namecode:17}~你也来拿西瓜吗？",
+			say = "嗨，平海，{namecode:17}~妳也来拿西瓜吗？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -115,7 +115,7 @@ return {
 			dir = -1,
 			actor = 301151,
 			actorName = "{namecode:17}",
-			say = "你在带新人观光吗？",
+			say = "妳在带新人观光吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "你们好，{namecode:17}前辈，平海前辈。",
+			say = "妳们好，{namecode:17}前辈，平海前辈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			say = "嗯！就冲这句前辈，以后你就由我罩着了！",
+			say = "嗯！就冲这句前辈，以后妳就由我罩着了！",
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			actor = 301151,
 			actorName = "{namecode:17}",
-			say = "你说这个？这个可是有正式的名字的，叫做“校园泳装”，简称“死库水”，是重樱的特色哦！",
+			say = "妳说这个？这个可是有正式的名字的，叫做“校园泳装”，简称“死库水”，是重樱的特色哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			actor = 301151,
 			actorName = "{namecode:17}",
-			say = "顺便告诉你一个小秘密，指挥官说不定喜欢这种哦~",
+			say = "顺便告诉妳一个小秘密，指挥官说不定喜欢这种哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那{namecode:17}说好了哦，我之后再去找你~",
+			say = "那{namecode:17}说好了哦，我之后再去找妳~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "咳、咳咳，没什么没什么，我继续给你介绍吧！",
+			say = "咳、咳咳，没什么没什么，我继续给妳介绍吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			}
 		},
 		{
-			say = "我们皇家在沙滩的中间，别的不说，我们可是有最强无敌的胡德姐姐！她的泳装超漂亮的！你看那边~",
+			say = "我们皇家在沙滩的中间，别的不说，我们可是有最强无敌的胡德姐姐！她的泳装超漂亮的！妳看那边~",
 			side = 0,
 			bgName = "star_level_bg_106",
 			hideOther = true,
@@ -536,7 +536,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…半人马，既然你都叫我前辈了，那么作为前辈就把一些重要的事情教导给你！",
+			say = "…半人马，既然妳都叫我前辈了，那么作为前辈就把一些重要的事情教导给妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

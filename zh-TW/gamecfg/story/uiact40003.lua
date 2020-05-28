@@ -56,7 +56,7 @@ return {
 			dir = -1,
 			actor = 900023,
 			actorName = "？？？",
-			say = "呜…你在哪里……姐姐…",
+			say = "呜…妳在哪里……姐姐…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -77,7 +77,7 @@ return {
 			dir = -1,
 			actor = 900024,
 			actorName = "？？？",
-			say = "…能和你们一起战斗到最后一刻，是我此生的荣幸",
+			say = "…能和妳们一起战斗到最后一刻，是我此生的荣幸",
 			shake = {
 				speed = 1,
 				number = 3
@@ -292,7 +292,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
-			say = "对不起，曾经是我没有保护重要的人的力量…才会让你们蒙难…",
+			say = "对不起，曾经是我没有保护重要的人的力量…才会让妳们蒙难…",
 			shake = {
 				speed = 1,
 				number = 3

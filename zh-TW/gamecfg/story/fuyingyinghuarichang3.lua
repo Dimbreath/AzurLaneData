@@ -243,7 +243,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下次和皇家的小伙伴们也玩玩好了~",
+			say = "下次和皇家的小夥伴们也玩玩好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			actor = 302211,
 			nameColor = "#a9f548",
-			say = "能得到各位的赞赏是我们的荣幸，既然胜负已分，接下来就是…啊，{namecode:12}，你有跟 她们说过惩罚的事情吗？",
+			say = "能得到各位的赞赏是我们的荣幸，既然胜负已分，接下来就是…啊，{namecode:12}，妳有跟 她们说过惩罚的事情吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

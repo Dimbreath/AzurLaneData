@@ -52,7 +52,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，抱歉，没让你久等吧？",
+			say = "指挥官，抱歉，没让妳久等吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "我们就买这些，{namecode:20}，麻烦你包装一下。",
+			say = "我们就买这些，{namecode:20}，麻烦妳包装一下。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -278,7 +278,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没、没事，但是姐姐，你，难道说……",
+			say = "没、没事，但是姐姐，妳，难道说……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "让你准备这一顿晚餐真是不好意思呢，{namecode:71}。",
+			say = "让妳准备这一顿晚餐真是不好意思呢，{namecode:71}。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "指挥官，这一天的约会你还满意吗？",
+			say = "指挥官，这一天的约会妳还满意吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

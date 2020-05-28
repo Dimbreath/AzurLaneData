@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我觉得胜负已定，不过，姑且换上仆人给你准备的衣服试试吧！",
+			say = "虽然我觉得胜负已定，不过，姑且换上仆人给妳准备的衣服试试吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，选择权在你手上，妹妹！",
+			say = "那么，选择权在妳手上，妹妹！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "选吧！究竟你更喜欢哪一件！",
+			say = "选吧！究竟妳更喜欢哪一件！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "喂，仆人，你和妹妹说了什么！你可别想作弊！",
+			say = "喂，仆人，妳和妹妹说了什么！妳可别想作弊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妹妹，我可是相信你的，你一定要做出公正的决断！",
+			say = "妹妹，我可是相信妳的，妳一定要做出公正的决断！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，欸，喂，你怎么突然哭了！",
+			say = "咦，欸，喂，妳怎么突然哭了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "仆人，你刚才到底和我妹妹说了什么，竟然弄哭了她，我要把你轰出港口喂鲨鱼！",
+			say = "仆人，妳刚才到底和我妹妹说了什么，竟然弄哭了她，我要把妳轰出港口喂鲨鱼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊？没想到你这孩子还挺贪心。",
+			say = "啊？没想到妳这孩子还挺贪心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过本来也都是要给你的就是了，只是要和这个蠢仆人比出高下而已。",
+			say = "不过本来也都是要给妳的就是了，只是要和这个蠢仆人比出高下而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

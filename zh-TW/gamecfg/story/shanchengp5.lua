@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下，讓你久等了！咳咳！",
+			say = "殿下，讓妳久等了！咳咳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "上次和你提過的巫女舞，我想今天跳給你看看！",
+			say = "上次和妳提過的巫女舞，我想今天跳給妳看看！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

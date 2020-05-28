@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			say = "是潜艇部队的孩子呀，俾斯麦向你献上晨间的问候",
+			say = "是潜艇部队的孩子呀，俾斯麦向妳献上晨间的问候",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -206,7 +206,7 @@ return {
 			blackBg = true,
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "祝贺你，希望你能够为铁血尽忠职守，争取最大的战果",
+			say = "祝贺妳，希望妳能够为铁血尽忠职守，争取最大的战果",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			blackBg = true,
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "没什么，只是觉得你这个小机灵怪和其他孩子不太一样，究竟是为什么呢（微笑",
+			say = "没什么，只是觉得妳这个小机灵怪和其他孩子不太一样，究竟是为什么呢（微笑",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			blackBg = true,
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "呵，我明白了，你的请求我收到了",
+			say = "呵，我明白了，妳的请求我收到了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,7 +842,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ffde38",
-			say = "你这孩子可真是没完没了呀，说吧",
+			say = "妳这孩子可真是没完没了呀，说吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -859,7 +859,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ffde38",
-			say = "我能叫你俾斯麦姐姐吗？",
+			say = "我能叫妳俾斯麦姐姐吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -908,7 +908,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ffde38",
-			say = "我虽然有许多妹妹，可是却没有见过姐姐，所以…可以让我叫你俾斯麦姐姐吗！？",
+			say = "我虽然有许多妹妹，可是却没有见过姐姐，所以…可以让我叫妳俾斯麦姐姐吗！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1008,7 +1008,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ffde38",
-			say = "俾斯麦姐姐，在出征前，我有个礼物要送给你！",
+			say = "俾斯麦姐姐，在出征前，我有个礼物要送给妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1356,7 +1356,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家已经发动了总动员，整个皇家舰队的战舰都在往此处赶来，你是没有机会逃脱的",
+			say = "皇家已经发动了总动员，整个皇家舰队的战舰都在往此处赶来，妳是没有机会逃脱的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1372,7 +1372,7 @@ return {
 			expression = 3,
 			dir = -1,
 			nameColor = "#ffde38",
-			say = "你们似乎忽略了一点",
+			say = "妳们似乎忽略了一点",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1387,7 +1387,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "我自设计之初的定位，就不是与你们正面交手，破交战才是我的强项",
+			say = "我自设计之初的定位，就不是与妳们正面交手，破交战才是我的强项",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

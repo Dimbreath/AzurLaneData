@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "納爾遜、羅德尼，拜託你們了",
+			say = "納爾遜、羅德尼，拜託妳們了",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			actor = 205030,
 			nameColor = "#a9f548",
-			say = "果然……我去商店那邊問問吧。從各種意義上你和光輝她們的身材差不多，{namecode:98}的話說不定立刻能準備好",
+			say = "果然……我去商店那邊問問吧。從各種意義上妳和光輝她們的身材差不多，{namecode:98}的話說不定立刻能準備好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

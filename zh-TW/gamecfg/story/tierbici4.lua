@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "谢谢你，提尔比茨…",
+			say = "谢谢妳，提尔比茨…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

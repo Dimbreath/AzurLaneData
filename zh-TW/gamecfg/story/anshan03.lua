@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "聽撫順說，你們好像在做些挺有趣的事情，就跟著過來看看了",
+			say = "聽撫順說，妳們好像在做些挺有趣的事情，就跟著過來看看了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可沒有在誇你呢平海",
+			say = "可沒有在誇妳呢平海",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鞍山你們本來不是在做什麼有趣的事情嗎",
+			say = "鞍山妳們本來不是在做什麼有趣的事情嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

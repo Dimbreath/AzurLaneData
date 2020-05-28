@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "指挥官大人，下次开会要用的资料给你拿过来了哦。…没错，就放在老地方。有时间记得确认一下～",
+			say = "指挥官大人，下次开会要用的资料给妳拿过来了哦。…没错，就放在老地方。有时间记得确认一下～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "指挥官，之前演习的报告，我给你拿过来了",
+			say = "指挥官，之前演习的报告，我给妳拿过来了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			}
 		},
 		{
-			say = "不用你说我也打算这么做就是……",
+			say = "不用妳说我也打算这么做就是……",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,

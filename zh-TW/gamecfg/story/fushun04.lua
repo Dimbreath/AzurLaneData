@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			actor = 501010,
 			nameColor = "#a9f548",
-			say = "撫~~~順！！你又搗亂了對不對！",
+			say = "撫~~~順！！妳又搗亂了對不對！",
 			shake = {
 				speed = 1,
 				number = 2
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "長春你也別想跑！肯定是你煽動撫順的吧！",
+			say = "長春妳也別想跑！肯定是妳煽動撫順的吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳、咳咳！總之！今天一定要好好說說你們！",
+			say = "咳、咳咳！總之！今天一定要好好說說妳們！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你說什麼！？",
+			say = "妳說什麼！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "真、真拿你們沒辦法…那就——",
+			say = "真、真拿妳們沒辦法…那就——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

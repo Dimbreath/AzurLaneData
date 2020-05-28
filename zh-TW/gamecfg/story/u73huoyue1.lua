@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…就算是没有作战任务的日子，你们这也太懒散了…",
+			say = "哈啊…就算是没有作战任务的日子，妳们这也太懒散了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

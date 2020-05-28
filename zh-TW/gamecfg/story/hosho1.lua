@@ -6,7 +6,7 @@ return {
 			actor = 502020,
 			side = 0,
 			dir = -1,
-			say = "{namecode:89}，穿的真漂亮啊，你也想凑一下七夕的热闹吗？",
+			say = "{namecode:89}，穿的真漂亮啊，妳也想凑一下七夕的热闹吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 		{
 			actor = 306031,
 			side = 1,
-			say = "哎呀，谢谢~你们在准备七夕吗？",
+			say = "哎呀，谢谢~妳们在准备七夕吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 502020,
 			side = 0,
 			dir = -1,
-			say = "倒是你，怎么在这里晃荡？展示新衣服的话去穿给指挥官看不就好了……",
+			say = "倒是妳，怎么在这里晃荡？展示新衣服的话去穿给指挥官看不就好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 		{
 			actor = 306031,
 			side = 1,
-			say = "哎呀，难道说嫉妒了吗，呵呵，有机会的话来年我来给你们姐妹做一套吧~",
+			say = "哎呀，难道说嫉妒了吗，呵呵，有机会的话来年我来给妳们姐妹做一套吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 502020,
 			side = 0,
 			dir = -1,
-			say = "我才不需要你们这些行走的荷尔蒙!",
+			say = "我才不需要妳们这些行走的荷尔蒙!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 502020,
 			side = 0,
 			dir = -1,
-			say = "啧，你这没有立场的丫头……",
+			say = "啧，妳这没有立场的丫头……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 		{
 			actor = 306031,
 			side = 1,
-			say = "呵呵，不过我来这边还是有事情要做的，正好你们能帮我跑一趟吗？",
+			say = "呵呵，不过我来这边还是有事情要做的，正好妳们能帮我跑一趟吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 502020,
 			side = 0,
 			dir = -1,
-			say = "我们也忙着呢……不过你说说看吧，要是不麻烦的话也不是不能考虑一下……",
+			say = "我们也忙着呢……不过妳说说看吧，要是不麻烦的话也不是不能考虑一下……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 502020,
 			side = 0,
 			dir = -1,
-			say = "哈啊…？鞋你不是正穿着嘛",
+			say = "哈啊…？鞋妳不是正穿着嘛",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 502020,
 			side = 0,
 			dir = -1,
-			say = "嗯？你要指挥官穿的鞋干嘛……唉不过行吧，我帮你去看看，平海，你搬一下这些……",
+			say = "嗯？妳要指挥官穿的鞋干嘛……唉不过行吧，我帮妳去看看，平海，妳搬一下这些……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

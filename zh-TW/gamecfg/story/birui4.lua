@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			say = "拜託你幫忙調度的東西，都準備好了吧~{namecode:98}？",
+			say = "拜託妳幫忙調度的東西，都準備好了吧~{namecode:98}？",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -202,7 +202,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我才要感謝{namecode:98}哦，不光是宴會的食物和飲料，平時的資材調度也辛苦你了呢~",
+			say = "我才要感謝{namecode:98}哦，不光是宴會的食物和飲料，平時的資材調度也辛苦妳了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			}
 		},
 		{
-			say = "哈啊…{namecode:73}你不要又“添亂”就好了",
+			say = "哈啊…{namecode:73}妳不要又“添亂”就好了",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 304020,
 			nameColor = "#a9f548",
-			say = "這樣事前準備就差不多了呢。宴會準備也要靠你多多幫忙了，指揮官♪",
+			say = "這樣事前準備就差不多了呢。宴會準備也要靠妳多多幫忙了，指揮官♪",
 			flashout = {
 				dur = 0.7,
 				black = true,

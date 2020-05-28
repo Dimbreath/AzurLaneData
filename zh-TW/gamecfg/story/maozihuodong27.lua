@@ -11,7 +11,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = 1,
-			say = "没用的,没用的，没用的，在那家伙构筑的要塞中，你们是绝对战胜不了我的！",
+			say = "没用的,没用的，没用的，在那家伙构筑的要塞中，妳们是绝对战胜不了我的！",
 			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			actor = 701040,
 			nameColor = "#a9f548",
-			say = "把你揍扁！",
+			say = "把妳揍扁！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

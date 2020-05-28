@@ -10,6 +10,12 @@ function slot0.execute(slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(19101, {
 		user_id = slot2
 	}, 19102, function (slot0)
+		if slot0.lv == 0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_unopen"))
+
+			return
+		end
+
 		slot1 = {
 			[slot7.id] = slot7
 		}

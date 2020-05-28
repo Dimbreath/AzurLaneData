@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱，你在做什么？",
+			say = "爱，妳在做什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "为什么你会知道Pt？",
+					content = "为什么妳会知道Pt？",
 					flag = 2
 				}
 			}
@@ -499,7 +499,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "早上好～你就是来自虚拟空间的天才超级AI绊爱小姐对吧？我是格里德利，请多指教啦！",
+			say = "早上好～妳就是来自虚拟空间的天才超级AI绊爱小姐对吧？我是格里德利，请多指教啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "格里德利小姐刚才拍照了对吧，难道你也被指派了什么特别的任务吗？",
+			say = "格里德利小姐刚才拍照了对吧，难道妳也被指派了什么特别的任务吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			say = "真是的～拿你没办法，要拍得可爱一点哦！",
+			say = "真是的～拿妳没办法，要拍得可爱一点哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

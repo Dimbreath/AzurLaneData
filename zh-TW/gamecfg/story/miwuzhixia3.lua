@@ -282,7 +282,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巴尔的摩…你有什么计划么？",
+			say = "巴尔的摩…妳有什么计划么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			actor = 102050,
 			nameColor = "#a9f548",
-			say = "你觉得塞壬还有其他打算…？",
+			say = "妳觉得塞壬还有其他打算…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

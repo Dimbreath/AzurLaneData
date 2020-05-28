@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶诶诶…就算胡德姐姐你这么说……咱也不知道怎么…怎么和初次见面的人说话啊……",
+			say = "诶诶诶…就算胡德姐姐妳这么说……咱也不知道怎么…怎么和初次见面的人说话啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶？我和姐姐大人的关系，在你们眼里是这样的吗？",
+			say = "诶？我和姐姐大人的关系，在妳们眼里是这样的吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我已经听说各位的情况了。原来的世界里有很重要的伙伴在等着你们…所以各位才会如此归心似箭，情有可原。",
+			say = "我已经听说各位的情况了。原来的世界里有很重要的夥伴在等着妳们…所以各位才会如此归心似箭，情有可原。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算你问我我也……不知道该说什么",
+			say = "就算妳问我我也……不知道该说什么",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小天鹅，谢谢你给我们带粮食来。那就让我们好好尝尝吧。",
+			say = "小天鹅，谢谢妳给我们带粮食来。那就让我们好好尝尝吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，嗯……你们高兴的话，咱也很高兴……诶嘿嘿",
+			say = "啊，嗯……妳们高兴的话，咱也很高兴……诶嘿嘿",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			}
 		},
 		{
-			say = "军粮乃战场不可或缺之物……小天鹅，这次你干的不错哦",
+			say = "军粮乃战场不可或缺之物……小天鹅，这次妳干的不错哦",
 			side = 0,
 			bgName = "bg_story_chuansong",
 			dir = 1,
@@ -644,7 +644,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绝对不输去年的那套哦……呵呵，你可得好好期待着哦，小天鹅？",
+			say = "绝对不输去年的那套哦……呵呵，妳可得好好期待着哦，小天鹅？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶诶诶诶？！又要穿那种丢人现眼的衣服吗……求求你饶了咱吧",
+			say = "诶诶诶诶？！又要穿那种丢人现眼的衣服吗……求求妳饶了咱吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你这么一说……胡德小姐的确常常照顾我们呢",
+			say = "妳这么一说……胡德小姐的确常常照顾我们呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,7 +806,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}酱，你说什么了吗？",
+			say = "{namecode:6}酱，妳说什么了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

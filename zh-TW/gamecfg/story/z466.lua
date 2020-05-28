@@ -216,7 +216,7 @@ return {
 		{
 			stopbgm = true,
 			blackBg = true,
-			say = "我的內心在呼喊著。如果不是這樣的話，請你賜予我意義。",
+			say = "我的內心在呼喊著。如果不是這樣的話，請妳賜予我意義。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "賜予我，不是兵器而是你所期望的我，戰鬥的理由。",
+			say = "賜予我，不是兵器而是妳所期望的我，戰鬥的理由。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "賜予我，留在摯愛的你身邊的我，可被呼喚的姓名。",
+			say = "賜予我，留在摯愛的妳身邊的我，可被呼喚的姓名。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

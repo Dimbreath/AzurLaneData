@@ -178,7 +178,7 @@ return {
 			actor = 305110,
 			side = 2,
 			dir = 1,
-			say = "這也正是我們來尋找你的原因，新生重櫻聯合需要你的力量，跟我們一起對抗和改變這個錯誤的時代",
+			say = "這也正是我們來尋找妳的原因，新生重櫻聯合需要妳的力量，跟我們一起對抗和改變這個錯誤的時代",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 305110,
 			side = 2,
 			dir = 1,
-			say = "你願意一起來嗎",
+			say = "妳願意一起來嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			ssay = "在這樣的力量面前，什麼灰色幽靈、藍色幽靈也不過是一群螻蟻罷了——你一定也在為此而激動吧，{namecode:92}？",
+			ssay = "在這樣的力量面前，什麼灰色幽靈、藍色幽靈也不過是一群螻蟻罷了——妳一定也在為此而激動吧，{namecode:92}？",
 			dir = 1,
 			blackBg = true,
 			typewriter = {
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 307020,
-			say = "事態已經超出了預期...如果是你的話，又會怎麼做呢？",
+			say = "事態已經超出了預期...如果是妳的話，又會怎麼做呢？",
 			flashout = {
 				dur = 1,
 				black = true,

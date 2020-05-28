@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
-			say = "抱歉，突然把这么重大的任务交给了你",
+			say = "抱歉，突然把这么重大的任务交给了妳",
 			flashout = {
 				dur = 0.25,
 				alpha = {
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵~真是值得信赖啊~期待你作为皇家女仆队一员的精彩表现哦",
+			say = "呵呵~真是值得信赖啊~期待妳作为皇家女仆队一员的精彩表现哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同时…也期待你作为黛朵级的首舰的发挥呢~",
+			say = "同时…也期待妳作为黛朵级的首舰的发挥呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

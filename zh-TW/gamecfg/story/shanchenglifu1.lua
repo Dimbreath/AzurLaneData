@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			say = "那是当然…总之你先从灶台上下来，也不怕弄脏新衣服。",
+			say = "那是当然…总之妳先从灶台上下来，也不怕弄脏新衣服。",
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
-			say = "不过{namecode:71}你不去会场真的没关系喵？主持宴会不是你的拿手好戏喵？",
+			say = "不过{namecode:71}妳不去会场真的没关系喵？主持宴会不是妳的拿手好戏喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "先说好，不会给你蹭饭的。",
+			say = "先说好，不会给妳蹭饭的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "知道了我知道了，下次给你做行了吧！",
+			say = "知道了我知道了，下次给妳做行了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			blackBg = true,
 			actor = 304020,
 			actorName = "{namecode:71}",
-			say = "呵呵，那就麻烦你了~",
+			say = "呵呵，那就麻烦妳了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

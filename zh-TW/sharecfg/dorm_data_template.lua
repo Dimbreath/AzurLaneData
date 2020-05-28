@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.dorm_data_template = {
 	{
-		training_ship_number = 5,
+		training_ship_number = 6,
 		name = "一級房間",
 		time = 15,
 		exp = 1,
@@ -9,7 +9,7 @@ pg.dorm_data_template = {
 		consume = 5,
 		id = 1,
 		comfortable = 0,
-		fix_ship_number = 5,
+		fix_ship_number = 6,
 		limit = {
 			20,
 			16,
@@ -50,7 +50,7 @@ pg.dorm_data_template = {
 		}
 	},
 	{
-		training_ship_number = 5,
+		training_ship_number = 6,
 		name = "二級房間",
 		time = 15,
 		exp = 1,
@@ -58,7 +58,7 @@ pg.dorm_data_template = {
 		consume = 5,
 		id = 2,
 		comfortable = 5,
-		fix_ship_number = 5,
+		fix_ship_number = 6,
 		limit = {
 			24,
 			20,
@@ -99,7 +99,7 @@ pg.dorm_data_template = {
 		}
 	},
 	{
-		training_ship_number = 5,
+		training_ship_number = 6,
 		name = "三級房間",
 		time = 15,
 		exp = 1,
@@ -107,7 +107,7 @@ pg.dorm_data_template = {
 		consume = 5,
 		id = 3,
 		comfortable = 10,
-		fix_ship_number = 5,
+		fix_ship_number = 6,
 		limit = {
 			28,
 			24,
@@ -148,7 +148,7 @@ pg.dorm_data_template = {
 		}
 	},
 	{
-		training_ship_number = 5,
+		training_ship_number = 6,
 		name = "四級房間",
 		time = 15,
 		exp = 1,
@@ -156,7 +156,7 @@ pg.dorm_data_template = {
 		consume = 5,
 		id = 4,
 		comfortable = 15,
-		fix_ship_number = 5,
+		fix_ship_number = 6,
 		limit = {
 			34,
 			30,

@@ -261,7 +261,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然都是些书本知识…看来之前你要去的作战资料没有白要呢",
+			say = "虽然都是些书本知识…看来之前妳要去的作战资料没有白要呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

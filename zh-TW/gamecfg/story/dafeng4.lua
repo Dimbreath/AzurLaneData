@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_103",
 			side = 1,
 			dir = 1,
-			say = "呼呼，要约到你一次还真是困难呢，{namecode:97}",
+			say = "呼呼，要约到妳一次还真是困难呢，{namecode:97}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

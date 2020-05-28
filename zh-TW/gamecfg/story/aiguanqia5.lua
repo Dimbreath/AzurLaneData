@@ -26,7 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到此为止！你已经无处可逃了！",
+			say = "到此为止！妳已经无处可逃了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "护卫舰已经被我们消灭得差不多了。你一个人对我们七个，怎么看都没有胜算的哟？",
+			say = "护卫舰已经被我们消灭得差不多了。妳一个人对我们七个，怎么看都没有胜算的哟？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱酱！爱酱你在做什么！？这样好难战斗啊~~~！",
+			say = "爱酱！爱酱妳在做什么！？这样好难战斗啊~~~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			expression = 6,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对我做骇客攻击还真是有胆量啊！就让我这个超级AI来教教你什么是真正的骇客吧！让你见识一下我在游戏中培养出来的手指灵活度——把你点回去！",
+			say = "对我做骇客攻击还真是有胆量啊！就让我这个超级AI来教教妳什么是真正的骇客吧！让妳见识一下我在游戏中培养出来的手指灵活度——把妳点回去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

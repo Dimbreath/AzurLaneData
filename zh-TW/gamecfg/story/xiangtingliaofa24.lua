@@ -94,7 +94,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业你放心，大黄蜂已经调到远离前线的港口修整了。",
+			say = "企业妳放心，大黄蜂已经调到远离前线的港口修整了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你，萨拉…",
+			say = "谢谢妳，萨拉…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "（你们束缚了她太久了，该放开了。）",
+			say = "（妳们束缚了她太久了，该放开了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			},
 			options = {
 				{
-					content = "你们有听到奇怪的对话声么？",
+					content = "妳们有听到奇怪的对话声么？",
 					flag = 1
 				}
 			}

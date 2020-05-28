@@ -28,7 +28,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "嗅着香气追寻到这里，没想到却遇到了你们",
+			say = "嗅着香气追寻到这里，没想到却遇到了妳们",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -62,7 +62,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是我秘藏的桂花酒~不过没想到连你们都被香气吸引过来了，是密封出问题了吗？",
+			say = "是我秘藏的桂花酒~不过没想到连妳们都被香气吸引过来了，是密封出问题了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这里有一个比你找到源头还早的人——",
+			say = "这里有一个比妳找到源头还早的人——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "今天不做的话明天还是你哦。我对东煌美食也已经慕名已久了，逸仙，今晚能令我开开眼界吗？",
+			say = "今天不做的话明天还是妳哦。我对东煌美食也已经慕名已久了，逸仙，今晚能令我开开眼界吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "总觉得你今天特别活跃呢……好，就让大家看看“Lady Lex”的实力吧！",
+			say = "总觉得妳今天特别活跃呢……好，就让大家看看“Lady Lex”的实力吧！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -313,7 +313,7 @@ return {
 			dir = -1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "呀吼！终于做完啦——咦，我是最慢的？明明我以为有伙伴们的帮助至少能在中流呢……",
+			say = "呀吼！终于做完啦——咦，我是最慢的？明明我以为有夥伴们的帮助至少能在中流呢……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -345,7 +345,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "你揉面花太多时间啦",
+			say = "妳揉面花太多时间啦",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

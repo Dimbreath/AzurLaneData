@@ -12,7 +12,7 @@ return {
 			side = 0,
 			stopbgm = true,
 			dir = 1,
-			say = "已确认战果…敦刻尔克号，大破搁浅，普罗旺斯号，大破搁浅，布列塔尼号…击沉",
+			say = "已確認戰果…敦克爾克號，大破擱淺，普羅旺斯號，大破擱淺，布列塔尼號…擊沉",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			actor = 207020,
 			side = 0,
 			dir = 1,
-			say = "…还有一艘斯特拉斯堡号呢？",
+			say = "…還有一艘史特拉斯堡號呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 202130,
 			side = 0,
 			dir = 1,
-			say = "越过了布雷区，在夜色中逃脱了",
+			say = "越過了布雷區，在夜色中逃脫了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actor = 207020,
 			side = 0,
 			dir = 1,
-			say = "这样吗？也好…",
+			say = "這樣嗎？也好…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "没想到，我驰骋大洋二十年，今日的第一场正式作战，居然是将炮口对准曾经并肩作战的盟友…",
+			say = "沒想到，我馳騁大洋二十年，今日的第一場正式作戰，居然是將炮口對準曾經並肩作戰的盟友…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 207020,
 			side = 0,
 			dir = 1,
-			say = "…在时代的格局面前，这些都是无可奈何的选择",
+			say = "…在時代的格局面前，這些都是無可奈何的選擇",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 207020,
 			side = 0,
 			dir = 1,
-			say = "此身为舰，正是以服从司令部、指挥官所下达的命令为荣的…兵器",
+			say = "此身為艦，正是以服從司令部、指揮官所下達的命令為榮的…兵器",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "如果只是兵器…现在心里的这份悔意，这份痛楚感又是什么！？",
+			say = "如果只是兵器…現在心裡的這份悔意，這份痛楚感又是什麼！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "对不起…失态了",
+			say = "對不起…失態了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "胡德脱下了军帽，优雅地向皇家方舟鞠了个躬表示歉意…",
+			say = "胡德脫下了軍帽，優雅地向皇家方舟鞠了個躬表示歉意…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "——沙沙沙（电报音）",
+			say = "——沙沙沙（電報音）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 202130,
 			side = 0,
 			dir = 1,
-			say = "收…收到了广域电播信号演讲…",
+			say = "收…收到了廣域電波信號演講…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 202130,
 			side = 0,
 			dir = 1,
-			say = "是来自维希教廷的最大战舰，黎塞留号！",
+			say = "是來自維希教廷的最大戰艦，黎胥留號！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "亏我们还在四处寻找她的行踪，现在居然自己出现了？",
+			say = "虧我們還在四處尋找她的行蹤，現在居然自己出現了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "快，看看信号来源是哪里？",
+			say = "快，看看信號來源是哪裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 202130,
 			side = 0,
 			dir = 1,
-			say = "信号来源是…",
+			say = "信號來源是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 202130,
 			side = 0,
 			dir = 1,
-			say = "——皇家本岛",
+			say = "——皇家本島",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgmDelay = 3,
 			bgm = "story-french",
 			mode = 2,
-			say = "———梦碎了",
+			say = "———夢碎了",
 			flashout = {
 				dur = 1.5,
 				black = true,
@@ -320,7 +320,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "在那一刻起，国家分崩离析，我们在一夜之间成为了赤色中轴手里的傀儡…",
+			say = "在那一刻起，國家分崩離析，我們在一夜之間成為了赤色中軸手裡的傀儡…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "“——放下武器吧，不许抵抗”，我们被司令部这样命令到",
+			say = "“——放下武器吧，不許抵抗”，我們被司令部這樣命令到",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "身为天之正统、骄傲的圣教骑士…连为信仰献身、争取自由的机会都没有得到就被宣告了失败",
+			say = "身為天之正統、驕傲的聖教騎士…連為信仰獻身、爭取自由的機會都沒有得到就被宣告了失敗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "二十年前，先驱者们用无数牺牲夺回了属于我们的阿尔萨斯、洛林，一洗普法战争时的耻辱",
+			say = "二十年前，先驅者們用無數犧牲奪回了屬於我們的阿爾薩斯、洛林，一洗普法戰爭時的恥辱",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "然而，二十年后的今天，国土却被一群可耻的叛教者们作为苟全性命的筹码出卖给了侵略者！",
+			say = "然而，二十年後的今天，國土卻被一群可恥的叛教者們作為苟全性命的籌碼出賣給了侵略者！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "他们在恐惧的驱使下投降了，忘记了尊严，使我们的国家受到奴役",
+			say = "他們在恐懼的驅使下投降了，忘記了尊嚴，使我們的國家受到奴役",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "看着铁血的铁骑肆无忌惮的踏过凯旋门，踏过战神广场…",
+			say = "看著鐵血的鐵騎肆無忌憚的踏過凱旋門，踏過戰神廣場…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "这是莫大的耻辱，这是千百年来都未曾遭遇的耻辱！",
+			say = "這是莫大的恥辱，這是千百年來都未曾遭遇的恥辱！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "“人可不朽，救赎可待来日；国家不得永生，救赎唯有当下”",
+			say = "“人可不朽，救贖可待來日；國家不得永生，救贖唯有當下”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			say = "我宣布，自由鸢尾在此刻正式成立，我们将是教廷所赋予的天之正统",
+			say = "我宣布，自由鳶尾在此刻正式成立，我們將是教廷所賦予的天之正統",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			bgName = "bg_story_faxi1",
 			blackBg = true,
 			mode = 2,
-			say = "这面旗帜，曾经是百年战争期间那位圣少女所使用的标志，代表着牺牲与自由的标志",
+			say = "這面旗幟，曾經是百年戰爭期間那位聖少女所使用的標誌，代表著犧牲與自由的標誌",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -490,7 +490,7 @@ return {
 			mode = 2,
 			side = 2,
 			bgName = "bg_story_faxi1",
-			say = "我向所有的国民们发出呼唤，不论你们身在何地，团结起来，带着牺牲精神和对未来的向往",
+			say = "我向所有的國民們發出呼喚，不論妳們身在何地，團結起來，帶著犧牲精神和對未來的嚮往",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			mode = 2,
 			side = 2,
 			bgName = "bg_story_faxi1",
-			say = "与我一道再次凝聚在这面旗帜之下！",
+			say = "與我一道再次凝聚在這面旗幟之下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			mode = 2,
 			side = 2,
 			bgName = "bg_story_faxi1",
-			say = "我们的祖国危在旦夕，但我们不是孤独战斗，不是没有援助！",
+			say = "我們的祖國危在旦夕，但我們不是孤獨戰鬥，不是沒有援助！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			mode = 2,
 			bgName = "bg_story_faxi1",
 			blackBg = true,
-			say = "在自由的世界里，巨大的力量还在等待觉醒",
+			say = "在自由的世界裡，巨大的力量還在等待覺醒",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			blackBg = true,
 			BgFade = true,
 			mode = 2,
-			say = "总有一天，这些力量会把敌人彻底粉碎！到那时，我们必须也必将以胜利者的姿态出现！",
+			say = "總有一天，這些力量會把敵人徹底粉碎！到那時，我們必須也必將以勝利者的姿態出現！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -585,7 +585,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "那时，它将重新恢复昔日的自由与辉煌",
+			say = "那時，它將重新恢復昔日的自由與輝煌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "自由终将引导人民",
+			say = "自由終將引導人民",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "无论发生任何事，自由的火焰不能熄灭，也绝不会熄灭！",
+			say = "無論發生任何事，自由的火焰不能熄滅，也絕不會熄滅！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "因父及子及圣神之名",
+			say = "因父及子及聖神之名",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			say = "自由鸢尾第一旗舰——黎塞留",
+			say = "自由鳶尾第一旗艦——黎胥留",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 		{
 			actor = 207020,
 			side = 0,
-			say = "真是充满激情的演讲，不愧是继承了红衣主教之名的新锐战舰啊",
+			say = "真是充滿激情的演講，不愧是繼承了紅衣主教之名的新銳戰艦啊",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -707,7 +707,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "看来，世界的格局又要发生翻天覆地的变化了呀~",
+			say = "看來，世界的格局又要發生翻天覆地的變化了呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +721,7 @@ return {
 			actor = 207020,
 			side = 0,
 			dir = 1,
-			say = "是呀，恐怕更大的暴风雨…就要来临了",
+			say = "是呀，恐怕更大的暴風雨…就要來臨了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

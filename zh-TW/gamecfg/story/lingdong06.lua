@@ -48,7 +48,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "夠了，不和你們這些煩人的小傢伙繼續糾纏了，我們還有更重要的任務！",
+			say = "夠了，不和妳們這些煩人的小傢伙繼續糾纏了，我們還有更重要的任務！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "謝菲爾德，你的狀況如何，還能繼續追擊嗎？",
+			say = "謝菲爾德，妳的狀況如何，還能繼續追擊嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "瞭解，辛苦你們了，剩下的就交給我吧",
+			say = "瞭解，辛苦妳們了，剩下的就交給我吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你打算...？",
+			say = "妳打算...？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

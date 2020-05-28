@@ -88,7 +88,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，今天有个东西，想让你陪我一起看。",
+			say = "对了，今天有个东西，想让妳陪我一起看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

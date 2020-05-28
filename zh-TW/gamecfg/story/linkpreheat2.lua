@@ -76,7 +76,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么就只剩下你们几个了吧？",
+			say = "那么就只剩下妳们几个了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "求你了先听我们说句话！我们是来帮你们……",
+			say = "求妳了先听我们说句话！我们是来帮妳们……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她们是我的恩人。而且这次她们是来帮你们的",
+			say = "她们是我的恩人。而且这次她们是来帮妳们的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgm = "main-uta",
 			actor = 10300010,
 			nameColor = "#a9f548",
-			say = "芙米露露？！是、是真的吗？……你没事真的太好了！",
+			say = "芙米露露？！是、是真的吗？……妳没事真的太好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "乌璐露和萨拉娜也把矛收起来喵，这群人是我们的同伴喵。{namecode:98}向你们保证喵",
+			say = "乌璐露和萨拉娜也把矛收起来喵，这群人是我们的同伴喵。{namecode:98}向妳们保证喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我就当做你是在夸我了喵",
+			say = "我就当做妳是在夸我了喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "喵？！抱，抱歉让你们担心了喵…对不起喵",
+			say = "喵？！抱，抱歉让妳们担心了喵…对不起喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真对不起，我还以为你们是那群人的同伴……谢谢你们救了芙米露露",
+			say = "真对不起，我还以为妳们是那群人的同伴……谢谢妳们救了芙米露露",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

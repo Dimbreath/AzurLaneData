@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "你需要激活四个机关。",
+			say = "妳需要激活四个机关。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

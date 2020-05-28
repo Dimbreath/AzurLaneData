@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "嘿嘿，指挥官你就好好期待一下吧！",
+			say = "嘿嘿，指挥官妳就好好期待一下吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

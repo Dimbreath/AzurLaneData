@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肯特，陛下的餐具暂定六份吧。谢菲，吊灯就交给你了",
+			say = "肯特，陛下的餐具暂定六份吧。谢菲，吊灯就交给妳了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过真的没关系吗？这几天你都在这里帮忙…",
+			say = "不过真的没关系吗？这几天妳都在这里帮忙…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过站在一名这支舰队的前辈立场上，我更希望能看到你在庆典中找到属于自己的乐趣呢。",
+			say = "不过站在一名这支舰队的前辈立场上，我更希望能看到妳在庆典中找到属于自己的乐趣呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你的关心，贝尔法斯特小姐，不过对我来说这样就好。",
+			say = "谢谢妳的关心，贝尔法斯特小姐，不过对我来说这样就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "嗯……就算你这么说，我也没有什么别的地方好去的——",
+			say = "嗯……就算妳这么说，我也没有什么别的地方好去的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，埃塞克斯也承蒙你的照顾了，感激不尽。接下来，就把她交给我吧。",
+			say = "而且，埃塞克斯也承蒙妳的照顾了，感激不尽。接下来，就把她交给我吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "企、企业前辈，你刚才说什么……",
+			say = "企、企业前辈，妳刚才说什么……",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
@@ -447,7 +447,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才的话我都听到了，很正确的想法，但是既然你叫我一声前辈，那我当然不能看着可爱的后辈孤零零地一个人，你说对吧？",
+			say = "刚才的话我都听到了，很正确的想法，但是既然妳叫我一声前辈，那我当然不能看着可爱的后辈孤零零地一个人，妳说对吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

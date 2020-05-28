@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "謝菲，看起來秘書艦的工作相當合你的心意呢",
+			say = "謝菲，看起來秘書艦的工作相當合妳的心意呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵…看來我說了多餘的話呢，主人、謝菲，就請你們繼續好好相處囉？",
+			say = "呵呵…看來我說了多餘的話呢，主人、謝菲，就請妳們繼續好好相處囉？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -169,7 +169,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "只要发自真心，自然能传达你的心意，指挥官也能理解你的",
+			say = "只要发自真心，自然能传达妳的心意，指挥官也能理解妳的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "是的。西姆斯？指挥官？我知道你们在那边哦。",
+			say = "是的。西姆斯？指挥官？我知道妳们在那边哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

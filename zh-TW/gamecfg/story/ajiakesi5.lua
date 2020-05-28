@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "真是让人伤脑筋的小猪仔啊…我说过让你好好休息的吧？",
+			say = "真是让人伤脑筋的小猪仔啊…我说过让妳好好休息的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "都这么照顾你了，再不好好听话之后要给你惩罚了哦？",
+			say = "都这么照顾妳了，再不好好听话之后要给妳惩罚了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "啊~等感冒好了要怎么玩弄你呢…光是想想就很让人兴奋呢~",
+			say = "啊~等感冒好了要怎么玩弄妳呢…光是想想就很让人兴奋呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "不过呢，虽说是你在感冒休息，我的工作还是不能不做呢…",
+			say = "不过呢，虽说是妳在感冒休息，我的工作还是不能不做呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "今天就通宵——边工作边照顾你吧。小・猪・仔♪",
+			say = "今天就通宵——边工作边照顾妳吧。小・猪・仔♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "为什么要叫你小猪仔？怎么现在才问这种问题？",
+			say = "为什么要叫妳小猪仔？怎么现在才问这种问题？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "我给你熬了粥，趁热吃吧？",
+			say = "我给妳熬了粥，趁热吃吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

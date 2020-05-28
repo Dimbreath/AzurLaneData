@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			actor = 101271,
 			nameColor = "#a9f548",
-			say = "終於追上你了，幽靈小姐！",
+			say = "終於追上妳了，幽靈小姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			actorName = "???",
-			say = "“那個，你聽說了嗎？聽說港區的倉庫鬧鬼了呢！”",
+			say = "“那個，妳聽說了嗎？聽說港區的倉庫鬧鬼了呢！”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			actor = 205031,
 			nameColor = "#a9f548",
-			say = "意外的還不錯…啊！羅德尼！你一開始就知道這些的吧！",
+			say = "意外的還不錯…啊！羅德尼！妳一開始就知道這些的吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

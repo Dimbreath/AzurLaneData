@@ -24,7 +24,7 @@ return {
 		{
 			actor = 213011,
 			side = 0,
-			say = "胡德小……胡德，我以前怎么不知道你是这么幽默的人……",
+			say = "胡德小……胡德，我以前怎么不知道妳是这么幽默的人……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

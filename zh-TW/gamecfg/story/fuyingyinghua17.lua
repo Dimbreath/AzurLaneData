@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			stopbgm = true,
 			actorName = "{namecode:179}",
-			say = "{namecode:180}，{namecode:181}？你们那边的敌人清理干净了么，来得正好——",
+			say = "{namecode:180}，{namecode:181}？妳们那边的敌人清理干净了么，来得正好——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "住手，你们这是在做什么…？",
+			say = "住手，妳们这是在做什么…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

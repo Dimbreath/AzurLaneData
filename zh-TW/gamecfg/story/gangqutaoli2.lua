@@ -98,7 +98,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_103",
-			say = "咳咳！你说得没错。那就让这个人来给我们带路吧",
+			say = "咳咳！妳说得没错。那就让这个人来给我们带路吧",
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
@@ -171,7 +171,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦、哦哦……那你觉得我们现在应该怎么办？说说看你的作战吧",
+			say = "哦、哦哦……那妳觉得我们现在应该怎么办？说说看妳的作战吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "原来如此…我明白了。哼，让你见识下不输给专业人士的潜行技能吧…！",
+			say = "原来如此…我明白了。哼，让妳见识下不输给专业人士的潜行技能吧…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "就、就是很在意啊！没办法…你不也一样在经过厨房的时候差点一步都走不动吗！",
+			say = "就、就是很在意啊！没办法…妳不也一样在经过厨房的时候差点一步都走不动吗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			blackBg = true,
 			actor = 304060,
 			actorName = "两人",
-			say = "你、你是……！？",
+			say = "妳、妳是……！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

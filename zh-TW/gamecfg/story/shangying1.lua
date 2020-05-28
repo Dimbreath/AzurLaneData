@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_room",
 			side = 1,
 			dir = 1,
-			say = "…倒是個好主意，不過你們還真有熱情呢…",
+			say = "…倒是個好主意，不過妳們還真有熱情呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_room",
 			side = 1,
 			dir = 1,
-			say = "不，我想應該不是你想的那種…",
+			say = "不，我想應該不是妳想的那種…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

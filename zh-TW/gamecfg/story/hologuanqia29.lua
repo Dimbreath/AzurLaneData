@@ -201,7 +201,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			actorName = "测试怪人",
-			say = "说的也是，那外部防御就交给你了哦，军师。",
+			say = "说的也是，那外部防御就交给妳了哦，军师。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

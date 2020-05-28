@@ -48,7 +48,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			say = "多麼淒美的煙火啊，現在已經大破的你還想怎樣追上我呢？",
+			say = "多麼淒美的煙火啊，現在已經大破的妳還想怎樣追上我呢？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -67,7 +67,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "那麼，就讓我給予你屬於戰士榮耀的終末吧，全艦炮瞄準——",
+			say = "那麼，就讓我給予妳屬於戰士榮耀的終末吧，全艦炮瞄準——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也知道6英寸炮無法擊穿你的裝甲...",
+			say = "我也知道6英寸炮無法擊穿妳的裝甲...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，抱歉抱歉，你還死不了~剩下的大魚就交給我們來接手了",
+			say = "嘿嘿，抱歉抱歉，妳還死不了~剩下的大魚就交給我們來接手了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "哈哈哈，徹底敗給你了",
+			say = "哈哈哈，徹底敗給妳了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "真不好意思，打擾你們的對決了，然而現在，你的對手是我~",
+			say = "真不好意思，打擾妳們的對決了，然而現在，妳的對手是我~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

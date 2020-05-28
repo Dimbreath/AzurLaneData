@@ -52,7 +52,7 @@ return {
 			actor = 502020,
 			side = 0,
 			dir = -1,
-			say = "我知道。不过，你究竟想在那片海找到什么？",
+			say = "我知道。不过，妳究竟想在那片海找到什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

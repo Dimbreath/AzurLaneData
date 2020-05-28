@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你這傢伙…我看看…彈藥…食物…醫療用品…嗯？這是什麼？",
+			say = "妳這傢伙…我看看…彈藥…食物…醫療用品…嗯？這是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = -1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "呼喵！？…吸血鬼你從哪裡竄出來的喵，嚇喵一跳！",
+			say = "呼喵！？…吸血鬼妳從哪裡竄出來的喵，嚇喵一跳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "有什麼不好嘛，你看，雖然小了點，這不是和人家的身材正相稱嗎？",
+			say = "有什麼不好嘛，妳看，雖然小了點，這不是和人家的身材正相稱嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……但是你並不是護士吧？要說的話旁邊這只還能算。",
+			say = "……但是妳並不是護士吧？要說的話旁邊這只還能算。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嘖嘖嘖，這你就小看人家了，人家可是皇家驅逐的大前輩，護理這種小事當然是不在話下啦~",
+			say = "嘖嘖嘖，這妳就小看人家了，人家可是皇家驅逐的大前輩，護理這種小事當然是不在話下啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

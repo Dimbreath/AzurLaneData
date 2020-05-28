@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}酱，你在看什么？",
+			say = "{namecode:6}酱，妳在看什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

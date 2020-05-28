@@ -203,7 +203,7 @@ return {
 			side = 2,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "……你們",
+			say = "……妳們",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什麼嘛，原來“神秘人”先生就是你呀，這麼鬼鬼祟祟的出現是很容易被誤傷的",
+			say = "什麼嘛，原來“神秘人”先生就是妳呀，這麼鬼鬼祟祟的出現是很容易被誤傷的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那麼，我們是接收到了你發出的加密信號後前來調查的白鷹第16特遣艦隊——也請報上你的情報及所屬",
+			say = "那麼，我們是接收到了妳發出的加密信號後前來調查的白鷹第16特遣艦隊——也請報上妳的情報及所屬",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 1,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "我只想跟你們確認件事情",
+			say = "我只想跟妳們確認件事情",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 1,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "告訴我…你們指揮官的名字……",
+			say = "告訴我…妳們指揮官的名字……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在確認你的身份之前，我們沒有回答這個問題的義務，而且這可是最高機密",
+			say = "在確認妳的身份之前，我們沒有回答這個問題的義務，而且這可是最高機密",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "這個塞壬的基地是被你一個人摧毀的嗎？…你究竟是…",
+			say = "這個塞壬的基地是被妳一個人摧毀的嗎？…妳究竟是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			side = 1,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "不…你認錯人了",
+			say = "不…妳認錯人了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 					12
 				},
 				{
-					"<size=51>“這也正是你名字的意義”</size>",
+					"<size=51>“這也正是妳名字的意義”</size>",
 					14.5
 				}
 			}
@@ -615,7 +615,7 @@ return {
 					2.5
 				},
 				{
-					"<size=51>“你願意…</size>",
+					"<size=51>“妳願意…</size>",
 					5
 				},
 				{

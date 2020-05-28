@@ -24,7 +24,7 @@ return {
 					2
 				},
 				{
-					"“为了没能守护的伙伴，也为了跨过那时的【自己的记忆】”",
+					"“为了没能守护的夥伴，也为了跨过那时的【自己的记忆】”",
 					4
 				},
 				{
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "指挥官，睡得如何？没想到你就那样睡着了…果然是最近太累了吧…",
+			say = "指挥官，睡得如何？没想到妳就那样睡着了…果然是最近太累了吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "耳边传来珍贵的伙伴们的声音。",
+			say = "耳边传来珍贵的夥伴们的声音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "无论是{namecode:91}，还是我们这支舰队，亦或是重樱的大家，都交给你了",
+			say = "无论是{namecode:91}，还是我们这支舰队，亦或是重樱的大家，都交给妳了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "愿神明大人的力量能守护着你…{namecode:91}的…命运之人……",
+			say = "愿神明大人的力量能守护着妳…{namecode:91}的…命运之人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

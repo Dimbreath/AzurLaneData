@@ -218,7 +218,7 @@ pg.furniture_data_template = {
 	},
 	{
 		advice = 0,
-		describe = "特殊傢俱：胡德號戰列巡洋艦1:100艦船模型",
+		describe = "特殊傢俱：胡德號戰鬥巡洋艦1:100艦船模型",
 		count = 1,
 		type = 7,
 		dir = 0,
@@ -1133,6 +1133,42 @@ pg.furniture_data_template = {
 		size = {
 			2,
 			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[129] = {
+		advice = 0,
+		describe = "授予在「光與影的鳶尾之華」行動中獲得傑出成就者的紀念鐘。長久聆聽，你會感受到莊嚴與肅穆的鐘聲。",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "鳶尾紀念鐘",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "光與影的鳶尾之華",
+		themeId = 0,
+		icon = "faxixunzhangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 129,
+		picture = "chuanmo/faxixunzhang",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			3,
+			3
 		},
 		offset = {},
 		canputonGrid = {},
@@ -35496,6 +35532,7 @@ pg.furniture_data_template = {
 		122,
 		123,
 		124,
+		129,
 		149,
 		150,
 		152,

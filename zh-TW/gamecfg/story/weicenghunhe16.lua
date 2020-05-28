@@ -49,7 +49,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "总感觉比上次见你的时候更厉害了，背地里看来没少努力啊。",
+			say = "总感觉比上次见妳的时候更厉害了，背地里看来没少努力啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看这次作战，到目前为止不还是很顺利么。",
+			say = "妳看这次作战，到目前为止不还是很顺利么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "无畏…你你你变成潜艇了么？！（震惊）",
+			say = "无畏…妳妳妳变成潜艇了么？！（震惊）",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "哇啊啊？！！坚、坚持住无畏，我马上就救你上去！！！",
+			say = "哇啊啊？！！坚、坚持住无畏，我马上就救妳上去！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "改造？…是吗，你想了解改造的意义吗？",
+			say = "改造？…是吗，妳想了解改造的意义吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，最近看到了好多经历过“改造”的小伙伴呢，虽然不是很明白，但是就突然觉得有些在意起来",
+			say = "嘿嘿，最近看到了好多经历过“改造”的小夥伴呢，虽然不是很明白，但是就突然觉得有些在意起来",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵…真难得，你居然会这么在意一件事情",
+			say = "呵呵…真难得，妳居然会这么在意一件事情",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不过，就我看来，你只要按你自己的步调，以你自己的方式继续走下去就可以了吧",
+			say = "不过，就我看来，妳只要按妳自己的步调，以妳自己的方式继续走下去就可以了吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你也是一样，只要按着自己的步调走下去，总有一点能达到自己想要的突破的吧",
+			say = "妳也是一样，只要按着自己的步调走下去，总有一点能达到自己想要的突破的吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊啊，从某种意义上来说，你可是仅次于我的存在，加油吧",
+			say = "啊啊，从某种意义上来说，妳可是仅次于我的存在，加油吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

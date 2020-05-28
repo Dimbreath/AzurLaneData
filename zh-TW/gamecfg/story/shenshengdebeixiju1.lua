@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ffde38",
-			say = "是你啊，我的妹妹",
+			say = "是妳啊，我的妹妹",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "下令吧，总旗舰。只要你一声令下，帝国舰队将踏平一切陆间海来犯之敌",
+			say = "下令吧，总旗舰。只要妳一声令下，帝国舰队将踏平一切陆间海来犯之敌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ffde38",
-			say = "我知道你在担心皇家舰队的态度，之前的奥兰港事件已经暴露了她们的野心",
+			say = "我知道妳在担心皇家舰队的态度，之前的奥兰港事件已经暴露了她们的野心",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

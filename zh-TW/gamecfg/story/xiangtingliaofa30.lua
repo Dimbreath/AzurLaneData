@@ -44,7 +44,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "这里的你们，确实与我们曾经见过的有所不同。",
+			say = "这里的妳们，确实与我们曾经见过的有所不同。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…你们究竟是什么，究竟想做什么，又为什么要袭击纽约港！",
+			say = "…妳们究竟是什么，究竟想做什么，又为什么要袭击纽约港！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "蠢材！纽约港袭击只不过是安蒂克丝把你们诱骗到这里的阴谋罢了，你们根本是被一帮机器脑袋利用了！",
+			say = "蠢材！纽约港袭击只不过是安蒂克丝把妳们诱骗到这里的阴谋罢了，妳们根本是被一帮机器脑袋利用了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "至于她的话，你们根本不知道她正背负着怎样沉重的宿命。",
+			say = "至于她的话，妳们根本不知道她正背负着怎样沉重的宿命。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "一群被愚弄的孩子啊，我们一定会拯救你们的…",
+			say = "一群被愚弄的孩子啊，我们一定会拯救妳们的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "这一切都是因你而起，要不是你…她就可以不用这么痛苦了！",
+			say = "这一切都是因妳而起，要不是妳…她就可以不用这么痛苦了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -831,7 +831,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "……你的手。",
+			say = "……妳的手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -894,7 +894,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你…",
+			say = "妳…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

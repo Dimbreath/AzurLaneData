@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			actor = 10300010,
 			nameColor = "#a9f548",
-			say = "嗯，我懂你露露缇耶……就像被迫面对自己的阴暗面一样的感觉呢",
+			say = "嗯，我懂妳露露缇耶……就像被迫面对自己的阴暗面一样的感觉呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

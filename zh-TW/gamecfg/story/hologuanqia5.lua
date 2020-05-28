@@ -204,7 +204,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 900209,
-			say = "澪，最后的时光能和你在一起---",
+			say = "澪，最后的时光能和妳在一起---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "现在放弃还太早了！你们快去避难，这里交给我",
+			say = "现在放弃还太早了！妳们快去避难，这里交给我",
 			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,

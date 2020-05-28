@@ -228,7 +228,7 @@ return {
 			stopbgm = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "指挥官，我来接你了。",
+			say = "指挥官，我来接妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -27,7 +27,7 @@ return {
 		{
 			actor = 213011,
 			side = 0,
-			say = "不……也没要你逃跑就是了……",
+			say = "不……也没要妳逃跑就是了……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -50,7 +50,7 @@ return {
 			side = 1,
 			dir = -1,
 			nameColor = "#D6341D",
-			say = "姐姐，我建议你不要老是把逃跑挂在嘴边，这样会显得很欲盖弥彰的……",
+			say = "姐姐，我建议妳不要老是把逃跑挂在嘴边，这样会显得很欲盖弥彰的……",
 			shake = {
 				speed = 1,
 				number = 3
@@ -88,7 +88,7 @@ return {
 			side = 1,
 			dir = -1,
 			nameColor = "#D6341D",
-			say = "好了姐姐，不要老是在意这种事，不是还有我理解你吗？",
+			say = "好了姐姐，不要老是在意这种事，不是还有我理解妳吗？",
 			shake = {
 				speed = 1,
 				number = 3

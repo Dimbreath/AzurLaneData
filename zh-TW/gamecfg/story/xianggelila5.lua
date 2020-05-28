@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你是…香格里拉小姐？",
+			say = "妳是…香格里拉小姐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			say = "你好，{namecode:96}小姐，我是最近加入港区的白鹰埃塞克斯级航空母舰香格里拉。",
+			say = "妳好，{namecode:96}小姐，我是最近加入港区的白鹰埃塞克斯级航空母舰香格里拉。",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "虽然有些唐突，不过能占用你一点时间吗。有点事情想要请教一下…",
+			say = "虽然有些唐突，不过能占用妳一点时间吗。有点事情想要请教一下…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:95}小姐你好，事情是这样的——",
+			say = "{namecode:95}小姐妳好，事情是这样的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -181,7 +181,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#ff0000",
-			say = "總有一天你會明白…我們在做什麼，為什麼會這麼做……",
+			say = "總有一天妳會明白…我們在做什麼，為什麼會這麼做……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#ff0000",
-			say = "願八百萬神明的守護常伴於你——",
+			say = "願八百萬神明的守護常伴於妳——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

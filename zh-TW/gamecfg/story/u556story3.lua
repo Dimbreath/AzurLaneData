@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"小小的骑士誓言！\n\n<size=45>三　指挥官，找到你啦！</size>",
+					"小小的骑士誓言！\n\n<size=45>三　指挥官，找到妳啦！</size>",
 					1
 				}
 			}
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "哼哼，就等着我把你们都找出来吧！60、59……",
+			say = "哼哼，就等着我把妳们都找出来吧！60、59……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "指挥官！找到你啦！",
+			say = "指挥官！找到妳啦！",
 			effects = {
 				{
 					active = true,
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "指挥官！找到你啦！",
+			say = "指挥官！找到妳啦！",
 			effects = {
 				{
 					active = true,
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			actorName = "U-556",
-			say = "2、1、0！我来找你们了！",
+			say = "2、1、0！我来找妳们了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "还不是因为你们都藏在些那么难找的地方啦！",
+			say = "还不是因为妳们都藏在些那么难找的地方啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "难道说，你们两位的关系已经到了心有灵犀的地步了吗？",
+			say = "难道说，妳们两位的关系已经到了心有灵犀的地步了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "……等会做鬼的时候给你点厉害尝尝吧",
+			say = "……等会做鬼的时候给妳点厉害尝尝吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

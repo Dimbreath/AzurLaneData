@@ -33,7 +33,7 @@ return {
 			blackBg = true,
 			actor = 900027,
 			nameColor = "#a9f548",
-			say = "這是…你是從哪裡得到的？",
+			say = "這是…妳是從哪裡得到的？",
 			shake = {
 				speed = 1,
 				number = 3
@@ -53,7 +53,7 @@ return {
 			blackBg = true,
 			actor = 900028,
 			nameColor = "#a9f548",
-			say = "嘿嘿，要說情報工作的話，自然是{namecode:11}的功勞！這一次，你不會拒絕我了吧~",
+			say = "嘿嘿，要說情報工作的話，自然是{namecode:11}的功勞！這一次，妳不會拒絕我了吧~",
 			shake = {
 				speed = 1,
 				number = 3

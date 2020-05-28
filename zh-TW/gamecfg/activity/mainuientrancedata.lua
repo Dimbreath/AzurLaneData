@@ -282,8 +282,41 @@ return {
 			end
 		end
 	},
+	{
+		Tip = "tip",
+		Image = "event_minigame",
+		ButtonName = "activity_thirdAnniversary",
+		UpdateButton = function (slot0, slot1)
+			slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF) and not slot2:isEnd()
+
+			setActive(slot1, slot3)
+
+			if slot3 then
+				for slot9, slot10 in ipairs(slot2:getConfig("config_data")) do
+					slot11 = slot2.data1KeyValueList[2][slot10] or 0
+
+					if pg.activity_event_building[arg] and slot11 < slot12.buff then
+						slot4 = false or slot12.material[slot11] <= (slot2.data1KeyValueList[1][slot12.material_id] or 0)
+					end
+				end
+
+				setActive(slot1:Find("Tip"), slot4 or getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME):getConfig("config_id")).count > 0)
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.THIRD_ANNIVERSARY_SQUARE)
+				end, SFX_PANEL)
+			end
+		end
+	},
 	LayoutProperty = {
-		CellSize = Vector2(208, 215)
+		CellSize = Vector2(208, 215),
+		Spacing = Vector2(0, -20),
+		Padding = {
+			0,
+			0,
+			-20,
+			0
+		},
+		CellScale = Vector3(0.9, 0.9, 1)
 	},
 	CurrentEntrancesList = {
 		1,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"絮库夫的一天\n\n<size=45>一 清晨的絮库夫</size>",
+					"速科夫的一天\n\n<size=45>一 清晨的速科夫</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgm = "story-1",
-			say = "港区·卧室",
+			say = "港區·臥室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "朦胧之中，感觉鼻子痒痒的…",
+			say = "朦朧之中，感覺鼻子癢癢的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "嘿嘿…我挠我挠…这样总该醒了吧",
+			say = "嘿嘿…我撓我撓…這樣總該醒了吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "忍不住打了一个大喷嚏，顿时睡意全消…",
+			say = "忍不住打了一個大噴嚏，頓時睡意全消…",
 			flashN = {
 				color = {
 					1,
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "眼前是拿着不知哪里找来的麦秆的絮库夫。",
+			say = "眼前是拿著不知哪裡找來的麥稈的速科夫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,23 +129,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "早上好呀，指挥官，作为秘书舰，我来喊你起床上班啦~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 808010,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "对了，指挥官，我跟你说，我昨晚梦到你了哦。",
+			say = "早上好呀，指揮官，作為秘書艦，我來喊妳起床上班啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +145,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "梦里我正在免费吃大餐，结果还没吃饱，指挥官你就来喊我去工作，然后我就醒了……",
+			say = "對了，指揮官，我跟妳說，我昨晚夢到妳了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +161,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好可惜，我明明想吃龙虾的！",
+			say = "夢裡我正在免費吃大餐，結果還沒吃飽，指揮官妳就來喊我去工作，然後我就醒了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +177,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官呢，有没有梦到我呀？",
+			say = "好可惜，我明明想吃龍蝦的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +193,23 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯你不用回答，我知道的，一定梦到了对吧~",
+			say = "指揮官呢，有沒有夢到我呀？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 808010,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "嗯妳不用回答，我知道的，一定夢到了對吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "那指挥官梦到和我干什么了呀？",
+			say = "那指揮官夢到和我幹什麼了呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官你不要不理我嘛，真是的，梦到我又不是什么害羞的事~",
+			say = "指揮官妳不要不理我嘛，真是的，夢到我又不是什麼害羞的事~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "几分钟后…",
+			say = "幾分鐘後…",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "指挥官，不要脸……",
+			say = "指揮官，不要臉……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "在别人的床上迷糊地说着梦话的秘书舰…",
+			say = "在別人的床上迷糊地說著夢話的秘書艦…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

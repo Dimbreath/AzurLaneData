@@ -295,7 +295,7 @@ return {
 			actor = 299011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哼哼，就算是你也该大吃一惊了吧",
+			say = "哼哼，就算是妳也该大吃一惊了吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			actor = 302052,
 			nameColor = "#a9f548",
-			say = "啊，大家的礼物都放在圣诞树旁边了，没有拿的小伙伴都可以拿一个哦~",
+			say = "啊，大家的礼物都放在圣诞树旁边了，没有拿的小夥伴都可以拿一个哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

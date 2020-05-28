@@ -9,7 +9,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱酱，我们来接你了！一起回去吧？",
+			say = "爱酱，我们来接妳了！一起回去吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们没事就好了。我们从港区一路赶到虚拟镜面海域来了！",
+			say = "妳们没事就好了。我们从港区一路赶到虚拟镜面海域来了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这三个人就交给我们吧，那个大的就拜托你们了！",
+			say = "这三个人就交给我们吧，那个大的就拜托妳们了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

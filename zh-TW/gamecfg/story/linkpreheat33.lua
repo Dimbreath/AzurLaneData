@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "就说了没有这个意思了，真的没有带着这个想法看你们啦——",
+			say = "就说了没有这个意思了，真的没有带着这个想法看妳们啦——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "要是闭上眼睛，或者身处黑暗之中被你们搭话的话，肯定分不出来吧",
+			say = "要是闭上眼睛，或者身处黑暗之中被妳们搭话的话，肯定分不出来吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

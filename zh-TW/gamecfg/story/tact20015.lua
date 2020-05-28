@@ -26,7 +26,7 @@ return {
 		{
 			actor = 900012,
 			side = 1,
-			say = "那麼，這次你準備如何收場？如果「模具」被奪走，事態可是會超出「可控性戰爭」範疇的哦",
+			say = "那麼，這次妳準備如何收場？如果「模具」被奪走，事態可是會超出「可控性戰爭」範疇的哦",
 			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
@@ -109,7 +109,7 @@ return {
 			actor = 900012,
 			side = 1,
 			nameColor = "#ff0000",
-			say = "你的意思是…",
+			say = "妳的意思是…",
 			shake = {
 				speed = 1,
 				number = 3

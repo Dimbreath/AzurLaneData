@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗚嗚…我明白了…不過還是謝謝你的接待了，初春",
+			say = "嗚嗚…我明白了…不過還是謝謝妳的接待了，初春",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			actor = 301230,
 			nameColor = "#a9f548",
-			say = "對了對了，姐姐，你什麼時候和指揮官表白呀？",
+			say = "對了對了，姐姐，妳什麼時候和指揮官表白呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgm = "story-1",
 			actor = 301210,
 			nameColor = "#a9f548",
-			say = "<size=67.5>你你你你你在說什麼呀！</size>",
+			say = "<size=67.5>妳妳妳妳妳在說什麼呀！</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1

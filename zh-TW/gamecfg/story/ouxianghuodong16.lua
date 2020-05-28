@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 101160,
 			nameColor = "#a9f548",
-			say = "让你们见识下超绝可爱美少女班森酱身为偶像训练师的素质吧！",
+			say = "让妳们见识下超绝可爱美少女班森酱身为偶像训练师的素质吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 403070,
 			nameColor = "#a9f548",
-			say = "加斯科涅，你这是……！？",
+			say = "加斯科涅，妳这是……！？",
 			flashout = {
 				dur = 1,
 				black = true,

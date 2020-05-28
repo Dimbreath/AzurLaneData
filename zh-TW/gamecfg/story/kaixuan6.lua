@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=45>六 “对立”的姐妹</size>",
+					"騎士公主的憂鬱\n\n<size=45>六 “對立”的姐妹</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "指挥官，我来给你送之前说过的资料了",
+			say = "指揮官，我來給妳送之前說過的資料了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "嗯？是凯旋小姐啊，秘书舰的工作，辛苦啦",
+			say = "嗯？是凱旋小姐啊，秘書艦的工作，辛苦啦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯哼，没什么大不了的～",
+			say = "嗯哼，沒什麼大不了的～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "正好，问问福尔班和勒马尔的情况吧",
+			say = "正好，問問福爾班和勒馬爾的情況吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "勒马尔…吗？",
+			say = "勒馬爾…嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			say = "诶，指、指挥官？",
+			say = "欸，指、指揮官？",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -139,7 +139,7 @@ return {
 			},
 			options = {
 				{
-					content = "说明情况",
+					content = "說明情況",
 					flag = 1
 				}
 			}
@@ -149,7 +149,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "…原来如此，没想到一直看起来充满自信的凯旋小姐还有这种烦恼呢",
+			say = "…原來如此，沒想到一直看起來充滿自信的凱旋小姐還有這種煩惱呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "要我说…凯旋小姐，你是不是想太多了？",
+			say = "要我說…凱旋小姐，妳是不是想太多了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_task",
 			dir = -1,
 			actor = 901010,
-			say = "指挥官，福尔班说你找我们？哎？凯旋小姐也在呀，呀吼～",
+			say = "指揮官，福爾班說妳找我們？哎？凱旋小姐也在呀，呀吼～",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -226,7 +226,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "贵、贵安，勒马尔",
+			say = "貴、貴安，勒馬爾",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "凯旋小姐正为了身处不同阵营的姐妹这件事而烦恼呢",
+			say = "凱旋小姐正為了身處不同陣營的姐妹這件事而煩惱呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "啊…原来如此。这种时候只要打一架就好啦～",
+			say = "啊…原來如此。這種時候只要打一架就好啦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "对勒马尔这种笨蛋运动系，只能用这种方法啦",
+			say = "對勒馬爾這種笨蛋運動系，只能用這種方法啦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "实际上我们对打过好多次了呢，当然用的是练习用武器",
+			say = "實際上我們對打過好多次了呢，當然用的是練習用武器",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "与其大家憋在心里闷得慌，不如敞开来把话说清楚，说不清楚的时候，就用身体来表达吧！",
+			say = "與其大家憋在心裡悶得慌，不如敞開來把話說清楚，說不清楚的時候，就用身體來表達吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "所以说笨蛋运动系…",
+			say = "所以說笨蛋運動系…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "谁、谁是笨蛋了啦",
+			say = "誰、誰是笨蛋了啦",
 			action = {
 				{
 					y = 22.5,
@@ -369,7 +369,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "关、关系真好呀…我和姐姐大人们也能恢复到像这样的关系吗…",
+			say = "關、關係真好呀…我和姐姐大人們也能恢復到像這樣的關係嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "有话想说就要说出来，有气要宣泄就该释放出来",
+			say = "有話想說就要說出來，有氣要宣洩就該釋放出來",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "毕竟是姐妹，哪有什么解决不了的隔阂，聪明如凯旋小姐怎么会想不通呢～？",
+			say = "畢竟是姐妹，哪有什麼解決不了的隔閡，聰明如凱旋小姐怎麼會想不通呢～？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "毕竟是姐妹啊…",
+			say = "畢竟是姐妹啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "福尔班、勒马尔，谢谢你们，我好像有些明白了",
+			say = "福爾班、勒馬爾，謝謝妳們，我好像有些明白了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "凯旋的心结似乎解开了一些",
+			say = "凱旋的心結似乎解開了一些",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

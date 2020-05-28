@@ -144,7 +144,7 @@ return {
 			blackBg = true,
 			actor = 0,
 			actorName = "？？？",
-			say = "那麼…“關鍵點G”……這一次要怎麼樣才能再把你引誘出來呢？呵呵呵…",
+			say = "那麼…“關鍵點G”……這一次要怎麼樣才能再把妳引誘出來呢？呵呵呵…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -52,7 +52,7 @@ pg.pay_data_display = {
 		gem = 30,
 		limit_type = 2,
 		time = "always",
-		picture = "box1",
+		picture = "boxNewplayer",
 		display_money = 33,
 		id_str = "com.hkmanjuu.azurlane.diamond101",
 		first_pay_double = 0,
@@ -712,6 +712,106 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[23] = {
+		limit_arg = 1,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		name = "福袋",
+		descrip = "可獲得一件角色換裝，2020鑽，和大量其他獎勵",
+		subject = "福袋",
+		extra_service = 3,
+		platform = 0,
+		money = 990,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe3_l",
+		display_money = 990,
+		id_str = "com.hkmanjuu.azurlane.package3",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 23,
+		airijp_id = "com.yostarjp.azurlane.diamond114",
+		extra_service_item = {
+			{
+				2,
+				69910,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42000,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69910,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42000,
+				2
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -725,6 +825,7 @@ pg.pay_data_display = {
 		18,
 		20,
 		21,
-		22
+		22,
+		23
 	}
 }

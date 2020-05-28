@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "……晚饭和明天的早饭，你会做的吧？还有房间的打扫",
+			say = "……晚饭和明天的早饭，妳会做的吧？还有房间的打扫",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "明天是休息日，我打算和阿基里斯去买东西呢，麻烦你早一点哦。",
+			say = "明天是休息日，我打算和阿基里斯去买东西呢，麻烦妳早一点哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "呵呵，我也不是不能帮你做一点点……不过指挥官的评分会掉哦？",
+			say = "呵呵，我也不是不能帮妳做一点点……不过指挥官的评分会掉哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

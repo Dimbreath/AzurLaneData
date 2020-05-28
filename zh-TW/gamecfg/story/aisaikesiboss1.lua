@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "独立，指挥官希望你能担任红方的队长。",
+			say = "独立，指挥官希望妳能担任红方的队长。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…我明白了。埃塞克斯，这次交给你了。具体的内容稍后会和你说明-----",
+			say = "…我明白了。埃塞克斯，这次交给妳了。具体的内容稍后会和妳说明-----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

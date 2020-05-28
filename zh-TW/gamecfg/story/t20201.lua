@@ -153,7 +153,7 @@ return {
 			blackBg = true,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "是的，這麼大膽的任務也只有你能辦得到了（笑",
+			say = "是的，這麼大膽的任務也只有妳能辦得到了（笑",
 			shake = {
 				speed = 1,
 				number = 3

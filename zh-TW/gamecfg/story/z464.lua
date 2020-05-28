@@ -72,7 +72,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "鐵必制，我來給你送指揮官給的東西。",
+			say = "鐵必制，我來給妳送指揮官給的東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "46你還在執行秘書艦任務吧？接下來有什麼預定嗎？",
+			say = "46妳還在執行秘書艦任務吧？接下來有什麼預定嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "是嗎？那你陪我聊一會兒吧。感覺還是46好說話呢。",
+			say = "是嗎？那妳陪我聊一會兒吧。感覺還是46好說話呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "沒問題。不過我不會說話，大概只能聽聽，你不介意的話就好",
+			say = "沒問題。不過我不會說話，大概只能聽聽，妳不介意的話就好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

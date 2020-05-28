@@ -76,7 +76,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "来自皇家的贵族小姐啊~你可能还没了解清楚目前的局面——",
+			say = "来自皇家的贵族小姐啊~妳可能还没了解清楚目前的局面——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "由于任务需要，能麻烦你，在这里被我们击败吗？",
+			say = "由于任务需要，能麻烦妳，在这里被我们击败吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "与此同时，其他搜查舰队应该都被我们控制住了，你们没有机会发出无线电的",
+			say = "与此同时，其他搜查舰队应该都被我们控制住了，妳们没有机会发出无线电的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，愚蠢之人，让你们一窥「净化之战」的真实也无妨",
+			say = "哼哼哼，愚蠢之人，让妳们一窥「净化之战」的真实也无妨",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "尽情震惊吧，绿色的魔王！你们的诡计女王陛下已经全部预料到了",
+			say = "尽情震惊吧，绿色的魔王！妳们的诡计女王陛下已经全部预料到了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绿色舰队的家伙们哟，你们可别就这样把我给忘了",
+			say = "绿色舰队的家伙们哟，妳们可别就这样把我给忘了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就让你们在此付出背叛盟约的代价吧。约克级重型魔导巡洋舰，约克参上！",
+			say = "就让妳们在此付出背叛盟约的代价吧。约克级重型魔导巡洋舰，约克参上！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -107,7 +107,7 @@ return {
 			blackBg = true,
 			actor = 408040,
 			nameColor = "#ffde38",
-			say = "等着我，我一定会守护你的！！",
+			say = "等着我，我一定会守护妳的！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -299,7 +299,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吹雪，你喜欢夏色祭么？",
+			say = "吹雪，妳喜欢夏色祭么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "祭，喜欢你哦。",
+			say = "祭，喜欢妳哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

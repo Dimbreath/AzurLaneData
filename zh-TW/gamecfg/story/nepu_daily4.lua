@@ -92,7 +92,7 @@ return {
 			dir = -1,
 			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "这里是热爱游戏，热爱堕落，从繁重的任务中获得一时的解脱的干物们休憩的地方…欢迎你的到来！",
+			say = "这里是热爱游戏，热爱堕落，从繁重的任务中获得一时的解脱的干物们休憩的地方…欢迎妳的到来！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = -1,
 			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "呒呒呒，何等深刻的话语……你、是专业的吧？",
+			say = "呒呒呒，何等深刻的话语……妳、是专业的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听{namecode:6}说，“贝露和你们的波长一定很合”…果然，姐姐是真正的游戏玩家呢！",
+			say = "听{namecode:6}说，“贝露和妳们的波长一定很合”…果然，姐姐是真正的游戏玩家呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，能得到你的赞赏是我的荣幸……不过，你们还是太嫩了点",
+			say = "呵呵呵，能得到妳的赞赏是我的荣幸……不过，妳们还是太嫩了点",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就让我来教教你们，什么是真正的游戏玩家吧！",
+			say = "就让我来教教妳们，什么是真正的游戏玩家吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = -1,
 			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "{namecode:37}也很佩服！你才是降临这个世界的…游戏之神…！",
+			say = "{namecode:37}也很佩服！妳才是降临这个世界的…游戏之神…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，玩笑就到此为止…难得的游戏会，接下来玩点大家能一起玩的游戏吧。让姐姐手·把·手地教你们玩吧♪",
+			say = "好啦，玩笑就到此为止…难得的游戏会，接下来玩点大家能一起玩的游戏吧。让姐姐手·把·手地教妳们玩吧♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你说谁小呢！？",
+			say = "妳说谁小呢！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

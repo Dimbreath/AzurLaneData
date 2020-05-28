@@ -301,7 +301,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "你的攻击太激进了，这样会给对手露出破绽的",
+			say = "妳的攻击太激进了，这样会给对手露出破绽的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个剑法，没错...{namecode:66}！你就是{namecode:66}吧？！为什么会是现在这副模样？",
+			say = "这个剑法，没错...{namecode:66}！妳就是{namecode:66}吧？！为什么会是现在这副模样？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "如果，给你起名的存在全都消失了…",
+			say = "如果，给妳起名的存在全都消失了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

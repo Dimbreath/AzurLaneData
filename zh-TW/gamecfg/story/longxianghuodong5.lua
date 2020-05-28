@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "波特兰，你从刚才开始已经看了105次印第安纳波利斯的照片，叹了115次气了……",
+			say = "波特兰，妳从刚才开始已经看了105次印第安纳波利斯的照片，叹了115次气了……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -61,7 +61,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "印第她可是有那——么可爱的呀！亚特兰大你也是做姐姐的，难道不明白妹妹的可爱之处吗！",
+			say = "印第她可是有那——么可爱的呀！亚特兰大妳也是做姐姐的，难道不明白妹妹的可爱之处吗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看嘛，那离开妹妹不应该感到伤心和难过吗！",
+			say = "妳看嘛，那离开妹妹不应该感到伤心和难过吗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你这家伙，对妹妹的执念还真是……在你身边我都不好意思自称姐姐了。",
+			say = "妳这家伙，对妹妹的执念还真是……在妳身边我都不好意思自称姐姐了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我的对空火力比较强，就让我回去支援萨拉托加她们吧，波特兰你带着剩下的人继续前进。",
+			say = "……我的对空火力比较强，就让我回去支援萨拉托加她们吧，波特兰妳带着剩下的人继续前进。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…萨拉托加说不用，这边面对{namecode:90}的话，更需要你，那边交给她就好。",
+			say = "唔…萨拉托加说不用，这边面对{namecode:90}的话，更需要妳，那边交给她就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

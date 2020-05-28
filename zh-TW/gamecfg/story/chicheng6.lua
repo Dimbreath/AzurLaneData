@@ -163,7 +163,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "其他任何人都不能，{namecode:92}也不能，只有{namecode:91}可以……指挥官你要记住……",
+			say = "其他任何人都不能，{namecode:92}也不能，只有{namecode:91}可以……指挥官妳要记住……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "指挥官什么也不用想，什么也不用做。{namecode:91}会为你做好一切。",
+			say = "指挥官什么也不用想，什么也不用做。{namecode:91}会为妳做好一切。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

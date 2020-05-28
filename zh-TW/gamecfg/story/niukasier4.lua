@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "这家伙虽然有点挺没意思的……但是在辅佐仆人你这件事上还是绰绰有余的！",
+			say = "这家伙虽然有点挺没意思的……但是在辅佐仆人妳这件事上还是绰绰有余的！",
 			effects = {
 				{
 					active = true,
@@ -320,7 +320,7 @@ return {
 			bgm = "story-1",
 			actor = 202190,
 			nameColor = "#a9f548",
-			say = "指挥官？你还好吗？",
+			say = "指挥官？妳还好吗？",
 			flashout = {
 				dur = 0.5,
 				black = true,

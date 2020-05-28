@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "要是欺负我家斯佩我是不会饶过你们的！",
+			say = "要是欺负我家斯佩我是不会饶过妳们的！",
 			flashout = {
 				dur = 1,
 				black = true,

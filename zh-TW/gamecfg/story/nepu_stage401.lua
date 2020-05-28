@@ -252,7 +252,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……贝露你比所有人都要陶醉呢。",
+			say = "……贝露妳比所有人都要陶醉呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝露你也和涅普顿一样，和平时一点变化都没有呢……",
+			say = "贝露妳也和涅普顿一样，和平时一点变化都没有呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

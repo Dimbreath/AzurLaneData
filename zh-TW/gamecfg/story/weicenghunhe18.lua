@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actor = 207020,
 			nameColor = "#ffa500",
-			say = "噢？！重樱的各位也来了……只有你们到了么？",
+			say = "噢？！重樱的各位也来了……只有妳们到了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "你们皇家的伊丽莎白也没来么…唉，看来现在各家情况都很惨啊。",
+			say = "妳们皇家的伊丽莎白也没来么…唉，看来现在各家情况都很惨啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "希望如此吧…该谈正事了。企业，组织的名字你想好了么？",
+			say = "希望如此吧…该谈正事了。企业，组织的名字妳想好了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "喂！到底是怎么回事，你们打算做什么？！",
+			say = "喂！到底是怎么回事，妳们打算做什么？！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,

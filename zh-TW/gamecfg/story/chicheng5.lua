@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "指挥官！？你的手怎么了……！",
+			say = "指挥官！？妳的手怎么了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "指挥官，你在说什么呢？还是说不需要{namecode:91}担心你？该不会明明有{namecode:91}在你还想去找别人帮忙吧…？",
+			say = "指挥官，妳在说什么呢？还是说不需要{namecode:91}担心妳？该不会明明有{namecode:91}在妳还想去找别人帮忙吧…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

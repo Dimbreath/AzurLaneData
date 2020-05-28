@@ -13,7 +13,7 @@ return {
 			bgm = "battle-boss-italy",
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "…你这样窜来窜去的样子可真烦人",
+			say = "…妳这样窜来窜去的样子可真烦人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 601020,
-			say = "就算是像你这样的钢铁巨兽也…",
+			say = "就算是像妳这样的钢铁巨兽也…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 207050,
-			say = "你说…",
+			say = "妳说…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = -1,
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "你说谁是笨重又死板的庞然大物啦！！？",
+			say = "妳说谁是笨重又死板的庞然大物啦！！？",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -293,7 +293,7 @@ return {
 			dir = -1,
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "都怪你说人家是丑陋又懒惰的肥恐龙啦！！",
+			say = "都怪妳说人家是丑陋又懒惰的肥恐龙啦！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊啊，贵安，旗舰大人~光辉级航空母舰可畏号向你献上午后的问候",
+			say = "啊啊，贵安，旗舰大人~光辉级航空母舰可畏号向妳献上午后的问候",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			actor = 205029,
 			actorName = "厌战",
-			say = "没，没什么，你做得很好...我们继续前进吧，目标——“卡拉布里亚的宝石”",
+			say = "没，没什么，妳做得很好...我们继续前进吧，目标——“卡拉布里亚的宝石”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

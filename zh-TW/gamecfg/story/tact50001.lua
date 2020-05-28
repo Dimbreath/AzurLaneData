@@ -50,7 +50,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
-			say = "正是因为兵力有差距才要用奇袭来弥补，这不是理所当然的事情吗？倒不如说，你们的守备这么薄弱才叫我们吃了一惊呢，我们可是做好了今晚无人生还的心理准备才来的哦？",
+			say = "正是因为兵力有差距才要用奇袭来弥补，这不是理所当然的事情吗？倒不如说，妳们的守备这么薄弱才叫我们吃了一惊呢，我们可是做好了今晚无人生还的心理准备才来的哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "虽然不甘心，不过你说的没错呢……",
+			say = "虽然不甘心，不过妳说的没错呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "多说无益，就让我会会你们吧！",
+			say = "多说无益，就让我会会妳们吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
-			say = "重樱第六战队，{namecode:54}，{namecode:56}，就由我们两个来做你的对手！",
+			say = "重樱第六战队，{namecode:54}，{namecode:56}，就由我们两个来做妳的对手！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

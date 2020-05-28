@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你們不用在意。這邊本來就是髒活，我來幹就好了。再說還有指揮官呢。",
+			say = "妳們不用在意。這邊本來就是髒活，我來幹就好了。再說還有指揮官呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = -1,
 			actor = 201030,
 			nameColor = "#a9f548",
-			say = "光榮你真的不要緊嗎？這活可不輕啊。",
+			say = "光榮妳真的不要緊嗎？這活可不輕啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			optionFlag = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "沒事，你看指揮官不也說了嗎。",
+			say = "沒事，妳看指揮官不也說了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			optionFlag = 2,
 			actor = 201020,
 			nameColor = "#a9f548",
-			say = "熱心你過來……（竊竊私語）……好了，我們就先去收拾那邊了。",
+			say = "熱心妳過來……（竊竊私語）……好了，我們就先去收拾那邊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拜託你們啦。……好了，指揮官我們也幹活吧！",
+			say = "拜託妳們啦。……好了，指揮官我們也幹活吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

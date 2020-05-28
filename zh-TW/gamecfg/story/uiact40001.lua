@@ -14,7 +14,7 @@ return {
 			dir = -1,
 			actor = 900022,
 			actorName = "？？？",
-			say = "海圻、海容、海筹、海琛…你们这样也算是鞠躬尽瘁了…",
+			say = "海圻、海容、海筹、海琛…妳们这样也算是鞠躬尽瘁了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = -1,
 			actor = 900022,
 			actorName = "？？？",
-			say = "傻丫头，听着，现在是用上你毕生所学功夫的时刻了，还记得我曾经说的吗？",
+			say = "傻丫头，听着，现在是用上妳毕生所学功夫的时刻了，还记得我曾经说的吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "姐姐姐姐，你也饿了吗？看你的表情似乎不太妙呢。",
+			say = "姐姐姐姐，妳也饿了吗？看妳的表情似乎不太妙呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "指挥官这次派我们姐妹来这里可是赋予了我们重任啊，你可别辜负了指挥官对我们的期待！",
+			say = "指挥官这次派我们姐妹来这里可是赋予了我们重任啊，妳可别辜负了指挥官对我们的期待！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

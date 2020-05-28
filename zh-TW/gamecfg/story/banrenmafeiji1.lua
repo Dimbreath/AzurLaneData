@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "啊，半人马，你来啦，这边这边~~",
+			say = "啊，半人马，妳来啦，这边这边~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			say = "标枪前辈上午好，今天就麻烦你了。",
+			say = "标枪前辈上午好，今天就麻烦妳了。",
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "嗯～没事没事，指挥官为了之后能够无忧无虑地放假正在拼命工作呢，最近战斗任务也不多，就由我来做你的向导啦。",
+			say = "嗯～没事没事，指挥官为了之后能够无忧无虑地放假正在拼命工作呢，最近战斗任务也不多，就由我来做妳的向导啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我一边走一边给你介绍吧。",
+			say = "那我一边走一边给妳介绍吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			say = "你看，那边阳伞下的是{namecode:92}小姐，和她身边的……咦，{namecode:91}小姐人呢？",
+			say = "妳看，那边阳伞下的是{namecode:92}小姐，和她身边的……咦，{namecode:91}小姐人呢？",
 			side = 0,
 			bgName = "star_level_bg_106",
 			actor = 201212,
@@ -300,7 +300,7 @@ return {
 			bgName = "star_level_bg_106",
 			actor = 307011,
 			nameColor = "#a9f548",
-			say = "今年也有不少害虫在打指挥官的主意呢，呵呵呵，我{namecode:91}是不会让你们得逞的！",
+			say = "今年也有不少害虫在打指挥官的主意呢，呵呵呵，我{namecode:91}是不会让妳们得逞的！",
 			flashout = {
 				dur = 0.2,
 				black = true,
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			say = "哎呀，指挥官只是自然而然地在我这里寻找姐姐的温暖而已，你在说什么我完全听不明白呢~",
+			say = "哎呀，指挥官只是自然而然地在我这里寻找姐姐的温暖而已，妳在说什么我完全听不明白呢~",
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",

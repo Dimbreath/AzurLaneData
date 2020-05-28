@@ -281,7 +281,7 @@ return {
 			withoutActorName = true,
 			actor = 10300040,
 			nameColor = "#a9f548",
-			say = "“从练习慢慢说话开始吧。如果需要的话，我随时可以陪你练习“——就这样，与她约好了",
+			say = "“从练习慢慢说话开始吧。如果需要的话，我随时可以陪妳练习“——就这样，与她约好了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

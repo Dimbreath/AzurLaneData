@@ -74,7 +74,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "想也知道不可能吧。你漫画跟轻小说看多了啦",
+			say = "想也知道不可能吧。妳漫画跟轻小说看多了啦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "诺瓦露你不懂啊~我们都这样说的话~那就真的什么都不会开始了。应该说“这个洞的另一边一定有超棒的异次元世界在等着我们”之类的？",
+			say = "诺瓦露妳不懂啊~我们都这样说的话~那就真的什么都不会开始了。应该说“这个洞的另一边一定有超棒的异次元世界在等着我们”之类的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明就是你凑热闹冲过去，把想要阻止你的我也卷进来了吧。怎么看都绝对不可能你是被吸进去的呢",
+			say = "明明就是妳凑热闹冲过去，把想要阻止妳的我也卷进来了吧。怎么看都绝对不可能妳是被吸进去的呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "千、千钧一发…谢谢你，涅普顿",
+			say = "千、千钧一发…谢谢妳，涅普顿",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说谢谢还太早了……你看",
+			say = "说谢谢还太早了……妳看",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且…你也注意到了吧？这个世界几乎感觉不到对我们的信仰……只靠现在的我们是不行的",
+			say = "而且…妳也注意到了吧？这个世界几乎感觉不到对我们的信仰……只靠现在的我们是不行的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "信仰不足…！？虽然很不甘心，涅普顿你也说对了一次呢！",
+			say = "信仰不足…！？虽然很不甘心，涅普顿妳也说对了一次呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没办法…冒牌货们！下次再见可不会这么轻易放过你们了哦！",
+			say = "没办法…冒牌货们！下次再见可不会这么轻易放过妳们了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -857,7 +857,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我很理解你说这话的心情",
+			say = "嗯，我很理解妳说这话的心情",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -953,7 +953,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是当然的吧…你这连珠炮一样的问题谁能一口气答上来啊",
+			say = "那是当然的吧…妳这连珠炮一样的问题谁能一口气答上来啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1117,7 +1117,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "大概是要接待这些人吧？你们是……？",
+			say = "大概是要接待这些人吧？妳们是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1197,7 +1197,7 @@ return {
 			dir = 1,
 			actor = 301050,
 			actorName = "{namecode:6}",
-			say = "各位都在这里吗…找了你们好久",
+			say = "各位都在这里吗…找了妳们好久",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

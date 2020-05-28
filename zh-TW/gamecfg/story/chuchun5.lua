@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#a9f548",
-			say = "…啊！謝、謝謝！你、你們也……",
+			say = "…啊！謝、謝謝！妳、妳們也……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			say = "啊，抱歉。不過…從剛剛演習結束就覺得你的樣子有點奇怪，怎麼了嘛？",
+			say = "啊，抱歉。不過…從剛剛演習結束就覺得妳的樣子有點奇怪，怎麼了嘛？",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你的動搖都寫在臉上了哦？",
+			say = "妳的動搖都寫在臉上了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（嘆氣）本人沒什麼自覺嗎…我聽到你的自言自語了哦…我問你啊，你真的打算辭去秘書艦的職務嗎？",
+			say = "（嘆氣）本人沒什麼自覺嗎…我聽到妳的自言自語了哦…我問妳啊，妳真的打算辭去秘書艦的職務嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好不容易堅持到了現在，難道你要用簡單一句話就把之前的努力全盤否定掉嗎？",
+			say = "好不容易堅持到了現在，難道妳要用簡單一句話就把之前的努力全盤否定掉嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "初春姐姐，不要灰心，若葉會一直給你加油的！",
+			say = "初春姐姐，不要灰心，若葉會一直給妳加油的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "初霜…若葉……你們是什麼時候——",
+			say = "初霜…若葉……妳們是什麼時候——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸嘿嘿，因為某人一直很擔心你呀~是吧，那邊的指揮官？你也有什麼話要說的吧？",
+			say = "欸嘿嘿，因為某人一直很擔心妳呀~是吧，那邊的指揮官？妳也有什麼話要說的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

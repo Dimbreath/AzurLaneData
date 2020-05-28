@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊哈哈，抱歉抱歉，没想到你们这么专注。啊，指挥官也在，这是在做什么有趣的事情吗～？",
+			say = "啊哈哈，抱歉抱歉，没想到妳们这么专注。啊，指挥官也在，这是在做什么有趣的事情吗～？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

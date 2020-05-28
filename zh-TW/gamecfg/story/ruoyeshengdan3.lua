@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			actor = 199012,
 			nameColor = "#a9f548",
-			say = "没有问题~！{namecode:49}和{namecode:174}，准备和包装礼物辛苦啦，哦？{namecode:174}你这一身，是小红帽吗？哈哈",
+			say = "没有问题~！{namecode:49}和{namecode:174}，准备和包装礼物辛苦啦，哦？{namecode:174}妳这一身，是小红帽吗？哈哈",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			actor = 302201,
 			nameColor = "#a9f548",
-			say = "呵呵，前面就说过啦，这身很适合你哦，{namecode:174}。让人忍不住要变成大灰狼“啊呜~”地把你吃掉呢~",
+			say = "呵呵，前面就说过啦，这身很适合妳哦，{namecode:174}。让人忍不住要变成大灰狼“啊呜~”地把妳吃掉呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

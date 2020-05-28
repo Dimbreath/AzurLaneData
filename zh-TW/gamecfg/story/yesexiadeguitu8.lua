@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			actor = 205030,
 			nameColor = "#ffff4d",
-			say = "哎？等等，前方的舰队立刻停下来，你们是……！",
+			say = "哎？等等，前方的舰队立刻停下来，妳们是……！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "维希教廷的驱逐？还有你是……敦刻尔克？！",
+			say = "维希教廷的驱逐？还有妳是……敦刻尔克？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

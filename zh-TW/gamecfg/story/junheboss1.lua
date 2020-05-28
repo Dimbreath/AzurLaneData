@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
-			say = "嗯哼，真是精彩的战前动员。果然没有白把你叫过来啊。",
+			say = "嗯哼，真是精彩的战前动员。果然没有白把妳叫过来啊。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好，这次联合演习，重樱阵营的总指挥不是我，而是你。势必要向指挥官展示出吾等重樱的威严与荣耀！",
+			say = "很好，这次联合演习，重樱阵营的总指挥不是我，而是妳。势必要向指挥官展示出吾等重樱的威严与荣耀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "哦～也行。只要你全心全意为指挥官大人效力就好。",
+			say = "哦～也行。只要妳全心全意为指挥官大人效力就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			blackBg = true,
 			actor = 305110,
 			nameColor = "#a9f548",
-			say = "抱歉，要你多辛苦了。",
+			say = "抱歉，要妳多辛苦了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

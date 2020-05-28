@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸欸欸？哼、哼哼、哼哼哼…竟敢對我這個“遊戲之神”長島發起挑戰，真是有勇氣啊～好！我就接受你的挑戰了！",
+			say = "欸欸欸？哼、哼哼、哼哼哼…竟敢對我這個“遊戲之神”長島發起挑戰，真是有勇氣啊～好！我就接受妳的挑戰了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等你贏了再說吧～",
+			say = "等妳贏了再說吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "對不起啦Z23，剛才的惡作劇只是跟你開開玩笑而已～",
+			say = "對不起啦Z23，剛才的惡作劇只是跟妳開開玩笑而已～",
 			flashout = {
 				dur = 1,
 				black = true,

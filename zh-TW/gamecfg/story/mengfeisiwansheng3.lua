@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			actor = 213041,
 			nameColor = "#a9f548",
-			say = "你以为是南瓜？其实是我阿贝克隆比啦！！嘿嘿，有没有吓一跳呀~",
+			say = "妳以为是南瓜？其实是我阿贝克隆比啦！！嘿嘿，有没有吓一跳呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 301411,
 			actorName = "僵尸？",
-			say = "糖果，帮你捡起来了",
+			say = "糖果，帮妳捡起来了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			actor = 301411,
 			nameColor = "#a9f548",
-			say = "我跳~我跳~糖果给你",
+			say = "我跳~我跳~糖果给妳",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			actor = 101120,
 			nameColor = "#a9f548",
-			say = "作为罪魁祸首的你应该是来弥补才对吧！",
+			say = "作为罪魁祸首的妳应该是来弥补才对吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

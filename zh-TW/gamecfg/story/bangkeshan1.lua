@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别光顾着拍照啦，姐姐！你也是演习的一员啊！",
+			say = "别光顾着拍照啦，姐姐！妳也是演习的一员啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊呀？总觉得你有些不甘心呢。",
+			say = "啊呀？总觉得妳有些不甘心呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

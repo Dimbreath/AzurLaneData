@@ -152,7 +152,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，{namecode:72}你這麼無聊，要不要我們來對練一下？",
+			say = "嘻嘻，{namecode:72}妳這麼無聊，要不要我們來對練一下？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 304030,
 			nameColor = "#a9f548",
-			say = "哼，來呀！我可不會輸給你！",
+			say = "哼，來呀！我可不會輸給妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

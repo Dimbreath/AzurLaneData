@@ -136,7 +136,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			say = "指挥官！太好了，你在这里，快跟我来！{namecode:97}她、{namecode:97}她——",
+			say = "指挥官！太好了，妳在这里，快跟我来！{namecode:97}她、{namecode:97}她——",
 			dir = 1,
 			bgName = "bg_story_task",
 			actor = 108020,
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "指挥官，大概只有你的话她听得进去了…拜托了，指挥官，请把{namecode:97}从房间里带出来吧！",
+			say = "指挥官，大概只有妳的话她听得进去了…拜托了，指挥官，请把{namecode:97}从房间里带出来吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

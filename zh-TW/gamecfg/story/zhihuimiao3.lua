@@ -24,7 +24,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "好了喵！准备迎接你的第一名指挥喵伙伴喵！",
+			say = "好了喵！准备迎接妳的第一名指挥喵夥伴喵！",
 			flashout = {
 				dur = 1,
 				alpha = {

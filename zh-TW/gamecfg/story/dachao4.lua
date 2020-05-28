@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:55}醬~看起來你又缺乏靈感了呀？",
+			say = "{namecode:55}醬~看起來妳又缺乏靈感了呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			say = "是{namecode:146}啊，你有好點子？難不成是連我都不知道的超級爆料嗎？",
+			say = "是{namecode:146}啊，妳有好點子？難不成是連我都不知道的超級爆料嗎？",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = -1,
@@ -236,7 +236,7 @@ return {
 			dir = -1,
 			actor = 303030,
 			nameColor = "#a9f548",
-			say = "哦哦哦哦哦！原來還可以這樣，{namecode:146}你真是個天才！",
+			say = "哦哦哦哦哦！原來還可以這樣，{namecode:146}妳真是個天才！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

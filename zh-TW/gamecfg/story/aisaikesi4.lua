@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，你的实力我确实看到了。呵呵，埃塞克斯，确实变强了呢",
+			say = "不过，妳的实力我确实看到了。呵呵，埃塞克斯，确实变强了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

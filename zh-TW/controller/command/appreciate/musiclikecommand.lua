@@ -15,7 +15,7 @@ function slot0.execute(slot0, slot1)
 				uv1:removeMusicIDFromLikeList(uv2)
 			end
 		else
-			print("Like Fail", tostring(slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips("Like Fail" .. tostring(slot0.result))
 		end
 	end)
 end

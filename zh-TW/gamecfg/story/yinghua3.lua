@@ -70,7 +70,7 @@ return {
 			actor = 307060,
 			side = 0,
 			dir = 1,
-			say = "你說的難道是…",
+			say = "妳說的難道是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

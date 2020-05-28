@@ -45,7 +45,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900236,
-			say = "哇，难得塔尔图你居然会接我的话！",
+			say = "哇，难得塔尔图妳居然会接我的话！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我觉得你就是在整天想事情……而且我是说陆间海很无聊啦。",
+			say = "我觉得妳就是在整天想事情……而且我是说陆间海很无聊啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

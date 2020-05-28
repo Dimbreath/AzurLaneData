@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "讓你們見識一下特型驅逐艦的速度、的說",
+			say = "讓妳們見識一下特型驅逐艦的速度、的說",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

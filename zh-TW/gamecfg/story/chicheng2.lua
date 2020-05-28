@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			actor = 307020,
 			actorName = "{namecode:92}",
-			say = "你们还是别费口舌了。今天的姐姐是动真格的。一个不小心就会像当初姐姐绰号里说的那样…见识到什么是地狱。",
+			say = "妳们还是别费口舌了。今天的姐姐是动真格的。一个不小心就会像当初姐姐绰号里说的那样…见识到什么是地狱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "……指挥官大人？呵呵，让你见笑了……请见谅",
+			say = "……指挥官大人？呵呵，让妳见笑了……请见谅",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:91}，整队完毕了。指挥官，别看辛苦，为了获得足够的力量大家都很努力。你无需同情她们。",
+			say = "{namecode:91}，整队完毕了。指挥官，别看辛苦，为了获得足够的力量大家都很努力。妳无需同情她们。",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			actorName = "{namecode:92}",

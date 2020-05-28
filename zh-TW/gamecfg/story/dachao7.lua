@@ -129,7 +129,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看，大家也是這樣想的哦~",
+			say = "妳看，大家也是這樣想的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -306,7 +306,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "维内托，不瞒你说，在此之前，我曾收到了光辉发来的密电",
+			say = "维内托，不瞒妳说，在此之前，我曾收到了光辉发来的密电",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "我知道你在担心什么，铁血在塔兰托之后对我们的态度变得更加激进了",
+			say = "我知道妳在担心什么，铁血在塔兰托之后对我们的态度变得更加激进了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "该挑一挑你的泳装了！",
+			say = "该挑一挑妳的泳装了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

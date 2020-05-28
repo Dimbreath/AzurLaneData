@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "謝謝你招待我來喝茶，利安得。",
+			say = "謝謝妳招待我來喝茶，利安得。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "哪裡哪裡，你能來才是我的榮幸呢。",
+			say = "哪裡哪裡，妳能來才是我的榮幸呢。",
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "……但是指揮官你為什麼又在這裡？",
+			say = "……但是指揮官妳為什麼又在這裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了……你高興就好。",
+			say = "算了……妳高興就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，邀請指揮官的時候，指揮官說想要一起邀請你。",
+			say = "呵呵，邀請指揮官的時候，指揮官說想要一起邀請妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也一直想要和火奴魯魯聊聊天，正好借這個機會和你親近一下呢~",
+			say = "我也一直想要和火奴魯魯聊聊天，正好借這個機會和妳親近一下呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			actor = 202010,
 			nameColor = "#a9f548",
-			say = "不過，感覺火奴魯魯你平時不大與人來往呢？",
+			say = "不過，感覺火奴魯魯妳平時不大與人來往呢？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -266,7 +266,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那真是遺憾呢，明明火奴魯魯你這麼漂亮，再有自信一點也沒關係哦。",
+			say = "那真是遺憾呢，明明火奴魯魯妳這麼漂亮，再有自信一點也沒關係哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊，剛才也說了，因為過去的緣分，我一直想要和火奴魯魯你友好相處。",
+			say = "是啊，剛才也說了，因為過去的緣分，我一直想要和火奴魯魯妳友好相處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像現在這樣坐下聊天後，就能感覺到，火奴魯魯你果然是個好漂亮的女孩子呢。",
+			say = "像現在這樣坐下聊天後，就能感覺到，火奴魯魯妳果然是個好漂亮的女孩子呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……指揮官，你幹什麼用那種欣慰的眼光看著我。",
+			say = "……指揮官，妳幹什麼用那種欣慰的眼光看著我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

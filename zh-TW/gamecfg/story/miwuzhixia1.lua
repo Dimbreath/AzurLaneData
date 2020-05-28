@@ -44,7 +44,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巴拿马要塞是连接大洋的重要通道，一定要确保它的安全，之后就拜托你们了哦~",
+			say = "巴拿马要塞是连接大洋的重要通道，一定要确保它的安全，之后就拜托妳们了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么我们出发了…企业、萨拉托加，你们也要注意安全",
+			say = "那么我们出发了…企业、萨拉托加，妳们也要注意安全",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "预祝你们作战顺利，顺便帮我向指挥官带个好",
+			say = "预祝妳们作战顺利，顺便帮我向指挥官带个好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

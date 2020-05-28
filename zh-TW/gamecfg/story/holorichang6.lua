@@ -114,7 +114,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……你确定？这张地图可是很难的。",
+			say = "嗯……妳确定？这张地图可是很难的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那你加油。",
+			say = "那妳加油。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 106010,
 			nameColor = "#a9f548",
-			say = "啊，应该是这个道具没错了！你那边应该也有一块，拼一起就对了。",
+			say = "啊，应该是这个道具没错了！妳那边应该也有一块，拼一起就对了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "……要是你们今晚上床的话，咱就帮你们做。",
+			say = "……要是妳们今晚上床的话，咱就帮妳们做。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			actor = 403070,
 			nameColor = "#a9f548",
-			say = "铁血的SNS。…你别偷看别人屏幕啊",
+			say = "铁血的SNS。…妳别偷看别人屏幕啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "加斯科涅和{namecode:91}要不要也试试？我教你怎么用",
+			say = "加斯科涅和{namecode:91}要不要也试试？我教妳怎么用",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

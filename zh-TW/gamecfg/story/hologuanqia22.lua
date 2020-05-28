@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			actor = 10500020,
 			nameColor = "#a9f548",
-			say = "这种战斗，就是你们在这个世界的日常么…？",
+			say = "这种战斗，就是妳们在这个世界的日常么…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

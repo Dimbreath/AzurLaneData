@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱小姐！快想起原本的你吧！",
+			say = "爱小姐！快想起原本的妳吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你还得回到原来的世界继续投稿动画的不是吗！？还有许多人在等着爱酱回去不是吗！？快变回原来的爱酱吧！！！",
+			say = "妳还得回到原来的世界继续投稿动画的不是吗！？还有许多人在等着爱酱回去不是吗！？快变回原来的爱酱吧！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 			expression = 3,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能陪我一路来到这里，真的非常谢谢你们。和大家共同度过的时间，我一生都不会忘记的",
+			say = "能陪我一路来到这里，真的非常谢谢妳们。和大家共同度过的时间，我一生都不会忘记的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 900206,
 			nameColor = "#a9f548",
-			say = "既然你们都这么说了，那就差不多休息好了…我、我可没有觉得累哦？",
+			say = "既然妳们都这么说了，那就差不多休息好了…我、我可没有觉得累哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			actor = 900207,
 			nameColor = "#a9f548",
-			say = "红茶…谢菲尔德和你一起去吧，为大家准备饮料姑且也算是女仆的工作之一",
+			say = "红茶…谢菲尔德和妳一起去吧，为大家准备饮料姑且也算是女仆的工作之一",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "star_level_bg_121",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵…在无关指挥官的事情上就姑且让你一步吧，别让我看到你的咖啡就行了～",
+			say = "呵呵…在无关指挥官的事情上就姑且让妳一步吧，别让我看到妳的咖啡就行了～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "star_level_bg_121",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姑且会帮你们都准备的，稍等片刻…敬请期待吧",
+			say = "姑且会帮妳们都准备的，稍等片刻…敬请期待吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

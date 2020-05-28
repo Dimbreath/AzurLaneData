@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且你身为区区下等生物的仆人，居然还敢冷落主人只顾着工作……",
+			say = "而且妳身为区区下等生物的仆人，居然还敢冷落主人只顾着工作……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "限你马上给我找些有趣的事情来，不然我就回去了！",
+			say = "限妳马上给我找些有趣的事情来，不然我就回去了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "就算你用这种眼神看着我也是没用的！",
+			say = "就算妳用这种眼神看着我也是没用的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			say = "不过看在你这么诚心的份上，我就大发慈悲地帮你做些什么好了。",
+			say = "不过看在妳这么诚心的份上，我就大发慈悲地帮妳做些什么好了。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "哈哈哈哈，仆人你看到了吗，刚才那只驱逐受惊的眼神！",
+			say = "哈哈哈哈，仆人妳看到了吗，刚才那只驱逐受惊的眼神！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

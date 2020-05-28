@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又逃掉了…大斗犬，你那边没事吧？",
+			say = "又逃掉了…大斗犬，妳那边没事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201070,
-			say = "啊。女将，你没事吧",
+			say = "啊。女将，妳没事吧",
 			effects = {
 				{
 					active = false,
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是怎么做到的！？",
+			say = "妳是怎么做到的！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之后再告诉你，先和舰队合流再说吧",
+			say = "之后再告诉妳，先和舰队合流再说吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啧，没办法。今天就放过你们了，铁血潜艇！",
+			say = "啧，没办法。今天就放过妳们了，铁血潜艇！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

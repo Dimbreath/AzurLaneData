@@ -135,7 +135,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "制空权就拜托你们了！！我和罗德尼会找机会击穿它们的护盾！不要放过任何一个敌人！",
+			say = "制空权就拜托妳们了！！我和罗德尼会找机会击穿它们的护盾！不要放过任何一个敌人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "测试者",
-			say = "皇家的孩子们，你们这样一拥而上的样子可一点也称不上“优雅”呀",
+			say = "皇家的孩子们，妳们这样一拥而上的样子可一点也称不上“优雅”呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "测试者",
-			say = "终端，你看到这里的情况了吗",
+			say = "终端，妳看到这里的情况了吗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "测试者",
-			say = "很好，能量等级还在进一步上升…来吧，尽情发泄你们的愤怒吧！",
+			say = "很好，能量等级还在进一步上升…来吧，尽情发泄妳们的愤怒吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -831,7 +831,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "俾斯麦，你终究还是…",
+			say = "俾斯麦，妳终究还是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

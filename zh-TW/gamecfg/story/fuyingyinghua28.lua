@@ -268,7 +268,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:95}姐~前几天是我修行不足才让你又受伤了的，对不起！",
+			say = "{namecode:95}姐~前几天是我修行不足才让妳又受伤了的，对不起！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "啊啦啦，这不怪{namecode:96}哦，毕竟是对手太强了嘛，你倒是应该要感谢对方没有对我们下死手哦",
+			say = "啊啦啦，这不怪{namecode:96}哦，毕竟是对手太强了嘛，妳倒是应该要感谢对方没有对我们下死手哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "迟早有一天，你也要为了自己而努力活着...",
+			say = "迟早有一天，妳也要为了自己而努力活着...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			actor = 305050,
 			nameColor = "#a9f548",
-			say = "驳回你的请辞！",
+			say = "驳回妳的请辞！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

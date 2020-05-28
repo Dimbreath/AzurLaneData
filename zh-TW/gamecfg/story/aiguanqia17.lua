@@ -10,7 +10,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "欧根酱",
-			say = "到此为止了哦，不会让你们到绊爱那里去的",
+			say = "到此为止了哦，不会让妳们到绊爱那里去的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根小姐！？你们也来虚拟镜面海域了吗！？……不过，为什么是誓约换装……？",
+			say = "欧根小姐！？妳们也来虚拟镜面海域了吗！？……不过，为什么是誓约换装……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 1,
 			dir = -1,
 			actorName = "运运",
-			say = "啊，不会让你们碰爱小姐一根指头的哦＞＜",
+			say = "啊，不会让妳们碰爱小姐一根指头的哦＞＜",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "欧根酱",
-			say = "你猜？无论如何，不能让你们把我们的“指挥官”……绊爱击败呢。想要过来的话，就做好相应的心理准备吧",
+			say = "妳猜？无论如何，不能让妳们把我们的“指挥官”……绊爱击败呢。想要过来的话，就做好相应的心理准备吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}酱",
-			say = "哎呀？那这次就特别优待，放过你们吧？…开玩笑的♪绝对不会放你们过去的哟？",
+			say = "哎呀？那这次就特别优待，放过妳们吧？…开玩笑的♪绝对不会放妳们过去的哟？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:95}小姐？就、就算你这么说，{namecode:13}也、也也也一点都不会觉得害怕的哦！",
+			say = "{namecode:95}小姐？就、就算妳这么说，{namecode:13}也、也也也一点都不会觉得害怕的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 1,
 			dir = -1,
 			actorName = "运运",
-			say = "不会让你们靠近爱小姐的！",
+			say = "不会让妳们靠近爱小姐的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "没错，新年是很重要的，对你们应该也是吧，不过大家的习俗可能不太一样就是了",
+			say = "没错，新年是很重要的，对妳们应该也是吧，不过大家的习俗可能不太一样就是了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "嗯哼，新年快乐。真是奇妙的组合啊…嗯？克利夫兰和Z35…你们脸上怎么红红的…？",
+			say = "嗯哼，新年快乐。真是奇妙的组合啊…嗯？克利夫兰和Z35…妳们脸上怎么红红的…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			actor = 304043,
 			nameColor = "#a9f548",
-			say = "对了，我刚才碰巧遇上了这孩子，正在帮她找人呢！你们有谁看到皇家方舟了吗？",
+			say = "对了，我刚才碰巧遇上了这孩子，正在帮她找人呢！妳们有谁看到皇家方舟了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			actor = 207023,
 			nameColor = "#a9f548",
-			say = "抱歉啦，独角兽，不小心跟你走散了",
+			say = "抱歉啦，独角兽，不小心跟妳走散了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

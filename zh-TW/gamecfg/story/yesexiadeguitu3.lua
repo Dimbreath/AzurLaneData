@@ -167,7 +167,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉。这一年我都在船坞里休整，一点都没帮上你们的忙。",
+			say = "抱歉。这一年我都在船坞里休整，一点都没帮上妳们的忙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900236,
-			say = "敦刻尔克你会受这么重的伤是因为英勇面对皇家背叛的结果，不会有人怪你啦",
+			say = "敦刻尔克妳会受这么重的伤是因为英勇面对皇家背叛的结果，不会有人怪妳啦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 904010,
-			say = "噗……等我回去之后一定让你们吃个够啦。",
+			say = "噗……等我回去之后一定让妳们吃个够啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 904010,
-			say = "谢谢你们，我现在感觉好多了，让我们继续前进吧。",
+			say = "谢谢妳们，我现在感觉好多了，让我们继续前进吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

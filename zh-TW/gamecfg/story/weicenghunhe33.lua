@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			actor = 900135,
 			actorName = "？？？",
-			say = "这次你们的指挥官没跟着一起来么。",
+			say = "这次妳们的指挥官没跟着一起来么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "请…请等一下！谢谢你出来帮助我们！",
+			say = "请…请等一下！谢谢妳出来帮助我们！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "请问！你知道这些海雾究竟是什么东西么…",
+			say = "请问！妳知道这些海雾究竟是什么东西么…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

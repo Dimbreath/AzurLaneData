@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "等等……指挥官，你今天笑了！",
+			say = "等等……指挥官，妳今天笑了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			actor = 304030,
 			nameColor = "#a9f548",
-			say = "打扰了。早上好啊，{namecode:162}，你看起来很开心嘛。",
+			say = "打扰了。早上好啊，{namecode:162}，妳看起来很开心嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			actor = 304010,
 			nameColor = "#a9f548",
-			say = "原来如此，我还以为那天只是{namecode:162}单方面的行为呢。指挥官，莫非是为了报复——不对，指挥官，你就是报复了吧？",
+			say = "原来如此，我还以为那天只是{namecode:162}单方面的行为呢。指挥官，莫非是为了报复——不对，指挥官，妳就是报复了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			actor = 304010,
 			nameColor = "#a9f548",
-			say = "以{namecode:162}为对手居然还这么认真，指挥官你…",
+			say = "以{namecode:162}为对手居然还这么认真，指挥官妳…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

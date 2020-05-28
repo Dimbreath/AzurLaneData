@@ -200,7 +200,7 @@ return {
 			black = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在你们完成任务之前，还是由我们先去迎接她们！对吧，阿芙乐尔！",
+			say = "在妳们完成任务之前，还是由我们先去迎接她们！对吧，阿芙乐尔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			black = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，你似乎也挺开心的嘛，水星纪念",
+			say = "呵呵，妳似乎也挺开心的嘛，水星纪念",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 		{
 			actor = 204010,
 			side = 0,
-			say = "皇家舰队声望号向同盟舰队致与最亲切的问候，申请合流——",
+			say = "皇家艦隊聲望號向同盟艦隊致與最親切的問候，申請合流——",
 			dir = 1,
 			bgm = "level03",
 			typewriter = {
@@ -26,7 +26,7 @@ return {
 			actor = 107040,
 			side = 1,
 			dir = 1,
-			say = "第34特遣支队，白鹰西大洋舰队航空队·突击者号，前来迎接贵舰的合流",
+			say = "第34特遣支隊，白鷹西大洋艦隊航空隊·遊騎兵號，前來迎接貴艦的合流",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			actor = 102090,
 			side = 1,
 			dir = 1,
-			say = "Hello,hello！这位就是皇家舰队的传奇舰声望号吗，果然感觉十分可靠呢！",
+			say = "Hello,hello！這位就是皇家艦隊的傳奇艦聲望號嗎，果然感覺十分可靠呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 204010,
 			side = 0,
 			dir = 1,
-			say = "阁下多誉了，十分感谢贵方愿意支援本次行动，接下来我舰将全力配合贵方指挥",
+			say = "閣下多譽了，十分感謝貴方願意支援本次行動，接下來我艦將全力配合貴方指揮",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actor = 107040,
 			side = 1,
 			dir = 1,
-			say = "本次作战为皇家和白鹰的联合行动，主要目的为掩护主力部队的海岸登陆",
+			say = "本次作戰為皇家和白鷹的聯合行動，主要目的為掩護主力部隊的海岸登陸",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 107040,
 			side = 1,
 			dir = 1,
-			say = "只要能够拓展陆间海以南的新战线，想必也会减轻赤色中轴对于皇家本岛和北方联合的威胁",
+			say = "只要能夠拓展陸間海以南的新戰線，想必也會減輕赤色中軸對於皇家本島和北方聯合的威脅",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 102090,
 			side = 1,
 			dir = 1,
-			say = "这么说来就是“调虎离山”咯？！",
+			say = "這麼說來就是“調虎離山”囉？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 107040,
 			side = 1,
 			dir = 1,
-			say = "可以这么说，这次行动对于战局有着巨大的战略意义，也是对于两国同盟的关系验证~",
+			say = "可以這麼說，這次行動對於戰局有著巨大的戰略意義，也是對於兩國同盟的關係驗證~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 107040,
 			side = 1,
 			dir = 1,
-			say = "希望大家都能各司其职，全力以赴",
+			say = "希望大家都能各司其職，全力以赴",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 103110,
 			side = 1,
 			dir = 1,
-			say = "那么我们的敌人呢？",
+			say = "那麼我們的敵人呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 204010,
 			side = 0,
 			dir = 1,
-			say = "除了摇曳在陆间海附近的塞壬外，还有一个不确定的威胁",
+			say = "除了搖曳在陸間海附近的塞壬外，還有一個不確定的威脅",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 105190,
 			side = 0,
 			dir = 1,
-			say = "——维希教廷",
+			say = "——維希教廷",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 204010,
 			side = 0,
 			dir = 1,
-			say = "是的，目前维希教廷的军舰们对于此次行动的立场尚不明确，但是很有可能会进行反抗",
+			say = "是的，目前維希教廷的軍艦們對於此次行動的立場尚不明確，但是很有可能會進行反抗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 103110,
 			side = 1,
 			dir = 1,
-			say = "只要她们敢开炮，我们就狠狠的教训一下她们！",
+			say = "只要她們敢開砲，我們就狠狠的教訓一下她們！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 107040,
 			side = 1,
 			dir = 1,
-			say = "那么，以上就是行动简报，行动将在60分钟后正式开始",
+			say = "那麼，以上就是行動簡報，行動將在60分鐘後正式開始",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

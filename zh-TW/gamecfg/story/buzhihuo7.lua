@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			say = "你話太多了，蠢貓。",
+			say = "妳話太多了，蠢貓。",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "蠢貓，看起來你今天是皮癢了……",
+			say = "蠢貓，看起來妳今天是皮癢了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgm = "story-2",
 			actor = 301180,
 			nameColor = "#a9f548",
-			say = "……指揮官，蠢貓的話你不用想太多，我自己處理得好。",
+			say = "……指揮官，蠢貓的話妳不用想太多，我自己處理得好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………呼，真是個笨蛋。…想幫就隨你吧…",
+			say = "………………呼，真是個笨蛋。…想幫就隨妳吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

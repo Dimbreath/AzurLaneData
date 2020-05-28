@@ -114,7 +114,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "貝法烤的真香~你也嘗嘗自己烤的番薯嘛",
+			say = "貝法烤的真香~妳也嘗嘗自己烤的番薯嘛",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "貝法，我以女王的身份命令你，張開嘴，啊——",
+			say = "貝法，我以女王的身份命令妳，張開嘴，啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阿啦，你們也想被餵嗎？",
+			say = "阿啦，妳們也想被餵嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

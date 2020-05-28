@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"絮库夫的一天\n\n<size=45>七 指挥官的絮库夫</size>",
+					"速科夫的一天\n\n<size=45>七 指揮官的速科夫</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "唔……指挥官，早上好。",
+			say = "唔……指揮官，早上好。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,11 +52,11 @@ return {
 			},
 			options = {
 				{
-					content = "笑着看她",
+					content = "笑著看她",
 					flag = 1
 				},
 				{
-					content = "假装生气",
+					content = "假裝生氣",
 					flag = 2
 				}
 			}
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "？！居然已经是这个时间了！",
+			say = "？！居然已經是這個時間了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，对不起哦，我本来想等到午休结束喊你起来的，结果看你睡得那么香，我也就困了……",
+			say = "指揮官，對不起哦，我本來想等到午休結束喊妳起來的，結果看妳睡得那麼香，我也就睏了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我真的不是故意睡过去的哦，你不要生气好不好？",
+			say = "我真的不是故意睡過去的哦，妳不要生氣好不好？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,14 +113,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "絮库夫罕见地焦急了起来。",
+			say = "速科夫罕見地焦急了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "指了指办公桌",
+					content = "指了指辦公桌",
 					flag = 1
 				}
 			}
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些我记得……是今天的工作？",
+			say = "這些我記得……是今天的工作？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇，全都完成了！指挥官果然好厉害！",
+			say = "哇，全都完成了！指揮官果然好厲害！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "但是，指挥官没有我帮忙也这么能干，这样我不就没有做秘书舰的价值了吗……",
+			say = "但是，指揮官沒有我幫忙也這麼能幹，這樣我不就沒有做秘書艦的價值了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			},
 			options = {
 				{
-					content = "多亏了有你在哦",
+					content = "多虧了有妳在哦",
 					flag = 1
 				}
 			}
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，真的吗？我明明睡过去了？",
+			say = "欸，真的嗎？我明明睡過去了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是睡着了也帮到了指挥官吗？",
+			say = "就算是睡著了也幫到了指揮官嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，不管了，既然指挥官说是我的功劳，那就是我的功劳~",
+			say = "嘿嘿，不管了，既然指揮官說是我的功勞，那就是我的功勞~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天也好好地作为秘书舰帮上忙了！絮库夫，了不起！",
+			say = "今天也好好地作為秘書艦幫上忙了！速科夫，了不起！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "明天也要作为秘书舰好好地辅佐指挥官~",
+			say = "明天也要作為秘書艦好好地輔佐指揮官~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "刚才还急得要哭出来了的絮库夫，现在又露出了平常的笑容。",
+			say = "剛才還急得要哭出來了的速科夫，現在又露出了平常的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,22 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "对了，指挥官，你没有忘记敦刻尔克叫我们去吃点心吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 808010,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "走吧走吧，先去吃晚饭，然后吃点心~",
+			say = "對了，指揮官，妳沒有忘記敦克爾克叫我們去吃點心吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +288,22 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "果然和指挥官在一起每天都很开心呢♪",
+			say = "走吧走吧，先去吃晚飯，然後吃點心~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 808010,
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "果然和指揮官在一起每天都很開心呢♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "确实，是很开心的每一天。",
+			say = "確實，是很開心的每一天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

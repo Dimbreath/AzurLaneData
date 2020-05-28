@@ -45,7 +45,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Здра́вствуйте(你好)，指挥官，好久不见～",
+			say = "Здра́вствуйте(妳好)，指挥官，好久不见～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107030,
-			say = "唔？阿芙乐尔小姐？你不是应该在负责协调皇家的援助物资吗？",
+			say = "唔？阿芙乐尔小姐？妳不是应该在负责协调皇家的援助物资吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702020,
-			say = "哦？嗯嗯~你就是指挥了上次纽约港防御战的传说中的指挥官吧~？嚯~嗯~不错不错",
+			say = "哦？嗯嗯~妳就是指挥了上次纽约港防御战的传说中的指挥官吧~？嚯~嗯~不错不错",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702020,
-			say = "听说上次你刚到港口没来得及休息就遭到了突然袭击？真是挺惨的呢，嘿嘿~",
+			say = "听说上次妳刚到港口没来得及休息就遭到了突然袭击？真是挺惨的呢，嘿嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107030,
-			say = "没事的！你看，现在支援不是来了么~",
+			say = "没事的！妳看，现在支援不是来了么~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，各位，你们终于来啦！等你们好久了！",
+			say = "指挥官，各位，妳们终于来啦！等妳们好久了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			say = "欸…？北方联合的伙伴，就只有你们两位吗？",
+			say = "欸…？北方联合的夥伴，就只有妳们两位吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…说来惭愧，其他的伙伴都还在极地暂时无法离开…",
+			say = "啊哈哈…说来惭愧，其他的夥伴都还在极地暂时无法离开…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

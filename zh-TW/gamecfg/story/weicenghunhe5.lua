@@ -143,7 +143,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前往西侧的舰队请随我来，东侧的话，库珀会向你们介绍防御设施的。",
+			say = "前往西侧的舰队请随我来，东侧的话，库珀会向妳们介绍防御设施的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "交给我吧，埃塞克斯。你现在刚刚接手西侧的指挥，还是先去熟悉一下要塞比较好哦。",
+			say = "交给我吧，埃塞克斯。妳现在刚刚接手西侧的指挥，还是先去熟悉一下要塞比较好哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "企业前辈~企业前辈~你在哪儿呢。",
+			say = "企业前辈~企业前辈~妳在哪儿呢。",
 			flashout = {
 				dur = 0.5,
 				black = true,

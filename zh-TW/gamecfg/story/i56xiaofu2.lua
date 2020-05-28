@@ -140,7 +140,7 @@ return {
 			dir = -1,
 			actor = 308041,
 			nameColor = "#a9f548",
-			say = "你这是在…观察她们吗？",
+			say = "妳这是在…观察她们吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = -1,
 			actor = 308041,
 			nameColor = "#a9f548",
-			say = "因为伊56你出任务总是一个人，而且在校园里也是一个人，还以为你不喜欢和别人交流——",
+			say = "因为伊56妳出任务总是一个人，而且在校园里也是一个人，还以为妳不喜欢和别人交流——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "还以为你不喜欢和别人交流……其实伊56也是很想和大家交朋友的吧！",
+			say = "还以为妳不喜欢和别人交流……其实伊56也是很想和大家交朋友的吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = -1,
 			actor = 308041,
 			nameColor = "#a9f548",
-			say = "不要害羞啦，嘿嘿，就让我来做你的第一个朋友…怎么样？",
+			say = "不要害羞啦，嘿嘿，就让我来做妳的第一个朋友…怎么样？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，你们两个在草地上...做什么呢？好像挺有趣的，也算我一个！",
+			say = "咦，妳们两个在草地上...做什么呢？好像挺有趣的，也算我一个！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -73,7 +73,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:98}酱，{namecode:37}酱，谢谢你们！我会好好珍惜的！",
+			say = "{namecode:98}酱，{namecode:37}酱，谢谢妳们！我会好好珍惜的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

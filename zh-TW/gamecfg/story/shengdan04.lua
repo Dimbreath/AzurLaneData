@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			say = "你也聖誕快樂~",
+			say = "妳也聖誕快樂~",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -338,7 +338,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "這麼在意的話，不如去看看怎麼樣？順便給指揮官看看你的聖誕裝？",
+			say = "這麼在意的話，不如去看看怎麼樣？順便給指揮官看看妳的聖誕裝？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "誰叫你是我妹妹呢~這種時候推你一把不正是我該做的嗎~？",
+			say = "誰叫妳是我妹妹呢~這種時候推妳一把不正是我該做的嗎~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

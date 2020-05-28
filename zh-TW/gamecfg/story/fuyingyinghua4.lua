@@ -62,7 +62,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战斗中的眼神坚定，步伐稳健。如果是现在的你，就算去带领重樱的一支航母机动部队也毫无问题哦。",
+			say = "战斗中的眼神坚定，步伐稳健。如果是现在的妳，就算去带领重樱的一支航母机动部队也毫无问题哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这个弱肉强食的世界，只有像你这样拥有力量的人才能歌唱大义---如果用{namecode:92}的风格来说就是这样吧~",
+			say = "在这个弱肉强食的世界，只有像妳这样拥有力量的人才能歌唱大义---如果用{namecode:92}的风格来说就是这样吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论是对白鹰也好，对皇家也好，对铁血也好，对塞壬也好…重樱失去的一切，我将带领你们亲手夺回来！",
+			say = "不论是对白鹰也好，对皇家也好，对铁血也好，对塞壬也好…重樱失去的一切，我将带领妳们亲手夺回来！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看着现在的你，仿佛看到了些当年的影子呢…",
+			say = "看着现在的妳，仿佛看到了些当年的影子呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（当时的你，也处于这种立场之上么………）",
+			say = "（当时的妳，也处于这种立场之上么………）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，要以我为目标来努力，好大的口气，以后可有的你苦头吃哦~？",
+			say = "呵呵，要以我为目标来努力，好大的口气，以后可有的妳苦头吃哦~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			say = "你也辛苦了。和指揮官在巡邏中嗎？",
+			say = "妳也辛苦了。和指揮官在巡邏中嗎？",
 			side = 1,
 			bgName = "bg_story_task",
 			actorName = "{namecode:92}",
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			actor = 307020,
 			actorName = "{namecode:92}",
-			say = "{namecode:96}你也是，要好好盡到秘書艦的職責…好了，{namecode:91}，你先走吧",
+			say = "{namecode:96}妳也是，要好好盡到秘書艦的職責…好了，{namecode:91}，妳先走吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:96}，你還是沒懂啊",
+			say = "{namecode:96}，妳還是沒懂啊",
 			side = 1,
 			bgName = "bg_story_task",
 			actorName = "{namecode:92}",
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			actor = 307020,
 			actorName = "{namecode:92}",
-			say = "也就是說，{namecode:91}判斷你和指揮官在一起是“無害”的，才沒有發生什麼事",
+			say = "也就是說，{namecode:91}判斷妳和指揮官在一起是“無害”的，才沒有發生什麼事",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

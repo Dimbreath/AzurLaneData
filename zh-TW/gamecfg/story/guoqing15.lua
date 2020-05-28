@@ -28,7 +28,7 @@ return {
 		},
 		{
 			side = 0,
-			say = "{namecode:95}姐！！！你平安無事真是太好…",
+			say = "{namecode:95}姐！！！妳平安無事真是太好…",
 			actorName = "{namecode:96}",
 			actor = 307060,
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……為什麼，你們為什麼要這樣做",
+			say = "……為什麼，妳們為什麼要這樣做",
 			shake = {
 				speed = 1,
 				number = 3
@@ -150,7 +150,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "......“重櫻的未來”...呵，這一句話，你們還要欺騙我們多少次...",
+			say = "......“重櫻的未來”...呵，這一句話，妳們還要欺騙我們多少次...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -207,7 +207,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "從第一次出手，我就隱約察覺了你們的企圖",
+			say = "從第一次出手，我就隱約察覺了妳們的企圖",
 			shake = {
 				speed = 1,
 				number = 3
@@ -226,7 +226,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "而這一次，我很生氣，因為，你們選錯了下手的目標",
+			say = "而這一次，我很生氣，因為，妳們選錯了下手的目標",
 			shake = {
 				speed = 1,
 				number = 3
@@ -246,7 +246,7 @@ return {
 			dir = -1,
 			actor = 307010,
 			nameColor = "#ff0000",
-			say = "呵呵呵，在此之前，不如好好想想怎麼對付你眼前的這個對手吧～",
+			say = "呵呵呵，在此之前，不如好好想想怎麼對付妳眼前的這個對手吧～",
 			shake = {
 				speed = 1,
 				number = 3
@@ -266,7 +266,7 @@ return {
 			dir = -1,
 			actor = 307010,
 			nameColor = "#ff0000",
-			say = "就算是沒有靈魂的軀殼，也將會成為你旅途的終點",
+			say = "就算是沒有靈魂的軀殼，也將會成為妳旅途的終點",
 			shake = {
 				speed = 1,
 				number = 3

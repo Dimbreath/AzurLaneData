@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			say = "不论是同伴还是敌人，真的非常感谢你们！",
+			say = "不论是同伴还是敌人，真的非常感谢妳们！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			say = "大家，真的非常感谢你们迄今为止对我的照顾！",
+			say = "大家，真的非常感谢妳们迄今为止对我的照顾！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

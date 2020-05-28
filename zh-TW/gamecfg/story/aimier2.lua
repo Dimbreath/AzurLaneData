@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"自由的天使\n\n<size=45>二 黄金的友谊？</size>",
+					"自由的天使\n\n<size=45>二 黃金的友誼？</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "爱丁堡似乎找埃米尔有事的样子。",
+			say = "愛丁堡似乎找埃米爾有事的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嘻嘻，小埃米尔～我来找你玩啦～",
+			say = "嘻嘻，小埃米爾～我來找妳玩啦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哎呀，是爱丁堡呀，欢迎～不过还是等我秘书舰的工作处理完…是吧，指挥官？",
+			say = "哎呀，是愛丁堡呀，歡迎～不過還是等我秘書艦的工作處理完…是吧，指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
-			say = "小埃米尔的话，三两下就能搞定啦～我的眼光是绝对不会出错的",
+			say = "小埃米爾的話，三兩下就能搞定啦～我的眼光是絕對不會出錯的",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "两人不知道什么时候关系变得非常好了",
+			say = "兩人不知道什麼時候關係變得非常好了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊哈，指挥官，你知道吗，我和爱丁堡可是同样在大战中运输过黄金的同伴呢～",
+			say = "啊哈，指揮官，妳知道嗎，我和愛丁堡可是同樣在大戰中運輸過黃金的同伴呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯哼！虽然运送的黄金量是我比较少，但要论话题性肯定是我比较高哦！",
+			say = "嗯哼！雖然運送的黃金量是我比較少，但要論話題性肯定是我比較高哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不服输这点也是爱丁堡可爱的地方呢～",
+			say = "不服輸這點也是愛丁堡可愛的地方呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "过了一段时间，秘书舰的工作差不多结束了",
+			say = "過了一段時間，秘書艦的工作差不多結束了",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -191,7 +191,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "小埃米尔果然很能干呢…让我想起我家贝法了都",
+			say = "小埃米爾果然很能幹呢…讓我想起我家貝法了都",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "贝尔法斯特小姐吗，跟她比还是有所差距的呀～",
+			say = "貝爾法斯特小姐嗎，跟她比還是有所差距的呀～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过，她真的不是爱丁堡的姐姐吗？",
+			say = "不過，她真的不是愛丁堡的姐姐嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊！怎么连小埃米尔也这么说啦！",
+			say = "啊！怎麼連小埃米爾也這麼說啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "有个能干的妹妹是一件让人多心情复杂的事情，小埃米尔是不会懂的啦呜呜呜……",
+			say = "有個能幹的妹妹是一件讓人多心情複雜的事情，小埃米爾是不會懂的啦嗚嗚嗚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不哭不哭～像爱丁堡这样有个性的其实意外的更受欢迎呢",
+			say = "不哭不哭～像愛丁堡這樣有個性的其實意外的更受歡迎呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯…这究竟是在夸我还是损我呢…",
+			say = "嗯…這究竟是在誇我還是損我呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊，说到黄金，爱丁堡知道“黄金之国”重樱吗？",
+			say = "啊，說到黃金，愛丁堡知道“黃金之國”重櫻嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "我在某本游记里面看到了这样的说法，就觉得十分好奇呢",
+			say = "我在某本遊記裡面看到了這樣的說法，就覺得十分好奇呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "重樱的话…舰队里倒是有不少来自那里的小伙伴呢",
+			say = "重櫻的話…艦隊裡倒是有不少來自那裡的小夥伴呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过重樱之国倒是一直都挺神秘的…有机会能去看看就好了呢…",
+			say = "不過重櫻之國倒是一直都挺神秘的…有機會能去看看就好了呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "决定了！下次有机会的话，就一起去重樱看看吧！寻找传说中的黄金之国～什么的～似乎也挺有趣的～",
+			say = "決定了！下次有機會的話，就一起去重櫻看看吧！尋找傳說中的黃金之國～什麼的～似乎也挺有趣的～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "喔喔喔！感觉兴致都上来了！",
+			say = "喔喔喔！感覺興致都上來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "因为黄金而诞生的奇妙友谊似乎还会继续下去",
+			say = "因為黃金而誕生的奇妙友誼似乎還會繼續下去",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

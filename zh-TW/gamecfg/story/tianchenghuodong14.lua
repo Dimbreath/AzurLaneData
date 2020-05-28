@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…{namecode:161}…？！你怎么会在这里！！",
+			say = "…{namecode:161}…？！妳怎么会在这里！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 304050,
-			say = "怎么会在这里…还不是因为你这家伙的无理取闹！！",
+			say = "怎么会在这里…还不是因为妳这家伙的无理取闹！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 304050,
-			say = "什么“联合舰队和重樱的未来就拜托你了”…丢下一句话就想一了百了了吗！",
+			say = "什么“联合舰队和重樱的未来就拜托妳了”…丢下一句话就想一了百了了吗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 304050,
-			say = "天天把强者弱者挂在嘴边，你是哪门子的悲剧英雄么！现在害得这么多同僚为了你陷入危险！",
+			say = "天天把强者弱者挂在嘴边，妳是哪门子的悲剧英雄么！现在害得这么多同僚为了妳陷入危险！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 304050,
-			say = "这个世界上，强者与弱者从来都不是由外部因素决定的。你口中的“弱者”不过是逃避自我的借口罢了！",
+			say = "这个世界上，强者与弱者从来都不是由外部因素决定的。妳口中的“弱者”不过是逃避自我的借口罢了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305070,
-			say = "就算你这么说，现在这个被条约所束缚的我…也没有战斗下去的资格了……！",
+			say = "就算妳这么说，现在这个被条约所束缚的我…也没有战斗下去的资格了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "只要你能回到港区再举行一次演习，展现自己的实力的话，退役什么的都是可以取消的！",
+			say = "只要妳能回到港区再举行一次演习，展现自己的实力的话，退役什么的都是可以取消的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我也没有骗你的理由吧？",
+			say = "我也没有骗妳的理由吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

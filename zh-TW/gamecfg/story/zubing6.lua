@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（你不是在休息吗！而且地上铺满的这些难道是…）",
+			say = "（妳不是在休息吗！而且地上铺满的这些难道是…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

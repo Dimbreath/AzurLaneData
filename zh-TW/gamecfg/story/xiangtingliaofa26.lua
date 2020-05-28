@@ -64,7 +64,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，能用这种风格战斗，你比看起来更豪放嘛~",
+			say = "哼哼，能用这种风格战斗，妳比看起来更豪放嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103160,
-			say = "抱歉，看到这种用伙伴的样子作恶的家伙，我就没办法控制心中的怒火了。",
+			say = "抱歉，看到这种用夥伴的样子作恶的家伙，我就没办法控制心中的怒火了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，不过伯明翰好像和你们的战斗风格不同，要…更谨慎一些？",
+			say = "唔，不过伯明翰好像和妳们的战斗风格不同，要…更谨慎一些？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

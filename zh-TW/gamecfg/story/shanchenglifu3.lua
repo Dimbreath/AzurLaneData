@@ -304,7 +304,7 @@ return {
 			bgName = "star_level_bg_107",
 			actor = 207032,
 			nameColor = "#a9f548",
-			say = "胜利，那边就拜托你了——",
+			say = "胜利，那边就拜托妳了——",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -348,7 +348,7 @@ return {
 			}
 		},
 		{
-			say = "啊哈哈…光辉你的礼服才是，就像你的名字一样，散发着光芒呢。",
+			say = "啊哈哈…光辉妳的礼服才是，就像妳的名字一样，散发着光芒呢。",
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -407,7 +407,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们两个也晚上好。",
+			say = "妳们两个也晚上好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			actor = 207032,
 			nameColor = "#a9f548",
-			say = "独角兽，{namecode:71}把宴会拜托给我，所以我还要四处走走，你一个人在这没关系吗？",
+			say = "独角兽，{namecode:71}把宴会拜托给我，所以我还要四处走走，妳一个人在这没关系吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那…{namecode:98}，能麻烦你照看一下独角兽吗？",
+			say = "那…{namecode:98}，能麻烦妳照看一下独角兽吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			actor = 207032,
 			nameColor = "#a9f548",
-			say = "现在先到处走走吧，等指挥官来了之后舞会就会开始，今晚的你说不定会很忙呢～",
+			say = "现在先到处走走吧，等指挥官来了之后舞会就会开始，今晚的妳说不定会很忙呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在叫你呢，那我就不打扰你们咯。",
+			say = "在叫妳呢，那我就不打扰妳们咯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

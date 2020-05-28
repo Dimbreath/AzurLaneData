@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "嘻嘻~沒事就不能找你了嗎？",
+			say = "嘻嘻~沒事就不能找妳了嗎？",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呼呼，你就當作是幸運的偶遇吧~",
+			say = "呼呼，妳就當作是幸運的偶遇吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你呀，平時除了我和海倫娜，就沒什麼能說話的人了吧。",
+			say = "妳呀，平時除了我和海倫娜，就沒什麼能說話的人了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "哼…不關你的事吧。指揮官你也不要得寸進尺！",
+			say = "哼…不關妳的事吧。指揮官妳也不要得寸進尺！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我覺得只是你想捉弄我吧。",
+			say = "……我覺得只是妳想捉弄我吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是是是，我只是想捉弄你。",
+			say = "是是是，我只是想捉弄妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "先不說那個，你看看這件新款的衣服怎麼樣？",
+			say = "先不說那個，妳看看這件新款的衣服怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "……這這這什麼暴露的衣服？！只有你會喜歡吧！(///",
+			say = "……這這這什麼暴露的衣服？！只有妳會喜歡吧！(///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "欸，我覺得火奴魯魯你穿著挺合身的哦，不如試一試怎麼樣？",
+			say = "欸，我覺得火奴魯魯妳穿著挺合身的哦，不如試一試怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "……隨、隨你們的便吧，反正到時候穿上要是不好看也不關我事。",
+			say = "……隨、隨妳們的便吧，反正到時候穿上要是不好看也不關我事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那就當你同意囉？然後你再看看這件——",
+			say = "那就當妳同意囉？然後妳再看看這件——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

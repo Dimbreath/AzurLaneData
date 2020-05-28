@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "你们看，是拉菲！她好像还没睡醒的样子，我们就趁机偷袭她吧！",
+			say = "妳们看，是拉菲！她好像还没睡醒的样子，我们就趁机偷袭她吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "棘鳍，你去吸引她的注意力，我和鲦鱼在旁边等待机会。一旦她露出破绽，我们就发动攻击！",
+			say = "棘鳍，妳去吸引她的注意力，我和鲦鱼在旁边等待机会。一旦她露出破绽，我们就发动攻击！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "真是的..我只是让你做诱饵，没说要做到这种地步呀",
+			say = "真是的..我只是让妳做诱饵，没说要做到这种地步呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

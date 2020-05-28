@@ -160,7 +160,7 @@ return {
 			bgName = "bg_cccp_7",
 			dir = 1,
 			actorName = "？？？",
-			say = "咕唔唔唔……绝对让你们好看！",
+			say = "咕唔唔唔……绝对让妳们好看！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			actor = 900219,
 			nameColor = "#ff5c5c",
-			say = "你们几个！从刚才开始就在破坏气氛啊啊啊啊啊啊啊啊啊啊！！！！！",
+			say = "妳们几个！从刚才开始就在破坏气氛啊啊啊啊啊啊啊啊啊啊！！！！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,

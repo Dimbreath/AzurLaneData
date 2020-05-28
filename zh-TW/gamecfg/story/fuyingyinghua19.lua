@@ -101,7 +101,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是你已经连续战斗那么久了！！",
+			say = "可是妳已经连续战斗那么久了！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 307060,
-			say = "——如果失去了你，{namecode:74}大人可是会很伤心哦~",
+			say = "——如果失去了妳，{namecode:74}大人可是会很伤心哦~",
 			flashN = {
 				color = {
 					1,
@@ -724,7 +724,7 @@ return {
 			dir = 1,
 			actor = 301490,
 			nameColor = "#a9f548",
-			say = "得救了…谢谢你，{namecode:96}大人——",
+			say = "得救了…谢谢妳，{namecode:96}大人——",
 			flashout = {
 				dur = 0.5,
 				black = true,

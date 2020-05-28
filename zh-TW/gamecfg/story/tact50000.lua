@@ -52,7 +52,7 @@ return {
 			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "唉，休斯顿，你要是还在该有多好呢。",
+			say = "唉，休斯顿，妳要是还在该有多好呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

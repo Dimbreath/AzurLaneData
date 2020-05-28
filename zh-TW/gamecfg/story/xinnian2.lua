@@ -122,7 +122,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:92}",
-			say = "{namecode:91}，我們今天的任務可是正常的港區掃除，你可不要隨便暴走了……",
+			say = "{namecode:91}，我們今天的任務可是正常的港區掃除，妳可不要隨便暴走了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "誒……你們好像在做什麼有趣的事情呢",
+			say = "誒……妳們好像在做什麼有趣的事情呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "啊，是歐根。你好，我們在進行一年一度的大掃除喲",
+			say = "啊，是歐根。妳好，我們在進行一年一度的大掃除喲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

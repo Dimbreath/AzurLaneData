@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯吗，现在是你担任秘书舰吗，辛苦了。啊，水就不用了",
+			say = "埃塞克斯吗，现在是妳担任秘书舰吗，辛苦了。啊，水就不用了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，你还不清楚规则吧。简单来说就是这样的……",
+			say = "对了，妳还不清楚规则吧。简单来说就是这样的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "大概就是这样，怎么样，埃塞克斯你也要参加吗？",
+			say = "大概就是这样，怎么样，埃塞克斯妳也要参加吗？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不错的气势，我很期待和你的对决哦",
+			say = "不错的气势，我很期待和妳的对决哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，你愿意帮我一起训练吗？",
+			say = "指挥官，妳愿意帮我一起训练吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

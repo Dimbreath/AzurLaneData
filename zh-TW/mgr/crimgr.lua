@@ -9,8 +9,8 @@ slot1.C_BGM = "C_BGM"
 slot1.C_VOICE = "cv"
 slot1.C_SE = "C_SE"
 slot1.C_BATTLE_SE = "C_BATTLE_SE"
-slot1.C_STORY_BGM = "C_STORY_BGM"
 slot1.C_GALLERY_MUSIC = "C_GALLERY_MUSIC"
+slot1.NEXT_VER = 40
 
 function slot1.Init(slot0, slot1)
 	print("initializing cri manager...")
@@ -55,7 +55,6 @@ function slot1.InitCri(slot0, slot1)
 
 		CriWareMgr.C_VOICE = uv0.C_VOICE
 
-		CriWareMgr.Inst:CreateChannel(uv0.C_STORY_BGM, CriWareMgr.CRI_CHANNEL_TYPE.SINGLE)
 		CriWareMgr.Inst:CreateChannel(uv0.C_GALLERY_MUSIC, CriWareMgr.CRI_CHANNEL_TYPE.SINGLE)
 
 		CriWareMgr.Inst:GetChannelData(uv0.C_BGM).channelPlayer.loop = true
@@ -64,31 +63,39 @@ function slot1.InitCri(slot0, slot1)
 	end)
 end
 
-function slot1.setStoryBGM(slot0, slot1)
+function slot1.SetStoryBGM(slot0, slot1)
 	slot0.storyBGMName = slot1
 end
 
-function slot1.setNormalBGM(slot0, slot1)
+function slot1.SetNormalBGM(slot0, slot1)
 	slot0.normalBGMName = slot1
 end
 
-function slot1.resumeNormalBGM(slot0)
+function slot1.ResumeNormalBGM(slot0)
 	if slot0.normalBGMName then
 		slot0:PlayBGM(slot0.normalBGMName)
 	end
 end
 
-function slot1.resumeStoryBGM(slot0)
+function slot1.ResumeStoryBGM(slot0)
 	if slot0.storyBGMName then
 		slot0:PlayBGM(slot0.storyBGMName)
 	end
 end
 
 function slot1.PlayBGM(slot0, slot1, slot2)
-	if not slot2 then
-		slot0:setNormalBGM(slot1)
+	if slot0.bgmPlaybackInfo == nil then
+		if slot2 and slot0.storyBGMName then
+			slot0:UnloadCueSheet("bgm-" .. slot0.storyBGMName)
+		elseif slot0.normalBGMName then
+			slot0:UnloadCueSheet("bgm-" .. slot0.normalBGMName)
+		end
+	end
+
+	if slot2 then
+		slot0:SetStoryBGM(slot1)
 	else
-		slot0:setStoryBGM(slot1)
+		slot0:SetNormalBGM(slot1)
 	end
 
 	if slot0.bgmName == "bgm-" .. slot1 then
@@ -96,53 +103,23 @@ function slot1.PlayBGM(slot0, slot1, slot2)
 	end
 
 	slot0.bgmName = slot3
+	slot0.bgmPlaybackInfo = nil
 
-	if CSharpVersion <= 37 then
-		CriWareMgr.Inst:PlayBGM(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
-			if slot0 == nil then
-				warning("Missing BGM :" .. (uv0 or "NIL"))
-			end
-		end)
-	else
-		CriWareMgr.Inst:PlayBGM(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
-	end
+	CriWareMgr.Inst:PlayBGM(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
+		if slot0 == nil then
+			warning("Missing BGM :" .. (uv0 or "NIL"))
+		else
+			uv1.bgmPlaybackInfo = slot0
+		end
+	end)
 end
 
-function slot1.stopBGM(slot0)
+function slot1.StopBGM(slot0)
+	slot0.bgmPlaybackInfo = nil
+
 	CriWareMgr.Inst:StopBGM(CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
 
 	slot0.bgmName = nil
-end
-
-function slot1.playStory(slot0, slot1)
-	if slot0.storySound == "bgm-story-" .. slot1 then
-		return
-	end
-
-	slot0.storySound = slot2
-	slot3 = CueData.New()
-	slot3.channelName = uv0.C_STORY_BGM
-	slot3.cueSheetName = slot2
-	slot3.cueName = ""
-
-	if CSharpVersion <= 37 then
-		CriWareMgr.Inst:PlaySound(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
-			if slot0 == nil then
-				warning("Missing BGM :" .. (bgm or "NIL"))
-			end
-		end)
-	else
-		CriWareMgr.Inst:PlaySound(slot3, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
-	end
-end
-
-function slot1.stopStory(slot0)
-	slot1 = CueData.New()
-	slot1.channelName = uv0.C_STORY_BGM
-
-	CriWareMgr.Inst:StopSound(slot1, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
-
-	slot0.storySound = nil
 end
 
 function slot1.LoadCV(slot0, slot1, slot2)
@@ -211,7 +188,7 @@ function slot1.UnloadSoundEffect_V3(slot0, slot1)
 end
 
 function slot1.PlayCV_V3(slot0, slot1, slot2, slot3)
-	if CSharpVersion > 37 then
+	if uv0.NEXT_VER <= CSharpVersion then
 		CriWareMgr.Inst:PlayVoice(slot2, CriWareMgr.CRI_FADE_TYPE.NONE, slot1, function (slot0)
 			if uv0 ~= nil then
 				uv0(slot0)

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"自由的天使\n\n<size=45>六 浪漫的约会？</size>",
+					"自由的天使\n\n<size=45>六 浪漫的約會？</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·广场",
+			say = "港區·廣場",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "不过，说是约会，但却完全没想好要去哪里玩呢…",
+			say = "不過，說是約會，但卻完全沒想好要去哪裡玩呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯~那就稍微散散步好了，我们就往那边走吧~",
+			say = "嗯~那就稍微散散步好了，我們就往那邊走吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "被埃米尔十分自然地抱住了手臂，传来了十分柔软的触感。",
+			say = "被埃米爾十分自然地抱住了手臂，傳來了十分柔軟的觸感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，指挥官，这可是约会哦？得做一些有约会气氛的事呢。",
+			say = "嘻嘻，指揮官，這可是約會哦？得做一些有約會氣氛的事呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "散步的路上，和埃米尔闲聊了起来",
+			say = "散步的路上，和埃米爾閒聊了起來",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,23 +168,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？指挥官想知道我为什么会喜欢上跳舞吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802010,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我呢，曾经有一段十分不自由的时间…因为生活实在太过无趣，就随便选了一样东西学习",
+			say = "嗯？指揮官想知道我為什麼會喜歡上跳舞嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +184,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过在过程中，意外地学到了如何在不那么有趣的日常中寻找乐趣呢",
+			say = "我呢，曾經有一段十分不自由的時間…因為生活實在太過無趣，就隨便選了一樣東西學習",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +200,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喜悦的时候、激动的时候，跳舞可以让大家也感受到我的快乐",
+			say = "不過在過程中，意外地學到瞭如何在不那麼有趣的日常中尋找樂趣呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +216,23 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "悲伤的时候，痛苦的时候，只要动起身体，难过的情绪也会减少几分",
+			say = "喜悅的時候、激動的時候，跳舞可以讓大家也感受到我的快樂",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802010,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "悲傷的時候，痛苦的時候，只要動起身體，難過的情緒也會減少幾分",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "虽然在大家看来可能会有些夸张吧，哈哈~",
+			say = "雖然在大家看來可能會有些誇張吧，哈哈~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			},
 			options = {
 				{
-					content = "埃米尔的舞很好看",
+					content = "埃米爾的舞很好看",
 					flag = 1
 				}
 			}
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也变得会说话了呢~",
+			say = "指揮官也變得會說話了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么说起来，加入舰队也过了相当长的时间呢，认识指挥官也…",
+			say = "這麼說起來，加入艦隊也過了相當長的時間呢，認識指揮官也…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "嘻嘻，指挥官有没有想过用些甜言蜜语或是制造点“意外惊喜”来接近我呀？",
+			say = "嘻嘻，指揮官有沒有想過用些甜言蜜語或是製造點“意外驚喜”來接近我呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,11 +313,11 @@ return {
 			},
 			options = {
 				{
-					content = "想过",
+					content = "想過",
 					flag = 1
 				},
 				{
-					content = "没有",
+					content = "沒有",
 					flag = 2
 				}
 			}
@@ -329,7 +329,7 @@ return {
 			optionFlag = 1,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "幸好没有实践呢，因为我对那种完全没兴趣的~",
+			say = "幸好沒有實踐呢，因為我對那種完全沒興趣的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			optionFlag = 2,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "嘻嘻，果然指挥官是我看中的人呢",
+			say = "嘻嘻，果然指揮官是我看中的人呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			blackBg = true,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "这些在别人看来也许浪漫的东西，对我来说可是没有丝毫吸引力的哦～",
+			say = "這些在別人看來也許浪漫的東西，對我來說可是沒有絲毫吸引力的哦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

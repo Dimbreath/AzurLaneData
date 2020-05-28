@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "立即启动应急预案，集结待命中的伙伴同U-556一起赶往演习海域",
+			say = "立即启动应急预案，集结待命中的夥伴同U-556一起赶往演习海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_battle_night",
-			say = "太好了……姐姐你没事实在是太好了！",
+			say = "太好了……姐姐妳没事实在是太好了！",
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
@@ -536,7 +536,7 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_night",
-			say = "U556，虽然我们是有过那样的约定，不过再艰难的情况，我都可以自己应对，你不必担心我。",
+			say = "U556，虽然我们是有过那样的约定，不过再艰难的情况，我都可以自己应对，妳不必担心我。",
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",

@@ -80,7 +80,7 @@ return {
 			actor = 301490,
 			side = 2,
 			dir = 0,
-			say = "是的，就算是你們，也不行——",
+			say = "是的，就算是妳們，也不行——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 301490,
 			side = 2,
 			dir = 0,
-			say = "既然如此…那就向我來展示一下你們的決心吧",
+			say = "既然如此…那就向我來展示一下妳們的決心吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

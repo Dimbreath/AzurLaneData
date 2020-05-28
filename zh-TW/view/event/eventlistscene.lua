@@ -215,6 +215,8 @@ function slot0.updateOne(slot0, slot1)
 end
 
 function slot0.Flush(slot0, slot1)
+	slot1 = false
+
 	if uv0[slot0.contextData.index] == "urgency" and slot0.eventProxy:checkNightEvent() then
 		slot0.dispatch(EventConst.EVENT_FLUSH_NIGHT)
 
@@ -315,6 +317,8 @@ function slot0.onInitItem(slot0, slot1)
 end
 
 function slot0.onUpdateItem(slot0, slot1, slot2)
+	GetComponent(tf(slot2), "CanvasGroup").alpha = 1
+
 	if not slot0.scrollItems[slot2] then
 		slot0:onInitItem(slot2)
 

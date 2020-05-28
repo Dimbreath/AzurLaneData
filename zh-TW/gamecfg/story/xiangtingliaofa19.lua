@@ -28,7 +28,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真正的巴尔的摩小姐可比你强一万倍！",
+			say = "真正的巴尔的摩小姐可比妳强一万倍！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "可悲的人偶，和你丑陋的塞壬造物主一同沉入冰冷的海底吧！",
+			say = "可悲的人偶，和妳丑陋的塞壬造物主一同沉入冰冷的海底吧！",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,

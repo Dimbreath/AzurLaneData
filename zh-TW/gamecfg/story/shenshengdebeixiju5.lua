@@ -93,7 +93,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "陆间海的和平？别逗了，破坏和平的不正是你们皇家吗？",
+			say = "陆间海的和平？别逗了，破坏和平的不正是妳们皇家吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "现在还将塞壬放进陆间海，迫使帝国出动舰队战斗，这就是你们所谓的“维持和平”吗？",
+			say = "现在还将塞壬放进陆间海，迫使帝国出动舰队战斗，这就是妳们所谓的“维持和平”吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "陆间海仅有的两个出海口都在你们皇家牢牢地掌控之下。难道这年头塞壬的杂鱼舰队都能轻松出入皇家的封锁线了？",
+			say = "陆间海仅有的两个出海口都在妳们皇家牢牢地掌控之下。难道这年头塞壬的杂鱼舰队都能轻松出入皇家的封锁线了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "厌战",
-			say = "皇家舰队接下来将会彻底搜索陆间海东南部，寻找并摧毁一切可能的塞壬据点，这一点请你们放心。这也是皇家进行谈判的诚意。",
+			say = "皇家舰队接下来将会彻底搜索陆间海东南部，寻找并摧毁一切可能的塞壬据点，这一点请妳们放心。这也是皇家进行谈判的诚意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ffde38",
-			say = "维托里奥，身为总旗舰的你怎么可以如此踌躇？",
+			say = "维托里奥，身为总旗舰的妳怎么可以如此踌躇？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "比起服役时间，你才应该是我的姐姐啊~呵呵",
+			say = "比起服役时间，妳才应该是我的姐姐啊~呵呵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "利托里奥，每次在我犹豫不决的时候，总是你能站出来帮我一把",
+			say = "利托里奥，每次在我犹豫不决的时候，总是妳能站出来帮我一把",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "帝国需要像你这样谨慎的领袖才能走得更远，我只需要成为你的矛，为你打赢每场战斗便满足了",
+			say = "帝国需要像妳这样谨慎的领袖才能走得更远，我只需要成为妳的矛，为妳打赢每场战斗便满足了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

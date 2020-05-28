@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 302010,
 			nameColor = "#a9f548",
-			say = "听好了，你从一开始就选错了成分，所以才会变成那样，你看看这样呢？",
+			say = "听好了，妳从一开始就选错了成分，所以才会变成那样，妳看看这样呢？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			actor = 408050,
 			nameColor = "#a9f548",
-			say = "请、请让我叫你老师吧！{namecode:37}老师！",
+			say = "请、请让我叫妳老师吧！{namecode:37}老师！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然你选择了这条道路，那就继续努力吧，U73！",
+			say = "既然妳选择了这条道路，那就继续努力吧，U73！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果有什么问题，欢迎来问我哦，这间实验室随时对你开放~",
+			say = "如果有什么问题，欢迎来问我哦，这间实验室随时对妳开放~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

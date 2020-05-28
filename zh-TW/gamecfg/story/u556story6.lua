@@ -230,7 +230,7 @@ return {
 			bgm = "story-2",
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "俾斯麦姐姐？！为什么你会在这里？",
+			say = "俾斯麦姐姐？！为什么妳会在这里？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_task",
-			say = "因为和指挥官一样担心你，就一起跟过来了。刚才说的话让你感到困扰是我不好，抱歉。\t\t\t",
+			say = "因为和指挥官一样担心妳，就一起跟过来了。刚才说的话让妳感到困扰是我不好，抱歉。\t\t\t",
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对哦。我从来没有觉得“你是在打扰我”，一次都没有。",
+			say = "不对哦。我从来没有觉得“妳是在打扰我”，一次都没有。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
-			say = "倒不如说，其实我很享受与你交谈的时光。和你在一起的时候，我能暂时放下铁血舰队领袖的身份与职责，享受片刻的闲适与安宁。",
+			say = "倒不如说，其实我很享受与妳交谈的时光。和妳在一起的时候，我能暂时放下铁血舰队领袖的身份与职责，享受片刻的闲适与安宁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说实话，我没想到你会如此奋不顾身地冲过来，只为履行当初那个玩笑般的约定……",
+			say = "说实话，我没想到妳会如此奋不顾身地冲过来，只为履行当初那个玩笑般的约定……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你不是一位给别人添麻烦的孩子，而是对一位诺言忠心不二的，值得尊敬的骑士。应该感到惭愧的，是没能及时觉察到你这份心情的我。对不起",
+			say = "妳不是一位给别人添麻烦的孩子，而是对一位诺言忠心不二的，值得尊敬的骑士。应该感到惭愧的，是没能及时觉察到妳这份心情的我。对不起",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
-			say = "如果我遇到了危险，你还会帮助我吗？即使自己也会因此陷入无法挽回的境地？",
+			say = "如果我遇到了危险，妳还会帮助我吗？即使自己也会因此陷入无法挽回的境地？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

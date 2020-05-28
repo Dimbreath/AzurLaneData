@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "總算找到你了，{namecode:71}。差點忘了今天是由你擔任秘書艦…咳咳，之前你拜託的東西，這邊都準備好了",
+			say = "總算找到妳了，{namecode:71}。差點忘了今天是由妳擔任秘書艦…咳咳，之前妳拜託的東西，這邊都準備好了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "還有指揮官，這個給你。…你們都在一間屋子裡了直接給他不就好了嗎…",
+			say = "還有指揮官，這個給妳。…妳們都在一間屋子裡了直接給他不就好了嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

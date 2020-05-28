@@ -129,7 +129,7 @@ return {
 			side = 0,
 			bgName = "bg_story_10",
 			actor = 107050,
-			say = "你們都哭喪著個臉幹啥，我們可是打了個大勝戰哦",
+			say = "妳們都哭喪著個臉幹啥，我們可是打了個大勝戰哦",
 			blackBg = true,
 			nameColor = "#a9f548",
 			withoutPainting = true,
@@ -149,7 +149,7 @@ return {
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "很快，你們的名字就會響徹世界，成為後世所傳頌的傳奇軍艦",
+			say = "很快，妳們的名字就會響徹世界，成為後世所傳頌的傳奇軍艦",
 			blackBg = true,
 			withoutPainting = true,
 			typewriter = {
@@ -214,7 +214,7 @@ return {
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "看著你們從不懂事的孩子一直成長到現在的海軍王牌，一直是我最引以為傲的事",
+			say = "看著妳們從不懂事的孩子一直成長到現在的海軍王牌，一直是我最引以為傲的事",
 			blackBg = true,
 			withoutPainting = true,
 			typewriter = {
@@ -229,7 +229,7 @@ return {
 			actor = 107050,
 			bgspeed = 2,
 			blackBg = true,
-			say = "帶上他，“死神”以後就得靠你來照顧了",
+			say = "帶上他，“死神”以後就得靠妳來照顧了",
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			effects = {
@@ -261,7 +261,7 @@ return {
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "是你的話一定辦得到的，我的妹妹…",
+			say = "是妳的話一定辦得到的，我的妹妹…",
 			blackBg = true,
 			withoutPainting = true,
 			typewriter = {

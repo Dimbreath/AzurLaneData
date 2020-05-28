@@ -104,7 +104,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "终于找到你了——",
+			say = "终于找到妳了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明拥有这么出色的防空性能，朱诺你应该再自信一点。放松一些，深呼吸。",
+			say = "明明拥有这么出色的防空性能，朱诺妳应该再自信一点。放松一些，深呼吸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好、好像没问题了。谢谢你，伯明翰…",
+			say = "好、好像没问题了。谢谢妳，伯明翰…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

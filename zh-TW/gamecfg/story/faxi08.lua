@@ -12,7 +12,7 @@ return {
 			side = 2,
 			stopbgm = true,
 			dir = 1,
-			say = "这群狂热的宗教分子，战斗方式都是这么极端的吗？",
+			say = "這群狂熱的宗教分子，戰鬥方式都是這麼極端的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actor = 105190,
 			side = 2,
 			dir = 1,
-			say = "这个炮弹是…大口径的战列舰炮弹，是那个大家伙吗？",
+			say = "這個炮彈是…大口徑的戰列艦炮彈，是那個大傢伙嗎？",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -73,7 +73,7 @@ return {
 			actor = 105190,
 			side = 2,
 			dir = 1,
-			say = "叫什么来着…让…让·保尔？",
+			say = "叫什麼來著…讓…讓·保爾？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 		{
 			actor = 107040,
 			side = 1,
-			say = "让·巴尔",
+			say = "讓·巴爾",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			actor = 105190,
 			dir = 1,
-			say = "有点意思，有她在的话似乎可以让战斗变得再激烈一点了~",
+			say = "有點意思，有她在的話似乎可以讓戰鬥變得再激烈一點了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 107040,
 			side = 1,
 			dir = 1,
-			say = "…请不要忘记你身为特混舰队旗舰的职责",
+			say = "…請不要忘記妳身為特混艦隊旗艦的職責",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 		{
 			actor = 105190,
 			side = 0,
-			say = "我的职责就是尽可能的消除敌方带来的威胁，减少登陆部队的牺牲",
+			say = "我的職責就是盡可能的消除敵方帶來的威脅，減少登陸部隊的犧牲",
 			dir = 1,
 			bgm = "story-masazhusai",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 			actor = 105190,
 			side = 0,
 			dir = 1,
-			say = "那么，我出击了",
+			say = "那麼，我出擊了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 103110,
 			side = 1,
 			dir = 1,
-			say = "我也出击了！",
+			say = "我也出擊了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 101300,
 			side = 0,
 			dir = 1,
-			say = "我..我来为你们护航！",
+			say = "我..我來為妳們護航！",
 			action = {
 				{
 					y = 30,
@@ -239,7 +239,7 @@ return {
 			actor = 107040,
 			side = 2,
 			dir = 1,
-			say = "哎，真是拦都拦不住…这群热血的笨蛋们——",
+			say = "哎，真是攔都攔不住…這群熱血的笨蛋們——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

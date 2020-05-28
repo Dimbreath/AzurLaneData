@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，还不够！你的能力应该还不止这些吧！",
+			say = "但是，还不够！妳的能力应该还不止这些吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			actor = 303070,
 			nameColor = "#a9f548",
-			say = "今天的对练就到此为止吧。{namecode:144}，你进步了许多呢",
+			say = "今天的对练就到此为止吧。{namecode:144}，妳进步了许多呢",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，{namecode:144}，我听说你前段时间给指挥官添了不少麻烦——",
+			say = "对了，{namecode:144}，我听说妳前段时间给指挥官添了不少麻烦——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "诶诶？你，你是怎么知道的——",
+			say = "诶诶？妳，妳是怎么知道的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心吧，之后我会详细教你有关秘书舰的工作诀窍的。不过，要做好辛苦点的心理准备咯",
+			say = "放心吧，之后我会详细教妳有关秘书舰的工作诀窍的。不过，要做好辛苦点的心理准备咯",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

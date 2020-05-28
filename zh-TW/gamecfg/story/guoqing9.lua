@@ -28,7 +28,7 @@ return {
 		},
 		{
 			side = 0,
-			say = "{namecode:79}，連你也成為冒牌貨了嗎？",
+			say = "{namecode:79}，連妳也成為冒牌貨了嗎？",
 			actorName = "{namecode:96}",
 			actor = 307060,
 			nameColor = "#a9f548",
@@ -73,7 +73,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "只不過~人家也是有命令在身呢，自然就是阻止你繼續在“聖域”搗亂了",
+			say = "只不過~人家也是有命令在身呢，自然就是阻止妳繼續在“聖域”搗亂了",
 			shake = {
 				speed = 1,
 				number = 3
@@ -92,7 +92,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "所以~你能乖乖的被我擊倒嗎，拜託了",
+			say = "所以~妳能乖乖的被我擊倒嗎，拜託了",
 			shake = {
 				speed = 1,
 				number = 3
@@ -111,7 +111,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "既然“你”還是“你”的話，告訴我，{namecode:95}姐在哪裡",
+			say = "既然“妳”還是“妳”的話，告訴我，{namecode:95}姐在哪裡",
 			shake = {
 				speed = 1,
 				number = 3
@@ -130,7 +130,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "如果你能打敗我的話我就告訴你喲~",
+			say = "如果妳能打敗我的話我就告訴妳喲~",
 			shake = {
 				speed = 1,
 				number = 3

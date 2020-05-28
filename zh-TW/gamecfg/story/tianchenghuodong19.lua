@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:92}，你可终于睡醒了啊？",
+			say = "{namecode:92}，妳可终于睡醒了啊？",
 			side = 1,
 			bgName = "bg_story_tiancheng6",
 			dir = -1,
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "谁知道呢，其实我也才刚起来没多久。不说这个，你有没有看到我经常带着的挂饰啊？！",
+			say = "谁知道呢，其实我也才刚起来没多久。不说这个，妳有没有看到我经常带着的挂饰啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "姐姐，你….",
+			say = "姐姐，妳….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

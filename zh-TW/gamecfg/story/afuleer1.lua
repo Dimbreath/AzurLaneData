@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>一、胜利的曙光（？）</size>",
+					"阿芙乐尔和愉快的夥伴们\n\n<size=45>一、胜利的曙光（？）</size>",
 					1
 				}
 			}
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，不专心点的话，下一个被“击沉”的可就是你了。",
+			say = "姐姐，不专心点的话，下一个被“击沉”的可就是妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我们这些后辈们可不能示弱啊。白鹰的海上骑士，你还有余力吧？",
+			say = "那我们这些后辈们可不能示弱啊。白鹰的海上骑士，妳还有余力吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

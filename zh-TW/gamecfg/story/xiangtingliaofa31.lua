@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正义的伙伴大胜利~！",
+			say = "正义的夥伴大胜利~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说你们在推进的时候还遇到了假的大黄蜂…？",
+			say = "听说妳们在推进的时候还遇到了假的大黄蜂…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，如果战争结束了，你有什么打算呢？",
+			say = "指挥官，如果战争结束了，妳有什么打算呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

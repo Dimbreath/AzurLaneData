@@ -68,7 +68,7 @@ return {
 			side = 0,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "可是姐姐你之前受的傷…",
+			say = "可是姐姐妳之前受的傷…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -104,7 +104,7 @@ return {
 			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "倒是企業你呀，要是再受了點什麼意外擦傷，讓女灶神小姐找上門告狀的話，我可就沒法交代了呵呵",
+			say = "倒是企業妳呀，要是再受了點什麼意外擦傷，讓女灶神小姐找上門告狀的話，我可就沒法交代了呵呵",
 			shake = {
 				speed = 1,
 				number = 3

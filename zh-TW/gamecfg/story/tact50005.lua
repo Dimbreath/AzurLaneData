@@ -57,7 +57,7 @@ return {
 			actor = 303040,
 			nameColor = "#a9f548",
 			side = 1,
-			say = "姐姐，我来帮你！",
+			say = "姐姐，我来帮妳！",
 			actorName = "{namecode:56}",
 			paintingFadeOut = {
 				time = 0.5,

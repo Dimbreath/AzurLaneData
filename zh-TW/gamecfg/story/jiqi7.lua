@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "等你很久啦，指挥官！",
+			say = "等妳很久啦，指挥官！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是指挥官呢！嘿嘿，那就拜托你啦！",
+			say = "不愧是指挥官呢！嘿嘿，那就拜托妳啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

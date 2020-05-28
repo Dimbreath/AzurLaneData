@@ -160,7 +160,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[102] = {
 		submarine_num = 0,
@@ -427,7 +428,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[103] = {
 		submarine_num = 0,
@@ -730,7 +732,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[104] = {
 		submarine_num = 0,
@@ -1115,7 +1118,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[201] = {
 		submarine_num = 0,
@@ -1594,7 +1598,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[202] = {
 		submarine_num = 0,
@@ -2126,7 +2131,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[203] = {
 		submarine_num = 0,
@@ -2635,7 +2641,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[204] = {
 		submarine_num = 0,
@@ -3114,7 +3121,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[301] = {
 		submarine_num = 0,
@@ -3613,7 +3621,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[302] = {
 		submarine_num = 0,
@@ -4136,7 +4145,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[303] = {
 		submarine_num = 0,
@@ -4654,7 +4664,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[304] = {
 		submarine_num = 1,
@@ -5158,7 +5169,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[401] = {
 		submarine_num = 0,
@@ -5581,7 +5593,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[402] = {
 		submarine_num = 0,
@@ -5997,7 +6010,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[403] = {
 		submarine_num = 0,
@@ -6358,7 +6372,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[404] = {
 		submarine_num = 1,
@@ -6856,7 +6871,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[501] = {
 		submarine_num = 0,
@@ -7359,7 +7375,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[502] = {
 		submarine_num = 0,
@@ -7800,7 +7817,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[503] = {
 		submarine_num = 0,
@@ -8211,7 +8229,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[504] = {
 		submarine_num = 1,
@@ -8647,7 +8666,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[601] = {
 		submarine_num = 0,
@@ -9121,7 +9141,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[602] = {
 		submarine_num = 0,
@@ -9651,7 +9672,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[603] = {
 		submarine_num = 0,
@@ -10105,7 +10127,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[604] = {
 		submarine_num = 1,
@@ -10603,7 +10626,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[701] = {
 		submarine_num = 0,
@@ -10924,7 +10948,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[702] = {
 		submarine_num = 0,
@@ -11348,7 +11373,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[703] = {
 		submarine_num = 0,
@@ -11842,7 +11868,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[704] = {
 		submarine_num = 1,
@@ -12321,7 +12348,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[801] = {
 		submarine_num = 0,
@@ -12664,7 +12692,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[802] = {
 		submarine_num = 0,
@@ -13093,7 +13122,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[803] = {
 		submarine_num = 1,
@@ -13585,7 +13615,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[804] = {
 		submarine_num = 1,
@@ -14140,7 +14171,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[901] = {
 		submarine_num = 0,
@@ -14577,7 +14609,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[902] = {
 		submarine_num = 0,
@@ -15052,7 +15085,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[903] = {
 		submarine_num = 1,
@@ -15551,7 +15585,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[904] = {
 		submarine_num = 1,
@@ -16072,7 +16107,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1001] = {
 		submarine_num = 0,
@@ -16527,7 +16563,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1002] = {
 		submarine_num = 1,
@@ -17039,7 +17076,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1003] = {
 		submarine_num = 1,
@@ -17568,7 +17606,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1004] = {
 		submarine_num = 1,
@@ -18111,7 +18150,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10000] = {
 		submarine_num = 0,
@@ -18414,7 +18454,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10001] = {
 		submarine_num = 0,
@@ -18800,7 +18841,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10002] = {
 		submarine_num = 0,
@@ -19216,7 +19258,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10101] = {
 		submarine_num = 0,
@@ -19390,7 +19433,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10102] = {
 		submarine_num = 0,
@@ -19638,7 +19682,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10103] = {
 		submarine_num = 0,
@@ -19907,7 +19952,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10104] = {
 		submarine_num = 0,
@@ -20193,7 +20239,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10201] = {
 		submarine_num = 0,
@@ -20529,7 +20576,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10202] = {
 		submarine_num = 0,
@@ -20917,7 +20965,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10203] = {
 		submarine_num = 0,
@@ -21282,7 +21331,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10204] = {
 		submarine_num = 0,
@@ -21617,7 +21667,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10301] = {
 		submarine_num = 0,
@@ -21972,7 +22023,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10302] = {
 		submarine_num = 0,
@@ -22351,7 +22403,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10303] = {
 		submarine_num = 0,
@@ -22725,7 +22778,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10304] = {
 		submarine_num = 0,
@@ -23085,7 +23139,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10401] = {
 		submarine_num = 0,
@@ -23482,7 +23537,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10402] = {
 		submarine_num = 0,
@@ -23872,7 +23928,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10403] = {
 		submarine_num = 0,
@@ -24207,7 +24264,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10404] = {
 		submarine_num = 0,
@@ -24678,7 +24736,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10501] = {
 		submarine_num = 0,
@@ -25154,7 +25213,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10502] = {
 		submarine_num = 0,
@@ -25568,7 +25628,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10503] = {
 		submarine_num = 0,
@@ -25952,7 +26013,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10504] = {
 		submarine_num = 0,
@@ -26361,7 +26423,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10601] = {
 		submarine_num = 0,
@@ -26809,7 +26872,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10602] = {
 		submarine_num = 0,
@@ -27313,7 +27377,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10603] = {
 		submarine_num = 0,
@@ -27741,7 +27806,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10604] = {
 		submarine_num = 0,
@@ -28213,7 +28279,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10701] = {
 		submarine_num = 0,
@@ -28523,7 +28590,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10702] = {
 		submarine_num = 0,
@@ -28936,7 +29004,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10703] = {
 		submarine_num = 0,
@@ -29419,7 +29488,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10704] = {
 		submarine_num = 0,
@@ -29887,7 +29957,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10801] = {
 		submarine_num = 0,
@@ -30219,7 +30290,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10802] = {
 		submarine_num = 0,
@@ -30637,7 +30709,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10803] = {
 		submarine_num = 0,
@@ -31118,7 +31191,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10804] = {
 		submarine_num = 0,
@@ -31662,7 +31736,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10901] = {
 		submarine_num = 0,
@@ -32086,7 +32161,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10902] = {
 		submarine_num = 0,
@@ -32548,7 +32624,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10903] = {
 		submarine_num = 0,
@@ -33034,7 +33111,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[10904] = {
 		submarine_num = 0,
@@ -33542,7 +33620,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[11001] = {
 		submarine_num = 0,
@@ -33984,7 +34063,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[11002] = {
 		submarine_num = 0,
@@ -34483,7 +34563,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[11003] = {
 		submarine_num = 0,
@@ -34999,7 +35080,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[11004] = {
 		submarine_num = 0,
@@ -35529,7 +35611,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1050011] = {
 		submarine_num = 0,
@@ -36029,7 +36112,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1050012] = {
 		submarine_num = 0,
@@ -36533,7 +36617,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1050013] = {
 		submarine_num = 0,
@@ -37159,7 +37244,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1100001] = {
 		submarine_num = 0,
@@ -37600,7 +37686,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1100002] = {
 		submarine_num = 0,
@@ -38098,7 +38185,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1100003] = {
 		submarine_num = 0,
@@ -38664,7 +38752,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1100004] = {
 		submarine_num = 0,
@@ -39181,7 +39270,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1100005] = {
 		submarine_num = 0,
@@ -39800,7 +39890,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1100006] = {
 		submarine_num = 0,
@@ -40413,7 +40504,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1100011] = {
 		submarine_num = 0,
@@ -40897,7 +40989,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1100012] = {
 		submarine_num = 0,
@@ -41437,7 +41530,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1100013] = {
 		submarine_num = 0,
@@ -42046,7 +42140,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1100014] = {
 		submarine_num = 0,
@@ -42605,7 +42700,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1100015] = {
 		submarine_num = 0,
@@ -43266,7 +43362,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1100016] = {
 		submarine_num = 0,
@@ -43920,7 +44017,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000001] = {
 		submarine_num = 0,
@@ -44380,7 +44478,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000002] = {
 		submarine_num = 0,
@@ -44980,7 +45079,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000003] = {
 		submarine_num = 0,
@@ -45547,7 +45647,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000004] = {
 		submarine_num = 0,
@@ -46232,7 +46333,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000005] = {
 		submarine_num = 0,
@@ -46712,7 +46814,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000006] = {
 		submarine_num = 0,
@@ -47200,7 +47303,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000007] = {
 		submarine_num = 0,
@@ -47743,7 +47847,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000008] = {
 		submarine_num = 0,
@@ -48442,7 +48547,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000011] = {
 		submarine_num = 0,
@@ -48943,7 +49049,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000012] = {
 		submarine_num = 0,
@@ -49586,7 +49693,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000013] = {
 		submarine_num = 0,
@@ -50194,7 +50302,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000014] = {
 		submarine_num = 0,
@@ -50920,7 +51029,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000015] = {
 		submarine_num = 0,
@@ -51441,7 +51551,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000016] = {
 		submarine_num = 0,
@@ -51970,7 +52081,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000017] = {
 		submarine_num = 0,
@@ -52554,7 +52666,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1000018] = {
 		submarine_num = 0,
@@ -53294,7 +53407,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1150001] = {
 		submarine_num = 1,
@@ -53778,7 +53892,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1150002] = {
 		submarine_num = 1,
@@ -54323,7 +54438,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1150003] = {
 		submarine_num = 1,
@@ -54958,7 +55074,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1150004] = {
 		submarine_num = 1,
@@ -55532,7 +55649,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1150005] = {
 		submarine_num = 1,
@@ -56247,7 +56365,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1150006] = {
 		submarine_num = 1,
@@ -57134,7 +57253,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1150011] = {
 		submarine_num = 1,
@@ -57659,7 +57779,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1150012] = {
 		submarine_num = 1,
@@ -58245,7 +58366,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1150013] = {
 		submarine_num = 1,
@@ -58921,7 +59043,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1150014] = {
 		submarine_num = 1,
@@ -59536,7 +59659,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1150015] = {
 		submarine_num = 1,
@@ -60292,7 +60416,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1150016] = {
 		submarine_num = 1,
@@ -61220,7 +61345,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1190001] = {
 		submarine_num = 1,
@@ -61619,7 +61745,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1190002] = {
 		submarine_num = 1,
@@ -62080,7 +62207,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1190003] = {
 		submarine_num = 1,
@@ -62631,7 +62759,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1190004] = {
 		submarine_num = 1,
@@ -63205,7 +63334,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1190005] = {
 		submarine_num = 1,
@@ -63797,7 +63927,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1190006] = {
 		submarine_num = 1,
@@ -64564,7 +64695,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1190011] = {
 		submarine_num = 1,
@@ -65004,7 +65136,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1190012] = {
 		submarine_num = 1,
@@ -65506,7 +65639,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1190013] = {
 		submarine_num = 1,
@@ -66098,7 +66232,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1190014] = {
 		submarine_num = 1,
@@ -66713,7 +66848,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1190015] = {
 		submarine_num = 1,
@@ -67346,7 +67482,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1190016] = {
 		submarine_num = 1,
@@ -68154,7 +68291,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1210001] = {
 		submarine_num = 1,
@@ -68661,7 +68799,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1210002] = {
 		submarine_num = 1,
@@ -69132,7 +69271,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1210003] = {
 		submarine_num = 1,
@@ -69701,7 +69841,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1210004] = {
 		submarine_num = 1,
@@ -70269,7 +70410,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1210005] = {
 		submarine_num = 1,
@@ -70887,7 +71029,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1210006] = {
 		submarine_num = 1,
@@ -71566,7 +71709,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1210011] = {
 		submarine_num = 1,
@@ -72115,7 +72259,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1210012] = {
 		submarine_num = 1,
@@ -72628,7 +72773,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1210013] = {
 		submarine_num = 1,
@@ -73239,7 +73385,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1210014] = {
 		submarine_num = 1,
@@ -73849,7 +73996,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1210015] = {
 		submarine_num = 1,
@@ -74511,7 +74659,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[1210016] = {
 		submarine_num = 1,
@@ -75234,7 +75383,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[5100001] = {
 		submarine_num = 0,
@@ -75675,7 +75825,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[5100002] = {
 		submarine_num = 0,
@@ -76173,7 +76324,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[5100003] = {
 		submarine_num = 0,
@@ -76739,7 +76891,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[5100004] = {
 		submarine_num = 0,
@@ -77256,7 +77409,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[5100005] = {
 		submarine_num = 0,
@@ -77875,7 +78029,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[5100006] = {
 		submarine_num = 0,
@@ -78488,7 +78643,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[5100011] = {
 		submarine_num = 0,
@@ -78972,7 +79128,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[5100012] = {
 		submarine_num = 0,
@@ -79512,7 +79669,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[5100013] = {
 		submarine_num = 0,
@@ -80121,7 +80279,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[5100014] = {
 		submarine_num = 0,
@@ -80680,7 +80839,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[5100015] = {
 		submarine_num = 0,
@@ -81341,7 +81501,8 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	[5100016] = {
 		submarine_num = 0,
@@ -81995,7 +82156,7036 @@ pg.chapter_template_loop = {
 		npc_data = {},
 		activity_random_box = {},
 		land_based = {},
-		chapter_buff = {}
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[5100101] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 4,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 96,
+		best_air_dominance = 124,
+		id = 5100101,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 8,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				4000001,
+				15,
+				0
+			},
+			{
+				4000002,
+				20,
+				0
+			},
+			{
+				4000003,
+				30,
+				1
+			},
+			{
+				4000004,
+				15,
+				0
+			},
+			{
+				4000005,
+				20,
+				0
+			},
+			{
+				4000006,
+				30,
+				1
+			},
+			{
+				4000007,
+				15,
+				0
+			},
+			{
+				4000008,
+				20,
+				0
+			},
+			{
+				4000009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000010,
+			4000011,
+			4000012
+		},
+		elite_expedition_list = {
+			4000005,
+			4000008
+		},
+		ai_expedition_list = {
+			4000222
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				6,
+				9,
+				true,
+				8
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				16
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				4
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				5,
+				5,
+				"1x2_2faxihuodong_easy",
+				-27,
+				-36
+			},
+			{
+				2,
+				8,
+				"3x2_1faxihuodong_easy",
+				-51,
+				-39
+			},
+			{
+				2,
+				3,
+				"1x1_2faxihuodong_easy",
+				2,
+				5
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxihuodongeasy",
+			45,
+			22,
+			50,
+			-50,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[5100102] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 4,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 132,
+		best_air_dominance = 172,
+		id = 5100102,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 9,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.66,
+			0.45,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				4000101,
+				15,
+				0
+			},
+			{
+				4000102,
+				20,
+				0
+			},
+			{
+				4000103,
+				30,
+				1
+			},
+			{
+				4000104,
+				15,
+				0
+			},
+			{
+				4000105,
+				20,
+				0
+			},
+			{
+				4000106,
+				30,
+				1
+			},
+			{
+				4000107,
+				15,
+				0
+			},
+			{
+				4000108,
+				20,
+				0
+			},
+			{
+				4000109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000110,
+			4000111,
+			4000112
+		},
+		elite_expedition_list = {
+			4000105,
+			4000108
+		},
+		ai_expedition_list = {
+			4000233,
+			4000234
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				7,
+				10,
+				true,
+				8
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				2
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				4
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				4,
+				10,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				16
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				8
+			},
+			{
+				2,
+				9,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				7,
+				5,
+				"1x1_2faxihuodong_easy",
+				3,
+				9
+			},
+			{
+				7,
+				1,
+				"1x1_1faxihuodong_easy",
+				3,
+				21
+			},
+			{
+				4,
+				10,
+				"1x1_3faxihuodong_easy",
+				8,
+				8
+			},
+			{
+				4,
+				7,
+				"1x2_2faxihuodong_easy",
+				-39,
+				42
+			},
+			{
+				4,
+				2,
+				"1x3_2faxihuodong_easy",
+				-3,
+				17
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxihuodongeasy",
+			45,
+			22,
+			50,
+			-55,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[5100103] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 4,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 172,
+		best_air_dominance = 224,
+		id = 5100103,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 10,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.52,
+			0.36,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				4000201,
+				15,
+				0
+			},
+			{
+				4000202,
+				20,
+				0
+			},
+			{
+				4000203,
+				30,
+				1
+			},
+			{
+				4000204,
+				15,
+				0
+			},
+			{
+				4000205,
+				20,
+				0
+			},
+			{
+				4000206,
+				30,
+				1
+			},
+			{
+				4000207,
+				15,
+				0
+			},
+			{
+				4000208,
+				20,
+				0
+			},
+			{
+				4000209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000210,
+			4000211,
+			4000212
+		},
+		elite_expedition_list = {
+			4000205,
+			4000208
+		},
+		ai_expedition_list = {
+			4000244,
+			4000245,
+			4000246
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				7,
+				11,
+				true,
+				2
+			},
+			{
+				7,
+				10,
+				true,
+				4
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				11,
+				false,
+				0
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				11,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				11,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				8
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				16
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				11,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				11,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				11,
+				true,
+				2
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				4
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				6,
+				10,
+				"1x3_2faxihuodong_easy",
+				10,
+				17
+			},
+			{
+				6,
+				3,
+				"4x4_2faxihuodong_easy",
+				-34,
+				-12
+			},
+			{
+				4,
+				6,
+				"1x1_3faxihuodong_easy",
+				6,
+				11
+			},
+			{
+				3,
+				9,
+				"3x2_1faxihuodong_easy",
+				56,
+				-30
+			},
+			{
+				3,
+				3,
+				"1x1_1faxihuodong_easy",
+				0,
+				15
+			},
+			{
+				1,
+				3,
+				"1x3_1faxihuodong_easy",
+				-2,
+				16
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxihuodongeasy",
+			42,
+			16,
+			50,
+			0,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			1,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[5100104] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 4,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 212,
+		best_air_dominance = 276,
+		id = 5100104,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 10,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				4000301,
+				15,
+				0
+			},
+			{
+				4000302,
+				20,
+				0
+			},
+			{
+				4000303,
+				30,
+				1
+			},
+			{
+				4000304,
+				15,
+				0
+			},
+			{
+				4000305,
+				20,
+				0
+			},
+			{
+				4000306,
+				30,
+				1
+			},
+			{
+				4000307,
+				15,
+				0
+			},
+			{
+				4000308,
+				20,
+				0
+			},
+			{
+				4000309,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000310,
+			4000311,
+			4000312
+		},
+		elite_expedition_list = {
+			4000305,
+			4000308
+		},
+		ai_expedition_list = {
+			4000523,
+			4000524
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000313
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				6,
+				10,
+				true,
+				8
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				12
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				1
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				16
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				8
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				3,
+				7,
+				"4x4_2faxihuodong_easy",
+				-133,
+				-7
+			},
+			{
+				1,
+				4,
+				"1x3_2faxihuodong_easy",
+				-5,
+				15
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxihuodongnormal",
+			45,
+			22,
+			-150,
+			-50,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[5100105] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 5,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 276,
+		best_air_dominance = 360,
+		id = 5100105,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 11,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.66,
+			0.45,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				4000401,
+				15,
+				0
+			},
+			{
+				4000402,
+				20,
+				0
+			},
+			{
+				4000403,
+				30,
+				1
+			},
+			{
+				4000404,
+				15,
+				0
+			},
+			{
+				4000405,
+				20,
+				0
+			},
+			{
+				4000406,
+				30,
+				1
+			},
+			{
+				4000407,
+				15,
+				0
+			},
+			{
+				4000408,
+				20,
+				0
+			},
+			{
+				4000409,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000410,
+			4000411,
+			4000412
+		},
+		elite_expedition_list = {
+			4000405,
+			4000408
+		},
+		ai_expedition_list = {
+			4000534,
+			4000535,
+			4000536
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000413
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				8,
+				10,
+				true,
+				8
+			},
+			{
+				8,
+				9,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				6
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				1
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				12
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				12
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				16
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				8
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				8,
+				9,
+				"1x2_1faxihuodong_normal",
+				0,
+				44
+			},
+			{
+				6,
+				6,
+				"1x3_1faxihuodong_normao",
+				5,
+				24
+			},
+			{
+				4,
+				6,
+				"1x3_2faxihuodong_normal",
+				-2,
+				23
+			},
+			{
+				3,
+				9,
+				"1x2_2faxihuodong_normal",
+				-34,
+				47
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxihuodongnormal",
+			45,
+			20,
+			-20,
+			110,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[5100106] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 5,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 340,
+		best_air_dominance = 444,
+		id = 5100106,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 12,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.52,
+			0.36,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				4000501,
+				15,
+				0
+			},
+			{
+				4000502,
+				20,
+				0
+			},
+			{
+				4000503,
+				30,
+				1
+			},
+			{
+				4000504,
+				15,
+				0
+			},
+			{
+				4000505,
+				20,
+				0
+			},
+			{
+				4000506,
+				30,
+				1
+			},
+			{
+				4000507,
+				15,
+				0
+			},
+			{
+				4000508,
+				20,
+				0
+			},
+			{
+				4000509,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000510,
+			4000511,
+			4000512
+		},
+		elite_expedition_list = {
+			4000505,
+			4000508
+		},
+		ai_expedition_list = {
+			4000545,
+			4000546,
+			4000547,
+			4000548
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000513
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				true,
+				6
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				12
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				1
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				6
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				4
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				12
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				8
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				16
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				8,
+				5,
+				"1x2_1faxihuodong_normal",
+				7,
+				45
+			},
+			{
+				6,
+				8,
+				"1x3_1faxihuodong_normao",
+				2,
+				18
+			},
+			{
+				6,
+				3,
+				"1x2_2faxihuodong_normal",
+				-28,
+				42
+			},
+			{
+				4,
+				9,
+				"3x2_1faxihuodong_normal",
+				-44,
+				-38
+			},
+			{
+				4,
+				7,
+				"1x1_3faxihuodong_normal",
+				13,
+				8
+			},
+			{
+				1,
+				4,
+				"4x4_2faxihuodong_normal",
+				-57,
+				-4
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxihuodongnormal",
+			38,
+			17,
+			60,
+			220,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[5100111] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 4,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 340,
+		best_air_dominance = 440,
+		id = 5100111,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 12,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				60
+			},
+			{
+				"cannon",
+				1,
+				500
+			},
+			{
+				"torpedo",
+				1,
+				400
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				4000601,
+				15,
+				0
+			},
+			{
+				4000602,
+				20,
+				0
+			},
+			{
+				4000603,
+				30,
+				1
+			},
+			{
+				4000604,
+				15,
+				0
+			},
+			{
+				4000605,
+				20,
+				0
+			},
+			{
+				4000606,
+				30,
+				1
+			},
+			{
+				4000607,
+				15,
+				0
+			},
+			{
+				4000608,
+				20,
+				0
+			},
+			{
+				4000609,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000610,
+			4000611,
+			4000612
+		},
+		elite_expedition_list = {
+			4000605,
+			4000608
+		},
+		ai_expedition_list = {
+			4000822
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000613
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				6,
+				9,
+				true,
+				8
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				16
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				4
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				6,
+				5,
+				"1x2_2faxihuodong_normal",
+				-25,
+				45
+			},
+			{
+				2,
+				8,
+				"3x2_1faxihuodong_normal",
+				-49,
+				-36
+			},
+			{
+				2,
+				3,
+				"1x1_2faxihuodong_normal",
+				1,
+				5
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxihuodongnormal",
+			45,
+			22,
+			50,
+			-50,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[5100112] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 5,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 388,
+		best_air_dominance = 504,
+		id = 5100112,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 13,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.66,
+			0.45,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				66
+			},
+			{
+				"cannon",
+				1,
+				650
+			},
+			{
+				"dodge",
+				1,
+				350
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				4000701,
+				15,
+				0
+			},
+			{
+				4000702,
+				20,
+				0
+			},
+			{
+				4000703,
+				30,
+				1
+			},
+			{
+				4000704,
+				15,
+				0
+			},
+			{
+				4000705,
+				20,
+				0
+			},
+			{
+				4000706,
+				30,
+				1
+			},
+			{
+				4000707,
+				15,
+				0
+			},
+			{
+				4000708,
+				20,
+				0
+			},
+			{
+				4000709,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000710,
+			4000711,
+			4000712
+		},
+		elite_expedition_list = {
+			4000705,
+			4000708
+		},
+		ai_expedition_list = {
+			4000833,
+			4000834
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000713
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				7,
+				10,
+				true,
+				8
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				2
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				4
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				4,
+				10,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				16
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				8
+			},
+			{
+				2,
+				9,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				12
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				7,
+				5,
+				"1x1_2faxihuodong_normal",
+				0,
+				0
+			},
+			{
+				7,
+				1,
+				"1x1_1faxihuodong_normal",
+				5,
+				19
+			},
+			{
+				4,
+				10,
+				"1x1_3faxihuodong_normal",
+				5,
+				9
+			},
+			{
+				4,
+				7,
+				"1x2_2faxihuodong_normal",
+				-37,
+				47
+			},
+			{
+				4,
+				2,
+				"1x3_2faxihuodong_normal",
+				-6,
+				7
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxihuodongnormal",
+			45,
+			20,
+			50,
+			-55,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[5100113] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 5,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 436,
+		best_air_dominance = 568,
+		id = 5100113,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 14,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.52,
+			0.36,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				72
+			},
+			{
+				"cannon",
+				1,
+				800
+			},
+			{
+				"reload",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				4000801,
+				15,
+				0
+			},
+			{
+				4000802,
+				20,
+				0
+			},
+			{
+				4000803,
+				30,
+				1
+			},
+			{
+				4000804,
+				15,
+				0
+			},
+			{
+				4000805,
+				20,
+				0
+			},
+			{
+				4000806,
+				30,
+				1
+			},
+			{
+				4000807,
+				15,
+				0
+			},
+			{
+				4000808,
+				20,
+				0
+			},
+			{
+				4000809,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000810,
+			4000811,
+			4000812
+		},
+		elite_expedition_list = {
+			4000805,
+			4000808
+		},
+		ai_expedition_list = {
+			4000844,
+			4000845,
+			4000846
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000813
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				7,
+				11,
+				true,
+				2
+			},
+			{
+				7,
+				10,
+				true,
+				4
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				11,
+				false,
+				0
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				11,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				11,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				8
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				16
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				11,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				11,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				11,
+				true,
+				2
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				4
+			},
+			{
+				1,
+				8,
+				true,
+				12
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				7,
+				4,
+				"4x4_2faxihuodong_normal",
+				-51,
+				76
+			},
+			{
+				6,
+				10,
+				"1x3_2faxihuodong_normal",
+				0,
+				16
+			},
+			{
+				4,
+				6,
+				"1x1_3faxihuodong_normal",
+				5,
+				11
+			},
+			{
+				3,
+				10,
+				"3x2_1faxihuodong_normal",
+				-47,
+				-42
+			},
+			{
+				3,
+				3,
+				"1x1_1faxihuodong_normal",
+				0,
+				14
+			},
+			{
+				1,
+				3,
+				"1x3_1faxihuodong_normao",
+				-4,
+				15
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxihuodongnormal",
+			42,
+			16,
+			50,
+			0,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			1,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[5100114] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 5,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 520,
+		best_air_dominance = 676,
+		id = 5100114,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 14,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					1,
+					1,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					2,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				78
+			},
+			{
+				"cannon",
+				1,
+				950
+			},
+			{
+				"dodge",
+				1,
+				600
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				4000901,
+				15,
+				0
+			},
+			{
+				4000902,
+				20,
+				0
+			},
+			{
+				4000903,
+				30,
+				1
+			},
+			{
+				4000904,
+				15,
+				0
+			},
+			{
+				4000905,
+				20,
+				0
+			},
+			{
+				4000906,
+				30,
+				1
+			},
+			{
+				4000907,
+				15,
+				0
+			},
+			{
+				4000908,
+				20,
+				0
+			},
+			{
+				4000909,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4000910,
+			4000911,
+			4000912
+		},
+		elite_expedition_list = {
+			4000905,
+			4000908
+		},
+		ai_expedition_list = {
+			4001123,
+			4001124
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4000913
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				6,
+				10,
+				true,
+				8
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				12
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				12
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				1
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				12
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				16
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				1,
+				10,
+				true,
+				8
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				6,
+				"4x4_2faxihuodong_hard",
+				54,
+				77
+			},
+			{
+				1,
+				4,
+				"1x3_2faxihuodong_hard",
+				5,
+				12
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxihuodonghard",
+			45,
+			22,
+			-150,
+			-50,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[5100115] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 6,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 616,
+		best_air_dominance = 800,
+		id = 5100115,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 15,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.66,
+			0.45,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					1,
+					1,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					2,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				84
+			},
+			{
+				"cannon",
+				1,
+				1100
+			},
+			{
+				"antiaircraft",
+				1,
+				1600
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				4001001,
+				15,
+				0
+			},
+			{
+				4001002,
+				20,
+				0
+			},
+			{
+				4001003,
+				30,
+				1
+			},
+			{
+				4001004,
+				15,
+				0
+			},
+			{
+				4001005,
+				20,
+				0
+			},
+			{
+				4001006,
+				30,
+				1
+			},
+			{
+				4001007,
+				15,
+				0
+			},
+			{
+				4001008,
+				20,
+				0
+			},
+			{
+				4001009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4001010,
+			4001011,
+			4001012
+		},
+		elite_expedition_list = {
+			4001005,
+			4001008
+		},
+		ai_expedition_list = {
+			4001134,
+			4001135,
+			4001136
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4001013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				8,
+				10,
+				true,
+				8
+			},
+			{
+				8,
+				9,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				6
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				1
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				12
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				12
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				16
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				12
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				8
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				8,
+				9,
+				"1x2_1faxihuodong_normal",
+				6,
+				49
+			},
+			{
+				6,
+				5,
+				"1x3_1faxihuodong_hard",
+				99,
+				19
+			},
+			{
+				4,
+				5,
+				"1x3_2faxihuodong_hard",
+				98,
+				15
+			},
+			{
+				2,
+				9,
+				"1x2_2faxihuodong_hard",
+				-28,
+				-26
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxihuodonghard",
+			45,
+			20,
+			-20,
+			110,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[5100116] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 6,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 724,
+		best_air_dominance = 940,
+		id = 5100116,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 16,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.52,
+			0.36,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					1,
+					1,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					2,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"cannon",
+				1,
+				1300
+			},
+			{
+				"torpedo",
+				1,
+				1500
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				4001101,
+				15,
+				0
+			},
+			{
+				4001102,
+				20,
+				0
+			},
+			{
+				4001103,
+				30,
+				1
+			},
+			{
+				4001104,
+				15,
+				0
+			},
+			{
+				4001105,
+				20,
+				0
+			},
+			{
+				4001106,
+				30,
+				1
+			},
+			{
+				4001107,
+				15,
+				0
+			},
+			{
+				4001108,
+				20,
+				0
+			},
+			{
+				4001109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			4001110,
+			4001111,
+			4001112
+		},
+		elite_expedition_list = {
+			4001105,
+			4001108
+		},
+		ai_expedition_list = {
+			4001145,
+			4001146,
+			4001147,
+			4001148
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			4001113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				true,
+				6
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				12
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				1
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				6
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				4
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				12
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				8
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				16
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				4
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				12
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				8,
+				5,
+				"1x2_1faxihuodong_hard",
+				-1,
+				47
+			},
+			{
+				6,
+				8,
+				"1x3_1faxihuodong_hard",
+				3,
+				21
+			},
+			{
+				6,
+				3,
+				"1x2_2faxihuodong_hard",
+				-25,
+				49
+			},
+			{
+				4,
+				9,
+				"3x2_1faxihuodong_hard",
+				-55,
+				-34
+			},
+			{
+				4,
+				7,
+				"1x1_3faxihuodong_hard",
+				8,
+				14
+			},
+			{
+				1,
+				3,
+				"4x4_2faxihuodong_hard",
+				46,
+				-1
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxihuodonghard",
+			38,
+			17,
+			60,
+			220,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
 	},
 	all = {
 		101,
@@ -82159,6 +89349,18 @@ pg.chapter_template_loop = {
 		5100013,
 		5100014,
 		5100015,
-		5100016
+		5100016,
+		5100101,
+		5100102,
+		5100103,
+		5100104,
+		5100105,
+		5100106,
+		5100111,
+		5100112,
+		5100113,
+		5100114,
+		5100115,
+		5100116
 	}
 }

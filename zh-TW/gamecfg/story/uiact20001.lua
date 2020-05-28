@@ -120,7 +120,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			actorName = "???",
-			say = "測試者，你這是想？…",
+			say = "測試者，妳這是想？…",
 			shake = {
 				speed = 1,
 				number = 3

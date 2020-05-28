@@ -12,7 +12,7 @@ return {
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘁，這群嘰嘰喳喳的新玩具們一點都不耐打啊喂，你們就沒有更厲害點的傢伙了嗎？",
+			say = "嘁，這群嘰嘰喳喳的新玩具們一點都不耐打啊喂，妳們就沒有更厲害點的傢伙了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "來吧，用我的16英寸炮把你們通通轟成鐵渣！！",
+			say = "來吧，用我的16英寸炮把妳們通通轟成鐵渣！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

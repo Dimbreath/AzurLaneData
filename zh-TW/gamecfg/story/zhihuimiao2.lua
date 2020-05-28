@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，与其听{namecode:98}说，不如指挥官亲自尝试喵！首先获取一名伙伴试试喵？！",
+			say = "不过，与其听{namecode:98}说，不如指挥官亲自尝试喵！首先获取一名夥伴试试喵？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

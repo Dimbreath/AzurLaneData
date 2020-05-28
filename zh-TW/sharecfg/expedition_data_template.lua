@@ -173484,6 +173484,13193 @@ pg.expedition_data_template = {
 		},
 		bufficon = {}
 	},
+	[4000001] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000001,
+		exp = 145,
+		icon = "qz1",
+		difficulty = 2,
+		level = 30,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000001,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57411
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000002] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000002,
+		exp = 165,
+		icon = "qz1",
+		difficulty = 2,
+		level = 31,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000002,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57411
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000003] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000003,
+		exp = 186,
+		icon = "qz1",
+		difficulty = 2,
+		level = 32,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000003,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57411
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000004] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000004,
+		exp = 145,
+		icon = "zl1",
+		difficulty = 2,
+		level = 30,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000004,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57411
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000005] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000005,
+		exp = 165,
+		icon = "zl1",
+		difficulty = 2,
+		level = 31,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000005,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57411
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000006] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000006,
+		exp = 186,
+		icon = "zl1",
+		difficulty = 2,
+		level = 32,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000006,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57411
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000007] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000007,
+		exp = 145,
+		icon = "hm1",
+		difficulty = 2,
+		level = 30,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000007,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57411
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000008] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000008,
+		exp = 165,
+		icon = "hm1",
+		difficulty = 2,
+		level = 31,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000008,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57411
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000009] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000009,
+		exp = 186,
+		icon = "hm1",
+		difficulty = 2,
+		level = 32,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000009,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57411
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000010] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000010,
+		exp = 145,
+		icon = "ys1",
+		difficulty = 2,
+		level = 30,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000010,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000011] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000011,
+		exp = 165,
+		icon = "ys1",
+		difficulty = 2,
+		level = 31,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000011,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000012] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000012,
+		exp = 186,
+		icon = "ys1",
+		difficulty = 2,
+		level = 32,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000012,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000013] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 4000013,
+		exp = 232,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 33,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000013,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57401
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000101] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000001,
+		exp = 165,
+		icon = "qz1",
+		difficulty = 2,
+		level = 34,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000101,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57412
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000102] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000002,
+		exp = 187,
+		icon = "qz1",
+		difficulty = 2,
+		level = 35,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000102,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57412
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000103] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000003,
+		exp = 210,
+		icon = "qz1",
+		difficulty = 2,
+		level = 36,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000103,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57412
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000104] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000004,
+		exp = 165,
+		icon = "zl1",
+		difficulty = 2,
+		level = 34,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000104,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57412
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000105] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000005,
+		exp = 187,
+		icon = "zl1",
+		difficulty = 2,
+		level = 35,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000105,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57412
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000106] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000006,
+		exp = 210,
+		icon = "zl1",
+		difficulty = 2,
+		level = 36,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000106,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57412
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000107] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000007,
+		exp = 165,
+		icon = "hm1",
+		difficulty = 2,
+		level = 34,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000107,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57412
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000108] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000008,
+		exp = 187,
+		icon = "hm1",
+		difficulty = 2,
+		level = 35,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000108,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57412
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000109] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000009,
+		exp = 210,
+		icon = "hm1",
+		difficulty = 2,
+		level = 36,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000109,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57412
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000110] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000010,
+		exp = 165,
+		icon = "ys1",
+		difficulty = 2,
+		level = 34,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000110,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000111] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000011,
+		exp = 187,
+		icon = "ys1",
+		difficulty = 2,
+		level = 35,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000111,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000112] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000012,
+		exp = 210,
+		icon = "ys1",
+		difficulty = 2,
+		level = 36,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000112,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000113] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 4000113,
+		exp = 261,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 37,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000113,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57402
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000201] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000001,
+		exp = 185,
+		icon = "qz1",
+		difficulty = 2,
+		level = 38,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000201,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57413
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000202] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000002,
+		exp = 209,
+		icon = "qz1",
+		difficulty = 2,
+		level = 39,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000202,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57413
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000203] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000003,
+		exp = 234,
+		icon = "qz1",
+		difficulty = 2,
+		level = 40,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000203,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57413
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000204] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000004,
+		exp = 185,
+		icon = "zl1",
+		difficulty = 2,
+		level = 38,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000204,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57413
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000205] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000005,
+		exp = 209,
+		icon = "zl1",
+		difficulty = 2,
+		level = 39,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000205,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57413
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000206] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000006,
+		exp = 234,
+		icon = "zl1",
+		difficulty = 2,
+		level = 40,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000206,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57413
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000207] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000007,
+		exp = 185,
+		icon = "hm1",
+		difficulty = 2,
+		level = 38,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000207,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57413
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000208] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000008,
+		exp = 209,
+		icon = "hm1",
+		difficulty = 2,
+		level = 39,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000208,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57413
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000209] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000009,
+		exp = 234,
+		icon = "hm1",
+		difficulty = 2,
+		level = 40,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000209,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57413
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000210] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000010,
+		exp = 185,
+		icon = "ys1",
+		difficulty = 2,
+		level = 38,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000210,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000211] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000011,
+		exp = 209,
+		icon = "ys1",
+		difficulty = 2,
+		level = 39,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000211,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000212] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000012,
+		exp = 234,
+		icon = "ys1",
+		difficulty = 2,
+		level = 40,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000212,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000213] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 4000213,
+		exp = 290,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 41,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000213,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57403
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000221] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000221,
+		exp = 209,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 32,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000221,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57401
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000222] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000221,
+		exp = 209,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 32,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000222,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57401
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000231] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000231,
+		exp = 236,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 36,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000231,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57402
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000232] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000232,
+		exp = 236,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 36,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000232,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57402
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000233] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000231,
+		exp = 236,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 36,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000233,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57402
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000234] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000232,
+		exp = 236,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 36,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000234,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57402
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000241] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000241,
+		exp = 263,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 40,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000241,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57403
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000242] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000242,
+		exp = 263,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 40,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000242,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57403
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000243] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000243,
+		exp = 263,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 40,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000243,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57403
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000244] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000241,
+		exp = 263,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 40,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000244,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57403
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000245] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000242,
+		exp = 263,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 40,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000245,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57403
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000246] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000243,
+		exp = 263,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 40,
+		map_id = 50014,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000246,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57403
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000301] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000301,
+		exp = 205,
+		icon = "qz1",
+		difficulty = 2,
+		level = 42,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000301,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57414
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000302] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000302,
+		exp = 231,
+		icon = "qz1",
+		difficulty = 2,
+		level = 43,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000302,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57414
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000303] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000303,
+		exp = 258,
+		icon = "qz1",
+		difficulty = 2,
+		level = 44,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000303,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57414
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000304] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000304,
+		exp = 205,
+		icon = "zl1",
+		difficulty = 2,
+		level = 42,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000304,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57414
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000305] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000305,
+		exp = 231,
+		icon = "zl1",
+		difficulty = 2,
+		level = 43,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000305,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57414
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000306] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000306,
+		exp = 258,
+		icon = "zl1",
+		difficulty = 2,
+		level = 44,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000306,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57414
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000307] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000307,
+		exp = 205,
+		icon = "hm1",
+		difficulty = 2,
+		level = 42,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000307,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57414
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000308] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000308,
+		exp = 231,
+		icon = "hm1",
+		difficulty = 2,
+		level = 43,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000308,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57414
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000309] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000309,
+		exp = 258,
+		icon = "hm1",
+		difficulty = 2,
+		level = 44,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000309,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57414
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000310] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000310,
+		exp = 205,
+		icon = "ys1",
+		difficulty = 2,
+		level = 42,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000310,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000311] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000311,
+		exp = 231,
+		icon = "ys1",
+		difficulty = 2,
+		level = 43,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000311,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000312] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000312,
+		exp = 258,
+		icon = "ys1",
+		difficulty = 2,
+		level = 44,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000312,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000313] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 4000313,
+		exp = 319,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 45,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000313,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57404
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000401] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000301,
+		exp = 225,
+		icon = "qz1",
+		difficulty = 2,
+		level = 46,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000401,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57415
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000402] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000302,
+		exp = 253,
+		icon = "qz1",
+		difficulty = 2,
+		level = 47,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000402,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57415
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000403] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000303,
+		exp = 282,
+		icon = "qz1",
+		difficulty = 2,
+		level = 48,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000403,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57415
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000404] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000304,
+		exp = 225,
+		icon = "zl1",
+		difficulty = 2,
+		level = 46,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000404,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57415
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000405] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000305,
+		exp = 253,
+		icon = "zl1",
+		difficulty = 2,
+		level = 47,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000405,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57415
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000406] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000306,
+		exp = 282,
+		icon = "zl1",
+		difficulty = 2,
+		level = 48,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000406,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57415
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000407] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000307,
+		exp = 225,
+		icon = "hm1",
+		difficulty = 2,
+		level = 46,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000407,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57415
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000408] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000308,
+		exp = 253,
+		icon = "hm1",
+		difficulty = 2,
+		level = 47,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000408,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57415
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000409] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000309,
+		exp = 282,
+		icon = "hm1",
+		difficulty = 2,
+		level = 48,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000409,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57415
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000410] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000310,
+		exp = 225,
+		icon = "ys1",
+		difficulty = 2,
+		level = 46,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000410,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000411] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000311,
+		exp = 253,
+		icon = "ys1",
+		difficulty = 2,
+		level = 47,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000411,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000412] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000312,
+		exp = 282,
+		icon = "ys1",
+		difficulty = 2,
+		level = 48,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000412,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000413] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 4000413,
+		exp = 348,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 49,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000413,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57405
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000501] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000301,
+		exp = 245,
+		icon = "qz1",
+		difficulty = 2,
+		level = 50,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000501,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57416
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000502] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000302,
+		exp = 275,
+		icon = "qz1",
+		difficulty = 2,
+		level = 51,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000502,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57416
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000503] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000303,
+		exp = 306,
+		icon = "qz1",
+		difficulty = 2,
+		level = 52,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000503,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57416
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000504] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000304,
+		exp = 245,
+		icon = "zl1",
+		difficulty = 2,
+		level = 50,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000504,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57416
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000505] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000305,
+		exp = 275,
+		icon = "zl1",
+		difficulty = 2,
+		level = 51,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000505,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57416
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000506] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000306,
+		exp = 306,
+		icon = "zl1",
+		difficulty = 2,
+		level = 52,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000506,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57416
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000507] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000307,
+		exp = 245,
+		icon = "hm1",
+		difficulty = 2,
+		level = 50,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000507,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57416
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000508] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000308,
+		exp = 275,
+		icon = "hm1",
+		difficulty = 2,
+		level = 51,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000508,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57416
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000509] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000309,
+		exp = 306,
+		icon = "hm1",
+		difficulty = 2,
+		level = 52,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000509,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57416
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000510] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000310,
+		exp = 245,
+		icon = "ys1",
+		difficulty = 2,
+		level = 50,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000510,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000511] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000311,
+		exp = 275,
+		icon = "ys1",
+		difficulty = 2,
+		level = 51,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000511,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000512] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000312,
+		exp = 306,
+		icon = "ys1",
+		difficulty = 2,
+		level = 52,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000512,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000513] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 4000513,
+		exp = 377,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 53,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000513,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56000
+			},
+			{
+				2,
+				57406
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000521] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000521,
+		exp = 290,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 44,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000521,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57404
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000522] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000522,
+		exp = 290,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 44,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000522,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57404
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000523] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000521,
+		exp = 290,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 44,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000523,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57404
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000524] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000522,
+		exp = 290,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 44,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000524,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57404
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000531] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000531,
+		exp = 317,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 48,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000531,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57405
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000532] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000532,
+		exp = 317,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 48,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000532,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57405
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000533] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000533,
+		exp = 317,
+		icon = "sairenzhanlie",
+		difficulty = 2,
+		level = 48,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000533,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57405
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000534] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000531,
+		exp = 317,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 48,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000534,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57405
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000535] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000532,
+		exp = 317,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 48,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000535,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57405
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000536] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000533,
+		exp = 317,
+		icon = "sairenzhanlie",
+		difficulty = 2,
+		level = 48,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000536,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57405
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000541] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000541,
+		exp = 344,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 52,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000541,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57406
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000542] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000542,
+		exp = 344,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 52,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000542,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57406
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000543] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000543,
+		exp = 344,
+		icon = "sairenzhanlie",
+		difficulty = 2,
+		level = 52,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000543,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57406
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000544] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000544,
+		exp = 344,
+		icon = "sairenhangmu",
+		difficulty = 2,
+		level = 52,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000544,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57406
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000545] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000541,
+		exp = 344,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 52,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000545,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57406
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000546] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000542,
+		exp = 344,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 52,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000546,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57406
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000547] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000543,
+		exp = 344,
+		icon = "sairenzhanlie",
+		difficulty = 2,
+		level = 52,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000547,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57406
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000548] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000544,
+		exp = 344,
+		icon = "sairenhangmu",
+		difficulty = 2,
+		level = 52,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000548,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57406
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000601] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000601,
+		exp = 295,
+		icon = "qz1",
+		difficulty = 2,
+		level = 60,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000601,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57441
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000602] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000602,
+		exp = 330,
+		icon = "qz1",
+		difficulty = 2,
+		level = 61,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000602,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57441
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000603] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000603,
+		exp = 366,
+		icon = "qz1",
+		difficulty = 2,
+		level = 62,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000603,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57441
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000604] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000604,
+		exp = 295,
+		icon = "zl1",
+		difficulty = 2,
+		level = 60,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000604,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57441
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000605] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000605,
+		exp = 330,
+		icon = "zl1",
+		difficulty = 2,
+		level = 61,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000605,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57441
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000606] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000606,
+		exp = 366,
+		icon = "zl1",
+		difficulty = 2,
+		level = 62,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000606,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57441
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000607] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000607,
+		exp = 295,
+		icon = "hm1",
+		difficulty = 2,
+		level = 60,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000607,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57441
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000608] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000608,
+		exp = 330,
+		icon = "hm1",
+		difficulty = 2,
+		level = 61,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000608,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57441
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000609] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000609,
+		exp = 366,
+		icon = "hm1",
+		difficulty = 2,
+		level = 62,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000609,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57441
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000610] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000610,
+		exp = 295,
+		icon = "ys1",
+		difficulty = 2,
+		level = 60,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000610,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000611] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000611,
+		exp = 330,
+		icon = "ys1",
+		difficulty = 2,
+		level = 61,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000611,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000612] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000612,
+		exp = 366,
+		icon = "ys1",
+		difficulty = 2,
+		level = 62,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000612,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000613] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 4000613,
+		exp = 457,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 64,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000613,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57431
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000701] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000601,
+		exp = 325,
+		icon = "qz1",
+		difficulty = 2,
+		level = 66,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000701,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57442
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000702] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000602,
+		exp = 363,
+		icon = "qz1",
+		difficulty = 2,
+		level = 67,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000702,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57442
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000703] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000603,
+		exp = 402,
+		icon = "qz1",
+		difficulty = 2,
+		level = 68,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000703,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57442
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000704] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000604,
+		exp = 325,
+		icon = "zl1",
+		difficulty = 2,
+		level = 66,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000704,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57442
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000705] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000605,
+		exp = 363,
+		icon = "zl1",
+		difficulty = 2,
+		level = 67,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000705,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57442
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000706] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000606,
+		exp = 402,
+		icon = "zl1",
+		difficulty = 2,
+		level = 68,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000706,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57442
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000707] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000607,
+		exp = 325,
+		icon = "hm1",
+		difficulty = 2,
+		level = 66,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000707,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57442
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000708] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000608,
+		exp = 363,
+		icon = "hm1",
+		difficulty = 2,
+		level = 67,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000708,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57442
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000709] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000609,
+		exp = 402,
+		icon = "hm1",
+		difficulty = 2,
+		level = 68,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000709,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57442
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000710] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000610,
+		exp = 325,
+		icon = "ys1",
+		difficulty = 2,
+		level = 66,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000710,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000711] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000611,
+		exp = 363,
+		icon = "ys1",
+		difficulty = 2,
+		level = 67,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000711,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000712] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000612,
+		exp = 402,
+		icon = "ys1",
+		difficulty = 2,
+		level = 68,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000712,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000713] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 4000713,
+		exp = 507,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 71,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000713,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57432
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000801] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000601,
+		exp = 355,
+		icon = "qz1",
+		difficulty = 2,
+		level = 72,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000801,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57443
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000802] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000602,
+		exp = 396,
+		icon = "qz1",
+		difficulty = 2,
+		level = 73,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000802,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57443
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000803] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000603,
+		exp = 438,
+		icon = "qz1",
+		difficulty = 2,
+		level = 74,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000803,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57443
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000804] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000604,
+		exp = 355,
+		icon = "zl1",
+		difficulty = 2,
+		level = 72,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000804,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57443
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000805] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000605,
+		exp = 396,
+		icon = "zl1",
+		difficulty = 2,
+		level = 73,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000805,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57443
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000806] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000606,
+		exp = 438,
+		icon = "zl1",
+		difficulty = 2,
+		level = 74,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000806,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57443
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000807] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000607,
+		exp = 355,
+		icon = "hm1",
+		difficulty = 2,
+		level = 72,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000807,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57443
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000808] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000608,
+		exp = 396,
+		icon = "hm1",
+		difficulty = 2,
+		level = 73,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000808,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57443
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000809] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000609,
+		exp = 438,
+		icon = "hm1",
+		difficulty = 2,
+		level = 74,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000809,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57443
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000810] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000610,
+		exp = 355,
+		icon = "ys1",
+		difficulty = 2,
+		level = 72,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000810,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000811] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000611,
+		exp = 396,
+		icon = "ys1",
+		difficulty = 2,
+		level = 73,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000811,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000812] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000612,
+		exp = 438,
+		icon = "ys1",
+		difficulty = 2,
+		level = 74,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000812,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000813] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 4000813,
+		exp = 551,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 77,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000813,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57433
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000821] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000821,
+		exp = 418,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 63,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000821,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57431
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000822] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000821,
+		exp = 418,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 63,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000822,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57431
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000831] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000831,
+		exp = 466,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 70,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000831,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57432
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000832] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000832,
+		exp = 466,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 70,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000832,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57432
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000833] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000831,
+		exp = 466,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 70,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000833,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57432
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000834] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000832,
+		exp = 466,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 70,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000834,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57432
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000841] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000841,
+		exp = 506,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 76,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000841,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57433
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000842] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000842,
+		exp = 506,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 76,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000842,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57433
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000843] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000843,
+		exp = 506,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 76,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000843,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57433
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000844] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000841,
+		exp = 506,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 76,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000844,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57433
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000845] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000842,
+		exp = 506,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 76,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000845,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57433
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000846] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000843,
+		exp = 506,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 76,
+		map_id = 50015,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000846,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57433
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000901] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000901,
+		exp = 385,
+		icon = "qz1",
+		difficulty = 2,
+		level = 78,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000901,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57444
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000902] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000902,
+		exp = 429,
+		icon = "qz1",
+		difficulty = 2,
+		level = 79,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000902,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57444
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000903] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000903,
+		exp = 474,
+		icon = "qz1",
+		difficulty = 2,
+		level = 80,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000903,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57444
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000904] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000904,
+		exp = 385,
+		icon = "zl1",
+		difficulty = 2,
+		level = 78,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000904,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57444
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000905] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000905,
+		exp = 429,
+		icon = "zl1",
+		difficulty = 2,
+		level = 79,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000905,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57444
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000906] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000906,
+		exp = 474,
+		icon = "zl1",
+		difficulty = 2,
+		level = 80,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000906,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57444
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000907] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000907,
+		exp = 385,
+		icon = "hm1",
+		difficulty = 2,
+		level = 78,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000907,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57444
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000908] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000908,
+		exp = 429,
+		icon = "hm1",
+		difficulty = 2,
+		level = 79,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000908,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57444
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000909] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000909,
+		exp = 474,
+		icon = "hm1",
+		difficulty = 2,
+		level = 80,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000909,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57444
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000910] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000910,
+		exp = 385,
+		icon = "ys1",
+		difficulty = 2,
+		level = 78,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000910,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000911] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000911,
+		exp = 429,
+		icon = "ys1",
+		difficulty = 2,
+		level = 79,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000911,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000912] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000912,
+		exp = 474,
+		icon = "ys1",
+		difficulty = 2,
+		level = 80,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000912,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000913] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 4000913,
+		exp = 594,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 83,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4000913,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57434
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001001] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000901,
+		exp = 415,
+		icon = "qz1",
+		difficulty = 2,
+		level = 84,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001001,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57445
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001002] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000902,
+		exp = 462,
+		icon = "qz1",
+		difficulty = 2,
+		level = 85,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001002,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57445
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001003] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000903,
+		exp = 510,
+		icon = "qz1",
+		difficulty = 2,
+		level = 86,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001003,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57445
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001004] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000904,
+		exp = 415,
+		icon = "zl1",
+		difficulty = 2,
+		level = 84,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001004,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57445
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001005] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000905,
+		exp = 462,
+		icon = "zl1",
+		difficulty = 2,
+		level = 85,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001005,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57445
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001006] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000906,
+		exp = 510,
+		icon = "zl1",
+		difficulty = 2,
+		level = 86,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001006,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57445
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001007] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000907,
+		exp = 415,
+		icon = "hm1",
+		difficulty = 2,
+		level = 84,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001007,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57445
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001008] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000908,
+		exp = 462,
+		icon = "hm1",
+		difficulty = 2,
+		level = 85,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001008,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57445
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001009] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000909,
+		exp = 510,
+		icon = "hm1",
+		difficulty = 2,
+		level = 86,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001009,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57445
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001010] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000910,
+		exp = 415,
+		icon = "ys1",
+		difficulty = 2,
+		level = 84,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001010,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001011] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000911,
+		exp = 462,
+		icon = "ys1",
+		difficulty = 2,
+		level = 85,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001011,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001012] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000912,
+		exp = 510,
+		icon = "ys1",
+		difficulty = 2,
+		level = 86,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001012,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001013] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 4001013,
+		exp = 638,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 89,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001013,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57435
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001101] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000901,
+		exp = 445,
+		icon = "qz1",
+		difficulty = 2,
+		level = 90,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001101,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001102] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000902,
+		exp = 495,
+		icon = "qz1",
+		difficulty = 2,
+		level = 91,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001102,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001103] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000903,
+		exp = 546,
+		icon = "qz1",
+		difficulty = 2,
+		level = 92,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001103,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001104] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000904,
+		exp = 445,
+		icon = "zl1",
+		difficulty = 2,
+		level = 90,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001104,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001105] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000905,
+		exp = 495,
+		icon = "zl1",
+		difficulty = 2,
+		level = 91,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001105,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001106] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000906,
+		exp = 546,
+		icon = "zl1",
+		difficulty = 2,
+		level = 92,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001106,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001107] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000907,
+		exp = 445,
+		icon = "hm1",
+		difficulty = 2,
+		level = 90,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001107,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001108] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000908,
+		exp = 495,
+		icon = "hm1",
+		difficulty = 2,
+		level = 91,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001108,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001109] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000909,
+		exp = 546,
+		icon = "hm1",
+		difficulty = 2,
+		level = 92,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001109,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001110] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000910,
+		exp = 445,
+		icon = "ys1",
+		difficulty = 2,
+		level = 90,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001110,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001111] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000911,
+		exp = 495,
+		icon = "ys1",
+		difficulty = 2,
+		level = 91,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001111,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001112] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000912,
+		exp = 546,
+		icon = "ys1",
+		difficulty = 2,
+		level = 92,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001112,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001113] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 4001113,
+		exp = 681,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 95,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001113,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56000
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001121] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001121,
+		exp = 547,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 82,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001121,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57434
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001122] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001122,
+		exp = 547,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 82,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001122,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57434
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001123] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001121,
+		exp = 547,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 82,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001123,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57434
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001124] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001122,
+		exp = 547,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 82,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001124,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57434
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001131] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001131,
+		exp = 587,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 88,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001131,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57435
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001132] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001132,
+		exp = 587,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 88,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001132,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57435
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001133] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001133,
+		exp = 587,
+		icon = "sairenzhanlie",
+		difficulty = 2,
+		level = 88,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001133,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57435
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001134] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001131,
+		exp = 587,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 88,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001134,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57435
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001135] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001132,
+		exp = 587,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 88,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001135,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57435
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001136] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001133,
+		exp = 587,
+		icon = "sairenzhanlie",
+		difficulty = 2,
+		level = 88,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001136,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57435
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001141] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001141,
+		exp = 628,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 94,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001141,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001142] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001142,
+		exp = 628,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 94,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001142,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001143] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001143,
+		exp = 628,
+		icon = "sairenzhanlie",
+		difficulty = 2,
+		level = 94,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001143,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001144] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001144,
+		exp = 628,
+		icon = "sairenhangmu",
+		difficulty = 2,
+		level = 94,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001144,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001145] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001141,
+		exp = 628,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 94,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001145,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001146] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001142,
+		exp = 628,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 94,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001146,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001147] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001143,
+		exp = 628,
+		icon = "sairenzhanlie",
+		difficulty = 2,
+		level = 94,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001147,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001148] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001144,
+		exp = 628,
+		icon = "sairenhangmu",
+		difficulty = 2,
+		level = 94,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001148,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001151] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001141,
+		exp = 628,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001151,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001152] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001142,
+		exp = 628,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001152,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001153] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001143,
+		exp = 628,
+		icon = "sairenzhanlie",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001153,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001154] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4001144,
+		exp = 628,
+		icon = "sairenhangmu",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 2,
+		name = "精英舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001154,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001301] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000901,
+		exp = 445,
+		icon = "qz1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型侦查舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001301,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001302] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000902,
+		exp = 495,
+		icon = "qz1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型侦查舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001302,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001303] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000903,
+		exp = 546,
+		icon = "qz1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型侦查舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001303,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001304] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000904,
+		exp = 445,
+		icon = "zl1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001304,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001305] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000905,
+		exp = 495,
+		icon = "zl1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001305,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001306] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000906,
+		exp = 546,
+		icon = "zl1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001306,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001307] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000907,
+		exp = 445,
+		icon = "hm1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001307,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001308] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000908,
+		exp = 495,
+		icon = "hm1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001308,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001309] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000909,
+		exp = 546,
+		icon = "hm1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001309,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57446
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001310] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000910,
+		exp = 445,
+		icon = "ys1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型运输舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001310,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001311] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000911,
+		exp = 495,
+		icon = "ys1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型运输舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001311,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001312] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french2",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 4000912,
+		exp = 546,
+		icon = "ys1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型运输舰队",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001312,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001313] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "Level-french1",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 4001313,
+		exp = 681,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 110,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敌方旗舰",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001313,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56000
+			},
+			{
+				2,
+				57436
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4001201] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "story-french2",
+		exp_commander = 0,
+		time_limit = 150,
+		exp_commander_ratio = 0,
+		dungeon_id = 4001201,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 105,
+		map_id = 50016,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 4001201,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {}
+	},
 	all = {
 		1,
 		1000,
@@ -176602,6 +189789,240 @@ pg.expedition_data_template = {
 		3001172,
 		3001173,
 		3001174,
-		3001201
+		3001201,
+		4000001,
+		4000002,
+		4000003,
+		4000004,
+		4000005,
+		4000006,
+		4000007,
+		4000008,
+		4000009,
+		4000010,
+		4000011,
+		4000012,
+		4000013,
+		4000101,
+		4000102,
+		4000103,
+		4000104,
+		4000105,
+		4000106,
+		4000107,
+		4000108,
+		4000109,
+		4000110,
+		4000111,
+		4000112,
+		4000113,
+		4000201,
+		4000202,
+		4000203,
+		4000204,
+		4000205,
+		4000206,
+		4000207,
+		4000208,
+		4000209,
+		4000210,
+		4000211,
+		4000212,
+		4000213,
+		4000221,
+		4000222,
+		4000231,
+		4000232,
+		4000233,
+		4000234,
+		4000241,
+		4000242,
+		4000243,
+		4000244,
+		4000245,
+		4000246,
+		4000301,
+		4000302,
+		4000303,
+		4000304,
+		4000305,
+		4000306,
+		4000307,
+		4000308,
+		4000309,
+		4000310,
+		4000311,
+		4000312,
+		4000313,
+		4000401,
+		4000402,
+		4000403,
+		4000404,
+		4000405,
+		4000406,
+		4000407,
+		4000408,
+		4000409,
+		4000410,
+		4000411,
+		4000412,
+		4000413,
+		4000501,
+		4000502,
+		4000503,
+		4000504,
+		4000505,
+		4000506,
+		4000507,
+		4000508,
+		4000509,
+		4000510,
+		4000511,
+		4000512,
+		4000513,
+		4000521,
+		4000522,
+		4000523,
+		4000524,
+		4000531,
+		4000532,
+		4000533,
+		4000534,
+		4000535,
+		4000536,
+		4000541,
+		4000542,
+		4000543,
+		4000544,
+		4000545,
+		4000546,
+		4000547,
+		4000548,
+		4000601,
+		4000602,
+		4000603,
+		4000604,
+		4000605,
+		4000606,
+		4000607,
+		4000608,
+		4000609,
+		4000610,
+		4000611,
+		4000612,
+		4000613,
+		4000701,
+		4000702,
+		4000703,
+		4000704,
+		4000705,
+		4000706,
+		4000707,
+		4000708,
+		4000709,
+		4000710,
+		4000711,
+		4000712,
+		4000713,
+		4000801,
+		4000802,
+		4000803,
+		4000804,
+		4000805,
+		4000806,
+		4000807,
+		4000808,
+		4000809,
+		4000810,
+		4000811,
+		4000812,
+		4000813,
+		4000821,
+		4000822,
+		4000831,
+		4000832,
+		4000833,
+		4000834,
+		4000841,
+		4000842,
+		4000843,
+		4000844,
+		4000845,
+		4000846,
+		4000901,
+		4000902,
+		4000903,
+		4000904,
+		4000905,
+		4000906,
+		4000907,
+		4000908,
+		4000909,
+		4000910,
+		4000911,
+		4000912,
+		4000913,
+		4001001,
+		4001002,
+		4001003,
+		4001004,
+		4001005,
+		4001006,
+		4001007,
+		4001008,
+		4001009,
+		4001010,
+		4001011,
+		4001012,
+		4001013,
+		4001101,
+		4001102,
+		4001103,
+		4001104,
+		4001105,
+		4001106,
+		4001107,
+		4001108,
+		4001109,
+		4001110,
+		4001111,
+		4001112,
+		4001113,
+		4001121,
+		4001122,
+		4001123,
+		4001124,
+		4001131,
+		4001132,
+		4001133,
+		4001134,
+		4001135,
+		4001136,
+		4001141,
+		4001142,
+		4001143,
+		4001144,
+		4001145,
+		4001146,
+		4001147,
+		4001148,
+		4001151,
+		4001152,
+		4001153,
+		4001154,
+		4001301,
+		4001302,
+		4001303,
+		4001304,
+		4001305,
+		4001306,
+		4001307,
+		4001308,
+		4001309,
+		4001310,
+		4001311,
+		4001312,
+		4001313,
+		4001201
 	}
 }

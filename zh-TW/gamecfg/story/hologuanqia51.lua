@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于这一点，我想过了。指挥官和{namecode:98}都有处理过类似事件的经验，一定能帮到你们的！",
+			say = "关于这一点，我想过了。指挥官和{namecode:98}都有处理过类似事件的经验，一定能帮到妳们的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "太好了，终于联系到你们了！舰队发生什么事了？",
+			say = "太好了，终于联系到妳们了！舰队发生什么事了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "几周？你在说什么事？",
+			say = "几周？妳在说什么事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "经过几周的战斗，刚刚破坏海域中的核心装置，解除了海域封锁，这才能收到你们的联络。",
+			say = "经过几周的战斗，刚刚破坏海域中的核心装置，解除了海域封锁，这才能收到妳们的联络。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "从你们两支舰队联络开始算起，到现在只有不到24小时哦？",
+			say = "从妳们两支舰队联络开始算起，到现在只有不到24小时哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}！在这种情况下看到你真是太令人安心了…",
+			say = "{namecode:98}！在这种情况下看到妳真是太令人安心了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "这段时间以来，你们都辛苦了。",
+			say = "这段时间以来，妳们都辛苦了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

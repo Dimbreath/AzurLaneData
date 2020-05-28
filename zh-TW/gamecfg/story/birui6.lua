@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			say = "指揮官，晚上好。{namecode:71}小姐，謝謝你的邀請",
+			say = "指揮官，晚上好。{namecode:71}小姐，謝謝妳的邀請",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，{namecode:98}和{namecode:20}你們也來了，宴會還開心嗎？",
+			say = "呵呵，{namecode:98}和{namecode:20}妳們也來了，宴會還開心嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，還是要再次謝謝你呢，{namecode:70}姐",
+			say = "呵呵，還是要再次謝謝妳呢，{namecode:70}姐",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			say = "一點小事~難得的宴會，你也別就在這看著，也要多享受一下嘛",
+			say = "一點小事~難得的宴會，妳也別就在這看著，也要多享受一下嘛",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -334,7 +334,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…指揮官、{namecode:71}，你們慢慢聊——",
+			say = "唔…指揮官、{namecode:71}，妳們慢慢聊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

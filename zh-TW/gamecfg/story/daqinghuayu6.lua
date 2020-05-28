@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "哼、哼哼，那是当然！毕竟有我一直陪着你嘛——",
+			say = "哼、哼哼，那是当然！毕竟有我一直陪着妳嘛——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -554,7 +554,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那么，我们就先告辞了，真是场酣畅淋漓的打雪仗，希望还能和你们交手！",
+			say = "那么，我们就先告辞了，真是场酣畅淋漓的打雪仗，希望还能和妳们交手！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

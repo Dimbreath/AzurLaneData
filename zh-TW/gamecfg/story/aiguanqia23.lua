@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			actor = 10400010,
 			stopbgm = true,
-			say = "摸摸摸摸，这位小姐真可爱啊～～！能告诉姐姐你的名字吗？",
+			say = "摸摸摸摸，这位小姐真可爱啊～～！能告诉姐姐妳的名字吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

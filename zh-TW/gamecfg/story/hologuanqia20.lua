@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "{namecode:158}那边似乎一切顺利，把你的两名同伴救出来了，是叫绫目和诗音么？",
+			say = "{namecode:158}那边似乎一切顺利，把妳的两名同伴救出来了，是叫绫目和诗音么？",
 			bgm = "holo-fbk",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这位空前辈是你们的什么人啊？好像你们之间都是直呼名的，只有对这个人叫前辈？",
+			say = "这位空前辈是妳们的什么人啊？好像妳们之间都是直呼名的，只有对这个人叫前辈？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23和你？！",
+			say = "Z23和妳？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至少看起来和你一模一样，而且，她身边有一个棕色长发的女性。",
+			say = "至少看起来和妳一模一样，而且，她身边有一个棕色长发的女性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

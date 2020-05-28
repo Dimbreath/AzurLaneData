@@ -137,7 +137,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:93}",
-			say = "嗯？你們採購回來了嗎？",
+			say = "嗯？妳們採購回來了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

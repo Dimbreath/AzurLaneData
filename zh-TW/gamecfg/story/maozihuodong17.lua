@@ -13,7 +13,7 @@ return {
 			bgm = "xinnong-3",
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "确认击沉！凭你们是无法阻挡北方联合的前进的！",
+			say = "确认击沉！凭妳们是无法阻挡北方联合的前进的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			dir = 1,
 			actor = 701040,
 			nameColor = "#a9f548",
-			say = "看塔什干把你们统统揍扁！",
+			say = "看塔什干把妳们统统揍扁！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "唔，我想想。基洛夫、甘古特，还有明斯克，能请你们先行一步，寻找分散的白鹰舰队吗？",
+			say = "唔，我想想。基洛夫、甘古特，还有明斯克，能请妳们先行一步，寻找分散的白鹰舰队吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "记得定时保持联络，等你们会合了，我们再重新决定集合地点",
+			say = "记得定时保持联络，等妳们会合了，我们再重新决定集合地点",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			actor = 702030,
 			nameColor = "#a9f548",
-			say = "呵呵，指挥就拜托你了哦，指挥官同志~",
+			say = "呵呵，指挥就拜托妳了哦，指挥官同志~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

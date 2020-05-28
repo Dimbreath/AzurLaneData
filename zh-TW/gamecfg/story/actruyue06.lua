@@ -398,7 +398,7 @@ return {
 			bgName = "bg_story_room",
 			actor = 301320,
 			nameColor = "#a9f548",
-			say = "{namecode:34}{namecode:34}，对不起啦…肉肉和糖都给你，不要生我气好不好",
+			say = "{namecode:34}{namecode:34}，对不起啦…肉肉和糖都给妳，不要生我气好不好",
 			flashout = {
 				dur = 1,
 				black = true,

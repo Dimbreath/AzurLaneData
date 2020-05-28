@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			actor = 102162,
 			nameColor = "#a9f548",
-			say = "想要糖果的伙伴，以及想发糖果又没准备的同伴，都可以找爱丁堡领取哦~",
+			say = "想要糖果的夥伴，以及想发糖果又没准备的同伴，都可以找爱丁堡领取哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			actor = 202112,
 			nameColor = "#a9f548",
-			say = "好，糖果给你~嘿嘿，前面辛苦你啦，斯莫利~",
+			say = "好，糖果给妳~嘿嘿，前面辛苦妳啦，斯莫利~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			actor = 202112,
 			nameColor = "#a9f548",
-			say = "啊哈哈…可惜我只有糖果呢，给你~",
+			say = "啊哈哈…可惜我只有糖果呢，给妳~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好好，是准备要分给孩子们的吗~我给你装一袋哦~——噗！格、格奈森瑙！？",
+			say = "好好，是准备要分给孩子们的吗~我给妳装一袋哦~——噗！格、格奈森瑙！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			actor = 404021,
 			nameColor = "#a9f548",
-			say = "嗯，看你的反应。今晚选择这套变装算是选对了",
+			say = "嗯，看妳的反应。今晚选择这套变装算是选对了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

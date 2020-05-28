@@ -453,7 +453,7 @@ return {
 			optionFlag = 3,
 			actor = 202040,
 			nameColor = "#a9f548",
-			say = "啊啊啊啊…主人，求求你不要…不要吧黛朵放在一边……！！！",
+			say = "啊啊啊啊…主人，求求妳不要…不要吧黛朵放在一边……！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就这样，港区的大家迎来了新的伙伴——",
+			say = "就这样，港区的大家迎来了新的夥伴——",
 			flashout = {
 				dur = 1,
 				black = true,

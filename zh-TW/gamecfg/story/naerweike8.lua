@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-1",
 			actor = 401210,
 			nameColor = "#ff5c5c",
-			say = "可恶，你们等着，Z2她们会帮我报仇的！",
+			say = "可恶，妳们等着，Z2她们会帮我报仇的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "我知道，所以你们可以先回去，留我一个人就好。",
+			say = "我知道，所以妳们可以先回去，留我一个人就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

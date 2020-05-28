@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？哦，是小天鹅啊，抱歉没注意到你走进来，下午好。",
+			say = "嗯？哦，是小天鹅啊，抱歉没注意到妳走进来，下午好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "洋芋片和……饼干吗，似乎，也不是很合适。不过建议总是越多越好，很感谢你。",
+			say = "洋芋片和……饼干吗，似乎，也不是很合适。不过建议总是越多越好，很感谢妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

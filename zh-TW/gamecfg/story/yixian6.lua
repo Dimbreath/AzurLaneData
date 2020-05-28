@@ -56,7 +56,7 @@ return {
 			actor = 502010,
 			side = 2,
 			dir = 1,
-			say = "（远眺）……你们…不如就这样回去吧？",
+			say = "（远眺）……妳们…不如就这样回去吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 		{
 			actor = 502020,
 			side = 0,
-			say = "你都感觉前面有危险，还觉得我会答应？",
+			say = "妳都感觉前面有危险，还觉得我会答应？",
 			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -102,7 +102,7 @@ return {
 			actor = 502010,
 			side = 0,
 			dir = -1,
-			say = "如果你们出了什么意外，我会很难办的",
+			say = "如果妳们出了什么意外，我会很难办的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

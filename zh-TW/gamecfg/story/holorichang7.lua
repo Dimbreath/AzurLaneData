@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}大人听说你们要参观天守阁，特地派我来陪你们。",
+			say = "{namecode:74}大人听说妳们要参观天守阁，特地派我来陪妳们。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			actor = 900210,
 			nameColor = "#a9f548",
-			say = "非常感谢！没有给你添麻烦吧……？",
+			say = "非常感谢！没有给妳添麻烦吧……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看起来你们相当满意的样子。",
+			say = "看起来妳们相当满意的样子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

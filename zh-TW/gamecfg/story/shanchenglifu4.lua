@@ -264,7 +264,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯？你突然笑什么。",
+			say = "……嗯？妳突然笑什么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，不要掩饰了，光辉你肯定是偷偷参加了那个什么泳装选美大赛还拿了第一吧！",
+			say = "哼，不要掩饰了，光辉妳肯定是偷偷参加了那个什么泳装选美大赛还拿了第一吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			actor = 205011,
 			nameColor = "#a9f548",
-			say = "你这个巨乳，哼，长这么大干什么，碍眼！",
+			say = "妳这个巨乳，哼，长这么大干什么，碍眼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			}
 		},
 		{
-			say = "光辉，不用陪着我了，你做自己的事去吧。",
+			say = "光辉，不用陪着我了，妳做自己的事去吧。",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -597,7 +597,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真不知道该说你胸怀广阔好还是太单纯好……算了，反正我有我的小猪仔就够了。",
+			say = "真不知道该说妳胸怀广阔好还是太单纯好……算了，反正我有我的小猪仔就够了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			actor = 501010,
 			nameColor = "#a9f548",
-			say = "咳咳咳，屋子裡被搞得烏煙瘴氣，撫！順！做了這種蠢事你做好挨訓的心理準備…欸？",
+			say = "咳咳咳，屋子裡被搞得烏煙瘴氣，撫！順！做了這種蠢事妳做好挨訓的心理準備…欸？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			actor = 301054,
 			nameColor = "#a9f548",
-			say = "鏡子給你…的說",
+			say = "鏡子給妳…的說",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

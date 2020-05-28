@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你、你們是來逗我玩的吧！",
+			say = "妳、妳們是來逗我玩的吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			actor = 401231,
 			nameColor = "#a9f548",
-			say = "這裡是重點！（敲黑板）不乖乖記筆記的話，Z23老師就要懲罰你了哦！",
+			say = "這裡是重點！（敲黑板）不乖乖記筆記的話，Z23老師就要懲罰妳了哦！",
 			flashout = {
 				dur = 1,
 				black = true,

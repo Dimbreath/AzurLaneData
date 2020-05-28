@@ -115,7 +115,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "单刀直入么…你知道的，没有人希望执行这份命令…不过，合约既已签订，就绝无改变的可能。除非…",
+			say = "单刀直入么…妳知道的，没有人希望执行这份命令…不过，合约既已签订，就绝无改变的可能。除非…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这就是你的愿望吗？",
+			say = "这就是妳的愿望吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "好了，不必再说下去了。余同意你的选择。",
+			say = "好了，不必再说下去了。余同意妳的选择。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:161}，余会向八百万众神祈祷，祝你凯旋归来的",
+			say = "{namecode:161}，余会向八百万众神祈祷，祝妳凯旋归来的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你是……啊，新加入的半人马对吧？",
+			say = "妳是……啊，新加入的半人马对吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你好~我在路上遇到了她们两个，就顺便带过来了。",
+			say = "妳好~我在路上遇到了她们两个，就顺便带过来了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "标枪，不好意思，巴尔她果然还是不愿意过来呢。不过你放心，今晚我一定会把她拉过来的。",
+			say = "标枪，不好意思，巴尔她果然还是不愿意过来呢。不过妳放心，今晚我一定会把她拉过来的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，等到晚上你就知道了，也和半人马你有关哦~",
+			say = "嘻嘻，等到晚上妳就知道了，也和半人马妳有关哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "半人马我跟你说，敦刻尔克姐姐做的甜点超级好吃的哦。",
+			say = "半人马我跟妳说，敦刻尔克姐姐做的甜点超级好吃的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵，你们都太过奖了……好了，请用吧。",
+			say = "呵呵，妳们都太过奖了……好了，请用吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然敦刻尔克你做的是很好吃没错，你看标枪做的便当就很正常。",
+			say = "虽然敦刻尔克妳做的是很好吃没错，妳看标枪做的便当就很正常。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你还真是完全没有抛弃甜点的念头呢……",
+			say = "妳还真是完全没有抛弃甜点的念头呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

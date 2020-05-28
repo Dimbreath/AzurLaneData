@@ -28,7 +28,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "做得不错，看起来你从你两个姐姐那里学到了不少东西呢。",
+			say = "做得不错，看起来妳从妳两个姐姐那里学到了不少东西呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那是当然，你的两个姐姐在上一次的演习中可是出了不少风头。",
+			say = "那是当然，妳的两个姐姐在上一次的演习中可是出了不少风头。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "{namecode:39}有成为领导者的潜质。而{namecode:38}身上有着和{namecode:92}类似的影子……现在看来，你这个小妹也不差呢~",
+			say = "{namecode:39}有成为领导者的潜质。而{namecode:38}身上有着和{namecode:92}类似的影子……现在看来，妳这个小妹也不差呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵，真是活泼的孩子……真希望{namecode:91}向你学习一下呢。",
+			say = "呵呵，真是活泼的孩子……真希望{namecode:91}向妳学习一下呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			actor = 302140,
 			nameColor = "#ff0000",
-			say = "啊啊，{namecode:161}大人你没事吧！",
+			say = "啊啊，{namecode:161}大人妳没事吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "让你看到这幅狼狈的样子真是不好意思。",
+			say = "让妳看到这幅狼狈的样子真是不好意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "快点回去港区吧，毕竟你可是已经被我“击沉”了的目标呢，呵呵呵~",
+			say = "快点回去港区吧，毕竟妳可是已经被我“击沉”了的目标呢，呵呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			blackBg = true,
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "然而我究竟还能陪在你身边多久呢？…我的妹妹",
+			say = "然而我究竟还能陪在妳身边多久呢？…我的妹妹",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -60,7 +60,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题，那我们也返航……嗯？阿贾克斯，你怎么啦？",
+			say = "没问题，那我们也返航……嗯？阿贾克斯，妳怎么啦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐你先走吧。",
+			say = "姐姐妳先走吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯，我知道了，你也尽快赶上来哦。",
+			say = "……嗯，我知道了，妳也尽快赶上来哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然了，即使你能赢过我和姐姐，在你选择了进入这个港口的瞬间，就注定你的失败了。",
+			say = "当然了，即使妳能赢过我和姐姐，在妳选择了进入这个港口的瞬间，就注定妳的失败了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你，斯佩伯爵，我玩的很开心哦，呵呵呵……",
+			say = "谢谢妳，斯佩伯爵，我玩的很开心哦，呵呵呵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

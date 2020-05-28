@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，这些文件你看是这样吗？",
+			say = "指挥官，这些文件妳看是这样吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，指挥官，给你这个……",
+			say = "对了，指挥官，给妳这个……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

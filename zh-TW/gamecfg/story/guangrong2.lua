@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "好啊好啊！就讓我薩拉托加給你表演一下什麼叫航母運用♪",
+			say = "好啊好啊！就讓我薩拉托加給妳表演一下什麼叫航母運用♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			say = "光榮，你跑得太快了啊！",
+			say = "光榮，妳跑得太快了啊！",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "艦載機回收OK！很好，今天的薩拉托加也是狀態絕佳！看你們誰敢再說我“修理廠的偶像”！",
+			say = "艦載機回收OK！很好，今天的薩拉托加也是狀態絕佳！看妳們誰敢再說我“修理廠的偶像”！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊……光榮你沒事吧？",
+			say = "啊……光榮妳沒事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

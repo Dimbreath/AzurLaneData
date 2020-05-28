@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "指挥官，你会做饭吗？",
+			say = "指挥官，妳会做饭吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			optionFlag = 2,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "找个女仆队的人来一起帮你吧",
+			say = "找个女仆队的人来一起帮妳吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……指挥官，你的厨艺果然离我还差得远呢。",
+			say = "嗯……指挥官，妳的厨艺果然离我还差得远呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "“这道菜是你为了我而做的”这个事实，作为调味料来说真是非常美味啊",
+			say = "“这道菜是妳为了我而做的”这个事实，作为调味料来说真是非常美味啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

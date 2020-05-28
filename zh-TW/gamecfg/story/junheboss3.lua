@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解！……哼，今天就先这样放过你们哒！",
+			say = "了解！……哼，今天就先这样放过妳们哒！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			actor = 900200,
 			nameColor = "#a9f548",
-			say = "哎呀？我本以为是{namecode:97}的话，一定能确实地找出来呢……索敌就交给你咯？",
+			say = "哎呀？我本以为是{namecode:97}的话，一定能确实地找出来呢……索敌就交给妳咯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "！？……嘴巴挺能说的嘛{namecode:175}，{namecode:97}今天就做给你看！",
+			say = "！？……嘴巴挺能说的嘛{namecode:175}，{namecode:97}今天就做给妳看！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -245,15 +245,20 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 				slot0 = Goods.New({
 					shop_id = uv4.id
 				}, Goods.TYPE_SKIN)
+				slot3 = i18n("text_buy_fashion_tip", slot0:GetPrice(), HXSet.hxLan(uv3.name))
 
-				if slot0:isDisCount() then
-					slot1 = slot0:getConfig("resource_num") * (100 - slot0:getConfig("discount")) / 100
+				if slot0:isDisCount() and slot0:IsItemDiscountType() then
+					slot3 = i18n("discount_coupon_tip", slot2, slot0:GetDiscountItem().name, HXSet.hxLan(uv3.name))
 				end
 
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("text_buy_fashion_tip", slot1, HXSet.hxLan(uv3.name)),
+					content = slot3,
 					onYes = function ()
-						uv0:emit(ShipMainMediator.BUY_ITEM, uv1.id, 1)
+						if uv0 then
+							uv1:emit(ShipMainMediator.BUY_ITEM_BY_ACT, uv2.id, 1)
+						else
+							uv1:emit(ShipMainMediator.BUY_ITEM, uv2.id, 1)
+						end
 					end
 				})
 			end

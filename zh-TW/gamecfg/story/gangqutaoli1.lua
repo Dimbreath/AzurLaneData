@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			actorName = "？？？",
-			say = "你也这么认为的吧！{namecode:71}！",
+			say = "妳也这么认为的吧！{namecode:71}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "呒呒…没想到还有这一手…！很好！你终于弄明白自己现在所处的状况了！",
+			say = "呒呒…没想到还有这一手…！很好！妳终于弄明白自己现在所处的状况了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "哼，现在正是让你们见识一下，铁血第一艘航母·齐柏林伯爵的力量的时……好痛！",
+			say = "哼，现在正是让妳们见识一下，铁血第一艘航母·齐柏林伯爵的力量的时……好痛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

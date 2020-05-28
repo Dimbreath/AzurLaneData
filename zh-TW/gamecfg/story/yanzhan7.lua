@@ -65,7 +65,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "(将被吞入那暗蓝深渊的无力感，即便自己被击沉也要守护的伙伴们、陛下、还有……)",
+			say = "(将被吞入那暗蓝深渊的无力感，即便自己被击沉也要守护的夥伴们、陛下、还有……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（我已经全部明白了呢，无论是我对你的，还是你对我的…）",
+			say = "（我已经全部明白了呢，无论是我对妳的，还是妳对我的…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（放心吧，指挥官，我会守护好你的一切的）",
+			say = "（放心吧，指挥官，我会守护好妳的一切的）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（我是厌战，视战争艰辛如无物，未曾向任何命运屈服的“不沉的传奇”。无论是你，后辈们，还是整个舰队，我都会用尽这个身躯去保护）",
+			say = "（我是厌战，视战争艰辛如无物，未曾向任何命运屈服的“不沉的传奇”。无论是妳，后辈们，还是整个舰队，我都会用尽这个身躯去保护）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

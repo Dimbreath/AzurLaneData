@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			actor = 199021,
 			nameColor = "#a9f548",
-			say = "…啊哈哈哈，你这么一说不是更像是在做亏心事了吗",
+			say = "…啊哈哈哈，妳这么一说不是更像是在做亏心事了吗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_night",
-			say = "啊，原来是佐治亚小姐啊，别吓我嘛…你怎么不在宴会场里玩，反而跑出来了",
+			say = "啊，原来是佐治亚小姐啊，别吓我嘛…妳怎么不在宴会场里玩，反而跑出来了",
 			dir = 1,
 			actor = 207022,
 			nameColor = "#a9f548",
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			actor = 199021,
 			nameColor = "#a9f548",
-			say = "倒是你，怎么样，拍到好照片了吗",
+			say = "倒是妳，怎么样，拍到好照片了吗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			dir = -1,
 			nameColor = "#ff0000",
-			say = "你就是新來的指揮官麼，這麼快就能發現我的座標，真是讓人大吃一驚呀。",
+			say = "妳就是新來的指揮官麼，這麼快就能發現我的座標，真是讓人大吃一驚呀。",
 			shake = {
 				speed = 1,
 				number = 3
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			dir = -1,
 			nameColor = "#ff0000",
-			say = "來吧，就讓我大黃蜂大人來好好測試一下你們的實力，放心吧，這次演習用的都是空包彈",
+			say = "來吧，就讓我大黃蜂大人來好好測試一下妳們的實力，放心吧，這次演習用的都是空包彈",
 			shake = {
 				speed = 1,
 				number = 3
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			dir = -1,
 			nameColor = "#ff0000",
-			say = "不會弄疼你們的嘿嘿嘿~",
+			say = "不會弄疼妳們的嘿嘿嘿~",
 			shake = {
 				speed = 1,
 				number = 3

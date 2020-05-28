@@ -214,6 +214,39 @@ pg.share_template = {
 			"UICamera/Canvas/TWCelebrationShare(Clone)"
 		}
 	},
+	{
+		description = "#碧蓝航线#",
+		name = "必胜客分享",
+		deck = 2,
+		hidden_comps = "",
+		move_comps = "",
+		camera = "UICamera",
+		id = 13,
+		qrcode_location = {
+			314.5,
+			-539
+		},
+		show_comps = {
+			"UICamera/Canvas/PizzahutSharePage(Clone)"
+		}
+	},
+	{
+		description = "#碧蓝航线#",
+		name = "玩家历程MarkII界面分享",
+		deck = 0,
+		hidden_comps = "",
+		move_comps = "",
+		camera = "UICamera",
+		id = 14,
+		qrcode_location = {
+			-38,
+			-279
+		},
+		show_comps = {
+			"UICamera/Canvas/UIMain/PlayerSecondSummaryUI(Clone)/bg/main/pages/page5/window_9",
+			"UICamera/Canvas/UIMain/PlayerSecondSummaryUI(Clone)/bg/main/pages/page5/shadow_4"
+		}
+	},
 	[5000] = {
 		description = "#碧蓝航线#",
 		name = "台服分享活动（改动过唯一id 原id12）",
@@ -243,6 +276,8 @@ pg.share_template = {
 		10,
 		11,
 		12,
+		13,
+		14,
 		5000
 	}
 }

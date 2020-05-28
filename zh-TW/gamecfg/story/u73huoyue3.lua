@@ -68,7 +68,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "该说是不着边际，还是毫无所谓呢…亏你能这么认真地做着这样的实验啊……",
+			say = "该说是不着边际，还是毫无所谓呢…亏妳能这么认真地做着这样的实验啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "喂，你们怎么也跟着认真思考起这事情了啦！？",
+			say = "喂，妳们怎么也跟着认真思考起这事情了啦！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吼吼？看来你们也是拥有梦想的人呀，那就跟我一起向着科学的道路前进吧！",
+			say = "吼吼？看来妳们也是拥有梦想的人呀，那就跟我一起向着科学的道路前进吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "你的梦想，我听到了！就让我来助你们一臂之力吧！",
+			say = "妳的梦想，我听到了！就让我来助妳们一臂之力吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

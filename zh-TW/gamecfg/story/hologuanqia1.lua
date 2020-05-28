@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "虽然当务之急是寻找消失的伙伴，搞清楚现在的处境",
+			say = "虽然当务之急是寻找消失的夥伴，搞清楚现在的处境",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "吹雪？！太好了，你平安无事啊！",
+			say = "吹雪？！太好了，妳平安无事啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

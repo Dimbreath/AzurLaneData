@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，来了——咦，印第酱？哦…又是躲你家姐姐吗？",
+			say = "啊，来了——咦，印第酱？哦…又是躲妳家姐姐吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

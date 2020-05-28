@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！很好！你知道今天我們集中在這裡的目的吧？",
+			say = "嗯！很好！妳知道今天我們集中在這裡的目的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是學習啦！學習！老師們都對你很頭疼哦？不好好學習的話，怎麼能成為指揮官的助力呢！",
+			say = "是學習啦！學習！老師們都對妳很頭疼哦？不好好學習的話，怎麼能成為指揮官的助力呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "聖、聖地牙哥！！！你沒事吧？！快醒醒啊！為什麼這麼簡單的算術題會做到神經錯亂啦！！——",
+			say = "聖、聖地牙哥！！！妳沒事吧？！快醒醒啊！為什麼這麼簡單的算術題會做到神經錯亂啦！！——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

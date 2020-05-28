@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前辈与心结\n\n<size=45>七　与你一起的日常</size>",
+					"前辈与心结\n\n<size=45>七　与妳一起的日常</size>",
 					1
 				}
 			}
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "请稍等…指挥官，委托单好像在你手旁的那堆文件里。",
+			say = "请稍等…指挥官，委托单好像在妳手旁的那堆文件里。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

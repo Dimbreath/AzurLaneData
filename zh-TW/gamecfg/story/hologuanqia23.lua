@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "我知道你在担心什么…我们都亲手击败过无数同伴的棋子…",
+			say = "我知道妳在担心什么…我们都亲手击败过无数同伴的棋子…",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -53,7 +53,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "我知道，虽然嘴上没说什么，眼神里可以看出明显的动摇呢。所以你故意那样说，是想顺势让她们远离战场吧",
+			say = "我知道，虽然嘴上没说什么，眼神里可以看出明显的动摇呢。所以妳故意那样说，是想顺势让她们远离战场吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "但现在大家是同伴，你应该对同伴多抱有一些信任。",
+			say = "但现在大家是同伴，妳应该对同伴多抱有一些信任。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

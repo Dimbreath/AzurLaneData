@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			say = "哈哈，这才像话，除了性能，德意志你更缺乏的是经验，想要变强，就练习，练习，再练习！",
+			say = "哈哈，这才像话，除了性能，德意志妳更缺乏的是经验，想要变强，就练习，练习，再练习！",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 403040,
-			say = "不用你说我也知道！！",
+			say = "不用妳说我也知道！！",
 			flashN = {
 				color = {
 					1,
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，仆人，你看看这些公文这么处理是对的吗？",
+			say = "喂，仆人，妳看看这些公文这么处理是对的吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘁，为什么我身为你的主人要被你这个仆人表扬……",
+			say = "嘁，为什么我身为妳的主人要被妳这个仆人表扬……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			actor = 301320,
 			actorName = "{namecode:33}",
-			say = "德意志，你是不是有另一个名字呀？",
+			say = "德意志，妳是不是有另一个名字呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听起来感觉还挺威风的呢~能用这个名字来叫你吗？",
+			say = "听起来感觉还挺威风的呢~能用这个名字来叫妳吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，你想的话就随你高兴吧。",
+			say = "哼，妳想的话就随妳高兴吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说，仆人你在那一脸女儿长大了的表情看着我是怎么回事？",
+			say = "我说，仆人妳在那一脸女儿长大了的表情看着我是怎么回事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啧，身为我唯一的仆人，你也要努力成为配得上我的人才行，明白了吗！",
+			say = "啧，身为我唯一的仆人，妳也要努力成为配得上我的人才行，明白了吗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

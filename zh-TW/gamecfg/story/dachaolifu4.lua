@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			actor = 205011,
 			nameColor = "#a9f548",
-			say = "你·说·谁·是·小矮子啊啊啊啊啊啊！！！！你才是铁血的小矮子呢！！",
+			say = "妳·说·谁·是·小矮子啊啊啊啊啊啊！！！！妳才是铁血的小矮子呢！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			actor = 403043,
 			nameColor = "#a9f548",
-			say = "小矮子小矮子小矮子，说的就是你！",
+			say = "小矮子小矮子小矮子，说的就是妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			actor = 205011,
 			nameColor = "#a9f548",
-			say = "虽、虽然还不及皇家宴会的烟花，不过，姑且给你个及格分吧！",
+			say = "虽、虽然还不及皇家宴会的烟花，不过，姑且给妳个及格分吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			actor = 403043,
 			nameColor = "#a9f548",
-			say = "你说什么！！？？",
+			say = "妳说什么！！？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

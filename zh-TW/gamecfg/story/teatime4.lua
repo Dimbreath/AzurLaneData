@@ -35,7 +35,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，你出門時落在桌子上的鑰匙我幫你拿過來了",
+			say = "姐姐，妳出門時落在桌子上的鑰匙我幫妳拿過來了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘁，你嘗嘗看不就知道了——",
+			say = "嘁，妳嘗嘗看不就知道了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是嗎……嘿嘿~貝法，我最喜歡你啦！",
+			say = "是嗎……嘿嘿~貝法，我最喜歡妳啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

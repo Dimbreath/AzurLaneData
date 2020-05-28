@@ -5,8 +5,6 @@ function slot0.GetUIName(slot0)
 end
 
 function slot0.Load(slot0)
-	print("调用Load")
-
 	if slot0._state ~= uv0.STATES.NONE then
 		return
 	end

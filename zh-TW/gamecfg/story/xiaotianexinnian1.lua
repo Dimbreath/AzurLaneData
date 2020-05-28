@@ -343,7 +343,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "都这种时候了，难道你要让{namecode:143}新年穿着脏衣服么？",
+			say = "都这种时候了，难道妳要让{namecode:143}新年穿着脏衣服么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			actor = 301590,
 			nameColor = "#a9f548",
-			say = "好了，我知道了啦！真是的，明明是{namecode:143}做错了事为什么我要被你说……",
+			say = "好了，我知道了啦！真是的，明明是{namecode:143}做错了事为什么我要被妳说……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

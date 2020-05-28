@@ -231,7 +231,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 408040,
-			say = "你就不用介绍啦！准备撤退咯！",
+			say = "妳就不用介绍啦！准备撤退咯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你是U556吧，刚才这孩子已经介绍过了",
+			say = "妳是U556吧，刚才这孩子已经介绍过了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

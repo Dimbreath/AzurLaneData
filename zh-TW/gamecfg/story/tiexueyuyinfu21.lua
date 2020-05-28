@@ -167,7 +167,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			actorName = "测试者",
-			say = "…你的语气越来越接近这个时代的人类了",
+			say = "…妳的语气越来越接近这个时代的人类了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

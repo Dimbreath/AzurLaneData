@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你这回答简直和企业姐一个模板出来的……",
+			say = "妳这回答简直和企业姐一个模板出来的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，其实我还知道不少关于企业姐的一些小秘密！埃塞克斯，不知道你有没有兴趣——",
+			say = "对了，其实我还知道不少关于企业姐的一些小秘密！埃塞克斯，不知道妳有没有兴趣——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "咳，咳……关于你刚刚说的，企业前辈的一些秘密，我稍微有一些记录的兴趣……",
+			say = "咳，咳……关于妳刚刚说的，企业前辈的一些秘密，我稍微有一些记录的兴趣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼～不过，看起来你也不是随便吐露秘密的人~和你说应该没关系吧~",
+			say = "哼哼～不过，看起来妳也不是随便吐露秘密的人~和妳说应该没关系吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们在说什么呢？",
+			say = "妳们在说什么呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果可以的话，向她转告一下--“今天你做的非常棒，希望之后也能继续加油”。",
+			say = "如果可以的话，向她转告一下--“今天妳做的非常棒，希望之后也能继续加油”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天也辛苦你了。",
+			say = "今天也辛苦妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

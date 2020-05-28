@@ -328,7 +328,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "這次一定要好好“教育”一下這個妹妹呢，真是抱歉了呀，等我找到薩拉妹妹，再讓她來跟你好好道歉……",
+			say = "這次一定要好好“教育”一下這個妹妹呢，真是抱歉了呀，等我找到薩拉妹妹，再讓她來跟妳好好道歉……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

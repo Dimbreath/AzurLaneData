@@ -121,7 +121,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "你应该不会手下留情吧。",
+			say = "妳应该不会手下留情吧。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

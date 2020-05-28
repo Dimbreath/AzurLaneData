@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			say = "我跟你说哦，去年夏天铁血虽然已经加入了不少人，不过只有欧根一个人来过海边玩，今年就好多了呢~",
+			say = "我跟妳说哦，去年夏天铁血虽然已经加入了不少人，不过只有欧根一个人来过海边玩，今年就好多了呢~",
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "Z25前辈，Z46前辈，你们好。",
+			say = "Z25前辈，Z46前辈，妳们好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = -1,
 			actor = 401251,
 			nameColor = "#a9f548",
-			say = "欸欸欸？？你、你好……",
+			say = "欸欸欸？？妳、妳好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "齐柏林，你也过来坐坐吧。",
+			say = "齐柏林，妳也过来坐坐吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别这么说，敦刻尔克的甜点，错过就可惜了，你尝尝",
+			say = "别这么说，敦刻尔克的甜点，错过就可惜了，妳尝尝",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			}
 		},
 		{
-			say = "你就是传闻中那个“对谁都会喊前辈的新人”吗…",
+			say = "妳就是传闻中那个“对谁都会喊前辈的新人”吗…",
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -643,7 +643,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…看来你们对我的形象有着不少先入为主的观念啊…",
+			say = "…看来妳们对我的形象有着不少先入为主的观念啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

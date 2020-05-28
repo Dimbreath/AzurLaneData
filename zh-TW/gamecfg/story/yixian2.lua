@@ -10,7 +10,7 @@ return {
 			actor = 502030,
 			side = 1,
 			dir = -1,
-			say = "姐姐？你怎么又和逸仙在下棋呀？",
+			say = "姐姐？妳怎么又和逸仙在下棋呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			actor = 502030,
 			side = 1,
 			dir = -1,
-			say = "可你上次不是说训练——",
+			say = "可妳上次不是说训练——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 502010,
 			side = 1,
 			dir = 1,
-			say = "其实…我也知道你在乱动棋盘…",
+			say = "其实…我也知道妳在乱动棋盘…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 502020,
 			side = 0,
 			dir = -1,
-			say = "骗人！你不是蒙住眼了吗！",
+			say = "骗人！妳不是蒙住眼了吗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 502020,
 			side = 0,
 			dir = -1,
-			say = "比起这个，平海，是不是指挥官有任务下达？一定是这样，才让你来找我们的，对吧？",
+			say = "比起这个，平海，是不是指挥官有任务下达？一定是这样，才让妳来找我们的，对吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 502010,
 			side = 1,
 			dir = 1,
-			say = "用蹩脚的借口逃避可不值得赞扬哦？将军。好了，港区的事情就拜托你们了，指挥官那儿，我过去一趟就好",
+			say = "用蹩脚的借口逃避可不值得赞扬哦？将军。好了，港区的事情就拜托妳们了，指挥官那儿，我过去一趟就好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

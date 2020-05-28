@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 900232,
 			actorName = "观察者",
-			say = "「关键点G」，向你致以审判者大人的问候。",
+			say = "「关键点G」，向妳致以审判者大人的问候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			actor = 900232,
 			actorName = "观察者",
-			say = "所以，我们会提供活动基地。而你们，需要保证这里的研究不会落入不应得到之人手中。",
+			say = "所以，我们会提供活动基地。而妳们，需要保证这里的研究不会落入不应得到之人手中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			actor = 900232,
 			actorName = "观察者",
-			say = "至此，谈妥了。执行者舰队的配属坐标将在稍后向你们同步，记得在行动中避开。",
+			say = "至此，谈妥了。执行者舰队的配属坐标将在稍后向妳们同步，记得在行动中避开。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "與其說自信…不如說，初春姐你除了特別的幾個人之外，連正常對話都蠻辛苦的吧？",
+			say = "與其說自信…不如說，初春姐妳除了特別的幾個人之外，連正常對話都蠻辛苦的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸嘿嘿，剛好回來聽到你們在聊天嘛",
+			say = "欸嘿嘿，剛好回來聽到妳們在聊天嘛",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…謝謝你的鼓勵…我感覺似乎可以努力一下了",
+			say = "嗯…謝謝妳的鼓勵…我感覺似乎可以努力一下了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…被你們這麼一說…好像確實是這樣…",
+			say = "嗯…被妳們這麼一說…好像確實是這樣…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

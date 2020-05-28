@@ -232,7 +232,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:90}，请留意一下你的吃相",
+			say = "{namecode:90}，请留意一下妳的吃相",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -27,7 +27,7 @@ return {
 			bgName = "bg_italy_cg3",
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "皇家舰队！你们究竟是怎么办到的，我们分成3个方向行进的路线居然都被你们发现了？！",
+			say = "皇家舰队！妳们究竟是怎么办到的，我们分成3个方向行进的路线居然都被妳们发现了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_italy_cg3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "这批袭击了港口的剑鱼也是你的杰作么？",
+			say = "这批袭击了港口的剑鱼也是妳的杰作么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "哈哈哈，真是不可思议的女人，如果你是帝国的一员，想必我也会迷上你的吧！",
+			say = "哈哈哈，真是不可思议的女人，如果妳是帝国的一员，想必我也会迷上妳的吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

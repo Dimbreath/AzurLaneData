@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10300030,
-			say = "你这么一说……风景是有那么一点眼熟呢……",
+			say = "妳这么一说……风景是有那么一点眼熟呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "猫音说的对喵——{namecode:98}之前就是在快到这里的地方发现久远你们的",
+			say = "猫音说的对喵——{namecode:98}之前就是在快到这里的地方发现久远妳们的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然是这样！从你们说是塞壬搞的鬼开始我就一直有这种预感了",
+			say = "果然是这样！从妳们说是塞壬搞的鬼开始我就一直有这种预感了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "净化者",
-			say = "那就给你对对答案了哦？这里的确是镜面海域，而且的确借鉴了你们世界的“梦幻演武”的结界技术哦",
+			say = "那就给妳对对答案了哦？这里的确是镜面海域，而且的确借鉴了妳们世界的“梦幻演武”的结界技术哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "净化者",
-			say = "不过…从你们的世界稍微来了点麻烦呢",
+			say = "不过…从妳们的世界稍微来了点麻烦呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			say = "如果是主人的话，我保证他一定会为了救我们拼了命来阻止你们的",
+			say = "如果是主人的话，我保证他一定会为了救我们拼了命来阻止妳们的",
 			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",

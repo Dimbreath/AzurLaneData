@@ -28,7 +28,7 @@ return {
 		},
 		{
 			side = 0,
-			say = "你剛才在關鍵時刻手下留情了吧？",
+			say = "妳剛才在關鍵時刻手下留情了吧？",
 			actorName = "{namecode:96}",
 			actor = 307060,
 			nameColor = "#a9f548",
@@ -54,7 +54,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "才...才沒有呢！人家才沒有想告訴你{namecode:95}其實被她們封鎖在聖域中心的那座大房子裡呢！",
+			say = "才...才沒有呢！人家才沒有想告訴妳{namecode:95}其實被她們封鎖在聖域中心的那座大房子裡呢！",
 			shake = {
 				speed = 1,
 				number = 3

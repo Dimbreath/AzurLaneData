@@ -24,7 +24,7 @@ return {
 			bgName = "bg_story_outdoor",
 			bgm = "main-newyear",
 			nameColor = "#a9f548",
-			say = "早就听说重樱的新年格外热闹，听你们刚才讲的食物和活动，似乎…真的挺有趣的？",
+			say = "早就听说重樱的新年格外热闹，听妳们刚才讲的食物和活动，似乎…真的挺有趣的？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯嗯？难道你们也想吃{namecode:98}的手打年糕嘛？跟你们讲，超级好吃的哦！",
+			say = "嗯嗯？难道妳们也想吃{namecode:98}的手打年糕嘛？跟妳们讲，超级好吃的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别这么说嘛！虽然阵营不同，但大家都是共同维护港区和平的同僚们呀！你也要学会放松，哈哈！",
+			say = "别这么说嘛！虽然阵营不同，但大家都是共同维护港区和平的同僚们呀！妳也要学会放松，哈哈！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -52,7 +52,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "等等…！这片海域，你们叫hololive服务器来着，是你们原本的基地吧？",
+			say = "等等…！这片海域，妳们叫hololive服务器来着，是妳们原本的基地吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "在这样重要的基地里，为什么会存在反抗军基地啊？！而且你们似乎一点都不吃惊…",
+			say = "在这样重要的基地里，为什么会存在反抗军基地啊？！而且妳们似乎一点都不吃惊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "原来如此。你们住在hololive世界的holo服务器中，就是为了反抗邪恶的运营吧？大概明白了",
+			say = "原来如此。妳们住在hololive世界的holo服务器中，就是为了反抗邪恶的运营吧？大概明白了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

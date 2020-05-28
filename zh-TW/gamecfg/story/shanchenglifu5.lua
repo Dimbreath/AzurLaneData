@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 202152,
 			nameColor = "#a9f548",
-			say = "来到港区以后有所变化的，不只是你，大家都是这样的。",
+			say = "来到港区以后有所变化的，不只是妳，大家都是这样的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			actor = 105141,
 			nameColor = "#a9f548",
-			say = "……我就当你是在夸我了。",
+			say = "……我就当妳是在夸我了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，不过你会选择钢琴确实有些出人意料呢。",
+			say = "呵呵，不过妳会选择钢琴确实有些出人意料呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			actor = 202152,
 			nameColor = "#a9f548",
-			say = "嗯，这么说的话，说不定你与钢琴其实意外的合拍呢。",
+			say = "嗯，这么说的话，说不定妳与钢琴其实意外的合拍呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			actor = 202152,
 			nameColor = "#a9f548",
-			say = "……南达科他，看起来你还不知道你的魅力有多大呢。",
+			say = "……南达科他，看起来妳还不知道妳的魅力有多大呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			actor = 202152,
 			nameColor = "#a9f548",
-			say = "呵，等指挥官过来的时候，你亲自去问合不合身就好了。",
+			say = "呵，等指挥官过来的时候，妳亲自去问合不合身就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

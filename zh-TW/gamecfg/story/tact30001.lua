@@ -6,7 +6,7 @@ return {
 		{
 			side = 0,
 			actor = 213011,
-			say = "你们是……重樱不是也在准备七夕……？为什么{namecode:91}小姐和{namecode:92}小姐……会在这种地方……",
+			say = "妳们是……重樱不是也在准备七夕……？为什么{namecode:91}小姐和{namecode:92}小姐……会在这种地方……",
 			shake = {
 				speed = 1,
 				number = 3

@@ -99,7 +99,7 @@ return {
 		{
 			side = 0,
 			actor = 213011,
-			say = "……那……你也要过七夕吗？",
+			say = "……那……妳也要过七夕吗？",
 			shake = {
 				speed = 1,
 				number = 3
@@ -116,7 +116,7 @@ return {
 		{
 			side = 1,
 			actor = 305020,
-			say = "嗯，姐姐说虽然日子不一样，但机会难得，就让{namecode:79}也一起准备了！{namecode:79}还要准备好多东西，就不陪你啦~",
+			say = "嗯，姐姐说虽然日子不一样，但机会难得，就让{namecode:79}也一起准备了！{namecode:79}还要准备好多东西，就不陪妳啦~",
 			shake = {
 				speed = 1,
 				number = 3

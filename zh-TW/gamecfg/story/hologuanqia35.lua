@@ -189,7 +189,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 10500020,
-			say = "你是…被塞壬制造出的“镜像”么？",
+			say = "妳是…被塞壬制造出的“镜像”么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500010,
-			say = "那边的…空前辈？你会阻拦我们继续前进么",
+			say = "那边的…空前辈？妳会阻拦我们继续前进么",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			actor = 10500020,
 			actorName = "时乃空？",
-			say = "嗯，会阻止你们哦。",
+			say = "嗯，会阻止妳们哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			say = "那么你就是敌人咯？哈哈哈哈！早就想说一次这句台词了~！！",
+			say = "那么妳就是敌人咯？哈哈哈哈！早就想说一次这句台词了~！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

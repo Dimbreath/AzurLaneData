@@ -129,7 +129,7 @@ return {
 			bgName = "star_level_bg_121",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦…？不错嘛，期待你在台上的表现呢，姐·姐～",
+			say = "哦…？不错嘛，期待妳在台上的表现呢，姐·姐～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "star_level_bg_121",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舞台亦是另一个“战场”，姐姐，你的战斗，我会全部看着的…！",
+			say = "舞台亦是另一个“战场”，姐姐，妳的战斗，我会全部看着的…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

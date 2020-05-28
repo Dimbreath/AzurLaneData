@@ -27,7 +27,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			say = "当时你就是用这个武器把胡德击败的，在这个距离上",
+			say = "当时妳就是用这个武器把胡德击败的，在这个距离上",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那么，我们就在这个距离上击败你，击败你这个失去荣耀的狂信徒！",
+			say = "那么，我们就在这个距离上击败妳，击败妳这个失去荣耀的狂信徒！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

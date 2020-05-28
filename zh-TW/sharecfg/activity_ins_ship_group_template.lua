@@ -113,7 +113,7 @@ pg.activity_ins_ship_group_template = {
 	[49902] = {
 		ship_group = 49902,
 		name = "SymphonicStigma",
-		sculpture = "feiteliedadi_2"
+		sculpture = "feiteliedadi"
 	},
 	[20220] = {
 		ship_group = 20220,
@@ -278,7 +278,7 @@ pg.activity_ins_ship_group_template = {
 	[30505] = {
 		ship_group = 30505,
 		name = "SakuraCombinedFleet",
-		sculpture = "changmen_3"
+		sculpture = "changmen"
 	},
 	[30607] = {
 		ship_group = 30607,
@@ -435,6 +435,191 @@ pg.activity_ins_ship_group_template = {
 		name = "YorkTown",
 		sculpture = "yuekecheng"
 	},
+	[90111] = {
+		ship_group = 90111,
+		name = "VivaLaze",
+		sculpture = "edu"
+	},
+	[20215] = {
+		ship_group = 20215,
+		name = "AuroraRose",
+		sculpture = "ouruola"
+	},
+	[90501] = {
+		ship_group = 90501,
+		name = "PirateKnight",
+		sculpture = "rangbaer"
+	},
+	[40501] = {
+		ship_group = 40501,
+		name = "Bismarck",
+		sculpture = "bisimai"
+	},
+	[10212] = {
+		ship_group = 10212,
+		name = "Honolulu",
+		sculpture = "huonululu"
+	},
+	[30405] = {
+		ship_group = 30405,
+		name = "Amagi",
+		sculpture = "tiancheng"
+	},
+	[29902] = {
+		ship_group = 29902,
+		name = "Monarch",
+		sculpture = "junzhu"
+	},
+	[20604] = {
+		ship_group = 20604,
+		name = "CenAlpha",
+		sculpture = "banrenma"
+	},
+	[30312] = {
+		ship_group = 30312,
+		name = "Atago",
+		sculpture = "aidang"
+	},
+	[30311] = {
+		ship_group = 30311,
+		name = "Takao",
+		sculpture = "gaoxiong"
+	},
+	[30313] = {
+		ship_group = 30313,
+		name = "Maya",
+		sculpture = "moye"
+	},
+	[30314] = {
+		ship_group = 30314,
+		name = "ToriUmi",
+		sculpture = "niaohai"
+	},
+	[30116] = {
+		ship_group = 30116,
+		name = "SnowStorm",
+		sculpture = "xuefeng"
+	},
+	[10205] = {
+		ship_group = 10205,
+		name = "HelenaSG",
+		sculpture = "hailunna"
+	},
+	[10105] = {
+		ship_group = 10105,
+		name = "GL_SaraNo1",
+		sculpture = "gelideli"
+	},
+	[80101] = {
+		ship_group = 80101,
+		name = "Le.Triomphant",
+		sculpture = "kaixuan"
+	},
+	[80801] = {
+		ship_group = 80801,
+		name = "P.P.O",
+		sculpture = "xukufu"
+	},
+	[90103] = {
+		ship_group = 90103,
+		name = "Vauquelin",
+		sculpture = "wokelan"
+	},
+	[90102] = {
+		ship_group = 90102,
+		name = "Tartu",
+		sculpture = "taertu"
+	},
+	[10519] = {
+		ship_group = 10519,
+		name = "2700P.Justice",
+		sculpture = "masazhusai"
+	},
+	[80501] = {
+		ship_group = 80501,
+		name = "Richelieu",
+		sculpture = "lisailiu"
+	},
+	[90302] = {
+		ship_group = 90302,
+		name = "Algérie",
+		sculpture = "aerjiliya"
+	},
+	[50103] = {
+		ship_group = 50103,
+		name = "ChangChun",
+		sculpture = "changchun"
+	},
+	[50104] = {
+		ship_group = 50104,
+		name = "TaiYuan",
+		sculpture = "taiyuan"
+	},
+	[30115] = {
+		ship_group = 30115,
+		name = "LuckyShigure",
+		sculpture = "shiyu"
+	},
+	[30114] = {
+		ship_group = 30114,
+		name = "NikuSuki",
+		sculpture = "xili"
+	},
+	[40804] = {
+		ship_group = 40804,
+		name = "U.B.556",
+		sculpture = "u556"
+	},
+	[40502] = {
+		ship_group = 40502,
+		name = "Tirpitz",
+		sculpture = "tierbici"
+	},
+	[10213] = {
+		ship_group = 10213,
+		name = "Lucky Lou",
+		sculpture = "shengluyisi"
+	},
+	[39901] = {
+		ship_group = 39901,
+		name = "Ibuki",
+		sculpture = "yichui"
+	},
+	[20505] = {
+		ship_group = 20505,
+		name = "King.Geoge.V",
+		sculpture = "qiaozhiwushi"
+	},
+	[20501] = {
+		ship_group = 20501,
+		name = "QueenEliz",
+		sculpture = "yilishabai"
+	},
+	[20705] = {
+		ship_group = 20705,
+		name = "Formidable",
+		sculpture = "kewei"
+	},
+	[20704] = {
+		ship_group = 20704,
+		name = "Victorious",
+		sculpture = "shengli"
+	},
+	[30212] = {
+		ship_group = 30212,
+		name = "Zendai",
+		sculpture = "chuannei"
+	},
+	[30213] = {
+		ship_group = 30213,
+		name = "Jintuu",
+		sculpture = "shentong"
+	},
+	[40101] = {
+		ship_group = 40101,
+		name = "L.Maaß",
+		sculpture = "z1"
+	},
 	all = {
 		30701,
 		30702,
@@ -522,6 +707,43 @@ pg.activity_ins_ship_group_template = {
 		10125,
 		10117,
 		20101,
-		10705
+		10705,
+		90111,
+		20215,
+		90501,
+		40501,
+		10212,
+		30405,
+		29902,
+		20604,
+		30312,
+		30311,
+		30313,
+		30314,
+		30116,
+		10205,
+		10105,
+		80101,
+		80801,
+		90103,
+		90102,
+		10519,
+		80501,
+		90302,
+		50103,
+		50104,
+		30115,
+		30114,
+		40804,
+		40502,
+		10213,
+		39901,
+		20505,
+		20501,
+		20705,
+		20704,
+		30212,
+		30213,
+		40101
 	}
 }

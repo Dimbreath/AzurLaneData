@@ -3941,6 +3941,128 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[5100100] = {
+		map = 5100100,
+		name = "光與影的鳶尾之華-前篇|| ||CHAPTER EX||E.X.",
+		bgm = "level03",
+		type = 4,
+		on_activity = 40121,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "FAXI01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1140001",
+		cloud_suffix = "",
+		bg = "Map_1140001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 5100110,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[5100101] = {
+		map = 5100101,
+		name = "光與影的鳶尾之華-後篇|| ||CHAPTER EX||E.X.",
+		bgm = "Level-french2",
+		type = 4,
+		on_activity = 40122,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "FAXI05",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1140002",
+		cloud_suffix = "",
+		bg = "Map_1140002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 5100111,
+		clouds_pos = {}
+	},
+	[5100110] = {
+		map = 5100110,
+		name = "光與影的鳶尾之華-前篇|| ||CHAPTER EX||E.X.",
+		bgm = "level03",
+		type = 5,
+		on_activity = 40121,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "FAXI01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1140002",
+		cloud_suffix = "",
+		bg = "Map_1140002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 5100100,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[5100111] = {
+		map = 5100111,
+		name = "光與影的鳶尾之華-後篇|| ||CHAPTER EX||E.X.",
+		bgm = "Level-french2",
+		type = 5,
+		on_activity = 40122,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "FAXI05",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1140003",
+		cloud_suffix = "",
+		bg = "Map_1140003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 5100101,
+		clouds_pos = {}
+	},
 	all = {
 		1,
 		2,
@@ -4036,6 +4158,10 @@ pg.expedition_data_by_map = {
 		5100001,
 		5100010,
 		5100011,
-		5100013
+		5100013,
+		5100100,
+		5100101,
+		5100110,
+		5100111
 	}
 }

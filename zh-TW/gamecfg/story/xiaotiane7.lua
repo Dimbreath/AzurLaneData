@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 201080,
 			nameColor = "#a9f548",
-			say = "皇家方舟小姐，對不起…不該那麼輕易地就認定你是兇手…",
+			say = "皇家方舟小姐，對不起…不該那麼輕易地就認定妳是兇手…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "還、還不是皇家方舟小姐平時的言行造就的惡果嘛！不、不過姑且還是給你道個歉，對、對不起啦…",
+			say = "還、還不是皇家方舟小姐平時的言行造就的惡果嘛！不、不過姑且還是給妳道個歉，對、對不起啦…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

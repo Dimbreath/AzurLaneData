@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢、谢谢你，标枪",
+			say = "谢、谢谢妳，标枪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们三个要小心哦！差不多到时间就尽快回来！",
+			say = "妳们三个要小心哦！差不多到时间就尽快回来！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			actor = 900179,
 			nameColor = "#a9f548",
-			say = "谢谢你呜呜呜！救了我一命——！",
+			say = "谢谢妳呜呜呜！救了我一命——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "认识拉菲…？拉菲，你在哪里和她认识过吗？",
+			say = "认识拉菲…？拉菲，妳在哪里和她认识过吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			actor = 900179,
 			nameColor = "#a9f548",
-			say = "诶诶诶！骗人的吧！？难道你忘了吗！和我一起越过重重磨难的那些日子！",
+			say = "诶诶诶！骗人的吧！？难道妳忘了吗！和我一起越过重重磨难的那些日子！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -770,7 +770,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，我还没自我介绍过吧！我的名字是绊爱！你们叫我爱酱就可以了哦！",
+			say = "啊，我还没自我介绍过吧！我的名字是绊爱！妳们叫我爱酱就可以了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -898,7 +898,7 @@ return {
 			dir = 1,
 			actor = 900179,
 			nameColor = "#a9f548",
-			say = "哼哼哼～既然都说到这份上了，就给你们演示一下吧！锵咔锵咔锵咔～锵！",
+			say = "哼哼哼～既然都说到这份上了，就给妳们演示一下吧！锵咔锵咔锵咔～锵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1169,7 +1169,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是，抱住你的这个应该是好的爱酱",
+			say = "不是，抱住妳的这个应该是好的爱酱",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1368,7 +1368,7 @@ return {
 			dir = 1,
 			actor = 900179,
 			nameColor = "#a9f548",
-			say = "你说什么！这是不把BUG修好就回不去的套路吗！？",
+			say = "妳说什么！这是不把BUG修好就回不去的套路吗！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -228,7 +228,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_105",
-			say = "“你也应该有自己的愿望哦”，陛下是这么说的——",
+			say = "“妳也应该有自己的愿望哦”，陛下是这么说的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -20,6 +20,28 @@ function slot2.Ctor(slot0)
 end
 
 function slot2.IsReady(slot0)
+	return slot0:IsPreWavesFinished() and slot0:IsFlagsPass()
+end
+
+function slot2.IsFlagsPass(slot0)
+	if not slot0._blockFlags or not next(slot0._blockFlags) then
+		return true
+	end
+
+	if not uv0.Battle.BattleDataProxy.GetInstance():GetInitData().StageWaveFlags or not next(slot2) then
+		return false
+	end
+
+	for slot6, slot7 in ipairs(slot0._blockFlags) do
+		if not table.contains(slot2, slot7) then
+			return false
+		end
+	end
+
+	return true
+end
+
+function slot2.IsPreWavesFinished(slot0)
 	slot1 = #slot0._preWaves
 	slot2 = nil
 
@@ -87,6 +109,7 @@ function slot2.SetWaveData(slot0, slot1)
 	slot0._param = slot1.triggerParams or {}
 	slot0._preWaveIDs = slot1.preWaves or {}
 	slot0._branchWaveIDs = slot1.conditionWaves or {}
+	slot0._blockFlags = slot1.blockFlags
 	slot0._state = uv0.STATE_DEACTIVE
 end
 

@@ -517,7 +517,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巨大化的爱小姐，还有迷你绊爱的空袭……糟糕了……",
+			say = "巨大化的爱小姐，还有迷妳绊爱的空袭……糟糕了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

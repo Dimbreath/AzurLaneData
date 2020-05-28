@@ -58,7 +58,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以我在这里呀~我帮你吧，{namecode:165}小姐~",
+			say = "所以我在这里呀~我帮妳吧，{namecode:165}小姐~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			actor = 399041,
 			nameColor = "#a9f548",
-			say = "嘻嘻~谢谢你，帮大忙了呢，{namecode:46}~",
+			say = "嘻嘻~谢谢妳，帮大忙了呢，{namecode:46}~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一点小事~赶紧准备好，东煌的各位，还有其他港区的伙伴都在等着我们了吧",
+			say = "一点小事~赶紧准备好，东煌的各位，还有其他港区的夥伴都在等着我们了吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "star_level_bg_128",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵~今年的春节晚会，除了美食和饮品，还有港区的伙伴们特别准备的节目表演呢~",
+			say = "呵呵~今年的春节晚会，除了美食和饮品，还有港区的夥伴们特别准备的节目表演呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "star_level_bg_128",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…竟然要表演小话剧什么的…你们一会可别忘词了啊！",
+			say = "呼…竟然要表演小话剧什么的…妳们一会可别忘词了啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

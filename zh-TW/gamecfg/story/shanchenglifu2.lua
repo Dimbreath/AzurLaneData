@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			say = "啊，{namecode:97}，你也来找殿下呀~",
+			say = "啊，{namecode:97}，妳也来找殿下呀~",
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "你是说平时的我很吵闹吗？",
+			say = "妳是说平时的我很吵闹吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "话、话说…{namecode:97}你才刚加入舰队，居然就准备了礼服呀，而且好漂亮哦…",
+			say = "话、话说…{namecode:97}妳才刚加入舰队，居然就准备了礼服呀，而且好漂亮哦…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "不过庆典这么热闹，{namecode:97}你没有去参加总觉得有点可惜呢。",
+			say = "不过庆典这么热闹，{namecode:97}妳没有去参加总觉得有点可惜呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "{namecode:79}你呢，有参加什么活动吗？",
+			say = "{namecode:79}妳呢，有参加什么活动吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:79}，不妨你也坐下来喝一杯如何？",
+			say = "{namecode:79}，不妨妳也坐下来喝一杯如何？",
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -769,7 +769,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "呵呵，不是烈酒，给你喝一点应该也没关系……",
+			say = "呵呵，不是烈酒，给妳喝一点应该也没关系……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

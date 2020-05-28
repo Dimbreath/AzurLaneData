@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"絮库夫的一天\n\n<size=45>三 工作的絮库夫</size>",
+					"速科夫的一天\n\n<size=45>三 工作的速科夫</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "指挥官，好无聊……",
+			say = "指揮官，好無聊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			},
 			options = {
 				{
-					content = "让她看时间",
+					content = "讓她看時間",
 					flag = 1
 				}
 			}
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，才过了半小时吗？！我感觉已经过了一个世纪那么久欸！",
+			say = "欸，才過了半小時嗎？！我感覺已經過了一個世紀那麼久欸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "哎嘿嘿~指挥官，忙不忙嘛，不忙的话来聊天呀",
+			say = "哎嘿嘿~指揮官，忙不忙嘛，不忙的話來聊天呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "点头",
+					content = "點頭",
 					flag = 2
 				}
 			}
@@ -116,7 +116,7 @@ return {
 			optionFlag = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "那就我来说，你听着就好了~",
+			say = "那就我來說，妳聽著就好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……不过今天居然已经坚持了半小时，对她来说已经非常了不起了。",
+			say = "……不過今天居然已經堅持了半小時，對她來說已經非常了不起了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官是被我的身材吸引才让我来担任秘书舰的吧~",
+			say = "指揮官是被我的身材吸引才讓我來擔任秘書艦的吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟大家看到我都会在意我的身材，指挥官喜欢的话也说明我有魅力嘛，嘻嘻~",
+			say = "畢竟大家看到我都會在意我的身材，指揮官喜歡的話也說明我有魅力嘛，嘻嘻~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我有没有和你说过，我是少数能搭载飞机的潜艇哦~",
+			say = "指揮官，我有沒有和妳說過，我是少數能搭載飛機的潛艇哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给你看看我的……咦，我的路路通哪里去啦？",
+			say = "給妳看看我的……咦，我的帕斯巴德哪裡去啦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！！出门叫指挥官起床时忘了带……算了，反正平时也用不着。",
+			say = "啊！！出門叫指揮官起床時忘了帶……算了，反正平時也用不著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官，快看这款泳装，好像挺适合我的耶！",
+			say = "啊，指揮官，快看這款泳裝，好像挺適合我的耶！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是今夏新款……嗯嗯，等工资发下来了就去买来穿给指挥官看~",
+			say = "還是今夏新款……嗯嗯，等工資發下來了就去買來穿給指揮官看~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，你觉得我们舰队的旗帜应该用什么配色比较好？",
+			say = "指揮官，妳覺得我們艦隊的旗幟應該用什麼配色比較好？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "蓝白虽然好看，不过总觉得有点腻了……",
+			say = "藍白雖然好看，不過總覺得有點膩了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "好像又有精神了！指挥官，絮库夫又精力充沛地来帮忙啦！",
+			say = "好像又有精神了！指揮官，速科夫又精力充沛地來幫忙啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊，已经午休时间了吗。",
+			say = "啊，已經午休時間了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "那就先吃午饭吧，诶嘿~",
+			say = "那就先吃午飯吧，誒嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 		},
 		options = {
 			{
-				content = "让她看时间",
+				content = "讓她看時間",
 				flag = 1
 			}
 		}

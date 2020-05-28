@@ -252,7 +252,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "“能陪你们一起战斗到这一刻真是太好了…”",
+			say = "“能陪妳们一起战斗到这一刻真是太好了…”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

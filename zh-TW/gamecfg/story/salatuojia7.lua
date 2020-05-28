@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "哇，這是我的照片！？指揮官莫非你——",
+			say = "哇，這是我的照片！？指揮官莫非妳——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			optionFlag = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "太可疑了~那你是找誰拿來的~？",
+			say = "太可疑了~那妳是找誰拿來的~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

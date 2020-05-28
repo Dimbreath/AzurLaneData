@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，既然你都这么说了，那就依你的吧。",
+			say = "呵呵，既然妳都这么说了，那就依妳的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 301320,
 			nameColor = "#a9f548",
-			say = "指挥官，还有，那个，唔……给你们糖~",
+			say = "指挥官，还有，那个，唔……给妳们糖~",
 			flashout = {
 				dur = 0.5,
 				black = true,

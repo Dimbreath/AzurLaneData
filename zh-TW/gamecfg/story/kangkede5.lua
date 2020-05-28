@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
-			say = "每天吃同一個人做的甜品，說不定也會膩~你說是吧？",
+			say = "每天吃同一個人做的甜品，說不定也會膩~妳說是吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是康克德，你從來沒做過甜點吧？",
+			say = "但是康克德，妳從來沒做過甜點吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐我也會給你加油鼓勁的！要是好吃的話，以後一年份的零食就換成康克德的甜點了",
+			say = "姐姐我也會給妳加油鼓勁的！要是好吃的話，以後一年份的零食就換成康克德的甜點了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

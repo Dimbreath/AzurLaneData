@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根据情报，斯佩伯爵虽然击沉了数只商船，但是救助了落水的船员，看在这一点的份上，放你一马。",
+			say = "根据情报，斯佩伯爵虽然击沉了数只商船，但是救助了落水的船员，看在这一点的份上，放妳一马。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "呵……你这人，虽然阴险，人还不错……嘛……",
+			say = "呵……妳这人，虽然阴险，人还不错……嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是说，出于高贵的骑士精神，你想要自告奋勇拖着她走？",
+			say = "还是说，出于高贵的骑士精神，妳想要自告奋勇拖着她走？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你这人……我知道了，继续前进吧。",
+			say = "妳这人……我知道了，继续前进吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

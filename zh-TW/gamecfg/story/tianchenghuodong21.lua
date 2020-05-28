@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "{namecode:92}，这块勾玉送给你。把它戴在身上，必要的时候可是会救你一命的哦~",
+			say = "{namecode:92}，这块勾玉送给妳。把它戴在身上，必要的时候可是会救妳一命的哦~",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -46,7 +46,7 @@ return {
 			blackBg = true,
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "其实我给{namecode:91}也准备了一个，给你的是一对...-不，是备用的~",
+			say = "其实我给{namecode:91}也准备了一个，给妳的是一对...-不，是备用的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 		{
 			expression = 1,
 			side = 0,
-			say = "怎么突然送我这么贵重的东西，你是无事献殷勤，还是有所图谋？",
+			say = "怎么突然送我这么贵重的东西，妳是无事献殷勤，还是有所图谋？",
 			dir = -1,
 			blackBg = true,
 			actor = 305070,
@@ -84,7 +84,7 @@ return {
 			blackBg = true,
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "想什么呢，不过是去祈愿时顺便买的便宜货，你也顺便收下就是了，呵呵呵~",
+			say = "想什么呢，不过是去祈愿时顺便买的便宜货，妳也顺便收下就是了，呵呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "这么说来，这也算是你第一次送我的礼物吧。哼，那我就不客气了！",
+			say = "这么说来，这也算是妳第一次送我的礼物吧。哼，那我就不客气了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			nameColor = "#ff0000",
-			say = "（又被你提前算到了一步…最后果然还是输给了你啊)",
+			say = "（又被妳提前算到了一步…最后果然还是输给了妳啊)",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -269,7 +269,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（不过，对于塞壬...现在的情况似乎有点超出你的预料之外了…)",
+			say = "（不过，对于塞壬...现在的情况似乎有点超出妳的预料之外了…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（如果是你的话，能告诉我接下来该如何选择吗？)",
+			say = "（如果是妳的话，能告诉我接下来该如何选择吗？)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			nameColor = "#ff0000",
-			say = "既然如此，不如将计就计…就让我来看看你们究竟有多大的本事吧～",
+			say = "既然如此，不如将计就计…就让我来看看妳们究竟有多大的本事吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

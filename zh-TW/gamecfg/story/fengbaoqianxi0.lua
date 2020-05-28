@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_newyork",
 			side = 2,
 			dir = -1,
-			say = "白鹰的诸位，对于本次访问期间受到的热情款待，我代表皇家向你们致以衷心的感谢",
+			say = "白鹰的诸位，对于本次访问期间受到的热情款待，我代表皇家向妳们致以衷心的感谢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_newyork",
 			side = 2,
 			dir = 1,
-			say = "也不用这么正式啦，威尔士小姐，白鹰纽约港可是随时向皇家和各位伙伴开放的哦",
+			say = "也不用这么正式啦，威尔士小姐，白鹰纽约港可是随时向皇家和各位夥伴开放的哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

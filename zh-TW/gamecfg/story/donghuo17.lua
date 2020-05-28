@@ -103,7 +103,7 @@ return {
 			blackBg = true,
 			actor = 900136,
 			actorName = "織夢者",
-			say = "嗯…接下來就勞煩你們去“地獄”走一趟了…",
+			say = "嗯…接下來就勞煩妳們去“地獄”走一趟了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

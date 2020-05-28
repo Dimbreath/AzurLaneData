@@ -194,7 +194,7 @@ return {
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "顶着浓厚的海雾出海，可是会碰到恐怖塞壬出没的，你们的传说没这么说过么？",
+			say = "顶着浓厚的海雾出海，可是会碰到恐怖塞壬出没的，妳们的传说没这么说过么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			actor = 900021,
 			actorName = "净化者",
-			say = "啊~你们的低级加密通讯，已经被我拿去做更有趣的事了~",
+			say = "啊~妳们的低级加密通讯，已经被我拿去做更有趣的事了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			actor = 900021,
 			actorName = "净化者",
-			say = "在这片异常的海雾里通讯居然还能正常使用，你们就没想过为什么么？",
+			say = "在这片异常的海雾里通讯居然还能正常使用，妳们就没想过为什么么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			actor = 900021,
 			actorName = "净化者",
-			say = "利用了哦~虽然你们估计还不知道是怎么被利用的吧",
+			say = "利用了哦~虽然妳们估计还不知道是怎么被利用的吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			actor = 900021,
 			actorName = "净化者",
-			say = "咳咳，忘了说了，你们的导航系统也被我干扰了哦~",
+			say = "咳咳，忘了说了，妳们的导航系统也被我干扰了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "净化者、在我下手之前，坦白你的阴谋吧",
+			say = "净化者、在我下手之前，坦白妳的阴谋吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			actor = 900021,
 			actorName = "净化者",
-			say = "哈啊？怎么可能坦白啊！又是干扰又是伪装，折腾了这么久谁会老老实实告诉你计划啊！",
+			say = "哈啊？怎么可能坦白啊！又是干扰又是伪装，折腾了这么久谁会老老实实告诉妳计划啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			actor = 900021,
 			actorName = "净化者",
-			say = "主角还没到场，你们现在哪儿都不能去哦！",
+			say = "主角还没到场，妳们现在哪儿都不能去哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

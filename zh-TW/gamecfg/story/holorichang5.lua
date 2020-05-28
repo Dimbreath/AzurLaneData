@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			say = "哈？我有允许你碰我吗？",
+			say = "哈？我有允许妳碰我吗？",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你这家伙是怎么回事，怎么在说些怪话。",
+			say = "妳这家伙是怎么回事，怎么在说些怪话。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "我可以和你交朋友吗？",
+			say = "我可以和妳交朋友吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈？！随……随你高兴。",
+			say = "哈？！随……随妳高兴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 403010,
 			nameColor = "#a9f548",
-			say = "欧根，你这家伙从哪里冒出来的，不要偷听啊！",
+			say = "欧根，妳这家伙从哪里冒出来的，不要偷听啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你叫白上吹雪是么，如果要和这家伙做朋友的话，还是要小心一点。我家的希佩尔脾气稍微有点差哦~",
+			say = "妳叫白上吹雪是么，如果要和这家伙做朋友的话，还是要小心一点。我家的希佩尔脾气稍微有点差哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			actor = 403010,
 			nameColor = "#a9f548",
-			say = "她是要和我交朋友，不用你多事啦！",
+			say = "她是要和我交朋友，不用妳多事啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好好，那就祝你不要把新朋友气跑了哦。",
+			say = "好好，那就祝妳不要把新朋友气跑了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳，总之，你不要听欧根的鬼话。",
+			say = "咳咳，总之，妳不要听欧根的鬼话。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你知道什么？……总之，我现在正好要去找指挥官那个笨蛋，你要一起来吗？",
+			say = "妳知道什么？……总之，我现在正好要去找指挥官那个笨蛋，妳要一起来吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -202,7 +202,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "光榮前輩……你……",
+			say = "光榮前輩……妳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼、哼！好吧！證據也不夠充分，今天就先放你一馬！皇家方舟，你走吧！",
+			say = "哼、哼！好吧！證據也不夠充分，今天就先放妳一馬！皇家方舟，妳走吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			}
 		},
 		{
-			say = "不必客氣！小事一樁。……皇家方舟你能被無罪釋放真是太好了。",
+			say = "不必客氣！小事一樁。……皇家方舟妳能被無罪釋放真是太好了。",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,

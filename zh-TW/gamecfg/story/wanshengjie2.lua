@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "哈哈，重櫻的少女們啊，你們就好好期待那天吧！",
+			say = "哈哈，重櫻的少女們啊，妳們就好好期待那天吧！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 306051,
 			nameColor = "#a9f548",
-			say = "氣氛好像更緊張了……{namecode:6}，你怎麼看？",
+			say = "氣氛好像更緊張了……{namecode:6}，妳怎麼看？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -234,7 +234,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "等、等等——！！你們就不懂得進門之前先敲門嗎！",
+			say = "等、等等——！！妳們就不懂得進門之前先敲門嗎！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -352,7 +352,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:87}",
-			say = "海倫娜，你手中的“那個”是？",
+			say = "海倫娜，妳手中的“那個”是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:87}",
-			say = "……你只做了這一件衣服嗎？",
+			say = "……妳只做了這一件衣服嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉，因為得瞞著克里夫蘭，這件衣服恐怕都得當天才能完成，實在沒有時間再為你們……",
+			say = "抱歉，因為得瞞著克里夫蘭，這件衣服恐怕都得當天才能完成，實在沒有時間再為妳們……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

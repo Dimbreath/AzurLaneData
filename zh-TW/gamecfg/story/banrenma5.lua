@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 207020,
 			nameColor = "#a9f548",
-			say = "你已经得到了本人梦寐以求的东西，真是何等令人羡慕的后辈……",
+			say = "妳已经得到了本人梦寐以求的东西，真是何等令人羡慕的后辈……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "啊，胜利前辈，你好。",
+			say = "啊，胜利前辈，妳好。",
 			effects = {
 				{
 					active = false,
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			actor = 207040,
 			nameColor = "#a9f548",
-			say = "嗯，你也好。指挥官，这是任务报告，请过目一下。",
+			say = "嗯，妳也好。指挥官，这是任务报告，请过目一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，仔细一看，不知道为什么，感觉半人马你身上有一种亲近感呢…感觉好像换个衣服，就能扮演我了呢——",
+			say = "唔，仔细一看，不知道为什么，感觉半人马妳身上有一种亲近感呢…感觉好像换个衣服，就能扮演我了呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			say = "咦，胜利你也这么想吗，本人也有这种感觉……",
+			say = "咦，胜利妳也这么想吗，本人也有这种感觉……",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "恢复得好快！……不过你确定不是你羡慕人家而产生的心理作用？",
+			say = "恢复得好快！……不过妳确定不是妳羡慕人家而产生的心理作用？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			actor = 207040,
 			nameColor = "#a9f548",
-			say = "指挥官，借用一下你的秘书舰哦？",
+			say = "指挥官，借用一下妳的秘书舰哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，半人马你的长相还真是独特呢，这对耳朵，和约克公爵一样是真的？",
+			say = "不过，半人马妳的长相还真是独特呢，这对耳朵，和约克公爵一样是真的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么我就回去继续执行任务了。——指挥官，你的秘书舰就还你啦~",
+			say = "那么我就回去继续执行任务了。——指挥官，妳的秘书舰就还妳啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

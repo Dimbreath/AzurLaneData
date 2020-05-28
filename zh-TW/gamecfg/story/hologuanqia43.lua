@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在你们聊得火热的时候，冒昧打扰一下",
+			say = "在妳们聊得火热的时候，冒昧打扰一下",
 			actorName = "？？？",
 			side = 2,
 			dir = 1,
@@ -42,7 +42,7 @@ return {
 			side = 1,
 			dir = -1,
 			actorName = "名侦探吹雪",
-			say = "呼呼呼，我就是塞壬的军师哦。诸位可以称呼我为名侦探吹雪，是将在这里彻底阻止你们的人",
+			say = "呼呼呼，我就是塞壬的军师哦。诸位可以称呼我为名侦探吹雪，是将在这里彻底阻止妳们的人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "名侦探吹雪…你就是一路上一直在阻碍我们的人么？！",
+			say = "名侦探吹雪…妳就是一路上一直在阻碍我们的人么？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "出现的屏障，假地图，岩浆陷阱，全部都是你做的手脚？",
+			say = "出现的屏障，假地图，岩浆陷阱，全部都是妳做的手脚？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为军师得你这么大摇大摆的来到最前线，是打算主动投降了么？",
+			say = "作为军师得妳这么大摇大摆的来到最前线，是打算主动投降了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没办法了呢，就接下你的挑战吧，名侦探哦！",
+			say = "没办法了呢，就接下妳的挑战吧，名侦探哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

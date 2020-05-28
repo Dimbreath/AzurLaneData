@@ -27,7 +27,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前袭击的时候为了保护纽约港把你们放跑了，今天可没这么多顾虑了！",
+			say = "之前袭击的时候为了保护纽约港把妳们放跑了，今天可没这么多顾虑了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鉴于你的事迹，本来还以为能作为盟友争取一下……",
+			say = "鉴于妳的事迹，本来还以为能作为盟友争取一下……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在看起来，“王冠”本来就是你的杰作吧！",
+			say = "现在看起来，“王冠”本来就是妳的杰作吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "此时此刻的你在想什么呢，企业？",
+			say = "此时此刻的妳在想什么呢，企业？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "我曾经一直想尽可能的避免与你见面，但是，你们却还是愚蠢的被安蒂克丝给骗了。",
+			say = "我曾经一直想尽可能的避免与妳见面，但是，妳们却还是愚蠢的被安蒂克丝给骗了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_xiangting_cg1",
 			side = 0,
 			dir = 1,
-			say = "你究竟是敌是友？",
+			say = "妳究竟是敌是友？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "我会帮你拖住她们的，去完成你该做的事。",
+			say = "我会帮妳拖住她们的，去完成妳该做的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "那么，之后就拜托你了。",
+			say = "那么，之后就拜托妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你们目前还不配与她交手。",
+			say = "妳们目前还不配与她交手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "看着眼前的敌人！对，吾辈将作为你们的对手！",
+			say = "看着眼前的敌人！对，吾辈将作为妳们的对手！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

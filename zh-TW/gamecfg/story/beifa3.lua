@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			say = "原來你們在這裡，貴安，殿下、厭戰",
+			say = "原來妳們在這裡，貴安，殿下、厭戰",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "很好！本王看好你哦！",
+			say = "很好！本王看好妳哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "身為姐姐的我也會好好疼愛你的～",
+			say = "身為姐姐的我也會好好疼愛妳的～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

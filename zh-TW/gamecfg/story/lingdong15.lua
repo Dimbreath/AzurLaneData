@@ -49,7 +49,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "！！！為什麼，都已經被炸成這樣了還不肯投降！再這樣下去你真的會沉的！",
+			say = "！！！為什麼，都已經被炸成這樣了還不肯投降！再這樣下去妳真的會沉的！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -98,7 +98,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "為什麼你們這些鐵血的死腦筋都這麼頑固，和之前那位一模一樣！",
+			say = "為什麼妳們這些鐵血的死腦筋都這麼頑固，和之前那位一模一樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "你…你見過我的姐姐？",
+			say = "妳…妳見過我的姐姐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你們說的話，幾乎一模一樣！",
+			say = "妳們說的話，幾乎一模一樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "皇家的小姐…謝謝你",
+			say = "皇家的小姐…謝謝妳",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "而你們的出現，至少又給了我一次主炮齊射的機會——",
+			say = "而妳們的出現，至少又給了我一次主炮齊射的機會——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什麼嘛…你這樣也太狡猾了！",
+			say = "什麼嘛…妳這樣也太狡猾了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "…這樣真的好嗎？這可是你收穫戰功、名留青史最好的機會",
+			say = "…這樣真的好嗎？這可是妳收穫戰功、名留青史最好的機會",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，人家只是...艦載機沒燃料了！...哼，算你運氣好！",
+			say = "不，人家只是...艦載機沒燃料了！...哼，算妳運氣好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "帶著這份天真的你究竟能走得多遠呢，如果有機會，真是想好好看看呀——（笑）",
+			say = "帶著這份天真的妳究竟能走得多遠呢，如果有機會，真是想好好看看呀——（笑）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

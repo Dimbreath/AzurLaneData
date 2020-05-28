@@ -92,7 +92,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "亏你们能活下来呢……",
+			say = "亏妳们能活下来呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于这个……小久你能解释一下吗？",
+			say = "关于这个……小久妳能解释一下吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个小姑娘也是久远的伙伴吗？",
+			say = "那个小姑娘也是久远的夥伴吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

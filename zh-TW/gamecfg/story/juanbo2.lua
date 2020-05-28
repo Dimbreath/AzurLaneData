@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"笑容Overflow！\n\n<size=45>二、{namecode:162}会帮助你的！</size>",
+					"笑容Overflow！\n\n<size=45>二、{namecode:162}会帮助妳的！</size>",
 					1
 				}
 			}
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "你看，夜晚也没有那么可怕嘛！对不对？",
+			say = "妳看，夜晚也没有那么可怕嘛！对不对？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			actor = 301540,
 			nameColor = "#a9f548",
-			say = "谢，谢谢你，{namecode:162}…",
+			say = "谢，谢谢妳，{namecode:162}…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "最近指挥官每天都忙到很晚。我也帮不上什么忙，就想一直陪着他，没想到到了我必须回去的时候他还在工作。结果我回来的时候就正好碰到你了呢，嘿嘿~",
+			say = "最近指挥官每天都忙到很晚。我也帮不上什么忙，就想一直陪着他，没想到到了我必须回去的时候他还在工作。结果我回来的时候就正好碰到妳了呢，嘿嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

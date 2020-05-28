@@ -10,7 +10,7 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			say = "——警告：周边海域出现大量海空单位，全员作战戒备——",
+			say = "——警告：周邊海域出現大量海空單位，全員作戰戒備——",
 			dir = 1,
 			soundeffect = "event:/ui/alarm",
 			typewriter = {
@@ -21,14 +21,14 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "——警告：周边海域出现大量海空单位，全员作战戒备——",
+			say = "——警告：周邊海域出現大量海空單位，全員作戰戒備——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "大洋彼岸袭来风暴终于来临了吗，2年了，真是个漫长的等待啊",
+			say = "大洋彼岸襲來風暴終於來臨了嗎，2年了，真是個漫長的等待啊",
 			side = 0,
 			bgName = "bg_story_faxi2",
 			dir = 1,
@@ -64,7 +64,7 @@ return {
 			actor = 905010,
 			side = 0,
 			bgName = "bg_story_faxi2",
-			say = "这就是你所期望的吗，我的姐姐？",
+			say = "這就是妳所期望的嗎，我的姐姐？",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			bgmDelay = 3,
 			bgm = "story-french",
 			mode = 2,
-			say = "勇敢的圣教骑士们，神圣的时刻来临了！！！",
+			say = "勇敢的聖教騎士們，神聖的時刻來臨了！！！",
 			flashout = {
 				dur = 1.5,
 				black = true,
@@ -118,7 +118,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "两年前，一群无耻的劫匪带着他们的野心闯进了我们的家园",
+			say = "兩年前，一群無恥的劫匪帶著他們的野心闖進了我們的家園",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "这群伪善的小人，为了吞并我们伟大的海上力量而不择手段",
+			say = "這群偽善的小人，為了吞併我們偉大的海上力量而不擇手段",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "她们的世界里没有骑士精神，更没有任何的信仰",
+			say = "她們的世界裡沒有騎士精神，更沒有任何的信仰",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "她们的世界里只有欺骗和背叛！",
+			say = "她們的世界裡只有欺騙和背叛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "敦刻尔克、普罗旺斯、布列塔尼，我们永远记得这些名字，永远记得那一天的耻辱",
+			say = "敦克爾克、普羅旺斯、布列塔尼，我們永遠記得這些名字，永遠記得那一天的恥辱",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "那一天，我们没有挺身而出",
+			say = "那一天，我們沒有挺身而出",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "那一年，我们选择忍气吞声",
+			say = "那一年，我們選擇忍氣吞聲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "害怕吗，后悔吗？",
+			say = "害怕嗎，後悔嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "一次的失败并不可怕，他让我们看清了局势，看清了世界的野心",
+			say = "一次的失敗並不可怕，它讓我們看清了局勢，看清了世界的野心",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "他让我们看清了差距，让我们变得比昨天更强！",
+			say = "它讓我們看清了差距，讓我們變得比昨天更強！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "圣神有明，当时的劫匪们在此之后，遭到了她们应有的报应",
+			say = "聖神有明，當時的劫匪們在此之後，遭到了她們應有的報應",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "而如今，她们背后的阴谋家却带着邪恶的阴谋再次归来",
+			say = "而如今，她們背後的陰謀家卻帶著邪惡的陰謀再次歸來",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "他们说“我们是来给予你们自由的”",
+			say = "他們說“我們是來給予妳們自由的”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "而主言“该撒的物当归给该撒，神的物当归给神” ",
+			say = "而主言“該撒的物當歸給該撒，神的物當歸給神” ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "——自由从来不是靠别人施舍的！",
+			say = "——自由從來不是靠別人施捨的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "如今的我们，在新的力量下，变得坚不可摧，变得无法阻挡",
+			say = "如今的我們，在新的力量下，變得堅不可摧，變得無法阻擋",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "勇敢的圣教骑士们，神圣的时刻终于来临了！",
+			say = "勇敢的聖教騎士們，神聖的時刻終於來臨了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "我们才是世界承认的天之正统，荣耀必将归于我们！！",
+			say = "我們才是世界承認的天之正統，榮耀必將歸於我們！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "全舰队校准目标——开火！！！",
+			say = "全艦隊校準目標——開火！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 101300,
-			say = "开开开…维希教廷的舰队朝我们的登陆部队开火了！！",
+			say = "開開開…維希教廷的艦隊朝我們的登陸部隊開火了！！",
 			effects = {
 				{
 					active = false,
@@ -443,7 +443,7 @@ return {
 		},
 		{
 			actor = 102030,
-			say = "登陆部队受到重创，立即请求支援！",
+			say = "登陸部隊受到重創，立即請求支援！",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -490,7 +490,7 @@ return {
 		},
 		{
 			actor = 102030,
-			say = "重复一遍，登陆部队受到重创，立即请求支援！！",
+			say = "重複一遍，登陸部隊受到重創，立即請求支援！！",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -537,7 +537,7 @@ return {
 		},
 		{
 			actor = 107040,
-			say = "任务果然不会那么简单呀…",
+			say = "任務果然不會那麼簡單呀…",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -584,7 +584,7 @@ return {
 		},
 		{
 			actor = 107040,
-			say = "周边空域所有舰载机听令，任务变更，任务变更",
+			say = "周邊空域所有艦載機聽令，任務變更，任務變更",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -631,7 +631,7 @@ return {
 		},
 		{
 			actor = 107040,
-			say = "优先压制卡萨布兰卡附近所有岸防炮，开始掩护登陆部队行动",
+			say = "優先壓制卡薩布蘭卡附近所有岸防炮，開始掩護登陸部隊行動",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -678,7 +678,7 @@ return {
 		},
 		{
 			actor = 102090,
-			say = "呀~果然还是打起来了呢，可惜对手里似乎没有飞机呀，都没有我大展身手的机…",
+			say = "呀~果然還是打起來了呢，可惜對手裡似乎沒有飛機呀，都沒有我大展身手的機…",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -725,7 +725,7 @@ return {
 		},
 		{
 			actor = 102090,
-			say = "哇呀呀！是塞壬的舰载机攻击！！",
+			say = "哇呀呀！是塞壬的艦載機攻擊！！",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -772,7 +772,7 @@ return {
 		},
 		{
 			actor = 103110,
-			say = "不要大意，周边的护航和防空就交给你了，我倒是要去会会塞壬的新型空母！",
+			say = "不要大意，周邊的護航和防空就交給妳了，我倒是要去會會塞壬的新型航母！",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",

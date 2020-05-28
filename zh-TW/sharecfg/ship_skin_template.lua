@@ -6697,6 +6697,148 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[102092] = {
+		name = "騎士之夜",
+		ship_group = 10209,
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "大家都穿著漂亮的禮服，為什麼只有我是男裝啦…算了，穿著還挺輕便的。指揮官，我們出發吧！要去參加宴會不是嗎？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "kelifulan_3",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 7,
+		hand_id = 13,
+		lip_smoothing = 0,
+		bgm = "",
+		bg = "107",
+		skin_type = 0,
+		id = 102092,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "kelifulan_3",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70101,
+		voice_actor = 40,
+		air_bomb_skin = "",
+		illustrator = 8,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			47,
+			-197,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.64,
+					1.2,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.61,
+					1.15,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.22,
+					0.18,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.18,
+					0.65,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.47,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5,
+			touch2 = 2.467
+		},
+		l2d_se = {
+			main_1 = {
+				"finger",
+				2.1
+			},
+			home = {
+				"finger",
+				4.35
+			},
+			login = {
+				"finger",
+				2.27
+			}
+		}
+	},
 	[102094] = {
 		name = "新年對決！ ",
 		ship_group = 10209,
@@ -7422,8 +7564,8 @@ pg.ship_skin_template = {
 			2
 		},
 		live2d_offset = {
-			9,
-			-24,
+			44,
+			110,
 			0
 		},
 		fx_container = {
@@ -11239,6 +11381,226 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[105141] = {
+		name = "劇場上的獨奏",
+		ship_group = 10514,
+		group_index = 1,
+		illustrator2 = 19,
+		desc = "為了在戰場之外也能派上用場，麻薩諸塞建議我學習了鋼琴。雖然一開始覺得自己不是這塊料，實際上手之後意外地有挑戰的價值……",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "nandaketa_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 7,
+		hand_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "107",
+		skin_type = 0,
+		id = 105141,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "nandaketa_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70103,
+		voice_actor = 19,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.22,
+					0.74,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.41,
+					0.84,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.11,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.25,
+					0.96,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.34,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[105190] = {
+		name = "麻薩諸塞",
+		ship_group = 10519,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "南達科他級戰艦—麻薩諸塞，舷號BB-59",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "masazhusai",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 105190,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "masazhusai",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 131,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.11,
+					1.23,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.11,
+					1.24,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.17,
+					0.11,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.05,
+					1.23,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.16,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[106010] = {
 		name = "長島",
 		ship_group = 10601,
@@ -14130,6 +14492,110 @@ pg.ship_skin_template = {
 						{
 							0.527,
 							0.483,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201011] = {
+		name = "小小的管弦樂隊",
+		ship_group = 20101,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "說到宴會怎麼能少了管弦樂隊呢！我來負責組建一支由皇家的驅逐們構成的樂團吧！首先是…嗚哇哇哇，踩到斗篷了！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "nvjiang_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 7,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "107",
+		skin_type = 0,
+		id = 201011,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "nvjiang_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70102,
+		voice_actor = 4,
+		air_bomb_skin = "",
+		illustrator = 15,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.09,
+					1.11,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					1.09,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.32,
 							0
 						}
 					}
@@ -19021,6 +19487,117 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[202031] = {
+		name = "晚會女王",
+		ship_group = 20203,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "呵呵呵，看你那目瞪口呆的樣子，沒有枉費我換上這身禮服呢。過來，指揮官，我來為你倒一杯酒吧~",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "ajiakesi_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 7,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "107",
+		skin_type = 0,
+		id = 202031,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ajiakesi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70099,
+		voice_actor = 34,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-1.02,
+					1.43,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.99,
+					1.5,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.19,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-1.01,
+					1.43,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.47,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202039] = {
 		name = "阿賈克斯.改",
 		ship_group = 20203,
@@ -20739,6 +21316,117 @@ pg.ship_skin_template = {
 				{
 					0.077,
 					0.825,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202152] = {
+		name = "黎明的讚歌",
+		ship_group = 20215,
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "我一直覺得，音樂有著獨特的，能夠震撼人心的力量，所以嘗試學習了一下小提琴。指揮官，請欣賞我的演奏吧",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "ouruola_3",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 7,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "107",
+		skin_type = 0,
+		id = 202152,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ouruola_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70097,
+		voice_actor = 90,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.93,
+					1.33,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.73,
+					1.34,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.168,
+					0.071,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.8,
+					1.31,
 					0
 				}
 			}
@@ -23659,7 +24347,7 @@ pg.ship_skin_template = {
 		ship_group = 20401,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "聲望級戰列巡洋艦—聲望",
+		desc = "聲望級戰鬥巡洋艦—聲望",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "shengwang",
@@ -23774,7 +24462,7 @@ pg.ship_skin_template = {
 		ship_group = 20402,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "聲望級戰列巡洋艦—反擊",
+		desc = "聲望級戰鬥巡洋艦—反擊",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "fanji",
@@ -23889,7 +24577,7 @@ pg.ship_skin_template = {
 		ship_group = 20403,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "海軍上將級戰列巡洋艦—胡德，舷號51",
+		desc = "海軍上將級戰鬥巡洋艦—胡德，舷號51",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "hude",
@@ -24336,6 +25024,110 @@ pg.ship_skin_template = {
 						{
 							0.581,
 							0.535,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[205011] = {
+		name = "女王的舞踏會",
+		ship_group = 20501,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "哼哼，感到榮幸吧僕從！特別允許你伴隨本王參加今晚的舞會！才、才不是特意選你，只是順便，順便的而已！知道了嗎！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "yilishabai_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 7,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "107",
+		skin_type = 0,
+		id = 205011,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yilishabai_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70098,
+		voice_actor = 28,
+		air_bomb_skin = "",
+		illustrator = 19,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.08,
+					0.99,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.12,
+					1.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.12,
+					0.98,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.56,
+							2.36,
 							0
 						}
 					}
@@ -27167,6 +27959,103 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[207032] = {
+		name = "光輝的舞會",
+		ship_group = 20703,
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "舞會的邀請…嗎？嘻嘻…只要指揮官不嫌棄…光輝，樂意之至～",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "guanghui_3",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 7,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "107",
+		skin_type = 0,
+		id = 207032,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "guanghui_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70106,
+		voice_actor = 6,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.01,
+					1.35,
+					0
+				}
+			},
+			plane = {
+				{
+					1.01,
+					1.35,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[207038] = {
 		name = "愛與希望的晨星",
 		ship_group = 20703,
@@ -28557,6 +29446,134 @@ pg.ship_skin_template = {
 					}
 				}
 			}
+		}
+	},
+	[301013] = {
+		name = "Music Pixy",
+		ship_group = 30101,
+		group_index = 3,
+		illustrator2 = -1,
+		desc = "指揮官，你看你看，合適嗎？……哎呀，不是說衣服啦，是說這個低音號，我吹給你聽聽看嘛？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "chuixue_3",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 7,
+		hand_id = 14,
+		lip_smoothing = 0,
+		bgm = "",
+		bg = "107",
+		skin_type = 0,
+		id = 301013,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "chuixue_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70096,
+		voice_actor = 116,
+		air_bomb_skin = "",
+		illustrator = 2,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			15,
+			-95,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.39,
+					0.98,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.39,
+					0.88,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.11,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-1.17,
+					3,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5
 		}
 	},
 	[301050] = {
@@ -46410,6 +47427,117 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[312012] = {
+		name = "黑貓來襲！",
+		ship_group = 31201,
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "哼哼哼，平日里辛苦積攢就是為了這一刻喵！鏘鏘鏘，融合了重櫻和西洋元素的特別禮服！指揮官，今天要來點鑽石喵？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "mingshi_3",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 7,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "107",
+		skin_type = 0,
+		id = 312012,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "mingshi_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70100,
+		voice_actor = 28,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.84,
+					1.25,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.77,
+					1.22,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.19,
+					0.11,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.66,
+					1.26,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[312014] = {
 		name = "歡迎光臨Sofmap！",
 		ship_group = 31201,
@@ -49821,7 +50949,7 @@ pg.ship_skin_template = {
 		ship_group = 40401,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "沙恩霍斯特級戰列巡洋艦—沙恩霍斯特",
+		desc = "沙恩霍斯特級戰鬥巡洋艦—沙恩霍斯特",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "shaenhuosite",
@@ -50054,7 +51182,7 @@ pg.ship_skin_template = {
 		ship_group = 40402,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "沙恩霍斯特級戰列巡洋艦—格奈森瑙",
+		desc = "沙恩霍斯特級戰鬥巡洋艦—格奈森瑙",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "genaisennao",
@@ -50732,6 +51860,103 @@ pg.ship_skin_template = {
 						{
 							-0.64,
 							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408011] = {
+		name = "靜謐小夜曲",
+		ship_group = 40801,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "嗯…這種輕飄飄的裙子還是不太習慣…欸？很漂亮嗎？唔唔，有點難為情…",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "U81_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 7,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "107",
+		skin_type = 0,
+		id = 408011,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U81_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70105,
+		voice_actor = 130,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.74,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.54,
+					0.3,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.35,
 							0
 						}
 					}
@@ -52437,12 +53662,1248 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[801010] = {
+		name = "凱旋",
+		ship_group = 80101,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "自由鳶尾空想級驅逐艦—凱旋",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "kaixuan",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 801010,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "kaixuan",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 6,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1,
+					1.21,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.06,
+					1.22,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.2,
+					0.11,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.06,
+					1.26,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[801020] = {
+		name = "福爾班",
+		ship_group = 80102,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "自由鳶尾靈巧級驅逐艦—福爾班",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "fuerban",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 801020,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "fuerban",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 124,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.22,
+					1.06,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.24,
+					1.05,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.07,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.29,
+					1.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[801021] = {
+		name = "純白花語",
+		ship_group = 80102,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "偶爾像這樣呼吸一下外面的新鮮空氣感覺也不錯呢…那個…指揮官，能陪我多走一段路嗎？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "Fuerban_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 0,
+		id = 801021,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Fuerban_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70087,
+		voice_actor = 124,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.395,
+					1.165,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.395,
+					1.165,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.256,
+					0.266,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.467,
+					0.826,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[801029] = {
+		name = "福爾班.改",
+		ship_group = 80102,
+		group_index = 9,
+		illustrator2 = -1,
+		desc = "長久的努力到了結出果實的時候了呢…感謝指揮官一直以來的栽培，我會用更加華麗的戰果來回報你的！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "fuerban_g",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 2,
+		id = 801029,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "fuerban_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 124,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.29,
+					1.08,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.37,
+					1.03,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.17,
+					0.15,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.37,
+					1.06,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[802010] = {
+		name = "埃米爾•貝爾坦",
+		ship_group = 80201,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "自由鳶尾輕巡洋艦—埃米爾•貝爾坦",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "aimierbeierding",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 802010,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "aimierbeierding",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 108,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-1.064,
+					1.994,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-1.036,
+					1.966,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.17,
+					0.055,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-1.115,
+					1.938,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[802011] = {
+		name = "藍色海岸",
+		ship_group = 80201,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "指揮官，我的泳裝還不錯吧？我對身材還是蠻有自信呢，嘻嘻~一起來享受夏日吧~",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "Aimierbeierding_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 6,
+		hand_id = 1,
+		lip_smoothing = 0,
+		bgm = "",
+		bg = "106",
+		skin_type = 0,
+		id = 802011,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Aimierbeierding_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70085,
+		voice_actor = 108,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			60,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.17,
+					0.451,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.179,
+					0.46,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.179,
+					-0.146,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.186,
+					0.442,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5
+		}
+	},
+	[808010] = {
+		name = "速科夫",
+		ship_group = 80801,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "自由鳶尾潛水巡洋艦—速科夫",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "xukufu",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 808010,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xukufu",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 85,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.21,
+					0.86,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.2,
+					0.83,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.76,
+					0.35,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.12,
+					0.81,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[808011] = {
+		name = "購物時光！",
+		ship_group = 80801,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "哦？指揮官也是來買東西的？那和我還有這孩子一起逛逛怎麼樣？ ……嗯？指揮官當然不能坐了呀？會違反交通規則的呢",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "xukufu_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 9,
+		hand_id = 1,
+		lip_smoothing = 0,
+		bgm = "",
+		bg = "118",
+		skin_type = 0,
+		id = 808011,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xukufu_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70249,
+		voice_actor = 85,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			20,
+			-140,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.951,
+					0.661,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.971,
+					0.727,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.138,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.969,
+					0.906,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		}
+	},
+	[901010] = {
+		name = "勒馬爾",
+		ship_group = 90101,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "維希教廷靈巧級驅逐艦—勒馬爾",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "lemaer",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 16,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 901010,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lemaer",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 124,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.08,
+					0.96,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.09,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.08,
+					1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[901011] = {
+		name = "閃耀的夏天",
+		ship_group = 90101,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "夏天~夏天來了喲指揮官！一起來海邊玩水吧~水槍大戰我可是很強的喲~",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "Lemaer_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 6,
+		hand_id = 16,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "106",
+		skin_type = 0,
+		id = 901011,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Lemaer_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 124,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.08,
+					0.96,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.09,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.08,
+					1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[901019] = {
+		name = "勒馬爾.改",
+		ship_group = 90101,
+		group_index = 9,
+		illustrator2 = -1,
+		desc = "改·造·完·成！得到全新力量的勒馬爾，前來報到~嘿嘿，指揮官，我是不是看起來更可靠了呢~？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "lemaer_g",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 16,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 2,
+		id = 901019,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lemaer_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 124,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.18,
+					1.16,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.12,
+					1.06,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.2,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.17,
+					0.93,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[904010] = {
 		name = "敦克爾克",
 		ship_group = 90401,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "敦克爾克級戰列巡洋艦—敦克爾克",
+		desc = "敦克爾克級戰鬥巡洋艦—敦克爾克",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "dunkeerke",
@@ -52526,6 +54987,354 @@ pg.ship_skin_template = {
 				{
 					1.24,
 					1.07,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[904011] = {
+		name = "“甜蜜”夏日",
+		ship_group = 90401,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "久違的夏天…真是不錯呢。陽光、沙灘和大海…還有大家的笑容。機會難得，要一起吃點甜甜圈嗎，指揮官？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "Dunkeerke_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 6,
+		hand_id = 1,
+		lip_smoothing = 0,
+		bgm = "",
+		bg = "106",
+		skin_type = 0,
+		id = 904011,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Dunkeerke_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70086,
+		voice_actor = 127,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			-30,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.08,
+					1.2,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.99,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.141,
+					0.019,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.143,
+					1.121,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5
+		}
+	},
+	[905010] = {
+		name = "讓·巴爾",
+		ship_group = 90501,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "黎胥留級戰艦—讓·巴爾",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "rangbaer",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 905010,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "rangbaer",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 148,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.49,
+					0.92,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.42,
+					0.85,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.09,
+					0.11,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.44,
+					0.85,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[905011] = {
+		name = "不羈的BloodStone",
+		ship_group = 90501,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "來這樣的角落找一個獨自喝酒的人，可不是身為今夜的主角該做的事——好吧，來都來了，喝一杯？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "rangbaer_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 7,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "115",
+		skin_type = 0,
+		id = 905011,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "rangbaer_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70243,
+		voice_actor = 148,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.67,
+					0.91,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.66,
+					0.94,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.66,
+					0.97,
 					0
 				}
 			}
@@ -57005,7 +59814,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900055] = {
-		name = "讓巴爾",
+		name = "讓·巴爾",
 		ship_group = 900055,
 		group_index = 0,
 		illustrator2 = 0,
@@ -60971,6 +63780,110 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[299021] = {
+		name = "素羅華威",
+		ship_group = 29902,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "哼，服飾不過是襯托，真正的高貴應當來源於自身。你不這麼認為嗎，指揮官？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "junzhu_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 7,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "107",
+		skin_type = 0,
+		id = 299021,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "junzhu_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70071,
+		voice_actor = 104,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.912,
+					0.956,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.2,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.895,
+					0.93,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.13,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[299022] = {
 		name = "赭紅爵祿",
 		ship_group = 29902,
@@ -61505,6 +64418,7 @@ pg.ship_skin_template = {
 		},
 		[29902] = {
 			299020,
+			299021,
 			299022
 		},
 		[29901] = {
@@ -61729,8 +64643,34 @@ pg.ship_skin_template = {
 		[900001] = {
 			900001
 		},
+		[90501] = {
+			905010,
+			905011
+		},
 		[90401] = {
-			904010
+			904010,
+			904011
+		},
+		[90101] = {
+			901010,
+			901011,
+			901019
+		},
+		[80801] = {
+			808010,
+			808011
+		},
+		[80201] = {
+			802010,
+			802011
+		},
+		[80102] = {
+			801020,
+			801021,
+			801029
+		},
+		[80101] = {
+			801010
 		},
 		[70201] = {
 			702010
@@ -61764,7 +64704,8 @@ pg.ship_skin_template = {
 			501010
 		},
 		[40801] = {
-			408010
+			408010,
+			408011
 		},
 		[40701] = {
 			407010,
@@ -61839,6 +64780,7 @@ pg.ship_skin_template = {
 		[31201] = {
 			312010,
 			312011,
+			312012,
 			312014
 		},
 		[30803] = {
@@ -62163,7 +65105,8 @@ pg.ship_skin_template = {
 		},
 		[30101] = {
 			301010,
-			301011
+			301011,
+			301013
 		},
 		[21304] = {
 			213040
@@ -62188,6 +65131,7 @@ pg.ship_skin_template = {
 		[20703] = {
 			207030,
 			207031,
+			207032,
 			207038
 		},
 		[20702] = {
@@ -62234,7 +65178,8 @@ pg.ship_skin_template = {
 			205021
 		},
 		[20501] = {
-			205010
+			205010,
+			205011
 		},
 		[20403] = {
 			204030,
@@ -62306,6 +65251,7 @@ pg.ship_skin_template = {
 		[20215] = {
 			202150,
 			202151,
+			202152,
 			202153
 		},
 		[20214] = {
@@ -62332,6 +65278,7 @@ pg.ship_skin_template = {
 		},
 		[20203] = {
 			202030,
+			202031,
 			202039
 		},
 		[20202] = {
@@ -62417,7 +65364,8 @@ pg.ship_skin_template = {
 			201029
 		},
 		[20101] = {
-			201010
+			201010,
+			201011
 		},
 		[11201] = {
 			112010,
@@ -62471,8 +65419,12 @@ pg.ship_skin_template = {
 			106011,
 			106019
 		},
+		[10519] = {
+			105190
+		},
 		[10514] = {
-			105140
+			105140,
+			105141
 		},
 		[10513] = {
 			105130
@@ -62568,6 +65520,7 @@ pg.ship_skin_template = {
 		[10209] = {
 			102090,
 			102091,
+			102092,
 			102094,
 			102098
 		},
@@ -62761,6 +65714,7 @@ pg.ship_skin_template = {
 		102081,
 		102090,
 		102091,
+		102092,
 		102094,
 		102098,
 		102100,
@@ -62801,6 +65755,8 @@ pg.ship_skin_template = {
 		105120,
 		105130,
 		105140,
+		105141,
+		105190,
 		106010,
 		106011,
 		106019,
@@ -62828,6 +65784,7 @@ pg.ship_skin_template = {
 		112010,
 		112011,
 		201010,
+		201011,
 		201020,
 		201021,
 		201029,
@@ -62871,6 +65828,7 @@ pg.ship_skin_template = {
 		202019,
 		202020,
 		202030,
+		202031,
 		202039,
 		202080,
 		202081,
@@ -62886,6 +65844,7 @@ pg.ship_skin_template = {
 		202140,
 		202150,
 		202151,
+		202152,
 		202153,
 		202160,
 		202161,
@@ -62917,6 +65876,7 @@ pg.ship_skin_template = {
 		204031,
 		204038,
 		205010,
+		205011,
 		205020,
 		205021,
 		205030,
@@ -62942,6 +65902,7 @@ pg.ship_skin_template = {
 		207023,
 		207030,
 		207031,
+		207032,
 		207038,
 		207040,
 		207041,
@@ -62955,6 +65916,7 @@ pg.ship_skin_template = {
 		213040,
 		301010,
 		301011,
+		301013,
 		301050,
 		301051,
 		301053,
@@ -63118,6 +66080,7 @@ pg.ship_skin_template = {
 		308030,
 		312010,
 		312011,
+		312012,
 		312014,
 		331050,
 		401010,
@@ -63155,6 +66118,7 @@ pg.ship_skin_template = {
 		407010,
 		407011,
 		408010,
+		408011,
 		501010,
 		501020,
 		501030,
@@ -63170,7 +66134,21 @@ pg.ship_skin_template = {
 		502031,
 		502039,
 		702010,
+		801010,
+		801020,
+		801021,
+		801029,
+		802010,
+		802011,
+		808010,
+		808011,
+		901010,
+		901011,
+		901019,
 		904010,
+		904011,
+		905010,
+		905011,
 		900001,
 		900002,
 		900003,
@@ -63246,6 +66224,7 @@ pg.ship_skin_template = {
 		901001,
 		299010,
 		299020,
+		299021,
 		299022,
 		399010,
 		399020,

@@ -18,6 +18,17 @@ slot0.FURNITRUE_MASK_NAME = "icon_front"
 slot0.FURNITRUE_MASK_ORDER_NAME = "icon_front_"
 slot0.SOUND_TYPE_EFFECT = 1
 slot0.SOUND_TYPE_BG = 2
+slot0.MAX_UPLOAD_THEME_CNT = 2
+slot0.THEME_TEMPLATE_TYPE_SHOP = 1
+slot0.THEME_TEMPLATE_TYPE_CUSTOM = 2
+slot0.THEME_TEMPLATE_TYPE_COLLECTION = 3
+slot0.THEME_TEMPLATE_USAGE_TYPE_SELF = 1
+slot0.THEME_TEMPLATE_USAGE_TYPE_OTHER = 2
+slot0.THEME_TEMPLATE_SHOP_REFRSH_CNT = 6
+slot0.MAX_COLLECTION_CNT = 30
+slot0.AUTO_REFRESH_THEME_TEMPLATE_TIME = 10
+slot0.MANUAL_REFRESH_THEME_TEMPLATE_TIME = 10
+slot0.DEBUG_THEME = true
 slot1 = {
 	Vector2(216, -136),
 	Vector2(190, -282),
@@ -26,6 +37,36 @@ slot1 = {
 
 function slot0.level2WarnPos(slot0)
 	return uv0[slot0]
+end
+
+function slot0.ThemeSortIndex2ServerIndex(slot0, slot1)
+	slot1 = defaultValue(slot1, true)
+
+	if defaultValue(slot0, 1) == 1 then
+		return 5
+	elseif slot0 == 2 and slot1 then
+		return 1
+	elseif slot0 == 2 and not slot1 then
+		return 2
+	elseif slot0 == 3 and slot1 then
+		return 4
+	elseif slot0 == 3 and not slot1 then
+		return 3
+	end
+end
+
+function slot0.ServerIndex2ThemeSortIndex(slot0)
+	if slot0 == 5 then
+		return 1, true
+	elseif slot0 == 4 then
+		return 3, true
+	elseif slot0 == 3 then
+		return 3, false
+	elseif slot0 == 2 then
+		return 2, false
+	elseif slot0 == 1 then
+		return 2, true
+	end
 end
 
 return slot0

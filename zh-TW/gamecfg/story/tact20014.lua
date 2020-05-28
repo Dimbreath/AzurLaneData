@@ -131,7 +131,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			actorName = "測試者β型",
-			say = "「審判者」對你們的表現非常滿意，你們也讓我完成了自己作為千萬個子系統之一的存在價值~",
+			say = "「審判者」對妳們的表現非常滿意，妳們也讓我完成了自己作為千萬個子系統之一的存在價值~",
 			shake = {
 				speed = 1,
 				number = 3
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			actorName = "測試者β型",
-			say = "請堅持你現在所堅信的選擇，義無反顧地走下去吧",
+			say = "請堅持妳現在所堅信的選擇，義無反顧地走下去吧",
 			shake = {
 				speed = 1,
 				number = 3

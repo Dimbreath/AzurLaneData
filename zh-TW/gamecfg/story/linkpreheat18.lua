@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯——就算你们这么说……跑到这么远的地方，而且还都没带便当……头疼了",
+			say = "嗯——就算妳们这么说……跑到这么远的地方，而且还都没带便当……头疼了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			actor = 10300010,
 			nameColor = "#a9f548",
-			say = "可以随便吃的吗?猫神大人谢谢你！",
+			say = "可以随便吃的吗?猫神大人谢谢妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23！谢谢你专门跑一趟！",
+			say = "Z23！谢谢妳专门跑一趟！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "米皮……？诶你们有见过这样的料理吗？",
+			say = "米皮……？诶妳们有见过这样的料理吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "露露缇耶，猫音，你们没骗我吧？那我也……恩恩恩恩？！好好吃！这么甜的点心我还是第一次吃到！",
+			say = "露露缇耶，猫音，妳们没骗我吧？那我也……恩恩恩恩？！好好吃！这么甜的点心我还是第一次吃到！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,7 +775,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "合你们的口味就好",
+			say = "合妳们的口味就好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

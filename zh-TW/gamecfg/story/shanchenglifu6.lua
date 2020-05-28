@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 301013,
 			actorName = "{namecode:2}",
-			say = "不过女将你看起来好像不是很开心欸？",
+			say = "不过女将妳看起来好像不是很开心欸？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = -1,
 			actor = 201011,
 			nameColor = "#a9f548",
-			say = "被你看出来了吗……",
+			say = "被妳看出来了吗……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			actor = 301013,
 			actorName = "{namecode:2}",
-			say = "女将你……其实非常关心指挥官的吧？",
+			say = "女将妳……其实非常关心指挥官的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			dir = -1,
 			actor = 201011,
 			nameColor = "#a9f548",
-			say = "呜哇！！你不要吓人啊{namecode:2}，怎么了？",
+			say = "呜哇！！妳不要吓人啊{namecode:2}，怎么了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "好，{namecode:2}，你去通知一下欧若拉和南达科他还有大家，让她们做好准备后回归队列。",
+			say = "好，{namecode:2}，妳去通知一下欧若拉和南达科他还有大家，让她们做好准备后回归队列。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

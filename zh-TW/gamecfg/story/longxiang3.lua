@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与前去执行委托任务的伙伴们送来的报告一致，资金、教科书……燃料消耗也没问题啦。",
+			say = "与前去执行委托任务的夥伴们送来的报告一致，资金、教科书……燃料消耗也没问题啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "{namecode:86}，话说在前面，你可不能把主公强行拉去和你约会哦……",
+			say = "{namecode:86}，话说在前面，妳可不能把主公强行拉去和妳约会哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……切。那我就先离开了。任务结果还是{namecode:90}你直接和指挥官报告吧~",
+			say = "……切。那我就先离开了。任务结果还是{namecode:90}妳直接和指挥官报告吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -327,7 +327,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之后{namecode:143}她们的课程也麻烦你了。",
+			say = "之后{namecode:143}她们的课程也麻烦妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

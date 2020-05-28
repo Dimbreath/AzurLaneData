@@ -189,7 +189,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你怀疑{namecode:91}的计划不会顺利进行？",
+			say = "……妳怀疑{namecode:91}的计划不会顺利进行？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，这可是那家伙亲自定下的方针，要我把你刚说的话原样上报么？",
+			say = "呵呵，这可是那家伙亲自定下的方针，要我把妳刚说的话原样上报么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

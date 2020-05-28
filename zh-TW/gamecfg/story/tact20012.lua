@@ -79,7 +79,7 @@ return {
 			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "然而命運註定了我們無法相遇，願你能秉持著驕傲戰鬥到最後一刻",
+			say = "然而命運註定了我們無法相遇，願妳能秉持著驕傲戰鬥到最後一刻",
 			shake = {
 				speed = 1,
 				number = 3

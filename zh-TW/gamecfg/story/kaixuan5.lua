@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=45>五 心声</size>",
+					"騎士公主的憂鬱\n\n<size=45>五 心聲</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
-			say = "一边走一边听凯旋说了起来",
+			say = "一邊走一邊聽凱旋說了起來",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "指挥官知道的吧，我是空想级最小的妹妹",
+			say = "指揮官知道的吧，我是空想級最小的妹妹",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "在我上面还有好几位姐姐大人",
+			say = "在我上面還有好幾位姐姐大人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "过去我们的关系很好，而我也以为，我们可以一直那样下去",
+			say = "過去我們的關係很好，而我也以為，我們可以一直那樣下去",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "战争刚开始的时候，我还想着，只要和姐姐们在一起，就什么都不用怕",
+			say = "戰爭剛開始的時候，我還想著，只要和姐姐們在一起，就什麼都不用怕",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "但是现实却没有那么简单…",
+			say = "但是現實卻沒有那麼簡單…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "因为各种各样的原因，我们走向了各自不同的道路",
+			say = "因為各種各樣的原因，我們走向了各自不同的道路",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "明明大家都是为了一样的目标，为什么会变成现在这样呢？",
+			say = "明明大家都是為了一樣的目標，為什麼會變成現在這樣呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			},
 			options = {
 				{
-					content = "总有一天会互相理解的",
+					content = "總有一天會互相理解的",
 					flag = 1
 				}
 			}
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "谢谢…这支舰队多少让人看到了一丝希望，但是——",
+			say = "謝謝…這支艦隊多少讓人看到了一絲希望，但是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "在内心的某处，还是隐约有一种感觉……",
+			say = "在內心的某處，還是隱約有一種感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "即便大家重新站到一条战线，恐怕也没有那么容易回到以往吧…",
+			say = "即便大家重新站到一條戰線，恐怕也沒有那麼容易回到以往吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,22 +209,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "凯旋脸上露出十分悲伤的表情",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 801010,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			say = "所以，刚才在看到黑暗界小姐和恐怖小姐，还有列星頓小姐和萨拉托加小姐时，我的心里其实是有些羡慕的",
+			say = "凱旋臉上露出十分悲傷的表情",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "和姐姐大人们，什么时候也能像那样，回到最初亲密无间的那个时候呢…",
+			say = "所以，剛才在看到黑暗界小姐和恐怖小姐，還有列星頓小姐和薩拉托加小姐時，我的心裡其實是有些羨慕的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "即使现在能够和姐姐大人们重逢，我也不知道该用怎样的表情去面对她们",
+			say = "和姐姐大人們，什麼時候也能像那樣，回到最初親密無間的那個時候呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +254,22 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "指挥官，你能告诉我我该怎么做吗？",
+			say = "即使現在能夠和姐姐大人們重逢，我也不知道該用怎樣的表情去面對她們",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 801010,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			dir = 1,
+			say = "指揮官，妳能告訴我我該怎麼做嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "凯旋的悲伤中带上了一丝的无助…",
+			say = "凱旋的悲傷中帶上了一絲的無助…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

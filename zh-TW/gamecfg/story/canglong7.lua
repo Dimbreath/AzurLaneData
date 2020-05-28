@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "指挥官，你还记得之前我和{namecode:94}的对话吧？",
+			say = "指挥官，妳还记得之前我和{namecode:94}的对话吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能让我改变想法，想要为所谓女子力而努力的人，就是你。",
+			say = "能让我改变想法，想要为所谓女子力而努力的人，就是妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			blackBg = true,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "指挥官要是能从我手里赢下一局的话，我什么都答应你哦？",
+			say = "指挥官要是能从我手里赢下一局的话，我什么都答应妳哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

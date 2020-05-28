@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "光是这个舰队里，就有许多个性和才能迥异的伙伴们",
+			say = "光是这个舰队里，就有许多个性和才能迥异的夥伴们",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这里待了这么久，我也不敢保证，自己就比并肩同行至今的那些伙伴们更强。",
+			say = "在这里待了这么久，我也不敢保证，自己就比并肩同行至今的那些夥伴们更强。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说到底，我也是希望你能够多跟大家交流，从各种角度了解我们的同伴呢",
+			say = "说到底，我也是希望妳能够多跟大家交流，从各种角度了解我们的同伴呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			}
 		},
 		{
-			say = "啊！不用那么拘谨啦！你眼前不就是嘛？",
+			say = "啊！不用那么拘谨啦！妳眼前不就是嘛？",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！好不容易的庆典，大家不开心玩怎么行！你说对吧{namecode:97}？",
+			say = "嗯！好不容易的庆典，大家不开心玩怎么行！妳说对吧{namecode:97}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "……嘁，随你喜欢吧。",
+			say = "……嘁，随妳喜欢吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			actor = 408011,
 			nameColor = "#a9f548",
-			say = "看着好凶！你到底搞了什么啊！",
+			say = "看着好凶！妳到底搞了什么啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

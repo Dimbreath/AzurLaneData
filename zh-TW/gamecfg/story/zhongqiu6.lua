@@ -137,7 +137,7 @@ return {
 			side = 1,
 			dir = -1,
 			actorName = "宁海",
-			say = "喂！你谁呀！不要偷酒！",
+			say = "喂！妳谁呀！不要偷酒！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "没想到今天最后来了这么多人……这都是你们的功劳呢",
+			say = "没想到今天最后来了这么多人……这都是妳们的功劳呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那样神明也好、亲友们也好，一定都会听到我们的愿望吧。萨拉托加，你的伙伴们还能飞得动吗？",
+			say = "那样神明也好、亲友们也好，一定都会听到我们的愿望吧。萨拉托加，妳的夥伴们还能飞得动吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然！我和姐姐的伙伴们都快等不及了！",
+			say = "当然！我和姐姐的夥伴们都快等不及了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就麻烦你们了~然后，先由懂规则的人来演示一局“博饼”吧——",
+			say = "那就麻烦妳们了~然后，先由懂规则的人来演示一局“博饼”吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

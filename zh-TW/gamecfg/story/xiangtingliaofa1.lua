@@ -527,7 +527,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，胜利你还不知道吧，说出来可别吃惊~~~",
+			say = "哼哼，胜利妳还不知道吧，说出来可别吃惊~~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "站在你面前的这位，就是白鹰赫赫有名的正义使者，英俊潇洒的大姐姐--巴尔的摩！",
+			say = "站在妳面前的这位，就是白鹰赫赫有名的正义使者，英俊潇洒的大姐姐--巴尔的摩！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

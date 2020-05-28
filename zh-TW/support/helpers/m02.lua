@@ -366,12 +366,6 @@ function playStory(slot0, slot1)
 	pg.StoryMgr.GetInstance():Play(slot0, slot1)
 end
 
-function playStorySound(slot0)
-end
-
-function stopStorySound()
-end
-
 function errorMessage(slot0)
 	if ERROR_MESSAGE[slot0] == nil then
 		slot1 = ERROR_MESSAGE[9999] .. ":" .. slot0
@@ -812,6 +806,10 @@ function getDropInfo(slot0)
 				id = id2ItemId(slot8)
 			}):getConfig("name") .. "x" .. slot9)
 		elseif slot7 == DROP_TYPE_ITEM then
+			table.insert(slot1, Item.New({
+				id = slot8
+			}):getConfig("name") .. "x" .. slot9)
+		elseif slot7 == DROP_TYPE_VITEM then
 			table.insert(slot1, Item.New({
 				id = slot8
 			}):getConfig("name") .. "x" .. slot9)
@@ -1889,12 +1887,6 @@ function topAnimation(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function cancelTweens(slot0)
-	if not slot0 then
-		LeanTween:cancelAll()
-
-		return
-	end
-
 	for slot4, slot5 in ipairs(slot0) do
 		if slot5 then
 			LeanTween.cancel(slot5)
@@ -2120,6 +2112,10 @@ function getSpecialItemPage(slot0)
 		{
 			mediator = AssignedShipMediator,
 			viewComponent = AssignedShipScene3
+		},
+		{
+			mediator = AssignedShipMediator,
+			viewComponent = AssignedShipScene4
 		}
 	})[slot0]
 end

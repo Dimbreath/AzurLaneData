@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "你们没事吧？",
+			say = "妳们没事吧？",
 			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
@@ -195,7 +195,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "猫耳，而且认识我们，你们是新加入重樱的舰船吗？不对……你们没有舰装啊。",
+			say = "猫耳，而且认识我们，妳们是新加入重樱的舰船吗？不对……妳们没有舰装啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900209,
-			say = "至于我为什么会认识你们，这个说起来就有些复杂了呢。",
+			say = "至于我为什么会认识妳们，这个说起来就有些复杂了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "嗯嗯，我知道我知道，我还把你们都誓约了哦。",
+			say = "嗯嗯，我知道我知道，我还把妳们都誓约了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你在说什么奇怪的话。",
+			say = "……妳在说什么奇怪的话。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "看两位都没有携带武装，不像是军事人员…你们的船在什么地方，是迷航了么？",
+			say = "看两位都没有携带武装，不像是军事人员…妳们的船在什么地方，是迷航了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这里是塞壬控制的镜面海域，周围的环境如你们所见，变为了极其扭曲的形象。在脱离危险前，请暂时随我们一起行动吧。",
+			say = "这里是塞壬控制的镜面海域，周围的环境如妳们所见，变为了极其扭曲的形象。在脱离危险前，请暂时随我们一起行动吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "类似我们的基地一样的东西…平时我们会和hololive的伙伴们在服务器里一起修建建筑，一起玩耍…",
+			say = "类似我们的基地一样的东西…平时我们会和hololive的夥伴们在服务器里一起修建建筑，一起玩耍…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你们的？但是从这里的情况来看，毫无疑问是镜像海域……",
+			say = "妳们的？但是从这里的情况来看，毫无疑问是镜像海域……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你们会认识我和{namecode:158}，也是因为什么…异世界的知识吧",
+			say = "妳们会认识我和{namecode:158}，也是因为什么…异世界的知识吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "既然这次又把你们这样的“穿越者”弄过来，塞壬恐怕又在搞些什么阴谋了",
+			say = "既然这次又把妳们这样的“穿越者”弄过来，塞壬恐怕又在搞些什么阴谋了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎？你们知道这样的地方么？",
+			say = "哎？妳们知道这样的地方么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

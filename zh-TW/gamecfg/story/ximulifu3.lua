@@ -69,7 +69,7 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_115",
-			say = "没什么不好吧，挺适合你的不是吗，克利夫兰？",
+			say = "没什么不好吧，挺适合妳的不是吗，克利夫兰？",
 			dir = 1,
 			actor = 102052,
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…谢谢你，海伦娜。不过，还是你的礼服更棒啊，就像星空下的梨花一样~",
+			say = "啊哈哈…谢谢妳，海伦娜。不过，还是妳的礼服更棒啊，就像星空下的梨花一样~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			actor = 102092,
 			nameColor = "#a9f548",
-			say = "…美丽的小姐，我能请你跳一支舞吗？",
+			say = "…美丽的小姐，我能请妳跳一支舞吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			blackBg = true,
 			actor = 102052,
 			nameColor = "#a9f548",
-			say = "你可要好好引导我哦，帅气的“骑士大人”～",
+			say = "妳可要好好引导我哦，帅气的“骑士大人”～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

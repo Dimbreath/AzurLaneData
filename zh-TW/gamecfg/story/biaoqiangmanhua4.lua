@@ -72,7 +72,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你、你是——！",
+			say = "妳、妳是——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 900183,
 			actorName = "？？？",
-			say = "「沒錯，我乃持有模擬再現經由{namecode:37}改造之心智魔方的意識傾向反映機能之力，由你的心願具象化而生的存在——」",
+			say = "「沒錯，我乃持有模擬再現經由{namecode:37}改造之心智魔方的意識傾向反映機能之力，由妳的心願具象化而生的存在——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "那封信也是你送來的吧！",
+			say = "那封信也是妳送來的吧！",
 			effects = {
 				{
 					active = false,
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			actor = 900183,
 			actorName = "指揮喵J",
-			say = "「正是。我乃再現你的內心的期望，將你的命運之人、你的思念和心願全部實現的存在！喵」",
+			say = "「正是。我乃再現妳的內心的期望，將妳的命運之人、妳的思念和心願全部實現的存在！喵」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			actor = 900183,
 			actorName = "指揮喵J",
-			say = "「哈哈哈哈哈！打敗我，超越自己吧！喵！否則的話你的成長將永遠止步於此！」",
+			say = "「哈哈哈哈哈！打敗我，超越自己吧！喵！否則的話妳的成長將永遠止步於此！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "標槍！撐住啊！馬上來幫你了！",
+			say = "標槍！撐住啊！馬上來幫妳了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			blackBg = true,
 			actor = 401460,
 			nameColor = "#a9f548",
-			say = "…齊柏林，你看到了嗎。",
+			say = "…齊柏林，妳看到了嗎。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -491,7 +491,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "「加油吧標槍！碧藍航線的未來就交給你了！」",
+			say = "「加油吧標槍！碧藍航線的未來就交給妳了！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

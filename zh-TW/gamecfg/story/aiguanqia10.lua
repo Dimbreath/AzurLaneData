@@ -55,7 +55,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也想～！爱酱，这场战斗结束以后，能去参加你的演唱会吗♪",
+			say = "我也想～！爱酱，这场战斗结束以后，能去参加妳的演唱会吗♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			actor = 10400020,
 			actorName = "绊爱",
-			say = "当然！我会为你们唱好多歌的哦～♪",
+			say = "当然！我会为妳们唱好多歌的哦～♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

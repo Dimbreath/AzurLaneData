@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "嗯…无畏收到，企业前辈行踪也麻烦你们留意一下。",
+			say = "嗯…无畏收到，企业前辈行踪也麻烦妳们留意一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

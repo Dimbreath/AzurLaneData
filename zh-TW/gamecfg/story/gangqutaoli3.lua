@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 202180,
 			nameColor = "#a9f548",
-			say = "你好。我是爱丁堡级轻巡洋舰，皇家女仆队见习女仆贝尔法斯特",
+			say = "妳好。我是爱丁堡级轻巡洋舰，皇家女仆队见习女仆贝尔法斯特",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -393,7 +393,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚不是才在厨房遇到过{namecode:71}小姐吗。一定是你搞错了啦。快走吧？",
+			say = "刚刚不是才在厨房遇到过{namecode:71}小姐吗。一定是妳搞错了啦。快走吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			blackBg = true,
 			actor = 202180,
 			nameColor = "#a9f548",
-			say = "？？你们的港区参观不是从码头开始的吗？",
+			say = "？？妳们的港区参观不是从码头开始的吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

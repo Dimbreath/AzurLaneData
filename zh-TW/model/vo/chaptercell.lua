@@ -2,6 +2,7 @@ slot0 = class("ChapterCell")
 
 function slot0.Ctor(slot0, slot1)
 	slot0.walkable = true
+	slot0.forbiddenDirections = ChapterConst.ForbiddenNone
 	slot0.row = slot1.pos.row
 	slot0.column = slot1.pos.column
 	slot0.attachment = slot1.item_type
@@ -10,7 +11,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.data = slot1.item_data
 	slot0.trait = ChapterConst.TraitNone
 	slot0.item = nil
-	slot0.itemOffset = Vector2(0, 0)
+	slot0.itemOffset = nil
 	slot0.flagList = {}
 
 	for slot5, slot6 in ipairs(slot1.flag_list or {}) do
@@ -88,7 +89,17 @@ function slot0.LineAround(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.IsWalkable(slot0, slot1)
+function slot0.SetWalkable(slot0, slot1)
+	slot0.walkable = tobool(slot1)
+
+	if type(slot1) == "boolean" then
+		slot0.forbiddenDirections = slot1 and ChapterConst.ForbiddenNone or ChapterConst.ForbiddenAll
+	elseif type(slot1) == "number" then
+		slot0.forbiddenDirections = bit.band(slot1, ChapterConst.ForbiddenAll)
+	end
+end
+
+function slot0.IsWalkable(slot0)
 	return slot0.walkable
 end
 

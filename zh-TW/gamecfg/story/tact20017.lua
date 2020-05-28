@@ -7,7 +7,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "剛才的一切，你都記錄下來了嗎",
+			say = "剛才的一切，妳都記錄下來了嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			actorName = "觀察者",
-			say = "既然已經被你們發現了這裡的情報，看來沒辦法讓你們輕易離開了~",
+			say = "既然已經被妳們發現了這裡的情報，看來沒辦法讓妳們輕易離開了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			actorName = "觀察者",
-			say = "就讓你們成為新的【棋子<Piece>】好了。有了新的種類，測試資料會更有意思的~",
+			say = "就讓妳們成為新的【棋子<Piece>】好了。有了新的種類，測試資料會更有意思的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "47醬，你快走…只要潛到足夠的深度，它們就抓不到你了",
+			say = "47醬，妳快走…只要潛到足夠的深度，它們就抓不到妳了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "你的速度比我快，這裡就由我先拖住它",
+			say = "妳的速度比我快，這裡就由我先拖住它",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "…明白了，祝你好運",
+			say = "…明白了，祝妳好運",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			actorName = "觀察者",
-			say = "那麼，被留下的你，要打算怎麼和我對抗呢？",
+			say = "那麼，被留下的妳，要打算怎麼和我對抗呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -56,7 +56,7 @@ return {
 			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "也就是说和你猜的一样，芝加哥那边已经被解决了吗……",
+			say = "也就是说和妳猜的一样，芝加哥那边已经被解决了吗……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

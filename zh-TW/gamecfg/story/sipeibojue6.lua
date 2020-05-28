@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你听我说……",
+			say = "妳听我说……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			stopbgm = true,
-			say = "欸，你在说什么危险的话呢，吓我一跳。",
+			say = "欸，妳在说什么危险的话呢，吓我一跳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是这个可恶的仆人，居然说自己给你挑选的衣服比我给你挑选的要好。",
+			say = "是这个可恶的仆人，居然说自己给妳挑选的衣服比我给妳挑选的要好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来吧，妹妹唷，赶紧换上我和仆人给你挑选的衣服。",
+			say = "来吧，妹妹唷，赶紧换上我和仆人给妳挑选的衣服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "要吓人的话，你要像我一样，用气势去震慑别人，用气势，懂不懂？",
+			say = "要吓人的话，妳要像我一样，用气势去震慑别人，用气势，懂不懂？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶，你这个爪子还有点难拆卸，仆人，快点过来，帮我把这个大家伙拆下来！",
+			say = "可恶，妳这个爪子还有点难拆卸，仆人，快点过来，帮我把这个大家伙拆下来！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

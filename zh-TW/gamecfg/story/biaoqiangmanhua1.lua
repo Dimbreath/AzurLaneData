@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 900183,
 			nameColor = "#a9f548",
-			say = "「我正在尋找像你這樣的女孩子喵」",
+			say = "「我正在尋找像妳這樣的女孩子喵」",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 900183,
 			actorName = "？？？",
-			say = "「這是預言喵，標槍，你將會——」",
+			say = "「這是預言喵，標槍，妳將會——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，沒錯，今天的人家是護士哦~想看嗎，你最喜歡的那個~",
+			say = "哼哼，沒錯，今天的人家是護士哦~想看嗎，妳最喜歡的那個~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，但是這可是護士服，人家可是想要照顧指揮官才穿上的，難道你不相信嗎？",
+			say = "欸，但是這可是護士服，人家可是想要照顧指揮官才穿上的，難道妳不相信嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "哼，好吧，既然你們不相信人家，人家就證明給你們看，人家才不只是為了誘惑指揮官才穿上這件衣服的！",
+			say = "哼，好吧，既然妳們不相信人家，人家就證明給妳們看，人家才不只是為了誘惑指揮官才穿上這件衣服的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

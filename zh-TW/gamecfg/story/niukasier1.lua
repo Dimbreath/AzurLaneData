@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这家伙虽然有点挺没意思的……但是在辅佐仆人你这件事上还是绰绰有余的！",
+			say = "这家伙虽然有点挺没意思的……但是在辅佐仆人妳这件事上还是绰绰有余的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

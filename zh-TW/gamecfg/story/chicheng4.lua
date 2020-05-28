@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "哎呀？你是铁血的……",
+			say = "哎呀？妳是铁血的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			say = "我是齐柏林。真难得啊，你竟会来参加这种活动",
+			say = "我是齐柏林。真难得啊，妳竟会来参加这种活动",
 			side = 1,
 			bgName = "bg_night",
 			dir = -1,
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "心血来潮而已…再说还得照顾年轻孩子们啊。你不也一样吗？",
+			say = "心血来潮而已…再说还得照顾年轻孩子们啊。妳不也一样吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
-			say = "…我不否定。是因为我是基于你而被设计建造的吗…不只是力量，连这种方面都这么相似",
+			say = "…我不否定。是因为我是基于妳而被设计建造的吗…不只是力量，连这种方面都这么相似",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
-			say = "……话说回来，听说你没有选择你所谓的“神”而是加入了我们的时候，我还是吃了一惊呢",
+			say = "……话说回来，听说妳没有选择妳所谓的“神”而是加入了我们的时候，我还是吃了一惊呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
-			say = "中途岛…指挥官是在那片海域和你进行着“那场大战”的…对吧？",
+			say = "中途岛…指挥官是在那片海域和妳进行着“那场大战”的…对吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "在某个时刻与你们交战的我，也不过是“可能性”的一种。在这里和你一起喝酒的我亦不过是…",
+			say = "在某个时刻与妳们交战的我，也不过是“可能性”的一种。在这里和妳一起喝酒的我亦不过是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
-			say = "……哼，听你这个口气，指挥官还不知道吧。",
+			say = "……哼，听妳这个口气，指挥官还不知道吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

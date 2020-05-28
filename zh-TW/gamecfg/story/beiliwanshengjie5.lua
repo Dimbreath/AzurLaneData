@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "幽靈小姐——！快出來吧——！大家都在擔心你呢——！",
+			say = "幽靈小姐——！快出來吧——！大家都在擔心妳呢——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			actor = 213021,
 			nameColor = "#a9f548",
-			say = "哇、嚇你一跳。",
+			say = "哇、嚇妳一跳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是…恐怖？",
+			say = "妳是…恐怖？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			actor = 205031,
 			nameColor = "#a9f548",
-			say = "…為什麼恐怖你會在倉庫的棺材裡？",
+			say = "…為什麼恐怖妳會在倉庫的棺材裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

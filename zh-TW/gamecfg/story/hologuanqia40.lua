@@ -13,7 +13,7 @@ return {
 			bgm = "holo-control",
 			actor = 10500060,
 			nameColor = "#ff5c5c",
-			say = "听人说话要听完啊，你这个小学生…",
+			say = "听人说话要听完啊，妳这个小学生…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			say = "说谁是小学生啊！你这个笨蛋！略~~~~~~",
+			say = "说谁是小学生啊！妳这个笨蛋！略~~~~~~",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			say = "你在感动什么！扁你哦！",
+			say = "妳在感动什么！扁妳哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500060,
-			say = "哈？！那不是敌人的事么！敌人弱你们应该开心吧！",
+			say = "哈？！那不是敌人的事么！敌人弱妳们应该开心吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…你只是单纯失忆了而已吧！失忆的人变出什么性格来也根本不奇怪",
+			say = "…妳只是单纯失忆了而已吧！失忆的人变出什么性格来也根本不奇怪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也劝你不要这么想…正因为你现在是净化亲，而非净化者，事情才有现在的余地。",
+			say = "我也劝妳不要这么想…正因为妳现在是净化亲，而非净化者，事情才有现在的余地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果你是净化者的一部分，那么无论你是什么样，我依然会消灭你。",
+			say = "如果妳是净化者的一部分，那么无论妳是什么样，我依然会消灭妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "净化亲",
-			say = "好好好~不过现在这种情况下，和你们发展出热血的友情，这种展开是完全可能的咯~？",
+			say = "好好好~不过现在这种情况下，和妳们发展出热血的友情，这种展开是完全可能的咯~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

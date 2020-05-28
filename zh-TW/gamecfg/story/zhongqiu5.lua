@@ -205,7 +205,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "唔，嚼嚼……萨拉，你还要……继续进步哦……",
+			say = "唔，嚼嚼……萨拉，妳还要……继续进步哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "克利夫兰，你真的有按逸仙教你的方法做吗？这个东西我越看越像是卷饼哎",
+			say = "克利夫兰，妳真的有按逸仙教妳的方法做吗？这个东西我越看越像是卷饼哎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么最终真正做成了“月饼”的只有我、宁海、海伦娜和——平海，你的月饼怎么变成了包子！？",
+			say = "那么最终真正做成了“月饼”的只有我、宁海、海伦娜和——平海，妳的月饼怎么变成了包子！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "好、好好喝！赠给我十桶的话，海上骑士为你赴汤蹈火在所不辞！",
+			say = "好、好好喝！赠给我十桶的话，海上骑士为妳赴汤蹈火在所不辞！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

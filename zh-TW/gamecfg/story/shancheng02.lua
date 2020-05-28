@@ -105,7 +105,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "{namecode:77}、{namecode:76}…你们都好厉害啊～不觉得冷吗？",
+			say = "{namecode:77}、{namecode:76}…妳们都好厉害啊～不觉得冷吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:77}",
-			say = "怎么样？{namecode:79}你也要一起参加吗？",
+			say = "怎么样？{namecode:79}妳也要一起参加吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

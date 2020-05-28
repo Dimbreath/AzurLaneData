@@ -308,7 +308,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "这就是…你们的极限吗！！",
+			say = "这就是…妳们的极限吗！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "塞壬，我不知道你们究竟在打着什么算盘…",
+			say = "塞壬，我不知道妳们究竟在打着什么算盘…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "但是，唯独这份荣耀，不容你们玷污!",
+			say = "但是，唯独这份荣耀，不容妳们玷污!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "我不能就这样败在你们手下",
+			say = "我不能就这样败在妳们手下",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "我收回之前对你的看法，如果这就是你最后的选择",
+			say = "我收回之前对妳的看法，如果这就是妳最后的选择",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "我们会用炮火送你一程",
+			say = "我们会用炮火送妳一程",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,7 +901,7 @@ return {
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "我想知道，在你们所观察到的无数个可能性中，是否存在…",
+			say = "我想知道，在妳们所观察到的无数个可能性中，是否存在…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -949,7 +949,7 @@ return {
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "在绵延数千载的历史长河中，“你”作为个体，不过是沧海一粟",
+			say = "在绵延数千载的历史长河中，“妳”作为个体，不过是沧海一粟",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -997,7 +997,7 @@ return {
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "无论“你”能否在那场关键的战斗中幸存，时代的走向都不会改变",
+			say = "无论“妳”能否在那场关键的战斗中幸存，时代的走向都不会改变",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1029,7 +1029,7 @@ return {
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "不…你错了。我想知道的并不是关于我的命运。",
+			say = "不…妳错了。我想知道的并不是关于我的命运。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1093,7 +1093,7 @@ return {
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你可真是个有趣的样本，居然能达成超出我们预测的对话",
+			say = "妳可真是个有趣的样本，居然能达成超出我们预测的对话",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1109,7 +1109,7 @@ return {
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "欲带皇冠必承其重，看来你已经理解了其中的意味呢",
+			say = "欲带皇冠必承其重，看来妳已经理解了其中的意味呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1125,7 +1125,7 @@ return {
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "“要真正体验生命,你必须站在生命之上”",
+			say = "“要真正体验生命,妳必须站在生命之上”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1189,7 +1189,7 @@ return {
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "去吧，用你渺小而卑微的生命影响世界，去拨动静滞时间的齿轮吧",
+			say = "去吧，用妳渺小而卑微的生命影响世界，去拨动静滞时间的齿轮吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1205,7 +1205,7 @@ return {
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "让海涛为你翻滚，让风云为你变色",
+			say = "让海涛为妳翻滚，让风云为妳变色",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1221,7 +1221,7 @@ return {
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "届时，渺小的生命便成就了你，你便找到了“另一个自我”",
+			say = "届时，渺小的生命便成就了妳，妳便找到了“另一个自我”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1237,7 +1237,7 @@ return {
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "然后你就能找到答案了——————",
+			say = "然后妳就能找到答案了——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1253,7 +1253,7 @@ return {
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "前提是那时候的你能够认可“另一个自我”呢~呵呵呵呵呵———",
+			say = "前提是那时候的妳能够认可“另一个自我”呢~呵呵呵呵呵———",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1481,7 +1481,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"<size=60>（我的妹妹…到最后还是期待能和你们并肩前行呀…）</size>",
+					"<size=60>（我的妹妹…到最后还是期待能和妳们并肩前行呀…）</size>",
 					1
 				}
 			}

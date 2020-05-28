@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "现在我反倒成被笑的那个了…今天你就别管我了…嗯，既往不咎…",
+			say = "现在我反倒成被笑的那个了…今天妳就别管我了…嗯，既往不咎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "还是说…你想着看我现在虚了，想要趁机报复我平常对你的欺负？",
+			say = "还是说…妳想着看我现在虚了，想要趁机报复我平常对妳的欺负？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "哼…平时总是欺负你…说白了也是我自作自受。",
+			say = "哼…平时总是欺负妳…说白了也是我自作自受。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "你…为什么…",
+			say = "妳…为什么…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "真是…随便你了啦…呜…呜呜…",
+			say = "真是…随便妳了啦…呜…呜呜…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

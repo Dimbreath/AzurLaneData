@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 205040,
 			nameColor = "#a9f548",
-			say = "姐姐，你聽說了港區裡幽靈小姐的傳聞嗎？",
+			say = "姐姐，妳聽說了港區裡幽靈小姐的傳聞嗎？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			actor = 205031,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊！——原來是你們啊…",
+			say = "哇啊啊啊！——原來是妳們啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

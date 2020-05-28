@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "而且你看，既然有风纪委员，就应该有不良少女才对嘛？",
+			say = "而且妳看，既然有风纪委员，就应该有不良少女才对嘛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心吧，作为Z驱的大姐，我可以跟你打包票，世上是不会有不关心妹妹的姐姐的~",
+			say = "放心吧，作为Z驱的大姐，我可以跟妳打包票，世上是不会有不关心妹妹的姐姐的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "{namecode:2}，不好意思啊，还让你一起帮忙整理材料",
+			say = "{namecode:2}，不好意思啊，还让妳一起帮忙整理材料",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "是呢…话说{namecode:94}啊…你就不能听姐姐一回，穿姐姐帮你准备的制服嘛…",
+			say = "是呢…话说{namecode:94}啊…妳就不能听姐姐一回，穿姐姐帮妳准备的制服嘛…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嘻嘻，从你们跟指挥官聊天的时候我就在啦~",
+			say = "嘻嘻，从妳们跟指挥官聊天的时候我就在啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_outdoor",
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "灰色幽灵！你总算来了！身为前一航战的一员，这个仇非报不可！",
+			say = "灰色幽灵！妳总算来了！身为前一航战的一员，这个仇非报不可！",
 			flashout = {
 				dur = 0.5,
 				black = true,

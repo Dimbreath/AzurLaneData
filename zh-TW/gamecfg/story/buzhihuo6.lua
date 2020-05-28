@@ -189,7 +189,7 @@ return {
 			dir = -1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "病人就乖乖躺著喵！{namecode:20}你就是太逞強了喵！",
+			say = "病人就乖乖躺著喵！{namecode:20}妳就是太逞強了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			}
 		},
 		{
-			say = "唯獨不想被你說。",
+			say = "唯獨不想被妳說。",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,

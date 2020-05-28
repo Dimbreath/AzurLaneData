@@ -19,7 +19,7 @@ return {
 					4
 				},
 				{
-					"<size=51>“不会让你一直孤单一个人的！”</size>",
+					"<size=51>“不会让妳一直孤单一个人的！”</size>",
 					6
 				}
 			}
@@ -223,7 +223,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是想吃这个吗？",
+			say = "妳是想吃这个吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给你。",
+			say = "给妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "斯佩？你在做什么呢？",
+			say = "斯佩？妳在做什么呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，你把她吓跑了。",
+			say = "姐姐，妳把她吓跑了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那姐姐，你要吃这个吗？",
+			say = "那姐姐，妳要吃这个吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "对了！斯佩，我和你说啊，昨天的演习，皇家的那帮家伙——",
+			say = "对了！斯佩，我和妳说啊，昨天的演习，皇家的那帮家伙——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

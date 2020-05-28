@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "居然被飒爽地拒绝了……但是，正是这样的你才更加迷人啊~",
+			say = "居然被飒爽地拒绝了……但是，正是这样的妳才更加迷人啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们认识？",
+			say = "妳们认识？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "啊哈哈，吹雪的想法也不是不能理解，不过，还是拜托你们去支援她们了！",
+			say = "啊哈哈，吹雪的想法也不是不能理解，不过，还是拜托妳们去支援她们了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算你们不说，标枪也是要救的~上了哦！",
+			say = "就算妳们不说，标枪也是要救的~上了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

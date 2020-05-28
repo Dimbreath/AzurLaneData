@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"梦幻的交汇-日常篇\n\n<size=45>五　你为谁而战</size>",
+					"梦幻的交汇-日常篇\n\n<size=45>五　妳为谁而战</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-uta",
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "……你们究竟是为了什么在战斗",
+			say = "……妳们究竟是为了什么在战斗",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都是感情丰富的人，只有你们俩……让人难以捉摸",
+			say = "大家都是感情丰富的人，只有妳们俩……让人难以捉摸",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然……你们和“我们”很相似呢",
+			say = "果然……妳们和“我们”很相似呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "23，标枪，拉菲，{namecode:6}——你们可有想过去违抗指挥官的命令？",
+			say = "23，标枪，拉菲，{namecode:6}——妳们可有想过去违抗指挥官的命令？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是这样嘛……原来你们也是身负这样的命运吗……",
+			say = "是这样嘛……原来妳们也是身负这样的命运吗……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			}
 		},
 		{
-			say = "原来如此，的确我们和你们的生存之道是有相似之处",
+			say = "原来如此，的确我们和妳们的生存之道是有相似之处",
 			side = 1,
 			bgName = "bg_story_chuansong",
 			dir = 1,
@@ -785,7 +785,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以我才会想详细了解一下你们的心情…",
+			say = "所以我才会想详细了解一下妳们的心情…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我知道你们发誓对那个男性效忠，而我对原因和理由也不感兴趣……我想知道的是，你们的真实的想法",
+			say = "我知道妳们发誓对那个男性效忠，而我对原因和理由也不感兴趣……我想知道的是，妳们的真实的想法",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -817,7 +817,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们到底是…如何看待那个人的？",
+			say = "妳们到底是…如何看待那个人的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 			dir = 1,
 			actor = 10300040,
 			nameColor = "#a9f548",
-			say = "你也是同类",
+			say = "妳也是同类",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -902,7 +902,7 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			say = "欧根大人，你不也是这样吗？你也从心底认可着那位指挥官，这个心情就和我们是一样的……",
+			say = "欧根大人，妳不也是这样吗？妳也从心底认可着那位指挥官，这个心情就和我们是一样的……",
 			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",

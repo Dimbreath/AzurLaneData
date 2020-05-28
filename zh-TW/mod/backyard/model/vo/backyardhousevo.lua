@@ -22,6 +22,26 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
+function slot0.GetFurnituresAndPapers(slot0)
+	slot1 = {
+		[slot6.id] = slot6
+	}
+
+	for slot5, slot6 in pairs(slot0.furnitures) do
+		-- Nothing
+	end
+
+	if slot0.wallPaper then
+		slot1[slot0.wallPaper.id] = slot0.wallPaper
+	end
+
+	if slot0.floorPaper then
+		slot1[slot0.floorPaper.id] = slot0.floorPaper
+	end
+
+	return slot1
+end
+
 function slot0.getMaze(slot0, slot1)
 	slot2 = {}
 
@@ -42,6 +62,10 @@ function slot0.getMaze(slot0, slot1)
 	end
 
 	return slot2
+end
+
+function slot0.ContainsFurnitrue(slot0, slot1)
+	return slot0.furnitures[slot1] ~= nil
 end
 
 function slot0.printMaze(slot0)

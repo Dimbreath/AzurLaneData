@@ -155,7 +155,7 @@ return {
 			side = 0,
 			actorName = "{namecode:75}",
 			bgName = "bg_story_nagato2",
-			say = "不，姐姐，這一開始就是他們的陰謀..無非是利用你的信仰力來實現了他們的目的罷了！",
+			say = "不，姐姐，這一開始就是他們的陰謀..無非是利用妳的信仰力來實現了他們的目的罷了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 0,
 			actorName = "{namecode:74}",
 			bgName = "bg_story_nagato2",
-			say = "謝謝你…不過…我現在只希望能好好的休息一下…希望你能明白",
+			say = "謝謝妳…不過…我現在只希望能好好的休息一下…希望妳能明白",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 0,
 			actorName = "{namecode:74}",
 			bgName = "bg_story_nagato2",
-			say = "你們可要試著友好相處呀…對了…",
+			say = "妳們可要試著友好相處呀…對了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nagato2",
 			blackBg = true,
-			say = "——謝謝你，我的妹妹",
+			say = "——謝謝妳，我的妹妹",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

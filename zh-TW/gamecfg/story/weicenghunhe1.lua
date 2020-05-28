@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "NY司令部收到。气象部门发现你们前方的海域正在生成海雾，请小心行驶。",
+			say = "NY司令部收到。气象部门发现妳们前方的海域正在生成海雾，请小心行驶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

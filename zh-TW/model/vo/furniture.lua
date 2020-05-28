@@ -75,6 +75,10 @@ function slot0.getDate(slot0)
 	end
 end
 
+function slot0.GetOwnCnt(slot0)
+	return slot0.count
+end
+
 function slot0.setCount(slot0, slot1)
 	slot0.count = slot1
 end
@@ -113,6 +117,10 @@ end
 
 function slot0.updatePosition(slot0, slot1)
 	slot0.position = slot1
+end
+
+function slot0.HasPosition(slot0)
+	return slot0.position ~= nil
 end
 
 function slot0.clearPosition(slot0)
@@ -161,7 +169,7 @@ function slot0.inTime(slot0)
 end
 
 function slot0.isTimeLimit(slot0)
-	return type(slot0:getConfig("time")) == "table"
+	return slot0:getConfig("time") and type(slot1) == "table"
 end
 
 function slot0.isRecordTime(slot0)
@@ -169,7 +177,7 @@ function slot0.isRecordTime(slot0)
 end
 
 function slot0.isDisCount(slot0)
-	return slot0:getConfig("discount") > 0 and pg.TimeMgr.GetInstance():inTime(slot0:getConfig("discount_time"))
+	return (slot0:getConfig("discount") or 0) > 0 and pg.TimeMgr.GetInstance():inTime(slot0:getConfig("discount_time"))
 end
 
 function slot0.sortSizeFunc(slot0)

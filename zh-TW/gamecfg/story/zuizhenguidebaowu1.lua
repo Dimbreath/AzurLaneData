@@ -98,7 +98,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408040,
-			say = "10胜0败！这次你总该认输了吧！",
+			say = "10胜0败！这次妳总该认输了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408040,
-			say = "不是你说要玩捉迷藏的么！？而且那是头发，不是背鳍吧……",
+			say = "不是妳说要玩捉迷藏的么！？而且那是头发，不是背鳍吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408040,
-			say = "4:0的时候你就已经说过这句话了！",
+			say = "4:0的时候妳就已经说过这句话了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "所~以~说，不是狼，只是一种比喻啦比喻！俾斯麦姐姐明明说——不要摆出那种“不知道你在讲什么”的表情！！！",
+			say = "所~以~说，不是狼，只是一种比喻啦比喻！俾斯麦姐姐明明说——不要摆出那种“不知道妳在讲什么”的表情！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

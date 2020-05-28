@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			actor = 603020,
 			nameColor = "#a9f548",
-			say = "啊对了，你知道加富尔和凯撒吗？她们两个看起来总是在较劲，谁也不服谁。",
+			say = "啊对了，妳知道加富尔和凯撒吗？她们两个看起来总是在较劲，谁也不服谁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，可以问你一个问题吗？",
+			say = "指挥官，可以问妳一个问题吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			actor = 603020,
 			nameColor = "#a9f548",
-			say = "如果要从两个里面选一个的话。你是喜欢龙骑兵那样认真的孩子，还是特伦托那样温柔的小姐姐呢？",
+			say = "如果要从两个里面选一个的话。妳是喜欢龙骑兵那样认真的孩子，还是特伦托那样温柔的小姐姐呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 					flag = 2
 				},
 				{
-					content = "喜欢扎拉你这种",
+					content = "喜欢扎拉妳这种",
 					flag = 3
 				}
 			}
@@ -495,7 +495,7 @@ return {
 			optionFlag = 2,
 			actor = 603020,
 			nameColor = "#a9f548",
-			say = "那么，废柴指挥官，姐姐来喂你吃吧？来，张开嘴，啊~",
+			say = "那么，废柴指挥官，姐姐来喂妳吃吧？来，张开嘴，啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			optionFlag = 3,
 			actor = 603020,
 			nameColor = "#a9f548",
-			say = "嗯哼？指挥官，看你的表情有些沮丧啊。该不会是……当真了吧？",
+			say = "嗯哼？指挥官，看妳的表情有些沮丧啊。该不会是……当真了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			optionFlag = 3,
 			actor = 603020,
 			nameColor = "#a9f548",
-			say = "别放在心上啦。无论如何，扎拉都会兑现当初的承诺：为你的舰队带来胜利与荣光，以及作为秘书舰陪伴在你的身边。",
+			say = "别放在心上啦。无论如何，扎拉都会兑现当初的承诺：为妳的舰队带来胜利与荣光，以及作为秘书舰陪伴在妳的身边。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			optionFlag = 3,
 			actor = 603020,
 			nameColor = "#a9f548",
-			say = "好啦好啦，你那沮丧的样子要是给同伴们看到，会引起误会的。先尝一口我做的牛排吧，来，啊~~",
+			say = "好啦好啦，妳那沮丧的样子要是给同伴们看到，会引起误会的。先尝一口我做的牛排吧，来，啊~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

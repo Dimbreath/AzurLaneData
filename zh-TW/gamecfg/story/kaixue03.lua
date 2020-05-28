@@ -66,7 +66,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小熊小熊，你看～",
+			say = "小熊小熊，妳看～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇哇哇哇！你、你一定是听错了！我、我才没有和小熊说话…",
+			say = "哇哇哇哇！妳、妳一定是听错了！我、我才没有和小熊说话…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一起吃午饭？既、既然你这么诚心诚意的请求了…",
+			say = "一起吃午饭？既、既然妳这么诚心诚意的请求了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我就勉为其难跟你分享一下海伦娜的便当好了——",
+			say = "我就勉为其难跟妳分享一下海伦娜的便当好了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

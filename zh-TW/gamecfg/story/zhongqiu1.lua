@@ -74,7 +74,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "呵呵，不做好与之相配的月饼我可不会为你们奉酒哦",
+			say = "呵呵，不做好与之相配的月饼我可不会为妳们奉酒哦",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -374,7 +374,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇哇——逸仙姐，你是在开玩笑对吧！",
+			say = "呜哇哇——逸仙姐，妳是在开玩笑对吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

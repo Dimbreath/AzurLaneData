@@ -195,7 +195,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，今天还有很多白鹰的伙伴参加啊",
+			say = "嗯，今天还有很多白鹰的夥伴参加啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，之前在发邀请函的时候，皇家也一块邀请了白鹰的伙伴们",
+			say = "嗯，之前在发邀请函的时候，皇家也一块邀请了白鹰的夥伴们",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的…换上正式的礼服了还是这么莽撞…你好，指挥官、还有铁血的各位",
+			say = "真是的…换上正式的礼服了还是这么莽撞…妳好，指挥官、还有铁血的各位",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			actor = 107071,
 			nameColor = "#a9f548",
-			say = "哎呀，难得的放松机会嘛，那么拘谨岂不是太无趣了～你说是吧，指挥官～",
+			say = "哎呀，难得的放松机会嘛，那么拘谨岂不是太无趣了～妳说是吧，指挥官～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

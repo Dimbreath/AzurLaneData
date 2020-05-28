@@ -23,7 +23,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "你好啊~来自皇家的贵族小姐",
+			say = "妳好啊~来自皇家的贵族小姐",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

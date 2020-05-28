@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			actor = 305141,
 			nameColor = "#a9f548",
-			say = "嗯嗯…就这么融化吧……欸！！？？你们两个什么时候出现的！？",
+			say = "嗯嗯…就这么融化吧……欸！！？？妳们两个什么时候出现的！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			actor = 305141,
 			nameColor = "#a9f548",
-			say = "一年难得这么一次…就让我懒一会吧…你们两个也是，吃点橘子吧…？",
+			say = "一年难得这么一次…就让我懒一会吧…妳们两个也是，吃点橘子吧…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

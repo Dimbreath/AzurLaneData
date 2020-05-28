@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			say = "喂，多少注意點形象啦，{namecode:16}！{namecode:70}她們都在看你了啊",
+			say = "喂，多少注意點形象啦，{namecode:16}！{namecode:70}她們都在看妳了啊",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呣呣，就算你這麼說我也不會把到手的肉給你的，要的話自己拿",
+			say = "呣呣，就算妳這麼說我也不會把到手的肉給妳的，要的話自己拿",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			actor = 301150,
 			nameColor = "#a9f548",
-			say = "你…",
+			say = "妳…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你也想要和我跳一支嗎？可以呀~",
+			say = "妳也想要和我跳一支嗎？可以呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

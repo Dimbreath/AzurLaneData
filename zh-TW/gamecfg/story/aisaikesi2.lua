@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是指挥官还有…埃塞克斯前辈！你们好~",
+			say = "啊，是指挥官还有…埃塞克斯前辈！妳们好~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "前、“前辈”！？你是皇家的…半人马么",
+			say = "前、“前辈”！？妳是皇家的…半人马么",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "嗯！埃塞克斯前辈你们是在巡逻港区吗？真是辛苦了呢~",
+			say = "嗯！埃塞克斯前辈妳们是在巡逻港区吗？真是辛苦了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "嘻嘻，埃塞克斯前辈真是认真呢，那我就不打扰你们了~",
+			say = "嘻嘻，埃塞克斯前辈真是认真呢，那我就不打扰妳们了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "咳、咳咳，重樱的{namecode:96}吗，你好",
+			say = "咳、咳咳，重樱的{namecode:96}吗，妳好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "“这次一定会战胜你的！”这么转告她就行了，嘿嘿！",
+			say = "“这次一定会战胜妳的！”这么转告她就行了，嘿嘿！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

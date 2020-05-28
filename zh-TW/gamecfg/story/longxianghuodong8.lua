@@ -57,7 +57,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "你未免也担心得太多了……妹妹可不是那么柔弱的存在，多相信她一点吧",
+			say = "妳未免也担心得太多了……妹妹可不是那么柔弱的存在，多相信她一点吧",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -101,7 +101,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我可没这么说……唉，算了，每次跟你一起，都觉得完全严肃不起来……你就不会觉得紧张吗？",
+			say = "我可没这么说……唉，算了，每次跟妳一起，都觉得完全严肃不起来……妳就不会觉得紧张吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……难以置信，这么逻辑清晰的话居然是从你口中说出来的。",
+			say = "……难以置信，这么逻辑清晰的话居然是从妳口中说出来的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

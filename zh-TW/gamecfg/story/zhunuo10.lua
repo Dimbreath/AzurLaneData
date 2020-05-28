@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（熱心，阿卡司塔，兩個好孩子，是姐姐對不起你們……）",
+			say = "（熱心，阿卡司塔，兩個好孩子，是姐姐對不起妳們……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#D6341D",
 			dir = 1,
-			say = "你們沒事吧——喂，怎麼打成這樣。",
+			say = "妳們沒事吧——喂，怎麼打成這樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			nameColor = "#D6341D",
 			side = 0,
 			dir = 1,
-			say = "嗯？啊……沒什麼，沒想到會這麼難纏而已，真是個不錯的對手……格奈森瑙，你沒事吧？",
+			say = "嗯？啊……沒什麼，沒想到會這麼難纏而已，真是個不錯的對手……格奈森瑙，妳沒事吧？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

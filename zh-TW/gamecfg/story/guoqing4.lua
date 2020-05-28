@@ -10,7 +10,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "你們這些量產的冒牌貨可真是煩人，究竟還有多少，一起上吧！",
+			say = "妳們這些量產的冒牌貨可真是煩人，究竟還有多少，一起上吧！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -48,7 +48,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "這不是{namecode:11}嗎！？來得真是時候，剛才在暴風雨中走散之後就一直擔心你們，平安無事真是太好了",
+			say = "這不是{namecode:11}嗎！？來得真是時候，剛才在暴風雨中走散之後就一直擔心妳們，平安無事真是太好了",
 			shake = {
 				speed = 1,
 				number = 3
@@ -103,7 +103,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "！！！你這是做什麼，差一點就要擊中我了，小心…",
+			say = "！！！妳這是做什麼，差一點就要擊中我了，小心…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -122,7 +122,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "一點…{namecode:11}，你這是…",
+			say = "一點…{namecode:11}，妳這是…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -176,7 +176,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "可憐又可憎的人偶...就讓我來把你從詛咒解放出來吧。",
+			say = "可憐又可憎的人偶...就讓我來把妳從詛咒解放出來吧。",
 			shake = {
 				speed = 1,
 				number = 3

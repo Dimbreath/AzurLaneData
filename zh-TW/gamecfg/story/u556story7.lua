@@ -208,7 +208,7 @@ return {
 			bgName = "star_level_bg_106",
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "指挥官，你太慢啦！",
+			say = "指挥官，妳太慢啦！",
 			flashout = {
 				dur = 0.25,
 				black = true,

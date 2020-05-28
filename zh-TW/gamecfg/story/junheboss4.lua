@@ -186,7 +186,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解！{namecode:175}你那边没问题吧！",
+			say = "了解！{namecode:175}妳那边没问题吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听得到吗，{namecode:97}！旗舰权限全部转交给你了！等我方炮击结束后，让所有轰炸机都往我这边飞！",
+			say = "听得到吗，{namecode:97}！旗舰权限全部转交给妳了！等我方炮击结束后，让所有轰炸机都往我这边飞！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:175}！你！难道想独自一人冲到指挥官的主力舰队里去？！？",
+			say = "{namecode:175}！妳！难道想独自一人冲到指挥官的主力舰队里去？！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			actor = 900200,
 			nameColor = "#a9f548",
-			say = "你是航母啊！给我专心索敌！要是看丢了指挥官，作战可就打水漂了！",
+			say = "妳是航母啊！给我专心索敌！要是看丢了指挥官，作战可就打水漂了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

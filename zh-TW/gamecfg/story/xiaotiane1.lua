@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			actor = 201080,
 			nameColor = "#a9f548",
-			say = "小天鵝？！你、你這是什麼裝備！",
+			say = "小天鵝？！妳、妳這是什麼裝備！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "嗚嗚嗚…彗星、新月…你們聽我說啊——",
+			say = "嗚嗚嗚…彗星、新月…妳們聽我說啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

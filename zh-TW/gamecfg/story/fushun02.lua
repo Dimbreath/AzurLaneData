@@ -23,7 +23,7 @@ return {
 			bgm = "story-china",
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "長春長春！你看我們找到了什麼！",
+			say = "長春長春！妳看我們找到了什麼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "嗚哇…撫順姐你還真的去翻了舊倉庫啊…",
+			say = "嗚哇…撫順姐妳還真的去翻了舊倉庫啊…",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？長春你說什麼？",
+			say = "嗯？長春妳說什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呣…是啊，但是你不好奇嗎！這裡面究竟是什麼樣的遊戲！",
+			say = "呣…是啊，但是妳不好奇嗎！這裡面究竟是什麼樣的遊戲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

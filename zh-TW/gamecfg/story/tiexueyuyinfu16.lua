@@ -239,7 +239,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "曾经有那么一瞬间，我还以为你有着那么一点属于战士的荣耀",
+			say = "曾经有那么一瞬间，我还以为妳有着那么一点属于战士的荣耀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "皇家舰队从来不畏惧失败和死亡，而你却在最后放弃了身为战舰的尊严",
+			say = "皇家舰队从来不畏惧失败和死亡，而妳却在最后放弃了身为战舰的尊严",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不论你自诩为神亦或是太阳",
+			say = "不论妳自诩为神亦或是太阳",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "我们都会将你和你的阴谋彻底击败！",
+			say = "我们都会将妳和妳的阴谋彻底击败！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

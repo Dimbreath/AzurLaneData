@@ -47,7 +47,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}小姐，你一定有什么妙策了吧",
+			say = "{namecode:98}小姐，妳一定有什么妙策了吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "塞壬比起我们更重视来自异世界的你们喵。大概是想要获取你们的数据吧喵",
+			say = "塞壬比起我们更重视来自异世界的妳们喵。大概是想要获取妳们的数据吧喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = -1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "虽然我也知道这很强人所难……不过能拜托你们吗喵",
+			say = "虽然我也知道这很强人所难……不过能拜托妳们吗喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

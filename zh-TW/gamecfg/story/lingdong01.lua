@@ -77,7 +77,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "請代我向女王陛下獻上最高的問候~願曙光照耀你們",
+			say = "請代我向女王陛下獻上最高的問候~願曙光照耀妳們",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你多心啦，既然現在大家已經攜手組成了聯盟，就應該相信彼此和互相照應",
+			say = "妳多心啦，既然現在大家已經攜手組成了聯盟，就應該相信彼此和互相照應",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

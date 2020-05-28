@@ -12,7 +12,7 @@ return {
 			side = 2,
 			nameColor = "#FF0000",
 			mode = 2,
-			say = "啊啊啊啊，混蛋，你們這群廢物居然敢傷到本小姐！！",
+			say = "啊啊啊啊，混蛋，妳們這群廢物居然敢傷到本小姐！！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
-			say = "可惡，就算是坐沉也不會向你們這些低等動物投降的！！",
+			say = "可惡，就算是坐沉也不會向妳們這些低等動物投降的！！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -88,7 +88,7 @@ return {
 			side = 1,
 			actorName = "???",
 			mode = 2,
-			say = "其實這速度已經遠遠的超出了我的預期啦~你要對人類，不，對自然進化抱有耐心和信心~",
+			say = "其實這速度已經遠遠的超出了我的預期啦~妳要對人類，不，對自然進化抱有耐心和信心~",
 			blackBg = true,
 			actor = 900012,
 			nameColor = "#ff0000",
@@ -117,7 +117,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			nameColor = "#ff0000",
-			say = "然而「審判者」對這樣的開局並不會感到滿意的，除非，你能給她送去更多的——\n「棋子<Piece>」",
+			say = "然而「審判者」對這樣的開局並不會感到滿意的，除非，妳能給她送去更多的——\n「棋子<Piece>」",
 			shake = {
 				speed = 1,
 				number = 3

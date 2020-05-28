@@ -34,6 +34,7 @@ slot0.AttrListInheritance = {
 	"damageRatioByBulletTorpedo",
 	"damageRatioByAir",
 	"damagePreventRantTorpedo",
+	"accuracyRateExtra",
 	"dodgeRateExtra",
 	"perfectDodge",
 	"immuneDirectHit",
@@ -192,7 +193,7 @@ end
 
 function slot0.SetEnemyAttr(slot0, slot1)
 	slot2 = slot0._tmpData
-	slot3 = slot0._level or 1
+	slot3 = slot0:GetLevel()
 	slot4 = slot0._attr or {}
 	slot0._attr = slot4
 	slot4.battleUID = slot0:GetUniqueID()

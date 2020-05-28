@@ -35,7 +35,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "是呀～收到{namecode:6}邀請的時候就在想著會不會遇到你們了～",
+			say = "是呀～收到{namecode:6}邀請的時候就在想著會不會遇到妳們了～",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -306,7 +306,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原來如此，就是你手上的這個嗎？",
+			say = "原來如此，就是妳手上的這個嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就決定是你了，拉菲！Z23、{namecode:6}，抓住拉菲～",
+			say = "就決定是妳了，拉菲！Z23、{namecode:6}，抓住拉菲～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			blackBg = true,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "嘿嘿嘿，你喊破了喉嚨也沒用的，我脫！",
+			say = "嘿嘿嘿，妳喊破了喉嚨也沒用的，我脫！",
 			flashout = {
 				dur = 1,
 				black = true,

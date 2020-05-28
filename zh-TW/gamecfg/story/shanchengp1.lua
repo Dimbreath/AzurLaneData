@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "啊！殿下，這份文件早上{namecode:79}已經幫你蓋過章了呀？唔，殿下最近記性真差……",
+			say = "啊！殿下，這份文件早上{namecode:79}已經幫妳蓋過章了呀？唔，殿下最近記性真差……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "對了殿下，你看你看！這個東西可方便呢！",
+			say = "對了殿下，妳看妳看！這個東西可方便呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "明天放假，上次我們說好的要打掃神社！殿下，明天就麻煩你了！",
+			say = "明天放假，上次我們說好的要打掃神社！殿下，明天就麻煩妳了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

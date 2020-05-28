@@ -50,7 +50,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "等著我，這一次，不會再失去你了！",
+			say = "等著我，這一次，不會再失去妳了！",
 			shake = {
 				speed = 1,
 				number = 3

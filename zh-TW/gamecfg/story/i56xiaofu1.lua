@@ -142,7 +142,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你的末日才到了，哈曼今天要好好教训你一顿！伊168！",
+			say = "妳的末日才到了，哈曼今天要好好教训妳一顿！伊168！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			actor = 308060,
 			nameColor = "#a9f548",
-			say = "做得到你就试试看呀！哼哼，最后可别哭着回去找你的约克城姐姐告状！",
+			say = "做得到妳就试试看呀！哼哼，最后可别哭着回去找妳的约克城姐姐告状！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			say = "哼，哈曼要靠自己把你打倒！",
+			say = "哼，哈曼要靠自己把妳打倒！",
 			side = 1,
 			bgName = "star_level_bg_103",
 			actor = 101250,
@@ -291,7 +291,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈曼，你和168在干什么呢？",
+			say = "哈曼，妳和168在干什么呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			actor = 101250,
 			nameColor = "#a9f548",
-			say = "欸，约克城姐姐，你怎么来了！",
+			say = "欸，约克城姐姐，妳怎么来了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天任务结束得早，我顺便来看看你。",
+			say = "今天任务结束得早，我顺便来看看妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			actor = 308060,
 			nameColor = "#a9f548",
-			say = "呜…你你你你好！",
+			say = "呜…妳妳妳妳好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "反倒是哈曼没有给你添麻烦吧…？",
+			say = "反倒是哈曼没有给妳添麻烦吧…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，你们成为朋友啦，那真是太好了～",
+			say = "哎呀，妳们成为朋友啦，那真是太好了～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，哈曼多少有些脾气急躁，还需要你们多多包涵呢……",
+			say = "不过，哈曼多少有些脾气急躁，还需要妳们多多包涵呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，既然哈曼在和小伙伴玩耍，我就先回去了",
+			say = "呵呵，既然哈曼在和小夥伴玩耍，我就先回去了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯、嗯…约克城姐姐，你先回去吧！",
+			say = "嗯、嗯…约克城姐姐，妳先回去吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			dir = 1,
 			actor = 308060,
 			nameColor = "#a9f548",
-			say = "哼、哼!好吧，今天就先放过你了！",
+			say = "哼、哼!好吧，今天就先放过妳了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			actor = 308051,
 			nameColor = "#a9f548",
-			say = "……曾经的对手，如今成为了并肩作战的伙伴，写作劲敌读作挚友…哈啊…",
+			say = "……曾经的对手，如今成为了并肩作战的夥伴，写作劲敌读作挚友…哈啊…",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -668,7 +668,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "哎呀？伊56，你躲在草丛里干什么呢？",
+			say = "哎呀？伊56，妳躲在草丛里干什么呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

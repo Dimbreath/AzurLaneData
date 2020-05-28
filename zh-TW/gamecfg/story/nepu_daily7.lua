@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			actor = 0,
 			actorName = "伊斯特瓦尔",
-			say = "多亏了你们的调查，我们已经大致上了解了游戏业界和这个次元的关系性和亲和性。今后可以随时自由地来往两个次元了",
+			say = "多亏了妳们的调查，我们已经大致上了解了游戏业界和这个次元的关系性和亲和性。今后可以随时自由地来往两个次元了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			say = "一时还以为会怎么样呢…还好总算是解决了呢。这也多亏了大家。谢谢你们帮了这么多忙",
+			say = "一时还以为会怎么样呢…还好总算是解决了呢。这也多亏了大家。谢谢妳们帮了这么多忙",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯嗯，拉菲、标枪、{namecode:6}、Z23……还有学院的各位，多亏了你们的帮忙呢。真的非常感谢！",
+			say = "嗯嗯，拉菲、标枪、{namecode:6}、Z23……还有学院的各位，多亏了妳们的帮忙呢。真的非常感谢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23、{namecode:6}，真的非常感谢。能遇到你们真是太好了",
+			say = "Z23、{namecode:6}，真的非常感谢。能遇到妳们真是太好了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，涅普涅普。标枪给你们做了便当！里面放了很多鱼雷天妇罗，请拿去吃吧！",
+			say = "啊，涅普涅普。标枪给妳们做了便当！里面放了很多鱼雷天妇罗，请拿去吃吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哦哦！谢谢你标枪酱！啊，还有一打酸素可乐！每个人能喝三瓶呢！",
+			say = "哦哦！谢谢妳标枪酱！啊，还有一打酸素可乐！每个人能喝三瓶呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			actor = 0,
 			actorName = "伊斯特瓦尔",
-			say = "一直这样让次元壁开着洞不大好。等你们离开以后就要暂时关闭了",
+			say = "一直这样让次元壁开着洞不大好。等妳们离开以后就要暂时关闭了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我知道……再见了Z23、{namecode:6}，谢谢你们。虽然发生了不少事，但我还是很开心哦",
+			say = "嗯，我知道……再见了Z23、{namecode:6}，谢谢妳们。虽然发生了不少事，但我还是很开心哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			actor = 301330,
 			actorName = "{namecode:34}",
-			say = "等你……拜拜，贝露姐姐",
+			say = "等妳……拜拜，贝露姐姐",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "布兰老师，我们会一直等着你的……！",
+			say = "布兰老师，我们会一直等着妳的……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "拉菲酱、标枪酱谢谢你们！我们会很快找别的机会再来的！到时候再一起玩吧！",
+			say = "拉菲酱、标枪酱谢谢妳们！我们会很快找别的机会再来的！到时候再一起玩吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "指挥官大人，稍微休息一下吧？{namecode:97}来给你揉揉肩膀~",
+			say = "指挥官大人，稍微休息一下吧？{namecode:97}来给妳揉揉肩膀~",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "指挥官大人？不用在意{namecode:97}，尽管忙你的事情嘛~",
+			say = "指挥官大人？不用在意{namecode:97}，尽管忙妳的事情嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

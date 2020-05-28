@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "辛苦你了，指挥官。让你一起陪我工作到这么晚，实在是抱歉。",
+			say = "辛苦妳了，指挥官。让妳一起陪我工作到这么晚，实在是抱歉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			actor = 405020,
 			nameColor = "#a9f548",
-			say = "如果你感觉累了的话，就先去休息吧，剩下的工作交给我就行。",
+			say = "如果妳感觉累了的话，就先去休息吧，剩下的工作交给我就行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你，指挥官。",
+			say = "谢谢妳，指挥官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			dir = 0,
 			blackBg = true,
-			say = "是因为回忆的复苏吗，和你们一起的时光，居然也能让我感觉弥足珍贵……",
+			say = "是因为回忆的复苏吗，和妳们一起的时光，居然也能让我感觉弥足珍贵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			dir = 0,
 			blackBg = true,
-			say = "就算知道你们在等候，我也想继续前进",
+			say = "就算知道妳们在等候，我也想继续前进",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			dir = 0,
 			blackBg = true,
-			say = "谢谢你们陪伴着我，宁海，平海",
+			say = "谢谢妳们陪伴着我，宁海，平海",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

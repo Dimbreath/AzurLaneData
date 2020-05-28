@@ -109,7 +109,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 701040,
-			say = "同志酱，塔什干能问你个问题吗？",
+			say = "同志酱，塔什干能问妳个问题吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			optionFlag = 2,
 			actor = 701040,
 			nameColor = "#a9f548",
-			say = "…这样。下次，塔什干跟你说说塔什干了解的撒丁帝国料理吧。",
+			say = "…这样。下次，塔什干跟妳说说塔什干了解的撒丁帝国料理吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

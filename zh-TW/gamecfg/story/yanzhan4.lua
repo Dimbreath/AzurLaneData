@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			say = "是厌战吗，祝贺你们，获得了演习的胜利。",
+			say = "是厌战吗，祝贺妳们，获得了演习的胜利。",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说实话，还是稍微有些不甘心呢。明明全程都放出舰载机盯着你，结果还是没能用演习弹把你“击沉”。",
+			say = "说实话，还是稍微有些不甘心呢。明明全程都放出舰载机盯着妳，结果还是没能用演习弹把妳“击沉”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（原来今天在我头上一直盘旋着的飞机是你的吗！）",
+			say = "（原来今天在我头上一直盘旋着的飞机是妳的吗！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈，托你的福，我今天可是吃尽了飞机的苦头。",
+			say = "哈，托妳的福，我今天可是吃尽了飞机的苦头。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，我很期待能再和你来一次对决哦！",
+			say = "而且，我很期待能再和妳来一次对决哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "厌战前辈，陛下她似乎在找你哦？",
+			say = "厌战前辈，陛下她似乎在找妳哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

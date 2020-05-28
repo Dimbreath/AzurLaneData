@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			say = "那、那個，White姐，你一直說想在萬聖夜玩樂，我以為肯定想好惡作劇了……",
+			say = "那、那個，White姐，妳一直說想在萬聖夜玩樂，我以為肯定想好惡作劇了……",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -108,7 +108,7 @@ return {
 			dir = -1,
 			actor = 301051,
 			actorName = "{namecode:6}",
-			say = "這個聲音——你果然是{namecode:95}！",
+			say = "這個聲音——妳果然是{namecode:95}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:87}",
-			say = "你是{namecode:95}……吧",
+			say = "妳是{namecode:95}……吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "好吧，White，你們打算做什麼？",
+			say = "好吧，White，妳們打算做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "White?",
-			say = "嗯……你們喜歡什麼惡作劇？",
+			say = "嗯……妳們喜歡什麼惡作劇？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:87}",
-			say = "南瓜燈是你們操縱的嗎？用南瓜燈在夜空中擺出一張巨大的鬼臉一定很棒！吾偷偷試過幾次但總弄不好……",
+			say = "南瓜燈是妳們操縱的嗎？用南瓜燈在夜空中擺出一張巨大的鬼臉一定很棒！吾偷偷試過幾次但總弄不好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "Gray?",
-			say = "Gold，你來負責左側",
+			say = "Gold，妳來負責左側",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "Gold?",
-			say = "明明是我贏了，為什麼卻是你在指揮！",
+			say = "明明是我贏了，為什麼卻是妳在指揮！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

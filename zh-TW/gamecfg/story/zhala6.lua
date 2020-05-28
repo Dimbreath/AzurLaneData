@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			actor = 603020,
 			nameColor = "#a9f548",
-			say = "再稍微陪我一会。你不会拒绝的，对吧？",
+			say = "再稍微陪我一会。妳不会拒绝的，对吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

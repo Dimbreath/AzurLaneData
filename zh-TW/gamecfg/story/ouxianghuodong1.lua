@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "“μ兵装”到底是什么？{namecode:98}先再给你解释一次喵！",
+			say = "“μ兵装”到底是什么？{namecode:98}先再给妳解释一次喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			bgName = "star_level_bg_121",
 			side = 2,
 			dir = 1,
-			say = "“一边打仗一边唱歌的动画也是有的所以没事”你看{namecode:37}也说了喵！",
+			say = "“一边打仗一边唱歌的动画也是有的所以没事”妳看{namecode:37}也说了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -385,7 +385,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202250,
-			say = "当你快被对面气势压制住的时候——",
+			say = "当妳快被对面气势压制住的时候——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

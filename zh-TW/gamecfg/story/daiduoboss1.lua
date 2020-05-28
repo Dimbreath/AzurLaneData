@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…！展示皇家的威光，同时也能为提升港区综合实力做出贡献，还能与舰队伙伴们加深交流…",
+			say = "嗯…！展示皇家的威光，同时也能为提升港区综合实力做出贡献，还能与舰队夥伴们加深交流…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

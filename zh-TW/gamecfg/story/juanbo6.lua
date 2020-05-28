@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "真的吗真的吗？那今天我就一直等着你咯！嘿嘿~",
+			say = "真的吗真的吗？那今天我就一直等着妳咯！嘿嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
