@@ -71,6 +71,8 @@ function slot0.OnLoaded(slot0)
 	slot0.collectionTxt = slot0.mainPanel:Find("collection/Text"):GetComponent(typeof(Text))
 	slot0.label1 = slot0.mainPanel:Find("search1"):GetComponent(typeof(Text))
 
+	setActive(slot0.label1.gameObject, false)
+
 	function slot0.contextData.sortPage.OnChange(slot0)
 		uv0.filterTxt.text = slot0
 	end
@@ -98,7 +100,6 @@ function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
 
 	slot0:RefreshSortBtn()
 	slot0:Flush()
-	setActive(slot0.label1.gameObject, slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION)
 	slot0:Show()
 end
 
@@ -177,7 +178,6 @@ function slot0.Update3(slot0)
 	slot0:Update1()
 
 	slot0.timeTxt.text = i18n("backyard_theme_template_collection_cnt") .. getProxy(DormProxy):GetThemeTemplateCollectionCnt() .. "/" .. BackYardConst.MAX_COLLECTION_CNT
-	slot0.label1.text = ""
 end
 
 function slot0.UpdatePlayer(slot0)

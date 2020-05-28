@@ -10862,8 +10862,8 @@ pg.ship_skin_template = {
 			2
 		},
 		live2d_offset = {
-			44,
-			110,
+			-25,
+			-15,
 			0
 		},
 		fx_container = {
@@ -23430,7 +23430,7 @@ pg.ship_skin_template = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {
-			2
+			4
 		},
 		live2d_offset = {
 			0,
@@ -43832,7 +43832,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = 6,
+		voice_actor = -1,
 		air_bomb_skin = "",
 		illustrator = 1,
 		rarity_bg = "",
@@ -91734,7 +91734,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "あら、ふふふ…ここの日光浴はいかがかしら？ずっと横になっていたままでもいいけど、みんなと一緒に遊んでもいいんじゃない？",
+		desc = "あら、ふふふ…ここの日光浴はいかがかしら？ずっと横になっているままでもいいけど、みんなと一緒に遊んでもいいんじゃない？",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aerjiliya_2",

@@ -6732,6 +6732,12 @@ No.3 リトル・イラストリアス
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/level_ui_help_9"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/level_ui_help_4"
 				}
 			},

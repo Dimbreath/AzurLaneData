@@ -8,6 +8,9 @@ function slot0.Ctor(slot0, slot1)
 
 	setActive(slot0.rawIcon.gameObject, false)
 	setActive(slot0.newTF, false)
+
+	slot0.pos = findTF(slot0._tf, "bg/pos")
+	slot0.posTxt = slot0.pos:Find("new"):GetComponent(typeof(Text))
 end
 
 function slot0.Update(slot0, slot1, slot2)
@@ -35,12 +38,21 @@ function slot0.Update(slot0, slot1, slot2)
 
 				slot0.iconImg.sprite = LoadSprite("furnitureicon/" .. slot1:getIcon())
 			end
+
+			slot5 = slot1.pos
+
+			if slot1.pos <= 9 then
+				slot5 = "0" .. slot1.pos
+			end
+
+			slot0.posTxt.text = slot5
 		else
 			GetSpriteFromAtlasAsync("furnitureicon/" .. slot1:getIcon(), "", function (slot0)
 				uv0.iconImg.sprite = slot0
 			end)
 		end
 
+		setActive(slot0.pos, not slot3)
 		setText(slot0.comfortableTF, shortenString(slot1:getName(), 4))
 		SetActive(slot0.newTF, false)
 		slot0:UpdateState(slot2)

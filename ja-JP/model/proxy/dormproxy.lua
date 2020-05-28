@@ -524,4 +524,15 @@ function slot0.NeedCollectionTip(slot0)
 	return false
 end
 
+function slot0.NeedShopShowHelp(slot0)
+	if not (PlayerPrefs.GetInt("backyard_template_help" .. getProxy(PlayerProxy):getRawData().id, 0) > 0) then
+		PlayerPrefs.SetInt("backyard_template_help" .. slot1, 1)
+		PlayerPrefs.Save()
+
+		return true
+	end
+
+	return false
+end
+
 return slot0

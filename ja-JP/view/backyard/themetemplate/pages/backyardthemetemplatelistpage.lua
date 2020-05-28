@@ -50,18 +50,29 @@ function slot0.OnInit(slot0)
 		end, SFX_PANEL)
 	end
 
+	setActive(slot0.helpBtn, true)
+	onButton(slot0, slot0.helpBtn, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.backyard_theme_template_shop_tip.tip
+		})
+	end, SFX_PANEL)
 	onButton(slot0, slot0.goBtn, function ()
 		uv0:emit(NewBackYardThemeTemplateMediator.GO_DECORATION)
 	end, SFX_PANEL)
 	slot0.scrollRect.onValueChanged:RemoveAllListeners()
-	onButton(slot0, slot0.arrLeftBtn, function ()
+
+	slot0.arrLeftBtnShop = slot0:findTF("adpter/list/zuobian_shop")
+	slot0.arrRightBtnShop = slot0:findTF("adpter/list/youbian_shop")
+
+	onButton(slot0, slot0.arrLeftBtnShop, function ()
 		if uv0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
 			if getProxy(DormProxy).PAGE > 1 then
 				uv0:SwitchPage(getProxy(DormProxy).TYPE, slot0 - 1, true)
 			end
 		end
 	end, SFX_PANEL)
-	onButton(slot0, slot0.arrRightBtn, function ()
+	onButton(slot0, slot0.arrRightBtnShop, function ()
 		if uv0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
 			getProxy(DormProxy).ClickPage = true
 
@@ -100,8 +111,10 @@ end
 
 function slot0.UpdateArr(slot0)
 	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
-		setActive(slot0.arrLeftBtn, getProxy(DormProxy).PAGE > 1)
-		setActive(slot0.arrRightBtn, slot1 < getProxy(DormProxy).lastPages[getProxy(DormProxy).TYPE] or not getProxy(DormProxy).ClickPage)
+		setActive(slot0.arrLeftBtnShop, getProxy(DormProxy).PAGE > 1)
+		setActive(slot0.arrRightBtnShop, slot1 < getProxy(DormProxy).lastPages[getProxy(DormProxy).TYPE] or not getProxy(DormProxy).ClickPage)
+		setActive(slot0.arrLeftBtn, false)
+		setActive(slot0.arrRightBtn, false)
 	elseif slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM then
 		setActive(slot0.arrLeftBtn, false)
 		setActive(slot0.arrRightBtn, false)
@@ -337,6 +350,10 @@ function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
 
 	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION and getProxy(DormProxy):NeedCollectionTip() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("BackYard_collection_be_delete_tip"))
+	end
+
+	if getProxy(DormProxy):NeedShopShowHelp() then
+		-- Nothing
 	end
 end
 
