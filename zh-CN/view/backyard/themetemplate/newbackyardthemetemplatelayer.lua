@@ -33,6 +33,10 @@ function slot0.init(slot0)
 	slot0.goldTxt = slot0:findTF("adpter/top/res_gold/Text"):GetComponent(typeof(Text))
 	slot0.gemTxt = slot0:findTF("adpter/top/res_gem/Text"):GetComponent(typeof(Text))
 	slot0.gemAddBtn = slot0:findTF("adpter/top/res_gem/jiahao")
+
+	SetActive(slot0:findTF("adpter/top/top_word1"), true)
+	SetActive(slot0:findTF("adpter/top/top_word"), false)
+
 	slot0.tags = {
 		[BackYardConst.THEME_TEMPLATE_TYPE_SHOP] = i18n("backyard_theme_shop_title"),
 		[BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM] = i18n("backyard_theme_mine_title"),

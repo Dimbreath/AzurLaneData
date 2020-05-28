@@ -17,7 +17,9 @@ function slot0.LoadList(slot0)
 	slot0.arrLeftBtn = slot0:findTF("adpter/list/zuobian")
 	slot0.arrRightBtn = slot0:findTF("adpter/list/youbian")
 	slot0.preview = slot0:findTF("preview"):GetComponent(typeof(Image))
+	slot0.helpBtn = slot0:findTF("adpter/help")
 
+	setActive(slot0.helpBtn, false)
 	setActive(slot0:findTF("sort_bg"), true)
 
 	slot0.searchInput = slot0:findTF("search")

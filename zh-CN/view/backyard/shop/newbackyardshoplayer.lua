@@ -81,6 +81,10 @@ function slot0.init(slot0)
 	slot0.gemTxt = slot0:findTF("adpter/top/res_gem/Text"):GetComponent(typeof(Text))
 	slot0.goldAddBtn = slot0:findTF("adpter/top/res_gold/jiahao")
 	slot0.gemAddBtn = slot0:findTF("adpter/top/res_gem/jiahao")
+
+	SetActive(slot0:findTF("adpter/top/top_word1"), false)
+	SetActive(slot0:findTF("adpter/top/top_word"), true)
+
 	slot0.help = slot0:findTF("adpter/top/help")
 	slot0.themePage = BackYardThemePage.New(slot0.pageContainer, slot0.event, slot0.contextData)
 	slot0.furniturePage = BackYardFurniturePage.New(slot0.pageContainer, slot0.event, slot0.contextData)
