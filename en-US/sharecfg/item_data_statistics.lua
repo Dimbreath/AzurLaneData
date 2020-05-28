@@ -90434,21 +90434,21 @@ Skins and drop rates:
 	},
 	[69910] = {
 		display = [[
-从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>10.0%</color>）平海换装  甜蜜嫣红（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10.0%</color>）圣路易斯换装  Luxury Handle（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>7.6%</color>）黛朵换装 多愁的BIsqueDoll；
-（<color=#92fc63>7.6%</color>）企业换装   英雄的礼服；
-（<color=#92fc63>7.6%</color>）马萨诸塞换装  盛宴的准备；
-（<color=#92fc63>7.6%</color>）大青花鱼换装  黑裙下的「秘密」；
-（<color=#92fc63>7.6%</color>）利托里奥换装  Calabria Aurea；
-（<color=#92fc63>7.0%</color>）宁海换装  姹紫盛筵；
-（<color=#92fc63>7.0%</color>）比洛克西换装  洛城女帝；
-（<color=#92fc63>7.0%</color>）豼换装  告白的蓝闪蝶；
-（<color=#92fc63>7.0%</color>）哈曼换装 舞会的傲娇妖精；
-（<color=#92fc63>7.0%</color>）福尔班换装  香槟盛宴；
-（<color=#92fc63>7.0%</color>）苏塞克斯换装  葡萄酒与红玫瑰]],
+This lucky bag contains a random skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
+Skins and drop rates:
+（<color=#92fc63>10.0%</color>）Ping Hai  Delicious Crimson（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.0%</color>）St. Louis  Luxurious Wheels（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.6%</color>）Dido Anxious Bisque Doll；
+（<color=#92fc63>7.6%</color>）Enterprise   Heroic Finery；
+（<color=#92fc63>7.6%</color>）Massachusetts  Dressed to Impress；
+（<color=#92fc63>7.6%</color>）Albacore  Beneath the Black Dress；
+（<color=#92fc63>7.6%</color>）Littorio  Calabria Aurea；
+（<color=#92fc63>7.0%</color>）Ning Hai  Gorgeous Violet；
+（<color=#92fc63>7.0%</color>）Biloxi  Empress in the Silk Seat；
+（<color=#92fc63>7.0%</color>）Agano  Blue Butterfly's Confession；
+（<color=#92fc63>7.0%</color>）Hammann Prideful Fairy of the Ballroom；
+（<color=#92fc63>7.0%</color>）Forbin  Feast of Champagne；
+（<color=#92fc63>7.0%</color>）Sussex  Wine and Red Roses]],
 		rarity = 4,
 		type = 98,
 		drop_oil_max = 0,

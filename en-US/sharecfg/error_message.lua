@@ -43,7 +43,7 @@ pg.error_message = {
 		desc = "Registration has reached limit, thank you for your support,"
 	},
 	[19] = {
-		desc = "无效的重复操作 "
+		desc = "Please retry later"
 	},
 	[20] = {
 		desc = "Data Does Not Exist,"
