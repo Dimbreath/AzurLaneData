@@ -13216,7 +13216,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[102252] = {
-		name = "Queen of L.A.",
+		name = "Empress in the Silk Seat ",
 		ship_group = 10225,
 		group_index = 2,
 		illustrator2 = -1,

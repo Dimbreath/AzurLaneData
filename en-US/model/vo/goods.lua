@@ -17,7 +17,7 @@ slot0.ITEM_BOX = 3
 slot0.EQUIP_BAG_SIZE_ITEM = 59100
 slot0.SHIP_BAG_SIZE_ITEM = 59101
 slot0.COMMANDER_BAG_SIZE_ITEM = 59114
-slot0.CUR_PACKET_ID = 23
+slot0.CUR_PACKET_ID = 40910
 
 function slot0.Ctor(slot0, slot1, slot2)
 	slot0.id = slot1.goods_id or slot1.shop_id or slot1.id
