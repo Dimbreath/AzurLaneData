@@ -704,8 +704,6 @@ function slot0.willExit(slot0)
 
 	slot0.calFoodTimer = nil
 	slot0.buffTimer = nil
-
-	BackYardThemeTempalteUtil.ClearAllCache()
 end
 
 return slot0

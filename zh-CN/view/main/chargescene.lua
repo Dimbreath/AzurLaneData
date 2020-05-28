@@ -483,11 +483,8 @@ function slot0.sortDamondItems(slot0, slot1)
 	slot0.tempDamondVOs = {}
 
 	for slot6, slot7 in ipairs(slot0.damondItemVOs) do
-		print(slot7.id, slot7:getConfig("name"), slot7.buyCount)
-
 		if slot7:isChargeType() then
 			slot7:updateBuyCount(slot0:getBuyCount(slot0.chargedList, slot7.id))
-			print(slot7.id, slot7:getConfig("name"), slot7.buyCount)
 
 			if slot2 == uv0.TYPE_DIAMOND and (slot7:isMonthCard() or slot7:isGem() or slot7:isGiftBox()) then
 				if slot7:canPurchase() and slot7:inTime() then

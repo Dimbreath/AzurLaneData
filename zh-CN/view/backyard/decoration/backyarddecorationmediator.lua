@@ -24,13 +24,13 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.SAVE_THEME, function (slot0, slot1, slot2)
-		pg.UIMgr.GetInstance():LoadingOn()
-
 		if table.getCount(getBackYardProxy(BackYardHouseProxy):getData().furnitures) == 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_save_empty_theme"))
 
 			return
 		end
+
+		pg.UIMgr.GetInstance():LoadingOn()
 
 		slot4 = BackYardBaseThemeTemplate.BuildId(slot1)
 

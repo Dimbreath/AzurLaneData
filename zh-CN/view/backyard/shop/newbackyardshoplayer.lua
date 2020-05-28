@@ -109,13 +109,9 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_HOME)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.goldAddBtn, function ()
-		uv0.contextData.onDeattch = nil
-
 		uv0:emit(NewBackYardShopMediator.ON_CHARGE, PlayerConst.ResDormMoney)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.gemAddBtn, function ()
-		uv0.contextData.onDeattch = nil
-
 		uv0:emit(NewBackYardShopMediator.ON_CHARGE, PlayerConst.ResDiamond)
 	end, SFX_PANEL)
 	slot0:InitPageFooter()

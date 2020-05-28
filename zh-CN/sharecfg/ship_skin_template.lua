@@ -10969,8 +10969,8 @@ pg.ship_skin_template = {
 			2
 		},
 		live2d_offset = {
-			44,
-			110,
+			-25,
+			-15,
 			0
 		},
 		fx_container = {
@@ -23836,7 +23836,7 @@ pg.ship_skin_template = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {
-			2
+			4
 		},
 		live2d_offset = {
 			0,
