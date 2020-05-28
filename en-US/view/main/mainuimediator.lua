@@ -460,6 +460,12 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:updateVoteBtn(slot7:GetVoteActivity(), getProxy(VoteProxy):GetOrderBook())
 	slot0.viewComponent:ResetActivityBtns()
+
+	if PlayerPrefs.GetInt("Ever_Enter_Mall_" .. Goods.CUR_PACKET_ID, 0) == 0 then
+		slot0:sendNotification(GAME.GET_CHARGE_LIST)
+	else
+		slot0.viewComponent:updateMallBtnSellTag()
+	end
 end
 
 function slot0.onBluePrintNotify(slot0)
@@ -670,7 +676,8 @@ function slot0.listNotificationInterests(slot0)
 		VoteProxy.VOTE_ORDER_BOOK_UPDATE,
 		GAME.SEND_MINI_GAME_OP_DONE,
 		GAME.ON_OPEN_INS_LAYER,
-		PileGameConst.OPEN_PILEGAME
+		PileGameConst.OPEN_PILEGAME,
+		ShopsProxy.CHARGED_LIST_UPDATED
 	}
 end
 
@@ -827,6 +834,8 @@ function slot0.handleNotification(slot0, slot1)
 		if slot4[1] == 3 and slot4[2] == 1 then
 			slot0.viewComponent:UpdateActivityBtn("activity_newyear")
 		end
+	elseif slot2 == ShopsProxy.CHARGED_LIST_UPDATED then
+		slot0.viewComponent:updateMallBtnSellTag(slot3)
 	end
 end
 

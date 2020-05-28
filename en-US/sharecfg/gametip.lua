@@ -1,1100 +1,826 @@
 pg = pg or {}
 pg.gametip = {
 	["new_airi_error_code_-1"] = {
-		tip = "Unknown Error",
-		key = "new_airi_error_code_-1"
+		tip = "Unknown Error"
 	},
 	new_airi_error_code_0 = {
-		tip = "Success",
-		key = "new_airi_error_code_0"
+		tip = "Success"
 	},
 	new_airi_error_code_100100 = {
-		tip = "Device ID is banned",
-		key = "new_airi_error_code_100100"
+		tip = "Device ID is banned"
 	},
 	new_airi_error_code_100110 = {
-		tip = "Verification failed",
-		key = "new_airi_error_code_100110"
+		tip = "Verification failed"
 	},
 	new_airi_error_code_100111 = {
-		tip = "Account creation failed",
-		key = "new_airi_error_code_100111"
+		tip = "Account creation failed"
 	},
 	new_airi_error_code_100112 = {
-		tip = "Account creation success; Account binding failed",
-		key = "new_airi_error_code_100112"
+		tip = "Account creation success; Account binding failed"
 	},
 	new_airi_error_code_100113 = {
-		tip = "Account binding success; Verification failed",
-		key = "new_airi_error_code_100113"
+		tip = "Account binding success; Verification failed"
 	},
 	new_airi_error_code_100114 = {
-		tip = "IP is restricted during login creation",
-		key = "new_airi_error_code_100114"
+		tip = "IP is restricted during login creation"
 	},
 	new_airi_error_code_100115 = {
-		tip = "Device ID is banned during login creation",
-		key = "new_airi_error_code_100115"
+		tip = "Device ID is banned during login creation"
 	},
 	new_airi_error_code_100116 = {
-		tip = "UID is banned during login creation",
-		key = "new_airi_error_code_100116"
+		tip = "UID is banned during login creation"
 	},
 	new_airi_error_code_100117 = {
-		tip = "Missing parameters",
-		key = "new_airi_error_code_100117"
+		tip = "Missing parameters"
 	},
 	new_airi_error_code_100120 = {
-		tip = "Login failed, IP is restricted",
-		key = "new_airi_error_code_100120"
+		tip = "Login failed, IP is restricted"
 	},
 	new_airi_error_code_100130 = {
-		tip = "Login failed, UID is banned",
-		key = "new_airi_error_code_100130"
+		tip = "Login failed, UID is banned"
 	},
 	new_airi_error_code_100140 = {
-		tip = "Access Token verification failed",
-		key = "new_airi_error_code_100140"
+		tip = "Access Token verification failed"
 	},
 	new_airi_error_code_100150 = {
-		tip = "UID does not match with Transcode",
-		key = "new_airi_error_code_100150"
+		tip = "UID does not match with Transcode"
 	},
 	new_airi_error_code_100160 = {
-		tip = "User birthday has already been added",
-		key = "new_airi_error_code_100160"
+		tip = "User birthday has already been added"
 	},
 	new_airi_error_code_100170 = {
-		tip = "Invalid birthday format",
-		key = "new_airi_error_code_100170"
+		tip = "Invalid birthday format"
 	},
 	new_airi_error_code_100180 = {
-		tip = "The third party account is not bound with any game account",
-		key = "new_airi_error_code_100180"
+		tip = "The third party account is not bound with any game account"
 	},
 	new_airi_error_code_100190 = {
-		tip = "Failed to verify the third party parameter",
-		key = "new_airi_error_code_100190"
+		tip = "Failed to verify the third party parameter"
 	},
 	new_airi_error_code_100200 = {
-		tip = "The third party account is already bound with another UID",
-		key = "new_airi_error_code_100200"
+		tip = "The third party account is already bound with another UID"
 	},
 	new_airi_error_code_100210 = {
-		tip = "The third party account does not match with the one bound to this account",
-		key = "new_airi_error_code_100210"
+		tip = "The third party account does not match with the one bound to this account"
 	},
 	new_airi_error_code_100211 = {
-		tip = "Platform binding error",
-		key = "new_airi_error_code_100211"
+		tip = "Platform binding error"
 	},
 	new_airi_error_code_100212 = {
-		tip = "Platform unbinding error",
-		key = "new_airi_error_code_100212"
+		tip = "Platform unbinding error"
 	},
 	new_airi_error_code_100213 = {
-		tip = "Unable to unbind the account",
-		key = "new_airi_error_code_100213"
+		tip = "Unable to unbind the account"
 	},
 	new_airi_error_code_100220 = {
-		tip = "Authorization canceled",
-		key = "new_airi_error_code_100220"
+		tip = "Authorization canceled"
 	},
 	new_airi_error_code_100221 = {
-		tip = "FB authorization failed",
-		key = "new_airi_error_code_100221"
+		tip = "FB authorization failed"
 	},
 	new_airi_error_code_100222 = {
-		tip = "TW authorization failed",
-		key = "new_airi_error_code_100222"
+		tip = "TW authorization failed"
 	},
 	new_airi_error_code_100223 = {
-		tip = "Google authorization failed",
-		key = "new_airi_error_code_100223"
+		tip = "Google authorization failed"
 	},
 	new_airi_error_code_100224 = {
-		tip = "Unable to use Google service",
-		key = "new_airi_error_code_100224"
+		tip = "Unable to use Google service"
 	},
 	new_airi_error_code_100225 = {
-		tip = "Google authorization was canceled by user",
-		key = "new_airi_error_code_100225"
+		tip = "Google authorization was canceled by user"
 	},
 	new_airi_error_code_100226 = {
-		tip = "Unable to login during another login request",
-		key = "new_airi_error_code_100226"
+		tip = "Unable to login during another login request"
 	},
 	new_airi_error_code_100227 = {
-		tip = "Failed to login with the current account",
-		key = "new_airi_error_code_100227"
+		tip = "Failed to login with the current account"
 	},
 	new_airi_error_code_100228 = {
-		tip = "The account was already deleted by user",
-		key = "new_airi_error_code_100228"
+		tip = "The account was already deleted by user"
 	},
 	new_airi_error_code_100229 = {
-		tip = "Account deletion cannot be performed repeatedly",
-		key = "new_airi_error_code_100229"
+		tip = "Account deletion cannot be performed repeatedly"
 	},
 	new_airi_error_code_100231 = {
-		tip = "Failed to restore, the account was deleted completely",
-		key = "new_airi_error_code_100231"
+		tip = "Failed to restore, the account was deleted completely"
 	},
 	new_airi_error_code_100232 = {
-		tip = "Unable to restore, no deletion history of the account",
-		key = "new_airi_error_code_100232"
+		tip = "Unable to restore, no deletion history of the account"
 	},
 	new_airi_error_code_100233 = {
-		tip = "Unable to login, the account was deleted",
-		key = "new_airi_error_code_100233"
+		tip = "Unable to login, the account was deleted"
 	},
 	new_airi_error_code_100234 = {
-		tip = "The account is not authorized to login",
-		key = "new_airi_error_code_100234"
+		tip = "The account is not authorized to login"
 	},
 	new_airi_error_code_100230 = {
-		tip = "Initialization failed",
-		key = "new_airi_error_code_100230"
+		tip = "Initialization failed"
 	},
 	new_airi_error_code_100240 = {
-		tip = "Apple authorization information does not match",
-		key = "new_airi_error_code_100240"
+		tip = "Apple authorization information does not match"
 	},
 	new_airi_error_code_100241 = {
-		tip = "User cancelled Apple authorization request",
-		key = "new_airi_error_code_100241"
+		tip = "User cancelled Apple authorization request"
 	},
 	new_airi_error_code_100242 = {
-		tip = "Apple authorization request failed",
-		key = "new_airi_error_code_100242"
+		tip = "Apple authorization request failed"
 	},
 	new_airi_error_code_100243 = {
-		tip = "Invalid response from Apple authorization request",
-		key = "new_airi_error_code_100243"
+		tip = "Invalid response from Apple authorization request"
 	},
 	new_airi_error_code_100244 = {
-		tip = "Failed to process Apple authorization request",
-		key = "new_airi_error_code_100244"
+		tip = "Failed to process Apple authorization request"
 	},
 	new_airi_error_code_100245 = {
-		tip = "Apple authorization request failed for unknown reason",
-		key = "new_airi_error_code_100245"
+		tip = "Apple authorization request failed for unknown reason"
 	},
 	new_airi_error_code_100246 = {
-		tip = "System version does not support Apple authorization",
-		key = "new_airi_error_code_100246"
+		tip = "System version does not support Apple authorization"
 	},
 	new_airi_error_code_100300 = {
-		tip = "Invalid email address format",
-		key = "new_airi_error_code_100300"
+		tip = "Invalid email address format"
 	},
 	new_airi_error_code_100301 = {
-		tip = "Email addresses do not match",
-		key = "new_airi_error_code_100301"
+		tip = "Email addresses do not match"
 	},
 	new_airi_error_code_100302 = {
-		tip = "Verification code request is too frequent",
-		key = "new_airi_error_code_100302"
+		tip = "Verification code request is too frequent"
 	},
 	new_airi_error_code_100303 = {
-		tip = "Verification failed",
-		key = "new_airi_error_code_100303"
+		tip = "Verification failed"
 	},
 	new_airi_error_code_100304 = {
-		tip = "Verification failed too many times",
-		key = "new_airi_error_code_100304"
+		tip = "Verification failed too many times"
 	},
 	new_airi_error_code_100305 = {
-		tip = "The account is banned",
-		key = "new_airi_error_code_100305"
+		tip = "The account is banned"
 	},
 	new_airi_error_code_100306 = {
-		tip = "Verification code cannot be empty",
-		key = "new_airi_error_code_100306"
+		tip = "Verification code cannot be empty"
 	},
 	new_airi_error_code_100404 = {
-		tip = "Network error",
-		key = "new_airi_error_code_100404"
+		tip = "Network error"
 	},
 	new_airi_error_code_200100 = {
-		tip = "User birthday is required",
-		key = "new_airi_error_code_200100"
+		tip = "User birthday is required"
 	},
 	new_airi_error_code_200110 = {
-		tip = "Monthly purchase limit exceeded",
-		key = "new_airi_error_code_200110"
+		tip = "Monthly purchase limit exceeded"
 	},
 	new_airi_error_code_200120 = {
-		tip = "Item does not exist",
-		key = "new_airi_error_code_200120"
+		tip = "Item does not exist"
 	},
 	new_airi_error_code_200130 = {
-		tip = "Payment method does not exist",
-		key = "new_airi_error_code_200130"
+		tip = "Payment method does not exist"
 	},
 	new_airi_error_code_200140 = {
-		tip = "serverTag does not exist",
-		key = "new_airi_error_code_200140"
+		tip = "serverTag does not exist"
 	},
 	new_airi_error_code_200150 = {
-		tip = "Payment receipt verification failed",
-		key = "new_airi_error_code_200150"
+		tip = "Payment receipt verification failed"
 	},
 	new_airi_error_code_200160 = {
-		tip = "Invalid purchase request",
-		key = "new_airi_error_code_200160"
+		tip = "Invalid purchase request"
 	},
 	new_airi_error_code_200170 = {
-		tip = "Purchase request failed on game server",
-		key = "new_airi_error_code_200170"
+		tip = "Purchase request failed on game server"
 	},
 	new_airi_error_code_200180 = {
-		tip = "It takes a long time for searching the purchase result",
-		key = "new_airi_error_code_200180"
+		tip = "It takes a long time for searching the purchase result"
 	},
 	new_airi_error_code_200190 = {
-		tip = "Order ID does not exist",
-		key = "new_airi_error_code_200190"
+		tip = "Order ID does not exist"
 	},
 	new_airi_error_code_200200 = {
-		tip = "Order status tracking timed out",
-		key = "new_airi_error_code_200200"
+		tip = "Order status tracking timed out"
 	},
 	new_airi_error_code_200210 = {
-		tip = "productid does not exist on payment backend",
-		key = "new_airi_error_code_200210"
+		tip = "productid does not exist on payment backend"
 	},
 	new_airi_error_code_200220 = {
-		tip = "Payment backend response - payment failed",
-		key = "new_airi_error_code_200220"
+		tip = "Payment backend response - payment failed"
 	},
 	new_airi_error_code_200230 = {
-		tip = "Payment backend response - payment canceled",
-		key = "new_airi_error_code_200230"
+		tip = "Payment backend response - payment canceled"
 	},
 	new_airi_error_code_200240 = {
-		tip = "Current API version does not support the request",
-		key = "new_airi_error_code_200240"
+		tip = "Current API version does not support the request"
 	},
 	new_airi_error_code_200250 = {
-		tip = "Invalid parameters provided to API",
-		key = "new_airi_error_code_200250"
+		tip = "Invalid parameters provided to API"
 	},
 	new_airi_error_code_200260 = {
-		tip = "Fatal error during API operation",
-		key = "new_airi_error_code_200260"
+		tip = "Fatal error during API operation"
 	},
 	new_airi_error_code_200270 = {
-		tip = "The request is not supported by the Play store on current device",
-		key = "new_airi_error_code_200270"
+		tip = "The request is not supported by the Play store on current device"
 	},
 	new_airi_error_code_200280 = {
-		tip = "Item has already been purchased, not consumed yet",
-		key = "new_airi_error_code_200280"
+		tip = "Item has already been purchased, not consumed yet"
 	},
 	new_airi_error_code_200290 = {
-		tip = "Item has already been purchased, failed to consume",
-		key = "new_airi_error_code_200290"
+		tip = "Item has already been purchased, failed to consume"
 	},
 	new_airi_error_code_200300 = {
-		tip = "Unable to purchase the requested item",
-		key = "new_airi_error_code_200300"
+		tip = "Unable to purchase the requested item"
 	},
 	new_airi_error_code_200310 = {
-		tip = "Unable to connect to Google Play service",
-		key = "new_airi_error_code_200310"
+		tip = "Unable to connect to Google Play service"
 	},
 	new_airi_error_code_200320 = {
-		tip = "Request reached maximum timeout before receiving any response from Google Play",
-		key = "new_airi_error_code_200320"
+		tip = "Request reached maximum timeout before receiving any response from Google Play"
 	},
 	new_airi_error_code_200330 = {
-		tip = "Network connection is turned off",
-		key = "new_airi_error_code_200330"
+		tip = "Network connection is turned off"
 	},
 	new_airi_error_code_200340 = {
-		tip = "Payment canceled by user",
-		key = "new_airi_error_code_200340"
+		tip = "Payment canceled by user"
 	},
 	new_airi_error_code_200350 = {
-		tip = "Item ID search failed",
-		key = "new_airi_error_code_200350"
+		tip = "Item ID search failed"
 	},
 	new_airi_error_code_200360 = {
-		tip = "Connection to play services failed",
-		key = "new_airi_error_code_200360"
+		tip = "Connection to play services failed"
 	},
 	new_airi_error_code_300100 = {
-		tip = "System sharing failed",
-		key = "new_airi_error_code_300100"
+		tip = "System sharing failed"
 	},
 	ad_0 = {
-		tip = "",
-		key = "ad_0"
+		tip = ""
 	},
 	ad_1 = {
-		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#92fc63>$1</color></material> constructs <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
-		key = "ad_1"
+		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#92fc63>$1</color></material> constructs <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
 	},
 	ad_2 = {
-		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#92fc63>$1</color></material> loots<icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
-		key = "ad_2"
+		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#92fc63>$1</color></material> loots<icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
 	},
 	ad_3 = {
-		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#92fc63>$1</color></material> gets <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
-		key = "ad_3"
+		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#92fc63>$1</color></material> gets <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
 	},
 	word_back = {
-		tip = "Back",
-		key = "word_back"
+		tip = "Back"
 	},
 	word_backyardMoney = {
-		tip = "Decor Tokens",
-		key = "word_backyardMoney"
+		tip = "Decor Tokens"
 	},
 	word_cancel = {
-		tip = "Cancel",
-		key = "word_cancel"
+		tip = "Cancel"
 	},
 	word_cmdClose = {
-		tip = "Not yet open",
-		key = "word_cmdClose"
+		tip = "Not yet open"
 	},
 	word_delete = {
-		tip = "Delete",
-		key = "word_delete"
+		tip = "Delete"
 	},
 	word_dockyard = {
-		tip = "Dock",
-		key = "word_dockyard"
+		tip = "Dock"
 	},
 	word_dockyardUpgrade = {
-		tip = "Limit Break",
-		key = "word_dockyardUpgrade"
+		tip = "Limit Break"
 	},
 	word_dockyardDestroy = {
-		tip = "Retire",
-		key = "word_dockyardDestroy"
+		tip = "Retire"
 	},
 	word_shipInfoScene_equip = {
-		tip = "Ship Gear",
-		key = "word_shipInfoScene_equip"
+		tip = "Ship Gear"
 	},
 	word_shipInfoScene_reinfomation = {
-		tip = "Limit Break",
-		key = "word_shipInfoScene_reinfomation"
+		tip = "Limit Break"
 	},
 	word_shipInfoScene_infomation = {
-		tip = "Ship Details",
-		key = "word_shipInfoScene_infomation"
+		tip = "Ship Details"
 	},
 	word_editFleet = {
-		tip = "Edit Formation",
-		key = "word_editFleet"
+		tip = "Edit Formation"
 	},
 	word_exp = {
-		tip = "EXP",
-		key = "word_exp"
+		tip = "EXP"
 	},
 	word_expAdd = {
-		tip = "EXP +$1",
-		key = "word_expAdd"
+		tip = "EXP +$1"
 	},
 	word_exp_chinese = {
-		tip = "EXP",
-		key = "word_exp_chinese"
+		tip = "EXP"
 	},
 	word_exist = {
-		tip = "Exit",
-		key = "word_exist"
+		tip = "Exit"
 	},
 	word_equip = {
-		tip = "Gear",
-		key = "word_equip"
+		tip = "Gear"
 	},
 	word_equipDestory = {
-		tip = "Destroy",
-		key = "word_equipDestory"
+		tip = "Destroy"
 	},
 	word_food = {
-		tip = "Snacks",
-		key = "word_food"
+		tip = "Snacks"
 	},
 	word_get = {
-		tip = "Receive",
-		key = "word_get"
+		tip = "Receive"
 	},
 	word_got = {
-		tip = "Granted ",
-		key = "word_got"
+		tip = "Granted "
 	},
 	word_not_get = {
-		tip = "Ungranted ",
-		key = "word_not_get"
+		tip = "Ungranted "
 	},
 	word_next_level = {
-		tip = "Next level",
-		key = "word_next_level"
+		tip = "Next level"
 	},
 	word_intimacy = {
-		tip = "Affinity",
-		key = "word_intimacy"
+		tip = "Affinity"
 	},
 	word_is = {
-		tip = "Yes",
-		key = "word_is"
+		tip = "Yes"
 	},
 	word_date = {
-		tip = "d",
-		key = "word_date"
+		tip = "d"
 	},
 	word_hour = {
-		tip = "h",
-		key = "word_hour"
+		tip = "h"
 	},
 	word_minute = {
-		tip = "m",
-		key = "word_minute"
+		tip = "m"
 	},
 	word_second = {
-		tip = "s",
-		key = "word_second"
+		tip = "s"
 	},
 	word_lv = {
-		tip = "Lv.",
-		key = "word_lv"
+		tip = "Lv."
 	},
 	word_proficiency = {
-		tip = "Proficiency",
-		key = "word_proficiency"
+		tip = "Proficiency"
 	},
 	word_material = {
-		tip = "Items",
-		key = "word_material"
+		tip = "Items"
 	},
 	word_notExist = {
-		tip = "Does not exist",
-		key = "word_notExist"
+		tip = "Does not exist"
 	},
 	word_ok = {
-		tip = "Confirm",
-		key = "word_ok"
+		tip = "Confirm"
 	},
 	word_preview = {
-		tip = "Preview",
-		key = "word_preview"
+		tip = "Preview"
 	},
 	word_rarity = {
-		tip = "Rarity",
-		key = "word_rarity"
+		tip = "Rarity"
 	},
 	word_speedUp = {
-		tip = "Speed Up ",
-		key = "word_speedUp"
+		tip = "Speed Up "
 	},
 	word_succeed = {
-		tip = "Success",
-		key = "word_succeed"
+		tip = "Success"
 	},
 	word_start = {
-		tip = "Start ",
-		key = "word_start"
+		tip = "Start "
 	},
 	word_kiss = {
-		tip = "*Mwah!*",
-		key = "word_kiss"
+		tip = "*Mwah!*"
 	},
 	word_take = {
-		tip = "Collect",
-		key = "word_take"
+		tip = "Collect"
 	},
 	word_takeOk = {
-		tip = "Collected",
-		key = "word_takeOk"
+		tip = "Collected"
 	},
 	word_many = {
-		tip = "Many",
-		key = "word_many"
+		tip = "Many"
 	},
 	word_normal_2 = {
-		tip = "So so",
-		key = "word_normal_2"
+		tip = "So so"
 	},
 	word_simple = {
-		tip = "Rare",
-		key = "word_simple"
+		tip = "Rare"
 	},
 	word_save = {
-		tip = "Save",
-		key = "word_save"
+		tip = "Save"
 	},
 	word_levelup = {
-		tip = "Level Up",
-		key = "word_levelup"
+		tip = "Level Up"
 	},
 	word_serverLoadVindicate = {
-		tip = "<color=#a2a2a2>Maintenance</color>",
-		key = "word_serverLoadVindicate"
+		tip = "<color=#a2a2a2>Maintenance</color>"
 	},
 	word_serverLoadNormal = {
-		tip = "<material=outline c=#252525FF x=1 y=-1><color=#A9F548FF>Normal</color></material>",
-		key = "word_serverLoadNormal"
+		tip = "<material=outline c=#252525FF x=1 y=-1><color=#A9F548FF>Normal</color></material>"
 	},
 	word_serverLoadFull = {
-		tip = "<color=#C41717FF>Full</color>",
-		key = "word_serverLoadFull"
+		tip = "<color=#C41717FF>Full</color>"
 	},
 	word_registerFull = {
-		tip = "<color=#C41717FF>Too full</color>",
-		key = "word_registerFull"
+		tip = "<color=#C41717FF>Too full</color>"
 	},
 	word_synthesize = {
-		tip = "Total",
-		key = "word_synthesize"
+		tip = "Total"
 	},
 	word_synthesize_power = {
-		tip = "Total Stats",
-		key = "word_synthesize_power"
+		tip = "Total Stats"
 	},
 	word_achieved_item = {
-		tip = "Time joined",
-		key = "word_achieved_item"
+		tip = "Time joined"
 	},
 	word_formation = {
-		tip = "Deploy",
-		key = "word_formation"
+		tip = "Deploy"
 	},
 	word_teach = {
-		tip = "Teach",
-		key = "word_teach"
+		tip = "Teach"
 	},
 	word_study = {
-		tip = "Learn",
-		key = "word_study"
+		tip = "Learn"
 	},
 	word_destroy = {
-		tip = "Retire",
-		key = "word_destroy"
+		tip = "Retire"
 	},
 	word_upgrade = {
-		tip = "Limit Break",
-		key = "word_upgrade"
+		tip = "Limit Break"
 	},
 	word_train = {
-		tip = "Rest",
-		key = "word_train"
+		tip = "Rest"
 	},
 	word_rest = {
-		tip = "Rest",
-		key = "word_rest"
+		tip = "Rest"
 	},
 	word_capacity = {
-		tip = "Inventory: ",
-		key = "word_capacity"
+		tip = "Inventory: "
 	},
 	word_operation = {
-		tip = "Join Event",
-		key = "word_operation"
+		tip = "Join Event"
 	},
 	word_intensify_phase = {
-		tip = "Enhance Phase",
-		key = "word_intensify_phase"
+		tip = "Enhance Phase"
 	},
 	word_systemClose = {
-		tip = "Commander, you haven't unlocked this feature yet!",
-		key = "word_systemClose"
+		tip = "Commander, you haven't unlocked this feature yet!"
 	},
 	word_attr_antisub = {
-		tip = "ASW ",
-		key = "word_attr_antisub"
+		tip = "ASW "
 	},
 	word_attr_cannon = {
-		tip = "FP ",
-		key = "word_attr_cannon"
+		tip = "FP "
 	},
 	word_attr_torpedo = {
-		tip = "TRP ",
-		key = "word_attr_torpedo"
+		tip = "TRP "
 	},
 	word_attr_antiaircraft = {
-		tip = "AA ",
-		key = "word_attr_antiaircraft"
+		tip = "AA "
 	},
 	word_attr_air = {
-		tip = "AVI ",
-		key = "word_attr_air"
+		tip = "AVI "
 	},
 	word_attr_durability = {
-		tip = "HP",
-		key = "word_attr_durability"
+		tip = "HP"
 	},
 	word_attr_armor = {
-		tip = "Armor",
-		key = "word_attr_armor"
+		tip = "Armor"
 	},
 	word_attr_reload = {
-		tip = "RLD ",
-		key = "word_attr_reload"
+		tip = "RLD "
 	},
 	word_attr_speed = {
-		tip = "Speed",
-		key = "word_attr_speed"
+		tip = "Speed"
 	},
 	word_attr_luck = {
-		tip = "OIL ",
-		key = "word_attr_luck"
+		tip = "OIL "
 	},
 	word_attr_range = {
-		tip = "Range",
-		key = "word_attr_range"
+		tip = "Range"
 	},
 	word_attr_range_view = {
-		tip = "Range",
-		key = "word_attr_range_view"
+		tip = "Range"
 	},
 	word_attr_hit = {
-		tip = "Hit",
-		key = "word_attr_hit"
+		tip = "Hit"
 	},
 	word_attr_dodge = {
-		tip = "EVA ",
-		key = "word_attr_dodge"
+		tip = "EVA "
 	},
 	word_attr_luck1 = {
-		tip = "LCK ",
-		key = "word_attr_luck1"
+		tip = "LCK "
 	},
 	word_attr_damage = {
-		tip = "DMG",
-		key = "word_attr_damage"
+		tip = "DMG"
 	},
 	word_attr_healthy = {
-		tip = "Healing",
-		key = "word_attr_healthy"
+		tip = "Healing"
 	},
 	word_attr_cd = {
-		tip = "FR",
-		key = "word_attr_cd"
+		tip = "FR"
 	},
 	word_attr_speciality = {
-		tip = "Special",
-		key = "word_attr_speciality"
+		tip = "Special"
 	},
 	word_attr_level = {
-		tip = "Max Level",
-		key = "word_attr_level"
+		tip = "Max Level"
 	},
 	word_shipState_fight = {
-		tip = "She's currently in battle!",
-		key = "word_shipState_fight"
+		tip = "She's currently in battle!"
 	},
 	word_shipState_rest = {
-		tip = "She's currently resting...",
-		key = "word_shipState_rest"
+		tip = "She's currently resting..."
 	},
 	word_shipState_study = {
-		tip = "She's currently in class!",
-		key = "word_shipState_study"
+		tip = "She's currently in class!"
 	},
 	word_shipState_collect = {
-		tip = "She's currently on commission!",
-		key = "word_shipState_collect"
+		tip = "She's currently on commission!"
 	},
 	word_shipState_event = {
-		tip = "She's in the middle of a special ops!",
-		key = "word_shipState_event"
+		tip = "She's in the middle of a special ops!"
 	},
 	word_shipState_sham = {
-		tip = "She's in the middle of a simulation!",
-		key = "word_shipState_sham"
+		tip = "She's in the middle of a simulation!"
 	},
 	word_shipType_quZhu = {
-		tip = "Destroyer",
-		key = "word_shipType_quZhu"
+		tip = "Destroyer"
 	},
 	word_shipType_qinXun = {
-		tip = "Light Cruiser",
-		key = "word_shipType_qinXun"
+		tip = "Light Cruiser"
 	},
 	word_shipType_zhongXun = {
-		tip = "Heavy Cruiser",
-		key = "word_shipType_zhongXun"
+		tip = "Heavy Cruiser"
 	},
 	word_shipType_zhanLie = {
-		tip = "Battleship",
-		key = "word_shipType_zhanLie"
+		tip = "Battleship"
 	},
 	word_shipType_hangMu = {
-		tip = "Carrier",
-		key = "word_shipType_hangMu"
+		tip = "Carrier"
 	},
 	word_shipType_weiXiu = {
-		tip = "Repair",
-		key = "word_shipType_weiXiu"
+		tip = "Repair"
 	},
 	word_shipType_other = {
-		tip = "Other",
-		key = "word_shipType_other"
+		tip = "Other"
 	},
 	word_shipType_all = {
-		tip = "All ships",
-		key = "word_shipType_all"
+		tip = "All ships"
 	},
 	word_gem = {
-		tip = "Gems",
-		key = "word_gem"
+		tip = "Gems"
 	},
 	word_freeGem = {
-		tip = "Gems",
-		key = "word_freeGem"
+		tip = "Gems"
 	},
 	word_gem_icon = {
-		tip = "<icon name=diamond w=0.7 h=0.7/>",
-		key = "word_gem_icon"
+		tip = "<icon name=diamond w=0.7 h=0.7/>"
 	},
 	word_freeGem_icon = {
-		tip = "<icon name=diamond w=0.7 h=0.7/>",
-		key = "word_freeGem_icon"
+		tip = "<icon name=diamond w=0.7 h=0.7/>"
 	},
 	word_exploit = {
-		tip = "Merit",
-		key = "word_exploit"
+		tip = "Merit"
 	},
 	word_rankScore = {
-		tip = "Points",
-		key = "word_rankScore"
+		tip = "Points"
 	},
 	word_battery = {
-		tip = "ニココイン",
-		key = "word_battery"
+		tip = "ニココイン"
 	},
 	word_oil = {
-		tip = "Oil",
-		key = "word_oil"
+		tip = "Oil"
 	},
 	word_gold = {
-		tip = "Coins",
-		key = "word_gold"
+		tip = "Coins"
 	},
 	word_oilField = {
-		tip = "Oilfield",
-		key = "word_oilField"
+		tip = "Oilfield"
 	},
 	word_goldField = {
-		tip = "Coins Port",
-		key = "word_goldField"
+		tip = "Coins Port"
 	},
 	word_ema = {
-		tip = "Emas",
-		key = "word_ema"
+		tip = "Emas"
 	},
 	word_pt = {
-		tip = "PT",
-		key = "word_pt"
+		tip = "PT"
 	},
 	word_yisegefuke_pt = {
-		tip = "pt",
-		key = "word_yisegefuke_pt"
+		tip = "pt"
 	},
 	word_count_2 = {
-		tip = "<color=$1>$2つ</color>",
-		key = "word_count_2"
+		tip = "<color=$1>$2つ</color>"
 	},
 	word_clear = {
-		tip = "Sort",
-		key = "word_clear"
+		tip = "Sort"
 	},
 	word_buy = {
-		tip = "Buy",
-		key = "word_buy"
+		tip = "Buy"
 	},
 	word_happy = {
-		tip = "<color=#4FFF00>Happy</color>",
-		key = "word_happy"
+		tip = "<color=#4FFF00>Happy</color>"
 	},
 	word_normal = {
-		tip = "<color=#46F200>Normal</color>",
-		key = "word_normal"
+		tip = "<color=#46F200>Normal</color>"
 	},
 	word_tired = {
-		tip = "<color=#FCD400>Tired</color>",
-		key = "word_tired"
+		tip = "<color=#FCD400>Tired</color>"
 	},
 	word_angry = {
-		tip = "<color=#E40006>Angry</color>",
-		key = "word_angry"
+		tip = "<color=#E40006>Angry</color>"
 	},
 	word_secondseach = {
-		tip = "/wave",
-		key = "word_secondseach"
+		tip = "/wave"
 	},
 	word_max_page = {
-		tip = "Max",
-		key = "word_max_page"
+		tip = "Max"
 	},
 	word_least_page = {
-		tip = "Min",
-		key = "word_least_page"
+		tip = "Min"
 	},
 	word_week = {
-		tip = "w",
-		key = "word_week"
+		tip = "w"
 	},
 	word_day = {
-		tip = "d",
-		key = "word_day"
+		tip = "d"
 	},
 	word_use = {
-		tip = "Use",
-		key = "word_use"
+		tip = "Use"
 	},
 	word_use_batch = {
-		tip = "Use $1",
-		key = "word_use_batch"
+		tip = "Use $1"
 	},
 	word_discount = {
-		tip = "0% price",
-		key = "word_discount"
+		tip = "0% price"
 	},
 	word_threaten_exclude = {
-		tip = "Eliminate Threat",
-		key = "word_threaten_exclude"
+		tip = "Eliminate Threat"
 	},
 	word_threaten = {
-		tip = "Threat",
-		key = "word_threaten"
+		tip = "Threat"
 	},
 	word_comingSoon = {
-		tip = "Coming soon",
-		key = "word_comingSoon"
+		tip = "Coming soon"
 	},
 	word_lightArmor = {
-		tip = "Light",
-		key = "word_lightArmor"
+		tip = "Light"
 	},
 	word_mediumArmor = {
-		tip = "Medium",
-		key = "word_mediumArmor"
+		tip = "Medium"
 	},
 	word_heavyarmor = {
-		tip = "Heavy",
-		key = "word_heavyarmor"
+		tip = "Heavy"
 	},
 	word_level_upperLimit = {
-		tip = "Max Level",
-		key = "word_level_upperLimit"
+		tip = "Max Level"
 	},
 	word_level_require = {
-		tip = "Level Req.",
-		key = "word_level_require"
+		tip = "Level Req."
 	},
 	word_materal_no_enough = {
-		tip = "Not enough items",
-		key = "word_materal_no_enough"
+		tip = "Not enough items"
 	},
 	word_default = {
-		tip = "Default",
-		key = "word_default"
+		tip = "Default"
 	},
 	word_count = {
-		tip = "Amount",
-		key = "word_count"
+		tip = "Amount"
 	},
 	word_kind = {
-		tip = "Type",
-		key = "word_kind"
+		tip = "Type"
 	},
 	word_piece = {
-		tip = "x",
-		key = "word_piece"
+		tip = "x"
 	},
 	word_main_fleet = {
-		tip = "Main fleet",
-		key = "word_main_fleet"
+		tip = "Main fleet"
 	},
 	word_vanguard_fleet = {
-		tip = "Vanguard",
-		key = "word_vanguard_fleet"
+		tip = "Vanguard"
 	},
 	word_theme = {
-		tip = "Theme",
-		key = "word_theme"
+		tip = "Theme"
 	},
 	word_recommend = {
-		tip = "Rec.",
-		key = "word_recommend"
+		tip = "Rec."
 	},
 	word_wallpaper = {
-		tip = "Wall\npaper",
-		key = "word_wallpaper"
+		tip = "Wall\npaper"
 	},
 	word_furniture = {
-		tip = "Furni",
-		key = "word_furniture"
+		tip = "Furni"
 	},
 	word_decorate = {
-		tip = "Décor",
-		key = "word_decorate"
+		tip = "Décor"
 	},
 	word_special = {
-		tip = "Special",
-		key = "word_special"
+		tip = "Special"
 	},
 	word_expand = {
-		tip = "Expand",
-		key = "word_expand"
+		tip = "Expand"
 	},
 	word_wall = {
-		tip = "Wall",
-		key = "word_wall"
+		tip = "Wall"
 	},
 	word_floorpaper = {
-		tip = "Floor",
-		key = "word_floorpaper"
+		tip = "Floor"
 	},
 	word_collection = {
-		tip = "Collection",
-		key = "word_collection"
+		tip = "Collection"
 	},
 	word_mat = {
-		tip = "Carpet",
-		key = "word_mat"
+		tip = "Carpet"
 	},
 	word_comfort_level = {
-		tip = "Comfort",
-		key = "word_comfort_level"
+		tip = "Comfort"
 	},
 	word_room = {
-		tip = "Room $1",
-		key = "word_room"
+		tip = "Room $1"
 	},
 	word_equipment_all = {
-		tip = "All",
-		key = "word_equipment_all"
+		tip = "All"
 	},
 	word_equipment_cannon = {
-		tip = "Artillery",
-		key = "word_equipment_cannon"
+		tip = "Artillery"
 	},
 	word_equipment_torpedo = {
-		tip = "Torpedo",
-		key = "word_equipment_torpedo"
+		tip = "Torpedo"
 	},
 	word_equipment_aircraft = {
-		tip = "Aircraft",
-		key = "word_equipment_aircraft"
+		tip = "Aircraft"
 	},
 	word_equipment_antiaircraft = {
-		tip = "Anti-Air",
-		key = "word_equipment_antiaircraft"
+		tip = "Anti-Air"
 	},
 	word_equipment_equip = {
-		tip = "Auxiliary",
-		key = "word_equipment_equip"
+		tip = "Auxiliary"
 	},
 	word_equipment_type = {
-		tip = "Type",
-		key = "word_equipment_type"
+		tip = "Type"
 	},
 	word_equipment_rarity = {
-		tip = "Rarity",
-		key = "word_equipment_rarity"
+		tip = "Rarity"
 	},
 	word_equipment_intensify = {
-		tip = "Enhance",
-		key = "word_equipment_intensify"
+		tip = "Enhance"
 	},
 	word_primary_weapons = {
-		tip = "Main Weapon",
-		key = "word_primary_weapons"
+		tip = "Main Weapon"
 	},
 	word_main_cannons = {
-		tip = "Main Gun",
-		key = "word_main_cannons"
+		tip = "Main Gun"
 	},
 	word_shipboard_aircraft = {
-		tip = "Aircraft",
-		key = "word_shipboard_aircraft"
+		tip = "Aircraft"
 	},
 	word_sub_cannons = {
-		tip = "Auxiliary Gun",
-		key = "word_sub_cannons"
+		tip = "Auxiliary Gun"
 	},
 	word_sub_weapons = {
-		tip = "Auxiliary Weapon",
-		key = "word_sub_weapons"
+		tip = "Auxiliary Weapon"
 	},
 	word_torpedo = {
-		tip = "Torpedo",
-		key = "word_torpedo"
+		tip = "Torpedo"
 	},
 	["word_ air_defense_artillery"] = {
-		tip = "Anti-Air",
-		key = "word_ air_defense_artillery"
+		tip = "Anti-Air"
 	},
 	word_air_defense_artillery = {
-		tip = "Anti-Air",
-		key = "word_air_defense_artillery"
+		tip = "Anti-Air"
 	},
 	word_device = {
-		tip = "Auxiliary",
-		key = "word_device"
+		tip = "Auxiliary"
 	},
 	word_cannon = {
-		tip = "Main Gun ",
-		key = "word_cannon"
+		tip = "Main Gun "
 	},
 	word_fighter = {
-		tip = "Fighter",
-		key = "word_fighter"
+		tip = "Fighter"
 	},
 	word_bomber = {
-		tip = "Dive Bomber",
-		key = "word_bomber"
+		tip = "Dive Bomber"
 	},
 	word_attacker = {
-		tip = "Torpedo Bomber",
-		key = "word_attacker"
+		tip = "Torpedo Bomber"
 	},
 	word_seaplane = {
-		tip = "Reconnaissance",
-		key = "word_seaplane"
+		tip = "Reconnaissance"
 	},
 	word_submarine_torpedo = {
-		tip = "Submarine Torpedo",
-		key = "word_submarine_torpedo"
+		tip = "Submarine Torpedo"
 	},
 	word_online = {
-		tip = "Online",
-		key = "word_online"
+		tip = "Online"
 	},
 	word_apply = {
-		tip = "Apply",
-		key = "word_apply"
+		tip = "Apply"
 	},
 	word_star = {
-		tip = "Stars",
-		key = "word_star"
+		tip = "Stars"
 	},
 	word_level = {
-		tip = "Lv.",
-		key = "word_level"
+		tip = "Lv."
 	},
 	word_mod_value = {
-		tip = "Enhancement",
-		key = "word_mod_value"
+		tip = "Enhancement"
 	},
 	word_wait = {
-		tip = "",
-		key = "word_wait"
+		tip = ""
 	},
 	word_consume = {
-		tip = "Cost",
-		key = "word_consume"
+		tip = "Cost"
 	},
 	word_sell_out = {
-		tip = "Sold out",
-		key = "word_sell_out"
+		tip = "Sold out"
 	},
 	word_diamond_tip = {
 		tip = [[
@@ -1103,600 +829,452 @@ pg.gametip = {
                         有償<icon name=diamond w=0.7 h=0.7/>: $2
                         合計<icon name=diamond w=0.7 h=0.7/>: $3<color=#92fc63><size=17>
                        ※購入時は無償ダイヤから消費されます
-           ダイヤ購入時に入手したおまけは、無償入手分とみなします</size></color>]],
-		key = "word_diamond_tip"
+           ダイヤ購入時に入手したおまけは、無償入手分とみなします</size></color>]]
 	},
 	word_contribution = {
-		tip = "贡献",
-		key = "word_contribution"
+		tip = "贡献"
 	},
 	word_guild_res = {
-		tip = "舰队资源",
-		key = "word_guild_res"
+		tip = "舰队资源"
 	},
 	word_fit = {
-		tip = "Apply to",
-		key = "word_fit"
+		tip = "Apply to"
 	},
 	word_equipment_skin = {
-		tip = "外装",
-		key = "word_equipment_skin"
+		tip = "外装"
 	},
 	word_activity = {
-		tip = "活动",
-		key = "word_activity"
+		tip = "活动"
 	},
 	word_urgency_event = {
-		tip = "紧急事件",
-		key = "word_urgency_event"
+		tip = "紧急事件"
 	},
 	word_shop = {
-		tip = "Shop",
-		key = "word_shop"
+		tip = "Shop"
 	},
 	word_facility = {
-		tip = "设施",
-		key = "word_facility"
+		tip = "设施"
 	},
 	channel_name_1 = {
-		tip = "All",
-		key = "channel_name_1"
+		tip = "All"
 	},
 	channel_name_2 = {
-		tip = "World",
-		key = "channel_name_2"
+		tip = "World"
 	},
 	channel_name_3 = {
-		tip = "Notice",
-		key = "channel_name_3"
+		tip = "Notice"
 	},
 	channel_name_4 = {
-		tip = "Friends",
-		key = "channel_name_4"
+		tip = "Friends"
 	},
 	channel_name_5 = {
-		tip = "Guild",
-		key = "channel_name_5"
+		tip = "Guild"
 	},
 	common_wait = {
-		tip = "Commander, please wait a moment ",
-		key = "common_wait"
+		tip = "Commander, please wait a moment "
 	},
 	common_ship_type = {
-		tip = "Ship type",
-		key = "common_ship_type"
+		tip = "Ship type"
 	},
 	common_dont_remind_dur_login = {
-		tip = "Don't show again",
-		key = "common_dont_remind_dur_login"
+		tip = "Don't show again"
 	},
 	common_activity_end = {
-		tip = "This event <color=#92fc63>has already ended</color>",
-		key = "common_activity_end"
+		tip = "This event <color=#92fc63>has already ended</color>"
 	},
 	common_activity_notStartOrEnd = {
-		tip = "This event <color=#92fc63>has not yet started</color> or <color=#92fc63>has already ended</color>",
-		key = "common_activity_notStartOrEnd"
+		tip = "This event <color=#92fc63>has not yet started</color> or <color=#92fc63>has already ended</color>"
 	},
 	common_activity_not_start = {
-		tip = "This event <color=#92fc63>is currently closed</color>",
-		key = "common_activity_not_start"
+		tip = "This event <color=#92fc63>is currently closed</color>"
 	},
 	common_error = {
-		tip = "System error: ",
-		key = "common_error"
+		tip = "System error: "
 	},
 	common_no_gold = {
-		tip = "You don't have enough <color=#92fc63>Coins</color>!",
-		key = "common_no_gold"
+		tip = "You don't have enough <color=#92fc63>Coins</color>!"
 	},
 	common_no_oil = {
-		tip = "You don't have enough <color=#92fc63>Oil</color>!",
-		key = "common_no_oil"
+		tip = "You don't have enough <color=#92fc63>Oil</color>!"
 	},
 	common_no_rmb = {
-		tip = "You don't have enough <color=#92fc63>Gems</color>!",
-		key = "common_no_rmb"
+		tip = "You don't have enough <color=#92fc63>Gems</color>!"
 	},
 	common_count_noenough = {
-		tip = "Insufficient number ",
-		key = "common_count_noenough"
+		tip = "Insufficient number "
 	},
 	common_no_dorm_gold = {
-		tip = "You don't have enough <color=#92fc63>Decor Tokens</color>!",
-		key = "common_no_dorm_gold"
+		tip = "You don't have enough <color=#92fc63>Decor Tokens</color>!"
 	},
 	common_no_resource = {
-		tip = "You don't have enough resources!",
-		key = "common_no_resource"
+		tip = "You don't have enough resources!"
 	},
 	common_no_item = {
-		tip = "You don't have enough <color=#92fc63>[$1]</color>!",
-		key = "common_no_item"
+		tip = "You don't have enough <color=#92fc63>[$1]</color>!"
 	},
 	common_no_item_1 = {
-		tip = "Not enough items",
-		key = "common_no_item_1"
+		tip = "Not enough items"
 	},
 	common_use_item_sos_max = {
-		tip = "You cannot receive any more Signals.",
-		key = "common_use_item_sos_max"
+		tip = "You cannot receive any more Signals."
 	},
 	common_use_item_sos_used = {
-		tip = "Number of Distress Signals +$1",
-		key = "common_use_item_sos_used"
+		tip = "Number of Distress Signals +$1"
 	},
 	common_no_x = {
-		tip = "You don't have enough <color=#92fc63>$1</color>!",
-		key = "common_no_x"
+		tip = "You don't have enough <color=#92fc63>$1</color>!"
 	},
 	common_limit_cmd = {
-		tip = "Commander, now is not the time to give this command~!",
-		key = "common_limit_cmd"
+		tip = "Commander, now is not the time to give this command~!"
 	},
 	common_limit_type = {
-		tip = "Commander, the command you want to give doesn't work for the selected ships~!",
-		key = "common_limit_type"
+		tip = "Commander, the command you want to give doesn't work for the selected ships~!"
 	},
 	common_limit_equip = {
-		tip = "Gear type error",
-		key = "common_limit_equip"
+		tip = "Gear type error"
 	},
 	common_buy_success = {
-		tip = "Purchased!",
-		key = "common_buy_success"
+		tip = "Purchased!"
 	},
 	common_limit_level = {
-		tip = "Unlocked at Commander <color=#92fc63>lv. $1</color>",
-		key = "common_limit_level"
+		tip = "Unlocked at Commander <color=#92fc63>lv. $1</color>"
 	},
 	common_shopId_noFound = {
-		tip = "Item ID not found",
-		key = "common_shopId_noFound"
+		tip = "Item ID not found"
 	},
 	common_today_buy_limit = {
-		tip = "Daily purchase limit",
-		key = "common_today_buy_limit"
+		tip = "Daily purchase limit"
 	},
 	common_not_enter_room = {
-		tip = "Not in room",
-		key = "common_not_enter_room"
+		tip = "Not in room"
 	},
 	common_test_ship = {
-		tip = "This is an experimental ship",
-		key = "common_test_ship"
+		tip = "This is an experimental ship"
 	},
 	common_entry_inhibited = {
-		tip = "Log In Disabled",
-		key = "common_entry_inhibited"
+		tip = "Log In Disabled"
 	},
 	common_refresh_count_insufficient = {
-		tip = "Out of refreshes",
-		key = "common_refresh_count_insufficient"
+		tip = "Out of refreshes"
 	},
 	common_get_player_info_erro = {
-		tip = "Failed to retrieve player info",
-		key = "common_get_player_info_erro"
+		tip = "Failed to retrieve player info"
 	},
 	common_no_open = {
-		tip = "Not yet open",
-		key = "common_no_open"
+		tip = "Not yet open"
 	},
 	["common_already owned"] = {
-		tip = "Have",
-		key = "common_already owned"
+		tip = "Have"
 	},
 	common_not_get_ship = {
-		tip = "Unowned Characters",
-		key = "common_not_get_ship"
+		tip = "Unowned Characters"
 	},
 	common_sale_out = {
-		tip = "Sold out",
-		key = "common_sale_out"
+		tip = "Sold out"
 	},
 	common_skin_out_of_stock = {
-		tip = "Coming soon",
-		key = "common_skin_out_of_stock"
+		tip = "Coming soon"
 	},
 	common_go_home = {
-		tip = "是否返回主界面",
-		key = "common_go_home"
+		tip = "是否返回主界面"
 	},
 	dont_remind_today = {
-		tip = "Notified",
-		key = "dont_remind_today"
+		tip = "Notified"
 	},
 	dont_remind_session = {
-		tip = "Notified",
-		key = "dont_remind_session"
+		tip = "Notified"
 	},
 	battle_no_oil = {
-		tip = "Oh... Out of Oil again... I'm so hungry that I can't even fight...",
-		key = "battle_no_oil"
+		tip = "Oh... Out of Oil again... I'm so hungry that I can't even fight..."
 	},
 	battle_emptyBlock = {
-		tip = "The required weapon is not equipped",
-		key = "battle_emptyBlock"
+		tip = "The required weapon is not equipped"
 	},
 	battle_duel_main_rage = {
-		tip = "Both sides' <color=#92fc63>vanguards have been destroyed</color>. Battle accelerated.",
-		key = "battle_duel_main_rage"
+		tip = "Both sides' <color=#92fc63>vanguards have been destroyed</color>. Battle accelerated."
 	},
 	battle_main_emergent = {
-		tip = "<color=#92fc63>$1</color> has been heavily damaged. Watch out for enemy ships!",
-		key = "battle_main_emergent"
+		tip = "<color=#92fc63>$1</color> has been heavily damaged. Watch out for enemy ships!"
 	},
 	battle_battleMediator_goOnFight = {
-		tip = "Continue",
-		key = "battle_battleMediator_goOnFight"
+		tip = "Continue"
 	},
 	battle_battleMediator_existFight = {
-		tip = "Leave",
-		key = "battle_battleMediator_existFight"
+		tip = "Leave"
 	},
 	battle_battleMediator_clear_warning = {
-		tip = "Are you sure you wish to retreat? Your Challenge Mode progress will be reset, and your score will be finalized based upon the previous cleared stage. ",
-		key = "battle_battleMediator_clear_warning"
+		tip = "Are you sure you wish to retreat? Your Challenge Mode progress will be reset, and your score will be finalized based upon the previous cleared stage. "
 	},
 	battle_battleMediator_quest_exist = {
-		tip = "If you give up now, you'll lose the\n<color=#92fc63>resources, items, and ships you've collected.</color>Are you sure you want to exit?",
-		key = "battle_battleMediator_quest_exist"
+		tip = "If you give up now, you'll lose the\n<color=#92fc63>resources, items, and ships you've collected.</color>Are you sure you want to exit?"
 	},
 	battle_levelMediator_ok_takeResource = {
-		tip = "Resources collected",
-		key = "battle_levelMediator_ok_takeResource"
+		tip = "Resources collected"
 	},
 	battle_result_time_limit = {
-		tip = "Destroy all enemies within $1 seconds",
-		key = "battle_result_time_limit"
+		tip = "Destroy all enemies within $1 seconds"
 	},
 	battle_result_sink_limit = {
-		tip = "Lose less than $1 ships",
-		key = "battle_result_sink_limit"
+		tip = "Lose less than $1 ships"
 	},
 	battle_result_undefeated = {
-		tip = "No casualties",
-		key = "battle_result_undefeated"
+		tip = "No casualties"
 	},
 	battle_result_victory = {
-		tip = "Claim victory",
-		key = "battle_result_victory"
+		tip = "Claim victory"
 	},
 	battle_result_defeat_all_enemys = {
-		tip = "Defeat all enemy ships",
-		key = "battle_result_defeat_all_enemys"
+		tip = "Defeat all enemy ships"
 	},
 	battle_result_base_score = {
-		tip = "Stage cleared:",
-		key = "battle_result_base_score"
+		tip = "Stage cleared:"
 	},
 	battle_result_dead_score = {
-		tip = "Casualties * $1:",
-		key = "battle_result_dead_score"
+		tip = "Casualties * $1:"
 	},
 	battle_result_score = {
-		tip = "Cargo Ships sunk * $1:",
-		key = "battle_result_score"
+		tip = "Cargo Ships sunk * $1:"
 	},
 	battle_result_score_total = {
-		tip = "Total:",
-		key = "battle_result_score_total"
+		tip = "Total:"
 	},
 	battle_result_total_damage = {
-		tip = "Total Damage:",
-		key = "battle_result_total_damage"
+		tip = "Total Damage:"
 	},
 	battle_result_contribution = {
-		tip = "Contributions Earned:",
-		key = "battle_result_contribution"
+		tip = "Contributions Earned:"
 	},
 	battle_result_total_score = {
-		tip = "Total Score:",
-		key = "battle_result_total_score"
+		tip = "Total Score:"
 	},
 	battle_result_max_combo = {
-		tip = "Max COMBO:",
-		key = "battle_result_max_combo"
+		tip = "Max COMBO:"
 	},
 	battle_levelScene_0Oil = {
-		tip = "Oil Production is 0",
-		key = "battle_levelScene_0Oil"
+		tip = "Oil Production is 0"
 	},
 	battle_levelScene_0Gold = {
-		tip = "Coins Production is 0",
-		key = "battle_levelScene_0Gold"
+		tip = "Coins Production is 0"
 	},
 	battle_levelScene_noRaderCount = {
-		tip = "Out of scans",
-		key = "battle_levelScene_noRaderCount"
+		tip = "Out of scans"
 	},
 	battle_levelScene_lock = {
-		tip = "Stage not yet open. Please clear <color=#92fc63>previous stage</color>.",
-		key = "battle_levelScene_lock"
+		tip = "Stage not yet open. Please clear <color=#92fc63>previous stage</color>."
 	},
 	battle_preCombatLayer_changeFormationError = {
-		tip = "Formation switch error. Please check your formations.",
-		key = "battle_preCombatLayer_changeFormationError"
+		tip = "Formation switch error. Please check your formations."
 	},
 	battle_preCombatLayer_changeFormationNumberError = {
-		tip = "Your fleets need to have at least <color=#92fc63>$1</color> girls in them to battle!",
-		key = "battle_preCombatLayer_changeFormationNumberError"
+		tip = "Your fleets need to have at least <color=#92fc63>$1</color> girls in them to battle!"
 	},
 	battle_preCombatLayer_ready = {
-		tip = "The fleet is ready to attack at a moment's notice",
-		key = "battle_preCombatLayer_ready"
+		tip = "The fleet is ready to attack at a moment's notice"
 	},
 	battle_preCombatLayer_quest_leaveFleet = {
-		tip = "Remove <color=#92fc63>$1</color> from formation?",
-		key = "battle_preCombatLayer_quest_leaveFleet"
+		tip = "Remove <color=#92fc63>$1</color> from formation?"
 	},
 	battle_preCombatLayer_clear_confirm = {
-		tip = "Are you sure you want to clear the selected formation?",
-		key = "battle_preCombatLayer_clear_confirm"
+		tip = "Are you sure you want to clear the selected formation?"
 	},
 	battle_preCombatLayer_auto_confirm = {
-		tip = "Are you sure you want to use the recommended formation?",
-		key = "battle_preCombatLayer_auto_confirm"
+		tip = "Are you sure you want to use the recommended formation?"
 	},
 	battle_preCombatLayer_save_confirm = {
-		tip = "Save this fleet formation?",
-		key = "battle_preCombatLayer_save_confirm"
+		tip = "Save this fleet formation?"
 	},
 	battle_preCombatLayer_save_march = {
-		tip = "Save fleet formation and exit?",
-		key = "battle_preCombatLayer_save_march"
+		tip = "Save fleet formation and exit?"
 	},
 	battle_preCombatLayer_save_success = {
-		tip = "Formation saved.",
-		key = "battle_preCombatLayer_save_success"
+		tip = "Formation saved."
 	},
 	battle_preCombatLayer_time_limit = {
-		tip = "Finish battle in $1 seconds",
-		key = "battle_preCombatLayer_time_limit"
+		tip = "Finish battle in $1 seconds"
 	},
 	battle_preCombatLayer_sink_limit = {
-		tip = "Lose less than $1 ships",
-		key = "battle_preCombatLayer_sink_limit"
+		tip = "Lose less than $1 ships"
 	},
 	battle_preCombatLayer_undefeated = {
-		tip = "All ships must survive ",
-		key = "battle_preCombatLayer_undefeated"
+		tip = "All ships must survive "
 	},
 	battle_preCombatLayer_victory = {
-		tip = "Defeat all enemies",
-		key = "battle_preCombatLayer_victory"
+		tip = "Defeat all enemies"
 	},
 	battle_preCombatLayer_time_hold = {
-		tip = "Do battle for $1 seconds",
-		key = "battle_preCombatLayer_time_hold"
+		tip = "Do battle for $1 seconds"
 	},
 	battle_preCombatLayer_damage_before_end = {
-		tip = "战斗结束前尽可能取得更高伤害",
-		key = "battle_preCombatLayer_damage_before_end"
+		tip = "战斗结束前尽可能取得更高伤害"
 	},
 	battle_preCombatLayer_destory_transport_ship = {
-		tip = "Sink $1 or more Cargo Ships. ",
-		key = "battle_preCombatLayer_destory_transport_ship"
+		tip = "Sink $1 or more Cargo Ships. "
 	},
 	battle_preCombatMediator_leastLimit = {
-		tip = "Fleet 1 may not be empty!",
-		key = "battle_preCombatMediator_leastLimit"
+		tip = "Fleet 1 may not be empty!"
 	},
 	battle_preCombatMediator_timeout = {
-		tip = "<color=#92fc63>You're out of time!</color> Battle failed. Tap to return to main screen.",
-		key = "battle_preCombatMediator_timeout"
+		tip = "<color=#92fc63>You're out of time!</color> Battle failed. Tap to return to main screen."
 	},
 	battle_resourceSiteLayer_collecTimeDefault = {
-		tip = "Harvesting time: <color=#92fc63>--:--:--</color>",
-		key = "battle_resourceSiteLayer_collecTimeDefault"
+		tip = "Harvesting time: <color=#92fc63>--:--:--</color>"
 	},
 	battle_resourceSiteLayer_collecTime = {
-		tip = "Harvesting time: <color=#92fc63>$1</color>",
-		key = "battle_resourceSiteLayer_collecTime"
+		tip = "Harvesting time: <color=#92fc63>$1</color>"
 	},
 	battle_resourceSiteLayer_maxLv = {
-		tip = "Highest level: <color=#92fc63>Lv. $1</color>",
-		key = "battle_resourceSiteLayer_maxLv"
+		tip = "Highest level: <color=#92fc63>Lv. $1</color>"
 	},
 	battle_resourceSiteLayer_avgLv = {
-		tip = "Average level: <color=#92fc63>Lv. $1</color>",
-		key = "battle_resourceSiteLayer_avgLv"
+		tip = "Average level: <color=#92fc63>Lv. $1</color>"
 	},
 	battle_resourceSiteLayer_shipTypeCount = {
-		tip = "$1 x$2",
-		key = "battle_resourceSiteLayer_shipTypeCount"
+		tip = "$1 x$2"
 	},
 	battle_resourceSiteLayer_no_maxLv = {
-		tip = "Highest level has not reached <color=#92fc63>lv. $1</color>",
-		key = "battle_resourceSiteLayer_no_maxLv"
+		tip = "Highest level has not reached <color=#92fc63>lv. $1</color>"
 	},
 	battle_resourceSiteLayer_no_avgLv = {
-		tip = "Average level has not reached <color=#92fc63>lv. $1</color>",
-		key = "battle_resourceSiteLayer_no_avgLv"
+		tip = "Average level has not reached <color=#92fc63>lv. $1</color>"
 	},
 	battle_resourceSiteLayer_no_shipTypeCount = {
-		tip = "Missing <color=#92fc63>$1 x$2</color> in team",
-		key = "battle_resourceSiteLayer_no_shipTypeCount"
+		tip = "Missing <color=#92fc63>$1 x$2</color> in team"
 	},
 	battle_resourceSiteLayer_startError_collecting = {
-		tip = "Harvesting...",
-		key = "battle_resourceSiteLayer_startError_collecting"
+		tip = "Harvesting..."
 	},
 	battle_resourceSiteLayer_startError_not5Ship = {
-		tip = "At least <color=#92fc63>5 characters</color> required",
-		key = "battle_resourceSiteLayer_startError_not5Ship"
+		tip = "At least <color=#92fc63>5 characters</color> required"
 	},
 	battle_resourceSiteLayer_startError_limit = {
-		tip = "Requirements not met: <color=#92fc63>$1</color>",
-		key = "battle_resourceSiteLayer_startError_limit"
+		tip = "Requirements not met: <color=#92fc63>$1</color>"
 	},
 	battle_resourceSiteLayer_endError_notStar = {
-		tip = "Harvesting not yet begun.",
-		key = "battle_resourceSiteLayer_endError_notStar"
+		tip = "Harvesting not yet begun."
 	},
 	battle_resourceSiteLayer_quest_end = {
-		tip = "Commander, you'll lose this resource node if you call your ship back. Are you sure?",
-		key = "battle_resourceSiteLayer_quest_end"
+		tip = "Commander, you'll lose this resource node if you call your ship back. Are you sure?"
 	},
 	battle_resourceSiteMediator_noSite = {
-		tip = "Resource node does not exist.",
-		key = "battle_resourceSiteMediator_noSite"
+		tip = "Resource node does not exist."
 	},
 	battle_resourceSiteMediator_shipState_fight = {
-		tip = "She's currently <color=#92fc63>in battle</color>!",
-		key = "battle_resourceSiteMediator_shipState_fight"
+		tip = "She's currently <color=#92fc63>in battle</color>!"
 	},
 	battle_resourceSiteMediator_shipState_rest = {
-		tip = "She's currently resting...",
-		key = "battle_resourceSiteMediator_shipState_rest"
+		tip = "She's currently resting..."
 	},
 	battle_resourceSiteMediator_shipState_study = {
-		tip = "She's currently in class!",
-		key = "battle_resourceSiteMediator_shipState_study"
+		tip = "She's currently in class!"
 	},
 	battle_resourceSiteMediator_shipState_event = {
-		tip = "She's currently on commission!",
-		key = "battle_resourceSiteMediator_shipState_event"
+		tip = "She's currently on commission!"
 	},
 	battle_resourceSiteMediator_shipState_same = {
-		tip = "May not select an identical ship.",
-		key = "battle_resourceSiteMediator_shipState_same"
+		tip = "May not select an identical ship."
 	},
 	battle_resourceSiteMediator_ok_end = {
-		tip = "Ship recalled.",
-		key = "battle_resourceSiteMediator_ok_end"
+		tip = "Ship recalled."
 	},
 	battle_autobot_unlock = {
-		tip = "Auto combat unlocked!",
-		key = "battle_autobot_unlock"
+		tip = "Auto combat unlocked!"
 	},
 	tips_confirm_teleport_sub = {
-		tip = "To change the <color=#92fc63FF>Submarine Fleet's</color> position from <color=#92fc63FF>$1</color> to <color=#92fc63FF>$2</color>, they must be moved <color=#92fc63FF>$3</color> tiles, which will cost <color=#92fc63FF>$4</color> Oil. Continue? ",
-		key = "tips_confirm_teleport_sub"
+		tip = "To change the <color=#92fc63FF>Submarine Fleet's</color> position from <color=#92fc63FF>$1</color> to <color=#92fc63FF>$2</color>, they must be moved <color=#92fc63FF>$3</color> tiles, which will cost <color=#92fc63FF>$4</color> Oil. Continue? "
 	},
 	backyard_addExp_Info = {
-		tip = "Commander, everyone rested up while you were gone during\n||<color=#FAFAF7FF>$1</color>|| ||  You used up ||<color=#A9F548FF>$2</color>|| snacks, and received ||<color=#A9F548FF>$3</color>|| EXP.",
-		key = "backyard_addExp_Info"
+		tip = "Commander, everyone rested up while you were gone during\n||<color=#FAFAF7FF>$1</color>|| ||  You used up ||<color=#A9F548FF>$2</color>|| snacks, and received ||<color=#A9F548FF>$3</color>|| EXP."
 	},
 	backyard_extendCapacity_error = {
-		tip = "Expansion failed: ",
-		key = "backyard_extendCapacity_error"
+		tip = "Expansion failed: "
 	},
 	backyard_extendCapacity_ok = {
-		tip = "Supplies storage expanded! Storage capacity increased to <color=#92fc63>$1</color>.",
-		key = "backyard_extendCapacity_ok"
+		tip = "Supplies storage expanded! Storage capacity increased to <color=#92fc63>$1</color>."
 	},
 	backyard_addShip_error = {
-		tip = "Failed to add ship: ",
-		key = "backyard_addShip_error"
+		tip = "Failed to add ship: "
 	},
 	backyard_buyFurniture_error = {
-		tip = "Failed to purchase decoration: ",
-		key = "backyard_buyFurniture_error"
+		tip = "Failed to purchase decoration: "
 	},
 	backyard_extendBackYard_error = {
-		tip = "Failed to expand ship slots: ",
-		key = "backyard_extendBackYard_error"
+		tip = "Failed to expand ship slots: "
 	},
 	backyard_addFood_error = {
-		tip = "Failed to add snacks: ",
-		key = "backyard_addFood_error"
+		tip = "Failed to add snacks: "
 	},
 	backyard_addFood_ok = {
-		tip = "Restocking complete! Supplies <color=#92fc63>+$1</color>.",
-		key = "backyard_addFood_ok"
+		tip = "Restocking complete! Supplies <color=#92fc63>+$1</color>."
 	},
 	backyard_putFurniture_ok = {
-		tip = "Saved!",
-		key = "backyard_putFurniture_ok"
+		tip = "Saved!"
 	},
 	backyard_backyardGranaryLayer_foodCountLimit = {
-		tip = "You don't have enough snacks.",
-		key = "backyard_backyardGranaryLayer_foodCountLimit"
+		tip = "You don't have enough snacks."
 	},
 	backyard_shipAddInimacy_ok = {
-		tip = "<color=#92fc63>$1</color>'s Affinity <color=#92fc63>increased</color>.",
-		key = "backyard_shipAddInimacy_ok"
+		tip = "<color=#92fc63>$1</color>'s Affinity <color=#92fc63>increased</color>."
 	},
 	backyard_shipAddInimacy_error = {
-		tip = "Affinity increase failed: ",
-		key = "backyard_shipAddInimacy_error"
+		tip = "Affinity increase failed: "
 	},
 	backyard_shipAddMoney_ok = {
-		tip = "<color=#92fc63>$1</color> made an unexpected discovery! Decor Tokens <color=#92fc63>+$2</color>.",
-		key = "backyard_shipAddMoney_ok"
+		tip = "<color=#92fc63>$1</color> made an unexpected discovery! Decor Tokens <color=#92fc63>+$2</color>."
 	},
 	backyard_shipAddMoney_error = {
-		tip = "Failed to collect Coins: ",
-		key = "backyard_shipAddMoney_error"
+		tip = "Failed to collect Coins: "
 	},
 	backyard_shipExit_error = {
-		tip = "Failed to leave dorm: ",
-		key = "backyard_shipExit_error"
+		tip = "Failed to leave dorm: "
 	},
 	backyard_shipSpeedUpEnergy_error = {
-		tip = "Speed up failed.",
-		key = "backyard_shipSpeedUpEnergy_error"
+		tip = "Speed up failed."
 	},
 	backyard_shipAlreadyExit = {
-		tip = "Ships has already left.",
-		key = "backyard_shipAlreadyExit"
+		tip = "Ships has already left."
 	},
 	backyard_backyardGranaryLayer_full = {
-		tip = "<color=red>Restocking failed! Supplies are already full.</color>",
-		key = "backyard_backyardGranaryLayer_full"
+		tip = "<color=red>Restocking failed! Supplies are already full.</color>"
 	},
 	backyard_backyardGranaryLayer_buyCountLimit = {
-		tip = "May only purchase <color=#92fc63>$1</color>.",
-		key = "backyard_backyardGranaryLayer_buyCountLimit"
+		tip = "May only purchase <color=#92fc63>$1</color>."
 	},
 	backyard_backyardGranaryLayer_error_noResource = {
-		tip = "You don't have enough <color=#92fc63>$1</color> to make this purchase!",
-		key = "backyard_backyardGranaryLayer_error_noResource"
+		tip = "You don't have enough <color=#92fc63>$1</color> to make this purchase!"
 	},
 	backyard_backyardGranaryLayer_noFood = {
-		tip = "Commander, there's nothing to eat~ We're starving!",
-		key = "backyard_backyardGranaryLayer_noFood"
+		tip = "Commander, there's nothing to eat~ We're starving!"
 	},
 	backyard_backyardGranaryLayer_noTimer = {
-		tip = "<color=#92fc63>Add snacks</color> to rest up your girls and grant them additional EXP!",
-		key = "backyard_backyardGranaryLayer_noTimer"
+		tip = "<color=#92fc63>Add snacks</color> to rest up your girls and grant them additional EXP!"
 	},
 	backyard_backyardGranaryLayer_word = {
-		tip = "This one? Or that one... It all looks delicious!",
-		key = "backyard_backyardGranaryLayer_word"
+		tip = "This one? Or that one... It all looks delicious!"
 	},
 	backyard_backyardGranaryLayer_noShip = {
-		tip = "No girls are resting in the dorm right now, which means <color=#92fc63>none of these food will be consumed</color>.",
-		key = "backyard_backyardGranaryLayer_noShip"
+		tip = "No girls are resting in the dorm right now, which means <color=#92fc63>none of these food will be consumed</color>."
 	},
 	backyard_backyardGranaryLayer_foodTimeNotice_top = {
-		tip = "In                         everything ",
-		key = "backyard_backyardGranaryLayer_foodTimeNotice_top"
+		tip = "In                         everything "
 	},
 	backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
-		tip = "will be eaten up~",
-		key = "backyard_backyardGranaryLayer_foodTimeNotice_bottom"
+		tip = "will be eaten up~"
 	},
 	backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
-		tip = "Expand Supply Capacity from  <color=#92fc63>$1</color> to <color=#92fc63>$2</color>.",
-		key = "backyard_backyardGranaryLayer_foodMaxIncreaseNotice"
+		tip = "Expand Supply Capacity from  <color=#92fc63>$1</color> to <color=#92fc63>$2</color>."
 	},
 	backyard_backyardGranaryLayer_error_entendFail = {
-		tip = "<color=#92fc63>You don't have the required resources to expand storage.</color>",
-		key = "backyard_backyardGranaryLayer_error_entendFail"
+		tip = "<color=#92fc63>You don't have the required resources to expand storage.</color>"
 	},
 	backyard_backyardGranaryLayer_buy_max_count = {
-		tip = "<color=#92fc63>Supplies limit reached.</color>",
-		key = "backyard_backyardGranaryLayer_buy_max_count"
+		tip = "<color=#92fc63>Supplies limit reached.</color>"
 	},
 	backyard_backyardScene_comforChatContent1 = {
 		tip = [[
 <size=28>The total comfort is currently affected by the
 number of furniture items in the following slots:
 Wallpaper:<color=#92fc63>$2</color>/Floor:<color=#92fc63>$5</color>/Furniture:<color=#92fc63>$3</color>
-Décor:<color=#92fc63>$4</color>/Carpet:<color=#92fc63>$6</color>/Wall Décor:<color=#92fc63>$7</color></size>]],
-		key = "backyard_backyardScene_comforChatContent1"
+Décor:<color=#92fc63>$4</color>/Carpet:<color=#92fc63>$6</color>/Wall Décor:<color=#92fc63>$7</color></size>]]
 	},
 	backyard_backyardScene_comforChatContent2 = {
 		tip = [[
@@ -1705,312 +1283,235 @@ Bonus EXP Gain:<color=#92fc63>+$2%</color></size><size=28>
 The dorm's total happiness is calculated as a sum of 
 the <color=#92fc63>n</color> highest-comfort pieces of furniture in each slot. The number of pieces of furniture included in this count increases depending on how many times the dorm has been expanded. Furniture does not have to be placed to contribute comfort.
 Current expansions: <color=#92fc63>$3</color>
-</size>]],
-		key = "backyard_backyardScene_comforChatContent2"
+</size>]]
 	},
 	backyard_buyExtendItem_question = {
-		tip = "This will cost <color=#92fc63>$1</color>. Are you sure you want to continue?",
-		key = "backyard_buyExtendItem_question"
+		tip = "This will cost <color=#92fc63>$1</color>. Are you sure you want to continue?"
 	},
 	backyard_backyardScene_comforChatContent1_1 = {
-		tip = "<color=#CC0000>Hard</color>",
-		key = "backyard_backyardScene_comforChatContent1_1"
+		tip = "<color=#CC0000>Hard</color>"
 	},
 	backyard_backyardScene_comforChatContent2_2 = {
-		tip = "<color=#FFBB11>Normal</color>",
-		key = "backyard_backyardScene_comforChatContent2_2"
+		tip = "<color=#FFBB11>Normal</color>"
 	},
 	backyard_backyardScene_comforChatContent3_3 = {
-		tip = "<color=#00EEFF>Comfortable</color>",
-		key = "backyard_backyardScene_comforChatContent3_3"
+		tip = "<color=#00EEFF>Comfortable</color>"
 	},
 	backyard_backyardScene_quest_clearButton = {
-		tip = "<color=#92fc63>Clear</color> current decorations?",
-		key = "backyard_backyardScene_quest_clearButton"
+		tip = "<color=#92fc63>Clear</color> current decorations?"
 	},
 	backyard_backyardScene_quest_saveFurniture = {
-		tip = "<color=#92fc63>Save</color> current settings?",
-		key = "backyard_backyardScene_quest_saveFurniture"
+		tip = "<color=#92fc63>Save</color> current settings?"
 	},
 	backyard_backyardScene_restSuccess = {
-		tip = "<color=#92fc63>Reset!</color>",
-		key = "backyard_backyardScene_restSuccess"
+		tip = "<color=#92fc63>Reset!</color>"
 	},
 	backyard_backyardScene_clearSuccess = {
-		tip = "<color=#92fc63>Cleared!</color>",
-		key = "backyard_backyardScene_clearSuccess"
+		tip = "<color=#92fc63>Cleared!</color>"
 	},
 	backyard_backyardScene_name = {
-		tip = "<color=#92fc63>$1's Dorm</color>",
-		key = "backyard_backyardScene_name"
+		tip = "<color=#92fc63>$1's Dorm</color>"
 	},
 	backyard_backyardScene_exitShipAfterAddEnergy = {
-		tip = " has finished resting and has left the dorm.",
-		key = "backyard_backyardScene_exitShipAfterAddEnergy"
+		tip = " has finished resting and has left the dorm."
 	},
 	backyard_backyardScene_timeRest = {
-		tip = "Time left: <color=#92fc63>$1</color>",
-		key = "backyard_backyardScene_timeRest"
+		tip = "Time left: <color=#92fc63>$1</color>"
 	},
 	backyard_backyardScene_showAddExpInfo = {
-		tip = "Resting time: <color=#92fc63>$1</color> - EXP added: <color=#92fc63>$2</color>",
-		key = "backyard_backyardScene_showAddExpInfo"
+		tip = "Resting time: <color=#92fc63>$1</color> - EXP added: <color=#92fc63>$2</color>"
 	},
 	backyard_backyardScene_error_noPosPutFurniture = {
-		tip = "This doesn't fit anywhere.",
-		key = "backyard_backyardScene_error_noPosPutFurniture"
+		tip = "This doesn't fit anywhere."
 	},
 	backyard_backyardScene_error_noFurniture = {
-		tip = "You don't have any furniture to decorate.",
-		key = "backyard_backyardScene_error_noFurniture"
+		tip = "You don't have any furniture to decorate."
 	},
 	backyard_backyardScene_error_canNotRotate = {
-		tip = "<color=#92fc63>May not rotate</color> this location.",
-		key = "backyard_backyardScene_error_canNotRotate"
+		tip = "<color=#92fc63>May not rotate</color> this location."
 	},
 	backyard_backyardShipInfoLayer_quest_openPos = {
-		tip = "Unlock this row for <color=#92fc63>$1 Gems</color>?",
-		key = "backyard_backyardShipInfoLayer_quest_openPos"
+		tip = "Unlock this row for <color=#92fc63>$1 Gems</color>?"
 	},
 	backyard_backyardShipInfoLayer_quest_addShipNoFood = {
-		tip = "<color=#92fc63>You're running low on supplies.</color> Restock now?",
-		key = "backyard_backyardShipInfoLayer_quest_addShipNoFood"
+		tip = "<color=#92fc63>You're running low on supplies.</color> Restock now?"
 	},
 	backyard_backyardShipInfoLayer_quest_quickAddEnergy = {
-		tip = "You must spend <color=#92fc63>Quick Finishers</color> to speed up. Speed up now?",
-		key = "backyard_backyardShipInfoLayer_quest_quickAddEnergy"
+		tip = "You must spend <color=#92fc63>Quick Finishers</color> to speed up. Speed up now?"
 	},
 	backyard_backyardShipInfoLayer_error_noQuickItem = {
-		tip = "You don't have enough Quick Finishers.",
-		key = "backyard_backyardShipInfoLayer_error_noQuickItem"
+		tip = "You don't have enough Quick Finishers."
 	},
 	backyard_backyardShipInfoMediator_shipState_rest = {
-		tip = "She's currently resting in the dorm!",
-		key = "backyard_backyardShipInfoMediator_shipState_rest"
+		tip = "She's currently resting in the dorm!"
 	},
 	backyard_backyardShipInfoMediator_shipState_fight = {
-		tip = "She's currently resting in the dorm!",
-		key = "backyard_backyardShipInfoMediator_shipState_fight"
+		tip = "She's currently resting in the dorm!"
 	},
 	backyard_backyardShipInfoMediator_shipState_study = {
-		tip = "She's currently in class!",
-		key = "backyard_backyardShipInfoMediator_shipState_study"
+		tip = "She's currently in class!"
 	},
 	backyard_backyardShipInfoMediator_shipState_collect = {
-		tip = "She's currently on commission!",
-		key = "backyard_backyardShipInfoMediator_shipState_collect"
+		tip = "She's currently on commission!"
 	},
 	backyard_backyardShipInfoMediator_shipState_event = {
-		tip = "She's currently running special ops!",
-		key = "backyard_backyardShipInfoMediator_shipState_event"
+		tip = "She's currently running special ops!"
 	},
 	backyard_backyardShipInfoMediator_quest_moveOutFleet = {
-		tip = "She's currently deployed for battle. Do you want to <color=#92fc63>remove her from the fleet formation</color>?",
-		key = "backyard_backyardShipInfoMediator_quest_moveOutFleet"
+		tip = "She's currently deployed for battle. Do you want to <color=#92fc63>remove her from the fleet formation</color>?"
 	},
 	backyard_backyardShipInfoMediator_error_vanguardFleetOnlyOneShip = {
-		tip = "At least 1 ship must be deployed to Vanguard.",
-		key = "backyard_backyardShipInfoMediator_error_vanguardFleetOnlyOneShip"
+		tip = "At least 1 ship must be deployed to Vanguard."
 	},
 	backyard_backyardShipInfoMediator_error_mainFleetOnlyOneShip = {
-		tip = "At least 1 ship must be deployed to Main Fleet.",
-		key = "backyard_backyardShipInfoMediator_error_mainFleetOnlyOneShip"
+		tip = "At least 1 ship must be deployed to Main Fleet."
 	},
 	backyard_backyardShipInfoMediator_ok_addShip = {
-		tip = "Ship added!",
-		key = "backyard_backyardShipInfoMediator_ok_addShip"
+		tip = "Ship added!"
 	},
 	backyard_backyardShipInfoMediator_ok_unlock = {
-		tip = "Unlocked!",
-		key = "backyard_backyardShipInfoMediator_ok_unlock"
+		tip = "Unlocked!"
 	},
 	backyard_backyardShipInfoMediator_error_noFood = {
-		tip = "You don't have enough snacks.",
-		key = "backyard_backyardShipInfoMediator_error_noFood"
+		tip = "You don't have enough snacks."
 	},
 	backyard_backyardShipInfoMediator_error_fullEnergy = {
-		tip = "This ship's energy is full.",
-		key = "backyard_backyardShipInfoMediator_error_fullEnergy"
+		tip = "This ship's energy is full."
 	},
 	backyard_backyardShipInfoMediator_error_fleetOnlyOneShip = {
-		tip = "This is the last ship in this formation. Unable to complete action.",
-		key = "backyard_backyardShipInfoMediator_error_fleetOnlyOneShip"
+		tip = "This is the last ship in this formation. Unable to complete action."
 	},
 	backyard_open_2floor = {
-		tip = "Spend $1 Gems to unlock the second floor?\n<color=#FF4B14>No new training slots will unlock with second floor.</color> For decoration only!",
-		key = "backyard_open_2floor"
+		tip = "Spend $1 Gems to unlock the second floor?\n<color=#FF4B14>No new training slots will unlock with second floor.</color> For decoration only!"
 	},
 	backyarad_theme_replace = {
-		tip = "Some decorations from the \"$1\" theme are already in use and have not been moved.",
-		key = "backyarad_theme_replace"
+		tip = "Some decorations from the \"$1\" theme are already in use and have not been moved."
 	},
 	backyard_extendArea_ok = {
-		tip = "Dorm expanded!",
-		key = "backyard_extendArea_ok"
+		tip = "Dorm expanded!"
 	},
 	backyard_extendArea_erro = {
-		tip = "Failed to expand dorm: <color=#92fc63>$1</color>",
-		key = "backyard_extendArea_erro"
+		tip = "Failed to expand dorm: <color=#92fc63>$1</color>"
 	},
 	backyard_extendArea_tip = {
-		tip = "Required: Expansion License:||$1|| ||You have: ||$2||",
-		key = "backyard_extendArea_tip"
+		tip = "Required: Expansion License:||$1|| ||You have: ||$2||"
 	},
 	backyard_notPosition_shipExit = {
-		tip = "Dorm is full. Ship has left the dorm.",
-		key = "backyard_notPosition_shipExit"
+		tip = "Dorm is full. Ship has left the dorm."
 	},
 	backyard_no_ship_tip = {
-		tip = "Ship does not exist.",
-		key = "backyard_no_ship_tip"
+		tip = "Ship does not exist."
 	},
 	backyard_energy_qiuck_up_tip = {
-		tip = "You'll need to give <color=#A9F548FF>$1 cups</color> of Coffee for full energy restoration!\n\nCoffee left: <color=$2>$3 cups</color>",
-		key = "backyard_energy_qiuck_up_tip"
+		tip = "You'll need to give <color=#A9F548FF>$1 cups</color> of Coffee for full energy restoration!\n\nCoffee left: <color=$2>$3 cups</color>"
 	},
 	backyard_cant_put_tip = {
-		tip = "Unable to place.",
-		key = "backyard_cant_put_tip"
+		tip = "Unable to place."
 	},
 	backyard_cant_buy_tip = {
-		tip = "Unable to purchase!",
-		key = "backyard_cant_buy_tip"
+		tip = "Unable to purchase!"
 	},
 	backyard_theme_lock_tip = {
-		tip = "This theme is <color=#92fc63>not yet open</color>.",
-		key = "backyard_theme_lock_tip"
+		tip = "This theme is <color=#92fc63>not yet open</color>."
 	},
 	backyard_theme_open_tip = {
-		tip = "To unlock:\nReach Commander lv. <color=#92fc63>$1</color>",
-		key = "backyard_theme_open_tip"
+		tip = "To unlock:\nReach Commander lv. <color=#92fc63>$1</color>"
 	},
 	backyard_theme_furniture_buy_tip = {
-		tip = "Spend <material=outline c=#473B3A x=1 y=-1><color=#92fc63>$1</color></material> Decor Tokens to buy <material=outline c=#473B3A x=1 y=-1><color=#92fc63>$2</color></material>?",
-		key = "backyard_theme_furniture_buy_tip"
+		tip = "Spend <material=outline c=#473B3A x=1 y=-1><color=#92fc63>$1</color></material> Decor Tokens to buy <material=outline c=#473B3A x=1 y=-1><color=#92fc63>$2</color></material>?"
 	},
 	backyard_cannot_repeat_purchase = {
-		tip = "May not purchase again.",
-		key = "backyard_cannot_repeat_purchase"
+		tip = "May not purchase again."
 	},
 	backyard_theme_bought = {
-		tip = "Purchased",
-		key = "backyard_theme_bought"
+		tip = "Purchased"
 	},
 	backyard_interAction_no_open = {
-		tip = "Furniture interaction not yet unlocked.",
-		key = "backyard_interAction_no_open"
+		tip = "Furniture interaction not yet unlocked."
 	},
 	backyard_theme_no_exist = {
-		tip = "Theme does not exist.",
-		key = "backyard_theme_no_exist"
+		tip = "Theme does not exist."
 	},
 	backayrd_theme_delete_sucess = {
-		tip = "Theme deleted.",
-		key = "backayrd_theme_delete_sucess"
+		tip = "Theme deleted."
 	},
 	backayrd_theme_delete_erro = {
-		tip = "Failed to delete theme.",
-		key = "backayrd_theme_delete_erro"
+		tip = "Failed to delete theme."
 	},
 	backyard_ship_on_furnitrue = {
-		tip = "There's a girl on this furniture! Continue moving?",
-		key = "backyard_ship_on_furnitrue"
+		tip = "There's a girl on this furniture! Continue moving?"
 	},
 	backyard_save_empty_theme = {
-		tip = "Unable to save empty themes.",
-		key = "backyard_save_empty_theme"
+		tip = "Unable to save empty themes."
 	},
 	backyard_theme_name_forbid = {
-		tip = "Theme name contains illegal characters.",
-		key = "backyard_theme_name_forbid"
+		tip = "Theme name contains illegal characters."
 	},
 	backyard_getResource_emptry = {
-		tip = "You were too slow...",
-		key = "backyard_getResource_emptry"
+		tip = "You were too slow..."
 	},
 	backyard_no_pos_for_ship = {
-		tip = "You don't have enough space in your dorm! You can only choose this much.",
-		key = "backyard_no_pos_for_ship"
+		tip = "You don't have enough space in your dorm! You can only choose this much."
 	},
 	equipment_destroyEquipments_error_noEquip = {
-		tip = "Gear does not exist.",
-		key = "equipment_destroyEquipments_error_noEquip"
+		tip = "Gear does not exist."
 	},
 	equipment_destroyEquipments_error_notEnoughEquip = {
-		tip = "Not enough gear.",
-		key = "equipment_destroyEquipments_error_notEnoughEquip"
+		tip = "Not enough gear."
 	},
 	equipment_equipDevUI_error_noPos = {
-		tip = "Your gear storage is full.",
-		key = "equipment_equipDevUI_error_noPos"
+		tip = "Your gear storage is full."
 	},
 	equipment_equipmentInfoLayer_error_canNotEquip = {
-		tip = "Unable to equip: <color=#92fc63>$1</color>",
-		key = "equipment_equipmentInfoLayer_error_canNotEquip"
+		tip = "Unable to equip: <color=#92fc63>$1</color>"
 	},
 	equipment_equipmentScene_selectError_more = {
-		tip = "May select up to <color=#92fc63>$1</color> pieces of gear",
-		key = "equipment_equipmentScene_selectError_more"
+		tip = "May select up to <color=#92fc63>$1</color> pieces of gear"
 	},
 	equipment_newEquipLayer_getNewEquip = {
-		tip = "Gear received: <color=#92fc63>$1</color>",
-		key = "equipment_newEquipLayer_getNewEquip"
+		tip = "Gear received: <color=#92fc63>$1</color>"
 	},
 	equipment_select_materials_tip = {
-		tip = " ",
-		key = "equipment_select_materials_tip"
+		tip = " "
 	},
 	equipment_select_device_tip = {
-		tip = "Please select required gear.",
-		key = "equipment_select_device_tip"
+		tip = "Please select required gear."
 	},
 	equipment_cant_unload = {
-		tip = "<color=#92fc63>Your gear storage is full.</color> Unable to unequip gear.",
-		key = "equipment_cant_unload"
+		tip = "<color=#92fc63>Your gear storage is full.</color> Unable to unequip gear."
 	},
 	equipment_max_level = {
-		tip = "Gear level cap",
-		key = "equipment_max_level"
+		tip = "Gear level cap"
 	},
 	exercise_count_insufficient = {
-		tip = "<color=#92fc63>You don't have enough exercises.</color>",
-		key = "exercise_count_insufficient"
+		tip = "<color=#92fc63>You don't have enough exercises.</color>"
 	},
 	exercise_clear_fleet_tip = {
-		tip = "Are you sure you want to <color=#92fc63>remove the defensive vanguard/main fleet</color> and name them as Fleet 1?",
-		key = "exercise_clear_fleet_tip"
+		tip = "Are you sure you want to <color=#92fc63>remove the defensive vanguard/main fleet</color> and name them as Fleet 1?"
 	},
 	exercise_fleet_exit_tip = {
-		tip = "This ship is currently part of an <color=#92fc63>Arena defensive fleet</color>. Are you sure you want to remove them?",
-		key = "exercise_fleet_exit_tip"
+		tip = "This ship is currently part of an <color=#92fc63>Arena defensive fleet</color>. Are you sure you want to remove them?"
 	},
 	exercise_replace_rivals_ok_tip = {
-		tip = "Opponents updated!",
-		key = "exercise_replace_rivals_ok_tip"
+		tip = "Opponents updated!"
 	},
 	exercise_replace_rivals_question = {
-		tip = "Spend <color=#92fc63>$1</color> Gems to refresh list of opponents?",
-		key = "exercise_replace_rivals_question"
+		tip = "Spend <color=#92fc63>$1</color> Gems to refresh list of opponents?"
 	},
 	exercise_count_recover_tip = {
-		tip = "(Recover in <color=#92fc63>$1</color>)",
-		key = "exercise_count_recover_tip"
+		tip = "(Recover in <color=#92fc63>$1</color>)"
 	},
 	exercise_shop_refresh_tip = {
-		tip = "Spend <color=#92fc63>$1</color> Gems to refresh list of items?",
-		key = "exercise_shop_refresh_tip"
+		tip = "Spend <color=#92fc63>$1</color> Gems to refresh list of items?"
 	},
 	exercise_shop_buy_tip = {
-		tip = "Exchange <color=#92fc63>$1</color> Merit for this item?",
-		key = "exercise_shop_buy_tip"
+		tip = "Exchange <color=#92fc63>$1</color> Merit for this item?"
 	},
 	exercise_formation_title = {
-		tip = "Exercise Defensive Force",
-		key = "exercise_formation_title"
+		tip = "Exercise Defensive Force"
 	},
 	exercise_time_tip = {
-		tip = "Current season: $1",
-		key = "exercise_time_tip"
+		tip = "Current season: $1"
 	},
 	exercise_rule_tip = {
 		tip = [[
@@ -2024,127 +1525,96 @@ Current expansions: <color=#92fc63>$3</color>
 8. You can refresh your opponent lineup <color=#92fc63>5</color> times a day.
 9. Your opponent lineup will also refresh automatically after you finish an Exercise Battle.
 10. Your Exercise Count will refresh at 00:00, 12:00, and 18:00 (server local time) every day.
-11. At the end of the season, all players will have their Military Rank and Current Rank reset. However, <color=#92fc63>all Merits earned will persist between seasons.</color> ]],
-		key = "exercise_rule_tip"
+11. At the end of the season, all players will have their Military Rank and Current Rank reset. However, <color=#92fc63>all Merits earned will persist between seasons.</color> ]]
 	},
 	exercise_award_tip = {
-		tip = "During each Exercise season, you will be rewarded the following upon earning each rank for the first time: ",
-		key = "exercise_award_tip"
+		tip = "During each Exercise season, you will be rewarded the following upon earning each rank for the first time: "
 	},
 	dock_yard_left_tips = {
-		tip = "Select characters to <color=#92fc63>$1</color>: ",
-		key = "dock_yard_left_tips"
+		tip = "Select characters to <color=#92fc63>$1</color>: "
 	},
 	fleet_error_no_fleet = {
-		tip = "Fleet does not exist.",
-		key = "fleet_error_no_fleet"
+		tip = "Fleet does not exist."
 	},
 	fleet_repairShips_error_fullEnergy = {
-		tip = "Your ships are already fully energized!",
-		key = "fleet_repairShips_error_fullEnergy"
+		tip = "Your ships are already fully energized!"
 	},
 	fleet_repairShips_error_noResource = {
-		tip = "You don't have enough Coins!",
-		key = "fleet_repairShips_error_noResource"
+		tip = "You don't have enough Coins!"
 	},
 	fleet_repairShips_quest = {
-		tip = "Spend <color=#92fc63>$1</color> Coins to restore energy to all ships?",
-		key = "fleet_repairShips_quest"
+		tip = "Spend <color=#92fc63>$1</color> Coins to restore energy to all ships?"
 	},
 	fleet_fleetRaname_error = {
-		tip = "Failed to rename: ",
-		key = "fleet_fleetRaname_error"
+		tip = "Failed to rename: "
 	},
 	fleet_updateFleet_error = {
-		tip = "Failed to update fleet: ",
-		key = "fleet_updateFleet_error"
+		tip = "Failed to update fleet: "
 	},
 	friend_acceptFriendRequest_error = {
-		tip = "Failed to accept friend request: ",
-		key = "friend_acceptFriendRequest_error"
+		tip = "Failed to accept friend request: "
 	},
 	friend_deleteFriend_error = {
-		tip = "Failed to delete friend: ",
-		key = "friend_deleteFriend_error"
+		tip = "Failed to delete friend: "
 	},
 	friend_fetchFriendMsg_error = {
-		tip = "Failed to retrieve message: ",
-		key = "friend_fetchFriendMsg_error"
+		tip = "Failed to retrieve message: "
 	},
 	friend_rejectFriendRequest_error = {
-		tip = "Failed to reject friend request: ",
-		key = "friend_rejectFriendRequest_error"
+		tip = "Failed to reject friend request: "
 	},
 	friend_searchFriend_noPlayer = {
-		tip = "Unable to check this player.",
-		key = "friend_searchFriend_noPlayer"
+		tip = "Unable to check this player."
 	},
 	friend_sendFriendMsg_error = {
-		tip = "Failed to send message: ",
-		key = "friend_sendFriendMsg_error"
+		tip = "Failed to send message: "
 	},
 	friend_sendFriendMsg_error_noFriend = {
-		tip = "You are not friends with this player.",
-		key = "friend_sendFriendMsg_error_noFriend"
+		tip = "You are not friends with this player."
 	},
 	friend_sendFriendRequest_error = {
-		tip = "Failed to send request: ",
-		key = "friend_sendFriendRequest_error"
+		tip = "Failed to send request: "
 	},
 	friend_addblacklist_error = {
-		tip = "Failed to blacklist: ",
-		key = "friend_addblacklist_error"
+		tip = "Failed to blacklist: "
 	},
 	friend_relieveblacklist_error = {
-		tip = "Failed to remove from blacklist: ",
-		key = "friend_relieveblacklist_error"
+		tip = "Failed to remove from blacklist: "
 	},
 	friend_sendFriendRequest_success = {
-		tip = "Friend request sent!",
-		key = "friend_sendFriendRequest_success"
+		tip = "Friend request sent!"
 	},
 	friend_relieveblacklist_success = {
-		tip = "Removed from blacklist!",
-		key = "friend_relieveblacklist_success"
+		tip = "Removed from blacklist!"
 	},
 	friend_addblacklist_success = {
-		tip = "Added to blacklist.",
-		key = "friend_addblacklist_success"
+		tip = "Added to blacklist."
 	},
 	friend_confirm_add_blacklist = {
-		tip = "Are you sure you want to blacklist <color=#92fc63>$1</color>?\n(View your blacklist from your friends menu)",
-		key = "friend_confirm_add_blacklist"
+		tip = "Are you sure you want to blacklist <color=#92fc63>$1</color>?\n(View your blacklist from your friends menu)"
 	},
 	friend_relieve_backlist_tip = {
-		tip = "Player is on your blacklist. Would you like to remove them from your blacklist?",
-		key = "friend_relieve_backlist_tip"
+		tip = "Player is on your blacklist. Would you like to remove them from your blacklist?"
 	},
 	friend_player_is_friend_tip = {
-		tip = "You are already friends with this player.",
-		key = "friend_player_is_friend_tip"
+		tip = "You are already friends with this player."
 	},
 	friend_searchFriend_wait_time = {
-		tip = "May search again in $1 seconds",
-		key = "friend_searchFriend_wait_time"
+		tip = "May search again in $1 seconds"
 	},
 	lesson_classOver_error = {
-		tip = "Failed to collect rewards: ",
-		key = "lesson_classOver_error"
+		tip = "Failed to collect rewards: "
 	},
 	lesson_endToLearn_error = {
-		tip = "Class failed: ",
-		key = "lesson_endToLearn_error"
+		tip = "Class failed: "
 	},
 	lesson_startToLearn_error = {
-		tip = "Failed to begin class: ",
-		key = "lesson_startToLearn_error"
+		tip = "Failed to begin class: "
 	},
 	tactics_lesson_cancel = {
-		tip = "If you cancel class, only partial EXP will be granted and you will <color=#92fc63>lose your textbook</color>. Continue canceling this class?",
-		key = "tactics_lesson_cancel"
+		tip = "If you cancel class, only partial EXP will be granted and you will <color=#92fc63>lose your textbook</color>. Continue canceling this class?"
 	},
 	tactics_lesson_system_introduce = {
-		key = "tactics_lesson_system_introduce",
 		tip = {
 			{
 				icon = {
@@ -2169,443 +1639,333 @@ Current expansions: <color=#92fc63>$3</color>
 		}
 	},
 	tactics_lesson_start_tip = {
-		tip = "Are you sure you want to spend <color=#92fc63>1</color><color=#92fc63> \"$1\" </color>to train <color=#92fc63>$2's</color> <color=#92fc63>$3</color> skill?",
-		key = "tactics_lesson_start_tip"
+		tip = "Are you sure you want to spend <color=#92fc63>1</color><color=#92fc63> \"$1\" </color>to train <color=#92fc63>$2's</color> <color=#92fc63>$3</color> skill?"
 	},
 	tactics_noskill_erro = {
-		tip = "Skill must exist.",
-		key = "tactics_noskill_erro"
+		tip = "Skill must exist."
 	},
 	tactics_max_level = {
-		tip = "This skill is already fully leveled up!",
-		key = "tactics_max_level"
+		tip = "This skill is already fully leveled up!"
 	},
 	tactics_end_to_learn = {
-		tip = "<color=#92fc63>$1</color> has finished class! Her <color=#92fc63>$2</color> skill received <color=#92fc63>$3</color> EXP.",
-		key = "tactics_end_to_learn"
+		tip = "<color=#92fc63>$1</color> has finished class! Her <color=#92fc63>$2</color> skill received <color=#92fc63>$3</color> EXP."
 	},
 	tactics_continue_to_learn = {
-		tip = "continue to learn a new book?",
-		key = "tactics_continue_to_learn"
+		tip = "continue to learn a new book?"
 	},
 	tactics_should_exist_skill = {
-		tip = "Skill must exist.",
-		key = "tactics_should_exist_skill"
+		tip = "Skill must exist."
 	},
 	tactics_skill_level_up = {
-		tip = "(Skill leveled up from lv. $1 to lv. $2!)",
-		key = "tactics_skill_level_up"
+		tip = "(Skill leveled up from lv. $1 to lv. $2!)"
 	},
 	tactics_no_lesson = {
-		tip = "Not enough Textbook",
-		key = "tactics_no_lesson"
+		tip = "Not enough Textbook"
 	},
 	tactics_lesson_full = {
-		tip = "Classes are full.",
-		key = "tactics_lesson_full"
+		tip = "Classes are full."
 	},
 	tactics_lesson_repeated = {
-		tip = "She's already in class!",
-		key = "tactics_lesson_repeated"
+		tip = "She's already in class!"
 	},
 	login_gate_not_ready = {
-		tip = "Server not open.",
-		key = "login_gate_not_ready"
+		tip = "Server not open."
 	},
 	login_game_not_ready = {
-		tip = "Game server not open.",
-		key = "login_game_not_ready"
+		tip = "Game server not open."
 	},
 	login_game_rigister_full = {
-		tip = "Maximum registered player limit reached.",
-		key = "login_game_rigister_full"
+		tip = "Maximum registered player limit reached."
 	},
 	login_game_login_full = {
-		tip = "Too many players are logged into this server. Please wait and try again.",
-		key = "login_game_login_full"
+		tip = "Too many players are logged into this server. Please wait and try again."
 	},
 	login_game_banned = {
-		tip = "Account frozen. Please contact customer support.",
-		key = "login_game_banned"
+		tip = "Account frozen. Please contact customer support."
 	},
 	login_game_frequence = {
-		tip = "Please do not repeatedly try to log into this server.",
-		key = "login_game_frequence"
+		tip = "Please do not repeatedly try to log into this server."
 	},
 	login_createNewPlayer_full = {
-		tip = "Too many players are registered on this server.",
-		key = "login_createNewPlayer_full"
+		tip = "Too many players are registered on this server."
 	},
 	login_createNewPlayer_error = {
-		tip = "Registration failed: ",
-		key = "login_createNewPlayer_error"
+		tip = "Registration failed: "
 	},
 	login_createNewPlayer_error_nameNull = {
-		tip = "Please give yourself a name!",
-		key = "login_createNewPlayer_error_nameNull"
+		tip = "Please give yourself a name!"
 	},
 	login_newPlayerScene_word_lingBo = {
-		tip = "Special Destroyer Ayanami here! They call me \"Ghost\". Commander, what's your name?",
-		key = "login_newPlayerScene_word_lingBo"
+		tip = "Special Destroyer Ayanami here! They call me \"Ghost\". Commander, what's your name?"
 	},
 	login_newPlayerScene_word_yingHuoChong = {
-		tip = "Wow! It's the new Commander! Did you come here to play with Glowworm? You better watch out for my headbutt!",
-		key = "login_newPlayerScene_word_yingHuoChong"
+		tip = "Wow! It's the new Commander! Did you come here to play with Glowworm? You better watch out for my headbutt!"
 	},
 	login_newPlayerScene_word_laFei = {
-		tip = "I'm Laffey, a Benson class ship... I'm... pretty good at night battles... Commander... what's your name?",
-		key = "login_newPlayerScene_word_laFei"
+		tip = "I'm Laffey, a Benson class ship... I'm... pretty good at night battles... Commander... what's your name?"
 	},
 	login_newPlayerScene_word_biaoqiang = {
-		tip = "I'm Javelin! Commander, I've already told you my name... Now you have to tell me yours!",
-		key = "login_newPlayerScene_word_biaoqiang"
+		tip = "I'm Javelin! Commander, I've already told you my name... Now you have to tell me yours!"
 	},
 	login_newPlayerScene_word_z23 = {
-		tip = "Commander, did you really forget to tell me your name? Or do you just want me to call you Commander?",
-		key = "login_newPlayerScene_word_z23"
+		tip = "Commander, did you really forget to tell me your name? Or do you just want me to call you Commander?"
 	},
 	login_newPlayerScene_randomName = {
-		tip = "Random name",
-		key = "login_newPlayerScene_randomName"
+		tip = "Random name"
 	},
 	login_newPlayerScene_error_notChoiseShip = {
-		tip = "No character selected",
-		key = "login_newPlayerScene_error_notChoiseShip"
+		tip = "No character selected"
 	},
 	login_newPlayerScene_inputName = {
-		tip = "Enter name",
-		key = "login_newPlayerScene_inputName"
+		tip = "Enter name"
 	},
 	login_loginMediator_kickOtherLogin = {
-		tip = "Your account is logged in on another device.",
-		key = "login_loginMediator_kickOtherLogin"
+		tip = "Your account is logged in on another device."
 	},
 	login_loginMediator_kickServerClose = {
-		tip = "Server Maintenance",
-		key = "login_loginMediator_kickServerClose"
+		tip = "Server Maintenance"
 	},
 	login_loginMediator_kickIntError = {
-		tip = "Network Error",
-		key = "login_loginMediator_kickIntError"
+		tip = "Network Error"
 	},
 	login_loginMediator_kickTimeError = {
-		tip = "Offline for too long.",
-		key = "login_loginMediator_kickTimeError"
+		tip = "Offline for too long."
 	},
 	login_loginMediator_vertifyFail = {
-		tip = "Data validation failed.",
-		key = "login_loginMediator_vertifyFail"
+		tip = "Data validation failed."
 	},
 	login_loginMediator_dataExpired = {
-		tip = "Login data Expired",
-		key = "login_loginMediator_dataExpired"
+		tip = "Login data Expired"
 	},
 	login_loginMediator_kickLoginOut = {
-		tip = "Connection lost.",
-		key = "login_loginMediator_kickLoginOut"
+		tip = "Connection lost."
 	},
 	login_loginMediator_serverLoginErro = {
-		tip = "Connection to server lost.",
-		key = "login_loginMediator_serverLoginErro"
+		tip = "Connection to server lost."
 	},
 	login_loginMediator_kickUndefined = {
-		tip = "Connection error - [$1]",
-		key = "login_loginMediator_kickUndefined"
+		tip = "Connection error - [$1]"
 	},
 	login_loginMediator_loginSuccess = {
-		tip = "Login successful!",
-		key = "login_loginMediator_loginSuccess"
+		tip = "Login successful!"
 	},
 	login_loginMediator_quest_RegisterSuccess = {
-		tip = "Registration complete! Preparing to log in...",
-		key = "login_loginMediator_quest_RegisterSuccess"
+		tip = "Registration complete! Preparing to log in..."
 	},
 	login_loginMediator_registerFail_error = {
-		tip = "Registration failed: ",
-		key = "login_loginMediator_registerFail_error"
+		tip = "Registration failed: "
 	},
 	login_loginMediator_userLoginFail_error = {
-		tip = "Registration failed: ",
-		key = "login_loginMediator_userLoginFail_error"
+		tip = "Registration failed: "
 	},
 	login_loginMediator_serverLoginFail_error = {
-		tip = "Failed to log in: ",
-		key = "login_loginMediator_serverLoginFail_error"
+		tip = "Failed to log in: "
 	},
 	login_loginScene_error_noUserName = {
-		tip = "Username may not be empty.",
-		key = "login_loginScene_error_noUserName"
+		tip = "Username may not be empty."
 	},
 	login_loginScene_error_noPassword = {
-		tip = "Password may not be empty.",
-		key = "login_loginScene_error_noPassword"
+		tip = "Password may not be empty."
 	},
 	login_loginScene_error_diffPassword = {
-		tip = "Passwords do not match.",
-		key = "login_loginScene_error_diffPassword"
+		tip = "Passwords do not match."
 	},
 	login_loginScene_error_noMailBox = {
-		tip = "Email may not be empty.",
-		key = "login_loginScene_error_noMailBox"
+		tip = "Email may not be empty."
 	},
 	login_loginScene_choiseServer = {
-		tip = "Please select a server.",
-		key = "login_loginScene_choiseServer"
+		tip = "Please select a server."
 	},
 	login_loginScene_server_vindicate = {
-		tip = "Server is under maintenance.",
-		key = "login_loginScene_server_vindicate"
+		tip = "Server is under maintenance."
 	},
 	login_loginScene_server_full = {
-		tip = "Server is full.",
-		key = "login_loginScene_server_full"
+		tip = "Server is full."
 	},
 	login_loginScene_server_disabled = {
-		tip = "Server down.",
-		key = "login_loginScene_server_disabled"
+		tip = "Server down."
 	},
 	login_register_full = {
-		tip = "Too many players registered.",
-		key = "login_register_full"
+		tip = "Too many players registered."
 	},
 	system_database_busy = {
-		tip = "Database is busy. Please try again later.",
-		key = "system_database_busy"
+		tip = "Database is busy. Please try again later."
 	},
 	mail_getMailList_error_noNewMail = {
-		tip = "No new mail.",
-		key = "mail_getMailList_error_noNewMail"
+		tip = "No new mail."
 	},
 	mail_takeAttachment_error_noMail = {
-		tip = "Mail does not exist: $1",
-		key = "mail_takeAttachment_error_noMail"
+		tip = "Mail does not exist: $1"
 	},
 	mail_takeAttachment_error_noAttach = {
-		tip = "Failed to collect rewards.",
-		key = "mail_takeAttachment_error_noAttach"
+		tip = "Failed to collect rewards."
 	},
 	mail_count = {
-		tip = "Includes <color=#92fc63>$1</color> reward(s)",
-		key = "mail_count"
+		tip = "Includes <color=#92fc63>$1</color> reward(s)"
 	},
 	mail_takeAttachment_error_magazine_full = {
-		tip = "<color=#92fc63>Failed to collect.</color>Your <color=#92fc63>gear storage is full</color>.",
-		key = "mail_takeAttachment_error_magazine_full"
+		tip = "<color=#92fc63>Failed to collect.</color>Your <color=#92fc63>gear storage is full</color>."
 	},
 	mail_takeAttachment_error_dockYrad_full = {
-		tip = "<color=#92fc63>Failed to collect.</color>Because your <color=#92fc63>dock is full</color>.",
-		key = "mail_takeAttachment_error_dockYrad_full"
+		tip = "<color=#92fc63>Failed to collect.</color>Because your <color=#92fc63>dock is full</color>."
 	},
 	mail_confirm_set_important_flag = {
-		tip = "Mark as important",
-		key = "mail_confirm_set_important_flag"
+		tip = "Mark as important"
 	},
 	mail_confirm_cancel_important_flag = {
-		tip = "Unmark as important",
-		key = "mail_confirm_cancel_important_flag"
+		tip = "Unmark as important"
 	},
 	main_mailLayer_mailBoxClear = {
-		tip = "Mailbox has been cleared",
-		key = "main_mailLayer_mailBoxClear"
+		tip = "Mailbox has been cleared"
 	},
 	main_mailLayer_noNewMail = {
-		tip = "No new mail.",
-		key = "main_mailLayer_noNewMail"
+		tip = "No new mail."
 	},
 	main_mailLayer_takeAttach = {
-		tip = "Collect Rewards",
-		key = "main_mailLayer_takeAttach"
+		tip = "Collect Rewards"
 	},
 	main_mailLayer_noAttach = {
-		tip = "No rewards",
-		key = "main_mailLayer_noAttach"
+		tip = "No rewards"
 	},
 	main_mailLayer_attachTaken = {
-		tip = "Rewards collected",
-		key = "main_mailLayer_attachTaken"
+		tip = "Rewards collected"
 	},
 	main_mailLayer_quest_clear = {
-		tip = "Are you sure you want to delete all read mails? <color=#92fc63>(Mail with rewards will not be deleted)</color>",
-		key = "main_mailLayer_quest_clear"
+		tip = "Are you sure you want to delete all read mails? <color=#92fc63>(Mail with rewards will not be deleted)</color>"
 	},
 	main_mailLayer_quest_deleteNotTakeAttach = {
-		tip = "<color=#92fc63>There are uncollected rewards.</color> Are you sure you want to delete this message?",
-		key = "main_mailLayer_quest_deleteNotTakeAttach"
+		tip = "<color=#92fc63>There are uncollected rewards.</color> Are you sure you want to delete this message?"
 	},
 	main_mailLayer_quest_deleteNotRead = {
-		tip = "<color=#92fc63>You have not read this message yet.</color> Are you sure you want to delete this message?",
-		key = "main_mailLayer_quest_deleteNotRead"
+		tip = "<color=#92fc63>You have not read this message yet.</color> Are you sure you want to delete this message?"
 	},
 	main_mailMediator_mailDelete = {
-		tip = "Mail deleted",
-		key = "main_mailMediator_mailDelete"
+		tip = "Mail deleted"
 	},
 	main_mailMediator_attachTaken = {
-		tip = "Rewards collected",
-		key = "main_mailMediator_attachTaken"
+		tip = "Rewards collected"
 	},
 	main_mailMediator_notingToTake = {
-		tip = "No rewards available.",
-		key = "main_mailMediator_notingToTake"
+		tip = "No rewards available."
 	},
 	main_mailMediator_takeALot = {
-		tip = "Big Harvest",
-		key = "main_mailMediator_takeALot"
+		tip = "Big Harvest"
 	},
 	main_navalAcademyScene_systemClose = {
-		tip = "Commander, you haven't unlocked this feature yet!",
-		key = "main_navalAcademyScene_systemClose"
+		tip = "Commander, you haven't unlocked this feature yet!"
 	},
 	main_navalAcademyScene_noClass = {
-		tip = "This class isn't scheduled for today! Please find another teacher.",
-		key = "main_navalAcademyScene_noClass"
+		tip = "This class isn't scheduled for today! Please find another teacher."
 	},
 	main_navalAcademyScene_noClassDialogue = {
-		tip = "You forgot the schedule again! We don't have this class today.",
-		key = "main_navalAcademyScene_noClassDialogue"
+		tip = "You forgot the schedule again! We don't have this class today."
 	},
 	main_navalAcademyScene_quest_startClass = {
-		tip = "<color=#92fc63>Class is starting! Please take your seats~!</color>",
-		key = "main_navalAcademyScene_quest_startClass"
+		tip = "<color=#92fc63>Class is starting! Please take your seats~!</color>"
 	},
 	main_navalAcademyScene_quest_stopClass = {
-		tip = "Your girls are studying hard! Are you sure you want them to skip class?\n<color=#92fc63>(They won't earn stat bonuses if they skip class)</color>",
-		key = "main_navalAcademyScene_quest_stopClass"
+		tip = "Your girls are studying hard! Are you sure you want them to skip class?\n<color=#92fc63>(They won't earn stat bonuses if they skip class)</color>"
 	},
 	main_navalAcademyScene_quest_Classover_long = {
-		tip = "Class dismissed! <color=#92fc63>$1</color> studied hard. <color=#92fc63>$2 +$3</color>; <color=#92fc63>$4 +$5</color>!",
-		key = "main_navalAcademyScene_quest_Classover_long"
+		tip = "Class dismissed! <color=#92fc63>$1</color> studied hard. <color=#92fc63>$2 +$3</color>; <color=#92fc63>$4 +$5</color>!"
 	},
 	main_navalAcademyScene_quest_Classover_short = {
-		tip = "Class dismissed! <color=#92fc63>$1</color> studied hard. <color=#92fc63>$2 +$3</color>!",
-		key = "main_navalAcademyScene_quest_Classover_short"
+		tip = "Class dismissed! <color=#92fc63>$1</color> studied hard. <color=#92fc63>$2 +$3</color>!"
 	},
 	main_navalAcademyScene_full = {
-		tip = "This student has completed <color=#92fc63>all course credits</color>!",
-		key = "main_navalAcademyScene_full"
+		tip = "This student has completed <color=#92fc63>all course credits</color>!"
 	},
 	main_navalAcademyScene_upgrade_complete = {
-		tip = "<color=#92fc63>$1</color> upgraded! Max capacity <color=#9CFF5CE6>+$2</color>!",
-		key = "main_navalAcademyScene_upgrade_complete"
+		tip = "<color=#92fc63>$1</color> upgraded! Max capacity <color=#9CFF5CE6>+$2</color>!"
 	},
 	main_navalAcademyScene_class_upgrade_complete = {
-		tip = "$1 upgrade successful",
-		key = "main_navalAcademyScene_class_upgrade_complete"
+		tip = "$1 upgrade successful"
 	},
 	main_navalAcademyScene_work_done = {
-		tip = "No available missions.",
-		key = "main_navalAcademyScene_work_done"
+		tip = "No available missions."
 	},
 	main_notificationLayer_searchInput = {
-		tip = "Please enter player ID or name.",
-		key = "main_notificationLayer_searchInput"
+		tip = "Please enter player ID or name."
 	},
 	main_notificationLayer_noInput = {
-		tip = "Please write a message!",
-		key = "main_notificationLayer_noInput"
+		tip = "Please write a message!"
 	},
 	main_notificationLayer_noFriend = {
-		tip = "You don't have any friends.",
-		key = "main_notificationLayer_noFriend"
+		tip = "You don't have any friends."
 	},
 	main_notificationLayer_deleteFriend = {
-		tip = "Delete Friend",
-		key = "main_notificationLayer_deleteFriend"
+		tip = "Delete Friend"
 	},
 	main_notificationLayer_sendButton = {
-		tip = "Please enter a message...",
-		key = "main_notificationLayer_sendButton"
+		tip = "Please enter a message..."
 	},
 	main_notificationLayer_addFriendError_addSelf = {
-		tip = "You can't friend yourself!",
-		key = "main_notificationLayer_addFriendError_addSelf"
+		tip = "You can't friend yourself!"
 	},
 	main_notificationLayer_addFriendError_friendAlready = {
-		tip = "You're already friends with this player.",
-		key = "main_notificationLayer_addFriendError_friendAlready"
+		tip = "You're already friends with this player."
 	},
 	main_notificationLayer_quest_deletFriend = {
-		tip = "Are you sure you want to delete <color=#92fc63>$1</color>?",
-		key = "main_notificationLayer_quest_deletFriend"
+		tip = "Are you sure you want to delete <color=#92fc63>$1</color>?"
 	},
 	main_notificationLayer_quest_request = {
-		tip = " wants to be your friend. Would you like to accept their request?",
-		key = "main_notificationLayer_quest_request"
+		tip = " wants to be your friend. Would you like to accept their request?"
 	},
 	main_notificationLayer_enter_room = {
-		tip = "Entered room <color=#92fc63>$1</color>.",
-		key = "main_notificationLayer_enter_room"
+		tip = "Entered room <color=#92fc63>$1</color>."
 	},
 	main_notificationLayer_not_roomId = {
-		tip = "Please enter room number",
-		key = "main_notificationLayer_not_roomId"
+		tip = "Please enter room number"
 	},
 	main_notificationLayer_roomId_invaild = {
-		tip = "Room number is invalid!",
-		key = "main_notificationLayer_roomId_invaild"
+		tip = "Room number is invalid!"
 	},
 	main_notificationMediator_sendFriendRequest = {
-		tip = "Friend request sent.",
-		key = "main_notificationMediator_sendFriendRequest"
+		tip = "Friend request sent."
 	},
 	main_notificationMediator_beFriend = {
-		tip = "You are now friends with <color=#92fc63>$1</color>!",
-		key = "main_notificationMediator_beFriend"
+		tip = "You are now friends with <color=#92fc63>$1</color>!"
 	},
 	main_notificationMediator_deleteFriend = {
-		tip = "You are no longer friends with <color=#92fc63>$1</color>.",
-		key = "main_notificationMediator_deleteFriend"
+		tip = "You are no longer friends with <color=#92fc63>$1</color>."
 	},
 	main_notificationMediator_room_max_number = {
-		tip = "Chatroom is full.",
-		key = "main_notificationMediator_room_max_number"
+		tip = "Chatroom is full."
 	},
 	main_playerInfoLayer_inputName = {
-		tip = "Enter name",
-		key = "main_playerInfoLayer_inputName"
+		tip = "Enter name"
 	},
 	main_playerInfoLayer_inputManifesto = {
-		tip = "Please enter your motto.",
-		key = "main_playerInfoLayer_inputManifesto"
+		tip = "Please enter your motto."
 	},
 	main_playerInfoLayer_quest_changeName = {
-		tip = "This will cost <color=#92fc63>100 Gems</color>. Continue?",
-		key = "main_playerInfoLayer_quest_changeName"
+		tip = "This will cost <color=#92fc63>100 Gems</color>. Continue?"
 	},
 	main_playerInfoLayer_error_changeNameNoGem = {
-		tip = "You don't have enough Gems.",
-		key = "main_playerInfoLayer_error_changeNameNoGem"
+		tip = "You don't have enough Gems."
 	},
 	main_settingsScene_quest_exist = {
-		tip = "Are you sure you want to logout?",
-		key = "main_settingsScene_quest_exist"
+		tip = "Are you sure you want to logout?"
 	},
 	coloring_color_missmatch = {
-		tip = "The color you have chosen cannot be used",
-		key = "coloring_color_missmatch"
+		tip = "The color you have chosen cannot be used"
 	},
 	coloring_color_not_enough = {
-		tip = "You do not have enough paint",
-		key = "coloring_color_not_enough"
+		tip = "You do not have enough paint"
 	},
 	coloring_erase_all_warning = {
-		tip = "Resetting will clear all of the currently painted boxes of their color. Are you sure you would like to reset?",
-		key = "coloring_erase_all_warning"
+		tip = "Resetting will clear all of the currently painted boxes of their color. Are you sure you would like to reset?"
 	},
 	coloring_erase_warning = {
-		tip = "Once you clear all the boxes of their color, you will not be reimbursed for the paint you have used. Are you sure you would like to clear them?",
-		key = "coloring_erase_warning"
+		tip = "Once you clear all the boxes of their color, you will not be reimbursed for the paint you have used. Are you sure you would like to clear them?"
 	},
 	coloring_lock = {
-		tip = "Locked",
-		key = "coloring_lock"
+		tip = "Locked"
 	},
 	coloring_wait_open = {
-		tip = "Claimable",
-		key = "coloring_wait_open"
+		tip = "Claimable"
 	},
 	coloring_help_tip = {
-		key = "coloring_help_tip",
 		tip = {
 			{
 				info = "Game Rules:\n"
@@ -2619,26 +1979,14 @@ Current expansions: <color=#92fc63>$3</color>
 5. Paint can be obtained by completing event missions to consume a total amount of oil. 
 6. Completing pages in the Coloring Book will grant rewards. 
 7. The rewards for completing each page are as follows: 
-	 Complete Page 1: Random T2 Skill Book x2, Coins x300
-	 Complete Page 2: T2 Mystery Retrofit Blueprint x2, Oil x100
-	 Complete Page 3: T2 Mystery Gear Part x3, Coins x300
-	 Complete Page 4: T3 Offensive Skill Book x2, Oil x100
-	 Complete Page 5: T3 Defensive Skill Book, Coins x300
-	 Complete Page 6: T3 General Part, Oil x100
-	 Complete Page 7: Z23 skin - The Eyecatch in the Rye?
-8. Unlock an extra blank drawing page after completing the first 8 pages in the Coloring Book. 
-9. There are no restrictions on which colors can be used in the blank coloring page, and no paint will be consumed. 
-10. The "Eraser" and "Clear All" functions can be used on the extra blank page. 
-11. The "Eraser" tool can erase a single cell. 
-12. The "Clear All" function will erase all colored cells on the extra page. 
-13. After the event ends, all unused paint will be removed. 
-14. A new page will be unlocked every day until February 26th.
-15. The extra blank page will be available after February 27th.]]
+	 Complete Page 1: Random T3 Skill Book x3;n	 Complete Page 2: T3 Mystery Retrofit Blueprint x4
+	 Complete Page 3: Little Illustrious x1;
+8. After the event ends, unused paint will be removed.
+9. The extra blank page will be available after May 31st.]]
 			}
 		}
 	},
 	link_link_help_tip = {
-		key = "link_link_help_tip",
 		tip = {
 			{
 				info = " How to Play:\n"
@@ -2667,727 +2015,546 @@ Current expansions: <color=#92fc63>$3</color>
 		}
 	},
 	player_changeManifesto_ok = {
-		tip = "Motto updated!",
-		key = "player_changeManifesto_ok"
+		tip = "Motto updated!"
 	},
 	player_changeManifesto_error = {
-		tip = "Failed to update motto: ",
-		key = "player_changeManifesto_error"
+		tip = "Failed to update motto: "
 	},
 	player_changePlayerIcon_ok = {
-		tip = "Secretary changed!",
-		key = "player_changePlayerIcon_ok"
+		tip = "Secretary changed!"
 	},
 	player_changePlayerIcon_error = {
-		tip = "Failed to change secretary: ",
-		key = "player_changePlayerIcon_error"
+		tip = "Failed to change secretary: "
 	},
 	player_changePlayerName_ok = {
-		tip = "Name changed!",
-		key = "player_changePlayerName_ok"
+		tip = "Name changed!"
 	},
 	player_changePlayerName_error = {
-		tip = "Failed to change name: ",
-		key = "player_changePlayerName_error"
+		tip = "Failed to change name: "
 	},
 	player_changePlayerName_error_2015 = {
-		tip = "Name is being used by another player.",
-		key = "player_changePlayerName_error_2015"
+		tip = "Name is being used by another player."
 	},
 	player_harvestResource_error = {
-		tip = "Failed to collect resources: ",
-		key = "player_harvestResource_error"
+		tip = "Failed to collect resources: "
 	},
 	player_harvestResource_error_fullBag = {
-		tip = "Resource storage is full! Unable to collect.",
-		key = "player_harvestResource_error_fullBag"
+		tip = "Resource storage is full! Unable to collect."
 	},
 	player_change_chat_room_erro = {
-		tip = "Failed to change chat channels.",
-		key = "player_change_chat_room_erro"
+		tip = "Failed to change chat channels."
 	},
 	prop_destroyProp_error_noItem = {
-		tip = "Unable to find this item.",
-		key = "prop_destroyProp_error_noItem"
+		tip = "Unable to find this item."
 	},
 	prop_destroyProp_error_canNotSell = {
-		tip = "This item may not be sold.",
-		key = "prop_destroyProp_error_canNotSell"
+		tip = "This item may not be sold."
 	},
 	prop_destroyProp_error_notEnoughItem = {
-		tip = "Commander, you don't have that many items to sell!",
-		key = "prop_destroyProp_error_notEnoughItem"
+		tip = "Commander, you don't have that many items to sell!"
 	},
 	prop_destroyProp_error = {
-		tip = "Failed to sell items: ",
-		key = "prop_destroyProp_error"
+		tip = "Failed to sell items: "
 	},
 	resourceSite_error_noSite = {
-		tip = "Resource node does not exist.",
-		key = "resourceSite_error_noSite"
+		tip = "Resource node does not exist."
 	},
 	resourceSite_beginScanMap_ok = {
-		tip = "Scan successful!",
-		key = "resourceSite_beginScanMap_ok"
+		tip = "Scan successful!"
 	},
 	resourceSite_beginScanMap_error = {
-		tip = "Radar scan failed: ",
-		key = "resourceSite_beginScanMap_error"
+		tip = "Radar scan failed: "
 	},
 	resourceSite_collectResource_error = {
-		tip = "Failed to retrieve resource point: ",
-		key = "resourceSite_collectResource_error"
+		tip = "Failed to retrieve resource point: "
 	},
 	resourceSite_finishResourceSite_error = {
-		tip = "Failed to complete harvesting: ",
-		key = "resourceSite_finishResourceSite_error"
+		tip = "Failed to complete harvesting: "
 	},
 	resourceSite_startResourceSite_error = {
-		tip = "Failed to sail to resource node: ",
-		key = "resourceSite_startResourceSite_error"
+		tip = "Failed to sail to resource node: "
 	},
 	ship_error_noShip = {
-		tip = "Character does not exist: <color=#92fc63>$1</color>",
-		key = "ship_error_noShip"
+		tip = "Character does not exist: <color=#92fc63>$1</color>"
 	},
 	ship_addStarExp_error = {
-		tip = "Failed to add ship EXP: ",
-		key = "ship_addStarExp_error"
+		tip = "Failed to add ship EXP: "
 	},
 	ship_buildShip_error = {
-		tip = "Failed to build ship: ",
-		key = "ship_buildShip_error"
+		tip = "Failed to build ship: "
 	},
 	ship_buildShip_error_noTemplate = {
-		tip = "Ship build config not found: <color=#92fc63>$1</color>",
-		key = "ship_buildShip_error_noTemplate"
+		tip = "Ship build config not found: <color=#92fc63>$1</color>"
 	},
 	ship_buildShip_error_notEnoughItem = {
-		tip = "You don't have enough resources.",
-		key = "ship_buildShip_error_notEnoughItem"
+		tip = "You don't have enough resources."
 	},
 	ship_buildShipImmediately_error = {
-		tip = "Failed to speed up: ",
-		key = "ship_buildShipImmediately_error"
+		tip = "Failed to speed up: "
 	},
 	ship_buildShipImmediately_error_noSHip = {
-		tip = "No ships at dock.",
-		key = "ship_buildShipImmediately_error_noSHip"
+		tip = "No ships at dock."
 	},
 	ship_buildShipImmediately_error_finished = {
-		tip = "Construction complete!",
-		key = "ship_buildShipImmediately_error_finished"
+		tip = "Construction complete!"
 	},
 	ship_buildShipImmediately_error_noItem = {
-		tip = "You don't have any Quick Finishers.",
-		key = "ship_buildShipImmediately_error_noItem"
+		tip = "You don't have any Quick Finishers."
 	},
 	ship_buildShip_not_position = {
-		tip = "Construction queue is full. Unable to receive ship.",
-		key = "ship_buildShip_not_position"
+		tip = "Construction queue is full. Unable to receive ship."
 	},
 	ship_buildBatchShip = {
-		tip = "Spend <color=#92fc63>$1 Gems</color> to receive <color=#92fc63>10 high performance ships</color>?",
-		key = "ship_buildBatchShip"
+		tip = "Spend <color=#92fc63>$1 Gems</color> to receive <color=#92fc63>10 high performance ships</color>?"
 	},
 	ship_buildSingleShip = {
-		tip = "Spend <color=#92fc63>$1 Gems</color> to receive <color=#92fc63>1 high performance ships</color>?",
-		key = "ship_buildSingleShip"
+		tip = "Spend <color=#92fc63>$1 Gems</color> to receive <color=#92fc63>1 high performance ships</color>?"
 	},
 	ship_buildShip_succeed = {
-		tip = "Ship received!",
-		key = "ship_buildShip_succeed"
+		tip = "Ship received!"
 	},
 	ship_buildShip_list_empty = {
-		tip = "Construction queue is empty.",
-		key = "ship_buildShip_list_empty"
+		tip = "Construction queue is empty."
 	},
 	ship_buildship_tip = {
-		tip = "Cost to build 1 <color=#92fc63>$4</color>:\n<color=#92fc63>$1 Coins</color> and <color=#92fc63>$2 $3</color>.",
-		key = "ship_buildship_tip"
+		tip = "Cost to build 1 <color=#92fc63>$4</color>:\n<color=#92fc63>$1 Coins</color> and <color=#92fc63>$2 $3</color>."
 	},
 	ship_destoryShips_error = {
-		tip = "Failed to retire ship: ",
-		key = "ship_destoryShips_error"
+		tip = "Failed to retire ship: "
 	},
 	ship_equipToShip_ok = {
-		tip = "<color=#92fc63>$1</color> equipped!",
-		key = "ship_equipToShip_ok"
+		tip = "<color=#92fc63>$1</color> equipped!"
 	},
 	ship_equipToShip_error = {
-		tip = "Failed to equip: ",
-		key = "ship_equipToShip_error"
+		tip = "Failed to equip: "
 	},
 	ship_equipToShip_error_noEquip = {
-		tip = "Gear does not exist.",
-		key = "ship_equipToShip_error_noEquip"
+		tip = "Gear does not exist."
 	},
 	ship_getShip_error = {
-		tip = "Failed to deploy ship: ",
-		key = "ship_getShip_error"
+		tip = "Failed to deploy ship: "
 	},
 	ship_getShip_error_noShip = {
-		tip = "No ships at dock.",
-		key = "ship_getShip_error_noShip"
+		tip = "No ships at dock."
 	},
 	ship_getShip_error_notFinish = {
-		tip = "Construction not yet complete.",
-		key = "ship_getShip_error_notFinish"
+		tip = "Construction not yet complete."
 	},
 	ship_getShip_error_full = {
-		tip = "<color=#92fc63>Your dock is full.</color> Unable to receive ship!",
-		key = "ship_getShip_error_full"
+		tip = "<color=#92fc63>Your dock is full.</color> Unable to receive ship!"
 	},
 	ship_modShip_error = {
-		tip = "Failed to enhance ship: ",
-		key = "ship_modShip_error"
+		tip = "Failed to enhance ship: "
 	},
 	ship_modShip_error_notEnoughGold = {
-		tip = "<color=#92fc63>Not enough Coins</color>",
-		key = "ship_modShip_error_notEnoughGold"
+		tip = "<color=#92fc63>Not enough Coins</color>"
 	},
 	ship_remouldShip_error = {
-		tip = "Limit Break failed: ",
-		key = "ship_remouldShip_error"
+		tip = "Limit Break failed: "
 	},
 	ship_unequipFromShip_ok = {
-		tip = "<color=#FFD700FF>$1</color> unequipped.",
-		key = "ship_unequipFromShip_ok"
+		tip = "<color=#FFD700FF>$1</color> unequipped."
 	},
 	ship_unequipFromShip_error = {
-		tip = "Failed to unequip gear: ",
-		key = "ship_unequipFromShip_error"
+		tip = "Failed to unequip gear: "
 	},
 	ship_unequipFromShip_error_noEquip = {
-		tip = "No gear in this slot.",
-		key = "ship_unequipFromShip_error_noEquip"
+		tip = "No gear in this slot."
 	},
 	ship_unequip_all_tip = {
-		tip = "Are you sure you want to unequip all gear?",
-		key = "ship_unequip_all_tip"
+		tip = "Are you sure you want to unequip all gear?"
 	},
 	ship_unequip_all_success = {
-		tip = "Gear <color=#FF0000>unequipped</color>.",
-		key = "ship_unequip_all_success"
+		tip = "Gear <color=#FF0000>unequipped</color>."
 	},
 	ship_updateShipLock_ok_lock = {
-		tip = "<color=#92fc63>$1</color> locked.",
-		key = "ship_updateShipLock_ok_lock"
+		tip = "<color=#92fc63>$1</color> locked."
 	},
 	ship_updateShipLock_ok_unlock = {
-		tip = "<color=#92fc63>$1</color> unlocked.",
-		key = "ship_updateShipLock_ok_unlock"
+		tip = "<color=#92fc63>$1</color> unlocked."
 	},
 	ship_updateShipLock_error = {
-		tip = "Failed to change lock status: ",
-		key = "ship_updateShipLock_error"
+		tip = "Failed to change lock status: "
 	},
 	ship_upgradeStar_error = {
-		tip = "Limit Break failed: ",
-		key = "ship_upgradeStar_error"
+		tip = "Limit Break failed: "
 	},
 	ship_upgradeStar_error_4010 = {
-		tip = "Selected materials include a ship currently in \"Mirror Sea\".",
-		key = "ship_upgradeStar_error_4010"
+		tip = "Selected materials include a ship currently in \"Mirror Sea\"."
 	},
 	ship_upgradeStar_error_lvLimit = {
-		tip = "May not Limit Break at current <color=#92fc63>level</color>.",
-		key = "ship_upgradeStar_error_lvLimit"
+		tip = "May not Limit Break at current <color=#92fc63>level</color>."
 	},
 	ship_upgradeStar_error_noEnoughMatrail = {
-		tip = "Insufficient materials.",
-		key = "ship_upgradeStar_error_noEnoughMatrail"
+		tip = "Insufficient materials."
 	},
 	ship_upgradeStar_notConfig = {
-		tip = "Unable to find Limit Break config <color=#92fc63>$1</color>.",
-		key = "ship_upgradeStar_notConfig"
+		tip = "Unable to find Limit Break config <color=#92fc63>$1</color>."
 	},
 	ship_upgradeStar_maxLevel = {
-		tip = "Limit Break cap already reached!",
-		key = "ship_upgradeStar_maxLevel"
+		tip = "Limit Break cap already reached!"
 	},
 	ship_upgradeStar_select_material_tip = {
-		tip = "Select Limit Break items",
-		key = "ship_upgradeStar_select_material_tip"
+		tip = "Select Limit Break items"
 	},
 	ship_exchange_question = {
-		tip = "Exchange <color=#92fc63>$1</color> Medals for <color=#92fc63>$2</color>?",
-		key = "ship_exchange_question"
+		tip = "Exchange <color=#92fc63>$1</color> Medals for <color=#92fc63>$2</color>?"
 	},
 	ship_exchange_medalCount_noEnough = {
-		tip = "You don't have enough Medals.",
-		key = "ship_exchange_medalCount_noEnough"
+		tip = "You don't have enough Medals."
 	},
 	ship_exchange_erro = {
-		tip = "Exchange failed: <color=#92fc63>$1</color>",
-		key = "ship_exchange_erro"
+		tip = "Exchange failed: <color=#92fc63>$1</color>"
 	},
 	ship_exchange_confirm = {
-		tip = "Exchange $1 Medals for $2?",
-		key = "ship_exchange_confirm"
+		tip = "Exchange $1 Medals for $2?"
 	},
 	ship_exchange_tip = {
-		tip = "1. You will receive Medals of Honor when retiring a ship.\n2. You may exchange Medals for new ships.\n3. The Exchange Shop refreshes every day at <color=#92fc63>06:00</color> and <color=#92fc63>18:00</color>.",
-		key = "ship_exchange_tip"
+		tip = "1. You will receive Medals of Honor when retiring a ship.\n2. You may exchange Medals for new ships.\n3. The Exchange Shop refreshes every day at <color=#92fc63>06:00</color> and <color=#92fc63>18:00</color>."
 	},
 	ship_vo_fighting = {
-		tip = "Selected character is already attacking.",
-		key = "ship_vo_fighting"
+		tip = "Selected character is already attacking."
 	},
 	ship_vo_event = {
-		tip = "Selected character is deployed on special ops.",
-		key = "ship_vo_event"
+		tip = "Selected character is deployed on special ops."
 	},
 	ship_vo_isCharacter = {
-		tip = "Selected character is your Secretary and may not perform this action.",
-		key = "ship_vo_isCharacter"
+		tip = "Selected character is your Secretary and may not perform this action."
 	},
 	ship_vo_inBackyardRest = {
-		tip = "Selected character is currently resting.",
-		key = "ship_vo_inBackyardRest"
+		tip = "Selected character is currently resting."
 	},
 	ship_vo_inClass = {
-		tip = "Selected character is in class!",
-		key = "ship_vo_inClass"
+		tip = "Selected character is in class!"
 	},
 	ship_vo_moveout_backyard = {
-		tip = "Leave the dorm?",
-		key = "ship_vo_moveout_backyard"
+		tip = "Leave the dorm?"
 	},
 	ship_vo_moveout_formation = {
-		tip = "Remove from formation?",
-		key = "ship_vo_moveout_formation"
+		tip = "Remove from formation?"
 	},
 	ship_vo_mainFleet_must_hasShip = {
-		tip = "At least 1 ship must be deployed to the Main Fleet.",
-		key = "ship_vo_mainFleet_must_hasShip"
+		tip = "At least 1 ship must be deployed to the Main Fleet."
 	},
 	ship_vo_vanguardFleet_must_hasShip = {
-		tip = "At least 1 ship must be deployed to the Vanguard.",
-		key = "ship_vo_vanguardFleet_must_hasShip"
+		tip = "At least 1 ship must be deployed to the Vanguard."
 	},
 	ship_vo_getWordsUndefined = {
-		tip = "Oh no! We're experiencing some sort of random error!",
-		key = "ship_vo_getWordsUndefined"
+		tip = "Oh no! We're experiencing some sort of random error!"
 	},
 	ship_vo_locked = {
-		tip = "This ship is locked.",
-		key = "ship_vo_locked"
+		tip = "This ship is locked."
 	},
 	ship_vo_mainFleet_exist_same_ship = {
-		tip = "May not deploy 2 of the same ship to Main Fleet.",
-		key = "ship_vo_mainFleet_exist_same_ship"
+		tip = "May not deploy 2 of the same ship to Main Fleet."
 	},
 	ship_vo_vanguardFleet_exist_same_ship = {
-		tip = "May not deploy 2 of the same ship to Vanguard.",
-		key = "ship_vo_vanguardFleet_exist_same_ship"
+		tip = "May not deploy 2 of the same ship to Vanguard."
 	},
 	ship_buildShipMediator_startBuild = {
-		tip = "Building...",
-		key = "ship_buildShipMediator_startBuild"
+		tip = "Building..."
 	},
 	ship_buildShipMediator_finishBuild = {
-		tip = "Construction complete!",
-		key = "ship_buildShipMediator_finishBuild"
+		tip = "Construction complete!"
 	},
 	ship_buildShipScene_quest_quickFinish = {
-		tip = "You must spend <color=#92fc63>$1</color> x Quick Finisher to complete construction.\n\nQuick Finishers left: <color=#92fc63>$3</color>",
-		key = "ship_buildShipScene_quest_quickFinish"
+		tip = "You must spend <color=#92fc63>$1</color> x Quick Finisher to complete construction.\n\nQuick Finishers left: <color=#92fc63>$3</color>"
 	},
 	ship_dockyardMediator_destroy = {
-		tip = "Ship retired.",
-		key = "ship_dockyardMediator_destroy"
+		tip = "Ship retired."
 	},
 	ship_dockyardScene_capacity = {
-		tip = "Dock capacity:",
-		key = "ship_dockyardScene_capacity"
+		tip = "Dock capacity:"
 	},
 	ship_dockyardScene_noRole = {
-		tip = "You have not selected a character.",
-		key = "ship_dockyardScene_noRole"
+		tip = "You have not selected a character."
 	},
 	ship_dockyardScene_error_choiseRoleMore = {
-		tip = "Must select at least <color=#92fc63>$1</color> character(s)",
-		key = "ship_dockyardScene_error_choiseRoleMore"
+		tip = "Must select at least <color=#92fc63>$1</color> character(s)"
 	},
 	ship_dockyardScene_error_choiseRoleLess = {
-		tip = "May select up to <color=#92fc63>$1</color> characters",
-		key = "ship_dockyardScene_error_choiseRoleLess"
+		tip = "May select up to <color=#92fc63>$1</color> characters"
 	},
 	ship_formationMediator_leastLimit = {
-		tip = "Fleet 1 may not be empty!",
-		key = "ship_formationMediator_leastLimit"
+		tip = "Fleet 1 may not be empty!"
 	},
 	ship_formationMediator_changeNameSuccess = {
-		tip = "Fleet name changed!",
-		key = "ship_formationMediator_changeNameSuccess"
+		tip = "Fleet name changed!"
 	},
 	ship_formationMediator_changeNameError_sameShip = {
-		tip = "Only one ship by the same name may be deployed to each fleet.",
-		key = "ship_formationMediator_changeNameError_sameShip"
+		tip = "Only one ship by the same name may be deployed to each fleet."
 	},
 	ship_formationMediator_addShipError_overlimit = {
-		tip = "Fleet may only have <color=#92fc63>$1</color> <color=#92fc63>$2</color>.",
-		key = "ship_formationMediator_addShipError_overlimit"
+		tip = "Fleet may only have <color=#92fc63>$1</color> <color=#92fc63>$2</color>."
 	},
 	ship_formationMediator_replaceError_onlyShip = {
-		tip = "Selected ship, <color=#92fc63>$1</color>, is a unique <color=#92fc63>$2</color> and may not be changed!",
-		key = "ship_formationMediator_replaceError_onlyShip"
+		tip = "Selected ship, <color=#92fc63>$1</color>, is a unique <color=#92fc63>$2</color> and may not be changed!"
 	},
 	ship_formationMediator_quest_replace = {
-		tip = "The selected ship is already deployed to <color=#92fc63>$1</color>. Continue switching?",
-		key = "ship_formationMediator_quest_replace"
+		tip = "The selected ship is already deployed to <color=#92fc63>$1</color>. Continue switching?"
 	},
 	ship_formationMediaror_trash_warning = {
-		tip = "$1 must have at least <color=#92fc63>1 ship in the Vanguard</color> and <color=#92fc63>1 ship in the Main Fleet</color>. Confirm to clear $1 or cancel to go back.",
-		key = "ship_formationMediaror_trash_warning"
+		tip = "$1 must have at least <color=#92fc63>1 ship in the Vanguard</color> and <color=#92fc63>1 ship in the Main Fleet</color>. Confirm to clear $1 or cancel to go back."
 	},
 	ship_formationUI_fleetName1 = {
-		tip = "Fleet 1",
-		key = "ship_formationUI_fleetName1"
+		tip = "Fleet 1"
 	},
 	ship_formationUI_fleetName2 = {
-		tip = "Fleet 2",
-		key = "ship_formationUI_fleetName2"
+		tip = "Fleet 2"
 	},
 	ship_formationUI_fleetName3 = {
-		tip = "Fleet 3",
-		key = "ship_formationUI_fleetName3"
+		tip = "Fleet 3"
 	},
 	ship_formationUI_fleetName4 = {
-		tip = "Fleet 4",
-		key = "ship_formationUI_fleetName4"
+		tip = "Fleet 4"
 	},
 	ship_formationUI_fleetName5 = {
-		tip = "Fleet 5",
-		key = "ship_formationUI_fleetName5"
+		tip = "Fleet 5"
 	},
 	ship_formationUI_fleetName6 = {
-		tip = "Fleet 6",
-		key = "ship_formationUI_fleetName6"
+		tip = "Fleet 6"
 	},
 	ship_formationUI_fleetName11 = {
-		tip = "Submarine 1",
-		key = "ship_formationUI_fleetName11"
+		tip = "Submarine 1"
 	},
 	ship_formationUI_fleetName12 = {
-		tip = "Submarine 2",
-		key = "ship_formationUI_fleetName12"
+		tip = "Submarine 2"
 	},
 	ship_formationUI_exercise_fleetName = {
-		tip = "Exercise Fleet",
-		key = "ship_formationUI_exercise_fleetName"
+		tip = "Exercise Fleet"
 	},
 	ship_formationUI_fleetName_world = {
-		tip = "大世界舰队",
-		key = "ship_formationUI_fleetName_world"
+		tip = "大世界舰队"
 	},
 	ship_formationUI_changeFormationError_flag = {
-		tip = "Formation switch error. Please check your formations!",
-		key = "ship_formationUI_changeFormationError_flag"
+		tip = "Formation switch error. Please check your formations!"
 	},
 	ship_formationUI_changeFormationError_countError = {
-		tip = "Not enough ships in fleet.",
-		key = "ship_formationUI_changeFormationError_countError"
+		tip = "Not enough ships in fleet."
 	},
 	ship_formationUI_removeError_onlyShip = {
-		tip = "<color=#92fc63>$1</color> is a unique <color=#92fc63>$3</color> and may not be recalled!",
-		key = "ship_formationUI_removeError_onlyShip"
+		tip = "<color=#92fc63>$1</color> is a unique <color=#92fc63>$3</color> and may not be recalled!"
 	},
 	ship_formationUI_quest_remove = {
-		tip = "Are you sure you want to recall <color=#92fc63>$1</color>?",
-		key = "ship_formationUI_quest_remove"
+		tip = "Are you sure you want to recall <color=#92fc63>$1</color>?"
 	},
 	ship_newShipLayer_get = {
-		tip = "Receive <color=#92fc63>$1</color> - <color=#92fc63>$2</color>",
-		key = "ship_newShipLayer_get"
+		tip = "Receive <color=#92fc63>$1</color> - <color=#92fc63>$2</color>"
 	},
 	ship_newSkinLayer_get = {
-		tip = "Receive <color=#92fc63>$1</color> skin - <color=#92fc63>$2</color>",
-		key = "ship_newSkinLayer_get"
+		tip = "Receive <color=#92fc63>$1</color> skin - <color=#92fc63>$2</color>"
 	},
 	ship_newSkin_name = {
-		tip = "$1",
-		key = "ship_newSkin_name"
+		tip = "$1"
 	},
 	ship_shipInfoMediator_destory = {
-		tip = "Ship retired.",
-		key = "ship_shipInfoMediator_destory"
+		tip = "Ship retired."
 	},
 	ship_shipInfoScene_equipUnlockSlostContent = {
-		tip = "Slot is locked. Please limit break selected ship to unlock.",
-		key = "ship_shipInfoScene_equipUnlockSlostContent"
+		tip = "Slot is locked. Please limit break selected ship to unlock."
 	},
 	ship_shipInfoScene_equipUnlockSlostYesText = {
-		tip = "Enhance Ship",
-		key = "ship_shipInfoScene_equipUnlockSlostYesText"
+		tip = "Enhance Ship"
 	},
 	ship_shipInfoScene_effect = {
-		tip = "Current EXP: <color=#92fc63>$1/$2</color>\n",
-		key = "ship_shipInfoScene_effect"
+		tip = "Current EXP: <color=#92fc63>$1/$2</color>\n"
 	},
 	ship_shipInfoScene_effect1or2 = {
-		tip = "Current bonus: <color=#92fc63>$1</color>",
-		key = "ship_shipInfoScene_effect1or2"
+		tip = "Current bonus: <color=#92fc63>$1</color>"
 	},
 	ship_shipInfoScene_modLvMax = {
-		tip = "This limit break is already fully upgraded.",
-		key = "ship_shipInfoScene_modLvMax"
+		tip = "This limit break is already fully upgraded."
 	},
 	ship_shipInfoScene_choiseMod = {
-		tip = "Please select something to limit break.",
-		key = "ship_shipInfoScene_choiseMod"
+		tip = "Please select something to limit break."
 	},
 	ship_shipModLayer_effect = {
-		tip = "Current EXP: <color=#92fc63>$1/$2</color>\n",
-		key = "ship_shipModLayer_effect"
+		tip = "Current EXP: <color=#92fc63>$1/$2</color>\n"
 	},
 	ship_shipModLayer_effect1or2 = {
-		tip = "Current bonus: <color=#92fc63>$1</color>",
-		key = "ship_shipModLayer_effect1or2"
+		tip = "Current bonus: <color=#92fc63>$1</color>"
 	},
 	ship_shipModLayer_modSuccess = {
-		tip = "Enhanced!",
-		key = "ship_shipModLayer_modSuccess"
+		tip = "Enhanced!"
 	},
 	ship_mod_no_addition_tip = {
-		tip = "Enhancing <color=#92fc63>has no buffs</color>. Continue?",
-		key = "ship_mod_no_addition_tip"
+		tip = "Enhancing <color=#92fc63>has no buffs</color>. Continue?"
 	},
 	ship_shipModMediator_choiseMaterial = {
-		tip = "Please select materials to use during limit break.",
-		key = "ship_shipModMediator_choiseMaterial"
+		tip = "Please select materials to use during limit break."
 	},
 	ship_shipModMediator_noticeLvOver1 = {
-		tip = "Level > Lv. 1",
-		key = "ship_shipModMediator_noticeLvOver1"
+		tip = "Level > Lv. 1"
 	},
 	ship_shipModMediator_noticeStarOver4 = {
-		tip = "Stars > 4★",
-		key = "ship_shipModMediator_noticeStarOver4"
+		tip = "Stars > 4★"
 	},
 	ship_shipModMediator_noticeSameButLargerStar = {
-		tip = "Same with higher stars",
-		key = "ship_shipModMediator_noticeSameButLargerStar"
+		tip = "Same with higher stars"
 	},
 	ship_shipModMediator_quest = {
-		tip = "Ship selected as material is <color=#92fc63>$1</color>. Continue limit break?",
-		key = "ship_shipModMediator_quest"
+		tip = "Ship selected as material is <color=#92fc63>$1</color>. Continue limit break?"
 	},
 	ship_shipUpgradeLayer2_levelError = {
-		tip = "Level is too low.",
-		key = "ship_shipUpgradeLayer2_levelError"
+		tip = "Level is too low."
 	},
 	ship_shipUpgradeLayer2_noMaterail = {
-		tip = "Insufficient materials.",
-		key = "ship_shipUpgradeLayer2_noMaterail"
+		tip = "Insufficient materials."
 	},
 	ship_shipUpgradeLayer2_ok = {
-		tip = "Limit break complete!",
-		key = "ship_shipUpgradeLayer2_ok"
+		tip = "Limit break complete!"
 	},
 	ship_shipUpgradeLayer2_effect = {
-		tip = "Current EXP: <color=#92fc63>$1/$2</color>\n",
-		key = "ship_shipUpgradeLayer2_effect"
+		tip = "Current EXP: <color=#92fc63>$1/$2</color>\n"
 	},
 	ship_shipUpgradeLayer2_effect1or2 = {
-		tip = "Current bonus: <color=#92fc63>$1</color>",
-		key = "ship_shipUpgradeLayer2_effect1or2"
+		tip = "Current bonus: <color=#92fc63>$1</color>"
 	},
 	ship_shipUpgradeLayer2_mod_uncommon_tip = {
-		tip = "You have selected an <color=#92fc63>Elite or better</color> ship to use as an enhancing material. Continue enhancing?",
-		key = "ship_shipUpgradeLayer2_mod_uncommon_tip"
+		tip = "You have selected an <color=#92fc63>Elite or better</color> ship to use as an enhancing material. Continue enhancing?"
 	},
 	ship_shipUpgradeLayer2_uncommon_tip = {
-		tip = "You have selected an <color=#92fc63>Elite or better</color> ship to use as an enhancing material. Continue enhancing?",
-		key = "ship_shipUpgradeLayer2_uncommon_tip"
+		tip = "You have selected an <color=#92fc63>Elite or better</color> ship to use as an enhancing material. Continue enhancing?"
 	},
 	ship_shipUpgradeLayer2_mod_advanced_tip = {
-		tip = "You have selected a <color=#92fc63>lv. 2 or higher</color> ship to use as an enhancing material. Continue enhancing?",
-		key = "ship_shipUpgradeLayer2_mod_advanced_tip"
+		tip = "You have selected a <color=#92fc63>lv. 2 or higher</color> ship to use as an enhancing material. Continue enhancing?"
 	},
 	ship_shipUpgradeLayer2_advanced_tip = {
-		tip = "You have selected a <color=#92fc63>lv. 2 or higher</color> ship to use as a limit break material. Continue to limit break?",
-		key = "ship_shipUpgradeLayer2_advanced_tip"
+		tip = "You have selected a <color=#92fc63>lv. 2 or higher</color> ship to use as a limit break material. Continue to limit break?"
 	},
 	ship_mod_exp_to_attr_tip = {
-		tip = "*Use an identical ship as enhancing materials for 2x EXP",
-		key = "ship_mod_exp_to_attr_tip"
+		tip = "*Use an identical ship as enhancing materials for 2x EXP"
 	},
 	ship_max_star = {
-		tip = "This ship's <color=#92fc63>stars have been fully upgraded</color>!",
-		key = "ship_max_star"
+		tip = "This ship's <color=#92fc63>stars have been fully upgraded</color>!"
 	},
 	ship_skill_unlock_tip = {
-		tip = "Limit break to unlock",
-		key = "ship_skill_unlock_tip"
+		tip = "Limit break to unlock"
 	},
 	ship_lock_tip = {
-		tip = "Do you want to <color=#92fc63>lock</color> this ship?",
-		key = "ship_lock_tip"
+		tip = "Do you want to <color=#92fc63>lock</color> this ship?"
 	},
 	ship_destroy_uncommon_tip = {
-		tip = "You are about to retire an <color=#92fc63>Elite or better</color> ship. Continue retiring ships?",
-		key = "ship_destroy_uncommon_tip"
+		tip = "You are about to retire an <color=#92fc63>Elite or better</color> ship. Continue retiring ships?"
 	},
 	ship_destroy_advanced_tip = {
-		tip = "You are about to retire a lv. 2 or higher ship. Continue retiring ships?",
-		key = "ship_destroy_advanced_tip"
+		tip = "You are about to retire a lv. 2 or higher ship. Continue retiring ships?"
 	},
 	ship_energy_mid_desc = {
-		tip = "Normal\nWill not receive Affinity during attacks",
-		key = "ship_energy_mid_desc"
+		tip = "Normal\nWill not receive Affinity during attacks"
 	},
 	ship_energy_low_desc = {
-		tip = "Exhausted\nAffinity will be reduced if you attack",
-		key = "ship_energy_low_desc"
+		tip = "Exhausted\nAffinity will be reduced if you attack"
 	},
 	ship_energy_low_warn = {
-		tip = "$2's ($1) Mood is very low. Her Affinity will be reduced if you force her to attack.",
-		key = "ship_energy_low_warn"
+		tip = "$2's ($1) Mood is very low. Her Affinity will be reduced if you force her to attack."
 	},
 	ship_energy_low_warn_no_exp = {
-		tip = "<color=#92fc63FF>$2</color> currently has low morale! If you continue to force her to sortie, her <color=#ff5c5c>affection will decrease</color>! Are you sure you wish to continue? ",
-		key = "ship_energy_low_warn_no_exp"
+		tip = "<color=#92fc63FF>$2</color> currently has low morale! If you continue to force her to sortie, her <color=#ff5c5c>affection will decrease</color>! Are you sure you wish to continue? "
 	},
 	test_ship_intensify_tip = {
-		tip = "Engineers can't be enhanced!",
-		key = "test_ship_intensify_tip"
+		tip = "Engineers can't be enhanced!"
 	},
 	test_ship_upgrade_tip = {
-		tip = "There's no need to limit break Engineers!",
-		key = "test_ship_upgrade_tip"
+		tip = "There's no need to limit break Engineers!"
 	},
 	shop_buyItem_ok = {
-		tip = "Purchase complete! Received <color=#92fc63>$2 x$1</color>!",
-		key = "shop_buyItem_ok"
+		tip = "Purchase complete! Received <color=#92fc63>$2 x$1</color>!"
 	},
 	shop_buyItem_error = {
-		tip = "Failed to purchase: ",
-		key = "shop_buyItem_error"
+		tip = "Failed to purchase: "
 	},
 	shop_extendMagazine_error = {
-		tip = "Failed to expand arsenal: ",
-		key = "shop_extendMagazine_error"
+		tip = "Failed to expand arsenal: "
 	},
 	shop_entendShipYard_error = {
-		tip = "Failed to expand dock: ",
-		key = "shop_entendShipYard_error"
+		tip = "Failed to expand dock: "
 	},
 	stage_beginStage_error = {
-		tip = "Failed to begin stage: ",
-		key = "stage_beginStage_error"
+		tip = "Failed to begin stage: "
 	},
 	stage_beginStage_error_fleetEmpty = {
-		tip = "Fleet may not be empty!",
-		key = "stage_beginStage_error_fleetEmpty"
+		tip = "Fleet may not be empty!"
 	},
 	stage_beginStage_error_teamEmpty = {
-		tip = "<color=#92fc63>$1</color> requires at least <color=#92fc63>$2 ships</color>!",
-		key = "stage_beginStage_error_teamEmpty"
+		tip = "<color=#92fc63>$1</color> requires at least <color=#92fc63>$2 ships</color>!"
 	},
 	stage_beginStage_error_noEnergy = {
-		tip = "Your ships are <color=#92fc63>fatigued</color>!",
-		key = "stage_beginStage_error_noEnergy"
+		tip = "Your ships are <color=#92fc63>fatigued</color>!"
 	},
 	stage_beginStage_error_noResource = {
-		tip = "Your ships are <color=#92fc63>out of Oil</color>!",
-		key = "stage_beginStage_error_noResource"
+		tip = "Your ships are <color=#92fc63>out of Oil</color>!"
 	},
 	stage_beginStage_error_noTicket = {
-		tip = "You need more Challenge Tickets to play this stage. ",
-		key = "stage_beginStage_error_noTicket"
+		tip = "You need more Challenge Tickets to play this stage. "
 	},
 	stage_finishStage_error = {
-		tip = "Stage may not be completed: ",
-		key = "stage_finishStage_error"
+		tip = "Stage may not be completed: "
 	},
 	levelScene_map_lock = {
-		tip = "<color=#92fc63>Complete this chapter</color> in order to unlock the next.",
-		key = "levelScene_map_lock"
+		tip = "<color=#92fc63>Complete this chapter</color> in order to unlock the next."
 	},
 	levelScene_chapter_lock = {
-		tip = "Please complete <color=#92fc63>the previous stage</color>.",
-		key = "levelScene_chapter_lock"
+		tip = "Please complete <color=#92fc63>the previous stage</color>."
 	},
 	levelScene_chapter_strategying = {
-		tip = "Stage <color=#92fc63>$1</color> in progress...",
-		key = "levelScene_chapter_strategying"
+		tip = "Stage <color=#92fc63>$1</color> in progress..."
 	},
 	levelScene_threat_to_rule_out = {
-		tip = "Eliminate Threat $1",
-		key = "levelScene_threat_to_rule_out"
+		tip = "Eliminate Threat $1"
 	},
 	levelScene_whether_to_retreat = {
-		tip = "Commander, are you really sure you want to <color=#92fc63>retreat</color>?",
-		key = "levelScene_whether_to_retreat"
+		tip = "Commander, are you really sure you want to <color=#92fc63>retreat</color>?"
 	},
 	levelScene_who_to_retreat = {
-		tip = "Commander, are you sure you want to retreat from <color=#92fc63>$1</color>?",
-		key = "levelScene_who_to_retreat"
+		tip = "Commander, are you sure you want to retreat from <color=#92fc63>$1</color>?"
 	},
 	levelScene_who_to_exchange = {
-		tip = "Are you sure you want to swap fleet positions? ",
-		key = "levelScene_who_to_exchange"
+		tip = "Are you sure you want to swap fleet positions? "
 	},
 	levelScene_time_out = {
-		tip = "Battle time exceeded.",
-		key = "levelScene_time_out"
+		tip = "Battle time exceeded."
 	},
 	levelScene_nothing = {
-		tip = "There's nothing here.",
-		key = "levelScene_nothing"
+		tip = "There's nothing here."
 	},
 	levelScene_notCargo = {
-		tip = "No treasure chest found.",
-		key = "levelScene_notCargo"
+		tip = "No treasure chest found."
 	},
 	levelScene_openCargo_erro = {
-		tip = "Failed to open treasure chest.",
-		key = "levelScene_openCargo_erro"
+		tip = "Failed to open treasure chest."
 	},
 	levelScene_chapter_notInStrategy = {
-		tip = "Not in progress...",
-		key = "levelScene_chapter_notInStrategy"
+		tip = "Not in progress..."
 	},
 	levelScene_retreat_erro = {
-		tip = "Failed to retreat.",
-		key = "levelScene_retreat_erro"
+		tip = "Failed to retreat."
 	},
 	levelScene_strategying = {
-		tip = "In progress...",
-		key = "levelScene_strategying"
+		tip = "In progress..."
 	},
 	levelScene_tracking_erro = {
-		tip = "Defeat",
-		key = "levelScene_tracking_erro"
+		tip = "Defeat"
 	},
 	levelScene_tracking_error_3001 = {
-		tip = "A ship is currently under commission. Unable to attack.",
-		key = "levelScene_tracking_error_3001"
+		tip = "A ship is currently under commission. Unable to attack."
 	},
 	levelScene_chapter_unlock_tip = {
-		tip = "Reach Commander lv. <color=#92fc63>$1</color> to unlock this chapter.",
-		key = "levelScene_chapter_unlock_tip"
+		tip = "Reach Commander lv. <color=#92fc63>$1</color> to unlock this chapter."
 	},
 	levelScene_chapter_win = {
-		tip = "Boss defeated! Stage complete.",
-		key = "levelScene_chapter_win"
+		tip = "Boss defeated! Stage complete."
 	},
 	levelScene_sham_win = {
-		tip = "Mirror Sea battle complete.",
-		key = "levelScene_sham_win"
+		tip = "Mirror Sea battle complete."
 	},
 	levelScene_escort_win = {
-		tip = "The transport ship has arrived at its goal. Escort mission complete!",
-		key = "levelScene_escort_win"
+		tip = "The transport ship has arrived at its goal. Escort mission complete!"
 	},
 	levelScene_escort_lose = {
-		tip = "The transport ship has taken critical damage. Escort mission failed.",
-		key = "levelScene_escort_lose"
+		tip = "The transport ship has taken critical damage. Escort mission failed."
 	},
 	levelScene_escort_help_tip = {
-		key = "levelScene_escort_help_tip",
 		tip = {
 			{
 				info = "About Maritime Escort:"
@@ -3416,27 +2583,21 @@ Current expansions: <color=#92fc63>$3</color>
 		}
 	},
 	levelScene_escort_retreat = {
-		tip = "Would you like to retreat and end this Maritime Escort run?\nYour daily run will NOT be refunded.\nYou will still receive some rewards. ",
-		key = "levelScene_escort_retreat"
+		tip = "Would you like to retreat and end this Maritime Escort run?\nYour daily run will NOT be refunded.\nYou will still receive some rewards. "
 	},
 	levelScene_oni_retreat = {
-		tip = "Commander, you will not be rewarded from Grand Capture if you retreat. \n (Still considered a victory for this stage) ",
-		key = "levelScene_oni_retreat"
+		tip = "Commander, you will not be rewarded from Grand Capture if you retreat. \n (Still considered a victory for this stage) "
 	},
 	levelScene_oni_win = {
-		tip = "Special Target captured, success!",
-		key = "levelScene_oni_win"
+		tip = "Special Target captured, success!"
 	},
 	levelScene_oni_lose = {
-		tip = "Special Target has fled, capture failed!",
-		key = "levelScene_oni_lose"
+		tip = "Special Target has fled, capture failed!"
 	},
 	levelScene_bomb_retreat = {
-		tip = "Capturing ",
-		key = "levelScene_bomb_retreat"
+		tip = "Capturing "
 	},
 	levelScene_sphunt_help_tip = {
-		key = "levelScene_sphunt_help_tip",
 		tip = {
 			{
 				icon = {
@@ -3486,7 +2647,6 @@ Current expansions: <color=#92fc63>$3</color>
 		}
 	},
 	levelScene_bomb_help_tip = {
-		key = "levelScene_bomb_help_tip",
 		tip = {
 			{
 				icon = {
@@ -3518,67 +2678,51 @@ Current expansions: <color=#92fc63>$3</color>
 		}
 	},
 	levelScene_chapter_timeout = {
-		tip = "Attack time exceeded. Fleet has returned to harbor.",
-		key = "levelScene_chapter_timeout"
+		tip = "Attack time exceeded. Fleet has returned to harbor."
 	},
 	levelScene_chapter_level_limit = {
-		tip = "Reach Commander lv. <color=#92fc63>$1</color> to unlock this stage.",
-		key = "levelScene_chapter_level_limit"
+		tip = "Reach Commander lv. <color=#92fc63>$1</color> to unlock this stage."
 	},
 	levelScene_chapter_count_tip = {
-		tip = "Today's Attempts: ",
-		key = "levelScene_chapter_count_tip"
+		tip = "Today's Attempts: "
 	},
 	levelScene_tracking_error_retry = {
-		tip = "Failed to activate stage. Please try again.",
-		key = "levelScene_tracking_error_retry"
+		tip = "Failed to activate stage. Please try again."
 	},
 	levelScene_destroy_torpedo = {
-		tip = "Successfully defused naval mine. ",
-		key = "levelScene_destroy_torpedo"
+		tip = "Successfully defused naval mine. "
 	},
 	levelScene_sub_refresh_count_not_enough = {
-		tip = "You are not receiving any Distress Signals.",
-		key = "levelScene_sub_refresh_count_not_enough"
+		tip = "You are not receiving any Distress Signals."
 	},
 	levelScene_jump_to_sub_confirm = {
-		tip = "Signal source located. Would you like to head to \"$1\" in Chapter $2?",
-		key = "levelScene_jump_to_sub_confirm"
+		tip = "Signal source located. Would you like to head to \"$1\" in Chapter $2?"
 	},
 	levelScene_signal_help_tip = {
-		tip = "About Distress Signals",
-		key = "levelScene_signal_help_tip"
+		tip = "About Distress Signals"
 	},
 	levelScene_search_area = {
-		tip = "[Signal Range: up to Chapter $1]",
-		key = "levelScene_search_area"
+		tip = "[Signal Range: up to Chapter $1]"
 	},
 	levelScene_new_chapter_coming = {
-		tip = "New Chapter(s): ",
-		key = "levelScene_new_chapter_coming"
+		tip = "New Chapter(s): "
 	},
 	levelScene_chapter_open_count_down = {
-		tip = "Open time:",
-		key = "levelScene_chapter_open_count_down"
+		tip = "Open time:"
 	},
 	levelScene_chapter_not_open = {
-		tip = "Not open yet",
-		key = "levelScene_chapter_not_open"
+		tip = "Not open yet"
 	},
 	levelScene_activate_remaster = {
-		tip = "Would you like to use a <color=#ffde38>Data Key</color> and gain access to this event for 15 minutes? Once your time is up, you will need to use another Data Key.",
-		key = "levelScene_activate_remaster"
+		tip = "Would you like to use a <color=#ffde38>Data Key</color> and gain access to this event for 15 minutes? Once your time is up, you will need to use another Data Key."
 	},
 	levelScene_remaster_tickets_not_enough = {
-		tip = "You do not have enough Data Keys.",
-		key = "levelScene_remaster_tickets_not_enough"
+		tip = "You do not have enough Data Keys."
 	},
 	levelScene_remaster_do_not_open = {
-		tip = "This is not yet available.",
-		key = "levelScene_remaster_do_not_open"
+		tip = "This is not yet available."
 	},
 	levelScene_remaster_help_tip = {
-		key = "levelScene_remaster_help_tip",
 		tip = {
 			{
 				info = "About <color=#92fc63>Data Keys:</color>\nYou can use <color=#92fc63>Data Keys</color> to gain temporary access to the stages of certain past events from the <color=#92fc63>War Archives</color> screen.\nAny progress you may have made on an event stage prior to its implementation to the <color=#92fc63>War Archives</color> feature does not carry over."
@@ -3601,47 +2745,36 @@ Current expansions: <color=#92fc63>$3</color>
 		}
 	},
 	levelScene_activate_loop_mode_failed = {
-		tip = "Bring the Threat Level down to Safe and clear with 3 Stars to unlock Clearing Mode.",
-		key = "levelScene_activate_loop_mode_failed"
+		tip = "Bring the Threat Level down to Safe and clear with 3 Stars to unlock Clearing Mode."
 	},
 	levelScene_coastalgun_help_tip = {
-		tip = "You already have the maximum amount of <color=#ffde38>Data Keys</color>. You will receive <color=#ff5c5c>$1</color> Data Key(s) if you proceed. Would you still like to collect these rewards?",
-		key = "levelScene_coastalgun_help_tip"
+		tip = "You already have the maximum amount of <color=#ffde38>Data Keys</color>. You will receive <color=#ff5c5c>$1</color> Data Key(s) if you proceed. Would you still like to collect these rewards?"
 	},
 	tack_tickets_max_warning = {
-		tip = "You already have the maximum amount of <color=#ffde38>Data Keys</color>. You will receive <color=#ff5c5c>$1</color> Data Key(s) if you proceed. Would you still like to collect these rewards? ",
-		key = "tack_tickets_max_warning"
+		tip = "You already have the maximum amount of <color=#ffde38>Data Keys</color>. You will receive <color=#ff5c5c>$1</color> Data Key(s) if you proceed. Would you still like to collect these rewards? "
 	},
 	error_refresh_sub_chapter = {
-		tip = "You cannot initiate any more Rescue Missions. ",
-		key = "error_refresh_sub_chapter"
+		tip = "You cannot initiate any more Rescue Missions. "
 	},
 	world_ship_repair_1 = {
-		tip = "维护保养$1需要：\n<icon name=diamond w=0.7 h=0.7/>*$2",
-		key = "world_ship_repair_1"
+		tip = "维护保养$1需要：\n<icon name=diamond w=0.7 h=0.7/>*$2"
 	},
 	world_ship_repair_2 = {
-		tip = "紧急维修$1需要：\n<icon name=diamond w=0.7 h=0.7/>*$2",
-		key = "world_ship_repair_2"
+		tip = "紧急维修$1需要：\n<icon name=diamond w=0.7 h=0.7/>*$2"
 	},
 	world_ship_repair_all = {
-		tip = "检修所有船需要：\n<icon name=diamond w=0.7 h=0.7/>*$1",
-		key = "world_ship_repair_all"
+		tip = "检修所有船需要：\n<icon name=diamond w=0.7 h=0.7/>*$1"
 	},
 	world_ship_repair_no_need = {
-		tip = "无需修理",
-		key = "world_ship_repair_no_need"
+		tip = "无需修理"
 	},
 	world_event_teleport_alter = {
-		tip = "即将传送到其他地图，交战中舰队将会撤退",
-		key = "world_event_teleport_alter"
+		tip = "即将传送到其他地图，交战中舰队将会撤退"
 	},
 	world_transport_battle_alter = {
-		tip = "其他舰队处于交战中，无法传送",
-		key = "world_transport_battle_alter"
+		tip = "其他舰队处于交战中，无法传送"
 	},
 	world_help_tip = {
-		key = "world_help_tip",
 		tip = {
 			{
 				info = "\n大世界说明："
@@ -3649,908 +2782,682 @@ Current expansions: <color=#92fc63>$3</color>
 		}
 	},
 	world_stamina_exchange = {
-		tip = "行动力不足，是否花费<icon name=oil w=0.7 h=0.7/>$1兑换行动力*$2？",
-		key = "world_stamina_exchange"
+		tip = "行动力不足，是否花费<icon name=oil w=0.7 h=0.7/>$1兑换行动力*$2？"
 	},
 	world_stamina_not_enough = {
-		tip = "行动力不足",
-		key = "world_stamina_not_enough"
+		tip = "行动力不足"
 	},
 	world_map_dangerous = {
-		tip = "该海域过于危险，禁止进入",
-		key = "world_map_dangerous"
+		tip = "该海域过于危险，禁止进入"
 	},
 	world_item_allocate_panel_fleet_info_text = {
-		tip = "得到了塞壬的祝福，舰娘的状态被强化了！",
-		key = "world_item_allocate_panel_fleet_info_text"
+		tip = "得到了塞壬的祝福，舰娘的状态被强化了！"
 	},
 	task_notfound_error = {
-		tip = "Unable to find mission config. Update may be required. Error ID: ",
-		key = "task_notfound_error"
+		tip = "Unable to find mission config. Update may be required. Error ID: "
 	},
 	task_submitTask_error = {
-		tip = "Failed to submit mission: ",
-		key = "task_submitTask_error"
+		tip = "Failed to submit mission: "
 	},
 	task_submitTask_error_client = {
-		tip = "Failed to submit mission: ",
-		key = "task_submitTask_error_client"
+		tip = "Failed to submit mission: "
 	},
 	task_submitTask_error_notFinish = {
-		tip = "You have not completed this mission yet.",
-		key = "task_submitTask_error_notFinish"
+		tip = "You have not completed this mission yet."
 	},
 	task_taskMediator_getItem = {
-		tip = "Items received: <color=#92fc63>$1</color> <color=#92fc63>x$2</color>",
-		key = "task_taskMediator_getItem"
+		tip = "Items received: <color=#92fc63>$1</color> <color=#92fc63>x$2</color>"
 	},
 	task_taskMediator_getResource = {
-		tip = "Resources received: <color=#92fc63>$1</color> <color=#92fc63>x$2</color>",
-		key = "task_taskMediator_getResource"
+		tip = "Resources received: <color=#92fc63>$1</color> <color=#92fc63>x$2</color>"
 	},
 	task_taskMediator_getEquip = {
-		tip = "Gear received: <color=#92fc63>$1</color> <color=#92fc63>x$2</color>",
-		key = "task_taskMediator_getEquip"
+		tip = "Gear received: <color=#92fc63>$1</color> <color=#92fc63>x$2</color>"
 	},
 	task_target_chapter_in_progress = {
-		tip = "Another action is in progress on the target mission map. Unable to accept mission.",
-		key = "task_target_chapter_in_progress"
+		tip = "Another action is in progress on the target mission map. Unable to accept mission."
 	},
 	task_level_notenough = {
-		tip = "需要达到$1级才能进行任务",
-		key = "task_level_notenough"
+		tip = "需要达到$1级才能进行任务"
 	},
 	loading_tip_ShaderMgr = {
-		tip = "Rendering visuals...",
-		key = "loading_tip_ShaderMgr"
+		tip = "Rendering visuals..."
 	},
 	loading_tip_FontMgr = {
-		tip = "Creating fonts...",
-		key = "loading_tip_FontMgr"
+		tip = "Creating fonts..."
 	},
 	loading_tip_TipsMgr = {
-		tip = "Getting stickers...",
-		key = "loading_tip_TipsMgr"
+		tip = "Getting stickers..."
 	},
 	loading_tip_MsgboxMgr = {
-		tip = "Loading dialog....",
-		key = "loading_tip_MsgboxMgr"
+		tip = "Loading dialog...."
 	},
 	loading_tip_GuideMgr = {
-		tip = "Connecting to counselor....",
-		key = "loading_tip_GuideMgr"
+		tip = "Connecting to counselor...."
 	},
 	loading_tip_PoolMgr = {
-		tip = "Adding paint...",
-		key = "loading_tip_PoolMgr"
+		tip = "Adding paint..."
 	},
 	loading_tip_FModMgr = {
-		tip = "Making noise...",
-		key = "loading_tip_FModMgr"
+		tip = "Making noise..."
 	},
 	loading_tip_StoryMgr = {
-		tip = "Writing scripts...",
-		key = "loading_tip_StoryMgr"
+		tip = "Writing scripts..."
 	},
 	energy_desc_happy = {
-		tip = "She seems pretty happy. Think she'll be more powerful?",
-		key = "energy_desc_happy"
+		tip = "She seems pretty happy. Think she'll be more powerful?"
 	},
 	energy_desc_normal = {
-		tip = "She's in normal spirits. She'll probably fight with normal power.",
-		key = "energy_desc_normal"
+		tip = "She's in normal spirits. She'll probably fight with normal power."
 	},
 	energy_desc_tired = {
-		tip = "She's tired. It'll be hard for her to use her true power.",
-		key = "energy_desc_tired"
+		tip = "She's tired. It'll be hard for her to use her true power."
 	},
 	energy_desc_angry = {
-		tip = "She's exhausted. She needs to rest, now!",
-		key = "energy_desc_angry"
+		tip = "She's exhausted. She needs to rest, now!"
 	},
 	create_player_success = {
-		tip = "Character created.",
-		key = "create_player_success"
+		tip = "Character created."
 	},
 	login_newPlayerScene_invalideName = {
-		tip = "Character name contains illegal characters.",
-		key = "login_newPlayerScene_invalideName"
+		tip = "Character name contains illegal characters."
 	},
 	login_newPlayerScene_name_tooShort = {
-		tip = "Name is too short.",
-		key = "login_newPlayerScene_name_tooShort"
+		tip = "Name is too short."
 	},
 	login_newPlayerScene_name_existOtherChar = {
-		tip = "May not contain special characters.",
-		key = "login_newPlayerScene_name_existOtherChar"
+		tip = "May not contain special characters."
 	},
 	login_newPlayerScene_name_tooLong = {
-		tip = "Name is too long.",
-		key = "login_newPlayerScene_name_tooLong"
+		tip = "Name is too long."
 	},
 	equipment_updateGrade_tip = {
-		tip = "Find these materials and I can help you upgrade gear!",
-		key = "equipment_updateGrade_tip"
+		tip = "Find these materials and I can help you upgrade gear!"
 	},
 	equipment_upgrade_ok = {
-		tip = "Gear upgraded!",
-		key = "equipment_upgrade_ok"
+		tip = "Gear upgraded!"
 	},
 	equipment_cant_upgrade = {
-		tip = "Gear could not be upgraded.",
-		key = "equipment_cant_upgrade"
+		tip = "Gear could not be upgraded."
 	},
 	equipment_upgrade_erro = {
-		tip = "Failed to upgrade weapon!",
-		key = "equipment_upgrade_erro"
+		tip = "Failed to upgrade weapon!"
 	},
 	collection_nostar = {
-		tip = "Not enough stars.",
-		key = "collection_nostar"
+		tip = "Not enough stars."
 	},
 	collection_getResource_error = {
-		tip = "Failed to collect rewards: ",
-		key = "collection_getResource_error"
+		tip = "Failed to collect rewards: "
 	},
 	collection_hadAward = {
-		tip = "Reward has been collected.",
-		key = "collection_hadAward"
+		tip = "Reward has been collected."
 	},
 	collection_lock = {
-		tip = "Locked",
-		key = "collection_lock"
+		tip = "Locked"
 	},
 	collection_fetched = {
-		tip = "This has already been collected!",
-		key = "collection_fetched"
+		tip = "This has already been collected!"
 	},
 	buyProp_noResource_error = {
-		tip = "You don't have enough <color=#92fc63>$1</color>.",
-		key = "buyProp_noResource_error"
+		tip = "You don't have enough <color=#92fc63>$1</color>."
 	},
 	refresh_shopStreet_ok = {
-		tip = "Manual refresh complete!",
-		key = "refresh_shopStreet_ok"
+		tip = "Manual refresh complete!"
 	},
 	refresh_shopStreet_erro = {
-		tip = "Failed to manually refresh.",
-		key = "refresh_shopStreet_erro"
+		tip = "Failed to manually refresh."
 	},
 	shopStreet_upgrade_done = {
-		tip = "Shop leveled up!",
-		key = "shopStreet_upgrade_done"
+		tip = "Shop leveled up!"
 	},
 	shopStreet_refresh_max_count = {
-		tip = "You're out of daily refreshes!",
-		key = "shopStreet_refresh_max_count"
+		tip = "You're out of daily refreshes!"
 	},
 	buy_countLimit = {
-		tip = "You're out of daily purchases!",
-		key = "buy_countLimit"
+		tip = "You're out of daily purchases!"
 	},
 	buy_item_quest = {
-		tip = "Are you sure you want to buy this item?",
-		key = "buy_item_quest"
+		tip = "Are you sure you want to buy this item?"
 	},
 	refresh_shopStreet_question = {
-		tip = "Spend $1 <color=#92fc63>$2</color> to refresh the list of items in the shop?\n\n<size=30>(Bought <size=30><color=#FF0000>$3</color></size> times today)</size>",
-		key = "refresh_shopStreet_question"
+		tip = "Spend $1 <color=#92fc63>$2</color> to refresh the list of items in the shop?\n\n<size=30>(Bought <size=30><color=#FF0000>$3</color></size> times today)</size>"
 	},
 	event_start_success = {
-		tip = "Commission has begun!",
-		key = "event_start_success"
+		tip = "Commission has begun!"
 	},
 	event_start_fail = {
-		tip = "Failed to begin commission.",
-		key = "event_start_fail"
+		tip = "Failed to begin commission."
 	},
 	event_finish_success = {
-		tip = "Commission complete!",
-		key = "event_finish_success"
+		tip = "Commission complete!"
 	},
 	event_finish_fail = {
-		tip = "Failed to complete commission.",
-		key = "event_finish_fail"
+		tip = "Failed to complete commission."
 	},
 	event_giveup_success = {
-		tip = "Commission has been abandoned!",
-		key = "event_giveup_success"
+		tip = "Commission has been abandoned!"
 	},
 	event_giveup_fail = {
-		tip = "Failed to abandon commission.",
-		key = "event_giveup_fail"
+		tip = "Failed to abandon commission."
 	},
 	event_flush_success = {
-		tip = "Manual refresh complete!",
-		key = "event_flush_success"
+		tip = "Manual refresh complete!"
 	},
 	event_flush_fail = {
-		tip = "Failed to manually refresh.",
-		key = "event_flush_fail"
+		tip = "Failed to manually refresh."
 	},
 	event_flush_not_enough = {
-		tip = "You're out of refreshes.",
-		key = "event_flush_not_enough"
+		tip = "You're out of refreshes."
 	},
 	event_start = {
-		tip = "Start",
-		key = "event_start"
+		tip = "Start"
 	},
 	event_finish = {
-		tip = "Complete",
-		key = "event_finish"
+		tip = "Complete"
 	},
 	event_giveup = {
-		tip = "Cancel",
-		key = "event_giveup"
+		tip = "Cancel"
 	},
 	event_minimus_ship_numbers = {
-		tip = "You need at least <color=#92fc63>$1 ships</color> in your fleet to proceed with this mission.",
-		key = "event_minimus_ship_numbers"
+		tip = "You need at least <color=#92fc63>$1 ships</color> in your fleet to proceed with this mission."
 	},
 	event_confirm_giveup = {
-		tip = "Are you sure you want to abandon this mission?",
-		key = "event_confirm_giveup"
+		tip = "Are you sure you want to abandon this mission?"
 	},
 	event_confirm_flush = {
-		tip = "One of these missions is in progress. Are you sure you want to refresh the mission list?",
-		key = "event_confirm_flush"
+		tip = "One of these missions is in progress. Are you sure you want to refresh the mission list?"
 	},
 	event_fleet_busy = {
-		tip = "Please complete commissions in progress before accepting another.",
-		key = "event_fleet_busy"
+		tip = "Please complete commissions in progress before accepting another."
 	},
 	event_same_type_not_allowed = {
-		tip = "May not add a ship of the same type.",
-		key = "event_same_type_not_allowed"
+		tip = "May not add a ship of the same type."
 	},
 	event_condition_ship_level = {
-		tip = "Have at least <color=#92fc63>1</color> <color=#92fc63>lv. $1</color> ship.",
-		key = "event_condition_ship_level"
+		tip = "Have at least <color=#92fc63>1</color> <color=#92fc63>lv. $1</color> ship."
 	},
 	event_condition_ship_count = {
-		tip = "Have at least <color=#92fc63>$1</color> ships in team.",
-		key = "event_condition_ship_count"
+		tip = "Have at least <color=#92fc63>$1</color> ships in team."
 	},
 	event_condition_ship_type = {
-		tip = "<color=#92fc63>$1</color> only",
-		key = "event_condition_ship_type"
+		tip = "<color=#92fc63>$1</color> only"
 	},
 	event_level_unreached = {
-		tip = "Fleet level is too low.",
-		key = "event_level_unreached"
+		tip = "Fleet level is too low."
 	},
 	event_type_unreached = {
-		tip = "Fleet contains wrong type of ships.",
-		key = "event_type_unreached"
+		tip = "Fleet contains wrong type of ships."
 	},
 	event_oil_consume = {
-		tip = "This commission will expend <icon name=oil w=0.7 h=0.7/><color=#92fc63>$1</color> Oil.",
-		key = "event_oil_consume"
+		tip = "This commission will expend <icon name=oil w=0.7 h=0.7/><color=#92fc63>$1</color> Oil."
 	},
 	event_type_unlimit = {
-		tip = "Any type",
-		key = "event_type_unlimit"
+		tip = "Any type"
 	},
 	dailyLevel_restCount_notEnough = {
-		tip = "You're out of daily stage challenges. ",
-		key = "dailyLevel_restCount_notEnough"
+		tip = "You're out of daily stage challenges. "
 	},
 	dailyLevel_unopened = {
-		tip = "Not open",
-		key = "dailyLevel_unopened"
+		tip = "Not open"
 	},
 	dailyLevel_opened = {
-		tip = "Open",
-		key = "dailyLevel_opened"
+		tip = "Open"
 	},
 	playerinfo_ship_is_already_flagship = {
-		tip = "She's already your Secretary!",
-		key = "playerinfo_ship_is_already_flagship"
+		tip = "She's already your Secretary!"
 	},
 	playerinfo_mask_word = {
-		tip = "Contains blocked words.",
-		key = "playerinfo_mask_word"
+		tip = "Contains blocked words."
 	},
 	just_now = {
-		tip = "Just now",
-		key = "just_now"
+		tip = "Just now"
 	},
 	several_minutes_before = {
-		tip = "<color=#92fc63>$1</color>m ago",
-		key = "several_minutes_before"
+		tip = "<color=#92fc63>$1</color>m ago"
 	},
 	several_hours_before = {
-		tip = "<color=#92fc63>$1</color>hr ago",
-		key = "several_hours_before"
+		tip = "<color=#92fc63>$1</color>hr ago"
 	},
 	several_days_before = {
-		tip = "<color=#92fc63>$1d ago</color>",
-		key = "several_days_before"
+		tip = "<color=#92fc63>$1d ago</color>"
 	},
 	long_time_offline = {
-		tip = "Inactive",
-		key = "long_time_offline"
+		tip = "Inactive"
 	},
 	dont_send_message_frequently = {
-		tip = "Do not spam the chat. ",
-		key = "dont_send_message_frequently"
+		tip = "Do not spam the chat. "
 	},
 	no_activity = {
-		tip = "No available events.",
-		key = "no_activity"
+		tip = "No available events."
 	},
 	which_day = {
-		tip = "Day <color=#92fc63>$1</color>",
-		key = "which_day"
+		tip = "Day <color=#92fc63>$1</color>"
 	},
 	which_day_2 = {
-		tip = "Day $1",
-		key = "which_day_2"
+		tip = "Day $1"
 	},
 	invalidate_evaluation = {
-		tip = "Comment contains blocked content.",
-		key = "invalidate_evaluation"
+		tip = "Comment contains blocked content."
 	},
 	chapter_no = {
-		tip = "Chapter <color=#92fc63>$1</color>",
-		key = "chapter_no"
+		tip = "Chapter <color=#92fc63>$1</color>"
 	},
 	reconnect_tip = {
-		tip = "Network connection failed. Reconnect now?\n[$1]",
-		key = "reconnect_tip"
+		tip = "Network connection failed. Reconnect now?\n[$1]"
 	},
 	like_ship_success = {
-		tip = "Action complete!",
-		key = "like_ship_success"
+		tip = "Action complete!"
 	},
 	eva_ship_success = {
-		tip = "Comment submitted!",
-		key = "eva_ship_success"
+		tip = "Comment submitted!"
 	},
 	zan_ship_eva_success = {
-		tip = "Review complete!",
-		key = "zan_ship_eva_success"
+		tip = "Review complete!"
 	},
 	zan_ship_eva_error_7 = {
-		tip = "You've already reviewed this comment!",
-		key = "zan_ship_eva_error_7"
+		tip = "You've already reviewed this comment!"
 	},
 	eva_count_limit = {
-		tip = "You can't leave any more comments today.",
-		key = "eva_count_limit"
+		tip = "You can't leave any more comments today."
 	},
 	attribute_durability = {
-		tip = "HP",
-		key = "attribute_durability"
+		tip = "HP"
 	},
 	attribute_cannon = {
-		tip = "FP ",
-		key = "attribute_cannon"
+		tip = "FP "
 	},
 	attribute_torpedo = {
-		tip = "TRP ",
-		key = "attribute_torpedo"
+		tip = "TRP "
 	},
 	attribute_antiaircraft = {
-		tip = "AA ",
-		key = "attribute_antiaircraft"
+		tip = "AA "
 	},
 	attribute_air = {
-		tip = "AVI ",
-		key = "attribute_air"
+		tip = "AVI "
 	},
 	attribute_reload = {
-		tip = "RLD ",
-		key = "attribute_reload"
+		tip = "RLD "
 	},
 	attribute_cd = {
-		tip = "FR ",
-		key = "attribute_cd"
+		tip = "FR "
 	},
 	attribute_armor_type = {
-		tip = "Armor Type",
-		key = "attribute_armor_type"
+		tip = "Armor Type"
 	},
 	attribute_armor = {
-		tip = "Armor",
-		key = "attribute_armor"
+		tip = "Armor"
 	},
 	attribute_hit = {
-		tip = "Hit",
-		key = "attribute_hit"
+		tip = "Hit"
 	},
 	attribute_speed = {
-		tip = "Speed",
-		key = "attribute_speed"
+		tip = "Speed"
 	},
 	attribute_luck = {
-		tip = "LCK ",
-		key = "attribute_luck"
+		tip = "LCK "
 	},
 	attribute_dodge = {
-		tip = "EVA ",
-		key = "attribute_dodge"
+		tip = "EVA "
 	},
 	attribute_expend = {
-		tip = "OIL ",
-		key = "attribute_expend"
+		tip = "OIL "
 	},
 	attribute_damage = {
-		tip = "DMG",
-		key = "attribute_damage"
+		tip = "DMG"
 	},
 	attribute_healthy = {
-		tip = "Healing",
-		key = "attribute_healthy"
+		tip = "Healing"
 	},
 	attribute_speciality = {
-		tip = "Special",
-		key = "attribute_speciality"
+		tip = "Special"
 	},
 	attribute_range = {
-		tip = "Range",
-		key = "attribute_range"
+		tip = "Range"
 	},
 	attribute_angle = {
-		tip = "Firing Angle",
-		key = "attribute_angle"
+		tip = "Firing Angle"
 	},
 	attribute_scatter = {
-		tip = "Spread Range",
-		key = "attribute_scatter"
+		tip = "Spread Range"
 	},
 	attribute_ammo = {
-		tip = "Ammo",
-		key = "attribute_ammo"
+		tip = "Ammo"
 	},
 	attribute_antisub = {
-		tip = "ASW ",
-		key = "attribute_antisub"
+		tip = "ASW "
 	},
 	attribute_sonarRange = {
-		tip = "ASR ",
-		key = "attribute_sonarRange"
+		tip = "ASR "
 	},
 	attribute_sonarInterval = {
-		tip = "FREQ ",
-		key = "attribute_sonarInterval"
+		tip = "FREQ "
 	},
 	attribute_oxy_max = {
-		tip = "OXY ",
-		key = "attribute_oxy_max"
+		tip = "OXY "
 	},
 	attribute_dodge_limit = {
-		tip = "Evasion Limit ",
-		key = "attribute_dodge_limit"
+		tip = "Evasion Limit "
 	},
 	attribute_intimacy = {
-		tip = "Intimacy",
-		key = "attribute_intimacy"
+		tip = "Intimacy"
 	},
 	skill = {
-		tip = "Skills",
-		key = "skill"
+		tip = "Skills"
 	},
 	cd_normal = {
-		tip = "FR",
-		key = "cd_normal"
+		tip = "FR"
 	},
 	intensify = {
-		tip = "Enhance",
-		key = "intensify"
+		tip = "Enhance"
 	},
 	change = {
-		tip = "Change",
-		key = "change"
+		tip = "Change"
 	},
 	formation_switch_failed = {
-		tip = "No fleet to change with.",
-		key = "formation_switch_failed"
+		tip = "No fleet to change with."
 	},
 	formation_switch_success = {
-		tip = "Changed to $1.",
-		key = "formation_switch_success"
+		tip = "Changed to $1."
 	},
 	formation_switch_tip = {
-		tip = "Current fleet cannot be formed. Auto switching to <color=#92fc63>$1</color>.",
-		key = "formation_switch_tip"
+		tip = "Current fleet cannot be formed. Auto switching to <color=#92fc63>$1</color>."
 	},
 	formation_reform_tip = {
-		tip = "Unable to form fleet. Would you like to edit your formation?",
-		key = "formation_reform_tip"
+		tip = "Unable to form fleet. Would you like to edit your formation?"
 	},
 	formation_invalide = {
-		tip = "No available fleets. Unable to battle.",
-		key = "formation_invalide"
+		tip = "No available fleets. Unable to battle."
 	},
 	chapter_ap_not_enough = {
-		tip = "You don't have enough AP.",
-		key = "chapter_ap_not_enough"
+		tip = "You don't have enough AP."
 	},
 	formation_forbid_when_in_chapter = {
-		tip = "Fleet is currently attacking at sea. Unable to edit formation.",
-		key = "formation_forbid_when_in_chapter"
+		tip = "Fleet is currently attacking at sea. Unable to edit formation."
 	},
 	military_forbid_when_in_chapter = {
-		tip = "Fleet is currently attacking at sea. Unable to being exercise.",
-		key = "military_forbid_when_in_chapter"
+		tip = "Fleet is currently attacking at sea. Unable to being exercise."
 	},
 	confirm_app_exit = {
-		tip = "Are you sure you want to quit the game?",
-		key = "confirm_app_exit"
+		tip = "Are you sure you want to quit the game?"
 	},
 	friend_info_page_tip = {
-		tip = "Select a friend to visit ",
-		key = "friend_info_page_tip"
+		tip = "Select a friend to visit "
 	},
 	friend_search_page_tip = {
-		tip = "Display up to <color=#92fc63>$1</color>  players",
-		key = "friend_search_page_tip"
+		tip = "Display up to <color=#92fc63>$1</color>  players"
 	},
 	friend_request_page_tip = {
-		tip = "Save up to <color=#92fc63>$1</color> most recent friend requests",
-		key = "friend_request_page_tip"
+		tip = "Save up to <color=#92fc63>$1</color> most recent friend requests"
 	},
 	friend_id_copy_ok = {
-		tip = "Your UID has been copied!",
-		key = "friend_id_copy_ok"
+		tip = "Your UID has been copied!"
 	},
 	friend_inpout_key_tip = {
-		tip = "Please enter query...",
-		key = "friend_inpout_key_tip"
+		tip = "Please enter query..."
 	},
 	remove_friend_tip = {
-		tip = "Are you sure you want to delete this friend? ",
-		key = "remove_friend_tip"
+		tip = "Are you sure you want to delete this friend? "
 	},
 	friend_request_msg_placeholder = {
-		tip = "Your message...",
-		key = "friend_request_msg_placeholder"
+		tip = "Your message..."
 	},
 	friend_request_msg_title = {
-		tip = "Sending a request",
-		key = "friend_request_msg_title"
+		tip = "Sending a request"
 	},
 	friend_max_count = {
-		tip = "Friends list <color=#92fc63>is full</color>! Unable to add friend.",
-		key = "friend_max_count"
+		tip = "Friends list <color=#92fc63>is full</color>! Unable to add friend."
 	},
 	friend_add_ok = {
-		tip = "Friend added!",
-		key = "friend_add_ok"
+		tip = "Friend added!"
 	},
 	friend_max_count_1 = {
-		tip = "This person's friends list is full.",
-		key = "friend_max_count_1"
+		tip = "This person's friends list is full."
 	},
 	friend_no_request = {
-		tip = "No requests found.",
-		key = "friend_no_request"
+		tip = "No requests found."
 	},
 	reject_all_friend_ok = {
-		tip = "All friend requests rejected.",
-		key = "reject_all_friend_ok"
+		tip = "All friend requests rejected."
 	},
 	reject_friend_ok = {
-		tip = "Friend request rejected.",
-		key = "reject_friend_ok"
+		tip = "Friend request rejected."
 	},
 	friend_offline = {
-		tip = "Friend is offline.",
-		key = "friend_offline"
+		tip = "Friend is offline."
 	},
 	friend_msg_forbid = {
-		tip = "May not send requests with <color=#92fc63>blocked characters</color>.",
-		key = "friend_msg_forbid"
+		tip = "May not send requests with <color=#92fc63>blocked characters</color>."
 	},
 	dont_add_self = {
-		tip = "Commander, you can't friend yourself!",
-		key = "dont_add_self"
+		tip = "Commander, you can't friend yourself!"
 	},
 	friend_already_add = {
-		tip = "You're already friends with this player.",
-		key = "friend_already_add"
+		tip = "You're already friends with this player."
 	},
 	friend_not_add = {
-		tip = "You aren't friends with this player.",
-		key = "friend_not_add"
+		tip = "You aren't friends with this player."
 	},
 	friend_send_msg_erro_tip = {
-		tip = "Player is offline. Unable to send message.",
-		key = "friend_send_msg_erro_tip"
+		tip = "Player is offline. Unable to send message."
 	},
 	friend_send_msg_null_tip = {
-		tip = "Unable to send message.",
-		key = "friend_send_msg_null_tip"
+		tip = "Unable to send message."
 	},
 	friend_search_succeed = {
-		tip = "Search complete!",
-		key = "friend_search_succeed"
+		tip = "Search complete!"
 	},
 	friend_request_msg_sent = {
-		tip = "Request sent!",
-		key = "friend_request_msg_sent"
+		tip = "Request sent!"
 	},
 	friend_resume_ship_count = {
-		tip = "Ships Owned:",
-		key = "friend_resume_ship_count"
+		tip = "Ships Owned:"
 	},
 	friend_resume_title_metal = {
-		tip = "Highest rank: ",
-		key = "friend_resume_title_metal"
+		tip = "Highest rank: "
 	},
 	friend_resume_collection_rate = {
-		tip = "Collection:",
-		key = "friend_resume_collection_rate"
+		tip = "Collection:"
 	},
 	friend_resume_attack_count = {
-		tip = "Attacks: ",
-		key = "friend_resume_attack_count"
+		tip = "Attacks: "
 	},
 	friend_resume_attack_win_rate = {
-		tip = "ATK-WR:",
-		key = "friend_resume_attack_win_rate"
+		tip = "ATK-WR:"
 	},
 	friend_resume_manoeuvre_count = {
-		tip = "Exercises: ",
-		key = "friend_resume_manoeuvre_count"
+		tip = "Exercises: "
 	},
 	friend_resume_manoeuvre_win_rate = {
-		tip = "EXER-WR:",
-		key = "friend_resume_manoeuvre_win_rate"
+		tip = "EXER-WR:"
 	},
 	friend_resume_fleet_gs = {
-		tip = "Fleet Power:",
-		key = "friend_resume_fleet_gs"
+		tip = "Fleet Power:"
 	},
 	friend_event_count = {
-		tip = "Commissions: ",
-		key = "friend_event_count"
+		tip = "Commissions: "
 	},
 	firend_relieve_blacklist_ok = {
-		tip = "Removed!",
-		key = "firend_relieve_blacklist_ok"
+		tip = "Removed!"
 	},
 	firend_relieve_blacklist_tip = {
-		tip = "Are you sure you want to remove $1 from your blacklist?",
-		key = "firend_relieve_blacklist_tip"
+		tip = "Are you sure you want to remove $1 from your blacklist?"
 	},
 	word_shipNation_all = {
-		tip = "All factions",
-		key = "word_shipNation_all"
+		tip = "All factions"
 	},
 	word_shipNation_baiYing = {
-		tip = "Eagle Union",
-		key = "word_shipNation_baiYing"
+		tip = "Eagle Union"
 	},
 	word_shipNation_huangJia = {
-		tip = "Royal Navy",
-		key = "word_shipNation_huangJia"
+		tip = "Royal Navy"
 	},
 	word_shipNation_chongYing = {
-		tip = "Sakura Empire",
-		key = "word_shipNation_chongYing"
+		tip = "Sakura Empire"
 	},
 	word_shipNation_tieXue = {
-		tip = "Iron Blood",
-		key = "word_shipNation_tieXue"
+		tip = "Iron Blood"
 	},
 	word_shipNation_dongHuang = {
-		tip = "Dragon Empery",
-		key = "word_shipNation_dongHuang"
+		tip = "Dragon Empery"
 	},
 	word_shipNation_saDing = {
-		tip = "Sardegna Empire ",
-		key = "word_shipNation_saDing"
+		tip = "Sardegna Empire "
 	},
 	word_shipNation_beiLian = {
-		tip = "Northern Parliament",
-		key = "word_shipNation_beiLian"
+		tip = "Northern Parliament"
 	},
 	word_shipNation_other = {
-		tip = "Other",
-		key = "word_shipNation_other"
+		tip = "Other"
 	},
 	word_shipNation_np = {
-		tip = "Neptune",
-		key = "word_shipNation_np"
+		tip = "Neptune"
 	},
 	word_shipNation_ziyou = {
-		tip = "Iris Libre",
-		key = "word_shipNation_ziyou"
+		tip = "Iris Libre"
 	},
 	word_shipNation_weixi = {
-		tip = "Vichya Dominion",
-		key = "word_shipNation_weixi"
+		tip = "Vichya Dominion"
 	},
 	word_shipNation_ai = {
-		tip = "KizunaAI",
-		key = "word_shipNation_ai"
+		tip = "KizunaAI"
 	},
 	word_shipNation_holo = {
-		tip = "hololive",
-		key = "word_shipNation_holo"
+		tip = "hololive"
 	},
 	word_reset = {
-		tip = "Reset",
-		key = "word_reset"
+		tip = "Reset"
 	},
 	word_asc = {
-		tip = "Ascending",
-		key = "word_asc"
+		tip = "Ascending"
 	},
 	word_desc = {
-		tip = "Descending",
-		key = "word_desc"
+		tip = "Descending"
 	},
 	word_own = {
-		tip = "Owned ",
-		key = "word_own"
+		tip = "Owned "
 	},
 	word_own1 = {
-		tip = "Owned:",
-		key = "word_own1"
+		tip = "Owned:"
 	},
 	oil_buy_limit_tip = {
-		tip = "<size=22>(Daily purchases left: <color=#FF0000>$1</color>/$2)</size>",
-		key = "oil_buy_limit_tip"
+		tip = "<size=22>(Daily purchases left: <color=#FF0000>$1</color>/$2)</size>"
 	},
 	friend_resume_title = {
-		tip = "Resume",
-		key = "friend_resume_title"
+		tip = "Resume"
 	},
 	friend_resume_data_title = {
-		tip = "Data",
-		key = "friend_resume_data_title"
+		tip = "Data"
 	},
 	batch_destroy = {
-		tip = "Multi Recycle",
-		key = "batch_destroy"
+		tip = "Multi Recycle"
 	},
 	equipment_select_device_destroy_tip = {
-		tip = "Select gear to recycle: ",
-		key = "equipment_select_device_destroy_tip"
+		tip = "Select gear to recycle: "
 	},
 	equipment_select_device_destroy_bonus_tip = {
-		tip = "Items received:",
-		key = "equipment_select_device_destroy_bonus_tip"
+		tip = "Items received:"
 	},
 	equipment_select_device_destroy_nobonus_tip = {
-		tip = "No materials",
-		key = "equipment_select_device_destroy_nobonus_tip"
+		tip = "No materials"
 	},
 	ship_equip_profiiency = {
-		tip = "Efficiency: $1%",
-		key = "ship_equip_profiiency"
+		tip = "Efficiency: $1%"
 	},
 	no_open_system_tip = {
-		tip = "Reach Commander <color=#92fc63>lv. $2</color> to unlock <color=#92fc63>$1</color>.",
-		key = "no_open_system_tip"
+		tip = "Reach Commander <color=#92fc63>lv. $2</color> to unlock <color=#92fc63>$1</color>."
 	},
 	open_system_tip = {
-		tip = "$1 is now unlocked!",
-		key = "open_system_tip"
+		tip = "$1 is now unlocked!"
 	},
 	charge_start_tip = {
-		tip = "Buy to receive $2 Gems",
-		key = "charge_start_tip"
+		tip = "Buy to receive $2 Gems"
 	},
 	charge_double_gem_tip = {
-		tip = "Extra bonus gems $1",
-		key = "charge_double_gem_tip"
+		tip = "Extra bonus gems $1"
 	},
 	charge_month_card_lefttime_tip = {
-		tip = "Trade License: \n$1 days left",
-		key = "charge_month_card_lefttime_tip"
+		tip = "Trade License: \n$1 days left"
 	},
 	charge_title = {
-		tip = "Spend $1 to buy $3 x$2",
-		key = "charge_title"
+		tip = "Spend $1 to buy $3 x$2"
 	},
 	charge_extra_gem_tip = {
-		tip = "Extra bonus gems $1",
-		key = "charge_extra_gem_tip"
+		tip = "Extra bonus gems $1"
 	},
 	charge_month_card_title = {
-		tip = "Extra bonus gems $1 now and items every day for a month",
-		key = "charge_month_card_title"
+		tip = "Extra bonus gems $1 now and items every day for a month"
 	},
 	charge_items_title = {
-		tip = "Items received",
-		key = "charge_items_title"
+		tip = "Items received"
 	},
 	setting_interface_save_success = {
-		tip = "Control Settings Saved",
-		key = "setting_interface_save_success"
+		tip = "Control Settings Saved"
 	},
 	setting_interface_revert_check = {
-		tip = "Are you sure you want to reset your battle formation?",
-		key = "setting_interface_revert_check"
+		tip = "Are you sure you want to reset your battle formation?"
 	},
 	setting_interface_cancel_check = {
-		tip = "Discard your changes?",
-		key = "setting_interface_cancel_check"
+		tip = "Discard your changes?"
 	},
 	event_special_update = {
-		tip = "Urgent Commission: $1!",
-		key = "event_special_update"
+		tip = "Urgent Commission: $1!"
 	},
 	no_notice_tip = {
-		tip = "There aren't any current announcements!",
-		key = "no_notice_tip"
+		tip = "There aren't any current announcements!"
 	},
 	energy_desc_1 = {
-		tip = "Your girl needs rest!\n<color=#FF552E>(Continuing to attack will lower Mood)</color>",
-		key = "energy_desc_1"
+		tip = "Your girl needs rest!\n<color=#FF552E>(Continuing to attack will lower Mood)</color>"
 	},
 	energy_desc_2 = {
-		tip = "Feeling pretty unhappy...\nHow about resting for a while?",
-		key = "energy_desc_2"
+		tip = "Feeling pretty unhappy...\nHow about resting for a while?"
 	},
 	energy_desc_3 = {
-		tip = "I hope we're all this happy every day!",
-		key = "energy_desc_3"
+		tip = "I hope we're all this happy every day!"
 	},
 	energy_desc_4 = {
-		tip = "Something good is going to happen~!\n<color=#92fc63>(EXP bonus)</color>",
-		key = "energy_desc_4"
+		tip = "Something good is going to happen~!\n<color=#92fc63>(EXP bonus)</color>"
 	},
 	intimacy_desc_1 = {
-		tip = "$1 is upset with you.",
-		key = "intimacy_desc_1"
+		tip = "$1 is upset with you."
 	},
 	intimacy_desc_2 = {
-		tip = "$1 wants to know you better.",
-		key = "intimacy_desc_2"
+		tip = "$1 wants to know you better."
 	},
 	intimacy_desc_3 = {
-		tip = "$1 thinks you're a trustworthy Commander.",
-		key = "intimacy_desc_3"
+		tip = "$1 thinks you're a trustworthy Commander."
 	},
 	intimacy_desc_4 = {
-		tip = "$1 is so happy and only wants to be with you!",
-		key = "intimacy_desc_4"
+		tip = "$1 is so happy and only wants to be with you!"
 	},
 	intimacy_desc_5 = {
-		tip = "$1 looks at you with eyes full of love.",
-		key = "intimacy_desc_5"
+		tip = "$1 looks at you with eyes full of love."
 	},
 	intimacy_desc_6 = {
-		tip = "$1 is willing to trust her life with you.",
-		key = "intimacy_desc_6"
+		tip = "$1 is willing to trust her life with you."
 	},
 	intimacy_desc_7 = {
-		tip = "$1 is willing to trust her life with you.",
-		key = "intimacy_desc_7"
+		tip = "$1 is willing to trust her life with you."
 	},
 	intimacy_desc_1_buff = {
-		tip = "Current buff: None",
-		key = "intimacy_desc_1_buff"
+		tip = "Current buff: None"
 	},
 	intimacy_desc_2_buff = {
-		tip = "Current buff: None",
-		key = "intimacy_desc_2_buff"
+		tip = "Current buff: None"
 	},
 	intimacy_desc_3_buff = {
-		tip = "Current buff: All base stats (except speed and gear) +1%",
-		key = "intimacy_desc_3_buff"
+		tip = "Current buff: All base stats (except speed and gear) +1%"
 	},
 	intimacy_desc_4_buff = {
-		tip = "Current buff: All base stats (except speed and gear) +3%",
-		key = "intimacy_desc_4_buff"
+		tip = "Current buff: All base stats (except speed and gear) +3%"
 	},
 	intimacy_desc_5_buff = {
-		tip = "Current buff: All base stats (except speed and gear) +6%",
-		key = "intimacy_desc_5_buff"
+		tip = "Current buff: All base stats (except speed and gear) +6%"
 	},
 	intimacy_desc_6_buff = {
-		tip = "Current buff: All base stats (except speed and gear) +9%",
-		key = "intimacy_desc_6_buff"
+		tip = "Current buff: All base stats (except speed and gear) +9%"
 	},
 	intimacy_desc_7_buff = {
-		tip = "Current buff: All base stats (except speed and gear) +12%",
-		key = "intimacy_desc_7_buff"
+		tip = "Current buff: All base stats (except speed and gear) +12%"
 	},
 	intimacy_desc_propose = {
 		tip = [[
@@ -4558,28 +3465,22 @@ Love will guide the way, our hearts bound by an eternal promise!
 We share our smile, our words unspoken.
 Our love will be one of respect, trust, and confidence forever.
 From this day forth, our fates are bound together.
-Promise date: $1]],
-		key = "intimacy_desc_propose"
+Promise date: $1]]
 	},
 	intimacy_desc_1_detail = {
-		tip = "$1 is upset with you.\n<color=#fad545><size=18>(No buff)</size></color>",
-		key = "intimacy_desc_1_detail"
+		tip = "$1 is upset with you.\n<color=#fad545><size=18>(No buff)</size></color>"
 	},
 	intimacy_desc_2_detail = {
-		tip = "$1 wants to know you better.\n<color=#fad545><size=18>(No buff)</size></color>",
-		key = "intimacy_desc_2_detail"
+		tip = "$1 wants to know you better.\n<color=#fad545><size=18>(No buff)</size></color>"
 	},
 	intimacy_desc_3_detail = {
-		tip = "$1 thinks you're a trustworthy Commander.\n<color=#92fc63><size=18>All stats (except Speed) +1%</size></color>",
-		key = "intimacy_desc_3_detail"
+		tip = "$1 thinks you're a trustworthy Commander.\n<color=#92fc63><size=18>All stats (except Speed) +1%</size></color>"
 	},
 	intimacy_desc_4_detail = {
-		tip = "$1 is so happy and only wants to be with you!\n<color=#92fc63><size=18>All stats (except Speed) +3%</size></color>",
-		key = "intimacy_desc_4_detail"
+		tip = "$1 is so happy and only wants to be with you!\n<color=#92fc63><size=18>All stats (except Speed) +3%</size></color>"
 	},
 	intimacy_desc_5_detail = {
-		tip = "$1 looks at you with eyes full of love.\n<color=#92fc63><size=18>All stats (except Speed) +6%</size></color>",
-		key = "intimacy_desc_5_detail"
+		tip = "$1 looks at you with eyes full of love.\n<color=#92fc63><size=18>All stats (except Speed) +6%</size></color>"
 	},
 	intimacy_desc_6_detail = {
 		tip = [[
@@ -4587,8 +3488,7 @@ Love will guide the way, our hearts bound by an eternal promise!
 We share our smile, our words unspoken.
 Our love will be one of respect, trust, and confidence forever.
 From this day forth, our fates are bound together.
-Promise date: $1]],
-		key = "intimacy_desc_6_detail"
+Promise date: $1]]
 	},
 	intimacy_desc_7_detail = {
 		tip = [[
@@ -4596,59 +3496,45 @@ Love will guide the way, our hearts bound by an eternal promise!
 We share our smile, our words unspoken.
 Our love will be one of respect, trust, and confidence forever.
 From this day forth, our fates are bound together.
-Promise date: $1]],
-		key = "intimacy_desc_7_detail"
+Promise date: $1]]
 	},
 	charge_title_getitem = {
-		tip = "May receive the following items: ",
-		key = "charge_title_getitem"
+		tip = "May receive the following items: "
 	},
 	charge_title_getitem_soon = {
-		tip = "Receive after purchase: ",
-		key = "charge_title_getitem_soon"
+		tip = "Receive after purchase: "
 	},
 	charge_title_getitem_month = {
-		tip = "Receive every day for 30 days:",
-		key = "charge_title_getitem_month"
+		tip = "Receive every day for 30 days:"
 	},
 	charge_limit_all = {
-		tip = "Purchases: $1/$2",
-		key = "charge_limit_all"
+		tip = "Purchases: $1/$2"
 	},
 	charge_limit_daily = {
-		tip = "Available today: $1",
-		key = "charge_limit_daily"
+		tip = "Available today: $1"
 	},
 	charge_limit_weekly = {
-		tip = "Available this week: $1",
-		key = "charge_limit_weekly"
+		tip = "Available this week: $1"
 	},
 	charge_erro = {
-		tip = "Failed to add Gems.",
-		key = "charge_erro"
+		tip = "Failed to add Gems."
 	},
 	charge_success = {
-		tip = "Gems added!",
-		key = "charge_success"
+		tip = "Gems added!"
 	},
 	charge_level_limit = {
-		tip = "Level is too low.",
-		key = "charge_level_limit"
+		tip = "Level is too low."
 	},
 	ship_drop_desc_default = {
-		tip = "Received a ship",
-		key = "ship_drop_desc_default"
+		tip = "Received a ship"
 	},
 	charge_limit_lv = {
-		tip = "Unlocks lv. $1",
-		key = "charge_limit_lv"
+		tip = "Unlocks lv. $1"
 	},
 	charge_time_out = {
-		tip = "Payment in progress. Please be patient while we send your items.",
-		key = "charge_time_out"
+		tip = "Payment in progress. Please be patient while we send your items."
 	},
 	help_shipinfo_equip = {
-		key = "help_shipinfo_equip",
 		tip = {
 			{
 				icon = {
@@ -4716,7 +3602,6 @@ Promise date: $1]],
 		}
 	},
 	help_shipinfo_detail = {
-		key = "help_shipinfo_detail",
 		tip = {
 			{
 				icon = {
@@ -4784,7 +3669,6 @@ Promise date: $1]],
 		}
 	},
 	help_shipinfo_intensify = {
-		key = "help_shipinfo_intensify",
 		tip = {
 			{
 				icon = {
@@ -4852,7 +3736,6 @@ Promise date: $1]],
 		}
 	},
 	help_shipinfo_upgrate = {
-		key = "help_shipinfo_upgrate",
 		tip = {
 			{
 				icon = {
@@ -4920,7 +3803,6 @@ Promise date: $1]],
 		}
 	},
 	help_shipinfo_maxlevel = {
-		key = "help_shipinfo_maxlevel",
 		tip = {
 			{
 				icon = {
@@ -4988,7 +3870,6 @@ Promise date: $1]],
 		}
 	},
 	help_shipinfo_actnpc = {
-		key = "help_shipinfo_actnpc",
 		tip = {
 			{
 				info = [[
@@ -5022,7 +3903,6 @@ Temporary Recruit Restrictions:
 		}
 	},
 	help_backyard = {
-		key = "help_backyard",
 		tip = {
 			{
 				icon = {
@@ -5088,7 +3968,6 @@ Temporary Recruit Restrictions:
 		}
 	},
 	help_shipinfo_fashion = {
-		key = "help_shipinfo_fashion",
 		tip = {
 			{
 				info = [[
@@ -5109,7 +3988,6 @@ May be improved up to 3 times]]
 		}
 	},
 	help_shipinfo_attr = {
-		key = "help_shipinfo_attr",
 		tip = {
 			{
 				info = "1.Stats Details:"
@@ -5260,7 +4138,6 @@ May be improved up to 3 times]]
 		}
 	},
 	help_equipment = {
-		key = "help_equipment",
 		tip = {
 			{
 				info = [[
@@ -5291,7 +4168,6 @@ used as the main gun of Battleships and Battlecruisers
 		}
 	},
 	help_equipment_skin = {
-		key = "help_equipment_skin",
 		tip = {
 			{
 				info = [[
@@ -5322,7 +4198,6 @@ used as the main gun of Battleships and Battlecruisers
 		}
 	},
 	help_daily_task = {
-		key = "help_daily_task",
 		tip = {
 			{
 				info = [[
@@ -5368,8 +4243,7 @@ Tactical Training is available every day of the week.
 								 <color=#60a9ff>Rare</color>: $4%
 								 Common: $5% 
 
-									]],
-		key = "help_build"
+									]]
 	},
 	help_build_1 = {
 		tip = [[
@@ -5384,8 +4258,7 @@ Tactical Training is available every day of the week.
 
 							<color=#966af6>   Akagi-chan</color>：2.5%<color=#92fc63>(up!)</color>
 							<color=#966af6>   Hiei-chan</color>：2.5%<color=#92fc63>(up!)</color>
-							<color=#966af6>   Zeppy</color>：2.5%<color=#92fc63>(up!)</color>]],
-		key = "help_build_1"
+							<color=#966af6>   Zeppy</color>：2.5%<color=#92fc63>(up!)</color>]]
 	},
 	help_build_2 = {
 		tip = [[
@@ -5396,8 +4269,7 @@ Tactical Training is available every day of the week.
 								 <color=#60a9ff>Rare</color>: $4%
 								 Common: $5% 
 
-									]],
-		key = "help_build_2"
+									]]
 	},
 	help_build_4 = {
 		tip = [[
@@ -5414,8 +4286,7 @@ Tactical Training is available every day of the week.
 						<color=#fff157>KizunaAI·SuperGamer</color>：2.0%<color=#92fc63>(up!)</color>
 						<color=#fff157>KizunaAI·Elegant</color>：0.5%<color=#92fc63>(up!)</color>
 
-]],
-		key = "help_build_4"
+]]
 	},
 	help_build_5 = {
 		tip = [[
@@ -5433,11 +4304,9 @@ Tactical Training is available every day of the week.
 					  <color=#fff157>Green Heart</color>：2.25%<color=#92fc63>(up!)</color>
 							<color=#966af6>       Noire</color>：3.15%<color=#92fc63>(up!)</color>
 							<color=#966af6>       Blanc</color>：1.05%<color=#92fc63>(up!)</color>
-]],
-		key = "help_build_5"
+]]
 	},
 	help_shipinfo_hunting = {
-		key = "help_shipinfo_hunting",
 		tip = {
 			{
 				info = [[
@@ -5461,231 +4330,174 @@ Attack/Support Range Level:
 		}
 	},
 	shop_extendship_success = {
-		tip = "Dock expanded!",
-		key = "shop_extendship_success"
+		tip = "Dock expanded!"
 	},
 	shop_extendequip_success = {
-		tip = "Gear storage expanded!",
-		key = "shop_extendequip_success"
+		tip = "Gear storage expanded!"
 	},
 	naval_academy_res_desc_cateen = {
-		tip = "This is where our girls get all their tasty meals! Upgrade to increase <color=#92fc63>Oil production</color> and <color=#92fc63>capacity</color>.",
-		key = "naval_academy_res_desc_cateen"
+		tip = "This is where our girls get all their tasty meals! Upgrade to increase <color=#92fc63>Oil production</color> and <color=#92fc63>capacity</color>."
 	},
 	naval_academy_res_desc_shop = {
-		tip = "Upgrade the Academy's Merchant to increase <color=#92fc63>Coins production</color> and <color=#92fc63>capacity</color>.",
-		key = "naval_academy_res_desc_shop"
+		tip = "Upgrade the Academy's Merchant to increase <color=#92fc63>Coins production</color> and <color=#92fc63>capacity</color>."
 	},
 	naval_academy_res_desc_class = {
-		tip = "Upgrading the Lecture Hall will increase <color=#92fc63>Proficiency Limit</color>, <color=#92fc63>Proficiency Gain</color>, and <color=#92fc63>Proficiency to EXP</color> ",
-		key = "naval_academy_res_desc_class"
+		tip = "Upgrading the Lecture Hall will increase <color=#92fc63>Proficiency Limit</color>, <color=#92fc63>Proficiency Gain</color>, and <color=#92fc63>Proficiency to EXP</color> "
 	},
 	number_1 = {
-		tip = "1",
-		key = "number_1"
+		tip = "1"
 	},
 	number_2 = {
-		tip = "2",
-		key = "number_2"
+		tip = "2"
 	},
 	number_3 = {
-		tip = "3",
-		key = "number_3"
+		tip = "3"
 	},
 	number_4 = {
-		tip = "4",
-		key = "number_4"
+		tip = "4"
 	},
 	number_5 = {
-		tip = "5",
-		key = "number_5"
+		tip = "5"
 	},
 	number_6 = {
-		tip = "6",
-		key = "number_6"
+		tip = "6"
 	},
 	number_7 = {
-		tip = "7",
-		key = "number_7"
+		tip = "7"
 	},
 	number_8 = {
-		tip = "8",
-		key = "number_8"
+		tip = "8"
 	},
 	number_9 = {
-		tip = "9",
-		key = "number_9"
+		tip = "9"
 	},
 	number_10 = {
-		tip = "10",
-		key = "number_10"
+		tip = "10"
 	},
 	military_shop_no_open_tip = {
-		tip = "Reach Commander <color=#92fc63>lv. 15</color> to unlock the <color=#92fc63>Munitions Shop</color>.",
-		key = "military_shop_no_open_tip"
+		tip = "Reach Commander <color=#92fc63>lv. 15</color> to unlock the <color=#92fc63>Munitions Shop</color>."
 	},
 	switch_to_shop_tip_1 = {
-		tip = "You don't have enough materials. Care to buy some from the shop?",
-		key = "switch_to_shop_tip_1"
+		tip = "You don't have enough materials. Care to buy some from the shop?"
 	},
 	switch_to_shop_tip_2 = {
-		tip = "You don't have enough $1. Care to buy some from the shop?",
-		key = "switch_to_shop_tip_2"
+		tip = "You don't have enough $1. Care to buy some from the shop?"
 	},
 	switch_to_shop_tip_3 = {
-		tip = "You don't have enough $1. Care to buy some?",
-		key = "switch_to_shop_tip_3"
+		tip = "You don't have enough $1. Care to buy some?"
 	},
 	switch_to_shop_tip_noPos = {
-		tip = "Please sort or expand your storage!",
-		key = "switch_to_shop_tip_noPos"
+		tip = "Please sort or expand your storage!"
 	},
 	text_noPos_clear = {
-		tip = "Sort",
-		key = "text_noPos_clear"
+		tip = "Sort"
 	},
 	text_noPos_buy = {
-		tip = "Expand",
-		key = "text_noPos_buy"
+		tip = "Expand"
 	},
 	text_noPos_intensify = {
-		tip = "Enhance ",
-		key = "text_noPos_intensify"
+		tip = "Enhance "
 	},
 	switch_to_shop_tip_noDockyard = {
-		tip = "Please sort or expand your dock!",
-		key = "switch_to_shop_tip_noDockyard"
+		tip = "Please sort or expand your dock!"
 	},
 	commission_no_open = {
-		tip = " ",
-		key = "commission_no_open"
+		tip = " "
 	},
 	commission_open_tip = {
-		tip = "Clear stage $1 to unlock",
-		key = "commission_open_tip"
+		tip = "Clear stage $1 to unlock"
 	},
 	commission_idle = {
-		tip = "Idle...",
-		key = "commission_idle"
+		tip = "Idle..."
 	},
 	commission_urgency = {
-		tip = "Urgent commission: ",
-		key = "commission_urgency"
+		tip = "Urgent commission: "
 	},
 	commission_normal = {
-		tip = "Commission: ",
-		key = "commission_normal"
+		tip = "Commission: "
 	},
 	commission_get_award = {
-		tip = "Rewards collected: $1 x$2",
-		key = "commission_get_award"
+		tip = "Rewards collected: $1 x$2"
 	},
 	activity_build_end_tip = {
-		tip = "Event has already ended. Unable to build.",
-		key = "activity_build_end_tip"
+		tip = "Event has already ended. Unable to build."
 	},
 	event_over_time_expired = {
-		tip = "Commission expired.",
-		key = "event_over_time_expired"
+		tip = "Commission expired."
 	},
 	mail_sender_default = {
-		tip = "Headquarters",
-		key = "mail_sender_default"
+		tip = "Headquarters"
 	},
 	exchangecode_title = {
-		tip = "Enter code...",
-		key = "exchangecode_title"
+		tip = "Enter code..."
 	},
 	exchangecode_use_placeholder = {
-		tip = "Letters and numbers only",
-		key = "exchangecode_use_placeholder"
+		tip = "Letters and numbers only"
 	},
 	exchangecode_use_ok = {
-		tip = "Code exchanged! Rewards have been sent via mail.",
-		key = "exchangecode_use_ok"
+		tip = "Code exchanged! Rewards have been sent via mail."
 	},
 	exchangecode_use_error = {
-		tip = "Code could not be used. ",
-		key = "exchangecode_use_error"
+		tip = "Code could not be used. "
 	},
 	exchangecode_use_error_3 = {
-		tip = "Code has expired.",
-		key = "exchangecode_use_error_3"
+		tip = "Code has expired."
 	},
 	exchangecode_use_error_6 = {
-		tip = "Code has been used too many times.",
-		key = "exchangecode_use_error_6"
+		tip = "Code has been used too many times."
 	},
 	exchangecode_use_error_7 = {
-		tip = "Code has already been used.",
-		key = "exchangecode_use_error_7"
+		tip = "Code has already been used."
 	},
 	exchangecode_use_error_8 = {
-		tip = "Code does not exist.",
-		key = "exchangecode_use_error_8"
+		tip = "Code does not exist."
 	},
 	exchangecode_use_error_9 = {
-		tip = "Code does not exist.",
-		key = "exchangecode_use_error_9"
+		tip = "Code does not exist."
 	},
 	exchangecode_use_error_16 = {
-		tip = "Code has been used.",
-		key = "exchangecode_use_error_16"
+		tip = "Code has been used."
 	},
 	exchangecode_use_error_20 = {
-		tip = "Code does not exist.",
-		key = "exchangecode_use_error_20"
+		tip = "Code does not exist."
 	},
 	text_noRes_tip = {
-		tip = "Still need: $1",
-		key = "text_noRes_tip"
+		tip = "Still need: $1"
 	},
 	text_noRes_info_tip = {
-		tip = "<color=#FF0000>$2 $1</color>",
-		key = "text_noRes_info_tip"
+		tip = "<color=#FF0000>$2 $1</color>"
 	},
 	text_noRes_info_tip_link = {
-		tip = " and ",
-		key = "text_noRes_info_tip_link"
+		tip = " and "
 	},
 	text_noRes_info_tip2 = {
-		tip = "<color=#FF0000>$1</color> x<color=#FF0000>$2</color>",
-		key = "text_noRes_info_tip2"
+		tip = "<color=#FF0000>$1</color> x<color=#FF0000>$2</color>"
 	},
 	text_shop_noRes_tip = {
-		tip = "Commander, you still need $1!",
-		key = "text_shop_noRes_tip"
+		tip = "Commander, you still need $1!"
 	},
 	text_shop_enoughRes_tip = {
-		tip = "Commander, you can't hold any more Coins!",
-		key = "text_shop_enoughRes_tip"
+		tip = "Commander, you can't hold any more Coins!"
 	},
 	text_buy_fashion_tip = {
-		tip = "Spend $1 Gems to buy $2?",
-		key = "text_buy_fashion_tip"
+		tip = "Spend $1 Gems to buy $2?"
 	},
 	equip_part_title = {
-		tip = "Use",
-		key = "equip_part_title"
+		tip = "Use"
 	},
 	equip_part_main_title = {
-		tip = "Use (Main)",
-		key = "equip_part_main_title"
+		tip = "Use (Main)"
 	},
 	equip_part_sub_title = {
-		tip = "Use (Auxiliary)",
-		key = "equip_part_sub_title"
+		tip = "Use (Auxiliary)"
 	},
 	equipment_upgrade_overlimit = {
-		tip = "Fully enhanced.",
-		key = "equipment_upgrade_overlimit"
+		tip = "Fully enhanced."
 	},
 	err_name_existOtherChar = {
-		tip = "No special characters allowed.",
-		key = "err_name_existOtherChar"
+		tip = "No special characters allowed."
 	},
 	help_battle_rule = {
-		key = "help_battle_rule",
 		tip = {
 			{
 				icon = {
@@ -5735,7 +4547,6 @@ Attack/Support Range Level:
 		}
 	},
 	help_battle_warspite = {
-		key = "help_battle_warspite",
 		tip = {
 			{
 				icon = {
@@ -5760,7 +4571,6 @@ Attack/Support Range Level:
 		}
 	},
 	help_battle_defense = {
-		key = "help_battle_defense",
 		tip = {
 			{
 				icon = {
@@ -5816,35 +4626,27 @@ Attack/Support Range Level:
 		}
 	},
 	backyard_theme_set_tip = {
-		tip = "Select which action to perform on <color=#5FD500>$1</color>.",
-		key = "backyard_theme_set_tip"
+		tip = "Select which action to perform on <color=#5FD500>$1</color>."
 	},
 	backyard_theme_save_tip = {
-		tip = "Are you sure you want to save the current dorm layout as \n<color=#5FD500>$1</color>?",
-		key = "backyard_theme_save_tip"
+		tip = "Are you sure you want to save the current dorm layout as \n<color=#5FD500>$1</color>?"
 	},
 	backyard_theme_defaultname = {
-		tip = "Custom Theme",
-		key = "backyard_theme_defaultname"
+		tip = "Custom Theme"
 	},
 	backyard_rename_success = {
-		tip = "Dorm name changed!",
-		key = "backyard_rename_success"
+		tip = "Dorm name changed!"
 	},
 	ship_set_skin_success = {
-		tip = "Skin changed!",
-		key = "ship_set_skin_success"
+		tip = "Skin changed!"
 	},
 	ship_set_skin_error = {
-		tip = "Failed to change skins: ",
-		key = "ship_set_skin_error"
+		tip = "Failed to change skins: "
 	},
 	equip_part_tip = {
-		tip = "*Tap to see which ships can use",
-		key = "equip_part_tip"
+		tip = "*Tap to see which ships can use"
 	},
 	help_battle_auto = {
-		key = "help_battle_auto",
 		tip = {
 			{
 				info = "The following may occur when using auto combat:",
@@ -5871,19 +4673,15 @@ Attack/Support Range Level:
 		}
 	},
 	gold_buy_tip = {
-		tip = "<size=24>Spend </size><icon name=diamond w=0.7 h=0.7/><size=25><color=#92fc63>100</color></size> to buy <size=25><color=#92fc63>3000</color></size><size=24> Coins</size>",
-		key = "gold_buy_tip"
+		tip = "<size=24>Spend </size><icon name=diamond w=0.7 h=0.7/><size=25><color=#92fc63>100</color></size> to buy <size=25><color=#92fc63>3000</color></size><size=24> Coins</size>"
 	},
 	oil_buy_tip = {
-		tip = "<size=24>Spend </size><icon name=diamond w=0.7 h=0.7/><size=25><color=#92fc63>$1</color></size> to buy <size=25><color=#92fc63>$2</color></size><size=24> Oil</size><size=2>\n\n</size><size=22>(Already bought <size=25><color=#FF0000>$3</color></size> times today)</size>",
-		key = "oil_buy_tip"
+		tip = "<size=24>Spend </size><icon name=diamond w=0.7 h=0.7/><size=25><color=#92fc63>$1</color></size> to buy <size=25><color=#92fc63>$2</color></size><size=24> Oil</size><size=2>\n\n</size><size=22>(Already bought <size=25><color=#FF0000>$3</color></size> times today)</size>"
 	},
 	text_iknow = {
-		tip = "Got it",
-		key = "text_iknow"
+		tip = "Got it"
 	},
 	help_oil_buy_limit = {
-		key = "help_oil_buy_limit",
 		tip = {
 			{
 				info = " You are out of daily purchases",
@@ -5907,1012 +4705,765 @@ Attack/Support Range Level:
 		}
 	},
 	text_nofood_yes = {
-		tip = "Give Food",
-		key = "text_nofood_yes"
+		tip = "Give Food"
 	},
 	text_nofood_no = {
-		tip = "Ignore",
-		key = "text_nofood_no"
+		tip = "Ignore"
 	},
 	tip_add_task = {
-		tip = "New mission: $1",
-		key = "tip_add_task"
+		tip = "New mission: $1"
 	},
 	collection_award_ship = {
-		tip = "$1 research complete! Now in construction queue.",
-		key = "collection_award_ship"
+		tip = "$1 research complete! Now in construction queue."
 	},
 	guild_create_sucess = {
-		tip = "Guild created!",
-		key = "guild_create_sucess"
+		tip = "Guild created!"
 	},
 	guild_create_error = {
-		tip = "Failed to create guild.",
-		key = "guild_create_error"
+		tip = "Failed to create guild."
 	},
 	guild_create_error_noname = {
-		tip = "Guild name may not be empty.",
-		key = "guild_create_error_noname"
+		tip = "Guild name may not be empty."
 	},
 	guild_create_error_nofaction = {
-		tip = "Please select a faction for the guild.",
-		key = "guild_create_error_nofaction"
+		tip = "Please select a faction for the guild."
 	},
 	guild_create_error_nopolicy = {
-		tip = "Guild policy may not be empty.",
-		key = "guild_create_error_nopolicy"
+		tip = "Guild policy may not be empty."
 	},
 	guild_create_error_nomanifesto = {
-		tip = "Guild motto may not be empty.",
-		key = "guild_create_error_nomanifesto"
+		tip = "Guild motto may not be empty."
 	},
 	guild_create_error_nomoney = {
-		tip = "You don't have enough Gems!",
-		key = "guild_create_error_nomoney"
+		tip = "You don't have enough Gems!"
 	},
 	guild_tip_dissolve = {
-		tip = "You will not be able to restore your guild once it is dissolved. Continue dissolving your guild?",
-		key = "guild_tip_dissolve"
+		tip = "You will not be able to restore your guild once it is dissolved. Continue dissolving your guild?"
 	},
 	guild_tip_quit = {
-		tip = "Are you sure you want to leave the guild?",
-		key = "guild_tip_quit"
+		tip = "Are you sure you want to leave the guild?"
 	},
 	guild_create_confirm = {
-		tip = "Spend <icon name=diamond w=0.7 h=0.7/>$1 to create a guild?",
-		key = "guild_create_confirm"
+		tip = "Spend <icon name=diamond w=0.7 h=0.7/>$1 to create a guild?"
 	},
 	guild_apply_erro = {
-		tip = "Failed to send guild application.",
-		key = "guild_apply_erro"
+		tip = "Failed to send guild application."
 	},
 	guild_dissolve_erro = {
-		tip = "Failed to dissolve guild.",
-		key = "guild_dissolve_erro"
+		tip = "Failed to dissolve guild."
 	},
 	guild_fire_erro = {
-		tip = "Failed to kick guild member.",
-		key = "guild_fire_erro"
+		tip = "Failed to kick guild member."
 	},
 	guild_impeach_erro = {
-		tip = "Failed to impeach Guild Admiral.",
-		key = "guild_impeach_erro"
+		tip = "Failed to impeach Guild Admiral."
 	},
 	guild_quit_erro = {
-		tip = "Failed to leave guild.",
-		key = "guild_quit_erro"
+		tip = "Failed to leave guild."
 	},
 	guild_accept_erro = {
-		tip = "Failed to accept application.",
-		key = "guild_accept_erro"
+		tip = "Failed to accept application."
 	},
 	guild_reject_erro = {
-		tip = "Failed to reject application.",
-		key = "guild_reject_erro"
+		tip = "Failed to reject application."
 	},
 	guild_modify_erro = {
-		tip = "Failed to change info.",
-		key = "guild_modify_erro"
+		tip = "Failed to change info."
 	},
 	guild_setduty_erro = {
-		tip = "Failed to set positions.",
-		key = "guild_setduty_erro"
+		tip = "Failed to set positions."
 	},
 	guild_apply_sucess = {
-		tip = "Application has been sent!",
-		key = "guild_apply_sucess"
+		tip = "Application has been sent!"
 	},
 	guild_no_exist = {
-		tip = "Guild does not exist.",
-		key = "guild_no_exist"
+		tip = "Guild does not exist."
 	},
 	guild_dissolve_sucess = {
-		tip = "Guild has been dissolved!",
-		key = "guild_dissolve_sucess"
+		tip = "Guild has been dissolved!"
 	},
 	guild_commder_in_impeach_time = {
-		tip = "Guild Admiral is being impeached.",
-		key = "guild_commder_in_impeach_time"
+		tip = "Guild Admiral is being impeached."
 	},
 	guild_impeach_sucess = {
-		tip = "Impeachment successful!",
-		key = "guild_impeach_sucess"
+		tip = "Impeachment successful!"
 	},
 	guild_quit_sucess = {
-		tip = "You have left the guild.",
-		key = "guild_quit_sucess"
+		tip = "You have left the guild."
 	},
 	guild_member_max_count = {
-		tip = "The guild is full!",
-		key = "guild_member_max_count"
+		tip = "The guild is full!"
 	},
 	guild_new_member_join = {
-		tip = "A new player has joined the guild.",
-		key = "guild_new_member_join"
+		tip = "A new player has joined the guild."
 	},
 	guild_player_in_cd_time = {
-		tip = "Target player left another guild less than 24 hours ago and may not join your guild at this time.",
-		key = "guild_player_in_cd_time"
+		tip = "Target player left another guild less than 24 hours ago and may not join your guild at this time."
 	},
 	guild_player_already_join = {
-		tip = "Player was already a guild member.",
-		key = "guild_player_already_join"
+		tip = "Player was already a guild member."
 	},
 	guild_rejecet_apply_sucess = {
-		tip = "Application rejected.",
-		key = "guild_rejecet_apply_sucess"
+		tip = "Application rejected."
 	},
 	guild_should_input_keyword = {
-		tip = "Your search query is empty.",
-		key = "guild_should_input_keyword"
+		tip = "Your search query is empty."
 	},
 	guild_search_sucess = {
-		tip = "Search complete!",
-		key = "guild_search_sucess"
+		tip = "Search complete!"
 	},
 	guild_list_refresh_sucess = {
-		tip = "List of guilds has been refreshed.",
-		key = "guild_list_refresh_sucess"
+		tip = "List of guilds has been refreshed."
 	},
 	guild_info_update = {
-		tip = "Guild info updated.",
-		key = "guild_info_update"
+		tip = "Guild info updated."
 	},
 	guild_duty_id_is_null = {
-		tip = "Posts may not be empty.",
-		key = "guild_duty_id_is_null"
+		tip = "Posts may not be empty."
 	},
 	guild_player_is_null = {
-		tip = "Players may not be empty.",
-		key = "guild_player_is_null"
+		tip = "Players may not be empty."
 	},
 	guild_duty_commder_max_count = {
-		tip = "All Vice Admiral posts are filled.",
-		key = "guild_duty_commder_max_count"
+		tip = "All Vice Admiral posts are filled."
 	},
 	guild_set_duty_sucess = {
-		tip = "Post settings updated!",
-		key = "guild_set_duty_sucess"
+		tip = "Post settings updated!"
 	},
 	guild_policy_power = {
-		tip = "Best",
-		key = "guild_policy_power"
+		tip = "Best"
 	},
 	guild_policy_relax = {
-		tip = "Casual",
-		key = "guild_policy_relax"
+		tip = "Casual"
 	},
 	guild_faction_blhx = {
-		tip = "Azur Lane",
-		key = "guild_faction_blhx"
+		tip = "Azur Lane"
 	},
 	guild_faction_cszz = {
-		tip = "Crimson Axis",
-		key = "guild_faction_cszz"
+		tip = "Crimson Axis"
 	},
 	guild_faction_unknown = {
-		tip = "????",
-		key = "guild_faction_unknown"
+		tip = "????"
 	},
 	guild_word_commder = {
-		tip = "Admiral",
-		key = "guild_word_commder"
+		tip = "Admiral"
 	},
 	guild_word_deputy_commder = {
-		tip = "Vice Admiral",
-		key = "guild_word_deputy_commder"
+		tip = "Vice Admiral"
 	},
 	guild_word_picked = {
-		tip = "Elite",
-		key = "guild_word_picked"
+		tip = "Elite"
 	},
 	guild_word_ordinary = {
-		tip = "Normal",
-		key = "guild_word_ordinary"
+		tip = "Normal"
 	},
 	guild_word_home = {
-		tip = "Home",
-		key = "guild_word_home"
+		tip = "Home"
 	},
 	guild_word_member = {
-		tip = "Members",
-		key = "guild_word_member"
+		tip = "Members"
 	},
 	guild_word_apply = {
-		tip = "Apply",
-		key = "guild_word_apply"
+		tip = "Apply"
 	},
 	guild_faction_change_tip = {
-		tip = "You must wait at least 30 days before changing factions again. Are you sure you want to change your faction?",
-		key = "guild_faction_change_tip"
+		tip = "You must wait at least 30 days before changing factions again. Are you sure you want to change your faction?"
 	},
 	guild_msg_is_null = {
-		tip = "Unable to send empty messages.",
-		key = "guild_msg_is_null"
+		tip = "Unable to send empty messages."
 	},
 	guild_log_new_guild_join = {
-		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> has joined the guild!",
-		key = "guild_log_new_guild_join"
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> has joined the guild!"
 	},
 	guild_log_duty_change = {
-		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> is now $2!",
-		key = "guild_log_duty_change"
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> is now $2!"
 	},
 	guild_log_quit = {
-		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> has left the guild.",
-		key = "guild_log_quit"
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> has left the guild."
 	},
 	guild_log_fire = {
-		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> was kicked from the guild.",
-		key = "guild_log_fire"
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> was kicked from the guild."
 	},
 	guild_leave_cd_time = {
-		tip = "You must wait 24 hours after leaving your guild to join another.",
-		key = "guild_leave_cd_time"
+		tip = "You must wait 24 hours after leaving your guild to join another."
 	},
 	guild_sort_time = {
-		tip = "Time",
-		key = "guild_sort_time"
+		tip = "Time"
 	},
 	guild_sort_level = {
-		tip = "Lv.",
-		key = "guild_sort_level"
+		tip = "Lv."
 	},
 	guild_sort_duty = {
-		tip = "Post",
-		key = "guild_sort_duty"
+		tip = "Post"
 	},
 	guild_fire_tip = {
-		tip = "Are you sure you want to kick this player?",
-		key = "guild_fire_tip"
+		tip = "Are you sure you want to kick this player?"
 	},
 	guild_impeach_tip = {
-		tip = "Are you sure you want to impeach the Admiral?",
-		key = "guild_impeach_tip"
+		tip = "Are you sure you want to impeach the Admiral?"
 	},
 	guild_set_duty_title = {
-		tip = "Appoint $1 as: ",
-		key = "guild_set_duty_title"
+		tip = "Appoint $1 as: "
 	},
 	guild_search_list_max_count = {
-		tip = "Display $1 lines",
-		key = "guild_search_list_max_count"
+		tip = "Display $1 lines"
 	},
 	guild_sort_all = {
-		tip = "All",
-		key = "guild_sort_all"
+		tip = "All"
 	},
 	guild_sort_blhx = {
-		tip = "Azur Lane",
-		key = "guild_sort_blhx"
+		tip = "Azur Lane"
 	},
 	guild_sort_cszz = {
-		tip = "Crimson Axis",
-		key = "guild_sort_cszz"
+		tip = "Crimson Axis"
 	},
 	guild_sort_power = {
-		tip = "Best",
-		key = "guild_sort_power"
+		tip = "Best"
 	},
 	guild_sort_relax = {
-		tip = "Casual",
-		key = "guild_sort_relax"
+		tip = "Casual"
 	},
 	guild_join_cd = {
-		tip = "You must wait 24 hours after leaving your guild to join another.",
-		key = "guild_join_cd"
+		tip = "You must wait 24 hours after leaving your guild to join another."
 	},
 	guild_name_invaild = {
-		tip = "This name is already in use.",
-		key = "guild_name_invaild"
+		tip = "This name is already in use."
 	},
 	guild_apply_full = {
-		tip = "Guild's list of applications is full.",
-		key = "guild_apply_full"
+		tip = "Guild's list of applications is full."
 	},
 	guild_fire_duty_limit = {
-		tip = "May only kick players with less authority than yourself.",
-		key = "guild_fire_duty_limit"
+		tip = "May only kick players with less authority than yourself."
 	},
 	guild_fire_succeed = {
-		tip = "Kicked!",
-		key = "guild_fire_succeed"
+		tip = "Kicked!"
 	},
 	guild_duty_tip_1 = {
-		tip = "<color=#7FAFFF>Current Rank</color>",
-		key = "guild_duty_tip_1"
+		tip = "<color=#7FAFFF>Current Rank</color>"
 	},
 	guild_duty_tip_2 = {
-		tip = "<color=#C3C3C3>Non-promotion</color>",
-		key = "guild_duty_tip_2"
+		tip = "<color=#C3C3C3>Non-promotion</color>"
 	},
 	battle_repair_special_tip = {
-		tip = "Are you sure you want to use an \n<color=#a0ff40>Elite management team</color>?",
-		key = "battle_repair_special_tip"
+		tip = "Are you sure you want to use an \n<color=#a0ff40>Elite management team</color>?"
 	},
 	battle_repair_normal_name = {
-		tip = "Daily free chances: ",
-		key = "battle_repair_normal_name"
+		tip = "Daily free chances: "
 	},
 	battle_repair_special_name = {
-		tip = "Daily bonus chances: ",
-		key = "battle_repair_special_name"
+		tip = "Daily bonus chances: "
 	},
 	oil_max_tip_title = {
-		tip = "You can't hold any more Oil. ",
-		key = "oil_max_tip_title"
+		tip = "You can't hold any more Oil. "
 	},
 	gold_max_tip_title = {
-		tip = "You can't hold any more Coins. ",
-		key = "gold_max_tip_title"
+		tip = "You can't hold any more Coins. "
 	},
 	resource_max_tip_shop = {
-		tip = "Unable to buy resource.",
-		key = "resource_max_tip_shop"
+		tip = "Unable to buy resource."
 	},
 	resource_max_tip_event = {
-		tip = "Unable to collect commission reward.",
-		key = "resource_max_tip_event"
+		tip = "Unable to collect commission reward."
 	},
 	resource_max_tip_battle = {
-		tip = "You will be unable to receive Coins as rewards from this attack. Continue?",
-		key = "resource_max_tip_battle"
+		tip = "You will be unable to receive Coins as rewards from this attack. Continue?"
 	},
 	resource_max_tip_collect = {
-		tip = "Unable to receive collection reward.",
-		key = "resource_max_tip_collect"
+		tip = "Unable to receive collection reward."
 	},
 	resource_max_tip_mail = {
-		tip = "Unable to collect rewards from mail.",
-		key = "resource_max_tip_mail"
+		tip = "Unable to collect rewards from mail."
 	},
 	resource_max_tip_eventstart = {
-		tip = "Unable to accept commission",
-		key = "resource_max_tip_eventstart"
+		tip = "Unable to accept commission"
 	},
 	resource_max_tip_destroy = {
-		tip = "Unable to recycle gear.",
-		key = "resource_max_tip_destroy"
+		tip = "Unable to recycle gear."
 	},
 	resource_max_tip_retire = {
-		tip = "Unable to retire.",
-		key = "resource_max_tip_retire"
+		tip = "Unable to retire."
 	},
 	resource_max_tip_retire_1 = {
-		tip = "Your Oil storage is full, no Oil refund for retiring this ship. Continue?",
-		key = "resource_max_tip_retire_1"
+		tip = "Your Oil storage is full, no Oil refund for retiring this ship. Continue?"
 	},
 	new_version_tip = {
-		tip = "Commander, your game is out of date! Please restart the game and download the update.",
-		key = "new_version_tip"
+		tip = "Commander, your game is out of date! Please restart the game and download the update."
 	},
 	guild_request_msg_title = {
-		tip = "Enter application message...",
-		key = "guild_request_msg_title"
+		tip = "Enter application message..."
 	},
 	guild_request_msg_placeholder = {
-		tip = "Please wait patiently after application is submitted.",
-		key = "guild_request_msg_placeholder"
+		tip = "Please wait patiently after application is submitted."
 	},
 	ship_upgrade_unequip_tip = {
-		tip = "This limit break will change <color=$2>$1</color>'s gear selections. Some gear will be unequipped. Are you sure you want to continue?",
-		key = "ship_upgrade_unequip_tip"
+		tip = "This limit break will change <color=$2>$1</color>'s gear selections. Some gear will be unequipped. Are you sure you want to continue?"
 	},
 	destination_can_not_reach = {
-		tip = "Unable to reach target location.",
-		key = "destination_can_not_reach"
+		tip = "Unable to reach target location."
 	},
 	destination_can_not_reach_safety = {
-		tip = "Unable to safely reach target location.",
-		key = "destination_can_not_reach_safety"
+		tip = "Unable to safely reach target location."
 	},
 	destination_not_in_range = {
-		tip = "Can't reach the target in this turn",
-		key = "destination_not_in_range"
+		tip = "Can't reach the target in this turn"
 	},
 	level_ammo_enough = {
-		tip = "Commander, your fleet ammo is full! There's no need to resupply.",
-		key = "level_ammo_enough"
+		tip = "Commander, your fleet ammo is full! There's no need to resupply."
 	},
 	level_ammo_supply = {
-		tip = "Ammo supplies. Ammo +$1, $2/3 remaining",
-		key = "level_ammo_supply"
+		tip = "Ammo supplies. Ammo +$1, $2/3 remaining"
 	},
 	level_ammo_empty = {
-		tip = "Ammo supplies. Ammo +$1. Ammo resupplies exhausted.",
-		key = "level_ammo_empty"
+		tip = "Ammo supplies. Ammo +$1. Ammo resupplies exhausted."
 	},
 	level_ammo_supply_p1 = {
-		tip = "Ammo supplies. Ammo +$1.",
-		key = "level_ammo_supply_p1"
+		tip = "Ammo supplies. Ammo +$1."
 	},
 	chat_level_not_enough = {
-		tip = "Commander, you need to be lv. $1 in order to chat!",
-		key = "chat_level_not_enough"
+		tip = "Commander, you need to be lv. $1 in order to chat!"
 	},
 	chat_msg_inform = {
-		tip = "This information has already been reported and is under review.",
-		key = "chat_msg_inform"
+		tip = "This information has already been reported and is under review."
 	},
 	chat_msg_ban = {
-		tip = "You have been muted as we have received multiple reports about your messages.\n\nYou will be unmuted at: $1",
-		key = "chat_msg_ban"
+		tip = "You have been muted as we have received multiple reports about your messages.\n\nYou will be unmuted at: $1"
 	},
 	month_card_set_ratio_success = {
-		tip = "Resource ratio changed.",
-		key = "month_card_set_ratio_success"
+		tip = "Resource ratio changed."
 	},
 	month_card_set_ratio_not_change = {
-		tip = "Already changed to this ratio.",
-		key = "month_card_set_ratio_not_change"
+		tip = "Already changed to this ratio."
 	},
 	charge_ship_bag_max = {
-		tip = "Your dock has been fully expanded.",
-		key = "charge_ship_bag_max"
+		tip = "Your dock has been fully expanded."
 	},
 	charge_equip_bag_max = {
-		tip = "Your storage has been fully expanded.",
-		key = "charge_equip_bag_max"
+		tip = "Your storage has been fully expanded."
 	},
 	login_wait_tip = {
-		tip = "Server is currently busy, please wait.\n(Position in queue: $1)",
-		key = "login_wait_tip"
+		tip = "Server is currently busy, please wait.\n(Position in queue: $1)"
 	},
 	ship_equip_exchange_tip = {
-		tip = "Take <color=#a0ff40>$1</color>'s <color=#a0ff40>$2</color> and equip it to <color=#a0ff40>$3</color>?",
-		key = "ship_equip_exchange_tip"
+		tip = "Take <color=#a0ff40>$1</color>'s <color=#a0ff40>$2</color> and equip it to <color=#a0ff40>$3</color>?"
 	},
 	ship_rename_success = {
-		tip = "Name changed successfully!",
-		key = "ship_rename_success"
+		tip = "Name changed successfully!"
 	},
 	formation_chapter_lock = {
-		tip = "Clear chapter $1 to unlock Fleet $2!",
-		key = "formation_chapter_lock"
+		tip = "Clear chapter $1 to unlock Fleet $2!"
 	},
 	elite_disable_unsatisfied = {
-		tip = "Must get full stars in entire chapter.",
-		key = "elite_disable_unsatisfied"
+		tip = "Must get full stars in entire chapter."
 	},
 	elite_disable_ship_escort = {
-		tip = "One of the ships in your fleet is on a commission. Unable to attack.",
-		key = "elite_disable_ship_escort"
+		tip = "One of the ships in your fleet is on a commission. Unable to attack."
 	},
 	elite_disable_formation_unsatisfied = {
-		tip = "Formation requirements not met. Unable to attack.",
-		key = "elite_disable_formation_unsatisfied"
+		tip = "Formation requirements not met. Unable to attack."
 	},
 	elite_disable_no_fleet = {
-		tip = "No fleets currently available. Unable to attack.",
-		key = "elite_disable_no_fleet"
+		tip = "No fleets currently available. Unable to attack."
 	},
 	elite_disable_property_unsatisfied = {
-		tip = "Attack requirements not met. Unable to proceed.",
-		key = "elite_disable_property_unsatisfied"
+		tip = "Attack requirements not met. Unable to proceed."
 	},
 	elite_disable_unusable = {
-		tip = "Hard mode for this map is not yet available.",
-		key = "elite_disable_unusable"
+		tip = "Hard mode for this map is not yet available."
 	},
 	elite_warp_to_latest_map = {
-		tip = "Viewing newest chapter.",
-		key = "elite_warp_to_latest_map"
+		tip = "Viewing newest chapter."
 	},
 	elite_fleet_confirm = {
-		tip = "$1 <color=#ff0000>does not meet</color> requirements to attack and may not enter battle. Would you like to continue your attack?",
-		key = "elite_fleet_confirm"
+		tip = "$1 <color=#ff0000>does not meet</color> requirements to attack and may not enter battle. Would you like to continue your attack?"
 	},
 	elite_condition_level = {
-		tip = "Average Level",
-		key = "elite_condition_level"
+		tip = "Average Level"
 	},
 	elite_condition_durability = {
-		tip = "Total HP",
-		key = "elite_condition_durability"
+		tip = "Total HP"
 	},
 	elite_condition_cannon = {
-		tip = "Total FP",
-		key = "elite_condition_cannon"
+		tip = "Total FP"
 	},
 	elite_condition_torpedo = {
-		tip = "Total TRP",
-		key = "elite_condition_torpedo"
+		tip = "Total TRP"
 	},
 	elite_condition_antiaircraft = {
-		tip = "Total AA",
-		key = "elite_condition_antiaircraft"
+		tip = "Total AA"
 	},
 	elite_condition_air = {
-		tip = "Total AV",
-		key = "elite_condition_air"
+		tip = "Total AV"
 	},
 	elite_condition_antisub = {
-		tip = "Total ASW",
-		key = "elite_condition_antisub"
+		tip = "Total ASW"
 	},
 	elite_condition_dodge = {
-		tip = "Total EVA",
-		key = "elite_condition_dodge"
+		tip = "Total EVA"
 	},
 	elite_condition_reload = {
-		tip = "Total RLD",
-		key = "elite_condition_reload"
+		tip = "Total RLD"
 	},
 	common_compare_larger = {
-		tip = ">",
-		key = "common_compare_larger"
+		tip = ">"
 	},
 	common_compare_equal = {
-		tip = "=",
-		key = "common_compare_equal"
+		tip = "="
 	},
 	common_compare_smaller = {
-		tip = "<",
-		key = "common_compare_smaller"
+		tip = "<"
 	},
 	level_scene_formation_active_already = {
-		tip = "This has already been activated.",
-		key = "level_scene_formation_active_already"
+		tip = "This has already been activated."
 	},
 	level_scene_not_enough = {
-		tip = "You don't have enough to use this.",
-		key = "level_scene_not_enough"
+		tip = "You don't have enough to use this."
 	},
 	level_scene_full_hp = {
-		tip = "All ships in selected fleet already have full HP. Unable to use!",
-		key = "level_scene_full_hp"
+		tip = "All ships in selected fleet already have full HP. Unable to use!"
 	},
 	level_click_to_move = {
-		tip = "Tap anywhere on the map to move.",
-		key = "level_click_to_move"
+		tip = "Tap anywhere on the map to move."
 	},
 	common_hardmode = {
-		tip = "Hard",
-		key = "common_hardmode"
+		tip = "Hard"
 	},
 	common_elite_no_quota = {
-		tip = "You may not challenge any more Hard stages today.",
-		key = "common_elite_no_quota"
+		tip = "You may not challenge any more Hard stages today."
 	},
 	common_food = {
-		tip = "Snacks",
-		key = "common_food"
+		tip = "Snacks"
 	},
 	common_no_limit = {
-		tip = "Unlimited",
-		key = "common_no_limit"
+		tip = "Unlimited"
 	},
 	common_proficiency = {
-		tip = "Efficiency",
-		key = "common_proficiency"
+		tip = "Efficiency"
 	},
 	backyard_food_remind = {
-		tip = "Your storage limit will be exceeded if you continue using <color=yellow>$1</color>. Continue?",
-		key = "backyard_food_remind"
+		tip = "Your storage limit will be exceeded if you continue using <color=yellow>$1</color>. Continue?"
 	},
 	backyard_food_count = {
-		tip = "Current supplies limit: $1",
-		key = "backyard_food_count"
+		tip = "Current supplies limit: $1"
 	},
 	sham_ship_level_limit = {
-		tip = "Ships must be at least lv. $1",
-		key = "sham_ship_level_limit"
+		tip = "Ships must be at least lv. $1"
 	},
 	sham_count_limit = {
-		tip = "This Simulation battle is complete.",
-		key = "sham_count_limit"
+		tip = "This Simulation battle is complete."
 	},
 	sham_count_reset = {
-		tip = "This Simulation battle is complete.\nReset now?",
-		key = "sham_count_reset"
+		tip = "This Simulation battle is complete.\nReset now?"
 	},
 	sham_team_limit = {
-		tip = "Please ensure that each fleet has at least 1 ship in the Vanguard and 1 ship in the Main fleet.",
-		key = "sham_team_limit"
+		tip = "Please ensure that each fleet has at least 1 ship in the Vanguard and 1 ship in the Main fleet."
 	},
 	sham_formation_invalid = {
-		tip = "Commander, the fleet couldn't be formed. Please edit its formation!",
-		key = "sham_formation_invalid"
+		tip = "Commander, the fleet couldn't be formed. Please edit its formation!"
 	},
 	sham_my_assist_ship_level_limit = {
-		tip = "Support ship must be at least lv. $1",
-		key = "sham_my_assist_ship_level_limit"
+		tip = "Support ship must be at least lv. $1"
 	},
 	sham_reset_confirm = {
-		tip = "Current stage is not yet complete. Are you sure you want to reset this stage?",
-		key = "sham_reset_confirm"
+		tip = "Current stage is not yet complete. Are you sure you want to reset this stage?"
 	},
 	sham_battle_help_tip = {
-		tip = "",
-		key = "sham_battle_help_tip"
+		tip = ""
 	},
 	sham_reset_err_limit = {
-		tip = "You've already used all of your daily resets.",
-		key = "sham_reset_err_limit"
+		tip = "You've already used all of your daily resets."
 	},
 	sham_ship_equip_forbid_1 = {
-		tip = "Your fleet is not full. You will be unable to change ships or gear after you begin. Are you sure you want to continue?",
-		key = "sham_ship_equip_forbid_1"
+		tip = "Your fleet is not full. You will be unable to change ships or gear after you begin. Are you sure you want to continue?"
 	},
 	sham_ship_equip_forbid_2 = {
-		tip = "You will be unable to change ships or gear after you begin. Are you sure you want to continue?",
-		key = "sham_ship_equip_forbid_2"
+		tip = "You will be unable to change ships or gear after you begin. Are you sure you want to continue?"
 	},
 	sham_enter_error_friend_ship_expired = {
-		tip = "Friend's support ship has changed. Please select again.",
-		key = "sham_enter_error_friend_ship_expired"
+		tip = "Friend's support ship has changed. Please select again."
 	},
 	sham_can_not_change_ship = {
-		tip = "You may not change support ships during Simulation.",
-		key = "sham_can_not_change_ship"
+		tip = "You may not change support ships during Simulation."
 	},
 	sham_friend_ship_tip = {
-		tip = "You have not selected any support. Once you enter battle, you will be unable to add support. Are you sure you want to continue?",
-		key = "sham_friend_ship_tip"
+		tip = "You have not selected any support. Once you enter battle, you will be unable to add support. Are you sure you want to continue?"
 	},
 	inform_sueecss = {
-		tip = "Report submitted.",
-		key = "inform_sueecss"
+		tip = "Report submitted."
 	},
 	inform_failed = {
-		tip = "Failed to submit report.",
-		key = "inform_failed"
+		tip = "Failed to submit report."
 	},
 	inform_player = {
-		tip = "Report player: $1",
-		key = "inform_player"
+		tip = "Report player: $1"
 	},
 	inform_select_type = {
-		tip = "Please select content to report.",
-		key = "inform_select_type"
+		tip = "Please select content to report."
 	},
 	inform_chat_msg = {
-		tip = "Chat content is empty.",
-		key = "inform_chat_msg"
+		tip = "Chat content is empty."
 	},
 	inform_sueecss_tip = {
-		tip = "Thank you for helping keep the community of Azur Lane safe for all Commanders!",
-		key = "inform_sueecss_tip"
+		tip = "Thank you for helping keep the community of Azur Lane safe for all Commanders!"
 	},
 	ship_remould_max_level = {
-		tip = "You've reached the maximum number of improvements.",
-		key = "ship_remould_max_level"
+		tip = "You've reached the maximum number of improvements."
 	},
 	ship_remould_material_ship_no_enough = {
-		tip = "Not enough ships selected as material.",
-		key = "ship_remould_material_ship_no_enough"
+		tip = "Not enough ships selected as material."
 	},
 	ship_remould_material_ship_on_exist = {
-		tip = "Selected material ship does not exist.",
-		key = "ship_remould_material_ship_on_exist"
+		tip = "Selected material ship does not exist."
 	},
 	ship_remould_material_unlock_skill = {
-		tip = "Learn skill $1",
-		key = "ship_remould_material_unlock_skill"
+		tip = "Learn skill $1"
 	},
 	ship_remould_prev_lock = {
-		tip = "Locked.",
-		key = "ship_remould_prev_lock"
+		tip = "Locked."
 	},
 	ship_remould_need_level = {
-		tip = "Lvl: $1",
-		key = "ship_remould_need_level"
+		tip = "Lvl: $1"
 	},
 	ship_remould_need_star = {
-		tip = "$1 stars",
-		key = "ship_remould_need_star"
+		tip = "$1 stars"
 	},
 	ship_remould_finished = {
-		tip = "Completed",
-		key = "ship_remould_finished"
+		tip = "Completed"
 	},
 	ship_remould_no_item = {
-		tip = "Not enough items.",
-		key = "ship_remould_no_item"
+		tip = "Not enough items."
 	},
 	ship_remould_no_gold = {
-		tip = "You don't have enough Coins!",
-		key = "ship_remould_no_gold"
+		tip = "You don't have enough Coins!"
 	},
 	ship_remould_no_material = {
-		tip = "Not enough items",
-		key = "ship_remould_no_material"
+		tip = "Not enough items"
 	},
 	ship_remould_selecte_exceed = {
-		tip = "You've selected more than 1 ship.",
-		key = "ship_remould_selecte_exceed"
+		tip = "You've selected more than 1 ship."
 	},
 	ship_remould_sueecss = {
-		tip = "Improved!",
-		key = "ship_remould_sueecss"
+		tip = "Improved!"
 	},
 	ship_remould_warning_102174 = {
-		tip = "The <color=#92fc63>Sparkling Mic</color> will be used to complete the retrofit.\nWould you like to continue? ",
-		key = "ship_remould_warning_102174"
+		tip = "The <color=#92fc63>Sparkling Mic</color> will be used to complete the retrofit.\nWould you like to continue? "
 	},
 	ship_remould_warning_201514 = {
-		tip = "Retrofitting this ship will <color=#92fc63>add 1 Anti-Air Gun mount</color> but <color=#92fc63>remove 1 Torpedo mount.</color> \nWould you like to continue? ",
-		key = "ship_remould_warning_201514"
+		tip = "Retrofitting this ship will <color=#92fc63>add 1 Anti-Air Gun mount</color> but <color=#92fc63>remove 1 Torpedo mount.</color> \nWould you like to continue? "
 	},
 	ship_remould_warning_203114 = {
-		tip = "This ship's <color=#92fc63>Torpedo slot</color> will be converted into an <color=#92fc63>Auxiliary Weapon slot.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>View more info here.</material></color>\nWould you like to proceed with the retrofit? ",
-		key = "ship_remould_warning_203114"
+		tip = "This ship's <color=#92fc63>Torpedo slot</color> will be converted into an <color=#92fc63>Auxiliary Weapon slot.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>View more info here.</material></color>\nWould you like to proceed with the retrofit? "
 	},
 	ship_remould_warning_205124 = {
-		tip = "<color=#92fc63>The Warrior's Prowess</color> will be used to complete the retrofit.\nWould you like to continue? ",
-		key = "ship_remould_warning_205124"
+		tip = "<color=#92fc63>The Warrior's Prowess</color> will be used to complete the retrofit.\nWould you like to continue? "
 	},
 	ship_remould_warning_310014 = {
 		tip = [[
 Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
 <color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
 <color=#92fc63>your current Secondary Weapon </color> will be unequipped
- Would you like to continue?]],
-		key = "ship_remould_warning_310014"
+ Would you like to continue?]]
 	},
 	ship_remould_warning_310024 = {
 		tip = [[
 Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
 <color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
 <color=#92fc63>your current Secondary Weapon </color> will be unequipped
- Would you like to continue?]],
-		key = "ship_remould_warning_310024"
+ Would you like to continue?]]
 	},
 	ship_remould_warning_310034 = {
 		tip = [[
 Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
 <color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
 <color=#92fc63>your current Secondary Weapon </color> will be unequipped
- Would you like to continue?]],
-		key = "ship_remould_warning_310034"
+ Would you like to continue?]]
 	},
 	ship_remould_warning_310044 = {
 		tip = [[
 Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
 <color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
 <color=#92fc63>your current Secondary Weapon </color> will be unequipped
- Would you like to continue?]],
-		key = "ship_remould_warning_310044"
+ Would you like to continue?]]
 	},
 	ship_remould_warning_303154 = {
 		tip = [[
 When retrofitted, <color=#92fc63>$1</color>'s hull type will change.
 The weapon type that can be equipped in the Main Gun slot will change from <color=#92fc63>CL Main Guns</color> to <color=#92fc63>CA Main Guns</color>. The current Main Gun will also be automatically unequipped.
 Would you like to proceed with the retrofit?
-<color=#92fc63><material=underline c=#A9F548 event=clickDetail>View more info here.</material></color>]],
-		key = "ship_remould_warning_303154"
+<color=#92fc63><material=underline c=#A9F548 event=clickDetail>View more info here.</material></color>]]
 	},
 	ship_remould_warning_402134 = {
-		tip = "Completing this Retrofit will permanently change the first \"Auxiliary\" equipment slot to a <color=#92fc63>\"Helicopter\"</color>\n equipment slot. Proceed with the Retrofit? ",
-		key = "ship_remould_warning_402134"
+		tip = "Completing this Retrofit will permanently change the first \"Auxiliary\" equipment slot to a <color=#92fc63>\"Helicopter\"</color>\n equipment slot. Proceed with the Retrofit? "
 	},
 	word_soundfiles_download_title = {
-		tip = "Download Language Pack",
-		key = "word_soundfiles_download_title"
+		tip = "Download Language Pack"
 	},
 	word_soundfiles_download = {
-		tip = "Start Download",
-		key = "word_soundfiles_download"
+		tip = "Start Download"
 	},
 	word_soundfiles_checking_title = {
-		tip = "Checking...",
-		key = "word_soundfiles_checking_title"
+		tip = "Checking..."
 	},
 	word_soundfiles_checking = {
-		tip = "Checking...",
-		key = "word_soundfiles_checking"
+		tip = "Checking..."
 	},
 	word_soundfiles_checkend_title = {
-		tip = "Language pack verification complete.",
-		key = "word_soundfiles_checkend_title"
+		tip = "Language pack verification complete."
 	},
 	word_soundfiles_checkend = {
-		tip = "Tap to update",
-		key = "word_soundfiles_checkend"
+		tip = "Tap to update"
 	},
 	word_soundfiles_noneedupdate = {
-		tip = "Latest",
-		key = "word_soundfiles_noneedupdate"
+		tip = "Latest"
 	},
 	word_soundfiles_checkfailed = {
-		tip = "Failed to verify language pack.",
-		key = "word_soundfiles_checkfailed"
+		tip = "Failed to verify language pack."
 	},
 	word_soundfiles_retry = {
-		tip = "Tap to retry",
-		key = "word_soundfiles_retry"
+		tip = "Tap to retry"
 	},
 	word_soundfiles_update = {
-		tip = "Updating...",
-		key = "word_soundfiles_update"
+		tip = "Updating..."
 	},
 	word_soundfiles_update_end_title = {
-		tip = "Language pack updated!",
-		key = "word_soundfiles_update_end_title"
+		tip = "Language pack updated!"
 	},
 	word_soundfiles_update_end = {
-		tip = "Update complete!",
-		key = "word_soundfiles_update_end"
+		tip = "Update complete!"
 	},
 	word_soundfiles_update_failed = {
-		tip = "Failed to update language pack.",
-		key = "word_soundfiles_update_failed"
+		tip = "Failed to update language pack."
 	},
 	word_soundfiles_update_retry = {
-		tip = "Tap to retry",
-		key = "word_soundfiles_update_retry"
+		tip = "Tap to retry"
 	},
 	word_live2dfiles_download_title = {
-		tip = "Download Character Live2D Pack",
-		key = "word_live2dfiles_download_title"
+		tip = "Download Character Live2D Pack"
 	},
 	word_live2dfiles_download = {
-		tip = "Initiating Download ",
-		key = "word_live2dfiles_download"
+		tip = "Initiating Download "
 	},
 	word_live2dfiles_checking_title = {
-		tip = "Verifying...",
-		key = "word_live2dfiles_checking_title"
+		tip = "Verifying..."
 	},
 	word_live2dfiles_checking = {
-		tip = "Verifying",
-		key = "word_live2dfiles_checking"
+		tip = "Verifying"
 	},
 	word_live2dfiles_checkend_title = {
-		tip = "Character Live2D Pack Verification Completed",
-		key = "word_live2dfiles_checkend_title"
+		tip = "Character Live2D Pack Verification Completed"
 	},
 	word_live2dfiles_checkend = {
-		tip = "Tap to update",
-		key = "word_live2dfiles_checkend"
+		tip = "Tap to update"
 	},
 	word_live2dfiles_noneedupdate = {
-		tip = "Latest",
-		key = "word_live2dfiles_noneedupdate"
+		tip = "Latest"
 	},
 	word_live2dfiles_checkfailed = {
-		tip = "Character Live2D Pack Verification Failed",
-		key = "word_live2dfiles_checkfailed"
+		tip = "Character Live2D Pack Verification Failed"
 	},
 	word_live2dfiles_retry = {
-		tip = "Tap to Retry",
-		key = "word_live2dfiles_retry"
+		tip = "Tap to Retry"
 	},
 	word_live2dfiles_update = {
-		tip = "Updating...",
-		key = "word_live2dfiles_update"
+		tip = "Updating..."
 	},
 	word_live2dfiles_update_end_title = {
-		tip = "Character Live2D Pack Update Completed",
-		key = "word_live2dfiles_update_end_title"
+		tip = "Character Live2D Pack Update Completed"
 	},
 	word_live2dfiles_update_end = {
-		tip = "Update Completed",
-		key = "word_live2dfiles_update_end"
+		tip = "Update Completed"
 	},
 	word_live2dfiles_update_failed = {
-		tip = "Character Live2D Pack Update Failed",
-		key = "word_live2dfiles_update_failed"
+		tip = "Character Live2D Pack Update Failed"
 	},
 	word_live2dfiles_update_retry = {
-		tip = "Tap to Retry",
-		key = "word_live2dfiles_update_retry"
+		tip = "Tap to Retry"
 	},
 	word_live2dfiles_main_update_tip = {
-		tip = "Current Live2D Data Needs To Be Updated, Update Now?",
-		key = "word_live2dfiles_main_update_tip"
+		tip = "Current Live2D Data Needs To Be Updated, Update Now?"
 	},
 	achieve_propose_tip = {
-		tip = "Unlocked skins for $1!",
-		key = "achieve_propose_tip"
+		tip = "Unlocked skins for $1!"
 	},
 	mingshi_get_tip = {
-		tip = "Found a Peculiar Material!",
-		key = "mingshi_get_tip"
+		tip = "Found a Peculiar Material!"
 	},
 	mingshi_task_tip_1 = {
-		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>T</color>>\nThe next target is... <<color=#a0ff40>items stockpile</color>>!",
-		key = "mingshi_task_tip_1"
+		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>T</color>>\nThe next target is... <<color=#a0ff40>items stockpile</color>>!"
 	},
 	mingshi_task_tip_2 = {
-		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>O</color>>\nThe next target is... <<color=#a0ff40>researching tactics</color>>!",
-		key = "mingshi_task_tip_2"
+		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>O</color>>\nThe next target is... <<color=#a0ff40>researching tactics</color>>!"
 	},
 	mingshi_task_tip_3 = {
-		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>U</color>>\nThe next target is... <<color=#a0ff40>the Munitions Shop</color>>!",
-		key = "mingshi_task_tip_3"
+		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>U</color>>\nThe next target is... <<color=#a0ff40>the Munitions Shop</color>>!"
 	},
 	mingshi_task_tip_4 = {
-		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>C</color>>\nThe next target is... <<color=#a0ff40>accepting a mission</color>>!",
-		key = "mingshi_task_tip_4"
+		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>C</color>>\nThe next target is... <<color=#a0ff40>accepting a mission</color>>!"
 	},
 	mingshi_task_tip_5 = {
-		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>T</color>>\nThe next target is... <<color=#a0ff40>your formation</color>>!",
-		key = "mingshi_task_tip_5"
+		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>T</color>>\nThe next target is... <<color=#a0ff40>your formation</color>>!"
 	},
 	mingshi_task_tip_6 = {
-		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>A</color>>\nThe next target is... <<color=#a0ff40>taking a rest</color>>!",
-		key = "mingshi_task_tip_6"
+		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>A</color>>\nThe next target is... <<color=#a0ff40>taking a rest</color>>!"
 	},
 	mingshi_task_tip_7 = {
-		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>K</color>>\nThe next target is... <<color=#a0ff40>looking at your collection</color>>!",
-		key = "mingshi_task_tip_7"
+		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>K</color>>\nThe next target is... <<color=#a0ff40>looking at your collection</color>>!"
 	},
 	mingshi_task_tip_8 = {
-		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>A</color>>\nThe next target is... <<color=#a0ff40>a journey's beginning</color>>!",
-		key = "mingshi_task_tip_8"
+		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>A</color>>\nThe next target is... <<color=#a0ff40>a journey's beginning</color>>!"
 	},
 	mingshi_task_tip_9 = {
-		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>S</color>>\nThe next target is... <<color=#a0ff40>the land of victory</color>>!",
-		key = "mingshi_task_tip_9"
+		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>S</color>>\nThe next target is... <<color=#a0ff40>the land of victory</color>>!"
 	},
 	mingshi_task_tip_10 = {
-		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>H</color>>\nThe last target is... <<color=#a0ff40>the land of joy and sorrow</color>>!",
-		key = "mingshi_task_tip_10"
+		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>H</color>>\nThe last target is... <<color=#a0ff40>the land of joy and sorrow</color>>!"
 	},
 	mingshi_task_tip_11 = {
-		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>I30</color>>\nThe first target is... <<color=#a0ff40>anchoring</color>>!",
-		key = "mingshi_task_tip_11"
+		tip = "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>I30</color>>\nThe first target is... <<color=#a0ff40>anchoring</color>>!"
 	},
 	word_propose_changename_title = {
-		tip = "$1 is about to become your exclusive ship. Do you want to rename her?",
-		key = "word_propose_changename_title"
+		tip = "$1 is about to become your exclusive ship. Do you want to rename her?"
 	},
 	word_propose_changename_tip1 = {
-		tip = "Show custom ship names (change in settings)",
-		key = "word_propose_changename_tip1"
+		tip = "Show custom ship names (change in settings)"
 	},
 	word_propose_changename_tip2 = {
-		tip = "*May change name once every 30 days",
-		key = "word_propose_changename_tip2"
+		tip = "*May change name once every 30 days"
 	},
 	word_propose_ring_tip = {
-		tip = "Put a ring on your ship!",
-		key = "word_propose_ring_tip"
+		tip = "Put a ring on your ship!"
 	},
 	word_rename_time_tip = {
-		tip = "Please wait another $1 days before naming this exclusive ship!",
-		key = "word_rename_time_tip"
+		tip = "Please wait another $1 days before naming this exclusive ship!"
 	},
 	word_rename_switch_tip = {
-		tip = "Custom names hidden. Head to Settings - Notifications to enable.",
-		key = "word_rename_switch_tip"
+		tip = "Custom names hidden. Head to Settings - Notifications to enable."
 	},
 	word_ssr = {
-		tip = "SR",
-		key = "word_ssr"
+		tip = "SR"
 	},
 	word_sr = {
-		tip = "Elite",
-		key = "word_sr"
+		tip = "Elite"
 	},
 	word_r = {
-		tip = "R",
-		key = "word_r"
+		tip = "R"
 	},
 	ship_renameShip_error = {
-		tip = "Failed to rename ship.",
-		key = "ship_renameShip_error"
+		tip = "Failed to rename ship."
 	},
 	ship_renameShip_error_4 = {
-		tip = "You can't do this at the current time!",
-		key = "ship_renameShip_error_4"
+		tip = "You can't do this at the current time!"
 	},
 	ship_renameShip_error_2011 = {
-		tip = "Name is too long!",
-		key = "ship_renameShip_error_2011"
+		tip = "Name is too long!"
 	},
 	ship_proposeShip_error = {
-		tip = "Failed to promise.",
-		key = "ship_proposeShip_error"
+		tip = "Failed to promise."
 	},
 	ship_proposeShip_error_1 = {
-		tip = "Invalid operation.",
-		key = "ship_proposeShip_error_1"
+		tip = "Invalid operation."
 	},
 	word_rename_time_warning = {
-		tip = "You won't be able to rename your ship for another 30 days. Are you sure you want to rename <color=#a0ff40>$1</color> to <color=#a0ff40>$2</color>?",
-		key = "word_rename_time_warning"
+		tip = "You won't be able to rename your ship for another 30 days. Are you sure you want to rename <color=#a0ff40>$1</color> to <color=#a0ff40>$2</color>?"
 	},
 	word_propose_cost_tip = {
 		tip = [[
@@ -6920,411 +5471,309 @@ Would you like to proceed with the retrofit?
 (You have <color=#a0ff40>$1</color>)</size>
 
 <size=30>*Once promised, your ship will become exclusive and may be renamed. 
-She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
-		key = "word_propose_cost_tip"
+She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]]
 	},
 	evaluate_too_loog = {
-		tip = "Comment is too long.",
-		key = "evaluate_too_loog"
+		tip = "Comment is too long."
 	},
 	evaluate_ban_word = {
-		tip = "Comment contains blocked words.",
-		key = "evaluate_ban_word"
+		tip = "Comment contains blocked words."
 	},
 	activity_level_easy_tip = {
-		tip = "Note: You need to <color=#a0ff40>clear stages on Normal</color> in order to unlock Hard mode.",
-		key = "activity_level_easy_tip"
+		tip = "Note: You need to <color=#a0ff40>clear stages on Normal</color> in order to unlock Hard mode."
 	},
 	activity_level_difficulty_tip = {
-		tip = "Note: While in Hard mode, if you <color=#a0ff40>abandon a Hard stage</color>, you will lose progress for that stage.",
-		key = "activity_level_difficulty_tip"
+		tip = "Note: While in Hard mode, if you <color=#a0ff40>abandon a Hard stage</color>, you will lose progress for that stage."
 	},
 	activity_level_limit_tip = {
-		tip = "<color=#a0ff40>Reach Commander lv. 50 or clear on Normal</color> to unlock Hard mode.",
-		key = "activity_level_limit_tip"
+		tip = "<color=#a0ff40>Reach Commander lv. 50 or clear on Normal</color> to unlock Hard mode."
 	},
 	activity_level_inwarime_tip = {
-		tip = "Stage <color=#a0ff40>$1</color> is currently in progress. Please recall your fleet in order to switch to a different difficulty.",
-		key = "activity_level_inwarime_tip"
+		tip = "Stage <color=#a0ff40>$1</color> is currently in progress. Please recall your fleet in order to switch to a different difficulty."
 	},
 	activity_level_pass_easy_tip = {
-		tip = "You must first <color=#a0ff40>clear this stage on Normal</color> in order to unlock Hard mode.",
-		key = "activity_level_pass_easy_tip"
+		tip = "You must first <color=#a0ff40>clear this stage on Normal</color> in order to unlock Hard mode."
 	},
 	activity_level_is_closed = {
-		tip = "The event stage is closed.",
-		key = "activity_level_is_closed"
+		tip = "The event stage is closed."
 	},
 	activity_switch_tip = {
-		tip = "If you switch to Normal mode, <color=#a0ff40>all progress on Hard mode will be lost</color>. (Note: You must clear the stage on Normal again in order to unlock Hard mode)",
-		key = "activity_switch_tip"
+		tip = "If you switch to Normal mode, <color=#a0ff40>all progress on Hard mode will be lost</color>. (Note: You must clear the stage on Normal again in order to unlock Hard mode)"
 	},
 	reduce_sp3_pass_count = {
-		tip = "SP3クリア回数",
-		key = "reduce_sp3_pass_count"
+		tip = "SP3クリア回数"
 	},
 	qiuqiu_count = {
-		tip = "目標数",
-		key = "qiuqiu_count"
+		tip = "目標数"
 	},
 	qiuqiu_total_count = {
-		tip = "累計数",
-		key = "qiuqiu_total_count"
+		tip = "累計数"
 	},
 	longxiang_count = {
-		tip = "J Talisman target: ",
-		key = "longxiang_count"
+		tip = "J Talisman target: "
 	},
 	longxiang_total_count = {
-		tip = "J Talisman total: ",
-		key = "longxiang_total_count"
+		tip = "J Talisman total: "
 	},
 	pt_count = {
-		tip = "Target $1 :",
-		key = "pt_count"
+		tip = "Target $1 :"
 	},
 	pt_total_count = {
-		tip = "In possession $1 :",
-		key = "pt_total_count"
+		tip = "In possession $1 :"
 	},
 	remould_ship_ok = {
-		tip = "Improved!",
-		key = "remould_ship_ok"
+		tip = "Improved!"
 	},
 	remould_ship_count_more = {
-		tip = "You've selected more than 1 ship.",
-		key = "remould_ship_count_more"
+		tip = "You've selected more than 1 ship."
 	},
 	word_should_input = {
-		tip = "Your search query is empty.",
-		key = "word_should_input"
+		tip = "Your search query is empty."
 	},
 	simulation_advantage_counting = {
-		tip = "Enemy using special tactic in $1s",
-		key = "simulation_advantage_counting"
+		tip = "Enemy using special tactic in $1s"
 	},
 	simulation_disadvantage_counting = {
-		tip = "Enemy using special tactic in $1s",
-		key = "simulation_disadvantage_counting"
+		tip = "Enemy using special tactic in $1s"
 	},
 	simulation_enhancing = {
-		tip = "Enemy has used a special tactic, increasing Reload and DMG!",
-		key = "simulation_enhancing"
+		tip = "Enemy has used a special tactic, increasing Reload and DMG!"
 	},
 	simulation_enhanced = {
-		tip = "Enemy has activated a special tactics.",
-		key = "simulation_enhanced"
+		tip = "Enemy has activated a special tactics."
 	},
 	word_skill_desc_get = {
-		tip = "(Capped $1)",
-		key = "word_skill_desc_get"
+		tip = "(Capped $1)"
 	},
 	word_skill_desc_learn = {
-		tip = "($1)",
-		key = "word_skill_desc_learn"
+		tip = "($1)"
 	},
 	chapter_tip_aovid_succeed = {
-		tip = "Evaded!",
-		key = "chapter_tip_aovid_succeed"
+		tip = "Evaded!"
 	},
 	chapter_tip_aovid_failed = {
-		tip = "Failed to evade.",
-		key = "chapter_tip_aovid_failed"
+		tip = "Failed to evade."
 	},
 	chapter_tip_change = {
-		tip = "Switch formations: $1",
-		key = "chapter_tip_change"
+		tip = "Switch formations: $1"
 	},
 	chapter_tip_use = {
-		tip = "Strategy in use: $1",
-		key = "chapter_tip_use"
+		tip = "Strategy in use: $1"
 	},
 	chapter_tip_with_npc = {
-		tip = "Preparing to begin <color=#D6341DFF>event stage mission</color>.\n<color=#D6341DFF>NPC $1</color> will join the first attacking fleet vanguard.\nPlease leave an open slot in your first attacking fleet.",
-		key = "chapter_tip_with_npc"
+		tip = "Preparing to begin <color=#D6341DFF>event stage mission</color>.\n<color=#D6341DFF>NPC $1</color> will join the first attacking fleet vanguard.\nPlease leave an open slot in your first attacking fleet."
 	},
 	chapter_tip_bp_ammo = {
-		tip = "Appropriate battle preparations have granted Ammo +2.",
-		key = "chapter_tip_bp_ammo"
+		tip = "Appropriate battle preparations have granted Ammo +2."
 	},
 	build_ship_tip = {
-		tip = "Cost to build $2 <color=#D6341DFF>x$1</color>:\n<color=$5>$3 Coins</color> and <color=$5>$4 Wisdom Cubes</color>",
-		key = "build_ship_tip"
+		tip = "Cost to build $2 <color=#D6341DFF>x$1</color>:\n<color=$5>$3 Coins</color> and <color=$5>$4 Wisdom Cubes</color>"
 	},
 	auto_battle_limit_tip = {
-		tip = "Clear Stage 1-3 to unlock auto combat.",
-		key = "auto_battle_limit_tip"
+		tip = "Clear Stage 1-3 to unlock auto combat."
 	},
 	build_ship_quickly_buy_stone = {
-		tip = "Spend <color=#92fc63>$1</color> Gems to buy Wisdom Cube x<color=$3>$2</color>?",
-		key = "build_ship_quickly_buy_stone"
+		tip = "Spend <color=#92fc63>$1</color> Gems to buy Wisdom Cube x<color=$3>$2</color>?"
 	},
 	build_ship_quickly_buy_tool = {
-		tip = "Spend <color=#92fc63>$1</color> Gems to buy Quick Finisher x<color=$3>$2</color>?",
-		key = "build_ship_quickly_buy_tool"
+		tip = "Spend <color=#92fc63>$1</color> Gems to buy Quick Finisher x<color=$3>$2</color>?"
 	},
 	ship_profile_voice_locked = {
-		tip = "Unlock requirements not yet met.",
-		key = "ship_profile_voice_locked"
+		tip = "Unlock requirements not yet met."
 	},
 	ship_profile_skin_locked = {
-		tip = "Skin not yet unlocked.",
-		key = "ship_profile_skin_locked"
+		tip = "Skin not yet unlocked."
 	},
 	ship_profile_words = {
-		tip = "Quotes",
-		key = "ship_profile_words"
+		tip = "Quotes"
 	},
 	ship_profile_action_words = {
-		tip = "Action Quotes",
-		key = "ship_profile_action_words"
+		tip = "Action Quotes"
 	},
 	ship_profile_label_common = {
-		tip = "General",
-		key = "ship_profile_label_common"
+		tip = "General"
 	},
 	ship_profile_label_diff = {
-		tip = "Expressions",
-		key = "ship_profile_label_diff"
+		tip = "Expressions"
 	},
 	level_fleet_lease_one_ship = {
-		tip = "You must leave at least 1 attacking fleet.",
-		key = "level_fleet_lease_one_ship"
+		tip = "You must leave at least 1 attacking fleet."
 	},
 	level_fleet_not_enough = {
-		tip = "Failed to form this fleet. Unable to attack.",
-		key = "level_fleet_not_enough"
+		tip = "Failed to form this fleet. Unable to attack."
 	},
 	level_fleet_outof_limit = {
-		tip = "You may use any more attacking fleets.",
-		key = "level_fleet_outof_limit"
+		tip = "You may use any more attacking fleets."
 	},
 	vote_success = {
-		tip = "Voted!",
-		key = "vote_success"
+		tip = "Voted!"
 	},
 	vote_not_enough = {
-		tip = "You do not have enough Ballots. ",
-		key = "vote_not_enough"
+		tip = "You do not have enough Ballots. "
 	},
 	vote_love_not_enough = {
-		tip = "You don't have enough special votes left.",
-		key = "vote_love_not_enough"
+		tip = "You don't have enough special votes left."
 	},
 	vote_love_limit = {
-		tip = "Vote on this character first today before using a special vote.",
-		key = "vote_love_limit"
+		tip = "Vote on this character first today before using a special vote."
 	},
 	vote_love_confirm = {
-		tip = "Are you sure you want to use a special vote?",
-		key = "vote_love_confirm"
+		tip = "Are you sure you want to use a special vote?"
 	},
 	vote_primary_rule = {
-		tip = "",
-		key = "vote_primary_rule"
+		tip = ""
 	},
 	vote_final_title1 = {
-		tip = "Runoff!",
-		key = "vote_final_title1"
+		tip = "Runoff!"
 	},
 	vote_final_rule1 = {
-		tip = "12 characters will be selected at the beginning of the event. Voting remains open for 10 days. Total votes are reset to zero before the event starts.",
-		key = "vote_final_rule1"
+		tip = "12 characters will be selected at the beginning of the event. Voting remains open for 10 days. Total votes are reset to zero before the event starts."
 	},
 	vote_final_title2 = {
-		tip = "Event Rewards",
-		key = "vote_final_title2"
+		tip = "Event Rewards"
 	},
 	vote_final_rule2 = {
-		tip = "Wedding dresses will be made for characters based on rankings. If the champion already has a wedding dress, the second place character will receive the dress.",
-		key = "vote_final_rule2"
+		tip = "Wedding dresses will be made for characters based on rankings. If the champion already has a wedding dress, the second place character will receive the dress."
 	},
 	vote_vote_time = {
-		tip = "Voting window: $1 - $2",
-		key = "vote_vote_time"
+		tip = "Voting window: $1 - $2"
 	},
 	vote_vote_count = {
-		tip = "$1 votes",
-		key = "vote_vote_count"
+		tip = "$1 votes"
 	},
 	vote_vote_group = {
-		tip = "Group $1",
-		key = "vote_vote_group"
+		tip = "Group $1"
 	},
 	vote_rank_refresh_time = {
-		tip = "*Rankings refresh every 30 minutes",
-		key = "vote_rank_refresh_time"
+		tip = "*Rankings refresh every 30 minutes"
 	},
 	vote_rank_in_current_server = {
-		tip = "*Rankings are for current server only",
-		key = "vote_rank_in_current_server"
+		tip = "*Rankings are for current server only"
 	},
 	words_auto_battle_label = {
-		tip = "Auto Combat Alert ",
-		key = "words_auto_battle_label"
+		tip = "Auto Combat Alert "
 	},
 	words_show_ship_name_label = {
-		tip = "Custom Ship Name",
-		key = "words_show_ship_name_label"
+		tip = "Custom Ship Name"
 	},
 	words_rare_ship_vibrate = {
-		tip = "New Ship Buzz",
-		key = "words_rare_ship_vibrate"
+		tip = "New Ship Buzz"
 	},
 	words_display_ship_get_effect = {
-		tip = "Identical Ships",
-		key = "words_display_ship_get_effect"
+		tip = "Identical Ships"
 	},
 	words_show_touch_effect = {
-		tip = "Show tap marker",
-		key = "words_show_touch_effect"
+		tip = "Show tap marker"
 	},
 	words_bg_fit_mode = {
-		tip = "Auto-adjust loading \nscreen aspect ratio",
-		key = "words_bg_fit_mode"
+		tip = "Auto-adjust loading \nscreen aspect ratio"
 	},
 	activity_puzzle_get1 = {
-		tip = "<color=#A9F548FF>How to get: \nmission 7</color>",
-		key = "activity_puzzle_get1"
+		tip = "<color=#A9F548FF>How to get: \nmission 7</color>"
 	},
 	activity_puzzle_get2 = {
-		tip = "<color=#A9F548FF>How to get: Normal difficulty 2-1</color>",
-		key = "activity_puzzle_get2"
+		tip = "<color=#A9F548FF>How to get: Normal difficulty 2-1</color>"
 	},
 	activity_puzzle_get3 = {
-		tip = "<color=#A9F548FF>How to get: Normal difficulty 2-3</color>",
-		key = "activity_puzzle_get3"
+		tip = "<color=#A9F548FF>How to get: Normal difficulty 2-3</color>"
 	},
 	activity_puzzle_get4 = {
-		tip = "<color=#A9F548FF>How to get: Normal difficulty 3-1</color>",
-		key = "activity_puzzle_get4"
+		tip = "<color=#A9F548FF>How to get: Normal difficulty 3-1</color>"
 	},
 	activity_puzzle_get5 = {
-		tip = "<color=#A9F548FF>How to get: Normal difficulty 3-3</color>",
-		key = "activity_puzzle_get5"
+		tip = "<color=#A9F548FF>How to get: Normal difficulty 3-3</color>"
 	},
 	activity_puzzle_get6 = {
-		tip = "<color=#A9F548FF>How to get: Normal difficulty 3-4</color>",
-		key = "activity_puzzle_get6"
+		tip = "<color=#A9F548FF>How to get: Normal difficulty 3-4</color>"
 	},
 	activity_puzzle_get7 = {
-		tip = "<color=#A9F548FF>How to get: Normal difficulty 2-2</color>",
-		key = "activity_puzzle_get7"
+		tip = "<color=#A9F548FF>How to get: Normal difficulty 2-2</color>"
 	},
 	activity_puzzle_get8 = {
-		tip = "<color=#A9F548FF>How to get: Normal difficulty 2-4</color>",
-		key = "activity_puzzle_get8"
+		tip = "<color=#A9F548FF>How to get: Normal difficulty 2-4</color>"
 	},
 	activity_puzzle_get9 = {
-		tip = "<color=#A9F548FF>How to get: Normal difficulty 3-2</color>",
-		key = "activity_puzzle_get9"
+		tip = "<color=#A9F548FF>How to get: Normal difficulty 3-2</color>"
 	},
 	activity_puzzle_get10 = {
-		tip = "<color=#A9F548FF>How to get: \nmission 1</color>",
-		key = "activity_puzzle_get10"
+		tip = "<color=#A9F548FF>How to get: \nmission 1</color>"
 	},
 	activity_puzzle_get11 = {
-		tip = "<color=#A9F548FF>How to get: \nmission 2</color>",
-		key = "activity_puzzle_get11"
+		tip = "<color=#A9F548FF>How to get: \nmission 2</color>"
 	},
 	activity_puzzle_get12 = {
-		tip = "<color=#A9F548FF>How to get: \nmission 3</color>",
-		key = "activity_puzzle_get12"
+		tip = "<color=#A9F548FF>How to get: \nmission 3</color>"
 	},
 	activity_puzzle_get13 = {
-		tip = "<color=#A9F548FF>How to get: \nmission 4</color>",
-		key = "activity_puzzle_get13"
+		tip = "<color=#A9F548FF>How to get: \nmission 4</color>"
 	},
 	activity_puzzle_get14 = {
-		tip = "<color=#A9F548FF>How to get: \nmission 5</color>",
-		key = "activity_puzzle_get14"
+		tip = "<color=#A9F548FF>How to get: \nmission 5</color>"
 	},
 	activity_puzzle_get15 = {
-		tip = "<color=#A9F548FF>How to get: \nmission 6</color>",
-		key = "activity_puzzle_get15"
+		tip = "<color=#A9F548FF>How to get: \nmission 6</color>"
 	},
 	word_stopremain_build = {
-		tip = "Do not show again",
-		key = "word_stopremain_build"
+		tip = "Do not show again"
 	},
 	word_stopremain_default = {
-		tip = "Do not show again",
-		key = "word_stopremain_default"
+		tip = "Do not show again"
 	},
 	transcode_desc = {
-		tip = "·引き続ぎパスワードの有効期間は<color=#FF0000>7日間</color>です。期間を過ぎた場合は旧端末から発行し直して下さい。\n·引続ぎパスワードを使ったデータ引き続ぎは、<color=#ff0000>30日間</color>で実行できます。",
-		key = "transcode_desc"
+		tip = "·引き続ぎパスワードの有効期間は<color=#FF0000>7日間</color>です。期間を過ぎた場合は旧端末から発行し直して下さい。\n·引続ぎパスワードを使ったデータ引き続ぎは、<color=#ff0000>30日間</color>で実行できます。"
 	},
 	transcode_empty_tip = {
-		tip = "Please enter UID and transfer code",
-		key = "transcode_empty_tip"
+		tip = "Please enter UID and transfer code"
 	},
 	set_birth_title = {
-		tip = "Set Birthday",
-		key = "set_birth_title"
+		tip = "Set Birthday"
 	},
 	set_birth_confirm_tip = {
-		tip = "Confirm your birthday: $1",
-		key = "set_birth_confirm_tip"
+		tip = "Confirm your birthday: $1"
 	},
 	set_birth_empty_tip = {
-		tip = "Enter a valid birthday",
-		key = "set_birth_empty_tip"
+		tip = "Enter a valid birthday"
 	},
 	set_birth_success = {
-		tip = "Birthday set successfully!",
-		key = "set_birth_success"
+		tip = "Birthday set successfully!"
 	},
 	clear_transcode_cache_confirm = {
-		tip = "Are you sure you want to clear the transfer code?",
-		key = "clear_transcode_cache_confirm"
+		tip = "Are you sure you want to clear the transfer code?"
 	},
 	clear_transcode_cache_success = {
-		tip = "Transfer Code cleared.",
-		key = "clear_transcode_cache_success"
+		tip = "Transfer Code cleared."
 	},
 	exchange_item_success = {
-		tip = "Redeemed!",
-		key = "exchange_item_success"
+		tip = "Redeemed!"
 	},
 	give_up_cloth_change = {
-		tip = "Do you want to apply the skin later?",
-		key = "give_up_cloth_change"
+		tip = "Do you want to apply the skin later?"
 	},
 	err_cloth_change_noship = {
-		tip = "Not received: $1",
-		key = "err_cloth_change_noship"
+		tip = "Not received: $1"
 	},
 	need_break_tip = {
-		tip = "Limit break required.",
-		key = "need_break_tip"
+		tip = "Limit break required."
 	},
 	max_level_notice = {
-		tip = "Current level cap reached! Limit break to increase level cap to lv. $1.",
-		key = "max_level_notice"
+		tip = "Current level cap reached! Limit break to increase level cap to lv. $1."
 	},
 	new_skin_no_choose = {
-		tip = "You have not selected a ship to change. Close without making any changes?",
-		key = "new_skin_no_choose"
+		tip = "You have not selected a ship to change. Close without making any changes?"
 	},
 	sure_resume_volume = {
-		tip = "Restore default volume settings?",
-		key = "sure_resume_volume"
+		tip = "Restore default volume settings?"
 	},
 	course_class_not_ready = {
-		tip = "The teacher and students aren't here yet! Class can't begin until they arrive.",
-		key = "course_class_not_ready"
+		tip = "The teacher and students aren't here yet! Class can't begin until they arrive."
 	},
 	course_student_max_level = {
-		tip = "One of the students is fully leveled up. Unable to begin class!",
-		key = "course_student_max_level"
+		tip = "One of the students is fully leveled up. Unable to begin class!"
 	},
 	course_stop_confirm = {
-		tip = "End the lecture now?",
-		key = "course_stop_confirm"
+		tip = "End the lecture now?"
 	},
 	course_class_help = {
-		key = "course_class_help",
 		tip = {
 			{
 				info = [[
@@ -7365,379 +5814,285 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		}
 	},
 	course_class_name = {
-		tip = "Today's Lecture: $1",
-		key = "course_class_name"
+		tip = "Today's Lecture: $1"
 	},
 	course_proficiency_not_enough = {
-		tip = "You do not have enough Proficiency.",
-		key = "course_proficiency_not_enough"
+		tip = "You do not have enough Proficiency."
 	},
 	course_state_rest = {
-		tip = "Setting Up",
-		key = "course_state_rest"
+		tip = "Setting Up"
 	},
 	course_state_lession = {
-		tip = "Elapsed Time:",
-		key = "course_state_lession"
+		tip = "Elapsed Time:"
 	},
 	course_energy_not_enough = {
-		tip = "<color=#92fc63>$1</color> has too low Morale to attend the Lecture.",
-		key = "course_energy_not_enough"
+		tip = "<color=#92fc63>$1</color> has too low Morale to attend the Lecture."
 	},
 	course_proficiency_tip = {
-		tip = "When you sortie with ships that are <material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>Level $1</color></material> or higher, the Lecture Hall will automatically store <material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$2%</color></material> of the EXP they earn in the form of Proficiency.",
-		key = "course_proficiency_tip"
+		tip = "When you sortie with ships that are <material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>Level $1</color></material> or higher, the Lecture Hall will automatically store <material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$2%</color></material> of the EXP they earn in the form of Proficiency."
 	},
 	course_sunday_tip = {
-		tip = "Lecture Hall is closed today, Proficiency acquired will be doubled. ",
-		key = "course_sunday_tip"
+		tip = "Lecture Hall is closed today, Proficiency acquired will be doubled. "
 	},
 	course_exit_confirm = {
-		tip = "The Lecture has not started yet. Would you like to leave the Lecture Hall?",
-		key = "course_exit_confirm"
+		tip = "The Lecture has not started yet. Would you like to leave the Lecture Hall?"
 	},
 	course_learning = {
-		tip = "A Lecture has already commenced.",
-		key = "course_learning"
+		tip = "A Lecture has already commenced."
 	},
 	time_remaining_tip = {
-		tip = "Time left: ",
-		key = "time_remaining_tip"
+		tip = "Time left: "
 	},
 	propose_intimacy_tip = {
-		tip = "Reach 100 Affinity\n   (Current: $1)",
-		key = "propose_intimacy_tip"
+		tip = "Reach 100 Affinity\n   (Current: $1)"
 	},
 	no_found_record_equipment = {
-		tip = "No spare $1 gear found. Would you like the system to search for similar gear of a different enhance level?",
-		key = "no_found_record_equipment"
+		tip = "No spare $1 gear found. Would you like the system to search for similar gear of a different enhance level?"
 	},
 	sec_floor_limit_tip = {
-		tip = "Unlocks after first floor of dorm is expanded.",
-		key = "sec_floor_limit_tip"
+		tip = "Unlocks after first floor of dorm is expanded."
 	},
 	guild_shop_flash_success = {
-		tip = "Refreshed!",
-		key = "guild_shop_flash_success"
+		tip = "Refreshed!"
 	},
 	destroy_high_rarity_tip = {
-		tip = "<color=#92fc63>Elite and above</color>",
-		key = "destroy_high_rarity_tip"
+		tip = "<color=#92fc63>Elite and above</color>"
 	},
 	destroy_high_level_tip = {
-		tip = "<color=#92fc63>$1 is higher than lv. 1</color>",
-		key = "destroy_high_level_tip"
+		tip = "<color=#92fc63>$1 is higher than lv. 1</color>"
 	},
 	destroy_eliteequipment_tip = {
-		tip = "You are about to destroy $1 gear.\nAre you sure you want to continue?",
-		key = "destroy_eliteequipment_tip"
+		tip = "You are about to destroy $1 gear.\nAre you sure you want to continue?"
 	},
 	destroy_high_intensify_tip = {
-		tip = "<color=#92fc63>$1 enhanced</color>",
-		key = "destroy_high_intensify_tip"
+		tip = "<color=#92fc63>$1 enhanced</color>"
 	},
 	ship_quick_change_noequip = {
-		tip = "Unable to find usable gear.",
-		key = "ship_quick_change_noequip"
+		tip = "Unable to find usable gear."
 	},
 	ship_quick_change_nofreeequip = {
-		tip = "No spare gear matches your requirements.",
-		key = "ship_quick_change_nofreeequip"
+		tip = "No spare gear matches your requirements."
 	},
 	word_nowenergy = {
-		tip = "Current Mood",
-		key = "word_nowenergy"
+		tip = "Current Mood"
 	},
 	word_energy_recov_speed = {
-		tip = "Recovery Speed",
-		key = "word_energy_recov_speed"
+		tip = "Recovery Speed"
 	},
 	destroy_eliteship_tip = {
-		tip = "You've selected a $1 ship. Continue?",
-		key = "destroy_eliteship_tip"
+		tip = "You've selected a $1 ship. Continue?"
 	},
 	err_resloveequip_nochoice = {
-		tip = "You have not selected any gear.",
-		key = "err_resloveequip_nochoice"
+		tip = "You have not selected any gear."
 	},
 	take_nothing = {
-		tip = "There's nothing to collect.",
-		key = "take_nothing"
+		tip = "There's nothing to collect."
 	},
 	take_all_mail = {
-		tip = "Are you sure you want to collect <color=#92fc63>$1 rewards</color> from mail?\nYou will receive: ",
-		key = "take_all_mail"
+		tip = "Are you sure you want to collect <color=#92fc63>$1 rewards</color> from mail?\nYou will receive: "
 	},
 	buy_furniture_overtime = {
-		tip = "Unable to purchase this decoration at this time.",
-		key = "buy_furniture_overtime"
+		tip = "Unable to purchase this decoration at this time."
 	},
 	twitter_login_tips = {
-		tip = "You will lose your current account progress if you use 3rd-party logins, continue? ",
-		key = "twitter_login_tips"
+		tip = "You will lose your current account progress if you use 3rd-party logins, continue? "
 	},
 	data_erro = {
-		tip = "寮舎データにエラーが発生しました",
-		key = "data_erro"
+		tip = "寮舎データにエラーが発生しました"
 	},
 	login_failed = {
-		tip = "ログイン失敗",
-		key = "login_failed"
+		tip = "ログイン失敗"
 	},
 	["not yet completed"] = {
-		tip = "尚未完成",
-		key = "not yet completed"
+		tip = "尚未完成"
 	},
 	escort_less_count_to_combat = {
-		tip = "You cannot run this any more today. ",
-		key = "escort_less_count_to_combat"
+		tip = "You cannot run this any more today. "
 	},
 	level_risk_level_desc = {
-		tip = " $1\n\n",
-		key = "level_risk_level_desc"
+		tip = " $1\n\n"
 	},
 	level_risk_level_mitigation_rate = {
-		tip = "<size=28>Threat Level Evaluation:<color=#92fc63>【$1】</color>\nDamage reduction received when sortieing: <color=#92fc63>$2%</color></size> ",
-		key = "level_risk_level_mitigation_rate"
+		tip = "<size=28>Threat Level Evaluation:<color=#92fc63>【$1】</color>\nDamage reduction received when sortieing: <color=#92fc63>$2%</color></size> "
 	},
 	level_diffcult_chapter_state_safety = {
-		tip = "<size=24>After you achieve <color=#92fc63>3 stars</color> in the stage and make it a <color=#92fc63>safe area</color>,\nyour fleets can attack <color=#92fc63>enemy flagships</color> directly.</size>",
-		key = "level_diffcult_chapter_state_safety"
+		tip = "<size=24>After you achieve <color=#92fc63>3 stars</color> in the stage and make it a <color=#92fc63>safe area</color>,\nyour fleets can attack <color=#92fc63>enemy flagships</color> directly.</size>"
 	},
 	level_chapter_state_high_risk = {
-		tip = "<color=#EE2C00>【Threat: Lethal】</color>",
-		key = "level_chapter_state_high_risk"
+		tip = "<color=#EE2C00>【Threat: Lethal】</color>"
 	},
 	level_chapter_state_risk = {
-		tip = "<color=#FFAF59>【Threat: Med】</color>",
-		key = "level_chapter_state_risk"
+		tip = "<color=#FFAF59>【Threat: Med】</color>"
 	},
 	level_chapter_state_low_risk = {
-		tip = "<color=#8AFBF3>【Threat: Low】</color>",
-		key = "level_chapter_state_low_risk"
+		tip = "<color=#8AFBF3>【Threat: Low】</color>"
 	},
 	level_chapter_state_safety = {
-		tip = "<color=#92fc63>【Threat: Safe】</color>",
-		key = "level_chapter_state_safety"
+		tip = "<color=#92fc63>【Threat: Safe】</color>"
 	},
 	open_skill_class_success = {
-		tip = "Successfully Unlocked Skill Slot ",
-		key = "open_skill_class_success"
+		tip = "Successfully Unlocked Skill Slot "
 	},
 	backyard_sort_tag_default = {
-		tip = "ID",
-		key = "backyard_sort_tag_default"
+		tip = "ID"
 	},
 	backyard_sort_tag_price = {
-		tip = "Price ",
-		key = "backyard_sort_tag_price"
+		tip = "Price "
 	},
 	backyard_sort_tag_comfortable = {
-		tip = "Comfort",
-		key = "backyard_sort_tag_comfortable"
+		tip = "Comfort"
 	},
 	backyard_sort_tag_size = {
-		tip = "Size",
-		key = "backyard_sort_tag_size"
+		tip = "Size"
 	},
 	backyard_filter_tag_other = {
-		tip = "Other",
-		key = "backyard_filter_tag_other"
+		tip = "Other"
 	},
 	word_status_inFight = {
-		tip = "<size=20>Engaged</size>",
-		key = "word_status_inFight"
+		tip = "<size=20>Engaged</size>"
 	},
 	word_status_inPVP = {
-		tip = "<size=20>Exercising</size>",
-		key = "word_status_inPVP"
+		tip = "<size=20>Exercising</size>"
 	},
 	word_status_inEvent = {
-		tip = "<size=20>In action</size>",
-		key = "word_status_inEvent"
+		tip = "<size=20>In action</size>"
 	},
 	word_status_inEventFinished = {
-		tip = "<size=20>Completed</size>",
-		key = "word_status_inEventFinished"
+		tip = "<size=20>Completed</size>"
 	},
 	word_status_inTactics = {
-		tip = "<size=20>Studying</size>",
-		key = "word_status_inTactics"
+		tip = "<size=20>Studying</size>"
 	},
 	word_status_inClass = {
-		tip = "<size=20>In class</size>",
-		key = "word_status_inClass"
+		tip = "<size=20>In class</size>"
 	},
 	word_status_rest = {
-		tip = "<size=20>Resting</size>",
-		key = "word_status_rest"
+		tip = "<size=20>Resting</size>"
 	},
 	word_status_train = {
-		tip = "<size=20>Training</size>",
-		key = "word_status_train"
+		tip = "<size=20>Training</size>"
 	},
 	word_status_challenge = {
-		tip = "In Challenge Mode ",
-		key = "word_status_challenge"
+		tip = "In Challenge Mode "
 	},
 	challenge_rule = {
-		tip = "gametips:challenge_rule",
-		key = "challenge_rule"
+		tip = "gametips:challenge_rule"
 	},
 	challenge_exit_warning = {
-		tip = "Retreating from this battle will end your Challenge Mode run and finalize the score you had before this current level. \nAre you sure you wish to retreat?",
-		key = "challenge_exit_warning"
+		tip = "Retreating from this battle will end your Challenge Mode run and finalize the score you had before this current level. \nAre you sure you wish to retreat?"
 	},
 	challenge_fleet_type_fail = {
-		tip = "You've already selected two ships of the same type.",
-		key = "challenge_fleet_type_fail"
+		tip = "You've already selected two ships of the same type."
 	},
 	challenge_current_level = {
-		tip = "Current Level: Round $1",
-		key = "challenge_current_level"
+		tip = "Current Level: Round $1"
 	},
 	challenge_current_score = {
-		tip = "Points Earned: $1",
-		key = "challenge_current_score"
+		tip = "Points Earned: $1"
 	},
 	challenge_total_score = {
-		tip = "High Score: $1",
-		key = "challenge_total_score"
+		tip = "High Score: $1"
 	},
 	challenge_current_progress = {
-		tip = "Challenge Mode Round $1",
-		key = "challenge_current_progress"
+		tip = "Challenge Mode Round $1"
 	},
 	challenge_count_unlimit = {
-		tip = "Endless Mode",
-		key = "challenge_count_unlimit"
+		tip = "Endless Mode"
 	},
 	challenge_no_fleet = {
-		tip = "No eligible fleet, unable to sortie.",
-		key = "challenge_no_fleet"
+		tip = "No eligible fleet, unable to sortie."
 	},
 	equipment_skin_unload = {
-		tip = "The weapon Skin has been unapplied and stored in your storage",
-		key = "equipment_skin_unload"
+		tip = "The weapon Skin has been unapplied and stored in your storage"
 	},
 	equipment_skin_no_old_ship = {
-		tip = "The (old ship) does not exist",
-		key = "equipment_skin_no_old_ship"
+		tip = "The (old ship) does not exist"
 	},
 	equipment_skin_no_old_skinorequipment = {
-		tip = "The (old ship) has no weapon or weapon skin equipped/applied",
-		key = "equipment_skin_no_old_skinorequipment"
+		tip = "The (old ship) has no weapon or weapon skin equipped/applied"
 	},
 	equipment_skin_no_new_ship = {
-		tip = "The ship does not exist",
-		key = "equipment_skin_no_new_ship"
+		tip = "The ship does not exist"
 	},
 	equipment_skin_no_new_equipment = {
-		tip = "The ship has no weapon equipped",
-		key = "equipment_skin_no_new_equipment"
+		tip = "The ship has no weapon equipped"
 	},
 	equipment_skin_count_noenough = {
-		tip = "Not enough weapon skin",
-		key = "equipment_skin_count_noenough"
+		tip = "Not enough weapon skin"
 	},
 	equipment_skin_replace_done = {
-		tip = "Weapon skin change successful",
-		key = "equipment_skin_replace_done"
+		tip = "Weapon skin change successful"
 	},
 	equipment_skin_unload_failed = {
-		tip = "Failed to apply skin on the new ship",
-		key = "equipment_skin_unload_failed"
+		tip = "Failed to apply skin on the new ship"
 	},
 	equipment_skin_unmatch_equipment = {
-		tip = "Weapon skin does not much your weapon, it has been unapplied stored in your storage",
-		key = "equipment_skin_unmatch_equipment"
+		tip = "Weapon skin does not much your weapon, it has been unapplied stored in your storage"
 	},
 	equipment_skin_no_equipment_tip = {
-		tip = "Unable to apply the weapon skin, please equip a weapon first",
-		key = "equipment_skin_no_equipment_tip"
+		tip = "Unable to apply the weapon skin, please equip a weapon first"
 	},
 	activity_pool_awards_empty = {
-		tip = "This phase has been completed",
-		key = "activity_pool_awards_empty"
+		tip = "This phase has been completed"
 	},
 	activity_switch_award_pool_failed = {
-		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase",
-		key = "activity_switch_award_pool_failed"
+		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during\n(<color=#A1E400FF>3.26 – 4.8</COLOR>)!",
-		key = "shop_street_activity_tip"
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during\n(<color=#A1E400FF>3.26 – 4.8</COLOR>)!"
 	},
 	twitter_link_title = {
-		tip = "Twitter Account:$1",
-		key = "twitter_link_title"
+		tip = "Twitter Account:$1"
 	},
 	battle_result_boss_destruct = {
-		tip = "Defeat the boss before it self-destructs",
-		key = "battle_result_boss_destruct"
+		tip = "Defeat the boss before it self-destructs"
 	},
 	battle_preCombatLayer_boss_destruct = {
-		tip = "Defeat the boss before it self-destructs",
-		key = "battle_preCombatLayer_boss_destruct"
+		tip = "Defeat the boss before it self-destructs"
 	},
 	destory_important_equipment_tip = {
-		tip = "Confirm to dissemble <color=#FFDE00FF>“$1”</color>? Type in the name of the equipment to continue.",
-		key = "destory_important_equipment_tip"
+		tip = "Confirm to dissemble <color=#FFDE00FF>“$1”</color>? Type in the name of the equipment to continue."
 	},
 	destory_important_equipment_input_erro = {
-		tip = "Name does not match",
-		key = "destory_important_equipment_input_erro"
+		tip = "Name does not match"
 	},
 	activity_hit_monster_nocount = {
-		tip = "Insufficient credits",
-		key = "activity_hit_monster_nocount"
+		tip = "Insufficient credits"
 	},
 	activity_hit_monster_death = {
-		tip = "The Nian has already been defeated",
-		key = "activity_hit_monster_death"
+		tip = "The Nian has already been defeated"
 	},
 	activity_hit_monster_help = {
-		tip = "年獣ミニゲームルール",
-		key = "activity_hit_monster_help"
+		tip = "年獣ミニゲームルール"
 	},
 	activity_hit_monster_erro = {
-		tip = "Attack failed ",
-		key = "activity_hit_monster_erro"
+		tip = "Attack failed "
 	},
 	activity_xiaotiane_progress = {
-		tip = "Progress: \n$1/$2",
-		key = "activity_xiaotiane_progress"
+		tip = "Progress: \n$1/$2"
 	},
 	activity_hit_monster_reset_tip = {
-		tip = "Would you like to play Fu Shun's Great Adventure again? Completing this challenge multiple times will not yield additional rewards. ",
-		key = "activity_hit_monster_reset_tip"
+		tip = "Would you like to play Fu Shun's Great Adventure again? Completing this challenge multiple times will not yield additional rewards. "
 	},
 	equip_skin_detail_tip = {
-		tip = "It contains Gear Skins listed below:",
-		key = "equip_skin_detail_tip"
+		tip = "It contains Gear Skins listed below:"
 	},
 	emoji_type_0 = {
-		tip = "Recent",
-		key = "emoji_type_0"
+		tip = "Recent"
 	},
 	emoji_type_1 = {
-		tip = "Default",
-		key = "emoji_type_1"
+		tip = "Default"
 	},
 	emoji_type_2 = {
-		tip = "Animated",
-		key = "emoji_type_2"
+		tip = "Animated"
 	},
 	emoji_type_3 = {
-		tip = "Pixel ",
-		key = "emoji_type_3"
+		tip = "Pixel "
 	},
 	emoji_type_4 = {
-		tip = "Cartoon ",
-		key = "emoji_type_4"
+		tip = "Cartoon "
 	},
 	card_pairs_help_tip = {
-		key = "card_pairs_help_tip",
 		tip = {
 			{
 				info = "Event Information："
@@ -7766,20 +6121,16 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		}
 	},
 	card_pairs_tips = {
-		tip = "You cannot acquire any more Memory Cards today. Would you still like to play the game?",
-		key = "card_pairs_tips"
+		tip = "You cannot acquire any more Memory Cards today. Would you still like to play the game?"
 	},
 	upgrade_to_next_maxlevel_failed = {
-		tip = "This ship is at the Max Level.\nFor now, you cannot Cognitively Awaken it any further.",
-		key = "upgrade_to_next_maxlevel_failed"
+		tip = "This ship is at the Max Level.\nFor now, you cannot Cognitively Awaken it any further."
 	},
 	upgrade_to_next_maxlevel_tip = {
-		tip = "The resources below will be used to induce a Cognitive Awakening and increase this ship's Level Cap.\nLevel Cap increase after Cognitive Awakening:",
-		key = "upgrade_to_next_maxlevel_tip"
+		tip = "The resources below will be used to induce a Cognitive Awakening and increase this ship's Level Cap.\nLevel Cap increase after Cognitive Awakening:"
 	},
 	upgrade_to_next_maxlevel_succeed = {
-		tip = "Cognitive Awakening Complete\nThis ship's Level Cap has increased to Level <color=#92fc63FF>$1</color>",
-		key = "upgrade_to_next_maxlevel_succeed"
+		tip = "Cognitive Awakening Complete\nThis ship's Level Cap has increased to Level <color=#92fc63FF>$1</color>"
 	},
 	extra_chapter_socre_tip = {
 		tip = [[
@@ -7787,159 +6138,120 @@ Current Record: <color=#92fc63>$1</color>
 
 Record Best: <color=#92fc63>$2</color>
 
-$3]],
-		key = "extra_chapter_socre_tip"
+$3]]
 	},
 	extra_chapter_record_updated = {
-		tip = "New Record",
-		key = "extra_chapter_record_updated"
+		tip = "New Record"
 	},
 	extra_chapter_record_not_updated = {
-		tip = "Record Unchanged",
-		key = "extra_chapter_record_not_updated"
+		tip = "Record Unchanged"
 	},
 	extra_chapter_locked_tip = {
-		tip = "Pass Hard Mode to unlock EX Mode",
-		key = "extra_chapter_locked_tip"
+		tip = "Pass Hard Mode to unlock EX Mode"
 	},
 	extra_chapter_locked_tip_1 = {
-		tip = "Unlocks once you have completed the last stage of the event on Normal Mode. ",
-		key = "extra_chapter_locked_tip_1"
+		tip = "Unlocks once you have completed the last stage of the event on Normal Mode. "
 	},
 	player_name_change_time_lv_tip = {
-		tip = "Identity Change will be available when you reach lv.<color=#92fc63>$1</color>",
-		key = "player_name_change_time_lv_tip"
+		tip = "Identity Change will be available when you reach lv.<color=#92fc63>$1</color>"
 	},
 	player_name_change_time_limit_tip = {
-		tip = "Subsequent Identity Change will be available after <color=#92fc63>$1</color>",
-		key = "player_name_change_time_limit_tip"
+		tip = "Subsequent Identity Change will be available after <color=#92fc63>$1</color>"
 	},
 	player_name_change_windows_tip = {
-		tip = "*It will cost you <color=#92fc63>$1:$2</color> to change your name, you will not be able to do it again in <color=#92fc63>30</color> days.",
-		key = "player_name_change_windows_tip"
+		tip = "*It will cost you <color=#92fc63>$1:$2</color> to change your name, you will not be able to do it again in <color=#92fc63>30</color> days."
 	},
 	player_name_change_warning = {
-		tip = "It will cost you <color=#92fc63>$1</color> <color=#92fc63>$2</color>, are you sure you want to change your Commander’s name to <color=#92fc63>$3</color>?",
-		key = "player_name_change_warning"
+		tip = "It will cost you <color=#92fc63>$1</color> <color=#92fc63>$2</color>, are you sure you want to change your Commander’s name to <color=#92fc63>$3</color>?"
 	},
 	task_is_not_existence = {
-		tip = "Mission $1 unavailable now.",
-		key = "task_is_not_existence"
+		tip = "Mission $1 unavailable now."
 	},
 	cannot_build_multiple_printblue = {
-		tip = "Would you like to pause <color=#92fc63>$1</color>'s development and start on <color=#92fc63>$2</color> instead? Your development progress will be saved.\nOnce you start or resume development, you can not change which ship to develop for <color=#92fc63>24 hours</color>. ",
-		key = "cannot_build_multiple_printblue"
+		tip = "Would you like to pause <color=#92fc63>$1</color>'s development and start on <color=#92fc63>$2</color> instead? Your development progress will be saved.\nOnce you start or resume development, you can not change which ship to develop for <color=#92fc63>24 hours</color>. "
 	},
 	printblue_build_success = {
-		tip = "Development started.",
-		key = "printblue_build_success"
+		tip = "Development started."
 	},
 	printblue_build_erro = {
-		tip = "Development failed.",
-		key = "printblue_build_erro"
+		tip = "Development failed."
 	},
 	blueprint_mod_success = {
-		tip = "Successfully enhanced.",
-		key = "blueprint_mod_success"
+		tip = "Successfully enhanced."
 	},
 	blueprint_mod_erro = {
-		tip = "Failed to enhance.",
-		key = "blueprint_mod_erro"
+		tip = "Failed to enhance."
 	},
 	technology_refresh_sucess = {
-		tip = "Successfully updated Research Project list.",
-		key = "technology_refresh_sucess"
+		tip = "Successfully updated Research Project list."
 	},
 	technology_refresh_erro = {
-		tip = "Failed to update Research Project list.",
-		key = "technology_refresh_erro"
+		tip = "Failed to update Research Project list."
 	},
 	change_technology_refresh_sucess = {
-		tip = "Successfully changed Research Projects.",
-		key = "change_technology_refresh_sucess"
+		tip = "Successfully changed Research Projects."
 	},
 	change_technology_refresh_erro = {
-		tip = "Failed to change Research Projects.",
-		key = "change_technology_refresh_erro"
+		tip = "Failed to change Research Projects."
 	},
 	technology_start_up = {
-		tip = "Research started.",
-		key = "technology_start_up"
+		tip = "Research started."
 	},
 	technology_start_erro = {
-		tip = "Research failed.",
-		key = "technology_start_erro"
+		tip = "Research failed."
 	},
 	technology_stop_success = {
-		tip = "Successfully suspended research.",
-		key = "technology_stop_success"
+		tip = "Successfully suspended research."
 	},
 	technology_stop_erro = {
-		tip = "Failed to suspend research.",
-		key = "technology_stop_erro"
+		tip = "Failed to suspend research."
 	},
 	technology_finish_success = {
-		tip = "Successfully completed Research.",
-		key = "technology_finish_success"
+		tip = "Successfully completed Research."
 	},
 	technology_finish_erro = {
-		tip = "Failed to complete Research.",
-		key = "technology_finish_erro"
+		tip = "Failed to complete Research."
 	},
 	blueprint_stop_success = {
-		tip = "Successfully suspended development.",
-		key = "blueprint_stop_success"
+		tip = "Successfully suspended development."
 	},
 	blueprint_stop_erro = {
-		tip = "Failed to suspend development.",
-		key = "blueprint_stop_erro"
+		tip = "Failed to suspend development."
 	},
 	blueprint_destory_tip = {
-		tip = "You can not retire Priority ships.",
-		key = "blueprint_destory_tip"
+		tip = "You can not retire Priority ships."
 	},
 	blueprint_task_update_tip = {
-		tip = "The development progress of a ship has been updated. Please inspect your Shipyard.",
-		key = "blueprint_task_update_tip"
+		tip = "The development progress of a ship has been updated. Please inspect your Shipyard."
 	},
 	blueprint_mod_addition_lock = {
-		tip = "Will be unlocked at Dev. Level $1.",
-		key = "blueprint_mod_addition_lock"
+		tip = "Will be unlocked at Dev. Level $1."
 	},
 	blueprint_mod_word_unlock = {
-		tip = "Unlocks voice line: $1",
-		key = "blueprint_mod_word_unlock"
+		tip = "Unlocks voice line: $1"
 	},
 	blueprint_mod_skin_unlock = {
-		tip = "Acquire skin: $1 ",
-		key = "blueprint_mod_skin_unlock"
+		tip = "Acquire skin: $1 "
 	},
 	blueprint_build_consume = {
-		tip = "Spend $1 to commence development?",
-		key = "blueprint_build_consume"
+		tip = "Spend $1 to commence development?"
 	},
 	blueprint_stop_tip = {
-		tip = "Would you like to suspend development? The items and resources you've spent will not be refunded.",
-		key = "blueprint_stop_tip"
+		tip = "Would you like to suspend development? The items and resources you've spent will not be refunded."
 	},
 	technology_canot_refresh = {
-		tip = "You can not update the list when a Research Project is underway.",
-		key = "technology_canot_refresh"
+		tip = "You can not update the list when a Research Project is underway."
 	},
 	technology_refresh_tip = {
-		tip = "Would you like to update the Research Project list?",
-		key = "technology_refresh_tip"
+		tip = "Would you like to update the Research Project list?"
 	},
 	technology_is_actived = {
-		tip = "You are currently researching a project.",
-		key = "technology_is_actived"
+		tip = "You are currently researching a project."
 	},
 	technology_stop_tip = {
-		tip = "Would you like to suspend research? The items and resources you've spent will not be refunded.",
-		key = "technology_stop_tip"
+		tip = "Would you like to suspend research? The items and resources you've spent will not be refunded."
 	},
 	technology_help_text = {
-		key = "technology_help_text",
 		tip = {
 			{
 				info = [[
@@ -7968,47 +6280,36 @@ Updating the Research Project list
 		}
 	},
 	blueprint_build_time_tip = {
-		tip = "Once you start or resume development, you can not change which ship to develop for 24 hours.\n\nWould you like to proceed?",
-		key = "blueprint_build_time_tip"
+		tip = "Once you start or resume development, you can not change which ship to develop for 24 hours.\n\nWould you like to proceed?"
 	},
 	blueprint_cannot_build_tip = {
-		tip = "$1 remaining until you can change which ship to develop.",
-		key = "blueprint_cannot_build_tip"
+		tip = "$1 remaining until you can change which ship to develop."
 	},
 	technology_task_none_tip = {
-		tip = "-Nothing-",
-		key = "technology_task_none_tip"
+		tip = "-Nothing-"
 	},
 	technology_task_build_tip = {
-		tip = "The following resources or items will be spent to commence research: $1",
-		key = "technology_task_build_tip"
+		tip = "The following resources or items will be spent to commence research: $1"
 	},
 	blueprint_commit_tip = {
-		tip = "$1 will be spent to complete the development mission. Would you like to proceed?",
-		key = "blueprint_commit_tip"
+		tip = "$1 will be spent to complete the development mission. Would you like to proceed?"
 	},
 	buleprint_need_level_tip = {
-		tip = "The corresponding ship will be unlocked at Level $1.",
-		key = "buleprint_need_level_tip"
+		tip = "The corresponding ship will be unlocked at Level $1."
 	},
 	blueprint_max_level_tip = {
-		tip = "The maximum level has already been achieved.",
-		key = "blueprint_max_level_tip"
+		tip = "The maximum level has already been achieved."
 	},
 	ship_profile_voice_locked_intimacy = {
-		tip = "Coming Soon",
-		key = "ship_profile_voice_locked_intimacy"
+		tip = "Coming Soon"
 	},
 	ship_profile_voice_locked_propose = {
-		tip = "Coming Soon",
-		key = "ship_profile_voice_locked_propose"
+		tip = "Coming Soon"
 	},
 	ship_profile_voice_locked_design = {
-		tip = "Coming Soon",
-		key = "ship_profile_voice_locked_design"
+		tip = "Coming Soon"
 	},
 	help_technolog0 = {
-		key = "help_technolog0",
 		tip = {
 			{
 				icon = {
@@ -8040,7 +6341,6 @@ Updating the Research Project list
 		}
 	},
 	help_technolog = {
-		key = "help_technolog",
 		tip = {
 			{
 				icon = {
@@ -8090,15 +6390,12 @@ Updating the Research Project list
 		}
 	},
 	hide_chat_warning = {
-		tip = "Turning off chat to hide messages.",
-		key = "hide_chat_warning"
+		tip = "Turning off chat to hide messages."
 	},
 	show_chat_warning = {
-		tip = "Turning on chat to display messages.",
-		key = "show_chat_warning"
+		tip = "Turning on chat to display messages."
 	},
 	help_shipblueprintui = {
-		key = "help_shipblueprintui",
 		tip = {
 			{
 				info = [[
@@ -8138,7 +6435,6 @@ You do not need to Limit Break a Priority ship to get them to Level 100, but in 
 		}
 	},
 	help_shipblueprintui_luck = {
-		key = "help_shipblueprintui_luck",
 		tip = {
 			{
 				info = [[
@@ -8153,63 +6449,48 @@ Fate Simulation:
 		}
 	},
 	anniversary_task_title_1 = {
-		tip = "Commander, I still clearly remember the way the birds chirped when our eyes first met.",
-		key = "anniversary_task_title_1"
+		tip = "Commander, I still clearly remember the way the birds chirped when our eyes first met."
 	},
 	anniversary_task_title_2 = {
-		tip = "Though things were a bit rough at first, you strove, strategized, and sometimes even wished your way towards success.",
-		key = "anniversary_task_title_2"
+		tip = "Though things were a bit rough at first, you strove, strategized, and sometimes even wished your way towards success."
 	},
 	anniversary_task_title_3 = {
-		tip = "Before I met you, I felt alone in the world, almost crushed by the bleakness of reality.",
-		key = "anniversary_task_title_3"
+		tip = "Before I met you, I felt alone in the world, almost crushed by the bleakness of reality."
 	},
 	anniversary_task_title_4 = {
-		tip = "But now, when I think about your smile in the first rays of the dawn, I am inspired to sing about the future yet to come.",
-		key = "anniversary_task_title_4"
+		tip = "But now, when I think about your smile in the first rays of the dawn, I am inspired to sing about the future yet to come."
 	},
 	anniversary_task_title_5 = {
-		tip = "Though the road ahead of me will be treacherous, there is only one direction that I can go now.",
-		key = "anniversary_task_title_5"
+		tip = "Though the road ahead of me will be treacherous, there is only one direction that I can go now."
 	},
 	anniversary_task_title_6 = {
-		tip = "The possibilities of the world branch out before my eyes. As I walk, I find myself where I started again and again.",
-		key = "anniversary_task_title_6"
+		tip = "The possibilities of the world branch out before my eyes. As I walk, I find myself where I started again and again."
 	},
 	anniversary_task_title_7 = {
-		tip = "But I believe that the light of dawn will not abandon me. I know that I will be able to find my way to your side.",
-		key = "anniversary_task_title_7"
+		tip = "But I believe that the light of dawn will not abandon me. I know that I will be able to find my way to your side."
 	},
 	anniversary_task_title_8 = {
-		tip = "As I wandered, there were those that mocked me for being silly or directionless.",
-		key = "anniversary_task_title_8"
+		tip = "As I wandered, there were those that mocked me for being silly or directionless."
 	},
 	anniversary_task_title_9 = {
-		tip = "But someone grabbed onto my hand, perhaps feeling sorry for my helplessness. She became my first friend.",
-		key = "anniversary_task_title_9"
+		tip = "But someone grabbed onto my hand, perhaps feeling sorry for my helplessness. She became my first friend."
 	},
 	anniversary_task_title_10 = {
-		tip = "As I slowly opened up to her, she painstakingly etched my story into her picture book.",
-		key = "anniversary_task_title_10"
+		tip = "As I slowly opened up to her, she painstakingly etched my story into her picture book."
 	},
 	anniversary_task_title_11 = {
-		tip = "With her support, my heart began to thaw, and I started to grow again.",
-		key = "anniversary_task_title_11"
+		tip = "With her support, my heart began to thaw, and I started to grow again."
 	},
 	anniversary_task_title_12 = {
-		tip = "More and more people are cheering me on now. I don't want to show them my tears anymore.",
-		key = "anniversary_task_title_12"
+		tip = "More and more people are cheering me on now. I don't want to show them my tears anymore."
 	},
 	anniversary_task_title_13 = {
-		tip = "I can already see your shadow ahead of me. With just a few more steps, I'll be able to reach you at last.",
-		key = "anniversary_task_title_13"
+		tip = "I can already see your shadow ahead of me. With just a few more steps, I'll be able to reach you at last."
 	},
 	anniversary_task_title_14 = {
-		tip = "I can't wait until I can see you once more. When the birds resume their song once more...",
-		key = "anniversary_task_title_14"
+		tip = "I can't wait until I can see you once more. When the birds resume their song once more..."
 	},
 	help_sos = {
-		key = "help_sos",
 		tip = {
 			{
 				info = [[
@@ -8238,19 +6519,15 @@ Combat Details:
 		}
 	},
 	sos_lock = {
-		tip = "救援海域は開放されていません ",
-		key = "sos_lock"
+		tip = "救援海域は開放されていません "
 	},
 	charge_scene_buy_confirm = {
-		tip = "Spend <color=#A9F548FF>$1 Gems</color> to buy <color=#A9F548FF>$2</color>?",
-		key = "charge_scene_buy_confirm"
+		tip = "Spend <color=#A9F548FF>$1 Gems</color> to buy <color=#A9F548FF>$2</color>?"
 	},
 	charge_scene_batch_buy_tip = {
-		tip = "Spend <color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>gems to buy <color=$3>$2</color>$4?",
-		key = "charge_scene_batch_buy_tip"
+		tip = "Spend <color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>gems to buy <color=$3>$2</color>$4?"
 	},
 	help_level_ui = {
-		key = "help_level_ui",
 		tip = {
 			{
 				icon = {
@@ -8336,107 +6613,81 @@ Combat Details:
 		}
 	},
 	guild_modify_info_tip = {
-		tip = "Are you sure you want to use<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color> to rename your guild?",
-		key = "guild_modify_info_tip"
+		tip = "Are you sure you want to use<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color> to rename your guild?"
 	},
 	ai_change_1 = {
-		tip = "The Submarine Fleet is now in Support Mode.",
-		key = "ai_change_1"
+		tip = "The Submarine Fleet is now in Support Mode."
 	},
 	ai_change_2 = {
-		tip = "The Submarine Fleet is now in Attack Mode.",
-		key = "ai_change_2"
+		tip = "The Submarine Fleet is now in Attack Mode."
 	},
 	activity_shop_lable = {
-		tip = "*Available During: $1 ",
-		key = "activity_shop_lable"
+		tip = "*Available During: $1 "
 	},
 	word_bilibili = {
-		tip = "bili小电池",
-		key = "word_bilibili"
+		tip = "bili小电池"
 	},
 	levelScene_tracking_error_pre = {
-		tip = "Available after <color=#92fc63>$1</color> cleared",
-		key = "levelScene_tracking_error_pre"
+		tip = "Available after <color=#92fc63>$1</color> cleared"
 	},
 	ship_limit_notice = {
-		tip = "The Submarine Fleet's stats do not count towards the Status Requirements. ",
-		key = "ship_limit_notice"
+		tip = "The Submarine Fleet's stats do not count towards the Status Requirements. "
 	},
 	idle = {
-		tip = "Pause",
-		key = "idle"
+		tip = "Pause"
 	},
 	main_1 = {
-		tip = "Main Menu\n1",
-		key = "main_1"
+		tip = "Main Menu\n1"
 	},
 	main_2 = {
-		tip = "Main Menu\n2",
-		key = "main_2"
+		tip = "Main Menu\n2"
 	},
 	main_3 = {
-		tip = "Main Menu\n3",
-		key = "main_3"
+		tip = "Main Menu\n3"
 	},
 	complete = {
-		tip = "Commi-\nssion",
-		key = "complete"
+		tip = "Commi-\nssion"
 	},
 	login = {
-		tip = "Login",
-		key = "login"
+		tip = "Login"
 	},
 	home = {
-		tip = "Return",
-		key = "home"
+		tip = "Return"
 	},
 	mail = {
-		tip = "Mail\nTips",
-		key = "mail"
+		tip = "Mail\nTips"
 	},
 	mission = {
-		tip = "Mission\nTips",
-		key = "mission"
+		tip = "Mission\nTips"
 	},
 	mission_complete = {
-		tip = "Mission\nComplete",
-		key = "mission_complete"
+		tip = "Mission\nComplete"
 	},
 	wedding = {
-		tip = "Pledge",
-		key = "wedding"
+		tip = "Pledge"
 	},
 	touch_head = {
-		tip = "Head\nTouch",
-		key = "touch_head"
+		tip = "Head\nTouch"
 	},
 	touch_body = {
-		tip = "Touch",
-		key = "touch_body"
+		tip = "Touch"
 	},
 	touch_special = {
-		tip = "Touch\n3",
-		key = "touch_special"
+		tip = "Touch\n3"
 	},
 	word_photo_mode = {
-		tip = "Photo",
-		key = "word_photo_mode"
+		tip = "Photo"
 	},
 	word_video_mode = {
-		tip = "Rec",
-		key = "word_video_mode"
+		tip = "Rec"
 	},
 	word_save_ok = {
-		tip = "Successfully saved to your photo album",
-		key = "word_save_ok"
+		tip = "Successfully saved to your photo album"
 	},
 	word_save_video = {
-		tip = "Record Complete \n Do you want to save it?",
-		key = "word_save_video"
+		tip = "Record Complete \n Do you want to save it?"
 	},
 	reflux_help_tip = {
-		key = "reflux_help_tip",
 		tip = {
 			{
 				info = "How To Get Akashi Points:"
@@ -8468,67 +6719,51 @@ Combat Details:
 		}
 	},
 	reflux_pt_not_enough = {
-		tip = "You do not have enough Akashi Points.",
-		key = "reflux_pt_not_enough"
+		tip = "You do not have enough Akashi Points."
 	},
 	reflux_word_1 = {
-		tip = "Time Left:",
-		key = "reflux_word_1"
+		tip = "Time Left:"
 	},
 	reflux_word_2 = {
-		tip = "Unlocked",
-		key = "reflux_word_2"
+		tip = "Unlocked"
 	},
 	ship_hunting_level_tips = {
-		tip = "*Total ASR is the sum of ASR from limit break and gear.",
-		key = "ship_hunting_level_tips"
+		tip = "*Total ASR is the sum of ASR from limit break and gear."
 	},
 	acquisitionmode_is_not_open = {
-		tip = "This method is not unlocked yet.",
-		key = "acquisitionmode_is_not_open"
+		tip = "This method is not unlocked yet."
 	},
 	collect_chapter_is_activation = {
-		tip = "Your are on a mission, do you want to retreat?",
-		key = "collect_chapter_is_activation"
+		tip = "Your are on a mission, do you want to retreat?"
 	},
 	levelScene_chapter_is_activation = {
-		tip = "You are exploring Stage <color=#92fc63>$1</color>, \nplease choose to continue or retreat now",
-		key = "levelScene_chapter_is_activation"
+		tip = "You are exploring Stage <color=#92fc63>$1</color>, \nplease choose to continue or retreat now"
 	},
 	resource_verify_warn = {
-		tip = "Do you wish to initiate data repair? The process will take some time. This will not affect your gameplay but may hinder the optimal performance of your phone. ",
-		key = "resource_verify_warn"
+		tip = "Do you wish to initiate data repair? The process will take some time. This will not affect your gameplay but may hinder the optimal performance of your phone. "
 	},
 	resource_verify_fail = {
-		tip = "Game resource restoration complete. Restart the game and begin updating. Tap confirm to close the game. $1",
-		key = "resource_verify_fail"
+		tip = "Game resource restoration complete. Restart the game and begin updating. Tap confirm to close the game. $1"
 	},
 	resource_verify_success = {
-		tip = "Game resource restoration complete.",
-		key = "resource_verify_success"
+		tip = "Game resource restoration complete."
 	},
 	word_take_video_tip = {
-		tip = "Tips: Tap the button on the right side to stop recording.",
-		key = "word_take_video_tip"
+		tip = "Tips: Tap the button on the right side to stop recording."
 	},
 	word_snapshot_share_title = {
-		tip = "Azur Lane | Sharing Agreement",
-		key = "word_snapshot_share_title"
+		tip = "Azur Lane | Sharing Agreement"
 	},
 	word_snapshot_share_agreement = {
-		tip = "You agree to use the sharing function reasonably and lawfully in accordance with this agreement. Unless otherwise agreed, any pictures, videos and other contents that you share, save, use, and publish through this function is for your personal non-commercial use only; information that you share with other social platforms (including but not limited to photos, videos, etc.) is provided by you,and you are responsible for any information given.",
-		key = "word_snapshot_share_agreement"
+		tip = "You agree to use the sharing function reasonably and lawfully in accordance with this agreement. Unless otherwise agreed, any pictures, videos and other contents that you share, save, use, and publish through this function is for your personal non-commercial use only; information that you share with other social platforms (including but not limited to photos, videos, etc.) is provided by you,and you are responsible for any information given."
 	},
 	skin_remain_time = {
-		tip = "Expires in ",
-		key = "skin_remain_time"
+		tip = "Expires in "
 	},
 	word_museum_1 = {
-		tip = "No more Model Parts can be obtained today. ",
-		key = "word_museum_1"
+		tip = "No more Model Parts can be obtained today. "
 	},
 	word_museum_help = {
-		key = "word_museum_help",
 		tip = {
 			{
 				info = "Event Details:"
@@ -8551,7 +6786,6 @@ Combat Details:
 		}
 	},
 	goldship_help_tip = {
-		key = "goldship_help_tip",
 		tip = {
 			{
 				info = "- How to Play:"
@@ -8580,7 +6814,6 @@ Combat Details:
 		}
 	},
 	metalgearsub_help_tip = {
-		key = "metalgearsub_help_tip",
 		tip = {
 			{
 				info = "\"One Small Promise\" Event Details:"
@@ -8612,275 +6845,207 @@ Combat Details:
 		}
 	},
 	acl_gold_count = {
-		tip = "Target Coins:",
-		key = "acl_gold_count"
+		tip = "Target Coins:"
 	},
 	acl_gold_total_count = {
-		tip = "Total Coins Spent:",
-		key = "acl_gold_total_count"
+		tip = "Total Coins Spent:"
 	},
 	discount_time = {
-		tip = "<color=grey>Time left on discount</color> <color=#92fc63>$1</color> ",
-		key = "discount_time"
+		tip = "<color=grey>Time left on discount</color> <color=#92fc63>$1</color> "
 	},
 	commander_talent_not_exist = {
-		tip = "Talent error: this Talent already exists.",
-		key = "commander_talent_not_exist"
+		tip = "Talent error: this Talent already exists."
 	},
 	commander_replace_talent_not_exist = {
-		tip = "Talent error: this Talent is from before a game update.",
-		key = "commander_replace_talent_not_exist"
+		tip = "Talent error: this Talent is from before a game update."
 	},
 	commander_talent_learned = {
-		tip = "Learned the following Talent: $1.",
-		key = "commander_talent_learned"
+		tip = "Learned the following Talent: $1."
 	},
 	commander_talent_learn_erro = {
-		tip = "Failed to learn the following Talent: $1.",
-		key = "commander_talent_learn_erro"
+		tip = "Failed to learn the following Talent: $1."
 	},
 	commander_not_exist = {
-		tip = "This Meowfficer does not exist.",
-		key = "commander_not_exist"
+		tip = "This Meowfficer does not exist."
 	},
 	commander_fleet_not_exist = {
-		tip = "This fleet does not exist.",
-		key = "commander_fleet_not_exist"
+		tip = "This fleet does not exist."
 	},
 	commander_fleet_pos_not_exist = {
-		tip = "A Meowfficer has not been assigned.",
-		key = "commander_fleet_pos_not_exist"
+		tip = "A Meowfficer has not been assigned."
 	},
 	commander_equip_to_fleet_erro = {
-		tip = "Could not assign the following Meowfficer: $1.",
-		key = "commander_equip_to_fleet_erro"
+		tip = "Could not assign the following Meowfficer: $1."
 	},
 	commander_acquire_erro = {
-		tip = "The following Meowfficer could not be obtained: $1.",
-		key = "commander_acquire_erro"
+		tip = "The following Meowfficer could not be obtained: $1."
 	},
 	commander_lock_erro = {
-		tip = "The following could not be locked: $1.",
-		key = "commander_lock_erro"
+		tip = "The following could not be locked: $1."
 	},
 	commander_reset_talent_time_no_rearch = {
-		tip = "You must wait before you can reset these Talents again.",
-		key = "commander_reset_talent_time_no_rearch"
+		tip = "You must wait before you can reset these Talents again."
 	},
 	commander_reset_talent_is_not_need = {
-		tip = "Talents could not be reset.",
-		key = "commander_reset_talent_is_not_need"
+		tip = "Talents could not be reset."
 	},
 	commander_reset_talent_success = {
-		tip = "Talents have been reset.",
-		key = "commander_reset_talent_success"
+		tip = "Talents have been reset."
 	},
 	commander_reset_talent_erro = {
-		tip = "The following Talent could not be reset: $1.",
-		key = "commander_reset_talent_erro"
+		tip = "The following Talent could not be reset: $1."
 	},
 	commander_can_not_be_upgrade = {
-		tip = "The selected Meowfficer cannot level up.",
-		key = "commander_can_not_be_upgrade"
+		tip = "The selected Meowfficer cannot level up."
 	},
 	commander_anyone_is_in_fleet = {
-		tip = "The selected Meowfficer is already in a fleet.",
-		key = "commander_anyone_is_in_fleet"
+		tip = "The selected Meowfficer is already in a fleet."
 	},
 	commander_is_in_fleet = {
-		tip = "The selected Meowfficer is currently sortieing.",
-		key = "commander_is_in_fleet"
+		tip = "The selected Meowfficer is currently sortieing."
 	},
 	commander_play_erro = {
-		tip = "Failed to Enhance $1.",
-		key = "commander_play_erro"
+		tip = "Failed to Enhance $1."
 	},
 	ship_equip_same_group_equipment = {
-		tip = "You can only equip 1 Unique gear piece. ",
-		key = "ship_equip_same_group_equipment"
+		tip = "You can only equip 1 Unique gear piece. "
 	},
 	summary_page_un_rearch = {
-		tip = "Unclaimed ",
-		key = "summary_page_un_rearch"
+		tip = "Unclaimed "
 	},
 	commander_exp_overflow_tip = {
-		tip = "The Meowfficer will receive wasted EXP due to going beyond the level cap. Would you like to continue?",
-		key = "commander_exp_overflow_tip"
+		tip = "The Meowfficer will receive wasted EXP due to going beyond the level cap. Would you like to continue?"
 	},
 	commander_reset_talent_tip = {
-		tip = "Would you like to reset this Meowfficer's Talents?",
-		key = "commander_reset_talent_tip"
+		tip = "Would you like to reset this Meowfficer's Talents?"
 	},
 	commander_reset_talent = {
-		tip = "Resettable",
-		key = "commander_reset_talent"
+		tip = "Resettable"
 	},
 	commander_select_min_cnt = {
-		tip = "You must select $1 or more Meowfficers.",
-		key = "commander_select_min_cnt"
+		tip = "You must select $1 or more Meowfficers."
 	},
 	commander_select_max = {
-		tip = "You cannot select any more Meowfficers.",
-		key = "commander_select_max"
+		tip = "You cannot select any more Meowfficers."
 	},
 	commander_lock_done = {
-		tip = "Meowfficer locked.",
-		key = "commander_lock_done"
+		tip = "Meowfficer locked."
 	},
 	commander_unlock_done = {
-		tip = "Meowfficer unlocked.",
-		key = "commander_unlock_done"
+		tip = "Meowfficer unlocked."
 	},
 	commander_get_1 = {
-		tip = "Your daily first Cat Box is free of charge, nya!",
-		key = "commander_get_1"
+		tip = "Your daily first Cat Box is free of charge, nya!"
 	},
 	commander_get = {
-		tip = "Would you like to spend $1 Coins and purchase $2 Cat Box(es)?",
-		key = "commander_get"
+		tip = "Would you like to spend $1 Coins and purchase $2 Cat Box(es)?"
 	},
 	commander_build_done = {
-		tip = "Commenced Meowfficer training!",
-		key = "commander_build_done"
+		tip = "Commenced Meowfficer training!"
 	},
 	commander_build_erro = {
-		tip = "Failed to train Meowfficer(s): $1",
-		key = "commander_build_erro"
+		tip = "Failed to train Meowfficer(s): $1"
 	},
 	commander_get_skills_done = {
-		tip = "Failed to fetch list of learnable Talents.",
-		key = "commander_get_skills_done"
+		tip = "Failed to fetch list of learnable Talents."
 	},
 	collection_way_is_unopen = {
-		tip = "You cannot obtain this now.",
-		key = "collection_way_is_unopen"
+		tip = "You cannot obtain this now."
 	},
 	commander_can_not_select_same_group = {
-		tip = "You cannot assign 2 Meowfficers of the same type to one fleet.",
-		key = "commander_can_not_select_same_group"
+		tip = "You cannot assign 2 Meowfficers of the same type to one fleet."
 	},
 	commander_capcity_is_max = {
-		tip = "The Cattery is full, nya...",
-		key = "commander_capcity_is_max"
+		tip = "The Cattery is full, nya..."
 	},
 	commander_reserve_count_is_max = {
-		tip = "You cannot buy any more than this.",
-		key = "commander_reserve_count_is_max"
+		tip = "You cannot buy any more than this."
 	},
 	commander_build_pool_tip = {
-		tip = "即将消耗$2个$1开始指挥喵训练，是否继续？ ",
-		key = "commander_build_pool_tip"
+		tip = "即将消耗$2个$1开始指挥喵训练，是否继续？ "
 	},
 	commander_select_matiral_erro = {
-		tip = "<size=22>This Meowfficer is at the max level; you can only Enhance its Skill with Meowfficers of the same type.</size>",
-		key = "commander_select_matiral_erro"
+		tip = "<size=22>This Meowfficer is at the max level; you can only Enhance its Skill with Meowfficers of the same type.</size>"
 	},
 	commander_material_is_rarity = {
-		tip = "You have selected an SR Meowfficer. Would you like to continue?",
-		key = "commander_material_is_rarity"
+		tip = "You have selected an SR Meowfficer. Would you like to continue?"
 	},
 	commander_material_is_maxLevel = {
-		tip = "This Meowfficer is at the max level; it will not gain any EXP from Enhancing. Would you like to continue?",
-		key = "commander_material_is_maxLevel"
+		tip = "This Meowfficer is at the max level; it will not gain any EXP from Enhancing. Would you like to continue?"
 	},
 	charge_commander_bag_max = {
-		tip = "The Cattery has been fully expanded. You cannot purchase any more slots.",
-		key = "charge_commander_bag_max"
+		tip = "The Cattery has been fully expanded. You cannot purchase any more slots."
 	},
 	shop_extendcommander_success = {
-		tip = "Slots purchased. The Cattery was successfully expanded.",
-		key = "shop_extendcommander_success"
+		tip = "Slots purchased. The Cattery was successfully expanded."
 	},
 	commander_skill_point_noengough = {
-		tip = "This Meowfficer does not have any Talent Points.",
-		key = "commander_skill_point_noengough"
+		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "L'Opiniâtre, Le Malin, Dunkerque, Surcouf, and others are now available from construction!",
-		key = "buildship_new_tip"
+		tip = "L'Opiniâtre, Le Malin, Dunkerque, Surcouf, and others are now available from construction!"
 	},
 	buildship_heavy_tip = {
-		tip = "Duke of York added to standard build pool! ",
-		key = "buildship_heavy_tip"
+		tip = "Duke of York added to standard build pool! "
 	},
 	buildship_light_tip = {
-		tip = "Sirius and others are added to standard build pool! ",
-		key = "buildship_light_tip"
+		tip = "Sirius and others are added to standard build pool! "
 	},
 	buildship_special_tip = {
-		tip = "Victorious added to standard build pool! ",
-		key = "buildship_special_tip"
+		tip = "Victorious added to standard build pool! "
 	},
 	world_log_1 = {
-		tip = "Mission [$task] complete.",
-		key = "world_log_1"
+		tip = "Mission [$task] complete."
 	},
 	world_log_2 = {
-		tip = "Mission [$task] failed.",
-		key = "world_log_2"
+		tip = "Mission [$task] failed."
 	},
 	world_log_3 = {
-		tip = "This mission seems to require [$chapter]...",
-		key = "world_log_3"
+		tip = "This mission seems to require [$chapter]..."
 	},
 	world_log_4 = {
-		tip = "[$fleet] has arrived at Port [$port]",
-		key = "world_log_4"
+		tip = "[$fleet] has arrived at Port [$port]"
 	},
 	world_log_5 = {
-		tip = "[$fleet] has purchased [$goods] at Port [$port]",
-		key = "world_log_5"
+		tip = "[$fleet] has purchased [$goods] at Port [$port]"
 	},
 	world_log_6 = {
-		tip = "[$fleet] was defeated in combat...",
-		key = "world_log_6"
+		tip = "[$fleet] was defeated in combat..."
 	},
 	world_log_7 = {
-		tip = "Acquired <color=$rarity>[$item]*$itemnum</color>",
-		key = "world_log_7"
+		tip = "Acquired <color=$rarity>[$item]*$itemnum</color>"
 	},
 	world_log_8 = {
-		tip = "Fleet power has reached [$rank], granting access to sea areas with a danger level of [$risk]",
-		key = "world_log_8"
+		tip = "Fleet power has reached [$rank], granting access to sea areas with a danger level of [$risk]"
 	},
 	world_log_9 = {
-		tip = "Arrived at <material=underline><color=#92fc63>[$chapter]</color></material>.",
-		key = "world_log_9"
+		tip = "Arrived at <material=underline><color=#92fc63>[$chapter]</color></material>."
 	},
 	world_log_10 = {
-		tip = "Changed the formation of [$fleet].",
-		key = "world_log_10"
+		tip = "Changed the formation of [$fleet]."
 	},
 	world_log_11 = {
-		tip = "Submarine fleet called to [$chapter]!",
-		key = "world_log_11"
+		tip = "Submarine fleet called to [$chapter]!"
 	},
 	world_log_12 = {
-		tip = "Cannot move to this sea area.",
-		key = "world_log_12"
+		tip = "Cannot move to this sea area."
 	},
 	world_log_13 = {
-		tip = "Unable to move - insufficient movement",
-		key = "world_log_13"
+		tip = "Unable to move - insufficient movement"
 	},
 	world_log_14 = {
-		tip = "Completed the conditions for [$tasknum1/$tasknum2]",
-		key = "world_log_14"
+		tip = "Completed the conditions for [$tasknum1/$tasknum2]"
 	},
 	open_skill_pos = {
-		tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color> to unlock 3rd slot, Do you wish to proceed?",
-		key = "open_skill_pos"
+		tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color> to unlock 3rd slot, Do you wish to proceed?"
 	},
 	open_skill_pos_discount = {
-		tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffff00>$2</color> to unlock the slot , \nDo you wish to proceed?",
-		key = "open_skill_pos_discount"
+		tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffff00>$2</color> to unlock the slot , \nDo you wish to proceed?"
 	},
 	event_recommend_fail = {
-		tip = "Does not match Commissions requirements ",
-		key = "event_recommend_fail"
+		tip = "Does not match Commissions requirements "
 	},
 	newplayer_help_tip = {
-		key = "newplayer_help_tip",
 		tip = {
 			{
 				info = "<size=23>Seaman Recruit activities description：</size>"
@@ -8900,67 +7065,51 @@ Combat Details:
 		}
 	},
 	newplayer_notice_1 = {
-		tip = "Unlocked after completing all Easy missions",
-		key = "newplayer_notice_1"
+		tip = "Unlocked after completing all Easy missions"
 	},
 	newplayer_notice_2 = {
-		tip = "Unlocked after completing all Hard missions",
-		key = "newplayer_notice_2"
+		tip = "Unlocked after completing all Hard missions"
 	},
 	newplayer_notice_3 = {
-		tip = "Unlocked after completing all Exams",
-		key = "newplayer_notice_3"
+		tip = "Unlocked after completing all Exams"
 	},
 	newplayer_notice_4 = {
-		tip = "Receive Portland after claiming victory",
-		key = "newplayer_notice_4"
+		tip = "Receive Portland after claiming victory"
 	},
 	newplayer_notice_5 = {
-		tip = "Receive Nelson after claiming victory",
-		key = "newplayer_notice_5"
+		tip = "Receive Nelson after claiming victory"
 	},
 	newplayer_notice_6 = {
-		tip = "Claim victory, select one of the following: Hood, Enterprise, San Diego, or Illustrious",
-		key = "newplayer_notice_6"
+		tip = "Claim victory, select one of the following: Hood, Enterprise, San Diego, or Illustrious"
 	},
 	newplayer_notice_7 = {
-		tip = "Unlocked after completing previous mission",
-		key = "newplayer_notice_7"
+		tip = "Unlocked after completing previous mission"
 	},
 	newplayer_notice_8 = {
-		tip = "Commander, welcome to Azur Lane! Let’s report to boot camp, now!",
-		key = "newplayer_notice_8"
+		tip = "Commander, welcome to Azur Lane! Let’s report to boot camp, now!"
 	},
 	apply_permission_camera_tip1 = {
-		tip = "To use AR recording game feature, need to grant permission to access recording function.",
-		key = "apply_permission_camera_tip1"
+		tip = "To use AR recording game feature, need to grant permission to access recording function."
 	},
 	apply_permission_camera_tip2 = {
-		tip = "You have turned off recording permission, please confirm permission in the game settings menu.",
-		key = "apply_permission_camera_tip2"
+		tip = "You have turned off recording permission, please confirm permission in the game settings menu."
 	},
 	apply_permission_camera_tip3 = {
-		tip = "You refused to authorize camera permission, unable to use AR recording game feature.",
-		key = "apply_permission_camera_tip3"
+		tip = "You refused to authorize camera permission, unable to use AR recording game feature."
 	},
 	apply_permission_record_audio_tip1 = {
-		tip = "To use AR Record game feature, need permission to access Record.",
-		key = "apply_permission_record_audio_tip1"
+		tip = "To use AR Record game feature, need permission to access Record."
 	},
 	apply_permission_record_audio_tip2 = {
-		tip = "You have turned off Record permission, please confirm Record permission in the game settings menu.",
-		key = "apply_permission_record_audio_tip2"
+		tip = "You have turned off Record permission, please confirm Record permission in the game settings menu."
 	},
 	apply_permission_record_audio_tip3 = {
-		tip = "You refused to authorize Record permission, unable to use AR Recording game feature.",
-		key = "apply_permission_record_audio_tip3"
+		tip = "You refused to authorize Record permission, unable to use AR Recording game feature."
 	},
 	nine_choose_one = {
-		tip = "Your Invitation can only be used once.\nWould you like to invite <color=#92fc63>$1</color>?\nIf so, <color=#92fc63>$1</color> will join your fleet and you will receive a commemorative item. ",
-		key = "nine_choose_one"
+		tip = "Your Invitation can only be used once.\nWould you like to invite <color=#92fc63>$1</color>?\nIf so, <color=#92fc63>$1</color> will join your fleet and you will receive a commemorative item. "
 	},
 	help_commander_info = {
-		key = "help_commander_info",
 		tip = {
 			{
 				icon = {
@@ -9028,7 +7177,6 @@ Combat Details:
 		}
 	},
 	help_commander_play = {
-		key = "help_commander_play",
 		tip = {
 			{
 				icon = {
@@ -9096,7 +7244,6 @@ Combat Details:
 		}
 	},
 	help_commander_ability = {
-		key = "help_commander_ability",
 		tip = {
 			{
 				icon = {
@@ -9164,15 +7311,12 @@ Combat Details:
 		}
 	},
 	story_skip_confirm = {
-		tip = "Are you sure you want to skip story cutscene? Skipped story scenes can be replayed in <color=#A1E400FF>Collection>Memories</COLOR>.",
-		key = "story_skip_confirm"
+		tip = "Are you sure you want to skip story cutscene? Skipped story scenes can be replayed in <color=#A1E400FF>Collection>Memories</COLOR>."
 	},
 	commander_ability_replace_warning = {
-		tip = "The above Talent will be replaced by the one the Meowfficer is about to learn. Would you like to continue? ",
-		key = "commander_ability_replace_warning"
+		tip = "The above Talent will be replaced by the one the Meowfficer is about to learn. Would you like to continue? "
 	},
 	help_command_room = {
-		key = "help_command_room",
 		tip = {
 			{
 				icon = {
@@ -9240,259 +7384,195 @@ Combat Details:
 		}
 	},
 	commander_build_rate_tip = {
-		tip = "Cat Box procurement rates: Rare: 60%; Elite: 35%; Super Rare: 5%.",
-		key = "commander_build_rate_tip"
+		tip = "Cat Box procurement rates: Rare: 60%; Elite: 35%; Super Rare: 5%."
 	},
 	commander_is_in_fleet_already = {
-		tip = "This Meowfficer is already assigned to a fleet.",
-		key = "commander_is_in_fleet_already"
+		tip = "This Meowfficer is already assigned to a fleet."
 	},
 	commander_material_is_in_fleet_tip = {
-		tip = "This Meowfficer is assigned to a fleet.\nWould you like to remove it?",
-		key = "commander_material_is_in_fleet_tip"
+		tip = "This Meowfficer is assigned to a fleet.\nWould you like to remove it?"
 	},
 	commander_main_pos = {
-		tip = "Command Cat",
-		key = "commander_main_pos"
+		tip = "Command Cat"
 	},
 	commander_assistant_pos = {
-		tip = "Staff Cat",
-		key = "commander_assistant_pos"
+		tip = "Staff Cat"
 	},
 	comander_repalce_tip = {
-		tip = "This Meowfficer is already assigned to the $2 slot in $1.\nWould you like to assign it to your chosen fleet instead?",
-		key = "comander_repalce_tip"
+		tip = "This Meowfficer is already assigned to the $2 slot in $1.\nWould you like to assign it to your chosen fleet instead?"
 	},
 	commander_lock_tip = {
-		tip = "Would you like to lock this Meowfficer?",
-		key = "commander_lock_tip"
+		tip = "Would you like to lock this Meowfficer?"
 	},
 	commander_is_in_battle = {
-		tip = "This Meowfficer is currently sortieing.",
-		key = "commander_is_in_battle"
+		tip = "This Meowfficer is currently sortieing."
 	},
 	commander_rename_warning = {
-		tip = "Would you like to change this Meowfficer's name to $1?",
-		key = "commander_rename_warning"
+		tip = "Would you like to change this Meowfficer's name to $1?"
 	},
 	commander_rename_coldtime_tip = {
-		tip = "You can only change a Meowfficer's name once every 24 hours.",
-		key = "commander_rename_coldtime_tip"
+		tip = "You can only change a Meowfficer's name once every 24 hours."
 	},
 	commander_rename_success_tip = {
-		tip = "Name change successful.",
-		key = "commander_rename_success_tip"
+		tip = "Name change successful."
 	},
 	amercian_notice_1 = {
-		tip = "Confirm using <color=#92fc63>$1</color> Battle Stars to redeem <color=#92fc63>$2</color>",
-		key = "amercian_notice_1"
+		tip = "Confirm using <color=#92fc63>$1</color> Battle Stars to redeem <color=#92fc63>$2</color>"
 	},
 	amercian_notice_2 = {
-		tip = "※Acquire target reward to unlock the next phase",
-		key = "amercian_notice_2"
+		tip = "※Acquire target reward to unlock the next phase"
 	},
 	amercian_notice_3 = {
-		tip = "Period：2019.2.21~3.20",
-		key = "amercian_notice_3"
+		tip = "Period：2019.2.21~3.20"
 	},
 	amercian_notice_4 = {
-		tip = "Battle Star",
-		key = "amercian_notice_4"
+		tip = "Battle Star"
 	},
 	amercian_notice_5 = {
-		tip = "The prize pool is still locked.",
-		key = "amercian_notice_5"
+		tip = "The prize pool is still locked."
 	},
 	amercian_notice_6 = {
-		tip = "You have reached the limit for oil or supplies, excess resources will be unavailable if you continue to replenish, do you wish to continue?",
-		key = "amercian_notice_6"
+		tip = "You have reached the limit for oil or supplies, excess resources will be unavailable if you continue to replenish, do you wish to continue?"
 	},
 	ranking_word_1 = {
-		tip = "Total Power",
-		key = "ranking_word_1"
+		tip = "Total Power"
 	},
 	ranking_word_2 = {
-		tip = "Collection Rate",
-		key = "ranking_word_2"
+		tip = "Collection Rate"
 	},
 	ranking_word_3 = {
-		tip = "Promises Made",
-		key = "ranking_word_3"
+		tip = "Promises Made"
 	},
 	ranking_word_4 = {
-		tip = "Challenge Score",
-		key = "ranking_word_4"
+		tip = "Challenge Score"
 	},
 	ranking_word_5 = {
-		tip = "Rank",
-		key = "ranking_word_5"
+		tip = "Rank"
 	},
 	ranking_word_6 = {
-		tip = "Military Rank",
-		key = "ranking_word_6"
+		tip = "Military Rank"
 	},
 	ranking_word_7 = {
-		tip = "Highest Rank",
-		key = "ranking_word_7"
+		tip = "Highest Rank"
 	},
 	ranking_word_8 = {
-		tip = "Name",
-		key = "ranking_word_8"
+		tip = "Name"
 	},
 	ranking_word_9 = {
-		tip = "Score",
-		key = "ranking_word_9"
+		tip = "Score"
 	},
 	spece_illegal_tip = {
-		tip = "Cannot uses spaces",
-		key = "spece_illegal_tip"
+		tip = "Cannot uses spaces"
 	},
 	npc_learn_skill_tip = {
-		tip = "When the event period ends, you will lose this ship if she has not been Formally Recruited. Any items used to train her skills will NOT be refunded. Continue anyway?",
-		key = "npc_learn_skill_tip"
+		tip = "When the event period ends, you will lose this ship if she has not been Formally Recruited. Any items used to train her skills will NOT be refunded. Continue anyway?"
 	},
 	npc_upgrade_max_level = {
-		tip = "You cannot perform Cognitive Awakening on Temporary Recruits.",
-		key = "npc_upgrade_max_level"
+		tip = "You cannot perform Cognitive Awakening on Temporary Recruits."
 	},
 	npc_propse_tip = {
-		tip = "You cannot Oath Temporary Recruits.",
-		key = "npc_propse_tip"
+		tip = "You cannot Oath Temporary Recruits."
 	},
 	npc_strength_tip = {
-		tip = "If this Temporary Recruit leaves the port, any items or materials used to Strengthen her will NOT be refunded. Continue anyway?",
-		key = "npc_strength_tip"
+		tip = "If this Temporary Recruit leaves the port, any items or materials used to Strengthen her will NOT be refunded. Continue anyway?"
 	},
 	npc_breakout_tip = {
-		tip = "If this Temporary Recruit leaves the port, any items or materials used to Limit Break her will NOT be refunded. Continue anyway?",
-		key = "npc_breakout_tip"
+		tip = "If this Temporary Recruit leaves the port, any items or materials used to Limit Break her will NOT be refunded. Continue anyway?"
 	},
 	npc_evaluation_tip = {
-		tip = "You cannot Like or Comment on characters that have not yet been Formally Recruited. ",
-		key = "npc_evaluation_tip"
+		tip = "You cannot Like or Comment on characters that have not yet been Formally Recruited. "
 	},
 	map_event_skip = {
-		tip = "Skip stories",
-		key = "map_event_skip"
+		tip = "Skip stories"
 	},
 	map_event_stop_tip = {
-		tip = "Step on <color=#92fc63>mechanisms</color> to remove obstacles of the same color.",
-		key = "map_event_stop_tip"
+		tip = "Step on <color=#92fc63>mechanisms</color> to remove obstacles of the same color."
 	},
 	map_event_save_nekone = {
-		tip = "Successfully Rescued <color=#92fc63>Nekone</color>",
-		key = "map_event_save_nekone"
+		tip = "Successfully Rescued <color=#92fc63>Nekone</color>"
 	},
 	map_event_save_rurutie = {
-		tip = "Successfully Rescued <color=#92fc63>Rulutieh</color>",
-		key = "map_event_save_rurutie"
+		tip = "Successfully Rescued <color=#92fc63>Rulutieh</color>"
 	},
 	map_event_memory_collected = {
-		tip = "Successfully unlocked hidden story <color=#92fc63>$1</color>!",
-		key = "map_event_memory_collected"
+		tip = "Successfully unlocked hidden story <color=#92fc63>$1</color>!"
 	},
 	map_event_save_kizuna = {
-		tip = "Successfully Rescued <color=#92fc63>Kizuna AI</color> ",
-		key = "map_event_save_kizuna"
+		tip = "Successfully Rescued <color=#92fc63>Kizuna AI</color> "
 	},
 	five_choose_one = {
-		tip = "Using this will give you <color=#92fc63>$1</color> and a commemorative item.\nWould you like to use your Holy Night Gift? ",
-		key = "five_choose_one"
+		tip = "Using this will give you <color=#92fc63>$1</color> and a commemorative item.\nWould you like to use your Holy Night Gift? "
 	},
 	ship_preference_common = {
-		tip = "Set ship as Favorite.",
-		key = "ship_preference_common"
+		tip = "Set ship as Favorite."
 	},
 	draw_big_luck_1 = {
-		tip = "You will have a lucky New Year's nya!",
-		key = "draw_big_luck_1"
+		tip = "You will have a lucky New Year's nya!"
 	},
 	draw_big_luck_2 = {
-		tip = "How fortunate nya! You're making me jealous nya~",
-		key = "draw_big_luck_2"
+		tip = "How fortunate nya! You're making me jealous nya~"
 	},
 	draw_big_luck_3 = {
-		tip = "Something good will surely come your way today nya!",
-		key = "draw_big_luck_3"
+		tip = "Something good will surely come your way today nya!"
 	},
 	draw_medium_luck_1 = {
-		tip = "It looks like today is your lucky day nya!",
-		key = "draw_medium_luck_1"
+		tip = "It looks like today is your lucky day nya!"
 	},
 	draw_medium_luck_2 = {
-		tip = "Luck is on your side, so keep at it nya!",
-		key = "draw_medium_luck_2"
+		tip = "Luck is on your side, so keep at it nya!"
 	},
 	draw_medium_luck_3 = {
-		tip = "I hope you'll share some of your luck with me nya!",
-		key = "draw_medium_luck_3"
+		tip = "I hope you'll share some of your luck with me nya!"
 	},
 	draw_little_luck_1 = {
-		tip = "Your luck will improve from this point on nya!",
-		key = "draw_little_luck_1"
+		tip = "Your luck will improve from this point on nya!"
 	},
 	draw_little_luck_2 = {
-		tip = "Luck and hard work are both important nya~",
-		key = "draw_little_luck_2"
+		tip = "Luck and hard work are both important nya~"
 	},
 	draw_little_luck_3 = {
-		tip = "Your luck might improve if you come to my shop nya~",
-		key = "draw_little_luck_3"
+		tip = "Your luck might improve if you come to my shop nya~"
 	},
 	ship_preference_non = {
-		tip = "Unset ship as Favorite.",
-		key = "ship_preference_non"
+		tip = "Unset ship as Favorite."
 	},
 	school_title_dajiangtang = {
-		tip = "Lecture Hall ",
-		key = "school_title_dajiangtang"
+		tip = "Lecture Hall "
 	},
 	school_title_zhihuimiao = {
-		tip = "Cattery ",
-		key = "school_title_zhihuimiao"
+		tip = "Cattery "
 	},
 	school_title_shitang = {
-		tip = "Canteen ",
-		key = "school_title_shitang"
+		tip = "Canteen "
 	},
 	school_title_xiaomaibu = {
-		tip = "Merchant ",
-		key = "school_title_xiaomaibu"
+		tip = "Merchant "
 	},
 	school_title_shangdian = {
-		tip = "Munition",
-		key = "school_title_shangdian"
+		tip = "Munition"
 	},
 	school_title_xueyuan = {
-		tip = "Tactical Class",
-		key = "school_title_xueyuan"
+		tip = "Tactical Class"
 	},
 	school_title_shoucang = {
-		tip = "Medallion ",
-		key = "school_title_shoucang"
+		tip = "Medallion "
 	},
 	tag_level_fighting = {
-		tip = "In Progress",
-		key = "tag_level_fighting"
+		tip = "In Progress"
 	},
 	tag_level_oni = {
-		tip = "特殊单位",
-		key = "tag_level_oni"
+		tip = "特殊单位"
 	},
 	tag_level_bomb = {
-		tip = "英系轰炸",
-		key = "tag_level_bomb"
+		tip = "英系轰炸"
 	},
 	ui_word_levelui2_inevent = {
-		tip = "In action",
-		key = "ui_word_levelui2_inevent"
+		tip = "In action"
 	},
 	exit_backyard_exp_display = {
-		tip = "$1 received $2 EXP through training.",
-		key = "exit_backyard_exp_display"
+		tip = "$1 received $2 EXP through training."
 	},
 	help_monopoly = {
-		key = "help_monopoly",
 		tip = {
 			{
 				info = "Rules:"
@@ -9568,11 +7648,9 @@ Combat Details:
 		}
 	},
 	md5_error = {
-		tip = "An error has occurred. Please restart the game.",
-		key = "md5_error"
+		tip = "An error has occurred. Please restart the game."
 	},
 	world_boss_help = {
-		key = "world_boss_help",
 		tip = {
 			{
 				info = "<color=#92fc63>- How to Play:</color>"
@@ -9629,19 +7707,15 @@ Once the mission is completed, all players who participated will be rewarded wit
 		}
 	},
 	world_boss_tip = {
-		tip = "<color=#7e7e7f>$1</color> has contributed <color=#8299bc>$2</color> points towards the world boss progress gauge! ",
-		key = "world_boss_tip"
+		tip = "<color=#7e7e7f>$1</color> has contributed <color=#8299bc>$2</color> points towards the world boss progress gauge! "
 	},
 	world_boss_award_limit = {
-		tip = "Unlocks when the progress gauge reaches <color=#FFDE00FF>$1%</color>. ",
-		key = "world_boss_award_limit"
+		tip = "Unlocks when the progress gauge reaches <color=#FFDE00FF>$1%</color>. "
 	},
 	backyard_is_loading = {
-		tip = "Loading furniture... ",
-		key = "backyard_is_loading"
+		tip = "Loading furniture... "
 	},
 	levelScene_loop_help_tip = {
-		key = "levelScene_loop_help_tip",
 		tip = {
 			{
 				info = [[
@@ -9664,55 +7738,42 @@ map.
 		}
 	},
 	no_airspace_competition = {
-		tip = "No Aerial Combat ",
-		key = "no_airspace_competition"
+		tip = "No Aerial Combat "
 	},
 	air_supremacy_value = {
-		tip = "Air Control Degree",
-		key = "air_supremacy_value"
+		tip = "Air Control Degree"
 	},
 	read_the_user_agreement = {
-		tip = "Please scroll to the bottom of the Terms of Service first.",
-		key = "read_the_user_agreement"
+		tip = "Please scroll to the bottom of the Terms of Service first."
 	},
 	award_max_warning = {
-		tip = "Resources or items that exceed the maximum limit will be lost. Do you still wish to continue?",
-		key = "award_max_warning"
+		tip = "Resources or items that exceed the maximum limit will be lost. Do you still wish to continue?"
 	},
 	sub_item_warning = {
-		tip = "Do you wish to turn in these items to complete the mission?",
-		key = "sub_item_warning"
+		tip = "Do you wish to turn in these items to complete the mission?"
 	},
 	select_award_warning = {
-		tip = "Please select one of the following rewards",
-		key = "select_award_warning"
+		tip = "Please select one of the following rewards"
 	},
 	no_item_selected_tip = {
-		tip = "Rewards have not yet been collected",
-		key = "no_item_selected_tip"
+		tip = "Rewards have not yet been collected"
 	},
 	backyard_traning_tip = {
-		tip = "Training grants EXP over time and improves Morale recovery.",
-		key = "backyard_traning_tip"
+		tip = "Training grants EXP over time and improves Morale recovery."
 	},
 	backyard_rest_tip = {
-		tip = "Resting greatly improves Morale recovery.",
-		key = "backyard_rest_tip"
+		tip = "Resting greatly improves Morale recovery."
 	},
 	backyard_class_tip = {
-		tip = "Attending Lectures grants EXP over time.",
-		key = "backyard_class_tip"
+		tip = "Attending Lectures grants EXP over time."
 	},
 	medal_notice_1 = {
-		tip = "Show highes rank ",
-		key = "medal_notice_1"
+		tip = "Show highes rank "
 	},
 	medal_notice_2 = {
-		tip = "Display ",
-		key = "medal_notice_2"
+		tip = "Display "
 	},
 	medal_help_tip = {
-		key = "medal_help_tip",
 		tip = {
 			{
 				info = "- About Medals:"
@@ -9762,115 +7823,87 @@ map.
 		}
 	},
 	trophy_achieved = {
-		tip = "Medal Unlocked!",
-		key = "trophy_achieved"
+		tip = "Medal Unlocked!"
 	},
 	text_shop = {
-		tip = "Shop",
-		key = "text_shop"
+		tip = "Shop"
 	},
 	text_confirm = {
-		tip = "Confirm",
-		key = "text_confirm"
+		tip = "Confirm"
 	},
 	text_cancel = {
-		tip = "Cancel",
-		key = "text_cancel"
+		tip = "Cancel"
 	},
 	text_cancel_fight = {
-		tip = "Leave battle",
-		key = "text_cancel_fight"
+		tip = "Leave battle"
 	},
 	text_goon_fight = {
-		tip = "Continue",
-		key = "text_goon_fight"
+		tip = "Continue"
 	},
 	text_exit = {
-		tip = "Exit",
-		key = "text_exit"
+		tip = "Exit"
 	},
 	text_clear = {
-		tip = "Clear",
-		key = "text_clear"
+		tip = "Clear"
 	},
 	text_apply = {
-		tip = "Requests ",
-		key = "text_apply"
+		tip = "Requests "
 	},
 	text_buy = {
-		tip = "Buy",
-		key = "text_buy"
+		tip = "Buy"
 	},
 	text_forward = {
-		tip = "Go",
-		key = "text_forward"
+		tip = "Go"
 	},
 	text_prepage = {
-		tip = "Prev",
-		key = "text_prepage"
+		tip = "Prev"
 	},
 	text_nextpage = {
-		tip = "Next",
-		key = "text_nextpage"
+		tip = "Next"
 	},
 	text_exchange = {
-		tip = "Exchange",
-		key = "text_exchange"
+		tip = "Exchange"
 	},
 	text_retreat = {
-		tip = "Retreat",
-		key = "text_retreat"
+		tip = "Retreat"
 	},
 	level_scene_title_word_1 = {
-		tip = "Recon value:",
-		key = "level_scene_title_word_1"
+		tip = "Recon value:"
 	},
 	level_scene_title_word_2 = {
-		tip = "Chance of encounter:",
-		key = "level_scene_title_word_2"
+		tip = "Chance of encounter:"
 	},
 	level_scene_title_word_3 = {
-		tip = "Current ACV:",
-		key = "level_scene_title_word_3"
+		tip = "Current ACV:"
 	},
 	level_scene_title_word_4 = {
-		tip = "Airspace:",
-		key = "level_scene_title_word_4"
+		tip = "Airspace:"
 	},
 	level_scene_title_word_5 = {
-		tip = "Rec. ACV:",
-		key = "level_scene_title_word_5"
+		tip = "Rec. ACV:"
 	},
 	ambush_display_0 = {
-		tip = "In action",
-		key = "ambush_display_0"
+		tip = "In action"
 	},
 	ambush_display_1 = {
-		tip = "Safe",
-		key = "ambush_display_1"
+		tip = "Safe"
 	},
 	ambush_display_2 = {
-		tip = "V.Low",
-		key = "ambush_display_2"
+		tip = "V.Low"
 	},
 	ambush_display_3 = {
-		tip = "Low",
-		key = "ambush_display_3"
+		tip = "Low"
 	},
 	ambush_display_4 = {
-		tip = "Medium",
-		key = "ambush_display_4"
+		tip = "Medium"
 	},
 	ambush_display_5 = {
-		tip = "High",
-		key = "ambush_display_5"
+		tip = "High"
 	},
 	ambush_display_6 = {
-		tip = "Danger",
-		key = "ambush_display_6"
+		tip = "Danger"
 	},
 	black_white_grid_notice = {
-		key = "black_white_grid_notice",
 		tip = {
 			{
 				info = "Event Description："
@@ -9916,23 +7949,18 @@ purification has failed.]]
 		}
 	},
 	black_white_grid_reset = {
-		tip = "Confirm Placement?",
-		key = "black_white_grid_reset"
+		tip = "Confirm Placement?"
 	},
 	black_white_grid_switch_tip = {
-		tip = "This Board is still in Progress",
-		key = "black_white_grid_switch_tip"
+		tip = "This Board is still in Progress"
 	},
 	no_way_to_escape = {
-		tip = "Can't escape!",
-		key = "no_way_to_escape"
+		tip = "Can't escape!"
 	},
 	word_attr_ac = {
-		tip = "Airspace Control ",
-		key = "word_attr_ac"
+		tip = "Airspace Control "
 	},
 	help_battle_ac = {
-		key = "help_battle_ac",
 		tip = {
 			{
 				info = [[
@@ -9967,7 +7995,6 @@ The following factors determine how high the stage's ACV is:
 		}
 	},
 	help_attribute_dodge_limit = {
-		key = "help_attribute_dodge_limit",
 		tip = {
 			{
 				info = [[
@@ -9979,27 +8006,21 @@ The chance for an aircraft to avoid enemy Anti-Air fire depends on the AVI stat 
 		}
 	},
 	refuse_friend = {
-		tip = "Really decline this request?",
-		key = "refuse_friend"
+		tip = "Really decline this request?"
 	},
 	refuse_and_add_into_bl = {
-		tip = "Decline and blacklist?",
-		key = "refuse_and_add_into_bl"
+		tip = "Decline and blacklist?"
 	},
 	tech_simulate_closed = {
-		tip = "You have not yet unlocked the Battle Simulation feature.",
-		key = "tech_simulate_closed"
+		tip = "You have not yet unlocked the Battle Simulation feature."
 	},
 	tech_simulate_quit = {
-		tip = "Would you like to end the Battle Simulation?",
-		key = "tech_simulate_quit"
+		tip = "Would you like to end the Battle Simulation?"
 	},
 	technology_uplevel_error_no_res = {
-		tip = "Spend <color=#A9F548>$1</color> coins to unlock this tech level?\n Duration: <color=#A9F548>$2</color>\n Upgrade:<color=#A9F548>Lv.$3->Lv.$4</color> ",
-		key = "technology_uplevel_error_no_res"
+		tip = "Spend <color=#A9F548>$1</color> coins to unlock this tech level?\n Duration: <color=#A9F548>$2</color>\n Upgrade:<color=#A9F548>Lv.$3->Lv.$4</color> "
 	},
 	help_technologytree = {
-		key = "help_technologytree",
 		tip = {
 			{
 				info = [[
@@ -10036,24 +8057,19 @@ About Tech Points:
 		}
 	},
 	tech_change_version_mark = {
-		tip = "Research Preference ",
-		key = "tech_change_version_mark"
+		tip = "Research Preference "
 	},
 	technology_uplevel_error_studying = {
-		tip = "You are already improving the $1's Faction Tech.\nYou can only improve one Faction Tech at a time. ",
-		key = "technology_uplevel_error_studying"
+		tip = "You are already improving the $1's Faction Tech.\nYou can only improve one Faction Tech at a time. "
 	},
 	fate_attr_word = {
-		tip = "Results of Fate Sumulation:",
-		key = "fate_attr_word"
+		tip = "Results of Fate Sumulation:"
 	},
 	fate_phase_word = {
-		tip = "Research Progress: ",
-		key = "fate_phase_word"
+		tip = "Research Progress: "
 	},
 	blueprint_simulation_confirm = {
-		tip = "Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.",
-		key = "blueprint_simulation_confirm"
+		tip = "Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent."
 	},
 	blueprint_simulation_confirm_19901 = {
 		tip = [[
@@ -10061,8 +8077,7 @@ About Tech Points:
 Equipped gear:
 Prototype Triple 152mm Main Gun (DP MK17)
 Prototype Triple 152mm Main Gun (DP MK17)
-Quadruple 40mm Bofors Gun</size>]],
-		key = "blueprint_simulation_confirm_19901"
+Quadruple 40mm Bofors Gun</size>]]
 	},
 	blueprint_simulation_confirm_19902 = {
 		tip = [[
@@ -10070,8 +8085,7 @@ Quadruple 40mm Bofors Gun</size>]],
 Equipped gear:
 Prototype Twin 457mm Main Gun (18" MKA)
 Twin 127mm MK12 Dual Gun
-Quadruple 40mm Bofors Gun</size>]],
-		key = "blueprint_simulation_confirm_19902"
+Quadruple 40mm Bofors Gun</size>]]
 	},
 	blueprint_simulation_confirm_39903 = {
 		tip = [[
@@ -10079,8 +8093,7 @@ Quadruple 40mm Bofors Gun</size>]],
 Equipped gear:
 Twin 100mm (Type 98) AA Gun
 Quadruple 610mm Torpedo
-Prototype 40mm AA Gun (Type 5)</size>]],
-		key = "blueprint_simulation_confirm_39903"
+Prototype 40mm AA Gun (Type 5)</size>]]
 	},
 	blueprint_simulation_confirm_39904 = {
 		tip = [[
@@ -10088,8 +8101,7 @@ Prototype 40mm AA Gun (Type 5)</size>]],
 Equipped gear:
 Prototype Triple 310mm Main Gun (Type 0)
 Twin 100mm (Type 98) AA Gun
-Prototype 40mm AA Gun (Type 5)</size>]],
-		key = "blueprint_simulation_confirm_39904"
+Prototype 40mm AA Gun (Type 5)</size>]]
 	},
 	blueprint_simulation_confirm_49902 = {
 		tip = [[
@@ -10097,8 +8109,7 @@ Prototype 40mm AA Gun (Type 5)</size>]],
 Equipped gear:
 Prototype Twin 406mm Main Gun (SK C/34)
 Twin 150mm Main Gun (TbtsK C/36)
-Twin 105mm AA Gun (SK C)</size>]],
-		key = "blueprint_simulation_confirm_49902"
+Twin 105mm AA Gun (SK C)</size>]]
 	},
 	blueprint_simulation_confirm_99901 = {
 		tip = [[
@@ -10106,19 +8117,15 @@ Twin 105mm AA Gun (SK C)</size>]],
 Equipped gear:
 Quadruple 380mm Main Gun (Mle 1935)
 Triple 152mm Main Gun (Mle 1930)
-Twin 37mm AA Gun (Mle 1936)</size>]],
-		key = "blueprint_simulation_confirm_99901"
+Twin 37mm AA Gun (Mle 1936)</size>]]
 	},
 	electrotherapy_wanning = {
-		tip = "The electrified area is about to expand",
-		key = "electrotherapy_wanning"
+		tip = "The electrified area is about to expand"
 	},
 	memorybook_get_award_tip = {
-		tip = "You must unlock all \"Port Memories\" to receive the \"Commemorative Pyoko-Pyoko Medal\"",
-		key = "memorybook_get_award_tip"
+		tip = "You must unlock all \"Port Memories\" to receive the \"Commemorative Pyoko-Pyoko Medal\""
 	},
 	memorybook_notice = {
-		key = "memorybook_notice",
 		tip = {
 			{
 				info = "Event Description："
@@ -10135,12 +8142,10 @@ Twin 37mm AA Gun (Mle 1936)</size>]],
 		}
 	},
 	word_votes = {
-		tip = "得票数量",
-		key = "word_votes"
+		tip = "得票数量"
 	},
 	number_0 = {
-		tip = "0",
-		key = "number_0"
+		tip = "0"
 	},
 	intimacy_desc_propose_vertical = {
 		tip = [[
@@ -10149,143 +8154,108 @@ Our bond is our bliss, and for its permanence we shall wish.
 Through thick and thin for eternity, together we shall be.
 From now till forever, our fates are bound together.
 
- $1 ]],
-		key = "intimacy_desc_propose_vertical"
+ $1 ]]
 	},
 	without_selected_ship = {
-		tip = "Not enough items",
-		key = "without_selected_ship"
+		tip = "Not enough items"
 	},
 	index_all = {
-		tip = "All",
-		key = "index_all"
+		tip = "All"
 	},
 	index_fleetfront = {
-		tip = "Vanguard ",
-		key = "index_fleetfront"
+		tip = "Vanguard "
 	},
 	index_fleetrear = {
-		tip = "Main ",
-		key = "index_fleetrear"
+		tip = "Main "
 	},
 	index_shipType_quZhu = {
-		tip = "DD",
-		key = "index_shipType_quZhu"
+		tip = "DD"
 	},
 	index_shipType_qinXun = {
-		tip = "CL",
-		key = "index_shipType_qinXun"
+		tip = "CL"
 	},
 	index_shipType_zhongXun = {
-		tip = "CA",
-		key = "index_shipType_zhongXun"
+		tip = "CA"
 	},
 	index_shipType_zhanLie = {
-		tip = "BB",
-		key = "index_shipType_zhanLie"
+		tip = "BB"
 	},
 	index_shipType_hangMu = {
-		tip = "CV",
-		key = "index_shipType_hangMu"
+		tip = "CV"
 	},
 	index_shipType_weiXiu = {
-		tip = "Repair",
-		key = "index_shipType_weiXiu"
+		tip = "Repair"
 	},
 	index_shipType_qianTing = {
-		tip = "SS",
-		key = "index_shipType_qianTing"
+		tip = "SS"
 	},
 	index_other = {
-		tip = "Others",
-		key = "index_other"
+		tip = "Others"
 	},
 	index_rare2 = {
-		tip = "Common",
-		key = "index_rare2"
+		tip = "Common"
 	},
 	index_rare3 = {
-		tip = "Rare",
-		key = "index_rare3"
+		tip = "Rare"
 	},
 	index_rare4 = {
-		tip = "Elite",
-		key = "index_rare4"
+		tip = "Elite"
 	},
 	index_rare5 = {
-		tip = "Super Rare",
-		key = "index_rare5"
+		tip = "Super Rare"
 	},
 	index_rare6 = {
-		tip = "Ultra",
-		key = "index_rare6"
+		tip = "Ultra"
 	},
 	warning_mail_max_1 = {
-		tip = "Your mailbox has almost reached its capacity of (<color=#FF5C5C>$1</color>/1,000.) Please check your mail!",
-		key = "warning_mail_max_1"
+		tip = "Your mailbox has almost reached its capacity of (<color=#FF5C5C>$1</color>/1,000.) Please check your mail!"
 	},
 	warning_mail_max_2 = {
-		tip = "Your mailbox is full!",
-		key = "warning_mail_max_2"
+		tip = "Your mailbox is full!"
 	},
 	return_award_bind_success = {
-		tip = "UID entry successful.",
-		key = "return_award_bind_success"
+		tip = "UID entry successful."
 	},
 	return_award_bind_erro = {
-		tip = "UID entry failed $1.",
-		key = "return_award_bind_erro"
+		tip = "UID entry failed $1."
 	},
 	rename_commander_erro = {
-		tip = "Failed to change username.",
-		key = "rename_commander_erro"
+		tip = "Failed to change username."
 	},
 	change_display_medal_success = {
-		tip = "Changed Medal display settings.",
-		key = "change_display_medal_success"
+		tip = "Changed Medal display settings."
 	},
 	limit_skin_time_day = {
-		tip = "Time left: $1 day(s)",
-		key = "limit_skin_time_day"
+		tip = "Time left: $1 day(s)"
 	},
 	limit_skin_time_day_min = {
-		tip = "Time left: $1 hour(s)",
-		key = "limit_skin_time_day_min"
+		tip = "Time left: $1 hour(s)"
 	},
 	limit_skin_time_min = {
-		tip = "Time left: $1 minute(s)",
-		key = "limit_skin_time_min"
+		tip = "Time left: $1 minute(s)"
 	},
 	limit_skin_time_overtime = {
-		tip = "Your rental period for this skin has concluded.",
-		key = "limit_skin_time_overtime"
+		tip = "Your rental period for this skin has concluded."
 	},
 	award_window_pt_title = {
-		tip = "Returnee points:",
-		key = "award_window_pt_title"
+		tip = "Returnee points:"
 	},
 	return_have_participated_in_act = {
-		tip = "You have already participated in this event.",
-		key = "return_have_participated_in_act"
+		tip = "You have already participated in this event."
 	},
 	input_returner_code = {
-		tip = "Enter UID",
-		key = "input_returner_code"
+		tip = "Enter UID"
 	},
 	dress_up_success = {
-		tip = "Successfully changed chat settings.",
-		key = "dress_up_success"
+		tip = "Successfully changed chat settings."
 	},
 	already_have_the_skin = {
-		tip = "You already have this skin.",
-		key = "already_have_the_skin"
+		tip = "You already have this skin."
 	},
 	exchange_limit_skin_tip = {
-		tip = "Would you like to use $1 Rental Outfit Voucher(s)\n and gain access to \"$2\" for $3 days and $4 hours?",
-		key = "exchange_limit_skin_tip"
+		tip = "Would you like to use $1 Rental Outfit Voucher(s)\n and gain access to \"$2\" for $3 days and $4 hours?"
 	},
 	returner_help = {
-		key = "returner_help",
 		tip = {
 			{
 				info = [[
@@ -10307,27 +8277,21 @@ Event Information:
 		}
 	},
 	attire_time_stamp = {
-		tip = "$1D$2H$3M",
-		key = "attire_time_stamp"
+		tip = "$1D$2H$3M"
 	},
 	warning_pray_build_pool = {
-		tip = "Once you begin focusing your wishes, <color=#FF5C5C>they cannot be changed</color>.\nAre you sure you want to wish for this?",
-		key = "warning_pray_build_pool"
+		tip = "Once you begin focusing your wishes, <color=#FF5C5C>they cannot be changed</color>.\nAre you sure you want to wish for this?"
 	},
 	error_pray_select_ship_max = {
-		tip = "Your wish pool is full.",
-		key = "error_pray_select_ship_max"
+		tip = "Your wish pool is full."
 	},
 	tip_pray_build_pool_success = {
-		tip = "Your wish has been granted.",
-		key = "tip_pray_build_pool_success"
+		tip = "Your wish has been granted."
 	},
 	tip_pray_build_pool_fail = {
-		tip = "This wish cannot be granted.",
-		key = "tip_pray_build_pool_fail"
+		tip = "This wish cannot be granted."
 	},
 	pray_build_help = {
-		key = "pray_build_help",
 		tip = {
 			{
 				info = "Event Description: \n"
@@ -10377,31 +8341,24 @@ Event Information:
 		}
 	},
 	bismarck_award_tip = {
-		tip = "Complete all tasks to earn an award.",
-		key = "bismarck_award_tip"
+		tip = "Complete all tasks to earn an award."
 	},
 	bismarck_chapter_desc = {
-		tip = "Participate in \"Scherzo of Iron and Blood\" and complete tasks to acquire rare items. ",
-		key = "bismarck_chapter_desc"
+		tip = "Participate in \"Scherzo of Iron and Blood\" and complete tasks to acquire rare items. "
 	},
 	returner_push_success = {
-		tip = "Automatic UID Search enabled. ",
-		key = "returner_push_success"
+		tip = "Automatic UID Search enabled. "
 	},
 	returner_max_count = {
-		tip = "The Returning/New Commander list is full.",
-		key = "returner_max_count"
+		tip = "The Returning/New Commander list is full."
 	},
 	returner_push_tip = {
-		tip = "Enabling Automatic UID Search will input your UID in the fields of Returning/New Commanders looking for Active Commander UIDs. Would you like to continue?",
-		key = "returner_push_tip"
+		tip = "Enabling Automatic UID Search will input your UID in the fields of Returning/New Commanders looking for Active Commander UIDs. Would you like to continue?"
 	},
 	returner_match_tip = {
-		tip = "A <color=#FF5C5C>random Active Commander's</color> UID will be input and you will become eligible for Returnee Missions. Would you like to continue?",
-		key = "returner_match_tip"
+		tip = "A <color=#FF5C5C>random Active Commander's</color> UID will be input and you will become eligible for Returnee Missions. Would you like to continue?"
 	},
 	challenge_help = {
-		key = "challenge_help",
 		tip = {
 			{
 				info = "About Challenge Mode:"
@@ -10456,219 +8413,167 @@ Event Information:
 		}
 	},
 	challenge_casual_reset = {
-		tip = "Your Challenge run was ended early.\nTotal score: $1",
-		key = "challenge_casual_reset"
+		tip = "Your Challenge run was ended early.\nTotal score: $1"
 	},
 	challenge_infinite_reset = {
-		tip = "Your Challenge run was ended early.\nChallenge Stages cleared: $1",
-		key = "challenge_infinite_reset"
+		tip = "Your Challenge run was ended early.\nChallenge Stages cleared: $1"
 	},
 	challenge_normal_reset = {
-		tip = "Would you like to end this Challenge run now?",
-		key = "challenge_normal_reset"
+		tip = "Would you like to end this Challenge run now?"
 	},
 	challenge_casual_click_switch = {
-		tip = "You are currently playing on Normal Mode.\nTotal score: $1.\nWould you like to change modes?",
-		key = "challenge_casual_click_switch"
+		tip = "You are currently playing on Normal Mode.\nTotal score: $1.\nWould you like to change modes?"
 	},
 	challenge_infinite_click_switch = {
-		tip = "You are currently playing on Endless Mode.\nCurrent Stage: $1.\nWould you like to change modes?",
-		key = "challenge_infinite_click_switch"
+		tip = "You are currently playing on Endless Mode.\nCurrent Stage: $1.\nWould you like to change modes?"
 	},
 	challenge_season_update = {
-		tip = "The Challenge Stage lineup has changed.",
-		key = "challenge_season_update"
+		tip = "The Challenge Stage lineup has changed."
 	},
 	challenge_season_update_casual_clear = {
-		tip = "Total score: $1\nSince the Challenge Stage lineup has changed, this won't affect your high score.\nWould you like to restart Challenge Mode?",
-		key = "challenge_season_update_casual_clear"
+		tip = "Total score: $1\nSince the Challenge Stage lineup has changed, this won't affect your high score.\nWould you like to restart Challenge Mode?"
 	},
 	challenge_season_update_infinite_clear = {
-		tip = "Current Stage: $1.\nSince the Challenge Stage lineup has changed, this won't affect your high score.\nWould you like to restart Challenge Mode?",
-		key = "challenge_season_update_infinite_clear"
+		tip = "Current Stage: $1.\nSince the Challenge Stage lineup has changed, this won't affect your high score.\nWould you like to restart Challenge Mode?"
 	},
 	challenge_season_update_casual_switch = {
 		tip = [[
 You are currently playing on Normal Mode.
 Total score: $1.
 Since the Challenge Stage lineup has changed, this won't affect your high score.
-Would you like to change modes?]],
-		key = "challenge_season_update_casual_switch"
+Would you like to change modes?]]
 	},
 	challenge_season_update_infinite_switch = {
 		tip = [[
 You are currently playing on Endless Mode.
 Current Stage: $1.
 Since the Challenge Stage lineup has changed, this won't affect your Stage Clear score.
-Would you like to change modes?]],
-		key = "challenge_season_update_infinite_switch"
+Would you like to change modes?]]
 	},
 	challenge_combat_score = {
-		tip = "Stage Score: $1",
-		key = "challenge_combat_score"
+		tip = "Stage Score: $1"
 	},
 	challenge_share_progress = {
-		tip = "Challenges Cleared:",
-		key = "challenge_share_progress"
+		tip = "Challenges Cleared:"
 	},
 	challenge_share = {
-		tip = "Stage ",
-		key = "challenge_share"
+		tip = "Stage "
 	},
 	challenge_expire_warn = {
-		tip = "The date has changed. Your results from this battle will not affect your high score.",
-		key = "challenge_expire_warn"
+		tip = "The date has changed. Your results from this battle will not affect your high score."
 	},
 	challenge_normal_tip = {
-		tip = "Clear the Challenge Stages and aim for a personal high score!",
-		key = "challenge_normal_tip"
+		tip = "Clear the Challenge Stages and aim for a personal high score!"
 	},
 	challenge_unlimited_tip = {
-		tip = "You can attempt the Challenge Stages as many times as you like!",
-		key = "challenge_unlimited_tip"
+		tip = "You can attempt the Challenge Stages as many times as you like!"
 	},
 	commander_prefab_rename_success = {
-		tip = "Name change successful.",
-		key = "commander_prefab_rename_success"
+		tip = "Name change successful."
 	},
 	commander_prefab_name = {
-		tip = "Team $1",
-		key = "commander_prefab_name"
+		tip = "Team $1"
 	},
 	commander_prefab_rename_time = {
-		tip = "You cannot rename this until $1 seconds have passed.",
-		key = "commander_prefab_rename_time"
+		tip = "You cannot rename this until $1 seconds have passed."
 	},
 	commander_build_solt_deficiency = {
-		tip = "Only up to 10 Cat Boxes can be prepared for training at a time.",
-		key = "commander_build_solt_deficiency"
+		tip = "Only up to 10 Cat Boxes can be prepared for training at a time."
 	},
 	commander_select_box_tip = {
-		tip = "Commence training for $1 Cat Box(es)? A maximum of 4 can be trained simultaneously.",
-		key = "commander_select_box_tip"
+		tip = "Commence training for $1 Cat Box(es)? A maximum of 4 can be trained simultaneously."
 	},
 	challenge_end_tip = {
-		tip = "This event has concluded. ",
-		key = "challenge_end_tip"
+		tip = "This event has concluded. "
 	},
 	pass_times = {
-		tip = "Stage clears.",
-		key = "pass_times"
+		tip = "Stage clears."
 	},
 	list_empty_tip_billboardui = {
-		tip = "No ranking data available.",
-		key = "list_empty_tip_billboardui"
+		tip = "No ranking data available."
 	},
 	list_empty_tip_equipmentdesignui = {
-		tip = "You don't have any blueprints.",
-		key = "list_empty_tip_equipmentdesignui"
+		tip = "You don't have any blueprints."
 	},
 	list_empty_tip_storehouseui_equip = {
-		tip = "You don't have any gear.",
-		key = "list_empty_tip_storehouseui_equip"
+		tip = "You don't have any gear."
 	},
 	list_empty_tip_storehouseui_item = {
-		tip = "You don't have any materials.",
-		key = "list_empty_tip_storehouseui_item"
+		tip = "You don't have any materials."
 	},
 	list_empty_tip_eventui = {
-		tip = "No urgent commissions available.",
-		key = "list_empty_tip_eventui"
+		tip = "No urgent commissions available."
 	},
 	list_empty_tip_guildrequestui = {
-		tip = "No pending Guild applications.",
-		key = "list_empty_tip_guildrequestui"
+		tip = "No pending Guild applications."
 	},
 	list_empty_tip_joinguildui = {
-		tip = "Found no Guilds matching your search criteria.",
-		key = "list_empty_tip_joinguildui"
+		tip = "Found no Guilds matching your search criteria."
 	},
 	list_empty_tip_friendui = {
-		tip = "Your friends list is empty.",
-		key = "list_empty_tip_friendui"
+		tip = "Your friends list is empty."
 	},
 	list_empty_tip_friendui_search = {
-		tip = "Found no commanders matching your search criteria.",
-		key = "list_empty_tip_friendui_search"
+		tip = "Found no commanders matching your search criteria."
 	},
 	list_empty_tip_friendui_request = {
-		tip = "You have no pending friend requests.",
-		key = "list_empty_tip_friendui_request"
+		tip = "You have no pending friend requests."
 	},
 	list_empty_tip_friendui_black = {
-		tip = "There are no commanders on your blacklist.",
-		key = "list_empty_tip_friendui_black"
+		tip = "There are no commanders on your blacklist."
 	},
 	list_empty_tip_dockyardui = {
-		tip = "Found no ships matching your filter criteria.",
-		key = "list_empty_tip_dockyardui"
+		tip = "Found no ships matching your filter criteria."
 	},
 	list_empty_tip_taskscene = {
-		tip = "There are no missions available.",
-		key = "list_empty_tip_taskscene"
+		tip = "There are no missions available."
 	},
 	empty_tip_mailboxui = {
-		tip = "You don't have any mail.",
-		key = "empty_tip_mailboxui"
+		tip = "You don't have any mail."
 	},
 	words_settings_unlock_ship = {
-		tip = "Unlocking ships",
-		key = "words_settings_unlock_ship"
+		tip = "Unlocking ships"
 	},
 	words_settings_resolve_equip = {
-		tip = "Scrapping gears",
-		key = "words_settings_resolve_equip"
+		tip = "Scrapping gears"
 	},
 	words_settings_unlock_commander = {
-		tip = "Unlocking Meowfficers",
-		key = "words_settings_unlock_commander"
+		tip = "Unlocking Meowfficers"
 	},
 	words_settings_create_inherit = {
-		tip = "Create Bind Code",
-		key = "words_settings_create_inherit"
+		tip = "Create Bind Code"
 	},
 	tips_fail_secondarypwd_much_times = {
-		tip = "Your Secondary Password is incorrect. Please try again after <color=#92FC63>%s</color>.",
-		key = "tips_fail_secondarypwd_much_times"
+		tip = "Your Secondary Password is incorrect. Please try again after <color=#92FC63>%s</color>."
 	},
 	words_desc_unlock = {
-		tip = "This is a Secondary Password-restricted function.",
-		key = "words_desc_unlock"
+		tip = "This is a Secondary Password-restricted function."
 	},
 	words_desc_resolve_equip = {
-		tip = "This is a Secondary Password-restricted function.",
-		key = "words_desc_resolve_equip"
+		tip = "This is a Secondary Password-restricted function."
 	},
 	words_desc_create_inherit = {
-		tip = "Create Bind Code",
-		key = "words_desc_create_inherit"
+		tip = "Create Bind Code"
 	},
 	words_desc_close_password = {
-		tip = "Disable Secondary Password feature",
-		key = "words_desc_close_password"
+		tip = "Disable Secondary Password feature"
 	},
 	words_desc_change_settings = {
-		tip = "Change Secondary Password-restricted functions",
-		key = "words_desc_change_settings"
+		tip = "Change Secondary Password-restricted functions"
 	},
 	words_set_password = {
-		tip = "Change Secondary Password",
-		key = "words_set_password"
+		tip = "Change Secondary Password"
 	},
 	words_information = {
-		tip = "Info",
-		key = "words_information"
+		tip = "Info"
 	},
 	Word_Ship_Exp_Buff = {
-		tip = "EXP Rate+ ",
-		key = "Word_Ship_Exp_Buff"
+		tip = "EXP Rate+ "
 	},
 	secondarypassword_incorrectpwd_error = {
-		tip = "Your Secondary Password is incorrect. You have <color=#FF5C5C>%d</color> attempts remaining.",
-		key = "secondarypassword_incorrectpwd_error"
+		tip = "Your Secondary Password is incorrect. You have <color=#FF5C5C>%d</color> attempts remaining."
 	},
 	secondary_password_help = {
-		key = "secondary_password_help",
 		tip = {
 			{
 				info = "The Secondary Password feature's purpose is to ensure that only the account's owner can perform certain actions. The owner can make it necessary to enter the correct password to retire ships or scrap gear, for instance."
@@ -10694,7 +8599,6 @@ Would you like to change modes?]],
 		}
 	},
 	comic_help = {
-		key = "comic_help",
 		tip = {
 			{
 				info = "1. Color in the manga panels by clearing the time-limited daily missions!"
@@ -10708,19 +8612,15 @@ Would you like to change modes?]],
 		}
 	},
 	secondarypassword_illegal_tip = {
-		tip = "Contains sensitive info, please re-enter ",
-		key = "secondarypassword_illegal_tip"
+		tip = "Contains sensitive info, please re-enter "
 	},
 	pt_cosume = {
-		tip = "Cost:$1",
-		key = "pt_cosume"
+		tip = "Cost:$1"
 	},
 	secondarypassword_confirm_tips = {
-		tip = "Would you like to set <color=#FFDE38>\"%s\"</color> as your Secondary Password hint? ",
-		key = "secondarypassword_confirm_tips"
+		tip = "Would you like to set <color=#FFDE38>\"%s\"</color> as your Secondary Password hint? "
 	},
 	help_tempesteve = {
-		key = "help_tempesteve",
 		tip = {
 			{
 				info = "Event Info:"
@@ -10748,67 +8648,51 @@ Would you like to change modes?]],
 		}
 	},
 	word_rest_times = {
-		tip = "<color=#FFDE38FF>Uses Left: %s</color> ",
-		key = "word_rest_times"
+		tip = "<color=#FFDE38FF>Uses Left: %s</color> "
 	},
 	common_buy_gold_success = {
-		tip = "Successfully purchased <color=#92fc63>$1</color> Coins! ",
-		key = "common_buy_gold_success"
+		tip = "Successfully purchased <color=#92fc63>$1</color> Coins! "
 	},
 	harbour_bomb_tip = {
-		tip = "The harbor has been destroyed!",
-		key = "harbour_bomb_tip"
+		tip = "The harbor has been destroyed!"
 	},
 	submarine_approach = {
-		tip = "Submarines Detected",
-		key = "submarine_approach"
+		tip = "Submarines Detected"
 	},
 	submarine_approach_desc = {
-		tip = "Enemy submarines have appeared on the map!",
-		key = "submarine_approach_desc"
+		tip = "Enemy submarines have appeared on the map!"
 	},
 	desc_quick_play = {
-		tip = "Fast Forward",
-		key = "desc_quick_play"
+		tip = "Fast Forward"
 	},
 	text_win_condition = {
-		tip = "Win conditions:",
-		key = "text_win_condition"
+		tip = "Win conditions:"
 	},
 	text_lose_condition = {
-		tip = "Loss conditions:",
-		key = "text_lose_condition"
+		tip = "Loss conditions:"
 	},
 	text_rest_HP = {
-		tip = "Harbor integrity:",
-		key = "text_rest_HP"
+		tip = "Harbor integrity:"
 	},
 	desc_defense_reward = {
-		tip = "The rewards you receive are based on how effective your defense was.",
-		key = "desc_defense_reward"
+		tip = "The rewards you receive are based on how effective your defense was."
 	},
 	desc_base_hp = {
-		tip = "Harbor integrity: $1/$2",
-		key = "desc_base_hp"
+		tip = "Harbor integrity: $1/$2"
 	},
 	map_event_open = {
-		tip = "A blocked tile was created.",
-		key = "map_event_open"
+		tip = "A blocked tile was created."
 	},
 	word_reward = {
-		tip = "Rewards",
-		key = "word_reward"
+		tip = "Rewards"
 	},
 	tips_dispense_completed = {
-		tip = "Filling complete",
-		key = "tips_dispense_completed"
+		tip = "Filling complete"
 	},
 	tips_firework_completed = {
-		tip = "Fireworks production complete",
-		key = "tips_firework_completed"
+		tip = "Fireworks production complete"
 	},
 	help_summer_feast = {
-		key = "help_summer_feast",
 		tip = {
 			{
 				info = [[
@@ -10820,11 +8704,9 @@ TIPS：
 		}
 	},
 	help_firework_produce = {
-		tip = "Press the Start button to begin filling the fireworks. The Fill Gauge will continuously move. There will be three Fill attempts - press the button at the appropriate time on each attempt to finish filling the fireworks.The total Fill amount can be seen on the horizontal bar at the right-hand side of the screen.Prizes are given depending on total fill amount: First-tier prize: <color=#c80a00>140%-160%</color> Second-tier prize: <color=#e66f00>120%-140% 160-180%</color>Third-tier prize: <color=#ffea01>90-120% 180-210%</color>All other fill amounts will result in a booby prize.",
-		key = "help_firework_produce"
+		tip = "Press the Start button to begin filling the fireworks. The Fill Gauge will continuously move. There will be three Fill attempts - press the button at the appropriate time on each attempt to finish filling the fireworks.The total Fill amount can be seen on the horizontal bar at the right-hand side of the screen.Prizes are given depending on total fill amount: First-tier prize: <color=#c80a00>140%-160%</color> Second-tier prize: <color=#e66f00>120%-140% 160-180%</color>Third-tier prize: <color=#ffea01>90-120% 180-210%</color>All other fill amounts will result in a booby prize."
 	},
 	help_firework = {
-		key = "help_firework",
 		tip = {
 			{
 				info = [[
@@ -10840,7 +8722,6 @@ You can play the minigame without a Game Ticket but will not earn any prizes.</c
 		}
 	},
 	help_summer_shrine = {
-		key = "help_summer_shrine",
 		tip = {
 			{
 				info = [[
@@ -10855,7 +8736,6 @@ Making a Donation when you have no Visits will still consume resources but grant
 		}
 	},
 	help_summer_food = {
-		key = "help_summer_food",
 		tip = {
 			{
 				info = [[
@@ -10871,7 +8751,6 @@ You can play the minigame without a Game Ticket but will not earn any prizes.</c
 		}
 	},
 	help_summer_shooting = {
-		key = "help_summer_shooting",
 		tip = {
 			{
 				info = [[
@@ -10886,7 +8765,6 @@ You can play the minigame without a Game Ticket but will not earn any prizes.</c
 		}
 	},
 	help_summer_stamp = {
-		key = "help_summer_stamp",
 		tip = {
 			{
 				info = "Use Game Tickets to play minigames in order to earn stamps.Stamps earned are displayed in the \"Stamps\" booklet.When 14 stamps have been collected,click on the button on the left-hand side of the booklet to get Juno’s limited outfit."
@@ -10894,23 +8772,18 @@ You can play the minigame without a Game Ticket but will not earn any prizes.</c
 		}
 	},
 	tips_summergame_exit = {
-		tip = "A minigame is currently in progress. If you leave now, you won't earn any prizes. Are you sure you want to leave?",
-		key = "tips_summergame_exit"
+		tip = "A minigame is currently in progress. If you leave now, you won't earn any prizes. Are you sure you want to leave?"
 	},
 	tips_shrine_buff = {
-		tip = "You spent 5 Coins and received a blessing",
-		key = "tips_shrine_buff"
+		tip = "You spent 5 Coins and received a blessing"
 	},
 	tips_shrine_nobuff = {
-		tip = "You spent 5 Coins but your prayers fall upon deaf ears. Perhaps you need more Shrine Visits.",
-		key = "tips_shrine_nobuff"
+		tip = "You spent 5 Coins but your prayers fall upon deaf ears. Perhaps you need more Shrine Visits."
 	},
 	paint_hide_other_obj_tip = {
-		tip = "Hide background objects",
-		key = "paint_hide_other_obj_tip"
+		tip = "Hide background objects"
 	},
 	help_vote = {
-		key = "help_vote",
 		tip = {
 			{
 				info = [[
@@ -10991,67 +8864,51 @@ Voting Schedule:
 		}
 	},
 	tips_firework_exit = {
-		tip = "The fireworks have not yet been completed. Are you sure you want to leave?",
-		key = "tips_firework_exit"
+		tip = "The fireworks have not yet been completed. Are you sure you want to leave?"
 	},
 	result_firework_produce = {
-		tip = "Fireworks production has been completed. Your final rating: ",
-		key = "result_firework_produce"
+		tip = "Fireworks production has been completed. Your final rating: "
 	},
 	tag_level_narrative = {
-		tip = "Story",
-		key = "tag_level_narrative"
+		tip = "Story"
 	},
 	vote_get_book = {
-		tip = "You obtained a Certificate of Support.",
-		key = "vote_get_book"
+		tip = "You obtained a Certificate of Support."
 	},
 	vote_book_is_over = {
-		tip = "The Popularity Poll has concluded.",
-		key = "vote_book_is_over"
+		tip = "The Popularity Poll has concluded."
 	},
 	word_maintain = {
-		tip = "post-maintenance ",
-		key = "word_maintain"
+		tip = "post-maintenance "
 	},
 	name_zhanliejahe = {
-		tip = "{namecode:92}(BB)",
-		key = "name_zhanliejahe"
+		tip = "{namecode:92}(BB)"
 	},
 	change_skin_secretary_ship_success = {
-		tip = "Secretary Set Successfully",
-		key = "change_skin_secretary_ship_success"
+		tip = "Secretary Set Successfully"
 	},
 	change_skin_secretary_ship = {
-		tip = "Set Secretary",
-		key = "change_skin_secretary_ship"
+		tip = "Set Secretary"
 	},
 	word_billboard = {
-		tip = "Rankings",
-		key = "word_billboard"
+		tip = "Rankings"
 	},
 	word_easy = {
-		tip = "Easy",
-		key = "word_easy"
+		tip = "Easy"
 	},
 	word_normal_junhe = {
-		tip = "Normal",
-		key = "word_normal_junhe"
+		tip = "Normal"
 	},
 	word_hard = {
-		tip = "Hard",
-		key = "word_hard"
+		tip = "Hard"
 	},
 	tip_exchange_ticket = {
-		tip = "Would you like to exchange a Challenge Ticket for 1 additional Reward Sortie on the $1 stage?",
-		key = "tip_exchange_ticket"
+		tip = "Would you like to exchange a Challenge Ticket for 1 additional Reward Sortie on the $1 stage?"
 	},
 	dont_remind = {
-		tip = "Hide reminder ",
-		key = "dont_remind"
+		tip = "Hide reminder "
 	},
 	worldbossex_help = {
-		key = "worldbossex_help",
 		tip = {
 			{
 				info = [[
@@ -11083,79 +8940,60 @@ depends on the amount of damage dealt to the boss.
 		}
 	},
 	ship_formationUI_fleetName_easy = {
-		tip = "Easy",
-		key = "ship_formationUI_fleetName_easy"
+		tip = "Easy"
 	},
 	ship_formationUI_fleetName_normal = {
-		tip = "Normal",
-		key = "ship_formationUI_fleetName_normal"
+		tip = "Normal"
 	},
 	ship_formationUI_fleetName_hard = {
-		tip = "Hard",
-		key = "ship_formationUI_fleetName_hard"
+		tip = "Hard"
 	},
 	ship_formationUI_fleetName_extra = {
-		tip = "EX",
-		key = "ship_formationUI_fleetName_extra"
+		tip = "EX"
 	},
 	ship_formationUI_fleetName_easy_ss = {
-		tip = "Sub Fleet - Easy",
-		key = "ship_formationUI_fleetName_easy_ss"
+		tip = "Sub Fleet - Easy"
 	},
 	ship_formationUI_fleetName_normal_ss = {
-		tip = "Sub Fleet - Normal",
-		key = "ship_formationUI_fleetName_normal_ss"
+		tip = "Sub Fleet - Normal"
 	},
 	ship_formationUI_fleetName_hard_ss = {
-		tip = "Sub Fleet - Hard",
-		key = "ship_formationUI_fleetName_hard_ss"
+		tip = "Sub Fleet - Hard"
 	},
 	ship_formationUI_fleetName_extra_ss = {
-		tip = "Sub Fleet - EX",
-		key = "ship_formationUI_fleetName_extra_ss"
+		tip = "Sub Fleet - EX"
 	},
 	text_consume = {
-		tip = "YES",
-		key = "text_consume"
+		tip = "YES"
 	},
 	text_inconsume = {
-		tip = "NO",
-		key = "text_inconsume"
+		tip = "NO"
 	},
 	pt_ship_now = {
-		tip = "\n  ",
-		key = "pt_ship_now"
+		tip = "\n  "
 	},
 	pt_ship_goal = {
-		tip = "Goal:",
-		key = "pt_ship_goal"
+		tip = "Goal:"
 	},
 	option_desc1 = {
-		tip = "When toggled ON, displays the custom names that other commanders have given their ships.",
-		key = "option_desc1"
+		tip = "When toggled ON, displays the custom names that other commanders have given their ships."
 	},
 	option_desc2 = {
-		tip = "When toggled ON, your device will vibrate after completing a battle in Auto mode.",
-		key = "option_desc2"
+		tip = "When toggled ON, your device will vibrate after completing a battle in Auto mode."
 	},
 	option_desc3 = {
-		tip = "When toggled ON, your device will vibrate when obtaining a ship of Elite rarity or higher.",
-		key = "option_desc3"
+		tip = "When toggled ON, your device will vibrate when obtaining a ship of Elite rarity or higher."
 	},
 	option_desc4 = {
-		tip = "When toggled OFF, skips the acquisition screen when obtaining a Rare or Common ship already registered in your encyclopedia.",
-		key = "option_desc4"
+		tip = "When toggled OFF, skips the acquisition screen when obtaining a Rare or Common ship already registered in your encyclopedia."
 	},
 	option_desc5 = {
-		tip = "When toggled ON, displays a tap effect when you tap the screen.",
-		key = "option_desc5"
+		tip = "When toggled ON, displays a tap effect when you tap the screen."
 	},
 	option_desc6 = {
-		tip = "When toggled ON, the loading display will adapt to your device's aspect ratio.",
-		key = "option_desc6"
+		tip = "When toggled ON, the loading display will adapt to your device's aspect ratio."
 	},
 	music_collection = {
-		key = "music_collection",
 		tip = {
 			{
 				info = "- How to Play:"
@@ -11176,7 +9014,6 @@ depends on the amount of damage dealt to the boss.
 		}
 	},
 	music_main = {
-		key = "music_main",
 		tip = {
 			{
 				info = "- The Concert Venue:"
@@ -11217,7 +9054,6 @@ Here you can see Juustagram posts from members of Polaris and company. To get ne
 		}
 	},
 	music_juus = {
-		key = "music_juus",
 		tip = {
 			{
 				info = "\"Juustagram\" Information:"
@@ -11236,35 +9072,27 @@ After leaving a comment on a post, you may receive a reply after a period of tim
 		}
 	},
 	ins_word_day = {
-		tip = "$1 days ago ",
-		key = "ins_word_day"
+		tip = "$1 days ago "
 	},
 	ins_word_hour = {
-		tip = "$1 hours ago",
-		key = "ins_word_hour"
+		tip = "$1 hours ago"
 	},
 	ins_word_minu = {
-		tip = "$1 minutes ago",
-		key = "ins_word_minu"
+		tip = "$1 minutes ago"
 	},
 	ins_word_like = {
-		tip = "$1 Likes",
-		key = "ins_word_like"
+		tip = "$1 Likes"
 	},
 	ins_click_like_success = {
-		tip = "You Liked this post.",
-		key = "ins_click_like_success"
+		tip = "You Liked this post."
 	},
 	ins_push_comment_success = {
-		tip = "You left a comment on this post.",
-		key = "ins_push_comment_success"
+		tip = "You left a comment on this post."
 	},
 	skinshop_live2d_fliter_failed = {
-		tip = "No outfits to display under current filter settings ",
-		key = "skinshop_live2d_fliter_failed"
+		tip = "No outfits to display under current filter settings "
 	},
 	help_music_game = {
-		key = "help_music_game",
 		tip = {
 			{
 				info = [[
@@ -11283,15 +9111,12 @@ Each passing day since the start of the event gives you 1 opportunity to earn Pe
 		}
 	},
 	restart_music_game = {
-		tip = "Would you like to stop the song and start over?",
-		key = "restart_music_game"
+		tip = "Would you like to stop the song and start over?"
 	},
 	reselect_music_game = {
-		tip = "Would you like to stop and return to the song select screen?",
-		key = "reselect_music_game"
+		tip = "Would you like to stop and return to the song select screen?"
 	},
 	hololive_goodmorning = {
-		key = "hololive_goodmorning",
 		tip = {
 			{
 				info = [[
@@ -11306,7 +9131,6 @@ Each passing day since the start of the event gives you 1 opportunity to earn Pe
 		}
 	},
 	hololive_lianliankan = {
-		key = "hololive_lianliankan",
 		tip = {
 			{
 				info = [[
@@ -11328,7 +9152,6 @@ Each passing day since the start of the event gives you 1 opportunity to earn Pe
 		}
 	},
 	hololive_dalaozhang = {
-		key = "hololive_dalaozhang",
 		tip = {
 			{
 				info = [[
@@ -11343,7 +9166,6 @@ Each passing day since the start of the event gives you 1 opportunity to earn Pe
 		}
 	},
 	hololive_dashenling = {
-		key = "hololive_dashenling",
 		tip = {
 			{
 				info = [[
@@ -11362,15 +9184,12 @@ Each passing day since the start of the event gives you 1 opportunity to earn Pe
 		}
 	},
 	pocky_jiujiu = {
-		tip = "Manjuu Manufactory",
-		key = "pocky_jiujiu"
+		tip = "Manjuu Manufactory"
 	},
 	pocky_jiujiu_desc = {
-		tip = "The Manjuus are hard at work today...",
-		key = "pocky_jiujiu_desc"
+		tip = "The Manjuus are hard at work today..."
 	},
 	pocky_help = {
-		key = "pocky_help",
 		tip = {
 			{
 				info = "Event Instructions:"
@@ -11387,7 +9206,6 @@ Each passing day since the start of the event gives you 1 opportunity to earn Pe
 		}
 	},
 	secretary_help = {
-		key = "secretary_help",
 		tip = {
 			{
 				info = "About Secretary Groups:\n"
@@ -11413,39 +9231,30 @@ Each passing day since the start of the event gives you 1 opportunity to earn Pe
 		}
 	},
 	secretary_unlock2 = {
-		tip = "Clear stage 3-4 \nto unlock ",
-		key = "secretary_unlock2"
+		tip = "Clear stage 3-4 \nto unlock "
 	},
 	secretary_unlock3 = {
-		tip = "Clear stage 6-4 \nto unlock ",
-		key = "secretary_unlock3"
+		tip = "Clear stage 6-4 \nto unlock "
 	},
 	secretary_unlock4 = {
-		tip = "Clear stage 9-4 \nto unlock ",
-		key = "secretary_unlock4"
+		tip = "Clear stage 9-4 \nto unlock "
 	},
 	secretary_unlock5 = {
-		tip = "Clear stage 12-4 \nto unlock ",
-		key = "secretary_unlock5"
+		tip = "Clear stage 12-4 \nto unlock "
 	},
 	secretary_closed = {
-		tip = "Not open",
-		key = "secretary_closed"
+		tip = "Not open"
 	},
 	confirm_unlock = {
-		tip = "Are you sure you want to unlock $1?",
-		key = "confirm_unlock"
+		tip = "Are you sure you want to unlock $1?"
 	},
 	secretary_pos_save = {
-		tip = "Would you like to save the current secretary ship placement?",
-		key = "secretary_pos_save"
+		tip = "Would you like to save the current secretary ship placement?"
 	},
 	secretary_pos_save_success = {
-		tip = "Save successful",
-		key = "secretary_pos_save_success"
+		tip = "Save successful"
 	},
 	collection_help = {
-		key = "collection_help",
 		tip = {
 			{
 				icon = {
@@ -11477,155 +9286,117 @@ Each passing day since the start of the event gives you 1 opportunity to earn Pe
 		}
 	},
 	juese_tiyan = {
-		tip = "Would you like to try out this character? (Stats shown during testing are for reference only, <color=#ff5c5c>Actual performance when acquired may differ.</color>)",
-		key = "juese_tiyan"
+		tip = "Would you like to try out this character? (Stats shown during testing are for reference only, <color=#ff5c5c>Actual performance when acquired may differ.</color>)"
 	},
 	resolve_amount_prefix = {
-		tip = "Disassemble amount:",
-		key = "resolve_amount_prefix"
+		tip = "Disassemble amount:"
 	},
 	compose_amount_prefix = {
-		tip = "Combine amount:",
-		key = "compose_amount_prefix"
+		tip = "Combine amount:"
 	},
 	help_sub_limits = {
-		tip = "Hide/Show ASR",
-		key = "help_sub_limits"
+		tip = "Hide/Show ASR"
 	},
 	help_sub_display = {
-		tip = "Attack Mode/Support Mode",
-		key = "help_sub_display"
+		tip = "Attack Mode/Support Mode"
 	},
 	confirm_unlock_ship_main = {
-		tip = "This ship is currently secretary, and cannot be selected again",
-		key = "confirm_unlock_ship_main"
+		tip = "This ship is currently secretary, and cannot be selected again"
 	},
 	msgbox_text_confirm = {
-		tip = "Confirm",
-		key = "msgbox_text_confirm"
+		tip = "Confirm"
 	},
 	msgbox_text_shop = {
-		tip = "Shop ",
-		key = "msgbox_text_shop"
+		tip = "Shop "
 	},
 	msgbox_text_cancel = {
-		tip = "Cancel",
-		key = "msgbox_text_cancel"
+		tip = "Cancel"
 	},
 	msgbox_text_cancel_g = {
-		tip = "Cancel",
-		key = "msgbox_text_cancel_g"
+		tip = "Cancel"
 	},
 	msgbox_text_cancel_fight = {
-		tip = "Leave battle",
-		key = "msgbox_text_cancel_fight"
+		tip = "Leave battle"
 	},
 	msgbox_text_goon_fight = {
-		tip = "Continue",
-		key = "msgbox_text_goon_fight"
+		tip = "Continue"
 	},
 	msgbox_text_exit = {
-		tip = "Exit",
-		key = "msgbox_text_exit"
+		tip = "Exit"
 	},
 	msgbox_text_clear = {
-		tip = "Clear",
-		key = "msgbox_text_clear"
+		tip = "Clear"
 	},
 	msgbox_text_apply = {
-		tip = "Send",
-		key = "msgbox_text_apply"
+		tip = "Send"
 	},
 	msgbox_text_buy = {
-		tip = "Purchase",
-		key = "msgbox_text_buy"
+		tip = "Purchase"
 	},
 	msgbox_text_noPos_buy = {
-		tip = "Expand",
-		key = "msgbox_text_noPos_buy"
+		tip = "Expand"
 	},
 	msgbox_text_noPos_clear = {
-		tip = "Sort",
-		key = "msgbox_text_noPos_clear"
+		tip = "Sort"
 	},
 	msgbox_text_noPos_intensify = {
-		tip = "Enhance",
-		key = "msgbox_text_noPos_intensify"
+		tip = "Enhance"
 	},
 	msgbox_text_forward = {
-		tip = "Go",
-		key = "msgbox_text_forward"
+		tip = "Go"
 	},
 	msgbox_text_iknow = {
-		tip = "Got it",
-		key = "msgbox_text_iknow"
+		tip = "Got it"
 	},
 	msgbox_text_prepage = {
-		tip = "Next",
-		key = "msgbox_text_prepage"
+		tip = "Next"
 	},
 	msgbox_text_nextpage = {
-		tip = "Prev",
-		key = "msgbox_text_nextpage"
+		tip = "Prev"
 	},
 	msgbox_text_exchange = {
-		tip = "Exchange",
-		key = "msgbox_text_exchange"
+		tip = "Exchange"
 	},
 	msgbox_text_retreat = {
-		tip = "Retreat",
-		key = "msgbox_text_retreat"
+		tip = "Retreat"
 	},
 	msgbox_text_go = {
-		tip = "Go",
-		key = "msgbox_text_go"
+		tip = "Go"
 	},
 	msgbox_text_consume = {
-		tip = "Cost",
-		key = "msgbox_text_consume"
+		tip = "Cost"
 	},
 	msgbox_text_inconsume = {
-		tip = "NO",
-		key = "msgbox_text_inconsume"
+		tip = "NO"
 	},
 	msgbox_text_unlock = {
-		tip = "Unlock",
-		key = "msgbox_text_unlock"
+		tip = "Unlock"
 	},
 	common_flag_ship = {
-		tip = "Secretary",
-		key = "common_flag_ship"
+		tip = "Secretary"
 	},
 	fenjie_lantu_tip = {
-		tip = "You can only analyze Prototype Blueprints after reaching Development Level 30 with that corresponding ship.",
-		key = "fenjie_lantu_tip"
+		tip = "You can only analyze Prototype Blueprints after reaching Development Level 30 with that corresponding ship."
 	},
 	msgbox_text_analyse = {
-		tip = "Analyze",
-		key = "msgbox_text_analyse"
+		tip = "Analyze"
 	},
 	fragresolve_empty_tip = {
-		tip = "There are no Prototype Blueprints that can currently be analyzed.",
-		key = "fragresolve_empty_tip"
+		tip = "There are no Prototype Blueprints that can currently be analyzed."
 	},
 	confirm_unlock_lv = {
-		tip = "Are you sure you want to unlock $1 ($2)?",
-		key = "confirm_unlock_lv"
+		tip = "Are you sure you want to unlock $1 ($2)?"
 	},
 	shops_rest_day = {
-		tip = "Store refreshes in :",
-		key = "shops_rest_day"
+		tip = "Store refreshes in :"
 	},
 	title_limit_time = {
-		tip = "「Event」",
-		key = "title_limit_time"
+		tip = "「Event」"
 	},
 	seven_choose_one = {
-		tip = "You may choose only one New Year's gift. \nWould you like <color=#92fc63>$1</color>'s gift? \nYou will receive this character and her greeting. ",
-		key = "seven_choose_one"
+		tip = "You may choose only one New Year's gift. \nWould you like <color=#92fc63>$1</color>'s gift? \nYou will receive this character and her greeting. "
 	},
 	help_newyear_feast = {
-		key = "help_newyear_feast",
 		tip = {
 			{
 				info = [[
@@ -11652,7 +9423,6 @@ You may also quit the minigame at any time without losing a Ticket, but you will
 		}
 	},
 	help_newyear_shrine = {
-		key = "help_newyear_shrine",
 		tip = {
 			{
 				info = [[
@@ -11684,7 +9454,6 @@ The expiration of the education blessing will not cause any lesson in progress t
 		}
 	},
 	help_newyear_stamp = {
-		key = "help_newyear_stamp",
 		tip = {
 			{
 				info = "You can acquire Stamps by playing Kinu's New Year Training while in possession of a Ticket.\n\nCollect 7 Stamps to receive the skin!"
@@ -11692,11 +9461,9 @@ The expiration of the education blessing will not cause any lesson in progress t
 		}
 	},
 	pt_reconfirm = {
-		tip = "Would you like to buy <color=#ff5c5c>$1</color>?",
-		key = "pt_reconfirm"
+		tip = "Would you like to buy <color=#ff5c5c>$1</color>?"
 	},
 	qte_game_help = {
-		key = "qte_game_help",
 		tip = {
 			{
 				icon = {
@@ -11728,39 +9495,30 @@ The expiration of the education blessing will not cause any lesson in progress t
 		}
 	},
 	word_equipskin_type = {
-		tip = "Type ",
-		key = "word_equipskin_type"
+		tip = "Type "
 	},
 	word_equipskin_all = {
-		tip = "All ",
-		key = "word_equipskin_all"
+		tip = "All "
 	},
 	word_equipskin_cannon = {
-		tip = "Artillery ",
-		key = "word_equipskin_cannon"
+		tip = "Artillery "
 	},
 	word_equipskin_tarpedo = {
-		tip = "Torpedoes ",
-		key = "word_equipskin_tarpedo"
+		tip = "Torpedoes "
 	},
 	word_equipskin_aircraft = {
-		tip = "Aircraft ",
-		key = "word_equipskin_aircraft"
+		tip = "Aircraft "
 	},
 	msgbox_repair = {
-		tip = "Repair Assets",
-		key = "msgbox_repair"
+		tip = "Repair Assets"
 	},
 	msgbox_repair_l2d = {
-		tip = "Repair Live2D",
-		key = "msgbox_repair_l2d"
+		tip = "Repair Live2D"
 	},
 	word_no_cache = {
-		tip = "There are no assets to repair.",
-		key = "word_no_cache"
+		tip = "There are no assets to repair."
 	},
 	pile_game_notice = {
-		key = "pile_game_notice",
 		tip = {
 			{
 				info = [[
@@ -11780,7 +9538,6 @@ You will receive 1 Ticket each day for the duration of the event.
 		}
 	},
 	help_chunjie_stamp = {
-		key = "help_chunjie_stamp",
 		tip = {
 			{
 				info = [[
@@ -11797,7 +9554,6 @@ Please note that you can only receive Stamps through the Manjuu Tower minigame. 
 		}
 	},
 	help_chunjie_feast = {
-		key = "help_chunjie_feast",
 		tip = {
 			{
 				info = [[
@@ -11814,7 +9570,6 @@ Please note that you can only receive Stamps through the Manjuu Tower minigame. 
 		}
 	},
 	help_chunjie_jiulou = {
-		key = "help_chunjie_jiulou",
 		tip = {
 			{
 				info = [[
@@ -11827,35 +9582,27 @@ Please note that you can only receive Stamps through the Manjuu Tower minigame. 
 		}
 	},
 	special_animal1 = {
-		tip = "[Uranami's Collection of Cuties - #1] Axofrostl: a strange creature with the power to rapidly freeze its prey. It builds its nest in frozen lakes.",
-		key = "special_animal1"
+		tip = "[Uranami's Collection of Cuties - #1] Axofrostl: a strange creature with the power to rapidly freeze its prey. It builds its nest in frozen lakes."
 	},
 	special_animal2 = {
-		tip = "[Uranami's Collection of Cuties - #2] Paranoebill: this bird flies with telekinesis, rather than its wings. It is peaceful and a conscientious objector, but will use its power for self-defense if necessary.",
-		key = "special_animal2"
+		tip = "[Uranami's Collection of Cuties - #2] Paranoebill: this bird flies with telekinesis, rather than its wings. It is peaceful and a conscientious objector, but will use its power for self-defense if necessary."
 	},
 	special_animal3 = {
-		tip = "[Uranami's Collection of Cuties - #3] Pinnisphere: it puffs itself up into a ball by filling its lungs beyond capacity. Apparently it's just a party trick.",
-		key = "special_animal3"
+		tip = "[Uranami's Collection of Cuties - #3] Pinnisphere: it puffs itself up into a ball by filling its lungs beyond capacity. Apparently it's just a party trick."
 	},
 	special_animal4 = {
-		tip = "[Uranami's Collection of Cuties - #4] Uniqorn: a rare creature of mythological origins, said to only associate with other Uniqorns. It communicates telepathically and can fly.",
-		key = "special_animal4"
+		tip = "[Uranami's Collection of Cuties - #4] Uniqorn: a rare creature of mythological origins, said to only associate with other Uniqorns. It communicates telepathically and can fly."
 	},
 	special_animal5 = {
-		tip = "[Uranami's Collection of Cuties - #5] Inwanshirible: somehow, this dog learned how to make itself nearly invisible. Keyword: nearly. Its fluffy butt remains in full view.",
-		key = "special_animal5"
+		tip = "[Uranami's Collection of Cuties - #5] Inwanshirible: somehow, this dog learned how to make itself nearly invisible. Keyword: nearly. Its fluffy butt remains in full view."
 	},
 	special_animal6 = {
-		tip = "[Uranami's Collection of Cuties - #6] Swolejuu: after rigorous lifting, a mountain of oats, and mastering the art of ridiculing binoclards, this little bird became ABSOLUTELY RIPPED, BROTHER.",
-		key = "special_animal6"
+		tip = "[Uranami's Collection of Cuties - #6] Swolejuu: after rigorous lifting, a mountain of oats, and mastering the art of ridiculing binoclards, this little bird became ABSOLUTELY RIPPED, BROTHER."
 	},
 	special_animal7 = {
-		tip = "[Uranami's Collection of Cuties - #7] Meunchkus: it secretes a rainbow-colored liquid through its mouth. Accounts from people who'd rather remain anonymous claim \"it also tastes like a rainbow.\"",
-		key = "special_animal7"
+		tip = "[Uranami's Collection of Cuties - #7] Meunchkus: it secretes a rainbow-colored liquid through its mouth. Accounts from people who'd rather remain anonymous claim \"it also tastes like a rainbow.\""
 	},
 	bulin_help = {
-		key = "bulin_help",
 		tip = {
 			{
 				info = [[
@@ -11869,59 +9616,45 @@ to earn special rewards.]]
 		}
 	},
 	bulin_tip1 = {
-		tip = "Sortie nya! Target 1-2 nya!",
-		key = "bulin_tip1"
+		tip = "Sortie nya! Target 1-2 nya!"
 	},
 	bulin_tip2 = {
-		tip = "Make sure you clean up your item stash nya!",
-		key = "bulin_tip2"
+		tip = "Make sure you clean up your item stash nya!"
 	},
 	bulin_tip3 = {
-		tip = "Sortie nya! Target 2-2 nya!",
-		key = "bulin_tip3"
+		tip = "Sortie nya! Target 2-2 nya!"
 	},
 	bulin_tip4 = {
-		tip = "Nya? Maybe check the dockyard nya?",
-		key = "bulin_tip4"
+		tip = "Nya? Maybe check the dockyard nya?"
 	},
 	bulin_tip5 = {
-		tip = "Sortie nya! Target 1-4 nya!",
-		key = "bulin_tip5"
+		tip = "Sortie nya! Target 1-4 nya!"
 	},
 	bulin_tip6 = {
-		tip = "Don't forget to feed the kids nya!",
-		key = "bulin_tip6"
+		tip = "Don't forget to feed the kids nya!"
 	},
 	bulin_tip7 = {
-		tip = "Sortie nya! Target 2-4 nya!",
-		key = "bulin_tip7"
+		tip = "Sortie nya! Target 2-4 nya!"
 	},
 	bulin_tip8 = {
-		tip = "Check out the cherry blossoms in the schoolyard nya!",
-		key = "bulin_tip8"
+		tip = "Check out the cherry blossoms in the schoolyard nya!"
 	},
 	bulin_tip9 = {
-		tip = "Drop by the store and get some more goodies nya!",
-		key = "bulin_tip9"
+		tip = "Drop by the store and get some more goodies nya!"
 	},
 	bulin_tip_other1 = {
-		tip = "Get a hint? You can only get one every 20 minutes.",
-		key = "bulin_tip_other1"
+		tip = "Get a hint? You can only get one every 20 minutes."
 	},
 	bulin_tip_other2 = {
-		tip = "Hints are on cooldown.",
-		key = "bulin_tip_other2"
+		tip = "Hints are on cooldown."
 	},
 	bulin_tip_other3 = {
-		tip = "Quit the stage? You won't get any rewards.",
-		key = "bulin_tip_other3"
+		tip = "Quit the stage? You won't get any rewards."
 	},
 	monopoly_left_count = {
-		tip = "Dice: ",
-		key = "monopoly_left_count"
+		tip = "Dice: "
 	},
 	help_chunjie_monopoly = {
-		key = "help_chunjie_monopoly",
 		tip = {
 			{
 				info = "Rules:"
@@ -11991,23 +9724,18 @@ to earn special rewards.]]
 		}
 	},
 	monoply_drop_ship_step = {
-		tip = "Complete $1 more laps to earn the limited outfit, \"Style of the East.\"",
-		key = "monoply_drop_ship_step"
+		tip = "Complete $1 more laps to earn the limited outfit, \"Style of the East.\""
 	},
 	lanternRiddles_wait_for_reanswer = {
-		tip = "Please wait before attempting this riddle again",
-		key = "lanternRiddles_wait_for_reanswer"
+		tip = "Please wait before attempting this riddle again"
 	},
 	lanternRiddles_answer_is_wrong = {
-		tip = "Sorry, please try again!",
-		key = "lanternRiddles_answer_is_wrong"
+		tip = "Sorry, please try again!"
 	},
 	lanternRiddles_answer_is_right = {
-		tip = "Congratulations!",
-		key = "lanternRiddles_answer_is_right"
+		tip = "Congratulations!"
 	},
 	lanternRiddles_gametip = {
-		key = "lanternRiddles_gametip",
 		tip = {
 			{
 				info = [[
@@ -12021,31 +9749,24 @@ Event Rules:
 		}
 	},
 	LanternRiddle_wait_time_tip = {
-		tip = "Next Attempt: ",
-		key = "LanternRiddle_wait_time_tip"
+		tip = "Next Attempt: "
 	},
 	sort_attribute = {
-		tip = "Stat",
-		key = "sort_attribute"
+		tip = "Stat"
 	},
 	sort_intimacy = {
-		tip = "Affinity",
-		key = "sort_intimacy"
+		tip = "Affinity"
 	},
 	index_skin = {
-		tip = "Has Skin",
-		key = "index_skin"
+		tip = "Has Skin"
 	},
 	index_reform = {
-		tip = "Has Retrofit",
-		key = "index_reform"
+		tip = "Has Retrofit"
 	},
 	index_strengthen = {
-		tip = "Enhanceable",
-		key = "index_strengthen"
+		tip = "Enhanceable"
 	},
 	decodegame_gametip = {
-		key = "decodegame_gametip",
 		tip = {
 			{
 				info = "- Decryption:\nDecryption is a new minievent. Tap on the Decryption screen to begin decrypting and unlock Passcodes with which you can claim a number of rewards.\nTo begin decrypting, you first need to obtain Intel, which is acquired through the Northern Overture event."
@@ -12081,67 +9802,51 @@ Event Rules:
 		}
 	},
 	indexsort_sort = {
-		tip = "Sort",
-		key = "indexsort_sort"
+		tip = "Sort"
 	},
 	indexsort_index = {
-		tip = "Index",
-		key = "indexsort_index"
+		tip = "Index"
 	},
 	indexsort_camp = {
-		tip = "Faction",
-		key = "indexsort_camp"
+		tip = "Faction"
 	},
 	indexsort_rarity = {
-		tip = "Rarity",
-		key = "indexsort_rarity"
+		tip = "Rarity"
 	},
 	indexsort_extraindex = {
-		tip = "Extra",
-		key = "indexsort_extraindex"
+		tip = "Extra"
 	},
 	indexsort_sorteng = {
-		tip = "Sort",
-		key = "indexsort_sorteng"
+		tip = "Sort"
 	},
 	indexsort_indexeng = {
-		tip = "Index",
-		key = "indexsort_indexeng"
+		tip = "Index"
 	},
 	indexsort_campeng = {
-		tip = "Faction",
-		key = "indexsort_campeng"
+		tip = "Faction"
 	},
 	indexsort_rarityeng = {
-		tip = "Rarity",
-		key = "indexsort_rarityeng"
+		tip = "Rarity"
 	},
 	fightfail_up = {
-		tip = "Would you like to retreat and return to the map select screen?",
-		key = "fightfail_up"
+		tip = "Would you like to retreat and return to the map select screen?"
 	},
 	fightfail_equip = {
-		tip = "Would you like to retreat and go to the Dock to enhance gear?",
-		key = "fightfail_equip"
+		tip = "Would you like to retreat and go to the Dock to enhance gear?"
 	},
 	fight_strengthen = {
-		tip = "Would you like to retreat and go to the Dock to enhance or Limit Break ships?",
-		key = "fight_strengthen"
+		tip = "Would you like to retreat and go to the Dock to enhance or Limit Break ships?"
 	},
 	fightfail_noequip = {
-		tip = "No gear has been equipped.",
-		key = "fightfail_noequip"
+		tip = "No gear has been equipped."
 	},
 	fightfail_choiceequip = {
-		tip = "Select a ship with gear you would like to enhance.",
-		key = "fightfail_choiceequip"
+		tip = "Select a ship with gear you would like to enhance."
 	},
 	fightfail_choicestrengthen = {
-		tip = "Select a ship that you would like to enhance or Limit Break.",
-		key = "fightfail_choicestrengthen"
+		tip = "Select a ship that you would like to enhance or Limit Break."
 	},
 	sofmap_attention = {
-		key = "sofmap_attention",
 		tip = {
 			{
 				info = "Clear the following stages to earn different amounts of <color=#92fc63>\"Akashi Coupons\"</color>\n-Main Campaign stages after Chapter 3 \n-SP1, SP2, or SP3"
@@ -12149,27 +9854,21 @@ Event Rules:
 		}
 	},
 	sofmapsd_1 = {
-		tip = "Oh nyeow! \nI've dropped my coupons in the ocean, nya! Help me out, Commander! ",
-		key = "sofmapsd_1"
+		tip = "Oh nyeow! \nI've dropped my coupons in the ocean, nya! Help me out, Commander! "
 	},
 	sofmapsd_2 = {
-		tip = "Hand them in to me, \nand I'll give you some rewards, nya!",
-		key = "sofmapsd_2"
+		tip = "Hand them in to me, \nand I'll give you some rewards, nya!"
 	},
 	sofmapsd_3 = {
-		tip = "Hehehe! This'll boost my sales, nya!",
-		key = "sofmapsd_3"
+		tip = "Hehehe! This'll boost my sales, nya!"
 	},
 	sofmapsd_4 = {
-		tip = "We've hit our sales goal, nya! \nThanks a bunch, Commander!",
-		key = "sofmapsd_4"
+		tip = "We've hit our sales goal, nya! \nThanks a bunch, Commander!"
 	},
 	inform_level_limit = {
-		tip = "Reporting is available after reaching Commander Lv. 20 ",
-		key = "inform_level_limit"
+		tip = "Reporting is available after reaching Commander Lv. 20 "
 	},
 	["3match_tip"] = {
-		key = "3match_tip",
 		tip = {
 			{
 				icon = {
@@ -12207,255 +9906,192 @@ Event Rules:
 		}
 	},
 	retire_selectzero = {
-		tip = "No ships fit the specified conditions for quick retire. ",
-		key = "retire_selectzero"
+		tip = "No ships fit the specified conditions for quick retire. "
 	},
 	undermist_tip = {
-		tip = "No available missions. Please wait until tomorrow to unlock more.",
-		key = "undermist_tip"
+		tip = "No available missions. Please wait until tomorrow to unlock more."
 	},
 	retire_1 = {
-		tip = "If you <color=#92fc63>own a ship</color> that has been <color=#92fc63>fully Limit Broken</color>, this option determines what you want to do with the corresponding duplicate ships.",
-		key = "retire_1"
+		tip = "If you <color=#92fc63>own a ship</color> that has been <color=#92fc63>fully Limit Broken</color>, this option determines what you want to do with the corresponding duplicate ships."
 	},
 	retire_2 = {
-		tip = "If you <color=#ff5c5c>own multiple copies of a ship</color> that <color=#92fc63>has not been fully Limit Broken</color>, this option determines what you want to do with those copies.",
-		key = "retire_2"
+		tip = "If you <color=#ff5c5c>own multiple copies of a ship</color> that <color=#92fc63>has not been fully Limit Broken</color>, this option determines what you want to do with those copies."
 	},
 	retire_3 = {
-		tip = "Prioritize Level 1 ships",
-		key = "retire_3"
+		tip = "Prioritize Level 1 ships"
 	},
 	retire_rarity = {
-		tip = "Prioritize Rarity $1",
-		key = "retire_rarity"
+		tip = "Prioritize Rarity $1"
 	},
 	retire_title = {
-		tip = "Quick Retire Options",
-		key = "retire_title"
+		tip = "Quick Retire Options"
 	},
 	res_unlock_tip = {
-		tip = "Unlock by spending the following resources",
-		key = "res_unlock_tip"
+		tip = "Unlock by spending the following resources"
 	},
 	res_wifi_tip = {
-		tip = "You are currently not on a Wi-Fi network. Downloading may use up a large amount of cellular data. Continue with download anyway?",
-		key = "res_wifi_tip"
+		tip = "You are currently not on a Wi-Fi network. Downloading may use up a large amount of cellular data. Continue with download anyway?"
 	},
 	res_downloading = {
-		tip = "Downloading",
-		key = "res_downloading"
+		tip = "Downloading"
 	},
 	res_pic_time_all = {
-		tip = "All",
-		key = "res_pic_time_all"
+		tip = "All"
 	},
 	res_pic_time_2017_up = {
-		tip = "2017 (1/2)",
-		key = "res_pic_time_2017_up"
+		tip = "2017 (1/2)"
 	},
 	res_pic_time_2017_down = {
-		tip = "2017 (2/2)",
-		key = "res_pic_time_2017_down"
+		tip = "2017 (2/2)"
 	},
 	res_pic_time_2018_up = {
-		tip = "2018 (1/2)",
-		key = "res_pic_time_2018_up"
+		tip = "2018 (1/2)"
 	},
 	res_pic_time_2018_down = {
-		tip = "2018 (2/2)",
-		key = "res_pic_time_2018_down"
+		tip = "2018 (2/2)"
 	},
 	res_pic_time_2019_up = {
-		tip = "2019 (1/2)",
-		key = "res_pic_time_2019_up"
+		tip = "2019 (1/2)"
 	},
 	res_pic_time_2019_down = {
-		tip = "2019 (2/2)",
-		key = "res_pic_time_2019_down"
+		tip = "2019 (2/2)"
 	},
 	res_pic_time_2020_up = {
-		tip = "2020 (1/2)",
-		key = "res_pic_time_2020_up"
+		tip = "2020 (1/2)"
 	},
 	res_pic_new_tip = {
-		tip = "$1 new illustrations were added in this update. Come take a look!",
-		key = "res_pic_new_tip"
+		tip = "$1 new illustrations were added in this update. Come take a look!"
 	},
 	res_music_no_pre_tip = {
-		tip = "First Track",
-		key = "res_music_no_pre_tip"
+		tip = "First Track"
 	},
 	res_music_no_next_tip = {
-		tip = "Last Track",
-		key = "res_music_no_next_tip"
+		tip = "Last Track"
 	},
 	res_music_new_tip = {
-		tip = "This update adds $1 music",
-		key = "res_music_new_tip"
+		tip = "This update adds $1 music"
 	},
 	apple_link_title = {
-		tip = "Account Link Complete",
-		key = "apple_link_title"
+		tip = "Account Link Complete"
 	},
 	facebook_link_title = {
-		tip = "Facebook Account:$1",
-		key = "facebook_link_title"
+		tip = "Facebook Account:$1"
 	},
 	verification_code_req_tip1 = {
-		tip = "The e-mail box cannot be left blank.",
-		key = "verification_code_req_tip1"
+		tip = "The e-mail box cannot be left blank."
 	},
 	verification_code_req_tip2 = {
-		tip = "Verification request successful! Please check your e-mail for the verification code.",
-		key = "verification_code_req_tip2"
+		tip = "Verification request successful! Please check your e-mail for the verification code."
 	},
 	verification_code_req_tip3 = {
-		tip = "Email and Verification Code cannot be empty",
-		key = "verification_code_req_tip3"
+		tip = "Email and Verification Code cannot be empty"
 	},
 	yostar_link_title = {
-		tip = "Yostar Account:$1",
-		key = "yostar_link_title"
+		tip = "Yostar Account:$1"
 	},
 	pay_cancel = {
-		tip = "Cancel Payment",
-		key = "pay_cancel"
+		tip = "Cancel Payment"
 	},
 	order_error = {
-		tip = "Balance Calculation Failed",
-		key = "order_error"
+		tip = "Balance Calculation Failed"
 	},
 	pay_fail = {
-		tip = "Payment Failed",
-		key = "pay_fail"
+		tip = "Payment Failed"
 	},
 	user_cancel = {
-		tip = "Cancelled by Player",
-		key = "user_cancel"
+		tip = "Cancelled by Player"
 	},
 	system_error = {
-		tip = "System Error",
-		key = "system_error"
+		tip = "System Error"
 	},
 	time_out = {
-		tip = "You are not logged in or afk too long",
-		key = "time_out"
+		tip = "You are not logged in or afk too long"
 	},
 	server_error = {
-		tip = "Server communication Error",
-		key = "server_error"
+		tip = "Server communication Error"
 	},
 	data_error = {
-		tip = "Data Verification Failed",
-		key = "data_error"
+		tip = "Data Verification Failed"
 	},
 	share_success = {
-		tip = "Sharing Successfully",
-		key = "share_success"
+		tip = "Sharing Successfully"
 	},
 	shoot_screen_fail = {
-		tip = "Screenshot Failed",
-		key = "shoot_screen_fail"
+		tip = "Screenshot Failed"
 	},
 	server_name = {
-		tip = "Event Server",
-		key = "server_name"
+		tip = "Event Server"
 	},
 	non_support_share = {
-		tip = "Commander, the \"Share\" option is still unavailable.",
-		key = "non_support_share"
+		tip = "Commander, the \"Share\" option is still unavailable."
 	},
 	save_success = {
-		tip = "Data Saved Successfully",
-		key = "save_success"
+		tip = "Data Saved Successfully"
 	},
 	word_guild_join_err1 = {
-		tip = "You can't join multiple guilds.",
-		key = "word_guild_join_err1"
+		tip = "You can't join multiple guilds."
 	},
 	task_empty_tip_1 = {
-		tip = "No events available now!",
-		key = "task_empty_tip_1"
+		tip = "No events available now!"
 	},
 	task_empty_tip_2 = {
-		tip = "No events available now! \nStay tuned with our Facebook & Twitter official Page!",
-		key = "task_empty_tip_2"
+		tip = "No events available now! \nStay tuned with our Facebook & Twitter official Page!"
 	},
 	["airi_error_code_ 100210"] = {
-		tip = "TW Failed to authorize, unable to login",
-		key = "airi_error_code_ 100210"
+		tip = "TW Failed to authorize, unable to login"
 	},
 	["airi_error_code_ 100211"] = {
-		tip = "TW Unable to login, please bind your account first",
-		key = "airi_error_code_ 100211"
+		tip = "TW Unable to login, please bind your account first"
 	},
 	["airi_error_code_ 100212"] = {
-		tip = "TW Login verification failed.",
-		key = "airi_error_code_ 100212"
+		tip = "TW Login verification failed."
 	},
 	["airi_error_code_ 100610"] = {
-		tip = "TW Failed to authorize, unable to bind",
-		key = "airi_error_code_ 100610"
+		tip = "TW Failed to authorize, unable to bind"
 	},
 	["airi_error_code_ 100611"] = {
-		tip = "TW Already binded to another user",
-		key = "airi_error_code_ 100611"
+		tip = "TW Already binded to another user"
 	},
 	["airi_error_code_ 100612"] = {
-		tip = "TW Login verification failed, unable to bind",
-		key = "airi_error_code_ 100612"
+		tip = "TW Login verification failed, unable to bind"
 	},
 	["airi_error_code_ 100710"] = {
-		tip = "TW Failed to authorize, unable to unbind",
-		key = "airi_error_code_ 100710"
+		tip = "TW Failed to authorize, unable to unbind"
 	},
 	["airi_error_code_ 100711"] = {
-		tip = "TW The account is not binded to any user",
-		key = "airi_error_code_ 100711"
+		tip = "TW The account is not binded to any user"
 	},
 	["airi_error_code_ 100712"] = {
-		tip = "TW Invalid login verification, unable to unbind",
-		key = "airi_error_code_ 100712"
+		tip = "TW Invalid login verification, unable to unbind"
 	},
 	["airi_error_code_ 100810"] = {
-		tip = "FB Failed to authorize, unable to login",
-		key = "airi_error_code_ 100810"
+		tip = "FB Failed to authorize, unable to login"
 	},
 	["airi_error_code_ 100811"] = {
-		tip = "FB Unable to login, please bind your account first",
-		key = "airi_error_code_ 100811"
+		tip = "FB Unable to login, please bind your account first"
 	},
 	["airi_error_code_ 100812"] = {
-		tip = "FB Login verification failed, unable to login",
-		key = "airi_error_code_ 100812"
+		tip = "FB Login verification failed, unable to login"
 	},
 	["airi_error_code_ 100813"] = {
-		tip = "FB Failed to authorize, unable to bind",
-		key = "airi_error_code_ 100813"
+		tip = "FB Failed to authorize, unable to bind"
 	},
 	["airi_error_code_ 100814"] = {
-		tip = "FB Already binded to another user",
-		key = "airi_error_code_ 100814"
+		tip = "FB Already binded to another user"
 	},
 	["airi_error_code_ 100815"] = {
-		tip = "FB Login verification failed, unable to bind",
-		key = "airi_error_code_ 100815"
+		tip = "FB Login verification failed, unable to bind"
 	},
 	["airi_error_code_ 100816"] = {
-		tip = "FB Failed to authorize, unable to unbind",
-		key = "airi_error_code_ 100816"
+		tip = "FB Failed to authorize, unable to unbind"
 	},
 	["airi_error_code_ 100817"] = {
-		tip = "FB The account is not binded to any user",
-		key = "airi_error_code_ 100817"
+		tip = "FB The account is not binded to any user"
 	},
 	["airi_error_code_ 100818"] = {
-		tip = "FB Login verification failed, unable to unbind",
-		key = "airi_error_code_ 100818"
+		tip = "FB Login verification failed, unable to unbind"
 	},
 	retire_setting_help = {
-		key = "retire_setting_help",
 		tip = {
 			{
 				info = [[
@@ -12472,59 +10108,45 @@ By tapping the “Quick Retire” button to the bottom left of the Retire interf
 		}
 	},
 	activity_shop_exchange_count = {
-		tip = "Limit:",
-		key = "activity_shop_exchange_count"
+		tip = "Limit:"
 	},
 	shops_msgbox_exchange_count = {
-		tip = "Purchase amount:",
-		key = "shops_msgbox_exchange_count"
+		tip = "Purchase amount:"
 	},
 	shops_msgbox_output = {
-		tip = "Will get:",
-		key = "shops_msgbox_output"
+		tip = "Will get:"
 	},
 	shop_word_exchange = {
-		tip = "Confirm",
-		key = "shop_word_exchange"
+		tip = "Confirm"
 	},
 	shop_word_cancel = {
-		tip = "Cancel",
-		key = "shop_word_cancel"
+		tip = "Cancel"
 	},
 	title_item_ways = {
-		tip = "<color=#92fc63>$1</color> can be obtained through the following methods ",
-		key = "title_item_ways"
+		tip = "<color=#92fc63>$1</color> can be obtained through the following methods "
 	},
 	item_lack_title = {
-		tip = "<color=#92fc63>$1</color> can be obtained through the following methods ",
-		key = "item_lack_title"
+		tip = "<color=#92fc63>$1</color> can be obtained through the following methods "
 	},
 	oil_buy_tip_2 = {
-		tip = "You need <size=28><color=#ff5c5c>$4</color></size> Oil. Would you like to spend <color=#92fc63>$1</color><icon name=diamond w=0.7 h=0.7/> to buy <size=28><color=#92fc63>$2</color></size> Oil?<size=28><color=#a2a2a2>\n\n(You have purchased Oil <size=28><color=#ff5c5c>$3</color></size> times today.)</color></size>",
-		key = "oil_buy_tip_2"
+		tip = "You need <size=28><color=#ff5c5c>$4</color></size> Oil. Would you like to spend <color=#92fc63>$1</color><icon name=diamond w=0.7 h=0.7/> to buy <size=28><color=#92fc63>$2</color></size> Oil?<size=28><color=#a2a2a2>\n\n(You have purchased Oil <size=28><color=#ff5c5c>$3</color></size> times today.)</color></size>"
 	},
 	target_chapter_is_lock = {
-		tip = "This chapter has not been unlocked yet. ",
-		key = "target_chapter_is_lock"
+		tip = "This chapter has not been unlocked yet. "
 	},
 	ship_book = {
-		tip = "<color=#92fc63>Textbook</color>",
-		key = "ship_book"
+		tip = "<color=#92fc63>Textbook</color>"
 	},
 	month_sign_resign = {
-		tip = "补签",
-		key = "month_sign_resign"
+		tip = "补签"
 	},
 	collect_tip = {
-		tip = "Some selected ships are busy. Unable to form commsion fleet. ",
-		key = "collect_tip"
+		tip = "Some selected ships are busy. Unable to form commsion fleet. "
 	},
 	collect_tip2 = {
-		tip = "Some selected ships are busy. Unable to form commsion fleet. ",
-		key = "collect_tip2"
+		tip = "Some selected ships are busy. Unable to form commsion fleet. "
 	},
 	towerclimbing_gametip = {
-		key = "towerclimbing_gametip",
 		tip = {
 			{
 				info = [[
@@ -12541,7 +10163,6 @@ During the event, you will earn one Credit every day,up to a maximum of seven (7
 		}
 	},
 	qingdianguangchang_help = {
-		key = "qingdianguangchang_help",
 		tip = {
 			{
 				info = [[
@@ -12559,19 +10180,15 @@ Dumpling House]]
 		}
 	},
 	building_tip = {
-		tip = "Insufficient building materials. Please head to <color=#92fc63>Tasks</color> and complete <color=#92fc63>Event missions</color> to get more. ",
-		key = "building_tip"
+		tip = "Insufficient building materials. Please head to <color=#92fc63>Tasks</color> and complete <color=#92fc63>Event missions</color> to get more. "
 	},
 	building_upgrade_tip = {
-		tip = "Are you sure you want to upgrade? Building materials will be consumed.",
-		key = "building_upgrade_tip"
+		tip = "Are you sure you want to upgrade? Building materials will be consumed."
 	},
 	msgbox_text_upgrade = {
-		tip = "Upgrade",
-		key = "msgbox_text_upgrade"
+		tip = "Upgrade"
 	},
 	towerclimbing_sign_help = {
-		key = "towerclimbing_sign_help",
 		tip = {
 			{
 				info = [[
@@ -12594,155 +10211,144 @@ any Credits, or give any rewards.]]
 		}
 	},
 	building_complete_tip = {
-		tip = "Upgrade Complete ",
-		key = "building_complete_tip"
+		tip = "Upgrade Complete "
 	},
 	backyard_theme_refresh_time_tip = {
-		tip = "Please wait before refreshing",
-		key = "backyard_theme_refresh_time_tip"
+		tip = "Please wait before refreshing"
 	},
 	backyard_theme_total_print = {
-		tip = "Total",
-		key = "backyard_theme_total_print"
+		tip = "Total"
 	},
 	backyard_theme_shop_title = {
-		tip = "Explore Loadouts",
-		key = "backyard_theme_shop_title"
+		tip = "Explore Loadouts"
 	},
 	backyard_theme_mine_title = {
-		tip = "My Loadout",
-		key = "backyard_theme_mine_title"
+		tip = "My Loadout"
 	},
 	backyard_theme_collection_title = {
-		tip = "My Favorites",
-		key = "backyard_theme_collection_title"
+		tip = "My Favorites"
 	},
 	backyard_theme_ban_upload_tip = {
-		tip = "Your uploaded loadout has been reported, and you are not currently able to use the Upload feature\nBan time remaining: $1",
-		key = "backyard_theme_ban_upload_tip"
+		tip = "Your uploaded loadout has been reported, and you are not currently able to use the Upload feature\nBan time remaining: $1"
 	},
 	backyard_theme_upload_over_maxcnt = {
-		tip = "Maximum number of uploaded loadouts exceeded.\nPlease delete old uploaded loadouts and try again.",
-		key = "backyard_theme_upload_over_maxcnt"
+		tip = "Maximum number of uploaded loadouts exceeded.\nPlease delete old uploaded loadouts and try again."
 	},
 	backyard_theme_apply_tip1 = {
-		tip = "You do not own all the furniture for this loadout. Please continue arranging furniture or head to the Furniture Store.",
-		key = "backyard_theme_apply_tip1"
+		tip = "You do not own all the furniture for this loadout. Please continue arranging furniture or head to the Furniture Store."
 	},
 	backyard_theme_word_buy = {
-		tip = "Buy",
-		key = "backyard_theme_word_buy"
+		tip = "Buy"
 	},
 	backyard_theme_word_apply = {
-		tip = "Apply",
-		key = "backyard_theme_word_apply"
+		tip = "Apply"
 	},
 	backyard_theme_apply_success = {
-		tip = "Loadout Saved",
-		key = "backyard_theme_apply_success"
+		tip = "Loadout Saved"
 	},
 	backyard_theme_unload_success = {
-		tip = "Upload Cancelled",
-		key = "backyard_theme_unload_success"
+		tip = "Upload Cancelled"
 	},
 	backyard_theme_upload_success = {
-		tip = "Uploaded",
-		key = "backyard_theme_upload_success"
+		tip = "Uploaded"
 	},
 	backyard_theme_delete_success = {
-		tip = "Deleted",
-		key = "backyard_theme_delete_success"
+		tip = "Deleted"
 	},
 	backyard_theme_apply_tip2 = {
-		tip = "Are you sure you want to Quicksave this loadout?",
-		key = "backyard_theme_apply_tip2"
+		tip = "Are you sure you want to Quicksave this loadout?"
 	},
 	backyard_theme_upload_cnt = {
-		tip = "Uploaded Loadouts: $1/$2",
-		key = "backyard_theme_upload_cnt"
+		tip = "Uploaded Loadouts: $1/$2"
 	},
 	backyard_theme_upload_time = {
-		tip = "Upload Time:",
-		key = "backyard_theme_upload_time"
+		tip = "Upload Time:"
 	},
 	backyard_theme_word_like = {
-		tip = "Likes",
-		key = "backyard_theme_word_like"
+		tip = "Likes"
 	},
 	backyard_theme_word_collection = {
-		tip = "Favorites",
-		key = "backyard_theme_word_collection"
+		tip = "Favorites"
 	},
 	backyard_theme_cancel_collection = {
-		tip = "Are you sure you want to unfavorite this?",
-		key = "backyard_theme_cancel_collection"
+		tip = "Are you sure you want to unfavorite this?"
 	},
 	backyard_theme_inform_them = {
-		tip = "\nLoadout ID: $1",
-		key = "backyard_theme_inform_them"
+		tip = "\nLoadout ID: $1"
 	},
 	sort_default = {
-		tip = "Default",
-		key = "sort_default"
+		tip = "Default"
 	},
 	sort_time = {
-		tip = "Time",
-		key = "sort_time"
+		tip = "Time"
 	},
 	sort_like = {
-		tip = "Popularity",
-		key = "sort_like"
+		tip = "Popularity"
 	},
 	open_backyard_theme_template_tip = {
-		tip = "Furniture loadout templates are now available!",
-		key = "open_backyard_theme_template_tip"
+		tip = "Furniture loadout templates are now available!"
 	},
 	backyard_theme_cancel_template_upload_tip = {
-		tip = "Are you sure you want to take down this uploaded loadout? Once taken down, you will lose all Likes and Favorites associated with that loadout.",
-		key = "backyard_theme_cancel_template_upload_tip"
+		tip = "Are you sure you want to take down this uploaded loadout? Once taken down, you will lose all Likes and Favorites associated with that loadout."
 	},
 	backyard_theme_delete_themplate_tip = {
-		tip = "Are you sure you want to delete this loadout? Once deleted, you will lose all Likes and Favorites associated with that loadout.",
-		key = "backyard_theme_delete_themplate_tip"
+		tip = "Are you sure you want to delete this loadout? Once deleted, you will lose all Likes and Favorites associated with that loadout."
 	},
 	backyard_theme_template_be_delete_tip = {
-		tip = "This loadout has already been deleted.",
-		key = "backyard_theme_template_be_delete_tip"
+		tip = "This loadout has already been deleted."
 	},
 	backyard_theme_template_collection_cnt_max = {
-		tip = "Your favorite loadouts list is full!",
-		key = "backyard_theme_template_collection_cnt_max"
+		tip = "Your favorite loadouts list is full!"
 	},
 	backyard_theme_template_collection_cnt = {
-		tip = "Favorite Loadouts:",
-		key = "backyard_theme_template_collection_cnt"
+		tip = "Favorite Loadouts:"
 	},
 	words_visit_backyard_toggle = {
-		tip = "Allow friends to \nvisit your Dorm",
-		key = "words_visit_backyard_toggle"
+		tip = "Allow friends to \nvisit your Dorm"
 	},
 	words_show_friend_backyardship_toggle = {
-		tip = "Display the secretary \nof friends visiting your Dorm",
-		key = "words_show_friend_backyardship_toggle"
+		tip = "Display the secretary \nof friends visiting your Dorm"
 	},
 	words_show_my_backyardship_toggle = {
-		tip = "Show your secretary \nship after visiting a friend's Dorm",
-		key = "words_show_my_backyardship_toggle"
+		tip = "Show your secretary \nship after visiting a friend's Dorm"
 	},
 	option_desc7 = {
-		tip = "When toggled on, allows your friends to visit your Dorm.",
-		key = "option_desc7"
+		tip = "When toggled on, allows your friends to visit your Dorm."
 	},
 	option_desc8 = {
-		tip = "When toggled on, displays the secretary of friends visiting your Dorm.",
-		key = "option_desc8"
+		tip = "When toggled on, displays the secretary of friends visiting your Dorm."
 	},
 	option_desc9 = {
-		tip = "When toggled on, your friends will be able to see your secretary ship after you visit their Dorm.",
-		key = "option_desc9"
+		tip = "When toggled on, your friends will be able to see your secretary ship after you visit their Dorm."
 	},
 	backyard_unopen = {
-		tip = "Dorm has not been made public",
-		key = "backyard_unopen"
+		tip = "Dorm has not been made public"
+	},
+	backyard_shop_refresh_frequently = {
+		tip = "You're tapping too rapidly. Please try again in $1 second(s)"
+	},
+	word_random = {
+		tip = "Random"
+	},
+	word_hot = {
+		tip = "Hot"
+	},
+	word_new = {
+		tip = "New"
+	},
+	backyard_decoration_theme_template_delete_tip = {
+		tip = "Are you sure you wish to delete this loadout? Likes and Favorites will not be retained once deleted!"
+	},
+	backyard_not_found_theme_template = {
+		tip = "No corresponding loadout found."
+	},
+	backyard_apply_theme_template_erro = {
+		tip = "Failed to apply loadout."
+	},
+	backyard_theme_template_list_is_empty = {
+		tip = "No usable furniture."
+	},
+	BackYard_collection_be_delete_tip = {
+		tip = "Some loadouts have been removed your favorites due to deletion by their uploaders. "
 	}
 }

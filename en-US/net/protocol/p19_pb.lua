@@ -75,6 +75,8 @@ slot1 = {
 	CS_19109_POS_FIELD = slot0.FieldDescriptor(),
 	CS_19109_NAME_FIELD = slot0.FieldDescriptor(),
 	CS_19109_FURNITURE_PUT_LIST_FIELD = slot0.FieldDescriptor(),
+	CS_19109_ICON_IMAGE_MD5_FIELD = slot0.FieldDescriptor(),
+	CS_19109_IMAGE_MD5_FIELD = slot0.FieldDescriptor(),
 	SC_19110_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_19111_POS_FIELD = slot0.FieldDescriptor(),
 	SC_19112_RESULT_FIELD = slot0.FieldDescriptor(),
@@ -104,9 +106,15 @@ slot1 = {
 	CS_19127_THEME_ID_FIELD = slot0.FieldDescriptor(),
 	SC_19128_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_19129_TARGET_ID_FIELD = slot0.FieldDescriptor(),
+	CS_19129_TARGET_NAME_FIELD = slot0.FieldDescriptor(),
 	CS_19129_THEME_ID_FIELD = slot0.FieldDescriptor(),
+	CS_19129_THEME_NAME_FIELD = slot0.FieldDescriptor(),
 	CS_19129_REASON_FIELD = slot0.FieldDescriptor(),
 	SC_19130_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_19131_ID_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_19132_LIST_FIELD = slot0.FieldDescriptor(),
+	THEME_MD5_ID_FIELD = slot0.FieldDescriptor(),
+	THEME_MD5_MD5_FIELD = slot0.FieldDescriptor(),
 	POP_INFO_ID_FIELD = slot0.FieldDescriptor(),
 	POP_INFO_INTIMACY_FIELD = slot0.FieldDescriptor(),
 	POP_INFO_DORM_ICON_FIELD = slot0.FieldDescriptor(),
@@ -137,6 +145,8 @@ slot1 = {
 	DORMTHEME_LIKE_COUNT_FIELD = slot0.FieldDescriptor(),
 	DORMTHEME_FAV_COUNT_FIELD = slot0.FieldDescriptor(),
 	DORMTHEME_UPLOAD_TIME_FIELD = slot0.FieldDescriptor(),
+	DORMTHEME_ICON_IMAGE_MD5_FIELD = slot0.FieldDescriptor(),
+	DORMTHEME_IMAGE_MD5_FIELD = slot0.FieldDescriptor(),
 	DORMTHEME_PROFILE_ID_FIELD = slot0.FieldDescriptor(),
 	DORMTHEME_PROFILE_UPLOAD_TIME_FIELD = slot0.FieldDescriptor(),
 	VISITOR_NAME_FIELD = slot0.FieldDescriptor(),
@@ -198,6 +208,9 @@ CS_19127 = slot0.Descriptor()
 SC_19128 = slot0.Descriptor()
 CS_19129 = slot0.Descriptor()
 SC_19130 = slot0.Descriptor()
+CS_19131 = slot0.Descriptor()
+SC_19132 = slot0.Descriptor()
+THEME_MD5 = slot0.Descriptor()
 POP_INFO = slot0.Descriptor()
 FURFLOORPUTINFO = slot0.Descriptor()
 FURNITUREPUTINFO = slot0.Descriptor()
@@ -1202,6 +1215,24 @@ slot1.CS_19109_FURNITURE_PUT_LIST_FIELD.default_value = {}
 slot1.CS_19109_FURNITURE_PUT_LIST_FIELD.message_type = FURNITUREPUTINFO
 slot1.CS_19109_FURNITURE_PUT_LIST_FIELD.type = 11
 slot1.CS_19109_FURNITURE_PUT_LIST_FIELD.cpp_type = 10
+slot1.CS_19109_ICON_IMAGE_MD5_FIELD.name = "icon_image_md5"
+slot1.CS_19109_ICON_IMAGE_MD5_FIELD.full_name = "p19.cs_19109.icon_image_md5"
+slot1.CS_19109_ICON_IMAGE_MD5_FIELD.number = 4
+slot1.CS_19109_ICON_IMAGE_MD5_FIELD.index = 3
+slot1.CS_19109_ICON_IMAGE_MD5_FIELD.label = 2
+slot1.CS_19109_ICON_IMAGE_MD5_FIELD.has_default_value = false
+slot1.CS_19109_ICON_IMAGE_MD5_FIELD.default_value = ""
+slot1.CS_19109_ICON_IMAGE_MD5_FIELD.type = 9
+slot1.CS_19109_ICON_IMAGE_MD5_FIELD.cpp_type = 9
+slot1.CS_19109_IMAGE_MD5_FIELD.name = "image_md5"
+slot1.CS_19109_IMAGE_MD5_FIELD.full_name = "p19.cs_19109.image_md5"
+slot1.CS_19109_IMAGE_MD5_FIELD.number = 5
+slot1.CS_19109_IMAGE_MD5_FIELD.index = 4
+slot1.CS_19109_IMAGE_MD5_FIELD.label = 2
+slot1.CS_19109_IMAGE_MD5_FIELD.has_default_value = false
+slot1.CS_19109_IMAGE_MD5_FIELD.default_value = ""
+slot1.CS_19109_IMAGE_MD5_FIELD.type = 9
+slot1.CS_19109_IMAGE_MD5_FIELD.cpp_type = 9
 CS_19109.name = "cs_19109"
 CS_19109.full_name = "p19.cs_19109"
 CS_19109.nested_types = {}
@@ -1209,7 +1240,9 @@ CS_19109.enum_types = {}
 CS_19109.fields = {
 	slot1.CS_19109_POS_FIELD,
 	slot1.CS_19109_NAME_FIELD,
-	slot1.CS_19109_FURNITURE_PUT_LIST_FIELD
+	slot1.CS_19109_FURNITURE_PUT_LIST_FIELD,
+	slot1.CS_19109_ICON_IMAGE_MD5_FIELD,
+	slot1.CS_19109_IMAGE_MD5_FIELD
 }
 CS_19109.is_extendable = false
 CS_19109.extensions = {}
@@ -1656,19 +1689,37 @@ slot1.CS_19129_TARGET_ID_FIELD.has_default_value = false
 slot1.CS_19129_TARGET_ID_FIELD.default_value = 0
 slot1.CS_19129_TARGET_ID_FIELD.type = 13
 slot1.CS_19129_TARGET_ID_FIELD.cpp_type = 3
+slot1.CS_19129_TARGET_NAME_FIELD.name = "target_name"
+slot1.CS_19129_TARGET_NAME_FIELD.full_name = "p19.cs_19129.target_name"
+slot1.CS_19129_TARGET_NAME_FIELD.number = 2
+slot1.CS_19129_TARGET_NAME_FIELD.index = 1
+slot1.CS_19129_TARGET_NAME_FIELD.label = 2
+slot1.CS_19129_TARGET_NAME_FIELD.has_default_value = false
+slot1.CS_19129_TARGET_NAME_FIELD.default_value = ""
+slot1.CS_19129_TARGET_NAME_FIELD.type = 9
+slot1.CS_19129_TARGET_NAME_FIELD.cpp_type = 9
 slot1.CS_19129_THEME_ID_FIELD.name = "theme_id"
 slot1.CS_19129_THEME_ID_FIELD.full_name = "p19.cs_19129.theme_id"
-slot1.CS_19129_THEME_ID_FIELD.number = 2
-slot1.CS_19129_THEME_ID_FIELD.index = 1
+slot1.CS_19129_THEME_ID_FIELD.number = 3
+slot1.CS_19129_THEME_ID_FIELD.index = 2
 slot1.CS_19129_THEME_ID_FIELD.label = 2
 slot1.CS_19129_THEME_ID_FIELD.has_default_value = false
 slot1.CS_19129_THEME_ID_FIELD.default_value = ""
 slot1.CS_19129_THEME_ID_FIELD.type = 9
 slot1.CS_19129_THEME_ID_FIELD.cpp_type = 9
+slot1.CS_19129_THEME_NAME_FIELD.name = "theme_name"
+slot1.CS_19129_THEME_NAME_FIELD.full_name = "p19.cs_19129.theme_name"
+slot1.CS_19129_THEME_NAME_FIELD.number = 4
+slot1.CS_19129_THEME_NAME_FIELD.index = 3
+slot1.CS_19129_THEME_NAME_FIELD.label = 2
+slot1.CS_19129_THEME_NAME_FIELD.has_default_value = false
+slot1.CS_19129_THEME_NAME_FIELD.default_value = ""
+slot1.CS_19129_THEME_NAME_FIELD.type = 9
+slot1.CS_19129_THEME_NAME_FIELD.cpp_type = 9
 slot1.CS_19129_REASON_FIELD.name = "reason"
 slot1.CS_19129_REASON_FIELD.full_name = "p19.cs_19129.reason"
-slot1.CS_19129_REASON_FIELD.number = 3
-slot1.CS_19129_REASON_FIELD.index = 2
+slot1.CS_19129_REASON_FIELD.number = 5
+slot1.CS_19129_REASON_FIELD.index = 4
 slot1.CS_19129_REASON_FIELD.label = 2
 slot1.CS_19129_REASON_FIELD.has_default_value = false
 slot1.CS_19129_REASON_FIELD.default_value = 0
@@ -1680,7 +1731,9 @@ CS_19129.nested_types = {}
 CS_19129.enum_types = {}
 CS_19129.fields = {
 	slot1.CS_19129_TARGET_ID_FIELD,
+	slot1.CS_19129_TARGET_NAME_FIELD,
 	slot1.CS_19129_THEME_ID_FIELD,
+	slot1.CS_19129_THEME_NAME_FIELD,
 	slot1.CS_19129_REASON_FIELD
 }
 CS_19129.is_extendable = false
@@ -1703,6 +1756,71 @@ SC_19130.fields = {
 }
 SC_19130.is_extendable = false
 SC_19130.extensions = {}
+slot1.CS_19131_ID_LIST_FIELD.name = "id_list"
+slot1.CS_19131_ID_LIST_FIELD.full_name = "p19.cs_19131.id_list"
+slot1.CS_19131_ID_LIST_FIELD.number = 1
+slot1.CS_19131_ID_LIST_FIELD.index = 0
+slot1.CS_19131_ID_LIST_FIELD.label = 3
+slot1.CS_19131_ID_LIST_FIELD.has_default_value = false
+slot1.CS_19131_ID_LIST_FIELD.default_value = {}
+slot1.CS_19131_ID_LIST_FIELD.type = 9
+slot1.CS_19131_ID_LIST_FIELD.cpp_type = 9
+CS_19131.name = "cs_19131"
+CS_19131.full_name = "p19.cs_19131"
+CS_19131.nested_types = {}
+CS_19131.enum_types = {}
+CS_19131.fields = {
+	slot1.CS_19131_ID_LIST_FIELD
+}
+CS_19131.is_extendable = false
+CS_19131.extensions = {}
+slot1.SC_19132_LIST_FIELD.name = "list"
+slot1.SC_19132_LIST_FIELD.full_name = "p19.sc_19132.list"
+slot1.SC_19132_LIST_FIELD.number = 1
+slot1.SC_19132_LIST_FIELD.index = 0
+slot1.SC_19132_LIST_FIELD.label = 3
+slot1.SC_19132_LIST_FIELD.has_default_value = false
+slot1.SC_19132_LIST_FIELD.default_value = {}
+slot1.SC_19132_LIST_FIELD.message_type = THEME_MD5
+slot1.SC_19132_LIST_FIELD.type = 11
+slot1.SC_19132_LIST_FIELD.cpp_type = 10
+SC_19132.name = "sc_19132"
+SC_19132.full_name = "p19.sc_19132"
+SC_19132.nested_types = {}
+SC_19132.enum_types = {}
+SC_19132.fields = {
+	slot1.SC_19132_LIST_FIELD
+}
+SC_19132.is_extendable = false
+SC_19132.extensions = {}
+slot1.THEME_MD5_ID_FIELD.name = "id"
+slot1.THEME_MD5_ID_FIELD.full_name = "p19.theme_md5.id"
+slot1.THEME_MD5_ID_FIELD.number = 1
+slot1.THEME_MD5_ID_FIELD.index = 0
+slot1.THEME_MD5_ID_FIELD.label = 2
+slot1.THEME_MD5_ID_FIELD.has_default_value = false
+slot1.THEME_MD5_ID_FIELD.default_value = ""
+slot1.THEME_MD5_ID_FIELD.type = 9
+slot1.THEME_MD5_ID_FIELD.cpp_type = 9
+slot1.THEME_MD5_MD5_FIELD.name = "md5"
+slot1.THEME_MD5_MD5_FIELD.full_name = "p19.theme_md5.md5"
+slot1.THEME_MD5_MD5_FIELD.number = 2
+slot1.THEME_MD5_MD5_FIELD.index = 1
+slot1.THEME_MD5_MD5_FIELD.label = 2
+slot1.THEME_MD5_MD5_FIELD.has_default_value = false
+slot1.THEME_MD5_MD5_FIELD.default_value = ""
+slot1.THEME_MD5_MD5_FIELD.type = 9
+slot1.THEME_MD5_MD5_FIELD.cpp_type = 9
+THEME_MD5.name = "theme_md5"
+THEME_MD5.full_name = "p19.theme_md5"
+THEME_MD5.nested_types = {}
+THEME_MD5.enum_types = {}
+THEME_MD5.fields = {
+	slot1.THEME_MD5_ID_FIELD,
+	slot1.THEME_MD5_MD5_FIELD
+}
+THEME_MD5.is_extendable = false
+THEME_MD5.extensions = {}
 slot1.POP_INFO_ID_FIELD.name = "id"
 slot1.POP_INFO_ID_FIELD.full_name = "p19.pop_info.id"
 slot1.POP_INFO_ID_FIELD.number = 1
@@ -2046,6 +2164,24 @@ slot1.DORMTHEME_UPLOAD_TIME_FIELD.has_default_value = false
 slot1.DORMTHEME_UPLOAD_TIME_FIELD.default_value = 0
 slot1.DORMTHEME_UPLOAD_TIME_FIELD.type = 13
 slot1.DORMTHEME_UPLOAD_TIME_FIELD.cpp_type = 3
+slot1.DORMTHEME_ICON_IMAGE_MD5_FIELD.name = "icon_image_md5"
+slot1.DORMTHEME_ICON_IMAGE_MD5_FIELD.full_name = "p19.dormtheme.icon_image_md5"
+slot1.DORMTHEME_ICON_IMAGE_MD5_FIELD.number = 9
+slot1.DORMTHEME_ICON_IMAGE_MD5_FIELD.index = 8
+slot1.DORMTHEME_ICON_IMAGE_MD5_FIELD.label = 2
+slot1.DORMTHEME_ICON_IMAGE_MD5_FIELD.has_default_value = false
+slot1.DORMTHEME_ICON_IMAGE_MD5_FIELD.default_value = ""
+slot1.DORMTHEME_ICON_IMAGE_MD5_FIELD.type = 9
+slot1.DORMTHEME_ICON_IMAGE_MD5_FIELD.cpp_type = 9
+slot1.DORMTHEME_IMAGE_MD5_FIELD.name = "image_md5"
+slot1.DORMTHEME_IMAGE_MD5_FIELD.full_name = "p19.dormtheme.image_md5"
+slot1.DORMTHEME_IMAGE_MD5_FIELD.number = 10
+slot1.DORMTHEME_IMAGE_MD5_FIELD.index = 9
+slot1.DORMTHEME_IMAGE_MD5_FIELD.label = 2
+slot1.DORMTHEME_IMAGE_MD5_FIELD.has_default_value = false
+slot1.DORMTHEME_IMAGE_MD5_FIELD.default_value = ""
+slot1.DORMTHEME_IMAGE_MD5_FIELD.type = 9
+slot1.DORMTHEME_IMAGE_MD5_FIELD.cpp_type = 9
 DORMTHEME.name = "dormtheme"
 DORMTHEME.full_name = "p19.dormtheme"
 DORMTHEME.nested_types = {}
@@ -2058,7 +2194,9 @@ DORMTHEME.fields = {
 	slot1.DORMTHEME_POS_FIELD,
 	slot1.DORMTHEME_LIKE_COUNT_FIELD,
 	slot1.DORMTHEME_FAV_COUNT_FIELD,
-	slot1.DORMTHEME_UPLOAD_TIME_FIELD
+	slot1.DORMTHEME_UPLOAD_TIME_FIELD,
+	slot1.DORMTHEME_ICON_IMAGE_MD5_FIELD,
+	slot1.DORMTHEME_IMAGE_MD5_FIELD
 }
 DORMTHEME.is_extendable = false
 DORMTHEME.extensions = {}
@@ -2156,6 +2294,7 @@ cs_19123 = slot0.Message(CS_19123)
 cs_19125 = slot0.Message(CS_19125)
 cs_19127 = slot0.Message(CS_19127)
 cs_19129 = slot0.Message(CS_19129)
+cs_19131 = slot0.Message(CS_19131)
 dormtheme = slot0.Message(DORMTHEME)
 dormtheme_profile = slot0.Message(DORMTHEME_PROFILE)
 furfloorputinfo = slot0.Message(FURFLOORPUTINFO)
@@ -2190,5 +2329,7 @@ sc_19124 = slot0.Message(SC_19124)
 sc_19126 = slot0.Message(SC_19126)
 sc_19128 = slot0.Message(SC_19128)
 sc_19130 = slot0.Message(SC_19130)
+sc_19132 = slot0.Message(SC_19132)
 ship_in_drom = slot0.Message(SHIP_IN_DROM)
+theme_md5 = slot0.Message(THEME_MD5)
 visitor = slot0.Message(VISITOR)

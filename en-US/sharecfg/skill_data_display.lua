@@ -2592,6 +2592,22 @@ pg.skill_data_display = {
 		id = 13230,
 		name = "Arbiter of Z "
 	},
+	[13360] = {
+		id = 13360,
+		name = "Take Off! "
+	},
+	[13361] = {
+		id = 13361,
+		name = "Take Off! "
+	},
+	[13370] = {
+		id = 13370,
+		name = "Prayer for Love and Peace "
+	},
+	[13371] = {
+		id = 13371,
+		name = "Prayer for Love and Peace "
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+ "
@@ -4873,6 +4889,10 @@ pg.skill_data_display = {
 		13210,
 		13220,
 		13230,
+		13360,
+		13361,
+		13370,
+		13371,
 		18010,
 		18040,
 		18041,

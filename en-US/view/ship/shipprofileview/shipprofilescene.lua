@@ -598,6 +598,12 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
+	if slot0.onPlayingOP then
+		slot0:stopOpening()
+
+		return
+	end
+
 	triggerButton(slot0.btnBack)
 end
 
@@ -605,36 +611,11 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 	slot0.onPlayingOP = true
 
 	function slot4()
-		if not uv0.openingTF then
-			return
-		end
-
-		setActive(uv0.openingTF, false)
-
-		uv0.openingAni.enabled = false
-
-		if uv0.criAni then
-			uv0.criAni:Stop()
-		end
-
-		if uv0.openingTF then
-			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.openingTF.transform, uv0._tf)
-			Destroy(uv0.openingTF)
-
-			uv0.openingTF = nil
-		end
-
-		if uv1 then
-			uv1()
-		end
-	end
-
-	function slot5()
 		uv0.openingAni.enabled = true
 
 		onButton(uv0, uv0.openingTF, function ()
 			if uv0 then
-				uv1()
+				uv1:stopOpening(uv2)
 			end
 		end)
 
@@ -646,7 +627,7 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 			end
 		end)
 		slot0:SetEndEvent(function (slot0)
-			uv0()
+			uv0:stopOpening(uv1)
 		end)
 		setActive(uv0.openingTF, true)
 	end
@@ -670,11 +651,39 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 			pg.UIMgr.GetInstance():LoadingOff()
 		end)
 	else
-		slot5()
+		slot4()
+	end
+end
+
+function slot0.stopOpening(slot0, slot1)
+	if not slot0.openingTF then
+		return
+	end
+
+	setActive(slot0.openingTF, false)
+
+	slot0.openingAni.enabled = false
+
+	if slot0.criAni then
+		slot0.criAni:Stop()
+	end
+
+	if not IsNil(slot0.openingTF) then
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.openingTF.transform, slot0._tf)
+		Destroy(slot0.openingTF)
+
+		slot0.openingTF = nil
+	end
+
+	slot0.onPlayingOP = false
+
+	if slot1 then
+		slot1()
 	end
 end
 
 function slot0.willExit(slot0)
+	slot0:stopOpening()
 	SetParent(slot0.bottomTF, slot0._tf)
 
 	slot4 = slot0._tf

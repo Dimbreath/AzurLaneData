@@ -27,6 +27,7 @@ function slot0.Update(slot0)
 
 	if not slot2 then
 		slot0:UpdateCvBtn()
+		slot0:UpdateIcon()
 	end
 end
 

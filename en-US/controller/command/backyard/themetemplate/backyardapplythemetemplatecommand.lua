@@ -7,7 +7,7 @@ function slot0.execute(slot0, slot1)
 
 	function slot6(slot0, slot1)
 		if #slot0 == 0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n1("没有可以布置的家具"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_theme_template_list_is_empty"))
 
 			return
 		end
@@ -29,7 +29,7 @@ function slot0.execute(slot0, slot1)
 			if slot0 then
 				uv0:sendNotification(GAME.BACKYARD_APPLY_THEME_TEMPLATE_DONE)
 			else
-				pg.TipsMgr.GetInstance():ShowTips(i18n1("布置失败"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_apply_theme_template_erro"))
 				print(slot1)
 			end
 		end

@@ -86633,6 +86633,24 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59168] = {
+		display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time.",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Rental Outfit Voucher",
+		shop_id = 1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59168,
+		icon = "Props/skinTicket",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 		rarity = 2,
@@ -88144,6 +88162,132 @@ let us celebrate."]],
 		link_id = 0,
 		id = 59787,
 		icon = "props/music_stage",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59791] = {
+		display = "Paint A, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Paint A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 30415,
+		id = 59791,
+		icon = "props/draw_a",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59792] = {
+		display = "Paint B, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Paint B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 30415,
+		id = 59792,
+		icon = "props/draw_b",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59793] = {
+		display = "Paint C, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Paint C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 30415,
+		id = 59793,
+		icon = "props/draw_c",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59794] = {
+		display = "Paint D, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Paint D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 30415,
+		id = 59794,
+		icon = "props/draw_d",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59795] = {
+		display = "Paint E, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Paint E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 30415,
+		id = 59795,
+		icon = "props/draw_e",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59796] = {
+		display = "Paint F, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Paint F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 30415,
+		id = 59796,
+		icon = "props/draw_f",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59797] = {
+		display = "Paint G, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Paint G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 30415,
+		id = 59797,
+		icon = "props/draw_g",
 		replace_item = 0,
 		display_icon = {},
 		price = {},
@@ -90290,21 +90434,21 @@ Skins and drop rates:
 	},
 	[69910] = {
 		display = [[
-This lucky bag contains a random Ship skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
-Skins and their drop rates:
-(<color=#92fc63>10.25%</color>)Ping Hai’s Anniversary Outfit(<color=#92fc63>Live 2d</color>;
-(<color=#92fc63>10.25%</color>)St. Louis’s Anniversary Outfit(<color=#92fc63>Live 2d</color>;
-(<color=#92fc63>7.5%</color>)Dido’s Anniversary Outfit;
-(<color=#92fc63>7.5%</color>)Enterprise’s Anniversary Outfit;
-(<color=#92fc63>7.5%</color>）Massachussett’s Anniversary Outfit;
-(<color=#92fc63>7.5%</color>)Albacore’s Anniversary Outfit;
-(<color=#92fc63>7.5%</color>)Littorio’s Anniversary Outfit;
-(<color=#92fc63>7.0%</color>）Ninghai’s Anniversary Outfit;
-(<color=#92fc63>7.0%</color>)Biloxi’s Anniversary Outfit;
-(<color=#92fc63>7.0%</color>)Abukuma’s Anniversary Outfit;
-(<color=#92fc63>7.0%</color>）Hammann’s Anniversary Outfit;
-(<color=#92fc63>7.0%</color>)Forbin’s Anniversary Outfit;
-(<color=#92fc63>7.0%</color>)Sussex’s Anniversary Outfit ]],
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>10.0%</color>）平海换装  甜蜜嫣红（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.0%</color>）圣路易斯换装  Luxury Handle（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.6%</color>）黛朵换装 多愁的BIsqueDoll；
+（<color=#92fc63>7.6%</color>）企业换装   英雄的礼服；
+（<color=#92fc63>7.6%</color>）马萨诸塞换装  盛宴的准备；
+（<color=#92fc63>7.6%</color>）大青花鱼换装  黑裙下的「秘密」；
+（<color=#92fc63>7.6%</color>）利托里奥换装  Calabria Aurea；
+（<color=#92fc63>7.0%</color>）宁海换装  姹紫盛筵；
+（<color=#92fc63>7.0%</color>）比洛克西换装  洛城女帝；
+（<color=#92fc63>7.0%</color>）豼换装  告白的蓝闪蝶；
+（<color=#92fc63>7.0%</color>）哈曼换装 舞会的傲娇妖精；
+（<color=#92fc63>7.0%</color>）福尔班换装  香槟盛宴；
+（<color=#92fc63>7.0%</color>）苏塞克斯换装  葡萄酒与红玫瑰]],
 		rarity = 4,
 		type = 98,
 		drop_oil_max = 0,
@@ -93470,6 +93614,7 @@ Skins and their drop rates:
 		59159,
 		59164,
 		59167,
+		59168,
 		59601,
 		59602,
 		59603,
@@ -93550,6 +93695,13 @@ Skins and their drop rates:
 		59785,
 		59786,
 		59787,
+		59791,
+		59792,
+		59793,
+		59794,
+		59795,
+		59796,
+		59797,
 		59801,
 		59802,
 		59803,

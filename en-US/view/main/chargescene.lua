@@ -91,6 +91,7 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
+	PlayerPrefs.SetInt("Ever_Enter_Mall_" .. Goods.CUR_PACKET_ID, 1)
 	setActive(slot0.chat, false)
 	onButton(slot0, slot0:findTF("back_button", slot0.top), function ()
 		if uv0.prePage ~= uv1.TYPE_MENU then

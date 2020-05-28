@@ -69,9 +69,9 @@ function slot0.OnLoaded(slot0)
 	slot0.collection = slot0.mainPanel:Find("collection")
 	slot0.collectionSel = slot0.mainPanel:Find("collection/sel")
 	slot0.collectionTxt = slot0.mainPanel:Find("collection/Text"):GetComponent(typeof(Text))
-	slot0.searchInput = slot0.mainPanel:Find("search")
-	slot0.searchInputBtn = slot0.mainPanel:Find("search/btn")
 	slot0.label1 = slot0.mainPanel:Find("search1"):GetComponent(typeof(Text))
+
+	setActive(slot0.label1.gameObject, false)
 
 	function slot0.contextData.sortPage.OnChange(slot0)
 		uv0.filterTxt.text = slot0
@@ -81,9 +81,6 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	onButton(slot0, slot0.searchInputBtn, function ()
-		uv0:emit(NewBackYardThemeTemplateMediator.ON_SEARCH, uv0.pageType, getInputText(uv0.searchInput))
-	end)
 	onButton(slot0, slot0.copyBtn, function ()
 		if uv0.player then
 			UniPasteBoard.SetClipBoardString(uv0.template.id)
@@ -96,10 +93,6 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
-	if slot0.pageType ~= slot1 then
-		setInputText(slot0.searchInput, "")
-	end
-
 	slot0.pageType = slot1
 	slot0.template = slot2
 	slot0.dorm = slot3
@@ -107,8 +100,6 @@ function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
 
 	slot0:RefreshSortBtn()
 	slot0:Flush()
-	setActive(slot0.label1.gameObject, slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION)
-	setActive(slot0.searchInput, slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP)
 	slot0:Show()
 end
 
@@ -156,6 +147,7 @@ function slot0.Update1(slot0)
 			type = BackYardThemeTemplateMsgBox.TYPE_IMAGE,
 			content = i18n("backyard_theme_apply_tip2"),
 			srpiteName = uv0.template:GetTextureIconName(),
+			md5 = uv0.template:GetIconMd5(),
 			onYes = function ()
 				uv0:emit(NewBackYardThemeTemplateMediator.ON_APPLY_TEMPLATE, uv0.template, function ()
 					triggerButton(uv0.btn1)
@@ -186,7 +178,6 @@ function slot0.Update3(slot0)
 	slot0:Update1()
 
 	slot0.timeTxt.text = i18n("backyard_theme_template_collection_cnt") .. getProxy(DormProxy):GetThemeTemplateCollectionCnt() .. "/" .. BackYardConst.MAX_COLLECTION_CNT
-	slot0.label1.text = i18n("backyard_theme_upload_time") .. slot0.template:GetUploadTime()
 end
 
 function slot0.UpdatePlayer(slot0)
@@ -199,14 +190,31 @@ function slot0.UpdatePlayer(slot0)
 		slot0.idTxt.text = slot0.template.id
 		slot0.timeTxt.text = i18n("backyard_theme_upload_time") .. slot0.template:GetUploadTime()
 
-		LoadSpriteAsync("qicon/" .. Ship.New({
-			configId = slot1.icon
-		}):getPrefab(), function (slot0)
+		LoadSpriteAsync("qicon/" .. slot1:getPainting(), function (slot0)
 			if IsNil(uv0.icon) then
 				return
 			end
 
 			uv0.icon.sprite = slot0
+		end)
+
+		if slot0.preLoadIcon then
+			slot2 = slot0.preLoadIcon.name
+
+			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot2, slot2, slot0.preLoadIcon)
+		end
+
+		slot2 = AttireFrame.attireFrameRes(slot1, false, AttireConst.TYPE_ICON_FRAME, slot1.propose)
+
+		PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot2, slot2, true, function (slot0)
+			if uv0.icon then
+				slot0.name = uv1
+				findTF(slot0.transform, "icon"):GetComponent(typeof(Image)).raycastTarget = false
+
+				setParent(slot0, uv0.icon.gameObject, false)
+
+				uv0.preLoadIcon = slot0
+			end
 		end)
 		onButton(slot0, slot0.icon, function ()
 			if uv0.id == getProxy(PlayerProxy):getRawData().id then
@@ -263,23 +271,23 @@ function slot0.UpdateWindow(slot0)
 		slot5 = slot0.template:IsPushed() and uv1 or uv2
 
 		function (slot0)
-			slot1 = -231.5
-			slot2 = -328
+			slot1 = -224
+			slot2 = -314
 			slot3 = 0
 			slot4 = 0
 
 			if slot0 == uv0 then
-				slot4 = 354
-				slot3 = 611
+				slot4 = 338
+				slot3 = 580
 			elseif slot0 == uv1 then
 				slot4 = 265
 				slot3 = 505
 				slot1 = -153
-				slot2 = -237
+				slot2 = -230
 			elseif slot0 == uv2 then
 				slot4 = 196
 				slot3 = 436
-				slot1 = -153
+				slot1 = -145
 				slot2 = -237
 			end
 
@@ -305,8 +313,13 @@ function slot0.UpdateWindow(slot0)
 
 		slot2 = slot4[1]
 		slot3 = slot5 == uv1 and slot4[3] or slot4[2]
-	elseif slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION or slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
-		slot1(uv0)
+	elseif slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION then
+		slot1(uv1)
+
+		slot2 = slot4[1]
+		slot3 = slot4[2]
+	elseif slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
+		slot1(uv1)
 
 		slot2 = slot4[1]
 		slot3 = slot4[2]
@@ -328,6 +341,12 @@ end
 
 function slot0.OnDestroy(slot0)
 	slot0.contextData.sortPage.OnChange = nil
+
+	if slot0.preLoadIcon then
+		slot1 = slot0.preLoadIcon.name
+
+		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1, slot1, slot0.preLoadIcon)
+	end
 end
 
 return slot0

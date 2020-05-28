@@ -826,11 +826,11 @@ function slot0.showPainting(slot0)
 
 		setPaintingPrefabAsync(slot0._painting, slot0.paintingName, "jiesuan", function ()
 			if findTF(uv0._painting, "fitter").childCount > 0 then
-				Ship.SetExpression(findTF(uv0._painting, "fitter"):GetChild(0), uv0.paintingName, "win_mvp")
+				Ship.SetExpression(findTF(uv0._painting, "fitter"):GetChild(0), uv0.paintingName, "win_mvp", uv1)
 			end
 		end)
 
-		slot1, slot2 = Ship.getWords(slot3.skinId, "win_mvp")
+		cvKey, slot2, slot1 = ShipWordHelper.GetWordAndCV(slot3.skinId, ShipWordHelper.WORD_TYPE_MVP, nil, , slot3:getCVIntimacy())
 
 		SetActive(slot0._failPainting, false)
 	else

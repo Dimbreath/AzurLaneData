@@ -49,9 +49,11 @@ function slot0.UpdateSelected(slot0, slot1)
 		})
 	end
 
-	setAnchoredPosition(slot0.maskPurchased, {
-		y = slot2 and 0 or 33
-	})
+	if not IsNil(slot0.maskPurchased) then
+		setAnchoredPosition(slot0.maskPurchased, {
+			y = slot2 and 0 or 33
+		})
+	end
 end
 
 return slot0

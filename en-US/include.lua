@@ -14,6 +14,16 @@ setmetatable(pg, {
 	end
 })
 
+ERROR_MESSAGE = setmetatable({}, {
+	__index = function (slot0, slot1)
+		if pg.error_message[slot1] then
+			return pg.error_message[slot1].desc
+		else
+			return "none"
+		end
+	end
+})
+
 function GetBattleCheck()
 	return math.floor(ys.EquipDataStatisticVertify + ys.WeaponPropertyVertify + ys.ShipStatisticsVertify + ys.EnemyStatisticsVertify + ys.ExpeditionDataVertify + GetSpeNum(pg.skillCfg, 0) + GetSpeNum(pg.buffCfg, 0))
 end

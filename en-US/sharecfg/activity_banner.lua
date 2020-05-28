@@ -3,6 +3,43 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 1,
+		pic = "temp5",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 2,
 		pic = "temp2",
 		param = {
 			"scene skinshop",
@@ -25,7 +62,39 @@ pg.activity_banner = {
 				{
 					2020,
 					6,
-					2
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "30414",
+		type = 3,
+		id = 3,
+		pic = "temp8",
+		time = {
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					17
 				},
 				{
 					23,
@@ -38,7 +107,7 @@ pg.activity_banner = {
 	{
 		param = "30401",
 		type = 3,
-		id = 2,
+		id = 4,
 		pic = "temp1",
 		time = {
 			{
@@ -69,7 +138,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
+		id = 5,
 		pic = "temp4",
 		param = {
 			"scene get boat",
@@ -106,49 +175,12 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 4,
+		id = 6,
 		pic = "temp3",
 		param = {
 			"scene charge",
 			{
 				wrap = 4
-			}
-		},
-		time = {
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 5,
-		pic = "temp5",
-		param = {
-			"scene shop",
-			{
-				warp = "fragment"
 			}
 		},
 		time = {
@@ -183,6 +215,7 @@ pg.activity_banner = {
 		2,
 		3,
 		4,
-		5
+		5,
+		6
 	}
 }

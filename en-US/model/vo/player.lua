@@ -23,20 +23,20 @@ end
 function itemId2Id(slot0)
 end
 
-function slot0.skin2Res(slot0)
-	slot2 = 1
-	slot3 = 0
+function slot0.skin2Res(slot0, slot1)
+	slot3 = 1
+	slot4 = 0
 
-	for slot7, slot8 in pairs(pg.drop_data_restore.all) do
-		if slot0 == slot1[slot8].target_id then
-			slot2 = slot9.resource_type
-			slot3 = slot9.resource_num
+	for slot8, slot9 in pairs(pg.drop_data_restore.all) do
+		if slot0 == slot2[slot9].target_id and slot1 == slot10.drop_id then
+			slot3 = slot10.resource_type
+			slot4 = slot10.resource_num
 
 			break
 		end
 	end
 
-	return slot2, slot3
+	return slot3, slot4
 end
 
 function slot0.getSkinTicket(slot0)
@@ -89,6 +89,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.commanderBagMax = slot1.commander_bag_max
 	slot0.displayTrophyList = slot1.medal_id or {}
 	slot0.banBackyardUploadTime = slot1.theme_upload_not_allowed_time or 0
+	slot0.rmb = slot1.rmb or 0
 
 	if slot1.appreciation then
 		for slot7, slot8 in ipairs(slot1.appreciation.gallerys or {}) do

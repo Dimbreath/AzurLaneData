@@ -9,7 +9,6 @@ slot0.ON_UPLOAD_TEMPLATE = "NewBackYardThemeTemplateMediator:ON_UPLOAD_TEMPLATE"
 slot0.ON_CANCEL_UPLOAD_TEMPLATE = "NewBackYardThemeTemplateMediator:ON_CANCEL_UPLOAD_TEMPLATE"
 slot0.ON_DELETE_TEMPLATE = "NewBackYardThemeTemplateMediator:ON_DELETE_TEMPLATE"
 slot0.GET_TEMPLATE_PLAYERINFO = "NewBackYardThemeTemplateMediator:GET_TEMPLATE_PLAYERINFO"
-slot0.ON_REFRESH_SHOP_TEMPLATE = "NewBackYardThemeTemplateMediator:ON_REFRESH_SHOP_TEMPLATE"
 slot0.ON_DISPLAY_PLAYER_INFO = "NewBackYardThemeTemplateMediator:ON_DISPLAY_PLAYER_INFO"
 slot0.ON_SEARCH = "NewBackYardThemeTemplateMediator:ON_SEARCH"
 slot0.ON_REFRESH = "NewBackYardThemeTemplateMediator:ON_REFRESH"
@@ -34,8 +33,12 @@ function slot0.register(slot0)
 			callback = slot2
 		})
 	end)
-	slot0:bind(uv0.ON_REFRESH, function (slot0)
-		uv0:sendNotification(GAME.BACKYARD_REFRESH_SHOP_TEMPLATE)
+	slot0:bind(uv0.ON_REFRESH, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.BACKYARD_REFRESH_SHOP_TEMPLATE, {
+			type = slot1,
+			page = slot2,
+			force = slot3
+		})
 	end)
 	slot0:bind(uv0.ON_SEARCH, function (slot0, slot1, slot2)
 		if slot1 == BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM or slot1 == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION then
@@ -51,9 +54,6 @@ function slot0.register(slot0)
 			furnitureIds = slot1,
 			type = slot2
 		})
-	end)
-	slot0:bind(uv0.ON_REFRESH_SHOP_TEMPLATE, function (slot0)
-		uv0:sendNotification(GAME.BACKYARD_REFRESH_SHOP_TEMPLATE)
 	end)
 	slot0:bind(uv0.ON_DISPLAY_PLAYER_INFO, function (slot0, slot1, slot2, slot3)
 		uv0.contextData.pos = slot2
@@ -126,6 +126,7 @@ function slot0.register(slot0)
 				type = BackYardThemeTemplateMsgBox.TYPE_IMAGE,
 				content = i18n("backyard_theme_apply_tip1"),
 				srpiteName = slot1:GetTextureIconName(),
+				md5 = slot1:GetIconMd5(),
 				confirmTxt = i18n("backyard_theme_word_buy"),
 				cancelTxt = i18n("backyard_theme_word_apply"),
 				onYes = slot2,
@@ -193,7 +194,8 @@ function slot0.listNotificationInterests(slot0)
 		DormProxy.THEME_TEMPLATE_DELTETED,
 		DormProxy.COLLECTION_THEME_TEMPLATE_ADDED,
 		DormProxy.COLLECTION_THEME_TEMPLATE_DELETED,
-		DormProxy.SHOP_THEME_TEMPLATE_DELETED
+		DormProxy.SHOP_THEME_TEMPLATE_DELETED,
+		GAME.BACKYARD_REFRESH_SHOP_TEMPLATE_ERRO
 	}
 end
 
@@ -229,6 +231,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.contextData.themeName = nil
 		end
 	elseif slot2 == GAME.BACKYARD_REFRESH_SHOP_TEMPLATE_DONE or slot2 == GAME.BACKYARD_GET_SPECIFIED_TYPE_TEMPLATE_DONE then
+		BackYardThemeTempalteUtil.ClearAllCache()
 		slot0.viewComponent:OnShopTemplatesUpdated(getProxy(DormProxy):GetShopThemeTemplates())
 	elseif slot2 == DormProxy.DORM_UPDATEED then
 		slot0.viewComponent:UpdateDorm(getProxy(DormProxy):getData())
@@ -255,6 +258,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:DeleteCollectionThemeTemplate(slot3.id)
 	elseif slot2 == DormProxy.SHOP_THEME_TEMPLATE_DELETED then
 		slot0.viewComponent:DeleteShopThemeTemplate(slot3.id)
+	elseif slot2 == GAME.BACKYARD_REFRESH_SHOP_TEMPLATE_ERRO then
+		slot0.viewComponent:OnShopTemplatesErro()
 	end
 end
 

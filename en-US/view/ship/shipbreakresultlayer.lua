@@ -201,10 +201,6 @@ function slot0.willExit(slot0)
 		PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
 	end
 
-	if slot0.inAnimating then
-		LeanTween:cancelAll()
-	end
-
 	slot0:stopVoice()
 
 	if slot0.loadedCVBankName then

@@ -467,4 +467,28 @@ function slot0.canEquipToEliteChapter(slot0, slot1, slot2, slot3)
 	return true
 end
 
+function slot0.canEquipToFleetList(slot0, slot1, slot2, slot3)
+	if not getProxy(CommanderProxy):getCommanderById(slot3) then
+		return false, i18n("commander_not_found")
+	end
+
+	for slot9, slot10 in pairs(slot0) do
+		if slot9 == slot1 then
+			for slot14, slot15 in pairs(slot10) do
+				if slot4:getCommanderById(slot15) and slot16.groupId == slot5.groupId and slot14 ~= slot2 then
+					return false, i18n("commander_can_not_select_same_group")
+				end
+			end
+		else
+			for slot14, slot15 in pairs(slot10) do
+				if slot3 == slot15 then
+					return false, i18n("commander_is_in_fleet_already")
+				end
+			end
+		end
+	end
+
+	return true
+end
+
 return slot0

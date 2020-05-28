@@ -10,6 +10,10 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_CHARGE, function (slot0, slot1)
+		if uv0.contextData.onDeattch then
+			uv0.contextData.onDeattch = nil
+		end
+
 		if slot1 == PlayerConst.ResDiamond then
 			uv0:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
 				wrap = ChargeScene.TYPE_DIAMOND

@@ -1070,6 +1070,281 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[302140] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 302140,
+		expedition = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Welcome back, Commander! Today, let's continue to pursue excellence in the ways of the pen and the sword!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Am I one step closer to catching up to my sisters?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"I'll always be waiting for you right here, Commander!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Commander, look forward to my success!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Commander, if there's nothing I can help you with, why don't we divide and conquer? It'll be easier that way!|nil|Commander, if you're feeling tired, I'll help you relax and feel good! That's not what you taught me? Ehehe... just sit back and enjoy it!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Hum hum~♪ What do you think, Commander? I have a natural talent for singing, don't I?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Heheh~ Commander, have you decided where to go for today's date? If you haven't made up your mind, I'll make the decision for you~"
+			}
+		}
+	},
+	[905010] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 905010,
+		win_mvp = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Gimme that, I'm gonna help ya out... Of course I'm gonna assist, I'm your secretary."
+			}
+		},
+		home = {
+			{
+				1100,
+				"I mighta once had a big role to play, but with you in command, I just never get to truly act."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"All hail the Vichya Dominion!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I'm not the kinda girl who goes shopping with Dunkerque and Algérie. But you knew that already, being the person who knows me best, right? On the other hand, I wouldn't mind doing that with you."
+			}
+		},
+		main = {
+			{
+				1100,
+				"I ain't letting any new talent outshine me. I am Jean Bart, the Vichya Dominion's most powerful ship and bearer of the sacred Iris' name. This title is my pride, and I will never surrender it.|If you wanna go talk to Richelieu then I could come with ya. We believe in different things, but we're still sisters.|Praying isn't my thing, but wishing is fine by me. 'Cause wishing for the wellbeing of the one you love is what it means to be human."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Look, just don't get too flirty with me..."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Guess that merrymaking team's come back."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"This loot ain't nearly good enough. Not for me, nor for you."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You're really that keen on my body?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"...Oh, crap, guess I dozed off. How 'bout you take a quick nap too? You could use my lap for a headrest. Take it easy. You and I, we're always by each other's side."
+			}
+		}
+	},
+	[301820] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 301820,
+		expedition = "",
+		win_mvp = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"You've been working hard, Commander. The next thing I should be doing is... Ah, um, first, let's start by organizing the resources!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander. I followed Oyashio's advice and changed my ornamental flowers around a little. Is it to your liking?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"This month's flower... and to combine that with some seasonal picks... but I can't just slap them all together like this. I'll have to narrow it down a bit more... Commander, wh-what do you think about this?"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Commander, I prepared something special for you today... Umm, it's jasmine tea! I chose it because it's supposed to bring good luck, but...|Niizuki is fun to talk to, but... why does she act that way when around people who aren't her relatives...?|nil"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Commander, the next task is... H-how about this one?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ah...! Commander, um... It's not that you can't, but... at least give me some time to mentally prepare myself..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, have you been watering the flowers in the office? ...It's important to me, because it gives me something to remember you by when you aren't here."
+			}
+		}
+	},
+	[305080] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 305080,
+		win_mvp = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		lose = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"All right, hurry up and get to work. I'll find something to do."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Why don't you tell me about something interesting that happened out there? I like hearing about that stuff."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"*Sigh*, that damn commander... If I'm not careful, then Kaga's going to... But wait, even Amagi isn't to be overlooked... Huh?! When'd you get there?!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Commander, you seem to be dealing with Amagi's bootlicker pretty well... Heh, actually, my sister's even harder to handle. Be grateful that you have me.|As ships, our purpose is to connect the hearts of mankind as well as the ocean's routes. No matter what shape we might take, that will always hold true. Even if we were born for the sake of war, that will always hold true.|Privacy...? As someone who is strong, isn't it only natural to protect someone who is weak such as you, wherever and whenever?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"You want to cross swords with me? We could, but... It would be a dull match if I don't go all-out, but then you are bound to suffer grave injuries... Hmm, what to do..."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"A commission team has returned. It would seem I've grown used to announcing this."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Missions? Let me see them."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Oh, was that the mission completion notification? How was the payment?"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Mail? If it's a reassignment request, I'd just rip it up."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Do not let your hand waver. Be more bold if you so wish. Hahaha!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Lest you forget, no matter how great your ambitions may be, you are but a vulnerable human. If you are ever in danger, you must take cover and protect yourself. If misfortune befalling you strips me of my reason to move forward, I will hunt you down through the depths of hell or the pinnacles of heaven. Don't think you can escape from me, ahahaha!"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -1089,6 +1364,10 @@ pg.ship_skin_words_extra = {
 		102270,
 		107110,
 		207020,
-		105030
+		105030,
+		302140,
+		905010,
+		301820,
+		305080
 	}
 }

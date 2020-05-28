@@ -255,6 +255,8 @@ slot0.OUTPOST_TASK = 30366
 slot0.APRILFOOL_DISCOVERY = 30378
 slot0.LEMARS_RE_OIL_PAGE = 582
 slot0.TOWERCLIMBING_SIGN = 30411
+slot0.THIRD_ANNIVERSARY_PAGE = 609
+slot0.JIQILIFU_SKIN = 30414
 slot0.WUDAOLOGIN_ID = 30192
 slot0.SUMMER_REMAKE = 30253
 slot0.SUMMER_REMAKEPT = 30254
@@ -307,7 +309,7 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2020,
-			1,
+			5,
 			21
 		},
 		{
@@ -319,8 +321,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2020,
-			2,
-			3
+			6,
+			17
 		},
 		{
 			23,

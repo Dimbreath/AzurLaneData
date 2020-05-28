@@ -34,6 +34,7 @@ slot0.AttrListInheritance = {
 	"damageRatioByBulletTorpedo",
 	"damageRatioByAir",
 	"damagePreventRantTorpedo",
+	"accuracyRateExtra",
 	"dodgeRateExtra",
 	"perfectDodge",
 	"immuneDirectHit",

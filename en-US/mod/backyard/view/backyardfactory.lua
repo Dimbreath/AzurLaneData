@@ -8,8 +8,12 @@ end
 function slot0.Make(slot0, slot1, slot2)
 	if not slot1:isSpine() then
 		slot0:loadImageFurniture(slot1, slot0.poolMgr:Dequeue(BackyardPoolMgr.POOL_NAME.FURNITURE), function (slot0)
-			for slot6, slot7 in ipairs(uv0:getOccupyGrid(Vector2(0, 0))) do
-				slot9 = uv1.poolMgr:Dequeue(uv0:isFloor() and BackyardPoolMgr.POOL_NAME.GRID or BackyardPoolMgr.POOL_NAME.WALL)
+			if uv0.isExist then
+				return
+			end
+
+			for slot6, slot7 in ipairs(uv1:getOccupyGrid(Vector2(0, 0))) do
+				slot9 = uv0.poolMgr:Dequeue(uv1:isFloor() and BackyardPoolMgr.POOL_NAME.GRID or BackyardPoolMgr.POOL_NAME.WALL)
 
 				SetParent(slot9, uv2:Find("grids"))
 				setActive(slot9, false)

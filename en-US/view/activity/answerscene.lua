@@ -291,7 +291,8 @@ function slot0.displayResult(slot0, slot1, slot2, slot3)
 
 	setImageSprite(slot0.layerResult:Find("subject/name"), getImageSprite(slot0.resources:Find(tostring(slot1))))
 
-	process = coroutine.create(function ()
+	slot11 = nil
+	slot11 = coroutine.create(function ()
 		uv0.alpha = 0
 
 		setText(uv1, "")
@@ -332,13 +333,11 @@ function slot0.displayResult(slot0, slot1, slot2, slot3)
 	end)
 
 	function ()
-		slot0, slot1 = coroutine.resume(process)
+		slot0, slot1 = coroutine.resume(uv0)
 	end()
 end
 
 function slot0.willExit(slot0)
-	LeanTween.cancelAll(false)
-
 	slot2 = slot0.layerProcess:Find("ship_right")
 
 	if slot0.layerProcess:Find("ship_left").childCount > 1 then

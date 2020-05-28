@@ -2888,6 +2888,93 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100004] = {
+		advice = 0,
+		describe = "This bottomless source of rabbits has been repurposed as a trap for Manjuus.",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "Magic Hat",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "19.03.15icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 100004,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"moshumaoB",
+				"normal"
+			},
+			{
+				"moshumaoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						{
+							"stand21",
+							"stand22",
+							"stand23"
+						}
+					},
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"moshumaoCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "Watch out for splinters.",
@@ -57916,6 +58003,7 @@ pg.furniture_data_template = {
 		173,
 		100002,
 		100003,
+		100004,
 		1001,
 		1002,
 		1101,

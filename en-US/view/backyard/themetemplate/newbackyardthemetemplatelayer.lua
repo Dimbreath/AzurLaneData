@@ -24,15 +24,21 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
-	slot0.tpl = slot0:findTF("list/tpl_theme")
-	slot0.container = slot0:findTF("list")
+	BackYardThemeTempalteUtil.Init()
+
+	slot0.tpl = slot0:findTF("adpter/list/tpl_theme")
+	slot0.container = slot0:findTF("adpter/list")
 	slot0.pageContainer = slot0:findTF("pages")
 	slot0.container:GetComponent(typeof(VerticalLayoutGroup)).spacing = 40
-	slot0.backBtn = slot0:findTF("top/fanhui")
-	slot0.homeBtn = slot0:findTF("top/help")
-	slot0.goldTxt = slot0:findTF("top/res_gold/Text"):GetComponent(typeof(Text))
-	slot0.gemTxt = slot0:findTF("top/res_gem/Text"):GetComponent(typeof(Text))
-	slot0.gemAddBtn = slot0:findTF("top/res_gem/jiahao")
+	slot0.backBtn = slot0:findTF("adpter/top/fanhui")
+	slot0.homeBtn = slot0:findTF("adpter/top/help")
+	slot0.goldTxt = slot0:findTF("adpter/top/res_gold/Text"):GetComponent(typeof(Text))
+	slot0.gemTxt = slot0:findTF("adpter/top/res_gem/Text"):GetComponent(typeof(Text))
+	slot0.gemAddBtn = slot0:findTF("adpter/top/res_gem/jiahao")
+
+	SetActive(slot0:findTF("adpter/top/top_word1"), true)
+	SetActive(slot0:findTF("adpter/top/top_word"), false)
+
 	slot0.tags = {
 		[BackYardConst.THEME_TEMPLATE_TYPE_SHOP] = i18n("backyard_theme_shop_title"),
 		[BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM] = i18n("backyard_theme_mine_title"),
@@ -47,7 +53,7 @@ function slot0.SetShopThemeTemplate(slot0, slot1)
 end
 
 function slot0.ShopThemeTemplateUpdate(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.shopThemeTemplate) do
+	for slot5, slot6 in pairs(slot0.shopThemeTemplate) do
 		if slot6.id == slot1.id then
 			slot0.shopThemeTemplate[slot5] = slot1
 
@@ -68,12 +74,18 @@ function slot0.OnShopTemplatesUpdated(slot0, slot1)
 	end
 end
 
+function slot0.OnShopTemplatesErro(slot0)
+	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
+		slot0.listPage:ExecuteAction("ThemeTemplatesErro", slot0:GetDataForType(slot0.pageType))
+	end
+end
+
 function slot0.SetCustomThemeTemplate(slot0, slot1)
 	slot0.customThemeTemplate = slot1
 end
 
 function slot0.CustomThemeTemplateUpdate(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.customThemeTemplate) do
+	for slot5, slot6 in pairs(slot0.customThemeTemplate) do
 		if slot6.id == slot1.id then
 			slot0.customThemeTemplate[slot5] = slot1
 
@@ -91,7 +103,7 @@ function slot0.SetCollectionThemeTemplate(slot0, slot1)
 end
 
 function slot0.CollectionThemeTemplateUpdate(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.collectionThemeTemplate) do
+	for slot5, slot6 in pairs(slot0.collectionThemeTemplate) do
 		if slot6.id == slot1.id then
 			slot0.collectionThemeTemplate[slot5] = slot1
 
@@ -154,7 +166,11 @@ function slot0.ClearShopSearchKey(slot0)
 end
 
 function slot0.DeleteCustomThemeTemplate(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.customThemeTemplate) do
+	if not slot0.customThemeTemplate then
+		return
+	end
+
+	for slot5, slot6 in pairs(slot0.customThemeTemplate) do
 		if slot6.id == slot1 then
 			slot0.customThemeTemplate[slot5] = nil
 
@@ -168,9 +184,13 @@ function slot0.DeleteCustomThemeTemplate(slot0, slot1)
 end
 
 function slot0.DeleteCollectionThemeTemplate(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.collectionThemeTemplate) do
+	if not slot0.collectionThemeTemplate then
+		return
+	end
+
+	for slot5, slot6 in pairs(slot0.collectionThemeTemplate) do
 		if slot6.id == slot1 then
-			table.remove(slot0.collectionThemeTemplate, slot5)
+			slot0.collectionThemeTemplate[slot5] = nil
 
 			break
 		end
@@ -182,9 +202,13 @@ function slot0.DeleteCollectionThemeTemplate(slot0, slot1)
 end
 
 function slot0.DeleteShopThemeTemplate(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.shopThemeTemplate) do
+	if not slot0.shopThemeTemplate then
+		return
+	end
+
+	for slot5, slot6 in pairs(slot0.shopThemeTemplate) do
 		if slot6.id == slot1 then
-			table.remove(slot0.shopThemeTemplate, slot5)
+			slot0.shopThemeTemplate[slot5] = nil
 
 			break
 		end
@@ -285,6 +309,7 @@ end
 function slot0.willExit(slot0)
 	slot0.listPage:Destroy()
 	slot0.contextData.msgBox:Destroy()
+	BackYardThemeTempalteUtil.ClearAllCache()
 end
 
 return slot0
