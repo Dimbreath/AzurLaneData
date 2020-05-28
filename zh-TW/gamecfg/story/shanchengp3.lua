@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "{namecode:78}姐姐～我們來幫妳了～！……哇哇哇！",
+			say = "{namecode:78}姐姐～我們來幫你了～！……哇哇哇！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:79}？小心！……唉……不是跟妳說過上樓梯的時候不要爬太快的嗎……",
+			say = "{namecode:79}？小心！……唉……不是跟你說過上樓梯的時候不要爬太快的嗎……",
 			side = 0,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			say = "哎呀，有殿下在可真是幫了大忙了。那今天就辛苦妳啦。",
+			say = "哎呀，有殿下在可真是幫了大忙了。那今天就辛苦你啦。",
 			side = 0,
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:78}",
@@ -264,7 +264,7 @@ return {
 			optionFlag = 2,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "哎呀，有殿下在可真是幫了大忙了。那今天就辛苦妳啦。",
+			say = "哎呀，有殿下在可真是幫了大忙了。那今天就辛苦你啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "……嗯？妳說這神社是什麼時候建的……？",
+			say = "……嗯？你說這神社是什麼時候建的……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官，對不起哦，我本來想等到午休結束喊妳起來的，結果看妳睡得那麼香，我也就睏了……",
+			say = "指揮官，對不起哦，我本來想等到午休結束喊你起來的，結果看你睡得那麼香，我也就睏了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我真的不是故意睡過去的哦，妳不要生氣好不好？",
+			say = "我真的不是故意睡過去的哦，你不要生氣好不好？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "對了，指揮官，妳沒有忘記敦克爾克叫我們去吃點心吧？",
+			say = "對了，指揮官，你沒有忘記敦克爾克叫我們去吃點心吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

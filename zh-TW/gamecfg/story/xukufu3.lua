@@ -116,7 +116,7 @@ return {
 			optionFlag = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "那就我來說，妳聽著就好了~",
+			say = "那就我來說，你聽著就好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官，我有沒有和妳說過，我是少數能搭載飛機的潛艇哦~",
+			say = "指揮官，我有沒有和你說過，我是少數能搭載飛機的潛艇哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "給妳看看我的……咦，我的帕斯巴德哪裡去啦？",
+			say = "給你看看我的……咦，我的帕斯巴德哪裡去啦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官，妳覺得我們艦隊的旗幟應該用什麼配色比較好？",
+			say = "指揮官，你覺得我們艦隊的旗幟應該用什麼配色比較好？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

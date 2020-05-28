@@ -118929,7 +118929,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -118938,7 +118938,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -119475,7 +119475,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -119484,7 +119484,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -120127,7 +120127,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -120136,7 +120136,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"dunkeerke"
@@ -120889,7 +120889,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -120898,7 +120898,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"lemaer",
@@ -121448,7 +121448,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -121457,7 +121457,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -122111,7 +122111,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -122120,7 +122120,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"rangbaer"
@@ -122940,7 +122940,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -122949,7 +122949,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -123527,7 +123527,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -123536,7 +123536,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -124220,7 +124220,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -124229,7 +124229,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"dunkeerke"
@@ -125025,7 +125025,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -125034,7 +125034,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"lemaer",
@@ -125627,7 +125627,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -125636,7 +125636,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -126334,7 +126334,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -126343,7 +126343,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"rangbaer"

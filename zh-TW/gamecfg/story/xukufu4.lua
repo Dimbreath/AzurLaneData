@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官妳也可以吃我的菜嘛，來來來，這個給妳，還有這個，唔，這個有點捨不得呢……不過還是給指揮官好了！",
+			say = "指揮官你也可以吃我的菜嘛，來來來，這個給你，還有這個，唔，這個有點捨不得呢……不過還是給指揮官好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 904010,
 			dir = 1,
-			say = "呵呵，那我就不打擾妳們了。",
+			say = "呵呵，那我就不打擾你們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哦對了，指揮官，妳知道嗎，我和讓·巴爾的名字來源都是著名的海盜哦！呃，她那個應該也算海盜吧？",
+			say = "哦對了，指揮官，你知道嗎，我和讓·巴爾的名字來源都是著名的海盜哦！呃，她那個應該也算海盜吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

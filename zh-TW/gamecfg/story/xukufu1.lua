@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "早上好呀，指揮官，作為秘書艦，我來喊妳起床上班啦~",
+			say = "早上好呀，指揮官，作為秘書艦，我來喊你起床上班啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "對了，指揮官，我跟妳說，我昨晚夢到妳了哦。",
+			say = "對了，指揮官，我跟你說，我昨晚夢到你了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "夢裡我正在免費吃大餐，結果還沒吃飽，指揮官妳就來喊我去工作，然後我就醒了……",
+			say = "夢裡我正在免費吃大餐，結果還沒吃飽，指揮官你就來喊我去工作，然後我就醒了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯妳不用回答，我知道的，一定夢到了對吧~",
+			say = "嗯你不用回答，我知道的，一定夢到了對吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官妳不要不理我嘛，真是的，夢到我又不是什麼害羞的事~",
+			say = "指揮官你不要不理我嘛，真是的，夢到我又不是什麼害羞的事~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

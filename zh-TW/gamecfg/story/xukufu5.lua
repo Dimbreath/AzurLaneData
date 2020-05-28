@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "所以指揮官去午睡吧，我會在午休結束時喊妳起來的！",
+			say = "所以指揮官去午睡吧，我會在午休結束時喊你起來的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "真是的…這樣不是讓人家根本離不開妳了嘛…",
+			say = "真是的…這樣不是讓人家根本離不開你了嘛…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "我最……妳了哦，指揮官~",
+			say = "我最……你了哦，指揮官~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，醒一醒……嘖，我讓妳醒一醒！",
+			say = "喂，醒一醒……嘖，我讓你醒一醒！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 905010,
 			nameColor = "#a9f548",
-			say = "午休時間都結束半小時了，妳這傢伙還真是悠哉啊。",
+			say = "午休時間都結束半小時了，你這傢伙還真是悠哉啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "速科夫？妳是說趴在那兒睡覺的傢伙？",
+			say = "速科夫？你是說趴在那兒睡覺的傢伙？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "妳這樣和在指揮室養了一隻巨大的貓咪有什麼區別？",
+			say = "你這樣和在指揮室養了一隻巨大的貓咪有什麼區別？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "什麼？…妳一個人做完的？",
+			say = "什麼？…你一個人做完的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哼，所以妳是想說只需要這傢伙在妳身邊，不需要她為妳多做些什麼嗎？",
+			say = "哼，所以你是想說只需要這傢伙在你身邊，不需要她為你多做些什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哼，隨妳喜歡吧",
+			say = "哼，隨你喜歡吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…看起來，妳們還真是絕配。",
+			say = "…看起來，你們還真是絕配。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "那就不打擾了，還有，姑且給妳個建議…先去洗把臉吧。",
+			say = "那就不打擾了，還有，姑且給你個建議…先去洗把臉吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

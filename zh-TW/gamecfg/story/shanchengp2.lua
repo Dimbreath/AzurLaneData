@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下早安！今天就拜託妳了！",
+			say = "殿下早安！今天就拜託你了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:79}姐姐！……指揮官妳也在啊。今天不是放假嗎？難道是在約會？",
+			say = "{namecode:79}姐姐！……指揮官你也在啊。今天不是放假嗎？難道是在約會？",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -126,7 +126,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "哼哼，不是約會的話，{namecode:17}也來幫忙吧？嘿嘿，有我{namecode:17}大人出面，包妳打掃得乾淨清爽～",
+			say = "哼哼，不是約會的話，{namecode:17}也來幫忙吧？嘿嘿，有我{namecode:17}大人出面，包你打掃得乾淨清爽～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "……還是說妳比較想和那個笨蛋指揮官約會？哎呀好痛！",
+			say = "……還是說你比較想和那個笨蛋指揮官約會？哎呀好痛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "{namecode:57}！妳和{namecode:17}來買東西？",
+			say = "{namecode:57}！你和{namecode:17}來買東西？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嗯？雖然不懂妳在說什麼，不過就交給我{namecode:79}吧！下次去買裝備箱的時候我要好好批評她一下！",
+			say = "嗯？雖然不懂你在說什麼，不過就交給我{namecode:79}吧！下次去買裝備箱的時候我要好好批評她一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嘿嘿，{namecode:17}……不過，今天我要和殿下去打掃神社，下次再找妳玩吧！",
+			say = "嘿嘿，{namecode:17}……不過，今天我要和殿下去打掃神社，下次再找你玩吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
