@@ -33,11 +33,21 @@ function slot0.GetAddList(slot0)
 	slot1 = {}
 
 	for slot7, slot8 in pairs(slot0.template:GetFurnitureCnt()) do
-		if pg.furniture_data_template[slot7] and (slot0.dorm:GetAllFurniture()[slot7] or Furniture.New({
-			id = slot7
-		})):canPurchase() and slot9:inTime() and slot9:canPurchaseByDormMoeny() then
-			for slot13 = 1, slot8 do
-				table.insert(slot1, slot9)
+		if pg.furniture_data_template[slot7] then
+			slot10 = 0
+
+			if not slot0.dorm:GetAllFurniture()[slot7] then
+				slot9 = Furniture.New({
+					id = slot7
+				})
+			else
+				slot10 = slot9.count
+			end
+
+			if slot9:canPurchase() and slot9:inTime() and slot9:canPurchaseByDormMoeny() then
+				for slot14 = 1, slot8 - slot10 do
+					table.insert(slot1, slot9)
+				end
 			end
 		end
 	end

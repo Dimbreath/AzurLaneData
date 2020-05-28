@@ -2,9 +2,16 @@ slot0 = class("BackYardRefreshShopTemplateCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = slot2.type
 	slot5 = slot2.force
 
-	if getProxy(DormProxy).lastPages[slot2.type] < slot2.page then
+	if slot2.page == getProxy(DormProxy).MAX_PAGE then
+		pg.TipsMgr.GetInstance():ShowTips("backyard_shop_reach_last_page")
+
+		return
+	end
+
+	if slot6.lastPages[slot3] < slot4 then
 		slot0:sendNotification(GAME.BACKYARD_REFRESH_SHOP_TEMPLATE_ERRO)
 
 		return

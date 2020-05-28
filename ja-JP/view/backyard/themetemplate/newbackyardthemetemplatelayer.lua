@@ -24,6 +24,8 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
+	BackYardThemeTempalteUtil.Init()
+
 	slot0.tpl = slot0:findTF("adpter/list/tpl_theme")
 	slot0.container = slot0:findTF("adpter/list")
 	slot0.pageContainer = slot0:findTF("pages")
@@ -307,6 +309,7 @@ end
 function slot0.willExit(slot0)
 	slot0.listPage:Destroy()
 	slot0.contextData.msgBox:Destroy()
+	BackYardThemeTempalteUtil.ClearAllCache()
 end
 
 return slot0

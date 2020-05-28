@@ -19,6 +19,7 @@ slot0.SHOP_THEME_TEMPLATE_DELETED = "DormProxy SHOP_THEME_TEMPLATE_DELETED"
 function slot0.register(slot0)
 	slot0.TYPE = 2
 	slot0.PAGE = 1
+	slot0.MAX_PAGE = 10
 	slot0.lastPages = {
 		[2] = math.huge,
 		[3] = math.huge,
