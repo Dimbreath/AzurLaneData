@@ -13306,7 +13306,6 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10230,
-			12970,
 			21011
 		},
 		hide_buff_list = {}
@@ -13351,7 +13350,6 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10230,
-			12970,
 			21011
 		},
 		hide_buff_list = {}
@@ -13396,7 +13394,6 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10230,
-			12970,
 			21011
 		},
 		hide_buff_list = {}
@@ -13441,7 +13438,6 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10230,
-			12970,
 			21012
 		},
 		hide_buff_list = {}
