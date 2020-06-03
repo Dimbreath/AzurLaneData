@@ -39,34 +39,23 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
-	slot0:initBtn(slot0.btnList1)
-	slot0:initBtn(slot0.btnList2)
-end
-
-function slot0.initBtn(slot0, slot1)
-	onButton(slot0, slot1[1], function ()
+	onButton(slot0, slot0.btn1, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
 	end, SFX_PANEL)
-	onButton(slot0, slot1[2], function ()
+	onButton(slot0, list[2], function ()
 		uv0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.ACTIVITY_TYPE_RETURN_AWARD_ID2)
 	end, SFX_PANEL)
-	onButton(slot0, slot1[3], function ()
+	onButton(slot0, list[3], function ()
 		uv0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.YIDALI_MAIN_ID)
 	end, SFX_PANEL)
-	onButton(slot0, slot1[4], function ()
+	onButton(slot0, list[4], function ()
 		uv0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.ANNIVERSARY_LOGIN_ID)
 	end, SFX_PANEL)
-	onButton(slot0, slot1[5], function ()
+	onButton(slot0, list[5], function ()
 		uv0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.CARDPAIR_ZQ)
 	end, SFX_PANEL)
-	onButton(slot0, slot1[6], function ()
+	onButton(slot0, list[6], function ()
 		uv0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.DACHAOLIFU_SKIN)
-	end, SFX_PANEL)
-	onButton(slot0, slot1[7], function ()
-		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
-			wrap = ChargeScene.TYPE_DIAMOND
-		})
 	end, SFX_PANEL)
 end
 

@@ -136,6 +136,6 @@ return {
 	desc = "",
 	painting = 1,
 	id = 13270,
-	castCV = "skill",
+	castCV = "",
 	effect_list = {}
 }

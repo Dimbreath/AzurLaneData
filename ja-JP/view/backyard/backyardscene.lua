@@ -347,11 +347,13 @@ function slot0.registerNoFoodBoxEvent(slot0)
 		uv0:closeNofoodBox()
 	end)
 	onNextTick(function ()
-		if not uv0.closeNofoodFlag and uv0.dormVO.food == 0 and uv0.trainShipCount > 0 and (not uv0.contextData.fromMediatorName or uv0.contextData.fromMediatorName ~= "DockyardMediator") then
+		if not uv0.closeNofoodFlag and uv0.dormVO.food == 0 and uv0.trainShipCount > 0 and (not uv0.contextData.fromMediatorName or uv0.contextData.fromMediatorName ~= "DockyardMediator") and not uv0.contextData.skipToCharge then
 			uv0:openNofoodBox()
 
 			uv0.contextData.fromMain = nil
 		end
+
+		uv0.contextData.skipToCharge = nil
 	end)
 end
 

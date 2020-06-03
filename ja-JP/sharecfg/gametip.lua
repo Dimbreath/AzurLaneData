@@ -5339,6 +5339,9 @@ No.3 リトル・イラストリアス
 	ship_remould_warning_102174 = {
 		tip = "近代化改修は<color=#92fc63>輝く☆マイク</color>を消費します。\n続けますか？ "
 	},
+	ship_remould_warning_102284 = {
+		tip = "改造を行うと、スキル<color=#92fc63>【レーダー探知】</color>は<color=#92fc63>【レーダー探知・改】</color>に強化されます"
+	},
 	ship_remould_warning_201514 = {
 		tip = "改造後、「魚雷」砲座が-1、「対空砲」砲座が+1されます。改造を続けますか？"
 	},
@@ -10839,9 +10842,6 @@ GET!
 	},
 	undermist_tip = {
 		tip = "次の任務は明日に開放されます"
-	},
-	apple_link_title = {
-		tip = "連携中のアカウント完了"
 	},
 	retire_1 = {
 		tip = "<color=#ff5c5c>3回限界突破</color>を行った艦船を<color=#ff5c5c>所持している</color>場合、その艦船と同名の艦船は"

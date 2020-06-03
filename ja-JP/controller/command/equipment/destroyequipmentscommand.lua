@@ -2,59 +2,53 @@ slot0 = class("DestroyEquipmentsCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot3 = {}
-	slot4 = {}
-	slot6 = nil
+	slot5 = nil
 
-	for slot10, slot11 in ipairs(slot1:getBody().equipments) do
-		slot13 = slot11[2]
+	for slot9, slot10 in ipairs(slot1:getBody().equipments) do
+		slot12 = slot10[2]
 
-		if not getProxy(EquipmentProxy):getEquipmentById(slot11[1]) then
+		if not getProxy(EquipmentProxy):getEquipmentById(slot10[1]) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_destroyEquipments_error_noEquip"))
 
 			return
 		end
 
-		if slot14.count < slot13 then
+		if slot13.count < slot12 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_destroyEquipments_error_notEnoughEquip"))
 
 			return
 		end
 
-		if slot14:GetCategory() == EquipCategory.Siren then
-			table.insert(slot4, slot12)
-		else
-			table.insert(slot3, {
-				id = slot12,
-				count = slot13
-			})
-		end
+		table.insert(slot3, {
+			id = slot11,
+			count = slot12
+		})
 
-		if not slot6 then
-			slot15 = false
+		if not slot5 then
+			slot14 = false
 
-			if slot14:isImportance() then
-				slot15 = true
+			if slot13:isImportance() then
+				slot14 = true
 			end
 
-			if EquipmentRarity.Gold <= slot14.config.rarity then
-				slot15 = true
+			if EquipmentRarity.Gold <= slot13.config.rarity then
+				slot14 = true
 			end
 
-			if slot14.config.id % 20 >= 10 then
-				slot15 = true
+			if slot13.config.id % 20 >= 10 then
+				slot14 = true
 			end
 
-			slot6 = slot15 and slot12
+			slot5 = slot14 and slot11
 		end
 	end
 
-	if slot6 then
-		slot8 = pg.SecondaryPWDMgr
+	if slot5 then
+		slot7 = pg.SecondaryPWDMgr
 
-		slot8:LimitedOperation(slot8.RESOLVE_EQUIPMENT, slot6, function ()
+		slot7:LimitedOperation(slot7.RESOLVE_EQUIPMENT, slot5, function ()
 			pg.ConnectionMgr.GetInstance():Send(14008, {
-				equip_list = uv0,
-				affixequipment_id_list = uv1
+				equip_list = uv0
 			}, 14009, function (slot0)
 				if slot0.result == 0 then
 					slot2 = getProxy(PlayerProxy):getData()
@@ -91,10 +85,6 @@ function slot0.execute(slot0, slot1)
 						end(slot10.id, slot10.count)
 					end
 
-					for slot9, slot10 in ipairs(uv2) do
-						slot5(slot10, 1)
-					end
-
 					slot9 = {
 						id = 1,
 						type = slot10,
@@ -105,10 +95,10 @@ function slot0.execute(slot0, slot1)
 					table.insert(slot3, Item.New(slot9))
 
 					for slot9, slot10 in ipairs(slot3) do
-						uv3:sendNotification(GAME.ADD_ITEM, slot10)
+						uv2:sendNotification(GAME.ADD_ITEM, slot10)
 					end
 
-					uv3:sendNotification(GAME.DESTROY_EQUIPMENTS_DONE, slot3)
+					uv2:sendNotification(GAME.DESTROY_EQUIPMENTS_DONE, slot3)
 
 					return
 				end
@@ -117,7 +107,7 @@ function slot0.execute(slot0, slot1)
 			end)
 		end)
 	else
-		slot7()
+		slot6()
 	end
 end
 

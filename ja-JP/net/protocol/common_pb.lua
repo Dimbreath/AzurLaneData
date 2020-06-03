@@ -33,10 +33,6 @@ slot1 = {
 	SHIPSTATE_STATE_INFO_4_FIELD = slot0.FieldDescriptor(),
 	EQUIPINFO_ID_FIELD = slot0.FieldDescriptor(),
 	EQUIPINFO_SKINID_FIELD = slot0.FieldDescriptor(),
-	EQUIPINFO_UID_FIELD = slot0.FieldDescriptor(),
-	EQUIPINFO_AFFIX_LIST_FIELD = slot0.FieldDescriptor(),
-	AFFIXINFO_ID_FIELD = slot0.FieldDescriptor(),
-	AFFIXINFO_RANDOM_NUM_FIELD = slot0.FieldDescriptor(),
 	SHIPSKILL_SKILL_ID_FIELD = slot0.FieldDescriptor(),
 	SHIPSKILL_SKILL_LV_FIELD = slot0.FieldDescriptor(),
 	SHIPSKILL_SKILL_EXP_FIELD = slot0.FieldDescriptor(),
@@ -87,7 +83,6 @@ slot1 = {
 SHIPINFO = slot0.Descriptor()
 SHIPSTATE = slot0.Descriptor()
 EQUIPINFO = slot0.Descriptor()
-AFFIXINFO = slot0.Descriptor()
 SHIPSKILL = slot0.Descriptor()
 STRENGTH_INFO = slot0.Descriptor()
 TRANSFORM_INFO = slot0.Descriptor()
@@ -419,65 +414,16 @@ slot1.EQUIPINFO_SKINID_FIELD.has_default_value = false
 slot1.EQUIPINFO_SKINID_FIELD.default_value = 0
 slot1.EQUIPINFO_SKINID_FIELD.type = 13
 slot1.EQUIPINFO_SKINID_FIELD.cpp_type = 3
-slot1.EQUIPINFO_UID_FIELD.name = "uid"
-slot1.EQUIPINFO_UID_FIELD.full_name = "common.equipinfo.uid"
-slot1.EQUIPINFO_UID_FIELD.number = 3
-slot1.EQUIPINFO_UID_FIELD.index = 2
-slot1.EQUIPINFO_UID_FIELD.label = 1
-slot1.EQUIPINFO_UID_FIELD.has_default_value = false
-slot1.EQUIPINFO_UID_FIELD.default_value = 0
-slot1.EQUIPINFO_UID_FIELD.type = 13
-slot1.EQUIPINFO_UID_FIELD.cpp_type = 3
-slot1.EQUIPINFO_AFFIX_LIST_FIELD.name = "affix_list"
-slot1.EQUIPINFO_AFFIX_LIST_FIELD.full_name = "common.equipinfo.affix_list"
-slot1.EQUIPINFO_AFFIX_LIST_FIELD.number = 4
-slot1.EQUIPINFO_AFFIX_LIST_FIELD.index = 3
-slot1.EQUIPINFO_AFFIX_LIST_FIELD.label = 3
-slot1.EQUIPINFO_AFFIX_LIST_FIELD.has_default_value = false
-slot1.EQUIPINFO_AFFIX_LIST_FIELD.default_value = {}
-slot1.EQUIPINFO_AFFIX_LIST_FIELD.message_type = AFFIXINFO
-slot1.EQUIPINFO_AFFIX_LIST_FIELD.type = 11
-slot1.EQUIPINFO_AFFIX_LIST_FIELD.cpp_type = 10
 EQUIPINFO.name = "equipinfo"
 EQUIPINFO.full_name = "common.equipinfo"
 EQUIPINFO.nested_types = {}
 EQUIPINFO.enum_types = {}
 EQUIPINFO.fields = {
 	slot1.EQUIPINFO_ID_FIELD,
-	slot1.EQUIPINFO_SKINID_FIELD,
-	slot1.EQUIPINFO_UID_FIELD,
-	slot1.EQUIPINFO_AFFIX_LIST_FIELD
+	slot1.EQUIPINFO_SKINID_FIELD
 }
 EQUIPINFO.is_extendable = false
 EQUIPINFO.extensions = {}
-slot1.AFFIXINFO_ID_FIELD.name = "id"
-slot1.AFFIXINFO_ID_FIELD.full_name = "common.affixinfo.id"
-slot1.AFFIXINFO_ID_FIELD.number = 1
-slot1.AFFIXINFO_ID_FIELD.index = 0
-slot1.AFFIXINFO_ID_FIELD.label = 2
-slot1.AFFIXINFO_ID_FIELD.has_default_value = false
-slot1.AFFIXINFO_ID_FIELD.default_value = 0
-slot1.AFFIXINFO_ID_FIELD.type = 13
-slot1.AFFIXINFO_ID_FIELD.cpp_type = 3
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.name = "random_num"
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.full_name = "common.affixinfo.random_num"
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.number = 2
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.index = 1
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.label = 2
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.has_default_value = false
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.default_value = 0
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.type = 13
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.cpp_type = 3
-AFFIXINFO.name = "affixinfo"
-AFFIXINFO.full_name = "common.affixinfo"
-AFFIXINFO.nested_types = {}
-AFFIXINFO.enum_types = {}
-AFFIXINFO.fields = {
-	slot1.AFFIXINFO_ID_FIELD,
-	slot1.AFFIXINFO_RANDOM_NUM_FIELD
-}
-AFFIXINFO.is_extendable = false
-AFFIXINFO.extensions = {}
 slot1.SHIPSKILL_SKILL_ID_FIELD.name = "skill_id"
 slot1.SHIPSKILL_SKILL_ID_FIELD.full_name = "common.shipskill.skill_id"
 slot1.SHIPSKILL_SKILL_ID_FIELD.number = 1
@@ -1036,7 +982,6 @@ BUILDINFO.fields = {
 }
 BUILDINFO.is_extendable = false
 BUILDINFO.extensions = {}
-affixinfo = slot0.Message(AFFIXINFO)
 appreciationinfo = slot0.Message(APPRECIATIONINFO)
 buildinfo = slot0.Message(BUILDINFO)
 commanderinfo = slot0.Message(COMMANDERINFO)

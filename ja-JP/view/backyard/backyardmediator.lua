@@ -9,6 +9,7 @@ slot0.ON_SWITCH_FLOOR = "BackYardMediator:ON_SWITCH_FLOOR"
 slot0.ON_SHOPPING = "BackYardMediator:ON_SHOPPING"
 slot0.ITEM_UPDATED = "BackYardMediator:ITEM_UPDATED"
 slot0.GO_THEME_TEMPLATE = "BackYardMediator:GO_THEME_TEMPLATE"
+slot0.GO_CHARGE = "BackYardMediator:GO_CHARGE"
 
 function slot0.register(slot0)
 	pg.OSSMgr:GetInstance():Init()
@@ -260,7 +261,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.ADD_SHIP_DONE,
 		GAME.EXIT_SHIP_DONE,
 		GAME.LOAD_LAYERS,
-		GAME.REMOVE_LAYERS
+		GAME.REMOVE_LAYERS,
+		BackYardMediator.GO_CHARGE
 	}
 end
 
@@ -350,8 +352,22 @@ function slot0.handleNotification(slot0, slot1)
 		if slot3.context.mediator == NewBackYardShopMediator then
 			pg.backyard:sendNotification(BACKYARD.OPEN_SHOP_LAYER)
 		end
-	elseif slot2 == GAME.REMOVE_LAYERS and slot3.context.mediator == NewBackYardShopMediator then
-		pg.backyard:sendNotification(BACKYARD.CLOSE_SHOP_LAYER)
+	elseif slot2 == GAME.REMOVE_LAYERS then
+		if slot3.context.mediator == NewBackYardShopMediator then
+			pg.backyard:sendNotification(BACKYARD.CLOSE_SHOP_LAYER)
+		end
+	elseif slot2 == BackYardMediator.GO_CHARGE then
+		slot0.contextData.skipToCharge = true
+
+		if slot3.type == PlayerConst.ResDiamond then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+				wrap = ChargeScene.TYPE_DIAMOND
+			})
+		elseif slot4 == PlayerConst.ResDormMoney then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+				wrap = ChargeScene.TYPE_GIFT
+			})
+		end
 	end
 end
 

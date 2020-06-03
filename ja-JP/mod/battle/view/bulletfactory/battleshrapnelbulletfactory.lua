@@ -1,18 +1,19 @@
 ys = ys or {}
 slot0 = ys
+slot1 = slot0.Battle.BattleConst
 slot0.Battle.BattleShrapnelBulletFactory = singletonClass("BattleShrapnelBulletFactory", slot0.Battle.BattleBulletFactory)
 slot0.Battle.BattleShrapnelBulletFactory.__name = "BattleShrapnelBulletFactory"
-slot1 = slot0.Battle.BattleShrapnelBulletFactory
+slot2 = slot0.Battle.BattleShrapnelBulletFactory
 
-function slot1.Ctor(slot0)
+function slot2.Ctor(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot1.MakeBullet(slot0)
+function slot2.MakeBullet(slot0)
 	return uv0.Battle.BattleShrapnelBullet.New()
 end
 
-function slot1.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot2.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot2:SetOutRangeCallback(slot0.OutRangeFunc)
 
 	slot6 = slot0:MakeBullet()
@@ -25,14 +26,12 @@ function slot1.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot0:PlayFireFX(slot1, slot2, slot3, slot4, slot5, nil)
 	end
 
-	slot8 = slot2:GetTemplate().extra_param.shrapnel
-
 	uv0.bulletSplit(slot6)
 
 	return slot6
 end
 
-function slot1.onBulletHitFunc(slot0, slot1, slot2)
+function slot2.onBulletHitFunc(slot0, slot1, slot2)
 	slot3 = slot0:GetBulletData()
 
 	if slot3:GetCurrentState() ~= slot3.STATE_SPLIT then
@@ -70,7 +69,7 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 	uv1.bulletSplit(slot0, true)
 end
 
-function slot1.bulletSplit(slot0, slot1)
+function slot2.bulletSplit(slot0, slot1)
 	slot2 = slot0:GetBulletData()
 	slot3 = uv0.GetDataProxy()
 	slot4 = slot2:GetTemplate()
@@ -86,18 +85,15 @@ function slot1.bulletSplit(slot0, slot1)
 
 	slot8 = nil
 	slot8 = slot2:GetSpeed().x > 0 and 0 or 180
-	slot10 = 0
 
-	for slot14, slot15 in ipairs(slot5) do
-		slot9 = 0 + (not slot15.initialSplit and 1 or 0)
-
-		if slot1 ~= slot15.initialSplit then
-			slot16 = slot15.barrage_ID
-			slot17 = slot15.bullet_ID
-			slot19 = slot15.inheritAngle
-			slot20 = slot15.reaim
-			slot22 = nil
-			slot22 = uv1.Battle[slot15.emitterType or uv1.Battle.BattleWeaponUnit.EMITTER_SHOTGUN].New(function (slot0, slot1, slot2, slot3)
+	for slot12, slot13 in ipairs(slot5) do
+		if slot1 ~= slot13.initialSplit then
+			slot14 = slot13.barrage_ID
+			slot15 = slot13.bullet_ID
+			slot17 = slot13.inheritAngle
+			slot18 = slot13.reaim
+			slot20 = nil
+			slot20 = uv1.Battle[slot13.emitterType or uv1.Battle.BattleWeaponUnit.EMITTER_SHOTGUN].New(function (slot0, slot1, slot2, slot3)
 				slot4 = uv0:CreateBulletUnit(uv1, uv2, uv3, Vector3.zero)
 
 				slot4:OverrideCorrectedDMG(uv4.damage)
@@ -117,24 +113,23 @@ function slot1.bulletSplit(slot0, slot1)
 				uv10.GetFactoryList()[slot4:GetTemplate().type]:CreateBullet(uv11:GetTf(), slot4, uv11:GetPosition())
 			end, function ()
 				uv0:Destroy()
+				uv1:SplitFinishCount()
 
-				uv1 = uv1 + 1
-
-				if uv2 and uv1 == uv3 then
-					uv4:RemoveBulletUnit(uv5:GetUniqueID())
+				if uv1:IsAllSplitFinish() then
+					uv2:RemoveBulletUnit(uv1:GetUniqueID())
 				end
-			end, slot16)
+			end, slot14)
 
-			slot22:Ready()
-			slot22:Fire(nil, slot7:GetDirection(), uv1.Battle.BattleDataFunction.GetBarrageTmpDataFromID(slot16).angle)
+			slot20:Ready()
+			slot20:Fire(nil, slot7:GetDirection(), uv1.Battle.BattleDataFunction.GetBarrageTmpDataFromID(slot14).angle)
 		end
 	end
 end
 
-function slot1.onBulletMissFunc(slot0)
+function slot2.onBulletMissFunc(slot0)
 end
 
-function slot1.MakeModel(slot0, slot1, slot2, slot3, slot4)
+function slot2.MakeModel(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1:GetBulletData()
 
 	if not slot0:GetBulletPool():InstBullet(slot1:GetModleID(), function (slot0)
@@ -148,7 +143,7 @@ function slot1.MakeModel(slot0, slot1, slot2, slot3, slot4)
 	slot0:GetSceneMediator():AddBullet(slot1)
 end
 
-function slot1.OutRangeFunc(slot0)
+function slot2.OutRangeFunc(slot0)
 	if slot0:IsOutRange() then
 		slot0:ChangeShrapnelState(uv0.Battle.BattleShrapnelBulletUnit.STATE_SPIN)
 	else

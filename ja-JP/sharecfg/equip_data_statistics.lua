@@ -5578,7 +5578,8 @@ pg.equip_data_statistics = {
 			ambush_extra = 500
 		},
 		label = {
-			"DEV"
+			"DEV",
+			"SG"
 		}
 	},
 	[1501] = {
@@ -5669,7 +5670,8 @@ pg.equip_data_statistics = {
 			ambush_extra = 800
 		},
 		label = {
-			"DEV"
+			"DEV",
+			"SG"
 		}
 	},
 	[1521] = {
@@ -5795,7 +5797,8 @@ pg.equip_data_statistics = {
 			ambush_extra = 1200
 		},
 		label = {
-			"DEV"
+			"DEV",
+			"SG"
 		}
 	},
 	[1541] = {
@@ -58130,6 +58133,46 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[71016] = {
+		name = "0",
+		type = 1,
+		nationality = 0,
+		speciality = "なし",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		is_siren = 0,
+		rarity = 1,
+		descrip = "スキル弾幕",
+		scatter = "0",
+		ammo = "なし",
+		value_3 = 0,
+		id = 71016,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			71016
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[71017] = {
+		id = 71017,
+		base = 71016,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			71017
+		},
+		property_rate = {}
+	},
 	[71111] = {
 		name = "0",
 		type = 1,
@@ -75675,6 +75718,8 @@ pg.equip_data_statistics = {
 		71082,
 		71091,
 		71092,
+		71016,
+		71017,
 		71111,
 		71112,
 		71121,

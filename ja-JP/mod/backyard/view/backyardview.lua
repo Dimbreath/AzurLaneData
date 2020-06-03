@@ -432,13 +432,13 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 		uv0:SelectFurnitrue(uv1.id)
 	end
 
-	slot2.iconEvent:AddPointClickFunc(function ()
+	onButton(slot0, slot2.iconTF, function ()
 		if not uv0.decorateMode then
 			uv1()
 		else
 			uv2()
 		end
-	end)
+	end, SFX_PANEL)
 	slot4:AddBeginDragFunc(function ()
 		uv0:furnitureBeginDrag(uv1)
 		uv0:enableZoom(false)
