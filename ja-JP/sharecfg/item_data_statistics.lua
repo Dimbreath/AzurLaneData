@@ -100059,10 +100059,10 @@ pg.item_data_statistics = {
 	},
 	[59739] = {
 		display = "使用すると、サンディエゴと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "サンディエゴのお礼",
+		name = "サンディエゴのお礼（一周年）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -100071,16 +100071,27 @@ pg.item_data_statistics = {
 		id = 59739,
 		icon = "props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				102081,
+				1
+			},
+			{
+				2,
+				59721,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59740] = {
 		display = "使用すると、ベルファストと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "ベルファストのお礼",
+		name = "ベルファストのお礼（一周年）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -100089,16 +100100,27 @@ pg.item_data_statistics = {
 		id = 59740,
 		icon = "props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				202121,
+				1
+			},
+			{
+				2,
+				59722,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59741] = {
 		display = "使用すると、高雄と記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "高雄のお礼",
+		name = "高雄のお礼（一周年）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -100107,16 +100129,27 @@ pg.item_data_statistics = {
 		id = 59741,
 		icon = "props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				303111,
+				1
+			},
+			{
+				2,
+				59723,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59742] = {
 		display = "使用すると、ウォースパイトと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "ウォースパイトのお礼",
+		name = "ウォースパイトのお礼（一周年）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -100125,16 +100158,27 @@ pg.item_data_statistics = {
 		id = 59742,
 		icon = "props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				205021,
+				1
+			},
+			{
+				2,
+				59724,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59743] = {
 		display = "使用すると、フッドと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "フッドのお礼",
+		name = "フッドのお礼（一周年）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -100143,16 +100187,27 @@ pg.item_data_statistics = {
 		id = 59743,
 		icon = "props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				204031,
+				1
+			},
+			{
+				2,
+				59725,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59744] = {
 		display = "使用すると、エンタープライズと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "エンタープライズのお礼",
+		name = "エンタープライズのお礼（一周年）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -100161,16 +100216,27 @@ pg.item_data_statistics = {
 		id = 59744,
 		icon = "props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				107061,
+				1
+			},
+			{
+				2,
+				59726,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59745] = {
 		display = "使用すると、イラストリアスと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "イラストリアスのお礼",
+		name = "イラストリアスのお礼（一周年）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -100179,16 +100245,27 @@ pg.item_data_statistics = {
 		id = 59745,
 		icon = "props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				207031,
+				1
+			},
+			{
+				2,
+				59727,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59746] = {
 		display = "使用すると、プリンス・オブ・ウェールズと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "プリンス・オブ・ウェールズのお礼",
+		name = "プリンス・オブ・ウェールズのお礼（一周年）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -100197,16 +100274,27 @@ pg.item_data_statistics = {
 		id = 59746,
 		icon = "props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				205061,
+				1
+			},
+			{
+				2,
+				59728,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59747] = {
 		display = "使用すると、愛宕と記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "愛宕のお礼",
+		name = "愛宕のお礼（一周年）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -100215,7 +100303,18 @@ pg.item_data_statistics = {
 		id = 59747,
 		icon = "props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				303121,
+				1
+			},
+			{
+				2,
+				59728,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
@@ -100391,10 +100490,10 @@ pg.item_data_statistics = {
 	},
 	[59756] = {
 		display = "使用するとクリーブランドと記念アイテムを入手することができます",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "クリーブランドの贈り物",
+		name = "クリーブランドの贈り物（クリスマス2019）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -100403,16 +100502,27 @@ pg.item_data_statistics = {
 		id = 59756,
 		icon = "Props/shengye",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				102091,
+				1
+			},
+			{
+				2,
+				59751,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59757] = {
 		display = "使用すると寧海と記念アイテムを入手することができます",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "寧海の贈り物",
+		name = "寧海の贈り物（クリスマス2019）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -100421,16 +100531,27 @@ pg.item_data_statistics = {
 		id = 59757,
 		icon = "Props/shengye",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				502021,
+				1
+			},
+			{
+				2,
+				59752,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59758] = {
 		display = "使用すると平海と記念アイテムを入手することができます",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "平海の贈り物",
+		name = "平海の贈り物（クリスマス2019）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -100439,16 +100560,27 @@ pg.item_data_statistics = {
 		id = 59758,
 		icon = "Props/shengye",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				502031,
+				1
+			},
+			{
+				2,
+				59753,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59759] = {
 		display = "使用すると吹雪と記念アイテムを入手することができます",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "吹雪の贈り物",
+		name = "吹雪の贈り物（クリスマス2019）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -100457,16 +100589,27 @@ pg.item_data_statistics = {
 		id = 59759,
 		icon = "Props/shengye",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				301011,
+				1
+			},
+			{
+				2,
+				59754,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59760] = {
 		display = "使用するとエディンバラと記念アイテムを入手することができます",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "エディンバラの贈り物",
+		name = "エディンバラの贈り物（クリスマス2019）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -100475,7 +100618,18 @@ pg.item_data_statistics = {
 		id = 59760,
 		icon = "Props/shengye",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				202111,
+				1
+			},
+			{
+				2,
+				59755,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
@@ -101679,7 +101833,7 @@ pg.item_data_statistics = {
 	},
 	[59907] = {
 		display = "使用すると、サンディエゴと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "サンディエゴのお礼（二周年） ",
@@ -101691,13 +101845,24 @@ pg.item_data_statistics = {
 		id = 59907,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				102081,
+				1
+			},
+			{
+				2,
+				59916,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59908] = {
 		display = "使用すると、ベルファストと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "ベルファストのお礼（二周年） ",
@@ -101709,13 +101874,24 @@ pg.item_data_statistics = {
 		id = 59908,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				202121,
+				1
+			},
+			{
+				2,
+				59917,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59909] = {
 		display = "使用すると、高雄と記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "高雄のお礼（二周年） ",
@@ -101727,13 +101903,24 @@ pg.item_data_statistics = {
 		id = 59909,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				303111,
+				1
+			},
+			{
+				2,
+				59918,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59910] = {
 		display = "使用すると、ウォースパイトと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "ウォースパイトのお礼（二周年） ",
@@ -101745,13 +101932,24 @@ pg.item_data_statistics = {
 		id = 59910,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				205021,
+				1
+			},
+			{
+				2,
+				59919,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59911] = {
 		display = "使用すると、フッドと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "フッドのお礼（二周年） ",
@@ -101763,13 +101961,24 @@ pg.item_data_statistics = {
 		id = 59911,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				204031,
+				1
+			},
+			{
+				2,
+				59920,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59912] = {
 		display = "使用すると、エンタープライズと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "エンタープライズのお礼（二周年） ",
@@ -101781,13 +101990,24 @@ pg.item_data_statistics = {
 		id = 59912,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				107061,
+				1
+			},
+			{
+				2,
+				59921,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59913] = {
 		display = "使用すると、イラストリアスと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "イラストリアスのお礼（二周年） ",
@@ -101799,13 +102019,24 @@ pg.item_data_statistics = {
 		id = 59913,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				207031,
+				1
+			},
+			{
+				2,
+				59922,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59914] = {
 		display = "使用すると、プリンス・オブ・ウェールズと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "プリンス・オブ・ウェールズのお礼（二周年） ",
@@ -101817,13 +102048,24 @@ pg.item_data_statistics = {
 		id = 59914,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				205061,
+				1
+			},
+			{
+				2,
+				59923,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59915] = {
 		display = "使用すると、愛宕と記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "愛宕のお礼（二周年） ",
@@ -101835,7 +102077,18 @@ pg.item_data_statistics = {
 		id = 59915,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				303121,
+				1
+			},
+			{
+				2,
+				59924,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
@@ -102255,10 +102508,10 @@ pg.item_data_statistics = {
 	},
 	[59941] = {
 		display = "使用すると、ウォースパイトと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "ウォースパイトとお礼（正月） ",
+		name = "ウォースパイトとお礼（正月2020）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102267,16 +102520,27 @@ pg.item_data_statistics = {
 		id = 59941,
 		icon = "Props/nianhezhuang",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				205021,
+				1
+			},
+			{
+				2,
+				59948,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59942] = {
 		display = "使用すると、愛宕と記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "愛宕とお礼（正月） ",
+		name = "愛宕とお礼（正月2020）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102285,16 +102549,27 @@ pg.item_data_statistics = {
 		id = 59942,
 		icon = "Props/nianhezhuang",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				303121,
+				1
+			},
+			{
+				2,
+				59949,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59943] = {
 		display = "使用すると、イラストリアスと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "イラストリアスとお礼（正月） ",
+		name = "イラストリアスとお礼（正月2020）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102303,16 +102578,27 @@ pg.item_data_statistics = {
 		id = 59943,
 		icon = "Props/nianhezhuang",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				207031,
+				1
+			},
+			{
+				2,
+				59950,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59944] = {
 		display = "使用すると、翔鶴と記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "翔鶴とお礼（正月） ",
+		name = "翔鶴とお礼（正月2020）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102321,16 +102607,27 @@ pg.item_data_statistics = {
 		id = 59944,
 		icon = "Props/nianhezhuang",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				307051,
+				1
+			},
+			{
+				2,
+				59951,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59945] = {
 		display = "使用すると、瑞鶴と記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "瑞鶴とお礼（正月） ",
+		name = "瑞鶴とお礼（正月2020）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102339,16 +102636,27 @@ pg.item_data_statistics = {
 		id = 59945,
 		icon = "Props/nianhezhuang",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				307061,
+				1
+			},
+			{
+				2,
+				59952,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59946] = {
 		display = "使用すると、モントピリアと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "モントピリアとお礼（正月） ",
+		name = "モントピリアとお礼（正月2020）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102357,16 +102665,27 @@ pg.item_data_statistics = {
 		id = 59946,
 		icon = "Props/nianhezhuang",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				102141,
+				1
+			},
+			{
+				2,
+				59953,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59947] = {
 		display = "使用すると、フッドと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "フッドとお礼（正月） ",
+		name = "フッドとお礼（正月2020）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102375,7 +102694,18 @@ pg.item_data_statistics = {
 		id = 59947,
 		icon = "Props/nianhezhuang",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				204031,
+				1
+			},
+			{
+				2,
+				59954,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
@@ -103020,11 +103350,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[60039] = {
-		display = "使用すると、シリアスと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		display = "使用すると、愛宕と記念アイテム「お礼」を入手可能",
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "シリアスとお礼（初夏2020）",
+		name = "愛宕とお礼（初夏2020）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -103033,13 +103363,24 @@ pg.item_data_statistics = {
 		id = 60039,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				303121,
+				1
+			},
+			{
+				2,
+				60056,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[60040] = {
 		display = "使用すると、ベルファストと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "ベルファストとお礼（初夏2020）",
@@ -103051,85 +103392,24 @@ pg.item_data_statistics = {
 		id = 60040,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				202121,
+				1
+			},
+			{
+				2,
+				60049,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[60041] = {
-		display = "使用すると、ヴィクトリアスと記念アイテム「お礼」を入手可能",
-		rarity = 2,
-		type = 11,
-		drop_oil_max = 0,
-		name = "ヴィクトリアスとお礼（初夏2020）",
-		shop_id = -1,
-		shiptrans_id = 0,
-		drop_gold_max = 0,
-		virtual_type = 0,
-		link_id = 0,
-		id = 60041,
-		icon = "Props/yaoqinghan",
-		replace_item = 0,
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[60042] = {
-		display = "使用すると、ウォースパイトと記念アイテム「お礼」を入手可能",
-		rarity = 2,
-		type = 11,
-		drop_oil_max = 0,
-		name = "ウォースパイトとお礼（初夏2020）",
-		shop_id = -1,
-		shiptrans_id = 0,
-		drop_gold_max = 0,
-		virtual_type = 0,
-		link_id = 0,
-		id = 60042,
-		icon = "Props/yaoqinghan",
-		replace_item = 0,
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[60043] = {
-		display = "使用すると、フッドと記念アイテム「お礼」を入手可能",
-		rarity = 2,
-		type = 11,
-		drop_oil_max = 0,
-		name = "フッドかとお礼（初夏2020）",
-		shop_id = -1,
-		shiptrans_id = 0,
-		drop_gold_max = 0,
-		virtual_type = 0,
-		link_id = 0,
-		id = 60043,
-		icon = "Props/yaoqinghan",
-		replace_item = 0,
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[60044] = {
-		display = "使用すると、エンタープライズと記念アイテム「お礼」を入手可能",
-		rarity = 2,
-		type = 11,
-		drop_oil_max = 0,
-		name = "エンタープライズとお礼（初夏2020）",
-		shop_id = -1,
-		shiptrans_id = 0,
-		drop_gold_max = 0,
-		virtual_type = 0,
-		link_id = 0,
-		id = 60044,
-		icon = "Props/yaoqinghan",
-		replace_item = 0,
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[60045] = {
 		display = "使用すると、イラストリアスと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "イラストリアスとお礼（初夏2020）",
@@ -103138,16 +103418,143 @@ pg.item_data_statistics = {
 		drop_gold_max = 0,
 		virtual_type = 0,
 		link_id = 0,
+		id = 60041,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				207031,
+				1
+			},
+			{
+				2,
+				60050,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60042] = {
+		display = "使用すると、フッドと記念アイテム「お礼」を入手可能",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "フッドとお礼（初夏2020）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60042,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				204031,
+				1
+			},
+			{
+				2,
+				60051,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60043] = {
+		display = "使用すると、エンタープライズと記念アイテム「お礼」を入手可能",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "エンタープライズとお礼（初夏2020）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60043,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				107061,
+				1
+			},
+			{
+				2,
+				60052,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60044] = {
+		display = "使用すると、ヴィクトリアスと記念アイテム「お礼」を入手可能",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "ヴィクトリアスとお礼（初夏2020）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60044,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				207041,
+				1
+			},
+			{
+				2,
+				60053,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60045] = {
+		display = "使用すると、シリアスと記念アイテム「お礼」を入手可能",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "シリアスとお礼（初夏2020）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
 		id = 60045,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				202201,
+				1
+			},
+			{
+				2,
+				60054,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[60046] = {
 		display = "使用すると、プリンス・オブ・ウェールズと記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "プリンス・オブ・ウェールズとお礼（初夏2020）",
@@ -103159,16 +103566,27 @@ pg.item_data_statistics = {
 		id = 60046,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				205061,
+				1
+			},
+			{
+				2,
+				60055,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[60047] = {
-		display = "使用すると、愛宕と記念アイテム「お礼」を入手可能",
-		rarity = 2,
+		display = "使用すると、ウォースパイトと記念アイテム「お礼」を入手可能",
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "愛宕とお礼（初夏2020）",
+		name = "ウォースパイトとお礼（初夏2020）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -103177,7 +103595,18 @@ pg.item_data_statistics = {
 		id = 60047,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				205021,
+				1
+			},
+			{
+				2,
+				60056,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},

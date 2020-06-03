@@ -2324,6 +2324,7 @@ pg.activity_template = {
 		},
 		page_info = {
 			class_name = "ReturnAwardPage",
+			ui_name2 = "ReturnAward4RetrunerPage",
 			ui_name = "returnawardpage"
 		}
 	},

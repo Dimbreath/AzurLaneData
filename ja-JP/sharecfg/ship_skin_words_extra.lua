@@ -1700,6 +1700,7 @@ pg.ship_skin_words_extra = {
 		headtouch = "",
 		feeling2 = "",
 		battle = "",
+		detail = "",
 		login = {
 			{
 				1100,
@@ -1716,12 +1717,6 @@ pg.ship_skin_words_extra = {
 			{
 				1100,
 				"ご褒美に指揮官、頭ナデナデの……あはは、そんなに恥ずかしがらなくていいってば！"
-			}
-		},
-		detail = {
-			{
-				1100,
-				"指挥官，该不会，难道说，不会是……我不小心搞砸了什么东西吧？"
 			}
 		},
 		main = {
