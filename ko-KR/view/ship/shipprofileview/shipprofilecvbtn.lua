@@ -8,6 +8,7 @@ function slot0.Ctor(slot0, slot1)
 	setActive(slot0._tf:Find("tag_common"), true)
 
 	slot0.tagDiff = slot0._tf:Find("tag_diff")
+	slot0.playIcon = slot0._tf:Find("play_icon")
 end
 
 function slot0.Init(slot0, slot1, slot2, slot3, slot4)
@@ -45,14 +46,17 @@ function slot0.Init(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.Update(slot0)
-	slot2 = slot0.voice.unlock_condition[1] < 0
-	slot3 = slot0.wordData.textContent == nil or slot0.wordData.textContent == "nil" or slot0.wordData.textContent == ""
-	slot2 = not slot0.isLive2d and (slot2 or slot3) or slot2 or slot3 and slot1.l2d_action:match("^main_")
+	if not slot0.isLive2d then
+		slot2 = slot0.voice.unlock_condition[1] < 0 or (slot0.wordData.textContent == nil or slot0.wordData.textContent == "nil" or slot0.wordData.textContent == "")
+	else
+		slot2 = slot2 or slot3 and slot1.l2d_action:match("^" .. ShipWordHelper.WORD_TYPE_MAIN .. "_")
+	end
 
 	setActive(slot0._tf, not slot2)
 
 	if not slot2 then
 		slot0:UpdateCvBtn()
+		slot0:UpdateIcon()
 	end
 end
 
@@ -67,6 +71,10 @@ function slot0.UpdateCvBtn(slot0)
 			pg.TipsMgr.GetInstance():ShowTips(uv0)
 		end, SFX_PANEL)
 	end
+end
+
+function slot0.UpdateIcon(slot0)
+	setActive(slot0.playIcon, slot0.voice.key == "unlock" and PathMgr.FileExists(PathMgr.getAssetBundle("ui/star_level_unlock_anim_" .. slot0.skin.id)))
 end
 
 function slot0.Destroy(slot0)

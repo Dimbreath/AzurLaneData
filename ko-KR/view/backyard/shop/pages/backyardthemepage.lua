@@ -17,6 +17,13 @@ function slot0.LoadList(slot0)
 	slot0.arrLeftBtn = slot0:findTF("adpter/list/zuobian")
 	slot0.arrRightBtn = slot0:findTF("adpter/list/youbian")
 	slot0.preview = slot0:findTF("preview"):GetComponent(typeof(Image))
+	slot0.helpBtn = slot0:findTF("adpter/help")
+
+	setActive(slot0.helpBtn, false)
+	setActive(slot0:findTF("sort_bg"), true)
+
+	slot0.searchInput = slot0:findTF("search")
+	slot0.searchBtn = slot0:findTF("search/btn")
 end
 
 function slot0.LoadDetail(slot0)
@@ -68,6 +75,12 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.arrLeftBtn, function ()
 		uv0:OnSwitchToPrevTheme()
 	end, SFX_PANEL)
+	onButton(slot0, slot0.searchBtn, function ()
+		uv0:OnSearchKeyChange()
+	end)
+	onInputEndEdit(slot0, slot0.searchInput, function ()
+		uv0:OnSearchKeyEditEnd()
+	end)
 	onButton(slot0, slot0.arrRightBtn, function ()
 		uv0:OnSwitchToNextTheme()
 	end, SFX_PANEL)
@@ -129,9 +142,25 @@ function slot0.OnSetUp(slot0)
 end
 
 function slot0.InitThemeList(slot0)
-	slot0.disPlays = slot0:GetData()
+	slot0.disPlays = {}
+
+	for slot6, slot7 in ipairs(slot0:GetData()) do
+		if slot7:MatchSearchKey(getInputText(slot0.searchInput)) then
+			table.insert(slot0.disPlays, slot7)
+		end
+	end
 
 	slot0.scrollRect:SetTotalCount(#slot0.disPlays)
+end
+
+function slot0.OnSearchKeyChange(slot0)
+	slot0:InitThemeList()
+end
+
+function slot0.OnSearchKeyEditEnd(slot0)
+	if not getInputText(slot0.searchInput) or slot1 == "" then
+		slot0:InitThemeList()
+	end
 end
 
 function slot0.CreateCard(slot0, slot1)

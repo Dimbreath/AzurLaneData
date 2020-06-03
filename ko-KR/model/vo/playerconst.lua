@@ -61,15 +61,27 @@ function slot0.addTranDrop(slot0)
 
 	for slot8, slot9 in ipairs(slot0) do
 		slot10, slot11 = function (slot0)
-			if slot0.type == DROP_TYPE_SKIN and getProxy(ShipSkinProxy):hasNonLimitSkin(slot0.id) then
-				slot1, slot2 = Player.skin2Res(slot0.id)
+			if slot0.type == DROP_TYPE_SKIN then
+				slot1 = slot0.number or slot0.count
 
-				return Item.New({
-					type = DROP_TYPE_RESOURCE,
-					id = slot1,
-					count = slot2,
-					name = uv0[id2ItemId(slot1)].name .. "(" .. uv1[slot0.id].name .. ")"
-				})
+				warning(slot1)
+
+				if slot1 == 0 then
+					return Item.New({
+						count = 1,
+						type = slot0.type,
+						id = slot0.id
+					})
+				else
+					slot2, slot3 = Player.skin2Res(slot0.id, slot1)
+
+					return Item.New({
+						type = DROP_TYPE_RESOURCE,
+						id = slot2,
+						count = slot3,
+						name = uv0[id2ItemId(slot2)].name .. "(" .. uv1[slot0.id].name .. ")"
+					})
+				end
 			elseif slot0.type == DROP_TYPE_NPC_SHIP then
 				return Item.New({
 					count = 1,

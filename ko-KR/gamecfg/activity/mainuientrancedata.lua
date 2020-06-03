@@ -308,13 +308,21 @@ return {
 		end
 	},
 	LayoutProperty = {
-		CellSize = Vector2(208, 205)
+		CellSize = Vector2(208, 205),
+		Spacing = Vector2(0, -20),
+		Padding = {
+			0,
+			0,
+			-20,
+			0
+		},
+		CellScale = Vector3(0.9, 0.9, 1)
 	},
 	CurrentEntrancesList = {
 		1,
 		2,
 		8,
-		6,
-		13
+		13,
+		6
 	}
 }

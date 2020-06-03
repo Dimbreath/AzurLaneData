@@ -58,4 +58,18 @@ function slot0.IsPurchased(slot0, slot1)
 	return true
 end
 
+function slot0.MatchSearchKey(slot0, slot1)
+	if slot1 == "" or not slot1 then
+		return true
+	end
+
+	slot3 = slot0:getConfig("desc")
+
+	if string.find(slot0:getConfig("name"), slot1) or string.find(slot2, slot1) then
+		return true
+	end
+
+	return false
+end
+
 return slot0

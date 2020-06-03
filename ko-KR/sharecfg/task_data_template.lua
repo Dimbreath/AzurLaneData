@@ -60855,6 +60855,38 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14674] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91194,
+		type = 6,
+		name = "『限界挑战5』-积分任务",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 103,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14674,
+		target_num = 8800,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				205,
+				1
+			}
+		}
+	},
 	[14730] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -84754,6 +84786,850 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15700] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93300,
+		type = 26,
+		name = "棘鳍礼服活动1",
+		count_inherit = 0,
+		desc = "적 중요함대를 3회 격파하라!",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15700,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54012,
+				5
+			}
+		}
+	},
+	[15701] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93301,
+		type = 26,
+		name = "棘鳍礼服活动1",
+		count_inherit = 0,
+		desc = "게임 로그인하기",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15701,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15702] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93302,
+		type = 26,
+		name = "棘鳍礼服活动2",
+		count_inherit = 0,
+		desc = "데일리 챌린지를 3회 클리어 한다",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15702,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[15703] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93303,
+		type = 26,
+		name = "棘鳍礼服活动2",
+		count_inherit = 0,
+		desc = "함선을 2척 퇴역시킨다",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15703,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15704] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93304,
+		type = 26,
+		name = "棘鳍礼服活动3",
+		count_inherit = 0,
+		desc = "전술훈련을 2희 진행한다 ",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15704,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54022,
+				3
+			}
+		}
+	},
+	[15705] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93305,
+		type = 26,
+		name = "棘鳍礼服活动3",
+		count_inherit = 0,
+		desc = "숙소에서 식량을 5회 보충한다",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15705,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15706] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93306,
+		type = 26,
+		name = "棘鳍礼服活动4",
+		count_inherit = 0,
+		desc = "임의의 적함을 20척 격파한다",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15706,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50004,
+				3
+			}
+		}
+	},
+	[15707] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93307,
+		type = 26,
+		name = "棘鳍礼服活动4",
+		count_inherit = 0,
+		desc = "건조 2회 진행",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15707,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15708] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93308,
+		type = 26,
+		name = "棘鳍礼服活动5",
+		count_inherit = 0,
+		desc = "장비상자를 1개 사용한다",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15708,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54023,
+				1
+			}
+		}
+	},
+	[15709] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93309,
+		type = 26,
+		name = "棘鳍礼服活动5",
+		count_inherit = 0,
+		desc = "함선을 5회 강화한다",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15709,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15710] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93310,
+		type = 26,
+		name = "棘鳍礼服活动6",
+		count_inherit = 0,
+		desc = "군사의뢰를 2번 수행한다",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15710,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54003,
+				2
+			}
+		}
+	},
+	[15711] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93311,
+		type = 26,
+		name = "棘鳍礼服活动6",
+		count_inherit = 0,
+		desc = "연습을 2번 수행하라! ",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15711,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15712] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93312,
+		type = 26,
+		name = "棘鳍礼服活动7",
+		count_inherit = 0,
+		desc = "장비를 2개 강화하라!",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15712,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54024,
+				1
+			}
+		}
+	},
+	[15713] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93313,
+		type = 26,
+		name = "棘鳍礼服活动7",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 10번 S 평가로 승리하라!",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15713,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				108032,
+				1
+			}
+		}
+	},
+	[15714] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93314,
+		type = 6,
+		name = "三周年送小光辉耗油1",
+		count_inherit = 15715,
+		desc = "누적 소모 연료 500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15715",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15714,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59791,
+				70
+			},
+			{
+				8,
+				59792,
+				20
+			},
+			{
+				8,
+				59793,
+				80
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15715] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93315,
+		type = 6,
+		name = "三周年送小光辉耗油2",
+		count_inherit = 15716,
+		desc = "누적 소모 연료 1000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15716",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15715,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59795,
+				20
+			},
+			{
+				8,
+				59796,
+				150
+			},
+			{
+				8,
+				59797,
+				200
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15716] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93316,
+		type = 6,
+		name = "三周年送小光辉耗油3",
+		count_inherit = 15717,
+		desc = "누적 소모 연료 1500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15717",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15716,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59791,
+				76
+			},
+			{
+				8,
+				59794,
+				100
+			},
+			{
+				8,
+				59793,
+				81
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15717] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93317,
+		type = 6,
+		name = "三周年送小光辉耗油4",
+		count_inherit = 15718,
+		desc = "누적 소모 연료 2000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15718",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15717,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59791,
+				30
+			},
+			{
+				8,
+				59792,
+				20
+			},
+			{
+				8,
+				59793,
+				80
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15718] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93318,
+		type = 6,
+		name = "三周年送小光辉耗油5",
+		count_inherit = 15719,
+		desc = "누적 소모 연료 2500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15719",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15718,
+		target_num = 2500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59795,
+				30
+			},
+			{
+				8,
+				59796,
+				150
+			},
+			{
+				8,
+				59797,
+				212
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15719] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93319,
+		type = 6,
+		name = "三周年送小光辉耗油6",
+		count_inherit = 15720,
+		desc = "누적 소모 연료 3000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15720",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15719,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59791,
+				20
+			},
+			{
+				8,
+				59792,
+				10
+			},
+			{
+				8,
+				59793,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15720] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93320,
+		type = 6,
+		name = "三周年送小光辉耗油7",
+		count_inherit = 15721,
+		desc = "누적 소모 연료 4000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15721",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15720,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59794,
+				71
+			},
+			{
+				8,
+				59795,
+				20
+			},
+			{
+				8,
+				59796,
+				200
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15721] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93321,
+		type = 6,
+		name = "三周年送小光辉耗油8",
+		count_inherit = 15722,
+		desc = "누적 소모 연료 5000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15722",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15721,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59791,
+				30
+			},
+			{
+				8,
+				59792,
+				20
+			},
+			{
+				8,
+				59793,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15722] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93322,
+		type = 6,
+		name = "三周年送小光辉耗油9",
+		count_inherit = 0,
+		desc = "누적 소모 연료 6000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15722,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59791,
+				30
+			},
+			{
+				8,
+				59796,
+				116
+			},
+			{
+				8,
+				59793,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -96389,6 +97265,7 @@ pg.task_data_template = {
 		14671,
 		14672,
 		14673,
+		14674,
 		14730,
 		14731,
 		14732,
@@ -97007,6 +97884,29 @@ pg.task_data_template = {
 		15692,
 		15693,
 		15694,
+		15700,
+		15701,
+		15702,
+		15703,
+		15704,
+		15705,
+		15706,
+		15707,
+		15708,
+		15709,
+		15710,
+		15711,
+		15712,
+		15713,
+		15714,
+		15715,
+		15716,
+		15717,
+		15718,
+		15719,
+		15720,
+		15721,
+		15722,
 		30201,
 		30202,
 		30203,

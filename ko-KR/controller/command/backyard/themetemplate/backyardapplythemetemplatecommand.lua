@@ -7,7 +7,7 @@ function slot0.execute(slot0, slot1)
 
 	function slot6(slot0, slot1)
 		if #slot0 == 0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n1("没有可以布置的家具"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_theme_template_list_is_empty"))
 
 			return
 		end
@@ -29,7 +29,7 @@ function slot0.execute(slot0, slot1)
 			if slot0 then
 				uv0:sendNotification(GAME.BACKYARD_APPLY_THEME_TEMPLATE_DONE)
 			else
-				pg.TipsMgr.GetInstance():ShowTips(i18n1("布置失败"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_apply_theme_template_erro"))
 				print(slot1)
 			end
 		end
@@ -84,7 +84,17 @@ function slot0.WarpList(slot0)
 		if slot0[slot12].position then
 			if slot1:GetAllFurniture()[slot13.id] then
 				if function (slot0)
-					return not slot0:isPaper() and (slot0.position.x < uv0 or slot0.position.y < uv1)
+					if not slot0:isPaper() then
+						if slot0.position.x >= uv0 then
+							if slot0.position.y >= uv1 then
+								slot1 = false
+							end
+						else
+							slot1 = true
+						end
+					end
+
+					return slot1
 				end(slot13) then
 					table.remove(slot0, slot12)
 				end

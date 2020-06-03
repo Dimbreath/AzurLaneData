@@ -84,12 +84,16 @@ function slot0.enableDecorateMode(slot0, slot1)
 		slot0.map.afterSortFunc(slot0.map.sortedItems)
 	end
 
+	slot2 = slot0:findTF("bg")
+
 	if slot1 then
 		slot0.prevScale = slot0.bg.localScale.x
-		slot2 = 1.15
-		slot0.bg.localScale = Vector3(slot2, slot2, slot2)
+		slot3 = slot0.zoom.minZoom
+		slot0.bg.localScale = Vector3(slot3, slot3, slot3)
+		slot2.sizeDelta = Vector2(slot2.sizeDelta.x, slot2.sizeDelta.y + 300)
 	elseif not slot1 and slot0.prevScale then
 		slot0.bg.localScale = Vector3(slot0.prevScale, slot0.prevScale, slot0.prevScale)
+		slot2.sizeDelta = Vector2(slot2.sizeDelta.x, slot2.sizeDelta.y - 300)
 	end
 
 	setActive(slot0.leftPanel, not slot1)

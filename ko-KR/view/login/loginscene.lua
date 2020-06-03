@@ -682,7 +682,7 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 
 		uv0.cg.alpha = 1
 
-		pg.CriMgr.GetInstance():resumeNormalBGM()
+		pg.CriMgr.GetInstance():ResumeNormalBGM()
 
 		uv0.onPlayingOP = false
 	end
@@ -713,7 +713,7 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 			uv0()
 		end)
 		setActive(uv0.openingTF, true)
-		pg.CriMgr.GetInstance():stopBGM()
+		pg.CriMgr.GetInstance():StopBGM()
 	end
 
 	if IsNil(slot0.openingTF) then

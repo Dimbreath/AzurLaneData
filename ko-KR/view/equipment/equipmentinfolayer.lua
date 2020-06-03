@@ -387,7 +387,7 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 	if slot2 then
 		slot8 = findTF(slot6, "name")
 
-		setText(slot8, slot2.config.name)
+		setScrollText(findTF(slot8, "mask/Text"), slot2.config.name)
 		setActive(findTF(slot8, "unique"), slot2:isUnique() and slot0.isShowUnique)
 
 		slot9 = findTF(slot6, "equip")

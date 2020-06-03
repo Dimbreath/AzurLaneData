@@ -1,6 +1,43 @@
 pg = pg or {}
 pg.activity_banner = {
-	[2] = {
+	{
+		type = 2,
+		id = 1,
+		pic = "temp1",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		param = "20464",
 		type = 3,
 		id = 2,
@@ -32,7 +69,7 @@ pg.activity_banner = {
 			}
 		}
 	},
-	[3] = {
+	{
 		type = 2,
 		id = 3,
 		pic = "temp3",
@@ -69,7 +106,7 @@ pg.activity_banner = {
 			}
 		}
 	},
-	[4] = {
+	{
 		type = 2,
 		id = 4,
 		pic = "temp4",
@@ -176,6 +213,7 @@ pg.activity_banner = {
 		}
 	},
 	all = {
+		1,
 		2,
 		3,
 		4,

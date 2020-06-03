@@ -18,7 +18,8 @@ function slot0.OnLoaded(slot0)
 	slot0.iconRaw = slot0:findTF("frame/bound/Icon_raw"):GetComponent(typeof(RawImage))
 	slot0.innerMsgbox = slot0:findTF("msg")
 	slot0.innerMsgboxContent = slot0.innerMsgbox:Find("bound/Text"):GetComponent(typeof(Text))
-	slot0.innerMsgboxComfirmBtn = slot0.innerMsgbox:Find("save_btn")
+	slot0.innerMsgboxComfirmBtn = slot0.innerMsgbox:Find("btns/btn1")
+	slot0.innerMsgboxCancelBtn = slot0.innerMsgbox:Find("btns/btn2")
 end
 
 function slot0.OnInit(slot0)
@@ -29,8 +30,15 @@ function slot0.OnInit(slot0)
 		uv0:Hide()
 	end)
 	onButton(slot0, slot0.deleteBtn, function ()
-		uv0:emit(BackYardDecorationMediator.DELETE_THEME, uv0.theme.id)
-		uv0:Hide()
+		if uv0.theme:IsPushed() then
+			uv0:ShowInnerMsgBox(i18n("backyard_decoration_theme_template_delete_tip"), function ()
+				uv0:emit(BackYardDecorationMediator.DELETE_THEME, uv0.theme.id)
+				uv0:Hide()
+			end, true)
+		else
+			uv0:emit(BackYardDecorationMediator.DELETE_THEME, uv0.theme.id)
+			uv0:Hide()
+		end
 	end)
 	onButton(slot0, slot0.saveBtn, function ()
 		if wordVer(getInputText(uv0.input)) > 0 then
@@ -75,6 +83,7 @@ function slot0.Show(slot0, slot1, slot2)
 		slot0:NewTheme()
 	end
 
+	setActive(slot0.frame, true)
 	setActive(slot0._tf, true)
 	setActive(slot0.innerMsgbox, false)
 	setActive(slot0.input, not slot2)
@@ -93,7 +102,7 @@ function slot0.ApplyTheme(slot0)
 	if not (slot1.type == BackYardTheme.TYPE_SYSTEM) and (BackYardThemeTempalteUtil.FileExists(slot1:GetTextureIconName()) or slot1:IsPushed()) then
 		setActive(slot0.iconRaw.gameObject, false)
 		setActive(slot0.icon.gameObject, false)
-		BackYardThemeTempalteUtil.GetTexture(slot1:GetTextureIconName(), function (slot0)
+		BackYardThemeTempalteUtil.GetTexture(slot1:GetTextureIconName(), slot1:GetIconMd5(), function (slot0)
 			if slot0 then
 				setActive(uv0.iconRaw.gameObject, true)
 
@@ -117,9 +126,10 @@ function slot0.NewTheme(slot0)
 	slot0.icon.sprite = LoadSprite("furnitureicon/default_theme")
 end
 
-function slot0.ShowInnerMsgBox(slot0, slot1, slot2)
+function slot0.ShowInnerMsgBox(slot0, slot1, slot2, slot3)
 	setActive(slot0.frame, false)
 	setActive(slot0.innerMsgbox, true)
+	setActive(slot0.innerMsgboxCancelBtn, slot3)
 
 	slot0.innerMsgboxContent.text = slot1
 
@@ -128,6 +138,13 @@ function slot0.ShowInnerMsgBox(slot0, slot1, slot2)
 			uv0()
 		end
 	end, SFX_PANEL)
+
+	if slot3 then
+		onButton(slot0, slot0.innerMsgboxCancelBtn, function ()
+			setActive(uv0.innerMsgbox, false)
+			setActive(uv0.frame, true)
+		end, SFX_PANEL)
+	end
 end
 
 function slot0.HideInnerMsgBox(slot0)

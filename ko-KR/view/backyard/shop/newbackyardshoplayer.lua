@@ -74,16 +74,21 @@ end
 
 function slot0.init(slot0)
 	slot0.pageContainer = slot0:findTF("pages")
-	slot0.btnTpl = slot0:getTpl("list/tpl")
-	slot0.btnContainer = slot0:findTF("list")
-	slot0.backBtn = slot0:findTF("top/fanhui")
-	slot0.goldTxt = slot0:findTF("top/res_gold/Text"):GetComponent(typeof(Text))
-	slot0.gemTxt = slot0:findTF("top/res_gem/Text"):GetComponent(typeof(Text))
-	slot0.goldAddBtn = slot0:findTF("top/res_gold/jiahao")
-	slot0.gemAddBtn = slot0:findTF("top/res_gem/jiahao")
-	slot0.help = slot0:findTF("top/help")
+	slot0.btnTpl = slot0:getTpl("adpter/list/tpl")
+	slot0.btnContainer = slot0:findTF("adpter/list")
+	slot0.backBtn = slot0:findTF("adpter/top/fanhui")
+	slot0.goldTxt = slot0:findTF("adpter/top/res_gold/Text"):GetComponent(typeof(Text))
+	slot0.gemTxt = slot0:findTF("adpter/top/res_gem/Text"):GetComponent(typeof(Text))
+	slot0.goldAddBtn = slot0:findTF("adpter/top/res_gold/jiahao")
+	slot0.gemAddBtn = slot0:findTF("adpter/top/res_gem/jiahao")
+
+	SetActive(slot0:findTF("adpter/top/top_word1"), false)
+	SetActive(slot0:findTF("adpter/top/top_word"), true)
+
+	slot0.help = slot0:findTF("adpter/top/help")
 	slot0.themePage = BackYardThemePage.New(slot0.pageContainer, slot0.event, slot0.contextData)
 	slot0.furniturePage = BackYardFurniturePage.New(slot0.pageContainer, slot0.event, slot0.contextData)
+	slot0.contextData.filterPanel = BackYardShopFilterPanel.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.pages = {
 		[uv0] = slot0.themePage,
 		[uv1] = slot0.furniturePage,
@@ -104,13 +109,9 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_HOME)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.goldAddBtn, function ()
-		uv0.contextData.onDeattch = nil
-
 		uv0:emit(NewBackYardShopMediator.ON_CHARGE, PlayerConst.ResDormMoney)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.gemAddBtn, function ()
-		uv0.contextData.onDeattch = nil
-
 		uv0:emit(NewBackYardShopMediator.ON_CHARGE, PlayerConst.ResDiamond)
 	end, SFX_PANEL)
 	slot0:InitPageFooter()
@@ -160,6 +161,7 @@ function slot0.willExit(slot0)
 		slot0.contextData.onDeattch()
 	end
 
+	slot0.contextData.filterPanel:Destroy()
 	slot0.themePage:Destroy()
 	slot0.furniturePage:Destroy()
 	slot0.contextData.furnitureMsgBox:Destroy()

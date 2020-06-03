@@ -93493,6 +93493,132 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59791] = {
+		display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "물감 A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 20479,
+		id = 59791,
+		icon = "props/draw_a",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59792] = {
+		display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "물감 B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 20479,
+		id = 59792,
+		icon = "props/draw_b",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59793] = {
+		display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "물감 C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 20479,
+		id = 59793,
+		icon = "props/draw_c",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59794] = {
+		display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "물감 D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 20479,
+		id = 59794,
+		icon = "props/draw_d",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59795] = {
+		display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "물감 E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 20479,
+		id = 59795,
+		icon = "props/draw_e",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59796] = {
+		display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "물감 F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 20479,
+		id = 59796,
+		icon = "props/draw_f",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59797] = {
+		display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "물감 G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 4,
+		link_id = 20479,
+		id = 59797,
+		icon = "props/draw_g",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59801] = {
 		display = "A-1 조각",
 		rarity = 2,
@@ -95584,11 +95710,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[60048] = {
-		display = "쇼카쿠로부터의 연회 초대에 대한 답례",
+		display = "즈이카쿠로부터의 연회 초대에 대한 답례",
 		rarity = 9,
 		type = 1,
 		drop_oil_max = 0,
-		name = "쇼카쿠의 답례",
+		name = "즈이카쿠의 답례",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -95620,11 +95746,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[60050] = {
-		display = "즈이카쿠로부터의 연회 초대에 대한 답례",
+		display = "쇼카쿠로부터의 연회 초대에 대한 답례",
 		rarity = 9,
 		type = 1,
 		drop_oil_max = 0,
-		name = "즈이카쿠의 답례",
+		name = "쇼카쿠의 답례",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -95983,21 +96109,22 @@ pg.item_data_statistics = {
 	},
 	[69910] = {
 		display = [[
-从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>10.0%</color>）平海换装 平海礼服（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10.0%</color>）圣路易斯换装  圣路易斯礼服（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>7.5%</color>）黛朵换装 黛朵礼服；
-（<color=#92fc63>7.5%</color>）埃塞克斯换装  埃塞克斯礼服；
-（<color=#92fc63>7.5%</color>）企业换装  企业礼服；
-（<color=#92fc63>7.5%</color>）马萨诸塞换装  马萨诸塞礼服；
-（<color=#92fc63>7.5%</color>）大青花鱼换装  大青花鱼礼服；
-（<color=#92fc63>7.5%</color>）利托里奥换装  利托里奥礼服；
-（<color=#92fc63>7.0%</color>）宁海换装  宁海礼服；
-（<color=#92fc63>7.0%</color>）比洛克西换装  比洛克西礼服；
-（<color=#92fc63>7.0%</color>）貃换装  貃礼服；
-（<color=#92fc63>7.0%</color>）柚换装  柚礼服；
-（<color=#92fc63>7.0%</color>）苏赛克斯换装  苏赛克斯礼服；]],
+다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
+각 스킨의 출현 확률 : 
+
+<color=#92fc63>10.0%</color>）핑하이  스위트 레드（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.0%</color>）세인트루이스  Luxury Handle（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.6%</color>）다이도 센치한 BIsqueDoll；
+（<color=#92fc63>7.6%</color>）엔터프라이즈   히어로의 드레스；
+（<color=#92fc63>7.6%</color>）매사추세츠  연회의 준비；
+（<color=#92fc63>7.6%</color>）알바코어  블랙 드레스 아래의「비밀」；
+（<color=#92fc63>7.6%</color>）리토리오  Calabria Aurea；
+（<color=#92fc63>7.0%</color>）닝하이  보랏빛 연회；
+（<color=#92fc63>7.0%</color>）빌럭시  LA 엠프레스；
+（<color=#92fc63>7.0%</color>）아가노  고백의 모르포나비；
+（<color=#92fc63>7.0%</color>）허먼 무도회의 새침한 요정；
+（<color=#92fc63>7.0%</color>）포르뱅  샴페인 연회；
+（<color=#92fc63>7.0%</color>）서식스  와인과 로즈]],
 		rarity = 4,
 		type = 98,
 		drop_oil_max = 0,
@@ -99125,6 +99252,13 @@ pg.item_data_statistics = {
 		59785,
 		59786,
 		59788,
+		59791,
+		59792,
+		59793,
+		59794,
+		59795,
+		59796,
+		59797,
 		59801,
 		59802,
 		59803,

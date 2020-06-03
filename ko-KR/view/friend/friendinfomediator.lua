@@ -8,11 +8,12 @@ slot0.INFORM_BACKYARD = "FriendInfoMediator:INFORM_BACKYARD"
 
 function slot0.register(slot0)
 	slot0.viewComponent:setFriend(slot0.contextData.friend)
-	slot0:bind(uv0.INFORM_BACKYARD, function (slot0, slot1, slot2, slot3)
+	slot0:bind(uv0.INFORM_BACKYARD, function (slot0, slot1, slot2, slot3, slot4)
 		uv0:sendNotification(GAME.INFORM_THEME_TEMPLATE, {
 			uid = slot1,
 			content = slot2,
-			tid = slot3
+			tid = slot3,
+			playerName = slot4
 		})
 	end)
 	slot0:bind(uv0.OPEND_FRIEND, function (slot0)

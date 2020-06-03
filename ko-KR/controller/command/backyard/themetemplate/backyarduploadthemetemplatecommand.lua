@@ -7,11 +7,6 @@ function slot0.execute(slot0, slot1)
 		uv0:Upload()
 		uv1:UpdateCustomThemeTemplate(uv0)
 		uv2:sendNotification(GAME.BACKYARD_UPLOAD_THEME_TEMPLATE_DONE)
-		uv2:sendNotification(GAME.BACKYARD_GET_THEME_TEMPLATE, {
-			type = BackYardConst.THEME_TEMPLATE_TYPE_SHOP,
-			callback = function ()
-			end
-		})
 	end
 
 	function slot8()
