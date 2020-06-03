@@ -325,14 +325,6 @@ function slot0.willExit(slot0)
 	slot0:SetDummyForIOS(false)
 	cameraPaintViewAdjust(false)
 	slot0:clearSkin()
-
-	if slot0.live2dCom then
-		Destroy(slot0.live2dCom.gameObject)
-		pg.Live2DMgr.GetInstance():TryReleaseLive2dRes(slot0.live2dCom.name)
-
-		slot0.live2dCom = nil
-	end
-
 	setActive(pg.UIMgr.GetInstance().OverlayEffect, PlayerPrefs.GetInt(SHOW_TOUCH_EFFECT, 1) > 0)
 end
 
@@ -475,7 +467,7 @@ function slot0.updateSkin(slot0)
 			slot1:SetParent(uv0.live2d, true)
 
 			slot1.localScale = Vector3(52, 52, 52)
-			slot1.localPosition = BuildVector3(uv0.skin.live2d_offset) + Vector3(0, 0, 100)
+			slot1.localPosition = BuildVector3(uv0.skin.live2d_offset)
 			slot2 = slot0:GetComponent(typeof(Live2dChar))
 
 			slot2:SetAction(pg.AssistantInfo.action2Id.idle)

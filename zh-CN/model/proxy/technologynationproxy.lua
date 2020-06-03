@@ -119,10 +119,22 @@ function slot0.nationPointFilter(slot0)
 			{}
 		}
 	}
+	slot0.nationToPointLog2 = {
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{}
+	}
 
 	for slot4, slot5 in ipairs(slot0.groupListInCount) do
-		slot6 = slot5:getNation()
-		slot7 = slot5.id
+		if slot5:getNation() ~= tonumber(string.sub(tostring(slot5.id), 1, 1)) then
+			table.insert(slot0.nationToPointLog2[slot6], slot5)
+		end
 
 		if not slot5.maxLV or slot5.maxLV < TechnologyConst.MAX_LV then
 			slot0.nationToPoint[slot6] = slot0.nationToPoint[slot6] + pg.fleet_tech_ship_template[slot7].pt_get
@@ -383,6 +395,28 @@ function slot0.printNationPointLog(slot0)
 
 			print(slot11)
 		end
+	end
+
+	print("----------------Filte----------------")
+
+	for slot4, slot5 in ipairs(slot0.nationToPointLog2) do
+		slot6 = slot4 .. " :"
+
+		for slot10, slot11 in ipairs(slot5) do
+			slot12 = slot11.id
+			slot13 = slot11:getNation()
+			slot14 = nil
+
+			for slot18 = 4, 1, -1 do
+				if pg.ship_data_statistics[tonumber(slot12 .. slot18)] then
+					slot14 = pg.ship_data_statistics[tonumber(slot12 .. slot18)].nationality
+				end
+			end
+
+			slot6 = slot6 .. tostring(slot12) .. " " .. tostring(slot13) .. " " .. tostring(slot14) .. "||"
+		end
+
+		print(slot6)
 	end
 end
 

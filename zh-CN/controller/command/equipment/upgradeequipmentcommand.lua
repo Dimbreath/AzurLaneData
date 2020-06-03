@@ -14,8 +14,8 @@ function slot0.execute(slot0, slot1)
 		ship_id = slot3,
 		pos = slot4
 	} or {
-		equip_id = slot5,
-		type = slot6:GetCategory()
+		type = 0,
+		equip_id = slot5
 	}, slot3 and 14003 or 14005, function (slot0)
 		if slot0.result == 0 then
 			slot4 = getProxy(PlayerProxy)

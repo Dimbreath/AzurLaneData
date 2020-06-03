@@ -14,7 +14,6 @@ end
 function slot0.OnFirstFlush(slot0)
 	slot1 = slot0.activity
 
-	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	onButton(slot0, slot0.bonusList, function ()
 		slot0 = uv0:getConfig("config_data")
 

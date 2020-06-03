@@ -1,7 +1,6 @@
 slot0 = class("I56SkinPage", import(".TemplatePage.SkinTemplatePage"))
 
 function slot0.OnFirstFlush(slot0)
-	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = uv0:findTF("item", slot2)

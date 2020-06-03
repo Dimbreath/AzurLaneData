@@ -12,7 +12,6 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	onButton(slot0, slot0.btn1, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
 	end, SFX_PANEL)

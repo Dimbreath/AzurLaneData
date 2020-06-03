@@ -9,7 +9,6 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	onButton(slot0, slot0.go1, function ()
 		uv0:emit(ActivityMediator.SELECT_ACTIVITY, 470)
 	end)

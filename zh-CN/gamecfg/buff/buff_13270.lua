@@ -25,7 +25,7 @@ return {
 					quota = 1,
 					time = 20,
 					target = "TargetSelf",
-					skill_id = 13270
+					skill_id = 13272
 				}
 			},
 			{
@@ -66,7 +66,7 @@ return {
 					quota = 1,
 					time = 20,
 					target = "TargetSelf",
-					skill_id = 13270
+					skill_id = 13272
 				}
 			},
 			{
@@ -107,7 +107,7 @@ return {
 					quota = 1,
 					time = 20,
 					target = "TargetSelf",
-					skill_id = 13270
+					skill_id = 13272
 				}
 			},
 			{
@@ -148,7 +148,7 @@ return {
 					quota = 1,
 					time = 20,
 					target = "TargetSelf",
-					skill_id = 13270
+					skill_id = 13272
 				}
 			},
 			{
@@ -189,7 +189,7 @@ return {
 					quota = 1,
 					time = 20,
 					target = "TargetSelf",
-					skill_id = 13270
+					skill_id = 13272
 				}
 			},
 			{
@@ -230,7 +230,7 @@ return {
 					quota = 1,
 					time = 20,
 					target = "TargetSelf",
-					skill_id = 13270
+					skill_id = 13272
 				}
 			},
 			{
@@ -271,7 +271,7 @@ return {
 					quota = 1,
 					time = 20,
 					target = "TargetSelf",
-					skill_id = 13270
+					skill_id = 13272
 				}
 			},
 			{
@@ -312,7 +312,7 @@ return {
 					quota = 1,
 					time = 20,
 					target = "TargetSelf",
-					skill_id = 13270
+					skill_id = 13272
 				}
 			},
 			{
@@ -353,7 +353,7 @@ return {
 					quota = 1,
 					time = 20,
 					target = "TargetSelf",
-					skill_id = 13270
+					skill_id = 13272
 				}
 			},
 			{
@@ -394,7 +394,7 @@ return {
 					quota = 1,
 					time = 20,
 					target = "TargetSelf",
-					skill_id = 13270
+					skill_id = 13272
 				}
 			},
 			{
@@ -445,7 +445,7 @@ return {
 				quota = 1,
 				time = 20,
 				target = "TargetSelf",
-				skill_id = 13270
+				skill_id = 13272
 			}
 		},
 		{

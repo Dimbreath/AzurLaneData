@@ -27,14 +27,10 @@ function slot0.register(slot0)
 	slot0.viewComponent:setChatMsgs(slot1:getChatMsgs())
 	slot0.viewComponent:setPlayerVO(getProxy(PlayerProxy):getData())
 
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_GUILD) and not slot7:isEnd() then
-		slot0.viewComponent:setActivity(slot7)
-	end
-
 	if not slot1:getGuildEvent(true) then
 		slot0:sendNotification(GAME.GET_GUILD_EVENT)
 	else
-		slot0.viewComponent:setGuildEvent(slot8)
+		slot0.viewComponent:setGuildEvent(slot6)
 	end
 
 	slot0:bind(uv0.OPEN_FACILITY, function (slot0, slot1)
@@ -131,7 +127,7 @@ function slot0.register(slot0)
 		}))
 	end)
 
-	if slot2:getDutyByMemberId(slot5.id) == GuildMember.DUTY_COMMANDER or slot9 == GuildMember.DUTY_DEPUTY_COMMANDER then
+	if slot2:getDutyByMemberId(slot5.id) == GuildMember.DUTY_COMMANDER or slot7 == GuildMember.DUTY_DEPUTY_COMMANDER then
 		slot0.viewComponent:updateNotices(slot1:isNoticesApply())
 	end
 end

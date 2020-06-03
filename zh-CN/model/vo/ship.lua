@@ -317,15 +317,9 @@ function slot0.Ctor(slot0, slot1)
 		for slot6, slot7 in ipairs(slot1.equip_info_list or {}) do
 			slot0.equipments[slot6] = slot7.id > 0 and Equipment.New({
 				count = 1,
-				id = slot7.uid > 0 and slot7.uid or slot7.id,
+				id = slot7.id,
 				config_id = slot7.id,
-				skinId = slot7.skinId,
-				affix_list = _.map(slot7.affix_list, function (slot0)
-					return {
-						id = slot0.id,
-						value = slot0.random_num
-					}
-				end)
+				skinId = slot7.skinId
 			}) or false
 		end
 	end
@@ -803,19 +797,13 @@ function slot0.getEquipmentProperties(slot0)
 				end
 			end
 
-			for slot14, slot15 in ipairs(slot8:GetAdditionalAttributes()) do
-				if slot15 and slot1[slot15.type] then
-					slot1[slot15.type] = slot1[slot15.type] + slot15.value
-				end
-			end
-
-			for slot15, slot16 in pairs(slot8:GetPropertyRate()) do
-				slot2[slot15] = math.max(slot2[slot15], slot16)
+			for slot14, slot15 in pairs(slot8:GetPropertyRate()) do
+				slot2[slot14] = math.max(slot2[slot14], slot15)
 			end
 
 			if slot8:GetSonarProperty() then
-				for slot16, slot17 in pairs(slot12) do
-					slot1[slot16] = slot1[slot16] + slot17
+				for slot15, slot16 in pairs(slot11) do
+					slot1[slot15] = slot1[slot15] + slot16
 				end
 			end
 		end
