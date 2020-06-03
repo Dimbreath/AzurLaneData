@@ -9077,7 +9077,7 @@ pg.activity_ins_npc_template = {
 		time_persist = ""
 	},
 	{
-		ship_group = 80101,
+		ship_group = 20603,
 		npc_reply_persist = "",
 		message_persist = "",
 		id = 520,

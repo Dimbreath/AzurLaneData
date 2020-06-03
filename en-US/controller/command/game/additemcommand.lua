@@ -15,8 +15,6 @@ function slot0.execute(slot0, slot1)
 		getProxy(EquipmentProxy):addEquipmentById(slot2.id, slot2.count)
 	elseif slot2.dropType == DROP_TYPE_SHIP then
 		-- Nothing
-	elseif slot2.dropType == DROP_TYPE_SIREN_EQUIP then
-		-- Nothing
 	elseif slot2.dropType == DROP_TYPE_FURNITURE then
 		slot3 = getProxy(DormProxy)
 

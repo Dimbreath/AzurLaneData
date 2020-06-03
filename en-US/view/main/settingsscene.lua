@@ -1742,7 +1742,6 @@ function slot0.initUSAccountPanel(slot0, slot1)
 		slot1 = getInputText(uv0.yostarCodeTxt)
 
 		if getInputText(uv0.yostarEmailTxt) ~= "" and slot1 ~= "" then
-			pg.UIMgr.GetInstance():LoadingOn()
 			pg.SdkMgr.GetInstance():LinkSocial(AIRI_PLATFORM_YOSTAR, slot0, slot1)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("verification_code_req_tip3"))

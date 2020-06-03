@@ -112,6 +112,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"O, fearless thunderbolts of liberty! Guide us through the darkness!\"</color>\n――Can be obtained during the \"Microlayer Medley\" event. ",
 		scene = {}
 	},
+	[308] = {
+		name = "Iris Canto",
+		time_second = 0,
+		id = 308,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>May numerous hymns cross the seas to reach the skies... Vive la Iris！ </color>\n―― Earned in the \"Skybound Oratorio\" Event.",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -126,6 +134,7 @@ pg.item_data_frame = {
 		304,
 		305,
 		306,
-		307
+		307,
+		308
 	}
 }

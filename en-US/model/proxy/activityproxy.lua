@@ -130,9 +130,27 @@ end
 
 function slot0.getPanelActivities(slot0)
 	return _(_.values(slot0.data)):chain():filter(function (slot0)
-		slot1 = slot0:getConfig("type")
+		if slot0:isShow() then
+			if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_CHARGEAWARD then
+				slot2 = slot0.data2 == 0
+			elseif slot1 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
+				if slot0.data1 >= 7 then
+					slot2 = not slot0.achieved
 
-		return slot0:isShow() and (slot1 == ActivityConst.ACTIVITY_TYPE_CHARGEAWARD and slot0.data2 == 0 or (slot1 ~= ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN or slot0.data1 >= 7 and not slot0.achieved and false) and (slot1 == ActivityConst.ACTIVITY_TYPE_DAILY_TASK and getProxy(TaskProxy):getTaskById(slot0:getConfig("config_data")[1]) and not slot4:isReceive() or not slot0:isEnd()))
+					if not slot0.achieved then
+						slot2 = false
+
+						if false then
+							slot2 = true
+						end
+					end
+				end
+			elseif slot1 == ActivityConst.ACTIVITY_TYPE_DAILY_TASK then
+				slot2 = getProxy(TaskProxy):getTaskById(slot0:getConfig("config_data")[1]) and not slot4:isReceive()
+			end
+		end
+
+		return slot2 and not slot0:isEnd()
 	end):sort(function (slot0, slot1)
 		if slot0:getConfig("login_pop") == slot1:getConfig("login_pop") then
 			return slot0.id < slot1.id

@@ -2608,6 +2608,22 @@ pg.skill_data_display = {
 		id = 13371,
 		name = "Prayer for Love and Peace "
 	},
+	[13380] = {
+		id = 13380,
+		name = "The Wonder of Kula Gulf "
+	},
+	[13381] = {
+		id = 13381,
+		name = "The Wonder of Kula Gulf "
+	},
+	[13400] = {
+		id = 13400,
+		name = "Radar Scan Plus "
+	},
+	[13401] = {
+		id = 13401,
+		name = "Radar Scan Plus "
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+ "
@@ -4893,6 +4909,10 @@ pg.skill_data_display = {
 		13361,
 		13370,
 		13371,
+		13380,
+		13381,
+		13400,
+		13401,
 		18010,
 		18040,
 		18041,

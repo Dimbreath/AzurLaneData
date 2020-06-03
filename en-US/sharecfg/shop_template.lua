@@ -9751,9 +9751,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 9869,
+		order = 8958,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -9768,9 +9768,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2019,
-					11,
-					21
+					2020,
+					6,
+					3
 				},
 				{
 					0,
@@ -9780,9 +9780,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					4
+					2020,
+					6,
+					17
 				},
 				{
 					23,
@@ -9800,9 +9800,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 9868,
+		order = 8958,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -9817,9 +9817,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2019,
-					11,
-					21
+					2020,
+					6,
+					3
 				},
 				{
 					0,
@@ -9829,9 +9829,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					4
+					2020,
+					6,
+					17
 				},
 				{
 					23,
@@ -9849,9 +9849,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 9905,
+		order = 8958,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -9866,9 +9866,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2019,
-					11,
-					21
+					2020,
+					6,
+					3
 				},
 				{
 					0,
@@ -9878,9 +9878,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					4
+					2020,
+					6,
+					17
 				},
 				{
 					23,
@@ -9898,7 +9898,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
 		order = 8962,
 		group = 0,
@@ -9947,7 +9947,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
 		order = 8962,
 		group = 0,
@@ -9996,7 +9996,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
 		order = 8962,
 		group = 0,
@@ -11642,6 +11642,55 @@ pg.shop_template = {
 			301211
 		}
 	},
+	[70140] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：文森斯JK-悠哉进行曲",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8957,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70140,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			103102
+		},
+		time = {
+			{
+				{
+					2020,
+					6,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70141] = {
 		group_type = 0,
 		resource_num = 880,
@@ -11650,7 +11699,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
 		order = 8964,
 		group = 0,
@@ -11699,7 +11748,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
 		order = 8964,
 		group = 0,
@@ -11748,7 +11797,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
 		order = 8964,
 		group = 0,
@@ -11797,7 +11846,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
 		order = 8964,
 		group = 0,
@@ -11846,7 +11895,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
 		order = 8964,
 		group = 0,
@@ -13851,7 +13900,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 0,
 		time_second = 0,
 		order = 8961,
 		group = 0,
@@ -13900,7 +13949,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
 		order = 8962,
 		group = 0,
@@ -13949,7 +13998,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
 		order = 8962,
 		group = 0,
@@ -13998,7 +14047,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
 		order = 8962,
 		group = 0,
@@ -14047,7 +14096,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 0,
 		time_second = 0,
 		order = 8960,
 		group = 0,
@@ -20551,6 +20600,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70350] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:鲁莽泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 8956,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70350,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			801031
+		},
+		time = {
+			{
+				{
+					2020,
+					6,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70369] = {
 		group_type = 0,
 		resource_num = 1080,
@@ -23819,6 +23917,114 @@ pg.shop_template = {
 			}
 		}
 	},
+	[99037] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 99037,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2020,
+					6,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[99038] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买限时礼包-比翼双飞",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 99038,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40100
+		},
+		time = {
+			{
+				{
+					2020,
+					6,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -24178,6 +24384,7 @@ pg.shop_template = {
 		70137,
 		70138,
 		70139,
+		70140,
 		70141,
 		70142,
 		70143,
@@ -24369,6 +24576,7 @@ pg.shop_template = {
 		70347,
 		70348,
 		70349,
+		70350,
 		70369,
 		70370,
 		70371,
@@ -24445,6 +24653,8 @@ pg.shop_template = {
 		99033,
 		99034,
 		99035,
-		99036
+		99036,
+		99037,
+		99038
 	}
 }

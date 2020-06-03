@@ -1979,7 +1979,8 @@ Current expansions: <color=#92fc63>$3</color>
 5. Paint can be obtained by completing event missions to consume a total amount of oil. 
 6. Completing pages in the Coloring Book will grant rewards. 
 7. The rewards for completing each page are as follows: 
-	 Complete Page 1: Random T3 Skill Book x3;n	 Complete Page 2: T3 Mystery Retrofit Blueprint x4
+	 Complete Page 1: T3 General Part x4;
+	 Complete Page 2: T3 Mystery Skill Book x3
 	 Complete Page 3: Little Illustrious x1;
 8. After the event ends, unused paint will be removed.
 9. The extra blank page will be available after May 31st.]]
@@ -5247,6 +5248,9 @@ Attack/Support Range Level:
 	ship_remould_warning_102174 = {
 		tip = "The <color=#92fc63>Sparkling Mic</color> will be used to complete the retrofit.\nWould you like to continue? "
 	},
+	ship_remould_warning_102284 = {
+		tip = "After retrofit, <color=#92fc63>\"Radar Scan\"</color>will be\nupgraded to <color=#92fc63>\"Radar Scan Plus\".</color> "
+	},
 	ship_remould_warning_201514 = {
 		tip = "Retrofitting this ship will <color=#92fc63>add 1 Anti-Air Gun mount</color> but <color=#92fc63>remove 1 Torpedo mount.</color> \nWould you like to continue? "
 	},
@@ -6989,7 +6993,7 @@ Combat Details:
 		tip = "Duke of York added to standard build pool! "
 	},
 	buildship_light_tip = {
-		tip = "Sirius and others are added to standard build pool! "
+		tip = "Z18, Le Téméraire, Little Bel and others are added to standard build pool! "
 	},
 	buildship_special_tip = {
 		tip = "Victorious added to standard build pool! "
@@ -9750,6 +9754,12 @@ Event Rules:
 	},
 	LanternRiddle_wait_time_tip = {
 		tip = "Next Attempt: "
+	},
+	LinkLinkGame_BestTime = {
+		tip = "Record:"
+	},
+	LinkLinkGame_CurTime = {
+		tip = "Time:"
 	},
 	sort_attribute = {
 		tip = "Stat"

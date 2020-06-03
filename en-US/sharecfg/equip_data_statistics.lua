@@ -5724,7 +5724,8 @@ pg.equip_data_statistics = {
 			ambush_extra = 500
 		},
 		label = {
-			"DEV"
+			"DEV",
+			"SG"
 		}
 	},
 	[1501] = {
@@ -5815,7 +5816,8 @@ pg.equip_data_statistics = {
 			ambush_extra = 800
 		},
 		label = {
-			"DEV"
+			"DEV",
+			"SG"
 		}
 	},
 	[1521] = {
@@ -5941,7 +5943,8 @@ pg.equip_data_statistics = {
 			ambush_extra = 1200
 		},
 		label = {
-			"DEV"
+			"DEV",
+			"SG"
 		}
 	},
 	[1541] = {

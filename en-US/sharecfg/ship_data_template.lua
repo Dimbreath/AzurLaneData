@@ -6845,6 +6845,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10070,
+			13380,
 			20121
 		},
 		hide_buff_list = {}
@@ -6889,6 +6890,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10070,
+			13380,
 			20121
 		},
 		hide_buff_list = {}
@@ -6933,6 +6935,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10070,
+			13380,
 			20121
 		},
 		hide_buff_list = {}
@@ -6977,6 +6980,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10070,
+			13380,
 			20122
 		},
 		hide_buff_list = {}
@@ -10835,6 +10839,51 @@ pg.ship_data_template = {
 		buff_list_display = {
 			2001,
 			20112
+		},
+		hide_buff_list = {}
+	},
+	[102284] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 10,
+		type = 2,
+		energy = 150,
+		name = "海伦娜·改",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 10205,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10205,
+		id = 102284,
+		equip_1 = {
+			2
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			13400,
+			20122
+		},
+		buff_list_display = {
+			13400,
+			13380,
+			20122
 		},
 		hide_buff_list = {}
 	},
@@ -35509,6 +35558,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2051,
+			1061,
 			22041
 		},
 		hide_buff_list = {}
@@ -35553,6 +35603,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2051,
+			1061,
 			22041
 		},
 		hide_buff_list = {}
@@ -35597,6 +35648,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2051,
+			1061,
 			22041
 		},
 		hide_buff_list = {}
@@ -35641,6 +35693,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2051,
+			1061,
 			22042
 		},
 		hide_buff_list = {}
@@ -71764,6 +71817,7 @@ pg.ship_data_template = {
 		102272,
 		102273,
 		102274,
+		102284,
 		103011,
 		103012,
 		103013,

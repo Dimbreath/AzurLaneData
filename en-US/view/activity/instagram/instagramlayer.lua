@@ -44,6 +44,7 @@ function slot0.init(slot0)
 	slot0.commentList = UIItemList.New(slot0:findTF("main/right_panel/center/bottom/scroll/content"), slot0:findTF("main/right_panel/center/bottom/scroll/content/tpl"))
 	slot0.commentPanel = slot0:findTF("main/right_panel/last/bg2")
 	slot0.optionalPanel = slot0:findTF("main/right_panel/last/bg2/option")
+	slot0.scroll = slot0:findTF("main/right_panel/center/bottom/scroll")
 	slot0.sprites = {}
 	slot0.timers = {}
 	slot0.UIMgr = pg.UIMgr.GetInstance()
@@ -150,6 +151,7 @@ function slot0.EnterDetail(slot0, slot1)
 
 	pg.SystemGuideMgr:GetInstance():Play(slot0)
 	slot0:RefreshInstagram()
+	scrollTo(slot0.scroll, 0, 1)
 end
 
 function slot0.ExitDetail(slot0)

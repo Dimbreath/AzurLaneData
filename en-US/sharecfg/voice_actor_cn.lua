@@ -931,5 +931,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Yomogi Ashitaba",
 		code = 233
+	},
+	{
+		actor_name = "Eri Yukimura",
+		code = 234
 	}
 }

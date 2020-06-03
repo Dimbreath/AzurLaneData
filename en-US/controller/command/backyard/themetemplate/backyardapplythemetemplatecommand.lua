@@ -2,6 +2,7 @@ slot0 = class("BackYardApplyThemeTemplateCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = slot2.template
 	slot4 = slot2.callback
 	slot5 = getProxy(DormProxy)
 
@@ -37,10 +38,11 @@ function slot0.execute(slot0, slot1)
 		pg.m02:sendNotification(GAME.PUT_FURNITURE, {})
 	end
 
+	slot9 = slot3:GetAllFurniture()
 	slot11 = {}
 
-	if BackYardThemeTemplate.IsOccupyed(uv0.GetAllFloorFurnitures(), slot2.template:GetAllFurniture()) then
-		slot11 = BackYardThemeTemplate.GetUsableFurnituresForFloor(slot8, slot9, 1)
+	if slot3:IsOccupyed(uv0.GetAllFloorFurnitures(), 1) then
+		slot11 = slot3:GetUsableFurnituresForFloor(slot8, 1)
 	else
 		slot12, slot13, slot14 = pairs(slot9)
 
@@ -84,7 +86,17 @@ function slot0.WarpList(slot0)
 		if slot0[slot12].position then
 			if slot1:GetAllFurniture()[slot13.id] then
 				if function (slot0)
-					return not slot0:isPaper() and (slot0.position.x < uv0 or slot0.position.y < uv1)
+					if not slot0:isPaper() then
+						if slot0.position.x >= uv0 then
+							if slot0.position.y >= uv1 then
+								slot1 = false
+							end
+						else
+							slot1 = true
+						end
+					end
+
+					return slot1
 				end(slot13) then
 					table.remove(slot0, slot12)
 				end

@@ -353,6 +353,10 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_ACTIVITY_MAP, function (slot0, slot1)
 		slot2, slot3 = getProxy(ChapterProxy):getLastMapForActivity()
 
+		print(slot2)
+		print(pg.expedition_data_by_map[slot2].on_activity)
+		print(getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot2].on_activity))
+
 		if not slot2 or not getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot2].on_activity) or slot4:isEnd() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 

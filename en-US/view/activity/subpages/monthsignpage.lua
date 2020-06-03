@@ -40,11 +40,6 @@ end
 
 function slot0.OnFirstFlush(slot0)
 	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
-
-	if not slot0.specialTag then
-		LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
-	end
-
 	slot0.list = UIItemList.New(slot0.items, slot0.item)
 
 	slot0.list:make(function (slot0, slot1, slot2)
@@ -111,6 +106,10 @@ function slot0.OnDestroy(slot0)
 	slot0.monthSignReSignUI:Destroy()
 
 	slot0.monthSignReSignUI = nil
+end
+
+function slot0.UseSecondPage(slot0, slot1)
+	return tonumber(pg.TimeMgr.GetInstance():CTimeDescC(pg.TimeMgr.GetInstance():GetServerTime(), "%m")) == pg.activity_template[slot1.id].config_client[1]
 end
 
 return slot0

@@ -43,14 +43,13 @@ function slot0.execute(slot0, slot1)
 		content = i18n("ship_equip_exchange_tip", slot10:getName(), slot11.config.name, slot9:getName()),
 		onYes = function ()
 			function slot0(slot0, slot1, slot2, slot3)
-				slot5 = getProxy(EquipmentProxy):getEquipmentById(slot1)
-				slot5.count = 1
+				getProxy(EquipmentProxy):getEquipmentById(slot1).count = 1
 
 				pg.ConnectionMgr.GetInstance():Send(12006, {
+					type = 0,
 					equip_id = slot1,
 					ship_id = slot2,
-					pos = slot3,
-					type = slot5:GetCategory()
+					pos = slot3
 				}, 12007, function (slot0)
 					if slot0.result == 0 then
 						if uv0:getEquip(uv1) then

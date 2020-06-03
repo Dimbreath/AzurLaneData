@@ -46494,6 +46494,405 @@ pg.task_data_template = {
 			"ACTIVITY_MAP"
 		}
 	},
+	[14140] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90464,
+		type = 6,
+		name = "SP1·通过任务 新奥尔良",
+		count_inherit = 0,
+		desc = "Clear SP1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14141",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1130101,
+		id = 14140,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1130101",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14141] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90465,
+		type = 6,
+		name = "SP2·通过任务 新奥尔良",
+		count_inherit = 0,
+		desc = "Clear SP2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14142",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1130102,
+		id = 14141,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1130102",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14142] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90466,
+		type = 6,
+		name = "SP3·通过任务 新奥尔良",
+		count_inherit = 0,
+		desc = "Clear SP3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1130103,
+		id = 14142,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1130103",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[14143] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90467,
+		type = 6,
+		name = "SP1·三星任务 新奥尔良",
+		count_inherit = 0,
+		desc = "Complete SP1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14144",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1130101,
+		id = 14143,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1130101",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[14144] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90468,
+		type = 6,
+		name = "SP2·三星任务 新奥尔良",
+		count_inherit = 0,
+		desc = "Complete SP2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14145",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1130102,
+		id = 14144,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1130102",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[14145] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90469,
+		type = 6,
+		name = "SP3·三星任务 新奥尔良",
+		count_inherit = 0,
+		desc = "Complete SP3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1130103,
+		id = 14145,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1130103",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				103081,
+				1
+			}
+		}
+	},
+	[14146] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90470,
+		type = 26,
+		name = "【新奥尔良复刻】昆西登录1",
+		count_inherit = 0,
+		desc = "Log in once (1/3).",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14147",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14146,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[14147] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90471,
+		type = 26,
+		name = "【新奥尔良复刻】昆西登录2",
+		count_inherit = 0,
+		desc = "Log in once (2/3).",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14148",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14147,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			}
+		}
+	},
+	[14148] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90472,
+		type = 26,
+		name = "【新奥尔良复刻】昆西登录3",
+		count_inherit = 0,
+		desc = "Log in once (3/3).",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14148,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				103091,
+				1
+			}
+		}
+	},
+	[14149] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90473,
+		type = 26,
+		name = "【新奥尔良复刻】文森斯任务1",
+		count_inherit = 0,
+		desc = "Defeat 100 enemies.",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14149,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[14150] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90474,
+		type = 26,
+		name = "【新奥尔良复刻】文森斯任务2",
+		count_inherit = 0,
+		desc = "Defeat 3 Boss fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14150,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				2
+			}
+		}
+	},
+	[14151] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90475,
+		type = 26,
+		name = "【新奥尔良复刻】文森斯任务3",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges.",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14151,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				103101,
+				1
+			}
+		}
+	},
 	[14152] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -76492,6 +76891,354 @@ pg.task_data_template = {
 			"ACTIVITY_MAP"
 		}
 	},
+	[15580] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93050,
+		type = 6,
+		name = "『法系V2』角色收集：黎塞留",
+		count_inherit = 0,
+		desc = "Fully Limit Break Richelieu.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 805014,
+		id = 15580,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "805014",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				600
+			}
+		}
+	},
+	[15581] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93051,
+		type = 6,
+		name = "『法系V2』角色收集：阿尔及利亚",
+		count_inherit = 0,
+		desc = "Fully Limit Break Algérie.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 903024,
+		id = 15581,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "903024",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				600
+			}
+		}
+	},
+	[15582] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93052,
+		type = 6,
+		name = "『法系V2』角色收集：圣女贞德",
+		count_inherit = 0,
+		desc = "Fully Limit Break Jeanne d'Arc.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 802024,
+		id = 15582,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "802024",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				600
+			}
+		}
+	},
+	[15583] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93053,
+		type = 6,
+		name = "『法系V2』角色收集：拉加利索尼耶",
+		count_inherit = 0,
+		desc = "Fully Limit Break La Galissonnière.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 902014,
+		id = 15583,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "902014",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				400
+			}
+		}
+	},
+	[15584] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93054,
+		type = 6,
+		name = "『法系V2』角色收集：沃克兰",
+		count_inherit = 0,
+		desc = "Fully Limit Break Vauquelin.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 901034,
+		id = 15584,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "901034",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				400
+			}
+		}
+	},
+	[15585] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93055,
+		type = 6,
+		name = "『法系V2』角色收集：贝亚恩",
+		count_inherit = 0,
+		desc = "Fully Limit Break Béarn.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 807014,
+		id = 15585,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "807014",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				400
+			}
+		}
+	},
+	[15586] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93056,
+		type = 6,
+		name = "『法系V2』角色刷关：让巴尔",
+		count_inherit = 0,
+		desc = "Clear B3 or D3 10 times with Jean Bart at max Limit Break in your fleet. Jean Bart must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15586,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1391213,
+			1393213
+		},
+		target_id_2 = {
+			905014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15587] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93057,
+		type = 6,
+		name = "『法系V2』角色刷关：鲁莽",
+		count_inherit = 0,
+		desc = "Clear B2 or D2 10 times with Le Temeraire at max Limit Break in your fleet. Le Temeraire must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15587,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1391113,
+			1393113
+		},
+		target_id_2 = {
+			801034
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15588] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93058,
+		type = 6,
+		name = "『法系V2』角色刷关：倔强",
+		count_inherit = 0,
+		desc = "Clear A3 or C3 10 times with L'Opiniâtre at max Limit Break in your fleet. L'Opiniâtre must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15588,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1390213,
+			1392213
+		},
+		target_id_2 = {
+			801044
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15589] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93059,
+		type = 6,
+		name = "『法系V2』角色刷关：命运女神",
+		count_inherit = 0,
+		desc = "Clear A2 or C2 10 times with Fortune at max Limit Break in your fleet. Fortune must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15589,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1390113,
+			1392113
+		},
+		target_id_2 = {
+			201124
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59160,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[15662] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -87311,6 +88058,18 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		14107,
 		14108,
 		14109,
+		14140,
+		14141,
+		14142,
+		14143,
+		14144,
+		14145,
+		14146,
+		14147,
+		14148,
+		14149,
+		14150,
+		14151,
 		14152,
 		14153,
 		14154,
@@ -88107,6 +88866,16 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		15572,
 		15573,
 		15574,
+		15580,
+		15581,
+		15582,
+		15583,
+		15584,
+		15585,
+		15586,
+		15587,
+		15588,
+		15589,
 		15662,
 		15664,
 		15666,

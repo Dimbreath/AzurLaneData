@@ -162,14 +162,18 @@ function slot0.Filter(slot0)
 	slot1 = slot0.playerVO:getAttireByType(slot0.displayVOs[1]:getType())
 
 	table.sort(slot0.displayVOs, function (slot0, slot1)
-		if (uv0 == slot0.id and 1 or 0) == (uv0 == slot1.id and 1 or 0) then
-			if slot0:getState() == slot1:getState() then
-				return slot5 < slot4
-			else
-				return slot0.id < slot1.id
-			end
+		slot3 = uv0 == slot1.id and 1 or 0
+
+		if (uv0 == slot0.id and 1 or 0) == 1 then
+			return true
+		elseif slot3 == 1 then
+			return false
+		end
+
+		if slot0:getState() == slot1:getState() then
+			return slot0.id < slot1.id
 		else
-			return slot3 < slot2
+			return slot5 < slot4
 		end
 	end)
 

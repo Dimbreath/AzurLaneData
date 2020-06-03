@@ -2582,6 +2582,99 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[125] = {
+		limit_arg = 1,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		name = "Skybound Oratorio Lucky Bag",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Skybound Oratorio Lucky Bag ",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai63",
+		id_str = "com.yostaren.azurlane.diamond135",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 125,
+		airijp_id = "com.yostaren.azurlane.diamond135",
+		extra_service_item = {
+			{
+				2,
+				69962,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69962,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2615,6 +2708,7 @@ pg.pay_data_display = {
 		121,
 		122,
 		123,
-		124
+		124,
+		125
 	}
 }

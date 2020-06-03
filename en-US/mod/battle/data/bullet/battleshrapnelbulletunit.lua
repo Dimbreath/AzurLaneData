@@ -11,6 +11,9 @@ slot3.STATE_SPIN = "spin"
 
 function slot3.Ctor(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
+
+	slot0._splitCount = 0
+
 	slot0:ChangeShrapnelState(slot0.STATE_NORMAL)
 end
 
@@ -18,6 +21,14 @@ function slot3.Hit(slot0, slot1, slot2)
 	uv0.super.Hit(slot0, slot1, slot2)
 
 	slot0._pierceCount = slot0._pierceCount - 1
+end
+
+function slot3.SplitFinishCount(slot0)
+	slot0._splitCount = slot0._splitCount + 1
+end
+
+function slot3.IsAllSplitFinish(slot0)
+	return slot0._splitCount >= #slot0._tempData.extra_param.shrapnel
 end
 
 function slot3.Update(slot0, slot1)

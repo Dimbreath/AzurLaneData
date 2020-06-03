@@ -15,11 +15,6 @@ function slot0.register(slot0)
 			slot6 = Equipment.New(slot5)
 			uv0.data.equipments[slot6.id] = slot6
 		end
-
-		for slot4, slot5 in ipairs(slot0.affixequipment_list) do
-			slot6 = uv0:netBuildSirenEquipment(slot5)
-			uv0.data.equipments[slot6.id] = slot6
-		end
 	end)
 	slot0:on(14101, function (slot0)
 		for slot4, slot5 in ipairs(slot0.equip_skin_list) do
@@ -29,24 +24,6 @@ function slot0.register(slot0)
 			}
 		end
 	end)
-	slot0:on(14012, function (slot0)
-		for slot4, slot5 in ipairs(slot0.affixequipment_list) do
-			uv0:addEquipment(uv0:netBuildSirenEquipment(slot5))
-		end
-	end)
-end
-
-function slot0.netBuildSirenEquipment(slot0, slot1)
-	return Equipment.New({
-		id = slot1.id,
-		config_id = slot1.template_id,
-		affix_list = _.map(slot1.affix_list, function (slot0)
-			return {
-				id = slot0.id,
-				value = slot0.random_num
-			}
-		end)
-	})
 end
 
 function slot0.getEquipmentSkins(slot0)
@@ -100,7 +77,7 @@ function slot0.addEquipment(slot0, slot1)
 
 		slot0.data.equipments[slot1.id]:display("added")
 		slot0.facade:sendNotification(uv0.EQUIPMENT_ADDED, slot1:clone())
-	elseif slot1:GetCategory() ~= EquipCategory.Siren then
+	else
 		slot2.count = slot2.count + slot1.count
 
 		slot0:updateEquipment(slot2)
@@ -123,15 +100,10 @@ function slot0.updateEquipment(slot0, slot1)
 end
 
 function slot0.removeEquipmentById(slot0, slot1, slot2)
-	if slot0.data.equipments[slot1]:GetCategory() == EquipCategory.Siren then
-		slot0.data.equipments[slot3.id] = nil
+	slot3 = slot0.data.equipments[slot1]
+	slot3.count = slot3.count - slot2
 
-		slot0:sendNotification(uv0.EQUIPMENT_REMOVED, slot3.id)
-	else
-		slot3.count = slot3.count - slot2
-
-		slot0:updateEquipment(slot3)
-	end
+	slot0:updateEquipment(slot3)
 end
 
 function slot0.getEquipments(slot0, slot1)

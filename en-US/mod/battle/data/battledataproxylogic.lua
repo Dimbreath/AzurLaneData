@@ -264,7 +264,7 @@ end
 function slot0.HandleBuffPlacer(slot0, slot1, slot2)
 	slot5 = false
 
-	if #uv0.GetBuffTemplate(slot0.buff_id).effect_list == 1 and slot4[1].type == "BattleBuffDOT" then
+	if uv0.GetBuffTemplate(slot0.buff_id).effect_list[1].type == "BattleBuffDOT" then
 		if uv1.CaclulateDOTPlace(slot0.rant, slot4[1], slot1, slot2) then
 			slot5 = true
 		end

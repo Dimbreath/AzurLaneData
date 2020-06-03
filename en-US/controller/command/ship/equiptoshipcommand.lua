@@ -35,10 +35,10 @@ function slot0.execute(slot0, slot1)
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(12006, {
+		type = 0,
 		equip_id = slot3,
 		ship_id = slot4,
-		pos = slot5,
-		type = slot10:GetCategory()
+		pos = slot5
 	}, 12007, function (slot0)
 		if slot0.result == 0 then
 			uv2:getEquipmentById(uv3).count = 1

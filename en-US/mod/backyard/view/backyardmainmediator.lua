@@ -34,6 +34,8 @@ slot0.INTERACTION_TRANSPORT = "BackyardMainMediator:INTERACTION_TRANSPORT"
 slot0.INTERACTION_TRANSPORT_AGAIN = "BackyardMainMediator:INTERACTION_TRANSPORT_AGAIN"
 slot0.INTERACTION_TRANSPORT_END = "BackyardMainMediator:INTERACTION_TRANSPORT_END"
 slot0.RESET_BOAT_POS = "BackyardMainMediator:RESET_BOAT_POS"
+slot0.ADD_VISITOR_SHIP = "BackyardMainMediator:ADD_VISITOR_SHIP"
+slot0.GET_VISITOR_SHIP = "BackyardMainMediator:GET_VISITOR_SHIP"
 
 function slot0.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, nil, slot1)
@@ -44,6 +46,17 @@ function slot0.onRegister(slot0)
 
 	slot0.viewComponent:setHouse(getBackYardProxy(BackYardHouseProxy):getData())
 	slot0.viewComponent:updateExtendItemVO(getProxy(BagProxy))
+	slot0:bind(uv0.GET_VISITOR_SHIP, function (slot0, slot1)
+		pg.m02:sendNotification(GAME.BACKYARD_GET_VISITOR_SHIP, {
+			callback = slot1
+		})
+	end)
+	slot0:bind(uv0.ADD_VISITOR_SHIP, function (slot0, slot1)
+		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+			name = BACKYARD.ADD_VISITOR_SHIP,
+			ship = slot1
+		})
+	end)
 	slot0:bind(uv0.INTERACTION_TRANSPORT, function (slot0, slot1, slot2)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.INTERACTION_TRANSPORT,

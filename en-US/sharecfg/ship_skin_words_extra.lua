@@ -1345,6 +1345,191 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[901020] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 901020,
+		expedition = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Hello, Commander. Ah, um... I was just thinking about what to make for you to eat..."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Who's the MVP? Um... Why's everyone looking at me...?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander. Would you like me to give you a massage?"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Commander, about that donut from earlier... Oh, I already asked you about it? ...Sorry, I was caught up thinking about other things and forgot...|Commander, would you like to read as well? I have lots of recommendations for you.|nil"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"...Eek! Ah, I'm sorry, I got too absorbed into thinking about you..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"It's fine to always be thinking about you? In that case....... Huh? Didn't you just say it was fine...? I sometimes feel like I could just daydream about you forever..."
+			}
+		}
+	},
+	[901030] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 901030,
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Hmm... So this is the commanderly feeling of sitting atop the commander's throne... Woahh?! When'd you get here?!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Number one! Clap, clap, everyone! Heheh, I'm super strong, after all!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, as a reward, I'll give you a headpat! ...Ahaha, you don't need to act all bashful!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Let me show you the spear dance that puts even the knights to shame! ...Commander, do you really have to hide under the desk? I won't hurt you... Ah! Look out! |Let's throw out all those yucky vegetables! Yeah, all of them! Including yours too!|nil"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Commission... commmmplete! Yaayyy!! Commander, you don't have to follow along!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Commander, we've got a boatload of rewards... No, an entire mountainload! Way more than usual!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Th-this is a bit embarrassing..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Allll righty, what carefree adventures are we going to have today? ...Woahh?! Commander, why are you hugging me so suddenly? I, I don't mind if you want to fool around, but what if someone sees us... Ahhn?!"
+			}
+		}
+	},
+	[202030] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 202030,
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		login = "",
+		win_mvp = {
+			{
+				1100,
+				"I simply must reward my little piggy here. Hehe, what shall I do for you?"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"I mustn't let my little piggy... see me in such an unsightly state...!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Good work, my little piggy. The repairs and resupplying have already been arranged, so go ahead and rest for now."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Hehehe, my heel has your name on it~"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Shall I tease this little piggy today by loving it gently? Hehehe~"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Just for you, my little piggy, I won't \"put it back on\" until you're done with work. Hehe, you know what I'm talking about, right...?|I never get tired of seeing that dumb face of yours. Hehe, you cute little piggy~♡|Perhaps that Leander is also... No, she's not like Neptune, she doesn't even understand the nature of \"teasing\"..."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Aren't you going to welcome back the girls in the commission fleet? I'll go with you, hehe~"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Your mail. Let's take a look... Hehe, of course I trust you, my little piggy~"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -1368,6 +1553,9 @@ pg.ship_skin_words_extra = {
 		302140,
 		905010,
 		301820,
-		305080
+		305080,
+		901020,
+		901030,
+		202030
 	}
 }
