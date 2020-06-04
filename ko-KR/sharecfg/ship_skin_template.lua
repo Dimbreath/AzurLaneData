@@ -18724,12 +18724,12 @@ pg.ship_skin_template = {
 		painting_hx = "",
 		air_bullet_skin = "",
 		bg_sp = "",
-		shop_type_id = 0,
+		shop_type_id = 7,
 		hand_id = 3,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bgm = "",
-		bg = "",
+		bg = "135",
 		isSwimsuit = 0,
 		skin_type = 0,
 		id = 105191,
@@ -18739,7 +18739,7 @@ pg.ship_skin_template = {
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
-		shop_id = 70199,
+		shop_id = 70371,
 		voice_actor = 131,
 		air_bomb_skin = "",
 		illustrator = -1,
@@ -18749,7 +18749,9 @@ pg.ship_skin_template = {
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
-		tag = {},
+		tag = {
+			4
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -23734,202 +23736,6 @@ pg.ship_skin_template = {
 			}
 		}
 	},
-	[108040] = {
-		name = "블루길 ",
-		bullet_skin_main = "",
-		group_index = 0,
-		illustrator2 = -1,
-		desc = "가토급 잠수함 블루길, 현호 SS-242 ",
-		bullet_skin_secondary = "",
-		ship_group = 10804,
-		painting = "lansaiyu",
-		painting_hx = "",
-		air_bullet_skin = "",
-		bg_sp = "",
-		shop_type_id = 0,
-		hand_id = 7,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "",
-		isSwimsuit = 0,
-		skin_type = -1,
-		id = 108040,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "lansaiyu",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 227,
-		air_bomb_skin = "",
-		illustrator = 14,
-		rarity_bg = "",
-		isHX = 0,
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.734,
-					1.063,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.004,
-					-0.037,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.5,
-							2.497,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[108041] = {
-		name = "견습 에이스 필더!",
-		bullet_skin_main = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "인트레피드 씨, 잘 봐, 나의 완벽한 수비!——헤헷 지휘관, 난 요즘 야구 연습하고 있어! 연습한 성과 좀 봐봐!",
-		bullet_skin_secondary = "",
-		ship_group = 10804,
-		painting = "lansaiyu_2",
-		painting_hx = "",
-		air_bullet_skin = "",
-		bg_sp = "",
-		shop_type_id = 13,
-		hand_id = 7,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "132",
-		isSwimsuit = 0,
-		skin_type = 0,
-		id = 108041,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "lansaiyu_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70335,
-		voice_actor = 227,
-		air_bomb_skin = "",
-		illustrator = 14,
-		rarity_bg = "",
-		isHX = 0,
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.83,
-					1.127,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.002,
-					-0.009,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[108031] = {
 		name = "편의점 대작전!",
 		bullet_skin_main = "",
@@ -24121,6 +23927,202 @@ pg.ship_skin_template = {
 						{
 							-0.433,
 							2.442,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[108040] = {
+		name = "블루길 ",
+		bullet_skin_main = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "가토급 잠수함 블루길, 현호 SS-242 ",
+		bullet_skin_secondary = "",
+		ship_group = 10804,
+		painting = "lansaiyu",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 7,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = -1,
+		id = 108040,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lansaiyu",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 227,
+		air_bomb_skin = "",
+		illustrator = 14,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.734,
+					1.063,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.004,
+					-0.037,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.497,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[108041] = {
+		name = "견습 에이스 필더!",
+		bullet_skin_main = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "인트레피드 씨, 잘 봐, 나의 완벽한 수비!——헤헷 지휘관, 난 요즘 야구 연습하고 있어! 연습한 성과 좀 봐봐!",
+		bullet_skin_secondary = "",
+		ship_group = 10804,
+		painting = "lansaiyu_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 13,
+		hand_id = 7,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "132",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 108041,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lansaiyu_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70335,
+		voice_actor = 227,
+		air_bomb_skin = "",
+		illustrator = 14,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.83,
+					1.127,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.002,
+					-0.009,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
 							0
 						}
 					}
@@ -32752,7 +32754,7 @@ pg.ship_skin_template = {
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
-		shop_id = 70146,
+		shop_id = 0,
 		voice_actor = 39,
 		air_bomb_skin = "",
 		illustrator = 20,
@@ -118849,10 +118851,10 @@ pg.ship_skin_template = {
 		108020,
 		108021,
 		108030,
-		108040,
-		108041,
 		108031,
 		108032,
+		108040,
+		108041,
 		112010,
 		112011,
 		201010,
