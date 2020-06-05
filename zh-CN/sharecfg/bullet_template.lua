@@ -32587,13 +32587,7 @@ pg.bullet_template = {
 			time = -1,
 			range = 0
 		},
-		attach_buff = {
-			{
-				friendly = false,
-				buff_id = 103123,
-				flare = false
-			}
-		},
+		attach_buff = {},
 		extra_param = {
 			timeToExplode = 0.3,
 			airdrop = true,
@@ -32653,13 +32647,7 @@ pg.bullet_template = {
 			time = -1,
 			range = 45
 		},
-		attach_buff = {
-			{
-				friendly = false,
-				buff_id = 103123,
-				flare = false
-			}
-		},
+		attach_buff = {},
 		extra_param = {
 			timeToExplode = 1,
 			airdrop = true,
@@ -32719,13 +32707,7 @@ pg.bullet_template = {
 			time = -1,
 			range = 45
 		},
-		attach_buff = {
-			{
-				friendly = false,
-				buff_id = 103123,
-				flare = false
-			}
-		},
+		attach_buff = {},
 		extra_param = {
 			timeToExplode = 2,
 			airdrop = true,

@@ -102041,11 +102041,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59739] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得圣地亚哥及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "圣地亚哥礼包（新）",
+		name = "宴会邀请函（圣地亚哥）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102054,16 +102054,27 @@ pg.item_data_statistics = {
 		id = 59739,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				102081,
+				1
+			},
+			{
+				2,
+				59721,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59740] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得贝尔法斯特及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "贝尔法斯特礼包（新）",
+		name = "宴会邀请函（贝尔法斯特）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102072,16 +102083,27 @@ pg.item_data_statistics = {
 		id = 59740,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				202121,
+				1
+			},
+			{
+				2,
+				59722,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59741] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得獒和及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "獒礼包（新）",
+		name = "宴会邀请函（獒）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102090,16 +102112,27 @@ pg.item_data_statistics = {
 		id = 59741,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				303111,
+				1
+			},
+			{
+				2,
+				59723,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59742] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得厌战及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "厌战礼包（新）",
+		name = "宴会邀请函（厌战）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102108,16 +102141,27 @@ pg.item_data_statistics = {
 		id = 59742,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				205021,
+				1
+			},
+			{
+				2,
+				59724,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59743] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得胡德及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "胡德礼包（新）",
+		name = "宴会邀请函（胡德）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102126,16 +102170,27 @@ pg.item_data_statistics = {
 		id = 59743,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				204031,
+				1
+			},
+			{
+				2,
+				59725,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59744] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得企业及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "企业礼包（新）",
+		name = "宴会邀请函（企业）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102144,16 +102199,27 @@ pg.item_data_statistics = {
 		id = 59744,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				107061,
+				1
+			},
+			{
+				2,
+				59726,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59745] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得光辉及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "光辉礼包（新）",
+		name = "宴会邀请函（光辉）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102162,16 +102228,27 @@ pg.item_data_statistics = {
 		id = 59745,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				207031,
+				1
+			},
+			{
+				2,
+				59727,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59746] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得威尔士亲王及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "威尔士亲王礼包（新）",
+		name = "宴会邀请函（威尔士亲王）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102180,16 +102257,27 @@ pg.item_data_statistics = {
 		id = 59746,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				205061,
+				1
+			},
+			{
+				2,
+				59728,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59747] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得犬及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "犬礼包（新）",
+		name = "宴会邀请函（犬）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102198,7 +102286,18 @@ pg.item_data_statistics = {
 		id = 59747,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				303121,
+				1
+			},
+			{
+				2,
+				59728,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
@@ -102373,11 +102472,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59756] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得克利夫兰及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "克利夫兰礼包",
+		name = "圣夜的赠礼（克利夫兰）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102386,16 +102485,27 @@ pg.item_data_statistics = {
 		id = 59756,
 		icon = "Props/shengye",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				102091,
+				1
+			},
+			{
+				2,
+				59751,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59757] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得宁海及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "宁海礼包",
+		name = "圣夜的赠礼（宁海）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102404,16 +102514,27 @@ pg.item_data_statistics = {
 		id = 59757,
 		icon = "Props/shengye",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				502021,
+				1
+			},
+			{
+				2,
+				59752,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59758] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得平海及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "平海礼包",
+		name = "圣夜的赠礼（平海）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102422,16 +102543,27 @@ pg.item_data_statistics = {
 		id = 59758,
 		icon = "Props/shengye",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				502031,
+				1
+			},
+			{
+				2,
+				59753,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59759] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得桐及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "桐礼包",
+		name = "圣夜的赠礼（桐）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102440,16 +102572,27 @@ pg.item_data_statistics = {
 		id = 59759,
 		icon = "Props/shengye",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				301011,
+				1
+			},
+			{
+				2,
+				59754,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59760] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得爱丁堡及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "爱丁堡礼包",
+		name = "圣夜的赠礼（爱丁堡）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -102458,7 +102601,18 @@ pg.item_data_statistics = {
 		id = 59760,
 		icon = "Props/shengye",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				202111,
+				1
+			},
+			{
+				2,
+				59755,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
@@ -103697,11 +103851,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59907] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得圣地亚哥及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "圣地亚哥礼包（新）",
+		name = "宴会邀请函（圣地亚哥）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -103710,16 +103864,27 @@ pg.item_data_statistics = {
 		id = 59907,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				102081,
+				1
+			},
+			{
+				2,
+				59916,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59908] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得贝尔法斯特及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "贝尔法斯特礼包（新）",
+		name = "宴会邀请函（贝尔法斯特）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -103728,16 +103893,27 @@ pg.item_data_statistics = {
 		id = 59908,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				202121,
+				1
+			},
+			{
+				2,
+				59917,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59909] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得獒和及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "獒礼包（新）",
+		name = "宴会邀请函（獒）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -103746,16 +103922,27 @@ pg.item_data_statistics = {
 		id = 59909,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				303111,
+				1
+			},
+			{
+				2,
+				59918,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59910] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得厌战及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "厌战礼包（新）",
+		name = "宴会邀请函（厌战）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -103764,16 +103951,27 @@ pg.item_data_statistics = {
 		id = 59910,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				205021,
+				1
+			},
+			{
+				2,
+				59919,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59911] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得胡德及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "胡德礼包（新）",
+		name = "宴会邀请函（胡德）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -103782,16 +103980,27 @@ pg.item_data_statistics = {
 		id = 59911,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				204031,
+				1
+			},
+			{
+				2,
+				59920,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59912] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得企业及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "企业礼包（新）",
+		name = "宴会邀请函（企业）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -103800,16 +104009,27 @@ pg.item_data_statistics = {
 		id = 59912,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				107061,
+				1
+			},
+			{
+				2,
+				59921,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59913] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得光辉及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "光辉礼包（新）",
+		name = "宴会邀请函（光辉）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -103818,16 +104038,27 @@ pg.item_data_statistics = {
 		id = 59913,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				207031,
+				1
+			},
+			{
+				2,
+				59922,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59914] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得威尔士亲王及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "威尔士亲王礼包（新）",
+		name = "宴会邀请函（威尔士亲王）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -103836,16 +104067,27 @@ pg.item_data_statistics = {
 		id = 59914,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				205061,
+				1
+			},
+			{
+				2,
+				59923,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59915] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得犬及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "犬礼包（新）",
+		name = "宴会邀请函（犬）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -103854,7 +104096,18 @@ pg.item_data_statistics = {
 		id = 59915,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				303121,
+				1
+			},
+			{
+				2,
+				59924,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
@@ -104273,11 +104526,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59941] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得厌战及其年贺状",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "厌战礼包",
+		name = "年贺状（厌战）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -104286,16 +104539,27 @@ pg.item_data_statistics = {
 		id = 59941,
 		icon = "Props/nianhezhuang",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				205021,
+				1
+			},
+			{
+				2,
+				59948,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59942] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得犬及其年贺状",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "犬礼包",
+		name = "年贺状（犬）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -104304,16 +104568,27 @@ pg.item_data_statistics = {
 		id = 59942,
 		icon = "Props/nianhezhuang",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				303121,
+				1
+			},
+			{
+				2,
+				59949,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59943] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得光辉及其年贺状",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "光辉礼包",
+		name = "年贺状（光辉）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -104322,16 +104597,27 @@ pg.item_data_statistics = {
 		id = 59943,
 		icon = "Props/nianhezhuang",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				207031,
+				1
+			},
+			{
+				2,
+				59950,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59944] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得鹬及其年贺状",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "鹬礼包",
+		name = "年贺状（鹬）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -104340,16 +104626,27 @@ pg.item_data_statistics = {
 		id = 59944,
 		icon = "Props/nianhezhuang",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				307051,
+				1
+			},
+			{
+				2,
+				59951,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59945] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得鹤及其年贺状",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "鹤礼包",
+		name = "年贺状（鹤）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -104358,16 +104655,27 @@ pg.item_data_statistics = {
 		id = 59945,
 		icon = "Props/nianhezhuang",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				307061,
+				1
+			},
+			{
+				2,
+				59952,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59946] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得蒙彼利埃及其年贺状",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "蒙彼利埃礼包",
+		name = "年贺状（蒙彼利埃）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -104376,16 +104684,27 @@ pg.item_data_statistics = {
 		id = 59946,
 		icon = "Props/nianhezhuang",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				102141,
+				1
+			},
+			{
+				2,
+				59953,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[59947] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得胡德及其年贺状",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "胡德礼包",
+		name = "年贺状（胡德）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -104394,7 +104713,18 @@ pg.item_data_statistics = {
 		id = 59947,
 		icon = "Props/nianhezhuang",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				204031,
+				1
+			},
+			{
+				2,
+				59954,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
@@ -105039,11 +105369,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[60039] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得犬及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "天狼星礼包（新）",
+		name = "三周年邀请函（犬）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -105052,16 +105382,27 @@ pg.item_data_statistics = {
 		id = 60039,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				303121,
+				1
+			},
+			{
+				2,
+				60056,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[60040] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得贝尔法斯特及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "贝尔法斯特礼包（新）",
+		name = "三周年邀请函（贝尔法斯特）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -105070,16 +105411,27 @@ pg.item_data_statistics = {
 		id = 60040,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				202121,
+				1
+			},
+			{
+				2,
+				60049,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[60041] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得光辉及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "胜利礼包（新）",
+		name = "三周年邀请函（光辉）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -105088,16 +105440,27 @@ pg.item_data_statistics = {
 		id = 60041,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				207031,
+				1
+			},
+			{
+				2,
+				60050,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[60042] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得胡德及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "厌战礼包（新）",
+		name = "三周年邀请函（胡德）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -105106,16 +105469,27 @@ pg.item_data_statistics = {
 		id = 60042,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				204031,
+				1
+			},
+			{
+				2,
+				60051,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[60043] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得企业及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "胡德礼包（新）",
+		name = "三周年邀请函（企业）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -105124,16 +105498,27 @@ pg.item_data_statistics = {
 		id = 60043,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				107061,
+				1
+			},
+			{
+				2,
+				60052,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[60044] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得胜利及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "企业礼包（新）",
+		name = "三周年邀请函（胜利）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -105142,16 +105527,27 @@ pg.item_data_statistics = {
 		id = 60044,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				207041,
+				1
+			},
+			{
+				2,
+				60053,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[60045] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得天狼星及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "光辉礼包（新）",
+		name = "三周年邀请函（天狼星）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -105160,16 +105556,27 @@ pg.item_data_statistics = {
 		id = 60045,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				202201,
+				1
+			},
+			{
+				2,
+				60054,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[60046] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得威尔士亲王及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "威尔士亲王礼包（新）",
+		name = "三周年邀请函（威尔士亲王）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -105178,16 +105585,27 @@ pg.item_data_statistics = {
 		id = 60046,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				205061,
+				1
+			},
+			{
+				2,
+				60055,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
 	[60047] = {
-		display = "可以获得舰船和回礼",
+		display = "可以获得厌战及其回礼",
 		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
-		name = "犬礼包（新）",
+		name = "三周年邀请函（厌战）",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -105196,7 +105614,18 @@ pg.item_data_statistics = {
 		id = 60047,
 		icon = "Props/yaoqinghan",
 		replace_item = 0,
-		display_icon = {},
+		display_icon = {
+			{
+				4,
+				205021,
+				1
+			},
+			{
+				2,
+				60056,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
