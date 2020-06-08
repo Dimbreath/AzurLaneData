@@ -24,6 +24,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Second　Anniversary！</color>\n　二周年記念イベントで開放可能",
 		scene = {}
 	},
+	[103] = {
+		name = "1000日の記念",
+		time_second = 0,
+		id = 103,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>次の1000日もよろしくピョ！</color>\n　アズールレーン配信1000日記念チャットフレーム",
+		scene = {}
+	},
 	[201] = {
 		name = "チャレンジャー",
 		time_second = 0,
@@ -164,6 +172,7 @@ pg.item_data_frame = {
 		0,
 		101,
 		102,
+		103,
 		201,
 		202,
 		203,
