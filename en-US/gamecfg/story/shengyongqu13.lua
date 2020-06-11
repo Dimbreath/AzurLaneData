@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "航空战准备，舰载机队正在前往目标上空……嗯？",
+			say = "Miss Richelieu, what would you like to do? Should we attack...?",
 			bgm = "level-french2",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "黎塞留，阿尔及利亚一个人脱离了维希舰队，正在向我们的方向高速驶来。难道是来做战前谈判的…？",
+			say = "Oh my... Miss Algérie has left the formation and is approaching us alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "终于要来了么……很好。",
+			say = "Hmm... Finally something to be relieved about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "全员停火，不要攻击阿尔及利亚！我去和她谈谈。",
+			say = "Everyone, stand down. I'll go talk to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "好久不见，黎塞留卿。没想到自从上次分别之后，我们会在这种场景下重逢啊。",
+			say = "It's been a while since we've last spoken, Cardinal.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，真是好久不见了，阿尔及利亚。上次见面的时候------",
+			say = "Indeed, it's been too long, Algérie. I believe the last time was...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "阳光、青草、鲜花、和甜点。大家上一次像这样聚在一起还是在教廷花园的茶会中呢。",
+			say = "A sunny day in the garden, surrounded by flowers and sweets. Something like that, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			expression = 3,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊，那次应该是大家在一起的最后一次茶会了。",
+			say = "Yes, that brings back fond memories.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "记得那时候倔强拉着鲁莽说要给大家表演魔法，结果准备好的“魔法用具”被沃克兰偷偷换掉了…",
+			say = "One of Le Téméraire's and L'Opiniâtre's \"magic\" tricks went astray and almost caused a gunpowder explosion...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "结果甜点没弄出来，反而弄出了一串五颜六色的爆炸。最后还是靠敦刻尔克赶来救火，带了一批新的甜点过来。",
+			say = "Dunkerque came in just the knick of time and even brought some fresh confections with her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			expression = 3,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "敦刻尔克……",
+			say = "Dunkerque...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "黎塞留卿不怀念那个味道么？甜甜的、软软的、仿佛将“甜美”这个词具象化一样的敦刻尔克的甜点。如果没有它们的话，茶会都会失去一层光彩呢。",
+			say = "I wonder if you still remember the taste. Sweet and fluffy, soft and gentle... almost unimaginable when you think about what she's like on the battlefield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "还有斯特拉斯堡、普罗旺斯、布列塔尼，让·巴尔…多亏了你的皇家盟友，这种时光已经不会再有了。",
+			say = "And then there's Strasbourg, Provence, Bretagne, and Jean Bart...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "她们现在，都怎么样了……",
+			say = "I wonder... how they're doing now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			expression = 3,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "敦刻尔克因为伤势过重一直停留在凯比尔港。至于让·巴尔她们…呵呵，已经连“遗骸”都被铁血夺走了。",
+			say = "Yes, as you already know, they didn't sink... They were rescued and are now under the care of the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "如果你以后想去缅怀她们，只能跑去铁血的教堂了吧。前提是在铁血还能有代表信仰的教堂留存下来的话。",
+			say = "Unlike the Royal Navy, the Iron Blood will not betray us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			expression = 3,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………………",
+			say = "......……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			expression = 4,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听我说，阿尔及利亚，侵占了我们家园的铁血才是真正的敌人，我们没有像这样相互争斗的必要。",
+			say = "The true enemies of the Iris Orthodoxy are those who invaded our homeland – the Iron Blood. There is no reason for blood to be spilled between us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的利刃应该用来保护同伴和祖国，而不是像现在这样指向彼此。",
+			say = "We should live to honor the Lord and protect the Iris Orthodoxy, not to wage war against each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "带领舰队加入我们吧，加入自由鸢尾。让我们为了祖国的同伴、未来与希望而战！",
+			say = "Please, Algérie. Come back to us, and let us work together to restore hope to our country.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "加入自由鸢尾，然后和那边的皇家舰队“和睦相处”么？真是个好建议，希望让凯比尔港，让卡萨布兰卡港的同伴们也听听。",
+			say = "And what of those who already betrayed us? Would you still cooperate with them despite that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,23 +372,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "至于“相互争斗的必要”……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 903020,
-			side = 2,
-			expression = 1,
-			dir = 1,
-			nameColor = "#ffff4d",
-			say = "黎塞留，从你在危机时刻选择抛弃祖国而不是患难与共，从你在皇家背叛之后选择与她们继续狼狈为奸的时候。",
+			say = "It's certainly true that Iris Libre and the Vichya Dominion should work together rather than fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +388,23 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我们会有现在像这样相互斗争的一天，就已经是定局了。",
+			say = "By allying yourselves with the Royal Navy, you are the ones who betrayed the Iris Orthodoxy. But I'm sure the others will understand how you feel.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 903020,
+			side = 2,
+			expression = 1,
+			dir = 1,
+			nameColor = "#ffff4d",
+			say = "How about you join us instead? If you really feel sorry about what happened to Dunkerque, it's not too late to atone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我对于皇家做过的事无可辩驳，也不打算辩驳。这是我们痛苦、但是必须经历的试炼。",
+			say = "I will not make excuses. What happened to Dunkerque is my responsibility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "你应该十分清楚，如果碧蓝航线真的靠得住，鸢尾教国当初就不会失守…要想守护教廷，从来就只能依靠我们自己。",
+			say = "Sure, but that's not all I'm here to talk to you about. The Azur Lane is not the same as it was during the previous Great War.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "投降吧，黎塞留卿。鸢尾教国也好，维希教廷也好，不论名称如何变化，你应该效忠的祖国一直都在那里。",
+			say = "Even if the Iron Blood is far from just, they are rational and do not betray their allies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "现在回归维希教廷，我可以用圣教骑士的名义发誓，教廷一定会对你既往不咎的。",
+			say = "...Even if we can't convince anyone else, that'd be fine. I swear in the name of the Templar Knights that the Iron Blood shall not lay a finger on you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "枢机主教不应该站在教廷的对立面，你应该来领导我们，重新恢复昔日荣耀的鸢尾教国啊！",
+			say = "We are in need of your guidance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…现在的维希教廷，只是铁血打着祖国的幌子收买人心，控制同胞的工具。我是不会效忠这样的教廷的。",
+			say = "Those who devote themselves to the restoration of the Iris Orthodoxy should not obey that which has become an agent of the Iron Blood invaders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只有在赶走铁血、推翻维希教廷，建立了正确的秩序之后，我们才能有恢复鸢尾教国昔日荣耀的可能性。",
+			say = "Only by expelling the influence of the Iron Blood, purifying the tainted throne of the puppet state, and restoring the independence of the Iris Orthodoxy can everyone become whole once again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			expression = 4,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "为此，我才成立了自由鸢尾。只有一个彻底摆脱铁血控制的鸢尾，才能真正团结到我们的力量。",
+			say = "After all, this is the will of the Iris Orthodoxy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而只有我们团结一切可以团结的力量，才能真正实现我们的目标。",
+			say = "For that purpose, we are willing to work with the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			expression = 3,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……看来交涉决裂了呢。果然，我们之间的破碎的东西已经不是依靠简单的言语就能够弥合的了。",
+			say = "...Heh. It seems like we're traveling down two parallel lines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………我是不会放弃的。",
+			say = "...So it seems. But, that won't deter me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我也不会放弃哦。不过看起来，首先我们要在战场上见了呢。",
+			say = "My intent is the same. I have no desire to fight you, but sometimes the world doesn't work out the way you want it to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "祝你武运昌隆，黎塞留卿。",
+			say = "In that case, Cardinal, best of luck to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "「骑士」留下这句话后，转过身去，面向维希教廷舰队的方向，头也不回的离开了。",
+			say = "The knight of the Vichya Dominion gave her blessings before turning around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "「主教」望着「骑士」远去的身影，轻轻叹了口气，也向着联合舰队的方向驶去了。",
+			say = "The cardinal watched her leave in silence before also turning around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			expression = 3,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……敦刻尔克的甜点，真的再想吃一次啊。",
+			say = "I hope that one day, we'll be able to have another tea party...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

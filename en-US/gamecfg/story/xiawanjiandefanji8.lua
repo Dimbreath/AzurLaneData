@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰-------------！",
+			say = "――KABOOM!",
 			flashN = {
 				color = {
 					1,
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "皇家的增援来了么…！",
+			say = "ロイヤルの増援……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不对，好像是我们的增援，是Z2！",
+			say = "違うよ！あれは…うちのティーレちゃん！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "什、什么？！",
+			say = "そんな！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "绝对不能抛弃同伴独自撤退，虽然我很想说着这么帅气的话登场。",
+			say = "仲間を決して見捨てない。ええ、そういう格好いいセリフも言ってみたかったのですが",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "可是实际上，已经没有任何一条能够让我们撤出峡湾的航道了呢…",
+			say = "これは残念ながら、ええ、ほかに通れる道がなかったから合流した――それだけです",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "果然是这种结果么……",
+			say = "そ、そっちですか……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201320,
-			say = "一、二、三……爱斯基摩人陷入大危机…",
+			say = "向こうの数のほうが上！こりゃ一人では流石にきついね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "得赶快联系厌战才行！",
+			say = "（ウォースパイト様に連絡っと）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "忙完了么？我是Z2，对面的皇家驱逐舰，你是谁？",
+			say = "味方への連絡は済みましたか。ロイヤルの駆逐艦――えっと、名前は…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201320,
-			say = "皇家部族级驱逐舰爱斯基摩人！",
+			say = "トライバル級のエスキモーとはわたしのことであーる！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "很响亮的回答。你不害怕么？",
+			say = "威勢がいいですね。逃げないのですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "区…区几艘铁血驱逐舰而已，我完全不害怕哦！",
+			say = "たかが弾薬尽きかけの駆逐艦数隻、わたし一人でも十分さ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201320,
-			say = "（得在厌战赶来之前拖住她们…！）",
+			say = "（なんて無理に決まってるよね！ここはウォースパイト様が来るまで時間を稼いで――）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嗯…多少也算是战果。在你们的增援赶来之前，稍微陪我一下吧。",
+			say = "時間を稼がれる前に、ええ、押し通るしかありませんね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

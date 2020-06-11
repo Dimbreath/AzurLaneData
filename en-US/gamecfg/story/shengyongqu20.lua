@@ -13,7 +13,7 @@ return {
 			blackBg = true,
 			bgm = "bgm-cccp2",
 			nameColor = "#ff5c5c",
-			say = "哎？！！阿尔及利亚…这个新计划太奇怪啦。对面人那么多，靠我一个肯定打不赢啦。",
+			say = "Algérie, um... I don't think I can deal with their entire vanguard by myself...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -54,7 +54,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "没事，黎塞留一定会要求贞德她们优先瞄准动力系统进行攻击，你只需要将重点放在回避上就可以了。",
+			say = "I know, you've been given an impossible task. However, focus on evading, and take aim at the Royal Navy ships if you get an opportunity to fire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			blackBg = true,
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			say = "但就算这样……就靠我一个人也没法击退她们那么多人哎。",
+			say = "I can do that, but... what if they don't stand down...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			blackBg = true,
 			actor = 903020,
 			nameColor = "#ff5c5c",
-			say = "不需要真的击退她们。你紧盯着她们的反潜设备进行攻击，破坏完成之后立刻撤退就好。",
+			say = "I'll back you up at that point. Ah, please keep an eye on the submarines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			blackBg = true,
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			say = "反潜设备？可是我们没有潜艇部署在这里啊…",
+			say = "Submarines? Did we have any submarines stationed around here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "这个不用担心，在这片海域里进行协同作战的，可不只是她们而已哦。",
+			say = "Well, who knows? In any case, just keep your eyes peeled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "我不是很明白呢……不过既然是阿尔及利亚的作战计划的话，我会认真执行的，包在我身上吧！",
+			say = "Got it! Your strategies have never failed, so just leave this to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰------！",
+			say = "KABOOM!",
 			effects = {
 				{
 					active = false,
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			say = "虽然是这么说的…可是现在和说好的不一样啊，阿尔及利亚！她们开始瞄准我的火力系统打了！",
+			say = "(I said I'd focus on dodging, but they're coming after me a lot harder all of a sudden!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			expression = 5,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "是因为我集中攻击皇家的命运女神而认真起来了么…",
+			say = "(They seem to have figured out that I was only aiming for the Royal Navy ships... but since they're allies, of course they couldn't just let that slide...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			say = "唔唔…总之任务姑且完成，继续打下去就真的不妙了。好，准备撤退咯~！",
+			say = "(In any case, Algérie said she'd be following up any moment now, so I'll have to find the right timing to make a retreat!)",
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 801040,
 			nameColor = "#a9f548",
-			say = "这次见识到真正魔法的威力了吧，沃克兰！",
+			say = "Taste my true sorcery! I mean, uh, fiiire!",
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -318,7 +318,7 @@ return {
 			expression = 3,
 			dir = -1,
 			nameColor = "#ff5c5c",
-			say = "倔强，上次的事是我不对，我已经诚心诚意反省了，别打啦！",
+			say = "(Woah?! Did Opie close the gap on me while I was thinking about Algérie's strategy...?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			expression = 4,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！这次是真心反省了么？",
+			say = "Daydreaming at a time like this? Vauquelin, did Tartu rub off on you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			expression = 9,
 			dir = -1,
 			nameColor = "#ff5c5c",
-			say = "真心反省，真心反省啦。作为赔礼，请你吃我珍藏的布丁可以么！",
+			say = "Don't be worrying about me! Anyway, it's about time for me... to make my exit! Whoosh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			expression = 10,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔………听起来还不错-----哎？！",
+			say = "Vauquelin! ...What's this...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "维希舰队开始拉出大量烟幕，看来是要撤退了……",
+			say = "It's a smokescreen! She's trying to run away?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			dir = -1,
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			say = "呼呼呼~布丁的事你先记好，以后有机会再请你咯！拜拜~~！",
+			say = "Of course I am! There's no way for me to win!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等、等等？！别跑啊！",
+			say = "Wait! Vauquelin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "算了，黎塞留说过驱散维希舰队的骚扰即可，不要深入追击，让她撤吧。",
+			say = "L'Opiniâtre! Remember what Richelieu said about not overextending ourselves? Get back in formation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			expression = 8,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "结果沃克兰到底是来干嘛的啦…特意来试探我们的火力么？",
+			say = "What did Vauquelin come here for then...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也许吧。不过黎塞留她们还在稳步推进，这次进攻对我们的计划没有任何影响-----",
+			say = "I don't know. Richelieu and the others should already be at the Basilica, and none of us seem to be injured... Wait, no...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那、那个……！",
+			say = "Ah, um...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			expression = 8,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么了，命运女神，伤到什么严重的地方了么？！",
+			say = "What's wrong, Fortune? Does it hurt?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是的…那个、谢谢大家…………",
+			say = "I... I'm fine... Thanks for your concern... and sorry for making you worry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			expression = 4,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？怎么了，命运女神。怎么突然说这个？",
+			say = "What's wrong? Why did you start crying?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那、那个……之前胡德姐姐她们，对你们在维希的同伴…做了很过分的事吧……",
+			say = "Um, well, Hood and the others... did a terrible thing to those Vichya girls... right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然你们一直都说能理解…不在意……可、可是我能感觉出来哦！我们之间的命运已经出现了裂痕…",
+			say = "It pains me to say this, but as a member of the Royal Navy, um...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但、但是！你们还是选择保护了我……为了我而对曾经的同伴猛烈还击……",
+			say = "Despite all that, you still fought alongside us, and protected us... even against your former companions...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我知道哦…就算我现在道歉，也改变不了什么……",
+			say = "I know that... even if I apologize now, I won't be able to change what has already been done...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是…还是对不起！……发生了那些事情，真的对不起…！",
+			say = "But, I'm so sorry... for everything that's happened...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抬起头来，命运女神，你不需要为此道歉。所谓的命运是变化无常的…也许这就是我们的命运吧。",
+			say = "Yes, we're aware of all of that. But Richelieu still decided to work with the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是……",
+			say = "...B-but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "敦刻尔克她们做出了自己的选择，并为之奋战至最后一刻。我们也作出了我们的选择，并也将为之奋战至最后一刻。",
+			say = "It is true that what happened to Dunkerque indeed was the responsibility of the Royal Navy, and Richelieu does bear a portion of that burden. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只有将祖国从侵略者手中解放出来，才能斩断悲剧发生的源头。",
+			say = "We shall not be stopped here if we are to reclaim our homeland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "为此我们才成立了自由鸢尾，为此我们才选择与依然心存光正义的盟友们站在一起。",
+			say = "The Iris Orthodoxy should be made whole again. There is no future ahead of us in the hands of the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以挺起胸膛来，让我们并肩战斗吧，命运女神。",
+			say = "...That's why, right now, we stand together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………谢谢……嗯，我明白了！",
+			say = "Jeanne... Thank you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就好~好啦，现在维希舰队撤退，我们也该回去找黎塞留她们了。大家调整队形，准备出发。",
+			say = "Since the Vichya fleet is retreating, Richelieu and the others should be getting back to us soon... Wait, what...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

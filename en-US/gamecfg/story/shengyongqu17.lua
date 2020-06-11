@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "维希教廷圣堂·近海",
+			say = "The Basilica Isle - Near vicinity",
 			side = 2,
 			dir = 1,
 			bgm = "hunhe-level",
@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "无视了维希舰队的诱导企图，联合舰队如同射向心脏的利箭一般径直向圣堂的方向行驶着。",
+			say = "The combined Iris-Royal fleet ignored the maneuvers of the Vichya ships and headed straight towards the Basilica.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "虽然不可避免的因为各处防御设施而被拖延了速度。不过最终，联合舰队还是抵达了圣堂所在的近海。",
+			say = "Despite being hindered by the various coastal defenses, they soon successfully reached the Basilica.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前方的应该是守护圣堂外围的小型要塞群，我们终于要进入圣堂本身的防御体系内了。",
+			say = "There are a lot of smaller defensive structures concentrated here. It seems that they tried to turn this Basilica into a fortress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			say = "居……居然刚刚的那些还不算圣堂本身的防御设施么（倒）",
+			say = "All that bombardment from earlier wasn't even their trump card...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 807010,
-			say = "阿尔及利亚她们还是没有任何行动，也没有看到任何接近的维希舰队。因为计划被我们识破了在商量对策么？",
+			say = "No, but they did place their defenses at all the crucial locations up until now, making their firepower extremely efficient. However, there's still no sign of their surface fleet... ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801030,
-			say = "唔……只要我们拿下了圣堂，她们就没有和我们战斗的必要了。",
+			say = "If we can just capture the Basilica, it wouldn't make sense to be fighting out there, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801030,
-			say = "果然阿尔及利亚姐姐还是不想和我们认真打，所以故意放我们来占领圣堂吧。",
+			say = "I guess Miss Algérie really didn't want to fight us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 802020,
-			say = "这恐怕是不可能的。阿尔及利亚也是教廷骑士，我们有多坚定她们就有多固执。",
+			say = "I also want to believe that, but Algérie is a knight of the Vichya Dominion. She wouldn't kneel before us so easily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然选择效忠维希教廷，她们是绝对不会这么轻易的放弃。",
+			say = "Although the Iron Blood should not be able to enter these waters, we cannot rule out the possibility of their intervention either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道说让我们这样直接靠近圣堂就是她们的目的么？可是为什么呢……",
+			say = "But I'm still wondering, why would they allow us to approach like this? If they were trying to spread our forces thin, there had to be a better way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "黎塞留，如果我们就这样继续接近圣堂的话，会发生什么不妙的事么？",
+			say = "...I have a bad feeling about this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "圣堂的防御体系十分完备，本身就拥有不错的战斗能力，如果试图依靠圣堂防御进行决战也不是不可能。",
+			say = "...I agree. What if they're trying to lure us in range of the Basilica's defenses before turning their fleet around to surround us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "不过就算这样，现在也该看到迎击舰队了才对……",
+			say = "However, if we were to fight here, that would pose the risk of stray shots damaging the Basilica.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "应该是我们多虑了。黎塞留，前方发现维希教廷的小股舰队，正在沃克兰的带领下向我们驶来。",
+			say = "Miss Richelieu, the Vichya Fleet...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 807010,
-			say = "果然还是坐不住了，打算依靠圣堂防御进行最后的抵抗么？",
+			say = "So they've shown themselves at last. As Richelieu said, there's no way they'd let us capture the Basilica for free.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "沃克兰带队？那应该还是骚扰舰队，游击舰队前往迎击，击退对方的骚扰即可，不要深入追击。",
+			say = "Vauquelin is leading a fleet of mass-produced ships. Vanguard fleet, please intercept them, but don't chase too far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "主力舰队和航空舰队航线不变，继续向目标前进。早一分钟拿下圣堂，就能早一分钟结束这场无意义的战斗。",
+			say = "The main fleet will continue to press forward. If we reach the Basilica, this pointless battle will end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赞同。命运女神，你依然跟随游击舰队前往迎击，之后的战斗就直接听从贞德的指挥吧。",
+			say = "Fortune, I'm well-protected here. You can fight with Iris Libre's fleet if you'd like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明、明白！命运女神会加油的！",
+			say = "U-understood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 802020,
-			say = "那么，黎塞留，光辉，我们出发了。",
+			say = "Richelieu, Illustrious, see you later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "注意，小心来自圣堂……没什么。注意安全。",
+			say = "Indeed. Please be careful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

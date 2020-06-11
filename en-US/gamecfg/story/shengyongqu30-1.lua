@@ -9,9 +9,10 @@ return {
 			expression = 4,
 			side = 2,
 			dir = 1,
+			bgm = "bsm-3",
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "什么？！再说一遍，你是谁…？！",
+			say = "Fourth battleship... of the Richelieu class...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +33,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 999010,
-			say = "回答提问，维希教廷所属，黎塞留级战列舰四号舰，加斯科涅。",
+			say = "Gascogne of the Vichya Dominion, fourth battleship of the Richelieu class, and nameship of the Gascogne class.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +49,7 @@ return {
 			dir = 1,
 			actor = 807010,
 			nameColor = "#a9f548",
-			say = "黎、黎塞留级四号舰……是…什么…………？！",
+			say = "This is the first time I've ever heard of the Richelieu class having... a fourth ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +75,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "加斯科涅计划………怎么可能，你们是怎么做到的………？",
+			say = "A ship that should never have existed... why is she here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +91,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "关于这一点，也许你们的皇家和白鹰盟友给你想要的答案吧…她们不是也正在做类似的事么？",
+			say = "Isn't that perfectly normal? The Royal Navy and the Eagle Union both have ships like that... then there's even Sovetskaya Rossiya from the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +106,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			side = 2,
-			say = "……哎哎？！",
+			say = "...Eh, really?",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -126,7 +127,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "黎塞留，碧蓝航线就是这样的一个组织哦。",
+			say = "In that regard, the Azur Lane is no different from the Crimson Axis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +143,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "沃克兰，拉.加利索尼埃，按照命令撤退吧。",
+			say = "Vauquelin, La Galissonnière, with me. Sorry, but we'll be taking our leave now. The thing with Gascogne is... she's bad at lying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +159,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +175,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 901030,
-			say = "哎？！这、这是怎么回事，那个加斯科涅居然会掩护我们的撤退……又是好突然的展开！",
+			say = "Reinforcements at the last second to bail us out? ...Yeah right, like that'd happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +191,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 902010,
-			say = "切，既然收到了撤退命令就没办法了。抱歉了黎塞留，看来我们现在还不能过去你们那边，有缘再见吧~",
+			say = "Well, guess that's that then~ Since the Vichya is still keeping an eye on us, we'd better save the chatter for next time. Let's have lots of fun again next time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +207,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "等、等等！",
+			say = "Wait, come back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +231,7 @@ return {
 			side = 2,
 			soundeffect = "event:/battle/boom2",
 			dir = 1,
-			say = "轰------！",
+			say = "BOOOM!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +284,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 999010,
-			say = "警告，请勿试图阻止阿尔及利亚、拉.加利索尼埃与沃克兰的撤退任务。",
+			say = "Attempts to interfere with retreat protocol will be deemed an act of aggression. Warning: Activating anti-surface combat modules.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +300,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "航空舰队由贞德护航，留下和我一起与加斯科涅战斗。游击舰队由倔强指挥追击阿尔及利亚，一定要把她们拦回来！",
+			say = "Le Téméraire, L'Opiniâtre, Fortune, I'm counting on you! Please chase after Algérie!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,8 +316,8 @@ return {
 			dir = 1,
 			actor = 801030,
 			hideOther = true,
-			actorName = "鲁莽&倔强&命运女神",
-			say = "是！",
+			actorName = "Le Téméraire & L'Opiniâtre & Fortune",
+			say = "Yes ma'am!",
 			subActors = {
 				{
 					actor = 801040,
@@ -355,7 +356,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……那个，黎塞留！",
+			say = "Miss Richelieu, I'll go with them as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +371,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我能理解，这种计划不是你能随便透露的事。战斗结束之后我会去直接问伊丽莎白，现在先把注意力集中在作战上！",
+			say = "Illustrious, I need you to help me stop Gascogne!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +386,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "感谢理解…航空舰队跟我出发，立刻拉开战斗距离！",
+			say = "Of course! I'll scramble my squadrons right away!",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -402,7 +403,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 999010,
-			say = "维希教廷所属，加斯科涅，进入战斗模式。",
+			say = "Gascogne, commencing anti-surface combat operations...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

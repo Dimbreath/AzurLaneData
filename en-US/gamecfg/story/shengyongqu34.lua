@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "陆间海·马耳他岛",
+			say = "Mediterranean Sea - Malta",
 			side = 2,
 			bgName = "bg_italy_cg6",
 			dir = 1,
@@ -36,7 +36,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阴天，枯草，机油和军舰，还有……飞机的轰鸣声。",
+			say = "Withered grass beneath the cloudy skies... the smell of gasoline... the sound of propellers and engines...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			actor = 900237,
 			nameColor = "#a9f548",
-			say = "至少皇家的茶泡的还不错，前线战场没办法奢求太多么…",
+			say = "What an awful place for a tea party... But, what else is one to do in front of the Royal Navy's forward base?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_italy_cg6",
 			dir = 1,
 			actorName = "？？？",
-			say = "可怖、居然是可怖、可怖真的是你么！",
+			say = "Sister? Le Terrible, is that you over there?",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是我是我…好慢啊，凯旋。明明听说你在这里执行任务我才特意过来的。",
+			say = "Sure is. Oh my, if it isn't my cute and elegant little sister. How have you been?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然真的是…可怖！听说你在凯比尔港护送斯特拉斯堡逃走之后就音讯全无了…",
+			say = "How long has it been? I haven't seen you since Mers-el-Kébir...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有返回维希教廷控制的土伦，也没有加入我们自由鸢尾…这段时间你都跑到哪里去了啊！",
+			say = "Wait, did you come here instead of heading to Toulon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			actor = 900237,
 			nameColor = "#a9f548",
-			say = "沉淀一下心情，整理一下思绪，顺便做了一些调查？",
+			say = "Yup. Had to do some soul-searching after all, as well as some research.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			actor = 900237,
 			nameColor = "#a9f548",
-			say = "唉…虽然来之前做好了充分的心理准备…看到你们心平气和的和皇家并肩作战还是感觉微妙的火大…",
+			say = "But you know... I still have some reservations about fighting with the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的情况怎么说呢…毕竟已经发生过那些事，如果说内心毫无波动是不可能的。不过黎塞留说----",
+			say = "You're as honest as ever... It's true that given what happened to Dunkerque, everyone is still a bit on edge... especially Richelieu...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，停一下。黎塞留的演讲我已经在广播里听过无数遍了，我可是特意挑趁她不在的时候来的哦。",
+			say = "It'll be fine, my wise sister. You don't have to say anything that this fool hasn't already heard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……………",
+			say = "Le Terrible...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			actor = 900237,
 			nameColor = "#a9f548",
-			say = "也别这么消沉啦…听我说，凯比尔港的事没有你们想象中那么单纯。",
+			say = "Algérie asked me to tell Richelieu about Jean Bart's recovery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			actor = 900237,
 			nameColor = "#a9f548",
-			say = "黎塞留既然已经出发前往莫桑比克海峡的圣堂，应该或多或少意识到铁血在背后的行动了。",
+			say = "Has she left the Vichya Dominion yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不知道应该说是好消息还是坏消息…",
+			say = "It's all a bit rushed, but if the elder sister isn't allowed to make her move, the younger one won't take the next step either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎…？你在说些什么，你在消失的这段时间里调查到什么事了么？",
+			say = "Huh? What do you mean by that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要心急，有些事在黎塞留回来之后再说比较好。",
+			say = "Well, tell you what. Let's wait until Richelieu comes back before we talk about work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			actor = 900237,
 			nameColor = "#a9f548",
-			say = "对于现在的我来说，最优先要说的话应该是…",
+			say = "More importantly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 900237,
 			nameColor = "#a9f548",
-			say = "凯旋，好久不见，我回来了。",
+			say = "I'm back, Le Triomphant, my lovely little sister~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			actor = 801010,
 			nameColor = "#a9f548",
-			say = "………？！",
+			say = "Wait... Le Terrible...",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			actor = 900237,
 			nameColor = "#a9f548",
-			say = "你那副想哭的表情算什么啦…好歹你也是独当一面的教廷骑士，来坐下来来喝杯茶冷静一下吧。",
+			say = "Ohh? Should the Knight-Princess of Iris Libre really be crying so readily? Here, have some tea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			blackBg = true,
 			actor = 900237,
 			nameColor = "#a9f548",
-			say = "茶好烫…",
+			say = "Ah, this tea's a bit too hot, isn't it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

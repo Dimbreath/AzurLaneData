@@ -2592,6 +2592,94 @@ pg.skill_data_display = {
 		id = 13230,
 		name = "Arbiter of Z "
 	},
+	[13240] = {
+		id = 13240,
+		name = "The Iris's Flagbearer "
+	},
+	[13250] = {
+		id = 13250,
+		name = "The Iris's Holy Flame "
+	},
+	[13251] = {
+		id = 13251,
+		name = "The Iris's Holy Flame "
+	},
+	[13256] = {
+		id = 13256,
+		name = "The Iris's Holy Flame "
+	},
+	[13260] = {
+		id = 13260,
+		name = "The Iris's Vindication "
+	},
+	[13270] = {
+		id = 13270,
+		name = "Bellowing Gusts of Fire "
+	},
+	[13271] = {
+		id = 13271,
+		name = "Bellowing Gusts of Fire "
+	},
+	[13280] = {
+		id = 13280,
+		name = "Divine Aegis "
+	},
+	[13281] = {
+		id = 13281,
+		name = "Divine Aegis "
+	},
+	[13290] = {
+		id = 13290,
+		name = "La Pucelle"
+	},
+	[13300] = {
+		id = 13300,
+		name = "Holy Prayer "
+	},
+	[13301] = {
+		id = 13301,
+		name = "Holy Prayer "
+	},
+	[13310] = {
+		id = 13310,
+		name = "Critical Component Protection "
+	},
+	[13311] = {
+		id = 13311,
+		name = "Critical Component Protection "
+	},
+	[13320] = {
+		id = 13320,
+		name = "Shells of Judgment "
+	},
+	[13321] = {
+		id = 13321,
+		name = "Shells of Judgment "
+	},
+	[13330] = {
+		id = 13330,
+		name = "Sonnez la Charge! "
+	},
+	[13340] = {
+		id = 13340,
+		name = "Sacrament: Holy Bombardment "
+	},
+	[13341] = {
+		id = 13341,
+		name = "Sacrament: Holy Bombardment "
+	},
+	[13342] = {
+		id = 13342,
+		name = "Sacrament: Holy Bombardment "
+	},
+	[13350] = {
+		id = 13350,
+		name = "Sacrament: Sacred Second Wing "
+	},
+	[13351] = {
+		id = 13351,
+		name = "Sacrament: Sacred Second Wing "
+	},
 	[13360] = {
 		id = 13360,
 		name = "Take Off! "
@@ -3580,6 +3668,22 @@ pg.skill_data_display = {
 		id = 28112,
 		name = "All Out Assault Ⅱ"
 	},
+	[28121] = {
+		id = 28121,
+		name = "All Out Assault Ⅰ"
+	},
+	[28122] = {
+		id = 28122,
+		name = "All Out Assault Ⅱ"
+	},
+	[28211] = {
+		id = 28211,
+		name = "All Out Assault Ⅰ"
+	},
+	[28212] = {
+		id = 28212,
+		name = "All Out Assault Ⅱ"
+	},
 	[29011] = {
 		id = 29011,
 		name = "EX Barrage: England Ⅰ"
@@ -3991,6 +4095,14 @@ pg.skill_data_display = {
 	[29533] = {
 		id = 29533,
 		name = "Reno Barrage Ⅱ"
+	},
+	[29541] = {
+		id = 29541,
+		name = "All Out Assault Ⅰ"
+	},
+	[29542] = {
+		id = 29542,
+		name = "All Out Assault Ⅱ"
 	},
 	[101010] = {
 		id = 101010,
@@ -4905,6 +5017,28 @@ pg.skill_data_display = {
 		13210,
 		13220,
 		13230,
+		13240,
+		13250,
+		13251,
+		13256,
+		13260,
+		13270,
+		13271,
+		13280,
+		13281,
+		13290,
+		13300,
+		13301,
+		13310,
+		13311,
+		13320,
+		13321,
+		13330,
+		13340,
+		13341,
+		13342,
+		13350,
+		13351,
 		13360,
 		13361,
 		13370,
@@ -5152,6 +5286,10 @@ pg.skill_data_display = {
 		28032,
 		28111,
 		28112,
+		28121,
+		28122,
+		28211,
+		28212,
 		29011,
 		29012,
 		29021,
@@ -5255,6 +5393,8 @@ pg.skill_data_display = {
 		29523,
 		29531,
 		29533,
+		29541,
+		29542,
 		101010,
 		101020,
 		101030,

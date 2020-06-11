@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "level-french2",
-			say = "莫桑比克海峡·维希教廷控制区某处 稍早前",
+			say = "The Basilica Isle - Shortly before engagement with Richelieu's fleet",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -32,12 +32,12 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Radio Message",
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "这里是自由鸢尾枢机主教黎塞留。阿尔及利亚，听我说，我们没有相互争斗的必要------",
+			say = "\"Any further trespass upon Vichya waters shall not be permitted. Change courses immediately. Any further advance shall...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			blackBg = true,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "…………",
+			say = "How unfortunate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			blackBg = true,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "重复一遍。这里是维希圣堂舰队指挥，维希教廷圣教骑士，重型巡洋舰阿尔及利亚。",
+			say = "It'll be hard to separate their forces if they're moving so closely together. The Royal Navy must be trying their best if they're willing to hand over the command like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			blackBg = true,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "前方海域为维希教廷的军事管制区-------",
+			say = "Now, what should we do next?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,12 +99,12 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Radio Message",
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "滋---滋-----",
+			say = "*beep beep*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			blackBg = true,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "呵，果然不会这么容易乖乖掉头回去么。",
+			say = "As expected, Richelieu does not want to fight us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			blackBg = true,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "……该面对现实了，阿尔及利亚。",
+			say = "However, things rarely unfold the way we'd like them to. We need to stay vigilant as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			blackBg = true,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "不论是否你愿意接受，改变的事已经永远改变了。",
+			say = "Vauquelin and the others... should be deployed somewhere safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			blackBg = true,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "只要大家见了面，就能像从前一样亲密无间的坐在一起喝茶聊天。",
+			say = "As for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			blackBg = true,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "这种事，不过是一厢情愿罢了。大家彼此都心知肚明…",
+			say = "(Just to be safe, about the Basilica's \"secret\"...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			blackBg = true,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "……………………",
+			say = "......…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			blackBg = true,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "圣堂外围防御舰队，准备迎敌……",
+			say = "All production-type ships, forward! Intercept the enemy's fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

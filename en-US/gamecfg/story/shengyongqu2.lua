@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "这里是阿非利加大陆的离岛，因为地处偏远，战火与纷争都很少波及到这里。",
+			say = "In the seas surrounding an area near the Southern continent, untouched by the conflict with the Sirens...",
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
-			say = "森林的葱绿和风蚀的赤红是这里的标志性颜色，一提到这里，首先想到的可能是猴面包树和企鹅吧。",
+			say = "Many cultures thrived in this vast continent, distanced from the large-scale conflict between the major maritime powers and the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
-			say = "不过，正如所有事物都拥有的两面性一样，危险，往往就隐藏在平静的表象之下。",
+			say = "But these peaceful waters did not know of the dark undercurrents that would usher in the horns of battle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
-			say = "此时此刻，一支远道而来的联合舰队正穿过宁静的海峡，向着离岛的方向驶去。",
+			say = "A fleet was crossing the ocean, approaching a remote island located off the continent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_2",
 			dir = 1,
-			say = "阿非利加·莫桑比克海峡",
+			say = "Mozambique Strait",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,28 +87,12 @@ return {
 			}
 		},
 		{
-			actorName = "命运女神",
-			side = 2,
-			bgName = "bg_qiongding_2",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "大、大家注意，前方发现…一、二、三、四、五呜呜呜…很多塞壬舰队！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "圣女贞德",
+			actorName = "Fortune",
 			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们才刚刚进入海峡而已，比预计中的数量多了不少呢。",
+			say = "Th-there's a Siren fleet ahead of us...! One, two, three... no, there's even more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,12 +103,12 @@ return {
 			}
 		},
 		{
-			actorName = "圣女贞德",
+			actorName = "Jeanne d'Arc",
 			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "记得以前来这里的时候，塞壬舰队的密度应该没有这么大才对。",
+			say = "We've only just entered the strait, and they've already gathered here in such large numbers?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,12 +119,12 @@ return {
 			}
 		},
 		{
-			actorName = "黎塞留",
+			actorName = "Jeanne d'Arc",
 			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "恐怕又是铁血使用的某种手段吧。自从维希教廷接手离岛控制权之后，铁血明显也对这里热心了很多。",
+			say = "It shouldn't have been that long ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,12 +135,12 @@ return {
 			}
 		},
 		{
-			actorName = "光辉",
+			actorName = "Richelieu",
 			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "用来“贴心保护”维希盟友的塞壬舰队呢。铁血舰队不好直接行动的地方，总会“恰好”出现塞壬舰队。真是似曾相识的场景啊…",
+			say = "Since the Vichya Dominion extended their influence to this area, it's not unusual for there to be Siren interference.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,12 +151,12 @@ return {
 			}
 		},
 		{
-			actorName = "贝亚恩",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，就像凯比尔港和卡萨布兰卡的时候一样。",
+			say = "During Operation Catapult, why were the Sirens working under the Vichya Dominion...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,12 +167,12 @@ return {
 			}
 		},
 		{
-			actorName = "光辉",
+			actorName = "Béarn",
 			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊抱歉，我不是故意要提起来的…",
+			say = "Back then, Dunkerque mentioned something about being \"puppets of the Iron Blood\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,12 +183,12 @@ return {
 			}
 		},
 		{
-			actorName = "黎塞留",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用太介意了，光辉。那两次事件只是无奈下的悲剧，自由鸢尾的每个人其实都很清楚这一点。",
+			say = "Ah, my apologies, I didn't mean to open past wounds...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,12 +199,12 @@ return {
 			}
 		},
 		{
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "铁血的入侵导致了鸢尾教国分裂才是悲剧的根源，而铁血与塞壬不清不楚的关系才是似曾相识场景出现的原因。",
+			say = "Don't worry about it. Back then, it was only natural for everyone to feel distrust towards the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,12 +215,12 @@ return {
 			}
 		},
 		{
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一次，我不会再让“似曾相识”的结果重演了。",
+			say = "All these problems still stem from the fact that we were invaded by Iron Blood. Now that our homeland is divided and at war with each other, we have no choice but to face reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,12 +231,12 @@ return {
 			}
 		},
 		{
-			actorName = "光辉",
+			actorName = "Richelieu",
 			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然是这样么…你这次亲自参与作战，除了确保胜利之外，更多的还是希望可以劝维希教廷的人回心转意吧。",
+			say = "This time... We, Iris Libre, will persuade the Vichya Dominion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,12 +247,12 @@ return {
 			}
 		},
 		{
-			actorName = "黎塞留",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是当然的……",
+			say = "Miss Richelieu, I still have my reservations regarding your direct participation in this operation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,12 +263,28 @@ return {
 			}
 		},
 		{
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很多人是基于信念和誓言才暂且留在维希教廷，并不是我们真正的敌人。如果一定要与她们拼个你死我活，才是鸢尾最大的悲哀吧。",
+			say = "No, I must. I must prove if the accusations that I am a hypocrite are true or not. To my own heart, to God, and to the Vichya Dominion.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Richelieu",
+			side = 2,
+			bgName = "bg_qiongding_2",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "There is no reason for those who have inherited the former Iris Orthodoxy to be at war with one another.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_2",
 			dir = 1,
-			say = "黎塞留闭上眼睛，微微苦笑了一下。",
+			say = "Upon saying that, Richelieu briefly flashed a bitter smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,13 +309,13 @@ return {
 			}
 		},
 		{
-			actorName = "光辉",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_qiongding_2",
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "我们也衷心希望统一的鸢尾教国能快点回来，为此，包括皇家在内整个碧蓝航线都会坚定的站在你身边哦，枢机主教黎塞留。",
+			say = "Yes, just like back with the Azur Lane, when we didn't have to fight one another...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

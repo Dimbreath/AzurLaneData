@@ -511,10 +511,10 @@ pg.activity_const = {
 		act_id = 588
 	},
 	FRANCE_MIAN_PAGE = {
-		act_id = 592
+		act_id = 30427
 	},
 	FRANCE_PT_PAGE = {
-		act_id = 594
+		act_id = 30429
 	},
 	LINDONG_REMAKE_KR = {
 		act_id = 0

@@ -6868,6 +6868,17 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6550] = {
+		desc_get = "",
+		name = "！？",
+		desc = "",
+		type = 0,
+		max_level = 0,
+		id = 6550,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -32600,6 +32611,1163 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[13240] = {
+		desc_get = "",
+		name = "The Iris's Flagbearer",
+		desc = "When sortied as the Flagship: increases FP, TRP, Accuracy, and RLD by $1 for your Iris Libre and Vichya Dominion ships, and also increases DMG dealt by your Iris Libre ships by $2 and decreases DMG taken by your Vichya Dominion ships by $2.",
+		type = 3,
+		max_level = 10,
+		id = 13240,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			}
+		}
+	},
+	[13250] = {
+		desc_get = "",
+		name = "The Iris's Holy Flame",
+		desc = "When this ship fires its Main Guns: $1 chance to fire a $2 special barrage (DMG is based on the skill's level.) This barrage has a 70.0% chance to inflict a special Burn to enemies, dealing 119 DMG per tick and decreasing their FP, TRP, and AVI by 5.0% for 30s.",
+		type = 1,
+		max_level = 10,
+		id = 13250,
+		system_transform = {
+			[3.0] = 13255
+		},
+		desc_get_add = {
+			{
+				"45.0%",
+				"75.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"45.0%",
+					"+3.3%"
+				},
+				{
+					"48.3%",
+					"+3.3%"
+				},
+				{
+					"51.6%",
+					"+3.3%"
+				},
+				{
+					"54.9%",
+					"+3.3%"
+				},
+				{
+					"58.2%",
+					"+3.3%"
+				},
+				{
+					"61.5%",
+					"+3.3%"
+				},
+				{
+					"64.8%",
+					"+3.3%"
+				},
+				{
+					"68.1%",
+					"+3.3%"
+				},
+				{
+					"71.4%",
+					"+3.6%"
+				},
+				{
+					"75.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13260] = {
+		desc_get = "",
+		name = "The Iris's Vindication",
+		desc = "While this ship has an HE Main Gun equipped: increases its Main Gun DMG by $1. This ship's first Salvo of each battle will always be a Critical Hit if aimed manually.",
+		type = 1,
+		max_level = 10,
+		id = 13260,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[13270] = {
+		desc_get = "",
+		name = "Bellowing Gusts of Fire",
+		desc = "Increases this ship's DMG against Burning enemies by $1. 20s after the battle begins, and with a $3 chance whenever this ship fires its Main Guns: fires a $2 barrage that has a chance to Burn enemies (DMG is based on the skill's level.) Has a 10s cooldown if activated by the Main Guns firing.",
+		type = 1,
+		max_level = 10,
+		id = 13270,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			}
+		}
+	},
+	[13280] = {
+		desc_get = "",
+		name = "Divine Aegis",
+		desc = "At the start of the battle, and once every 30s after that: deploys a shield that lasts 20s and can block up to 5 enemy torpedoes. While this shield is up: increases this ship's FP by $1 and its DMG against DDs and BBs by $2. 5s after entering Manual Mode: increases this ship's EVA by $3 and Speed by 8. Switching to Auto Mode removes this buff.",
+		type = 2,
+		max_level = 10,
+		id = 13280,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[13290] = {
+		desc_get = "",
+		name = "La Pucelle",
+		desc = "Increases this ship's DMG against Royal Navy ships by $1. When this ship is Burned: increases its FP, TRP, AA, and EVA by $2 for as long as it is Burning. This ship will catch fire at the start of the battle, taking 8 DMG every 3s for 30s; all non-Burn DMG has a 10.0% chance to refresh this Burn duration.",
+		type = 1,
+		max_level = 10,
+		id = 13290,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[13300] = {
+		desc_get = "",
+		name = "Holy Prayer",
+		desc = "10s after the battle starts and every 20s after that: deploys shields around your Vanguard that last for 8s and can absorb up to $1 of your Jeanne d'Arc's max HP. If these shields take too much DMG and break: the ship(s) whose shield broke gets 100% Evasion Rate for 2s; if the shield's duration simply runs out: restores 70 HP to the ship(s) with intact shields.",
+		type = 2,
+		max_level = 10,
+		id = 13300,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.5%",
+				"6.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			}
+		}
+	},
+	[13310] = {
+		desc_get = "",
+		name = "Critical Component Protection",
+		desc = "Decreases this ship's DMG taken from enemy DD and CL gunfire by $1. At the start of the battle, if your Vanguard consists of only CLs and CAs: increases this ship's Speed by 4 and EVA by $1.",
+		type = 3,
+		max_level = 10,
+		id = 13310,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[13320] = {
+		desc_get = "",
+		name = "Shells of Judgment",
+		desc = "Increases this ship's FP and TRP by $1. Every $2 times this ship fires its Main Guns: fires a special barrage at the nearest enemy to this ship.",
+		type = 1,
+		max_level = 10,
+		id = 13320,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"15",
+				"5"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"15",
+					"-1"
+				},
+				{
+					"14",
+					-1
+				},
+				{
+					"13",
+					-1
+				},
+				{
+					"12",
+					-1
+				},
+				{
+					"11",
+					-1
+				},
+				{
+					"10",
+					-1
+				},
+				{
+					"9",
+					-1
+				},
+				{
+					"8",
+					-1
+				},
+				{
+					"7",
+					"-2"
+				},
+				{
+					"5"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13330] = {
+		desc_get = "",
+		name = "Sonnez la Charge!",
+		desc = "Increases the TRP and EVA of your Vauquelin-class DDs by $1 and increases this ship's FP, AA, and Accuracy by $2 for 30s after the battle starts.",
+		type = 3,
+		max_level = 10,
+		id = 13330,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[13340] = {
+		desc_get = "",
+		name = "Sacrament: Holy Bombardment",
+		desc = "When equipping a CL Gun in this ship's Auxiliary Weapon slot: increases that slot's efficiency by $1, sets the gun's Range and Detection Range to 80, and fires a special barrage every 24s; if instead equipping a Dive Bomber: shortens the loading time of this ship's first Airstrike by $2.",
+		type = 1,
+		max_level = 10,
+		id = 13340,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"25.0%",
+				"45.0%"
+			},
+			{
+				"20.0%",
+				"50.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"25.0%",
+					"+2.2%"
+				},
+				{
+					"27.2%",
+					"+2.2%"
+				},
+				{
+					"29.4%",
+					"+2.2%"
+				},
+				{
+					"31.6%",
+					"+2.2%"
+				},
+				{
+					"33.8%",
+					"+2.2%"
+				},
+				{
+					"36.0%",
+					"+2.2%"
+				},
+				{
+					"38.2%",
+					"+2.2%"
+				},
+				{
+					"40.4%",
+					"+2.2%"
+				},
+				{
+					"42.6%",
+					"+2.4%"
+				},
+				{
+					"45.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50%"
+				}
+			}
+		}
+	},
+	[13350] = {
+		desc_get = "",
+		name = "Sacrament: Sacred Second Wing",
+		desc = "5s after this ship finishes loading its Airstrike: launches a torpedo barrage and a $1 special airstrike (DMG is based on the skill's level.) This skill can only activate up to 3 times per battle.",
+		type = 1,
+		max_level = 10,
+		id = 13350,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[13360] = {
 		desc_get = "",
 		name = "Take Off!",
@@ -37527,6 +38695,50 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[28121] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: La Galissonnière-class once every 12 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 28121,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[28122] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: La Galissonnière-class once every 8 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 28122,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[28211] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Algérie once every 9 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 28211,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[28212] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Algérie once every 6 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 28212,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[29011] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -38638,6 +39850,28 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29531,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29541] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Jeanne d'Arc once every 12 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29541,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29542] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Jeanne d'Arc once every 8 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29542,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -41949,6 +43183,7 @@ pg.skill_data_template = {
 		6520,
 		6530,
 		6540,
+		6550,
 		7000,
 		9010,
 		9020,
@@ -42273,6 +43508,18 @@ pg.skill_data_template = {
 		13210,
 		13220,
 		13230,
+		13240,
+		13250,
+		13260,
+		13270,
+		13280,
+		13290,
+		13300,
+		13310,
+		13320,
+		13330,
+		13340,
+		13350,
 		13360,
 		13370,
 		13380,
@@ -42491,6 +43738,10 @@ pg.skill_data_template = {
 		28032,
 		28111,
 		28112,
+		28121,
+		28122,
+		28211,
+		28212,
 		29011,
 		29012,
 		29021,
@@ -42592,6 +43843,8 @@ pg.skill_data_template = {
 		29512,
 		29521,
 		29531,
+		29541,
+		29542,
 		101010,
 		101020,
 		101030,

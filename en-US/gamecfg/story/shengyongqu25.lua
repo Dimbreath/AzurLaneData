@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "维希教廷圣堂·近海 稍早前",
+			say = "The Basilica Isle - Near vicinity, not long after the CV fleet's battle",
 			side = 2,
 			dir = 1,
 			bgm = "level-french2",
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "呼……真是好险。没想到用来伏击航空舰队的拉.加利索尼埃舰队反而被舰载机打了个措手不及。",
+			say = "You saw through the \"Skybound Wall\" for what it was even sooner than I expected. That disrupted the entire plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在侦察机发现拉.加利索尼埃没有和你在一起的时候，我就识破你的作战意图了。",
+			say = "After our recon planes didn't find La Galissonnière, I knew exactly what you were up to. There's no way you wouldn't utilize her abilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "虽然不知道你具体打算怎么执行，不过姑且让航空编队将备用舰载机隐藏在云层中待命，如果有伏击的话总会到来吧。",
+			say = "Even though I didn't know exactly how you'd carry out your plan, I had a reserve squad on standby, ready to react to any kind of ambush you tried to plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "原本也想过可能不会这么顺利…果然还是骗不到你么，黎塞留卿。",
+			say = "I suppose that's that. I can't keep anything from you, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "即便在这种不利的局面下，你还是进行了一场无愧于教廷骑士之名的出色战斗，对于维希教廷你已经足够的忠义了。",
+			say = "You've played your hand well, Algérie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "也许吧……",
+			say = "Yes, I think I've made the most out of the cards I was dealt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "航空母舰不愧为可以左右战局的兵器啊…如果我们和铁血的战争没有失败的那么快的话，现在的鸢尾教国应该已经建立了一支不输给皇家的航空舰队了吧。",
+			say = "After all, there was no way of equalizing the difference in raw strength. We never had many carriers in the first place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "“永远不再投入彼此之间战争”……我们在当时相信了不应该相信的人。",
+			say = "Without the influence of the Iron Blood, there well could've been... or so I think.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "但是自由鸢尾不会再重蹈这一覆辙了。现在还来得及，加入我们吧。只要我们团结一致，总有一天可以依靠我们的力量光复祖国的。",
+			say = "Algérie, you should know better. The Iris cannot bloom in the shadow of the Iron Blood. We should–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "我现在是维希的教廷骑士。事情发展到现在这一步，除了战斗到底以外我已经没有其他路可选了。",
+			say = "I will fulfill my duties as a Templar Knight of the Vichya Dominion. Now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "……我们之间一定要这样么。",
+			say = "Algérie...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "我会在圣堂前召集全部的舰队，让我们像骑士一样，面对面，堂堂正正决出胜负吧。",
+			say = "I will bring all my forces in front of the Basilica. With God as our witness, we shall determine who is correct.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "莫桑比克海峡·塞壬控制区域",
+			say = "Mozambique Strait - Siren-Contested Area",
 			side = 2,
 			dir = 1,
 			bgm = "level03",
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "光辉的问题还是被你搪塞过去了呢。",
+			say = "Did you really not tell Illustrious about that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我只是没有交代足够多的细节而已，并没有说谎。她们应该知道的我已经都告诉她们了，不会影响作战的。",
+			say = "Correct. Some things are better kept hidden for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "啊…说起来，贞德。你也不知道圣堂里究竟有些什么东西呢，不好奇么？",
+			say = "If I was to disclose that information, the Royal Navy would undoubtedly begin to weigh the costs versus the benefits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 802020,
-			say = "“罗得的妻子向后回头看，然后变成了一根盐柱”。我虽然不是罗得的妻子，但是可不想变成盐柱。",
+			say = "Is that so...? I trust your judgment, Richelieu, but I suppose that means I can't tell them anything either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 802020,
-			say = "主训诫过我们，过剩的好奇心可不是好事哦。",
+			say = "Ahh, to once again harbor such secrets... What a sinful girl you are, Jeanne...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "况且我相信黎塞留大人的判断。如果是你认为我应该知道的事，你早晚都会告诉我的。",
+			say = "Though I don't even know about this secret, to turn my back against the teachings of the Heavenly Father and withhold such important information from my allies...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "呵呵，到底是贞德…",
+			say = "(Right, Jeanne doesn't know about the details either...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "这座圣堂，曾经是光明的象征，是照亮鸢尾未来的希望…",
+			say = "This Basilica symbolized the bright future that awaited the Iris Orthodoxy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，从它落入维希教廷之手的那一刻开始，圣堂就更像是潘多拉魔盒一样的存在了。",
+			say = "But now that it has fallen into the hands of the Vichya Dominion and the Iron Blood, the darker side that has been hidden in the shadows is about to be revealed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "一旦被成功打开。不论是对我们，还是对她们自己，都将是一股可怕的灾祸……",
+			say = "Such things must not be allowed to happen. This does not solely concern Iris Libre and the Vichya Dominion, but also holds true for the Royal Navy and Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "不论如何，我们都必须要将圣堂夺回来…赶在真正的灾祸从圣堂中出现之前。",
+			say = "Jeanne, please forgive me for hiding this information from you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 802020,
-			say = "…就算这样，你还是没有放弃和平解决问题的方案。",
+			say = "Don't worry, Richelieu. I have no doubt that your actions are just.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是当然的。忠义与誓言…她们会选择维希教廷恰恰是她们忠于心中信仰与正义的表现。",
+			say = "If possible, I would like to resolve this situation without having to cross swords with the Vichya Dominion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "既然并非邪恶之人，又是昔日的战友，我还是希望可以通过和平对话的方式解决问题。",
+			say = "I have no desire to strike down my compatriots, but above all, those girls do not bear the mark of sin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "维希选择的道路本身就是是错误的，追随维希的她们，就算心怀正义与信仰，也会在迷途之路上越走越远…",
+			say = "If the Vichya Dominion has chosen to accompany Iron Blood down the wrong path, it is our responsibility to correct that path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 802020,
-			say = "再加上发生过的那些事，恐怕交涉会充满波折与坎坷吧。",
+			say = "D'accord. I, too, would like to see this resolved peacefully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 802020,
-			say = "面对信仰异常坚定的阿尔及利亚，和本身就隶属于审判庭的拉.加利索尼埃。我觉得比起言语上说服她们，可能打一架比较轻松哦？",
+			say = "...But, as for that Algérie and La Galissonnière...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "……无论如何，以夺回圣堂为第一优先的任务。",
+			say = "For the time being, Jeanne, let's focus on retaking the Basilica.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "如果真的交涉决裂的话。我们也只好先解除她们的武装，然后再用时间慢慢说服她们了。她们最终…一定会想明白的。",
+			say = "It won't be an easy task, but we have no other choice than to disarm those girls and make them see things from our perspective.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 802020,
-			say = "…听起来就是一条充满烈焰与荆棘之路。祝愿你的计划能够成功，黎塞留大人。",
+			say = "No matter how difficult it may be, we must believe in the guidance of the Iris Orthodoxy and do our part. Isn't that right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "唉…言语上的辩论，也是一种艰苦的战争啊……",
+			say = "...Indeed. I'll be counting on you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

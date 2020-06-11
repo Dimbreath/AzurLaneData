@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在拉.加利索尼埃舰队出其不意的近距离冲击下，缺乏护卫舰的航空编队如同靶子一般一艘接一艘的被击破了。",
+			say = "La Galissonnière's sudden attack left the carrier fleet damaged with no way of maintaining air superiority.",
 			side = 2,
 			dir = 1,
 			bgm = "level-french2",
@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "原本计划中应该是这样的………",
+			say = "Piece by piece, Algérie's plan was falling into place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "嗡------------",
+			say = "However, just then...",
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/plane",
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 902010,
 			nameColor = "#ff5c5c",
-			say = "喂喂喂，这些舰载机是怎么回事，从哪儿冒出来的啊！！！",
+			say = "What...?! Where did all these planes suddenly come from?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 807010,
-			say = "抱歉喽。黎塞留早就看穿了你们的计划，这些舰载机都是为了你特意准备的。",
+			say = "Richelieu's intuition was correct. I won't let you come a step closer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "数队隐藏多时的舰载机，如同箭雨一般从云层中俯冲而下，密集火力让所有靠近光辉和贝亚恩的企图都化为了燃烧的火焰。",
+			say = "The Vichya's mass-produced ships were engulfed in pillars of flame one after another as the reserve corps that had been lying in wait sprung into action.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 902010,
-			say = "唔，阿尔及利亚没说过这种情况之后该怎么办啊…果然计划这东西是永远赶不上变化的。",
+			say = "Algérie, you never told me what I was supposed to do in this kind of situation...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 902010,
-			say = "算了，想这么多不是我的风格。来都来了，继续鼓起干劲大闹一场吧！",
+			say = "...W-well, thinking's never been my strong suit. Let's just enjoy this as much as we can!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			actor = 807010,
 			nameColor = "#a9f548",
-			say = "哎，等等，你还要打么？！",
+			say = "You're not going to give up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快住手吧，拉.加利索尼埃小姐。你已经没有胜算了。",
+			say = "You can't win anymore, so why...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 902010,
-			say = "这可不行呢。既然从上面接下了任务，无论如何都要不惜代价的完成，这可是审判庭的教条哦。",
+			say = "Hmm? For the fun of it, why else? Algérie told me to neutralize the carrier fleet, so I'm gonna do it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 902010,
-			say = "如果今日的牺牲不可避免，至少让我以不辱审判庭的方式做个谢幕演出吧！",
+			say = "Now let's see how much we can hurt each other without sinking! It'll be fun, c'mon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			actor = 807010,
 			nameColor = "#a9f548",
-			say = "拉.加利索尼埃！！",
+			say = "Ugh... She's giving in to her bloodlust again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			actor = 902010,
 			nameColor = "#ff5c5c",
-			say = "皇家的光辉小姐，很荣幸能由你作为最后对手，永别了---------！",
+			say = "So you're the only one left, Illustrious? Guess I'll start by playing with you!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "舰载机，锁定目标------------",
+			say = "Ngh...!",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "通讯器",
-			say = "嘀------------",
+			actorName = "Radio Message",
+			say = "*beep beep*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,8 +295,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 903020,
-			actorName = "阿尔及利亚",
-			say = "快住手，拉.加利索尼埃！",
+			actorName = "Algérie",
+			say = "La Galissonnière!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,8 +312,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 805010,
-			actorName = "黎塞留",
-			say = "请等一下，光辉！",
+			actorName = "Richelieu",
+			say = "Illustrious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			say = "哎？阿尔及利亚，发生什么事了…？",
+			say = "Algérie? What's the matter?",
 			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "还问我发生什么事了…既然偷袭失败就赶紧撤退啊！怎么在这方面比教廷骑士还死板……",
+			say = "What's the matter? I told you to retreat if the surprise attack failed! Are you trying to get yourself killed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 902010,
-			say = "你之前也没说啊…唉，我还以为你的意思是让我偷袭不成就就地牺牲报国呢。",
+			say = "I don't remember anything like that... I thought I was supposed to trade my life for all their carriers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "………………我用极光之壁掩护你，快点撤回来。我们现在还有胜算，不要做无谓的牺牲。",
+			say = "That's enough. Come back through the barrier. We still have a chance to win, so don't burn your life out here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			actor = 902010,
 			nameColor = "#ff5c5c",
-			say = "早说嘛~不好意思咯光辉小姐，看来现在还不是牺牲的时候。上面的谢幕演说收回，我们一会儿再见吧~",
+			say = "...Fine then. Well, guess we'll have to play later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等-----！",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "伴随着拉.加利索尼埃的后撤，极光之壁同时发生了变化。一阵闪光过后，一面新出现的屏障阻挡了光辉等人追击的道路。",
+			say = "La Galissonnière retreated from the battlefield almost as quickly as she appeared, taking the remnants of the mass-produced fleet through the Skybound Wall with her.",
 			flashout = {
 				dur = 0.25,
 				alpha = {
@@ -471,7 +471,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "光辉、贝亚恩，现在就先让她回去吧。你们重新整队之后前来同主力舰队汇合，决战的时刻就要到了。",
+			say = "Illustrious, Béarn, don't chase after them. We need to regroup and prepare for the decisive battle against Algérie's fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我明白了。",
+			say = "As you wish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼呼，实际接触之后才发现，自由鸢尾的枢机主教黎塞留，好像和传闻中有些不太一样呢~",
+			say = "Richelieu, you're a lot more compassionate and caring than you let on, aren't you... Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

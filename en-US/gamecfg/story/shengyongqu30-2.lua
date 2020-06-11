@@ -12,7 +12,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 999010,
 			nameColor = "#ff5c5c",
-			say = "…………",
+			say = ".........",
 			flashN = {
 				color = {
 					1,
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 807010,
-			say = "一个人跟我们对抗了那么久，居然毫发无损…？！",
+			say = "That took long enough. How is our vanguard fleet doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "至少要拖住她，直到游击舰队将阿尔及利亚她们拦截到安全的地方去！",
+			say = "There's no point thinking about it. We can only hope that they will bring Algérie back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 999010,
-			say = "时间到了。",
+			say = "Combat operations suspended...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,27 +108,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Radio Message",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "滋---滋-----",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 801040,
-			say = "黎塞留，能听到么！我们在追击的时候突然遇到了重樱潜艇拦截。",
+			say = "*beep* *beep*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +128,23 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801040,
-			say = "因为反潜设备都在刚才的战斗中被打坏了，我们很难在应付鱼雷的同时继续进行追击了！",
+			say = "I'm sorry, Richelieu, but we're under attack by submarines!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 801040,
+			say = "Their torpedoes are so fast that they're hardly even leaving behind a wake...! We won't be able to catch up to Algérie at this rate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 802020,
-			say = "反潜设备…啊！我的反潜设备也在之前的战斗里受伤了！原来这才是沃克兰那次突袭的目标么！",
+			say = "I'm sorry... if only I had more power...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的潜艇会在这种时候出现在在这种地方，肯定是早就定好的计划……完全被摆了一道呢。",
+			say = "Torpedoes that don't leave a wake... are those the Sakura Empire's oxygen torpedoes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 807010,
-			say = "…看来现在不需要拖延时间了。",
+			say = "You said that the Crimson Axis wouldn't be sending reinforcements. That seems to be a lie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "游击舰队，立即返航。不要继续追击了…………",
+			say = "Vanguard fleet, please retreat immediately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801040,
-			say = "是……",
+			say = "Understood....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 999010,
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 999010,
-			say = "黎塞留，原鸢尾教国的枢机主教，维希教廷的叛教者。",
+			say = "Message for Richelieu, Cardinal of Iris Libre.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "根据教廷命令，现在向你宣读来自教廷司令部的电文。",
+			say = "...From, an elegant spy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "维希教廷司令部给我的电文……？",
+			say = "...an elegant spy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 999010,
-			say = "“姐姐，我们究竟是制造死亡的兵器，还是守护国土的英雄呢”",
+			say = "\"Jean Bart has recovered. Algérie and the others will be safely sent home. The rest is up to you, my wise sister.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "以上。",
+			say = "End of transmission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "…………？！！！",
+			say = "*sigh*...",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "你是从哪儿知道这句话的？！这封电文是司令部的哪个人发的！",
+			say = "Gascogne, why did you get in our way?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 999010,
-			say = "电文来自，维希教廷舰队总旗舰，让·巴尔。",
+			say = "Mission priorities. Protecting Algérie was assigned a higher priority than the delivery of this message.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "………………………………………！",
+			say = ".........",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -416,7 +416,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让·巴尔…………？这怎么可能！让·巴尔不是早就已经在卡萨布兰卡…",
+			say = "At least I'm glad to hear that Jean Bart has recovered...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……其实，皇家之前收到过在铁血控制的海域内目击到疑似让·巴尔活动的情报…",
+			say = "To be honest, the Royal Navy has been searching for Jean Bart for some time now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过因为内容实在过于离谱，就被直接认为干扰情报排除了，现在看来……",
+			say = "I'm sorry for not telling you sooner...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "…只是拖走让·巴尔的残骸还不够…铁血…她们究竟对让·巴尔做了什么！",
+			say = "No, the situation hasn't changed. If Jean Bart is with the Iron Blood, then Algérie and the others are...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 999010,
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "任务执行完毕，加斯科涅，开始撤退。",
+			say = "Gascogne has completed her mission. Conclusion: There is no further value in staying here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "等、等等！别走，告诉我让·巴尔究竟发生什么事了！",
+			say = "Gascogne! Tell me! Jean Bart... When is Jean Bart going to return to the Vichya?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "加斯科涅无视了黎塞留的阻拦，在炮火与子弹的间隙中灵活地游走着，渐渐向远方驶去。",
+			say = "As if she couldn't understand the purpose of the question, the expressionless girl tilted her head slightly before darting away from the battlefield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…黎塞留，我们的弹药即将见底，损伤情况也不容乐观，我们没有继续战斗下去的资本了。",
+			say = "There's no point asking someone when you don't even know who they really are...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "……全体注意，停止追击吧。",
+			say = "I suppose so... Everyone, let's head home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不合理……今天发生的一切都太不合理了。",
+			say = "In the end, we'll have to leave the Basilica like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家的情报是对的，在战斗开始之前维希教廷的增援就已经到了，还是这么强大的战列舰！",
+			say = "(The Basilica's \"sacrament\" that Miss Richelieu kept mentioning... I'm going to go take a look.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果一开始就投入到我们与阿尔及利亚的战斗，战役的结局还说不定呢。为什么要等到圣堂被破坏，胜负已分的时候再出手与我们战斗…？",
+			say = "Why did Gascogne only join in after the battle was finished? She didn't even move when the Basilica was destroyed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "……大概这只是一场实验。",
+			say = "I have no idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "维希教廷一开始就没打算守住圣堂，仅仅是把驻守圣堂的阿尔及利亚她们当成新型兵器的实验品…！",
+			say = "Perhaps it was a decision made by the Vichya Dominion's leadership. Maybe Algérie or Jean Bart decided upon it beforehand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "至于加斯科涅…恐怕她的真正任务是负责记录实验结果，运送特殊的心智魔方，以及在后方督战吧…",
+			say = "She calls herself my sister ship, but we don't have enough information right now to ascertain her identity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "我们的整个行动，从计划之初到实际执行，每一个环节都被对方算计了。",
+			say = "The only good news from this whole situation is... I know Le Terrible was involved in all of this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 807010,
-			say = "除了你之外，我可不记的教廷里还有这么厉害的人物存在啊…",
+			say = "Indeed. I still need to look into what made Algérie tap into the power of that black wisdom cube.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也许幕后的策划者根本就不是维希教廷，而是暗中控制着教廷高层的铁血……",
+			say = "Sacrificing your friends for the sake of an experiment... I don't think even Bismarck would've made that order.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 802020,
-			say = "与铁血一起用自己的同胞做实验…没想到教廷的高层已经堕落到了这种地步。",
+			say = "A party other than the Vichya or the Iron Blood may have loaded that black cube.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,12 +729,12 @@ return {
 			}
 		},
 		{
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			side = 2,
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从教廷选择放弃抵抗，出卖祖国与铁血合作的时候开始，堕落就已经不可避免了。",
+			say = "There are many possibilities. Even before our country was sundered by the Iron Blood, corruption was rife within the upper ranks of government.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,12 +745,12 @@ return {
 			}
 		},
 		{
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			side = 2,
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要维希教廷还戴着名为铁血的枷锁，所谓的独立和自主就不过是一纸空文而已…",
+			say = "Until they separate themselves from the Iron Blood... No, the entire Crimson Axis, they will continue to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			}
 		},
 		{
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			side = 2,
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
@@ -777,12 +777,12 @@ return {
 			}
 		},
 		{
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			side = 2,
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这次作战，大家都辛苦。",
+			say = "Nevermind... Good job on this operation, everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -796,7 +796,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_7",
 			dir = 1,
-			say = "昔日光辉雄伟的圣堂，如今在一片火海中燃烧着。",
+			say = "The Basilica in the south was once a symbol of the Iris Orthodoxy's authority.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_7",
 			dir = 1,
-			say = "海面上燃烧着的机油和残骸，如同金属构成的荆棘一般环绕在圣堂四周。",
+			say = "Now, its ivory walls are little more than blackened rubble, the songs that once regaled the heavens silenced. However, one song can still be heard from its ruins... At night, in the peaceful waters of the southern seas, it quietly tells the story of the Iris's past - and its future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -824,7 +824,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_7",
 			dir = 1,
-			say = "在自由鸢尾的前方，今后还将充满着更多烈焰与荆棘吧。",
+			say = "Was this a symbol of the fate of those who were born to fight, or the footsteps of a new saint about to be born atop its ruins? Perhaps none may know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -835,12 +835,12 @@ return {
 			}
 		},
 		{
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			side = 2,
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让·巴尔，我的妹妹，你现在究竟深陷于怎样的深渊之中啊…",
+			say = "I miss you... Jean Bart...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -858,7 +858,7 @@ return {
 			stopbgm = true,
 			actor = 900239,
 			nameColor = "#ffff4d",
-			say = "……哼，没想到…没想到还能有再次见到你的机会啊，我的姐姐。",
+			say = "Richelieu... My sister...",
 			flashout = {
 				dur = 1,
 				black = true,

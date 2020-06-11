@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "莫桑比克海峡·维希教廷控制区外",
+			say = "The Basilica Isle - Surrounding Waters",
 			side = 2,
 			dir = 1,
 			bgm = "level03",
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 802020,
-			say = "我们成功突破了塞壬的封锁。现在我们与圣堂之间已经没有任何塞壬的有效抵抗力量了。",
+			say = "We've broken through the Sirens' defenses! There's nothing standing between us and the Basilica now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 807010,
-			say = "毕竟没有什么高质量的塞壬单位嘛，如果想依靠数量支撑的话，充其量也就是这种水平了。",
+			say = "Without supporting fire from the Basilica, these Sirens would be no match for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801030,
-			say = "咦？！大家快看！刚刚飞过去塞壬舰载机居然被圣堂那边的防空炮击毁了！",
+			say = "Woah! Was that Siren plane over there just shot down by anti-air fire?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 801040,
-			say = "欸…就算是塞壬，只要入侵了维希教廷的控制区也会被无情摧毁么。",
+			say = "So even the Iron Blood's manufactured Sirens are being shot at as they approach the Basilica...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这片海域应该就是双方控制区之间的缓冲带了。唔…看来维希教廷确实还保留着一定的自主权啊。",
+			say = "Does that mean that this area is a buffer zone between the Vichya Dominion and the Iron Blood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绝对不让铁血或者塞壬舰队靠近港口么，倒是有将当年她定下来的方针好好贯彻下来。",
+			say = "(\"Don't let the Sirens near the harbor.\" Back at Toulon, that was the order that she gave...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在经历了这么多事之后，居然还是没有完全沦为铁血的爪牙……也许当时我们真的还有回转的余地。",
+			say = "(If they're not in lockstep with the Iron Blood, there might still be room for negotiations.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对…被侵略，被占领的傀儡是没有自主权可言的。也许操作傀儡的绳子是松的，但那也只取决于傀儡师的心情而已。",
+			say = "(If the Iron Blood occupation of the Vichya Dominion is complete, reversing their influence at that point will be difficult.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "现在存在于这里的只是幻象，只是在铁血的允许下，假装维希教廷还拥有最后一丝尊严的幻象。",
+			say = "(Since Jean Bart has yet to return, Algérie and the others must be... But...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "只有将侵略者彻底赶出我们的家园，重建鸢尾教国之后，她们才能获得真正的自由！",
+			say = "Heavenly Father, please give us your blessings... may Iris Libre and the Vichya Dominion become whole once again!",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "……不好不好，一不小心陷入演讲时的状态了啊。",
+			say = "...Ah, my apologies. I didn't mean to startle you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过是一份激动人心的演讲哦？",
+			say = "Miss Richelieu?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，正如之前所说的，皇家衷心期盼着这一天能够早日到来哟。",
+			say = "...I believe I speak on behalf of the Royal Navy when I say that we would all want to see that day come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "level-french1",
-			say = "莫桑比克海峡·维希教廷控制区",
+			say = "The Basilica Isle - Surrounding Waters",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
-			say = "伴随着战斗的开始，猛烈的轰鸣与毁灭的爆音在海域中回荡着。",
+			say = "Explosions tear through the waters as the battle rages on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			say = "呜哇！差点就被杂鱼打中了！明明都是些量产型而已，怎么这么难缠啊！",
+			say = "They're so strong, even though they're just mass-produced ships...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			actor = 801040,
 			nameColor = "#a9f548",
-			say = "而且还有大量圣堂的防卫设施提供掩护射击…看来还是先躲避到射程之外战斗比较好…",
+			say = "We're at a disadvantage fighting under the supporting fire of the coastal artillery installations... We should continue the fight outside of their range.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "黎塞留，明明对面还没有出动主力部队，又有熟悉情况的你直接指挥，居然推进的这么缓慢。",
+			say = "Our enemies are much tougher than I expected... We're not making much progress here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来维希教廷真的在这里的布防上做了很大投入呢。",
+			say = "Why is the Vichya going to such lengths...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "现在的我可不敢说熟悉这里了…除了对已有的设施的部署调整外，维希还修建了一大批要新的设施。",
+			say = "Their alliance with the Iron Blood may have something to do with it, but these defenses are on a whole different level from what we saw before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "按照以前的布防印象前进反而会被带入陷阱里面…这是专门针对我而的做设计啊。",
+			say = "If we don't advance carefully, we'll risk being focused by their coastal defenses...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些全部…都是驻守在这里的阿尔及利亚做的么？",
+			say = "Was this part of Algérie's plan...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "阿尔及利亚就算在圣教骑士中也属于心思缜密的人，再加上作为条约型的最强重巡之一。",
+			say = "Algérie was not only one of the Iris Orthodoxy's best fighters, but also a skilled tactician.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "以前作为队友的时候只能感受到安心与可靠，没想到作为对手的时候会这么难缠啊…",
+			say = "Nothing was more reassuring than having her on the same side, but to face her as an opponent...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不能和她并肩作战真的太可惜了…",
+			say = "Miss Richelieu...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			actor = 807010,
 			nameColor = "#a9f548",
-			say = "…而且不光是战术上的应对。大家注意到了么，维希派出量产型本身就有些奇怪的地方。",
+			say = "One more thing. Those mass-produced ships seem to have received some tuning-up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			actor = 807010,
 			nameColor = "#a9f548",
-			say = "有些量产型在型号没有明显区别的情况下，火力、机动都比正常的型号提高了三四成，综合的船体强度至少提高了一倍以上…",
+			say = "Ordinarily, performance shouldn't change within the same mass-produced model. However, these clearly have higher specifications than normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			actor = 807010,
 			nameColor = "#a9f548",
-			say = "这些外表差不多的特殊型号混在正常的编队里，导致了对面舰队强度的整体提升。",
+			say = "Not all of these ships have been upgraded, but the fact that they've mixed them together is enough to cast doubt into our battle plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…铁血倒是有类似的量产型强化技术。不过使用这种技术之后的量产型，外观上都会变得非常铁血…这里没有看到类似的情况呢。",
+			say = "Because they look the same, that introduces an element of confusion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我觉得这些量产型的制造材料和武器型号上和正常型号并没有什么区别。",
+			say = "What a tough trial this battle is... does God's protection extend even to these mass-produced ships?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			actor = 802020,
 			nameColor = "#a9f548",
-			say = "如果说异常的地方的话…对，我从它们身上感受到了一丝熟悉的气息。",
+			say = "No, this feels more like it's Algérie's doing...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			actor = 802020,
 			nameColor = "#a9f548",
-			say = "这些量产型，难道说…使用了心智魔方作为能量来源么？",
+			say = "O, Saint Michael, why must we be tested like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			actor = 801040,
 			nameColor = "#a9f548",
-			say = "心智魔方还能用在量产型身上么……？",
+			say = "Does this have to do something with cognitive chips...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			actor = 807010,
 			nameColor = "#a9f548",
-			say = "我可从来没有在任何记录上见到过类似的事情存在啊…",
+			say = "That's a possibility...! Wait... there's been no verified evidence of cognitive chips having any effects on mass-produced ships...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…心智魔方确实蕴含了高密度的能量…为什么迄今为止从来没有做过类似实验的记录呢？",
+			say = "Wait. Could this be… the Basilica's doing…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………不是没有过，而是做不到。",
+			say = "The Basilica…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家曾经做过类似的实验…但是失败了。我们无法制作出能让心智魔方稳定持续的供能的机器。",
+			say = "(While it's true that cognitive chips have been a significant technological advance in drawing out the power of wisdom cubes, we still don't know much about their exact mechanisms…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不仅如此，在某些测试条件下，心智魔方会选择抑制能量的释放，甚至会主动吸收周围过剩的能量。",
+			say = "(Her Majesty has talked about this on occasion, but is Iris Libre hiding something we're not aware of…?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些特性导致心智魔方根本就不可能作为任何机械设备的能量来源。",
+			say = "(I'm curious about it, but there's no way I can broach the subject right now…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，其中的有些实验鸢尾教国应该也一起参与了才对。",
+			say = "(If there's some joint research between the Royal Navy and Iris Libre… it'd be best to consult Hood about it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			actor = 807010,
 			nameColor = "#a9f548",
-			say = "原来如此，这样就说得通了…啊？！我们也做过类似的研究么！",
+			say = "(The Royal Navy certainly should already be involved if there's any secret research going on… I'll definitely have to look further into this.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…研究本身是在高度保密的条件下进行的。后来因为一直无法突破到应用阶段，相关研究就彻底停止了。资料全部被封存，你们没听说过也很正常。",
+			say = "The Iris Orthodoxy was conducting some research on cognitive chips since the Great War, but I heard that it was halted partway through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			actor = 807010,
 			nameColor = "#a9f548",
-			say = "那现在这些奇怪的教廷量产型到底是怎么回事…难道是使用了某种塞壬的技术？",
+			say = "…I think the Cardinal is saying that there's no point in pursuing this line of thought any further.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			actor = 802020,
 			nameColor = "#a9f548",
-			say = "我确实也没有感觉到这些量产型内部直接存在有心智魔方，只是感觉到有一种气息…",
+			say = "I see…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也不知道该怎么向你们形容…就好像包括这些量产型在内，这片海域内的所有设施，甚至海水与空气中都有这样一股奇怪的气息。",
+			say = "I'm sorry to interrupt, but… don't you feel something… unsettling about these waters?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			actor = 802020,
 			nameColor = "#a9f548",
-			say = "仿佛我们进入到了一个巨大而又稀疏的心智魔方内部一样…",
+			say = "It's as if something is encroaching upon us…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“巨大而稀疏的心智魔方”么…这么一说，从进入海峡后就感受到的难以形容的违和感确实有点这种感觉。",
+			say = "Now that you mention it…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			actor = 201120,
 			nameColor = "#a9f548",
-			say = "我、我也有感觉到…！",
+			say = "I... I feel it too…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			say = "哎？！命运女神你也感觉到了么？鲁莽完全没有任何感觉哦！",
+			say = "What? I'm not sensing anything, though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			actor = 801040,
 			nameColor = "#a9f548",
-			say = "我也没感觉到有什么不同，难道我的魔法水平下降了…？",
+			say = "Me neither… is this some sort of strange spell...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有违和感。硬要说的话…对于舰载机的操控反而更加流畅了，不过提升的水平也就是可以归列为错觉的程度。",
+			say = "I'm not noticing anything either. If anything, my reactions feel even sharper when I'm operating my aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？这就很有趣了…因为这里是鸢尾圣堂的缘故，所以外来的我们会感受到更加明显的异常么。黎塞留你怎么看？",
+			say = "Perhaps being an Iris Basilica, there's something about it that only affects outsiders?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很遗憾，我也什么都没感觉到。不过在圣堂封存的物品中确实有一些当年心智魔方武器化的实验型号。",
+			say = "(This gives off the same sensation as the Basilica's sacrament...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "维希教廷在拿到它们之后，与铁血合作重启实验的可能性不能排除，这也是我一直在担心的事。",
+			say = "(Is it possible... that the Vichya Dominion already uncovered it...?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这倒是一种说服力极强的“为什么维希教廷会如此热衷于这里”的解释呢。",
+			say = "Fortune, how are you feeling?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			dir = 1,
 			actor = 201120,
 			nameColor = "#a9f548",
-			say = "哎？！会、会遭到神秘兵器的攻击么…",
+			say = "I-I'm feeling a little weird...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个应该不用担心。之前所遇到的研究瓶颈可没有那么容易突破，不然刚刚迎接我们的就不只是这些“经过稍微强化”的量产型了。",
+			say = "(If these mass-produced ships are being strengthened by the Basilica... I need to get in contact with Algérie as soon as possible...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -800,7 +800,7 @@ return {
 			blackBg = true,
 			actor = 207030,
 			nameColor = "#a9f548",
-			say = "话虽如此…既然研究被重启了，控制在维希手中的圣堂依旧是一个危险的隐患。我们的行动的加速了…",
+			say = "Miss Richelieu...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

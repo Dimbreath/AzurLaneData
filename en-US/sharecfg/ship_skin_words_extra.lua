@@ -1130,6 +1130,66 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[805010] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 805010,
+		expedition = "",
+		win_mvp = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Bonjour, Commander. Please relax and drink this tea while I carry out my morning prayers."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back. Thanks to you, everyone's safe and sound. I'm truly grateful."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I meet with Jean Bart every once in a while. We don't talk much, and simply focus on whatever we're doing at the moment. Even so, I feel like we understand each other very well. It's something to be happy about."
+			}
+		},
+		main = {
+			{
+				1100,
+				"The practice of faith is not an easy path to walk. Discipline is required for enlightenment, and the path is sometimes accompanied by suffering and even self-sacrifice. | Commander, I have a question. Is there a way to get these \"Meowfficers\" to like me as much as they like being cuddled by you? |nil| Please, do not forget. The warriors from Vichya are also Iris Libre's brethren."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"It's time for worship. Please wait here patiently."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"If you would like to touch me, I would prefer it if you took a different approach."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Whether you or I care more for the other is inconsequential. I feel more than happy enough just feeling our close bond together like this. Thank you for always being by my side."
+			}
+		}
+	},
 	[905010] = {
 		feeling3 = "",
 		upgrade = "",
@@ -1345,6 +1405,136 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[903020] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 903020,
+		expedition = "",
+		win_mvp = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Welcome back, dear. What will you start working on first?"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"Oh no, I lost... I'm sorry for letting you down..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"You look really tired... Darling, you shouldn't push yourself too hard. Please, leave this to me and go lie down for a bit."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"My my, do you want to be pampered like a child today?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Oh, Commander. ...Next time I'm off duty, I'm planning on checking out a sushi train with Dunkerque. Of course, you're welcome to join me. Hehehe."
+			}
+		},
+		main = {
+			{
+				1100,
+				"nil|Commander, is there anything you'd like for dinner today? Something other than dinner...? Oh my, how bold~ ...That's something you can look forward to later♪|Whether it's during work or in your daily life, it's no good to be too strict on yourself. Make sure you rest properly when you have the time, alright?|Hmm~ How is this one thiiiis cute... That's right. I'll have to show this to Miss Richelieu next time. Hehehe~. |nil"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"We've just received a new directive from the higher-ups. Oh? It seems that you're just as busy as always... As much as I'd like to do some of this work in your stead, I suppose I wouldn't be able to?"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Dear, you've got some new mail. I wonder if I should try my hand at writing some love letters myself. Hehehe."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"There's no reason to be so impatient, right? Hehehe♡"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Love, how are the plans for our next date looking? Oh, I know that the destination's basically decided upon. More than that, I was thinking things like... where we'll eat dinner, or where we'll stay. We have to plan out everything carefully so we can enjoy the date that much more!"
+			}
+		}
+	},
+	[802020] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 802020,
+		expedition = "",
+		win_mvp = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Commander, may God's blessings be upon you."
+			}
+		},
+		home = {
+			{
+				1100,
+				"One who is bestowed the Iris' power must always be humble. We must take care to not let ourselves be swayed by the outcome of a single battle, Commander."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"In comparison to someone like me, Cardinal Richelieu... is a true saintess. N-no, I'm not jealous at all."
+			}
+		},
+		main = {
+			{
+				1100,
+				"As you always have done, please, continue to protect everyone in the Iris Libre, the port, and the Commander...!|...E-eh? Commander's documents... Oh no... How could I make such a mistake!|If you're tired, you should get some rest. If you don't rest, then I can't rest peacefully, either... After all, it'd be inconceivable for the secretary ship to rest before the Commander! A-anyway, please get some rest first."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I-it sparkles, so please don't touch it too much."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"D-don't touch me there!"
+			}
+		}
+	},
 	[901020] = {
 		touch = "",
 		feeling3 = "",
@@ -1480,7 +1670,12 @@ pg.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		login = "",
+		login = {
+			{
+				1100,
+				"Hehe, take good care of me today as well, my cute little piggy~"
+			}
+		},
 		win_mvp = {
 			{
 				1100,
@@ -1551,9 +1746,12 @@ pg.ship_skin_words_extra = {
 		207020,
 		105030,
 		302140,
+		805010,
 		905010,
 		301820,
 		305080,
+		903020,
+		802020,
 		901020,
 		901030,
 		202030

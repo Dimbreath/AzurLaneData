@@ -11483,6 +11483,7 @@ pg.activity_template = {
 	[30402] = {
 		mark = 20200521,
 		page_info = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -11497,38 +11498,12 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[30403] = {
 		mark = 20200521,
 		page_info = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 130,
@@ -11536,34 +11511,7 @@ pg.activity_template = {
 		config_data = "100",
 		config_client = "",
 		title_res_tag = "",
-		id = 30403,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 30403
 	},
 	[30404] = {
 		mark = 20200521,
@@ -11614,6 +11562,7 @@ pg.activity_template = {
 	},
 	[30406] = {
 		mark = 20200521,
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 30406,
@@ -11621,33 +11570,6 @@ pg.activity_template = {
 		title_res_tag = "france_re_pt",
 		id = 30406,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "FranceRestartPtPage",
 			ui_name = "francerestartptpage"
@@ -11659,6 +11581,7 @@ pg.activity_template = {
 	[30407] = {
 		mark = 20200521,
 		page_info = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -11688,33 +11611,6 @@ pg.activity_template = {
 			869,
 			870,
 			871
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_faxi",
@@ -12053,6 +11949,7 @@ pg.activity_template = {
 	[30415] = {
 		mark = 20200528,
 		page_info = "",
+		time = "stop",
 		type = 43,
 		login_pop = 0,
 		config_id = 0,
@@ -12073,38 +11970,12 @@ pg.activity_template = {
 				57,
 				93325
 			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[30416] = {
 		mark = 20200528,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -12122,33 +11993,6 @@ pg.activity_template = {
 			15720,
 			15721,
 			15722
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[30417] = {
@@ -12169,6 +12013,7 @@ pg.activity_template = {
 	[30418] = {
 		mark = 20200603,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -12180,33 +12025,6 @@ pg.activity_template = {
 			1130102,
 			1130103
 		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			prevs = {
 				1130101
@@ -12215,6 +12033,7 @@ pg.activity_template = {
 	},
 	[30419] = {
 		mark = 20200603,
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -12230,33 +12049,6 @@ pg.activity_template = {
 			14144,
 			14145
 		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewOrleansMapPage",
 			ui_name = "NewOrleansMapPage"
@@ -12265,6 +12057,7 @@ pg.activity_template = {
 	[30420] = {
 		mark = 20200603,
 		page_info = "",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -12282,37 +12075,11 @@ pg.activity_template = {
 			{
 				14151
 			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[30421] = {
 		mark = 20200603,
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 3,
@@ -12320,33 +12087,6 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 30421,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewOrleansLoginPage",
 			ui_name = "NewOrleansLoginPage"
@@ -12358,6 +12098,7 @@ pg.activity_template = {
 	[30422] = {
 		mark = 20200603,
 		page_info = "",
+		time = "stop",
 		type = 58,
 		login_pop = 0,
 		config_id = 5,
@@ -12365,34 +12106,7 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 30422,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[30423] = {
 		mark = 20200603,
@@ -12592,6 +12306,487 @@ pg.activity_template = {
 				9
 			},
 			{}
+		}
+	},
+	[30426] = {
+		mark = 20200611,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30426,
+		config_data = {
+			15676,
+			15677,
+			15678,
+			15679,
+			15680,
+			15681,
+			15682,
+			15683,
+			15684,
+			15685,
+			15686,
+			15687,
+			15688,
+			15689,
+			15690,
+			15691,
+			15692
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30427] = {
+		mark = 20200611,
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 85,
+		config_client = "",
+		title_res_tag = "francev2_zongye",
+		id = 30427,
+		config_data = {
+			1360001,
+			1360002,
+			1360003,
+			1360021,
+			1360022,
+			1360023
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FranceMainPage",
+			ui_name = "FranceMainPage"
+		}
+	},
+	[30428] = {
+		mark = 20200611,
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30428,
+		config_data = {
+			1360004,
+			1360005,
+			1360006,
+			1360024,
+			1360025,
+			1360026,
+			1360041,
+			1360051
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					12
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30429] = {
+		mark = 20200611,
+		type = 54,
+		login_pop = 0,
+		config_id = 30429,
+		is_show = 84,
+		title_res_tag = "francev2_zongye",
+		id = 30429,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FrancePTPage",
+			ui_name = "FrancePTPage"
+		},
+		config_client = {
+			linkActID = 30427
+		}
+	},
+	[30430] = {
+		mark = 20200611,
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30430,
+		config_data = {
+			1395001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30431] = {
+		mark = 20200611,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 159,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 30431,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30432] = {
+		mark = 20200611,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 30432,
+		config_data = {
+			1130,
+			1131,
+			1132,
+			1133,
+			1134,
+			1135,
+			1136,
+			1137,
+			1138,
+			1139,
+			1140,
+			1141,
+			1142,
+			1143,
+			1144,
+			1145,
+			1146,
+			1147,
+			1148,
+			1149,
+			1150,
+			1151,
+			1152
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_shengyongqu",
+			{
+				1,
+				0.97,
+				0.89,
+				1
+			},
+			pt_id = 159,
+			painting = "zhende_pt",
+			outline = {
+				0,
+				0,
+				0,
+				0.8
+			}
+		}
+	},
+	[30433] = {
+		mark = 20200611,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31982,100}]",
+		config_client = "",
+		title_res_tag = "",
+		id = 30433,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30434] = {
+		mark = 20200611,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30434,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30435] = {
+		mark = 20200611,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30435,
+		config_data = {
+			15693
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[30500] = {
@@ -13737,6 +13932,16 @@ pg.activity_template = {
 		30423,
 		30424,
 		30425,
+		30426,
+		30427,
+		30428,
+		30429,
+		30430,
+		30431,
+		30432,
+		30433,
+		30434,
+		30435,
 		30500,
 		30501,
 		30502,

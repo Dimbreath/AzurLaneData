@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-1",
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "结果还是让她给跑了，呜………",
+			say = "逃げられた……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，不要看到敌人就冲过去呀…你没事吧，爱斯基摩人？",
+			say = "もう、いきなり突っ走らないでよ！怪我とか無い？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201320,
-			say = "没事没事~对方好像弹药不足，主要精力都放在逃跑上啦~",
+			say = "大丈夫大丈夫、向こうは逃げるだけで精一杯だったからさ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来怎么办，狐提要来和我一起追击么？",
+			say = "フォックスハウンドも一緒に追ってみる？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的任务可是占领纳尔维克哦？",
+			say = "何言ってるんだよ、ぼくの任務はナルヴィクの確保だよ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201320,
-			say = "唔唔唔…那、那就…",
+			say = "そ、そういえばそうだったよなー",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗，好啦，就知道会变成这样。我还要返回厌战那里护航，不过她已经批准了你的追击行动了哦。",
+			say = "ぼくは護衛に戻らないといけないけど――ウォースパイト様がエスキモーに追撃許可を出したよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "哎！？真的么！",
+			say = "え、それ本当！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“量力而行，遇到危险就发信号”她让我这么转告你。",
+			say = "「適度に追撃して、危なくなったら救援信号を出しなさい」って",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，爱斯基摩人收到~",
+			say = "うぉっしゃー！エスキモー、了解だああ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

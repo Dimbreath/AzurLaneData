@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "好奇怪…我们弄出了这么大的动静，就算再迟钝的人也应该反应过来了，更何况是阿尔及利亚。",
+			say = "How strange... We've advanced this far and nothing has shown up... Not even a mass-produced ship.",
 			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 802020,
-			say = "怎么会到现在了，连一艘维希教廷的量产型都没出现…",
+			say = "If Algérie is the one in command, then why would she...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难道说维希教廷的同…同胞们也和我们一样不想战斗!？",
+			say = "They also don't want to fight us, right...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			expression = 4,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼~如果是这样那真是太好了。难道她们现在已经收回了舰队正在圣堂里等着加入我们么？",
+			say = "That is one possibility. Another is that they're waiting inside the Basilica.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Radio Message",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "滋---滋-----",
+			say = "――――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 802020,
-			say = "黎塞留，通讯器收到了圣堂发来的通讯广播。",
+			say = "We're receiving a broadcast from the Vichya forces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "嗯？放出来听听。",
+			say = "A broadcast...? Let me hear it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Radio Message",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是维希圣堂舰队指挥，维希教廷圣教骑士，重型巡洋舰阿尔及利亚。",
+			say = "Message from Algérie of the Vichya Templar Knights to the intruders...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,11 +132,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Radio Message",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前方海域为维希教廷的军事管制区，你们的航线没有经过教廷司令部的批准。",
+			say = "Any further trespass upon Vichya waters shall not be permitted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Radio Message",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请立刻掉头离开，继续前进将会被视为对维希教廷的侵略行为。",
+			say = "Change courses immediately. Any further advance shall be considered an act of aggression against the Vichya Dominion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………………",
+			say = "...I'll issue a response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "这里是自由鸢尾枢机主教黎塞留。阿尔及利亚，听我说，我们没有相互争斗的必要------",
+			say = "\"This is Richelieu, Cardinal of Iris Libre. Algérie of the Templar Knights, we wish to speak directly without any intention of hostilities.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Radio Message",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重复一遍。这里是维希圣堂舰队指挥，维希教廷圣教骑士，重型巡洋舰阿尔及利亚。",
+			say = "From Algérie of the Vichya Templar Knights to the intruders...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Radio Message",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前方海域为维希教廷的军事管制区-------",
+			say = "\"Any further trespass upon Vichya waters shall not be permitted. Change courses immediately. Any further advance shall...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来…只是循环广播而已呢。",
+			say = "The message seems to have been pre-recorded...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "……把通讯器关掉吧。",
+			say = ".........…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			expression = 3,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "切…发现远方维希教廷的舰队正在从港口中驶出，海域中各处的防御设施也出现了不同程度的变化，推测正在进行战斗准备！",
+			say = "The Vichya has begun to deploy their mass-produced forces, and their defense systems are activating as well... By the looks of things, they're not in the mood to talk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			say = "哎？！！阿尔及利亚姐姐她们不打算进行交涉么？！",
+			say = "N-no way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "果然不会这么顺利啊，事情要变麻烦了……",
+			say = "Tem...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "出师不利呢，黎塞留。接下来怎么办？",
+			say = "Richelieu, we await your orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这也算预料中的情况。作战计划不变，武力瓦解维希教廷的抵抗，继续向圣堂前进！",
+			say = "...All forces, advance carefully towards the Basilica. Destroy all production-type ships along the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

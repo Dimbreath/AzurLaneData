@@ -2079,6 +2079,41 @@ pg.backyard_theme_template = {
 			61303
 		}
 	},
+	[62] = {
+		Cfg_1 = 5,
+		name = "Iris Countryside ",
+		desc = "Bask in the idyllic Iris scenery as you sip from a glass of fine wine. ",
+		deblocking = 1,
+		new = 1,
+		hot = 0,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 62,
+		icon = "faxthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			62001,
+			62002,
+			62101,
+			62102,
+			62103,
+			62104,
+			62105,
+			62106,
+			62107,
+			62108,
+			62109,
+			62110,
+			62111,
+			62112,
+			62113,
+			62114,
+			62115,
+			62116
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2123,6 +2158,7 @@ pg.backyard_theme_template = {
 		58,
 		59,
 		60,
-		61
+		61,
+		62
 	}
 }

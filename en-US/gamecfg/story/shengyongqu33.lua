@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
-			say = "铁血某港口·作战结束后某日",
+			say = "A few days after Operation Basilica...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "这里就是铁血的港口…从重樱群岛出发之后真是绕了好大一圈路啊…终于到了…",
+			say = "This is what the ports are like in the Iron Blood, huh... It's totally different from what we have in the Sakura Empire~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "圣堂的战斗中出现的黑色冲击，还有海域上空的那些金色的光幕，你觉得是什么？",
+			say = "Say, I-58, what'd you think about those walls of light back there? They had me a bit spooked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唔……说不好呢，感觉和我们的结界差不多的东西…",
+			say = "It's probably similar to our barriers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "分析这些不是我们的工作，你都详细记录下来了吧。",
+			say = "...Besides, that was your job. Did you get the recordings?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "那是当然！这可是{namecode:91}专门交代的工作，我可不想搞砸了…",
+			say = "course I did! You know I wouldn't let Akagi down~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嘘，铁血的人来了。",
+			say = "Oh, there's someone coming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哟~重樱的潜艇们，欢迎来到铁血的…啊，我忘了，这里现在是保密地点，姑且叫做某港口吧。",
+			say = "Oh my, what a pair of cuties we have here... Welcome to the Iron Blood, my dear guests from the Sakura Empire~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "欢迎来到铁血的某港口，各位从重樱本土一路远道而来，半路还参与了战斗行动，真是辛苦了~",
+			say = "I heard that you even had to participate in an operation before coming here. Hopefully neither of you were hurt?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "和{namecode:91}说的一样，是一个笑起来有些可怕还会说奇怪话的人…你就是欧根亲王吧。",
+			say = "(whispers) She's just as Akagi described... Beautiful, but with a deep emptiness beneath her words... Since I'm here, just keep your mouth shut, 26...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哎呀，这可不行啊，{namecode:91}！背后这么说可就太伤人了，大家不已经是好朋友了嘛~",
+			say = "Did Akagi really say that about me? Ehehe~ I'm going to blush from all that praise~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……{namecode:91}说你有东西会转交给我们。",
+			say = "...Akagi told me that the Iron Blood is safekeeping something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "没错没错，这个小箱子里面就是说好给她的东西啦。在亲手给到{namecode:91}之前，千万不要因为好奇拆开哦？",
+			say = "Right you are, and it's in this very box. Treat it gently on your way back, okay~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "请放心，{namecode:91}也交代过同样的事。既然是重要的机密文件，我们一定会原封不动的交给{namecode:91}的。",
+			say = "Yes... Akagi said that it's a file of great importance... and should never be opened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "那就好那就好~最后帮我捎句话给她吧。",
+			say = "I'm glad that we're on the same page. Oh, and could you relay another message to Akagi for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 403030,
 			nameColor = "#ff5c5c",
 			backBg = true,
-			say = "就说“计划进行的十分顺利，之后期待着她亲自来参加铁血的宴会哦~”",
+			say = "\"Our tea is unclouded. I'm looking forward to having you at our party.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

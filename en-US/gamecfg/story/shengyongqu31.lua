@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "莫桑比克海峡 稍早前",
+			say = "The Basilica Isle - Surrounding Waters",
 			side = 2,
 			bgName = "bg_qiongding_1",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			say = "阿尔及利亚、沃克兰、拉.加利索尼埃，等等，等等我啦！",
+			say = "Wait, Algérie!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			say = "才不要呢，谁会在听到这种话之后就乖乖停下来啊！",
+			say = "All right, we're headed back home! ...Wait, we can't do that, can we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 902010,
 			nameColor = "#ff5c5c",
-			say = "纠缠过度可不是骑士应该有的行为哦？",
+			say = "Gascogne is doing her best out there. Or not? ...Guess Iris Libre's knights are no slouches either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			actor = 801040,
 			nameColor = "#a9f548",
-			say = "很不巧，我现在是自由鸢尾的魔法使。这次就算硬拖也要把你们拖回去！",
+			say = "...But I'm a magician...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 902010,
 			nameColor = "#ff5c5c",
-			say = "…啧，这么下去真的要被追上了。",
+			say = "Hmm... I don't think you'll be catching us at any rate~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_qiongding_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "喂，阿尔及利亚，我们都没什么战斗能力了，要是这样被追上可就真的要被几个驱逐舰给拖回去了啊。",
+			say = "Algérie, are we gonna run, or are we gonna fight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#ff5c5c",
-			say = "连这一步也算到了么，真是可怕…差不多就是这里了。",
+			say = "Looks like we have somewhere to be... Everyone, pick up the pace and don't get left behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			say = "嗖----------",
+			say = "Swoosh!",
 			side = 2,
 			bgName = "bg_qiongding_1",
 			dir = 1,
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			say = "咦、咦？！从哪里出现的攻击！",
+			say = "Wh-what?! Was that a torpedo? Fortune, watch out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_qiongding_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是潜艇的鱼雷…注、注意水面之下！",
+			say = "Woah! Th-that was a close call...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_qiongding_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嘿嘿，被发现了么~真遗憾。",
+			say = "Did we blow our cover? That's too bad~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_qiongding_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "下一轮射击就不会让你们躲过去了。",
+			say = "They won't be so lucky next time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			actor = 801040,
 			nameColor = "#a9f548",
-			say = "海面下有…重樱的潜艇？！她们怎么可能在这里！大家快准备反潜作战。",
+			say = "Why are Sakura Empire submarines here...?! Everyone, stay alert!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_qiongding_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "反、反潜设备在之前的战斗中受损了…",
+			say = "My anti-submarine equipment was destroyed in the previous battle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			say = "哎？！我的也是……！",
+			say = "Woah! These torpedoes are too fast to dodge...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			actor = 801040,
 			nameColor = "#a9f548",
-			say = "………我的也坏了。原来当时是故意瞄准这里打的么，沃克兰！",
+			say = "Tem, calm down...! The torpedoes can't curve, so as long as we avoid their line of sight...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			say = "哎？！原来当时你说的作战是为现在准备的啊！好厉害，阿尔及利亚！",
+			say = "Phew, we're saved~! Algérie, are these girls the reinforcements that those memos said we'd be getting?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#ff5c5c",
-			say = "这怎么可能是我的计划，我可做不出这种能同时算计伊丽莎白和黎塞留的计划…",
+			say = "Who knows? All I was told that we'd be safe as long as we came here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_qiongding_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "虽然是打着教廷的名义发下来的，但是这个肯定也不是教廷的计划。",
+			say = "(There's no way the Vichya Dominion would've been able to sway the hand of the Sakura Empire... This must have been paid for by the Iron Blood then?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#ff5c5c",
-			say = "……这是铁血的“那个女人”的计划。今天发生的一切都在她的预料之中。",
+			say = "(But this isn't how Bismarck usually does things... In that case, who's behind all this...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			actor = 801040,
 			nameColor = "#a9f548",
-			say = "“那个女人”是…？",
+			say = "Their torpedoes are so fast that they're hardly leaving behind a wake...! We won't be able to catch up to Algérie at this rate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_qiongding_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "好了，回去吧，你们已经赢了，再追下去重樱的潜艇真的要认真攻击了。",
+			say = "Téméraire, it's time for you to turn back. If you keep chasing us, there's no telling what the Sakura Empire's going to do to you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#ff5c5c",
-			say = "最后给你们一句忠告，碧蓝航线指挥部并不是你们想象中的样子，不要轻易相信你们的“盟友”。",
+			say = "After all, the Azur Lane and the Crimson Axis are one and the same... *sigh*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			blackBg = true,
 			actor = 903020,
 			nameColor = "#ff5c5c",
-			say = "……黎塞留卿就拜托你们了。",
+			say = "Please take care of Richelieu...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

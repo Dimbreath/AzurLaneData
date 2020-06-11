@@ -12,7 +12,7 @@ return {
 			bgm = "hunhe-battle",
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			say = "哈--哈哈，怎么了倔强，今天的“魔法”状态也不佳么？",
+			say = "What's wrong, Opie? Your magic seems to lack its usual kick today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			expression = 3,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你不提起来我都差点忘了……很不巧，今天魔法准备可是完全状态。你给我过来，我让你亲身领教一下真正的魔法！",
+			say = "So you've figured out how to dodge my spells? Let's see how you deal my serious sorcery...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "我~才~不~要~呢~看招！",
+			say = "Hey, I don't want to deal with that at all! I mean, uh, come at me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			say = "轰------！",
+			say = "KABOOM!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -119,7 +119,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔，对面一直故意保持着距离和我们高速兜圈子，动力系统很难瞄准啊！",
+			say = "Vauquelin keeps bobbing and weaving around in close range! It's too hard to get a clean shot at her rigging's power source!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的这个意图也被发现了么…也是，阿尔及利亚不可能这点都猜不出来。",
+			say = "Did they decide on these maneuvers beforehand? Surely Algérie would've planned for something like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			expression = 3,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，被发现也无所谓就是了。继续尝试包围她，只要破坏了动力系统就是我们的胜利！",
+			say = "(But uncovering their strategy won't win the battle for us. We've got to eliminate the mass-produced ships and encircle Vauquelin!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在行动之前，大家汇报一下受损情况。",
+			say = "Everyone, please report your current situation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			expression = 4,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "鲁莽状态良好~目前为止，只受到了一点擦伤哦！",
+			say = "Le Téméraire here, in good condition! I've taken some minor damage, but I'm good to go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "倔强一样。只在不关键的地方受到了几下擦伤，完全不影响战斗。",
+			say = "I'm fine as well. I can continue fighting without any issues.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "命运女神，二、二号塔中度受损，还有、动力系统轻微受损……",
+			say = "Um, this is Fortune... My second turret... and my motility unit have been damaged...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！怎么回事……",
+			say = "Fortune...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……看来我们虽然在默契的彼此手下留情，但是，沃克兰没有对命运女神手下留情呢。",
+			say = "(Even though the bulk of the vanguard fleet consists of Iris Libre ships, the majority of the damage has been sustained by the Royal Navy. In other words...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜………",
+			say = "Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "沃克兰，欺负人是不好的…",
+			say = "Vauquelin, why are you doing this...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			expression = 3,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没办法，看来我们需要改变一下方针了。不只是动力系统，火力系统和其他不关键的模块也一并瞄准进行攻击，大家没有意见吧。",
+			say = "Sorry, Richelieu, but we're going to have to change our strategy! In addition to focusing on the power supply, please also try to disarm them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没意见，皇家的同伴也是同伴，怎么能让同伴在战场上因为我们的私心而白白受伤呢！",
+			say = "We can't let them keep targeting our Royal Navy allies...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

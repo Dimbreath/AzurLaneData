@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "莫桑比克海峡·圣堂中央",
+			say = "The Basilica Isle",
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
@@ -28,7 +28,7 @@ return {
 			dir = 1,
 			actor = 901030,
 			nameColor = "#ffff4d",
-			say = "………阿尔及利亚，我也不是不能理解你的心情啦。",
+			say = "...Huh, I see! So that was your strategy, Algérie...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			actor = 901030,
 			nameColor = "#ffff4d",
-			say = "背信弃义的皇家姑且不论，我也不想和自由鸢尾的昔日同伴们战斗。",
+			say = "In any case, Royal Navy aside, I'd prefer to avoid fighting Iris Libre if possible...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			actor = 901030,
 			nameColor = "#ffff4d",
-			say = "不·过·啦！就这么直接把舰队全部撤回港口内，彻底放弃防御也有点太……",
+			say = "But I'm not sure how I feel about pulling all our forces back to the island's piers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "那沃克兰是想死战到底么？一旦打起来的话可不会再分什么皇家和自由鸢尾，只有同伴和敌人。敌人可不会手下留情哦？",
+			say = "Then would you prefer to run out there and start shooting in a blaze of glory? The Royal Navy will open fire without hesitation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			actor = 901030,
 			nameColor = "#ffff4d",
-			say = "额…我也不是这个意思啦！但是就这么直接投降总感觉…无法接受。",
+			say = "I was just joking, but... this somehow feels like we're conceding defeat...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			actor = 901030,
 			nameColor = "#ffff4d",
-			say = "不管你们怎么想，我宁愿有个铁血这样诚实的敌人在身边，也比有个皇家这样奸诈的“盟友”在身后要好。",
+			say = "If you ask me, I'd prefer an honest enemy like the Iron Blood over treacherous \"allies\" like the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "那你觉得我们现在该怎么办，沃克兰？",
+			say = "So, what's the final decision?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			actor = 901030,
 			nameColor = "#ffff4d",
-			say = "唔，最好的情况是让枢机主教黎塞留大人带着自由鸢尾的舰队回归教廷，然后我们一起前后夹击，把皇家的舰队全部解决掉，嘿嘿嘿嘿……",
+			say = "The best case scenario would be to convince Richelieu to rejoin us, then we'd launch a pincer attack and take out the Royal Navy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "这还真是个…完美的作战计划呢。那说服黎塞留主教倒戈的光荣任务就交给你了，沃克兰卿？",
+			say = "Seems fun! Let's go with that! Good luck convincing Richelieu, Miss Diplomat~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			actor = 901030,
 			nameColor = "#ffff4d",
-			say = "哎？！哎哎哎？！！！！",
+			say = "Woah, woah, I was just joking! Don't take everything I say literally!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "好啦好啦，拉.加利索尼埃，别逗她了。",
+			say = "All right everyone, let's take this more seriously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "我们面对的主要敌人有战列舰一艘、航空母舰两艘、轻巡洋舰一艘、驱逐舰三艘，而我们仅有重巡洋舰一艘，轻巡洋舰一艘，驱逐舰一艘。",
+			say = "First, our operational capacity. We're facing not just an enemy battleship, but also two aircraft carriers. Even if we account for the Sirens and the mass-produced ships, the difference in firepower is simply overwhelming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "当然…再加上一艘战斗能力不明亦无法指挥的战列舰。这些还没有考虑到量产型舰队间的差距。",
+			say = "If only that \"secret weapon\" would... No, we can't count on it. Even if she was able to fight, I can't say with certainty that I'd be able to control her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "我们虽然位于主场，拥有防御设施的优势。但是从战斗力上来说我们依然处于绝对的劣势。更何况我们没有制空权，在这种情况下将兵力分散摊开的话，无异于快速自杀。",
+			say = "We've completed fortifying the Basilica's defenses, but we won't be able to offer full support without air superiority. After all, we can't afford to take a head-on engagement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			actor = 901030,
 			nameColor = "#ffff4d",
-			say = "呜…确实是这样的，绝望的战斗力差距唉……那果然还是要投降么？",
+			say = "...Should we just lay down our arms and surrender, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "不，我们战斗，这是作为宣誓效忠的教廷骑士的唯一选择。就算要面对的是“歌利亚”，亦无懦弱怯战，临战倒戈之理！",
+			say = "We can't do that. Not just because we are the proud Templar Knights of the Vichya Dominion, but given Jean Bart and Dunkerque's current state, we can't give the Iron Blood any reason to turn on us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "呵呵，黎塞留一定有着和我们心中一样的想法，“不想通过战斗而是通过对话解决问题”，这就是我们的机会。",
+			say = "And since Richelieu... surely does not want to fight us either, this is the best opportunity we're going to get.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "而且，自由鸢尾的人对于皇家的背叛和我们一样感同身受，她们一定无法再像从前一样紧密合作了，这就是我们的优势。",
+			say = "In addition, we'll drive a wedge between Iris Libre and the Royal Navy. Even if we can't seize victory, we'll at least strengthen our position in the eyes of the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			actor = 902010,
 			nameColor = "#ffff4d",
-			say = "收缩兵力，对她们造成我们希望谈判的假象，让她们离心和大意，减慢进攻的步伐。",
+			say = "In other words... we'll show a willingness to cooperate, and stall their advance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			actor = 902010,
 			nameColor = "#ffff4d",
-			say = "然后寻找机会分割皇家舰队和自由鸢尾舰队，紧接着伺机吃掉皇家的舰队~！",
+			say = "And then, we'll look for an opportunity to weaken the Royal Navy before going in for the kill?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "没错。一旦解决了皇家舰队，不但可以帮我们抹平战斗力的差距，更重要的是让黎塞留失去了观众。",
+			say = "That's right. Without the Royal Navy in the way, it will be much easier to negotiate with Richelieu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			actor = 902010,
 			nameColor = "#ffff4d",
-			say = "失去了观众，演员继续表演也就没有意义了哦。",
+			say = "Negotiate...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "接下来就看黎塞留的选择了。是掉头离去，还是加入我们，亦或是奋战到底…",
+			say = "Yes, it is up to her whether she wants to join us, or to fight until the bitter end. Our defenses are already prepared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgName = "bg_qiongding_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "倘若真到了不得不兵戎相见的那一刻，我也希望诸位谨记，我们收到的命令单纯而明确，不惜一切代价守护圣堂。",
+			say = "Our role is to protect this Basilica... and we'll make sure they all understand that fact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "只要心怀信念与勇气，这将会是一场属于我们的海上奥尔良之战——！",
+			say = "Stay focused on our goals, and we'll achieve a gallant victory just like at Orléans! Hehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			actor = 901030,
 			nameColor = "#ffff4d",
-			say = "我明白了！没想到这次看起来简单作战计划背后有这么多考虑啊！",
+			say = "I understand now! You've given this a lot of thought, Algérie~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			actor = 901030,
 			nameColor = "#ffff4d",
-			say = "不过，阿尔及利亚，这次圣女贞德可是在她们那边哦…？",
+			say = "...Oh, uh, I think we're forgetting that Jeanne d'Arc is currently with the other side...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			actor = 902010,
 			nameColor = "#ffff4d",
-			say = "噗哈哈哈哈！",
+			say = "Pfft... Ahahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			actor = 903020,
 			nameColor = "#ffff4d",
-			say = "咳咳…！说明环节到此结束，大家按照作战计划去执行吧。",
+			say = "Phew... Anyway, let's stick to the plan for the time being. I'm tired from thinking about all these things...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
-			say = "阿尔及利亚的面颊上露出了短暂的笑容，但是随即又被厚厚的阴霾所覆盖。",
+			say = "Algérie put her hands together lightly and smiled to dismiss the ships gathered around her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
-			say = "沃克兰一边回忆着作战计划的内容，一边快步离开了圣堂中央。",
+			say = "The novice knight, Vauquelin, who was still new to the ways of the battlefield...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
-			say = "拉.加利索尼埃向远处静静矗立着的“援军”望了一眼，轻轻叹了口气离开了圣堂中央。",
+			say = "The uncontrollable La Galissonnière, who would throw herself into battle \"because it's fun\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			bgName = "bg_qiongding_6",
 			dir = 1,
 			blackBg = true,
-			say = "就这样，随着维希众人的陆续离开，维希教廷的战斗开始了。",
+			say = "...and the \"secret weapon.\" There were simply too many things to be concerned about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

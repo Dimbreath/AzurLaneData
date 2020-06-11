@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "莫桑比克海峡·塞壬控制区域",
+			say = "Mozambique Strait - Siren-Contested Area",
 			side = 2,
 			dir = 1,
 			bgm = "battle-boss-4",
@@ -25,7 +25,7 @@ return {
 			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			say = "倔强，四面八方发现大量塞壬舰船，正在向我们全速冲过来！",
+			say = "Opie, look at all the Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 801040,
-			say = "果然塞壬舰队除了封锁了圣堂，也有保护圣堂的意思在里面吧。",
+			say = "They're probably trying to stop us from reaching the Basilica.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 801030,
-			say = "那就让我们先击溃碍事的塞壬，再去和维希教廷的同伴们汇合嘛~",
+			say = "If we defeat them, we'll be able to meet up with our Vichya friends, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 801040,
-			say = "…我说，鲁莽啊。你那个维希教廷同伴的称呼现在还是改一下比较好。",
+			say = "Tem, they're our enemies now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 801030,
-			say = "唔，可是大家一直都是朋友啊，沃克兰，拉.加利索尼埃还有阿尔及利亚姐姐。",
+			say = "Is that so...? I had a nice chat with Vauquelin not too long ago~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 801030,
-			say = "以前大家一起去教堂做礼拜，一起在花园里办午餐会，还有……",
+			say = "We talked about religion, and about picnicking, and then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 801040,
-			say = "这些都是很久以前的事了…现在我们和维希教廷姑且还处于战争状态中哦。",
+			say = "You're too easygoing, Tem... Iris Libre and the Vichya Dominion are at war now. If you were to meet them on the battlefield...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 801030,
-			say = "这我也知道啦，不过倔强真的想对她们开火么？",
+			say = "Wait... Opie, would you really...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 801040,
-			say = "我？当然不想了。我们原本就没有相互战斗的理由吧。但是既然在战斗中，还是不要用太亲昵的称呼比较好。",
+			say = "Of course I wouldn't...! But right now, we need to stay focused on the operation. Let's forget about all that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 801040,
-			say = "况且这次是联合行动，如果让皇家的人听到了会怎么想呢？本次作战对于黎塞留大人来说意义重大，你肯定不希望这些小事影响她的计划吧。",
+			say = "We're working with the Royal Navy as well. If this kind of talk caught their attention, we'd end up causing trouble for Richelieu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 801030,
-			say = "唔，我知道啦。皇家的同伴怎么说呢，虽然还是和以前一样友好，但是总感觉有一堵厚厚的墙壁在中间…",
+			say = "I guess you're right. But teaming up with the Royal Navy... still doesn't feel quite right. Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 801040,
-			say = "毕竟发生了那种事嘛…一起相处的时候，就算我们不再追究，她们心中也不会毫无波澜吧。",
+			say = "After what happened to Dunkerque and Jean Bart, there's no way we wouldn't have our concerns...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 801040,
-			say = "不论是我们还是她们，都回不到过去相处的状态了。",
+			say = "We wouldn't be able to just move on and act like everything is forgiven...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			say = "呜……算啦，现在不是想复杂事情的时候！皇家的同伴也好、维希教廷的同伴也好、这次有黎塞留大人在，肯定不会有问题的！",
+			say = "...That's enough of the downer talk! Let's just forget about this and let Béarn handle the complicated stuff!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 801030,
-			say = "我们还是专心于眼前的事，一鼓作气消灭这些塞壬吧！",
+			say = "Right now, we have to focus on what's in front of us – the Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 801040,
-			say = "哎，有时候真羡慕你无忧无虑的性格…说得对，至少对塞壬没有手下留情的必要。",
+			say = "Yes, let's stick to that for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			actor = 801040,
 			nameColor = "#a9f548",
-			say = "火力全开，让这些塞壬感受一下我们的力量吧！",
+			say = "With me, Tem!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

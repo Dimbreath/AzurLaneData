@@ -12,7 +12,7 @@ return {
 			bgm = "level-french2",
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			say = "呼呼呼，诸位，好久不见啊！看到这些由我沃克兰带领的军团了么，很厉害吧！",
+			say = "Hahah! Behold the Vichya Dominion's enhanced, indestructible Mass-Production Corps, led by the unvanquished Vauquelin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一段时间不见，那个总是恶作剧沃克兰也成为独当一面带领舰队作战的人了呢。",
+			say = "What? The unvanquished Vauquelin? Enhanced and indestructible...?! Why must God test us with such tribulations...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "向你致以问候，圣女贞德。没想到我们会以这种方式在战场上再会。",
+			say = "Uhh, I was just trying to think of something cool to say, so you don't have to take it so literally! That's super embarrassing... *blush*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我就直截了当的说了，加入自由鸢尾吧，我们不想和你战斗。",
+			say = "Haha... But I must ask you once again, please return to Iris Libre! There's no reason for us to have to fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 901030,
-			say = "很遗憾，我再怎么说也是教廷骑士的一员。作为教廷骑士就要遵循教廷的命令，临战倒戈的事我可做不出来哦。",
+			say = "I-I'm glad you feel that way, but as one of the Vichya's glorious Templar Knights, I can't just hang up my gear and say, \"sure thing!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			expression = 7,
 			dir = -1,
 			nameColor = "#ff5c5c",
-			say = "不过我也不想和你们战斗啦。阿尔及利亚说过，只要你们立刻调转船头离开圣堂或者干脆回归维希教廷，我就没有开火的必要了！",
+			say = "...Besides, I don't want to fight you either. As Algérie said, if I can get you to turn around or convince you to join us, I won't have to fire a single shot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一点也请容我们拒绝。我们既不会加入维希教廷，也不会在夺回圣堂之前离开。",
+			say = "...Sorry, but that's off the table. We have something we must do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			expression = 9,
 			dir = -1,
 			nameColor = "#ff5c5c",
-			say = "唔唔……既然这样的话，让我们来一场符合骑士身份的战斗吧！",
+			say = "Mm... What should we do then...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "就由我和你，一对一，以决斗的方式决定这场战斗的胜负！",
+			say = "Ah, I know! How about, instead of fighting with our rigging, we joust the old-fashioned, knightly way?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很遗憾，这也不行。兵力上我们处于绝对优势，没有理由和你采取一对一定胜负这种高风险的战斗方式。",
+			say = "You'd like to settle this with the sword? Very well. I, Jeanne d'Arc, shall not hold back...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			expression = 5,
 			dir = -1,
 			nameColor = "#ff5c5c",
-			say = "呜啊…不愧是圣女贞德，真是滴水不漏啊…………",
+			say = "Wait, wait, wait! I'd totally get my butt handed to me! Um... I was just blurting out some ideas!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为现在是在战场上，抱歉了。",
+			say = "Really? That's too bad though, since this is a battlefield after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = -1,
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			say = "唔………哎？！等、等等！鲁莽倔强还有那个皇家的命运女神，什么时候从别处包围过来了！",
+			say = "Fine, I'll take you on then! Wait, Tem, you're coming at me too?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在战场上分神可是很危险的哦，沃克兰。",
+			say = "If you don't want to duel me one-on-one, we'll just fight the usual way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = -1,
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			say = "维、维希教廷舰队，准备战斗！！！！！！！！！",
+			say = "Ehhhhhh?! F-fine, let's do this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

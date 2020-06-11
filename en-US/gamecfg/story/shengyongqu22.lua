@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "黎塞留，阿尔及利亚正带领舰队向我们靠近。",
+			say = "Richelieu, Algérie's fleet is approaching.",
 			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "首先诱导游击舰队离开，接着启动极光之壁将我们分隔，然后亲自带队解决航空编队的计划么。",
+			say = "If this barrier was a part of Algérie's tactics, then we can assume the Vauquelin's fleet was a diversion to pull away our vanguard fleet while she planned to attack us here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只用沃克兰一个人就吸引走了我们整个游击编队。现在这种状态下正面交火话，她们也确实多了不少胜算呢。",
+			say = "Without our vanguard fleet, our chances of victory are much lower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			expression = 4,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……维希舰队里只有阿尔及利亚么，拉.加利索尼埃在哪里？",
+			say = "Is La Galissonnière here as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 807010,
-			say = "侦察机并没有在维希舰队中发现拉.加利索尼埃的踪迹。",
+			say = "I don't see her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 807010,
-			say = "不过也存在她暂时解除了舰装，混在量产型军舰上误导我们侦查的可能性。",
+			say = "She may have blended in with the mass-produced ships or hid herself somewhere to mislead us. She has a knack for dirty tricks like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟这次战斗制空权牢牢掌控在我们的手上嘛~",
+			say = "Miss Richelieu, if our carriers get incapacitated, we'll be at a significant disadvantage when dealing with their defense installations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "阿尔及利亚确实用不错的手段平衡了双方的舰队实力…",
+			say = "Indeed. Without a doubt, Algérie must be aiming for that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样好了，由我带领主力舰队去迎击阿尔及利亚。航空舰队就这样保持安全距离，用舰载机进行空中支援。",
+			say = "I will intercept Algérie. Let's have our carriers keep their distance and lend support with their aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "然后的话…嗯，现在的进攻还是有些过于直白了，我觉得阿尔及利亚的计划还有后手。",
+			say = "However, even if we guard our carriers, I'm worried that they have something else up their sleeves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "光辉、贝亚恩，把全部备用的舰载机也都放出去吧，拉.加利索尼埃大概率并不在对面的维希舰队中。",
+			say = "Béarn, just in case, I want you to shoot down some of the enemy planes into the Skybound Wall to see what happens. Algérie should still have another strategy saved up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "黎塞留说完，用手指了指天空中的云层。光辉和贝亚恩则心领神会的点了点头。",
+			say = "As the whispers of ancient legends coalesced with a stream of cutting-edge intelligence and data, Richelieu drafted plans to counter every scenario she could think of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

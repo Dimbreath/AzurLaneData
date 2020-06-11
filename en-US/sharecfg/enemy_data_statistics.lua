@@ -46947,7 +46947,7 @@ pg.enemy_data_statistics = {
 	},
 	[441] = {
 		cannon = 0,
-		name = "沃克兰",
+		name = "Vauquelin",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -47097,7 +47097,7 @@ pg.enemy_data_statistics = {
 	},
 	[442] = {
 		cannon = 0,
-		name = "拉·加利索尼埃",
+		name = "La Galissonnière",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -47234,7 +47234,7 @@ pg.enemy_data_statistics = {
 	},
 	[443] = {
 		cannon = 0,
-		name = "阿尔及利亚",
+		name = "Algérie",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -47364,7 +47364,7 @@ pg.enemy_data_statistics = {
 	},
 	[444] = {
 		cannon = 0,
-		name = "加斯科涅",
+		name = "Gascogne",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -47494,7 +47494,7 @@ pg.enemy_data_statistics = {
 	},
 	[445] = {
 		cannon = 0,
-		name = "狂风级量产型",
+		name = "Mass-Produced Bourrasque-class",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -47640,7 +47640,7 @@ pg.enemy_data_statistics = {
 	},
 	[446] = {
 		cannon = 0,
-		name = "埃米尔·贝尔汀级量产型",
+		name = "Mass-Produced Émile Bertin-class",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -47786,7 +47786,7 @@ pg.enemy_data_statistics = {
 	},
 	[447] = {
 		cannon = 0,
-		name = "阿尔及利亚级量产型",
+		name = "Mass-Produced Algérie-class",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -47939,7 +47939,7 @@ pg.enemy_data_statistics = {
 	},
 	[448] = {
 		cannon = 0,
-		name = "布列塔尼级量产型",
+		name = "Mass-Produced Provence-class",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -48092,7 +48092,7 @@ pg.enemy_data_statistics = {
 	},
 	[449] = {
 		cannon = 0,
-		name = "贝亚恩级量产型",
+		name = "Mass-Produced Béarn-class",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

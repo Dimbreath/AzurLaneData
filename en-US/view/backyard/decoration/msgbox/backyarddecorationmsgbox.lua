@@ -67,7 +67,7 @@ function slot0.OnInit(slot0)
 				uv0:ShowInnerMsgBox(slot2, function ()
 					uv0:HideInnerMsgBox()
 					uv0:Hide()
-				end, false, "缺少以下家具")
+				end, false, "Missing these items")
 			end
 		end
 

@@ -6043,7 +6043,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during\n(<color=#A1E400FF>3.26 – 4.8</COLOR>)!"
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>6.11 – 6.24</COLOR>)!"
 	},
 	twitter_link_title = {
 		tip = "Twitter Account:$1"
@@ -6987,7 +6987,7 @@ Combat Details:
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "L'Opiniâtre, Le Malin, Dunkerque, Surcouf, and others are now available from construction!"
+		tip = "Richelieu, Algérie, and Vauquelin have increased build rates! "
 	},
 	buildship_heavy_tip = {
 		tip = "Duke of York added to standard build pool! "
@@ -10151,10 +10151,10 @@ By tapping the “Quick Retire” button to the bottom left of the Retire interf
 		tip = "补签"
 	},
 	collect_tip = {
-		tip = "Some selected ships are busy. Unable to form commsion fleet. "
+		tip = "Some selected ships are busy. Unable to form commission fleet. "
 	},
 	collect_tip2 = {
-		tip = "Some selected ships are busy. Unable to form commsion fleet. "
+		tip = "Some selected ships are busy. Unable to form commission fleet. "
 	},
 	towerclimbing_gametip = {
 		tip = {

@@ -10,7 +10,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 0,
 			dir = 1,
-			say = "唔…Z9和Z11一直跟着我们后面，Z17来了，那边的是Z12……Z19还是没到。",
+			say = "ツェンガ―ちゃん（Z9)とベルントちゃん（Z11)は付いてきてて、ディーターちゃん（Z17)とエーリッヒちゃん（Z13)はあっち…キュンネちゃん（Z19)がいないよぉ",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "撤退命令已经发出去半小时了，Z19还是没来么…",
+			say = "まだ来ていないのですか。…撤退の連絡は30分前に出したというのに",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "明明之前和厌战交战的时候还和我们在一起，难道说那时候通讯设备被打坏了么！",
+			say = "たしかロイヤルの支援艦隊に出くわした時にはまだいたのに…もしかして……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 401020,
-			say = "……这样的话她可能根本就没收到撤退的命令。",
+			say = "通信設備が損傷、ええ、わたしたちの撤退連絡を受信できなかった可能性がありますね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 401020,
-			say = "我们的弹药已经快要见底，这下麻烦了呢…",
+			say = "こっちにも余力がほとんどないですし――ええ、本当に厄介な状況になりましたね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

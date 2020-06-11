@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "战斗结局没有悬念。",
+			say = "However, the battle proved to be one-sided.",
 			side = 2,
 			dir = 1,
 			bgm = "story-french2",
@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "纵使维希教廷舰队已经用尽了全部努力，但她们需要面对的是一场没有希望的战斗。",
+			say = "Neither side held back in the ensuing clash, but the clear difference in combat power was insurmountable. There was no chance of victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在并不算漫长的战斗之后，几乎全部的要塞火力和绝大部分教廷量产级舰队都化为了冒着浓烟的残骸。",
+			say = "The coastal defense installations were vacant and unmanned, and even the mass-produced ships were completely silent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "纵使还屹立在海面之上的阿尔及利亚、拉.加利索尼埃以及沃克兰三人，也已经是满身伤痕了。",
+			say = "Only three Vichya ships remained... Algérie, La Galissonnière, and Vauquelin...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 902010,
-			say = "哎…果然还是不行么……阿尔及利亚，沃克兰，趁现在还有时间，得考虑了一下……",
+			say = "Welp, looks like we're outta options... Algérie, what do we do now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 901030,
-			say = "……有什么好考虑的，自己的墓志铭吗？",
+			say = "Wh-what do we do? ...I knew I should've booked it when I had the chance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 902010,
-			say = "考虑墓志铭虽然也不错，不过不是这个啦…圣堂，如果我们守不住的话，是不是摧毁了比较好？",
+			say = "Not like that would've done you any good. The Royal Navy is waiting for you on the other side, remember?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 902010,
-			say = "阿尔及利亚，司令部有下过这样这样的命令么？",
+			say = "If required, should I be prepared to sink?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 902010,
-			say = "……阿尔及利亚？",
+			say = "Algérie, hey, are you listening to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 901030,
-			say = "大家注意，皇家的光辉一个人向我们驶来了！",
+			say = "Hm? Illustrious is coming over here...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 902010,
-			say = "没想到最后选择用皇家的舰船来终结我们么……算了，总比死在自己同胞手里好。",
+			say = "How distasteful... it wouldn't be fun at all to go down the same way Dunkerque did...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "阿尔及利亚、沃克兰，很荣幸能与你们并肩战斗。让我们天堂里再见啦~",
+			say = "Well, if this is how things are going to end, I might as well give some holy \"guidance\" to as many Royal ships as I can... Hm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

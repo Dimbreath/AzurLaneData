@@ -11,7 +11,7 @@ return {
 			nameColor = "#ffa500",
 			side = 2,
 			dir = 1,
-			say = "谎言…背叛…事到如今依然是…谎言与背叛……",
+			say = "\"Lies, betrayal, and hypocrisy... are all cut from the same cloth...\"",
 			bgm = "story-french2",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不过…主是仁慈的。仁慈的主将会平等的为你们降下审判…",
+			say = "\"Judgment for the non-believers. Condemnation for the unrighteous. All the unclean shall be purged by the fires of Heaven.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "尽情的燃烧…尽情的毁灭。然后…",
+			say = "\"True believers shall be saved. Those pure of faith shall be rewarded. Awaken, evolve, and accept your divinity.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "迎接没有纷争、没有痛苦、也没有悲伤的新世界……",
+			say = "\"Let us welcome a new world free of pain and sorrow, a world beyond calculation and deceit...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "呵呵呵呵…………",
+			say = "\"Witness now, the second sacrament...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "沃克兰和拉.加利索尼埃，你们两个还愣着干什么，快点离开阿尔及利亚，想被她摧毁么！",
+			say = "Get away from her, you two!!",
 			effects = {
 				{
 					active = true,
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			actor = 901030,
 			nameColor = "#ffff4d",
-			say = "是、是！黎塞留大人！",
+			say = "G-Gyahhh?!",
 			effects = {
 				{
 					active = false,
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 902010,
-			say = "多谢提醒。被摧毁本身没什么，但是这种莫名其妙的状况下被阿尔及利亚摧毁可无法接受啊…",
+			say = "You don't have to tell me! Looks like things are gonna get... Actually, there's nothing fun about this situation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这股黑暗的力量和冲击………怎么可能！这种情况简直和当时遭遇俾斯麦的情况一样！！",
+			say = "Algérie's signal is identical to that of Bismarck of the Iron Blood...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "黎塞留，你到底还知道什么！圣堂里究竟还隐藏了什么东西！",
+			say = "It's the same as that black wisdom cube!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………虽然不知道当时你们皇家从铁血那里得到了什么。",
+			say = "A black wisdom cube... so that was the true nature of the Basilica's sacrament...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "作为签订条约的条件，鸢尾教国从铁血那里得到了一块“改良版心智魔方”。",
+			say = "(In the past, the Iron Blood promised to provide some technology in a three-way negotiation between the Iris Orthodoxy and the Sardegna Empire...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "最初我们想把它作为圣堂兵器的能量核心。但是在之后的实验里我们发现…",
+			say = "(I heard that Sardegna was given Siren technology to mass-produce ships, but I couldn't ever figure out what they gave us. No matter how many times I pressed the headquarters for an answer, I couldn't get anything out of them...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "这块所谓改良版心智魔方，一旦对外输出功率达到一定程度之后，就会表现出强烈的不稳定性。",
+			say = "(We only discovered this recently after Le Fantasque confirmed that Jean Bart had been rescued...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "不受控的能量喷涌而出，不但损坏了实验机器本身，甚至影响了周围实验人员的情感。",
+			say = "(The Basilica housed a special wisdom cube, a product of the Iron Blood's technology. We knew it was incredibly dangerous, but...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后实验被永久停止，这块特殊的魔方被视为铁血的阴谋而被永远封存了。",
+			say = "...Everything makes sense now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "本来应该是这样的。但鸢尾教国的沦陷改变了这一切……",
+			say = "The sacrament is not the Iron Blood wisdom cube itself, but rather what the cube is capable of manifesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "我把这片区域作为最优先收复的地方，是因为这里的圣堂是整个鸢尾仅存的一台着能够使用这块特殊魔方的机器。",
+			say = "If this is going to be another repeat of what happened with Bismarck... then we must stop Algérie at all costs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "就算是半成品，将这样的兵器置于维希教廷的控制之下也太危险了。更没想到她们会在不成熟的条件下肆无忌惮的使用它…",
+			say = "If their goal was to recreate the legend of the Basilica, then we must avoid the third sacrament, or everything will be burned away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………要像对付俾斯麦的时候一样对付阿尔及利亚了么…",
+			say = "...I never thought the sacraments would be used like this...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像有点不太一样……胜利跟我说过，俾斯麦当时是在直接掏出了一个黑色的魔方之后才变得奇怪的。",
+			say = "But, when we fought Bismarck, the only thing we could do was sink her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阿尔及利亚手中明明只有一个小盒子，并没有把黑色的魔方带在身上啊。",
+			say = "Must we repeat that tragedy once again...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "按照当初的设计，魔方应该作为整个极光之壁的核心供能装置被放置在圣堂中心。阿尔及利亚手中的小盒子只是接受核心能量供应的控制器。",
+			say = "...If we must, we will destroy the Basilica instead. If those black wisdom cubes are the source of these \"sacraments\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也就是说…如果破坏了圣堂中心的供能设施的话，影响阿尔及利亚的奇怪能量就会消失了？",
+			say = "By destroying the Basilica, there will no longer be any way of reproducing the sacraments, and Algérie will return to normal...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从理论上来讲可行…",
+			say = "Yes, though this is just my best inference...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "但是圣堂本身被修建十分坚固，现在又被光幕构成的穹顶所包围。再加上这种状态的阿尔及利亚挡在中间，这个计划恐怕没有办法顺利进行。",
+			say = "Having that said, destroying the Basilica is no trivial task either. We'll still have to get through the Skybound Wall and Algérie herself...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			side = 2,
 			soundeffect = "event:/battle/boom2",
 			dir = 1,
-			say = "轰------！",
+			say = "BOOM!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "一连串的猛烈炮击声重新打破了战场的平静。皇家、自由鸢尾、甚至维希教廷的舰队都被漆黑的炮火无差别的攻击着。",
+			say = "Suddenly, the lull on the battlefield was broken by a violent and indiscriminate bombardment. Streaks of dark artillery rained down upon Iris, Vichya, and Royal alike.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 902010,
-			say = "糟了，阿尔及利亚开始攻击了哦！这火力也太恐怖了吧……",
+			say = "Algérie, you're pushing it too far!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			actor = 902010,
 			nameColor = "#ffff4d",
-			say = "黎塞留，现在我们暂时听你指挥，要怎么做才能救阿尔及利亚你给个准话！干愣在这里可是会被当成靶子打哦！",
+			say = "Richelieu, what are we going to do? If we can't get Algérie back, everything's going to be destroyed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "……………………",
+			say = "I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 802020,
-			say = "黎塞留，让我去拖住阿尔及利亚吧。你们集中全部火力攻陷圣堂，破坏阿尔及利亚的能量供应。",
+			say = "I'll draw Algérie's attention! Richelieu, take the others and destroy the Basilica!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "…只靠你一个人？不行，太危险了，我让航空舰队一起掩护你一同战斗。",
+			say = "Jeanne?! That's way too risky! At least take Béarn with you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,12 +596,12 @@ return {
 			}
 		},
 		{
-			actorName = "圣女贞德",
+			actorName = "Jeanne d'Arc",
 			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……………",
+			say = "No...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,12 +612,12 @@ return {
 			}
 		},
 		{
-			actorName = "圣女贞德",
+			actorName = "Jeanne d'Arc",
 			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阿尔及利亚理性之光已经被愤怒和仇恨遮蔽了，在摧毁我们最后一个人之前，她是不会停止战斗的。",
+			say = "Algérie has been swallowed by the power of the black cube. She won't stop at anything until she has exterminated all of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,12 +628,12 @@ return {
 			}
 		},
 		{
-			actorName = "圣女贞德",
+			actorName = "Jeanne d'Arc",
 			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "仿佛将整个地狱融入了心中一般，阿尔及利亚正在被这些真实而又虚幻的情感煎熬着。",
+			say = "I'm sure the real Algérie is still inside there... she would never wield such foul sorcery of her own volition!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,12 +644,12 @@ return {
 			}
 		},
 		{
-			actorName = "圣女贞德",
+			actorName = "Jeanne d'Arc",
 			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我能感受到，这些情感并不属于她，这份痛苦也不应当由她来承担…",
+			say = "\"You only live once. This is the only life that God has given us.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,12 +660,12 @@ return {
 			}
 		},
 		{
-			actorName = "圣女贞德",
+			actorName = "Jeanne d'Arc",
 			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我能聆听到，在这片地狱的深处，真正的阿尔及利亚正在无声的呐喊着…",
+			say = "We cannot let Algérie become a sacrifice... Richelieu has shown us the correct path forward, not as ships, but as people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,12 +676,12 @@ return {
 			}
 		},
 		{
-			actorName = "圣女贞德",
+			actorName = "Jeanne d'Arc",
 			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以放手战斗吧，集中全部的火力攻击圣堂。",
+			say = "So, I must become the light that will guide everyone into the future!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,12 +692,12 @@ return {
 			}
 		},
 		{
-			actorName = "圣女贞德",
+			actorName = "Jeanne d'Arc",
 			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们越早摧毁供能装置，越早将阿尔及利亚从黑暗中解脱出来，才能越早结束这场悲惨的战斗。",
+			say = "My name shall become the light that dispels the darkness consuming Algérie!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,8 +712,8 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_4",
 			dir = 1,
-			actorName = "黎塞留",
-			say = "可是………你可能会被她彻底摧毁啊！",
+			actorName = "Richelieu",
+			say = "Jeanne!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -729,12 +729,12 @@ return {
 			}
 		},
 		{
-			actorName = "圣女贞德",
+			actorName = "Jeanne d'Arc",
 			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我无所畏惧,因为神与我同在。",
+			say = "Don't worry, Richelieu! I have nothing to fear, because the Lord is at my side!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			bgName = "bg_qiongding_4",
 			dir = 1,
 			blackBg = true,
-			say = "贞德在胸前简单的画了一个十字，然后高举旗帜，毫不迟疑的冲入覆盖阿尔及利亚的黑暗之中。",
+			say = "Raising her standard high, the Iris knight charged forward into the darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

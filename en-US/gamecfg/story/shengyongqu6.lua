@@ -9,7 +9,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "莫桑比克海峡·圣堂中央",
+			say = "The Basilica Isle",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "在自由鸢尾和皇家的联合舰队与塞壬展开战斗的同时----",
+			say = "While the combined forces of the Royal Navy and Iris Libre were engaging the Sirens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,8 +49,8 @@ return {
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "bgm-cccp2",
-			actorName = "沃克兰",
-			say = "警警警报！自由鸢尾和皇家的联合舰队刚刚驶入莫桑比克海峡，已经与封锁海峡的塞壬舰队发生战斗了！",
+			actorName = "Vauquelin",
+			say = "The Iris-Royal Navy forces have entered the waters around the Basilica and are now engaging the Sirens there!",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -70,12 +70,12 @@ return {
 			}
 		},
 		{
-			actorName = "拉.加利索尼埃",
+			actorName = "La Galissonnière",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "果然按时来了啊，这次教廷的情报倒是意外的准确嘛。",
+			say = "They're already here?! Ahaha, now this is what I've been looking forward to!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actorName = "阿尔及利亚",
+			actorName = "Algérie",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "也不能总像之前一样一而再再而三吃亏嘛。由枢机主教黎塞留亲自带队，再加上皇家的大贵族光辉。",
+			say = "If the Cardinal is personally leading this operation, their morale is probably quite high~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,12 +102,12 @@ return {
 			}
 		},
 		{
-			actorName = "阿尔及利亚",
+			actorName = "Algérie",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "为了到我们这个偏远的圣堂“做礼拜”，还真是来了一个豪华阵容啊…",
+			say = "...Anyway, they sure are devoting a considerable amount of effort into taking this Basilica.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,12 +118,12 @@ return {
 			}
 		},
 		{
-			actorName = "拉.加利索尼埃",
+			actorName = "La Galissonnière",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "唔……要是就这么把圣堂丢了，我们可就麻烦大了哎…",
+			say = "I'm guessing the party's over if we lose this place to them, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,12 +134,12 @@ return {
 			}
 		},
 		{
-			actorName = "沃克兰",
+			actorName = "Vauquelin",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "阿尔及利亚、拉.加利索尼埃，你们难道不觉得奇怪么？",
+			say = "Super over. They should just libre-rate their inner party animals and join us instead. Get it? Libre-rate? Okay, never mind...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,12 +150,12 @@ return {
 			}
 		},
 		{
-			actorName = "沃克兰",
+			actorName = "Vauquelin",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "这里的圣堂就算再重要也不过是栋有历史意义的建筑而已吧。",
+			say = "...I just don't understand them at all. Why'd they come all the way out here, so far from the European continent?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,12 +166,12 @@ return {
 			}
 		},
 		{
-			actorName = "沃克兰",
+			actorName = "Vauquelin",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "明明欧罗巴大陆现在更加危险，为什么不调我们回去防卫本土，反而增派了援军过来陪我们一起看风景啊…",
+			say = "This Basilica might be important for the Iris Libre, but I can't believe they'd go so far as to try to steal it from us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,12 +182,12 @@ return {
 			}
 		},
 		{
-			actorName = "拉.加利索尼埃",
+			actorName = "La Galissonnière",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "可是黎塞留真的乖乖带着舰队兴师动众的绕了一大圈过来找我们玩了。应该说教廷司令部难得的料事如神呢，还是说…",
+			say = "Just what is their leadership thinking?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,12 +198,12 @@ return {
 			}
 		},
 		{
-			actorName = "拉.加利索尼埃",
+			actorName = "La Galissonnière",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "阿尔及利亚，你知道我们现在保卫的圣堂究竟隐藏着什么能让黎塞留感兴趣的东西么？",
+			say = "Algérie, is there anything unusual about this Basilica?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,12 +214,12 @@ return {
 			}
 		},
 		{
-			actorName = "阿尔及利亚",
+			actorName = "Algérie",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "不知道。我收到的命令很简单，不惜代价保护圣堂，击退或消灭一切入侵者。",
+			say = "Not that I know. Having that said, there is something that bothers me... We were ordered to \"protect the Basilica at any cost.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,12 +230,12 @@ return {
 			}
 		},
 		{
-			actorName = "拉.加利索尼埃",
+			actorName = "La Galissonnière",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "你也什么都不知道么…其实我因为太好奇，已经偷偷调查过一轮啦。至于调查的结果，你们猜怎么样？",
+			say = "So, even Algérie doesn't know. Y'know, I actually looked into it a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,12 +246,12 @@ return {
 			}
 		},
 		{
-			actorName = "阿尔及利亚",
+			actorName = "Algérie",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "我不好奇。",
+			say = "Oh, is that so?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,8 +266,8 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_3",
 			dir = 1,
-			actorName = "沃克兰",
-			say = "我很好奇！",
+			actorName = "Vauquelin",
+			say = "Ooh, I wanna hear about it!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -283,12 +283,12 @@ return {
 			}
 		},
 		{
-			actorName = "拉.加利索尼埃",
+			actorName = "La Galissonnière",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "令人震惊的是，就算利用我在审判庭的关系查到的蛛丝马迹，居然也都是最高机密！",
+			say = "It's not like I learned anything though. Not even my friend on the \"other\" side knew about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,12 +299,12 @@ return {
 			}
 		},
 		{
-			actorName = "沃克兰",
+			actorName = "Vauquelin",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "……………………",
+			say = "Aww...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,12 +315,12 @@ return {
 			}
 		},
 		{
-			actorName = "拉.加利索尼埃",
+			actorName = "La Galissonnière",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "算啦，就算是阻止枢机主教拿回她落在圣堂的旧袍子，我们也得拼命战斗才是…还是想想怎么应付眼前的攻击吧。",
+			say = "Well, maybe they're just trying to settle an old score? Algérie, should we intercept them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,12 +331,12 @@ return {
 			}
 		},
 		{
-			actorName = "沃克兰",
+			actorName = "Vauquelin",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "……要是封锁海峡的塞壬能就这么把黎塞留她们挡在外面就好了呢。",
+			say = "It'd be nice if the Sirens could push them back without us~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,12 +347,12 @@ return {
 			}
 		},
 		{
-			actorName = "拉.加利索尼埃",
+			actorName = "La Galissonnière",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "那群杂鱼连我都挡不住，怎么可能挡住黎塞留的联合舰队啊。",
+			say = "Nuh-uh, no way that's happening. I could take those scrapheaps on all by myself; there's no way they'd be able to stop a joint fleet led by the Cardinal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,12 +363,12 @@ return {
 			}
 		},
 		{
-			actorName = "拉.加利索尼埃",
+			actorName = "La Galissonnière",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "不过嘛，作为第一波炮灰牺牲掉倒是不错。它们倒是还是真听话，不让它们靠近圣堂周边，它们就真的不靠过来了。",
+			say = "The best we can hope for is that they'll buy us some time. Not sure how we keep them from approaching the Basilica, but this is the best we got.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,12 +379,12 @@ return {
 			}
 		},
 		{
-			actorName = "阿尔及利亚",
+			actorName = "Algérie",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "塞壬能这么听从铁血的命令，反而令我感到非常恐怖。铁血现在究竟在和塞壬做些什么…",
+			say = "We have no way of controlling those mass-produced Sirens manufactured by the Iron Blood, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,12 +395,12 @@ return {
 			}
 		},
 		{
-			actorName = "拉.加利索尼埃",
+			actorName = "La Galissonnière",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "你这个问题现在该是，教廷和铁血以及塞壬究竟在做些什么才对了…",
+			say = "Well, it's none of my concern. I wonder what the leadership of the Vichya and Iron Blood are up to right now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_3",
 			dir = 1,
-			say = "拉.加利索尼埃往后瞥了一眼，在远方的高墙下，一个强大的战争机器仿佛一具雕塑一般，静静地矗立着。",
+			say = "La Galissonnière looked over into the distance, where she saw a figure on the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			actorName = "拉.加利索尼埃",
+			actorName = "La Galissonnière",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "…那个教廷派来“秘密兵器”你也看到了，她真的是「舰船」么？",
+			say = "The Vichya Dominion's secret weapon, prepared especially for this operation... is that her over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,12 +441,12 @@ return {
 			}
 		},
 		{
-			actorName = "拉.加利索尼埃",
+			actorName = "La Galissonnière",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "黎塞留级战列舰四号舰加斯科涅。我可没听说过黎塞留级存在有一艘四号舰啊！",
+			say = "I've never heard of a fourth Richelieu-class ship before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,12 +457,12 @@ return {
 			}
 		},
 		{
-			actorName = "拉.加利索尼埃",
+			actorName = "La Galissonnière",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "从递交了司令部的证明文件之后就一言不发的立在那里，不与我们交流，甚至不听从你这个圣堂舰队指挥的命令。",
+			say = "She's been there motionless ever since she got here. She has following Algérie's orders, but in this emotionless way, like she's a robot or something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,12 +473,12 @@ return {
 			}
 		},
 		{
-			actorName = "拉.加利索尼埃",
+			actorName = "La Galissonnière",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "从我的个人经验来说，这怎么看都不是前来支援的“援军”的架势啊……",
+			say = "Is she really on our side...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,12 +489,12 @@ return {
 			}
 		},
 		{
-			actorName = "阿尔及利亚",
+			actorName = "Algérie",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "这种情况下就算一艘量产型也很宝贵…有了总比没有好，我们也没有选择的余地了。",
+			say = "We can't ask for too much when we don't even have the mass-production ships at our disposal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,12 +505,12 @@ return {
 			}
 		},
 		{
-			actorName = "阿尔及利亚",
+			actorName = "Algérie",
 			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "全员注意，下面开始进行作战部署。",
+			say = "Now, allow me to explain our strategy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

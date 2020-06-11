@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-1",
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "铁血的驱逐舰，追上了…哎？！数量变多了！",
+			say = "鉄血駆逐艦、追いついた！…って数が増えてる！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "轰-------------！",
+			say = "*beep beep*！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "哇啊啊，一声不吭的打过来了！",
+			say = "こ、攻撃してきた！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201320,
-			say = "爱、爱斯基摩人，准备进行战斗！",
+			say = "ええままよ！エスキモー、アタァァック！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

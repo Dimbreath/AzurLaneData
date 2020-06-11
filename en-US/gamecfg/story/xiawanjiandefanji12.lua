@@ -10,7 +10,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			say = "果然驱逐舰想要挑战战列舰还是太勉强了么…",
+			say = "くっ…さすがに戦力差が開きすぎですね",
 			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Z2，我的弹药已经打光了…",
+			say = "ティーレちゃん、こっちの弾薬が尽きたよ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "到此为止了，铁血的驱逐舰，你们战斗得很英勇。",
+			say = "そこまでよ鉄血の駆逐艦たち。あなた達はよく戦った。戦闘態勢を解いて――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			say = "轰-------------！",
+			say = "Must we repeat that tragedy once again...?ABOOM!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？哪来的炮击声！",
+			say = "砲撃？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "铁血驱逐舰Z12和Z17正从侧后方向我们发动攻击。",
+			say = "残りの鉄血駆逐艦が後ろから攻撃してきたよ！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -142,7 +142,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯。",
+			say = "……うむ。そうか…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z2和Z18正在向峡湾的深处缓慢撤退，要追击么？",
+			say = "あ！Z2とZ18が峡湾の奥へと逃げて行ったよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这条峡湾的尽头，是死路吧。",
+			say = "あちらからは脱出できないはずだわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的…",
+			say = "はい",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我们先去追击Z12和Z17，不能让她们跑了。",
+			say = "では、まずはZ12とZ17に会いに行くわよ。あの子たちを逃がしはしないわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于Z2和Z18…这点时间我们还是可以给的。",
+			say = "（なるほど、Z2とZ18、「場所」も合わせてくれたのかしら）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就当做是为勇敢献上的敬意吧。",
+			say = "フォックスハウンド、艦隊反転よ。鉄血の勇敢な子たちには礼を尽くして接するべきだわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了…舰队调整航向，准备追击铁血驱逐舰Z12和Z17的作战！",
+			say = "了解！艦隊反転、鉄血駆逐艦を追おう！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			bgm = "level02",
 			actor = 201320,
 			nameColor = "#a9f548",
-			say = "唔…唔？",
+			say = "んん……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于醒过来了么，爱斯基摩人！",
+			say = "エスキモー、大丈夫かしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201320,
-			say = "哎？厌战？战斗结束了么？",
+			say = "ウォースパイト様？戦いはもう終わったの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还没有，不过很快就要结束了哦。",
+			say = "いいえ、でももう少しよ。あなたも鉄血の子たちも勇敢に戦ったわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201320,
-			say = "这样啊…Z2和Z18她们…",
+			say = "Z2とZ18たちは……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…别想太多，你先好好休息吧",
+			say = "あの子たちは責任を持って預かるわ。今は休んで頂戴",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次我有好好努力哦…",
+			say = "うん、我ながら頑張ったな―と思う…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我都看到了。知道你这样英勇战斗，女王陛下也会十分高兴吧。",
+			say = "見たわよ。あのエスキモーがこんなに頑張れることを知ったら陛下も喜ぶんじゃないかしら",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的嘛？女王陛下的夸奖…嘿嘿嘿嘿…",
+			say = "本当？陛下からのご褒美があるといいなーあははは…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们进行的每场战斗，都是为结束这场战争而做出的一小份贡献。",
+			say = "「すべての戦いはこの戦争を終わらせるため」――私たちの努力にはきっと意義があるわよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201320,
-			say = "复杂的事我不懂啦…不过，既然是正确的事，就算有些感伤，我还是会坚持下去的",
+			say = "難しいことはよくわからないけど、要はみんないい方向に向かってるってことね――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201320,
-			say = "啊，感觉又有些困了…",
+			say = "ふはー、ちょっと眠いかも…今度母港でZ2たちと出会ったら遊んでみたいな……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "安心睡吧。等你再醒来的时候，我们就在回家的路上了哦",
+			say = "今は眠りなさい。次に目が覚めるときにはもうロイヤルに戻っているはずよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "厌战，Z17向你的方向高速冲过去了！",
+			say = "ウォースパイト様！鉄血の駆逐艦を捕捉したよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "收到。最大舰速前进，让我们结束这场战斗吧！",
+			say = "うむ、全艦前進！この戦いを終わらせるわよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

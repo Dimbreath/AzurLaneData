@@ -14569,6 +14569,99 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[454] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 8,
+		hide = 0,
+		index_id = 364,
+		group_type = 80202,
+		code = 454,
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Skybound Oratorio",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[453] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 8,
+		hide = 0,
+		index_id = 365,
+		group_type = 80501,
+		code = 453,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Skybound Oratorio",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[458] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 8,
+		hide = 0,
+		index_id = 366,
+		group_type = 80701,
+		code = 458,
+		property_hexagon = {
+			"D",
+			"D",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Skybound Oratorio",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[350] = {
 		type = 8,
 		trans_skin = 0,
@@ -14671,6 +14764,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[457] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 9,
+		hide = 0,
+		index_id = 370,
+		group_type = 90103,
+		code = 457,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Skybound Oratorio",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[394] = {
 		type = 1,
 		trans_skin = 0,
@@ -14695,6 +14819,68 @@ pg.ship_data_group = {
 		description = {
 			{
 				"Event: Iris of Light and Dark",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[456] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 9,
+		hide = 0,
+		index_id = 372,
+		group_type = 90201,
+		code = 456,
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Skybound Oratorio",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[455] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 9,
+		hide = 0,
+		index_id = 373,
+		group_type = 90302,
+		code = 455,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Skybound Oratorio",
 				{
 					""
 				},
@@ -16147,10 +16333,16 @@ pg.ship_data_group = {
 		395,
 		347,
 		349,
+		454,
+		453,
+		458,
 		350,
 		351,
 		452,
+		457,
 		394,
+		456,
+		455,
 		352,
 		353,
 		418,

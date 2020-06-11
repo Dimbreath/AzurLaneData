@@ -1045,17 +1045,17 @@ pg.equip_data_statistics = {
 		id = 125,
 		tech = 1,
 		nationality = 3,
-		speciality = "空战",
+		speciality = "Air",
 		range = 90,
 		angle = 30,
 		value_2 = 0,
 		icon = "1",
-		value_1 = "3/轮",
+		value_1 = "3/wave",
 		is_siren = 0,
 		rarity = 1,
-		scatter = "无",
+		scatter = "N/A",
 		descrip = "默认装备",
-		ammo = "通常",
+		ammo = "Normal",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -1081,7 +1081,7 @@ pg.equip_data_statistics = {
 		id = 126,
 		tech = 1,
 		nationality = 3,
-		speciality = "雷击",
+		speciality = "Torpedo",
 		range = 90,
 		angle = 90,
 		value_2 = 0,
@@ -1089,9 +1089,9 @@ pg.equip_data_statistics = {
 		value_1 = "19 x 1",
 		is_siren = 0,
 		rarity = 1,
-		scatter = "无",
+		scatter = "N/A",
 		descrip = "默认装备",
-		ammo = "通常",
+		ammo = "Normal",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -1121,12 +1121,12 @@ pg.equip_data_statistics = {
 		angle = 90,
 		value_2 = 0,
 		icon = "1",
-		value_1 = "60/轮",
+		value_1 = "60/wave",
 		is_siren = 0,
 		rarity = 1,
 		scatter = "8",
 		descrip = "默认装备",
-		ammo = "通常",
+		ammo = "Normal",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -1554,7 +1554,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[251] = {
-		name = "撒丁雷击轻巡副炮T1",
+		name = "撒丁Torpedo轻巡副炮T1",
 		type = 1,
 		id = 251,
 		tech = 1,
@@ -1592,7 +1592,7 @@ pg.equip_data_statistics = {
 	},
 	[252] = {
 		id = 252,
-		name = "撒丁雷击轻巡副炮T2",
+		name = "撒丁Torpedo轻巡副炮T2",
 		base = 251,
 		is_siren = 0,
 		value_1 = "3 x 2",
@@ -1609,7 +1609,7 @@ pg.equip_data_statistics = {
 	},
 	[253] = {
 		id = 253,
-		name = "撒丁雷击轻巡副炮T3",
+		name = "撒丁Torpedo轻巡副炮T3",
 		base = 251,
 		is_siren = 0,
 		value_1 = "4 x 2",
@@ -1626,7 +1626,7 @@ pg.equip_data_statistics = {
 	},
 	[254] = {
 		id = 254,
-		name = "撒丁雷击轻巡副炮T4",
+		name = "撒丁Torpedo轻巡副炮T4",
 		base = 251,
 		is_siren = 0,
 		value_1 = "5 x 2",
@@ -2104,7 +2104,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[351] = {
-		name = "撒丁雷击重巡副炮T1",
+		name = "撒丁Torpedo重巡副炮T1",
 		type = 1,
 		id = 351,
 		tech = 1,
@@ -2142,7 +2142,7 @@ pg.equip_data_statistics = {
 	},
 	[352] = {
 		id = 352,
-		name = "撒丁雷击重巡副炮T2",
+		name = "撒丁Torpedo重巡副炮T2",
 		base = 351,
 		is_siren = 0,
 		value_1 = "3 x 2",
@@ -2159,7 +2159,7 @@ pg.equip_data_statistics = {
 	},
 	[353] = {
 		id = 353,
-		name = "撒丁雷击重巡副炮T3",
+		name = "撒丁Torpedo重巡副炮T3",
 		base = 351,
 		is_siren = 0,
 		value_1 = "4 x 2",
@@ -2176,7 +2176,7 @@ pg.equip_data_statistics = {
 	},
 	[354] = {
 		id = 354,
-		name = "撒丁雷击重巡副炮T4",
+		name = "撒丁Torpedo重巡副炮T4",
 		base = 351,
 		is_siren = 0,
 		value_1 = "5 x 2",
@@ -59159,7 +59159,7 @@ pg.equip_data_statistics = {
 		name = "航空攻击展示-贝亚恩I",
 		type = 99,
 		nationality = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -59170,7 +59170,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		descrip = "航母空袭展示用",
 		scatter = "0",
-		ammo = "无",
+		ammo = "N/A",
 		value_3 = 0,
 		id = 60511,
 		torpedo_ammo = 0,
@@ -63326,7 +63326,7 @@ pg.equip_data_statistics = {
 		name = "全弹发射-沃克兰级I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -63337,7 +63337,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		descrip = "技能弹幕",
 		scatter = "0",
-		ammo = "无",
+		ammo = "N/A",
 		value_3 = 0,
 		id = 78031,
 		torpedo_ammo = 0,
@@ -63408,7 +63408,7 @@ pg.equip_data_statistics = {
 		name = "全弹发射-拉·加利索尼埃I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -63419,7 +63419,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		descrip = "技能弹幕",
 		scatter = "0",
-		ammo = "无",
+		ammo = "N/A",
 		value_3 = 0,
 		id = 78121,
 		torpedo_ammo = 0,
@@ -63449,7 +63449,7 @@ pg.equip_data_statistics = {
 		name = "全弹发射-阿尔及利亚I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -63460,7 +63460,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		descrip = "技能弹幕",
 		scatter = "0",
-		ammo = "无",
+		ammo = "N/A",
 		value_3 = 0,
 		id = 78211,
 		torpedo_ammo = 0,
@@ -65540,7 +65540,7 @@ pg.equip_data_statistics = {
 		name = "专属弹幕-里诺I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -65551,7 +65551,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		descrip = "技能弹幕",
 		scatter = "0",
-		ammo = "无",
+		ammo = "N/A",
 		value_3 = 0,
 		id = 79521,
 		torpedo_ammo = 0,
@@ -65581,7 +65581,7 @@ pg.equip_data_statistics = {
 		name = "专属弹幕-圣女贞德I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -65592,7 +65592,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		descrip = "技能弹幕",
 		scatter = "0",
-		ammo = "无",
+		ammo = "N/A",
 		value_3 = 0,
 		id = 79541,
 		torpedo_ammo = 0,
@@ -70844,6 +70844,1109 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[90720] = {
+		name = "Single 138.6mm Main Gun (Mle 1927) ",
+		type = 1,
+		id = 90720,
+		tech = 2,
+		speciality = "Lock",
+		range = 60,
+		scatter = "15°",
+		angle = 360,
+		value_2 = 12,
+		icon = "50700",
+		value_1 = "6 x 4",
+		attribute_2 = "cannon",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "Normal",
+		descrip = "No description",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			90720
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[90721] = {
+		value_1 = "7 x 4",
+		id = 90721,
+		base = 90720,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90721
+		},
+		property_rate = {}
+	},
+	[90722] = {
+		value_1 = "8 x 4",
+		id = 90722,
+		base = 90720,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90722
+		},
+		property_rate = {}
+	},
+	[90723] = {
+		value_1 = "9 x 4",
+		id = 90723,
+		base = 90720,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90723
+		},
+		property_rate = {}
+	},
+	[90724] = {
+		value_1 = "10 x 4",
+		id = 90724,
+		base = 90720,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90724
+		},
+		property_rate = {}
+	},
+	[90725] = {
+		value_1 = "12 x 4",
+		id = 90725,
+		base = 90720,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90725
+		},
+		property_rate = {}
+	},
+	[90726] = {
+		value_1 = "14 x 4",
+		id = 90726,
+		base = 90720,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90726
+		},
+		property_rate = {}
+	},
+	[90740] = {
+		name = "Single 138.6mm Main Gun (Mle 1927) ",
+		type = 1,
+		id = 90740,
+		tech = 3,
+		speciality = "Lock",
+		range = 60,
+		scatter = "15°",
+		angle = 360,
+		value_2 = 25,
+		icon = "50700",
+		value_1 = "6 x 4",
+		attribute_2 = "cannon",
+		rarity = 4,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "Normal",
+		descrip = "No description",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			90740
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[90741] = {
+		value_1 = "7 x 4",
+		id = 90741,
+		base = 90740,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90741
+		},
+		property_rate = {}
+	},
+	[90742] = {
+		value_1 = "8 x 4",
+		id = 90742,
+		base = 90740,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90742
+		},
+		property_rate = {}
+	},
+	[90743] = {
+		value_1 = "9 x 4",
+		id = 90743,
+		base = 90740,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90743
+		},
+		property_rate = {}
+	},
+	[90744] = {
+		value_1 = "10 x 4",
+		id = 90744,
+		base = 90740,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90744
+		},
+		property_rate = {}
+	},
+	[90745] = {
+		value_1 = "11 x 4",
+		id = 90745,
+		base = 90740,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90745
+		},
+		property_rate = {}
+	},
+	[90746] = {
+		value_1 = "12 x 4",
+		id = 90746,
+		base = 90740,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90746
+		},
+		property_rate = {}
+	},
+	[90747] = {
+		value_1 = "13 x 4",
+		id = 90747,
+		base = 90740,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90747
+		},
+		property_rate = {}
+	},
+	[90748] = {
+		value_1 = "15 x 4",
+		id = 90748,
+		base = 90740,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90748
+		},
+		property_rate = {}
+	},
+	[90749] = {
+		value_1 = "17 x 4",
+		id = 90749,
+		base = 90740,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90749
+		},
+		property_rate = {}
+	},
+	[90750] = {
+		value_1 = "19 x 4",
+		id = 90750,
+		base = 90740,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90750
+		},
+		property_rate = {}
+	},
+	[90780] = {
+		name = "Twin 155mm Main Gun (Mle 1920) ",
+		type = 2,
+		id = 90780,
+		tech = 0,
+		speciality = "Lock",
+		range = 60,
+		scatter = "10°",
+		angle = 120,
+		value_2 = 12,
+		icon = "50780",
+		value_1 = "10 x 4",
+		attribute_2 = "cannon",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "Normal",
+		descrip = "No description",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			90780
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[90781] = {
+		value_1 = "12 x 4",
+		id = 90781,
+		base = 90780,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90781
+		},
+		property_rate = {}
+	},
+	[90782] = {
+		value_1 = "14 x 4",
+		id = 90782,
+		base = 90780,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90782
+		},
+		property_rate = {}
+	},
+	[90783] = {
+		value_1 = "16 x 4",
+		id = 90783,
+		base = 90780,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90783
+		},
+		property_rate = {}
+	},
+	[90784] = {
+		value_1 = "17 x 4",
+		id = 90784,
+		base = 90780,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90784
+		},
+		property_rate = {}
+	},
+	[90785] = {
+		value_1 = "18 x 4",
+		id = 90785,
+		base = 90780,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90785
+		},
+		property_rate = {}
+	},
+	[90786] = {
+		value_1 = "19 x 4",
+		id = 90786,
+		base = 90780,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90786
+		},
+		property_rate = {}
+	},
+	[90800] = {
+		name = "Single 155mm Secondary Gun (Mle 1920) ",
+		type = 2,
+		id = 90800,
+		tech = 0,
+		speciality = "Lock",
+		range = 55,
+		scatter = "15°",
+		angle = 120,
+		value_2 = 12,
+		icon = "50800",
+		value_1 = "10 x 4",
+		attribute_2 = "cannon",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "Normal",
+		descrip = "No description",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			90800
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG",
+			"AP"
+		}
+	},
+	[90801] = {
+		value_1 = "12 x 4",
+		id = 90801,
+		base = 90800,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90801
+		},
+		property_rate = {}
+	},
+	[90802] = {
+		value_1 = "14 x 4",
+		id = 90802,
+		base = 90800,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90802
+		},
+		property_rate = {}
+	},
+	[90803] = {
+		value_1 = "16 x 4",
+		id = 90803,
+		base = 90800,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90803
+		},
+		property_rate = {}
+	},
+	[90804] = {
+		value_1 = "17 x 4",
+		id = 90804,
+		base = 90800,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90804
+		},
+		property_rate = {}
+	},
+	[90805] = {
+		value_1 = "18 x 4",
+		id = 90805,
+		base = 90800,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90805
+		},
+		property_rate = {}
+	},
+	[90806] = {
+		value_1 = "19 x 4",
+		id = 90806,
+		base = 90800,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90806
+		},
+		property_rate = {}
+	},
+	[90820] = {
+		name = "Gourdou-Leseurre GL.2 Fighter ",
+		type = 7,
+		id = 90820,
+		tech = 0,
+		speciality = "Air",
+		range = 90,
+		scatter = "N/A",
+		angle = 30,
+		value_2 = 12,
+		icon = "50820",
+		value_1 = "9/wave",
+		attribute_2 = "air",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "Normal",
+		descrip = "No description",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			90820,
+			88000
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"FT"
+		}
+	},
+	[90821] = {
+		value_1 = "10/wave",
+		id = 90821,
+		base = 90820,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90821,
+			88001
+		},
+		property_rate = {}
+	},
+	[90822] = {
+		value_1 = "11/wave",
+		id = 90822,
+		base = 90820,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90822,
+			88002
+		},
+		property_rate = {}
+	},
+	[90823] = {
+		value_1 = "12/wave",
+		id = 90823,
+		base = 90820,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90823,
+			88003
+		},
+		property_rate = {}
+	},
+	[90824] = {
+		value_1 = "13/wave",
+		id = 90824,
+		base = 90820,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90824,
+			88004
+		},
+		property_rate = {}
+	},
+	[90825] = {
+		value_1 = "15/wave",
+		id = 90825,
+		base = 90820,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90825,
+			88005
+		},
+		property_rate = {}
+	},
+	[90826] = {
+		value_1 = "17/wave",
+		id = 90826,
+		base = 90820,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90826,
+			88006
+		},
+		property_rate = {}
+	},
+	[90840] = {
+		name = "Pierre Levasseur PL.7 Torpedo Bomber ",
+		type = 8,
+		id = 90840,
+		tech = 0,
+		speciality = "Torpedo",
+		range = 90,
+		scatter = "N/A",
+		angle = 90,
+		value_2 = 12,
+		icon = "50840",
+		value_1 = "72 x 3",
+		attribute_2 = "air",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "Normal",
+		descrip = "No description",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			90840
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CV",
+			"TB"
+		}
+	},
+	[90841] = {
+		value_1 = "84 x 3",
+		id = 90841,
+		base = 90840,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90841
+		},
+		property_rate = {}
+	},
+	[90842] = {
+		value_1 = "96 x 3",
+		id = 90842,
+		base = 90840,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90842
+		},
+		property_rate = {}
+	},
+	[90843] = {
+		value_1 = "108 x 3",
+		id = 90843,
+		base = 90840,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90843
+		},
+		property_rate = {}
+	},
+	[90844] = {
+		value_1 = "120 x 3",
+		id = 90844,
+		base = 90840,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90844
+		},
+		property_rate = {}
+	},
+	[90845] = {
+		value_1 = "132 x 3",
+		id = 90845,
+		base = 90840,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90845
+		},
+		property_rate = {}
+	},
+	[90846] = {
+		value_1 = "144 x 3",
+		id = 90846,
+		base = 90840,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90846
+		},
+		property_rate = {}
+	},
+	[90860] = {
+		name = "Twin 203mm Main Gun (Mle 1924) ",
+		type = 3,
+		id = 90860,
+		tech = 1,
+		speciality = "Lock",
+		range = 55,
+		scatter = "15°",
+		angle = 38,
+		value_2 = 12,
+		icon = "50860",
+		value_1 = "26 x 4",
+		attribute_2 = "cannon",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "H-Explosive",
+		descrip = "No description",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			90860
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[90861] = {
+		value_1 = "28 x 4",
+		id = 90861,
+		base = 90860,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90861
+		},
+		property_rate = {}
+	},
+	[90862] = {
+		value_1 = "30 x 4",
+		id = 90862,
+		base = 90860,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90862
+		},
+		property_rate = {}
+	},
+	[90863] = {
+		value_1 = "32 x 4",
+		id = 90863,
+		base = 90860,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90863
+		},
+		property_rate = {}
+	},
+	[90864] = {
+		value_1 = "34 x 4",
+		id = 90864,
+		base = 90860,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90864
+		},
+		property_rate = {}
+	},
+	[90865] = {
+		value_1 = "36 x 4",
+		id = 90865,
+		base = 90860,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90865
+		},
+		property_rate = {}
+	},
+	[90866] = {
+		value_1 = "38 x 4",
+		id = 90866,
+		base = 90860,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90866
+		},
+		property_rate = {}
+	},
+	[90880] = {
+		name = "Twin 203mm Main Gun (Mle 1924) ",
+		type = 3,
+		id = 90880,
+		tech = 2,
+		speciality = "Lock",
+		range = 55,
+		scatter = "15°",
+		angle = 38,
+		value_2 = 25,
+		icon = "50860",
+		value_1 = "28 x 4",
+		attribute_2 = "cannon",
+		rarity = 4,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "H-Explosive",
+		descrip = "No description",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			90880
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[90881] = {
+		value_1 = "30 x 4",
+		id = 90881,
+		base = 90880,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90881
+		},
+		property_rate = {}
+	},
+	[90882] = {
+		value_1 = "32 x 4",
+		id = 90882,
+		base = 90880,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90882
+		},
+		property_rate = {}
+	},
+	[90883] = {
+		value_1 = "34 x 4",
+		id = 90883,
+		base = 90880,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90883
+		},
+		property_rate = {}
+	},
+	[90884] = {
+		value_1 = "36 x 4",
+		id = 90884,
+		base = 90880,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90884
+		},
+		property_rate = {}
+	},
+	[90885] = {
+		value_1 = "38 x 4",
+		id = 90885,
+		base = 90880,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90885
+		},
+		property_rate = {}
+	},
+	[90886] = {
+		value_1 = "40 x 4",
+		id = 90886,
+		base = 90880,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90886
+		},
+		property_rate = {}
+	},
+	[90887] = {
+		value_1 = "42 x 4",
+		id = 90887,
+		base = 90880,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90887
+		},
+		property_rate = {}
+	},
+	[90888] = {
+		value_1 = "44 x 4",
+		id = 90888,
+		base = 90880,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90888
+		},
+		property_rate = {}
+	},
+	[90889] = {
+		value_1 = "46 x 4",
+		id = 90889,
+		base = 90880,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90889
+		},
+		property_rate = {}
+	},
+	[90890] = {
+		value_1 = "48 x 4",
+		id = 90890,
+		base = 90880,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90890
+		},
+		property_rate = {}
+	},
+	[90900] = {
+		name = "Twin 203mm Main Gun (Mle 1924) ",
+		type = 3,
+		id = 90900,
+		tech = 3,
+		speciality = "Lock",
+		range = 55,
+		scatter = "15°",
+		angle = 38,
+		value_2 = 45,
+		icon = "50860",
+		value_1 = "30 x 4",
+		attribute_2 = "cannon",
+		rarity = 5,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "H-Explosive",
+		descrip = "No description",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			90900
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CA",
+			"MG",
+			"HE"
+		}
+	},
+	[90901] = {
+		value_1 = "33 x 4",
+		id = 90901,
+		base = 90900,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90901
+		},
+		property_rate = {}
+	},
+	[90902] = {
+		value_1 = "35 x 4",
+		id = 90902,
+		base = 90900,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90902
+		},
+		property_rate = {}
+	},
+	[90903] = {
+		value_1 = "37 x 4",
+		id = 90903,
+		base = 90900,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90903
+		},
+		property_rate = {}
+	},
+	[90904] = {
+		value_1 = "39 x 4",
+		id = 90904,
+		base = 90900,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90904
+		},
+		property_rate = {}
+	},
+	[90905] = {
+		value_1 = "41 x 4",
+		id = 90905,
+		base = 90900,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90905
+		},
+		property_rate = {}
+	},
+	[90906] = {
+		value_1 = "43 x 4",
+		id = 90906,
+		base = 90900,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90906
+		},
+		property_rate = {}
+	},
+	[90907] = {
+		value_1 = "45 x 4",
+		id = 90907,
+		base = 90900,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90907
+		},
+		property_rate = {}
+	},
+	[90908] = {
+		value_1 = "47 x 4",
+		id = 90908,
+		base = 90900,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90908
+		},
+		property_rate = {}
+	},
+	[90909] = {
+		value_1 = "49 x 4",
+		id = 90909,
+		base = 90900,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90909
+		},
+		property_rate = {}
+	},
+	[90910] = {
+		value_1 = "52 x 4",
+		id = 90910,
+		base = 90900,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90910
+		},
+		property_rate = {}
+	},
 	[95000] = {
 		name = "Triple 381mm Main Gun (M1934)",
 		type = 4,
@@ -73412,7 +74515,7 @@ pg.equip_data_statistics = {
 		name = "【愚人节活动】紫布里武器",
 		type = 2,
 		nationality = 1,
-		speciality = "锁定",
+		speciality = "Lock",
 		range = 60,
 		angle = 120,
 		tech = 3,
@@ -73421,9 +74524,9 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		is_siren = 0,
 		rarity = 4,
-		descrip = "说明未填写",
+		descrip = "No description",
 		scatter = "42°",
-		ammo = "高爆弹",
+		ammo = "H-Explosive",
 		value_3 = 0,
 		id = 630011,
 		torpedo_ammo = 0,
@@ -73448,7 +74551,7 @@ pg.equip_data_statistics = {
 		name = "【愚人节活动】紫布里武器",
 		type = 2,
 		nationality = 1,
-		speciality = "锁定",
+		speciality = "Lock",
 		range = 60,
 		angle = 120,
 		tech = 3,
@@ -73457,9 +74560,9 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		is_siren = 0,
 		rarity = 4,
-		descrip = "说明未填写",
+		descrip = "No description",
 		scatter = "42°",
-		ammo = "高爆弹",
+		ammo = "H-Explosive",
 		value_3 = 0,
 		id = 630012,
 		torpedo_ammo = 0,
@@ -73485,7 +74588,7 @@ pg.equip_data_statistics = {
 		type = 2,
 		id = 650601,
 		tech = 0,
-		speciality = "锁定",
+		speciality = "Lock",
 		range = 60,
 		scatter = "10°",
 		angle = 120,
@@ -73496,8 +74599,8 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		is_siren = 0,
 		nationality = 8,
-		ammo = "通常弹",
-		descrip = "说明未填写",
+		ammo = "Normal",
+		descrip = "No description",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -73528,7 +74631,7 @@ pg.equip_data_statistics = {
 		type = 1,
 		id = 650602,
 		tech = 1,
-		speciality = "锁定",
+		speciality = "Lock",
 		range = 55,
 		scatter = "12°",
 		angle = 360,
@@ -73539,8 +74642,8 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		is_siren = 0,
 		nationality = 8,
-		ammo = "通常弹",
-		descrip = "说明未填写",
+		ammo = "Normal",
+		descrip = "No description",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -73572,7 +74675,7 @@ pg.equip_data_statistics = {
 		id = 650603,
 		tech = 1,
 		nationality = 8,
-		speciality = "雷击",
+		speciality = "Torpedo",
 		range = 50,
 		angle = 60,
 		value_2 = 0,
@@ -73581,8 +74684,8 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		rarity = 1,
 		scatter = "40°",
-		descrip = "说明未填写",
-		ammo = "通常",
+		descrip = "No description",
+		ammo = "Normal",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -73617,8 +74720,8 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		is_siren = 0,
 		nationality = 8,
-		ammo = "高爆弹",
-		descrip = "说明未填写",
+		ammo = "H-Explosive",
+		descrip = "No description",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -78556,6 +79659,81 @@ pg.equip_data_statistics = {
 		90701,
 		90702,
 		90703,
+		90720,
+		90721,
+		90722,
+		90723,
+		90724,
+		90725,
+		90726,
+		90740,
+		90741,
+		90742,
+		90743,
+		90744,
+		90745,
+		90746,
+		90747,
+		90748,
+		90749,
+		90750,
+		90780,
+		90781,
+		90782,
+		90783,
+		90784,
+		90785,
+		90786,
+		90800,
+		90801,
+		90802,
+		90803,
+		90804,
+		90805,
+		90806,
+		90820,
+		90821,
+		90822,
+		90823,
+		90824,
+		90825,
+		90826,
+		90840,
+		90841,
+		90842,
+		90843,
+		90844,
+		90845,
+		90846,
+		90860,
+		90861,
+		90862,
+		90863,
+		90864,
+		90865,
+		90866,
+		90880,
+		90881,
+		90882,
+		90883,
+		90884,
+		90885,
+		90886,
+		90887,
+		90888,
+		90889,
+		90890,
+		90900,
+		90901,
+		90902,
+		90903,
+		90904,
+		90905,
+		90906,
+		90907,
+		90908,
+		90909,
+		90910,
 		95000,
 		95001,
 		95002,

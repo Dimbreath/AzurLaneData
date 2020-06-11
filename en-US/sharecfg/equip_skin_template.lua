@@ -5335,6 +5335,489 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[260] = {
+		icon = "92211",
+		bullet_name = "zidan_makalong",
+		name = "Macaron Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Dunkerque looks on from afar with distaste, muttering: \"What a waste...\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 260,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[261] = {
+		icon = "92212",
+		bullet_name = "zidan_gunqiu",
+		name = "Pétanque Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"I've got balls of steel... Grapeshot, that is.\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 261,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[262] = {
+		icon = "92213",
+		bullet_name = "zidan_zhenzhu",
+		name = "Pearl Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Diamonds are a girl's best friend, but pearls are her weapon of choice.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 262,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[263] = {
+		icon = "92214",
+		bullet_name = "paodan_wangqiupai",
+		name = "Racket Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "What's all this racket about? You'll see soon enough.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 263,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[264] = {
+		icon = "92215",
+		bullet_name = "paodan_minghua",
+		name = "Portrait Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"This is clearly a forgery. I can tell by the pixels.\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 264,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[265] = {
+		icon = "92216",
+		bullet_name = "paodan_xiangbin",
+		name = "Champagne Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Putting the phonetic \"pain\" in \"champagne.\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 265,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[266] = {
+		icon = "92221",
+		bullet_name = "yulei_fagun",
+		name = "Baguette Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "♪ Don't ask me the time, I got baguettes in the face ♪",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 266,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[267] = {
+		icon = "92222",
+		bullet_name = "yulei_xiangshui",
+		name = "Perfume Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "The perfect fix for those foul-smelling ruffians that stand in your way.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 267,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[268] = {
+		icon = "92223",
+		bullet_name = "yulei_xunyicao",
+		name = "Lavender Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Offering flowers to one's enemies... How romantic!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 268,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[269] = {
+		icon = "92231",
+		bullet_name = "feiji_zixingche",
+		name = "Soaring Bicycle Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Sure, it can ride its bike with no handlebars, but can it do it without balloons?",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 269,
+		derivate_torpedo = "yulei_fagun",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[270] = {
+		icon = "92231",
+		bullet_name = "feiji_zixingche",
+		name = "Soaring Bicycle Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Sure, it can ride its bike with no handlebars, but can it do it without balloons?",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_makalong",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 270,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[271] = {
+		icon = "92231",
+		bullet_name = "feiji_zixingche",
+		name = "Soaring Bicycle Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Sure, it can ride its bike with no handlebars, but can it do it without balloons?",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_makalong",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 271,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[272] = {
+		icon = "92232",
+		bullet_name = "feiji_lufugong",
+		name = "Pyramid Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "The all-seeing conspiracy Manjuu watches from above.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 272,
+		derivate_torpedo = "yulei_xiangshui",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[273] = {
+		icon = "92232",
+		bullet_name = "feiji_lufugong",
+		name = "Pyramid Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "The all-seeing conspiracy Manjuu watches from above.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_gunqiu",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 273,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[274] = {
+		icon = "92232",
+		bullet_name = "feiji_lufugong",
+		name = "Pyramid Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "The all-seeing conspiracy Manjuu watches from above.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_gunqiu",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 274,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[275] = {
+		icon = "92233",
+		bullet_name = "feiji_3rd",
+		name = "Rooster on the Loose",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"Cock-a-doodle-doo! I'm coming for you!\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 275,
+		derivate_torpedo = "yulei_xunyicao",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[276] = {
+		icon = "92233",
+		bullet_name = "feiji_3rd",
+		name = "Rooster on the Loose",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"Cock-a-doodle-doo! I'm coming for you!\"",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_zhenzhu",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 276,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[277] = {
+		icon = "92233",
+		bullet_name = "feiji_3rd",
+		name = "Rooster on the Loose",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"Cock-a-doodle-doo! I'm coming for you!\"",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_zhenzhu",
+		themeid = 19,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 277,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		icon = "90640",
 		bullet_name = "Nep_bullet_shizi",
@@ -6452,6 +6935,24 @@ pg.equip_skin_template = {
 		255,
 		256,
 		257,
+		260,
+		261,
+		262,
+		263,
+		264,
+		265,
+		266,
+		267,
+		268,
+		269,
+		270,
+		271,
+		272,
+		273,
+		274,
+		275,
+		276,
+		277,
 		1001,
 		1002,
 		1003,

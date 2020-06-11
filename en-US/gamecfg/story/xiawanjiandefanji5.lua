@@ -11,7 +11,7 @@ return {
 			bgm = "level02",
 			actor = 201110,
 			nameColor = "#a9f548",
-			say = "我回来啦，厌战。",
+			say = "ウォースパイト様、フォックスハウンド只今戻ったよ！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,7 +35,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱斯基摩人没事吧？",
+			say = "エスキモーは大丈夫かしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "连点擦伤都没有，现在又在精神饱满的追击铁血驱逐舰去了。",
+			say = "損傷はないよ。今ウォースパイト様の指示通り鉄血駆逐艦の追撃に行ってる",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…落单的铁血驱逐舰就交给爱斯基摩人，我们继续执行作战吧。",
+			say = "うむ…はぐれた鉄血駆逐艦はエスキモーに任せて、こっちは引き続き作戦計画通りに進めるわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以女王之名，为了勇敢和猎人…一艘敌人都不要放跑！",
+			say = "陛下、そしてハーディとハンターのために…敵を絶対に逃さない！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

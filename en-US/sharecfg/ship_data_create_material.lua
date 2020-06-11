@@ -70,13 +70,10 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Common：30%",
-			"<color=#ffde38>Le Malin</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Jean Bart</color>：1.8%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Massachusetts</color>：1.8%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>L'Opiniâtre</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Dunkerque</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Surcouf</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>Forbin</color>：5.0%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>Richelieu</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Algérie</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Jeanne d'Arc</color>：0.5%",
+			"<color=#d797ff>Vauquelin</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

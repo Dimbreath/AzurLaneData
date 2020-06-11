@@ -3388,68 +3388,133 @@ pg.expedition_activity_template = {
 	},
 	[1390013] = {
 		id = 1390013,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30427,
+				159
+			}
+		}
 	},
 	[1390113] = {
 		id = 1390113,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30427,
+				159
+			}
+		}
 	},
 	[1390213] = {
 		id = 1390213,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30427,
+				159
+			}
+		}
 	},
 	[1391013] = {
 		id = 1391013,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30427,
+				159
+			}
+		}
 	},
 	[1391113] = {
 		id = 1391113,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30427,
+				159
+			}
+		}
 	},
 	[1391213] = {
 		id = 1391213,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30427,
+				159
+			}
+		}
 	},
 	[1392013] = {
 		id = 1392013,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				30427,
+				159
+			}
+		}
 	},
 	[1392113] = {
 		id = 1392113,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				30427,
+				159
+			}
+		}
 	},
 	[1392213] = {
 		id = 1392213,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				30427,
+				159
+			}
+		}
 	},
 	[1393013] = {
 		id = 1393013,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				30427,
+				159
+			}
+		}
 	},
 	[1393113] = {
 		id = 1393113,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				30427,
+				159
+			}
+		}
 	},
 	[1393213] = {
 		id = 1393213,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				30427,
+				159
+			}
+		}
 	},
 	[1394013] = {
 		id = 1394013,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				30427,
+				159
+			}
+		}
 	},
 	[1400013] = {
 		id = 1400013,

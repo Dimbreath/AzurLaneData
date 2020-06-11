@@ -77498,6 +77498,756 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15676] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93234,
+		type = 36,
+		name = "『法系V2』-日常建造",
+		count_inherit = 0,
+		desc = "Build 3 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15676,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59165,
+				300
+			}
+		}
+	},
+	[15677] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93235,
+		type = 36,
+		name = "『法系V2』-日常出击",
+		count_inherit = 0,
+		desc = "Sortie and obtain 15 victories.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15677,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59165,
+				300
+			}
+		}
+	},
+	[15678] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93236,
+		type = 36,
+		name = "『法系V2』-日常困难本",
+		count_inherit = 0,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15678,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59165,
+				150
+			}
+		}
+	},
+	[15679] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93220,
+		type = 6,
+		name = "『法系V2』通关A1/C1",
+		count_inherit = 0,
+		desc = "Clear A1 or C1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15680",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15679,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360001,
+			1360021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59165,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15680] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93221,
+		type = 6,
+		name = "『法系V2』通关A2/C2",
+		count_inherit = 0,
+		desc = "Clear A2 or C2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15681",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15680,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360002,
+			1360022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59165,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15681] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93222,
+		type = 6,
+		name = "『法系V2』通关A3/C3",
+		count_inherit = 0,
+		desc = "Clear A3 or C3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15682",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15681,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360003,
+			1360023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59165,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15682] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93223,
+		type = 6,
+		name = "『法系V2』通关B1/D1",
+		count_inherit = 0,
+		desc = "Clear B1 or D1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15683",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15682,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360004,
+			1360024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59165,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15683] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93224,
+		type = 6,
+		name = "『法系V2』通关B2/D2",
+		count_inherit = 0,
+		desc = "Clear B2 or D2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15684",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15683,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360005,
+			1360025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59165,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15684] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93225,
+		type = 6,
+		name = "『法系V2』通关B3/D3",
+		count_inherit = 0,
+		desc = "Clear B3 or D3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15685",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15684,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360006,
+			1360026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59165,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15685] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93226,
+		type = 6,
+		name = "『法系V2』通关SP",
+		count_inherit = 0,
+		desc = "Clear SP.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1360041,
+		id = 15685,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1360041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15686] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93227,
+		type = 6,
+		name = "『法系V2』通关D3",
+		count_inherit = 0,
+		desc = "Clear D3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1360026,
+		id = 15686,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1360026",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				175,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15687] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93228,
+		type = 6,
+		name = "『法系V2』A1/C1的3星",
+		count_inherit = 0,
+		desc = "Complete A1 or C1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15688",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15687,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360001,
+			1360021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15688] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93229,
+		type = 6,
+		name = "『法系V2』A2/C2的3星",
+		count_inherit = 0,
+		desc = "Complete A2 or C2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15689",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15688,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360002,
+			1360022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15689] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93230,
+		type = 6,
+		name = "『法系V2』A3/C3的3星",
+		count_inherit = 0,
+		desc = "Complete A3 or C3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15690",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15689,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360003,
+			1360023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15690] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93231,
+		type = 6,
+		name = "『法系V2』B1/D1的3星",
+		count_inherit = 0,
+		desc = "Complete B1 or D1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15691",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15690,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360004,
+			1360024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15691] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93232,
+		type = 6,
+		name = "『法系V2』B2/D2的3星",
+		count_inherit = 0,
+		desc = "Complete B2 or D2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15692",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15691,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360005,
+			1360025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15692] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93233,
+		type = 6,
+		name = "『法系V2』B3/D3的3星",
+		count_inherit = 0,
+		desc = "Complete B3 or D3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15692,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1360006,
+			1360026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15693] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93292,
+		type = 6,
+		name = "登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "Log in to the game.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15693,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				160,
+				1
+			}
+		}
+	},
 	[15694] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -88883,6 +89633,24 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		15670,
 		15672,
 		15674,
+		15676,
+		15677,
+		15678,
+		15679,
+		15680,
+		15681,
+		15682,
+		15683,
+		15684,
+		15685,
+		15686,
+		15687,
+		15688,
+		15689,
+		15690,
+		15691,
+		15692,
+		15693,
 		15694,
 		15700,
 		15701,

@@ -10,7 +10,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			say = "……好像和大家走散了。",
+			say = "……みんなとはぐれちゃった……",
 			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唉，没想到皇家会派来这么夸张的舰队。",
+			say = "もう、ロイヤルがあんな強い艦隊で増援に来るなんて聞いてないよ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "总之先和Z2她们重新恢复联系。",
+			say = "とにかく、ティーレたちに連絡しないと…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通信機",
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "………………",
+			say = "......…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不会吧…通讯设备居然坏了么！",
+			say = "通信設備、壊れちゃったの…！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唔……我记得原本计划是离开这个峡湾前往…",
+			say = "落ち着くのですよキュンネ。たしか元々の作戦計画では合流地点へと……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于抓到你了，铁血的驱逐舰！",
+			say = "追いついたよ！鉄血の駆逐艦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "追兵这么快就到了么？！",
+			say = "ロイヤルの追手！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201320,
-			say = "不会让你逃跑哟~皇家所属部族级驱逐舰，爱斯基摩人，出击！",
+			say = "簡単には逃さないのだよー！トライバル級駆逐艦エスキモー、アタック！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			bgm = "bsm-7",
 			nameColor = "#a9f548",
-			say = "很好，又解决一件大事。本王还有急事要返回皇家本岛，大家就请便了哦。",
+			say = "I need to head back to the Royal Isles! This meeting is adjourned!",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#a9f548",
-			say = "呼…漫长的谈判终于顺利结束了。我也要赶回撒丁帝国做进一步的安排，就在这里告别吧。",
+			say = "*yawn*... I was going to fall asleep if the meeting continued much longer... Anyway, I'll be heading back to Sardegna to make some more preparations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "俾斯麦阁下，希望铁血可以认真遵守协定的内容。对抗塞壬的战争远没有结束，碧蓝航线内部经不起任何分裂和对抗。",
+			say = "Bismarck, I'd like you to confirm the terms of the technology licensing agreement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
-			say = "请放心，黎塞留卿。这份协议毫无疑问将会巩固碧蓝航线内部和欧罗巴大陆的稳定。",
+			say = "Very well. It's understandable that you would have some reservations, Madame Cardinal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天之后，铁血、皇家、鸢尾，将永远不会再投入彼此之间的战争中。",
+			say = "This content, Europa, can only exist if we foster mutual trust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "如果真的是这样就太好了。我还要向教廷汇报协议成功签订的事，就不继续耽误你的时间了。",
+			say = "The Siren technology that the Iron Blood is researching... what purpose does that serve?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别着急，黎塞留卿。按照约定，请您收下这个。",
+			say = "It is more than a weapon... It concerns the mental cubes that gave birth to each and every one of us. Use it improperly, and you will be swallowed whole.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgm = "hunhe-story",
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "黎塞留、黎塞留！你突然发什么呆呢。",
+			say = "Richelieu! Stop spacing out!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "抱歉，伊丽莎白。我回忆起了一些过去的事，稍微有些触景生情了吧…",
+			say = "I'm sorry, Your Majesty. I was just reminded of something in the past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……感慨这种事请等到要写回忆录的时候再说，眼下还有更重要的作战计划呢。",
+			say = "...I trust you'll tell me about it at our next tea party. Right now, why don't we talk about more pressing matters?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你就放心吧~这次我会派光辉和命运女神连同皇家量产型航空编队在内和你们一起行动。",
+			say = "In any case, I'm worried that negotiations with the Vichya will fall through if the Royal Navy sends too many people, so I'll have Illustrious and Fortune be our representatives!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有了光辉亲自出马，你一直担心的制空权也就不在话下了~！",
+			say = "After working together for so long, I'm sure those two will be of great assistance to you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦对了，有个重要的情报得告诉你，维希可能暗中向圣堂派了增援舰队。",
+			say = "Oh, and there are two more things I have to say!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然还不清楚增援舰队的准确规模，不过现在的维希绝对不可能派出大规模支援啦，充其量就是一两艘船的程度？稍微注意一下就好。",
+			say = "First, regarding that Basilica Isle, the Iron Blood has sent Sirens to patrol the perimeters, but they don't seem to want to interfere directly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有了光辉的支援，再加上贝亚恩，我们将会完全掌握战场的制空权，只要保持谨慎搜索，就应该不会被打伏击战了。",
+			say = "In other words, the Iron Blood isn't interested in the Basilica's sacrament...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好~唔…还有一个情报，不过很大可能只是情报人员看走眼了…",
+			say = "That's just a legend after all! There definitely was some research as to whether it could be utilized as a weapon, but that project has long been canceled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了，我让谢菲尔德再核实一下情报内容，等战斗结束之后再说吧。",
+			say = "For the time being, you can ignore the Iron Blood's activities and focus on negotiating with Algérie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉…真羡慕你现在可以带领舰队在前线作战。我却只能淹没在比以往数量更夸张的公文里…",
+			say = "The second thing is... Um, well, I'd rather not talk about this, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "都是那个铁血突然冒出来的什么…腓特烈大帝？的错啦！！",
+			say = "It's about Operation Catapult!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "查不到任何资料，一切记录都是空白，我却感觉最近发生的事里都有她的影子…",
+			say = "...Illustrious said that she wanted to apologize on my behalf.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "提起来就火大！发起这个话题是本王不对…不说这个了！",
+			say = "I didn't stop Bel or Warspite, and Hood and King George both said that it was the best solution... But really, everyone was...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			say = "哈…哈哈…腓特烈大帝啊，我会重点记住这个名字的。",
+			say = "I understand how you feel, Your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本次作战将会向整个世界展现自由鸢尾和皇家的亲密合作，本王就先在这里预祝你们一切顺利，作战成功吧！",
+			say = "W-well, in that case, I won't say it then! Ahem! Best of luck with our next joint operation, \"Operation Basilica!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			blackBg = true,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "也希望你能达成自己的额外目标哦，黎塞留~",
+			say = "I'll be counting on you as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

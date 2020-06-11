@@ -10,7 +10,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			say = "这么，近距离一看，真是一支庞大的联合舰队啊。",
+			say = "Their fleet looks even more impressive when you see it up close.",
 			bgm = "story-french2",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "如果我现在带领的是昔日教廷舰队的话………",
+			say = "I want to be able to lead a fleet as large as that too... though that is a bit of a juvenile wish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#ff5c5c",
-			say = "黎塞留，我们已经在这里恭候多时了。",
+			say = "I've been waiting for you, Cardinal... Oh, what's this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听我说，阿尔及利亚、沃克兰、拉.加利索尼埃，这场战斗的胜负已经很明显了。",
+			say = "Algérie, Vauquelin, and La Galissonnière... You've all fought valiantly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "在这次防御战中你们做得十分出色，但有些实力上的差距是不可能依靠这种程度的战术就可以弥补的。",
+			say = "You've shown ingenuity in utilizing artillery installations, strategic acumen in coming up with a plan to overcome the difference in our fleet's strength, and bravery on the battlefield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "你们肯定能看出来，现在的局势已经“将军”了。继续战斗下去也不会让战斗的结局发生任何改变。",
+			say = "Fellow children of the Iris, the only ground you have left is the entrance to this Basilica. No flash of inspiration or hidden strategy can reverse the outcome of this battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "我们不需要相互争斗到如此地步。人可不朽，救赎可待来日。但是国家不得永生，救赎唯有当下！",
+			say = "Fellow children of the Iris, no longer should we make enemies of each other! Should we fight, we should do it together – against none other than the enemies of our homeland!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "加入自由鸢尾吧，以枢机主教黎塞留之名向你们保证，我一定会让你们看到光复祖国的那一天！",
+			say = "Fellow children of the Iris, gather under my banner! Let us work together to follow God's great guidance, to revitalize our country and grasp the glorious future that awaits us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "堂堂的枢机主教黎塞留，什么时候也变得这么犹豫不决了？我还以为之前我们已经就这个问题得出结论了呢。",
+			say = "...Richelieu, you must be the one to lead the Iris Orthodoxy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……原来如此，这就是所谓的最后的劝降么。",
+			say = "...However, my duty... No, I have a condition for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 805010,
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "黎塞留卿，关于你邀请我们临阵倒戈加入自由鸢尾的的事，请允许我们郑重拒绝。",
+			say = "Richelieu, Cardinal of Iris Libre, the Templar Knights of the Vichya Dominion will give you our final answer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,38 +217,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不论你再问多少遍，我们的回答都不会改变。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			nameColor = "#ff5c5c",
-			side = 2,
-			dir = 1,
-			actor = 903020,
-			say = "我们是骄傲的教廷骑士，从诞生之时起便宣誓效忠教廷与信仰，除了教廷之外，我们不会听从于于任何人的命令！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 903020,
-			side = 2,
-			nameColor = "#ff5c5c",
-			dir = 1,
-			say = "不论教廷变成了什么样，只要它还存在于那里，我们都会不惜代价将教廷守护下去，这是我们的忠义与信仰。",
+			say = "We all walk in the glory of the Iris Orthodoxy, but it is clear that our paths have diverged. We are no longer headed towards the same future!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +233,22 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "我们不会忘记皇家的背叛，也绝对不会成为铁血和帝国侵略的獠牙。",
+			say = "The Templar Knights pledge fealty to none other than our proud country, and we shall never kneel before those who collude with a foreign enemy!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 903020,
+			side = 2,
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "As knights, ever since we joined the ranks of the Vichya Dominion, our fates have already been written!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +264,23 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "但是，任何来犯的敌人，我们会坚决战斗到最后一刻，即便流尽最后一滴血也绝不屈服。",
+			say = "For the sake of the Orthodoxy which has given us life and purpose, we shall never retreat. We shall never hesitate, and we shall never betray our homeland.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			nameColor = "#ff5c5c",
+			side = 2,
+			dir = 1,
+			actor = 903020,
+			say = "As the soldiers of God, lift your head high with pride and oust our foreign enemies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "呼呼呼，这样就可以了吧，黎塞留卿？",
+			say = "...And that is all. How's that for an answer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我------------------",
+			say = "*sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "教廷舰队全员注意，圣堂舰队指挥、维希教廷骑士阿尔及利亚现在对你们下达最后的命令。",
+			say = "Hear this, all members of the Vichya Dominion fleet! Templar Knight, Algérie, shall now take command. Intercept the Iris-Royal fleet at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "决战的时刻已经来临，纵使我弱敌强，纵使胜利的光辉已离我们远去。我仍希望诸位可以恪守忠义，坚持职责。",
+			say = "Overcome the overwhelming disadvantage we've been given! Demonstrate your wisdom, determination, and might to our \"friends!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "如果今天将是我们的终末之日，我们也将一同面对，一同奋战，直至最后一刻！",
+			say = "All forces, prepare for battle!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
