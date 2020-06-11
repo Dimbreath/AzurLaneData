@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，怎么样啊？被人赶出来不得不和我们决战的感想？",
+			say = "呵呵呵，怎麼樣啊？被人趕出來不得不和我們決戰的感想？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "友情提示～虽然妳停留的港口是中立港，但·是·呢～其实还是我们皇家的小夥伴哟～？",
+			say = "友情提示～雖然妳停留的港口是中立港，但·是·呢～其實還是我們皇家的小夥伴喲～？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果选的是另外那个港口，我可就要稍微伤点脑筋了呢……",
+			say = "如果選的是另外那個港口，我可就要稍微傷點腦筋了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "竟然算计到这个地步了吗…但是仅凭妳们两个，有什么自信能够战胜我？",
+			say = "竟然算計到這個地步了嗎…但是僅憑妳們兩個，有什麼自信能夠戰勝我？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳也收到情报了吧？皇家方舟、声望…这些足以毁灭妳的同伴们，都在赶来的路上哟？",
+			say = "妳也收到情報了吧？皇家方舟、聲望…這些足以毀滅妳的同伴們，都在趕來的路上喲？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们只需要把妳拖在这里就可以了呢~",
+			say = "我們只需要把妳拖在這裡就可以了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "……原来如此，真是……周全的计划。",
+			say = "……原來如此，真是……周全的計劃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看在妳救助了许多商船船员的份上，以皇家的名义，我可以给妳一个机会，在这里选择投降的话，对大家都比较好哦？",
+			say = "看在妳救助了許多商船船員的份上，以皇家的名義，我可以給妳一個機會，在這裡選擇投降的話，對大家都比較好哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "……就算自沉也不会如妳所愿的！来吧，皇家的智将，铁血的战士是不会那么简单就被言语打倒的！",
+			say = "……就算自沉也不會如妳所願的！來吧，皇家的智將，鐵血的戰士是不會那麼簡單就被言語打倒的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,19 +11,19 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>“有人与妳一同出航，有人与妳并肩战斗”</size>",
+					"<size=51>“有人與妳一同出航，有人與妳並肩戰鬥”</size>",
 					1.5
 				},
 				{
-					"<size=51>“有人在胜利之后一起庆祝——”</size>",
+					"<size=51>“有人在勝利之後一起慶祝——”</size>",
 					3
 				},
 				{
-					"<size=51>“即便是失败，只要有能彼此安慰的夥伴”</size>",
+					"<size=51>“即便是失敗，只要有能彼此安慰的夥伴”</size>",
 					4.5
 				},
 				{
-					"<size=51>“妳就不会感到那么孤独了吧”</size>",
+					"<size=51>“妳就不會感到那麼孤獨了吧”</size>",
 					6
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港湾\n\n<size=45>三　战友</size>",
+					"港灣\n\n<size=45>三　戰友</size>",
 					1
 				}
 			}
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			say = "港区·演习海域",
+			say = "港區·演習海域",
 			effects = {
 				{
 					active = false,
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天就到这里吧。",
+			say = "今天就到這裡吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊？这就结束了？我的主炮还没热起来呢！",
+			say = "啊？這就結束了？我的主炮還沒熱起來呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有干劲是件好事，但是申请的演习海域使用时间已经到了，还是说妳要妨碍指挥官的安排吗？",
+			say = "有幹勁是件好事，但是申請的演習海域使用時間已經到了，還是說妳要妨礙指揮官的安排嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "斯佩身为秘书舰，应该是清楚的吧。",
+			say = "施佩身為秘書艦，應該是清楚的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。虽然还想和两位继续训练，不过今天就到此为止吧。",
+			say = "嗯。雖然還想和兩位繼續訓練，不過今天就到此為止吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "早知道今天干劲这么足就多申请点时间了……",
+			say = "早知道今天幹勁這麼足就多申請點時間了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "与沙恩姐妹一同训练已经成为了每周的必修课",
+			say = "與沙恩姐妹一同訓練已經成為了每週的必修課",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "不只是训练，实战也——",
+			say = "不只是訓練，實戰也——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "不知道她们两位有没有什么“愿望”？",
+			say = "不知道她們兩位有沒有什麼“願望”？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "对了，借这个机会，正好问一下她们的想法，作为一个参考——",
+			say = "對了，藉這個機會，正好問一下她們的想法，作為一個參考——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,11 +240,11 @@ return {
 			},
 			options = {
 				{
-					content = "问沙恩霍斯特",
+					content = "問沙恩霍斯特",
 					flag = 1
 				},
 				{
-					content = "问格奈森瑙",
+					content = "問格奈森瑙",
 					flag = 2
 				}
 			}
@@ -256,7 +256,7 @@ return {
 			optionFlag = 1,
 			actor = 404010,
 			nameColor = "#a9f548",
-			say = "我的“愿望”？",
+			say = "我的“願望”？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			optionFlag = 1,
 			actor = 404010,
 			nameColor = "#a9f548",
-			say = "当然是变得更强，击败更多的敌人！",
+			say = "當然是變得更強，擊敗更多的敵人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			optionFlag = 1,
 			actor = 404010,
 			nameColor = "#a9f548",
-			say = "不管遇到什么样的敌人，我都不会后退！",
+			say = "不管遇到什麼樣的敵人，我都不會後退！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 1,
-			say = "得到了很有沙恩霍斯特小姐风格的回答。",
+			say = "得到了很有沙恩霍斯特小姐風格的回答。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			optionFlag = 2,
 			actor = 404020,
 			nameColor = "#a9f548",
-			say = "我的“愿望”吗……真是个不错的问题呢。",
+			say = "我的“願望”嗎……真是個不錯的問題呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			optionFlag = 2,
 			actor = 404020,
 			nameColor = "#a9f548",
-			say = "目前的话应该就是更好地辅佐指挥官，以及在关键的时候能够阻止暴走的姐姐吧。",
+			say = "目前的話應該就是更好地輔佐指揮官，以及在關鍵的時候能夠阻止暴走的姐姐吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 2,
-			say = "确实像是格奈森瑙小姐会有的想法。",
+			say = "確實像是格奈森瑙小姐會有的想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那斯佩妳呢？妳的“愿望”又是什么呢？",
+			say = "那施佩妳呢？妳的“願望”又是什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我吗？",
+			say = "我嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我…没有什么特别想做的事情，只要待在这里我就很满足了。",
+			say = "我…沒有什麼特別想做的事情，只要待在這裡我就很滿足了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "是啊，只要在这里，和大家在一起，不再像那个时候孤身一人，我就……",
+			say = "是啊，只要在這裡，和大家在一起，不再像那個時候孤身一人，我就……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "为什么，我会想起“那个时候”呢？",
+			say = "為什麼，我會想起“那個時候”呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,19 +11,19 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>“有能够理解妳全部的人”</size>",
+					"<size=51>“有能夠理解妳全部的人”</size>",
 					1.5
 				},
 				{
-					"<size=51>“能够倾听妳的烦恼”</size>",
+					"<size=51>“能夠傾聽妳的煩惱”</size>",
 					3
 				},
 				{
-					"<size=51>“并且发自内心为妳着想的人”</size>",
+					"<size=51>“並且發自內心為妳著想的人”</size>",
 					4.5
 				},
 				{
-					"<size=51>“妳就不会再感到自己是孤身一人了吧？呵呵~”</size>",
+					"<size=51>“妳就不會再感到自己是孤身一人了吧？呵呵~”</size>",
 					6.5
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港湾\n\n<size=45>四　同伴</size>",
+					"港灣\n\n<size=45>四　同伴</size>",
 					1
 				}
 			}
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区",
+			say = "港區",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？是斯佩啊。",
+			say = "哦？是施佩啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			say = "欧根小姐在这里做什么呢？",
+			say = "歐根小姐在這裡做什麼呢？",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我吗？如妳所见，我在一个人休息呢。",
+			say = "我嗎？如妳所見，我在一個人休息呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "偶尔一个人散散步，看看花草，放松下心情什么的……不是挺好的吗？",
+			say = "偶爾一個人散散步，看看花草，放鬆下心情什麼的……不是挺好的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			withoutActorName = true,
 			actor = 403050,
 			nameColor = "#a9f548",
-			say = "借着这个机会，问问欧根小姐的想法？",
+			say = "藉著這個機會，問問歐根小姐的想法？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			},
 			options = {
 				{
-					content = "问欧根亲王",
+					content = "問歐根親王",
 					flag = 1
 				}
 			}
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“愿望”？",
+			say = "“願望”？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵……现在的话，我想是没有的呢。",
+			say = "呵呵……現在的話，我想是沒有的呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有愿望？",
+			say = "沒有願望？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的状况我已经十分满足了。要不现在找一个？好像这样也不错呢。",
+			say = "現在的狀況我已經十分滿足了。要不現在找一個？好像這樣也不錯呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那，斯佩的愿望是什么呢？",
+			say = "那，施佩的願望是什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我没有——",
+			say = "我沒有——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			stopbgm = true,
-			say = "“我没有特别想做的事情，只要和大家待在一起我就满足了。”",
+			say = "“我沒有特別想做的事情，只要和大家待在一起我就滿足了。 ”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			withoutActorName = true,
 			actor = 403050,
 			nameColor = "#a9f548",
-			say = "欧根小姐说出了原本我要说的话语。",
+			say = "歐根小姐說出了原本我要說的話語。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么欧根小姐会……？",
+			say = "為什麼歐根小姐會……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像妳这样的类型，在舰队里不是第一个，我想，也不会是最后一个哦？",
+			say = "像妳這樣的類型，在艦隊裡不是第一個，我想，也不會是最後一個哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一旦可以做战斗以外的事，反而不知道该做些什么，该怎么做的类型。",
+			say = "一旦可以做戰鬥以外的事，反而不知道該做些什麼，該怎麼做的類型。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			withoutActorName = true,
 			actor = 403050,
 			nameColor = "#a9f548",
-			say = "不知道该做些什么，该怎么做……",
+			say = "不知道該做些什麼，該怎麼做……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……欧根小姐，知道该怎么解决吗？",
+			say = "……歐根小姐，知道該怎麼解決嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谁知道呢，我又不是妳，不会知道妳想要什么的唷？",
+			say = "誰知道呢，我又不是妳，不會知道妳想要什麼的唷？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是吗……",
+			say = "是嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "哎呀，这病情看起来可不轻呢。",
+			say = "哎呀，這病情看起來可不輕呢。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，不只是铁血的我们，指挥官大概也会为妳做点什么吧",
+			say = "不過，不只是鐵血的我們，指揮官大概也會為妳做點什麼吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			blackBg = true,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "毕竟，那家伙可是连我都…对吧？",
+			say = "畢竟，那傢伙可是連我都…對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

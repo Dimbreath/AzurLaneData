@@ -9,6 +9,7 @@ slot0.ON_SWITCH_FLOOR = "BackYardMediator:ON_SWITCH_FLOOR"
 slot0.ON_SHOPPING = "BackYardMediator:ON_SHOPPING"
 slot0.ITEM_UPDATED = "BackYardMediator:ITEM_UPDATED"
 slot0.GO_THEME_TEMPLATE = "BackYardMediator:GO_THEME_TEMPLATE"
+slot0.GO_CHARGE = "BackYardMediator:GO_CHARGE"
 
 function slot0.register(slot0)
 	pg.OSSMgr:GetInstance():Init()
@@ -87,34 +88,11 @@ function slot0.register(slot0)
 		uv0:startUpBackyard(slot1)
 	end)
 
-	function slot2(slot0)
-		if mode == BackYardConst.MODE_VISIT then
-			slot0()
+	slot2, slot3 = slot0:startUpBackyard(slot0.contextData.floor or 1)
 
-			return
-		end
-
-		if not getProxy(DormProxy):GetVisitorShip() then
-			uv0:sendNotification(GAME.BACKYARD_GET_VISITOR_SHIP, {
-				callback = slot0
-			})
-		else
-			slot0()
-		end
-	end
-
-	seriesAsync({
-		function (slot0)
-			uv0(slot0)
-		end,
-		function ()
-			slot0, slot1 = uv0:startUpBackyard(uv0.contextData.floor or 1)
-
-			uv0.viewComponent:setPlayerVO(slot0)
-			uv0.viewComponent:setDormVO(slot1)
-			uv0.viewComponent:StartUp()
-		end
-	})
+	slot0.viewComponent:setPlayerVO(slot2)
+	slot0.viewComponent:setDormVO(slot3)
+	slot0.viewComponent:StartUp()
 end
 
 function slot0.startUpBackyard(slot0, slot1)
@@ -155,23 +133,16 @@ function slot0.startUpBackyard(slot0, slot1)
 	elseif slot2 == BackYardConst.MODE_DEFAULT then
 		slot0.dormProxy = getProxy(DormProxy)
 		slot5 = slot0.dormProxy:getData()
-		slot9 = {
-			[slot15.id] = slot15
-		}
 
 		for slot14, slot15 in pairs(slot1 == 1 and slot0.dormProxy:getShipsByState(Ship.STATE_TRAIN) or slot0.dormProxy:getShipsByState(Ship.STATE_REST)) do
 			-- Nothing
 		end
 
-		slot11 = slot0.dormProxy:GetVisitorShip()
-
-		if slot1 == 1 and slot11 and getProxy(PlayerProxy):getData():GetCommonFlag(SHOW_FIREND_BACKYARD_SHIP_FLAG) then
-			slot11.isVisitor = true
-			slot9[slot11.id] = slot11
-		end
-
-		slot3 = slot9
-		slot13 = getProxy(PlayerProxy)
+		slot6 = getProxy(PlayerProxy):getData()
+		slot3 = {
+			[slot15.id] = slot15
+		}
+		slot11 = getProxy(PlayerProxy)
 
 		slot0.viewComponent:setShipIds(slot7, slot8)
 	end
@@ -202,6 +173,9 @@ function slot0.startUpBackyard(slot0, slot1)
 				slot0.name = BackYardConst.MAIN_UI_NAME
 				uv1 = BackYardView.New(slot0, uv2, uv0.backyardPoolMgr, uv0.viewComponent:getBGM())
 
+				uv1:RegisterLoadedCallback(function ()
+					uv0.viewComponent:OnLoaded()
+				end)
 				uv0.viewComponent:setBlackyardView(uv1)
 				setActive(slot0, true)
 				setParent(slot0, uv0.viewComponent._tf)
@@ -260,7 +234,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.ADD_SHIP_DONE,
 		GAME.EXIT_SHIP_DONE,
 		GAME.LOAD_LAYERS,
-		GAME.REMOVE_LAYERS
+		GAME.REMOVE_LAYERS,
+		BackYardMediator.GO_CHARGE
 	}
 end
 
@@ -350,8 +325,22 @@ function slot0.handleNotification(slot0, slot1)
 		if slot3.context.mediator == NewBackYardShopMediator then
 			pg.backyard:sendNotification(BACKYARD.OPEN_SHOP_LAYER)
 		end
-	elseif slot2 == GAME.REMOVE_LAYERS and slot3.context.mediator == NewBackYardShopMediator then
-		pg.backyard:sendNotification(BACKYARD.CLOSE_SHOP_LAYER)
+	elseif slot2 == GAME.REMOVE_LAYERS then
+		if slot3.context.mediator == NewBackYardShopMediator then
+			pg.backyard:sendNotification(BACKYARD.CLOSE_SHOP_LAYER)
+		end
+	elseif slot2 == BackYardMediator.GO_CHARGE then
+		slot0.contextData.skipToCharge = true
+
+		if slot3.type == PlayerConst.ResDiamond then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+				wrap = ChargeScene.TYPE_DIAMOND
+			})
+		elseif slot4 == PlayerConst.ResDormMoney then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+				wrap = ChargeScene.TYPE_GIFT
+			})
+		end
 	end
 end
 

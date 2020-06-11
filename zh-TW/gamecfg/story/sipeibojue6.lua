@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港湾\n\n<size=45>六　重量</size>",
+					"港灣\n\n<size=45>六　重量</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-6",
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "来了啊，我的妹妹。",
+			say = "來了啊，我的妹妹。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不知为何，姐姐也在办公室里。",
+			say = "不知為何，姐姐也在辦公室裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,65 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "说不定是需要我和姐姐一起出动的重要任务吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 403040,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "听我说，斯佩，这件事十分紧急。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "姐姐脸上浮现出愤怒的神色，指挥官也有点忿忿不平的样子。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "难道说，塞壬做了什么不好的事吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "如果是这样的话，我……",
+			say = "說不定是需要我和姐姐一起出動的重要任務吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +85,65 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳听我说……",
+			say = "聽我說，施佩，這件事十分緊急。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "姐姐臉上浮現出憤怒的神色，指揮官也有點忿忿不平的樣子。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "難道說，塞壬做了什麼不好的事嗎？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "如果是這樣的話，我……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403040,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "妳聽我說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，放心吧，我会它们撕成碎片的。",
+			say = "姐姐，放心吧，我會它們撕成碎片的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "竟敢伤害姐姐和指挥官……不可饶恕。",
+			say = "竟敢傷害姐姐和指揮官……不可饒恕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "所以我会战斗的，为了守护如今的归宿",
+			say = "所以我會戰鬥的，為了守護如今的歸宿",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "——这就是我的愿望，我只能……",
+			say = "——這就是我的願望，我只能……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			stopbgm = true,
-			say = "欸，妳在说什么危险的话呢，吓我一跳。",
+			say = "欸，妳在說什麼危險的話呢，嚇我一跳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，不是……塞壬让姐姐和指挥官生气了吗？",
+			say = "欸，不是……塞壬讓姐姐和指揮官生氣了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么可能，那些低等生物才不会气到我。",
+			say = "怎麼可能，那些低等生物才不會氣到我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是这个可恶的仆人，居然说自己给妳挑选的衣服比我给妳挑选的要好。",
+			say = "是這個可惡的僕人，居然說自己給妳挑選的衣服比我給妳挑選的要好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "区区仆人，竟然以下犯上，这我怎么能忍！",
+			say = "區區僕人，竟然以下犯上，這我怎麼能忍！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这么说来，沙发上似乎确实放着两袋衣服……",
+			say = "這麼說來，沙發上似乎確實放著兩袋衣服……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,23 +337,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "但是，刚才完全没有想到是给自己的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 403040,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "来吧，妹妹唷，赶紧换上我和仆人给妳挑选的衣服。",
+			say = "但是，剛才完全沒有想到是給自己的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +353,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后向这个愚蠢的仆人证明，是我的品位更好！",
+			say = "來吧，妹妹唷，趕緊換上我和僕人給妳挑選的衣服。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403040,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "然後向這個愚蠢的僕人證明，是我的品味更好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，我的手，穿不上这样的衣服……",
+			say = "但是，我的手，穿不上這樣的衣服……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又不是不能拆！我也是不明白，平时在舰队里戴着这么一个大得没有意义的爪子有什么意义。",
+			say = "又不是不能拆！我也是不明白，平時在艦隊裡戴著這麼一個大得沒有意義的爪子有什麼意義。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "要吓人的话，妳要像我一样，用气势去震慑别人，用气势，懂不懂？",
+			say = "要嚇人的話，妳要像我一樣，用氣勢去震懾別人，用氣勢，懂不懂？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但、但是…我的双手是为了战斗才…",
+			say = "但、但是…我的雙手是為了戰鬥才…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶，妳这个爪子还有点难拆卸，仆人，快点过来，帮我把这个大家伙拆下来！",
+			say = "可惡，妳這個爪子還有點難拆卸，僕人，快點過來，幫我把這個大傢伙拆下來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指挥官走了过来，和姐姐一起试图把我的爪子拆下来。",
+			say = "指揮官走了過來，和姐姐一起試圖把我的爪子拆下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "而我就像个傻瓜一样，站在原地，不知所措……",
+			say = "而我就像個傻瓜一樣，站在原地，不知所措……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "“咔嚓”一声，爪子，被拆了下来。",
+			say = "“咔嚓”一聲，爪子，被拆了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

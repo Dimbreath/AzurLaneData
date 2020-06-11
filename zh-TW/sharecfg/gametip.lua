@@ -550,7 +550,7 @@ pg.gametip = {
 		tip = "設備"
 	},
 	word_cannon = {
-		tip = "舰炮"
+		tip = "艦炮"
 	},
 	word_fighter = {
 		tip = "戰鬥機"
@@ -6250,6 +6250,12 @@ $3]]
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/level_ui_help_9"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/level_ui_help_4"
 				}
 			},
@@ -6688,7 +6694,7 @@ $3]]
 		tip = "天賦點不足"
 	},
 	buildship_new_tip = {
-		tip = "讓·巴爾、麻薩諸塞、敦刻爾克、速科夫、福爾班出現機率UP!"
+		tip = "讓·巴爾、麻薩諸塞、敦克爾克、速科夫、福爾班出現機率UP!"
 	},
 	buildship_heavy_tip = {
 		tip = "愛宕、威爾斯親王建造追加！"

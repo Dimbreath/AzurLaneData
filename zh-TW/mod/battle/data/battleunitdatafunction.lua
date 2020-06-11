@@ -130,10 +130,6 @@ function slot25.GetEquipSkill(slot0)
 				slot9 = uv0.GetWeaponDataFromID(slot8).skill_id
 			end
 
-			if type(slot7.equipmentInfo) == "table" then
-				slot9 = table.merge(slot9, slot7.equipmentInfo:GetAffixBuffList(), true)
-			end
-
 			for slot13, slot14 in ipairs(slot9) do
 				table.insert(slot2, slot14)
 			end

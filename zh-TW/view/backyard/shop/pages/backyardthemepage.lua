@@ -89,19 +89,17 @@ end
 function slot0.GetData(slot0)
 	slot1 = {}
 
-	for slot6, slot7 in ipairs(pg.backyard_theme_template.all) do
-		if BackYardSystemTheme.New({
-			id = slot7
-		}):getConfig("is_view") == 1 and not slot8:IsOverTime() then
+	for slot7, slot8 in ipairs(getProxy(DormProxy):GetSystemThemes()) do
+		if not slot8:IsOverTime() and slot8:MatchSearchKey(getInputText(slot0.searchInput)) then
 			table.insert(slot1, slot8)
 		end
 	end
 
-	slot4 = {
-		[slot9.id] = slot9:IsPurchased(slot0.dorm:GetAllFurniture())
+	slot5 = {
+		[slot10.id] = slot10:IsPurchased(slot0.dorm:GetAllFurniture())
 	}
 
-	for slot8, slot9 in ipairs(slot1) do
+	for slot9, slot10 in ipairs(slot1) do
 		-- Nothing
 	end
 
@@ -142,13 +140,7 @@ function slot0.OnSetUp(slot0)
 end
 
 function slot0.InitThemeList(slot0)
-	slot0.disPlays = {}
-
-	for slot6, slot7 in ipairs(slot0:GetData()) do
-		if slot7:MatchSearchKey(getInputText(slot0.searchInput)) then
-			table.insert(slot0.disPlays, slot7)
-		end
-	end
+	slot0.disPlays = slot0:GetData()
 
 	slot0.scrollRect:SetTotalCount(#slot0.disPlays)
 end

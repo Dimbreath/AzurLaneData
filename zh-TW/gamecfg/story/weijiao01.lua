@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然有点想和刚刚抵达的姐姐叙叙旧，不过还是留到路上再说吧。",
+			say = "雖然有點想和剛剛抵達的姐姐敘敘舊，不過還是留到路上再說吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才接到了商船沉没前发出的无线电报，报告了两个月来胡作非为的斯佩伯爵的位置，要开始追踪了哦",
+			say = "剛才接到了商船沉沒前發出的無線電報，報告了兩個月來胡作非為的施佩伯爵的位置，要開始追踪了哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "啊哈哈，阿贾克斯还是老样子嘛，那么…我们要去哪里？",
+			say = "啊哈哈，阿賈克斯還是老樣子嘛，那麼…我們要去哪裡？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐也是呢，呵呵，要是在那边被欺负了尽管跟我说哟，最近正好有些无聊呢~",
+			say = "姐姐也是呢，呵呵，要是在那邊被欺負了儘管跟我說喲，最近正好有些無聊呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "目标，拉普拉塔河口，方位南纬32度，西经47度，匀速航行，保持警戒，路上可能会有些小虫子呢。",
+			say = "目標，拉布拉他河口，方位南緯32度，西經47度，等速航行，保持警戒，路上可能會有些小蟲子呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，虽然长官的命令是绝对的，这几个月的搜索任务中的捉弄我也忍了…",
+			say = "等等，雖然長官的命令是絕對的，這幾個月的搜索任務中的捉弄我也忍了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是我必须搞清楚妳不是在胡乱地下达指令！",
+			say = "但是我必須搞清楚妳不是在胡亂地下達指令！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊哈哈，阿贾克斯，埃克塞特怎么说也是前辈，平时不要太欺负她呀。",
+			say = "啊哈哈，阿賈克斯，埃克塞特怎麼說也是前輩，平時不要太欺負她呀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为搜索任务太无聊嘛，总得找点事情~",
+			say = "因為搜索任務太無聊嘛，總得找點事情~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎呀，埃克塞特姐姐，我家妹妹平时就是这样没大没小的，让妳生气了我替她向妳道歉。",
+			say = "哎呀，埃克塞特姐姐，我家妹妹平時就是這樣沒大沒小的，讓妳生氣了我替她向妳道歉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不过请相信，我们姐妹里最聪明的一个，阿贾克斯从来不会说没有根据的话的，对吧？",
+			say = "不過請相信，我們姐妹裡最聰明的一個，阿賈克斯從來不會說沒有根據的話的，對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，电报的位置在南大西洋，而拉普拉塔河口作为那一带航线最为拥堵的地方，如果妳是斯佩伯爵，会不会想去那个能给敌人造成最大损伤的地方？",
+			say = "呵呵呵，電報的位置在南大西洋，而拉布拉他河口作為那一帶航線最為擁堵的地方，如果妳是施佩伯爵，會不會想去那個能給敵人造成最大損傷的地方？ ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我……会去。",
+			say = "我……會去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就出发吧，如果我的想法没有错，半路上我们就会遇到敌人了，呵呵呵，可千万不要让我失望啊，斯佩伯爵……",
+			say = "那就出發吧，如果我的想法沒有錯，半路上我們就會遇到敵人了，呵呵呵，可千萬不要讓我失望啊，施佩伯爵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……还有坎伯兰怎么办？",
+			say = "……還有坎伯蘭怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "时间不等人，让她后面赶上吧。",
+			say = "時間不等人，讓她後面趕上吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………我知道了，但愿妳的判断没有出错，还有——",
+			say = "…………我知道了，但願妳的判斷沒有出錯，還有——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "回去后我会把妳的一言一行都上报给军部的！",
+			say = "回去後我會把妳的一言一行都上報給軍部的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，请便~",
+			say = "呵呵，請便~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊哈哈，妳们关系不错嘛~",
+			say = "啊哈哈，妳們關係不錯嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哪里看出来关系不错了啊！",
+			say = "哪裡看出來關係不錯了啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

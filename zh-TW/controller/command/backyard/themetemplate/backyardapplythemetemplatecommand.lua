@@ -2,6 +2,7 @@ slot0 = class("BackYardApplyThemeTemplateCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = slot2.template
 	slot4 = slot2.callback
 	slot5 = getProxy(DormProxy)
 
@@ -37,10 +38,11 @@ function slot0.execute(slot0, slot1)
 		pg.m02:sendNotification(GAME.PUT_FURNITURE, {})
 	end
 
+	slot9 = slot3:GetAllFurniture()
 	slot11 = {}
 
-	if BackYardThemeTemplate.IsOccupyed(uv0.GetAllFloorFurnitures(), slot2.template:GetAllFurniture()) then
-		slot11 = BackYardThemeTemplate.GetUsableFurnituresForFloor(slot8, slot9, 1)
+	if slot3:IsOccupyed(uv0.GetAllFloorFurnitures(), 1) then
+		slot11 = slot3:GetUsableFurnituresForFloor(slot8, 1)
 	else
 		slot12, slot13, slot14 = pairs(slot9)
 

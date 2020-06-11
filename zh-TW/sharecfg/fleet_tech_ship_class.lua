@@ -1286,7 +1286,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40301] = {
 		shiptype = 3,
-		name = "希佩爾海軍上將級",
+		name = "希佩爾將軍級",
 		t_level = 7,
 		id = 40301,
 		t_level_1 = 120,
@@ -1304,7 +1304,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 121,
 		nation = 4,
 		ships = {
-			40304
+			40304,
+			40305
 		}
 	},
 	[40303] = {

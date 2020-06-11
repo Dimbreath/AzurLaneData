@@ -94,7 +94,7 @@ pg.ship_data_create_material = {
 			"<color=#3dc6ff>稀有艦船</color>：51%",
 			"普通艦船：30%",
 			"<color=#ffde38>華盛頓</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>明尼阿波利斯</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>明尼亞波利斯</color>：2%(<color=#92fc63>up!</color>)",
 			"<color=#d797ff>馬里蘭</color>：2.5%(<color=#92fc63>up!</color>)",
 			"<color=#d797ff>科羅拉多</color>：2.5%(<color=#92fc63>up!</color>)",
 			"<color=#3dc6ff>科爾克</color>：5%(<color=#92fc63>up!</color>)"

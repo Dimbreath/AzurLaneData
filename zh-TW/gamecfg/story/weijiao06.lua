@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "嘁…有点不妙…",
+			say = "嘁…有點不妙…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别、别想跑——咕哈……！！",
+			say = "別、別想跑——咕哈……！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "埃克塞特，妳没事吧！",
+			say = "埃克塞特，妳沒事吧！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，这个方向是……？",
+			say = "咦，這個方向是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……那就请前辈先回去接受修理吧，我和姐姐会继续追击斯佩伯爵。",
+			say = "唔……那就請前輩先回去接受修理吧，我和姐姐會繼續追擊施佩伯爵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，她虽然撤退了，但是光凭妳们两个能做什么……我，咳咳，我还……",
+			say = "等等，她雖然撤退了，但是光憑妳們兩個能做什麼……我，咳咳，我還……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的前辈只是个累赘呢…还是认清现实吧~而且……",
+			say = "現在的前輩只是個累贅呢…還是認清現實吧~而且……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我可不想轻易把击沉斯佩伯爵的功劳拱手让人呢~",
+			say = "我可不想輕易把擊沉施佩伯爵的功勞拱手讓人呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，前辈，在担心我之前，还是先担心妳自己吧~",
+			say = "呵呵，前輩，在擔心我之前，還是先擔心妳自己吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我知道了，祝妳们好运。",
+			say = "……我知道了，祝妳們好運。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

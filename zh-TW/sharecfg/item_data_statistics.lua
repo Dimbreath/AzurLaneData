@@ -11146,7 +11146,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[41383] = {
-		display = "希佩爾海軍上將贈送的情人節禮物",
+		display = "希佩爾將軍贈送的情人節禮物",
 		rarity = 8,
 		type = 1,
 		drop_oil_max = 0,
@@ -11200,7 +11200,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[41386] = {
-		display = "斯佩伯爵海軍上將贈送的情人節禮物",
+		display = "施佩伯爵將軍贈送的情人節禮物",
 		rarity = 8,
 		type = 1,
 		drop_oil_max = 0,
@@ -12730,7 +12730,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[41471] = {
-		display = "明尼阿波利斯贈送的情人節禮物",
+		display = "明尼亞波利斯贈送的情人節禮物",
 		rarity = 8,
 		type = 1,
 		drop_oil_max = 0,

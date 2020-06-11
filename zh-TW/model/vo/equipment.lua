@@ -17,27 +17,10 @@ function slot0.Ctor(slot0, slot1)
 
 	slot0:BuildConfig()
 
-	if slot0:GetCategory() == EquipCategory.Siren then
-		slot0.count = 1
-	else
-		slot0.count = defaultValue(slot1.count, 0)
-	end
-
+	slot0.count = defaultValue(slot1.count, 0)
 	slot0.new = defaultValue(slot1.new, 0)
 	slot0.isSkin = defaultValue(slot1.isSkin, false)
 	slot0.skinId = slot1.skinId or 0
-	slot0.affixList = {}
-
-	_.each(slot1.affix_list or {}, function (slot0)
-		table.insert(uv0.affixList, {
-			id = slot0.id,
-			value = slot0.value
-		})
-	end)
-end
-
-function slot0.GetCategory(slot0)
-	return slot0.config.is_siren
 end
 
 function slot0.BuildConfig(slot0)
@@ -69,35 +52,6 @@ function slot0.GetAttributes(slot0)
 			type = slot7,
 			value = slot8
 		} or false
-	end
-
-	return slot1
-end
-
-function slot0.GetAdditionalAttributes(slot0)
-	_.each(slot0:GetAffixList(), function (slot0)
-		slot1 = pg.equip_siren_ability[slot0.id]
-		uv0[slot1.attr_1] = (uv0[slot1.attr_1] or 0) + slot0.value
-		uv0[slot1.attr_2] = (uv0[slot1.attr_2] or 0) + slot0.value
-	end)
-
-	return _.map(_.keys({}), function (slot0)
-		return {
-			type = slot0,
-			value = uv0[slot0]
-		}
-	end)
-end
-
-function slot0.GetAffixBuffList(slot0)
-	slot1 = {}
-
-	if slot0:GetCategory() == EquipCategory.Siren then
-		_.each(slot0:GetAffixList(), function (slot0)
-			_.each(pg.equip_siren_ability[slot0.id].effect, function (slot0)
-				table.insert(uv0, slot0)
-			end)
-		end)
 	end
 
 	return slot1
@@ -268,48 +222,12 @@ function slot0.isUnique(slot0)
 	return slot0.config.equip_limit ~= 0
 end
 
-function slot0.GetAffixSlot(slot0)
-	return math.clamp(slot0.config.rarity - 2, 1, 3)
-end
-
-function slot0.GetAffix(slot0, slot1)
-	return slot0.affixList[slot1]
-end
-
-function slot0.GetAffixDesc(slot0, slot1)
-	if #pg.equip_siren_ability[slot0:GetAffix(slot1).id].attr_1 > 0 then
-		table.insert({}, slot2.value)
-	end
-
-	if #slot3.attr_2 > 0 then
-		table.insert(slot4, slot2.value)
-	end
-
-	for slot9, slot10 in ipairs(slot4) do
-		slot5 = string.gsub(slot3.desc, "$" .. slot9, slot10)
-	end
-
-	return slot5
-end
-
-function slot0.GetAffixList(slot0)
-	return slot0.affixList
-end
-
 function slot0.MigrateTo(slot0, slot1)
-	if slot0:GetCategory() == EquipCategory.Siren then
-		return Equipment.New({
-			id = slot0.id,
-			config_id = slot1,
-			affix_list = slot0:GetAffixList()
-		})
-	else
-		return Equipment.New({
-			id = slot1,
-			config_id = slot1,
-			count = slot0.count
-		})
-	end
+	return Equipment.New({
+		id = slot1,
+		config_id = slot1,
+		count = slot0.count
+	})
 end
 
 function slot0.GetRootEquipment(slot0)

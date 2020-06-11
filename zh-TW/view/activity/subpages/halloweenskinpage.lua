@@ -8,8 +8,6 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
-
 	slot0.tasks = _.flatten(slot0.activity:getConfig("config_data"))
 
 	onButton(slot0, slot0.goBtn, function ()

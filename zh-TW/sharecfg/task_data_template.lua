@@ -16352,6 +16352,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5441] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5324,
+		type = 5,
+		name = "願望",
+		count_inherit = 0,
+		desc = "提交3個《魚雷天婦羅》",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		award_choice = "",
+		level = 1,
+		next_task = "5442",
+		visibility = 1,
+		story_id = "SIPEIBOJUE1",
+		target_id_for_client = 50003,
+		id = 5441,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5442] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5325,
+		type = 5,
+		name = "偶遇",
+		count_inherit = 0,
+		desc = "強化任意角色10次",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5443",
+		visibility = 1,
+		story_id = "SIPEIBOJUE2",
+		target_id_for_client = 0,
+		id = 5442,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5443] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5326,
+		type = 5,
+		name = "戰友",
+		count_inherit = 0,
+		desc = "施佩伯爵將軍上陣出擊(關卡)勝利20次",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5444",
+		visibility = 1,
+		story_id = "SIPEIBOJUE3",
+		target_id_for_client = 40305,
+		id = 5443,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "40305",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5444] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5327,
+		type = 5,
+		name = "同伴",
+		count_inherit = 0,
+		desc = "施佩伯爵將軍上陣完成3次每日挑戰",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5445",
+		visibility = 1,
+		story_id = "SIPEIBOJUE4",
+		target_id_for_client = 40305,
+		id = 5444,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "40305",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5445] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5328,
+		type = 5,
+		name = "孤獨",
+		count_inherit = 0,
+		desc = "施佩伯爵將軍好感度達到100",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5446",
+		visibility = 1,
+		story_id = "SIPEIBOJUE5",
+		target_id_for_client = 40305,
+		id = 5445,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "40305",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5446] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5329,
+		type = 5,
+		name = "重量",
+		count_inherit = 0,
+		desc = "施佩伯爵將軍突破至滿星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5447",
+		visibility = 1,
+		story_id = "SIPEIBOJUE6",
+		target_id_for_client = 403054,
+		id = 5446,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "403054",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5447] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5330,
+		type = 5,
+		name = "溫暖",
+		count_inherit = 0,
+		desc = "施佩伯爵將軍等級達到100",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SIPEIBOJUE7",
+		target_id_for_client = 40305,
+		id = 5447,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "40305",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -31333,6 +31589,364 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14011] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90319,
+		type = 6,
+		name = "二次復刻斯佩1",
+		count_inherit = 0,
+		desc = "通關10次SP3",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1070203,
+		id = 14011,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "1070203",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14012] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90320,
+		type = 6,
+		name = "二次復刻斯佩2",
+		count_inherit = 0,
+		desc = "通關20次SP3",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1070203,
+		id = 14012,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "1070203",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14013] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90321,
+		type = 6,
+		name = "二次復刻斯佩3",
+		count_inherit = 0,
+		desc = "通關40次SP3",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1070203,
+		id = 14013,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "1070203",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14014] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90322,
+		type = 6,
+		name = "二次復刻斯佩4",
+		count_inherit = 0,
+		desc = "通關60次SP3",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1070203,
+		id = 14014,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "1070203",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				403051,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14015] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90323,
+		type = 6,
+		name = "二次復刻斯佩地圖任務1",
+		count_inherit = 0,
+		desc = "通關SP1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14016",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1070201,
+		id = 14015,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1070201",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14016] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90324,
+		type = 6,
+		name = "二次復刻斯佩地圖任務2",
+		count_inherit = 0,
+		desc = "通關SP2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14017",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1070202,
+		id = 14016,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1070202",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14017] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90325,
+		type = 6,
+		name = "二次復刻斯佩地圖任務3",
+		count_inherit = 0,
+		desc = "通關SP3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1070203,
+		id = 14017,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1070203",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[14018] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90326,
+		type = 6,
+		name = "二次復刻斯佩地圖任務4",
+		count_inherit = 0,
+		desc = "完成SP1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14019",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1070201,
+		id = 14018,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1070201",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[14019] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90327,
+		type = 6,
+		name = "二次復刻斯佩地圖任務5",
+		count_inherit = 0,
+		desc = "完成SP2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14020",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1070202,
+		id = 14019,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1070202",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[14020] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90328,
+		type = 6,
+		name = "二次復刻斯佩地圖任務6",
+		count_inherit = 0,
+		desc = "完成SP3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1070203,
+		id = 14020,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1070203",
+		open_need = {},
+		award_display = {
+			{
+				3,
+				43140,
+				1
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
 	[14152] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -44696,6 +45310,13 @@ pg.task_data_template = {
 		5425,
 		5426,
 		5427,
+		5441,
+		5442,
+		5443,
+		5444,
+		5445,
+		5446,
+		5447,
 		6001,
 		6002,
 		6003,
@@ -45117,6 +45738,16 @@ pg.task_data_template = {
 		13974,
 		13975,
 		13976,
+		14011,
+		14012,
+		14013,
+		14014,
+		14015,
+		14016,
+		14017,
+		14018,
+		14019,
+		14020,
 		14152,
 		14153,
 		14154,

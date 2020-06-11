@@ -4391,7 +4391,8 @@ pg.equip_data_statistics = {
 			ambush_extra = 500
 		},
 		label = {
-			"DEV"
+			"DEV",
+			"SG"
 		}
 	},
 	[1501] = {
@@ -4482,7 +4483,8 @@ pg.equip_data_statistics = {
 			ambush_extra = 800
 		},
 		label = {
-			"DEV"
+			"DEV",
+			"SG"
 		}
 	},
 	[1521] = {
@@ -4608,7 +4610,8 @@ pg.equip_data_statistics = {
 			ambush_extra = 1200
 		},
 		label = {
-			"DEV"
+			"DEV",
+			"SG"
 		}
 	},
 	[1541] = {
@@ -43811,7 +43814,7 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		nationality = 4,
 		ammo = "穿甲彈",
-		descrip = "雙聯裝203mmSKC主炮，希佩爾海軍上將級重巡主炮，重巡可以使用",
+		descrip = "雙聯裝203mmSKC主炮，希佩爾將軍級重巡主炮，重巡可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -43919,7 +43922,7 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		nationality = 4,
 		ammo = "穿甲彈",
-		descrip = "雙聯裝203mmSKC主炮，希佩爾海軍上將級重巡主炮，重巡可以使用",
+		descrip = "雙聯裝203mmSKC主炮，希佩爾將軍級重巡主炮，重巡可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -44071,7 +44074,7 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		nationality = 4,
 		ammo = "穿甲彈",
-		descrip = "雙聯裝203mmSKC主炮，希佩爾海軍上將級重巡主炮，重巡可以使用",
+		descrip = "雙聯裝203mmSKC主炮，希佩爾將軍級重巡主炮，重巡可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -44223,7 +44226,7 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		nationality = 4,
 		ammo = "穿甲彈",
-		descrip = "雙聯裝203mmSKC主炮，希佩爾海軍上將級重巡主炮，重巡可以使用",
+		descrip = "雙聯裝203mmSKC主炮，希佩爾將軍級重巡主炮，重巡可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -54019,6 +54022,47 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[71016] = {
+		name = "全弹发射-部族级I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		is_siren = 0,
+		rarity = 1,
+		descrip = "技能弹幕",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 71016,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			71016
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[71017] = {
+		id = 71017,
+		name = "全弹发射-部族级II",
+		base = 71016,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			71017
+		},
+		property_rate = {}
+	},
 	[71111] = {
 		name = "全彈發射-利安得級I",
 		type = 1,
@@ -55785,7 +55829,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[73211] = {
-		name = "全彈發射-希佩爾海軍上將級I",
+		name = "全彈發射-希佩爾將軍級I",
 		type = 1,
 		nationality = 0,
 		speciality = "無",
@@ -55816,7 +55860,7 @@ pg.equip_data_statistics = {
 	},
 	[73212] = {
 		id = 73212,
-		name = "全彈發射-希佩爾海軍上將級II",
+		name = "全彈發射-希佩爾將軍級II",
 		base = 73211,
 		is_siren = 0,
 		torpedo_ammo = 0,
@@ -64129,6 +64173,8 @@ pg.equip_data_statistics = {
 		71082,
 		71091,
 		71092,
+		71016,
+		71017,
 		71111,
 		71112,
 		71121,

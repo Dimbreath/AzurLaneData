@@ -1487,7 +1487,7 @@ pg.expedition_data_by_map = {
 	},
 	[1070100] = {
 		map = 1070100,
-		name = "圍剿斯佩伯爵！|| ||CHAPTER SP||S.P.",
+		name = "圍剿施佩伯爵！|| ||CHAPTER SP||S.P.",
 		bgm = "level02",
 		type = 3,
 		on_activity = 0,
@@ -1528,10 +1528,10 @@ pg.expedition_data_by_map = {
 	},
 	[1070200] = {
 		map = 1070200,
-		name = "圍剿斯佩伯爵！|| ||CHAPTER SP||S.P.",
+		name = "圍剿施佩伯爵！|| ||CHAPTER SP||S.P.",
 		bgm = "level02",
 		type = 3,
-		on_activity = 0,
+		on_activity = 40134,
 		title = "SP",
 		drop_by_map_display = "",
 		enter_story = "",

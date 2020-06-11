@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是个坚强的家伙呢……战斗到最后一刻然后选择了自沉，总觉得我们才像是恶人一样。",
+			say = "真是個堅強的傢伙呢……戰鬥到最後一刻然後選擇了自沉，總覺得我們才像是惡人一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "呵呵，哪有什么善人恶人……这就是战争哦，姐姐。",
+			say = "呵呵，哪有什麼善人惡人……這就是戰爭哦，姐姐。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -45,7 +45,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通知坎伯兰不用过来了，以及通告全军，斯佩伯爵已经沉没了……吧。",
+			say = "通知坎伯蘭不用過來了，以及通告全軍，施佩伯爵已經沉沒了……吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题，那我们也返航……嗯？阿贾克斯，妳怎么啦？",
+			say = "沒問題，那我們也返航……嗯？阿賈克斯，妳怎麼啦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯，我知道了，妳也尽快赶上来哦。",
+			say = "……嗯，我知道了，妳也盡快趕上來哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "抱歉呢，我们的后方只有坎伯兰在赶过来，皇家方舟和声望都是假的哦？",
+			say = "抱歉呢，我們的後方只有坎伯蘭在趕過來，皇家方舟和聲望都是假的哦？",
 			flashout = {
 				black = true,
 				dur = 1.2,
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然了，即使妳能赢过我和姐姐，在妳选择了进入这个港口的瞬间，就注定妳的失败了。",
+			say = "當然了，即使妳能贏過我和姐姐，在妳選擇了進入這個港口的瞬間，就注定妳的失敗了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，真不像我，竟然有点感伤了起来，还是回去继续戏弄埃克塞特前辈吧。",
+			say = "哎呀，真不像我，竟然有點感傷了起來，還是回去繼續戲弄埃克塞特前輩吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢妳，斯佩伯爵，我玩的很开心哦，呵呵呵……",
+			say = "謝謝妳，施佩伯爵，我玩的很開心哦，呵呵呵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

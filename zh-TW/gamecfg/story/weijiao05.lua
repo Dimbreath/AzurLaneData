@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "……失算了，居然是狩猎部队，不是商队……",
+			say = "……失算了，居然是狩獵部隊，不是商隊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "哎呀，我说为什么明明射程上是妳有利却比我们还要急着近身，原来是看错了吗，堂堂斯佩伯爵，也不过如此嘛~",
+			say = "哎呀，我說為什麼明明射程上是妳有利卻比我們還要急著近身，原來是看錯了嗎，堂堂施佩伯爵，也不過如此嘛~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "……就算这样，妳们也不是我的对手。",
+			say = "……就算這樣，妳們也不是我的對手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这可就说不准了！",
+			say = "這可就說不準了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "夹击吗……小聪明！",
+			say = "夾擊嗎……小聰明！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "是不是小聪明，可要打过才知道了呢……姐姐，上了。",
+			say = "是不是小聰明，可要打過才知道了呢……姐姐，上了。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -109,7 +109,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "没问题~",
+			say = "沒問題~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

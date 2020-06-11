@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根据情报，斯佩伯爵虽然击沉了数只商船，但是救助了落水的船员，看在这一点的份上，放妳一马。",
+			say = "根據情報，施佩伯爵雖然擊沉了數隻商船，但是救助了落水的船員，看在這一點的份上，放妳一馬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "呵……妳这人，虽然阴险，人还不错……嘛……",
+			say = "呵……妳這人，雖然陰險，人還不錯……嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "昏过去了……真的把她丢在这里就好吗？",
+			say = "昏過去了……真的把她丟在這裡就好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "虽然我不介意多个玩具，不过我们现在可没有带着个俘虏面对斯佩伯爵的空间哦？",
+			say = "雖然我不介意多個玩具，不過我們現在可沒有帶著個俘虜面對施佩伯爵的空間哦？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是说，出于高贵的骑士精神，妳想要自告奋勇拖着她走？",
+			say = "還是說，出於高貴的騎士精神，妳想要自告奮勇拖著她走？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳这人……我知道了，继续前进吧。",
+			say = "妳這人……我知道了，繼續前進吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

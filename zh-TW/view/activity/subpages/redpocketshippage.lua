@@ -25,7 +25,6 @@ end
 function slot0.OnFirstFlush(slot0)
 	slot1 = slot0.activity
 
-	LoadImageSpriteAsync(slot0:GetBgImg() or "clutter/U556", slot0.bg)
 	onButton(slot0, slot0.tip, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,

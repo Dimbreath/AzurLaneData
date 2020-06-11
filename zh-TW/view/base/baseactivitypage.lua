@@ -33,10 +33,6 @@ function slot0.ShowOrHide(slot0, slot1)
 	SetActive(slot0._go, slot1)
 end
 
-function slot0.GetBgImg(slot0)
-	return slot0.activity:getConfig("bg")[1]
-end
-
 function slot0.OnInit(slot0)
 end
 
@@ -50,6 +46,10 @@ function slot0.OnUpdateFlush(slot0)
 end
 
 function slot0.OnDestroy(slot0)
+end
+
+function slot0.UseSecondPage(slot0, slot1)
+	return false
 end
 
 return slot0

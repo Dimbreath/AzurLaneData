@@ -14,7 +14,13 @@ function this.LoadBg(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		PoolMgr.GetInstance():GetPrefab(slot8, "", true, function (slot0)
 			if not uv0.exited then
 				setParent(slot0, uv1, false)
-				slot0:GetComponent(typeof(CriManaEffectUI)):Pause(false)
+
+				if slot0:GetComponent(typeof(CriManaEffectUI)) then
+					slot1:Pause(false)
+				elseif slot0:GetComponent(typeof(CriManaCpkUI)) and slot1.cpkPlayOnStart then
+					slot1:PlayCpk()
+				end
+
 				setActive(uv2, false)
 
 				if uv3 ~= nil then
@@ -46,10 +52,15 @@ end
 function this.ClearBg(slot0, slot1)
 	for slot5 = #slot0.cache, 1, -1 do
 		if slot0.cache[slot5].uiName == slot1 then
-			slot8 = slot6.dyBg
+			slot7 = "ui/star_level_bg_" .. slot6.bgName
 
-			slot8:GetComponent(typeof(CriManaEffectUI)):Pause(true)
-			PoolMgr.GetInstance():ReturnPrefab("ui/star_level_bg_" .. slot6.bgName, "", slot8)
+			if slot6.dyBg:GetComponent(typeof(CriManaEffectUI)) then
+				slot9:Pause(true)
+			elseif slot8:GetComponent(typeof(CriManaCpkUI)) then
+				slot9:Stop()
+			end
+
+			PoolMgr.GetInstance():ReturnPrefab(slot7, "", slot8)
 
 			if #slot0.cache > 1 then
 				PoolMgr.GetInstance():DestroyPrefab(slot7, "")

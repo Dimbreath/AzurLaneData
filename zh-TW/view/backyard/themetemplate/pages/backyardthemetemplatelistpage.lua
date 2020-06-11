@@ -28,15 +28,18 @@ function slot0.OnInit(slot0)
 	setText(slot0.refreshBtns:Find("hot/Text"), i18n("word_hot"))
 	setText(slot0.refreshBtns:Find("new/Text"), i18n("word_new"))
 
-	slot4 = "new"
 	slot0.btns = {
 		[5] = slot0.refreshBtns:Find("random"),
 		[3] = slot0.refreshBtns:Find("hot"),
-		[2] = slot0.refreshBtns:Find(slot4)
+		[2] = slot0.refreshBtns:Find("new")
 	}
+	slot2 = slot0:findTF("search/Placeholder"):GetComponent(typeof(Image))
+	slot2.sprite = GetSpriteFromAtlas("ui/NewBackYardShopUI_atlas", "search_theme")
 
-	for slot4, slot5 in pairs(slot0.btns) do
-		onButton(slot0, slot5, function ()
+	slot2:SetNativeSize()
+
+	for slot6, slot7 in pairs(slot0.btns) do
+		onButton(slot0, slot7, function ()
 			if uv0:CanClickRefBtn(uv1) then
 				if uv0.selectedRefBtn then
 					setActive(uv0.selectedRefBtn:Find("sel"), false)
@@ -80,7 +83,7 @@ function slot0.OnInit(slot0)
 		end
 	end, SFX_PANEL)
 
-	function slot1()
+	function slot3()
 		if uv0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
 			uv0:emit(NewBackYardThemeTemplateMediator.ON_GET_SPCAIL_TYPE_TEMPLATE, BackYardConst.ThemeSortIndex2ServerIndex(uv0.sortIndex, uv0.asc))
 		else
@@ -118,9 +121,13 @@ function slot0.UpdateArr(slot0)
 	elseif slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM then
 		setActive(slot0.arrLeftBtn, false)
 		setActive(slot0.arrRightBtn, false)
+		setActive(slot0.arrLeftBtnShop, false)
+		setActive(slot0.arrRightBtnShop, false)
 	else
 		setActive(slot0.arrLeftBtn, true)
 		setActive(slot0.arrRightBtn, true)
+		setActive(slot0.arrLeftBtnShop, false)
+		setActive(slot0.arrRightBtnShop, false)
 	end
 end
 
@@ -430,7 +437,7 @@ function slot0.OnCardClick(slot0, slot1)
 
 	function slot2(slot0)
 		BackYardThemeTempalteUtil.GetTexture(slot0:GetTextureName(), slot0:GetImageMd5(), function (slot0)
-			if slot0 then
+			if not IsNil(uv0.rawImage) and slot0 then
 				uv0.rawImage.texture = slot0
 
 				setActive(uv0.rawImage.gameObject, true)

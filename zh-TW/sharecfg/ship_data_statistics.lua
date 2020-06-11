@@ -23413,7 +23413,7 @@ pg.ship_data_statistics = {
 	[103131] = {
 		oxy_max = 0,
 		type = 3,
-		name = "明尼阿波利斯",
+		name = "明尼亞波利斯",
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
@@ -23532,7 +23532,7 @@ pg.ship_data_statistics = {
 	[103132] = {
 		oxy_max = 0,
 		type = 3,
-		name = "明尼阿波利斯",
+		name = "明尼亞波利斯",
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
@@ -23651,7 +23651,7 @@ pg.ship_data_statistics = {
 	[103133] = {
 		oxy_max = 0,
 		type = 3,
-		name = "明尼阿波利斯",
+		name = "明尼亞波利斯",
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
@@ -23770,7 +23770,7 @@ pg.ship_data_statistics = {
 	[103134] = {
 		oxy_max = 0,
 		type = 3,
-		name = "明尼阿波利斯",
+		name = "明尼亞波利斯",
 		huntingrange_level = 0,
 		star = 6,
 		oxy_recovery = 0,
@@ -107005,7 +107005,7 @@ pg.ship_data_statistics = {
 	[403011] = {
 		oxy_max = 0,
 		type = 3,
-		name = "希佩爾海軍上將",
+		name = "希佩爾將軍",
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
@@ -107124,7 +107124,7 @@ pg.ship_data_statistics = {
 	[403012] = {
 		oxy_max = 0,
 		type = 3,
-		name = "希佩爾海軍上將",
+		name = "希佩爾將軍",
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
@@ -107243,7 +107243,7 @@ pg.ship_data_statistics = {
 	[403013] = {
 		oxy_max = 0,
 		type = 3,
-		name = "希佩爾海軍上將",
+		name = "希佩爾將軍",
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
@@ -107362,7 +107362,7 @@ pg.ship_data_statistics = {
 	[403014] = {
 		oxy_max = 0,
 		type = 3,
-		name = "希佩爾海軍上將",
+		name = "希佩爾將軍",
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
@@ -108370,6 +108370,482 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			1583,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			334
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1,
+			0.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[403051] = {
+		oxy_max = 0,
+		type = 3,
+		name = "施佩伯爵將軍",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 403051,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Admiral Graf Spee",
+		oxy_cost = 0,
+		skin_id = 403050,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			750,
+			55,
+			40,
+			29,
+			0,
+			64,
+			0,
+			43,
+			7,
+			22.8,
+			36,
+			0
+		},
+		attrs_growth = {
+			18290,
+			546,
+			392,
+			560,
+			0,
+			318,
+			0,
+			636,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			331
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.3,
+			1,
+			0.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[403052] = {
+		oxy_max = 0,
+		type = 3,
+		name = "施佩伯爵將軍",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 403052,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Admiral Graf Spee",
+		oxy_cost = 0,
+		skin_id = 403050,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			933,
+			69,
+			50,
+			36,
+			0,
+			64,
+			0,
+			43,
+			7,
+			22.8,
+			36,
+			0
+		},
+		attrs_growth = {
+			18290,
+			546,
+			392,
+			560,
+			0,
+			318,
+			0,
+			636,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			332
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.3,
+			1,
+			0.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[403053] = {
+		oxy_max = 0,
+		type = 3,
+		name = "施佩伯爵將軍",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 403053,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Admiral Graf Spee",
+		oxy_cost = 0,
+		skin_id = 403050,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1299,
+			96,
+			69,
+			50,
+			0,
+			64,
+			0,
+			43,
+			7,
+			22.8,
+			36,
+			0
+		},
+		attrs_growth = {
+			18290,
+			546,
+			392,
+			560,
+			0,
+			318,
+			0,
+			636,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			333
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.3,
+			1,
+			0.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[403054] = {
+		oxy_max = 0,
+		type = 3,
+		name = "施佩伯爵將軍",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 403054,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Admiral Graf Spee",
+		oxy_cost = 0,
+		skin_id = 403050,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1847,
+			137,
+			99,
+			71,
+			0,
+			64,
+			0,
+			43,
+			7,
+			22.8,
+			36,
+			0
+		},
+		attrs_growth = {
+			18290,
+			546,
+			392,
+			560,
+			0,
+			318,
+			0,
+			636,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			4570,
+			1158,
+			928,
+			385,
+			0,
+			755,
+			0,
+			0,
+			1577,
 			0,
 			0,
 			0
@@ -143525,6 +144001,10 @@ pg.ship_data_statistics = {
 		403042,
 		403043,
 		403044,
+		403051,
+		403052,
+		403053,
+		403054,
 		404011,
 		404012,
 		404013,

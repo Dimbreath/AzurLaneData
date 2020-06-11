@@ -22,7 +22,6 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 
 	slot0.iconTF = slot0._tf:Find("icon")
 	slot0.iconImg = slot0.iconTF:GetComponent(typeof(Image))
-	slot0.iconEvent = GetOrAddComponent(slot0.iconTF, "EventTriggerListener")
 
 	slot0:UpdateScale(slot2.position)
 

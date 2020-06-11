@@ -17,8 +17,6 @@ function slot0.OnDataSetting(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
-
 	slot1 = slot0.activity
 
 	setText(slot0.nums, _.reduce(_.slice(slot1:getConfig("config_client")[3], 1, slot1.data2), 0, function (slot0, slot1)

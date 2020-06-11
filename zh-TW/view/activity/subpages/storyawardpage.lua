@@ -15,8 +15,6 @@ function slot0.OnDataSetting(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
-
 	for slot4 = 1, #slot0.chapterIDList do
 		slot7 = cloneTplTo(slot0.taskItemTpl, slot0.container, "TaskItem" .. tostring(slot4))
 		slot10 = slot0:findTF("GotTag", slot7)

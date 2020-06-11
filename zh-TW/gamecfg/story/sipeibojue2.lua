@@ -11,15 +11,15 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>“换句话说，要学会分享！”</size>",
+					"<size=51>“換句話說，要學會分享！ ”</size>",
 					2
 				},
 				{
-					"<size=51>“无论是快乐还是烦恼，全都可以告诉我！”</size>",
+					"<size=51>“無論是快樂還是煩惱，全都可以告訴我！ ”</size>",
 					4
 				},
 				{
-					"<size=51>“不会让妳一直孤单一个人的！”</size>",
+					"<size=51>“不會讓妳一直孤單一個人的！ ”</size>",
 					6
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港湾\n\n<size=45>二　偶遇</size>",
+					"港灣\n\n<size=45>二　偶遇</size>",
 					1
 				}
 			}
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区",
+			say = "港區",
 			effects = {
 				{
 					active = false,
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "微风舒爽，正是适合散步的天气。",
+			say = "微風舒爽，正是適合散步的天氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "虽然在这里边吃着零食边散步让人非常安心，但是这应该不是我的“愿望”。",
+			say = "雖然在這裡邊吃著零食邊散步讓人非常安心，但是這應該不是我的“願望”。",
 			effects = {
 				{
 					active = false,
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "嗯？这个新口味的鱼干意外的很好吃……",
+			say = "嗯？這個新口味的魚乾意外的很好吃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（猫？）",
+			say = "（貓？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "不是指挥喵，而是普通的猫。",
+			say = "不是指揮喵，而是普通的貓。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actorName = "猫",
+			actorName = "貓",
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -223,7 +223,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳是想吃这个吗？",
+			say = "你是想吃這個嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actorName = "猫",
+			actorName = "貓",
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给妳。",
+			say = "給你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			actorName = "猫",
+			actorName = "貓",
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "猫先生慢慢地走了过来，吃起了我手中的鱼干。它看起来很高兴的样子。",
+			say = "貓先生慢慢地走了過來，吃起了我手中的魚乾。它看起來很高興的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是个好孩子呢……",
+			say = "真是個好孩子呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "斯佩？妳在做什么呢？",
+			say = "施佩？妳在做什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actorName = "猫",
+			actorName = "貓",
 			say = "喵！",
 			dialogShake = {
 				speed = 0.09,
@@ -365,7 +365,7 @@ return {
 			}
 		},
 		{
-			say = "什么啊，原来是猫吗。",
+			say = "什麼啊，原來是貓嗎。",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -390,7 +390,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，妳把她吓跑了。",
+			say = "姐姐，妳把牠嚇跑了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那种下等生物有什么好在意的。",
+			say = "那種下等生物有什麼好在意的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那姐姐，妳要吃这个吗？",
+			say = "那姐姐，妳要吃這個嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种零食小孩子才——",
+			say = "這種零食小孩子才——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……不需要，谢了。",
+			say = "……不需要，謝了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "对了！斯佩，我和妳说啊，昨天的演习，皇家的那帮家伙——",
+			say = "對了！施佩，我和妳說啊，昨天的演習，皇家的那幫傢伙——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "结果最后一路听着姐姐的抱怨回到了宿舍。",
+			say = "結果最後一路聽著姐姐的抱怨回到了宿舍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "希望猫先生没有被姐姐吓到吧……",
+			say = "希望貓先生沒有被姐姐嚇到吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

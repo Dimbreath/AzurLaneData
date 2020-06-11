@@ -24987,6 +24987,2065 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[28001] = {
+		advice = 0,
+		describe = "貼上之後就能在房間裡享受森林的感覺了",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "樹木背景",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 28,
+		icon = "qiangbislicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28001,
+		picture = "senlin/qiangbisl",
+		comfortable = 4,
+		tag = 3,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28002] = {
+		advice = 0,
+		describe = "特地在房間裡營造出草地的感覺",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "森林綠草",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 28,
+		icon = "dibanslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28002,
+		picture = "senlin/dibansl",
+		comfortable = 4,
+		tag = 4,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28101] = {
+		advice = 0,
+		describe = "森林裡常見的小草堆",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "小草堆",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 28,
+		icon = "caodui1slicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28101,
+		picture = "senlin/caodui1sl",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28102] = {
+		advice = 0,
+		describe = "稍微大一點的草堆，可還是沒辦法藏人",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "大草堆",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "caodui2slicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28102,
+		picture = "senlin/caodui2sl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28103] = {
+		advice = 0,
+		describe = "富有森林氣息的床鋪，有著大大的葉子",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "葉子床",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 28,
+		icon = "chuangslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 28103,
+		picture = "senlin/chuangsl",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					15,
+					-62
+				},
+				{
+					1,
+					1
+				},
+				"senlin/chuangsl_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28104] = {
+		advice = 0,
+		describe = "森林裡就是要自給自足！",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "栽種田1",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "congslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28104,
+		picture = "senlin/congsl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28105] = {
+		advice = 0,
+		describe = "森林裡就是要自給自足！",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "栽種田2",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "luoboslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28105,
+		picture = "senlin/luobosl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28106] = {
+		advice = 0,
+		describe = "這個路燈好奇怪啊。",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "木樁路燈",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 28,
+		icon = "dengslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28106,
+		picture = "senlin/dengsl",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28107] = {
+		advice = 0,
+		describe = "多彩系列花朵凳之一",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "黃色花朵",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 28,
+		icon = "dengzi2slicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 28107,
+		picture = "senlin/dengzi2sl",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-5,
+					59
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28108] = {
+		advice = 0,
+		describe = "多彩系列花朵凳之一",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "粉色花朵",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 28,
+		icon = "dengzi3slicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 28108,
+		picture = "senlin/dengzi3sl",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-5,
+					59
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28109] = {
+		advice = 0,
+		describe = "多彩系列花朵凳之一",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "白色花朵",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 28,
+		icon = "dengzi4slicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 28109,
+		picture = "senlin/dengzi4sl",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-5,
+					59
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28110] = {
+		advice = 0,
+		describe = "這個吃了也不能變大哦",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "蘑菇凳",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 28,
+		icon = "dengzislicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 28110,
+		picture = "senlin/dengzisl",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-5,
+					59
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28111] = {
+		advice = 0,
+		describe = "不是很明白這個形狀的地毯意義在哪",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "胡蘿蔔地毯",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "ditan1slicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28111,
+		picture = "senlin/ditan1sl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28112] = {
+		advice = 0,
+		describe = "這個踩上去感覺和草地一樣嗎",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "綠草地毯",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "ditan2slicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28112,
+		picture = "senlin/ditan2sl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28113] = {
+		advice = 0,
+		describe = "野餐的時候記得帶上桌布哦",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "野餐桌布",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "ditan3slicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28113,
+		picture = "senlin/ditan3sl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28114] = {
+		advice = 0,
+		describe = "森林裡熊的最愛！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "蜂蜜罐",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 28,
+		icon = "fengmislicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 1,
+		id = 28114,
+		picture = "senlin/fengmisl",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-5,
+					-22
+				},
+				{
+					-1,
+					1
+				},
+				"senlin/fengmisl_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28115] = {
+		advice = 0,
+		describe = "睡床邊上最後有些觸手可及的東西",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "床頭櫃",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "guizislicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28115,
+		picture = "senlin/guizisl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {
+			0,
+			-4.7
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28116] = {
+		advice = 0,
+		describe = "沒有條幅，只好用布條先救下場了",
+		count = 1,
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		name = "橫幅",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 28,
+		icon = "hengfuslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28116,
+		picture = "senlin/hengfusl",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			1,
+			6
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28117] = {
+		advice = 0,
+		describe = "石頭圍起的花壇，用來點綴下周圍",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "石頭花壇",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "huatanslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28117,
+		picture = "senlin/huatansl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28118] = {
+		advice = 0,
+		describe = "親切和藹的啾媽媽",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "田園啾媽媽",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "jiuslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28118,
+		picture = "senlin/jiusl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28119] = {
+		advice = 0,
+		describe = "水果都是抱枕，是不能吃的哦",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "水果籃座椅",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 28,
+		icon = "lanzislicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 28119,
+		picture = "senlin/lanzisl",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-67,
+					-23
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					1,
+					-53
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28120] = {
+		advice = 0,
+		describe = "用來指引方向的路牌",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "路標",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "lubiaoslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28120,
+		picture = "senlin/lubiaosl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28121] = {
+		advice = 0,
+		describe = "晚上精神抖擻！白天睡覺。",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "貓頭鷹",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "maotouyingslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28121,
+		picture = "senlin/maotouyingsl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28122] = {
+		advice = 0,
+		describe = "森林裡造木屋必不可少的地板",
+		count = 3,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "木板地面",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 28,
+		icon = "mubanslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28122,
+		picture = "senlin/mubansl",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28123] = {
+		advice = 0,
+		describe = "單人休息用的小木屋",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "小木屋",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 28,
+		icon = "muwuslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 28123,
+		picture = "senlin/muwusl",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-1,
+					5
+				},
+				{
+					1,
+					1
+				},
+				"senlin/muwusl_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28124] = {
+		advice = 0,
+		describe = "樹幹小鞦韆，感覺樹枝不是很牢靠，應該沒法盪起來",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "纏藤鞦韆",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 28,
+		icon = "qiuqianslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 28124,
+		picture = "senlin/qiuqiansl",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-5,
+					-33
+				},
+				{
+					1,
+					1
+				},
+				"senlin/qiuqiansl_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28125] = {
+		advice = 0,
+		describe = "覆蓋了部分苔蘚的樹幹",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "樹幹座位",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "shuganslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 28125,
+		picture = "senlin/shugansl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-30,
+					65
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					17,
+					41
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28126] = {
+		advice = 0,
+		describe = "紅色水壺，澆灌花朵用",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "水壺",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 28,
+		icon = "shuihuslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28126,
+		picture = "senlin/shuihusl",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28127] = {
+		advice = 0,
+		describe = "這應該是某顆老樹遺留的最後痕跡",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "樹樁",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "shuzhuangslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 28127,
+		picture = "senlin/shuzhuangsl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-25,
+					45
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28128] = {
+		advice = 0,
+		describe = "木樁做成的圍欄",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "木製圍欄",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "weilanslicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28128,
+		picture = "senlin/weilansl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28129] = {
+		advice = 0,
+		describe = "單人溫泉，請一位一位輪流進去",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "小型溫泉",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 28,
+		icon = "wenquan1slicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 28129,
+		picture = "senlin/wenquan1sl",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-2,
+					-46
+				},
+				{
+					-1,
+					1
+				},
+				"senlin/wenquan1sl_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28130] = {
+		advice = 0,
+		describe = "雙人溫泉（指揮官禁止",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "大型溫泉",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 28,
+		icon = "wenquan2slicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 28130,
+		picture = "senlin/wenquan2sl",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			7,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-47,
+					-40
+				},
+				{
+					1,
+					1
+				},
+				"senlin/wenquan2sl_using"
+			},
+			{
+				"wash",
+				{
+					64,
+					-61
+				},
+				{
+					1,
+					1
+				},
+				"senlin/wenquan2sl_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28131] = {
+		advice = 0,
+		describe = "從哪裡找到的這麼大一圈的樹啊",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "木餐桌",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "zhuozi2slicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28131,
+		picture = "senlin/zhuozi2sl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				4
+			},
+			{
+				4,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28132] = {
+		advice = 0,
+		describe = "這麼不規則的木板還是第一次見",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "矮木桌",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "zhuozislicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28132,
+		picture = "senlin/zhuozisl",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			4
+		},
+		offset = {
+			0,
+			-10
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28133] = {
+		advice = 0,
+		describe = "野生啾啾出沒中！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾山洞",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 28,
+		icon = "shandongicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28133,
+		picture = "",
+		comfortable = 5,
+		tag = 1,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"manjuushandong",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[28134] = {
+		advice = 0,
+		describe = "「請不要使用錘子，謝謝」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "地鼠啾啾",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 28,
+		icon = "dishuicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28134,
+		picture = "",
+		comfortable = 5,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dishu",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[28201] = {
+		advice = 0,
+		describe = "新鮮的草莓汁",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "草莓汁",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 28,
+		icon = "caomeizhislicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28201,
+		picture = "senlin/caomeizhisl",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28202] = {
+		advice = 0,
+		describe = "蘑菇形狀的檯燈",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "蘑菇燈",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "deng2slicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28202,
+		picture = "senlin/deng2sl",
+		comfortable = 2,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28203] = {
+		advice = 0,
+		describe = "早起提神的飲料",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "咖啡",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 28,
+		icon = "kafeislicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28203,
+		picture = "senlin/kafeisl",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28204] = {
+		advice = 0,
+		describe = "豐富的野餐食物",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "野餐籃子",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "lanzi2slicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28204,
+		picture = "senlin/lanzi2sl",
+		comfortable = 2,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28205] = {
+		advice = 0,
+		describe = "長條麵包",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "麵包",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 28,
+		icon = "mianbaoslicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28205,
+		picture = "senlin/mianbaosl",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28206] = {
+		advice = 0,
+		describe = "超高熱量！",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "起司",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 28,
+		icon = "zhishislicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28206,
+		picture = "senlin/zhishisl",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28301] = {
+		advice = 0,
+		describe = "細長的窗戶，可以看到森林的風景",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "長條形窗戶",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "chuanghu2slicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28301,
+		picture = "senlin/chuanghu2sl",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28302] = {
+		advice = 0,
+		describe = "充滿田園風格的木窗",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "木條框窗戶",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "chuanghuslicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28302,
+		picture = "senlin/chuanghusl",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28303] = {
+		advice = 0,
+		describe = "給新房子多加一份空間吧",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "閣樓",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 28,
+		icon = "gelouslicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28303,
+		picture = "senlin/gelousl",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28304] = {
+		advice = 0,
+		describe = "夜晚照明用的道具",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "蠟燭",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 28,
+		icon = "lazhuslicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28304,
+		picture = "senlin/lazhusl",
+		comfortable = 1,
+		tag = 5,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28305] = {
+		advice = 0,
+		describe = "進房間要先敲門哦",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "木頭門",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 28,
+		icon = "menslicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28305,
+		picture = "senlin/mensl",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28306] = {
+		advice = 0,
+		describe = "森林裡造木屋必不可少的牆壁",
+		count = 4,
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		name = "木板牆壁",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "muban2slicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28306,
+		picture = "senlin/muban2sl",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[28307] = {
+		advice = 0,
+		describe = "木製的機械時鐘",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "木鐘",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 28,
+		icon = "zhongslicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 28307,
+		picture = "senlin/zhongsl",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[35001] = {
 		advice = 0,
 		describe = "鬼魂荒野之地",
@@ -36083,6 +38142,55 @@ pg.furniture_data_template = {
 		24304,
 		24305,
 		24306,
+		28001,
+		28002,
+		28101,
+		28102,
+		28103,
+		28104,
+		28105,
+		28106,
+		28107,
+		28108,
+		28109,
+		28110,
+		28111,
+		28112,
+		28113,
+		28114,
+		28115,
+		28116,
+		28117,
+		28118,
+		28119,
+		28120,
+		28121,
+		28122,
+		28123,
+		28124,
+		28125,
+		28126,
+		28127,
+		28128,
+		28129,
+		28130,
+		28131,
+		28132,
+		28133,
+		28134,
+		28201,
+		28202,
+		28203,
+		28204,
+		28205,
+		28206,
+		28301,
+		28302,
+		28303,
+		28304,
+		28305,
+		28306,
+		28307,
 		35001,
 		35002,
 		35101,

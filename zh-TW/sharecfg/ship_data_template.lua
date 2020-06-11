@@ -8758,7 +8758,7 @@ pg.ship_data_template = {
 		oil_at_end = 6,
 		type = 3,
 		energy = 150,
-		name = "明尼阿波利斯",
+		name = "明尼亞波利斯",
 		can_get_proficency = 0,
 		star = 3,
 		star_max = 6,
@@ -8801,7 +8801,7 @@ pg.ship_data_template = {
 		oil_at_end = 8,
 		type = 3,
 		energy = 150,
-		name = "明尼阿波利斯",
+		name = "明尼亞波利斯",
 		can_get_proficency = 0,
 		star = 4,
 		star_max = 6,
@@ -8845,7 +8845,7 @@ pg.ship_data_template = {
 		oil_at_end = 10,
 		type = 3,
 		energy = 150,
-		name = "明尼阿波利斯",
+		name = "明尼亞波利斯",
 		can_get_proficency = 0,
 		star = 5,
 		star_max = 6,
@@ -8889,7 +8889,7 @@ pg.ship_data_template = {
 		oil_at_end = 12,
 		type = 3,
 		energy = 150,
-		name = "明尼阿波利斯",
+		name = "明尼亞波利斯",
 		can_get_proficency = 1,
 		star = 6,
 		star_max = 6,
@@ -39211,7 +39211,7 @@ pg.ship_data_template = {
 		oil_at_end = 5,
 		type = 3,
 		energy = 150,
-		name = "希佩爾海軍上將",
+		name = "希佩爾將軍",
 		can_get_proficency = 0,
 		star = 2,
 		star_max = 5,
@@ -39254,7 +39254,7 @@ pg.ship_data_template = {
 		oil_at_end = 7,
 		type = 3,
 		energy = 150,
-		name = "希佩爾海軍上將",
+		name = "希佩爾將軍",
 		can_get_proficency = 0,
 		star = 3,
 		star_max = 5,
@@ -39298,7 +39298,7 @@ pg.ship_data_template = {
 		oil_at_end = 9,
 		type = 3,
 		energy = 150,
-		name = "希佩爾海軍上將",
+		name = "希佩爾將軍",
 		can_get_proficency = 0,
 		star = 4,
 		star_max = 5,
@@ -39342,7 +39342,7 @@ pg.ship_data_template = {
 		oil_at_end = 11,
 		type = 3,
 		energy = 150,
-		name = "希佩爾海軍上將",
+		name = "希佩爾將軍",
 		can_get_proficency = 1,
 		star = 5,
 		star_max = 5,
@@ -39690,6 +39690,177 @@ pg.ship_data_template = {
 		equip_id_1 = 0,
 		group_type = 40304,
 		id = 403044,
+		equip_1 = {
+			3,
+			11
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			10650,
+			23222
+		},
+		buff_list_display = {
+			10650,
+			23222
+		},
+		hide_buff_list = {}
+	},
+	[403051] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 5,
+		type = 3,
+		energy = 150,
+		name = "施佩伯爵將軍",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 40305,
+		equip_id_2 = 0,
+		equip_id_1 = 43100,
+		group_type = 40305,
+		id = 403051,
+		equip_1 = {
+			3,
+			11
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			10650
+		},
+		buff_list_display = {
+			10650,
+			23221
+		},
+		hide_buff_list = {}
+	},
+	[403052] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 7,
+		type = 3,
+		energy = 150,
+		name = "施佩伯爵將軍",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 40305,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 40305,
+		id = 403052,
+		equip_1 = {
+			3,
+			11
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			10650,
+			23221
+		},
+		buff_list_display = {
+			10650,
+			23221
+		},
+		hide_buff_list = {}
+	},
+	[403053] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 9,
+		type = 3,
+		energy = 150,
+		name = "施佩伯爵將軍",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 40305,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 40305,
+		id = 403053,
+		equip_1 = {
+			3,
+			11
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			10650,
+			23221
+		},
+		buff_list_display = {
+			10650,
+			23221
+		},
+		hide_buff_list = {}
+	},
+	[403054] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 11,
+		type = 3,
+		energy = 150,
+		name = "施佩伯爵將軍",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 40305,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 40305,
+		id = 403054,
 		equip_1 = {
 			3,
 			11
@@ -46218,6 +46389,10 @@ pg.ship_data_template = {
 		403042,
 		403043,
 		403044,
+		403051,
+		403052,
+		403053,
+		403054,
 		404011,
 		404012,
 		404013,

@@ -114,6 +114,7 @@ function slot0.findUI(slot0)
 
 	setActive(slot0.setFilteToggle, false)
 
+	slot0.resRepaireBtn = slot0:findTF("List/RepaireBtn", slot0.topPanel)
 	slot0.progressText = slot0:findTF("TextProgress", slot0.topPanel)
 	slot0.scrollPanel = slot0:findTF("Scroll")
 	slot0.lScrollPageSC = GetComponent(slot0.scrollPanel, "LScrollPage")
@@ -179,6 +180,24 @@ function slot0.addListener(slot0)
 
 		uv0:updateCardListPanel()
 	end)
+	onButton(slot0, slot0.resRepaireBtn, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			hideYes = true,
+			content = i18n("resource_verify_warn"),
+			custom = {
+				{
+					text = i18n("msgbox_repair"),
+					onCallback = function ()
+						if PathMgr.FileExists(Application.persistentDataPath .. "/hashes-pic.csv") then
+							PicUpdateMgr.Inst:StartVerify()
+						else
+							pg.TipsMgr.GetInstance():ShowTips(i18n("word_no_cache"))
+						end
+					end
+				}
+			}
+		})
+	end, SFX_PANEL)
 end
 
 function slot0.initTimeSelectPanel(slot0)

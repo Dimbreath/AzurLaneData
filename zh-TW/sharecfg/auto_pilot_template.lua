@@ -503,6 +503,48 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[20013] = {
+		id = 20013,
+		name = "上半部分随机移动-靠中",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 30,
+					Z2 = 80,
+					moveCount = 240,
+					Z1 = 55,
+					duration = -1,
+					X1 = -20,
+					X2 = 0
+				}
+			}
+		}
+	},
+	[20014] = {
+		id = 20014,
+		name = "下半部分随机移动-靠中",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 30,
+					Z2 = 55,
+					moveCount = 240,
+					Z1 = 30,
+					duration = -1,
+					X1 = -20,
+					X2 = 0
+				}
+			}
+		}
+	},
 	[30000] = {
 		id = 30000,
 		name = "转圈小范围 顺时针",
