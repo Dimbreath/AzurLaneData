@@ -263,10 +263,10 @@ function slot0.register(slot0)
 	slot0.viewComponent:setActivities(slot1:getPanelActivities())
 	slot0.viewComponent:setAllActivity(slot1:getData())
 
-	slot4 = getProxy(PlayerProxy):getRawData()
+	slot3 = getProxy(PlayerProxy):getRawData()
 
-	slot0.viewComponent:setPlayer(slot4)
-	slot0.viewComponent:setFlagShip(getProxy(BayProxy):getShipById(slot4.character))
+	slot0.viewComponent:setPlayer(slot3)
+	slot0.viewComponent:setFlagShip(getProxy(BayProxy):getShipById(slot3.character))
 end
 
 function slot0.onUIAvalible(slot0)

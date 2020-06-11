@@ -642,8 +642,6 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 				setActive(uv3, uv0.showPart[uv1])
 			end)
 		end
-
-		slot30 = findTF(slot13, "affix")
 	end
 end
 

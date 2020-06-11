@@ -803,8 +803,6 @@ function getDropInfo(slot0)
 			table.insert(slot1, Equipment.New({
 				id = slot8
 			}):getConfig("name") .. "x" .. counts)
-		elseif slot7 == DROP_TYPE_SIREN_EQUIP then
-			-- Nothing
 		elseif slot7 == DROP_TYPE_RESOURCE then
 			table.insert(slot1, Item.New({
 				id = id2ItemId(slot8)
@@ -903,11 +901,6 @@ function updateDrop(slot0, slot1, slot2)
 		updateEquipment(slot0, Equipment.New({
 			id = slot1.id
 		}), slot2)
-	elseif slot4 == DROP_TYPE_SIREN_EQUIP then
-		slot10 = getProxy(EquipmentProxy):getEquipmentById(slot1.id)
-		slot6 = pg.equip_data_statistics[slot10.configId].descrip
-
-		updateEquipment(slot0, slot10, slot2)
 	elseif slot4 == DROP_TYPE_SHIP then
 		slot9, slot10, slot11 = ShipWordHelper.GetWordAndCV(pg.ship_data_statistics[slot1.id].skin_id, ShipWordHelper.WORD_TYPE_DROP)
 		slot6 = slot11 or i18n("ship_drop_desc_default")
@@ -1613,6 +1606,10 @@ function tostring(slot0)
 end
 
 function wordVer(slot0, slot1)
+	if slot0:match(ChatConst.EmojiCodeMatch) then
+		return 0, slot0
+	end
+
 	if #filterEgyUnicode(slot0) ~= #slot0 then
 		if (slot1 or {}).isReplace then
 			slot0 = slot2

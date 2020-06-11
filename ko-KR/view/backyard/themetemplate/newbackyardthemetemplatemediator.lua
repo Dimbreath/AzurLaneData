@@ -230,7 +230,11 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.contextData.pos = nil
 			slot0.contextData.themeName = nil
 		end
-	elseif slot2 == GAME.BACKYARD_REFRESH_SHOP_TEMPLATE_DONE or slot2 == GAME.BACKYARD_GET_SPECIFIED_TYPE_TEMPLATE_DONE then
+	elseif slot2 == GAME.BACKYARD_REFRESH_SHOP_TEMPLATE_DONE then
+		if slot3.existNew then
+			BackYardThemeTempalteUtil.ClearAllCache()
+		end
+
 		BackYardThemeTempalteUtil.ClearAllCache()
 		slot0.viewComponent:OnShopTemplatesUpdated(getProxy(DormProxy):GetShopThemeTemplates())
 	elseif slot2 == DormProxy.DORM_UPDATEED then

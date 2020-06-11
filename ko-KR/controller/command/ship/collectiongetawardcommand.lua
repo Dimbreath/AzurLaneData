@@ -42,8 +42,6 @@ function slot0.execute(slot0, slot1)
 				getProxy(BagProxy):addItemById(slot3[2], slot3[3])
 			elseif slot3[1] == DROP_TYPE_EQUIP then
 				getProxy(EquipmentProxy):addEquipmentById(slot3[2], slot3[3])
-			elseif slot3[1] == DROP_TYPE_SIREN_EQUIP then
-				-- Nothing
 			elseif slot3[1] == DROP_TYPE_SHIP then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("collection_award_ship", pg.ship_data_statistics[slot3[2]].name))
 			elseif slot3[1] == DROP_TYPE_FURNITURE then

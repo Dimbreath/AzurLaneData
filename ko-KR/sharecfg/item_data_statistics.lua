@@ -90343,6 +90343,652 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[57941] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57941,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10071,
+				1
+			},
+			{
+				2,
+				10077,
+				1
+			},
+			{
+				2,
+				2,
+				1
+			},
+			{
+				2,
+				30,
+				1
+			},
+			{
+				2,
+				32,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57942] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57942,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10073,
+				1
+			},
+			{
+				2,
+				10079,
+				1
+			},
+			{
+				2,
+				10081,
+				1
+			},
+			{
+				2,
+				10091,
+				1
+			},
+			{
+				2,
+				33,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57943] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57943,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				11029,
+				1
+			},
+			{
+				2,
+				10006,
+				1
+			},
+			{
+				2,
+				10010,
+				1
+			},
+			{
+				2,
+				10077,
+				1
+			},
+			{
+				2,
+				10082,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57944] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57944,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10071,
+				1
+			},
+			{
+				2,
+				10077,
+				1
+			},
+			{
+				2,
+				2,
+				1
+			},
+			{
+				2,
+				30,
+				1
+			},
+			{
+				2,
+				32,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57945] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57945,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10073,
+				1
+			},
+			{
+				2,
+				10079,
+				1
+			},
+			{
+				2,
+				10081,
+				1
+			},
+			{
+				2,
+				10091,
+				1
+			},
+			{
+				2,
+				33,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57946] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57946,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10006,
+				1
+			},
+			{
+				2,
+				10010,
+				1
+			},
+			{
+				2,
+				10077,
+				1
+			},
+			{
+				2,
+				10082,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57947] = {
+		display = "当前关卡有几率获得以下角色",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57947,
+		icon = "Props/54000",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				301151,
+				1
+			},
+			{
+				4,
+				101111,
+				1
+			},
+			{
+				4,
+				401191,
+				1
+			},
+			{
+				4,
+				201221,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				201011,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				401201,
+				1
+			},
+			{
+				4,
+				401211,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57948] = {
+		display = "当前关卡有几率获得以下角色",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57948,
+		icon = "Props/54000",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				205011,
+				1
+			},
+			{
+				4,
+				201141,
+				1
+			},
+			{
+				4,
+				401181,
+				1
+			},
+			{
+				4,
+				201221,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				201011,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				401201,
+				1
+			},
+			{
+				4,
+				401211,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57949] = {
+		display = "当前关卡有几率获得以下角色",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57949,
+		icon = "Props/54000",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				401011,
+				1
+			},
+			{
+				4,
+				401021,
+				1
+			},
+			{
+				4,
+				201221,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				201011,
+				1
+			},
+			{
+				4,
+				101121,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				401201,
+				1
+			},
+			{
+				4,
+				401211,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		display = "참가한 캐릭터는 경험치를 획득할 수 있습니다.",
 		rarity = 2,
@@ -91531,6 +92177,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59169] = {
+		display = "『피오르드 반격전』 이벤트 교환용 아이템. 이벤트 종료 후 사라집니다. ",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "피오르드 휘장 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59169,
+		icon = "Props/naerweike2_pt",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 		rarity = 2,
@@ -92587,7 +93251,7 @@ pg.item_data_statistics = {
 	},
 	[59739] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "샌디에이고의 답례 (패키지)",
@@ -92605,7 +93269,7 @@ pg.item_data_statistics = {
 	},
 	[59740] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "벨파스트의 답례 (패키지)",
@@ -92623,7 +93287,7 @@ pg.item_data_statistics = {
 	},
 	[59741] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "타카오의 답례 (패키지)",
@@ -92641,7 +93305,7 @@ pg.item_data_statistics = {
 	},
 	[59742] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "워스파이트의 답례 (패키지)",
@@ -92659,7 +93323,7 @@ pg.item_data_statistics = {
 	},
 	[59743] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "후드의 답례 (패키지)",
@@ -92677,7 +93341,7 @@ pg.item_data_statistics = {
 	},
 	[59744] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "엔터프라이즈의 답례 (패키지)",
@@ -92695,7 +93359,7 @@ pg.item_data_statistics = {
 	},
 	[59745] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "일러스트리어스의 답례 (패키지)",
@@ -92713,7 +93377,7 @@ pg.item_data_statistics = {
 	},
 	[59746] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "프린스 오브 웨일즈의 답례 (패키지)",
@@ -92731,7 +93395,7 @@ pg.item_data_statistics = {
 	},
 	[59747] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "아타고의 답례 (패키지)",
@@ -92919,7 +93583,7 @@ pg.item_data_statistics = {
 	},
 	[59756] = {
 		display = "함선소녀와 답례를 획득 가능.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "클리블랜드 패키지",
@@ -92937,7 +93601,7 @@ pg.item_data_statistics = {
 	},
 	[59757] = {
 		display = "함선소녀와 답례를 획득 가능.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "닝하이 패키지",
@@ -92955,7 +93619,7 @@ pg.item_data_statistics = {
 	},
 	[59758] = {
 		display = "함선소녀와 답례를 획득 가능.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "핑하이 패키지",
@@ -92973,7 +93637,7 @@ pg.item_data_statistics = {
 	},
 	[59759] = {
 		display = "함선소녀와 답례를 획득 가능.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "후부키 패키지",
@@ -92991,7 +93655,7 @@ pg.item_data_statistics = {
 	},
 	[59760] = {
 		display = "함선소녀와 답례를 획득 가능.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "에든버러 패키지",
@@ -94207,7 +94871,7 @@ pg.item_data_statistics = {
 	},
 	[59907] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "샌디에이고의 답례 (패키지)",
@@ -94225,7 +94889,7 @@ pg.item_data_statistics = {
 	},
 	[59908] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "벨파스트의 답례 (패키지)",
@@ -94243,7 +94907,7 @@ pg.item_data_statistics = {
 	},
 	[59909] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "타카오의 답례 (패키지)",
@@ -94261,7 +94925,7 @@ pg.item_data_statistics = {
 	},
 	[59910] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "워스파이트의 답례 (패키지)",
@@ -94279,7 +94943,7 @@ pg.item_data_statistics = {
 	},
 	[59911] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "후드의 답례 (패키지)",
@@ -94297,7 +94961,7 @@ pg.item_data_statistics = {
 	},
 	[59912] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "엔터프라이즈의 답례 (패키지)",
@@ -94315,7 +94979,7 @@ pg.item_data_statistics = {
 	},
 	[59913] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "일러스트리어스의 답례 (패키지)",
@@ -94333,7 +94997,7 @@ pg.item_data_statistics = {
 	},
 	[59914] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "프린스 오브 웨일즈의 답례 (패키지)",
@@ -94351,7 +95015,7 @@ pg.item_data_statistics = {
 	},
 	[59915] = {
 		display = "함선소녀로 부터 [답례] 를 받을 수 있다.",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "아타고의 답례 (패키지)",
@@ -94783,7 +95447,7 @@ pg.item_data_statistics = {
 	},
 	[59941] = {
 		display = "함선 및 답례 획득 가능",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "워스파이트 패키지",
@@ -94801,7 +95465,7 @@ pg.item_data_statistics = {
 	},
 	[59942] = {
 		display = "함선 및 답례 획득 가능",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "아타고 패키지",
@@ -94819,7 +95483,7 @@ pg.item_data_statistics = {
 	},
 	[59943] = {
 		display = "함선 및 답례 획득 가능",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "일러스트리어스 패키지",
@@ -94837,7 +95501,7 @@ pg.item_data_statistics = {
 	},
 	[59944] = {
 		display = "함선 및 답례 획득 가능",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "쇼카쿠 패키지",
@@ -94855,7 +95519,7 @@ pg.item_data_statistics = {
 	},
 	[59945] = {
 		display = "함선 및 답례 획득 가능",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "즈이카쿠 패키지",
@@ -94873,7 +95537,7 @@ pg.item_data_statistics = {
 	},
 	[59946] = {
 		display = "함선 및 답례 획득 가능",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "몬트필리어 패키지",
@@ -94891,7 +95555,7 @@ pg.item_data_statistics = {
 	},
 	[59947] = {
 		display = "함선 및 답례 획득 가능",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "후드 패키지",
@@ -95549,7 +96213,7 @@ pg.item_data_statistics = {
 	},
 	[60039] = {
 		display = "可以获得舰船和回礼",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "天狼星礼包（新）",
@@ -95567,7 +96231,7 @@ pg.item_data_statistics = {
 	},
 	[60040] = {
 		display = "可以获得舰船和回礼",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "贝尔法斯特礼包（新）",
@@ -95585,7 +96249,7 @@ pg.item_data_statistics = {
 	},
 	[60041] = {
 		display = "可以获得舰船和回礼",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "胜利礼包（新）",
@@ -95603,7 +96267,7 @@ pg.item_data_statistics = {
 	},
 	[60042] = {
 		display = "可以获得舰船和回礼",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "厌战礼包（新）",
@@ -95621,7 +96285,7 @@ pg.item_data_statistics = {
 	},
 	[60043] = {
 		display = "可以获得舰船和回礼",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "胡德礼包（新）",
@@ -95639,7 +96303,7 @@ pg.item_data_statistics = {
 	},
 	[60044] = {
 		display = "可以获得舰船和回礼",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "企业礼包（新）",
@@ -95657,7 +96321,7 @@ pg.item_data_statistics = {
 	},
 	[60045] = {
 		display = "可以获得舰船和回礼",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "光辉礼包（新）",
@@ -95675,7 +96339,7 @@ pg.item_data_statistics = {
 	},
 	[60046] = {
 		display = "可以获得舰船和回礼",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "威尔士亲王礼包（新）",
@@ -95693,7 +96357,7 @@ pg.item_data_statistics = {
 	},
 	[60047] = {
 		display = "可以获得舰船和回礼",
-		rarity = 2,
+		rarity = 4,
 		type = 11,
 		drop_oil_max = 0,
 		name = "犬礼包（新）",
@@ -99081,6 +99745,15 @@ pg.item_data_statistics = {
 		57936,
 		57937,
 		57938,
+		57941,
+		57942,
+		57943,
+		57944,
+		57945,
+		57946,
+		57947,
+		57948,
+		57949,
 		59000,
 		59001,
 		59002,
@@ -99147,6 +99820,7 @@ pg.item_data_statistics = {
 		59165,
 		59167,
 		59168,
+		59169,
 		59601,
 		59602,
 		59603,

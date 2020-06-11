@@ -24,7 +24,6 @@ function slot0.register(slot0)
 			type = MSGBOX_TYPE_INPUT,
 			placeholder = i18n("friend_request_msg_placeholder"),
 			title = i18n("friend_request_msg_title"),
-			parent = uv0.contextData.parent,
 			onYes = function (slot0)
 				uv0:sendNotification(GAME.FRIEND_SEND_REQUEST, {
 					id = uv1.id,

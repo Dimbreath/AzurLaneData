@@ -8,7 +8,6 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	onButton(slot0, slot0.urlBtn, function ()
 		Application.OpenURL(uv0.activity:getConfig("config_client"))
 	end, SFX_PANEL)

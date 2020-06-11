@@ -9,7 +9,6 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 end
 
 function slot0.OnUpdateFlush(slot0)

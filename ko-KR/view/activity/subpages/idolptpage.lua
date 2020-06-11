@@ -1,5 +1,4 @@
 slot0 = class("IdolPTPage", import(".TemplatePage.PtTemplatePage"))
-slot0.LinkActivityID = ActivityConst.IDOL_INS_ID
 slot0.RefreshTime = 300
 
 function slot0.OnInit(slot0)

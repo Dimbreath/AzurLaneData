@@ -414,7 +414,7 @@ return {
 		{
 			dir = 1,
 			parent = 0,
-			y = 17,
+			y = 16,
 			id = 45132,
 			x = 21,
 			child = {}
@@ -696,7 +696,7 @@ return {
 		{
 			dir = 1,
 			parent = 0,
-			y = 17,
+			y = 16,
 			id = 45132,
 			x = 21,
 			child = {}

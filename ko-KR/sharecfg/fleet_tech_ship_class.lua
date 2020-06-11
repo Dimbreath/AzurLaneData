@@ -619,6 +619,17 @@ pg.fleet_tech_ship_class = {
 			20129
 		}
 	},
+	[20112] = {
+		shiptype = 1,
+		name = "트라이벌급 ",
+		t_level = 5,
+		id = 20112,
+		t_level_1 = 39,
+		nation = 2,
+		ships = {
+			20132
+		}
+	},
 	[20201] = {
 		shiptype = 2,
 		name = "리엔더급",
@@ -2169,6 +2180,7 @@ pg.fleet_tech_ship_class = {
 		20109,
 		20110,
 		20111,
+		20112,
 		20201,
 		20202,
 		20203,

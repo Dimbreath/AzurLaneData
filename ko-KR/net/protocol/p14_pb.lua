@@ -4,7 +4,6 @@ module("p14_pb")
 
 slot1 = {
 	SC_14001_EQUIP_LIST_FIELD = slot0.FieldDescriptor(),
-	SC_14001_AFFIXEQUIPMENT_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_14002_SHIP_ID_FIELD = slot0.FieldDescriptor(),
 	CS_14002_POS_FIELD = slot0.FieldDescriptor(),
 	SC_14003_RESULT_FIELD = slot0.FieldDescriptor(),
@@ -15,18 +14,11 @@ slot1 = {
 	CS_14006_NUM_FIELD = slot0.FieldDescriptor(),
 	SC_14007_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_14008_EQUIP_LIST_FIELD = slot0.FieldDescriptor(),
-	CS_14008_AFFIXEQUIPMENT_ID_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_14009_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_14010_EQUIP_ID_FIELD = slot0.FieldDescriptor(),
 	SC_14011_RESULT_FIELD = slot0.FieldDescriptor(),
-	SC_14012_AFFIXEQUIPMENT_LIST_FIELD = slot0.FieldDescriptor(),
 	EQUIPINFO_ID_FIELD = slot0.FieldDescriptor(),
 	EQUIPINFO_COUNT_FIELD = slot0.FieldDescriptor(),
-	AFFIXEQUIPMENTINFO_ID_FIELD = slot0.FieldDescriptor(),
-	AFFIXEQUIPMENTINFO_TEMPLATE_ID_FIELD = slot0.FieldDescriptor(),
-	AFFIXEQUIPMENTINFO_AFFIX_LIST_FIELD = slot0.FieldDescriptor(),
-	AFFIXINFO_ID_FIELD = slot0.FieldDescriptor(),
-	AFFIXINFO_RANDOM_NUM_FIELD = slot0.FieldDescriptor(),
 	SC_14101_EQUIP_SKIN_LIST_FIELD = slot0.FieldDescriptor(),
 	EQUIPSKININFO_ID_FIELD = slot0.FieldDescriptor(),
 	EQUIPSKININFO_COUNT_FIELD = slot0.FieldDescriptor()
@@ -42,10 +34,7 @@ CS_14008 = slot0.Descriptor()
 SC_14009 = slot0.Descriptor()
 CS_14010 = slot0.Descriptor()
 SC_14011 = slot0.Descriptor()
-SC_14012 = slot0.Descriptor()
 EQUIPINFO = slot0.Descriptor()
-AFFIXEQUIPMENTINFO = slot0.Descriptor()
-AFFIXINFO = slot0.Descriptor()
 SC_14101 = slot0.Descriptor()
 EQUIPSKININFO = slot0.Descriptor()
 slot1.SC_14001_EQUIP_LIST_FIELD.name = "equip_list"
@@ -58,23 +47,12 @@ slot1.SC_14001_EQUIP_LIST_FIELD.default_value = {}
 slot1.SC_14001_EQUIP_LIST_FIELD.message_type = EQUIPINFO
 slot1.SC_14001_EQUIP_LIST_FIELD.type = 11
 slot1.SC_14001_EQUIP_LIST_FIELD.cpp_type = 10
-slot1.SC_14001_AFFIXEQUIPMENT_LIST_FIELD.name = "affixequipment_list"
-slot1.SC_14001_AFFIXEQUIPMENT_LIST_FIELD.full_name = "p14.sc_14001.affixequipment_list"
-slot1.SC_14001_AFFIXEQUIPMENT_LIST_FIELD.number = 2
-slot1.SC_14001_AFFIXEQUIPMENT_LIST_FIELD.index = 1
-slot1.SC_14001_AFFIXEQUIPMENT_LIST_FIELD.label = 3
-slot1.SC_14001_AFFIXEQUIPMENT_LIST_FIELD.has_default_value = false
-slot1.SC_14001_AFFIXEQUIPMENT_LIST_FIELD.default_value = {}
-slot1.SC_14001_AFFIXEQUIPMENT_LIST_FIELD.message_type = AFFIXEQUIPMENTINFO
-slot1.SC_14001_AFFIXEQUIPMENT_LIST_FIELD.type = 11
-slot1.SC_14001_AFFIXEQUIPMENT_LIST_FIELD.cpp_type = 10
 SC_14001.name = "sc_14001"
 SC_14001.full_name = "p14.sc_14001"
 SC_14001.nested_types = {}
 SC_14001.enum_types = {}
 SC_14001.fields = {
-	slot1.SC_14001_EQUIP_LIST_FIELD,
-	slot1.SC_14001_AFFIXEQUIPMENT_LIST_FIELD
+	slot1.SC_14001_EQUIP_LIST_FIELD
 }
 SC_14001.is_extendable = false
 SC_14001.extensions = {}
@@ -226,22 +204,12 @@ slot1.CS_14008_EQUIP_LIST_FIELD.default_value = {}
 slot1.CS_14008_EQUIP_LIST_FIELD.message_type = EQUIPINFO
 slot1.CS_14008_EQUIP_LIST_FIELD.type = 11
 slot1.CS_14008_EQUIP_LIST_FIELD.cpp_type = 10
-slot1.CS_14008_AFFIXEQUIPMENT_ID_LIST_FIELD.name = "affixequipment_id_list"
-slot1.CS_14008_AFFIXEQUIPMENT_ID_LIST_FIELD.full_name = "p14.cs_14008.affixequipment_id_list"
-slot1.CS_14008_AFFIXEQUIPMENT_ID_LIST_FIELD.number = 2
-slot1.CS_14008_AFFIXEQUIPMENT_ID_LIST_FIELD.index = 1
-slot1.CS_14008_AFFIXEQUIPMENT_ID_LIST_FIELD.label = 3
-slot1.CS_14008_AFFIXEQUIPMENT_ID_LIST_FIELD.has_default_value = false
-slot1.CS_14008_AFFIXEQUIPMENT_ID_LIST_FIELD.default_value = {}
-slot1.CS_14008_AFFIXEQUIPMENT_ID_LIST_FIELD.type = 13
-slot1.CS_14008_AFFIXEQUIPMENT_ID_LIST_FIELD.cpp_type = 3
 CS_14008.name = "cs_14008"
 CS_14008.full_name = "p14.cs_14008"
 CS_14008.nested_types = {}
 CS_14008.enum_types = {}
 CS_14008.fields = {
-	slot1.CS_14008_EQUIP_LIST_FIELD,
-	slot1.CS_14008_AFFIXEQUIPMENT_ID_LIST_FIELD
+	slot1.CS_14008_EQUIP_LIST_FIELD
 }
 CS_14008.is_extendable = false
 CS_14008.extensions = {}
@@ -299,25 +267,6 @@ SC_14011.fields = {
 }
 SC_14011.is_extendable = false
 SC_14011.extensions = {}
-slot1.SC_14012_AFFIXEQUIPMENT_LIST_FIELD.name = "affixequipment_list"
-slot1.SC_14012_AFFIXEQUIPMENT_LIST_FIELD.full_name = "p14.sc_14012.affixequipment_list"
-slot1.SC_14012_AFFIXEQUIPMENT_LIST_FIELD.number = 1
-slot1.SC_14012_AFFIXEQUIPMENT_LIST_FIELD.index = 0
-slot1.SC_14012_AFFIXEQUIPMENT_LIST_FIELD.label = 3
-slot1.SC_14012_AFFIXEQUIPMENT_LIST_FIELD.has_default_value = false
-slot1.SC_14012_AFFIXEQUIPMENT_LIST_FIELD.default_value = {}
-slot1.SC_14012_AFFIXEQUIPMENT_LIST_FIELD.message_type = AFFIXEQUIPMENTINFO
-slot1.SC_14012_AFFIXEQUIPMENT_LIST_FIELD.type = 11
-slot1.SC_14012_AFFIXEQUIPMENT_LIST_FIELD.cpp_type = 10
-SC_14012.name = "sc_14012"
-SC_14012.full_name = "p14.sc_14012"
-SC_14012.nested_types = {}
-SC_14012.enum_types = {}
-SC_14012.fields = {
-	slot1.SC_14012_AFFIXEQUIPMENT_LIST_FIELD
-}
-SC_14012.is_extendable = false
-SC_14012.extensions = {}
 slot1.EQUIPINFO_ID_FIELD.name = "id"
 slot1.EQUIPINFO_ID_FIELD.full_name = "p14.equipinfo.id"
 slot1.EQUIPINFO_ID_FIELD.number = 1
@@ -346,73 +295,6 @@ EQUIPINFO.fields = {
 }
 EQUIPINFO.is_extendable = false
 EQUIPINFO.extensions = {}
-slot1.AFFIXEQUIPMENTINFO_ID_FIELD.name = "id"
-slot1.AFFIXEQUIPMENTINFO_ID_FIELD.full_name = "p14.affixequipmentinfo.id"
-slot1.AFFIXEQUIPMENTINFO_ID_FIELD.number = 1
-slot1.AFFIXEQUIPMENTINFO_ID_FIELD.index = 0
-slot1.AFFIXEQUIPMENTINFO_ID_FIELD.label = 2
-slot1.AFFIXEQUIPMENTINFO_ID_FIELD.has_default_value = false
-slot1.AFFIXEQUIPMENTINFO_ID_FIELD.default_value = 0
-slot1.AFFIXEQUIPMENTINFO_ID_FIELD.type = 13
-slot1.AFFIXEQUIPMENTINFO_ID_FIELD.cpp_type = 3
-slot1.AFFIXEQUIPMENTINFO_TEMPLATE_ID_FIELD.name = "template_id"
-slot1.AFFIXEQUIPMENTINFO_TEMPLATE_ID_FIELD.full_name = "p14.affixequipmentinfo.template_id"
-slot1.AFFIXEQUIPMENTINFO_TEMPLATE_ID_FIELD.number = 2
-slot1.AFFIXEQUIPMENTINFO_TEMPLATE_ID_FIELD.index = 1
-slot1.AFFIXEQUIPMENTINFO_TEMPLATE_ID_FIELD.label = 2
-slot1.AFFIXEQUIPMENTINFO_TEMPLATE_ID_FIELD.has_default_value = false
-slot1.AFFIXEQUIPMENTINFO_TEMPLATE_ID_FIELD.default_value = 0
-slot1.AFFIXEQUIPMENTINFO_TEMPLATE_ID_FIELD.type = 13
-slot1.AFFIXEQUIPMENTINFO_TEMPLATE_ID_FIELD.cpp_type = 3
-slot1.AFFIXEQUIPMENTINFO_AFFIX_LIST_FIELD.name = "affix_list"
-slot1.AFFIXEQUIPMENTINFO_AFFIX_LIST_FIELD.full_name = "p14.affixequipmentinfo.affix_list"
-slot1.AFFIXEQUIPMENTINFO_AFFIX_LIST_FIELD.number = 3
-slot1.AFFIXEQUIPMENTINFO_AFFIX_LIST_FIELD.index = 2
-slot1.AFFIXEQUIPMENTINFO_AFFIX_LIST_FIELD.label = 3
-slot1.AFFIXEQUIPMENTINFO_AFFIX_LIST_FIELD.has_default_value = false
-slot1.AFFIXEQUIPMENTINFO_AFFIX_LIST_FIELD.default_value = {}
-slot1.AFFIXEQUIPMENTINFO_AFFIX_LIST_FIELD.message_type = AFFIXINFO
-slot1.AFFIXEQUIPMENTINFO_AFFIX_LIST_FIELD.type = 11
-slot1.AFFIXEQUIPMENTINFO_AFFIX_LIST_FIELD.cpp_type = 10
-AFFIXEQUIPMENTINFO.name = "affixequipmentinfo"
-AFFIXEQUIPMENTINFO.full_name = "p14.affixequipmentinfo"
-AFFIXEQUIPMENTINFO.nested_types = {}
-AFFIXEQUIPMENTINFO.enum_types = {}
-AFFIXEQUIPMENTINFO.fields = {
-	slot1.AFFIXEQUIPMENTINFO_ID_FIELD,
-	slot1.AFFIXEQUIPMENTINFO_TEMPLATE_ID_FIELD,
-	slot1.AFFIXEQUIPMENTINFO_AFFIX_LIST_FIELD
-}
-AFFIXEQUIPMENTINFO.is_extendable = false
-AFFIXEQUIPMENTINFO.extensions = {}
-slot1.AFFIXINFO_ID_FIELD.name = "id"
-slot1.AFFIXINFO_ID_FIELD.full_name = "p14.affixinfo.id"
-slot1.AFFIXINFO_ID_FIELD.number = 1
-slot1.AFFIXINFO_ID_FIELD.index = 0
-slot1.AFFIXINFO_ID_FIELD.label = 2
-slot1.AFFIXINFO_ID_FIELD.has_default_value = false
-slot1.AFFIXINFO_ID_FIELD.default_value = 0
-slot1.AFFIXINFO_ID_FIELD.type = 13
-slot1.AFFIXINFO_ID_FIELD.cpp_type = 3
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.name = "random_num"
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.full_name = "p14.affixinfo.random_num"
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.number = 2
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.index = 1
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.label = 2
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.has_default_value = false
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.default_value = 0
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.type = 13
-slot1.AFFIXINFO_RANDOM_NUM_FIELD.cpp_type = 3
-AFFIXINFO.name = "affixinfo"
-AFFIXINFO.full_name = "p14.affixinfo"
-AFFIXINFO.nested_types = {}
-AFFIXINFO.enum_types = {}
-AFFIXINFO.fields = {
-	slot1.AFFIXINFO_ID_FIELD,
-	slot1.AFFIXINFO_RANDOM_NUM_FIELD
-}
-AFFIXINFO.is_extendable = false
-AFFIXINFO.extensions = {}
 slot1.SC_14101_EQUIP_SKIN_LIST_FIELD.name = "equip_skin_list"
 slot1.SC_14101_EQUIP_SKIN_LIST_FIELD.full_name = "p14.sc_14101.equip_skin_list"
 slot1.SC_14101_EQUIP_SKIN_LIST_FIELD.number = 1
@@ -460,8 +342,6 @@ EQUIPSKININFO.fields = {
 }
 EQUIPSKININFO.is_extendable = false
 EQUIPSKININFO.extensions = {}
-affixequipmentinfo = slot0.Message(AFFIXEQUIPMENTINFO)
-affixinfo = slot0.Message(AFFIXINFO)
 cs_14002 = slot0.Message(CS_14002)
 cs_14004 = slot0.Message(CS_14004)
 cs_14006 = slot0.Message(CS_14006)
@@ -475,5 +355,4 @@ sc_14005 = slot0.Message(SC_14005)
 sc_14007 = slot0.Message(SC_14007)
 sc_14009 = slot0.Message(SC_14009)
 sc_14011 = slot0.Message(SC_14011)
-sc_14012 = slot0.Message(SC_14012)
 sc_14101 = slot0.Message(SC_14101)

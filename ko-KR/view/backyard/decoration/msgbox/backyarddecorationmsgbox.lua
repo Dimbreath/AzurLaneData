@@ -20,6 +20,8 @@ function slot0.OnLoaded(slot0)
 	slot0.innerMsgboxContent = slot0.innerMsgbox:Find("bound/Text"):GetComponent(typeof(Text))
 	slot0.innerMsgboxComfirmBtn = slot0.innerMsgbox:Find("btns/btn1")
 	slot0.innerMsgboxCancelBtn = slot0.innerMsgbox:Find("btns/btn2")
+	slot0.scrollTitleText = slot0.innerMsgbox:Find("bound/title"):GetComponent(typeof(Text))
+	slot0.scrollText = slot0.innerMsgbox:Find("bound/scrollrect/Text"):GetComponent(typeof(Text))
 end
 
 function slot0.OnInit(slot0)
@@ -51,13 +53,31 @@ function slot0.OnInit(slot0)
 		uv0:Hide()
 	end)
 	onButton(slot0, slot0.applyBtn, function ()
+		function slot0(slot0)
+			if uv0.theme:GetMissFurnitures(slot0) then
+				slot2 = ""
+				slot4 = 1
+
+				for slot8, slot9 in pairs(slot1) do
+					slot2 = slot4 == table.getCount(slot1) and slot2 .. string.format("%s x%d", slot9.name, slot9.count) or slot2 .. string.format("%s x%d", slot9.name, slot9.count) .. string.format("%s x%d\n", slot9.name, slot9.count)
+					slot4 = slot4 + 1
+				end
+
+				setActive(uv0._tf, true)
+				uv0:ShowInnerMsgBox(slot2, function ()
+					uv0:HideInnerMsgBox()
+					uv0:Hide()
+				end, false, "缺少以下家具")
+			end
+		end
+
 		uv0:emit(BackYardDecorationMediator.APPLY_THEME, uv0.theme, function (slot0, slot1)
 			if slot0 then
-				uv0:emit(BackYardDecorationMediator.ADD_FURNITURES, slot1)
+				uv0:emit(BackYardDecorationMediator.ADD_FURNITURES, uv0.theme.id, slot1, uv1)
 				uv0:Hide()
 			else
 				uv0:ShowInnerMsgBox(i18n("backyarad_theme_replace", uv0.theme:getName()), function ()
-					uv0:emit(BackYardDecorationMediator.ADD_FURNITURES, uv1)
+					uv0:emit(BackYardDecorationMediator.ADD_FURNITURES, uv0.theme.id, uv1, uv2)
 					uv0:HideInnerMsgBox()
 					uv0:Hide()
 				end)
@@ -89,7 +109,7 @@ function slot0.Show(slot0, slot1, slot2)
 	setActive(slot0.input, not slot2)
 	setActive(slot0.name, slot2)
 	setActive(slot0.cancelBtn, not slot2)
-	setActive(slot0.deleteBtn, slot2 and slot1.type == BackYardTheme.TYPE_USER)
+	setActive(slot0.deleteBtn, slot2 and not slot1:IsSystem())
 	setActive(slot0.applyBtn, slot2)
 	setActive(slot0.saveBtn, not slot2)
 end
@@ -99,11 +119,11 @@ function slot0.ApplyTheme(slot0)
 	slot0.nameText.text = slot1:getName()
 	slot0.desc.text = i18n("backyard_theme_set_tip", slot1:getName())
 
-	if not (slot1.type == BackYardTheme.TYPE_SYSTEM) and (BackYardThemeTempalteUtil.FileExists(slot1:GetTextureIconName()) or slot1:IsPushed()) then
+	if not slot1:IsSystem() and (BackYardThemeTempalteUtil.FileExists(slot1:GetTextureIconName()) or slot1:IsPushed()) then
 		setActive(slot0.iconRaw.gameObject, false)
 		setActive(slot0.icon.gameObject, false)
 		BackYardThemeTempalteUtil.GetTexture(slot1:GetTextureIconName(), slot1:GetIconMd5(), function (slot0)
-			if slot0 then
+			if not IsNil(uv0.iconRaw) and slot0 then
 				setActive(uv0.iconRaw.gameObject, true)
 
 				uv0.iconRaw.texture = slot0
@@ -126,12 +146,20 @@ function slot0.NewTheme(slot0)
 	slot0.icon.sprite = LoadSprite("furnitureicon/default_theme")
 end
 
-function slot0.ShowInnerMsgBox(slot0, slot1, slot2, slot3)
+function slot0.ShowInnerMsgBox(slot0, slot1, slot2, slot3, slot4)
 	setActive(slot0.frame, false)
 	setActive(slot0.innerMsgbox, true)
 	setActive(slot0.innerMsgboxCancelBtn, slot3)
 
-	slot0.innerMsgboxContent.text = slot1
+	if slot4 then
+		slot0.innerMsgboxContent.text = ""
+		slot0.scrollTitleText.text = slot4
+		slot0.scrollText.text = slot1
+	else
+		slot0.scrollTitleText.text = ""
+		slot0.scrollText.text = ""
+		slot0.innerMsgboxContent.text = slot1
+	end
 
 	onButton(slot0, slot0.innerMsgboxComfirmBtn, function ()
 		if uv0 then

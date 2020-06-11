@@ -100,10 +100,6 @@ function slot0.GetValue2(slot0)
 	return slot0.value2
 end
 
-function slot0.GetBg(slot0)
-	return slot0.activity:getConfig("bg")[1]
-end
-
 function slot0.getTargetLevel(slot0)
 	return math.min(slot0.level + slot0.isDayUnlock, #slot0.targets)
 end

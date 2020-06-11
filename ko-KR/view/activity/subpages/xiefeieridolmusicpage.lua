@@ -14,7 +14,6 @@ function slot0.OnDataSetting(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	onButton(slot0, slot0.bg:Find("battle_btn"), function ()
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, 6)
 	end, SFX_PANEL)

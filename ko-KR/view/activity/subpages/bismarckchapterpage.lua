@@ -44,7 +44,6 @@ function slot0.OnFirstFlush(slot0)
 		end
 	end)
 	setText(slot0:findTF("desc", slot0.bg), i18n("bismarck_chapter_desc"))
-	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	slot0:SubimtCompletedMission()
 	slot0:InitInteractable()
 end

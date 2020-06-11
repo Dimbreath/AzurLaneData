@@ -191,14 +191,13 @@ function slot0.getFurnitureCountByType(slot0, slot1)
 	return slot2
 end
 
-function slot0.addFurniture(slot0, slot1)
+function slot1(slot0, slot1)
 	slot3 = slot1.count
 
 	if not slot0:getFurniById(slot1.id) then
 		slot2 = slot1
 
 		slot0.data:addFurniture(slot1)
-		slot0:sendNotification(uv0.FURNITURE_ADDED, slot1:clone())
 	else
 		slot2:addFurnitrueCount(slot1.count)
 		slot0:updateFurniture(slot2)
@@ -209,19 +208,30 @@ function slot0.addFurniture(slot0, slot1)
 	for slot7 = 1, slot3 - 1 do
 		for slot11 = 1, slot2.count - 1 do
 			if not slot0:getFurniById(slot2:getCloneId(slot11)) then
-				slot13 = Furniture.New({
+				slot0.data:addFurniture(Furniture.New({
 					count = 1,
 					id = slot12,
 					configId = slot2.id,
 					get_time = slot2.date
-				})
-
-				slot0.data:addFurniture(slot13)
-				slot0:sendNotification(uv0.FURNITURE_ADDED, slot13:clone())
+				}))
 
 				break
 			end
 		end
+	end
+end
+
+function slot0.addFurniture(slot0, slot1)
+	uv0(slot0, slot1)
+	slot0:updateDrom(slot0.data)
+end
+
+function slot0.AddFurnitrues(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		uv0(slot0, Furniture.New({
+			count = 1,
+			id = slot6
+		}))
 	end
 
 	slot0:updateDrom(slot0.data)
@@ -276,71 +286,6 @@ end
 
 function slot0.hasFood(slot0)
 	return slot0.data:isMaxFood() == false and getProxy(BagProxy):getItemCountById(50001) > 0
-end
-
-function slot0.initThemes(slot0, slot1)
-	slot0.userThemes = {}
-
-	for slot5, slot6 in ipairs(slot1) do
-		slot0:updateTheme(slot6)
-	end
-
-	slot0.themeInited = true
-end
-
-function slot0.AddTheme(slot0, slot1)
-	slot2 = BackYardTheme.New({
-		id = slot1.id,
-		name = slot1.name,
-		furniture_put_list = slot1.furniture_put_list,
-		type = BackYardTheme.TYPE_USER
-	})
-	slot0.userThemes[slot1.id] = slot2
-
-	slot0.facade:sendNotification(uv0.THEME_ADDED, Clone(slot2))
-end
-
-function slot0.deleteTheme(slot0, slot1)
-	slot0.userThemes[slot1] = nil
-
-	slot0:sendNotification(uv0.THEME_DELETED, slot1)
-end
-
-function slot0.getThemeById(slot0, slot1)
-	return slot0.userThemes[slot1]
-end
-
-function slot0.updateTheme(slot0, slot1)
-	slot0.userThemes[slot1.id] = BackYardTheme.New({
-		id = slot1.id,
-		name = slot1.name,
-		furniture_put_list = slot1.furniture_put_list,
-		type = BackYardTheme.TYPE_USER
-	})
-end
-
-function slot0.getThemes(slot0)
-	if not slot0.themeInited then
-		return nil
-	end
-
-	return Clone(slot0.userThemes)
-end
-
-function slot0.getTheme(slot0, slot1)
-	if not slot0.userThemes then
-		return nil
-	end
-
-	return slot0.userThemes[slot1]
-end
-
-function slot0.getNewID(slot0)
-	for slot4 = 1, 10 do
-		if not slot0.userThemes[slot4] then
-			return slot4
-		end
-	end
 end
 
 function slot0.GetCustomThemeTemplates(slot0)
@@ -478,7 +423,7 @@ function slot0.GetSystemThemes(slot0)
 	if not slot0.systemThemes or #slot0.systemThemes == 0 then
 		for slot5, slot6 in ipairs(pg.backyard_theme_template.all) do
 			if slot1[slot6].is_view == 1 then
-				table.insert(slot0.systemThemes, BackYardTheme.New({
+				table.insert(slot0.systemThemes, BackYardSystemTheme.New({
 					id = slot6
 				}))
 			end

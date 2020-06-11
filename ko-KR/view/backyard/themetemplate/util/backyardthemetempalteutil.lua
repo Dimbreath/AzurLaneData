@@ -7,8 +7,10 @@ slot0.TakeScale = 0.86
 slot0.HideGos = {}
 slot0.ScaleGos = {}
 slot0.loader = {}
-slot5 = 8
+slot5 = 7
 slot0.caches = {}
+slot0.overCnt = 0
+slot0.ForceSynGCCnt = 8
 
 function slot6(...)
 	if uv0 then
@@ -87,7 +89,7 @@ function slot14(slot0, slot1)
 		return
 	end
 
-	pg.OSSMgr:GetInstance():AsynUpdateLoad(uv2(slot0), uv1(slot0), slot1)
+	pg.OSSMgr:GetInstance():UpdateLoad(uv2(slot0), uv1(slot0), slot1)
 end
 
 function slot15()
@@ -174,7 +176,13 @@ function slot0.TakePhoto(slot0, slot1)
 	uv6()
 end
 
-function slot0.GetTexture(slot0, slot1, slot2)
+function slot18(slot0)
+	return _.detect(uv0.caches, function (slot0)
+		return slot0.name == uv0
+	end)
+end
+
+function slot19(slot0, slot1, slot2)
 	if uv0.caches[slot0] then
 		slot2(uv0.caches[slot0])
 
@@ -199,25 +207,37 @@ function slot0.GetTexture(slot0, slot1, slot2)
 
 		slot0 = uv0.loader[1]
 
-		if not uv2 or uv2 == "" then
+		if not uv3 or uv3 == "" then
 			function (slot0)
 				uv0.callback(slot0)
 				table.remove(uv1.loader, 1)
 
 				if slot0 then
 					uv1.CheckCache()
-
-					uv1.caches[uv0.name] = slot0
+					table.insert(uv1.caches, {
+						name = uv2,
+						asset = slot0
+					})
 				end
 
-				uv2()
+				onNextTick(uv3)
 			end(nil)
-		elseif uv0.FileExists(slot0.name) and uv2 == uv3(uv4(uv5)) then
-			uv6(slot0.name, uv2, slot1)
+		elseif uv0.FileExists(slot0.name) and uv3 == uv4(uv5(uv1)) then
+			uv6(slot0.name, uv3, slot1)
 		else
-			uv7(slot0.name, uv2, slot1)
+			uv7(slot0.name, uv3, slot1)
 		end
 	end()
+end
+
+function slot0.GetTexture(slot0, slot1, slot2)
+	if uv0(slot0) then
+		slot2(slot3.asset)
+
+		return
+	end
+
+	uv1(slot0, slot1, slot2)
 end
 
 function slot0.UploadTexture(slot0, slot1)
@@ -237,14 +257,16 @@ function slot0.GetIconMd5(slot0)
 end
 
 function slot0.CheckCache()
-	if uv1 <= table.getCount(uv0.caches) then
-		for slot3, slot4 in pairs(uv0.caches) do
-			uv0.caches[slot3] = nil
+	if uv1 <= #uv0.caches then
+		table.remove(uv0.caches, 1)
 
-			break
+		uv0.overCnt = uv0.overCnt + 1
+
+		if uv0.overCnt % uv0.ForceSynGCCnt == 0 then
+			gcAll(true)
+		else
+			gcAll(false)
 		end
-
-		gcAll(false)
 	end
 end
 
@@ -258,10 +280,32 @@ function slot0.Init(slot0)
 	uv0.CheckSaveDirectory()
 end
 
+function slot0.ClearCaches(slot0)
+	if not uv0.caches or #uv0.caches == 0 then
+		return
+	end
+
+	for slot4, slot5 in ipairs(slot0) do
+		for slot9 = #uv0.caches, 1, -1 do
+			if uv0.caches[slot9].name == slot5 then
+				table.remove(uv0.caches, slot9)
+			end
+		end
+	end
+
+	gcAll(true)
+end
+
 function slot0.ClearAllCache()
 	uv0.caches = {}
 
-	gcAll()
+	gcAll(true)
+end
+
+function slot0.Exit(slot0)
+	uv0.loader = {}
+
+	uv0.ClearAllCache()
 end
 
 return slot0

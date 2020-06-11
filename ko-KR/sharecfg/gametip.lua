@@ -5075,6 +5075,9 @@ B평가:<color=#92fc63>70</color>점
 	ship_remould_warning_102174 = {
 		tip = "이번 개조 과정에는 <color=#92fc63>빛나는 마이크</color>\n가 소모됩니다. 계속 진행 하시겠습니까?"
 	},
+	ship_remould_warning_102284 = {
+		tip = "이번 개조 후 <color=#92fc63>[레이더 탐지]</color>스킬이\n<color=#92fc63>[레이더 탐지·改]</color>로 업그레이드 됩니다. "
+	},
 	ship_remould_warning_201514 = {
 		tip = "개조 후 <color=#92fc63>[어뢰 발사 수-1]</color> <color=#92fc63>[대공포 발사 수+1]</color>\n 효과가 적용됩니다. 계속 하시겠습니까? "
 	},

@@ -69,6 +69,7 @@ function slot0.register(slot0)
 		pg.backyard:sendNotification(BACKYARD.GARNITURE_SAVE)
 	end)
 	slot0:bind(uv0.ClEAR_ALL, function (slot0, slot1)
+		uv0:sendNotification(GAME.ON_APPLY_SELF_THEME)
 		pg.backyard:sendNotification(BACKYARD.GARNITURE_CLEAR, {
 			tip = slot1
 		})
@@ -84,13 +85,14 @@ function slot0.register(slot0)
 			end
 		})
 	end)
-	slot0:bind(uv0.ADD_FURNITURES, function (slot0, slot1)
+	slot0:bind(uv0.ADD_FURNITURES, function (slot0, slot1, slot2, slot3)
 		uv0.viewComponent:emit(uv1.ClEAR_ALL)
+		uv0:sendNotification(GAME.ON_APPLY_SELF_THEME)
 
-		slot2 = {}
+		slot4 = {}
 
-		for slot6, slot7 in pairs(slot1) do
-			table.insert(slot2, function (slot0)
+		for slot8, slot9 in pairs(slot2) do
+			table.insert(slot4, function (slot0)
 				if Furniture.New(uv0).position then
 					uv1.viewComponent:emit(uv2.ADD_FURNITURE, slot1, slot0)
 				else
@@ -100,8 +102,16 @@ function slot0.register(slot0)
 		end
 
 		pg.UIMgr.GetInstance():LoadingOn()
-		seriesAsync(slot2, function ()
+		seriesAsync(slot4, function ()
 			pg.UIMgr.GetInstance():LoadingOff()
+
+			if uv0 then
+				uv0(uv1)
+			end
+
+			uv2:sendNotification(GAME.ON_APPLY_SELF_THEME_DONE, {
+				id = uv3
+			})
 		end)
 	end)
 	slot0:bind(uv0.REMOVE_PAPER, function (slot0, slot1)
@@ -125,7 +135,9 @@ function slot0.listNotificationInterests(slot0)
 		BackyardMainMediator.ClEAR_ALL,
 		DormProxy.THEME_TEMPLATE_ADDED,
 		DormProxy.THEME_TEMPLATE_DELTETED,
-		GAME.BACKYARD_GET_THEME_TEMPLATE_DONE
+		GAME.BACKYARD_GET_THEME_TEMPLATE_DONE,
+		GAME.ON_APPLY_SELF_THEME,
+		GAME.ON_APPLY_SELF_THEME_DONE
 	}
 end
 
@@ -144,6 +156,10 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:CustomThemeDeleted(slot3.templateId)
 	elseif slot2 == GAME.BACKYARD_GET_THEME_TEMPLATE_DONE then
 		slot0.viewComponent:SetThemes(getProxy(DormProxy):GetCustomThemeTemplates())
+	elseif slot2 == GAME.ON_APPLY_SELF_THEME then
+		slot0.viewComponent:OnApplyThemeBefore()
+	elseif slot2 == GAME.ON_APPLY_SELF_THEME_DONE then
+		slot0.viewComponent:OnApplyThemeAfter(slot3.id)
 	end
 end
 

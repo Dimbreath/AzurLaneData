@@ -1,12 +1,12 @@
 return {
-	id = empty,
+	id = 41,
 	furnitures_1 = {
 		{
 			dir = 1,
 			parent = 0,
-			y = 22,
+			y = 12,
 			id = 41101,
-			x = 17,
+			x = 19,
 			child = {}
 		},
 		{
@@ -78,9 +78,9 @@ return {
 		{
 			dir = 1,
 			parent = 0,
-			y = 22,
+			y = 12,
 			id = 41101,
-			x = 16,
+			x = 19,
 			child = {}
 		},
 		{
@@ -248,9 +248,9 @@ return {
 		{
 			dir = 1,
 			parent = 0,
-			y = 22,
+			y = 12,
 			id = 41101,
-			x = 16,
+			x = 19,
 			child = {}
 		},
 		{
@@ -386,7 +386,7 @@ return {
 		{
 			dir = 1,
 			parent = 0,
-			y = 22,
+			y = 19,
 			id = 41101,
 			x = 16,
 			child = {}
@@ -532,9 +532,9 @@ return {
 		{
 			dir = 1,
 			parent = 0,
-			y = 22,
+			y = 18,
 			id = 41101,
-			x = 16,
+			x = 15,
 			child = {}
 		},
 		{

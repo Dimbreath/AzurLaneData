@@ -6367,6 +6367,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1370001] = {
+		map = 1370001,
+		name = "피오르드 반격전|| ||CHAPTER SP||S.P. ",
+		bgm = "level02",
+		type = 3,
+		on_activity = 20486,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1330001",
+		cloud_suffix = "",
+		bg = "Map_1330001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『홍염의 방문자』-전편|| ||CHAPTER EX||E.X.",
@@ -7197,6 +7238,7 @@ pg.expedition_data_by_map = {
 		1360012,
 		1360025,
 		1360026,
+		1370001,
 		2100000,
 		2100001,
 		2100010,

@@ -10,8 +10,6 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
-
 	for slot6, slot7 in ipairs(slot0.activity:getData1List() or {}) do
 		table.insert({}, slot7 - 59800)
 	end
