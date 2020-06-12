@@ -100,7 +100,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "Yes, the same was true of that fateful night at Mers-el-Must we repeat that tragedy once again...?ébir...",
+			say = "Yes, the same was true of that fateful night at Mers-el-Kébir...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

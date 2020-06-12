@@ -10122,7 +10122,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[40967] = {
-		display = "Skybound Oratorio Lucky Bag contains 1 x random Ship skin, 2020 x Gems, 2000 x Oils, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
+		display = "Skybound Oratorio Lucky Bag contains 1 x random Ship skin, 2020 x Gems, 50 x Cognitive Chips, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
 		rarity = 4,
 		type = 17,
 		drop_oil_max = 0,
