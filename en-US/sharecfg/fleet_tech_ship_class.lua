@@ -1983,7 +1983,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80501] = {
 		shiptype = 5,
-		name = "Richelieu-class",
+		name = "Richelieu-Class",
 		t_level = 7,
 		id = 80501,
 		t_level_1 = 139,
@@ -2016,7 +2016,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[90101] = {
 		shiptype = 1,
-		name = "Le Fantasque-class ",
+		name = "Le Fantasque-Class ",
 		t_level = 8,
 		id = 90101,
 		t_level_1 = 132,

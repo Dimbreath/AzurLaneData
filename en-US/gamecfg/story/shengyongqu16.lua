@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "story-richang",
-			say = "Toulon Harbor - Past",
+			say = "Casablanca Harbor - Past",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,

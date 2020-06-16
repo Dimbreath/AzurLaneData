@@ -47939,7 +47939,7 @@ pg.enemy_data_statistics = {
 	},
 	[448] = {
 		cannon = 0,
-		name = "Mass-Produced Provence-class",
+		name = "Mass-Produced Breatagne-class",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

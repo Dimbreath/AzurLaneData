@@ -122,7 +122,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wait, did you come here instead of heading to Toulon?",
+			say = "Wait, did you come here instead of heading to Casablanca?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

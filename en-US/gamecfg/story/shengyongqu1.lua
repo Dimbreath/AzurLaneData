@@ -218,7 +218,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "Battleship Jean Bart sank at Toulon on that day... That should have been the case.",
+			say = "Battleship Jean Bart sank at Casablanca on that day... That should have been the case.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "Toulon... Yeah, that should be the place where I sank.",
+			say = "Casablanca... Yeah, that should be the place where I sank.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "The life of Jean Bart, the battleship, ended at Toulon. But Jean Bart, the person, has yet to take the first step of her new life...",
+			say = "The life of Jean Bart, the battleship, ended at Casablanca. But Jean Bart, the person, has yet to take the first step of her new life...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -644,6 +644,14 @@ pg.skill_data_display = {
 		id = 8671,
 		name = "Surface Mode "
 	},
+	[8685] = {
+		id = 8685,
+		name = "Precision Salvo Protocol "
+	},
+	[8688] = {
+		id = 8688,
+		name = "Bellowing Gusts of Fire "
+	},
 	[9010] = {
 		id = 9010,
 		name = "Eastern Bonds"
@@ -1864,6 +1872,10 @@ pg.skill_data_display = {
 		id = 12300,
 		name = "Swift Shooting"
 	},
+	[12301] = {
+		id = 12301,
+		name = "Swift Shooting"
+	},
 	[12310] = {
 		id = 12310,
 		name = "Swift Analysis"
@@ -1890,6 +1902,14 @@ pg.skill_data_display = {
 	},
 	[12360] = {
 		id = 12360,
+		name = "Messenger of Love "
+	},
+	[12361] = {
+		id = 12361,
+		name = "Messenger of Love "
+	},
+	[12362] = {
+		id = 12362,
 		name = "Messenger of Love "
 	},
 	[12370] = {
@@ -2618,6 +2638,10 @@ pg.skill_data_display = {
 	},
 	[13271] = {
 		id = 13271,
+		name = "Bellowing Gusts of Fire "
+	},
+	[13272] = {
+		id = 13272,
 		name = "Bellowing Gusts of Fire "
 	},
 	[13280] = {
@@ -4530,6 +4554,8 @@ pg.skill_data_display = {
 		8663,
 		8664,
 		8671,
+		8685,
+		8688,
 		9010,
 		9020,
 		9030,
@@ -4835,6 +4861,7 @@ pg.skill_data_display = {
 		12260,
 		12270,
 		12300,
+		12301,
 		12310,
 		12320,
 		12321,
@@ -4842,6 +4869,8 @@ pg.skill_data_display = {
 		12350,
 		12351,
 		12360,
+		12361,
+		12362,
 		12370,
 		12380,
 		12390,
@@ -5024,6 +5053,7 @@ pg.skill_data_display = {
 		13260,
 		13270,
 		13271,
+		13272,
 		13280,
 		13281,
 		13290,

@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(\"Don't let the Sirens near the harbor.\" Back at Toulon, that was the order that she gave...)",
+			say = "(\"Don't let the Sirens near the harbor.\" Back at Casablanca, that was the order that she gave...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

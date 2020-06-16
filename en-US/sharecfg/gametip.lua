@@ -8067,7 +8067,7 @@ About Tech Points:
 		tip = "You are already improving the $1's Faction Tech.\nYou can only improve one Faction Tech at a time. "
 	},
 	fate_attr_word = {
-		tip = "Results of Fate Sumulation:"
+		tip = "Results of Fate Simulation:"
 	},
 	fate_phase_word = {
 		tip = "Research Progress: "
