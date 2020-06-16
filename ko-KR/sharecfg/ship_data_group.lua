@@ -14426,6 +14426,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},

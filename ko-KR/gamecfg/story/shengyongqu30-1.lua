@@ -142,7 +142,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 903020,
-			say = "보클랭, 라 갈리소니에르, 퇴긱하자.",
+			say = "보클랭, 라 갈리소니에르, 퇴각하자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
