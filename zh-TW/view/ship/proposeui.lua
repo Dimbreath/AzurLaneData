@@ -243,7 +243,7 @@ function slot0.didEnter(slot0)
 						return
 					end
 
-					slot0, slot1 = Ship.canProposeShip(uv2.shipVO)
+					slot0, slot1 = ShipStatus.ShipStatusCheck("onPropose", uv2.shipVO)
 
 					if not slot0 then
 						pg.TipsMgr.GetInstance():ShowTips(slot1)

@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 904010,
 			nameColor = "#a9f548",
-			say = "久等了，今天的第一道甜品是松餅。",
+			say = "久等了，今天的第一道甜品是鬆餅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
-			say = "指揮官，我給妳準備了個東西~稍等我一會哦♪",
+			say = "指揮官，我給你準備了個東西~稍等我一會哦♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
-			say = "這次不會讓妳失望的～",
+			say = "這次不會讓你失望的～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

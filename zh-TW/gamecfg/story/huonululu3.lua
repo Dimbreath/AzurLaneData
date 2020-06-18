@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "……但是指揮官妳為什麼又在這裡？",
+			say = "……但是指揮官你為什麼又在這裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了……妳高興就好。",
+			say = "算了……你高興就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……指揮官，妳幹什麼用那種欣慰的眼光看著我。",
+			say = "……指揮官，你幹什麼用那種欣慰的眼光看著我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -199,6 +199,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.SecondaryPWDMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.ShipFlagMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end

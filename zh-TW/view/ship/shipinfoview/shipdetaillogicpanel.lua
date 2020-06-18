@@ -145,7 +145,7 @@ function slot0.updateShipAttrs(slot0)
 	for slot10, slot11 in pairs(uv1) do
 		slot12 = findTF(slot0.attrs, "props/" .. slot10)
 		slot13 = findTF(slot0.attrs, "icons/" .. slot10)
-		slot16 = intProperties(slot1:getShipProperties())[slot11] or 0
+		slot16 = intProperties(slot1:isBluePrintShip() and slot1:getBluePrint():getShipProperties(slot1) or slot1:getShipProperties())[slot11] or 0
 
 		setText(findTF(slot12, "value"), slot16)
 

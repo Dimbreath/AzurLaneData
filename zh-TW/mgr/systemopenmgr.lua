@@ -12,15 +12,21 @@ end
 slot3 = pm.Facade.sendNotification
 
 function pm.Facade.sendNotification(slot0, slot1, slot2, slot3)
-	if uv0 and slot1 == GAME.LOAD_SCENE and getProxy(PlayerProxy) then
-		if slot4:getData() then
-			slot7, slot8 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot5.level, slot2.context.mediator.__cname)
+	if uv0 and slot1 == GAME.LOAD_SCENE then
+		slot5 = slot2.context.mediator.__cname
+
+		if getProxy(PlayerProxy) and slot4:getData() then
+			slot7, slot8 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot6.level, slot5)
 
 			if not slot7 then
 				pg.TipsMgr.GetInstance():ShowTips(slot8)
 
 				return
 			end
+		end
+
+		if not string.find(slot5, "Combat") and not string.find(slot5, "Battle") then
+			uv1(slot0, GAME.CHECK_HOTFIX_VER)
 		end
 	end
 

@@ -124,10 +124,6 @@ function slot2.EnterBattle(slot0, slot1, slot2)
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleDuelArenaCommand.New())
 
 		slot0._battleCommand:ConfigBattleData(slot1)
-	elseif slot1.battleType == SYSTEM_SHAM then
-		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleSimulationCommand.New())
-
-		slot0._battleCommand:ConfigBattleData(slot1)
 	elseif slot1.battleType == SYSTEM_CHALLENGE then
 		slot0._battleCommand = slot0:AddCommand(uv0.Battle.BattleSingleChallengeCommand.New())
 

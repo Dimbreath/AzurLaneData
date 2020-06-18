@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "指揮官這個大笨蛋，大傻瓜，大木頭，人家再也不理妳了！",
+			say = "指揮官這個大笨蛋，大傻瓜，大木頭，人家再也不理你了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

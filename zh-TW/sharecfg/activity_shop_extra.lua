@@ -13,14 +13,39 @@ pg.activity_shop_extra = {
 	},
 	{
 		num_limit = 1,
-		activity = 18,
-		time = "",
+		activity = 40135,
 		commodity_type = 7,
 		num = 1,
 		commodity_id = 305021,
 		scene = "",
 		id = 2,
-		order = 12
+		order = 800,
+		time = {
+			{
+				{
+					2020,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
 		num_limit = 1,

@@ -2,7 +2,6 @@ slot0 = class("GuildEventMediator", import("..base.ContextMediator"))
 slot0.GET_RANK_LIST = "GuildEventMediator:GET_RANK_LIST"
 slot0.OPEN_TASK = "GuildEventMediator:OPEN_TASK"
 slot0.OPEN_RANK = "GuildEventMediator:OPEN_RANK"
-slot0.ON_PRE_COMBAT = "GuildEventMediator:ON_PRE_COMBAT"
 
 function slot0.register(slot0)
 	slot1 = getProxy(GuildProxy)
@@ -24,27 +23,6 @@ function slot0.register(slot0)
 			viewComponent = GuildRankLayer,
 			mediator = GuildRankMediator
 		}))
-	end)
-	slot0:bind(uv0.ON_PRE_COMBAT, function (slot0)
-		if not getProxy(ChapterProxy):getGuildChapter() then
-			return
-		end
-
-		if slot2.active then
-			uv0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-				chapterId = slot2 and slot2.id,
-				mapIdx = slot2 and slot2:getConfig("map"),
-				chapterVO = slot2
-			})
-		else
-			uv0:addSubLayers(Context.New({
-				mediator = GuildPreCombatMediator,
-				viewComponent = GuildPreCombatLayer,
-				data = {
-					guildChapter = slot2
-				}
-			}))
-		end
 	end)
 end
 

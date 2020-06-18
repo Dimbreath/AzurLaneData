@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "抱歉指揮官，還要妳和我一起去找皇家方舟……",
+			say = "抱歉指揮官，還要你和我一起去找皇家方舟……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

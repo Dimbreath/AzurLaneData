@@ -10,10 +10,11 @@ slot0.SKILL_COLOR = {
 }
 slot1 = 0.8
 
-function slot0.Ctor(slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.go = slot1
-	slot0.showTagNoBlock = slot2 or false
 	slot0.tr = slot1.transform
+	slot0.hideTagFlags = slot2 or {}
+	slot0.blockTagFlags = slot3 or {}
 	slot0.btn = GetOrAddComponent(slot1, "Button")
 	slot0.content = findTF(slot0.tr, "content").gameObject
 
@@ -32,7 +33,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 
 	slot0.lock = findTF(slot0.tr, "content/dockyard/container/lock")
 	slot0.maskStatusOb = findTF(slot0.tr, "content/front/status_mask")
-	slot0.iconStatus = findTF(slot0.tr, "content/dockyard/status"):GetComponent("Image")
+	slot0.iconStatus = findTF(slot0.tr, "content/dockyard/status")
 	slot0.iconStatusTxt = findTF(slot0.tr, "content/dockyard/status/Text"):GetComponent("Text")
 	slot0.selectedGo = findTF(slot0.tr, "content/front/selected").gameObject
 	slot0.energyTF = findTF(slot0.tr, "content/dockyard/container/energy")
@@ -130,73 +131,41 @@ function slot0.flush(slot0)
 		setActive(slot0.energyTF, slot7)
 		setText(slot0.nameTF, shortenString(slot1:getName(), 7))
 
-		slot8 = slot1:getFleetId() == FleetProxy.PVP_FLEET_ID
+		if ShipStatus.ShipStatusToTag(slot1, slot0.hideTagFlags) then
+			slot0.iconStatusTxt.text = slot8[3]
 
-		if ShipStatus.ShipStatu2Bg(slot1) then
-			slot0.iconStatus.sprite = GetSpriteFromAtlas("shipstatus", slot9)
+			GetSpriteFromAtlasAsync(slot8[1], slot8[2], function (slot0)
+				setImageSprite(uv0.iconStatus, slot0, true)
+				setActive(uv0.iconStatus, true)
 
-			slot0.iconStatus.gameObject:SetActive(true)
-
-			if slot1.inWorld then
-				if slot5 then
-					if slot4.fleetId ~= nil then
-						tf(slot0.iconStatus).sizeDelta = Vector2(105, 36)
-						slot0.iconStatusTxt.text = Fleet.DEFAULT_NAME_FOR_DOCKYARD[slot4.fleetId]
-						slot0.iconStatusTxt.fontSize = 22
-					else
-						slot0.iconStatus.gameObject:SetActive(false)
-					end
-				else
-					tf(slot0.iconStatus).sizeDelta = Vector2(105, 36)
-					slot0.iconStatusTxt.text = i18n("ship_formationUI_fleetName_world")
-					slot0.iconStatusTxt.fontSize = 22
+				if uv1[1] == "shipstatus" then
+					uv0.iconStatus.sizeDelta = Vector2(195, 36)
+					uv0.iconStatusTxt.fontSize = 30
 				end
-			elseif slot1.inFleet and not slot8 and not slot1.inChapter and not slot1.inElite and not slot1.shamInFleet and not slot1.inSham and not slot1.inChallenge and slot1:getFleetId() ~= nil then
-				if math.fmod(slot1:getFleetId(), 10) >= 1 and slot10 <= 6 then
-					GetSpriteFromAtlasAsync("ui/dockyardui_atlas", "biandui0" .. slot10, function (slot0)
-						if uv0.iconStatus then
-							uv0.iconStatus.sprite = slot0
-
-							uv0.iconStatus:SetNativeSize()
-
-							uv0.iconStatusTxt.text = ""
-						end
-					end)
-				else
-					tf(slot0.iconStatus).sizeDelta = Vector2(195, 36)
-					slot0.iconStatusTxt.text = Fleet.DEFAULT_NAME_FOR_DOCKYARD[slot1:getFleetId()]
-					slot0.iconStatusTxt.fontSize = 30
-				end
-			else
-				tf(slot0.iconStatus).sizeDelta = Vector2(195, 36)
-				slot0.iconStatusTxt.fontSize = 30
-				slot0.iconStatusTxt.text = ShipStatus.ShipStatu2Name(slot1)
-			end
+			end)
 		else
-			slot0.iconStatus.gameObject:SetActive(false)
+			setActive(slot0.iconStatus, false)
 		end
-
-		slot0:updateBlackBlock()
 
 		if LOCK_PROPOSE then
 			return
 		end
 
-		slot10, slot11, slot12 = slot1:getIntimacyDetail()
+		slot9, slot10, slot11 = slot1:getIntimacyDetail()
 
-		if slot11 <= slot12 and not slot1.propose and not slot6 then
+		if slot10 <= slot11 and not slot1.propose and not slot6 then
 			if slot0.proposeTF.childCount == 0 then
 				slot0.proposeModel = LoadAndInstantiateSync("UI", "heartShipCard")
 				slot0.sg = GetComponent(slot0.proposeModel, "SkeletonGraphic")
 
 				slot0.proposeModel.transform:SetParent(slot0.proposeTF, false)
 
-				slot14 = GetComponent(slot0.proposeModel, typeof(RectTransform))
-				slot14.localScale = Vector3(0.5, 0.5, 0.5)
-				slot14.rect.height = 40
-				slot14.rect.width = 40
-				slot14.localPosition = Vector3(0, 0, 0)
-				slot14.localRotation = Vector3(0, 0, 0)
+				slot13 = GetComponent(slot0.proposeModel, typeof(RectTransform))
+				slot13.localScale = Vector3(0.5, 0.5, 0.5)
+				slot13.rect.height = 40
+				slot13.rect.width = 40
+				slot13.localPosition = Vector3(0, 0, 0)
+				slot13.localRotation = Vector3(0, 0, 0)
 			end
 
 			slot0.sg.enabled = true
@@ -209,7 +178,7 @@ function slot0.flush(slot0)
 			setActive(slot0.hpBar:Find("fillarea/green"), slot4:IsHpSafe())
 			setActive(slot0.hpBar:Find("fillarea/red"), not slot4:IsHpSafe())
 
-			slot0.hpBar:GetComponent(typeof(Slider)).fillRect = slot4:IsHpSafe() and slot13 or slot14
+			slot0.hpBar:GetComponent(typeof(Slider)).fillRect = slot4:IsHpSafe() and slot12 or slot13
 
 			setSlider(slot0.hpBar, 0, 10000, slot4.hpRant)
 
@@ -318,9 +287,31 @@ function slot0.canModAttr(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.updateBlackBlock(slot0)
+function slot0.updateBlackBlock(slot0, slot1)
+	slot2 = false
+
+	if slot0.shipVO then
+		for slot6, slot7 in pairs(slot0.blockTagFlags) do
+			if slot7 and slot0.shipVO:getFlag(slot6) then
+				slot2 = true
+
+				break
+			end
+		end
+
+		if not slot2 and slot1 then
+			for slot7, slot8 in ipairs(slot1) do
+				if getProxy(BayProxy):getShipById(slot8) and slot0.shipVO:isSameKind(slot9) then
+					slot2 = slot9.id ~= slot0.shipVO.id
+
+					break
+				end
+			end
+		end
+	end
+
 	if slot0.maskStatusOb then
-		setActive(slot0.maskStatusOb, slot0.shipVO.blackBlock)
+		setActive(slot0.maskStatusOb, slot2)
 	end
 end
 

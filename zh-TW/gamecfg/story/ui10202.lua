@@ -43,7 +43,7 @@ return {
 			actor = -1,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "指揮官，就看妳的了",
+			say = "指揮官，就看你的了",
 			shake = {
 				speed = 1,
 				number = 3

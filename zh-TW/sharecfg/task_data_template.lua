@@ -151,7 +151,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[5,1001,1061,1071,1101,1111,1112,1121,1131,1132,1141,1201,2001,2021,2031,2101,2111,2112,2121,2131,2132,2141,2201,2301,3000,3001,6001,5041,5042,7001,7002,7003,7004,7005,7006,7007,7008,7009,7010,7011,7013,7014,7015,7016,7017,7018,7019,7020,7021,7022,7101,7102,7103,7104,7105,7106,7107,7108,7109,7111,7112,7113,7114,7115,7116,7117,7118,7119,7120,7121,10302]",
+		next_task = "[5,1001,1061,1071,1101,1111,1112,1121,1131,1132,1141,1201,2001,2021,2031,2101,2111,2112,2121,2131,2132,2141,2201,2301,3000,3001,6001,5041,5042,5043,5044,7001,7002,7003,7004,7005,7006,7007,7008,7009,7010,7011,7013,7014,7015,7016,7017,7018,7019,7020,7021,7022,7101,7102,7103,7104,7105,7106,7107,7108,7109,7111,7112,7113,7114,7115,7116,7117,7118,7119,7120,7121,10302]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 101,
@@ -1505,7 +1505,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[37,3033]",
+		next_task = "[37,3033,6033]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 901,
@@ -1547,7 +1547,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[38,3034]",
+		next_task = "[38,3034,6034]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 902,
@@ -1589,7 +1589,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[39,3035]",
+		next_task = "[39,3035,6035]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 903,
@@ -1631,7 +1631,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[40,3036]",
+		next_task = "[40,3036,6036]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 904,
@@ -1967,7 +1967,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[3044]",
+		next_task = "[48,3044]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1104,
@@ -1975,6 +1975,174 @@ pg.task_data_template = {
 		target_num = 1,
 		fix_task = 0,
 		target_id = "1104",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				150
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 48,
+		type = 1,
+		name = "第十二章1圖",
+		count_inherit = 0,
+		desc = "通關12-1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[49,3045]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1201,
+		id = 48,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1201",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 49,
+		type = 1,
+		name = "第十二章2圖",
+		count_inherit = 0,
+		desc = "通關12-2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[50,3046]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1202,
+		id = 49,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1202",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 50,
+		type = 1,
+		name = "第十二章3圖",
+		count_inherit = 0,
+		desc = "通關12-3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[51,3047]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1203,
+		id = 50,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1203",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 51,
+		type = 1,
+		name = "第十二章4圖",
+		count_inherit = 0,
+		desc = "通關12-4",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[3048]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1204,
+		id = 51,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1204",
 		open_need = {},
 		award_display = {
 			{
@@ -5841,6 +6009,174 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[3045] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3045,
+		type = 2,
+		name = "第十二章1圖",
+		count_inherit = 0,
+		desc = "完成12-1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1201,
+		id = 3045,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1201",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				2,
+				54034,
+				1
+			},
+			{
+				2,
+				15008,
+				250
+			}
+		}
+	},
+	[3046] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3046,
+		type = 2,
+		name = "第十二章2圖",
+		count_inherit = 0,
+		desc = "完成12-2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1202,
+		id = 3046,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1202",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15008,
+				350
+			}
+		}
+	},
+	[3047] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3047,
+		type = 2,
+		name = "第十二章3圖",
+		count_inherit = 0,
+		desc = "完成12-3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1203,
+		id = 3047,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1203",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				2,
+				54035,
+				1
+			},
+			{
+				2,
+				15008,
+				450
+			}
+		}
+	},
+	[3048] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3048,
+		type = 2,
+		name = "第十二章4圖",
+		count_inherit = 0,
+		desc = "完成12-4的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1204,
+		id = 3048,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1204",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				100
+			},
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				2,
+				15008,
+				550
+			}
+		}
+	},
 	[5001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -6859,6 +7195,70 @@ pg.task_data_template = {
 				2,
 				15008,
 				200
+			}
+		}
+	},
+	[5043] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5043,
+		type = 2,
+		name = "突破第三階段",
+		count_inherit = 0,
+		desc = "將任意角色的等級上限突破到115級",
+		target_id_2 = "",
+		sub_type = 36,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 60,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 5043,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "115",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				400
+			}
+		}
+	},
+	[5044] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5044,
+		type = 2,
+		name = "突破第四階段",
+		count_inherit = 0,
+		desc = "將任意角色的等級上限突破到120級",
+		target_id_2 = "",
+		sub_type = 36,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 60,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 5044,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "120",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				600
 			}
 		}
 	},
@@ -17672,6 +18072,154 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[6033] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6033,
+		type = 2,
+		name = "困難·不詳之夜",
+		count_inherit = 0,
+		desc = "完成困難9-1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10901,
+		id = 6033,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10901",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				2
+			},
+			{
+				2,
+				15008,
+				250
+			}
+		}
+	},
+	[6034] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6034,
+		type = 2,
+		name = "困難·攔截作戰",
+		count_inherit = 0,
+		desc = "完成困難9-2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10902,
+		id = 6034,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10902",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				2
+			},
+			{
+				2,
+				15008,
+				350
+			}
+		}
+	},
+	[6035] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6035,
+		type = 2,
+		name = "困難·黑夜中的光芒",
+		count_inherit = 0,
+		desc = "完成困難9-3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10903,
+		id = 6035,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10903",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				2
+			},
+			{
+				2,
+				15008,
+				450
+			}
+		}
+	},
+	[6036] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6036,
+		type = 2,
+		name = "困難·海倫娜",
+		count_inherit = 0,
+		desc = "完成困難9-4的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10904,
+		id = 6036,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10904",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				2
+			},
+			{
+				2,
+				15008,
+				550
+			}
+		}
+	},
 	[7001] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -20883,6 +21431,230 @@ pg.task_data_template = {
 			{
 				7,
 				206031,
+				1
+			}
+		}
+	},
+	[10204] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8180,
+		type = 26,
+		name = "季夏(?)攻勢1",
+		count_inherit = 0,
+		desc = "建造5次 ",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 1,
+		story_icon = "Shancheng_2",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SHANCHENG01",
+		target_id_for_client = 0,
+		id = 10204,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1006,
+				1
+			}
+		}
+	},
+	[10205] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8180,
+		type = 26,
+		name = "季夏(?)攻勢2",
+		count_inherit = 0,
+		desc = "完成3次每日挑戰 ",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 1,
+		story_icon = "Shancheng_2",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SHANCHENG02",
+		target_id_for_client = 0,
+		id = 10205,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1006,
+				1
+			}
+		}
+	},
+	[10206] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8180,
+		type = 26,
+		name = "季夏(?)攻勢3",
+		count_inherit = 0,
+		desc = "艦隊出征，以S評價通關10次。",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 1,
+		story_icon = "Shancheng_2",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SHANCHENG03",
+		target_id_for_client = 0,
+		id = 10206,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1006,
+				1
+			}
+		}
+	},
+	[10207] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8180,
+		type = 26,
+		name = "季夏(?)攻勢4",
+		count_inherit = 0,
+		desc = "強化裝備5次",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 1,
+		story_icon = "Shancheng_2",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SHANCHENG04",
+		target_id_for_client = 0,
+		id = 10207,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1006,
+				1
+			}
+		}
+	},
+	[10208] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8180,
+		type = 26,
+		name = "季夏(?)攻勢5",
+		count_inherit = 0,
+		desc = "進行4次戰術訓練",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 1,
+		story_icon = "Shancheng_2",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SHANCHENG05",
+		target_id_for_client = 0,
+		id = 10208,
+		target_num = 4,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1006,
+				1
+			}
+		}
+	},
+	[10209] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8180,
+		type = 26,
+		name = "季夏(?)攻勢6",
+		count_inherit = 0,
+		desc = "完成5次委託 ",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 1,
+		story_icon = "Shancheng_2",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SHANCHENG06",
+		target_id_for_client = 0,
+		id = 10209,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1006,
+				1
+			}
+		}
+	},
+	[10210] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8181,
+		type = 26,
+		name = "季夏(?)攻勢7",
+		count_inherit = 0,
+		desc = "收集6個任務道具 ",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "Shancheng_2",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SHANCHENG07",
+		target_id_for_client = 1006,
+		id = 10210,
+		target_num = 6,
+		fix_task = 0,
+		target_id = "1006",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				305021,
 				1
 			}
 		}
@@ -40862,7 +41634,7 @@ pg.task_data_template = {
 		type = 8,
 		name = "皇家巡洋技術測試I ",
 		count_inherit = 0,
-		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用皇家巡洋艦，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
+		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用皇家輕巡或重巡，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -40953,7 +41725,7 @@ pg.task_data_template = {
 <color=#797979><color=#A9F548>「需先完成皇家巡洋技術測試I」</color>
 研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠</color>
 
-——使用皇家巡洋艦，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
+——使用皇家輕巡或重巡，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -41444,7 +42216,7 @@ pg.task_data_template = {
 		type = 8,
 		name = "重櫻巡洋技術測試I ",
 		count_inherit = 0,
-		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用重櫻巡洋艦，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
+		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用重櫻輕巡、重巡或超巡，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -41535,7 +42307,7 @@ pg.task_data_template = {
 <color=#797979><color=#A9F548>「需先完成重櫻巡洋技術測試I」</color>
 研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠</color>
 
-——使用重櫻巡洋艦，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
+——使用重櫻輕巡、重巡或超巡，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -42026,7 +42798,7 @@ pg.task_data_template = {
 		type = 8,
 		name = "鐵血巡洋技術測試I ",
 		count_inherit = 0,
-		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用鐵血巡洋艦，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
+		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用鐵血輕巡或重巡，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -42117,7 +42889,7 @@ pg.task_data_template = {
 <color=#797979><color=#A9F548>「需先完成鐵血巡洋技術測試I」</color>
 研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠</color>
 
-——使用鐵血巡洋艦，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
+——使用鐵血輕巡或重巡，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -42303,7 +43075,7 @@ pg.task_data_template = {
 		type = 8,
 		name = "白鷹巡洋技術測試I ",
 		count_inherit = 0,
-		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用白鷹巡洋艦，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
+		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用白鷹輕巡或重巡，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -42394,7 +43166,7 @@ pg.task_data_template = {
 <color=#797979><color=#A9F548>「需先完成白鷹巡洋技術測試I」</color>
 研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠</color>
 
-——使用白鷹巡洋艦，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
+——使用白鷹輕巡或重巡，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -44919,6 +45691,10 @@ pg.task_data_template = {
 		45,
 		46,
 		47,
+		48,
+		49,
+		50,
+		51,
 		1001,
 		1011,
 		1012,
@@ -45021,6 +45797,10 @@ pg.task_data_template = {
 		3042,
 		3043,
 		3044,
+		3045,
+		3046,
+		3047,
+		3048,
 		5001,
 		5002,
 		5003,
@@ -45051,6 +45831,8 @@ pg.task_data_template = {
 		5038,
 		5041,
 		5042,
+		5043,
+		5044,
 		5051,
 		5052,
 		5053,
@@ -45349,6 +46131,10 @@ pg.task_data_template = {
 		6030,
 		6031,
 		6032,
+		6033,
+		6034,
+		6035,
+		6036,
 		7001,
 		7002,
 		7003,
@@ -45437,6 +46223,13 @@ pg.task_data_template = {
 		10097,
 		10098,
 		10099,
+		10204,
+		10205,
+		10206,
+		10207,
+		10208,
+		10209,
+		10210,
 		10238,
 		10239,
 		10240,

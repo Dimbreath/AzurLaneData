@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "指揮官，我來給妳送之前說過的資料了",
+			say = "指揮官，我來給你送之前說過的資料了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_task",
 			dir = -1,
 			actor = 901010,
-			say = "指揮官，福爾班說妳找我們？哎？凱旋小姐也在呀，呀吼～",
+			say = "指揮官，福爾班說你找我們？哎？凱旋小姐也在呀，呀吼～",
 			flashout = {
 				dur = 1,
 				black = true,

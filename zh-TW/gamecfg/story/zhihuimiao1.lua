@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "就让{namecode:98}来给妳介绍介绍喵！",
+			say = "就让{namecode:98}来给你介绍介绍喵！",
 			effects = {
 				{
 					active = false,

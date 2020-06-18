@@ -33,8 +33,49 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "always",
 		type = 2,
 		id = 2,
+		pic = "temp8",
+		param = {
+			"scene level"
+		}
+	},
+	{
+		param = "40135",
+		type = 3,
+		id = 3,
+		pic = "temp5",
+		time = {
+			{
+				{
+					2020,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 4,
 		pic = "temp13",
 		param = {
 			"scene get boat",
@@ -71,7 +112,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
+		id = 5,
 		pic = "temp2",
 		param = {
 			"scene skinshop"
@@ -81,7 +122,7 @@ pg.activity_banner = {
 				{
 					2020,
 					6,
-					11
+					18
 				},
 				{
 					0,
@@ -93,7 +134,7 @@ pg.activity_banner = {
 				{
 					2020,
 					6,
-					23
+					24
 				},
 				{
 					23,
@@ -105,7 +146,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 4,
+		id = 6,
 		pic = "temp12",
 		param = {
 			"scene charge",
@@ -142,7 +183,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 5,
+		id = 7,
 		pic = "temp10",
 		param = {
 			"scene charge",
@@ -179,7 +220,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 6,
+		id = 8,
 		pic = "temp7",
 		param = {
 			"scene back yard"
@@ -217,6 +258,8 @@ pg.activity_banner = {
 		3,
 		4,
 		5,
-		6
+		6,
+		7,
+		8
 	}
 }

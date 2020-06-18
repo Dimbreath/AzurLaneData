@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官，妳到底想在那片灌木裡呆到什麼時候，需要我把它修剪一下讓妳蹲的更舒服嗎？",
+			say = "指揮官，你到底想在那片灌木裡呆到什麼時候，需要我把它修剪一下讓你蹲的更舒服嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "從一開始就發現了，因為沒有妨礙買賣，休息日想做什麼也是指揮官妳的自由，就由著妳了。",
+			say = "從一開始就發現了，因為沒有妨礙買賣，休息日想做什麼也是指揮官你的自由，就由著你了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			actor = 301180,
 			nameColor = "#a9f548",
-			say = "所以指揮官，妳躲在那裡是想看什麼呢？",
+			say = "所以指揮官，你躲在那裡是想看什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日攻势\n\n<size=45>一　冬天与被炉</size>",
+					"冬日攻勢\n\n<size=45>一　冬天與暖桌</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "呼…果然冬天还是最适合被炉呢…",
+			say = "呼…果然冬天還是最適合暖桌呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "哈啊…感觉要和被炉融为一体了…",
+			say = "哈啊…感覺要和暖桌融為一體了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			say = "唉…看妳这样子…真是不成体统…",
+			say = "唉…看妳這樣子…真是不成體統…",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "哎～姐姐自己还不是一样窝在被炉里～",
+			say = "哎～姐姐自己還不是一樣窩在暖桌裡～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "没办法嘛…谁让冬天这么冷呢～",
+			say = "沒辦法嘛…誰讓冬天這麼冷呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "再这样下去，身体都要变差了呢，冬天也需要锻炼身体呀",
+			say = "再這樣下去，身體都要變差了呢，冬天也需要鍛煉身體呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "诶～这种天气？能做什么锻炼嘛……",
+			say = "欸～這種天氣？能做什麼鍛煉嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "比如…冬泳什么的？还能锻炼气魄呢？嘻嘻…",
+			say = "比如…冬泳什麼的？還能鍛煉氣魄呢？嘻嘻…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "咿～这玩笑一点都不好笑啦…想想都觉得好冷呀…",
+			say = "咿～這玩笑一點都不好笑啦…想想都覺得好冷呀…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "姐姐我也一樣啊。倒是指揮官妳，能瞭解到我的另一面也挺好不是嗎？",
+			say = "姐姐我也一樣啊。倒是指揮官你，能瞭解到我的另一面也挺好不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

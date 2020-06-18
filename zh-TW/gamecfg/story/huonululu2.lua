@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "哼…不關妳的事吧。指揮官妳也不要得寸進尺！",
+			say = "哼…不關妳的事吧。指揮官你也不要得寸進尺！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "……隨、隨妳們的便吧，反正到時候穿上要是不好看也不關我事。",
+			say = "……隨、隨你們的便吧，反正到時候穿上要是不好看也不關我事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

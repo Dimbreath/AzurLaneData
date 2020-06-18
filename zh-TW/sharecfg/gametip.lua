@@ -10071,5 +10071,8 @@ TIPS：
 	},
 	backyard_unopen = {
 		tip = "後宅未開放"
+	},
+	backYard_missing_furnitrue_tip = {
+		tip = "缺少以下傢俱"
 	}
 }

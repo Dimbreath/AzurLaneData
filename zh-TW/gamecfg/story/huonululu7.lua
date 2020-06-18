@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官，妳走的時候特意折回去就是去買這個了嗎？",
+			say = "指揮官，你走的時候特意折回去就是去買這個了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官，之前談心的時候沒有告訴妳……",
+			say = "指揮官，之前談心的時候沒有告訴你……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一開始妳總是出現在我面前時，我會想，對我這個除了胸部之外毫無特色的傢伙這麼好，妳就這麼喜歡胸部嗎？",
+			say = "一開始你總是出現在我面前時，我會想，對我這個除了胸部之外毫無特色的傢伙這麼好，你就這麼喜歡胸部嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "後來，就逐漸變成了……不管妳是不是只喜歡我的胸部，我都……",
+			say = "後來，就逐漸變成了……不管你是不是只喜歡我的胸部，我都……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……都、都已經喜歡上妳了。",
+			say = "……都、都已經喜歡上你了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

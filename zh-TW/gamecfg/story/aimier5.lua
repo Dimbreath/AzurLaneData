@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "而且指揮官妳不覺得，如果發現一個人身上有非常美好的品質，會是一件十分開心的事嗎？",
+			say = "而且指揮官你不覺得，如果發現一個人身上有非常美好的品質，會是一件十分開心的事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，好像說了一些非常自大的話，有點不好意思呢…指揮官妳聽過就算了哦？",
+			say = "啊哈哈，好像說了一些非常自大的話，有點不好意思呢…指揮官你聽過就算了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳看，既然聊到了浪漫，比起說些大道理，來實踐不是更好的方法嗎？",
+			say = "你看，既然聊到了浪漫，比起說些大道理，來實踐不是更好的方法嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

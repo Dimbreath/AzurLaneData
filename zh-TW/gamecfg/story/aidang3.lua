@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "感覺好久沒來買東西了呢……指揮官妳還好吧？還拿得動嗎？",
+			say = "感覺好久沒來買東西了呢……指揮官你還好吧？還拿得動嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			actor = 303140,
 			actorName = "{namecode:69}",
-			say = "是的！今天我們來買新衣服！啊，指揮官妳也辛苦了！",
+			say = "是的！今天我們來買新衣服！啊，指揮官你也辛苦了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

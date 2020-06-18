@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日攻势\n\n<size=45>二　冬泳大会？</size>",
+					"冬日攻勢\n\n<size=45>二　冬泳大會？</size>",
 					1
 				}
 			}
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "呜…果然好冷啊外面…咦？前面的是？",
+			say = "嗚…果然好冷啊外面…咦？前面的是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			say = "哟！这不是{namecode:79}吗，出来散步吗？",
+			say = "喲！這不是{namecode:79}嗎，出來散步嗎？",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "没有啦…只是出来买点东西，呜…好冷……",
+			say = "沒有啦…只是出來買點東西，嗚…好冷……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:76}",
-			say = "不行啊{namecode:79}～作为重樱的一员，怎么能被区区冷空气打倒呢！",
+			say = "不行啊{namecode:79}～作為重櫻的一員，怎麼能被區區冷空氣打倒呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "{namecode:77}、{namecode:76}…妳们都好厉害啊～不觉得冷吗？",
+			say = "{namecode:77}、{namecode:76}…妳們都好厲害啊～不覺得冷嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:77}",
-			say = "哼哼，寒冷这种东西，靠气势就能赶跑啦！",
+			say = "哼哼，寒冷這種東西，靠氣勢就能趕跑啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:76}",
-			say = "我们还准备办个冬泳大会呢！哼哼，把白鹰那些家伙们也叫上，让她们见识一下重樱的气魄！",
+			say = "我們還準備辦個冬泳大會呢！哼哼，把白鷹那些傢伙們也叫上，讓她們見識一下重櫻的氣魄！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:77}",
-			say = "怎么样？{namecode:79}妳也要一起参加吗？",
+			say = "怎麼樣？{namecode:79}妳也要一起參加嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "呜…我就……算了…哈…哈啾！",
+			say = "嗚…我就……算了…哈…哈啾！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

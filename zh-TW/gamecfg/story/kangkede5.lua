@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
-			say = "每天吃同一個人做的甜品，說不定也會膩~妳說是吧？",
+			say = "每天吃同一個人做的甜品，說不定也會膩~你說是吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

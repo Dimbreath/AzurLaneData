@@ -4,7 +4,7 @@ slot0.DetailType1 = 1
 slot0.DetailType2 = 2
 slot1 = 0.5
 
-function slot0.Ctor(slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1)
 	slot0.go = slot1
 	slot0.tf = slot1.transform
 	slot0.nameTF = slot0.tf:Find("content/request_info/name"):GetComponent(typeof(Text))

@@ -267,7 +267,7 @@ return {
 			blackBg = true,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "指揮官，不知道妳意下如何呢？嘻嘻～",
+			say = "指揮官，不知道你意下如何呢？嘻嘻～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

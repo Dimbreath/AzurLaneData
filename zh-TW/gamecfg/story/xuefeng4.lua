@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "指揮官只要妳對{namecode:22}搖搖尾巴，{namecode:22}的尾巴也會給妳摸兩下的喲――嗯！？",
+			say = "指揮官只要你對{namecode:22}搖搖尾巴，{namecode:22}的尾巴也會給你摸兩下的喲――嗯！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

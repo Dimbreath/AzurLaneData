@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "指揮官，天上這麼多的星星…都是妳說的一個個不同的文明嗎？",
+			say = "指揮官，天上這麼多的星星…都是你說的一個個不同的文明嗎？",
 			side = 0,
 			stopbgm = true,
 			dir = 1,

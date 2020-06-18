@@ -254,11 +254,16 @@ function slot0.PlayStoryForTaskAct(slot0, slot1, slot2)
 			slot12 = 0
 
 			for slot16, slot17 in ipairs(slot9:getConfig("config_data")) do
-				for slot21, slot22 in ipairs(slot17) do
-					if slot22 == slot1 then
-						slot11 = slot16
-						slot12 = slot21
+				if type(slot17) == "table" then
+					for slot21, slot22 in ipairs(slot17) do
+						if slot22 == slot1 then
+							slot11 = slot16
+							slot12 = slot21
+						end
 					end
+				elseif type(slot17) == "number" and slot17 == slot1 then
+					slot11 = slot16
+					slot12 = slot16
 				end
 			end
 

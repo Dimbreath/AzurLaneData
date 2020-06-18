@@ -17,7 +17,7 @@ function slot0.Exit(slot0, slot1)
 
 	slot1:sendNotification(GAME.ACTIVITY_OPERATION, {
 		cmd = 1,
-		activity_id = ActivityConst.PIG_YEAR_RED_POCKET_SHIP_ID_RETRO,
+		activity_id = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_DODGEM) and slot3.id,
 		statistics = slot2.statistics,
 		arg1 = slot2.statistics._battleScore,
 		arg2 = slot2.statistics.dodgemResult.score

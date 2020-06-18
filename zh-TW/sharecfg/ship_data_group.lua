@@ -8367,6 +8367,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[203] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 264,
+		group_type = 30314,
+		code = 203,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"推薦探索關卡12-4",
+				{
+					"LEVEL",
+					{
+						chapterid = 1204
+					}
+				},
+				0
+			}
+		}
+	},
 	[204] = {
 		type = 4,
 		trans_skin = 0,
@@ -8714,6 +8748,74 @@ pg.ship_data_group = {
 				"限時活動：墨染的鋼鐵之花",
 				{
 					""
+				},
+				0
+			}
+		}
+	},
+	[218] = {
+		type = 6,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 281,
+		group_type = 30601,
+		code = 218,
+		property_hexagon = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"推薦探索關卡12-2",
+				{
+					"LEVEL",
+					{
+						chapterid = 1202
+					}
+				},
+				0
+			}
+		}
+	},
+	[219] = {
+		type = 6,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 282,
+		group_type = 30602,
+		code = 219,
+		property_hexagon = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"推薦探索關卡12-3",
+				{
+					"LEVEL",
+					{
+						chapterid = 1203
+					}
 				},
 				0
 			}
@@ -10784,6 +10886,7 @@ pg.ship_data_group = {
 		200,
 		201,
 		202,
+		203,
 		204,
 		205,
 		206,
@@ -10794,6 +10897,8 @@ pg.ship_data_group = {
 		211,
 		212,
 		213,
+		218,
+		219,
 		220,
 		222,
 		224,

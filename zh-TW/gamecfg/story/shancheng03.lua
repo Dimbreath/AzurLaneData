@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日攻势\n\n<size=45>三 遗失的礼物·上</size>",
+					"冬日攻勢\n\n<size=45>三 遺失的禮物·上</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "冬泳…冬泳吗…虽然说作为巫女…在冬天也会有需要用冰冷的清水洁净身躯的时候……",
+			say = "冬泳…冬泳嗎…雖然說作為巫女…在冬天也會有需要用冰冷的清水潔淨身軀的時候……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "似乎最近…确实有些怠惰了呢……",
+			say = "似乎最近…確實有些怠惰了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "夏天时候的泳装…指挥官送的…",
+			say = "夏天時候的泳裝…指揮官送的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "我记得是收在这里了……",
+			say = "我記得是收在這裡了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			nameColor = "#a9f548",
-			say = "咦？怎么找不到了？",
+			say = "咦？怎麼找不到了？",
 			flashout = {
 				dur = 1,
 				black = true,

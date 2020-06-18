@@ -101,7 +101,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "請妳告訴我。究竟妳期望的“我”，是什麼樣的？",
+			say = "請你告訴我。究竟你期望的“我”，是什麼樣的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "我會試著成為，妳所希望的那個存在。",
+			say = "我會試著成為，你所希望的那個存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "為染上妳的顏色，將原本透明的自身染為白色的愚昧之“物”——",
+			say = "為染上你的顏色，將原本透明的自身染為白色的愚昧之“物”——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			blackBg = true,
-			say = "但願，純白的我能成為，妳所期望的存在——",
+			say = "但願，純白的我能成為，你所期望的存在——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

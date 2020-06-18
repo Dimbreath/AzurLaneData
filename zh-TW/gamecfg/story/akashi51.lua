@@ -7,7 +7,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "指揮官，妳知道什麼樣的人最容易受到歡迎和尊敬喵？",
+			say = "指揮官，你知道什麼樣的人最容易受到歡迎和尊敬喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "就讓{namecode:98}來教教妳喵！那就是~~~~~",
+			say = "就讓{namecode:98}來教教你喵！那就是~~~~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

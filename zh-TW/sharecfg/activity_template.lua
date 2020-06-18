@@ -1018,6 +1018,7 @@ pg.activity_template = {
 	[999] = {
 		mark = 20191226,
 		page_info = "",
+		time = "stop",
 		type = 62,
 		login_pop = 0,
 		config_id = 0,
@@ -1027,33 +1028,6 @@ pg.activity_template = {
 		id = 999,
 		config_data = {
 			1
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					12,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[2001] = {
@@ -4402,6 +4376,77 @@ pg.activity_template = {
 			}
 		}
 	},
+	[40135] = {
+		mark = 20200618,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 1,
+		title_res_tag = "YamaShiroSwimwear",
+		id = 40135,
+		config_data = {
+			{
+				10204
+			},
+			{
+				10205
+			},
+			{
+				10206
+			},
+			{
+				10207
+			},
+			{
+				10208
+			},
+			{
+				10209
+			},
+			{
+				10210
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YamaShiroSwimwearPage",
+			ui_name = "YamaShiroSwimwearPage"
+		},
+		config_client = {
+			{
+				groupId = 30502,
+				configId = 305021,
+				id = 10000030502.0,
+				skin_id = 305020
+			}
+		}
+	},
 	[45000] = {
 		mark = 20191004,
 		page_info = "",
@@ -4595,6 +4640,7 @@ pg.activity_template = {
 		40132,
 		40133,
 		40134,
+		40135,
 		45000
 	}
 }

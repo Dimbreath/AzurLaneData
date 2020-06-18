@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼、呼喵…妳看，{namecode:98}和指挥喵们为指挥官和舰队提供助力总是需要些消耗的不是喵？",
+			say = "呼、呼喵…你看，{namecode:98}和指挥喵们为指挥官和舰队提供助力总是需要些消耗的不是喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要在“编队”中将它们加入出击舰队，就可以——嗯喵？妳问它们究竟是什么喵？",
+			say = "只要在“编队”中将它们加入出击舰队，就可以——嗯喵？你问它们究竟是什么喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

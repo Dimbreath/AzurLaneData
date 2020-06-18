@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也不是討厭妳…只是性格就是這樣。",
+			say = "也不是討厭你…只是性格就是這樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是讓妳不高興了，不如讓其他更可愛的孩子來做秘書怎麼樣？",
+			say = "要是讓你不高興了，不如讓其他更可愛的孩子來做秘書怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=33>……（小聲）還是說，妳就這麼喜歡胸部嗎。</size>",
+			say = "<size=33>……（小聲）還是說，你就這麼喜歡胸部嗎。</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1

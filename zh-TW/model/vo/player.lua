@@ -107,12 +107,12 @@ function slot0.Ctor(slot0, slot1)
 			slot3:addMusicIDToLikeList(slot8)
 		end
 
-		if slot3:getResultForVer() then
+		if getProxy(AppreciateProxy):getResultForVer() then
 			pg.ConnectionMgr.GetInstance():Send(15300, {
 				type = 0,
-				ver_str = slot4
+				ver_str = slot5
 			})
-			slot3:clearVer()
+			slot4:clearVer()
 		end
 	end
 

@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，那邊的客人，妳看起來一臉困惑的樣子喵？那就讓{namecode:98}來——",
+			say = "哼哼哼，那邊的客人，你看起來一臉困惑的樣子喵？那就讓{namecode:98}來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

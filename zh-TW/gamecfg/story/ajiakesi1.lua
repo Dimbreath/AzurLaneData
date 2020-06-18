@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "来喝一口？还是说…想要我喂妳喝？",
+			say = "来喝一口？还是说…想要我喂你喝？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "指挥官想喝的话，下次想喝多少我喂妳多少～",
+			say = "指挥官想喝的话，下次想喝多少我喂你多少～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

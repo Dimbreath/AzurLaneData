@@ -225,7 +225,7 @@ function slot0.updateShips(slot0, slot1, slot2, slot3, slot4)
 
 		if slot10 then
 			updateShip(slot12, slot10)
-			setActive(slot12:Find("event_block"), slot10.inEvent)
+			setActive(slot12:Find("event_block"), slot10:getFlag("inEvent"))
 		end
 
 		setActive(slot0:findTF("ship_type", slot12), false)

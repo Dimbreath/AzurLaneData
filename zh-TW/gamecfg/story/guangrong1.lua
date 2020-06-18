@@ -33,7 +33,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家艦隊航空母艦光榮報到，今天也由我擔任妳的秘書艦！",
+			say = "皇家艦隊航空母艦光榮報到，今天也由我擔任你的秘書艦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官，我會全力配合妳的，請多指教！",
+			say = "指揮官，我會全力配合你的，請多指教！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官果然是把我誤會成那片海域的我了吧。妳的心情不是不能理解，但——",
+			say = "指揮官果然是把我誤會成那片海域的我了吧。你的心情不是不能理解，但——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "為了皇家之光而獲得新生的光榮（glorious），一定會成為指揮官妳最高的榮耀！",
+			say = "為了皇家之光而獲得新生的光榮（glorious），一定會成為指揮官你最高的榮耀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

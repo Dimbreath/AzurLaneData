@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 304020,
 			nameColor = "#a9f548",
-			say = "這樣事前準備就差不多了呢。宴會準備也要靠妳多多幫忙了，指揮官♪",
+			say = "這樣事前準備就差不多了呢。宴會準備也要靠你多多幫忙了，指揮官♪",
 			flashout = {
 				dur = 0.7,
 				black = true,

@@ -49,7 +49,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官覺得，我還是無法成為妳的榮耀嗎……？",
+			say = "指揮官覺得，我還是無法成為你的榮耀嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "命令收到。……作為妳的榮光，我、我就撒一會兒嬌。",
+			say = "命令收到。……作為你的榮光，我、我就撒一會兒嬌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

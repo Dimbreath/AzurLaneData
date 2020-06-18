@@ -259,7 +259,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指揮官，妳說什麼呢，可愛什麼的，我才不可愛……",
+			say = "指揮官，你說什麼呢，可愛什麼的，我才不可愛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

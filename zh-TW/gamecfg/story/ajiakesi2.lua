@@ -272,7 +272,7 @@ return {
 			blackBg = true,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "…就是这样我才喜欢妳呀。呵呵♪",
+			say = "…就是这样我才喜欢你呀。呵呵♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

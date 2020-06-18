@@ -10,6 +10,7 @@ function slot0.execute(slot0, slot1)
 			slot2, slot3 = getProxy(EventProxy):findInfoById(uv0)
 			slot2.state = EventInfo.StateNone
 
+			pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
 			uv1:sendNotification(GAME.EVENT_LIST_UPDATE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("event_giveup_fail", slot0.result))

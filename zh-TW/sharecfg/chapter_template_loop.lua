@@ -8,8 +8,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 4,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 101,
 		group_num = 1,
 		enter_story_limit = "",
@@ -171,8 +170,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 9,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 102,
 		group_num = 1,
 		enter_story_limit = "",
@@ -439,8 +437,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 14,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 103,
 		group_num = 1,
 		enter_story_limit = "",
@@ -743,8 +740,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 19,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 104,
 		group_num = 1,
 		enter_story_limit = "",
@@ -1129,8 +1125,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 36,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 201,
 		group_num = 2,
 		enter_story_limit = "",
@@ -1609,8 +1604,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 44,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 202,
 		group_num = 2,
 		enter_story_limit = "",
@@ -2142,8 +2136,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 52,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 203,
 		group_num = 2,
 		enter_story_limit = "",
@@ -2652,8 +2645,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 64,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 204,
 		group_num = 2,
 		enter_story_limit = "",
@@ -3132,8 +3124,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 88,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 301,
 		group_num = 2,
 		enter_story_limit = "",
@@ -3632,8 +3623,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 100,
-		best_air_dominance = 132,
+		air_dominance_loop_rate = 80,
 		id = 302,
 		group_num = 2,
 		enter_story_limit = "",
@@ -4156,8 +4146,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 116,
-		best_air_dominance = 152,
+		air_dominance_loop_rate = 80,
 		id = 303,
 		group_num = 2,
 		enter_story_limit = "",
@@ -4675,8 +4664,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 140,
-		best_air_dominance = 184,
+		air_dominance_loop_rate = 80,
 		id = 304,
 		group_num = 2,
 		enter_story_limit = "",
@@ -5180,8 +5168,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 96,
-		best_air_dominance = 128,
+		air_dominance_loop_rate = 80,
 		id = 401,
 		group_num = 2,
 		enter_story_limit = "",
@@ -5604,8 +5591,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 108,
-		best_air_dominance = 144,
+		air_dominance_loop_rate = 80,
 		id = 402,
 		group_num = 2,
 		enter_story_limit = "",
@@ -6021,8 +6007,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 124,
-		best_air_dominance = 164,
+		air_dominance_loop_rate = 80,
 		id = 403,
 		group_num = 2,
 		enter_story_limit = "",
@@ -6383,8 +6368,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 144,
-		best_air_dominance = 188,
+		air_dominance_loop_rate = 80,
 		id = 404,
 		group_num = 2,
 		enter_story_limit = "",
@@ -6882,8 +6866,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 172,
-		best_air_dominance = 224,
+		air_dominance_loop_rate = 80,
 		id = 501,
 		group_num = 2,
 		enter_story_limit = "",
@@ -7386,8 +7369,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 200,
-		best_air_dominance = 260,
+		air_dominance_loop_rate = 80,
 		id = 502,
 		group_num = 2,
 		enter_story_limit = "",
@@ -7828,8 +7810,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 236,
-		best_air_dominance = 308,
+		air_dominance_loop_rate = 80,
 		id = 503,
 		group_num = 2,
 		enter_story_limit = "",
@@ -8240,8 +8221,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 276,
-		best_air_dominance = 360,
+		air_dominance_loop_rate = 80,
 		id = 504,
 		group_num = 2,
 		enter_story_limit = "",
@@ -8677,8 +8657,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 180,
-		best_air_dominance = 236,
+		air_dominance_loop_rate = 80,
 		id = 601,
 		group_num = 2,
 		enter_story_limit = "",
@@ -9152,8 +9131,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 204,
-		best_air_dominance = 268,
+		air_dominance_loop_rate = 80,
 		id = 602,
 		group_num = 2,
 		enter_story_limit = "",
@@ -9683,8 +9661,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 232,
-		best_air_dominance = 304,
+		air_dominance_loop_rate = 80,
 		id = 603,
 		group_num = 2,
 		enter_story_limit = "",
@@ -10138,8 +10115,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 260,
-		best_air_dominance = 340,
+		air_dominance_loop_rate = 80,
 		id = 604,
 		group_num = 2,
 		enter_story_limit = "",
@@ -10637,8 +10613,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 296,
-		best_air_dominance = 388,
+		air_dominance_loop_rate = 80,
 		id = 701,
 		group_num = 2,
 		enter_story_limit = "",
@@ -10959,8 +10934,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 340,
-		best_air_dominance = 444,
+		air_dominance_loop_rate = 80,
 		id = 702,
 		group_num = 2,
 		enter_story_limit = "",
@@ -11384,8 +11358,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 384,
-		best_air_dominance = 500,
+		air_dominance_loop_rate = 80,
 		id = 703,
 		group_num = 2,
 		enter_story_limit = "",
@@ -11879,8 +11852,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 428,
-		best_air_dominance = 560,
+		air_dominance_loop_rate = 80,
 		id = 704,
 		group_num = 2,
 		enter_story_limit = "",
@@ -12359,8 +12331,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 472,
-		best_air_dominance = 616,
+		air_dominance_loop_rate = 80,
 		id = 801,
 		group_num = 2,
 		enter_story_limit = "",
@@ -12703,8 +12674,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 520,
-		best_air_dominance = 676,
+		air_dominance_loop_rate = 80,
 		id = 802,
 		group_num = 2,
 		enter_story_limit = "",
@@ -13133,8 +13103,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 568,
-		best_air_dominance = 740,
+		air_dominance_loop_rate = 80,
 		id = 803,
 		group_num = 2,
 		enter_story_limit = "",
@@ -13626,8 +13595,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 616,
-		best_air_dominance = 804,
+		air_dominance_loop_rate = 80,
 		id = 804,
 		group_num = 2,
 		enter_story_limit = "",
@@ -14182,8 +14150,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 672,
-		best_air_dominance = 876,
+		air_dominance_loop_rate = 80,
 		id = 901,
 		group_num = 2,
 		enter_story_limit = "",
@@ -14620,8 +14587,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 732,
-		best_air_dominance = 952,
+		air_dominance_loop_rate = 80,
 		id = 902,
 		group_num = 2,
 		enter_story_limit = "",
@@ -15096,8 +15062,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 792,
-		best_air_dominance = 1032,
+		air_dominance_loop_rate = 80,
 		id = 903,
 		group_num = 2,
 		enter_story_limit = "",
@@ -15596,8 +15561,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 852,
-		best_air_dominance = 1108,
+		air_dominance_loop_rate = 80,
 		id = 904,
 		group_num = 2,
 		enter_story_limit = "",
@@ -16118,8 +16082,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 924,
-		best_air_dominance = 1204,
+		air_dominance_loop_rate = 80,
 		id = 1001,
 		group_num = 2,
 		enter_story_limit = "",
@@ -16574,8 +16537,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 1000,
-		best_air_dominance = 1300,
+		air_dominance_loop_rate = 80,
 		id = 1002,
 		group_num = 2,
 		enter_story_limit = "",
@@ -17087,8 +17049,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 1076,
-		best_air_dominance = 1400,
+		air_dominance_loop_rate = 80,
 		id = 1003,
 		group_num = 2,
 		enter_story_limit = "",
@@ -17617,8 +17578,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 1152,
-		best_air_dominance = 1500,
+		air_dominance_loop_rate = 80,
 		id = 1004,
 		group_num = 2,
 		enter_story_limit = "",
@@ -18153,6 +18113,2418 @@ pg.chapter_template_loop = {
 		chapter_buff = {},
 		alarm_cell = {}
 	},
+	[1101] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 6,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance_loop_rate = 80,
+		id = 1101,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 1,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 19,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.38,
+			0.61,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1101010,
+				5,
+				0
+			},
+			{
+				1101020,
+				30,
+				0
+			},
+			{
+				1101030,
+				38,
+				0
+			},
+			{
+				1101040,
+				6,
+				0
+			},
+			{
+				1101050,
+				36,
+				0
+			},
+			{
+				1101060,
+				26,
+				0
+			},
+			{
+				1101100,
+				4,
+				0
+			},
+			{
+				1101110,
+				5,
+				0
+			},
+			{
+				1101120,
+				5,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1101100,
+			1101110,
+			1101120
+		},
+		elite_expedition_list = {
+			1101050,
+			1101080
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			1101000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				8
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				1
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				16
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				8
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				true,
+				16
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				8
+			},
+			{
+				2,
+				8,
+				true,
+				8
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				8,
+				"1x2YWIsland_1",
+				-7,
+				41
+			},
+			{
+				7,
+				5,
+				"1x1YWIsland_2",
+				1,
+				3
+			},
+			{
+				7,
+				1,
+				"1x1YWRock_1",
+				0,
+				0
+			},
+			{
+				5,
+				4,
+				"1x2YWIsland_2",
+				5,
+				33
+			},
+			{
+				5,
+				3,
+				"1x1YWIsland_1",
+				2,
+				4
+			},
+			{
+				4,
+				1,
+				"1x1YWIsland_2",
+				0,
+				4
+			},
+			{
+				3,
+				7,
+				"2x2YWIsland_1",
+				-29,
+				-35
+			},
+			{
+				3,
+				6,
+				"1x1YWRock_1",
+				-29,
+				9
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YW",
+			45,
+			20,
+			-250,
+			31,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			10,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[1102] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 6,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance_loop_rate = 80,
+		id = 1102,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 1,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 20,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.38,
+			0.34,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1102010,
+				4,
+				0
+			},
+			{
+				1102020,
+				30,
+				0
+			},
+			{
+				1102030,
+				40,
+				0
+			},
+			{
+				1102040,
+				5,
+				0
+			},
+			{
+				1102050,
+				36,
+				0
+			},
+			{
+				1102060,
+				28,
+				0
+			},
+			{
+				1102100,
+				4,
+				0
+			},
+			{
+				1102110,
+				5,
+				0
+			},
+			{
+				1102120,
+				3,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1102100,
+			1102110,
+			1102120
+		},
+		elite_expedition_list = {
+			1102050,
+			1102080
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			1102000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				7,
+				11,
+				true,
+				8
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				11,
+				false,
+				0
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				16
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				11,
+				true,
+				8
+			},
+			{
+				5,
+				10,
+				true,
+				8
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				4,
+				11,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				2
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				1
+			},
+			{
+				3,
+				11,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				16
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				11,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				4
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				6,
+				"1x1YWIsland_1",
+				0,
+				0
+			},
+			{
+				6,
+				9,
+				"1x3YWIsland_2",
+				102,
+				0
+			},
+			{
+				6,
+				3,
+				"1x3YWIsland_1",
+				0,
+				0
+			},
+			{
+				5,
+				7,
+				"1x1depot_night",
+				-14,
+				26
+			},
+			{
+				4,
+				9,
+				"1x1YWRock_1",
+				-144,
+				63
+			},
+			{
+				4,
+				3,
+				"1x2YWIsland_1",
+				0,
+				-37
+			},
+			{
+				3,
+				9,
+				"2x2YWIsland_1",
+				-19,
+				-31
+			},
+			{
+				2,
+				6,
+				"1x1YWIsland_2",
+				0,
+				6
+			},
+			{
+				2,
+				2,
+				"1x3YWIsland_2",
+				-2,
+				6
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YW",
+			45,
+			20,
+			-250,
+			28,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			10,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[1103] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 6,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance_loop_rate = 80,
+		id = 1103,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 1,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 20,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.65,
+			0.58,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1103010,
+				3,
+				0
+			},
+			{
+				1103020,
+				28,
+				0
+			},
+			{
+				1103030,
+				42,
+				0
+			},
+			{
+				1103040,
+				5,
+				0
+			},
+			{
+				1103050,
+				36,
+				0
+			},
+			{
+				1103060,
+				30,
+				0
+			},
+			{
+				1103100,
+				4,
+				0
+			},
+			{
+				1103110,
+				5,
+				0
+			},
+			{
+				1103120,
+				3,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1103100,
+			1103110,
+			1103120
+		},
+		elite_expedition_list = {
+			1103050,
+			1103060,
+			1103080
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			1103000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				8,
+				9,
+				true,
+				8
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				6
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				16
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				8
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				8
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				16
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				16
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				5,
+				"1x1YWIsland_2",
+				0,
+				0
+			},
+			{
+				7,
+				7,
+				"1x1YWIsland_1",
+				0,
+				5
+			},
+			{
+				6,
+				1,
+				"1x1YWIsland_1",
+				8,
+				1
+			},
+			{
+				5,
+				5,
+				"1x3YWIsland_2",
+				100,
+				0
+			},
+			{
+				5,
+				3,
+				"2x3YWIsland_1",
+				-57,
+				-31
+			},
+			{
+				2,
+				8,
+				"1x3YWIsland_1",
+				5,
+				7
+			},
+			{
+				2,
+				1,
+				"1x1YWIsland_2",
+				0,
+				3
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YW",
+			45,
+			20,
+			-250,
+			86,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			10,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[1104] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 6,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance_loop_rate = 80,
+		id = 1104,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 1,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 21,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.65,
+			0.37,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1104010,
+				2,
+				0
+			},
+			{
+				1104020,
+				26,
+				0
+			},
+			{
+				1104030,
+				44,
+				0
+			},
+			{
+				1104040,
+				5,
+				0
+			},
+			{
+				1104050,
+				36,
+				0
+			},
+			{
+				1104060,
+				30,
+				0
+			},
+			{
+				1104100,
+				4,
+				0
+			},
+			{
+				1104110,
+				5,
+				0
+			},
+			{
+				1104120,
+				3,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1104100,
+			1104110,
+			1104120
+		},
+		elite_expedition_list = {
+			1104050,
+			1104060,
+			1104080,
+			1104090
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			1104000
+		},
+		enemy_refresh = {
+			0,
+			0,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			2,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				8,
+				10,
+				true,
+				8
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				6
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				8
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				6
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				16
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				6
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				16
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				8
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				4
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				1
+			},
+			{
+				4,
+				5,
+				true,
+				1
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				16
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				16
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				10,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				8
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				8
+			},
+			{
+				1,
+				1,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				7,
+				8,
+				"1x1YWIsland_2",
+				0,
+				0
+			},
+			{
+				7,
+				6,
+				"1x2YWIsland_1",
+				8,
+				-41
+			},
+			{
+				6,
+				2,
+				"1x3YWIsland_1",
+				0,
+				0
+			},
+			{
+				5,
+				9,
+				"1x3YWIsland_2",
+				0,
+				0
+			},
+			{
+				4,
+				2,
+				"1x1YWIsland_1",
+				0,
+				0
+			},
+			{
+				3,
+				5,
+				"1x1YWIsland_2",
+				0,
+				4
+			},
+			{
+				1,
+				7,
+				"1x2YWIsland_2",
+				10,
+				-23
+			},
+			{
+				1,
+				3,
+				"1x2YWIsland_1",
+				0,
+				-27
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YW",
+			45,
+			20,
+			-250,
+			39,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			10,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
 	[10000] = {
 		submarine_num = 0,
 		pop_pic = "",
@@ -18161,8 +20533,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 64,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 10000,
 		group_num = 2,
 		enter_story_limit = "",
@@ -18465,8 +20836,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 80,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 10001,
 		group_num = 2,
 		enter_story_limit = "",
@@ -18852,8 +21222,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 96,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 10002,
 		group_num = 2,
 		enter_story_limit = "",
@@ -19269,8 +21638,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 36,
-		best_air_dominance = 150,
+		air_dominance_loop_rate = 80,
 		id = 10101,
 		group_num = 1,
 		enter_story_limit = "",
@@ -19444,8 +21812,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 40,
-		best_air_dominance = 150,
+		air_dominance_loop_rate = 80,
 		id = 10102,
 		group_num = 1,
 		enter_story_limit = "",
@@ -19693,8 +22060,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 48,
-		best_air_dominance = 150,
+		air_dominance_loop_rate = 80,
 		id = 10103,
 		group_num = 1,
 		enter_story_limit = "",
@@ -19963,8 +22329,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 64,
-		best_air_dominance = 150,
+		air_dominance_loop_rate = 80,
 		id = 10104,
 		group_num = 1,
 		enter_story_limit = "",
@@ -20250,8 +22615,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 88,
-		best_air_dominance = 150,
+		air_dominance_loop_rate = 80,
 		id = 10201,
 		group_num = 2,
 		enter_story_limit = "",
@@ -20587,8 +22951,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 108,
-		best_air_dominance = 150,
+		air_dominance_loop_rate = 80,
 		id = 10202,
 		group_num = 2,
 		enter_story_limit = "",
@@ -20976,8 +23339,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 128,
-		best_air_dominance = 168,
+		air_dominance_loop_rate = 80,
 		id = 10203,
 		group_num = 2,
 		enter_story_limit = "",
@@ -21342,8 +23704,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 152,
-		best_air_dominance = 200,
+		air_dominance_loop_rate = 80,
 		id = 10204,
 		group_num = 2,
 		enter_story_limit = "",
@@ -21678,8 +24039,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 196,
-		best_air_dominance = 256,
+		air_dominance_loop_rate = 80,
 		id = 10301,
 		group_num = 2,
 		enter_story_limit = "",
@@ -22034,8 +24394,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 228,
-		best_air_dominance = 300,
+		air_dominance_loop_rate = 80,
 		id = 10302,
 		group_num = 2,
 		enter_story_limit = "",
@@ -22414,8 +24773,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 264,
-		best_air_dominance = 344,
+		air_dominance_loop_rate = 80,
 		id = 10303,
 		group_num = 2,
 		enter_story_limit = "",
@@ -22789,8 +25147,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 304,
-		best_air_dominance = 396,
+		air_dominance_loop_rate = 80,
 		id = 10304,
 		group_num = 2,
 		enter_story_limit = "",
@@ -23150,8 +25507,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 152,
-		best_air_dominance = 200,
+		air_dominance_loop_rate = 80,
 		id = 10401,
 		group_num = 2,
 		enter_story_limit = "",
@@ -23548,8 +25904,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 176,
-		best_air_dominance = 232,
+		air_dominance_loop_rate = 80,
 		id = 10402,
 		group_num = 2,
 		enter_story_limit = "",
@@ -23939,8 +26294,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 200,
-		best_air_dominance = 260,
+		air_dominance_loop_rate = 80,
 		id = 10403,
 		group_num = 2,
 		enter_story_limit = "",
@@ -24275,8 +26629,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 228,
-		best_air_dominance = 300,
+		air_dominance_loop_rate = 80,
 		id = 10404,
 		group_num = 2,
 		enter_story_limit = "",
@@ -24747,8 +27100,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 272,
-		best_air_dominance = 356,
+		air_dominance_loop_rate = 80,
 		id = 10501,
 		group_num = 2,
 		enter_story_limit = "",
@@ -25224,8 +27576,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 304,
-		best_air_dominance = 396,
+		air_dominance_loop_rate = 80,
 		id = 10502,
 		group_num = 2,
 		enter_story_limit = "",
@@ -25639,8 +27990,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 340,
-		best_air_dominance = 444,
+		air_dominance_loop_rate = 80,
 		id = 10503,
 		group_num = 2,
 		enter_story_limit = "",
@@ -26024,8 +28374,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 380,
-		best_air_dominance = 496,
+		air_dominance_loop_rate = 80,
 		id = 10504,
 		group_num = 2,
 		enter_story_limit = "",
@@ -26434,8 +28783,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 356,
-		best_air_dominance = 464,
+		air_dominance_loop_rate = 80,
 		id = 10601,
 		group_num = 2,
 		enter_story_limit = "",
@@ -26883,8 +29231,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 408,
-		best_air_dominance = 532,
+		air_dominance_loop_rate = 80,
 		id = 10602,
 		group_num = 2,
 		enter_story_limit = "",
@@ -27388,8 +29735,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 460,
-		best_air_dominance = 600,
+		air_dominance_loop_rate = 80,
 		id = 10603,
 		group_num = 2,
 		enter_story_limit = "",
@@ -27817,8 +30163,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 516,
-		best_air_dominance = 672,
+		air_dominance_loop_rate = 80,
 		id = 10604,
 		group_num = 2,
 		enter_story_limit = "",
@@ -28290,8 +30635,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 576,
-		best_air_dominance = 752,
+		air_dominance_loop_rate = 80,
 		id = 10701,
 		group_num = 2,
 		enter_story_limit = "",
@@ -28601,8 +30945,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 640,
-		best_air_dominance = 832,
+		air_dominance_loop_rate = 80,
 		id = 10702,
 		group_num = 2,
 		enter_story_limit = "",
@@ -29015,8 +31358,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 704,
-		best_air_dominance = 916,
+		air_dominance_loop_rate = 80,
 		id = 10703,
 		group_num = 2,
 		enter_story_limit = "",
@@ -29499,8 +31841,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 772,
-		best_air_dominance = 1004,
+		air_dominance_loop_rate = 80,
 		id = 10704,
 		group_num = 2,
 		enter_story_limit = "",
@@ -29968,8 +32309,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 844,
-		best_air_dominance = 1100,
+		air_dominance_loop_rate = 80,
 		id = 10801,
 		group_num = 2,
 		enter_story_limit = "",
@@ -30301,8 +32641,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 920,
-		best_air_dominance = 1196,
+		air_dominance_loop_rate = 80,
 		id = 10802,
 		group_num = 2,
 		enter_story_limit = "",
@@ -30720,8 +33059,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 996,
-		best_air_dominance = 1296,
+		air_dominance_loop_rate = 80,
 		id = 10803,
 		group_num = 2,
 		enter_story_limit = "",
@@ -31202,8 +33540,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 1080,
-		best_air_dominance = 1404,
+		air_dominance_loop_rate = 80,
 		id = 10804,
 		group_num = 2,
 		enter_story_limit = "",
@@ -31747,8 +34084,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 1152,
-		best_air_dominance = 1500,
+		air_dominance_loop_rate = 80,
 		id = 10901,
 		group_num = 2,
 		enter_story_limit = "",
@@ -32172,8 +34508,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 1228,
-		best_air_dominance = 1600,
+		air_dominance_loop_rate = 80,
 		id = 10902,
 		group_num = 2,
 		enter_story_limit = "",
@@ -32635,8 +34970,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 1308,
-		best_air_dominance = 1704,
+		air_dominance_loop_rate = 80,
 		id = 10903,
 		group_num = 2,
 		enter_story_limit = "",
@@ -33122,8 +35456,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 1388,
-		best_air_dominance = 1808,
+		air_dominance_loop_rate = 80,
 		id = 10904,
 		group_num = 2,
 		enter_story_limit = "",
@@ -33631,8 +35964,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 1484,
-		best_air_dominance = 1932,
+		air_dominance_loop_rate = 80,
 		id = 11001,
 		group_num = 2,
 		enter_story_limit = "",
@@ -34074,8 +36406,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 1576,
-		best_air_dominance = 2052,
+		air_dominance_loop_rate = 80,
 		id = 11002,
 		group_num = 2,
 		enter_story_limit = "",
@@ -34574,8 +36905,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 1672,
-		best_air_dominance = 2176,
+		air_dominance_loop_rate = 80,
 		id = 11003,
 		group_num = 2,
 		enter_story_limit = "",
@@ -35091,8 +37421,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 1768,
-		best_air_dominance = 2300,
+		air_dominance_loop_rate = 80,
 		id = 11004,
 		group_num = 2,
 		enter_story_limit = "",
@@ -35622,8 +37951,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 64,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 1050011,
 		group_num = 2,
 		enter_story_limit = "",
@@ -36123,8 +38451,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 80,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 1050012,
 		group_num = 2,
 		enter_story_limit = "",
@@ -36628,8 +38955,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 96,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 1050013,
 		group_num = 2,
 		enter_story_limit = "",
@@ -37255,8 +39581,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 64,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 1070201,
 		group_num = 2,
 		enter_story_limit = "",
@@ -37746,8 +40071,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 80,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 1070202,
 		group_num = 2,
 		enter_story_limit = "",
@@ -38336,8 +40660,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 96,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 1070203,
 		group_num = 2,
 		enter_story_limit = "",
@@ -38984,8 +41307,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 120,
-		best_air_dominance = 156,
+		air_dominance_loop_rate = 80,
 		id = 1100001,
 		group_num = 2,
 		enter_story_limit = "",
@@ -39426,8 +41748,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 164,
-		best_air_dominance = 216,
+		air_dominance_loop_rate = 80,
 		id = 1100002,
 		group_num = 2,
 		enter_story_limit = "",
@@ -39925,8 +42246,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 216,
-		best_air_dominance = 284,
+		air_dominance_loop_rate = 80,
 		id = 1100003,
 		group_num = 2,
 		enter_story_limit = "",
@@ -40492,8 +42812,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 264,
-		best_air_dominance = 344,
+		air_dominance_loop_rate = 80,
 		id = 1100004,
 		group_num = 2,
 		enter_story_limit = "",
@@ -41010,8 +43329,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 344,
-		best_air_dominance = 448,
+		air_dominance_loop_rate = 80,
 		id = 1100005,
 		group_num = 2,
 		enter_story_limit = "",
@@ -41630,8 +43948,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 428,
-		best_air_dominance = 560,
+		air_dominance_loop_rate = 80,
 		id = 1100006,
 		group_num = 2,
 		enter_story_limit = "",
@@ -42244,8 +44561,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 424,
-		best_air_dominance = 552,
+		air_dominance_loop_rate = 80,
 		id = 1100011,
 		group_num = 2,
 		enter_story_limit = "",
@@ -42729,8 +45045,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 484,
-		best_air_dominance = 632,
+		air_dominance_loop_rate = 80,
 		id = 1100012,
 		group_num = 2,
 		enter_story_limit = "",
@@ -43270,8 +45585,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 544,
-		best_air_dominance = 708,
+		air_dominance_loop_rate = 80,
 		id = 1100013,
 		group_num = 2,
 		enter_story_limit = "",
@@ -43880,8 +46194,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 648,
-		best_air_dominance = 844,
+		air_dominance_loop_rate = 80,
 		id = 1100014,
 		group_num = 2,
 		enter_story_limit = "",
@@ -44440,8 +46753,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 772,
-		best_air_dominance = 1004,
+		air_dominance_loop_rate = 80,
 		id = 1100015,
 		group_num = 2,
 		enter_story_limit = "",
@@ -45102,8 +47414,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 904,
-		best_air_dominance = 1176,
+		air_dominance_loop_rate = 80,
 		id = 1100016,
 		group_num = 2,
 		enter_story_limit = "",
@@ -45757,8 +48068,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 80,
-		best_air_dominance = 104,
+		air_dominance_loop_rate = 80,
 		id = 1000001,
 		group_num = 2,
 		enter_story_limit = "",
@@ -46218,8 +48528,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 108,
-		best_air_dominance = 140,
+		air_dominance_loop_rate = 80,
 		id = 1000002,
 		group_num = 2,
 		enter_story_limit = "",
@@ -46819,8 +49128,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 136,
-		best_air_dominance = 176,
+		air_dominance_loop_rate = 80,
 		id = 1000003,
 		group_num = 2,
 		enter_story_limit = "",
@@ -47387,8 +49695,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 164,
-		best_air_dominance = 212,
+		air_dominance_loop_rate = 80,
 		id = 1000004,
 		group_num = 2,
 		enter_story_limit = "",
@@ -48073,8 +50380,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 176,
-		best_air_dominance = 228,
+		air_dominance_loop_rate = 80,
 		id = 1000005,
 		group_num = 2,
 		enter_story_limit = "",
@@ -48554,8 +50860,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 256,
-		best_air_dominance = 332,
+		air_dominance_loop_rate = 80,
 		id = 1000006,
 		group_num = 2,
 		enter_story_limit = "",
@@ -49043,8 +51348,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 340,
-		best_air_dominance = 444,
+		air_dominance_loop_rate = 80,
 		id = 1000007,
 		group_num = 2,
 		enter_story_limit = "",
@@ -49587,8 +51891,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 428,
-		best_air_dominance = 556,
+		air_dominance_loop_rate = 80,
 		id = 1000008,
 		group_num = 2,
 		enter_story_limit = "",
@@ -50287,8 +52590,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 284,
-		best_air_dominance = 368,
+		air_dominance_loop_rate = 80,
 		id = 1000011,
 		group_num = 2,
 		enter_story_limit = "",
@@ -50789,8 +53091,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 344,
-		best_air_dominance = 448,
+		air_dominance_loop_rate = 80,
 		id = 1000012,
 		group_num = 2,
 		enter_story_limit = "",
@@ -51433,8 +53734,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 404,
-		best_air_dominance = 524,
+		air_dominance_loop_rate = 80,
 		id = 1000013,
 		group_num = 2,
 		enter_story_limit = "",
@@ -52042,8 +54342,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 464,
-		best_air_dominance = 604,
+		air_dominance_loop_rate = 80,
 		id = 1000014,
 		group_num = 2,
 		enter_story_limit = "",
@@ -52769,8 +55068,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 508,
-		best_air_dominance = 660,
+		air_dominance_loop_rate = 80,
 		id = 1000015,
 		group_num = 2,
 		enter_story_limit = "",
@@ -53291,8 +55589,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 632,
-		best_air_dominance = 820,
+		air_dominance_loop_rate = 80,
 		id = 1000016,
 		group_num = 2,
 		enter_story_limit = "",
@@ -53821,8 +56118,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 764,
-		best_air_dominance = 992,
+		air_dominance_loop_rate = 80,
 		id = 1000017,
 		group_num = 2,
 		enter_story_limit = "",
@@ -54406,8 +56702,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 904,
-		best_air_dominance = 1176,
+		air_dominance_loop_rate = 80,
 		id = 1000018,
 		group_num = 2,
 		enter_story_limit = "",
@@ -55147,8 +57442,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 96,
-		best_air_dominance = 128,
+		air_dominance_loop_rate = 80,
 		id = 1150001,
 		group_num = 2,
 		enter_story_limit = "",
@@ -55632,8 +57926,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 128,
-		best_air_dominance = 168,
+		air_dominance_loop_rate = 80,
 		id = 1150002,
 		group_num = 2,
 		enter_story_limit = "",
@@ -56178,8 +58471,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 160,
-		best_air_dominance = 208,
+		air_dominance_loop_rate = 80,
 		id = 1150003,
 		group_num = 2,
 		enter_story_limit = "",
@@ -56814,8 +59106,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 208,
-		best_air_dominance = 272,
+		air_dominance_loop_rate = 80,
 		id = 1150004,
 		group_num = 2,
 		enter_story_limit = "",
@@ -57389,8 +59680,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 256,
-		best_air_dominance = 336,
+		air_dominance_loop_rate = 80,
 		id = 1150005,
 		group_num = 2,
 		enter_story_limit = "",
@@ -58105,8 +60395,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 256,
-		best_air_dominance = 336,
+		air_dominance_loop_rate = 80,
 		id = 1150006,
 		group_num = 2,
 		enter_story_limit = "",
@@ -58993,8 +61282,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 288,
-		best_air_dominance = 376,
+		air_dominance_loop_rate = 80,
 		id = 1150011,
 		group_num = 2,
 		enter_story_limit = "",
@@ -59519,8 +61807,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 320,
-		best_air_dominance = 416,
+		air_dominance_loop_rate = 80,
 		id = 1150012,
 		group_num = 2,
 		enter_story_limit = "",
@@ -60106,8 +62393,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 392,
-		best_air_dominance = 508,
+		air_dominance_loop_rate = 80,
 		id = 1150013,
 		group_num = 2,
 		enter_story_limit = "",
@@ -60783,8 +63069,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 464,
-		best_air_dominance = 604,
+		air_dominance_loop_rate = 80,
 		id = 1150014,
 		group_num = 2,
 		enter_story_limit = "",
@@ -61399,8 +63684,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 544,
-		best_air_dominance = 708,
+		air_dominance_loop_rate = 80,
 		id = 1150015,
 		group_num = 2,
 		enter_story_limit = "",
@@ -62156,8 +64440,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 904,
-		best_air_dominance = 1176,
+		air_dominance_loop_rate = 80,
 		id = 1150016,
 		group_num = 2,
 		enter_story_limit = "",
@@ -63085,8 +65368,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 72,
-		best_air_dominance = 96,
+		air_dominance_loop_rate = 80,
 		id = 1190001,
 		group_num = 2,
 		enter_story_limit = "",
@@ -63485,8 +65767,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 96,
-		best_air_dominance = 128,
+		air_dominance_loop_rate = 80,
 		id = 1190002,
 		group_num = 2,
 		enter_story_limit = "",
@@ -63947,8 +66228,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 128,
-		best_air_dominance = 168,
+		air_dominance_loop_rate = 80,
 		id = 1190003,
 		group_num = 2,
 		enter_story_limit = "",
@@ -64499,8 +66779,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 160,
-		best_air_dominance = 208,
+		air_dominance_loop_rate = 80,
 		id = 1190004,
 		group_num = 2,
 		enter_story_limit = "",
@@ -65074,8 +67353,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 208,
-		best_air_dominance = 272,
+		air_dominance_loop_rate = 80,
 		id = 1190005,
 		group_num = 2,
 		enter_story_limit = "",
@@ -65667,8 +67945,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 256,
-		best_air_dominance = 336,
+		air_dominance_loop_rate = 80,
 		id = 1190006,
 		group_num = 2,
 		enter_story_limit = "",
@@ -66435,8 +68712,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 256,
-		best_air_dominance = 336,
+		air_dominance_loop_rate = 80,
 		id = 1190011,
 		group_num = 2,
 		enter_story_limit = "",
@@ -66876,8 +69152,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 288,
-		best_air_dominance = 376,
+		air_dominance_loop_rate = 80,
 		id = 1190012,
 		group_num = 2,
 		enter_story_limit = "",
@@ -67379,8 +69654,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 320,
-		best_air_dominance = 416,
+		air_dominance_loop_rate = 80,
 		id = 1190013,
 		group_num = 2,
 		enter_story_limit = "",
@@ -67972,8 +70246,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 392,
-		best_air_dominance = 508,
+		air_dominance_loop_rate = 80,
 		id = 1190014,
 		group_num = 2,
 		enter_story_limit = "",
@@ -68588,8 +70861,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 464,
-		best_air_dominance = 604,
+		air_dominance_loop_rate = 80,
 		id = 1190015,
 		group_num = 2,
 		enter_story_limit = "",
@@ -69222,8 +71494,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 544,
-		best_air_dominance = 708,
+		air_dominance_loop_rate = 80,
 		id = 1190016,
 		group_num = 2,
 		enter_story_limit = "",
@@ -70031,8 +72302,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 76,
-		best_air_dominance = 120,
+		air_dominance_loop_rate = 80,
 		id = 1210001,
 		group_num = 2,
 		enter_story_limit = "",
@@ -70539,8 +72809,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 104,
-		best_air_dominance = 136,
+		air_dominance_loop_rate = 80,
 		id = 1210002,
 		group_num = 2,
 		enter_story_limit = "",
@@ -71011,8 +73280,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 136,
-		best_air_dominance = 180,
+		air_dominance_loop_rate = 80,
 		id = 1210003,
 		group_num = 2,
 		enter_story_limit = "",
@@ -71581,8 +73849,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 176,
-		best_air_dominance = 232,
+		air_dominance_loop_rate = 80,
 		id = 1210004,
 		group_num = 2,
 		enter_story_limit = "",
@@ -72150,8 +74417,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 228,
-		best_air_dominance = 300,
+		air_dominance_loop_rate = 80,
 		id = 1210005,
 		group_num = 2,
 		enter_story_limit = "",
@@ -72769,8 +75035,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 304,
-		best_air_dominance = 396,
+		air_dominance_loop_rate = 80,
 		id = 1210006,
 		group_num = 2,
 		enter_story_limit = "",
@@ -73449,8 +75714,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 300,
-		best_air_dominance = 392,
+		air_dominance_loop_rate = 80,
 		id = 1210011,
 		group_num = 2,
 		enter_story_limit = "",
@@ -73999,8 +76263,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 376,
-		best_air_dominance = 492,
+		air_dominance_loop_rate = 80,
 		id = 1210012,
 		group_num = 2,
 		enter_story_limit = "",
@@ -74513,8 +76776,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 456,
-		best_air_dominance = 596,
+		air_dominance_loop_rate = 80,
 		id = 1210013,
 		group_num = 2,
 		enter_story_limit = "",
@@ -75125,8 +77387,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 584,
-		best_air_dominance = 760,
+		air_dominance_loop_rate = 80,
 		id = 1210014,
 		group_num = 2,
 		enter_story_limit = "",
@@ -75736,8 +77997,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 732,
-		best_air_dominance = 952,
+		air_dominance_loop_rate = 80,
 		id = 1210015,
 		group_num = 2,
 		enter_story_limit = "",
@@ -76399,8 +78659,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 900,
-		best_air_dominance = 1172,
+		air_dominance_loop_rate = 80,
 		id = 1210016,
 		group_num = 2,
 		enter_story_limit = "",
@@ -77123,8 +79382,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 120,
-		best_air_dominance = 156,
+		air_dominance_loop_rate = 80,
 		id = 5100001,
 		group_num = 2,
 		enter_story_limit = "",
@@ -77565,8 +79823,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 164,
-		best_air_dominance = 216,
+		air_dominance_loop_rate = 80,
 		id = 5100002,
 		group_num = 2,
 		enter_story_limit = "",
@@ -78064,8 +80321,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 216,
-		best_air_dominance = 284,
+		air_dominance_loop_rate = 80,
 		id = 5100003,
 		group_num = 2,
 		enter_story_limit = "",
@@ -78631,8 +80887,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 264,
-		best_air_dominance = 344,
+		air_dominance_loop_rate = 80,
 		id = 5100004,
 		group_num = 2,
 		enter_story_limit = "",
@@ -79149,8 +81404,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 344,
-		best_air_dominance = 448,
+		air_dominance_loop_rate = 80,
 		id = 5100005,
 		group_num = 2,
 		enter_story_limit = "",
@@ -79769,8 +82023,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 428,
-		best_air_dominance = 560,
+		air_dominance_loop_rate = 80,
 		id = 5100006,
 		group_num = 2,
 		enter_story_limit = "",
@@ -80383,8 +82636,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 424,
-		best_air_dominance = 552,
+		air_dominance_loop_rate = 80,
 		id = 5100011,
 		group_num = 2,
 		enter_story_limit = "",
@@ -80868,8 +83120,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 484,
-		best_air_dominance = 632,
+		air_dominance_loop_rate = 80,
 		id = 5100012,
 		group_num = 2,
 		enter_story_limit = "",
@@ -81409,8 +83660,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 544,
-		best_air_dominance = 708,
+		air_dominance_loop_rate = 80,
 		id = 5100013,
 		group_num = 2,
 		enter_story_limit = "",
@@ -82019,8 +84269,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 648,
-		best_air_dominance = 844,
+		air_dominance_loop_rate = 80,
 		id = 5100014,
 		group_num = 2,
 		enter_story_limit = "",
@@ -82579,8 +84828,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 772,
-		best_air_dominance = 1004,
+		air_dominance_loop_rate = 80,
 		id = 5100015,
 		group_num = 2,
 		enter_story_limit = "",
@@ -83241,8 +85489,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 904,
-		best_air_dominance = 1176,
+		air_dominance_loop_rate = 80,
 		id = 5100016,
 		group_num = 2,
 		enter_story_limit = "",
@@ -83896,8 +86143,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 96,
-		best_air_dominance = 124,
+		air_dominance_loop_rate = 80,
 		id = 5100101,
 		group_num = 2,
 		enter_story_limit = "",
@@ -84345,8 +86591,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 132,
-		best_air_dominance = 172,
+		air_dominance_loop_rate = 80,
 		id = 5100102,
 		group_num = 2,
 		enter_story_limit = "",
@@ -84900,8 +87145,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 172,
-		best_air_dominance = 224,
+		air_dominance_loop_rate = 80,
 		id = 5100103,
 		group_num = 2,
 		enter_story_limit = "",
@@ -85567,8 +87811,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 212,
-		best_air_dominance = 276,
+		air_dominance_loop_rate = 80,
 		id = 5100104,
 		group_num = 2,
 		enter_story_limit = "",
@@ -86028,8 +88271,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 276,
-		best_air_dominance = 360,
+		air_dominance_loop_rate = 80,
 		id = 5100105,
 		group_num = 2,
 		enter_story_limit = "",
@@ -86595,8 +88837,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 340,
-		best_air_dominance = 444,
+		air_dominance_loop_rate = 80,
 		id = 5100106,
 		group_num = 2,
 		enter_story_limit = "",
@@ -87284,8 +89525,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 340,
-		best_air_dominance = 440,
+		air_dominance_loop_rate = 80,
 		id = 5100111,
 		group_num = 2,
 		enter_story_limit = "",
@@ -87774,8 +90014,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 388,
-		best_air_dominance = 504,
+		air_dominance_loop_rate = 80,
 		id = 5100112,
 		group_num = 2,
 		enter_story_limit = "",
@@ -88370,8 +90609,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 436,
-		best_air_dominance = 568,
+		air_dominance_loop_rate = 80,
 		id = 5100113,
 		group_num = 2,
 		enter_story_limit = "",
@@ -89078,8 +91316,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 520,
-		best_air_dominance = 676,
+		air_dominance_loop_rate = 80,
 		id = 5100114,
 		group_num = 2,
 		enter_story_limit = "",
@@ -89582,8 +91819,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 616,
-		best_air_dominance = 800,
+		air_dominance_loop_rate = 80,
 		id = 5100115,
 		group_num = 2,
 		enter_story_limit = "",
@@ -90192,8 +92428,7 @@ pg.chapter_template_loop = {
 		story_refresh_boss = "",
 		friendly_id = 0,
 		limit_move = 0,
-		air_dominance = 724,
-		best_air_dominance = 940,
+		air_dominance_loop_rate = 80,
 		id = 5100116,
 		group_num = 2,
 		enter_story_limit = "",
@@ -90957,6 +93192,10 @@ pg.chapter_template_loop = {
 		1002,
 		1003,
 		1004,
+		1101,
+		1102,
+		1103,
+		1104,
 		10000,
 		10001,
 		10002,

@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "總之{namecode:22}大人駕臨到妳的艦隊了！努力發揮{namecode:22}大人的實力吧",
+			say = "總之{namecode:22}大人駕臨到你的艦隊了！努力發揮{namecode:22}大人的實力吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "哼，給{namecode:22}大人跪好了嗎？接下來就把{namecode:22}大人作為妳艦隊主力中的主力吧！",
+			say = "哼，給{namecode:22}大人跪好了嗎？接下來就把{namecode:22}大人作為你艦隊主力中的主力吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			blackBg = true,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "呃呃呃…！居然敢無視{namecode:22}大人……妳這是萬死之罪口牙！",
+			say = "呃呃呃…！居然敢無視{namecode:22}大人……你這是萬死之罪口牙！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

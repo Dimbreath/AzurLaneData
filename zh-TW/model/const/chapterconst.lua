@@ -1,9 +1,6 @@
 slot0 = class("ChapterConst")
 slot0.ExitFromChapter = 0
 slot0.ExitFromMap = 1
-slot0.TypeNone = 0
-slot0.TypeSham = 1
-slot0.TypeGuild = 2
 slot0.TypeLagacy = 1
 slot0.TypeRange = 2
 slot0.TypeTransport = 3
@@ -27,7 +24,6 @@ slot0.AttachEnemy = 6
 slot0.AttachTorpedo_Enemy = 7
 slot0.AttachBoss = 8
 slot0.AttachStory = 9
-slot0.AttachRival = 10
 slot0.AttachAreaBoss = 11
 slot0.AttachChampion = 12
 slot0.AttachTorpedo_Fleet = 14
@@ -47,7 +43,6 @@ slot0.AttachStaticEnemys = {
 	slot0.AttachAmbush,
 	slot0.AttachElite,
 	slot0.AttachBoss,
-	slot0.AttachRival,
 	slot0.AttachAreaBoss,
 	slot0.AttachBomb_Enemy
 }
@@ -136,7 +131,7 @@ function slot0.NeedMarkAsLurk(slot0)
 
 		return slot0.flag == 0 and (slot1.type == uv0.BoxDrop or slot1.type == uv0.BoxStrategy or slot1.type == uv0.BoxSupply or slot1.type == uv0.BoxEnemy)
 	else
-		return slot0.flag == 0 and (slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite or slot0.attachment == uv0.AttachBoss or slot0.attachment == uv0.AttachStory or slot0.attachment == uv0.AttachRival or slot0.attachment == uv0.AttachBomb_Enemy)
+		return slot0.flag == 0 and (slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite or slot0.attachment == uv0.AttachBoss or slot0.attachment == uv0.AttachStory or slot0.attachment == uv0.AttachBomb_Enemy)
 	end
 end
 
@@ -147,7 +142,7 @@ function slot0.NeedEasePathCell(slot0)
 		if slot0.flag ~= 0 then
 			return true
 		end
-	elseif slot0.attachment == uv0.AttachRival or slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite then
+	elseif slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite then
 		if slot0.flag == 1 then
 			return true
 		end
@@ -310,17 +305,7 @@ slot0.EnemySize = {
 	3,
 	[99.0] = 99
 }
-slot0.ActivateMirror = false
-slot0.MirrorShamId = 0
-slot0.ShamResetCountLimit = 1
-slot0.ShamShipLimit = 15
-slot0.ShamTeamShipLimit = 8
-slot0.ShamEnemyLimit = 10
-slot0.ShamShipLevelLimit = 10
-slot0.ShamMyAssisShipLevelLimit = 10
-slot0.MirrorShamId = 90000
 slot0.ShamMoneyItem = 59900
-slot0.EscortMoneyItem = 59900
 slot0.MarkHuntingRange = 1
 slot0.MarkBomb = 2
 slot0.MarkCoastalGun = 3
@@ -335,8 +320,6 @@ slot0.ReasonDefeat = 2
 slot0.ReasonVictoryOni = 3
 slot0.ReasonDefeatOni = 4
 slot0.ReasonDefeatBomb = 5
-slot0.ReasonVictorySham = 6
-slot0.ReasonDefeatSham = 7
 slot0.ReasonOutTime = 8
 slot0.ReasonActivityOutTime = 9
 slot0.ReasonDefeatDefense = 10

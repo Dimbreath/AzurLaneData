@@ -269,7 +269,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "指揮官，妳能告訴我我該怎麼做嗎？",
+			say = "指揮官，你能告訴我我該怎麼做嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

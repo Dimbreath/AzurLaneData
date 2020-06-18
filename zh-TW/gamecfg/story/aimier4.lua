@@ -215,7 +215,7 @@ return {
 			optionFlag = 1,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "指、指揮官，我是不會被妳引誘的！",
+			say = "指、指揮官，我是不會被你引誘的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			optionFlag = 2,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "指揮官，妳不用在意我的……",
+			say = "指揮官，你不用在意我的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也是女孩子，當然會在意這個啦，指揮官妳也注意一下比較好哦。",
+			say = "我也是女孩子，當然會在意這個啦，指揮官你也注意一下比較好哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -76,7 +76,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "這份資料放在這裡可以嗎？……嗯，聽從妳的命令。",
+			say = "這份資料放在這裡可以嗎？……嗯，聽從你的命令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "指揮官，我來提交報告書了，請妳查收。",
+			say = "指揮官，我來提交報告書了，請你查收。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

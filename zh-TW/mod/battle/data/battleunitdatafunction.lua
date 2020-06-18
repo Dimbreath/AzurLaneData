@@ -337,7 +337,7 @@ function slot25.GetArenaBuffByShipType(slot0)
 end
 
 function slot25.GetPlayerUnitDurabilityExtraAddition(slot0, slot1)
-	if slot0 == SYSTEM_DUEL or slot0 == SYSTEM_SHAM then
+	if slot0 == SYSTEM_DUEL then
 		return uv0[slot1].arena_durability_ratio, uv0[slot1].arena_durability_add
 	else
 		return 1, 0

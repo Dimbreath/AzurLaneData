@@ -203,7 +203,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "厌战，铁血海军是不会像皇家投降的。",
+			say = "厌战，铁血海军是不会向皇家投降的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

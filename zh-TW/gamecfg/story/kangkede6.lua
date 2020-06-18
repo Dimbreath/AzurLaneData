@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
-			say = "今天的話，還是準備給妳更大的驚喜~",
+			say = "今天的話，還是準備給你更大的驚喜~",
 			flashout = {
 				dur = 0.5,
 				black = true,

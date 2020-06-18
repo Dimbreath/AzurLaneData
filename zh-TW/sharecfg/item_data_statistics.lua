@@ -1098,6 +1098,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[1006] = {
+		display = "{namecode:79}的鈴鐺。收集足夠的數量的話……",
+		rarity = 4,
+		type = 1,
+		drop_oil_max = 0,
+		name = "{namecode:79}的鈴鐺",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 1006,
+		icon = "props/lingdang",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[1008] = {
 		display = "Z代表著好運、必勝和正義，在Z的旗幟下，吾等將無往不利！",
 		rarity = 5,
@@ -59892,6 +59910,7 @@ pg.item_data_statistics = {
 		1001,
 		1004,
 		1005,
+		1006,
 		1008,
 		10000,
 		10001,

@@ -44,7 +44,6 @@ function slot0.execute(slot0, slot1)
 	LevelMediator2.prevRefreshBossTimeTime = nil
 	ActivityMainScene.FetchReturnersTime = nil
 	ActivityMainScene.Data2Time = nil
-	InvestigationLayer.Caches = {}
 
 	pg.SeriesGuideMgr.GetInstance():dispose()
 	pg.GuideMgr.GetInstance():endGuider()

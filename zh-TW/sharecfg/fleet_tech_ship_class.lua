@@ -1027,7 +1027,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			30311,
 			30312,
-			30313
+			30313,
+			30314
 		}
 	},
 	[30305] = {
@@ -1110,6 +1111,18 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			39902
+		}
+	},
+	[30601] = {
+		shiptype = 6,
+		name = "飛鷹級",
+		t_level = 4,
+		id = 30601,
+		t_level_1 = 100,
+		nation = 3,
+		ships = {
+			30601,
+			30602
 		}
 	},
 	[30602] = {
@@ -1592,6 +1605,7 @@ pg.fleet_tech_ship_class = {
 		30503,
 		30505,
 		30506,
+		30601,
 		30602,
 		30603,
 		30701,

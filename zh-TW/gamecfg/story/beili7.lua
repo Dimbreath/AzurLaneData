@@ -24,7 +24,7 @@ return {
 			bgm = "story-2",
 			actor = 101270,
 			nameColor = "#a9f548",
-			say = "唔……指揮官，貝利覺得妳對貝利有一些誤解哦？",
+			say = "唔……指揮官，貝利覺得你對貝利有一些誤解哦？",
 			flashout = {
 				dur = 1,
 				black = true,

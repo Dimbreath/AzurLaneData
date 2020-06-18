@@ -119,7 +119,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊哈，指揮官，妳知道嗎，我和愛丁堡可是同樣在大戰中運輸過黃金的同伴呢～",
+			say = "啊哈，指揮官，你知道嗎，我和愛丁堡可是同樣在大戰中運輸過黃金的同伴呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

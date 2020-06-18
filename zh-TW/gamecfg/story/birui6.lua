@@ -334,7 +334,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…指揮官、{namecode:71}，妳們慢慢聊——",
+			say = "唔…指揮官、{namecode:71}，你們慢慢聊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

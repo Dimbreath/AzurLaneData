@@ -8616,9 +8616,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
-		order = 510,
+		order = 1700,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -12730,6 +12730,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70299] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：阿贺野常服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 180,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70299,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			302202
+		},
+		time = {
+			{
+				{
+					2020,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70303] = {
 		group_type = 0,
 		resource_num = 900,
@@ -12868,6 +12917,55 @@ pg.shop_template = {
 					2020,
 					5,
 					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70318] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：哥伦比亚情人节",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 180,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70318,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			102101
+		},
+		time = {
+			{
+				{
+					2020,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					24
 				},
 				{
 					23,
@@ -13697,9 +13795,11 @@ pg.shop_template = {
 		70294,
 		70296,
 		70298,
+		70299,
 		70303,
 		70312,
 		70314,
+		70318,
 		70319,
 		100001,
 		100002,

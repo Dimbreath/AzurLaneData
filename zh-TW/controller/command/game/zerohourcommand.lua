@@ -30,7 +30,6 @@ function slot0.execute(slot0, slot1)
 	slot10 = getProxy(ChapterProxy)
 
 	slot10:resetRepairTimes()
-	slot10:resetShamChapter()
 	slot10:resetEscortChallengeTimes()
 
 	for slot15, slot16 in pairs(slot10:getData()) do
@@ -43,14 +42,7 @@ function slot0.execute(slot0, slot1)
 
 	getProxy(DailyLevelProxy):clearChaptersDefeatCount()
 
-	if pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").day == 1 and not ChapterConst.ActivateMirror then
-		slot14 = slot10:getShamChapter()
-		slot14.simId = slot12.month
-
-		slot10:updateShamChapter(slot14)
-	end
-
-	if slot12.day == 1 then
+	if pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").day == 1 then
 		slot4.shamShop:update(slot12.month, {})
 		slot4:AddShamShop(slot4.shamShop)
 		slot4.fragmentShop:update(slot12.month, {})
@@ -124,15 +116,18 @@ function slot0.execute(slot0, slot1)
 		slot18:updateGuild(slot19)
 	end
 
+	slot20 = getProxy(NavalAcademyProxy)
+
+	slot20:setCourse(slot20.course)
 	slot0:sendNotification(GAME.CLASS_FORCE_UPDATE)
 	getProxy(TechnologyProxy):updateRefreshFlag(0)
 	PlayerPrefs.SetInt("stop_remind_operation", 0)
 	PlayerPrefs.Save()
 
-	slot21 = getProxy(TaskProxy)
-	slot22 = getProxy(ActivityProxy)
+	slot22 = getProxy(TaskProxy)
+	slot23 = getProxy(ActivityProxy)
 
-	_.each(slot22:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST), function (slot0)
+	_.each(slot23:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST), function (slot0)
 		if slot0 and not slot0:isEnd() and slot0:getConfig("config_id") == 3 then
 			slot1 = slot0:getConfig("config_data")
 
@@ -152,14 +147,8 @@ function slot0.execute(slot0, slot1)
 	end)
 	getProxy(CommanderProxy):resetBoxUseCnt()
 
-	if slot22:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE) and not slot24:isEnd() then
-		slot24.data1KeyValueList = {}
-
-		slot22:updateActivity(slot24)
-	end
-
-	if slot22:getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY) and not slot25:isEnd() then
-		slot22:updateActivity(slot25)
+	if slot23:getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY) and not slot25:isEnd() then
+		slot23:updateActivity(slot25)
 	end
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) and not slot26:isEnd() then
@@ -170,7 +159,7 @@ function slot0.execute(slot0, slot1)
 		type = MiniGameRequestCommand.REQUEST_HUB_DATA
 	})
 
-	if slot22:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot27:isEnd() then
+	if slot23:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot27:isEnd() then
 		slot28 = slot27.data1KeyValueList[1]
 
 		if pg.activity_event_worldboss[slot27:getConfig("config_id")] then
@@ -181,7 +170,7 @@ function slot0.execute(slot0, slot1)
 			end
 		end
 
-		slot22:updateActivity(slot27)
+		slot23:updateActivity(slot27)
 	end
 end
 

@@ -59,7 +59,7 @@ function slot0.OnInit(slot0)
 		uv0:OnSearchKeyChange()
 	end)
 
-	slot0.orderMode = BackYardDecorationFilterPanel.ORDER_MODE_ASC
+	slot0.orderMode = BackYardDecorationFilterPanel.ORDER_MODE_DASC
 
 	onToggle(slot0, slot0.orderBtn, function (slot0)
 		uv0.orderMode = slot0 and BackYardDecorationFilterPanel.ORDER_MODE_ASC or BackYardDecorationFilterPanel.ORDER_MODE_DASC

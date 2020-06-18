@@ -2,16 +2,26 @@ slot0 = class("ServerNoticeProxy", import(".NetProxy"))
 slot0.SERVER_NOTICES_UPDATE = "server notices update"
 slot0.KEY_NEWLY_ID = "server_notice.newly_id"
 slot0.KEY_STOP_REMIND = "server_notice.stop_remind"
-slot0.KEY_STOP_TIP = "server_notice.stop_tip"
 
 function slot0.register(slot0)
 	slot0.data = {}
 
 	slot0:on(11300, function (slot0)
-		uv0.data = {}
-
 		for slot4, slot5 in ipairs(slot0.notice_list) do
-			table.insert(uv0.data, ServerNotice.New(slot5))
+			slot6 = false
+
+			for slot10 = 1, #uv0.data do
+				if uv0.data[slot10].id == slot5.id then
+					uv0.data[slot10] = ServerNotice.New(slot5)
+					slot6 = true
+
+					break
+				end
+			end
+
+			if not slot6 then
+				table.insert(uv0.data, ServerNotice.New(slot5))
+			end
 		end
 
 		uv0:sendNotification(uv1.SERVER_NOTICES_UPDATE)
@@ -30,15 +40,21 @@ function slot0.getServerNotices(slot0, slot1)
 	return slot2
 end
 
-function slot0.getStopRemind(slot0)
-	slot1 = false
+function slot0.needAutoOpen(slot0)
+	slot1 = true
 
 	if PlayerPrefs.HasKey(uv0.KEY_STOP_REMIND) then
-		slot4 = pg.TimeMgr.GetInstance()
+		slot3 = pg.TimeMgr.GetInstance()
 
-		if PlayerPrefs.GetInt(uv0.KEY_NEWLY_ID) == slot0:getUniqueCode() and slot4:IsSameDay(PlayerPrefs.GetInt(uv0.KEY_STOP_REMIND), slot4:GetServerTime()) then
-			slot1 = true
+		if not slot0:hasNewNotice() and slot3:IsSameDay(PlayerPrefs.GetInt(uv0.KEY_STOP_REMIND), slot3:GetServerTime()) then
+			slot1 = false
 		end
+	else
+		if slot0.runtimeUniqueCode and slot0.runtimeUniqueCode == slot0:getUniqueCode() then
+			return false
+		end
+
+		slot0.runtimeUniqueCode = slot0:getUniqueCode()
 	end
 
 	return slot1
@@ -46,7 +62,6 @@ end
 
 function slot0.setStopRemind(slot0, slot1)
 	if slot1 then
-		PlayerPrefs.SetInt(uv0.KEY_NEWLY_ID, slot0:getUniqueCode())
 		PlayerPrefs.SetInt(uv0.KEY_STOP_REMIND, pg.TimeMgr.GetInstance():GetServerTime())
 	else
 		PlayerPrefs.DeleteKey(uv0.KEY_STOP_REMIND)
@@ -55,17 +70,30 @@ function slot0.setStopRemind(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
-function slot0.setStopMainTip(slot0)
-	PlayerPrefs.SetInt(uv0.KEY_STOP_TIP, slot0:getUniqueCode())
-	PlayerPrefs.Save()
-end
+function slot0.getStopRemind(slot0)
+	if PlayerPrefs.HasKey(uv0.KEY_STOP_REMIND) then
+		slot2 = pg.TimeMgr.GetInstance()
 
-function slot0.isStopMainTip(slot0)
-	if PlayerPrefs.HasKey(uv0.KEY_STOP_TIP) and PlayerPrefs.GetInt(uv0.KEY_STOP_TIP) == slot0:getUniqueCode() then
-		return true
+		if slot2:IsSameDay(PlayerPrefs.GetInt(uv0.KEY_STOP_REMIND), slot2:GetServerTime()) then
+			return true
+		end
 	end
 
 	return false
+end
+
+function slot0.setStopNewTip(slot0)
+	PlayerPrefs.SetInt(uv0.KEY_NEWLY_ID, slot0:getUniqueCode())
+	PlayerPrefs.Save()
+	slot0:sendNotification(uv0.SERVER_NOTICES_UPDATE)
+end
+
+function slot0.hasNewNotice(slot0)
+	if PlayerPrefs.HasKey(uv0.KEY_NEWLY_ID) and PlayerPrefs.GetInt(uv0.KEY_NEWLY_ID) == slot0:getUniqueCode() then
+		return false
+	end
+
+	return true
 end
 
 function slot0.getUniqueCode(slot0)

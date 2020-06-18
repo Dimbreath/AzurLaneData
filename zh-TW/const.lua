@@ -290,3 +290,4 @@ ADAPT_MIN = 1.8
 ADAPT_TARGET = 2
 ADAPT_NOTICE = 1.8
 LOCK_FRAGMENT_SHOP = true
+isOpenNewCheck = false

@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "呵呵，看看妳，一臉“就這麼回去好可惜”的表情，有沒有什麼想去的地方呢？",
+			say = "呵呵，看看你，一臉“就這麼回去好可惜”的表情，有沒有什麼想去的地方呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "嗯……我不是說了今天交給妳帶路的嗎？這樣是要扣分的哦。",
+			say = "嗯……我不是說了今天交給你帶路的嗎？這樣是要扣分的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "……說說而已，其實姐姐我倒是有點東西想看，妳不妨……陪陪我吧？",
+			say = "……說說而已，其實姐姐我倒是有點東西想看，你不妨……陪陪我吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 303120,
 			nameColor = "#a9f548",
-			say = "門票，拿好。抱歉啊，讓妳陪著我到處跑。",
+			say = "門票，拿好。抱歉啊，讓你陪著我到處跑。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -255,7 +255,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "實在不行的話，中途退場也可以啊。本來就是我硬拉妳來的……",
+			say = "實在不行的話，中途退場也可以啊。本來就是我硬拉你來的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "妳可不要像{namecode:66}那樣逞能哦。有什麼事就和姐姐說知道嗎？",
+			say = "你可不要像{namecode:66}那樣逞能哦。有什麼事就和姐姐說知道嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

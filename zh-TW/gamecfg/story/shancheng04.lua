@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日攻势\n\n<size=45>四 遗失的礼物·下</size>",
+					"冬日攻勢\n\n<size=45>四 遺失的禮物·下</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "呜呜…到底哪里去了…",
+			say = "嗚嗚…到底哪裡去了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			say = "嗯？妳在找什么呢？翻箱倒柜的",
+			say = "嗯？妳在找什麼呢？翻箱倒櫃的",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "呜呜…指挥官送的泳装…找不到了啦……",
+			say = "嗚嗚…指揮官送的泳裝…找不到了啦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "唉，傻瓜，不是妳说的是指挥官送的非常重要的东西，所以就特意另外找了个柜子收起来了吗？",
+			say = "唉，傻瓜，不是妳說的是指揮官送的非常重要的東西，所以就特地另外找了個櫃子收起來了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			nameColor = "#a9f548",
-			say = "这里，找到啦",
+			say = "這裡，找到啦",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			say = "哇！谢谢姐姐呜呜…",
+			say = "哇！謝謝姐姐嗚嗚…",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -158,7 +158,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "怎么突然想起找泳装了…该不会…",
+			say = "怎麼突然想起找泳裝了…該不會…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "之前出门遇到了{namecode:77}她们，总觉得作为重樱的一员…不能这么堕落下去了",
+			say = "之前出門遇到了{namecode:77}她們，總覺得作為重櫻的一員…不能這麼墮落下去了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "哎呀呀，{namecode:79}真是个好孩子呢～",
+			say = "哎呀呀，{namecode:79}真是個好孩子呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "不如去问问指挥官要不要一起锻炼？",
+			say = "不如去問問指揮官要不要一起鍛煉？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "姐、姐姐！又开我玩笑…而且指挥官那么忙…怎么会有时间……",
+			say = "姐、姐姐！又開我玩笑…而且指揮官那麼忙…怎麼會有時間……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

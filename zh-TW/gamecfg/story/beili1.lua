@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 101270,
 			nameColor = "#a9f548",
-			say = "指揮官今天有精神嗎~讓貝利來給妳點兔兔能量吧！",
+			say = "指揮官今天有精神嗎~讓貝利來給你點兔兔能量吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actor = 101270,
 			nameColor = "#a9f548",
-			say = "嘿嘿，告訴貝利，讓貝利用兔兔星的智慧幫妳解決煩惱吧！",
+			say = "嘿嘿，告訴貝利，讓貝利用兔兔星的智慧幫你解決煩惱吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -72,20 +72,15 @@ function slot0.preload(slot0, slot1)
 
 	slot3 = slot3 + 1
 	slot8 = getProxy(ChapterProxy):getMaps()
-	slot9 = slot0.contextData.mapIdx
-	slot10 = slot0.contextData.chapterId
+	slot11 = slot0.contextData.chapterVO
 
-	if (slot0.contextData.chapterVO and slot11:getDataType() or ChapterConst.TypeNone) == ChapterConst.TypeSham then
-		slot0.contextData.chapterVO = slot7:getShamChapter()
-	elseif slot12 == ChapterConst.TypeGuild then
-		slot0.contextData.chapterVO = slot7:getGuildChapter()
-	elseif slot12 == ChapterConst.TypeNone and slot10 and slot8[slot9] then
-		slot0.contextData.chapterVO = slot13:getChapter(slot10)
+	if slot0.contextData.chapterId and slot8[slot0.contextData.mapIdx] then
+		slot0.contextData.chapterVO = slot12:getChapter(slot10)
 	end
 
 	slot0:setMaps(slot8)
 
-	slot14 = function ()
+	slot13 = function ()
 		uv0 = uv1.contextData.chapterVO
 
 		if uv0 and uv0.active then
@@ -106,9 +101,9 @@ function slot0.preload(slot0, slot1)
 
 		return slot0 or uv1:selectMap(uv3)
 	end()
-	slot0.contextData.InitializeMap = slot14
+	slot0.contextData.InitializeMap = slot13
 
-	GetSpriteFromAtlasAsync("levelmap/" .. slot8[slot14]:getConfig("bg"), "", slot4)
+	GetSpriteFromAtlasAsync("levelmap/" .. slot8[slot13]:getConfig("bg"), "", slot4)
 end
 
 function slot0.init(slot0)
@@ -120,7 +115,6 @@ end
 
 function slot0.initData(slot0)
 	slot0.tweens = {}
-	slot0.mapItemTimer = {}
 	slot0.mapWidth = 1920
 	slot0.mapHeight = 1440
 	slot0.levelCamIndices = 1
@@ -181,8 +175,6 @@ function slot0.initUI(slot0)
 	slot0.challengeBtn = slot0:findTF("ChallengeBtn", slot0.eventContainer)
 	slot0.dailyBtn = slot0:findTF("daily_button", slot0.eventContainer)
 	slot0.militaryExerciseBtn = slot0:findTF("btn_pvp", slot0.eventContainer)
-	slot0.shamBtn = slot0:findTF("sham_button", slot0.eventContainer)
-	slot0.mirrorBtn = slot0:findTF("btn_mirror", slot0.eventContainer)
 	slot0.activityBtn = slot0:findTF("event_btns/activity_btn", slot0.rightChapter)
 	slot0.ptTotal = slot0:findTF("event_btns/pt_text", slot0.rightChapter)
 	slot0.ticketTxt = slot0:findTF("event_btns/tickets/Text", slot0.rightChapter)
@@ -257,22 +249,15 @@ function slot0.initUI(slot0)
 
 	slot0.resources = slot0:findTF("resources"):GetComponent("ItemList")
 	slot0.arrowTarget = slot0.resources.prefabItem[0]
-	slot0.bombEnemyTpl = slot0.resources.prefabItem[1]
-	slot0.boxTpl = slot0.resources.prefabItem[2]
 	slot0.championTpl = slot0.resources.prefabItem[3]
 	slot0.deadTpl = slot0.resources.prefabItem[4]
 	slot0.enemyTpl = slot0.resources.prefabItem[5]
 	slot0.oniTpl = slot0.resources.prefabItem[6]
-	slot0.rivalTpl = slot0.resources.prefabItem[7]
 	slot0.shipTpl = slot0.resources.prefabItem[8]
 	slot0.subTpl = slot0.resources.prefabItem[9]
-	slot0.supplyTpl = slot0.resources.prefabItem[10]
 	slot0.transportTpl = slot0.resources.prefabItem[11]
-	slot0.transportTargetTpl = slot0.resources.prefabItem[12]
 
 	setText(slot0:findTF("fighting/Text", slot0.enemyTpl), i18n("ui_word_levelui2_inevent"))
-	setActive(slot0.arrowTarget, false)
-	setActive(slot0.resources, false)
 	setAnchoredPosition(slot0.topChapter, {
 		y = 0
 	})
@@ -285,26 +270,6 @@ function slot0.initUI(slot0)
 
 	slot0.bubbleMsgBoxes = {}
 	slot0.loader = AutoLoader.New()
-end
-
-function slot0.addbubbleMsgBox(slot0, slot1, slot2)
-	if #slot0.bubbleMsgBoxes > 0 then
-		table.insert(slot0.bubbleMsgBoxes, slot1)
-	else
-		slot3 = nil
-
-		table.insert(slot0.bubbleMsgBoxes, slot1)
-		function ()
-			if uv0.bubbleMsgBoxes[1] then
-				slot0(function ()
-					table.remove(uv0.bubbleMsgBoxes, 1)
-					uv1()
-				end)
-			elseif uv2 then
-				uv2()
-			end
-		end()
-	end
 end
 
 function slot0.initEvents(slot0)
@@ -352,6 +317,26 @@ function slot0.initEvents(slot0)
 	end)
 end
 
+function slot0.addbubbleMsgBox(slot0, slot1, slot2)
+	if #slot0.bubbleMsgBoxes > 0 then
+		table.insert(slot0.bubbleMsgBoxes, slot1)
+	else
+		slot3 = nil
+
+		table.insert(slot0.bubbleMsgBoxes, slot1)
+		function ()
+			if uv0.bubbleMsgBoxes[1] then
+				slot0(function ()
+					table.remove(uv0.bubbleMsgBoxes, 1)
+					uv1()
+				end)
+			elseif uv2 then
+				uv2()
+			end
+		end()
+	end
+end
+
 function slot0.updateBattleActivitys(slot0, slot1)
 	slot0.battleActivitys = slot1
 end
@@ -386,14 +371,6 @@ function slot0.updateActivityRes(slot0)
 	if findTF(slot0.ptTotal, "Text") and slot2 and slot0.ptActivity then
 		setText(slot1, "x" .. slot0.ptActivity.data1)
 		GetImageSpriteFromAtlasAsync(pg.item_data_statistics[id2ItemId(tonumber(slot0.ptActivity:getConfig("config_id")))].icon, "", slot2, true)
-	end
-end
-
-function slot0.updateBossBattleAct(slot0, slot1)
-	slot0.bossBattleActivity = slot1
-
-	if slot0.activityBossBattlePanel then
-		slot0.activityBossBattlePanel:update(slot0.bossBattleActivity)
 	end
 end
 
@@ -459,19 +436,6 @@ function slot0.didEnter(slot0)
 
 		uv0:emit(LevelMediator2.ON_OPEN_MILITARYEXERCISE)
 	end, SFX_PANEL)
-	onButton(slot0, slot0.shamBtn, function ()
-		if uv0:isfrozen() then
-			return
-		end
-
-		slot0, slot1 = pg.SystemOpenMgr.GetInstance():isOpenSystem(uv0.player.level, "ShamPreCombatMediator")
-
-		if slot0 then
-			uv0:emit(LevelMediator2.ON_OPEN_SHAM)
-		else
-			pg.TipsMgr.GetInstance():ShowTips(slot1)
-		end
-	end, SFX_PANEL)
 	onButton(slot0, slot0.normalBtn:Find("bg"), function ()
 		if uv0:isfrozen() then
 			return
@@ -528,46 +492,34 @@ function slot0.didEnter(slot0)
 
 	setActive(slot0:findTF("lock", slot0.militaryExerciseBtn), not slot4)
 	setGray(slot0.militaryExerciseBtn, not slot4, true)
-
-	slot7 = not ChapterConst.ActivateMirror and getProxy(ChapterProxy):getShamChapter():isOpen()
-
-	setActive(slot0.shamBtn, slot7)
-
-	if slot7 then
-		setText(slot0:findTF("day", slot0.shamBtn), slot6:getRestDays())
-	end
-
-	slot8 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "ShamPreCombatMediator")
-
-	setActive(slot0:findTF("lock", slot0.shamBtn), not slot8)
-	setGray(slot0.shamBtn, not slot8, true)
 	slot0:initMapBtn(slot0.btnPrev, -1)
 	slot0:initMapBtn(slot0.btnNext, 1)
+
+	for slot10, slot11 in ipairs(getProxy(ContextProxy):getContextByMediator(LevelMediator2).children) do
+		slot0.levelCamIndices = slot0.levelCamIndices + 1
+
+		function slot11.onRemoved()
+			uv0:onSubLayerClose()
+		end
+	end
+
 	slot0:emit(LevelMediator2.ON_EVENT_LIST_UPDATE)
 
 	if slot0.contextData.editEliteChapter then
 		slot0:displayFleetEdit(slot0.contextData.editEliteChapter)
 
 		slot0.contextData.editEliteChapter = nil
-	end
+	elseif slot0.contextData.selectedChapterVO then
+		slot0:displayFleetSelect(slot0.contextData.selectedChapterVO)
 
-	for slot14, slot15 in ipairs(getProxy(ContextProxy):getContextByMediator(LevelMediator2).children) do
-		slot0.levelCamIndices = slot0.levelCamIndices + 1
-
-		function slot15.onRemoved()
-			uv0:onSubLayerClose()
-		end
+		slot0.contextData.selectedChapterVO = nil
 	end
 
 	if not slot0.contextData.isSwitchToChapter then
 		slot0:tryPlaySubGuide()
 	end
 
-	if slot0.contextData.selectedChapterVO then
-		slot0:displayFleetSelect(slot0.contextData.selectedChapterVO)
-	end
-
-	if slot5:ifShowRemasterTip() then
+	if getProxy(ChapterProxy):ifShowRemasterTip() then
 		SetActive(slot0.remasterTipTF, true)
 	else
 		SetActive(slot0.remasterTipTF, false)
@@ -589,7 +541,11 @@ function slot0.tryPlaySubGuide(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	if slot0:isfrozen() or slot0.levelAmbushView and slot0.levelAmbushView:CheckState(BaseSubView.STATES.INITED) then
+	if slot0:isfrozen() then
+		return
+	end
+
+	if slot0.levelAmbushView then
 		return
 	end
 
@@ -601,31 +557,31 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	if slot0.levelFleetView and slot0.levelFleetView:CheckState(BaseSubView.STATES.INITED) then
+	if slot0.levelFleetView then
 		slot0:hideFleetEdit()
 
 		return
 	end
 
-	if slot0.levelSignalView and slot0.levelSignalView:CheckState(BaseSubView.STATES.INITED) then
+	if slot0.levelSignalView then
 		slot0:hideSignalPanel()
 
 		return
 	end
 
-	if slot0.levelStrategyView and slot0.levelStrategyView:CheckState(BaseSubView.STATES.INITED) then
+	if slot0.levelStrategyView then
 		slot0:hideStrategyInfo()
 
 		return
 	end
 
-	if slot0.levelRepairView and slot0.levelRepairView:CheckState(BaseSubView.STATES.INITED) then
+	if slot0.levelRepairView then
 		slot0:hideRepairWindow()
 
 		return
 	end
 
-	if slot0.levelRemasterView and slot0.levelRemasterView:CheckState(BaseSubView.STATES.INITED) then
+	if slot0.levelRemasterView then
 		slot0:hideRemasterPanel()
 
 		return
@@ -637,7 +593,7 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	if slot0.contextData.chapterVO and getProxy(ChapterProxy):getActiveChapter() and slot1:getDataType() ~= ChapterConst.TypeGuild then
+	if slot0.contextData.chapterVO and getProxy(ChapterProxy):getActiveChapter() then
 		slot0:switchToMap()
 
 		return
@@ -666,10 +622,6 @@ function slot0.setMaps(slot0, slot1)
 	slot0.maps = slot1
 end
 
-function slot0.setShipGroups(slot0, slot1)
-	slot0.shipGroups = slot1
-end
-
 function slot0.setShips(slot0, slot1)
 	slot0.shipVOs = slot1
 end
@@ -677,8 +629,8 @@ end
 function slot0.updateRes(slot0, slot1)
 	slot0.resPanel:setResources(slot1)
 
-	if slot0.levelStageView and slot0.levelStageView:CheckState(BaseSubView.STATES.INITED) then
-		slot0.levelStageView:SetPlayer(slot1)
+	if slot0.levelStageView then
+		slot0.levelStageView:ActionInvoke("SetPlayer", slot1)
 	end
 
 	slot0.player = slot1
@@ -716,62 +668,60 @@ function slot0.updateFleet(slot0, slot1)
 end
 
 function slot0.updateChapterVO(slot0, slot1, slot2)
-	if slot1:getDataType() == ChapterConst.TypeNone then
-		slot4 = slot1:getConfig("map")
-		slot5 = slot0.maps[slot4]
+	slot3 = slot1:getConfig("map")
+	slot4 = slot0.maps[slot3]
 
-		slot5:updateChapter(slot1)
-		slot5:updateChapters(slot0.maps[slot4 - 1])
+	slot4:updateChapter(slot1)
+	slot4:updateChapters(slot0.maps[slot3 - 1])
 
-		if not slot0.contextData.chapterVO then
-			if slot0.contextData.mapIdx == slot4 then
-				slot0:updateMapItems()
-			end
+	if not slot0.contextData.chapterVO then
+		if slot0.contextData.mapIdx == slot3 then
+			slot0:updateMapItems()
+		end
 
-			if slot0.levelSignalView and slot0.levelSignalView:CheckState(BaseSubView.STATES.INITED) then
-				slot0.levelSignalView:ActionInvoke("flush")
-			end
+		if slot0.levelSignalView then
+			slot0.levelSignalView:ActionInvoke("flush")
 		end
 	end
 
-	if slot0.contextData.chapterVO and slot0.contextData.chapterVO:getDataType() == slot3 and slot0.contextData.chapterVO.id == slot1.id and slot1.active then
+	if slot0.contextData.chapterVO and slot0.contextData.chapterVO.id == slot1.id and slot1.active then
 		slot0:setChapter(slot1)
 
-		slot4 = false
-		slot5 = false
 		slot6 = false
+		slot7 = false
+		slot8 = false
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyFleet) > 0 then
 			slot0.levelStageView:updateStageFleet()
 			slot0.levelStageView:updateAmbushRate(slot1.fleet.line, true)
 
-			slot6 = true
+			slot8 = true
 
 			if slot0.grid then
 				slot0.grid:RefreshFleetCells()
 
-				slot4 = true
+				slot6 = true
 			end
 		end
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyChampion) > 0 then
-			slot6 = true
+			slot8 = true
 
 			if slot0.grid then
 				slot0.grid:updateFleets()
 				slot0.grid:clearChampions()
 				slot0.grid:initChampions()
 
-				slot5 = true
+				slot7 = true
 			end
 		elseif bit.band(slot2, ChapterConst.DirtyChampionPosition) > 0 then
-			slot6 = true
+			slot8 = true
 
 			if slot0.grid then
 				slot0.grid:updateFleets()
 				slot0.grid:updateChampions()
 
-				slot5 = true
+				slot7 = true
 			end
 		end
 
@@ -781,10 +731,6 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyAttachment) > 0 then
 			slot0.levelStageView:updateAmbushRate(slot1.fleet.line, true)
-
-			if slot3 == ChapterConst.TypeSham then
-				slot0.levelStageView:updateShamProgress()
-			end
 
 			if slot0.grid then
 				if slot2 >= 0 and bit.band(slot2, ChapterConst.DirtyFleet) <= 0 then
@@ -796,7 +742,7 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 				if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyAutoAction) > 0 then
 					slot0.grid:updateQuadCells(ChapterConst.QuadStateNormal)
 				else
-					slot4 = true
+					slot6 = true
 				end
 			end
 		end
@@ -804,16 +750,16 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyStrategy) > 0 then
 			slot0.levelStageView:updateStageStrategy()
 
-			slot6 = true
+			slot8 = true
 
 			slot0.levelStageView:updateStageBarrier()
 		end
 
 		if slot2 < 0 or bit.band(slot2, ChapterConst.DirtyAutoAction) > 0 then
 			slot0.levelStageView:tryAutoAction()
-		elseif slot4 then
+		elseif slot6 then
 			slot0.grid:updateQuadCells(ChapterConst.QuadStateNormal)
-		elseif slot5 then
+		elseif slot7 then
 			slot0.grid:updateQuadCells(ChapterConst.QuadStateFrozen)
 		end
 
@@ -825,7 +771,7 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 			slot0.levelStageView:UpdateDefenseStatus()
 		end
 
-		if slot6 then
+		if slot8 then
 			slot0.levelStageView:updateFleetBuff()
 		end
 	end
@@ -943,8 +889,8 @@ function slot0.updateActivityBtns(slot0)
 	slot8 = false
 	slot10 = nil
 
-	if ActivityLevelConst.hasExtraMap(slot0.maps) then
-		slot8 = _.any(slot0.battleActivitys or {}, function (slot0)
+	if ActivityLevelConst.hasExtraMap(slot0.maps) and slot0.battleActivitys then
+		slot8 = _.any(slot0.battleActivitys, function (slot0)
 			if slot0.id == uv0:getConfig("on_activity") then
 				uv1 = slot0:getConfig("type")
 			end
@@ -979,7 +925,6 @@ function slot0.updateActivityBtns(slot0)
 	setActive(slot0.ptTotal, slot1 and not slot2 and slot16 and not ActivityConst.HIDE_PT_PANELS and slot0.ptActivity and not slot0.ptActivity:isEnd())
 	setActive(slot0.actExchangeShopBtn, slot1 and not slot2 and slot16 and not ActivityConst.HIDE_PT_PANELS and slot5)
 	setActive(slot0.eventContainer, (not slot1 or not slot16) and not slot3)
-	setActive(slot0.mirrorBtn, false)
 
 	if slot8 and slot1 and not slot11 and (slot12 and slot15 or not slot12 and slot14) then
 		setActive(slot0.actExtraBtnAnim, true)
@@ -992,12 +937,6 @@ function slot0.updateActivityBtns(slot0)
 
 	if slot1 and not slot11 then
 		Map.lastMapForActivity = slot0.contextData.mapIdx
-	end
-end
-
-function slot0.updateBossBattleMsg(slot0, slot1)
-	if slot0.activityBossBattlePanel then
-		slot0.activityBossBattlePanel:updateMsg(slot1)
 	end
 end
 
@@ -1094,19 +1033,6 @@ function slot0.registerActBtn(slot0)
 		end
 
 		uv0:emit(LevelMediator2.GO_ACT_SHOP)
-	end, SFX_UI_CLICK)
-	onButton(slot0, slot0.mirrorBtn, function ()
-		if uv0:isfrozen() then
-			return
-		end
-
-		slot0, slot1 = pg.SystemOpenMgr.GetInstance():isOpenSystem(uv0.player.level, "ShamPreCombatMediator")
-
-		if slot0 then
-			uv0:emit(LevelMediator2.ON_OPEN_SHAM)
-		else
-			pg.TipsMgr.GetInstance():ShowTips(slot1)
-		end
 	end, SFX_UI_CLICK)
 
 	function slot1()
@@ -1463,7 +1389,11 @@ function slot0.displaySignalPanel(slot0)
 end
 
 function slot0.hideSignalPanel(slot0)
-	slot0.levelSignalView:Destroy()
+	if slot0.levelSignalView then
+		slot0.levelSignalView:Destroy()
+
+		slot0.levelSignalView = nil
+	end
 end
 
 function slot0.displaySpResult(slot0, slot1, slot2)
@@ -1488,16 +1418,12 @@ function slot0.displayBombResult(slot0, slot1)
 		onButton(uv0, slot0, function ()
 			removeOnButton(uv0)
 			setActive(uv0, false)
-			uv1:hideBombResult()
+			uv1:hideSpResult()
 			uv2()
 		end, SFX_PANEL)
 	end, function (slot0)
 		setText(slot0.transform:Find("right/name_bg/en"), uv0.contextData.chapterVO.modelCount)
 	end)
-end
-
-function slot0.hideBombResult(slot0)
-	setActive(slot0.spResult, false)
 end
 
 function slot0.displayChapterPanel(slot0, slot1, slot2)
@@ -1647,21 +1573,27 @@ function slot0.displayFleetSelect(slot0, slot1, slot2)
 end
 
 function slot0.updateFleetSelect(slot0)
-	if slot0.levelFleetView and slot0.levelFleetView:GetLoaded() then
+	if slot0.levelFleetView then
 		slot0.levelFleetView:ActionInvoke("set", slot0.levelFleetView.chapter, slot0.fleets, slot0.levelFleetView.selects)
 
-		if slot0.levelCMDFormationView and slot0.levelCMDFormationView:GetLoaded() and slot0.fleets[slot0.levelCMDFormationView.fleet.id] then
+		if slot0.levelCMDFormationView and slot0.fleets[slot0.levelCMDFormationView.fleet.id] then
 			slot0.levelCMDFormationView:ActionInvoke("updateFleet", slot2)
 		end
 	end
 end
 
 function slot0.hideFleetSelect(slot0)
-	if slot0.levelCMDFormationView and slot0.levelCMDFormationView._state ~= 5 then
+	if slot0.levelCMDFormationView then
 		slot0.levelCMDFormationView:Destroy()
+
+		slot0.levelCMDFormationView = nil
 	end
 
-	slot0.levelFleetView:Destroy()
+	if slot0.levelFleetView then
+		slot0.levelFleetView:Destroy()
+
+		slot0.levelFleetView = nil
+	end
 end
 
 function slot0.displayFleetEdit(slot0, slot1)
@@ -1677,7 +1609,7 @@ function slot0.displayFleetEdit(slot0, slot1)
 end
 
 function slot0.updateFleetEdit(slot0, slot1, slot2)
-	if slot0.levelFleetView and slot0.levelFleetView:GetLoaded() then
+	if slot0.levelFleetView then
 		slot3 = slot0.contextData.map
 
 		if slot1 and slot0.levelFleetView.chapter.id == slot1.id then
@@ -1695,13 +1627,7 @@ function slot0.hideFleetEdit(slot0, slot1)
 		slot0:emit(LevelMediator2.ON_UPDATE_CUSTOM_FLEET, slot1.id)
 	end
 
-	if slot0.levelCMDFormationView and slot0.levelCMDFormationView._state ~= 5 then
-		slot0.levelCMDFormationView:Destroy()
-	end
-
-	if slot0.levelFleetView and slot0.levelFleetView._state ~= 5 then
-		slot0.levelFleetView:Destroy()
-	end
+	slot0:hideFleetSelect()
 end
 
 function slot0.isCrossStoryLimit(slot0, slot1)
@@ -1780,25 +1706,11 @@ function slot0.trackChapter(slot0, slot1, slot2)
 end
 
 function slot0.setChapter(slot0, slot1)
-	slot2 = nil
-
-	if slot1 then
-		if slot1:getDataType() == ChapterConst.TypeNone then
-			slot1 = slot0.maps[slot0.contextData.mapIdx]:getChapter(slot1.id)
-		end
-	end
-
-	slot0.contextData.chapterId = slot2
-	slot0.contextData.chapterVO = slot1
+	slot0.contextData.chapterId = nil
+	slot0.contextData.chapterVO = slot1 and slot0.maps[slot0.contextData.mapIdx]:getChapter(slot1.id)
 end
 
 function slot0.switchToChapter(slot0, slot1, slot2)
-	slot4 = slot0.contextData.map:getConfig("type")
-
-	if slot1:getDataType() == ChapterConst.TypeSham and slot4 ~= Map.SHAM or slot3 == ChapterConst.TypeGuild and slot4 ~= Map.GUILD_BOSS then
-		slot0.contextData.chapterMapIdx = slot0.contextData.mapIdx
-	end
-
 	if slot0.contextData.mapIdx ~= slot1:getConfig("map") then
 		slot0:setMap(slot1:getConfig("map"))
 	end
@@ -1836,11 +1748,6 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 				uv0.levelStageView:updateStageBarrier()
 				uv0.levelStageView:updateBombPanel()
 				uv0.levelStageView:UpdateDefenseStatus()
-
-				if uv2 == ChapterConst.TypeSham then
-					uv0.levelStageView:updateShamProgress()
-				end
-
 				onNextTick(slot0)
 			end,
 			function (slot0)
@@ -1861,7 +1768,7 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 				function slot2()
 					uv0.count = uv0.count + 1
 
-					if uv0.amount <= uv0.count then
+					if uv0.count == uv0.amount then
 						onNextTick(uv1)
 					end
 				end
@@ -1935,16 +1842,10 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 end
 
 function slot0.switchToMap(slot0)
-	slot2 = ChapterConst.TypeNone
-
-	if slot0.contextData.chapterVO then
-		slot2 = slot1:getDataType()
-	end
-
-	slot3 = getProxy(ChapterProxy)
+	slot2 = getProxy(ChapterProxy)
 
 	if not LOCK_SOS then
-		if slot1:getMapType() == Map.ESCORT and OPEN_ESCORT and (#slot3.escortMaps == 0 or _.any(slot4, function (slot0)
+		if slot0.contextData.chapterVO:getMapType() == Map.ESCORT and OPEN_ESCORT and (#slot2.escortMaps == 0 or _.any(slot3, function (slot0)
 			return slot0:shouldFetch()
 		end)) then
 			slot0:emit(LevelMediator2.ON_FETCH_ESCORT)
@@ -1952,7 +1853,7 @@ function slot0.switchToMap(slot0)
 			return
 		end
 
-		if not LOCK_SUBMARINE and slot3.subNextReqTime < pg.TimeMgr.GetInstance():GetServerTime() then
+		if not LOCK_SUBMARINE and slot2.subNextReqTime < pg.TimeMgr.GetInstance():GetServerTime() then
 			slot0:emit(LevelMediator2.ON_FETCH_SUB_CHAPTER)
 
 			return
@@ -1968,13 +1869,13 @@ function slot0.switchToMap(slot0)
 		uv0:unfrozen()
 	end)):setEase(LeanTweenType.easeOutSine).uniqueId)
 
-	slot6 = LeanTween.value(go(slot0.map), slot0.map.pivot, slot0.lastRecordPivot or Vector2.zero, uv0)
+	slot5 = LeanTween.value(go(slot0.map), slot0.map.pivot, slot0.lastRecordPivot or Vector2.zero, uv0)
 
-	slot6:setOnUpdateVector2(function (slot0)
+	slot5:setOnUpdateVector2(function (slot0)
 		uv0.map.pivot = slot0
 		uv0.float.pivot = slot0
 	end):setEase(LeanTweenType.easeOutSine)
-	slot0:RecordTween("mapPivot", slot6.uniqueId)
+	slot0:RecordTween("mapPivot", slot5.uniqueId)
 	setActive(slot0.topChapter, true)
 	setActive(slot0.leftChapter, true)
 	setActive(slot0.rightChapter, true)
@@ -1992,8 +1893,8 @@ function slot0.switchToMap(slot0)
 
 	slot0:SwitchBG(slot0.contextData.map:getConfig("bg"))
 
-	if slot0.contextData.map:getConfig("bgm") and #slot8 > 0 then
-		playBGM(slot8)
+	if slot0.contextData.map:getConfig("bgm") and #slot7 > 0 then
+		playBGM(slot7)
 	end
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
@@ -2005,17 +1906,9 @@ function slot0.switchToMap(slot0)
 
 	slot0:onSubLayerContextChange()
 	slot0:setChapter(nil)
-
-	if slot2 == ChapterConst.TypeSham then
-		slot0.contextData.mapIdx = slot0.contextData.chapterMapIdx
-		slot0.contextData.chapterMapIdx = nil
-
-		slot0:setMap(slot0:selectMap(slot0.maps))
-	elseif slot2 == ChapterConst.TypeNone then
-		slot0:updateMapItems()
-		slot0:switchDifficulty()
-		slot0:updateActivityBtns()
-	end
+	slot0:updateMapItems()
+	slot0:switchDifficulty()
+	slot0:updateActivityBtns()
 end
 
 function slot0.SwitchBG(slot0, slot1, slot2)
@@ -2056,6 +1949,8 @@ end
 function slot0.hideAmbushInfo(slot0)
 	if slot0.levelAmbushView then
 		slot0.levelAmbushView:Destroy()
+
+		slot0.levelAmbushView = nil
 	end
 end
 
@@ -2112,24 +2007,22 @@ function slot0.displayStrategyInfo(slot0, slot1)
 	slot0.levelStrategyView:Load()
 	slot0.levelStrategyView:ActionInvoke("set", slot1)
 	slot0.levelStrategyView:ActionInvoke("setCBFunc", function ()
-		slot0 = uv0.contextData.chapterVO
-		slot1 = slot0:getDataType()
-		slot3 = pg.strategy_data_template[uv1.id]
+		slot2 = pg.strategy_data_template[uv1.id]
 
-		if not slot0.fleet:canUseStrategy(uv1) then
+		if not uv0.contextData.chapterVO.fleet:canUseStrategy(uv1) then
 			return
 		end
 
-		if slot3.type == ChapterConst.StgTypeForm then
+		if slot2.type == ChapterConst.StgTypeForm then
 			uv0:emit(LevelMediator2.ON_OP, {
 				type = ChapterConst.OpStrategy,
-				id = slot2:getNextStgUser(uv1.id),
+				id = slot1:getNextStgUser(uv1.id),
 				arg1 = uv1.id
 			})
-		elseif slot3.type == ChapterConst.StgTypeConsume then
+		elseif slot2.type == ChapterConst.StgTypeConsume then
 			uv0:emit(LevelMediator2.ON_OP, {
 				type = ChapterConst.OpStrategy,
-				id = slot4,
+				id = slot3,
 				arg1 = uv1.id
 			})
 		end
@@ -2173,25 +2066,21 @@ function slot0.selectStrategyTarget(slot0, slot1, slot2)
 end
 
 function slot0.hideStrategyInfo(slot0)
-	slot0.levelStrategyView:Destroy()
+	if slot0.levelStrategyView then
+		slot0.levelStrategyView:Destroy()
+
+		slot0.levelStrategyView = nil
+	end
 end
 
 function slot0.displayRepairWindow(slot0, slot1)
-	slot4 = getProxy(ChapterProxy)
-	slot5, slot6, slot7, slot8 = nil
-
-	if slot0.contextData.chapterVO:getDataType() == ChapterConst.TypeSham then
-		slot5 = slot2.repairTimes
-		slot6, slot7, slot8 = ChapterConst.GetShamRepairParams()
-	elseif slot3 == ChapterConst.TypeNone then
-		slot5 = slot4.repairTimes
-		slot6, slot7, slot8 = ChapterConst.GetRepairParams()
-	end
-
+	slot2 = slot0.contextData.chapterVO
+	slot4, slot5, slot6, slot7 = nil
+	slot8, slot9, slot10 = ChapterConst.GetRepairParams()
 	slot0.levelRepairView = LevelRepairView.New(slot0.topPanel, slot0.event, slot0.contextData)
 
 	slot0.levelRepairView:Load()
-	slot0.levelRepairView:ActionInvoke("set", slot5, slot6, slot7, slot8)
+	slot0.levelRepairView:ActionInvoke("set", getProxy(ChapterProxy).repairTimes, slot8, slot9, slot10)
 	slot0.levelRepairView:ActionInvoke("setCBFunc", function ()
 		if uv0 - math.min(uv1, uv0) == 0 and uv2.player:getTotalGem() < uv3 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_rmb"))
@@ -2211,7 +2100,11 @@ function slot0.displayRepairWindow(slot0, slot1)
 end
 
 function slot0.hideRepairWindow(slot0)
-	slot0.levelRepairView:Destroy()
+	if slot0.levelRepairView then
+		slot0.levelRepairView:Destroy()
+
+		slot0.levelRepairView = nil
+	end
 end
 
 function slot0.displayRemasterPanel(slot0, slot1)
@@ -2236,30 +2129,37 @@ function slot0.displayRemasterPanel(slot0, slot1)
 end
 
 function slot0.hideRemasterPanel(slot0)
-	slot0.levelRemasterView:Destroy()
+	if slot0.levelRemasterView then
+		slot0.levelRemasterView:Destroy()
+
+		slot0.levelRemasterView = nil
+	end
 end
 
 function slot0.initGrid(slot0, slot1)
-	slot2 = slot0.contextData.chapterVO
-
 	slot0:enableLevelCamera()
 	setActive(slot0.uiMain, true)
 
-	slot0.levelGrid.localEulerAngles = Vector3(slot2.theme.angle, 0, 0)
+	slot0.levelGrid.localEulerAngles = Vector3(slot0.contextData.chapterVO.theme.angle, 0, 0)
 	slot0.grid = LevelGrid.New(slot0.dragLayer)
 
 	slot0.grid:attach(slot0)
-	slot0.grid:setItems(slot0.shipTpl, slot0.subTpl, slot0.transportTpl, slot0.transportTargetTpl, slot0.enemyTpl, slot0.deadTpl, slot0.boxTpl, slot0.supplyTpl, slot0.rivalTpl, slot0.championTpl, slot0.spineTpl, slot0.oniTpl, slot0.oniTargetTpl, slot0.bombEnemyTpl, slot0.arrowTarget)
+	slot0.grid:ExtendItem("shipTpl", slot0.shipTpl)
+	slot0.grid:ExtendItem("subTpl", slot0.subTpl)
+	slot0.grid:ExtendItem("transportTpl", slot0.transportTpl)
+	slot0.grid:ExtendItem("enemyTpl", slot0.enemyTpl)
+	slot0.grid:ExtendItem("deadTpl", slot0.deadTpl)
+	slot0.grid:ExtendItem("championTpl", slot0.championTpl)
+	slot0.grid:ExtendItem("oniTpl", slot0.oniTpl)
+	slot0.grid:ExtendItem("arrowTpl", slot0.arrowTarget)
 	slot0.grid:ExtendItem("destinationMarkTpl", slot0.destinationMarkTpl)
 
 	function slot0.grid.onCellClick(slot0)
 		uv0:clickGridCell(slot0)
 	end
 
-	if slot2:getDataType() == ChapterConst.TypeNone then
-		function slot0.grid.onShipStepChange(slot0)
-			uv0.levelStageView:updateAmbushRate(slot0)
-		end
+	function slot0.grid.onShipStepChange(slot0)
+		uv0.levelStageView:updateAmbushRate(slot0)
 	end
 
 	function slot0.grid.onShipArrived()
@@ -3125,8 +3025,11 @@ function slot0.willExit(slot0)
 	slot0:DestroyLevelStageView()
 	slot0:hideChapterPanel()
 	slot0:hideFleetEdit()
+	slot0:hideSignalPanel()
+	slot0:hideRepairWindow()
+	slot0:hideStrategyInfo()
+	slot0:hideRemasterPanel()
 	slot0:hideSpResult()
-	slot0:hideBombResult()
 	slot0:destroyGrid()
 	slot0:destroyAmbushWarn()
 	slot0:destroyAirStrike()
@@ -3148,14 +3051,6 @@ function slot0.willExit(slot0)
 	end
 
 	slot0.mbDict = nil
-
-	for slot4, slot5 in pairs(slot0.mapItemTimer) do
-		if slot5 then
-			slot5:Stop()
-		end
-	end
-
-	slot0.mapItemTimer = nil
 
 	for slot4, slot5 in pairs(slot0.tweens) do
 		LeanTween.cancel(slot5)
@@ -3183,11 +3078,8 @@ function slot0.willExit(slot0)
 		slot0.resPanel = nil
 	end
 
-	if slot0.activityBossBattlePanel then
-		slot0.activityBossBattlePanel:clear()
-	end
-
 	LeanTween.cancel(go(slot0.damageText))
+	LeanTween.cancel(go(slot0.avoidText))
 
 	slot0.map.localScale = Vector3.one
 	slot0.map.pivot = Vector2(0.5, 0.5)
