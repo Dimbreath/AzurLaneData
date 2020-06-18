@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=45>三 小加加的休息日</size>",
+					"Best Pictures!\n\n<size=45>3. 새러토가의 휴일</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "第四张照片上是休息日里还在进行着偶像工作（？）的萨拉托加——",
+			say = "네 번째 사진은 휴일에도 아이돌 업무(?)를 진행하고 있는 새러토가의 모습이 담겨 있다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			bgm = "story-1",
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "嗯嗯！今天的宣传照也拍得不错！",
+			say = "응! 오늘자 홍보 사진도 잘 나왔어!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "果然作战经验丰富的船就是容易被找上门作宣传啊~好，决定了！有机会演个电影吧！",
+			say = "역시 작전 경험이 풍부한 배는 금방 홍보용으로 캐스팅되는구나~ 좋아, 결정했어! 기회가 되면 영화를 찍어야겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			say = "萨拉托加，咱……咳，我们真的能演吗……",
+			say = "새러토가, 저...... 크흠, 정말 찍을 수 있나요......",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "没事！小彗星你们还没适应，有什么情况我会支援你们的！",
+			say = "그럼! 코멧이랑 너희들은 아직 적응 중이니까, 무슨 일이 있으면 내가 지원해줄게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = -1,
-			say = "萨拉托加说得没错！小天鹅你也是，抬头挺胸！",
+			say = "새러토가 말이 맞아! 시그넷 너도, 고개 들고 허리 펴!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = -1,
-			say = "嗯！咱也会加油的！……为庆功宴做准备！",
+			say = "응! 우리도 힘내자! ...... 축하 파티를 준비하자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "喂——！这边准备好啦！",
+			say = "얍——! 준비됐어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "干杯——！",
+			say = "건배——!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			say = "干杯——！……咳咳！萨拉托加，莫非你……",
+			say = "건배——! ......콜록콜록! 새러토가, 설마......",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "嘿嘿嘿嘿，我往里放了点姜♪恶作剧得手",
+			say = "헤헤헤헷, 생강을 좀 넣었지롱♪ 장난 성공",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = -1,
-			say = "我这杯是放了黑醋吧……该不会这里每个人都被你动了手脚……",
+			say = "내 잔에는 식초 넣었지......? 설마 여기 모든 사람들에게 이런 짓을 한 건......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "抱歉抱歉！今天一整天都老老实实的，有点手痒……",
+			say = "미안 미안! 오늘 하루 종일 성실하고 착하기만 해서, 손이 좀 근질근질했거든......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "不过我帮你们点了新的饮料，等我去拿来哦！",
+			say = "너희들 음료수 새로 주문했어. 기다려, 가져올게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "啊，咱也去帮你！",
+			say = "아, 저도 같이 가요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "谢啦！啊，指挥官那杯放了汽……不对是墨鱼汁！等下记得要好好刷牙哦！",
+			say = "고마워! 아, 지휘관 잔에는 탄산을...... 아니 ,오징어 먹물 넣었어! 이따가 꼭 양치질해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			}
 		},
 		{
-			say = "……诶。",
+			say = "......이런.",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			say = "这么说来，隔天早上确实遇到麻烦了……",
+			say = "그러고 보면, 다음 날 아침에 확실히 귀찮은 일이 있었지......",
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",

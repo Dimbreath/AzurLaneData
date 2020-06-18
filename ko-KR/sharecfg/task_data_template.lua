@@ -9368,6 +9368,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5131] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5107,
+		type = 5,
+		name = "멋진 순간! 옆방의 새러토가",
+		count_inherit = 0,
+		desc = "어뢰 튀김을 3개 제출한다.",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "salatuojia",
+		award_choice = "",
+		level = 1,
+		next_task = "5132",
+		visibility = 1,
+		story_id = "SALATUOJIA1",
+		target_id_for_client = 50003,
+		id = 5131,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5132] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5108,
+		type = 5,
+		name = "새러토가의 업무",
+		count_inherit = 0,
+		desc = "임의의 함선을 10회 강화한다.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "salatuojia",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5133",
+		visibility = 1,
+		story_id = "SALATUOJIA2",
+		target_id_for_client = 0,
+		id = 5132,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5133] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5109,
+		type = 5,
+		name = "새러토가의 휴일",
+		count_inherit = 0,
+		desc = "새러토가를 포함한 함대를 출격시켜 20회 승리한다.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "salatuojia",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5134",
+		visibility = 1,
+		story_id = "SALATUOJIA3",
+		target_id_for_client = 10703,
+		id = 5133,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "10703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5134] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5110,
+		type = 5,
+		name = "새러토가와 언니",
+		count_inherit = 0,
+		desc = "새러토가를 포함한 함대로 데일리 챌린지를 3회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "salatuojia",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5135",
+		visibility = 1,
+		story_id = "SALATUOJIA4",
+		target_id_for_client = 10703,
+		id = 5134,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "10703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5135] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5111,
+		type = 5,
+		name = "비밀 취재 시리즈・상",
+		count_inherit = 0,
+		desc = "새러토가의 호감도를 100까지 달성한다.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "salatuojia",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5136",
+		visibility = 1,
+		story_id = "SALATUOJIA5",
+		target_id_for_client = 10703,
+		id = 5135,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "10703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5136] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5112,
+		type = 5,
+		name = "비밀 취재 시리즈・하",
+		count_inherit = 0,
+		desc = "새러토가의 한계돌파를 3회 진행한다.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "salatuojia",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5137",
+		visibility = 1,
+		story_id = "SALATUOJIA6",
+		target_id_for_client = 107034,
+		id = 5136,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "107034",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		}
+	},
+	[5137] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5113,
+		type = 5,
+		name = "가장 중요한 보물",
+		count_inherit = 0,
+		desc = "새러토가의 레벨을 100까지 달성한다.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "salatuojia",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SALATUOJIA7",
+		target_id_for_client = 10703,
+		id = 5137,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "10703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				2
+			}
+		}
+	},
 	[5141] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -95802,6 +96058,230 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[1000031] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91821,
+		type = 26,
+		name = "牙买加皮肤任务1",
+		count_inherit = 0,
+		desc = "적함 100척 격침",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 1000031,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[1000032] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91822,
+		type = 26,
+		name = "牙买加皮肤任务2",
+		count_inherit = 0,
+		desc = "적함 150척 격침",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 1000032,
+		target_num = 150,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				5
+			}
+		}
+	},
+	[1000033] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91823,
+		type = 26,
+		name = "牙买加皮肤任务3",
+		count_inherit = 0,
+		desc = "적함 150척 격침",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 1000033,
+		target_num = 150,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				300
+			}
+		}
+	},
+	[1000034] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91824,
+		type = 26,
+		name = "牙买加皮肤任务4",
+		count_inherit = 0,
+		desc = "적함 200척 격침",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 1000034,
+		target_num = 200,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				5
+			}
+		}
+	},
+	[1000035] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91825,
+		type = 26,
+		name = "牙买加皮肤任务5",
+		count_inherit = 0,
+		desc = "적함 250척 격침",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 1000035,
+		target_num = 250,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				500
+			}
+		}
+	},
+	[1000036] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91826,
+		type = 26,
+		name = "牙买加皮肤任务6",
+		count_inherit = 0,
+		desc = "적함 300척 격침",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 1000036,
+		target_num = 300,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	},
+	[1000037] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91827,
+		type = 26,
+		name = "牙买加皮肤任务7",
+		count_inherit = 0,
+		desc = "적함 300척 격침",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 1000037,
+		target_num = 300,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				202172,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -96048,6 +96528,13 @@ pg.task_data_template = {
 		5125,
 		5126,
 		5127,
+		5131,
+		5132,
+		5133,
+		5134,
+		5135,
+		5136,
+		5137,
 		5141,
 		5142,
 		5143,
@@ -98403,6 +98890,13 @@ pg.task_data_template = {
 		1000027,
 		1000028,
 		1000029,
-		1000030
+		1000030,
+		1000031,
+		1000032,
+		1000033,
+		1000034,
+		1000035,
+		1000036,
+		1000037
 	}
 }

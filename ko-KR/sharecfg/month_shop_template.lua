@@ -212,6 +212,10 @@ pg.month_shop_template = {
 	{
 		id = 6,
 		core_shop_goods = {
+			10038,
+			10039,
+			10043,
+			10044,
 			10032,
 			10033,
 			10036,
@@ -257,6 +261,10 @@ pg.month_shop_template = {
 	{
 		id = 7,
 		core_shop_goods = {
+			10038,
+			10039,
+			10043,
+			10044,
 			10032,
 			10033,
 			10036,
@@ -302,6 +310,10 @@ pg.month_shop_template = {
 	{
 		id = 8,
 		core_shop_goods = {
+			10038,
+			10039,
+			10043,
+			10044,
 			10032,
 			10033,
 			10036,
@@ -347,6 +359,10 @@ pg.month_shop_template = {
 	{
 		id = 9,
 		core_shop_goods = {
+			10038,
+			10039,
+			10043,
+			10044,
 			10032,
 			10033,
 			10036,
@@ -392,6 +408,10 @@ pg.month_shop_template = {
 	{
 		id = 10,
 		core_shop_goods = {
+			10038,
+			10039,
+			10043,
+			10044,
 			10032,
 			10033,
 			10036,
@@ -437,6 +457,10 @@ pg.month_shop_template = {
 	{
 		id = 11,
 		core_shop_goods = {
+			10038,
+			10039,
+			10043,
+			10044,
 			10032,
 			10033,
 			10036,
@@ -482,6 +506,10 @@ pg.month_shop_template = {
 	{
 		id = 12,
 		core_shop_goods = {
+			10038,
+			10039,
+			10043,
+			10044,
 			10032,
 			10033,
 			10036,

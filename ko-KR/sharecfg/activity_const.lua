@@ -370,7 +370,7 @@ pg.activity_const = {
 		act_id = 20280
 	},
 	ACTIVITY_JAMAICA_SKIN_PAGE = {
-		act_id = 20284
+		act_id = 20490
 	},
 	ACTIVITY_U110_BATTLE_LEVEL = {
 		act_id = 20300

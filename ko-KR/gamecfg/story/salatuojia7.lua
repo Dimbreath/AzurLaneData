@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=45>七 最重要的宝物</size>",
+					"Best Pictures!\n\n<size=45>7. 가장 중요한 보물</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "哇，这是我的照片！？指挥官莫非你——",
+			say = "왓, 이건 내 사진!? 지휘관 설마 너——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,11 +34,11 @@ return {
 			},
 			options = {
 				{
-					content = "推脱说这不是自己的",
+					content = "사진은 자기 것이 아니라고 말한다.",
 					flag = 1
 				},
 				{
-					content = "撒谎说是自己拍的",
+					content = "직접 찍었다고 거짓말한다.",
 					flag = 2
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			optionFlag = 1,
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "太可疑了~那你是找谁拿来的~？",
+			say = "수상해~ 그럼 누구한테 받은 거야~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			optionFlag = 1,
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "……不用问也知道吧。我们港区能拍到这些的除了她没有别人了。",
+			say = "...... 안 물어봐도 뻔하지. 우리 항구에 이런 사진을 찍을 수 있는 건 그녀밖에 없으니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			optionFlag = 2,
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "诶！不会吧——！是指挥官拍的吗——！",
+			say = "엣! 말도 안돼——! 지휘관이 찍은 거라고——!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			optionFlag = 2,
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "……不可能啦。指挥官才拍不了这样的照片呢。",
+			say = "...... 불가능해. 지휘관은 이런 사진은 찍지 못한다고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "是谁的都好，只剩最后一张了吧？是什么样子？让萨拉妹妹看看！",
+			say = "누구 것이라도 좋아. 마지막 한 장 남은 거지? 어떤 모습이야? 새러에게 보여줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "萨拉托加一边说着，一边伸手夺过了那最后一张照片。",
+			say = "새러토가는 말하면서 손을 뻗어 마지막 사진을 뺏어갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "哇！？",
+			say = "으엥!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "照片上是开心地一起走着的萨拉托加和指挥官。",
+			say = "사진에는 즐겁게 함께 걷고 있는 새러토가와 지휘관이 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……这么说来，之前那些好像都是萨拉托加和别人的照片。",
+			say = "...... 그러고 보니, 이전 것들은 전부 새러토가와 다른 사람들의 사진이었던 것 같은데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,23 +179,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "呃！指挥官！这张不许！不许看！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "……因为……萨拉妹妹这种事真的很难为情嘛……",
+			say = "이거! 지휘관! 이건 안돼! 안 보여줄 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,33 +195,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "连喜欢都说不出口的……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "萨拉托拉的声音越来越小。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 107030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "……回头要还给格里德利的……？那……",
+			say = "...... 왜냐면...... 새러는 이런 일은 정말 민망하니까......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +211,33 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "别的可以还给她……就这张，不还啦♪",
+			say = "좋아한다고 해도 말 할 수 없어......",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "새러토가의 목소리가 점점 작아졌다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 107030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#92fc63",
+			dir = 1,
+			say = "...... 돌아가서 그리들리에게 돌려준다고......? 그건......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +253,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "因为这张我要——当做宝贝珍藏的！",
+			say = "다른 건 다 돌려줘도...... 이것만은, 싫어♪",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#92fc63",
+			dir = 1,
+			say = "왜냐면 이건 내가——보물로 소중히 간직할거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "萨拉托加的脸上挂着和照片上同样的，带着一点淘气，又十分开心的微笑。",
+			say = "새러토가의 얼굴에는 사진 속 모습과 같은, 장난기를 살짝 머금은, 매우 즐거워하는 미소가 걸려있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

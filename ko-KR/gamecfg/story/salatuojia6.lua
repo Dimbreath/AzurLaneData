@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=45>六 取材秘辛系列・下</size>",
+					"Best Pictures!\n\n<size=45>6. 비밀 취재 시리즈・하</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "第三十六张照片上是——晚上在厨房做着什么的萨拉托加。",
+			say = "36번째 사진은——저녁에 주방에서 무언가를 만들고 있는 새러토가였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			bgm = "story-1",
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "格里德利，帮我拿一下那个——",
+			say = "그리들리, 그것 좀 가져와줘.——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "抱歉小加加，那个我也够不着……麻烦你用舰载机了！",
+			say = "미안 새러토가, 저건 나도 안 닿아...... 함재기를 이용해!",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "唔……好吧，舰载机，呃，帮我拿一下，荷兰芹，胡椒还有香草的瓶子！格里德利把这根萝卜磨一下！",
+			say = "음...... 그래, 함재기, 음, 가져와라. 파슬리, 후추랑 바닐라 통! 그리들리 이 무 좀 갈아줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "好的！这点小事当做照片钱太划算了！……不过这是怎么了，突然说什么“我也要做便当”？",
+			say = "알았어! 이 정도 일로 사진 값을 쳐준다면 너무 좋지! ...... 근데 왜 그런 거야? 갑자기 \"나도 도시락을 만들거야\"라니?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嗯，是指挥官明天要去学园视察，我跟重樱的孩子打听了一下，说在学园是要吃便当的，所以就——",
+			say = "음, 지휘관이 내일 스쿨 시찰을 가거든. 사쿠라 엠파이어 아이들에게 물어봤는데, 스쿨에서는 도시락을 먹는다고 해. 그래서——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "停——！别说了！",
+			say = "잠깐——! 말하지 마!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "哇！怎么啦？",
+			say = "왓! 왜 그래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "这些话别对我说，留着说给指挥官吧。",
+			say = "이 말들 나한테 하지 말고, 남겨뒀다가 지휘관에게 말해줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "格里德利……",
+			say = "그리들리......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "我会支持你的！……对了，佐料放什么？……等等，那瓶是！？",
+			say = "난 너를 응원할거야! ...... 아 참, 소스는 어떤 걸 넣어? ......잠깐, 그건!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嘿嘿，重樱的孩子们说，便当是要符合每个人个性的！",
+			say = "헤헤, 사쿠라 엠파이어 애들이 그랬어, 도시락은 각자의 개성에 맞게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "这是萨拉妹妹亲手做的特制便当，佐料当然也只能用这个啦~",
+			say = "이건 새러토가가 직접 만든 특별 도시락니까, 소스도 당연히 이거지~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 101050,
 			nameColor = "#92fc63",
-			say = "指挥官快跑——！",
+			say = "지휘관 도망쳐——!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "剩下的，就是最后一张了……",
+			say = "이제 남은 건, 마지막 한 장......",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "指挥官，你在看什么呢？",
+			say = "지휘관, 뭐 보고 있어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "抬起头就看到，萨拉托加凑过来的脸，很近。",
+			say = "고개를 들자 새러토가의 얼굴이 보였다, 아주 가깝게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8701,182 +8701,72 @@ pg.activity_ins_npc_template = {
 	{
 		ship_group = 50203,
 		npc_reply_persist = "",
+		message_persist = "",
 		id = 466,
-		time_persist = "",
-		message_persist = {
-			{
-				2020,
-				5,
-				28
-			},
-			{
-				13,
-				7,
-				0
-			}
-		}
+		time_persist = ""
 	},
 	{
 		ship_group = 50202,
 		npc_reply_persist = "",
+		message_persist = "",
 		id = 467,
-		time_persist = "",
-		message_persist = {
-			{
-				2020,
-				5,
-				28
-			},
-			{
-				13,
-				11,
-				0
-			}
-		}
+		time_persist = ""
 	},
 	{
 		ship_group = 50201,
 		npc_reply_persist = "",
+		message_persist = "",
 		id = 468,
-		time_persist = "",
-		message_persist = {
-			{
-				2020,
-				5,
-				28
-			},
-			{
-				13,
-				15,
-				0
-			}
-		}
+		time_persist = ""
 	},
 	{
 		ship_group = 50201,
 		npc_reply_persist = "",
+		message_persist = "",
 		id = 469,
-		time_persist = "",
-		message_persist = {
-			{
-				2020,
-				5,
-				28
-			},
-			{
-				13,
-				41,
-				0
-			}
-		}
+		time_persist = ""
 	},
 	{
 		ship_group = 50202,
 		npc_reply_persist = "",
+		message_persist = "",
 		id = 470,
-		time_persist = "",
-		message_persist = {
-			{
-				2020,
-				5,
-				28
-			},
-			{
-				13,
-				21,
-				0
-			}
-		}
+		time_persist = ""
 	},
 	{
 		ship_group = 40303,
 		npc_reply_persist = "",
+		message_persist = "",
 		id = 471,
-		time_persist = "",
-		message_persist = {
-			{
-				2020,
-				5,
-				28
-			},
-			{
-				13,
-				26,
-				0
-			}
-		}
+		time_persist = ""
 	},
 	{
 		ship_group = 50201,
 		npc_reply_persist = "",
+		message_persist = "",
 		id = 472,
-		time_persist = "",
-		message_persist = {
-			{
-				2020,
-				5,
-				28
-			},
-			{
-				13,
-				29,
-				0
-			}
-		}
+		time_persist = ""
 	},
 	{
 		ship_group = 40303,
 		npc_reply_persist = "",
+		message_persist = "",
 		id = 473,
-		time_persist = "",
-		message_persist = {
-			{
-				2020,
-				5,
-				28
-			},
-			{
-				13,
-				34,
-				0
-			}
-		}
+		time_persist = ""
 	},
 	{
 		ship_group = 50201,
 		npc_reply_persist = "",
+		message_persist = "",
 		id = 474,
-		time_persist = "",
-		message_persist = {
-			{
-				2020,
-				5,
-				28
-			},
-			{
-				10,
-				0,
-				0
-			}
-		}
+		time_persist = ""
 	},
 	{
 		ship_group = 50201,
 		npc_reply_persist = "",
+		message_persist = "",
 		id = 475,
-		time_persist = "",
-		message_persist = {
-			{
-				2020,
-				5,
-				28
-			},
-			{
-				10,
-				0,
-				0
-			}
-		}
+		time_persist = ""
 	},
 	{
 		ship_group = 50201,

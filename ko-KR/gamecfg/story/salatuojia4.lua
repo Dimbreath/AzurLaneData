@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=45>四 小加加和姐姐</size>",
+					"Best Pictures!\n\n<size=45>4. 새러토가와 언니</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "第十二张照片，是萨拉托加从身后抱住姐姐列克星敦的一幕——",
+			say = "20번째 사진은, 새러토가가 렉싱턴을 백허그하는 모습이었다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			bgm = "story-1",
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "今天萨拉妹妹的恶作剧也是大成功~诶嘿♪",
+			say = "오늘 새러의 장난도 대성공~ 에헷♪",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -76,7 +76,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嗯……下一个轮到谁了呢？小千岁生气了有点可怕，还是指挥官——",
+			say = "음...... 다음은 누구로 하지? 치토세는 화나면 좀 무서우니까, 역시 지휘관——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			say = "萨拉？",
+			say = "새러?",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "哇！姐，姐姐！？",
+			say = "왓! 어, 언니!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "萨拉，姐姐听说了哦？你又对别的孩子恶作剧了吧……",
+			say = "새러, 언니가 들었는데, 또 다른 아이에게 장난을 쳤다고......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "对，对不起……",
+			say = "미, 미안......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "萨拉老是这样，不光是别的孩子，指挥官也会困扰啊？指挥官要去安抚别的孩子，",
+			say = "새러가 자꾸 이러면 다른 아이들 뿐만 아니라, 지휘관도 곤란할 수 있어. 지휘관이 가서 위로해줘야 하잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "就会影响到日常业务，不光是被你恶作剧的孩子，大家都会难过的。而且下次出击的时候如果受了影响，别的孩子和指挥官都会有危险，",
+			say = "그럼 일상 업무에 영향을 줄 수 있지.. 장난을 당한 아이만이 아니라, 모두 곤란해진다고. 게다가 다음 출격 때 영향을 미치면, 지휘관과 아이들이 위험해질 수도 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "萨拉你和他们一起出击的话也很危险啊。姐姐是不想看到萨拉受伤，这么说你是为了让你明白恶作剧以后不好好道歉会有什么后果。",
+			say = "새러 너가 그 아이들이랑 같이 출격하는 것도 위험해지지. 언니는 새러가 다치는 걸 보고 싶지 않아. 이렇게 말하는 건 네가 장난을 친 후에 사과하지 않으면 어떤 나쁜 결과가 일어날 수도 있다는 걸 알려주기 위해서야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "萨拉也不是小孩子了，让你别再恶作剧你不听，那至少做到能马上对人家道歉好不好？",
+			say = "새러도 어린 아이가 아니잖아. 장난치지 말라는 말을 안 들을거면, 적어도 곧바로 사과는 하자, 알겠지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "姐姐一听说萨拉又对别的孩子恶作剧了就特别特别伤心啊……",
+			say = "언니는 새러가 또 어떤 아이에게 장난을 쳤다는 얘기를 들으면 정말 상처를 받아......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "姐姐……对不起……",
+			say = "언니...... 미안해......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "萨拉啊……等下要好好给人家道歉哦……",
+			say = "새러야...... 이따가 그 아이에게 잘 사과하도록 해.....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "到了第二天，她依然是那个爱恶作剧的萨拉托加。",
+			say = "다음 날의 그녀는 여전히 장난치기를 좋아하는 그 새러토가였다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……但事后她会好好道歉，也没造成什么实际损害，让人反而会觉得是不是列克星敦太多虑了呢。",
+			say = "...... 하지만 제대로 사과할 줄 알았고, 실질적인 피해를 입히지도 않았다. 오히려 렉싱턴이 너무 많은 걱정을 한 것 아닌가라는 생각이 들 정도였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

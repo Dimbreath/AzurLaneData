@@ -1731,6 +1731,21 @@ pg.memory_group = {
 			314
 		}
 	},
+	[511] = {
+		title = "Best Pictures! ",
+		type = 3,
+		id = 511,
+		icon = "title_chara_salatuojia",
+		memories = {
+			322,
+			323,
+			324,
+			325,
+			326,
+			327,
+			328
+		}
+	},
 	[512] = {
 		title = "누나와의 일일 데이트 ",
 		type = 3,
@@ -2323,6 +2338,7 @@ pg.memory_group = {
 		507,
 		508,
 		510,
+		511,
 		512,
 		513,
 		515,

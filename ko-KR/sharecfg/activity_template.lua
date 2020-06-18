@@ -14337,6 +14337,7 @@ pg.activity_template = {
 	},
 	[20459] = {
 		mark = 20200521,
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 20459,
@@ -14344,33 +14345,6 @@ pg.activity_template = {
 		title_res_tag = "france_framev2",
 		id = 20459,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "FranceIconTaskPage",
 			ui_name = "FranceIconTaskPage"
@@ -14406,6 +14380,7 @@ pg.activity_template = {
 	[20460] = {
 		mark = 20200521,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -14424,33 +14399,6 @@ pg.activity_template = {
 			15587,
 			15588,
 			15589
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20461] = {
@@ -14636,6 +14584,7 @@ pg.activity_template = {
 	},
 	[20466] = {
 		mark = 20200528,
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 20466,
@@ -14643,33 +14592,6 @@ pg.activity_template = {
 		title_res_tag = "francev2_zongye",
 		id = 20466,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "FrancePTPage",
 			ui_name = "FrancePTPage"
@@ -14814,6 +14736,7 @@ pg.activity_template = {
 	[20470] = {
 		mark = 20200528,
 		page_info = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -14844,33 +14767,6 @@ pg.activity_template = {
 			1150,
 			1151,
 			1152
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					5,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_shengyongqu",
@@ -15144,6 +15040,7 @@ pg.activity_template = {
 	[20479] = {
 		mark = 20200603,
 		page_info = "",
+		time = "stop",
 		type = 43,
 		login_pop = 0,
 		config_id = 0,
@@ -15164,38 +15061,12 @@ pg.activity_template = {
 				57,
 				93325
 			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20480] = {
 		mark = 20200603,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -15213,33 +15084,6 @@ pg.activity_template = {
 			15720,
 			15721,
 			15722
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20481] = {
@@ -15660,6 +15504,132 @@ pg.activity_template = {
 				"<color=#3dc6ff>Rare</color>：26%",
 				"Normal：55%",
 				"<color=#d797ff>에스키모</color>：1.4%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[20490] = {
+		mark = 20200618,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 83,
+		config_client = "",
+		title_res_tag = "yamaijia",
+		id = 20490,
+		config_data = {
+			{
+				1000031
+			},
+			{
+				1000032
+			},
+			{
+				1000033
+			},
+			{
+				1000034
+			},
+			{
+				1000035
+			},
+			{
+				1000036
+			},
+			{
+				1000037
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JamaicaSkinPage",
+			ui_name = "jamaicaskinpage"
+		}
+	},
+	[20491] = {
+		mark = 20200618,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_20491",
+		title_res_tag = "",
+		id = 20491,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "미니애폴리스 등 캐릭터 건조 확률UP!",
+			rate_tip = {
+				"<color=#ffde38>SS Rare</color>：7%",
+				"<color=#d797ff>S Rare</color>：12%",
+				"<color=#3dc6ff>Rare</color>：26%",
+				"Normal：55%",
+				"<color=#ffde38>미니애폴리스</color>：2%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>노스캐롤라이나</color>：2%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>워싱턴</color>：2%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>콜로라도</color>：2.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>메릴랜드</color>：2.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#3dc6ff>하비</color>：5.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#3dc6ff>커크</color>：5.0%(<color=#92fc63>up!</color>)"
 			}
 		}
 	},
@@ -16303,6 +16273,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[25040] = {
+		mark = 20200618,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5131,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 25040,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -16793,6 +16779,8 @@ pg.activity_template = {
 		20487,
 		20488,
 		20489,
+		20490,
+		20491,
 		25000,
 		25001,
 		25002,
@@ -16832,6 +16820,7 @@ pg.activity_template = {
 		25036,
 		25037,
 		25038,
-		25039
+		25039,
+		25040
 	}
 }

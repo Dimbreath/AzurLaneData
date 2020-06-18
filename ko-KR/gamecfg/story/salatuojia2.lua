@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=45>二 小加加的工作</size>",
+					"Best Pictures!\n\n<size=45>2. 새러토가의 업무</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "第一张照片上是穿上了舰装的萨拉托加在认真航行的样子——",
+			say = "첫 번째 사진은 장비를 착용한 새러토가가 진지하게 항행하고 있는 모습이다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			bgm = "level",
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "好了！萨拉妹妹的机动舰队作战讲座，要开始咯——",
+			say = "좋아! 새러의 기동 함대 작전 강좌, 시작——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			actor = 204010,
 			nameColor = "#92fc63",
-			say = "请您多多指导！",
+			say = "잘 부탁해요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "萨拉老师，有劳你了。",
+			say = "새러 선생님, 수고가 많네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#92fc63",
-			say = "要好好训练哦！……怎么连我也要参加！？",
+			say = "열심히 훈련하도록! ...... 어째서 나까지 여기에!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "那我开始讲课咯！航母的攻击距离比战舰要长很多！所以最基本的作战方法就是灵活运用这个射程！",
+			say = "그럼 시작할게! 항공모함의 공격 사거리는 전함보다 훨씬 멀어! 그러니까 가장 기본적인 작전 방법은 이 사거리를 융통성 있게 운용하는 거지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "也就是说呢，和恶作剧是一样的！在对方看不到的地方进行攻击是最有效的！",
+			say = "한마디로, 못된 장난 같은 거야! 상대방이 보지 못하는 곳에서 공격하는 것이 가장 효과적이겠지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "我们白鹰使用空母的经历最长，大家要好好学习哦！",
+			say = "항공모함을 사용해 온 내력은 우리 이글 유니온이 가장 길어. 모두 잘 배워둬!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "原来如此！确实学到了不少！",
+			say = "그랬군요! 확실히 많은 걸 배웠어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "呜……怎么觉得比我架子还大呢……",
+			say = "음...... 왜 나보다 더 잘난척 하는 것 같지......?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "陛下，不能闹别扭哦？",
+			say = "폐하, 기분 상하시면 안됩니다?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "那边的！现在是无线通信管制期间，不许说悄悄话！",
+			say = "거기! 현재는 무선 통신 단속 기간이니까, 몰래 말하면 안 돼!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "是——",
+			say = "네——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#92fc63",
-			say = "可恶……",
+			say = "젠장......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "虽然看起来不像，还是想起了萨拉托加身为大家的前辈这一事实。",
+			say = "겉보기에는 그렇지 않지만, 새러토가는 모두의 선배라는 사실이 떠올랐다.",
 			flashout = {
 				dur = 1,
 				black = true,
