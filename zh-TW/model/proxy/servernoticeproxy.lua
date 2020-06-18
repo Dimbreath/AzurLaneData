@@ -53,9 +53,7 @@ function slot0.needAutoOpen(slot0)
 		slot1 = false
 	end
 
-	if not slot1 then
-		slot0.runtimeUniqueCode = slot0:getUniqueCode()
-	end
+	slot0.runtimeUniqueCode = slot0:getUniqueCode()
 
 	return slot1
 end

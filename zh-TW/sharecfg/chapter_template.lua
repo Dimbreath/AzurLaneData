@@ -52933,7 +52933,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -52942,7 +52942,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"gufeng"
@@ -53513,7 +53513,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -53522,7 +53522,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"bangfeng"
@@ -54131,7 +54131,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -54140,7 +54140,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"qinchao"
@@ -54773,7 +54773,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -54782,7 +54782,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"xinyue_jp"

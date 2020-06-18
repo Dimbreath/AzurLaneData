@@ -1479,18 +1479,14 @@ function slot0.displayFleetSelect(slot0, slot1, slot2)
 			end)
 		end
 
-		slot0.contextData.selectedChapterVO = nil
-		slot0.contextData.selectedFleetIDs = nil
-
 		return
 	end
 
-	slot3 = nil
 	slot0.levelFleetView = LevelFleetView.New(slot0.topPanel, slot0.event, slot0.contextData)
 
 	slot0.levelFleetView:Load()
 	slot0.levelFleetView:ActionInvoke("setOpenCommanderTag", slot0.openedCommanerSystem)
-	slot0.levelFleetView:ActionInvoke("set", slot1, slot0.fleets, (not slot0.contextData.selectedFleetIDs or slot0.contextData.selectedFleetIDs) and slot1:selectFleets(slot0.lastFleetIndex, slot0.fleets))
+	slot0.levelFleetView:ActionInvoke("set", slot1, slot0.fleets, slot0.contextData.selectedFleetIDs or slot1:selectFleets(slot0.lastFleetIndex, slot0.fleets))
 	slot0.levelFleetView:ActionInvoke("setCBFunc", function (slot0)
 		if uv0:isTriesLimit() and not uv0:enoughTimes2Start() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
@@ -1562,12 +1558,8 @@ function slot0.displayFleetSelect(slot0, slot1, slot2)
 			slot4()
 		end
 
-		uv1.contextData.selectedChapterVO = nil
-		uv1.contextData.selectedFleetIDs = nil
+		uv1.contextData.selectedFleetIDs = Clone(slot0)
 	end, function ()
-		uv0.contextData.selectedChapterVO = nil
-		uv0.contextData.selectedFleetIDs = nil
-
 		uv0:hideFleetSelect()
 	end)
 end
