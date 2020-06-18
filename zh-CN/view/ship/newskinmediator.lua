@@ -23,22 +23,16 @@ function slot0.register(slot0)
 
 		uv0.viewComponent:emit(BaseUI.ON_CLOSE)
 	end)
-	slot0:sendNotification(GAME.SET_SHIP_FLAG, {
-		shipsById = getProxy(BayProxy):getData(),
-		flags = slot0.contextData.flags or {}
-	})
+	slot0.viewComponent:setShipVOs(getProxy(BayProxy):getData())
 end
 
 function slot0.listNotificationInterests(slot0)
-	return {
-		GAME.SET_SHIP_FLAG_DONE
-	}
+	return {}
 end
 
 function slot0.handleNotification(slot0, slot1)
-	if slot1:getName() == GAME.SET_SHIP_FLAG_DONE then
-		slot0.viewComponent:setShipVOs(slot1:getBody().shipsById)
-	end
+	slot2 = slot1:getName()
+	slot3 = slot1:getBody()
 end
 
 return slot0

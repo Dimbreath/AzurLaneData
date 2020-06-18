@@ -309,7 +309,7 @@ end
 function slot0.willExit(slot0)
 	slot0.listPage:Destroy()
 	slot0.contextData.msgBox:Destroy()
-	BackYardThemeTempalteUtil.ClearAllCache()
+	BackYardThemeTempalteUtil.Exit()
 end
 
 return slot0

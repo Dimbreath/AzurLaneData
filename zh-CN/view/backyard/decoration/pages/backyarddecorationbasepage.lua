@@ -139,4 +139,10 @@ function slot0.OnBackPressed(slot0)
 	return false
 end
 
+function slot0.OnApplyThemeBefore(slot0)
+end
+
+function slot0.OnApplyThemeAfter(slot0, slot1)
+end
+
 return slot0

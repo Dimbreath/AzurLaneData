@@ -121,13 +121,6 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.OPEN_SCROLL, function (slot0, slot1)
-		uv0:addSubLayers(Context.New({
-			mediator = InvestigationMediator,
-			viewComponent = InvestigationLayer,
-			data = {
-				activityId = slot1
-			}
-		}))
 	end)
 	slot0:bind(uv0.OPEN_COMMANDER, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM)

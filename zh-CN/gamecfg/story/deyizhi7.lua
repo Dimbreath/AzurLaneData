@@ -466,7 +466,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "……就是这样，在那之后不久，德意志又恢复了把低等生物挂在嘴边的性格。",
+			say = "……就是这样，在那之后不久，德意志又恢复了把低等动物挂在嘴边的性格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "区区一个下等生物，脑子里该不会又在想着什么下流的事吧？",
+			say = "区区一个低等动物，脑子里该不会又在想着什么下流的事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

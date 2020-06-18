@@ -130,7 +130,7 @@ function slot0.didEnter(slot0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("npc_breakout_tip"),
 				onYes = function ()
-					slot0, slot1 = Ship.canModifyShip(uv0.shipVO)
+					slot0, slot1 = ShipStatus.ShipStatusCheck("onModify", uv0.shipVO)
 
 					if not slot0 then
 						pg.TipsMgr.GetInstance():ShowTips(slot1)

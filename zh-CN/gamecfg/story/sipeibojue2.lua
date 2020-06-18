@@ -406,7 +406,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那种下等生物有什么好在意的。",
+			say = "那种低等动物有什么好在意的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

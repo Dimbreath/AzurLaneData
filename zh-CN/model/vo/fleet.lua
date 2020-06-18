@@ -722,7 +722,7 @@ end
 
 function slot0.HaveShipsInEvent(slot0)
 	for slot5, slot6 in ipairs(slot0.ships) do
-		if getProxy(BayProxy):getRawData()[slot6].inEvent then
+		if getProxy(BayProxy):getRawData()[slot6]:getFlag("inEvent") then
 			return true, i18n("elite_disable_ship_escort")
 		end
 	end

@@ -45,6 +45,9 @@ function slot0.register(slot0)
 				end
 			end
 		end
+
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inFleet")
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inPvP")
 	end)
 	slot0:on(12106, function (slot0)
 		if uv0.data[Fleet.New(slot0.group).id] then
@@ -59,6 +62,8 @@ function slot0.addFleet(slot0, slot1)
 	slot0.data[slot1.id] = slot1:clone()
 
 	slot0.data[slot1.id]:display("added")
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inFleet")
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inPvP")
 	slot0.facade:sendNotification(uv0.FLEET_ADDED, slot1:clone())
 end
 
@@ -66,6 +71,8 @@ function slot0.updateFleet(slot0, slot1)
 	slot0.data[slot1.id] = slot1:clone()
 
 	slot0.data[slot1.id]:display("updated")
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inFleet")
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inPvP")
 	slot0.facade:sendNotification(uv0.FLEET_UPDATED, slot1.id)
 end
 
@@ -76,6 +83,9 @@ function slot0.saveEdittingFleet(slot0)
 
 	if slot0.EdittingFleet ~= nil then
 		slot0.data[slot0.EdittingFleet.id] = slot0.EdittingFleet
+
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inFleet")
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inPvP")
 	end
 end
 
@@ -126,16 +136,18 @@ function slot0.getFleetById(slot0, slot1)
 	return nil
 end
 
-function slot0.getAllShipIds(slot0)
-	slot1 = {}
+function slot0.getAllShipIds(slot0, slot1)
+	slot2 = {}
 
-	for slot5, slot6 in pairs(slot0.data) do
-		for slot10, slot11 in ipairs(slot6.ships) do
-			table.insert(slot1, slot11)
+	for slot6, slot7 in pairs(slot0.data) do
+		if not slot1 or slot7.id ~= uv0.PVP_FLEET_ID then
+			for slot11, slot12 in ipairs(slot7.ships) do
+				table.insert(slot2, slot12)
+			end
 		end
 	end
 
-	return slot1
+	return slot2
 end
 
 function slot0.getFirstFleetShipCount(slot0)
@@ -146,7 +158,7 @@ function slot0.getFirstFleetShipCount(slot0)
 	return slot1
 end
 
-function slot0.inPvpFleet(slot0, slot1)
+function slot0.inPvPFleet(slot0, slot1)
 	if slot0.data[FleetProxy.PVP_FLEET_ID]:containShip(slot1) then
 		return true
 	end
@@ -263,10 +275,14 @@ function slot0.addActivityFleet(slot0, slot1, slot2)
 
 		slot9 = slot9 + 1
 	end
+
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inActivity")
 end
 
 function slot0.updateActivityFleet(slot0, slot1, slot2, slot3)
 	slot0.activityFleetData[slot1][slot2] = slot3
+
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inActivity")
 end
 
 function slot0.commitActivityFleet(slot0, slot1)

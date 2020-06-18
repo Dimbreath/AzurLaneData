@@ -1,4 +1,7 @@
 slot0 = class("ActivityFleetPanel", import("..level.LevelEliteFleetPanel"))
+slot0.ON_OPEN_DOCK = "ActivityFleetPanel:ON_OPEN_DOCK"
+slot0.ON_FLEET_RECOMMEND = "ActivityFleetPanel:ON_FLEET_RECOMMEND"
+slot0.ON_FLEET_CLEAR = "ActivityFleetPanel:ON_FLEET_CLEAR"
 
 function slot0.init(slot0)
 	uv0.super.init(slot0)
@@ -129,10 +132,10 @@ function slot0.updateFleet(slot0, slot1, slot2)
 		end
 
 		onButton(slot0, slot11, function ()
-			uv0.parent:emit(ActivityBossBattleMediator2.ON_FLEET_RECOMMEND, uv1.id)
+			uv0.parent:emit(uv1.ON_FLEET_RECOMMEND, uv2.id)
 		end)
 		onButton(slot0, slot12, function ()
-			uv0.parent:emit(ActivityBossBattleMediator2.ON_FLEET_CLEAR, uv1.id)
+			uv0.parent:emit(uv1.ON_FLEET_CLEAR, uv2.id)
 		end, SFX_UI_CLICK)
 	end
 end
@@ -179,12 +182,12 @@ function slot0.updateShips(slot0, slot1, slot2, slot3, slot4, slot5)
 
 			function slot6()
 				uv0.onCancel()
-				uv0.parent:emit(ActivityBossBattleMediator2.ON_OPEN_DOCK, {
+				uv0.parent:emit(uv1.ON_OPEN_DOCK, {
 					shipType = 0,
-					fleet = uv1,
-					shipVO = uv2,
-					fleetIndex = uv3,
-					teamType = uv4
+					fleet = uv2,
+					shipVO = uv3,
+					fleetIndex = uv4,
+					teamType = uv5
 				})
 			end
 

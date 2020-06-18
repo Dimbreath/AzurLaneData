@@ -105098,6 +105098,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59979] = {
+		display = "集齐7个可以获得厌战专属改造道具-战士的心得",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "历战之证",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 8,
+		link_id = 617,
+		id = 59979,
+		icon = "Props/lizhanzhizheng",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[60001] = {
 		display = "这是说明说明说明",
 		rarity = 3,
@@ -109469,6 +109487,7 @@ pg.item_data_statistics = {
 		59967,
 		59968,
 		59969,
+		59979,
 		60001,
 		60002,
 		60003,

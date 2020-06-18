@@ -5,8 +5,6 @@ slot0.ELITE = 2
 slot0.EVENT = 3
 slot0.ACTIVITY_EASY = 4
 slot0.ACTIVITY_HARD = 5
-slot0.SHAM = 6
-slot0.GUILD_BOSS = 7
 slot0.ACT_EXTRA = 8
 slot0.ESCORT = 9
 slot0.SKIRMISH = 10
@@ -181,14 +179,6 @@ end
 
 function slot0.isActExtra(slot0)
 	return slot0:getConfig("type") == uv0.ACT_EXTRA
-end
-
-function slot0.isGuildBoss(slot0)
-	return slot0:getConfig("type") == Map.GUILD_BOSS
-end
-
-function slot0.isSham(slot0)
-	return slot0:getConfig("type") == Map.SHAM
 end
 
 function slot0.isEscort(slot0)

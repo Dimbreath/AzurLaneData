@@ -36,24 +36,9 @@ function slot0.register(slot0)
 	slot0.viewComponent:setTrophyList(slot5:getTrophys())
 	slot0.viewComponent:setMilitaryExercise(getProxy(MilitaryExerciseProxy):getSeasonInfo())
 
-	slot7 = {
-		inExercise = true,
-		inChapter = false,
-		inPvp = false,
-		inFleet = false,
-		inClass = false,
-		inTactics = false,
-		inBackyard = false,
-		inSham = false,
-		inEvent = false,
-		inAdmiral = true
-	}
-
-	table.insert({}, curFlagShipId)
-
-	for slot13, slot14 in pairs(getProxy(BayProxy):getRawData()) do
-		if slot14:isActivityNpc() then
-			table.insert(slot8, slot14.id)
+	for slot12, slot13 in pairs(getProxy(BayProxy):getRawData()) do
+		if slot13:isActivityNpc() then
+			table.insert({}, slot13.id)
 		end
 	end
 
@@ -70,9 +55,9 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			callbackQuit = true,
 			selectedMax = uv0.viewComponent.secretary_max,
-			flags = uv1,
+			hideTagFlags = ShipStatus.TAG_HIDE_ADMIRAL,
 			selectedIds = slot2,
-			ignoredIds = uv2,
+			ignoredIds = uv1,
 			onSelected = function (slot0, slot1)
 				uv0.contextData.showSelectCharacters = false
 
@@ -98,7 +83,7 @@ function slot0.register(slot0)
 			data = {
 				shipVO = slot1
 			}
-		}), nil)
+		}))
 	end)
 	slot0:bind(uv0.GO_COLLECTION, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.COLLECTSHIP)

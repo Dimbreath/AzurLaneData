@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且你身为区区下等生物的仆人，居然还敢冷落主人只顾着工作……",
+			say = "而且你身为区区低等动物的仆人，居然还敢冷落主人只顾着工作……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "我才不要，下等生物的工作跟我有什么关系。",
+			say = "我才不要，低等动物的工作跟我有什么关系。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "……啧，区区下等生物，居然要让我这个主人来帮忙，真是个无可救药的仆人！",
+			say = "……啧，区区低等动物，居然要让我这个主人来帮忙，真是个无可救药的仆人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

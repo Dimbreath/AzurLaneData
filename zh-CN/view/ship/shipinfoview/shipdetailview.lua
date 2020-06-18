@@ -127,7 +127,7 @@ function slot0.InitEvent(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.unloadAllBtn, function ()
-		slot0, slot1 = Ship.canModifyShip(uv0:GetShipVO())
+		slot0, slot1 = ShipStatus.ShipStatusCheck("onModify", uv0:GetShipVO())
 
 		if not slot0 then
 			pg.TipsMgr.GetInstance():ShowTips(slot1)

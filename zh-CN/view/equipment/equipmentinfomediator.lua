@@ -35,7 +35,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.ON_EQUIP, function (slot0)
 		if uv0.contextData.oldShipId then
-			slot3, slot4 = Ship.canModifyShip(getProxy(BayProxy):getShipById(uv0.contextData.oldShipId))
+			slot3, slot4 = ShipStatus.ShipStatusCheck("onModify", getProxy(BayProxy):getShipById(uv0.contextData.oldShipId))
 
 			if not slot3 then
 				pg.TipsMgr.GetInstance():ShowTips(slot4)

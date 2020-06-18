@@ -6,6 +6,10 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0.shipsView = BackYardShipsView.New(slot0)
 end
 
+function slot0.RegisterLoadedCallback(slot0, slot1)
+	slot0.OnLoaded = slot1
+end
+
 function slot0.setHouse(slot0, slot1)
 	slot0.houseVO = slot1
 
@@ -317,6 +321,9 @@ function slot0.initFurnitures(slot0)
 			uv0.shipsView:LoadAllShip(slot0)
 		end,
 		function (slot0)
+			uv0:LoadVisitorShip(slot0)
+		end,
+		function (slot0)
 			limitedParallelAsync(uv0[1], 5, slot0)
 		end,
 		function (slot0)
@@ -340,7 +347,52 @@ function slot0.initFurnitures(slot0)
 		if uv0.contextData.openDecoration then
 			triggerButton(uv0.decorationBtn)
 		end
+
+		if uv0.OnLoaded then
+			uv0.OnLoaded()
+
+			uv0.OnLoaded = nil
+		end
 	end)
+end
+
+function slot0.LoadVisitorShip(slot0, slot1)
+	slot2 = getProxy(DormProxy)
+
+	if slot0:IsVisitMode() then
+		slot1()
+
+		return
+	end
+
+	if slot2.floor ~= 1 then
+		slot1()
+
+		return
+	end
+
+	function slot3(slot0)
+		if not uv0:GetVisitorShip() then
+			uv1:emit(BackyardMainMediator.GET_VISITOR_SHIP, slot0)
+		else
+			slot0()
+		end
+	end
+
+	seriesAsync({
+		function (slot0)
+			uv0(slot0)
+		end,
+		function (slot0)
+			if uv0:GetVisitorShip() and getProxy(PlayerProxy):getData():GetCommonFlag(SHOW_FIREND_BACKYARD_SHIP_FLAG) then
+				slot1.isVisitor = true
+
+				uv1:emit(BackyardMainMediator.ADD_VISITOR_SHIP, slot1)
+			end
+
+			slot0()
+		end
+	}, slot1)
 end
 
 function slot0.loadWallPaper(slot0, slot1, slot2)

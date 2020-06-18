@@ -100,60 +100,29 @@ function slot0.register(slot0)
 			slot5 = 1
 		end
 
-		slot6, slot7 = nil
+		slot6 = {}
 
-		if slot1 == nil then
-			slot6 = false
-			slot7 = nil
-		else
-			slot6 = slot5 ~= 1
-			slot7 = slot1.id
-		end
-
-		slot8 = {
-			inExercise = true,
-			inChapter = true,
-			inPvp = false,
-			inFleet = true,
-			inClass = false,
-			inTactics = false,
-			inBackyard = false,
-			inSham = true,
-			inEvent = true,
-			inAdmiral = true
-		}
-		slot9 = {}
-		slot11 = getProxy(BayProxy):getRawData()
-
-		if slot2:getFleetType() == FleetType.Submarine then
-			for slot16, slot17 in pairs(slot11) do
-				if table.contains(TeamType.SubShipType, slot17:getShipType()) then
-					table.insert(slot9, slot17)
-				end
-			end
-		else
-			for slot16, slot17 in pairs(slot11) do
-				if not table.contains(TeamType.SubShipType, slot17:getShipType()) then
-					table.insert(slot9, slot17)
-				end
+		for slot10, slot11 in ipairs(slot2.ships) do
+			if not slot1 or slot11 ~= slot1.id then
+				table.insert(slot6, slot11)
 			end
 		end
 
-		slot13, slot14, slot15 = uv1.getDockCallbackFuncs(uv0, slot1, slot2, slot4)
+		slot7, slot8, slot9 = uv1.getDockCallbackFuncs(uv0, slot1, slot2, slot4)
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+			useBlackBlock = true,
 			selectedMax = 1,
-			shipVOs = Clone(slot9),
-			activeShipId = slot7,
 			selectedMin = slot5,
 			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
-			quitTeam = slot6,
+			quitTeam = slot1 ~= nil,
 			teamFilter = slot4,
 			leftTopInfo = i18n("word_formation"),
-			onShip = slot13,
-			confirmSelect = slot14,
-			onSelected = slot15,
-			flags = slot8,
+			onShip = slot7,
+			confirmSelect = slot8,
+			onSelected = slot9,
+			hideTagFlags = ShipStatus.TAG_HIDE_FORMATION,
+			otherSelectedIds = slot6,
 			preView = uv0.viewComponent.__cname
 		})
 	end)
@@ -326,12 +295,10 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3)
 	slot5 = getProxy(BayProxy)
 
 	return function (slot0, slot1)
-		slot2, slot3 = Ship.ShipStateConflict("inFleet", slot0)
+		slot2, slot3 = ShipStatus.ShipStatusCheck("inFleet", slot0, slot1)
 
-		if slot2 == Ship.STATE_CHANGE_FAIL then
-			return false, i18n(slot3)
-		elseif slot2 == Ship.STATE_CHANGE_CHECK then
-			return Ship.ChangeStateCheckBox(slot3, slot0, slot1)
+		if not slot2 then
+			return slot2, slot3
 		end
 
 		slot4, slot5 = uv0.checkChangeShip(uv1, uv2, slot0)
@@ -506,7 +473,7 @@ function slot0.getDockCallbackFuncsForExercise(slot0, slot1, slot2, slot3)
 
 		slot3 = uv3:getShipPos(uv1)
 
-		if uv4:inPvpFleet(slot1) then
+		if uv4:inPvPFleet(slot1) then
 			slot4 = uv3:getShipPos(slot1)
 
 			if uv1 == nil then

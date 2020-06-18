@@ -11,19 +11,19 @@ function slot0.register(slot0)
 	slot0.viewComponent:setShipVOs(slot1:getRawData())
 	slot0.viewComponent:setShip(slot1:getShipById(slot0.contextData.shipId))
 	slot0:bind(uv0.ON_SELECT_MATERIAL_SHIPS, function (slot0)
-		slot1 = uv0:fileterShips(ShipStatus.FILTER_SHIPS_FLAGS_1)
+		slot1 = pg.ShipFlagMgr.GetInstance():FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_1)
 
-		table.insert(slot1, 1, uv1.contextData.shipId)
-		uv1:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+		table.insert(slot1, 1, uv0.contextData.shipId)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMin = 0,
 			skipSelect = true,
 			blockLock = true,
 			selectedMax = 12,
 			leftTopInfo = i18n("word_equipment_intensify"),
 			mode = DockyardScene.MODE_MOD,
-			onShip = Ship.canDestroyShip,
+			onShip = ShipStatus.canDestroyShip,
 			ignoredIds = slot1,
-			selectedIds = uv1.contextData.materialShipIds,
+			selectedIds = uv0.contextData.materialShipIds,
 			onSelected = function (slot0)
 				uv0.contextData.materialShipIds = slot0
 			end,
@@ -67,7 +67,7 @@ end
 function slot0.autoSelectShip(slot0)
 	slot1 = slot0.viewComponent.shipVO
 	slot2 = slot0.contextData.materialShipIds or {}
-	slot3 = getProxy(BayProxy):fileterShips(ShipStatus.FILTER_SHIPS_FLAGS_2)
+	slot3 = pg.ShipFlagMgr.GetInstance():FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_2)
 	slot6 = {}
 
 	for slot10, slot11 in pairs(getProxy(BayProxy):getRawData()) do

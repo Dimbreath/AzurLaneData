@@ -1,7 +1,6 @@
 slot0 = class("RivalInfoLayer", import("..base.BaseUI"))
 slot0.TYPE_DISPLAY = 1
 slot0.TYPE_BATTLE = 2
-slot0.TYPE_SHAM = 3
 
 function slot0.getUIName(slot0)
 	return "RivalInfoUI"
@@ -22,7 +21,6 @@ function slot0.didEnter(slot0)
 
 	setActive(slot0.startBtn, false)
 	setActive(findTF(slot0._tf, "info/title_miex"), slot0.contextData.type == slot0.TYPE_BATTLE)
-	setActive(findTF(slot0._tf, "info/title_rival"), slot0.contextData.type == slot0.TYPE_SHAM)
 	onButton(slot0, slot0.startBtn, function ()
 		uv0:emit(RivalInfoMediator.START_BATTLE)
 	end, SFX_CONFIRM)

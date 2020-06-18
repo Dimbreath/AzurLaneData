@@ -434,9 +434,6 @@ function slot0.initPauseWindow(slot0)
 
 		setText(findTF(slot0.pauseWindow, "window/Chapter"), slot6.chapter_name)
 		setText(findTF(slot0.pauseWindow, "window/Chapter/Text"), string.split(slot6.name, "|")[1])
-	elseif slot5 == SYSTEM_SHAM then
-		setText(slot3, "SP")
-		setText(slot4, string.split(slot0._chapter:getConfig("name"), "|")[1])
 	elseif slot5 == SYSTEM_ROUTINE or slot5 == SYSTEM_DUEL or slot5 == SYSTEM_HP_SHARE_ACT_BOSS or slot5 == SYSTEM_BOSS_EXPERIMENT or slot5 == SYSTEM_ACT_BOSS then
 		setText(slot3, "SP")
 		setText(slot4, pg.expedition_data_template[slot2:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetInitData().StageTmpId].name)

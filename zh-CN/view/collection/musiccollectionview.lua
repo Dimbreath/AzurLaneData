@@ -123,6 +123,7 @@ function slot0.findUI(slot0)
 	slot0.songNameText = slot0:findTF("MusicNameMask/MusicName", slot0.topPanel)
 	slot0.staicImg = slot0:findTF("SoundImg", slot0.topPanel)
 	slot0.playingAni = slot0:findTF("SoundAni", slot0.topPanel)
+	slot0.resRepaireBtn = slot0:findTF("RepaireBtn", slot0.topPanel)
 
 	setActive(slot0.likeFilteToggle, true)
 
@@ -171,6 +172,24 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:closeSongListPanel()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.resRepaireBtn, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			hideYes = true,
+			content = i18n("resource_verify_warn"),
+			custom = {
+				{
+					text = i18n("msgbox_repair"),
+					onCallback = function ()
+						if PathMgr.FileExists(Application.persistentDataPath .. "/hashes-bgm.csv") then
+							PicUpdateMgr.Inst:StartVerify()
+						else
+							pg.TipsMgr.GetInstance():ShowTips(i18n("word_no_cache"))
+						end
+					end
+				}
+			}
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.sortToggle, function ()
 		uv0.sortValue = uv0.sortValue == MusicCollectionConst.Sort_Order_Up and MusicCollectionConst.Sort_Order_Down or MusicCollectionConst.Sort_Order_Up

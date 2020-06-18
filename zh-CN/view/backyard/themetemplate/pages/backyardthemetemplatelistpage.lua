@@ -437,7 +437,7 @@ function slot0.OnCardClick(slot0, slot1)
 
 	function slot2(slot0)
 		BackYardThemeTempalteUtil.GetTexture(slot0:GetTextureName(), slot0:GetImageMd5(), function (slot0)
-			if slot0 then
+			if not IsNil(uv0.rawImage) and slot0 then
 				uv0.rawImage.texture = slot0
 
 				setActive(uv0.rawImage.gameObject, true)

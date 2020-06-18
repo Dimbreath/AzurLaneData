@@ -350,7 +350,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "区区下等生物的仆人……",
+			say = "区区低等动物的仆人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么可能，那些低等生物才不会气到我。",
+			say = "怎么可能，那些低等动物才不会气到我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

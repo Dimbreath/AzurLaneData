@@ -40,14 +40,12 @@ function slot0.register(slot0)
 
 	slot10 = nil
 
-	if slot9 == SYSTEM_SCENARIO or slot9 == SYSTEM_SHAM then
+	if slot9 == SYSTEM_SCENARIO then
 		slot10 = {}
 		slot11 = nil
 
 		if slot9 == SYSTEM_SCENARIO then
 			slot11 = slot7:getActiveChapter()
-		elseif slot9 == SYSTEM_SHAM then
-			slot11 = slot7:getShamChapter()
 		end
 
 		slot12 = slot11.fleet
@@ -159,10 +157,6 @@ function slot0.register(slot0)
 					slot5:updateChapter(slot6)
 				end
 			end
-		elseif uv0 == SYSTEM_SHAM then
-			slot3 = slot2:getContextByMediator(LevelMediator2)
-
-			slot3:removeChild(slot3:getContextByMediator(ShamPreCombatMediator))
 		elseif uv0 == SYSTEM_CHALLENGE then
 			slot5 = getProxy(ChallengeProxy):getUserChallengeInfo(uv1.contextData.mode)
 
