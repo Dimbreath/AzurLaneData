@@ -1,7 +1,7 @@
 slot0 = class("ServerNoticeProxy", import(".NetProxy"))
 slot0.SERVER_NOTICES_UPDATE = "server notices update"
 slot0.KEY_NEWLY_ID = "server_notice.newly_id"
-slot0.KEY_STOP_REMIND = "server_notice.stop_remind"
+slot0.KEY_STOP_REMIND = "server_notice.dont_remind"
 
 function slot0.register(slot0)
 	slot0.data = {}
@@ -49,11 +49,11 @@ function slot0.needAutoOpen(slot0)
 		if not slot0:hasNewNotice() and slot3:IsSameDay(PlayerPrefs.GetInt(uv0.KEY_STOP_REMIND), slot3:GetServerTime()) then
 			slot1 = false
 		end
-	else
-		if slot0.runtimeUniqueCode and slot0.runtimeUniqueCode == slot0:getUniqueCode() then
-			return false
-		end
+	elseif slot0.runtimeUniqueCode and slot0.runtimeUniqueCode == slot0:getUniqueCode() then
+		slot1 = false
+	end
 
+	if not slot1 then
 		slot0.runtimeUniqueCode = slot0:getUniqueCode()
 	end
 
