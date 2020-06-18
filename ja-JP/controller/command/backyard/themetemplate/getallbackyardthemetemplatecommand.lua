@@ -61,18 +61,10 @@ function slot0.GetCustomThemeTemplate(slot0, slot1)
 end
 
 function slot0.GetShopThemeTemplate(slot0, slot1)
-	if not getProxy(DormProxy):GetShopThemeTemplates() then
-		slot0:sendNotification(GAME.BACKYARD_GET_THEME_TEMPLATE, {
-			type = BackYardConst.THEME_TEMPLATE_TYPE_SHOP,
-			callback = function ()
-				uv0 = uv1:GetShopThemeTemplates()
+	slot2 = {}
 
-				uv2(uv3(uv4, uv0))
-			end
-		})
-	else
-		slot1(uv0(slot0, slot3))
-	end
+	getProxy(DormProxy):SetShopThemeTemplates(slot2)
+	slot1(slot2)
 end
 
 function slot0.GetCollectionThemeTemplate(slot0, slot1)

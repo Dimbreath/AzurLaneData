@@ -6,9 +6,7 @@ function slot0.register(slot0)
 	slot0:bind(uv0.START_BATTLE, function (slot0)
 		slot1 = nil
 
-		if uv0.contextData.type == RivalInfoLayer.TYPE_SHAM then
-			slot1 = SYSTEM_SHAM
-		elseif uv0.contextData.type == RivalInfoLayer.TYPE_BATTLE then
+		if uv0.contextData.type == RivalInfoLayer.TYPE_BATTLE then
 			slot1 = SYSTEM_DUEL
 		end
 

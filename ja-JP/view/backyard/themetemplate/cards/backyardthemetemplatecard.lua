@@ -25,7 +25,7 @@ function slot0.Update(slot0, slot1)
 
 	setActive(slot0.iconRaw.gameObject, false)
 	BackYardThemeTempalteUtil.GetTexture(slot1:GetTextureIconName(), slot1:GetIconMd5(), function (slot0)
-		if slot0 then
+		if not IsNil(uv0.iconRaw) and slot0 then
 			setActive(uv0.iconRaw.gameObject, true)
 
 			uv0.iconRaw.texture = slot0

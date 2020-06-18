@@ -156,21 +156,13 @@ function slot7.SetTotalBound(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot7.CalcSubmarineBaseLine(slot0, slot1)
-	slot2 = (slot0._totalRightBound + slot0._totalLeftBound) * 0.5
-
 	if slot0._IFF == uv0.FRIENDLY_CODE then
-		if slot1 == SYSTEM_DUEL then
-			-- Nothing
-		elseif slot1 ~= SYSTEM_SHAM then
-			slot0._subAttackBaseLine = slot2
+		if slot1 ~= SYSTEM_DUEL then
+			slot0._subAttackBaseLine = (slot0._totalRightBound + slot0._totalLeftBound) * 0.5
 			slot0._subRetreatBaseLine = slot0._leftBound - 10
 		end
-	elseif slot0._IFF == uv0.FOE_CODE then
-		if slot1 == SYSTEM_DUEL then
-			-- Nothing
-		elseif slot1 == SYSTEM_SHAM then
-			-- Nothing
-		end
+	elseif slot0._IFF == uv0.FOE_CODE and slot1 == SYSTEM_DUEL then
+		-- Nothing
 	end
 end
 

@@ -37,21 +37,16 @@ function slot0.execute(slot0, slot1)
 			currency = uv1
 		}, 19007, function (slot0)
 			if slot0.result == 0 then
-				slot4 = id2res(uv1)
-				slot5 = uv2
-
 				uv0:consume({
-					[slot4] = slot5
+					[id2res(uv1)] = uv2
 				})
 				uv3:updatePlayer(uv0)
 
-				for slot4, slot5 in ipairs(uv4) do
-					uv5:addFurniture(Furniture.New({
-						count = 1,
-						id = slot5
-					}))
+				if pg.furniture_data_template[uv4[1]] and slot2.themeId > 0 then
+					uv5:ResetSystemTheme(slot2.themeId)
 				end
 
+				uv5:AddFurnitrues(uv4)
 				uv6:sendNotification(GAME.BUY_FURNITURE_DONE, uv5:getData(), uv4)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
 			else

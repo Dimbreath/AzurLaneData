@@ -48,7 +48,7 @@ function slot0.set(slot0, slot1)
 	slot0.propetyLimitation = slot0.chapter:getConfig("property_limitation")
 	slot0.eliteFleetList = slot0.chapter:getEliteFleetList()
 	slot0.chapterADValue = slot0.chapter:getConfig("air_dominance")
-	slot0.suggestionValue = slot0.chapter:getConfig("best_air_dominance")
+	slot0.suggestionValue = math.max(slot0.chapter:getConfig("best_air_dominance"), 150)
 	slot0.eliteCommanderList = slot0.chapter:getEliteFleetCommanders()
 	slot0.typeLimitations = slot0.chapter:getConfig("limitation")
 
@@ -232,7 +232,7 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 
 		if slot19 then
 			updateShip(slot22, slot19)
-			setActive(slot0:findTF("event_block", slot22), slot19.inEvent)
+			setActive(slot0:findTF("event_block", slot22), slot19:getFlag("inEvent"))
 
 			slot6[slot19] = true
 		else

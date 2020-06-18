@@ -147,6 +147,18 @@ function slot0.UpdateDorm(slot0, slot1)
 	end
 end
 
+function slot0.OnApplyThemeBefore(slot0)
+	if slot0.pageType then
+		slot0.pages[slot0.pageType]:ExecuteAction("OnApplyThemeBefore")
+	end
+end
+
+function slot0.OnApplyThemeAfter(slot0, slot1)
+	if slot0.pageType then
+		slot0.pages[slot0.pageType]:ExecuteAction("OnApplyThemeAfter", slot1)
+	end
+end
+
 function slot0.UpdateFurnitrue(slot0, slot1)
 	if slot0.pageType then
 		slot0.pages[slot0.pageType]:ExecuteAction("FurnitureUpdated", slot1)

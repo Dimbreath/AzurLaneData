@@ -4,8 +4,8 @@ function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.callback
 
-	if slot2.theme:isOccupyed(uv0.GetAllFloorFurnitures(), getProxy(DormProxy).floor) then
-		uv0.SortListForPut(slot3:getUsableFurnituresForFloor(slot6, slot5))
+	if slot2.theme:IsOccupyed(uv0.GetAllFloorFurnitures(), getProxy(DormProxy).floor) then
+		uv0.SortListForPut(slot3:GetUsableFurnituresForFloor(slot6, slot5))
 
 		if slot4 then
 			slot4(false, slot8)
@@ -13,7 +13,7 @@ function slot0.execute(slot0, slot1)
 	else
 		slot9 = {}
 
-		for slot13, slot14 in pairs(Clone(slot3.furnitruesByIds)) do
+		for slot13, slot14 in pairs(Clone(slot3:GetAllFurniture())) do
 			table.insert(slot9, slot14)
 		end
 

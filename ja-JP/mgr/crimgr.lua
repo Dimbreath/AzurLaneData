@@ -85,9 +85,9 @@ end
 
 function slot1.PlayBGM(slot0, slot1, slot2)
 	if slot0.bgmPlaybackInfo == nil then
-		if slot2 and slot0.storyBGMName then
+		if slot2 and slot0.storyBGMName and slot1 ~= slot0.storyBGMName then
 			slot0:UnloadCueSheet("bgm-" .. slot0.storyBGMName)
-		elseif slot0.normalBGMName then
+		elseif slot0.normalBGMName and slot1 ~= slot0.normalBGMName then
 			slot0:UnloadCueSheet("bgm-" .. slot0.normalBGMName)
 		end
 	end
@@ -114,11 +114,14 @@ function slot1.PlayBGM(slot0, slot1, slot2)
 	end)
 end
 
-function slot1.StopBGM(slot0)
-	slot0.bgmPlaybackInfo = nil
-
+function slot1.StopBGM(slot0, slot1)
 	CriWareMgr.Inst:StopBGM(CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
 
+	if CSharpVersion < uv0.NEXT_VER and slot0.bgmPlaybackInfo then
+		CriWareMgr.Inst:GetChannelData(slot0.bgmPlaybackInfo.cueData.channelName).curCueDataKey = ""
+	end
+
+	slot0.bgmPlaybackInfo = nil
 	slot0.bgmName = nil
 end
 

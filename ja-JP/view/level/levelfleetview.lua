@@ -689,7 +689,7 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 
 		if slot17 then
 			updateShip(slot20, slot17)
-			setActive(slot0:findTF("event_block", slot20), slot17.inEvent)
+			setActive(slot0:findTF("event_block", slot20), slot17:getFlag("inEvent"))
 
 			slot6[slot17] = true
 		else

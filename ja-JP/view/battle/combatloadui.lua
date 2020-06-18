@@ -165,23 +165,6 @@ function slot0.Preload(slot0)
 
 				uv0.addCommanderBuffRes(slot8:buildBattleBuffList())
 			end
-		elseif slot0.contextData.system == SYSTEM_SHAM then
-			for slot12, slot13 in ipairs(getProxy(ChapterProxy):getShamChapter().fleet:getShips(false)) do
-				table.insert(slot3, slot13)
-			end
-
-			slot9 = slot6:getChapterCell(slot7.line.row, slot7.line.column)
-
-			_.each(slot9.rival.mainShips, function (slot0)
-				table.insert(uv0, slot0)
-			end)
-			_.each(slot9.rival.vanguardShips, function (slot0)
-				table.insert(uv0, slot0)
-			end)
-		elseif slot0.contextData.system == SYSTEM_GUILD then
-			for slot12, slot13 in ipairs(getProxy(ChapterProxy):getGuildChapter().fleet:getShips(false)) do
-				table.insert(slot3, slot13)
-			end
 		elseif slot0.contextData.system == SYSTEM_CHALLENGE then
 			ships = getProxy(ChallengeProxy):getUserChallengeInfo(slot0.contextData.mode):getRegularFleet():getShips(false)
 

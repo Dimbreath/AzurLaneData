@@ -69,12 +69,6 @@ function slot0.register(slot0)
 		elseif slot2 then
 			if uv1 == SYSTEM_DUEL then
 				-- Nothing
-			elseif uv1 == SYSTEM_SHAM then
-				slot2:removeChild(slot2:getContextByMediator(ShamPreCombatMediator))
-			elseif uv1 == SYSTEM_GUILD then
-				if slot2:getContextByMediator(GuildPreCombatMediator) then
-					slot2:removeChild(slot5)
-				end
 			elseif uv1 == SYSTEM_SCENARIO then
 				if slot2:getContextByMediator(ChapterPreCombatMediator) then
 					slot2:removeChild(slot5)
@@ -306,16 +300,10 @@ function slot0.GenBattleData(slot0)
 	slot3 = getProxy(BayProxy)
 	slot4 = {}
 
-	if slot2 == SYSTEM_SCENARIO or slot2 == SYSTEM_SHAM or slot2 == SYSTEM_GUILD then
-		slot6 = nil
-
-		if slot2 == SYSTEM_SCENARIO then
-			slot1.RepressInfo = getProxy(ChapterProxy):getActiveChapter():getRepressInfo()
-		elseif slot2 == SYSTEM_SHAM then
-			slot6 = slot5:getShamChapter()
-		elseif slot2 == SYSTEM_GUILD then
-			slot6 = slot5:getGuildChapter()
-		end
+	if slot2 == SYSTEM_SCENARIO then
+		slot5 = getProxy(ChapterProxy)
+		slot6 = slot5:getActiveChapter()
+		slot1.RepressInfo = slot6:getRepressInfo()
 
 		slot0.viewComponent:setChapter(slot6)
 
@@ -585,11 +573,7 @@ function slot0.GenBattleData(slot0)
 	slot1.RivalMainUnitList = {}
 	slot5 = nil
 
-	if slot2 == SYSTEM_SHAM then
-		slot7 = getProxy(ChapterProxy):getShamChapter()
-		slot8 = slot7.fleet
-		slot5 = slot7:getChapterCell(slot8.line.row, slot8.line.column).rival
-	elseif slot2 == SYSTEM_DUEL and slot0.contextData.rivalId then
+	if slot2 == SYSTEM_DUEL and slot0.contextData.rivalId then
 		slot6 = getProxy(MilitaryExerciseProxy)
 		slot5 = slot6:getRivalById(slot0.contextData.rivalId)
 		slot0.oldRank = slot6:getSeasonInfo()
@@ -741,6 +725,7 @@ end
 
 function slot0.handleNotification(slot0, slot1)
 	slot4 = ys.Battle.BattleState.GetInstance()
+	slot5 = slot0.contextData.system
 
 	if slot1:getName() == GAME.FINISH_STAGE_DONE then
 		pg.MsgboxMgr.GetInstance():hide()
@@ -749,7 +734,7 @@ function slot0.handleNotification(slot0, slot1)
 		if slot1:getBody().system == SYSTEM_PROLOGUE then
 			ys.Battle.BattleState.GetInstance():Deactive()
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.CREATE_PLAYER)
-		elseif slot5 == SYSTEM_PERFORM or slot5 == SYSTEM_SIMULATION then
+		elseif slot6 == SYSTEM_PERFORM or slot6 == SYSTEM_SIMULATION then
 			ys.Battle.BattleState.GetInstance():Deactive()
 			slot0.viewComponent:exitBattle()
 
@@ -757,19 +742,19 @@ function slot0.handleNotification(slot0, slot1)
 				slot3.exitCallback()
 			end
 		else
-			slot6 = BattleResultMediator.GetResultView(slot5)
-			slot7 = {}
+			slot7 = BattleResultMediator.GetResultView(slot6)
+			slot8 = {}
 
-			if slot5 == SYSTEM_SCENARIO then
+			if slot6 == SYSTEM_SCENARIO then
 				chapter = getProxy(ChapterProxy):getActiveChapter()
-				slot7 = chapter.operationBuffList
+				slot8 = chapter.operationBuffList
 			end
 
 			slot0:addSubLayers(Context.New({
 				mediator = BattleResultMediator,
-				viewComponent = slot6,
+				viewComponent = slot7,
 				data = {
-					system = slot5,
+					system = slot6,
 					rivalId = slot0.contextData.rivalId,
 					mainFleetId = slot0.contextData.mainFleetId,
 					stageId = slot0.contextData.stageId,
@@ -784,7 +769,7 @@ function slot0.handleNotification(slot0, slot1)
 					actId = slot0.contextData.actId,
 					result = slot3.result,
 					extraDrops = slot3.extraDrops,
-					extraBuffList = slot7,
+					extraBuffList = slot8,
 					mode = slot0.contextData.mode
 				}
 			}))
@@ -804,31 +789,25 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.FINISH_STAGE_ERROR then
 		gcAll(true)
 
-		slot5 = getProxy(ContextProxy)
-		slot7 = slot5:getContextByMediator(LevelMediator2)
-		slot8 = slot5:getContextByMediator(ChallengeMainMediator)
-		slot9 = slot5:getContextByMediator(ActivityBossBattleMediator2)
+		slot6 = getProxy(ContextProxy)
+		slot8 = slot6:getContextByMediator(LevelMediator2)
+		slot9 = slot6:getContextByMediator(ChallengeMainMediator)
+		slot10 = slot6:getContextByMediator(ActivityBossBattleMediator2)
 
-		if slot5:getContextByMediator(DailyLevelMediator) then
-			slot6:removeChild(slot6:getContextByMediator(PreCombatMediator))
+		if slot6:getContextByMediator(DailyLevelMediator) then
+			slot7:removeChild(slot7:getContextByMediator(PreCombatMediator))
+		elseif slot9 then
+			slot9:removeChild(slot9:getContextByMediator(ChallengePreCombatMediator))
 		elseif slot8 then
-			slot8:removeChild(slot8:getContextByMediator(ChallengePreCombatMediator))
-		elseif slot7 then
-			if battleSystem == SYSTEM_DUEL then
+			if slot5 == SYSTEM_DUEL then
 				-- Nothing
-			elseif battleSystem == SYSTEM_SHAM then
-				slot7:removeChild(slot7:getContextByMediator(ShamPreCombatMediator))
-			elseif battleSystem == SYSTEM_GUILD then
-				if slot7:getContextByMediator(GuildPreCombatMediator) then
-					slot7:removeChild(slot10)
-				end
-			elseif battleSystem == SYSTEM_SCENARIO then
-				slot7:removeChild(slot7:getContextByMediator(ChapterPreCombatMediator))
-			elseif battleSystem ~= SYSTEM_PERFORM and battleSystem ~= SYSTEM_SIMULATION then
-				slot7:removeChild(slot7:getContextByMediator(PreCombatMediator))
+			elseif slot5 == SYSTEM_SCENARIO then
+				slot8:removeChild(slot8:getContextByMediator(ChapterPreCombatMediator))
+			elseif slot5 ~= SYSTEM_PERFORM and slot5 ~= SYSTEM_SIMULATION then
+				slot8:removeChild(slot8:getContextByMediator(PreCombatMediator))
 			end
-		elseif slot9 and slot9:getContextByMediator(PreCombatMediator) then
-			slot9:removeChild(slot10)
+		elseif slot10 and slot10:getContextByMediator(PreCombatMediator) then
+			slot10:removeChild(slot11)
 		end
 
 		slot0:sendNotification(GAME.GO_BACK)

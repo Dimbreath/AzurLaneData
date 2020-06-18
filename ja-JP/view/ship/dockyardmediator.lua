@@ -20,12 +20,7 @@ function slot0.register(slot0)
 	elseif slot0.contextData.mode == DockyardScene.MODE_WORLD then
 		slot0.shipsById = {}
 
-		for slot8, slot9 in ipairs(getProxy(WorldProxy):GetWorld():GetActiveMap():GetPortShipVOs()) do
-			slot9.inWorld = true
-			slot0.shipsById[slot9.id] = slot9
-		end
-
-		slot0.viewComponent:setWorld(slot3)
+		slot0.viewComponent:setWorld(getProxy(WorldProxy):GetWorld())
 	else
 		slot0.shipsById = {}
 
@@ -44,13 +39,6 @@ function slot0.register(slot0)
 		slot0.viewComponent:setModShip(slot0.shipsById[slot0.contextData.ignoredIds[1]]:clone())
 	end
 
-	if slot0.contextData.mode == DockyardScene.MODE_MOD or slot0.contextData.mode == DockyardScene.MODE_DESTROY then
-		slot2 = slot0.contextData.flags or {}
-		slot2.inSham = true
-		slot2.inActivity = true
-		slot0.contextData.flags = slot2
-	end
-
 	slot0.fleetProxy = getProxy(FleetProxy)
 	slot0.fleetShipIds = slot0.fleetProxy:getAllShipIds()
 
@@ -60,16 +48,7 @@ function slot0.register(slot0)
 		end
 	end
 
-	if not slot0.contextData.ignoreFlag then
-		slot0:sendNotification(GAME.SET_SHIP_FLAG, {
-			shipsById = slot0.shipsById,
-			flags = slot0.contextData.flags or {},
-			blackBlockShipIds = slot0.contextData.blackBlockShipIds
-		})
-	else
-		slot0.viewComponent:setShips(slot0.shipsById)
-	end
-
+	slot0.viewComponent:setShips(slot0.shipsById)
 	slot0.viewComponent:setShipsCount(table.getCount(slot0.shipsById))
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 	slot0:bind(uv0.ON_DESTROY_SHIPS, function (slot0, slot1, slot2)
@@ -79,8 +58,6 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_SHIP_DETAIL, function (slot0, slot1, slot2)
-		uv0.contextData.activeShipId = slot1.id
-
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
 			shipId = slot1.id,
 			shipVOs = slot2
@@ -101,7 +78,6 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.DESTROY_SHIP_DONE,
 		FleetProxy.FLEET_UPDATED,
-		GAME.SET_SHIP_FLAG_DONE,
 		GAME.EXIT_SHIP_DONE,
 		GAME.UPDATE_EXERCISE_FLEET_DONE,
 		GAME.CANCEL_LEARN_TACTICS_DONE,
@@ -112,9 +88,9 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
-	if slot1:getName() == GAME.SET_SHIP_FLAG_DONE then
-		slot0.viewComponent:setShips(slot1:getBody().shipsById)
-	elseif slot2 == GAME.DESTROY_SHIP_DONE then
+	slot3 = slot1:getBody()
+
+	if slot1:getName() == GAME.DESTROY_SHIP_DONE then
 		if not pg.m02:hasMediator(ShipMainMediator.__cname) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_dockyardMediator_destroy"))
 		end

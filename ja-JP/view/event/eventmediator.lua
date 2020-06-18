@@ -4,44 +4,42 @@ slot0 = class("EventMediator", import("..base.ContextMediator"))
 function slot0.register(slot0)
 	slot0:bind(EventConst.EVEN_USE_PREV_FORMATION, function (slot0, slot1, slot2)
 		slot3 = getProxy(EventProxy)
+		slot4 = getProxy(BayProxy)
+		slot5 = slot4:getData()
 		slot6 = {}
 		slot7 = false
 		slot8 = false
 
-		uv0:sendNotification(GAME.SET_SHIP_FLAG, {
-			shipsById = getProxy(BayProxy):getData(),
-			flags = uv0.contextData.flags or {},
-			callback = function (slot0)
-				for slot4, slot5 in ipairs(uv0) do
-					if slot0[slot5] then
-						slot7, slot8 = Ship.ShipStateConflict("inEvent", slot6)
+		function (slot0)
+			for slot4, slot5 in ipairs(uv0) do
+				if slot0[slot5] then
+					slot7, slot8 = ShipStatus.ShipStatusConflict("inEvent", slot6)
 
-						if slot7 == Ship.STATE_CHANGE_FAIL then
-							uv1 = true
-						elseif slot7 == Ship.STATE_CHANGE_CHECK then
-							uv2 = true
-						else
-							table.insert(uv3, slot5)
-						end
+					if slot7 == ShipStatus.STATE_CHANGE_FAIL then
+						uv1 = true
+					elseif slot7 == ShipStatus.STATE_CHANGE_CHECK then
+						uv2 = true
+					else
+						table.insert(uv3, slot5)
 					end
 				end
-
-				if uv1 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("collect_tip"))
-				end
-
-				if uv2 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("collect_tip2"))
-				end
-
-				uv4.selectedEvent = uv5
-				uv4.selectedEvent.shipIds = uv3
-
-				uv6:updateEventList(true)
-
-				uv4.selectedEvent = nil
 			end
-		})
+
+			if uv1 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("collect_tip"))
+			end
+
+			if uv2 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("collect_tip2"))
+			end
+
+			uv4.selectedEvent = uv5
+			uv4.selectedEvent.shipIds = uv3
+
+			uv6:updateEventList(true)
+
+			uv4.selectedEvent = nil
+		end(slot4:getRawData())
 	end)
 	slot0:bind(EventConst.EVENT_LIST_UPDATE, function (slot0)
 		uv0:updateEventList(true)
@@ -57,33 +55,21 @@ function slot0.register(slot0)
 
 		slot5 = getProxy(EventProxy)
 		slot5.selectedEvent = slot1
-		slot6, slot7, slot8, slot9, slot10 = uv0:getDockCallbackFuncs()
+		slot6, slot7, slot8 = uv0:getDockCallbackFuncs()
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMin = 1,
 			skipSelect = true,
+			useBlackBlock = true,
 			selectedMax = 6,
 			ignoredIds = slot4,
 			selectedIds = slot5.selectedEvent and slot5.selectedEvent.shipIds or {},
 			onShip = slot6,
 			confirmSelect = slot7,
 			onSelected = slot8,
-			onRemoveShip = slot10,
-			onPassShip = slot9,
 			leftTopInfo = i18n("word_operation"),
-			flags = {
-				inExercise = true,
-				inChapter = true,
-				inPvp = true,
-				inFleet = true,
-				inClass = false,
-				inTactics = false,
-				inBackyard = false,
-				inSham = true,
-				inEvent = true,
-				inAdmiral = true
-			},
-			blackBlockShipIds = slot2:GetBlackBlockShipIDsForEvent()
+			hideTagFlags = ShipStatus.TAG_HIDE_EVENT,
+			blockTagFlags = ShipStatus.TAG_BLOCK_EVENT
 		})
 	end)
 	slot0:bind(EventConst.EVENT_FLUSH_NIGHT, function (slot0)
@@ -223,17 +209,15 @@ end
 
 function slot0.getDockCallbackFuncs(slot0)
 	return function (slot0, slot1, slot2)
-		slot3, slot4 = Ship.ShipStateConflict("inEvent", slot0)
+		slot3, slot4 = ShipStatus.ShipStatusCheck("inEvent", slot0, slot1)
 
-		if slot3 == Ship.STATE_CHANGE_FAIL then
-			return false, i18n(slot4)
-		elseif slot3 == Ship.STATE_CHANGE_CHECK then
-			return Ship.ChangeStateCheckBox(slot4, slot0, slot1)
+		if not slot3 then
+			return slot3, slot4
 		end
 
 		for slot9, slot10 in ipairs(slot2) do
 			if slot0:isSameKind(getProxy(BayProxy):getShipById(slot10)) then
-				return false, i18n("event_same_type_not_allowed")
+				return false, i18n("ship_formationMediator_changeNameError_sameShip")
 			end
 		end
 
@@ -242,30 +226,6 @@ function slot0.getDockCallbackFuncs(slot0)
 		slot1()
 	end, function (slot0)
 		getProxy(EventProxy).selectedEvent.shipIds = slot0
-	end, function (slot0, slot1)
-		slot2 = {}
-
-		for slot6, slot7 in pairs(slot1) do
-			if slot0.id ~= slot7.id and slot7:isSameKind(slot0) then
-				slot7.blackBlock = true
-
-				table.insert(slot2, slot7.id)
-			end
-		end
-
-		return slot2
-	end, function (slot0, slot1)
-		slot2 = {}
-
-		for slot6, slot7 in pairs(slot1) do
-			if slot0.id ~= slot7.id and not slot7.inEvent and slot7:isSameKind(slot0) and slot7.blackBlock then
-				table.insert(slot2, slot7.id)
-
-				slot7.blackBlock = nil
-			end
-		end
-
-		return slot2
 	end
 end
 

@@ -46,6 +46,7 @@ function slot0.execute(slot0, slot1)
 				oil = uv0:getOilConsume()
 			})
 			uv2:updatePlayer(uv1)
+			pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
 			uv3:sendNotification(GAME.EVENT_LIST_UPDATE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("event_start_fail", slot0.result))

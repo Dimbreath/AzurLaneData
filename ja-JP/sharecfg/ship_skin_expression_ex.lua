@@ -1387,5 +1387,76 @@ pg.ship_skin_expression_ex = {
 				"2"
 			}
 		}
+	},
+	edu = {
+		touch = "",
+		feeling3 = "",
+		main_1 = "",
+		mail = "",
+		expedition = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		painting = "edu",
+		upgrade = "",
+		feeling4 = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"2"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"3"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"4"
+			}
+		},
+		home = {
+			{
+				1100,
+				"1"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"1"
+			}
+		},
+		main_2 = {
+			{
+				1100,
+				"3"
+			}
+		},
+		main_3 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"3"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"2"
+			}
+		}
 	}
 }

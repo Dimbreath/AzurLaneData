@@ -38,19 +38,23 @@ function slot0.execute(slot0, slot1)
 	end
 
 	function slot7(slot0)
-		uv0:DeleteCustomThemeTemplate(uv1)
+		BackYardThemeTempalteUtil.ClearCaches({
+			uv0:GetTextureName(),
+			uv0:GetTextureIconName()
+		})
+		uv1:DeleteCustomThemeTemplate(uv2)
 
-		if uv0:IsInitShopThemeTemplates() then
-			if uv0:GetShopThemeTemplateById(uv1) then
-				uv0:DeleteShopThemeTemplate(uv1)
+		if uv1:IsInitShopThemeTemplates() then
+			if uv1:GetShopThemeTemplateById(uv2) then
+				uv1:DeleteShopThemeTemplate(uv2)
 			end
 
-			if uv0:GetCollectionThemeTemplateById(uv1) then
-				uv0:DeleteCollectionThemeTemplate(uv1)
+			if uv1:GetCollectionThemeTemplateById(uv2) then
+				uv1:DeleteCollectionThemeTemplate(uv2)
 			end
 		end
 
-		uv2:sendNotification(GAME.BACKYARD_DELETE_THEME_TEMPLATE_DONE)
+		uv3:sendNotification(GAME.BACKYARD_DELETE_THEME_TEMPLATE_DONE)
 	end
 
 	function ()

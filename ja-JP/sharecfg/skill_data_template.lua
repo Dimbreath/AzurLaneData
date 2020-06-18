@@ -7092,7 +7092,7 @@ pg.skill_data_template = {
 		name = "！？",
 		desc = "",
 		type = 0,
-		max_level = 0,
+		max_level = 1,
 		id = 6550,
 		system_transform = {},
 		desc_get_add = {},
@@ -33497,7 +33497,7 @@ pg.skill_data_template = {
 	},
 	[13210] = {
 		desc_get = "",
-		name = "騎士隊の陣形訓練 ",
+		name = "騎士隊の陣形訓練",
 		desc = "戦闘開始時、味方のロイヤル艦船が一隻につき、自身の火力・命中・装填が$1アップ（最大4回まで加算可能）",
 		type = 3,
 		max_level = 10,
@@ -35117,7 +35117,7 @@ pg.skill_data_template = {
 	},
 	[13390] = {
 		desc_get = "",
-		name = "エスキモー、アタック！ ",
+		name = "エスキモー、アタック！",
 		desc = "30秒毎$1で特殊弾幕を展開する（威力はスキルレベルによる）；戦闘中に1度だけ、ダメージを受けることにより自身の耐久が最大値の30％を下回った場合、自身の耐久を最大値の10％回復し、特殊弾幕を展開する",
 		type = 1,
 		max_level = 10,

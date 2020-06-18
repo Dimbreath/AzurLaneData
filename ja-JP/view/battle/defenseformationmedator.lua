@@ -47,39 +47,23 @@ function slot0.register(slot0)
 		uv0:refreshView()
 	end)
 	slot0:bind(uv0.CHANGE_FLEET_SHIP, function (slot0, slot1, slot2)
-		slot4 = nil
+		slot3 = slot1 and slot1.id or nil
+		slot4 = uv0:getSeasonInfo()
+		slot5 = slot4:getMainShipIds()
+		slot6 = slot4:getVanguardShipIds()
 
-		if (slot1 and slot1.id or 0) ~= 0 then
-			slot4 = slot3
-		end
+		for slot11 = #pg.ShipFlagMgr.GetInstance():FilterShips({
+			isActivityNpc = true,
+			inExercise = true
+		}), 1, -1 do
+			if slot7[slot11] == slot3 then
+				table.remove(slot7, slot11)
 
-		slot5 = uv0:getSeasonInfo()
-		slot7 = slot5:getVanguardShipIds()
-		slot8 = {}
-
-		if slot2 == TeamType.Main then
-			function (slot0)
-				uv0 = Clone(slot0)
-
-				if uv1 then
-					for slot4, slot5 in ipairs(uv0) do
-						if slot5 == uv1 then
-							table.removebyvalue(uv0, uv1)
-						end
-					end
-				end
-			end(slot5:getMainShipIds())
-		elseif slot2 == TeamType.Vanguard then
-			slot9(slot7)
-		end
-
-		for slot14, slot15 in pairs(getProxy(BayProxy):getRawData()) do
-			if slot15:isActivityNpc() and not table.contains(slot8, slot15.id) then
-				table.insert(slot8, slot15.id)
+				break
 			end
 		end
 
-		slot11, slot12 = uv1.configDockYardFunc(uv1.ships, slot6, slot7, slot4, slot2, function (slot0, slot1)
+		slot8, slot9 = uv1.configDockYardFunc(uv1.ships, slot5, slot6, slot3, slot2, function (slot0, slot1)
 			uv0:sendNotification(GAME.UPDATE_EXERCISE_FLEET, {
 				fleet = slot0,
 				callback = slot1
@@ -91,25 +75,13 @@ function slot0.register(slot0)
 		uv1:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			callbackQuit = true,
 			selectedMax = 1,
-			activeShipId = slot4,
-			quitTeam = slot3 ~= 0,
+			quitTeam = slot1 ~= nil,
 			teamFilter = slot2,
-			ignoredIds = slot8,
-			flags = {
-				inExercise = true,
-				inChapter = false,
-				inPvp = false,
-				inFleet = false,
-				inClass = false,
-				inTactics = false,
-				inBackyard = false,
-				inSham = false,
-				inEvent = false,
-				inAdmiral = true
-			},
+			ignoredIds = slot7,
+			hideTagFlags = ShipStatus.TAG_HIDE_DEFENSE,
 			leftTopInfo = i18n("word_formation"),
-			onShip = slot12,
-			onSelected = slot11
+			onShip = slot9,
+			onSelected = slot8
 		})
 	end)
 end

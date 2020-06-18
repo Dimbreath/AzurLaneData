@@ -80,6 +80,7 @@ function slot0.execute(slot0, slot1)
 			_.each(slot0.new_collection, function (slot0)
 				table.insert(uv0.eventList, EventInfo.New(slot0))
 			end)
+			pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
 			uv1:sendNotification(GAME.EVENT_LIST_UPDATE)
 
 			if uv2 then

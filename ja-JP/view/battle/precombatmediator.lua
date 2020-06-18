@@ -106,74 +106,48 @@ function slot0.register(slot0)
 
 		FormationMediator.saveEdit()
 
-		slot5, slot6 = nil
-
-		if slot1 == nil then
-			slot5 = false
-			slot6 = nil
-		else
-			slot5 = #slot2.ships > 1
-			slot6 = slot1.id
-		end
-
-		slot7 = uv1 == SYSTEM_DUEL
+		slot5 = uv1 == SYSTEM_DUEL
 
 		if slot2.id == FleetProxy.PVP_FLEET_ID then
-			for slot12, slot13 in pairs(getProxy(BayProxy):getRawData()) do
-				if slot13:isActivityNpc() then
-					table.insert(slot4, slot13.id)
+			for slot10, slot11 in pairs(getProxy(BayProxy):getRawData()) do
+				if slot11:isActivityNpc() then
+					table.insert(slot4, slot11.id)
 				end
 			end
 		end
 
-		slot8 = slot7 and {
-			inExercise = true,
-			inChapter = false,
-			inPvp = false,
-			inFleet = false,
-			inClass = false,
-			inTactics = false,
-			inBackyard = false,
-			inSham = false,
-			inEvent = true,
-			inAdmiral = true
-		} or {
-			inExercise = true,
-			inChapter = true,
-			inPvp = false,
-			inFleet = true,
-			inClass = false,
-			inTactics = false,
-			inBackyard = false,
-			inSham = true,
-			inEvent = true,
-			inAdmiral = true
-		}
-		slot9, slot10, slot11 = nil
+		slot6 = slot5 and ShipStatus.TAG_HIDE_PVP or ShipStatus.TAG_HIDE_NORMAL
+		slot7 = slot5 and ShipStatus.TAG_BLOCK_PVP or nil
+		slot8, slot9, slot10 = nil
 
 		if slot2.id == FleetProxy.PVP_FLEET_ID then
-			slot9, slot10, slot11 = FormationMediator.getDockCallbackFuncsForExercise(uv0, slot1, slot2, slot3)
+			slot8, slot9, slot10 = FormationMediator.getDockCallbackFuncsForExercise(uv0, slot1, slot2, slot3)
 		else
-			slot9, slot10, slot11 = FormationMediator.getDockCallbackFuncs(uv0, slot1, slot2, slot3)
+			slot8, slot9, slot10 = FormationMediator.getDockCallbackFuncs(uv0, slot1, slot2, slot3)
+		end
+
+		slot11 = {}
+
+		for slot15, slot16 in ipairs(slot2.ships) do
+			if not slot1 or slot16 ~= slot1.id then
+				table.insert(slot11, slot16)
+			end
 		end
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMin = 0,
+			useBlackBlock = true,
 			selectedMax = 1,
 			ignoredIds = slot4,
-			activeShipId = slot6,
 			leastLimitMsg = i18n("battle_preCombatMediator_leastLimit"),
-			quitTeam = slot5,
-			blackBlockShipIds = getProxy(BayProxy):GetBlackBlockShipIDsForFormation({
-				fleetId = slot2.id,
-				team = slot3,
-				activeShipId = slot6
-			}),
+			quitTeam = slot1 ~= nil,
 			teamFilter = slot3,
-			onShip = slot9,
-			confirmSelect = slot10,
-			onSelected = slot11,
-			flags = slot8
+			onShip = slot8,
+			confirmSelect = slot9,
+			onSelected = slot10,
+			hideTagFlags = slot6,
+			blockTagFlags = slot7,
+			otherSelectedIds = slot11
 		})
 	end)
 	slot0:bind(uv0.ON_COMMIT_EDIT, function (slot0, slot1)

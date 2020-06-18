@@ -19,7 +19,7 @@ function slot0.Update(slot0, slot1, slot2)
 	SetActive(slot0.add, slot1.id == "")
 
 	if slot1.id ~= "" then
-		slot3 = slot1.type == BackYardTheme.TYPE_SYSTEM
+		slot3 = slot1:IsSystem()
 
 		setActive(slot0.iconImg.gameObject, slot3)
 		setActive(slot0.rawIcon.gameObject, false)
@@ -27,7 +27,7 @@ function slot0.Update(slot0, slot1, slot2)
 		if not slot3 then
 			if BackYardThemeTempalteUtil.FileExists(slot1:GetTextureIconName()) or slot1:IsPushed() then
 				BackYardThemeTempalteUtil.GetTexture(slot1:GetTextureIconName(), slot1:GetIconMd5(), function (slot0)
-					if slot0 then
+					if not IsNil(uv0.rawIcon) and slot0 then
 						setActive(uv0.rawIcon.gameObject, true)
 
 						uv0.rawIcon.texture = slot0
@@ -56,6 +56,8 @@ function slot0.Update(slot0, slot1, slot2)
 		setText(slot0.comfortableTF, shortenString(slot1:getName(), 4))
 		SetActive(slot0.newTF, false)
 		slot0:UpdateState(slot2)
+	else
+		setActive(slot0.pos, false)
 	end
 end
 

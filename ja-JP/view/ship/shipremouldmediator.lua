@@ -39,14 +39,10 @@ function slot0.register(slot0)
 			selectedMin = 1,
 			skipSelect = true,
 			selectedMax = 1,
-			flags = {
-				inSham = true,
-				inActivity = true
-			},
 			ignoredIds = slot2,
 			selectedIds = uv1.contextData.materialShipIds or {},
 			onShip = function (slot0, slot1)
-				if slot0.inAdmiral then
+				if slot0:getFlag("inAdmiral") then
 					return false, i18n("confirm_unlock_ship_main")
 				elseif slot0:GetLockState() == Ship.LOCK_STATE_LOCK then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -65,7 +61,7 @@ function slot0.register(slot0)
 
 					return false, nil
 				else
-					return Ship.canDestroyShip(slot0, slot1)
+					return ShipStatus.canDestroyShip(slot0, slot1)
 				end
 			end,
 			onSelected = function (slot0)

@@ -7,13 +7,7 @@ function slot0.register(slot0)
 	slot0.bayProxy = getProxy(BayProxy)
 
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
-
-	slot3 = slot0.bayProxy:getRawData()
-
-	slot0:sendNotification(GAME.SET_SHIP_FLAG, {
-		shipsById = slot3
-	})
-	slot0.viewComponent:setShips(slot3)
+	slot0.viewComponent:setShips(slot0.bayProxy:getRawData())
 	slot0.viewComponent:setItems(getProxy(BagProxy):getData())
 	slot0.viewComponent:setShip(slot0.bayProxy:getShipById(slot0.contextData.shipId))
 	slot0:bind(uv0.UPGRADE_SHIP, function (slot0, slot1)
@@ -26,26 +20,22 @@ function slot0.register(slot0)
 		slot3 = {}
 		slot5 = pg.ship_data_template
 
-		for slot10, slot11 in pairs(uv1) do
-			if slot5[slot11.configId].group_type ~= slot5[slot1.configId].group_type and not slot11:isTestShip() or slot1.id == slot11.id or slot11:isTestShip() and not slot11:canUseTestShip(slot1:getRarity()) or table.contains(uv0.bayProxy:fileterShips(ShipStatus.FILTER_SHIPS_FLAGS_3), slot11.id) then
+		for slot10, slot11 in pairs(uv0) do
+			if slot5[slot11.configId].group_type ~= slot5[slot1.configId].group_type and not slot11:isTestShip() or slot1.id == slot11.id or slot11:isTestShip() and not slot11:canUseTestShip(slot1:getRarity()) or table.contains(pg.ShipFlagMgr.GetInstance():FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_3), slot11.id) then
 				table.insert(slot3, slot11.id)
 			end
 		end
 
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+		uv1:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			skipSelect = true,
 			leftTopInfo = i18n("word_upgrade"),
-			flags = {
-				inSham = true,
-				inActivity = true
-			},
 			mode = DockyardScene.MODE_UPGRADE,
 			selectedMax = slot2 or 1,
 			selectedMin = slot2 or 1,
 			ignoredIds = slot3,
-			selectedIds = uv0.contextData.materialShipIds or {},
+			selectedIds = uv1.contextData.materialShipIds or {},
 			onShip = function (slot0, slot1)
-				if slot0.inAdmiral then
+				if slot0:getFlag("inAdmiral") then
 					return false, i18n("confirm_unlock_ship_main")
 				elseif slot0:GetLockState() == Ship.LOCK_STATE_LOCK then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -64,7 +54,7 @@ function slot0.register(slot0)
 
 					return false, nil
 				else
-					return Ship.canDestroyShip(slot0, slot1)
+					return ShipStatus.canDestroyShip(slot0, slot1)
 				end
 			end,
 			onSelected = function (slot0)
@@ -115,22 +105,16 @@ function slot0.listNotificationInterests(slot0)
 		GAME.UPGRADE_STAR_DONE,
 		BagProxy.ITEM_UPDATED,
 		BayProxy.SHIP_REMOVED,
-		GAME.SET_SHIP_FLAG_DONE,
 		PlayerProxy.UPDATED
 	}
 end
 
 function slot0.handleNotification(slot0, slot1)
-	if slot1:getName() == GAME.SET_SHIP_FLAG_DONE then
-		slot0.viewComponent:setShips(slot1:getBody().shipsById)
-	elseif slot2 == PlayerProxy.UPDATED then
-		slot0.viewComponent:setPlayer(slot3)
+	if slot1:getName() == PlayerProxy.UPDATED then
+		slot0.viewComponent:setPlayer(slot1:getBody())
 	elseif slot2 == GAME.UPGRADE_STAR_DONE then
 		slot0.contextData.materialShipIds = nil
 
-		slot0:sendNotification(GAME.SET_SHIP_FLAG, {
-			shipsById = slot0.bayProxy:getRawData()
-		})
 		slot0.viewComponent:setShip(slot3.newShip)
 		slot0.viewComponent:updateStagesScrollView()
 		slot0:addSubLayers(Context.New({
@@ -141,6 +125,7 @@ function slot0.handleNotification(slot0, slot1)
 				oldShip = slot3.oldShip
 			}
 		}))
+		slot0.viewComponent:setShips(slot0.bayProxy:getRawData())
 	elseif slot2 == BagProxy.ITEM_UPDATED then
 		slot0.viewComponent:setItems(getProxy(BagProxy):getRawData())
 	end

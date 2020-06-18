@@ -36,27 +36,13 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMax = 1,
 			ignoredIds = slot4,
-			activeShipId = activeShipId,
 			prevPage = uv0.__cname,
-			flags = {
-				inExercise = true,
-				inChapter = false,
-				inPvp = false,
-				inFleet = false,
-				inClass = false,
-				inTactics = false,
-				inBackyard = false,
-				inSham = false,
-				inEvent = false,
-				inAdmiral = true
-			},
+			hideTagFlags = ShipStatus.TAG_HIDE_TACTICES,
 			onShip = function (slot0, slot1, slot2)
-				slot3, slot4 = Ship.ShipStateConflict("inTactics", slot0)
+				slot3, slot4 = ShipStatus.ShipStatusCheck("inTactics", slot0, slot1)
 
-				if slot3 == Ship.STATE_CHANGE_FAIL then
-					return false, i18n(slot4)
-				elseif slot3 == Ship.STATE_CHANGE_CHECK then
-					return Ship.ChangeStateCheckBox(slot4, slot0, slot1)
+				if not slot3 then
+					return slot3, slot4
 				end
 
 				return true

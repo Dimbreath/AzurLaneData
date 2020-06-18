@@ -138,6 +138,7 @@ function slot0.init(slot0)
 	slot0.calcMaxBtn = slot0:findTF("max", slot0.calcPanel)
 	slot0.calcTxt = slot0:findTF("count/Text", slot0.calcPanel)
 	slot0.fittingBtn = slot0:findTF("desc/fitting_btn", slot0.modPanel)
+	slot0.fittingBtnEffect = slot0.fittingBtn:Find("anim/ShipBlue02")
 	slot0.fittingPanel = slot0:findTF("fitting_panel", slot0.rightPanel)
 
 	setActive(slot0.fittingPanel, false)
@@ -301,26 +302,21 @@ end
 slot7 = 0.5
 
 function slot0.hideUI(slot0)
-	if LeanTween.isTweening(go(slot0.leftPanle)) or LeanTween.isTweening(go(slot0.rightPanel)) or LeanTween.isTweening(go(slot0.bottomPanel)) then
-		return
-	end
+	LeanTween.cancel(slot0.bottomPanel)
+	LeanTween.cancel(slot0.topPanel)
+	LeanTween.cancel(slot0.topBg)
+	slot0:switchUI(uv0, slot0.flag)
 
 	slot0.flag = not slot0.flag
 
 	if slot0.flag then
-		LeanTween.moveX(slot0.leftPanle, -slot0.leftPanle.rect.width - 400, uv0)
-		LeanTween.moveX(slot0.rightPanel, 400, uv0)
 		LeanTween.moveY(slot0.bottomPanel, -slot0.bottomWidth, uv0)
 		LeanTween.moveY(slot0.topPanel, slot0.topWidth, uv0)
 		LeanTween.moveY(slot0.topBg, slot0.topWidth, uv0)
-		LeanTween.moveX(slot0.centerPanel, 0, uv0)
 	else
-		LeanTween.moveX(slot0.leftPanle, 0, uv0)
-		LeanTween.moveX(slot0.rightPanel, -slot0.rightPanel.rect.width, uv0)
 		LeanTween.moveY(slot0.bottomPanel, 0, uv0)
 		LeanTween.moveY(slot0.topPanel, 0, uv0)
 		LeanTween.moveY(slot0.topBg, 0, uv0)
-		LeanTween.moveX(slot0.centerPanel, 0, uv0)
 	end
 
 	setActive(slot0.nameTF, not slot0.flag)
@@ -328,27 +324,60 @@ function slot0.hideUI(slot0)
 	setActive(slot0.helpBtn, not slot0.flag)
 end
 
-function slot0.switchUI(slot0, slot1, slot2)
-	if slot2 then
-		LeanTween.moveX(slot0.leftPanle, 0, slot1)
-		LeanTween.moveX(slot0.rightPanel, -slot0.rightPanel.rect.width, slot1)
-		LeanTween.moveX(slot0.centerPanel, 0, slot1)
-	else
-		LeanTween.moveX(slot0.leftPanle, -slot0.leftPanle.rect.width - 400, slot1)
-		LeanTween.moveX(slot0.rightPanel, 400, slot1)
-		LeanTween.moveX(slot0.centerPanel, 0, slot1)
-	end
-end
+function slot0.switchUI(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot6 = nil
+	slot6 = (slot2 or {
+		-slot0.leftPanle.rect.width - 400,
+		slot0.rightPanel.rect.width + 400,
+		0
+	}) and (slot3 or {
+		0,
+		0,
+		0
+	}) and {
+		-slot0.leftPanle.rect.width - 400,
+		0,
+		-slot0.rightPanel.rect.width / 2
+	}
 
-function slot0.switch2FittingPanel(slot0, slot1, slot2)
-	if slot2 then
-		LeanTween.moveX(slot0.rightPanel, -slot0.rightPanel.rect.width, slot1)
-		LeanTween.moveX(slot0.centerPanel, -slot0.rightPanel.rect.width / 2, slot1)
-	else
-		LeanTween.moveX(slot0.leftPanle, -slot0.leftPanle.rect.width - 400, slot1)
-		LeanTween.moveX(slot0.rightPanel, 400, slot1)
-		LeanTween.moveX(slot0.centerPanel, 0, slot1)
+	LeanTween.cancel(slot0.leftPanle)
+	LeanTween.cancel(slot0.rightPanel)
+	LeanTween.cancel(slot0.centerPanel)
+
+	if slot0.cbTimer then
+		slot0.cbTimer:Stop()
+
+		slot0.cbTimer = nil
 	end
+
+	slot0.isSwitchAnim = true
+
+	parallelAsync({
+		function (slot0)
+			LeanTween.moveX(uv0.leftPanle, uv1[1], uv2):setOnComplete(System.Action(slot0))
+		end,
+		function (slot0)
+			LeanTween.moveX(uv0.rightPanel, uv1[2], uv2):setOnComplete(System.Action(slot0))
+		end,
+		function (slot0)
+			LeanTween.moveX(uv0.centerPanel, uv1[3], uv2):setOnComplete(System.Action(slot0))
+		end
+	}, function ()
+		if uv0 then
+			uv1.cbTimer = Timer.New(function ()
+				uv0.cbTimer = nil
+				uv0.isSwitchAnim = false
+
+				return existCall(uv1)
+			end, uv0)
+
+			uv1.cbTimer:Start()
+		else
+			uv1.isSwitchAnim = false
+
+			return existCall(uv2)
+		end
+	end)
 end
 
 function slot0.createShipItem(slot0, slot1)
@@ -443,20 +472,15 @@ function slot0.initShips(slot0)
 
 						if uv0.inFlag then
 							if uv0.nowShipId ~= uv0.contextData.shipBluePrintVO.id then
-								slot2 = 0.3
-
-								uv0:switchUI(slot2, false)
-								LeanTween.delayedCall(slot2 + 0.1, System.Action(function ()
+								uv0:switchUI(0.3, false, false, function ()
 									uv0()
-									Canvas.ForceUpdateCanvases()
-									uv1:switchUI(uv2, true)
-								end))
+									uv1:switchUI(uv2, true, false)
+								end, 0.1)
 							else
 								slot1()
 							end
 						else
 							slot1()
-							Canvas.ForceUpdateCanvases()
 
 							uv0.inFlag = true
 							uv0.flag = true
@@ -864,20 +888,26 @@ function slot0.updateModPanel(slot0)
 	function (slot0)
 		setActive(uv0.calcPanel, not slot0)
 		setActive(uv0.fittingBtn, slot0)
+		setActive(uv0.fittingBtnEffect, false)
 	end(false)
 
 	if slot1:canFateSimulation() then
-		slot0:updateFittingPanel()
 		onButton(slot0, slot0.fittingBtn, function ()
+			if uv0.isSwitchAnim then
+				return
+			end
+
 			slot0 = 0.3
 
-			setActive(uv0:findTF("anim/ShipBlue02", uv0.fittingBtn), true)
-			LeanTween.delayedCall(0.6, System.Action(function ()
-				uv0:switch2FittingPanel(uv1, false)
-				LeanTween.delayedCall(uv1 + 0.1, System.Action(function ()
+			setActive(uv0.fittingBtnEffect, true)
+
+			uv0.cbTimer = Timer.New(function ()
+				uv0.cbTimer = nil
+
+				uv0:switchUI(uv1, false, true, function ()
 					setActive(uv0.modPanel, false)
 					setActive(uv0.fittingPanel, true)
-					setActive(uv0:findTF("anim/ShipBlue02", uv0.fittingBtn), false)
+					setActive(uv0.fittingBtnEffect, false)
 
 					if not PlayerPrefs.HasKey("first_fate") then
 						triggerButton(uv0.helpBtn)
@@ -885,11 +915,13 @@ function slot0.updateModPanel(slot0)
 						PlayerPrefs.Save()
 					end
 
-					Canvas.ForceUpdateCanvases()
-					uv0:switch2FittingPanel(uv1, true)
-				end))
-			end))
+					uv0:switchUI(uv1, true, true)
+				end, 0.1)
+			end, 0.6)
+
+			uv0.cbTimer:Start()
 		end, SFX_PANEL)
+		slot0:updateFittingPanel()
 
 		if not pg.StoryMgr.GetInstance():IsPlayed(slot1:getConfig("luck_story")) then
 			pg.StoryMgr.GetInstance():Play(slot9, function ()
@@ -931,15 +963,11 @@ function slot0.updateFittingPanel(slot0)
 	GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_" .. slot1.id, "", slot0:findTF("phase_5/off/icon_off", slot0.fittingAttrPanel), true)
 	GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_on_" .. slot1.id, "", slot0:findTF("phase_5/on/icon_on", slot0.fittingAttrPanel), true)
 	onButton(slot0, slot0.fittingCancelBtn, function ()
-		slot0 = 0.3
-
-		uv0:switchUI(slot0, false)
-		LeanTween.delayedCall(slot0 + 0.1, System.Action(function ()
+		uv0:switchUI(0.3, false, false, function ()
 			setActive(uv0.modPanel, true)
 			setActive(uv0.fittingPanel, false)
-			Canvas.ForceUpdateCanvases()
-			uv0:switchUI(uv1, true)
-		end))
+			uv0:switchUI(uv1, true, false)
+		end, 0.1)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.fittingConfirmBtn, function ()
 		if uv0:inModAnim() then

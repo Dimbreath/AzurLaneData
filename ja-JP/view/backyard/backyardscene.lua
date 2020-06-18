@@ -114,6 +114,9 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 end
 
+function slot0.OnLoaded(slot0)
+end
+
 function slot0.StartUp(slot0)
 	slot0:setMode()
 	slot0:displayBuff()

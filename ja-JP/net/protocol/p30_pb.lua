@@ -1,4 +1,5 @@
 slot0 = require("protobuf")
+slot1 = require("common_pb")
 
 module("p30_pb")
 
@@ -29,14 +30,7 @@ slot2 = {
 	MAIL_DETAIL_ATTACHMENT_LIST_FIELD = slot0.FieldDescriptor(),
 	ATTACHMENT_TYPE_FIELD = slot0.FieldDescriptor(),
 	ATTACHMENT_ID_FIELD = slot0.FieldDescriptor(),
-	ATTACHMENT_NUMBER_FIELD = slot0.FieldDescriptor(),
-	CS_30101_ACT_ID_FIELD = slot0.FieldDescriptor(),
-	CS_30101_ANSWERS_FIELD = slot0.FieldDescriptor(),
-	SC_30102_RESULT_FIELD = slot0.FieldDescriptor(),
-	SC_30102_DROP_LIST_FIELD = slot0.FieldDescriptor(),
-	ANSWER_ID_FIELD = slot0.FieldDescriptor(),
-	ANSWER_OPTIONS_FIELD = slot0.FieldDescriptor(),
-	ANSWER_CONTAIN_FIELD = slot0.FieldDescriptor()
+	ATTACHMENT_NUMBER_FIELD = slot0.FieldDescriptor()
 }
 SC_30001 = slot0.Descriptor()
 CS_30002 = slot0.Descriptor()
@@ -52,9 +46,6 @@ SC_30011 = slot0.Descriptor()
 MAIL_SIGLE = slot0.Descriptor()
 MAIL_DETAIL = slot0.Descriptor()
 ATTACHMENT = slot0.Descriptor()
-CS_30101 = slot0.Descriptor()
-SC_30102 = slot0.Descriptor()
-ANSWER = slot0.Descriptor()
 slot2.SC_30001_UNREAD_NUMBER_FIELD.name = "unread_number"
 slot2.SC_30001_UNREAD_NUMBER_FIELD.full_name = "p30.sc_30001.unread_number"
 slot2.SC_30001_UNREAD_NUMBER_FIELD.number = 1
@@ -442,110 +433,12 @@ ATTACHMENT.fields = {
 }
 ATTACHMENT.is_extendable = false
 ATTACHMENT.extensions = {}
-slot2.CS_30101_ACT_ID_FIELD.name = "act_id"
-slot2.CS_30101_ACT_ID_FIELD.full_name = "p30.cs_30101.act_id"
-slot2.CS_30101_ACT_ID_FIELD.number = 1
-slot2.CS_30101_ACT_ID_FIELD.index = 0
-slot2.CS_30101_ACT_ID_FIELD.label = 2
-slot2.CS_30101_ACT_ID_FIELD.has_default_value = false
-slot2.CS_30101_ACT_ID_FIELD.default_value = 0
-slot2.CS_30101_ACT_ID_FIELD.type = 13
-slot2.CS_30101_ACT_ID_FIELD.cpp_type = 3
-slot2.CS_30101_ANSWERS_FIELD.name = "answers"
-slot2.CS_30101_ANSWERS_FIELD.full_name = "p30.cs_30101.answers"
-slot2.CS_30101_ANSWERS_FIELD.number = 2
-slot2.CS_30101_ANSWERS_FIELD.index = 1
-slot2.CS_30101_ANSWERS_FIELD.label = 3
-slot2.CS_30101_ANSWERS_FIELD.has_default_value = false
-slot2.CS_30101_ANSWERS_FIELD.default_value = {}
-slot2.CS_30101_ANSWERS_FIELD.message_type = ANSWER
-slot2.CS_30101_ANSWERS_FIELD.type = 11
-slot2.CS_30101_ANSWERS_FIELD.cpp_type = 10
-CS_30101.name = "cs_30101"
-CS_30101.full_name = "p30.cs_30101"
-CS_30101.nested_types = {}
-CS_30101.enum_types = {}
-CS_30101.fields = {
-	slot2.CS_30101_ACT_ID_FIELD,
-	slot2.CS_30101_ANSWERS_FIELD
-}
-CS_30101.is_extendable = false
-CS_30101.extensions = {}
-slot2.SC_30102_RESULT_FIELD.name = "result"
-slot2.SC_30102_RESULT_FIELD.full_name = "p30.sc_30102.result"
-slot2.SC_30102_RESULT_FIELD.number = 1
-slot2.SC_30102_RESULT_FIELD.index = 0
-slot2.SC_30102_RESULT_FIELD.label = 2
-slot2.SC_30102_RESULT_FIELD.has_default_value = false
-slot2.SC_30102_RESULT_FIELD.default_value = 0
-slot2.SC_30102_RESULT_FIELD.type = 13
-slot2.SC_30102_RESULT_FIELD.cpp_type = 3
-slot2.SC_30102_DROP_LIST_FIELD.name = "drop_list"
-slot2.SC_30102_DROP_LIST_FIELD.full_name = "p30.sc_30102.drop_list"
-slot2.SC_30102_DROP_LIST_FIELD.number = 2
-slot2.SC_30102_DROP_LIST_FIELD.index = 1
-slot2.SC_30102_DROP_LIST_FIELD.label = 3
-slot2.SC_30102_DROP_LIST_FIELD.has_default_value = false
-slot2.SC_30102_DROP_LIST_FIELD.default_value = {}
-slot2.SC_30102_DROP_LIST_FIELD.message_type = require("common_pb").DROPINFO
-slot2.SC_30102_DROP_LIST_FIELD.type = 11
-slot2.SC_30102_DROP_LIST_FIELD.cpp_type = 10
-SC_30102.name = "sc_30102"
-SC_30102.full_name = "p30.sc_30102"
-SC_30102.nested_types = {}
-SC_30102.enum_types = {}
-SC_30102.fields = {
-	slot2.SC_30102_RESULT_FIELD,
-	slot2.SC_30102_DROP_LIST_FIELD
-}
-SC_30102.is_extendable = false
-SC_30102.extensions = {}
-slot2.ANSWER_ID_FIELD.name = "id"
-slot2.ANSWER_ID_FIELD.full_name = "p30.answer.id"
-slot2.ANSWER_ID_FIELD.number = 1
-slot2.ANSWER_ID_FIELD.index = 0
-slot2.ANSWER_ID_FIELD.label = 2
-slot2.ANSWER_ID_FIELD.has_default_value = false
-slot2.ANSWER_ID_FIELD.default_value = 0
-slot2.ANSWER_ID_FIELD.type = 13
-slot2.ANSWER_ID_FIELD.cpp_type = 3
-slot2.ANSWER_OPTIONS_FIELD.name = "options"
-slot2.ANSWER_OPTIONS_FIELD.full_name = "p30.answer.options"
-slot2.ANSWER_OPTIONS_FIELD.number = 2
-slot2.ANSWER_OPTIONS_FIELD.index = 1
-slot2.ANSWER_OPTIONS_FIELD.label = 3
-slot2.ANSWER_OPTIONS_FIELD.has_default_value = false
-slot2.ANSWER_OPTIONS_FIELD.default_value = {}
-slot2.ANSWER_OPTIONS_FIELD.type = 13
-slot2.ANSWER_OPTIONS_FIELD.cpp_type = 3
-slot2.ANSWER_CONTAIN_FIELD.name = "contain"
-slot2.ANSWER_CONTAIN_FIELD.full_name = "p30.answer.contain"
-slot2.ANSWER_CONTAIN_FIELD.number = 3
-slot2.ANSWER_CONTAIN_FIELD.index = 2
-slot2.ANSWER_CONTAIN_FIELD.label = 1
-slot2.ANSWER_CONTAIN_FIELD.has_default_value = false
-slot2.ANSWER_CONTAIN_FIELD.default_value = ""
-slot2.ANSWER_CONTAIN_FIELD.type = 9
-slot2.ANSWER_CONTAIN_FIELD.cpp_type = 9
-ANSWER.name = "answer"
-ANSWER.full_name = "p30.answer"
-ANSWER.nested_types = {}
-ANSWER.enum_types = {}
-ANSWER.fields = {
-	slot2.ANSWER_ID_FIELD,
-	slot2.ANSWER_OPTIONS_FIELD,
-	slot2.ANSWER_CONTAIN_FIELD
-}
-ANSWER.is_extendable = false
-ANSWER.extensions = {}
-answer = slot0.Message(ANSWER)
 attachment = slot0.Message(ATTACHMENT)
 cs_30002 = slot0.Message(CS_30002)
 cs_30004 = slot0.Message(CS_30004)
 cs_30006 = slot0.Message(CS_30006)
 cs_30008 = slot0.Message(CS_30008)
 cs_30010 = slot0.Message(CS_30010)
-cs_30101 = slot0.Message(CS_30101)
 mail_detail = slot0.Message(MAIL_DETAIL)
 mail_sigle = slot0.Message(MAIL_SIGLE)
 sc_30001 = slot0.Message(SC_30001)
@@ -554,4 +447,3 @@ sc_30005 = slot0.Message(SC_30005)
 sc_30007 = slot0.Message(SC_30007)
 sc_30009 = slot0.Message(SC_30009)
 sc_30011 = slot0.Message(SC_30011)
-sc_30102 = slot0.Message(SC_30102)
