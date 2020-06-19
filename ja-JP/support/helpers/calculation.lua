@@ -80,3 +80,19 @@ function calcAirDominanceStatus(slot0, slot1, slot2)
 		return 5
 	end
 end
+
+function sortCompare(...)
+	for slot3 = 1, select("#", ...) do
+		if type(select(slot3, ...)) == "table" then
+			if slot4[1] < slot4[2] then
+				return true
+			elseif slot4[1] ~= slot4[2] then
+				return false
+			end
+		elseif type(slot4) == "boolean" then
+			return slot4
+		end
+	end
+
+	return false
+end

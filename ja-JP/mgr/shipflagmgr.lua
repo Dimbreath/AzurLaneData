@@ -5,6 +5,7 @@ slot1 = slot0.ShipFlagMgr
 
 function slot1.Init(slot0, slot1)
 	slot0.flagDic = {}
+	slot0.extraInfo = {}
 
 	table.foreachi(ShipStatus.flagList, function (slot0, slot1)
 		uv0.flagDic[slot1] = {}
@@ -23,36 +24,28 @@ slot2 = {
 		return getProxy(FleetProxy):getAllShipIds(true)
 	end,
 	inElite = function ()
-		slot1 = {}
-		slot2 = {}
+		slot0 = {
+			[slot5] = _.flatten(slot6)
+		}
 
-		for slot6, slot7 in pairs(getProxy(ChapterProxy).mapEliteFleetCache) do
-			for slot11, slot12 in ipairs(_.flatten(slot7)) do
-				table.insert(slot1, slot12)
-				table.insert(slot2, slot6)
-			end
+		for slot5, slot6 in pairs(getProxy(ChapterProxy).mapEliteFleetCache) do
+			-- Nothing
 		end
 
-		return slot1, slot2
+		return _.flatten(_.values(slot0)), slot0
 	end,
 	inActivity = function ()
-		slot2 = {}
-		slot3 = {}
-
-		for slot7, slot8 in pairs(getProxy(FleetProxy):getActivityFleets()) do
-			slot12 = _.values(slot8)
-
-			function slot13(slot0)
+		slot0 = {
+			[slot6] = _.flatten(_.map(_.values(slot7), function (slot0)
 				return slot0.ships
-			end
+			end))
+		}
 
-			for slot12, slot13 in ipairs(_.flatten(_.map(slot12, slot13))) do
-				table.insert(slot2, slot13)
-				table.insert(slot3, slot7)
-			end
+		for slot6, slot7 in pairs(_.values(getProxy(FleetProxy):getActivityFleets())) do
+			-- Nothing
 		end
 
-		return slot2, slot3
+		return _.flatten(_.values(slot0)), slot0
 	end,
 	inPvP = function ()
 		return getProxy(FleetProxy):getFleetById(FleetProxy.PVP_FLEET_ID) and slot1:getShipIds() or {}
@@ -89,12 +82,28 @@ slot2 = {
 
 function slot1.MarkShipsFlag(slot0, slot1, slot2, slot3)
 	for slot7, slot8 in ipairs(slot2) do
-		slot0.flagDic[slot1][slot8] = (slot3 or {})[slot7] or true
+		slot0.flagDic[slot1][slot8] = true
+	end
+
+	if slot3 then
+		slot0.extraInfo[slot1] = slot3
 	end
 end
 
-function slot1.GetShipFlag(slot0, slot1, slot2)
-	return slot0.flagDic[slot2][slot1]
+function slot1.GetShipFlag(slot0, slot1, slot2, slot3)
+	if type(defaultValue(slot3, true)) == "boolean" then
+		return slot0.flagDic[slot2][slot1] == slot3
+	elseif type(slot3) == "number" then
+		if slot2 == "inElite" then
+			return _.any(slot0.extraInfo[slot2][slot3] or {}, function (slot0)
+				return slot0 == uv0
+			end)
+		elseif slot2 == "inActivity" then
+			return _.any(slot0.extraInfo[slot2][slot3] or {}, function (slot0)
+				return slot0 == uv0
+			end)
+		end
+	end
 end
 
 function slot1.FilterShips(slot0, slot1, slot2)
@@ -103,17 +112,9 @@ function slot1.FilterShips(slot0, slot1, slot2)
 
 	for slot7, slot8 in pairs(slot1) do
 		if slot8 then
-			if type(slot8) == "boolean" then
-				for slot12, slot13 in pairs(slot0.flagDic[slot7]) do
-					if slot2[slot12] and slot13 then
-						slot3[slot12] = true
-					end
-				end
-			elseif type(slot8) == "number" then
-				for slot12, slot13 in pairs(slot0.flagDic[slot7]) do
-					if slot2[slot12] and slot8 == slot13 then
-						slot3[slot12] = true
-					end
+			for slot12, slot13 in pairs(slot2) do
+				if slot0:GetShipFlag(slot12, slot7, slot8) then
+					slot3[slot12] = true
 				end
 			end
 		end

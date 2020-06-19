@@ -1455,8 +1455,8 @@ function slot0.getMaxConfigId(slot0)
 	return slot2
 end
 
-function slot0.getFlag(slot0, slot1)
-	return pg.ShipFlagMgr:GetInstance():GetShipFlag(slot0.id, slot1)
+function slot0.getFlag(slot0, slot1, slot2)
+	return pg.ShipFlagMgr:GetInstance():GetShipFlag(slot0.id, slot1, slot2)
 end
 
 function slot0.hasAnyFlag(slot0, slot1)
@@ -1544,10 +1544,6 @@ end
 
 function slot0.getProposeSkin(slot0)
 	return ShipSkin.GetSkinByType(slot0.groupId, ShipSkin.SKIN_TYPE_PROPOSE)
-end
-
-function slot0.getDockSortValue(slot0)
-	return (slot0:getFlag("inFleet") and 1 or 0) + (slot0:getFlag("inWorld") and slot0.bindingData and slot0.bindingData.fleetId and 100 - slot0.bindingData.fleetId or 0)
 end
 
 function slot0.getDisplaySkillIds(slot0)
