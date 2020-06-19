@@ -435,18 +435,13 @@ function slot0.sortByCombatPower(slot0, slot1)
 		uv0.combatPowerCaches[slot1] = slot1:getShipCombatPower()
 	end
 
-	slot2 = uv0.combatPowerCaches[slot0]
-	slot3 = uv0.combatPowerCaches[slot1]
-
-	if slot0:getDockSortValue() == slot1:getDockSortValue() then
-		if slot2 ~= slot3 then
-			return slot3 < slot2
-		else
-			return slot0.configId < slot1.configId
-		end
-	else
-		return slot5 < slot4
-	end
+	return sortCompare({
+		uv0.combatPowerCaches[slot1],
+		uv0.combatPowerCaches[slot0]
+	}, {
+		slot0.configId,
+		slot1.configId
+	})
 end
 
 function slot0.sortByCombatPowerAsc(slot0, slot1)
@@ -458,55 +453,42 @@ function slot0.sortByCombatPowerAsc(slot0, slot1)
 		uv0.combatPowerCaches[slot1] = slot1:getShipCombatPower()
 	end
 
-	slot2 = uv0.combatPowerCaches[slot0]
-	slot3 = uv0.combatPowerCaches[slot1]
-
-	if slot0:getDockSortValue() == slot1:getDockSortValue() then
-		if slot2 ~= slot3 then
-			return slot2 < slot3
-		else
-			return slot0.configId < slot1.configId
-		end
-	else
-		return slot5 < slot4
-	end
+	return sortCompare({
+		uv0.combatPowerCaches[slot0],
+		uv0.combatPowerCaches[slot1]
+	}, {
+		slot0.configId,
+		slot1.configId
+	})
 end
 
 function slot0.sortByField(slot0)
 	return function (slot0, slot1)
-		slot2 = slot0[uv0]
-		slot3 = slot1[uv0]
-
-		if slot0:getDockSortValue() == slot1:getDockSortValue() then
-			if slot2 ~= slot3 then
-				return slot3 < slot2
-			elseif slot0:getRarity() ~= slot1:getRarity() then
-				return slot7 < slot6
-			else
-				return slot0.configId < slot1.configId
-			end
-		else
-			return slot5 < slot4
-		end
+		return sortCompare({
+			slot1[uv0],
+			slot0[uv0]
+		}, {
+			slot1:getRarity(),
+			slot0:getRarity()
+		}, {
+			slot0.configId,
+			slot1.configId
+		})
 	end
 end
 
 function slot0.sortByFieldAsc(slot0)
 	return function (slot0, slot1)
-		slot2 = slot0[uv0]
-		slot3 = slot1[uv0]
-
-		if slot0:getDockSortValue() == slot1:getDockSortValue() then
-			if slot2 ~= slot3 then
-				return slot2 < slot3
-			elseif slot0:getRarity() ~= slot1:getRarity() then
-				return slot6 < slot7
-			else
-				return slot0.configId < slot1.configId
-			end
-		else
-			return slot5 < slot4
-		end
+		return sortCompare({
+			slot0[uv0],
+			slot1[uv0]
+		}, {
+			slot0:getRarity(),
+			slot1:getRarity()
+		}, {
+			slot0.configId,
+			slot1.configId
+		})
 	end
 end
 
@@ -522,18 +504,13 @@ function slot0.sortByProperty(slot0)
 			uv0.propertyCaches[slot1] = slot1:getShipProperties()
 		end
 
-		slot2 = uv0.propertyCaches[slot0]
-		slot3 = uv0.propertyCaches[slot1]
-
-		if slot0:getDockSortValue() == slot1:getDockSortValue() then
-			if slot2[uv1] ~= slot3[uv1] then
-				return slot3[uv1] < slot2[uv1]
-			else
-				return slot0.configId < slot1.configId
-			end
-		else
-			return slot5 < slot4
-		end
+		return sortCompare({
+			uv0.propertyCaches[slot1][uv1],
+			uv0.propertyCaches[slot0][uv1]
+		}, {
+			slot0.configId,
+			slot1.configId
+		})
 	end
 end
 
@@ -549,75 +526,61 @@ function slot0.sortByPropertyAsc(slot0)
 			uv0.propertyCaches[slot1] = slot1:getShipProperties()
 		end
 
-		slot2 = uv0.propertyCaches[slot0]
-		slot3 = uv0.propertyCaches[slot1]
-
-		if slot0:getDockSortValue() == slot1:getDockSortValue() then
-			if slot2[uv1] ~= slot3[uv1] then
-				return slot2[uv1] < slot3[uv1]
-			else
-				return slot0.configId < slot1.configId
-			end
-		else
-			return slot5 < slot4
-		end
+		return sortCompare({
+			uv0.propertyCaches[slot0][uv1],
+			uv0.propertyCaches[slot1][uv1]
+		}, {
+			slot0.configId,
+			slot1.configId
+		})
 	end
 end
 
 function slot0.sortByCfg(slot0)
 	return function (slot0, slot1)
-		slot2 = slot0:getDockSortValue()
-		slot3 = slot1:getDockSortValue()
-		slot4 = slot0:getConfig(uv0)
-		slot5 = slot1:getConfig(uv0)
+		slot2 = slot0:getConfig(uv0)
+		slot3 = slot1:getConfig(uv0)
 
 		if uv0 == "rarity" then
-			slot4 = slot0:getRarity()
-			slot5 = slot1:getRarity()
+			slot2 = slot0:getRarity()
+			slot3 = slot1:getRarity()
 		end
 
-		if slot2 == slot3 then
-			if slot4 ~= slot5 then
-				return slot5 < slot4
-			else
-				return slot0.configId < slot1.configId
-			end
-		else
-			return slot3 < slot2
-		end
+		return sortCompare({
+			slot3,
+			slot2
+		}, {
+			slot0.configId,
+			slot1.configId
+		})
 	end
 end
 
 function slot0.sortByCfgAsc(slot0)
 	return function (slot0, slot1)
-		slot2 = slot0:getDockSortValue()
-		slot3 = slot1:getDockSortValue()
-		slot4 = slot0:getConfig(uv0)
-		slot5 = slot1:getConfig(uv0)
+		slot2 = slot0:getConfig(uv0)
+		slot3 = slot1:getConfig(uv0)
 
 		if uv0 == "rarity" then
-			slot4 = slot0:getRarity()
-			slot5 = slot1:getRarity()
+			slot2 = slot0:getRarity()
+			slot3 = slot1:getRarity()
 		end
 
-		if slot2 == slot3 then
-			if slot4 ~= slot5 then
-				return slot4 < slot5
-			else
-				return slot0.configId < slot1.configId
-			end
-		else
-			return slot3 < slot2
-		end
+		return sortCompare({
+			slot2,
+			slot3
+		}, {
+			slot0.configId,
+			slot1.configId
+		})
 	end
 end
 
 function slot0.sortByPriorityFullSkill(slot0, slot1, slot2)
-	if (slot0:isFullSkillLevel() and 1 or 0) == (slot1:isFullSkillLevel() and 1 or 0) then
-		return slot2(slot0, slot1)
-	else
-		return slot3 < slot4
-	end
+	return sortCompare({
+		slot0:isFullSkillLevel() and 1 or 0,
+		slot1:isFullSkillLevel() and 1 or 0
+	}, slot2(slot0, slot1))
 end
 
 function slot0.sortForGuider(slot0, slot1)
@@ -630,19 +593,12 @@ function slot0.sortForGuider(slot0, slot1)
 end
 
 function slot0.sortByIntimacy(slot0, slot1)
-	slot2 = slot0:getDockSortValue()
-	slot3 = slot1:getDockSortValue()
-
 	if slot0.intimacy ~= slot1.intimacy then
 		return slot1.intimacy < slot0.intimacy
 	end
 
 	if slot0.propose ~= slot1.propose then
 		return slot0.propose
-	end
-
-	if slot2 ~= slot3 then
-		return slot3 < slot2
 	end
 
 	if slot0.configId ~= slot1.configId then
@@ -653,19 +609,12 @@ function slot0.sortByIntimacy(slot0, slot1)
 end
 
 function slot0.sortByIntimacyAsc(slot0, slot1)
-	slot2 = slot0:getDockSortValue()
-	slot3 = slot1:getDockSortValue()
-
 	if slot0.intimacy ~= slot1.intimacy then
 		return slot0.intimacy < slot1.intimacy
 	end
 
 	if slot0.propose ~= slot1.propose then
 		return slot1.propose
-	end
-
-	if slot2 ~= slot3 then
-		return slot3 < slot2
 	end
 
 	if slot0.configId ~= slot1.configId then

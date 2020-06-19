@@ -29,10 +29,6 @@ function slot0.UpdateVoteCnt(slot0, slot1)
 	slot0.totalVotes = slot0.totalVotes + slot1
 end
 
-function slot0.getDockSortValue(slot0)
-	return 0
-end
-
 function slot0.getRarity(slot0)
 	return slot0.shipVO:getRarity()
 end
