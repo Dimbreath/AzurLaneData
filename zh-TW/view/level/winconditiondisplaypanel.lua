@@ -106,8 +106,8 @@ function slot0.Hide(slot0)
 end
 
 function slot0.Enter(slot0, slot1)
-	setText(slot0.winCondDesc, slot1:getConfig("win_condition_display")[1])
-	setText(slot0.loseCondDesc, slot1:getConfig("lose_condition_display")[1])
+	setText(slot0.winCondDesc, i18n(slot1:getConfig("win_condition_display")))
+	setText(slot0.loseCondDesc, i18n(slot1:getConfig("lose_condition_display")))
 
 	slot2 = slot1:getPlayType() == ChapterConst.TypeDefence
 

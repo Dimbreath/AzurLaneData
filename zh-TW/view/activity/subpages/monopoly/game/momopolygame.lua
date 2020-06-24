@@ -327,7 +327,7 @@ function slot13(slot0, slot1)
 			return Vector3(slot0.startPos.x + slot1 * slot0.offset.x + slot2 * slot0.offset.x, slot0.startPos.y + slot1 * slot0.offset.y + slot2 * -slot0.offset.y, 0)
 		end,
 		UpdateStyle = function (slot0)
-			slot0._img.sprite = GetSpriteFromAtlas("ui/activityuipage/monopoly_atlas", slot0.cell.config.icon)
+			slot0._img.sprite = GetSpriteFromAtlas("ui/activityuipage/monopolycar_atlas", slot0.cell.config.icon)
 
 			slot0._img:SetNativeSize()
 		end,

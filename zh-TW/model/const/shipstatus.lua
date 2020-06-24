@@ -19,7 +19,7 @@ function slot0.checkShipFlag(slot0, slot1, slot2)
 	if type(defaultValue(slot1[slot2], uv0.TAG_HIDE_BASE[slot2])) == "boolean" then
 		return not slot3 and slot0:getFlag(slot2)
 	elseif type(slot3) == "number" then
-		return slot0:getFlag(slot2) and slot4 == slot3
+		return slot0:getFlag(slot2, slot3)
 	end
 end
 
@@ -182,12 +182,11 @@ slot0.TAG_HIDE_BASE = {
 	inAdmiral = false
 }
 slot0.TAG_HIDE_ACTIVITY_BOSS = {
-	inClass = true,
+	inPvP = true,
 	inChapter = true,
 	inAdmiral = true,
 	inFleet = true,
-	inPvP = true,
-	inActivity = true,
+	inClass = true,
 	inTactics = true,
 	inBackyard = true
 }
@@ -195,7 +194,6 @@ slot0.TAG_HIDE_BACKYARD = {
 	inExercise = false,
 	inChapter = true,
 	inEvent = true,
-	inFleet = true,
 	inPvP = true,
 	inActivity = true,
 	inTactics = true
@@ -222,13 +220,12 @@ slot0.TAG_HIDE_DEFENSE = {
 	inEvent = true
 }
 slot0.TAG_HIDE_LEVEL = {
-	inBackyard = true,
 	inAdmiral = true,
 	inFleet = true,
 	inClass = true,
 	inActivity = true,
 	inTactics = true,
-	inElite = true
+	inBackyard = true
 }
 slot0.TAG_HIDE_NORMAL = {
 	inExercise = false,
@@ -313,9 +310,7 @@ slot1 = {
 		inChapter = 2,
 		inFleet = 1,
 		inPvP = 1,
-		inActivity = 2,
-		inWorld = 2,
-		inElite = 2
+		inWorld = 2
 	},
 	inClass = {
 		inClass = 2,
@@ -400,7 +395,7 @@ function slot0.ShipStatusConflict(slot0, slot1, slot2)
 	slot3 = uv0[slot0]
 
 	for slot7, slot8 in ipairs(uv1.flagList) do
-		if slot3[slot8] and slot1:getFlag(slot8) == defaultValue((slot2 or {})[slot8], true) then
+		if slot3[slot8] and slot1:getFlag(slot8, (slot2 or {})[slot8]) then
 			if slot3[slot8] == uv1.STATE_CHANGE_FAIL then
 				return uv1.STATE_CHANGE_FAIL, uv2[slot8].tips_block
 			elseif slot9 == uv1.STATE_CHANGE_CHECK then
@@ -438,14 +433,16 @@ function slot0.ChangeStatusCheckBox(slot0, slot1, slot2)
 						elseif slot3 == TeamType.Main then
 							pg.TipsMgr.GetInstance():ShowTips(i18n("ship_vo_mainFleet_must_hasShip"))
 						end
+
+						return
 					end
-				else
-					slot1:removeShip(uv0)
-					pg.m02:sendNotification(GAME.UPDATE_FLEET, {
-						callback = uv1,
-						fleet = slot1
-					})
 				end
+
+				slot1:removeShip(uv0)
+				pg.m02:sendNotification(GAME.UPDATE_FLEET, {
+					callback = uv1,
+					fleet = slot1
+				})
 			end
 		})
 

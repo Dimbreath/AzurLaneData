@@ -1177,6 +1177,42 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[140] = {
+		advice = 0,
+		describe = "某座城池的微縮模型，製作得十分精巧，可以感受到重櫻的歷史感——紀念參與《蒼紅的迴響》特殊作戰中獲得的最高榮譽",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "蒼紅紀念章",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "蒼紅的迴響",
+		themeId = 0,
+		icon = "2018.12.27icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 140,
+		picture = "chuanmo/2018.12.27",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[149] = {
 		advice = 0,
 		describe = "一起來欣賞古老的皮影戲技藝吧~",
@@ -37592,6 +37628,7 @@ pg.furniture_data_template = {
 		123,
 		124,
 		129,
+		140,
 		149,
 		150,
 		152,

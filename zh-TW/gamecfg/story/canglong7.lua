@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"与{namecode:93}共度的时光\n\n<size=45>七 不变与变化（下）</size>",
+					"與{namecode:93}共度的時光\n\n<size=45>七 不變與變化（下）</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-2",
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "今天的路上，大家都用很不可思议的眼光在看着我们呢。",
+			say = "今天的路上，大家都用很不可思議的眼光在看著我們呢。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "确实，几乎每个人看到今天的{namecode:93}都露出了惊讶的表情。",
+			say = "確實，幾乎每個人看到今天的{namecode:93}都露出了驚訝的表情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,23 +67,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，我应该是板着脸督促指挥官好好工作的形象。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307030,
-			side = 2,
-			bgName = "bg_night",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "而不应该是在和指挥官的约会中露出笑容的形象。",
+			say = "是的，我應該是板著臉督促指揮官好好工作的形象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,24 +83,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，我为什么不能呢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_night",
-			withoutActorName = true,
-			actor = 307030,
-			nameColor = "#a9f548",
-			say = "{namecode:93}扶了一下眼镜，直视着这边。",
+			say = "而不應該是在和指揮官的約會中露出笑容的形象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,39 +99,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的指挥官变得越来越出色，不再是我需要督促的存在，而仅仅需要我的辅佐。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307030,
-			side = 2,
-			bgName = "bg_night",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "闲暇的时候，还会主动来找我，陪我玩我唯一的爱好花札。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307030,
-			side = 2,
-			bgName = "bg_night",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我会想要为这样的人改变，会喜欢上这样的人，不是理所当然的事情吗？",
+			say = "但是，我為什麼不能呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +116,72 @@ return {
 			withoutActorName = true,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "虽然做着大胆的表白，然而{namecode:93}的脸上却没有丝毫羞涩。",
+			say = "{namecode:93}扶了一下眼鏡，直視著這邊。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "我的指揮官變得越來越出色，不再是我需要督促的存在，而僅僅需要我的輔佐。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "閒暇的時候，還會主動來找我，陪我玩我唯一的愛好花牌。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "我會想要為這樣的人改變，會喜歡上這樣的人，不是理所當然的事情嗎？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_night",
+			withoutActorName = true,
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "雖然做著大膽的表白，然而{namecode:93}的臉上卻沒有絲毫羞澀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "指挥官，妳还记得之前我和{namecode:94}的对话吧？",
+			say = "指揮官，你還記得之前我和{namecode:94}的對話吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "點頭",
 					flag = 1
 				}
 			}
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能让我改变想法，想要为所谓女子力而努力的人，就是妳。",
+			say = "能讓我改變想法，想要為所謂女子力而努力的人，就是你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			withoutActorName = true,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "原来如此，以为是自己适应了{namecode:93}的节奏，实际上，自己也悄悄影响了{namecode:93}吗……",
+			say = "原來如此，以為是自己適應了{namecode:93}的節奏，實際上，自己也悄悄影響了{namecode:93}嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官呢，对我是怎么想的？",
+			say = "指揮官呢，對我是怎麼想的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			withoutActorName = true,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "对{namecode:93}的心意，自然不必多说，但是这个时候，果然还是应该……",
+			say = "對{namecode:93}的心意，自然不必多說，但是這個時候，果然還是應該……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			},
 			options = {
 				{
-					content = "回去来一局花札吧！",
+					content = "回去來一局花牌吧！",
 					flag = 1
 				}
 			}
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是指挥官。说的也是，既然是从花札开始，那就用花札来延续吧……",
+			say = "不愧是指揮官。說的也是，既然是從花牌開始，那就用花牌來延續吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			blackBg = true,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "指挥官要是能从我手里赢下一局的话，我什么都答应妳哦？",
+			say = "指揮官要是能從我手裡贏下一局的話，我什麼都答應妳哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

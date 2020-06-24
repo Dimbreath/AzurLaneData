@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "重樱的诸君，余乃担任本次联合演习裁判长的，联合舰队旗舰{namecode:74}",
+			say = "重櫻的諸君，余乃擔任本次聯合演習裁判長的，聯合艦隊旗艦{namecode:74}",
 			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这个动荡的时代，我们面临着来自塞壬的威胁，面临着来自其他势力的钳制。",
+			say = "在這個動蕩的時代，我們面臨著來自塞壬的威脅，面臨著來自其他勢力的箝制。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这样风起云涌的时代，重樱更需要诸位的奋发，需要诸位的信仰。",
+			say = "在這樣風起雲湧的時代，重櫻更需要諸位的奮發，需要諸位的信仰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这个危机四伏的时代，重樱更需要一位强者，需要一位新的领路人。",
+			say = "在這個危機四伏的時代，重櫻更需要一位強者，需要一位新的領路人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:74}说着停顿了一下，望了望台下的{namecode:161}与{namecode:92}。",
+			say = "{namecode:74}說著停頓了一下，望了望台下的{namecode:161}與{namecode:92}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，本次联合军演获胜方的旗舰，将接任第八任重樱联合舰队旗舰之位。",
+			say = "沒錯，本次聯合軍演獲勝方的旗艦，將接任第八任重櫻聯合艦隊旗艦之位。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "众人",
+			actorName = "眾人",
 			dir = 1,
 			side = 2,
 			say = "！！！！！",
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305070,
-			say = "{namecode:74}大人居然要卸任旗舰之位了！？！之前完全没有任何消息呀？！",
+			say = "{namecode:74}大人居然要卸任旗艦之位了！？！之前完全沒有任何消息呀？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肃静！",
+			say = "肅靜！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳，这里由我来宣读下联合演习的队伍分配：",
+			say = "咳咳，這裡由我來宣讀下聯合演習的隊伍分配：",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赤队：旗舰—{namecode:161}号战列巡洋舰，下属第一战队、第一四水雷战队、第二三六驱逐队",
+			say = "赤隊：旗艦—{namecode:161}號戰列巡洋艦，下屬第一戰隊、第一四水雷戰隊、第二三六驅逐隊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "蓝队：旗舰—{namecode:92}号战列舰，下属第二战队、第二三水雷战队、第一四五驱逐队",
+			say = "藍隊：旗艦—{namecode:92}號戰列艦，下屬第二戰隊、第二三水雷戰隊、第一四五驅逐隊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，算是意料之中的分配吗，{namecode:161}…只要在这里把妳击败的话…",
+			say = "哼，算是意料之中的分配嗎，{namecode:161}…只要在這裡把妳擊敗的話…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "此次联合演习意义非常。",
+			say = "此次聯合演習意義非常。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "望诸君能够在接下来的几日里，发挥平生之所学，尽其智、行其力，打出一场漂亮的战斗！",
+			say = "望諸君能夠在接下來的幾日里，發揮平生之所學，盡​​其智、行其力，打出一場漂亮的戰鬥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余宣布，联合演习，正式开始！",
+			say = "余宣布，聯合演習，正式開始！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

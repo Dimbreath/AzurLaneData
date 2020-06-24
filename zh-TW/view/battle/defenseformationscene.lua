@@ -139,11 +139,6 @@ function slot0.didEnter(slot0)
 	end
 
 	shiftPanel(slot0._bottomPanel, nil, 0, nil, 0.5, true, true)
-	PoolMgr.GetInstance():GetUI("al_bg01", true, function (slot0)
-		slot0:SetActive(true)
-		setParent(slot0, uv0._tf)
-		slot0.transform:SetAsFirstSibling()
-	end)
 end
 
 function slot0.loadAllCharacter(slot0)

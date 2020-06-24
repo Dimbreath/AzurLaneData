@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"与{namecode:93}共度的时光\n\n<size=45>三 朋友是什么？</size>",
+					"與{namecode:93}共度的時光\n\n<size=45>三 朋友是什麼？</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "因为学习花札的关系，和{namecode:93}的交流渐渐多了起来。",
+			say = "因為學習花牌的關係，和{namecode:93}的交流漸漸多了起來。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·{namecode:93}的宿舍",
+			say = "港區·{namecode:93}的宿舍",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么想起来跑我这里来了，Z23，妳们四人组不是总是在一起吗。",
+			say = "怎麼想起來跑我這裡來了，Z23，妳們四人組不是總是在一起嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			say = "啊哈哈，也不是总是啦，总有自己的时间的。",
+			say = "啊哈哈，也不是總是啦，總有自己的時間的。",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，虽然我们是好朋友，不过有时候也受不了她们的闹腾劲。",
+			say = "而且，雖然我們是好朋友，不過有時候也受不了她們的鬧騰勁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实，{namecode:6}和拉菲两个人偶尔会有些超出常识的举动，也是辛苦妳了。",
+			say = "確實，{namecode:6}和拉菲兩個人偶爾會有些超出常識的舉動，也是辛苦妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "倒还好啦，不过这么说的话，重樱的航母也都是些性格比较……唔，独特的人呢。",
+			say = "倒還好啦，不過這麼說的話，重櫻的航母也都是些性格比較……唔，獨特的人呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳可以直接说奇怪没关系的……嗯…这么说倒也没错。",
+			say = "妳可以直接說奇怪沒關係的……嗯…這麼說倒也沒錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…总觉得和{namecode:93}很有共鸣呢…和她们相处对妳来说会很累吗？",
+			say = "啊哈哈…總覺得和{namecode:93}很有共鳴呢…和她們相處對妳來說會很累嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "累……倒说不上，不过，{namecode:91}就不用提了，{namecode:92}骨子里是个战斗狂……",
+			say = "累……倒說不上，不過，{namecode:91}就不用提了，{namecode:92}骨子裡是個戰鬥狂……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:95}总是想着对抗{namecode:91}，{namecode:96}则是和我妹妹比较像，也是行动派……",
+			say = "{namecode:95}總是想著對抗{namecode:91}，{namecode:96}則是和我妹妹比較像，也是行動派……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有些时候我也在想，我的性格是不是有一半是被她们给逼出来的……",
+			say = "有些時候我也在想，我的性格是不是有一半是被她們給逼出來的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "啊哈哈，那还是妳比较辛苦呢。",
+			say = "啊哈哈，那還是妳比較辛苦呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "彼此彼此吧。不过话又说回来，一般想到最后又会觉得，就这样也挺好。",
+			say = "彼此彼此吧。不過話又說回來，一般想到最後又會覺得，就這樣也挺好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，我懂我懂，谁让我们是好朋友呢，是这种感觉吧。",
+			say = "啊，我懂我懂，誰讓我們是好朋友呢，是這種感覺吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "稍微有一些不一样吧，我们的关系表面上没有那么紧密……",
+			say = "稍微有一些不一樣吧，我們的關係表面上沒有那麼緊密……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是有一种更深层的东西，把我们联系在了一起。",
+			say = "但是有一種更深層的東西，把我們聯繫在了一起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听起来有点羡慕呢。",
+			say = "聽起來有點羨慕呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳们四个人的关系也很好的。",
+			say = "妳們四個人的關係也很好的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "先不说这个—指挥官，妳到底打算站在门外多久？",
+			say = "先不說這個—指揮官，你到底打算站在門外多久？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…指挥官，下午好！",
+			say = "啊…指揮官，下午好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,12 +405,12 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的……不过既然来了，那就坐下一起聊天吧。",
+			say = "真是的……不過既然來了，那就坐下一起聊天吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "与{namecode:93}和Z23愉快地度过了一段聊天时间",
+			say = "與{namecode:93}和Z23愉快地度過了一段聊天時間",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

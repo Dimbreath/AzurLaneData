@@ -6539,8 +6539,8 @@ pg.skill_data_template = {
 	},
 	[6420] = {
 		desc_get = "",
-		name = "穿甲航弹",
-		desc = "该舰载机的投弹命中时有24%几率造成破甲效果，同类效果取最大值，不可叠加",
+		name = "穿甲航彈",
+		desc = "該艦載機的投彈命中時有24%機率造成破甲效果，同類效果取最大值，不可疊加",
 		type = 0,
 		max_level = 0,
 		id = 6420,
@@ -6660,7 +6660,7 @@ pg.skill_data_template = {
 	},
 	[9030] = {
 		desc_get = "",
-		name = "布里發動了技能！ ",
+		name = "布里發動了技能！",
 		desc = "",
 		type = 0,
 		max_level = 0,
@@ -6671,7 +6671,7 @@ pg.skill_data_template = {
 	},
 	[9031] = {
 		desc_get = "",
-		name = "然而什麼都沒有發生 ",
+		name = "然而什麼都沒有發生",
 		desc = "",
 		type = 0,
 		max_level = 0,
@@ -6682,7 +6682,7 @@ pg.skill_data_template = {
 	},
 	[9033] = {
 		desc_get = "",
-		name = "布里發動了技能！ ",
+		name = "布里發動了技能！",
 		desc = "",
 		type = 0,
 		max_level = 0,
@@ -6693,7 +6693,7 @@ pg.skill_data_template = {
 	},
 	[9034] = {
 		desc_get = "",
-		name = "然而什麼都沒有發生 ",
+		name = "然而什麼都沒有發生",
 		desc = "",
 		type = 0,
 		max_level = 0,
@@ -25006,7 +25006,7 @@ pg.skill_data_template = {
 	},
 	[12360] = {
 		desc_get = "",
-		name = "愛的使者 ",
+		name = "愛的使者",
 		desc = "與其他驅逐艦同時出擊時，提升自身防空、砲擊、命中$1；隊伍中驅逐艦在戰鬥中受到傷害，導致血量低於50%時，觸發一輪特殊彈幕（每場戰鬥僅觸發一次)",
 		type = 1,
 		max_level = 10,
@@ -31708,7 +31708,7 @@ pg.skill_data_template = {
 	},
 	[13300] = {
 		desc_get = "",
-		name = "圣女的祷告 ",
+		name = "圣女的祷告",
 		desc = "战斗开始后10秒，为所有先锋舰队成员增加一个护盾，之后每20秒再次产生该护盾；护盾可抵消相当于圣女贞德自身耐久$1的伤害，持续10秒，若护盾在持续时间内被击破，该角色接下来的3秒内将回避所有伤害，若护盾因超时而消失，立刻回复该角色100点血量",
 		type = 2,
 		max_level = 10,
@@ -33290,7 +33290,7 @@ pg.skill_data_template = {
 	},
 	[19030] = {
 		desc_get = "",
-		name = "君王之睥睨 ",
+		name = "君王之睥睨",
 		desc = "主炮開火時，有$1機率朝自己前方發射一輪專屬彈幕(威力和彈幕樣式依據技能等級)，命中敵人造成減速$2，持續6秒",
 		type = 1,
 		max_level = 10,

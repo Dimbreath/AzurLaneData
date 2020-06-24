@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前进吧，{namecode:144}！\n\n<size=45>一 战斗吧，{namecode:144}！</size>",
+					"前進吧，{namecode:144}！\n\n<size=45>一 戰鬥吧，{namecode:144}！</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			say = "某日·演习海域",
+			say = "某日·演習海域",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "重樱的重巡们正在使用着演习海域。",
+			say = "重櫻的重巡們正在使用著演習海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 303030,
 			nameColor = "#a9f548",
-			say = "身披舰装的少女们在海域里，赌上自己的一切，为着今天第一名的荣耀而奋斗……啊啊，这标题实在是太棒了！",
+			say = "身披艦裝的少女們在海域裡，賭上自己的一切，為著今天第一名的榮耀而奮鬥……啊啊，這標題實在是太棒了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别光顾着拍照啦，姐姐！妳也是演习的一员啊！",
+			say = "別光顧著拍照啦，姐姐！妳也是演習的一員啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:64}也是！演习的时候稍微认真点啊！指挥官也在看着呢！",
+			say = "{namecode:64}也是！演習的時候稍微認真點啊！指揮官也在看著呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，放心吧，区区训练演习，对我来说只是小事一桩~",
+			say = "哎呀，放心吧，區區訓練演習，對我來說只是小事一樁~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比起这个，不关注一下正在场上的妹妹吗？",
+			say = "比起這個，不關注一下正在場上的妹妹嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "！好快…而且好准",
+			say = "！好快…而且好準",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊呀？总觉得妳有些不甘心呢。",
+			say = "啊呀？總覺得妳有些不甘心呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…在、在下也还可以更加——",
+			say = "唔…在、在下也還可以更加——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_nepu1",
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "呼——这样就结束了吗？",
+			say = "呼——這樣就結束了嗎？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "辛苦了喵！刚刚的表现毫无疑问是目前最好的喵！一定可以给指挥官留下深刻印象的喵。",
+			say = "辛苦了喵！剛剛的表現毫無疑問是目前最好的喵！一定可以給指揮官留下深刻印象的喵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "真、真的吗！那、那实在是太好了呢。",
+			say = "真、真的嗎！那、那實在是太好了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "不过，下次我会做得更好的——",
+			say = "不過，下次我會做得更好的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（我还要变得更强才行！）",
+			say = "（我還要變得更強才行！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

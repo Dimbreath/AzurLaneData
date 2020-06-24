@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前进吧，{namecode:144}！\n\n<size=45>五 慌乱的{namecode:144}</size>",
+					"前進吧，{namecode:144}！\n\n<size=45>五 慌亂的{namecode:144}</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-2",
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "“心中的故乡”…我一直在意的东西…没有什么头绪啊",
+			say = "“心中的故鄉”…我一直在意的東西…沒有什麼頭緒啊",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -75,7 +75,7 @@ return {
 			blackBg = true,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "算了，现在不是该烦恼这个的时候。",
+			say = "算了，現在不是該煩惱這個的時候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			blackBg = true,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "自从有了{namecode:63}姐的指导，秘书舰的工作变得越来越得心应手了。",
+			say = "自從有了{namecode:63}姐的指導，秘書艦的工作變得越來越得心應手了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			blackBg = true,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "指挥官看起来也很高兴，真的是太好了呢",
+			say = "指揮官看起來也很高興，真的是太好了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			blackBg = true,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "要是能这样保持下去的话，指挥官一定会更加关注我的吧…",
+			say = "要是能這樣保持下去的話，指揮官一定會更加關注我的吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			blackBg = true,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "然后就能…咦……？就能怎么样呢……？",
+			say = "然後就能…咦……？就能怎麼樣呢……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			blackBg = true,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "唔唔，今天的训练好累……感觉要睡着了……",
+			say = "唔唔，今天的訓練好累……感覺要睡著了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			blackBg = true,
 			actorName = "？？？",
 			nameColor = "#a9f548",
-			say = "居然真的还在睡……这样睡下去可不行啊！",
+			say = "居然真的還在睡……這樣睡下去可不行啊！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "？？？",
-			say = "喂，{namecode:144}，赶紧起来啦！",
+			say = "喂，{namecode:144}，趕緊起來啦！",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -232,7 +232,7 @@ return {
 			blackBg = true,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "唔唔……怎么了……是紧急任务吗……",
+			say = "唔唔……怎麼了……是緊急任務嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 303090,
-			say = "啊已经这个时间了吗！",
+			say = "啊已經這個時間了嗎！",
 			flashN = {
 				color = {
 					1,
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "要、要迟到了！（手忙脚乱）衣，衣服穿反了？怎么会这样？头发、头发…平时都是{namecode:63}姐帮我弄的……",
+			say = "要、要遲到了！（手忙腳亂）衣，衣服穿反了？怎麼會這樣？頭髮、頭髮…平時都是{namecode:63}姐幫我弄的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "指挥官要是看到我这幅样子的话，一定会……",
+			say = "指揮官要是看到我這幅樣子的話，一定會……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:144}，先冷静一下。这样只会越忙越乱哦",
+			say = "{namecode:144}，先冷靜一下。這樣只會越忙越亂哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_room",
-			say = "{namecode:124}、{namecode:124}前辈？妳怎么会在这里？",
+			say = "{namecode:124}、{namecode:124}前輩？妳怎麼會在這裡？",
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "路过指挥室的时候看到妳不在，有点在意就过来看看，没想到真的有情况啊，嚯嚯",
+			say = "路過指揮室的時候看到妳不在，有點在意就過來看看，沒想到真的有情況啊，呵呵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用担心，指挥官那边我帮妳请假了，以“身体抱恙”的理由呢。",
+			say = "不用擔心，指揮官那邊我幫妳請假了，以“身體抱恙”的理由呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其它的事情就交给我吧，难得有次能照顾后辈的机会呢，哼哼~",
+			say = "其它的事情就交給我吧，難得有次能照顧後輩的機會呢，哼哼~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不必道歉，人人都有状态不对的时候嘛~",
+			say = "不必道歉，人人都有狀態不對的時候嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一定是训练太累了，休息不足才会这样，今天妳就好好休息吧。",
+			say = "一定是訓練太累了，休息不足才會這樣，今天妳就好好休息吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过说起来，嘿嘿，刚才好像听到谁说了“要是被指挥官看到这幅样子”…之类的话呢。",
+			say = "不過說起來，嘿嘿，剛才好像聽到誰說了“要是被指揮官看到這幅樣子”…之類的話呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道说……妳其实很在意指挥官对妳的看法~？",
+			say = "難道說……妳其實很在意指揮官對妳的看法~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "欸？那，那是因为——",
+			say = "欸？那，那是因為——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嚯嚯嚯~答案是什么，自己清楚就好啦～",
+			say = "呵呵呵~答案是什麼，自己清楚就好啦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "（我在意指挥官的看法？等等，我为什么对指挥官这么在意……）",
+			say = "（我在意指揮官的看法？等等，我為什麼對指揮官這麼在意……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			blackBg = true,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "（难道说，其实我……）",
+			say = "（難道說，其實我……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

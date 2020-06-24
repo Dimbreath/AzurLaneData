@@ -17008,6 +17008,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5501] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5366,
+		type = 5,
+		name = "指挥官闷闷不乐？",
+		count_inherit = 0,
+		desc = "提交3個《魚雷天婦羅》",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "juanbo",
+		award_choice = "",
+		level = 1,
+		next_task = "5502",
+		visibility = 1,
+		story_id = "JUANBO1",
+		target_id_for_client = 50003,
+		id = 5501,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5502] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5367,
+		type = 5,
+		name = "{namecode:162}会帮助你的！",
+		count_inherit = 0,
+		desc = "強化任意角色10次",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "juanbo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5503",
+		visibility = 1,
+		story_id = "JUANBO2",
+		target_id_for_client = 0,
+		id = 5502,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5503] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5368,
+		type = 5,
+		name = "{namecode:162}今天也很高兴！",
+		count_inherit = 0,
+		desc = "{namecode:162}上陣出擊(關卡)勝利20次",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "juanbo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5504",
+		visibility = 1,
+		story_id = "JUANBO3",
+		target_id_for_client = 30180,
+		id = 5503,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "30180",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5504] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5369,
+		type = 5,
+		name = "其名为——指挥官开心计划！·上",
+		count_inherit = 0,
+		desc = "{namecode:162}上陣完成3次每日挑戰",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "juanbo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5505",
+		visibility = 1,
+		story_id = "JUANBO4",
+		target_id_for_client = 30180,
+		id = 5504,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "30180",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5505] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5370,
+		type = 5,
+		name = "其名为——指挥官开心计划！·下",
+		count_inherit = 0,
+		desc = "{namecode:162}好感度達到100",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "juanbo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5506",
+		visibility = 1,
+		story_id = "JUANBO5",
+		target_id_for_client = 30180,
+		id = 5505,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "30180",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5506] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5371,
+		type = 5,
+		name = "不笑的指挥官",
+		count_inherit = 0,
+		desc = "{namecode:162}突破至滿星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "juanbo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5507",
+		visibility = 1,
+		story_id = "JUANBO6",
+		target_id_for_client = 301804,
+		id = 5506,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "301804",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[5507] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5372,
+		type = 5,
+		name = "指挥官，笑起来了！",
+		count_inherit = 0,
+		desc = "{namecode:162}等級達到100",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "juanbo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "JUANBO7",
+		target_id_for_client = 30180,
+		id = 5507,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "30180",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -32719,6 +32975,647 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14055] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90375,
+		type = 6,
+		name = "『天城活動』通關A1/C1",
+		count_inherit = 0,
+		desc = "通關A1或C1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14056",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14055,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1180001,
+			1180011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59120,
+				200
+			}
+		}
+	},
+	[14056] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90376,
+		type = 6,
+		name = "『天城活動』通關A2/C2",
+		count_inherit = 0,
+		desc = "通關A2或C2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14057",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14056,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1180002,
+			1180012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59120,
+				400
+			}
+		}
+	},
+	[14057] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90377,
+		type = 6,
+		name = "『天城活動』通關A3/C3",
+		count_inherit = 0,
+		desc = "通關A3或C3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14058",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14057,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1180003,
+			1180013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59120,
+				600
+			}
+		}
+	},
+	[14058] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90378,
+		type = 6,
+		name = "『天城活動』通關B1/D1",
+		count_inherit = 0,
+		desc = "通關B1或D1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14059",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14058,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1180004,
+			1180014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59120,
+				400
+			}
+		}
+	},
+	[14059] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90379,
+		type = 6,
+		name = "『天城活動』通關B2/D2",
+		count_inherit = 0,
+		desc = "通關B2或D2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14060",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14059,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1180005,
+			1180015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59120,
+				600
+			}
+		}
+	},
+	[14060] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90380,
+		type = 6,
+		name = "『天城活動』通關B3/D3",
+		count_inherit = 0,
+		desc = "通關B3或D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14060,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1180006,
+			1180016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59120,
+				800
+			}
+		}
+	},
+	[14061] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90381,
+		type = 6,
+		name = "『天城活動』通關D3",
+		count_inherit = 0,
+		desc = "通關D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1180016,
+		id = 14061,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1180016",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				140,
+				1
+			}
+		}
+	},
+	[14062] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90382,
+		type = 6,
+		name = "『天城活動』A1/C1的3星",
+		count_inherit = 0,
+		desc = "完成A1或C1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14063",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14062,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1180001,
+			1180011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[14063] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90383,
+		type = 6,
+		name = "『天城活動』A2/C2的3星",
+		count_inherit = 0,
+		desc = "完成A2或C2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14064",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14063,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1180002,
+			1180012
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[14064] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90384,
+		type = 6,
+		name = "『天城活動』A3/C3的3星",
+		count_inherit = 0,
+		desc = "完成A3或C3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14065",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14064,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1180003,
+			1180013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		}
+	},
+	[14065] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90385,
+		type = 6,
+		name = "『天城活動』B1/D1的3星",
+		count_inherit = 0,
+		desc = "完成B1或D1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14066",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14065,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1180004,
+			1180014
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[14066] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90386,
+		type = 6,
+		name = "『天城活動』B2/D2的3星",
+		count_inherit = 0,
+		desc = "完成B2或D2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14067",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14066,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1180005,
+			1180015
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		}
+	},
+	[14067] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90387,
+		type = 6,
+		name = "『天城活動』B3/D3的3星",
+		count_inherit = 0,
+		desc = "完成B3或D3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14067,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1180006,
+			1180016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		}
+	},
+	[14068] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90388,
+		type = 36,
+		name = "『天城活動』日常建造",
+		count_inherit = 0,
+		desc = "建造艦船3次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14068,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59120,
+				300
+			}
+		}
+	},
+	[14069] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90389,
+		type = 36,
+		name = "『天城活動』日常出擊",
+		count_inherit = 0,
+		desc = "艦隊出征，獲得15次勝利。",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14069,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59120,
+				300
+			}
+		}
+	},
+	[14070] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90390,
+		type = 36,
+		name = "『天城活動』日常困難本",
+		count_inherit = 0,
+		desc = "通關1次主線困難關卡 ",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14070,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59120,
+				100
+			}
+		}
+	},
 	[14152] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -36024,6 +36921,402 @@ pg.task_data_template = {
 		},
 		scene = {
 			"ACTIVITY_MAP"
+		}
+	},
+	[14386] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90925,
+		type = 6,
+		name = "二周年明石耗油1",
+		count_inherit = 14387,
+		desc = "累計消耗石油500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14387",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14386,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59776,
+				100
+			},
+			{
+				8,
+				59777,
+				60
+			},
+			{
+				8,
+				59778,
+				80
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14387] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90926,
+		type = 6,
+		name = "二周年明石耗油2",
+		count_inherit = 14388,
+		desc = "累計消耗石油1000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14388",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14387,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59780,
+				6
+			},
+			{
+				8,
+				59781,
+				20
+			},
+			{
+				8,
+				59782,
+				93
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14388] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90927,
+		type = 6,
+		name = "二周年明石耗油3",
+		count_inherit = 14389,
+		desc = "累計消耗石油1500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14389",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14388,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59776,
+				157
+			},
+			{
+				8,
+				59777,
+				60
+			},
+			{
+				8,
+				59778,
+				86
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14389] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90928,
+		type = 6,
+		name = "二周年明石耗油4",
+		count_inherit = 14390,
+		desc = "累計消耗石油2000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14390",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14389,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59776,
+				70
+			},
+			{
+				8,
+				59777,
+				10
+			},
+			{
+				8,
+				59778,
+				120
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14390] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90929,
+		type = 6,
+		name = "二周年明石耗油5",
+		count_inherit = 14391,
+		desc = "累計消耗石油2500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14391",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14390,
+		target_num = 2500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59780,
+				40
+			},
+			{
+				8,
+				59781,
+				20
+			},
+			{
+				8,
+				59782,
+				9
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14391] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90930,
+		type = 6,
+		name = "二周年明石耗油6",
+		count_inherit = 14392,
+		desc = "累計消耗石油3000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14392",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14391,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59776,
+				110
+			},
+			{
+				8,
+				59777,
+				30
+			},
+			{
+				8,
+				59778,
+				95
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14392] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90931,
+		type = 6,
+		name = "二周年明石耗油7",
+		count_inherit = 14393,
+		desc = "累計消耗石油4000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14393",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14392,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59779,
+				84
+			},
+			{
+				8,
+				59780,
+				15
+			},
+			{
+				8,
+				59781,
+				25
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14393] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90932,
+		type = 6,
+		name = "二周年明石耗油8",
+		count_inherit = 14394,
+		desc = "累計消耗石油5000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14394",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14393,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59776,
+				138
+			},
+			{
+				8,
+				59777,
+				49
+			},
+			{
+				8,
+				59778,
+				33
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14394] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90933,
+		type = 6,
+		name = "二周年明石耗油9",
+		count_inherit = 0,
+		desc = "累計消耗石油6000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14394,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59776,
+				100
+			},
+			{
+				8,
+				59777,
+				90
+			},
+			{
+				8,
+				59778,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	},
 	[14757] = {
@@ -45643,6 +46936,38 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[80147] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 300085,
+		type = 6,
+		name = "登录送皮肤体验券活动4",
+		count_inherit = 0,
+		desc = "登入遊戲",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 80147,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				150,
+				2
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -46099,6 +47424,13 @@ pg.task_data_template = {
 		5445,
 		5446,
 		5447,
+		5501,
+		5502,
+		5503,
+		5504,
+		5505,
+		5506,
+		5507,
 		6001,
 		6002,
 		6003,
@@ -46541,6 +47873,22 @@ pg.task_data_template = {
 		14018,
 		14019,
 		14020,
+		14055,
+		14056,
+		14057,
+		14058,
+		14059,
+		14060,
+		14061,
+		14062,
+		14063,
+		14064,
+		14065,
+		14066,
+		14067,
+		14068,
+		14069,
+		14070,
 		14152,
 		14153,
 		14154,
@@ -46629,6 +47977,15 @@ pg.task_data_template = {
 		14281,
 		14282,
 		14283,
+		14386,
+		14387,
+		14388,
+		14389,
+		14390,
+		14391,
+		14392,
+		14393,
+		14394,
 		14757,
 		14758,
 		14759,
@@ -46909,6 +48266,7 @@ pg.task_data_template = {
 		80143,
 		80144,
 		80145,
-		80146
+		80146,
+		80147
 	}
 }

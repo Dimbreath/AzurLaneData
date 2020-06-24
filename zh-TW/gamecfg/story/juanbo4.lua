@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"笑容Overflow！\n\n<size=45>四、其名为——指挥官开心计划！·上</size>",
+					"笑容Overflow！\n\n<size=45>四、其名為——指揮官開心計劃！·上</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "办公室",
+			say = "辦公室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "忙碌的日子还在继续。",
+			say = "忙碌的日子還在繼續。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "可爱的小秘书舰在完成了安排给她的任务之后再一次盯起了这边。",
+			say = "可愛的小秘書艦在完成了安排給她的任務之後再一次盯起了這邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "想起{namecode:70}昨天说的话……要不，等下抽点时间陪一下她吧。",
+			say = "想起{namecode:70}昨天說的話……要不，等下抽點時間陪一下她吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "那个，指挥官，妳现在有空吗？",
+			say = "那個，指揮官，你現在有空嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "既然{namecode:162}那边提出来了，那就顺应着答应她吧。",
+			say = "既然{namecode:162}那邊提出來了，那就順應著答應她吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "欸？真的吗？太好了！",
+			say = "欸？真的嗎？太好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "那，指挥官，把手举起来吧！",
+			say = "那，指揮官，把手舉起來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯？这是要做什么……虽然有点疑惑，不过还是照做了。",
+			say = "嗯？這是要做什麼……雖然有點疑惑，不過還是照做了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "不对不对，要再举高点，举过头顶才行！",
+			say = "不對不對，要再舉高點，舉過頭頂才行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对对！就是这样。那，我要上了哦！准备——",
+			say = "對對！就是這樣。那，我要上了哦！準備——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "看{namecode:162}这个架势，莫非是要——",
+			say = "看{namecode:162}這個架勢，莫非是要——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我挠我挠我挠我挠我挠我挠我挠我挠！！！",
+			say = "我撓我撓我撓我撓我撓我撓我撓我撓！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:162}以惊人的气势朝腋下发动了攻击。",
+			say = "{namecode:162}以驚人的氣勢朝腋下發動了攻擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "我挠我挠我挠我挠我挠我挠我挠我挠！！！",
+			say = "我撓我撓我撓我撓我撓我撓我撓我撓！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "我挠我挠我挠我……挠……我……奇怪，怎么一点效果都没有？",
+			say = "我撓我撓我撓我……撓……我……奇怪，怎麼一點效果都沒有？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "明明我听说这样就能让指挥官笑起来的……难道是我弄错了吗？",
+			say = "明明我聽說這樣就能讓指揮官笑起來的……難道是我弄錯了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:162}发动了挠痒痒攻击。但是很遗憾，对常年经受各种恶作剧的人来说根本没有丝毫威力。",
+			say = "{namecode:162}發動了撓癢癢攻擊。但是很遺憾，對常年經受各種惡作劇的人來說根本沒有絲毫威力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "脑海中突然浮现出一个坏点子。稍微报复一下……应该没问题吧？",
+			say = "腦海中突然浮現出一個壞點子。稍微報復一下……應該沒問題吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这么想着的同时，一口气把{namecode:162}抱到了自己的腿上。",
+			say = "這麼想著的同時，一口氣把{namecode:162}抱到了自己的腿上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "欸？指挥官，是要做什么？",
+			say = "欸？指揮官，是要做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			},
 			options = {
 				{
-					content = "奥义·千重挠痒痒攻击",
+					content = "奧義·千重撓癢癢攻擊",
 					flag = 1
 				}
 			}
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "啊哈哈，哇哈哈哈，哇哈哈哈！！！快，快停下来啦哈哈哈哈！！",
+			say = "啊哈哈，哇哈哈哈，哇哈哈哈！！！快，快停下來啦哈哈哈哈！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "对，对不起啦哈哈哈哈！！是，是{namecode:162}错了啦哈哈哈哈！！！",
+			say = "對，對不起啦哈哈哈哈！！是，是{namecode:162}錯了啦哈哈哈哈！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "呼——哈——呼——哈——挠痒痒——太可怕了——",
+			say = "呼——哈——呼——哈——撓癢癢——太可怕了——",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -541,7 +541,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:162}喘着粗气，瘫倒在了怀里。",
+			say = "{namecode:162}喘著粗氣，癱倒在了懷裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "是不是做得有些过火了…？",
+			say = "是不是做得有些過火了…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "作为沉重的工作中间的一点插曲，也不坏、吧，{namecode:162}也很开心的样子",
+			say = "作為沈重的工作中間的一點插曲，也不壞、吧，{namecode:162}也很開心的樣子",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			bgm = "battle-boss-tiancheng",
 			actor = 305070,
 			nameColor = "#ff0000",
-			say = "哈，终于在战场上正式碰面了，{namecode:161}！",
+			say = "哈，終於在戰場上正式碰面了，{namecode:161}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "“以三金银守玉将”没想到妳也学会了以守为攻呢。",
+			say = "“以三金銀守玉將”沒想到妳也學會了以守為攻呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305070,
-			say = "还不都是跟妳学来的。实话说，在战术计略上，我确实略逊妳一筹…",
+			say = "還不都是跟妳學來的。實話說，在戰術計略上，我確實略遜妳一籌…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305070,
-			say = "然而，论实战，我可不会在妳之下！",
+			say = "然而，論實戰，我可不會在妳之下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那就这样如何——如果妳赢了，我就辅助妳，为妳排除前路上所有的障碍。",
+			say = "那就這樣如何——如果妳贏了，我就輔助妳，為妳排除前路上所有的障礙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "但是，如果我赢了，那妳就要乖乖协助我——",
+			say = "但是，如果我贏了，那妳就要乖乖協助我——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305070,
-			say = "…那是当然！",
+			say = "…那是當然！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "不管怎样,联合舰队旗舰的位置——我就收下了！",
+			say = "不管怎樣,聯合艦隊旗艦的位置——我就收下了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			dir = -1,
 			actor = 301790,
 			stopbgm = true,
-			say = "呼，就这样吧，我认输，火力根本不在一个层面上呀…",
+			say = "呼，就這樣吧，我認輸，火力根本不在一個層面上呀…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "承让了~妳已经尽到妳的职责了。",
+			say = "承讓了~妳已經盡到妳的職責了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 301790,
-			say = "……{namecode:161}，妳是认真的吗？",
+			say = "……{namecode:161}，妳是認真的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "重樱联合舰队的旗舰之位。",
+			say = "重櫻聯合艦隊的旗艦之位。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 301790,
-			say = "虽然妳表现得和往常一样，但是和妳交手就感觉出来了……",
+			say = "雖然妳表現得和往常一樣，但是和妳交手就感覺出來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "我从未感觉过妳的战意如此昂扬。",
+			say = "我從未感覺過妳的戰意如此昂揚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 301790,
-			say = "按照以往的作战风格，妳只需在后方运筹帷幄就可以掌控全局，根本不需要采用如此激进的战术..",
+			say = "按照以往的作戰風格，妳只需在後方運籌帷幄就可以掌控全局，根本不需要採用如此激進的戰術..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "一味的停留在过去是不够的。 ",
+			say = "一味的停留在過去是不夠的。 ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,38 +169,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "时代在改变。如果每次演习我们都采用同样的战法，在未来瞬息万变的实战里迟早是要吃大亏的。 ",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#a9f548",
-			side = 0,
-			dir = -1,
-			actor = 304050,
-			say = "正如{namecode:74}所说，乱世就在眼前。在这种时期，要是我再想着独善其身可就不好了。 ",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 304050,
-			side = 0,
-			nameColor = "#a9f548",
-			dir = -1,
-			say = "正因为是演习，对于不同战术的尝试和利用都将成为后辈们学习或者引以为戒的课题。 ",
+			say = "時代在改變。如果每次演習我們都採用同樣的戰法，在未來瞬息萬變的實戰裡遲早是要吃大虧的。 ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +185,38 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "演习能达到这样的成果，对我来说就已经有足够的价值了 ",
+			say = "正如{namecode:74}所說，亂世就在眼前。在這種時期，要是我再想著獨善其身可就不好了。 ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 304050,
+			side = 0,
+			nameColor = "#a9f548",
+			dir = -1,
+			say = "正因為是演習，對於不同戰術的嘗試和利用都將成為後輩們學習或者引以為戒的課題。 ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#a9f548",
+			side = 0,
+			dir = -1,
+			actor = 304050,
+			say = "演習能達到這樣的成果，對我來說就已經有足夠的價值了 ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 301790,
-			say = "真像是一个伟大的领导者会说出的话啊…..",
+			say = "真像是一個偉大的領導者會說出的話啊…..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 301790,
-			say = "不论妳们是谁赢得了最后的胜利，我都会全力的支持她的。",
+			say = "不論妳們是誰贏得了最後的勝利，我都會全力的支持她的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 		{
 			dir = -1,
 			side = 2,
-			say = "{namecode:140}说完便转身驶开了。",
+			say = "{namecode:140}說完便轉身駛開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "首日的演习结束，进入战果统计阶段 ",
+			say = "首日的演習結束，進入戰果統計階段 ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 		{
 			dir = -1,
 			side = 2,
-			say = "{namecode:75}敲响了首日演习结束的信号钟",
+			say = "{namecode:75}敲響了首日演習結束的信號鐘",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 304050,
-			say = "呼，呼…终于结束了吗…差点就要暴露了… ",
+			say = "呼，呼…終於結束了嗎…差點就要暴露了… ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 304050,
-			say = "太久没有运动身体，居然连这么点时间都要坚持不了了…咳… ",
+			say = "太久沒有運動身體，居然連這麼點時間都要堅持不了了…咳… ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 304050,
-			say = "…再坚持一下，还有两战就可以… ",
+			say = "…再堅持一下，還有兩戰就可以… ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

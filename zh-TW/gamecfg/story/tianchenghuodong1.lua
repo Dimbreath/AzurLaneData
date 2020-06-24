@@ -16,7 +16,7 @@ return {
 				}
 			},
 			signDate = {
-				"东大洋——坐标，28.502085, -177.914427",
+				"東大洋——坐標，28.502085, -177.914427",
 				0.2,
 				{
 					600,
@@ -31,7 +31,7 @@ return {
 			bgm = "battle-2",
 			actor = 307040,
 			nameColor = "#a9f548",
-			say = "还没准备好吗！？对方已经展开反击了！",
+			say = "還沒準備好嗎！？對方已經展開反擊了！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一航战二航战全员听令，立刻将舰载机换装鱼雷武装，准备展开对舰攻击！",
+			say = "一航戰二航戰全員聽令，立刻將艦載機換裝魚雷武裝，準備展開對艦攻擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么，在这个时候换装！？",
+			say = "什麼，在這個時候換裝！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "兵贵神速，一步千金，如果被对手抓住了这个机会的话…",
+			say = "兵貴神速，一步千金，如果被對手抓住了這個機會的話…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "方位0630，高度2000，发现复数敌机，高速接近中！",
+			say = "方位0630，高度2000，發現複數敵機，高速接近中！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正后方？！",
+			say = "正後方？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所有战机立刻回防，展开防空火…",
+			say = "所有戰機立刻回防，展開防空火…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#a9f548",
-			say = "{namecode:92}，{namecode:92}！！",
+			say = "加贺，加贺！！",
 			flashin = {
 				dur = 1,
 				black = true,
@@ -263,7 +263,7 @@ return {
 					4
 				},
 				{
-					"<size=51>真是失算啊…居然在关键时刻犯了如此兵家大忌…</size>",
+					"<size=51>真是失算啊…居然在關鍵時刻犯了如此兵家大忌…</size>",
 					6
 				},
 				{
@@ -271,7 +271,7 @@ return {
 					8
 				},
 				{
-					"<size=51>…对不起，辜负了您的期待…</size>",
+					"<size=51>…對不起，辜負了您的期待…</size>",
 					10
 				},
 				{
@@ -288,7 +288,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>                                                              ——苍红的回响</size>",
+					"<size=51>                                                              ——蒼紅的迴響</size>",
 					2
 				}
 			}
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵…这样就将死了",
+			say = "呵呵…這樣就將死了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐大人已经十连胜了！",
+			say = "姐姐大人已經十連勝了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然这样把我的金将诱骗进了斜行，太狡猾了！",
+			say = "居然這樣把我的金將誘騙進了斜行，太狡猾了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，谁叫{namecode:92}妳总是急于进攻呢，当妳的王将走到中段时结局就已经显而易见了~",
+			say = "哼哼，誰叫{namecode:92}妳總是急於進攻呢，當妳的王將走到中段時結局就已經顯而易見了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有的时候，以守为攻把猎物悄悄的诱骗进包围网反而能取得意外的收获哦~",
+			say = "有的時候，以守為攻把獵物悄悄的誘騙進包圍網反而能取得意外的收穫哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么嘛，一副得意洋洋的样子，尾巴都翘得老高了，这局不过是我疏忽大意了而已……",
+			say = "什麼嘛，一副得意洋洋的樣子，尾巴都翹得老高了，這局不過是我疏忽大意了而已……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "收拾好驹台，我们再战一局！",
+			say = "收拾好駒台，我們再戰一局！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,11 +456,11 @@ return {
 			},
 			options = {
 				{
-					content = "再战一局",
+					content = "再戰一局",
 					flag = 1
 				},
 				{
-					content = "见好就收",
+					content = "見好就收",
 					flag = 2
 				}
 			}
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "姐姐大人十一连胜～",
+			say = "姐姐大人十一連勝～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "时间不早了，{namecode:91}，我们也该回去了，再待下去就要打扰到{namecode:92}大人修行了~",
+			say = "時間不早了，{namecode:91}，我們也該回去了，再待下去就要打擾到{namecode:92}大人修行了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赢完就想要逃跑吗！",
+			say = "贏完就想要逃跑嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "才不是呢～别忘了，重樱一年一度最重要的联合演习后天就要开始了。",
+			say = "才不是呢～別忘了，重櫻一年一度最重要的聯合演習後天就要開始了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我想{namecode:92}大人也不会想在战场上输得像今天一样惨吧？呵呵呵~",
+			say = "我想{namecode:92}大人也不會想在戰場上輸得像今天一樣慘吧？呵呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…哼，既然如此…究竟谁才是最强的新世代战舰，就放到实战中见分晓吧！",
+			say = "…哼，既然如此…究竟誰才是最強的新世代戰艦，就放到實戰中見分曉吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			dir = 1,
 			actor = 305060,
 			nameColor = "#a9f548",
-			say = "姐姐大人，我去探查了一下~这一届的候选者们都很兴致昂扬呢，这一次的演习有得看了。",
+			say = "姐姐大人，我去探查了一下~這一屆的候選者們都很興致昂揚呢，這一次的演習有得看了。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -638,7 +638,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是说过，周围有人的时候注意不要叫我“姐姐”嘛…！",
+			say = "不是說過，周圍有人的時候注意不要叫我“姐姐”嘛…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶～为什么不能叫姐姐大人姐姐大人呀？",
+			say = "欸～為什麼不能叫姐姐大人姐姐大人呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔唔唔…随妳喜欢吧……",
+			say = "唔唔唔…隨妳喜歡吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次的联合演习吗？可能会和以往略有不同…希望一切都能顺利就好了…",
+			say = "這次的聯合演習嗎？可能會和以往略有不同…希望一切都能順利就好了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "情况不太对劲…我们与9点钟方向探索的侦察机编队失去了联络！",
+			say = "情況不太對勁…我們與9點鐘方向探索的偵察機編隊失去了聯絡！",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "借来的东西，本来还想把它们完整还回去的…不过，果然没那么容易啊…",
+			say = "借來的東西，本來還想把它們完整還回去的…不過，果然沒那麼容易啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "侦察机编队很可能是被塞壬击落了。鉴于其他方向的舰载机都没有发现{namecode:92}的踪影，9点钟方向的機率应该是最高的----",
+			say = "偵察機編隊很可能是被塞壬擊落了。鑑於其他方向的艦載機都沒有發現{namecode:92}的踪影，9點鐘方向的機率應該是最高的----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "出什么事了，{namecode:40}？",
+			say = "出什麼事了，{namecode:40}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			actor = 302140,
 			nameColor = "#a9f548",
-			say = "天天天…天上飞来了好多黑压压的东西！！",
+			say = "天天天…天上飛來了好多黑壓壓的東西！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这是…！！",
+			say = "這是…！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "是塞壬航母放出的机群！全舰队做好防空准备！！",
+			say = "是塞壬航母放出的機群！全艦隊做好防空準備！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 302140,
-			say = "诶？？防..防空？",
+			say = "欸？？防..防空？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "全舰队进行S型规避前进，把妳们所有的武器抬到最大仰角，把那些会飞的东西打下来！",
+			say = "全艦隊進行S型規避前進，把妳們所有的武器抬到最大仰角，把那些會飛的東西打下來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			actor = 302140,
 			nameColor = "#a9f548",
-			say = "了解！我..我会尽力的！！",
+			say = "了解！我..我會盡力的！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

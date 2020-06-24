@@ -40,7 +40,7 @@ return {
 			}
 		},
 		{
-			say = "是{namecode:161}啊，突然造访所为何事？",
+			say = "是{namecode:161}啊，突然造訪所為何事？",
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -82,7 +82,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "请说。",
+			say = "請說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			blackBg = true,
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "希望撤销对{namecode:92}的退役处理。",
+			say = "希望撤銷對{namecode:92}的退役處理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "单刀直入么…妳知道的，没有人希望执行这份命令…不过，合约既已签订，就绝无改变的可能。除非…",
+			say = "單刀直入嗎…妳知道的，沒有人希望執行這份命令…不過，合約既已簽訂，就絕無改變的可能。除非…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			blackBg = true,
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "除非有人能够替代她",
+			say = "除非有人能夠替代她",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "正如您所知，我的状况恐怕无法胜任联合舰队旗舰一职…望{namecode:74}大人见谅…",
+			say = "正如您所知，我的狀況恐怕無法勝任聯合艦隊旗艦一職…望{namecode:74}大人見諒…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			blackBg = true,
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "可能…很长一段时间内重樱还需要由您来带领前进……",
+			say = "可能…很長一段時間內重櫻還需要由您來帶領前進……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这就是妳的愿望吗？",
+			say = "這就是妳的願望嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "正是。{namecode:92}因为一时失意，独自驶入镜面海域，我将会亲自带领小队去将她寻回。",
+			say = "正是。{namecode:92}因為一時失意，獨自駛入鏡面海域，我將會親自帶領小隊去將她尋回。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "如果能够平安归来，我希望{namecode:74}大人能够同意我的选择…",
+			say = "如果能夠平安歸來，我希望{namecode:74}大人能夠同意我的選擇…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			blackBg = true,
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "然后，重新举办一次舰队演习…这是我..咳….咳咳…",
+			say = "然後，重新舉辦一次艦隊演習…這是我..咳….咳咳…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "好了，不必再说下去了。余同意妳的选择。",
+			say = "好了，不必再說下去了。余同意妳的選擇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			blackBg = true,
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "感谢{namecode:74}大人的理解..",
+			say = "感謝{namecode:74}大人的理解..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "我已经托付{namecode:89}大人在未来指导{namecode:91}{namecode:92}两人的航空技术。",
+			say = "我已經託付{namecode:89}大人在未來指導{namecode:91}{namecode:92}兩人的航空技術。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			blackBg = true,
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "凭她们两人的资质和悟性，将来一定能成为重樱的核心力量…请{namecode:74}大人放心…咳…",
+			say = "憑她們兩人的資質和悟性，將來一定能成為重櫻的核心力量…請{namecode:74}大人放心…咳…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:161}，余会向八百万众神祈祷，祝妳凯旋归来的",
+			say = "{namecode:161}，余會向八百萬眾神祈禱，祝妳凱旋歸來的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			blackBg = true,
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "感谢…那么，我就出发了——",
+			say = "感謝…那麼，我就出發了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -72,6 +72,12 @@ pg.skin_page_template = {
 		res = "yundongshijian",
 		english_name = "Sport time"
 	},
+	[14] = {
+		id = 14,
+		name = "疾速狂热",
+		res = "jisukuangre",
+		english_name = "Race Queen"
+	},
 	[9999] = {
 		id = 9999,
 		name = "其他",
@@ -91,6 +97,7 @@ pg.skin_page_template = {
 		11,
 		12,
 		13,
+		14,
 		9999
 	}
 }

@@ -878,7 +878,8 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			30130,
-			30131
+			30131,
+			30179
 		}
 	},
 	[30108] = {
@@ -920,6 +921,17 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			30163,
 			30164
+		}
+	},
+	[30111] = {
+		shiptype = 1,
+		name = "夕雲級",
+		t_level = 8,
+		id = 30111,
+		t_level_1 = 80,
+		nation = 3,
+		ships = {
+			30180
 		}
 	},
 	[30201] = {
@@ -967,7 +979,8 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			30212,
-			30213
+			30213,
+			30214
 		}
 	},
 	[30205] = {
@@ -1014,7 +1027,8 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			30307,
-			30308
+			30308,
+			30309
 		}
 	},
 	[30304] = {
@@ -1055,6 +1069,17 @@ pg.fleet_tech_ship_class = {
 			30403
 		}
 	},
+	[30402] = {
+		shiptype = 4,
+		name = "天城級",
+		t_level = 7,
+		id = 30402,
+		t_level_1 = 92,
+		nation = 3,
+		ships = {
+			30405
+		}
+	},
 	[30501] = {
 		shiptype = 5,
 		name = "扶桑級",
@@ -1089,6 +1114,17 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			30505,
 			30506
+		}
+	},
+	[30504] = {
+		shiptype = 5,
+		name = "加賀級",
+		t_level = 7,
+		id = 30504,
+		t_level_1 = 96,
+		nation = 3,
+		ships = {
+			30507
 		}
 	},
 	[30505] = {
@@ -1589,6 +1625,7 @@ pg.fleet_tech_ship_class = {
 		30108,
 		30109,
 		30110,
+		30111,
 		30201,
 		30202,
 		30203,
@@ -1600,9 +1637,11 @@ pg.fleet_tech_ship_class = {
 		30304,
 		30305,
 		30401,
+		30402,
 		30501,
 		30502,
 		30503,
+		30504,
 		30505,
 		30506,
 		30601,

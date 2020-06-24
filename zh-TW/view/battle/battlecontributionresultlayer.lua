@@ -1,4 +1,4 @@
-slot0 = class("BattleContributionResultLayer", import(".BattleResultLayer"))
+slot0 = class("BattleContributionResultLayer", import(".BattleActivityBossResultLayer"))
 slot0.DURATION_WIN_FADE_IN = 0.5
 slot0.DURATION_LOSE_FADE_IN = 1.5
 slot0.DURATION_GRADE_LAST = 1.5

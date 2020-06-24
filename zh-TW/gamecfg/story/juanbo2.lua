@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"笑容Overflow！\n\n<size=45>二、{namecode:162}会帮助妳的！</size>",
+					"笑容Overflow！\n\n<size=45>二、{namecode:162}會幫助妳的！</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "办公室（夜晚）",
+			say = "辦公室（夜晚）",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "结果回过神来已经到了这个时间了……",
+			say = "結果回過神來已經到了這個時間了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这么晚了，{namecode:162}应该早就回去了吧。",
+			say = "這麼晚了，{namecode:162}應該早就回去了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "？？？",
-			say = "……我……那个……",
+			say = "……我……那個……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……没事……有我……",
+			say = "……沒事……有我……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "远处传来了说话声",
+			say = "遠處傳來了說話聲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			},
 			options = {
 				{
-					content = "循着声音过去看看",
+					content = "循著聲音過去看看",
 					flag = 1
 				}
 			}
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "妳看，夜晚也没有那么可怕嘛！对不对？",
+			say = "妳看，夜晚也沒有那麼可怕嘛！對不對？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "只要跟着我{namecode:162}就好了！嘿嘿~",
+			say = "只要跟著我{namecode:162}就好了！嘿嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			actor = 301540,
 			nameColor = "#a9f548",
-			say = "谢，谢谢妳，{namecode:162}…",
+			say = "謝，謝謝妳，{namecode:162}…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "说起来，{namecode:174}为什么会一个人在这里？",
+			say = "說起來，{namecode:174}為什麼會一個人在這裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那，那个……今天有我的夜间演习，结果演习完回去的时候，和大家走散了……",
+			say = "那，那個……今天有我的夜間演習，結果演習完回去的時候，和大家走散了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			actor = 301540,
 			nameColor = "#a9f548",
-			say = "听说是为了模拟夜间效果，这里的灯都关了……我一个人有点怕——",
+			say = "聽說是為了模擬夜間效果，這裡的燈都關了……我一個人有點怕——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			actor = 301540,
 			nameColor = "#a9f548",
-			say = "不过，为什么{namecode:162}姐姐这么晚还在港区里？是秘书舰的工作吗？",
+			say = "不過，為什麼{namecode:162}姐姐這麼晚還在港區裡？是秘書艦的工作嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "最近指挥官每天都忙到很晚。我也帮不上什么忙，就想一直陪着他，没想到到了我必须回去的时候他还在工作。结果我回来的时候就正好碰到妳了呢，嘿嘿~",
+			say = "最近指揮官每天都忙到很晚。我也幫不上什麼忙，就想一直陪著他，沒想到到了我必須回去的時候他還在工作。結果我回來的時候就正好碰到妳了呢，嘿嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "不过指挥官变得真的好奇怪啊……就一直坐在那里，不是在拼命看什么就是在拼命写什么，而且最近一次都没有笑过。",
+			say = "不過指揮官變得真的好奇怪啊……就一直坐在那裡，不是在拼命看什麼就是在拼命寫什麼，而且最近一次都沒有笑過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			actor = 301540,
 			nameColor = "#a9f548",
-			say = "可能指挥官是遇到了什么麻烦吧……不过有{namecode:162}姐姐在的话，一定会好起来的……！",
+			say = "可能指揮官是遇到了什麼麻煩吧……不過有{namecode:162}姐姐在的話，一定會好起來的……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "嘿嘿，说的也是呢！我一定会想办法让指挥官笑起来的！",
+			say = "嘿嘿，說的也是呢！我一定會想辦法讓指揮官笑起來的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "噢噢！到了到了！前面亮着灯的地方就是生活区了！一口气冲过去吧！……哎？呜哦哦哦！——",
+			say = "噢噢！到了到了！前面亮著燈的地方就是生活區了！一口氣沖過去吧！……哎？嗚哦哦哦！——",
 			action = {
 				{
 					y = -2500,
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "正准备加速的{namecode:162}华丽地摔了一跤，不过马上又站了起来。",
+			say = "正準備加速的{namecode:162}華麗地摔了一跤，不過馬上又站了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			actor = 301540,
 			nameColor = "#a9f548",
-			say = "没，没事吧？",
+			say = "沒，沒事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			actor = 301800,
 			nameColor = "#a9f548",
-			say = "没事！到不如说习惯了呢，嘿嘿！",
+			say = "沒事！倒不如說習慣了呢，嘿嘿！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "看来不用担心她们两个了",
+			say = "看來不用擔心她們兩個了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

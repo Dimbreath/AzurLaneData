@@ -1736,21 +1736,11 @@ pg.gametip = {
 5顏料可通過活動任務累計消耗石油獲得；
 6完成上色可以獲得獎勵；
 7各圖完成獎勵明細如下：
-	完成圖1獲得隨機教材T3 x2；
-	完成圖2獲得骰子x8；
-	完成圖3獲得主炮部件T3 x2；
-	完成圖4獲得骰子x8；
-	完成圖5獲得通用部件T3 x3；
-	完成圖6獲得骰子x8；
-	完成圖7獲得鞍山x1；
-8完成全部的繪圖日記後解鎖一張額外的空白繪圖日記；
-9空白繪圖日記沒有 用顏料限制，且不會消耗顏料；
-10空白繪圖日記可以使用橡皮擦和全部清除功能；
-11橡皮擦可以擦除單個單元格上色顏色；
-12全部清除功能可以擦除繪圖日記上色所有顏色；
-13活動結束後，未消耗的顏料會被清除。
-14 1月27日前每天解鎖一個可完成的繪圖，空白畫板最快
-1月28日解鎖；]]
+	完成圖1獲得隨機教材T3 x3；
+	完成圖2獲得通用部件T3x4；
+	完成圖3獲得換裝【明石_在A1攤位喵！】；
+8活動結束後，未消耗的顏料會被清除。
+9 6月26日前每天解鎖一個可完成的繪圖；]]
 			}
 		}
 	},
@@ -4292,7 +4282,7 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 		tip = "請選擇將要對<color=#5FD500>$1</color>進行的操作"
 	},
 	backyard_theme_save_tip = {
-		tip = "是否確定要將當前後宅配置保存為\n<color=#5FD500>$1</color>"
+		tip = "是否確定要將當前後宅配置儲存為\n<color=#5FD500>$1</color>"
 	},
 	backyard_theme_defaultname = {
 		tip = "自定義主題"
@@ -6694,7 +6684,7 @@ $3]]
 		tip = "天賦點不足"
 	},
 	buildship_new_tip = {
-		tip = "讓·巴爾、麻薩諸塞、敦克爾克、速科夫、福爾班出現機率UP!"
+		tip = "天城、足柄、旗風、那珂出現機率UP!"
 	},
 	buildship_heavy_tip = {
 		tip = "愛宕、威爾斯親王建造追加！"
@@ -10072,7 +10062,88 @@ TIPS：
 	backyard_unopen = {
 		tip = "後宅未開放"
 	},
+	help_monopoly_car = {
+		tip = {
+			{
+				info = "活动说明："
+			},
+			{
+				info = "1.活动期间，玩家首日可获得5个骰子，此后每日24点可\n获得5个骰子；骰子数量可累积"
+			},
+			{
+				info = "2.游戏中，根据玩家停留的格子可获得不同奖励，每次经\n过起点可获得200物资；"
+			},
+			{
+				info = "    ：获得一定数量物资；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "saichejinbi"
+				}
+			},
+			{
+				info = "    ：获得一定数量石油；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "saicheshiyou"
+				}
+			},
+			{
+				info = "    ：触发随机事件；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "saicheminyun"
+				}
+			},
+			{
+				info = "    ：触发随机奖励；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "saichedaoju"
+				}
+			},
+			{
+				info = "    ：触发随机移动事件；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "saicheteshu"
+				}
+			}
+		}
+	},
 	backYard_missing_furnitrue_tip = {
 		tip = "缺少以下傢俱"
+	},
+	win_condition_display_qijian = {
+		tip = "擊破敵方旗艦"
+	},
+	win_condition_display_shangchuan = {
+		tip = "商船抵達指定位置"
+	},
+	win_condition_display_judian = {
+		tip = "擊破敵方所有據點"
+	},
+	win_condition_display_tuoli = {
+		tip = "任意艦隊到達脫離點"
+	},
+	lose_condition_display_quanmie = {
+		tip = "我方艦隊全滅"
+	},
+	lose_condition_display_gangqu = {
+		tip = "我方艦隊全滅/港區血量低於0"
 	}
 }

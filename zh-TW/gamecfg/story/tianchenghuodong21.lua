@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "{namecode:92}，这块勾玉送给妳。把它戴在身上，必要的时候可是会救妳一命的哦~",
+			say = "{namecode:92}，這塊勾玉送給妳。把它戴在身上，必要的時候可是會救妳一命的哦~",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -46,7 +46,7 @@ return {
 			blackBg = true,
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "其实我给{namecode:91}也准备了一个，给妳的是一对...-不，是备用的~",
+			say = "其實我給{namecode:91}也準備了一個，給妳的是一對...-不，是備用的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 		{
 			expression = 1,
 			side = 0,
-			say = "怎么突然送我这么贵重的东西，妳是无事献殷勤，还是有所图谋？",
+			say = "怎麼突然送我這麼貴重的東西，妳是無事獻殷勤，還是有所圖謀？",
 			dir = -1,
 			blackBg = true,
 			actor = 305070,
@@ -84,7 +84,7 @@ return {
 			blackBg = true,
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "想什么呢，不过是去祈愿时顺便买的便宜货，妳也顺便收下就是了，呵呵呵~",
+			say = "想什麼呢，不過是去祈願時順便買的便宜貨，妳也順便收下就是了，呵呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "这么说来，这也算是妳第一次送我的礼物吧。哼，那我就不客气了！",
+			say = "這麼說來，這也算是妳第一次送我的禮物吧。哼，那我就不客氣了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			blackBg = true,
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "呵呵~这样便好~记得一定要随身带着哦？",
+			say = "呵呵~這樣便好~記得一定要隨身帶著哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			nameColor = "#ff0000",
-			say = "（又被妳提前算到了一步…最后果然还是输给了妳啊)",
+			say = "（又被妳提前算到了一步…最後果然還是輸給了妳啊)",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -189,7 +189,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（遵照您的嘱托，我一直努力地守护着作为航空母舰活跃着的{namecode:91})",
+			say = "（遵照您的囑託，我一直努力地守護著作為航空母艦活躍著的{namecode:91})",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（没想到，当年的那个跟屁虫，如今已经成长为了独当一面的领导者)",
+			say = "（沒想到，當年的那個跟屁蟲，如今已經成長為了獨當一面的領導者)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（有时，我甚至能在她的身上看到您的影子)",
+			say = "（有時，我甚至能在她的身上看到您的影子)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（...也许只是错觉吧)",
+			say = "（...也許只是錯覺吧)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（不论如何，现在的她对我来说就如同亲姐妹一样，请您放心)",
+			say = "（不論如何，現在的她對我來說就如同親姐妹一樣，請您放心)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（不过，对于塞壬...现在的情况似乎有点超出妳的预料之外了…)",
+			say = "（不過，對於塞壬...現在的情況似乎有點超出妳的預料之外了…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（如果是妳的话，能告诉我接下来该如何选择吗？)",
+			say = "（如果是妳的話，能告訴我接下來該如何選擇嗎？)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			nameColor = "#ff0000",
-			say = "呵呵呵，又有烦人的“老鼠”突破暴风圈闯进圣域了啊…测试者，检测出单位了吗",
+			say = "呵呵呵，又有煩人的“老鼠”突破暴風圈闖進聖域了啊…測試者，檢測出單位了嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			actorName = "？？？",
-			say = "已经将监视投影下放权限了哦，尽情使用吧，呵呵呵",
+			say = "已經將監視投影下放權限了哦，盡情使用吧，呵呵呵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			nameColor = "#ff0000",
-			say = "居然是五航战的那帮孩子啊。真是一群碍事的家伙～",
+			say = "居然是五航戰的那幫孩子啊。真是一群礙事的傢伙～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			nameColor = "#ff0000",
-			say = "既然如此，不如将计就计…就让我来看看妳们究竟有多大的本事吧～",
+			say = "既然如此，不如將計就計…就讓我來看看妳們究竟有多大的本事吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

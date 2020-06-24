@@ -3248,6 +3248,42 @@ pg.fleet_tech_ship_template = {
 			1
 		}
 	},
+	[30179] = {
+		max_star = 5,
+		pt_level = 3,
+		add_level_attr = 6,
+		pt_upgrage = 4,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 30107,
+		id = 30179,
+		add_get_value = 1,
+		pt_get = 2,
+		add_get_shiptype = {
+			1
+		},
+		add_level_shiptype = {
+			1
+		}
+	},
+	[30180] = {
+		max_star = 5,
+		pt_level = 13,
+		add_level_attr = 3,
+		pt_upgrage = 17,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 30111,
+		id = 30180,
+		add_get_value = 1,
+		pt_get = 8,
+		add_get_shiptype = {
+			1
+		},
+		add_level_shiptype = {
+			1
+		}
+	},
 	[30201] = {
 		max_star = 5,
 		pt_level = 5,
@@ -3392,6 +3428,24 @@ pg.fleet_tech_ship_template = {
 			2
 		}
 	},
+	[30214] = {
+		max_star = 5,
+		pt_level = 8,
+		add_level_attr = 3,
+		pt_upgrage = 11,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 30204,
+		id = 30214,
+		add_get_value = 1,
+		pt_get = 5,
+		add_get_shiptype = {
+			2
+		},
+		add_level_shiptype = {
+			2
+		}
+	},
 	[30220] = {
 		max_star = 5,
 		pt_level = 12,
@@ -3521,6 +3575,26 @@ pg.fleet_tech_ship_template = {
 		id = 30308,
 		add_get_value = 1,
 		pt_get = 9,
+		add_get_shiptype = {
+			3,
+			13
+		},
+		add_level_shiptype = {
+			3,
+			13
+		}
+	},
+	[30309] = {
+		max_star = 5,
+		pt_level = 16,
+		add_level_attr = 3,
+		pt_upgrage = 21,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 30303,
+		id = 30309,
+		add_get_value = 1,
+		pt_get = 10,
 		add_get_shiptype = {
 			3,
 			13
@@ -3670,6 +3744,28 @@ pg.fleet_tech_ship_template = {
 			4
 		}
 	},
+	[30405] = {
+		max_star = 6,
+		pt_level = 30,
+		add_level_attr = 2,
+		pt_upgrage = 40,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 30402,
+		id = 30405,
+		add_get_value = 1,
+		pt_get = 20,
+		add_get_shiptype = {
+			4,
+			5,
+			10
+		},
+		add_level_shiptype = {
+			4,
+			5,
+			10
+		}
+	},
 	[30501] = {
 		max_star = 5,
 		pt_level = 16,
@@ -3791,6 +3887,28 @@ pg.fleet_tech_ship_template = {
 		id = 30506,
 		add_get_value = 2,
 		pt_get = 16,
+		add_get_shiptype = {
+			4,
+			5,
+			10
+		},
+		add_level_shiptype = {
+			4,
+			5,
+			10
+		}
+	},
+	[30507] = {
+		max_star = 6,
+		pt_level = 30,
+		add_level_attr = 2,
+		pt_upgrage = 40,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 30504,
+		id = 30507,
+		add_get_value = 2,
+		pt_get = 20,
 		add_get_shiptype = {
 			4,
 			5,
@@ -4983,6 +5101,8 @@ pg.fleet_tech_ship_template = {
 		30161,
 		30163,
 		30164,
+		30179,
+		30180,
 		30201,
 		30204,
 		30205,
@@ -4991,6 +5111,7 @@ pg.fleet_tech_ship_template = {
 		30211,
 		30212,
 		30213,
+		30214,
 		30220,
 		30301,
 		30302,
@@ -4998,6 +5119,7 @@ pg.fleet_tech_ship_template = {
 		30304,
 		30307,
 		30308,
+		30309,
 		30311,
 		30312,
 		30313,
@@ -5005,12 +5127,14 @@ pg.fleet_tech_ship_template = {
 		30401,
 		30402,
 		30403,
+		30405,
 		30501,
 		30502,
 		30503,
 		30504,
 		30505,
 		30506,
+		30507,
 		30511,
 		30601,
 		30602,

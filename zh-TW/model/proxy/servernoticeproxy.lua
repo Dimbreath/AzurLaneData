@@ -69,15 +69,7 @@ function slot0.setStopRemind(slot0, slot1)
 end
 
 function slot0.getStopRemind(slot0)
-	if PlayerPrefs.HasKey(uv0.KEY_STOP_REMIND) then
-		slot2 = pg.TimeMgr.GetInstance()
-
-		if slot2:IsSameDay(PlayerPrefs.GetInt(uv0.KEY_STOP_REMIND), slot2:GetServerTime()) then
-			return true
-		end
-	end
-
-	return false
+	return PlayerPrefs.HasKey(uv0.KEY_STOP_REMIND)
 end
 
 function slot0.setStopNewTip(slot0)

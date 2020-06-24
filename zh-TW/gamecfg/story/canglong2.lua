@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"与{namecode:93}共度的时光\n\n<size=45>二 教教我，{namecode:93}老师！</size>",
+					"與{namecode:93}共度的時光\n\n<size=45>二 教教我，{namecode:93}老師！</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "听说{namecode:93}好像喜欢花札的样子，就从花札入手吧！",
+			say = "聽說{namecode:93}好像喜歡花牌的樣子，就從花牌入手吧！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·重樱宿舍",
+			say = "港區·重櫻宿舍",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……那么，今天我们要讲的是桶狭间之战。",
+			say = "……那麼，今天我們要講的是桶狹間之戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			say = "哦……终于到了这场决定性的战役了！",
+			say = "哦……終於到了這場決定性的戰役了！",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "在那时，今川家还是称霸东海道的……咦，这不是指挥官吗？",
+			say = "在那時，今川家還是稱霸東海道的……咦，這不是指揮官嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问在做什么",
+					content = "詢問在做什麼",
 					flag = 1
 				}
 			}
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一看就知道了吧，是历史课。",
+			say = "一看就知道了吧，是歷史課。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，{namecode:142}想要进一步了解战国时代，就由我来给她上课。",
+			say = "嗯，{namecode:142}想要進一步了解戰國時代，就由我來給她上課。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官要是有兴趣的话，也可以来听一听。",
+			say = "指揮官要是有興趣的話，也可以來聽一聽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			withoutActorName = true,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "那就听一听吧。",
+			say = "那就聽一聽吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "……信长的奇袭竟然直取了义元的首级，这是谁也没想到的。",
+			say = "……信長的奇襲竟然直取了義元的首級，這是誰也沒想到的。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以这一战为契机，织田氏……——",
+			say = "以這一戰為契機，織田氏……——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "今天的课就上到这里了。",
+			say = "今天的課就上到這裡了。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "不愧是{namecode:93}，讲解的十分简洁明了，而且面面俱到。",
+			say = "不愧是{namecode:93}，講解的十分簡潔明了，而且面面俱到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			actor = 301590,
 			nameColor = "#a9f548",
-			say = "嗯嗯……原来如此，谢谢{namecode:93}老师！",
+			say = "嗯嗯……原來如此，謝謝{namecode:93}老師！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之后{namecode:143}她们的课程也麻烦妳了。",
+			say = "之後{namecode:143}她們的課程也麻煩妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "其他课程……总觉得{namecode:93}好像什么都知道的样子。",
+			say = "其他課程……總覺得{namecode:93}好像什麼都知道的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，想什么都写在脸上了……这是一名副官应该有的素养。",
+			say = "指揮官，想什麼都寫在臉上了……這是一名副官應該有的素養。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "话说回来，您来找我有什么事吗？",
+			say = "話說回來，您來找我有什麼事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "学习花札？您为什么突然对这个感兴趣？",
+			say = "學習花牌？您為什麼突然對這個感興趣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，要是真的想学，我自然不介意……",
+			say = "不過，要是真的想學，我自然不介意……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "于是，向{namecode:93}学习了花札。",
+			say = "於是，向{namecode:93}學習了花牌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

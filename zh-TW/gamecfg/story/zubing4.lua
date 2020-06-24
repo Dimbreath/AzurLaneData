@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前进吧，{namecode:144}！\n\n<size=45>四 {namecode:144}，为何而战？</size>",
+					"前進吧，{namecode:144}！\n\n<size=45>四 {namecode:144}，為何而戰？</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			say = "某日·演习海域",
+			say = "某日·演習海域",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的各位，对于此次联合演习的成果，我谨代表皇家向大家表示诚挚的感谢。",
+			say = "重櫻的各位，對於此次聯合演習的成果，我謹代表皇家向大家表示誠摯的感謝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太客气啦~要说感谢的话，这边也一样呢！通过这次的演习，我们也向皇家学习到了很多有意义的东西。",
+			say = "太客氣啦~要說感謝的話，這邊也一樣呢！通過這次的演習，我們也向皇家學習到了很多有意義的東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "希望以后还能有这样一起演练的机会！",
+			say = "希望以後還能有這樣一起演練的機會！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 205070,
 			nameColor = "#a9f548",
-			say = "余没记错的话，汝正是重樱的{namecode:144}吧。",
+			say = "余沒記錯的話，汝正是重櫻的{namecode:144}吧。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -157,7 +157,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（这位好像是……皇家的战列舰，约克公爵吧）",
+			say = "（這位好像是……皇家的戰列艦，約克公爵吧）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽有早耳闻，汝今天光彩耀目，还是让余觉得不可思议呢。",
+			say = "雖有早耳聞，汝今天光彩耀目，還是讓余覺得不可思議呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			blackBg = true,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "（这，这是在夸奖我吧？）",
+			say = "（這，這是在誇獎我吧？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "谢谢。",
+			say = "謝謝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过支撑着汝的是何物？余甚是好奇…独自一人散发的光辉，不会有这般绚丽的色彩",
+			say = "不過支撐著汝的是何物？餘甚是好奇…獨自一人散發的光輝，不會有這般絢麗的色彩",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			blackBg = true,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "（这，这是在说什么？是问我有今天这样表现的理由？）",
+			say = "（這，這是在說什麼？是問我有今天這樣表現的理由？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "唔…我觉得虽然是演习，但是自己毕竟代表着重樱这一方……",
+			say = "唔…我覺得雖然是演習，但是自己畢竟代表著重櫻這一方……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“全力以赴，做到最好”，这样对自己和大家都是一种负责——",
+			say = "“全力以赴，做到最好”，這樣對自己和大家都是一種負責——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对众人负责么……哼，很正经的答案呢。但是，光是这样的话就有些无趣了",
+			say = "對眾人負責嗎……哼，很正經的答案呢。但是，光是這樣的話就有些無趣了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "究竟…汝心中的故乡是何处呢？",
+			say = "究竟…汝心中的故鄉是何處呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			blackBg = true,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "（没，没听懂……）",
+			say = "（沒，沒聽懂……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，为难一个认真单纯的女生可不是好的风度啊。",
+			say = "好了，為難一個認真單純的女生可不是好的風度啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚的话不必在意太多，她说话就是这样子的。约克，走吧，一会还有事情呢。",
+			say = "剛剛的話不必在意太多，她說話就是這樣子的。約克，走吧，一會還有事情呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啧，威尔士，汝真是无处不在。",
+			say = "嘖，威爾斯，汝真是無處不在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "两人离开了演习海域。",
+			say = "兩人離開了演習海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "（这样算是……得救了吧）",
+			say = "（這樣算是……得救了吧）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（心中的故乡，指的是自己一直在意的东西吗？）",
+			say = "（心中的故鄉，指的是自己一直在意的東西嗎？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			blackBg = true,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "（我一直在意的东西，会是什么呢）",
+			say = "（我一直在意的東西，會是什麼呢）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -436,138 +436,140 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 		end)
 
 		for slot26, slot27 in pairs(slot18) do
-			slot28 = 0 + 1 <= slot15.childCount and slot15:GetChild(slot22 - 1) or cloneTplTo(slot16, slot15)
-			slot29 = findTF(slot28, "name")
-			slot30 = findTF(slot28, "value")
-			slot32 = findTF(slot30, "down")
+			if not slot27 or slot27.type ~= AttributeType.OxyRaidDistance then
+				slot28 = 0 + 1 <= slot15.childCount and slot15:GetChild(slot22 - 1) or cloneTplTo(slot16, slot15)
+				slot29 = findTF(slot28, "name")
+				slot30 = findTF(slot28, "value")
+				slot32 = findTF(slot30, "down")
 
-			if findTF(slot30, "up") and slot32 then
-				setActive(slot31, false)
-				setActive(slot32, false)
-			end
+				if findTF(slot30, "up") and slot32 then
+					setActive(slot31, false)
+					setActive(slot32, false)
+				end
 
-			setActive(slot28, slot27)
-			setActive(slot29:Find("tip"), false)
+				setActive(slot28, slot27)
+				setActive(slot29:Find("tip"), false)
 
-			if slot27 then
-				if EquipType.isDevice(slot2.configId) then
-					setText(slot29, AttributeType.Type2Name(slot27.type))
-					setText(slot30, slot27.value)
+				if slot27 then
+					if EquipType.isDevice(slot2.configId) then
+						setText(slot29, AttributeType.Type2Name(slot27.type))
+						setText(slot30, slot27.value)
 
-					if slot5 then
-						slot33 = false
+						if slot5 then
+							slot33 = false
 
-						for slot37 = 1, 3 do
-							if slot5[slot37] and slot27.type == slot5[slot37].type then
-								if slot27.type == AttributeType.SonarInterval then
-									setActive(slot31, slot27.value < slot5[slot37].value)
-									setActive(slot32, slot5[slot37].value < slot27.value)
+							for slot37 = 1, 3 do
+								if slot5[slot37] and slot27.type == slot5[slot37].type then
+									if slot27.type == AttributeType.SonarInterval then
+										setActive(slot31, slot27.value < slot5[slot37].value)
+										setActive(slot32, slot5[slot37].value < slot27.value)
 
-									break
-								end
+										break
+									end
 
-								if slot27.type == AttributeType.Damage then
-									slot38 = 0
-									slot39 = 0
+									if slot27.type == AttributeType.Damage then
+										slot38 = 0
+										slot39 = 0
 
-									if string.match(slot27.value, i18n("word_secondseach")) == string.match(slot5[slot37].value, i18n("word_secondseach")) then
-										if slot40 == i18n("word_secondseach") then
-											slot38 = string.gsub(slot27.value, slot40, "")
-											slot39 = string.gsub(slot5[slot37].value, slot40, "")
-										else
-											slot42, slot43 = string.match(string.gsub(slot27.value, " ", ""), "(%d+)x(%d+)")
-											slot38 = (slot42 or 0) * (slot43 or 0)
-											slot44, slot45 = string.match(string.gsub(slot5[slot37].value, " ", ""), "(%d+)x(%d+)")
-											slot39 = (slot44 or 0) * (slot45 or 0)
+										if string.match(slot27.value, i18n("word_secondseach")) == string.match(slot5[slot37].value, i18n("word_secondseach")) then
+											if slot40 == i18n("word_secondseach") then
+												slot38 = string.gsub(slot27.value, slot40, "")
+												slot39 = string.gsub(slot5[slot37].value, slot40, "")
+											else
+												slot42, slot43 = string.match(string.gsub(slot27.value, " ", ""), "(%d+)x(%d+)")
+												slot38 = (slot42 or 0) * (slot43 or 0)
+												slot44, slot45 = string.match(string.gsub(slot5[slot37].value, " ", ""), "(%d+)x(%d+)")
+												slot39 = (slot44 or 0) * (slot45 or 0)
+											end
+
+											setActive(slot31, tonumber(slot39) < tonumber(slot38))
+											setActive(slot32, tonumber(slot38) < tonumber(slot39))
 										end
 
-										setActive(slot31, tonumber(slot39) < tonumber(slot38))
-										setActive(slot32, tonumber(slot38) < tonumber(slot39))
+										break
 									end
+
+									setActive(slot31, slot5[slot37].value < slot27.value)
+									setActive(slot32, slot27.value < slot5[slot37].value)
 
 									break
 								end
-
-								setActive(slot31, slot5[slot37].value < slot27.value)
-								setActive(slot32, slot27.value < slot5[slot37].value)
-
-								break
 							end
 						end
-					end
-				else
-					setTextFont(slot30, pg.FontMgr.GetInstance().fonts.number)
-
-					if slot27.type == AttributeType.Reload then
-						slot33 = 0
-
-						if slot0.shipVO then
-							setText(slot29, AttributeType.Type2Name(AttributeType.CD))
-
-							slot33 = slot0.shipVO:calcWeaponCD(slot2)
-						else
-							setText(slot29, i18n("cd_normal"))
-
-							slot33 = slot2:getWeaponCD()
-						end
-
-						setText(slot30, setColorStr(slot33 .. "s", COLOR_YELLOW) .. i18n("word_secondseach"))
-
-						if slot5 and slot26 < #slot5 and slot5[slot26] then
-							slot34 = slot0.shipVO and slot0.shipVO:calcWeaponCD(slot3) or slot3:getWeaponCD()
-
-							setActive(slot31, slot33 - slot34 < 0)
-							setActive(slot32, slot33 - slot34 > 0)
-						end
 					else
-						setText(slot29, AttributeType.Type2Name(slot27.type))
+						setTextFont(slot30, pg.FontMgr.GetInstance().fonts.number)
 
-						slot33 = slot27.value
+						if slot27.type == AttributeType.Reload then
+							slot33 = 0
 
-						if slot27.type == "dodge_limit" then
-							setActive(slot29:Find("tip"), true)
-							onButton(slot0, slot28, function ()
-								pg.MsgboxMgr.GetInstance():ShowMsgBox({
-									type = MSGBOX_TYPE_HELP,
-									helps = i18n("help_attribute_dodge_limit"),
-									weight = uv0:getWeightFromData()
-								})
-							end, SFX_PANEL)
-						end
+							if slot0.shipVO then
+								setText(slot29, AttributeType.Type2Name(AttributeType.CD))
 
-						if slot27.type == AttributeType.Ammo then
-							slot33 = setColorStr(slot27.value, COLOR_YELLOW)
-						end
+								slot33 = slot0.shipVO:calcWeaponCD(slot2)
+							else
+								setText(slot29, i18n("cd_normal"))
 
-						setText(slot30, slot33)
+								slot33 = slot2:getWeaponCD()
+							end
 
-						if slot5 and slot26 < #slot5 then
-							if not slot5[slot26] then
-								setActive(slot31, true)
-							elseif slot27.type == AttributeType.Damage then
-								slot34 = 0
-								slot35 = 0
+							setText(slot30, setColorStr(slot33 .. "s", COLOR_YELLOW) .. i18n("word_secondseach"))
 
-								if string.match(slot27.value, i18n("word_secondseach")) == string.match(slot5[slot26].value, i18n("word_secondseach")) then
-									if slot36 == i18n("word_secondseach") then
-										slot34 = string.gsub(slot27.value, slot36, "")
-										slot35 = string.gsub(slot5[slot26].value, slot36, "")
-									else
-										slot38, slot39 = string.match(string.gsub(slot27.value, " ", ""), "(%d+)x(%d+)")
-										slot34 = (slot38 or 0) * (slot39 or 0)
-										slot40, slot41 = string.match(string.gsub(slot5[slot26].value, " ", ""), "(%d+)x(%d+)")
-										slot35 = (slot40 or 0) * (slot41 or 0)
+							if slot5 and slot26 < #slot5 and slot5[slot26] then
+								slot34 = slot0.shipVO and slot0.shipVO:calcWeaponCD(slot3) or slot3:getWeaponCD()
+
+								setActive(slot31, slot33 - slot34 < 0)
+								setActive(slot32, slot33 - slot34 > 0)
+							end
+						else
+							setText(slot29, AttributeType.Type2Name(slot27.type))
+
+							slot33 = slot27.value
+
+							if slot27.type == "dodge_limit" then
+								setActive(slot29:Find("tip"), true)
+								onButton(slot0, slot28, function ()
+									pg.MsgboxMgr.GetInstance():ShowMsgBox({
+										type = MSGBOX_TYPE_HELP,
+										helps = i18n("help_attribute_dodge_limit"),
+										weight = uv0:getWeightFromData()
+									})
+								end, SFX_PANEL)
+							end
+
+							if slot27.type == AttributeType.Ammo then
+								slot33 = setColorStr(slot27.value, COLOR_YELLOW)
+							end
+
+							setText(slot30, slot33)
+
+							if slot5 and slot26 < #slot5 then
+								if not slot5[slot26] then
+									setActive(slot31, true)
+								elseif slot27.type == AttributeType.Damage then
+									slot34 = 0
+									slot35 = 0
+
+									if string.match(slot27.value, i18n("word_secondseach")) == string.match(slot5[slot26].value, i18n("word_secondseach")) then
+										if slot36 == i18n("word_secondseach") then
+											slot34 = string.gsub(slot27.value, slot36, "")
+											slot35 = string.gsub(slot5[slot26].value, slot36, "")
+										else
+											slot38, slot39 = string.match(string.gsub(slot27.value, " ", ""), "(%d+)x(%d+)")
+											slot34 = (slot38 or 0) * (slot39 or 0)
+											slot40, slot41 = string.match(string.gsub(slot5[slot26].value, " ", ""), "(%d+)x(%d+)")
+											slot35 = (slot40 or 0) * (slot41 or 0)
+										end
+
+										setActive(slot31, tonumber(slot35) < tonumber(slot34))
+										setActive(slot32, tonumber(slot34) < tonumber(slot35))
 									end
-
-									setActive(slot31, tonumber(slot35) < tonumber(slot34))
-									setActive(slot32, tonumber(slot34) < tonumber(slot35))
+								elseif slot27.type == AttributeType.SonarInterval then
+									setActive(slot31, type(slot5[slot26].value) == "number" and slot27.value < slot5[slot26].value)
+									setActive(slot32, type(slot5[slot26].value) == "number" and slot5[slot26].value < slot27.value)
+								elseif slot27.type ~= AttributeType.Scatter and slot27.type ~= AttributeType.Angle then
+									setActive(slot31, type(slot5[slot26].value) == "number" and slot5[slot26].value < slot27.value)
+									setActive(slot32, type(slot5[slot26].value) == "number" and slot27.value < slot5[slot26].value)
 								end
-							elseif slot27.type == AttributeType.SonarInterval then
-								setActive(slot31, type(slot5[slot26].value) == "number" and slot27.value < slot5[slot26].value)
-								setActive(slot32, type(slot5[slot26].value) == "number" and slot5[slot26].value < slot27.value)
-							elseif slot27.type ~= AttributeType.Scatter and slot27.type ~= AttributeType.Angle then
-								setActive(slot31, type(slot5[slot26].value) == "number" and slot5[slot26].value < slot27.value)
-								setActive(slot32, type(slot5[slot26].value) == "number" and slot27.value < slot5[slot26].value)
 							end
 						end
 					end

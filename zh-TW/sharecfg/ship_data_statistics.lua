@@ -122,7 +122,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "0.6",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 100011,
@@ -1173,7 +1173,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 101051,
@@ -1292,7 +1292,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 101052,
@@ -1411,7 +1411,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 101053,
@@ -1530,7 +1530,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 101054,
@@ -1649,7 +1649,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 1,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 101061,
@@ -1766,7 +1766,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 101062,
@@ -1883,7 +1883,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 101063,
@@ -2000,7 +2000,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 101064,
@@ -3529,7 +3529,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 101111,
@@ -3648,7 +3648,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 101112,
@@ -3767,7 +3767,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 101113,
@@ -3886,7 +3886,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 101114,
@@ -4005,7 +4005,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 101121,
@@ -4124,7 +4124,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 101122,
@@ -4243,7 +4243,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 101123,
@@ -4362,7 +4362,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 101124,
@@ -6845,7 +6845,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 101241,
@@ -6962,7 +6962,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 101242,
@@ -7079,7 +7079,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 101243,
@@ -7196,7 +7196,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 101244,
@@ -12033,7 +12033,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 1,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 102011,
@@ -12153,7 +12153,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 102012,
@@ -12273,7 +12273,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 102013,
@@ -12393,7 +12393,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 102014,
@@ -13465,7 +13465,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 102041,
@@ -13583,7 +13583,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 102042,
@@ -13701,7 +13701,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 102043,
@@ -13819,7 +13819,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 102044,
@@ -15369,7 +15369,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 102081,
@@ -15489,7 +15489,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 102082,
@@ -15609,7 +15609,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 102083,
@@ -15729,7 +15729,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 6,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 102084,
@@ -21545,7 +21545,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 103051,
@@ -21662,7 +21662,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 103052,
@@ -21779,7 +21779,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 103053,
@@ -21896,7 +21896,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 103054,
@@ -24361,7 +24361,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 1,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 105021,
@@ -24478,7 +24478,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 105022,
@@ -24595,7 +24595,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 105023,
@@ -24712,7 +24712,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 105024,
@@ -31837,7 +31837,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 107031,
@@ -31954,7 +31954,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 107032,
@@ -32071,7 +32071,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 107033,
@@ -32188,7 +32188,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 107034,
@@ -33705,7 +33705,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 107071,
@@ -33822,7 +33822,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 107072,
@@ -33939,7 +33939,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 107073,
@@ -34056,7 +34056,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 107074,
@@ -38377,7 +38377,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 1,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 201081,
@@ -38494,7 +38494,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 201082,
@@ -38611,7 +38611,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 201083,
@@ -38728,7 +38728,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 201084,
@@ -41185,7 +41185,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 201141,
@@ -41302,7 +41302,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 201142,
@@ -41419,7 +41419,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 201143,
@@ -41536,7 +41536,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 201144,
@@ -41653,7 +41653,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 201211,
@@ -41772,7 +41772,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 201212,
@@ -41891,7 +41891,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 201213,
@@ -42010,7 +42010,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 201214,
@@ -45433,7 +45433,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 202021,
@@ -45553,7 +45553,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 202022,
@@ -45673,7 +45673,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 202023,
@@ -45793,7 +45793,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 202024,
@@ -56921,7 +56921,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 204021,
@@ -57038,7 +57038,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 204022,
@@ -57155,7 +57155,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 204023,
@@ -57272,7 +57272,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 204024,
@@ -57857,7 +57857,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 205011,
@@ -57976,7 +57976,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 205012,
@@ -58095,7 +58095,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 205013,
@@ -58214,7 +58214,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 205014,
@@ -62533,7 +62533,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "0.6",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 207031,
@@ -62650,7 +62650,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "0.6",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 207032,
@@ -62767,7 +62767,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "0.6",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 207033,
@@ -62884,7 +62884,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 6,
 		oxy_recovery = 0,
-		backyard_speed = "0.6",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 207034,
@@ -63001,7 +63001,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "0.6",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 207041,
@@ -63118,7 +63118,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "0.6",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 207042,
@@ -63235,7 +63235,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "0.6",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 207043,
@@ -63352,7 +63352,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 6,
 		oxy_recovery = 0,
-		backyard_speed = "0.6",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 207044,
@@ -68202,7 +68202,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "0.6",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 301141,
@@ -68319,7 +68319,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "0.6",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 301142,
@@ -68436,7 +68436,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "0.6",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 301143,
@@ -68553,7 +68553,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 6,
 		oxy_recovery = 0,
-		backyard_speed = "0.6",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 301144,
@@ -68670,7 +68670,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 301151,
@@ -68787,7 +68787,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 301152,
@@ -68904,7 +68904,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 301153,
@@ -69021,7 +69021,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 301154,
@@ -69614,7 +69614,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 301171,
@@ -69731,7 +69731,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 3,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 301172,
@@ -69848,7 +69848,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 4,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 301173,
@@ -69965,7 +69965,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 301174,
@@ -81331,6 +81331,1418 @@ pg.ship_data_statistics = {
 			"Division 8"
 		}
 	},
+	[301651] = {
+		oxy_max = 0,
+		type = 1,
+		name = "滿潮",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301651,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Michishio",
+		oxy_cost = 0,
+		skin_id = 301650,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			317,
+			12,
+			98,
+			28,
+			0,
+			72,
+			0,
+			67,
+			71,
+			42,
+			48,
+			46
+		},
+		attrs_growth = {
+			7720,
+			114,
+			972,
+			552,
+			0,
+			360,
+			0,
+			996,
+			1050,
+			0,
+			0,
+			460
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Division 8"
+		}
+	},
+	[301652] = {
+		oxy_max = 0,
+		type = 1,
+		name = "滿潮",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301652,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Michishio",
+		oxy_cost = 0,
+		skin_id = 301650,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			394,
+			15,
+			122,
+			35,
+			0,
+			72,
+			0,
+			67,
+			71,
+			42,
+			48,
+			58
+		},
+		attrs_growth = {
+			7720,
+			114,
+			972,
+			552,
+			0,
+			360,
+			0,
+			996,
+			1050,
+			0,
+			0,
+			460
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Division 8"
+		}
+	},
+	[301653] = {
+		oxy_max = 0,
+		type = 1,
+		name = "滿潮",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301653,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Michishio",
+		oxy_cost = 0,
+		skin_id = 301650,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			549,
+			21,
+			171,
+			49,
+			0,
+			72,
+			0,
+			67,
+			71,
+			42,
+			48,
+			81
+		},
+		attrs_growth = {
+			7720,
+			114,
+			972,
+			552,
+			0,
+			360,
+			0,
+			996,
+			1050,
+			0,
+			0,
+			460
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.45,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Division 8"
+		}
+	},
+	[301654] = {
+		oxy_max = 0,
+		type = 1,
+		name = "滿潮",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301654,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Michishio",
+		oxy_cost = 0,
+		skin_id = 301650,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			780,
+			29,
+			244,
+			69,
+			0,
+			72,
+			0,
+			67,
+			71,
+			42,
+			48,
+			115
+		},
+		attrs_growth = {
+			7720,
+			114,
+			972,
+			552,
+			0,
+			360,
+			0,
+			996,
+			1050,
+			0,
+			0,
+			460
+		},
+		attrs_growth_extra = {
+			7720,
+			269,
+			1213,
+			371,
+			0,
+			848,
+			0,
+			-584,
+			-765,
+			0,
+			0,
+			447
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Division 8"
+		}
+	},
+	[301791] = {
+		oxy_max = 0,
+		type = 1,
+		name = "旗風",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301791,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hatakaze",
+		oxy_cost = 0,
+		skin_id = 301790,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			252,
+			11,
+			77,
+			26,
+			0,
+			74,
+			0,
+			67,
+			72,
+			44.76,
+			87,
+			46
+		},
+		attrs_growth = {
+			6140,
+			110,
+			760,
+			508,
+			0,
+			370,
+			0,
+			990,
+			1062,
+			0,
+			0,
+			458
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301792] = {
+		oxy_max = 0,
+		type = 1,
+		name = "旗風",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301792,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hatakaze",
+		oxy_cost = 0,
+		skin_id = 301790,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			313,
+			14,
+			96,
+			32,
+			0,
+			74,
+			0,
+			67,
+			72,
+			44.76,
+			87,
+			57
+		},
+		attrs_growth = {
+			6140,
+			110,
+			760,
+			508,
+			0,
+			370,
+			0,
+			990,
+			1062,
+			0,
+			0,
+			458
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.25,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301793] = {
+		oxy_max = 0,
+		type = 1,
+		name = "旗風",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301793,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hatakaze",
+		oxy_cost = 0,
+		skin_id = 301790,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			436,
+			19,
+			134,
+			45,
+			0,
+			74,
+			0,
+			67,
+			72,
+			44.76,
+			87,
+			80
+		},
+		attrs_growth = {
+			6140,
+			110,
+			760,
+			508,
+			0,
+			370,
+			0,
+			990,
+			1062,
+			0,
+			0,
+			458
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301794] = {
+		oxy_max = 0,
+		type = 1,
+		name = "旗風",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301794,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hatakaze",
+		oxy_cost = 0,
+		skin_id = 301790,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			620,
+			28,
+			191,
+			64,
+			0,
+			74,
+			0,
+			67,
+			72,
+			44.76,
+			87,
+			115
+		},
+		attrs_growth = {
+			6140,
+			110,
+			760,
+			508,
+			0,
+			370,
+			0,
+			990,
+			1062,
+			0,
+			0,
+			458
+		},
+		attrs_growth_extra = {
+			6130,
+			258,
+			1198,
+			347,
+			0,
+			875,
+			0,
+			-578,
+			-770,
+			0,
+			0,
+			449
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.4,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301801] = {
+		oxy_max = 0,
+		type = 1,
+		name = "卷波",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 301801,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Makinami",
+		oxy_cost = 0,
+		skin_id = 301800,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			348,
+			13,
+			101,
+			29,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			40,
+			47
+		},
+		attrs_growth = {
+			8480,
+			128,
+			1004,
+			568,
+			0,
+			392,
+			0,
+			1020,
+			1050,
+			0,
+			0,
+			470
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301802] = {
+		oxy_max = 0,
+		type = 1,
+		name = "卷波",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 301802,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Makinami",
+		oxy_cost = 0,
+		skin_id = 301800,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			433,
+			16,
+			126,
+			36,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			40,
+			59
+		},
+		attrs_growth = {
+			8480,
+			128,
+			1004,
+			568,
+			0,
+			392,
+			0,
+			1020,
+			1050,
+			0,
+			0,
+			470
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.4,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301803] = {
+		oxy_max = 0,
+		type = 1,
+		name = "卷波",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 301803,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Makinami",
+		oxy_cost = 0,
+		skin_id = 301800,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			602,
+			23,
+			176,
+			50,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			40,
+			82
+		},
+		attrs_growth = {
+			8480,
+			128,
+			1004,
+			568,
+			0,
+			392,
+			0,
+			1020,
+			1050,
+			0,
+			0,
+			470
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301804] = {
+		oxy_max = 0,
+		type = 1,
+		name = "卷波",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 301804,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Makinami",
+		oxy_cost = 0,
+		skin_id = 301800,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			857,
+			32,
+			252,
+			72,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			40,
+			118
+		},
+		attrs_growth = {
+			8480,
+			128,
+			1004,
+			568,
+			0,
+			392,
+			0,
+			1020,
+			1050,
+			0,
+			0,
+			470
+		},
+		attrs_growth_extra = {
+			8480,
+			300,
+			1251,
+			392,
+			0,
+			928,
+			0,
+			-598,
+			-765,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			1.55,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[302011] = {
 		oxy_max = 0,
 		type = 2,
@@ -85171,6 +86583,486 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[302141] = {
+		oxy_max = 0,
+		type = 2,
+		name = "那珂",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 302141,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Naka",
+		oxy_cost = 0,
+		skin_id = 302140,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			434,
+			28,
+			65,
+			54,
+			0,
+			68,
+			0,
+			52,
+			29,
+			35.3,
+			53,
+			25
+		},
+		attrs_growth = {
+			10585,
+			276,
+			646,
+			1052,
+			0,
+			340,
+			0,
+			768,
+			426,
+			0,
+			0,
+			248
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302142] = {
+		oxy_max = 0,
+		type = 2,
+		name = "那珂",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 302142,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Naka",
+		oxy_cost = 0,
+		skin_id = 302140,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			540,
+			35,
+			81,
+			67,
+			0,
+			68,
+			0,
+			52,
+			29,
+			35.3,
+			53,
+			31
+		},
+		attrs_growth = {
+			10585,
+			276,
+			646,
+			1052,
+			0,
+			340,
+			0,
+			768,
+			426,
+			0,
+			0,
+			248
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302143] = {
+		oxy_max = 0,
+		type = 2,
+		name = "那珂",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 302143,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Naka",
+		oxy_cost = 0,
+		skin_id = 302140,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			752,
+			49,
+			113,
+			93,
+			0,
+			68,
+			0,
+			52,
+			29,
+			35.3,
+			53,
+			44
+		},
+		attrs_growth = {
+			10585,
+			276,
+			646,
+			1052,
+			0,
+			340,
+			0,
+			768,
+			426,
+			0,
+			0,
+			248
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.5,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302144] = {
+		oxy_max = 0,
+		type = 2,
+		name = "那珂",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 302144,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Naka",
+		oxy_cost = 0,
+		skin_id = 302140,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1069,
+			69,
+			162,
+			133,
+			0,
+			68,
+			0,
+			52,
+			29,
+			35.3,
+			53,
+			62
+		},
+		attrs_growth = {
+			10585,
+			276,
+			646,
+			1052,
+			0,
+			340,
+			0,
+			768,
+			426,
+			0,
+			0,
+			248
+		},
+		attrs_growth_extra = {
+			3384,
+			654,
+			703,
+			616,
+			0,
+			800,
+			0,
+			0,
+			1129,
+			0,
+			0,
+			345
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.65,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[302201] = {
 		oxy_max = 0,
 		type = 2,
@@ -88447,6 +90339,482 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			1766,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.65,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[303091] = {
+		oxy_max = 0,
+		type = 3,
+		name = "足柄",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 303091,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ashigara",
+		oxy_cost = 0,
+		skin_id = 303090,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			732,
+			43,
+			41,
+			32,
+			0,
+			62,
+			0,
+			43,
+			13,
+			28.8,
+			60,
+			0
+		},
+		attrs_growth = {
+			17845,
+			428,
+			408,
+			620,
+			0,
+			308,
+			0,
+			630,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[303092] = {
+		oxy_max = 0,
+		type = 3,
+		name = "足柄",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 303092,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ashigara",
+		oxy_cost = 0,
+		skin_id = 303090,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			910,
+			54,
+			51,
+			40,
+			0,
+			62,
+			0,
+			43,
+			13,
+			28.8,
+			60,
+			0
+		},
+		attrs_growth = {
+			17845,
+			428,
+			408,
+			620,
+			0,
+			308,
+			0,
+			630,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.4,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[303093] = {
+		oxy_max = 0,
+		type = 3,
+		name = "足柄",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 303093,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ashigara",
+		oxy_cost = 0,
+		skin_id = 303090,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1267,
+			75,
+			72,
+			55,
+			0,
+			62,
+			0,
+			43,
+			13,
+			28.8,
+			60,
+			0
+		},
+		attrs_growth = {
+			17845,
+			428,
+			408,
+			620,
+			0,
+			308,
+			0,
+			630,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.5,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[303094] = {
+		oxy_max = 0,
+		type = 3,
+		name = "足柄",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 303094,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ashigara",
+		oxy_cost = 0,
+		skin_id = 303090,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1803,
+			107,
+			102,
+			79,
+			0,
+			62,
+			0,
+			43,
+			13,
+			28.8,
+			60,
+			0
+		},
+		attrs_growth = {
+			17845,
+			428,
+			408,
+			620,
+			0,
+			308,
+			0,
+			630,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			1012,
+			965,
+			430,
+			0,
+			727,
+			0,
+			0,
+			1768,
 			0,
 			0,
 			0
@@ -91958,6 +94326,470 @@ pg.ship_data_statistics = {
 			"Kongo-Class"
 		}
 	},
+	[304051] = {
+		oxy_max = 0,
+		type = 4,
+		name = "天城",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 304051,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Amagi",
+		oxy_cost = 0,
+		skin_id = 304050,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1260,
+			80,
+			39,
+			35,
+			0,
+			54,
+			0,
+			21,
+			9,
+			30,
+			23,
+			0
+		},
+		attrs_growth = {
+			30725,
+			796,
+			390,
+			684,
+			0,
+			270,
+			0,
+			312,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.8,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[304052] = {
+		oxy_max = 0,
+		type = 4,
+		name = "天城",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 304052,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Amagi",
+		oxy_cost = 0,
+		skin_id = 304050,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1567,
+			100,
+			49,
+			44,
+			0,
+			54,
+			0,
+			21,
+			9,
+			30,
+			23,
+			0
+		},
+		attrs_growth = {
+			30725,
+			796,
+			390,
+			684,
+			0,
+			270,
+			0,
+			312,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.8,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[304053] = {
+		oxy_max = 0,
+		type = 4,
+		name = "天城",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 304053,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Amagi",
+		oxy_cost = 0,
+		skin_id = 304050,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2182,
+			140,
+			68,
+			61,
+			0,
+			54,
+			0,
+			21,
+			9,
+			30,
+			23,
+			0
+		},
+		attrs_growth = {
+			30725,
+			796,
+			390,
+			684,
+			0,
+			270,
+			0,
+			312,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.8,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[304054] = {
+		oxy_max = 0,
+		type = 4,
+		name = "天城",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 304054,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Amagi",
+		oxy_cost = 0,
+		skin_id = 304050,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			3104,
+			199,
+			98,
+			86,
+			0,
+			54,
+			0,
+			21,
+			9,
+			30,
+			23,
+			0
+		},
+		attrs_growth = {
+			30725,
+			796,
+			390,
+			684,
+			0,
+			270,
+			0,
+			312,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			23044,
+			1181,
+			923,
+			464,
+			0,
+			638,
+			0,
+			343,
+			672,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.8,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[305011] = {
 		oxy_max = 0,
 		type = 5,
@@ -94758,6 +97590,470 @@ pg.ship_data_statistics = {
 			1.3,
 			2.1,
 			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[305071] = {
+		oxy_max = 0,
+		type = 5,
+		name = "加賀",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 305071,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kaga",
+		oxy_cost = 0,
+		skin_id = 305070,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1376,
+			81,
+			40,
+			35,
+			0,
+			55,
+			0,
+			22,
+			8,
+			26.5,
+			42,
+			0
+		},
+		attrs_growth = {
+			33565,
+			800,
+			396,
+			684,
+			0,
+			272,
+			0,
+			324,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[305072] = {
+		oxy_max = 0,
+		type = 5,
+		name = "加賀",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 305072,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kaga",
+		oxy_cost = 0,
+		skin_id = 305070,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1712,
+			101,
+			50,
+			44,
+			0,
+			55,
+			0,
+			22,
+			8,
+			26.5,
+			42,
+			0
+		},
+		attrs_growth = {
+			33565,
+			800,
+			396,
+			684,
+			0,
+			272,
+			0,
+			324,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[305073] = {
+		oxy_max = 0,
+		type = 5,
+		name = "加賀",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 305073,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kaga",
+		oxy_cost = 0,
+		skin_id = 305070,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2383,
+			141,
+			70,
+			61,
+			0,
+			55,
+			0,
+			22,
+			8,
+			26.5,
+			42,
+			0
+		},
+		attrs_growth = {
+			33565,
+			800,
+			396,
+			684,
+			0,
+			272,
+			0,
+			324,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[305074] = {
+		oxy_max = 0,
+		type = 5,
+		name = "加賀",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 305074,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Kaga",
+		oxy_cost = 0,
+		skin_id = 305070,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3390,
+			201,
+			99,
+			86,
+			0,
+			55,
+			0,
+			22,
+			8,
+			26.5,
+			42,
+			0
+		},
+		attrs_growth = {
+			33565,
+			800,
+			396,
+			684,
+			0,
+			272,
+			0,
+			324,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			22482,
+			1180,
+			939,
+			464,
+			0,
+			643,
+			0,
+			346,
+			781,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			0.9
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -124859,7 +128155,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 2,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 900036,
@@ -126134,7 +129430,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 6,
 		oxy_recovery = 0,
-		backyard_speed = "0.6",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 900047,
@@ -127404,7 +130700,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 6,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 900058,
@@ -127637,7 +130933,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 3,
 		ammo = 0,
 		id = 900060,
@@ -128331,7 +131627,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 6,
 		oxy_recovery = 0,
-		backyard_speed = "0.6",
+		backyard_speed = "0.5",
 		rarity = 5,
 		ammo = 0,
 		id = 900066,
@@ -129263,7 +132559,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 4,
 		ammo = 0,
 		id = 900074,
@@ -130419,7 +133715,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 1,
 		oxy_recovery = 0,
-		backyard_speed = "1",
+		backyard_speed = "0.5",
 		rarity = 2,
 		ammo = 0,
 		id = 900084,
@@ -145188,6 +148484,18 @@ pg.ship_data_statistics = {
 		301642,
 		301643,
 		301644,
+		301651,
+		301652,
+		301653,
+		301654,
+		301791,
+		301792,
+		301793,
+		301794,
+		301801,
+		301802,
+		301803,
+		301804,
 		302011,
 		302012,
 		302013,
@@ -145220,6 +148528,10 @@ pg.ship_data_statistics = {
 		302132,
 		302133,
 		302134,
+		302141,
+		302142,
+		302143,
+		302144,
 		302201,
 		302202,
 		302203,
@@ -145248,6 +148560,10 @@ pg.ship_data_statistics = {
 		303082,
 		303083,
 		303084,
+		303091,
+		303092,
+		303093,
+		303094,
 		303111,
 		303112,
 		303113,
@@ -145277,6 +148593,10 @@ pg.ship_data_statistics = {
 		304032,
 		304033,
 		304034,
+		304051,
+		304052,
+		304053,
+		304054,
 		305011,
 		305012,
 		305013,
@@ -145301,6 +148621,10 @@ pg.ship_data_statistics = {
 		305062,
 		305063,
 		305064,
+		305071,
+		305072,
+		305073,
+		305074,
 		305111,
 		305112,
 		305113,

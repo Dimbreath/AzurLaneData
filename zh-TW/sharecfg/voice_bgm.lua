@@ -68,5 +68,8 @@ pg.voice_bgm = {
 	},
 	Match3GameUI = {
 		bgm = "backyard"
+	},
+	ActivityBossAisaikesiScene = {
+		bgm = "main"
 	}
 }

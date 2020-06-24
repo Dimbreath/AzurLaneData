@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前进吧，{namecode:144}！\n\n<size=45>三 挥剑吧，{namecode:144}！</size>",
+					"前進吧，{namecode:144}！\n\n<size=45>三 揮劍吧，{namecode:144}！</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "某日，从学院准备返回指挥室时，听到了{namecode:144}的声音——",
+			say = "某日，從學院準備返回指揮室時，聽到了{namecode:144}的聲音——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			say = "很好，气势不错！",
+			say = "很好，氣勢不錯！",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，还不够！妳的能力应该还不止这些吧！",
+			say = "但是，還不夠！妳的能力應該還不止這些吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 303090,
-			say = "看这下如何！哈啊——！",
+			say = "看這下如何！哈啊——！",
 			flashN = {
 				color = {
 					1,
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可以啊，比刚刚更有威胁了啊……嗯？",
+			say = "可以啊，比剛剛更有威脅了啊……嗯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			say = "有破绽！",
+			say = "有破綻！",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			actor = 303070,
 			nameColor = "#a9f548",
-			say = "今天的对练就到此为止吧。{namecode:144}，妳进步了许多呢",
+			say = "今天的對練就到此為止吧。{namecode:144}，妳進步了許多呢",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -286,7 +286,7 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "等等，{namecode:63}姐，我还可以继续——",
+			say = "等等，{namecode:63}姐，我還可以繼續——",
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "练习量已经到了，再勉强自己的话可是会起反效果的。好好休息吧。",
+			say = "練習量已經到了，再勉強自己的話可是會起反效果的。好好休息吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，对了，正好我这次调制了新的精力饮料——",
+			say = "啊，對了，正好我這次調製了新的精力飲料——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "两位都辛苦啦~正好我带了喝的过来了，不用客气随便享用吧。{namecode:63}的特制饮料还是留到下次吧。",
+			say = "兩位都辛苦啦~正好我帶了喝的過來了，不用客氣隨便享用吧。{namecode:63}的特製飲料還是留到下次吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "{namecode:64}姐，谢谢了！",
+			say = "{namecode:64}姐，謝謝了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，{namecode:144}，我听说妳前段时间给指挥官添了不少麻烦——",
+			say = "對了，{namecode:144}，我聽說妳前段時間給指揮官添了不少麻煩——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "诶诶？妳，妳是怎么知道的——",
+			say = "欸欸？妳，妳是怎麼知道的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:144}遇到了什么事情，心里在想些什么，好像都不怎么愿意和别人说呢。",
+			say = "{namecode:144}遇到了什麼事情，心裡在想些什麼，好像都不怎麼願意和別人說呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是这样下去再给指挥官添麻烦的话，好像不太好吧？而且……{namecode:63}居然也没注意到呢。",
+			say = "但是這樣下去再給指揮官添麻煩的話，好像不太好吧？而且……{namecode:63}居然也沒注意到呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看指挥官没什么表示，就以为工作进行得很顺利……抱歉，是我疏忽了",
+			say = "我看指揮官沒什麼表示，就以為工作進行得很順利……抱歉，是我疏忽了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心吧，之后我会详细教妳有关秘书舰的工作诀窍的。不过，要做好辛苦点的心理准备咯",
+			say = "放心吧，之後我會詳細教妳有關秘書艦的工作訣竅的。不過，要做好辛苦點的心理準備囉",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "喔喔！明白了！我也不想再给指挥官添麻烦了，我会加油的！",
+			say = "喔喔！明白了！我也不想再給指揮官添麻煩了，我會加油的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "训练内容又额外多了一项，然而{namecode:144}脸上却带着期待的神情",
+			say = "訓練內容又額外多了一項，然而{namecode:144}臉上卻帶著期待的神情",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

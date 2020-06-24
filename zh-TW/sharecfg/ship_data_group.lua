@@ -6603,6 +6603,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[369] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 194,
+		group_type = 30179,
+		code = 369,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼紅的回響",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[271] = {
 		type = 1,
 		trans_skin = 301329,
@@ -7292,6 +7323,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[333] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 221,
+		group_type = 30165,
+		code = 333,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"月度簽到",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[167] = {
 		type = 1,
 		trans_skin = 0,
@@ -7588,6 +7650,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時活動：紅染的參訪者",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[370] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 234,
+		group_type = 30180,
+		code = 370,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼紅的回響",
 				{
 					""
 				},
@@ -7924,6 +8017,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[310] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 248,
+		group_type = 30214,
+		code = 310,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼紅的回響",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[188] = {
 		type = 2,
 		trans_skin = 302109,
@@ -8253,6 +8377,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[198] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 260,
+		group_type = 30309,
+		code = 198,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼紅的回響",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[200] = {
 		type = 3,
 		trans_skin = 0,
@@ -8487,6 +8642,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時活動：墨染的鋼鐵之花",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[367] = {
+		type = 4,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 270,
+		group_type = 30405,
+		code = 367,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼紅的回響",
 				{
 					""
 				},
@@ -8753,6 +8939,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[368] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 278,
+		group_type = 30507,
+		code = 368,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：蒼紅的回響",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[218] = {
 		type = 6,
 		trans_skin = 0,
@@ -8968,7 +9185,7 @@ pg.ship_data_group = {
 	},
 	[226] = {
 		type = 7,
-		trans_skin = 0,
+		trans_skin = 307039,
 		trans_type = 7,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -8985,8 +9202,17 @@ pg.ship_data_group = {
 			"B",
 			"B"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"A",
+			"B"
+		},
+		trans_skill = {
+			11830
+		},
 		description = {
 			{
 				"推薦探索關卡3-1",
@@ -9002,7 +9228,7 @@ pg.ship_data_group = {
 	},
 	[227] = {
 		type = 7,
-		trans_skin = 0,
+		trans_skin = 307049,
 		trans_type = 7,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -9019,8 +9245,17 @@ pg.ship_data_group = {
 			"B",
 			"B"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"A",
+			"B"
+		},
+		trans_skill = {
+			11840
+		},
 		description = {
 			{
 				"推薦探索關卡3-1",
@@ -10836,6 +11071,7 @@ pg.ship_data_group = {
 		336,
 		269,
 		270,
+		369,
 		271,
 		272,
 		274,
@@ -10856,6 +11092,7 @@ pg.ship_data_group = {
 		288,
 		331,
 		332,
+		333,
 		167,
 		168,
 		177,
@@ -10865,6 +11102,7 @@ pg.ship_data_group = {
 		317,
 		318,
 		170,
+		370,
 		295,
 		296,
 		297,
@@ -10874,6 +11112,7 @@ pg.ship_data_group = {
 		179,
 		308,
 		309,
+		310,
 		188,
 		189,
 		321,
@@ -10883,6 +11122,7 @@ pg.ship_data_group = {
 		193,
 		196,
 		197,
+		198,
 		200,
 		201,
 		202,
@@ -10890,6 +11130,7 @@ pg.ship_data_group = {
 		204,
 		205,
 		206,
+		367,
 		320,
 		208,
 		209,
@@ -10897,6 +11138,7 @@ pg.ship_data_group = {
 		211,
 		212,
 		213,
+		368,
 		218,
 		219,
 		220,
