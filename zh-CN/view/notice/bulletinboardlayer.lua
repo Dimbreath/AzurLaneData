@@ -30,7 +30,6 @@ function slot0.init(slot0)
 	slot0._scrollRect = slot0:findTF("content_view"):GetComponent(typeof(ScrollRect))
 	slot0._stopRemind = slot0:findTF("dontshow_tab")
 
-	triggerToggle(slot0._stopRemind, getProxy(ServerNoticeProxy):getStopRemind())
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.SECOND_LAYER
 	})
@@ -45,6 +44,7 @@ function slot0.didEnter(slot0)
 	onToggle(slot0, slot0._stopRemind, function (slot0)
 		uv0:emit(BulletinBoardMediator.SET_STOP_REMIND, slot0)
 	end)
+	triggerToggle(slot0._stopRemind, getProxy(ServerNoticeProxy):getStopRemind())
 end
 
 function slot0.setNotices(slot0, slot1)
