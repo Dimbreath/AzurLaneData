@@ -35,7 +35,9 @@ function slot0.register(slot0)
 			mode = DockyardScene.MODE_DESTROY,
 			leftTopInfo = i18n("word_destroy"),
 			onShip = ShipStatus.canDestroyShip,
-			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_1),
+			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
+				isActivityNpc = true
+			}),
 			preView = uv0.viewComponent.__cname
 		})
 	end)

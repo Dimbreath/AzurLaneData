@@ -567,6 +567,9 @@ pg.activity_const = {
 	JIQILIFU_SKIN = {
 		act_id = 606
 	},
+	MONOPOLY_CAR_PAGE = {
+		act_id = 620
+	},
 	VOTE_ORDER_BOOK_PHASE_1 = {
 		act_id = 1020
 	},
@@ -596,6 +599,9 @@ pg.activity_const = {
 	},
 	TWHALLOWEENSKIN = {
 		act_id = 0
+	},
+	ACTIVITY_BOSS_AISAIKESI_PT = {
+		act_id = 623
 	},
 	SUMMER_REMAKE = {
 		act_id = 20248

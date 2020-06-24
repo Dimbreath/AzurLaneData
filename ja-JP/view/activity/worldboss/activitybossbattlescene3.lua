@@ -1,5 +1,4 @@
 slot0 = class("ActivityBossBattleScene3", import("view.base.BaseUI"))
-slot1 = import("view.activity.worldboss.ActivityBossPtAwardSubPanel")
 
 function slot0.getUIName(slot0)
 	return "ActivityBossUI"
@@ -84,7 +83,7 @@ function slot0.init(slot0)
 		uv0:quckExitFunc()
 	end, SFX_PANEL)
 
-	slot0.bonusWindow = uv1.New(slot0)
+	slot0.bonusWindow = ActivityBossPtAwardSubPanel.New(slot0)
 
 	slot0.bonusWindow:Load()
 	slot0.bonusWindow.buffer:Hide()

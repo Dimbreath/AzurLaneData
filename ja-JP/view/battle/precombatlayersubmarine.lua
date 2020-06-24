@@ -166,14 +166,6 @@ function slot0.didEnter(slot0)
 		uv0:uiStartAnimating()
 	end)
 
-	if slot0.contextData.system == SYSTEM_ACT_BOSS then
-		PoolMgr.GetInstance():GetUI("al_bg01", true, function (slot0)
-			slot0:SetActive(true)
-			setParent(slot0, uv0._tf)
-			slot0.transform:SetAsFirstSibling()
-		end)
-	end
-
 	if slot0._currentForm == uv0.FORM_PREVIEW and slot0.contextData.system == SYSTEM_DUEL and #slot0._currentFleetVO.mainShips <= 0 then
 		triggerButton(slot0._checkBtn)
 	end

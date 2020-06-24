@@ -202,8 +202,11 @@ function slot0.InitCommon(slot0)
 	slot0:LoadSkinBg(shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.shipGroup:GetSkin(slot0.showTrans).id, slot0.isBluePrintGroup))
 	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", slot0.shipGroup:getShipType(slot0.showTrans)))
 
-	slot7 = slot0.showTrans
-	slot0.labelName.text = slot0.shipGroup:getName(slot7)
+	slot6 = slot0.shipGroup
+	slot7 = slot6
+
+	setScrollText(tf(slot0.labelName), slot6.getName(slot7, slot0.showTrans))
+
 	slot0.labelEnName.text = slot1.english_name
 
 	for slot7 = 1, slot1.star do

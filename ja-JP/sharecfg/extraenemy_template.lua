@@ -126,10 +126,47 @@ pg.extraenemy_template = {
 			}
 		}
 	},
+	{
+		name = "埃塞克斯",
+		hp = 10000,
+		mail_content = "world_boss_content_1",
+		id = 5,
+		background = "",
+		mail_title = "world_boss_title_1",
+		reward = {
+			93436,
+			93437,
+			93438,
+			93439
+		},
+		reward_display = {
+			{
+				2,
+				17003,
+				10
+			},
+			{
+				2,
+				18023,
+				2
+			},
+			{
+				2,
+				13011,
+				5
+			},
+			{
+				3,
+				18060,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
 		3,
-		4
+		4,
+		5
 	}
 }

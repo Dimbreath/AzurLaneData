@@ -40,6 +40,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 1,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -53,6 +54,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 99999999,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -122,17 +124,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"dahuangfeng"
@@ -298,6 +294,7 @@ pg.chapter_template = {
 		enter_story = "UI10201",
 		boss_refresh = 2,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -311,6 +308,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -411,17 +409,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"ligen"
@@ -665,6 +657,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -678,6 +671,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -796,17 +790,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"wudao"
@@ -1066,6 +1054,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -1079,6 +1068,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -1265,17 +1255,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"chicheng",
@@ -1554,6 +1538,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -1567,6 +1552,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.665,
@@ -1811,17 +1797,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qingye"
@@ -2137,6 +2117,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -2150,6 +2131,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.665,
@@ -2395,17 +2377,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"ruihe"
@@ -2771,6 +2747,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -2784,6 +2761,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -3029,17 +3007,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xiangfeng"
@@ -3386,6 +3358,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -3399,6 +3372,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.38,
@@ -3644,17 +3618,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xianghe"
@@ -3969,6 +3937,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -3982,6 +3951,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -4229,17 +4199,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jiahe"
@@ -4573,6 +4537,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -4586,6 +4551,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -4833,17 +4799,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"chicheng"
@@ -5201,6 +5161,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -5214,6 +5175,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -5461,17 +5423,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"canglong"
@@ -5824,6 +5780,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -5837,6 +5794,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.53,
@@ -6084,17 +6042,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"feilong"
@@ -6433,6 +6385,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -6446,6 +6399,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.53,
@@ -6693,17 +6647,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"i19"
@@ -7107,6 +7055,7 @@ pg.chapter_template = {
 		enter_story = "ZHUXIAN040101",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -7120,6 +7069,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -7243,17 +7193,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qingye"
@@ -7632,6 +7576,7 @@ pg.chapter_template = {
 		enter_story = "ZHUXIAN040201",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -7645,6 +7590,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.4,
@@ -7768,17 +7714,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"guying"
@@ -8150,6 +8090,7 @@ pg.chapter_template = {
 		enter_story = "ZHUXIAN040301",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -8163,6 +8104,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -8286,17 +8228,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"longxiang"
@@ -8613,6 +8549,7 @@ pg.chapter_template = {
 		enter_story = "ZHUXIAN040401",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -8626,6 +8563,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.63,
@@ -8750,17 +8688,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xianghe"
@@ -9215,6 +9147,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -9228,6 +9161,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.63,
@@ -9352,17 +9286,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"i19"
@@ -9862,6 +9790,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -9875,6 +9804,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -9999,17 +9929,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"miaogao"
@@ -10463,6 +10387,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -10476,6 +10401,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -10600,17 +10526,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"ligen"
@@ -11002,6 +10922,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -11015,6 +10936,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.54,
@@ -11139,17 +11061,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xianghe"
@@ -11511,6 +11427,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -11524,6 +11441,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.51,
@@ -11648,17 +11566,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"ruihe"
@@ -12045,6 +11957,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -12058,6 +11971,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.51,
@@ -12182,17 +12096,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"i19"
@@ -12630,6 +12538,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -12643,6 +12552,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -12767,17 +12677,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"yili"
@@ -13202,6 +13106,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -13215,6 +13120,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -13339,17 +13245,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"birui"
@@ -13830,6 +13730,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -13843,6 +13744,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -13967,17 +13869,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"wudao"
@@ -14382,6 +14278,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -14395,6 +14292,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -14519,17 +14417,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xili"
@@ -14978,6 +14870,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -14991,6 +14884,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -15115,17 +15009,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"i26"
@@ -15573,6 +15461,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -15586,6 +15475,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -15695,17 +15585,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"buzhihuo"
@@ -15992,6 +15876,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -16005,6 +15890,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -16114,17 +16000,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"yangyan"
@@ -16514,6 +16394,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -16527,6 +16408,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -16636,17 +16518,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"bailu",
@@ -17107,6 +16983,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -17120,6 +16997,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -17229,17 +17107,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xuefeng"
@@ -17684,6 +17556,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -17697,6 +17570,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -17806,17 +17680,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"i26"
@@ -18264,6 +18132,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -18277,6 +18146,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -18386,17 +18256,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"dian"
@@ -18705,6 +18569,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -18718,6 +18583,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -18827,17 +18693,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"lei"
@@ -19232,6 +19092,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -19245,6 +19106,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.36,
@@ -19354,17 +19216,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"nazhi"
@@ -19822,6 +19678,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -19835,6 +19692,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -19944,17 +19802,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"moye"
@@ -20475,6 +20327,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -20488,6 +20341,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -20597,17 +20451,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"i26"
@@ -21117,6 +20965,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -21130,6 +20979,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -21241,17 +21091,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"gufeng"
@@ -21652,6 +21496,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -21665,6 +21510,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.35,
@@ -21776,17 +21622,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"bangfeng"
@@ -22225,6 +22065,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -22238,6 +22079,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -22349,17 +22191,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qinchao"
@@ -22822,6 +22658,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -22835,6 +22672,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -22946,17 +22784,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xinyue_jp"
@@ -23441,6 +23273,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -23454,6 +23287,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -23565,17 +23399,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"i58"
@@ -24070,6 +23898,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -24083,6 +23912,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -24193,17 +24023,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"ximu",
@@ -24624,6 +24448,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -24637,6 +24462,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.55,
@@ -24747,17 +24573,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"bangfeng"
@@ -25234,6 +25054,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -25247,6 +25068,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.36,
@@ -25358,17 +25180,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xuefeng"
@@ -25861,6 +25677,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -25874,6 +25691,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -25986,17 +25804,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shentong"
@@ -26502,6 +26314,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -26515,6 +26328,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -26627,17 +26441,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"i58"
@@ -27132,6 +26940,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -27145,6 +26954,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.38,
@@ -27254,17 +27064,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"bailu",
@@ -27735,6 +27539,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -27748,6 +27553,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.38,
@@ -27858,17 +27664,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"miaogao"
@@ -28453,6 +28253,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -28466,6 +28267,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -28577,17 +28379,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"maoyue",
@@ -29141,6 +28937,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -29154,6 +28951,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -29266,17 +29064,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"chuannei"
@@ -29938,6 +29730,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -29951,6 +29744,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.35,
@@ -30060,17 +29854,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"miaogao"
@@ -30519,6 +30307,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -30532,6 +30321,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -30642,17 +30432,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"gufeng",
@@ -31213,6 +30997,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -31226,6 +31011,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -31337,17 +31123,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"feiying",
@@ -31943,6 +31723,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -31956,6 +31737,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -32068,17 +31850,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"niaohai",
@@ -32788,6 +32564,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -32801,6 +32578,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.35,
@@ -32925,17 +32703,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"zuishang_g"
@@ -33377,6 +33149,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -33390,6 +33163,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -33515,17 +33289,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xianghe"
@@ -34071,6 +33839,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -34084,6 +33853,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -34210,17 +33980,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xianghe",
@@ -34809,6 +34573,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -34822,6 +34587,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -34950,17 +34716,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"dafeng"
@@ -35657,6 +35417,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -35670,6 +35431,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -35753,17 +35515,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jingang"
@@ -36060,6 +35816,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -36073,6 +35830,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.53,
@@ -36169,17 +35927,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jingang"
@@ -36527,6 +36279,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -36540,6 +36293,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -36636,17 +36390,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"aidang"
@@ -37024,6 +36772,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 1,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -37037,6 +36786,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 99999999,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -37135,17 +36885,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"dahuangfeng"
@@ -37318,6 +37062,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -37331,6 +37076,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -37460,17 +37206,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"ligen"
@@ -37719,6 +37459,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -37732,6 +37473,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -37879,17 +37621,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"wudao"
@@ -38156,6 +37892,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -38169,6 +37906,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -38384,17 +38122,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"chicheng",
@@ -38676,6 +38408,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -38689,6 +38422,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.665,
@@ -38974,17 +38708,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qingye"
@@ -39296,6 +39024,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -39309,6 +39038,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.665,
@@ -39595,17 +39325,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"ruihe"
@@ -39969,6 +39693,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -39982,6 +39707,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -40268,17 +39994,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xiangfeng"
@@ -40619,6 +40339,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -40632,6 +40353,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.38,
@@ -40918,17 +40640,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xianghe"
@@ -41239,6 +40955,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -41252,6 +40969,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -41540,17 +41258,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jiahe"
@@ -41880,6 +41592,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -41893,6 +41606,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -42181,17 +41895,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"chicheng"
@@ -42545,6 +42253,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -42558,6 +42267,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -42846,17 +42556,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"canglong"
@@ -43205,6 +42909,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -43218,6 +42923,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.53,
@@ -43506,17 +43212,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"feilong"
@@ -43851,6 +43551,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -43864,6 +43565,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -44026,17 +43728,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qingye"
@@ -44414,6 +44110,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -44427,6 +44124,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.4,
@@ -44589,17 +44287,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"guying"
@@ -44970,6 +44662,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -44983,6 +44676,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -45145,17 +44839,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"longxiang"
@@ -45471,6 +45159,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -45484,6 +45173,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.63,
@@ -45647,17 +45337,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xianghe"
@@ -46109,6 +45793,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -46122,6 +45807,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -46285,17 +45971,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"miaogao"
@@ -46752,6 +46432,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -46765,6 +46446,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -46928,17 +46610,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"ligen"
@@ -47333,6 +47009,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -47346,6 +47023,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.54,
@@ -47509,17 +47187,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xianghe"
@@ -47884,6 +47556,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -47897,6 +47570,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.51,
@@ -48060,17 +47734,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"ruihe"
@@ -48460,6 +48128,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -48473,6 +48142,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -48636,17 +48306,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"yili"
@@ -49075,6 +48739,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -49088,6 +48753,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -49251,17 +48917,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"birui"
@@ -49746,6 +49406,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -49759,6 +49420,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -49922,17 +49584,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"wudao"
@@ -50341,6 +49997,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -50354,6 +50011,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -50517,17 +50175,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xili"
@@ -50980,6 +50632,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -50993,6 +50646,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -51143,17 +50797,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"buzhihuo"
@@ -51444,6 +51092,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -51457,6 +51106,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -51607,17 +51257,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"yangyan"
@@ -52011,6 +51655,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -52024,6 +51669,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -52174,17 +51820,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"bailu",
@@ -52649,6 +52289,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -52662,6 +52303,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -52812,17 +52454,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xuefeng"
@@ -53271,6 +52907,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -53284,6 +52921,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -53434,17 +53072,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"dian"
@@ -53757,6 +53389,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -53770,6 +53403,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -53920,17 +53554,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"lei"
@@ -54329,6 +53957,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -54342,6 +53971,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -54492,17 +54122,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"nazhi"
@@ -54964,6 +54588,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -54977,6 +54602,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -55127,17 +54753,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"moye"
@@ -55662,6 +55282,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -55675,6 +55296,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -55827,17 +55449,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"gufeng"
@@ -56242,6 +55858,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -56255,6 +55872,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.35,
@@ -56407,17 +56025,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"bangfeng"
@@ -56860,6 +56472,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -56873,6 +56486,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -57025,17 +56639,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qinchao"
@@ -57502,6 +57110,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -57515,6 +57124,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -57667,17 +57277,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xinyue_jp"
@@ -58166,6 +57770,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -58179,6 +57784,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -58330,17 +57936,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"ximu",
@@ -58765,6 +58365,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -58778,6 +58379,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -58929,17 +58531,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"bangfeng"
@@ -59420,6 +59016,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -59433,6 +59030,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -59585,17 +59183,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xuefeng"
@@ -60092,6 +59684,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -60105,6 +59698,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -60258,17 +59852,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shentong"
@@ -60778,6 +60366,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -60791,6 +60380,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.38,
@@ -60941,17 +60531,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"bailu",
@@ -61426,6 +61010,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -61439,6 +61024,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.38,
@@ -61590,17 +61176,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"miaogao"
@@ -62189,6 +61769,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -62202,6 +61783,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -62354,17 +61936,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"maoyue",
@@ -62922,6 +62498,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -62935,6 +62512,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -63088,17 +62666,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"chuannei"
@@ -63764,6 +63336,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 1,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -63777,6 +63350,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -63882,17 +63456,11 @@ pg.chapter_template = {
 				0
 			}
 		},
-		win_condition_display = {
-			"輸送船が指定位置に到達"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"Z46"
@@ -64244,6 +63812,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 2,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -64257,6 +63826,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -64363,17 +63933,11 @@ pg.chapter_template = {
 				0
 			}
 		},
-		win_condition_display = {
-			"輸送船が指定位置に到達"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"deyizhi"
@@ -64776,6 +64340,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 3,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -64789,6 +64354,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -64896,17 +64462,11 @@ pg.chapter_template = {
 				0
 			}
 		},
-		win_condition_display = {
-			"輸送船が指定位置に到達"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"genaisennao"
@@ -65399,6 +64959,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 4,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -65412,6 +64973,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -65517,17 +65079,11 @@ pg.chapter_template = {
 				0
 			}
 		},
-		win_condition_display = {
-			"輸送船が指定位置に到達"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"Z46"
@@ -65873,6 +65429,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 5,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -65886,6 +65443,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -65992,17 +65550,11 @@ pg.chapter_template = {
 				0
 			}
 		},
-		win_condition_display = {
-			"輸送船が指定位置に到達"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"deyizhi"
@@ -66392,6 +65944,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 6,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -66405,6 +65958,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -66512,17 +66066,11 @@ pg.chapter_template = {
 				0
 			}
 		},
-		win_condition_display = {
-			"輸送船が指定位置に到達"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"genaisennao"
@@ -67003,6 +66551,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 7,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -67016,6 +66565,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -67121,17 +66671,11 @@ pg.chapter_template = {
 				0
 			}
 		},
-		win_condition_display = {
-			"輸送船が指定位置に到達"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"Z46"
@@ -67476,6 +67020,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 8,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -67489,6 +67034,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -67595,17 +67141,11 @@ pg.chapter_template = {
 				0
 			}
 		},
-		win_condition_display = {
-			"輸送船が指定位置に到達"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qibolin"
@@ -68000,6 +67540,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 9,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -68013,6 +67554,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -68120,17 +67662,11 @@ pg.chapter_template = {
 				0
 			}
 		},
-		win_condition_display = {
-			"輸送船が指定位置に到達"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tierbici"
@@ -68562,6 +68098,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -68575,6 +68112,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -68688,17 +68226,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"deyizhi"
@@ -69020,6 +68552,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -69033,6 +68566,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -69146,17 +68680,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -69540,6 +69068,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -69553,6 +69082,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -69666,17 +69196,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"genaisennao"
@@ -70130,6 +69654,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -70143,6 +69668,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -70256,17 +69782,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shaenhuosite"
@@ -70771,6 +70291,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -70784,6 +70305,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -70897,17 +70419,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"Z46"
@@ -71247,6 +70763,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -71260,6 +70777,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -71373,17 +70891,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qibolin"
@@ -71720,6 +71232,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -71733,6 +71246,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -71846,17 +71360,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tierbici"
@@ -72379,6 +71887,7 @@ pg.chapter_template = {
 		enter_story = "TACT20015",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -72392,6 +71901,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -72505,17 +72015,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"unknown1"
@@ -73236,6 +72740,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -73249,6 +72754,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -73403,17 +72909,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"deyizhi"
@@ -73735,6 +73235,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -73748,6 +73249,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -73902,17 +73404,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -74296,6 +73792,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -74309,6 +73806,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -74463,17 +73961,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"genaisennao"
@@ -74927,6 +74419,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -74940,6 +74433,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -75094,17 +74588,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shaenhuosite"
@@ -75609,6 +75097,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -75622,6 +75111,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -75776,17 +75266,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"Z46"
@@ -76126,6 +75610,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -76139,6 +75624,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -76293,17 +75779,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qibolin"
@@ -76640,6 +76120,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -76653,6 +76134,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -76807,17 +76289,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tierbici"
@@ -77340,6 +76816,7 @@ pg.chapter_template = {
 		enter_story = "TACT20015",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -77353,6 +76830,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -77507,17 +76985,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"unknown1"
@@ -78238,6 +77710,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -78251,6 +77724,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -78363,17 +77837,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -78821,6 +78289,7 @@ pg.chapter_template = {
 		enter_story = "ZHUNUO5",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -78834,6 +78303,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -78947,17 +78417,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"genaisennao"
@@ -79406,6 +78870,7 @@ pg.chapter_template = {
 		enter_story = "ZHUNUO8",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -79419,6 +78884,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -79532,17 +78998,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shaenhuosite",
@@ -80114,6 +79574,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO01",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -80127,6 +79588,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -80239,17 +79701,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"Z1"
@@ -80681,6 +80137,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -80694,6 +80151,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -80806,17 +80264,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sipeibojue"
@@ -81347,6 +80799,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO07",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -81360,6 +80813,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -81473,17 +80927,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sipeibojue"
@@ -82071,6 +81519,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO01",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -82084,6 +81533,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -82196,17 +81646,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"Z1"
@@ -82654,6 +82098,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -82667,6 +82112,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -82779,17 +82225,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sipeibojue"
@@ -83336,6 +82776,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO07",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -83349,6 +82790,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -83462,17 +82904,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sipeibojue"
@@ -84076,6 +83512,7 @@ pg.chapter_template = {
 		enter_story = "NEPU_STAGE101",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -84089,6 +83526,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -84201,17 +83639,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"HDN202_1"
@@ -84592,6 +84024,7 @@ pg.chapter_template = {
 		enter_story = "NEPU_STAGE201",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -84605,6 +84038,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -84717,17 +84151,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"HDN402_1"
@@ -85213,6 +84641,7 @@ pg.chapter_template = {
 		enter_story = "NEPU_STAGE301",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -85226,6 +84655,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -85338,17 +84768,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"HDN302_1"
@@ -85827,6 +85251,7 @@ pg.chapter_template = {
 		enter_story = "NEPU_STAGE401",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -85840,6 +85265,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.62,
@@ -85953,17 +85379,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"HDN102_1"
@@ -86554,6 +85974,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -86567,6 +85988,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.47,
@@ -86719,17 +86141,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"HDN102_1",
@@ -87328,6 +86744,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG02",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -87341,6 +86758,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -87457,17 +86875,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenqingxun"
@@ -87821,6 +87233,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -87834,6 +87247,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -87952,17 +87366,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun"
@@ -88346,6 +87754,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG07",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -88359,6 +87768,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -88478,17 +87888,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shaenhuosite"
@@ -88929,6 +88333,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -88942,6 +88347,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -89060,17 +88466,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu"
@@ -89523,6 +88923,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG13",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -89536,6 +88937,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -89656,17 +89058,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tierbici"
@@ -90195,6 +89591,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG17",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -90208,6 +89605,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -90330,17 +89728,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenboss"
@@ -91042,6 +90434,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG02",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -91055,6 +90448,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -91212,17 +90606,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenqingxun"
@@ -91590,6 +90978,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -91603,6 +90992,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -91762,17 +91152,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun"
@@ -92170,6 +91554,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG07",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -92183,6 +91568,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -92343,17 +91729,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shaenhuosite"
@@ -92808,6 +92188,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -92821,6 +92202,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -92980,17 +92362,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu"
@@ -93457,6 +92833,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG13",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -93470,6 +92847,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -93631,17 +93009,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tierbici"
@@ -94184,6 +93556,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG17",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -94197,6 +93570,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -94360,17 +93734,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenboss"
@@ -95086,6 +94454,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -95099,6 +94468,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -95257,17 +94627,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenboss"
@@ -95948,6 +95312,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -95961,6 +95326,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -96076,17 +95442,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xiao"
@@ -96491,6 +95851,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -96504,6 +95865,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -96620,17 +95982,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"yishi",
@@ -97090,6 +96446,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -97103,6 +96460,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -97219,17 +96577,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shancheng_g"
@@ -97758,6 +97110,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -97771,6 +97124,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -97888,17 +97242,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"yefen"
@@ -98377,6 +97725,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -98390,6 +97739,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -98507,17 +97857,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xianghe"
@@ -99095,6 +98439,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -99108,6 +98453,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -99226,17 +98572,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"chicheng",
@@ -99810,6 +99150,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -99823,6 +99164,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -99981,17 +99323,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xiao"
@@ -100396,6 +99732,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -100409,6 +99746,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -100567,17 +99905,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"yishi",
@@ -101037,6 +100369,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -101050,6 +100383,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -101209,17 +100543,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shancheng_g"
@@ -101748,6 +101076,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -101761,6 +101090,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -101920,17 +101250,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"yefen"
@@ -102409,6 +101733,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -102422,6 +101747,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -102581,17 +101907,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xianghe"
@@ -103169,6 +102489,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -103182,6 +102503,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -103341,17 +102663,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"chicheng",
@@ -103925,6 +103241,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -103938,6 +103255,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -104078,17 +103396,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"chicheng",
@@ -104674,6 +103986,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -104687,6 +104000,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -104794,17 +104108,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"zhaochao"
@@ -105270,6 +104578,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA4",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -105283,6 +104592,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -105391,17 +104701,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"chunyue",
@@ -105789,6 +105093,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA5",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -105802,6 +105107,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -105911,17 +105217,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jingang",
@@ -106358,6 +105658,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA6",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -106371,6 +105672,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -106478,17 +105780,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jiangfeng"
@@ -107015,6 +106311,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA10",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -107028,6 +106325,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -107136,17 +106434,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"changmen",
@@ -107723,6 +107015,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA13",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -107736,6 +107029,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -107845,17 +107139,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenboss"
@@ -108382,6 +107670,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -108395,6 +107684,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -108544,17 +107834,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"zhaochao"
@@ -109020,6 +108304,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA4",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -109033,6 +108318,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -109183,17 +108469,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"chunyue",
@@ -109581,6 +108861,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA5",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -109594,6 +108875,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -109745,17 +109027,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jingang",
@@ -110234,6 +109510,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA6",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -110247,6 +109524,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -110396,17 +109674,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jiangfeng"
@@ -110933,6 +110205,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA10",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -110946,6 +110219,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -111098,17 +110372,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"changmen",
@@ -111685,6 +110953,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA13",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -111698,6 +110967,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -111851,17 +111121,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenboss"
@@ -112388,6 +111652,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -112401,6 +111666,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -112471,17 +111737,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"changmen",
@@ -112797,6 +112057,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -112810,6 +112071,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -112924,17 +112186,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"deyizhi"
@@ -113349,6 +112605,7 @@ pg.chapter_template = {
 		enter_story = "TACT20016",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -113362,6 +112619,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -113476,17 +112734,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -114043,6 +113295,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -114056,6 +113309,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -114172,17 +113426,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"genaisennao"
@@ -114702,6 +113950,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -114715,6 +113964,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -114831,17 +114081,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shaenhuosite"
@@ -115481,6 +114725,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -115494,6 +114739,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -115610,17 +114856,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"Z46"
@@ -116053,6 +115293,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -116066,6 +115307,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -116182,17 +115424,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qibolin"
@@ -116635,6 +115871,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -116648,6 +115885,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -116764,17 +116002,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tierbici"
@@ -117270,6 +116502,7 @@ pg.chapter_template = {
 		enter_story = "TACT20015",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -117283,6 +116516,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -117399,17 +116633,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"unknown1"
@@ -118063,6 +117291,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -118076,6 +117305,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -118231,17 +117461,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"deyizhi"
@@ -118656,6 +117880,7 @@ pg.chapter_template = {
 		enter_story = "TACT20016",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -118669,6 +117894,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -118826,17 +118052,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -119393,6 +118613,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -119406,6 +118627,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -119563,17 +118785,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"genaisennao"
@@ -120093,6 +119309,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -120106,6 +119323,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -120263,17 +119481,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shaenhuosite"
@@ -120913,6 +120125,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -120926,6 +120139,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -121083,17 +120297,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"Z46"
@@ -121526,6 +120734,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -121539,6 +120748,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -121696,17 +120906,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qibolin"
@@ -122149,6 +121353,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -122162,6 +121367,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -122319,17 +121525,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tierbici"
@@ -122825,6 +122025,7 @@ pg.chapter_template = {
 		enter_story = "TACT20015",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -122838,6 +122039,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -122995,17 +122197,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"unknown1"
@@ -123659,6 +122855,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -123672,6 +122869,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -123739,17 +122937,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"unknown1"
@@ -124085,6 +123277,7 @@ pg.chapter_template = {
 		enter_story = "TACT50000",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -124098,6 +123291,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -124191,17 +123385,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jiagu",
@@ -124578,6 +123766,7 @@ pg.chapter_template = {
 		enter_story = "TACT50003",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -124591,6 +123780,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -124684,17 +123874,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"guying",
@@ -125132,6 +124316,7 @@ pg.chapter_template = {
 		enter_story = "TACT50006",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -125145,6 +124330,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -125240,17 +124426,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"niaohai"
@@ -125724,6 +124904,7 @@ pg.chapter_template = {
 		enter_story = "TACT50000",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -125737,6 +124918,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -125830,17 +125012,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jiagu",
@@ -126217,6 +125393,7 @@ pg.chapter_template = {
 		enter_story = "TACT50003",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -126230,6 +125407,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -126323,17 +125501,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"guying",
@@ -126771,6 +125943,7 @@ pg.chapter_template = {
 		enter_story = "TACT50006",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -126784,6 +125957,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -126879,17 +126053,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"niaohai"
@@ -127363,6 +126531,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -127376,6 +126545,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -127482,17 +126652,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -127908,6 +127072,7 @@ pg.chapter_template = {
 		enter_story = "FAXI02",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -127921,6 +127086,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -128028,17 +127194,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -128559,6 +127719,7 @@ pg.chapter_template = {
 		enter_story = "FAXI03",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -128572,6 +127733,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -128680,17 +127842,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"dunkeerke"
@@ -129322,6 +128478,7 @@ pg.chapter_template = {
 		enter_story = "FAXI06",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -129335,6 +128492,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -129442,17 +128600,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"lemaer",
@@ -129880,6 +129032,7 @@ pg.chapter_template = {
 		enter_story = "FAXI07",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -129893,6 +129046,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -130001,17 +129155,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -130543,6 +129691,7 @@ pg.chapter_template = {
 		enter_story = "FAXI08",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -130556,6 +129705,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -130665,17 +129815,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"rangbaer"
@@ -131339,6 +130483,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -131352,6 +130497,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -131499,17 +130645,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -131925,6 +131065,7 @@ pg.chapter_template = {
 		enter_story = "FAXI02",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -131938,6 +131079,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -132086,17 +131228,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -132617,6 +131753,7 @@ pg.chapter_template = {
 		enter_story = "FAXI03",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -132630,6 +131767,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -132779,17 +131917,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"dunkeerke"
@@ -133421,6 +132553,7 @@ pg.chapter_template = {
 		enter_story = "FAXI06",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -133434,6 +132567,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -133584,17 +132718,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"lemaer",
@@ -134022,6 +133150,7 @@ pg.chapter_template = {
 		enter_story = "FAXI07",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -134035,6 +133164,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -134186,17 +133316,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -134728,6 +133852,7 @@ pg.chapter_template = {
 		enter_story = "FAXI08",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -134741,6 +133866,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -134893,17 +134019,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"rangbaer"
@@ -135560,6 +134680,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -135573,6 +134694,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -135639,17 +134761,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"rangbaer",
@@ -135945,6 +135061,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -135958,6 +135075,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -136075,17 +135193,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu"
@@ -136526,6 +135638,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -136539,6 +135652,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -136660,17 +135774,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenqingxun"
@@ -137168,6 +136276,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO06",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -137181,6 +136290,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.64,
@@ -137303,17 +136413,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun",
@@ -137901,6 +137005,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO09",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -137914,6 +137019,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -138035,17 +137141,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhanlie"
@@ -138572,6 +137672,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO10",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -138585,6 +137686,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -138706,17 +137808,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu"
@@ -139384,6 +138480,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -139397,6 +138494,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -139520,17 +138618,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhanlie",
@@ -140375,6 +139467,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -140388,6 +139481,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -140546,17 +139640,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu"
@@ -140997,6 +140085,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -141010,6 +140099,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -141172,17 +140262,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenqingxun"
@@ -141680,6 +140764,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO06",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -141693,6 +140778,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.64,
@@ -141856,17 +140942,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun",
@@ -142454,6 +141534,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO09",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -142467,6 +141548,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -142629,17 +141711,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhanlie"
@@ -143166,6 +142242,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO10",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -143179,6 +142256,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -143341,17 +142419,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu"
@@ -144019,6 +143091,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -144032,6 +143105,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -144196,17 +143270,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhanlie",
@@ -145051,6 +144119,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -145064,6 +144133,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -145132,17 +144202,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"unknown1"
@@ -145565,6 +144629,7 @@ pg.chapter_template = {
 		enter_story = "LINKPREHEAT1-1",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -145578,6 +144643,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -145686,17 +144752,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"fumilulu"
@@ -146086,6 +145146,7 @@ pg.chapter_template = {
 		enter_story = "LINKPREHEAT3",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -146099,6 +145160,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -146206,17 +145268,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jiuyuan",
@@ -146724,6 +145780,7 @@ pg.chapter_template = {
 		enter_story = "LINKPREHEAT5-1",
 		boss_refresh = 99,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -146737,6 +145794,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -146843,17 +145901,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"wululu",
@@ -147274,6 +146326,7 @@ pg.chapter_template = {
 		enter_story = "LINKPREHEAT9-1",
 		boss_refresh = 99,
 		event_skip = 1,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -147287,6 +146340,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.62,
@@ -147397,17 +146451,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenboss"
@@ -148080,6 +147128,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -148093,6 +147142,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.47,
@@ -148159,17 +147209,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jiuyuan",
@@ -148641,6 +147685,7 @@ pg.chapter_template = {
 		enter_story = "LONGXIANGHUODONG1",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -148654,6 +147699,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -148762,17 +147808,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"birui",
@@ -149172,6 +148212,7 @@ pg.chapter_template = {
 		enter_story = "LONGXIANGHUODONG5",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -149185,6 +148226,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.49,
@@ -149293,17 +148335,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"luao"
@@ -149761,6 +148797,7 @@ pg.chapter_template = {
 		enter_story = "LONGXIANGHUODONG8",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -149774,6 +148811,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.61,
@@ -149884,17 +148922,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"longxiang"
@@ -150389,6 +149421,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -150402,6 +149435,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -150509,17 +149543,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qifeng"
@@ -150985,6 +150013,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -150998,6 +150027,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -151106,17 +150136,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"nake"
@@ -151552,6 +150576,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG7",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -151565,6 +150590,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -151674,17 +150700,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jiahezhanlie"
@@ -152215,6 +151235,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG11",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -152228,6 +151249,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -152335,17 +151357,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -152879,6 +151895,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG13",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -152892,6 +151909,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -153000,17 +152018,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -153586,6 +152598,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG16",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -153599,6 +152612,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -153708,17 +152722,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tiancheng"
@@ -154267,6 +153275,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -154280,6 +153289,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -154429,17 +153439,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qifeng"
@@ -154905,6 +153909,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -154918,6 +153923,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -155068,17 +154074,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"nake"
@@ -155514,6 +154514,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG7",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -155527,6 +154528,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -155678,17 +154680,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jiahezhanlie"
@@ -156219,6 +155215,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG11",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -156232,6 +155229,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -156381,17 +155379,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -156925,6 +155917,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG13",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -156938,6 +155931,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -157090,17 +156084,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -157676,6 +156664,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG16",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -157689,6 +156678,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -157842,17 +156832,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tiancheng"
@@ -158401,6 +157385,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -158414,6 +157399,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -158484,17 +157470,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tiancheng",
@@ -158808,6 +157788,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG2",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -158821,6 +157802,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -158927,17 +157909,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -159393,6 +158369,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG6",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -159406,6 +158383,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -159512,17 +158490,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun_ii"
@@ -159963,6 +158935,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -159976,6 +158949,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -160083,17 +159057,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"ganraozhe"
@@ -160578,6 +159546,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -160591,6 +159560,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -160699,17 +159669,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhanlie_ii"
@@ -161206,6 +160170,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG18",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -161219,6 +160184,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -161327,17 +160293,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu_ii"
@@ -161782,6 +160742,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG23",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -161795,6 +160756,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -161903,17 +160865,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qingchuzhe"
@@ -162421,6 +161377,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -162434,6 +161391,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -162583,17 +161541,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -163049,6 +162001,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG6",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -163062,6 +162015,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -163211,17 +162165,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun_ii"
@@ -163662,6 +162610,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -163675,6 +162624,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -163824,17 +162774,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"ganraozhe"
@@ -164319,6 +163263,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -164332,6 +163277,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -164482,17 +163428,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhanlie_ii"
@@ -164989,6 +163929,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG18",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -165002,6 +163943,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -165154,17 +164096,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu_ii"
@@ -165609,6 +164545,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG23",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -165622,6 +164559,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -165774,17 +164712,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qingchuzhe"
@@ -166292,6 +165224,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -166305,6 +165238,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -166447,17 +165381,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"ganraozhe"
@@ -166968,6 +165896,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -166981,6 +165910,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -167056,17 +165986,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qingchuzhe"
@@ -167396,6 +166320,7 @@ pg.chapter_template = {
 		enter_story = "LONGXIANGHUODONG1",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -167409,6 +166334,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -167517,17 +166443,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"birui",
@@ -167927,6 +166847,7 @@ pg.chapter_template = {
 		enter_story = "LONGXIANGHUODONG5",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -167940,6 +166861,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.49,
@@ -168048,17 +166970,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"luao"
@@ -168516,6 +167432,7 @@ pg.chapter_template = {
 		enter_story = "LONGXIANGHUODONG8",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -168529,6 +167446,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.61,
@@ -168639,17 +167557,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"longxiang"
@@ -169142,6 +168054,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE2",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -169155,6 +168068,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -169270,17 +168184,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -169690,6 +168598,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE8",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -169703,6 +168612,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -169818,17 +168728,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -170266,6 +169170,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE12",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -170279,6 +169184,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -170394,17 +169300,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenqianting"
@@ -170862,6 +169762,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE18",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -170875,6 +169776,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -170992,17 +169894,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhanlie_i"
@@ -171495,6 +170391,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE23",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -171508,6 +170405,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -171625,17 +170523,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -172118,6 +171010,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE28",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -172131,6 +171024,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -172248,17 +171142,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"unknown5"
@@ -172813,6 +171701,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -172826,6 +171715,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -172983,17 +171873,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -173403,6 +172287,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE8",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -173416,6 +172301,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -173573,17 +172459,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -174021,6 +172901,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE12",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -174034,6 +172915,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -174192,17 +173074,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenqianting"
@@ -174660,6 +173536,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE18",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -174673,6 +173550,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -174832,17 +173710,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhanlie_i"
@@ -175335,6 +174207,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE23",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -175348,6 +174221,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -175509,17 +174383,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -176002,6 +174870,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE28",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -176015,6 +174884,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -176176,17 +175046,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"unknown5"
@@ -176741,6 +175605,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -176754,6 +175619,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -176905,17 +175771,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"unknown3"
@@ -177341,6 +176201,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -177354,6 +176215,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -177438,17 +176300,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"unknown5"
@@ -177778,6 +176634,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG2",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -177791,6 +176648,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -177897,17 +176755,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qifeng"
@@ -178373,6 +177225,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -178386,6 +177239,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -178493,17 +177347,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"nake"
@@ -178939,6 +177787,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG7",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -178952,6 +177801,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -179060,17 +177910,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jiahezhanlie"
@@ -179601,6 +178445,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG11",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -179614,6 +178459,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -179721,17 +178567,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -180265,6 +179105,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG13",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -180278,6 +179119,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -180386,17 +179228,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -180972,6 +179808,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG16",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -180985,6 +179822,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -181094,17 +179932,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tiancheng"
@@ -181653,6 +180485,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -181666,6 +180499,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -181814,17 +180648,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qifeng"
@@ -182290,6 +181118,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -182303,6 +181132,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -182452,17 +181282,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"nake"
@@ -182898,6 +181722,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG7",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -182911,6 +181736,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -183061,17 +181887,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jiahezhanlie"
@@ -183602,6 +182422,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG11",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -183615,6 +182436,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -183764,17 +182586,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -184308,6 +183124,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG13",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -184321,6 +183138,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -184473,17 +183291,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -185059,6 +183871,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG16",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -185072,6 +183885,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -185225,17 +184039,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tiancheng"
@@ -185784,6 +184592,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -185797,6 +184606,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -185867,17 +184677,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tiancheng",
@@ -186191,6 +184995,7 @@ pg.chapter_template = {
 		enter_story = "YESEXIADEGUITU1",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -186204,6 +185009,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -186287,17 +185093,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qiaozhiwushidanchuan"
@@ -186801,6 +185601,7 @@ pg.chapter_template = {
 		enter_story = "YESEXIADEGUITU4",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -186814,6 +185615,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.49,
@@ -186897,17 +185699,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"aruituosha"
@@ -187471,6 +186267,7 @@ pg.chapter_template = {
 		enter_story = "YESEXIADEGUITU7",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -187484,6 +186281,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.61,
@@ -187569,17 +186367,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"naerxun"
@@ -188137,6 +186929,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU2",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -188150,6 +186943,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -188252,17 +187046,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -188716,6 +187504,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU6",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -188729,6 +187518,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -188831,17 +187621,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"beiyaendanchuan"
@@ -189326,6 +188110,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU11",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -189339,6 +188124,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -189441,17 +188227,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"aerjiliya"
@@ -190029,6 +188809,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -190042,6 +188823,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -190146,17 +188928,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"wokelan"
@@ -190722,6 +189498,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU21",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -190735,6 +189512,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -190839,17 +189617,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jialisuoniye"
@@ -191733,6 +190505,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -191746,6 +190519,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -191850,17 +190624,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"aerjiliya"
@@ -193496,6 +192264,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -193509,6 +192278,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -193653,17 +192423,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -194117,6 +192881,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU6",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -194130,6 +192895,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -194274,17 +193040,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"beiyaendanchuan"
@@ -194769,6 +193529,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU11",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -194782,6 +193543,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -194927,17 +193689,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"aerjiliya"
@@ -195515,6 +194271,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -195528,6 +194285,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -195673,17 +194431,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"wokelan"
@@ -196249,6 +195001,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU21",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -196262,6 +195015,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -196409,17 +195163,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jialisuoniye"
@@ -197303,6 +196051,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -197316,6 +196065,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -197463,17 +196213,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"aerjiliya"
@@ -199109,6 +197853,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -199122,6 +197867,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -199260,17 +198006,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jiasikenie"
@@ -200415,6 +199155,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -200428,6 +199169,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -200491,17 +199233,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"aerjiliya"
@@ -200837,6 +199573,7 @@ pg.chapter_template = {
 		enter_story = "XIAWANJIANDEFANJI1",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -200850,6 +199587,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -200919,17 +199657,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"Z19"
@@ -201578,8 +200310,9 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 612,
 		enter_story = "XIAWANJIANDEFANJI5",
-		boss_refresh = 5,
+		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -201593,6 +200326,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.49,
@@ -201662,17 +200396,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"Z18"
@@ -202330,6 +201058,7 @@ pg.chapter_template = {
 		enter_story = "XIAWANJIANDEFANJI9",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -202343,6 +201072,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.61,
@@ -202414,17 +201144,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"Z2"
@@ -203079,6 +201803,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -203092,6 +201817,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -203209,17 +201935,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xiao"
@@ -203620,6 +202340,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -203633,6 +202354,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -203750,17 +202472,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"yishi",
@@ -204218,6 +202934,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -204231,6 +202948,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -204348,17 +203066,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shancheng_g"
@@ -204883,6 +203595,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -204896,6 +203609,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -205013,17 +203727,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"yefen"
@@ -205498,6 +204206,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -205511,6 +204220,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -205628,17 +204338,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xianghe"
@@ -206215,6 +204919,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -206228,6 +204933,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -206346,17 +205052,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"chicheng",
@@ -206927,6 +205627,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -206940,6 +205641,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -207098,17 +205800,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xiao"
@@ -207509,6 +206205,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -207522,6 +206219,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -207680,17 +206378,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"yishi",
@@ -208148,6 +206840,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -208161,6 +206854,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -208320,17 +207014,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shancheng_g"
@@ -208855,6 +207543,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -208868,6 +207557,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -209027,17 +207717,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"yefen"
@@ -209512,6 +208196,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -209525,6 +208210,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -209684,17 +208370,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xianghe"
@@ -210271,6 +208951,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -210284,6 +208965,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -210443,17 +209125,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"chicheng",
@@ -211023,6 +209699,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG02",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -211036,6 +209713,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -211148,17 +209826,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenqingxun"
@@ -211515,6 +210187,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -211528,6 +210201,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -211642,17 +210316,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun"
@@ -212069,6 +210737,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG07",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -212082,6 +210751,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.64,
@@ -212197,17 +210867,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shaenhuosite"
@@ -212713,6 +211377,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -212726,6 +211391,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -212840,17 +211506,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu"
@@ -213380,6 +212040,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG13",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -213393,6 +212054,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -213509,17 +212171,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tierbici"
@@ -214065,6 +212721,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG17",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -214078,6 +212735,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -214196,17 +212854,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"unknown3"
@@ -214925,6 +213577,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG02",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -214938,6 +213591,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -215091,17 +213745,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenqingxun"
@@ -215458,6 +214106,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -215471,6 +214120,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -215626,17 +214276,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun"
@@ -216053,6 +214697,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG07",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -216066,6 +214711,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.64,
@@ -216222,17 +214868,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shaenhuosite"
@@ -216738,6 +215378,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -216751,6 +215392,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -216906,17 +215548,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu"
@@ -217446,6 +216082,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG13",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -217459,6 +216096,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -217616,17 +216254,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tierbici"
@@ -218172,6 +216804,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG17",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -218185,6 +216818,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -218344,17 +216978,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"unknown3"
@@ -219074,6 +217702,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -219087,6 +217716,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -219201,17 +217831,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"deyizhi"
@@ -219627,6 +218251,7 @@ pg.chapter_template = {
 		enter_story = "TACT20016",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -219640,6 +218265,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -219754,17 +218380,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -220320,6 +218940,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -220333,6 +218954,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -220449,17 +219071,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"genaisennao"
@@ -220980,6 +219596,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -220993,6 +219610,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -221109,17 +219727,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shaenhuosite"
@@ -221758,6 +220370,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -221771,6 +220384,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -221887,17 +220501,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"Z46"
@@ -222331,6 +220939,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -222344,6 +220953,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -222460,17 +221070,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qibolin"
@@ -222912,6 +221516,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -222925,6 +221530,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -223041,17 +221647,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tierbici"
@@ -223548,6 +222148,7 @@ pg.chapter_template = {
 		enter_story = "TACT20015",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -223561,6 +222162,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -223677,17 +222279,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"unknown1"
@@ -224340,6 +222936,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -224353,6 +222950,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -224508,17 +223106,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"deyizhi"
@@ -224934,6 +223526,7 @@ pg.chapter_template = {
 		enter_story = "TACT20016",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -224947,6 +223540,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -225104,17 +223698,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -225670,6 +224258,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -225683,6 +224272,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -225840,17 +224430,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"genaisennao"
@@ -226371,6 +224955,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -226384,6 +224969,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -226541,17 +225127,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"shaenhuosite"
@@ -227190,6 +225770,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -227203,6 +225784,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -227360,17 +225942,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"Z46"
@@ -227804,6 +226380,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -227817,6 +226394,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -227974,17 +226552,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"qibolin"
@@ -228426,6 +226998,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -228439,6 +227012,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -228596,17 +227170,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"tierbici"
@@ -229103,6 +227671,7 @@ pg.chapter_template = {
 		enter_story = "TACT20015",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -229116,6 +227685,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -229273,17 +227843,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"unknown1"
@@ -229936,6 +228500,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -229949,6 +228514,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -230066,17 +228632,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu"
@@ -230520,6 +229080,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -230533,6 +229094,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -230654,17 +229216,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenqingxun"
@@ -231162,6 +229718,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO06",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -231175,6 +229732,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.64,
@@ -231297,17 +229855,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun",
@@ -231895,6 +230447,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO09",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -231908,6 +230461,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -232029,17 +230583,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhanlie"
@@ -232566,6 +231114,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO10",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -232579,6 +231128,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -232700,17 +231250,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu"
@@ -233378,6 +231922,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -233391,6 +231936,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -233514,17 +232060,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhanlie",
@@ -234369,6 +232909,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -234382,6 +232923,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -234540,17 +233082,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu"
@@ -234994,6 +233530,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -235007,6 +233544,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -235169,17 +233707,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenqingxun"
@@ -235677,6 +234209,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO06",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -235690,6 +234223,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.64,
@@ -235853,17 +234387,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun",
@@ -236451,6 +234979,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO09",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -236464,6 +234993,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -236626,17 +235156,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhanlie"
@@ -237163,6 +235687,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO10",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -237176,6 +235701,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -237338,17 +235864,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu"
@@ -238016,6 +236536,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -238029,6 +236550,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -238193,17 +236715,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhanlie",
@@ -239048,6 +237564,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -239061,6 +237578,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -239167,17 +237685,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -239593,6 +238105,7 @@ pg.chapter_template = {
 		enter_story = "FAXI02",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -239606,6 +238119,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -239713,17 +238227,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -240244,6 +238752,7 @@ pg.chapter_template = {
 		enter_story = "FAXI03",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -240257,6 +238766,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -240365,17 +238875,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"dunkeerke"
@@ -241007,6 +239511,7 @@ pg.chapter_template = {
 		enter_story = "FAXI06",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -241020,6 +239525,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -241127,17 +239633,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"lemaer",
@@ -241565,6 +240065,7 @@ pg.chapter_template = {
 		enter_story = "FAXI07",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -241578,6 +240079,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -241686,17 +240188,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -242227,6 +240723,7 @@ pg.chapter_template = {
 		enter_story = "FAXI08",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -242240,6 +240737,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -242349,17 +240847,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"rangbaer"
@@ -243017,6 +241509,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -243030,6 +241523,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -243177,17 +241671,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -243603,6 +242091,7 @@ pg.chapter_template = {
 		enter_story = "FAXI02",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -243616,6 +242105,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -243764,17 +242254,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -244295,6 +242779,7 @@ pg.chapter_template = {
 		enter_story = "FAXI03",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -244308,6 +242793,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -244457,17 +242943,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"dunkeerke"
@@ -245099,6 +243579,7 @@ pg.chapter_template = {
 		enter_story = "FAXI06",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -245112,6 +243593,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -245260,17 +243742,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"lemaer",
@@ -245698,6 +244174,7 @@ pg.chapter_template = {
 		enter_story = "FAXI07",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -245711,6 +244188,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -245862,17 +244340,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -246404,6 +244876,7 @@ pg.chapter_template = {
 		enter_story = "FAXI08",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -246417,6 +244890,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -246569,17 +245043,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"rangbaer"
@@ -247235,6 +245703,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -247248,6 +245717,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -247331,17 +245801,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jingang"
@@ -247645,6 +246109,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -247658,6 +246123,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.53,
@@ -247754,17 +246220,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"jingang"
@@ -248129,6 +246589,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -248142,6 +246603,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -248238,17 +246700,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"aidang"
@@ -248643,6 +247099,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO01",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -248656,6 +247113,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -248768,17 +247226,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"Z1"
@@ -249226,6 +247678,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -249239,6 +247692,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -249351,17 +247805,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sipeibojue"
@@ -249908,6 +248356,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO07",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -249921,6 +248370,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -250034,17 +248484,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"敵中枢艦隊撃破"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"味方艦隊全滅"
 		},
 		icon = {
 			"sipeibojue"

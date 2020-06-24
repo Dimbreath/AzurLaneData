@@ -28792,18 +28792,18 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "甘口？辛口？好みは人それぞれ…<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+		display = "もちもちのちまきよー<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		rarity = 2,
 		type = 3,
 		drop_oil_max = 0,
-		name = "海軍カレー",
+		name = "ちまき",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/haijungali",
+		icon = "Props/zongzi",
 		replace_item = 0,
 		display_icon = {},
 		price = {
@@ -85150,6 +85150,138 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[57766] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57766,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				3,
+				1
+			},
+			{
+				2,
+				15,
+				1
+			},
+			{
+				2,
+				16,
+				1
+			},
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				10028,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57767] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57767,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10008,
+				1
+			},
+			{
+				2,
+				10025,
+				1
+			},
+			{
+				2,
+				10029,
+				1
+			},
+			{
+				2,
+				10030,
+				1
+			},
+			{
+				2,
+				10033,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57768] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57768,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10025,
+				1
+			},
+			{
+				2,
+				10030,
+				1
+			},
+			{
+				2,
+				10031,
+				1
+			},
+			{
+				2,
+				10032,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[57770] = {
 		display = "一定の確率で下記の設計図を入手できます",
 		rarity = 1,
@@ -103790,6 +103922,42 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[60057] = {
+		display = "「特別演習　超空強襲波」で特別ステージクリアで入手できるポイント。イベント画面右下「累計演習Pt報酬」で各種報酬を入手可能",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "演習pt",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60057,
+		icon = "Props/59122",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60058] = {
+		display = "「特別演習　超空強襲波」EXステージ出撃、もしくはボーナス出撃回数回復時に使用可能",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "特別戦闘券",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60058,
+		icon = "Props/nvpu_ticket",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[69901] = {
 		display = "ランダムに正月シリーズの着せ替え衣装を入手可能(既に所有している着せ替え衣装を入手した場合は、その購入価格と同じ分のダイヤを入手できます)",
 		rarity = 4,
@@ -107001,6 +107169,9 @@ pg.item_data_statistics = {
 		57763,
 		57764,
 		57765,
+		57766,
+		57767,
+		57768,
 		57770,
 		57771,
 		57772,
@@ -107487,6 +107658,8 @@ pg.item_data_statistics = {
 		60054,
 		60055,
 		60056,
+		60057,
+		60058,
 		69901,
 		69902,
 		69903,

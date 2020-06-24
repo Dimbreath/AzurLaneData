@@ -104,7 +104,12 @@ return {
 				setActive(slot1:Find("Tip"), slot4)
 				onButton(slot0, slot1, function ()
 					uv0:emit(MainUIMediator.GO_SCENE, {
-						SCENE.ACT_BOSS_SPF
+						SCENE.ACT_BOSS_BATTLE,
+						{
+							showAni = true,
+							mediatorClass = ActivityBossMediatorTemplate,
+							viewClass = ActivityBossAisaikesiScene
+						}
 					})
 				end, SFX_PANEL)
 			end
@@ -321,8 +326,7 @@ return {
 	CurrentEntrancesList = {
 		1,
 		2,
-		8,
-		13,
+		5,
 		6
 	}
 }

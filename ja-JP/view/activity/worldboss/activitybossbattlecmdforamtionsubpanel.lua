@@ -149,8 +149,11 @@ function slot0.Open(slot0)
 end
 
 function slot0.OnShow(slot0)
+	slot0.contextData.layerWeight = slot0.viewParent.fleetEditPanel and slot1.layerWeight
+
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		groupName = LayerWeightConst.GROUP_FORMATION_PAGE
+		groupName = LayerWeightConst.GROUP_FORMATION_PAGE,
+		weight = slot0.contextData.layerWeight
 	})
 end
 

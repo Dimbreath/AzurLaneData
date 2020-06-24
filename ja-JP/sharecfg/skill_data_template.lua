@@ -7098,6 +7098,17 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6560] = {
+		desc_get = "",
+		name = "改良型耐圧殻",
+		desc = "改良された耐圧殻により、自身の速力が20%アップし、戦闘時の攻撃位置がさらに8前進する",
+		type = 0,
+		max_level = 0,
+		id = 6560,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "ライン演習",
@@ -45101,6 +45112,7 @@ pg.skill_data_template = {
 		6530,
 		6540,
 		6550,
+		6560,
 		7000,
 		9030,
 		9031,

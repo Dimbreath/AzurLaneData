@@ -2500,7 +2500,7 @@ function slot0.updateMallBtnSellTag(slot0)
 		if slot5 and slot5.buyCount == 0 then
 			slot1 = true
 		elseif not slot5 then
-			slot1 = true
+			slot1 = false
 		end
 	end
 

@@ -4284,6 +4284,76 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100016] = {
+		advice = 0,
+		describe = "涼しい風をMOTTOピョ！",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭ファン",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "fengshanicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 100016,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fengshanB",
+				"normal"
+			},
+			{
+				"fengshanT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				-57.7
+			}
+		},
+		animator = {
+			{
+				"fengshanCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "至る所がぼろぼろになっているフローリング。足元注意。",
@@ -68395,6 +68465,1346 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[66001] = {
+		advice = 0,
+		describe = "アクセラレーションピョ！",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "レーシングサーキット",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "dibancaricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66001,
+		picture = "Car/dibancar",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66002] = {
+		advice = 0,
+		describe = "アクセラレーションピョ！",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭観戦席壁",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "qiangbicaricon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66002,
+		picture = "car/qiangbicar",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66101] = {
+		advice = 0,
+		describe = "夜間レース用の照明スタンド",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "サーキット街灯",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "1caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66101,
+		picture = "car/1car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66102] = {
+		advice = 0,
+		describe = "風になびく旗。試合は今、始まろうとしている…！",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "レースフラッグ",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "2caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 66102,
+		picture = "car/2car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66103] = {
+		advice = 0,
+		describe = "この区間は使用禁止だピョ！",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "コースブロッカー",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 66,
+		icon = "3caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66103,
+		picture = "Car/3car",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66104] = {
+		advice = 0,
+		describe = "「この試合は饅頭がお届けしまぁす！…饅頭？」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭スポンサー",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "4caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66104,
+		picture = "Car/4car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66105] = {
+		advice = 0,
+		describe = "「す、すみません指揮官、ちょっと飛ばしすぎました…！」",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "減速帯",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "5caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66105,
+		picture = "Car/5car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66106] = {
+		advice = 0,
+		describe = "抜け道は禁止だピョ！",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ガードレール",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 66,
+		icon = "6caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66106,
+		picture = "Car/6car",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66107] = {
+		advice = 0,
+		describe = "安全確保は大切だピョ！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "試合監視台",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "7caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 66107,
+		picture = "Car/7car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					45.9,
+					94.3
+				},
+				{
+					1,
+					1
+				},
+				"car/7car_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66108] = {
+		advice = 0,
+		describe = "6号選手、、オーバーテイクを図るピョ！あっお互い行き過ぎたピョ！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "生中継饅頭",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "8caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 66108,
+		picture = "Car/8car",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66109] = {
+		advice = 0,
+		describe = "ここは進入禁止ピョ！",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "進入禁止シンボル",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "9caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66109,
+		picture = "Car/9car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66110] = {
+		advice = 0,
+		describe = "ぶつかったら高く請求するにゃ！",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "タイヤバリア",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 66,
+		icon = "10caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66110,
+		picture = "Car/10car",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66111] = {
+		advice = 0,
+		describe = "アイドルパフォーマンスを入れると視聴率がうなぎのぼりピョ！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭中継車",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "11caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66111,
+		picture = "Car/11car",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66112] = {
+		advice = 0,
+		describe = "壊したら本当に大変にゃ！気をつけて運転するにゃ！",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ガードバリア",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "12caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66112,
+		picture = "Car/12car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66113] = {
+		advice = 0,
+		describe = "夏に似合う植物。…似合う？",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "サーキットの木（夏）",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "13caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66113,
+		picture = "Car/13car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66114] = {
+		advice = 0,
+		describe = "秋に似合う植物。…似合う？",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "サーキットの木（秋）",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "14caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66114,
+		picture = "Car/14car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66115] = {
+		advice = 0,
+		describe = "さあ、夢に向かってアクセラレーション！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "スタートグリッド",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "15caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66115,
+		picture = "Car/15car",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66116] = {
+		advice = 0,
+		describe = "はみ出した車両を減速させるための安全設備",
+		count = 2,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "ランオフエリア",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "16caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66116,
+		picture = "Car/16car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66117] = {
+		advice = 0,
+		describe = "これで夜間のレースも安心ピョ！",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "サーキットランプ1",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "17caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66117,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"17car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66118] = {
+		advice = 0,
+		describe = "これで夜間のレースも安心ピョ！",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "サーキットランプ2",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "18caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66118,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"18car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66119] = {
+		advice = 0,
+		describe = "これで夜間のレースも安心ピョ！",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "サーキットランプ3",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "19caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66119,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"19car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66120] = {
+		advice = 0,
+		describe = "これで夜間のレースも安心ピョ！",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "サーキットランプ4",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "20caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66120,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"20car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66121] = {
+		advice = 0,
+		describe = "これで夜間のレースも安心ピョ！",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "サーキットランプ5",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "21caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66121,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"21car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66122] = {
+		advice = 0,
+		describe = "「最新のロケットエンジンを換装済よ」「さすがアネキ！」",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "レッドフレーム",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheAicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66122,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheAB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheAT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66123] = {
+		advice = 0,
+		describe = "「拙者を阻むのものはなし！」「ファイトだわ～」",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "ホワイトファング",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheBicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66123,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheBB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheBT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66124] = {
+		advice = 0,
+		describe = "「エノシガイオスの怒りを味わうがいいわ！」「しっかり掴まってろ！」",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "アズールポセイドン",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheCicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66124,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheCB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheCT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66125] = {
+		advice = 0,
+		describe = "「突っ走るわ！」「お姉ちゃんが後ろを守ってあげるね！」",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "オレンジマントウ",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheDicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66125,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheDB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheDT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66126] = {
+		advice = 0,
+		describe = "「優勝は私のものですわ～」「あ、あのコースは違う！」",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "イエロースティンガー",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheEicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66126,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheEB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheET"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66127] = {
+		advice = 0,
+		describe = "レースクイーン目当ての参加者も多いが車がメインだからね！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "レースカー展示場",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "22caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 66127,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhanshicar",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"zhanshicarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -68479,6 +69889,7 @@ pg.furniture_data_template = {
 		100013,
 		100014,
 		100015,
+		100016,
 		1001,
 		1002,
 		1101,
@@ -69971,6 +71382,35 @@ pg.furniture_data_template = {
 		62115,
 		62116,
 		62117,
-		62118
+		62118,
+		66001,
+		66002,
+		66101,
+		66102,
+		66103,
+		66104,
+		66105,
+		66106,
+		66107,
+		66108,
+		66109,
+		66110,
+		66111,
+		66112,
+		66113,
+		66114,
+		66115,
+		66116,
+		66117,
+		66118,
+		66119,
+		66120,
+		66121,
+		66122,
+		66123,
+		66124,
+		66125,
+		66126,
+		66127
 	}
 }

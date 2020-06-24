@@ -109,8 +109,8 @@ function slot0.set(slot0, slot1, slot2)
 	slot0.txTitle.localPosition = Vector3(slot0.txTitle.localPosition.x, slot4[3] and 249 or 257, slot7.z)
 
 	setText(slot0.txTitleHead, slot4[3] or "")
-	setText(slot0.winCondDesc, i18n("text_win_condition") .. "：" .. slot1:getConfig("win_condition_display")[1])
-	setText(slot0.loseCondDesc, i18n("text_lose_condition") .. "：" .. slot1:getConfig("lose_condition_display")[1])
+	setText(slot0.winCondDesc, i18n("text_win_condition") .. "：" .. i18n(slot1:getConfig("win_condition_display")))
+	setText(slot0.loseCondDesc, i18n("text_lose_condition") .. "：" .. i18n(slot1:getConfig("lose_condition_display")))
 	setActive(slot0.winCondAwardBtn, slot1:getPlayType() == ChapterConst.TypeDefence)
 
 	if not slot1:existAchieve() then
