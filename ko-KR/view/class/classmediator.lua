@@ -9,18 +9,15 @@ slot0.CLASS_CLEAR_STUDENT = "ClassMediator:CLASS_CLEAR_STUDENT"
 function slot0.register(slot0)
 	slot1 = getProxy(NavalAcademyProxy)
 	slot2 = getProxy(BayProxy)
-	slot3 = slot1:getCourse()
 
-	slot0:verifyCourseData(slot3)
-	slot1:setCourse(slot3)
-	slot0.viewComponent:setCourse(slot3)
+	slot0.viewComponent:setCourse(slot1:getCourse())
 	slot0.viewComponent:setResClass(slot1:GetClassVO())
 
-	slot5 = getProxy(PlayerProxy)
+	slot4 = getProxy(PlayerProxy)
 
-	slot0.viewComponent:setPlayer(slot5:getRawData())
+	slot0.viewComponent:setPlayer(slot4:getRawData())
 	slot1:UpgradeFinish()
-	slot5:setFlag("blockResourceUpgrade", true)
+	slot4:setFlag("blockResourceUpgrade", true)
 	slot0:bind(uv0.OPEN_DOCK, function (slot0)
 		uv0:addSubLayers(Context.New({
 			mediator = BackYardShipInfoMediator,
@@ -118,28 +115,13 @@ function slot0.handleNotification(slot0, slot1)
 end
 
 function slot0.updateClassView(slot0)
-	slot1 = getProxy(NavalAcademyProxy)
-	slot2 = slot1:getCourse()
-
-	slot0:verifyCourseData(slot2)
-	slot1:setCourse(slot2)
-	slot0.viewComponent:setCourse(slot2)
+	slot0.viewComponent:setCourse(getProxy(NavalAcademyProxy):getCourse())
 	slot0.viewComponent:updateMainView()
 end
 
 function slot0.updateResourcePanel(slot0)
 	slot0.viewComponent:setResClass(getProxy(NavalAcademyProxy):GetClassVO())
 	slot0.viewComponent:updateResourcePanel()
-end
-
-function slot0.verifyCourseData(slot0, slot1)
-	if not slot1:inClass() and slot1:existCourse() then
-		for slot8 = #slot1.students, 1, -1 do
-			if not getProxy(BayProxy):getShipById(slot4[slot8]) or not table.contains(slot1:getConfig("type"), slot9:getShipType()) or slot9:getEnergy() <= AcademyCourse.MinEnergy then
-				table.remove(slot4, slot8)
-			end
-		end
-	end
 end
 
 return slot0

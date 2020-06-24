@@ -248,7 +248,7 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "무슨 말이야. 그런 하등 생물이 날 화나게 한다고?",
 			typewriter = {

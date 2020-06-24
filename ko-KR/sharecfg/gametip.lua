@@ -6357,7 +6357,7 @@ B평가:<color=#92fc63>70</color>점
 2. 「용골편찬」에선, <color=#92fc63>최대 레벨5</color>까지 강화할 수 있으며, 함선에 
 대응하는<color=#92fc63>강화 유닛</color>을 소비하여 진척도를 100％까지 진행시키면 
 그 레벨의 용골편찬이 완료됩니다.
-3. 레벨<color=#92fc63>I～V</color>에선 함선의<color=#92fc63>「운」</color>스테이터스가 강화됩니다.
+3. 레벨<color=#92fc63>I～V</color>에선 함선의<color=#92fc63>「행운」</color>스테이터스가 강화됩니다.
 4. 레벨<color=#92fc63>V</color>에선 <color=#92fc63>스킬</color>을 일부<color=#92fc63> 강화</color>할 수 있습니다.]]
 			}
 		}
@@ -6945,13 +6945,13 @@ B평가:<color=#92fc63>70</color>점
 		tip = "리슐리외, 알제리, 보클랭 출현 확률 UP! "
 	},
 	buildship_heavy_tip = {
-		tip = "꼬마 히에이 건조 추가 "
+		tip = "미니애폴리스, 노스캐롤라이나,워싱턴,콜로라도,메릴랜드 건조 추가 "
 	},
 	buildship_light_tip = {
-		tip = "시리우스, 셰필드, 체이서, 매치리스, 퀴라소, 컬루, 자메이카 건조 추가! "
+		tip = "하비,커크 건조 추가! "
 	},
 	buildship_special_tip = {
-		tip = "꼬마 아카기, 꼬마 그라프 체펠린 건조 추가 "
+		tip = "에식스 건조 추가 "
 	},
 	open_skill_pos = {
 		tip = "해당 항목을 오픈하기 위해선 <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>이 필요합니다.\n오픈하시겠습니까?"
@@ -10439,5 +10439,8 @@ BUFF 보너스도 증가합니다.
 	},
 	BackYard_collection_be_delete_tip = {
 		tip = "삭제된 테마를 즐겨찾기 목록에서 제거했습니다. "
+	},
+	backYard_missing_furnitrue_tip = {
+		tip = "缺少以下家具"
 	}
 }

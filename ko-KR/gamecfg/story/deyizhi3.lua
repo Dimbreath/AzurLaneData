@@ -243,7 +243,7 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "연습전 따위, 하등생물들이나 하는 거야! 이 내가……",
 			typewriter = {

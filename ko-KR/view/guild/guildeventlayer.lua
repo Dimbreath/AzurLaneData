@@ -50,15 +50,6 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.additionBtn, function ()
 		uv0:showAdditions()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.combatBtn, function ()
-		if uv0.guildEvent.count <= 0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("less_count_to_combat"))
-
-			return
-		end
-
-		uv0:emit(GuildEventMediator.ON_PRE_COMBAT)
-	end, SFX_PANEL)
 	onButton(slot0, slot0.guildRankBtn, function ()
 		uv0:emit(GuildEventMediator.OPEN_RANK)
 	end, SFX_PANEL)

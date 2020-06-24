@@ -31,6 +31,7 @@ end
 function slot0.addSeasonInfo(slot0, slot1)
 	slot0.seasonInfo = slot1
 
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inExercise")
 	slot0:sendNotification(uv0.SEASON_INFO_ADDED, slot1:clone())
 	slot0:addRefreshCountTimer()
 end
@@ -103,6 +104,7 @@ end
 function slot0.updateSeasonInfo(slot0, slot1)
 	slot0.seasonInfo = slot1
 
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inExercise")
 	slot0:sendNotification(uv0.SEASON_INFO_UPDATED, slot1:clone())
 end
 
@@ -141,6 +143,7 @@ end
 
 function slot0.updateExerciseFleet(slot0, slot1)
 	slot0.seasonInfo:updateFleet(slot1)
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inExercise")
 	slot0:sendNotification(uv0.EXERCISE_FLEET_UPDATED, slot1:clone())
 end
 

@@ -27043,7 +27043,7 @@ pg.shop_template = {
 		isHX = 0,
 		showInAudit = 0,
 		discount = 0,
-		resource_type = 2006,
+		resource_type = 150,
 		id = 90037,
 		genre = "skin_shop_timelimit",
 		discount_time = {},
@@ -27094,7 +27094,7 @@ pg.shop_template = {
 		isHX = 0,
 		showInAudit = 0,
 		discount = 0,
-		resource_type = 2006,
+		resource_type = 150,
 		id = 90038,
 		genre = "skin_shop_timelimit",
 		discount_time = {},
@@ -27145,7 +27145,7 @@ pg.shop_template = {
 		isHX = 0,
 		showInAudit = 0,
 		discount = 0,
-		resource_type = 2006,
+		resource_type = 150,
 		id = 90039,
 		genre = "skin_shop_timelimit",
 		discount_time = {},
@@ -27196,13 +27196,13 @@ pg.shop_template = {
 		isHX = 0,
 		showInAudit = 0,
 		discount = 0,
-		resource_type = 2006,
+		resource_type = 153,
 		id = 90040,
 		genre = "skin_shop_timelimit",
 		discount_time = {},
 		limit_args = {},
 		effect_args = {
-			301801
+			305081
 		},
 		time = {
 			{
@@ -27247,13 +27247,13 @@ pg.shop_template = {
 		isHX = 0,
 		showInAudit = 0,
 		discount = 0,
-		resource_type = 2006,
+		resource_type = 153,
 		id = 90041,
 		genre = "skin_shop_timelimit",
 		discount_time = {},
 		limit_args = {},
 		effect_args = {
-			301831
+			304023
 		},
 		time = {
 			{
@@ -27298,13 +27298,13 @@ pg.shop_template = {
 		isHX = 0,
 		showInAudit = 0,
 		discount = 0,
-		resource_type = 2006,
+		resource_type = 153,
 		id = 90042,
 		genre = "skin_shop_timelimit",
 		discount_time = {},
 		limit_args = {},
 		effect_args = {
-			102131
+			303092
 		},
 		time = {
 			{

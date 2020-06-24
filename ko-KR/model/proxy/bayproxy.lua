@@ -6,6 +6,7 @@ slot0.SHIP_UPDATED = "ship updated"
 function slot0.register(slot0)
 	slot0:on(12001, function (slot0)
 		uv0.data = {}
+		uv0.activityNpcShipIds = {}
 
 		for slot4, slot5 in ipairs(slot0.shiplist) do
 			slot6 = Ship.New(slot5)
@@ -17,11 +18,17 @@ function slot0.register(slot0)
 			if slot6:getConfigTable() then
 				uv0.data[slot6.id] = slot6
 
+				if slot6:isActivityNpc() then
+					table.insert(uv0.activityNpcShipIds, slot6.id)
+				end
+
 				uv1.recordShipLevelVertify(slot6)
 			else
 				warning("不存在的角色: " .. slot6.id)
 			end
 		end
+
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
 	end)
 	slot0:on(12031, function (slot0)
 		uv0.energyRecoverTime = slot0.energy_auto_increase_time + Ship.ENERGY_RECOVER_TIME
@@ -163,7 +170,10 @@ function slot0.addShip(slot0, slot1, slot2)
 
 	slot0.shipHighestLevel = math.max(slot0.shipHighestLevel, slot1.level)
 
-	if getProxy(CollectionProxy) and not slot1:isActivityNpc() then
+	if slot1:isActivityNpc() then
+		table.insert(slot0.activityNpcShipIds, slot1.id)
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
+	elseif getProxy(CollectionProxy) then
 		slot3:flushCollection(slot1)
 	end
 
@@ -319,7 +329,14 @@ function slot0.getEquipment2ByflagShip(slot0)
 end
 
 function slot0.removeShipById(slot0, slot1)
-	slot2 = slot0.data[slot1]
+	if slot0.data[slot1]:isActivityNpc() then
+		if table.indexof(slot0.activityNpcShipIds, slot2.id) then
+			table.remove(slot0.activityNpcShipIds, slot3)
+		end
+
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
+	end
+
 	slot0.data[slot2.id] = nil
 
 	slot2:display("removed")
@@ -660,125 +677,6 @@ function slot0.getDelegationRecommendShips(slot0, slot1)
 	end
 
 	return slot18
-end
-
-function slot0.fileterShips(slot0, slot1)
-	slot2 = {}
-
-	if defaultValue(slot1.inChapter, false) and getProxy(ChapterProxy):getActiveChapter() then
-		_.each(slot5:getShips(), function (slot0)
-			table.insert(uv0, slot0.id)
-		end)
-	end
-
-	if defaultValue(slot1.inSham, false) and getProxy(ChapterProxy):getShamChapter() and slot6:isOpen() and slot6.active then
-		_.each(slot6:getShips(), function (slot0)
-			table.insert(uv0, slot0.id)
-		end)
-	end
-
-	slot6 = defaultValue(slot1.inPvp, false)
-
-	if defaultValue(slot1.inFleet, false) then
-		for slot12, slot13 in ipairs(getProxy(FleetProxy):getAllShipIds()) do
-			if slot0.data[slot13] and (slot14:getFleetId() ~= FleetProxy.PVP_FLEET_ID or not not slot6) then
-				table.insert(slot2, slot13)
-			end
-		end
-	end
-
-	if defaultValue(slot1.inBackyard, false) then
-		for slot13, slot14 in pairs(getProxy(DormProxy):getBackYardShips()) do
-			table.insert(slot2, slot13)
-		end
-	end
-
-	if defaultValue(slot1.inClass, false) then
-		for slot14, slot15 in ipairs(getProxy(NavalAcademyProxy):GetShipIDs()) do
-			table.insert(slot2, slot15)
-		end
-	end
-
-	if defaultValue(slot1.inTactics, false) then
-		for slot15, slot16 in pairs(getProxy(NavalAcademyProxy):getStudents()) do
-			table.insert(slot2, slot16.shipId)
-		end
-	end
-
-	if defaultValue(slot1.inEvent, false) then
-		for slot16, slot17 in ipairs(getProxy(EventProxy):getActiveShipIds()) do
-			table.insert(slot2, slot17)
-		end
-	end
-
-	if defaultValue(slot1.inAdmiral, false) then
-		for slot16, slot17 in ipairs(getProxy(PlayerProxy):getRawData().characters) do
-			table.insert(slot2, slot17)
-		end
-	end
-
-	if defaultValue(slot1.inExercise, false) then
-		for slot18, slot19 in pairs(getProxy(MilitaryExerciseProxy):getExerciseFleet().vanguardShips) do
-			table.insert(slot2, slot19)
-		end
-
-		for slot18, slot19 in pairs(slot14.mainShips) do
-			table.insert(slot2, slot19)
-		end
-	end
-
-	if defaultValue(slot1.isActivityNpc, false) then
-		for slot17, slot18 in pairs(slot0.data) do
-			if slot18:isActivityNpc() and not table.contains(slot2, slot18.id) then
-				table.insert(slot2, slot18.id)
-			end
-		end
-	end
-
-	return slot2
-end
-
-function slot0.GetBlackBlockShipIDsForFormation(slot0, slot1)
-	slot2 = slot0:fileterShips({
-		inEvent = true
-	})
-	slot6 = slot0.data[slot1.activeShipId]
-	slot8 = getProxy(FleetProxy):getFleetById(slot1.fleetId):getTeamByName(slot1.team)
-
-	for slot12, slot13 in pairs(slot0.data) do
-		for slot17, slot18 in pairs(slot8) do
-			slot19 = slot0.data[slot18]
-
-			if slot6 and slot6:isSameKind(slot13) then
-				-- Nothing
-			elseif slot19:isSameKind(slot13) and slot19.id ~= slot13.id then
-				table.insert(slot2, slot13.id)
-			end
-		end
-	end
-
-	return slot2
-end
-
-function slot0.GetBlackBlockShipIDsForEvent(slot0)
-	return slot0:fileterShips({
-		inSham = true,
-		inChapter = true,
-		inChallenge = true,
-		inEvent = true
-	})
-end
-
-function slot0.GetBlackBlockShipIDsForBackYard(slot0)
-	return slot0:fileterShips({
-		inClass = true
-	})
-end
-
-function slot0.GetBlackBlockShipIDsForClass(slot0)
-	return slot0:fileterShips({
-		inClass = true
-	})
 end
 
 return slot0

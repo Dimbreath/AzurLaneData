@@ -41,8 +41,13 @@ function slot0.execute(slot0, slot1)
 					[id2res(uv1)] = uv2
 				})
 				uv3:updatePlayer(uv0)
-				uv4:AddFurnitrues(uv5)
-				uv6:sendNotification(GAME.BUY_FURNITURE_DONE, uv4:getData(), uv5)
+
+				if pg.furniture_data_template[uv4[1]] and slot2.themeId > 0 then
+					uv5:ResetSystemTheme(slot2.themeId)
+				end
+
+				uv5:AddFurnitrues(uv4)
+				uv6:sendNotification(GAME.BUY_FURNITURE_DONE, uv5:getData(), uv4)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
 			else
 				pg.TipsMgr.GetInstance():ShowTips(errorTip("backyard_buyFurniture_error", slot0.result))

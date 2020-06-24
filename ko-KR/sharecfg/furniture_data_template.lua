@@ -3921,6 +3921,76 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100016] = {
+		advice = 0,
+		describe = "시원한 바람아 좀 더 많이 불어라쥬! ",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "쥬쥬 환풍기",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "fengshanicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 100016,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fengshanB",
+				"normal"
+			},
+			{
+				"fengshanT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				-57.7
+			}
+		},
+		animator = {
+			{
+				"fengshanCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "닿는 곳이 너덜너덜하게 닳은 플로링. 발밑 주의.",
@@ -66589,6 +66659,7 @@ pg.furniture_data_template = {
 		100013,
 		100014,
 		100015,
+		100016,
 		1001,
 		1002,
 		1101,

@@ -7,7 +7,7 @@ slot5 = string
 slot6 = tolua_tag
 slot7 = getmetatable
 slot8 = nil
-slot9 = require("System.Injection.InjectionBridgeInfo")
+slot9 = require("Framework.tolua.System.Injection.InjectionBridgeInfo")
 
 function slot10(slot0)
 	if uv1(uv0(slot0), uv2) ~= 1 then
@@ -76,4 +76,4 @@ function InjectByName(slot0, slot1)
 	end
 end
 
-require("System.Injection.LuaInjectionBus")
+require("Framework.tolua.System.Injection.LuaInjectionBus")

@@ -582,7 +582,7 @@ function slot0.updateProgress(slot0, slot1)
 	setActive(slot0.inactiveBtn, not slot4 or not slot11)
 	setActive(slot0.completedteBtn, false)
 	onButton(slot0, slot0.confirmBtn, function ()
-		slot0, slot1 = Ship.canModifyShip(uv0.shipVO)
+		slot0, slot1 = ShipStatus.ShipStatusCheck("onModify", uv0.shipVO)
 
 		if not slot0 then
 			pg.TipsMgr.GetInstance():ShowTips(slot1)

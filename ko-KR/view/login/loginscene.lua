@@ -656,8 +656,14 @@ end
 function slot0.playOpening(slot0, slot1, slot2, slot3)
 	slot0.onPlayingOP = true
 
+	pg.UIMgr.GetInstance():LoadingOn()
+
 	function slot4()
 		if not uv0.openingTF then
+			return
+		end
+
+		if Time.realtimeSinceStartup < uv0.manaCloseLimit then
 			return
 		end
 
@@ -718,16 +724,14 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 
 	if IsNil(slot0.openingTF) then
 		LoadAndInstantiateAsync("ui", "opening", function (slot0)
-			slot0:SetActive(false)
+			pg.UIMgr.GetInstance():LoadingOff()
 
+			uv0.manaCloseLimit = Time.realtimeSinceStartup + 1
 			uv0.openingTF = slot0
 
 			pg.UIMgr.GetInstance():OverlayPanel(uv0.openingTF.transform)
 
 			uv0.criAni = tf(uv0.openingTF):Find("usm"):GetComponent("CriManaEffectUI")
-
-			setActive(uv0.openingTF, false)
-
 			uv0.openingAni = uv0.openingTF:GetComponent("Animator")
 
 			uv1()

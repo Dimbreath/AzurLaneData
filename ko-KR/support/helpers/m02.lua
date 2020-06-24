@@ -1173,22 +1173,16 @@ function openDestroyEquip()
 end
 
 function openDockyardClear()
-	slot0 = {}
-
-	for slot5, slot6 in pairs(getProxy(BayProxy):getData()) do
-		if slot6:isActivityNpc() and not table.contains(slot0, slot6.id) then
-			table.insert(slot0, slot6.id)
-		end
-	end
-
 	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 		blockLock = true,
 		skipSelect = true,
 		selectedMax = 10,
 		mode = DockyardScene.MODE_DESTROY,
 		leftTopInfo = i18n("word_destroy"),
-		onShip = Ship.canDestroyShip,
-		ignoredIds = slot0
+		onShip = ShipStatus.canDestroyShip,
+		ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
+			isActivityNpc = true
+		})
 	})
 end
 

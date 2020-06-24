@@ -95941,6 +95941,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59979] = {
+		display = "7개 모아 [전사의 마음가짐]을 입수할 수 있다. ",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "역전의 증표 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 8,
+		link_id = 0,
+		id = 59979,
+		icon = "Props/lizhanzhizheng",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[60001] = {
 		display = "0",
 		rarity = 3,
@@ -100018,6 +100036,7 @@ pg.item_data_statistics = {
 		59967,
 		59968,
 		59969,
+		59979,
 		60001,
 		60002,
 		60003,

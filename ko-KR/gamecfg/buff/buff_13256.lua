@@ -7,7 +7,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					rant = 4000,
+					rant = 4500,
 					skill_id = 13256,
 					target = "TargetSelf"
 				}
@@ -166,7 +166,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				rant = 4000,
+				rant = 4500,
 				skill_id = 13256,
 				target = "TargetSelf"
 			}

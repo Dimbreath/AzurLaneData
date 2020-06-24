@@ -506,3 +506,9 @@ function utf8_to_unicode(slot0)
 
 	return slot1, slot4
 end
+
+function existCall(slot0, ...)
+	if slot0 and type(slot0) == "function" then
+		return slot0(...)
+	end
+end

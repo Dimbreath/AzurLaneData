@@ -7,17 +7,21 @@ function slot0.SortForDecorate(slot0, slot1, slot2)
 		if slot0:canPurchaseByGem() and not slot0:canPurchaseByDormMoeny() then
 			return 1
 		elseif slot0:canPurchaseByGem() and slot0:canPurchaseByDormMoeny() then
-			return 2
-		elseif slot0:canPurchaseByDormMoeny() then
 			return 3
-		else
+		elseif slot0:canPurchaseByDormMoeny() then
 			return 4
+		else
+			return 5
 		end
 	end
 
 	function uv0.SortByDefault1(slot0, slot1)
 		if uv0(slot0) == uv0(slot1) then
-			return slot0.id < slot1.id
+			if slot0:getConfig("new") == slot1:getConfig("new") then
+				return slot0.id < slot1.id
+			else
+				return slot4 < slot5
+			end
 		else
 			return slot2 < slot3
 		end
@@ -25,9 +29,13 @@ function slot0.SortForDecorate(slot0, slot1, slot2)
 
 	function uv0.SortByDefault2(slot0, slot1)
 		if uv0(slot0) == uv0(slot1) then
-			return slot1.id < slot0.id
+			if slot0:getConfig("new") == slot1:getConfig("new") then
+				return slot1.id < slot0.id
+			else
+				return slot5 < slot4
+			end
 		else
-			return slot3 < slot2
+			return slot2 < slot3
 		end
 	end
 

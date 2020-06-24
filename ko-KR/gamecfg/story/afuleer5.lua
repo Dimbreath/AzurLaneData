@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "唔…………",
+			say = "우…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

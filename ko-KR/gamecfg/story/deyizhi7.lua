@@ -504,7 +504,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "아니면 뭐야? 하등생물 주제에 변태 같은 거라도 생각하고 있나 보지?",
 			typewriter = {
 				speed = 0.05,

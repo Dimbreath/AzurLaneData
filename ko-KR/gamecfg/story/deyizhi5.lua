@@ -348,7 +348,7 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "이, 하등생물인 하인 따위가……!",
 			typewriter = {

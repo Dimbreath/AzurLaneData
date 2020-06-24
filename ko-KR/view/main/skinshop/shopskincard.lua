@@ -34,6 +34,7 @@ function slot0.update(slot0, slot1)
 	slot0.goodsVO = slot1
 	slot2 = slot1:getSkinId()
 	slot0.shipSkinConfig = uv0[slot2]
+	slot0._icon.sprite = nil
 
 	LoadSpriteAsync("shipYardIcon/" .. uv0[slot2].prefab, function (slot0)
 		if not IsNil(uv0._icon) then

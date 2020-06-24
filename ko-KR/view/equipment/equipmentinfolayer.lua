@@ -130,7 +130,7 @@ function slot0.initAndSetBtn(slot0, slot1)
 		slot0.defaultRevertBtn = slot0:findTF("info/equip/revert_btn", slot0.defaultEquipTF)
 
 		onButton(slot0, slot0.defaultReplaceBtn, function ()
-			slot0, slot1 = Ship.canModifyShip(uv0.shipVO)
+			slot0, slot1 = ShipStatus.ShipStatusCheck("onModify", uv0.shipVO)
 
 			if not slot0 then
 				pg.TipsMgr.GetInstance():ShowTips(slot1)
@@ -142,7 +142,7 @@ function slot0.initAndSetBtn(slot0, slot1)
 		end, SFX_PANEL)
 		onButton(slot0, slot0.defaultEnhanceBtn, function ()
 			if uv0.shipVO then
-				slot0, slot1 = Ship.canModifyShip(uv0.shipVO)
+				slot0, slot1 = ShipStatus.ShipStatusCheck("onModify", uv0.shipVO)
 
 				if not slot0 then
 					pg.TipsMgr.GetInstance():ShowTips(slot1)
@@ -154,7 +154,7 @@ function slot0.initAndSetBtn(slot0, slot1)
 			uv0:emit(EquipmentInfoMediator.ON_INTENSIFY)
 		end, SFX_PANEL)
 		onButton(slot0, slot0.defaultUnloadBtn, function ()
-			slot0, slot1 = Ship.canModifyShip(uv0.shipVO)
+			slot0, slot1 = ShipStatus.ShipStatusCheck("onModify", uv0.shipVO)
 
 			if not slot0 then
 				pg.TipsMgr.GetInstance():ShowTips(slot1)

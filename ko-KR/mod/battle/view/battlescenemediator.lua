@@ -447,14 +447,12 @@ function slot5.AddPlayerCharacter(slot0, slot1)
 
 	slot3 = slot1:GetUnitData():IsMainFleetUnit()
 
-	if slot0._dataProxy:GetInitData().battleType ~= SYSTEM_DUEL then
-		if slot2 == SYSTEM_SHAM then
-			-- Nothing
-		elseif slot2 == SYSTEM_SUBMARINE_RUN or slot2 == SYSTEM_SUB_ROUTINE then
-			slot1:SetBarHidden(false, false)
-		else
-			slot1:SetBarHidden(not slot3, slot3)
-		end
+	if slot0._dataProxy:GetInitData().battleType == SYSTEM_DUEL then
+		-- Nothing
+	elseif slot2 == SYSTEM_SUBMARINE_RUN or slot2 == SYSTEM_SUB_ROUTINE then
+		slot1:SetBarHidden(false, false)
+	else
+		slot1:SetBarHidden(not slot3, slot3)
 	end
 end
 

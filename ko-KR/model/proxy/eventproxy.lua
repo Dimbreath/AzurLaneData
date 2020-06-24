@@ -24,6 +24,7 @@ function slot0.register(slot0)
 
 		uv0.virgin = true
 
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
 		uv0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
 	end)
 
@@ -49,6 +50,7 @@ function slot0.updateInfo(slot0, slot1)
 		table.insert(slot0.eventList, EventInfo.New(slot6))
 	end
 
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
 	slot0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
 end
 
@@ -57,6 +59,7 @@ function slot0.updateNightInfo(slot0, slot1)
 		table.insert(slot0.eventList, EventInfo.New(slot6))
 	end
 
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
 	slot0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
 end
 
@@ -120,6 +123,7 @@ function slot0.updateTime(slot0)
 	end
 
 	if slot1 then
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
 		slot0:sendNotification(GAME.EVENT_LIST_UPDATE)
 	end
 end

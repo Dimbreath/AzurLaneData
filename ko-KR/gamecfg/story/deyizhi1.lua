@@ -81,7 +81,7 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "게다가 너 말야, 하등생물인 하인 주제에 설마 주인을 내팽개치고 혼자서 묵묵히 일이나 하고 있을 줄이야……",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "싫어. 하등생물의 뒤치다꺼리 따위.",
 			typewriter = {
 				speed = 0.05,
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "……흥! 자기 일을 도와달라 주인에게 부탁하다니, 정말 구제불능인 하등생물이구나!",
 			typewriter = {
 				speed = 0.05,

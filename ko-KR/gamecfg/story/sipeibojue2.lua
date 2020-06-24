@@ -404,7 +404,7 @@ return {
 			actor = 403040,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "저런 하등 생물이 뭐 어떻다고.",
 			typewriter = {

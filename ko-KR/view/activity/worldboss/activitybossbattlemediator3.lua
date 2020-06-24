@@ -278,66 +278,23 @@ function slot0.BindEvent(slot0)
 		uv2.viewComponent:updateEditPanel()
 	end)
 	slot0:bind(uv0.ON_OPEN_DOCK, function (slot0, slot1)
-		slot2 = slot1.fleetIndex
 		slot3 = slot1.shipVO
-		slot4 = slot1.fleet
-		slot8 = {}
-		slot9 = {
-			[slot13] = true
-		}
-
-		for slot13, slot14 in pairs(getProxy(BayProxy):getRawData()) do
-			if slot14:getTeamType() ~= slot1.teamType then
-				-- Nothing
-			end
-		end
-
-		for slot13, slot14 in pairs(slot4) do
-			if slot3 and slot14 ~= slot3.id then
-				slot9[slot14] = true
-			end
-		end
-
-		for slot13, slot14 in pairs(slot9) do
-			table.insert(slot8, slot13)
-		end
-
-		slot10, slot11 = nil
-
-		if slot3 == nil then
-			slot10 = false
-			slot11 = nil
-		else
-			slot10 = true
-			slot11 = slot3.id
-		end
-
-		slot13, slot14, slot15 = uv0.getDockCallbackFuncs4ActicityFleet(slot3, slot2, slot5)
+		slot6, slot7, slot8 = uv0.getDockCallbackFuncs4ActicityFleet(slot3, slot1.fleetIndex, slot1.teamType)
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMin = 0,
 			skipSelect = true,
+			useBlackBlock = true,
 			selectedMax = 1,
-			ignoredIds = slot8,
-			activeShipId = slot11,
 			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
-			quitTeam = slot10,
+			quitTeam = slot3 ~= nil,
+			teamFilter = slot5,
 			leftTopInfo = i18n("word_formation"),
-			onShip = slot13,
-			confirmSelect = slot14,
-			onSelected = slot15,
-			flags = {
-				inExercise = false,
-				inChapter = false,
-				inPvp = false,
-				inFleet = false,
-				inClass = false,
-				inTactics = false,
-				inBackyard = false,
-				inSham = false,
-				inEvent = true,
-				inAdmiral = false
-			}
+			onShip = slot6,
+			confirmSelect = slot7,
+			onSelected = slot8,
+			hideTagFlags = ShipStatus.TAG_HIDE_ACTIVITY_BOSS,
+			otherSelectedIds = slot1.fleet
 		})
 	end)
 	slot0:bind(uv0.ON_FLEET_SHIPINFO, function (slot0, slot1)
@@ -527,21 +484,17 @@ function slot0.getDockCallbackFuncs4ActicityFleet(slot0, slot1, slot2)
 	slot8 = getProxy(FleetProxy):getActivityFleets()[getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2).id][slot1]
 
 	return function (slot0, slot1)
-		slot2, slot3 = Ship.ShipStateConflict("inActivity", slot0)
+		slot2, slot3 = ShipStatus.ShipStatusCheck("inActivity", slot0, slot1, {
+			inActivity = uv0.id
+		})
 
-		if slot2 == Ship.STATE_CHANGE_FAIL then
-			return false, i18n(slot3)
-		elseif slot2 == Ship.STATE_CHANGE_CHECK then
-			return Ship.ChangeStateCheckBox(slot3, slot0, slot1)
-		end
-
-		if uv0 and uv0:isSameKind(slot0) then
-			return true
+		if not slot2 then
+			return slot2, slot3
 		end
 
 		for slot7, slot8 in ipairs(uv1.ships) do
 			if slot0:isSameKind(uv2:getShipById(slot8)) then
-				return false, i18n("event_same_type_not_allowed")
+				return false, i18n("ship_formationMediator_changeNameError_sameShip")
 			end
 		end
 

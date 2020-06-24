@@ -1,101 +1,529 @@
 slot0 = class("ShipStatus")
+slot0.flagList = {
+	"inChapter",
+	"inFleet",
+	"inElite",
+	"inActivity",
+	"inPvP",
+	"inExercise",
+	"inEvent",
+	"inClass",
+	"inTactics",
+	"inBackyard",
+	"inAdmiral",
+	"inWorld",
+	"isActivityNpc"
+}
 
-function slot0.ShipStatu2Bg(slot0)
-	if slot0.inChapter or slot0.inElite or slot0.shamInFleet or slot0.inSham or slot0.inFleet or slot0.inWorld or slot0.inActivity or slot0.inChallenge then
-		return "red"
-	elseif slot0.inEvent then
-		return "green"
-	elseif slot0.inTactics or slot0.inClass then
-		return "blue"
-	elseif slot0.inBackyard then
-		return "purple"
-	elseif slot0.inAdmiral then
-		return "light_green"
+function slot0.checkShipFlag(slot0, slot1, slot2)
+	if type(defaultValue(slot1[slot2], uv0.TAG_HIDE_BASE[slot2])) == "boolean" then
+		return not slot3 and slot0:getFlag(slot2)
+	elseif type(slot3) == "number" then
+		return slot0:getFlag(slot2, slot3)
 	end
 end
 
-function slot0.ShipStatu2Name(slot0)
-	slot1 = ""
-
-	if slot0.inChapter then
-		slot1 = i18n("word_status_inFight")
-	elseif slot0.inElite then
-		slot1 = i18n("word_status_inFight")
-	elseif slot0.inActivity then
-		slot1 = i18n("word_status_challenge")
-	elseif slot0.inChallenge then
-		slot1 = i18n("word_status_challenge")
-	elseif slot0.shamInFleet or slot0.inSham then
-		slot1 = i18n("word_status_inFight")
-	elseif slot0.inFleet then
-		slot1 = slot0:getFleetId() == FleetProxy.PVP_FLEET_ID and i18n("word_status_inPVP") or i18n("word_status_inFight")
-	elseif slot0.inEvent then
-		slot1 = i18n("word_status_inEvent")
-	elseif slot0.inEventFinished then
-		slot1 = i18n("word_status_inEventFinished")
-	elseif slot0.inTactics then
-		slot1 = i18n("word_status_inTactics")
-	elseif slot0.inClass then
-		slot1 = i18n("word_status_inClass")
-	elseif slot0.inBackyard then
-		if slot0.state == Ship.STATE_REST then
-			slot1 = i18n("word_status_rest")
-		elseif slot0.state == Ship.STATE_TRAIN then
-			slot1 = i18n("word_status_train")
+function slot0.ShipStatusToTag(slot0, slot1)
+	if uv0.checkShipFlag(slot0, slot1, "inChapter") then
+		return {
+			"shipstatus",
+			"red",
+			i18n("word_status_inFight")
+		}
+	elseif uv0.checkShipFlag(slot0, slot1, "inElite") then
+		return {
+			"shipstatus",
+			"red",
+			i18n("word_status_inFight")
+		}
+	elseif uv0.checkShipFlag(slot0, slot1, "inFleet") then
+		if math.fmod(slot0:getFleetId(), 10) >= 1 and slot2 <= 6 then
+			return {
+				"ui/dockyardui_atlas",
+				"biandui0" .. slot2,
+				""
+			}
+		else
+			return {
+				"shipstatus",
+				"red",
+				Fleet.DEFAULT_NAME_FOR_DOCKYARD[slot0:getFleetId()]
+			}
 		end
-	elseif slot0.inAdmiral then
-		slot1 = i18n("common_flag_ship")
+	elseif uv0.checkShipFlag(slot0, slot1, "inActivity") then
+		return {
+			"shipstatus",
+			"red",
+			i18n("word_status_challenge")
+		}
+	elseif uv0.checkShipFlag(slot0, slot1, "inPvP") then
+		return {
+			"shipstatus",
+			"red",
+			i18n("word_status_inPVP")
+		}
+	elseif uv0.checkShipFlag(slot0, slot1, "inEvent") then
+		return {
+			"shipstatus",
+			"green",
+			i18n("word_status_inEvent")
+		}
+	elseif uv0.checkShipFlag(slot0, slot1, "inBackyard") then
+		if slot0.state == Ship.STATE_REST then
+			return {
+				"shipstatus",
+				"purple",
+				i18n("word_status_rest")
+			}
+		elseif slot0.state == Ship.STATE_TRAIN then
+			return {
+				"shipstatus",
+				"purple",
+				i18n("word_status_train")
+			}
+		end
+	elseif uv0.checkShipFlag(slot0, slot1, "inClass") then
+		return {
+			"shipstatus",
+			"blue",
+			i18n("word_status_inClass")
+		}
+	elseif uv0.checkShipFlag(slot0, slot1, "inTactics") then
+		return {
+			"shipstatus",
+			"blue",
+			i18n("word_status_inTactics")
+		}
+	elseif uv0.checkShipFlag(slot0, slot1, "inAdmiral") then
+		return {
+			"shipstatus",
+			"light_green",
+			i18n("common_flag_ship")
+		}
+	elseif uv0.checkShipFlag(slot0, slot1, "inWorld") then
+		return {
+			"shipstatus",
+			"red",
+			""
+		}
 	end
-
-	return slot1
 end
 
 slot0.FILTER_SHIPS_FLAGS_1 = {
 	inExercise = false,
 	inChapter = true,
-	inPvp = false,
+	inPvP = false,
 	inFleet = false,
 	inClass = true,
-	inChallenge = true,
+	inActivity = true,
 	inTactics = false,
 	inElite = true,
-	inSham = true,
-	inEvent = true,
 	inBackyard = false,
+	inEvent = true,
 	isActivityNpc = true,
-	isActivity = true,
 	inAdmiral = true
 }
 slot0.FILTER_SHIPS_FLAGS_2 = {
 	inExercise = true,
 	inChapter = true,
-	inPvp = true,
+	inPvP = true,
 	inFleet = true,
 	inClass = true,
-	inChallenge = true,
+	inActivity = true,
 	inTactics = true,
 	inElite = true,
-	inSham = true,
-	inEvent = true,
 	inBackyard = true,
+	inEvent = true,
 	isActivityNpc = true,
 	inAdmiral = true
 }
 slot0.FILTER_SHIPS_FLAGS_3 = {
 	inExercise = false,
 	inChapter = true,
-	inPvp = false,
+	inPvP = false,
 	inFleet = false,
 	inClass = true,
-	inChallenge = true,
+	inActivity = true,
 	inTactics = false,
 	inElite = true,
-	inSham = true,
-	inEvent = true,
 	inBackyard = false,
+	inEvent = true,
 	isActivityNpc = true,
-	isActivity = true,
 	inAdmiral = false
 }
+slot0.TAG_HIDE_ALL = {
+	inExercise = true,
+	inChapter = true,
+	inPvP = true,
+	inFleet = true,
+	inClass = true,
+	inActivity = true,
+	inTactics = true,
+	inElite = true,
+	inBackyard = true,
+	inEvent = true,
+	isActivityNpc = true,
+	inWorld = true,
+	inAdmiral = true
+}
+slot0.TAG_HIDE_BASE = {
+	inExercise = true,
+	inChapter = false,
+	inPvP = false,
+	inFleet = false,
+	inClass = false,
+	inActivity = false,
+	inTactics = false,
+	inElite = true,
+	inBackyard = false,
+	inEvent = false,
+	isActivityNpc = false,
+	inWorld = true,
+	inAdmiral = false
+}
+slot0.TAG_HIDE_ACTIVITY_BOSS = {
+	inPvP = true,
+	inChapter = true,
+	inAdmiral = true,
+	inFleet = true,
+	inClass = true,
+	inTactics = true,
+	inBackyard = true
+}
+slot0.TAG_HIDE_BACKYARD = {
+	inExercise = false,
+	inChapter = true,
+	inEvent = true,
+	inPvP = true,
+	inActivity = true,
+	inTactics = true
+}
+slot0.TAG_HIDE_PVP = {
+	inExercise = false,
+	inChapter = true,
+	inClass = true,
+	inFleet = true,
+	inPvP = true,
+	inActivity = true,
+	inTactics = true,
+	inBackyard = true
+}
+slot0.TAG_HIDE_DEFENSE = {
+	inExercise = false,
+	inChapter = true,
+	inPvP = true,
+	inFleet = true,
+	inClass = true,
+	inActivity = true,
+	inTactics = true,
+	inBackyard = true,
+	inEvent = true
+}
+slot0.TAG_HIDE_LEVEL = {
+	inAdmiral = true,
+	inFleet = true,
+	inClass = true,
+	inActivity = true,
+	inTactics = true,
+	inBackyard = true
+}
+slot0.TAG_HIDE_NORMAL = {
+	inExercise = false,
+	inPvP = true,
+	inClass = true,
+	inActivity = true,
+	inTactics = true,
+	inBackyard = true
+}
+slot0.TAG_HIDE_CHALLENGE = {
+	inAdmiral = true,
+	inFleet = true,
+	inClass = true,
+	inActivity = true,
+	inTactics = true,
+	inBackyard = true
+}
+slot0.TAG_HIDE_EVENT = {
+	inExercise = false,
+	inClass = true,
+	inActivity = true,
+	inTactics = true,
+	inBackyard = true
+}
+slot0.TAG_HIDE_TACTICES = {
+	inExercise = false,
+	inChapter = true,
+	inPvP = true,
+	inFleet = true,
+	inClass = true,
+	inActivity = true,
+	inTactics = true,
+	inBackyard = true,
+	inEvent = true
+}
+slot0.TAG_HIDE_ADMIRAL = {
+	inExercise = false,
+	inChapter = true,
+	inPvP = true,
+	inFleet = true,
+	inClass = true,
+	inActivity = true,
+	inTactics = true,
+	inBackyard = true,
+	inEvent = true
+}
+slot0.TAG_HIDE_FORMATION = {
+	inExercise = false,
+	inPvP = true,
+	inClass = true,
+	inActivity = true,
+	inTactics = true,
+	inBackyard = true
+}
+slot0.TAG_BLOCK_EVENT = {
+	inEvent = true
+}
+slot0.TAG_BLOCK_PVP = {
+	inEvent = true
+}
+slot0.TAG_BLOCK_BACKYARD = {
+	inClass = true
+}
+slot0.STATE_CHANGE_OK = 0
+slot0.STATE_CHANGE_CHECK = 1
+slot0.STATE_CHANGE_FAIL = 2
+slot1 = {
+	inFleet = {
+		inEvent = 2
+	},
+	inElite = {
+		inElite = 2,
+		inEvent = 2
+	},
+	inActivity = {
+		inActivity = 2,
+		inEvent = 2,
+		inWorld = 2
+	},
+	inEvent = {
+		inEvent = 2,
+		inChapter = 2,
+		inFleet = 1,
+		inPvP = 1,
+		inWorld = 2
+	},
+	inClass = {
+		inClass = 2,
+		inBackyard = 1
+	},
+	inTactics = {
+		inTactics = 2
+	},
+	inBackyard = {
+		inClass = 2
+	},
+	onPropose = {
+		inEvent = 2,
+		inChapter = 2
+	},
+	onModify = {
+		inChapter = 2
+	},
+	onDestroy = {
+		inExercise = 1,
+		inChapter = 2,
+		inPvP = 1,
+		inFleet = 1,
+		inClass = 2,
+		inActivity = 2,
+		inTactics = 1,
+		inBackyard = 1,
+		inEvent = 2,
+		inWorld = 2,
+		inAdmiral = 2
+	}
+}
+slot2 = {
+	inChapter = {
+		tips_block = "word_shipState_fight"
+	},
+	inFleet = {
+		tips_block = "word_shipState_fight"
+	},
+	inElite = {
+		tips_block = "word_shipState_fight"
+	},
+	inActivity = {
+		tips_block = "word_shipState_fight"
+	},
+	inPvP = {
+		tips_block = "word_shipState_fight"
+	},
+	inExercise = {
+		tips_block = "word_shipState_fight"
+	},
+	inEvent = {
+		tips_block = "word_shipState_event"
+	},
+	inClass = {
+		tips_block = "word_shipState_study"
+	},
+	inTactics = {
+		tips_block = "word_shipState_tactics"
+	},
+	inBackyard = {
+		tips_block = "word_shipState_rest"
+	},
+	inAdmiral = {
+		tips_block = "playerinfo_ship_is_already_flagship"
+	}
+}
+
+function slot0.ShipStatusCheck(slot0, slot1, slot2, slot3)
+	slot4, slot5 = uv0.ShipStatusConflict(slot0, slot1, slot3)
+
+	if slot4 == ShipStatus.STATE_CHANGE_FAIL then
+		return false, i18n(slot5)
+	elseif slot4 == ShipStatus.STATE_CHANGE_CHECK then
+		return ShipStatus.ChangeStatusCheckBox(slot5, slot1, slot2)
+	else
+		return true
+	end
+end
+
+function slot0.ShipStatusConflict(slot0, slot1, slot2)
+	slot3 = uv0[slot0]
+
+	for slot7, slot8 in ipairs(uv1.flagList) do
+		if slot3[slot8] and slot1:getFlag(slot8, (slot2 or {})[slot8]) then
+			if slot3[slot8] == uv1.STATE_CHANGE_FAIL then
+				return uv1.STATE_CHANGE_FAIL, uv2[slot8].tips_block
+			elseif slot9 == uv1.STATE_CHANGE_CHECK then
+				return uv1.STATE_CHANGE_CHECK, slot8
+			end
+		end
+	end
+
+	return uv1.STATE_CHANGE_OK
+end
+
+function slot0.ChangeStatusCheckBox(slot0, slot1, slot2)
+	if slot0 == "inBackyard" then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("ship_vo_moveout_backyard"),
+			onYes = function ()
+				pg.m02:sendNotification(GAME.EXIT_SHIP, {
+					callback = uv0,
+					shipId = uv1.id
+				})
+			end
+		})
+
+		return false, nil
+	elseif slot0 == "inFleet" then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("ship_vo_moveout_formation"),
+			onYes = function ()
+				if getProxy(FleetProxy):getFleetByShip(uv0):isFirstFleet() then
+					slot2, slot3 = slot1:canRemoveByShipId(uv0.id)
+
+					if not slot2 then
+						if slot3 == TeamType.Vanguard then
+							pg.TipsMgr.GetInstance():ShowTips(i18n("ship_vo_vanguardFleet_must_hasShip"))
+						elseif slot3 == TeamType.Main then
+							pg.TipsMgr.GetInstance():ShowTips(i18n("ship_vo_mainFleet_must_hasShip"))
+						end
+
+						return
+					end
+				end
+
+				slot1:removeShip(uv0)
+				pg.m02:sendNotification(GAME.UPDATE_FLEET, {
+					callback = uv1,
+					fleet = slot1
+				})
+			end
+		})
+
+		return false, nil
+	elseif slot0 == "inPvP" then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("ship_vo_moveout_formation"),
+			onYes = function ()
+				slot2, slot3 = getProxy(FleetProxy):getFleetByShip(uv0):canRemoveByShipId(uv0.id)
+
+				if not slot2 then
+					if slot3 == TeamType.Vanguard then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("ship_vo_vanguardFleet_must_hasShip"))
+					elseif slot3 == TeamType.Main then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("ship_vo_mainFleet_must_hasShip"))
+					end
+				else
+					slot1:removeShip(uv0)
+					pg.m02:sendNotification(GAME.UPDATE_FLEET, {
+						callback = uv1,
+						fleet = slot1
+					})
+				end
+			end
+		})
+
+		return false, nil
+	elseif slot0 == "inExercise" then
+		slot5, slot6 = getProxy(MilitaryExerciseProxy):getExerciseFleet():canRemoveByShipId(slot1.id)
+
+		if not slot5 then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("exercise_clear_fleet_tip"),
+				onYes = function ()
+					uv0:removeShip(uv1)
+					pg.m02:sendNotification(GAME.UPDATE_EXERCISE_FLEET, {
+						fleet = uv0,
+						callback = uv2
+					})
+				end
+			})
+		else
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("exercise_fleet_exit_tip"),
+				onYes = function ()
+					uv0:removeShip(uv1)
+					pg.m02:sendNotification(GAME.UPDATE_EXERCISE_FLEET, {
+						fleet = uv0,
+						callback = uv2
+					})
+				end
+			})
+		end
+
+		return false, nil
+	elseif slot0 == "inTactics" then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("tactics_lesson_cancel"),
+			onYes = function ()
+				pg.m02:sendNotification(GAME.CANCEL_LEARN_TACTICS, {
+					callback = uv1,
+					shipId = getProxy(NavalAcademyProxy):getStudentIdByShipId(uv0.id),
+					type = Student.CANCEL_TYPE_MANUAL
+				})
+			end
+		})
+
+		return false, nil
+	end
+
+	return true
+end
+
+function slot0.canDestroyShip(slot0, slot1)
+	if slot0:isBluePrintShip() then
+		return false, i18n("blueprint_destory_tip")
+	elseif slot0:GetLockState() == Ship.LOCK_STATE_LOCK then
+		return false, i18n("ship_vo_locked")
+	end
+
+	return uv0.ShipStatusCheck("onDestroy", slot0, slot1)
+end
 
 return slot0

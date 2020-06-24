@@ -17,7 +17,6 @@ function slot0.init(slot0)
 	slot0.championTws = {}
 	slot0.tweens = {}
 	slot0.markQuads = {}
-	slot0.rivals = {}
 	slot0.pools = {}
 	slot0.edgePools = {}
 	slot0.poolParent = GameObject.Find("__Pool__")
@@ -37,19 +36,6 @@ function slot0.init(slot0)
 	slot0.walls = {}
 	slot0.material_Add = LoadAny("ui/commonUI_atlas", "add", typeof(Material))
 	slot0.loader = AutoLoader.New()
-end
-
-function slot0.setItems(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12, slot13, slot14, slot15)
-	slot0.shipTpl = slot1
-	slot0.subTpl = slot2
-	slot0.transportTpl = slot3
-	slot0.enemyTpl = slot5
-	slot0.deadTpl = slot6
-	slot0.rivalTpl = slot9
-	slot0.championTpl = slot10
-	slot0.spineTpl = slot11
-	slot0.oniTpl = slot12
-	slot0.arrowTpl = slot15
 end
 
 function slot0.ExtendItem(slot0, slot1, slot2)
@@ -598,24 +584,23 @@ function slot0.RefreshFleetCells(slot0)
 		return
 	end
 
-	slot2 = slot0.contextData.chapterVO:getDataType()
-	slot3 = {}
+	slot2 = {}
 
-	for slot7, slot8 in pairs(slot0.cellFleets) do
-		if not slot1:getFleetById(slot7) then
-			table.insert(slot3, slot7)
+	for slot6, slot7 in pairs(slot0.cellFleets) do
+		if not slot0.contextData.chapterVO:getFleetById(slot6) then
+			table.insert(slot2, slot6)
 		end
 	end
 
-	for slot7, slot8 in pairs(slot3) do
-		slot0:ClearFleetCell(slot8)
+	for slot6, slot7 in pairs(slot2) do
+		slot0:ClearFleetCell(slot7)
 	end
 
-	for slot7, slot8 in pairs(slot1.fleets) do
-		if not slot0.cellFleets[slot8.id] then
-			slot0:InitFleetCell(slot8.id)
+	for slot6, slot7 in pairs(slot1.fleets) do
+		if not slot0.cellFleets[slot7.id] then
+			slot0:InitFleetCell(slot7.id)
 		else
-			slot0:RefreshFleetCell(slot8.id)
+			slot0:RefreshFleetCell(slot7.id)
 		end
 	end
 end
@@ -692,31 +677,29 @@ function slot0.updateFleets(slot0)
 end
 
 function slot0.updateFleet(slot0, slot1)
-	slot2 = slot0.contextData.chapterVO
-	slot3 = slot2:getDataType()
-	slot5 = slot2:getFleetById(slot1)
+	slot4 = slot0.contextData.chapterVO:getFleetById(slot1)
 
 	if slot0.cellFleets[slot1] then
-		slot6 = slot5.line
+		slot5 = slot4.line
 
-		setActive(slot4.go, slot5:isValid())
+		setActive(slot3.go, slot4:isValid())
 
-		if slot5:getFleetType() == FleetType.Normal then
-			slot9, slot10 = slot2:existEnemy(ChapterConst.SubjectPlayer, slot6.row, slot6.column)
-			slot11 = slot2:existFleet(FleetType.Transport, slot6.row, slot6.column)
+		if slot4:getFleetType() == FleetType.Normal then
+			slot8, slot9 = slot2:existEnemy(ChapterConst.SubjectPlayer, slot5.row, slot5.column)
+			slot10 = slot2:existFleet(FleetType.Transport, slot5.row, slot5.column)
 
-			setActive(slot4.tfShadow, not slot9 and not slot11)
-			slot4:SetSpineVisible(not slot9 and not slot11)
-			setActive(slot4.tfArrow, table.indexof(slot2.fleets, slot5) == slot2.findex)
-			setActive(slot4.tfOp, false)
+			setActive(slot3.tfShadow, not slot8 and not slot10)
+			slot3:SetSpineVisible(not slot8 and not slot10)
+			setActive(slot3.tfArrow, table.indexof(slot2.fleets, slot4) == slot2.findex)
+			setActive(slot3.tfOp, false)
 
 			if not slot0.opBtns[slot1] then
-				slot13 = tf(Instantiate(slot4.tfOp))
-				slot13.name = "op" .. slot1
+				slot12 = tf(Instantiate(slot3.tfOp))
+				slot12.name = "op" .. slot1
 
-				slot13:SetParent(slot0._tf, false)
+				slot12:SetParent(slot0._tf, false)
 
-				slot13.localEulerAngles = Vector3(-slot2.theme.angle, 0, 0)
+				slot12.localEulerAngles = Vector3(-slot2.theme.angle, 0, 0)
 
 				onNextTick(function ()
 					slot0 = GetOrAddComponent(go(uv0), typeof(Canvas))
@@ -726,29 +709,29 @@ function slot0.updateFleet(slot0, slot1)
 					GetOrAddComponent(go(uv0), typeof(GraphicRaycaster))
 				end)
 
-				slot0.opBtns[slot1] = slot13
+				slot0.opBtns[slot1] = slot12
 			end
 
-			setActive(slot13, true)
+			setActive(slot12, true)
 
-			slot13.position = slot4.tfOp.position
-			slot14 = slot9 and slot10 == ChapterConst.AttachBoss
-			slot15 = false
+			slot12.position = slot3.tfOp.position
+			slot13 = slot8 and slot9 == ChapterConst.AttachBoss
+			slot14 = false
 
-			if slot9 and slot10 == ChapterConst.AttachChampion and pg.expedition_data_template[slot2:getChampion(slot6.row, slot6.column):GetLastID()] then
-				slot15 = slot18.ai == 6
+			if slot8 and slot9 == ChapterConst.AttachChampion and pg.expedition_data_template[slot2:getChampion(slot5.row, slot5.column):GetLastID()] then
+				slot14 = slot17.ai == 6
 			end
 
-			slot14 = slot14 or slot15
+			slot13 = slot13 or slot14
 
-			setActive(slot13:Find("retreat"):Find("retreat"), slot12 and slot7 and not slot0.subTeleportMode and slot9 and not slot14 and _.any(slot2.fleets, function (slot0)
+			setActive(slot12:Find("retreat"):Find("retreat"), slot11 and slot6 and not slot0.subTeleportMode and slot8 and not slot13 and _.any(slot2.fleets, function (slot0)
 				return slot0.id ~= uv0.id and slot0:getFleetType() == FleetType.Normal and slot0:isValid()
 			end))
-			setActive(slot17:Find("escape"), slot12 and slot7 and not slot0.subTeleportMode and slot14)
-			setActive(slot17, slot17:Find("retreat").gameObject.activeSelf or slot17:Find("escape").gameObject.activeSelf)
+			setActive(slot16:Find("escape"), slot11 and slot6 and not slot0.subTeleportMode and slot13)
+			setActive(slot16, slot16:Find("retreat").gameObject.activeSelf or slot16:Find("escape").gameObject.activeSelf)
 
-			if slot17.gameObject.activeSelf then
-				onButton(slot0, slot17, function ()
+			if slot16.gameObject.activeSelf then
+				onButton(slot0, slot16, function ()
 					if uv0.parent:isfrozen() or uv0.subTeleportMode then
 						return
 					end
@@ -804,42 +787,40 @@ function slot0.updateFleet(slot0, slot1)
 				end, SFX_UI_WEIGHANCHOR_WITHDRAW)
 			end
 
-			setActive(slot13:Find("exchange"), false)
-			setActive(slot4.tfAmmo, slot3 == ChapterConst.TypeNone and not slot11)
+			setActive(slot12:Find("exchange"), false)
+			setActive(slot3.tfAmmo, not slot10)
 
-			if slot3 == ChapterConst.TypeNone then
-				slot19, slot20 = slot2:getFleetAmmo(slot5)
+			slot18, slot19 = slot2:getFleetAmmo(slot4)
 
-				if slot20 == 0 then
-					slot21 = setColorStr(slot20 .. "/" .. slot19, COLOR_RED)
-				end
-
-				setText(slot4.tfAmmoText, slot21)
+			if slot19 == 0 then
+				slot20 = setColorStr(slot19 .. "/" .. slot18, COLOR_RED)
 			end
 
-			if slot9 or slot11 then
-				if slot9 and slot10 == ChapterConst.AttachChampion and slot2:getChampion(slot6.row, slot6.column):getPoolType() == "common" then
-					slot4.tfArrow.anchoredPosition = Vector2(0, 180)
-					slot4.tfAmmo.anchoredPosition = Vector2(60, 100)
+			setText(slot3.tfAmmoText, slot20)
+
+			if slot8 or slot10 then
+				if slot8 and slot9 == ChapterConst.AttachChampion and slot2:getChampion(slot5.row, slot5.column):getPoolType() == "common" then
+					slot3.tfArrow.anchoredPosition = Vector2(0, 180)
+					slot3.tfAmmo.anchoredPosition = Vector2(60, 100)
 				else
-					slot4.tfArrow.anchoredPosition = Vector2(0, 100)
-					slot4.tfAmmo.anchoredPosition = Vector2(22, 56)
+					slot3.tfArrow.anchoredPosition = Vector2(0, 100)
+					slot3.tfAmmo.anchoredPosition = Vector2(22, 56)
 				end
 
-				slot4.tfAmmo:SetAsLastSibling()
+				slot3.tfAmmo:SetAsLastSibling()
 			else
-				slot4.tfArrow.anchoredPosition = Vector2(0, 175)
-				slot4.tfAmmo.anchoredPosition = Vector2(-60, 85)
+				slot3.tfArrow.anchoredPosition = Vector2(0, 175)
+				slot3.tfAmmo.anchoredPosition = Vector2(-60, 85)
 			end
 
-			if not IsNil(slot4:getModel()) and slot12 and slot0.lastSelectedId ~= slot5.id then
-				if not slot9 and not slot11 and slot0.lastSelectedId ~= -1 then
+			if not IsNil(slot3:getModel()) and slot11 and slot0.lastSelectedId ~= slot4.id then
+				if not slot8 and not slot10 and slot0.lastSelectedId ~= -1 then
 					slot0:frozen()
 
-					slot21 = slot19:GetComponent("SkeletonGraphic").material
-					slot23 = Material.New(Shader.Find("Spine/SkeletonGraphic (Additive)"))
+					slot23 = slot21:GetComponent("SkeletonGraphic").material
+					slot25 = Material.New(Shader.Find("Spine/SkeletonGraphic (Additive)"))
 
-					LeanTween.value(slot19, 0, 1, 0.2):setEase(LeanTweenType.easeInOutSine):setLoopPingPong(2):setOnUpdate(System.Action_float(function (slot0)
+					LeanTween.value(slot21, 0, 1, 0.2):setEase(LeanTweenType.easeInOutSine):setLoopPingPong(2):setOnUpdate(System.Action_float(function (slot0)
 						uv0:SetColor("_Color", Color.Lerp(Color.New(0, 0, 0, 0), Color.New(0.5, 0.5, 0.5, 0), slot0))
 
 						uv1.material = uv0
@@ -850,34 +831,34 @@ function slot0.updateFleet(slot0, slot1)
 					end))
 				end
 
-				slot0.lastSelectedId = slot5.id
+				slot0.lastSelectedId = slot4.id
 			end
-		elseif slot8 == FleetType.Submarine then
-			slot9 = slot2:existEnemy(ChapterConst.SubjectPlayer, slot6.row, slot6.column) or slot2:existAlly(slot5)
+		elseif slot7 == FleetType.Submarine then
+			slot8 = slot2:existEnemy(ChapterConst.SubjectPlayer, slot5.row, slot5.column) or slot2:existAlly(slot4)
 
-			slot4:SetActiveModel(not slot9)
-			setActive(slot4.tfAmmo, not slot9 and slot3 == ChapterConst.TypeNone)
+			slot3:SetActiveModel(not slot8)
+			setActive(slot3.tfAmmo, not slot8)
 
-			slot10, slot11 = slot2:getFleetAmmo(slot5)
+			slot9, slot10 = slot2:getFleetAmmo(slot4)
 
-			if slot11 == 0 then
-				slot12 = setColorStr(slot11 .. "/" .. slot10, COLOR_RED)
+			if slot10 == 0 then
+				slot11 = setColorStr(slot10 .. "/" .. slot9, COLOR_RED)
 			end
 
-			setText(slot4.tfAmmoText, slot12)
-		elseif slot8 == FleetType.Transport then
-			setText(slot4.tfHpText, slot5:getRestHp() .. "/" .. slot5:getTotalHp())
-			GetImageSpriteFromAtlasAsync("enemies/" .. slot5:getPrefab(), "", slot4.tfIcon, true)
-			setActive(slot4.tfFighting, slot2:existEnemy(ChapterConst.SubjectPlayer, slot6.row, slot6.column))
+			setText(slot3.tfAmmoText, slot11)
+		elseif slot7 == FleetType.Transport then
+			setText(slot3.tfHpText, slot4:getRestHp() .. "/" .. slot4:getTotalHp())
+			GetImageSpriteFromAtlasAsync("enemies/" .. slot4:getPrefab(), "", slot3.tfIcon, true)
+			setActive(slot3.tfFighting, slot2:existEnemy(ChapterConst.SubjectPlayer, slot5.row, slot5.column))
 		end
 
-		slot4.tf.localPosition = slot2.theme:GetLinePosition(slot6.row, slot6.column)
+		slot3.tf.localPosition = slot2.theme:GetLinePosition(slot5.row, slot5.column)
 
-		slot4:SetLine({
-			row = slot6.row,
-			column = slot6.column
+		slot3:SetLine({
+			row = slot5.row,
+			column = slot5.column
 		})
-		slot4:ResetCanvasOrder()
+		slot3:ResetCanvasOrder()
 	end
 end
 
@@ -968,48 +949,46 @@ function slot0.initChampions(slot0)
 	end
 
 	slot0.cellChampions = {}
-	slot1 = slot0.contextData.chapterVO
-	slot2 = slot1:getDataType()
 
-	for slot6, slot7 in ipairs(slot1.champions) do
-		slot0.cellChampions[slot6] = false
+	for slot5, slot6 in ipairs(slot0.contextData.chapterVO.champions) do
+		slot0.cellChampions[slot5] = false
 
-		if slot7.flag ~= 1 then
-			slot10 = slot0:getChampionPool(slot7:getPoolType()):Dequeue()
-			slot10.name = "cell_champion_" .. slot7:getPrefab()
-			slot10.transform.localEulerAngles = Vector3(-slot1.theme.angle, 0, 0)
+		if slot6.flag ~= 1 then
+			slot9 = slot0:getChampionPool(slot6:getPoolType()):Dequeue()
+			slot9.name = "cell_champion_" .. slot6:getPrefab()
+			slot9.transform.localEulerAngles = Vector3(-slot1.theme.angle, 0, 0)
 
-			setParent(slot10, slot0.cellRoot, false)
-			setActive(slot10, true)
+			setParent(slot9, slot0.cellRoot, false)
+			setActive(slot9, true)
 
-			if slot7.attachment == ChapterConst.AttachOni then
-				slot0.cellChampions[slot6] = OniCellView.New(slot10)
-			elseif slot8 == "common" then
-				slot0.cellChampions[slot6] = ChampionCellView.New(slot10)
+			if slot6.attachment == ChapterConst.AttachOni then
+				slot0.cellChampions[slot5] = OniCellView.New(slot9)
+			elseif slot7 == "common" then
+				slot0.cellChampions[slot5] = ChampionCellView.New(slot9)
 			else
-				slot0.cellChampions[slot6] = EggCellView.New(slot10)
+				slot0.cellChampions[slot5] = EggCellView.New(slot9)
 			end
 
-			slot11 = slot0.cellChampions[slot6]
-			slot11.poolType = slot8
+			slot10 = slot0.cellChampions[slot5]
+			slot10.poolType = slot7
 
-			slot11:SetLine({
-				row = slot7.row,
-				column = slot7.column
+			slot10:SetLine({
+				row = slot6.row,
+				column = slot6.column
 			})
-			slot11:setPrefab(slot7:getPrefab())
-			slot11:setAction(ChapterConst.ShipIdleAction)
-			slot11:ResetCanvasOrder()
+			slot10:setPrefab(slot6:getPrefab())
+			slot10:setAction(ChapterConst.ShipIdleAction)
+			slot10:ResetCanvasOrder()
 
-			if slot8 == "enemy" then
-				slot11:setLevel(slot7:getConfig("level"))
-				slot11:setEnemyType(slot7:getConfig("type"))
-			elseif slot8 == "common" and slot7.flag == 5 then
-				slot11:setAction(ChapterConst.ShipSwimAction)
+			if slot7 == "enemy" then
+				slot10:setLevel(slot6:getConfig("level"))
+				slot10:setEnemyType(slot6:getConfig("type"))
+			elseif slot7 == "common" and slot6.flag == 5 then
+				slot10:setAction(ChapterConst.ShipSwimAction)
 			end
 
-			slot11:SetExtraEffect(slot7:getConfig("effect_prefab"))
-			slot11:loadSpine(function ()
+			slot10:SetExtraEffect(slot6:getConfig("effect_prefab"))
+			slot10:loadSpine(function ()
 				uv0:getModel().transform.localRotation = uv1.rotation
 
 				if uv2 == "common" then
@@ -1265,12 +1244,6 @@ function slot0.clearCell(slot0, slot1, slot2)
 
 		slot9 = slot7:Find(ChapterConst.ChildAttachment)
 
-		if slot4.attachment == ChapterConst.AttachRival and slot0.rivals[ChapterConst.Line2RivalName(slot4.row, slot4.column)] then
-			slot0.rivals[slot10]:Clear()
-
-			slot0.rivals[slot10] = nil
-		end
-
 		PoolMgr.GetInstance():ReturnPrefab("chapter/cell", "", slot7.gameObject)
 	end
 
@@ -1388,6 +1361,7 @@ function slot0.updateExtraAttachments(slot0)
 				slot14:Clear()
 
 				slot14 = nil
+				slot0.extraAttachmentCells[slot6] = nil
 			end
 
 			if not slot14 then
@@ -1495,6 +1469,7 @@ function slot0.updateAttachment(slot0, slot1, slot2)
 				slot11:Clear()
 
 				slot11 = nil
+				slot0.attachmentCells[slot5] = nil
 			end
 
 			if not slot11 then
@@ -1540,43 +1515,6 @@ function slot0.updateAttachment(slot0, slot1, slot2)
 					setImageColor(findTF(slot11.tf, "icon"), Color.white)
 				end
 			end
-		elseif slot4.attachment == ChapterConst.AttachRival then
-			slot10 = slot0.rivals[ChapterConst.Line2RivalName(slot4.row, slot4.column)]
-
-			if slot4.flag == 0 then
-				if not slot10 then
-					slot11 = cloneTplTo(slot0.rivalTpl, slot7, slot9)
-					slot11.anchoredPosition = Vector2(0, 0)
-					slot0.rivals[slot9] = RivalCellView.New(slot11.gameObject)
-
-					slot0.rivals[slot9]:SetLine({
-						row = slot4.row,
-						column = slot4.column
-					})
-				end
-
-				slot10:setAction(ChapterConst.ShipIdleAction)
-				slot10:setPrefab(slot4.rival.mainShips[1]:getPrefab())
-				slot0:frozen()
-				slot10:loadSpine(function ()
-					uv0:unfrozen()
-				end)
-				setActive(slot10.tfEffectFound, slot4.trait == ChapterConst.TraitVirgin)
-
-				if slot4.trait == ChapterConst.TraitVirgin then
-					pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)
-				end
-
-				setActive(slot10.tfFighting, slot3:existFleet(FleetType.Normal, slot1, slot2))
-				setText(slot10.tfName, slot4.rival.name)
-				setActive(slot10.tfDamageCount, slot4.data > 0)
-			elseif slot4.flag == 1 and slot10 then
-				slot10:unloadSpine()
-			end
-
-			if slot10 then
-				setActive(slot10.tf, slot4.flag == 0)
-			end
 		else
 			slot9 = nil
 			slot10 = {}
@@ -1617,6 +1555,7 @@ function slot0.updateAttachment(slot0, slot1, slot2)
 				slot11:Clear()
 
 				slot11 = nil
+				slot0.attachmentCells[slot5] = nil
 			end
 
 			if not slot9 then
@@ -1958,7 +1897,7 @@ function slot0.PrepareSubTeleport(slot0)
 		end
 	end
 
-	setActive(slot4.tfAmmo, not (slot1:existEnemy(ChapterConst.SubjectPlayer, slot5.row, slot5.column) or slot1:existFleet(FleetType.Normal, slot5.row, slot5.column)) and slot1:getDataType() == ChapterConst.TypeNone)
+	setActive(slot4.tfAmmo, not (slot1:existEnemy(ChapterConst.SubjectPlayer, slot5.row, slot5.column) or slot1:existFleet(FleetType.Normal, slot5.row, slot5.column)))
 	slot4:SetActive(true)
 
 	if not (slot1.subAutoAttack == 1) then
@@ -2127,12 +2066,11 @@ end
 
 function slot0.moveFleet(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.contextData.chapterVO
-	slot6 = slot5:getDataType()
-	slot7 = slot5.fleet
-	slot9 = slot0.cellFleets[slot5.fleets[slot5.findex].id]
+	slot6 = slot5.fleet
+	slot8 = slot0.cellFleets[slot5.fleets[slot5.findex].id]
 
-	slot9:SetSpineVisible(true)
-	setActive(slot9.tfShadow, true)
+	slot8:SetSpineVisible(true)
+	setActive(slot8.tfShadow, true)
 	setActive(slot0.arrowTarget, true)
 	slot0:updateTargetArrow(slot2[#slot2])
 
@@ -2141,13 +2079,11 @@ function slot0.moveFleet(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0:updateQuadCells(ChapterConst.QuadStateFrozen)
-	slot0:moveCellView(slot9, slot1, slot2, function (slot0)
-		if uv0 == ChapterConst.TypeNone then
-			uv1.step = uv1.step + 1
-		end
+	slot0:moveCellView(slot8, slot1, slot2, function (slot0)
+		uv0.step = uv0.step + 1
 
-		if uv2.onShipStepChange then
-			uv2.onShipStepChange(slot0)
+		if uv1.onShipStepChange then
+			uv1.onShipStepChange(slot0)
 		end
 	end, function (slot0)
 		uv0:ResetCanvasOrder()
@@ -2156,16 +2092,16 @@ function slot0.moveFleet(slot0, slot1, slot2, slot3, slot4)
 
 		slot0 = uv1.fleet.line
 
-		if uv2 == ChapterConst.TypeNone and ChapterConst.NeedClearStep(uv1:getChapterCell(slot0.row, slot0.column)) then
-			uv3.step = 0
+		if ChapterConst.NeedClearStep(uv1:getChapterCell(slot0.row, slot0.column)) then
+			uv2.step = 0
 		end
 
-		if uv4:getModel() then
-			uv3.rotation = uv4:getModel().transform.localRotation
+		if uv3:getModel() then
+			uv2.rotation = uv3:getModel().transform.localRotation
 		end
 
 		uv0:updateAttachment(slot0.row, slot0.column)
-		uv0:updateFleet(uv5)
+		uv0:updateFleet(uv4)
 		uv0:updateOni()
 
 		if uv1:getChampionIndex(slot0.row, slot0.column) then
@@ -2176,8 +2112,8 @@ function slot0.moveFleet(slot0, slot1, slot2, slot3, slot4)
 			uv0.onShipArrived()
 		end
 
-		if uv6 then
-			uv6()
+		if uv5 then
+			uv5()
 		end
 	end)
 end
@@ -2889,12 +2825,8 @@ function slot0.shiningTarget(slot0, slot1, slot2, slot3)
 		slot5 = nil
 		slot9 = slot0.cellRoot:Find(ChapterCell.Line2Name(slot1, slot2)):Find(ChapterConst.ChildAttachment)
 
-		if slot4:getChapterCell(slot1, slot2).attachment == ChapterConst.AttachEnemy or slot6.attachment == ChapterConst.AttachElite or slot6.attachment == ChapterConst.AttachAmbush or slot6.attachment == ChapterConst.AttachBoss then
-			if slot9.childCount > 0 then
-				slot5 = slot9:GetChild(0):Find("icon")
-			end
-		elseif slot6.attachment == ChapterConst.AttachRival and slot9.childCount > 0 and slot9:GetChild(0):Find("ship").childCount > 0 then
-			slot5 = slot10:GetChild(0)
+		if (slot4:getChapterCell(slot1, slot2).attachment == ChapterConst.AttachEnemy or slot6.attachment == ChapterConst.AttachElite or slot6.attachment == ChapterConst.AttachAmbush or slot6.attachment == ChapterConst.AttachBoss) and slot9.childCount > 0 then
+			slot5 = slot9:GetChild(0):Find("icon")
 		end
 
 		if slot4:existChampion(slot1, slot2) then

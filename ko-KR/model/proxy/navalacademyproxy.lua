@@ -48,6 +48,8 @@ function slot0.register(slot0)
 		uv0._mainUITimer = pg.TimeMgr.GetInstance():AddTimer("NavalAcademyProxy", 0, 10, function ()
 			uv0:notification()
 		end)
+
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inClass")
 	end)
 end
 
@@ -121,6 +123,8 @@ end
 
 function slot0.setStudents(slot0, slot1)
 	slot0.students = slot1
+
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inTactics")
 end
 
 function slot0.getStudents(slot0)
@@ -130,16 +134,20 @@ end
 function slot0.addStudent(slot0, slot1)
 	slot0.students[slot1.id] = slot1
 
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inTactics")
 	slot0:sendNotification(uv0.START_LEARN_TACTICS, Clone(slot1))
 end
 
 function slot0.updateStudent(slot0, slot1)
 	slot0.students[slot1.id] = slot1
+
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inTactics")
 end
 
 function slot0.deleteStudent(slot0, slot1)
 	slot0.students[slot1] = nil
 
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inTactics")
 	slot0:sendNotification(uv0.CANCEL_LEARN_TACTICS, slot1)
 end
 
@@ -160,7 +168,21 @@ function slot0.getCourse(slot0)
 end
 
 function slot0.setCourse(slot0, slot1)
+	slot0:verifyCourseData(slot1)
+
 	slot0.course = slot1
+
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inClass")
+end
+
+function slot0.verifyCourseData(slot0, slot1)
+	if not slot1:inClass() and slot1:existCourse() then
+		for slot8 = #slot1.students, 1, -1 do
+			if not getProxy(BayProxy):getShipById(slot4[slot8]) or not table.contains(slot1:getConfig("type"), slot9:getShipType()) or slot9:getEnergy() <= AcademyCourse.MinEnergy then
+				table.remove(slot4, slot8)
+			end
+		end
+	end
 end
 
 function slot0.GetShipIDs(slot0)
