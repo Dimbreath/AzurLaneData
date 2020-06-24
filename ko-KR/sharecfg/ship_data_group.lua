@@ -743,11 +743,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"중형함 건조",
+				"소형함 건조",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
+						projectName = "light",
 						page = 1
 					}
 				},
@@ -785,11 +785,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"중형함 건조",
+				"소형함 건조",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
+						projectName = "light",
 						page = 1
 					}
 				},
@@ -4532,9 +4532,13 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 건조",
+				"특형함 건조",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
