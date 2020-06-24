@@ -28792,7 +28792,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "もちもちのちまきよー<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+		display = "もちもちのちまきよー<color=#6dd329>（60分間寮舎経験値効率が5%アップ）</color>",
 		rarity = 2,
 		type = 3,
 		drop_oil_max = 0,
@@ -28813,7 +28813,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50005] = {
-		display = "ロイヤル王家海軍専用料理であ～る！<color=#92fc63>（180分間寮舎経験値効率が10%アップ）</color>",
+		display = "ロイヤル王家海軍専用料理であ～る！<color=#6dd329>（180分間寮舎経験値効率が10%アップ）</color>",
 		rarity = 3,
 		type = 3,
 		drop_oil_max = 0,
@@ -28834,7 +28834,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50006] = {
-		display = "見た目が奇妙な伝統？料理。<color=#92fc63>（360分間寮舎経験値効率が20%アップ）</color>",
+		display = "見た目が奇妙な伝統？料理。<color=#6dd329>（360分間寮舎経験値効率が20%アップ）</color>",
 		rarity = 3,
 		type = 3,
 		drop_oil_max = 0,

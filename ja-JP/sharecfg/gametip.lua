@@ -5774,6 +5774,9 @@ No.3 リトル・イラストリアス
 	words_bg_fit_mode = {
 		tip = "ﾛｰﾄﾞ画面のｱｽ比自動適応"
 	},
+	words_battle_hide_bg = {
+		tip = "衣装背景の戦闘時非表示"
+	},
 	activity_puzzle_get1 = {
 		tip = "<color=#92fc63FF>入手方法\n限定任務7</color>"
 	},
@@ -9667,6 +9670,9 @@ staff）にて告知されます。
 	},
 	option_desc6 = {
 		tip = "（ON状態）ロード画面のアスペクト比に端末の画面設定を適用させる"
+	},
+	option_desc10 = {
+		tip = "（ON状態）戦闘時衣装の背景が一部表示されなくなる"
 	},
 	music_collection = {
 		tip = {
