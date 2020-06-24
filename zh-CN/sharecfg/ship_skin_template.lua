@@ -23643,6 +23643,100 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[107382] = {
+		ship_group = 10738,
+		name = "失落世界的探险者",
+		bg_sp = "1102",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "真是年代久远的化石呢…嗯嗯，指挥官要在身后守着我也行，想要过来一起观察也行，随你喜欢享受现在的状况吧~",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "xianggelila_3",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 107382,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xianggelila_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70390,
+		voice_actor = 161,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.31,
+					1.04,
+					0
+				}
+			},
+			plane = {
+				{
+					1.32,
+					1.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.612,
+							2.52,
+							-0.38
+						}
+					}
+				}
+			}
+		}
+	},
 	[108010] = {
 		ship_group = 10801,
 		name = "鲦鱼",
@@ -41723,6 +41817,116 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[205064] = {
+		ship_group = 20506,
+		name = "桂冠的胜利竞速",
+		bg_sp = "",
+		group_index = 4,
+		illustrator2 = -1,
+		desc = "指挥官吗。不用担心，既然我接受了这份工作自然会干到最后——而且好久没有这种想和人竞争的感觉了呢。哈哈",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "weiershiqinwang_3",
+		air_bullet_skin = "",
+		shop_type_id = 14,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "132",
+		skin_type = 0,
+		id = 205064,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "weiershiqinwang_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70387,
+		voice_actor = 12,
+		air_bomb_skin = "",
+		illustrator = 14,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand2",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.951,
+					1.039,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.011,
+					1.111,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.009,
+					-0.019,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.987,
+					1.047,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.721,
+							2.307,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[205070] = {
 		ship_group = 20507,
 		name = "约克公爵",
@@ -41934,6 +42138,116 @@ pg.ship_skin_template = {
 						{
 							-0.45,
 							2.26,
+							0.53
+						}
+					}
+				}
+			}
+		}
+	},
+	[205073] = {
+		ship_group = 20507,
+		name = "盛誉的光荣方程",
+		bg_sp = "",
+		group_index = 3,
+		illustrator2 = 19,
+		desc = "俊美的阿多尼斯啊，为何汝不愿选择停留箱中享受宠爱呢——余这一身装扮是否又能留住汝之心？呵呵呵",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "yuekegongjue_2",
+		air_bullet_skin = "",
+		shop_type_id = 14,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "132",
+		skin_type = 0,
+		id = 205073,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yuekegongjue_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70386,
+		voice_actor = 79,
+		air_bomb_skin = "",
+		illustrator = 14,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.977,
+					1.101,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.997,
+					1.102,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.008,
+					-0.018,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.987,
+					1.061,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.458,
 							0.53
 						}
 					}
@@ -64146,6 +64460,116 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[303115] = {
+		ship_group = 30311,
+		name = "至高焦点",
+		bg_sp = "",
+		group_index = 5,
+		illustrator2 = -1,
+		desc = "呜…这、这种不知廉耻的装扮…要不是{namecode:67}一直说要有更多的生活体验…诶？很适合我？谢、谢谢……",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "gaoxiong_5",
+		air_bullet_skin = "",
+		shop_type_id = 14,
+		hand_id = 2,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "132",
+		skin_type = 0,
+		id = 303115,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "gaoxiong_5",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70384,
+		voice_actor = 8,
+		air_bomb_skin = "",
+		illustrator = 21,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.571,
+					1.11,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.527,
+					1.097,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.434,
+					1.091,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[303118] = {
 		ship_group = 30311,
 		name = "神护樱华",
@@ -64712,6 +65136,116 @@ pg.ship_skin_template = {
 				{
 					0.71,
 					1.06,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.34,
+							2.48,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[303124] = {
+		ship_group = 30312,
+		name = "巅峰时速",
+		bg_sp = "",
+		group_index = 4,
+		illustrator2 = -1,
+		desc = "想让姐姐来担任“舰队女郎”？没问题~不过，要是指挥官接下来不更加努力的话，姐姐我可是会生气的哦？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "aidang_5",
+		air_bullet_skin = "",
+		shop_type_id = 14,
+		hand_id = 2,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "132",
+		skin_type = 0,
+		id = 303124,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "aidang_5",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70385,
+		voice_actor = 9,
+		air_bomb_skin = "",
+		illustrator = 21,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.705,
+					1.066,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.651,
+					1.076,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.013,
+					0.007,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.403,
+					1.134,
 					0
 				}
 			}
@@ -72794,6 +73328,115 @@ pg.ship_skin_template = {
 			"touch_head"
 		}
 	},
+	[307052] = {
+		ship_group = 30705,
+		name = "疾速之鹤",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "呵呵，这点简单的工作，我还是能够胜任的。敬请期待我的表现吧，指挥官~",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "xianghe_3",
+		air_bullet_skin = "",
+		shop_type_id = 14,
+		hand_id = 2,
+		bgm = "",
+		lip_smoothing = 0,
+		bg = "132",
+		skin_type = 0,
+		id = 307052,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xianghe_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70388,
+		voice_actor = 46,
+		air_bomb_skin = "",
+		illustrator = 14,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			70,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.033,
+					0.988,
+					0
+				}
+			},
+			plane = {
+				{
+					1.03,
+					1.035,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.22,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		}
+	},
 	[307060] = {
 		ship_group = 30706,
 		name = "{namecode:96}",
@@ -72964,6 +73607,102 @@ pg.ship_skin_template = {
 				{
 					0.016,
 					0.055,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307062] = {
+		ship_group = 30706,
+		name = "飙速之鹤",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "虽说是我自愿接下的工作，而且能帮上指挥官忙是很让人高兴啦，不过这身衣服…之、之前没听说露出度有这么高啊…？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "ruihe_3",
+		air_bullet_skin = "",
+		shop_type_id = 14,
+		hand_id = 2,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "132",
+		skin_type = 0,
+		id = 307062,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ruihe_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70389,
+		voice_actor = 46,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.1,
+					1.114,
+					0
+				}
+			},
+			plane = {
+				{
+					1.138,
+					1.144,
 					0
 				}
 			}
@@ -73296,6 +74035,102 @@ pg.ship_skin_template = {
 			"mail",
 			"touch_body",
 			"touch_head"
+		}
+	},
+	[307073] = {
+		ship_group = 30707,
+		name = "恋慕伴侣",
+		bg_sp = "",
+		group_index = 3,
+		illustrator2 = -1,
+		desc = "指挥官大人，{namecode:97}的赛车女郎装扮…呵呵，看{namecode:97}的姿态，和精心准备的服装~♡我是绝对不会输给其他女孩子的！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "dafeng_5",
+		air_bullet_skin = "",
+		shop_type_id = 14,
+		hand_id = 2,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "132",
+		skin_type = 0,
+		id = 307073,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "dafeng_5",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70383,
+		voice_actor = 145,
+		air_bomb_skin = "",
+		illustrator = 14,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.103,
+					1.125,
+					0
+				}
+			},
+			plane = {
+				{
+					1.15,
+					1.132,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.31,
+							0
+						}
+					}
+				}
+			}
 		}
 	},
 	[307090] = {
@@ -73656,6 +74491,102 @@ pg.ship_skin_template = {
 				{
 					1.1,
 					0.07,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[308012] = {
+		ship_group = 30801,
+		name = "枕头天堂",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "好困……嗯，指挥官？要和“鱼雷先生”一起睡会吗？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "I19_3",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "109",
+		skin_type = 0,
+		id = 308012,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "I19_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70391,
+		voice_actor = 83,
+		air_bomb_skin = "",
+		illustrator = 14,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.563,
+					0.382,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.011,
+					-0.417,
 					0
 				}
 			}
@@ -91433,7 +92364,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 235,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -91534,7 +92465,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70366,
-		voice_actor = -1,
+		voice_actor = 235,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -114759,7 +115690,8 @@ pg.ship_skin_template = {
 		},
 		[30801] = {
 			308010,
-			308011
+			308011,
+			308012
 		},
 		[30710] = {
 			307100
@@ -114770,15 +115702,18 @@ pg.ship_skin_template = {
 		[30707] = {
 			307070,
 			307071,
-			307072
+			307072,
+			307073
 		},
 		[30706] = {
 			307060,
-			307061
+			307061,
+			307062
 		},
 		[30705] = {
 			307050,
-			307051
+			307051,
+			307052
 		},
 		[30704] = {
 			307040,
@@ -114916,6 +115851,7 @@ pg.ship_skin_template = {
 			303121,
 			303122,
 			303123,
+			303124,
 			303128
 		},
 		[30311] = {
@@ -114923,6 +115859,7 @@ pg.ship_skin_template = {
 			303112,
 			303113,
 			303114,
+			303115,
 			303118
 		},
 		[30309] = {
@@ -115287,12 +116224,14 @@ pg.ship_skin_template = {
 		},
 		[20507] = {
 			205070,
-			205072
+			205072,
+			205073
 		},
 		[20506] = {
 			205060,
 			205061,
-			205062
+			205062,
+			205064
 		},
 		[20505] = {
 			205050,
@@ -115594,7 +116533,8 @@ pg.ship_skin_template = {
 		},
 		[10738] = {
 			107380,
-			107381
+			107381,
+			107382
 		},
 		[10729] = {
 			107290,
@@ -116248,6 +117188,7 @@ pg.ship_skin_template = {
 		107291,
 		107380,
 		107381,
+		107382,
 		108010,
 		108020,
 		108021,
@@ -116411,8 +117352,10 @@ pg.ship_skin_template = {
 		205060,
 		205061,
 		205062,
+		205064,
 		205070,
 		205072,
+		205073,
 		206010,
 		206019,
 		206030,
@@ -116616,11 +117559,13 @@ pg.ship_skin_template = {
 		303112,
 		303113,
 		303114,
+		303115,
 		303118,
 		303120,
 		303121,
 		303122,
 		303123,
+		303124,
 		303128,
 		303130,
 		303140,
@@ -116697,15 +117642,19 @@ pg.ship_skin_template = {
 		307049,
 		307050,
 		307051,
+		307052,
 		307060,
 		307061,
+		307062,
 		307070,
 		307071,
 		307072,
+		307073,
 		307090,
 		307100,
 		308010,
 		308011,
+		308012,
 		308020,
 		308021,
 		308022,

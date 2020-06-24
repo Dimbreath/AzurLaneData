@@ -2447,6 +2447,295 @@ pg.activity_template = {
 			}
 		}
 	},
+	[620] = {
+		mark = 20200624,
+		type = 51,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 8,
+		config_client = "",
+		title_res_tag = "monopoly_car",
+		id = 620,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MonopolyCar.MonopolyCarPage",
+			ui_name = "MonopolyCarPage"
+		}
+	},
+	[621] = {
+		mark = 20200624,
+		page_info = "",
+		type = 52,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		title_res_tag = "",
+		id = 621,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			story = {
+				{
+					10000,
+					"AISAIKESIBOSS1"
+				},
+				{
+					7500,
+					"AISAIKESIBOSS2"
+				},
+				{
+					5000,
+					"AISAIKESIBOSS3"
+				},
+				{
+					2500,
+					"AISAIKESIBOSS4"
+				},
+				{
+					0,
+					"AISAIKESIBOSS5"
+				}
+			}
+		}
+	},
+	[622] = {
+		mark = 20200624,
+		page_info = "",
+		type = 46,
+		login_pop = 0,
+		config_id = 2006,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 622,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[623] = {
+		mark = 20200624,
+		page_info = "",
+		type = 54,
+		login_pop = 0,
+		config_id = 623,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 623,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[624] = {
+		mark = 20200624,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 624,
+		config_data = {
+			15756,
+			15757,
+			15758,
+			15759,
+			15760
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[625] = {
+		mark = 20200624,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_625",
+		title_res_tag = "",
+		id = 625,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					6,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "香格里拉、U-101等角色建造概率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有舰船</color>：7%",
+				"<color=#d797ff>精锐舰船</color>：12%",
+				"<color=#3dc6ff>稀有舰船</color>：51%",
+				"普通舰船：30%",
+				"<color=#ffde38>香格里拉</color>：1.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>埃塞克斯</color>：1.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>伊168</color>：1.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>U-101</color>：1.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>伊25</color>：2.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>伊56</color>：2.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>U-522</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
 	[2001] = {
 		mark = 20180327,
 		page_info = "",
@@ -3286,6 +3575,12 @@ pg.activity_template = {
 		616,
 		617,
 		618,
+		620,
+		621,
+		622,
+		623,
+		624,
+		625,
 		2001,
 		2002,
 		2003,

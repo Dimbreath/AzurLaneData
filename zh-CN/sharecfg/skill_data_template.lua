@@ -7114,6 +7114,17 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6560] = {
+		desc_get = "",
+		name = "改良型艇壳",
+		desc = "通过改良艇壳外形，自身航速增加20%，战斗中的就位位置向前移动8",
+		type = 0,
+		max_level = 0,
+		id = 6560,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "莱茵演习",
@@ -45275,6 +45286,7 @@ pg.skill_data_template = {
 		6530,
 		6540,
 		6550,
+		6560,
 		7000,
 		9010,
 		9020,

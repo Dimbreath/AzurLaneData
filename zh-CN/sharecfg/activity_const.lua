@@ -519,6 +519,9 @@ pg.activity_const = {
 	ESKI_PT_PAGE = {
 		act_id = 614
 	},
+	MONOPOLY_CAR_PAGE = {
+		act_id = 620
+	},
 	LINDONG_REMAKE_KR = {
 		act_id = 0
 	},
@@ -608,6 +611,9 @@ pg.activity_const = {
 	},
 	JIQILIFU_SKIN = {
 		act_id = 606
+	},
+	ACTIVITY_BOSS_AISAIKESI_PT = {
+		act_id = 623
 	},
 	SUMMER_REMAKE = {
 		act_id = 20248

@@ -29147,18 +29147,18 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "甜咖喱还是辣咖喱，这是一个问题！<color=#92fc63>（提高经验加成5%，持续60分钟）</color>",
+		display = "端午节当然要吃粽子啦！<color=#92fc63>（提高经验加成5%，持续60分钟）</color>",
 		rarity = 2,
 		type = 3,
 		drop_oil_max = 0,
-		name = "海军咖喱",
+		name = "粽子",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/haijungali",
+		icon = "Props/zongzi",
 		replace_item = 0,
 		display_icon = {},
 		price = {
@@ -86979,6 +86979,138 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[57766] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57766,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				3,
+				1
+			},
+			{
+				2,
+				15,
+				1
+			},
+			{
+				2,
+				16,
+				1
+			},
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				10028,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57767] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57767,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10008,
+				1
+			},
+			{
+				2,
+				10025,
+				1
+			},
+			{
+				2,
+				10029,
+				1
+			},
+			{
+				2,
+				10030,
+				1
+			},
+			{
+				2,
+				10033,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57768] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57768,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10025,
+				1
+			},
+			{
+				2,
+				10030,
+				1
+			},
+			{
+				2,
+				10031,
+				1
+			},
+			{
+				2,
+				10032,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[57770] = {
 		display = "有几率获得以下设计图",
 		rarity = 1,
@@ -105809,6 +105941,42 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[60057] = {
+		display = "参与『特别演习·埃塞克斯级』获得的点数，累计一定程度可以领取报酬",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "贡献值",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60057,
+		icon = "Props/59122",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60058] = {
+		display = "参与『特别演习·埃塞克斯级』EX关的必要道具，也可以用来增加普通关额外奖励次数",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "特别挑战券",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60058,
+		icon = "Props/nvpu_ticket",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[69901] = {
 		display = "获得1件随机新年换装(如果获得已经拥有的新年换装，则会自动转化为该换装等价的钻石)",
 		rarity = 4,
@@ -109027,6 +109195,9 @@ pg.item_data_statistics = {
 		57763,
 		57764,
 		57765,
+		57766,
+		57767,
+		57768,
 		57770,
 		57771,
 		57772,
@@ -109521,6 +109692,8 @@ pg.item_data_statistics = {
 		60054,
 		60055,
 		60056,
+		60057,
+		60058,
 		69901,
 		69902,
 		69903,

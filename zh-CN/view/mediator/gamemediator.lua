@@ -179,8 +179,8 @@ function slot0.handleNotification(slot0, slot1)
 			slot4.mediator = TrainingCampMediator
 			slot4.viewComponent = TrainingCampScene
 		elseif slot3 == SCENE.ACT_BOSS_BATTLE then
-			slot4.mediator = ActivityBossBattleMediator3
-			slot4.viewComponent = ActivityBossBattleScene3
+			slot4.mediator = ActivityBossMediatorTemplate
+			slot4.viewComponent = slot5.viewClass
 		elseif slot3 == SCENE.BULLETINBOARD then
 			slot4.mediator = BulletinBoardMediator
 			slot4.viewComponent = BulletinBoardLayer

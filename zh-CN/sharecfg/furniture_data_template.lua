@@ -4863,6 +4863,76 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100017] = {
+		advice = 0,
+		describe = "月亮出来了吗？",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "月相模拟装置",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "fengshanicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 100017,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fengshanB",
+				"normal"
+			},
+			{
+				"fengshanT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				-57.7
+			}
+		},
+		animator = {
+			{
+				"fengshanCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "到处都是破洞的地板，注意不要踩到洞里啊",
@@ -76466,6 +76536,1346 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[66001] = {
+		advice = 0,
+		describe = "狂欢！呐喊！我还可以再加速啾！",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "疾速狂热赛道",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "dibancaricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66001,
+		picture = "Car/dibancar",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66002] = {
+		advice = 0,
+		describe = "狂欢！呐喊！我还可以再加速啾！",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "疾速狂热墙壁",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "qiangbicaricon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66002,
+		picture = "car/qiangbicar",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66101] = {
+		advice = 0,
+		describe = "夜间比赛使用的路灯，要认清方向哦！",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛场路旗",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "1caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66101,
+		picture = "car/1car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66102] = {
+		advice = 0,
+		describe = "迎风飘扬的路旗，映衬内心的不羁。",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "旗帜",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "2caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 66102,
+		picture = "car/2car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66103] = {
+		advice = 0,
+		describe = "场地维护，注意回避啾！",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛道路障",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 66,
+		icon = "3caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66103,
+		picture = "Car/3car",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66104] = {
+		advice = 0,
+		describe = "本次比赛由…全面赞助啾！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾赞助牌",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "4caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66104,
+		picture = "Car/4car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66105] = {
+		advice = 0,
+		describe = "注意控制测速啾！",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "减速带",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "5caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66105,
+		picture = "Car/5car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66106] = {
+		advice = 0,
+		describe = "不许抄近道啾！",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛道阻隔",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 66,
+		icon = "6caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66106,
+		picture = "Car/6car",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66107] = {
+		advice = 0,
+		describe = "这个旗号是什么意思啾？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "指挥台",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "7caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 66107,
+		picture = "Car/7car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					45.9,
+					94.3
+				},
+				{
+					1,
+					1
+				},
+				"car/7car_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66108] = {
+		advice = 0,
+		describe = "精彩的比赛马上就要开始了啾！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾直播台",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "8caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 66108,
+		picture = "Car/8car",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66109] = {
+		advice = 0,
+		describe = "啾？这块区域不能开进来啾！",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "禁行区标志",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "9caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66109,
+		picture = "Car/9car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66110] = {
+		advice = 0,
+		describe = "需要换轮胎请先进维修区啾！",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "备用轮胎",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 66,
+		icon = "10caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66110,
+		picture = "Car/10car",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66111] = {
+		advice = 0,
+		describe = "收视率再创新高啾！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾转播车",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "11caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66111,
+		picture = "Car/11car",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66112] = {
+		advice = 0,
+		describe = "防止赛车意外冲出的护栏。",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "边界护栏",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "12caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66112,
+		picture = "Car/12car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66113] = {
+		advice = 0,
+		describe = "一棵长满翠绿色叶子的行道树。",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛场行道树(夏)",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "13caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66113,
+		picture = "Car/13car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66114] = {
+		advice = 0,
+		describe = "一棵长满金黄色叶子的行道树。",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛场行道树(秋)",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "14caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66114,
+		picture = "Car/14car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66115] = {
+		advice = 0,
+		describe = "梦想的起点，准备好加速了吗？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛道起终点",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "15caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66115,
+		picture = "Car/15car",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66116] = {
+		advice = 0,
+		describe = "可以降低失控赛车速度的缓冲草坪。",
+		count = 2,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "缓冲草坪",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "16caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66116,
+		picture = "Car/16car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66117] = {
+		advice = 0,
+		describe = "指示灯，用于在夜间提示选手方向。",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛场指示灯(前)",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "17caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66117,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"17car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66118] = {
+		advice = 0,
+		describe = "指示灯，用于在夜间提示选手方向。",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛场指示灯(禁止)",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "18caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66118,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"18car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66119] = {
+		advice = 0,
+		describe = "指示灯，用于在夜间提示选手方向。",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛场指示灯(左)",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "19caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66119,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"19car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66120] = {
+		advice = 0,
+		describe = "指示灯，用于在夜间提示选手方向。",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛场指示灯(右)",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "20caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66120,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"20car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66121] = {
+		advice = 0,
+		describe = "指示灯，用于在夜间提示选手方向。",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛场指示灯(后)",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "21caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66121,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"21car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66122] = {
+		advice = 0,
+		describe = "让狂热的「赤焰」把赛场燃起来吧！",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛车「赤焰」",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheAicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66122,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheAB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheAT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66123] = {
+		advice = 0,
+		describe = "白色「尖牙」会撕碎所有阻拦在前的障碍！",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛车「尖牙」",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheBicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66123,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheBB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheBT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66124] = {
+		advice = 0,
+		describe = "怒涛巨浪将吞没所有与「海神」为敌的对手！",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛车「海神」",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheCicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66124,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheCB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheCT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66125] = {
+		advice = 0,
+		describe = "加速再加速，「闪速」将在直线赛道上超越一切！",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛车「橙闪」",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheDicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66125,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheDB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheDT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66126] = {
+		advice = 0,
+		describe = "灵动的「黄蜂」会把所有选手甩在身后！",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛车「黄蜂」",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheEicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66126,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheEB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheET"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66127] = {
+		advice = 0,
+		describe = "新款超级赛车，可以体验驾驶舱啾！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "赛车展示台",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "22caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66127,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhanshicar",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"zhanshicarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -76560,6 +77970,7 @@ pg.furniture_data_template = {
 		100014,
 		100015,
 		100016,
+		100017,
 		1001,
 		1002,
 		1101,
@@ -78231,6 +79642,35 @@ pg.furniture_data_template = {
 		63302,
 		63303,
 		63304,
-		63305
+		63305,
+		66001,
+		66002,
+		66101,
+		66102,
+		66103,
+		66104,
+		66105,
+		66106,
+		66107,
+		66108,
+		66109,
+		66110,
+		66111,
+		66112,
+		66113,
+		66114,
+		66115,
+		66116,
+		66117,
+		66118,
+		66119,
+		66120,
+		66121,
+		66122,
+		66123,
+		66124,
+		66125,
+		66126,
+		66127
 	}
 }

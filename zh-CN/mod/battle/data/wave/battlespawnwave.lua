@@ -13,6 +13,7 @@ function slot1.Ctor(slot0)
 	slot0._reinforceTotalKillCount = 0
 	slot0._airStrikeTimerList = {}
 	slot0._spawnTimerList = {}
+	slot0._reinforceSpawnTimerList = {}
 end
 
 function slot1.SetWaveData(slot0, slot1)
@@ -23,6 +24,8 @@ function slot1.SetWaveData(slot0, slot1)
 	slot0._reinforce = slot1.reinforcement or {}
 	slot0._reinforceCount = #slot0._reinforce
 	slot0._spawnCount = #slot0._sapwnData
+	slot0._reinforceDuration = slot0._reinforce.reinforceDuration or 0
+	slot0._reinforeceExpire = false
 	slot0._round = slot0._param.round
 end
 
@@ -78,7 +81,7 @@ function slot1.DoWave(slot0)
 			if slot7.delay <= 0 then
 				slot0:doSpawn(slot7)
 			else
-				slot0:spawnTimer(slot7, slot7.delay)
+				slot0:spawnTimer(slot7, slot7.delay, slot0._spawnTimerList)
 			end
 		else
 			slot0._spawnCount = slot0._spawnCount - 1
@@ -89,8 +92,12 @@ function slot1.DoWave(slot0)
 		slot0:doReinforce()
 	end
 
-	if slot0._spawnCount == 0 then
+	if slot0._spawnCount == 0 and slot0._reinforceDuration == 0 then
 		slot0:doPass()
+	end
+
+	if slot0._reinforceDuration ~= 0 then
+		slot0:reinforceDurationTimer(slot0._reinforceDuration)
 	end
 
 	uv1.Battle.BattleState.GenerateVertifyData(1)
@@ -124,12 +131,12 @@ function slot1.doSpawn(slot0, slot1)
 	slot0._spawnFunc(slot1, slot0._index, slot2)
 end
 
-function slot1.spawnTimer(slot0, slot1, slot2)
-	slot3 = nil
-	slot0._spawnTimerList[pg.TimeMgr.GetInstance():AddBattleTimer("", 1, slot2, function ()
-		uv0._spawnTimerList[uv1] = nil
+function slot1.spawnTimer(slot0, slot1, slot2, slot3)
+	slot4 = nil
+	slot3[pg.TimeMgr.GetInstance():AddBattleTimer("", 1, slot2, function ()
+		uv0[uv1] = nil
 
-		uv0:doSpawn(uv2)
+		uv2:doSpawn(uv3)
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(uv1)
 	end, true)] = true
 end
@@ -151,13 +158,17 @@ end
 function slot1.doReinforce(slot0)
 	slot0._reinforceKillCount = 0
 
+	if slot0._reinforeceExpire then
+		return
+	end
+
 	for slot4, slot5 in ipairs(slot0._reinforce) do
 		slot5.reinforce = true
 
 		if slot5.delay <= 0 then
 			slot0:doSpawn(slot5)
 		else
-			slot0:spawnTimer(slot5, slot5.delay)
+			slot0:spawnTimer(slot5, slot5.delay, slot0._reinforceSpawnTimerList)
 		end
 	end
 end
@@ -177,6 +188,28 @@ function slot1.clearReinforceTimer(slot0)
 	slot0._reinforceTimer = nil
 end
 
+function slot1.reinforceDurationTimer(slot0, slot1)
+	slot0._reinforceDurationTimer = pg.TimeMgr.GetInstance():AddBattleTimer("", 1, slot1, function ()
+		pg.TimeMgr.GetInstance():RemoveBattleTimer(uv0._reinforceDurationTimer)
+
+		uv0._reinforeceExpire = true
+		uv0._reinforceDuration = nil
+
+		uv0:clearReinforceTimer()
+		uv0.clearTimerList(uv0._reinforceSpawnTimerList)
+
+		if uv0._spawnCount == 0 then
+			uv0:doPass()
+		end
+	end, true)
+end
+
+function slot1.clearReinforceDurationTimer(slot0)
+	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._reinforceDurationTimer)
+
+	slot0._reinforceDurationTimer = nil
+end
+
 function slot1.onWaveUnitDie(slot0, slot1)
 	if slot0._monsterList[slot1] == nil then
 		return
@@ -193,37 +226,46 @@ function slot1.onWaveUnitDie(slot0, slot1)
 		end
 	end
 
-	slot5 = 0
-
-	for slot9, slot10 in pairs(slot0._monsterList) do
-		if slot10:IsAlive() == false then
-			if not slot10:IsReinforcement() then
-				slot4 = 0 + 1
+	function slot4(slot0)
+		if uv0 and slot0 then
+			if slot0 == 0 then
+				uv1:doReinforce()
+			else
+				uv1:reinforceTimer(slot0)
 			end
-		else
-			slot5 = slot5 + 1
-			slot11 = slot10:GetReinforceCastTime()
 
-			if slot3 and slot11 then
-				if slot11 == 0 then
-					slot0:doReinforce()
-				else
-					slot0:reinforceTimer(slot11)
-				end
-
-				slot3 = false
-			end
+			uv0 = false
 		end
 	end
 
-	if slot5 == 0 and slot0._spawnCount <= slot4 and slot0._reinforceCount <= slot0._reinforceTotalKillCount then
+	slot6 = 0
+
+	for slot10, slot11 in pairs(slot0._monsterList) do
+		if slot11:IsAlive() == false then
+			if not slot11:IsReinforcement() then
+				slot5 = 0 + 1
+			end
+		else
+			slot6 = slot6 + 1
+
+			slot4(slot11:GetReinforceCastTime())
+		end
+	end
+
+	if slot0._reinforceDuration ~= 0 and not slot0._reinforeceExpire then
+		slot4(0)
+	end
+
+	if slot6 == 0 and slot0._spawnCount <= slot5 and slot0._reinforceCount <= slot0._reinforceTotalKillCount and (slot0._reinforceDuration == 0 or slot0._reinforeceExpire) then
 		slot0:doPass()
 	end
 end
 
 function slot1.doPass(slot0)
 	slot0.clearTimerList(slot0._spawnTimerList)
+	slot0.clearTimerList(slot0._reinforceSpawnTimerList)
 	slot0:clearReinforceTimer()
+	slot0:clearReinforceDurationTimer()
 	uv0.super.doPass(slot0)
 end
 
@@ -242,6 +284,11 @@ function slot1.Dispose(slot0)
 
 	slot0._spawnTimerList = nil
 
+	slot0.clearTimerList(slot0._reinforceSpawnTimerList)
+
+	slot0._reinforceSpawnTimerList = nil
+
 	slot0:clearReinforceTimer()
+	slot0:clearReinforceDurationTimer()
 	uv0.super.Dispose(slot0)
 end

@@ -292,7 +292,8 @@ slot0.AIStepType = {
 	CIRCLE = 4,
 	RELATIVE_BROWNIAN = 5,
 	HIVE_STAY = 6,
-	HIVE_CIRCLE = 7
+	HIVE_CIRCLE = 7,
+	RELATIVE_FLEET_MOVE_TO = 8
 }
 slot0.BossPhaseSwitchType = {
 	NONE = 0,

@@ -7880,7 +7880,7 @@ $3]]
 			{
 				info = [[
 <color=#92fc63>活动说明</color>：
-1.在活动期间，参与演习战斗卡获取<color=#92fc63>「贡献值」</color>,和本服
+1.在活动期间，参与演习战斗获取<color=#92fc63>「贡献值」</color>,和本服
 玩家协力攻略演习据点，获取据点阶段奖励和个人贡献
 奖励
 2.本次活动分为「简单」、「普通」、「困难」、「EX」
@@ -7907,8 +7907,8 @@ $3]]
 10.活动期间，可以领取个人贡献奖励，个人贡献奖励需
 要当据点攻略进度和拥有的「贡献值」达到指定要求后才
 能领取
-11.1.21-2.6期间可以参与演习战斗，奖励领取的截止时
-间为2.12]]
+11.6.24-7.9期间可以参与演习战斗，奖励领取的截止时
+间为7.15]]
 			},
 			{
 				info = [[
@@ -10723,5 +10723,92 @@ BUFF加成也会增加
 	},
 	backyard_shop_reach_last_page = {
 		tip = "本次排序已经没有更多主题了"
+	},
+	help_monopoly_car = {
+		tip = {
+			{
+				info = "活动说明："
+			},
+			{
+				info = "1.活动期间，玩家首日可获得5次加速次数，此后每日24点可\n获得5次；加速次数可累积"
+			},
+			{
+				info = "2.游戏中，根据玩家停留的格子可获得不同奖励，每次经\n过起点可获得200物资；"
+			},
+			{
+				info = "    ：获得一定数量物资；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "saichejinbi"
+				}
+			},
+			{
+				info = "    ：获得一定数量石油；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "saicheshiyou"
+				}
+			},
+			{
+				info = "    ：触发随机事件；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "saicheminyun"
+				}
+			},
+			{
+				info = "    ：触发随机奖励；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "saichedaoju"
+				}
+			},
+			{
+				info = "    ：触发随机移动事件；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "saicheteshu"
+				}
+			}
+		}
+	},
+	backYard_missing_furnitrue_tip = {
+		tip = "缺少以下家具"
+	},
+	win_condition_display_qijian = {
+		tip = "击破敌方旗舰"
+	},
+	win_condition_display_shangchuan = {
+		tip = "商船抵达指定位置"
+	},
+	win_condition_display_judian = {
+		tip = "击破敌方所有据点"
+	},
+	win_condition_display_tuoli = {
+		tip = "任意舰队到达脱离点"
+	},
+	lose_condition_display_quanmie = {
+		tip = "我方舰队全灭"
+	},
+	lose_condition_display_gangqu = {
+		tip = "我方舰队全灭/港区血量低于0"
+	},
+	re_battle = {
+		tip = "再次挑战"
 	}
 }

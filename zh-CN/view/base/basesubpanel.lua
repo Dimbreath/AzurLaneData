@@ -13,6 +13,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0._state = uv0.STATES.NONE
 	slot0.buffer = uv1.New()
 	slot0.loader = uv2.New()
+	slot0.contextData = {}
 
 	if slot1 then
 		slot0.buffer:Attach(slot1)
@@ -27,7 +28,6 @@ end
 
 function slot0.Attach(slot0, slot1)
 	slot0.viewParent = slot1
-	slot0.contextData = slot1.contextData
 
 	if slot0:GetLoaded() then
 		SetParent(slot0._tf, slot1._tf, false)

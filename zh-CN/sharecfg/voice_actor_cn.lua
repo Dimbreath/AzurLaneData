@@ -935,5 +935,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "幸村惠理",
 		code = 234
+	},
+	{
+		actor_name = "高野麻美",
+		code = 235
 	}
 }
