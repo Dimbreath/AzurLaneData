@@ -29147,7 +29147,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "端午节当然要吃粽子啦！<color=#92fc63>（提高经验加成5%，持续60分钟）</color>",
+		display = "端午节当然要吃粽子啦！ <color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		rarity = 2,
 		type = 3,
 		drop_oil_max = 0,
@@ -29168,7 +29168,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50005] = {
-		display = "皇家海军专用的料理！ <color=#92fc63>（提高经验加成10%，持续180分钟）</color>",
+		display = "皇家海军专用的料理！ <color=#6dd329>（提高经验加成10%，持续180分钟）</color>",
 		rarity = 3,
 		type = 3,
 		drop_oil_max = 0,
@@ -29189,7 +29189,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50006] = {
-		display = "著名的宫廷料理，造型较为奇怪！  <color=#92fc63>（提高经验加成20%，持续360分钟）</color>",
+		display = "著名的宫廷料理，造型较为奇怪！  <color=#6dd329>（提高经验加成20%，持续360分钟）</color>",
 		rarity = 3,
 		type = 3,
 		drop_oil_max = 0,

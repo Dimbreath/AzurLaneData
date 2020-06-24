@@ -5457,6 +5457,9 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 	words_bg_fit_mode = {
 		tip = "过场图适应屏幕最小边"
 	},
+	words_battle_hide_bg = {
+		tip = "战斗默认隐藏局部背景"
+	},
 	activity_puzzle_get1 = {
 		tip = "<color=#92fc63FF>获得方式\n拼图任务7</color>"
 	},
@@ -9396,6 +9399,9 @@ TIPS：
 	},
 	option_desc6 = {
 		tip = "功能开启后，过场图片适应设备最小边框，不显示黑边"
+	},
+	option_desc10 = {
+		tip = "功能开启后，战斗中会默认隐藏换装的局部背景"
 	},
 	music_collection = {
 		tip = {
