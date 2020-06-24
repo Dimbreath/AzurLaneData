@@ -297,7 +297,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:63}",
-			say = "喂，妳們幾個堆在門這里幹啥？在偷聽嗎？",
+			say = "喂，妳們幾個堆在門這裡幹啥？在偷聽嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

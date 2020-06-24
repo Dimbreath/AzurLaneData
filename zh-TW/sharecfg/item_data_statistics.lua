@@ -13292,7 +13292,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "端午節當然要吃粽子啦！<color=#A9F548>（提高經驗加成5%，持續60分鐘）</color>",
+		display = "端午節當然要吃粽子啦！ <color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		rarity = 2,
 		type = 3,
 		drop_oil_max = 0,
@@ -13313,7 +13313,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50005] = {
-		display = "皇家海軍專用的料理！ <color=#A9F548>（提高經驗加成10%，持續180分鐘）</color>",
+		display = "皇家海軍專用的料理！ <color=#6dd329>（提高經驗加成10%，持續180分鐘）</color>",
 		rarity = 3,
 		type = 3,
 		drop_oil_max = 0,
@@ -13334,7 +13334,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50006] = {
-		display = "著名的宮廷料理，造型較為奇怪！  <color=#A9F548>（提高經驗加成20%，持續360分鐘）</color>",
+		display = "著名的宮廷料理，造型較為奇怪！  <color=#6dd329>（提高經驗加成20%，持續360分鐘）</color>",
 		rarity = 3,
 		type = 3,
 		drop_oil_max = 0,

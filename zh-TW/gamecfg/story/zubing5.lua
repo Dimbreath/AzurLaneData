@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "指揮官要是看到我這幅樣子的話，一定會……",
+			say = "指揮官要是看到我這副樣子的話，一定會……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不過說起來，嘿嘿，剛才好像聽到誰說了“要是被指揮官看到這幅樣子”…之類的話呢。",
+			say = "不過說起來，嘿嘿，剛才好像聽到誰說了“要是被指揮官看到這副樣子”…之類的話呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

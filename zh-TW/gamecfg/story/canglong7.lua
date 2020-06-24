@@ -334,7 +334,7 @@ return {
 			blackBg = true,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "指揮官要是能從我手裡贏下一局的話，我什麼都答應妳哦？",
+			say = "指揮官要是能從我手裡贏下一局的話，我什麼都答應你哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

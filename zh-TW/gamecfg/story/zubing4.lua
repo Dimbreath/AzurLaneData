@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不過支撐著汝的是何物？餘甚是好奇…獨自一人散發的光輝，不會有這般絢麗的色彩",
+			say = "不過支撐著汝的是何物？余甚是好奇…獨自一人散發的光輝，不會有這般絢麗的色彩",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
