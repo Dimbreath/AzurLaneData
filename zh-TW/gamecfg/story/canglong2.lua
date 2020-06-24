@@ -396,7 +396,7 @@ return {
 			},
 			options = {
 				{
-					content = "说明来意",
+					content = "說明來意",
 					flag = 1
 				}
 			}

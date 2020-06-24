@@ -13292,7 +13292,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "端午节当然要吃粽子啦！ <color=#A9F548>（提高經驗加成5%，持續60分鐘）</color>",
+		display = "端午節當然要吃粽子啦！<color=#A9F548>（提高經驗加成5%，持續60分鐘）</color>",
 		rarity = 2,
 		type = 3,
 		drop_oil_max = 0,
@@ -57744,7 +57744,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59120] = {
-		display = "用於『蒼紅的回響』活動兌換，活動結束後將會消失",
+		display = "用於『蒼紅的迴響』活動兌換，活動結束後將會消失",
 		rarity = 2,
 		type = 98,
 		drop_oil_max = 0,

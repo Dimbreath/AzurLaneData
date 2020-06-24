@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“如果妳能參加演習的話根本輪不到{namecode:161}姐出手？ ”就憑妳這未完工的武裝和一股腦的傻勁？",
+			say = "“如果妳能參加演習的話根本輪不到{namecode:161}姐出手？”就憑妳這未完工的武裝和一股腦的傻勁？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再說了，我可是“戰列艦”，跟妳們“戰列巡洋艦”的防護能力可不是同一個水平的！",
+			say = "再說了，我可是“戰列艦”，跟妳們“戰鬥巡洋艦”的防護能力可不是同一個水平的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

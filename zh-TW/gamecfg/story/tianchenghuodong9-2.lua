@@ -129,7 +129,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:161}級戰列巡洋艦首艦——{namecode:161}號，將在正式舾装之後接任重櫻聯合艦隊第八任旗艦職位。",
+			say = "{namecode:161}級戰鬥巡洋艦首艦——{namecode:161}號，將在正式舾装之後接任重櫻聯合艦隊第八任旗艦職位。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

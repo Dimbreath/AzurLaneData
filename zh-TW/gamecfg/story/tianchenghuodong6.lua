@@ -200,7 +200,7 @@ return {
 			dir = -1,
 			actor = 304050,
 			nameColor = "#a9f548",
-			say = "咳…咳咳…..",
+			say = "咳…咳咳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 304050,
-			say = "讓妳看到這幅狼狽的樣子真是不好意思。",
+			say = "讓妳看到這副狼狽的樣子真是不好意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

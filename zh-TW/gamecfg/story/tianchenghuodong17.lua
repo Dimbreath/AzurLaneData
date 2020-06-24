@@ -76,7 +76,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "…也許妳可能會笑，不過我真的很想再以戰列巡洋艦的身份盡情地奏響主砲！…哪怕只有最後一次也好。",
+			say = "…也許妳可能會笑，不過我真的很想再以戰鬥巡洋艦的身份盡情地奏響主砲！…哪怕只有最後一次也好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 304050,
-			say = "<size=52.5>{namecode:161}級戰列巡洋艦——{namecode:161}號！</size>",
+			say = "<size=52.5>{namecode:161}級戰鬥巡洋艦——{namecode:161}號！</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1

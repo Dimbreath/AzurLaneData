@@ -6626,7 +6626,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：蒼紅的回響",
+				"限時活動：蒼紅的迴響",
 				{
 					""
 				},
@@ -7680,7 +7680,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：蒼紅的回響",
+				"限時活動：蒼紅的迴響",
 				{
 					""
 				},
@@ -8040,7 +8040,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：蒼紅的回響",
+				"限時活動：蒼紅的迴響",
 				{
 					""
 				},
@@ -8400,7 +8400,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：蒼紅的回響",
+				"限時活動：蒼紅的迴響",
 				{
 					""
 				},
@@ -8672,7 +8672,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：蒼紅的回響",
+				"限時活動：蒼紅的迴響",
 				{
 					""
 				},
@@ -8962,7 +8962,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：蒼紅的回響",
+				"限時活動：蒼紅的迴響",
 				{
 					""
 				},

@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就連白鷹的六艘列星頓級戰列巡洋艦都因條約的緣故削減為兩艘，還是以改裝為航空母艦的方式…",
+			say = "就連白鷹的六艘列星頓級戰鬥巡洋艦都因條約的緣故削減為兩艘，還是以改裝為航空母艦的方式…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

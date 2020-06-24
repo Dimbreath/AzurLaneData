@@ -203,7 +203,7 @@ return {
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#a9f548",
-			say = "加贺，加贺！！",
+			say = "加賀，加賀！！",
 			flashin = {
 				dur = 1,
 				black = true,

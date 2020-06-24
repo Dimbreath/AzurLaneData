@@ -480,7 +480,7 @@ pg.memory_group = {
 		}
 	},
 	[148] = {
-		title = "蒼紅的回響",
+		title = "蒼紅的迴響",
 		type = 2,
 		id = 148,
 		icon = "title_event",
