@@ -72,7 +72,7 @@ slot0.typeInfo = {
 			5,
 			8,
 			7,
-			4
+			10
 		},
 		act_type = ActivityConst.ACTIVITY_TYPE_BOSS_RANK
 	},

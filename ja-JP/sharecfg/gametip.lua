@@ -7671,7 +7671,7 @@ No.3 リトル・イラストリアス
 		tip = "0"
 	},
 	ranking_word_4 = {
-		tip = "演習pt"
+		tip = "チャレンジPt"
 	},
 	ranking_word_5 = {
 		tip = "ランキング"
