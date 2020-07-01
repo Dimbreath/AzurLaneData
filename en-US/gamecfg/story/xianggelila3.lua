@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"纪行的藏红花\n\n<size=45>三　奇妙的“因缘”</size>",
+					"Saffron Travelogue\n\n<size=45>Clash of Minds</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			say = "某日·演习海域",
+			say = "Later, at the Exercise Area...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "如同之前约定的那样，香格里拉和埃塞克斯开始了针对性训练",
+			say = "Shangri-La's and Essex's special training was under way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "指挥官也来了啊…香格里拉，今天要做些什么呢？",
+			say = "Glad to see you could make it, Commander. Now, Shangri-La, what are we doing today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，根据之前特别演习的记录——",
+			say = "Well, based on the data I gathered from the previous exercise...",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "使用通常的单舰战术去和企业前辈对抗的话估计很难取胜，",
+			say = "In a simple 1-versus-1 battle against her, your odds of winning are rather low.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "不过，如果采用集团对抗的方法，通过与己方其他舰艇的配合避免和企业前辈一对一作战，或许有取胜的机会。",
+			say = "However, if you avoid direct confrontation and team up on her, you may stand a good chance at defeating her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天就根据我思考的对策来制定针对性的作战方案吧。",
+			say = "I say we test the plan I devised to see how it works in practice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = -1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "原来如此…这时候像这样将攻击编队分散开…",
+			say = "I see... So I can gain the upper hand by splitting my forces like this?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。新锐机的运用这方面埃塞克斯比企业前辈更有经验……",
+			say = "Indeed. Your aircraft have the technological edge over hers, and you should use this to your advantage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = -1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "这样的话，就能应对企业前辈的这个战术了！",
+			say = "Right! I've got a feeling like this will actually wo–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "战术研讨火热进行中，就在这时——",
+			say = "Before Essex can finish, a third party appeared out of the blue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = -1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "嘿！",
+			say = "Howdy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = -1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "哇！原、原来是大黄蜂啊……",
+			say = "H-Hornet?! What brings you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "突然吓人可不好哦，牛仔小姐？",
+			say = "Hornet, please, don't startle us like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊哈哈，抱歉抱歉，没想到你们这么专注。啊，指挥官也在，这是在做什么有趣的事情吗～？",
+			say = "Oh, sorry! Had no idea you'd be so deep in thought... Oh hey, the Commander's here too! What fun stuff are all y'all up to?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们正在进行特训，为了让埃塞克斯能够战胜企业前辈而进行的特训",
+			say = "Essex is undergoing special training so that she can defeat Enterprise in the next exercise battle against her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "战胜姐姐？这个特训听起来很厉害啊，请务必也让我参一脚！",
+			say = "Beat Enty, huh? Sounds hard, but I love me a challenge! Mind if I join in?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = -1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "原来如此…看着是不坏啦，不过…总感觉这个战术前提会不会太偏重过往的经验了？",
+			say = "Huh, interesting... It's a solid plan all right, but I feel it's based a little too much on numbers and data.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -382,7 +382,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			say = "…有经验才能归纳出正确的理论。企业前辈的实力不也是源自于以往经验的归纳总结吗？",
+			say = "Data is the basis for all theories. For that matter, isn't Enterprise's ability also based on empirical data?",
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "说的是没错啦。不过感觉还是要有点能够临机应变，额或者说方案B之类的东西？我和姐姐当年也经常碰到预想不到的状况嘛",
+			say = "Well, yeah, but there's more to it than that. You gotta be able to improvise, or have a plan B. Things don't always go as you expect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "…我明白了。正好指挥官也在这里，不如就让我们在此约定一场战斗演习如何？用事实来证明谁的方针更加有效。",
+			say = "...It seems we fundamentally disagree on this topic. Perhaps we could have a mock battle to see whose methodology is superior.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嘿～？似乎很有自信嘛？送上门的挑战，大黄蜂大人岂有不接的道理！",
+			say = "Sure, I'm down for that! It'll be like a preliminary before the final showdown!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么时间就定在…三天后吧，裁判就麻烦指挥官和埃塞克斯了",
+			say = "All right, then I say we have the battle in three days. Essex and the Commander can be our judges.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（小声）抱歉，埃塞克斯，针对训练需要暂时中断一下了。",
+			say = "Psst, Essex... I'm sorry for dragging you into this, but will you do it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "（小声）啊哈哈…难得看到香格里拉热血的一面呢。也好，观察他人的战斗也是一种学习，演习战加油吧！",
+			say = "Why not? It's not every day you get this serious about something. Hahahah.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那就，三天后演习场上见分晓吧！嘿嘿～",
+			say = "Sounds like we have ourselves a battle, then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "好像被卷进什么麻烦里了？",
+			say = "And it sounded like I'd gotten dragged into being their referee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

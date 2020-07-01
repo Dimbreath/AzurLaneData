@@ -29,14 +29,16 @@ function slot0.register(slot0)
 	slot0.viewComponent:setStartCount(table.getCount(slot7:getRawData()))
 	slot0:checkActivityBuild()
 	slot0:bind(uv0.OPEN_DESTROY, function (slot0)
-		uv1:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			blockLock = true,
 			selectedMax = 10,
 			mode = DockyardScene.MODE_DESTROY,
 			leftTopInfo = i18n("word_destroy"),
-			onShip = Ship.canDestroyShip,
-			ignoredIds = uv0:fileterShips(ShipStatus.FILTER_SHIPS_FLAGS_1),
-			preView = uv1.viewComponent.__cname
+			onShip = ShipStatus.canDestroyShip,
+			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
+				isActivityNpc = true
+			}),
+			preView = uv0.viewComponent.__cname
 		})
 	end)
 	slot0:bind(uv0.OPEN_PROJECT_LIST, function (slot0)

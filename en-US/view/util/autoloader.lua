@@ -17,6 +17,12 @@ function slot0.Ctor(slot0)
 	slot0._keyInstDict = {}
 end
 
+function slot0.GenerateUID4LoadingRequest(slot0)
+	slot0._uidCounter = (slot0._uidCounter or 0) + 1
+
+	return slot0._uidCounter
+end
+
 function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4)
 	slot0:ClearRequest(slot4)
 
@@ -31,7 +37,7 @@ function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4)
 			uv5(slot0)
 		end
 	end)
-	slot0._loadingRequest[slot4 or #slot0._loadingRequest + 1] = slot5
+	slot0._loadingRequest[slot4 or slot0:GenerateUID4LoadingRequest()] = slot5
 
 	slot5:Start()
 end
@@ -58,7 +64,7 @@ function slot0.GetSpine(slot0, slot1, slot2, slot3)
 			uv4(slot0)
 		end
 	end)
-	slot0._loadingRequest[slot3 or #slot0._loadingRequest + 1] = slot4
+	slot0._loadingRequest[slot3 or slot0:GenerateUID4LoadingRequest()] = slot4
 
 	slot4:Start()
 end
@@ -105,7 +111,7 @@ function slot0.LoadPrefab(slot0, slot1, slot2, slot3, slot4)
 			uv2(slot0)
 		end
 	end)
-	slot0._loadingRequest[slot4 or #slot0._loadingRequest + 1] = slot5
+	slot0._loadingRequest[slot4 or slot0:GenerateUID4LoadingRequest()] = slot5
 
 	slot5:Start()
 end
@@ -142,7 +148,7 @@ function slot0.LoadReference(slot0, slot1, slot2, slot3, slot4, slot5)
 			uv2(go)
 		end
 	end)
-	slot0._loadingRequest[slot5 or #slot0._loadingRequest + 1] = slot6
+	slot0._loadingRequest[slot5 or slot0:GenerateUID4LoadingRequest()] = slot6
 
 	slot6:Start()
 end

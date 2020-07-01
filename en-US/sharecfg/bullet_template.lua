@@ -32587,13 +32587,7 @@ pg.bullet_template = {
 			time = -1,
 			range = 0
 		},
-		attach_buff = {
-			{
-				friendly = false,
-				buff_id = 103123,
-				flare = false
-			}
-		},
+		attach_buff = {},
 		extra_param = {
 			timeToExplode = 0.3,
 			airdrop = true,
@@ -32653,13 +32647,7 @@ pg.bullet_template = {
 			time = -1,
 			range = 45
 		},
-		attach_buff = {
-			{
-				friendly = false,
-				buff_id = 103123,
-				flare = false
-			}
-		},
+		attach_buff = {},
 		extra_param = {
 			timeToExplode = 1,
 			airdrop = true,
@@ -32719,13 +32707,7 @@ pg.bullet_template = {
 			time = -1,
 			range = 45
 		},
-		attach_buff = {
-			{
-				friendly = false,
-				buff_id = 103123,
-				flare = false
-			}
-		},
+		attach_buff = {},
 		extra_param = {
 			timeToExplode = 2,
 			airdrop = true,
@@ -125538,6 +125520,69 @@ pg.bullet_template = {
 		attach_buff = {},
 		extra_param = {}
 	},
+	[740021] = {
+		range_offset = 20,
+		modle_ID = "Torpedoairus",
+		type = 3,
+		antisub_enhancement = 0,
+		out_bound = 0,
+		alert_fx = "TorAlert",
+		miss_fx = "",
+		miss_sfx = "",
+		hit_sfx = "battle/torpedo-hit",
+		hit_fx = "TorpedoHit3",
+		range = 100,
+		effect_type = 1,
+		pierce_count = 0,
+		ammo_type = 4,
+		id = 740021,
+		velocity = 4,
+		damage_type = {
+			0.8,
+			1,
+			1.5
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.4
+			}
+		},
+		acceleration = {
+			tracker = {
+				angular = 1.6,
+				range = 36
+			}
+		},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		}
+	},
 	[999981] = {
 		range_offset = 0,
 		modle_ID = "Bullet1",
@@ -138548,6 +138593,7 @@ pg.bullet_template = {
 		740018,
 		740019,
 		740020,
+		740021,
 		999981,
 		999982,
 		999983,

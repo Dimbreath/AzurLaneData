@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"纪行的藏红花\n\n<size=45>七　最后的战斗总结</size>",
+					"Saffron Travelogue\n\n<size=45>After the Battle</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "次日·指挥室",
+			say = "The following day, at the office...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -46,10 +46,26 @@ return {
 			}
 		},
 		{
+			actor = 107380,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Good morning, Commander.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "昨天的模拟战之后，香格里拉她——",
+			say = "Shangri-La changed a bit after that battle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,23 +81,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "早上好，指挥官。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107380,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "看您这幅样子，昨晚又熬夜了吗？都说了熬夜不好了……",
+			say = "Did you pull another all-nighter yesterday? *sigh*... Have I not made it clear that it's bad for your health?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "……在意我的事？",
+			say = "...Pardon? You're worried about me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感谢您的关心，不过——",
+			say = "I do appreciate the concern, but there's nothing for you to–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈罗！我把大家都带过来了！",
+			say = "Howdy! I brought the gang along!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			say = "早安，大黄蜂。既然人到齐了，就让我们开始吧",
+			say = "Why, hello, Hornet!",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -166,7 +166,7 @@ return {
 			dir = -1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "等下——！先让我说下谢谢！",
+			say = "But first: I've gotta thank you for what you taught me yesterday!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "？？",
+			say = "For teaching you what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "果然记录还有分析什么的早知道多做一下就好了！",
+			say = "The importance of keeping notes and doing research on people you're up against! Had I done the same, I might've won!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "我这边才是，不应该完全依赖过去的记录呢",
+			say = "If anything, you taught me a valuable lesson: that you can't rely on data and probabilities alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "于是关于这些照片……",
+			say = "I'd like to show you something, if you don't mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			withoutActorName = true,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "说着香格里拉掏出了一大摞照片",
+			say = "Shangri-La fetches a photo album from a nearby shelf.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = -1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "哇？！这些照片是什么时候拍的？",
+			say = "Hey, nice pics! But who snapped them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我请一起观战的指挥官还有大家帮忙拍的。果然我还是想多留一点记录呢",
+			say = "I got a little help from the Commander and the people who came to watch. I felt the need to fully document everything possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "因为之后肯定是要收藏起来的，在那之前我想给大家看一下",
+			say = "These will be added to my collection of photo albums soon, but I wanted to show these to you all before that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,10 +329,13 @@ return {
 			}
 		},
 		{
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
-			say = "香格里拉一边说着，一边把相片递给大家传阅。",
+			withoutActorName = true,
+			actor = 107380,
+			nameColor = "#a9f548",
+			say = "Shangri-La takes out the pictures and passes them around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +351,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些照片里我最喜欢的是——",
+			say = "My personal favorite of them all is this one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +367,7 @@ return {
 			dir = -1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "啊！这张照片！是昨天结束之后大家一起拍的那张啊",
+			say = "I remember this! It's from right after our mock battle yesterday!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +391,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "照片中的是有些倦意的大黄蜂和香格里拉，站在企业旁边显得有些紧张的埃塞克斯和{namecode:96}，以及露出温和微笑的约克城……",
+			say = "The photograph is of everyone who was in attendance yesterday: Essex, Shangri-La, Hornet, Enterprise, Yorktown, Zuikaku, and Shoukaku. All smiling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +408,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "名字叫做“伙伴”。反面要写上些什么可以和大家商量下吗……？",
+			say = "I've titled it \"Friends,\" but I don't know what to write for the description on the back. Does anyone have any ideas?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +423,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "对香格里拉来说，这张照片就是她第一次在港区找到“伙伴”瞬间的记录也说不定——",
+			say = "To her, this photograph represented the moment she made her first friends since arriving at the port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

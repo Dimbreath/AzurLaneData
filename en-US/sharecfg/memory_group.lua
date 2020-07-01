@@ -749,6 +749,19 @@ pg.memory_group = {
 			683
 		}
 	},
+	[150] = {
+		title = "Air Raid Drills with Essex ",
+		type = 2,
+		id = 150,
+		icon = "title_event",
+		memories = {
+			684,
+			685,
+			686,
+			687,
+			688
+		}
+	},
 	[152] = {
 		title = "\"Virtual Connection Synchronicity\" - Daily Memorabilia",
 		type = 2,
@@ -1694,7 +1707,7 @@ pg.memory_group = {
 		}
 	},
 	[517] = {
-		title = "Journé Surcouf!",
+		title = "Journée Surcouf!",
 		type = 3,
 		id = 517,
 		icon = "title_chara_xukufu",
@@ -2038,6 +2051,21 @@ pg.memory_group = {
 			676
 		}
 	},
+	[540] = {
+		title = "Saffron Travelogue ",
+		type = 3,
+		id = 540,
+		icon = "title_chara_xianggelila",
+		memories = {
+			689,
+			690,
+			691,
+			692,
+			693,
+			694,
+			695
+		}
+	},
 	[542] = {
 		title = "One Little Incident ",
 		type = 3,
@@ -2191,6 +2219,7 @@ pg.memory_group = {
 		147,
 		148,
 		149,
+		150,
 		152,
 		153,
 		154,
@@ -2263,6 +2292,7 @@ pg.memory_group = {
 		537,
 		538,
 		539,
+		540,
 		542,
 		543,
 		544,

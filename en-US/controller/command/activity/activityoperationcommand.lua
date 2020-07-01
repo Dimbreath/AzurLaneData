@@ -56,7 +56,7 @@ function slot0.execute(slot0, slot1)
 				uv2.autoActionForbidden = true
 
 				getProxy(ActivityProxy):updateActivity(uv2)
-			elseif uv3 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or uv3 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_2 then
+			elseif uv3 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 then
 				if slot0.result == 1 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("activity_build_end_tip"))
 				end
@@ -161,22 +161,6 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		table.insert(slot3.data1_list, slot10)
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_CHARGEAWARD then
 		slot3.data2 = 1
-	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_2 then
-		slot8 = slot6:getData()
-		slot9 = nil
-
-		if slot1.cmd == 1 then
-			slot9 = BuildShip.getBuildConsume(2, slot1.cmd, slot3.data1)
-		elseif slot1.cmd == 2 then
-			slot9 = BuildShip.getBuildConsume(2, slot1.cmd, slot3.data2)
-		end
-
-		slot3:increaseUsedCount(slot1.cmd)
-		slot8:consume({
-			gem = slot9
-		})
-		slot6:updatePlayer(slot8)
-		slot0:sendNotification(GAME.ACTIVITY_BUILD_SHIP_DONE)
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_PRAY then
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_BUILD_SHIP, slot1.arg1)
 
@@ -313,10 +297,6 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 				slot3.data4 = slot1.arg2
 			end
 		end
-	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE then
-		slot3.data1 = slot2.number[1]
-		slot3.data2 = slot2.number[2]
-		slot3.data3 = slot2.number[3]
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_REFLUX then
 		if slot1.cmd == 1 then
 			slot3.data1_list[1] = pg.TimeMgr.GetInstance():GetServerTime()

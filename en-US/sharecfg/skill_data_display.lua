@@ -230,15 +230,15 @@ pg.skill_data_display = {
 	},
 	[2151] = {
 		id = 2151,
-		name = "Impartial Destruction "
+		name = "Impartial Destruction"
 	},
 	[2160] = {
 		id = 2160,
-		name = "Lightning Strikes Twice "
+		name = "Lightning Strikes Twice"
 	},
 	[2161] = {
 		id = 2161,
-		name = "Lightning Strikes Twice "
+		name = "Lightning Strikes Twice"
 	},
 	[2171] = {
 		id = 2171,
@@ -246,23 +246,23 @@ pg.skill_data_display = {
 	},
 	[2181] = {
 		id = 2181,
-		name = "Comprehensive Defense "
+		name = "Comprehensive Defense"
 	},
 	[2190] = {
 		id = 2190,
-		name = "Ammunition Command "
+		name = "Ammunition Command"
 	},
 	[2191] = {
 		id = 2191,
-		name = "Ammunition Command "
+		name = "Ammunition Command"
 	},
 	[2200] = {
 		id = 2200,
-		name = "Air-Surface Switch "
+		name = "Air-Surface Switch"
 	},
 	[2201] = {
 		id = 2201,
-		name = "Air-Surface Switch "
+		name = "Air-Surface Switch"
 	},
 	[3001] = {
 		id = 3001,
@@ -378,7 +378,7 @@ pg.skill_data_display = {
 	},
 	[4121] = {
 		id = 4121,
-		name = "Protective Armor "
+		name = "Protective Armor"
 	},
 	[4130] = {
 		id = 4130,
@@ -394,19 +394,19 @@ pg.skill_data_display = {
 	},
 	[4150] = {
 		id = 4150,
-		name = "Mobility Mastery "
+		name = "Mobility Mastery"
 	},
 	[4151] = {
 		id = 4151,
-		name = "Mobility Mastery "
+		name = "Mobility Mastery"
 	},
 	[4160] = {
 		id = 4160,
-		name = "Supporting Wings "
+		name = "Supporting Wings"
 	},
 	[4161] = {
 		id = 4161,
-		name = "Supporting Wings "
+		name = "Supporting Wings"
 	},
 	[5001] = {
 		id = 5001,
@@ -438,31 +438,31 @@ pg.skill_data_display = {
 	},
 	[5061] = {
 		id = 5061,
-		name = "Destroyer Squadron "
+		name = "Destroyer Squadron"
 	},
 	[5060] = {
 		id = 5060,
-		name = "Destroyer Squadron "
+		name = "Destroyer Squadron"
 	},
 	[5071] = {
 		id = 5071,
-		name = "Chevalier's Bouclier "
+		name = "Chevalier's Bouclier"
 	},
 	[5070] = {
 		id = 5070,
-		name = "Chevalier's Bouclier "
+		name = "Chevalier's Bouclier"
 	},
 	[5081] = {
 		id = 5081,
-		name = "Chevalier's Sabre "
+		name = "Chevalier's Sabre"
 	},
 	[5080] = {
 		id = 5080,
-		name = "Chevalier's Sabre "
+		name = "Chevalier's Sabre"
 	},
 	[5111] = {
 		id = 5111,
-		name = "One For All "
+		name = "One For All"
 	},
 	[6000] = {
 		id = 6000,
@@ -518,7 +518,7 @@ pg.skill_data_display = {
 	},
 	[6130] = {
 		id = 6130,
-		name = "Pearl's Tears "
+		name = "Pearl's Tears"
 	},
 	[6140] = {
 		id = 6140,
@@ -574,7 +574,7 @@ pg.skill_data_display = {
 	},
 	[6260] = {
 		id = 6260,
-		name = "Precision Lock-on "
+		name = "Precision Lock-on"
 	},
 	[6270] = {
 		id = 6270,
@@ -595,6 +595,10 @@ pg.skill_data_display = {
 	[8521] = {
 		id = 8521,
 		name = "Reborn Combined Fleet Flagship"
+	},
+	[8609] = {
+		id = 8609,
+		name = "Surpass Limits "
 	},
 	[8640] = {
 		id = 8640,
@@ -642,15 +646,35 @@ pg.skill_data_display = {
 	},
 	[8671] = {
 		id = 8671,
-		name = "Surface Mode "
+		name = "Surface Mode"
 	},
 	[8685] = {
 		id = 8685,
-		name = "Precision Salvo Protocol "
+		name = "Precision Salvo Protocol"
 	},
 	[8688] = {
 		id = 8688,
-		name = "Bellowing Gusts of Fire "
+		name = "Bellowing Gusts of Fire"
+	},
+	[8700] = {
+		id = 8700,
+		name = "Power Inhibition Release Ⅰ"
+	},
+	[8701] = {
+		id = 8701,
+		name = "Power Inhibition Release Ⅱ"
+	},
+	[8702] = {
+		id = 8702,
+		name = "Power Inhibition Release Ⅲ"
+	},
+	[8703] = {
+		id = 8703,
+		name = "Power Inhibition Release Ⅳ"
+	},
+	[8705] = {
+		id = 8705,
+		name = "Exhaustion"
 	},
 	[9010] = {
 		id = 9010,
@@ -1002,7 +1026,7 @@ pg.skill_data_display = {
 	},
 	[10760] = {
 		id = 10760,
-		name = "Dragon Empery Bond "
+		name = "Dragon Empery Bond"
 	},
 	[10770] = {
 		id = 10770,
@@ -1134,7 +1158,7 @@ pg.skill_data_display = {
 	},
 	[11020] = {
 		id = 11020,
-		name = "Double Sting "
+		name = "Double Sting"
 	},
 	[11030] = {
 		id = 11030,
@@ -1206,7 +1230,7 @@ pg.skill_data_display = {
 	},
 	[11190] = {
 		id = 11190,
-		name = "Accompanying Wind "
+		name = "Accompanying Wind"
 	},
 	[11200] = {
 		id = 11200,
@@ -1222,15 +1246,15 @@ pg.skill_data_display = {
 	},
 	[11230] = {
 		id = 11230,
-		name = "Yukikaze of Kure "
+		name = "Yukikaze of Kure"
 	},
 	[11231] = {
 		id = 11231,
-		name = "Yukikaze of Kure "
+		name = "Yukikaze of Kure"
 	},
 	[11240] = {
 		id = 11240,
-		name = "The Unsinkable Lucky Ship "
+		name = "The Unsinkable Lucky Ship"
 	},
 	[11250] = {
 		id = 11250,
@@ -1306,7 +1330,7 @@ pg.skill_data_display = {
 	},
 	[11390] = {
 		id = 11390,
-		name = "Silent Hunter "
+		name = "Silent Hunter"
 	},
 	[11400] = {
 		id = 11400,
@@ -1314,7 +1338,7 @@ pg.skill_data_display = {
 	},
 	[11410] = {
 		id = 11410,
-		name = "Wolf Pack Formation - U81 "
+		name = "Wolf Pack Formation - U81"
 	},
 	[11420] = {
 		id = 11420,
@@ -1326,7 +1350,7 @@ pg.skill_data_display = {
 	},
 	[11440] = {
 		id = 11440,
-		name = "The Bull of Scapa Flow "
+		name = "The Bull of Scapa Flow"
 	},
 	[11450] = {
 		id = 11450,
@@ -1334,11 +1358,11 @@ pg.skill_data_display = {
 	},
 	[11460] = {
 		id = 11460,
-		name = "Lone Wolf "
+		name = "Lone Wolf"
 	},
 	[11461] = {
 		id = 11461,
-		name = "Lone Wolf "
+		name = "Lone Wolf"
 	},
 	[11470] = {
 		id = 11470,
@@ -1346,27 +1370,27 @@ pg.skill_data_display = {
 	},
 	[11480] = {
 		id = 11480,
-		name = "Battle of Kula Gulf "
+		name = "Battle of Kula Gulf"
 	},
 	[11481] = {
 		id = 11481,
-		name = "Battle of Kula Gulf "
+		name = "Battle of Kula Gulf"
 	},
 	[11490] = {
 		id = 11490,
-		name = "Frontal Fire "
+		name = "Frontal Fire"
 	},
 	[11491] = {
 		id = 11491,
-		name = "Frontal Fire "
+		name = "Frontal Fire"
 	},
 	[11500] = {
 		id = 11500,
-		name = "Radiant Iris "
+		name = "Radiant Iris"
 	},
 	[11501] = {
 		id = 11501,
-		name = "Radiant Iris "
+		name = "Radiant Iris"
 	},
 	[11510] = {
 		id = 11510,
@@ -1386,7 +1410,7 @@ pg.skill_data_display = {
 	},
 	[11550] = {
 		id = 11550,
-		name = "Big Mamie "
+		name = "Big Mamie"
 	},
 	[11560] = {
 		id = 11560,
@@ -1398,15 +1422,15 @@ pg.skill_data_display = {
 	},
 	[11580] = {
 		id = 11580,
-		name = "Swordfishes, Attack! "
+		name = "Swordfishes, Attack!"
 	},
 	[11581] = {
 		id = 11581,
-		name = "Swordfishes, Attack! "
+		name = "Swordfishes, Attack!"
 	},
 	[11590] = {
 		id = 11590,
-		name = "Airspace Dominance "
+		name = "Airspace Dominance"
 	},
 	[11600] = {
 		id = 11600,
@@ -1426,7 +1450,7 @@ pg.skill_data_display = {
 	},
 	[11620] = {
 		id = 11620,
-		name = "Predestined Launch "
+		name = "Predestined Launch"
 	},
 	[11621] = {
 		id = 11621,
@@ -1442,59 +1466,59 @@ pg.skill_data_display = {
 	},
 	[11630] = {
 		id = 11630,
-		name = "Heavily Armored "
+		name = "Heavily Armored"
 	},
 	[11640] = {
 		id = 11640,
-		name = "Valorous Avengers "
+		name = "Valorous Avengers"
 	},
 	[11641] = {
 		id = 11641,
-		name = "Valorous Avengers "
+		name = "Valorous Avengers"
 	},
 	[11650] = {
 		id = 11650,
-		name = "Covering Formation "
+		name = "Covering Formation"
 	},
 	[11651] = {
 		id = 11651,
-		name = "Covering Formation "
+		name = "Covering Formation"
 	},
 	[11660] = {
 		id = 11660,
-		name = "Absolute Evasion "
+		name = "Absolute Evasion"
 	},
 	[11670] = {
 		id = 11670,
-		name = "Surpriiiiiiiise! "
+		name = "Surpriiiiiiiise!"
 	},
 	[11680] = {
 		id = 11680,
-		name = "Experienced Hunter "
+		name = "Experienced Hunter"
 	},
 	[11690] = {
 		id = 11690,
-		name = "Thrill of the Hunt "
+		name = "Thrill of the Hunt"
 	},
 	[11691] = {
 		id = 11691,
-		name = "Thrill of the Hunt "
+		name = "Thrill of the Hunt"
 	},
 	[11700] = {
 		id = 11700,
-		name = "Bold But Reckless "
+		name = "Bold But Reckless"
 	},
 	[11710] = {
 		id = 11710,
-		name = "Dullahan "
+		name = "Dullahan"
 	},
 	[11720] = {
 		id = 11720,
-		name = "Sparkling Battle Star! "
+		name = "Sparkling Battle Star!"
 	},
 	[11721] = {
 		id = 11721,
-		name = "Sparkling Battle Star! "
+		name = "Sparkling Battle Star!"
 	},
 	[11730] = {
 		id = 11730,
@@ -1502,15 +1526,15 @@ pg.skill_data_display = {
 	},
 	[11740] = {
 		id = 11740,
-		name = "Wind Rider "
+		name = "Wind Rider"
 	},
 	[11750] = {
 		id = 11750,
-		name = "Light Carrier Unit "
+		name = "Light Carrier Unit"
 	},
 	[11760] = {
 		id = 11760,
-		name = "Raid Signal "
+		name = "Raid Signal"
 	},
 	[11761] = {
 		id = 11761,
@@ -1522,15 +1546,15 @@ pg.skill_data_display = {
 	},
 	[11770] = {
 		id = 11770,
-		name = "Darkness Field "
+		name = "Darkness Field"
 	},
 	[11780] = {
 		id = 11780,
-		name = "Ageless Phoenix "
+		name = "Ageless Phoenix"
 	},
 	[11790] = {
 		id = 11790,
-		name = "Efficacious Planning "
+		name = "Efficacious Planning"
 	},
 	[11800] = {
 		id = 11800,
@@ -1554,7 +1578,7 @@ pg.skill_data_display = {
 	},
 	[11830] = {
 		id = 11830,
-		name = "Flowers of Fate "
+		name = "Flowers of Fate"
 	},
 	[11831] = {
 		id = 11831,
@@ -1574,7 +1598,7 @@ pg.skill_data_display = {
 	},
 	[11840] = {
 		id = 11840,
-		name = "Flowers of Fate "
+		name = "Flowers of Fate"
 	},
 	[11841] = {
 		id = 11841,
@@ -1598,19 +1622,19 @@ pg.skill_data_display = {
 	},
 	[11860] = {
 		id = 11860,
-		name = "Mark of Sirius "
+		name = "Mark of Sirius"
 	},
 	[11870] = {
 		id = 11870,
-		name = "Divine Marksman+ "
+		name = "Divine Marksman+"
 	},
 	[11871] = {
 		id = 11871,
-		name = "Divine Marksman+ "
+		name = "Divine Marksman+"
 	},
 	[11880] = {
 		id = 11880,
-		name = "The Royal Navy Legend "
+		name = "The Royal Navy Legend"
 	},
 	[11890] = {
 		id = 11890,
@@ -1619,6 +1643,38 @@ pg.skill_data_display = {
 	[11900] = {
 		id = 11900,
 		name = "Protector of The North Passage"
+	},
+	[11910] = {
+		id = 11910,
+		name = "Patriotic Spirit"
+	},
+	[11920] = {
+		id = 11920,
+		name = "Knights of the Sky"
+	},
+	[11921] = {
+		id = 11921,
+		name = "Knights of the Sky"
+	},
+	[11922] = {
+		id = 11922,
+		name = "Knights of the Sky"
+	},
+	[11930] = {
+		id = 11930,
+		name = "Fantastical Takeoff "
+	},
+	[11940] = {
+		id = 11940,
+		name = "Observer of the Sky and Sea "
+	},
+	[11941] = {
+		id = 11941,
+		name = "Observer of the Sky and Sea "
+	},
+	[11942] = {
+		id = 11942,
+		name = "Observer of the Sky and Sea "
 	},
 	[11980] = {
 		id = 11980,
@@ -1650,7 +1706,7 @@ pg.skill_data_display = {
 	},
 	[12040] = {
 		id = 12040,
-		name = "Whimsical Inventor "
+		name = "Whimsical Inventor"
 	},
 	[12041] = {
 		id = 12041,
@@ -1686,7 +1742,7 @@ pg.skill_data_display = {
 	},
 	[12060] = {
 		id = 12060,
-		name = "Priestess of the Sacred Mountain "
+		name = "Priestess of the Sacred Mountain"
 	},
 	[12070] = {
 		id = 12070,
@@ -1698,11 +1754,11 @@ pg.skill_data_display = {
 	},
 	[12090] = {
 		id = 12090,
-		name = "Taste My Wrath! "
+		name = "Taste My Wrath!"
 	},
 	[12091] = {
 		id = 12091,
-		name = "Prepare to launch~ "
+		name = "Prepare to launch~"
 	},
 	[12092] = {
 		id = 12092,
@@ -1738,83 +1794,83 @@ pg.skill_data_display = {
 	},
 	[12130] = {
 		id = 12130,
-		name = "Unwavering Strength "
+		name = "Unwavering Strength"
 	},
 	[12131] = {
 		id = 12131,
-		name = "Unwavering Strength "
+		name = "Unwavering Strength"
 	},
 	[12132] = {
 		id = 12132,
-		name = "Unwavering Strength "
+		name = "Unwavering Strength"
 	},
 	[12135] = {
 		id = 12135,
-		name = "Unwavering Strength "
+		name = "Unwavering Strength"
 	},
 	[12140] = {
 		id = 12140,
-		name = "Will of the Iron Blood "
+		name = "Will of the Iron Blood"
 	},
 	[12150] = {
 		id = 12150,
-		name = "Armament Optimization "
+		name = "Armament Optimization"
 	},
 	[12151] = {
 		id = 12151,
-		name = "Armament Optimization "
+		name = "Armament Optimization"
 	},
 	[12152] = {
 		id = 12152,
-		name = "Armament Optimization "
+		name = "Armament Optimization"
 	},
 	[12153] = {
 		id = 12153,
-		name = "Armament Optimization "
+		name = "Armament Optimization"
 	},
 	[12160] = {
 		id = 12160,
-		name = "The Glory of the Never-Setting Sun "
+		name = "The Glory of the Never-Setting Sun"
 	},
 	[12161] = {
 		id = 12161,
-		name = "The Glory of the Never-Setting Sun "
+		name = "The Glory of the Never-Setting Sun"
 	},
 	[12170] = {
 		id = 12170,
-		name = "Armament Optimization "
+		name = "Armament Optimization"
 	},
 	[12171] = {
 		id = 12171,
-		name = "Armament Optimization "
+		name = "Armament Optimization"
 	},
 	[12172] = {
 		id = 12172,
-		name = "Armament Optimization "
+		name = "Armament Optimization"
 	},
 	[12173] = {
 		id = 12173,
-		name = "Armament Optimization "
+		name = "Armament Optimization"
 	},
 	[12180] = {
 		id = 12180,
-		name = "The Light of an Oath "
+		name = "The Light of an Oath"
 	},
 	[12181] = {
 		id = 12181,
-		name = "The Light of an Oath "
+		name = "The Light of an Oath"
 	},
 	[12182] = {
 		id = 12182,
-		name = "The Light of an Oath "
+		name = "The Light of an Oath"
 	},
 	[12190] = {
 		id = 12190,
-		name = "Devilish Strike "
+		name = "Devilish Strike"
 	},
 	[12191] = {
 		id = 12191,
-		name = "Devilish Strike "
+		name = "Devilish Strike"
 	},
 	[12200] = {
 		id = 12200,
@@ -1822,7 +1878,7 @@ pg.skill_data_display = {
 	},
 	[12210] = {
 		id = 12210,
-		name = "Kolibri Assault "
+		name = "Kolibri Assault"
 	},
 	[12280] = {
 		id = 12280,
@@ -1838,27 +1894,27 @@ pg.skill_data_display = {
 	},
 	[12220] = {
 		id = 12220,
-		name = "Youthful Light "
+		name = "Youthful Light"
 	},
 	[12230] = {
 		id = 12230,
-		name = "Girls' Support "
+		name = "Girls' Support"
 	},
 	[12233] = {
 		id = 12233,
-		name = "Girls' Support "
+		name = "Girls' Support"
 	},
 	[12240] = {
 		id = 12240,
-		name = "Calibur's Heart "
+		name = "Calibur's Heart"
 	},
 	[12250] = {
 		id = 12250,
-		name = "Calibur's Carrier "
+		name = "Calibur's Carrier"
 	},
 	[12251] = {
 		id = 12251,
-		name = "Calibur's Carrier "
+		name = "Calibur's Carrier"
 	},
 	[12260] = {
 		id = 12260,
@@ -1882,27 +1938,27 @@ pg.skill_data_display = {
 	},
 	[12320] = {
 		id = 12320,
-		name = "Poisonous Sting "
+		name = "Poisonous Sting"
 	},
 	[12321] = {
 		id = 12321,
-		name = "Poisonous Sting "
+		name = "Poisonous Sting"
 	},
 	[12330] = {
 		id = 12330,
-		name = "Vichya's Vindictive Blade "
+		name = "Vichya's Vindictive Blade"
 	},
 	[12350] = {
 		id = 12350,
-		name = "Unyielding Magician "
+		name = "Unyielding Magician"
 	},
 	[12351] = {
 		id = 12351,
-		name = "Unyielding Magician "
+		name = "Unyielding Magician"
 	},
 	[12360] = {
 		id = 12360,
-		name = "Messenger of Love "
+		name = "Messenger of Love"
 	},
 	[12361] = {
 		id = 12361,
@@ -1914,35 +1970,35 @@ pg.skill_data_display = {
 	},
 	[12370] = {
 		id = 12370,
-		name = "Glen Assault "
+		name = "Glen Assault"
 	},
 	[12380] = {
 		id = 12380,
-		name = "Destructive Departure "
+		name = "Destructive Departure"
 	},
 	[12390] = {
 		id = 12390,
-		name = "Turning The Tables! "
+		name = "Turning The Tables!"
 	},
 	[12391] = {
 		id = 12391,
-		name = "Turning The Tables! "
+		name = "Turning The Tables!"
 	},
 	[12400] = {
 		id = 12400,
-		name = "Great Shark's Bite "
+		name = "Great Shark's Bite"
 	},
 	[12401] = {
 		id = 12401,
-		name = "Great Shark's Bite "
+		name = "Great Shark's Bite"
 	},
 	[12410] = {
 		id = 12410,
-		name = "Wolf Pack Formation - U-101 "
+		name = "Wolf Pack Formation - U-101"
 	},
 	[12411] = {
 		id = 12411,
-		name = "Wolf Pack Formation - U-101 "
+		name = "Wolf Pack Formation - U-101"
 	},
 	[12420] = {
 		id = 12420,
@@ -1970,215 +2026,215 @@ pg.skill_data_display = {
 	},
 	[12440] = {
 		id = 12440,
-		name = "Just Gettin' Fired Up "
+		name = "Just Gettin' Fired Up"
 	},
 	[12443] = {
 		id = 12443,
-		name = "Just Gettin' Fired Up "
+		name = "Just Gettin' Fired Up"
 	},
 	[12444] = {
 		id = 12444,
-		name = "Just Gettin' Fired Up "
+		name = "Just Gettin' Fired Up"
 	},
 	[12460] = {
 		id = 12460,
-		name = "Just Gettin' Fired Up "
+		name = "Just Gettin' Fired Up"
 	},
 	[12461] = {
 		id = 12461,
-		name = "Just Gettin' Fired Up "
+		name = "Just Gettin' Fired Up"
 	},
 	[12470] = {
 		id = 12470,
-		name = "Double The Gato "
+		name = "Double The Gato"
 	},
 	[12471] = {
 		id = 12471,
-		name = "Double The Gato "
+		name = "Double The Gato"
 	},
 	[12472] = {
 		id = 12472,
-		name = "Double The Gato "
+		name = "Double The Gato"
 	},
 	[12480] = {
 		id = 12480,
-		name = "APsolute Ammunition "
+		name = "APsolute Ammunition"
 	},
 	[12490] = {
 		id = 12490,
-		name = "Adaptive Tactics "
+		name = "Adaptive Tactics"
 	},
 	[12491] = {
 		id = 12491,
-		name = "Adaptive Tactics "
+		name = "Adaptive Tactics"
 	},
 	[12500] = {
 		id = 12500,
-		name = "Hellcat's Roar "
+		name = "Hellcat's Roar"
 	},
 	[12501] = {
 		id = 12501,
-		name = "Hellcat's Roar "
+		name = "Hellcat's Roar"
 	},
 	[12520] = {
 		id = 12520,
-		name = "Tenacious Knight of the Sea "
+		name = "Tenacious Knight of the Sea"
 	},
 	[12521] = {
 		id = 12521,
-		name = "Tenacious Knight of the Sea "
+		name = "Tenacious Knight of the Sea"
 	},
 	[12530] = {
 		id = 12530,
-		name = "Resolute Knight of the Sea "
+		name = "Resolute Knight of the Sea"
 	},
 	[12531] = {
 		id = 12531,
-		name = "Resolute Knight of the Sea "
+		name = "Resolute Knight of the Sea"
 	},
 	[12540] = {
 		id = 12540,
-		name = "I'll Handle This! "
+		name = "I'll Handle This!"
 	},
 	[12541] = {
 		id = 12541,
-		name = "I'll Handle This! "
+		name = "I'll Handle This!"
 	},
 	[12550] = {
 		id = 12550,
-		name = "Longbow of Woodstock "
+		name = "Longbow of Woodstock"
 	},
 	[12560] = {
 		id = 12560,
-		name = "Bache In The Sky "
+		name = "Bache In The Sky"
 	},
 	[12561] = {
 		id = 12561,
-		name = "Bache In The Sky "
+		name = "Bache In The Sky"
 	},
 	[12570] = {
 		id = 12570,
-		name = "Supporting Wings "
+		name = "Supporting Wings"
 	},
 	[12571] = {
 		id = 12571,
-		name = "Supporting Wings "
+		name = "Supporting Wings"
 	},
 	[12572] = {
 		id = 12572,
-		name = "Supporting Wings "
+		name = "Supporting Wings"
 	},
 	[12580] = {
 		id = 12580,
-		name = "Don't Move An Inch! "
+		name = "Don't Move An Inch!"
 	},
 	[12581] = {
 		id = 12581,
-		name = "Don't Move An Inch! "
+		name = "Don't Move An Inch!"
 	},
 	[12582] = {
 		id = 12582,
-		name = "Don't Move An Inch! "
+		name = "Don't Move An Inch!"
 	},
 	[12590] = {
 		id = 12590,
-		name = "Armoured Hangar "
+		name = "Armoured Hangar"
 	},
 	[12591] = {
 		id = 12591,
-		name = "Armoured Hangar "
+		name = "Armoured Hangar"
 	},
 	[12592] = {
 		id = 12592,
-		name = "Armoured Hangar "
+		name = "Armoured Hangar"
 	},
 	[12600] = {
 		id = 12600,
-		name = "Rosa Bombardamento "
+		name = "Rosa Bombardamento"
 	},
 	[12601] = {
 		id = 12601,
-		name = "Rosa Bombardamento "
+		name = "Rosa Bombardamento"
 	},
 	[12602] = {
 		id = 12602,
-		name = "Rosa Bombardamento "
+		name = "Rosa Bombardamento"
 	},
 	[12603] = {
 		id = 12603,
-		name = "Rosa Bombardamento "
+		name = "Rosa Bombardamento"
 	},
 	[12605] = {
 		id = 12605,
-		name = "Rosa Bombardamento "
+		name = "Rosa Bombardamento"
 	},
 	[12606] = {
 		id = 12606,
-		name = "Rosa Bombardamento "
+		name = "Rosa Bombardamento"
 	},
 	[12607] = {
 		id = 12607,
-		name = "Rosa Bombardamento "
+		name = "Rosa Bombardamento"
 	},
 	[12608] = {
 		id = 12608,
-		name = "Rosa Bombardamento "
+		name = "Rosa Bombardamento"
 	},
 	[12610] = {
 		id = 12610,
-		name = "Sardegnian Discipline "
+		name = "Sardegnian Discipline"
 	},
 	[12611] = {
 		id = 12611,
-		name = "Sardegnian Discipline "
+		name = "Sardegnian Discipline"
 	},
 	[12612] = {
 		id = 12612,
-		name = "Sardegnian Discipline "
+		name = "Sardegnian Discipline"
 	},
 	[12620] = {
 		id = 12620,
-		name = "Terni Shields "
+		name = "Terni Shields"
 	},
 	[12621] = {
 		id = 12621,
-		name = "Terni Shields "
+		name = "Terni Shields"
 	},
 	[12630] = {
 		id = 12630,
-		name = "Semi-Armor Piercing High-Explosive "
+		name = "Semi-Armor Piercing High-Explosive"
 	},
 	[12631] = {
 		id = 12631,
-		name = "Semi-Armor Piercing High-Explosive "
+		name = "Semi-Armor Piercing High-Explosive"
 	},
 	[12640] = {
 		id = 12640,
-		name = "Sardegnian Coercion "
+		name = "Sardegnian Coercion"
 	},
 	[12650] = {
 		id = 12650,
-		name = "Fading Memories of Glory "
+		name = "Fading Memories of Glory"
 	},
 	[12651] = {
 		id = 12651,
-		name = "Fading Memories of Glory "
+		name = "Fading Memories of Glory"
 	},
 	[12660] = {
 		id = 12660,
-		name = "Ricarica! "
+		name = "Ricarica!"
 	},
 	[12670] = {
 		id = 12670,
-		name = "Fuoco di Copertura! "
+		name = "Fuoco di Copertura!"
 	},
 	[12680] = {
 		id = 12680,
-		name = "Rain and Snow "
+		name = "Rain and Snow"
 	},
 	[12681] = {
 		id = 12681,
-		name = "Rain and Snow "
+		name = "Rain and Snow"
 	},
 	[12690] = {
 		id = 12690,
@@ -2282,7 +2338,7 @@ pg.skill_data_display = {
 	},
 	[12800] = {
 		id = 12800,
-		name = "Unleashed Tactics "
+		name = "Unleashed Tactics"
 	},
 	[12801] = {
 		id = 12801,
@@ -2302,87 +2358,87 @@ pg.skill_data_display = {
 	},
 	[12810] = {
 		id = 12810,
-		name = "Unleashed Tactics "
+		name = "Unleashed Tactics"
 	},
 	[12820] = {
 		id = 12820,
-		name = "Unyielding Shield "
+		name = "Unyielding Shield"
 	},
 	[12821] = {
 		id = 12821,
-		name = "Unyielding Shield "
+		name = "Unyielding Shield"
 	},
 	[12822] = {
 		id = 12822,
-		name = "Unyielding Shield "
+		name = "Unyielding Shield"
 	},
 	[12830] = {
 		id = 12830,
-		name = "Noshiro's Hoarfrost "
+		name = "Noshiro's Hoarfrost"
 	},
 	[12840] = {
 		id = 12840,
-		name = "Skyslayer's Edge "
+		name = "Skyslayer's Edge"
 	},
 	[12850] = {
 		id = 12850,
-		name = "Demonblade "
+		name = "Demonblade"
 	},
 	[12860] = {
 		id = 12860,
-		name = "Swirling Cherry Blossoms "
+		name = "Swirling Cherry Blossoms"
 	},
 	[12862] = {
 		id = 12862,
-		name = "Swirling Cherry Blossoms "
+		name = "Swirling Cherry Blossoms"
 	},
 	[12870] = {
 		id = 12870,
-		name = "Dancing Waves "
+		name = "Dancing Waves"
 	},
 	[12871] = {
 		id = 12871,
-		name = "Dancing Waves "
+		name = "Dancing Waves"
 	},
 	[12873] = {
 		id = 12873,
-		name = "Dancing Waves "
+		name = "Dancing Waves"
 	},
 	[12875] = {
 		id = 12875,
-		name = "Dancing Waves "
+		name = "Dancing Waves"
 	},
 	[12880] = {
 		id = 12880,
-		name = "Demon's Wish "
+		name = "Demon's Wish"
 	},
 	[12882] = {
 		id = 12882,
-		name = "Demon's Wish "
+		name = "Demon's Wish"
 	},
 	[12890] = {
 		id = 12890,
-		name = "Foo and Friends "
+		name = "Foo and Friends"
 	},
 	[12891] = {
 		id = 12891,
-		name = "Foo was scared away... "
+		name = "Foo was scared away..."
 	},
 	[12892] = {
 		id = 12892,
-		name = "Foo and Friends "
+		name = "Foo and Friends"
 	},
 	[12900] = {
 		id = 12900,
-		name = "Phoenix's Plumage "
+		name = "Phoenix's Plumage"
 	},
 	[12901] = {
 		id = 12901,
-		name = "Phoenix's Plumage "
+		name = "Phoenix's Plumage"
 	},
 	[12910] = {
 		id = 12910,
-		name = "Destroyer Division 6: Hibiki "
+		name = "Destroyer Division 6: Hibiki"
 	},
 	[12930] = {
 		id = 12930,
@@ -2478,179 +2534,179 @@ pg.skill_data_display = {
 	},
 	[13070] = {
 		id = 13070,
-		name = "Soaring Silver Wings "
+		name = "Soaring Silver Wings"
 	},
 	[13080] = {
 		id = 13080,
-		name = "Formation Shift "
+		name = "Formation Shift"
 	},
 	[13081] = {
 		id = 13081,
-		name = "Formation Shift "
+		name = "Formation Shift"
 	},
 	[13090] = {
 		id = 13090,
-		name = "The Fearless Fighting I "
+		name = "The Fearless Fighting I"
 	},
 	[13100] = {
 		id = 13100,
-		name = "Blazing Burst Wings "
+		name = "Blazing Burst Wings"
 	},
 	[13101] = {
 		id = 13101,
-		name = "Blazing Burst Wings "
+		name = "Blazing Burst Wings"
 	},
 	[13110] = {
 		id = 13110,
-		name = "One for the Team "
+		name = "One for the Team"
 	},
 	[13111] = {
 		id = 13111,
-		name = "One for the Team "
+		name = "One for the Team"
 	},
 	[13120] = {
 		id = 13120,
-		name = "Vigilant Supporter "
+		name = "Vigilant Supporter"
 	},
 	[13121] = {
 		id = 13121,
-		name = "Vigilant Supporter "
+		name = "Vigilant Supporter"
 	},
 	[13130] = {
 		id = 13130,
-		name = "Black Cat Cyclone "
+		name = "Black Cat Cyclone"
 	},
 	[13131] = {
 		id = 13131,
-		name = "Black Cat Cyclone "
+		name = "Black Cat Cyclone"
 	},
 	[13140] = {
 		id = 13140,
-		name = "Reno Reactor "
+		name = "Reno Reactor"
 	},
 	[13142] = {
 		id = 13142,
-		name = "Reno Reactor "
+		name = "Reno Reactor"
 	},
 	[13150] = {
 		id = 13150,
-		name = "Blue Hunter "
+		name = "Blue Hunter"
 	},
 	[13160] = {
 		id = 13160,
-		name = "Accomplish Any Feat! "
+		name = "Accomplish Any Feat!"
 	},
 	[13161] = {
 		id = 13161,
-		name = "Accomplish Any Feat! "
+		name = "Accomplish Any Feat!"
 	},
 	[13162] = {
 		id = 13162,
-		name = "Accomplish Any Feat! "
+		name = "Accomplish Any Feat!"
 	},
 	[13163] = {
 		id = 13163,
-		name = "Accomplish Any Feat! "
+		name = "Accomplish Any Feat!"
 	},
 	[13166] = {
 		id = 13166,
-		name = "Accomplish Any Feat! "
+		name = "Accomplish Any Feat!"
 	},
 	[13167] = {
 		id = 13167,
-		name = "Accomplish Any Feat! "
+		name = "Accomplish Any Feat!"
 	},
 	[13168] = {
 		id = 13168,
-		name = "Accomplish Any Feat! "
+		name = "Accomplish Any Feat!"
 	},
 	[13170] = {
 		id = 13170,
-		name = "Crush Any Contender! "
+		name = "Crush Any Contender!"
 	},
 	[13171] = {
 		id = 13171,
-		name = "Crush Any Contender! "
+		name = "Crush Any Contender!"
 	},
 	[13180] = {
 		id = 13180,
-		name = "Legacy of Lunga Point "
+		name = "Legacy of Lunga Point"
 	},
 	[13190] = {
 		id = 13190,
-		name = "I'm Not Afraid Anymore! "
+		name = "I'm Not Afraid Anymore!"
 	},
 	[13191] = {
 		id = 13191,
-		name = "I'm Not Afraid Anymore! "
+		name = "I'm Not Afraid Anymore!"
 	},
 	[13200] = {
 		id = 13200,
-		name = "Knight's Shooting Training "
+		name = "Knight's Shooting Training"
 	},
 	[13201] = {
 		id = 13201,
-		name = "Knight's Shooting Training "
+		name = "Knight's Shooting Training"
 	},
 	[13202] = {
 		id = 13202,
-		name = "Knight's Shooting Training "
+		name = "Knight's Shooting Training"
 	},
 	[13203] = {
 		id = 13203,
-		name = "Knight's Shooting Training "
+		name = "Knight's Shooting Training"
 	},
 	[13210] = {
 		id = 13210,
-		name = "Knight's Formation Drill "
+		name = "Knight's Formation Drill"
 	},
 	[13220] = {
 		id = 13220,
-		name = "Crush Any Contender! "
+		name = "Crush Any Contender!"
 	},
 	[13230] = {
 		id = 13230,
-		name = "Arbiter of Z "
+		name = "Arbiter of Z"
 	},
 	[13240] = {
 		id = 13240,
-		name = "The Iris's Flagbearer "
+		name = "The Iris's Flagbearer"
 	},
 	[13250] = {
 		id = 13250,
-		name = "The Iris's Holy Flame "
+		name = "The Iris's Holy Flame"
 	},
 	[13251] = {
 		id = 13251,
-		name = "The Iris's Holy Flame "
+		name = "The Iris's Holy Flame"
 	},
 	[13256] = {
 		id = 13256,
-		name = "The Iris's Holy Flame "
+		name = "The Iris's Holy Flame"
 	},
 	[13260] = {
 		id = 13260,
-		name = "The Iris's Vindication "
+		name = "The Iris's Vindication"
 	},
 	[13270] = {
 		id = 13270,
-		name = "Bellowing Gusts of Fire "
+		name = "Bellowing Gusts of Fire"
 	},
 	[13271] = {
 		id = 13271,
-		name = "Bellowing Gusts of Fire "
+		name = "Bellowing Gusts of Fire"
 	},
 	[13272] = {
 		id = 13272,
-		name = "Bellowing Gusts of Fire "
+		name = "Bellowing Gusts of Fire"
 	},
 	[13280] = {
 		id = 13280,
-		name = "Divine Aegis "
+		name = "Divine Aegis"
 	},
 	[13281] = {
 		id = 13281,
-		name = "Divine Aegis "
+		name = "Divine Aegis"
 	},
 	[13290] = {
 		id = 13290,
@@ -2658,87 +2714,87 @@ pg.skill_data_display = {
 	},
 	[13300] = {
 		id = 13300,
-		name = "Holy Prayer "
+		name = "Holy Prayer"
 	},
 	[13301] = {
 		id = 13301,
-		name = "Holy Prayer "
+		name = "Holy Prayer"
 	},
 	[13310] = {
 		id = 13310,
-		name = "Critical Component Protection "
+		name = "Critical Component Protection"
 	},
 	[13311] = {
 		id = 13311,
-		name = "Critical Component Protection "
+		name = "Critical Component Protection"
 	},
 	[13320] = {
 		id = 13320,
-		name = "Shells of Judgment "
+		name = "Shells of Judgment"
 	},
 	[13321] = {
 		id = 13321,
-		name = "Shells of Judgment "
+		name = "Shells of Judgment"
 	},
 	[13330] = {
 		id = 13330,
-		name = "Sonnez la Charge! "
+		name = "Sonnez la Charge!"
 	},
 	[13340] = {
 		id = 13340,
-		name = "Sacrament: Holy Bombardment "
+		name = "Sacrament: Holy Bombardment"
 	},
 	[13341] = {
 		id = 13341,
-		name = "Sacrament: Holy Bombardment "
+		name = "Sacrament: Holy Bombardment"
 	},
 	[13342] = {
 		id = 13342,
-		name = "Sacrament: Holy Bombardment "
+		name = "Sacrament: Holy Bombardment"
 	},
 	[13350] = {
 		id = 13350,
-		name = "Sacrament: Sacred Second Wing "
+		name = "Sacrament: Sacred Second Wing"
 	},
 	[13351] = {
 		id = 13351,
-		name = "Sacrament: Sacred Second Wing "
+		name = "Sacrament: Sacred Second Wing"
 	},
 	[13360] = {
 		id = 13360,
-		name = "Take Off! "
+		name = "Take Off!"
 	},
 	[13361] = {
 		id = 13361,
-		name = "Take Off! "
+		name = "Take Off!"
 	},
 	[13370] = {
 		id = 13370,
-		name = "Prayer for Love and Peace "
+		name = "Prayer for Love and Peace"
 	},
 	[13371] = {
 		id = 13371,
-		name = "Prayer for Love and Peace "
+		name = "Prayer for Love and Peace"
 	},
 	[13380] = {
 		id = 13380,
-		name = "The Wonder of Kula Gulf "
+		name = "The Wonder of Kula Gulf"
 	},
 	[13381] = {
 		id = 13381,
-		name = "The Wonder of Kula Gulf "
+		name = "The Wonder of Kula Gulf"
 	},
 	[13400] = {
 		id = 13400,
-		name = "Radar Scan Plus "
+		name = "Radar Scan Plus"
 	},
 	[13401] = {
 		id = 13401,
-		name = "Radar Scan Plus "
+		name = "Radar Scan Plus"
 	},
 	[18010] = {
 		id = 18010,
-		name = "MKV-Class AP Shells 194/160+ "
+		name = "MKV-Class AP Shells 194/160+"
 	},
 	[18040] = {
 		id = 18040,
@@ -2842,11 +2898,11 @@ pg.skill_data_display = {
 	},
 	[19130] = {
 		id = 19130,
-		name = "No-Fly Zone! "
+		name = "No-Fly Zone!"
 	},
 	[19131] = {
 		id = 19131,
-		name = "No-Fly Zone! "
+		name = "No-Fly Zone!"
 	},
 	[19140] = {
 		id = 19140,
@@ -2870,87 +2926,87 @@ pg.skill_data_display = {
 	},
 	[19170] = {
 		id = 19170,
-		name = "Kitakaze Style - Horizon Splitter "
+		name = "Kitakaze Style - Horizon Splitter"
 	},
 	[19180] = {
 		id = 19180,
-		name = "Kitakaze Style - Lotus Torpedoes "
+		name = "Kitakaze Style - Lotus Torpedoes"
 	},
 	[19181] = {
 		id = 19181,
-		name = "Kitakaze Style - Lotus Torpedoes "
+		name = "Kitakaze Style - Lotus Torpedoes"
 	},
 	[19190] = {
 		id = 19190,
-		name = "Blazing Peaks "
+		name = "Blazing Peaks"
 	},
 	[19191] = {
 		id = 19191,
-		name = "Blazing Peaks "
+		name = "Blazing Peaks"
 	},
 	[19200] = {
 		id = 19200,
-		name = "Mizuho's Intuition "
+		name = "Mizuho's Intuition"
 	},
 	[19210] = {
 		id = 19210,
-		name = "Special Gunnery Training "
+		name = "Special Gunnery Training"
 	},
 	[19211] = {
 		id = 19211,
-		name = "Special Gunnery Training "
+		name = "Special Gunnery Training"
 	},
 	[19212] = {
 		id = 19212,
-		name = "Special Gunnery Training "
+		name = "Special Gunnery Training"
 	},
 	[19213] = {
 		id = 19213,
-		name = "Special Gunnery Training "
+		name = "Special Gunnery Training"
 	},
 	[19214] = {
 		id = 19214,
-		name = "Special Gunnery Training "
+		name = "Special Gunnery Training"
 	},
 	[19220] = {
 		id = 19220,
-		name = "Symphony of Destruction "
+		name = "Symphony of Destruction"
 	},
 	[19221] = {
 		id = 19221,
-		name = "Symphony of Destruction "
+		name = "Symphony of Destruction"
 	},
 	[19230] = {
 		id = 19230,
-		name = "Sonata of Chaos "
+		name = "Sonata of Chaos"
 	},
 	[19231] = {
 		id = 19231,
-		name = "Sonata of Chaos "
+		name = "Sonata of Chaos"
 	},
 	[19240] = {
 		id = 19240,
-		name = "Rhapsody of Darkness "
+		name = "Rhapsody of Darkness"
 	},
 	[19241] = {
 		id = 19241,
-		name = "Rhapsody of Darkness "
+		name = "Rhapsody of Darkness"
 	},
 	[19242] = {
 		id = 19242,
-		name = "Rhapsody of Darkness "
+		name = "Rhapsody of Darkness"
 	},
 	[19250] = {
 		id = 19250,
-		name = "Emotion Inhibition Module "
+		name = "Emotion Inhibition Module"
 	},
 	[19260] = {
 		id = 19260,
-		name = "Precision Salvo Protocol "
+		name = "Precision Salvo Protocol"
 	},
 	[19261] = {
 		id = 19261,
-		name = "Precision Salvo Protocol "
+		name = "Precision Salvo Protocol"
 	},
 	[20011] = {
 		id = 20011,
@@ -3539,6 +3595,14 @@ pg.skill_data_display = {
 	[23312] = {
 		id = 23312,
 		name = "All Out Assault Ⅱ"
+	},
+	[23321] = {
+		id = 23321,
+		name = "全弹发射I"
+	},
+	[23322] = {
+		id = 23322,
+		name = "全弹发射II"
 	},
 	[23411] = {
 		id = 23411,
@@ -4542,6 +4606,7 @@ pg.skill_data_display = {
 		7000,
 		7500,
 		8521,
+		8609,
 		8640,
 		8641,
 		8642,
@@ -4556,6 +4621,11 @@ pg.skill_data_display = {
 		8671,
 		8685,
 		8688,
+		8700,
+		8701,
+		8702,
+		8703,
+		8705,
 		9010,
 		9020,
 		9030,
@@ -4798,6 +4868,14 @@ pg.skill_data_display = {
 		11880,
 		11890,
 		11900,
+		11910,
+		11920,
+		11921,
+		11922,
+		11930,
+		11940,
+		11941,
+		11942,
 		11980,
 		11981,
 		11990,
@@ -5278,6 +5356,8 @@ pg.skill_data_display = {
 		23222,
 		23311,
 		23312,
+		23321,
+		23322,
 		23411,
 		23412,
 		23511,

@@ -374,7 +374,7 @@ function slot0.nextPage(slot0, slot1, slot2)
 			slot0:closeUpgrade()
 		elseif slot7 == ShipViewConst.PAGE.INTENSIFY and not slot0.intensifyContext then
 			slot0:closeIntensify()
-		elseif slot7 == ShipViewConst.PAGE.EQUIPMENT and slot0.contextData.isInEquipmentSkinPage and (not slot6:hasEquipEquipmentSkin() or not slot6:canModifyShip()) then
+		elseif slot7 == ShipViewConst.PAGE.EQUIPMENT and slot0.contextData.isInEquipmentSkinPage and (not slot6:hasEquipEquipmentSkin() or not ShipStatus.ShipStatusCheck("onModify", slot6)) then
 			slot0.viewComponent:switch2EquipmentSkinPage()
 		end
 

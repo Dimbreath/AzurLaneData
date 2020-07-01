@@ -1725,6 +1725,281 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[201100] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 201100,
+		expedition = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"C-Commander... I've been waitin' for ya~ Ah, um, I'm a tad peckish..."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Cy-Cyget is victorious~! Saratoga, I don't think I'm cut out for this!"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"Waaaaahhhh~ Commander... let's get out of heeere..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Eheheh... Now I got the bed to mysel– Huh?! Commander! What're ya doin' here?! Th-this ain't my room? It's yours? Waah... I'm so sorry..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Next I've got... Eh, hey! Righto, what a pose that was! Eheheh~"
+			}
+		},
+		main = {
+			{
+				1100,
+				"nil|Just like that time I went fishing with Minneapolis... Ahey! Like that... Heh heh. That's my \"St. Lawrence River\" technique. Wh-what do you think?|Y-you think I'm cute? Hehehe... the Commander thinks I'm cute... eheheh..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commnader, y-ya know I'm an idol? W-w-w-we can't do that... but... um..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"♪ Fish and chips ♪ with salt or with mayonnaise? I'll feed 'em to ya, Commander! Eheheh... open up~"
+			}
+		}
+	},
+	[901110] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 901110,
+		touch2 = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Destroyer, Le Malin... *yawn*... ready to sortie at... *yaawn*... Can't do this... Too sleepy..."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"The elegant arts of the Le Fantasque class... knows no equal!"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"Le Triomphant... Commander... I'm sorry!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Le Triomphant taught me how to make this tea... Look, I did it normally this time. No idea if it tastes any good though..."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"The heart of the Iris continues through me!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Roll, roll, rolling around... Commander, wanna join me?"
+			}
+		},
+		main = {
+			{
+				1100,
+				"nil|I didn't really do anything, but I still worked hard anyway... Yeah, go me~!|Hungry... Wanna eat Dunkerque's sweets... If I push through this, I'll be able to slack off later...Wh-what a pain..."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"The others have come back. Let's hurry up and welcome them back. Come on~!"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"We have new orders. They're addressed to you, Commander."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Commander, the mission rewards are here!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I do want... to go on a date, but I always get tired when we go to some faraway place... W-we should just go on a date at the dorms! Right?"
+			}
+		}
+	},
+	[205060] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 205060,
+		win_mvp = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Managing the fleet is complicated and difficult. If there's anything I can help out with, let me know."
+			}
+		},
+		lose = {
+			{
+				1100,
+				"A light heart lives long. Don't be too hard on yourself."
+			}
+		},
+		home = {
+			{
+				1100,
+				"A toast to our victory. Never forget that you are the reason that everyone can enjoy this peace for yet another day."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"For the glory of Her Majesty and the Commander!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Should I prepare a snack for you? I'm not skilled enough to be able to boast to others like George does, but my cooking won't disappoint, either."
+			}
+		},
+		main = {
+			{
+				1100,
+				"nil|Repulse, Vampire, and Hood, and Eugen and Bismarck... It seems there'll be no risk of boredom while I'm by your side.|I'm used to taking care of Her Highness' needs, so it's perfectly fine for you to make absurd requests from time to time. On top of that, I'll flawlessly complete your request and make you fall in love with me all over again... Hehe, how does that sound?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Is it already time for the tea party?"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Commissions have been completed. Let's go greet the girls together."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You know exactly what this means, right? Hehe."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Love based on pretense is a vile thing. I give myself to you as I am, and I accept you for who you are. No matter how many mistakes you make, I can overlook them all, because my eyes are cloudy with tears of happiness. That's what lovers do, after all."
+			}
+		}
+	},
+	[205070] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 205070,
+		expedition = "",
+		home = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"O, Commander who hath earned my adoration, what is thy desire?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Melt before the crimson apocalypse. Merely tearing thy husks apart is no longer enough to sate me."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"May these eyes sink into deep crimson..."
+			}
+		},
+		main = {
+			{
+				1100,
+				"Thy existence has greatly influenced my fighting style — Yes, it resonates with thy passionate eyes, and my pupils also become stained with thy blood-red colour. |I shalt not giveth thee to Wales, George, Anson, or Howe. Thou art my trophy, and the proof of my conquest.|Pitiable Scharnhorst, who knows not the value of thy skin, thy eyes, thy very body... Yes, Commander, thou art the world to me."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Melt into one, be it thou or myself, be it anything in existence—"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"O sinful serpent, thou hast chosen to entwine thyself around me. Dedicate thy love to me for all of eternity— and in return, accept my love, and the right to embrace me."
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -1754,6 +2029,10 @@ pg.ship_skin_words_extra = {
 		802020,
 		901020,
 		901030,
-		202030
+		202030,
+		201100,
+		901110,
+		205060,
+		205070
 	}
 }

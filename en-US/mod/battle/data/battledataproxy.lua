@@ -1303,7 +1303,7 @@ end
 function slot8.CLSBullet(slot0, slot1)
 	slot2 = true
 
-	if slot0._battleInitData.battleType == SYSTEM_DUEL or slot3 == SYSTEM_SHAM and slot1 == uv0.FRIENDLY_CODE then
+	if slot0._battleInitData.battleType == SYSTEM_DUEL then
 		slot2 = false
 	end
 

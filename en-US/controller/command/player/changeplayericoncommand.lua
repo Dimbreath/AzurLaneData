@@ -1,4 +1,4 @@
-slot0 = class("ChangePlayerIcon", pm.SimpleCommand)
+slot0 = class("ChangePlayerIconCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
@@ -40,6 +40,7 @@ function slot0.execute(slot0, slot1)
 			uv1.skinId = slot2.skinId
 
 			uv2:updatePlayer(uv1)
+			pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inAdmiral")
 
 			if uv3 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("change_skin_secretary_ship"))

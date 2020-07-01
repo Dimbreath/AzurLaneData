@@ -3,8 +3,8 @@ slot1 = 0.5
 
 function slot0.Ctor(slot0, slot1, slot2)
 	slot0.go = slot1
-	slot0.showTagNoBlock = slot2 or false
 	slot0.tr = slot1.transform
+	slot0.tagFlags = slot2 or {}
 	slot0.toggle = GetOrAddComponent(slot0.tr, typeof(Toggle))
 	slot0.content = findTF(slot0.tr, "content").gameObject
 	slot0.quit = findTF(slot0.tr, "quit_button").gameObject
@@ -19,7 +19,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 
 	slot0.lock = findTF(slot0.tr, "content/dockyard/container/lock")
 	slot0.maskStatusOb = findTF(slot0.tr, "content/front/status_mask")
-	slot0.iconStatus = findTF(slot0.tr, "content/dockyard/status"):GetComponent("Image")
+	slot0.iconStatus = findTF(slot0.tr, "content/dockyard/status")
 	slot0.iconStatusTxt = findTF(slot0.tr, "content/dockyard/status/Text"):GetComponent("Text")
 	slot0.selectedGo = findTF(slot0.tr, "content/front/selected").gameObject
 	slot0.energyTF = findTF(slot0.tr, "content/dockyard/container/energy")
@@ -80,54 +80,25 @@ function slot0.flush(slot0)
 		setActive(slot0.energyTF, slot7)
 		setScrollText(slot0.labelName, slot1:getName())
 
-		slot8 = slot1:getFleetId() == FleetProxy.PVP_FLEET_ID
+		if ShipStatus.ShipStatusToTag(slot1, slot0.tagFlags) then
+			slot0.iconStatusTxt.text = slot8[3]
 
-		if ShipStatus.ShipStatu2Bg(slot1) then
-			slot0.iconStatus.sprite = GetSpriteFromAtlas("shipstatus", slot9)
+			GetSpriteFromAtlasAsync(slot8[1], slot8[2], function (slot0)
+				setImageSprite(uv0.iconStatus, slot0, true)
+				setActive(uv0.iconStatus, true)
 
-			slot0.iconStatus.gameObject:SetActive(true)
-
-			if slot1.inWorld then
-				if slot5 then
-					if slot4.fleetId ~= nil then
-						tf(slot0.iconStatus).sizeDelta = Vector2(105, 36)
-						slot0.iconStatusTxt.text = Fleet.DEFAULT_NAME_FOR_DOCKYARD[slot4.fleetId]
-						slot0.iconStatusTxt.fontSize = 22
-					else
-						slot0.iconStatus.gameObject:SetActive(false)
-					end
-				else
-					tf(slot0.iconStatus).sizeDelta = Vector2(105, 36)
-					slot0.iconStatusTxt.text = i18n("ship_formationUI_fleetName_world")
-					slot0.iconStatusTxt.fontSize = 22
+				if uv1[1] == "shipstatus" then
+					uv0.iconStatus.sizeDelta = Vector2(195, 36)
+					uv0.iconStatusTxt.fontSize = 30
 				end
-			elseif slot1.inFleet and not slot8 and not slot1.inChapter and not slot1.inElite and not slot1.shamInFleet and not slot1.inSham and not slot1.inChallenge and slot1:getFleetId() ~= nil then
-				if math.fmod(slot1:getFleetId(), 10) >= 1 and slot10 <= 6 then
-					GetSpriteFromAtlasAsync("ui/dockyardui_atlas", "biandui0" .. slot10, function (slot0)
-						if not IsNil(uv0.iconStatus) then
-							uv0.iconStatus.sprite = slot0
-						end
-					end)
-					slot0.iconStatus:SetNativeSize()
-
-					slot0.iconStatusTxt.text = ""
-				else
-					tf(slot0.iconStatus).sizeDelta = Vector2(195, 36)
-					slot0.iconStatusTxt.text = Fleet.DEFAULT_NAME_FOR_DOCKYARD[slot1:getFleetId()]
-					slot0.iconStatusTxt.fontSize = 30
-				end
-			else
-				tf(slot0.iconStatus).sizeDelta = Vector2(195, 36)
-				slot0.iconStatusTxt.fontSize = 30
-				slot0.iconStatusTxt.text = ShipStatus.ShipStatu2Name(slot1)
-			end
+			end)
 		else
-			slot0.iconStatus.gameObject:SetActive(false)
+			setActive(slot0.iconStatus, false)
 		end
 
-		slot10, slot11, slot12 = slot1:getIntimacyDetail()
+		slot9, slot10, slot11 = slot1:getIntimacyDetail()
 
-		if slot11 <= slot12 and not slot1.propose and not slot6 then
+		if slot10 <= slot11 and not slot1.propose and not slot6 then
 			setActive(slot0.proposeTF, true)
 		else
 			setActive(slot0.proposeTF, false)
@@ -143,12 +114,6 @@ function slot0.clear(slot0)
 
 		slot0.selectedTw = nil
 	end
-
-	slot0.iconType.sprite = nil
-	slot0.imageFrame.sprite = nil
-	slot0.iconShip.sprite = nil
-	slot0.iconStatus.sprite = nil
-	slot0.shipVO = nil
 end
 
 return slot0

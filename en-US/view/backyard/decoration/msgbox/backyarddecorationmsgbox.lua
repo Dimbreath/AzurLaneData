@@ -54,21 +54,6 @@ function slot0.OnInit(slot0)
 	end)
 	onButton(slot0, slot0.applyBtn, function ()
 		function slot0(slot0)
-			if uv0.theme:GetMissFurnitures(slot0) then
-				slot2 = ""
-				slot4 = 1
-
-				for slot8, slot9 in pairs(slot1) do
-					slot2 = slot4 == table.getCount(slot1) and slot2 .. string.format("%s x%d", slot9.name, slot9.count) or slot2 .. string.format("%s x%d", slot9.name, slot9.count) .. string.format("%s x%d\n", slot9.name, slot9.count)
-					slot4 = slot4 + 1
-				end
-
-				setActive(uv0._tf, true)
-				uv0:ShowInnerMsgBox(slot2, function ()
-					uv0:HideInnerMsgBox()
-					uv0:Hide()
-				end, false, "Missing these items")
-			end
 		end
 
 		uv0:emit(BackYardDecorationMediator.APPLY_THEME, uv0.theme, function (slot0, slot1)

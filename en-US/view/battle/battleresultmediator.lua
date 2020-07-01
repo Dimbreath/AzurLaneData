@@ -8,6 +8,7 @@ slot0.ON_NEXT_CHALLENGE = "BattleResultMediator.ON_NEXT_CHALLENGE"
 slot0.ON_CHALLENGE_RANK = "BattleResultMediator:ON_CHALLENGE_RANK"
 slot0.ON_CHALLENGE_SHARE = "BattleResultMediator:ON_CHALLENGE_SHARE"
 slot0.ON_CHALLENGE_DEFEAT_SCENE = "BattleResultMediator:ON_CHALLENGE_DEFEAT_SCENE"
+slot0.DIRECT_EXIT = "BattleResultMediator:DIRECT_EXIT"
 slot0.OPEN_FAIL_TIP_LAYER = "BattleResultMediator:OPEN_FAIL_TIP_LAYER"
 
 function slot0.register(slot0)
@@ -40,14 +41,12 @@ function slot0.register(slot0)
 
 	slot10 = nil
 
-	if slot9 == SYSTEM_SCENARIO or slot9 == SYSTEM_SHAM then
+	if slot9 == SYSTEM_SCENARIO then
 		slot10 = {}
 		slot11 = nil
 
 		if slot9 == SYSTEM_SCENARIO then
 			slot11 = slot7:getActiveChapter()
-		elseif slot9 == SYSTEM_SHAM then
-			slot11 = slot7:getShamChapter()
 		end
 
 		slot12 = slot11.fleet
@@ -159,10 +158,6 @@ function slot0.register(slot0)
 					slot5:updateChapter(slot6)
 				end
 			end
-		elseif uv0 == SYSTEM_SHAM then
-			slot3 = slot2:getContextByMediator(LevelMediator2)
-
-			slot3:removeChild(slot3:getContextByMediator(ShamPreCombatMediator))
 		elseif uv0 == SYSTEM_CHALLENGE then
 			slot5 = getProxy(ChallengeProxy):getUserChallengeInfo(uv1.contextData.mode)
 
@@ -242,6 +237,9 @@ function slot0.register(slot0)
 			end
 		}))
 	end)
+	slot0:bind(uv0.DIRECT_EXIT, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_BACK)
+	end)
 end
 
 function slot0.showExtraChapterActSocre(slot0)
@@ -289,7 +287,8 @@ function slot0.GetResultView(slot0)
 		[SYSTEM_SUBMARINE_RUN] = BattleSubmarineRunResultLayer,
 		[SYSTEM_SUB_ROUTINE] = BattleSubmarineRoutineResultLayer,
 		[SYSTEM_HP_SHARE_ACT_BOSS] = BattleContributionResultLayer,
-		[SYSTEM_BOSS_EXPERIMENT] = BattleExperimentResultLayer
+		[SYSTEM_BOSS_EXPERIMENT] = BattleExperimentResultLayer,
+		[SYSTEM_ACT_BOSS] = BattleActivityBossResultLayer
 	}
 
 	return uv0.RESULT_VIEW_TRANSFORM[slot0] or BattleResultLayer

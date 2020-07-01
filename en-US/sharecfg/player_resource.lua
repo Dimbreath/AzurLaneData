@@ -375,7 +375,23 @@ pg.player_resource = {
 		name = "nvpu_ticket",
 		itemid = 59968
 	},
+	[2006] = {
+		id = 2006,
+		name = "contribution_worldboss624",
+		itemid = 60057
+	},
+	[2007] = {
+		id = 2007,
+		name = "worldboss624_ticket",
+		itemid = 60058
+	},
 	get_id_list_by_name = {
+		worldboss624_ticket = {
+			2007
+		},
+		contribution_worldboss624 = {
+			2006
+		},
 		nvpu_ticket = {
 			2005
 		},
@@ -677,6 +693,8 @@ pg.player_resource = {
 		2002,
 		2003,
 		2004,
-		2005
+		2005,
+		2006,
+		2007
 	}
 }

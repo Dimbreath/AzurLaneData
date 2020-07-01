@@ -3017,6 +3017,100 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100005] = {
+		advice = 0,
+		describe = "What might be inside? A Manjuu? A rabbit? That SR you want?",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "Mysterious Magic Box",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "moshuxiangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 100005,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			8,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"MagicBoxB",
+				"normal"
+			},
+			{
+				"MagicBoxT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand21",
+						0,
+						"walk"
+					},
+					{
+						"walk1",
+						0,
+						"walk"
+					},
+					{
+						"stand22",
+						0,
+						"dance"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				{
+					"MagicBoxCharControl",
+					"MagicBoxCharControl2"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "Watch out for splinters.",
@@ -58859,6 +58953,1346 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[66001] = {
+		advice = 0,
+		describe = "\"Faster!\" \"But we're technically indoors!\" ",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "Race Track Flooring",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "dibancaricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66001,
+		picture = "Car/dibancar",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66002] = {
+		advice = 0,
+		describe = "Manjuu-sized. Accommodations are available if you need a larger seat.",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "Bleachers Wallpaper",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "qiangbicaricon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66002,
+		picture = "car/qiangbicar",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66101] = {
+		advice = 0,
+		describe = "Essential for nighttime races.",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Race Track Lamppost",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "1caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66101,
+		picture = "car/1car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66102] = {
+		advice = 0,
+		describe = "Waves indifferently in the wind. Flutters in shock when cars race by.",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Race Track Banner",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "2caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 66102,
+		picture = "car/2car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66103] = {
+		advice = 0,
+		describe = "Run them over to throw off opponents and earn the ire of the organizers.",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Road Cone",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 66,
+		icon = "3caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66103,
+		picture = "Car/3car",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66104] = {
+		advice = 0,
+		describe = "And now, a word from our sponsors: Manjuu Racing!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuu Billboard",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "4caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66104,
+		picture = "Car/4car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66105] = {
+		advice = 0,
+		describe = "\"Accursed things. I just want to go fast!\"",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Speed Bump",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "5caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66105,
+		picture = "Car/5car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66106] = {
+		advice = 0,
+		describe = "The only thing standing between an on-road and an off-road accident.",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Race Track Railing",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 66,
+		icon = "6caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66106,
+		picture = "Car/6car",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66107] = {
+		advice = 0,
+		describe = "These are the seating accommodations. Also the MVP seats.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Spectator Platform",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "7caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 66107,
+		picture = "Car/7car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					45.9,
+					94.3
+				},
+				{
+					1,
+					1
+				},
+				"car/7car_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66108] = {
+		advice = 0,
+		describe = "They handle everything from flag-waving to commentating.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Relay Crew",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "8caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 66108,
+		picture = "Car/8car",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66109] = {
+		advice = 0,
+		describe = "A bit more to the left, now!",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "Redirection Triangle",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "9caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66109,
+		picture = "Car/9car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66110] = {
+		advice = 0,
+		describe = "Are they spare or spent? Better ask the pit crew.",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Tire Pile",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 66,
+		icon = "10caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66110,
+		picture = "Car/10car",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66111] = {
+		advice = 0,
+		describe = "Converted from some old mystery machine.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Broadcasting Van",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "11caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66111,
+		picture = "Car/11car",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66112] = {
+		advice = 0,
+		describe = "Keeps the wildlife out and the vehicles in.",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Race Track Fence",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "12caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66112,
+		picture = "Car/12car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66113] = {
+		advice = 0,
+		describe = "\"Would you look at that! Even the trees have come to watch the race!\"",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Track Tree (Summer)",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "13caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66113,
+		picture = "Car/13car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66114] = {
+		advice = 0,
+		describe = "\"Would you look at that! Even the trees have come to watch the race!\"",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Track Tree (Autumn)",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "14caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66114,
+		picture = "Car/14car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66115] = {
+		advice = 0,
+		describe = "Step on the gas just after the second light blinks for a speed boost!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Starting Line",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "15caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66115,
+		picture = "Car/15car",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66116] = {
+		advice = 0,
+		describe = "Grass and asphalt. The oldest rivalry on the race track.",
+		count = 2,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "Run-Off Area",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "16caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66116,
+		picture = "Car/16car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66117] = {
+		advice = 0,
+		describe = "Don't listen to it. There's no way but forward.",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "Track Indicator 1",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "17caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66117,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"17car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66118] = {
+		advice = 0,
+		describe = "Might be a sign there's treasure buried underneath.",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "Track Indicator 2",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "18caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66118,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"18car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66119] = {
+		advice = 0,
+		describe = "Let's just say this points you to the right road.",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "Track Indicator 3",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "19caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66119,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"19car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66120] = {
+		advice = 0,
+		describe = "And if not, there's always this road left.",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "Track Indicator 4",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "20caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66120,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"20car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66121] = {
+		advice = 0,
+		describe = "That's the spirit! Full speed ahead!",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "Track Indicator 5",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "21caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66121,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"21car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66122] = {
+		advice = 0,
+		describe = "It burns its brightest on streets of fire.",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "Red Blaze",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheAicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66122,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheAB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheAT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66123] = {
+		advice = 0,
+		describe = "This speedy speed boy was born to overtake, born to race and to overdrive.",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "White Fang",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheBicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66123,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheBB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheBT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66124] = {
+		advice = 0,
+		describe = "It's got crazy locomotion and is jumping with emotion.",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "Blue Poseidon",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheCicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66124,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheCB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheCT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66125] = {
+		advice = 0,
+		describe = "\"Get in. We're gonna have a night of fire.\"",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "Orange Manjuu",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheDicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66125,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheDB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheDT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66126] = {
+		advice = 0,
+		describe = "\"Deja vu... I swear I've seen this car before.\"",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "Yellow Stinger",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheEicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66126,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheEB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheET"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66127] = {
+		advice = 0,
+		describe = "People come for the race queens but stay for the hot rides.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Race Car Exhibition",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "22caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 66127,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhanshicar",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"zhanshicarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -58923,6 +60357,7 @@ pg.furniture_data_template = {
 		100002,
 		100003,
 		100004,
+		100005,
 		1001,
 		1002,
 		1101,
@@ -60230,6 +61665,35 @@ pg.furniture_data_template = {
 		62115,
 		62116,
 		62117,
-		62118
+		62118,
+		66001,
+		66002,
+		66101,
+		66102,
+		66103,
+		66104,
+		66105,
+		66106,
+		66107,
+		66108,
+		66109,
+		66110,
+		66111,
+		66112,
+		66113,
+		66114,
+		66115,
+		66116,
+		66117,
+		66118,
+		66119,
+		66120,
+		66121,
+		66122,
+		66123,
+		66124,
+		66125,
+		66126,
+		66127
 	}
 }

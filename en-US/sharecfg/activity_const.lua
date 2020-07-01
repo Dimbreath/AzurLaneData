@@ -516,6 +516,12 @@ pg.activity_const = {
 	FRANCE_PT_PAGE = {
 		act_id = 30429
 	},
+	ESKI_PT_PAGE = {
+		act_id = 614
+	},
+	MONOPOLY_CAR_PAGE = {
+		act_id = 620
+	},
 	LINDONG_REMAKE_KR = {
 		act_id = 0
 	},
@@ -606,14 +612,17 @@ pg.activity_const = {
 	JIQILIFU_SKIN = {
 		act_id = 30414
 	},
-	WUDAOLOGIN_ID = {
-		act_id = 30192
+	ACTIVITY_BOSS_AISAIKESI_PT = {
+		act_id = 30439
 	},
 	SUMMER_REMAKE = {
 		act_id = 30253
 	},
 	SUMMER_REMAKEPT = {
 		act_id = 30254
+	},
+	WUDAOLOGIN_ID = {
+		act_id = 30192
 	},
 	SANDIEGO_REFORM = {
 		act_id = 30425

@@ -6302,6 +6302,71 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[107221] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10722,
+		breakout_id = 107222,
+		breakout_view = "All fighters +1/Fighter efficiency +5%",
+		id = 107221,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60391,
+			54011
+		}
+	},
+	[107222] = {
+		use_gold = 1500,
+		pre_id = 107221,
+		use_char_num = 1,
+		use_char = 10722,
+		breakout_id = 107223,
+		breakout_view = "Hangar capacity +1/All Torpedo Bombers +1/Fighter efficiency +10%",
+		id = 107222,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60392,
+			54011,
+			60392,
+			54011
+		}
+	},
+	[107223] = {
+		use_gold = 2500,
+		pre_id = 107222,
+		use_char_num = 2,
+		use_char = 10722,
+		breakout_id = 107224,
+		breakout_view = "All aircraft +1/Torpedo Bomber efficiency +15%",
+		id = 107223,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60393,
+			54012,
+			60393,
+			54012
+		}
+	},
+	[107224] = {
+		use_gold = 0,
+		pre_id = 107223,
+		use_char_num = 0,
+		use_char = 10722,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 107224,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[107291] = {
 		use_gold = 500,
 		pre_id = 0,
@@ -6362,6 +6427,71 @@ pg.ship_data_breakout = {
 		breakout_id = 0,
 		breakout_view = "N/A",
 		id = 107294,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[107381] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10738,
+		breakout_id = 107382,
+		breakout_view = "All fighters +1/Aircraft efficiency +3%",
+		id = 107381,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60321,
+			54014
+		}
+	},
+	[107382] = {
+		use_gold = 3000,
+		pre_id = 107381,
+		use_char_num = 1,
+		use_char = 10738,
+		breakout_id = 107383,
+		breakout_view = "Hangar capacity +1/All Dive Bombers +1/Aircraft efficiency +5%",
+		id = 107382,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60322,
+			54014,
+			60322,
+			54014
+		}
+	},
+	[107383] = {
+		use_gold = 10000,
+		pre_id = 107382,
+		use_char_num = 2,
+		use_char = 10738,
+		breakout_id = 107384,
+		breakout_view = "All aircraft +1/Aircraft efficiency +7%",
+		id = 107383,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60323,
+			54015,
+			60323,
+			54015
+		}
+	},
+	[107384] = {
+		use_gold = 0,
+		pre_id = 107383,
+		use_char_num = 0,
+		use_char = 10738,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 107384,
 		icon = "10001",
 		level = 0,
 		use_item = {},
@@ -25004,10 +25134,18 @@ pg.ship_data_breakout = {
 		107172,
 		107173,
 		107174,
+		107221,
+		107222,
+		107223,
+		107224,
 		107291,
 		107292,
 		107293,
 		107294,
+		107381,
+		107382,
+		107383,
+		107384,
 		108011,
 		108012,
 		108013,

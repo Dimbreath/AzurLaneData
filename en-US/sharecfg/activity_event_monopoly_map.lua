@@ -90,6 +90,96 @@ pg.activity_event_monopoly_map = {
 		icon = "icon_2",
 		type = 2
 	},
+	[2001] = {
+		id = 2001,
+		icon = "icon_4",
+		type = 1
+	},
+	[2002] = {
+		id = 2002,
+		icon = "icon_2",
+		type = 2
+	},
+	[2003] = {
+		id = 2003,
+		icon = "icon_6",
+		type = 2
+	},
+	[2004] = {
+		id = 2004,
+		icon = "icon_1",
+		type = 2
+	},
+	[2005] = {
+		id = 2005,
+		icon = "icon_5",
+		type = 2
+	},
+	[2006] = {
+		id = 2006,
+		icon = "icon_3",
+		type = 2
+	},
+	[2007] = {
+		id = 2007,
+		icon = "icon_2",
+		type = 2
+	},
+	[2008] = {
+		id = 2008,
+		icon = "icon_6",
+		type = 2
+	},
+	[2009] = {
+		id = 2009,
+		icon = "icon_5",
+		type = 2
+	},
+	[2010] = {
+		id = 2010,
+		icon = "icon_3",
+		type = 2
+	},
+	[2011] = {
+		id = 2011,
+		icon = "icon_2",
+		type = 2
+	},
+	[2012] = {
+		id = 2012,
+		icon = "icon_6",
+		type = 2
+	},
+	[2013] = {
+		id = 2013,
+		icon = "icon_1",
+		type = 2
+	},
+	[2014] = {
+		id = 2014,
+		icon = "icon_2",
+		type = 2
+	},
+	[2015] = {
+		id = 2015,
+		icon = "icon_3",
+		type = 2
+	},
+	[2016] = {
+		id = 2016,
+		icon = "icon_5",
+		type = 2
+	},
+	[2017] = {
+		id = 2017,
+		icon = "icon_1",
+		type = 2
+	},
+	[2018] = {
+		id = 2018,
+		icon = "icon_2",
+		type = 2
+	},
 	all = {
 		1001,
 		1002,
@@ -108,6 +198,24 @@ pg.activity_event_monopoly_map = {
 		1015,
 		1016,
 		1017,
-		1018
+		1018,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
+		2011,
+		2012,
+		2013,
+		2014,
+		2015,
+		2016,
+		2017,
+		2018
 	}
 }

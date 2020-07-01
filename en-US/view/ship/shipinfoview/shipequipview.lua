@@ -74,7 +74,7 @@ end
 
 function slot0.InitEvent(slot0)
 	onButton(slot0, slot0.equipSkinBtn, function ()
-		slot0, slot1 = Ship.canModifyShip(uv0:GetShipVO())
+		slot0, slot1 = ShipStatus.ShipStatusCheck("onModify", uv0:GetShipVO())
 
 		if not slot0 then
 			pg.TipsMgr.GetInstance():ShowTips(slot1)
@@ -295,7 +295,7 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 	else
 		onButton(slot0, slot4, function ()
 			if uv0:GetShipVO() then
-				slot0, slot1 = Ship.canModifyShip(uv0:GetShipVO())
+				slot0, slot1 = ShipStatus.ShipStatusCheck("onModify", uv0:GetShipVO())
 
 				if not slot0 then
 					pg.TipsMgr.GetInstance():ShowTips(slot1)

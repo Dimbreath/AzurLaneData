@@ -4047,6 +4047,131 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[800] = {
+		name = "Pressure-Resistant Hull Design ",
+		speciality = "N/A",
+		tech = 2,
+		type = 10,
+		rarity = 4,
+		id = 800,
+		angle = 0,
+		scatter = "N/A",
+		value_2 = 40,
+		icon = "800",
+		value_1 = "15",
+		attribute_2 = "durability",
+		attribute_3 = "raid_distance",
+		range = 0,
+		nationality = 4,
+		is_siren = 0,
+		ammo = "N/A",
+		descrip = "A hull redesign that strengthens its integrity, increasing a submarine's top speed and maximum cruising range. ",
+		value_3 = -8,
+		attribute_1 = "torpedo",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6560
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[801] = {
+		is_siren = 0,
+		id = 801,
+		base = 800,
+		value_2 = 45,
+		value_1 = "17",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[802] = {
+		is_siren = 0,
+		id = 802,
+		base = 800,
+		value_2 = 50,
+		value_1 = "19",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[803] = {
+		is_siren = 0,
+		id = 803,
+		base = 800,
+		value_2 = 55,
+		value_1 = "21",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[804] = {
+		is_siren = 0,
+		id = 804,
+		base = 800,
+		value_2 = 60,
+		value_1 = "23",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[805] = {
+		is_siren = 0,
+		id = 805,
+		base = 800,
+		value_2 = 65,
+		value_1 = "25",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[806] = {
+		is_siren = 0,
+		id = 806,
+		base = 800,
+		value_2 = 70,
+		value_1 = "27",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[807] = {
+		is_siren = 0,
+		id = 807,
+		base = 800,
+		value_2 = 75,
+		value_1 = "29",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[808] = {
+		is_siren = 0,
+		id = 808,
+		base = 800,
+		value_2 = 80,
+		value_1 = "31",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[809] = {
+		is_siren = 0,
+		id = 809,
+		base = 800,
+		value_2 = 90,
+		value_1 = "33",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[810] = {
+		is_siren = 0,
+		id = 810,
+		base = 800,
+		value_2 = 100,
+		value_1 = "35",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1000] = {
 		name = "Repair Toolkit",
 		type = 10,
@@ -24212,7 +24337,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18060] = {
-		name = "TBD蹂躏者(VT-8中队)",
+		name = "TBD Devastator (VT-8 Squadron) ",
 		type = 8,
 		id = 18060,
 		tech = 0,
@@ -24228,7 +24353,7 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		nationality = 1,
 		ammo = "Normal",
-		descrip = "中途岛海战中，大黄蜂号所属VT-8中队，约翰·沃尔德伦少校所率领的TBD蹂躏者鱼雷机机队",
+		descrip = "A squadron of torpedo bombers, assigned to USS CV Hornet during the Battle of Midway, led by lieutenant commander John Waldron. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -69891,7 +70016,7 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		nationality = 8,
 		ammo = "Normal",
-		descrip = "No description",
+		descrip = "380mm main guns that were mounted on the Richelieu-class battleships. Can be equipped by BBs and BCs. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -69999,7 +70124,7 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		nationality = 8,
 		ammo = "H-Explosive",
-		descrip = "No description",
+		descrip = "380mm main guns that were mounted on the Richelieu-class battleships. Can be equipped by BBs and BCs. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -70151,7 +70276,7 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		nationality = 8,
 		ammo = "H-Explosive",
-		descrip = "No description",
+		descrip = "380mm main guns that were mounted on the Richelieu-class battleships. Can be equipped by BBs and BCs. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -70845,7 +70970,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90720] = {
-		name = "Single 138.6mm Main Gun (Mle 1927) ",
+		name = "Single 138.6mm Main Gun (Mle 1927)",
 		type = 1,
 		id = 90720,
 		tech = 2,
@@ -70954,7 +71079,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90740] = {
-		name = "Single 138.6mm Main Gun (Mle 1927) ",
+		name = "Single 138.6mm Main Gun (Mle 1927)",
 		type = 1,
 		id = 90740,
 		tech = 3,
@@ -71107,7 +71232,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90780] = {
-		name = "Twin 155mm Main Gun (Mle 1920) ",
+		name = "Twin 155mm Main Gun (Mle 1920)",
 		type = 2,
 		id = 90780,
 		tech = 0,
@@ -71216,7 +71341,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90800] = {
-		name = "Single 155mm Secondary Gun (Mle 1920) ",
+		name = "Single 155mm Secondary Gun (Mle 1920)",
 		type = 2,
 		id = 90800,
 		tech = 0,
@@ -71325,7 +71450,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90820] = {
-		name = "Gourdou-Leseurre GL.2 Fighter ",
+		name = "Gourdou-Leseurre GL.2 Fighter",
 		type = 7,
 		id = 90820,
 		tech = 0,
@@ -71434,7 +71559,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90840] = {
-		name = "Pierre Levasseur PL.7 Torpedo Bomber ",
+		name = "Pierre Levasseur PL.7 Torpedo Bomber",
 		type = 8,
 		id = 90840,
 		tech = 0,
@@ -71536,7 +71661,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90860] = {
-		name = "Twin 203mm Main Gun (Mle 1924) ",
+		name = "Twin 203mm Main Gun (Mle 1924)",
 		type = 3,
 		id = 90860,
 		tech = 1,
@@ -71644,7 +71769,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90880] = {
-		name = "Twin 203mm Main Gun (Mle 1924) ",
+		name = "Twin 203mm Main Gun (Mle 1924)",
 		type = 3,
 		id = 90880,
 		tech = 2,
@@ -71796,7 +71921,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90900] = {
-		name = "Twin 203mm Main Gun (Mle 1924) ",
+		name = "Twin 203mm Main Gun (Mle 1924)",
 		type = 3,
 		id = 90900,
 		tech = 3,
@@ -75140,6 +75265,17 @@ pg.equip_data_statistics = {
 		788,
 		789,
 		790,
+		800,
+		801,
+		802,
+		803,
+		804,
+		805,
+		806,
+		807,
+		808,
+		809,
+		810,
 		1000,
 		1001,
 		1002,

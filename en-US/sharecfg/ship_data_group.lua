@@ -4596,6 +4596,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[377] = {
+		type = 6,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 105,
+		group_type = 10722,
+		code = 377,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Air Raid Drills with Essex",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[403] = {
 		type = 6,
 		trans_skin = 0,
@@ -4620,6 +4651,44 @@ pg.ship_data_group = {
 		description = {
 			{
 				"Event: Ashen Simulacrum",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[378] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 107,
+		group_type = 10738,
+		code = 378,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Air Raid Drills with Essex",
+				{
+					""
+				},
+				0
+			},
+			{
+				"Time-Limited Build",
 				{
 					""
 				},
@@ -10931,7 +11000,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Heavy/Special Construction",
+				"Heavy Construction",
 				{
 					"GETBOAT",
 					{
@@ -10973,7 +11042,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Heavy/Special Construction",
+				"Heavy Construction",
 				{
 					"GETBOAT",
 					{
@@ -13176,7 +13245,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Heavy/Special Construction",
+				"Heavy Construction",
 				{
 					"GETBOAT",
 					{
@@ -16083,7 +16152,9 @@ pg.ship_data_group = {
 		357,
 		442,
 		380,
+		377,
 		403,
+		378,
 		358,
 		446,
 		402,

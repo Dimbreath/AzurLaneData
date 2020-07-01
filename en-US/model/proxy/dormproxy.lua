@@ -260,11 +260,14 @@ end
 
 function slot0.addDorm(slot0, slot1)
 	slot0.data = slot1
+
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inBackyard")
 end
 
 function slot0.updateDrom(slot0, slot1)
 	slot0.data = slot1
 
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inBackyard")
 	slot0.facade:sendNotification(uv0.DORM_UPDATEED, slot1:clone())
 end
 
@@ -431,6 +434,22 @@ function slot0.GetSystemThemes(slot0)
 	end
 
 	return slot0.systemThemes
+end
+
+function slot0.ResetSystemTheme(slot0, slot1)
+	if not slot0.systemThemes or #slot0.systemThemes == 0 then
+		return
+	end
+
+	for slot5, slot6 in ipairs(slot0.systemThemes) do
+		if slot6.id == slot1 then
+			slot0.systemThemes[slot5] = BackYardSystemTheme.New({
+				id = slot1
+			})
+
+			break
+		end
+	end
 end
 
 function slot0.NeedRefreshThemeTemplateShop(slot0)

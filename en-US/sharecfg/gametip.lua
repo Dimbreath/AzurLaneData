@@ -901,7 +901,7 @@ pg.gametip = {
 		tip = "You don't have enough <color=#92fc63>Gems</color>!"
 	},
 	common_count_noenough = {
-		tip = "Insufficient number "
+		tip = "0 time remaining"
 	},
 	common_no_dorm_gold = {
 		tip = "You don't have enough <color=#92fc63>Decor Tokens</color>!"
@@ -5672,6 +5672,9 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]]
 	words_bg_fit_mode = {
 		tip = "Auto-adjust loading \nscreen aspect ratio"
 	},
+	words_battle_hide_bg = {
+		tip = "Hide skin backgrounds in battle "
+	},
 	activity_puzzle_get1 = {
 		tip = "<color=#A9F548FF>How to get: \nmission 7</color>"
 	},
@@ -6043,7 +6046,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>6.11 – 6.24</COLOR>)!"
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>6.11 – 6.25</COLOR>)!"
 	},
 	twitter_link_title = {
 		tip = "Twitter Account:$1"
@@ -6996,7 +6999,7 @@ Combat Details:
 		tip = "Z18, Le Téméraire, Little Bel and others are added to standard build pool! "
 	},
 	buildship_special_tip = {
-		tip = "Victorious added to standard build pool! "
+		tip = "Shangri-La, Essex added to standard build pool! "
 	},
 	world_log_1 = {
 		tip = "Mission [$task] complete."
@@ -7465,6 +7468,9 @@ Combat Details:
 	ranking_word_9 = {
 		tip = "Score"
 	},
+	ranking_word_10 = {
+		tip = "Contribution Pt"
+	},
 	spece_illegal_tip = {
 		tip = "Cannot uses spaces"
 	},
@@ -7660,11 +7666,11 @@ Combat Details:
 				info = "<color=#92fc63>- How to Play:</color>"
 			},
 			{
-				info = "During the Fight On, Royal Maids! event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim Individual Rewards and Milestone Rewards.\n"
+				info = "During the \"Air Raid Drills with Essex\" event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim Individual Rewards and Milestone Rewards.\n"
 			},
 			{
 				info = [[
-During the event period, you will play on a special stage and face off against the Royal Maids fleet led by the light cruiser Dido.
+During the event period, you will play on a special stage and face off against Essex's carrier fleet.
 All commanders on the same server will need to work together by gathering CP and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.
 Once the mission is completed, all players who participated will be rewarded with a gift sent to their Mailbox.
 <color=#92fc63>Note that you can still earn CP through the Event Stage even once the progress gauge has hit 0%.</color>
@@ -7676,7 +7682,7 @@ Once the mission is completed, all players who participated will be rewarded wit
 1. You earn Contribution Points by clearing the Special Stage.
 2. The progress gauge is affected by the total number of CP earned by all commanders on your server.
 3. Once the progress bar hits <color=#92fc63>0%</color>, the mission is complete. Note that each server's progress bar is independent of the others.
-4. You can claim nice rewards from the event banner by collecting a lot of CP.
+4. You can claim great rewards from the event banner by collecting a lot of CP.
 ]]
 			},
 			{
@@ -8996,6 +9002,9 @@ depends on the amount of damage dealt to the boss.
 	},
 	option_desc6 = {
 		tip = "When toggled ON, the loading display will adapt to your device's aspect ratio."
+	},
+	option_desc10 = {
+		tip = "Enabling this option hides background art in skins during battle "
 	},
 	music_collection = {
 		tip = {
@@ -10360,5 +10369,92 @@ any Credits, or give any rewards.]]
 	},
 	BackYard_collection_be_delete_tip = {
 		tip = "Some loadouts have been removed your favorites due to deletion by their uploaders. "
+	},
+	help_monopoly_car = {
+		tip = {
+			{
+				info = "Event Rules:"
+			},
+			{
+				info = "1. During the event, players can \"Accelerate\" 5 times on the first day, and 5 more times each day at midnight (Acceleration attempts can stack)."
+			},
+			{
+				info = "2. In the game, landing on different squares will yield different rewards. Passing the starting square will give 200 Coins；"
+			},
+			{
+				info = "     : Obtain a sum of Coins；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "saichejinbi"
+				}
+			},
+			{
+				info = "     : Obtain a sum of Oil；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "saicheshiyou"
+				}
+			},
+			{
+				info = "     : Trigger a random event；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "saicheminyun"
+				}
+			},
+			{
+				info = "     : Obtain a random reward；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "saichedaoju"
+				}
+			},
+			{
+				info = "     : Trigger a random movement-based event；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "saicheteshu"
+				}
+			}
+		}
+	},
+	backYard_missing_furnitrue_tip = {
+		tip = "Missing these items "
+	},
+	win_condition_display_qijian = {
+		tip = "Defeat the enemy boss fleet."
+	},
+	win_condition_display_shangchuan = {
+		tip = "The transport ship arrives at the designated location."
+	},
+	win_condition_display_judian = {
+		tip = "Destroy all enemy bases."
+	},
+	win_condition_display_tuoli = {
+		tip = "Any fleet reaches the escape point."
+	},
+	lose_condition_display_quanmie = {
+		tip = "All your fleets are defeated."
+	},
+	lose_condition_display_gangqu = {
+		tip = "All your fleets are defeated, or the port's health reaches 0."
+	},
+	re_battle = {
+		tip = "Retry "
 	}
 }

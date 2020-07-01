@@ -22279,18 +22279,18 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[50004] = {
-		display = "Sweet Curry or Hot Curry that is the question.  <color=#A9F548>（Increase EXP by 5 for 60 minutes）</color>",
+		display = "The Dragon Boat Festival isn't complete without these stuffed sticky rice dumplings! <color=#6dd329>(Increases EXP gained by 5% for 60 minutes.)</color> ",
 		rarity = 2,
 		type = 3,
 		drop_oil_max = 0,
-		name = "Naval curry",
+		name = "Zong Zi ",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/haijungali",
+		icon = "Props/zongzi",
 		replace_item = 0,
 		display_icon = {},
 		price = {
@@ -22300,7 +22300,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[50005] = {
-		display = "An exclusive meal for the Royal Navy! <color=#A9F548>(Increase EXP by 10% for 180 minutes)</color>",
+		display = "An exclusive meal for the Royal Navy! <color=#6dd329>(Increase EXP by 10% for 180 minutes)</color>",
 		rarity = 3,
 		type = 3,
 		drop_oil_max = 0,
@@ -22321,7 +22321,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[50006] = {
-		display = "A full course meal crafted with love and care! <color=#A9F548>(Increase EXP by 20% for 360 minutes)</color>",
+		display = "A full course meal crafted with love and care! <color=#6dd329>(Increase EXP by 20% for 360 minutes)</color>",
 		rarity = 3,
 		type = 3,
 		drop_oil_max = 0,
@@ -76959,6 +76959,138 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[57766] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57766,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				3,
+				1
+			},
+			{
+				2,
+				15,
+				1
+			},
+			{
+				2,
+				16,
+				1
+			},
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				10028,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57767] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57767,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10008,
+				1
+			},
+			{
+				2,
+				10025,
+				1
+			},
+			{
+				2,
+				10029,
+				1
+			},
+			{
+				2,
+				10030,
+				1
+			},
+			{
+				2,
+				10033,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57768] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 57768,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				10025,
+				1
+			},
+			{
+				2,
+				10030,
+				1
+			},
+			{
+				2,
+				10031,
+				1
+			},
+			{
+				2,
+				10032,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[57770] = {
 		display = "Chance to receive following designs",
 		rarity = 1,
@@ -93452,6 +93584,42 @@ let us celebrate."]],
 		price = {},
 		index = {}
 	},
+	[60057] = {
+		display = "Points earned from the \"Air Raid Drills with Essex\" event. Collect them to earn various rewards.",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Contribution Pt",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60057,
+		icon = "Props/59122",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60058] = {
+		display = "Can be used to either play the EX stage or earn another Reward Sortie in the \"Air Raid Drills with Essex\" event.",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Bonus Ticket",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60058,
+		icon = "Props/nvpu_ticket",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[69903] = {
 		display = [[
 This lucky bag contains a random Ship skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
@@ -96678,6 +96846,9 @@ Skins and their drop rates:
 		57763,
 		57764,
 		57765,
+		57766,
+		57767,
+		57768,
 		57770,
 		57771,
 		57772,
@@ -97095,6 +97266,8 @@ Skins and their drop rates:
 		60054,
 		60055,
 		60056,
+		60057,
+		60058,
 		69903,
 		69904,
 		69905,

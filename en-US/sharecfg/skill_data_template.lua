@@ -2999,8 +2999,8 @@ pg.skill_data_template = {
 	},
 	[2151] = {
 		desc_get = "",
-		name = "Impartial Destruction ",
-		desc = "This ship's Torpedo DMG is unaffected by the enemy's Armor Type. Changes this ship's Torpedo DMG modifier to $1. ",
+		name = "Impartial Destruction",
+		desc = "This ship's Torpedo DMG is unaffected by the enemy's Armor Type. Changes this ship's Torpedo DMG modifier to $1.",
 		type = 3,
 		max_level = 10,
 		id = 2151,
@@ -3058,7 +3058,7 @@ pg.skill_data_template = {
 	[2161] = {
 		desc_get = "",
 		name = "Lightning Strikes Twice",
-		desc = "10s after the battle starts and with a $1 chance every 20s after that: fires a wave of torpedoes. (Which torpedoes are fired are based on this ship's equipped Torpedoes.) ",
+		desc = "10s after the battle starts and with a $1 chance every 20s after that: fires a wave of torpedoes. (Which torpedoes are fired are based on this ship's equipped Torpedoes.)",
 		type = 1,
 		max_level = 10,
 		id = 2161,
@@ -3740,7 +3740,7 @@ pg.skill_data_template = {
 	},
 	[3511] = {
 		desc_get = "",
-		name = "Extra Oxygen ",
+		name = "Extra Oxygen",
 		desc = "Increases this ship's OXY by $1.",
 		type = 3,
 		max_level = 10,
@@ -3980,7 +3980,7 @@ pg.skill_data_template = {
 	},
 	[3581] = {
 		desc_get = "",
-		name = "Heavy Cruiser Hunter ",
+		name = "Heavy Cruiser Hunter",
 		desc = "Increases this ship's DMG to CAs by $1.",
 		type = 1,
 		max_level = 10,
@@ -4040,7 +4040,7 @@ pg.skill_data_template = {
 	},
 	[3591] = {
 		desc_get = "",
-		name = "Carrier Hunter ",
+		name = "Carrier Hunter",
 		desc = "Increases this ship's DMG to CVs by $1.",
 		type = 1,
 		max_level = 10,
@@ -4986,7 +4986,7 @@ pg.skill_data_template = {
 	[4101] = {
 		desc_get = "",
 		name = "Smokescreen: Light Cruisers",
-		desc = "10s after the battle begins and 20.0% chance every 20s after that: deploys a smokescreen that increases Evasion Rate by $1 and decreases DMG taken from enemy aircraft by $2 for all your ships inside it. Smokescreen lasts for 10s, and does not stack with other smokescreens. ",
+		desc = "10s after the battle begins and 20.0% chance every 20s after that: deploys a smokescreen that increases Evasion Rate by $1 and decreases DMG taken from enemy aircraft by $2 for all your ships inside it. Smokescreen lasts for 10s, and does not stack with other smokescreens.",
 		type = 2,
 		max_level = 10,
 		id = 4101,
@@ -5146,7 +5146,7 @@ pg.skill_data_template = {
 	},
 	[4121] = {
 		desc_get = "",
-		name = "Protective Armor ",
+		name = "Protective Armor",
 		desc = "Decreases the Main Gun DMG taken from enemy DDs and CLs by $1.",
 		type = 2,
 		max_level = 10,
@@ -5365,8 +5365,8 @@ pg.skill_data_template = {
 	},
 	[4151] = {
 		desc_get = "",
-		name = "Mobility Mastery ",
-		desc = "Decreases this ship's DMG taken from enemy DD guns and torpedoes by $1. Every 20s: increases this ship's Speed by 5 and FP by $2 for 10s. ",
+		name = "Mobility Mastery",
+		desc = "Decreases this ship's DMG taken from enemy DD guns and torpedoes by $1. Every 20s: increases this ship's Speed by 5 and FP by $2 for 10s.",
 		type = 2,
 		max_level = 10,
 		id = 4151,
@@ -5468,8 +5468,8 @@ pg.skill_data_template = {
 	},
 	[4161] = {
 		desc_get = "",
-		name = "Supporting Wings ",
-		desc = "The following buffs are active as long as this ship is afloat: 1) At the start of the battle, increases AVI by $1 and RLD by $2 for all CVs and CVLs in the same fleet this ship is in, and decreases the load time of this ship's first Airstrike by $3. 2) At the start of the battle, increases RLD and AVI by $4 for all CVs and CVLs in the fleet this ship is NOT in. Effect does not stack with the same skill. ",
+		name = "Supporting Wings",
+		desc = "The following buffs are active as long as this ship is afloat: 1) At the start of the battle, increases AVI by $1 and RLD by $2 for all CVs and CVLs in the same fleet this ship is in, and decreases the load time of this ship's first Airstrike by $3. 2) At the start of the battle, increases RLD and AVI by $4 for all CVs and CVLs in the fleet this ship is NOT in. Effect does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 4161,
@@ -6184,8 +6184,8 @@ pg.skill_data_template = {
 	},
 	[5111] = {
 		desc_get = "",
-		name = "One For All ",
-		desc = "While this ship is in the first or last position in the Main Fleet: increases RLD by $1 for all CVs and CVLs in your fleet (excluding this ship) and increases AA by $2 for your Main Fleet. ",
+		name = "One For All",
+		desc = "While this ship is in the first or last position in the Main Fleet: increases RLD by $1 for all CVs and CVLs in your fleet (excluding this ship) and increases AA by $2 for your Main Fleet.",
 		type = 3,
 		max_level = 10,
 		id = 5111,
@@ -6628,8 +6628,8 @@ pg.skill_data_template = {
 	},
 	[6300] = {
 		desc_get = "",
-		name = "High-Octane Fuel ",
-		desc = "Increases the Speed of equipped aircraft, and increases their HP by 140. Effect does not stack. ",
+		name = "High-Octane Fuel",
+		desc = "Increases the Speed of equipped aircraft, and increases their HP by 140. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6300,
@@ -6639,8 +6639,8 @@ pg.skill_data_template = {
 	},
 	[6310] = {
 		desc_get = "",
-		name = "Landing Guidance ",
-		desc = "Decreases Airstrike loading time by 4.0%. ",
+		name = "Landing Guidance",
+		desc = "Decreases Airstrike loading time by 4.0%.",
 		type = 0,
 		max_level = 0,
 		id = 6310,
@@ -6648,10 +6648,131 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6320] = {
+		desc_get = "",
+		name = "Turning Point ",
+		desc = "Starting with the second Airstrike from the ship using this aircraft: this aircraft gets replaced by the Grumman TBF Avenger (VT-8 Squadron). ",
+		type = 0,
+		max_level = 0,
+		id = 6320,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6321] = {
+		desc_get = "",
+		name = "Turning Point ",
+		desc = "Starting with the second Airstrike from the ship using this aircraft: this aircraft gets replaced by the Grumman TBF Avenger (VT-8 Squadron). ",
+		type = 0,
+		max_level = 0,
+		id = 6321,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6322] = {
+		desc_get = "",
+		name = "Turning Point ",
+		desc = "Starting with the second Airstrike from the ship using this aircraft: this aircraft gets replaced by the Grumman TBF Avenger (VT-8 Squadron). ",
+		type = 0,
+		max_level = 0,
+		id = 6322,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6323] = {
+		desc_get = "",
+		name = "Turning Point ",
+		desc = "Starting with the second Airstrike from the ship using this aircraft: this aircraft gets replaced by the Grumman TBF Avenger (VT-8 Squadron). ",
+		type = 0,
+		max_level = 0,
+		id = 6323,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6324] = {
+		desc_get = "",
+		name = "Turning Point ",
+		desc = "Starting with the second Airstrike from the ship using this aircraft: this aircraft gets replaced by the Grumman TBF Avenger (VT-8 Squadron). ",
+		type = 0,
+		max_level = 0,
+		id = 6324,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6325] = {
+		desc_get = "",
+		name = "Turning Point ",
+		desc = "Starting with the second Airstrike from the ship using this aircraft: this aircraft gets replaced by the Grumman TBF Avenger (VT-8 Squadron). ",
+		type = 0,
+		max_level = 0,
+		id = 6325,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6326] = {
+		desc_get = "",
+		name = "Turning Point ",
+		desc = "Starting with the second Airstrike from the ship using this aircraft: this aircraft gets replaced by the Grumman TBF Avenger (VT-8 Squadron). ",
+		type = 0,
+		max_level = 0,
+		id = 6326,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6327] = {
+		desc_get = "",
+		name = "Turning Point ",
+		desc = "Starting with the second Airstrike from the ship using this aircraft: this aircraft gets replaced by the Grumman TBF Avenger (VT-8 Squadron). ",
+		type = 0,
+		max_level = 0,
+		id = 6327,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6328] = {
+		desc_get = "",
+		name = "Turning Point ",
+		desc = "Starting with the second Airstrike from the ship using this aircraft: this aircraft gets replaced by the Grumman TBF Avenger (VT-8 Squadron). ",
+		type = 0,
+		max_level = 0,
+		id = 6328,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6329] = {
+		desc_get = "",
+		name = "Turning Point ",
+		desc = "Starting with the second Airstrike from the ship using this aircraft: this aircraft gets replaced by the Grumman TBF Avenger (VT-8 Squadron). ",
+		type = 0,
+		max_level = 0,
+		id = 6329,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6330] = {
+		desc_get = "",
+		name = "Turning Point ",
+		desc = "Starting with the second Airstrike from the ship using this aircraft: this aircraft gets replaced by the Grumman TBF Avenger (VT-8 Squadron). ",
+		type = 0,
+		max_level = 0,
+		id = 6330,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[6360] = {
 		desc_get = "",
-		name = "Delayed Firing ",
-		desc = "Decreases Main Gun Spread Range by 2 for the ship equipping this gear. ",
+		name = "Delayed Firing",
+		desc = "Decreases Main Gun Spread Range by 2 for the ship equipping this gear.",
 		type = 0,
 		max_level = 0,
 		id = 6360,
@@ -6673,7 +6794,7 @@ pg.skill_data_template = {
 	[6390] = {
 		desc_get = "",
 		name = "Pyoko-Pyoko",
-		desc = "Kizuna AI's headband. It's a flippy-floppy wing-dang-doodle of a honkin' good time that goes on your head. ",
+		desc = "Kizuna AI's headband. It's a flippy-floppy wing-dang-doodle of a honkin' good time that goes on your head.",
 		type = 0,
 		max_level = 0,
 		id = 6390,
@@ -6727,8 +6848,8 @@ pg.skill_data_template = {
 	},
 	[6420] = {
 		desc_get = "",
-		name = "Armor-Piercing Bombs ",
-		desc = "When this aircraft hits an enemy: 24.0% chance to inflict Armor Break to the target. Armor Break debuff does not stack. ",
+		name = "Armor-Piercing Bombs",
+		desc = "When this aircraft hits an enemy: 24.0% chance to inflict Armor Break to the target. Armor Break debuff does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6420,
@@ -6738,8 +6859,8 @@ pg.skill_data_template = {
 	},
 	[6430] = {
 		desc_get = "",
-		name = "Thach Weave ",
-		desc = "Increases the efficiency of all your Fighters by 4.0%. This buff cannot be stacked; only the strongest buff will take effect. ",
+		name = "Thach Weave",
+		desc = "Increases the efficiency of all your Fighters by 4.0%. This buff cannot be stacked; only the strongest buff will take effect.",
 		type = 0,
 		max_level = 0,
 		id = 6430,
@@ -6749,8 +6870,8 @@ pg.skill_data_template = {
 	},
 	[6440] = {
 		desc_get = "",
-		name = "Anti-Siren Tactics Ⅰ ",
-		desc = "The ship equipping this gear takes 6.0% less DMG from Sirens. Does not stack with skills that have similar effect; only the highest source of DMG reduction applies. ",
+		name = "Anti-Siren Tactics Ⅰ",
+		desc = "The ship equipping this gear takes 6.0% less DMG from Sirens. Does not stack with skills that have similar effect; only the highest source of DMG reduction applies.",
 		type = 0,
 		max_level = 0,
 		id = 6440,
@@ -6793,8 +6914,8 @@ pg.skill_data_template = {
 	},
 	[6480] = {
 		desc_get = "",
-		name = "Crest of the Four Gods ",
-		desc = "When equipped by an An Shan-class ship: increases their Main Gun DMG by 16.0% and improves their All Out Assault. ",
+		name = "Crest of the Four Gods",
+		desc = "When equipped by an An Shan-class ship: increases their Main Gun DMG by 16.0% and improves their All Out Assault.",
 		type = 0,
 		max_level = 0,
 		id = 6480,
@@ -6815,7 +6936,7 @@ pg.skill_data_template = {
 	},
 	[6500] = {
 		desc_get = "",
-		name = "Gamers Mark ",
+		name = "Gamers Mark",
 		desc = "Any ship equipping this gear will be treated as part of the Hololive faction.",
 		type = 0,
 		max_level = 0,
@@ -6848,8 +6969,8 @@ pg.skill_data_template = {
 	},
 	[6530] = {
 		desc_get = "",
-		name = "PBY Aerial Recon ",
-		desc = "Provides aerial reconnaissance, decreasing Ambush chance by 10.0% and increasing Ambush evasion chance by 10.0%. Effect does not stack. ",
+		name = "PBY Aerial Recon",
+		desc = "Provides aerial reconnaissance, decreasing Ambush chance by 10.0% and increasing Ambush evasion chance by 10.0%. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6530,
@@ -6859,8 +6980,8 @@ pg.skill_data_template = {
 	},
 	[6540] = {
 		desc_get = "",
-		name = "Battleship Strikeforce ",
-		desc = "Increases DMG against enemy BBs and BCs by 3.0% for the ship equipping this aircraft. When this aircraft hits an enemy BB, BC, or BBV: 60.0% chance to inflict the Flood debuff to them for 9s. Flood DMG is based on the AVI stat of the ship equipping this aircraft. ",
+		name = "Battleship Strikeforce",
+		desc = "Increases DMG against enemy BBs and BCs by 3.0% for the ship equipping this aircraft. When this aircraft hits an enemy BB, BC, or BBV: 60.0% chance to inflict the Flood debuff to them for 9s. Flood DMG is based on the AVI stat of the ship equipping this aircraft.",
 		type = 0,
 		max_level = 0,
 		id = 6540,
@@ -6873,8 +6994,19 @@ pg.skill_data_template = {
 		name = "！？",
 		desc = "",
 		type = 0,
-		max_level = 0,
+		max_level = 1,
 		id = 6550,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6560] = {
+		desc_get = "",
+		name = "Improved Pressure-Resistant Hull",
+		desc = "Increases a submarine's Speed by 20.0% and moves it forward another 8 units after it enters battle.",
+		type = 0,
+		max_level = 0,
+		id = 6560,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -9678,7 +9810,7 @@ pg.skill_data_template = {
 	[10330] = {
 		desc_get = "",
 		name = "Swordfishes, Strike!",
-		desc = "When this ship launches an Airstrike: launches an additional special Swordfish $1 airstrike and decreases the Speed of all onscreen enemies by $2 for 8s. Special airstrike DMG is based on the skill's level. ",
+		desc = "When this ship launches an Airstrike: launches an additional special Swordfish $1 airstrike and decreases the Speed of all onscreen enemies by $2 for 8s. Special airstrike DMG is based on the skill's level.",
 		type = 1,
 		max_level = 10,
 		id = 10330,
@@ -12419,7 +12551,7 @@ pg.skill_data_template = {
 	},
 	[10760] = {
 		desc_get = "",
-		name = "Dragon Empery Bond ",
+		name = "Dragon Empery Bond",
 		desc = "When sortied with Ning Hai, Ping Hai, or both, Yat Sen and the aforementioned ship(s) receive the following buffs: decreases DMG taken by $1 and increases Evasion Rate by $2.",
 		type = 3,
 		max_level = 10,
@@ -14547,7 +14679,7 @@ pg.skill_data_template = {
 	},
 	[11020] = {
 		desc_get = "",
-		name = "Double Sting ",
+		name = "Double Sting",
 		desc = "If there are any Royal Navy ships in your Main Fleet when this ship launches an Airstrike: $1 chance to launch an additional Seafire airstrike.",
 		type = 1,
 		max_level = 10,
@@ -15843,7 +15975,7 @@ pg.skill_data_template = {
 	},
 	[11190] = {
 		desc_get = "",
-		name = "Accompanying Wind ",
+		name = "Accompanying Wind",
 		desc = "When sortied with Hamakaze: increases this ship's FP, TRP, RLD, and AA by $1.",
 		type = 3,
 		max_level = 10,
@@ -16165,7 +16297,7 @@ pg.skill_data_template = {
 	},
 	[11230] = {
 		desc_get = "",
-		name = "Yukikaze of Kure ",
+		name = "Yukikaze of Kure",
 		desc = "While this ship is afloat: decreases the DMG your Main Fleet takes by $1. Once per battle, when the HP of a ship in your Main Fleet falls below 20.0%: heals them for $2 of their max HP.",
 		type = 3,
 		max_level = 10,
@@ -16268,7 +16400,7 @@ pg.skill_data_template = {
 	},
 	[11240] = {
 		desc_get = "",
-		name = "The Unsinkable Lucky Ship ",
+		name = "The Unsinkable Lucky Ship",
 		desc = "When this ship takes DMG: $1 chance to reduce that instance of DMG to 1.",
 		type = 2,
 		max_level = 10,
@@ -17594,8 +17726,8 @@ pg.skill_data_template = {
 	},
 	[11410] = {
 		desc_get = "",
-		name = "Wolf Pack Formation - U81 ",
-		desc = "Increases this boat's EVA by $2. For each Iron Blood SS in your fleet: increases this boat's TRP, RLD, and Accuracy by $1. ",
+		name = "Wolf Pack Formation - U81",
+		desc = "Increases this boat's EVA by $2. For each Iron Blood SS in your fleet: increases this boat's TRP, RLD, and Accuracy by $1.",
 		type = 1,
 		max_level = 10,
 		id = 11410,
@@ -18246,7 +18378,7 @@ pg.skill_data_template = {
 	},
 	[11480] = {
 		desc_get = "",
-		name = "Battle of Kula Gulf ",
+		name = "Battle of Kula Gulf",
 		desc = "Every 20s: $1 chance to increase this ship's FP, TRP, and RLD by $2 for 10s. Once per battle, when the HP of a ship in your Vanguard falls below 20.0%: decreases the DMG they take by $3 for the rest of the battle. If the recipient is Helena: also restores her HP by 8.0%.",
 		type = 2,
 		max_level = 10,
@@ -19782,7 +19914,7 @@ pg.skill_data_template = {
 	},
 	[11690] = {
 		desc_get = "",
-		name = "Thrill of the Hunt ",
+		name = "Thrill of the Hunt",
 		desc = "When this ship sinks an enemy: increases this ship's FP by $1 and RLD by $2 for 12s. This effect can not activate more than once a second and does not stack, but sinking additional enemies will refresh its duration.",
 		type = 1,
 		max_level = 10,
@@ -20033,7 +20165,7 @@ pg.skill_data_template = {
 	},
 	[11710] = {
 		desc_get = "",
-		name = "Dullahan ",
+		name = "Dullahan",
 		desc = "Once per battle, when this ship's HP falls below 30.0%: decreases the DMG it takes by $2 for the rest of the battle, and for 16s: decreases its Speed by 2 and recovers $1 of its max HP every 3s.",
 		type = 2,
 		max_level = 10,
@@ -20297,7 +20429,7 @@ pg.skill_data_template = {
 	},
 	[11740] = {
 		desc_get = "",
-		name = "Wind Rider ",
+		name = "Wind Rider",
 		desc = "When this ship fires its Torpedoes: $1 chance for this ship to evade all enemy attacks for 5s.",
 		type = 2,
 		max_level = 10,
@@ -20355,7 +20487,7 @@ pg.skill_data_template = {
 	},
 	[11750] = {
 		desc_get = "",
-		name = "Light Carrier Unit ",
+		name = "Light Carrier Unit",
 		desc = "When this ship launches an Airstrike: $1 chance to increase this ship's AVI and your CVLs' RLD by $2 and decrease the DMG your Carriers take by $2 for 8s.",
 		type = 1,
 		max_level = 10,
@@ -20458,7 +20590,7 @@ pg.skill_data_template = {
 	},
 	[11760] = {
 		desc_get = "",
-		name = "Raid Signal ",
+		name = "Raid Signal",
 		desc = "Twice per battle, 5s after this ship has finished loading its Airstrike: launches an additional Dive Bomber airstrike ($1.)",
 		type = 1,
 		max_level = 10,
@@ -20664,7 +20796,7 @@ pg.skill_data_template = {
 	},
 	[11780] = {
 		desc_get = "",
-		name = "Ageless Phoenix ",
+		name = "Ageless Phoenix",
 		desc = "While this ship is afloat: decreases the FP, TRP, and AVI of all enemy ships by $1.",
 		type = 3,
 		max_level = 10,
@@ -20722,7 +20854,7 @@ pg.skill_data_template = {
 	},
 	[11790] = {
 		desc_get = "",
-		name = "Efficacious Planning ",
+		name = "Efficacious Planning",
 		desc = "While this ship is afloat: decreases the Burn DMG your Main Fleet takes by $1 and increases their Evasion Rate by $2.",
 		type = 2,
 		max_level = 10,
@@ -21252,7 +21384,7 @@ pg.skill_data_template = {
 	},
 	[11860] = {
 		desc_get = "",
-		name = "Mark of Sirius ",
+		name = "Mark of Sirius",
 		desc = "Increases the AVI of all your CVs and CVLs by $1 and increases their Hit Rate against DDs, CLs, and CAs by $1. Additionally, for each CV or CVL in your fleet: increases this ship's FP, TRP, and RLD by $2.",
 		type = 3,
 		max_level = 10,
@@ -21734,6 +21866,373 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[11910] = {
+		desc_get = "",
+		name = "Patriotic Spirit",
+		desc = "When this ship uses Eagle Union aircraft: increases respective gear efficiency by $1.",
+		type = 1,
+		max_level = 10,
+		id = 11910,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[11920] = {
+		desc_get = "",
+		name = "Knights of the Sky",
+		desc = "When this ship launches an Airstrike: launches an additional $1 TBF Avenger airstrike (DMG is based on the skill's level.) When this ship is sortied with 1 or more Cleveland-class CLs: increases your Cleveland-class CLs's FP by $3, increases this ship's AVI and Accuracy by $2, and improves the TBF Avenger airstrike.",
+		type = 3,
+		max_level = 10,
+		id = 11920,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[11930] = {
+		desc_get = "",
+		name = "Fantastical Takeoff",
+		desc = "When this ship launches an Airstrike: $1 chance to launch an additional airstrike using B25 bombers.",
+		type = 1,
+		max_level = 10,
+		id = 11930,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"50.0%",
+				"80.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+3.3%"
+				},
+				{
+					"53.3%",
+					"+3.3%"
+				},
+				{
+					"56.6%",
+					"+3.3%"
+				},
+				{
+					"59.9%",
+					"+3.3%"
+				},
+				{
+					"63.2%",
+					"+3.3%"
+				},
+				{
+					"66.5%",
+					"+3.3%"
+				},
+				{
+					"69.8%",
+					"+3.3%"
+				},
+				{
+					"73.1%",
+					"+3.3%"
+				},
+				{
+					"76.4%",
+					"+3.6%"
+				},
+				{
+					"80%"
+				}
+			}
+		}
+	},
+	[11940] = {
+		desc_get = "",
+		name = "Observer of the Sky and Sea",
+		desc = "10s after the battle starts: launches an F6F recon plane and increases this ship's Accuracy by $2 and DMG dealt by $1 every 8s (this buff can stack up to 5 times.) If the recon plane is shot down: launches a special airstrike (DMG is based on the skill's level.)",
+		type = 3,
+		max_level = 10,
+		id = 11940,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"2.5%",
+				"7.0%"
+			},
+			{
+				"1.0%",
+				"3.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.2%"
+				},
+				{
+					"2.0%",
+					"+0.2%"
+				},
+				{
+					"2.2%",
+					"+0.2%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.3%"
+				},
+				{
+					"3.0%"
+				}
+			}
+		}
+	},
 	[11980] = {
 		desc_get = "",
 		name = "Task Force Leader",
@@ -22011,8 +22510,8 @@ pg.skill_data_template = {
 	},
 	[12040] = {
 		desc_get = "",
-		name = "Whimsical Inventor ",
-		desc = "Every 12s: Activates special prototype equipment $1 one time (Effectiveness is based on the skill's level). ",
+		name = "Whimsical Inventor",
+		desc = "Every 12s: Activates special prototype equipment $1 one time (Effectiveness is based on the skill's level).",
 		type = 3,
 		max_level = 10,
 		id = 12040,
@@ -22127,7 +22626,7 @@ pg.skill_data_template = {
 	},
 	[12060] = {
 		desc_get = "",
-		name = "Priestess of the Sacred Mountain ",
+		name = "Priestess of the Sacred Mountain",
 		desc = "Every 20s: decreases the Burn DMG your Main Fleet takes by $1 for 8s.",
 		type = 2,
 		max_level = 10,
@@ -22301,7 +22800,7 @@ pg.skill_data_template = {
 	},
 	[12090] = {
 		desc_get = "",
-		name = "Taste My Wrath! ",
+		name = "Taste My Wrath!",
 		desc = "Every 8s: increases this ship's FP by $1. When this buff has stacked 3 times: launches a special barrage, removes the FP buffs, and resets the stack to 0. When this ship is equipped with an Auxiliary Gun: improves the special barrage.",
 		type = 1,
 		max_level = 10,
@@ -22418,7 +22917,7 @@ pg.skill_data_template = {
 	[12110] = {
 		desc_get = "",
 		name = "Destiny Draw！",
-		desc = "Every 20s: launches a random $1 special airstrike (DMG is based on the skill's level.) When this ship's HP falls below 30.0%: increases this ship's LCK by 7. ",
+		desc = "Every 20s: launches a random $1 special airstrike (DMG is based on the skill's level.) When this ship's HP falls below 30.0%: increases this ship's LCK by 7.",
 		type = 1,
 		max_level = 10,
 		id = 12110,
@@ -22981,8 +23480,8 @@ pg.skill_data_template = {
 	},
 	[12160] = {
 		desc_get = "",
-		name = "The Glory of the Never-Setting Sun ",
-		desc = "Increases this ship's DMG against Sakura Empire, Iron Blood, Sardegna Empire, and Siren ships by $1. When your fleet contains 3 or more Royal Navy ships (excluding this ship): increases this ship's FP, RLD, EVA, and AA by $2. ",
+		name = "The Glory of the Never-Setting Sun",
+		desc = "Increases this ship's DMG against Sakura Empire, Iron Blood, Sardegna Empire, and Siren ships by $1. When your fleet contains 3 or more Royal Navy ships (excluding this ship): increases this ship's FP, RLD, EVA, and AA by $2.",
 		type = 3,
 		max_level = 10,
 		id = 12160,
@@ -23317,7 +23816,7 @@ pg.skill_data_template = {
 	[12230] = {
 		desc_get = "",
 		name = "Girls' Support",
-		desc = "30.0% chance when an Anti-Air Gun in your fleet fires: increases this ship's AA by $1. Additionally, once per battle, if Li'l Sandy's or Clevelad's HP falls below 40.0%: increases this ship's FP and Accuracy by $1 for 15s. ",
+		desc = "30.0% chance when an Anti-Air Gun in your fleet fires: increases this ship's AA by $1. Additionally, once per battle, if Li'l Sandy's or Clevelad's HP falls below 40.0%: increases this ship's FP and Accuracy by $1 for 15s.",
 		type = 2,
 		max_level = 10,
 		id = 12230,
@@ -24400,8 +24899,8 @@ pg.skill_data_template = {
 	},
 	[12350] = {
 		desc_get = "",
-		name = "Unyielding Magician ",
-		desc = "Starting at 80.0% of this ship's max HP: increases this ship's FP and TRP (up to a maximum of $2) based on its HP lost. Additionally, once per battle, when this ship's HP falls below 30.0%: increases this ship's AA by $1 until the end of the battle. ",
+		name = "Unyielding Magician",
+		desc = "Starting at 80.0% of this ship's max HP: increases this ship's FP and TRP (up to a maximum of $2) based on its HP lost. Additionally, once per battle, when this ship's HP falls below 30.0%: increases this ship's AA by $1 until the end of the battle.",
 		type = 1,
 		max_level = 10,
 		id = 12350,
@@ -24503,8 +25002,8 @@ pg.skill_data_template = {
 	},
 	[12360] = {
 		desc_get = "",
-		name = "Messenger of Love ",
-		desc = "When sortied with other DDs: increases this ship's AA, FP, and Accuracy by $1. Once per battle, if one of your DDs' HP falls below 50.0%: fires a special barrage. ",
+		name = "Messenger of Love",
+		desc = "When sortied with other DDs: increases this ship's AA, FP, and Accuracy by $1. Once per battle, if one of your DDs' HP falls below 50.0%: fires a special barrage.",
 		type = 1,
 		max_level = 10,
 		id = 12360,
@@ -25206,7 +25705,7 @@ pg.skill_data_template = {
 	[12440] = {
 		desc_get = "",
 		name = "Just Gettin' Fired Up",
-		desc = "Every time the fleet this ship is in defeats an enemy fleet during a sortie: increases own FP by $1. After 5 enemy fleets have been defeated: reduces DMG taken by the Main Fleet by $2. During combat, for every enemy this ship sinks: increases own FP by $1 (stacks up to 7 times). ",
+		desc = "Every time the fleet this ship is in defeats an enemy fleet during a sortie: increases own FP by $1. After 5 enemy fleets have been defeated: reduces DMG taken by the Main Fleet by $2. During combat, for every enemy this ship sinks: increases own FP by $1 (stacks up to 7 times).",
 		type = 1,
 		max_level = 10,
 		id = 12440,
@@ -25622,7 +26121,7 @@ pg.skill_data_template = {
 	[12490] = {
 		desc_get = "",
 		name = "Adaptive Tactics",
-		desc = "When sortied with Eagle Union CVs or CVLs: increases your fleet's AA by $1 and increases Eagle Union CVs and CVLs' AVI by $2. If sortied without Eagle Union CVs or CVLs: increases this ship's FP by $3 and EVA by $2. ",
+		desc = "When sortied with Eagle Union CVs or CVLs: increases your fleet's AA by $1 and increases Eagle Union CVs and CVLs' AVI by $2. If sortied without Eagle Union CVs or CVLs: increases this ship's FP by $3 and EVA by $2.",
 		type = 3,
 		max_level = 10,
 		id = 12490,
@@ -25976,7 +26475,7 @@ pg.skill_data_template = {
 	[12530] = {
 		desc_get = "",
 		name = "Resolute Knight of the Sea",
-		desc = "When this ship takes DMG: $1 chance to increase this ship's EVA by $2 for 5s. Has an 8s cooldown between activations. Once per battle, when this ship's HP has fallen below 30.0%: this ship evades all enemy attacks for 5s. ",
+		desc = "When this ship takes DMG: $1 chance to increase this ship's EVA by $2 for 5s. Has an 8s cooldown between activations. Once per battle, when this ship's HP has fallen below 30.0%: this ship evades all enemy attacks for 5s.",
 		type = 2,
 		max_level = 10,
 		id = 12530,
@@ -27513,8 +28012,8 @@ pg.skill_data_template = {
 	},
 	[12680] = {
 		desc_get = "",
-		name = "Rain and Snow ",
-		desc = "If Yukikaze is afloat in your fleet at the start of the battle, activates the following buffs: increases this ship's TRP by $1 and has a $2 chance to fire a powerful barrage every 20s; if Yukikaze is not in your fleet: as long as Shigure is afloat, decreases the DMG your ships (excluding this one) take by $3 and, once per battle when the HP of another ship in your fleet falls below 20.0%, restores $4 of said ship's max HP. ",
+		name = "Rain and Snow",
+		desc = "If Yukikaze is afloat in your fleet at the start of the battle, activates the following buffs: increases this ship's TRP by $1 and has a $2 chance to fire a powerful barrage every 20s; if Yukikaze is not in your fleet: as long as Shigure is afloat, decreases the DMG your ships (excluding this one) take by $3 and, once per battle when the HP of another ship in your fleet falls below 20.0%, restores $4 of said ship's max HP.",
 		type = 3,
 		max_level = 10,
 		id = 12680,
@@ -27706,8 +28205,8 @@ pg.skill_data_template = {
 	},
 	[12690] = {
 		desc_get = "",
-		name = "Codebreaking Game ",
-		desc = "After entering the battle, applies a random $1 buff to all your Iron Blood ships which lasts until the end of the battle. ",
+		name = "Codebreaking Game",
+		desc = "After entering the battle, applies a random $1 buff to all your Iron Blood ships which lasts until the end of the battle.",
 		type = 3,
 		max_level = 10,
 		id = 12690,
@@ -28825,9 +29324,9 @@ pg.skill_data_template = {
 		}
 	},
 	[12840] = {
-		desc_get = "Increases the DMG this ship deals to enemy CVs and CVLs by <color=#92fc63FF>5.0%</color> (<color=#92fc63FF>20.0%</color> when fully upgraded). While this ship is afloat: increases the TRP of your Vanguard by 5.0% (20.0% when fully upgraded. Also increases their Torpedo Crit Rate by <color=#92fc63FF>5.0%</color>). ",
+		desc_get = "Increases the DMG this ship deals to enemy CVs and CVLs by <color=#92fc63FF>5.0%</color> (<color=#92fc63FF>20.0%</color> when fully upgraded). While this ship is afloat: increases the TRP of your Vanguard by 5.0% (20.0% when fully upgraded. Also increases their Torpedo Crit Rate by <color=#92fc63FF>5.0%</color>).",
 		name = "Skyslayer's Edge",
-		desc = "Increases the DMG this ship deals to enemy CVs and CVLs by $1. While this ship is afloat: increases the TRP of your Vanguard by $2$3. ",
+		desc = "Increases the DMG this ship deals to enemy CVs and CVLs by $1. While this ship is afloat: increases the TRP of your Vanguard by $2$3.",
 		type = 3,
 		max_level = 10,
 		id = 12840,
@@ -30642,7 +31141,7 @@ pg.skill_data_template = {
 	[13040] = {
 		desc_get = "",
 		name = "Mercurial Memories",
-		desc = "Increases this ship's DMG dealt to BBs and CAs by $1. When this ship takes DMG: 15.0% chance for it to evade all enemy attacks for $2s (has a 20s cooldown when activated.) ",
+		desc = "Increases this ship's DMG dealt to BBs and CAs by $1. When this ship takes DMG: 15.0% chance for it to evade all enemy attacks for $2s (has a 20s cooldown when activated.)",
 		type = 1,
 		max_level = 10,
 		id = 13040,
@@ -31206,7 +31705,7 @@ pg.skill_data_template = {
 	[13100] = {
 		desc_get = "",
 		name = "Blazing Burst Wings",
-		desc = "1) When this ship fires its Main Guns: $1 chance to increase this ship's Main Gun DMG to 130.0% for 3s (this buff has a 5s cooldown between activations.) 2) When this ship fires its Main Guns: $2 chance to fire a special HE barrage (this barrage has a 10s cooldown between activations.) Barrage DMG is based on the skill's level. ",
+		desc = "1) When this ship fires its Main Guns: $1 chance to increase this ship's Main Gun DMG to 130.0% for 3s (this buff has a 5s cooldown between activations.) 2) When this ship fires its Main Guns: $2 chance to fire a special HE barrage (this barrage has a 10s cooldown between activations.) Barrage DMG is based on the skill's level.",
 		type = 1,
 		max_level = 10,
 		id = 13100,
@@ -31411,8 +31910,8 @@ pg.skill_data_template = {
 	},
 	[13120] = {
 		desc_get = "",
-		name = "Vigilant Supporter ",
-		desc = "At the start of the battle, if there is a CV or CVL afloat in the same fleet as this ship: increases this ship's Crit Rate by $1. For each CV or CVL in the same fleet: increases this ship's DMG to enemy DDs and CLs by $2. For the 1st and 2nd battles of each sortie that this ship takes part in: decreases DMG taken by $3 for all CVs and CVLs in the same fleet. ",
+		name = "Vigilant Supporter",
+		desc = "At the start of the battle, if there is a CV or CVL afloat in the same fleet as this ship: increases this ship's Crit Rate by $1. For each CV or CVL in the same fleet: increases this ship's DMG to enemy DDs and CLs by $2. For the 1st and 2nd battles of each sortie that this ship takes part in: decreases DMG taken by $3 for all CVs and CVLs in the same fleet.",
 		type = 1,
 		max_level = 10,
 		id = 13120,
@@ -31559,8 +32058,8 @@ pg.skill_data_template = {
 	},
 	[13130] = {
 		desc_get = "",
-		name = "Black Cat Cyclone ",
-		desc = "1) Every 20s: increases this ship's FP by $2 for 10s, reveals the location of all enemy SSs for 10s, and launches a $1 seaplane airstrike. 2) Once per battle, if this ship has the PBY-5A Catalina equipped when its HP falls below 40.0%: launches a special seaplane airstrike. Airstrike DMG is based on the skill's level. ",
+		name = "Black Cat Cyclone",
+		desc = "1) Every 20s: increases this ship's FP by $2 for 10s, reveals the location of all enemy SSs for 10s, and launches a $1 seaplane airstrike. 2) Once per battle, if this ship has the PBY-5A Catalina equipped when its HP falls below 40.0%: launches a special seaplane airstrike. Airstrike DMG is based on the skill's level.",
 		type = 1,
 		max_level = 10,
 		id = 13130,
@@ -31653,8 +32152,8 @@ pg.skill_data_template = {
 	},
 	[13140] = {
 		desc_get = "",
-		name = "Reno Reactor ",
-		desc = "At the start of the battle: increases this ship's AA by $1 and FP by $2. Every third time a ship in your Main Fleet takes DMG: increases this ship's AA and FP by $3 (can be stacked up to 2 times) until the end of the battle. ",
+		name = "Reno Reactor",
+		desc = "At the start of the battle: increases this ship's AA by $1 and FP by $2. Every third time a ship in your Main Fleet takes DMG: increases this ship's AA and FP by $3 (can be stacked up to 2 times) until the end of the battle.",
 		type = 3,
 		max_level = 10,
 		id = 13140,
@@ -31801,8 +32300,8 @@ pg.skill_data_template = {
 	},
 	[13150] = {
 		desc_get = "",
-		name = "Blue Hunter ",
-		desc = "Increases this boat's DMG against enemy DDs and CLs by $1. ",
+		name = "Blue Hunter",
+		desc = "Increases this boat's DMG against enemy DDs and CLs by $1.",
 		type = 3,
 		max_level = 10,
 		id = 13150,
@@ -32006,8 +32505,8 @@ pg.skill_data_template = {
 	},
 	[13180] = {
 		desc_get = "",
-		name = "Legacy of Lunga Point ",
-		desc = "At the start of the battle, if there are 3 ships afloat in your Vanguard and this ship is in the center of it: increases TRP by $1 and Torpedo Crit Rate by $2 for your DDs and CLs, and also increases the EVA of your DDs by $3. ",
+		name = "Legacy of Lunga Point",
+		desc = "At the start of the battle, if there are 3 ships afloat in your Vanguard and this ship is in the center of it: increases TRP by $1 and Torpedo Crit Rate by $2 for your DDs and CLs, and also increases the EVA of your DDs by $3.",
 		type = 3,
 		max_level = 10,
 		id = 13180,
@@ -32154,8 +32653,8 @@ pg.skill_data_template = {
 	},
 	[13190] = {
 		desc_get = "",
-		name = "I'm Not Afraid Anymore! ",
-		desc = "While this ship has a Sakura Empire Main Gun equipped: decreases its DMG taken by $1; while equipping a Main Gun from any other faction: decreases this ship's AA Gun efficiency by 50.0%, but increases its Main Gun efficiency by $2 and Torpedo efficiency by $3, and also fires a special $4 torpedo barrage at the same time as this ship's All Out Assault activates. Torpedo barrage DMG is based on the skill's level. ",
+		name = "I'm Not Afraid Anymore!",
+		desc = "While this ship has a Sakura Empire Main Gun equipped: decreases its DMG taken by $1; while equipping a Main Gun from any other faction: decreases this ship's AA Gun efficiency by 50.0%, but increases its Main Gun efficiency by $2 and Torpedo efficiency by $3, and also fires a special $4 torpedo barrage at the same time as this ship's All Out Assault activates. Torpedo barrage DMG is based on the skill's level.",
 		type = 1,
 		max_level = 10,
 		id = 13190,
@@ -37333,7 +37832,7 @@ pg.skill_data_template = {
 	},
 	[21082] = {
 		desc_get = "",
-		name = "All Out Assault Ⅱ ",
+		name = "All Out Assault Ⅱ",
 		desc = "Activates All Out Assault Ⅱ: M Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
@@ -37355,7 +37854,7 @@ pg.skill_data_template = {
 	},
 	[21092] = {
 		desc_get = "",
-		name = "All Out Assault Ⅱ ",
+		name = "All Out Assault Ⅱ",
 		desc = "Activates All Out Assault Ⅱ: E Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
@@ -42175,7 +42674,7 @@ pg.skill_data_template = {
 	},
 	[105050] = {
 		desc_get = "",
-		name = "Shut-in Maid ",
+		name = "Shut-in Maid",
 		desc = "Decreases this boat's OXY by $1. For 20s after entering battle: increases this boat's DMG by $2. When this boat retreats from battle: increases its Speed by 100.0%.",
 		type = 1,
 		max_level = 10,
@@ -42280,8 +42779,8 @@ pg.skill_data_template = {
 	},
 	[105060] = {
 		desc_get = "",
-		name = "Failen Angel ",
-		desc = "When entering battle: applies 1 randomly chosen buff to your fleet. The buff's effect is increased to 150% for Hololive ships. ",
+		name = "Failen Angel",
+		desc = "When entering battle: applies 1 randomly chosen buff to your fleet. The buff's effect is increased to 150% for Hololive ships.",
 		type = 3,
 		max_level = 10,
 		id = 105060,
@@ -42476,7 +42975,7 @@ pg.skill_data_template = {
 	},
 	[105090] = {
 		desc_get = "",
-		name = "The Third Day of Flirting ",
+		name = "The Third Day of Flirting",
 		desc = "At the start of the battle: if there are an odd number of Hololive ships in your fleet: increases this ship's Main Gun DMG by $1. If their number is even: decreases the Main Gun DMG this ship takes by $2. 20s after the start of the battle: randomly chooses 1 of your ships and decreases the DMG they take by $2 for 10s.",
 		type = 3,
 		max_level = 10,
@@ -42579,7 +43078,7 @@ pg.skill_data_template = {
 	},
 	[105100] = {
 		desc_get = "",
-		name = "Oni Goddess☆Nakiri ",
+		name = "Oni Goddess☆Nakiri",
 		desc = "Every 20s: $2 chance for this ship to buff itself using its spirits. When successfully procced: increases this ship's DMG dealt by $1. Can be stacked up to 3 times.",
 		type = 3,
 		max_level = 10,
@@ -43163,6 +43662,17 @@ pg.skill_data_template = {
 		6291,
 		6300,
 		6310,
+		6320,
+		6321,
+		6322,
+		6323,
+		6324,
+		6325,
+		6326,
+		6327,
+		6328,
+		6329,
+		6330,
 		6360,
 		6380,
 		6390,
@@ -43184,6 +43694,7 @@ pg.skill_data_template = {
 		6530,
 		6540,
 		6550,
+		6560,
 		7000,
 		9010,
 		9020,
@@ -43391,6 +43902,10 @@ pg.skill_data_template = {
 		11880,
 		11890,
 		11900,
+		11910,
+		11920,
+		11930,
+		11940,
 		11980,
 		11990,
 		12000,

@@ -40,6 +40,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 1,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -53,6 +54,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 99999999,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -122,17 +124,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"dahuangfeng"
@@ -298,6 +294,7 @@ pg.chapter_template = {
 		enter_story = "UI10201",
 		boss_refresh = 2,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -311,6 +308,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -411,17 +409,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"ligen"
@@ -665,6 +657,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -678,6 +671,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -796,17 +790,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"wudao"
@@ -1066,6 +1054,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -1079,6 +1068,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -1265,17 +1255,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"chicheng",
@@ -1554,6 +1538,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -1567,6 +1552,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.665,
@@ -1811,17 +1797,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qingye"
@@ -2137,6 +2117,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -2150,6 +2131,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.665,
@@ -2395,17 +2377,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"ruihe"
@@ -2771,6 +2747,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -2784,6 +2761,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -3029,17 +3007,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xiangfeng"
@@ -3386,6 +3358,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -3399,6 +3372,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.38,
@@ -3644,17 +3618,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xianghe"
@@ -3969,6 +3937,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -3982,6 +3951,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -4229,17 +4199,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jiahe"
@@ -4573,6 +4537,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -4586,6 +4551,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -4833,17 +4799,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"chicheng"
@@ -5201,6 +5161,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -5214,6 +5175,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -5461,17 +5423,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"canglong"
@@ -5824,6 +5780,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -5837,6 +5794,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.53,
@@ -6084,17 +6042,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"feilong"
@@ -6433,6 +6385,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -6446,6 +6399,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.53,
@@ -6693,17 +6647,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"i19"
@@ -7114,6 +7062,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -7127,6 +7076,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -7250,17 +7200,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qingye"
@@ -7635,6 +7579,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -7648,6 +7593,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.4,
@@ -7771,17 +7717,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"guying"
@@ -8149,6 +8089,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -8162,6 +8103,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -8285,17 +8227,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"longxiang"
@@ -8608,6 +8544,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -8621,6 +8558,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.63,
@@ -8745,17 +8683,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xianghe"
@@ -9204,6 +9136,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -9217,6 +9150,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.63,
@@ -9341,17 +9275,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"i19"
@@ -9851,6 +9779,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -9864,6 +9793,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -9988,17 +9918,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"miaogao"
@@ -10452,6 +10376,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -10465,6 +10390,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -10589,17 +10515,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"ligen"
@@ -10991,6 +10911,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -11004,6 +10925,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.54,
@@ -11128,17 +11050,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xianghe"
@@ -11500,6 +11416,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -11513,6 +11430,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.51,
@@ -11637,17 +11555,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"ruihe"
@@ -12034,6 +11946,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -12047,6 +11960,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.51,
@@ -12171,17 +12085,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"i19"
@@ -12619,6 +12527,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -12632,6 +12541,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -12756,17 +12666,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yili"
@@ -13191,6 +13095,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -13204,6 +13109,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -13328,17 +13234,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"birui"
@@ -13819,6 +13719,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -13832,6 +13733,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -13956,17 +13858,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"wudao"
@@ -14371,6 +14267,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -14384,6 +14281,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -14508,17 +14406,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xili"
@@ -14967,6 +14859,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -14980,6 +14873,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -15104,17 +14998,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"i26"
@@ -15562,6 +15450,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -15575,6 +15464,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -15684,17 +15574,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"buzhihuo"
@@ -15981,6 +15865,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -15994,6 +15879,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -16103,17 +15989,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yangyan"
@@ -16503,6 +16383,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -16516,6 +16397,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -16625,17 +16507,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"bailu",
@@ -17096,6 +16972,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -17109,6 +16986,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -17218,17 +17096,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xuefeng"
@@ -17673,6 +17545,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -17686,6 +17559,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -17795,17 +17669,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"i26"
@@ -18253,6 +18121,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -18266,6 +18135,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -18375,17 +18245,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"dian"
@@ -18694,6 +18558,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -18707,6 +18572,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -18816,17 +18682,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"lei"
@@ -19221,6 +19081,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -19234,6 +19095,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.36,
@@ -19343,17 +19205,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"nazhi"
@@ -19811,6 +19667,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -19824,6 +19681,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -19933,17 +19791,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"moye"
@@ -20464,6 +20316,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -20477,6 +20330,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -20586,17 +20440,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"i26"
@@ -21106,6 +20954,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -21119,6 +20968,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -21230,17 +21080,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"gufeng"
@@ -21641,6 +21485,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -21654,6 +21499,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.35,
@@ -21765,17 +21611,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"bangfeng"
@@ -22214,6 +22054,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -22227,6 +22068,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -22338,17 +22180,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qinchao"
@@ -22811,6 +22647,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -22824,6 +22661,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -22935,17 +22773,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xinyue_jp"
@@ -23430,6 +23262,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -23443,6 +23276,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -23554,17 +23388,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"i58"
@@ -24059,6 +23887,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -24072,6 +23901,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -24182,17 +24012,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"ximu",
@@ -24613,6 +24437,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -24626,6 +24451,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.55,
@@ -24736,17 +24562,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"bangfeng"
@@ -25223,6 +25043,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -25236,6 +25057,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.36,
@@ -25347,17 +25169,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xuefeng"
@@ -25850,6 +25666,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -25863,6 +25680,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -25975,17 +25793,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shentong"
@@ -26491,6 +26303,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -26504,6 +26317,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.338,
@@ -26616,17 +26430,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"i58"
@@ -27121,6 +26929,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -27134,6 +26943,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.38,
@@ -27243,17 +27053,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"bailu",
@@ -27724,6 +27528,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -27737,6 +27542,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.38,
@@ -27847,17 +27653,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"miaogao"
@@ -28442,6 +28242,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -28455,6 +28256,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -28566,17 +28368,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"maoyue",
@@ -29130,6 +28926,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -29143,6 +28940,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -29255,17 +29053,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"chuannei"
@@ -29927,6 +29719,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -29940,6 +29733,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.35,
@@ -30049,17 +29843,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"miaogao"
@@ -30508,6 +30296,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -30521,6 +30310,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -30631,17 +30421,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"gufeng",
@@ -31202,6 +30986,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -31215,6 +31000,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -31326,17 +31112,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"feiying",
@@ -31932,6 +31712,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -31945,6 +31726,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -32057,17 +31839,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"niaohai",
@@ -32777,6 +32553,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -32790,6 +32567,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.35,
@@ -32914,17 +32692,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"zuishang_g"
@@ -33366,6 +33138,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -33379,6 +33152,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -33504,17 +33278,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xianghe"
@@ -34060,6 +33828,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -34073,6 +33842,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -34199,17 +33969,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xianghe",
@@ -34798,6 +34562,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -34811,6 +34576,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -34939,17 +34705,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"dafeng"
@@ -35646,6 +35406,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -35659,6 +35420,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -35742,17 +35504,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jingang"
@@ -36049,6 +35805,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -36062,6 +35819,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.53,
@@ -36158,17 +35916,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jingang"
@@ -36516,6 +36268,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -36529,6 +36282,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -36625,17 +36379,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"aidang"
@@ -37013,6 +36761,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 1,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -37026,6 +36775,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 99999999,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -37124,17 +36874,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"dahuangfeng"
@@ -37307,6 +37051,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -37320,6 +37065,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -37449,17 +37195,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"ligen"
@@ -37708,6 +37448,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -37721,6 +37462,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -37868,17 +37610,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"wudao"
@@ -38145,6 +37881,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -38158,6 +37895,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -38373,17 +38111,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"chicheng",
@@ -38665,6 +38397,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -38678,6 +38411,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.665,
@@ -38963,17 +38697,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qingye"
@@ -39285,6 +39013,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -39298,6 +39027,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.665,
@@ -39584,17 +39314,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"ruihe"
@@ -39958,6 +39682,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -39971,6 +39696,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -40257,17 +39983,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xiangfeng"
@@ -40608,6 +40328,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -40621,6 +40342,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.38,
@@ -40907,17 +40629,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xianghe"
@@ -41228,6 +40944,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -41241,6 +40958,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -41529,17 +41247,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jiahe"
@@ -41869,6 +41581,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -41882,6 +41595,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -42170,17 +41884,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"chicheng"
@@ -42534,6 +42242,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -42547,6 +42256,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -42835,17 +42545,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"canglong"
@@ -43194,6 +42898,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -43207,6 +42912,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.53,
@@ -43495,17 +43201,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"feilong"
@@ -43840,6 +43540,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -43853,6 +43554,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -44015,17 +43717,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qingye"
@@ -44403,6 +44099,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -44416,6 +44113,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.4,
@@ -44578,17 +44276,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"guying"
@@ -44959,6 +44651,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -44972,6 +44665,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -45134,17 +44828,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"longxiang"
@@ -45460,6 +45148,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -45473,6 +45162,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.63,
@@ -45636,17 +45326,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xianghe"
@@ -46098,6 +45782,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -46111,6 +45796,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -46274,17 +45960,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"miaogao"
@@ -46741,6 +46421,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -46754,6 +46435,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -46917,17 +46599,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"ligen"
@@ -47322,6 +46998,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -47335,6 +47012,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.54,
@@ -47498,17 +47176,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xianghe"
@@ -47873,6 +47545,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -47886,6 +47559,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.51,
@@ -48049,17 +47723,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"ruihe"
@@ -48449,6 +48117,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -48462,6 +48131,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -48625,17 +48295,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yili"
@@ -49064,6 +48728,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -49077,6 +48742,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -49240,17 +48906,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"birui"
@@ -49735,6 +49395,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -49748,6 +49409,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -49911,17 +49573,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"wudao"
@@ -50330,6 +49986,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -50343,6 +50000,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -50506,17 +50164,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xili"
@@ -50969,6 +50621,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -50982,6 +50635,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -51132,17 +50786,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"buzhihuo"
@@ -51433,6 +51081,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -51446,6 +51095,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -51596,17 +51246,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yangyan"
@@ -52000,6 +51644,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -52013,6 +51658,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -52163,17 +51809,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"bailu",
@@ -52638,6 +52278,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -52651,6 +52292,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -52801,17 +52443,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xuefeng"
@@ -53260,6 +52896,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -53273,6 +52910,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -53423,17 +53061,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"dian"
@@ -53746,6 +53378,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -53759,6 +53392,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -53909,17 +53543,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"lei"
@@ -54318,6 +53946,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -54331,6 +53960,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -54481,17 +54111,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"nazhi"
@@ -54953,6 +54577,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -54966,6 +54591,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -55116,17 +54742,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"moye"
@@ -55651,6 +55271,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -55664,6 +55285,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -55816,17 +55438,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"gufeng"
@@ -55854,7 +55470,7 @@ pg.chapter_template = {
 			},
 			{
 				2,
-				54023
+				54024
 			}
 		},
 		grids = {
@@ -56231,6 +55847,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -56244,6 +55861,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.35,
@@ -56396,17 +56014,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"bangfeng"
@@ -56434,7 +56046,7 @@ pg.chapter_template = {
 			},
 			{
 				2,
-				54023
+				54024
 			}
 		},
 		grids = {
@@ -56849,6 +56461,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -56862,6 +56475,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -57014,17 +56628,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qinchao"
@@ -57052,7 +56660,7 @@ pg.chapter_template = {
 			},
 			{
 				2,
-				54023
+				54024
 			}
 		},
 		grids = {
@@ -57491,6 +57099,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -57504,6 +57113,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -57656,17 +57266,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xinyue_jp"
@@ -57694,7 +57298,7 @@ pg.chapter_template = {
 			},
 			{
 				2,
-				54023
+				54024
 			}
 		},
 		grids = {
@@ -58155,6 +57759,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -58168,6 +57773,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -58319,17 +57925,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"ximu",
@@ -58754,6 +58354,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -58767,6 +58368,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -58918,17 +58520,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"bangfeng"
@@ -59409,6 +59005,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -59422,6 +59019,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -59574,17 +59172,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xuefeng"
@@ -60081,6 +59673,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -60094,6 +59687,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -60247,17 +59841,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shentong"
@@ -60767,6 +60355,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 1,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -60780,6 +60369,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
 		scale = {
 			0.55,
@@ -60885,17 +60475,11 @@ pg.chapter_template = {
 				0
 			}
 		},
-		win_condition_display = {
-			"The Transport Ship has arrived at its destination"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"Z46"
@@ -61247,6 +60831,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 2,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -61260,6 +60845,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
 		scale = {
 			0.36,
@@ -61366,17 +60952,11 @@ pg.chapter_template = {
 				0
 			}
 		},
-		win_condition_display = {
-			"The Transport Ship has arrived at its destination"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"deyizhi"
@@ -61779,6 +61359,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 3,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -61792,6 +61373,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_shangchuan",
 		submarine_num = 0,
 		scale = {
 			0.338,
@@ -61899,17 +61481,11 @@ pg.chapter_template = {
 				0
 			}
 		},
-		win_condition_display = {
-			"The Transport Ship has arrived at its destination"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"genaisennao"
@@ -62403,6 +61979,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -62416,6 +61993,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -62533,17 +62111,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xiao"
@@ -62935,6 +62507,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -62948,6 +62521,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -63065,17 +62639,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yishi",
@@ -63522,6 +63090,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -63535,6 +63104,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -63652,17 +63222,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shancheng_g"
@@ -64178,6 +63742,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -64191,6 +63756,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -64308,17 +63874,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yefen"
@@ -64784,6 +64344,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -64797,6 +64358,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -64914,17 +64476,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xianghe"
@@ -65489,6 +65045,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -65502,6 +65059,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -65620,17 +65178,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"chicheng",
@@ -66191,6 +65743,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -66204,6 +65757,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -66362,17 +65916,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xiao"
@@ -66764,6 +66312,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -66777,6 +66326,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -66935,17 +66485,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yishi",
@@ -67392,6 +66936,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -67405,6 +66950,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -67564,17 +67110,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shancheng_g"
@@ -68090,6 +67630,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -68103,6 +67644,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -68262,17 +67804,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yefen"
@@ -68738,6 +68274,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -68751,6 +68288,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -68910,17 +68448,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xianghe"
@@ -69485,6 +69017,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -69498,6 +69031,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -69657,17 +69191,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"chicheng",
@@ -70228,6 +69756,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -70241,6 +69770,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -70353,17 +69883,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -70811,6 +70335,7 @@ pg.chapter_template = {
 		enter_story = "ZHUNUO5",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -70824,6 +70349,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -70937,17 +70463,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"genaisennao"
@@ -71396,6 +70916,7 @@ pg.chapter_template = {
 		enter_story = "ZHUNUO8",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -71409,6 +70930,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -71522,17 +71044,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shaenhuosite",
@@ -72104,6 +71620,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -72117,6 +71634,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -72229,17 +71747,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -72687,6 +72199,7 @@ pg.chapter_template = {
 		enter_story = "ZHUNUO5",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -72700,6 +72213,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -72813,17 +72327,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"genaisennao"
@@ -73272,6 +72780,7 @@ pg.chapter_template = {
 		enter_story = "ZHUNUO8",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -73285,6 +72794,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -73398,17 +72908,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shaenhuosite",
@@ -73980,6 +73484,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO01",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -73993,6 +73498,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -74105,17 +73611,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"Z1"
@@ -74564,6 +74064,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -74577,6 +74078,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -74689,17 +74191,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sipeibojue"
@@ -75247,6 +74743,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO07",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -75260,6 +74757,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -75373,17 +74871,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sipeibojue"
@@ -75988,6 +75480,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO01",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -76001,6 +75494,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -76113,17 +75607,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"Z1"
@@ -76571,6 +76059,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -76584,6 +76073,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -76696,17 +76186,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sipeibojue"
@@ -77253,6 +76737,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO07",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -77266,6 +76751,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -77379,17 +76865,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sipeibojue"
@@ -77993,6 +77473,7 @@ pg.chapter_template = {
 		enter_story = "NEPU_STAGE101",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -78006,6 +77487,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -78118,17 +77600,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"HDN202_1"
@@ -78509,6 +77985,7 @@ pg.chapter_template = {
 		enter_story = "NEPU_STAGE201",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -78522,6 +77999,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -78634,17 +78112,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"HDN402_1"
@@ -79130,6 +78602,7 @@ pg.chapter_template = {
 		enter_story = "NEPU_STAGE301",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -79143,6 +78616,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -79255,17 +78729,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"HDN302_1"
@@ -79744,6 +79212,7 @@ pg.chapter_template = {
 		enter_story = "NEPU_STAGE401",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -79757,6 +79226,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.62,
@@ -79870,17 +79340,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"HDN102_1"
@@ -80471,6 +79935,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -80484,6 +79949,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.47,
@@ -80636,17 +80102,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"HDN102_1",
@@ -81245,6 +80705,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -81258,6 +80719,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -81373,17 +80835,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xiao"
@@ -81792,6 +81248,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -81805,6 +81262,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -81921,17 +81379,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yishi",
@@ -82395,6 +81847,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -82408,6 +81861,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -82524,17 +81978,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shancheng_g"
@@ -83067,6 +82515,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -83080,6 +82529,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -83197,17 +82647,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yefen"
@@ -83690,6 +83134,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -83703,6 +83148,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -83820,17 +83266,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xianghe"
@@ -84412,6 +83852,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -84425,6 +83866,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -84543,17 +83985,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"chicheng",
@@ -85131,6 +84567,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -85144,6 +84581,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -85302,17 +84740,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xiao"
@@ -85721,6 +85153,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -85734,6 +85167,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -85892,17 +85326,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yishi",
@@ -86366,6 +85794,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -86379,6 +85808,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -86538,17 +85968,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shancheng_g"
@@ -87081,6 +86505,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -87094,6 +86519,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -87253,17 +86679,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yefen"
@@ -87746,6 +87166,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -87759,6 +87180,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -87918,17 +87340,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xianghe"
@@ -88510,6 +87926,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -88523,6 +87940,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -88682,17 +88100,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"chicheng",
@@ -89270,6 +88682,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -89283,6 +88696,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -89423,17 +88837,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"chicheng",
@@ -90019,6 +89427,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -90032,6 +89441,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -90139,17 +89549,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"zhaochao"
@@ -90619,6 +90023,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA4",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -90632,6 +90037,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -90740,17 +90146,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"chunyue",
@@ -91142,6 +90542,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA5",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -91155,6 +90556,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -91264,17 +90666,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jingang",
@@ -91715,6 +91111,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA6",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -91728,6 +91125,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -91835,17 +91233,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jiangfeng"
@@ -92376,6 +91768,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA10",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -92389,6 +91782,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -92497,17 +91891,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"changmen",
@@ -93088,6 +92476,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA13",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -93101,6 +92490,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -93210,17 +92600,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenboss"
@@ -93751,6 +93135,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -93764,6 +93149,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -93913,17 +93299,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"zhaochao"
@@ -94393,6 +93773,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA4",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -94406,6 +93787,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -94556,17 +93938,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"chunyue",
@@ -94958,6 +94334,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA5",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -94971,6 +94348,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -95122,17 +94500,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jingang",
@@ -95615,6 +94987,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA6",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -95628,6 +95001,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -95777,17 +95151,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jiangfeng"
@@ -96318,6 +95686,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA10",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -96331,6 +95700,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -96483,17 +95853,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"changmen",
@@ -97074,6 +96438,7 @@ pg.chapter_template = {
 		enter_story = "YINGHUA13",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -97087,6 +96452,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -97240,17 +96606,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenboss"
@@ -97781,6 +97141,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -97794,6 +97155,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -97864,17 +97226,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"changmen",
@@ -98189,6 +97545,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -98202,6 +97559,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -98316,17 +97674,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"deyizhi"
@@ -98746,6 +98098,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -98759,6 +98112,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -98873,17 +98227,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -99443,6 +98791,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -99456,6 +98805,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -99572,17 +98922,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"genaisennao"
@@ -100107,6 +99451,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -100120,6 +99465,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -100236,17 +99582,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shaenhuosite"
@@ -100889,6 +100229,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -100902,6 +100243,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -101018,17 +100360,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"Z46"
@@ -101466,6 +100802,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -101479,6 +100816,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -101595,17 +100933,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qibolin"
@@ -102051,6 +101383,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -102064,6 +101397,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -102180,17 +101514,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"tierbici"
@@ -102691,6 +102019,7 @@ pg.chapter_template = {
 		enter_story = "TACT20015",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -102704,6 +102033,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -102820,17 +102150,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"unknown1"
@@ -103487,6 +102811,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -103500,6 +102825,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -103655,17 +102981,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"deyizhi"
@@ -104085,6 +103405,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -104098,6 +103419,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -104255,17 +103577,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -104825,6 +104141,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -104838,6 +104155,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -104995,17 +104313,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"genaisennao"
@@ -105530,6 +104842,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -105543,6 +104856,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -105700,17 +105014,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shaenhuosite"
@@ -106353,6 +105661,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -106366,6 +105675,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -106523,17 +105833,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"Z46"
@@ -106971,6 +106275,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -106984,6 +106289,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -107141,17 +106447,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qibolin"
@@ -107597,6 +106897,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -107610,6 +106911,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -107767,17 +107069,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"tierbici"
@@ -108278,6 +107574,7 @@ pg.chapter_template = {
 		enter_story = "TACT20015",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -108291,6 +107588,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -108448,17 +107746,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"unknown1"
@@ -109115,6 +108407,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -109128,6 +108421,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -109195,17 +108489,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"unknown1"
@@ -109542,6 +108830,7 @@ pg.chapter_template = {
 		enter_story = "TACT50000",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -109555,6 +108844,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -109648,17 +108938,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jiagu",
@@ -110035,6 +109319,7 @@ pg.chapter_template = {
 		enter_story = "TACT50003",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -110048,6 +109333,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -110141,17 +109427,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"guying",
@@ -110589,6 +109869,7 @@ pg.chapter_template = {
 		enter_story = "TACT50006",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -110602,6 +109883,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -110697,17 +109979,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"niaohai"
@@ -111181,6 +110457,7 @@ pg.chapter_template = {
 		enter_story = "TACT50000",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -111194,6 +110471,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -111287,17 +110565,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jiagu",
@@ -111674,6 +110946,7 @@ pg.chapter_template = {
 		enter_story = "TACT50003",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -111687,6 +110960,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -111780,17 +111054,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"guying",
@@ -112228,6 +111496,7 @@ pg.chapter_template = {
 		enter_story = "TACT50006",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -112241,6 +111510,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -112336,17 +111606,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"niaohai"
@@ -112820,6 +112084,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -112833,6 +112098,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -112939,17 +112205,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -113365,6 +112625,7 @@ pg.chapter_template = {
 		enter_story = "FAXI02",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -113378,6 +112639,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -113485,17 +112747,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -114016,6 +113272,7 @@ pg.chapter_template = {
 		enter_story = "FAXI03",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -114029,6 +113286,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -114137,17 +113395,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"dunkeerke"
@@ -114779,6 +114031,7 @@ pg.chapter_template = {
 		enter_story = "FAXI06",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -114792,6 +114045,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -114899,17 +114153,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"lemaer",
@@ -115337,6 +114585,7 @@ pg.chapter_template = {
 		enter_story = "FAXI07",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -115350,6 +114599,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -115458,17 +114708,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -116000,6 +115244,7 @@ pg.chapter_template = {
 		enter_story = "FAXI08",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -116013,6 +115258,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -116122,17 +115368,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"rangbaer"
@@ -116796,6 +116036,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -116809,6 +116050,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -116956,17 +116198,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -117382,6 +116618,7 @@ pg.chapter_template = {
 		enter_story = "FAXI02",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -117395,6 +116632,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -117543,17 +116781,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -118074,6 +117306,7 @@ pg.chapter_template = {
 		enter_story = "FAXI03",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -118087,6 +117320,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -118236,17 +117470,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"dunkeerke"
@@ -118878,6 +118106,7 @@ pg.chapter_template = {
 		enter_story = "FAXI06",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -118891,6 +118120,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -119041,17 +118271,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"lemaer",
@@ -119479,6 +118703,7 @@ pg.chapter_template = {
 		enter_story = "FAXI07",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -119492,6 +118717,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -119643,17 +118869,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -120185,6 +119405,7 @@ pg.chapter_template = {
 		enter_story = "FAXI08",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -120198,6 +119419,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -120350,17 +119572,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"rangbaer"
@@ -121017,6 +120233,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -121030,6 +120247,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -121096,17 +120314,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"rangbaer",
@@ -121402,6 +120614,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -121415,6 +120628,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -121532,17 +120746,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu"
@@ -121987,6 +121195,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -122000,6 +121209,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -122121,17 +121331,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenqingxun"
@@ -122633,6 +121837,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO06",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -122646,6 +121851,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.64,
@@ -122768,17 +121974,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun",
@@ -123370,6 +122570,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO09",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -123383,6 +122584,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -123504,17 +122706,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhanlie"
@@ -124045,6 +123241,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO10",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -124058,6 +123255,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -124179,17 +123377,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu"
@@ -124861,6 +124053,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -124874,6 +124067,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -124997,17 +124191,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhanlie",
@@ -125856,6 +125044,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -125869,6 +125058,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -126027,17 +125217,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu"
@@ -126482,6 +125666,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -126495,6 +125680,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -126657,17 +125843,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenqingxun"
@@ -127169,6 +126349,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO06",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -127182,6 +126363,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.64,
@@ -127345,17 +126527,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun",
@@ -127947,6 +127123,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO09",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -127960,6 +127137,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -128122,17 +127300,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhanlie"
@@ -128663,6 +127835,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO10",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -128676,6 +127849,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -128838,17 +128012,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu"
@@ -129520,6 +128688,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -129533,6 +128702,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -129697,17 +128867,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhanlie",
@@ -130556,6 +129720,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -130569,6 +129734,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -130637,17 +129803,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"unknown1"
@@ -131070,6 +130230,7 @@ pg.chapter_template = {
 		enter_story = "LONGXIANGHUODONG1",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -131083,6 +130244,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -131191,17 +130353,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"birui",
@@ -131605,6 +130761,7 @@ pg.chapter_template = {
 		enter_story = "LONGXIANGHUODONG5",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -131618,6 +130775,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.49,
@@ -131726,17 +130884,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"luao"
@@ -132198,6 +131350,7 @@ pg.chapter_template = {
 		enter_story = "LONGXIANGHUODONG8",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -132211,6 +131364,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.61,
@@ -132321,17 +131475,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"longxiang"
@@ -132830,6 +131978,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -132843,6 +131992,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -132950,17 +132100,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qifeng"
@@ -133430,6 +132574,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -133443,6 +132588,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -133551,17 +132697,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"nake"
@@ -134001,6 +133141,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG7",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -134014,6 +133155,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -134123,17 +133265,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jiahezhanlie"
@@ -134668,6 +133804,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG11",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -134681,6 +133818,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -134788,17 +133926,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -135336,6 +134468,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG13",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -135349,6 +134482,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -135457,17 +134591,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -136047,6 +135175,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG16",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -136060,6 +135189,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -136169,17 +135299,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"tiancheng"
@@ -136732,6 +135856,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -136745,6 +135870,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -136894,17 +136020,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qifeng"
@@ -137374,6 +136494,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -137387,6 +136508,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -137537,17 +136659,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"nake"
@@ -137987,6 +137103,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG7",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -138000,6 +137117,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -138151,17 +137269,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jiahezhanlie"
@@ -138696,6 +137808,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG11",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -138709,6 +137822,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -138858,17 +137972,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -139406,6 +138514,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG13",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -139419,6 +138528,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -139571,17 +138681,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -140161,6 +139265,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG16",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -140174,6 +139279,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -140327,17 +139433,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"tiancheng"
@@ -140890,6 +139990,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -140903,6 +140004,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -140973,17 +140075,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"tiancheng",
@@ -141298,6 +140394,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -141311,6 +140408,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -141417,17 +140515,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -141843,6 +140935,7 @@ pg.chapter_template = {
 		enter_story = "FAXI02",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -141856,6 +140949,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -141963,17 +141057,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -142494,6 +141582,7 @@ pg.chapter_template = {
 		enter_story = "FAXI03",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -142507,6 +141596,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -142615,17 +141705,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"dunkeerke"
@@ -143257,6 +142341,7 @@ pg.chapter_template = {
 		enter_story = "FAXI06",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -143270,6 +142355,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -143377,17 +142463,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"lemaer",
@@ -143815,6 +142895,7 @@ pg.chapter_template = {
 		enter_story = "FAXI07",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -143828,6 +142909,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -143936,17 +143018,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -144477,6 +143553,7 @@ pg.chapter_template = {
 		enter_story = "FAXI08",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -144490,6 +143567,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -144599,17 +143677,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"rangbaer"
@@ -145268,6 +144340,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -145281,6 +144354,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -145428,17 +144502,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -145854,6 +144922,7 @@ pg.chapter_template = {
 		enter_story = "FAXI02",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -145867,6 +144936,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -146015,17 +145085,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -146546,6 +145610,7 @@ pg.chapter_template = {
 		enter_story = "FAXI03",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -146559,6 +145624,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -146708,17 +145774,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"dunkeerke"
@@ -147350,6 +146410,7 @@ pg.chapter_template = {
 		enter_story = "FAXI06",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -147363,6 +146424,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -147513,17 +146575,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"lemaer",
@@ -147951,6 +147007,7 @@ pg.chapter_template = {
 		enter_story = "FAXI07",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -147964,6 +147021,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -148115,17 +147173,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -148657,6 +147709,7 @@ pg.chapter_template = {
 		enter_story = "FAXI08",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -148670,6 +147723,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -148822,17 +147876,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"rangbaer"
@@ -149488,6 +148536,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -149501,6 +148550,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -149644,17 +148694,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"rangbaer"
@@ -150170,6 +149214,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -150183,6 +149228,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -150249,17 +149295,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"rangbaer",
@@ -150554,6 +149594,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG2",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -150567,6 +149608,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -150673,17 +149715,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -151139,6 +150175,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG6",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -151152,6 +150189,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -151258,17 +150296,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun_ii"
@@ -151709,6 +150741,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -151722,6 +150755,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -151829,17 +150863,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"ganraozhe"
@@ -152324,6 +151352,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -152337,6 +151366,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -152445,17 +151475,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhanlie_ii"
@@ -152952,6 +151976,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG18",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -152965,6 +151990,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -153073,17 +152099,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu_ii"
@@ -153528,6 +152548,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG23",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -153541,6 +152562,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -153649,17 +152671,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qingchuzhe"
@@ -154167,6 +153183,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -154180,6 +153197,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -154329,17 +153347,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -154795,6 +153807,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG6",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -154808,6 +153821,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -154957,17 +153971,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun_ii"
@@ -155408,6 +154416,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -155421,6 +154430,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -155570,17 +154580,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"ganraozhe"
@@ -156065,6 +155069,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -156078,6 +155083,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -156228,17 +155234,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhanlie_ii"
@@ -156735,6 +155735,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG18",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -156748,6 +155749,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -156900,17 +155902,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu_ii"
@@ -157355,6 +156351,7 @@ pg.chapter_template = {
 		enter_story = "MAOZIHUODONG23",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -157368,6 +156365,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -157520,17 +156518,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qingchuzhe"
@@ -158038,6 +157030,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -158051,6 +157044,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -158193,17 +157187,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"ganraozhe"
@@ -158714,6 +157702,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -158727,6 +157716,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -158802,17 +157792,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qingchuzhe"
@@ -159142,6 +158126,7 @@ pg.chapter_template = {
 		enter_story = "LONGXIANGHUODONG1",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -159155,6 +158140,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -159263,17 +158249,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"birui",
@@ -159673,6 +158653,7 @@ pg.chapter_template = {
 		enter_story = "LONGXIANGHUODONG5",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -159686,6 +158667,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.49,
@@ -159794,17 +158776,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"luao"
@@ -160262,6 +159238,7 @@ pg.chapter_template = {
 		enter_story = "LONGXIANGHUODONG8",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -160275,6 +159252,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.61,
@@ -160385,17 +159363,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"longxiang"
@@ -160888,6 +159860,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE2",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -160901,6 +159874,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -161016,17 +159990,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -161436,6 +160404,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE8",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -161449,6 +160418,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -161564,17 +160534,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -162012,6 +160976,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE12",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -162025,6 +160990,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -162140,17 +161106,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenqianting"
@@ -162608,6 +161568,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE18",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -162621,6 +161582,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -162738,17 +161700,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhanlie_i"
@@ -163241,6 +162197,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE23",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -163254,6 +162211,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -163371,17 +162329,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -163864,6 +162816,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE28",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -163877,6 +162830,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -163994,17 +162948,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"unknown5"
@@ -164559,6 +163507,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -164572,6 +163521,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -164729,17 +163679,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -165149,6 +164093,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE8",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -165162,6 +164107,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -165319,17 +164265,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -165767,6 +164707,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE12",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -165780,6 +164721,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -165938,17 +164880,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenqianting"
@@ -166406,6 +165342,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE18",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -166419,6 +165356,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -166578,17 +165516,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhanlie_i"
@@ -167081,6 +166013,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE23",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -167094,6 +166027,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -167255,17 +166189,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -167748,6 +166676,7 @@ pg.chapter_template = {
 		enter_story = "WEICENGHUNHE28",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -167761,6 +166690,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -167922,17 +166852,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"unknown5"
@@ -168487,6 +167411,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -168500,6 +167425,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -168651,17 +167577,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"unknown3"
@@ -169087,6 +168007,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -169100,6 +168021,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -169184,17 +168106,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"unknown5"
@@ -169524,6 +168440,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG2",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -169537,6 +168454,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -169643,17 +168561,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qifeng"
@@ -170119,6 +169031,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -170132,6 +169045,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -170239,17 +169153,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"nake"
@@ -170685,6 +169593,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG7",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -170698,6 +169607,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -170806,17 +169716,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jiahezhanlie"
@@ -171347,6 +170251,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG11",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -171360,6 +170265,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -171467,17 +170373,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -172011,6 +170911,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG13",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -172024,6 +170925,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -172132,17 +171034,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -172718,6 +171614,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG16",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -172731,6 +171628,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -172840,17 +171738,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"tiancheng"
@@ -173399,6 +172291,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -173412,6 +172305,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -173560,17 +172454,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qifeng"
@@ -174036,6 +172924,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -174049,6 +172938,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -174198,17 +173088,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"nake"
@@ -174644,6 +173528,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG7",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -174657,6 +173542,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -174807,17 +173693,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jiahezhanlie"
@@ -175348,6 +174228,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG11",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -175361,6 +174242,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -175510,17 +174392,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -176054,6 +174930,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG13",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -176067,6 +174944,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -176219,17 +175097,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -176805,6 +175677,7 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG16",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -176818,6 +175691,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -176971,17 +175845,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"tiancheng"
@@ -177530,6 +176398,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -177543,6 +176412,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -177613,17 +176483,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"tiancheng",
@@ -177937,6 +176801,7 @@ pg.chapter_template = {
 		enter_story = "YESEXIADEGUITU1",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -177950,6 +176815,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -178033,17 +176899,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qiaozhiwushidanchuan"
@@ -178547,6 +177407,7 @@ pg.chapter_template = {
 		enter_story = "YESEXIADEGUITU4",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -178560,6 +177421,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.49,
@@ -178643,17 +177505,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"aruituosha"
@@ -179217,6 +178073,7 @@ pg.chapter_template = {
 		enter_story = "YESEXIADEGUITU7",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -179230,6 +178087,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.61,
@@ -179315,17 +178173,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"naerxun"
@@ -179883,6 +178735,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU2",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -179896,6 +178749,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -179998,17 +178852,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -180462,6 +179310,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU6",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -180475,6 +179324,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -180577,17 +179427,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"beiyaendanchuan"
@@ -181072,6 +179916,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU11",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -181085,6 +179930,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -181187,17 +180033,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"aerjiliya"
@@ -181775,6 +180615,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -181788,6 +180629,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -181892,17 +180734,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"wokelan"
@@ -182468,6 +181304,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU21",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -182481,6 +181318,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -182585,17 +181423,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jialisuoniye"
@@ -183479,6 +182311,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -183492,6 +182325,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -183596,17 +182430,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"aerjiliya"
@@ -185242,6 +184070,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU2",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -185255,6 +184084,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -185399,17 +184229,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -185863,6 +184687,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU6",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -185876,6 +184701,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -186020,17 +184846,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"beiyaendanchuan"
@@ -186515,6 +185335,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU11",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -186528,6 +185349,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -186673,17 +185495,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"aerjiliya"
@@ -187261,6 +186077,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -187274,6 +186091,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -187419,17 +186237,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"wokelan"
@@ -187995,6 +186807,7 @@ pg.chapter_template = {
 		enter_story = "SHENGYONGQU21",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -188008,6 +186821,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -188155,17 +186969,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jialisuoniye"
@@ -189049,6 +187857,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -189062,6 +187871,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -189209,17 +188019,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"aerjiliya"
@@ -190855,6 +189659,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -190868,6 +189673,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -191006,17 +189812,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"jiasikenie"
@@ -192161,6 +190961,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -192174,6 +190975,7 @@ pg.chapter_template = {
 		star_require_2 = 0,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -192237,17 +191039,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"aerjiliya"
@@ -192585,6 +191381,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -192598,6 +191395,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -192715,17 +191513,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xiao"
@@ -193126,6 +191918,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -193139,6 +191932,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -193256,17 +192050,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yishi",
@@ -193724,6 +192512,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -193737,6 +192526,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -193854,17 +192644,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shancheng_g"
@@ -194389,6 +193173,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -194402,6 +193187,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -194519,17 +193305,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yefen"
@@ -195004,6 +193784,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -195017,6 +193798,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -195134,17 +193916,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xianghe"
@@ -195721,6 +194497,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -195734,6 +194511,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -195852,17 +194630,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"chicheng",
@@ -196433,6 +195205,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -196446,6 +195219,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -196604,17 +195378,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xiao"
@@ -197015,6 +195783,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -197028,6 +195797,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.65,
@@ -197186,17 +195956,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yishi",
@@ -197654,6 +196418,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -197667,6 +196432,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.64,
@@ -197826,17 +196592,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shancheng_g"
@@ -198361,6 +197121,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -198374,6 +197135,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -198533,17 +197295,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"yefen"
@@ -199018,6 +197774,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -199031,6 +197788,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.66,
@@ -199190,17 +197948,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xianghe"
@@ -199777,6 +198529,7 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 7,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -199790,6 +198543,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -199949,17 +198703,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"chicheng",
@@ -200529,6 +199277,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG02",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -200542,6 +199291,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -200654,17 +199404,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenqingxun"
@@ -201021,6 +199765,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -201034,6 +199779,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -201148,17 +199894,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun"
@@ -201575,6 +200315,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG07",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -201588,6 +200329,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.64,
@@ -201703,17 +200445,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shaenhuosite"
@@ -202219,6 +200955,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -202232,6 +200969,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -202346,17 +201084,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu"
@@ -202886,6 +201618,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG13",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -202899,6 +201632,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -203015,17 +201749,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"tierbici"
@@ -203571,6 +202299,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG17",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -203584,6 +202313,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -203702,17 +202432,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"unknown3"
@@ -204431,6 +203155,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG02",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -204444,6 +203169,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -204597,17 +203323,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenqingxun"
@@ -204964,6 +203684,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -204977,6 +203698,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -205132,17 +203854,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun"
@@ -205559,6 +204275,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG07",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -205572,6 +204289,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.64,
@@ -205728,17 +204446,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shaenhuosite"
@@ -206244,6 +204956,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -206257,6 +204970,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -206412,17 +205126,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu"
@@ -206952,6 +205660,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG13",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -206965,6 +205674,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -207122,17 +205832,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"tierbici"
@@ -207678,6 +206382,7 @@ pg.chapter_template = {
 		enter_story = "LINGDONG17",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -207691,6 +206396,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -207850,17 +206556,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"unknown3"
@@ -208580,6 +207280,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -208593,6 +207294,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -208710,17 +207412,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu"
@@ -209164,6 +207860,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -209177,6 +207874,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -209298,17 +207996,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenqingxun"
@@ -209806,6 +208498,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO06",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -209819,6 +208512,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.64,
@@ -209941,17 +208635,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun",
@@ -210539,6 +209227,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO09",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -210552,6 +209241,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -210673,17 +209363,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhanlie"
@@ -211210,6 +209894,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO10",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -211223,6 +209908,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -211344,17 +210030,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu"
@@ -212022,6 +210702,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -212035,6 +210716,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -212158,17 +210840,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhanlie",
@@ -213013,6 +211689,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -213026,6 +211703,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -213184,17 +211862,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenquzhu"
@@ -213638,6 +212310,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -213651,6 +212324,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.65,
@@ -213813,17 +212487,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenqingxun"
@@ -214321,6 +212989,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO06",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -214334,6 +213003,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.64,
@@ -214497,17 +213167,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhongxun",
@@ -215095,6 +213759,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO09",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -215108,6 +213773,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -215270,17 +213936,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhanlie"
@@ -215807,6 +214467,7 @@ pg.chapter_template = {
 		enter_story = "DONGHUO10",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -215820,6 +214481,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -215982,17 +214644,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenhangmu"
@@ -216660,6 +215316,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -216673,6 +215330,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 1,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -216837,17 +215495,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sairenzhanlie",
@@ -217692,6 +216344,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO01",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -217705,6 +216358,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.34,
@@ -217817,17 +216471,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"Z1"
@@ -218275,6 +216923,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO04",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -218288,6 +216937,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.49,
@@ -218400,17 +217050,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sipeibojue"
@@ -218957,6 +217601,7 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO07",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -218970,6 +217615,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.61,
@@ -219083,17 +217729,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"sipeibojue"
@@ -219697,6 +218337,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -219710,6 +218351,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -219824,17 +218466,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"deyizhi"
@@ -220250,6 +218886,7 @@ pg.chapter_template = {
 		enter_story = "TACT20016",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -220263,6 +218900,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -220377,17 +219015,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -220943,6 +219575,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -220956,6 +219589,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -221072,17 +219706,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"genaisennao"
@@ -221603,6 +220231,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -221616,6 +220245,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -221732,17 +220362,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shaenhuosite"
@@ -222381,6 +221005,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -222394,6 +221019,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -222510,17 +221136,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"Z46"
@@ -222954,6 +221574,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -222967,6 +221588,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -223083,17 +221705,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qibolin"
@@ -223535,6 +222151,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -223548,6 +222165,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -223664,17 +222282,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"tierbici"
@@ -224171,6 +222783,7 @@ pg.chapter_template = {
 		enter_story = "TACT20015",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -224184,6 +222797,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -224300,17 +222914,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"unknown1"
@@ -224963,6 +223571,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -224976,6 +223585,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -225131,17 +223741,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"deyizhi"
@@ -225557,6 +224161,7 @@ pg.chapter_template = {
 		enter_story = "TACT20016",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -225570,6 +224175,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -225727,17 +224333,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -226293,6 +224893,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -226306,6 +224907,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -226463,17 +225065,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"genaisennao"
@@ -226994,6 +225590,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -227007,6 +225604,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -227164,17 +225762,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"shaenhuosite"
@@ -227813,6 +226405,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -227826,6 +226419,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -227983,17 +226577,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"Z46"
@@ -228427,6 +227015,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -228440,6 +227029,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.34,
@@ -228597,17 +227187,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"qibolin"
@@ -229049,6 +227633,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -229062,6 +227647,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.66,
@@ -229219,17 +227805,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"tierbici"
@@ -229726,6 +228306,7 @@ pg.chapter_template = {
 		enter_story = "TACT20015",
 		boss_refresh = 5,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -229739,6 +228320,7 @@ pg.chapter_template = {
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
 			0.52,
@@ -229896,17 +228478,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"unknown1"
@@ -230558,6 +229134,7 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -230571,6 +229148,7 @@ pg.chapter_template = {
 		star_require_2 = 4,
 		time = 43200,
 		limit_move = 0,
+		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
 			0.52,
@@ -230638,17 +229216,11 @@ pg.chapter_template = {
 				1
 			}
 		},
-		win_condition_display = {
-			"The Boss fleet was destroyed"
-		},
 		lose_condition = {
 			{
 				1,
 				0
 			}
-		},
-		lose_condition_display = {
-			"Your fleet was destroyed"
 		},
 		icon = {
 			"unknown1"

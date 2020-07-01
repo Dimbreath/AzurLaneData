@@ -17,25 +17,6 @@ function slot0.Ctor(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1.flag_list or {}) do
 		table.insert(slot0.flagList, slot6)
 	end
-
-	if slot0.attachment == ChapterConst.AttachRival then
-		slot2 = {}
-
-		_.each(slot1.item_state, function (slot0)
-			uv0[slot0.id] = slot0.hp_rant
-		end)
-
-		slot3 = ShamRival.New(slot1.item_info)
-
-		_.each(slot3.vanguardShips, function (slot0)
-			slot0.hpRant = uv0[slot0.id] or 10000
-		end)
-		_.each(slot3.mainShips, function (slot0)
-			slot0.hpRant = uv0[slot0.id] or 10000
-		end)
-
-		slot0.rival = slot3
-	end
 end
 
 function slot0.updateFlagList(slot0, slot1)

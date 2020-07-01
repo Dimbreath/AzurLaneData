@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"纪行的藏红花\n\n<size=45>一　回忆</size>",
+					"Saffron Travelogue\n\n<size=45>Fond Memory</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "早晨·指挥室",
+			say = "Office - Morning hours",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "和秘书舰香格里拉一起工作",
+			say = "I'm in the office with my secretary, Shangri-La, and about to get to work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "——您遇上什么麻烦了吗？",
+			say = "...What's the matter, Commander? Is there something on your mind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			},
 			options = {
 				{
-					content = "实际上是…",
+					content = "\"Yeah, actually. You see...\"",
 					flag = 1
 				}
 			}
@@ -88,7 +88,7 @@ return {
 			optionFlag = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "原来如此，昨晚审批的部分文件忘记收在哪里了是吧 ",
+			say = "Ah, so you've forgotten where you left last night's documents? That explains it. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "我明白了，请先不要着急，我为您泡了一杯安神的草药茶，请用",
+			say = "Let's start by composing ourselves, as panicking won't solve anything. Here, have some saffron tea to help with that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "——现在能回忆一下需要的文件大概是什么样子的吗？",
+			say = "Could you tell me more about the documents? Do they have any markings, or other distinctive feature?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有红色标签，已经装订好，写好签名，还没有盖章的文件…吗",
+			say = "Hmm... So they're already bound, signed, and have the red stamp affixed, but are missing your official seal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果我的记录没错的话，应该是放在这里左边第三个文件夹里面了。因为您昨天说过今天要提交给指挥部，我就记下来了",
+			say = "If my memory serves me right, those documents are in the third folder inside your left-hand drawer. They were scheduled to be posted later today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…如此这般，自从香格里拉担任秘书舰以后，她的“记录”给这边的工作提供了不少帮助",
+			say = "She's been taking notes on everything ever since she became my secretary. It's been a great help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "……说起来，自从来到这个港区之后，真的认识了很多的伙伴呢",
+			say = "...You know, I've been thinking. About how I've met many new people since I took up my post here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，指挥官你也知道，我是那种属于比起参加更喜欢观察记录的性格…",
+			say = "As I'm sure you know, I prefer observing events from afar than directly participating in them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			withoutActorName = true,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "香格里拉从随时带在身边的相册里取出了一张照片",
+			say = "She retrieves a picture album and pulls out out a photograph from it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			},
 			options = {
 				{
-					content = "凑过去看看",
+					content = "Take a look at the photo",
 					flag = 1
 				}
 			}
@@ -257,7 +257,7 @@ return {
 			optionFlag = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "名字是“伙伴”，背面的文字是“香格里拉，第一次发小脾气的结果”",
+			say = "Title: \"Friends.\" Description: \"Shangri-La - From gripes to smiles.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一开始想的是只要能帮上埃塞克斯就好了…",
+			say = "When I first arrived, I was solely focused on helping out Essex in any way I could.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "结果因为一件小事钻了牛角尖，自己努力到连埃塞克斯都惊讶的程度。",
+			say = "I got worked up over small things for reasons I can't remember, working so hard that even she was astonished...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			say = "从现在看来还真是挺可笑的呢，呵呵",
+			say = "Hehe. Looking back at it now, I just find it funny.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "正如她所说，在香格里拉刚到母港的时候，确实有一种所有行动都围着“埃塞克斯”转的感觉",
+			say = "She really was like that when she first arrived at port. Whatever she was doing, it had something to do with Essex.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "那是在她来到这座母港报告一段时间之后的事了……",
+			say = "I only learned about the other side of her a while after she'd gotten used to this place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

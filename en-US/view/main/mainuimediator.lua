@@ -159,22 +159,14 @@ function slot0.register(slot0)
 	slot0:bind(uv0.OPEN_CHUANWUSTART, function (slot0, slot1)
 		if slot1 == DockyardScene.MODE_OVERVIEW then
 			uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-				showTagNoBlock = true,
-				mode = slot1,
-				flags = {
-					inEvent = true,
-					inFleet = true,
-					inClass = true,
-					inActivity = true,
-					inBackyard = true
-				}
+				mode = slot1
 			})
 		elseif slot1 == DockyardScene.MODE_DESTROY then
 			uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 				blockLock = true,
 				mode = slot1,
 				leftTopInfo = i18n("word_destroy"),
-				onShip = Ship.canDestroyShip
+				onShip = ShipStatus.canDestroyShip
 			})
 		end
 	end)
@@ -383,13 +375,6 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(uv0.OPEN_SCROLL, function (slot0, slot1)
-		uv0:addSubLayers(Context.New({
-			mediator = InvestigationMediator,
-			viewComponent = InvestigationLayer,
-			data = {
-				activityId = slot1
-			}
-		}))
 	end)
 	slot0:bind(uv0.OPEN_TECHNOLOGY, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SELTECHNOLOGY)
@@ -610,7 +595,7 @@ end
 function slot0.updateSeverNotices(slot0)
 	slot1 = getProxy(ServerNoticeProxy)
 
-	slot0.viewComponent:updateSeverNotices(#slot1:getServerNotices(false) > 0 and not slot1:isStopMainTip())
+	slot0.viewComponent:updateSeverNotices(#slot1:getServerNotices(false) > 0 and slot1:hasNewNotice())
 end
 
 function slot0.updateSettingsNotice(slot0)
@@ -916,10 +901,9 @@ function slot0.handleEnterMainUI(slot0)
 				onNextTick(uv0)
 			end)
 			coroutine.yield()
+			filterCharForiOS()
 
-			if #getProxy(ServerNoticeProxy):getServerNotices(false) > 0 and not slot3:getStopRemind() and not slot3.__autoPopped then
-				slot3.__autoPopped = true
-
+			if #getProxy(ServerNoticeProxy):getServerNotices(false) > 0 and slot3:needAutoOpen() then
 				uv0:addSubLayers(Context.New({
 					mediator = BulletinBoardMediator,
 					viewComponent = BulletinBoardLayer
@@ -938,7 +922,6 @@ function slot0.handleEnterMainUI(slot0)
 				uv0:tryRequestMainSub()
 			end
 
-			uv0:tryRequestVersion()
 			uv0:checkCV()
 			uv0:storyStorageFix()
 			uv0:onBluePrintNotify()
@@ -968,41 +951,11 @@ function slot0.playStroys(slot0, slot1)
 		end)
 	end
 
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE) and not slot5:isEnd() then
-		slot6 = pg.expedition_data_template
-
-		if table.contains(slot5.data1_list, table.remove(_.map(slot5:getConfig("config_data")[4], function (slot0)
-			return {
-				config = uv0[slot0[1]],
-				count = slot0[2]
-			}
-		end), 1).config.id) then
-			slot11 = slot5:getConfig("config_client").story
-			slot13 = pg.extraenemy_template[slot5.data1]
-
-			if slot5.data4 - slot5.data2 <= 0 then
-				slot14 = 0
-			end
-
-			for slot19, slot20 in pairs(slot11) do
-				if slot20[1] < math.floor(slot14 / slot5.data4 * 10000) then
-					break
-				end
-
-				if slot20[2] and slot21 ~= "" and not slot4:IsPlayed(slot21) then
-					table.insert(slot3, function (slot0)
-						uv0:Play(uv1, slot0, true, true)
-					end)
-				end
-			end
-		end
-	end
-
-	if getProxy(ActivityProxy):getActivityById(ActivityConst.ACT_NPC_SHIP_ID) and not slot6:isEnd() then
-		slot7 = slot6:getConfig("config_client")
-		slot8 = slot7.npc[1]
-		slot9 = slot7.npc[2]
-		slot10 = {
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.ACT_NPC_SHIP_ID) and not slot5:isEnd() then
+		slot6 = slot5:getConfig("config_client")
+		slot7 = slot6.npc[1]
+		slot8 = slot6.npc[2]
+		slot9 = {
 			function (slot0)
 				if uv0 == "" or pg.StoryMgr.GetInstance():IsPlayed(uv0) then
 					slot0()
@@ -1027,16 +980,16 @@ function slot0.playStroys(slot0, slot1)
 		end)
 	end
 
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) and not slot7:isEnd() then
-		if type(slot7:getConfig("config_client")) == "table" and slot8[2] and type(slot8[2]) == "string" and not pg.StoryMgr.GetInstance():IsPlayed(slot8[2]) then
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) and not slot6:isEnd() then
+		if type(slot6:getConfig("config_client")) == "table" and slot7[2] and type(slot7[2]) == "string" and not pg.StoryMgr.GetInstance():IsPlayed(slot7[2]) then
 			table.insert(slot3, function (slot0)
 				uv0:Play(uv1[2], slot0, true, true)
 			end)
 		end
 	end
 
-	if getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_CHUIXUE7DAY_ID) and not slot8:isEnd() then
-		if slot8:getConfig("config_client").story[1][1] and not pg.StoryMgr.GetInstance():IsPlayed(slot10) then
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_CHUIXUE7DAY_ID) and not slot7:isEnd() then
+		if slot7:getConfig("config_client").story[1][1] and not pg.StoryMgr.GetInstance():IsPlayed(slot9) then
 			table.insert(slot3, function (slot0)
 				uv0:Play(uv1, slot0, true, true)
 			end)
@@ -1053,46 +1006,6 @@ end
 function slot0.tryRequestMainSub(slot0)
 	if getProxy(ChapterProxy).subNextReqTime < pg.TimeMgr.GetInstance():GetServerTime() then
 		slot0:sendNotification(GAME.SUB_CHAPTER_FETCH)
-	end
-end
-
-function slot0.tryRequestVersion(slot0)
-	if PLATFORM_CODE == PLATFORM_US and VersionMgr.Inst:OnProxyUsing() then
-		return
-	end
-
-	if UpdateMgr.Inst.currentVersion.Major > 0 and (not uv0.lastRequestVersionTime or Time.realtimeSinceStartup - uv0.lastRequestVersionTime > 1800) then
-		uv0.lastRequestVersionTime = Time.realtimeSinceStartup
-
-		pg.UIMgr.GetInstance():LoadingOn()
-
-		slot1 = true
-
-		VersionMgr.Inst:FetchVersion(function (slot0)
-			pg.UIMgr.GetInstance():LoadingOff()
-
-			uv0 = false
-
-			if UpdateMgr.Inst.currentVersion.Build < slot0.Build then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					modal = true,
-					hideNo = true,
-					content = i18n("new_version_tip"),
-					weight = LayerWeightConst.TOP_LAYER,
-					onYes = function ()
-						Application.Quit()
-					end,
-					onNo = function ()
-						Application.Quit()
-					end
-				})
-			end
-		end)
-		LeanTween.delayedCall(3, System.Action(function ()
-			if uv0 then
-				pg.UIMgr.GetInstance():LoadingOff()
-			end
-		end))
 	end
 end
 

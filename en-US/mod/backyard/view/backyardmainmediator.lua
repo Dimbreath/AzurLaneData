@@ -153,7 +153,12 @@ function slot0.onRegister(slot0)
 	slot0:bind(uv0.SAVE_FURNITURE, function (slot0, slot1)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
 			name = BACKYARD.FURNITURE_SAVE,
-			tip = defaultValue(slot1, true)
+			tip = defaultValue(slot1, true),
+			callback = function (slot0)
+				if slot0 then
+					uv0.viewComponent:enableDecorateMode(false)
+				end
+			end
 		})
 	end)
 	slot0:bind(uv0.ADD_INTIMACY, function (slot0, slot1)
@@ -291,7 +296,6 @@ function slot0.listNotificationInterests(slot0)
 		BackYardHouseProxy.CANCEL_SHIP_MOVE,
 		BackYardHouseProxy.BACKYARD_FURNITURE_POS_CHANGE,
 		BACKYARD.REMOVE_ITEM,
-		BACKYARD.PUT_FURNITURE_DONE,
 		BackYardHouseProxy.BACKYARD_RESTORED,
 		BackYardHouseProxy.BACKYARD_INTERACTION_DONE,
 		BackYardMediator.ITEM_UPDATED,
@@ -397,13 +401,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == BACKYARD.REMOVE_ITEM then
 		slot0.viewComponent:removeItem(slot3)
 	elseif slot2 == BackYardHouseProxy.BACKYARD_RESTORED then
-		slot0.viewComponent:enableDecorateMode(false)
-		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
-			tip = true,
-			name = BACKYARD.FURNITURE_SAVE
-		})
-	elseif slot2 == BACKYARD.PUT_FURNITURE_DONE then
-		slot0.viewComponent:enableDecorateMode(false)
+		slot0.viewComponent:emit(uv0.SAVE_FURNITURE)
 	elseif slot2 == BackYardHouseProxy.BACKYARD_INTERACTION_DONE then
 		slot0.viewComponent:setInterAction(false, slot3.shipId, slot3.furnitureId, slot3.order)
 	elseif slot2 == BackYardHouseProxy.SPINE_INTERACTION_START then

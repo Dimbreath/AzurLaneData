@@ -211,10 +211,12 @@ function slot0.getSortCurrency(slot0)
 end
 
 function slot0.sortPriceFunc(slot0)
-	if slot0:getConfig("gem_price") > 0 then
-		return slot0:getConfig("gem_price") + 1000000
+	slot2 = slot0:getConfig("dorm_icon_price") or 0
+
+	if (slot0:getConfig("gem_price") or 0) > 0 then
+		return slot1 + 1000000
 	else
-		return slot0:getConfig("dorm_icon_price")
+		return slot2
 	end
 end
 

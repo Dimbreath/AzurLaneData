@@ -27545,7 +27545,7 @@ pg.enemy_data_statistics = {
 		hit_growth = 0,
 		armor_type = 2,
 		cld_box = {
-			25,
+			13,
 			7.5,
 			8
 		},
@@ -33003,7 +33003,7 @@ pg.enemy_data_statistics = {
 	},
 	[339] = {
 		cannon = 0,
-		name = "世界BOSS埃塞克斯",
+		name = "Essex",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -169847,7 +169847,7 @@ pg.enemy_data_statistics = {
 	},
 	[11900101] = {
 		cannon = 100,
-		name = "埃塞克斯",
+		name = "Essex",
 		battle_unit_type = 95,
 		speed_growth = 0,
 		antiaircraft = 520,
@@ -169893,7 +169893,7 @@ pg.enemy_data_statistics = {
 	},
 	[11900102] = {
 		cannon = 100,
-		name = "埃塞克斯",
+		name = "Essex",
 		battle_unit_type = 95,
 		speed_growth = 0,
 		antiaircraft = 520,
@@ -169939,7 +169939,7 @@ pg.enemy_data_statistics = {
 	},
 	[11900103] = {
 		cannon = 100,
-		name = "埃塞克斯",
+		name = "Essex",
 		battle_unit_type = 95,
 		speed_growth = 0,
 		antiaircraft = 520,
@@ -169984,12 +169984,12 @@ pg.enemy_data_statistics = {
 		equipment_list = {}
 	},
 	[11900104] = {
-		cannon = 100,
-		name = "埃塞克斯",
+		cannon = 460,
+		name = "Essex",
 		battle_unit_type = 95,
 		speed_growth = 0,
 		antiaircraft = 520,
-		air = 100,
+		air = 520,
 		antiaircraft_growth = 0,
 		luck = 0,
 		antisub = 0,
@@ -170031,7 +170031,7 @@ pg.enemy_data_statistics = {
 	},
 	[11900105] = {
 		cannon = 100,
-		name = "埃塞克斯",
+		name = "Essex",
 		battle_unit_type = 95,
 		speed_growth = 0,
 		antiaircraft = 220,
@@ -234978,6 +234978,537 @@ pg.enemy_data_statistics = {
 			650414
 		}
 	},
+	[13800001] = {
+		cannon = 7,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 144,
+		air = 0,
+		antiaircraft = 25,
+		battle_unit_type = 25,
+		id = 13800001,
+		bubble_initial = 0,
+		remarks = "【2020埃塞克斯世界BOSS E难度】马汉级量产型",
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 100,
+		durability = 200,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 500,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 30,
+		durability_growth = 5120,
+		bubble_fx = "",
+		antiaircraft_growth = 800,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			670001,
+			670002,
+			670003
+		}
+	},
+	[13800002] = {
+		cannon = 23,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 144,
+		air = 0,
+		antiaircraft = 45,
+		battle_unit_type = 30,
+		id = 13800002,
+		bubble_initial = 0,
+		remarks = "【2020埃塞克斯世界BOSS E难度】克利夫兰级量产型",
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 299,
+		durability = 310,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 800,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 0,
+		durability_growth = 11680,
+		bubble_fx = "",
+		antiaircraft_growth = 1600,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			670004,
+			670005
+		}
+	},
+	[13800003] = {
+		cannon = 26,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 144,
+		air = 0,
+		antiaircraft = 35,
+		battle_unit_type = 35,
+		id = 13800003,
+		bubble_initial = 0,
+		remarks = "【2020埃塞克斯世界BOSS E难度】彭萨科拉级量产型",
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 300,
+		durability = 460,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 10,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 1500,
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 0,
+		durability_growth = 20000,
+		bubble_fx = "",
+		antiaircraft_growth = 1000,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			670006,
+			670007
+		}
+	},
+	[13800004] = {
+		cannon = 20,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 0,
+		air = 84,
+		antiaircraft = 126,
+		battle_unit_type = 95,
+		id = 13800004,
+		bubble_initial = 0,
+		remarks = "【2020埃塞克斯世界BOSS E难度】埃塞克斯",
+		dodge_growth = 284,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 339,
+		durability = 8460,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 20,
+		torpedo = 0,
+		durability_growth = 0,
+		bubble_fx = "",
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			670010
+		}
+	},
+	[13800101] = {
+		cannon = 7,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 144,
+		air = 0,
+		antiaircraft = 25,
+		battle_unit_type = 25,
+		id = 13800101,
+		bubble_initial = 0,
+		remarks = "【2020埃塞克斯世界BOSS N难度】马汉级量产型",
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 100,
+		durability = 200,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 500,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 30,
+		durability_growth = 5120,
+		bubble_fx = "",
+		antiaircraft_growth = 800,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			670101,
+			670102,
+			670103
+		}
+	},
+	[13800102] = {
+		cannon = 23,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 144,
+		air = 0,
+		antiaircraft = 45,
+		battle_unit_type = 30,
+		id = 13800102,
+		bubble_initial = 0,
+		remarks = "【2020埃塞克斯世界BOSS N难度】克利夫兰级量产型",
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 299,
+		durability = 310,
+		armor_growth = 0,
+		torpedo_growth = 2000,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 800,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 0,
+		durability_growth = 11680,
+		bubble_fx = "",
+		antiaircraft_growth = 1600,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			670104,
+			670105
+		}
+	},
+	[13800103] = {
+		cannon = 26,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 144,
+		air = 0,
+		antiaircraft = 35,
+		battle_unit_type = 35,
+		id = 13800103,
+		bubble_initial = 0,
+		remarks = "【2020埃塞克斯世界BOSS N难度】彭萨科拉级量产型",
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 300,
+		durability = 460,
+		armor_growth = 0,
+		torpedo_growth = 1200,
+		bubble_interval = 0,
+		speed = 10,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 1500,
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 0,
+		durability_growth = 20000,
+		bubble_fx = "",
+		antiaircraft_growth = 1000,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			670106,
+			670107
+		}
+	},
+	[13800104] = {
+		cannon = 60,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 0,
+		air = 261,
+		antiaircraft = 312,
+		battle_unit_type = 95,
+		id = 13800104,
+		bubble_initial = 0,
+		remarks = "【2020埃塞克斯世界BOSS N难度】埃塞克斯",
+		dodge_growth = 284,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 339,
+		durability = 23800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 40,
+		torpedo = 0,
+		durability_growth = 0,
+		bubble_fx = "",
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			670110
+		}
+	},
+	[13800201] = {
+		cannon = 8,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 144,
+		air = 0,
+		antiaircraft = 80,
+		battle_unit_type = 25,
+		id = 13800201,
+		bubble_initial = 0,
+		remarks = "【2020埃塞克斯世界BOSS H难度】马汉级量产型",
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 100,
+		durability = 640,
+		armor_growth = 0,
+		torpedo_growth = 3250,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 560,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 15,
+		torpedo = 36,
+		durability_growth = 13200,
+		bubble_fx = "",
+		antiaircraft_growth = 1000,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			670201,
+			670202,
+			670203
+		}
+	},
+	[13800202] = {
+		cannon = 26,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 144,
+		air = 0,
+		antiaircraft = 160,
+		battle_unit_type = 30,
+		id = 13800202,
+		bubble_initial = 0,
+		remarks = "【2020埃塞克斯世界BOSS H难度】克利夫兰级量产型",
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 299,
+		durability = 890,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 880,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 15,
+		torpedo = 0,
+		durability_growth = 20800,
+		bubble_fx = "",
+		antiaircraft_growth = 2250,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			670204,
+			670205
+		}
+	},
+	[13800203] = {
+		cannon = 31,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 144,
+		air = 0,
+		antiaircraft = 125,
+		battle_unit_type = 35,
+		id = 13800203,
+		bubble_initial = 0,
+		remarks = "【2020埃塞克斯世界BOSS H难度】彭萨科拉级量产型",
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 300,
+		durability = 1700,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 1800,
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 15,
+		torpedo = 0,
+		durability_growth = 36800,
+		bubble_fx = "",
+		antiaircraft_growth = 1400,
+		appear_fx = {},
+		specific_fx_scale = {},
+		equipment_list = {
+			670206,
+			670207
+		}
+	},
+	[13800204] = {
+		cannon = 120,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 0,
+		air = 396,
+		antiaircraft = 468,
+		battle_unit_type = 95,
+		id = 13800204,
+		bubble_initial = 0,
+		remarks = "【2020埃塞克斯世界BOSS H难度】埃塞克斯",
+		dodge_growth = 284,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 339,
+		durability = 90000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 60,
+		torpedo = 0,
+		durability_growth = 0,
+		bubble_fx = "",
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			670210
+		}
+	},
+	[13800301] = {
+		cannon = 100,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 0,
+		air = 100,
+		antiaircraft = 520,
+		battle_unit_type = 95,
+		id = 13800301,
+		bubble_initial = 0,
+		remarks = "【2020埃塞克斯世界BOSS EX】埃塞克斯",
+		dodge_growth = 284,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 339,
+		durability = 500000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 100,
+		torpedo = 0,
+		durability_growth = 0,
+		bubble_fx = "",
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			670310
+		}
+	},
 	[900001] = {
 		name = "Laffey",
 		luck = 0,
@@ -249232,6 +249763,2463 @@ pg.enemy_data_statistics = {
 		},
 		equipment_list = {}
 	},
+	[999501] = {
+		cannon = 6,
+		name = "驱逐无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 3,
+		rarity = 1,
+		icon_type = 1,
+		dodge_growth = 0,
+		icon = "muyue",
+		star = 1,
+		type = 1,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999501,
+		remarks = "999000-999999 测试用怪物 999500+舰种编号",
+		prefab = "muyue",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999502] = {
+		cannon = 6,
+		name = "轻巡无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 3,
+		rarity = 1,
+		icon_type = 2,
+		dodge_growth = 0,
+		icon = "wushiling",
+		star = 1,
+		type = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999502,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "wushiling",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999503] = {
+		cannon = 6,
+		name = "重巡无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 3,
+		rarity = 1,
+		icon_type = 3,
+		dodge_growth = 0,
+		icon = "guying",
+		star = 1,
+		type = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999503,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "guying",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999504] = {
+		cannon = 6,
+		name = "战巡无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 3,
+		rarity = 1,
+		icon_type = 4,
+		dodge_growth = 0,
+		icon = "jingang",
+		star = 1,
+		type = 4,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999504,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "jingang",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999505] = {
+		cannon = 6,
+		name = "战列无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 3,
+		rarity = 1,
+		icon_type = 5,
+		dodge_growth = 0,
+		icon = "luao",
+		star = 1,
+		type = 5,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999505,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "luao",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 3,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999506] = {
+		cannon = 6,
+		name = "轻母无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 3,
+		rarity = 1,
+		icon_type = 6,
+		dodge_growth = 0,
+		icon = "fengxiang",
+		star = 1,
+		type = 6,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999506,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "fengxiang",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999507] = {
+		cannon = 6,
+		name = "航母无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 3,
+		rarity = 1,
+		icon_type = 7,
+		dodge_growth = 0,
+		icon = "xianghe",
+		star = 1,
+		type = 7,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999507,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "xianghe",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999508] = {
+		cannon = 6,
+		name = "潜艇无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 3,
+		rarity = 1,
+		icon_type = 0,
+		dodge_growth = 0,
+		icon = "I19",
+		star = 1,
+		type = 8,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 266,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 3,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "bubble",
+		bubble_initial = 20,
+		antisub = 0,
+		id = 999508,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "I19",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"hit_bubble",
+						{
+							0.21,
+							3,
+							0
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999510] = {
+		cannon = 6,
+		name = "航战无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 3,
+		rarity = 1,
+		icon_type = 5,
+		dodge_growth = 0,
+		icon = "shancheng_g",
+		star = 1,
+		type = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999510,
+		remarks = "999001-999999 测试用怪物",
+		prefab = "shancheng_g",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 3,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999513] = {
+		cannon = 6,
+		name = "重炮无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 3,
+		rarity = 1,
+		icon_type = 5,
+		dodge_growth = 0,
+		icon = "heianjie",
+		star = 1,
+		type = 13,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999513,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "heianjie",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999518] = {
+		cannon = 6,
+		name = "超巡无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 3,
+		rarity = 1,
+		icon_type = 3,
+		dodge_growth = 0,
+		icon = "wuqi",
+		star = 1,
+		type = 18,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999518,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "wuqi",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999550] = {
+		cannon = 6,
+		name = "塞壬中甲无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 99,
+		rarity = 1,
+		icon_type = 3,
+		dodge_growth = 0,
+		icon = "sairenzhongxun_ii",
+		star = 1,
+		type = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999550,
+		remarks = "999000-999999 测试用怪物 999550+阵营编号",
+		prefab = "sairenzhongxun_ii",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999551] = {
+		cannon = 6,
+		name = "白鹰中甲无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 1,
+		rarity = 1,
+		icon_type = 3,
+		dodge_growth = 0,
+		icon = "baerdimo",
+		star = 1,
+		type = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999551,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "baerdimo",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999552] = {
+		cannon = 6,
+		name = "皇家中甲无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 2,
+		rarity = 1,
+		icon_type = 3,
+		dodge_growth = 0,
+		icon = "yueke",
+		star = 1,
+		type = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999552,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "yueke",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999553] = {
+		cannon = 6,
+		name = "重樱中甲无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 3,
+		rarity = 1,
+		icon_type = 3,
+		dodge_growth = 0,
+		icon = "gaoxiong",
+		star = 1,
+		type = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999553,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "gaoxiong",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999554] = {
+		cannon = 6,
+		name = "铁血中甲无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 4,
+		rarity = 1,
+		icon_type = 3,
+		dodge_growth = 0,
+		icon = "deyizhi",
+		star = 1,
+		type = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999554,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "deyizhi",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999555] = {
+		cannon = 6,
+		name = "东煌中甲无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 5,
+		rarity = 1,
+		icon_type = 3,
+		dodge_growth = 0,
+		icon = "yixian",
+		star = 1,
+		type = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999555,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "yixian",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999556] = {
+		cannon = 6,
+		name = "撒丁中甲无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 6,
+		rarity = 1,
+		icon_type = 3,
+		dodge_growth = 0,
+		icon = "zhala",
+		star = 1,
+		type = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999556,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "zhala",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999557] = {
+		cannon = 6,
+		name = "北联中甲无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 7,
+		rarity = 1,
+		icon_type = 3,
+		dodge_growth = 0,
+		icon = "qiabayefu",
+		star = 1,
+		type = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999557,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "qiabayefu",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999558] = {
+		cannon = 6,
+		name = "鸢尾中甲无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 8,
+		rarity = 1,
+		icon_type = 3,
+		dodge_growth = 0,
+		icon = "luyijiushi",
+		star = 1,
+		type = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999558,
+		remarks = "999000-999999 测试用怪物",
+		prefab = "luyijiushi",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
+	[999559] = {
+		cannon = 6,
+		name = "维希中甲无限血测试敌人",
+		battle_unit_type = 20,
+		speed_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 9,
+		rarity = 1,
+		icon_type = 3,
+		dodge_growth = 0,
+		icon = "aerjiliya",
+		star = 1,
+		type = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		base = 182,
+		durability = 99999999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		luck = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub = 0,
+		id = 999559,
+		remarks = "999000-999999 测试用怪物 这段测试敌人放在敌人表最下方",
+		prefab = "aerjiliya",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 5,
+		torpedo = 28,
+		durability_growth = 0,
+		antiaircraft = 17,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							0.686,
+							-0.081
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							0.486,
+							-0.481
+						}
+					},
+					{
+						"smoke",
+						{
+							0.54,
+							0.486,
+							-0.481
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.694,
+					0.853,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					0.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.096,
+					3.156,
+					0
+				}
+			}
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		equipment_list = {
+			310000
+		}
+	},
 	all = {
 		10,
 		11,
@@ -253435,6 +256423,19 @@ pg.enemy_data_statistics = {
 		13600652,
 		13600653,
 		13600654,
+		13800001,
+		13800002,
+		13800003,
+		13800004,
+		13800101,
+		13800102,
+		13800103,
+		13800104,
+		13800201,
+		13800202,
+		13800203,
+		13800204,
+		13800301,
 		900001,
 		900002,
 		900003,
@@ -253736,6 +256737,27 @@ pg.enemy_data_statistics = {
 		999409,
 		999410,
 		999411,
-		999412
+		999412,
+		999501,
+		999502,
+		999503,
+		999504,
+		999505,
+		999506,
+		999507,
+		999508,
+		999510,
+		999513,
+		999518,
+		999550,
+		999551,
+		999552,
+		999553,
+		999554,
+		999555,
+		999556,
+		999557,
+		999558,
+		999559
 	}
 }

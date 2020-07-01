@@ -160,19 +160,15 @@ function slot0.getFleetByShipVO(slot0, slot1)
 end
 
 function slot0.getMaxCount(slot0)
-	if slot0:getDataType() == ChapterConst.TypeNone then
-		if #slot0:getConfig("risk_levels") == 0 then
-			return 0
-		end
-
-		return slot1[1][1]
-	else
+	if #slot0:getConfig("risk_levels") == 0 then
 		return 0
 	end
+
+	return slot1[1][1]
 end
 
 function slot0.hasMitigation(slot0)
-	if not LOCK_MITIGATION and slot0:getDataType() == ChapterConst.TypeNone then
+	if not LOCK_MITIGATION then
 		return slot0:getConfig("mitigation_level") > 0
 	else
 		return false
@@ -180,33 +176,21 @@ function slot0.hasMitigation(slot0)
 end
 
 function slot0.getRemainPassCount(slot0)
-	if slot0:getDataType() == ChapterConst.TypeNone then
-		return math.max(slot0:getMaxCount() - slot0.passCount, 0)
-	else
-		return 0
-	end
+	return math.max(slot0:getMaxCount() - slot0.passCount, 0)
 end
 
 function slot0.getRiskLevel(slot0)
-	if slot0:getDataType() == ChapterConst.TypeNone then
-		slot1 = slot0:getRemainPassCount()
+	slot1 = slot0:getRemainPassCount()
 
-		for slot6, slot7 in ipairs(slot0:getConfig("risk_levels")) do
-			if slot1 <= slot7[1] and slot7[2] <= slot1 then
-				return slot6
-			end
+	for slot6, slot7 in ipairs(slot0:getConfig("risk_levels")) do
+		if slot1 <= slot7[1] and slot7[2] <= slot1 then
+			return slot6
 		end
-	else
-		return 0
 	end
 end
 
 function slot0.getMitigationRate(slot0)
-	if slot0:getDataType() == ChapterConst.TypeNone then
-		return math.min(slot0.passCount, slot0:getMaxCount()) * (LOCK_MITIGATION and 0 or slot0:getConfig("mitigation_rate"))
-	else
-		return 0
-	end
+	return math.min(slot0.passCount, slot0:getMaxCount()) * (LOCK_MITIGATION and 0 or slot0:getConfig("mitigation_rate"))
 end
 
 function slot0.getRepressInfo(slot0)
@@ -220,15 +204,7 @@ function slot0.getRepressInfo(slot0)
 end
 
 function slot0.getChapterState(slot0)
-	if slot0:getDataType() == ChapterConst.TypeNone then
-		return uv0.CHAPTER_STATE[slot0:getRiskLevel()]
-	else
-		return ""
-	end
-end
-
-function slot0.getDataType(slot0)
-	return ChapterConst.TypeNone
+	return uv0.CHAPTER_STATE[slot0:getRiskLevel()]
 end
 
 function slot0.getPlayType(slot0)
@@ -244,8 +220,14 @@ function slot0.isTypeDefence(slot0)
 end
 
 function slot0.getConfig(slot0, slot1)
-	if slot0:isLoop() and pg.chapter_template_loop[slot0.id][slot1] ~= nil then
-		return slot2[slot1]
+	if slot0:isLoop() then
+		if pg.chapter_template_loop[slot0.id][slot1] ~= nil then
+			return slot2[slot1]
+		end
+
+		if (slot1 == "air_dominance" or slot1 == "best_air_dominance") and slot2.air_dominance_loop_rate ~= nil then
+			return math.floor(slot0:getConfigTable()[slot1] * slot2.air_dominance_loop_rate * 0.01)
+		end
 	end
 
 	return slot0:getConfigTable()[slot1]
@@ -503,7 +485,7 @@ function slot0.findChapterCells(slot0, slot1, slot2)
 end
 
 function slot0.mergeChapterCell(slot0, slot1)
-	slot4 = slot0.cells[ChapterCell.Line2Name(slot1.row, slot1.column)] == nil or slot3.attachment ~= slot1.attachment or slot3.attachmentId ~= slot1.attachmentId or slot3.attachment == ChapterConst.AttachRival and slot3.rival.id ~= slot1.rival.id
+	slot4 = slot0.cells[ChapterCell.Line2Name(slot1.row, slot1.column)] == nil or slot3.attachment ~= slot1.attachment or slot3.attachmentId ~= slot1.attachmentId
 
 	if slot3 then
 		slot3.attachment = slot1.attachment
@@ -605,7 +587,7 @@ function slot0.shipInWartime(slot0, slot1)
 end
 
 function slot0.existAmbush(slot0)
-	return slot0:getDataType() == ChapterConst.TypeNone and slot0:getPlayType() == ChapterConst.TypeLagacy
+	return slot0:getPlayType() == ChapterConst.TypeLagacy
 end
 
 function slot0.getAmbushRate(slot0, slot1, slot2)
@@ -1190,14 +1172,28 @@ function slot0.EliteShipTypeFilter(slot0)
 		end
 	end
 
-	slot5 = "limitation"
+	slot2 = getProxy(BayProxy):getRawData()
 
-	for slot5, slot6 in ipairs(slot0:getConfig(slot5)) do
+	for slot6, slot7 in ipairs(slot0.eliteFleetList) do
+		slot8 = #slot7
+
+		while slot8 > 0 do
+			if slot2[slot7[slot8]] == nil then
+				table.remove(slot7, slot8)
+			end
+
+			slot8 = slot8 - 1
+		end
+	end
+
+	slot6 = "limitation"
+
+	for slot6, slot7 in ipairs(slot0:getConfig(slot6)) do
 		slot10 = {}
 		slot11 = {}
 
-		for slot15, slot16 in ipairs(slot0.eliteFleetList[slot5]) do
-			if getProxy(BayProxy):getRawData()[slot16]:getTeamType() == TeamType.Main then
+		for slot15, slot16 in ipairs(slot0.eliteFleetList[slot6]) do
+			if slot2[slot16]:getTeamType() == TeamType.Main then
 				-- Nothing
 			elseif slot18 == TeamType.Vanguard then
 				slot10[slot17] = slot16
@@ -1206,10 +1202,10 @@ function slot0.EliteShipTypeFilter(slot0)
 			end
 		end
 
-		slot1(slot8, slot6[1], {
+		slot1(slot8, slot7[1], {
 			[slot17] = slot16
 		})
-		slot1(slot8, slot6[2], slot10)
+		slot1(slot8, slot7[2], slot10)
 		slot1(slot8, {
 			0,
 			0,
@@ -1230,7 +1226,7 @@ function slot0.singleEliteFleetVertify(slot0, slot1)
 		slot7 = {}
 
 		for slot11, slot12 in ipairs(slot3) do
-			if slot2[slot12].inEvent then
+			if slot2[slot12]:getFlag("inEvent") then
 				return false, i18n("elite_disable_ship_escort")
 			end
 
@@ -1606,7 +1602,7 @@ function slot0.considerAsObstacle(slot0, slot1, slot2, slot3)
 
 	if slot1 == ChapterConst.SubjectPlayer then
 		if slot4.flag == 0 then
-			if slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachBoss or slot4.attachment == ChapterConst.AttachRival or slot4.attachment == ChapterConst.AttachAreaBoss or slot4.attachment == ChapterConst.AttachBomb_Enemy then
+			if slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachBoss or slot4.attachment == ChapterConst.AttachAreaBoss or slot4.attachment == ChapterConst.AttachBomb_Enemy then
 				return true
 			end
 
@@ -1703,7 +1699,7 @@ end
 
 function slot0.existEnemy(slot0, slot1, slot2, slot3)
 	if slot1 == ChapterConst.SubjectPlayer then
-		if slot0:getChapterCell(slot2, slot3) and slot4.flag == 0 and (slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachBoss or slot4.attachment == ChapterConst.AttachRival or slot4.attachment == ChapterConst.AttachAreaBoss or slot4.attachment == ChapterConst.AttachBomb_Enemy) then
+		if slot0:getChapterCell(slot2, slot3) and slot4.flag == 0 and (slot4.attachment == ChapterConst.AttachAmbush or slot4.attachment == ChapterConst.AttachEnemy or slot4.attachment == ChapterConst.AttachElite or slot4.attachment == ChapterConst.AttachBoss or slot4.attachment == ChapterConst.AttachAreaBoss or slot4.attachment == ChapterConst.AttachBomb_Enemy) then
 			return true, slot4.attachment
 		end
 
@@ -1983,7 +1979,7 @@ function slot0.getQuadCellPic(slot0, slot1)
 
 	if slot1.trait == ChapterConst.TraitLurk then
 		-- Nothing
-	elseif (slot1.attachment == ChapterConst.AttachEnemy or slot1.attachment == ChapterConst.AttachElite or slot1.attachment == ChapterConst.AttachAmbush or slot1.attachment == ChapterConst.AttachBoss or slot1.attachment == ChapterConst.AttachRival or slot1.attachment == ChapterConst.AttachAreaBoss or slot1.attachment == ChapterConst.AttachBomb_Enemy) and slot1.flag == 0 then
+	elseif (slot1.attachment == ChapterConst.AttachEnemy or slot1.attachment == ChapterConst.AttachElite or slot1.attachment == ChapterConst.AttachAmbush or slot1.attachment == ChapterConst.AttachBoss or slot1.attachment == ChapterConst.AttachAreaBoss or slot1.attachment == ChapterConst.AttachBomb_Enemy) and slot1.flag == 0 then
 		slot2 = "cell_enemy"
 	elseif slot1.attachment == ChapterConst.AttachBox and slot1.flag == 0 then
 		if pg.box_data_template[slot1.attachmentId].type == ChapterConst.BoxDrop or slot3.type == ChapterConst.BoxStrategy or slot3.type == ChapterConst.BoxSupply or slot3.type == ChapterConst.BoxEnemy then
@@ -2011,20 +2007,14 @@ end
 function slot0.getMapShip(slot0, slot1)
 	slot2 = nil
 
-	if slot0:getDataType() == ChapterConst.TypeNone then
-		if slot1:isValid() and not _.detect(slot1:getShips(false), function (slot0)
-			return slot0.isNpc and uv0.hpRant > 0
-		end) then
-			if slot1:getFleetType() == FleetType.Normal then
-				slot2 = slot1:getShipsByTeam(TeamType.Main, false)[1]
-			elseif slot4 == FleetType.Submarine then
-				slot2 = slot1:getShipsByTeam(TeamType.Submarine, false)[1]
-			end
+	if slot1:isValid() and not _.detect(slot1:getShips(false), function (slot0)
+		return slot0.isNpc and uv0.hpRant > 0
+	end) then
+		if slot1:getFleetType() == FleetType.Normal then
+			slot2 = slot1:getShipsByTeam(TeamType.Main, false)[1]
+		elseif slot3 == FleetType.Submarine then
+			slot2 = slot1:getShipsByTeam(TeamType.Submarine, false)[1]
 		end
-	elseif slot3 == ChapterConst.TypeSham then
-		slot2 = slot1[TeamType.Main][1]
-	elseif slot3 == ChapterConst.TypeGuild then
-		slot2 = slot1[TeamType.Main][1]
 	end
 
 	return slot2

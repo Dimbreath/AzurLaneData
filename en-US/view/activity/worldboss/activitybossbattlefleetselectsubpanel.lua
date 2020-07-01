@@ -90,7 +90,7 @@ function slot0.InitInteractable(slot0)
 	end, SFX_CANCEL)
 	onToggle(slot0, slot0.commanderToggle, function (slot0)
 		if slot0 then
-			uv0.contextData.showCommander = slot0
+			uv0.viewParent.contextData.showCommander = slot0
 
 			for slot4, slot5 in pairs(uv0.tfFleets) do
 				for slot9 = 1, #slot5 do
@@ -101,7 +101,7 @@ function slot0.InitInteractable(slot0)
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.formationToggle, function (slot0)
 		if slot0 then
-			uv0.contextData.showCommander = not slot0
+			uv0.viewParent.contextData.showCommander = not slot0
 
 			for slot4, slot5 in pairs(uv0.tfFleets) do
 				for slot9 = 1, #slot5 do
@@ -144,7 +144,7 @@ function slot0.UpdateView(slot0)
 
 	slot1 = not LOCK_COMMANDER and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CommandRoomMediator") and slot0.useCMD
 
-	triggerToggle(slot0.contextData.showCommander and slot1 and slot0.commanderToggle or slot0.formationToggle, true)
+	triggerToggle(slot0.viewParent.contextData.showCommander and slot1 and slot0.commanderToggle or slot0.formationToggle, true)
 	setActive(slot0.commanderToggle, slot1)
 	setActive(slot0.btnTry, slot0.showTryBtn)
 end
@@ -209,10 +209,10 @@ function slot0.updateFleet(slot0, slot1, slot2)
 		end
 
 		onButton(slot0, slot10, function ()
-			uv0:emit(ActivityBossBattleMediator3.ON_FLEET_RECOMMEND, uv1.id)
+			uv0:emit(uv0.viewParent.contextData.mediatorClass.ON_FLEET_RECOMMEND, uv1.id)
 		end)
 		onButton(slot0, slot11, function ()
-			uv0:emit(ActivityBossBattleMediator3.ON_FLEET_CLEAR, uv1.id)
+			uv0:emit(uv0.viewParent.contextData.mediatorClass.ON_FLEET_CLEAR, uv1.id)
 		end, SFX_UI_CLICK)
 	end
 end
@@ -225,7 +225,7 @@ function slot0.updateShips(slot0, slot1, slot2, slot3, slot4)
 
 		if slot10 then
 			updateShip(slot12, slot10)
-			setActive(slot12:Find("event_block"), slot10.inEvent)
+			setActive(slot12:Find("event_block"), slot10:getFlag("inEvent"))
 		end
 
 		setActive(slot0:findTF("ship_type", slot12), false)
@@ -234,7 +234,7 @@ function slot0.updateShips(slot0, slot1, slot2, slot3, slot4)
 
 		slot13.onLongPressed:RemoveAllListeners()
 		onButton(slot0, GetOrAddComponent(slot12, typeof(Button)), function ()
-			uv0:emit(ActivityBossBattleMediator3.ON_OPEN_DOCK, {
+			uv0:emit(uv0.viewParent.contextData.mediatorClass.ON_OPEN_DOCK, {
 				fleet = uv1,
 				shipVO = uv2,
 				fleetIndex = uv3,
@@ -257,10 +257,10 @@ function slot0.updateCommanderBtn(slot0, slot1, slot2)
 	slot5 = slot0.tfFleets[slot1][slot2]
 
 	setActive(slot0:findTF("btn_select", slot5), false)
-	setActive(slot0:findTF("btn_clear", slot5), slot3 and not slot0.contextData.showCommander)
-	setActive(slot0:findTF("btn_recom", slot5), slot3 and not slot0.contextData.showCommander)
-	setActive(slot0:findTF("commander", slot5), slot3 and slot4 and slot0.contextData.showCommander)
-	setActive(slot0:findTF("blank", slot5), not slot3 or slot3 and not slot4 and slot0.contextData.showCommander)
+	setActive(slot0:findTF("btn_clear", slot5), slot3 and not slot0.viewParent.contextData.showCommander)
+	setActive(slot0:findTF("btn_recom", slot5), slot3 and not slot0.viewParent.contextData.showCommander)
+	setActive(slot0:findTF("commander", slot5), slot3 and slot4 and slot0.viewParent.contextData.showCommander)
+	setActive(slot0:findTF("blank", slot5), not slot3 or slot3 and not slot4 and slot0.viewParent.contextData.showCommander)
 end
 
 function slot0.updateCommanders(slot0, slot1, slot2)
@@ -311,8 +311,11 @@ function slot0.clearFleet(slot0, slot1)
 end
 
 function slot0.OnShow(slot0)
+	slot0.contextData.layerWeight = #getProxy(ContextProxy):getCurrentContext().children > 0 and LayerWeightConst.LOWER_LAYER or nil
+
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, nil, {
-		groupName = LayerWeightConst.GROUP_FORMATION_PAGE
+		groupName = LayerWeightConst.GROUP_FORMATION_PAGE,
+		weight = slot0.contextData.layerWeight
 	})
 end
 
