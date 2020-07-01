@@ -85,40 +85,44 @@ function slot0.getTaskStatus(slot0)
 end
 
 function slot0.onAdded(slot0)
-	if slot0:getConfig("story_id") and slot2 ~= "" then
-		pg.StoryMgr.GetInstance():PlayOnTaskAdded(slot2, function ()
-			if uv0:getConfig("sub_type") == 29 then
-				if _.any(getProxy(SkirmishProxy):getRawData(), function (slot0)
-					return slot0:getConfig("task_id") == uv0.id
-				end) then
-					return
-				end
+	slot2 = slot0:getConfig("story_id")
 
-				pg.m02:sendNotification(GAME.TASK_GO, {
-					taskVO = uv0
-				})
-			elseif uv0:getConfig("added_tip") > 0 then
-				slot0 = nil
-
-				if getProxy(ContextProxy):getCurrentContext().mediator.__cname ~= TaskMediator.__cname then
-					function slot0()
-						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.TASK, {
-							page = uv0[uv1:getConfig("type")]
-						})
+	if not pg.SeriesGuideMgr.GetInstance():isNotFinish() then
+		if slot2 and slot2 ~= "" then
+			pg.StoryMgr.GetInstance():PlayOnTaskAdded(slot2, function ()
+				if uv0:getConfig("sub_type") == 29 then
+					if _.any(getProxy(SkirmishProxy):getRawData(), function (slot0)
+						return slot0:getConfig("task_id") == uv0.id
+					end) then
+						return
 					end
-				end
 
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					yesText = "text_forward",
-					noText = "text_iknow",
-					content = i18n("tip_add_task", HXSet.hxLan(uv0:getConfig("name"))),
-					onYes = slot0,
-					weight = LayerWeightConst.TOP_LAYER
-				})
-			end
-		end, true, true)
-	else
-		slot1()
+					pg.m02:sendNotification(GAME.TASK_GO, {
+						taskVO = uv0
+					})
+				elseif uv0:getConfig("added_tip") > 0 then
+					slot0 = nil
+
+					if getProxy(ContextProxy):getCurrentContext().mediator.__cname ~= TaskMediator.__cname then
+						function slot0()
+							pg.m02:sendNotification(GAME.GO_SCENE, SCENE.TASK, {
+								page = uv0[uv1:getConfig("type")]
+							})
+						end
+					end
+
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						yesText = "text_forward",
+						noText = "text_iknow",
+						content = i18n("tip_add_task", HXSet.hxLan(uv0:getConfig("name"))),
+						onYes = slot0,
+						weight = LayerWeightConst.TOP_LAYER
+					})
+				end
+			end, true, true)
+		else
+			slot1()
+		end
 	end
 end
 

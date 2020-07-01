@@ -35,8 +35,8 @@ return {
 				posX = 32.25
 			},
 			baseui = {
-				pathIndex = -1,
-				path = "LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/quads/chapter_cell_quad_4_7"
+				pathIndex = 0,
+				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_7/attachment"
 			},
 			ui = {
 				eventPath = "LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/quads/chapter_cell_quad_4_7",
