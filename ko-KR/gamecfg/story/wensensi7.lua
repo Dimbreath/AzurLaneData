@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=45>七 妹妹的笑容</size>",
+					"동생의 변화\n\n<size=45>6. 동생의 웃음</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "在几位姐姐的教授之下，文森斯初步掌握了身为秘书舰该做的事。",
+			say = "언니들의 도움을 받아 빈센스는 비서함이 해야 하는 일에 대해 파악하기 시작했다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "指挥官，这些文件你看是这样吗？",
+			say = "지휘관, 이 문서 어때?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "还有这是今天的日程……啊，这里写错了……",
+			say = "그리고 오늘의 스케쥴……아, 여기 틀렸다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然比较笨拙，但是确实在慢慢地帮上忙。",
+			say = "약간 실수 투성이지만 그래도 도움이 되고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "文森斯的成长着实让人感到高兴",
+			say = "빈센스의 이런 모습을 보니 정말 기쁘네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "对了，指挥官，给你这个……",
+			say = "맞아, 지휘관. 이거 줄게……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			withoutActorName = true,
 			actor = 103100,
 			nameColor = "#92fc63",
-			say = "文森斯递过来……一包包装精美的饼干？",
+			say = "빈센스가 준 것은…… 잘 포장된 과자?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			withoutActorName = true,
 			actor = 103100,
 			nameColor = "#92fc63",
-			say = "饼干的形状做成了自己的样子，虽然有些粗糙，但是能够感觉到烘烤的人的心意。",
+			say = "내 모습을 본따서 만들었어. 조금 어설프지만 마음은 전해질 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "这是，之前阿斯托利亚姐姐教我做指挥官喜欢的点心时一起做的。",
+			say = "아스토리아 언니가 지휘관이 좋아하는 음식을 알려줄 때 같이 만들었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "想要感谢指挥官一直以来对我的照顾",
+			say = "지휘관이 지금까지 돌봐준 것에 대한 고마움의 표현이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "同时也做了姐姐们的份，不过交给她们的时候，不知道为什么，昆西姐姐当场就哭出来了…",
+			say = "언니들 몫도 있어. 그런데 왠지 모르지만 퀸시 언니가 울어버렸단 말이지…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,23 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "总觉得似乎能够想象那个场景。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 103100,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "虽然被照顾很幸福，能想睡就睡也很幸福…",
+			say = "어떤 모습일지 상상이 간다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +223,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "不过，和姐姐们还有指挥官一起努力好像更让人高兴…",
+			say = "돌봄 받는 것도, 자고 싶을 때 잘 수 있는 것도 행복하지만…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 103100,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#92fc63",
+			dir = 1,
+			say = "역시 언니들과 지휘관을 위해 노력하는 것이 더 즐거워…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			actor = 103100,
 			nameColor = "#92fc63",
-			say = "以后文森斯也会慢慢加油的。",
+			say = "앞으로 더 힘낼게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示“一起加油”",
+					content = "함께 힘내자고 한다",
 					flag = 1
 				}
 			}
@@ -278,7 +278,7 @@ return {
 			blackBg = true,
 			actor = 103100,
 			nameColor = "#92fc63",
-			say = "嗯…！不过，指挥官…以后还会陪我一起午睡的，对吧？",
+			say = "응…! 하지만 지휘관… 앞으로도 같이 낮잠 자줄 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

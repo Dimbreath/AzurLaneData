@@ -3,18 +3,33 @@ ys.Battle.BattleGatePerform = slot0
 slot0.__name = "BattleGatePerform"
 
 function slot0.Entrance(slot0, slot1)
-	slot2 = slot0.stageId
+	slot4 = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot0.stageId].dungeon_id).fleet_prefab or {}
+	slot5 = {}
+
+	if slot0.mainFleetId then
+		slot6 = getProxy(BayProxy)
+		slot7 = getProxy(FleetProxy)
+
+		if not slot1.LegalFleet(slot0.mainFleetId) then
+			return
+		end
+
+		for slot13, slot14 in ipairs(slot6:getSortShipsByFleet(slot7:getFleetById(slot0.mainFleetId))) do
+			slot5[#slot5 + 1] = slot14.id
+		end
+	end
 
 	if slot0.memory then
 		slot1:sendNotification(GAME.BEGIN_STAGE_DONE, {
-			prefabFleet = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot2].dungeon_id).fleet_prefab,
 			stageId = slot2,
 			system = SYSTEM_PERFORM,
 			memory = slot0.memory,
-			exitCallback = slot0.exitCallback
+			exitCallback = slot0.exitCallback,
+			prefabFleet = slot4,
+			mainFleetId = slot0.mainFleetId
 		})
 	else
-		BeginStageCommand.SendRequest(SYSTEM_PERFORM, {}, {
+		BeginStageCommand.SendRequest(SYSTEM_PERFORM, slot5, {
 			slot2
 		}, function (slot0)
 			uv0:sendNotification(GAME.STORY_UPDATE, {

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=45>二 妹妹的忧郁</size>",
+					"동생의 변화\n\n<size=45>1. 동생의 우울</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·白鹰宿舍",
+			say = "모항·이글 유니온 기숙사",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "又一次接受文森斯的邀请来到了文森斯的宿舍",
+			say = "다시 한 번 빈센스의 초대를 받아 기숙사에 들렀다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = -1,
-			say = "文森斯，这是我刚买的芒果千层，来，啊~~",
+			say = "빈센스, 방금 사온 망고 크레이프야. 자, 아~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			say = "怎么连阿斯托利亚姐姐都变成这样了……",
+			say = "왜 아스토리아 언니도 이렇게 된 거야……",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = -1,
-			say = "我也是姐姐嘛！怎么能把疼爱妹妹的事情全部交给昆西呢！",
+			say = "나도 언니라고! 동생을 귀여워하는 일을 전부 퀸시에게 맡겨둘 수는 없어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "唔…阿斯托利亚姐姐…",
+			say = "우… 아스토리아 언니…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "文森斯有些无奈地被阿斯托利亚一口一口喂着蛋糕。",
+			say = "빈센스는 어쩔 수 없다는 듯이 아스토리아가 먹여주는 케이크를 받아 먹었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			actor = 103100,
 			nameColor = "#92fc63",
-			say = "指挥官，help me…",
+			say = "지휘관, Help me…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			},
 			options = {
 				{
-					content = "坐下一起吃蛋糕",
+					content = "앉아서 함께 케이크를 먹는다",
 					flag = 1
 				}
 			}
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = -1,
-			say = "欸嘿嘿……",
+			say = "에헤헤……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "在一边，阿斯托利亚看着文森斯露出了有些……幸福的笑容？",
+			say = "아스토리아가 빈센스를 보고 짓는 웃음은…… 행복의 웃음?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "总觉得阿斯托利亚的角色都变了……？",
+			say = "아스토리아의 캐릭터가 조금 변한 느낌인데……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = -1,
-			say = "什么嘛，指挥官，用那种眼神看着我。虽然比不上昆西，我也是姐姐，姐，姐！",
+			say = "뭐야, 지휘관. 왜 그런 눈으로 봐? 퀸시 정도는 아니지만 나도 언니라고. 언. 니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = -1,
-			say = "而且以前我和文森斯分开比较多，像现在这样一起生活就会觉得，我的妹妹好可爱啊！",
+			say = "그리고 빈센스와는 오래 떨어져 있었으니까 이렇게 함께 생활하고 있으니 동생이 귀여워서 어쩔 수가 없어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "阿斯托利亚说着一把把文森斯抱在怀里。",
+			say = "아스토리아는 말을 하면서 빈센스를 품에 꼭 안았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "姐姐……别抱那么紧……",
+			say = "언니…… 숨 막혀……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "总觉得，阿斯托利亚莫非有变成波特兰的潜质……？",
+			say = "약간, 아스토리아도 포틀랜드처럼 변할 가능성이 보이는데……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "不过，她的想法也不是不能理解，文森斯身上确实有一种让人想要去照顾她的气场呢……",
+			say = "하지만 그 생각을 이해하지 못하는 것은 아니다. 빈센스는 확실히 돌봐주지 않을 수 없게 만드니까……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

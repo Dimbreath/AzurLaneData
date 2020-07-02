@@ -5833,6 +5833,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[307] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 132,
+		group_type = 20125,
+		code = 307,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"출석 스탬프",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[325] = {
 		type = 1,
 		trans_skin = 0,
@@ -16576,6 +16607,7 @@ pg.ship_data_group = {
 		101,
 		102,
 		306,
+		307,
 		325,
 		326,
 		460,

@@ -66582,6 +66582,1346 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[66001] = {
+		advice = 0,
+		describe = "즐겨! 야호! 난 아직도 더 달릴 수 있어!",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "레이싱 패션 트랙",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "dibancaricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66001,
+		picture = "Car/dibancar",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66002] = {
+		advice = 0,
+		describe = "즐겨! 야호! 난 아직도 더 달릴 수 있어!",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "레이싱 패션 벽지",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "qiangbicaricon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66002,
+		picture = "car/qiangbicar",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66101] = {
+		advice = 0,
+		describe = "야간 경기에 사용하는 가로등. 방향을 알려준다!",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "서킷 가로등",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "1caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66101,
+		picture = "car/1car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66102] = {
+		advice = 0,
+		describe = "바람에 나부끼는 깃발. 가슴이 두근거리는데!",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "깃발",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "2caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 66102,
+		picture = "car/2car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66103] = {
+		advice = 0,
+		describe = "꼼꼼하게 피하기!",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "서킷 장애물",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 66,
+		icon = "3caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66103,
+		picture = "Car/3car",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66104] = {
+		advice = 0,
+		describe = "오늘 경기의 협찬은… 쥬!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "만쥬 협찬 판넬",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "4caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66104,
+		picture = "Car/4car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66105] = {
+		advice = 0,
+		describe = "속도 측정에 주의… 쥬!",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "과속 방지 턱",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "5caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66105,
+		picture = "Car/5car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66106] = {
+		advice = 0,
+		describe = "지름길 사용 금지!",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "서킷 가드레일",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 66,
+		icon = "6caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66106,
+		picture = "Car/6car",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66107] = {
+		advice = 0,
+		describe = "저 깃발은 무슨 뜻이지… 쥬?",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "지휘대",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "7caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 66107,
+		picture = "Car/7car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					45.9,
+					94.3
+				},
+				{
+					1,
+					1
+				},
+				"car/7car_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66108] = {
+		advice = 0,
+		describe = "화려한 레이스가 지금 막 시작… 쥬!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "만쥬 무대",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "8caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 66108,
+		picture = "Car/8car",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66109] = {
+		advice = 0,
+		describe = "쥬? 이 구역은 들어갈 수 없어쥬!",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "통행 금지 구역",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "9caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66109,
+		picture = "Car/9car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66110] = {
+		advice = 0,
+		describe = "타이어 교체는 정비구역에서!",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "예비 타이어",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 66,
+		icon = "10caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66110,
+		picture = "Car/10car",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66111] = {
+		advice = 0,
+		describe = "최고 시청률 또 갱신이다!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "만쥬 중계차",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "11caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66111,
+		picture = "Car/11car",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66112] = {
+		advice = 0,
+		describe = "충돌을 방지하기 위한 가드 배리어",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "가드 배리어",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "12caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66112,
+		picture = "Car/12car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66113] = {
+		advice = 0,
+		describe = "푸른 잎이 우거진 가로수.",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "서킷 가로수(여름)",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "13caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66113,
+		picture = "Car/13car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66114] = {
+		advice = 0,
+		describe = "노란 잎이 우거진 가로수.",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "서킷 가로수(가을)",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "14caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66114,
+		picture = "Car/14car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66115] = {
+		advice = 0,
+		describe = "꿈의 시작점. 가속할 준비는 됐지?",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "스타트 라인",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "15caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66115,
+		picture = "Car/15car",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66116] = {
+		advice = 0,
+		describe = "통제 불능한 레이싱 카의 속도를 낮출 수 있는 완충 잔디.",
+		count = 2,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "완충 잔디",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 66,
+		icon = "16caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66116,
+		picture = "Car/16car",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[66117] = {
+		advice = 0,
+		describe = "야간에 방향을 알려주는 지시등.",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "서킷 지시등(앞)",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "17caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66117,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"17car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66118] = {
+		advice = 0,
+		describe = "야간에 방향을 알려주는 지시등.",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "서킷 지시등(금지)",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "18caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66118,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"18car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66119] = {
+		advice = 0,
+		describe = "야간에 방향을 알려주는 지시등.",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "서킷 지시등(좌)",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "19caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66119,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"19car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66120] = {
+		advice = 0,
+		describe = "야간에 방향을 알려주는 지시등.",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "서킷 지시등(우)",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "20caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66120,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"20car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66121] = {
+		advice = 0,
+		describe = "야간에 방향을 알려주는 지시등.",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "서킷 지시등(뒤)",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 66,
+		icon = "21caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66121,
+		picture = "",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"21car",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[66122] = {
+		advice = 0,
+		describe = "레드 프레임으로 서킷을 뜨겁게!",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "레드 프레임",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheAicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66122,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheAB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheAT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66123] = {
+		advice = 0,
+		describe = "화이트 팽으로 눈 앞의 장애물을 부숴버리자!",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "화이트 팽",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheBicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66123,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheBB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheBT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66124] = {
+		advice = 0,
+		describe = "포세이돈의 적을 파도로 삼켜버려!",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "아주르 포세이돈",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheCicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66124,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheCB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheCT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66125] = {
+		advice = 0,
+		describe = "좀 더 빠르게! 직선 도로의 황제는 바로 나!",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "오렌지 만쥬",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheDicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66125,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheDB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheDT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66126] = {
+		advice = 0,
+		describe = "모두가 옐로 스팅거의 뒤를 따르게 되겠지!",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "옐로 스팅거",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "cheEicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 66126,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheEB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"cheET"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"checarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[66127] = {
+		advice = 0,
+		describe = "새로 나온 레이싱 카. 시승도 가능해요!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "레이싱 카 전시장",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 66,
+		icon = "22caricon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 66127,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhanshicar",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"zhanshicarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -68119,6 +69459,35 @@ pg.furniture_data_template = {
 		62115,
 		62116,
 		62117,
-		62118
+		62118,
+		66001,
+		66002,
+		66101,
+		66102,
+		66103,
+		66104,
+		66105,
+		66106,
+		66107,
+		66108,
+		66109,
+		66110,
+		66111,
+		66112,
+		66113,
+		66114,
+		66115,
+		66116,
+		66117,
+		66118,
+		66119,
+		66120,
+		66121,
+		66122,
+		66123,
+		66124,
+		66125,
+		66126,
+		66127
 	}
 }

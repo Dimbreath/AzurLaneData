@@ -405,10 +405,10 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "정말이지…… 모처럼 숙소까지 와주셨으니, 잠깐 담소라도 같이 나누는 게 어떠신지?",
 			typewriter = {

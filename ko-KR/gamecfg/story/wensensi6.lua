@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=45>六 妹妹的努力</size>",
+					"동생의 변화\n\n<size=45>6. 동생의 노력</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "于是，文森斯的秘书舰课程开始了。",
+			say = "빈센스의 비서함 교실이 시작되었다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……不过，原本是一对一的单独教学，最后因为被姐姐们知道了，于是变成了轮流授课。",
+			say = "……하지만 언니들이 알아버렸기 때문에 처음 생각한 대로 일대일 교습이 아닌 돌아가면서 가르치게 되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			actor = 103090,
 			nameColor = "#92fc63",
-			say = "那么，首先是公文，为了能够有效地辅助指挥官，首先我们要了解他们都代表什么……",
+			say = "자, 그러면 먼저 공문이에요. 지휘관님을 도와드리려면 이게 뭔지 알아야겠죠……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "唔，种类好多……",
+			say = "와, 많아……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "作为秘书舰，不清楚指挥官的日程安排可不行的。",
+			say = "비서함이라면 지휘관님의 스케쥴도 제대로 파악하고 있어야 해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "而且，不仅要牢记，还要根据实际情况来调整……",
+			say = "그리고 상황에 맞게 조정하는 것도 잊지 말아야 하죠……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "所以呢，文森斯现在明白我们应该怎么做了吗？",
+			say = "자, 빈센스. 이제 뭘 해야 하는지 알겠어요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "要明白指挥官平时要做些什么吗？",
+			say = "지휘관이 평소에 뭘 하는지 알아야 하는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "没错~",
+			say = "맞아요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			actor = 103080,
 			nameColor = "#92fc63",
-			say = "唔唔唔，我该教些什么呢……啊，对了，我来教你指挥官喜欢吃什么吧！",
+			say = "으으으, 나는 뭘 가르쳐줘야 하지…… 아, 그래. 지휘관이 좋아하는 음식을 알려줄게!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			actor = 103080,
 			nameColor = "#92fc63",
-			say = "让指挥官能够保持良好的工作状态也是很重要的！",
+			say = "지휘관의 업무 효율을 위해서 컨디션을 관리하는 것도 아주 중요해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			actor = 103100,
 			nameColor = "#92fc63",
-			say = "喔！",
+			say = "응!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			actor = 103130,
 			nameColor = "#92fc63",
-			say = "文森斯，我来教你打猎！…话说为什么我也加入了教授的行列…",
+			say = "빈센스, 내가 사냥을 가르쳐주지! …그런데 나도 선생이 되어버린 기분인데…",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -307,7 +307,7 @@ return {
 			}
 		},
 		{
-			say = "姑且把新奥尔良级的大家都叫上了…不过打猎这个……",
+			say = "뉴올리언스급은 거의 모두 온 모양이네요… 하지만 사냥은……",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			actor = 103130,
 			nameColor = "#92fc63",
-			say = "新奥尔良自己不是也没来嘛…要是不用我教打猎的话我就先走咯",
+			say = "뉴올리언스 본인은 오지 않았잖아… 사냥이 필요 없다면 난 가보겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "…如此这般，让人不禁扬起嘴角的温馨场景持续了好一段时间",
+			say = "…이렇게 입가에 웃음이 떠나지 않는 시간이 이어졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

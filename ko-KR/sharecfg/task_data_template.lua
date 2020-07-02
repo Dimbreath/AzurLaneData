@@ -15530,6 +15530,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5381] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5282,
+		type = 5,
+		name = "동생의 일상 ",
+		count_inherit = 0,
+		desc = "어뢰 튀김을 3개 제출한다.",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "wensensi",
+		award_choice = "",
+		level = 1,
+		next_task = "5382",
+		visibility = 1,
+		story_id = "WENSENSI1",
+		target_id_for_client = 50003,
+		id = 5381,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5382] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5283,
+		type = 5,
+		name = "동생의 우울 ",
+		count_inherit = 0,
+		desc = "임의의 함선소녀를 10회 강화한다.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "wensensi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5383",
+		visibility = 1,
+		story_id = "WENSENSI2",
+		target_id_for_client = 0,
+		id = 5382,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5383] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5284,
+		type = 5,
+		name = "동생의 생각 ",
+		count_inherit = 0,
+		desc = "빈센스를 포함한 함대를 출격시켜\n 20회 승리한다.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "wensensi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5384",
+		visibility = 1,
+		story_id = "WENSENSI3",
+		target_id_for_client = 10310,
+		id = 5383,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "10310",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5384] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5285,
+		type = 5,
+		name = "동생의 실망 ",
+		count_inherit = 0,
+		desc = "빈센스를 포함한 함대로 데일리 챌린지를 \n3회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "wensensi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5385",
+		visibility = 1,
+		story_id = "WENSENSI4",
+		target_id_for_client = 10310,
+		id = 5384,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "10310",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5385] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5286,
+		type = 5,
+		name = "동생의 결심 ",
+		count_inherit = 0,
+		desc = "빈센스의 호감도를 100까지 달성한다.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "wensensi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5386",
+		visibility = 1,
+		story_id = "WENSENSI5",
+		target_id_for_client = 10310,
+		id = 5385,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "10310",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16012,
+				1
+			}
+		}
+	},
+	[5386] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5287,
+		type = 5,
+		name = "동생의 노력 ",
+		count_inherit = 0,
+		desc = "빈센스의 한계돌파를 3회 진행한다.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "wensensi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5387",
+		visibility = 1,
+		story_id = "WENSENSI6",
+		target_id_for_client = 103104,
+		id = 5386,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "103104",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5387] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5288,
+		type = 5,
+		name = "동생의 웃음 ",
+		count_inherit = 0,
+		desc = "빈센스의 레벨을 100까지 달성한다.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "wensensi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "WENSENSI7",
+		target_id_for_client = 10310,
+		id = 5387,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "10310",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
 	[5391] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -97381,6 +97637,13 @@ pg.task_data_template = {
 		5375,
 		5376,
 		5377,
+		5381,
+		5382,
+		5383,
+		5384,
+		5385,
+		5386,
+		5387,
 		5391,
 		5392,
 		5393,

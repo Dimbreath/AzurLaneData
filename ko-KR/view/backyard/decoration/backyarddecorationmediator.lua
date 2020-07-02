@@ -63,7 +63,15 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.OPEN_SHOP, function (slot0)
-		uv0:sendNotification(GAME.OPEN_BACKYARD_SHOP)
+		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
+			tip = false,
+			name = BACKYARD.FURNITURE_SAVE,
+			callback = function (slot0)
+				if slot0 then
+					uv0:sendNotification(GAME.OPEN_BACKYARD_SHOP)
+				end
+			end
+		})
 	end)
 	slot0:bind(uv0.SAVE_ALL, function (slot0)
 		pg.backyard:sendNotification(BACKYARD.GARNITURE_SAVE)

@@ -13139,6 +13139,7 @@ pg.activity_template = {
 	},
 	[20490] = {
 		mark = 20200618,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -13167,33 +13168,6 @@ pg.activity_template = {
 			},
 			{
 				1000037
-			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -13893,6 +13867,64 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[25041] = {
+		mark = 20190117,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5381,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 25041,
+		config_data = {
+			0,
+			{}
+		}
+	},
+	[29006] = {
+		mark = 20200624,
+		type = 51,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 86,
+		config_client = "",
+		title_res_tag = "monopoly_car",
+		id = 29006,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MonopolyCar.MonopolyCarPage",
+			ui_name = "MonopolyCarPage"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -14431,6 +14463,8 @@ pg.activity_template = {
 		25037,
 		25038,
 		25039,
-		25040
+		25040,
+		25041,
+		29006
 	}
 }

@@ -34,13 +34,11 @@ function slot0.RebuildData(slot0, slot1)
 end
 
 function slot0.__index(slot0, slot1)
-	value = uv0[slot1]
-
-	if not value and rawget(slot0, "currentChampion") then
-		value = slot2[slot1]
+	if not uv0[slot1] and rawget(slot0, "currentChampion") then
+		slot2 = slot3[slot1]
 	end
 
-	return value
+	return slot2
 end
 
 function slot0.Iter(slot0)

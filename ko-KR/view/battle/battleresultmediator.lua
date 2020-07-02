@@ -8,6 +8,7 @@ slot0.ON_NEXT_CHALLENGE = "BattleResultMediator.ON_NEXT_CHALLENGE"
 slot0.ON_CHALLENGE_RANK = "BattleResultMediator:ON_CHALLENGE_RANK"
 slot0.ON_CHALLENGE_SHARE = "BattleResultMediator:ON_CHALLENGE_SHARE"
 slot0.ON_CHALLENGE_DEFEAT_SCENE = "BattleResultMediator:ON_CHALLENGE_DEFEAT_SCENE"
+slot0.DIRECT_EXIT = "BattleResultMediator:DIRECT_EXIT"
 slot0.OPEN_FAIL_TIP_LAYER = "BattleResultMediator:OPEN_FAIL_TIP_LAYER"
 
 function slot0.register(slot0)
@@ -236,6 +237,9 @@ function slot0.register(slot0)
 			end
 		}))
 	end)
+	slot0:bind(uv0.DIRECT_EXIT, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_BACK)
+	end)
 end
 
 function slot0.showExtraChapterActSocre(slot0)
@@ -283,7 +287,8 @@ function slot0.GetResultView(slot0)
 		[SYSTEM_SUBMARINE_RUN] = BattleSubmarineRunResultLayer,
 		[SYSTEM_SUB_ROUTINE] = BattleSubmarineRoutineResultLayer,
 		[SYSTEM_HP_SHARE_ACT_BOSS] = BattleContributionResultLayer,
-		[SYSTEM_BOSS_EXPERIMENT] = BattleExperimentResultLayer
+		[SYSTEM_BOSS_EXPERIMENT] = BattleExperimentResultLayer,
+		[SYSTEM_ACT_BOSS] = BattleActivityBossResultLayer
 	}
 
 	return uv0.RESULT_VIEW_TRANSFORM[slot0] or BattleResultLayer

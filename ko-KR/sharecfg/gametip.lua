@@ -5509,6 +5509,9 @@ B평가:<color=#92fc63>70</color>점
 	words_bg_fit_mode = {
 		tip = "화면 최적화 "
 	},
+	words_battle_hide_bg = {
+		tip = "전투 중 배경 일부분 기본 숨김"
+	},
 	activity_puzzle_get1 = {
 		tip = "획득 방식：퍼즐 임무 7"
 	},
@@ -6948,7 +6951,7 @@ B평가:<color=#92fc63>70</color>점
 		tip = "미니애폴리스, 노스캐롤라이나,워싱턴,콜로라도,메릴랜드 건조 추가 "
 	},
 	buildship_light_tip = {
-		tip = "하비,커크 건조 추가! "
+		tip = "저지 건조 추가! "
 	},
 	buildship_special_tip = {
 		tip = "에식스 건조 추가 "
@@ -10440,7 +10443,91 @@ BUFF 보너스도 증가합니다.
 	BackYard_collection_be_delete_tip = {
 		tip = "삭제된 테마를 즐겨찾기 목록에서 제거했습니다. "
 	},
+	help_monopoly_car = {
+		tip = {
+			{
+				info = "이벤트 설명:"
+			},
+			{
+				info = "1. 이벤트 기간 동안, 유저는 첫 날 가속 횟수 5회를 획득하며, \n이후 매일 24시마다 5회 획득. 가속 횟수는 누적 가능"
+			},
+			{
+				info = "2. 게임 중, 유저가 머문 칸에 따라 각각의 보상을 획득할 수 \n있으며, 출발점을 지날 때마다 200 물자 획득."
+			},
+			{
+				info = "       : 일정 수량의 물자 획득.",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = -5,
+					scale = 0.3,
+					path = "saichejinbi"
+				}
+			},
+			{
+				info = "       : 일정 수량의 연료 획득.",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = -5,
+					scale = 0.3,
+					path = "saicheshiyou"
+				}
+			},
+			{
+				info = "       : 랜덤 발동.",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = -5,
+					scale = 0.3,
+					path = "saicheminyun"
+				}
+			},
+			{
+				info = "       : 랜덤 보상 발동.",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = -5,
+					scale = 0.3,
+					path = "saichedaoju"
+				}
+			},
+			{
+				info = "       : 랜덤 이동.",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = -5,
+					scale = 0.3,
+					path = "saicheteshu"
+				}
+			}
+		}
+	},
 	backYard_missing_furnitrue_tip = {
-		tip = "缺少以下家具"
+		tip = "이하 가구가 없습니다"
+	},
+	win_condition_display_qijian = {
+		tip = "적군 기함 격파"
+	},
+	win_condition_display_shangchuan = {
+		tip = "상선이 지정 위치 도착"
+	},
+	win_condition_display_judian = {
+		tip = "적의 모든 거점 파괴"
+	},
+	win_condition_display_tuoli = {
+		tip = "임의의 함선이 이탈점 도달 "
+	},
+	lose_condition_display_quanmie = {
+		tip = "아군 함대 전멸"
+	},
+	lose_condition_display_gangqu = {
+		tip = "아군 함대 전멸, 항구 HP가 0에 도달"
+	},
+	re_battle = {
+		tip = "재도전 "
 	}
 }

@@ -180,8 +180,11 @@ pg.activity_const = {
 	PIG_YEAR_RED_POCKET_SHIP_ID_RETRO = {
 		act_id = 20341
 	},
-	["NEW_YEAR_OVERVIEW=234--新年活动总览this.BOSS_BATTLE_AISAIKESI"] = {
+	NEW_YEAR_OVERVIEW = {
 		act_id = 234
+	},
+	BOSS_BATTLE_AISAIKESI = {
+		act_id = 243
 	},
 	NARVIK_PREVIEW_ID = {
 		act_id = 251
@@ -219,6 +222,9 @@ pg.activity_const = {
 	BANAI_TASK_DAILY_ID = {
 		act_id = 20176
 	},
+	BANAI_PT_SHOP_ID = {
+		act_id = 20177
+	},
 	SUB_RED_POCKET = {
 		act_id = 20186
 	},
@@ -233,9 +239,6 @@ pg.activity_const = {
 	},
 	ACTIVITY_TYPE_RETURN_AWARD_ID3 = {
 		act_id = 590
-	},
-	BANAI_PT_SHOP_ID = {
-		act_id = 20177
 	},
 	BISMARCK_CHAPTER_ID = {
 		act_id = 20202
@@ -273,8 +276,17 @@ pg.activity_const = {
 	GLORY_PAGE_ID = {
 		act_id = 20226
 	},
+	ACTIVITY_ID_CHALLENGE_RANK = {
+		act_id = 20484
+	},
+	ACTIVITY_ID_CHALLENGE = {
+		act_id = 20485
+	},
 	FRANCE_RE_BUILD = {
 		act_id = 0
+	},
+	ACTIVITY_ID_US_SKIRMISH = {
+		act_id = 20230
 	},
 	FRANCE_RE_MAIN = {
 		act_id = 20435
@@ -311,15 +323,6 @@ pg.activity_const = {
 	},
 	US_DEFENCE_OIL_ID = {
 		act_id = 20239
-	},
-	ACTIVITY_ID_CHALLENGE_RANK = {
-		act_id = 20484
-	},
-	ACTIVITY_ID_CHALLENGE = {
-		act_id = 20485
-	},
-	ACTIVITY_ID_US_SKIRMISH = {
-		act_id = 20230
 	},
 	SARATOGA_WF_SKIN_ID = {
 		act_id = 20241
@@ -525,6 +528,12 @@ pg.activity_const = {
 	ESKI_PT_PAGE = {
 		act_id = 20488
 	},
+	MONOPOLY_CAR_PAGE = {
+		act_id = 29006
+	},
+	LINDONG_REMAKE_KR = {
+		act_id = 20289
+	},
 	TWHALLOWEENSKIN = {
 		act_id = 0
 	},
@@ -612,6 +621,9 @@ pg.activity_const = {
 	JIQILIFU_SKIN = {
 		act_id = 20478
 	},
+	ACTIVITY_BOSS_AISAIKESI_PT = {
+		act_id = 623
+	},
 	SUMMER_REMAKE = {
 		act_id = 20248
 	},
@@ -644,9 +656,6 @@ pg.activity_const = {
 	},
 	CARD_PAIR_FX_PAGE = {
 		act_id = 40050
-	},
-	LINDONG_REMAKE_KR = {
-		act_id = 20289
 	},
 	MORAN_KR_PT_ID = {
 		act_id = 20346

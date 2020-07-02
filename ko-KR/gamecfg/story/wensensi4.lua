@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=45>四 妹妹的失落</size>",
+					"동생의 변화\n\n<size=45>4. 동생의 실망</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "最近的舰队事务稍微变得有些繁重，港区的成员都忙碌了起来——",
+			say = "요즘 함대의 일이 바빠 모두가 매우 분주해졌다——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "指挥官，有关下一片海域的侦查人员配置…",
+			say = "지휘관님, 다음 해역에 배치할 인선에 대해서…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "昆西姐姐……",
+			say = "퀸시 언니……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "啊，文森斯，抱歉，姐姐现在和指挥官有些军务要商量，等结束了再陪你。",
+			say = "아, 빈센스. 지휘관님과 중요한 이야기가 있어서 그러니 조금만 기다려.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嗯……",
+			say = "응……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,23 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "前些天参与了周边海域清扫战场的阿斯托利亚比较合适吧",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 103080,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "指挥官，要把这一片海域分派给我吗。",
+			say = "며칠 전에 주변 해역 소탕에 참여한 아스토리아가 알맞겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +129,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "……嗯，我知道了，我会努力的！",
+			say = "지휘관, 이쪽 해역은 나에게 맡겨줘.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 103080,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#92fc63",
+			dir = 1,
+			say = "……응, 알았어. 힘낼게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 103100,
 			nameColor = "#92fc63",
-			say = "指挥官，有什么我能帮忙的吗？",
+			say = "지휘관, 내가 도와줄 건 없어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			},
 			options = {
 				{
-					content = "思考",
+					content = "생각한다",
 					flag = 1
 				}
 			}
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "指挥官，文森斯能交给我吗，我一定会安排好的！",
+			say = "지휘관, 빈센스는 나에게 맡겨줘. 내가 잘 돌볼게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "确实，文森斯的战斗能力是值得信赖的，既然阿斯托利亚这么说，那就交给她吧。",
+			say = "확실히 빈센스의 전투력은 믿을만 하지. 아스토리아가 그렇게 말한다면 맡길게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "文森斯，你不用想复杂的事，一切都交给姐姐来安排就好了。",
+			say = "빈센스, 복잡한 건 전부 언니에게 맡기면 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "哦……",
+			say = "응……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			actor = 103100,
 			nameColor = "#92fc63",
-			say = "指挥官，来一起睡一会儿吗，已经工作很久了呢。",
+			say = "지휘관, 같이 자자. 일을 너무 오래 했잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			},
 			options = {
 				{
-					content = "摸文森斯的头，让她先去",
+					content = "빈센스의 머리를 쓰다듬어 주고 먼저 가라고 한다",
 					flag = 1
 				}
 			}
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 103100,
 			nameColor = "#92fc63",
-			say = "唔……那好吧……",
+			say = "응…… 알았어……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "文森斯看起来有些失落地坐回到了沙发上，应该是觉得没人陪她比较寂寞吧。",
+			say = "빈센스는 약간 실망한 눈치로 소파에 앉았다. 아무래도 아무도 어울려주지 않아 조금 쓸쓸한 모양이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "但是现在还是以舰队事务为优先吧。",
+			say = "하지만 지금은 함대의 일이 먼저니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

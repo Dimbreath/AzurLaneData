@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=45>三 妹妹的想法</size>",
+					"동생의 변화\n\n<size=45>3. 동생의 생각</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·白鹰宿舍",
+			say = "모항·이글 유니온 기숙사",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "从第一次受到邀请到现在，与文森斯相处已经过了一段时间，和她的关系也亲密了起来。",
+			say = "처음 초대를 받은 이후로 얼마정도 시간이 지나 빈센스와의 관계도 훨씬 좋아졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "指挥官，今天也来一起发呆吗？",
+			say = "지휘관, 오늘도 같이 멍 때릴 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "虽然对文森斯来说，一起玩似乎只有睡觉和发呆两个选项就是了。",
+			say = "아무래도 빈센스에게 같이 논다는 것은 자거나 멍 때리기 두 가지 선택지 밖에 없는 모양이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "（敲门声）",
+			say = "(노크 소리)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "啊，来了——咦，印第酱？哦…又是躲你家姐姐吗？",
+			say = "아, 왔다—— 에, 인디쨩? 아… 너희 언니 피해서 왔구나. ,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			say = "…………嗯",
+			say = "…………응.",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -140,7 +140,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问文森斯和印第的关系",
+					content = "빈센스에게 인디애나폴리스와의 관계를 묻는다",
 					flag = 1
 				}
 			}
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "新奥尔良级和波特兰级关系很近哦？而且我和印第很合得来。",
+			say = "뉴올리언스급과 포틀랜드급은 친해. 그리고 나와 인디쨩은 잘 맞아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "………………嗯。",
+			say = "………………응.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "都喜欢不说话，也都有…稍微有些麻烦的姐姐。",
+			say = "둘 다 말 하는 것도 싫어하고, 그리고… 귀찮은 언니가 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 103100,
 			nameColor = "#92fc63",
-			say = "虽然和印第比起来，我家的姐姐们要普通一些就是了",
+			say = "인디쨩에 비하면 우리 언니들은 평범하긴 하지만.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问对姐姐们的想法",
+					content = "언니들에 대한 생각을 묻는다",
 					flag = 1
 				}
 			}
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "从以前开始，姐姐们就什么都抢着帮我做，到最后…好像我什么都不做也没什么关系了……",
+			say = "옛날부터 언니들이 내가 하는 건 뭐든지 도와줘서 결국에는… 내가 아무 것도 할 필요가 없게 되어버렸어……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "……做姐姐的都有点太爱操心了",
+			say = "……언니가 되면 다들 그렇게 되나봐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嗯，不过，这大概就是作为姐姐的关爱…吧…印第也是不讨厌波特兰姐姐的吧？",
+			say = "응. 하지만 이것도 다 언니의 관심… 이겠지… 인디쨩도 포틀랜드 언니가 싫은 건 아니잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "……嗯。",
+			say = "……응.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "看起来，身为妹妹，虽然对姐姐的做法有些微词，结果还是喜欢姐姐的。",
+			say = "아무래도 동생들은 언니에 대해 불평은 하지만 그래도 언니를 좋아하는 모양이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
