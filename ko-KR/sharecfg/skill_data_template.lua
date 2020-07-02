@@ -7015,6 +7015,17 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6480] = {
+		desc_get = "",
+		name = "사신의 힘 ",
+		desc = "안샨급 구축함이 장비하면 전투 중 주포 화력이 16% 상승하며 자신의 전탄발사가 강화된다. ",
+		type = 0,
+		max_level = 0,
+		id = 6480,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[6490] = {
 		desc_get = "",
 		name = "팀 엠블렘",
@@ -45017,6 +45028,7 @@ pg.skill_data_template = {
 		6450,
 		6460,
 		6470,
+		6480,
 		6490,
 		6500,
 		6510,
