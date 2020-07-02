@@ -29147,18 +29147,18 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "端午节当然要吃粽子啦！ <color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		display = "甜咖喱还是辣咖喱，这是一个问题！ <color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		rarity = 2,
 		type = 3,
 		drop_oil_max = 0,
-		name = "粽子",
+		name = "海军咖喱",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/zongzi",
+		icon = "Props/haijungali",
 		replace_item = 0,
 		display_icon = {},
 		price = {

@@ -2153,15 +2153,8 @@ function slot0.initGrid(slot0, slot1)
 	end
 
 	slot0.grid:initAll(function ()
-		uv0:tryFocusForGuide()
-		uv1()
+		uv0()
 	end)
-end
-
-function slot0.tryFocusForGuide(slot0)
-	if pg.GuideMgr.GetInstance():isRuning() and slot0.contextData.chapterVO:findChapterCell(ChapterConst.AttachBoss) then
-		slot0.grid:focusOnCell(slot2)
-	end
 end
 
 function slot0.destroyGrid(slot0)

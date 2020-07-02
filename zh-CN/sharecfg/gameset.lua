@@ -708,5 +708,13 @@ pg.gameset = {
 	night_collection_end = {
 		description = "",
 		key_value = 3
+	},
+	fate_sim_ssr = {
+		description = "",
+		key_value = 165
+	},
+	fate_sim_ur = {
+		description = "",
+		key_value = 215
 	}
 }

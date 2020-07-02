@@ -39,6 +39,21 @@ function slot0.OnInit(slot0)
 	end
 
 	setText(slot3, i18n("msgbox_text_cancel"))
+
+	uv1.keepFateTog = slot0._tf:Find("control/condition/keep_tog")
+
+	setText(slot0:findTF("label", slot0.keepFateTog), i18n("keep_fate_tip"))
+
+	uv1.keepFateState = not getProxy(PlayerProxy):getData():GetCommonFlag(SHOW_DONT_KEEP_FATE_ITEM)
+	GetComponent(slot0.keepFateTog, typeof(Toggle)).isOn = uv1.keepFateState
+
+	onToggle(slot0, slot0.keepFateTog, function (slot0)
+		uv0.keepFateState = slot0
+
+		uv1:emit(NewShopsMediator.SET_PLAYER_FLAG, SHOW_DONT_KEEP_FATE_ITEM, not slot0)
+		uv1:Trigger("control")
+	end)
+	slot0:Trigger("control")
 end
 
 function slot0.OnShow(slot0)
@@ -82,7 +97,7 @@ function slot0.Resetcontrol(slot0)
 
 			updateDrop(slot2:Find("icon"), slot3)
 
-			slot3.curCount = math.clamp(uv1[slot3.id] and uv1[slot3.id].curCount or 0, 0, slot3.count)
+			slot3.curCount = math.clamp(uv1[slot3.id] and uv1[slot3.id].curCount or 0, 0, slot3.maxCount)
 
 			onButton(uv2, slot2:Find("icon/icon_bg"), function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
@@ -91,8 +106,8 @@ function slot0.Resetcontrol(slot0)
 			slot4 = slot2:Find("count")
 
 			onButton(uv2, slot4:Find("max"), function ()
-				if uv0.curCount ~= uv0.count then
-					uv0.curCount = uv0.count
+				if uv0.curCount ~= uv0.maxCount then
+					uv0.curCount = uv0.maxCount
 
 					uv1:Updatecontrol()
 				end
@@ -109,7 +124,7 @@ function slot0.Resetcontrol(slot0)
 				uv1:Updatecontrol()
 			end, nil, true, true, 0.1, SFX_PANEL)
 			pressPersistTrigger(slot4:Find("number_panel/right"), 0.5, function (slot0)
-				if uv0.count <= uv0.curCount then
+				if uv0.maxCount <= uv0.curCount then
 					slot0()
 
 					return
@@ -215,13 +230,21 @@ end
 
 function slot0.GetAllBluePrintStrengthenItems()
 	slot0 = {}
+	slot1 = getProxy(TechnologyProxy)
 
 	for slot7, slot8 in ipairs(pg.ship_data_blueprint.all) do
-		if getProxy(TechnologyProxy):getBluePrintById(slot8):isMaxLevel() and getProxy(BagProxy):getItemById(slot3[slot8].strengthen_item) and slot12.count > 0 then
+		if slot1:getBluePrintById(slot8):isMaxLevel() and getProxy(BagProxy):getItemById(slot3[slot8].strengthen_item) then
+			slot14 = slot12.count
+
+			if slot12 and slot12.count > 0 and uv0.keepFateState and slot12.count - slot1:getBluePrintById(slot1:GetBlueprint4Item(slot11)):getFateMaxLeftOver() < 0 then
+				slot14 = 0
+			end
+
 			table.insert(slot0, {
 				id = slot12.id,
 				type = DROP_TYPE_ITEM,
-				count = slot12.count
+				count = slot12.count,
+				maxCount = slot14
 			})
 		end
 	end
@@ -231,7 +254,7 @@ end
 
 function slot0.Trigger(slot0, slot1)
 	if slot0.toggles[slot1] then
-		slot0:Show()
+		slot0.buffer:Show()
 		triggerToggle(slot2, true)
 	end
 end

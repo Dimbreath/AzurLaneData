@@ -628,4 +628,26 @@ function slot0.getChangeSkillList(slot0)
 	return slot0:getConfig("change_skill")
 end
 
+function slot0.getFateMaxLeftOver(slot0)
+	slot1 = ShipRarity.SSR <= slot0:getShipVO():getRarity() and pg.gameset.fate_sim_ur.key_value or pg.gameset.fate_sim_ssr.key_value
+
+	return slot1 - slot0:getFateUseNum() < 0 and slot1 or slot2
+end
+
+function slot0.getFateUseNum(slot0)
+	slot1 = 0
+
+	if slot0:isMaxLevel() then
+		for slot6, slot7 in ipairs(slot0.fateStrengthenConfig) do
+			if slot7.lv - 30 <= slot0.fateLevel then
+				slot2 = 0 + slot7.need_exp
+			end
+		end
+
+		slot1 = math.floor((slot2 + slot0.exp) / slot0:getItemExp())
+	end
+
+	return slot1
+end
+
 return slot0

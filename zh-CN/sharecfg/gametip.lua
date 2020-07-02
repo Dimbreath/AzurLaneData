@@ -7146,13 +7146,13 @@ $3]]
 		tip = "黎塞留、阿尔及利亚、沃克兰 出现概率UP！"
 	},
 	buildship_heavy_tip = {
-		tip = "让·巴尔、马萨诸塞、敦刻尔克 建造追加！"
+		tip = "{namecode:74}、{namecode:59} 建造追加！"
 	},
 	buildship_light_tip = {
-		tip = "恶毒、凯旋、倔强、福尔班 建造追加！"
+		tip = "{namecode:158}、{namecode:28}、{namecode:157} 等角色建造追加！"
 	},
 	buildship_special_tip = {
-		tip = "絮库夫 建造追加！"
+		tip = "{namecode:163} 建造追加！"
 	},
 	open_skill_pos = {
 		tip = "开启栏位需要消耗<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>\n是否确认开启？"
@@ -10816,5 +10816,8 @@ BUFF加成也会增加
 	},
 	re_battle = {
 		tip = "再次挑战"
+	},
+	keep_fate_tip = {
+		tip = "保留<color=#92fc63>天运拟合</color>所需蓝图"
 	}
 }

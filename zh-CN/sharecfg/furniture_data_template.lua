@@ -4875,7 +4875,7 @@ pg.furniture_data_template = {
 		rarity = 5,
 		gain_by = "",
 		themeId = 0,
-		icon = "fengshanicon",
+		icon = "yueicon",
 		deblocking = 1,
 		level = 1,
 		effect = "",
@@ -4889,8 +4889,8 @@ pg.furniture_data_template = {
 		comfortable = 0,
 		tag = 6,
 		size = {
-			8,
-			6
+			5,
+			5
 		},
 		offset = {},
 		canputonGrid = {},
@@ -4899,36 +4899,12 @@ pg.furniture_data_template = {
 		},
 		spine = {
 			{
-				"fengshanB",
-				"normal"
-			},
-			{
-				"fengshanT"
-			},
-			{
+				"yue",
+				"normal",
 				{
-					0,
-					0
-				},
-				{
-					{
-						"tuozhuai2"
-					}
-				},
-				{},
-				{
-					1
+					"action",
+					false
 				}
-			},
-			{},
-			{
-				0,
-				-57.7
-			}
-		},
-		animator = {
-			{
-				"fengshanCharControl"
 			}
 		},
 		interAction_group = {}
@@ -76754,7 +76730,7 @@ pg.furniture_data_template = {
 	},
 	[66105] = {
 		advice = 0,
-		describe = "注意控制测速啾！",
+		describe = "注意控制车速啾！",
 		count = 2,
 		type = 2,
 		dir = 0,
@@ -77650,7 +77626,7 @@ pg.furniture_data_template = {
 	},
 	[66125] = {
 		advice = 0,
-		describe = "加速再加速，「闪速」将在直线赛道上超越一切！",
+		describe = "加速再加速，「橙闪」将在直线赛道上超越一切！",
 		count = 1,
 		type = 11,
 		dir = 0,
@@ -77827,7 +77803,7 @@ pg.furniture_data_template = {
 		spine_action_replace = "",
 		belong = 1,
 		canputon = 0,
-		can_rotate = 0,
+		can_rotate = 1,
 		spine_extra = "",
 		id = 66127,
 		picture = "",

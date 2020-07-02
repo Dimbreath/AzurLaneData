@@ -872,10 +872,6 @@ function slot0.loadChar(slot0, slot1, slot2, slot3)
 				setActive(slot1, false)
 			end
 
-			if findTF(slot0, "hx") then
-				setActive(slot2, HXSet.isHx())
-			end
-
 			uv0.actorPainting = slot0
 
 			Ship.SetExpression(uv0.actorPainting, uv0.paintingName)

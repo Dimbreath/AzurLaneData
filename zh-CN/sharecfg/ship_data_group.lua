@@ -8887,6 +8887,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"限时活动：墨染的钢铁之花",
 				{
 					""
@@ -9582,6 +9593,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"限时活动：墨染的钢铁之花",
 				{
 					""
@@ -9612,6 +9634,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"限时活动：墨染的钢铁之花",
 				{
@@ -10313,6 +10346,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"限时活动：墨染的钢铁之花",
 				{
 					""
@@ -10343,6 +10387,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"限时活动：墨染的钢铁之花",
 				{
@@ -10827,6 +10882,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"限时活动：墨染的钢铁之花",
 				{
@@ -11342,6 +11408,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"核心兑换获得",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -11402,6 +11478,16 @@ pg.ship_data_group = {
 				"限时活动：墨染的钢铁之花",
 				{
 					""
+				},
+				0
+			},
+			{
+				"核心兑换获得",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -11784,6 +11870,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"限时活动：墨染的钢铁之花",
 				{
 					""
@@ -11818,6 +11915,16 @@ pg.ship_data_group = {
 				"限时活动：墨染的钢铁之花",
 				{
 					""
+				},
+				0
+			},
+			{
+				"核心兑换获得",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -12689,6 +12796,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"限时活动：墨染的钢铁之花",
 				{
