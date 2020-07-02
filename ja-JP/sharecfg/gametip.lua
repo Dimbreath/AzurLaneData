@@ -7230,13 +7230,13 @@ No.3 リトル・イラストリアス
 		tip = "「リシュリュー」、「アルジェリー」 、「ヴォークラン」の出現率UP！"
 	},
 	buildship_heavy_tip = {
-		tip = "「ジャン・バール」、「マサチューセッツ」、「ダンケルク」常設追加！"
+		tip = "「長門」、「鈴谷」常設実装！"
 	},
 	buildship_light_tip = {
-		tip = "「ル・マルス」、「ル・トリオンファン」など常設追加！"
+		tip = "「江風」、「宵月」、「春月」などが常設実装！"
 	},
 	buildship_special_tip = {
-		tip = "「シュルクーフ」常設追加！"
+		tip = "「伊13」常設実装！"
 	},
 	open_skill_pos = {
 		tip = "<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>を消費し\n教室枠を拡張しますか？"
@@ -11167,5 +11167,8 @@ GET!
 	},
 	re_battle = {
 		tip = "再度出撃"
+	},
+	keep_fate_tip = {
+		tip = "<color=#92fc63>竜骨編纂</color>用の強化ユニットを除く"
 	}
 }

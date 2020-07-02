@@ -8887,6 +8887,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"イベント：墨染まりし鋼の桜",
 				{
 					""
@@ -9593,6 +9604,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"イベント：墨染まりし鋼の桜",
 				{
 					""
@@ -9623,6 +9645,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"イベント：墨染まりし鋼の桜",
 				{
@@ -10324,6 +10357,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"イベント：墨染まりし鋼の桜",
 				{
 					""
@@ -10354,6 +10398,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"イベント：墨染まりし鋼の桜",
 				{
@@ -10831,6 +10886,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"イベント：墨染まりし鋼の桜",
 				{
@@ -11346,6 +11412,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"コアショップ",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -11406,6 +11482,16 @@ pg.ship_data_group = {
 				"イベント：墨染まりし鋼の桜",
 				{
 					""
+				},
+				0
+			},
+			{
+				"コアショップ",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -11788,6 +11874,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"イベント：墨染まりし鋼の桜",
 				{
 					""
@@ -11822,6 +11919,16 @@ pg.ship_data_group = {
 				"イベント：墨染まりし鋼の桜",
 				{
 					""
+				},
+				0
+			},
+			{
+				"コアショップ",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -12693,6 +12800,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"イベント：墨染まりし鋼の桜",
 				{

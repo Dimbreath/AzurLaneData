@@ -7225,6 +7225,170 @@ pg.expedition_data_by_map = {
 		bind_map = 2100081,
 		clouds_pos = {}
 	},
+	[2100100] = {
+		map = 2100100,
+		name = "墨染まりし鋼の桜-前編|| ||CHAPTER EX||E.X.",
+		bgm = "Nagato-map",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YINGHUA1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "yinghua_map_effect01",
+		cloud_suffix = "",
+		bg = "Map_1100001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100110,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100101] = {
+		map = 2100101,
+		name = "墨染まりし鋼の桜-後編| ||CHAPTER EX||E.X.",
+		bgm = "Nagato-map",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YINGHUA9",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "yinghua_map_effect02",
+		cloud_suffix = "",
+		bg = "Map_1100002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100111,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100110] = {
+		map = 2100110,
+		name = "墨染まりし鋼の桜-前編|| ||CHAPTER EX||E.X.",
+		bgm = "Nagato-map",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YINGHUA1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "yinghua_map_effect03",
+		cloud_suffix = "",
+		bg = "Map_1100011",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100100,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100111] = {
+		map = 2100111,
+		name = "墨染まりし鋼の桜-後編| ||CHAPTER EX||E.X.",
+		bgm = "Nagato-map",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YINGHUA9",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "yinghua_map_effect04",
+		cloud_suffix = "",
+		bg = "Map_1100012",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100101,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "努力、希望と計画|| ||CHAPTER SP||S.P.",
@@ -7487,6 +7651,10 @@ pg.expedition_data_by_map = {
 		2100081,
 		2100090,
 		2100091,
+		2100100,
+		2100101,
+		2100110,
+		2100111,
 		2200000,
 		2200010
 	}

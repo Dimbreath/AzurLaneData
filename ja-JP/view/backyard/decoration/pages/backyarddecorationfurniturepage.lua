@@ -43,7 +43,7 @@ function slot2(slot0, slot1, slot2, slot3)
 			return slot1.id < slot0.id
 		end
 	else
-		return slot7 < slot6
+		return slot6 < slot7
 	end
 end
 

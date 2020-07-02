@@ -28792,18 +28792,18 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "もちもちのちまきよー<color=#6dd329>（60分間寮舎経験値効率が5%アップ）</color>",
+		display = "甘口？辛口？好みは人それぞれ…<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		rarity = 2,
 		type = 3,
 		drop_oil_max = 0,
-		name = "ちまき",
+		name = "海軍カレー",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/zongzi",
+		icon = "Props/haijungali",
 		replace_item = 0,
 		display_icon = {},
 		price = {

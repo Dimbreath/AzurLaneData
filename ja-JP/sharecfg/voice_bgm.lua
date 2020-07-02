@@ -71,5 +71,8 @@ pg.voice_bgm = {
 	},
 	ActivityBossAisaikesiScene = {
 		bgm = "main"
+	},
+	FriendScene = {
+		bgm = "main"
 	}
 }

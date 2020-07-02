@@ -8,6 +8,7 @@ slot0.ON_ACT_SHOPPING = "NewShopsMediator:ON_ACT_SHOPPING"
 slot0.SELL_BLUEPRINT = "NewShopsMediator:SELL_BLUEPRINT"
 slot0.GO_MALL = "NewShopsMediator:GO_MALL"
 slot0.ON_SKIN_SHOP = "NewShopsMediator:ON_SKIN_SHOP"
+slot0.SET_PLAYER_FLAG = "NewShopsMediator:SET_PLAYER_FLAG"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.ON_SKIN_SHOP, function (slot0, slot1)
@@ -72,6 +73,17 @@ function slot0.register(slot0)
 			uv0:sendNotification(GAME.SHOPPING, {
 				count = 1,
 				id = slot1
+			})
+		end
+	end)
+	slot0:bind(uv0.SET_PLAYER_FLAG, function (slot0, slot1, slot2)
+		if slot2 then
+			uv0:sendNotification(GAME.COMMON_FLAG, {
+				flagID = slot1
+			})
+		else
+			uv0:sendNotification(GAME.CANCEL_COMMON_FLAG, {
+				flagID = slot1
 			})
 		end
 	end)

@@ -239,7 +239,7 @@ function slot0.GetAllSkinForShip(slot0, slot1)
 
 		if slot8.no_showing == "1" then
 			table.remove(slot3, slot7)
-		elseif HXSet.isHx() and PLATFORM == PLATFORM_KR and pg.ship_skin_template[slot8.id].isHX == 1 then
+		elseif PLATFORM == PLATFORM_KR and pg.ship_skin_template[slot8.id].isHX == 1 then
 			table.remove(slot3, slot7)
 		end
 	end
@@ -299,7 +299,7 @@ function slot0.GetAllSkinForARCamera(slot0, slot1)
 			table.remove(slot2, slot7)
 		elseif slot8.no_showing == "1" then
 			table.remove(slot2, slot7)
-		elseif HXSet.isHx() and PLATFORM == PLATFORM_KR and pg.ship_skin_template[slot8.id].isHX == 1 then
+		elseif PLATFORM == PLATFORM_KR and pg.ship_skin_template[slot8.id].isHX == 1 then
 			table.remove(slot2, slot7)
 		end
 	end

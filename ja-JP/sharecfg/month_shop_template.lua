@@ -364,7 +364,10 @@ pg.month_shop_template = {
 			10045,
 			10046,
 			10047,
-			10048
+			10048,
+			10049,
+			10050,
+			10051
 		},
 		blueprint_shop_goods = {
 			11001,
