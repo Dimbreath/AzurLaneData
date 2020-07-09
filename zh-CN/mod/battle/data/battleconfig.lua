@@ -227,6 +227,11 @@ slot0.AMMO_DAMAGE_REDUCE = {
 	nil,
 	"damageReduceFromAmmoType_7"
 }
+slot0.AGAINST_ARMOR_ENHANCE = {
+	"damageAgainstArmorEnhance_1",
+	"damageAgainstArmorEnhance_2",
+	"damageAgainstArmorEnhance_3"
+}
 slot0.SHIP_TYPE_ACCURACY_ENHANCE = {
 	[ShipType.QuZhu] = "accuracyToShipType_1",
 	[ShipType.QingXun] = "accuracyToShipType_2",

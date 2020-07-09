@@ -392,20 +392,12 @@ function slot0.disableTraningCampAndRefluxTip(slot0)
 end
 
 function slot0.updateTraningCampBtn(slot0)
-	slot3 = false
-	slot4 = false
+	slot1, slot2 = TrainingCampScene.isNormalActOn()
+	slot3, slot4 = TrainingCampScene.isTecActOn()
 
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_GUIDE_TASKS) and not slot1:isEnd() then
-		slot3 = getProxy(ChapterProxy):getChapterById(slot1:getConfig("config_data")[1]) and slot6:isClear()
-		slot8 = getProxy(TaskProxy)
-		slot4 = _.any(_.flatten(slot1:getConfig("config_data")[3]), function (slot0)
-			return uv0:getTaskById(slot0) and slot1:isFinish() and not slot1:isReceive()
-		end)
-	end
+	setActive(slot0.traingCampBtn:Find("xinshou01"), slot2 or slot4)
 
-	setActive(slot0.traingCampBtn:Find("xinshou01"), slot4)
-
-	slot0.openTraningCamp = slot2 and slot3
+	slot0.openTraningCamp = slot1 or slot3
 
 	setActive(slot0.traingCampBtn, slot0.openTraningCamp)
 end

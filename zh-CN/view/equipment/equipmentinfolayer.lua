@@ -301,14 +301,25 @@ end
 function slot0.updateOperation3(slot0)
 	triggerToggle(slot0.toggles.replacePanel, true)
 
-	slot1 = slot0.shipVO:getEquip(slot0.contextData.pos)
+	if slot0.shipVO:getEquip(slot0.contextData.pos) then
+		slot2 = slot1:GetPropertiesInfo()
+		slot3 = slot0.equipmentVO:GetPropertiesInfo()
 
-	slot0:updateEquipmentPanel(slot0.replaceSrcEquipTF, slot1)
-	slot0:updateEquipmentPanel(slot0.replaceDstEquipTF, slot0.equipmentVO, slot1)
+		if EquipType.getCompareGroup(slot1.configId) == EquipType.getCompareGroup(slot0.equipmentVO.configId) then
+			Equipment.InsertAttrsCompare(slot2.attrs, slot3.attrs, slot0.shipVO)
+		end
+
+		slot0:updateEquipmentPanel(slot0.replaceSrcEquipTF, slot1, slot2)
+		slot0:updateEquipmentPanel(slot0.replaceDstEquipTF, slot0.equipmentVO, slot3)
+	else
+		slot0:updateEquipmentPanel(slot0.replaceSrcEquipTF, slot1)
+		slot0:updateEquipmentPanel(slot0.replaceDstEquipTF, slot0.equipmentVO)
+	end
+
 	setActive(slot0:findTF("head", slot0.replaceDstEquipTF), slot0.oldShipVO)
 
 	if slot0.oldShipVO then
-		setImageSprite(findTF(slot3, "Image"), LoadSprite("qicon/" .. slot0.oldShipVO:getPainting()))
+		setImageSprite(findTF(slot2, "Image"), LoadSprite("qicon/" .. slot0.oldShipVO:getPainting()))
 	end
 end
 
@@ -324,10 +335,12 @@ function slot0.updateOperation4(slot0)
 end
 
 function slot0.updateRevertPanel(slot0)
-	slot1 = slot0.equipmentVO
+	slot1 = slot0.equipmentVO:GetRootEquipment()
+	slot3 = slot1:GetPropertiesInfo()
 
-	slot0:updateEquipmentPanel(slot0.revertEquipTF, slot1:GetRootEquipment(), slot1, true)
-	slot0:updateOperationAward(slot0.revertAwardContainer, slot0.itemTpl, slot1:getRevertAwards())
+	Equipment.InsertAttrsCompare(slot0.equipmentVO:GetPropertiesInfo().attrs, slot3.attrs, slot0.shipVO)
+	slot0:updateEquipmentPanel(slot0.revertEquipTF, slot1, slot3, slot0.equipmentVO.config.level)
+	slot0:updateOperationAward(slot0.revertAwardContainer, slot0.itemTpl, slot0.equipmentVO:getRevertAwards())
 end
 
 function slot0.updateDestroyCount(slot0)
@@ -379,267 +392,36 @@ function slot0.updateOperationAward(slot0, slot1, slot2, slot3)
 end
 
 function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
-	slot5 = slot3 and slot3:GetProperties(true) or nil
-
 	setActive(slot0:findTF("info", slot1), slot2)
 	setActive(slot0:findTF("empty", slot1), not slot2)
 
 	if slot2 then
-		slot8 = findTF(slot6, "name")
+		slot7 = findTF(slot5, "name")
 
-		setScrollText(findTF(slot8, "mask/Text"), slot2.config.name)
-		setActive(findTF(slot8, "unique"), slot2:isUnique() and slot0.isShowUnique)
+		setScrollText(findTF(slot7, "mask/Text"), slot2.config.name)
+		setActive(findTF(slot7, "unique"), slot2:isUnique() and slot0.isShowUnique)
 
-		slot9 = findTF(slot6, "equip")
+		slot8 = findTF(slot5, "equip")
 
-		updateEquipment(slot9, slot2, {
+		setImageSprite(findTF(slot8, "bg"), GetSpriteFromAtlas("ui/equipmentinfoui_atlas", "equip_bg_" .. EquipmentRarity.Rarity2Print(slot2.config.rarity)))
+		updateEquipment(slot8, slot2, {
 			noIconColorful = true
 		})
-		setActive(findTF(slot9, "revert_btn"), false)
-		setText(findTF(slot9, "slv/Text"), slot2.config.level - 1)
-		setActive(findTF(slot9, "slv/next"), slot4)
+		setActive(findTF(slot8, "revert_btn"), false)
+		setActive(findTF(slot8, "slv"), slot4 or slot2.config.level > 1)
+		setText(findTF(slot8, "slv/Text"), slot4 and slot4 - 1 or slot2.config.level - 1)
+		setActive(findTF(slot8, "slv/next"), slot4)
+		setText(findTF(slot8, "slv/next/Text"), slot2.config.level - 1)
+		setActive(slot0:findTF("tier", slot8), slot2)
 
-		if slot4 then
-			setText(findTF(slot9, "slv/Text"), slot3.config.level - 1)
-			setText(findTF(slot9, "slv/next/Text"), slot2.config.level - 1)
-		end
+		slot10 = slot2.config.tech or 1
 
-		setActive(findTF(slot9, "slv"), slot4 or slot2.config.level > 1)
-		setImageSprite(findTF(slot9, "title"), GetSpriteFromAtlas("equiptype", EquipType.type2Tag(slot2.config.type)))
-		setImageSprite(findTF(slot9, "bg"), GetSpriteFromAtlas("ui/equipmentinfoui_atlas", "equip_bg_" .. EquipmentRarity.Rarity2Print(slot2.config.rarity)))
-		setActive(slot0:findTF("tier", slot9), slot2)
-
-		slot11 = slot2.config.tech or 1
-
-		eachChild(slot10, function (slot0)
+		eachChild(slot9, function (slot0)
 			setActive(slot0, tostring(uv0) == slot0.gameObject.name)
 		end)
-		setText(slot9:Find("speciality/Text"), slot2.config.speciality ~= "无" and slot2.config.speciality or i18n1("—"))
-
-		slot14 = findTF(findTF(slot6, "attributes"), "panel/view/infomation")
-		slot16 = findTF(findTF(slot14, "attrs"), "attr")
-		slot18 = slot2:GetProperties(true)
-		slot19 = slot2:GetSkill()
-		slot21 = EquipType.isAircraft(slot2.configId) and pg.aircraft_template[slot2.configId].weapon_ID or {}
-
-		setActive(findTF(slot14, "skill"), slot19)
-
-		if slot19 then
-			setText(findTF(slot17, "attr/name"), i18n("skill"))
-			setText(findTF(slot17, "attr/value"), setColorStr(slot19.name, "#FFDE00FF"))
-			setText(findTF(slot17, "value/Text"), getSkillDescGet(slot19.id))
-		end
-
-		eachChild(slot15, function (slot0)
-			setActive(slot0, false)
-			removeOnButton(slot0)
-		end)
-
-		for slot26, slot27 in pairs(slot18) do
-			if not slot27 or slot27.type ~= AttributeType.OxyRaidDistance then
-				slot28 = 0 + 1 <= slot15.childCount and slot15:GetChild(slot22 - 1) or cloneTplTo(slot16, slot15)
-				slot29 = findTF(slot28, "name")
-				slot30 = findTF(slot28, "value")
-				slot32 = findTF(slot30, "down")
-
-				if findTF(slot30, "up") and slot32 then
-					setActive(slot31, false)
-					setActive(slot32, false)
-				end
-
-				setActive(slot28, slot27)
-				setActive(slot29:Find("tip"), false)
-
-				if slot27 then
-					if EquipType.isDevice(slot2.configId) then
-						setText(slot29, AttributeType.Type2Name(slot27.type))
-						setText(slot30, slot27.value)
-
-						if slot5 then
-							slot33 = false
-
-							for slot37 = 1, 3 do
-								if slot5[slot37] and slot27.type == slot5[slot37].type then
-									if slot27.type == AttributeType.SonarInterval then
-										setActive(slot31, slot27.value < slot5[slot37].value)
-										setActive(slot32, slot5[slot37].value < slot27.value)
-
-										break
-									end
-
-									if slot27.type == AttributeType.Damage then
-										slot38 = 0
-										slot39 = 0
-
-										if string.match(slot27.value, i18n("word_secondseach")) == string.match(slot5[slot37].value, i18n("word_secondseach")) then
-											if slot40 == i18n("word_secondseach") then
-												slot38 = string.gsub(slot27.value, slot40, "")
-												slot39 = string.gsub(slot5[slot37].value, slot40, "")
-											else
-												slot42, slot43 = string.match(string.gsub(slot27.value, " ", ""), "(%d+)x(%d+)")
-												slot38 = (slot42 or 0) * (slot43 or 0)
-												slot44, slot45 = string.match(string.gsub(slot5[slot37].value, " ", ""), "(%d+)x(%d+)")
-												slot39 = (slot44 or 0) * (slot45 or 0)
-											end
-
-											setActive(slot31, tonumber(slot39) < tonumber(slot38))
-											setActive(slot32, tonumber(slot38) < tonumber(slot39))
-										end
-
-										break
-									end
-
-									setActive(slot31, slot5[slot37].value < slot27.value)
-									setActive(slot32, slot27.value < slot5[slot37].value)
-
-									break
-								end
-							end
-						end
-					else
-						setTextFont(slot30, pg.FontMgr.GetInstance().fonts.number)
-
-						if slot27.type == AttributeType.Reload then
-							slot33 = 0
-
-							if slot0.shipVO then
-								setText(slot29, AttributeType.Type2Name(AttributeType.CD))
-
-								slot33 = slot0.shipVO:calcWeaponCD(slot2)
-							else
-								setText(slot29, i18n("cd_normal"))
-
-								slot33 = slot2:getWeaponCD()
-							end
-
-							setText(slot30, setColorStr(slot33 .. "s", COLOR_YELLOW) .. i18n("word_secondseach"))
-
-							if slot5 and slot26 < #slot5 and slot5[slot26] then
-								slot34 = slot0.shipVO and slot0.shipVO:calcWeaponCD(slot3) or slot3:getWeaponCD()
-
-								setActive(slot31, slot33 - slot34 < 0)
-								setActive(slot32, slot33 - slot34 > 0)
-							end
-						else
-							setText(slot29, AttributeType.Type2Name(slot27.type))
-
-							slot33 = slot27.value
-
-							if slot27.type == "dodge_limit" then
-								setActive(slot29:Find("tip"), true)
-								onButton(slot0, slot28, function ()
-									pg.MsgboxMgr.GetInstance():ShowMsgBox({
-										type = MSGBOX_TYPE_HELP,
-										helps = i18n("help_attribute_dodge_limit"),
-										weight = uv0:getWeightFromData()
-									})
-								end, SFX_PANEL)
-							end
-
-							if slot27.type == AttributeType.Ammo then
-								slot33 = setColorStr(slot27.value, COLOR_YELLOW)
-							end
-
-							setText(slot30, slot33)
-
-							if slot5 and slot26 < #slot5 then
-								if not slot5[slot26] then
-									setActive(slot31, true)
-								elseif slot27.type == AttributeType.Damage then
-									slot34 = 0
-									slot35 = 0
-
-									if string.match(slot27.value, i18n("word_secondseach")) == string.match(slot5[slot26].value, i18n("word_secondseach")) then
-										if slot36 == i18n("word_secondseach") then
-											slot34 = string.gsub(slot27.value, slot36, "")
-											slot35 = string.gsub(slot5[slot26].value, slot36, "")
-										else
-											slot38, slot39 = string.match(string.gsub(slot27.value, " ", ""), "(%d+)x(%d+)")
-											slot34 = (slot38 or 0) * (slot39 or 0)
-											slot40, slot41 = string.match(string.gsub(slot5[slot26].value, " ", ""), "(%d+)x(%d+)")
-											slot35 = (slot40 or 0) * (slot41 or 0)
-										end
-
-										setActive(slot31, tonumber(slot35) < tonumber(slot34))
-										setActive(slot32, tonumber(slot34) < tonumber(slot35))
-									end
-								elseif slot27.type == AttributeType.SonarInterval then
-									setActive(slot31, type(slot5[slot26].value) == "number" and slot27.value < slot5[slot26].value)
-									setActive(slot32, type(slot5[slot26].value) == "number" and slot5[slot26].value < slot27.value)
-								elseif slot27.type ~= AttributeType.Scatter and slot27.type ~= AttributeType.Angle then
-									setActive(slot31, type(slot5[slot26].value) == "number" and slot5[slot26].value < slot27.value)
-									setActive(slot32, type(slot5[slot26].value) == "number" and slot27.value < slot5[slot26].value)
-								end
-							end
-						end
-					end
-				end
-			end
-		end
-
-		for slot26, slot27 in ipairs(slot21) do
-			slot28 = slot22 + 1 <= slot15.childCount and slot15:GetChild(slot22 - 1) or cloneTplTo(slot16, slot15)
-			slot29 = findTF(slot28, "name")
-			slot30 = findTF(slot28, "value")
-			slot32 = findTF(slot30, "down")
-
-			if findTF(slot30, "up") and slot32 then
-				setActive(slot31, false)
-				setActive(slot32, false)
-			end
-
-			setActive(slot28, true)
-			setTextFont(slot30, pg.FontMgr.GetInstance().fonts.heiti)
-			setText(slot29, "")
-			setText(slot30, setColorStr(pg.weapon_property[slot27].name, COLOR_YELLOW))
-		end
-
-		setActive(slot14, true)
-		setActive(findTF(slot13, "panel/view/adaptation"), false)
-
-		slot25 = slot2.config.part_main and #slot2.config.part_main or 0
-		slot26 = slot2.config.part_sub and #slot2.config.part_sub or 0
-		slot28 = findTF(slot23, "attrs/attr_2")
-
-		setActive(findTF(slot23, "attrs/attr_1"), slot25 > 0)
-
-		if slot25 > 0 then
-			setText(slot0:findTF("name", slot27), i18n("equip_part_title"))
-			setText(slot0:findTF("value", slot27), function (slot0)
-				for slot5, slot6 in ipairs(slot0) do
-					slot7 = pg.ship_data_by_type[slot6]
-					slot1 = (nil or slot7.type_name) and slot7.type_name .. "  " .. slot7.type_name
-				end
-
-				return slot1
-			end(slot2.config.part_main))
-		end
-
-		setActive(slot28, slot26 > 0)
-
-		if slot26 > 0 then
-			setText(slot0:findTF("name", slot27), i18n("equip_part_main_title"))
-			setText(slot0:findTF("name", slot28), i18n("equip_part_sub_title"))
-			setText(slot0:findTF("value", slot28), slot24(slot2.config.part_sub))
-		end
-
-		setActive(findTF(slot13, "panel/part_btn"), slot25 > 0 or slot26 > 0)
-		setText(findTF(slot29, "Text"), i18n("equip_part_tip"))
-
-		if not slot0.showPart then
-			slot0.showPart = {}
-		end
-
-		slot0.showPart[slot29] = false
-
-		if slot25 > 0 or slot26 > 0 then
-			onButton(slot0, findTF(slot13, "panel/view"), function ()
-				uv0.showPart[uv1] = not uv0.showPart[uv1]
-
-				setActive(uv2, not uv0.showPart[uv1])
-				setActive(uv3, uv0.showPart[uv1])
-			end)
-		end
+		setImageSprite(findTF(slot8, "title"), GetSpriteFromAtlas("equiptype", EquipType.type2Tag(slot2.config.type)))
+		setText(slot8:Find("speciality/Text"), slot2.config.speciality ~= "无" and slot2.config.speciality or i18n1("—"))
+		updateEquipInfo(slot5:Find("attributes/view/content"), slot3 or slot2:GetPropertiesInfo(), slot2:GetSkill(), slot0.shipVO)
 	end
 end
 

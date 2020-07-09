@@ -16882,6 +16882,176 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[20013] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 20013,
+		group_type = 29903,
+		code = 20013,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"B",
+			"S",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研开发",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 29903
+					}
+				},
+				0
+			}
+		}
+	},
+	[20014] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 20014,
+		group_type = 29904,
+		code = 20014,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"B",
+			"A",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研开发",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 29904
+					}
+				},
+				0
+			}
+		}
+	},
+	[20015] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 20015,
+		group_type = 49903,
+		code = 20015,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研开发",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 49903
+					}
+				},
+				0
+			}
+		}
+	},
+	[20016] = {
+		type = 4,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 20016,
+		group_type = 49904,
+		code = 20016,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研开发",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 49904
+					}
+				},
+				0
+			}
+		}
+	},
+	[20017] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 8,
+		hide = 0,
+		index_id = 20017,
+		group_type = 89902,
+		code = 20017,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研开发",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 89902
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -17296,6 +17466,11 @@ pg.ship_data_group = {
 		20009,
 		20010,
 		20011,
-		20012
+		20012,
+		20013,
+		20014,
+		20015,
+		20016,
+		20017
 	}
 }

@@ -360,7 +360,7 @@ return {
 		}
 	},
 	uiEffect = "",
-	name = "加斯科涅弹幕",
+	name = "加斯科涅弹幕PVP",
 	cd = 0,
 	picture = "0",
 	desc = "加斯科涅弹幕",

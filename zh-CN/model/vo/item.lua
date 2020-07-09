@@ -13,6 +13,7 @@ slot0.GOLD_BOX_TYPE = 14
 slot0.OIL_BOX_TYPE = 15
 slot0.EQUIPMENT_ASSIGNED_TYPE = 16
 slot0.GIFT_BOX = 17
+slot0.TEC_SPEEDUP_TYPE = 18
 
 function itemId2icon(slot0)
 	return pg.item_data_statistics[slot0].icon
@@ -95,6 +96,10 @@ end
 
 function slot0.isBluePrintType(slot0)
 	return slot0:getConfig("type") == uv0.BLUEPRINT_TYPE
+end
+
+function slot0.isTecSpeedUpType(slot0)
+	return slot0:getConfig("type") == uv0.TEC_SPEEDUP_TYPE
 end
 
 function slot0.IsSkinCoupun(slot0)

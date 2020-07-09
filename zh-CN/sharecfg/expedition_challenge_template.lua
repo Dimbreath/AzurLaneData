@@ -270,6 +270,42 @@ pg.expedition_challenge_template = {
 		},
 		bufficon = {}
 	},
+	[10016] = {
+		challenge = 10000,
+		index = 16,
+		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
+		type_name_p = "",
+		name_p = "10016",
+		id = 10016,
+		dungeon_id = 5024,
+		char_icon = {
+			"jiahe"
+		},
+		chapter_name = {
+			"Challenge",
+			"  限界挑战",
+			""
+		},
+		bufficon = {}
+	},
+	[10017] = {
+		challenge = 10000,
+		index = 17,
+		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
+		type_name_p = "",
+		name_p = "10017",
+		id = 10017,
+		dungeon_id = 5025,
+		char_icon = {
+			"rangbaer"
+		},
+		chapter_name = {
+			"Challenge",
+			"  限界挑战",
+			""
+		},
+		bufficon = {}
+	},
 	all = {
 		10001,
 		10002,
@@ -285,6 +321,8 @@ pg.expedition_challenge_template = {
 		10012,
 		10013,
 		10014,
-		10015
+		10015,
+		10016,
+		10017
 	}
 }

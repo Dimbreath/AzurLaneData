@@ -1049,6 +1049,7 @@ pg.activity_template = {
 	[557] = {
 		mark = 20200409,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -1058,38 +1059,12 @@ pg.activity_template = {
 		id = 557,
 		config_data = {
 			14674
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[558] = {
 		mark = 20200409,
 		page_info = "",
+		time = "stop",
 		type = 24,
 		login_pop = 0,
 		config_id = 559,
@@ -1099,44 +1074,12 @@ pg.activity_template = {
 		id = 558,
 		config_data = {
 			7
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			},
-			1,
-			1,
-			{
-				times,
-				13
-			}
 		}
 	},
 	[559] = {
 		mark = 20200409,
 		page_info = "",
+		time = "stop",
 		type = 37,
 		login_pop = 0,
 		config_id = 5,
@@ -1146,33 +1089,6 @@ pg.activity_template = {
 		id = 559,
 		config_data = {
 			557
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[560] = {
@@ -2286,6 +2202,7 @@ pg.activity_template = {
 	},
 	[617] = {
 		mark = 20200618,
+		time = "stop",
 		type = 50,
 		login_pop = 0,
 		config_id = 4,
@@ -2293,33 +2210,6 @@ pg.activity_template = {
 		config_data = "",
 		title_res_tag = "Warspitereform",
 		id = 617,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "WarspiteTransformationPage",
 			ui_name = "WarspiteTransformationPage"
@@ -2339,6 +2229,7 @@ pg.activity_template = {
 	},
 	[618] = {
 		mark = 20200618,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 2,
@@ -2387,33 +2278,6 @@ pg.activity_template = {
 				15755
 			}
 		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "CravenCheeringSkinPage",
 			ui_name = "CravenCheeringSkinPage"
@@ -2449,6 +2313,7 @@ pg.activity_template = {
 	},
 	[620] = {
 		mark = 20200624,
+		time = "stop",
 		type = 51,
 		login_pop = 0,
 		config_id = 3,
@@ -2457,33 +2322,6 @@ pg.activity_template = {
 		title_res_tag = "monopoly_car",
 		id = 620,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "MonopolyCar.MonopolyCarPage",
 			ui_name = "MonopolyCarPage"
@@ -2632,6 +2470,7 @@ pg.activity_template = {
 	[624] = {
 		mark = 20200624,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -2645,38 +2484,12 @@ pg.activity_template = {
 			15758,
 			15759,
 			15760
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[625] = {
 		mark = 20200624,
 		page_info = "",
+		time = "stop",
 		type = 26,
 		login_pop = 0,
 		config_id = 0,
@@ -2684,33 +2497,6 @@ pg.activity_template = {
 		config_data = "activity_drop_625",
 		title_res_tag = "",
 		id = 625,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 1,
 			bg = "loadingbg/bg_build_1_act",
@@ -2733,6 +2519,177 @@ pg.activity_template = {
 				"<color=#d797ff>伊56</color>：2.5%(<color=#92fc63>up!</color>)",
 				" ",
 				"<color=#d797ff>U-522</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[629] = {
+		mark = 20200709,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 629,
+		config_data = {
+			14675
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[630] = {
+		mark = 20200709,
+		page_info = "",
+		type = 24,
+		login_pop = 0,
+		config_id = 631,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 630,
+		config_data = {
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			},
+			1,
+			1,
+			{
+				times,
+				13
+			}
+		}
+	},
+	[631] = {
+		mark = 20200709,
+		page_info = "",
+		type = 37,
+		login_pop = 0,
+		config_id = 6,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 631,
+		config_data = {
+			629
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[632] = {
+		mark = 20200709,
+		page_info = "",
+		time = "always",
+		type = 71,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 632,
+		config_data = {
+			101,
+			500,
+			{
+				{
+					{
+						51101,
+						51102,
+						51103,
+						51104,
+						51105,
+						51106,
+						51107,
+						51108,
+						51109,
+						51110,
+						51111,
+						51112,
+						51113,
+						51114,
+						51115,
+						51116,
+						51117,
+						51118,
+						51119
+					},
+					51120
+				}
 			}
 		}
 	},
@@ -3581,6 +3538,10 @@ pg.activity_template = {
 		623,
 		624,
 		625,
+		629,
+		630,
+		631,
+		632,
 		2001,
 		2002,
 		2003,

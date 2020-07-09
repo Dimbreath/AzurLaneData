@@ -4950,6 +4950,132 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[13018] = {
+		display = "试作型双联装234mm主炮T0设计图",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "试作型双联装234mm主炮T0设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13018,
+		icon = "Equips/23100",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13019] = {
+		display = "试作型三联装234mm主炮T0设计图",
+		rarity = 5,
+		type = 9,
+		drop_oil_max = 0,
+		name = "试作型三联装234mm主炮T0设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13019,
+		icon = "Equips/23120",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13020] = {
+		display = "双联装114mm高平两用炮MarkIVT0设计图",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "双联装114mm高平两用炮MarkIVT0设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13020,
+		icon = "Equips/21600",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13021] = {
+		display = "六联装40mm博福斯对空机炮T0设计图",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "六联装40mm博福斯对空机炮T0设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13021,
+		icon = "Equips/26660",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13022] = {
+		display = "试作型三联装305mmSKC39主炮T0设计图",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "试作型三联装305mmSKC39主炮T0设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13022,
+		icon = "Equips/44300",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13023] = {
+		display = "试作型三联装406mm/50主炮T0设计图",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "试作型三联装406mm/50主炮T0设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13023,
+		icon = "Equips/51000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13024] = {
+		display = "高性能火控雷达T0设计图",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "高性能火控雷达T0设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13024,
+		icon = "Equips/1260",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[14001] = {
 		display = [[
 使用后可从超稀有科研装备(I期)的设计图中任意选择一张
@@ -6030,6 +6156,27 @@ pg.item_data_statistics = {
 		price = {
 			1,
 			100
+		},
+		index = {}
+	},
+	[20101] = {
+		display = "研发部门总结的测试数据，可用于增加10000点科研一期角色技术测试经验进度",
+		rarity = 4,
+		type = 18,
+		drop_oil_max = 0,
+		name = "科研测试数据・一期",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 20101,
+		icon = "Props/20101",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			2
 		},
 		index = {}
 	},
@@ -29083,6 +29230,234 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[42020] = {
+		display = "使用后可从第一期、第二期、第三期方案舰的最高方案蓝图中任意选择一张",
+		rarity = 4,
+		type = 13,
+		drop_oil_max = 0,
+		name = "定向蓝图・三期",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42020,
+		icon = "Props/42020",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				42021,
+				1
+			},
+			{
+				2,
+				42023,
+				1
+			},
+			{
+				2,
+				42024,
+				1
+			},
+			{
+				2,
+				42025,
+				1
+			},
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			},
+			{
+				2,
+				42001,
+				1
+			},
+			{
+				2,
+				42002,
+				1
+			},
+			{
+				2,
+				42003,
+				1
+			},
+			{
+				2,
+				42004,
+				1
+			},
+			{
+				2,
+				42005,
+				1
+			},
+			{
+				2,
+				42006,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[42021] = {
+		display = "皇家巡洋「柴郡」的设计蓝图。\n<color=#92fc63>获得「柴郡」后，可在「开发船坞」中用于增强「柴郡」的能力。</color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "蓝图：柴郡",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42021,
+		icon = "Props/42021",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42022] = {
+		display = "皇家巡洋「德雷克」的设计蓝图。\n<color=#92fc63>获得「德雷克」后，可在「开发船坞」中用于增强「德雷克」的能力。</color>",
+		rarity = 5,
+		type = 12,
+		drop_oil_max = 0,
+		name = "蓝图：德雷克",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42022,
+		icon = "Props/42022",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			20
+		},
+		index = {}
+	},
+	[42023] = {
+		display = "铁血巡洋「美因茨」的设计蓝图。\n<color=#92fc63>获得「美因茨」后，可在「开发船坞」中用于增强「美因茨」的能力。</color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "蓝图：美因茨",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42023,
+		icon = "Props/42023",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42024] = {
+		display = "铁血战巡「奥丁」的设计蓝图。\n<color=#92fc63>获得「奥丁」后，可在「开发船坞」中用于增强「奥丁」的能力。</color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "蓝图：奥丁",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42024,
+		icon = "Props/42024",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42025] = {
+		display = "自由鸢尾战列「香槟」的设计蓝图。\n<color=#92fc63>获得「香槟」后，可在「开发船坞」中用于增强「香槟」的能力。</color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "蓝图：香槟",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42025,
+		icon = "Props/42025",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42026] = {
+		display = "使用后可从第二期、第三期方案舰的决战方案蓝图中任意选择一张",
+		rarity = 5,
+		type = 13,
+		drop_oil_max = 0,
+		name = "高级定向蓝图・三期",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42026,
+		icon = "Props/42026",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				42022,
+				1
+			},
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[50001] = {
 		display = "酸素可乐，口味独特，作为指挥官可能无法接受",
 		rarity = 2,
@@ -29611,6 +29986,124 @@ pg.item_data_statistics = {
 			{
 				2,
 				13017,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52021] = {
+		display = "有几率获得以下蓝图",
+		rarity = 4,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知蓝图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 52021,
+		icon = "Props/52001",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				42022,
+				1
+			},
+			{
+				2,
+				42021,
+				1
+			},
+			{
+				2,
+				42023,
+				1
+			},
+			{
+				2,
+				42024,
+				1
+			},
+			{
+				2,
+				42025,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52022] = {
+		display = "有几率获得以下设计图",
+		rarity = 4,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知限定装备设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 52022,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				13019,
+				1
+			},
+			{
+				2,
+				13000,
+				1
+			},
+			{
+				2,
+				13024,
+				1
+			},
+			{
+				2,
+				13009,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			},
+			{
+				2,
+				13018,
+				1
+			},
+			{
+				2,
+				13020,
+				1
+			},
+			{
+				2,
+				13021,
+				1
+			},
+			{
+				2,
+				13022,
+				1
+			},
+			{
+				2,
+				13023,
 				1
 			}
 		},
@@ -107389,6 +107882,13 @@ pg.item_data_statistics = {
 		13015,
 		13016,
 		13017,
+		13018,
+		13019,
+		13020,
+		13021,
+		13022,
+		13023,
+		13024,
 		14001,
 		14002,
 		15001,
@@ -107442,6 +107942,7 @@ pg.item_data_statistics = {
 		20011,
 		20012,
 		20013,
+		20101,
 		30001,
 		30011,
 		30012,
@@ -108385,6 +108886,13 @@ pg.item_data_statistics = {
 		42015,
 		42016,
 		42017,
+		42020,
+		42021,
+		42022,
+		42023,
+		42024,
+		42025,
+		42026,
 		50001,
 		50002,
 		50003,
@@ -108397,6 +108905,8 @@ pg.item_data_statistics = {
 		52004,
 		52011,
 		52012,
+		52021,
+		52022,
 		53000,
 		53010,
 		53011,

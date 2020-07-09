@@ -164,6 +164,10 @@ function slot0.setItem(slot0, slot1)
 			end
 
 			slot0:setItemInfo(slot1, slot0:findTF("item", slot0.operatePanel))
+		elseif slot4 == Item.TEC_SPEEDUP_TYPE then
+			setActive(slot0.resolveBtn, true)
+			slot0:UpdateSpeedUpResolveNum()
+			slot0:setItemInfo(slot1, slot0:findTF("item", slot0.operatePanel))
 		end
 	end
 
@@ -463,7 +467,13 @@ function slot0.UpdateResolvePanel(slot0)
 	end
 
 	setText(slot0.operateCountdesc, i18n("resolve_amount_prefix"))
-	setActive(slot0.keepFateTog, true)
+
+	if slot0.itemVO:getConfig("type") == Item.TEC_SPEEDUP_TYPE then
+		setActive(slot0.keepFateTog, false)
+	else
+		setActive(slot0.keepFateTog, true)
+	end
+
 	setButtonEnabled(slot0.operateBtns.Resolve, slot1 > 0)
 end
 
@@ -479,6 +489,12 @@ function slot0.UpdateBlueprintResolveNum(slot0)
 	end
 
 	slot0.operateMax = slot1
+end
+
+function slot0.UpdateSpeedUpResolveNum(slot0)
+	if slot0.itemVO:getConfig("type") == Item.TEC_SPEEDUP_TYPE then
+		slot0.operateMax = slot0.itemVO.count
+	end
 end
 
 function slot0.willExit(slot0)

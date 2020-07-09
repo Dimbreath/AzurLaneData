@@ -80,6 +80,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （20.04.09-20.07.05）",
 		scene = {}
 	},
+	[206] = {
+		name = "限界的挑战者VI",
+		time_second = 0,
+		id = 206,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （20.07.09-20.10.04）",
+		scene = {}
+	},
 	[300] = {
 		name = "召集者",
 		time_second = 2592000,
@@ -195,6 +203,7 @@ pg.item_data_frame = {
 		203,
 		204,
 		205,
+		206,
 		300,
 		301,
 		302,

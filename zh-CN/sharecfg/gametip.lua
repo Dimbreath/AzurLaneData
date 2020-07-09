@@ -3926,6 +3926,15 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 · 根据航母角色身上的装备栏不同，可以装备不同的舰载
 机。
 
+· 部分角色有特殊性能，可以装备不适用于自身舰种的装
+备
+
+· 回避上限：舰载机被敌方防空舰攻击时回避其攻击的几
+率上限
+
+舰载机回避率由舰载机、装备舰载机的航母航空值和敌方
+防空舰防空值决定
+
 · 外观装备可以用于改变对应的装备发射效果。
 （外观装备不占用仓库位置）   ]]
 			}
@@ -6357,7 +6366,7 @@ $3]]
 				info = [[
 ※新增功能：研发倾向
     ·选择一个研发版本倾向后，每次刷新研发项目时，将
-有两个项目固定刷新对应倾向的研发项目
+有三个项目固定刷新对应倾向的研发项目
 
 
 1 开始研发 
@@ -6384,7 +6393,7 @@ $3]]
 
 
 4 刷新科研项目
-    ·每日0点后，点击“点击刷新”按钮，会刷新三个新
+    ·每日0点后，点击“点击刷新”按钮，会刷新五个新
 的科研项目，每日只能刷新一次。
     ·当有正在研发中的科研项目时，无法进行刷新。]]
 			}
@@ -7169,7 +7178,7 @@ $3]]
 				info = "新兵训练活动说明："
 			},
 			{
-				info = "    1.活动没有时间限制，在玩家未完成所有活动任务前一直\n开放；"
+				info = "    1.活动没有时间限制，在玩家未完成所有活动任务前一\n直开放；"
 			},
 			{
 				info = "    2.完成当前阶段所有任务后解锁挑战任务；"
@@ -7178,7 +7187,22 @@ $3]]
 				info = "    3.完成当前阶段挑战任务后解锁下一个活动阶段；"
 			},
 			{
-				info = "    4.完成所有活动任务后，活动关闭；"
+				info = "    4.完成新兵训练和科研加速所有活动任务后，活动入口\n关闭；"
+			},
+			{
+				info = "\n新兵科研加速活动说明："
+			},
+			{
+				info = "    1.玩家指挥官等级达到30级后开放，通过页面右下角标\n签页切换科研加速、新兵训练两种活动任务的展示；"
+			},
+			{
+				info = "    2.活动没有时间限制，在玩家未完成所有活动任务前一\n直开放；"
+			},
+			{
+				info = "    3.完成当期所有任务后解锁最终任务；"
+			},
+			{
+				info = "    4.完成新兵训练和科研加速所有活动任务后，活动入口\n关闭；\n"
 			}
 		}
 	},
@@ -7205,6 +7229,9 @@ $3]]
 	},
 	newplayer_notice_8 = {
 		tip = "指挥官，欢迎来到碧蓝航线，先去新兵训练营报道吧。"
+	},
+	tec_notice_1 = {
+		tip = "完成科研一期研发加速所有任务后解锁"
 	},
 	apply_permission_camera_tip1 = {
 		tip = "为了ar录像的使用，需要有权限访问录音功能"
@@ -8363,6 +8390,61 @@ Z23(<color=#ff5c5c>铁血</color>) 科技点<color=#92fc63>+1</color></size>
 <color=#ff5c5c>实际性能以获得舰船为准</color>）
 使用装备：<color=#92fc63>
 四联装380mm主炮Mle1935
+三联装152mm主炮Mle1930
+双联37mm高射炮Mle1936
+</color></size>]]
+	},
+	blueprint_simulation_confirm_29903 = {
+		tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型双联装234mm主炮
+四联装533mm鱼雷
+双联装40mm博福斯STAAG
+</color></size>]]
+	},
+	blueprint_simulation_confirm_29904 = {
+		tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型三联装234mm主炮
+四联装533mm鱼雷
+六联40mm博福斯对空机炮
+</color></size>]]
+	},
+	blueprint_simulation_confirm_49903 = {
+		tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+三联装SKC25式150mm主炮
+四联装533mm磁性鱼雷
+双联105mmSKC高炮
+</color></size>]]
+	},
+	blueprint_simulation_confirm_49904 = {
+		tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型三联装305mmSKC39主炮
+四联装533mm磁性鱼雷
+双联105mmSKC高炮
+</color></size>]]
+	},
+	blueprint_simulation_confirm_89902 = {
+		tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型三联装406mm/50主炮
 三联装152mm主炮Mle1930
 双联37mm高射炮Mle1936
 </color></size>]]
@@ -10819,5 +10901,153 @@ BUFF加成也会增加
 	},
 	keep_fate_tip = {
 		tip = "保留<color=#92fc63>天运拟合</color>所需蓝图"
+	},
+	equip_info_1 = {
+		tip = "伤害"
+	},
+	equip_info_2 = {
+		tip = "标准射速"
+	},
+	equip_info_3 = {
+		tip = "射速"
+	},
+	equip_info_4 = {
+		tip = "技能"
+	},
+	equip_info_5 = {
+		tip = "弹药"
+	},
+	equip_info_6 = {
+		tip = "飞行速度 "
+	},
+	equip_info_7 = {
+		tip = "鱼雷航速"
+	},
+	equip_info_8 = {
+		tip = "对甲比例 "
+	},
+	equip_info_9 = {
+		tip = "伤害范围"
+	},
+	equip_info_10 = {
+		tip = "机枪射程"
+	},
+	equip_info_11 = {
+		tip = "机枪射角"
+	},
+	equip_info_12 = {
+		tip = "散布范围"
+	},
+	equip_info_13 = {
+		tip = "特性"
+	},
+	equip_info_14 = {
+		tip = "装备参数"
+	},
+	equip_info_15 = {
+		tip = "索敌范围"
+	},
+	equip_info_16 = {
+		tip = "索敌角度"
+	},
+	equip_info_17 = {
+		tip = "弹药射程"
+	},
+	equip_info_18 = {
+		tip = "散布角度"
+	},
+	equip_info_19 = {
+		tip = "所属阵营"
+	},
+	equip_info_20 = {
+		tip = "舰载机航速"
+	},
+	equip_info_21 = {
+		tip = "舰载机耐久"
+	},
+	equip_info_22 = {
+		tip = "舰载机回避上限"
+	},
+	equip_info_23 = {
+		tip = "适用舰种"
+	},
+	equip_info_24 = {
+		tip = "挂载武器"
+	},
+	tec_settings_btn_word = {
+		tip = "研发选项"
+	},
+	tec_tendency_0 = {
+		tip = "无倾向"
+	},
+	tec_tendency_1 = {
+		tip = "科研一期"
+	},
+	tec_tendency_2 = {
+		tip = "科研二期"
+	},
+	tec_tendency_3 = {
+		tip = "科研三期"
+	},
+	tec_tendency_cur_0 = {
+		tip = "科研倾向 / 无倾向"
+	},
+	tec_tendency_cur_1 = {
+		tip = "科研倾向 / 一期"
+	},
+	tec_tendency_cur_2 = {
+		tip = "科研倾向 / 二期"
+	},
+	tec_tendency_cur_3 = {
+		tip = "科研倾向 / 三期"
+	},
+	tec_target_catchup_none = {
+		tip = "定向追赶 / 未选择"
+	},
+	tec_target_catchup_selected = {
+		tip = "定向追赶"
+	},
+	tec_target_need_print = {
+		tip = "需求蓝图"
+	},
+	tec_target_catchup_progress = {
+		tip = "追赶进度"
+	},
+	tec_target_catchup_select_tip = {
+		tip = "是否要选择该科研角色:$1?"
+	},
+	tec_target_catchup_help_tip = {
+		tip = {
+			{
+				info = [[
+定向追赶功能说明：
+
+定向追赶功能中，玩家可选择一名对应版本的科研角色，
+在完成科研项目时，可额外获取对应角色的科研蓝图。
+选择一名角色后，可通过切换角色功能，重新选择角色。
+若在确定改变选择角色前退出，则保持原来选择的角色不
+变。
+每期定向追赶功能可获得的最大蓝图数量为300，切换选
+择角色后保持已获得数量不变。]]
+			}
+		}
+	},
+	tec_speedup_title = {
+		tip = "研发加速"
+	},
+	tec_speedup_progress = {
+		tip = "$1万/$2万"
+	},
+	tec_speedup_overflow = {
+		tip = "使用测试数据将溢出$1点经验，是否确认继续使用？"
+	},
+	tec_speedup_help_tip = {
+		tip = "在研发加速功能中，可以将科研测试数据转化为技术测试所需经验，科研测试数据可以从研发加速任务获得"
+	},
+	click_back_tip = {
+		tip = "点击空白处返回"
+	},
+	tech_catchup_sentence_pauses = {
+		tip = "——"
 	}
 }
