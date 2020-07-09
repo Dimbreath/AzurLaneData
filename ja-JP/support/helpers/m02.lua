@@ -1748,6 +1748,9 @@ end
 function filterCharForiOS(slot0)
 end
 
+function filteAndDelTest(slot0)
+end
+
 function getSkillConfig(slot0)
 	if not require("GameCfg.buff.buff_" .. slot0) then
 		warn("找不到技能配置: " .. slot0)
@@ -2578,4 +2581,129 @@ function changeToScrollText(slot0, slot1)
 	end
 
 	setScrollText(slot0:GetChild(0), slot1)
+end
+
+slot20, slot21, slot22 = nil
+
+function slot20(slot0, slot1, slot2)
+	slot3 = slot0:Find("base")
+	slot4, slot5 = Equipment.GetInfoTrans(slot1, slot2)
+
+	if slot1.nextValue then
+		slot6, slot7 = Equipment.GetInfoTrans({
+			name = slot1.name,
+			type = slot1.type,
+			value = slot1.nextValue
+		}, slot2)
+		slot5 = slot5 .. setColorStr("   >   " .. slot7, COLOR_GREEN)
+	end
+
+	setText(slot3:Find("name"), slot4)
+	setText(slot3:Find("value"), slot5)
+	setActive(slot3:Find("value/up"), slot1.compare and slot1.compare > 0)
+	setActive(slot3:Find("value/down"), slot1.compare and slot1.compare < 0)
+	triggerToggle(slot3, slot1.lock_open)
+
+	if not slot1.lock_open and slot1.sub and #slot1.sub > 0 then
+		GetComponent(slot3, typeof(Toggle)).enabled = true
+	else
+		setActive(slot3:Find("name/close"), false)
+		setActive(slot3:Find("name/open"), false)
+
+		GetComponent(slot3, typeof(Toggle)).enabled = false
+	end
+end
+
+function slot21(slot0, slot1, slot2, slot3)
+	uv0(slot0, slot2, slot3)
+
+	if not slot2.sub or #slot2.sub == 0 then
+		return
+	end
+
+	uv1(slot0:Find("subs"), slot1, slot2.sub, slot3)
+end
+
+function slot22(slot0, slot1, slot2, slot3)
+	removeAllChildren(slot0)
+
+	for slot7, slot8 in ipairs(slot2) do
+		uv0(cloneTplTo(slot1, slot0), slot1, slot8, slot3)
+	end
+end
+
+function updateEquipInfo(slot0, slot1, slot2, slot3)
+	uv0(slot0:Find("attrs"), slot0:Find("attr_tpl"), slot1.attrs, slot3)
+	setActive(slot0:Find("skill"), slot2)
+
+	if slot2 then
+		uv1(slot0:Find("skill/attr"), slot4, {
+			name = i18n("skill"),
+			value = setColorStr(slot2.name, "#FFDE00FF")
+		}, slot3)
+		setText(slot0:Find("skill/value/Text"), getSkillDescGet(slot2.id))
+	end
+
+	setActive(slot0:Find("weapon"), #slot1.weapon.sub > 0)
+
+	if #slot1.weapon.sub > 0 then
+		uv0(slot0:Find("weapon"), slot4, {
+			slot1.weapon
+		}, slot3)
+	end
+
+	setActive(slot0:Find("equip_info"), #slot1.equipInfo.sub > 0)
+
+	if #slot1.equipInfo.sub > 0 then
+		uv0(slot0:Find("equip_info"), slot4, {
+			slot1.equipInfo
+		}, slot3)
+	end
+
+	uv1(slot0:Find("part/attr"), slot4, {
+		name = i18n("equip_info_23")
+	}, slot3)
+
+	slot6 = slot0:Find("part/value"):Find("label")
+
+	if #slot1.part[1] == 0 and #slot1.part[2] == 0 then
+		setmetatable({}, {
+			__index = function (slot0, slot1)
+				return true
+			end
+		})
+		setmetatable({}, {
+			__index = function (slot0, slot1)
+				return true
+			end
+		})
+	else
+		for slot12, slot13 in ipairs(slot1.part[1]) do
+			slot7[slot13] = true
+		end
+
+		for slot12, slot13 in ipairs(slot1.part[2]) do
+			slot8[slot13] = true
+		end
+	end
+
+	for slot12, slot13 in ipairs(ShipType.AllShipType) do
+		slot14 = slot12 <= slot5.childCount and slot5:GetChild(slot12 - 1) or cloneTplTo(slot6, slot5)
+
+		GetImageSpriteFromAtlasAsync("shiptype", ShipType.Type2CNLabel(slot13), slot14)
+		setActive(slot14:Find("main"), slot7[slot13] and not slot8[slot13])
+		setActive(slot14:Find("sub"), slot8[slot13] and not slot7[slot13])
+		setImageAlpha(slot14, not slot7[slot13] and not slot8[slot13] and 0.3 or 1)
+	end
+end
+
+function updateEquipUpgradeInfo(slot0, slot1, slot2)
+	uv0(slot0:Find("attrs"), slot0:Find("attr_tpl"), slot1.attrs, slot2)
+	setActive(slot0:Find("weapon"), #slot1.weapon.sub > 0)
+
+	if #slot1.weapon.sub > 0 then
+		uv0(slot0:Find("weapon"), slot3, {
+			slot1.weapon
+		}, slot2)
+	end
 end

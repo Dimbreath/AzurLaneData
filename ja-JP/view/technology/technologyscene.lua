@@ -20,11 +20,40 @@ function slot0.setPlayer(slot0, slot1)
 	end
 end
 
-function slot0.setTendency(slot0, slot1)
-	slot0.tendency = slot1
+function slot0.updateSettingsBtn(slot0)
+	slot2 = slot0:findTF("RedPoint", slot0.settingsBtn)
 
-	setText(slot0:findTF("Text", slot0.tendencyBtn), i18n("tech_change_version_mark"))
-	setImageSprite(slot0:findTF("version", slot0.tendencyBtn), GetSpriteFromAtlas("ui/technologyui_atlas", "version_" .. slot0.tendency))
+	setText(slot0:findTF("TipText", slot0.settingsBtn), i18n("tec_settings_btn_word"))
+
+	slot5 = slot0:findTF("Selected", slot0:findTF("TargetCatchup", slot0.settingsBtn))
+
+	setActive(slot0:findTF("tag", slot0.settingsBtn), getProxy(TechnologyProxy):getTendency(2) > 0)
+
+	if slot7 > 0 then
+		for slot12 = 1, slot1.childCount do
+			setActive(slot1:GetChild(slot12 - 1), slot7 == slot12)
+		end
+	end
+
+	setActive(slot4, true)
+
+	if not slot6:isOnCatchup() then
+		setActive(slot5, false)
+		setActive(slot2, true)
+	else
+		slot9 = slot6:getCurCatchupTecInfo()
+		slot11 = slot9.groupID
+
+		if pg.technology_catchup_template[slot9.tecID].obtain_max <= slot9.printNum then
+			setActive(slot5, false)
+			setActive(slot2, false)
+		else
+			setActive(slot5, true)
+			setActive(slot2, false)
+			setImageSprite(slot0:findTF("CharImg", slot5), LoadSprite("TecCatchup/QChar" .. slot11, tostring(slot11)))
+			setText(slot0:findTF("ProgressText", slot5), slot12 .. "/" .. slot13)
+		end
+	end
 end
 
 function slot0.init(slot0)
@@ -34,7 +63,7 @@ function slot0.init(slot0)
 	slot0.helpBtn = slot0:findTF("main/help_btn")
 	slot0.refreshBtn = slot0:findTF("main/refresh_btn")
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back")
-	slot0.tendencyBtn = slot0:findTF("main/tendency_btn")
+	slot0.settingsBtn = slot0:findTF("main/settings_btn")
 	slot0.selectetPanel = slot0:findTF("main/selecte_panel")
 
 	setActive(slot0.selectetPanel, false)
@@ -86,8 +115,11 @@ function slot0.didEnter(slot0)
 			end
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0.tendencyBtn, function ()
-		uv0:emit(TechnologyMediator.CHANGE_TENDENCY, (uv0.tendency + 1) % 3)
+
+	slot1 = getProxy(TechnologyProxy):getConfigMaxVersion()
+
+	onButton(slot0, slot0.settingsBtn, function ()
+		uv0:emit(TechnologyMediator.ON_CLICK_SETTINGS_BTN)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
@@ -97,6 +129,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	slot0:updateRefreshBtn(slot0.flag)
 	slot0._resPanel:setResources(slot0.player)
+	slot0:updateSettingsBtn()
 end
 
 function slot0.initTechnologys(slot0)

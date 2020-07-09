@@ -316,7 +316,7 @@ function slot0.ExistDifferentExWord(slot0, slot1, slot2, slot3)
 		return false
 	end
 
-	slot5 = nil
+	slot5 = slot1
 
 	if string.find(slot1, "main") then
 		slot5 = uv1.WORD_TYPE_MAIN

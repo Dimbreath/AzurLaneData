@@ -837,8 +837,10 @@ end
 function slot8.SpawnMain(slot0, slot1, slot2)
 	slot3 = nil
 	slot5 = #slot0:GetFleetByIFF(slot2):GetMainList() + 1
-	slot6 = slot0:generatePlayerUnit(slot1, slot2, (not slot0._currentStageData.mainUnitPosition or not slot0._currentStageData.mainUnitPosition[slot2] or Clone(slot0._currentStageData.mainUnitPosition[slot2][slot5])) and Clone(uv0.MAIN_UNIT_POS[slot2][slot5]), slot0._commanderBuff)
+	slot3 = (not slot0._currentStageData.mainUnitPosition or not slot0._currentStageData.mainUnitPosition[slot2] or Clone(slot0._currentStageData.mainUnitPosition[slot2][slot5])) and Clone(uv0.MAIN_UNIT_POS[slot2][slot5])
+	slot6 = slot0:generatePlayerUnit(slot1, slot2, slot3, slot0._commanderBuff)
 
+	slot6:SetBornPosition(slot3)
 	slot6:SetMainFleetUnit()
 	slot4:AppendPlayerUnit(slot6)
 	slot0._cldSystem:InitShipCld(slot6)

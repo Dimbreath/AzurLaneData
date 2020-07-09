@@ -82,6 +82,7 @@ function slot0.init(slot0)
 	slot0.rightPanel = slot0:findTF("right_panel", slot0.top)
 	slot0.shipContainer = slot0:findTF("ships/bg/content", slot0.bottomPanel)
 	slot0.shipTpl = slot0:findTF("ship_tpl", slot0.bottomPanel)
+	slot0.versionLight = slot0:findTF("ships/bg/version/decoration/left_light", slot0.bottomPanel)
 	slot0.versionBtn = slot0:findTF("ships/bg/version/version_btn", slot0.bottomPanel)
 	slot0.eyeTF = slot0:findTF("eye", slot0.leftPanle)
 	slot0.painting = slot0:findTF("main/center_panel/painting")
@@ -119,6 +120,7 @@ function slot0.init(slot0)
 	slot0.progressContainer = slot0:findTF("content", slot0.progressPanel)
 	slot0.progressTpl = slot0:findTF("item", slot0.progressContainer)
 	slot0.openCondition = slot0:findTF("state_info/open_condition", slot0.centerPanel)
+	slot0.speedupBtn = slot0:findTF("main/speedup_btn")
 	slot0.taskListPanel = slot0:findTF("task_list", slot0.rightPanel)
 	slot0.taskContainer = slot0:findTF("task_list/scroll/content", slot0.rightPanel)
 	slot0.taskTpl = slot0:findTF("task_list/task_tpl", slot0.rightPanel)
@@ -190,27 +192,31 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
+	slot1 = getProxy(TechnologyProxy):getConfigMaxVersion()
+
 	if not slot0.contextData.shipBluePrintVO then
-		slot1 = {
-			0,
-			0
+		slot2 = {
+			[slot6] = 0
 		}
 
-		for slot5, slot6 in pairs(slot0.bluePrintByIds) do
-			slot1[slot6.version] = slot1[slot6.version] + (slot6.state == ShipBluePrint.STATE_UNLOCK and 1 or 0)
+		for slot6 = 1, slot1 do
+		end
 
-			if slot6.state == ShipBluePrint.STATE_DEV then
-				slot0.contextData.shipBluePrintVO = slot0.contextData.shipBluePrintVO or slot6
+		for slot6, slot7 in pairs(slot0.bluePrintByIds) do
+			slot2[slot7.version] = slot2[slot7.version] + (slot7.state == ShipBluePrint.STATE_UNLOCK and 1 or 0)
+
+			if slot7.state == ShipBluePrint.STATE_DEV then
+				slot0.contextData.shipBluePrintVO = slot0.contextData.shipBluePrintVO or slot7
 
 				break
 			end
 		end
 
 		if not slot0.contextData.shipBluePrintVO then
-			for slot6 = 1, getProxy(TechnologyProxy):getConfigMaxVersion() do
+			for slot6 = 1, slot1 do
 				slot0.version = slot6
 
-				if slot1[slot6] <= 4 then
+				if slot2[slot6] <= 4 then
 					break
 				end
 			end
@@ -220,6 +226,9 @@ function slot0.didEnter(slot0)
 	end
 
 	slot0:initShips()
+	onButton(slot0, slot0.speedupBtn, function ()
+		uv0:emit(ShipBluePrintMediator.ON_CLICK_SPEEDUP_BTN)
+	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(ShipBluePrintMediator.ON_MAIN)
 	end, SOUND_BACK)
@@ -284,15 +293,16 @@ function slot0.didEnter(slot0)
 		setActive(uv0.msgPanel, false)
 	end)
 	GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "version_" .. slot0.version, slot0.versionBtn)
+	triggerToggle(slot0.versionLight:GetChild(slot0.version - 1), true)
 	onButton(slot0, slot0.versionBtn, function ()
-		uv0.version = uv0.version % 2 + 1
+		uv0.version = uv0.version % uv1 + 1
 
 		uv0:emit(ShipBluePrintMediator.SET_TECHNOLOGY_VERSION, uv0.version)
 
 		uv0.contextData.shipBluePrintVO = nil
 
 		GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "version_" .. uv0.version, uv0.versionBtn)
-		uv0.itemList:align(0)
+		triggerToggle(uv0.versionLight:GetChild(uv0.version - 1), true)
 		uv0:initShips()
 	end)
 	LeanTween.alpha(rtf(slot0.skillArrLeft), 0.25, 1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
@@ -390,7 +400,6 @@ function slot0.createShipItem(slot0, slot1)
 	slot2.seleted = findTF(slot2.tf, "selected")
 	slot2.maskLock = findTF(slot2.tf, "state/mask_lock")
 	slot2.maskDev = findTF(slot2.tf, "state/mask_dev")
-	slot2.maskNone = findTF(slot2.tf, "state/mask_none")
 	slot2.tip = findTF(slot2.tf, "tip")
 	slot2.iconTF = findTF(slot2.tf, "icon")
 	slot2.toggle = slot2.tf:GetComponent("Toggle")
@@ -399,23 +408,23 @@ function slot0.createShipItem(slot0, slot1)
 
 	function slot2.update(slot0, slot1, slot2)
 		slot0.toggle.enabled = slot1.id > 0
+		slot0.shipBluePrintVO = slot1
 
-		if slot1.id < 0 then
-			setActive(slot0.maskNone, true)
+		if slot0.shipBluePrintVO.id < 0 then
 			setActive(slot0.seleted, false)
 			setActive(slot0.maskLock, false)
 			setActive(slot0.maskDev, false)
 			setActive(slot0.tip, false)
 			setActive(slot0.lvTF, false)
 			setActive(slot0.countTxt, false)
-			LoadSpriteAsync("shipdesignicon/unknow", function (slot0)
-				uv0.iconShip.sprite = slot0
+			LoadSpriteAsync("shipdesignicon/empty", function (slot0)
+				if uv0.shipBluePrintVO.id < 0 then
+					uv0.iconShip.sprite = slot0
+				end
 			end)
 		else
-			slot0.shipBluePrintVO = slot1
-
 			LoadSpriteAsync("shipdesignicon/" .. slot0.shipBluePrintVO:getShipVO():getPainting(), function (slot0)
-				if slot0 then
+				if uv0.shipBluePrintVO.id > 0 and slot0.name == uv0.shipBluePrintVO:getShipVO():getPainting() then
 					uv0.iconShip.sprite = slot0
 				end
 			end)
@@ -432,7 +441,6 @@ function slot0.createShipItem(slot0, slot1)
 			setActive(slot0.maskLock, slot1:isLock())
 			setActive(slot0.maskDev, slot1:isDeving())
 			setActive(slot0.tip, slot1:isFinished())
-			setActive(slot0.maskNone, false)
 			setActive(slot0.lvTF, not slot1:isLock() and not slot1:isDeving())
 		end
 	end
@@ -458,11 +466,11 @@ function slot0.initShips(slot0)
 			if slot0 == UIItemList.EventInit then
 				uv0.bluePrintItems[slot2] = uv0:createShipItem(slot2)
 
-				onToggle(uv0, uv0.bluePrintItems[slot2].go, function (slot0)
+				onToggle(uv0, slot2, function (slot0)
 					if slot0 then
 						uv0:clearLeanTween()
 
-						uv0.contextData.shipBluePrintVO = uv1.shipBluePrintVO
+						uv0.contextData.shipBluePrintVO = uv0.bluePrintItems[uv1].shipBluePrintVO
 
 						function slot1()
 							uv0:setSelectedBluePrint()
@@ -489,17 +497,13 @@ function slot0.initShips(slot0)
 						end
 					end
 
-					uv1:updateSelectedStyle(slot0)
+					uv0.bluePrintItems[uv1]:updateSelectedStyle(slot0)
 				end, SFX_PANEL)
-
-				return
-			end
-
-			if slot0 == UIItemList.EventUpdate then
+			elseif slot0 == UIItemList.EventUpdate then
 				if uv0.filterBlueprintVOs[slot1 + 1].id > 0 then
-					uv0.bluePrintItems[slot2]:update(slot4, uv0:getItemById(slot4:getItemId()))
+					uv0.bluePrintItems[slot2]:update(slot3, uv0:getItemById(slot3:getItemId()))
 				else
-					slot3:update(slot4, nil)
+					uv0.bluePrintItems[slot2]:update(slot3, nil)
 				end
 			end
 		end)
@@ -817,7 +821,7 @@ function slot0.updateModPanel(slot0)
 
 	slot0.itemInfoCount.text = slot4.count
 
-	GetImageSpriteFromAtlasAsync(slot4:getConfig("icon"), "", slot0.itemInfoIcon)
+	updateItem(slot0.itemInfoIcon, slot4)
 	onButton(slot0, slot0.itemInfoIcon, function ()
 		ItemTipPanel.ShowItemTipbyID(uv0.id, i18n("title_item_ways", uv0:getConfig("name")))
 	end)
@@ -954,7 +958,7 @@ function slot0.updateFittingPanel(slot0)
 
 	slot0.fittingItemInfoCount.text = slot4.count
 
-	GetImageSpriteFromAtlasAsync(slot4:getConfig("icon"), "", slot0.fittingItemInfoIcon)
+	updateItem(slot0.fittingItemInfoIcon, slot4)
 	onButton(slot0, slot0.fittingItemInfoIcon, function ()
 		ItemTipPanel.ShowItemTipbyID(uv0.id, i18n("title_item_ways", uv0:getConfig("name")))
 	end)
@@ -1244,6 +1248,10 @@ function slot0.updateInfo(slot0)
 
 	setActive(slot0.progressPanel, slot10)
 
+	if not slot10 then
+		setActive(slot0.speedupBtn, false)
+	end
+
 	if slot10 then
 		slot0:updateTasksProgress()
 	end
@@ -1291,6 +1299,12 @@ function slot0.updateTasksProgress(slot0)
 			setActive(findTF(slot8, "lock"), slot10 == ShipBluePrint.TASK_STATE_LOCK or slot10 == ShipBluePrint.TASK_STATE_WAIT)
 			setActive(findTF(slot8, "working"), slot10 == ShipBluePrint.TASK_STATE_ACHIEVED or slot10 == ShipBluePrint.TASK_STATE_OPENING or slot10 == ShipBluePrint.TASK_STATE_START)
 		end
+	end
+
+	if pg.gameset.technology_catchup_itemid.description[slot1:getConfig("blueprint_version")] then
+		setActive(slot0.speedupBtn, (slot1:getTaskStateById(slot2[1]) == ShipBluePrint.TASK_STATE_START or slot1:getTaskStateById(slot2[4]) == ShipBluePrint.TASK_STATE_START) and getProxy(BagProxy):getItemCountById(slot5[1]) > 0)
+	else
+		setActive(slot0.speedupBtn, false)
 	end
 end
 
@@ -1558,7 +1572,14 @@ function slot0.createTask(slot0, slot1)
 			slot3 = 0
 		end
 
-		slot0.progessSlider.value = slot3
+		if slot0.progessSlider.value < slot3 then
+			slot0.itemSliderLT = LeanTween.value(go(slot0.progressTF), slot0.progessSlider.value, slot3, 0.5):setOnUpdate(System.Action_float(function (slot0)
+				uv0.progessSlider.value = slot0
+			end))
+		else
+			slot0.progessSlider.value = slot3
+		end
+
 		slot4 = math.floor(slot3 * 100)
 
 		setText(slot0.progres, math.ceil(math.min(slot4, 100)) .. "%")
@@ -1591,6 +1612,12 @@ function slot0.createTask(slot0, slot1)
 			slot0.taskTimer:Stop()
 
 			slot0.taskTimer = nil
+		end
+
+		if slot0.itemSliderLT then
+			LeanTween.cancel(slot0.itemSliderLT.id)
+
+			slot0.itemSliderLT = nil
 		end
 	end
 

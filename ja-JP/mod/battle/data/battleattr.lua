@@ -53,6 +53,7 @@ end
 
 slot0.InsertInheritedAttr(ys.Battle.BattleConfig.AMMO_DAMAGE_ENHANCE)
 slot0.InsertInheritedAttr(ys.Battle.BattleConfig.AMMO_DAMAGE_REDUCE)
+slot0.InsertInheritedAttr(ys.Battle.BattleConfig.AGAINST_ARMOR_ENHANCE)
 slot0.InsertInheritedAttr(ys.Battle.BattleConfig.SHIP_TYPE_ACCURACY_ENHANCE)
 
 slot0.TAG_EHC_KEY = "DMG_TAG_EHC_"

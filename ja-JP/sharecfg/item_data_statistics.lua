@@ -4680,6 +4680,132 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[13018] = {
+		display = "試作型234mm連装砲T0設計図",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "試作型234mm連装砲T0設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13018,
+		icon = "Equips/23100",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13019] = {
+		display = "試作型234mm三連装砲T0設計図",
+		rarity = 5,
+		type = 9,
+		drop_oil_max = 0,
+		name = "試作型234mm三連装砲T0設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13019,
+		icon = "Equips/23120",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13020] = {
+		display = "114mm連装両用砲MarlIVT0設計図",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "114mm連装両用砲MarlIVT0設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13020,
+		icon = "Equips/21600",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13021] = {
+		display = "六連装ボフォース40mm対空砲T0設計図",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "六連装ボフォース40mm対空砲T0設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13021,
+		icon = "Equips/26660",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13022] = {
+		display = "試作型305mmSKC39三連装砲T0設計図",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "試作型305mmSKC39三連装砲T0設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13022,
+		icon = "Equips/44300",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13023] = {
+		display = "試作型406mm/50三連装砲T0設計図",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "試作型406mm/50三連装砲T0設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13023,
+		icon = "Equips/51000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13024] = {
+		display = "高性能火器管制レーダーT0設計図",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "高性能火器管制レーダーT0設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13024,
+		icon = "Equips/1260",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[14001] = {
 		display = [[
 下記任意のSSレアの装備の設計図と交換可能
@@ -5740,6 +5866,27 @@ pg.item_data_statistics = {
 		price = {
 			1,
 			100
+		},
+		index = {}
+	},
+	[20101] = {
+		display = "科学部が作成した戦術データベース。特別計画Ⅰ期の開発任務経験値を10000蓄積させることが出来る",
+		rarity = 4,
+		type = 18,
+		drop_oil_max = 0,
+		name = "戦術データパック・Ⅰ期",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 20101,
+		icon = "Props/20101",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			2
 		},
 		index = {}
 	},
@@ -28728,6 +28875,234 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[42020] = {
+		display = "特別計画艦一期目・二期目と三期目の強化ユニット（PR）から選択して入手できます",
+		rarity = 4,
+		type = 13,
+		drop_oil_max = 0,
+		name = "指向型強化ユニット・三期目",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42020,
+		icon = "Props/42020",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				42021,
+				1
+			},
+			{
+				2,
+				42023,
+				1
+			},
+			{
+				2,
+				42024,
+				1
+			},
+			{
+				2,
+				42025,
+				1
+			},
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			},
+			{
+				2,
+				42001,
+				1
+			},
+			{
+				2,
+				42002,
+				1
+			},
+			{
+				2,
+				42003,
+				1
+			},
+			{
+				2,
+				42004,
+				1
+			},
+			{
+				2,
+				42005,
+				1
+			},
+			{
+				2,
+				42006,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[42021] = {
+		display = "ロイヤル巡洋艦「チェシャー」の強化ユニット。\n<color=#92fc63>「チェシャー」開発完了後、「開発ドック」で「チェシャー」の性能を強化できる。</color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "強化ユニット「チェシャー」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42021,
+		icon = "Props/42021",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42022] = {
+		display = "ロイヤル巡洋艦「ドレイク」の強化ユニット。\n<color=#92fc63>「ドレイク」開発完了後、「開発ドック」で「ドレイク」の性能を強化できる。</color>",
+		rarity = 5,
+		type = 12,
+		drop_oil_max = 0,
+		name = "強化ユニット「ドレイク」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42022,
+		icon = "Props/42022",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			20
+		},
+		index = {}
+	},
+	[42023] = {
+		display = "鉄血巡洋艦「マインツ」の強化ユニット。\n<color=#92fc63>「マインツ」開発完了後、「開発ドック」で「マインツ」の性能を強化できる。</color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "強化ユニット「マインツ」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42023,
+		icon = "Props/42023",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42024] = {
+		display = "鉄血巡戦「オーディン」の強化ユニット。\n<color=#92fc63>「オーディン」開発完了後、「開発ドック」で「オーディン」の性能を強化できる。</color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "強化ユニット「オーディン」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42024,
+		icon = "Props/42024",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42025] = {
+		display = "アイリス戦艦「シャンパーニュ」の強化ユニット。\n<color=#92fc63>「シャンパーニュ」開発完了後、「開発ドック」で「シャンパーニュ」の性能を強化できる。</color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "強化ユニット「シャンパーニュ」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42025,
+		icon = "Props/42025",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42026] = {
+		display = "特別計画艦二期目・三期目の強化ユニット（DR）を選択肢て入手できます",
+		rarity = 5,
+		type = 13,
+		drop_oil_max = 0,
+		name = "上級指向型強化ユニット・三期目",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42026,
+		icon = "Props/42026",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				42022,
+				1
+			},
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[50001] = {
 		display = "酸素充填のコーラ。独特な味で指揮官は多分飲めない",
 		rarity = 2,
@@ -29256,6 +29631,124 @@ pg.item_data_statistics = {
 			{
 				2,
 				13017,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52021] = {
+		display = "ランダムで下記の強化ユニットを入手できます。",
+		rarity = 4,
+		type = 99,
+		drop_oil_max = 0,
+		name = "強化ユニット(ランダム)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 52021,
+		icon = "Props/52001",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				42022,
+				1
+			},
+			{
+				2,
+				42021,
+				1
+			},
+			{
+				2,
+				42023,
+				1
+			},
+			{
+				2,
+				42024,
+				1
+			},
+			{
+				2,
+				42025,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52022] = {
+		display = "ランダムで下記の設計図を入手できます。",
+		rarity = 4,
+		type = 99,
+		drop_oil_max = 0,
+		name = "兵装設計図(ランダム)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 52022,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				13019,
+				1
+			},
+			{
+				2,
+				13000,
+				1
+			},
+			{
+				2,
+				13024,
+				1
+			},
+			{
+				2,
+				13009,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			},
+			{
+				2,
+				13018,
+				1
+			},
+			{
+				2,
+				13020,
+				1
+			},
+			{
+				2,
+				13021,
+				1
+			},
+			{
+				2,
+				13022,
+				1
+			},
+			{
+				2,
+				13023,
 				1
 			}
 		},
@@ -105386,6 +105879,13 @@ pg.item_data_statistics = {
 		13015,
 		13016,
 		13017,
+		13018,
+		13019,
+		13020,
+		13021,
+		13022,
+		13023,
+		13024,
 		14001,
 		14002,
 		15001,
@@ -105438,6 +105938,7 @@ pg.item_data_statistics = {
 		20011,
 		20012,
 		20013,
+		20101,
 		30001,
 		30011,
 		30012,
@@ -106380,6 +106881,13 @@ pg.item_data_statistics = {
 		42015,
 		42016,
 		42017,
+		42020,
+		42021,
+		42022,
+		42023,
+		42024,
+		42025,
+		42026,
 		50001,
 		50002,
 		50003,
@@ -106392,6 +106900,8 @@ pg.item_data_statistics = {
 		52004,
 		52011,
 		52012,
+		52021,
+		52022,
 		53000,
 		53010,
 		53011,

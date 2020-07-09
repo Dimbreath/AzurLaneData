@@ -112763,6 +112763,109 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[199013] = {
+		ship_group = 19901,
+		name = "サンフィッシュスペル！",
+		bg_sp = "",
+		group_index = 3,
+		illustrator2 = -1,
+		desc = "お助け魔女のシアトルっす！さては君、なにか困っているのかね？なーんでも相談に乗ってあげるから、代わりに――今日のパーティー、参加してもらうっすよ♪",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "xiyatu_4",
+		air_bullet_skin = "",
+		shop_type_id = 6,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "134",
+		skin_type = 0,
+		id = 199013,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xiyatu_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70392,
+		voice_actor = 129,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.083,
+					1.128,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.333,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.186,
+					1.053,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.28,
+							2.31,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[199020] = {
 		ship_group = 19902,
 		name = "ジョージア",
@@ -114000,7 +114103,555 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[299030] = {
+		ship_group = 29903,
+		name = "チェシャー",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "重巡洋艦・チェシャー",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "chaijun",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 299030,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "chaijun",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 30,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.43,
+					1.114,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.485,
+					1.196,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.003,
+					0.009,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.409,
+					1.21,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.378,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[299040] = {
+		ship_group = 29904,
+		name = "ドレイク",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "重巡洋艦・ドレイク",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "deleike",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 299040,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "deleike",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 80,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.389,
+					1.027,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.384,
+					1.02,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.001,
+					0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.393,
+					1.115,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.602,
+							2.308,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[499030] = {
+		ship_group = 49903,
+		name = "マインツ",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "軽巡洋艦・マインツ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "meiyinci",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 499030,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "meiyinci",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 236,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.268,
+					1.411,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.273,
+					1.37,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.003,
+					-0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.309,
+					1.327,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.531,
+							2.393,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[499040] = {
+		ship_group = 49904,
+		name = "オーディン",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "巡洋戦艦・奥丁",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "aoding",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 499040,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "aoding",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 237,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.676,
+					0.962,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.69,
+					0.924,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.019,
+					-0.011,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.633,
+					0.953,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.452,
+							2.5,
+							-0.18
+						}
+					}
+				}
+			}
+		}
+	},
+	[899020] = {
+		ship_group = 89902,
+		name = "シャンパーニュ",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "戦艦・香槟",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "xiangbin",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 899020,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xiangbin",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 64,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.822,
+					1.095,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.02,
+					0.03,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.773,
+					1.18,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.33,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	get_id_list_by_ship_group = {
+		[89902] = {
+			899020
+		},
+		[49904] = {
+			499040
+		},
+		[49903] = {
+			499030
+		},
+		[29904] = {
+			299040
+		},
+		[29903] = {
+			299030
+		},
 		[99901] = {
 			999010,
 			999011
@@ -114026,7 +114677,8 @@ pg.ship_skin_template = {
 		[19901] = {
 			199010,
 			199011,
-			199012
+			199012,
+			199013
 		},
 		[89901] = {
 			899010
@@ -117131,6 +117783,7 @@ pg.ship_skin_template = {
 		199010,
 		199011,
 		199012,
+		199013,
 		199020,
 		199021,
 		199022,
@@ -117142,6 +117795,11 @@ pg.ship_skin_template = {
 		499021,
 		499028,
 		999010,
-		999011
+		999011,
+		299030,
+		299040,
+		499030,
+		499040,
+		899020
 	}
 }

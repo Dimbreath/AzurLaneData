@@ -27,7 +27,7 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				buff_id = 19263,
+				buff_id = 19265,
 				time = 20,
 				target = "TargetSelf"
 			}

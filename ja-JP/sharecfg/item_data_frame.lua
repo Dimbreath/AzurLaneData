@@ -72,6 +72,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>チャレンジ精神に富む指揮官へ送るチャレンジフレーム</color>\nチャレンジモード第五期で入手可能（20.04.09-20.07.05）",
 		scene = {}
 	},
+	[206] = {
+		name = "チャレンジャーVI",
+		time_second = 0,
+		id = 206,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>チャレンジ精神に富む指揮官へ送るチャレンジフレーム</color>\nチャレンジモード第六期で入手可能（20.07.09-20.10.04）",
+		scene = {}
+	},
 	[300] = {
 		name = "カリスマ指揮官",
 		time_second = 2592000,
@@ -178,6 +186,7 @@ pg.item_data_frame = {
 		203,
 		204,
 		205,
+		206,
 		300,
 		301,
 		302,
