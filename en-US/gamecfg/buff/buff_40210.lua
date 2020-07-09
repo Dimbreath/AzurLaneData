@@ -1,6 +1,6 @@
 return {
 	time = 0,
-	name = "与主力舰队交战时，旗舰受到伤害降低，依据战术属性",
+	name = "",
 	init_effect = "",
 	id = 40210,
 	picture = "",

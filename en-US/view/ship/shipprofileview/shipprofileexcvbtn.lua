@@ -7,7 +7,8 @@ function slot0.Init(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot7, slot8 = nil
 
 	if string.find(slot4.key, ShipWordHelper.WORD_TYPE_MAIN) then
-		slot7, slot8 = ShipWordHelper.ExistExCv(slot2.id, ShipWordHelper.WORD_TYPE_MAIN, tonumber(string.split(slot6, ShipWordHelper.WORD_TYPE_MAIN)[1]), slot5)
+		mainIndex = tonumber(string.gsub(slot6, ShipWordHelper.WORD_TYPE_MAIN, ""))
+		slot7, slot8 = ShipWordHelper.ExistExCv(slot2.id, ShipWordHelper.WORD_TYPE_MAIN, mainIndex, slot5)
 	else
 		slot7, slot8 = ShipWordHelper.ExistExCv(slot2.id, slot6, nil, slot5)
 	end

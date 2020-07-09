@@ -3178,7 +3178,7 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 	},
 	[4406] = {
 		use_gold = 1200,
-		name = "Auxiliary Gun Improvement Ⅰ",
+		name = "Secondary Gun Improvement Ⅰ",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -3540,7 +3540,7 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 	},
 	[5205] = {
 		use_gold = 600,
-		name = "Auxiliary Gun Improvement Ⅰ",
+		name = "Secondary Gun Improvement Ⅰ",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -3682,7 +3682,7 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 	},
 	[5209] = {
 		use_gold = 1400,
-		name = "Auxiliary Gun Improvement Ⅱ",
+		name = "Secondary Gun Improvement Ⅱ",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -3935,7 +3935,7 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 	},
 	[5305] = {
 		use_gold = 600,
-		name = "Auxiliary Gun Improvement Ⅰ",
+		name = "Secondary Gun Improvement Ⅰ",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -4077,7 +4077,7 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 	},
 	[5309] = {
 		use_gold = 1400,
-		name = "Auxiliary Gun Improvement Ⅱ",
+		name = "Secondary Gun Improvement Ⅱ",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,

@@ -916,18 +916,6 @@ pg.skill_data_display = {
 		id = 10510,
 		name = "Revolyutsiya"
 	},
-	[10520] = {
-		id = 10520,
-		name = "Regular Maintenance"
-	},
-	[10521] = {
-		id = 10521,
-		name = "Regular Maintenance"
-	},
-	[10522] = {
-		id = 10522,
-		name = "Regular Maintenance"
-	},
 	[10530] = {
 		id = 10530,
 		name = "Iron Blood Vanguard"
@@ -1704,10 +1692,6 @@ pg.skill_data_display = {
 		id = 12001,
 		name = "Here to Help"
 	},
-	[12040] = {
-		id = 12040,
-		name = "Whimsical Inventor"
-	},
 	[12041] = {
 		id = 12041,
 		name = "Prototype Type-0 Main Gun"
@@ -1767,10 +1751,6 @@ pg.skill_data_display = {
 	[12100] = {
 		id = 12100,
 		name = "Iron Blood Hatchling"
-	},
-	[12110] = {
-		id = 12110,
-		name = "Draw of Destiny"
 	},
 	[12111] = {
 		id = 12111,
@@ -2340,22 +2320,6 @@ pg.skill_data_display = {
 		id = 12800,
 		name = "Unleashed Tactics"
 	},
-	[12801] = {
-		id = 12801,
-		name = "Unleashed Tactics I"
-	},
-	[12802] = {
-		id = 12802,
-		name = "Unleashed Tactics II"
-	},
-	[12803] = {
-		id = 12803,
-		name = "Unleashed Tactics III"
-	},
-	[12804] = {
-		id = 12804,
-		name = "Unleashed Tactics IV"
-	},
 	[12810] = {
 		id = 12810,
 		name = "Unleashed Tactics"
@@ -2824,6 +2788,34 @@ pg.skill_data_display = {
 		id = 18120,
 		name = "Engine boost +"
 	},
+	[18130] = {
+		id = 18130,
+		name = "No-Fly Zone!+ "
+	},
+	[18131] = {
+		id = 18131,
+		name = "No-Fly Zone!+ "
+	},
+	[18150] = {
+		id = 18150,
+		name = "Iron Sight Caliber+ "
+	},
+	[18180] = {
+		id = 18180,
+		name = "Kitakaze Style - Lotus Torpedoes+ "
+	},
+	[18181] = {
+		id = 18181,
+		name = "Kitakaze Style - Lotus Torpedoes+ "
+	},
+	[18250] = {
+		id = 18250,
+		name = "Emotion Inhibition Module+ "
+	},
+	[18252] = {
+		id = 18252,
+		name = "Emotion Inhibition Module+ "
+	},
 	[19000] = {
 		id = 19000,
 		name = "Siren Killer Ⅰ"
@@ -3008,6 +3000,102 @@ pg.skill_data_display = {
 		id = 19261,
 		name = "Precision Salvo Protocol"
 	},
+	[19262] = {
+		id = 19262,
+		name = "Precision Salvo Protocol"
+	},
+	[19263] = {
+		id = 19263,
+		name = "Precision Salvo Protocol"
+	},
+	[19270] = {
+		id = 19270,
+		name = "Bounce Right Back "
+	},
+	[19271] = {
+		id = 19271,
+		name = "Bounce Right Back "
+	},
+	[19280] = {
+		id = 19280,
+		name = "Grin and fire！"
+	},
+	[19281] = {
+		id = 19281,
+		name = "Grin and fire！"
+	},
+	[19291] = {
+		id = 19291,
+		name = "The Fearless Privateer "
+	},
+	[19300] = {
+		id = 19300,
+		name = "Flintlock Burst "
+	},
+	[19301] = {
+		id = 19301,
+		name = "Flintlock Burst "
+	},
+	[19311] = {
+		id = 19311,
+		name = "Retaliatory Shield "
+	},
+	[19312] = {
+		id = 19312,
+		name = "Retaliatory Shield "
+	},
+	[19320] = {
+		id = 19320,
+		name = "Ausgewogen "
+	},
+	[19321] = {
+		id = 19321,
+		name = "Ausgewogen "
+	},
+	[19322] = {
+		id = 19322,
+		name = "Ausgewogen "
+	},
+	[19330] = {
+		id = 19330,
+		name = "Mímir's Keen Eyes "
+	},
+	[19331] = {
+		id = 19331,
+		name = "Mímir's Keen Eyes "
+	},
+	[19340] = {
+		id = 19340,
+		name = "Herteitr's Rolling Thunder "
+	},
+	[19350] = {
+		id = 19350,
+		name = "Augmenting Mechanism: Setzer Principle "
+	},
+	[19351] = {
+		id = 19351,
+		name = "Augmenting Mechanism: Setzer Principle "
+	},
+	[19352] = {
+		id = 19352,
+		name = "Augmenting Mechanism: Setzer Principle "
+	},
+	[19360] = {
+		id = 19360,
+		name = "Substitute Mechanism: Holy Thurible "
+	},
+	[19361] = {
+		id = 19361,
+		name = "Substitute Mechanism: Holy Thurible "
+	},
+	[19362] = {
+		id = 19362,
+		name = "Substitute Mechanism: Holy Thurible "
+	},
+	[19363] = {
+		id = 19363,
+		name = "Substitute Mechanism: Holy Thurible "
+	},
 	[20011] = {
 		id = 20011,
 		name = "All Out Assault Ⅰ"
@@ -3160,14 +3248,6 @@ pg.skill_data_display = {
 		id = 20272,
 		name = "All Out Assault Ⅱ"
 	},
-	[20311] = {
-		id = 20311,
-		name = "All Out Assault Ⅰ"
-	},
-	[20312] = {
-		id = 20312,
-		name = "All Out Assault Ⅱ"
-	},
 	[21011] = {
 		id = 21011,
 		name = "All Out Assault Ⅰ"
@@ -3295,14 +3375,6 @@ pg.skill_data_display = {
 	[21172] = {
 		id = 21172,
 		name = "All Out Assault: Ceres-Class II"
-	},
-	[21181] = {
-		id = 21181,
-		name = "All Out Assault Ⅰ"
-	},
-	[21182] = {
-		id = 21182,
-		name = "All Out Assault Ⅱ"
 	},
 	[21211] = {
 		id = 21211,
@@ -3514,14 +3586,6 @@ pg.skill_data_display = {
 	},
 	[22262] = {
 		id = 22262,
-		name = "All Out Assault Ⅱ"
-	},
-	[22311] = {
-		id = 22311,
-		name = "All Out Assault Ⅰ"
-	},
-	[22312] = {
-		id = 22312,
 		name = "All Out Assault Ⅱ"
 	},
 	[23011] = {
@@ -3756,22 +3820,6 @@ pg.skill_data_display = {
 		id = 28112,
 		name = "All Out Assault Ⅱ"
 	},
-	[28121] = {
-		id = 28121,
-		name = "All Out Assault Ⅰ"
-	},
-	[28122] = {
-		id = 28122,
-		name = "All Out Assault Ⅱ"
-	},
-	[28211] = {
-		id = 28211,
-		name = "All Out Assault Ⅰ"
-	},
-	[28212] = {
-		id = 28212,
-		name = "All Out Assault Ⅱ"
-	},
 	[29011] = {
 		id = 29011,
 		name = "EX Barrage: England Ⅰ"
@@ -3971,22 +4019,6 @@ pg.skill_data_display = {
 	[29252] = {
 		id = 29252,
 		name = "EX Barrage: Saint Louis Ⅱ"
-	},
-	[29261] = {
-		id = 29261,
-		name = "All Out Assault Ⅰ"
-	},
-	[29262] = {
-		id = 29262,
-		name = "All Out Assault Ⅱ"
-	},
-	[29271] = {
-		id = 29271,
-		name = "All Out Assault Ⅰ"
-	},
-	[29272] = {
-		id = 29272,
-		name = "All Out Assault Ⅱ"
 	},
 	[29281] = {
 		id = 29281,
@@ -4190,6 +4222,30 @@ pg.skill_data_display = {
 	},
 	[29542] = {
 		id = 29542,
+		name = "All Out Assault Ⅱ"
+	},
+	[29551] = {
+		id = 29551,
+		name = "All Out Assault Ⅰ"
+	},
+	[29552] = {
+		id = 29552,
+		name = "All Out Assault Ⅱ"
+	},
+	[29561] = {
+		id = 29561,
+		name = "All Out Assault Ⅰ"
+	},
+	[29562] = {
+		id = 29562,
+		name = "All Out Assault Ⅱ"
+	},
+	[29571] = {
+		id = 29571,
+		name = "All Out Assault Ⅰ"
+	},
+	[29572] = {
+		id = 29572,
 		name = "All Out Assault Ⅱ"
 	},
 	[101010] = {
@@ -4686,9 +4742,6 @@ pg.skill_data_display = {
 		10490,
 		10500,
 		10510,
-		10520,
-		10521,
-		10522,
 		10530,
 		10540,
 		10550,
@@ -4883,7 +4936,6 @@ pg.skill_data_display = {
 		11992,
 		12000,
 		12001,
-		12040,
 		12041,
 		12042,
 		12043,
@@ -4899,7 +4951,6 @@ pg.skill_data_display = {
 		12091,
 		12092,
 		12100,
-		12110,
 		12111,
 		12112,
 		12113,
@@ -5042,10 +5093,6 @@ pg.skill_data_display = {
 		12792,
 		12793,
 		12800,
-		12801,
-		12802,
-		12803,
-		12804,
 		12810,
 		12820,
 		12821,
@@ -5163,6 +5210,13 @@ pg.skill_data_display = {
 		18071,
 		18100,
 		18120,
+		18130,
+		18131,
+		18150,
+		18180,
+		18181,
+		18250,
+		18252,
 		19000,
 		19001,
 		19002,
@@ -5209,6 +5263,30 @@ pg.skill_data_display = {
 		19250,
 		19260,
 		19261,
+		19262,
+		19263,
+		19270,
+		19271,
+		19280,
+		19281,
+		19291,
+		19300,
+		19301,
+		19311,
+		19312,
+		19320,
+		19321,
+		19322,
+		19330,
+		19331,
+		19340,
+		19350,
+		19351,
+		19352,
+		19360,
+		19361,
+		19362,
+		19363,
 		20011,
 		20012,
 		20021,
@@ -5247,8 +5325,6 @@ pg.skill_data_display = {
 		20262,
 		20271,
 		20272,
-		20311,
-		20312,
 		21011,
 		21012,
 		21021,
@@ -5281,8 +5357,6 @@ pg.skill_data_display = {
 		21162,
 		21171,
 		21172,
-		21181,
-		21182,
 		21211,
 		21212,
 		21221,
@@ -5336,8 +5410,6 @@ pg.skill_data_display = {
 		22253,
 		22261,
 		22262,
-		22311,
-		22312,
 		23011,
 		23012,
 		23031,
@@ -5396,10 +5468,6 @@ pg.skill_data_display = {
 		28032,
 		28111,
 		28112,
-		28121,
-		28122,
-		28211,
-		28212,
 		29011,
 		29012,
 		29021,
@@ -5450,10 +5518,6 @@ pg.skill_data_display = {
 		29242,
 		29251,
 		29252,
-		29261,
-		29262,
-		29271,
-		29272,
 		29281,
 		29282,
 		29291,
@@ -5505,6 +5569,12 @@ pg.skill_data_display = {
 		29533,
 		29541,
 		29542,
+		29551,
+		29552,
+		29561,
+		29562,
+		29571,
+		29572,
 		101010,
 		101020,
 		101030,

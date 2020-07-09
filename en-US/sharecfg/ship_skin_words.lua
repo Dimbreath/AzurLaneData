@@ -35394,6 +35394,39 @@ pg.ship_skin_words = {
 		detail = "I've gotta show everyone who walks through these doors how passionate the Eagle Union is about our Christmas celebrations!",
 		couple_encourage = {}
 	},
+	[199013] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		skill = "",
+		drop_descrip = "Supportive sorceress Seattle, comin' in hot! So, something got you down, my good pal? I'm up to talk about whatever's on your mind, but in return, you've gotta come to my party tonight!",
+		mail = "",
+		lose = "",
+		propose = "",
+		hp_warning = "",
+		id = 199013,
+		voice_key = 0,
+		feeling5 = "",
+		main = "nil|nil|nil",
+		voice_key_2 = -1,
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		feeling4 = "",
+		unlock = "",
+		battle = "",
+		login = "",
+		vote = "",
+		detail = "",
+		couple_encourage = {}
+	},
 	[199020] = {
 		touch = "Oooh? You find my guns so appealing, Commander? Enjoy them to your heart's content~",
 		feeling3 = "Sorties and battles really get my blood pumping, but every once in a while it's nice to relax.",
@@ -35798,6 +35831,251 @@ pg.ship_skin_words = {
 		vote = "",
 		detail = "Permission to inspect Gascogne granted.",
 		couple_encourage = {}
+	},
+	[299030] = {
+		touch = "Ahah~♡ What is it, Owner? Come on, I know mew want something just from looking at mew~",
+		feeling3 = "Hey, Owner! I was playing with this Sakura Empire girl earlier, and I got to touch her cat ears! REAL cat ears! Aren't mew jealous? ...What? Mew've done that since ages ago? Hrmph, there goes my brief moment of triumph!",
+		upgrade = "Thank mew, Owner!",
+		expedition = "A commission team's back! Let's head over there and give 'em something to play with!",
+		win_mvp = "We won! See that, Owner? We wooooon! Meoww~!",
+		home = "Weeelcome back, Owner! Are mew okay? Gave the baddies a good beating? Didn't develop a crush on anyone else? Alrighty, then everything's all good!",
+		mission = "There's no mission we can't accomplish with our combined pawers, Owner!",
+		touch2 = "No more surprise touchies! At least tell me when mew're gonna do it!",
+		feeling1 = "Hrmph... Why'd the first love of my life have to be such a disappointment?",
+		skill = "Feel the pawer of love!",
+		drop_descrip = "Heavy cruiser – Cheshire.",
+		mail = "Mew've got mail! I'm curious what it says, so won't mew please let me read it?",
+		lose = "Let's scurry on meowtta here while we still can!",
+		propose = "Now that mew've made it clear how precious I am to mew, I need to respond by saying, \"I love mew, Owner!\" a hundred times or more! Starting right meow! Stay right where mew are until I'm finished! Here we go! I love mew, Owner!",
+		hp_warning = "Meowch! It hurts, but I'm not about to let my owner down!",
+		id = 299030,
+		voice_key = 29903,
+		feeling5 = "If it weren't for mew, I'd never have materialized in this incredible world, never made so many adorable friends, and worst of all, I never would have gotten to experience being in love with mew, Owner! Mew're just perfect, y'know that~? Cuddly wuddly~ I love mew so, so much♡",
+		main = "Hey, Owner, know any funny stories about the Royal Navy? Or any other faction, that's fine! I wanna learn stuff!|I'm not a cat, okay? I'm just as cute as one, but I'm not a genuine paws-and-whiskers cat!|Oh, Master, would you care for some tea~? Hehehe, that was my Royal Maid impression! How was it, Owner?",
+		voice_key_2 = -1,
+		profile = "I'm Cheshire, a heavy cruiser from the Royal Navy! Until I met mew, I was just a stray in the sea of people's imagination! Which is to say, both my body and soul belong to mew, Owner! Squeee~♡",
+		mission_complete = "Mission complete! Don't mew think these tasks are a little too easy for us?",
+		headtouch = "My ears are a detachable hair accessory! Mew try 'em on too, Owner! Just for a quick moment, please, c'meown!",
+		feeling2 = "Where've mew been, Owner? If mew went to do fun stuff without inviting me then I'm gonna be a pouty tabby!",
+		feeling4 = "Is there a whisker of a chance mew'll get fed up with my upbeat displays of love, Owner? If so, I need to double down to make sure that never happens! Lemme give mew a hug~♡",
+		unlock = "Meeeoooow! I haven't slept like that in forever! Hrm? Are mew the one who woke me from my sleep? Woohoo, that makes mew my owner! \"Why?\" Because I've totally fallen for mew, duh!",
+		battle = "What'll it be for dinner today? A plate of purrpedoes, or a bowl of cannonfire?",
+		login = "Mew're back, Owneeeeer! Glomp! Squeeze! Cuddle! Sniff! What, I'm \"overenthusiastic?\" Well, that's just how giddy I get when I see mew, Owner~♡",
+		vote = "",
+		detail = "The reason I adore mew is because animals take the first person they see to be their lover... Uhh, I mean, their parent! Not that that's got to do with anything! Mew're my owner just because, and I love mew just because! It's as simple as that!",
+		couple_encourage = {
+			{
+				{
+					29901
+				},
+				1,
+				"Mew'll put people off if mew try too hard, y'know!",
+				0
+			},
+			{
+				{
+					31201,
+					30116,
+					30113,
+					30121,
+					30126,
+					30163
+				},
+				1,
+				"Yaaay! Can I fluff mew, please?",
+				0
+			},
+			{
+				{
+					20204,
+					20208,
+					20210,
+					20212,
+					20220,
+					20222
+				},
+				1,
+				"I wanna learn more about being a maid!",
+				0
+			},
+			{
+				{
+					19901
+				},
+				1,
+				"Yaaay, it's time to partyyyy!",
+				0
+			}
+		}
+	},
+	[299040] = {
+		touch = "I tend to get along better with people who are straightforward. If there's something you want to say to me, say it clearly.",
+		feeling3 = "Oh right, Commander. Did you have any interest in navigation... or rather, adventure? I've been recruiting mates. If you're interested, let's go look for treasure or uninhabited islands or something!",
+		upgrade = "Now that's the kind of sound I want to hear from my main guns! Ahahaha!",
+		expedition = "Instead of collecting supplies like this, wouldn't it be better to just raid the enemy for... Actually, never mind.",
+		win_mvp = "Victory always leaves you feeling nice and refreshed!",
+		home = "Nice job, Commander. How would you like some fresh... grapes? Hehe, come on~ don't drop 'em!",
+		mission = "Doing mundane tasks is totally not my style. Um... Why don't we check the rewards first?",
+		touch2 = "Huuh? You sure have some guts.",
+		feeling1 = "I am willing to turn a blind eye to a few accidents, but if you keep doing this intentionally, don't expect any mercy from me.",
+		skill = "You won't find any mercy here!",
+		drop_descrip = "Heavy cruiser – Drake.",
+		mail = "Here, a letter for you. Anybody find information on some treasure?",
+		lose = "How humiliating... I'll get you back for this! Just you wait!",
+		propose = "Don't you think it's strange too? This feeling that's not quite 'having my heart stolen' or 'feeling vexed,' but more just... 'feeling embarrassed'? ...Gosh, it's all your fault that I'm not acting like myself! ... But I don't quite hate this feeling either... Well? Do you get what I mean?",
+		hp_warning = "Ugh, they got me!",
+		id = 299040,
+		voice_key = 29904,
+		feeling5 = "I see. So what you're telling me is that it's not the place that matters, but that if I'm with you, anywhere is fine? ... Haha... W-Wait... are you saying...",
+		main = "Basically, ships arm themselves with armor and equipment—in other words, with artillery and torpedoes. Meanwhile, humans arm themselves with courage and intelligence—in other words, with perception and wisdom.|While I don't hate customs and ceremony, I do prefer the simpler things.|The dew-kissed fruit of the morning makes for the best juice. Don't you agree?",
+		voice_key_2 = -1,
+		profile = "I'm the Royal Navy heavy cruiser, Drake. If you weren't aware of my existence before, I'll make sure you know now by showing you the power of my 9.2 inch guns!",
+		mission_complete = "Can't complain about the bounty, but I just feel like there's \"something\" missing.",
+		headtouch = "",
+		feeling2 = "Everything goes on the battlefield. Whether you fight fair-and-square or use backhanded methods, it matters not. History is written by the victors.",
+		feeling4 = "Sure, it's great to travel together and all, but aren't all these places too close by? Port, the surrounding areas, and the nearby ocean... Sigh. Honestly, going to these places doesn't make me excited at all. Next time, I'm taking you somewhere farther away.",
+		unlock = "So you're the Commander? Seems you've got some backbone. I'm the Royal Navy heavy cruiser, Drake, and I'll be joining your fleet. Just making sure, you will deploy me, right?",
+		battle = "Alright, let's do this with fanfare!",
+		login = "You've finally come. What should we start with today? It's great to think about battle plans and all, but how about sending me on a sortie first?",
+		vote = "",
+		detail = "All great odysseys must begin somewhere, but true glory only awaits those who reach their destination... That's why you ought to stay your course until the very end!",
+		couple_encourage = {
+			{
+				{
+					90501
+				},
+				1,
+				"Let's see who's more useful!",
+				0
+			}
+		}
+	},
+	[499030] = {
+		touch = "What's wrong? Do you want me to comfort you?",
+		feeling3 = "If I am lacking in actual battle experience, there is nothing to do but humbly accumulate more. Commander, I won't mince words - please send me out on more battles.",
+		upgrade = "Hm. Let's test this out in a real battle.",
+		expedition = "The girls who went on commissions are returning. I'll be leaving my seat for a bit.",
+		win_mvp = "An expected outcome, given that I am here.",
+		home = "My equipment needs maintenance, too.",
+		mission = "Are you going to neglect all the missions?",
+		touch2 = "Perfect. I can finish testing my guns by firing them at you.",
+		feeling1 = "To think that my first commander would be this pathetic... How depressing.",
+		skill = "Now's the time! Begin firing!",
+		drop_descrip = "Light cruiser – Mainz.",
+		mail = "There's new mail. There's no way you've forgotten, right?",
+		lose = "Hm. I'll consider this as valuable practical experience.",
+		propose = "My existence is no longer just about battle. My life and fate have already been tied to yours. My beloved Commander, I henceforth pledge my heart to you for the rest of eternity.",
+		hp_warning = "Ugh, to think that my equipment wouldn't work...?!",
+		id = 499030,
+		voice_key = 49903,
+		feeling5 = "Commander, I recognize you as the first and last commander I swear my loyalty to... But that's not all. You are the only one I've ever thought I wanted to get closer to.",
+		main = "What do you think you're doing! Adding milk to coffee is nothing short of blasphemy! The same goes for sugar!!!|I can't believe it... though this room is so large, it doesn't even have a coffee maker...!|If only I were constructed in the Great War instead of being incarnated in this form, I wonder how much I would have been able to do... I guess thinking about it doesn't help.",
+		voice_key_2 = -1,
+		profile = "Light cruiser, Mainz. There were plans for me to succeed the Admiral Hipper class, but due to circumstances, I've incarnated in this form. You get the rest without me telling you, right?",
+		mission_complete = "How long... are you planning on ignoring the mission rewards?",
+		headtouch = "",
+		feeling2 = "Because I was born into this world, I shall accomplish something. Otherwise, I wouldn't be able to face those who designed me.",
+		feeling4 = "At one point I fought to prove myself. However, I now fight for your sake. I want to prove to everyone else that you are a sufficiently reliable person.",
+		unlock = "Light cruiser, Mainz. You'll be my first Commander. Hmph. Don't you dare disappoint me.",
+		battle = "Don't get in my way.",
+		login = "Make sure that the wait was worth my time, Commander.",
+		vote = "",
+		detail = "Achievements? ...Let's start racking them up today.",
+		couple_encourage = {
+			{
+				{
+					49901,
+					49902,
+					49904
+				},
+				1,
+				"Witness the true power of the Iron Blood!",
+				0
+			}
+		}
+	},
+	[499040] = {
+		touch = "Yes? Has there been a change of plans?",
+		feeling3 = "Mourn for my fallen comrades? If I were to stop and mourn for every lost soul, I would never win the war.",
+		upgrade = "With strength, one can reduce the number of irregularities in a plan.",
+		expedition = "The commission team has returned. Excellent, exactly as was planned.",
+		win_mvp = "Victory was ours since before the battle began.",
+		home = "Commander, we are in all-out war; we cannot afford to rest.",
+		mission = "You have missions. Leaving them unfinished would be a foolish choice.",
+		touch2 = "Y-you will hear from me at the court martial!",
+		feeling1 = "I am not even disappointed, I simply wonder how someone as lousy as you became a commander in the first place.",
+		skill = "You wasted your last chance to turn back!",
+		drop_descrip = "Battlecruiser – Odin.",
+		mail = "Mail has arrived. Could it be new intelligence?",
+		lose = "Impossible... My plan should have been flawless...!",
+		propose = "Understood. I shall continue to provide assistance for you, whenever– Hey, wait a minute... Th-this isn't what you said would happen! ...No, that's not to say I oppose this! I just wasn't... mentally prepared... What I'm getting at is: give me a moment to think!",
+		hp_warning = "Carry out emergency damage control plan!",
+		id = 499040,
+		voice_key = 49904,
+		feeling5 = "I do not approve of being reliant on someone. Excessive intimacy is a hindrance in war, clouding one's judgment and forming obstacles to one's plans... Ah, I can't believe what I'm saying...",
+		main = "One day, I hope to meet the Scharnhorst sisters myself.|Sometimes, things don't go as planned. You must think carefully before committing yourself to anything, Commander.|Don't blame others over things that are out of their control. Nobody can predict the future.",
+		voice_key_2 = -1,
+		profile = "I am the battleship Odin. I existed only within the realm of the Iron Blood navy's imagination. Destiny has brought me here to serve under you and assist in the realization of your goals.",
+		mission_complete = "Mission successful. Let us get started on the next one, Commander.",
+		headtouch = "",
+		feeling2 = "Names and titles are no proof of strength, that much is true. But that is fine. As time passes, you learn how futile your concerns are.",
+		feeling4 = "We make a fine pair, both in the office and the war room. But that can backfire, as I may end up becoming reliant on you...",
+		unlock = "Are you the one who summoned me here? I am Odin. I hereby take up post as your tactician.",
+		battle = "Flee while you still can.",
+		login = "Excellent, you're back. Have you finished work our next plan yet, Commander?",
+		vote = "",
+		detail = "I don't understand. Why are all the people at this base so at ease?",
+		couple_encourage = {}
+	},
+	[899020] = {
+		touch = "The warmth and sensation of being touched... How exceedingly difficult to forget.",
+		feeling3 = "Trees bury their roots deep into the ground to avoid being blown away, and fish swim upstream to propagate their kind. Though they know they are fated to return to nothingness, living things defy their circumstances to the best of their ability.",
+		upgrade = "Even the most polished blade must eventually rot. That is to say, there is no point in chasing power.",
+		expedition = "The birds' clarion call... It seems that our comrades have returned to us.",
+		win_mvp = "I ensure that missions sown shall bear rich fruit.",
+		home = "Immerse yourself in the liberating quintessence of wine, for the mind requires reprieve. Man is naught without repose.",
+		mission = "The falcon that spreads not its wings cannot reach the sky. The ship that rows not its oars cannot not reach the other shore.",
+		touch2 = "Though your transgression may be slight, such conduct may turn others away from you.",
+		feeling1 = "The hope you brought was but a false light. Why, Commander, must you torment me so?",
+		skill = "Sleep in the blue depths of the ocean...",
+		drop_descrip = "Battleship – Champagne.",
+		mail = "A notice has arrived. Is it a joyous one, or is it a tragic one? Is it a desirable one, or a hateful one?",
+		lose = "Our true destination still awaits.",
+		propose = "Even if words stop existing, I will still listen to your voice. Even if the world loses its radiance, I will still look into your eyes. There is nothing in this world that can erase your existence from my heart. The warmth I've received from you, I shall repay with my eternal protection... These are my true feelings.",
+		hp_warning = "These scars will become my aegis.",
+		id = 899020,
+		voice_key = 89902,
+		feeling5 = "If those who are powerless resist fate, those with power cannot stand by and do nothing. Commander, your radiance, warmth, and affection—in order to protect all of this, I offer up my body and swear my love.",
+		main = "Commander, art thou pondering the meaning of life? Or perhaps...|The ebb and flow of tides are natural phenomena, and so are the flowing fates of humankind.|\"Live, together with the fleet.\" Understood. I have received my newest directive from the Commander.",
+		voice_key_2 = -1,
+		profile = "Never have I received orders, nor have I ever accomplished anything. I am merely a blank slate—existing simply to become the delectable champagne presented to thee, the victor.",
+		mission_complete = "Only for the gardener whose blood nurtures the soil can the iris bloom in triumphant beauty.",
+		headtouch = "",
+		feeling2 = "This world is the surface of a calm lake— Disturbances may mar the waters with ripples, but peace must return in time.",
+		feeling4 = "Commander, there is no way for you to wear the rigging—armor, main guns, and torpedoes—that is required to defend the fleet. As I am a ship, I will take on the mission to protect you.",
+		unlock = "I am the personification of Champagne, part of the Iris Libre. Commander, please give me an order—a reason to exist.",
+		battle = "Devote thyself not to the fleet― for that is my solemn charge.",
+		login = "Your orders, Commander. Whatever your will may be, I shall usher into reality.",
+		vote = "",
+		detail = "Whether your ambitions leads you into the wilderness of unparalleled achievements, the lofty spires of world domination, or the gardens of peaceful sanctuary, command me as would best serve your will.",
+		couple_encourage = {
+			{
+				{
+					40146
+				},
+				1,
+				"Let us open our eyes to this colorful world.",
+				0
+			},
+			{
+				{
+					99901
+				},
+				1,
+				"Let us harken, for the world speaks.",
+				0
+			}
+		}
 	},
 	all = {
 		100000,
@@ -36732,6 +37010,7 @@ pg.ship_skin_words = {
 		199010,
 		199011,
 		199012,
+		199013,
 		199020,
 		199022,
 		399030,
@@ -36742,6 +37021,11 @@ pg.ship_skin_words = {
 		499021,
 		499028,
 		999010,
-		999011
+		999011,
+		299030,
+		299040,
+		499030,
+		499040,
+		899020
 	}
 }

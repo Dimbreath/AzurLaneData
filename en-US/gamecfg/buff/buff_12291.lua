@@ -261,7 +261,7 @@ return {
 	},
 	desc_get = "",
 	name = "安全第一！",
-	init_effect = "jinengchufared",
+	init_effect = "jinengchufablue",
 	id = 12291,
 	time = 0,
 	picture = "",
@@ -271,9 +271,9 @@ return {
 	icon = 12290,
 	last_effect = "",
 	blink = {
+		0,
+		0.7,
 		1,
-		0,
-		0,
 		0.3,
 		0.3
 	},

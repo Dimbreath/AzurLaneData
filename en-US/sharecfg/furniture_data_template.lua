@@ -2501,7 +2501,9 @@ pg.furniture_data_template = {
 				{
 					202153
 				},
-				"fengcha"
+				"fengcha",
+				1,
+				1
 			}
 		},
 		animator = {
@@ -41091,7 +41093,9 @@ pg.furniture_data_template = {
 				{
 					405010
 				},
-				"BSMjiangtai"
+				"BSMjiangtai",
+				1,
+				1
 			}
 		},
 		animator = {

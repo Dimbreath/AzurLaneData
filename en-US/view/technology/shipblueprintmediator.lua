@@ -1,4 +1,5 @@
 slot0 = class("ShipBluePrintMediator", import("..base.ContextMediator"))
+slot0.ON_CLICK_SPEEDUP_BTN = "ShipBluePrintMediator:ON_CLICK_SPEEDUP_BTN"
 slot0.ON_START = "ShipBluePrintMediator:ON_START"
 slot0.ON_FINISHED = "ShipBluePrintMediator:ON_FINISHED"
 slot0.ON_FINISH_TASK = "ShipBluePrintMediator:ON_FINISH_TASK"
@@ -17,6 +18,12 @@ function slot0.register(slot0)
 		slot0.contextData.shipBluePrintVO = slot1:getBluePrintById(slot0.contextData.shipGroupId)
 	end
 
+	slot0:bind(uv0.ON_CLICK_SPEEDUP_BTN, function ()
+		uv0:addSubLayers(Context.New({
+			viewComponent = TecSpeedUpLayer,
+			mediator = TecSpeedUpMediator
+		}))
+	end)
 	slot0:bind(uv0.ON_MAIN, function ()
 		if getProxy(ContextProxy):getContextByMediator(EquipmentMediator) and slot1:getContextByMediator(ItemInfoMediator) then
 			slot1:removeChild(slot2)

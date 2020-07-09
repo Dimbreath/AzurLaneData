@@ -98,7 +98,7 @@ function slot4.setArrowPoint(slot0)
 	slot0._arrowRightHorizon = slot0._arrowRightTopPos.x + 4
 	slot0._arrowTopHorizon = slot0._arrowRightTopPos.y + 4
 	slot0._arrowBottomHorizon = slot0._arrowLeftBottomPos.y - 4
-	slot0._arrowLeftHorizon = slot0._arrowLeftBottomPos.x - 4
+	slot0._arrowLeftHorizon = slot0._arrowLeftBottomPos.x - 3.75
 end
 
 function slot4.Update(slot0)

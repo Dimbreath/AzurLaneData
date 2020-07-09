@@ -1,10 +1,10 @@
 return {
 	uiEffect = "",
-	name = "奥古喵：战列命中提高",
+	name = "奥古喵：2",
 	cd = 0,
 	picture = "0",
 	aniEffect = "",
-	desc = "奥古喵：战列命中提高",
+	desc = "奥古喵：2",
 	painting = 1,
 	id = 40220,
 	effect_list = {

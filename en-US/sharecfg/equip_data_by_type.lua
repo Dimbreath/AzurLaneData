@@ -5,6 +5,7 @@ pg.equip_data_by_type = {
 		type_name = "Artillery",
 		equip_skin = 1,
 		equip_type = 1,
+		compare_group = 1,
 		type_name2 = "Artillery (Destroyer)"
 	},
 	{
@@ -12,6 +13,7 @@ pg.equip_data_by_type = {
 		type_name = "Artillery",
 		equip_skin = 1,
 		equip_type = 2,
+		compare_group = 1,
 		type_name2 = "Artillery (Light Cruiser)"
 	},
 	{
@@ -19,6 +21,7 @@ pg.equip_data_by_type = {
 		type_name = "Artillery",
 		equip_skin = 1,
 		equip_type = 3,
+		compare_group = 1,
 		type_name2 = "Artillery (Heavy Cruiser)"
 	},
 	{
@@ -26,6 +29,7 @@ pg.equip_data_by_type = {
 		type_name = "Artillery",
 		equip_skin = 1,
 		equip_type = 4,
+		compare_group = 1,
 		type_name2 = "Artillery (Battleship)"
 	},
 	{
@@ -33,6 +37,7 @@ pg.equip_data_by_type = {
 		type_name = "Torpedo",
 		equip_skin = 1,
 		equip_type = 5,
+		compare_group = 2,
 		type_name2 = "Torpedo"
 	},
 	{
@@ -40,6 +45,7 @@ pg.equip_data_by_type = {
 		type_name = "Anti-Air Gun",
 		equip_skin = 0,
 		equip_type = 6,
+		compare_group = 3,
 		type_name2 = "Anti-Air Gun"
 	},
 	{
@@ -47,6 +53,7 @@ pg.equip_data_by_type = {
 		type_name = "Fighter",
 		equip_skin = 1,
 		equip_type = 7,
+		compare_group = 4,
 		type_name2 = "Fighter"
 	},
 	{
@@ -54,6 +61,7 @@ pg.equip_data_by_type = {
 		type_name = "Torpedo Bomber",
 		equip_skin = 1,
 		equip_type = 8,
+		compare_group = 4,
 		type_name2 = "Torpedo Bomber"
 	},
 	{
@@ -61,13 +69,15 @@ pg.equip_data_by_type = {
 		type_name = "Dive Bomber",
 		equip_skin = 1,
 		equip_type = 9,
+		compare_group = 4,
 		type_name2 = "Dive Bomber"
 	},
 	{
 		distory_resource_gold_ratio = 2,
 		type_name = "Auxiliary",
-		equip_skin = 0,
+		equip_skin = 1,
 		equip_type = 10,
+		compare_group = 5,
 		type_name2 = "Auxiliary"
 	},
 	{
@@ -75,6 +85,7 @@ pg.equip_data_by_type = {
 		type_name = "Artillery",
 		equip_skin = 1,
 		equip_type = 11,
+		compare_group = 1,
 		type_name2 = "Artillery (Pocket Battleship)"
 	},
 	{
@@ -82,6 +93,7 @@ pg.equip_data_by_type = {
 		type_name = "Reconnaissance",
 		equip_skin = 1,
 		equip_type = 12,
+		compare_group = 5,
 		type_name2 = "Reconnaissance"
 	},
 	{
@@ -89,6 +101,7 @@ pg.equip_data_by_type = {
 		type_name = "Torpedo",
 		equip_skin = 1,
 		equip_type = 13,
+		compare_group = 6,
 		type_name2 = "Torpedo (Submarine)"
 	},
 	{
@@ -96,6 +109,7 @@ pg.equip_data_by_type = {
 		type_name = "Auxiliary",
 		equip_skin = 1,
 		equip_type = 14,
+		compare_group = 5,
 		type_name2 = "Auxiliary"
 	},
 	{
@@ -103,6 +117,7 @@ pg.equip_data_by_type = {
 		type_name = "Anti-submarine aircraft",
 		equip_skin = 1,
 		equip_type = 15,
+		compare_group = 5,
 		type_name2 = "Anti-submarine aircraft"
 	},
 	[17] = {
@@ -110,6 +125,7 @@ pg.equip_data_by_type = {
 		type_name = "Helicopter",
 		equip_skin = 1,
 		equip_type = 17,
+		compare_group = 5,
 		type_name2 = "Helicopter"
 	},
 	all = {

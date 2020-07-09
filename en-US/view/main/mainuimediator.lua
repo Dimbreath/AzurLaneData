@@ -901,9 +901,13 @@ function slot0.handleEnterMainUI(slot0)
 				onNextTick(uv0)
 			end)
 			coroutine.yield()
-			filterCharForiOS()
 
-			if #getProxy(ServerNoticeProxy):getServerNotices(false) > 0 and slot3:needAutoOpen() then
+			slot4 = getProxy(ServerNoticeProxy):getServerNotices(false)
+
+			filterCharForiOS(slot4)
+			filteAndDelTest(slot4)
+
+			if #slot4 > 0 and slot3:needAutoOpen() then
 				uv0:addSubLayers(Context.New({
 					mediator = BulletinBoardMediator,
 					viewComponent = BulletinBoardLayer

@@ -6688,6 +6688,50 @@ pg.memory_template = {
 		icon = "memory_jhluyijiushi",
 		is_open = 0
 	},
+	[722] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Kitakaze's New Journey ",
+		condition = "Get Kitakaze to Dev. Level 30.",
+		story = "LUCK39903",
+		id = 722,
+		icon = "memory_jhbeifeng",
+		is_open = 0
+	},
+	[725] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Gascogne's New Journey",
+		condition = "Get Gascogne to Dev. Level 30.",
+		story = "LUCK99901",
+		id = 725,
+		icon = "memory_jhjiasikenie",
+		is_open = 0
+	},
+	[726] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Georgia's New Journey",
+		condition = "Get Georgia to Dev. Level 30.",
+		story = "LUCK19902",
+		id = 726,
+		icon = "memory_jhzuozhiya",
+		is_open = 0
+	},
+	[727] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Seattle's New Journey",
+		condition = "Get Seattle to Dev. Level 30.",
+		story = "LUCK19901",
+		id = 727,
+		icon = "memory_jhxiyatu",
+		is_open = 0
+	},
 	[728] = {
 		mask = "bg/bg_story_ailevel",
 		subtitle = "",
@@ -13237,6 +13281,10 @@ pg.memory_template = {
 		719,
 		720,
 		721,
+		722,
+		725,
+		726,
+		727,
 		728,
 		729,
 		730,

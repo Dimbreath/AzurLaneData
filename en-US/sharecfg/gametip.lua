@@ -763,7 +763,7 @@ pg.gametip = {
 		tip = "Aircraft"
 	},
 	word_sub_cannons = {
-		tip = "Auxiliary Gun"
+		tip = "Secondary Gun "
 	},
 	word_sub_weapons = {
 		tip = "Auxiliary Weapon"
@@ -6999,7 +6999,7 @@ Combat Details:
 		tip = "Z18, Le Téméraire, Little Bel and others are added to standard build pool! "
 	},
 	buildship_special_tip = {
-		tip = "Shangri-La, Essex added to standard build pool! "
+		tip = "Shangri-La, Essex and others are added to standard build pool! "
 	},
 	world_log_1 = {
 		tip = "Mission [$task] complete."
@@ -7055,19 +7055,36 @@ Combat Details:
 	newplayer_help_tip = {
 		tip = {
 			{
-				info = "<size=23>Seaman Recruit activities description：</size>"
+				info = "Rookie Missions Info:"
 			},
 			{
-				info = " \n 1. There is no time-limit for this event；"
+				info = [[
+With the addition of PR Series 3, a new set of
+Development Missions aimed at new players has been added.
+Upon reaching Level 30, the Development tab will be
+unlocked in the Rookie Missions tab.
+ Tap on the tab to complete Development-related missions.]]
 			},
 			{
-				info = " 2. Unlock challenge mission after completing all missions \n in current stage；"
+				info = [[
+After completing the Development Missions, you will
+unlock the ability to research PR Series 1 ships and
+earn Combat Data Packs that can accelerate the
+research process.
+Combat Data Packs can be converted into EXP that
+counts towards Combat Data Collection.]]
 			},
 			{
-				info = " 3. Unlock the next mission stage after completing the \n challenge mission；"
+				info = "Details:"
 			},
 			{
-				info = " 4. After completing all missions, the event is closed；"
+				info = [[
+1. These missions have unlimited duration.
+2. Complete all beginner, intermediate, and advanced
+missions to unlock challenge missions.
+3. Complete all challenge missions to advance to the next phase.
+4. After completing all missions, the Rookie Missions tab will
+disappear.]]
 			}
 		}
 	},
@@ -7094,6 +7111,9 @@ Combat Details:
 	},
 	newplayer_notice_8 = {
 		tip = "Commander, welcome to Azur Lane! Let’s report to boot camp, now!"
+	},
+	tec_notice_1 = {
+		tip = "Unlocked by completing all PR1 catch-up missions. "
 	},
 	apply_permission_camera_tip1 = {
 		tip = "To use AR recording game feature, need to grant permission to access recording function."
@@ -8079,55 +8099,95 @@ About Tech Points:
 		tip = "Research Progress: "
 	},
 	blueprint_simulation_confirm = {
-		tip = "Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent."
+		tip = "Would you like to start a Battle Simulation?<color=#ff5c5c> Note:the ship's stats and abilities may differ from its fully developed equivalent.</color>"
 	},
 	blueprint_simulation_confirm_19901 = {
 		tip = [[
-<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.
-Equipped gear:
+<size=28>Would you like to start a Battle Simulation?<color=#ff5c5c> Note: the ship's stats and abilities may differ from its fully developed equivalent.</color>
+Equipped gear:<color=#92fc63>
 Prototype Triple 152mm Main Gun (DP MK17)
 Prototype Triple 152mm Main Gun (DP MK17)
-Quadruple 40mm Bofors Gun</size>]]
+Quadruple 40mm Bofors Gun</color></size>]]
 	},
 	blueprint_simulation_confirm_19902 = {
 		tip = [[
-<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.
-Equipped gear:
+<size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the ship's stats and abilities may differ from its fully developed equivalent.</color>
+Equipped gear:<color=#92fc63>
 Prototype Twin 457mm Main Gun (18" MKA)
 Twin 127mm MK12 Dual Gun
-Quadruple 40mm Bofors Gun</size>]]
+Quadruple 40mm Bofors Gun</color></size>]]
 	},
 	blueprint_simulation_confirm_39903 = {
 		tip = [[
-<size=28>Would you like to start a Battle Simulation? Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.
-Equipped gear:
+<size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>
+Equipped gear:<color=#92fc63>
 Twin 100mm (Type 98) AA Gun
 Quadruple 610mm Torpedo
-Prototype 40mm AA Gun (Type 5)</size>]]
+Prototype 40mm AA Gun (Type 5)</color></size>]]
 	},
 	blueprint_simulation_confirm_39904 = {
 		tip = [[
-<size=28>Would you like to start a Battle Simulation? Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.
-Equipped gear:
+<size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>
+Equipped gear:<color=#92fc63>
 Prototype Triple 310mm Main Gun (Type 0)
 Twin 100mm (Type 98) AA Gun
-Prototype 40mm AA Gun (Type 5)</size>]]
+Prototype 40mm AA Gun (Type 5)</color></size>]]
 	},
 	blueprint_simulation_confirm_49902 = {
 		tip = [[
-<size=28>Would you like to start a Battle Simulation? Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.
-Equipped gear:
+<size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>
+Equipped gear:<color=#92fc63>
 Prototype Twin 406mm Main Gun (SK C/34)
 Twin 150mm Main Gun (TbtsK C/36)
-Twin 105mm AA Gun (SK C)</size>]]
+Twin 105mm AA Gun (SK C)</color></size>]]
 	},
 	blueprint_simulation_confirm_99901 = {
 		tip = [[
-<size=28>Would you like to start a Battle Simulation? Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.
-Equipped gear:
+<size=28>Would you like to start a Battle Simulation? <color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.</color>
+Equipped gear:<color=#92fc63>
 Quadruple 380mm Main Gun (Mle 1935)
 Triple 152mm Main Gun (Mle 1930)
-Twin 37mm AA Gun (Mle 1936)</size>]]
+Twin 37mm AA Gun (Mle 1936)</color></size>]]
+	},
+	blueprint_simulation_confirm_29903 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.
+Equipped gear:<color=#92fc63>
+Prototype Twin 234mm Main Gun (9.2" MK XII)
+Quadruple 533mm Torpedo
+Twin 40mm Bofors STAAG</color></size>]]
+	},
+	blueprint_simulation_confirm_29904 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.
+Equipped gear:<color=#92fc63>
+Prototype Triple 234mm Main Gun (9.2" MK XII)
+Quadruple 533mm Torpedo
+Sextuple Bofors 40mm AA Gun</color></size>]]
+	},
+	blueprint_simulation_confirm_49903 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.
+Equipped gear:<color=#92fc63>
+Triple 150mm Main Gun (SK C/25) 
+Quadruple 533mm Magnetic Torpedo
+Twin 105mm AA Gun (SK C)</color></size>]]
+	},
+	blueprint_simulation_confirm_49904 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.
+Equipped gear:<color=#92fc63>
+Prototype Triple 305mm Main Gun (SK C/39) 
+Quadruple 533mm Magnetic Torpedo
+Twin 105mm AA Gun (SK C)</color></size>]]
+	},
+	blueprint_simulation_confirm_89902 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.
+Equipped gear:<color=#92fc63>
+Prototype Triple 406mm/50 Main Gun 
+Triple 152mm Main Gun (Mle 1930)
+Twin 37mm AA Gun (Mle 1936)</color></size>]]
 	},
 	electrotherapy_wanning = {
 		tip = "The electrified area is about to expand"
@@ -10295,15 +10355,6 @@ any Credits, or give any rewards.]]
 	backyard_theme_inform_them = {
 		tip = "\nLoadout ID: $1"
 	},
-	sort_default = {
-		tip = "Default"
-	},
-	sort_time = {
-		tip = "Time"
-	},
-	sort_like = {
-		tip = "Popularity"
-	},
 	open_backyard_theme_template_tip = {
 		tip = "Furniture loadout templates are now available!"
 	},
@@ -10456,5 +10507,175 @@ any Credits, or give any rewards.]]
 	},
 	re_battle = {
 		tip = "Retry "
+	},
+	keep_fate_tip = {
+		tip = "Reserve Blueprints required for <color=#92fc63>Fate Simulation</color>"
+	},
+	equip_info_1 = {
+		tip = "DMG"
+	},
+	equip_info_2 = {
+		tip = "Base RoF"
+	},
+	equip_info_3 = {
+		tip = "Effective RoF"
+	},
+	equip_info_4 = {
+		tip = "Skill"
+	},
+	equip_info_5 = {
+		tip = "Ammo Type"
+	},
+	equip_info_6 = {
+		tip = "Shell Velocity"
+	},
+	equip_info_7 = {
+		tip = "Torp Speed"
+	},
+	equip_info_8 = {
+		tip = "Armor Mod."
+	},
+	equip_info_9 = {
+		tip = "Area of Effect"
+	},
+	equip_info_10 = {
+		tip = "AA Range"
+	},
+	equip_info_11 = {
+		tip = "AA Angle"
+	},
+	equip_info_12 = {
+		tip = "Spread Range"
+	},
+	equip_info_13 = {
+		tip = "Specialty"
+	},
+	equip_info_14 = {
+		tip = "Gear Properties"
+	},
+	equip_info_15 = {
+		tip = "Eff. Range"
+	},
+	equip_info_16 = {
+		tip = "Firing Angle"
+	},
+	equip_info_17 = {
+		tip = "Shell Range"
+	},
+	equip_info_18 = {
+		tip = "Spread Angle"
+	},
+	equip_info_19 = {
+		tip = "Faction"
+	},
+	equip_info_20 = {
+		tip = "Plane Speed"
+	},
+	equip_info_21 = {
+		tip = "Plane HP"
+	},
+	equip_info_22 = {
+		tip = "Max Plane Eva."
+	},
+	equip_info_23 = {
+		tip = "Equippable by"
+	},
+	equip_info_24 = {
+		tip = "Armaments"
+	},
+	tec_settings_btn_word = {
+		tip = "Research Focus"
+	},
+	tec_tendency_0 = {
+		tip = "No Focus"
+	},
+	tec_tendency_1 = {
+		tip = "PR1 Focus"
+	},
+	tec_tendency_2 = {
+		tip = "PR2 Focus"
+	},
+	tec_tendency_3 = {
+		tip = "PR3 Focus"
+	},
+	tec_tendency_cur_0 = {
+		tip = "Research Focus /No Focus "
+	},
+	tec_tendency_cur_1 = {
+		tip = "Research Focus / Series 1"
+	},
+	tec_tendency_cur_2 = {
+		tip = "Research Focus / Series 2"
+	},
+	tec_tendency_cur_3 = {
+		tip = "Research Focus / Series 3"
+	},
+	tec_target_catchup_none = {
+		tip = "Catch-Up / Not Selected"
+	},
+	tec_target_catchup_selected = {
+		tip = "Catch-Up"
+	},
+	tec_target_need_print = {
+		tip = "Required BPs:"
+	},
+	tec_target_catchup_progress = {
+		tip = "Progress"
+	},
+	tec_target_catchup_select_tip = {
+		tip = "Would you like to prioritize $1 Research?"
+	},
+	tec_target_catchup_help_tip = {
+		tip = {
+			{
+				info = "Regarding Research Catch-Up:"
+			},
+			{
+				info = [[
+The Research Catch-Up system allows you to choose
+a PR ship for accelerated research. When completing
+research projects, you may earn bonus Blueprints for
+that selected ship.]]
+			},
+			{
+				info = "Details:"
+			},
+			{
+				info = [[
+-To activate Research Catch-Up, select a ship under the
+”Catch-Up” screen. Only one ship may be selected at a
+time, but you can change the research target anytime.
+-When completing a research project, you will be able to
+obtain bonus Blueprints for the selected Catch-Up ship.
+-The total number of Blueprints that may be earned from
+the Catch-Up system for any PR Series is 300.
+]]
+			},
+			{
+				info = [[
+*For example, a total of 300 Blueprints may be earned
+for the 5 PR Series 1 ships, in any combination.
+*In addition to the Catch-Up system, there may be future
+events that further increase the Blueprints you can earn.]]
+			}
+		}
+	},
+	tec_speedup_title = {
+		tip = "Accelerated Research "
+	},
+	tec_speedup_progress = {
+		tip = "$10K/$20K "
+	},
+	tec_speedup_overflow = {
+		tip = "$1 excess EXP from this Data Pack will not be converted. Are you sure you want to use this Data Pack?"
+	},
+	tec_speedup_help_tip = {
+		tip = "Accelerated Research allows you to convert Combat Data Packs into EXP progress towards Combat Data Collection Research missions.\nCombat Data Packs can be obtained through special missions."
+	},
+	click_back_tip = {
+		tip = "Tap to Return "
+	},
+	tech_catchup_sentence_pauses = {
+		tip = "—"
 	}
 }

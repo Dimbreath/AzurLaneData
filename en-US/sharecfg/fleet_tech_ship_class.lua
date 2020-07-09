@@ -779,6 +779,28 @@ pg.fleet_tech_ship_class = {
 			20308
 		}
 	},
+	[20305] = {
+		shiptype = 3,
+		name = "Cheshire-Class",
+		t_level = 8,
+		id = 20305,
+		t_level_1 = 57,
+		nation = 2,
+		ships = {
+			29903
+		}
+	},
+	[20306] = {
+		shiptype = 3,
+		name = "Drake-Class",
+		t_level = 9,
+		id = 20306,
+		t_level_1 = 58,
+		nation = 2,
+		ships = {
+			29904
+		}
+	},
 	[20401] = {
 		shiptype = 4,
 		name = "Renown-Class",
@@ -1606,6 +1628,17 @@ pg.fleet_tech_ship_class = {
 			40204
 		}
 	},
+	[40203] = {
+		shiptype = 2,
+		name = "Mainz-Class",
+		t_level = 8,
+		id = 40203,
+		t_level_1 = 120,
+		nation = 4,
+		ships = {
+			49903
+		}
+	},
 	[40301] = {
 		shiptype = 3,
 		name = "Admiral Hipper-Class",
@@ -1651,6 +1684,17 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			40401,
 			40402
+		}
+	},
+	[40402] = {
+		shiptype = 4,
+		name = "Odin-Class",
+		t_level = 8,
+		id = 40402,
+		t_level_1 = 124,
+		nation = 4,
+		ships = {
+			49904
 		}
 	},
 	[40501] = {
@@ -1994,6 +2038,17 @@ pg.fleet_tech_ship_class = {
 			80501
 		}
 	},
+	[80502] = {
+		shiptype = 5,
+		name = "Champagne-Class",
+		t_level = 9,
+		id = 80502,
+		t_level_1 = 140,
+		nation = 8,
+		ships = {
+			89902
+		}
+	},
 	[80701] = {
 		shiptype = 7,
 		name = "Béarn",
@@ -2158,6 +2213,8 @@ pg.fleet_tech_ship_class = {
 		20302,
 		20303,
 		20304,
+		20305,
+		20306,
 		20401,
 		20402,
 		20501,
@@ -2226,10 +2283,12 @@ pg.fleet_tech_ship_class = {
 		40105,
 		40201,
 		40202,
+		40203,
 		40301,
 		40302,
 		40303,
 		40401,
+		40402,
 		40501,
 		40502,
 		40701,
@@ -2260,6 +2319,7 @@ pg.fleet_tech_ship_class = {
 		80202,
 		80301,
 		80501,
+		80502,
 		80701,
 		80801,
 		90101,

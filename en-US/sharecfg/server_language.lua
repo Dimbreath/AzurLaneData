@@ -34,7 +34,7 @@ pg.server_language = {
 	},
 	{
 		id = 9,
-		content = "Most battleships come equipped with a 140mm auxiliary gun."
+		content = "Most battleships come equipped with a 140mm Secondary Gun."
 	},
 	{
 		id = 10,

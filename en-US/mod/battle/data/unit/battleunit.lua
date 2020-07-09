@@ -739,6 +739,10 @@ function slot9.GetPosition(slot0)
 	return slot0._move:GetPos()
 end
 
+function slot9.GetBornPosition(slot0)
+	return slot0._bornPos
+end
+
 function slot9.GetCLDCenterPosition(slot0)
 	if slot0._centerFrame ~= slot0._battleProxy.FrameIndex then
 		slot0._centerFrame = slot1
@@ -795,6 +799,10 @@ end
 
 function slot9.GetDirection(slot0)
 	return slot0._dir
+end
+
+function slot9.SetBornPosition(slot0, slot1)
+	slot0._bornPos = slot1
 end
 
 function slot9.SetPosition(slot0, slot1)

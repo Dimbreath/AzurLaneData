@@ -17,6 +17,21 @@ slot0.ChaoXun = 18
 slot0.YuLeiTing = 14
 slot0.JinBi = 15
 slot0.ZiBao = 16
+slot0.AllShipType = {
+	1,
+	2,
+	3,
+	18,
+	4,
+	5,
+	6,
+	7,
+	10,
+	17,
+	13,
+	8,
+	12
+}
 
 function slot0.Type2Name(slot0)
 	return pg.ship_data_by_type[slot0].type_name
@@ -86,12 +101,12 @@ function slot0.Type2CNLabel(slot0)
 			"label_5",
 			"label_6",
 			"label_7",
-			"label_8",
+			"label_19",
 			"label_3",
 			"label_10",
 			"label_3",
-			"label_1",
-			"label_3",
+			"label_20",
+			"label_21",
 			"label_1",
 			"label_1",
 			"label_1",

@@ -289,11 +289,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	{
-		display = "T3 Single 102mm Auxiliary Gun Design",
+		display = "T3 Single 102mm Secondary Gun Design",
 		rarity = 2,
 		type = 9,
 		drop_oil_max = 0,
-		name = "T3 Single 102mm Auxiliary Gun Design",
+		name = "T3 Single 102mm Secondary Gun Design",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -307,11 +307,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	{
-		display = "T3 Twin 102mm Auxiliary Gun Design",
+		display = "T3 Twin 102mm Secondary Gun Design",
 		rarity = 2,
 		type = 9,
 		drop_oil_max = 0,
-		name = "T3 Twin 102mm Auxiliary Gun Design",
+		name = "T3 Twin 102mm Secondary Gun Design",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -343,11 +343,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	{
-		display = "T3 Single 152mm Auxiliary Gun Design",
+		display = "T3 Single 152mm Secondary Gun Design",
 		rarity = 2,
 		type = 9,
 		drop_oil_max = 0,
-		name = "T3 Single 152mm Auxiliary Gun Design",
+		name = "T3 Single 152mm Secondary Gun Design",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -2197,11 +2197,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[10034] = {
-		display = "T3 Triple 102mm Auxiliary Gun Design",
+		display = "T3 Triple 102mm Secondary Gun Design",
 		rarity = 3,
 		type = 9,
 		drop_oil_max = 0,
-		name = "T3 Triple 102mm Auxiliary Gun Design",
+		name = "T3 Triple 102mm Secondary Gun Design",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -4698,6 +4698,132 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[13018] = {
+		display = "Prototype Twin 234mm Main Gun (9.2\" MK XII) T0 Design",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "Prototype Twin 234mm Main Gun (9.2\" MK XII) T0 Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13018,
+		icon = "Equips/23100",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13019] = {
+		display = "Prototype Triple 234mm Main Gun (9.2\" MK XII) T0 Design",
+		rarity = 5,
+		type = 9,
+		drop_oil_max = 0,
+		name = "Prototype Triple 234mm Main Gun (9.2\" MK XII) T0 Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13019,
+		icon = "Equips/23120",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13020] = {
+		display = "Twin 114mm DP (4.5\" MK IV) T0 Design",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "Twin 114mm DP (4.5\" MK IV) T0 Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13020,
+		icon = "Equips/21600",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13021] = {
+		display = "Sextuple Bofors 40mm AA Gun T0 Design",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "Sextuple Bofors 40mm AA Gun T0 Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13021,
+		icon = "Equips/26660",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13022] = {
+		display = "Prototype Triple 305mm Main Gun (SK C/39) T0 Design",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "Prototype Triple 305mm Main Gun (SK C/39) T0 Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13022,
+		icon = "Equips/44300",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13023] = {
+		display = "Prototype Triple 406mm/50 Main Gun T0 Design",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "Prototype Triple 406mm/50 Main Gun T0 Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13023,
+		icon = "Equips/51000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13024] = {
+		display = "High Performance Fire Control Radar T0 Design",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "High Performance Fire Control Radar T0 Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13024,
+		icon = "Equips/1260",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[14001] = {
 		display = [[
 Can be exchanged for one of the following SR gear blueprints:
@@ -5758,6 +5884,27 @@ Twin 37mm AA Gun (Mle 1936) T0 Design]],
 		price = {
 			1,
 			100
+		},
+		index = {}
+	},
+	[20101] = {
+		display = "A data pack developed by the Research Division. Can be used to supplement 10,000 EXP for the Combat Data Collection missions of PR1 ships. ",
+		rarity = 4,
+		type = 18,
+		drop_oil_max = 0,
+		name = "Combat Data Pack - Series 1 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 20101,
+		icon = "Props/20101",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			2
 		},
 		index = {}
 	},
@@ -22215,6 +22362,234 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[42020] = {
+		display = "Can be converted to a Blueprint for Cheshire, Mainz, Odin, Champagne, or any of the Series 1 or 2 Priority ships.",
+		rarity = 4,
+		type = 13,
+		drop_oil_max = 0,
+		name = "General Blueprint - Series 3",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42020,
+		icon = "Props/42020",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				42021,
+				1
+			},
+			{
+				2,
+				42023,
+				1
+			},
+			{
+				2,
+				42024,
+				1
+			},
+			{
+				2,
+				42025,
+				1
+			},
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			},
+			{
+				2,
+				42001,
+				1
+			},
+			{
+				2,
+				42002,
+				1
+			},
+			{
+				2,
+				42003,
+				1
+			},
+			{
+				2,
+				42004,
+				1
+			},
+			{
+				2,
+				42005,
+				1
+			},
+			{
+				2,
+				42006,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[42021] = {
+		display = "Blueprint for Royal Navy CA Cheshire.\n<color=#92fc63>Can be used in the Shipyard to increase Cheshire's stats once you've finished developing her.</color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "Blueprint - Cheshire",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42021,
+		icon = "Props/42021",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42022] = {
+		display = "Blueprint for Royal Navy CA Drake.\n<color=#92fc63>Can be used in the Shipyard to increase Drake's stats once you've finished developing her.</color>",
+		rarity = 5,
+		type = 12,
+		drop_oil_max = 0,
+		name = "Blueprint - Drake",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42022,
+		icon = "Props/42022",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			20
+		},
+		index = {}
+	},
+	[42023] = {
+		display = "Blueprint for Iron Blood CL Mainz.\n<color=#92fc63>Can be used in the Shipyard to increase Mainz's stats once you've finished developing her.</color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "Blueprint - Mainz",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42023,
+		icon = "Props/42023",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42024] = {
+		display = "Blueprint for Iron Blood BC Odin.\n<color=#92fc63>Can be used in the Shipyard to increase Odin's stats once you've finished developing her.</color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "Blueprint - Odin",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42024,
+		icon = "Props/42024",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42025] = {
+		display = "Blueprint for Iris Libre BB Champagne.\n<color=#92fc63>Can be used in the Shipyard to increase Champagne's stats once you've finished developing her.</color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "Blueprint - Champagne",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42025,
+		icon = "Props/42025",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42026] = {
+		display = "Can be converted to a Blueprint for any of the Series 2 or 3 DR ships.",
+		rarity = 5,
+		type = 13,
+		drop_oil_max = 0,
+		name = "Special General Blueprint - Series 3",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42026,
+		icon = "Props/42026",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				42022,
+				1
+			},
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[50001] = {
 		display = "Oxy-cola has a unique and acquired taste. Perhaps not the most suitable drink for a Commander.",
 		rarity = 2,
@@ -22279,18 +22654,18 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[50004] = {
-		display = "The Dragon Boat Festival isn't complete without these stuffed sticky rice dumplings! <color=#6dd329>(Increases EXP gained by 5% for 60 minutes.)</color> ",
+		display = "Sweet Curry or Hot Curry that is the question.  <color=#A9F548>（Increase EXP by 5 for 60 minutes）</color>",
 		rarity = 2,
 		type = 3,
 		drop_oil_max = 0,
-		name = "Zong Zi ",
+		name = "Naval curry",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/zongzi",
+		icon = "Props/haijungali",
 		replace_item = 0,
 		display_icon = {},
 		price = {
@@ -22609,7 +22984,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[52004] = {
-		display = "You can acquire a number of the following gear designs at random:",
+		display = "Used to get a random gear design. ",
 		rarity = 3,
 		type = 98,
 		drop_oil_max = 0,
@@ -22743,6 +23118,124 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				2,
 				13017,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52021] = {
+		display = "You can acquire a number of the following Blueprints at random:",
+		rarity = 4,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Random Blueprint",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 52021,
+		icon = "Props/52001",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				42022,
+				1
+			},
+			{
+				2,
+				42021,
+				1
+			},
+			{
+				2,
+				42023,
+				1
+			},
+			{
+				2,
+				42024,
+				1
+			},
+			{
+				2,
+				42025,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52022] = {
+		display = "You can acquire a number of the following gear designs at random:",
+		rarity = 4,
+		type = 99,
+		drop_oil_max = 0,
+		name = "Random Gear Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 52022,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				13019,
+				1
+			},
+			{
+				2,
+				13000,
+				1
+			},
+			{
+				2,
+				13024,
+				1
+			},
+			{
+				2,
+				13009,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			},
+			{
+				2,
+				13018,
+				1
+			},
+			{
+				2,
+				13020,
+				1
+			},
+			{
+				2,
+				13021,
+				1
+			},
+			{
+				2,
+				13022,
+				1
+			},
+			{
+				2,
+				13023,
 				1
 			}
 		},
@@ -95281,6 +95774,13 @@ Skins and their drop rates:
 		13015,
 		13016,
 		13017,
+		13018,
+		13019,
+		13020,
+		13021,
+		13022,
+		13023,
+		13024,
 		14001,
 		14002,
 		15001,
@@ -95333,6 +95833,7 @@ Skins and their drop rates:
 		20011,
 		20012,
 		20013,
+		20101,
 		30001,
 		30011,
 		30012,
@@ -96083,6 +96584,13 @@ Skins and their drop rates:
 		42015,
 		42016,
 		42017,
+		42020,
+		42021,
+		42022,
+		42023,
+		42024,
+		42025,
+		42026,
 		50001,
 		50002,
 		50003,
@@ -96095,6 +96603,8 @@ Skins and their drop rates:
 		52004,
 		52011,
 		52012,
+		52021,
+		52022,
 		53000,
 		53010,
 		53011,

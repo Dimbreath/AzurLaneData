@@ -939,5 +939,13 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Asami Takano",
 		code = 235
+	},
+	{
+		actor_name = "Yuko Kaida",
+		code = 236
+	},
+	{
+		actor_name = "Yuki Matsuoka",
+		code = 237
 	}
 }
