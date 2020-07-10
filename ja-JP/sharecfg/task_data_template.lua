@@ -98928,7 +98928,6 @@ pg.task_data_template = {
 		sub_type = 1014,
 		added_tip = 0,
 		story_icon = "",
-		scene = "",
 		award_choice = "",
 		level = 30,
 		next_task = "0",
@@ -98953,6 +98952,9 @@ pg.task_data_template = {
 				42000,
 				30
 			}
+		},
+		scene = {
+			"SELTECHNOLOGY"
 		}
 	},
 	[52001] = {
