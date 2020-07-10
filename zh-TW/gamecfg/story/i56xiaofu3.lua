@@ -58,7 +58,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿～妳们好呀，重樱的潜艇，我是铁血的U522！",
+			say = "嘿嘿～妳們好呀，重櫻的潛艇，我是鐵血的U-522！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			actor = 308051,
 			nameColor = "#a9f548",
-			say = "呜呜呜呜呜呜呜(屁股压到我了）……我、我叫伊56",
+			say = "嗚嗚嗚嗚嗚嗚嗚(屁股壓到我了）……我、我叫伊56",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_103",
-			say = "不好意思突然跳出来吓到妳们啦",
+			say = "不好意思突然跳出來嚇到妳們啦",
 			dir = 1,
 			actor = 408070,
 			nameColor = "#a9f548",
@@ -137,7 +137,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没、没事……",
+			say = "沒、沒事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "于是妳们刚才在搞什么呢？",
+			say = "於是妳們剛才在搞什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没什么……额……",
+			say = "沒什麼……呃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			actor = 408070,
 			nameColor = "#a9f548",
-			say = "嘿嘿，我正在寻找有趣的事呢，有没有什么建议分享一下呀！",
+			say = "嘿嘿，我正在尋找有趣的事呢，有沒有什麼建議分享一下呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			actor = 308041,
 			nameColor = "#a9f548",
-			say = "有趣的事情…好像…没有什么呢，56呢？",
+			say = "有趣的事情…好像…沒有什麼呢，56呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…有趣的事，学校里，有很多…吧",
+			say = "唔…有趣的事，學校裡，有很多…吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 408070,
 			nameColor = "#a9f548",
-			say = "吼～学校里有什么有趣的事呀？",
+			say = "吼～學校裡有什麼有趣的事呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U557和伊58经常会在天台一起发呆……",
+			say = "U-557和伊58經常會在天台一起發呆……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			actor = 308051,
 			nameColor = "#a9f548",
-			say = "伊26经常和U81玩捉迷藏，也会和鲦鱼会一起训练……",
+			say = "伊26經常和U-81玩捉迷藏，也會和鰷魚會一起訓練……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			actor = 308051,
 			nameColor = "#a9f548",
-			say = "U73和伊19跟谁都合得来所以有点微妙，伊13经常去找航母们玩，所以她们比较……嗯……",
+			say = "U-73和伊19跟誰都合得來所以有點微妙，伊13經常去找航母們玩，所以她們比較……嗯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			actor = 308051,
 			nameColor = "#a9f548",
-			say = "然后,大青花鱼则是喜欢捉弄所有人……",
+			say = "然後,大青花魚則是喜歡捉弄所有人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			actor = 308041,
 			nameColor = "#a9f548",
-			say = "……没想到，56妳这么关注大家…",
+			say = "……沒想到，56妳這麼關注大家…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…我也会加油的！",
+			say = "嗯…我也會加油的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，不是，我没有……",
+			say = "欸，不是，我沒有……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…貌似那个叫大青花鱼的家伙也挺有意思的…",
+			say = "嗯…貌似那個叫大青花魚的傢伙也挺有意思的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			actor = 408070,
 			nameColor = "#a9f548",
-			say = "好！下次到学校就去找大青花鱼玩吧！",
+			say = "好！下次到學校就去找大青花魚玩吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actorName = "？？？",
-			say = "糟了糟了糟了！要来不及了！",
+			say = "糟了糟了糟了！要來不及了！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			actor = 308051,
 			nameColor = "#a9f548",
-			say = "又、又来了吗！？！！！",
+			say = "又、又來了嗎！？！！！",
 			effects = {
 				{
 					active = false,

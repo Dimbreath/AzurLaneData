@@ -260,6 +260,12 @@ slot2 = {
 		title = i18n("words_bg_fit_mode"),
 		name = BG_FIT_MODE,
 		desc = i18n("option_desc6")
+	},
+	{
+		default = 1,
+		title = i18n("words_battle_hide_bg"),
+		name = BATTLE_HIDE_BG,
+		desc = i18n("option_desc10")
 	}
 }
 slot3 = {

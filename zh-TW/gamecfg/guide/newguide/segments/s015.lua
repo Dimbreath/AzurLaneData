@@ -68,7 +68,7 @@ return {
 		{
 			alpha = 0.342,
 			style = {
-				text = "就決定是妳啦！點擊確定按鈕",
+				text = "就決定是你啦！點擊確定按鈕",
 				mode = 2,
 				dir = -1,
 				posY = -2.69,

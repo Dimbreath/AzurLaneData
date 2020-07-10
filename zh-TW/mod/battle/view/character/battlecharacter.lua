@@ -31,6 +31,7 @@ function slot5.Init(slot0)
 	slot0._hideHP = false
 	slot0._referenceVector = Vector3.zero
 	slot0._referenceVectorTemp = Vector3.zero
+	slot0._referenceVectorBorn = nil
 	slot0._hpBarPos = Vector3.zero
 	slot0._arrowVector = Vector3.zero
 	slot0._arrowAngleVector = Vector3.zero
@@ -571,6 +572,16 @@ function slot5.UpdateUIComponentPosition(slot0)
 	uv0.Battle.BattleVariable.CameraPosToUICameraByRef(slot0._referenceVector)
 
 	slot0._referenceVector.z = 10
+
+	if slot0._unitData:GetBornPosition() then
+		if not slot0._referenceVectorBorn then
+			slot0._referenceVectorBorn = Vector3.New(slot2.x, slot2.y, slot2.z)
+		else
+			slot0._referenceVectorBorn:Set(slot2.x, slot2.y, slot2.z)
+		end
+
+		uv0.Battle.BattleVariable.CameraPosToUICameraByRef(slot0._referenceVectorBorn)
+	end
 end
 
 function slot5.UpdateHPBarPostition(slot0)
@@ -618,6 +629,10 @@ function slot5.UpdateArrowBarPostition(slot0)
 			slot0._arrowBarTf.anchoredPosition = uv0
 		end
 	else
+		if slot0._unitData:GetBornPosition() and slot2 ~= slot0._unitData:GetPosition() then
+			slot1 = slot0._cameraUtil:GetCharacterArrowBarPosition(slot0._referenceVectorBorn, slot0._arrowVector)
+		end
+
 		slot0._arrowVector = slot1
 		slot0._inViewArea = false
 

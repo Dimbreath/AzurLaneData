@@ -4918,6 +4918,13 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 	ship_remould_warning_102174 = {
 		tip = "此次改造操作將消耗<color=#A9F548>閃耀的麥克風</color>\n是否確認繼續操作？"
 	},
+	ship_remould_warning_203114 = {
+		tip = [[
+此次改造操作將導致
+<color=#92fc63>【魚雷】欄位</color>變更為<color=#92fc63>【副武器】欄位</color><color=#92fc63>
+<material=underline c=#92fc63 event=clickDetail>查看詳情</material></color>
+是否確認繼續操作？]]
+	},
 	ship_remould_warning_205124 = {
 		tip = "此次改造操作將消耗<color=#A9F548>戰士的心得</color>\n是否確認繼續操作？"
 	},
@@ -5349,6 +5356,9 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 	},
 	words_bg_fit_mode = {
 		tip = "過場圖適應螢幕最小邊"
+	},
+	words_battle_hide_bg = {
+		tip = "戰鬥預設隱藏局部背景"
 	},
 	activity_puzzle_get1 = {
 		tip = "<color=#A9F548FF>獲得方式\n拼圖任務7</color>"
@@ -6684,7 +6694,7 @@ $3]]
 		tip = "天賦點不足"
 	},
 	buildship_new_tip = {
-		tip = "天城、足柄、旗風、那珂出現機率UP!"
+		tip = "伊168、U-101、伊25、伊56、U-522出現機率UP!"
 	},
 	buildship_heavy_tip = {
 		tip = "愛宕、威爾斯親王建造追加！"
@@ -6788,6 +6798,9 @@ $3]]
 	},
 	newplayer_notice_8 = {
 		tip = "指揮官，歡迎來到碧藍航線，先去新兵訓練營報到吧。"
+	},
+	tec_notice_1 = {
+		tip = "完成科研一期研发加速所有任务后解锁"
 	},
 	apply_permission_camera_tip1 = {
 		tip = "要使用ar錄影的話，需要有錄音功能的權限"
@@ -7856,6 +7869,61 @@ Bofors 四聯40mm對空機炮？</color></size>]]
 三聯裝152mm主炮Mle1930
 雙聯37mm高射炮Mle1936</color></size>]]
 	},
+	blueprint_simulation_confirm_29903 = {
+		tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+四联装380mm主炮Mle1935
+三联装152mm主炮Mle1930
+双联37mm高射炮Mle1936
+</color></size>]]
+	},
+	blueprint_simulation_confirm_29904 = {
+		tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+四联装380mm主炮Mle1935
+三联装152mm主炮Mle1930
+双联37mm高射炮Mle1936
+</color></size>]]
+	},
+	blueprint_simulation_confirm_49903 = {
+		tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+四联装380mm主炮Mle1935
+三联装152mm主炮Mle1930
+双联37mm高射炮Mle1936
+</color></size>]]
+	},
+	blueprint_simulation_confirm_49904 = {
+		tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+四联装380mm主炮Mle1935
+三联装152mm主炮Mle1930
+双联37mm高射炮Mle1936
+</color></size>]]
+	},
+	blueprint_simulation_confirm_89902 = {
+		tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+四联装380mm主炮Mle1935
+三联装152mm主炮Mle1930
+双联37mm高射炮Mle1936
+</color></size>]]
+	},
 	electrotherapy_wanning = {
 		tip = "即將開始收圈"
 	},
@@ -8870,6 +8938,9 @@ E組）
 	},
 	option_desc6 = {
 		tip = "功能開啟後，過場圖片適應設備最小邊框，不顯示黑邊"
+	},
+	option_desc10 = {
+		tip = "功能開啟後，戰鬥中會預設隱藏換裝的局部背景"
 	},
 	music_collection = {
 		tip = {
@@ -10036,7 +10107,7 @@ TIPS：
 		}
 	},
 	building_complete_tip = {
-		tip = "升级完成"
+		tip = "升級完成"
 	},
 	backyard_theme_total_print = {
 		tip = "總價"
@@ -10145,5 +10216,156 @@ TIPS：
 	},
 	lose_condition_display_gangqu = {
 		tip = "我方艦隊全滅/港區血量低於0"
+	},
+	re_battle = {
+		tip = "再次挑戰"
+	},
+	keep_fate_tip = {
+		tip = "保留<color=#92fc63>天運擬合</color>所需藍圖 "
+	},
+	equip_info_1 = {
+		tip = "傷害"
+	},
+	equip_info_2 = {
+		tip = "標準射速"
+	},
+	equip_info_3 = {
+		tip = "射速"
+	},
+	equip_info_4 = {
+		tip = "技能"
+	},
+	equip_info_5 = {
+		tip = "彈藥"
+	},
+	equip_info_6 = {
+		tip = "飛行速度"
+	},
+	equip_info_7 = {
+		tip = "魚雷航速"
+	},
+	equip_info_8 = {
+		tip = "對甲比例"
+	},
+	equip_info_9 = {
+		tip = "傷害範圍"
+	},
+	equip_info_10 = {
+		tip = "機槍射程"
+	},
+	equip_info_11 = {
+		tip = "機槍射角"
+	},
+	equip_info_12 = {
+		tip = "散佈範圍"
+	},
+	equip_info_13 = {
+		tip = "特性"
+	},
+	equip_info_14 = {
+		tip = "裝備參數"
+	},
+	equip_info_15 = {
+		tip = "索敵範圍"
+	},
+	equip_info_16 = {
+		tip = "索敵角度"
+	},
+	equip_info_17 = {
+		tip = "彈藥射程"
+	},
+	equip_info_18 = {
+		tip = "散佈角度"
+	},
+	equip_info_19 = {
+		tip = "所屬陣營"
+	},
+	equip_info_20 = {
+		tip = "艦載機航速"
+	},
+	equip_info_21 = {
+		tip = "艦載機耐久"
+	},
+	equip_info_22 = {
+		tip = "艦載機迴避上限"
+	},
+	equip_info_23 = {
+		tip = "適用艦種"
+	},
+	equip_info_24 = {
+		tip = "掛載武器"
+	},
+	tec_settings_btn_word = {
+		tip = "研發選項"
+	},
+	tec_tendency_0 = {
+		tip = "無傾向"
+	},
+	tec_tendency_1 = {
+		tip = "科研一期"
+	},
+	tec_tendency_2 = {
+		tip = "科研二期"
+	},
+	tec_tendency_3 = {
+		tip = "科研三期"
+	},
+	tec_tendency_cur_0 = {
+		tip = "科研傾向 / 無傾向"
+	},
+	tec_tendency_cur_1 = {
+		tip = "科研傾向 / 一期"
+	},
+	tec_tendency_cur_2 = {
+		tip = "科研傾向 / 二期"
+	},
+	tec_tendency_cur_3 = {
+		tip = "科研傾向 / 三期"
+	},
+	tec_target_catchup_none = {
+		tip = "定向追趕 / 未選擇"
+	},
+	tec_target_catchup_selected = {
+		tip = "定向追趕"
+	},
+	tec_target_need_print = {
+		tip = "需求藍圖"
+	},
+	tec_target_catchup_progress = {
+		tip = "追趕進度"
+	},
+	tec_target_catchup_select_tip = {
+		tip = "是否要選擇該科研角色:$1?"
+	},
+	tec_target_catchup_help_tip = {
+		tip = {
+			{
+				info = [[
+定向追趕功能說明：
+
+定向追趕功能中，玩家可選擇一名對應版本的科研角色，
+在完成科研項目時，可額外獲取對應角色的科研藍圖。 
+選擇一名角色後，可通過切換角色功能，重新選擇角色。 
+若在確定改變選擇角色前退出，則保持原來選擇的角色不
+變。 
+每期定向追趕功能可獲得的最大藍圖數量為300，切換選
+擇角色後保持已獲得數量不變。 ]]
+			}
+		}
+	},
+	tec_speedup_title = {
+		tip = "研發加速"
+	},
+	tec_speedup_progress = {
+		tip = "$1萬/$2萬"
+	},
+	tec_speedup_overflow = {
+		tip = "使用測試數據將溢出$1點經驗，是否確認繼續使用？"
+	},
+	tec_speedup_help_tip = {
+		tip = "在研發加速功能中，可以將科研測試數據轉化為技術測試所需經驗，科研測試數據可以從研發加速任務獲得"
+	},
+	click_back_tip = {
+		tip = "點擊空白處返回"
 	}
 }

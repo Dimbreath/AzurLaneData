@@ -14,7 +14,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 408080,
 			nameColor = "#a9f548",
-			say = "第二艘补给舰，击沉。U110，天生的猎手。嘎哦—",
+			say = "第二艘补给舰，击沉。U-110，天生的猎手。嘎哦—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			say = "一轮机炮子弹在水面掀起水花，U110不情不愿地从水里露出头来。",
+			say = "一轮机炮子弹在水面掀起水花，U-110不情不愿地从水里露出头来。",
 			withoutActorName = true,
 			dir = 1,
 			actor = 408080,
@@ -234,7 +234,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "U110，是大鲨鱼，超凶的。",
+			say = "U-110，是大鲨鱼，超凶的。",
 			action = {
 				{
 					y = 0,
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			withoutActorName = true,
 			side = 2,
-			say = "U110抖动着背鳍(?)，做出威胁的样子",
+			say = "U-110抖动着背鳍(?)，做出威胁的样子",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			withoutActorName = true,
 			side = 2,
-			say = "U110对着大斗犬发出了威胁的咆哮(?)",
+			say = "U-110对着大斗犬发出了威胁的咆哮(?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408080,
-			say = "U110不是蒜头脑袋，是鲨鱼—",
+			say = "U-110不是蒜头脑袋，是鲨鱼—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于看不起鲨鱼的对手，U110，要在这里解决妳们！",
+			say = "对于看不起鲨鱼的对手，U-110，要在这里解决妳们！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

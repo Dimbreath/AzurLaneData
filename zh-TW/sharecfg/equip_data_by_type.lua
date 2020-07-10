@@ -5,6 +5,7 @@ pg.equip_data_by_type = {
 		type_name = "艦炮",
 		equip_skin = 1,
 		equip_type = 1,
+		compare_group = 1,
 		type_name2 = "艦炮(驅逐)"
 	},
 	{
@@ -12,6 +13,7 @@ pg.equip_data_by_type = {
 		type_name = "艦炮",
 		equip_skin = 1,
 		equip_type = 2,
+		compare_group = 1,
 		type_name2 = "艦炮(輕巡)"
 	},
 	{
@@ -19,6 +21,7 @@ pg.equip_data_by_type = {
 		type_name = "艦炮",
 		equip_skin = 1,
 		equip_type = 3,
+		compare_group = 1,
 		type_name2 = "艦炮(重巡)"
 	},
 	{
@@ -26,6 +29,7 @@ pg.equip_data_by_type = {
 		type_name = "艦炮",
 		equip_skin = 1,
 		equip_type = 4,
+		compare_group = 1,
 		type_name2 = "艦炮(戰列)"
 	},
 	{
@@ -33,6 +37,7 @@ pg.equip_data_by_type = {
 		type_name = "魚雷",
 		equip_skin = 1,
 		equip_type = 5,
+		compare_group = 2,
 		type_name2 = "魚雷"
 	},
 	{
@@ -40,6 +45,7 @@ pg.equip_data_by_type = {
 		type_name = "防空炮",
 		equip_skin = 0,
 		equip_type = 6,
+		compare_group = 3,
 		type_name2 = "防空炮"
 	},
 	{
@@ -47,6 +53,7 @@ pg.equip_data_by_type = {
 		type_name = "戰鬥機",
 		equip_skin = 1,
 		equip_type = 7,
+		compare_group = 4,
 		type_name2 = "戰鬥機"
 	},
 	{
@@ -54,6 +61,7 @@ pg.equip_data_by_type = {
 		type_name = "魚雷機",
 		equip_skin = 1,
 		equip_type = 8,
+		compare_group = 4,
 		type_name2 = "魚雷機"
 	},
 	{
@@ -61,6 +69,7 @@ pg.equip_data_by_type = {
 		type_name = "轟炸機",
 		equip_skin = 1,
 		equip_type = 9,
+		compare_group = 4,
 		type_name2 = "轟炸機"
 	},
 	{
@@ -68,6 +77,7 @@ pg.equip_data_by_type = {
 		type_name = "設備",
 		equip_skin = 1,
 		equip_type = 10,
+		compare_group = 5,
 		type_name2 = "設備"
 	},
 	{
@@ -75,6 +85,7 @@ pg.equip_data_by_type = {
 		type_name = "艦炮",
 		equip_skin = 1,
 		equip_type = 11,
+		compare_group = 1,
 		type_name2 = "艦炮(袖珍戰列)"
 	},
 	{
@@ -82,6 +93,7 @@ pg.equip_data_by_type = {
 		type_name = "水偵",
 		equip_skin = 1,
 		equip_type = 12,
+		compare_group = 5,
 		type_name2 = "水偵"
 	},
 	{
@@ -89,6 +101,7 @@ pg.equip_data_by_type = {
 		type_name = "魚雷",
 		equip_skin = 1,
 		equip_type = 13,
+		compare_group = 6,
 		type_name2 = "魚雷(潛艇)"
 	},
 	{
@@ -96,6 +109,7 @@ pg.equip_data_by_type = {
 		type_name = "設備",
 		equip_skin = 1,
 		equip_type = 14,
+		compare_group = 5,
 		type_name2 = "設備"
 	},
 	{
@@ -103,6 +117,7 @@ pg.equip_data_by_type = {
 		type_name = "反潛機",
 		equip_skin = 1,
 		equip_type = 15,
+		compare_group = 5,
 		type_name2 = "反潛機"
 	},
 	[17] = {
@@ -110,6 +125,7 @@ pg.equip_data_by_type = {
 		type_name = "直升机",
 		equip_skin = 1,
 		equip_type = 17,
+		compare_group = 5,
 		type_name2 = "直升机"
 	},
 	all = {

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"德意志的忧郁\n\n<size=45>五　真相·上</size>",
+					"德意志的憂鬱\n\n<size=45>五　真相·上</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "半拉着德意志来到了格奈森瑙的宿舍并说明了情况。",
+			say = "半拉著德意志來到了格奈森瑙的宿舍並說明了情況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是吗，虽然我有在做准备，晚了一步呢……",
+			say = "是嗎，雖然我有在做準備，晚了一步呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉，德意志，不过有一点请妳相信，大家都是真心为妳好的。",
+			say = "抱歉，德意志，不過有一點請妳相信，大家都是真心為妳好的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			say = "妳要让我怎么相信这种事啊！",
+			say = "妳要讓我怎麼相信這種事啊！",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是呢……指挥官也不知道其中的原委吧。",
+			say = "是呢……指揮官也不知道其中的原委吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样吧，我召集铁血的大家来说一下这个事情，请妳们两位旁听一下吧。",
+			say = "這樣吧，我召集鐵血的大家來說一下這個事情，請你們兩位旁聽一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "会议室",
+			say = "會議室",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "那么，欧根，斯佩，提尔比茨，Z1，谢谢妳们抽空过来。",
+			say = "那麼，歐根，施佩，鐵必制，Z1，謝謝妳們抽空過來。",
 			subActors = {
 				{
 					actor = 403040,
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "是因为德意志姐姐的那件事吗？",
+			say = "是因為德意志姐姐的那件事嗎？",
 			subActors = {
 				{
 					actor = 403040,
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "是的，斯佩妳可能不太清楚，我们曾经约定好，尽可能地迁就她的性格，让她能够继续无忧无虑地生活下去。",
+			say = "是的，施佩妳可能不太清楚，我們曾經約定好，盡可能地遷就她的性格，讓她能夠繼續無憂無慮地生活下去。",
 			subActors = {
 				{
 					actor = 403040,
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "……大家没有忘记这件事吧？",
+			say = "……大家沒有忘記這件事吧？",
 			subActors = {
 				{
 					actor = 403040,
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "？！什么！",
+			say = "？！什麼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			},
 			options = {
 				{
-					content = "抱住想要冲过去的德意志",
+					content = "抱住想要衝過去的德意志",
 					flag = 1
 				}
 			}
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "放开……",
+			say = "放開……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "区区低等动物的仆人……",
+			say = "區區低等動物的僕人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……呜",
+			say = "……嗚",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "嗯？……呵呵，早就已经习惯了这样的相处模式，都快要忘了以前做过这样的约定呢。",
+			say = "嗯？……呵呵，早就已經習慣了這樣的相處模式，都快要忘了以前做過這樣的約定呢。",
 			subActors = {
 				{
 					actor = 403040,
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "但是归根结底，这只是权宜之计，而且也是我们欺骗了她。",
+			say = "但是歸根結底，這只是權宜之計，而且也是我們欺騙了她。",
 			subActors = {
 				{
 					actor = 403040,
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "是的，后果就是不仅对其他同僚造成了困扰，在她现在有些意识到这点后，也对她产生了伤害。",
+			say = "是的，後果就是不僅對其他同僚造成了困擾，在她現在有些意識到這點後，也對她產生了傷害。",
 			subActors = {
 				{
 					actor = 403040,
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "所以今天就想和大家讨论一下这件事的对策。",
+			say = "所以今天就想和大家討論一下這件事的對策。",
 			subActors = {
 				{
 					actor = 403040,
@@ -498,7 +498,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，果然，反正一个两个也只会继续耍我下去吧。",
+			say = "哼，果然，反正一個兩個也只會繼續耍我下去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			blackBg = true,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "（小声）仆人，我该怎么办啊……",
+			say = "（小聲）僕人，我該怎麼辦啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

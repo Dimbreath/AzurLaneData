@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"融冰\n\n<size=45>二　任务</size>",
+					"融冰\n\n<size=45>二　任務</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "提尔比茨正准备将一批旧装备交给研发部门的{namecode:37}",
+			say = "鐵必制正準備將一批舊裝備交給研發部門的{namecode:37}",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "数量稍微有点多啊……那就分几批送过去吧。",
+			say = "數量稍微有點多啊……那就分幾批送過去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "哦哦，看来是正义出场的时候了！",
+			say = "哦哦，看來是正義出場的時候了！",
 			actorName = "???",
 			bgName = "bg_story_task",
 			side = 2,
@@ -91,7 +91,7 @@ return {
 			}
 		},
 		{
-			say = "提尔比茨小姐是要把这些东西送到科研部门吗？",
+			say = "鐵必制小姐是要把這些東西送到科研部門嗎？",
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳怎么知道的？还有妳是……",
+			say = "妳怎麼知道的？還有妳是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			actor = 101110,
 			actorName = "???",
-			say = "我是正义的夥伴，小海狸分队的队长，查尔斯·奥斯本！稍等一下，我这就把大家召集过来。",
+			say = "我是正義的夥伴，小海狸分隊的隊長，查爾斯·奧斯本！稍等一下，我這就把大家召集過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			say = "小海狸中队的大家！集合咯！",
+			say = "小海狸中隊的大家！集合囉！",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			say = "哦哦，来了来了！",
+			say = "哦哦，來了來了！",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			actor = 101150,
 			nameColor = "#a9f548",
-			say = "有，有什么事情吗……",
+			say = "有，有什麼事情嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			actor = 101140,
 			nameColor = "#a9f548",
-			say = "啊，好麻烦。",
+			say = "啊，好麻煩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家来一起帮忙把这些东西送到科研部那里去吧！",
+			say = "大家來一起幫忙把這些東西送到科研部那裡去吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			actor = 405020,
 			nameColor = "#a9f548",
-			say = "等等，这是秘书舰的工作，我来就可以……",
+			say = "等等，這是秘書艦的工作，我來就可以……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "没等到提尔比茨说完，小海狸们就开始了工作。",
+			say = "沒等到鐵必制說完，小海狸們就開始了工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "几人有条不紊地把旧装备分装到专用的推车上，然后运送到了目的地。",
+			say = "幾人有條不紊地把舊裝備分裝到專用的推車上，然後運送到了目的地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "跟在一旁的提尔比茨露出了若有所思的表情",
+			say = "跟在一旁的鐵必制露出了若有所思的表情",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "港区·科研部门",
+			say = "港區·科研部門",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样就完成了呢！小海狸分队，解散！",
+			say = "這樣就完成了呢！小海狸分隊，解散！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			}
 		},
 		{
-			say = "谢谢妳们，我会将妳们的帮助向指挥官汇报的。",
+			say = "謝謝妳們，我會將妳們的幫助向指揮官匯報的。",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，那样的事情就不用了啦！正义是不需要回报的呢！",
+			say = "啊，那樣的事情就不用了啦！正義是不需要回報的呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，身为同伴，互相帮助不是理所当然的嘛。其他姐妹看到也一定会这么做的",
+			say = "而且，身為同伴，互相幫助不是理所當然的嘛。其他姐妹看到也一定會這麼做的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			}
 		},
 		{
-			say = "那我们先走啦！还有很多的正义等着我们去履行呢！",
+			say = "那我們先走啦！還有很多的正義等著我們去履行呢！",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -450,7 +450,7 @@ return {
 			blackBg = true,
 			actor = 405020,
 			nameColor = "#a9f548",
-			say = "同伴互相帮助是理所当然吗…我知道了。",
+			say = "同伴互相幫助是理所當然嗎…我知道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "目送小海狸们离开的提尔比茨站在原地良久，才重新迈开脚步。",
+			say = "目送小海狸們離開的鐵必制站在原地良久，才重新邁開腳步。",
 			flashout = {
 				dur = 0.5,
 				black = true,

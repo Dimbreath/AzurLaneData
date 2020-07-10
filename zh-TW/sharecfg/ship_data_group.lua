@@ -5175,7 +5175,7 @@ pg.ship_data_group = {
 	},
 	[119] = {
 		type = 3,
-		trans_skin = 0,
+		trans_skin = 203019,
 		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -5192,8 +5192,17 @@ pg.ship_data_group = {
 			"C",
 			"C"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"A",
+			"B",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
+		trans_skill = {
+			12420
+		},
 		description = {
 			{
 				"榮譽勳章兌換（機率刷新）",
@@ -7356,7 +7365,7 @@ pg.ship_data_group = {
 	},
 	[167] = {
 		type = 1,
-		trans_skin = 0,
+		trans_skin = 301179,
 		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -7373,8 +7382,17 @@ pg.ship_data_group = {
 			"D",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_skill = {
+			5001
+		},
 		description = {
 			{
 				"推薦探索關卡3-3",
@@ -9366,6 +9384,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[396] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 297,
+		group_type = 30804,
+		code = 396,
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時建造",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[339] = {
 		type = 8,
 		trans_skin = 0,
@@ -9401,6 +9450,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[397] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 299,
+		group_type = 30805,
+		code = 397,
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時建造",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[340] = {
 		type = 8,
 		trans_skin = 0,
@@ -9431,6 +9511,37 @@ pg.ship_data_group = {
 						projectName = "special",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[398] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 301,
+		group_type = 30806,
+		code = 398,
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時建造",
+				{
+					""
 				},
 				0
 			}
@@ -10207,6 +10318,68 @@ pg.ship_data_group = {
 						projectName = "special",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[399] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 333,
+		group_type = 40806,
+		code = 399,
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時建造",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[400] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 335,
+		group_type = 40807,
+		code = 400,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時建造",
+				{
+					""
 				},
 				0
 			}
@@ -11150,8 +11323,11 @@ pg.ship_data_group = {
 		228,
 		229,
 		338,
+		396,
 		339,
+		397,
 		340,
+		398,
 		232,
 		233,
 		264,
@@ -11172,6 +11348,8 @@ pg.ship_data_group = {
 		251,
 		252,
 		341,
+		399,
+		400,
 		253,
 		254,
 		255,

@@ -27220,7 +27220,7 @@ pg.enemy_data_statistics = {
 		hit_growth = 0,
 		armor_type = 2,
 		cld_box = {
-			25,
+			13,
 			7.5,
 			8
 		},
@@ -38350,7 +38350,7 @@ pg.enemy_data_statistics = {
 	},
 	[381] = {
 		cannon = 0,
-		name = "U110",
+		name = "U-110",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -38617,7 +38617,7 @@ pg.enemy_data_statistics = {
 	},
 	[383] = {
 		cannon = 0,
-		name = "U556",
+		name = "U-556",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

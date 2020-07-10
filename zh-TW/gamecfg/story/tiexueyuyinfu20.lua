@@ -29,7 +29,7 @@ return {
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "哼哼，伟大的水下骑士——橡叶勋章的获得者，U556正是在下！！",
+			say = "哼哼，伟大的水下骑士——橡叶勋章的获得者，U-556正是在下！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "U556向提尔比茨姐姐送上晨间的问候~",
+			say = "U-556向提尔比茨姐姐送上晨间的问候~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			bgName = "bg_bsm_2",
 			dir = 1,
-			say = "（只见U556一个倒身翻滚潜入了港口的水里，还是那套滑稽的动作）",
+			say = "（只见U-556一个倒身翻滚潜入了港口的水里，还是那套滑稽的动作）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_bsm_2",
 			dir = 1,
-			say = "（提尔比茨头冒青筋，对着水底下的U556大吼着）",
+			say = "（提尔比茨头冒青筋，对着水底下的U-556大吼着）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

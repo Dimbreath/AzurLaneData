@@ -36,7 +36,6 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_TRIGGER, function (slot0, slot1)
 		uv0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
 	end)
-	slot0.viewComponent:setActivity(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_GUIDE_TASKS))
 end
 
 slot0.TASK_ADDED = "task added"
@@ -56,12 +55,15 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == TaskProxy.TASK_UPDATED or slot2 == TaskProxy.TASK_REMOVED then
-		slot0.viewComponent:switchPage(slot0.contextData.pageId)
+		slot0.viewComponent:switchPageByMediator()
+		slot0.viewComponent:updateSwitchBtnsTag()
 	elseif slot2 == GAME.SUBMIT_TASK_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3)
-		slot0.viewComponent:updatePhase()
+		slot0.viewComponent:setPhrase()
+		slot0.viewComponent:updateSwitchBtnsTag()
 	elseif slot2 == ActivityProxy.ACTIVITY_OPERATION_DONE then
-		slot0.viewComponent:switchPage(slot0.contextData.pageId)
+		slot0.viewComponent:switchPageByMediator()
+		slot0.viewComponent:updateSwitchBtnsTag()
 	end
 end
 

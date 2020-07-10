@@ -114,7 +114,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408080,
-			say = "U110，背鳍太显眼，不公平。",
+			say = "U-110，背鳍太显眼，不公平。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是U110，今天是郊游的心情。",
+			say = "可是U-110，今天是郊游的心情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 408080,
 			nameColor = "#a9f548",
-			say = "U110可是大鲨鱼哦，快看，快看。",
+			say = "U-110可是大鲨鱼哦，快看，快看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U110是大鲨鱼，——大鲨鱼，出击。",
+			say = "U-110是大鲨鱼，——大鲨鱼，出击。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

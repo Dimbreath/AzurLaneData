@@ -52638,6 +52638,125 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[203114] = {
+		oxy_max = 0,
+		type = 3,
+		name = "伦敦.改",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 203114,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS London",
+		oxy_cost = 0,
+		skin_id = 203010,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1495,
+			102,
+			102,
+			98,
+			0,
+			61,
+			0,
+			38,
+			9,
+			25.6,
+			62,
+			0
+		},
+		attrs_growth = {
+			14800,
+			408,
+			406,
+			776,
+			0,
+			302,
+			0,
+			564,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5180,
+			965,
+			967,
+			529,
+			0,
+			711,
+			0,
+			251,
+			1979,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			314
+		},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.6,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[203021] = {
 		oxy_max = 0,
 		type = 3,
@@ -105954,6 +106073,2766 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[308041] = {
+		oxy_max = 218,
+		type = 8,
+		name = "伊25",
+		huntingrange_level = 1,
+		star = 2,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 308041,
+		summon_offset = -10,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I25",
+		oxy_cost = 10,
+		skin_id = 308040,
+		attack_duration = 5,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			314,
+			12,
+			99,
+			0,
+			0,
+			26,
+			0,
+			61,
+			10,
+			18.8,
+			25,
+			0
+		},
+		attrs_growth = {
+			7650,
+			122,
+			980,
+			0,
+			0,
+			128,
+			0,
+			900,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308042] = {
+		oxy_max = 218,
+		type = 8,
+		name = "伊25",
+		huntingrange_level = 1,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 308042,
+		summon_offset = -10,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I25",
+		oxy_cost = 10,
+		skin_id = 308040,
+		attack_duration = 5,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			391,
+			15,
+			124,
+			0,
+			0,
+			26,
+			0,
+			61,
+			10,
+			18.8,
+			25,
+			0
+		},
+		attrs_growth = {
+			7650,
+			122,
+			980,
+			0,
+			0,
+			128,
+			0,
+			900,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308043] = {
+		oxy_max = 218,
+		type = 8,
+		name = "伊25",
+		huntingrange_level = 2,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 308043,
+		summon_offset = -10,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I25",
+		oxy_cost = 10,
+		skin_id = 308040,
+		attack_duration = 5,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			544,
+			21,
+			173,
+			0,
+			0,
+			26,
+			0,
+			61,
+			10,
+			18.8,
+			25,
+			0
+		},
+		attrs_growth = {
+			7650,
+			122,
+			980,
+			0,
+			0,
+			128,
+			0,
+			900,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308044] = {
+		oxy_max = 218,
+		type = 8,
+		name = "伊25",
+		huntingrange_level = 2,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 308044,
+		summon_offset = -10,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I25",
+		oxy_cost = 10,
+		skin_id = 308040,
+		attack_duration = 5,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			773,
+			30,
+			246,
+			0,
+			0,
+			26,
+			0,
+			61,
+			10,
+			18.8,
+			25,
+			0
+		},
+		attrs_growth = {
+			7650,
+			122,
+			980,
+			0,
+			0,
+			128,
+			0,
+			900,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			7650,
+			283,
+			1225,
+			0,
+			0,
+			300,
+			0,
+			-6,
+			776,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308051] = {
+		oxy_max = 248,
+		type = 8,
+		name = "伊56",
+		huntingrange_level = 1,
+		star = 2,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 308051,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I56",
+		oxy_cost = 10,
+		skin_id = 308050,
+		attack_duration = 5,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			335,
+			11,
+			97,
+			0,
+			0,
+			23,
+			0,
+			57,
+			7,
+			14.4,
+			46,
+			0
+		},
+		attrs_growth = {
+			8180,
+			108,
+			956,
+			0,
+			0,
+			116,
+			0,
+			840,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					1,
+					-3
+				}
+			},
+			{
+				{
+					0,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308052] = {
+		oxy_max = 248,
+		type = 8,
+		name = "伊56",
+		huntingrange_level = 1,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 308052,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I56",
+		oxy_cost = 10,
+		skin_id = 308050,
+		attack_duration = 5,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			417,
+			14,
+			121,
+			0,
+			0,
+			23,
+			0,
+			57,
+			7,
+			14.4,
+			46,
+			0
+		},
+		attrs_growth = {
+			8180,
+			108,
+			956,
+			0,
+			0,
+			116,
+			0,
+			840,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					1,
+					-3
+				}
+			},
+			{
+				{
+					0,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308053] = {
+		oxy_max = 248,
+		type = 8,
+		name = "伊56",
+		huntingrange_level = 2,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 308053,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I56",
+		oxy_cost = 10,
+		skin_id = 308050,
+		attack_duration = 5,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			580,
+			19,
+			169,
+			0,
+			0,
+			23,
+			0,
+			57,
+			7,
+			14.4,
+			46,
+			0
+		},
+		attrs_growth = {
+			8180,
+			108,
+			956,
+			0,
+			0,
+			116,
+			0,
+			840,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					1,
+					-3
+				}
+			},
+			{
+				{
+					0,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308054] = {
+		oxy_max = 248,
+		type = 8,
+		name = "伊56",
+		huntingrange_level = 2,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 308054,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I56",
+		oxy_cost = 10,
+		skin_id = 308050,
+		attack_duration = 5,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			826,
+			27,
+			240,
+			0,
+			0,
+			23,
+			0,
+			57,
+			7,
+			14.4,
+			46,
+			0
+		},
+		attrs_growth = {
+			8180,
+			108,
+			956,
+			0,
+			0,
+			116,
+			0,
+			840,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			8170,
+			252,
+			1194,
+			0,
+			0,
+			267,
+			0,
+			4,
+			777,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					1,
+					-3
+				}
+			},
+			{
+				{
+					0,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308061] = {
+		oxy_max = 195,
+		type = 8,
+		name = "伊168",
+		huntingrange_level = 1,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 308061,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I168",
+		oxy_cost = 10,
+		skin_id = 308060,
+		attack_duration = 5,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			321,
+			12,
+			104,
+			0,
+			0,
+			42,
+			0,
+			59,
+			9,
+			18.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			7840,
+			122,
+			1028,
+			0,
+			0,
+			210,
+			0,
+			876,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308062] = {
+		oxy_max = 195,
+		type = 8,
+		name = "伊168",
+		huntingrange_level = 1,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 308062,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I168",
+		oxy_cost = 10,
+		skin_id = 308060,
+		attack_duration = 5,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			399,
+			15,
+			130,
+			0,
+			0,
+			42,
+			0,
+			59,
+			9,
+			18.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			7840,
+			122,
+			1028,
+			0,
+			0,
+			210,
+			0,
+			876,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.05,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308063] = {
+		oxy_max = 195,
+		type = 8,
+		name = "伊168",
+		huntingrange_level = 2,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 308063,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I168",
+		oxy_cost = 10,
+		skin_id = 308060,
+		attack_duration = 5,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			556,
+			21,
+			181,
+			0,
+			0,
+			42,
+			0,
+			59,
+			9,
+			18.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			7840,
+			122,
+			1028,
+			0,
+			0,
+			210,
+			0,
+			876,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.05,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308064] = {
+		oxy_max = 195,
+		type = 8,
+		name = "伊168",
+		huntingrange_level = 2,
+		star = 6,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 308064,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I168",
+		oxy_cost = 10,
+		skin_id = 308060,
+		attack_duration = 5,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			791,
+			30,
+			258,
+			0,
+			0,
+			42,
+			0,
+			59,
+			9,
+			18.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			7840,
+			122,
+			1028,
+			0,
+			0,
+			210,
+			0,
+			876,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			7830,
+			283,
+			1282,
+			0,
+			0,
+			495,
+			0,
+			-7,
+			772,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.15,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
 	[310014] = {
 		oxy_max = 0,
 		type = 10,
@@ -116457,6 +119336,1982 @@ pg.ship_data_statistics = {
 				{
 					3,
 					2
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408061] = {
+		oxy_max = 190,
+		type = 8,
+		name = "U-101",
+		huntingrange_level = 1,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 408061,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-101",
+		oxy_cost = 10,
+		skin_id = 408060,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			209,
+			9,
+			102,
+			0,
+			0,
+			41,
+			0,
+			60,
+			7,
+			14.4,
+			68,
+			0
+		},
+		attrs_growth = {
+			5100,
+			86,
+			1012,
+			0,
+			0,
+			202,
+			0,
+			888,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408062] = {
+		oxy_max = 190,
+		type = 8,
+		name = "U-101",
+		huntingrange_level = 1,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 408062,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-101",
+		oxy_cost = 10,
+		skin_id = 408060,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			260,
+			11,
+			127,
+			0,
+			0,
+			41,
+			0,
+			60,
+			7,
+			14.4,
+			68,
+			0
+		},
+		attrs_growth = {
+			5100,
+			86,
+			1012,
+			0,
+			0,
+			202,
+			0,
+			888,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408063] = {
+		oxy_max = 190,
+		type = 8,
+		name = "U-101",
+		huntingrange_level = 2,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 408063,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-101",
+		oxy_cost = 10,
+		skin_id = 408060,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			362,
+			15,
+			178,
+			0,
+			0,
+			41,
+			0,
+			60,
+			7,
+			14.4,
+			68,
+			0
+		},
+		attrs_growth = {
+			5100,
+			86,
+			1012,
+			0,
+			0,
+			202,
+			0,
+			888,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408064] = {
+		oxy_max = 190,
+		type = 8,
+		name = "U-101",
+		huntingrange_level = 2,
+		star = 6,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 2,
+		id = 408064,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-101",
+		oxy_cost = 10,
+		skin_id = 408060,
+		attack_duration = 5,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			515,
+			22,
+			254,
+			0,
+			0,
+			41,
+			0,
+			60,
+			7,
+			14.4,
+			68,
+			0
+		},
+		attrs_growth = {
+			5100,
+			86,
+			1012,
+			0,
+			0,
+			202,
+			0,
+			888,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5090,
+			207,
+			1263,
+			0,
+			0,
+			473,
+			0,
+			-4,
+			777,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408071] = {
+		oxy_max = 228,
+		type = 8,
+		name = "U-522",
+		huntingrange_level = 1,
+		star = 2,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408071,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-522",
+		oxy_cost = 10,
+		skin_id = 408070,
+		attack_duration = 4,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			241,
+			8,
+			97,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			5885,
+			80,
+			964,
+			0,
+			0,
+			152,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			0.85
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		strategy_list_ai = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					2,
+					-3
+				}
+			},
+			{
+				{
+					-3,
+					1
+				},
+				{
+					1,
+					-3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408072] = {
+		oxy_max = 228,
+		type = 8,
+		name = "U-522",
+		huntingrange_level = 1,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408072,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-522",
+		oxy_cost = 10,
+		skin_id = 408070,
+		attack_duration = 4,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			300,
+			10,
+			121,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			5885,
+			80,
+			964,
+			0,
+			0,
+			152,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		strategy_list_ai = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					2,
+					-3
+				}
+			},
+			{
+				{
+					-3,
+					1
+				},
+				{
+					1,
+					-3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408073] = {
+		oxy_max = 228,
+		type = 8,
+		name = "U-522",
+		huntingrange_level = 2,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408073,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-522",
+		oxy_cost = 10,
+		skin_id = 408070,
+		attack_duration = 4,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			418,
+			14,
+			169,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			5885,
+			80,
+			964,
+			0,
+			0,
+			152,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		strategy_list_ai = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					2,
+					-3
+				}
+			},
+			{
+				{
+					-3,
+					1
+				},
+				{
+					1,
+					-3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408074] = {
+		oxy_max = 228,
+		type = 8,
+		name = "U-522",
+		huntingrange_level = 2,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 2,
+		id = 408074,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-522",
+		oxy_cost = 10,
+		skin_id = 408070,
+		attack_duration = 4,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			594,
+			20,
+			242,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			5885,
+			80,
+			964,
+			0,
+			0,
+			152,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5875,
+			183,
+			1201,
+			0,
+			0,
+			366,
+			0,
+			-1,
+			777,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			0.85
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		strategy_list_ai = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					2,
+					-3
+				}
+			},
+			{
+				{
+					-3,
+					1
+				},
+				{
+					1,
+					-3
 				}
 			}
 		},
@@ -148240,6 +153095,7 @@ pg.ship_data_statistics = {
 		203012,
 		203013,
 		203014,
+		203114,
 		203021,
 		203022,
 		203023,
@@ -148681,6 +153537,18 @@ pg.ship_data_statistics = {
 		308032,
 		308033,
 		308034,
+		308041,
+		308042,
+		308043,
+		308044,
+		308051,
+		308052,
+		308053,
+		308054,
+		308061,
+		308062,
+		308063,
+		308064,
 		310014,
 		310024,
 		310034,
@@ -148765,6 +153633,14 @@ pg.ship_data_statistics = {
 		408012,
 		408013,
 		408014,
+		408061,
+		408062,
+		408063,
+		408064,
+		408071,
+		408072,
+		408073,
+		408074,
 		501011,
 		501012,
 		501013,

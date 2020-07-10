@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "随着时间的推移，U556秘书舰的工作也完成得越来越出色。",
+			say = "随着时间的推移，U-556秘书舰的工作也完成得越来越出色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			},
 			options = {
 				{
-					content = "告诉U556",
+					content = "告诉U-556",
 					flag = 1
 				}
 			}
@@ -379,7 +379,7 @@ return {
 			}
 		},
 		{
-			say = "指挥官这是？还有U556和各位也在…出什么事了？",
+			say = "指挥官这是？还有U-556和各位也在…出什么事了？",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
@@ -536,7 +536,7 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_night",
-			say = "U556，虽然我们是有过那样的约定，不过再艰难的情况，我都可以自己应对，妳不必担心我。",
+			say = "U-556，虽然我们是有过那样的约定，不过再艰难的情况，我都可以自己应对，妳不必担心我。",
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
@@ -639,7 +639,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "U556看起来十分失落……",
+			say = "U-556看起来十分失落……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "有点担心U556的情况，跟上去看看吧。",
+			say = "有点担心U-556的情况，跟上去看看吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

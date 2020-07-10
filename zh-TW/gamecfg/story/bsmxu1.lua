@@ -173,7 +173,7 @@ return {
 			blackBg = true,
 			actor = 900180,
 			nameColor = "#a9f548",
-			say = "这是…水下骑士U556的华丽首战就要来了！",
+			say = "这是…水下骑士U-556的华丽首战就要来了！",
 			effects = {
 				{
 					active = true,
@@ -245,7 +245,7 @@ return {
 			blackBg = true,
 			actor = 900180,
 			nameColor = "#a9f548",
-			say = "┗|｀O′|┛ 嗷~~水下骑士U556，出击（小声",
+			say = "┗|｀O′|┛ 嗷~~水下骑士U-556，出击（小声",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

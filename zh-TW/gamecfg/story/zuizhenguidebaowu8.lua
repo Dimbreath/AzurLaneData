@@ -315,7 +315,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "女将看着U556潜行而去的方向。",
+			say = "女将看着U-556潜行而去的方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

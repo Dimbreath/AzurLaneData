@@ -190,6 +190,8 @@ function slot0.displayAwards(slot0)
 				fromAwardLayer = true
 			})
 			setActive(findTF(slot5, "bonus"), slot6.riraty)
+			setActive(findTF(slot5, "bonus_catchup"), slot6.catchupTag)
+			setActive(findTF(slot5, "bonus_event"), slot6.catchupActTag)
 			setActive(findTF(slot5, "name"), false)
 			setActive(findTF(slot5, "name_mask"), true)
 			setScrollText(findTF(slot5, "name_mask/name"), slot6.name or getText(slot7))

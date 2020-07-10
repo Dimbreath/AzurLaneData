@@ -1844,7 +1844,9 @@ pg.furniture_data_template = {
 				{
 					202153
 				},
-				"fengcha"
+				"fengcha",
+				1,
+				1
 			}
 		},
 		animator = {
@@ -27082,6 +27084,1565 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[30001] = {
+		advice = 0,
+		describe = "七彩色牆壁，夢幻至極",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "七彩牆壁",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 30,
+		icon = "caihongchicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30001,
+		picture = "caihong/caihongch",
+		comfortable = 4,
+		tag = 3,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30002] = {
+		advice = 0,
+		describe = "彩色格子拼成的地板，色彩斑斕",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "斑斕地磚",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 30,
+		icon = "dibanchicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30002,
+		picture = "caihong/dibanch",
+		comfortable = 4,
+		tag = 4,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30101] = {
+		advice = 0,
+		describe = "這個冰沙看起來有好多味道啊",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "炫彩冰沙",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 30,
+		icon = "bingshachicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 30101,
+		picture = "caihong/bingshach",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					0,
+					-17
+				},
+				{
+					-1,
+					1
+				},
+				"caihong/bingshach_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30102] = {
+		advice = 0,
+		describe = "彩虹色的蛋糕上覆蓋了一層厚厚的巧克力",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "巧克力彩虹蛋糕",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 30,
+		icon = "chuangchicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 30102,
+		picture = "caihong/chuangch",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-10,
+					10
+				},
+				{
+					-1,
+					1
+				},
+				"caihong/chuangch_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30103] = {
+		advice = 0,
+		describe = "是時候展現自己了！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "星光大道",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 30,
+		icon = "dadaochicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 30103,
+		picture = "caihong/dadaoch",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					43,
+					53
+				},
+				{
+					1,
+					1
+				},
+				"caihong/dadaoch_using"
+			},
+			{
+				"dance",
+				{
+					-56,
+					-45
+				},
+				{
+					-1,
+					1
+				},
+				"caihong/dadaoch_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30104] = {
+		advice = 0,
+		describe = "印有花朵圖案的軟糖凳子",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "花朵圖案軟凳",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 30,
+		icon = "dengzi1chicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 30104,
+		picture = "caihong/dengzi1ch",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-7,
+					44
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30105] = {
+		advice = 0,
+		describe = "印有愛心圖案的軟糖凳子",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "愛心圖案軟凳",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 30,
+		icon = "dengzi2chicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 30105,
+		picture = "caihong/dengzi2ch",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-7,
+					44
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30106] = {
+		advice = 0,
+		describe = "果凍質感的座位，坐上去會抖動嗎？",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "果凍座位",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 30,
+		icon = "dengzi3chicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 30106,
+		picture = "caihong/dengzi3ch",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					1,
+					58
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30107] = {
+		advice = 0,
+		describe = "刷了一層多彩塗料的甜甜圈",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "甜甜圈座位",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 30,
+		icon = "dengzi4chicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 30107,
+		picture = "caihong/dengzi4ch",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-17,
+					37
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30108] = {
+		advice = 0,
+		describe = "顏料滴落凝固成的地毯",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "奇異地毯",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 30,
+		icon = "ditan2chicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30108,
+		picture = "caihong/ditan2ch",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30109] = {
+		advice = 0,
+		describe = "七色虹彩，波浪狀的地毯",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "七彩地毯",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 30,
+		icon = "ditanchicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30109,
+		picture = "caihong/ditanch",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30110] = {
+		advice = 0,
+		describe = "好孩子不要偷吃糖果哦",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "糖果罐子",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 30,
+		icon = "guanzichicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 30110,
+		picture = "caihong/guanzich",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-2,
+					-93
+				},
+				{
+					-1,
+					1
+				},
+				"caihong/guanzich_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30111] = {
+		advice = 0,
+		describe = "有請明星從彩虹拱門出場！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "彩虹拱門",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 30,
+		icon = "menchicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 30111,
+		picture = "caihong/mench",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					4,
+					-91
+				},
+				{
+					-1,
+					1
+				},
+				"caihong/mench_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30112] = {
+		advice = 0,
+		describe = "螺旋糾纏的棉花糖",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "螺旋棉花糖",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 30,
+		icon = "miaohuatang1chicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30112,
+		picture = "caihong/miaohuatang1ch",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30113] = {
+		advice = 0,
+		describe = "淡藍色的棉花糖",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "藍色棉花糖",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 30,
+		icon = "miaohuatang2chicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30113,
+		picture = "caihong/miaohuatang2ch",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30114] = {
+		advice = 0,
+		describe = "草綠色的棉花糖",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "綠色棉花糖",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 30,
+		icon = "miaohuatang3chicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30114,
+		picture = "caihong/miaohuatang3ch",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30115] = {
+		advice = 0,
+		describe = "淡粉色的棉花糖",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "粉色棉花糖",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 30,
+		icon = "miaohuatang4chicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30115,
+		picture = "caihong/miaohuatang4ch",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30116] = {
+		advice = 0,
+		describe = "飄啊飄的氣球裝飾",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "氣球裝飾",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 30,
+		icon = "qiqiuchicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30116,
+		picture = "caihong/qiqiuch",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30117] = {
+		advice = 0,
+		describe = "大小棒棒糖！",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "棒棒糖",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 30,
+		icon = "tang1chicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30117,
+		picture = "caihong/tang1ch",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30118] = {
+		advice = 0,
+		describe = "使用時會出現彩虹的浴池",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "多彩浴池",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 30,
+		icon = "yugangchicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 30118,
+		picture = "caihong/yugangch",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					31.9,
+					-102.9
+				},
+				{
+					-1,
+					1
+				},
+				"caihong/yugangch_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30119] = {
+		advice = 0,
+		describe = "刷了一層多彩塗料的桌子",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "彩墨桌子",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 30,
+		icon = "zhuozi2chicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30119,
+		picture = "caihong/zhuozi2ch",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			3
+		},
+		offset = {
+			0,
+			10.4
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				4,
+				1
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30120] = {
+		advice = 0,
+		describe = "從完整蛋糕上切下的部分",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "切塊蛋糕桌",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 30,
+		icon = "zhuozichicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30120,
+		picture = "caihong/zhuozich",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			4
+		},
+		offset = {
+			0,
+			18.8
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30121] = {
+		advice = 0,
+		describe = "大大的彩虹城堡！，一次可以進去三個人！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "彩虹城堡",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 30,
+		icon = "chengbaochicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 30121,
+		picture = "caihong/chengbaoch",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			6,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-4,
+					-9
+				},
+				{
+					-1,
+					1
+				},
+				"caihong/chengbaoch_using1"
+			},
+			{
+				"sleep",
+				{
+					-152,
+					-57
+				},
+				{
+					-1,
+					1
+				},
+				"caihong/chengbaoch_using2"
+			},
+			{
+				"sleep",
+				{
+					68,
+					-167
+				},
+				{
+					-1,
+					1
+				},
+				"caihong/chengbaoch_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30122] = {
+		advice = 0,
+		describe = "預備～～～發射！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "紅色禮炮",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 30,
+		icon = "caihongdapaoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30122,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"caihongdapaoB",
+				"normal"
+			},
+			{
+				"caihongdapaoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				-1,
+				1
+			}
+		},
+		animator = {
+			{
+				"caihongdapaoCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[30123] = {
+		advice = 0,
+		describe = "Let's go～沒有人能追上我的speed～",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "彩虹雲",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 30,
+		icon = "caihongyunicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30123,
+		picture = "",
+		comfortable = 5,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"caihongyun",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"caihongyunCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[30124] = {
+		advice = 0,
+		describe = "收下這份驚喜吧！",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "彩虹嚇人箱·貳",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 30,
+		icon = "caihongxiarenxiangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 30124,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"caihongxiarenxiang1B",
+				"normal"
+			},
+			{
+				"caihongxiarenxiang1T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				-1,
+				1
+			}
+		},
+		animator = {
+			{
+				"caihongxiarenxiang1CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[30125] = {
+		advice = 0,
+		describe = "收下這份驚喜吧！",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "彩虹嚇人箱·壹",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 30,
+		icon = "caihongxiarenxiangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 30125,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"caihongxiarenxiang2B",
+				"normal"
+			},
+			{
+				"caihongxiarenxiang2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				-1,
+				1
+			}
+		},
+		animator = {
+			{
+				"caihongxiarenxiang2CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[30201] = {
+		advice = 0,
+		describe = "小小的食用棉花糖",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "小棉花糖",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 30,
+		icon = "miaohua1chicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30201,
+		picture = "caihong/miaohua1ch",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30202] = {
+		advice = 0,
+		describe = "健康的綠色沙拉",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "綠色沙拉",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 30,
+		icon = "shiwuchicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30202,
+		picture = "caihong/shiwuch",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30301] = {
+		advice = 0,
+		describe = "能看到窗外彩虹的雲朵狀窗戶",
+		count = 4,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "虹彩窗戶",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 30,
+		icon = "chuanghuchicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30301,
+		picture = "caihong/chuanghuch",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30302] = {
+		advice = 0,
+		describe = "天氣播報掛飾",
+		count = 2,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "天氣掛飾",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 30,
+		icon = "guashichicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30302,
+		picture = "caihong/guashich",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30303] = {
+		advice = 0,
+		describe = "七色彩虹鐘",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "七色時鐘",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 30,
+		icon = "zhongchicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 30303,
+		picture = "caihong/zhongch",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[35001] = {
 		advice = 0,
 		describe = "鬼魂荒野之地",
@@ -38228,6 +39789,38 @@ pg.furniture_data_template = {
 		28305,
 		28306,
 		28307,
+		30001,
+		30002,
+		30101,
+		30102,
+		30103,
+		30104,
+		30105,
+		30106,
+		30107,
+		30108,
+		30109,
+		30110,
+		30111,
+		30112,
+		30113,
+		30114,
+		30115,
+		30116,
+		30117,
+		30118,
+		30119,
+		30120,
+		30121,
+		30122,
+		30123,
+		30124,
+		30125,
+		30201,
+		30202,
+		30301,
+		30302,
+		30303,
 		35001,
 		35002,
 		35101,

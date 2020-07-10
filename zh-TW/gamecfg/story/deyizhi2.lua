@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"德意志的忧郁\n\n<size=45>二　高贵</size>",
+					"德意志的憂鬱\n\n<size=45>二　高貴</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "和德意志出外勤的时候，看到了这样的一幕。",
+			say = "和德意志出外勤的時候，看到了這樣的一幕。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "贝尔法斯特，为什么我身为女王也非得去演习不可。",
+			say = "貝爾法斯特，為什麼我身為女王也非得去演習不可。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "那是因为您同时也是舰队里的一员，陛下。",
+			say = "那是因為您同時也是艦隊裡的一員，陛下。",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -87,7 +87,7 @@ return {
 			dir = -1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "我不想去，交给厌战去吧！",
+			say = "我不想去，交給厭戰去吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请不要任性，陛下。",
+			say = "請不要任性，陛下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "哼，皇家的女王居然还会受仆人的意见左右，在我们铁血，这种事是绝对不会发生的！",
+			say = "哼，皇家的女王居然還會受僕人的意見左右，在我們鐵血，這種事是絕對不會發生的！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -162,7 +162,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那边不是格奈森瑙嘛，来得正好，仆人，妳看着。",
+			say = "那邊不是格奈森瑙嗎，來得正好，僕人，你看著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			say = "这不是德意志吗，怎么了？",
+			say = "這不是德意志嗎，怎麼了？",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -224,7 +224,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明天的演习我不想去了，就交给妳们吧！",
+			say = "明天的演習我不想去了，就交給妳們吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……倒是也没有什么特别的问题呢，我会转告提尔比茨请她处理好的。",
+			say = "唔……倒是也沒有什麼特別的問題呢，我會轉告鐵必制請她處理好的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			say = "那么，我先告辞了。",
+			say = "那麼，我先告辭了。",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "格奈森瑙说完就离开了。",
+			say = "格奈森瑙說完就離開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "哼，看到了吧，仆人！",
+			say = "哼，看到了吧，僕人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "……格奈森瑙的态度，与其说是顺从，不如说是无所谓呢。",
+			say = "……格奈森瑙的態度，與其說是順從，不如說是無所謂呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "感觉像是早就习惯了这样的要求。",
+			say = "感覺像是早就習慣了這樣的要求。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "哼，我才是铁血的精神领袖呢！",
+			say = "哼，我才是鐵血的精神領袖呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "……但是，这样的情况，究竟能持续多久呢？",
+			say = "……但是，這樣的情況，究竟能持續多久呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

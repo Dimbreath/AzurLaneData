@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "U556以迅雷不及掩耳之势钻入了海中",
+			say = "U-556以迅雷不及掩耳之势钻入了海中",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "指挥官号驱逐舰反潜作战失败！U556号开始反击！",
+			say = "指挥官号驱逐舰反潜作战失败！U-556号开始反击！",
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "嘿嘿，U556也非常开心！",
+			say = "嘿嘿，U-556也非常开心！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我U556在此时此刻，向着海洋之神发誓：今后不管指挥官遇到什么困难与危险，我都会第一时间，并且一直帮助和保护指挥官！",
+			say = "我U-556在此时此刻，向着海洋之神发誓：今后不管指挥官遇到什么困难与危险，我都会第一时间，并且一直帮助和保护指挥官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为交换，指挥官要在U556需要的时候，一直陪着U556，不能擅自从U556身边离开！",
+			say = "作为交换，指挥官要在U-556需要的时候，一直陪着U-556，不能擅自从U-556身边离开！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

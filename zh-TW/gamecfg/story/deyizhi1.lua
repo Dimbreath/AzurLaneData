@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"德意志的忧郁\n\n<size=45>一　开端</size>",
+					"德意志的憂鬱\n\n<size=45>一　開端</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "仆人，无聊死了。",
+			say = "僕人，無聊死了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原本以为做秘书舰会有什么有趣的事情，结果这不是一天到晚只能呆在这间房间里。",
+			say = "原本以為做秘書艦會有什麼有趣的事情，結果這不是一天到晚只能待在這間房間裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且妳身为区区下等生物的仆人，居然还敢冷落主人只顾着工作……",
+			say = "而且你身為區區下等生物的僕人，居然還敢冷落主人只顧著工作……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "限妳马上给我找些有趣的事情来，不然我就回去了！",
+			say = "限你馬上給我找些有趣的事情來，不然我就回去了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,14 +125,14 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			withoutActorName = true,
-			say = "……虽然担任了秘书舰，不过德意志还是一如既往的样子。",
+			say = "……雖然擔任了秘書艦，不過德意志還是一如既往的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "请德意志帮忙工作",
+					content = "請德意志幫忙工作",
 					flag = 1
 				}
 			}
@@ -143,29 +143,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "我才不要，下等生物的工作跟我有什么关系。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			options = {
-				{
-					content = "恳请德意志帮忙工作",
-					flag = 1
-				}
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			actor = 403040,
-			nameColor = "#a9f548",
-			say = "就算妳用这种眼神看着我也是没用的！",
+			say = "我才不要，下等生物的工作跟我有什麼關係。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +154,7 @@ return {
 			},
 			options = {
 				{
-					content = "拜托了，主人！",
+					content = "懇請德意志幫忙工作",
 					flag = 1
 				}
 			}
@@ -187,7 +165,29 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "……啧，区区下等生物，居然要让我这个主人来帮忙，真是个无可救药的仆人！",
+			say = "就算你用這種眼神看著我也是沒用的！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			options = {
+				{
+					content = "拜託了，主人！",
+					flag = 1
+				}
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
+			say = "……嘖，區區下等生物，居然要讓我這個主人來幫忙，真是個無可救藥的僕人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			say = "不过看在妳这么诚心的份上，我就大发慈悲地帮妳做些什么好了。",
+			say = "不過看在你這麼誠心的份上，我就大發慈悲地幫你做些什麼好了。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			actor = 201220,
 			nameColor = "#a9f548",
-			say = "那、那个，指挥官。",
+			say = "那、那個，指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			actor = 201220,
 			nameColor = "#a9f548",
-			say = "我是来提交任务报告的……",
+			say = "我是來提交任務報告的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			actor = 201220,
 			nameColor = "#a9f548",
-			say = "!…如、如果没有什么别的事的话，我就先走了。",
+			say = "!…如、如果沒有什麼別的事的話，我就先走了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……天后飞也似地离开了指挥室。",
+			say = "……天后飛也似地離開了指揮室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "哈哈哈哈，仆人妳看到了吗，刚才那只驱逐受惊的眼神！",
+			say = "哈哈哈哈，僕人你看到了嗎，剛才那隻驅逐受驚的眼神！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种感觉不错，非常不错，嗯，我决定了！",
+			say = "這種感覺不錯，非常不錯，嗯，我決定了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了能每天都看到这种眼神，我就继续做这个秘书舰吧！",
+			say = "為了能每天都看到這種眼神，我就繼續做這個秘書艦吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "德意志似乎找到了作为秘书舰的乐趣。",
+			say = "德意志似乎找到了作為秘書艦的樂趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "不过或许她的性格方面应该想想办法比较好……",
+			say = "不過或許她的性格方面應該想想辦法比較好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "距U556开始担任秘书舰已经过去了一段时间",
+			say = "距U-556开始担任秘书舰已经过去了一段时间",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U556看起来……有点无精打采的样子？",
+			say = "U-556看起来……有点无精打采的样子？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			say = "嗯？是U556吗。",
+			say = "嗯？是U-556吗。",
 			side = 1,
 			bgName = "bg_guild_red",
 			dir = 1,

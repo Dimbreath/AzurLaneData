@@ -53,7 +53,7 @@ function slot0.Update(slot0, slot1)
 
 	if slot8 and slot8 > 0 or slot7 then
 		setAnchoredPosition(slot0.comfortableTF, {
-			y = -43
+			y = -32
 		})
 	else
 		setAnchoredPosition(slot0.comfortableTF, {

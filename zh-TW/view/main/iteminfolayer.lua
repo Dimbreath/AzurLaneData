@@ -42,6 +42,10 @@ function slot0.init(slot0)
 	slot0.top = slot0:findTF("window/top")
 	slot0.operatePanel = slot0:findTF("operate")
 	slot0.countTF = slot0:findTF("operate/item/icon_bg/count"):GetComponent(typeof(Text))
+	slot0.keepFateTog = slot0:findTF("got/keep_tog", slot0.operatePanel)
+
+	setText(slot0:findTF("label", slot0.keepFateTog), i18n("keep_fate_tip"))
+
 	slot0.operateBtns = {
 		Confirm = slot0:findTF("actions/confirm_button", slot0.operatePanel),
 		Cancel = slot0:findTF("actions/cancel_button", slot0.operatePanel),
@@ -156,11 +160,14 @@ function slot0.setItem(slot0, slot1)
 
 			if not LOCK_FRAGMENT_SHOP and slot6 and slot5:getBluePrintById(slot6):isMaxLevel() then
 				setActive(slot0.resolveBtn, true)
+				slot0:UpdateBlueprintResolveNum()
 			end
 
 			slot0:setItemInfo(slot1, slot0:findTF("item", slot0.operatePanel))
-
-			slot0.operateMax = slot0.itemVO.count
+		elseif slot4 == Item.TEC_SPEEDUP_TYPE then
+			setActive(slot0.resolveBtn, true)
+			slot0:UpdateSpeedUpResolveNum()
+			slot0:setItemInfo(slot1, slot0:findTF("item", slot0.operatePanel))
 		end
 	end
 
@@ -322,6 +329,29 @@ function slot0.didEnter(slot0)
 			uv0:SetOperateCount(1)
 		end
 	end, SFX_CONFIRM)
+
+	slot0.keepFateState = not getProxy(PlayerProxy):getData():GetCommonFlag(SHOW_DONT_KEEP_FATE_ITEM)
+	GetComponent(slot0.keepFateTog, typeof(Toggle)).isOn = slot0.keepFateState
+
+	onToggle(slot0, slot0.keepFateTog, function (slot0)
+		uv0.keepFateState = slot0
+
+		if slot0 then
+			pg.m02:sendNotification(GAME.CANCEL_COMMON_FLAG, {
+				flagID = SHOW_DONT_KEEP_FATE_ITEM
+			})
+		else
+			pg.m02:sendNotification(GAME.COMMON_FLAG, {
+				flagID = SHOW_DONT_KEEP_FATE_ITEM
+			})
+		end
+
+		uv1()
+	end)
+	function ()
+		uv0:UpdateBlueprintResolveNum()
+		uv0:SetOperateCount(1)
+	end()
 end
 
 function slot0.UpdateCount(slot0, slot1)
@@ -349,7 +379,7 @@ function slot0.SetOperateCount(slot0, slot1)
 		end
 
 		slot0:updateItemCount(slot0.itemVO.count - slot0.operateCount * slot2.compose_number)
-	elseif slot0.operateMode == uv0.RESOLVE and slot0.operateCount ~= math.clamp(slot1, 1, slot0.itemVO.count) then
+	elseif slot0.operateMode == uv0.RESOLVE and slot0.operateCount ~= math.clamp(slot1, 0, slot0.operateMax) then
 		slot0.operateCount = slot1
 
 		slot0:UpdateResolvePanel()
@@ -400,6 +430,7 @@ function slot0.UpdateComposeCount(slot0)
 	end
 
 	setText(slot0.operateCountdesc, i18n("compose_amount_prefix"))
+	setActive(slot0.keepFateTog, false)
 end
 
 function slot0.UpdateResolvePanel(slot0)
@@ -436,6 +467,34 @@ function slot0.UpdateResolvePanel(slot0)
 	end
 
 	setText(slot0.operateCountdesc, i18n("resolve_amount_prefix"))
+
+	if slot0.itemVO:getConfig("type") == Item.TEC_SPEEDUP_TYPE then
+		setActive(slot0.keepFateTog, false)
+	else
+		setActive(slot0.keepFateTog, true)
+	end
+
+	setButtonEnabled(slot0.operateBtns.Resolve, slot1 > 0)
+end
+
+function slot0.UpdateBlueprintResolveNum(slot0)
+	slot1 = slot0.itemVO.count
+
+	if slot0.itemVO:getConfig("type") == Item.BLUEPRINT_TYPE then
+		slot3 = getProxy(TechnologyProxy)
+
+		if slot0.keepFateState and slot0.itemVO.count - slot3:getBluePrintById(slot3:GetBlueprint4Item(slot0.itemVO.id)):getFateMaxLeftOver() < 0 then
+			slot1 = 0
+		end
+	end
+
+	slot0.operateMax = slot1
+end
+
+function slot0.UpdateSpeedUpResolveNum(slot0)
+	if slot0.itemVO:getConfig("type") == Item.TEC_SPEEDUP_TYPE then
+		slot0.operateMax = slot0.itemVO.count
+	end
 end
 
 function slot0.willExit(slot0)

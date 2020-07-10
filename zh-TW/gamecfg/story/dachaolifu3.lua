@@ -115,7 +115,7 @@ return {
 			bgName = "star_level_bg_115",
 			actor = 408041,
 			nameColor = "#a9f548",
-			say = "嘿嘿嘿，我找到u47啦！",
+			say = "嘿嘿嘿，我找到U-47啦！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			actor = 401234,
 			nameColor = "#a9f548",
-			say = "真是的，u47，这可是我们铁血主办的宴会哦，作为铁血的一员怎么能这样躲在没人的角落呢！",
+			say = "真是的，U-47，这可是我们铁血主办的宴会哦，作为铁血的一员怎么能这样躲在没人的角落呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

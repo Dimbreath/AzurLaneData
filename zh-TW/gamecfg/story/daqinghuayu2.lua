@@ -168,7 +168,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			hideOther = true,
-			actorName = "U81&伊19",
+			actorName = "U-81&伊19",
 			say = "三，四~",
 			subActors = {
 				{
@@ -242,7 +242,7 @@ return {
 			actor = 308030,
 			dir = 1,
 			hideOther = true,
-			actorName = "伊58&U557",
+			actorName = "伊58&U-557",
 			say = "五，六……",
 			subActors = {
 				{
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，为什么U47没有来呢？",
+			say = "对了，为什么U-47没有来呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

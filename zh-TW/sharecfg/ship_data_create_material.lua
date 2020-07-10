@@ -70,11 +70,11 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精銳艦船</color>：12%",
 			"<color=#3dc6ff>稀有艦船</color>：51%",
 			"普通艦船：30%",
-			"<color=#ffde38>天城</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>加賀</color>：0.5%",
-			"<color=#d797ff>足柄</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>旗風</color>：5%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>那珂</color>：5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>伊168</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>U-101</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>伊25</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>伊56</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>U-522</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

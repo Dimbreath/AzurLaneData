@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"融冰\n\n<size=45>四　出击</size>",
+					"融冰\n\n<size=45>四　出擊</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "今天的巡逻分队由提尔比茨担当旗舰",
+			say = "今天的巡邏分隊由鐵必制擔當旗艦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			say = "啊，好无聊~今天的海面也是风平浪静呢。",
+			say = "啊，好無聊~今天的海面也是風平浪靜呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			say = "集中注意力！要是这种时候敌人出现了怎么办！",
+			say = "集中注意力！要是這種時候敵人出現了怎麼辦！",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "不会有敌人的啦！按照最近的观测报告，这一片海域已经两个多星期没出现敌人了。",
+			say = "不會有敵人的啦！按照最近的觀測報告，這一片海域已經兩個多星期沒出現敵人了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "但是，万一的话……",
+			say = "但是，萬一的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "没有什么万一的啦！哈啊……赶紧结束吧，我还要去长跑呢！",
+			say = "沒有什麼萬一的啦！哈啊……趕緊結束吧，我還要去長跑呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			actor = 405020,
 			nameColor = "#a9f548",
-			say = "我们差不多到达巡逻折返点了，做好返航的准备吧。",
+			say = "我們差不多到達巡邏折返點了，做好返航的準備吧。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			say = "（不过，这种不详的预感究竟是……）",
+			say = "（不過，這種不詳的預感究竟是……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			say = "雷达发现敌人！是塞壬的驱逐舰部队！",
+			say = "雷達發現敵人！是塞壬的驅逐艦部隊！",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "敌方数量很少，只要交给我们驱逐部队就……",
+			say = "敵方數量很少，只要交給我們驅逐部隊就……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			say = "可恶！",
+			say = "可惡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			}
 		},
 		{
-			say = "连续的猛烈炮击从后方响起",
+			say = "連續的猛烈炮擊從後方響起",
 			bgName = "bg_story_nepu1",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			say = "哇！发生什么了？",
+			say = "哇！發生什麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			say = "是提尔比茨的支援炮击…敌方部队，全灭",
+			say = "是鐵必制的支援炮擊…敵方部隊，全滅",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "总，总之我们没事了吧？",
+			say = "總，總之我們沒事了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "谢谢妳，提尔比茨…",
+			say = "謝謝妳，鐵必制…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "…不客气",
+			say = "…不客氣",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			say = "先向指挥部汇报这里的情况吧。",
+			say = "先向指揮部匯報這裡的情況吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			blackBg = true,
 			actor = 405020,
 			nameColor = "#a9f548",
-			say = "（我这是怎么了？）",
+			say = "（我這是怎麼了？）",
 			flashout = {
 				dur = 1,
 				black = true,

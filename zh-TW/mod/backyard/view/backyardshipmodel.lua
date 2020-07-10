@@ -847,6 +847,10 @@ function slot0.resumeAnim(slot0)
 	end
 end
 
+slot5 = 0
+slot6 = 1
+slot7 = 2
+
 function slot0.playAnims(slot0, slot1)
 	slot2 = slot1:getSpineAnims()
 	slot3 = 0
@@ -915,16 +919,22 @@ function slot0.playAnims(slot0, slot1)
 			slot3 = uv0[slot1][3]
 		end
 
-		if uv2:getUniqueShipAction(slot3, uv1.boatVO.skinId) then
+		slot4, slot5 = uv2:getUniqueShipAction(slot3, uv1.boatVO)
+
+		if slot4 and slot5 == uv3 then
+			slot3 = slot4
+		elseif slot4 and slot5 == uv4 and slot0 == uv1.roles[1] then
+			slot3 = slot4
+		elseif slot4 and slot5 == uv5 and slot0 ~= uv1.roles[1] then
 			slot3 = slot4
 		end
 
 		slot0:SetAction(slot3, 0)
 
-		if _.detect(uv3, function (slot0)
+		if _.detect(uv6, function (slot0)
 			return slot0[1] == uv0 and uv1.id == slot0[3]
 		end) then
-			slot6 = slot5[2]
+			slot7 = slot6[2]
 
 			if uv1.timer[slot0] then
 				uv1.timer[slot0]:Stop()
@@ -938,7 +948,7 @@ function slot0.playAnims(slot0, slot1)
 				uv0.timer[uv1] = nil
 
 				uv2()
-			end, slot6, 1)
+			end, slot7, 1)
 
 			uv1.timer[slot0]:Start()
 		else

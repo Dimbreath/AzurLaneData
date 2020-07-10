@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "原来是U73啊…不对，U73！妳趁着中午的时候在教室做什么呢！？咳、咳咳…",
+			say = "原来是U-73啊…不对，U-73！妳趁着中午的时候在教室做什么呢！？咳、咳咳…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以U73妳在做什么呀，弄出这么大的声响？",
+			say = "所以U-73妳在做什么呀，弄出这么大的声响？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

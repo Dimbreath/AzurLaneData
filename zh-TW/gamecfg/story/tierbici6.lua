@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "今天的工作比往常都要多，一直到晚上都没有处理完。",
+			say = "今天的工作比往常都要多，一直到晚上都沒有處理完。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,23 +61,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到今天的任务有这么多，昨天制定工作计划的时候我应该考虑到这些的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 405020,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "辛苦妳了，指挥官。让妳一起陪我工作到这么晚，实在是抱歉。",
+			say = "沒想到今天的任務有這麼多，昨天制定工作計劃的時候我應該考慮到這些的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,12 +72,28 @@ return {
 			}
 		},
 		{
+			actor = 405020,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "辛苦你了，指揮官。讓你一起陪我工作到這麼晚，實在是抱歉。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 405020,
 			nameColor = "#a9f548",
-			say = "如果妳感觉累了的话，就先去休息吧，剩下的工作交给我就行。",
+			say = "如果你感覺累了的話，就先去休息吧，剩下的工作交給我就行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			},
 			options = {
 				{
-					content = "提尔比茨，变了很多呢。",
+					content = "鐵必制，變了很多呢。",
 					flag = 1
 				}
 			}
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我？我变了什么吗？",
+			say = "我？我變了什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“关心队友？”那不过是作为旗舰的本职。",
+			say = "“關心隊友？ ”那不過是作為旗艦的本職。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“关心指挥官？”这也是作为秘书舰的职责吧。",
+			say = "“關心指揮官？ ”這也是作為秘書艦的職責吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			actor = 405020,
 			nameColor = "#a9f548",
-			say = "“经常和别人交流？”那是……",
+			say = "“經常和別人交流？ ”那是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			},
 			options = {
 				{
-					content = "坚冰融化了呢",
+					content = "堅冰融化了呢",
 					flag = 1
 				}
 			}
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
-			say = "提尔比茨一瞬间露出了吃惊的表情",
+			say = "鐵必制一瞬間露出了吃驚的表情",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "坚冰…融化了吗",
+			say = "堅冰…融化了嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来，我没有忘记啊……",
+			say = "原來，我沒有忘記啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我只是用冰冷的外壳将自己包裹起来，拒绝了同伴，拒绝了一切",
+			say = "我只是用冰冷的外殼將自己包裹起來，拒絕了同伴，拒絕了一切",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我以为自己早已习惯了寒冷与孤独……原来我只是忘记了这份温暖。",
+			say = "我以為自己早已習慣了寒冷與孤獨……原來我只是忘記了這份溫暖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢妳，指挥官。",
+			say = "謝謝你，指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "提尔比茨笑了。",
+			say = "鐵必制笑了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "果然，还是笑容最适合女王呢。",
+			say = "果然，還是笑容最適合女王呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

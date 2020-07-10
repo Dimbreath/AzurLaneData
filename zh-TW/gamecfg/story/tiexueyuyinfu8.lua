@@ -322,7 +322,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "话音刚落，U556一个倒身翻滚潜入了港口的水里，整套动作颇为滑稽",
+			say = "话音刚落，U-556一个倒身翻滚潜入了港口的水里，整套动作颇为滑稽",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "说完，俾斯麦转身离开，U556泡在水面上目送她的离去",
+			say = "说完，俾斯麦转身离开，U-556泡在水面上目送她的离去",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "潜艇U556，准备出击！",
+			say = "潜艇U-556，准备出击！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			bgName = "bg_bsm_1",
 			dir = 1,
 			useBg2 = true,
-			say = "海岸边，俾斯麦的专属军乐队排成整齐的队列，演奏着为战士送行的乐曲，目送着U556的出击",
+			say = "海岸边，俾斯麦的专属军乐队排成整齐的队列，演奏着为战士送行的乐曲，目送着U-556的出击",
 			effects = {
 				{
 					active = true,
@@ -1023,7 +1023,7 @@ return {
 			bgName = "bg_bsm_1",
 			dir = 1,
 			useBg2 = true,
-			say = "U556递过一张有着文字和涂鸦的纸张，俾斯麦接了过来",
+			say = "U-556递过一张有着文字和涂鸦的纸张，俾斯麦接了过来",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1074,7 +1074,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ffde38",
-			say = "以水下骑士之名，U556必定会遵守誓言，守护俾斯麦姐姐！",
+			say = "以水下骑士之名，U-556必定会遵守誓言，守护俾斯麦姐姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1123,7 +1123,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ffde38",
-			say = "我们未来一定会再见面的！潜艇U556，出击！",
+			say = "我们未来一定会再见面的！潜艇U-556，出击！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1138,7 +1138,7 @@ return {
 			bgName = "bg_bsm_1",
 			dir = 1,
 			useBg2 = true,
-			say = "说完，U556再次一个倒身翻滚潜入了港口的水里，消失了",
+			say = "说完，U-556再次一个倒身翻滚潜入了港口的水里，消失了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1217,7 +1217,7 @@ return {
 					4
 				},
 				{
-					"<size=60>U556都将帮助她的姐姐俾斯麦击退所有飞机和鱼雷的攻击</size>",
+					"<size=60>U-556都将帮助她的姐姐俾斯麦击退所有飞机和鱼雷的攻击</size>",
 					6
 				},
 				{
@@ -1225,11 +1225,11 @@ return {
 					8
 				},
 				{
-					"<size=60>哪怕是用拖，U556也要把她的姐姐拖回港口</size>",
+					"<size=60>哪怕是用拖，U-556也要把她的姐姐拖回港口</size>",
 					10
 				},
 				{
-					"<size=60>                                                 ——水下骑士U556</size>",
+					"<size=60>                                                 ——水下骑士U-556</size>",
 					13
 				}
 			}

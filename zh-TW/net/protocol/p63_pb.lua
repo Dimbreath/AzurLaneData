@@ -6,6 +6,7 @@ module("p63_pb")
 slot2 = {
 	SC_63000_REFRESH_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_63000_REFRESH_FLAG_FIELD = slot0.FieldDescriptor(),
+	SC_63000_CATCHUP_FIELD = slot0.FieldDescriptor(),
 	CS_63001_TECH_ID_FIELD = slot0.FieldDescriptor(),
 	CS_63001_REFRESH_ID_FIELD = slot0.FieldDescriptor(),
 	SC_63002_RESULT_FIELD = slot0.FieldDescriptor(),
@@ -15,6 +16,8 @@ slot2 = {
 	SC_63004_COMMON_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_63004_REFRESH_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_63004_DROP_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_63004_CATCHUP_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_63004_CATCHUPACT_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_63005_TECH_ID_FIELD = slot0.FieldDescriptor(),
 	CS_63005_REFRESH_ID_FIELD = slot0.FieldDescriptor(),
 	SC_63006_RESULT_FIELD = slot0.FieldDescriptor(),
@@ -24,6 +27,10 @@ slot2 = {
 	CS_63009_ID_FIELD = slot0.FieldDescriptor(),
 	CS_63009_TARGET_FIELD = slot0.FieldDescriptor(),
 	SC_63010_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_63011_TARGET_FIELD = slot0.FieldDescriptor(),
+	SC_63012_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_63013_TARGET_FIELD = slot0.FieldDescriptor(),
+	SC_63014_RESULT_FIELD = slot0.FieldDescriptor(),
 	TECHNOLOGYREFRESH_ID_FIELD = slot0.FieldDescriptor(),
 	TECHNOLOGYREFRESH_TARGET_FIELD = slot0.FieldDescriptor(),
 	TECHNOLOGYREFRESH_TECHNOLOGYS_FIELD = slot0.FieldDescriptor(),
@@ -44,12 +51,19 @@ slot2 = {
 	SC_63207_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_63208_BLUEPRINT_ID_FIELD = slot0.FieldDescriptor(),
 	SC_63209_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_63210_BLUEPRINTID_FIELD = slot0.FieldDescriptor(),
+	CS_63210_ITEMID_FIELD = slot0.FieldDescriptor(),
+	CS_63210_NUMBER_FIELD = slot0.FieldDescriptor(),
+	SC_63211_RESULT_FIELD = slot0.FieldDescriptor(),
 	BLUPRINTINFO_ID_FIELD = slot0.FieldDescriptor(),
 	BLUPRINTINFO_SHIP_ID_FIELD = slot0.FieldDescriptor(),
 	BLUPRINTINFO_START_TIME_FIELD = slot0.FieldDescriptor(),
 	BLUPRINTINFO_BLUE_PRINT_LEVEL_FIELD = slot0.FieldDescriptor(),
 	BLUPRINTINFO_EXP_FIELD = slot0.FieldDescriptor(),
-	BLUPRINTINFO_START_DURATION_FIELD = slot0.FieldDescriptor()
+	BLUPRINTINFO_START_DURATION_FIELD = slot0.FieldDescriptor(),
+	TECHNOLOGYCATCHUP_ID_FIELD = slot0.FieldDescriptor(),
+	TECHNOLOGYCATCHUP_TARGET_FIELD = slot0.FieldDescriptor(),
+	TECHNOLOGYCATCHUP_NUMBER_FIELD = slot0.FieldDescriptor()
 }
 SC_63000 = slot0.Descriptor()
 CS_63001 = slot0.Descriptor()
@@ -62,6 +76,10 @@ CS_63007 = slot0.Descriptor()
 SC_63008 = slot0.Descriptor()
 CS_63009 = slot0.Descriptor()
 SC_63010 = slot0.Descriptor()
+CS_63011 = slot0.Descriptor()
+SC_63012 = slot0.Descriptor()
+CS_63013 = slot0.Descriptor()
+SC_63014 = slot0.Descriptor()
 TECHNOLOGYREFRESH = slot0.Descriptor()
 TECHNOLOGYINFO = slot0.Descriptor()
 SC_63100 = slot0.Descriptor()
@@ -75,7 +93,10 @@ CS_63206 = slot0.Descriptor()
 SC_63207 = slot0.Descriptor()
 CS_63208 = slot0.Descriptor()
 SC_63209 = slot0.Descriptor()
+CS_63210 = slot0.Descriptor()
+SC_63211 = slot0.Descriptor()
 BLUPRINTINFO = slot0.Descriptor()
+TECHNOLOGYCATCHUP = slot0.Descriptor()
 slot2.SC_63000_REFRESH_LIST_FIELD.name = "refresh_list"
 slot2.SC_63000_REFRESH_LIST_FIELD.full_name = "p63.sc_63000.refresh_list"
 slot2.SC_63000_REFRESH_LIST_FIELD.number = 1
@@ -95,13 +116,24 @@ slot2.SC_63000_REFRESH_FLAG_FIELD.has_default_value = false
 slot2.SC_63000_REFRESH_FLAG_FIELD.default_value = 0
 slot2.SC_63000_REFRESH_FLAG_FIELD.type = 13
 slot2.SC_63000_REFRESH_FLAG_FIELD.cpp_type = 3
+slot2.SC_63000_CATCHUP_FIELD.name = "catchup"
+slot2.SC_63000_CATCHUP_FIELD.full_name = "p63.sc_63000.catchup"
+slot2.SC_63000_CATCHUP_FIELD.number = 3
+slot2.SC_63000_CATCHUP_FIELD.index = 2
+slot2.SC_63000_CATCHUP_FIELD.label = 2
+slot2.SC_63000_CATCHUP_FIELD.has_default_value = false
+slot2.SC_63000_CATCHUP_FIELD.default_value = nil
+slot2.SC_63000_CATCHUP_FIELD.message_type = TECHNOLOGYCATCHUP
+slot2.SC_63000_CATCHUP_FIELD.type = 11
+slot2.SC_63000_CATCHUP_FIELD.cpp_type = 10
 SC_63000.name = "sc_63000"
 SC_63000.full_name = "p63.sc_63000"
 SC_63000.nested_types = {}
 SC_63000.enum_types = {}
 SC_63000.fields = {
 	slot2.SC_63000_REFRESH_LIST_FIELD,
-	slot2.SC_63000_REFRESH_FLAG_FIELD
+	slot2.SC_63000_REFRESH_FLAG_FIELD,
+	slot2.SC_63000_CATCHUP_FIELD
 }
 SC_63000.is_extendable = false
 SC_63000.extensions = {}
@@ -218,6 +250,26 @@ slot2.SC_63004_DROP_LIST_FIELD.default_value = {}
 slot2.SC_63004_DROP_LIST_FIELD.message_type = slot1.DROPINFO
 slot2.SC_63004_DROP_LIST_FIELD.type = 11
 slot2.SC_63004_DROP_LIST_FIELD.cpp_type = 10
+slot2.SC_63004_CATCHUP_LIST_FIELD.name = "catchup_list"
+slot2.SC_63004_CATCHUP_LIST_FIELD.full_name = "p63.sc_63004.catchup_list"
+slot2.SC_63004_CATCHUP_LIST_FIELD.number = 5
+slot2.SC_63004_CATCHUP_LIST_FIELD.index = 4
+slot2.SC_63004_CATCHUP_LIST_FIELD.label = 3
+slot2.SC_63004_CATCHUP_LIST_FIELD.has_default_value = false
+slot2.SC_63004_CATCHUP_LIST_FIELD.default_value = {}
+slot2.SC_63004_CATCHUP_LIST_FIELD.message_type = slot1.DROPINFO
+slot2.SC_63004_CATCHUP_LIST_FIELD.type = 11
+slot2.SC_63004_CATCHUP_LIST_FIELD.cpp_type = 10
+slot2.SC_63004_CATCHUPACT_LIST_FIELD.name = "catchupact_list"
+slot2.SC_63004_CATCHUPACT_LIST_FIELD.full_name = "p63.sc_63004.catchupact_list"
+slot2.SC_63004_CATCHUPACT_LIST_FIELD.number = 6
+slot2.SC_63004_CATCHUPACT_LIST_FIELD.index = 5
+slot2.SC_63004_CATCHUPACT_LIST_FIELD.label = 3
+slot2.SC_63004_CATCHUPACT_LIST_FIELD.has_default_value = false
+slot2.SC_63004_CATCHUPACT_LIST_FIELD.default_value = {}
+slot2.SC_63004_CATCHUPACT_LIST_FIELD.message_type = slot1.DROPINFO
+slot2.SC_63004_CATCHUPACT_LIST_FIELD.type = 11
+slot2.SC_63004_CATCHUPACT_LIST_FIELD.cpp_type = 10
 SC_63004.name = "sc_63004"
 SC_63004.full_name = "p63.sc_63004"
 SC_63004.nested_types = {}
@@ -226,7 +278,9 @@ SC_63004.fields = {
 	slot2.SC_63004_RESULT_FIELD,
 	slot2.SC_63004_COMMON_LIST_FIELD,
 	slot2.SC_63004_REFRESH_LIST_FIELD,
-	slot2.SC_63004_DROP_LIST_FIELD
+	slot2.SC_63004_DROP_LIST_FIELD,
+	slot2.SC_63004_CATCHUP_LIST_FIELD,
+	slot2.SC_63004_CATCHUPACT_LIST_FIELD
 }
 SC_63004.is_extendable = false
 SC_63004.extensions = {}
@@ -369,6 +423,78 @@ SC_63010.fields = {
 }
 SC_63010.is_extendable = false
 SC_63010.extensions = {}
+slot2.CS_63011_TARGET_FIELD.name = "target"
+slot2.CS_63011_TARGET_FIELD.full_name = "p63.cs_63011.target"
+slot2.CS_63011_TARGET_FIELD.number = 1
+slot2.CS_63011_TARGET_FIELD.index = 0
+slot2.CS_63011_TARGET_FIELD.label = 2
+slot2.CS_63011_TARGET_FIELD.has_default_value = false
+slot2.CS_63011_TARGET_FIELD.default_value = 0
+slot2.CS_63011_TARGET_FIELD.type = 13
+slot2.CS_63011_TARGET_FIELD.cpp_type = 3
+CS_63011.name = "cs_63011"
+CS_63011.full_name = "p63.cs_63011"
+CS_63011.nested_types = {}
+CS_63011.enum_types = {}
+CS_63011.fields = {
+	slot2.CS_63011_TARGET_FIELD
+}
+CS_63011.is_extendable = false
+CS_63011.extensions = {}
+slot2.SC_63012_RESULT_FIELD.name = "result"
+slot2.SC_63012_RESULT_FIELD.full_name = "p63.sc_63012.result"
+slot2.SC_63012_RESULT_FIELD.number = 1
+slot2.SC_63012_RESULT_FIELD.index = 0
+slot2.SC_63012_RESULT_FIELD.label = 2
+slot2.SC_63012_RESULT_FIELD.has_default_value = false
+slot2.SC_63012_RESULT_FIELD.default_value = 0
+slot2.SC_63012_RESULT_FIELD.type = 13
+slot2.SC_63012_RESULT_FIELD.cpp_type = 3
+SC_63012.name = "sc_63012"
+SC_63012.full_name = "p63.sc_63012"
+SC_63012.nested_types = {}
+SC_63012.enum_types = {}
+SC_63012.fields = {
+	slot2.SC_63012_RESULT_FIELD
+}
+SC_63012.is_extendable = false
+SC_63012.extensions = {}
+slot2.CS_63013_TARGET_FIELD.name = "target"
+slot2.CS_63013_TARGET_FIELD.full_name = "p63.cs_63013.target"
+slot2.CS_63013_TARGET_FIELD.number = 1
+slot2.CS_63013_TARGET_FIELD.index = 0
+slot2.CS_63013_TARGET_FIELD.label = 2
+slot2.CS_63013_TARGET_FIELD.has_default_value = false
+slot2.CS_63013_TARGET_FIELD.default_value = 0
+slot2.CS_63013_TARGET_FIELD.type = 13
+slot2.CS_63013_TARGET_FIELD.cpp_type = 3
+CS_63013.name = "cs_63013"
+CS_63013.full_name = "p63.cs_63013"
+CS_63013.nested_types = {}
+CS_63013.enum_types = {}
+CS_63013.fields = {
+	slot2.CS_63013_TARGET_FIELD
+}
+CS_63013.is_extendable = false
+CS_63013.extensions = {}
+slot2.SC_63014_RESULT_FIELD.name = "result"
+slot2.SC_63014_RESULT_FIELD.full_name = "p63.sc_63014.result"
+slot2.SC_63014_RESULT_FIELD.number = 1
+slot2.SC_63014_RESULT_FIELD.index = 0
+slot2.SC_63014_RESULT_FIELD.label = 2
+slot2.SC_63014_RESULT_FIELD.has_default_value = false
+slot2.SC_63014_RESULT_FIELD.default_value = 0
+slot2.SC_63014_RESULT_FIELD.type = 13
+slot2.SC_63014_RESULT_FIELD.cpp_type = 3
+SC_63014.name = "sc_63014"
+SC_63014.full_name = "p63.sc_63014"
+SC_63014.nested_types = {}
+SC_63014.enum_types = {}
+SC_63014.fields = {
+	slot2.SC_63014_RESULT_FIELD
+}
+SC_63014.is_extendable = false
+SC_63014.extensions = {}
 slot2.TECHNOLOGYREFRESH_ID_FIELD.name = "id"
 slot2.TECHNOLOGYREFRESH_ID_FIELD.full_name = "p63.technologyrefresh.id"
 slot2.TECHNOLOGYREFRESH_ID_FIELD.number = 1
@@ -676,6 +802,62 @@ SC_63209.fields = {
 }
 SC_63209.is_extendable = false
 SC_63209.extensions = {}
+slot2.CS_63210_BLUEPRINTID_FIELD.name = "blueprintid"
+slot2.CS_63210_BLUEPRINTID_FIELD.full_name = "p63.cs_63210.blueprintid"
+slot2.CS_63210_BLUEPRINTID_FIELD.number = 1
+slot2.CS_63210_BLUEPRINTID_FIELD.index = 0
+slot2.CS_63210_BLUEPRINTID_FIELD.label = 2
+slot2.CS_63210_BLUEPRINTID_FIELD.has_default_value = false
+slot2.CS_63210_BLUEPRINTID_FIELD.default_value = 0
+slot2.CS_63210_BLUEPRINTID_FIELD.type = 13
+slot2.CS_63210_BLUEPRINTID_FIELD.cpp_type = 3
+slot2.CS_63210_ITEMID_FIELD.name = "itemid"
+slot2.CS_63210_ITEMID_FIELD.full_name = "p63.cs_63210.itemid"
+slot2.CS_63210_ITEMID_FIELD.number = 2
+slot2.CS_63210_ITEMID_FIELD.index = 1
+slot2.CS_63210_ITEMID_FIELD.label = 2
+slot2.CS_63210_ITEMID_FIELD.has_default_value = false
+slot2.CS_63210_ITEMID_FIELD.default_value = 0
+slot2.CS_63210_ITEMID_FIELD.type = 13
+slot2.CS_63210_ITEMID_FIELD.cpp_type = 3
+slot2.CS_63210_NUMBER_FIELD.name = "number"
+slot2.CS_63210_NUMBER_FIELD.full_name = "p63.cs_63210.number"
+slot2.CS_63210_NUMBER_FIELD.number = 3
+slot2.CS_63210_NUMBER_FIELD.index = 2
+slot2.CS_63210_NUMBER_FIELD.label = 2
+slot2.CS_63210_NUMBER_FIELD.has_default_value = false
+slot2.CS_63210_NUMBER_FIELD.default_value = 0
+slot2.CS_63210_NUMBER_FIELD.type = 13
+slot2.CS_63210_NUMBER_FIELD.cpp_type = 3
+CS_63210.name = "cs_63210"
+CS_63210.full_name = "p63.cs_63210"
+CS_63210.nested_types = {}
+CS_63210.enum_types = {}
+CS_63210.fields = {
+	slot2.CS_63210_BLUEPRINTID_FIELD,
+	slot2.CS_63210_ITEMID_FIELD,
+	slot2.CS_63210_NUMBER_FIELD
+}
+CS_63210.is_extendable = false
+CS_63210.extensions = {}
+slot2.SC_63211_RESULT_FIELD.name = "result"
+slot2.SC_63211_RESULT_FIELD.full_name = "p63.sc_63211.result"
+slot2.SC_63211_RESULT_FIELD.number = 1
+slot2.SC_63211_RESULT_FIELD.index = 0
+slot2.SC_63211_RESULT_FIELD.label = 2
+slot2.SC_63211_RESULT_FIELD.has_default_value = false
+slot2.SC_63211_RESULT_FIELD.default_value = 0
+slot2.SC_63211_RESULT_FIELD.type = 13
+slot2.SC_63211_RESULT_FIELD.cpp_type = 3
+SC_63211.name = "sc_63211"
+SC_63211.full_name = "p63.sc_63211"
+SC_63211.nested_types = {}
+SC_63211.enum_types = {}
+SC_63211.fields = {
+	slot2.SC_63211_RESULT_FIELD
+}
+SC_63211.is_extendable = false
+SC_63211.extensions = {}
 slot2.BLUPRINTINFO_ID_FIELD.name = "id"
 slot2.BLUPRINTINFO_ID_FIELD.full_name = "p63.bluprintinfo.id"
 slot2.BLUPRINTINFO_ID_FIELD.number = 1
@@ -744,28 +926,73 @@ BLUPRINTINFO.fields = {
 }
 BLUPRINTINFO.is_extendable = false
 BLUPRINTINFO.extensions = {}
+slot2.TECHNOLOGYCATCHUP_ID_FIELD.name = "id"
+slot2.TECHNOLOGYCATCHUP_ID_FIELD.full_name = "p63.technologycatchup.id"
+slot2.TECHNOLOGYCATCHUP_ID_FIELD.number = 1
+slot2.TECHNOLOGYCATCHUP_ID_FIELD.index = 0
+slot2.TECHNOLOGYCATCHUP_ID_FIELD.label = 2
+slot2.TECHNOLOGYCATCHUP_ID_FIELD.has_default_value = false
+slot2.TECHNOLOGYCATCHUP_ID_FIELD.default_value = 0
+slot2.TECHNOLOGYCATCHUP_ID_FIELD.type = 13
+slot2.TECHNOLOGYCATCHUP_ID_FIELD.cpp_type = 3
+slot2.TECHNOLOGYCATCHUP_TARGET_FIELD.name = "target"
+slot2.TECHNOLOGYCATCHUP_TARGET_FIELD.full_name = "p63.technologycatchup.target"
+slot2.TECHNOLOGYCATCHUP_TARGET_FIELD.number = 2
+slot2.TECHNOLOGYCATCHUP_TARGET_FIELD.index = 1
+slot2.TECHNOLOGYCATCHUP_TARGET_FIELD.label = 2
+slot2.TECHNOLOGYCATCHUP_TARGET_FIELD.has_default_value = false
+slot2.TECHNOLOGYCATCHUP_TARGET_FIELD.default_value = 0
+slot2.TECHNOLOGYCATCHUP_TARGET_FIELD.type = 13
+slot2.TECHNOLOGYCATCHUP_TARGET_FIELD.cpp_type = 3
+slot2.TECHNOLOGYCATCHUP_NUMBER_FIELD.name = "number"
+slot2.TECHNOLOGYCATCHUP_NUMBER_FIELD.full_name = "p63.technologycatchup.number"
+slot2.TECHNOLOGYCATCHUP_NUMBER_FIELD.number = 3
+slot2.TECHNOLOGYCATCHUP_NUMBER_FIELD.index = 2
+slot2.TECHNOLOGYCATCHUP_NUMBER_FIELD.label = 2
+slot2.TECHNOLOGYCATCHUP_NUMBER_FIELD.has_default_value = false
+slot2.TECHNOLOGYCATCHUP_NUMBER_FIELD.default_value = 0
+slot2.TECHNOLOGYCATCHUP_NUMBER_FIELD.type = 13
+slot2.TECHNOLOGYCATCHUP_NUMBER_FIELD.cpp_type = 3
+TECHNOLOGYCATCHUP.name = "technologycatchup"
+TECHNOLOGYCATCHUP.full_name = "p63.technologycatchup"
+TECHNOLOGYCATCHUP.nested_types = {}
+TECHNOLOGYCATCHUP.enum_types = {}
+TECHNOLOGYCATCHUP.fields = {
+	slot2.TECHNOLOGYCATCHUP_ID_FIELD,
+	slot2.TECHNOLOGYCATCHUP_TARGET_FIELD,
+	slot2.TECHNOLOGYCATCHUP_NUMBER_FIELD
+}
+TECHNOLOGYCATCHUP.is_extendable = false
+TECHNOLOGYCATCHUP.extensions = {}
 bluprintinfo = slot0.Message(BLUPRINTINFO)
 cs_63001 = slot0.Message(CS_63001)
 cs_63003 = slot0.Message(CS_63003)
 cs_63005 = slot0.Message(CS_63005)
 cs_63007 = slot0.Message(CS_63007)
 cs_63009 = slot0.Message(CS_63009)
+cs_63011 = slot0.Message(CS_63011)
+cs_63013 = slot0.Message(CS_63013)
 cs_63200 = slot0.Message(CS_63200)
 cs_63202 = slot0.Message(CS_63202)
 cs_63204 = slot0.Message(CS_63204)
 cs_63206 = slot0.Message(CS_63206)
 cs_63208 = slot0.Message(CS_63208)
+cs_63210 = slot0.Message(CS_63210)
 sc_63000 = slot0.Message(SC_63000)
 sc_63002 = slot0.Message(SC_63002)
 sc_63004 = slot0.Message(SC_63004)
 sc_63006 = slot0.Message(SC_63006)
 sc_63008 = slot0.Message(SC_63008)
 sc_63010 = slot0.Message(SC_63010)
+sc_63012 = slot0.Message(SC_63012)
+sc_63014 = slot0.Message(SC_63014)
 sc_63100 = slot0.Message(SC_63100)
 sc_63201 = slot0.Message(SC_63201)
 sc_63203 = slot0.Message(SC_63203)
 sc_63205 = slot0.Message(SC_63205)
 sc_63207 = slot0.Message(SC_63207)
 sc_63209 = slot0.Message(SC_63209)
+sc_63211 = slot0.Message(SC_63211)
+technologycatchup = slot0.Message(TECHNOLOGYCATCHUP)
 technologyinfo = slot0.Message(TECHNOLOGYINFO)
 technologyrefresh = slot0.Message(TECHNOLOGYREFRESH)

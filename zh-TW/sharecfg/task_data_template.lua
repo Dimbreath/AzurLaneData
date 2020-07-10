@@ -38043,6 +38043,454 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14790] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91350,
+		type = 26,
+		name = "『伊56校服』-七日任务1",
+		count_inherit = 0,
+		desc = "艦隊出征，以S評價通關10次",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14790,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14791] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91351,
+		type = 26,
+		name = "『伊56校服』-七日任务2",
+		count_inherit = 0,
+		desc = "登入遊戲",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14791,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	},
+	[14792] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91352,
+		type = 26,
+		name = "『伊56校服』-七日任务3",
+		count_inherit = 0,
+		desc = "進行2次演習",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14792,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	},
+	[14793] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91353,
+		type = 26,
+		name = "『伊56校服』-七日任务4",
+		count_inherit = 0,
+		desc = "完成軍事委託2次",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14793,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14794] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91354,
+		type = 26,
+		name = "『伊56校服』-七日任务5",
+		count_inherit = 0,
+		desc = "艦船退役2次",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14794,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	},
+	[14795] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91355,
+		type = 26,
+		name = "『伊56校服』-七日任务6",
+		count_inherit = 0,
+		desc = "完成3次每日挑戰",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14795,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14796] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91356,
+		type = 26,
+		name = "『伊56校服』-七日任务7",
+		count_inherit = 0,
+		desc = "艦船強化5次",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14796,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	},
+	[14797] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91357,
+		type = 26,
+		name = "『伊56校服』-七日任务8",
+		count_inherit = 0,
+		desc = "進行戰術訓練2次",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14797,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14798] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91358,
+		type = 26,
+		name = "『伊56校服』-七日任务9",
+		count_inherit = 0,
+		desc = "擊沉任意敵人20艘",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14798,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14799] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91359,
+		type = 26,
+		name = "『伊56校服』-七日任务10",
+		count_inherit = 0,
+		desc = "後宅補充食物5次",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14799,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	},
+	[14800] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91360,
+		type = 26,
+		name = "『伊56校服』-七日任务11",
+		count_inherit = 0,
+		desc = "建造艦船2次",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14800,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	},
+	[14801] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91361,
+		type = 26,
+		name = "『伊56校服』-七日任务12",
+		count_inherit = 0,
+		desc = "打開任意科技箱1個",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14801,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14802] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91362,
+		type = 26,
+		name = "『伊56校服』-七日任务13",
+		count_inherit = 0,
+		desc = "進行2次戰術訓練",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14802,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14803] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91363,
+		type = 26,
+		name = "『伊56校服』-七日任务14",
+		count_inherit = 0,
+		desc = "擊敗旗艦3次",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14803,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				308051,
+				1
+			}
+		}
+	},
 	[14840] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -40737,179 +41185,6 @@ pg.task_data_template = {
 			}
 		}
 	},
-	[51001] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8792,
-		type = 26,
-		name = "歸來與新生1",
-		count_inherit = 0,
-		desc = "完成劇情戰鬥",
-		target_id_2 = "",
-		sub_type = 29,
-		added_tip = 1,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1060000,
-		id = 51001,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "1060000",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1008,
-				1
-			}
-		}
-	},
-	[51002] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8793,
-		type = 26,
-		name = "歸來與新生2",
-		count_inherit = 0,
-		desc = "建造艦船10次",
-		target_id_2 = "",
-		sub_type = 30,
-		added_tip = 1,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 51002,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1008,
-				1
-			}
-		}
-	},
-	[51003] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8794,
-		type = 26,
-		name = "歸來與新生3",
-		count_inherit = 0,
-		desc = "通過任意主線困難關卡5次",
-		target_id_2 = "",
-		sub_type = 21,
-		added_tip = 1,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 51003,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			10101,
-			10102,
-			10103,
-			10104,
-			10201,
-			10202,
-			10203,
-			10204,
-			10301,
-			10302,
-			10303,
-			10304,
-			10401,
-			10402,
-			10403,
-			10404,
-			10501,
-			10502,
-			10503,
-			10504,
-			10601,
-			10602,
-			10603,
-			10604,
-			10701,
-			10702,
-			10703,
-			10704,
-			10801,
-			10802,
-			10803,
-			10804,
-			10901,
-			10902,
-			10903,
-			10904,
-			11001,
-			11002,
-			11003,
-			11004,
-			11101,
-			11102,
-			11103,
-			11104
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1008,
-				1
-			}
-		}
-	},
-	[51004] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8795,
-		type = 26,
-		name = "歸來與新生4",
-		count_inherit = 0,
-		desc = "提交3個《Z的意志》",
-		target_id_2 = "",
-		sub_type = 1000,
-		added_tip = 1,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1008,
-		id = 51004,
-		target_num = 3,
-		fix_task = 0,
-		target_id = "1008",
-		open_need = {},
-		award_display = {
-			{
-				3,
-				640,
-				1
-			}
-		}
-	},
 	[50031] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -42602,6 +42877,179 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[51001] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8792,
+		type = 26,
+		name = "歸來與新生1",
+		count_inherit = 0,
+		desc = "完成劇情戰鬥",
+		target_id_2 = "",
+		sub_type = 29,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1060000,
+		id = 51001,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1060000",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1008,
+				1
+			}
+		}
+	},
+	[51002] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8793,
+		type = 26,
+		name = "歸來與新生2",
+		count_inherit = 0,
+		desc = "建造艦船10次",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51002,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1008,
+				1
+			}
+		}
+	},
+	[51003] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8794,
+		type = 26,
+		name = "歸來與新生3",
+		count_inherit = 0,
+		desc = "通過任意主線困難關卡5次",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51003,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1008,
+				1
+			}
+		}
+	},
+	[51004] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8795,
+		type = 26,
+		name = "歸來與新生4",
+		count_inherit = 0,
+		desc = "提交3個《Z的意志》",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1008,
+		id = 51004,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "1008",
+		open_need = {},
+		award_display = {
+			{
+				3,
+				640,
+				1
+			}
+		}
+	},
 	[52001] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -43107,6 +43555,10 @@ pg.task_data_template = {
 			{
 				2,
 				3
+			},
+			{
+				2,
+				18
 			}
 		},
 		open_need = {},
@@ -43117,9 +43569,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "皇家巡洋技術測試I ",
+		name = "皇家先鋒技術測試I ",
 		count_inherit = 0,
-		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用皇家輕巡或重巡，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
+		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用皇家先鋒角色，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -43137,11 +43589,19 @@ pg.task_data_template = {
 		target_id = {
 			{
 				2,
+				1
+			},
+			{
+				2,
 				2
 			},
 			{
 				2,
 				3
+			},
+			{
+				2,
+				18
 			}
 		},
 		open_need = {},
@@ -43204,13 +43664,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "皇家巡洋技術測試II ",
+		name = "皇家先鋒技術測試II ",
 		count_inherit = 0,
 		desc = [[
-<color=#797979><color=#A9F548>「需先完成皇家巡洋技術測試I」</color>
+<color=#797979><color=#A9F548>「需先完成皇家先鋒技術測試I」</color>
 研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠</color>
 
-——使用皇家輕巡或重巡，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
+——使用皇家先鋒角色，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -43228,11 +43688,19 @@ pg.task_data_template = {
 		target_id = {
 			{
 				2,
+				1
+			},
+			{
+				2,
 				2
 			},
 			{
 				2,
 				3
+			},
+			{
+				2,
+				18
 			}
 		},
 		open_need = {
@@ -43414,9 +43882,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "皇家戰列技術測試I ",
+		name = "皇家主力技術測試I ",
 		count_inherit = 0,
-		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用皇家戰列或戰巡，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
+		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用皇家主力角色，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -43442,7 +43910,27 @@ pg.task_data_template = {
 			},
 			{
 				2,
+				6
+			},
+			{
+				2,
+				7
+			},
+			{
+				2,
+				9
+			},
+			{
+				2,
 				10
+			},
+			{
+				2,
+				12
+			},
+			{
+				2,
+				13
 			}
 		},
 		open_need = {},
@@ -43505,13 +43993,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "皇家戰列技術測試II ",
+		name = "皇家主力技術測試II ",
 		count_inherit = 0,
 		desc = [[
-<color=#797979><color=#A9F548>「需先完成皇家戰列技術測試I」</color>
+<color=#797979><color=#A9F548>「需先完成皇家主力技術測試I」</color>
 研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠</color>
 
-——使用皇家戰列或戰巡，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
+——使用皇家主力角色，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -43537,7 +44025,27 @@ pg.task_data_template = {
 			},
 			{
 				2,
+				6
+			},
+			{
+				2,
+				7
+			},
+			{
+				2,
+				9
+			},
+			{
+				2,
 				10
+			},
+			{
+				2,
+				12
+			},
+			{
+				2,
+				13
 			}
 		},
 		open_need = {
@@ -43689,6 +44197,10 @@ pg.task_data_template = {
 			{
 				3,
 				3
+			},
+			{
+				3,
+				18
 			}
 		},
 		open_need = {},
@@ -43699,9 +44211,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "重櫻巡洋技術測試I ",
+		name = "重櫻先鋒技術測試I ",
 		count_inherit = 0,
-		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用重櫻輕巡、重巡或超巡，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
+		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用重櫻先鋒角色，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -43719,11 +44231,19 @@ pg.task_data_template = {
 		target_id = {
 			{
 				3,
+				1
+			},
+			{
+				3,
 				2
 			},
 			{
 				3,
 				3
+			},
+			{
+				3,
+				18
 			}
 		},
 		open_need = {},
@@ -43786,13 +44306,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "重櫻巡洋技術測試II ",
+		name = "重櫻先鋒技術測試II ",
 		count_inherit = 0,
 		desc = [[
-<color=#797979><color=#A9F548>「需先完成重櫻巡洋技術測試I」</color>
+<color=#797979><color=#A9F548>「需先完成重櫻先鋒技術測試I」</color>
 研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠</color>
 
-——使用重櫻輕巡、重巡或超巡，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
+——使用重櫻先鋒角色，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -43810,11 +44330,19 @@ pg.task_data_template = {
 		target_id = {
 			{
 				3,
+				1
+			},
+			{
+				3,
 				2
 			},
 			{
 				3,
 				3
+			},
+			{
+				3,
+				18
 			}
 		},
 		open_need = {
@@ -43996,9 +44524,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "重櫻戰列技術測試I ",
+		name = "重櫻主力技術測試I ",
 		count_inherit = 0,
-		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用重櫻戰列、戰巡或航戰，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
+		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用重櫻主力角色，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -44024,7 +44552,27 @@ pg.task_data_template = {
 			},
 			{
 				3,
+				6
+			},
+			{
+				3,
+				7
+			},
+			{
+				3,
+				9
+			},
+			{
+				3,
 				10
+			},
+			{
+				3,
+				12
+			},
+			{
+				3,
+				13
 			}
 		},
 		open_need = {},
@@ -44087,13 +44635,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "重櫻戰列技術測試II ",
+		name = "重櫻主力技術測試II ",
 		count_inherit = 0,
 		desc = [[
-<color=#797979><color=#A9F548>「需先完成重櫻戰列技術測試I」</color>
+<color=#797979><color=#A9F548>「需先完成重櫻主力技術測試I」</color>
 研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠</color>
 
-——使用重櫻戰列、戰巡或航戰，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
+——使用重櫻主力角色，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -44119,7 +44667,27 @@ pg.task_data_template = {
 			},
 			{
 				3,
+				6
+			},
+			{
+				3,
+				7
+			},
+			{
+				3,
+				9
+			},
+			{
+				3,
 				10
+			},
+			{
+				3,
+				12
+			},
+			{
+				3,
+				13
 			}
 		},
 		open_need = {
@@ -44271,6 +44839,10 @@ pg.task_data_template = {
 			{
 				4,
 				3
+			},
+			{
+				4,
+				18
 			}
 		},
 		open_need = {},
@@ -44281,9 +44853,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "鐵血巡洋技術測試I ",
+		name = "鐵血先鋒技術測試I ",
 		count_inherit = 0,
-		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用鐵血輕巡或重巡，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
+		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用鐵血先鋒角色，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -44301,11 +44873,19 @@ pg.task_data_template = {
 		target_id = {
 			{
 				4,
+				1
+			},
+			{
+				4,
 				2
 			},
 			{
 				4,
 				3
+			},
+			{
+				4,
+				18
 			}
 		},
 		open_need = {},
@@ -44368,13 +44948,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "鐵血巡洋技術測試II ",
+		name = "鐵血先鋒技術測試II ",
 		count_inherit = 0,
 		desc = [[
-<color=#797979><color=#A9F548>「需先完成鐵血巡洋技術測試I」</color>
+<color=#797979><color=#A9F548>「需先完成鐵血先鋒技術測試I」</color>
 研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠</color>
 
-——使用鐵血輕巡或重巡，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
+——使用鐵血先鋒角色，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -44392,11 +44972,19 @@ pg.task_data_template = {
 		target_id = {
 			{
 				4,
+				1
+			},
+			{
+				4,
 				2
 			},
 			{
 				4,
 				3
+			},
+			{
+				4,
+				18
 			}
 		},
 		open_need = {
@@ -44548,6 +45136,10 @@ pg.task_data_template = {
 			{
 				1,
 				3
+			},
+			{
+				1,
+				18
 			}
 		},
 		open_need = {},
@@ -44558,9 +45150,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "白鷹巡洋技術測試I ",
+		name = "白鷹先鋒技術測試I ",
 		count_inherit = 0,
-		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用白鷹輕巡或重巡，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
+		desc = "<color=#797979>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用白鷹先鋒角色，在任意關卡中累計獲得<color=#A9F548>100萬</color>經驗（不同角色可累加）",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -44578,11 +45170,19 @@ pg.task_data_template = {
 		target_id = {
 			{
 				1,
+				1
+			},
+			{
+				1,
 				2
 			},
 			{
 				1,
 				3
+			},
+			{
+				1,
+				18
 			}
 		},
 		open_need = {},
@@ -44645,13 +45245,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "白鷹巡洋技術測試II ",
+		name = "白鷹先鋒技術測試II ",
 		count_inherit = 0,
 		desc = [[
-<color=#797979><color=#A9F548>「需先完成白鷹巡洋技術測試I」</color>
+<color=#797979><color=#A9F548>「需先完成白鷹先鋒技術測試I」</color>
 研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠</color>
 
-——使用白鷹輕巡或重巡，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
+——使用白鷹先鋒角色，在任意關卡中累計獲得<color=#A9F548>200萬</color>經驗（不同角色可累加）]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -44669,11 +45269,19 @@ pg.task_data_template = {
 		target_id = {
 			{
 				1,
+				1
+			},
+			{
+				1,
 				2
 			},
 			{
 				1,
 				3
+			},
+			{
+				1,
+				18
 			}
 		},
 		open_need = {
@@ -48196,6 +48804,20 @@ pg.task_data_template = {
 		14772,
 		14773,
 		14774,
+		14790,
+		14791,
+		14792,
+		14793,
+		14794,
+		14795,
+		14796,
+		14797,
+		14798,
+		14799,
+		14800,
+		14801,
+		14802,
+		14803,
 		14840,
 		14841,
 		14842,
@@ -48272,10 +48894,6 @@ pg.task_data_template = {
 		31026,
 		40001,
 		40002,
-		51001,
-		51002,
-		51003,
-		51004,
 		50031,
 		50032,
 		50033,
@@ -48324,6 +48942,10 @@ pg.task_data_template = {
 		50113,
 		50114,
 		50115,
+		51001,
+		51002,
+		51003,
+		51004,
 		52001,
 		52002,
 		52003,

@@ -701,5 +701,22 @@ pg.gameset = {
 	night_collection_end = {
 		description = "",
 		key_value = 3
+	},
+	fate_sim_ssr = {
+		description = "",
+		key_value = 165
+	},
+	fate_sim_ur = {
+		description = "",
+		key_value = 215
+	},
+	technology_catchup_itemid = {
+		key_value = 0,
+		description = {
+			{
+				20101,
+				10000
+			}
+		}
 	}
 }

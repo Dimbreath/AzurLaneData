@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 408070,
 			nameColor = "#a9f548",
-			say = "哇？！U101，妳去哪儿啊，这么急？",
+			say = "哇？！U-101，妳去哪兒啊，這麼急？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是妳啊，U522，还有重樱的潜艇，妳们在聊天吗？",
+			say = "啊，是妳啊，U-522，還有重櫻的潛艇，妳們在聊天嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 408070,
 			nameColor = "#a9f548",
-			say = "是啊，我们正在聊有趣的事情呢，妳要不要一起来？",
+			say = "是啊，我們正在聊有趣的事情呢，妳要不要一起來？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			nameColor = "#a9f548",
-			say = "喔喔！！…哦…抱歉，我赶时间，还是下次吧！",
+			say = "喔喔！！…哦…抱歉，我趕時間，還是下次吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大鱼也在…这是准备去哪里么？",
+			say = "大魚也在…這是準備去哪裡嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			nameColor = "#a9f548",
-			say = "嘿嘿，我准备出海一趟～有一片鱼群顺着暖流迁移，按估算差不多正好要经过港区附近的海域了",
+			say = "嘿嘿，我準備出海一趟～有一片魚群順著暖流遷移，按估算差不多正好要經過港區附近的海域了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			nameColor = "#a9f548",
-			say = "那场景可是非常漂亮的哦，要是去晚了可就看不到了！",
+			say = "那場景可是非常漂亮的哦，要是去晚了可就看不到了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊对了，妳们要不要一起来算了？",
+			say = "啊對了，妳們要不要一起來算了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			actor = 408070,
 			nameColor = "#a9f548",
-			say = "欸，听起来超有意思的。我也要一起去！",
+			say = "欸，聽起來超有意思的。我也要一起去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			actor = 308041,
 			nameColor = "#a9f548",
-			say = "似乎很有意思呢！56，我们也一起去吧？",
+			say = "似乎很有意思呢！56，我們也一起去吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是吗……好不容易大家可以一起去的……",
+			say = "是嗎……好不容易大家可以一起去的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "额……",
+			say = "呃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			actor = 308041,
 			nameColor = "#a9f548",
-			say = "其实我很想和伊56一起看呢……",
+			say = "其實我很想和伊56一起看呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			actor = 308051,
 			nameColor = "#a9f548",
-			say = "（这个展开——好像可以……！）",
+			say = "（這個展開——好像可以……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好，那妳们一起上车吧，这样快一点！",
+			say = "好，那妳們一起上車吧，這樣快一點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳的舰装载得动四个人？",
+			say = "妳的艦裝載得動四個人？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			nameColor = "#a9f548",
-			say = "哼哼，可别小看了我经过特别改装的大鱼！",
+			say = "哼哼，可別小看了我經過特別改裝的大魚！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "56，抓紧我咯？",
+			say = "56，抓緊我囉？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……额，嗯？",
+			say = "嗯……呃，嗯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			actor = 308051,
 			nameColor = "#a9f548",
-			say = "（好、好像我没答应说要去…？）",
+			say = "（好、好像我沒答應說要去…？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			actor = 308051,
 			nameColor = "#a9f548",
-			say = "（怎么会变成这样——！？）",
+			say = "（怎麼會變成這樣——！？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			blackBg = true,
 			actor = 408060,
 			nameColor = "#a9f548",
-			say = "那么，我们就出发吧！lasst uns gehen！",
+			say = "那麼，我們就出發吧！lasst uns gehen！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

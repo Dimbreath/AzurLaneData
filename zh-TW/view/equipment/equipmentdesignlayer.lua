@@ -142,68 +142,38 @@ function slot2(slot0, slot1)
 		setActive(slot0, false)
 	end)
 
-	slot4 = slot1:GetProperties()
-	slot5 = EquipType.isDevice(slot1.configId) and 3 or 4
+	slot4 = slot1:GetPropertiesInfo().attrs
 
-	for slot9 = 1, slot5 do
-		slot11 = EquipType.isDevice(slot1.configId) and slot9 == slot5 and slot2:Find("attr_skill") or slot2:Find("attr_" .. slot9)
+	for slot9, slot10 in ipairs(EquipType.isDevice(slot1.configId) and {
+		1,
+		2,
+		5
+	} or {
+		1,
+		4,
+		2,
+		3
+	}) do
+		setActive(slot2:Find("attr_" .. slot10), true)
 
-		setActive(slot11, true)
+		if slot10 == 5 then
+			slot12 = ""
 
-		slot12 = slot11:Find("panel/tag")
-		slot13 = slot11:Find("panel")
-		slot14 = slot11:Find("panel/value")
-		slot15 = slot11:Find("lock")
-
-		function slot16(slot0)
-			setActive(uv0, not slot0)
-			setActive(uv1, slot0)
-		end
-
-		if findTF(slot0, "skill/value") then
-			setText(slot17, "")
-		end
-
-		if slot10 then
-			if slot12 then
-				setText(slot12, i18n("skill"))
+			if slot3.skill_id[1] then
+				slot12 = getSkillName(slot13)
 			end
 
-			slot18 = slot3.skill_id[1]
-
-			slot16(not slot18)
-
-			slot19 = findTF(slot0, "skill/value")
-
-			if slot18 then
-				slot20 = getSkillConfig(slot18)
-
-				setText(slot14, getSkillName(slot18))
-
-				if slot19 then
-					setText(slot19, getSkillDescGet(slot18))
-				end
-			else
-				setText(slot14, "")
-
-				if slot19 then
-					setText(slot19, "")
-				end
-			end
+			setText(slot11:Find("value"), slot12)
 		else
-			slot18 = slot4[slot9]
+			slot12 = ""
+			slot13 = ""
 
-			slot16(not slot18)
-
-			if slot18 then
-				if not EquipType.isDevice(slot1.configId) and slot18.type == AttributeType.Reload and slot9 == 4 then
-					setText(slot12, i18n("word_attr_cd"))
-					setText(slot14, setColorStr(string.format("%0.2f", slot1:getWeaponCD()) .. "s", COLOR_YELLOW) .. i18n("word_secondseach"))
-				else
-					setText(slot12, AttributeType.Type2Name(slot18.type))
-					setText(slot14, slot18.value)
-				end
+			if #slot4 > 0 then
+				slot12, slot13 = Equipment.GetInfoTrans(table.remove(slot4, 1))
 			end
+
+			setText(slot11:Find("tag"), slot12)
+			setText(slot11:Find("value"), slot13)
 		end
 	end
 end
@@ -398,11 +368,12 @@ function slot0.showDesignDesc(slot0, slot1)
 		id = pg.compose_data_template[slot1].equip_id
 	})
 
-	slot0:updateDescAttrs(slot2:Find("bg/attrs"), slot5)
+	updateEquipInfo(slot2:Find("bg/attrs/content"), slot5:GetPropertiesInfo(), slot5:GetSkill())
 	GetImageSpriteFromAtlasAsync("equips/" .. slot5.config.icon, "", slot2:Find("bg/frame/icon"))
 	setText(slot2:Find("bg/name"), slot5.config.name)
 	UIItemList.New(slot2:Find("bg/frame/stars"), slot2:Find("bg/frame/stars/sarttpl")):align(slot5.config.rarity)
 	setImageSprite(findTF(slot2, "bg/frame/type"), GetSpriteFromAtlas("equiptype", EquipType.type2Tag(slot5.config.type)))
+	setText(slot2:Find("bg/frame/speciality/Text"), slot5.config.speciality ~= "无" and slot5.config.speciality or i18n1("—"))
 
 	slot2:Find("bg/frame"):GetComponent(typeof(Image)).sprite = LoadSprite("bg/equipment_bg_" .. slot5.config.rarity)
 	slot9 = findTF(slot2, "bg/frame/numbers")

@@ -1241,7 +1241,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30801] = {
 		shiptype = 8,
-		name = "巡潜乙型",
+		name = "巡潛乙型",
 		t_level = 7,
 		id = 30801,
 		t_level_1 = 110,
@@ -1249,7 +1249,20 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			30801,
 			30802,
-			30803
+			30803,
+			30804,
+			30805
+		}
+	},
+	[30802] = {
+		shiptype = 8,
+		name = "海大型",
+		t_level = 7,
+		id = 30802,
+		t_level_1 = 101,
+		nation = 3,
+		ships = {
+			30806
 		}
 	},
 	[31201] = {
@@ -1402,6 +1415,17 @@ pg.fleet_tech_ship_class = {
 			40701
 		}
 	},
+	[40801] = {
+		shiptype = 8,
+		name = "VIIB型",
+		t_level = 6,
+		id = 40801,
+		t_level_1 = 126,
+		nation = 4,
+		ships = {
+			40806
+		}
+	},
 	[40802] = {
 		shiptype = 8,
 		name = "VIIC型",
@@ -1411,6 +1435,17 @@ pg.fleet_tech_ship_class = {
 		nation = 4,
 		ships = {
 			40801
+		}
+	},
+	[40803] = {
+		shiptype = 8,
+		name = "IXC型",
+		t_level = 7,
+		id = 40803,
+		t_level_1 = 142,
+		nation = 4,
+		ships = {
+			40807
 		}
 	},
 	[50101] = {
@@ -1653,6 +1688,7 @@ pg.fleet_tech_ship_class = {
 		30704,
 		30705,
 		30801,
+		30802,
 		31201,
 		40101,
 		40102,
@@ -1666,7 +1702,9 @@ pg.fleet_tech_ship_class = {
 		40401,
 		40501,
 		40701,
+		40801,
 		40802,
+		40803,
 		50101,
 		50201,
 		50202,

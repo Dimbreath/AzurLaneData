@@ -543,6 +543,7 @@ function slot0.handleNotification(slot0, slot1)
 		end
 
 		if pg.shop_template[slot3.id] and slot4.genre == ShopArgs.SkinShop then
+			slot0.viewComponent:StopPreVoice()
 			slot0:addSubLayers(Context.New({
 				mediator = NewSkinMediator,
 				viewComponent = NewSkinLayer,

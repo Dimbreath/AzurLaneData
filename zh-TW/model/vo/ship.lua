@@ -908,22 +908,6 @@ function slot0.getEquipmentGearScore(slot0)
 	return slot1
 end
 
-function slot0.getWeaponCD(slot0, slot1)
-	slot2 = 0
-
-	return slot0:calcWeaponCD(slot0:getActiveEquipments()[slot1])
-end
-
-function slot0.calcWeaponCD(slot0, slot1)
-	slot2 = 0
-
-	if slot1 then
-		slot2 = slot1.config[AttributeType.Reload] or 0
-	end
-
-	return string.format("%0.2f", ys.Battle.BattleFormulas.CalculateReloadTime(slot2, slot0:getProperties().reload))
-end
-
 function slot0.getProperties(slot0, slot1, slot2)
 	slot3 = slot1 or {}
 	slot4 = slot0:getConfig("nationality")

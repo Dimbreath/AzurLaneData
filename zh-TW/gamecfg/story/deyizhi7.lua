@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"德意志的忧郁\n\n<size=45>七　一如既往？</size>",
+					"德意志的憂鬱\n\n<size=45>七　一如既往？</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "在那次会议之后，过了一段时间。",
+			say = "在那次會議之後，過了一段時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 			dir = 1,
 			bgmDelay = 1.5,
 			bgm = "battle-1",
-			say = "海域·演习海域",
+			say = "海域·演習海域",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 404010,
-			say = "我又赢了！",
+			say = "我又贏了！",
 			flashN = {
 				color = {
 					1,
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "德意志，不服气吗？",
+			say = "德意志，不服氣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			say = "哼…再来！",
+			say = "哼…再來！",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			say = "哈哈，这才像话，除了性能，德意志妳更缺乏的是经验，想要变强，就练习，练习，再练习！",
+			say = "哈哈，這才像話，除了性能，德意志妳更缺乏的是經驗，想要變強，就練習，練習，再練習！",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 403040,
-			say = "不用妳说我也知道！！",
+			say = "不用妳說我也知道！！",
 			flashN = {
 				color = {
 					1,
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 0.7,
 				black = true,
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，仆人，妳看看这些公文这么处理是对的吗？",
+			say = "喂，僕人，你看看這些公文這麼處理是對的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			withoutActorName = true,
-			say = "……虽然有些错误，不过看得出十分努力。",
+			say = "……雖然有些錯誤，不過看得出十分努力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘁，为什么我身为妳的主人要被妳这个仆人表扬……",
+			say = "嘁，為什麼我身為你的主人要被你這個僕人表揚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了，对了就好。",
+			say = "算了，對了就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "港区·广场",
+			say = "港區·廣場",
 			flashout = {
 				dur = 0.7,
 				black = true,
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			actor = 301320,
 			actorName = "{namecode:33}",
-			say = "德意志，妳是不是有另一个名字呀？",
+			say = "德意志，妳是不是有另一個名字呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			}
 		},
 		{
-			say = "啊……是啊，我曾经有过另一个名字，那个名字叫做“吕佐夫”。",
+			say = "啊……是啊，我曾經有過另一個名字，那個名字叫做“呂佐夫”。",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听起来感觉还挺威风的呢~能用这个名字来叫妳吗？",
+			say = "聽起來感覺還挺威風的呢~能用這個名字來叫妳嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = -1,
 			actor = 301330,
 			nameColor = "#a9f548",
-			say = "{namecode:126}，要是德意志不喜欢的话……",
+			say = "{namecode:126}，要是德意志不喜歡的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，妳想的话就随妳高兴吧。",
+			say = "哼，妳想的話就隨妳高興吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "反正我就是我这件事是不会改变的。",
+			say = "反正我就是我這件事是不會改變的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "……就是这样，在那之后不久，德意志又恢复了把低等动物挂在嘴边的性格。",
+			say = "……就是這樣，在那之後不久，德意志又恢復了把低等動物掛在嘴邊的性格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "但那只是表象，舰队里的每一个人都能感觉到她变得坦率了许多。",
+			say = "但那只是表象，艦隊裡的每一個人都能感覺到她變得坦率了許多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说，仆人妳在那一脸女儿长大了的表情看着我是怎么回事？",
+			say = "我說，僕人你在那一臉女兒長大了的表情看著我是怎麼回事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "区区一个低等动物，脑子里该不会又在想着什么下流的事吧？",
+			say = "區區一個低等動物，腦子裡該不會又在想著什麼下流的事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啧，身为我唯一的仆人，妳也要努力成为配得上我的人才行，明白了吗！",
+			say = "嘖，身為我唯一的僕人，你也要努力成為配得上我的人才行，明白了嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "当然，指挥官的仆人地位也并没有得到改善。",
+			say = "當然，指揮官的僕人地位也並沒有得到改善。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "总之别在那发呆了，赶紧过来，要开始捉迷藏了！",
+			say = "總之別在那發呆了，趕緊過來，要開始捉迷藏了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "不过这样就好。",
+			say = "不過這樣就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

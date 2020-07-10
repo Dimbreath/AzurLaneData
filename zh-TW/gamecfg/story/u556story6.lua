@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U556把头埋在双腿里，团坐在椅子上。",
+			say = "U-556把头埋在双腿里，团坐在椅子上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“原来我也可以是这么简单纯粹的角色”，U556总会给我这种的感觉呢。",
+			say = "“原来我也可以是这么简单纯粹的角色”，U-556总会给我这种的感觉呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
-			say = "U556！令人尊敬的水下骑士啊。",
+			say = "U-556！令人尊敬的水下骑士啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U556楞了一下，随即露出了灿烂的笑容。",
+			say = "U-556楞了一下，随即露出了灿烂的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

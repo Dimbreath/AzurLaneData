@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408080,
-			say = "没有敌人了，U110可以玩游戏了吧。",
+			say = "没有敌人了，U-110可以玩游戏了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			dir = 1,
 			actor = 408080,
 			nameColor = "#a9f548",
-			say = "U110从背后掏出恩尼格玛密码机，准备开始敲打键盘。",
+			say = "U-110从背后掏出恩尼格玛密码机，准备开始敲打键盘。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408040,
-			say = "——要是不听话，以后可就再也没人陪U110玩了哦~",
+			say = "——要是不听话，以后可就再也没人陪U-110玩了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408080,
-			say = "……太可怕了。多么残忍，U110很震惊。",
+			say = "……太可怕了。多么残忍，U-110很震惊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			actor = 408080,
 			nameColor = "#a9f548",
-			say = "U110火速投降，把恩尼格玛收了起来。",
+			say = "U-110火速投降，把恩尼格玛收了起来。",
 			action = {
 				{
 					y = 30,
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408080,
-			say = "没关系，不暴露就好了。U110，悄悄玩。",
+			say = "没关系，不暴露就好了。U-110，悄悄玩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408080,
-			say = "U110，喜欢恩尼格玛。这是U110的，宝物。",
+			say = "U-110，喜欢恩尼格玛。这是U-110的，宝物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

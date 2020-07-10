@@ -13,7 +13,7 @@ return {
 			bgm = "battle-boss-1",
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "U110！没事吧！？",
+			say = "U-110！没事吧！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U110，没事，只是被抓到了而已",
+			say = "U-110，没事，只是被抓到了而已",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			expression = 3,
 			side = 0,
 			dir = 1,
-			say = "U110趁机与援军重新合流了。",
+			say = "U-110趁机与援军重新合流了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U110鲨鱼，可怕的鲨鱼，嘎哦",
+			say = "U-110鲨鱼，可怕的鲨鱼，嘎哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "妳是U556吧，刚才这孩子已经介绍过了",
+			say = "妳是U-556吧，刚才这孩子已经介绍过了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "U110闭嘴啦！",
+			say = "U-110闭嘴啦！",
 			action = {
 				{
 					y = 50,

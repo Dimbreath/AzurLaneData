@@ -8528,7 +8528,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		time_second = 0,
 		order = 1600,
 		group = 0,
@@ -8577,7 +8577,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		time_second = 0,
 		order = 1590,
 		group = 0,
@@ -8626,7 +8626,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		time_second = 0,
 		order = 1700,
 		group = 0,
@@ -8675,7 +8675,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		time_second = 0,
 		order = 1900,
 		group = 0,
@@ -12274,6 +12274,153 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70203] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：伊168浴衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 160,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70203,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			308061
+		},
+		time = {
+			{
+				{
+					2020,
+					7,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70204] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：u101校服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 160,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70204,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			408061
+		},
+		time = {
+			{
+				{
+					2020,
+					7,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70205] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：伊25校服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 180,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70205,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			308041
+		},
+		time = {
+			{
+				{
+					2020,
+					7,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70216] = {
 		group_type = 0,
 		resource_num = 1080,
@@ -12486,6 +12633,55 @@ pg.shop_template = {
 					2020,
 					7,
 					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70223] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：伊26浴衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 180,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70223,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			308022
+		},
+		time = {
+			{
+				{
+					2020,
+					7,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					22
 				},
 				{
 					23,
@@ -13338,7 +13534,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 2,
 		time_second = 0,
-		order = 180,
+		order = 1800,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13387,7 +13583,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 2,
 		time_second = 0,
-		order = 180,
+		order = 1800,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13436,7 +13632,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 2,
 		time_second = 0,
-		order = 180,
+		order = 1800,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13485,7 +13681,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 2,
 		time_second = 0,
-		order = 180,
+		order = 1800,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -13515,6 +13711,55 @@ pg.shop_template = {
 					2020,
 					7,
 					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70391] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤:伊19睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 160,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70391,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			308012
+		},
+		time = {
+			{
+				{
+					2020,
+					7,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					22
 				},
 				{
 					23,
@@ -14433,10 +14678,14 @@ pg.shop_template = {
 		70173,
 		70194,
 		70195,
+		70203,
+		70204,
+		70205,
 		70216,
 		70218,
 		70220,
 		70221,
+		70223,
 		70225,
 		70243,
 		70249,
@@ -14458,6 +14707,7 @@ pg.shop_template = {
 		70344,
 		70345,
 		70347,
+		70391,
 		100001,
 		100002,
 		100003,

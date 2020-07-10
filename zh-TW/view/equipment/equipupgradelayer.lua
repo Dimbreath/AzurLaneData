@@ -124,106 +124,80 @@ function slot0.isMaterialEnough(slot0, slot1)
 end
 
 function slot0.updateEquipment(slot0)
-	slot2 = slot0.contextData.equipmentVO
-	slot0.contextData.equipmentId = slot2.id
+	slot1 = slot0.contextData.equipmentVO
+	slot0.contextData.equipmentId = slot1.id
 
-	slot0:updateAttrs(slot0:findTF("attrs", slot0.equipmentPanel), slot2, slot2.config.next > 0 and slot2:MigrateTo(slot2.config.next) or nil)
-	setText(findTF(slot0.equipmentPanel, "name_container"), slot2.config.name)
-	setActive(findTF(slot0.equipmentPanel, "unique"), slot2:isUnique())
-	updateEquipment(slot0:findTF("equiptpl", slot0.equipmentPanel), slot2)
+	slot0:updateAttrs(slot0.equipmentPanel:Find("view/content"), slot1, slot1.config.next > 0 and slot1:MigrateTo(slot1.config.next) or nil)
+	setText(findTF(slot0.equipmentPanel, "name_container"), slot1.config.name)
+	setActive(findTF(slot0.equipmentPanel, "unique"), slot1:isUnique())
+	updateEquipment(slot0:findTF("equiptpl", slot0.equipmentPanel), slot1)
 end
 
-function slot0.updateAttrs(slot0, slot1, slot2, slot3)
-	slot4 = slot2:GetProperties()
-	slot5 = slot3 and slot3:GetProperties() or nil
-	slot6 = 0
+function slot1(slot0)
+	slot0.sub = {
+		_.detect(slot0.sub, function (slot0)
+			return slot0.type == AttributeType.Damage
+		end)
+	}
+end
 
-	function slot7(slot0)
-		slot1 = uv0[slot0]
-		uv1 = uv1 + 1
+function slot0.updateAttrs(slot0, slot1, slot2, slot3, slot4)
+	for slot9 = 1, #slot2:GetPropertiesInfo().weapon.sub do
+		uv0(slot5.weapon.sub[slot9])
+	end
 
-		setActive(findTF(uv2, "attr_" .. uv1), slot1)
+	if slot3 then
+		slot6 = slot3:GetPropertiesInfo()
 
-		if slot1 then
-			slot4 = findTF(slot2, "from")
-			slot5 = findTF(slot2, ">")
-			slot6 = findTF(slot2, "to")
+		Equipment.InsertAttrsUpgrade(slot5.attrs, slot6.attrs)
 
-			setActive(findTF(slot2, "delta"), false)
+		if #slot6.weapon.sub > #slot5.weapon.sub then
+			for slot10 = #slot5.weapon.sub, #slot6.weapon.sub do
+				table.insert(slot5.weapon.sub, {
+					name = "nothing",
+					sub = {}
+				})
+			end
+		end
 
-			slot8 = nil
+		for slot10 = #slot5.weapon.sub, 1, -1 do
+			slot11 = slot5.weapon.sub[slot10]
 
-			if not EquipType.isDevice(uv3.configId) and slot1.type == AttributeType.Reload then
-				slot9 = nil
-
-				if uv4.contextData.shipVO then
-					setText(findTF(slot2, "tag"), AttributeType.Type2Name(AttributeType.CD))
-
-					slot9 = uv4.contextData.shipVO:calcWeaponCD(uv3)
-					slot8 = uv5 and uv4.contextData.shipVO:calcWeaponCD(uv5) or nil
-				else
-					setText(slot3, i18n("cd_normal"))
-
-					slot9 = uv3:getWeaponCD()
-					slot8 = uv5 and uv5:getWeaponCD() or nil
-				end
-
-				slot10 = 0
-
-				if slot8 then
-					setActive(slot7, true)
-
-					slot10 = slot8 - slot9
-				end
-
-				setText(slot4, string.format(math.abs(slot10) < 0.01 and math.abs(slot10) ~= 0 and "%.3f" or "%.2f", slot9) .. "s" .. i18n("word_secondseach"))
-
-				if slot8 then
-					slot13 = string.format(slot11, slot8)
-
-					setText(slot6, slot13 .. "s" .. i18n("word_secondseach"))
-					setText(slot7, string.format(slot11, slot12 - slot13))
-				else
-					setText(slot6, "")
-					setText(slot7, "")
-				end
+			if slot6.weapon.sub[slot10] then
+				uv0(slot6.weapon.sub[slot10])
 			else
-				setText(slot4, slot1.value)
-				setText(slot3, AttributeType.Type2Name(slot1.type))
-
-				if uv6 and uv6[slot0] or nil then
-					if type(slot1.value) == "number" and slot8.value ~= slot1.value then
-						setActive(slot7, true)
-						setText(slot7, slot8.value - slot1.value)
-					elseif string.match(slot1.value, "%d+") ~= string.match(slot8.value, "%d+") then
-						setActive(slot7, true)
-						setText(slot7, slot10 - slot9)
-					end
-
-					setText(slot6, slot8.value)
-				end
+				slot12 = {
+					name = "nothing",
+					sub = {}
+				}
 			end
 
-			setActive(slot6, slot8)
-			setActive(slot5, slot8)
+			if slot11.name ~= slot12.name then
+				slot11.sub = {
+					{
+						name = "weapon change",
+						value = slot12.name
+					}
+				}
+			else
+				Equipment.InsertAttrsUpgrade(slot11.sub, slot12.sub)
+			end
+
+			if #slot11.sub == 0 then
+				table.remove(slot5.weapon.sub, slot10)
+
+				if slot6.weapon.sub[slot10] then
+					table.remove(slot6.weapon.sub, slot10)
+				end
+			end
 		end
 	end
 
-	if EquipType.isDevice(slot2.configId) then
-		for slot11, slot12 in ipairs({
-			1,
-			2
-		}) do
-			slot7(slot12)
-		end
-	else
-		for slot11, slot12 in ipairs({
-			1,
-			4
-		}) do
-			slot7(slot12)
-		end
+	if slot4 then
+		slot5.weapon.sub = {}
 	end
+
+	updateEquipUpgradeInfo(slot1, slot5, slot0.contextData.shipVO)
 end
 
 function slot0.updateMaterials(slot0)
@@ -311,7 +285,7 @@ function slot0.upgradeFinish(slot0, slot1, slot2)
 	setText(findTF(slot0.finishPanel, "frame/equipment_panel/name_container"), slot2.config.name)
 	setActive(findTF(slot0.finishPanel, "frame/equipment_panel/unique"), slot2:isUnique())
 	updateEquipment(slot0:findTF("frame/equipment_panel/equiptpl", slot0.finishPanel), slot2)
-	slot0:updateAttrs(slot0:findTF("frame/equipment_panel/attrs", slot0.finishPanel), slot1, slot2)
+	slot0:updateAttrs(slot0:findTF("frame/equipment_panel/view/content", slot0.finishPanel), slot1, slot2, true)
 end
 
 function slot0.willExit(slot0)

@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			say = "时间回到大斗犬和U110对峙的时候——",
+			say = "时间回到大斗犬和U-110对峙的时候——",
 			dir = 1,
 			bgm = "level02",
 			effects = {

@@ -241,7 +241,15 @@ return {
 			}
 		},
 		getSegment = function ()
-			return (not BuildShipScene.projectName or BuildShipScene.projectName == BuildShipScene.PROJECTS.HEAVY) and 2 or 1
+			if not BuildShipScene.projectName then
+				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1) and not slot0:isEnd() then
+					return 1
+				else
+					return 2
+				end
+			else
+				return BuildShipScene.projectName == BuildShipScene.PROJECTS.HEAVY and 2 or 1
+			end
 		end
 	},
 	{

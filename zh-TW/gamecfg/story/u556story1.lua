@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "记得名字是……U556吧？好像是一位特别有活力的孩子……要是能胜任秘书舰的工作就好了呢。",
+			say = "记得名字是……U-556吧？好像是一位特别有活力的孩子……要是能胜任秘书舰的工作就好了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			},
 			options = {
 				{
-					content = "U556？",
+					content = "U-556？",
 					flag = 1
 				}
 			}
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "U556露出了自信的笑容。",
+			say = "U-556露出了自信的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不到1分钟，U556投来了求助的目光。",
+			say = "不到1分钟，U-556投来了求助的目光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

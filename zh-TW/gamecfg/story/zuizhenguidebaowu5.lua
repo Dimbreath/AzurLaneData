@@ -44,7 +44,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408080,
-			say = "…唔…U556还没来——",
+			say = "…唔…U-556还没来——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不玩了。U110要撤退了。回去要泡个澡——",
+			say = "不玩了。U-110要撤退了。回去要泡个澡——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "U110也会看。嗯，大的和小的",
+			say = "U-110也会看。嗯，大的和小的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U110也喜欢大的吗？说起来，女将也经常盯着小天鹅的看呢。",
+			say = "U-110也喜欢大的吗？说起来，女将也经常盯着小天鹅的看呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "大斗犬伸出食指，指着半个脑袋已经潜入水中的U110。",
+			say = "大斗犬伸出食指，指着半个脑袋已经潜入水中的U-110。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408080,
-			say = "话说完了，U110可以回去了吗？",
+			say = "话说完了，U-110可以回去了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

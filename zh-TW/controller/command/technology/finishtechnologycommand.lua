@@ -27,22 +27,40 @@ function slot0.execute(slot0, slot1)
 				table.insert({}, slot7)
 			end
 
-			for slot6, slot7 in ipairs(slot0.common_list) do
+			for slot6, slot7 in ipairs(slot0.catchup_list) do
 				slot8 = Item.New(slot7)
 
+				getProxy(TechnologyProxy):addCatupPrintsNum(slot8.count)
+				getProxy(TechnologyProxy):judgeOnCatchupOldAndFinished()
 				uv2:sendNotification(GAME.ADD_ITEM, slot8)
 				table.insert({}, slot8)
 			end
 
+			for slot7, slot8 in ipairs(slot0.catchupact_list) do
+				slot9 = Item.New(slot8)
+
+				uv2:sendNotification(GAME.ADD_ITEM, slot9)
+				table.insert({}, slot9)
+			end
+
+			for slot8, slot9 in ipairs(slot0.common_list) do
+				slot10 = Item.New(slot9)
+
+				uv2:sendNotification(GAME.ADD_ITEM, slot10)
+				table.insert({}, slot10)
+			end
+
 			if uv0:hasCondition() and uv0:getTaskId() then
-				getProxy(TaskProxy):removeTaskById(slot3)
+				getProxy(TaskProxy):removeTaskById(slot5)
 			end
 
 			uv1:updateTechnologys(slot0)
 			uv2:sendNotification(GAME.FINISH_TECHNOLOGY_DONE, {
 				technologyId = uv0.id,
 				items = slot1,
-				commons = slot2
+				commons = slot4,
+				catchupItems = slot2,
+				catchupActItems = slot3
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("technology_finish_erro") .. slot0.result)

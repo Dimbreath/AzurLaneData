@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"融冰\n\n<size=45>一　秘书舰</size>",
+					"融冰\n\n<size=45>一　秘書艦</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			blackBg = true,
 			actor = 900010,
 			actorName = "俾斯麦",
-			say = "妹妹……对不起……",
+			say = "妹妹……對不起……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			blackBg = true,
 			actor = 900010,
 			actorName = "俾斯麦",
-			say = "请原谅，我所做的一切……",
+			say = "請原諒，我所做的一切……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgm = "story-2",
 			actor = 405020,
 			nameColor = "#a9f548",
-			say = "呼……又是这个梦吗？这是第几次了呢……",
+			say = "呼……又是這個夢嗎？這是第幾次了呢……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "算了，现在不是把思绪停留在这种事情上的时候。",
+			say = "算了，現在不是把思緒停留在這種事情上的時候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "指挥官还没来吗？那我先处理一些能处理的工作吧。嗯……首先是这些委托报告……",
+			say = "指揮官還沒來嗎？那我先處理一些能處理的工作吧。嗯……首先是這些委託報告……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
-			say = "一早来到指挥室，担当秘书舰的提尔比茨已经开始工作了。",
+			say = "一早來到指揮室，擔當秘書艦的鐵必制已經開始工作了。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官，妳来了。",
+			say = "啊，指揮官，妳來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			actor = 405020,
 			nameColor = "#a9f548",
-			say = "正好，这份是今天的工作安排，过目一下吧，有什么问题我再调整。",
+			say = "正好，這份是今天的工作安排，過目一下吧，有什麼問題我再調整。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			},
 			options = {
 				{
-					content = "接过材料",
+					content = "接過材料",
 					flag = 1
 				}
 			}
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "另外，昨天指挥官交付的舰队事务，我试着处理了一些。",
+			say = "另外，昨天指揮官交付的艦隊事務，我試著處理了一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,14 +221,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "桌面上整齐地码放着一叠文件。",
+			say = "桌面上整齊地疊放著一疊文件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "向提尔比茨道谢",
+					content = "向鐵必制道謝",
 					flag = 1
 				}
 			}
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用因为这点事情道谢，这不过是秘书舰的职责。",
+			say = "不用因為這點事情道謝，這不過是秘書艦的職責。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "提尔比茨继续利索地处理起公文来。",
+			say = "鐵必制繼續利索地處理起公文來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不愧是铁血的精英，作为秘书舰也是毫不含糊。",
+			say = "不愧是鐵血的精英，作為秘書艦也是毫不含糊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "…但是，总觉得有层微妙的隔阂，是错觉吗",
+			say = "…但是，總覺得有層微妙的隔閡，是錯覺嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

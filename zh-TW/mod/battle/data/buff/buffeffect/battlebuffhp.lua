@@ -36,6 +36,12 @@ function slot1.SetArgs(slot0, slot1, slot2)
 end
 
 function slot1.onBulletHit(slot0, slot1, slot2, slot3)
+	if not slot0:equipIndexRequire(slot3.equipIndex) then
+		return
+	end
+
+	print(slot3.weaponType, slot0._weaponType)
+
 	if not slot0._weaponType then
 		slot3.target:UpdateHP(slot0._number, {
 			isMiss = false,

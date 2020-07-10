@@ -20564,6 +20564,150 @@ pg.aircraft_template = {
 			offsetZ = -14
 		}
 	},
+	[68541] = {
+		name = "伊25技能零侦LV1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "glen",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "glen",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1615,
+		speed = 66,
+		id = 68541,
+		scale = 1,
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[68542] = {
+		id = 68542,
+		name = "伊25技能零侦LV2",
+		base = 68541,
+		max_hp = 48,
+		hp_growth = 1826,
+		weapon_ID = {}
+	},
+	[68543] = {
+		id = 68543,
+		name = "伊25技能零侦LV3",
+		base = 68541,
+		max_hp = 54,
+		hp_growth = 2036,
+		weapon_ID = {}
+	},
+	[68544] = {
+		id = 68544,
+		name = "伊25技能零侦LV4",
+		base = 68541,
+		max_hp = 61,
+		hp_growth = 2247,
+		weapon_ID = {}
+	},
+	[68545] = {
+		id = 68545,
+		name = "伊25技能零侦LV5",
+		base = 68541,
+		max_hp = 67,
+		hp_growth = 2458,
+		weapon_ID = {}
+	},
+	[68546] = {
+		id = 68546,
+		name = "伊25技能零侦LV6",
+		base = 68541,
+		max_hp = 73,
+		hp_growth = 2669,
+		weapon_ID = {}
+	},
+	[68547] = {
+		id = 68547,
+		name = "伊25技能零侦LV7",
+		base = 68541,
+		max_hp = 79,
+		hp_growth = 2879,
+		weapon_ID = {}
+	},
+	[68548] = {
+		id = 68548,
+		name = "伊25技能零侦LV8",
+		base = 68541,
+		max_hp = 86,
+		hp_growth = 3090,
+		weapon_ID = {}
+	},
+	[68549] = {
+		id = 68549,
+		name = "伊25技能零侦LV9",
+		base = 68541,
+		max_hp = 92,
+		hp_growth = 3301,
+		weapon_ID = {}
+	},
+	[68550] = {
+		id = 68550,
+		name = "伊25技能零侦LV10",
+		base = 68541,
+		max_hp = 98,
+		hp_growth = 3511,
+		weapon_ID = {}
+	},
 	[69161] = {
 		name = "无畏技能SB2C(VB-18)轰炸机Lv1",
 		max_hp = 49,
@@ -88472,6 +88616,299 @@ pg.aircraft_template = {
 			}
 		}
 	},
+	[950263] = {
+		name = "轰炸机",
+		max_hp = 150,
+		accuracy = 23,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 80,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2520,
+		speed = 30,
+		id = 950263,
+		scale = 0.75,
+		weapon_ID = {
+			950273
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[950264] = {
+		name = "战斗机",
+		max_hp = 150,
+		accuracy = 23,
+		model_ID = "lingzhan21gai",
+		ACC_growth = 0,
+		crash_DMG = 80,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan21gai",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2520,
+		speed = 33,
+		id = 950264,
+		scale = 0.75,
+		weapon_ID = {
+			950274,
+			950275
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[950276] = {
+		name = "赤城蓄力武器飞机群",
+		max_hp = 150,
+		accuracy = 23,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 80,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "shenhaifeiji",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2520,
+		speed = 50,
+		id = 950276,
+		scale = 0.75,
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[950277] = {
+		name = "加贺蓄力武器飞机群",
+		max_hp = 150,
+		accuracy = 23,
+		model_ID = "lingzhan21gai",
+		ACC_growth = 0,
+		crash_DMG = 80,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "shenhaifeiji",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2520,
+		speed = 50,
+		id = 950277,
+		scale = 0.75,
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
 	[30001] = {
 		name = "F4F野猫",
 		max_hp = 52,
@@ -104992,6 +105429,16 @@ pg.aircraft_template = {
 		67940,
 		67981,
 		67982,
+		68541,
+		68542,
+		68543,
+		68544,
+		68545,
+		68546,
+		68547,
+		68548,
+		68549,
+		68550,
 		69161,
 		69162,
 		69163,
@@ -106220,6 +106667,10 @@ pg.aircraft_template = {
 		800006,
 		800007,
 		800010,
+		950263,
+		950264,
+		950276,
+		950277,
 		30001,
 		30002,
 		30003,

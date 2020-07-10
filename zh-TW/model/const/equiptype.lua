@@ -105,7 +105,11 @@ function slot0.isAircraft(slot0)
 end
 
 function slot0.isDevice(slot0)
-	return pg.equip_data_template[slot0].type == uv0.Equipment or slot1 == uv0.Sonar or slot1 == uv0.Helicopter
+	return pg.equip_data_template[slot0].type == uv0.Equipment or slot1 == uv0.Sonar or slot1 == uv0.Helicopter or slot1 == uv0.AntiSubAircraft
+end
+
+function slot0.getCompareGroup(slot0)
+	return pg.equip_data_by_type[pg.equip_data_template[slot0].type].compare_group
 end
 
 function slot0.type2Title(slot0, slot1)
