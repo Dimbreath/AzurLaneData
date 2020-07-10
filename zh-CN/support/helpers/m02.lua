@@ -2388,11 +2388,15 @@ function checkExist(slot0, ...)
 	for slot5, slot6 in ipairs({
 		...
 	}) do
-		if not slot0 then
-			return false
+		if type(slot0) == "table" then
+			if type(slot0[slot6[1]]) == "function" then
+				slot0 = slot0[slot6[1]](slot0, unpack(slot6[2] or {}))
+			else
+				slot0 = slot0[slot6[1]]
+			end
+		elseif not slot0 then
+			break
 		end
-
-		slot0 = (type(slot0[slot6[1]]) ~= "function" or slot0[slot6[1]](slot0, unpack(slot6[2] or {}))) and slot0[slot6[1]](slot0, unpack(slot6[2] or ))[slot6[1]]
 	end
 
 	return slot0

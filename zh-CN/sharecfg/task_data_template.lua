@@ -100516,6 +100516,354 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15761] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93460,
+		type = 6,
+		name = "『英系V2』角色收集：豪",
+		count_inherit = 0,
+		desc = "[黎塞留]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 805014,
+		id = 15761,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "805014",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				600
+			}
+		}
+	},
+	[15762] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93461,
+		type = 6,
+		name = "『英系V2』角色收集：英仙座",
+		count_inherit = 0,
+		desc = "[阿尔及利亚]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 903024,
+		id = 15762,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "903024",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				600
+			}
+		}
+	},
+	[15763] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93462,
+		type = 6,
+		name = "『英系V2』角色收集：赫敏",
+		count_inherit = 0,
+		desc = "[圣女贞德]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 802024,
+		id = 15763,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "802024",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				600
+			}
+		}
+	},
+	[15764] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93463,
+		type = 6,
+		name = "『英系V2』角色收集：鹰",
+		count_inherit = 0,
+		desc = "[拉.加利索尼埃]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 902014,
+		id = 15764,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "902014",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				400
+			}
+		}
+	},
+	[15765] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93464,
+		type = 6,
+		name = "『英系V2』角色收集：伊卡洛斯",
+		count_inherit = 0,
+		desc = "[沃克兰]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 901034,
+		id = 15765,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "901034",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				400
+			}
+		}
+	},
+	[15766] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93465,
+		type = 6,
+		name = "『英系V2』角色收集：英勇",
+		count_inherit = 0,
+		desc = "[贝亚恩]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 807014,
+		id = 15766,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "807014",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				400
+			}
+		}
+	},
+	[15767] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93466,
+		type = 6,
+		name = "『英系V2』角色刷关：牙买加",
+		count_inherit = 0,
+		desc = "使用满星让巴尔击败B3或D3敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15767,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1391213,
+			1393213
+		},
+		target_id_2 = {
+			905014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15768] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93467,
+		type = 6,
+		name = "『英系V2』角色刷关：希佩尔",
+		count_inherit = 0,
+		desc = "使用满星鲁莽击败B2或D2敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15768,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1391113,
+			1393113
+		},
+		target_id_2 = {
+			801034
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15769] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93468,
+		type = 6,
+		name = "『英系V2』角色刷关：吸血鬼",
+		count_inherit = 0,
+		desc = "使用满星倔强击败A3或C3敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15769,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1390213,
+			1392213
+		},
+		target_id_2 = {
+			801044
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15770] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93469,
+		type = 6,
+		name = "『英系V2』角色刷关：贝尔法斯特",
+		count_inherit = 0,
+		desc = "使用满星命运女神击败A2或C2敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15770,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1390113,
+			1392113
+		},
+		target_id_2 = {
+			201124
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[30101] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -104527,7 +104875,6 @@ pg.task_data_template = {
 		sub_type = 1014,
 		added_tip = 0,
 		story_icon = "",
-		scene = "",
 		award_choice = "",
 		level = 30,
 		next_task = "0",
@@ -104552,6 +104899,9 @@ pg.task_data_template = {
 				42000,
 				30
 			}
+		},
+		scene = {
+			"SELTECHNOLOGY"
 		}
 	},
 	[52001] = {
@@ -113204,6 +113554,16 @@ pg.task_data_template = {
 		15758,
 		15759,
 		15760,
+		15761,
+		15762,
+		15763,
+		15764,
+		15765,
+		15766,
+		15767,
+		15768,
+		15769,
+		15770,
 		30101,
 		30102,
 		30103,

@@ -211292,7 +211292,7 @@ pg.ship_data_statistics = {
 			0
 		},
 		fix_equip_list = {
-			21100
+			215
 		},
 		default_equip_list = {
 			23130,

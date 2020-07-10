@@ -3026,7 +3026,7 @@ pg.technology_data_template = {
 			},
 			{
 				2,
-				52002,
+				52012,
 				1
 			},
 			{
@@ -3071,7 +3071,7 @@ pg.technology_data_template = {
 			},
 			{
 				2,
-				52002,
+				52012,
 				1
 			},
 			{
@@ -3116,7 +3116,7 @@ pg.technology_data_template = {
 			},
 			{
 				2,
-				52002,
+				52012,
 				1
 			},
 			{
@@ -3161,7 +3161,7 @@ pg.technology_data_template = {
 			},
 			{
 				2,
-				52002,
+				52012,
 				1
 			},
 			{
@@ -3206,7 +3206,7 @@ pg.technology_data_template = {
 			},
 			{
 				2,
-				52002,
+				52012,
 				1
 			},
 			{
