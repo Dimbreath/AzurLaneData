@@ -2480,7 +2480,7 @@ pg.ship_skin_words = {
 		login = "지휘관, 사무실에서 훈련해도 돼?",
 		vote = "",
 		name = "스몰리",
-		detail = "맞아, 나랑 모리의 이름이 아주 비슷하지. 그리고 난 모리의 순발력이 정말 대단하다고 생각해.",
+		detail = "볼티모어 씨? ...... 아, 지휘관인가...... 미안, 방금 단련하느라 몰랐어. ",
 		couple_encourage = {
 			{
 				{
@@ -17136,7 +17136,7 @@ pg.ship_skin_words = {
 		voice_key_2 = -1,
 		profile = "",
 		mission_complete = "바보 지휘관, 뭐 하는거야? 정말이지, 임무 보상이 도착했다고!",
-		headtouch = "뭐 하는 거야?! {Namecode:17}님은 {namecode:22}가 아니라고!",
+		headtouch = "뭐 하는 거야?! {namecode:17}님은 {namecode:22}가 아니라고!",
 		feeling2 = "",
 		feeling4 = "",
 		unlock = "흐흥, 이 {namecode:17}님을 개조하다니, 아주 탁월한 선택이야! 앞으로도 나의 힘과 행운에 의지하라고. 행운의 바보 지휘관~",
@@ -28365,7 +28365,7 @@ pg.ship_skin_words = {
 		couple_encourage = {}
 	},
 	[405021] = {
-		touch = "조오금 덥네...... 지휘관, 에어컨 좀 더 세게 틀어 줄래?",
+		touch = "조금 덥네...... 지휘관, 에어컨 좀 더 세게 틀어 줄래?",
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
