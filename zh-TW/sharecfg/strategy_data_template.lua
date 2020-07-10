@@ -52,11 +52,11 @@ pg.strategy_data_template = {
 	},
 	[10] = {
 		buff_id = 0,
-		name = "单横阵警戒",
+		name = "範圍外支援",
 		type = 4,
 		id = 10,
 		icon = "10",
-		desc = "下一场战斗，舰队全员【占坑，反潜提高】",
+		desc = "可在潛艇狩獵範圍外，呼叫潛艇支援",
 		arg = {
 			map_call
 		}

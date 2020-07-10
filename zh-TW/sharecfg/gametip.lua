@@ -8507,6 +8507,9 @@ P7通过指定关卡]]
 			}
 		}
 	},
+	word_rest_times = {
+		tip = "<color=#FFDE38FF>剩餘次數 ：%s次</color>"
+	},
 	common_buy_gold_success = {
 		tip = "成功購買 <color=#92fc63>$1</color> 物資！"
 	},
