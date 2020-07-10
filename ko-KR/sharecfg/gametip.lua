@@ -6948,13 +6948,13 @@ B평가:<color=#92fc63>70</color>점
 		tip = "리슐리외, 알제리, 보클랭 출현 확률 UP! "
 	},
 	buildship_heavy_tip = {
-		tip = "미니애폴리스, 노스캐롤라이나,워싱턴,콜로라도,메릴랜드 건조 추가 "
+		tip = "나가토 ,스즈야 건조 추가 "
 	},
 	buildship_light_tip = {
-		tip = "저지 건조 추가! "
+		tip = "카와카제,요이즈키,하루츠키,후미즈키,아사시오 건조 추가! "
 	},
 	buildship_special_tip = {
-		tip = "에식스 건조 추가 "
+		tip = "이13 건조 추가 "
 	},
 	open_skill_pos = {
 		tip = "해당 항목을 오픈하기 위해선 <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>이 필요합니다.\n오픈하시겠습니까?"
@@ -10529,5 +10529,8 @@ BUFF 보너스도 증가합니다.
 	},
 	re_battle = {
 		tip = "재도전 "
+	},
+	keep_fate_tip = {
+		tip = "<color=#92fc63>용골편찬</color>에 필요한 강화 유닛 보류 "
 	}
 }

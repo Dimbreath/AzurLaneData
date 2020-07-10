@@ -33,9 +33,47 @@ pg.activity_banner = {
 		}
 	},
 	{
+		type = 2,
+		id = 2,
+		pic = "temp3",
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = false
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					7,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		param = "617",
 		type = 3,
-		id = 2,
+		id = 3,
 		pic = "temp11",
 		time = {
 			{
@@ -67,7 +105,7 @@ pg.activity_banner = {
 	{
 		param = "618",
 		type = 3,
-		id = 3,
+		id = 4,
 		pic = "temp2",
 		time = {
 			{
@@ -98,7 +136,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 4,
+		id = 5,
 		pic = "temp3",
 		param = {
 			"scene level",
@@ -133,7 +171,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 5,
+		id = 6,
 		pic = "temp5",
 		param = {
 			"scene skinshop",
@@ -168,7 +206,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 6,
+		id = 7,
 		pic = "temp7",
 		param = {
 			"scene back yard",
@@ -207,6 +245,7 @@ pg.activity_banner = {
 		3,
 		4,
 		5,
-		6
+		6,
+		7
 	}
 }

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>五 阴，转——</size>",
+					"비 온 뒤 맑음\n\n<size=45>5. 흐림, 그리고——</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "不久之后——",
+			say = "얼마 후——",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下，让你久等了！咳咳！",
+			say = "나리, 오래 기다리셨죠! 크흠!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "上次和你提过的巫女舞，我想今天跳给你看看！",
+			say = "저번에 얘기했던 무녀 춤, 오늘 보여드리고 싶어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嗯，其实我有背着姐姐在偷偷学巫女舞！可没人看我跳，不知道哪里跳得行哪里不行……",
+			say = "네, 실은 언니 어깨 너머로 몰래 무녀 춤을 배웠어요! 아직 아무도 제가 추는 걸 못봐서, 어느 부분은 괜찮고, 어느 부분이 괜찮지 않은지를 몰라요......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "所以想让殿下帮我看看！还有呢……巫女舞就是要在合适的地方跳才对，是吧！",
+			say = "그러니까 나리가 봐주세요! 그리고... 무녀 춤은 적합한 장소에서 춰야하죠, 맞죠!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "里面都打扫干净了，就先在外面比划一下动作再说——",
+			say = "안 쪽은 깨끗하게 청소했으니까 밖에서 우선 동작을 연습해볼까요——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "叮当 叮当",
+			say = "딸랑 딸랑",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "神乐铃的声音回荡着——",
+			say = "무녀방울의 소리가 울린다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "虽然动作还有些不熟练，还是能让人感受到她努力练习的成果。",
+			say = "동작은 그리 익숙해보이진 않았지만, 그녀가 노력하여 연습한 성과를 느낄 수 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "叮当 叮当",
+			say = "딸랑 딸랑",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "神乐铃的声音回荡着——",
+			say = "무녀방울의 소리가 울린다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "平时总是跌跌撞撞笨手笨脚的少女，此时全身散发着一种神圣的气息。",
+			say = "평소에 항상 서툴고 정신없던 소녀가, 지금은 온몸에서 신성한 분위기를 발산하고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "叮当 叮当 啪嗒 啪嗒",
+			say = "딸랑 딸랑 투둑 투둑",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "……嗯？",
+			say = "...... 응?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "除了铃声之外，还有……雨的声音。",
+			say = "방울 소리 외에, 빗소리가 더해졌다...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "哇……哇哇！",
+			say = "우.... 우왁!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,14 +233,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "突然下起了雨。",
+			say = "갑자기 비가 쏟아졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "拉起{namecode:79}跑进休息室",
+					content = "{namecode:79}를 끌어 휴게실로 뛰쳐들어간다.",
 					flag = 1
 				}
 			}
@@ -253,7 +253,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下？？……好、好的！先躲一下免得淋湿了！",
+			say = "나리?? ......아, 알겠어요! 우선 비를 피해요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

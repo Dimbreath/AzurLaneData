@@ -196,6 +196,14 @@ function slot0.isGiftPackage(slot0)
 	return slot0.type == uv0.TYPE_GIFT_PACKAGE
 end
 
+function slot0.isSham(slot0)
+	return slot0.type == uv0.TYPE_SHAM_BATTLE
+end
+
+function slot0.checkCommodityType(slot0, slot1)
+	return slot0:getConfig("commodity_type") == slot1
+end
+
 function slot0.getSkinId(slot0)
 	if slot0.type == uv0.TYPE_ACTIVITY_EXTRA or slot0.type == uv0.TYPE_ACTIVITY then
 		return slot0:getConfig("commodity_id")

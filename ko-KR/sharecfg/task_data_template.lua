@@ -9112,6 +9112,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5111] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5093,
+		type = 5,
+		name = "내일의 날씨는... ",
+		count_inherit = 0,
+		desc = "특제 냉각수를 5개 제출한다.",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "shancheng",
+		award_choice = "",
+		level = 1,
+		next_task = "5112",
+		visibility = 1,
+		story_id = "SHANCHENGP1",
+		target_id_for_client = 50002,
+		id = 5111,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "50002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5112] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5094,
+		type = 5,
+		name = "고기압? 저기압? ",
+		count_inherit = 0,
+		desc = "임의의 함선소녀를 10회 강화한다.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "shancheng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5113",
+		visibility = 1,
+		story_id = "SHANCHENGP2",
+		target_id_for_client = 0,
+		id = 5112,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5113] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5095,
+		type = 5,
+		name = "잔잔한 미풍 ",
+		count_inherit = 0,
+		desc = "야마시로를 포함한 함대를 출격시켜\n20회 승리한다.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "shancheng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5114",
+		visibility = 1,
+		story_id = "SHANCHENGP3",
+		target_id_for_client = 30502,
+		id = 5113,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "30502",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5114] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5096,
+		type = 5,
+		name = "저기압 접근 중 ",
+		count_inherit = 0,
+		desc = "야마시로를 포함한 함대로 데일리 챌린지를\n3회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "shancheng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5115",
+		visibility = 1,
+		story_id = "SHANCHENGP4",
+		target_id_for_client = 30502,
+		id = 5114,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "30502",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5115] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5097,
+		type = 5,
+		name = "흐림, 그리고—— ",
+		count_inherit = 0,
+		desc = "야마시로의 호감도를 100까지 달성한다.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "shancheng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5116",
+		visibility = 1,
+		story_id = "SHANCHENGP5",
+		target_id_for_client = 30502,
+		id = 5115,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "30502",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5116] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5098,
+		type = 5,
+		name = "비를 피해 ",
+		count_inherit = 0,
+		desc = "야마시로의 한계돌파를 3회 진행한다.",
+		target_id_2 = "",
+		sub_type = 33,
+		added_tip = 1,
+		story_icon = "shancheng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5117",
+		visibility = 1,
+		story_id = "SHANCHENGP6",
+		target_id_for_client = 30502,
+		id = 5116,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "30502",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	},
+	[5117] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5099,
+		type = 5,
+		name = "구름 한 점 없이 쾌청 ",
+		count_inherit = 0,
+		desc = "야마시로의 레벨을 100까지 달성한다.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "shancheng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SHANCHENGP7",
+		target_id_for_client = 30502,
+		id = 5117,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "30502",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				2
+			}
+		}
+	},
 	[5121] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -97462,6 +97718,13 @@ pg.task_data_template = {
 		5105,
 		5106,
 		5107,
+		5111,
+		5112,
+		5113,
+		5114,
+		5115,
+		5116,
+		5117,
 		5121,
 		5122,
 		5123,

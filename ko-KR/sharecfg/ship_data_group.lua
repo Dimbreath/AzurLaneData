@@ -5856,9 +5856,13 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"출석 스탬프",
+				"소형함 건조",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -8847,6 +8851,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"이벤트 : 검게 물든 강철의 벚꽃",
 				{
 					""
@@ -9077,6 +9092,16 @@ pg.ship_data_group = {
 				"이벤트 : 홍염의 방문자",
 				{
 					""
+				},
+				0
+			},
+			{
+				"코어 교환 획득",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -9513,6 +9538,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"이벤트 : 검게 물든 강철의 벚꽃",
 				{
 					""
@@ -9543,6 +9579,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"이벤트 : 검게 물든 강철의 벚꽃",
 				{
@@ -10234,6 +10281,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"이벤트 : 검게 물든 강철의 벚꽃",
 				{
 					""
@@ -10264,6 +10322,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"이벤트 : 검게 물든 강철의 벚꽃",
 				{
@@ -10741,6 +10810,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"이벤트 : 검게 물든 강철의 벚꽃",
 				{
@@ -11253,6 +11333,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"코어 교환 획득",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -11313,6 +11403,16 @@ pg.ship_data_group = {
 				"이벤트 : 검게 물든 강철의 벚꽃",
 				{
 					""
+				},
+				0
+			},
+			{
+				"코어 교환 획득",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -11673,6 +11773,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"이벤트 : 검게 물든 강철의 벚꽃",
 				{
 					""
@@ -11707,6 +11818,16 @@ pg.ship_data_group = {
 				"이벤트 : 검게 물든 강철의 벚꽃",
 				{
 					""
+				},
+				0
+			},
+			{
+				"코어 교환 획득",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -12585,6 +12706,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"이벤트 : 검게 물든 강철의 벚꽃",
 				{

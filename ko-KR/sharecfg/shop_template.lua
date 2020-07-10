@@ -11091,9 +11091,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 770,
+		order = 691,
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -11111,8 +11111,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					3,
-					26
+					7,
+					9
 				},
 				{
 					0,
@@ -11123,7 +11123,7 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					4,
+					7,
 					15
 				},
 				{
@@ -11142,9 +11142,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 770,
+		order = 690,
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -11162,8 +11162,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					3,
-					26
+					7,
+					9
 				},
 				{
 					0,
@@ -11174,7 +11174,7 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					4,
+					7,
 					15
 				},
 				{
@@ -11193,9 +11193,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 770,
+		order = 691,
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -11213,8 +11213,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					3,
-					26
+					7,
+					9
 				},
 				{
 					0,
@@ -11225,7 +11225,7 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					4,
+					7,
 					15
 				},
 				{
@@ -11244,9 +11244,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 770,
+		order = 693,
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -11264,8 +11264,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					3,
-					26
+					7,
+					9
 				},
 				{
 					0,
@@ -11276,7 +11276,7 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					4,
+					7,
 					15
 				},
 				{
@@ -15488,9 +15488,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 770,
+		order = 690,
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -15508,8 +15508,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					3,
-					26
+					7,
+					9
 				},
 				{
 					0,
@@ -15520,7 +15520,7 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					4,
+					7,
 					15
 				},
 				{
@@ -15539,9 +15539,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 770,
+		order = 692,
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -15559,8 +15559,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					3,
-					26
+					7,
+					9
 				},
 				{
 					0,
@@ -15571,7 +15571,7 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					4,
+					7,
 					15
 				},
 				{
@@ -15590,9 +15590,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 770,
+		order = 692,
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -15610,8 +15610,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					3,
-					26
+					7,
+					9
 				},
 				{
 					0,
@@ -15622,7 +15622,7 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					4,
+					7,
 					15
 				},
 				{
@@ -15692,9 +15692,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 770,
+		order = 692,
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -15712,8 +15712,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					3,
-					26
+					7,
+					9
 				},
 				{
 					0,
@@ -15724,7 +15724,7 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					4,
+					7,
 					15
 				},
 				{
@@ -21827,9 +21827,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 770,
+		order = 690,
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -21847,8 +21847,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					3,
-					26
+					7,
+					9
 				},
 				{
 					0,
@@ -21859,7 +21859,7 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					4,
+					7,
 					15
 				},
 				{

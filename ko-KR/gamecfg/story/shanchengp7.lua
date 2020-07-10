@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>七 晴空万里</size>",
+					"비 온 뒤 맑음\n\n<size=45>7. 구름 한 점 없이 쾌청</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "{namecode:79}～殿下～你们没事吧～？",
+			say = "{namecode:79}~ 지휘관님~ 괜찮으시죠~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "哎呀。……呵呵",
+			say = "아앗...... 하하",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:78}姐姐！",
+			say = "{namecode:78} 언니!",
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "嗯……雨都下起来了也没见你们回来，我就过来送伞……",
+			say = "응...... 비도 오는데 돌아온 걸 못 봐서 말이야, 우산 주려고 왔어......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "看这样子伞是用不着了吧♪",
+			say = "지금 보니까 우산은 쓸모도 없었네♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "姐姐你真是的！不过还是谢谢你！",
+			say = "언니도 참! 하지만 고마워요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "……嗯？那是……是彩虹啊！姐姐，殿下，是彩虹！",
+			say = "......응? 저건...... 무지개다! 언니, 나리, 무지개에요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "被{namecode:79}拉起了手，走出休息室——",
+			say = "{namecode:79}의 손에 이끌려 휴게실에서 나왔다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "姐妹二人一同建造的神社，鸟居上架起了小小的、美丽的彩虹。",
+			say = "자매 두 사람이 함께 지은 신사, 도리이 위에 자그맣고 아름다운 무지개가 걸려 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,24 +177,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下，刚才我还有句话忘了说。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#92fc63",
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 305020,
-			actorName = "{namecode:79}",
-			say = "现在的我，非常非常幸福！",
+			say = "나리, 방금 하고 싶은 말이 더 있었는데 깜박했어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +194,24 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "因为这里，有这么多的伙伴们，有{namecode:78}姐姐，还有我最喜欢的殿下也在啊！",
+			say = "지금의 저는, 엄청 엄청 행복해요!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#92fc63",
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 305020,
+			actorName = "{namecode:79}",
+			say = "왜냐면 여기에, 이렇게 많은 동료들이 있고, {namecode:78} 언니, 그리고 제가 제일 좋아하는 나리도 있으니까요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "{namecode:79}一边说着，一边凑了过来——",
+			say = "{namecode:79}는 말하면서 다가왔다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "啾~",
+			say = "쪼옥~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "脸颊上传来了嘴唇柔软的感触。",
+			say = "볼에서 입술의 부드러운 감촉이 전달되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "所以呢——今天、明天、都是幸福的大晴天！",
+			say = "그러니까——오늘도, 내일도 모두 행복한 맑음!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "是吧，殿下♪",
+			say = "그렇죠? 나리♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

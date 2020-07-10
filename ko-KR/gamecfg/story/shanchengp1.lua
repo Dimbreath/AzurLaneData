@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>一 明天的天气是……</size>",
+					"비 온 뒤 맑음\n\n<size=45>1. 내일의 날씨는...</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "항구·지휘실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "今天和往常一样，和秘书舰{namecode:79}一起处理公务。",
+			say = "오늘은 평소와 같이, 비서함 {namecode:79}와 함께 공무를 처리하고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "这是接下来要处理的文件……哇！又掉了…我马上捡起来…嗯？",
+			say = "이건 다음에 처리할 문서...... 악! 또 떨어뜨렸네... 제가 주울게요... 응?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "啊！殿下，这份文件早上{namecode:79}已经帮你盖过章了呀？唔，殿下最近记性真差……",
+			say = "아! 나리, 이 문서는 아침에 {namecode:79}가 나리 대신 도장을 찍었어요. 음, 요즘들어 나리 기억력이 정말 나쁘네요......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "不能太勉强自己哦？{namecode:78}姐姐也很担心…",
+			say = "너무 무리하시면 안돼요. {namecode:78} 언니도 걱정이 많은데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这么说来，似乎是给{namecode:79}这么指示过…",
+			say = "말하다보니까, {namecode:79}에게 이렇게 지시했던 것 같은데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 305020,
 			nameColor = "#92fc63",
-			say = "呼…今天的工作总算完成了！殿下，今天{namecode:79}也很努力了哟！",
+			say = "후... 오늘 업무는 완료한 것 같네요! 나리, 오늘은 {namecode:79}도 엄청 열심히 했어요!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -153,7 +153,7 @@ return {
 			},
 			options = {
 				{
-					content = "摸摸{namecode:79}的头",
+					content = "{namecode:79}의 머리를 쓰다듬는다.",
 					flag = 1
 				}
 			}
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嘿嘿～殿下真的很温柔呢～",
+			say = "헤헤~ 나리는 정말 상냥하네요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "对了殿下，你看你看！这个东西可方便呢！",
+			say = "아 참 나리, 이것 보세요! 이거 정말 편리해요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:79}边说边掏出了智能手机。",
+			say = "{namecode:79}는 말하면서 스마트폰을 꺼냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "科学的力量真是太厉害了！{namecode:17}说过，几十年前连电视都没有，自从塞壬打过来以后技术就发展得飞快了！",
+			say = "과학의 힘은 정말 놀라워요! {namecode:17}가 그랬는데, 몇 십 년 전에는 TV도 없었데요. 세이렌이 공격해 온 후로 기술이 정말 빠르게 발전했데요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "快过头了……？嗯……虽然不是很懂……反正用这个东西可以做很多事情！",
+			say = "너무 지나치다구요...? 음... 잘은 모르지만... 어쨌든 이걸 이용하면 엄청 많은 일들을 할 수 있어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "比如说想知道明天天气的话……嗯，按一下这个记录键……好啦！就不用记备忘录了！",
+			say = "예를 들어 내일의 날씨를 알고 싶다면...... 음, 이 기록 버튼을 누르면...... 됐어요! 메모를 기억할 필요가 없어지죠!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:79}把智能手机的画面递了过来。",
+			say = "{namecode:79}는 스마트폰의 화면을 들이밀었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "明天放假，上次我们说好的要打扫神社！殿下，明天就麻烦你了！",
+			say = "내일은 쉬는 날이니까, 저번에 얘기한 신사 청소! 잘 부탁드릴게요, 나리!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>六 躲雨</size>",
+					"비 온 뒤 맑음\n\n<size=45>6. 비를 피해</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "哇啊……湿透了……殿下，给你毛巾擦擦吧！",
+			say = "와아...... 다 젖었다...... 나리, 수건 드릴게요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "{namecode:79}一边用毛巾擦拭着淋湿的头发，一边把另一条干毛巾递了过来。",
+			say = "{namecode:79}는 수건으로 젖은 머리카락을 문지르면서, 다른 수건을 건넸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,24 +51,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "{namecode:78}姐姐总说“常备毛巾就不用怕突然下大雨”，还真的挺有道理……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#92fc63",
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 305020,
-			actorName = "{namecode:79}",
-			say = "嗯，衣服衣服……有了！我马上——",
+			say = "{namecode:78} 언니가 항상 \"수건을 항상 준비해두면 갑자기 큰 비가 내려도 괜찮아\"라고 말했어요. 정말 일리가 있네요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +68,24 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "呃，殿下也在啊……对、对不起……",
+			say = "네, 옷 옷...... 있어요! 저 금방——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#92fc63",
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 305020,
+			actorName = "{namecode:79}",
+			say = "엇, 나리가 계신데...... 죄, 죄송해요......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,11 +96,11 @@ return {
 			},
 			options = {
 				{
-					content = "沉默着转过身",
+					content = "조용히 몸을 돌린다.",
 					flag = 1
 				},
 				{
-					content = "走向门外",
+					content = "문 밖을 향해 걸어간다.",
 					flag = 2
 				}
 			}
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下？外面在下雨啊！",
+			say = "나리? 밖에 비오고 있잖아요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "……呃，嗯，背对着我就，就行了……",
+			say = "...... 어, 음, 뒤돌아 계시면, 그럼 괜찮아요......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_room",
 			actor = 305020,
 			nameColor = "#92fc63",
-			say = "……好了！殿下，可以转过来了！",
+			say = "...... 됐어요! 나리, 뒤도셔도 돼요!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "对不起，衣服只有我自己的……毛巾倒是还有新的！",
+			say = "죄송해요, 옷이 제 것 밖에 없네요...... 수건은 새 것 또 있어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "不过好可惜，我的舞殿下没看成……",
+			say = "근데 아쉬워요. 제 춤을 나리가 다 못 보셔......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "轻轻地摸摸坐在身边的{namecode:79}的头。",
+			say = "옆에 앉아 있는 {namecode:79}의 머리를 가볍게 쓰다듬는다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,24 +224,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嘿嘿……你问“为什么要这么拼命”？嗯，我没和殿下说过吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#92fc63",
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 305020,
-			actorName = "{namecode:79}",
-			say = "一是想分担一下姐姐的负担，二是——嗯，{namecode:98}对我说过，我和{namecode:78}姐姐运气不好，会不会就是因为我们被叫做“不幸舰”才会这样的……",
+			say = "헤헤...... \"왜 이렇게 열심이냐\"고요? 음, 나리께 말 안했나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +241,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "可我觉得，当我们还是船的时候，即使舰历上是不幸的，那也是我们周围的人们努力的结果——  ",
+			say = "첫 번째, 언니의 부담을 덜어주고 싶어서, 두 번째는——음, {namecode:98}가 그랬어요. 저와 {namecode:78} 언니는 운이 나쁘다고. 저희가 \"불행함\"이라고 불리기 때문에 이런 거라면......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +258,24 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "所以在这个世界里我们要努力变得幸福，才能回报他们所有人……我是这么想的！",
+			say = "하지만 저는, 저희가 배일 때, 비록 불행하긴 하지만, 그것 역시 저희의 주변 사람들이 노력한 결과라고 생각해요——  ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#92fc63",
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 305020,
+			actorName = "{namecode:79}",
+			say = "그러니까 이 세상에서 저희는 노력해서 행복해져야하고 그래야 모든 사람들에게 보답할 수 있겠죠...... 전 이렇게 생각해요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "不知不觉中，骤来的阵雨已然停息。",
+			say = "어느샌가, 소나기가 멎었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

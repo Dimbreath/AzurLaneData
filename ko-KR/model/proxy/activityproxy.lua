@@ -63,6 +63,7 @@ function slot0.register(slot0)
 
 		if pg.activity_template[slot1.id].type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
 			uv0:updateActivityFleet(slot0.activity_info)
+			uv0:InitActivityBossData(slot1)
 		end
 
 		uv0:sendNotification(GAME.ACTIVITY_BE_UPDATED, {

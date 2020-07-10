@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>四 低气压正在接近</size>",
+					"비 온 뒤 맑음\n\n<size=45>4. 저기압 접근 중</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "呼……差不多都收拾完了吧……有殿下帮忙真是太感谢了。",
+			say = "후... 거의 끝난 것 같네요... 도와 주셔서 정말 감사해요, 지휘관님.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "{namecode:79}，今天比平时还要磕磕绊绊的……没事吧……？",
+			say = "{namecode:79}, 오늘 평소보다 더 버벅대네... 괜찮지......?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "没事……但是殿下……呜呜……",
+			say = "괜찮아요... 하지만 나리가......우웅......",
 			side = 1,
 			bgName = "star_level_bg_101",
 			nameColor = "#92fc63",
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "趁着打扫完神社的空档，和{namecode:79}她们到休息室里稍作休息。",
+			say = "신사 청소를 끝내고 남는 시간에 {namecode:79}랑 휴게실에서 잠깐 쉬시지요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "我看过你今天的运势了，并没有特别糟糕啊……应该是你不小心，或者是太紧张导致的吧。",
+			say = "너의 오늘의 운세를 봤는데, 특별히 나쁜 건 전혀 없었어... 네가 부주의했거나 너무 긴장해서 그런 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "又不是受了伤，这点小事也没什么大不了，可不能给殿下添麻烦啊？",
+			say = "다친 것도 아니고, 이런 사소한 일은 별거 아니야. 지휘관님께 폐를 끼치면 안돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "虽然平时也经常会笨手笨脚，可今天这么严重还是头一回……",
+			say = "평상시에도 서툴지만, 오늘처럼 이렇게 심각한 것은 처음이다...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "star_level_bg_101",
 			actor = 305020,
 			nameColor = "#92fc63",
-			say = "殿下，抽、抽屉里面的东西不能看！……哇！",
+			say = "나리, 서, 서랍 안에 물건은 보시면 안돼요! ...... 악!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下，帮我扶着梯子，我去擦上面！……诶，从后面！？哇哇！？",
+			say = "나리, 사다리 좀 잡아 주세요, 제가 올라가서 닦을게요! ......엣, 뒤에서!? 우앗!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "呜……有家具币掉在柜子下面了……呜呜……够不着……殿、殿下！？不许看！哇哇哇！？",
+			say = "아... 가구 코인이 선반 밑에 떨어졌네... 우웅...... 안 닿아...... 나, 나리!? 보지 마세요! 우아악!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "star_level_bg_101",
 			actor = 305010,
 			nameColor = "#92fc63",
-			say = "好了，我打算直接回宿舍了，{namecode:79}和殿下打算怎么办？",
+			say = "좋아, 전 바로 숙소로 돌아갈게요. {namecode:79}랑 지휘관님은 어떻게 할 건가요?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			say = "啊……我还有点事，晚点再走！殿下能再陪我留一会儿吗？",
+			say = "아... 전 일이 있어서, 더 있다가 갈 거에요! 나리, 저랑 좀 더 있어줄 수 있나요?",
 			side = 1,
 			bgName = "star_level_bg_101",
 			nameColor = "#92fc63",
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "（点头）",
+			say = "(끄덕)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "好！殿下，稍等一下哦！",
+			say = "좋아요! 나리, 잠시만요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

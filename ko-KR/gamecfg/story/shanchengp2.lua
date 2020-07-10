@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>二 高气压？低气压？</size>",
+					"비 온 뒤 맑음\n\n<size=45>2. 고기압? 저기압?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "为了和{namecode:79}一起打扫神社一大早来到港区的碰头地点时，{namecode:79}已经等在那里了",
+			say = "{namecode:79}와 함께 신사를 청소하기 위해 아침 일찍 약속 장소에 도착했을 때, {namecode:79}는 이미 기다리는 중이었다.",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下早安！今天就拜托你了！",
+			say = "좋은 아침이에요, 나리! 오늘 잘 부탁해요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "……什么时候来的？嗯……半、半小时前吧……万一因为我犯迷糊迟到了，还要害殿下等就不好了……",
+			say = "...... 언제 왔냐구요? 음... 아, 아마 30분 전...... 만약에 길을 잃어서 지각하면, 나리가 기다리셔야 하니까요......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:79}姐姐！……指挥官你也在啊。今天不是放假吗？难道是在约会？",
+			say = "{namecode:79} 언니! ......지휘관 너도 있었구나. 오늘 쉬는 날 아니야? 설마 데이트 중?",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#92fc63",
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "不，不是啦{namecode:17}！今天只是和殿下约好了要去打扫神社啦！",
+			say = "아, 아니야 {namecode:17}! 오늘은 나리랑 신사를 청소하기로 약속했을 뿐이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "哼哼，不是约会的话，{namecode:17}也来帮忙吧？嘿嘿，有我{namecode:17}大人出面，包你打扫得干净清爽～",
+			say = "흐흥, 데이트가 아니라면, {namecode:17}도 도와줄게. 헤헤, {namecode:17} 님이 친히 나서주지. 깔끔하게 청소도 해주고~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "……还是说你比较想和那个笨蛋指挥官约会？哎呀好痛！",
+			say = "...... 저 바보 지휘관이랑 데이트를 한다고 말하고 싶은 거야? 아이고 머리야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = -1,
 			actor = 302100,
 			actorName = "{namecode:57}",
-			say = "{namecode:17}，不许拿{namecode:79}和指挥官寻开心哦。早安，{namecode:79}。",
+			say = "{namecode:17}, {namecode:79}랑 지휘관 놀리면서 즐거워하지마. 좋은 아침, {namecode:79}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "{namecode:57}！你和{namecode:17}来买东西？",
+			say = "{namecode:57}! {namecode:17}랑 물건 사러 나온 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = -1,
 			actor = 302100,
 			actorName = "{namecode:57}",
-			say = "嗯。{namecode:147}她们宿舍的备用品也一起买了。总不能一直让{namecode:58}来…",
+			say = "응, {namecode:147}네 숙소 비품도 같이 샀어. 항상 {namecode:58}만 시킬 순 없으니까...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "最近{namecode:20}那家伙又涨价了，在港区开店的只有她们俩，完全竞争不起来啊……",
+			say = "{namecode:20} 녀석네는 또 가격이 올랐어. 항구에 가게를 연 건 걔네 둘 뿐인데 완전히 경쟁이 안돼...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嗯？虽然不懂你在说什么，不过就交给我{namecode:79}吧！下次去买装备箱的时候我要好好批评她一下！",
+			say = "응? 뭘 말하는 건지는 몰라도, 나 {namecode:79}에게 맡겨! 다음에 장비 상자를 살 때 내가 주의를 줄게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "谢啦{namecode:79}姐姐！……不过还是算了吧。结果多半是{namecode:79}姐姐说不过人家，最后还被忽悠着买高价货……",
+			say = "{namecode:79} 언니 고마워! ......하지만 괜찮아. 아마 말로 하면 거의 {namecode:79} 언니가 질 걸. 결국에는 여전히 높은 가격에 사게 되겠지...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "好过分～！",
+			say = "나빴어~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = -1,
 			actor = 302100,
 			actorName = "{namecode:57}",
-			say = "呵呵，{namecode:17}和{namecode:79}真的很好呢。",
+			say = "하하, {namecode:17}랑 {namecode:79}는 정말 친하네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "那当然了！{namecode:79}姐姐和{namecode:17}最亲了！我最喜欢{namecode:79}姐姐了！",
+			say = "당연하지! {namecode:79} 언니는 {namecode:17}랑 제일 친해! 나는 {namecode:79} 언니가 제일 좋아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嘿嘿，{namecode:17}……不过，今天我要和殿下去打扫神社，下次再找你玩吧！",
+			say = "헤헤, {namecode:17}... 하지만, 오늘은 나리랑 신사를 청소해야해. 다음에 같이 놀자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

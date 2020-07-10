@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>三 微风轻拂</size>",
+					"비 온 뒤 맑음\n\n<size=45>3. 잔잔한 미풍</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区附近的神社——",
+			say = "항구 근처의 신사——",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "{namecode:78}姐姐～我们来帮你了～！……哇哇哇！",
+			say = "{namecode:78} 언니~ 우리가 도우러 왔어요~! ...... 으아악!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:79}？小心！……唉……不是跟你说过上楼梯的时候不要爬太快的吗……",
+			say = "{namecode:79}? 조심해! ...... 아... 계단 오를 때 천천히 오르라고 말했지...?",
 			side = 0,
 			bgName = "star_level_bg_101",
 			nameColor = "#92fc63",
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "对不起啊姐姐……啊！今天殿下让我包场了，我们一起来大扫除吧！",
+			say = "미안해요 언니...... 아! 오늘은 나리가 전세 내게 했으니까, 같이 대청소 해요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,18 +106,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "包场……？",
+			say = "전세......?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "问{namecode:79}",
+					content = "{namecode:79}에게 묻기",
 					flag = 1
 				},
 				{
-					content = "问{namecode:78}",
+					content = "{namecode:78}에게 묻기",
 					flag = 2
 				}
 			}
@@ -130,7 +130,7 @@ return {
 			optionFlag = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "包场是什么意思？呃，就是今天一天殿下都让我给包了，就是这个意思！",
+			say = "전세가 무슨 말이냐고요? 음, 오늘 하루 동안 나리가 저에게 마음대로 쓰게 해줬다는 말이에요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			optionFlag = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "{namecode:17}告诉我的“包租男友”，应该就是包场没错了！",
+			say = "{namecode:17}가 \"남친 전세\"라고 알려줬으니까, 맞을 거에요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			optionFlag = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "总之呢，以前殿下答应过我要帮忙一起打扫的！所以我才把休假换到了今天嘛！",
+			say = "아무튼, 전에 나리가 청소 도와준다고 약속했었잖아요! 그래서 쉬는 날을 오늘로 바꿨다고요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			say = "哎呀，有殿下在可真是帮了大忙了。那今天就辛苦你啦。",
+			say = "으흠, 지휘관님이 계신다면 정말 큰 도움이 되겠군요. 그럼 오늘 수고해주세요.",
 			side = 0,
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:78}",
@@ -206,7 +206,7 @@ return {
 			optionFlag = 2,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "包场是什么意思？嗯……我也不太明白……",
+			say = "전세가 무슨 뜻이냐고요? 음... 저도 잘 모르겠네요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			optionFlag = 2,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "{namecode:79}这孩子，大概又从别人那里学到什么一知半解的新词了吧……",
+			say = "{namecode:79} 이 아이가, 아마 다른 사람으로부터 얼렁뚱땅 배운 새로운 말인 것 같네요......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			say = "总之呢，以前殿下答应过我要帮忙一起打扫的！所以我才把休假换到了今天嘛！",
+			say = "아무튼, 전에 나리가 청소 도와준다고 약속했었잖아요! 그래서 쉬는 날을 오늘로 바꿨다고요!",
 			side = 1,
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:79}",
@@ -264,7 +264,7 @@ return {
 			optionFlag = 2,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "哎呀，有殿下在可真是帮了大忙了。那今天就辛苦你啦。",
+			say = "으흠, 지휘관님이 계신다면 정말 큰 도움이 되겠군요. 그럼 오늘 수고해주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "……嗯？你说这神社是什么时候建的……？",
+			say = "......응? 이 신사가 언제 지어졌냐고요...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "是啊，这么说来，上次过年的时候殿下因为工作太忙，没有来新年参拜呢……",
+			say = "아, 그러고보니, 지난 설에 지휘관님은 업무 때문에 너무 바빠서, 새해 참배에 오지 않았군요......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嗯，过年用的临时设施，本来是想在别的地方临时搭一个的……",
+			say = "네, 설날에 쓴 임시 시설은 원래 다른 곳에 만들려던 건데......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "重樱的成员也越来越多了，既然要搭的话，我想要是能做个给大家留下回忆的地方就好了，就和姐姐商量着盖了这座神社！",
+			say = "사쿠라 엠파이어의 멤버도 점점 많아지고 있으니까, 저는 모두에게 추억을 남길 수 있는 곳을 만드려고 했거든요. 언니랑 상의해서 이 신사를 짓기로 했어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			blackBg = true,
-			say = "说得容易，这么大规模的神社，要盖起来相当费力吧……",
+			say = "말은 쉽지만, 이렇게 큰 규모의 신사를 짓는데 꽤나 힘들었을텐데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
