@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "Tap the help button to check the detailed",
+				text = "Tap the help button to check the detailed explanation",
 				mode = 2,
 				dir = 1,
 				posY = -382,

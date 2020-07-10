@@ -25,11 +25,15 @@ slot2 = {
 	end,
 	inElite = function ()
 		slot0 = {
-			[slot5] = _.flatten(slot6)
+			[slot6] = _.flatten(slot7)
 		}
 
-		for slot5, slot6 in pairs(getProxy(ChapterProxy).mapEliteFleetCache) do
-			-- Nothing
+		for slot6, slot7 in pairs(getProxy(ChapterProxy).mapEliteFleetCache) do
+			if uv0.expedition_data_by_map[slot6].on_activity == 0 or checkExist(getProxy(ActivityProxy):getActivityById(slot8), {
+				"isEnd"
+			}) == false then
+				-- Nothing
+			end
 		end
 
 		return _.flatten(_.values(slot0)), slot0
@@ -127,6 +131,18 @@ function slot1.UpdateFlagShips(slot0, slot1)
 	slot0.flagDic[slot1] = {}
 
 	slot0:MarkShipsFlag(slot1, uv0[slot1]())
+end
+
+function slot1.DebugPrint(slot0, slot1)
+	slot5 = " flags:"
+
+	warning("id:" .. slot1 .. slot5)
+
+	for slot5, slot6 in ipairs(ShipStatus.flagList) do
+		if slot0.flagDic[slot6][slot1] then
+			warning(slot6)
+		end
+	end
 end
 
 return slot1

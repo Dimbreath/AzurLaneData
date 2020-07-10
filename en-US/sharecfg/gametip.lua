@@ -10632,31 +10632,36 @@ any Credits, or give any rewards.]]
 			},
 			{
 				info = [[
-The Research Catch-Up system allows you to choose
-a PR ship for accelerated research. When completing
-research projects, you may earn bonus Blueprints for
-that selected ship.]]
+The Research Catch-Up system allows you to
+choose a PR ship for accelerated research.
+When completing research projects, you may
+earn bonus Blueprints for that selected ship.]]
 			},
 			{
 				info = "Details:"
 			},
 			{
 				info = [[
--To activate Research Catch-Up, select a ship under the
-”Catch-Up” screen. Only one ship may be selected at a
-time, but you can change the research target anytime.
--When completing a research project, you will be able to
-obtain bonus Blueprints for the selected Catch-Up ship.
--The total number of Blueprints that may be earned from
-the Catch-Up system for any PR Series is 300.
+-To activate Research Catch-Up, select a ship
+under the “Catch-Up” screen. Only one ship may
+be selected at a time, but you can change the
+research target anytime.
+-When completing a research project, you will be
+able to obtain bonus Blueprints for the selected
+Catch-Up ship.
+-The total number of Blueprints that may be earned
+from the Catch-Up system for any PR Series is
+300.
 ]]
 			},
 			{
 				info = [[
-*For example, a total of 300 Blueprints may be earned
-for the 5 PR Series 1 ships, in any combination.
-*In addition to the Catch-Up system, there may be future
-events that further increase the Blueprints you can earn.]]
+*For example, a total of 300 Blueprints may be
+earned for the 6 PR Series 1 ships, in any
+combination.
+*In addition to the Catch-Up system, there may be
+future events that further increase the Blueprints
+you can earn.]]
 			}
 		}
 	},
