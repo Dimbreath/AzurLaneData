@@ -14167,7 +14167,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Learn Siren Killer Ⅰ",
 			"Main Gun base +1",
-			"装备特殊副炮"
+			"Gains a special secondary gun attack"
 		}
 	},
 	[1611] = {

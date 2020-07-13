@@ -10389,11 +10389,11 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
-				"Light/Heavy/Special Construction",
+				"Light ship Construction",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
+						projectName = "light",
 						page = 1
 					}
 				},
