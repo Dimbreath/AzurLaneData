@@ -1508,7 +1508,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 9917,
 		luck_story = "",
 		strengthen_item = 42025,
-		unlock_word = "이글 유니온 진영 과학 기술 포인트 <color=#92fc63>760</color> 달성, 로열 네이비 진영 과학 기술 포인트color=#92fc63>700</color> 달성",
+		unlock_word = "이글 유니온 진영 과학 기술 포인트 <color=#92fc63>760</color> 달성, 로열 네이비 진영 과학 기술 포인트<color=#92fc63>700</color> 달성",
 		blueprint_version = 3,
 		id = 89902,
 		unlock_task_open_condition = {

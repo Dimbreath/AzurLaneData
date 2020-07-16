@@ -90338,9 +90338,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집Ⅰ",
+		name = "로열 네이비 선봉 기술 테스트 I ",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다. ",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -90433,13 +90433,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집Ⅱ",
+		name = "로열 네이비 선봉 기술 테스트 II ",
 		count_inherit = 0,
 		desc = [[
-<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
+<color=#92fc63>「로열 네이비 선봉 기술 테스트 I」을 완료하여야 한다.</color>
 도면 설계의 초고가 완성되었다.<color=#a2a2a2>카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함대를 출격시켜, 로열 네이비 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>2000000</color> 축적한다.]],
+――함대를 출격시켜, 로열 네이비 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color> 축적한다. ]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -90651,9 +90651,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집Ⅰ",
+		name = "로열 네이비 주력 기술 테스트 I ",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 후열 함대의 누적 획득 경험치를<color=#92fc63>1000000</color> 축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 주력 함선의 누적 획득 경험치를<color=#92fc63>1000000</color> 축적한다. ",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -90762,13 +90762,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집Ⅱ",
+		name = "로열 네이비 주력 기술 테스트 II ",
 		count_inherit = 0,
 		desc = [[
-<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
+<color=#92fc63>「로열 네이비 주력 기술 테스트 I」을 완료하여야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함대를 출격시켜, 로열 네이비 소속 후열 함대의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
+――함대를 출격시켜, 로열 네이비 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다. ]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -90980,9 +90980,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집Ⅰ",
+		name = "사쿠라 엠파이어 선봉 기술 테스트 I ",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다. ",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -91075,13 +91075,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집Ⅱ",
+		name = "사쿠라 엠파이어 선봉 기술 테스트 II ",
 		count_inherit = 0,
 		desc = [[
-<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
+<color=#92fc63>「사쿠라 엠파이어 선봉 기술 테스트 I」을 완료하여야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 사쿠라 엠파이어 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다.]],
+――함선을 출격시켜, 사쿠라 엠파이어 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다. ]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -91293,9 +91293,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집Ⅰ",
+		name = "사쿠라 엠파이어 주력 기술 테스트 I ",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 후열 함대의 누적 획득 경험치를 <color=#92fc63> 1000000 </color>축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63> 1000000 </color>축적한다. ",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -91404,13 +91404,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집Ⅱ",
+		name = "사쿠라 엠파이어 주력 기술 테스트 II ",
 		count_inherit = 0,
 		desc = [[
-<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료해야 한다.</color>
+<color=#92fc63>「사쿠라 엠파이어 주력 기술 테스트 I」을 완료해야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 사쿠라 엠파이어 소속 후열 함대의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
+――함선을 출격시켜, 사쿠라 엠파이어 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다. ]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -91622,9 +91622,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집Ⅰ",
+		name = "메탈 블러드 선봉 기술 테스트 I ",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 메탈 블러드 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 메탈 블러드 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다. ",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -91717,13 +91717,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집Ⅱ",
+		name = "메탈 블러드 선봉 기술 테스트 II ",
 		count_inherit = 0,
 		desc = [[
-<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료해야 한다.</color>
+<color=#92fc63>「메탈 블러드 선봉 기술 테스트 I」을 완료해야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 메탈 블러드 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다.]],
+――함선을 출격시켜, 메탈 블러드 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다. ]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -91919,9 +91919,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집Ⅰ",
+		name = "이글 유니온 선봉 기술 테스트 I ",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 이글 유니온 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color>축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 이글 유니온 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color>축적한다. ",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -92014,13 +92014,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집Ⅱ",
+		name = "이글 유니온 선봉 기술 테스트 II ",
 		count_inherit = 0,
 		desc = [[
-<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료해야 한다.</color>
+<color=#92fc63>「이글 유니온 선봉 기술 테스트 I」을 완료해야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 이글 유니온 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다.]],
+――함선을 출격시켜, 이글 유니온 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다. ]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -94145,9 +94145,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집I ",
+		name = "로열 네이비 선봉 기술 테스트 I",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -94188,7 +94188,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 이론 연구I ",
+		name = "전술 이론 연구I",
 		count_inherit = 0,
 		desc = "<color=#a2a2a2>개발할 때마다 새로운 스킬 도입을 의미한다. 그 전에 엔지니어들이 축적한 대량의 연구 이론으로, 이론의 타당성을 증명한다면 개발 속도에 탄력이 붙을 것이다.</color>\n\n——연구 프로젝트 <color=#92fc63>5회</color> 완료",
 		target_id_2 = "",
@@ -94240,13 +94240,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집II",
+		name = "로열 네이비 선봉 기술 테스트 II",
 		count_inherit = 0,
 		desc = [[
-<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
+<color=#92fc63>「로열 네이비 선봉 기술 테스트 I」을 완료하여야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함대를 출격시켜, 로열 네이비 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
+――함대를 출격시켜, 로열 네이비 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -94347,7 +94347,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "함체 건조I",
+		name = "체셔 함체 건조I",
 		count_inherit = 0,
 		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——물자 <color=#92fc63>20000</color> 제출",
 		target_id_2 = "",
@@ -94373,7 +94373,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "함체 건조II",
+		name = "체셔 함체 건조II",
 		count_inherit = 0,
 		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——성정 큐브 <color=#92fc63>5개</color> 제출",
 		target_id_2 = "",
@@ -94425,9 +94425,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집I",
+		name = "로열 네이비 선봉 기술 테스트 I",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>1200000</color> 축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1200000</color> 축적한다.",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -94520,13 +94520,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집II",
+		name = "로열 네이비 선봉 기술 테스트 II",
 		count_inherit = 0,
 		desc = [[
-<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
+<color=#92fc63>「로열 네이비 선봉 기술 테스트 I」을 완료하여야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함대를 출격시켜, 로열 네이비 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>2400000</color>축적한다.]],
+――함대를 출격시켜, 로열 네이비 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>2400000</color>축적한다.]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -94627,7 +94627,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "함체 건조I",
+		name = "드레이크 함체 건조I",
 		count_inherit = 0,
 		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——물자 <color=#92fc63>40000</color> 제출",
 		target_id_2 = "",
@@ -94653,7 +94653,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "함체 건조II",
+		name = "드레이크 함체 건조II",
 		count_inherit = 0,
 		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——성정 큐브 <color=#92fc63>10개</color> 제출",
 		target_id_2 = "",
@@ -94705,9 +94705,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집I",
+		name = "메탈 블러드 선봉 기술 테스트 I",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 메탈 블러드 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 메탈 블러드 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -94800,13 +94800,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집II",
+		name = "메탈 블러드 선봉 기술 테스트 II",
 		count_inherit = 0,
 		desc = [[
-<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
+<color=#92fc63>「메탈 블러드 선봉 기술 테스트 I」을 완료하여야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함대를 출격시켜, 메탈 블러드 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
+――함대를 출격시켜, 메탈 블러드 소속 선봉 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -94907,7 +94907,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "함체 건조I",
+		name = "마인츠 함체 건조I",
 		count_inherit = 0,
 		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——물자 <color=#92fc63>20000</color> 제출",
 		target_id_2 = "",
@@ -94933,7 +94933,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "함체 건조II",
+		name = "마인츠 함체 건조II",
 		count_inherit = 0,
 		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——성정 큐브 <color=#92fc63>5개</color> 제출",
 		target_id_2 = "",
@@ -94985,9 +94985,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집I",
+		name = "메탈 블러드 주력 기술 테스트 I",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 메탈 블러드 소속 후열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 메탈 블러드 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -95096,13 +95096,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집II",
+		name = "메탈 블러드 주력 기술 테스트 II",
 		count_inherit = 0,
 		desc = [[
-<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
+<color=#92fc63>「메탈 블러드 주력 기술 테스트 I」을 완료하여야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함대를 출격시켜, 메탈 블러드 소속 후열 함대의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
+――함대를 출격시켜, 메탈 블러드 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -95219,7 +95219,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "함체 건조I",
+		name = "오딘 함체 건조I",
 		count_inherit = 0,
 		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——물자 <color=#92fc63>30000</color> 제출",
 		target_id_2 = "",
@@ -95245,7 +95245,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "함체 건조II",
+		name = "오딘 함체 건조II",
 		count_inherit = 0,
 		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——성정 큐브 <color=#92fc63>5개</color> 제출",
 		target_id_2 = "",
@@ -95323,9 +95323,9 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집I",
+		name = "이글 유니온 주력 기술 테스트 I",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 이글 유니온, 아이리스 리브레, 비시아 성좌 소속 후열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 이글 유니온, 아이리스 리브레, 비시아 성좌 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -95498,13 +95498,13 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "전술 데이터 수집II",
+		name = "이글 유니온 주력 기술 테스트 II",
 		count_inherit = 0,
 		desc = [[
-<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
+<color=#92fc63>「이글 유니온 주력 기술 테스트 I」을 완료하여야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함대를 출격시켜, 이글 유니온, 아이리스 리브레, 비시아 성좌 소속 후열 함대의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
+――함대를 출격시켜, 이글 유니온, 아이리스 리브레, 비시아 성좌 소속 주력 함선의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -95685,7 +95685,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "함체 건조I",
+		name = "샹파뉴 함체 건조I",
 		count_inherit = 0,
 		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——물자 <color=#92fc63>30000</color> 제출",
 		target_id_2 = "",
@@ -95711,7 +95711,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 0,
 		type = 8,
-		name = "함체 건조II",
+		name = "샹파뉴 함체 건조II",
 		count_inherit = 0,
 		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——성정 큐브 <color=#92fc63>5개</color> 제출",
 		target_id_2 = "",
