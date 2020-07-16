@@ -152,6 +152,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>数多なる賛美歌をこの海に響かせよう――Vive la Iris！  </color>\n――「神穹を衝く聖歌」イベントで入手可能",
 		scene = {}
 	},
+	[309] = {
+		name = "ロイヤルクラウン",
+		time_second = 0,
+		id = 309,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>後日イベントで入手可能</color>",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂入り：エンタープライズ",
 		time_second = 0,
@@ -196,6 +204,7 @@ pg.item_data_frame = {
 		306,
 		307,
 		308,
+		309,
 		401,
 		402,
 		403

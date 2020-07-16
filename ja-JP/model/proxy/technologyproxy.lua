@@ -185,6 +185,10 @@ function slot0.GetBlueprint4Item(slot0, slot1)
 	return slot0.item2blueprint[slot1]
 end
 
+function slot0.isOpenTargetCatchup(slot0)
+	return pg.technology_catchup_template ~= nil
+end
+
 function slot0.getNewestCatchupTecID(slot0)
 	return math.max(unpack(pg.technology_catchup_template.all))
 end

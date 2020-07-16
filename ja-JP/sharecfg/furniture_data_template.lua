@@ -3207,6 +3207,102 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[176] = {
+		advice = 0,
+		describe = "60万オメデトウ！→ニャン饅頭にゃ→名状しがたき＝愛図素手ジャシン像（？）",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "特別工作台",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "niantuicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 176,
+		picture = "",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"niantuB",
+				"normal"
+			},
+			{
+				"niantuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit",
+						0,
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sit",
+				{
+					10000,
+					10001
+				},
+				"buli",
+				2,
+				2
+			},
+			{
+				"sit",
+				{
+					30311
+				},
+				"gaoxiong",
+				2,
+				2
+			}
+		},
+		animator = {
+			{
+				"niantuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -56857,7 +56953,7 @@ pg.furniture_data_template = {
 	[50106] = {
 		advice = 0,
 		describe = "フルスロットルで走りたくなる公道",
-		count = 1,
+		count = 3,
 		type = 5,
 		dir = 0,
 		dorm_id = 0,
@@ -69879,6 +69975,7 @@ pg.furniture_data_template = {
 		171,
 		173,
 		175,
+		176,
 		100002,
 		100003,
 		100004,

@@ -42,6 +42,10 @@ function slot0.execute(slot0, slot1)
 
 				uv2:sendNotification(GAME.ADD_ITEM, slot9)
 				table.insert({}, slot9)
+
+				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLUEPRINT_CATCHUP) and not slot10:isEnd() then
+					slot10.data1 = slot10.data1 + slot9.count
+				end
 			end
 
 			for slot8, slot9 in ipairs(slot0.common_list) do

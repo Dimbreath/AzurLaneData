@@ -742,17 +742,17 @@ pg.name_code = {
 	},
 	{
 		id = 149,
-		name = "凉风",
+		name = "涼風",
 		code = "涼風"
 	},
 	{
 		id = 150,
-		name = "海风",
+		name = "海風",
 		code = "海風"
 	},
 	{
 		id = 151,
-		name = "出云",
+		name = "出雲",
 		code = "出雲"
 	},
 	{
@@ -787,7 +787,7 @@ pg.name_code = {
 	},
 	{
 		id = 158,
-		name = "江风",
+		name = "江風",
 		code = "江風"
 	},
 	{
@@ -797,7 +797,7 @@ pg.name_code = {
 	},
 	{
 		id = 160,
-		name = "长月",
+		name = "長月",
 		code = "長月"
 	},
 	{
@@ -807,7 +807,7 @@ pg.name_code = {
 	},
 	{
 		id = 162,
-		name = "卷波",
+		name = "巻波",
 		code = "巻波"
 	},
 	{
@@ -817,17 +817,17 @@ pg.name_code = {
 	},
 	{
 		id = 164,
-		name = "北风",
-		code = "北風 "
+		name = "北風",
+		code = "北風"
 	},
 	{
 		id = 165,
 		name = "吾妻",
-		code = "吾妻 "
+		code = "吾妻"
 	},
 	{
 		id = 166,
-		name = "特II型绫波",
+		name = "特II型綾波",
 		code = "特II型綾波"
 	},
 	{
@@ -837,17 +837,17 @@ pg.name_code = {
 	},
 	{
 		id = 168,
-		name = "特III型晓",
+		name = "特III型暁",
 		code = "特III型暁"
 	},
 	{
 		id = 169,
-		name = "小比叡",
+		name = "比叡ちゃん",
 		code = "比叡ちゃん"
 	},
 	{
 		id = 170,
-		name = "小赤城",
+		name = "赤城ちゃん",
 		code = "赤城ちゃん"
 	},
 	{
@@ -872,27 +872,27 @@ pg.name_code = {
 	},
 	{
 		id = 175,
-		name = "骏河",
+		name = "駿河",
 		code = "駿河"
 	},
 	{
 		id = 176,
-		name = "赤城μ",
+		name = "赤城(μ兵装)",
 		code = "赤城(μ兵装)"
 	},
 	{
 		id = 177,
-		name = "伊势级量产型",
+		name = "量産型伊勢級",
 		code = "量産型伊勢級"
 	},
 	{
 		id = 178,
-		name = "扶桑级量产型",
+		name = "量産型扶桑級",
 		code = "量産型扶桑級"
 	},
 	{
 		id = 179,
-		name = "龙凤",
+		name = "龍鳳",
 		code = "龍鳳"
 	},
 	{
@@ -907,12 +907,12 @@ pg.name_code = {
 	},
 	{
 		id = 182,
-		name = "信浓",
+		name = "信濃",
 		code = "信濃"
 	},
 	{
 		id = 183,
-		name = "大鲸",
+		name = "大鯨",
 		code = "大鯨"
 	},
 	{
@@ -922,7 +922,7 @@ pg.name_code = {
 	},
 	{
 		id = 185,
-		name = "长波",
+		name = "長波",
 		code = "長波"
 	},
 	{
@@ -932,7 +932,7 @@ pg.name_code = {
 	},
 	{
 		id = 187,
-		name = "满月",
+		name = "満月",
 		code = "満月"
 	}
 }

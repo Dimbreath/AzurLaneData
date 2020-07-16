@@ -138,8 +138,8 @@ function slot0.switchSubView(slot0, slot1)
 				end)
 				slot6:Load()
 				slot6:ActionInvoke("Show")
-			elseif slot6:GetLoaded() and slot6:isShowing() then
-				slot6:Hide()
+			else
+				slot6:ActionInvoke("Hide")
 			end
 		else
 			setActive(slot6, table.contains(slot1, slot5))

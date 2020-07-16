@@ -103369,7 +103369,7 @@ pg.task_data_template = {
 		id = 60134,
 		target_num = 10,
 		fix_task = 0,
-		target_id = "18002",
+		target_id = "18012",
 		open_need = {},
 		award_display = {}
 	},
@@ -103476,7 +103476,7 @@ pg.task_data_template = {
 		id = 60137,
 		target_num = 5,
 		fix_task = 0,
-		target_id = "18003",
+		target_id = "18013",
 		open_need = {},
 		award_display = {}
 	},
@@ -103649,7 +103649,7 @@ pg.task_data_template = {
 		id = 60144,
 		target_num = 3,
 		fix_task = 0,
-		target_id = "18002",
+		target_id = "18013",
 		open_need = {},
 		award_display = {}
 	},
@@ -103756,7 +103756,7 @@ pg.task_data_template = {
 		id = 60147,
 		target_num = 8,
 		fix_task = 0,
-		target_id = "18003",
+		target_id = "18013",
 		open_need = {},
 		award_display = {}
 	},
@@ -104225,7 +104225,7 @@ pg.task_data_template = {
 		id = 60164,
 		target_num = 10,
 		fix_task = 0,
-		target_id = "18023",
+		target_id = "18022",
 		open_need = {},
 		award_display = {}
 	},

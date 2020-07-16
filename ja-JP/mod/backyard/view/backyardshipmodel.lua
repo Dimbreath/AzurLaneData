@@ -2,88 +2,6 @@ slot0 = class("BackYardShipModel")
 slot1 = 0.5
 slot2 = 15
 slot3 = require("Mod/BackYard/view/BackYardTool")
-slot4 = {
-	{
-		"tuozhuai2",
-		1.4,
-		39126
-	},
-	{
-		"walk",
-		1.5,
-		100005
-	},
-	{
-		"dance",
-		10,
-		100005
-	},
-	{
-		"walk",
-		2,
-		100006
-	},
-	{
-		"stand2",
-		2,
-		100006
-	},
-	{
-		"dance",
-		2,
-		100006
-	},
-	{
-		"sit",
-		1.33,
-		46129
-	},
-	{
-		"sit",
-		4.333,
-		50124
-	},
-	{
-		"dance",
-		2,
-		100009
-	},
-	{
-		"stand2",
-		2.33,
-		100013
-	},
-	{
-		"tuozhuai2",
-		9.33,
-		100013
-	},
-	{
-		"stand2",
-		4,
-		61125
-	},
-	{
-		"yun",
-		3,
-		61125
-	},
-	{
-		"motou",
-		3,
-		61125
-	},
-	{
-		"sit",
-		3.33,
-		60118
-	},
-	{
-		"yun",
-		5.17,
-		60118
-	}
-}
 
 function slot0.Ctor(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
@@ -847,9 +765,9 @@ function slot0.resumeAnim(slot0)
 	end
 end
 
-slot5 = 0
-slot6 = 1
-slot7 = 2
+slot4 = 0
+slot5 = 1
+slot6 = 2
 
 function slot0.playAnims(slot0, slot1)
 	slot2 = slot1:getSpineAnims()
@@ -931,11 +849,7 @@ function slot0.playAnims(slot0, slot1)
 
 		slot0:SetAction(slot3, 0)
 
-		if _.detect(uv6, function (slot0)
-			return slot0[1] == uv0 and uv1.id == slot0[3]
-		end) then
-			slot7 = slot6[2]
-
+		if uv2:GetSpecailActiont(slot3) and slot6 > 0 then
 			if uv1.timer[slot0] then
 				uv1.timer[slot0]:Stop()
 
@@ -948,7 +862,7 @@ function slot0.playAnims(slot0, slot1)
 				uv0.timer[uv1] = nil
 
 				uv2()
-			end, slot7, 1)
+			end, slot6, 1)
 
 			uv1.timer[slot0]:Start()
 		else

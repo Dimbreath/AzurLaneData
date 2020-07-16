@@ -155,7 +155,7 @@ function slot0.updateShip(slot0, slot1)
 
 	slot0:findTF("icon", slot2):GetComponent(typeof(Image)).sprite = LoadSprite("HeroHrzIcon/" .. slot1:getPainting())
 
-	setText(slot0:findTF("name_bg/Text", slot2), slot1:getName())
+	slot0:findTF("name_bg/Mask/Text", slot2):GetComponent(typeof(ScrollText)):SetText(slot1:getName())
 end
 
 function slot0.setSliderValue(slot0, slot1, slot2)

@@ -11331,7 +11331,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			59,
-			-162,
+			-132,
 			0
 		},
 		fx_container = {
@@ -70711,7 +70711,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			-26,
-			16,
+			26,
 			0
 		},
 		fx_container = {
@@ -73045,7 +73045,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			0,
-			-10,
+			-70,
 			0
 		},
 		fx_container = {
@@ -90777,7 +90777,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			-11,
-			-30,
+			-20,
 			0
 		},
 		fx_container = {
@@ -93004,7 +93004,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			60,
-			12.5,
+			32.5,
 			0
 		},
 		fx_container = {
@@ -93116,7 +93116,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 238,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -93224,7 +93224,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70365,
-		voice_actor = -1,
+		voice_actor = 238,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",

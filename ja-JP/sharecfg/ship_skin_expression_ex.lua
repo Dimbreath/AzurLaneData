@@ -1539,5 +1539,51 @@ pg.ship_skin_expression_ex = {
 				"2"
 			}
 		}
+	},
+	jialisuoniye = {
+		touch = "",
+		feeling3 = "",
+		main_1 = "",
+		mail = "",
+		expedition = "",
+		win_mvp = "",
+		mission = "",
+		feeling1 = "",
+		painting = "jialisuoniye",
+		upgrade = "",
+		lose = "",
+		main_3 = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		home = {
+			{
+				1100,
+				"2"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"3"
+			}
+		},
+		main_2 = {
+			{
+				1100,
+				"3"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"3"
+			}
+		}
 	}
 }

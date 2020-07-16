@@ -4712,6 +4712,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -12638,9 +12649,13 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"期間限定建造",
+				"特型艦建造",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -12704,9 +12719,13 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"期間限定建造",
+				"特型艦建造",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -12770,9 +12789,13 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"期間限定建造",
+				"特型艦建造",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -14069,9 +14092,13 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"期間限定建造",
+				"特型艦建造",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -14131,9 +14158,13 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"期間限定建造",
+				"特型艦建造",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}

@@ -595,6 +595,20 @@ function slot0.cloneGO(slot0, slot1, slot2, slot3)
 		slot5.enabled = false
 	end
 
+	if slot3.childAdjust then
+		for slot8, slot9 in ipairs(slot3.childAdjust) do
+			if LeanTween.isTweening(slot4:Find(slot9[1]).gameObject) then
+				LeanTween.cancel(slot10.gameObject)
+			end
+
+			if slot10 and slot9[2] == "scale" then
+				slot10.localScale = Vector3(slot9[3][1], slot9[3][2], slot9[3][3])
+			elseif slot10 and slot9[2] == "position" then
+				slot10.anchoredPosition = Vector3(slot9[3][1], slot9[3][2], slot9[3][3])
+			end
+		end
+	end
+
 	if slot0.targetTimer then
 		slot0.targetTimer:Stop()
 

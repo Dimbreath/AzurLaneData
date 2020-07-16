@@ -63,6 +63,26 @@ return {
 				pathIndex = -1,
 				delay = 1.8,
 				path = "UICamera/Canvas/UIMain/LevelMainScene(Clone)/float/levels/items/Chapter_101/main",
+				childAdjust = {
+					{
+						"circle",
+						"scale",
+						{
+							1,
+							1,
+							1
+						}
+					},
+					{
+						"info/bk",
+						"position",
+						{
+							0,
+							0,
+							0
+						}
+					}
+				},
 				triggerType = {
 					1
 				},

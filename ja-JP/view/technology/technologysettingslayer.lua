@@ -16,8 +16,9 @@ function slot0.init(slot0)
 	slot0:addListener()
 	slot0:initTendencyPage()
 	slot0:initTargetCatchupPage()
+	slot0:initActCatchupPage()
 
-	if slot0.technologyProxy:isOnCatchup() and slot0.technologyProxy:isOnCatchupNewest() then
+	if slot0.technologyProxy:isOnCatchup() and not slot0.technologyProxy:isOnCatchupNewest() then
 		slot0:initGiveUpMsgBox()
 	end
 end
@@ -27,11 +28,20 @@ function slot0.didEnter(slot0)
 	slot0:resetLeftBtnUnsel()
 	slot0:updateTendencyBtn(slot0.curTendency)
 	slot0:updateTargetCatchupBtn()
+	slot0:updateActCatchupBtn()
 	triggerButton(slot0.leftBtnList[1])
 end
 
 function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+
+	if slot0.actCatchupTimer then
+		slot0.actCatchupTimer:Stop()
+
+		slot0.actCatchupTimer = nil
+	end
+
+	slot0.loader:Clear()
 end
 
 function slot0.initData(slot0)
@@ -42,6 +52,9 @@ function slot0.initData(slot0)
 	slot0.curTendency = slot0.technologyProxy:getTendency(2)
 	slot0.curSelectedIndex = 0
 	slot0.reSelectTag = false
+	slot0.actCatchup = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLUEPRINT_CATCHUP)
+	slot0.isShowActCatchup = slot0.actCatchup and not slot0.actCatchup:isEnd()
+	slot0.loader = AutoLoader.New()
 end
 
 function slot0.findUI(slot0)
@@ -53,16 +66,20 @@ function slot0.findUI(slot0)
 	slot3 = slot0:findTF("LeftBtnList", slot2)
 	slot0.tendencyBtn = slot0:findTF("TendencyBtn", slot3)
 	slot0.targetCatchupBtn = slot0:findTF("TargetCatchupBtn", slot3)
+	slot0.actCatchupBtn = slot0:findTF("ActCatchupBtn", slot3)
 	slot0.leftBtnList = {
 		[uv0.TEC_PAGE_TENDENCY] = slot0.tendencyBtn,
-		[uv0.TEC_PAGE_CATCHUP_TARGET] = slot0.targetCatchupBtn
+		[uv0.TEC_PAGE_CATCHUP_TARGET] = slot0.targetCatchupBtn,
+		[uv0.TEC_PAGE_CATCHUP_ACT] = slot0.actCatchupBtn
 	}
 	slot4 = slot0:findTF("RightPanelContainer", slot2)
 	slot0.tendencyPanel = slot0:findTF("TecTendencyPanel", slot4)
 	slot0.targetCatchupPanel = slot0:findTF("TargetCatchupPanel", slot4)
+	slot0.actCatchupPanel = slot0:findTF("ActCatchupPanel", slot4)
 	slot0.rightPageTFList = {
 		[uv0.TEC_PAGE_TENDENCY] = slot0.tendencyPanel,
-		[uv0.TEC_PAGE_CATCHUP_TARGET] = slot0.targetCatchupPanel
+		[uv0.TEC_PAGE_CATCHUP_TARGET] = slot0.targetCatchupPanel,
+		[uv0.TEC_PAGE_CATCHUP_ACT] = slot0.actCatchupPanel
 	}
 	slot0.giveupMsgBox = slot0:findTF("GiveUpMsgBox")
 end
@@ -120,6 +137,8 @@ function slot0.switchRightPage(slot0, slot1)
 		slot0:updateTendencyPage(slot0.curTendency)
 	elseif slot1 == uv0.TEC_PAGE_CATCHUP_TARGET then
 		slot0:updateTargetCatchupPage()
+	elseif slot1 == uv0.TEC_PAGE_CATCHUP_ACT then
+		slot0:updateActCatchupPage()
 	end
 end
 
@@ -360,6 +379,111 @@ function slot0.updateTargetCatchupBtn(slot0)
 		setText(slot1, i18n("tec_target_catchup_none"))
 		setText(slot2, i18n("tec_target_catchup_none"))
 	end
+end
+
+function slot0.initActCatchupPage(slot0)
+	if slot0.isShowActCatchup then
+		slot0.loader:GetPrefab("ui/" .. slot0.actCatchup:getConfig("page_info").ui_name, "", function (slot0)
+			setParent(slot0, uv0.actCatchupPanel)
+			setLocalScale(slot0, {
+				x = 0.925,
+				y = 0.923
+			})
+			setAnchoredPosition(slot0, Vector2.zero)
+
+			uv0.actCatchupTF = uv0:findTF("AD", tf(slot0))
+			uv0.actCatchupItemTF = uv0:findTF("Award", uv0.actCatchupTF)
+			uv0.actCatchupSliderTF = uv0:findTF("Slider", uv0.actCatchupTF)
+			uv0.actCatchupProgressText = uv0:findTF("Progress", uv0.actCatchupTF)
+
+			setActive(uv0:findTF("GoBtn", uv0.actCatchupTF), false)
+
+			slot2 = uv0.actCatchup.data1
+			slot4 = pg.activity_event_blueprint_catchup[uv0.actCatchup:getConfig("config_id")].obtain_max
+
+			updateDrop(uv0.actCatchupItemTF, {
+				count = 1,
+				type = DROP_TYPE_ITEM,
+				id = uv0.actCatchup:getConfig("config_client").itemid
+			})
+			onButton(uv0, uv0.actCatchupItemTF, function ()
+				uv0:emit(BaseUI.ON_DROP, uv1)
+			end, SFX_PANEL)
+			setSlider(uv0.actCatchupSliderTF, 0, slot4, slot2)
+			setText(uv0.actCatchupProgressText, slot2 .. "/" .. slot4)
+			setActive(slot0, true)
+		end)
+	end
+end
+
+function slot0.updateActCatchupPage(slot0)
+end
+
+function slot0.updateActCatchupBtn(slot0)
+	setText(slot0:findTF("UnSelect/Text", slot0.actCatchupBtn), i18n("tec_act_catchup_btn_word"))
+	setText(slot0:findTF("Selected/Text", slot0.actCatchupBtn), i18n("tec_act_catchup_btn_word"))
+
+	slot7 = false
+
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLUEPRINT_CATCHUP) and not slot8:isEnd() then
+		slot9 = slot8.data1
+		slot10 = slot8:getConfig("config_id")
+		slot11 = pg.activity_event_blueprint_catchup[slot10].char_choice
+		slot12 = pg.activity_event_blueprint_catchup[slot10].obtain_max
+
+		setImageSprite(slot3, LoadSprite("TecCatchup/QChar" .. slot11, tostring(slot11)))
+		setImageSprite(slot4, LoadSprite("TecCatchup/QChar" .. slot11, tostring(slot11)))
+		setText(slot0:findTF("ProgressText", slot0:findTF("UnSelect/CharImg", slot0.actCatchupBtn)), slot9 .. "/" .. slot12)
+		setText(slot0:findTF("ProgressText", slot0:findTF("Selected/CharImg", slot0.actCatchupBtn)), slot9 .. "/" .. slot12)
+
+		slot13 = slot8.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
+
+		if slot0.actCatchupTimer then
+			slot0.actCatchupTimer:Stop()
+
+			slot0.actCatchupTimer = nil
+		end
+
+		slot14 = slot0:findTF("TimeLeft/Day", slot0.actCatchupBtn)
+		slot15 = slot0:findTF("TimeLeft/Hour", slot0.actCatchupBtn)
+		slot16 = slot0:findTF("TimeLeft/Min", slot0.actCatchupBtn)
+		slot17 = slot0:findTF("TimeLeft/NumText", slot0.actCatchupBtn)
+		slot0.actCatchupTimer = Timer.New(function ()
+			slot0, slot1, slot2, slot3 = pg.TimeMgr.GetInstance():parseTimeFrom(uv0)
+			uv0 = uv0 - 1
+
+			if slot0 >= 1 then
+				setActive(uv1, true)
+				setActive(uv2, false)
+				setActive(uv3, false)
+				setText(uv4, slot0)
+			elseif slot0 <= 0 and slot1 > 0 then
+				setActive(uv1, false)
+				setActive(uv2, true)
+				setActive(uv3, false)
+				setText(uv4, slot1)
+			elseif slot0 <= 0 and slot1 <= 0 and (slot2 > 0 or slot3 > 0) then
+				setActive(uv1, false)
+				setActive(uv2, false)
+				setActive(uv3, true)
+				setText(uv4, math.max(slot2, 1))
+			elseif slot0 <= 0 and slot1 <= 0 and slot2 <= 0 and slot3 <= 0 and uv5.actCatchupTimer then
+				uv5.actCatchupTimer:Stop()
+
+				uv5.actCatchupTimer = nil
+
+				uv5:switchRightPage(uv6.TEC_PAGE_TENDENCY)
+				setActive(uv5.actCatchupBtn, false)
+			end
+		end, 1, -1, 1)
+
+		slot0.actCatchupTimer:Start()
+		slot0.actCatchupTimer.func()
+
+		slot7 = true
+	end
+
+	setActive(slot0.actCatchupBtn, slot7)
 end
 
 function slot0.initGiveUpMsgBox(slot0)

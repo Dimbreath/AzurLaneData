@@ -5870,7 +5870,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[20101] = {
-		display = "科学部が作成した戦術データベース。特別計画Ⅰ期の開発任務経験値を10000蓄積させることが出来る",
+		display = "科学部が作成した戦術データベース。特別計画1期の開発任務経験値を10000蓄積させることができる<color=#ff5c5c>（倉庫でプロトコアに分解可能）</color>",
 		rarity = 4,
 		type = 18,
 		drop_oil_max = 0,
@@ -99476,6 +99476,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59170] = {
+		display = "「白海の極夜」報酬交換用アイテム。イベント終了後に削除される。",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "訓練Pt",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59170,
+		icon = "Props/xunliandianshu_y",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 		rarity = 2,
@@ -107926,6 +107944,7 @@ pg.item_data_statistics = {
 		59167,
 		59168,
 		59169,
+		59170,
 		59601,
 		59602,
 		59603,
