@@ -6815,7 +6815,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[735] = {
 		effect_breakout = 0,
-		effect_desc = "행운+5|【飞行NG!】技能强化为【飞行NG! +】",
+		effect_desc = "행운+5|【비행 NG!】스킬을【비행 NG! +】로 강화한다",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7788,7 +7788,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[835] = {
 		effect_breakout = 0,
-		effect_desc = "행운+5|【Iron Sight Caliber】技能强化为【Iron Sight Caliber +】",
+		effect_desc = "행운+5|【Iron Sight Caliber】스킬을【Iron Sight Caliber +】로 강화한다",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8763,7 +8763,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[935] = {
 		effect_breakout = 0,
-		effect_desc = "행운+5|【苝流·六莲雷】技能强化为【苝流·六莲雷 +】",
+		effect_desc = "행운+5|【@'{namecode:164}류·6연뢰'】스킬을【@'{namecode:164}류·6연뢰 +'】로 강화한다",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -11383,7 +11383,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1235] = {
 		effect_breakout = 0,
-		effect_desc = "행운+5|【感知抑制模块】技能强化为【感知抑制模块 +】",
+		effect_desc = "행운+5|【감지 제어 모듈】스킬을【감지 제어 모듈 +】로 강화한다",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -12625,7 +12625,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1415] = {
 		effect_breakout = 0,
-		effect_desc = "내구도+473|대공+27|鱼雷预装填+1|주포 효율+10%|도감 개방: 메인3, 터치1, 임무 완료",
+		effect_desc = "내구도+473|대공+27|어뢰 탑재량+1|주포 효율+10%|도감 개방: 메인3, 터치1, 임무 완료",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -13451,7 +13451,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1515] = {
 		effect_breakout = 0,
-		effect_desc = "내구도+451|대공+33|주포 효율+10%|鱼雷预装填+1|도감 개방: 메인3, 터치1, 임무 완료",
+		effect_desc = "내구도+451|대공+33|주포 효율+10%|어뢰 탑재량+1|도감 개방: 메인3, 터치1, 임무 완료",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -14272,7 +14272,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1615] = {
 		effect_breakout = 0,
-		effect_desc = "내구도+579|대공+31|대공포 효율提高10%|도감 개방: 메인3, 터치1, 임무 완료",
+		effect_desc = "내구도+579|대공+31|대공포 효율+10%|도감 개방: 메인3, 터치1, 임무 완료",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -14818,7 +14818,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1705] = {
 		effect_breakout = 0,
-		effect_desc = "내구도+285|대공+11|주포 효율+5%|도감 개방: 메인1, 전투 개시, 임무|主炮预装填+1",
+		effect_desc = "내구도+285|대공+11|주포 효율+5%|도감 개방: 메인1, 전투 개시, 임무|주포 탑재량+1",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 1,
@@ -15095,7 +15095,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1715] = {
 		effect_breakout = 0,
-		effect_desc = "내구도+571|대공+22|대공포 효율提高10%|도감 개방: 메인3, 터치1, 임무 완료",
+		effect_desc = "내구도+571|대공+22|대공포 효율+10%|도감 개방: 메인3, 터치1, 임무 완료",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",

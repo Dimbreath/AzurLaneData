@@ -16641,7 +16641,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"科研开发",
+				"연구 도크",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -16675,7 +16675,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"科研开发",
+				"연구 도크",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -16709,7 +16709,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"科研开发",
+				"연구 도크",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -16743,7 +16743,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"科研开发",
+				"연구 도크",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -16777,7 +16777,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"科研开发",
+				"연구 도크",
 				{
 					"SHIPBLUEPRINT",
 					{
