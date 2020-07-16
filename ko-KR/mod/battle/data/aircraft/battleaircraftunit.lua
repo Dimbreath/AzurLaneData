@@ -327,6 +327,10 @@ function slot6.GetPosition(slot0)
 	return slot0._pos
 end
 
+function slot6.GetBornPosition(slot0)
+	return nil
+end
+
 function slot6.GetCLDCenterPosition(slot0)
 	slot1 = slot0:GetBoxSize()
 

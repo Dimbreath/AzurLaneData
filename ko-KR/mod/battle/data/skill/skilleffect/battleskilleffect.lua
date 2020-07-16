@@ -173,3 +173,41 @@ end
 function slot2.Dispose(slot0)
 	uv0.EventDispatcher.DetachEventDispatcher(slot0)
 end
+
+function slot2.calcCorrdinate(slot0, slot1, slot2)
+	slot3 = nil
+
+	if slot0.absoulteCorrdinate then
+		slot3 = Vector3(slot0.absoulteCorrdinate.x, 0, slot0.absoulteCorrdinate.z)
+	elseif slot0.absoulteRandom then
+		slot3 = formula.RandomPos(slot0.absoulteRandom)
+	elseif slot0.casterRelativeCorrdinate then
+		slot5 = slot1:GetPosition()
+		slot3 = Vector3(slot1:GetIFF() * slot0.casterRelativeCorrdinate.hrz + slot5.x, 0, slot0.casterRelativeCorrdinate.vrt + slot5.z)
+	elseif slot0.casterRelativeRandom then
+		slot4 = slot1:GetIFF()
+		slot5 = slot1:GetPosition()
+		slot3 = formula.RandomPos({
+			X1 = slot4 * slot0.casterRelativeRandom.front + slot5.x,
+			X2 = slot4 * slot0.casterRelativeRandom.rear + slot5.x,
+			Z1 = slot0.casterRelativeRandom.upper + slot5.z,
+			Z2 = slot0.casterRelativeRandom.lower + slot5.z
+		})
+	elseif slot0.targetRelativeCorrdinate then
+		if slot2 then
+			slot5 = slot2:GetPosition()
+			slot3 = Vector3(slot2:GetIFF() * slot0.targetRelativeCorrdinate.hrz + slot5.x, 0, slot0.targetRelativeCorrdinate.vrt + slot5.z)
+		end
+	elseif slot0.targetRelativeRandom and slot2 then
+		slot4 = slot2:GetIFF()
+		slot5 = slot2:GetPosition()
+		slot3 = formula.RandomPos({
+			X1 = slot4 * slot0.targetRelativeRandom.front + slot5.x,
+			X2 = slot4 * slot0.targetRelativeRandom.rear + slot5.x,
+			Z1 = slot0.targetRelativeRandom.upper + slot5.z,
+			Z2 = slot0.targetRelativeRandom.lower + slot5.z
+		})
+	end
+
+	return slot3
+end

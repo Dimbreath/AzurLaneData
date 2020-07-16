@@ -88,6 +88,14 @@ pg.open_systems_limited = {
 		mediator = "TechnologyMediator",
 		level = 30
 	},
+	{
+		scene = "MAINUI",
+		name = "상선 호위",
+		story_id = "",
+		id = 12,
+		mediator = "Escort",
+		level = 30
+	},
 	[14] = {
 		scene = "MAINUI",
 		name = "지휘냥",
@@ -104,6 +112,14 @@ pg.open_systems_limited = {
 		mediator = "ChallengeMainMediator",
 		level = 80
 	},
+	[16] = {
+		scene = "MAINUI",
+		name = "原型商店",
+		story_id = "",
+		id = 16,
+		mediator = "FragmentShop",
+		level = 30
+	},
 	all = {
 		1,
 		2,
@@ -116,7 +132,9 @@ pg.open_systems_limited = {
 		9,
 		10,
 		11,
+		12,
 		14,
-		15
+		15,
+		16
 	}
 }

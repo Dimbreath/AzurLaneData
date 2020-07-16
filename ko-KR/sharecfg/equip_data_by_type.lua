@@ -5,6 +5,7 @@ pg.equip_data_by_type = {
 		type_name = "함포",
 		equip_skin = 1,
 		equip_type = 1,
+		compare_group = 1,
 		type_name2 = "함포(구축)"
 	},
 	{
@@ -12,6 +13,7 @@ pg.equip_data_by_type = {
 		type_name = "함포",
 		equip_skin = 1,
 		equip_type = 2,
+		compare_group = 1,
 		type_name2 = "함포(경순)"
 	},
 	{
@@ -19,6 +21,7 @@ pg.equip_data_by_type = {
 		type_name = "함포",
 		equip_skin = 1,
 		equip_type = 3,
+		compare_group = 1,
 		type_name2 = "함포(중순)"
 	},
 	{
@@ -26,6 +29,7 @@ pg.equip_data_by_type = {
 		type_name = "함포",
 		equip_skin = 1,
 		equip_type = 4,
+		compare_group = 1,
 		type_name2 = "함포(전함)"
 	},
 	{
@@ -33,6 +37,7 @@ pg.equip_data_by_type = {
 		type_name = "어뢰",
 		equip_skin = 1,
 		equip_type = 5,
+		compare_group = 2,
 		type_name2 = "어뢰"
 	},
 	{
@@ -40,6 +45,7 @@ pg.equip_data_by_type = {
 		type_name = "대공포",
 		equip_skin = 0,
 		equip_type = 6,
+		compare_group = 3,
 		type_name2 = "대공포"
 	},
 	{
@@ -47,6 +53,7 @@ pg.equip_data_by_type = {
 		type_name = "전투기",
 		equip_skin = 1,
 		equip_type = 7,
+		compare_group = 4,
 		type_name2 = "전투기"
 	},
 	{
@@ -54,6 +61,7 @@ pg.equip_data_by_type = {
 		type_name = "뇌격기",
 		equip_skin = 1,
 		equip_type = 8,
+		compare_group = 4,
 		type_name2 = "뇌격기"
 	},
 	{
@@ -61,6 +69,7 @@ pg.equip_data_by_type = {
 		type_name = "폭격기",
 		equip_skin = 1,
 		equip_type = 9,
+		compare_group = 4,
 		type_name2 = "폭격기"
 	},
 	{
@@ -68,6 +77,7 @@ pg.equip_data_by_type = {
 		type_name = "기타",
 		equip_skin = 1,
 		equip_type = 10,
+		compare_group = 5,
 		type_name2 = "기타"
 	},
 	{
@@ -75,6 +85,7 @@ pg.equip_data_by_type = {
 		type_name = "함포",
 		equip_skin = 1,
 		equip_type = 11,
+		compare_group = 1,
 		type_name2 = "함포 (포켓 전함)"
 	},
 	{
@@ -82,6 +93,7 @@ pg.equip_data_by_type = {
 		type_name = "수상기",
 		equip_skin = 1,
 		equip_type = 12,
+		compare_group = 5,
 		type_name2 = "수상기"
 	},
 	{
@@ -89,6 +101,7 @@ pg.equip_data_by_type = {
 		type_name = "어뢰",
 		equip_skin = 1,
 		equip_type = 13,
+		compare_group = 6,
 		type_name2 = "어뢰(잠수함)"
 	},
 	{
@@ -96,6 +109,7 @@ pg.equip_data_by_type = {
 		type_name = "설비",
 		equip_skin = 1,
 		equip_type = 14,
+		compare_group = 5,
 		type_name2 = "설비"
 	},
 	{
@@ -103,6 +117,7 @@ pg.equip_data_by_type = {
 		type_name = "초계기 ",
 		equip_skin = 1,
 		equip_type = 15,
+		compare_group = 5,
 		type_name2 = "초계기 "
 	},
 	[17] = {
@@ -110,6 +125,7 @@ pg.equip_data_by_type = {
 		type_name = "헬리콥터 ",
 		equip_skin = 1,
 		equip_type = 17,
+		compare_group = 5,
 		type_name2 = "헬리콥터 "
 	},
 	all = {

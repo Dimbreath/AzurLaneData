@@ -87561,344 +87561,6 @@ pg.task_data_template = {
 			}
 		}
 	},
-	[51001] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8792,
-		type = 26,
-		name = "귀환과 신생 1",
-		count_inherit = 0,
-		desc = "이벤트 전투를 승리한다.",
-		target_id_2 = "",
-		sub_type = 29,
-		added_tip = 1,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1060000,
-		id = 51001,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "1060000",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1008,
-				1
-			}
-		}
-	},
-	[51002] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8793,
-		type = 26,
-		name = "귀환과 신생 2",
-		count_inherit = 0,
-		desc = "건조를 10회 실시한다.",
-		target_id_2 = "",
-		sub_type = 30,
-		added_tip = 1,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 51002,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1008,
-				1
-			}
-		}
-	},
-	[51003] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8794,
-		type = 26,
-		name = "귀환과 신생 3",
-		count_inherit = 0,
-		desc = "어려움 난이도 스테이지를 10회 클리어한다.",
-		target_id_2 = "",
-		sub_type = 21,
-		added_tip = 1,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 51003,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			10101,
-			10102,
-			10103,
-			10104,
-			10201,
-			10202,
-			10203,
-			10204,
-			10301,
-			10302,
-			10303,
-			10304,
-			10401,
-			10402,
-			10403,
-			10404,
-			10501,
-			10502,
-			10503,
-			10504,
-			10601,
-			10602,
-			10603,
-			10604,
-			10701,
-			10702,
-			10703,
-			10704,
-			10801,
-			10802,
-			10803,
-			10804,
-			10901,
-			10902,
-			10903,
-			10904,
-			11001,
-			11002,
-			11003,
-			11004
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1008,
-				1
-			}
-		}
-	},
-	[51004] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8795,
-		type = 26,
-		name = "귀환과 신생 4",
-		count_inherit = 0,
-		desc = " '수호의 의지' 를 3개 모은다.",
-		target_id_2 = "",
-		sub_type = 1000,
-		added_tip = 1,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1008,
-		id = 51004,
-		target_num = 3,
-		fix_task = 0,
-		target_id = "1008",
-		open_need = {},
-		award_display = {
-			{
-				3,
-				640,
-				1
-			}
-		}
-	},
-	[51011] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 90773,
-		type = 26,
-		name = "귀환과 신생 1",
-		count_inherit = 0,
-		desc = "이벤트 전투를 승리한다.",
-		target_id_2 = "",
-		sub_type = 29,
-		added_tip = 1,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1060000,
-		id = 51011,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "1060000",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1009,
-				1
-			}
-		}
-	},
-	[51012] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 90774,
-		type = 26,
-		name = "귀환과 신생 2",
-		count_inherit = 0,
-		desc = "건조를 10회 실시한다.",
-		target_id_2 = "",
-		sub_type = 30,
-		added_tip = 1,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "SANLI07",
-		target_id_for_client = 0,
-		id = 51012,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1009,
-				1
-			}
-		}
-	},
-	[51013] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 90775,
-		type = 26,
-		name = "귀환과 신생 3",
-		count_inherit = 0,
-		desc = "어려움 난이도 스테이지를 5회 클리어한다.",
-		target_id_2 = "",
-		sub_type = 21,
-		added_tip = 1,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "SANLI08",
-		target_id_for_client = 0,
-		id = 51013,
-		target_num = 5,
-		fix_task = 0,
-		target_id = {
-			10101,
-			10102,
-			10103,
-			10104,
-			10201,
-			10202,
-			10203,
-			10204,
-			10301,
-			10302,
-			10303,
-			10304,
-			10401,
-			10402,
-			10403,
-			10404,
-			10501,
-			10502,
-			10503,
-			10504,
-			10601,
-			10602,
-			10603,
-			10604,
-			10701,
-			10702,
-			10703,
-			10704,
-			10801,
-			10802,
-			10803,
-			10804,
-			10901,
-			10902,
-			10903,
-			10904,
-			11001,
-			11002,
-			11003,
-			11004
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1009,
-				1
-			}
-		}
-	},
-	[51014] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 90776,
-		type = 26,
-		name = "귀환과 신생 4",
-		count_inherit = 0,
-		desc = " '수호의 의지' 를 3개 모은다.",
-		target_id_2 = "",
-		sub_type = 1000,
-		added_tip = 1,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "SANLI09",
-		target_id_for_client = 1009,
-		id = 51014,
-		target_num = 3,
-		fix_task = 0,
-		target_id = "1009",
-		open_need = {},
-		award_display = {
-			{
-				3,
-				640,
-				1
-			}
-		}
-	},
 	[50021] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -89080,6 +88742,1083 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[51001] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8792,
+		type = 26,
+		name = "귀환과 신생 1",
+		count_inherit = 0,
+		desc = "이벤트 전투를 승리한다.",
+		target_id_2 = "",
+		sub_type = 29,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1060000,
+		id = 51001,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1060000",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1008,
+				1
+			}
+		}
+	},
+	[51002] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8793,
+		type = 26,
+		name = "귀환과 신생 2",
+		count_inherit = 0,
+		desc = "건조를 10회 실시한다.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51002,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1008,
+				1
+			}
+		}
+	},
+	[51003] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8794,
+		type = 26,
+		name = "귀환과 신생 3",
+		count_inherit = 0,
+		desc = "어려움 난이도 스테이지를 10회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51003,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1008,
+				1
+			}
+		}
+	},
+	[51004] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8795,
+		type = 26,
+		name = "귀환과 신생 4",
+		count_inherit = 0,
+		desc = " '수호의 의지' 를 3개 모은다.",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1008,
+		id = 51004,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "1008",
+		open_need = {},
+		award_display = {
+			{
+				3,
+				640,
+				1
+			}
+		}
+	},
+	[51011] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90773,
+		type = 26,
+		name = "귀환과 신생 1",
+		count_inherit = 0,
+		desc = "이벤트 전투를 승리한다.",
+		target_id_2 = "",
+		sub_type = 29,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1060000,
+		id = 51011,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1060000",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1009,
+				1
+			}
+		}
+	},
+	[51012] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90774,
+		type = 26,
+		name = "귀환과 신생 2",
+		count_inherit = 0,
+		desc = "건조를 10회 실시한다.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SANLI07",
+		target_id_for_client = 0,
+		id = 51012,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1009,
+				1
+			}
+		}
+	},
+	[51013] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90775,
+		type = 26,
+		name = "귀환과 신생 3",
+		count_inherit = 0,
+		desc = "어려움 난이도 스테이지를 5회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SANLI08",
+		target_id_for_client = 0,
+		id = 51013,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1009,
+				1
+			}
+		}
+	},
+	[51014] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90776,
+		type = 26,
+		name = "귀환과 신생 4",
+		count_inherit = 0,
+		desc = " '수호의 의지' 를 3개 모은다.",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SANLI09",
+		target_id_for_client = 1009,
+		id = 51014,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "1009",
+		open_need = {},
+		award_display = {
+			{
+				3,
+				640,
+				1
+			}
+		}
+	},
+	[51101] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9316,
+		type = 26,
+		name = "科研1期测试经验追赶1",
+		count_inherit = 0,
+		desc = "데일리 챌린지 3회 완료",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51101,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				10
+			}
+		}
+	},
+	[51102] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9317,
+		type = 26,
+		name = "科研1期测试经验追赶2",
+		count_inherit = 0,
+		desc = "데일리 챌린지 30회 완료",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51102,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				20
+			}
+		}
+	},
+	[51103] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9316,
+		type = 26,
+		name = "科研1期测试经验追赶3",
+		count_inherit = 0,
+		desc = "임의의 메인 스테이지 어려움 모드를 3회 클리어",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51103,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				10
+			}
+		}
+	},
+	[51104] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9317,
+		type = 26,
+		name = "科研1期测试经验追赶4",
+		count_inherit = 0,
+		desc = "임의의 메인 스테이지 어려움 모드를 30회 클리어",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51104,
+		target_num = 30,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				20
+			}
+		}
+	},
+	[51105] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9316,
+		type = 26,
+		name = "科研1期测试经验追赶5",
+		count_inherit = 0,
+		desc = "군사 의뢰를 5회 진행한다",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51105,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				10
+			}
+		}
+	},
+	[51106] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9317,
+		type = 26,
+		name = "科研1期测试经验追赶6",
+		count_inherit = 0,
+		desc = "군사 의뢰를 50회 진행한다",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51106,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				20
+			}
+		}
+	},
+	[51107] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9318,
+		type = 26,
+		name = "科研1期测试经验追赶7",
+		count_inherit = 0,
+		desc = "군사 의뢰를 100회 진행한다",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51107,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				30
+			}
+		}
+	},
+	[51108] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9316,
+		type = 26,
+		name = "科研1期测试经验追赶8",
+		count_inherit = 0,
+		desc = "과학 연구를 1회 진행한다",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51108,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				10
+			}
+		}
+	},
+	[51109] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9317,
+		type = 26,
+		name = "科研1期测试经验追赶9",
+		count_inherit = 0,
+		desc = "과학 연구를 10회 진행한다",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51109,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				20
+			}
+		}
+	},
+	[51110] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9318,
+		type = 26,
+		name = "科研1期测试经验追赶10",
+		count_inherit = 0,
+		desc = "과학 연구를 20회 진행한다",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51110,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				30
+			}
+		}
+	},
+	[51111] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9319,
+		type = 26,
+		name = "科研1期测试经验追赶11",
+		count_inherit = 0,
+		desc = "과학 연구를 30회 진행한다",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51111,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				40
+			}
+		}
+	},
+	[51112] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9317,
+		type = 26,
+		name = "科研1期测试经验追赶12",
+		count_inherit = 0,
+		desc = "함선 건조를 10회 진행한다",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51112,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				20
+			}
+		}
+	},
+	[51113] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9317,
+		type = 26,
+		name = "科研1期测试经验追赶13",
+		count_inherit = 0,
+		desc = "함선 건조를 20회 진행한다",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51113,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				20
+			}
+		}
+	},
+	[51114] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9320,
+		type = 26,
+		name = "科研1期测试经验追赶14",
+		count_inherit = 0,
+		desc = "캐릭터 1명과 서약 진행",
+		target_id_2 = "",
+		sub_type = 1015,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51114,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				50
+			}
+		}
+	},
+	[51115] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9316,
+		type = 26,
+		name = "科研1期测试经验追赶15",
+		count_inherit = 0,
+		desc = "임의의 함선 100레벨 달성",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51115,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				10
+			}
+		}
+	},
+	[51116] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9317,
+		type = 26,
+		name = "科研1期测试经验追赶16",
+		count_inherit = 0,
+		desc = "임의의 함선 110레벨 달성",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51116,
+		target_num = 110,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				20
+			}
+		}
+	},
+	[51117] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9316,
+		type = 26,
+		name = "科研1期测试经验追赶17",
+		count_inherit = 0,
+		desc = "8-4 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 804,
+		id = 51117,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "804",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				10
+			}
+		}
+	},
+	[51118] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9317,
+		type = 26,
+		name = "科研1期测试经验追赶18",
+		count_inherit = 0,
+		desc = "9-4 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 904,
+		id = 51118,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "904",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				20
+			}
+		}
+	},
+	[51119] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9318,
+		type = 26,
+		name = "科研1期测试经验追赶19",
+		count_inherit = 0,
+		desc = "10-4 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1004,
+		id = 51119,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20101,
+				30
+			}
+		}
+	},
+	[51120] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9321,
+		type = 26,
+		name = "科研1期测试经验追赶20",
+		count_inherit = 0,
+		desc = "과학 연구 1기 캐릭터 1척 획득",
+		target_id_2 = "",
+		sub_type = 1014,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 51120,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			29901,
+			29902,
+			39901,
+			39902,
+			49901,
+			89901
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42000,
+				30
+			}
+		},
+		scene = {
+			"SELTECHNOLOGY"
+		}
+	},
 	[52001] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -89601,7 +90340,7 @@ pg.task_data_template = {
 		type = 8,
 		name = "전술 데이터 수집Ⅰ",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 경순양함 혹은 중순양함의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -89617,6 +90356,10 @@ pg.task_data_template = {
 		target_num = 1000000,
 		fix_task = 0,
 		target_id = {
+			{
+				2,
+				1
+			},
 			{
 				2,
 				2
@@ -89696,7 +90439,7 @@ pg.task_data_template = {
 <color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
 도면 설계의 초고가 완성되었다.<color=#a2a2a2>카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함대를 출격시켜, 로열 네이비 소속 경순양함 혹은 중순양함의 누적 획득 경험치를  <color=#92fc63>2000000</color> 축적한다.]],
+――함대를 출격시켜, 로열 네이비 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>2000000</color> 축적한다.]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -89712,6 +90455,10 @@ pg.task_data_template = {
 		target_num = 2000000,
 		fix_task = 0,
 		target_id = {
+			{
+				2,
+				1
+			},
 			{
 				2,
 				2
@@ -89906,7 +90653,7 @@ pg.task_data_template = {
 		type = 8,
 		name = "전술 데이터 수집Ⅰ",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 전함(항공전함, 순양전함 포함)의 누적 획득 경험치를<color=#92fc63>1000000</color> 축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 후열 함대의 누적 획득 경험치를<color=#92fc63>1000000</color> 축적한다.",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -89932,7 +90679,27 @@ pg.task_data_template = {
 			},
 			{
 				2,
+				6
+			},
+			{
+				2,
+				7
+			},
+			{
+				2,
+				9
+			},
+			{
+				2,
 				10
+			},
+			{
+				2,
+				12
+			},
+			{
+				2,
+				13
 			}
 		},
 		open_need = {},
@@ -90001,7 +90768,7 @@ pg.task_data_template = {
 <color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함대를 출격시켜, 로열 네이비 소속전함(항공전함, 순양전함 포함)의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
+――함대를 출격시켜, 로열 네이비 소속 후열 함대의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -90027,7 +90794,27 @@ pg.task_data_template = {
 			},
 			{
 				2,
+				6
+			},
+			{
+				2,
+				7
+			},
+			{
+				2,
+				9
+			},
+			{
+				2,
 				10
+			},
+			{
+				2,
+				12
+			},
+			{
+				2,
+				13
 			}
 		},
 		open_need = {
@@ -90195,7 +90982,7 @@ pg.task_data_template = {
 		type = 8,
 		name = "전술 데이터 수집Ⅰ",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 경순양함, 중순양함 혹은 초순양함의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -90211,6 +90998,10 @@ pg.task_data_template = {
 		target_num = 1000000,
 		fix_task = 0,
 		target_id = {
+			{
+				3,
+				1
+			},
 			{
 				3,
 				2
@@ -90290,7 +91081,7 @@ pg.task_data_template = {
 <color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 사쿠라 엠파이어 소속 경순양함, 중순양함 혹은 초순양함의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다.]],
+――함선을 출격시켜, 사쿠라 엠파이어 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다.]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -90306,6 +91097,10 @@ pg.task_data_template = {
 		target_num = 2000000,
 		fix_task = 0,
 		target_id = {
+			{
+				3,
+				1
+			},
 			{
 				3,
 				2
@@ -90500,7 +91295,7 @@ pg.task_data_template = {
 		type = 8,
 		name = "전술 데이터 수집Ⅰ",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 전함(항공전함, 순양전함 포함)의 누적 획득 경험치를 <color=#92fc63> 1000000 </color>축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 사쿠라 엠파이어 소속 후열 함대의 누적 획득 경험치를 <color=#92fc63> 1000000 </color>축적한다.",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -90526,7 +91321,27 @@ pg.task_data_template = {
 			},
 			{
 				3,
+				6
+			},
+			{
+				3,
+				7
+			},
+			{
+				3,
+				9
+			},
+			{
+				3,
 				10
+			},
+			{
+				3,
+				12
+			},
+			{
+				3,
+				13
 			}
 		},
 		open_need = {},
@@ -90595,7 +91410,7 @@ pg.task_data_template = {
 <color=#92fc63>「전술 데이터 수집Ⅰ」을 완료해야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 사쿠라 엠파이어 소속 전함(항공전함, 순양전함 포함)의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
+――함선을 출격시켜, 사쿠라 엠파이어 소속 후열 함대의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -90621,7 +91436,27 @@ pg.task_data_template = {
 			},
 			{
 				3,
+				6
+			},
+			{
+				3,
+				7
+			},
+			{
+				3,
+				9
+			},
+			{
+				3,
 				10
+			},
+			{
+				3,
+				12
+			},
+			{
+				3,
+				13
 			}
 		},
 		open_need = {
@@ -90789,7 +91624,7 @@ pg.task_data_template = {
 		type = 8,
 		name = "전술 데이터 수집Ⅰ",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 메탈 블러드 소속 경순양함 혹은 중순양함의 누적 획득 경험치를  <color=#92fc63>1000000</color> 축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 메탈 블러드 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -90805,6 +91640,10 @@ pg.task_data_template = {
 		target_num = 1000000,
 		fix_task = 0,
 		target_id = {
+			{
+				4,
+				1
+			},
 			{
 				4,
 				2
@@ -90884,7 +91723,7 @@ pg.task_data_template = {
 <color=#92fc63>「전술 데이터 수집Ⅰ」을 완료해야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 메탈 블러드 소속 경순양함 혹은 중순양함의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다.]],
+――함선을 출격시켜, 메탈 블러드 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다.]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -90900,6 +91739,10 @@ pg.task_data_template = {
 		target_num = 2000000,
 		fix_task = 0,
 		target_id = {
+			{
+				4,
+				1
+			},
 			{
 				4,
 				2
@@ -91078,7 +91921,7 @@ pg.task_data_template = {
 		type = 8,
 		name = "전술 데이터 수집Ⅰ",
 		count_inherit = 0,
-		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 이글 유니온 소속 경순양함 혹은 중순양함의 누적 획득 경험치를 <color=#92fc63>1000000</color>축적한다.",
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함선을 출격시켜, 이글 유니온 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color>축적한다.",
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -91094,6 +91937,10 @@ pg.task_data_template = {
 		target_num = 1000000,
 		fix_task = 0,
 		target_id = {
+			{
+				1,
+				1
+			},
 			{
 				1,
 				2
@@ -91173,7 +92020,7 @@ pg.task_data_template = {
 <color=#92fc63>「전술 데이터 수집Ⅰ」을 완료해야 한다.</color>
 <color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
 
-――함선을 출격시켜, 이글 유니온 소속 경순양함 혹은 중순양함의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다.]],
+――함선을 출격시켜, 이글 유니온 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63> 2000000 </color>축적한다.]],
 		target_id_2 = "",
 		sub_type = 1041,
 		added_tip = 0,
@@ -91189,6 +92036,10 @@ pg.task_data_template = {
 		target_num = 2000000,
 		fix_task = 0,
 		target_id = {
+			{
+				1,
+				1
+			},
 			{
 				1,
 				2
@@ -93257,6 +94108,1624 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 20001,
 		id = 60129,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60131] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "柴郡开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60131,
+		target_num = 700,
+		fix_task = 0,
+		target_id = "2",
+		open_need = {},
+		award_display = {}
+	},
+	[60132] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 데이터 수집I ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60132,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				18
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60133] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 이론 연구I ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>개발할 때마다 새로운 스킬 도입을 의미한다. 그 전에 엔지니어들이 축적한 대량의 연구 이론으로, 이론의 타당성을 증명한다면 개발 속도에 탄력이 붙을 것이다.</color>\n\n——연구 프로젝트 <color=#92fc63>5회</color> 완료",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60133,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60134] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "초월 기술 설계I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>대량의 실전 데이터와 전진 이론으로 연구한 돌파 이론. 이전과는 다른 연구가 되겠지만, 세부적인 부분은 이전 설계도를 참고해야 한다.</color>\n\n——순양 개조 도면 T2 <color=#92fc63>10장</color> 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18012,
+		id = 60134,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18002",
+		open_need = {},
+		award_display = {}
+	},
+	[60135] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 데이터 수집II",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
+<color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
+
+――함대를 출격시켜, 로열 네이비 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60135,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				18
+			}
+		},
+		open_need = {
+			60132
+		},
+		award_display = {}
+	},
+	[60136] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 이론 연구II",
+		count_inherit = 0,
+		desc = [[
+<color=#a2a2a2><color=#92fc63>「전술 이론 연구I」을 완료하여야 한다.</color>
+끊임없는 기술의 혁신을 뒷받침 하는 건설적인 이론은 멈춘 적이 없으며, 엔지니어들의 머릿속에는 시시각각 혁신적인 아이디어가 스쳐 지나간다. 이제는 이런 생각들을 현실로 구현할 때다.</color>
+
+——연구 프로젝트 <color=#92fc63>8회</color> 완료]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60136,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60133
+		},
+		award_display = {}
+	},
+	[60137] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "초월 기술 설계II",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>수많은 데이터와 이론의 도움으로 개발에 큰 성과를 거두었다. 이제는 이 기술을 응용할 때다. 하지만 몇가지 측면에서 엔지니어들의 의견이 충돌하므로, 기술 자료를 통해 다시 고려를 해야 한다.</color>\n\n——순양 개조 도면 T3 <color=#92fc63>5장</color> 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18013,
+		id = 60137,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18003",
+		open_need = {},
+		award_display = {}
+	},
+	[60138] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "함체 건조I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——물자 <color=#92fc63>20000</color> 제출",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60138,
+		target_num = 20000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60139] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "함체 건조II",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——성정 큐브 <color=#92fc63>5개</color> 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60139,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60141] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "德雷克开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60141,
+		target_num = 820,
+		fix_task = 0,
+		target_id = "2",
+		open_need = {},
+		award_display = {}
+	},
+	[60142] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 데이터 수집I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 로열 네이비 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>1200000</color> 축적한다.",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60142,
+		target_num = 1200000,
+		fix_task = 0,
+		target_id = {
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				18
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60143] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 이론 연구I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>개발할 때마다 새로운 스킬 도입을 의미한다. 그 전에 엔지니어들이 축적한 대량의 연구 이론으로, 이론의 타당성을 증명한다면 개발 속도에 탄력이 붙을 것이다.</color>\n\n——연구 프로젝트 <color=#92fc63>8회</color> 완료",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60143,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60144] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "초월 기술 설계I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>대량의 실전 데이터와 전진 이론으로 연구한 돌파 이론. 이전과는 다른 연구가 되겠지만, 세부적인 부분은 이전 설계도를 참고해야 한다.</color>\n\n——순양 개조 도면 T3 <color=#92fc63>3장</color> 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18013,
+		id = 60144,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "18002",
+		open_need = {},
+		award_display = {}
+	},
+	[60145] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 데이터 수집II",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
+<color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
+
+――함대를 출격시켜, 로열 네이비 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>2400000</color>축적한다.]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60145,
+		target_num = 2400000,
+		fix_task = 0,
+		target_id = {
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				18
+			}
+		},
+		open_need = {
+			60142
+		},
+		award_display = {}
+	},
+	[60146] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 이론 연구II",
+		count_inherit = 0,
+		desc = [[
+<color=#a2a2a2><color=#92fc63>「전술 이론 연구I」을 완료하여야 한다.</color>
+끊임없는 기술의 혁신을 뒷받침 하는 건설적인 이론은 멈춘 적이 없으며, 엔지니어들의 머릿속에는 시시각각 혁신적인 아이디어가 스쳐 지나간다. 이제는 이런 생각들을 현실로 구현할 때다.</color>
+
+——연구 프로젝트 <color=#92fc63>12회</color> 완료]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60146,
+		target_num = 12,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60143
+		},
+		award_display = {}
+	},
+	[60147] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "초월 기술 설계II",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>수많은 데이터와 이론의 도움으로 개발에 큰 성과를 거두었다. 이제는 이 기술을 응용할 때다. 하지만 몇가지 측면에서 엔지니어들의 의견이 충돌하므로, 기술 자료를 통해 다시 고려를 해야 한다.</color>\n\n——순양 개조 도면 T3 <color=#92fc63>8장</color> 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18013,
+		id = 60147,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "18003",
+		open_need = {},
+		award_display = {}
+	},
+	[60148] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "함체 건조I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——물자 <color=#92fc63>40000</color> 제출",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60148,
+		target_num = 40000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60149] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "함체 건조II",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——성정 큐브 <color=#92fc63>10개</color> 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60149,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60151] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "美因茨开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60151,
+		target_num = 550,
+		fix_task = 0,
+		target_id = "4",
+		open_need = {},
+		award_display = {}
+	},
+	[60152] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 데이터 수집I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 메탈 블러드 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60152,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				1
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			},
+			{
+				4,
+				18
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60153] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 이론 연구I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>개발할 때마다 새로운 스킬 도입을 의미한다. 그 전에 엔지니어들이 축적한 대량의 연구 이론으로, 이론의 타당성을 증명한다면 개발 속도에 탄력이 붙을 것이다.</color>\n\n——연구 프로젝트 <color=#92fc63>5회</color> 완료",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60153,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60154] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "초월 기술 설계I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>대량의 실전 데이터와 전진 이론으로 연구한 돌파 이론. 이전과는 다른 연구가 되겠지만, 세부적인 부분은 이전 설계도를 참고해야 한다.</color>\n\n——순양 개조 도면 T2 <color=#92fc63>10장</color> 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18012,
+		id = 60154,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18012",
+		open_need = {},
+		award_display = {}
+	},
+	[60155] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 데이터 수집II",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
+<color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
+
+――함대를 출격시켜, 메탈 블러드 소속 전열 함대의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60155,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				1
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			},
+			{
+				4,
+				18
+			}
+		},
+		open_need = {
+			60152
+		},
+		award_display = {}
+	},
+	[60156] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 이론 연구II",
+		count_inherit = 0,
+		desc = [[
+<color=#a2a2a2><color=#92fc63>「전술 이론 연구I」을 완료하여야 한다.</color>
+끊임없는 기술의 혁신을 뒷받침 하는 건설적인 이론은 멈춘 적이 없으며, 엔지니어들의 머릿속에는 시시각각 혁신적인 아이디어가 스쳐 지나간다. 이제는 이런 생각들을 현실로 구현할 때다.</color>
+
+——연구 프로젝트 <color=#92fc63>8회</color> 완료]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60156,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60153
+		},
+		award_display = {}
+	},
+	[60157] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "초월 기술 설계II",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>수많은 데이터와 이론의 도움으로 개발에 큰 성과를 거두었다. 이제는 이 기술을 응용할 때다. 하지만 몇가지 측면에서 엔지니어들의 의견이 충돌하므로, 기술 자료를 통해 다시 고려를 해야 한다.</color>\n\n——순양 개조 도면 T3 <color=#92fc63>5장</color> 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18013,
+		id = 60157,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18013",
+		open_need = {},
+		award_display = {}
+	},
+	[60158] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "함체 건조I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——물자 <color=#92fc63>20000</color> 제출",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60158,
+		target_num = 20000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60159] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "함체 건조II",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——성정 큐브 <color=#92fc63>5개</color> 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60159,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60161] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "奥丁开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60161,
+		target_num = 600,
+		fix_task = 0,
+		target_id = "4",
+		open_need = {},
+		award_display = {}
+	},
+	[60162] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 데이터 수집I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 메탈 블러드 소속 후열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60162,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60163] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 이론 연구I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>개발할 때마다 새로운 스킬 도입을 의미한다. 그 전에 엔지니어들이 축적한 대량의 연구 이론으로, 이론의 타당성을 증명한다면 개발 속도에 탄력이 붙을 것이다.</color>\n\n——연구 프로젝트 <color=#92fc63>5회</color> 완료",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60163,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60164] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "초월 기술 설계I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>대량의 실전 데이터와 전진 이론으로 연구한 돌파 이론. 이전과는 다른 연구가 되겠지만, 세부적인 부분은 이전 설계도를 참고해야 한다.</color>\n\n——전함 개조 도면 T2 <color=#92fc63>10장</color> 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18022,
+		id = 60164,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18023",
+		open_need = {},
+		award_display = {}
+	},
+	[60165] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 데이터 수집II",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
+<color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
+
+――함대를 출격시켜, 메탈 블러드 소속 후열 함대의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60165,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			}
+		},
+		open_need = {
+			60162
+		},
+		award_display = {}
+	},
+	[60166] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 이론 연구II",
+		count_inherit = 0,
+		desc = [[
+<color=#a2a2a2><color=#92fc63>「전술 이론 연구I」을 완료하여야 한다.</color>
+끊임없는 기술의 혁신을 뒷받침 하는 건설적인 이론은 멈춘 적이 없으며, 엔지니어들의 머릿속에는 시시각각 혁신적인 아이디어가 스쳐 지나간다. 이제는 이런 생각들을 현실로 구현할 때다.</color>
+
+——연구 프로젝트 <color=#92fc63>8회</color> 완료]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60166,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60163
+		},
+		award_display = {}
+	},
+	[60167] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "초월 기술 설계II",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>수많은 데이터와 이론의 도움으로 개발에 큰 성과를 거두었다. 이제는 이 기술을 응용할 때다. 하지만 몇가지 측면에서 엔지니어들의 의견이 충돌하므로, 기술 자료를 통해 다시 고려를 해야 한다.</color>\n\n——전함 개조 도면 T3 <color=#92fc63>5장</color> 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60167,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18023",
+		open_need = {},
+		award_display = {}
+	},
+	[60168] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "함체 건조I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——물자 <color=#92fc63>30000</color> 제출",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60168,
+		target_num = 30000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60169] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "함체 건조II",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——성정 큐브 <color=#92fc63>5개</color> 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60169,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60170] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "香槟开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60170,
+		target_num = 760,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60171] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "香槟开启研发前置任务",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60171,
+		target_num = 700,
+		fix_task = 0,
+		target_id = "2",
+		open_need = {},
+		award_display = {}
+	},
+	[60172] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 데이터 수집I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>개발 작업을 원활히 진행하기 위해서는, 실험 데이터를 충분히 입수하는 것이 대단히 중요하며, 축적된 실전 경험은 그중에서도 제일 효과적일 것이다.</color>\n\n――함대를 출격시켜, 이글 유니온, 아이리스 리브레, 비시아 성좌 소속 후열 함대의 누적 획득 경험치를 <color=#92fc63>1000000</color> 축적한다.",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60172,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			},
+			{
+				1,
+				6
+			},
+			{
+				1,
+				7
+			},
+			{
+				1,
+				9
+			},
+			{
+				1,
+				10
+			},
+			{
+				1,
+				12
+			},
+			{
+				1,
+				13
+			},
+			{
+				8,
+				4
+			},
+			{
+				8,
+				5
+			},
+			{
+				8,
+				6
+			},
+			{
+				8,
+				7
+			},
+			{
+				8,
+				9
+			},
+			{
+				8,
+				10
+			},
+			{
+				8,
+				12
+			},
+			{
+				8,
+				13
+			},
+			{
+				9,
+				4
+			},
+			{
+				9,
+				5
+			},
+			{
+				9,
+				6
+			},
+			{
+				9,
+				7
+			},
+			{
+				9,
+				9
+			},
+			{
+				9,
+				10
+			},
+			{
+				9,
+				12
+			},
+			{
+				9,
+				13
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60173] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 이론 연구I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>개발할 때마다 새로운 스킬 도입을 의미한다. 그 전에 엔지니어들이 축적한 대량의 연구 이론으로, 이론의 타당성을 증명한다면 개발 속도에 탄력이 붙을 것이다.</color>\n\n——연구 프로젝트 <color=#92fc63>5회</color> 완료",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60173,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60174] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "초월 기술 설계I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>대량의 실전 데이터와 전진 이론으로 연구한 돌파 이론. 이전과는 다른 연구가 되겠지만, 세부적인 부분은 이전 설계도를 참고해야 한다.</color>\n\n——전함 개조 도면 T2 <color=#92fc63>10장</color> 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18022,
+		id = 60174,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18022",
+		open_need = {},
+		award_display = {}
+	},
+	[60175] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 데이터 수집II",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>「전술 데이터 수집Ⅰ」을 완료하여야 한다.</color>
+<color=#a2a2a2>도면 설계의 초고가 완성되었다. 카탈로그 스펙을 과연 어느 정도로 완성할 수 있을지 검증하기 위해서는 더욱 많은 전술 데이터를 수집하여야 한다.</color>
+
+――함대를 출격시켜, 이글 유니온, 아이리스 리브레, 비시아 성좌 소속 후열 함대의 누적 획득 경험치를 <color=#92fc63>2000000</color>축적한다.]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60175,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			},
+			{
+				1,
+				6
+			},
+			{
+				1,
+				7
+			},
+			{
+				1,
+				9
+			},
+			{
+				1,
+				10
+			},
+			{
+				1,
+				12
+			},
+			{
+				1,
+				13
+			},
+			{
+				8,
+				4
+			},
+			{
+				8,
+				5
+			},
+			{
+				8,
+				6
+			},
+			{
+				8,
+				7
+			},
+			{
+				8,
+				9
+			},
+			{
+				8,
+				10
+			},
+			{
+				8,
+				12
+			},
+			{
+				8,
+				13
+			},
+			{
+				9,
+				4
+			},
+			{
+				9,
+				5
+			},
+			{
+				9,
+				6
+			},
+			{
+				9,
+				7
+			},
+			{
+				9,
+				9
+			},
+			{
+				9,
+				10
+			},
+			{
+				9,
+				12
+			},
+			{
+				9,
+				13
+			}
+		},
+		open_need = {
+			60172
+		},
+		award_display = {}
+	},
+	[60176] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "전술 이론 연구II",
+		count_inherit = 0,
+		desc = [[
+<color=#a2a2a2><color=#92fc63>「전술 이론 연구I」을 완료하여야 한다.</color>
+끊임없는 기술의 혁신을 뒷받침 하는 건설적인 이론은 멈춘 적이 없으며, 엔지니어들의 머릿속에는 시시각각 혁신적인 아이디어가 스쳐 지나간다. 이제는 이런 생각들을 현실로 구현할 때다.</color>
+
+——연구 프로젝트 <color=#92fc63>8회</color> 완료]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60176,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60173
+		},
+		award_display = {}
+	},
+	[60177] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "초월 기술 설계II",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>수많은 데이터와 이론의 도움으로 개발에 큰 성과를 거두었다. 이제는 이 기술을 응용할 때다. 하지만 몇가지 측면에서 엔지니어들의 의견이 충돌하므로, 기술 자료를 통해 다시 고려를 해야 한다.</color>\n\n——전함 개조 도면 T3 <color=#92fc63>5장</color> 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60177,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18023",
+		open_need = {},
+		award_display = {}
+	},
+	[60178] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "함체 건조I",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——물자 <color=#92fc63>30000</color> 제출",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60178,
+		target_num = 30000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60179] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "함체 건조II",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>기나긴 연구 끝에 프로젝트가 종착점에 도달했다. 이제 함체만 완성한다면 모항에 큰 경사가 일어날 것이다.</color>\n\n——성정 큐브 <color=#92fc63>5개</color> 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60179,
 		target_num = 5,
 		fix_task = 0,
 		target_id = "20001",
@@ -99861,14 +102330,6 @@ pg.task_data_template = {
 		31003,
 		40001,
 		40002,
-		51001,
-		51002,
-		51003,
-		51004,
-		51011,
-		51012,
-		51013,
-		51014,
 		50021,
 		50022,
 		50023,
@@ -99900,6 +102361,34 @@ pg.task_data_template = {
 		50113,
 		50114,
 		50115,
+		51001,
+		51002,
+		51003,
+		51004,
+		51011,
+		51012,
+		51013,
+		51014,
+		51101,
+		51102,
+		51103,
+		51104,
+		51105,
+		51106,
+		51107,
+		51108,
+		51109,
+		51110,
+		51111,
+		51112,
+		51113,
+		51114,
+		51115,
+		51116,
+		51117,
+		51118,
+		51119,
+		51120,
 		52001,
 		52002,
 		52003,
@@ -100025,6 +102514,52 @@ pg.task_data_template = {
 		60127,
 		60128,
 		60129,
+		60131,
+		60132,
+		60133,
+		60134,
+		60135,
+		60136,
+		60137,
+		60138,
+		60139,
+		60141,
+		60142,
+		60143,
+		60144,
+		60145,
+		60146,
+		60147,
+		60148,
+		60149,
+		60151,
+		60152,
+		60153,
+		60154,
+		60155,
+		60156,
+		60157,
+		60158,
+		60159,
+		60161,
+		60162,
+		60163,
+		60164,
+		60165,
+		60166,
+		60167,
+		60168,
+		60169,
+		60170,
+		60171,
+		60172,
+		60173,
+		60174,
+		60175,
+		60176,
+		60177,
+		60178,
+		60179,
 		999933,
 		999934,
 		999935,

@@ -939,5 +939,13 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Asami Takano",
 		code = 235
+	},
+	{
+		actor_name = "甲斐田裕子",
+		code = 236
+	},
+	{
+		actor_name = "松冈由贵",
+		code = 237
 	}
 }

@@ -20,7 +20,7 @@ function slot0.Init(slot0, slot1, slot2, slot3, slot4)
 	slot5, slot6, slot7, slot8, slot9, slot10 = nil
 
 	if string.find(slot4.key, ShipWordHelper.WORD_TYPE_MAIN) then
-		slot5, slot6, slot7 = ShipWordHelper.GetWordAndCV(slot0.skin.id, ShipWordHelper.WORD_TYPE_MAIN, tonumber(string.split(slot11, ShipWordHelper.WORD_TYPE_MAIN)[1]))
+		slot5, slot6, slot7 = ShipWordHelper.GetWordAndCV(slot0.skin.id, ShipWordHelper.WORD_TYPE_MAIN, tonumber(string.gsub(slot11, ShipWordHelper.WORD_TYPE_MAIN, "")))
 
 		if slot0.isLive2d then
 			slot9 = ShipWordHelper.GetL2dCvCalibrate(slot0.skin.id, ShipWordHelper.WORD_TYPE_MAIN, slot8)

@@ -4914,6 +4914,132 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[13018] = {
+		display = "시제형 2연장 234mm 주포 T0 설계도",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "시제형 2연장 234mm 주포 T0 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13018,
+		icon = "Equips/23100",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13019] = {
+		display = "시제형 3연장 234mm 주포 T0 설계도",
+		rarity = 5,
+		type = 9,
+		drop_oil_max = 0,
+		name = "시제형 3연장 234mm 주포 T0 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13019,
+		icon = "Equips/23120",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13020] = {
+		display = "2연장 114mm 양용포 MarkIV T0 설계도",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "2연장 114mm 양용포 MarkIV T0 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13020,
+		icon = "Equips/21600",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13021] = {
+		display = "6연장 40mm 보포스 대공포 T0 설계도",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "6연장 40mm 보포스 대공포 T0 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13021,
+		icon = "Equips/26660",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13022] = {
+		display = "시제형 3연장 305mm SKC39 주포 T0 설계도",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "시제형 3연장 305mm SKC39 주포 T0 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13022,
+		icon = "Equips/44300",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13023] = {
+		display = "시제형 3연장 406mm/50 주포 T0 설계도",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "시제형 3연장 406mm/50 주포 T0 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13023,
+		icon = "Equips/51000",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13024] = {
+		display = "고성능 사격 통제 레이더 T0 설계도",
+		rarity = 4,
+		type = 9,
+		drop_oil_max = 0,
+		name = "고성능 사격 통제 레이더 T0 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 13024,
+		icon = "Equips/1260",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[14001] = {
 		display = [[
 사용 후 SSR 과학 연구 장비(I기)의 설계도 중 임의로 1장 선택
@@ -5985,6 +6111,27 @@ pg.item_data_statistics = {
 		price = {
 			1,
 			100
+		},
+		index = {}
+	},
+	[20101] = {
+		display = "개발 부서의 테스트 데이터, 사용 시 과학 연구 1기 캐릭터의 스킬 테스트 경험치 진도가 10000 상승한다. ",
+		rarity = 4,
+		type = 18,
+		drop_oil_max = 0,
+		name = "과학 연구 테스트 데이터・1기 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 20101,
+		icon = "Props/20101",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			2
 		},
 		index = {}
 	},
@@ -22096,6 +22243,234 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[42020] = {
+		display = "사용 후 1기, 2기, 3기 PR함의 PR 강화 유닛 중 1개를 선택하여 획득한다.",
+		rarity = 4,
+		type = 13,
+		drop_oil_max = 0,
+		name = "지향형 강화 유닛 - 제3기",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42020,
+		icon = "Props/42020",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				42021,
+				1
+			},
+			{
+				2,
+				42023,
+				1
+			},
+			{
+				2,
+				42024,
+				1
+			},
+			{
+				2,
+				42025,
+				1
+			},
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			},
+			{
+				2,
+				42001,
+				1
+			},
+			{
+				2,
+				42002,
+				1
+			},
+			{
+				2,
+				42003,
+				1
+			},
+			{
+				2,
+				42004,
+				1
+			},
+			{
+				2,
+				42005,
+				1
+			},
+			{
+				2,
+				42006,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[42021] = {
+		display = "로열 네이비 순양함 「체셔」의 강화 유닛.\n<color=#92fc63>「체셔」 획득 후, 「개발 도크」에서 「체셔」의 능력 향상에 사용된다. </color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "강화 유닛: 체셔",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42021,
+		icon = "Props/42021",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42022] = {
+		display = "로열 네이비 순양함 「드레이크」의 강화 유닛.\n<color=#92fc63>「드레이크」 획득 후, 「개발 도크」에서 「드레이크」의 능력 향상에 사용된다. </color>",
+		rarity = 5,
+		type = 12,
+		drop_oil_max = 0,
+		name = "강화 유닛: 드레이크",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42022,
+		icon = "Props/42022",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			20
+		},
+		index = {}
+	},
+	[42023] = {
+		display = "메탈 블러드 순양함 「마인츠」의 강화 유닛.\n<color=#92fc63>「마인츠」 획득 후, 「개발 도크」에서 「마인츠」의 능력 향상에 사용된다. </color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "강화 유닛: 마인츠",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42023,
+		icon = "Props/42023",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42024] = {
+		display = "메탈 블러드 순양전함 「오딘」의 강화 유닛.\n<color=#92fc63>「오딘」 획득 후, 「개발 도크」에서 「오딘」의 능력 향상에 사용된다. </color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "강화 유닛: 오딘",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42024,
+		icon = "Props/42024",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42025] = {
+		display = "아이리스 리브레 전함 「샹파뉴」의 강화 유닛.\n<color=#92fc63>「샹파뉴」 획득 후, 「개발 도크」에서 「샹파뉴」의 능력 향상에 사용된다. </color>",
+		rarity = 4,
+		type = 12,
+		drop_oil_max = 0,
+		name = "강화 유닛: 샹파뉴",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42025,
+		icon = "Props/42025",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			9,
+			5
+		},
+		index = {}
+	},
+	[42026] = {
+		display = "사용 후 1기, 2기, 3기 PR함의 DR 강화 유닛 중 1개를 선택하여 획득한다.",
+		rarity = 5,
+		type = 13,
+		drop_oil_max = 0,
+		name = "고급 지향형 강화 유닛 - 제3기",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 42026,
+		icon = "Props/42026",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				42022,
+				1
+			},
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[50001] = {
 		display = "산소가 충전되어 있는 콜라. 독특한 맛으로, 아마 지휘관은 마실 수 없다.",
 		rarity = 2,
@@ -22624,6 +22999,124 @@ pg.item_data_statistics = {
 			{
 				2,
 				13017,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52021] = {
+		display = "랜덤으로 하기 강화 유닛을 획득할 수 있습니다.",
+		rarity = 4,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知蓝图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 52021,
+		icon = "Props/52001",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				42022,
+				1
+			},
+			{
+				2,
+				42021,
+				1
+			},
+			{
+				2,
+				42023,
+				1
+			},
+			{
+				2,
+				42024,
+				1
+			},
+			{
+				2,
+				42025,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52022] = {
+		display = "랜덤으로 하기 장비 설계도를 획득할 수 있습니다.",
+		rarity = 4,
+		type = 99,
+		drop_oil_max = 0,
+		name = "未知限定装备设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 52022,
+		icon = "Props/55000",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				13019,
+				1
+			},
+			{
+				2,
+				13000,
+				1
+			},
+			{
+				2,
+				13024,
+				1
+			},
+			{
+				2,
+				13009,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			},
+			{
+				2,
+				13018,
+				1
+			},
+			{
+				2,
+				13020,
+				1
+			},
+			{
+				2,
+				13021,
+				1
+			},
+			{
+				2,
+				13022,
+				1
+			},
+			{
+				2,
+				13023,
 				1
 			}
 		},
@@ -98015,6 +98508,13 @@ pg.item_data_statistics = {
 		13015,
 		13016,
 		13017,
+		13018,
+		13019,
+		13020,
+		13021,
+		13022,
+		13023,
+		13024,
 		14001,
 		14002,
 		15001,
@@ -98067,6 +98567,7 @@ pg.item_data_statistics = {
 		20011,
 		20012,
 		20013,
+		20101,
 		30001,
 		30011,
 		30012,
@@ -98809,6 +99310,13 @@ pg.item_data_statistics = {
 		42015,
 		42016,
 		42017,
+		42020,
+		42021,
+		42022,
+		42023,
+		42024,
+		42025,
+		42026,
 		50001,
 		50002,
 		50003,
@@ -98821,6 +99329,8 @@ pg.item_data_statistics = {
 		52004,
 		52011,
 		52012,
+		52021,
+		52022,
 		53000,
 		53010,
 		53011,

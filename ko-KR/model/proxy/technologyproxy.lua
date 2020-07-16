@@ -12,6 +12,12 @@ function slot0.register(slot0)
 		uv0:updateTechnologys(slot0)
 
 		uv0.refreshTechnologysFlag = slot0.refresh_flag or 0
+
+		if slot0.catchup then
+			uv0.curCatchupTecID = slot0.catchup.id
+			uv0.curCatchupGroupID = slot0.catchup.target
+			uv0.curCatchupPrintsNum = slot0.catchup.number
+		end
 	end)
 
 	slot0.bluePrintData = {}
@@ -177,6 +183,57 @@ end
 
 function slot0.GetBlueprint4Item(slot0, slot1)
 	return slot0.item2blueprint[slot1]
+end
+
+function slot0.getNewestCatchupTecID(slot0)
+	return math.max(unpack(pg.technology_catchup_template.all))
+end
+
+function slot0.isOnCatchup(slot0)
+	return slot0.curCatchupTecID ~= 0 and slot0.curCatchupGroupID ~= 0
+end
+
+function slot0.isOnCatchupNewest(slot0)
+	if not slot0:isOnCatchup() then
+		-- Nothing
+	end
+
+	return slot0.curCatchupTecID == slot0:getNewestCatchupTecID()
+end
+
+function slot0.judgeOnCatchupOldAndFinished(slot0)
+	if not slot0:isOnCatchupNewest() and pg.technology_catchup_template[slot0.curCatchupTecID].obtain_max <= slot0.curCatchupPrintsNum then
+		print("finish and old, need reset")
+		pg.m02:sendNotification(GAME.SELECT_TEC_TARGET_CATCHUP, {
+			charID = 0
+		})
+	end
+end
+
+function slot0.getBluePrintVOByGroupID(slot0, slot1)
+	return slot0.bluePrintData[slot1]
+end
+
+function slot0.getCurCatchupTecInfo(slot0)
+	return {
+		tecID = slot0.curCatchupTecID,
+		groupID = slot0.curCatchupGroupID,
+		printNum = slot0.curCatchupPrintsNum
+	}
+end
+
+function slot0.setCurCatchupTecInfo(slot0, slot1, slot2, slot3)
+	slot0.curCatchupTecID = slot1
+	slot0.curCatchupGroupID = slot2
+	slot0.curCatchupPrintsNum = slot3 or slot0.curCatchupPrintsNum
+
+	print("设置后的科研追赶信息", slot0.curCatchupTecID, slot0.curCatchupGroupID, slot0.curCatchupPrintsNum)
+end
+
+function slot0.addCatupPrintsNum(slot0, slot1)
+	slot0.curCatchupPrintsNum = slot0.curCatchupPrintsNum + slot1
+
+	print("增加科研图纸", slot1, slot0.curCatchupPrintsNum)
 end
 
 return slot0

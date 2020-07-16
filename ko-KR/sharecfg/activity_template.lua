@@ -93,7 +93,7 @@ pg.activity_template = {
 		}
 	},
 	{
-		mark = 2016091501,
+		mark = 2016091500,
 		page_info = "",
 		type = 7,
 		login_pop = 0,
@@ -336,6 +336,48 @@ pg.activity_template = {
 				},
 				{
 					"KAIXUE07"
+				}
+			}
+		}
+	},
+	[632] = {
+		mark = 20200709,
+		page_info = "",
+		time = "always",
+		type = 71,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 632,
+		config_data = {
+			101,
+			500,
+			{
+				{
+					{
+						51101,
+						51102,
+						51103,
+						51104,
+						51105,
+						51106,
+						51107,
+						51108,
+						51109,
+						51110,
+						51111,
+						51112,
+						51113,
+						51114,
+						51115,
+						51116,
+						51117,
+						51118,
+						51119
+					},
+					51120
 				}
 			}
 		}
@@ -13875,6 +13917,7 @@ pg.activity_template = {
 	},
 	[29006] = {
 		mark = 20200624,
+		time = "stop",
 		type = 51,
 		login_pop = 0,
 		config_id = 3,
@@ -13883,33 +13926,6 @@ pg.activity_template = {
 		title_res_tag = "monopoly_car",
 		id = 29006,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					7,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "MonopolyCar.MonopolyCarPage",
 			ui_name = "MonopolyCarPage"
@@ -13927,6 +13943,7 @@ pg.activity_template = {
 		21,
 		617,
 		618,
+		632,
 		100001,
 		30418,
 		30419,
