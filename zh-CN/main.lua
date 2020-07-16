@@ -4,6 +4,12 @@ pg = {
 		__mode = "k"
 	})
 }
+PLATFORM_CH = 1
+PLATFORM_JP = 2
+PLATFORM_KR = 3
+PLATFORM_US = 4
+PLATFORM_CHT = 5
+PLATFORM_CODE = PLATFORM_CH
 
 require("Include")
 require("tolua.reflection")
@@ -15,12 +21,6 @@ CSharpVersion = NetConst.GatewayState
 print("C# Ver. " .. CSharpVersion)
 
 PLATFORM = LuaHelper.GetPlatformInt()
-PLATFORM_CH = 1
-PLATFORM_JP = 2
-PLATFORM_KR = 3
-PLATFORM_US = 4
-PLATFORM_CHT = 5
-PLATFORM_CODE = PLATFORM_CH
 SDK_EXIT_CODE = 99
 
 function luaIdeDebugFunc()

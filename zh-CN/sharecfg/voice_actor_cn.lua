@@ -947,5 +947,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "松冈由贵",
 		code = 237
+	},
+	{
+		actor_name = "牧野由依",
+		code = 238
 	}
 }

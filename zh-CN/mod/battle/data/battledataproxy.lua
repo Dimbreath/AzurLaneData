@@ -842,6 +842,11 @@ function slot8.SpawnMain(slot0, slot1, slot2)
 
 	slot6:SetBornPosition(slot3)
 	slot6:SetMainFleetUnit()
+
+	if slot3.x < slot0._totalLeftBound or slot0._totalRightBound < slot7 then
+		slot6:SetImmuneCommonBulletCLD()
+	end
+
 	slot4:AppendPlayerUnit(slot6)
 	slot0._cldSystem:InitShipCld(slot6)
 	slot0:DispatchEvent(uv2.Event.New(uv3.ADD_UNIT, {

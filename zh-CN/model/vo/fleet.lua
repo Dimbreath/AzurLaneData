@@ -630,19 +630,39 @@ function slot0.clearFleet(slot0)
 end
 
 function slot0.EnergyCheck(slot0, slot1, slot2, slot3)
-	slot4 = slot3 or "ship_energy_low_warn"
-	slot5 = false
+	slot3 = slot3 or "ship_energy_low_warn"
+	slot4 = {}
 
-	for slot10, slot11 in ipairs(slot0) do
-		if slot11.energy == Ship.ENERGY_LOW then
-			slot5 = true
-			slot6 = "" .. "「" .. slot11:getConfig("name") .. "」"
+	for slot8, slot9 in ipairs(slot0) do
+		if slot9.energy == Ship.ENERGY_LOW then
+			table.insert(slot4, slot9)
 		end
 	end
 
-	if slot5 then
+	if #slot4 > 0 then
+		slot5 = ""
+		slot4 = _.map(slot4, function (slot0)
+			return "「" .. slot0:getConfig("name") .. "」"
+		end)
+
+		if PLATFORM_CODE ~= PLATFORM_US or #slot4 == 1 then
+			slot3 = slot3 or "ship_energy_low_warn"
+
+			for slot9, slot10 in ipairs(slot4) do
+				slot5 = slot5 .. slot10
+			end
+		else
+			slot3 = "multiple_" .. slot3
+
+			for slot9 = 1, #slot4 - 2 do
+				slot5 = slot5 .. slot4[slot9] .. ", "
+			end
+
+			slot5 = slot5 .. slot4[#slot4 - 1] .. " and " .. slot4[#slot4]
+		end
+
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n(slot4, slot1, slot6),
+			content = i18n(slot3, slot1, slot5),
 			onYes = function ()
 				uv0()
 			end,

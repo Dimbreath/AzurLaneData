@@ -2693,6 +2693,157 @@ pg.activity_template = {
 			}
 		}
 	},
+	[633] = {
+		mark = 20200716,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 6,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 633,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[634] = {
+		mark = 20200716,
+		type = 54,
+		login_pop = 0,
+		config_id = 634,
+		is_show = 5,
+		title_res_tag = "Britain_framev2",
+		id = 634,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "BritainframePage",
+			ui_name = "BritainframePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[636] = {
+		mark = 20200716,
+		type = 69,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 1,
+		title_res_tag = "Neptune_catchup",
+		id = 636,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NeptuneTecCatchupPage",
+			ui_name = "NeptuneTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42001
+		}
+	},
 	[2001] = {
 		mark = 20180327,
 		page_info = "",
@@ -3542,6 +3693,9 @@ pg.activity_template = {
 		630,
 		631,
 		632,
+		633,
+		634,
+		636,
 		2001,
 		2002,
 		2003,

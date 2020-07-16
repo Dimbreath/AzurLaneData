@@ -160,6 +160,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>愿昔日的颂歌再次响彻天空，Vive la Iris！</color>\n「穹顶下的圣咏曲」活动获取",
 		scene = {}
 	},
+	[309] = {
+		name = "皇家之冠",
+		time_second = 0,
+		id = 309,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>等待后续活动获取</color>",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂纪念：企业",
 		time_second = 0,
@@ -213,6 +221,7 @@ pg.item_data_frame = {
 		306,
 		307,
 		308,
+		309,
 		401,
 		402,
 		404,

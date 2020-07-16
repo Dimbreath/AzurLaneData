@@ -835,6 +835,14 @@ function slot9.Boost(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._move:SetForceMove(slot1, slot2, slot3, slot4, slot5)
 end
 
+function slot9.SetImmuneCommonBulletCLD(slot0)
+	slot0._immuneCommonBulletCLD = true
+end
+
+function slot9.IsImmuneCommonBulletCLD(slot0)
+	return slot0._immuneCommonBulletCLD
+end
+
 function slot9.SetWeaponPreCastBound(slot0, slot1)
 	slot0._preCastBound = slot1
 

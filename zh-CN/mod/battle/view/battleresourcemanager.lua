@@ -411,7 +411,8 @@ function slot5.StartPreload(slot0, slot1, slot2)
 	for slot9, slot10 in pairs(uv0.BATTLE_SHADER) do
 		ResourceMgr.Inst:LoadAssetAsync(pg.ShaderMgr.GetInstance().shaders, slot10, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			uv0._shaders[uv1] = slot0
-			uv2 = uv2 + 1
+
+			uv2()
 		end), false, false)
 	end
 
@@ -794,6 +795,10 @@ function slot5.GetBulletResource(slot0, slot1)
 		slot2[#slot2 + 1] = uv2.GetFXPath(slot3.modle_ID)
 	else
 		slot2[#slot2 + 1] = uv2.GetBulletPath(slot4)
+	end
+
+	if slot3.extra_param.mirror then
+		slot2[#slot2 + 1] = uv2.GetBulletPath(slot4 .. uv3.Battle.BattleBulletUnit.MIRROR_RES)
 	end
 
 	slot2[#slot2 + 1] = uv2.GetFXPath(slot3.hit_fx)

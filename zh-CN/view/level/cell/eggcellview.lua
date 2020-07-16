@@ -96,7 +96,7 @@ function slot0.loadSpine(slot0, slot1)
 	end
 end
 
-function slot0.clear(slot0)
+function slot0.Clear(slot0)
 	slot0.tf.anchorMin = Vector2(0.5, 0)
 	slot0.tf.anchorMax = Vector2(0.5, 0)
 	slot0.tf.pivot = Vector2(0.5, 0)

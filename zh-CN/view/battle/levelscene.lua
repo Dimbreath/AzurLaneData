@@ -15,51 +15,39 @@ end
 function slot0.preload(slot0, slot1)
 	slot2 = 0
 	slot4 = nil
-
-	GetSpriteFromAtlasAsync("chapter/pic/cellgrid", "cell_grid", function ()
-		uv0 = uv0 + 1
-
-		if uv1 <= uv0 then
-			uv2()
-		end
-	end)
-
-	slot5 = PoolMgr.GetInstance()
-
-	slot5:GetPrefab("chapter/cell_quad", "", true, function (slot0)
-		uv0:ReturnPrefab("chapter/cell_quad", "", slot0)
-		uv1()
-	end)
-	slot5:GetPrefab("chapter/cell_quad_mark", "", true, function (slot0)
-		uv0:ReturnPrefab("chapter/cell_quad_mark", "", slot0)
-		uv1()
-	end)
-	slot5:GetPrefab("chapter/cell", "", true, function (slot0)
-		uv0:ReturnPrefab("chapter/cell", "", slot0)
-		uv1()
-	end)
-
-	slot10 = true
-
-	function slot11(slot0)
-		uv0:ReturnPrefab("chapter/plane", "", slot0)
-		uv1()
-	end
-
-	slot5:GetPrefab("chapter/plane", "", slot10, slot11)
-
-	slot6 = {
+	slot5 = {
+		"cell_quad",
+		"cell_quad_mark",
+		"cell",
+		"plane"
+	}
+	slot3 = 0 + #slot5 + 1 + #{
 		{
 			"Tpl_Destination_Mark",
 			"leveluiview",
 			"destinationMarkTpl"
 		}
-	}
-	slot0.loadedTpls = {}
-	slot3 = 0 + 5 + #slot6
+	} + 1
 
-	for slot10, slot11 in pairs(slot6) do
-		LoadAndInstantiateAsync(slot11[2], slot11[1], function (slot0)
+	GetSpriteFromAtlasAsync("chapter/pic/cellgrid", "cell_grid", function ()
+		uv0 = uv0 + 1
+
+		if uv0 == uv1 then
+			uv2()
+		end
+	end)
+
+	for slot11, slot12 in ipairs(slot5) do
+		PoolMgr.GetInstance():GetPrefab("chapter/" .. slot12, "", true, function (slot0)
+			uv0:ReturnPrefab("chapter/" .. uv1, "", slot0)
+			uv2()
+		end)
+	end
+
+	slot0.loadedTpls = {}
+
+	for slot11, slot12 in pairs(slot6) do
+		LoadAndInstantiateAsync(slot12[2], slot12[1], function (slot0)
 			slot0:SetActive(false)
 
 			slot0.name = uv0[3]
@@ -70,17 +58,16 @@ function slot0.preload(slot0, slot1)
 		end, true)
 	end
 
-	slot3 = slot3 + 1
-	slot8 = getProxy(ChapterProxy):getMaps()
-	slot11 = slot0.contextData.chapterVO
+	slot9 = getProxy(ChapterProxy):getMaps()
+	slot12 = slot0.contextData.chapterVO
 
-	if slot0.contextData.chapterId and slot8[slot0.contextData.mapIdx] then
-		slot0.contextData.chapterVO = slot12:getChapter(slot10)
+	if slot0.contextData.chapterId and slot9[slot0.contextData.mapIdx] then
+		slot0.contextData.chapterVO = slot13:getChapter(slot11)
 	end
 
-	slot0:setMaps(slot8)
+	slot0:setMaps(slot9)
 
-	slot13 = function ()
+	slot14 = function ()
 		uv0 = uv1.contextData.chapterVO
 
 		if uv0 and uv0.active then
@@ -101,9 +88,9 @@ function slot0.preload(slot0, slot1)
 
 		return slot0 or uv1:selectMap(uv3)
 	end()
-	slot0.contextData.InitializeMap = slot13
+	slot0.contextData.InitializeMap = slot14
 
-	GetSpriteFromAtlasAsync("levelmap/" .. slot8[slot13]:getConfig("bg"), "", slot4)
+	GetSpriteFromAtlasAsync("levelmap/" .. slot9[slot14]:getConfig("bg"), "", slot4)
 end
 
 function slot0.init(slot0)

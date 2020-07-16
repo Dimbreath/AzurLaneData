@@ -24410,11 +24410,11 @@ pg.bullet_template = {
 		acceleration = {},
 		cld_box = {
 			25,
-			2,
-			2
+			5,
+			5
 		},
 		cld_offset = {
-			10,
+			-10,
 			0,
 			0
 		},
@@ -24426,7 +24426,9 @@ pg.bullet_template = {
 				level = 1
 			}
 		},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	},
 	[19153] = {
 		range_offset = 10,
@@ -24477,7 +24479,9 @@ pg.bullet_template = {
 		},
 		hit_type = {},
 		attach_buff = {},
-		extra_param = {}
+		extra_param = {
+			ignoreShield = true
+		}
 	},
 	[19154] = {
 		range_offset = 10,
@@ -24713,21 +24717,21 @@ pg.bullet_template = {
 		id = 19161,
 		velocity = 20,
 		damage_type = {
-			1.05,
-			1,
-			0.85
+			1.15,
+			1.15,
+			0.95
 		},
 		DMG_font = {
 			{
-				1,
+				3,
 				1.2
 			},
 			{
-				1,
-				1
+				3,
+				1.2
 			},
 			{
-				1,
+				3,
 				1
 			}
 		},
@@ -24770,21 +24774,21 @@ pg.bullet_template = {
 		id = 19162,
 		velocity = 20,
 		damage_type = {
-			1.07,
-			1,
-			0.85
+			1.17,
+			1.15,
+			0.95
 		},
 		DMG_font = {
 			{
-				1,
+				3,
 				1.2
 			},
 			{
-				1,
-				1
+				3,
+				1.2
 			},
 			{
-				1,
+				3,
 				1
 			}
 		},
@@ -24827,21 +24831,21 @@ pg.bullet_template = {
 		id = 19163,
 		velocity = 20,
 		damage_type = {
-			1.1,
-			1,
-			0.85
+			1.2,
+			1.15,
+			0.95
 		},
 		DMG_font = {
 			{
-				1,
+				3,
 				1.2
 			},
 			{
-				1,
-				1
+				3,
+				1.2
 			},
 			{
-				1,
+				3,
 				1
 			}
 		},
@@ -24884,21 +24888,21 @@ pg.bullet_template = {
 		id = 19164,
 		velocity = 20,
 		damage_type = {
-			1.1,
-			1.02,
-			0.85
+			1.2,
+			1.17,
+			0.95
 		},
 		DMG_font = {
 			{
-				1,
+				3,
 				1.2
 			},
 			{
-				1,
-				1
+				3,
+				1.2
 			},
 			{
-				1,
+				3,
 				1
 			}
 		},
@@ -24941,21 +24945,21 @@ pg.bullet_template = {
 		id = 19165,
 		velocity = 20,
 		damage_type = {
-			1.1,
-			1.05,
-			0.85
+			1.2,
+			1.2,
+			0.95
 		},
 		DMG_font = {
 			{
-				1,
+				3,
 				1.2
 			},
 			{
-				1,
-				1
+				3,
+				1.2
 			},
 			{
-				1,
+				3,
 				1
 			}
 		},
@@ -24998,21 +25002,21 @@ pg.bullet_template = {
 		id = 19166,
 		velocity = 20,
 		damage_type = {
-			1.1,
-			1.05,
-			0.9
+			1.2,
+			1.2,
+			0.97
 		},
 		DMG_font = {
 			{
-				1,
+				3,
 				1.2
 			},
 			{
-				1,
-				1
+				3,
+				1.2
 			},
 			{
-				1,
+				3,
 				1
 			}
 		},
@@ -25055,21 +25059,21 @@ pg.bullet_template = {
 		id = 19167,
 		velocity = 20,
 		damage_type = {
-			1.1,
-			1.1,
-			0.9
+			1.2,
+			1.2,
+			1
 		},
 		DMG_font = {
 			{
-				1,
+				3,
 				1.2
 			},
 			{
-				1,
-				1
+				3,
+				1.2
 			},
 			{
-				1,
+				3,
 				1
 			}
 		},
@@ -25112,21 +25116,21 @@ pg.bullet_template = {
 		id = 19168,
 		velocity = 20,
 		damage_type = {
-			1.15,
-			1.1,
-			0.9
+			1.25,
+			1.2,
+			1
 		},
 		DMG_font = {
 			{
-				1,
+				3,
 				1.2
 			},
 			{
-				1,
-				1
+				3,
+				1.2
 			},
 			{
-				1,
+				3,
 				1
 			}
 		},
@@ -25169,21 +25173,21 @@ pg.bullet_template = {
 		id = 19169,
 		velocity = 20,
 		damage_type = {
-			1.15,
-			1.15,
-			0.9
+			1.25,
+			1.25,
+			1
 		},
 		DMG_font = {
 			{
-				1,
+				3,
 				1.2
 			},
 			{
-				1,
-				1
+				3,
+				1.2
 			},
 			{
-				1,
+				3,
 				1
 			}
 		},
@@ -25226,21 +25230,21 @@ pg.bullet_template = {
 		id = 19170,
 		velocity = 20,
 		damage_type = {
-			1.15,
-			1.15,
-			0.95
+			1.25,
+			1.25,
+			1.05
 		},
 		DMG_font = {
 			{
-				1,
+				3,
 				1.2
 			},
 			{
-				1,
-				1
+				3,
+				1.2
 			},
 			{
-				1,
+				3,
 				1
 			}
 		},
