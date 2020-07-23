@@ -1,6 +1,8 @@
 slot0 = class("SpineCellView", import("view.level.cell.LevelCellView"))
 
 function slot0.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0)
+
 	slot0.go = slot1
 	slot0.tf = slot0.go.transform
 	slot0.tfShip = slot0.tf:Find("ship")
@@ -90,6 +92,9 @@ end
 function slot0.OnLoadSpine(slot0)
 end
 
+function slot0.OnLoadAttachment(slot0)
+end
+
 function slot0.LoadAttachments(slot0)
 	if slot0._attachmentInfo then
 		for slot4, slot5 in pairs(slot0._attachmentInfo) do
@@ -111,7 +116,8 @@ function slot0.LoadAttachments(slot0)
 		slot0:GetLoader():LoadPrefab("effect/" .. slot1, slot1, function (slot0)
 			uv0._attachmentList[uv1] = slot0
 
-			tf(slot0):SetParent(tf(uv0.model))
+			tf(slot0):SetParent(tf(uv0.model), false)
+			uv0:OnLoadAttachment()
 		end)
 	end
 end

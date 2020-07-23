@@ -3303,6 +3303,48 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[177] = {
+		advice = 0,
+		describe = "極夜のオーロラを閉じ込めた、氷海のドームのミニチュア――「極夜照らす幻光」作戦に参加した指揮官に贈る",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "幻光の記念賞",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "極夜照らす幻光  ",
+		themeId = 0,
+		icon = "jiguangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 177,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"jiguang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -4448,6 +4490,52 @@ pg.furniture_data_template = {
 		animator = {
 			{
 				"fengshanCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100017] = {
+		advice = 0,
+		describe = "月は出ているか?",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "月相観測装置",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "yueicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 100017,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yue",
+				"normal",
+				{
+					"action",
+					false
+				}
 			}
 		},
 		interAction_group = {}
@@ -69905,6 +69993,1361 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[69001] = {
+		advice = 0,
+		describe = "まずは検査するピョ？",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "医療施設の床",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "dibanyiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69001,
+		picture = "yi/dibanyi",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69002] = {
+		advice = 0,
+		describe = "まずは検査するピョ？",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "医療施設の壁",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "qiangbiyiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69002,
+		picture = "yi/qiangbiyi",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69101] = {
+		advice = 0,
+		describe = "まずはおかけになってくださいピョ！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ロビーの腰掛け",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "1yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69101,
+		picture = "Yi/1yi",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					21.6,
+					43.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69102] = {
+		advice = 0,
+		describe = "「具合でもわるいのかにゃ？」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ロビーカウンター",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "2yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69102,
+		picture = "Yi/2yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11.2,
+					57.5
+				},
+				{
+					-1,
+					1
+				},
+				"yi/2yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69103] = {
+		advice = 0,
+		describe = "「ここのお世話になる日が来ないように…」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "歯科の手術台",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "5yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69103,
+		picture = "Yi/5yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-6,
+					11.3
+				},
+				{
+					-1,
+					1
+				},
+				"yi/5yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69104] = {
+		advice = 0,
+		describe = "「よし！これで元気百倍だ！」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ひまわりの盆栽",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "6yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69104,
+		picture = "Yi/6yi",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69105] = {
+		advice = 0,
+		describe = "プライベートは大切だピョ！",
+		count = 7,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "医療施設の仕切り",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "7yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69105,
+		picture = "Yi/7yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69106] = {
+		advice = 0,
+		describe = "「新刊は…流石に入ってないわね…」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "無料雑誌棚",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "8yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69106,
+		picture = "Yi/8yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69107] = {
+		advice = 0,
+		describe = "怖くないピョー痛くないピョー",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "お注射饅頭",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "9yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69107,
+		picture = "Yi/9yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69108] = {
+		advice = 0,
+		describe = "「そこ！薬の出し入れは全部ノートに記入するように！」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "医療施設の薬棚",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "10yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69108,
+		picture = "Yi/10yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69109] = {
+		advice = 0,
+		describe = "「そのまま寝てれば？次目が覚めたときにはもう大丈夫っしょ」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭手術台",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "11yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69109,
+		picture = "Yi/11yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					3.7,
+					-21.5
+				},
+				{
+					-1,
+					1
+				},
+				"yi/11yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69110] = {
+		advice = 0,
+		describe = "「姉貴…医療機関に寄贈だなんて…流石です！」",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "医療施設の盆栽",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "12yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69110,
+		picture = "Yi/12yi",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69111] = {
+		advice = 0,
+		describe = "「いくらハーマイオニーでも仮病は許しませんよ？」",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "医療施設の病床",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "13yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69111,
+		picture = "Yi/13yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-13.5,
+					-17.8
+				},
+				{
+					-1,
+					1
+				},
+				"yi/13yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69112] = {
+		advice = 0,
+		describe = "「夜に動くかもしれない」とウワサの母港の不思議の一つ",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "骨格標本",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "14yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69112,
+		picture = "Yi/14yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69113] = {
+		advice = 0,
+		describe = "お大事にピョ～",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "医療施設の受付",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "17yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69113,
+		picture = "Yi/17yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69114] = {
+		advice = 0,
+		describe = "「呼ばれるまではそこに座っていてくださいね」",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ロビーの椅子",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "18yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69114,
+		picture = "Yi/18yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					52.9,
+					37.4
+				},
+				{
+					1,
+					1
+				},
+				"yi/18yi_using"
+			},
+			{
+				"sit",
+				{
+					-18.7,
+					2.3
+				},
+				{
+					1,
+					1
+				},
+				"yi/18yi_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69115] = {
+		advice = 0,
+		describe = "医療施設のウォーターサーバー。その水質は純水に近く、安心して飲める",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ウォーターサーバー",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "19yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69115,
+		picture = "Yi/19yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69116] = {
+		advice = 0,
+		describe = "「な、なに興味津々に見てんの…？」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "人体模型",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "21yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69116,
+		picture = "Yi/21yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69117] = {
+		advice = 0,
+		describe = "ドリンクだけでなくサプリメント類も販売中",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "医療施設の自販機",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "22yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 69117,
+		picture = "Yi/22yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69118] = {
+		advice = 0,
+		describe = "「はーいそのままぴったりくっつけて～」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "レントゲン装置",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "4yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69118,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xguangB",
+				"normal"
+			},
+			{
+				"xguangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"xguangCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[69119] = {
+		advice = 0,
+		describe = "ひと目で分かるハイテクな医療装置",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "CT検査装置",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "15yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69119,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"CTB",
+				"normal"
+			},
+			{
+				"CTT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"CTCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[69120] = {
+		advice = 0,
+		describe = "手術室まで急ぐピョ！",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭院内カー",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "20yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69120,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheyiB",
+				"normal"
+			},
+			{
+				"cheyiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"cheyiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[69121] = {
+		advice = 0,
+		describe = "…ピョ？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "アセンション？饅頭",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "16yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69121,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"anxijiu",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[69301] = {
+		advice = 0,
+		describe = "手指消毒は大事！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "消毒ハンドソープ",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "3yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69301,
+		picture = "Yi/3yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69302] = {
+		advice = 0,
+		describe = "「ただの演習だと思うな！全力でやり抜け！」",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "集中治療室の扉",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "23yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69302,
+		picture = "Yi/23yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69303] = {
+		advice = 0,
+		describe = "今日もいい感じだピョ！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "心電計",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "24yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69303,
+		picture = "Yi/24yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69304] = {
+		advice = 0,
+		describe = "数々のライセンス、証明書が飾られている",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "医療施設証明書",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "25yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69304,
+		picture = "Yi/25yi",
+		comfortable = 1,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69305] = {
+		advice = 0,
+		describe = "診療科の扉。主機が故障すると動けなくなるピョ！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "入口・循環器科",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "26yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69305,
+		picture = "Yi/26yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69306] = {
+		advice = 0,
+		describe = "診療科の扉。↑↑↓↓←→←→び…ピョ！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "入口・眼科",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "27yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69306,
+		picture = "Yi/27yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69307] = {
+		advice = 0,
+		describe = "診療科の扉。体の器官はどれも大事だピョ！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "入口・呼吸器科",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "28yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69307,
+		picture = "Yi/28yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69308] = {
+		advice = 0,
+		describe = "診療科の扉。骨の丈夫さは鍛錬が大事ピョ！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "入口・整形外科",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "29yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69308,
+		picture = "Yi/29yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69309] = {
+		advice = 0,
+		describe = "診療科の扉。ブレーンは艦隊指揮に必要だピョ！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "入口・脳神経外科",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "30yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69309,
+		picture = "Yi/30yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -69976,6 +71419,7 @@ pg.furniture_data_template = {
 		173,
 		175,
 		176,
+		177,
 		100002,
 		100003,
 		100004,
@@ -69991,6 +71435,7 @@ pg.furniture_data_template = {
 		100014,
 		100015,
 		100016,
+		100017,
 		1001,
 		1002,
 		1101,
@@ -71512,6 +72957,38 @@ pg.furniture_data_template = {
 		66124,
 		66125,
 		66126,
-		66127
+		66127,
+		69001,
+		69002,
+		69101,
+		69102,
+		69103,
+		69104,
+		69105,
+		69106,
+		69107,
+		69108,
+		69109,
+		69110,
+		69111,
+		69112,
+		69113,
+		69114,
+		69115,
+		69116,
+		69117,
+		69118,
+		69119,
+		69120,
+		69121,
+		69301,
+		69302,
+		69303,
+		69304,
+		69305,
+		69306,
+		69307,
+		69308,
+		69309
 	}
 }

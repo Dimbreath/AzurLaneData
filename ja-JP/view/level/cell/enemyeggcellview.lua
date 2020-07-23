@@ -105,6 +105,8 @@ function slot0.ExtraUpdate(slot0, slot1)
 			slot0.transform:SetParent(uv0.tf, false)
 
 			slot0.transform.localScale = slot0.transform.localScale
+
+			uv0:ResetCanvasOrder()
 		end)
 	end
 

@@ -9703,6 +9703,134 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 4,
 		property_rate = {}
 	},
+	[2740] = {
+		name = "533mm磁気魚雷（水上艦用）",
+		tech = 3,
+		type = 10,
+		speciality = "なし",
+		id = 2740,
+		value_2 = 6,
+		icon = "2700",
+		value_1 = "28",
+		attribute_2 = "hit",
+		rarity = 5,
+		descrip = "水上艦用の533mm磁気魚雷。磁気信管と音響追跡技術を応用している",
+		nationality = 4,
+		scatter = "0",
+		ammo = "なし",
+		value_3 = 0,
+		attribute_1 = "torpedo",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6570
+		},
+		part_main = {
+			1,
+			2,
+			3,
+			11,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			11,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[2741] = {
+		base = 2740,
+		id = 2741,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2742] = {
+		id = 2742,
+		base = 2740,
+		value_2 = 7,
+		value_1 = "36",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2743] = {
+		id = 2743,
+		base = 2740,
+		value_2 = 8,
+		value_1 = "40",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2744] = {
+		id = 2744,
+		base = 2740,
+		value_2 = 9,
+		value_1 = "44",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2745] = {
+		id = 2745,
+		base = 2740,
+		value_2 = 10,
+		value_1 = "49",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2746] = {
+		id = 2746,
+		base = 2740,
+		value_2 = 11,
+		value_1 = "53",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2747] = {
+		id = 2747,
+		base = 2740,
+		value_2 = 12,
+		value_1 = "57",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2748] = {
+		id = 2748,
+		base = 2740,
+		value_2 = 13,
+		value_1 = "61",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2749] = {
+		id = 2749,
+		base = 2740,
+		value_2 = 14,
+		value_1 = "65",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[2750] = {
+		id = 2750,
+		base = 2740,
+		value_2 = 15,
+		value_1 = "70",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[2800] = {
 		name = "94式高射装置",
 		tech = 0,
@@ -39684,6 +39812,259 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[27320] = {
+		name = "シーホーネット",
+		type = 7,
+		speciality = "航空",
+		rarity = 5,
+		tech = 0,
+		descrip = "ロイヤル双発戦闘機「デ・ハビランド ホーネット」の艦載機。高い速度を始めとした優秀な性能を誇る",
+		value_2 = 45,
+		icon = "27320",
+		attribute_2 = "air",
+		scatter = "0",
+		nationality = 2,
+		ammo = "通常弾",
+		value_3 = 0,
+		id = 27320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50660
+			},
+			{
+				5,
+				52760
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			9
+		},
+		weapon_id = {
+			27320,
+			82320
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
+	},
+	[27321] = {
+		base = 27320,
+		id = 27321,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27321,
+			82321
+		},
+		ammo_info = {
+			{
+				6,
+				50661
+			},
+			{
+				5,
+				52761
+			}
+		},
+		property_rate = {}
+	},
+	[27322] = {
+		base = 27320,
+		id = 27322,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27322,
+			82322
+		},
+		ammo_info = {
+			{
+				6,
+				50662
+			},
+			{
+				5,
+				52762
+			}
+		},
+		property_rate = {}
+	},
+	[27323] = {
+		base = 27320,
+		id = 27323,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27323,
+			82323
+		},
+		ammo_info = {
+			{
+				6,
+				50663
+			},
+			{
+				5,
+				52763
+			}
+		},
+		property_rate = {}
+	},
+	[27324] = {
+		base = 27320,
+		id = 27324,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27324,
+			82324
+		},
+		ammo_info = {
+			{
+				6,
+				50664
+			},
+			{
+				5,
+				52764
+			}
+		},
+		property_rate = {}
+	},
+	[27325] = {
+		base = 27320,
+		id = 27325,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27325,
+			82325
+		},
+		ammo_info = {
+			{
+				6,
+				50665
+			},
+			{
+				5,
+				52765
+			}
+		},
+		property_rate = {}
+	},
+	[27326] = {
+		base = 27320,
+		id = 27326,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27326,
+			82326
+		},
+		ammo_info = {
+			{
+				6,
+				50666
+			},
+			{
+				5,
+				52766
+			}
+		},
+		property_rate = {}
+	},
+	[27327] = {
+		base = 27320,
+		id = 27327,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27327,
+			82327
+		},
+		ammo_info = {
+			{
+				6,
+				50667
+			},
+			{
+				5,
+				52767
+			}
+		},
+		property_rate = {}
+	},
+	[27328] = {
+		base = 27320,
+		id = 27328,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27328,
+			82328
+		},
+		ammo_info = {
+			{
+				6,
+				50668
+			},
+			{
+				5,
+				52768
+			}
+		},
+		property_rate = {}
+	},
+	[27329] = {
+		base = 27320,
+		id = 27329,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27329,
+			82329
+		},
+		ammo_info = {
+			{
+				6,
+				50669
+			},
+			{
+				5,
+				52769
+			}
+		},
+		property_rate = {}
+	},
+	[27330] = {
+		base = 27320,
+		id = 27330,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27330,
+			82330
+		},
+		ammo_info = {
+			{
+				6,
+				50670
+			},
+			{
+				5,
+				52770
+			}
+		},
+		property_rate = {}
+	},
 	[28000] = {
 		name = "ソードフィッシュ",
 		type = 8,
@@ -69587,7 +69968,7 @@ pg.equip_data_statistics = {
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "外观空袭展示用",
+		descrip = "航空攻撃サンプル用",
 		scatter = "0",
 		nationality = 0,
 		ammo = "なし",
@@ -69640,7 +70021,7 @@ pg.equip_data_statistics = {
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "外观空袭展示用",
+		descrip = "航空攻撃サンプル用",
 		scatter = "0",
 		nationality = 0,
 		ammo = "なし",
@@ -69693,7 +70074,7 @@ pg.equip_data_statistics = {
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "外观空袭展示用",
+		descrip = "航空攻撃サンプル用",
 		scatter = "0",
 		nationality = 0,
 		ammo = "なし",
@@ -69740,16 +70121,16 @@ pg.equip_data_statistics = {
 	[60431] = {
 		name = "航空攻击展示-时乃空I",
 		tech = 1,
-		speciality = "无",
+		speciality = "なし",
 		type = 99,
 		rarity = 1,
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "航母空袭展示用",
+		descrip = "航空攻撃サンプル用",
 		scatter = "0",
 		nationality = 0,
-		ammo = "无",
+		ammo = "なし",
 		value_3 = 0,
 		id = 60431,
 		torpedo_ammo = 0,
@@ -69793,16 +70174,16 @@ pg.equip_data_statistics = {
 	[60441] = {
 		name = "航空攻击展示-紫咲诗音I",
 		tech = 1,
-		speciality = "无",
+		speciality = "なし",
 		type = 99,
 		rarity = 1,
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "航母空袭展示用",
+		descrip = "航空攻撃サンプル用",
 		scatter = "0",
 		nationality = 0,
-		ammo = "无",
+		ammo = "なし",
 		value_3 = 0,
 		id = 60441,
 		torpedo_ammo = 0,
@@ -69846,16 +70227,16 @@ pg.equip_data_statistics = {
 	[60451] = {
 		name = "航空攻击展示-大神澪I",
 		tech = 1,
-		speciality = "无",
+		speciality = "なし",
 		type = 99,
 		rarity = 1,
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "航母空袭展示用",
+		descrip = "航空攻撃サンプル用",
 		scatter = "0",
 		nationality = 0,
-		ammo = "无",
+		ammo = "なし",
 		value_3 = 0,
 		id = 60451,
 		torpedo_ammo = 0,
@@ -69899,16 +70280,16 @@ pg.equip_data_statistics = {
 	[60461] = {
 		name = "航空攻击展示-白上吹雪III",
 		tech = 1,
-		speciality = "无",
+		speciality = "なし",
 		type = 99,
 		rarity = 1,
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "航母空袭展示用",
+		descrip = "航空攻撃サンプル用",
 		scatter = "0",
 		nationality = 0,
-		ammo = "无",
+		ammo = "なし",
 		value_3 = 0,
 		id = 60461,
 		torpedo_ammo = 0,
@@ -69932,16 +70313,16 @@ pg.equip_data_statistics = {
 	[60471] = {
 		name = "航空攻击展示-龙凤I",
 		tech = 1,
-		speciality = "无",
+		speciality = "なし",
 		type = 99,
 		rarity = 1,
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "航母空袭展示用",
+		descrip = "航空攻撃サンプル用",
 		scatter = "0",
 		nationality = 0,
-		ammo = "无",
+		ammo = "なし",
 		value_3 = 0,
 		id = 60471,
 		torpedo_ammo = 0,
@@ -69985,16 +70366,16 @@ pg.equip_data_statistics = {
 	[60491] = {
 		name = "航空攻击展示-卡萨布兰卡I",
 		tech = 1,
-		speciality = "无",
+		speciality = "なし",
 		type = 99,
 		rarity = 1,
 		value_2 = 0,
 		icon = "1",
 		value_1 = "0",
-		descrip = "航母空袭展示用",
+		descrip = "航空攻撃サンプル用",
 		scatter = "0",
 		nationality = 0,
-		ammo = "无",
+		ammo = "なし",
 		value_3 = 0,
 		id = 60491,
 		torpedo_ammo = 0,
@@ -70070,11 +70451,7 @@ pg.equip_data_statistics = {
 	},
 	[60512] = {
 		name = "航空攻击展示-贝亚恩II",
-		speciality = "なし",
 		base = 60511,
-		descrip = "航空攻撃サンプル用",
-		ammo = "なし",
-		scatter = "0",
 		id = 60512,
 		torpedo_ammo = 0,
 		weapon_id = {
@@ -70084,15 +70461,117 @@ pg.equip_data_statistics = {
 	},
 	[60513] = {
 		name = "航空攻击展示-贝亚恩III",
-		speciality = "なし",
 		base = 60511,
-		descrip = "航空攻撃サンプル用",
-		ammo = "なし",
-		scatter = "0",
 		id = 60513,
 		torpedo_ammo = 0,
 		weapon_id = {
 			60513
+		},
+		property_rate = {}
+	},
+	[60521] = {
+		name = "航空攻击展示-英仙座I",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		scatter = "0",
+		nationality = 0,
+		ammo = "なし",
+		value_3 = 0,
+		id = 60521,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			60521
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60522] = {
+		name = "航空攻击展示-英仙座II",
+		base = 60521,
+		id = 60522,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60522
+		},
+		property_rate = {}
+	},
+	[60523] = {
+		name = "航空攻击展示-英仙座III",
+		base = 60521,
+		id = 60523,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60523
+		},
+		property_rate = {}
+	},
+	[60531] = {
+		name = "航空攻击展示-鹰I",
+		tech = 1,
+		speciality = "なし",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航空攻撃サンプル用",
+		scatter = "0",
+		nationality = 0,
+		ammo = "なし",
+		value_3 = 0,
+		id = 60531,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			60531
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60532] = {
+		name = "航空攻击展示-鹰II",
+		base = 60531,
+		id = 60532,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60532
+		},
+		property_rate = {}
+	},
+	[60533] = {
+		name = "航空攻击展示-鹰III",
+		base = 60531,
+		id = 60533,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60533
 		},
 		property_rate = {}
 	},
@@ -72009,6 +72488,58 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[71026] = {
+		name = "0",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		scatter = "0",
+		nationality = 0,
+		ammo = "なし",
+		value_3 = 0,
+		id = 71026,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			71026
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[71027] = {
+		name = "0",
+		base = 71026,
+		id = 71027,
+		torpedo_ammo = 0,
+		weapon_id = {
+			71027
+		},
+		property_rate = {}
+	},
 	[71071] = {
 		name = "0",
 		tech = 1,
@@ -72571,7 +73102,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[71181] = {
-		name = "全弹发射-格罗斯特级I",
+		name = "0",
 		tech = 1,
 		speciality = "なし",
 		type = 1,
@@ -72613,7 +73144,6 @@ pg.equip_data_statistics = {
 		label = {}
 	},
 	[71182] = {
-		name = "全弹发射-格罗斯特级II",
 		base = 71181,
 		id = 71182,
 		torpedo_ammo = 0,
@@ -78187,6 +78717,58 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			79572
+		},
+		property_rate = {}
+	},
+	[79581] = {
+		name = "专属弹幕-赫敏I",
+		tech = 1,
+		speciality = "なし",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "スキル弾幕",
+		scatter = "0",
+		nationality = 0,
+		ammo = "なし",
+		value_3 = 0,
+		id = 79581,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			79581
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79582] = {
+		name = "专属弹幕-赫敏II",
+		base = 79581,
+		id = 79582,
+		torpedo_ammo = 0,
+		weapon_id = {
+			79582
 		},
 		property_rate = {}
 	},
@@ -88712,6 +89294,17 @@ pg.equip_data_statistics = {
 		2648,
 		2649,
 		2650,
+		2740,
+		2741,
+		2742,
+		2743,
+		2744,
+		2745,
+		2746,
+		2747,
+		2748,
+		2749,
+		2750,
 		2800,
 		2801,
 		2802,
@@ -90401,6 +90994,17 @@ pg.equip_data_statistics = {
 		27308,
 		27309,
 		27310,
+		27320,
+		27321,
+		27322,
+		27323,
+		27324,
+		27325,
+		27326,
+		27327,
+		27328,
+		27329,
+		27330,
 		28000,
 		28001,
 		28002,
@@ -92013,6 +92617,12 @@ pg.equip_data_statistics = {
 		60511,
 		60512,
 		60513,
+		60521,
+		60522,
+		60523,
+		60531,
+		60532,
+		60533,
 		61007,
 		61008,
 		61009,
@@ -92083,6 +92693,8 @@ pg.equip_data_statistics = {
 		71052,
 		71061,
 		71062,
+		71026,
+		71027,
 		71071,
 		71072,
 		71081,
@@ -92325,6 +92937,8 @@ pg.equip_data_statistics = {
 		79562,
 		79571,
 		79572,
+		79581,
+		79582,
 		85000,
 		85001,
 		85002,

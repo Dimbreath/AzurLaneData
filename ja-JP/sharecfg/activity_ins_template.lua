@@ -2298,6 +2298,330 @@ pg.activity_ins_template = {
 			690
 		}
 	},
+	{
+		ship_group = 20227,
+		name = "Howe_Cookies",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "hao",
+		id = 88,
+		group_id = 88,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20606,
+		name = "Per",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yingxianzuo",
+		id = 89,
+		group_id = 89,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20510,
+		name = "Hermione",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "hemin",
+		id = 90,
+		group_id = 90,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20133,
+		name = "Cmdr_Valiant",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yingyong",
+		id = 91,
+		group_id = 91,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20701,
+		name = "Icarus_Wing",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yikaluosi",
+		id = 92,
+		group_id = 92,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20509,
+		name = "Eagle",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "ying",
+		id = 93,
+		group_id = 93,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20509,
+		name = "Per",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yingxianzuo",
+		id = 94,
+		group_id = 94,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20606,
+		name = "Eagle",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "ying",
+		id = 95,
+		group_id = 95,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20701,
+		name = "Hermione",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "hemin",
+		id = 96,
+		group_id = 96,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20227,
+		name = "Icarus_Wing",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yikaluosi",
+		id = 97,
+		group_id = 97,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20133,
+		name = "Cmdr_Valiant",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yingyong",
+		id = 98,
+		group_id = 98,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20510,
+		name = "Howe_Cookies",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "hao",
+		id = 99,
+		group_id = 99,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2385,6 +2709,18 @@ pg.activity_ins_template = {
 		84,
 		85,
 		86,
-		87
+		87,
+		88,
+		89,
+		90,
+		91,
+		92,
+		93,
+		94,
+		95,
+		96,
+		97,
+		98,
+		99
 	}
 }

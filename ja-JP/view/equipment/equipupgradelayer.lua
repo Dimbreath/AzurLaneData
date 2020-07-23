@@ -147,47 +147,67 @@ function slot0.updateAttrs(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	if slot3 then
-		slot6 = slot3:GetPropertiesInfo()
+		Equipment.InsertAttrsUpgrade(slot5.attrs, slot3:GetPropertiesInfo().attrs)
 
-		Equipment.InsertAttrsUpgrade(slot5.attrs, slot6.attrs)
+		if checkExist(slot2:GetSkill(), {
+			"id"
+		}) ~= checkExist(slot3:GetSkill(), {
+			"id"
+		}) then
+			table.insert(slot5.attrs, {
+				lock_open = true,
+				name = i18n("skill"),
+				value = setColorStr(checkExist(slot7, {
+					"name"
+				}) or i18n("equip_info_25"), "#FFDE00FF"),
+				sub = {
+					{
+						name = i18n("equip_info_26"),
+						value = setColorStr(checkExist(slot8, {
+							"name"
+						}) or i18n("equip_info_25"), "#FFDE00FF")
+					}
+				}
+			})
+		end
 
 		if #slot6.weapon.sub > #slot5.weapon.sub then
-			for slot10 = #slot5.weapon.sub, #slot6.weapon.sub do
+			for slot12 = #slot5.weapon.sub, #slot6.weapon.sub do
 				table.insert(slot5.weapon.sub, {
-					name = "nothing",
+					name = i18n("equip_info_25"),
 					sub = {}
 				})
 			end
 		end
 
-		for slot10 = #slot5.weapon.sub, 1, -1 do
-			slot11 = slot5.weapon.sub[slot10]
+		for slot12 = #slot5.weapon.sub, 1, -1 do
+			slot13 = slot5.weapon.sub[slot12]
 
-			if slot6.weapon.sub[slot10] then
-				uv0(slot6.weapon.sub[slot10])
+			if slot6.weapon.sub[slot12] then
+				uv0(slot6.weapon.sub[slot12])
 			else
-				slot12 = {
-					name = "nothing",
+				slot14 = {
+					name = i18n("equip_info_25"),
 					sub = {}
 				}
 			end
 
-			if slot11.name ~= slot12.name then
-				slot11.sub = {
+			if slot13.name ~= slot14.name then
+				slot13.sub = {
 					{
-						name = "weapon change",
-						value = slot12.name
+						name = i18n("equip_info_27"),
+						value = slot14.name
 					}
 				}
 			else
-				Equipment.InsertAttrsUpgrade(slot11.sub, slot12.sub)
+				Equipment.InsertAttrsUpgrade(slot13.sub, slot14.sub)
 			end
 
-			if #slot11.sub == 0 then
-				table.remove(slot5.weapon.sub, slot10)
+			if #slot13.sub == 0 then
+				table.remove(slot5.weapon.sub, slot12)
 
-				if slot6.weapon.sub[slot10] then
-					table.remove(slot6.weapon.sub, slot10)
+				if slot6.weapon.sub[slot12] then
+					table.remove(slot6.weapon.sub, slot12)
 				end
 			end
 		end

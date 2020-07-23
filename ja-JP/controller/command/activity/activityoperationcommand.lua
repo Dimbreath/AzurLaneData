@@ -62,15 +62,8 @@ function slot0.execute(slot0, slot1)
 				end
 			elseif uv3 == 17 then
 				pg.TipsMgr.GetInstance():ShowTips("错误!:" .. slot0.result)
-			elseif uv3 == ActivityConst.ACTIVITY_TYPE_DODGEM then
-				if uv1.cmd == 1 then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("金币船数据提交失败"))
-					uv0:sendNotification(GAME.FINISH_STAGE_DONE, {
-						statistics = uv1.statistics,
-						score = uv1.statistics._battleScore,
-						system = SYSTEM_DODGEM
-					})
-				end
+			elseif uv3 == ActivityConst.ACTIVITY_TYPE_FRESH_TEC_CATCHUP then
+				-- Nothing
 			elseif slot0.result == 3 or slot0.result == 4 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 			else

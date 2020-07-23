@@ -868,6 +868,9 @@ pg.gametip = {
 	word_facility = {
 		tip = "设施"
 	},
+	word_cv_key_main = {
+		tip = "メイン"
+	},
 	channel_name_1 = {
 		tip = "全部"
 	},
@@ -6147,7 +6150,7 @@ No.3 リトル・イラストリアス
 		tip = "次の段階は目玉報酬を全部交換したことで開放されます"
 	},
 	shop_street_activity_tip = {
-		tip = "*<color=#A1E400FF>20.5.21-20.6.2</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します"
+		tip = "*<color=#A1E400FF>20.7.23-20.8.5</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します"
 	},
 	twitter_link_title = {
 		tip = "連携中のツイッター：$1"
@@ -7206,7 +7209,7 @@ No.3 リトル・イラストリアス
 		tip = "アビリティPtが不足しています"
 	},
 	buildship_new_tip = {
-		tip = "「リシュリュー」、「アルジェリー」 、「ヴォークラン」の出現率UP！"
+		tip = "「パーシュース」「ハウ」「イーグル」などが出現率UP！"
 	},
 	buildship_heavy_tip = {
 		tip = "「長門」、「鈴谷」常設実装！"
@@ -8659,13 +8662,13 @@ No.3 リトル・イラストリアス
 		tip = "勲章展示設定を変更しました"
 	},
 	limit_skin_time_day = {
-		tip = "殘り時間:$1日"
+		tip = "殘り:$1日"
 	},
 	limit_skin_time_day_min = {
-		tip = "殘り時間:$1時間$2"
+		tip = "殘り:$1時間$2分"
 	},
 	limit_skin_time_min = {
-		tip = "殘り時間:$1分"
+		tip = "殘り:$1分"
 	},
 	limit_skin_time_overtime = {
 		tip = "利用期間外です"
@@ -11287,6 +11290,15 @@ GET!
 	equip_info_24 = {
 		tip = "搭載兵装"
 	},
+	equip_info_25 = {
+		tip = "-"
+	},
+	equip_info_26 = {
+		tip = "強化後スキル"
+	},
+	equip_info_27 = {
+		tip = ""
+	},
 	tec_settings_btn_word = {
 		tip = "指向設定"
 	},
@@ -11383,5 +11395,8 @@ GET!
 	},
 	tec_act_catchup_btn_word = {
 		tip = "強化イベント"
+	},
+	tec_catchup_errorfix = {
+		tip = "「科学研究・一期」の特殊任務は1回だけ復活します。（既に2回クリアした場合、特殊任務は復活しません）"
 	}
 }

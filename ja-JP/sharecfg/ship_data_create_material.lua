@@ -68,15 +68,17 @@ pg.ship_data_create_material = {
 		rate_tip = {
 			"<color=#ffde38>SSレア</color>：7%",
 			"<color=#d797ff>Sレア</color>：12%",
-			"<color=#3dc6ff>レア</color>：51%",
+			"<color=#3dc6ff>Rレア</color>：51%",
 			"ノーマル：30%",
-			"<color=#ffde38>リシュリュー</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>パーシュース</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>アルジェリー</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>ハウ</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>ジャンヌ・ダルク</color>：0.5%",
+			"<color=#ffde38>ハーマイオニー</color>：0.5%",
 			" ",
-			"<color=#d797ff>ヴォークラン</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>ヴァリアント</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>イーグル</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

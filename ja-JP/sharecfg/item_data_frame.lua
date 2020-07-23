@@ -157,7 +157,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 309,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>後日イベントで入手可能</color>",
+		desc = "<color=#ffffff>王家と、女王陛下の栄光のために！  </color>\n――「極夜照らす幻光 」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {

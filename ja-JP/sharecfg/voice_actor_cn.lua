@@ -931,5 +931,21 @@ pg.voice_actor_CN = {
 	[238] = {
 		actor_name = "牧野由依",
 		code = 238
+	},
+	[239] = {
+		actor_name = "水沢史絵",
+		code = 239
+	},
+	[240] = {
+		actor_name = "西明日香",
+		code = 240
+	},
+	[241] = {
+		actor_name = "大空直美",
+		code = 241
+	},
+	[242] = {
+		actor_name = "田口宏子",
+		code = 242
 	}
 }
