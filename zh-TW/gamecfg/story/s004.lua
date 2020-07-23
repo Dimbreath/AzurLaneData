@@ -83,7 +83,7 @@ return {
 			actorName = "歐根親王",
 			nameColor = "#ff0000",
 			side = 1,
-			say = "哎呀——真是沒辦法，對面的小綿羊們~我們以後再見咯",
+			say = "哎呀——真是沒辦法，對面的小綿羊們~我們以後再見囉",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

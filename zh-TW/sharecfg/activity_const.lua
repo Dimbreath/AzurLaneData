@@ -616,10 +616,10 @@ pg.activity_const = {
 		act_id = 623
 	},
 	SUMMER_REMAKE = {
-		act_id = 40034
+		act_id = 40147
 	},
 	SUMMER_REMAKEPT = {
-		act_id = 40035
+		act_id = 40151
 	},
 	WUDAOLOGIN_ID = {
 		act_id = 30186

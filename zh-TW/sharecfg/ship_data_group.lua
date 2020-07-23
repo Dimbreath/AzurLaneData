@@ -7106,6 +7106,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[175] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 213,
+		group_type = 30125,
+		code = 175,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"月度簽到",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[176] = {
 		type = 1,
 		trans_skin = 0,
@@ -9778,6 +9809,68 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[237] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 311,
+		group_type = 40125,
+		code = 237,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"B",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：異色格",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[345] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 312,
+		group_type = 40135,
+		code = 345,
+		property_hexagon = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"B",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：異色格",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[267] = {
 		type = 1,
 		trans_skin = 0,
@@ -10288,6 +10381,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[343] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 330,
+		group_type = 40802,
+		code = 343,
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：異色格",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[341] = {
 		type = 8,
 		trans_skin = 0,
@@ -10378,6 +10502,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時建造",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[344] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 337,
+		group_type = 40803,
+		code = 344,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：異色格",
 				{
 					""
 				},
@@ -11258,6 +11413,7 @@ pg.ship_data_group = {
 		162,
 		171,
 		173,
+		175,
 		176,
 		163,
 		165,
@@ -11334,6 +11490,8 @@ pg.ship_data_group = {
 		265,
 		266,
 		236,
+		237,
+		345,
 		267,
 		238,
 		239,
@@ -11347,9 +11505,11 @@ pg.ship_data_group = {
 		249,
 		251,
 		252,
+		343,
 		341,
 		399,
 		400,
+		344,
 		253,
 		254,
 		255,

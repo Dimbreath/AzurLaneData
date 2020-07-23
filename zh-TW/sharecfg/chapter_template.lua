@@ -79125,7 +79125,7 @@ pg.chapter_template = {
 		name = "開局|~Openings~",
 		chapter_name = "A1",
 		type = 1,
-		act_id = 0,
+		act_id = 40147,
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
@@ -79283,10 +79283,6 @@ pg.chapter_template = {
 			{
 				2,
 				54022
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -79598,8 +79594,8 @@ pg.chapter_template = {
 			"sea_daxuanwo",
 			45,
 			22,
-			50,
-			-50,
+			-15,
+			-65,
 			100,
 			100,
 			4,
@@ -79678,8 +79674,8 @@ pg.chapter_template = {
 		name = "出子|~Development~",
 		chapter_name = "A2",
 		type = 1,
-		act_id = 0,
-		enter_story = "",
+		act_id = 40147,
+		enter_story = "TACT20016",
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -79836,10 +79832,6 @@ pg.chapter_template = {
 			{
 				2,
 				54022
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -80291,8 +80283,8 @@ pg.chapter_template = {
 			"sea_daxuanwo",
 			45,
 			22,
-			50,
-			-50,
+			85,
+			0,
 			100,
 			100,
 			4,
@@ -80371,7 +80363,7 @@ pg.chapter_template = {
 		name = "主動權|~Initiative~",
 		chapter_name = "A3",
 		type = 1,
-		act_id = 0,
+		act_id = 40147,
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
@@ -80531,10 +80523,6 @@ pg.chapter_template = {
 			{
 				2,
 				54022
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -80950,8 +80938,8 @@ pg.chapter_template = {
 			"sea_daxuanwo",
 			45,
 			22,
-			50,
-			-55,
+			2,
+			44,
 			100,
 			100,
 			4,
@@ -81031,7 +81019,7 @@ pg.chapter_template = {
 		name = "升變|~Promotion~",
 		chapter_name = "A4",
 		type = 1,
-		act_id = 0,
+		act_id = 40147,
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
@@ -81191,10 +81179,6 @@ pg.chapter_template = {
 			{
 				2,
 				54022
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -81724,10 +81708,10 @@ pg.chapter_template = {
 		},
 		theme = {
 			"sea_daxuanwo",
-			42,
-			16,
-			50,
-			0,
+			45,
+			22,
+			59,
+			-10,
 			100,
 			100,
 			4,
@@ -81809,7 +81793,7 @@ pg.chapter_template = {
 		name = "交匯點|~Transposition~",
 		chapter_name = "B1",
 		type = 1,
-		act_id = 0,
+		act_id = 40147,
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
@@ -81969,10 +81953,6 @@ pg.chapter_template = {
 			{
 				2,
 				54023
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -82302,8 +82282,8 @@ pg.chapter_template = {
 			"sea_daxuanwo",
 			45,
 			22,
-			-150,
-			-50,
+			-155,
+			-13,
 			100,
 			100,
 			4,
@@ -82382,7 +82362,7 @@ pg.chapter_template = {
 		name = "引離|~Deflection~",
 		chapter_name = "B2",
 		type = 1,
-		act_id = 0,
+		act_id = 40147,
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
@@ -82542,10 +82522,6 @@ pg.chapter_template = {
 			{
 				2,
 				54023
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -82880,10 +82856,10 @@ pg.chapter_template = {
 		},
 		theme = {
 			"sea_daxuanwo",
-			39,
-			15,
-			0,
-			120,
+			45,
+			22,
+			-250,
+			167,
 			100,
 			100,
 			4,
@@ -82963,7 +82939,7 @@ pg.chapter_template = {
 		name = "過載|~Overworked~",
 		chapter_name = "B3",
 		type = 1,
-		act_id = 0,
+		act_id = 40147,
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
@@ -83123,10 +83099,6 @@ pg.chapter_template = {
 			{
 				2,
 				54023
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -83518,8 +83490,8 @@ pg.chapter_template = {
 			"sea_daxuanwo",
 			45,
 			20,
-			-20,
-			110,
+			-70,
+			111,
 			100,
 			100,
 			4,
@@ -83599,8 +83571,8 @@ pg.chapter_template = {
 		name = "將殺|~Checkmate~",
 		chapter_name = "B4",
 		type = 1,
-		act_id = 0,
-		enter_story = "",
+		act_id = 40147,
+		enter_story = "TACT20015",
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -83759,10 +83731,6 @@ pg.chapter_template = {
 			{
 				2,
 				54023
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -84309,10 +84277,10 @@ pg.chapter_template = {
 		},
 		theme = {
 			"sea_daxuanwo",
-			38,
-			17,
-			60,
-			220,
+			45,
+			22,
+			0,
+			270,
 			100,
 			100,
 			4,
@@ -84391,7 +84359,7 @@ pg.chapter_template = {
 		name = "開局|~Openings~",
 		chapter_name = "C1",
 		type = 2,
-		act_id = 0,
+		act_id = 40147,
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
@@ -84590,10 +84558,6 @@ pg.chapter_template = {
 			{
 				2,
 				54024
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -84905,8 +84869,8 @@ pg.chapter_template = {
 			"sea_daxuanwo",
 			45,
 			22,
-			50,
-			-50,
+			-15,
+			-65,
 			100,
 			100,
 			4,
@@ -84985,8 +84949,8 @@ pg.chapter_template = {
 		name = "出子|~Development~",
 		chapter_name = "C2",
 		type = 2,
-		act_id = 0,
-		enter_story = "",
+		act_id = 40147,
+		enter_story = "TACT20016",
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -85186,10 +85150,6 @@ pg.chapter_template = {
 			{
 				2,
 				54024
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -85641,8 +85601,8 @@ pg.chapter_template = {
 			"sea_daxuanwo",
 			45,
 			22,
-			50,
-			-50,
+			85,
+			0,
 			100,
 			100,
 			4,
@@ -85721,7 +85681,7 @@ pg.chapter_template = {
 		name = "主動權|~Initiative~",
 		chapter_name = "C3",
 		type = 2,
-		act_id = 0,
+		act_id = 40147,
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
@@ -85925,10 +85885,6 @@ pg.chapter_template = {
 			},
 			{
 				2,
-				59111
-			},
-			{
-				2,
 				59001
 			}
 		},
@@ -86341,8 +86297,8 @@ pg.chapter_template = {
 			"sea_daxuanwo",
 			45,
 			22,
-			50,
-			-55,
+			2,
+			44,
 			100,
 			100,
 			4,
@@ -86422,7 +86378,7 @@ pg.chapter_template = {
 		name = "升變|~Promotion~",
 		chapter_name = "C4",
 		type = 2,
-		act_id = 0,
+		act_id = 40147,
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
@@ -86623,10 +86579,6 @@ pg.chapter_template = {
 			{
 				2,
 				54024
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -87156,10 +87108,10 @@ pg.chapter_template = {
 		},
 		theme = {
 			"sea_daxuanwo",
-			42,
-			16,
-			50,
-			0,
+			45,
+			22,
+			59,
+			-10,
 			100,
 			100,
 			4,
@@ -87241,7 +87193,7 @@ pg.chapter_template = {
 		name = "交匯點|~Transposition~",
 		chapter_name = "D1",
 		type = 2,
-		act_id = 0,
+		act_id = 40147,
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
@@ -87442,10 +87394,6 @@ pg.chapter_template = {
 			{
 				2,
 				54024
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -87775,8 +87723,8 @@ pg.chapter_template = {
 			"sea_daxuanwo",
 			45,
 			22,
-			-150,
-			-50,
+			-155,
+			-13,
 			100,
 			100,
 			4,
@@ -87855,7 +87803,7 @@ pg.chapter_template = {
 		name = "引離|~Deflection~",
 		chapter_name = "D2",
 		type = 2,
-		act_id = 0,
+		act_id = 40147,
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
@@ -88056,10 +88004,6 @@ pg.chapter_template = {
 			{
 				2,
 				54024
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -88394,10 +88338,10 @@ pg.chapter_template = {
 		},
 		theme = {
 			"sea_daxuanwo",
-			39,
-			15,
-			0,
-			120,
+			45,
+			22,
+			-250,
+			167,
 			100,
 			100,
 			4,
@@ -88477,7 +88421,7 @@ pg.chapter_template = {
 		name = "過載|~Overworked~",
 		chapter_name = "D3",
 		type = 2,
-		act_id = 0,
+		act_id = 40147,
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
@@ -88678,10 +88622,6 @@ pg.chapter_template = {
 			{
 				2,
 				54024
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -89073,8 +89013,8 @@ pg.chapter_template = {
 			"sea_daxuanwo",
 			45,
 			20,
-			-20,
-			110,
+			-70,
+			111,
 			100,
 			100,
 			4,
@@ -89154,8 +89094,8 @@ pg.chapter_template = {
 		name = "將殺|~Checkmate~",
 		chapter_name = "D4",
 		type = 2,
-		act_id = 0,
-		enter_story = "",
+		act_id = 40147,
+		enter_story = "TACT20015",
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
@@ -89355,10 +89295,6 @@ pg.chapter_template = {
 			{
 				2,
 				54024
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -89905,10 +89841,10 @@ pg.chapter_template = {
 		},
 		theme = {
 			"sea_daxuanwo",
-			38,
-			17,
-			60,
-			220,
+			45,
+			22,
+			0,
+			270,
 			100,
 			100,
 			4,
@@ -89970,7 +89906,7 @@ pg.chapter_template = {
 		icon_outline = 0,
 		bg = "",
 		bgm = "",
-		pre_chapter = 0,
+		pre_chapter = 1120018,
 		chapter_tag = 0,
 		pop_pic = "",
 		wall_prefab = "",
@@ -89987,7 +89923,7 @@ pg.chapter_template = {
 		name = "異色的終局|~Ending~",
 		chapter_name = "EXTRA",
 		type = 2,
-		act_id = 0,
+		act_id = 40147,
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
@@ -90345,10 +90281,10 @@ pg.chapter_template = {
 		},
 		theme = {
 			"sea_daxuanwo",
-			64,
-			21,
-			100,
-			80,
+			45,
+			23,
+			-100,
+			156,
 			100,
 			100,
 			4,

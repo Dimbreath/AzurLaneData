@@ -74,5 +74,8 @@ pg.voice_bgm = {
 	},
 	FriendScene = {
 		bgm = "main"
+	},
+	ShipBluePrintScene = {
+		bgm = "main"
 	}
 }

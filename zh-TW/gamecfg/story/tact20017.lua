@@ -50,7 +50,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "…被發現了，聲呐完全沒有收到警告",
+			say = "…被發現了，聲納完全沒有收到警告",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

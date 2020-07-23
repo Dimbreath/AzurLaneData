@@ -38,16 +38,19 @@ return {
 		return uv0(uv1(slot1 - slot0, slot3 and slot3 - slot2 or slot2 - slot0))
 	end,
 	IsRectCross = function (slot0, slot1, slot2, slot3)
-		return math.min(slot0.x, slot1.x) <= math.max(slot2.x, slot3.x) and math.min(slot2.x, slot3.x) <= math.max(slot0.x, slot1.x) and math.min(slot0.y, slot1.y) <= math.max(slot2.y, slot3.y) and math.min(slot2.y, slot3.y) <= math.max(slot0.y, slot1.y)
+		slot4, slot5 = uv0(slot0, slot1)
+		slot6, slot7 = uv0(slot2, slot3)
+
+		return slot4.x <= slot7.x and slot6.x <= slot5.x and slot4.y <= slot7.y and slot6.y <= slot5.y
 	end,
 	GetCrossPoint = function (slot0, slot1, slot2, slot3)
-		slot4, slot5 = IsSegamentTouch(slot0, slot1, slot2, slot3)
+		slot4, slot5 = uv0(slot0, slot1, slot2, slot3)
 
 		if not slot4 then
 			return false
 		end
 
-		if uv0((slot1.x - slot0.x) * (slot3.y - slot2.y) - (slot1.y - slot0.y) * (slot3.x - slot2.x)) then
+		if uv1((slot1.x - slot0.x) * (slot3.y - slot2.y) - (slot1.y - slot0.y) * (slot3.x - slot2.x)) then
 			return false
 		end
 

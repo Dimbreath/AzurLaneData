@@ -549,10 +549,11 @@ pg.activity_template = {
 	},
 	[338] = {
 		mark = 20190718,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 11,
+		is_show = 4,
 		title_res_tag = "i56",
 		id = 338,
 		config_data = {
@@ -583,33 +584,6 @@ pg.activity_template = {
 			{
 				14802,
 				14803
-			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					7,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -1328,6 +1302,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[2016] = {
+		mark = 20180809,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5201,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2016,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	[2018] = {
 		mark = 20188030,
 		page_info = "",
@@ -1339,6 +1329,22 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 2018,
+		config_data = {
+			0,
+			{}
+		}
+	},
+	[2019] = {
+		mark = 20180906,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5231,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2019,
 		config_data = {
 			0,
 			{}
@@ -4515,6 +4521,7 @@ pg.activity_template = {
 	},
 	[40139] = {
 		mark = 20200624,
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 40139,
@@ -4522,33 +4529,6 @@ pg.activity_template = {
 		title_res_tag = "tianchengptfk",
 		id = 40139,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "TianChengPTRePage",
 			ui_name = "TianChengPTRePage"
@@ -4560,6 +4540,7 @@ pg.activity_template = {
 	[40140] = {
 		mark = 20200624,
 		page_info = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -4582,33 +4563,6 @@ pg.activity_template = {
 			667,
 			668,
 			669
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_tianchengfk",
@@ -4703,6 +4657,7 @@ pg.activity_template = {
 	[40145] = {
 		mark = 20200709,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -4710,14 +4665,44 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 40145,
-		config_data = {},
+		config_data = {}
+	},
+	[40146] = {
+		mark = 20200723,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 40146,
+		config_data = {
+			5138,
+			5139,
+			5140,
+			5141,
+			5142,
+			5143,
+			5144,
+			5145,
+			5146,
+			5147,
+			5148,
+			5149,
+			5150,
+			5151,
+			5152,
+			5153,
+			5154,
+			5155
+		},
 		time = {
 			timer,
 			{
 				{
 					2020,
 					7,
-					9
+					23
 				},
 				{
 					0,
@@ -4728,8 +4713,352 @@ pg.activity_template = {
 			{
 				{
 					2020,
+					8,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_fengshan",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			pt_id = 102,
+			painting = "tierbici_pt"
+		}
+	},
+	[40147] = {
+		mark = 20200723,
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 11,
+		title_res_tag = "yisegeTW",
+		id = 40147,
+		config_data = {
+			1120001,
+			1120002,
+			1120003,
+			1120004,
+			1120005,
+			1120006,
+			1120007,
+			1120008,
+			1120011,
+			1120012,
+			1120013,
+			1120014,
+			1120015,
+			1120016,
+			1120017,
+			1120018
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
 					7,
 					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SummerRemakePage",
+			ui_name = "summerremakepage"
+		},
+		config_client = {
+			prevs = {
+				1120001,
+				1120011
+			}
+		}
+	},
+	[40148] = {
+		mark = 20200723,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 102,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 40148,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40149] = {
+		mark = 20200723,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 40149,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40150] = {
+		mark = 20200723,
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 40150,
+		config_data = {
+			1000331,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40151] = {
+		mark = 20200723,
+		type = 54,
+		login_pop = 0,
+		config_id = 40151,
+		is_show = 9,
+		title_res_tag = "yisegeTWpt",
+		id = 40151,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SummerRemakePTPage",
+			ui_name = "summerremakeptpage"
+		},
+		config_client = {
+			linkActID = 40147
+		}
+	},
+	[40152] = {
+		mark = 20200723,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 40152,
+		config_data = {
+			80168
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40153] = {
+		mark = 20200723,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 40153,
+		config_data = {
+			80148,
+			80149,
+			80150,
+			80151,
+			80152,
+			80153,
+			80154,
+			80155,
+			80156,
+			80157,
+			80158,
+			80159,
+			80160,
+			80161,
+			80162,
+			80163,
+			80164,
+			80165,
+			80166,
+			80167
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					6
 				},
 				{
 					23,
@@ -4802,7 +5131,9 @@ pg.activity_template = {
 		2013,
 		2014,
 		2015,
+		2016,
 		2018,
+		2019,
 		2023,
 		2025,
 		2026,
@@ -4949,6 +5280,14 @@ pg.activity_template = {
 		40143,
 		40144,
 		40145,
+		40146,
+		40147,
+		40148,
+		40149,
+		40150,
+		40151,
+		40152,
+		40153,
 		45000
 	}
 }

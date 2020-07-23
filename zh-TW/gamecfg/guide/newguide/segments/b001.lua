@@ -27,7 +27,7 @@ return {
 				"ShowStick"
 			},
 			style = {
-				text = "新兵，讓我來教妳如何控制艦隊吧",
+				text = "新兵，讓我來教你如何控制艦隊吧",
 				mode = 2,
 				dir = 1,
 				posY = 0,

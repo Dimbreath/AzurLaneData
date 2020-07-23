@@ -866,6 +866,7 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			30121,
 			30123,
+			30125,
 			30126
 		}
 	},
@@ -1308,7 +1309,19 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 115,
 		nation = 4,
 		ships = {
-			40123
+			40123,
+			40125
+		}
+	},
+	[40104] = {
+		shiptype = 1,
+		name = "1936B型",
+		t_level = 7,
+		id = 40104,
+		t_level_1 = 116,
+		nation = 4,
+		ships = {
+			40135
 		}
 	},
 	[40105] = {
@@ -1423,6 +1436,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 126,
 		nation = 4,
 		ships = {
+			40802,
 			40806
 		}
 	},
@@ -1434,7 +1448,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 127,
 		nation = 4,
 		ships = {
-			40801
+			40801,
+			40803
 		}
 	},
 	[40803] = {
@@ -1693,6 +1708,7 @@ pg.fleet_tech_ship_class = {
 		40101,
 		40102,
 		40103,
+		40104,
 		40105,
 		40201,
 		40202,

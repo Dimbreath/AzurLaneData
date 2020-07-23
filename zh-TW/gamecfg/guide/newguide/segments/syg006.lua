@@ -47,7 +47,7 @@ return {
 		{
 			alpha = 0.442,
 			style = {
-				text = "在這裏就能編組第二艦隊啦",
+				text = "在這裡就能編組第二艦隊啦",
 				mode = 2,
 				dir = -1,
 				posY = 121.8,

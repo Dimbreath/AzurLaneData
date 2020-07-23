@@ -33632,6 +33632,11 @@ pg.item_data_statistics = {
 			},
 			{
 				4,
+				401351,
+				1
+			},
+			{
+				4,
 				401011,
 				1
 			},
@@ -34660,6 +34665,11 @@ pg.item_data_statistics = {
 			{
 				4,
 				403041,
+				1
+			},
+			{
+				4,
+				401351,
 				1
 			},
 			{
@@ -57474,7 +57484,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59103] = {
-		display = "用於夏日活動兌換，活動結束後將會消失",
+		display = "用於『異色格』活動兌換，活動結束後將會消失",
 		rarity = 2,
 		type = 98,
 		drop_oil_max = 0,
@@ -57485,7 +57495,7 @@ pg.item_data_statistics = {
 		virtual_type = 0,
 		link_id = 0,
 		id = 59103,
-		icon = "Props/pt",
+		icon = "Props/yisegefuke_pt",
 		replace_item = 0,
 		display_icon = {},
 		price = {},
@@ -57935,6 +57945,24 @@ pg.item_data_statistics = {
 		virtual_type = 0,
 		link_id = 0,
 		id = 59156,
+		icon = "Props/skinTicket",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59159] = {
+		display = "用於『限時體驗商店』兌換角色限時換裝，2020年8月5日後將無法使用 ",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "換裝體驗券",
+		shop_id = 1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59159,
 		icon = "Props/skinTicket",
 		replace_item = 0,
 		display_icon = {},
@@ -61269,6 +61297,7 @@ pg.item_data_statistics = {
 		59150,
 		59152,
 		59156,
+		59159,
 		59601,
 		59602,
 		59603,

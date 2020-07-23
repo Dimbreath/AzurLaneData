@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900010,
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			say = "妹妹……對不起……",
 			flashout = {
 				dur = 1,
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900010,
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			say = "請原諒，我所做的一切……",
 			typewriter = {
 				speed = 0.05,
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指揮官，妳來了。",
+			say = "啊，指揮官，你來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			},
 			options = {
 				{
-					content = "接過材料",
+					content = "接過資料",
 					flag = 1
 				}
 			}

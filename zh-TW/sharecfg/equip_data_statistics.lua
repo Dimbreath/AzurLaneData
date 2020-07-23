@@ -1593,6 +1593,17 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[215] = {
+		name = "皇家雷击轻巡副炮T4（德雷克模拟关卡用）",
+		damage = "6 x 2",
+		base = 211,
+		id = 215,
+		torpedo_ammo = 0,
+		weapon_id = {
+			215
+		},
+		property_rate = {}
+	},
 	[221] = {
 		name = "重櫻雷擊輕巡副炮T1",
 		speciality = "鎖定",
@@ -2444,6 +2455,171 @@ pg.equip_data_statistics = {
 			"CL",
 			"MG",
 			"AP"
+		}
+	},
+	[433] = {
+		name = "四联装533mm磁性鱼雷（模拟展示用）",
+		speciality = "雷击",
+		type = 5,
+		tech = 3,
+		descrip = "四联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
+		value_2 = 45,
+		icon = "1",
+		attribute_2 = "torpedo",
+		scatter = "50°",
+		rarity = 5,
+		damage = "145 x 4",
+		nationality = 4,
+		ammo = "声导",
+		value_3 = 0,
+		id = 433,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				3,
+				1803
+			}
+		},
+		equip_info = {
+			{
+				3,
+				1803
+			},
+			{
+				4,
+				1403
+			},
+			6
+		},
+		weapon_id = {
+			433
+		},
+		skill_id = {},
+		part_main = {
+			1,
+			2,
+			3,
+			18
+		},
+		part_sub = {
+			1,
+			2,
+			3,
+			18
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP",
+			"QUAD"
+		}
+	},
+	[434] = {
+		name = "试作型三联装234mm主炮（模拟展示用）",
+		speciality = "锁定",
+		type = 3,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 65,
+		icon = "1",
+		attribute_2 = "cannon",
+		scatter = "26°",
+		rarity = 6,
+		damage = "35 x 6",
+		nationality = 2,
+		ammo = "通常弹",
+		value_3 = 0,
+		id = 434,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1418
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1418
+			},
+			{
+				4,
+				1222
+			},
+			6
+		},
+		weapon_id = {
+			434
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CA",
+			"MG",
+			"CM"
+		}
+	},
+	[435] = {
+		name = "皇家雷击轻巡副炮T4（模拟展示用）",
+		speciality = "锁定",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		scatter = "无",
+		damage = "10 x 4",
+		nationality = 0,
+		ammo = "通常",
+		value_3 = 0,
+		id = 435,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			435
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
 		}
 	},
 	[500] = {
@@ -75062,6 +75238,7 @@ pg.equip_data_statistics = {
 		212,
 		213,
 		214,
+		215,
 		221,
 		222,
 		223,
@@ -75100,6 +75277,9 @@ pg.equip_data_statistics = {
 		374,
 		431,
 		432,
+		433,
+		434,
+		435,
 		500,
 		501,
 		502,

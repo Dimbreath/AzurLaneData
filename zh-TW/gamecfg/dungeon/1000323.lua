@@ -250,6 +250,16 @@ return {
 					}
 				},
 				{
+					triggerType = 3,
+					waveIndex = 503,
+					preWaves = {
+						501
+					},
+					triggerParams = {
+						id = "TACT20017"
+					}
+				},
+				{
 					triggerType = 1,
 					key = true,
 					waveIndex = 206,

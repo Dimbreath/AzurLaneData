@@ -2888,6 +2888,24 @@ pg.fleet_tech_ship_template = {
 			1
 		}
 	},
+	[30125] = {
+		max_star = 5,
+		pt_level = 6,
+		add_level_attr = 6,
+		pt_upgrage = 8,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 30106,
+		id = 30125,
+		add_get_value = 1,
+		pt_get = 4,
+		add_get_shiptype = {
+			1
+		},
+		add_level_shiptype = {
+			1
+		}
+	},
 	[30126] = {
 		max_star = 5,
 		pt_level = 6,
@@ -4396,6 +4414,42 @@ pg.fleet_tech_ship_template = {
 			1
 		}
 	},
+	[40125] = {
+		max_star = 5,
+		pt_level = 20,
+		add_level_attr = 2,
+		pt_upgrage = 28,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 40103,
+		id = 40125,
+		add_get_value = 1,
+		pt_get = 14,
+		add_get_shiptype = {
+			1
+		},
+		add_level_shiptype = {
+			1
+		}
+	},
+	[40135] = {
+		max_star = 5,
+		pt_level = 24,
+		add_level_attr = 2,
+		pt_upgrage = 32,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 40104,
+		id = 40135,
+		add_get_value = 1,
+		pt_get = 16,
+		add_get_shiptype = {
+			1
+		},
+		add_level_shiptype = {
+			1
+		}
+	},
 	[40146] = {
 		max_star = 6,
 		pt_level = 32,
@@ -4659,6 +4713,42 @@ pg.fleet_tech_ship_template = {
 		id = 40801,
 		add_get_value = 1,
 		pt_get = 12,
+		add_get_shiptype = {
+			8
+		},
+		add_level_shiptype = {
+			8
+		}
+	},
+	[40802] = {
+		max_star = 6,
+		pt_level = 16,
+		add_level_attr = 3,
+		pt_upgrage = 20,
+		add_get_attr = 8,
+		add_level_value = 2,
+		class = 40801,
+		id = 40802,
+		add_get_value = 1,
+		pt_get = 10,
+		add_get_shiptype = {
+			8
+		},
+		add_level_shiptype = {
+			8
+		}
+	},
+	[40803] = {
+		max_star = 5,
+		pt_level = 12,
+		add_level_attr = 3,
+		pt_upgrage = 16,
+		add_get_attr = 9,
+		add_level_value = 1,
+		class = 40802,
+		id = 40803,
+		add_get_value = 2,
+		pt_get = 8,
 		add_get_shiptype = {
 			8
 		},
@@ -5171,6 +5261,7 @@ pg.fleet_tech_ship_template = {
 		30120,
 		30121,
 		30123,
+		30125,
 		30126,
 		30127,
 		30128,
@@ -5250,6 +5341,8 @@ pg.fleet_tech_ship_template = {
 		40120,
 		40121,
 		40123,
+		40125,
+		40135,
 		40146,
 		40201,
 		40202,
@@ -5264,6 +5357,8 @@ pg.fleet_tech_ship_template = {
 		40502,
 		40701,
 		40801,
+		40802,
+		40803,
 		40806,
 		40807,
 		49901,

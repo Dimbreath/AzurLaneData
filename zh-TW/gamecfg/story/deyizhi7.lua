@@ -287,7 +287,7 @@ return {
 			},
 			options = {
 				{
-					content = "表扬",
+					content = "表揚",
 					flag = 1
 				}
 			}
@@ -369,7 +369,7 @@ return {
 			}
 		},
 		{
-			say = "啊……是啊，我曾經有過另一個名字，那個名字叫做“呂佐夫”。",
+			say = "啊……是啊，我曾經有過另一個名字，那個名字叫做“呂佐”。",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,

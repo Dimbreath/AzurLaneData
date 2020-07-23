@@ -92,6 +92,7 @@ pg.memory_group = {
 		memories = {
 			35,
 			36,
+			4001,
 			37,
 			38,
 			39,
@@ -104,7 +105,9 @@ pg.memory_group = {
 			46,
 			47,
 			48,
+			4000,
 			49,
+			4002,
 			50
 		}
 	},
@@ -753,6 +756,21 @@ pg.memory_group = {
 			370
 		}
 	},
+	[518] = {
+		title = "融冰",
+		type = 3,
+		id = 518,
+		icon = "title_chara_tierbici",
+		memories = {
+			387,
+			388,
+			389,
+			390,
+			391,
+			392,
+			393
+		}
+	},
 	[520] = {
 		title = "{namecode:71}的宴會",
 		type = 3,
@@ -766,6 +784,21 @@ pg.memory_group = {
 			415,
 			416,
 			417
+		}
+	},
+	[521] = {
+		title = "德意志的憂鬱",
+		type = 3,
+		id = 521,
+		icon = "title_chara_deyizhi",
+		memories = {
+			418,
+			419,
+			420,
+			421,
+			422,
+			423,
+			424
 		}
 	},
 	[525] = {
@@ -1011,7 +1044,9 @@ pg.memory_group = {
 		515,
 		516,
 		517,
+		518,
 		520,
+		521,
 		525,
 		527,
 		528,

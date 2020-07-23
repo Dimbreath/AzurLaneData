@@ -51,7 +51,7 @@ return {
 			dir = -1,
 			actor = 900011,
 			nameColor = "#ff0000",
-			say = "放心，在風暴螺旋持續的情況下，他們是無法離開「鏡面海域」的",
+			say = "放心，在風暴螺旋持續的情況下，她們是無法離開「鏡面海域」的",
 			shake = {
 				speed = 1,
 				number = 3
@@ -71,7 +71,7 @@ return {
 			dir = -1,
 			actor = 900011,
 			nameColor = "#ff0000",
-			say = "何況，不管最後的結局如何，他們的進化速度都已經超過了自然演算系統的推論速度",
+			say = "何況，不管最後的結局如何，她們的進化速度都已經超過了自然演算系統的推論速度",
 			shake = {
 				speed = 1,
 				number = 3
@@ -149,7 +149,7 @@ return {
 			dir = -1,
 			actor = 900011,
 			nameColor = "#ff0000",
-			say = "他們究竟是「棄子<Sacrifice>」還是「重子<Major pieces>」，最後就讓我來測試一下吧～",
+			say = "她們究竟是「棄子<Sacrifice>」還是「重子<Major pieces>」，最後就讓我來測試一下吧～",
 			shake = {
 				speed = 1,
 				number = 3

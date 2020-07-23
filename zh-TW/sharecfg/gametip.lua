@@ -6694,7 +6694,7 @@ $3]]
 		tip = "天賦點不足"
 	},
 	buildship_new_tip = {
-		tip = "伊168、U-101、伊25、伊56、U-522出現機率UP!"
+		tip = "齊柏林伯爵、Z46、U-47、Z25、Z35、希佩爾將軍、Z19出現機率UP!"
 	},
 	buildship_heavy_tip = {
 		tip = "愛宕、威爾斯親王建造追加！"
@@ -10370,5 +10370,8 @@ TIPS：
 	},
 	click_back_tip = {
 		tip = "點擊空白處返回"
+	},
+	multiple_ship_energy_low_warn = {
+		tip = "$1中$2處於心情低落狀態，強制出擊將降低好感且獲得經驗減半"
 	}
 }

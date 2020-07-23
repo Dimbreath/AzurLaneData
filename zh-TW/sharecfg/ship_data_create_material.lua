@@ -70,11 +70,13 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精銳艦船</color>：12%",
 			"<color=#3dc6ff>稀有艦船</color>：51%",
 			"普通艦船：30%",
-			"<color=#ffde38>伊168</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>U-101</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>伊25</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>伊56</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>U-522</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>齊柏林伯爵</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>U-47</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Z46</color>：1.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Z25</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Z35</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>希佩爾將軍</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>Z19</color>：5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

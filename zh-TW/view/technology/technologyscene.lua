@@ -26,32 +26,93 @@ function slot0.updateSettingsBtn(slot0)
 	setText(slot0:findTF("TipText", slot0.settingsBtn), i18n("tec_settings_btn_word"))
 
 	slot5 = slot0:findTF("Selected", slot0:findTF("TargetCatchup", slot0.settingsBtn))
+	slot6 = slot0:findTF("ActCatchup", slot0.settingsBtn)
 
 	setActive(slot0:findTF("tag", slot0.settingsBtn), getProxy(TechnologyProxy):getTendency(2) > 0)
 
-	if slot7 > 0 then
-		for slot12 = 1, slot1.childCount do
-			setActive(slot1:GetChild(slot12 - 1), slot7 == slot12)
+	if slot8 > 0 then
+		for slot13 = 1, slot1.childCount do
+			setActive(slot1:GetChild(slot13 - 1), slot8 == slot13)
 		end
 	end
 
+	slot9 = false
+
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLUEPRINT_CATCHUP) and not slot10:isEnd() then
+		slot12 = slot10:getConfig("config_id")
+		slot13 = pg.activity_event_blueprint_catchup[slot12].char_choice
+
+		if slot10.data1 < pg.activity_event_blueprint_catchup[slot12].obtain_max then
+			setImageSprite(slot0:findTF("Selected/CharImg", slot6), LoadSprite("TecCatchup/QChar" .. slot13, tostring(slot13)))
+			setText(slot0:findTF("Selected/ProgressText", slot6), slot11 .. "/" .. slot14)
+
+			slot17 = slot10.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
+
+			if slot0.actCatchupTimer then
+				slot0.actCatchupTimer:Stop()
+
+				slot0.actCatchupTimer = nil
+			end
+
+			slot18 = slot0:findTF("TimeLeft/Day", slot6)
+			slot19 = slot0:findTF("TimeLeft/Hour", slot6)
+			slot20 = slot0:findTF("TimeLeft/Min", slot6)
+			slot21 = slot0:findTF("TimeLeft/NumText", slot6)
+			slot0.actCatchupTimer = Timer.New(function ()
+				slot0, slot1, slot2, slot3 = pg.TimeMgr.GetInstance():parseTimeFrom(uv0)
+				uv0 = uv0 - 1
+
+				if slot0 >= 1 then
+					setActive(uv1, true)
+					setActive(uv2, false)
+					setActive(uv3, false)
+					setText(uv4, slot0)
+				elseif slot0 <= 0 and slot1 > 0 then
+					setActive(uv1, false)
+					setActive(uv2, true)
+					setActive(uv3, false)
+					setText(uv4, slot1)
+				elseif slot0 <= 0 and slot1 <= 0 and (slot2 > 0 or slot3 > 0) then
+					setActive(uv1, false)
+					setActive(uv2, false)
+					setActive(uv3, true)
+					setText(uv4, math.max(slot2, 1))
+				elseif slot0 <= 0 and slot1 <= 0 and slot2 <= 0 and slot3 <= 0 and uv5.actCatchupTimer then
+					uv5.actCatchupTimer:Stop()
+
+					uv5.actCatchupTimer = nil
+
+					setActive(uv6, false)
+				end
+			end, 1, -1, 1)
+
+			slot0.actCatchupTimer:Start()
+			slot0.actCatchupTimer.func()
+
+			slot9 = true
+		end
+	end
+
+	setActive(slot6, slot9)
 	setActive(slot4, true)
 
-	if not slot6:isOnCatchup() then
-		setActive(slot5, false)
-		setActive(slot2, true)
-	else
-		slot9 = slot6:getCurCatchupTecInfo()
-		slot11 = slot9.groupID
-
-		if pg.technology_catchup_template[slot9.tecID].obtain_max <= slot9.printNum then
+	if slot7:isOpenTargetCatchup() then
+		if not slot7:isOnCatchup() then
 			setActive(slot5, false)
-			setActive(slot2, false)
+			setActive(slot2, true)
 		else
-			setActive(slot5, true)
-			setActive(slot2, false)
-			setImageSprite(slot0:findTF("CharImg", slot5), LoadSprite("TecCatchup/QChar" .. slot11, tostring(slot11)))
-			setText(slot0:findTF("ProgressText", slot5), slot12 .. "/" .. slot13)
+			slot13 = slot7:getCurCatchupTecInfo()
+			slot15 = slot13.groupID
+
+			if pg.technology_catchup_template[slot13.tecID].obtain_max <= slot13.printNum then
+				setActive(slot5, false)
+				setActive(slot2, false)
+			else
+				setActive(slot5, true)
+				setActive(slot2, false)
+				setImageSprite(slot0:findTF("CharImg", slot5), LoadSprite("TecCatchup/QChar" .. slot15, tostring(slot15)))
+				setText(slot0:findTF("ProgressText", slot5), slot16 .. "/" .. slot17)
+			end
 		end
 	end
 end
@@ -573,6 +634,12 @@ function slot0.clearTimer(slot0, ...)
 	end
 
 	slot0.cardtimer = {}
+
+	if slot0.actCatchupTimer then
+		slot0.actCatchupTimer:Stop()
+
+		slot0.actCatchupTimer = nil
+	end
 end
 
 function slot0.willExit(slot0)

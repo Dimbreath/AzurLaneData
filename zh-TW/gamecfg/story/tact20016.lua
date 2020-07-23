@@ -77,7 +77,7 @@ return {
 			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "唔…聲呐探測到有單位正在接近，識別信號是…友軍？",
+			say = "唔…聲納探測到有單位正在接近，識別信號是…友軍？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

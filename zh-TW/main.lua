@@ -4,6 +4,12 @@ pg = {
 		__mode = "k"
 	})
 }
+PLATFORM_CH = 1
+PLATFORM_JP = 2
+PLATFORM_KR = 3
+PLATFORM_US = 4
+PLATFORM_CHT = 5
+PLATFORM_CODE = PLATFORM_CHT
 
 require("Include")
 require("tolua.reflection")
@@ -16,12 +22,6 @@ print("C# Ver. " .. CSharpVersion)
 
 PLATFORM = LuaHelper.GetPlatformInt()
 CHANNEL_NAME = LuaHelper.GetSDKChannelName()
-PLATFORM_CH = 1
-PLATFORM_JP = 2
-PLATFORM_KR = 3
-PLATFORM_US = 4
-PLATFORM_CHT = 5
-PLATFORM_CODE = PLATFORM_CHT
 SDK_EXIT_CODE = 99
 
 function luaIdeDebugFunc()

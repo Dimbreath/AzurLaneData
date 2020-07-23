@@ -65,6 +65,41 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[301260] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 301260,
+		expedition = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		win_mvp = {
+			{
+				100,
+				"{namecode:31}姐姐，你看到了嗎？"
+			}
+		},
+		detail = {
+			{
+				100,
+				"終於見到{namecode:31}姐姐了！…之前煩惱著什麼時候才能見到{namecode:31}姐姐的日子，仿佛是假的一樣…"
+			}
+		}
+	},
 	[207020] = {
 		touch = "",
 		feeling3 = "",
@@ -578,6 +613,7 @@ pg.ship_skin_words_extra = {
 	all = {
 		301090,
 		301091,
+		301260,
 		207020,
 		105030,
 		302140,

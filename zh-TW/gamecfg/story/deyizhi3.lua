@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"德意志的忧郁\n\n<size=45>三 不协调音</size>",
+					"德意志的憂鬱\n\n<size=45>三　不協調音</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 203010,
 			nameColor = "#a9f548",
-			say = "那麼現在公佈本次演習砲擊組的前二十名……",
+			say = "那麼現在公佈本次演習炮擊組的前二十名……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -403,7 +403,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "            德意志像是沒有聽到一樣，有些失魂落魄地離開了。",
+			say = "德意志像是沒有聽到一樣，有些失魂落魄地離開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

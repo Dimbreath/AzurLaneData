@@ -179,7 +179,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 401190,
-			actorName = "z19&z20&z21",
+			actorName = "Z19&Z20&Z21",
 			say = "遵命！",
 			subActors = {
 				{
