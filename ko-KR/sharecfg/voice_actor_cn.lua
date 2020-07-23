@@ -941,11 +941,15 @@ pg.voice_actor_CN = {
 		code = 235
 	},
 	{
-		actor_name = "甲斐田裕子",
+		actor_name = "Yuko Kaida",
 		code = 236
 	},
 	{
-		actor_name = "松冈由贵",
+		actor_name = "Yuki Matsuoka",
 		code = 237
+	},
+	{
+		actor_name = "Yui Makino",
+		code = 238
 	}
 }

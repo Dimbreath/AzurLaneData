@@ -1191,17 +1191,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"소형함 건조",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -4932,12 +4921,11 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"소형함 건조",
+				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -5532,17 +5520,6 @@ pg.ship_data_group = {
 					"LEVEL",
 					{
 						chapterid = 303
-					}
-				},
-				0
-			},
-			{
-				"소형함 건조",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
 					}
 				},
 				0
@@ -6618,6 +6595,16 @@ pg.ship_data_group = {
 					{
 						projectName = "light",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				{
+					"GETBOAT",
+					{
+						page = 3
 					}
 				},
 				0
@@ -11698,6 +11685,16 @@ pg.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
 			}
 		}
 	},
@@ -11744,6 +11741,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				{
+					"GETBOAT",
+					{
+						page = 3
 					}
 				},
 				0

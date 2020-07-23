@@ -1,19 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "20497",
+		type = 3,
 		id = 1,
 		pic = "temp1",
-		param = {
-			"seltechnology",
-			{}
-		},
 		time = {
 			{
 				{
 					2020,
 					7,
-					16
+					23
 				},
 				{
 					0,
@@ -25,7 +22,71 @@ pg.activity_banner = {
 				{
 					2020,
 					7,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "20493",
+		type = 3,
+		id = 2,
+		pic = "temp3",
+		time = {
+			{
+				{
+					2020,
+					7,
 					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "20499",
+		type = 3,
+		id = 3,
+		pic = "temp2",
+		time = {
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					19
 				},
 				{
 					23,
@@ -37,18 +98,17 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 2,
-		pic = "temp2",
+		id = 4,
+		pic = "temp9",
 		param = {
-			"scene skinshop",
-			{}
+			"scene skinshop"
 		},
 		time = {
 			{
 				{
 					2020,
 					7,
-					16
+					23
 				},
 				{
 					0,
@@ -72,6 +132,8 @@ pg.activity_banner = {
 	},
 	all = {
 		1,
-		2
+		2,
+		3,
+		4
 	}
 }

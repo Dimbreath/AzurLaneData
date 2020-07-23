@@ -117,7 +117,7 @@ function slot0.AddEdgePool(slot0, slot1, slot2, slot3, slot4, slot5)
 		if uv5.edgePools[uv6].prefab then
 			function (slot0)
 				go(slot0):GetComponent(typeof(Image)).enabled = true
-				slot1.color = uv0 or Color.white
+				slot1.color = Color.New(unpack(uv0)) or Color.white
 				slot1.sprite = uv1 and uv2 or nil
 				slot1.material = uv3 and uv4 or nil
 			end(slot1.prefab)

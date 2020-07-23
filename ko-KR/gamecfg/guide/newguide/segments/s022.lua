@@ -53,7 +53,7 @@ return {
 		{
 			alpha = 0.34,
 			style = {
-				text = "<color=#ff7d36>근해 연습</color>에 다시 도전해보자!",
+				text = "근해 연습</color>에 다시 도전해보자!",
 				mode = 2,
 				dir = -1,
 				posY = 0,
@@ -63,6 +63,26 @@ return {
 				pathIndex = -1,
 				delay = 1.8,
 				path = "UICamera/Canvas/UIMain/LevelMainScene(Clone)/float/levels/items/Chapter_101/main",
+				childAdjust = {
+					{
+						"circle",
+						"scale",
+						{
+							1,
+							1,
+							1
+						}
+					},
+					{
+						"info/bk",
+						"position",
+						{
+							0,
+							0,
+							0
+						}
+					}
+				},
 				triggerType = {
 					1
 				},

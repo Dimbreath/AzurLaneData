@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "点击帮助查看按钮说明",
+				text = "도움말을 클릭하여 버튼 설명 확인 가능",
 				mode = 2,
 				dir = 1,
 				posY = -382,

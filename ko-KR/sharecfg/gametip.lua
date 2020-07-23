@@ -9251,6 +9251,9 @@ TIPS:
 	option_desc6 = {
 		tip = "기능 ON 후, 화면 둘레의 검정색 부분이 사라지며, 화면이 기기에 따라 최소 화면으로 맞춰집니다."
 	},
+	option_desc10 = {
+		tip = "기능 설정 후, 전투 중 코스튬의 일부 배경이 보이지 않습니다. "
+	},
 	music_collection = {
 		tip = {
 			{
@@ -10781,5 +10784,8 @@ BUFF 보너스도 증가합니다.
 	},
 	tech_catchup_sentence_pauses = {
 		tip = "——"
+	},
+	tec_act_catchup_btn_word = {
+		tip = "강화 유닛 보완 "
 	}
 }

@@ -11536,7 +11536,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			59,
-			-162,
+			-132,
 			0
 		},
 		fx_container = {
@@ -16134,6 +16134,112 @@ pg.ship_skin_template = {
 						{
 							-0.43,
 							2.13,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[103102] = {
+		name = "여유로운 행진곡",
+		bullet_skin_main = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "학교로 출발. 지각 안하는 빈센스는 착한 아이~",
+		bullet_skin_secondary = "",
+		ship_group = 10310,
+		painting = "wensensi_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 4,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "103",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 103102,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "wensensi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70140,
+		voice_actor = 144,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.63,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.65,
+					0.64,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.72,
+					0.65,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							2.11,
 							0
 						}
 					}
@@ -71895,7 +72001,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			-26,
-			16,
+			26,
 			0
 		},
 		fx_container = {
@@ -74296,7 +74402,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			0,
-			-10,
+			-30,
 			0
 		},
 		fx_container = {
@@ -92406,7 +92512,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			-11,
-			-30,
+			-20,
 			0
 		},
 		fx_container = {
@@ -94690,7 +94796,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			60,
-			12.5,
+			32.5,
 			0
 		},
 		fx_container = {
@@ -120793,7 +120899,8 @@ pg.ship_skin_template = {
 		},
 		[10310] = {
 			103100,
-			103101
+			103101,
+			103102
 		},
 		[10309] = {
 			103090,
@@ -121225,6 +121332,7 @@ pg.ship_skin_template = {
 		103091,
 		103100,
 		103101,
+		103102,
 		103110,
 		103130,
 		103131,

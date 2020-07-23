@@ -21,7 +21,7 @@ function slot2.SetArgs(slot0, slot1, slot2)
 	slot0._startTime = pg.TimeMgr.GetInstance():GetCombatTime()
 
 	function slot4(slot0)
-		if slot0:GetType() == uv0._bulletType and uv0._count > 0 then
+		if not slot0:GetIgnoreShield() and slot0:GetType() == uv0._bulletType and uv0._count > 0 then
 			uv0:DoWhenHit(slot0)
 
 			if uv0._count <= 0 then

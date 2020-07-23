@@ -127,23 +127,31 @@ function getBackYardProxy(slot0)
 end
 
 function LoadAndInstantiateAsync(slot0, slot1, slot2, slot3, slot4)
-	ResourceMgr.Inst:getAssetAsync(slot0 .. "/" .. slot1, slot1, uv0.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot5, slot1 = HXSet.autoHxShift(slot0 .. "/", slot1)
+
+	ResourceMgr.Inst:getAssetAsync(slot5 .. slot1, slot1, uv0.Events.UnityAction_UnityEngine_Object(function (slot0)
 		uv0(Instantiate(slot0))
 	end), defaultValue(slot3, true), defaultValue(slot4, true))
 end
 
 function LoadAndInstantiateSync(slot0, slot1, slot2, slot3)
-	return Instantiate(ResourceMgr.Inst:getAssetSync(slot0 .. "/" .. slot1, slot1, defaultValue(slot2, true), defaultValue(slot3, true)))
+	slot4, slot1 = HXSet.autoHxShift(slot0 .. "/", slot1)
+
+	return Instantiate(ResourceMgr.Inst:getAssetSync(slot4 .. slot1, slot1, defaultValue(slot2, true), defaultValue(slot3, true)))
 end
 
 slot1 = {}
 
 function LoadSprite(slot0, slot1)
-	return ResourceMgr.Inst:getAssetSync(slot0, slot1 or "", typeof(Sprite), true, false)
+	slot2, slot3 = HXSet.autoHxShiftPath(slot0, slot1)
+
+	return ResourceMgr.Inst:getAssetSync(slot2, slot3 or "", typeof(Sprite), true, false)
 end
 
 function LoadSpriteAtlasAsync(slot0, slot1, slot2)
-	ResourceMgr.Inst:getAssetAsync(slot0, slot1 or "", typeof(Sprite), uv0.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot3, slot4 = HXSet.autoHxShiftPath(slot0, slot1)
+
+	ResourceMgr.Inst:getAssetAsync(slot3, slot4 or "", typeof(Sprite), uv0.Events.UnityAction_UnityEngine_Object(function (slot0)
 		uv0(slot0)
 	end), true, false)
 end
@@ -153,19 +161,24 @@ function LoadSpriteAsync(slot0, slot1)
 end
 
 function LoadAny(slot0, slot1, slot2)
-	return ResourceMgr.Inst:getAssetSync(slot0, slot1, slot2, true, false)
+	slot3, slot4 = HXSet.autoHxShiftPath(slot0, slot1)
+
+	return ResourceMgr.Inst:getAssetSync(slot3, slot4, slot2, true, false)
 end
 
 function LoadAnyAsync(slot0, slot1, slot2, slot3)
-	return ResourceMgr.Inst:getAssetAsync(slot0, slot1, slot2, slot3, true, false)
+	slot4, slot5 = HXSet.autoHxShiftPath(slot0, slot1)
+
+	return ResourceMgr.Inst:getAssetAsync(slot4, slot5, slot2, slot3, true, false)
 end
 
 function LoadImageSpriteAtlasAsync(slot0, slot1, slot2, slot3)
+	slot0, slot5 = HXSet.autoHxShiftPath(slot0, slot1)
 	slot4 = slot2:GetComponent(typeof(Image))
 	slot4.enabled = false
 	uv0[slot4] = slot0
 
-	LoadSpriteAtlasAsync(slot0, slot1, function (slot0)
+	LoadSpriteAtlasAsync(slot0, slot5, function (slot0)
 		if not IsNil(uv0) and uv1[uv0] == uv2 then
 			uv1[uv0] = nil
 			uv0.enabled = true
@@ -183,7 +196,9 @@ function LoadImageSpriteAsync(slot0, slot1, slot2)
 end
 
 function GetSpriteFromAtlas(slot0, slot1)
-	PoolMgr.GetInstance():GetSprite(slot0, slot1, false, function (slot0)
+	slot3, slot4 = HXSet.autoHxShiftPath(slot0, slot1)
+
+	PoolMgr.GetInstance():GetSprite(slot3, slot4, false, function (slot0)
 		uv0 = slot0
 	end)
 
@@ -191,12 +206,15 @@ function GetSpriteFromAtlas(slot0, slot1)
 end
 
 function GetSpriteFromAtlasAsync(slot0, slot1, slot2)
-	PoolMgr.GetInstance():GetSprite(slot0, slot1, true, function (slot0)
+	slot3, slot4 = HXSet.autoHxShiftPath(slot0, slot1)
+
+	PoolMgr.GetInstance():GetSprite(slot3, slot4, true, function (slot0)
 		uv0(slot0)
 	end)
 end
 
 function GetImageSpriteFromAtlasAsync(slot0, slot1, slot2, slot3)
+	slot0, slot1 = HXSet.autoHxShiftPath(slot0, slot1)
 	slot4 = slot2:GetComponent(typeof(Image))
 	slot4.enabled = false
 	uv0[slot4] = slot0 .. slot1
@@ -275,7 +293,7 @@ function setPaintingPrefab(slot0, slot1, slot2, slot3)
 			setActive(slot1, false)
 		end
 
-		if findTF(slot0, "hx") then
+		if not IsNil(findTF(slot0, "hx")) then
 			setActive(slot2, HXSet.isHx())
 		end
 
@@ -318,6 +336,10 @@ function setPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
 
 		if not IsNil(findTF(slot0, "Touch")) then
 			setActive(slot1, false)
+		end
+
+		if not IsNil(findTF(slot0, "hx")) then
+			setActive(slot2, HXSet.isHx())
 		end
 
 		if uv5 then
@@ -2141,6 +2163,8 @@ function updateActivityTaskStatus(slot0)
 	slot1 = slot0:getConfig("config_id")
 	slot2, slot3 = getActivityTask(slot0, true)
 
+	print("接取任务ID", slot2, tostring(slot3))
+
 	if not slot3 then
 		if slot1 == 0 or slot1 == 1 then
 			pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
@@ -2151,6 +2175,7 @@ function updateActivityTaskStatus(slot0)
 
 			return true
 		elseif slot1 == 2 or slot1 == 3 then
+			print("发送", slot0.id, 1)
 			pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
 				cmd = 1,
 				activity_id = slot0.id

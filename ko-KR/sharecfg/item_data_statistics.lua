@@ -92688,6 +92688,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59170] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "训练点数",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59170,
+		icon = "Props/xunliandianshu_y",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 		rarity = 2,
@@ -100349,6 +100367,7 @@ pg.item_data_statistics = {
 		59167,
 		59168,
 		59169,
+		59170,
 		59601,
 		59602,
 		59603,

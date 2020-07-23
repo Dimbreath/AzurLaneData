@@ -24427,6 +24427,7 @@ pg.bullet_template = {
 			}
 		},
 		extra_param = {
+			mirror = true,
 			ignoreShield = true
 		}
 	},

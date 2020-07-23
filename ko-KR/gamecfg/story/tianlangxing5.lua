@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=45>五 携手起舞</size>",
+					"시리우스 개조 계획\n\n<size=45>5. 손잡고 춤추다</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 202150,
 			nameColor = "#92fc63",
-			say = "这样转一圈，然后这样……",
+			say = "이렇게 한 바퀴 돌고, 다음엔 이렇게......",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "这样……吗？",
+			say = "이렇......게요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "对对，就是这样♪再跟舞伴练习一下就没问题了",
+			say = "맞아요, 바로 그렇게요♪ 파트너와 연습해보면 문제 없겠어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "找到欧罗拉来教天狼星跳社交舞。",
+			say = "오로라를 찾아 시리우스에게 사교댄스를 가르쳐 달라고 부탁했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "我骄傲的主人，还请多多关照",
+			say = "저의 자랑스러운 주인님, 잘 부탁드리겠습니다.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -138,7 +138,7 @@ return {
 			withoutActorName = true,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "身兼秘书舰、女仆、宴会女伴三职的天狼星优雅地将手伸过来",
+			say = "비서함이자 메이드이자 연회 파트너인 시리우스가 우아하게 손을 뻗었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			},
 			options = {
 				{
-					content = "牵起天狼星的手",
+					content = "시리우스의 손을 맞잡는다.",
 					flag = 1
 				}
 			}
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然动作上还有一点点生硬，不过已经完全看不出来是临时抱佛脚了。",
+			say = "아직 동작에 서투름이 있지만, 벼락치기라는 것은 이미 완전히 알아볼 수 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在舞蹈练习中，她突然小声说。",
+			say = "춤 연습 중, 그녀가 갑자기 작은 목소리로 말했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			actorScale = 1.5,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "……非常感谢您",
+			say = "...... 정말 감사드립니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actorScale = 1.5,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "对于区区女仆，您居然会照顾到这个地步……",
+			say = "보잘것없는 메이드를, 이렇게까지 보살펴 주시다니......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actorScale = 1.5,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "我明白作为女仆不该说这样的话，不过……",
+			say = "전 메이드로서 이런 말을 해서는 안된다는 것을 알지만, 하지만......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（碰）",
+			say = "(툭)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "或许是因为感情的起伏瞬间打乱了步伐，从纤细的舞伴那边传来了有着重量感的柔软触感。",
+			say = "어쩌면 감정의 기복이 스텝을 방해할 탓일까. 세심한 파트너 쪽에서 중량감 있는 부드러운 촉감이 전해져왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actorScale = 1.5,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "…我骄傲的主人…",
+			say = "... 제 자랑스러운 주인님...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actorScale = 1.5,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "实在抱歉！这是，那个……",
+			say = "정말 죄송합니다! 이건, 그게......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "这才反应过来，刚才一瞬间，天狼星因为羞耻变得红扑扑的脸庞离自己只有咫尺之遥。",
+			say = "이제서야 반응했다. 방금 일순간, 시리우스는 부끄러움에 불그스름해진 얼굴을 하고 멀어져 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

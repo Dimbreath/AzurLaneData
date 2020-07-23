@@ -16298,6 +16298,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5401] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5296,
+		type = 5,
+		name = "메이드로서...... ",
+		count_inherit = 0,
+		desc = "어뢰 튀김을 3개 제출한다.",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		award_choice = "",
+		level = 1,
+		next_task = "5402",
+		visibility = 1,
+		story_id = "TIANLANGXING1",
+		target_id_for_client = 50003,
+		id = 5401,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5402] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5297,
+		type = 5,
+		name = "폐하의 최고 지령 ",
+		count_inherit = 0,
+		desc = "임의의 함선소녀를 10회 강화한다.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5403",
+		visibility = 1,
+		story_id = "TIANLANGXING2",
+		target_id_for_client = 0,
+		id = 5402,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5403] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5298,
+		type = 5,
+		name = "메이드대의 지원 ",
+		count_inherit = 0,
+		desc = "시리우스를 포함한 함대를 출격시켜\n20회 승리한다.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5404",
+		visibility = 1,
+		story_id = "TIANLANGXING3",
+		target_id_for_client = 20220,
+		id = 5403,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "20220",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5404] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5299,
+		type = 5,
+		name = "Big seven으로부터의 조언 ",
+		count_inherit = 0,
+		desc = "시리우스를 포함한 함대로 데일리 챌린지를\n3회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5405",
+		visibility = 1,
+		story_id = "TIANLANGXING4",
+		target_id_for_client = 20220,
+		id = 5404,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "20220",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5405] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5300,
+		type = 5,
+		name = "손잡고 춤추다 ",
+		count_inherit = 0,
+		desc = "시리우스의 호감도를 100까지 달성한다.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5406",
+		visibility = 1,
+		story_id = "TIANLANGXING5",
+		target_id_for_client = 20220,
+		id = 5405,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "20220",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		}
+	},
+	[5406] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5301,
+		type = 5,
+		name = "의외의 사건 ",
+		count_inherit = 0,
+		desc = "시리우스의 한계돌파를 3회 진행한다.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5407",
+		visibility = 1,
+		story_id = "TIANLANGXING6",
+		target_id_for_client = 202204,
+		id = 5406,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "202204",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5407] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5302,
+		type = 5,
+		name = "밤하늘에 반짝이는 별빛 ",
+		count_inherit = 0,
+		desc = "시리우스의 레벨을 100까지 달성한다.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "tianlangxing",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "TIANLANGXING7",
+		target_id_for_client = 20220,
+		id = 5407,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "20220",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
 	[5411] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -48964,6 +49220,405 @@ pg.task_data_template = {
 		},
 		scene = {
 			"ACTIVITY_MAP"
+		}
+	},
+	[14140] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90464,
+		type = 6,
+		name = "SP1·通过任务 新奥尔良",
+		count_inherit = 0,
+		desc = "SP1을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14141",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1130101,
+		id = 14140,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1130101",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14141] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90465,
+		type = 6,
+		name = "SP2·通过任务 新奥尔良",
+		count_inherit = 0,
+		desc = "SP2를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14142",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1130102,
+		id = 14141,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1130102",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14142] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90466,
+		type = 6,
+		name = "SP3·通过任务 新奥尔良",
+		count_inherit = 0,
+		desc = "SP3를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1130103,
+		id = 14142,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1130103",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[14143] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90467,
+		type = 6,
+		name = "SP1·三星任务 新奥尔良",
+		count_inherit = 0,
+		desc = "SP1에서 ☆3 달성",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14144",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1130101,
+		id = 14143,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1130101",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[14144] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90468,
+		type = 6,
+		name = "SP2·三星任务 新奥尔良",
+		count_inherit = 0,
+		desc = "SP2에서 ☆3 달성",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14145",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1130102,
+		id = 14144,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1130102",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[14145] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90469,
+		type = 6,
+		name = "SP3·三星任务 新奥尔良",
+		count_inherit = 0,
+		desc = "SP3에서 ☆3 달성",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1130103,
+		id = 14145,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1130103",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				103081,
+				1
+			}
+		}
+	},
+	[14146] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90470,
+		type = 26,
+		name = "【新奥尔良复刻】昆西登录1",
+		count_inherit = 0,
+		desc = "1일 로그인",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14147",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14146,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[14147] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90471,
+		type = 26,
+		name = "【新奥尔良复刻】昆西登录2",
+		count_inherit = 0,
+		desc = "2일 로그인",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14148",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14147,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			}
+		}
+	},
+	[14148] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90472,
+		type = 26,
+		name = "【新奥尔良复刻】昆西登录3",
+		count_inherit = 0,
+		desc = "3일 로그인",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14148,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				103091,
+				1
+			}
+		}
+	},
+	[14149] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90473,
+		type = 26,
+		name = "【新奥尔良复刻】文森斯任务1",
+		count_inherit = 0,
+		desc = "임의의 적 100기 격파",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14149,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[14150] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90474,
+		type = 26,
+		name = "【新奥尔良复刻】文森斯任务2",
+		count_inherit = 0,
+		desc = "적 중요 함대 3회 격파",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14150,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				2
+			}
+		}
+	},
+	[14151] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90475,
+		type = 26,
+		name = "【新奥尔良复刻】文森斯任务3",
+		count_inherit = 0,
+		desc = "데일리 챌린지 3회 완료",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14151,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				103101,
+				1
+			}
 		}
 	},
 	[14152] = {
@@ -94231,7 +94886,7 @@ pg.task_data_template = {
 		id = 60134,
 		target_num = 10,
 		fix_task = 0,
-		target_id = "18002",
+		target_id = "18012",
 		open_need = {},
 		award_display = {}
 	},
@@ -94338,7 +94993,7 @@ pg.task_data_template = {
 		id = 60137,
 		target_num = 5,
 		fix_task = 0,
-		target_id = "18003",
+		target_id = "18013",
 		open_need = {},
 		award_display = {}
 	},
@@ -94511,7 +95166,7 @@ pg.task_data_template = {
 		id = 60144,
 		target_num = 3,
 		fix_task = 0,
-		target_id = "18002",
+		target_id = "18013",
 		open_need = {},
 		award_display = {}
 	},
@@ -94618,7 +95273,7 @@ pg.task_data_template = {
 		id = 60147,
 		target_num = 8,
 		fix_task = 0,
-		target_id = "18003",
+		target_id = "18013",
 		open_need = {},
 		award_display = {}
 	},
@@ -95087,7 +95742,7 @@ pg.task_data_template = {
 		id = 60164,
 		target_num = 10,
 		fix_task = 0,
-		target_id = "18023",
+		target_id = "18022",
 		open_need = {},
 		award_display = {}
 	},
@@ -100383,6 +101038,13 @@ pg.task_data_template = {
 		5395,
 		5396,
 		5397,
+		5401,
+		5402,
+		5403,
+		5404,
+		5405,
+		5406,
+		5407,
 		5411,
 		5412,
 		5413,
@@ -101298,6 +101960,18 @@ pg.task_data_template = {
 		14107,
 		14108,
 		14109,
+		14140,
+		14141,
+		14142,
+		14143,
+		14144,
+		14145,
+		14146,
+		14147,
+		14148,
+		14149,
+		14150,
+		14151,
 		14152,
 		14153,
 		14154,

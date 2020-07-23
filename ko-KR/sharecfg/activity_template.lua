@@ -179,40 +179,14 @@ pg.activity_template = {
 	},
 	[617] = {
 		mark = 20200618,
+		time = "stop",
 		type = 50,
 		login_pop = 0,
 		config_id = 4,
-		is_show = 85,
+		is_show = 7,
 		config_data = "",
 		title_res_tag = "tebiexvnlian",
 		id = 617,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "WarspiteTransformationPage",
 			ui_name = "WarspiteTransformationPage"
@@ -232,10 +206,11 @@ pg.activity_template = {
 	},
 	[618] = {
 		mark = 20200618,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 2,
-		is_show = 84,
+		is_show = 6,
 		title_res_tag = "Cravenskin",
 		id = 618,
 		config_data = {
@@ -278,33 +253,6 @@ pg.activity_template = {
 			{
 				15754,
 				15755
-			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					6,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					7,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -13227,6 +13175,346 @@ pg.activity_template = {
 			}
 		}
 	},
+	[20492] = {
+		mark = 20200723,
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 20492,
+		config_data = {
+			1130100,
+			1130102,
+			1130103
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			prevs = {
+				1130101
+			}
+		}
+	},
+	[20493] = {
+		mark = 20200723,
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 81,
+		config_client = "",
+		title_res_tag = "neworleans",
+		id = 20493,
+		config_data = {
+			14140,
+			14141,
+			14142,
+			14143,
+			14144,
+			14145
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewOrleansMapPage",
+			ui_name = "NewOrleansMapPage"
+		}
+	},
+	[20494] = {
+		mark = 20200723,
+		page_info = "",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 20494,
+		config_data = {
+			{
+				14149
+			},
+			{
+				14150
+			},
+			{
+				14151
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20495] = {
+		mark = 20200723,
+		type = 3,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 80,
+		title_res_tag = "neworleans",
+		id = 20495,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewOrleansLoginPage",
+			ui_name = "NewOrleansLoginPage"
+		},
+		config_client = {
+			act_id = 20494
+		}
+	},
+	[20496] = {
+		mark = 20200723,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 6,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 20496,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20497] = {
+		mark = 20200723,
+		type = 54,
+		login_pop = 0,
+		config_id = 20497,
+		is_show = 100,
+		title_res_tag = "Britain_framev2",
+		id = 20497,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "BritainframePage",
+			ui_name = "BritainframePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20499] = {
+		mark = 20200723,
+		type = 69,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 79,
+		title_res_tag = "Neptune_catchup",
+		id = 20499,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NeptuneTecCatchupPage",
+			ui_name = "NeptuneTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42001
+		}
+	},
 	[25000] = {
 		mark = 20188020,
 		page_info = "",
@@ -13915,6 +14203,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[25043] = {
+		mark = 20190131,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5401,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 25043,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	[29006] = {
 		mark = 20200624,
 		time = "stop",
@@ -14430,6 +14734,13 @@ pg.activity_template = {
 		20489,
 		20490,
 		20491,
+		20492,
+		20493,
+		20494,
+		20495,
+		20496,
+		20497,
+		20499,
 		25000,
 		25001,
 		25002,
@@ -14473,6 +14784,7 @@ pg.activity_template = {
 		25040,
 		25041,
 		25042,
+		25043,
 		29006
 	}
 }

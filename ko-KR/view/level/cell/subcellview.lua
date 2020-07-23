@@ -7,6 +7,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.tfAmmo = slot0.tf:Find("ammo")
 	slot0.tfAmmoText = slot0.tfAmmo:Find("text")
 	slot0.showFlag = true
+	slot0.shuihuaLoader = AutoLoader.New()
 
 	slot0:LoadEffectShuihua()
 end
@@ -16,20 +17,16 @@ function slot0.GetOrder(slot0)
 end
 
 function slot0.LoadEffectShuihua(slot0)
-	if slot0.effect_shuihua then
-		return
-	end
-
 	slot1 = "qianting_01"
 
-	slot0:GetLoader():GetPrefab("Effect/" .. slot1, slot1, function (slot0)
-		uv0.effect_shuihua = go
+	slot0.shuihuaLoader:GetPrefab("Effect/" .. slot1, slot1, function (slot0)
+		uv0.effect_shuihua = slot0
 
-		tf(go):SetParent(uv0.tf)
+		tf(slot0):SetParent(uv0.tf)
 
-		tf(go).localPosition = Vector3.zero
+		tf(slot0).localPosition = Vector3.zero
 
-		setActive(go, false)
+		setActive(slot0, false)
 	end, "Shuihua")
 end
 
@@ -55,10 +52,11 @@ function slot0.SetActiveModel(slot0, slot1)
 	slot0:SetSpineVisible(slot1)
 end
 
-function slot0.clear(slot0)
+function slot0.Clear(slot0)
 	slot0.showFlag = nil
 
-	uv0.super.clear(slot0)
+	slot0.shuihuaLoader:Clear()
+	uv0.super.Clear(slot0)
 end
 
 return slot0

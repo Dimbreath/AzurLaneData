@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=45>六 意外事件</size>",
+					"시리우스 개조 계획\n\n<size=45>6. 의외의 사건</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "宴会当天——",
+			say = "연회 당일——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#92fc63",
-			say = "真，真的假的！",
+			say = "마, 말도 안돼!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "陛下，怎么了？",
+			say = "폐하, 왜 그러십니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#92fc63",
-			say = "那是女仆队的天狼星……！？",
+			say = "저게 메이드대의 시리우스라고......!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "伊丽莎白会惊讶也可以理解。穿上礼裙的天狼星和平常的女仆打扮时优雅十足，宛若他人一般。",
+			say = "엘리자베스가 놀라는 것도 이해할 수 있다. 드레스를 입은 시리우스는 평소의 메이드 분장 시와 차원이 달랐다. 마치 다른 사람 같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "这既要感谢女仆队、纳尔逊、罗德尼以及欧若拉她们的指导——",
+			say = "이는 메이드대, 넬슨, 로드니 그리고 오로라, 연회의 분위기에 완벽히 녹아들 수 있게 해준 ——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "能够完美的融入宴会气氛……甚至比宴会上的任何人都要闪耀，无疑更多是她刻苦努力的成果。",
+			say = "그녀들의 지도에 감사해야한다...... 심지어 연회의 어떤 누구보다 빛났다. 의심의 여지 없이 그녀의 각고의 노력의 성과이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "如您的指示，天狼星会担任您的舞伴",
+			say = "주인님의 지시에 따라, 시리우스가 주인님의 파트너를 맡겠습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#92fc63",
-			say = "请尽管观阅欣赏天狼星努力的成果",
+			say = "시리우스가 노력한 성과를 마음껏 감상하여 주십시오.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#92fc63",
-			say = "我骄傲的主人啊——邀请您，与我共舞一曲",
+			say = "저의 자랑스러운 주인님이시여——저와 한 곡 추시겠습니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			},
 			options = {
 				{
-					content = "牵住天狼星的手",
+					content = "시리우스의 손을 잡는다.",
 					flag = 1
 				}
 			}
@@ -223,7 +223,7 @@ return {
 			bgm = "story-6",
 			actor = 205020,
 			nameColor = "#92fc63",
-			say = "警报！陛下！塞壬的舰载机正在接近周边海域！",
+			say = "경보! 폐하! 세이렌의 함재기가 주변 해역으로 접근 중입니다!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#92fc63",
-			say = "哼！竟敢打扰本王参加的宴会，胆子真大！召集一下待机中的女仆队，赶紧把那些塞壬赶出去！",
+			say = "흥! 감히 내가 참석한 연회를 방해하다니, 간이 배 밖으로 나왔구나! 대기 중인 메이드대를 불러 모아 저 세이렌들을 내쫓아 버려라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			actor = 202201,
 			nameColor = "#92fc63",
-			say = "……从这里直接出发应该能最先到达",
+			say = "...... 여기서 곧바로 출발한다면 가장 먼저 도착할 수 있을 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "您怎么看，我骄傲的主人？",
+			say = "어떠신가요, 저의 자랑스러운 주인님?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "当时之所以决定参加宴会，就是想回报她平时的努力，让她能够有表现自己的机会。",
+			say = "그 때 연회에 참석하기로 결정한 이유는 바로, 그녀의 평소 노력에 대한 보답으로, 그녀에게 자신을 표현할 기회를 가질 수 있게 하고 싶었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "既然她身负警卫工作，还拥有女仆队屈指可数的战斗能力，那么对她而言最耀眼的地方就是——",
+			say = "그녀는 경비 업무를 책임지며, 메이드대에서 둘째가라면 서러운 전투 능력을 가지고 있다. 그렇다면 그녀가 가장 빛날 수 있는 장소는 바로——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "明白了，我骄傲的主人。",
+			say = "알겠습니다, 저의 자랑스러운 주인님.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			blackBg = true,
 			actor = 202201,
 			nameColor = "#92fc63",
-			say = "——如果这是您的愿望，天狼星将全力绽放光芒",
+			say = "——이것이 주인님의 바램이라면 시리우스는 전력을 다해 빛을 발할 것입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

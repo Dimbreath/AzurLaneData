@@ -136,6 +136,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>과거의 찬송가가 다시 천공에 울려 퍼지기를, Vive la Iris!</color>\n「하늘 아래의 찬송가」 이벤트 획득",
 		scene = {}
 	},
+	[309] = {
+		name = "皇家之冠",
+		time_second = 0,
+		id = 309,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>等待后续活动获取</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -153,6 +161,7 @@ pg.item_data_frame = {
 		305,
 		306,
 		307,
-		308
+		308,
+		309
 	}
 }

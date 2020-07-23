@@ -2,25 +2,6 @@ slot1 = import(".SegmentUtil")
 slot2 = UnityEngine.Vector2
 slot3 = 1e-06
 
-function slot10(slot0)
-	if #slot0 < 3 then
-		return 0
-	end
-
-	for slot7 = 0, index do
-		slot8 = slot0[slot7]
-		slot9 = slot0[uv0(slot7 + 1, slot1)]
-		slot2 = 0 + slot8.x * slot9.y
-		slot3 = 0 + slot8.y * slot9.x
-	end
-
-	return (slot2 - slot3) / 2
-end
-
-function slot11(slot0)
-	return uv1.Sign(uv0(slot0))
-end
-
 return {
 	CycleIndex = function (slot0, slot1)
 		return (slot0 - 1) % slot1 + 1
@@ -96,7 +77,7 @@ return {
 				slot12 = slot2[uv1(slot7 - 1, #slot2)]
 				slot13 = slot2[uv1(slot9 + 1, #slot2)]
 
-				for slot17 = #slot3, 1 do
+				for slot17 = #slot3, 1, -1 do
 					if slot3[slot17][1] == slot10 or slot18 == slot12 then
 						table.remove(slot3, slot17)
 					end
@@ -118,5 +99,22 @@ return {
 		end
 
 		return slot1
+	end,
+	CalculateArea = function (slot0)
+		if #slot0 < 3 then
+			return 0
+		end
+
+		for slot7 = 1, slot1 do
+			slot8 = slot0[slot7]
+			slot9 = slot0[uv0(slot7 + 1, slot1)]
+			slot2 = 0 + slot8.x * slot9.y
+			slot3 = 0 + slot8.y * slot9.x
+		end
+
+		return (slot2 - slot3) / 2
+	end,
+	IsPolygonClockwise = function (slot0)
+		return uv1.Sign(uv0(slot0))
 	end
 }

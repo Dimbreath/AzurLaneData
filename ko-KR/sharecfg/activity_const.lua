@@ -700,15 +700,15 @@ pg.activity_const = {
 		act_id = 40117
 	},
 	NEW_ORLEANS_LOGIN = {
-		act_id = 0
+		act_id = 20495
 	},
 	NEW_ORLEANS_TASK = {
-		act_id = 0
+		act_id = 20494
 	},
 	NEW_ORLEANS_Map = {
-		act_id = 0
+		act_id = 20493
 	},
 	NEW_ORLEANS_Map_BATTLE = {
-		act_id = 0
+		act_id = 20492
 	}
 }

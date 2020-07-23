@@ -2661,6 +2661,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1130100] = {
+		map = 1130100,
+		name = "월하의 서곡|| ||SP. CHAPTER||SP.",
+		bgm = "level02",
+		type = 3,
+		on_activity = 20492,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "Map_1130000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 1130100,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1140001] = {
 		map = 1140001,
 		name = "빛과 그림자의 아이리스-전편|| ||CHAPTER EX||E.X.",
@@ -7471,6 +7512,7 @@ pg.expedition_data_by_map = {
 		1120012,
 		1120021,
 		1130000,
+		1130100,
 		1140001,
 		1140002,
 		1140011,

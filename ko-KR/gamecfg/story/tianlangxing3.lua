@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=45>三 女仆队的支援</size>",
+					"시리우스 개조 계획\n\n<size=45>3. 메이드대의 지원</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 202120,
 			nameColor = "#92fc63",
-			say = "“为了避免她在宴会上的举止被人看出是女仆，需要让她对女仆应有的举止拥有清晰的认识——",
+			say = "“연회에서 그녀의 행동이 다른 사람들에게 메이드라고 인식되지 않도록 하기 위해, 그녀에게 메이드의 대표적인 행동을 명확히 인식시킬 필요가 있다——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "“同时，既然身为秘书舰，从侍奉主人的角度出发，关于女仆的基本实力也需要更上一层楼”",
+			say = "“동시에, 비서함의 신분일지라도, 주인님을 모시는 각도에서 본다면, 메이드의 기본 실력에 관해서도 한 단계 업그레이드해야 한다.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "……是这个意思吗，指挥官？",
+			say = "...... 라는 뜻인가요, 주인님?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "拜托了皇家女仆队的贝尔法斯特等人对天狼星进行指导。",
+			say = "로열 메이드대의 벨파스트 등 사람들에게 시리우스에 대해 지도를 부탁했다.",
 			effects = {
 				{
 					active = false,
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "女仆长，请多多关照了",
+			say = "메이드장님, 잘 부탁드립니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "虽然天狼星平时不负责基本的女仆业务，但是现在是特殊情况",
+			say = "시리우스는 평소에 기본적인 메이드 업무를 담당하고 있진 않지만, 현재는 특수한 상황입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "这次就不考虑平时的分工，让大家依次进行说明吧",
+			say = "이번엔 평소의 업무 분담은 고려하지 말고, 모두 순서대로 설명을 해주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "那就拜托各位了。……为了主人……！",
+			say = "그럼 모두 잘 부탁드립니다...... 주인님을 위하여......!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			actor = 202220,
 			nameColor = "#92fc63",
-			say = "礼仪举止也得一并教呢",
+			say = "예의범절 또한 함께 가르쳐야 하겠어요.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嗯，不用那么死板，先从能做和不能做的事情记起吧——",
+			say = "응, 그렇게 고지식할 필요 없어요, 우선 할 수 있는 것과 해선 안될 것부터 기억해두세요——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			actor = 202080,
 			nameColor = "#92fc63",
-			say = "……指挥室的扫除不要先擦地板，先整理柜子比较好做",
+			say = "...... 지휘실 청소할 때는 바닥을 먼저 닦으면 안 돼요. 우선 수납장을 정리하면 비교적 수월하죠.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -264,8 +264,8 @@ return {
 			actor = 202200,
 			dir = 1,
 			hideOther = true,
-			actorName = "天狼星&小贝法",
-			say = "原来如此，我明白了",
+			actorName = "시리우스&꼬마 벨파스트",
+			say = "그렇군요, 알겠습니다.",
 			subActors = {
 				{
 					actor = 202180,
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			actor = 203030,
 			nameColor = "#92fc63",
-			say = "emmm…肯特选手好像没什么可教的？",
+			say = "음... 켄트 선수는 가르쳐 줄 만한 게 없는데?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			actor = 203040,
 			nameColor = "#92fc63",
-			say = "我可以教你一点不会被女仆长发现的摸鱼方法哦？",
+			say = "전 메이드장님께 들키지 않고 이득을 챙기는 방법을 알려드릴 수 있어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "……关于这点我也想恭听一下呢",
+			say = "...... 그것에 관해서는 저도 들어보고 싶네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "……深深感受到了自己的不足……",
+			say = "...... 제 자신의 부족함을 깊이 깨달았습니다......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "天狼星的女仆属性提升了。",
+			say = "시리우스의 메이드 스탯이 상승하였습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

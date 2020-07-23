@@ -98,9 +98,21 @@ end
 function slot0.AlignAttrs(slot0, slot1)
 	for slot5 = 1, #slot0 do
 		if not slot1[slot5] or slot0[slot5].type ~= slot1[slot5].type then
-			table.insert(slot1, slot5, Clone(slot0[slot5]))
+			slot9 = Clone
+
+			table.insert(slot1, slot5, slot9(slot0[slot5]))
 
 			slot1[slot5].value = 0
+
+			for slot9 = slot5 + 1, #slot1 do
+				if slot1[slot5].type == slot1[slot9].type then
+					slot1[slot5].value = slot1[slot9].value
+
+					table.remove(slot1, slot9)
+
+					break
+				end
+			end
 		end
 	end
 

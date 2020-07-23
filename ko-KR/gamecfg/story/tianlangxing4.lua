@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=45>四 来自Big seven的建议</size>",
+					"시리우스 개조 계획\n\n<size=45>4. Big seven으로부터의 조언</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "纳尔逊、罗德尼，拜托你们了",
+			say = "넬슨, 로드니, 부탁드릴게요.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "虽然不知道我们的建议能派上多少用场，姑且说说吧",
+			say = "우리의 조언이 얼마나 도움이 될지는 모르겠지만, 우선 얘기해줄게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "姐姐，既然是指挥官拜托我们的，认真一点比较好吧？",
+			say = "언니, 지휘관님께서 저희에게 부탁한건데, 진지하게 하는게 좋겠죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "请来了纳尔逊与罗德尼，给天狼星提供一些关于上流宴会的建议。",
+			say = "넬슨과 로드니를 불러, 시리우스에게 상류 연회에 관한 조언을 제공해달라고 부탁했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "首先……先整理一下情况，宴会准备得怎么样了？",
+			say = "우선...... 상황을 정리해보자. 연회 준비는 어때?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "陛下有厌战陪伴在旁，所以准备以保护主人为中心——",
+			say = "폐하께서는 워스파이트가 동반하기 때문에, 주인님 보호를 위주로 준비했어요——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "参加者个人信息的调查已经过了一遍，警卫是否有欠缺以及紧急情况时的逃脱路线的调查已经完成了九成",
+			say = "참가자들의 개인 정보 조사는 모두 끝냈고, 경비에 결함은 없는지 또 긴급 상황 시의 탈출 경로 조사도 90% 완료했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "主人参会用的物品、车上与港区联络手段的设置、备用衣物、饮酒时的常备药等也已经准备好了",
+			say = "주인님께서 연회에 참석해 사용하시는 물품, 차량과 항구에서 연락 수단의 설정, 예비용 의류, 음주 시 상비약 등도 모두 준비되었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "连备用衣物和醒酒药都准备好了，看来贝尔法斯特等人的指导确实起到了效果。",
+			say = "예비용 의류와 숙취해소제까지 준비했다니, 벨파스트들의 지도가 확실히 효과를 보이는 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "这，这样啊……确实准备得很全……",
+			say = "그, 그래......? 확실히 꼼꼼하게 준비했는데......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "如果还有什么不备之处请尽管明言（低头",
+			say = "뭔가 빠뜨린 것이 있다면 마음껏 말씀해주세요(꾸벅).",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嗯……姐姐，还是先从基础的东西开始教她比较好？",
+			say = "음...... 언니, 아무래도 기본적인 것부터 가르쳐 주는게 낫겠죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			actor = 205040,
 			nameColor = "#92fc63",
-			say = "大概就是这些了。说起来，好像忘了一件很重要的事……礼裙怎么办？",
+			say = "대략 이런 것들이겠죠. 말하자면, 아주 중요한 일을 잊은 것 같은데...... 드레스는 어떻게 할거죠?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "啊……",
+			say = "아......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			actor = 205030,
 			nameColor = "#92fc63",
-			say = "果然……我去商店那边问问吧。从各种意义上你和光辉她们的身材差不多，{namecode:98}的话说不定立刻能准备好",
+			say = "역시...... 내가 상점에 가서 물어볼게. 여러 의미에서 너와 일러스트리어스들과 몸매가 비슷하니까, {namecode:98}라면 곧바로 준비할 수 있을지도 몰라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			},
 			options = {
 				{
-					content = "同意纳尔逊的话",
+					content = "넬슨의 말에 동의한다.",
 					flag = 1
 				}
 			}
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "纳尔逊、主人，太感谢了！",
+			say = "넬슨 주인님, 정말 감사합니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……真是帮大忙了。",
+			say = "...... 정말 큰 도움이 되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

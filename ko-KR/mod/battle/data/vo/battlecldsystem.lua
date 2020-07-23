@@ -211,7 +211,12 @@ function slot6.HandleBulletCldWithShip(slot0, slot1, slot2)
 
 	for slot8 = 1, #slot1 do
 		if slot1[slot8].data.type == uv0.CldType.SHIP and slot9.Active == true then
-			if slot0:GetShip(slot9.UID):GetOxyState() and slot11:GetCurrentDiveState() == uv1.DIVE and slot2:GetCldData().Surface ~= uv0.OXY_STATE.DIVE then
+			slot10 = slot0:GetShip(slot9.UID)
+			slot12 = slot10:IsImmuneCommonBulletCLD()
+
+			if slot10:GetOxyState() and slot11:GetCurrentDiveState() == uv1.DIVE and slot2:GetCldData().Surface ~= uv0.OXY_STATE.DIVE then
+				-- Nothing
+			elseif slot12 then
 				-- Nothing
 			elseif slot0._proxy:HandleBulletHit(slot2, slot10) then
 				break

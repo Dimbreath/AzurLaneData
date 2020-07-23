@@ -1,7 +1,6 @@
 pg = pg or {}
 slot1 = {}
 pg.AssistantInfo = slot1
-slot2 = false
 slot1.assistantEvents = {
 	idleRandom1 = {
 		action = "main_1",
@@ -150,7 +149,7 @@ slot1.PaintingTouchParts = {
 }
 
 function slot1.enable()
-	return uv0
+	return HXSet.isHx()
 end
 
 function slot1.getAssistantTouchEvents(slot0)

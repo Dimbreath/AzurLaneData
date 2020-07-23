@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=45>一 身为女仆……</size>",
+					"시리우스 개조 계획\n\n<size=45>1. 메이드로서......</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "항구·지휘실",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "偶然得到贝尔法斯特的推荐，任命了原来在女仆队中负责警备工作的天狼星为秘书舰",
+			say = "우연히 벨파스트의 추천을 받아, 원래 메이드대에서 경비 업무를 담당하고 있는 시리우스를 비서함으로 임명했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "今天也请允许天狼星作为秘书舰协助您，我骄傲的主人",
+			say = "오늘도 시리우스에게 비서함으로서 주인님을 도울 수 있도록 허락하여 주십시오, 저의 자랑스러운 주인님.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "如果有什么天狼星能做的，请您尽管开口。虽然远不及女仆长能干，但是天狼星会全力以赴，定不负您的期待！",
+			say = "시리우스가 할 수 있는 것이 있다면, 얼마든지 말씀해주십시오. 메이드장의 유능함에는 미치지 못하지만, 전력을 다하여 결코 기대를 저버리지 않겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "试着把工作交给这位举止飒爽、努力上进的女仆……",
+			say = "씩씩하고 노력하는 메이드에게 업무를 맡겨본다......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "…………？",
+			say = "................?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -150,7 +150,7 @@ return {
 			withoutActorName = true,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "天狼星疑惑地歪了歪头。",
+			say = "시리우스는 어리둥절해 하며 고개를 갸웃했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "您说昨天的演习报告……吗？",
+			say = "어제의 연습전 보고...... 말씀이십니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "十分抱歉……昨天以为主人已经过目，就擅自处理了……",
+			say = "정말 죄송합니다...... 어제 주인님께서 살펴보신줄 알고 독단적으로 처리했습니다......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "我、我这就去找！",
+			say = "바, 바로 찾도록 하겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "天狼星慌慌张张地跪在堆成小山的废纸堆前翻找起来。",
+			say = "시리우스는 당황하며 산더미처럼 쌓인 폐지 앞에 무릎 꿇고 앉아 폐지 더미를 뒤지기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "不好意思主人，打扫要从哪里开始比较好……？",
+			say = "죄송합니다, 주인님. 청소는 어디서부터 시작하는게 좋을까요......?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "非常抱歉，泡茶一直是由女仆队的其他伙伴负责的，天狼星没有做过……",
+			say = "정말 죄송합니다. 차를 끓이는 것은 항상 메이드대의 다른 동료가 맡아왔기 때문에, 시리우스는 해본 적이 없습니다......",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "作为护卫（Secret Service）的她确实无懈可击，\n但是在普通事务方面却是仅仅及格的水准，实在很难令人开口夸赞。",
+			say = "호위(Secret Service)로서의 그녀는 확실히 흠잡을 데가 없었지만,\n일반 사무 방면에서는 겨우 합격 수준일 뿐, 정말 칭찬해주기 어려웠다.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "万分抱歉，天狼星身为秘书舰，不但无法胜任工作，还占用了骄傲的主人很多时间……",
+			say = "정말 죄송합니다. 시리우스가 비서함으로서 업무를 해내지도 못할 뿐더러, 자랑스러운 주인님의 시간까지 이렇게나 차지해버리다니......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#92fc63",
-			say = "请……请惩罚犯了错误的女仆吧！",
+			say = "잘...... 잘못을 저지른 메이드를 벌하여 주십시오!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "天狼星深深低头，拼命道歉。",
+			say = "시리우스는 고개를 푹 숙이며 절실히 사과하였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "看着她这么努力的样子，让人忍不住想要为她做点什么",
+			say = "그녀가 이토록 노력하는 모습을 보니, 그녀를 위해 뭔가 해주고 싶다는 생각을 참을 수 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
