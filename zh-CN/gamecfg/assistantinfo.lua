@@ -175,20 +175,20 @@ function slot1.isDisableSpecialClick(slot0)
 	return false
 end
 
-function slot1.filterAssistantEvents(slot0, slot1)
-	slot2 = {}
+function slot1.filterAssistantEvents(slot0, slot1, slot2)
+	slot3 = {}
 
-	for slot7, slot8 in ipairs(slot0) do
-		if string.split(uv0.assistantEvents[slot8].dialog, "_")[1] == "main" then
-			if tonumber(slot11[2]) <= ShipWordHelper.GetMainSceneWordCnt(slot1) then
-				table.insert(slot2, slot8)
+	for slot8, slot9 in ipairs(slot0) do
+		if string.split(uv0.assistantEvents[slot9].dialog, "_")[1] == "main" then
+			if tonumber(slot12[2]) <= ShipWordHelper.GetMainSceneWordCnt(slot1, slot2 or 0) then
+				table.insert(slot3, slot9)
 			end
 		else
-			table.insert(slot2, slot8)
+			table.insert(slot3, slot9)
 		end
 	end
 
-	return slot2
+	return slot3
 end
 
 slot1.Expressions = {

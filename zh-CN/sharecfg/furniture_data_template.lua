@@ -3223,7 +3223,9 @@ pg.furniture_data_template = {
 				{
 					202153
 				},
-				"fengcha"
+				"fengcha",
+				1,
+				1
 			}
 		},
 		animator = {
@@ -3625,6 +3627,48 @@ pg.furniture_data_template = {
 		spine = {
 			{
 				"faxi2xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[177] = {
+		advice = 0,
+		describe = "永夜之下飘动着绚丽的极光。华丽的幻想之色下，也许正酝酿着不一样的危险。————纪念参与「永夜幻光」特别作战中所获得的最高荣誉。",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "幻光纪念章",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "永夜幻光",
+		themeId = 0,
+		icon = "jiguangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 177,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"jiguang",
 				"normal"
 			}
 		},
@@ -4906,6 +4950,42 @@ pg.furniture_data_template = {
 					false
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100018] = {
+		advice = 0,
+		describe = "做好清凉一下的心理准备了吗~？ ",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "迷你水世界 ",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "shuiqiuicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 100018,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -59132,7 +59212,9 @@ pg.furniture_data_template = {
 				{
 					405010
 				},
-				"BSMjiangtai"
+				"BSMjiangtai",
+				1,
+				1
 			}
 		},
 		animator = {
@@ -63895,7 +63977,7 @@ pg.furniture_data_template = {
 	[50106] = {
 		advice = 0,
 		describe = "养护得很好，在上面驰骋应该非常舒服吧",
-		count = 1,
+		count = 3,
 		type = 5,
 		dir = 0,
 		dorm_id = 0,
@@ -77852,6 +77934,1361 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[69001] = {
+		advice = 0,
+		describe = "欢迎光临啾！先做个检查啾？",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "诊疗所地板",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "dibanyiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69001,
+		picture = "yi/dibanyi",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69002] = {
+		advice = 0,
+		describe = "欢迎光临啾！先做个检查啾？",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "诊疗所墙纸",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "qiangbiyiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69002,
+		picture = "yi/qiangbiyi",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69101] = {
+		advice = 0,
+		describe = "普通的凳子，坐上去感觉硬硬的。",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "前台方凳",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "1yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69101,
+		picture = "Yi/1yi",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					21.6,
+					43.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69102] = {
+		advice = 0,
+		describe = "总之先做个检查啾！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾办公台",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "2yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69102,
+		picture = "Yi/2yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11.2,
+					57.5
+				},
+				{
+					-1,
+					1
+				},
+				"yi/2yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69103] = {
+		advice = 0,
+		describe = "别紧张，放轻松啾！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "牙科手术床",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "5yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69103,
+		picture = "Yi/5yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-6,
+					11.3
+				},
+				{
+					-1,
+					1
+				},
+				"yi/5yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69104] = {
+		advice = 0,
+		describe = "迎着阳光盛放的生命~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "诊疗所向日葵",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "6yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69104,
+		picture = "Yi/6yi",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69105] = {
+		advice = 0,
+		describe = "每个人的隐私都是很重要的啾！",
+		count = 7,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "诊疗所挡板",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "7yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69105,
+		picture = "Yi/7yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69106] = {
+		advice = 0,
+		describe = "等待的时候不如看点杂志吧。",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "报刊",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "8yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69106,
+		picture = "Yi/8yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69107] = {
+		advice = 0,
+		describe = "不要害怕，这一针不会疼的啾！",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "护士啾",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "9yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69107,
+		picture = "Yi/9yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69108] = {
+		advice = 0,
+		describe = "取药之前要经过许可哦？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "诊疗所药柜",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "10yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69108,
+		picture = "Yi/10yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69109] = {
+		advice = 0,
+		describe = "睡一觉就没事了啾！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾手术台",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "11yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69109,
+		picture = "Yi/11yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					3.7,
+					-21.5
+				},
+				{
+					-1,
+					1
+				},
+				"yi/11yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69110] = {
+		advice = 0,
+		describe = "普通的盆栽，给人一种安心感。",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "诊疗所盆栽",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "12yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69110,
+		picture = "Yi/12yi",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69111] = {
+		advice = 0,
+		describe = "嗯…躺着还挺舒服的！",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "诊疗所病床",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "13yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69111,
+		picture = "Yi/13yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-13.5,
+					-17.8
+				},
+				{
+					-1,
+					1
+				},
+				"yi/13yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69112] = {
+		advice = 0,
+		describe = "半夜会自己走起来…才怪呢~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "骨骼模型",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "14yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69112,
+		picture = "Yi/14yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69113] = {
+		advice = 0,
+		describe = "有什么可以帮到你的啾？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "诊疗所引导台",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "17yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69113,
+		picture = "Yi/17yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69114] = {
+		advice = 0,
+		describe = "诊疗所里随处可见的座椅，坐上去感觉有点硬。",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "等待座椅",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "18yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69114,
+		picture = "Yi/18yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					52.9,
+					37.4
+				},
+				{
+					1,
+					1
+				},
+				"yi/18yi_using"
+			},
+			{
+				"sit",
+				{
+					-18.7,
+					2.3
+				},
+				{
+					1,
+					1
+				},
+				"yi/18yi_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69115] = {
+		advice = 0,
+		describe = "纯净水饮水机，可以放心使用。",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "饮水机",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "19yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69115,
+		picture = "Yi/19yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69116] = {
+		advice = 0,
+		describe = "人体的结构真奇妙~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "人体模型",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "21yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69116,
+		picture = "Yi/21yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69117] = {
+		advice = 0,
+		describe = "来点补充维生素的饮料如何~？",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "自动贩卖机",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "22yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 69117,
+		picture = "Yi/22yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69118] = {
+		advice = 0,
+		describe = "挺直腰杆~头放平~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "X光机器",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "4yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69118,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xguangB",
+				"normal"
+			},
+			{
+				"xguangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"xguangCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[69119] = {
+		advice = 0,
+		describe = "看起来就很先进的医疗器械",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "CT机器",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "15yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69119,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"CTB",
+				"normal"
+			},
+			{
+				"CTT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"CTCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[69120] = {
+		advice = 0,
+		describe = "急救急救~十万火急啾！",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾诊疗车",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "20yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69120,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheyiB",
+				"normal"
+			},
+			{
+				"cheyiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"cheyiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[69121] = {
+		advice = 0,
+		describe = "出…出来了啾~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "安息啾",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "16yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69121,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"anxijiu",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[69301] = {
+		advice = 0,
+		describe = "为方便而设置的免洗洗手消毒液。",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "免洗洗手液",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "3yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69301,
+		picture = "Yi/3yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69302] = {
+		advice = 0,
+		describe = "无论如何，都要竭尽最后一分努力！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "ICU入口",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "23yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69302,
+		picture = "Yi/23yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69303] = {
+		advice = 0,
+		describe = "今天的状态也很稳定啾！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "心跳记录",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "24yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69303,
+		picture = "Yi/24yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69304] = {
+		advice = 0,
+		describe = "诊疗所成绩的证明~",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "诊疗所证书",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "25yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69304,
+		picture = "Yi/25yi",
+		comfortable = 1,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69305] = {
+		advice = 0,
+		describe = "心肺科诊室的门。心肺是一个人的动力炉啾！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "入口·心肺科",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "26yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69305,
+		picture = "Yi/26yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69306] = {
+		advice = 0,
+		describe = "眼科珍室的门。不知为何上面贴了个视力表……",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "入口·眼科",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "27yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69306,
+		picture = "Yi/27yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69307] = {
+		advice = 0,
+		describe = "内科诊室的门。每个器官都是重要的舱室啾！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "入口·内科",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "28yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69307,
+		picture = "Yi/28yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69308] = {
+		advice = 0,
+		describe = "骨科诊室的门。骨骼是根基啾！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "入口·骨科",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "29yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69308,
+		picture = "Yi/29yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69309] = {
+		advice = 0,
+		describe = "脑科诊室的门。大脑是指挥塔啾！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "入口·脑科",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "30yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69309,
+		picture = "Yi/30yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -77930,6 +79367,7 @@ pg.furniture_data_template = {
 		173,
 		174,
 		175,
+		177,
 		100001,
 		100002,
 		100003,
@@ -77947,6 +79385,7 @@ pg.furniture_data_template = {
 		100015,
 		100016,
 		100017,
+		100018,
 		1001,
 		1002,
 		1101,
@@ -79647,6 +81086,38 @@ pg.furniture_data_template = {
 		66124,
 		66125,
 		66126,
-		66127
+		66127,
+		69001,
+		69002,
+		69101,
+		69102,
+		69103,
+		69104,
+		69105,
+		69106,
+		69107,
+		69108,
+		69109,
+		69110,
+		69111,
+		69112,
+		69113,
+		69114,
+		69115,
+		69116,
+		69117,
+		69118,
+		69119,
+		69120,
+		69121,
+		69301,
+		69302,
+		69303,
+		69304,
+		69305,
+		69306,
+		69307,
+		69308,
+		69309
 	}
 }

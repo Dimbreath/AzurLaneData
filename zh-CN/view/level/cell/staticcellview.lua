@@ -1,6 +1,8 @@
 slot0 = class("StaticCellView", import("view.level.cell.LevelCellView"))
 
 function slot0.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0)
+
 	slot0.parent = slot1
 	slot0.go = nil
 	slot0.tf = nil

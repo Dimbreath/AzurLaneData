@@ -165,7 +165,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 309,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>等待后续活动获取</color>",
+		desc = "<color=#ffffff>为皇家的荣耀而战，天佑女王</color>\n「永夜幻光」活动获取",
 		scene = {}
 	},
 	[401] = {

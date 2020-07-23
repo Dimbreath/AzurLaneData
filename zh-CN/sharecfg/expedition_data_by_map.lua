@@ -2729,7 +2729,7 @@ pg.expedition_data_by_map = {
 	},
 	[1110002] = {
 		map = 1110002,
-		name = "墨染的钢铁之花·下篇| ||CHAPTER EX||E.X.",
+		name = "墨染的钢铁之花·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "Nagato-map",
 		type = 4,
 		on_activity = 115,
@@ -2811,7 +2811,7 @@ pg.expedition_data_by_map = {
 	},
 	[1110012] = {
 		map = 1110012,
-		name = "墨染的钢铁之花·下篇| ||CHAPTER EX||E.X.",
+		name = "墨染的钢铁之花·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "Nagato-map",
 		type = 5,
 		on_activity = 115,
@@ -3607,7 +3607,7 @@ pg.expedition_data_by_map = {
 	},
 	[1180002] = {
 		map = 1180002,
-		name = "苍红的回响·下篇| ||CHAPTER EX||E.X.",
+		name = "苍红的回响·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "Story-6",
 		type = 4,
 		on_activity = 208,
@@ -3689,7 +3689,7 @@ pg.expedition_data_by_map = {
 	},
 	[1180012] = {
 		map = 1180012,
-		name = "苍红的回响·下篇| ||CHAPTER EX||E.X.",
+		name = "苍红的回响·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "Story-6",
 		type = 5,
 		on_activity = 208,
@@ -4037,7 +4037,7 @@ pg.expedition_data_by_map = {
 	},
 	[1210002] = {
 		map = 1210002,
-		name = "墨染的钢铁之花·下篇| ||CHAPTER EX||E.X.",
+		name = "墨染的钢铁之花·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "Nagato-map",
 		type = 4,
 		on_activity = 263,
@@ -4119,7 +4119,7 @@ pg.expedition_data_by_map = {
 	},
 	[1210012] = {
 		map = 1210012,
-		name = "墨染的钢铁之花·下篇| ||CHAPTER EX||E.X.",
+		name = "墨染的钢铁之花·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "Nagato-map",
 		type = 5,
 		on_activity = 263,
@@ -4324,7 +4324,7 @@ pg.expedition_data_by_map = {
 	},
 	[1230002] = {
 		map = 1230002,
-		name = "铁血、音符与誓言·下篇| ||CHAPTER EX||E.X.",
+		name = "铁血、音符与誓言·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
 		type = 4,
 		on_activity = 306,
@@ -4406,7 +4406,7 @@ pg.expedition_data_by_map = {
 	},
 	[1230012] = {
 		map = 1230012,
-		name = "铁血、音符与誓言·下篇| ||CHAPTER EX||E.X.",
+		name = "铁血、音符与誓言·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
 		type = 5,
 		on_activity = 306,
@@ -4753,7 +4753,7 @@ pg.expedition_data_by_map = {
 	},
 	[1250002] = {
 		map = 1250002,
-		name = "箱庭疗法·下篇| ||CHAPTER EX||E.X.",
+		name = "箱庭疗法·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
 		type = 4,
 		on_activity = 341,
@@ -4835,7 +4835,7 @@ pg.expedition_data_by_map = {
 	},
 	[1250012] = {
 		map = 1250012,
-		name = "箱庭疗法·下篇| ||CHAPTER EX||E.X.",
+		name = "箱庭疗法·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
 		type = 5,
 		on_activity = 341,
@@ -5019,7 +5019,7 @@ pg.expedition_data_by_map = {
 	},
 	[1260002] = {
 		map = 1260002,
-		name = "神圣的悲喜剧·下篇| ||CHAPTER EX||E.X.",
+		name = "神圣的悲喜剧·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
 		type = 4,
 		on_activity = 363,
@@ -5101,7 +5101,7 @@ pg.expedition_data_by_map = {
 	},
 	[1260012] = {
 		map = 1260012,
-		name = "神圣的悲喜剧·下篇| ||CHAPTER EX||E.X.",
+		name = "神圣的悲喜剧·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
 		type = 5,
 		on_activity = 363,
@@ -5429,7 +5429,7 @@ pg.expedition_data_by_map = {
 	},
 	[1290002] = {
 		map = 1290002,
-		name = "虚拟与真实的双向镜·下篇| ||CHAPTER EX||E.X.",
+		name = "虚拟与真实的双向镜·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "holo-tokiwa",
 		type = 4,
 		on_activity = 425,
@@ -5593,7 +5593,7 @@ pg.expedition_data_by_map = {
 	},
 	[1300002] = {
 		map = 1300002,
-		name = "浮樱影华·下篇| ||CHAPTER EX||E.X.",
+		name = "浮樱影华·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
 		type = 4,
 		on_activity = 453,
@@ -5675,7 +5675,7 @@ pg.expedition_data_by_map = {
 	},
 	[1300012] = {
 		map = 1300012,
-		name = "浮樱影华·下篇| ||CHAPTER EX||E.X.",
+		name = "浮樱影华·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
 		type = 5,
 		on_activity = 453,
@@ -5839,7 +5839,7 @@ pg.expedition_data_by_map = {
 	},
 	[1310002] = {
 		map = 1310002,
-		name = "北境序曲·下篇| ||CHAPTER EX||E.X.",
+		name = "北境序曲·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-3",
 		type = 4,
 		on_activity = 501,
@@ -5921,7 +5921,7 @@ pg.expedition_data_by_map = {
 	},
 	[1310012] = {
 		map = 1310012,
-		name = "北境序曲·下篇| ||CHAPTER EX||E.X.",
+		name = "北境序曲·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-3",
 		type = 5,
 		on_activity = 501,
@@ -6126,7 +6126,7 @@ pg.expedition_data_by_map = {
 	},
 	[1330002] = {
 		map = 1330002,
-		name = "微层混合·下篇| ||CHAPTER EX||E.X.",
+		name = "微层混合·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-level",
 		type = 4,
 		on_activity = 542,
@@ -6208,7 +6208,7 @@ pg.expedition_data_by_map = {
 	},
 	[1330012] = {
 		map = 1330012,
-		name = "微层混合·下篇| ||CHAPTER EX||E.X.",
+		name = "微层混合·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-level",
 		type = 5,
 		on_activity = 542,
@@ -6372,7 +6372,7 @@ pg.expedition_data_by_map = {
 	},
 	[1340002] = {
 		map = 1340002,
-		name = "苍红的回响·下篇| ||CHAPTER EX||E.X.",
+		name = "苍红的回响·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "Story-6",
 		type = 4,
 		on_activity = 569,
@@ -6454,7 +6454,7 @@ pg.expedition_data_by_map = {
 	},
 	[1340012] = {
 		map = 1340012,
-		name = "苍红的回响·下篇| ||CHAPTER EX||E.X.",
+		name = "苍红的回响·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "Story-6",
 		type = 5,
 		on_activity = 569,
@@ -6618,7 +6618,7 @@ pg.expedition_data_by_map = {
 	},
 	[1360002] = {
 		map = 1360002,
-		name = "穹顶下的圣咏曲·下篇| ||CHAPTER EX||E.X.",
+		name = "穹顶下的圣咏曲·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-3",
 		type = 4,
 		on_activity = 593,
@@ -6700,7 +6700,7 @@ pg.expedition_data_by_map = {
 	},
 	[1360012] = {
 		map = 1360012,
-		name = "穹顶下的圣咏曲·下篇| ||CHAPTER EX||E.X.",
+		name = "穹顶下的圣咏曲·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-3",
 		type = 5,
 		on_activity = 593,
@@ -6839,6 +6839,252 @@ pg.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380001] = {
+		map = 1380001,
+		name = "永夜幻光·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "bgm-cccp2",
+		type = 4,
+		on_activity = 637,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YONGYEHUANGUANG1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1340001",
+		cloud_suffix = "",
+		bg = "Map_1340001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1380011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380002] = {
+		map = 1380002,
+		name = "永夜幻光·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-4",
+		type = 4,
+		on_activity = 638,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YONGYEHUANGUANG20",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1340002",
+		cloud_suffix = "",
+		bg = "Map_1340002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1380012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380011] = {
+		map = 1380011,
+		name = "永夜幻光·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "bgm-cccp2",
+		type = 5,
+		on_activity = 637,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YONGYEHUANGUANG1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1340003",
+		cloud_suffix = "",
+		bg = "Map_1340003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1380001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380012] = {
+		map = 1380012,
+		name = "永夜幻光·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-4",
+		type = 5,
+		on_activity = 638,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YONGYEHUANGUANG20",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1340004",
+		cloud_suffix = "",
+		bg = "Map_1340004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1380002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380025] = {
+		map = 1380025,
+		name = "永夜幻光·SP|| ||CHAPTER EX||E.X.",
+		bgm = "bgm-cccp2",
+		type = 8,
+		on_activity = 638,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1340004",
+		cloud_suffix = "",
+		bg = "Map_1340004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1380012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380026] = {
+		map = 1380026,
+		name = "永夜幻光·EX|| ||CHAPTER EX||E.X.",
+		bgm = "bgm-cccp2",
+		type = 8,
+		on_activity = 638,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1340004",
+		cloud_suffix = "",
+		bg = "Map_1340004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1380012,
 		clouds_pos = {
 			{
 				332,
@@ -7641,7 +7887,7 @@ pg.expedition_data_by_map = {
 	},
 	[2100101] = {
 		map = 2100101,
-		name = "墨染的钢铁之花·下篇| ||CHAPTER EX||E.X.",
+		name = "墨染的钢铁之花·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "Nagato-map",
 		type = 4,
 		on_activity = 0,
@@ -7723,7 +7969,7 @@ pg.expedition_data_by_map = {
 	},
 	[2100111] = {
 		map = 2100111,
-		name = "墨染的钢铁之花·下篇| ||CHAPTER EX||E.X.",
+		name = "墨染的钢铁之花·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "Nagato-map",
 		type = 5,
 		on_activity = 0,
@@ -8013,6 +8259,12 @@ pg.expedition_data_by_map = {
 		1360025,
 		1360026,
 		1370001,
+		1380001,
+		1380002,
+		1380011,
+		1380012,
+		1380025,
+		1380026,
 		2100000,
 		2100001,
 		2100010,

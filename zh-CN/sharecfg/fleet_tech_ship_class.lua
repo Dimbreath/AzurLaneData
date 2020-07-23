@@ -631,6 +631,17 @@ pg.fleet_tech_ship_class = {
 			20132
 		}
 	},
+	[20113] = {
+		shiptype = 1,
+		name = "I级",
+		t_level = 4,
+		id = 20113,
+		t_level_1 = 40,
+		nation = 2,
+		ships = {
+			20133
+		}
+	},
 	[20201] = {
 		shiptype = 2,
 		name = "利安得级",
@@ -705,7 +716,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			20204,
 			20220,
-			20224
+			20224,
+			20227
 		}
 	},
 	[20207] = {
@@ -856,7 +868,8 @@ pg.fleet_tech_ship_class = {
 		nation = 2,
 		ships = {
 			20501,
-			20502
+			20502,
+			20510
 		}
 	},
 	[20502] = {
@@ -881,7 +894,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			20505,
 			20506,
-			20507
+			20507,
+			20509
 		}
 	},
 	[20504] = {
@@ -939,6 +953,17 @@ pg.fleet_tech_ship_class = {
 			20604
 		}
 	},
+	[20605] = {
+		shiptype = 6,
+		name = "巨像级",
+		t_level = 6,
+		id = 20605,
+		t_level_1 = 64,
+		nation = 2,
+		ships = {
+			20606
+		}
+	},
 	[20701] = {
 		shiptype = 7,
 		name = "光辉级",
@@ -972,6 +997,17 @@ pg.fleet_tech_ship_class = {
 		nation = 2,
 		ships = {
 			20702
+		}
+	},
+	[20704] = {
+		shiptype = 7,
+		name = "鹰",
+		t_level = 3,
+		id = 20704,
+		t_level_1 = 65,
+		nation = 2,
+		ships = {
+			20701
 		}
 	},
 	[21301] = {
@@ -2237,6 +2273,7 @@ pg.fleet_tech_ship_class = {
 		20110,
 		20111,
 		20112,
+		20113,
 		20201,
 		20202,
 		20203,
@@ -2263,9 +2300,11 @@ pg.fleet_tech_ship_class = {
 		20602,
 		20603,
 		20604,
+		20605,
 		20701,
 		20702,
 		20703,
+		20704,
 		21301,
 		21302,
 		30101,

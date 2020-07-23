@@ -5986,6 +5986,21 @@ pg.item_data_template = {
 			0
 		}
 	},
+	[30320] = {
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30320",
+		id = 30320,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
 	[40001] = {
 		limit = "[]",
 		display_effect = "OpenBox",
@@ -19575,12 +19590,12 @@ pg.item_data_template = {
 			},
 			{
 				2,
-				42022,
+				42023,
 				1
 			},
 			{
 				2,
-				42023,
+				42024,
 				1
 			},
 			{
@@ -22079,6 +22094,7 @@ pg.item_data_template = {
 		30317,
 		30318,
 		30319,
+		30320,
 		40001,
 		40002,
 		40003,

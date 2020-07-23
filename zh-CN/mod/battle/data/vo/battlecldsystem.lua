@@ -200,7 +200,28 @@ function slot6.UpdateBulletCld(slot0, slot1)
 			slot6 = slot0:GetShipTree()
 		end
 
-		slot0:HandleBulletCldWithShip(slot6:GetCldList(slot3, uv1), slot1)
+		slot7 = nil
+
+		if slot1:GetType() == uv0.BulletType.SCALE then
+			slot8, slot9, slot10 = slot1:GetRadian()
+
+			if math.abs(slot9) ~= 1 then
+				if slot1:GetIFF() == -1 then
+					slot8 = slot8 + math.pi
+				end
+
+				slot11 = slot1:GetBoxSize()
+				slot14 = slot1:GetPosition()
+				slot15 = slot11.x
+				slot7 = slot6:GetCldListGradient(slot8, slot11.z * 2, slot11.x * 2, Vector3(slot14.x - slot15 * slot9, 1, slot14.z - slot15 * slot10))
+			else
+				slot7 = slot6:GetCldList(slot3, uv1)
+			end
+		else
+			slot7 = slot6:GetCldList(slot3, uv1)
+		end
+
+		slot0:HandleBulletCldWithShip(slot7, slot1)
 	end
 
 	slot5:Update(slot3)

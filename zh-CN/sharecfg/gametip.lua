@@ -609,6 +609,9 @@ pg.gametip = {
 	word_facility = {
 		tip = "设施"
 	},
+	word_cv_key_main = {
+		tip = "主界面"
+	},
 	channel_name_1 = {
 		tip = "全部"
 	},
@@ -6123,7 +6126,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		}
 	},
 	shop_street_activity_tip = {
-		tip = "*活动期间(<color=#A1E400FF>20.5.21-20.6.2</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>"
+		tip = "*活动期间(<color=#A1E400FF>20.7.23-20.8.5</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>"
 	},
 	battle_result_boss_destruct = {
 		tip = "阻止boss自毁并击破boss"
@@ -7152,7 +7155,7 @@ $3]]
 		tip = "天赋点不足"
 	},
 	buildship_new_tip = {
-		tip = "黎塞留、阿尔及利亚、沃克兰 出现概率UP！"
+		tip = "英仙座、豪、英勇、鹰 出现概率UP！"
 	},
 	buildship_heavy_tip = {
 		tip = "{namecode:74}、{namecode:59} 建造追加！"
@@ -9236,7 +9239,7 @@ TIPS：
 		tip = "游戏正在进行中，现在离开将无法保存进度，是否确认离开？"
 	},
 	tips_shrine_buff = {
-		tip = "消耗5物资 获得加成效果 "
+		tip = "消耗5物资 获得加成效果"
 	},
 	tips_shrine_nobuff = {
 		tip = "消耗5物资\n由于次数耗尽没有获得任何效果"
@@ -10119,7 +10122,7 @@ TIPS：
 		tip = "[朴的可爱<怪奇>生物图鉴No.5]\n隐身汪：会隐形的汪汪，唯一不能隐形的屁股是它最大的烦恼"
 	},
 	special_animal6 = {
-		tip = "[朴的可爱<怪奇>生物图鉴No.6]\n肌肉啾：热衷于健身的肌肉啾，似乎有点练过头了 "
+		tip = "[朴的可爱<怪奇>生物图鉴No.6]\n肌肉啾：热衷于健身的肌肉啾，似乎有点练过头了"
 	},
 	special_animal7 = {
 		tip = "[朴的可爱<怪奇>生物图鉴No.7]\n彩虹香肠喵：睡觉时会流下彩虹口水的彩虹超长猫，有着奇怪的睡姿"
@@ -10138,28 +10141,28 @@ TIPS：
 		}
 	},
 	bulin_tip1 = {
-		tip = "出击喵！目标1-2喵！ "
+		tip = "出击喵！目标1-2喵！"
 	},
 	bulin_tip2 = {
-		tip = "堆积的道具要注意整理喵！ "
+		tip = "堆积的道具要注意整理喵！"
 	},
 	bulin_tip3 = {
-		tip = "出击喵！目标2-2喵！ "
+		tip = "出击喵！目标2-2喵！"
 	},
 	bulin_tip4 = {
-		tip = "呼喵？是不是该去船坞看看了喵？ "
+		tip = "呼喵？是不是该去船坞看看了喵？"
 	},
 	bulin_tip5 = {
-		tip = "出击喵！目标1-4喵！ "
+		tip = "出击喵！目标1-4喵！"
 	},
 	bulin_tip6 = {
-		tip = "要随时记得补充食物喵！ "
+		tip = "要随时记得补充食物喵！"
 	},
 	bulin_tip7 = {
 		tip = "出击喵！目标2-4喵！"
 	},
 	bulin_tip8 = {
-		tip = "去樱花飘散的校园看看喵！ "
+		tip = "去樱花飘散的校园看看喵！"
 	},
 	bulin_tip9 = {
 		tip = "没事多来光顾买点东西喵！"
@@ -10171,7 +10174,7 @@ TIPS：
 		tip = "解锁提示冷却中"
 	},
 	bulin_tip_other3 = {
-		tip = "是否退出关卡？退出关卡将无法获得奖励。 "
+		tip = "是否退出关卡？退出关卡将无法获得奖励。"
 	},
 	monopoly_left_count = {
 		tip = "剩余次数:"
@@ -10252,7 +10255,7 @@ TIPS：
 		tip = "很遗憾答错了，请重新作答~"
 	},
 	lanternRiddles_answer_is_right = {
-		tip = "恭喜你答对了~ "
+		tip = "恭喜你答对了~"
 	},
 	lanternRiddles_gametip = {
 		tip = {
@@ -10380,19 +10383,19 @@ TIPS：
 		}
 	},
 	sofmapsd_1 = {
-		tip = "呼喵？！准备好的礼品券丢了喵！\n指挥官，快帮帮{namecode:98}喵！ "
+		tip = "呼喵？！准备好的礼品券丢了喵！\n指挥官，快帮帮{namecode:98}喵！"
 	},
 	sofmapsd_2 = {
 		tip = "快帮{namecode:98}投放礼品券喵！\n会给指挥官报酬的喵！"
 	},
 	sofmapsd_3 = {
-		tip = "呼喵！营业额提升了喵！\n感谢指挥官喵！ "
+		tip = "呼喵！营业额提升了喵！\n感谢指挥官喵！"
 	},
 	sofmapsd_4 = {
 		tip = "营业额目标达成喵！\n感谢指挥官喵！"
 	},
 	inform_level_limit = {
-		tip = "举报将在指挥官等级达到20级后开放 "
+		tip = "举报将在指挥官等级达到20级后开放"
 	},
 	["3match_tip"] = {
 		tip = {
@@ -10918,13 +10921,13 @@ BUFF加成也会增加
 		tip = "弹药"
 	},
 	equip_info_6 = {
-		tip = "飞行速度 "
+		tip = "飞行速度"
 	},
 	equip_info_7 = {
 		tip = "鱼雷航速"
 	},
 	equip_info_8 = {
-		tip = "对甲比例 "
+		tip = "对甲比例"
 	},
 	equip_info_9 = {
 		tip = "伤害范围"
@@ -10973,6 +10976,15 @@ BUFF加成也会增加
 	},
 	equip_info_24 = {
 		tip = "挂载武器"
+	},
+	equip_info_25 = {
+		tip = "无"
+	},
+	equip_info_26 = {
+		tip = "技能更换为"
+	},
+	equip_info_27 = {
+		tip = ""
 	},
 	tec_settings_btn_word = {
 		tip = "研发选项"
@@ -11052,5 +11064,8 @@ BUFF加成也会增加
 	},
 	tec_act_catchup_btn_word = {
 		tip = "蓝图补完"
+	},
+	tec_catchup_errorfix = {
+		tip = "由于「新兵训练」中「科研任务·一期」存在完成后刷新异常的问题。公平起见，第一次完成「科研任务·一期」任务后，将自动重置一次一期的任务，确保所有指挥官都能完成两轮「科研任务·一期」。"
 	}
 }

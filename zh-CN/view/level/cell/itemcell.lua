@@ -1,6 +1,8 @@
 slot0 = class("ItemCell", import("view.level.cell.LevelCellView"))
 
 function slot0.Ctor(slot0, slot1, slot2, slot3)
+	uv0.super.Ctor(slot0)
+
 	slot0.go = slot1
 	slot0.tf = slot0.go.transform
 	slot0.line = {
