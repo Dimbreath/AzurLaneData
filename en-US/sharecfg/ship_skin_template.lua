@@ -333,11 +333,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101020] = {
-		name = "Dewey ",
+		name = "Dewey",
 		ship_group = 10102,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Farragut-class destroyer – Dewey, Hull Number DD-349. ",
+		desc = "Farragut-class destroyer – Dewey, Hull Number DD-349.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "duwei",
@@ -2584,11 +2584,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101172] = {
-		name = "Snow Rabbit and Candy Apple ",
+		name = "Snow Rabbit and Candy Apple",
 		ship_group = 10117,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "Mmph... The waistline is too high... and a little too tight... The sleeves are too breezy cause they're so big... It's not like I wanted to change clothes, but... what do you think, Commander? ",
+		desc = "Mmph... The waistline is too high... and a little too tight... The sleeves are too breezy cause they're so big... It's not like I wanted to change clothes, but... what do you think, Commander?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "lafei_3",
@@ -2688,11 +2688,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101173] = {
-		name = "White Rabbit Welcomes the Spring ",
+		name = "White Rabbit Welcomes the Spring",
 		ship_group = 10117,
 		group_index = 3,
 		illustrator2 = -1,
-		desc = "Have a happy and auspicious New Year? Uh.... can I go now...? I'm feeling a bit sleepy, so can I go back to sleep? ",
+		desc = "Have a happy and auspicious New Year? Uh.... can I go now...? I'm feeling a bit sleepy, so can I go back to sleep?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "lafei_4",
@@ -3445,11 +3445,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101249] = {
-		name = "Sims (Retrofit) ",
+		name = "Sims (Retrofit)",
 		ship_group = 10124,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Y'know, Commander~ No matter how nice you are to me, I'm still going to prank you~ Oh, but if you want my help with pranking others, I'll consider it~ Heehee~ ",
+		desc = "Y'know, Commander~ No matter how nice you are to me, I'm still going to prank you~ Oh, but if you want my help with pranking others, I'll consider it~ Heehee~",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "ximusi_g",
@@ -4343,11 +4343,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101263] = {
-		name = "New Year's Outing ",
+		name = "New Year's Outing",
 		ship_group = 10126,
 		group_index = 3,
 		illustrator2 = -1,
-		desc = "Commander... Sakura Empire's New Year, looks very fun, let's go together...? (Eldridge looks at you expectantly) ",
+		desc = "Commander... Sakura Empire's New Year, looks very fun, let's go together...? (Eldridge looks at you expectantly)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aierdeliqi_4",
@@ -5222,11 +5222,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101311] = {
-		name = "Nurse Nicholas ",
+		name = "Nurse Nicholas",
 		ship_group = 10131,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "I love doing relief missions as a nurse... I don't need to go outside or take part in any training, I just need to look after injured people... What about treating them? No worries, they just need to rest and they'll get better. ",
+		desc = "I love doing relief missions as a nurse... I don't need to go outside or take part in any training, I just need to look after injured people... What about treating them? No worries, they just need to rest and they'll get better.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "nigulasi_2",
@@ -5324,11 +5324,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101312] = {
-		name = "Surprise!? ",
+		name = "Surprise!?",
 		ship_group = 10131,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "Merry Christmas, Commander. I'm your present, probably... Would you mind closing the lid for me so I can sleep a bit more... zzz... ",
+		desc = "Merry Christmas, Commander. I'm your present, probably... Would you mind closing the lid for me so I can sleep a bit more... zzz...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "nigulasi_3",
@@ -5432,7 +5432,7 @@ pg.ship_skin_template = {
 		ship_group = 10131,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Commander, what month is it...? I think I overslept a bit... am I taller than I was before? *Yawn*... Gotta be because I slept the whole time... ",
+		desc = "Commander, what month is it...? I think I overslept a bit... am I taller than I was before? *Yawn*... Gotta be because I slept the whole time...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "nigulasi_g",
@@ -5530,11 +5530,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101330] = {
-		name = "Bush ",
+		name = "Bush",
 		ship_group = 10133,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Fletcher-class destroyer – Bush, Hull Number DD-529. ",
+		desc = "Fletcher-class destroyer – Bush, Hull Number DD-529.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "bushi",
@@ -5632,11 +5632,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101340] = {
-		name = "Hazelwood ",
+		name = "Hazelwood",
 		ship_group = 10134,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Fletcher-class destroyer – Hazelwood, Hull Number DD-531. ",
+		desc = "Fletcher-class destroyer – Hazelwood, Hull Number DD-531.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "heizewude",
@@ -6044,11 +6044,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101360] = {
-		name = "Hobby ",
+		name = "Hobby",
 		ship_group = 10136,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Benson class Destroyer— Hobby, hull number DD-610. ",
+		desc = "Benson class Destroyer— Hobby, hull number DD-610.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "huobi",
@@ -6146,11 +6146,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101361] = {
-		name = "Little Idol Schoolgirl ",
+		name = "Little Idol Schoolgirl",
 		ship_group = 10136,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Here comes the debut of school uniform Hobby~ Commander, how do I look? Hobby is all grown up~ ",
+		desc = "Here comes the debut of school uniform Hobby~ Commander, how do I look? Hobby is all grown up~",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "huobi_2",
@@ -6250,11 +6250,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101370] = {
-		name = "Kalk ",
+		name = "Kalk",
 		ship_group = 10137,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Benson class Destroyer— Kalk, hull number DD-611. ",
+		desc = "Benson class Destroyer— Kalk, hull number DD-611.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "keerke",
@@ -6356,7 +6356,7 @@ pg.ship_skin_template = {
 		ship_group = 10137,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Kalk, reporting in once again, now with a new outfit! Hehe... Commander, will you walk me to school? ",
+		desc = "Kalk, reporting in once again, now with a new outfit! Hehe... Commander, will you walk me to school?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "keerke_2",
@@ -6456,11 +6456,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101380] = {
-		name = "Kimberly ",
+		name = "Kimberly",
 		ship_group = 10138,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Fletcher-class Destroyer - Kimberly (DD-521) ",
+		desc = "Fletcher-class Destroyer - Kimberly (DD-521)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "jinboli",
@@ -6558,11 +6558,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101382] = {
-		name = "Style of the East ",
+		name = "Style of the East",
 		ship_group = 10138,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "While wearing clothes from the Dragon Empery, I can't help but reminisce about those days... Hehe, Commander, do you prefer me in Empery-style clothes, or Union-style clothes? ",
+		desc = "While wearing clothes from the Dragon Empery, I can't help but reminisce about those days... Hehe, Commander, do you prefer me in Empery-style clothes, or Union-style clothes?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "jinboli_3",
@@ -6662,11 +6662,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101390] = {
-		name = "Mullany ",
+		name = "Mullany",
 		ship_group = 10139,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Fletcher-class Destroyer - Mullany (DD-528) ",
+		desc = "Fletcher-class Destroyer - Mullany (DD-528)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "malani",
@@ -6764,11 +6764,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101392] = {
-		name = "Eastern Etiquette ",
+		name = "Eastern Etiquette",
 		ship_group = 10139,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "What's with the weird look, Commander? Ah, I got this outfit while studying abroad in the Dragon Empery. Umm... does it suit me? ",
+		desc = "What's with the weird look, Commander? Ah, I got this outfit while studying abroad in the Dragon Empery. Umm... does it suit me?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "malani_3",
@@ -6868,11 +6868,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101400] = {
-		name = "Aylwin ",
+		name = "Aylwin",
 		ship_group = 10140,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Farragut-class destroyer – Aylwin, Hull Number DD-355. ",
+		desc = "Farragut-class destroyer – Aylwin, Hull Number DD-355.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aierwen",
@@ -6970,11 +6970,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101401] = {
-		name = "Sunday Aquarium Visit ",
+		name = "Sunday Aquarium Visit",
 		ship_group = 10140,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "So this is an aquarium... What a novel experience! Oh, also, I won't be your guide today as it's your turn to escort me around, Commander. Please don't get us lost, okay? Ehehe~ ",
+		desc = "So this is an aquarium... What a novel experience! Oh, also, I won't be your guide today as it's your turn to escort me around, Commander. Please don't get us lost, okay? Ehehe~",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aierwen_2",
@@ -7072,7 +7072,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[101410] = {
-		name = "Stanly ",
+		name = "Stanly",
 		ship_group = 10141,
 		group_index = 0,
 		illustrator2 = -1,
@@ -7380,11 +7380,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101430] = {
-		name = "Halsey Powell ",
+		name = "Halsey Powell",
 		ship_group = 10143,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Fletcher-class destroyer – Halsey Powell, Hull Number DD-686. ",
+		desc = "Fletcher-class destroyer – Halsey Powell, Hull Number DD-686.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "haerxibaoweier",
@@ -7586,11 +7586,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101440] = {
-		name = "Cooper ",
+		name = "Cooper",
 		ship_group = 10144,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Allen M. Sumner-class destroyer – Cooper, Hull Number DD-695. ",
+		desc = "Allen M. Sumner-class destroyer – Cooper, Hull Number DD-695.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kubo",
@@ -8438,11 +8438,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102051] = {
-		name = "New Year's Bluebird ",
+		name = "New Year's Bluebird",
 		ship_group = 10205,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "I... want to be part of the new year festivities too. Oh, you don't have to worry about me. I'm no longer the fledgling I once was. ",
+		desc = "I... want to be part of the new year festivities too. Oh, you don't have to worry about me. I'm no longer the fledgling I once was.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "hailunna_2",
@@ -8542,11 +8542,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102052] = {
-		name = "May I Have this Dance? ",
+		name = "May I Have this Dance?",
 		ship_group = 10205,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "Um, Commander, could we... share a dance? I have things I want to tell you... ",
+		desc = "Um, Commander, could we... share a dance? I have things I want to tell you...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "hailunna_3",
@@ -9554,7 +9554,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[102091] = {
-		name = "Reaper Fever ",
+		name = "Reaper Fever",
 		ship_group = 10209,
 		group_index = 1,
 		illustrator2 = -1,
@@ -9805,11 +9805,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102093] = {
-		name = "Road Trip! ",
+		name = "Road Trip!",
 		ship_group = 10209,
 		group_index = 3,
 		illustrator2 = -1,
-		desc = "Good timing! I was just about to take my little buddy here out for a road trip! Commander, there's room for two if you want to come! ",
+		desc = "Good timing! I was just about to take my little buddy here out for a road trip! Commander, there's room for two if you want to come!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kelifulan_4",
@@ -10027,11 +10027,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102098] = {
-		name = "Heartfelt Moment ",
+		name = "Heartfelt Moment",
 		ship_group = 10209,
 		group_index = 8,
 		illustrator2 = -1,
-		desc = "Man, this is so embarrassing... C-Commander, w-w-what do you, umm, like, think of my d-d-d-dress...? ",
+		desc = "Man, this is so embarrassing... C-Commander, w-w-what do you, umm, like, think of my d-d-d-dress...?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kelifulan_h",
@@ -10136,11 +10136,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102100] = {
-		name = "Columbia ",
+		name = "Columbia",
 		ship_group = 10210,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Cleveland-class light cruiser – Columbia, hull number CL-56. ",
+		desc = "Cleveland-class light cruiser – Columbia, hull number CL-56.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "gelunbiya",
@@ -10482,7 +10482,7 @@ pg.ship_skin_template = {
 		ship_group = 10212,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Brooklyn-class Light Cruiser – Honolulu, Hull Number CL-48! ",
+		desc = "Brooklyn-class Light Cruiser – Honolulu, Hull Number CL-48!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "huonululu",
@@ -10587,11 +10587,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102121] = {
-		name = "Umbrella Girl ",
+		name = "Umbrella Girl",
 		ship_group = 10212,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "If everyone's focusing on the teacher, they probably won't stare at me from up front... As for the umbrella, it's... I know it makes me stand out, but I don't want people to stare at me from behind either... ",
+		desc = "If everyone's focusing on the teacher, they probably won't stare at me from up front... As for the umbrella, it's... I know it makes me stand out, but I don't want people to stare at me from behind either...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "huonululu_2",
@@ -11195,7 +11195,7 @@ pg.ship_skin_template = {
 		ship_group = 10213,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "What do you think of this foreign dress, Commander? *Giggle* ...Perhaps it's rekindled something within you? ",
+		desc = "What do you think of this foreign dress, Commander? *Giggle* ...Perhaps it's rekindled something within you?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "shengluyisi_2",
@@ -11229,7 +11229,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			59,
-			-162,
+			-132,
 			0
 		},
 		fx_container = {
@@ -11319,11 +11319,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102132] = {
-		name = "Spirits in the Snow ",
+		name = "Spirits in the Snow",
 		ship_group = 10213,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "The Sakura Empire's clothes are just so refined. Ahaha... Aren't you cold standing out there, Commander? Sit down with me and have a drink. ",
+		desc = "The Sakura Empire's clothes are just so refined. Ahaha... Aren't you cold standing out there, Commander? Sit down with me and have a drink.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "shengluyisi_3",
@@ -11584,7 +11584,7 @@ pg.ship_skin_template = {
 		ship_group = 10214,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Cleveland-class light cruiser – Montpelier, hull number CL-57. ",
+		desc = "Cleveland-class light cruiser – Montpelier, hull number CL-57.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "mengbiliai",
@@ -11797,7 +11797,7 @@ pg.ship_skin_template = {
 		ship_group = 10215,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Cleveland-class light cruiser - Denver (CL-58) ",
+		desc = "Cleveland-class light cruiser - Denver (CL-58)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "danfo",
@@ -11895,11 +11895,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102160] = {
-		name = "Memphis ",
+		name = "Memphis",
 		ship_group = 10216,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Omaha-class light cruiser – Memphis, Hull Number CL-12. ",
+		desc = "Omaha-class light cruiser – Memphis, Hull Number CL-12.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "mengfeisi",
@@ -12103,7 +12103,7 @@ pg.ship_skin_template = {
 		ship_group = 10216,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "We have to work hard if we want to play hard, isn't that right, Commander? Are you ready for our happy Halloween? ",
+		desc = "We have to work hard if we want to play hard, isn't that right, Commander? Are you ready for our happy Halloween?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "mengfeisi_3",
@@ -12513,11 +12513,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102190] = {
-		name = "Lena ",
+		name = "Lena",
 		ship_group = 10219,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Brooklyn-class light cruiser – Helena (CL-50) ",
+		desc = "Brooklyn-class light cruiser – Helena (CL-50)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "hailunna_younv",
@@ -12615,11 +12615,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102200] = {
-		name = "Clevelad ",
+		name = "Clevelad",
 		ship_group = 10220,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Cleveland-class light cruiser – Cleveland (CL-55) ",
+		desc = "Cleveland-class light cruiser – Cleveland (CL-55)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kelifulan_younv",
@@ -12717,11 +12717,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102210] = {
-		name = "Li'l Sandy ",
+		name = "Li'l Sandy",
 		ship_group = 10221,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Atlanta-class light cruiser – San Diego (CL-53) ",
+		desc = "Atlanta-class light cruiser – San Diego (CL-53)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "shengdiyage_younv",
@@ -12819,11 +12819,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102220] = {
-		name = "San Juan ",
+		name = "San Juan",
 		ship_group = 10222,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Atlanta-class light cruiser – San Juan, Hull Number CL-54. ",
+		desc = "Atlanta-class light cruiser – San Juan, Hull Number CL-54.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "shenghuan",
@@ -12921,11 +12921,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102230] = {
-		name = "Birmingham ",
+		name = "Birmingham",
 		ship_group = 10223,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Cleveland-class light cruiser – Birmingham, Hull Number CL-62. ",
+		desc = "Cleveland-class light cruiser – Birmingham, Hull Number CL-62.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "bominghan",
@@ -13023,11 +13023,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102231] = {
-		name = "Rider of Red ",
+		name = "Rider of Red",
 		ship_group = 10223,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Good morning, Commander. Unfortunately, this bicycle only seats one person, but I could dismount and lead it along as we walk together. ",
+		desc = "Good morning, Commander. Unfortunately, this bicycle only seats one person, but I could dismount and lead it along as we walk together.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "bominghan_2",
@@ -13229,11 +13229,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102250] = {
-		name = "Biloxi ",
+		name = "Biloxi",
 		ship_group = 10225,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Cleveland-class light cruiser – Biloxi, Hull Number CL-80. ",
+		desc = "Cleveland-class light cruiser – Biloxi, Hull Number CL-80.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "biluokexi",
@@ -13435,7 +13435,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[102252] = {
-		name = "Empress in the Silk Seat ",
+		name = "Empress in the Silk Seat",
 		ship_group = 10225,
 		group_index = 2,
 		illustrator2 = -1,
@@ -13539,11 +13539,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102260] = {
-		name = "Reno ",
+		name = "Reno",
 		ship_group = 10226,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Atlanta-class light cruiser – Reno, Hull Number CL-96. ",
+		desc = "Atlanta-class light cruiser – Reno, Hull Number CL-96.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "linuo",
@@ -13759,11 +13759,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[102270] = {
-		name = "Marblehead ",
+		name = "Marblehead",
 		ship_group = 10227,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Omaha-class light cruiser – Marblehead, Hull Number CL-12. ",
+		desc = "Omaha-class light cruiser – Marblehead, Hull Number CL-12.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "mabuerheide",
@@ -14700,11 +14700,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[103061] = {
-		name = "At School With Indy! ",
+		name = "At School With Indy!",
 		ship_group = 10306,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Commander, look, look! This is my handmade Indy plushie! Isn't it utterly adorable?! It's the magnum opus of my work in the Arts & Crafts Club! ",
+		desc = "Commander, look, look! This is my handmade Indy plushie! Isn't it utterly adorable?! It's the magnum opus of my work in the Arts & Crafts Club!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "botelan_2",
@@ -14804,11 +14804,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[103069] = {
-		name = "Portland (Retrofit) ",
+		name = "Portland (Retrofit)",
 		ship_group = 10306,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Nice to meet you, I'm Indianaportland! ... Hm? Who's Indy? She's my precious little sister, and my most beloved... ",
+		desc = "Nice to meet you, I'm Indianaportland! ... Hm? Who's Indy? She's my precious little sister, and my most beloved...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "botelan_g",
@@ -15034,11 +15034,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[103071] = {
-		name = "At School With My Sister... ",
+		name = "At School With My Sister...",
 		ship_group = 10307,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "School life... It's nice as long as you and my sister are here... I think... ",
+		desc = "School life... It's nice as long as you and my sister are here... I think...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "bolisi_2",
@@ -15138,11 +15138,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[103080] = {
-		name = "Astoria ",
+		name = "Astoria",
 		ship_group = 10308,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "New Orleans-class heavy cruiser – Astoria, hull number CA-34. ",
+		desc = "New Orleans-class heavy cruiser – Astoria, hull number CA-34.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "asituoliya",
@@ -15240,11 +15240,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[103081] = {
-		name = "Pure \"Gurl?\" ",
+		name = "Pure \"Gurl?\"",
 		ship_group = 10308,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Huh? Commander? ... Wait, why are you staring at me like I'm some exotic animal? C-cute? Ehehe... Th-thanks... ",
+		desc = "Huh? Commander? ... Wait, why are you staring at me like I'm some exotic animal? C-cute? Ehehe... Th-thanks...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Asituoliya_3",
@@ -15344,11 +15344,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[103090] = {
-		name = "Quincy ",
+		name = "Quincy",
 		ship_group = 10309,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "New Orleans-class heavy cruiser – Quincy, hull number CA-39. ",
+		desc = "New Orleans-class heavy cruiser – Quincy, hull number CA-39.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kunxi",
@@ -15446,11 +15446,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[103091] = {
-		name = "Sizzling Summer, Brisk Breeze ",
+		name = "Sizzling Summer, Brisk Breeze",
 		ship_group = 10309,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Everyone's so cheerful and energetic... Commander, um, if you're tired, want to rest here with me? ",
+		desc = "Everyone's so cheerful and energetic... Commander, um, if you're tired, want to rest here with me?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kunxi_2",
@@ -15550,11 +15550,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[103100] = {
-		name = "Vincennes ",
+		name = "Vincennes",
 		ship_group = 10310,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "New Orleans-class heavy cruiser – Vincennes, hull number CA-44. ",
+		desc = "New Orleans-class heavy cruiser – Vincennes, hull number CA-44.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "wensensi",
@@ -15652,11 +15652,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[103101] = {
-		name = "Sweet Dreams ",
+		name = "Sweet Dreams",
 		ship_group = 10310,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Zzz... sho comfy... Huh? Commyander...? ",
+		desc = "Zzz... sho comfy... Huh? Commyander...?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Wensensi_3",
@@ -15973,11 +15973,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[103130] = {
-		name = "Minneapolis ",
+		name = "Minneapolis",
 		ship_group = 10313,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "New Orleans class Heavy Cruiser— Minneapolis, hull number CA-36. ",
+		desc = "New Orleans class Heavy Cruiser— Minneapolis, hull number CA-36.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "mingniabolisi",
@@ -16075,11 +16075,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[103131] = {
-		name = "Wild Huntress Schoolgirl ",
+		name = "Wild Huntress Schoolgirl",
 		ship_group = 10313,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Textbooks, pencils and erasers... hey, must students always pay attention in class... Commander? Can you arrange for us to get more extracurricular activities? ",
+		desc = "Textbooks, pencils and erasers... hey, must students always pay attention in class... Commander? Can you arrange for us to get more extracurricular activities?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "mingniabolisi_2",
@@ -16385,11 +16385,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[103160] = {
-		name = "Baltimore ",
+		name = "Baltimore",
 		ship_group = 10316,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Baltimore-class heavy cruiser – Baltimore, Hull Number CA-68. ",
+		desc = "Baltimore-class heavy cruiser – Baltimore, Hull Number CA-68.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "baerdimo",
@@ -16487,11 +16487,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[103161] = {
-		name = "After-School Ace ",
+		name = "After-School Ace",
 		ship_group = 10316,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Oh, you wanna observe my club activities, Commander? Ahah, as you can tell, it's just a sports club with the goal of making you sweat. Nothing suspicious about that, is there...? ",
+		desc = "Oh, you wanna observe my club activities, Commander? Ahah, as you can tell, it's just a sports club with the goal of making you sweat. Nothing suspicious about that, is there...?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "baerdimo_2",
@@ -16695,11 +16695,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[103240] = {
-		name = "Bremerton ",
+		name = "Bremerton",
 		ship_group = 10324,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Baltimore-class heavy cruiser – Bremerton, Hull Number CA-130. ",
+		desc = "Baltimore-class heavy cruiser – Bremerton, Hull Number CA-130.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "bulaimodun",
@@ -17025,7 +17025,7 @@ pg.ship_skin_template = {
 		ship_group = 10501,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Heh, with this, I won't be outperformed by those fancy greenhorn battleships. Young'un, from now on, just leave everything to Nevada here! ",
+		desc = "Heh, with this, I won't be outperformed by those fancy greenhorn battleships. Young'un, from now on, just leave everything to Nevada here!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "neihuada_g",
@@ -17845,11 +17845,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[105090] = {
-		name = "Colorado ",
+		name = "Colorado",
 		ship_group = 10509,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Colorado class battleship— Colorado, hull number BB-45 ",
+		desc = "Colorado class battleship— Colorado, hull number BB-45",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "keluoladuo",
@@ -17947,11 +17947,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[105100] = {
-		name = "Maryland ",
+		name = "Maryland",
 		ship_group = 10510,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Colorado class battleship— Maryland, hull number BB-46 ",
+		desc = "Colorado class battleship— Maryland, hull number BB-46",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "malilan",
@@ -18049,11 +18049,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[105110] = {
-		name = "West Virginia ",
+		name = "West Virginia",
 		ship_group = 10511,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Colorado class battleship— West Virginia, hull number BB-48. ",
+		desc = "Colorado class battleship— West Virginia, hull number BB-48.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xifujiniya",
@@ -18593,11 +18593,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[105190] = {
-		name = "Massachusetts ",
+		name = "Massachusetts",
 		ship_group = 10519,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "South Dakota-class battleship – Massachusetts, Hull Number BB-59. ",
+		desc = "South Dakota-class battleship – Massachusetts, Hull Number BB-59.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "masazhusai",
@@ -18813,11 +18813,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[105200] = {
-		name = "Alabama ",
+		name = "Alabama",
 		ship_group = 10520,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "South Dakota-class battleship – Alabama, Hull Number BB-60. ",
+		desc = "South Dakota-class battleship – Alabama, Hull Number BB-60.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "alabama",
@@ -19462,11 +19462,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[106550] = {
-		name = "Casablanca ",
+		name = "Casablanca",
 		ship_group = 10655,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Casablanca-class escort carrier – Casablanca, Hull Number CVE-55. ",
+		desc = "Casablanca-class escort carrier – Casablanca, Hull Number CVE-55.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kasabulanka",
@@ -20042,11 +20042,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[107021] = {
-		name = "The Beauty of Spring ",
+		name = "The Beauty of Spring",
 		ship_group = 10702,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Hehe… sometimes you can completely change the way people see you with just a simple change in attire. Don't you agree, Commander~? Don’t worry, I'm still your Lexington~ ",
+		desc = "Hehe… sometimes you can completely change the way people see you with just a simple change in attire. Don't you agree, Commander~? Don’t worry, I'm still your Lexington~",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "liekexingdun_2",
@@ -20384,11 +20384,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[107032] = {
-		name = "Hibiscus-scented Idol ",
+		name = "Hibiscus-scented Idol",
 		ship_group = 10703,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "Hey everyone~! This time, Sister Sara has brought you fashion from a faraway land! Commander, what do you think of it? ",
+		desc = "Hey everyone~! This time, Sister Sara has brought you fashion from a faraway land! Commander, what do you think of it?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "salatuojia_3",
@@ -20590,11 +20590,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[107034] = {
-		name = "Superstar of the Blue Seas ",
+		name = "Superstar of the Blue Seas",
 		ship_group = 10703,
 		group_index = 4,
 		illustrator2 = -1,
-		desc = "Friends of the blue sea and sky, your guardian angel and idol Sara has arrived! Ehehe~ Commander, join me in protecting the beauty of the blue seas! ",
+		desc = "Friends of the blue sea and sky, your guardian angel and idol Sara has arrived! Ehehe~ Commander, join me in protecting the beauty of the blue seas!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "salatuojia_5",
@@ -20696,7 +20696,7 @@ pg.ship_skin_template = {
 		ship_group = 10703,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Sister Sara is leaving her nest and going in a new direction! I'm now making my official debut as Saratoga: The Little Witch Idol! I'm leaving my PR to you, Commander~ ",
+		desc = "Sister Sara is leaving her nest and going in a new direction! I'm now making my official debut as Saratoga: The Little Witch Idol! I'm leaving my PR to you, Commander~",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "salatuojia_g",
@@ -21110,11 +21110,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[107051] = {
-		name = "Evening I Can't Remember ",
+		name = "Evening I Can't Remember",
 		ship_group = 10705,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Hey, Commander, are you lost? How about a drink? ... Huh? Drunk? Me? Oh, Commander, you're such a card. This is just grape juice... isn't it? ",
+		desc = "Hey, Commander, are you lost? How about a drink? ... Huh? Drunk? Me? Oh, Commander, you're such a card. This is just grape juice... isn't it?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "yuekecheng_2",
@@ -21412,11 +21412,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[107062] = {
-		name = "Blooming Peony ",
+		name = "Blooming Peony",
 		ship_group = 10706,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "So this is the traditional attire of the Dragon Empery? Hmm... it fits quite well. Oh? Custom-made bow and arrows… Interesting, let's see how far these arrows can fly. ",
+		desc = "So this is the traditional attire of the Dragon Empery? Hmm... it fits quite well. Oh? Custom-made bow and arrows… Interesting, let's see how far these arrows can fly.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "qiye_3",
@@ -21798,11 +21798,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[107068] = {
-		name = "Starlight Oath ",
+		name = "Starlight Oath",
 		ship_group = 10706,
 		group_index = 8,
 		illustrator2 = -1,
-		desc = "How, how does it look? Do I look a bit strange... no, of course I like it. I'd say every girl dreams about this day, just that... ",
+		desc = "How, how does it look? Do I look a bit strange... no, of course I like it. I'd say every girl dreams about this day, just that...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "qiye_h",
@@ -22001,11 +22001,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[107071] = {
-		name = "Bubbly Anniversary! ",
+		name = "Bubbly Anniversary!",
 		ship_group = 10707,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Congratulations! You did it, Commander! Now let's pop the champagne and celebrate! It's party time! ",
+		desc = "Congratulations! You did it, Commander! Now let's pop the champagne and celebrate! It's party time!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "dahuangfeng_2",
@@ -22193,11 +22193,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[107090] = {
-		name = "Essex ",
+		name = "Essex",
 		ship_group = 10709,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Essex-class aircraft carrier – Essex, Hull Number CV-9. ",
+		desc = "Essex-class aircraft carrier – Essex, Hull Number CV-9.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aisaikesi",
@@ -22385,11 +22385,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[107110] = {
-		name = "Intrepid ",
+		name = "Intrepid",
 		ship_group = 10711,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Essex-class aircraft carrier – Intrepid, Hull Number CV-11. ",
+		desc = "Essex-class aircraft carrier – Intrepid, Hull Number CV-11.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "wuwei",
@@ -22577,11 +22577,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[107170] = {
-		name = "Bunker Hill ",
+		name = "Bunker Hill",
 		ship_group = 10717,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Essex-class aircraft carrier – Bunker Hill, Hull Number CV-17. ",
+		desc = "Essex-class aircraft carrier – Bunker Hill, Hull Number CV-17.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "bangkeshan",
@@ -22672,11 +22672,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[107220] = {
-		name = "Independence ",
+		name = "Independence",
 		ship_group = 10722,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Independence-class light aircraft carrier – Independence, Hull Number CVL-22. ",
+		desc = "Independence-class light aircraft carrier – Independence, Hull Number CVL-22.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "duli",
@@ -22864,11 +22864,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[107290] = {
-		name = "Bataan ",
+		name = "Bataan",
 		ship_group = 10729,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Independence-class light aircraft carrier – Bataan, Hull Number CVL-29. ",
+		desc = "Independence-class light aircraft carrier – Bataan, Hull Number CVL-29.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "badan",
@@ -22959,11 +22959,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[107291] = {
-		name = "Comfy Cotton Jammies ",
+		name = "Comfy Cotton Jammies",
 		ship_group = 10729,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Yaaaaawn... Huh!? Commander!? You scared me... I was just going to lie down and... Um, yes, with little Hellcat here... Goodnight... ",
+		desc = "Yaaaaawn... Huh!? Commander!? You scared me... I was just going to lie down and... Um, yes, with little Hellcat here... Goodnight...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "badan_2",
@@ -23056,11 +23056,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[107380] = {
-		name = "Shangri-La ",
+		name = "Shangri-La",
 		ship_group = 10738,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Essex-class aircraft carrier – Shangri-La, Hull Number CV-38. ",
+		desc = "Essex-class aircraft carrier – Shangri-La, Hull Number CV-38.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xianggelila",
@@ -23151,11 +23151,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[107381] = {
-		name = "Utopia's Collector ",
+		name = "Utopia's Collector",
 		ship_group = 10738,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Commander, welcome to my \"Utopia.\" Here, you can find my prized collection. Now, where should we start our detailed tour? ",
+		desc = "Commander, welcome to my \"Utopia.\" Here, you can find my prized collection. Now, where should we start our detailed tour?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xianggelila_2",
@@ -23347,7 +23347,7 @@ pg.ship_skin_template = {
 		ship_group = 10801,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Gato-class submarine - Dace (SS-247) ",
+		desc = "Gato-class submarine - Dace (SS-247)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "tiaoyu",
@@ -23438,11 +23438,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[108020] = {
-		name = "Albacore ",
+		name = "Albacore",
 		ship_group = 10802,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Gato-class submarine – Albacore, Hull Number SS-218. ",
+		desc = "Gato-class submarine – Albacore, Hull Number SS-218.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "daqinghuayu",
@@ -23630,11 +23630,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[108030] = {
-		name = "Cavalla ",
+		name = "Cavalla",
 		ship_group = 10803,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Gato-class submarine – Cavalla, Hull Number SS-244. ",
+		desc = "Gato-class submarine – Cavalla, Hull Number SS-244.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "jiqi",
@@ -23725,11 +23725,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[108031] = {
-		name = "Convenience Store Raid! ",
+		name = "Convenience Store Raid!",
 		ship_group = 10803,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "You're late, Commander! ... What's all this? Heheh, it's loot I got from the stop n' rob's bargain bin! Here, have some bread! ",
+		desc = "You're late, Commander! ... What's all this? Heheh, it's loot I got from the stop n' rob's bargain bin! Here, have some bread!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "jiqi_2",
@@ -23919,11 +23919,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[108040] = {
-		name = "Bluegill ",
+		name = "Bluegill",
 		ship_group = 10804,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Gato-class submarine – Bluegill, Hull Number SS-242. ",
+		desc = "Gato-class submarine – Bluegill, Hull Number SS-242.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "lansaiyu",
@@ -24219,11 +24219,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[112011] = {
-		name = "Revigorating Hestia ",
+		name = "Revigorating Hestia",
 		ship_group = 11201,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Listen, everyone~! Playing by the beach is fun, but please keep safety in mind! If you begin to feel ill, come see me~! ",
+		desc = "Listen, everyone~! Playing by the beach is fun, but please keep safety in mind! If you begin to feel ill, come see me~!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zaoshen_2",
@@ -24544,7 +24544,7 @@ pg.ship_skin_template = {
 		ship_group = 20101,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Selecting me for a retrofit proves that you are a Commander of culture! Heheh, you'd better prepare yourself! From now on, I'll make sure to \"take care\" of you even more thoroughly! ",
+		desc = "Selecting me for a retrofit proves that you are a Commander of culture! Heheh, you'd better prepare yourself! From now on, I'll make sure to \"take care\" of you even more thoroughly!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "nvjiang_g",
@@ -24646,7 +24646,7 @@ pg.ship_skin_template = {
 		ship_group = 20102,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "A-class destroyer – Acasta, Hull Number H09. ",
+		desc = "A-class destroyer – Acasta, Hull Number H09.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "akasita",
@@ -24751,11 +24751,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[201021] = {
-		name = "Fashionable Outing ",
+		name = "Fashionable Outing",
 		ship_group = 20102,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Hm? Guess we're both about to head out... Don't stare at me like that... Even I go outdoors sometimes... Since we're both, uh, headed the same way... maybe we could... walk there together? ",
+		desc = "Hm? Guess we're both about to head out... Don't stare at me like that... Even I go outdoors sometimes... Since we're both, uh, headed the same way... maybe we could... walk there together?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Akasita_2",
@@ -24971,11 +24971,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[201029] = {
-		name = "Acasta (Retrofit) ",
+		name = "Acasta (Retrofit)",
 		ship_group = 20102,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Meeeoooow! I haven't slept like that in forever! Hrm? Are you the one who woke me from my sleep? Woohoo, that makes you my owner! \"Why?\" Because I've totally fallen for you, duh!",
+		desc = "Ardent told me I \"gotta stop looking so tired\" and I \"gotta be more girly,\" so I did it while I was retrofitting... Do you recognise me, Commander? ... Umm, I'm Acasta, okay?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "akasita_g",
@@ -25084,7 +25084,7 @@ pg.ship_skin_template = {
 		ship_group = 20103,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "A-class destroyer – Ardent, Hull Number H41. ",
+		desc = "A-class destroyer – Ardent, Hull Number H41.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "rexin",
@@ -25189,11 +25189,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[201039] = {
-		name = "Ardent (Retrofit) ",
+		name = "Ardent (Retrofit)",
 		ship_group = 20103,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "New outfit, new rigging, same ardent spirit! Ahaha, I'm serious~! Commander, thanks a lot~! ",
+		desc = "New outfit, new rigging, same ardent spirit! Ahaha, I'm serious~! Commander, thanks a lot~!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "rexin_g",
@@ -26212,7 +26212,7 @@ pg.ship_skin_template = {
 		ship_group = 20110,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "H-happy Christmas! A-after that... umm... I have this present for ya, Commander... ",
+		desc = "H-happy Christmas! A-after that... umm... I have this present for ya, Commander...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xiaotiane_3",
@@ -26416,11 +26416,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[201104] = {
-		name = "An Offer To Be Maid ",
+		name = "An Offer To Be Maid",
 		ship_group = 20110,
 		group_index = 4,
 		illustrator2 = -1,
-		desc = "M-Master... good evening... C-Commander, don't stare at me so intently... *Whimper*... Saratoga told me that this is part of marketing yourself as an idol... ",
+		desc = "M-Master... good evening... C-Commander, don't stare at me so intently... *Whimper*... Saratoga told me that this is part of marketing yourself as an idol...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xiaotiane_4",
@@ -26859,11 +26859,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[201119] = {
-		name = "Foxhound (Retrofit) ",
+		name = "Foxhound (Retrofit)",
 		ship_group = 20111,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "I've grown so much that I can't jump like I used to... Commander, are you surprised by my post-retrofit appearance? *Giggle* ",
+		desc = "I've grown so much that I can't jump like I used to... Commander, are you surprised by my post-retrofit appearance? *Giggle*",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "huti_g",
@@ -27755,11 +27755,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[201212] = {
-		name = "Beach Picnic! ",
+		name = "Beach Picnic!",
 		ship_group = 20121,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "Everyone, hurry up! We rarely get to go out to play, so let's make every minute count! Javelin packed plenty of lunches, so let's have a picnic by the beach! ",
+		desc = "Everyone, hurry up! We rarely get to go out to play, so let's make every minute count! Javelin packed plenty of lunches, so let's have a picnic by the beach!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "biaoqiang_3",
@@ -27876,11 +27876,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[201213] = {
-		name = "Let’s Become Waitresses! ",
+		name = "Let’s Become Waitresses!",
 		ship_group = 20121,
 		group_index = 3,
 		illustrator2 = -1,
-		desc = "Tada! We’re all wearing the same uniform! It’s super cute, isn’t it? Heehee, I’ll be wearing it the entire time I’m on duty, so make sure to visit! ",
+		desc = "Tada! We’re all wearing the same uniform! It’s super cute, isn’t it? Heehee, I’ll be wearing it the entire time I’m on duty, so make sure to visit!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "biaoqiang_4",
@@ -27978,11 +27978,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[201214] = {
-		name = "Very Slow Advance! ",
+		name = "Very Slow Advance!",
 		ship_group = 20121,
 		group_index = 4,
 		illustrator2 = -1,
-		desc = "Javelin, advancing very slowly! Heehee~♪ ",
+		desc = "Javelin, advancing very slowly! Heehee~♪",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "biaoqiang_5",
@@ -28290,11 +28290,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[201218] = {
-		name = "Blissful Purity ",
+		name = "Blissful Purity",
 		ship_group = 20121,
 		group_index = 8,
 		illustrator2 = -1,
-		desc = "Today, I must be the happiest girl in the world! Hehe~ ",
+		desc = "Today, I must be the happiest girl in the world! Hehe~",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "biaoqiang_h",
@@ -28875,7 +28875,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[201231] = {
-		name = "The Breath of Spring ",
+		name = "The Breath of Spring",
 		ship_group = 20123,
 		group_index = 1,
 		illustrator2 = -1,
@@ -28986,11 +28986,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[201232] = {
-		name = "Little Devil in White ",
+		name = "Little Devil in White",
 		ship_group = 20123,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "Commander, I am now a nurse, so thou hast no choice but to give me thy blood~! Hehe, just kidding~! ",
+		desc = "Commander, I am now a nurse, so thou hast no choice but to give me thy blood~! Hehe, just kidding~!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xixuegui_3",
@@ -29360,7 +29360,7 @@ pg.ship_skin_template = {
 		ship_group = 20124,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "J-class destroyer – Jupiter, Hull Number F85. ",
+		desc = "J-class destroyer – Jupiter, Hull Number F85.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "qiubite",
@@ -30027,11 +30027,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[201290] = {
-		name = "Echo ",
+		name = "Echo",
 		ship_group = 20129,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "E-class destroyer – Echo. ",
+		desc = "E-class destroyer – Echo.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "huisheng",
@@ -30503,7 +30503,7 @@ pg.ship_skin_template = {
 		ship_group = 20202,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "The cute and charming Achilles is Super☆Retro☆Fitted! Even my heel won't give me any problems now! Well, not like it really ever did before, ahaha~☆ ",
+		desc = "The cute and charming Achilles is Super☆Retro☆Fitted! Even my heel won't give me any problems now! Well, not like it really ever did before, ahaha~☆",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "ajilisi_g",
@@ -30967,7 +30967,7 @@ pg.ship_skin_template = {
 		ship_group = 20204,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Dido-class light cruiser – Dido (HMS Dido.) ",
+		desc = "Dido-class light cruiser – Dido (HMS Dido.)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "daiduo",
@@ -31187,7 +31187,7 @@ pg.ship_skin_template = {
 		ship_group = 20207,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Southampton-class light cruiser – Southampton. ",
+		desc = "Southampton-class light cruiser – Southampton.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "nananpudun",
@@ -31512,11 +31512,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[202081] = {
-		name = "Cloak and Dagger ",
+		name = "Cloak and Dagger",
 		ship_group = 20208,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "... Did you find out about my undercover identity? You leave me no choice. Master, I cannot allow you to leave this room... Of course I'm jesting, it's merely a hobby. ",
+		desc = "... Did you find out about my undercover identity? You leave me no choice. Master, I cannot allow you to leave this room... Of course I'm jesting, it's merely a hobby.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xiefeierde_2",
@@ -31732,11 +31732,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[202100] = {
-		name = "Gloucester ",
+		name = "Gloucester",
 		ship_group = 20210,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Gloucester-class light cruiser – Gloucester (HMS Gloucester.) ",
+		desc = "Gloucester-class light cruiser – Gloucester (HMS Gloucester.)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "geluosite",
@@ -32418,11 +32418,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[202121] = {
-		name = "Iridescent Rosa ",
+		name = "Iridescent Rosa",
 		ship_group = 20212,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Hehe... Master, why are you so stunned from seeing me? I thought you perhaps wanted to see me in a qipao... was I mistaken? ",
+		desc = "Hehe... Master, why are you so stunned from seeing me? I thought you perhaps wanted to see me in a qipao... was I mistaken?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "beierfasite_2",
@@ -33350,7 +33350,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[202151] = {
-		name = "The Tale of Spring ",
+		name = "The Tale of Spring",
 		ship_group = 20215,
 		group_index = 1,
 		illustrator2 = -1,
@@ -33461,11 +33461,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[202152] = {
-		name = "Dawn's Paean ",
+		name = "Dawn's Paean",
 		ship_group = 20215,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "I've always believed that music is unique in its power to touch one's heart, so I decided to learn the violin. Commander, please enjoy my performance. ",
+		desc = "I've always believed that music is unique in its power to touch one's heart, so I decided to learn the violin. Commander, please enjoy my performance.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "ouruola_3",
@@ -34269,11 +34269,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[202180] = {
-		name = "Little Bel ",
+		name = "Little Bel",
 		ship_group = 20218,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Edinburgh-class light cruiser – Belfast. ",
+		desc = "Edinburgh-class light cruiser – Belfast.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "beierfasite_younv",
@@ -34382,7 +34382,7 @@ pg.ship_skin_template = {
 		ship_group = 20219,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Southampton-class light cruiser – Newcastle (HMS Newcastle.) ",
+		desc = "Southampton-class light cruiser – Newcastle (HMS Newcastle.)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "niukasier",
@@ -34705,11 +34705,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[202210] = {
-		name = "Curacoa ",
+		name = "Curacoa",
 		ship_group = 20221,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Ceres-class light cruiser - Curacoa (D41) ",
+		desc = "Ceres-class light cruiser - Curacoa (D41)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kulasuo",
@@ -34814,11 +34814,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[202211] = {
-		name = "Eastern Grace ",
+		name = "Eastern Grace",
 		ship_group = 20221,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "As I am but a maid, it is a great honor to be able to wear such a gorgeous outfit… How do I look, Commander? \"Not sure where to start feasting your eyes?\" Oh my... Commander... ",
+		desc = "As I am but a maid, it is a great honor to be able to wear such a gorgeous outfit… How do I look, Commander? \"Not sure where to start feasting your eyes?\" Oh my... Commander...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kulasuo_2",
@@ -34929,7 +34929,7 @@ pg.ship_skin_template = {
 		ship_group = 20221,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "It is my honour to be of everyone's service. Light cruiser Curacoa takes it upon herself to continue serving you, Master. ",
+		desc = "It is my honour to be of everyone's service. Light cruiser Curacoa takes it upon herself to continue serving you, Master.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kulasuo_g",
@@ -35034,11 +35034,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[202220] = {
-		name = "Curlew ",
+		name = "Curlew",
 		ship_group = 20222,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Ceres-class light cruiser - Curlew (D42) ",
+		desc = "Ceres-class light cruiser - Curlew (D42)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "biaoyu",
@@ -35143,11 +35143,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[202221] = {
-		name = "Rhythm of the Dragon Empery ",
+		name = "Rhythm of the Dragon Empery",
 		ship_group = 20222,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "You can feel the profound heritage and culture of the Dragon Empery from all these customs and outfits for the Lunar New Year's Festival… It seems to be ever more necessary to study the traditions and etiquette of this wondrous culture. ",
+		desc = "You can feel the profound heritage and culture of the Dragon Empery from all these customs and outfits for the Lunar New Year's Festival… It seems to be ever more necessary to study the traditions and etiquette of this wondrous culture.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "biaoyu_2",
@@ -35820,11 +35820,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[202230] = {
-		name = "Swiftsure ",
+		name = "Swiftsure",
 		ship_group = 20223,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "I am Swiftsure, a light cruiser of the Royal Navy... If it is not too much for one such as myself to ask, I would like to support your fleet in whatever way I can. ",
+		desc = "I am Swiftsure, a light cruiser of the Royal Navy... If it is not too much for one such as myself to ask, I would like to support your fleet in whatever way I can.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "quejie",
@@ -36040,11 +36040,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[202232] = {
-		name = "Beauty of White Jade ",
+		name = "Beauty of White Jade",
 		ship_group = 20223,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "I wanted to try this on, but... I'm not good with fancy clothes... Huh? I'm really attractive?! ...Thank you very much. I appreciate the thought, even if you're just trying to make me feel better... ",
+		desc = "I wanted to try this on, but... I'm not good with fancy clothes... Huh? I'm really attractive?! ...Thank you very much. I appreciate the thought, even if you're just trying to make me feel better...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "quejie_3",
@@ -36608,11 +36608,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[202260] = {
-		name = "Glasgow ",
+		name = "Glasgow",
 		ship_group = 20226,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Southampton-class light cruiser - Glasgow (C-21) ",
+		desc = "Southampton-class light cruiser - Glasgow (C-21)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "gelasige",
@@ -36960,11 +36960,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[203019] = {
-		name = "London (Retrofit) ",
+		name = "London (Retrofit)",
 		ship_group = 20301,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Um... Your Excellency, could you please stop staring at me like you don't recognise me? I didn't think that I'd get a new look for my retrofit, either... But, don't you think it's rather cute? ",
+		desc = "Um... Your Excellency, could you please stop staring at me like you don't recognise me? I didn't think that I'd get a new look for my retrofit, either... But, don't you think it's rather cute?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "lundun_g",
@@ -38262,7 +38262,7 @@ pg.ship_skin_template = {
 		ship_group = 20308,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Commander, what do you think? I look more mature than I did before... right? ",
+		desc = "Commander, what do you think? I look more mature than I did before... right?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aikesaite_g",
@@ -39160,11 +39160,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[204038] = {
-		name = "Rosey Love Poem ",
+		name = "Rosey Love Poem",
 		ship_group = 20403,
 		group_index = 8,
 		illustrator2 = -1,
-		desc = "If the smooth path only allows one person to travel at a time, then I’ll gladly walk the path not taken with you hand-in-hand. ",
+		desc = "If the smooth path only allows one person to travel at a time, then I’ll gladly walk the path not taken with you hand-in-hand.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "hude_h",
@@ -39262,11 +39262,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[204040] = {
-		name = "Little Renown ",
+		name = "Little Renown",
 		ship_group = 20404,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Renown-Class Battlecruiser - HMS Renown ",
+		desc = "Renown-Class Battlecruiser - HMS Renown",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "shengwang_younv",
@@ -39731,11 +39731,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[205021] = {
-		name = "Christmas Warrior ",
+		name = "Christmas Warrior",
 		ship_group = 20502,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "This year, I am in charge of delivering presents to the children of the Royal Navy. Let's get going once I finish decorating this Christmas tree! ",
+		desc = "This year, I am in charge of delivering presents to the children of the Royal Navy. Let's get going once I finish decorating this Christmas tree!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "yanzhan_2",
@@ -39839,7 +39839,7 @@ pg.ship_skin_template = {
 		ship_group = 20502,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Warspite, retrofitting complete. Mm, I rather like this feeling of being rejuvenated... Now, Commander, let us make our way towards new battlegrounds! ",
+		desc = "Warspite, retrofitting complete. Mm, I rather like this feeling of being rejuvenated... Now, Commander, let us make our way towards new battlegrounds!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "yanzhan_g",
@@ -40052,11 +40052,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[205031] = {
-		name = "Luna Witch ",
+		name = "Luna Witch",
 		ship_group = 20503,
 		group_index = 1,
 		illustrator2 = 19,
-		desc = "This is such a weird costume… oh well, it’s Halloween after all. It cannot be so bad, this is a fun activity after all. First things first, I didn’t say that I would join from the very beginning! ",
+		desc = "This is such a weird costume… oh well, it’s Halloween after all. It cannot be so bad, this is a fun activity after all. First things first, I didn’t say that I would join from the very beginning!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "naerxun_2",
@@ -40386,11 +40386,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[205050] = {
-		name = "King George V ",
+		name = "King George V",
 		ship_group = 20505,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "King George V-class battleship – King George V. ",
+		desc = "King George V-class battleship – King George V.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "qiaozhiwushi",
@@ -40488,11 +40488,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[205051] = {
-		name = "Rose's Regalia ",
+		name = "Rose's Regalia",
 		ship_group = 20505,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Sorry to keep you waiting, Commander... I don't get to wear a dress very often, so it took me a bit longer. Let's get going, then. Remember, you'll be the lead tonight. Haha~ ",
+		desc = "Sorry to keep you waiting, Commander... I don't get to wear a dress very often, so it took me a bit longer. Let's get going, then. Remember, you'll be the lead tonight. Haha~",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "qiaozhiwushi_2",
@@ -40825,11 +40825,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[205062] = {
-		name = "Sakura Elegance ",
+		name = "Sakura Elegance",
 		ship_group = 20506,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "I've been wearing Royal attire my whole life, so a change in pace doesn't seem bad. Oh, Commander, good timing. Can you explain to me how to celebrate the New Year here? ",
+		desc = "I've been wearing Royal attire my whole life, so a change in pace doesn't seem bad. Oh, Commander, good timing. Can you explain to me how to celebrate the New Year here?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "weiershiqinwang_4",
@@ -41486,11 +41486,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[206019] = {
-		name = "Hermes (Retrofit) ",
+		name = "Hermes (Retrofit)",
 		ship_group = 20601,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Our glory coalesces into the bonds that forge a bright new future! Let's rev it up! Hermes, retrofit complete! ",
+		desc = "Our glory coalesces into the bonds that forge a bright new future! Let's rev it up! Hermes, retrofit complete!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "jingjishen_g",
@@ -41839,7 +41839,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[206032] = {
-		name = "The Gift of Spring ",
+		name = "The Gift of Spring",
 		ship_group = 20603,
 		group_index = 2,
 		illustrator2 = -1,
@@ -41957,11 +41957,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[206033] = {
-		name = "Long-Awaited Date ",
+		name = "Long-Awaited Date",
 		ship_group = 20603,
 		group_index = 3,
 		illustrator2 = -1,
-		desc = "Ah, big brother, you're here... Ehehe, I only just got here as well. Um... shall we go then? I kind of... want to go to the amusement park... ",
+		desc = "Ah, big brother, you're here... Ehehe, I only just got here as well. Um... shall we go then? I kind of... want to go to the amusement park...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "dujiaoshou_4",
@@ -42327,11 +42327,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[206040] = {
-		name = "Centaur ",
+		name = "Centaur",
 		ship_group = 20604,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Centaur-class light aircraft carrier – Centaur. ",
+		desc = "Centaur-class light aircraft carrier – Centaur.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "banrenma",
@@ -42443,11 +42443,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[206041] = {
-		name = "Beachside Undine ",
+		name = "Beachside Undine",
 		ship_group = 20604,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Even though I see the ocean every day, changing into this swimsuit gives me a totally new outlook on it. How about you, Commander? Don't you feel at ease? ",
+		desc = "Even though I see the ocean every day, changing into this swimsuit gives me a totally new outlook on it. How about you, Commander? Don't you feel at ease?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "banrenma_2",
@@ -42696,11 +42696,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[206050] = {
-		name = "Chaser ",
+		name = "Chaser",
 		ship_group = 20605,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Attacker-class escort carrier - Chaser (D32) ",
+		desc = "Attacker-class escort carrier - Chaser (D32)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zhuiganzhe",
@@ -42812,11 +42812,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[206051] = {
-		name = "The Way of the Dragon Empery ",
+		name = "The Way of the Dragon Empery",
 		ship_group = 20605,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Does this dress from the Dragon Empery not suit me well? Though I was born in the Eagle Union and raised by the Royal Navy, my time in the Dragon Empery also left a deep impression upon me. Why don't we have a chat about their profound culture and tea? Hehe~ ",
+		desc = "Does this dress from the Dragon Empery not suit me well? Though I was born in the Eagle Union and raised by the Royal Navy, my time in the Dragon Empery also left a deep impression upon me. Why don't we have a chat about their profound culture and tea? Hehe~",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zhuiganzhe_2",
@@ -43149,11 +43149,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[207021] = {
-		name = "Coast Watcher ",
+		name = "Coast Watcher",
 		ship_group = 20702,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Nothing says summer like the sun, the beach, and destroyers... Ahem! Th-that's right! Even though we're relaxing, we still have to keep an eye out for enemy destroyers! Commander, I may be in a swimsuit, but I'm ready to sortie at any time! ",
+		desc = "Nothing says summer like the sun, the beach, and destroyers... Ahem! Th-that's right! Even though we're relaxing, we still have to keep an eye out for enemy destroyers! Commander, I may be in a swimsuit, but I'm ready to sortie at any time!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "huangjiafangzhou_2",
@@ -43246,11 +43246,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[207022] = {
-		name = "Guardian of the Ball ",
+		name = "Guardian of the Ball",
 		ship_group = 20702,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "One tends to let her guard down at a party like this, but worry not! Put the ball in my hands and let Ark Royal keep you safe! ",
+		desc = "One tends to let her guard down at a party like this, but worry not! Put the ball in my hands and let Ark Royal keep you safe!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "huangjiafangzhou_3",
@@ -43576,11 +43576,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[207031] = {
-		name = "Never-Ending Tea Party ",
+		name = "Never-Ending Tea Party",
 		ship_group = 20703,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Sun kissed skin, scrumptious snacks and delicious black tea. It’s as if both my mind and body have been rejuvenated— Commander, care to join me for some leisurely chit-chat? ",
+		desc = "Sun kissed skin, scrumptious snacks and delicious black tea. It’s as if both my mind and body have been rejuvenated— Commander, care to join me for some leisurely chit-chat?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "guanghui_2",
@@ -43768,11 +43768,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[207033] = {
-		name = "Resplendent Hibiscus ",
+		name = "Resplendent Hibiscus",
 		ship_group = 20703,
 		group_index = 3,
 		illustrator2 = -1,
-		desc = "This is my first time wearing such exotic fashion, hehe~. Commander, if you like how I look, how about showing me off a little~? ",
+		desc = "This is my first time wearing such exotic fashion, hehe~. Commander, if you like how I look, how about showing me off a little~?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "guanghui_4",
@@ -44260,11 +44260,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[207050] = {
-		name = "Formidable ",
+		name = "Formidable",
 		ship_group = 20705,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Illustrious-class aircraft carrier – Formidable. ",
+		desc = "Illustrious-class aircraft carrier – Formidable.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kewei",
@@ -44355,11 +44355,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[207051] = {
-		name = "The Lady of the Beach ",
+		name = "The Lady of the Beach",
 		ship_group = 20705,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Good day, Commander. I am Formidable, third ship of the Illustrious class. Pleased to make your acquaintance. ",
+		desc = "Good day, Commander. I am Formidable, third ship of the Illustrious class. Pleased to make your acquaintance.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kewei_2",
@@ -44456,7 +44456,7 @@ pg.ship_skin_template = {
 		ship_group = 20706,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Courageous-class aircraft carrier – Glorious, Hull Number 77. ",
+		desc = "Courageous-class aircraft carrier – Glorious, Hull Number 77.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "guangrong",
@@ -44547,11 +44547,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[207061] = {
-		name = "Glorious School Life ",
+		name = "Glorious School Life",
 		ship_group = 20706,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Being able to occasionally have a peaceful school life... is something I could get used to. Commander, look at the markings on this butterfly - aren't they lovely? ",
+		desc = "Being able to occasionally have a peaceful school life... is something I could get used to. Commander, look at the markings on this butterfly - aren't they lovely?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Guangrong_2",
@@ -44644,11 +44644,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[207090] = {
-		name = "Little Illustrious ",
+		name = "Little Illustrious",
 		ship_group = 20709,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Illustrious-class aircraft carrier – Illustrious, Hull Number 87. ",
+		desc = "Illustrious-class aircraft carrier – Illustrious, Hull Number 87.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "guanghui_younv",
@@ -44854,11 +44854,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[213011] = {
-		name = "Illusory Happiness ",
+		name = "Illusory Happiness",
 		ship_group = 21301,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Those who embrace the shadows will find only an illusory happiness... But for me, that much is sufficient. ",
+		desc = "Those who embrace the shadows will find only an illusory happiness... But for me, that much is sufficient.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "heianjie_2",
@@ -45194,11 +45194,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[213021] = {
-		name = "Halloween Terror ",
+		name = "Halloween Terror",
 		ship_group = 21302,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "I have to dress up as a ghost for Halloween, but I'm not very good at making complicated costumes... Is something like this okay? ",
+		desc = "I have to dress up as a ghost for Halloween, but I'm not very good at making complicated costumes... Is something like this okay?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kongbu_2",
@@ -45530,11 +45530,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301010] = {
-		name = "Fubuki ",
+		name = "Fubuki",
 		ship_group = 30101,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Special type I {namecode:2} Destroyer Class— {namecode:2} ",
+		desc = "Special type I {namecode:2} Destroyer Class— {namecode:2}",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "chuixue",
@@ -45639,11 +45639,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301011] = {
-		name = "5 Minutes Till I'm Late ",
+		name = "5 Minutes Till I'm Late",
 		ship_group = 30101,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Oh no! I-I'm gonna be late for school! Y-you need to speed up too, doggy! *Pant*... *pant*... Why'd none of my sisters wake me up before they left?! ",
+		desc = "Oh no! I-I'm gonna be late for school! Y-you need to speed up too, doggy! *Pant*... *pant*... Why'd none of my sisters wake me up before they left?!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "chuixue_2",
@@ -45863,7 +45863,7 @@ pg.ship_skin_template = {
 		ship_group = 30101,
 		group_index = 3,
 		illustrator2 = -1,
-		desc = "Check it out, Commander! What do you think? ... No, not my dress! I'm talking about the tuba! Want me to play a tune for you~? ",
+		desc = "Check it out, Commander! What do you think? ... No, not my dress! I'm talking about the tuba! Want me to play a tune for you~?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "chuixue_3",
@@ -46223,7 +46223,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[301051] = {
-		name = "Witch in Ambush ",
+		name = "Witch in Ambush",
 		ship_group = 30105,
 		group_index = 1,
 		illustrator2 = -1,
@@ -46332,11 +46332,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301053] = {
-		name = "Rock 'n' Demon ",
+		name = "Rock 'n' Demon",
 		ship_group = 30105,
 		group_index = 3,
 		illustrator2 = -1,
-		desc = "Commander, want to listen to music together? Do you like... this non-combat-oriented Ayanami? ",
+		desc = "Commander, want to listen to music together? Do you like... this non-combat-oriented Ayanami?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Lingbo_4",
@@ -46441,11 +46441,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301054] = {
-		name = "Lunar Demon ",
+		name = "Lunar Demon",
 		ship_group = 30105,
 		group_index = 4,
 		illustrator2 = -1,
-		desc = "Compared to the way we celebrate New Year in the Sakura Empire, the festivities of the Dragon Empery have a completely different atmosphere... But, I don't really mind the liveliness... Commander, do you like festivals? ",
+		desc = "Compared to the way we celebrate New Year in the Sakura Empire, the festivities of the Dragon Empery have a completely different atmosphere... But, I don't really mind the liveliness... Commander, do you like festivals?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "lingbo_5",
@@ -46881,7 +46881,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[301058] = {
-		name = "Demon's Finest Dress ",
+		name = "Demon's Finest Dress",
 		ship_group = 30105,
 		group_index = 8,
 		illustrator2 = -1,
@@ -46990,7 +46990,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[301059] = {
-		name = "Ayanami (Retrofit) ",
+		name = "Ayanami (Retrofit)",
 		ship_group = 30105,
 		group_index = 9,
 		illustrator2 = -1,
@@ -47427,11 +47427,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301100] = {
-		name = "Hibiki ",
+		name = "Hibiki",
 		ship_group = 30110,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Type III Akatsuki-class destroyer number two – Hibiki. ",
+		desc = "Type III Akatsuki-class destroyer number two – Hibiki.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xiang",
@@ -47649,7 +47649,7 @@ pg.ship_skin_template = {
 		ship_group = 30111,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Type III Akatsuki-class destroyer number three - Ikazuchi. ",
+		desc = "Type III Akatsuki-class destroyer number three - Ikazuchi.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "lei",
@@ -48003,7 +48003,7 @@ pg.ship_skin_template = {
 		ship_group = 30112,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Type III Akatsuki-class destroyer number four - Inazuma. ",
+		desc = "Type III Akatsuki-class destroyer number four - Inazuma.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "dian",
@@ -48125,7 +48125,7 @@ pg.ship_skin_template = {
 		ship_group = 30112,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "It doesn’t matter if {namecode:14} becomes Mr. Commander's dessert… but if {namecode:14} cannot be found, Mr. Commander will feel so devastated, perhaps he won’t be able to command the fleet… so… please! Please convey {namecode:14}'s heartfelt wish to Mr. Commander—— ",
+		desc = "It doesn’t matter if {namecode:14} becomes Mr. Commander's dessert… but if {namecode:14} cannot be found, Mr. Commander will feel so devastated, perhaps he won’t be able to command the fleet… so… please! Please convey {namecode:14}'s heartfelt wish to Mr. Commander——",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "dian_2",
@@ -48475,11 +48475,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301131] = {
-		name = "Is The Order A Torpedo? ",
+		name = "Is The Order A Torpedo?",
 		ship_group = 30113,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "H-here they come... Your order, and your cutesy dutesy maid... Whoaahh! I'm sorry! Look out! ",
+		desc = "H-here they come... Your order, and your cutesy dutesy maid... Whoaahh! I'm sorry! Look out!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Bailu_2",
@@ -48701,11 +48701,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301141] = {
-		name = "Shogun of Snowballs ",
+		name = "Shogun of Snowballs",
 		ship_group = 30114,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Come out of your office, Commander! You'll become lazy if you huddle up next to the heater all day! Let's go out and play in the snow! ",
+		desc = "Come out of your office, Commander! You'll become lazy if you huddle up next to the heater all day! Let's go out and play in the snow!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xili_2",
@@ -48909,7 +48909,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[301148] = {
-		name = "The Bride of Solomon ",
+		name = "The Bride of Solomon",
 		ship_group = 30114,
 		group_index = 8,
 		illustrator2 = -1,
@@ -49243,11 +49243,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301152] = {
-		name = "The Ballroom's Lucky Star ",
+		name = "The Ballroom's Lucky Star",
 		ship_group = 30115,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "Oh my. Commander, you must be pretty lucky to bump into me here, hehe~ Since you're here, you can have the privilege of being my escort tonight. Now, be grateful~♪ ",
+		desc = "Oh my. Commander, you must be pretty lucky to bump into me here, hehe~ Since you're here, you can have the privilege of being my escort tonight. Now, be grateful~♪",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "shiyu_3",
@@ -49449,11 +49449,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301160] = {
-		name = "Yukikaze ",
+		name = "Yukikaze",
 		ship_group = 30116,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Kagerou-class Destroyer no. 8 - Yukikaze ",
+		desc = "Kagerou-class Destroyer no. 8 - Yukikaze",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xuefeng",
@@ -49567,11 +49567,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301161] = {
-		name = "Sovereign of the Swing ",
+		name = "Sovereign of the Swing",
 		ship_group = 30116,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Wa ha ha! My \"universal-as-long-as-there-is-a-ceiling\" swing set is finally complete! Commander, are you jealous? Want to give it a try? Too~ bad~! This seat is reserved only for the noble and elegant Yukikaze! ",
+		desc = "Wa ha ha! My \"universal-as-long-as-there-is-a-ceiling\" swing set is finally complete! Commander, are you jealous? Want to give it a try? Too~ bad~! This seat is reserved only for the noble and elegant Yukikaze!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xuefeng_2",
@@ -49806,11 +49806,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301168] = {
-		name = "The Warmth of Spring ",
+		name = "The Warmth of Spring",
 		ship_group = 30116,
 		group_index = 8,
 		illustrator2 = -1,
-		desc = "This outfit is sooo cute~ ehehe... Ack!! *cough* *cough*! Ahem! From now on, you are the faithful companion of Yukikaze the Great! As such, you will not be permitted to leave my side, understood? ",
+		desc = "This outfit is sooo cute~ ehehe... Ack!! *cough* *cough*! Ahem! From now on, you are the faithful companion of Yukikaze the Great! As such, you will not be permitted to leave my side, understood?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xuefeng_h",
@@ -50023,7 +50023,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[301171] = {
-		name = "Pumpkins and Festivities! ",
+		name = "Pumpkins and Festivities!",
 		ship_group = 30117,
 		group_index = 1,
 		illustrator2 = -1,
@@ -50132,11 +50132,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301179] = {
-		name = "Kagerou (Retrofit) ",
+		name = "Kagerou (Retrofit)",
 		ship_group = 30117,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "The newly-retrofitted Kagerou has arrived~ I won't let that sister of mine pass me up anymore! Commander, lead us forward towards distant shores! ",
+		desc = "The newly-retrofitted Kagerou has arrived~ I won't let that sister of mine pass me up anymore! Commander, lead us forward towards distant shores!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "yangyan_g",
@@ -50453,11 +50453,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301189] = {
-		name = "Shiranui (Retrofit) ",
+		name = "Shiranui (Retrofit)",
 		ship_group = 30118,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "If you have this much money remaining... then you may visit me and spend it with confidence... A discount, you say...? Of course... Someday, I shall give you one... ",
+		desc = "If you have this much money remaining... then you may visit me and spend it with confidence... A discount, you say...? Of course... Someday, I shall give you one...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "buzhihuo_g",
@@ -50997,11 +50997,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301230] = {
-		name = "Wakaba ",
+		name = "Wakaba",
 		ship_group = 30123,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Hatsuharu-class destroyer number three – Wakaba. ",
+		desc = "Hatsuharu-class destroyer number three – Wakaba.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "ruoye",
@@ -51217,11 +51217,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301240] = {
-		name = "Hatsushimo ",
+		name = "Hatsushimo",
 		ship_group = 30124,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Hatsuharu-class Destroyer, number 4 - Hatsushimo ",
+		desc = "Hatsuharu-class Destroyer, number 4 - Hatsushimo",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "chushuang",
@@ -51439,7 +51439,7 @@ pg.ship_skin_template = {
 		ship_group = 30125,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Hatsuharu-class destroyer no. 5 - Ariake ",
+		desc = "Hatsuharu-class destroyer no. 5 - Ariake",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "youming",
@@ -51666,11 +51666,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301261] = {
-		name = "Maid-In-Training! ",
+		name = "Maid-In-Training!",
 		ship_group = 30126,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "\"I, Yuugure the maid, shall dedicate myself to Ariake, my sister, and you, Commander!\"... Eek?! M-my skirt...! ",
+		desc = "\"I, Yuugure the maid, shall dedicate myself to Ariake, my sister, and you, Commander!\"... Eek?! M-my skirt...!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Ximu_2",
@@ -51777,11 +51777,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301262] = {
-		name = "Twilight Blossom ",
+		name = "Twilight Blossom",
 		ship_group = 30126,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "The Dragon Empery's New Year celebrations and new outfits are sure to lift everyone's spirits~ My sister will probably love this new dress as well. Commander, what do you think? ",
+		desc = "The Dragon Empery's New Year celebrations and new outfits are sure to lift everyone's spirits~ My sister will probably love this new dress as well. Commander, what do you think?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "ximu_3",
@@ -51888,11 +51888,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301263] = {
-		name = "Evening Flower ",
+		name = "Evening Flower",
 		ship_group = 30126,
 		group_index = 3,
 		illustrator2 = -1,
-		desc = "I finished changing, Commander. This dress is very pretty, but... isn't it missing something up top? ",
+		desc = "I finished changing, Commander. This dress is very pretty, but... isn't it missing something up top?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "ximu_4",
@@ -52108,11 +52108,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301270] = {
-		name = "Kuroshio ",
+		name = "Kuroshio",
 		ship_group = 30127,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Kagerou-class destroyer number three – Kuroshio. ",
+		desc = "Kagerou-class destroyer number three – Kuroshio.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "heichao",
@@ -52217,11 +52217,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301280] = {
-		name = "Oyashio ",
+		name = "Oyashio",
 		ship_group = 30128,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Kagerou-class destroyer number four – Oyashio. ",
+		desc = "Kagerou-class destroyer number four – Oyashio.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "qinchao",
@@ -52435,11 +52435,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301309] = {
-		name = "Kamikaze (Retrofit) ",
+		name = "Kamikaze (Retrofit)",
 		ship_group = 30130,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Ohohoho, you must have a sharp eye if you've decided to retrofit me~ Now that I've been chosen, I cannot afford to embarrass you. Now, take a good and thorough look at this veteran's aspirations~ ",
+		desc = "Ohohoho, you must have a sharp eye if you've decided to retrofit me~ Now that I've been chosen, I cannot afford to embarrass you. Now, take a good and thorough look at this veteran's aspirations~",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "shenfeng_g",
@@ -52544,11 +52544,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301310] = {
-		name = "Matsukaze ",
+		name = "Matsukaze",
 		ship_group = 30131,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Kamikaze-class destroyer number four – Matsukaze. ",
+		desc = "Kamikaze-class destroyer number four – Matsukaze.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "songfeng",
@@ -52653,11 +52653,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301319] = {
-		name = "Matsukaze (Retrofit) ",
+		name = "Matsukaze (Retrofit)",
 		ship_group = 30131,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "There we go... My fan is too big, and I'm not used to carrying it around yet... Ah, right, come here for a sec, Commander~ I'll fan you with some cool air~ Come on now, no need to be shy~ ",
+		desc = "There we go... My fan is too big, and I'm not used to carrying it around yet... Ah, right, come here for a sec, Commander~ I'll fan you with some cool air~ Come on now, no need to be shy~",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "songfeng_g",
@@ -53204,11 +53204,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301329] = {
-		name = "Mutsuki (Retrofit) ",
+		name = "Mutsuki (Retrofit)",
 		ship_group = 30132,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Comainder, I'm done retrofitting! Have some candy! Hm? You're always nice to me, so I'm giving you some candy! ",
+		desc = "Comainder, I'm done retrofitting! Have some candy! Hm? You're always nice to me, so I'm giving you some candy!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "muyue_g",
@@ -53642,7 +53642,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[301350] = {
-		name = "Uzuki ",
+		name = "Uzuki",
 		ship_group = 30135,
 		group_index = 0,
 		illustrator2 = -1,
@@ -53860,7 +53860,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[301370] = {
-		name = "Minazuki ",
+		name = "Minazuki",
 		ship_group = 30137,
 		group_index = 0,
 		illustrator2 = -1,
@@ -53969,11 +53969,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301380] = {
-		name = "Fumizuki ",
+		name = "Fumizuki",
 		ship_group = 30138,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Mutsuki-class Destroyer number seven – Fumizuki. ",
+		desc = "Mutsuki-class Destroyer number seven – Fumizuki.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "wenyue",
@@ -54071,11 +54071,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301381] = {
-		name = "Sleepy Fairy ",
+		name = "Sleepy Fairy",
 		ship_group = 30138,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Huh...? Where am I...? What time is it...? ",
+		desc = "Huh...? Where am I...? What time is it...?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Wenyue_2",
@@ -54177,7 +54177,7 @@ pg.ship_skin_template = {
 		ship_group = 30139,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Mutsuki-class destroyer number eight – Nagatsuki. ",
+		desc = "Mutsuki-class destroyer number eight – Nagatsuki.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "changyue",
@@ -54379,7 +54379,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[301410] = {
-		name = "Mikazuki ",
+		name = "Mikazuki",
 		ship_group = 30141,
 		group_index = 0,
 		illustrator2 = -1,
@@ -54599,11 +54599,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301490] = {
-		name = "Kawakaze ",
+		name = "Kawakaze",
 		ship_group = 30149,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Shiratsuyu-class destroyer number nine – Kawakaze. ",
+		desc = "Shiratsuyu-class destroyer number nine – Kawakaze.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "jiangfeng",
@@ -54701,11 +54701,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301491] = {
-		name = "Monochromatic Interlude ",
+		name = "Monochromatic Interlude",
 		ship_group = 30149,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Mhm. Lightweight clothing makes it easier to fight. Thanks, Commander... \"It looks cute on me\"? W-well, thanks... ",
+		desc = "Mhm. Lightweight clothing makes it easier to fight. Thanks, Commander... \"It looks cute on me\"? W-well, thanks...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Jiangfeng_2",
@@ -54922,7 +54922,7 @@ pg.ship_skin_template = {
 		ship_group = 30154,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Yuugumo-class destroyer – Kiyonami. ",
+		desc = "Yuugumo-class destroyer – Kiyonami.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "qingbo",
@@ -55226,11 +55226,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301570] = {
-		name = "Harutsuki ",
+		name = "Harutsuki",
 		ship_group = 30157,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Akizuki-class destroyer number nine – Harutsuki. ",
+		desc = "Akizuki-class destroyer number nine – Harutsuki.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "chunyue",
@@ -55328,11 +55328,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301580] = {
-		name = "Yoizuki ",
+		name = "Yoizuki",
 		ship_group = 30158,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Akizuki-class destroyer number ten – Yoizuki. ",
+		desc = "Akizuki-class destroyer number ten – Yoizuki.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xiaoyue",
@@ -55430,11 +55430,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301581] = {
-		name = "Sports Festival Preparations ",
+		name = "Sports Festival Preparations",
 		ship_group = 30158,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "It's my turn? Hold on... Umm, could you please not stare at me like that? It's... making me feel uncomfortable. ",
+		desc = "It's my turn? Hold on... Umm, could you please not stare at me like that? It's... making me feel uncomfortable.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xiaoyue_2",
@@ -55643,11 +55643,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301591] = {
-		name = "Seasonal Shogun ",
+		name = "Seasonal Shogun",
 		ship_group = 30159,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Before you raise a fuss about it, let me just tell you this - the concept of \"Christmas\" already existed during the Sengoku period, so there's nothing weird about putting on a Christmas outfit! ",
+		desc = "Before you raise a fuss about it, let me just tell you this - the concept of \"Christmas\" already existed during the Sengoku period, so there's nothing weird about putting on a Christmas outfit!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "pufeng_2",
@@ -55754,7 +55754,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[301600] = {
-		name = "Isokaze ",
+		name = "Isokaze",
 		ship_group = 30160,
 		group_index = 0,
 		illustrator2 = -1,
@@ -55863,11 +55863,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301601] = {
-		name = "New Year's Campaign ",
+		name = "New Year's Campaign",
 		ship_group = 30160,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "General, General, look! It's my New Year's outfit! Urakaze made it for me! Let's play a bunch of Sengoku wargames this year as well! ",
+		desc = "General, General, look! It's my New Year's outfit! Urakaze made it for me! Let's play a bunch of Sengoku wargames this year as well!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "jifeng_2",
@@ -56194,11 +56194,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301619] = {
-		name = "Hamakaze (Retrofit) ",
+		name = "Hamakaze (Retrofit)",
 		ship_group = 30161,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Commander, have you been having more fun since I arrived? ... I see, that's great! Ehehe... Hamakaze, getting hyped! ",
+		desc = "Commander, have you been having more fun since I arrived? ... I see, that's great! Ehehe... Hamakaze, getting hyped!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "bangfeng_g",
@@ -56303,7 +56303,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[301620] = {
-		name = "Tanikaze ",
+		name = "Tanikaze",
 		ship_group = 30162,
 		group_index = 0,
 		illustrator2 = -1,
@@ -56630,11 +56630,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301630] = {
-		name = "Asashio ",
+		name = "Asashio",
 		ship_group = 30163,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Asashio-class destroyer number one – Asashio. ",
+		desc = "Asashio-class destroyer number one – Asashio.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zhaochao",
@@ -56732,11 +56732,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301631] = {
-		name = "The Transfer Student Underneath the Dancing Petals ",
+		name = "The Transfer Student Underneath the Dancing Petals",
 		ship_group = 30163,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "My name is Asashio, and I just transferred here today. Pleased to meet you... Even though I might not be able to get caught up with the course work, Mr. Kitty and I will do our best. ",
+		desc = "My name is Asashio, and I just transferred here today. Pleased to meet you... Even though I might not be able to get caught up with the course work, Mr. Kitty and I will do our best.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zhaochao_2",
@@ -56836,11 +56836,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301640] = {
-		name = "Ooshio ",
+		name = "Ooshio",
 		ship_group = 30164,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Asashio-class destroyer number two – Ooshio. ",
+		desc = "Asashio-class destroyer number two – Ooshio.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "dachao",
@@ -57146,7 +57146,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[301650] = {
-		name = "Michishio ",
+		name = "Michishio",
 		ship_group = 30165,
 		group_index = 0,
 		illustrator2 = -1,
@@ -57255,11 +57255,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301660] = {
-		name = "Arashio ",
+		name = "Arashio",
 		ship_group = 30166,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Asashio-class destroyer number four – Arashio. ",
+		desc = "Asashio-class destroyer number four – Arashio.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "huangchao",
@@ -57364,11 +57364,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301720] = {
-		name = "Uranami ",
+		name = "Uranami",
 		ship_group = 30172,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Special Type I-class destroyer number 10 – Uranami. ",
+		desc = "Special Type I-class destroyer number 10 – Uranami.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "pubo",
@@ -57582,11 +57582,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301790] = {
-		name = "Hatakaze ",
+		name = "Hatakaze",
 		ship_group = 30179,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Kamikaze-class destroyer number five – Hatakaze. ",
+		desc = "Kamikaze-class destroyer number five – Hatakaze.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "qifeng",
@@ -57691,11 +57691,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301800] = {
-		name = "Makinami ",
+		name = "Makinami",
 		ship_group = 30180,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Yuugumo-class destroyer number five – Makinami. ",
+		desc = "Yuugumo-class destroyer number five – Makinami.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "juanbo",
@@ -57911,11 +57911,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301810] = {
-		name = "Kasumi ",
+		name = "Kasumi",
 		ship_group = 30181,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Asashio-class destroyer number 10 – Kasumi. ",
+		desc = "Asashio-class destroyer number 10 – Kasumi.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xia",
@@ -58131,11 +58131,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301820] = {
-		name = "Hanazuki ",
+		name = "Hanazuki",
 		ship_group = 30182,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Akizuki-class destroyer number thirteen – Hanazuki. ",
+		desc = "Akizuki-class destroyer number thirteen – Hanazuki.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "huayue",
@@ -58351,11 +58351,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[301830] = {
-		name = "Naganami ",
+		name = "Naganami",
 		ship_group = 30183,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Yuugumo-class destroyer number four – Naganami. ",
+		desc = "Yuugumo-class destroyer number four – Naganami.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "changbo",
@@ -58571,11 +58571,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[302010] = {
-		name = "Yuubari ",
+		name = "Yuubari",
 		ship_group = 30201,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Yuubari-class light cruiser – Yuubari. ",
+		desc = "Yuubari-class light cruiser – Yuubari.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xizhang",
@@ -59144,7 +59144,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[302051] = {
-		name = "Night of Fairy Tale ",
+		name = "Night of Fairy Tale",
 		ship_group = 30205,
 		group_index = 1,
 		illustrator2 = -1,
@@ -60059,11 +60059,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[302100] = {
-		name = "Mogami ",
+		name = "Mogami",
 		ship_group = 30210,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Mogami-class Heavy Cruiser no. 1 - Mogami ",
+		desc = "Mogami-class Heavy Cruiser no. 1 - Mogami",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zuishang",
@@ -60168,11 +60168,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[302109] = {
-		name = "Mogami (Retrofit) ",
+		name = "Mogami (Retrofit)",
 		ship_group = 30210,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Are you sure this is a retrofit and not some weird hazing ritual? I look... Well, I suppose I do feel stronger. Guess I'll try to work a bit harder. Wouldn't hurt for you to look forward to it a little. ",
+		desc = "Are you sure this is a retrofit and not some weird hazing ritual? I look... Well, I suppose I do feel stronger. Guess I'll try to work a bit harder. Wouldn't hurt for you to look forward to it a little.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zuishang_g",
@@ -60277,11 +60277,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[302110] = {
-		name = "Mikuma ",
+		name = "Mikuma",
 		ship_group = 30211,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Mogami-class heavy cruiser number two – Mikuma. ",
+		desc = "Mogami-class heavy cruiser number two – Mikuma.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "sanwei",
@@ -60386,11 +60386,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[302120] = {
-		name = "Sendai ",
+		name = "Sendai",
 		ship_group = 30212,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Sendai-class light cruiser number one – Sendai. ",
+		desc = "Sendai-class light cruiser number one – Sendai.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "chuannei",
@@ -60495,11 +60495,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[302129] = {
-		name = "Sendai (Retrofit) ",
+		name = "Sendai (Retrofit)",
 		ship_group = 30212,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Hmh. Guess I won't be needin' these bandages anymore. Commander, how about we find out how strong I've gotten... by having you take one of my punches? ",
+		desc = "Hmh. Guess I won't be needin' these bandages anymore. Commander, how about we find out how strong I've gotten... by having you take one of my punches?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "chuannei_g",
@@ -60604,7 +60604,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[302130] = {
-		name = "Jintsuu ",
+		name = "Jintsuu",
 		ship_group = 30213,
 		group_index = 0,
 		illustrator2 = -1,
@@ -60933,11 +60933,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[302140] = {
-		name = "Naka ",
+		name = "Naka",
 		ship_group = 30214,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Sendai-class light cruiser number three – Naka. ",
+		desc = "Sendai-class light cruiser number three – Naka.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "nake",
@@ -61153,11 +61153,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[302200] = {
-		name = "Agano ",
+		name = "Agano",
 		ship_group = 30220,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Agano-class light cruiser number one – Agano. ",
+		desc = "Agano-class light cruiser number one – Agano.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aheye",
@@ -61595,11 +61595,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[302210] = {
-		name = "Noshiro ",
+		name = "Noshiro",
 		ship_group = 30221,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Agano-class light cruiser number two – Noshiro. ",
+		desc = "Agano-class light cruiser number two – Noshiro.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "nengdai",
@@ -62784,11 +62784,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[303090] = {
-		name = "Ashigara ",
+		name = "Ashigara",
 		ship_group = 30309,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Myoukou-class heavy cruiser number three - Ashigara ",
+		desc = "Myoukou-class heavy cruiser number three - Ashigara",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zubing",
@@ -62893,11 +62893,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[303091] = {
-		name = "Brief Intermission ",
+		name = "Brief Intermission",
 		ship_group = 30309,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Phew... I finally managed to fix my dress... but I just can't seem to get used to it. Commander, how does my dress look? It's not strange, is it? ",
+		desc = "Phew... I finally managed to fix my dress... but I just can't seem to get used to it. Commander, how does my dress look? It's not strange, is it?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zubing_2",
@@ -63361,7 +63361,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[303113] = {
-		name = "The Lessons of Spring ",
+		name = "The Lessons of Spring",
 		ship_group = 30311,
 		group_index = 3,
 		illustrator2 = -1,
@@ -63472,11 +63472,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[303114] = {
-		name = "School Romanza ",
+		name = "School Romanza",
 		ship_group = 30311,
 		group_index = 4,
 		illustrator2 = -1,
-		desc = "Hmm... school life, huh? It's a fairly fresh experience for me. Would it be fine to pin my hair up like this? What do you think, Commander? ",
+		desc = "Hmm... school life, huh? It's a fairly fresh experience for me. Would it be fine to pin my hair up like this? What do you think, Commander?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "gaoxiong_4",
@@ -63694,11 +63694,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[303118] = {
-		name = "Sakura Hanami ",
+		name = "Sakura Hanami",
 		ship_group = 30311,
 		group_index = 8,
 		illustrator2 = -1,
-		desc = "Commander, I've been undertaking countless bride training sessions in order to prepare for this day. As your bride, I won't let you down. ",
+		desc = "Commander, I've been undertaking countless bride training sessions in order to prepare for this day. As your bride, I won't let you down.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "gaoxiong_h",
@@ -64064,11 +64064,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[303122] = {
-		name = "Hallmarks of Winter ",
+		name = "Hallmarks of Winter",
 		ship_group = 30312,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "Oh my, it's begun to snow. Commander, should we find a nice, quiet place to enjoy the view? ",
+		desc = "Oh my, it's begun to snow. Commander, should we find a nice, quiet place to enjoy the view?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aidang_3",
@@ -64175,11 +64175,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[303123] = {
-		name = "School Traumerei ",
+		name = "School Traumerei",
 		ship_group = 30312,
 		group_index = 3,
 		illustrator2 = -1,
-		desc = "Student handbook, textbooks... twin guns, torpedoes... and what else... Huh? Commander, I'm just packing my bags for school... is there anything I'm missing? ",
+		desc = "Student handbook, textbooks... twin guns, torpedoes... and what else... Huh? Commander, I'm just packing my bags for school... is there anything I'm missing?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aidang_4",
@@ -64286,11 +64286,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[303124] = {
-		name = "Stunning Speedster ",
+		name = "Stunning Speedster",
 		ship_group = 30312,
 		group_index = 4,
 		illustrator2 = -1,
-		desc = "So, you want big sister to be your \"fleet queen\"? You got it. But you'd better give it your all out there, or else I'll be upset with you! ",
+		desc = "So, you want big sister to be your \"fleet queen\"? You got it. But you'd better give it your all out there, or else I'll be upset with you!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aidang_5",
@@ -64397,11 +64397,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[303128] = {
-		name = "Lily-White Vow ",
+		name = "Lily-White Vow",
 		ship_group = 30312,
 		group_index = 8,
 		illustrator2 = -1,
-		desc = "Commander... Ahh, from now on, shouldn't I call you \"darling?\" Come and hold my hand... Ah, at times like these, I just can't help but to want to eat you up, dar~ling~ ",
+		desc = "Commander... Ahh, from now on, shouldn't I call you \"darling?\" Come and hold my hand... Ah, at times like these, I just can't help but to want to eat you up, dar~ling~",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aidang_h",
@@ -64736,12 +64736,121 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[303170] = {
+		name = "Suzuya",
+		ship_group = 30317,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "Mogami-class heavy cruiser number three – Suzuya.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "linggu",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 303170,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "linggu",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 181,
+		air_bomb_skin = "",
+		illustrator = 21,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.16,
+					1.05,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.19,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.95,
+					0.99,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.15,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[304010] = {
-		name = "Kongou ",
+		name = "Kongou",
 		ship_group = 30401,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Kongou-class fast battleship number one – Kongou. ",
+		desc = "Kongou-class fast battleship number one – Kongou.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "jingang",
@@ -64852,11 +64961,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[304011] = {
-		name = "The Beauties of Nature ",
+		name = "The Beauties of Nature",
 		ship_group = 30401,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "We must fully live in the present, whether during work or during leisure - this is my mantra. Commander, shall we go for an outing together? ",
+		desc = "We must fully live in the present, whether during work or during leisure - this is my mantra. Commander, shall we go for an outing together?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "jingang_2",
@@ -64956,11 +65065,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[304020] = {
-		name = "Hiei ",
+		name = "Hiei",
 		ship_group = 30402,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Kongou-class fast battleship number two – Hiei. ",
+		desc = "Kongou-class fast battleship number two – Hiei.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "birui",
@@ -65396,11 +65505,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[304030] = {
-		name = "Haruna ",
+		name = "Haruna",
 		ship_group = 30403,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Kongou-class fast battleship number four – Haruna. ",
+		desc = "Kongou-class fast battleship number four – Haruna.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zhenming",
@@ -65498,11 +65607,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[304031] = {
-		name = "Free Time Before Class ",
+		name = "Free Time Before Class",
 		ship_group = 30403,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "I think it's fine to enjoy school life once in a while... Hm? You wanna know what I'm listening to? Sure, if you're okay with just one earbud. ",
+		desc = "I think it's fine to enjoy school life once in a while... Hm? You wanna know what I'm listening to? Sure, if you're okay with just one earbud.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Zhenming_2",
@@ -65602,11 +65711,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[304040] = {
-		name = "Kirishima ",
+		name = "Kirishima",
 		ship_group = 30404,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Kongou-class fast battleship number four – Kirishima. ",
+		desc = "Kongou-class fast battleship number four – Kirishima.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "wudao",
@@ -65711,11 +65820,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[304041] = {
-		name = "After-School Cannon Time ",
+		name = "After-School Cannon Time",
 		ship_group = 30404,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Commander, enjoying school life is all fine and well, but we must not forget our duty... That said, what missions are waiting for us today? ",
+		desc = "Commander, enjoying school life is all fine and well, but we must not forget our duty... That said, what missions are waiting for us today?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Wudao_2",
@@ -66044,11 +66153,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[304050] = {
-		name = "Amagi ",
+		name = "Amagi",
 		ship_group = 30405,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "1st Ship of the Amagi-class Battlecruisers, Amagi ",
+		desc = "1st Ship of the Amagi-class Battlecruisers, Amagi",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "tiancheng",
@@ -66153,7 +66262,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[304060] = {
-		name = "Hiei-chan ",
+		name = "Hiei-chan",
 		ship_group = 30406,
 		group_index = 0,
 		illustrator2 = -1,
@@ -66371,7 +66480,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[305011] = {
-		name = "The Celebration of Spring ",
+		name = "The Celebration of Spring",
 		ship_group = 30501,
 		group_index = 1,
 		illustrator2 = -1,
@@ -66482,11 +66591,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[305012] = {
-		name = "Perfect Partner? ",
+		name = "Perfect Partner?",
 		ship_group = 30501,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "Changing into leisure clothes, and waiting for the return of my beloved... Milord, I too have changed since meeting you. ",
+		desc = "Changing into leisure clothes, and waiting for the return of my beloved... Milord, I too have changed since meeting you.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "fusang_3",
@@ -67389,11 +67498,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[305028] = {
-		name = "Bridal Attack! ",
+		name = "Bridal Attack!",
 		ship_group = 30502,
 		group_index = 8,
 		illustrator2 = -1,
-		desc = "Milord, Milord, I've finished changing! What do you think, what do you think? Milord, do you like Yamashiro's dress~? ",
+		desc = "Milord, Milord, I've finished changing! What do you think, what do you think? Milord, do you like Yamashiro's dress~?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "shancheng_h",
@@ -67716,11 +67825,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[305039] = {
-		name = "Ise (Retrofit) ",
+		name = "Ise (Retrofit)",
 		ship_group = 30503,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Planes: check! Main guns: check! Nobody can stop me now! Let's sortie right now, Commander! I'm fired up and wanna wreak some havoc on the battlefield! ",
+		desc = "Planes: check! Main guns: check! Nobody can stop me now! Let's sortie right now, Commander! I'm fired up and wanna wreak some havoc on the battlefield!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "yishi_g",
@@ -67934,11 +68043,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[305049] = {
-		name = "Hyuuga (Retrofit) ",
+		name = "Hyuuga (Retrofit)",
 		ship_group = 30504,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Aviation battleship Hyuuga, sporting new powers, reporting in! Rest easy, Commander, I'll show you my true post-retrofit power! ",
+		desc = "Aviation battleship Hyuuga, sporting new powers, reporting in! Rest easy, Commander, I'll show you my true post-retrofit power!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "rixiang_g",
@@ -68043,11 +68152,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[305050] = {
-		name = "Nagato ",
+		name = "Nagato",
 		ship_group = 30505,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Nagato-class battleship number one – Nagato. ",
+		desc = "Nagato-class battleship number one – Nagato.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "changmen",
@@ -68145,11 +68254,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[305051] = {
-		name = "Great Fox's Respite ",
+		name = "Great Fox's Respite",
 		ship_group = 30505,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "I shall be hosting the commander today. Manjuus, I beseech you to help me look my best. I am... *yawn* a bit sleepy... Urghh... what is that ruckus out there? C-Commander! When did you arrive? ",
+		desc = "I shall be hosting the commander today. Manjuus, I beseech you to help me look my best. I am... *yawn* a bit sleepy... Urghh... what is that ruckus out there? C-Commander! When did you arrive?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "changmen_2",
@@ -68353,11 +68462,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[305058] = {
-		name = "Great Fox's White Gown ",
+		name = "Great Fox's White Gown",
 		ship_group = 30505,
 		group_index = 8,
 		illustrator2 = -1,
-		desc = "It may be presumptuous of me, but please take care of me from now on... Is that acceptable? S-Somehow, it feels a little embarrassing... Ahaha... ",
+		desc = "It may be presumptuous of me, but please take care of me from now on... Is that acceptable? S-Somehow, it feels a little embarrassing... Ahaha...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "changmen_h",
@@ -68455,11 +68564,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[305060] = {
-		name = "Mutsu ",
+		name = "Mutsu",
 		ship_group = 30506,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Nagato-class battleship number two – Mutsu. ",
+		desc = "Nagato-class battleship number two – Mutsu.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "luao",
@@ -68557,11 +68666,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[305061] = {
-		name = "Warring States Warship ",
+		name = "Warring States Warship",
 		ship_group = 30506,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Commander, check it out! \"Nothing can stop me!\" Urakaze made it for me! Now I can play warring states with her! Heheh, you should know I'm a force to be reckoned with! Can't you come play with us? Why? ",
+		desc = "Commander, check it out! \"Nothing can stop me!\" Urakaze made it for me! Now I can play warring states with her! Heheh, you should know I'm a force to be reckoned with! Can't you come play with us? Why?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "luao_2",
@@ -68665,7 +68774,7 @@ pg.ship_skin_template = {
 		ship_group = 30507,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Tosa-class battleship number two – Kaga. ",
+		desc = "Tosa-class battleship number two – Kaga.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "jiahezhanlie",
@@ -68763,11 +68872,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[305080] = {
-		name = "Tosa ",
+		name = "Tosa",
 		ship_group = 30508,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Tosa-class battleship number one – Tosa. ",
+		desc = "Tosa-class battleship number one – Tosa.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "tuzuo",
@@ -68976,11 +69085,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[305110] = {
-		name = "Mikasa ",
+		name = "Mikasa",
 		ship_group = 30511,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Shikishima-class battleship number four – Mikasa. ",
+		desc = "Shikishima-class battleship number four – Mikasa.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "sanli",
@@ -69755,11 +69864,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[306031] = {
-		name = "The Dream of the Autumn Pillow ",
+		name = "The Dream of the Autumn Pillow",
 		ship_group = 30603,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "While everyone slips into sweet dreams from the night's festivities, the sound of gossamer sliding off of smooth skin reaches your ears... Hehe, would you like to spend this night under the stars with me, Master~? ",
+		desc = "While everyone slips into sweet dreams from the night's festivities, the sound of gossamer sliding off of smooth skin reaches your ears... Hehe, would you like to spend this night under the stars with me, Master~?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "fengxiang_2",
@@ -69965,7 +70074,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[306051] = {
-		name = "Patrolling Witch ",
+		name = "Patrolling Witch",
 		ship_group = 30605,
 		group_index = 1,
 		illustrator2 = -1,
@@ -70169,11 +70278,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[306060] = {
-		name = "Ryuujou ",
+		name = "Ryuujou",
 		ship_group = 30606,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Ryuujou-class Light Carrier - Ryuujou ",
+		desc = "Ryuujou-class Light Carrier - Ryuujou",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "longxiang",
@@ -70361,11 +70470,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[306070] = {
-		name = "Ryuuhou ",
+		name = "Ryuuhou",
 		ship_group = 30607,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Ryuuhou-class light aircraft carrier – Ryuuhou. ",
+		desc = "Ryuuhou-class light aircraft carrier – Ryuuhou.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "longfeng",
@@ -70494,7 +70603,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			-26,
-			16,
+			26,
 			0
 		},
 		fx_container = {
@@ -70799,11 +70908,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[307012] = {
-		name = "Plum and Snow ",
+		name = "Plum and Snow",
 		ship_group = 30701,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "Commander will always remain by Akagi's side... Right, \"Gods?\" Of course... Akagi will deal with the pests.... Ahaha... ",
+		desc = "Commander will always remain by Akagi's side... Right, \"Gods?\" Of course... Akagi will deal with the pests.... Ahaha...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Chicheng_3",
@@ -71222,11 +71331,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[307022] = {
-		name = "White Fox's New Year ",
+		name = "White Fox's New Year",
 		ship_group = 30702,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "One must wear appropriate attire for the New Year. What do you think, Commander? Let me hear your opinion. ",
+		desc = "One must wear appropriate attire for the New Year. What do you think, Commander? Let me hear your opinion.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Jiahe_3",
@@ -71522,11 +71631,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[307031] = {
-		name = "The Crane Amidst the Pines ",
+		name = "The Crane Amidst the Pines",
 		ship_group = 30703,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "I tried wearing something a bit different from usual, but I'm not sure it suits me... Commander, what do you think? ",
+		desc = "I tried wearing something a bit different from usual, but I'm not sure it suits me... Commander, what do you think?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Canglong_2",
@@ -71716,11 +71825,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[307039] = {
-		name = "Souryuu (Retrofit) ",
+		name = "Souryuu (Retrofit)",
 		ship_group = 30703,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "If I can become stronger through this... Commander, what are you staring at? Don't you still have work to do? ",
+		desc = "If I can become stronger through this... Commander, what are you staring at? Don't you still have work to do?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "canglong_g",
@@ -72527,7 +72636,7 @@ pg.ship_skin_template = {
 		ship_group = 30706,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "New Elite 1st CarDiv, Zuikaku, reporting for duty! Ahh, I've always wanted to give such a cool introduction! Shoukaku would definitely make fun of me if she heard it, but I wanted to try it while everyone is in a festive mood... Commander, what'd you think? ",
+		desc = "New Elite 1st CarDiv, Zuikaku, reporting for duty! Ahh, I've always wanted to give such a cool introduction! Shoukaku would definitely make fun of me if she heard it, but I wanted to try it while everyone is in a festive mood... Commander, what'd you think?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "ruihe_2",
@@ -72717,11 +72826,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[307070] = {
-		name = "Taihou ",
+		name = "Taihou",
 		ship_group = 30707,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Taihou-class aircraft carrier – Taihou. ",
+		desc = "Taihou-class aircraft carrier – Taihou.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "dafeng",
@@ -72851,7 +72960,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			0,
-			-10,
+			-30,
 			0
 		},
 		fx_container = {
@@ -73146,7 +73255,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[307090] = {
-		name = "Akagi-chan ",
+		name = "Akagi-chan",
 		ship_group = 30709,
 		group_index = 0,
 		illustrator2 = -1,
@@ -73340,7 +73449,7 @@ pg.ship_skin_template = {
 		ship_group = 30801,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Type B1 cruiser submarine – I-19. ",
+		desc = "Type B1 cruiser submarine – I-19.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I19",
@@ -73431,11 +73540,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[308011] = {
-		name = "Departure's Gentle Breeze ",
+		name = "Departure's Gentle Breeze",
 		ship_group = 30801,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Aww, do I have to go to school? ... Oh, Commander! Are you here to see me off? ",
+		desc = "Aww, do I have to go to school? ... Oh, Commander! Are you here to see me off?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I19_2",
@@ -73629,7 +73738,7 @@ pg.ship_skin_template = {
 		ship_group = 30802,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Type B1 cruiser submarine – I-26. ",
+		desc = "Type B1 cruiser submarine – I-26.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I26",
@@ -73720,11 +73829,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[308021] = {
-		name = "Deep-Sea Rabbit ",
+		name = "Deep-Sea Rabbit",
 		ship_group = 30802,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Many secrets lie at the bottom of the ocean! Commander, let's go looking for them next time! It'll be like a field trip~ Heheh! ",
+		desc = "Many secrets lie at the bottom of the ocean! Commander, let's go looking for them next time! It'll be like a field trip~ Heheh!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I26_2",
@@ -73918,7 +74027,7 @@ pg.ship_skin_template = {
 		ship_group = 30803,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Type-B Mod 2 cruiser submarine – I-58. ",
+		desc = "Type-B Mod 2 cruiser submarine – I-58.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I58",
@@ -74009,11 +74118,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[308040] = {
-		name = "I-25 ",
+		name = "I-25",
 		ship_group = 30804,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Type B1 cruiser submarine – I-25. ",
+		desc = "Type B1 cruiser submarine – I-25.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I25",
@@ -74104,11 +74213,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[308041] = {
-		name = "Coral Reef Bunny ",
+		name = "Coral Reef Bunny",
 		ship_group = 30804,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Hi there, Commander. Oh, this outfit? I'll be wearing it to school today. By the way, did you want to come sit in on my class? ",
+		desc = "Hi there, Commander. Oh, this outfit? I'll be wearing it to school today. By the way, did you want to come sit in on my class?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I25_2",
@@ -74201,11 +74310,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[308050] = {
-		name = "I-56 ",
+		name = "I-56",
 		ship_group = 30805,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Type B3 Mod. 2 cruiser submarine – I-56. ",
+		desc = "Type B3 Mod. 2 cruiser submarine – I-56.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I56",
@@ -74296,11 +74405,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[308051] = {
-		name = "Wallflower in the Corner ",
+		name = "Wallflower in the Corner",
 		ship_group = 30805,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "School... is pretty nice. I can quietly stay in this corner and mind my own business... ",
+		desc = "School... is pretty nice. I can quietly stay in this corner and mind my own business...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I56_2",
@@ -74393,11 +74502,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[308060] = {
-		name = "I-168 ",
+		name = "I-168",
 		ship_group = 30806,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Kaidai Type VIa submarine – I-168. ",
+		desc = "Kaidai Type VIa submarine – I-168.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I168",
@@ -74488,11 +74597,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[308061] = {
-		name = "Festive Mood! ",
+		name = "Festive Mood!",
 		ship_group = 30806,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "I look different from usual? That's obvious, isn't it... All right, all right, I was just giving you a hard time. We're at a festival, so we might as well enjoy ourselves! ",
+		desc = "I look different from usual? That's obvious, isn't it... All right, all right, I was just giving you a hard time. We're at a festival, so we might as well enjoy ourselves!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "I168_2",
@@ -74723,11 +74832,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[312011] = {
-		name = "Akashi's in the Red, Nya! ",
+		name = "Akashi's in the Red, Nya!",
 		ship_group = 31201,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Commander, how does Akashi's new outfit look, nya? Isn't it cute? If you like it, then put a ring on it. I mean, everyone's gone out to play... if you don't help empty my inventory, I'll go broke, nya! ",
+		desc = "Commander, how does Akashi's new outfit look, nya? Isn't it cute? If you like it, then put a ring on it. I mean, everyone's gone out to play... if you don't help empty my inventory, I'll go broke, nya!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Mingshi_2",
@@ -75162,6 +75271,101 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[317010] = {
+		name = "I-13",
+		ship_group = 31701,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "Type A Mod. 2 cruiser submarine – I-13.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "I13",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 317010,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "I13",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 186,
+		air_bomb_skin = "",
+		illustrator = 14,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					0.41,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.77,
+					-0.18,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.55,
+							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[331050] = {
 		name = "Pulse of the New Year",
 		ship_group = 30105,
@@ -75498,11 +75702,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[401019] = {
-		name = "Z1 (Retrofit) ",
+		name = "Z1 (Retrofit)",
 		ship_group = 40101,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Hmm... So this is a retrofit, huh? Not bad! Rejoice once more, Commander, for no task or enemy is too daunting for the new and improved Z1! ",
+		desc = "Hmm... So this is a retrofit, huh? Not bad! Rejoice once more, Commander, for no task or enemy is too daunting for the new and improved Z1!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Z1_g",
@@ -75706,7 +75910,7 @@ pg.ship_skin_template = {
 		ship_group = 40118,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Type 1936 destroyer – Z18, Hans Lüdemann. ",
+		desc = "Type 1936 destroyer – Z18, Hans Lüdemann.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "z18",
@@ -76301,11 +76505,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[401231] = {
-		name = "Philosophy Sensei ",
+		name = "Philosophy Sensei",
 		ship_group = 40123,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "This is going to be on the exam! If you don't take thorough notes, I am going to punish you! ",
+		desc = "This is going to be on the exam! If you don't take thorough notes, I am going to punish you!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "z23_2",
@@ -76643,11 +76847,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[401234] = {
-		name = "The Banquet's Honor Student ",
+		name = "The Banquet's Honor Student",
 		ship_group = 40123,
 		group_index = 4,
 		illustrator2 = -1,
-		desc = "Oh, good evening, Commander. I was just looking for Javelin and the others... Say, would you like to keep me company for a bit? ",
+		desc = "Oh, good evening, Commander. I was just looking for Javelin and the others... Say, would you like to keep me company for a bit?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "z23_3",
@@ -77087,7 +77291,7 @@ pg.ship_skin_template = {
 		ship_group = 40123,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~ ",
+		desc = "My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "z23_g",
@@ -77301,11 +77505,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[401251] = {
-		name = "Hot Summer's Cool Breeze ",
+		name = "Hot Summer's Cool Breeze",
 		ship_group = 40125,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Even at the beach, we cannot afford to be careless! Commander, have you adequately prepared for today's activities? ",
+		desc = "Even at the beach, we cannot afford to be careless! Commander, have you adequately prepared for today's activities?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Z25_2",
@@ -77636,7 +77840,7 @@ pg.ship_skin_template = {
 		ship_group = 40136,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Type 1936B destroyer - Z36 ",
+		desc = "Type 1936B destroyer - Z36",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Z36",
@@ -77995,7 +78199,7 @@ pg.ship_skin_template = {
 		ship_group = 40146,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "Through the sweat and tears, striving for your goals. Rejoice in victory, sink within defeat... How fascinating, this \"sports meet\" may be. ",
+		desc = "Through the sweat and tears, striving for your goals. Rejoice in victory, sink within defeat... How fascinating, this \"sports meet\" may be.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Z46_3",
@@ -78367,7 +78571,7 @@ pg.ship_skin_template = {
 		ship_group = 40202,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Königsberg-class light cruiser – Karlsruhe. ",
+		desc = "Königsberg-class light cruiser – Karlsruhe.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kaersilue_g",
@@ -78594,11 +78798,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[402039] = {
-		name = "Köln (Retrofit) ",
+		name = "Köln (Retrofit)",
 		ship_group = 40203,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Hmm... I feel like I can work even more efficiently than before. Commander, please rest assured, I will never betray your expectations. ",
+		desc = "Hmm... I feel like I can work even more efficiently than before. Commander, please rest assured, I will never betray your expectations.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kelong_g",
@@ -79316,7 +79520,7 @@ pg.ship_skin_template = {
 		ship_group = 40303,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "So this is the Sakura Empire's New Year? Hehe, how interesting~ Commander, since it's the New Year, why don't you put aside all those papers and have a drink with me? ",
+		desc = "So this is the Sakura Empire's New Year? Hehe, how interesting~ Commander, since it's the New Year, why don't you put aside all those papers and have a drink with me?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "ougen_3",
@@ -79534,11 +79738,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[403038] = {
-		name = "Symphonic Fate ",
+		name = "Symphonic Fate",
 		ship_group = 40303,
 		group_index = 8,
 		illustrator2 = -1,
-		desc = "If fate brought us together, then it has my thanks… I look forward to our future together~ ",
+		desc = "If fate brought us together, then it has my thanks… I look forward to our future together~",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "ougen_h",
@@ -80225,11 +80429,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[403050] = {
-		name = "Admiral Graf Spee ",
+		name = "Admiral Graf Spee",
 		ship_group = 40305,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Deutschland-class armored cruiser number three – Admiral Graf Spee. ",
+		desc = "Deutschland-class armored cruiser number three – Admiral Graf Spee.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "sipeibojue",
@@ -80334,11 +80538,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[403051] = {
-		name = "Girl's Sunday ",
+		name = "Girl's Sunday",
 		ship_group = 40305,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "I sailed alone, fought alone, and then I was sunk while being alone. Now I found a new beginning... Hmm? Commander, you've been staring and laughing at me since the beginning… do you want to eat this? ",
+		desc = "I sailed alone, fought alone, and then I was sunk while being alone. Now I found a new beginning... Hmm? Commander, you've been staring and laughing at me since the beginning… do you want to eat this?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Sipeibojue_2",
@@ -80445,11 +80649,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[403052] = {
-		name = "Peaceful Days ",
+		name = "Peaceful Days",
 		ship_group = 40305,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "I never thought that I could wear an ordinary uniform and live a peaceful life like this. Thank you, Commander. ",
+		desc = "I never thought that I could wear an ordinary uniform and live a peaceful life like this. Thank you, Commander.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "sipeibojue_3",
@@ -80554,11 +80758,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[403053] = {
-		name = "A Novel Anniversary ",
+		name = "A Novel Anniversary",
 		ship_group = 40305,
 		group_index = 3,
 		illustrator2 = -1,
-		desc = "It's so fancy, so formal... Is this a \"party\"? I'm not sure I'll be able to fit in... But if you'll go with me, Commander, I'll give it a try! ",
+		desc = "It's so fancy, so formal... Is this a \"party\"? I'm not sure I'll be able to fit in... But if you'll go with me, Commander, I'll give it a try!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "sipeibojue_4",
@@ -81389,11 +81593,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[405010] = {
-		name = "Bismarck ",
+		name = "Bismarck",
 		ship_group = 40501,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Bismarck-class battleship – Bismarck. ",
+		desc = "Bismarck-class battleship – Bismarck.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "bisimai",
@@ -81498,11 +81702,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[405011] = {
-		name = "Beacon of the Iron Blood ",
+		name = "Beacon of the Iron Blood",
 		ship_group = 40501,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "My sincerest apologies for the delay, Commander. Ah, excuse me... as the fleet leader of the Iron Blood, I'm expected to wear this outfit to various formal occasions. Just putting it on seems to make me inadvertently change the way I speak... ",
+		desc = "My sincerest apologies for the delay, Commander. Ah, excuse me... as the fleet leader of the Iron Blood, I'm expected to wear this outfit to various formal occasions. Just putting it on seems to make me inadvertently change the way I speak...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "bisimai_2",
@@ -82208,11 +82412,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[407020] = {
-		name = "Zeppy ",
+		name = "Zeppy",
 		ship_group = 40702,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Aircraft carrier Graf Zeppelin ",
+		desc = "Aircraft carrier Graf Zeppelin",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "qibolin_younv",
@@ -82307,7 +82511,7 @@ pg.ship_skin_template = {
 		ship_group = 40801,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Iron Blood Type VIIC submarine – U-81. ",
+		desc = "Iron Blood Type VIIC submarine – U-81.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "U81",
@@ -82499,7 +82703,7 @@ pg.ship_skin_template = {
 		ship_group = 40802,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Iron Blood Type VIIB submarine – U-47. ",
+		desc = "Iron Blood Type VIIB submarine – U-47.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "U47",
@@ -82691,7 +82895,7 @@ pg.ship_skin_template = {
 		ship_group = 40803,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Iron Blood Type VIIC submarine – U-557. ",
+		desc = "Iron Blood Type VIIC submarine – U-557.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "U557",
@@ -82786,7 +82990,7 @@ pg.ship_skin_template = {
 		ship_group = 40804,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Iron Blood Type VIIC submarine – U-556. ",
+		desc = "Iron Blood Type VIIC submarine – U-556.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "U556",
@@ -82877,11 +83081,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[408041] = {
-		name = "Party Knight! ",
+		name = "Party Knight!",
 		ship_group = 40804,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "It's me, U-556, all prettied up! Eheheheh, we're gonna have lots of fun at this party, Commander! Come on, let's go! ",
+		desc = "It's me, U-556, all prettied up! Eheheheh, we're gonna have lots of fun at this party, Commander! Come on, let's go!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "U556_2",
@@ -82976,7 +83180,7 @@ pg.ship_skin_template = {
 		ship_group = 40805,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Iron Blood Type VIIB submarine – U-73. ",
+		desc = "Iron Blood Type VIIB submarine – U-73.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "U73",
@@ -83166,7 +83370,7 @@ pg.ship_skin_template = {
 		ship_group = 40806,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Iron Blood Type VIIC submarine – U-101. ",
+		desc = "Iron Blood Type VIIC submarine – U-101.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "U101",
@@ -83257,11 +83461,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[408061] = {
-		name = "Ironbrass Trombonist ",
+		name = "Ironbrass Trombonist",
 		ship_group = 40806,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Commander, welcome to the school band! Why'd I join the band? The reason's simple - there's no Motorbike Club at school, haha! Just kidding~! Actually, I'm quite fond of music as well, heh. ",
+		desc = "Commander, welcome to the school band! Why'd I join the band? The reason's simple - there's no Motorbike Club at school, haha! Just kidding~! Actually, I'm quite fond of music as well, heh.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "U101_2",
@@ -83358,7 +83562,7 @@ pg.ship_skin_template = {
 		ship_group = 40807,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Iron Blood Type IXC submarine – U-522. ",
+		desc = "Iron Blood Type IXC submarine – U-522.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "U522",
@@ -83641,11 +83845,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[501010] = {
-		name = "An Shan ",
+		name = "An Shan",
 		ship_group = 50101,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "An Shan-class destroyer, No. 1 - Anshan (101) ",
+		desc = "An Shan-class destroyer, No. 1 - Anshan (101)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "anshan",
@@ -83750,11 +83954,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[501020] = {
-		name = "Fu Shun ",
+		name = "Fu Shun",
 		ship_group = 50102,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "An Shan-class destroyer No.2 - Fu Shun (102) ",
+		desc = "An Shan-class destroyer No.2 - Fu Shun (102)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "fushun",
@@ -83859,11 +84063,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[501030] = {
-		name = "Chang Chun ",
+		name = "Chang Chun",
 		ship_group = 50103,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "An Shan-class destroyer No. 3 - Chang Chun (103) ",
+		desc = "An Shan-class destroyer No. 3 - Chang Chun (103)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "changchun",
@@ -83968,11 +84172,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[501031] = {
-		name = "The Joy of Spring ",
+		name = "The Joy of Spring",
 		ship_group = 50103,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Ta-da! My pajamas are finally finished! Now to snuggle up until I'm all warm! Eh~ Ehhh? But sis, I don't want to get out! Ack, did Tai Yuan purposely make this tail big and thick to make it easier for you? ",
+		desc = "Ta-da! My pajamas are finally finished! Now to snuggle up until I'm all warm! Eh~ Ehhh? But sis, I don't want to get out! Ack, did Tai Yuan purposely make this tail big and thick to make it easier for you?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "changchun_2",
@@ -84079,11 +84283,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[501040] = {
-		name = "Tai Yuan ",
+		name = "Tai Yuan",
 		ship_group = 50104,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "An Shan-class destroyer No. 4 - Tai Yuan (104) ",
+		desc = "An Shan-class destroyer No. 4 - Tai Yuan (104)",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "taiyuan",
@@ -84188,11 +84392,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[501041] = {
-		name = "The Golden Dragon's Festivities ",
+		name = "The Golden Dragon's Festivities",
 		ship_group = 50104,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "O-on behalf of the An Shan class, we wish a prosperous, happy, and healthy new year to Commander, and to everyone here at port... Umm... even though I made this outfit, I feel a bit embarrassed wearing it... Eh? It looks good on me? Um... th-thank you... ",
+		desc = "O-on behalf of the An Shan class, we wish a prosperous, happy, and healthy new year to Commander, and to everyone here at port... Umm... even though I made this outfit, I feel a bit embarrassed wearing it... Eh? It looks good on me? Um... th-thank you...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "taiyuan_2",
@@ -84316,11 +84520,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[502010] = {
-		name = "Yat Sen ",
+		name = "Yat Sen",
 		ship_group = 50201,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Cruiser, Yat Sen. ",
+		desc = "Cruiser, Yat Sen.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "yixian",
@@ -85225,11 +85429,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[502029] = {
-		name = "Ning Hai (Retrofit) ",
+		name = "Ning Hai (Retrofit)",
 		ship_group = 50202,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Yes! … this feels good. Thank you, Commander. In order to live up to your expectations, from now on, I will be more serious around you, Commander. Hey, don't run! ",
+		desc = "Yes! … this feels good. Thank you, Commander. In order to live up to your expectations, from now on, I will be more serious around you, Commander. Hey, don't run!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "ninghai_g",
@@ -85680,7 +85884,7 @@ pg.ship_skin_template = {
 		ship_group = 50203,
 		group_index = 3,
 		illustrator2 = -1,
-		desc = "Big sister says that even though we have some money now, we still have to save as much as we can. Um... Anyway, I'm the younger \"Dragon Sister,\" Ping Hai. Erm... I'm kind of hungry. Do you maybe have something to eat? ",
+		desc = "Big sister says that even though we have some money now, we still have to save as much as we can. Um... Anyway, I'm the younger \"Dragon Sister,\" Ping Hai. Erm... I'm kind of hungry. Do you maybe have something to eat?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "pinghai_4",
@@ -86055,11 +86259,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[502039] = {
-		name = "Ping Hai (Retrofit) ",
+		name = "Ping Hai (Retrofit)",
 		ship_group = 50203,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Hi~ya! Hmm... this feels... nothing special. Baobao looks happy though... Never mind, Commander, Ping Hai is hungry! ",
+		desc = "Hi~ya! Hmm... this feels... nothing special. Baobao looks happy though... Never mind, Commander, Ping Hai is hungry!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "pinghai_g",
@@ -86164,11 +86368,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[601020] = {
-		name = "Carabiniere ",
+		name = "Carabiniere",
 		ship_group = 60102,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Soldati-class destroyer – Carabiniere. ",
+		desc = "Soldati-class destroyer – Carabiniere.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "longqibing",
@@ -86384,11 +86588,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[603010] = {
-		name = "Trento ",
+		name = "Trento",
 		ship_group = 60301,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Trento-class heavy cruiser – Trento. ",
+		desc = "Trento-class heavy cruiser – Trento.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "teluntuo",
@@ -86604,11 +86808,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[603020] = {
-		name = "Zara ",
+		name = "Zara",
 		ship_group = 60302,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Zara-class heavy cruiser – Zara. ",
+		desc = "Zara-class heavy cruiser – Zara.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zhala",
@@ -86852,11 +87056,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[605020] = {
-		name = "Littorio ",
+		name = "Littorio",
 		ship_group = 60502,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Vittorio Veneto-class battleship – Littorio. ",
+		desc = "Vittorio Veneto-class battleship – Littorio.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "lituoliao",
@@ -87183,11 +87387,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[605050] = {
-		name = "Conte di Cavour ",
+		name = "Conte di Cavour",
 		ship_group = 60505,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Conte di Cavour-class battleship – Conte di Cavour. ",
+		desc = "Conte di Cavour-class battleship – Conte di Cavour.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "jiafuerbojue",
@@ -87292,11 +87496,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[605060] = {
-		name = "Giulio Cesare ",
+		name = "Giulio Cesare",
 		ship_group = 60506,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Conte di Cavour-class battleship – Giulio Cesare. ",
+		desc = "Conte di Cavour-class battleship – Giulio Cesare.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kaisa",
@@ -87510,11 +87714,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[701020] = {
-		name = "Grozny ",
+		name = "Grozny",
 		ship_group = 70102,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Gnevny-class destroyer – Grozny. ",
+		desc = "Gnevny-class destroyer – Grozny.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "weiyan",
@@ -87749,11 +87953,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[701030] = {
-		name = "Minsk ",
+		name = "Minsk",
 		ship_group = 70103,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Leningrad-class destroyer – Minsk. ",
+		desc = "Leningrad-class destroyer – Minsk.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "mingsike",
@@ -87858,11 +88062,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[701031] = {
-		name = "Thunderous Jailor ",
+		name = "Thunderous Jailor",
 		ship_group = 70103,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "You've violated the Minsk Protocol, comrade! Therefore, the sentence appropriate for you is imprisonment! Until when? Obviously, until your jailor is satisfied~♪ ",
+		desc = "You've violated the Minsk Protocol, comrade! Therefore, the sentence appropriate for you is imprisonment! Until when? Obviously, until your jailor is satisfied~♪",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "mingsike_2",
@@ -87969,11 +88173,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[701040] = {
-		name = "Tashkent ",
+		name = "Tashkent",
 		ship_group = 70104,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Tashkent-class destroyer – Tashkent. ",
+		desc = "Tashkent-class destroyer – Tashkent.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "tashigan",
@@ -88422,11 +88626,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[702020] = {
-		name = "Pamiat Merkuria ",
+		name = "Pamiat Merkuria",
 		ship_group = 70202,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Bogatyr-class protected cruiser – Pamiat Merkuria. ",
+		desc = "Bogatyr-class protected cruiser – Pamiat Merkuria.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "shuixingjinian",
@@ -88642,11 +88846,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[702030] = {
-		name = "Chapayev ",
+		name = "Chapayev",
 		ship_group = 70203,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Chapayev-class cruiser – Chapayev. ",
+		desc = "Chapayev-class cruiser – Chapayev.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "qiabayefu",
@@ -88862,11 +89066,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[705010] = {
-		name = "Gangut ",
+		name = "Gangut",
 		ship_group = 70501,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Gangut-class battleship – Gangut. ",
+		desc = "Gangut-class battleship – Gangut.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "gangute",
@@ -88971,11 +89175,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[705011] = {
-		name = "Imposing Warden ",
+		name = "Imposing Warden",
 		ship_group = 70501,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "You have my thanks for this exercise, comrade! I shall gladly carry out the important duty of judge, jury, and rehabilitator! ",
+		desc = "You have my thanks for this exercise, comrade! I shall gladly carry out the important duty of judge, jury, and rehabilitator!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "gangute_2",
@@ -89082,11 +89286,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[705050] = {
-		name = "Sovetskaya Rossiya ",
+		name = "Sovetskaya Rossiya",
 		ship_group = 70505,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Sovetsky Soyuz-class battleship – Sovetskaya Rossiya. ",
+		desc = "Sovetsky Soyuz-class battleship – Sovetskaya Rossiya.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "suweiailuoxiya",
@@ -89302,11 +89506,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[801010] = {
-		name = "Le Triomphant ",
+		name = "Le Triomphant",
 		ship_group = 80101,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Le Fantasque-class destroyer – Le Triomphant. ",
+		desc = "Le Fantasque-class destroyer – Le Triomphant.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "kaixuan",
@@ -89411,11 +89615,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[801020] = {
-		name = "Forbin ",
+		name = "Forbin",
 		ship_group = 80102,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "L'Adroit-class destroyer – Forbin. ",
+		desc = "L'Adroit-class destroyer – Forbin.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "fuerban",
@@ -89524,7 +89728,7 @@ pg.ship_skin_template = {
 		ship_group = 80102,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "It's good to be able to stop and smell the roses every now and then. Um, Commander, would you be able to accompany me a bit longer? ",
+		desc = "It's good to be able to stop and smell the roses every now and then. Um, Commander, would you be able to accompany me a bit longer?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Fuerban_2",
@@ -89851,11 +90055,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[801029] = {
-		name = "Forbin (Retrofit) ",
+		name = "Forbin (Retrofit)",
 		ship_group = 80102,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "My hard work has finally paid off! Commander, thank you for your guidance all this time! I'll return the favor by bringing you even more honors in battle! ",
+		desc = "My hard work has finally paid off! Commander, thank you for your guidance all this time! I'll return the favor by bringing you even more honors in battle!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "fuerban_g",
@@ -89960,11 +90164,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[801030] = {
-		name = "Le Téméraire ",
+		name = "Le Téméraire",
 		ship_group = 80103,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Le Hardi-class destroyer – Le Téméraire. ",
+		desc = "Le Hardi-class destroyer – Le Téméraire.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "lumang",
@@ -90180,11 +90384,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[801040] = {
-		name = "L'Opiniâtre ",
+		name = "L'Opiniâtre",
 		ship_group = 80104,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Le Hardi-class destroyer – L'Opiniâtre. ",
+		desc = "Le Hardi-class destroyer – L'Opiniâtre.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "juejiang",
@@ -90400,11 +90604,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[802010] = {
-		name = "Émile Bertin ",
+		name = "Émile Bertin",
 		ship_group = 80201,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Light cruiser – Émile Bertin. ",
+		desc = "Light cruiser – Émile Bertin.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aimierbeierding",
@@ -90509,11 +90713,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[802011] = {
-		name = "Côte d'Azur ",
+		name = "Côte d'Azur",
 		ship_group = 80201,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Commander, does my swimsuit pique your fancy? I'm actually quite proud of my fashion sense. *Giggle* Now, let's enjoy midsummer together~ ",
+		desc = "Commander, does my swimsuit pique your fancy? I'm actually quite proud of my fashion sense. *Giggle* Now, let's enjoy midsummer together~",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Aimierbeierding_2",
@@ -90675,7 +90879,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			-11,
-			-30,
+			-20,
 			0
 		},
 		fx_container = {
@@ -90775,11 +90979,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[802019] = {
-		name = "Émile Bertin (Retrofit) ",
+		name = "Émile Bertin (Retrofit)",
 		ship_group = 80201,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Émile Bertin, retrofit complete! I feel like a completely new person! To show my gratitude, Commander, I'll perform a brand new dance for you! ",
+		desc = "Émile Bertin, retrofit complete! I feel like a completely new person! To show my gratitude, Commander, I'll perform a brand new dance for you!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aimierbeierding_g",
@@ -90884,11 +91088,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[802020] = {
-		name = "Jeanne d'Arc ",
+		name = "Jeanne d'Arc",
 		ship_group = 80202,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Light cruiser – Jeanne d'Arc. ",
+		desc = "Light cruiser – Jeanne d'Arc.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "shengnvzhende",
@@ -91104,11 +91308,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[805010] = {
-		name = "Richelieu ",
+		name = "Richelieu",
 		ship_group = 80501,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Richelieu-class battleship – Richelieu. ",
+		desc = "Richelieu-class battleship – Richelieu.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "lisailiu",
@@ -91342,11 +91546,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[807010] = {
-		name = "Béarn ",
+		name = "Béarn",
 		ship_group = 80701,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Aircraft carrier – Béarn. ",
+		desc = "Aircraft carrier – Béarn.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "beiyaen",
@@ -91548,11 +91752,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[808010] = {
-		name = "Surcouf ",
+		name = "Surcouf",
 		ship_group = 80801,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Cruiser submarine – Surcouf. ",
+		desc = "Cruiser submarine – Surcouf.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xukufu",
@@ -91783,11 +91987,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[901010] = {
-		name = "Le Mars ",
+		name = "Le Mars",
 		ship_group = 90101,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "L'Adroit-class destroyer – Le Mars. ",
+		desc = "L'Adroit-class destroyer – Le Mars.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "lemaer",
@@ -91892,11 +92096,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[901011] = {
-		name = "Été Brillant ",
+		name = "Été Brillant",
 		ship_group = 90101,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "It's summer~! Summer is here, Commander! Let's head down to the beach to play! I'll show you why I'm feared in water gun fights! ",
+		desc = "It's summer~! Summer is here, Commander! Let's head down to the beach to play! I'll show you why I'm feared in water gun fights!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Lemaer_2",
@@ -92114,11 +92318,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[901019] = {
-		name = "Le Mars (Retrofit) ",
+		name = "Le Mars (Retrofit)",
 		ship_group = 90101,
 		group_index = 9,
 		illustrator2 = -1,
-		desc = "Retro~ fit~ com~ plete! The new and improved Le Mars is at your service~! ",
+		desc = "Retro~ fit~ com~ plete! The new and improved Le Mars is at your service~!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "lemaer_g",
@@ -92223,11 +92427,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[901020] = {
-		name = "Tartu ",
+		name = "Tartu",
 		ship_group = 90102,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Vauquelin-class destroyer – Tartu. ",
+		desc = "Vauquelin-class destroyer – Tartu.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "taertu",
@@ -92332,11 +92536,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[901021] = {
-		name = "Overthinking Summer ",
+		name = "Overthinking Summer",
 		ship_group = 90102,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "Commander, you're not going to get into the water? ...Ah, I'm fine right here. To tell you the truth, I once got washed away by the waves, and then got laughed at by Vauquelin... so I'm perfectly fine right here. ",
+		desc = "Commander, you're not going to get into the water? ...Ah, I'm fine right here. To tell you the truth, I once got washed away by the waves, and then got laughed at by Vauquelin... so I'm perfectly fine right here.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "taertu_2",
@@ -92443,11 +92647,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[901030] = {
-		name = "Vauquelin ",
+		name = "Vauquelin",
 		ship_group = 90103,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Vauquelin-class destroyer – Vauquelin. ",
+		desc = "Vauquelin-class destroyer – Vauquelin.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "wokelan",
@@ -92663,11 +92867,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[901110] = {
-		name = "Le Malin ",
+		name = "Le Malin",
 		ship_group = 90111,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Le Fantasque-class destroyer – Le Malin. ",
+		desc = "Le Fantasque-class destroyer – Le Malin.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "edu",
@@ -92881,11 +93085,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[901112] = {
-		name = "Mercredi at the Secret Base ",
+		name = "Mercredi at the Secret Base",
 		ship_group = 90111,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "I must commend you for being able to find my secret base, Commander... but unfortunately for you, I refuse to return to the office today. Just... *yawn*...let me spend the whole day sleeping here... ",
+		desc = "I must commend you for being able to find my secret base, Commander... but unfortunately for you, I refuse to return to the office today. Just... *yawn*...let me spend the whole day sleeping here...",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "edu_3",
@@ -92920,7 +93124,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			60,
-			12.5,
+			32.5,
 			0
 		},
 		fx_container = {
@@ -93006,11 +93210,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[902010] = {
-		name = "La Galissonnière ",
+		name = "La Galissonnière",
 		ship_group = 90201,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "La Galissonnière-class light cruiser – La Galissonnière. ",
+		desc = "La Galissonnière-class light cruiser – La Galissonnière.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "jialisuoniye",
@@ -93032,7 +93236,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 238,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -93141,7 +93345,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70365,
-		voice_actor = -1,
+		voice_actor = 238,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -93226,11 +93430,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[903020] = {
-		name = "Algérie ",
+		name = "Algérie",
 		ship_group = 90302,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Algérie-class heavy cruiser – Algérie. ",
+		desc = "Algérie-class heavy cruiser – Algérie.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aerjiliya",
@@ -93446,11 +93650,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[904010] = {
-		name = "Dunkerque ",
+		name = "Dunkerque",
 		ship_group = 90401,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Dunkerque-class battlecruiser – Dunkerque. ",
+		desc = "Dunkerque-class battlecruiser – Dunkerque.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "dunkeerke",
@@ -93555,11 +93759,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[904011] = {
-		name = "Summer Sucré ",
+		name = "Summer Sucré",
 		ship_group = 90401,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "I've been waiting so long for summer... and it's so worth it - the sun, the sand, the waves, and everyone's laughter. Commander, why don't we take this opportunity to enjoy some crullers together? ",
+		desc = "I've been waiting so long for summer... and it's so worth it - the sun, the sand, the waves, and everyone's laughter. Commander, why don't we take this opportunity to enjoy some crullers together?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "Dunkeerke_2",
@@ -93794,11 +93998,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[905010] = {
-		name = "Jean Bart ",
+		name = "Jean Bart",
 		ship_group = 90501,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Richelieu-class battleship – Jean Bart. ",
+		desc = "Richelieu-class battleship – Jean Bart.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "rangbaer",
@@ -99563,7 +99767,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900132] = {
-		name = "Helena ",
+		name = "Helena",
 		ship_group = 900132,
 		group_index = 0,
 		illustrator2 = -1,
@@ -99688,7 +99892,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900133] = {
-		name = "North Carolina ",
+		name = "North Carolina",
 		ship_group = 900133,
 		group_index = 0,
 		illustrator2 = -1,
@@ -99790,7 +99994,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900134] = {
-		name = "Washington ",
+		name = "Washington",
 		ship_group = 900134,
 		group_index = 0,
 		illustrator2 = -1,
@@ -100342,7 +100546,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900179] = {
-		name = "Kizuna AI ",
+		name = "Kizuna AI",
 		ship_group = 900179,
 		group_index = 0,
 		illustrator2 = -1,
@@ -102373,7 +102577,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900198] = {
-		name = "Vittorio Veneto ",
+		name = "Vittorio Veneto",
 		ship_group = 900195,
 		group_index = 0,
 		illustrator2 = -1,
@@ -102584,11 +102788,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[900200] = {
-		name = "Suruga ",
+		name = "Suruga",
 		ship_group = 900200,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Suruga ",
+		desc = "Suruga",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "junhe",
@@ -102917,7 +103121,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900203] = {
-		name = "Gascogne μ ",
+		name = "Gascogne μ",
 		ship_group = 900203,
 		group_index = 0,
 		illustrator2 = -1,
@@ -103019,7 +103223,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900204] = {
-		name = "Akagi μ ",
+		name = "Akagi μ",
 		ship_group = 900204,
 		group_index = 0,
 		illustrator2 = -1,
@@ -103114,7 +103318,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900205] = {
-		name = "Cleveland μ ",
+		name = "Cleveland μ",
 		ship_group = 900205,
 		group_index = 0,
 		illustrator2 = -1,
@@ -103216,7 +103420,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900206] = {
-		name = "Admiral Hipper μ ",
+		name = "Admiral Hipper μ",
 		ship_group = 900206,
 		group_index = 0,
 		illustrator2 = -1,
@@ -103325,7 +103529,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900207] = {
-		name = "Sheffield μ ",
+		name = "Sheffield μ",
 		ship_group = 900207,
 		group_index = 0,
 		illustrator2 = -1,
@@ -106356,7 +106560,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900236] = {
-		name = "Vauquelin ",
+		name = "Vauquelin",
 		ship_group = 900236,
 		group_index = 0,
 		illustrator2 = -1,
@@ -106471,7 +106675,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900237] = {
-		name = "Le Terrible ",
+		name = "Le Terrible",
 		ship_group = 900237,
 		group_index = 0,
 		illustrator2 = -1,
@@ -106586,7 +106790,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900238] = {
-		name = "Algérie? ",
+		name = "Algérie?",
 		ship_group = 900238,
 		group_index = 0,
 		illustrator2 = -1,
@@ -106701,7 +106905,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[900239] = {
-		name = "Jean Bart ",
+		name = "Jean Bart",
 		ship_group = 900239,
 		group_index = 0,
 		illustrator2 = -1,
@@ -108048,11 +108252,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[10400010] = {
-		name = "Kizuna AI ",
+		name = "Kizuna AI",
 		ship_group = 1040001,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "HAI DOMO! Kizuna AI here! Are you the commander I've heard rumors about? It's a pleasure to meet and work with you! ",
+		desc = "HAI DOMO! Kizuna AI here! Are you the commander I've heard rumors about? It's a pleasure to meet and work with you!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aijiangDD",
@@ -110026,11 +110230,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[299010] = {
-		name = "Neptune ",
+		name = "Neptune",
 		ship_group = 29901,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Light cruiser – Neptune. ",
+		desc = "Light cruiser – Neptune.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "haiwangxing",
@@ -110232,11 +110436,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[299020] = {
-		name = "Monarch ",
+		name = "Monarch",
 		ship_group = 29902,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Battleship – Monarch. ",
+		desc = "Battleship – Monarch.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "junzhu",
@@ -110438,11 +110642,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[299022] = {
-		name = "Black Gerard ",
+		name = "Black Gerard",
 		ship_group = 29902,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "So, an Eastern outfit this time... Hmph. My nobility is evident regardless of what I wear. However, since you prepared this outfit especially for me, it would be unbecoming of me to not express my gratitude. Thank you. ",
+		desc = "So, an Eastern outfit this time... Hmph. My nobility is evident regardless of what I wear. However, since you prepared this outfit especially for me, it would be unbecoming of me to not express my gratitude. Thank you.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "junzhu_3",
@@ -110546,7 +110750,7 @@ pg.ship_skin_template = {
 		ship_group = 39901,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Heavy cruiser – Ibuki. ",
+		desc = "Heavy cruiser – Ibuki.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "yichui",
@@ -110995,7 +111199,7 @@ pg.ship_skin_template = {
 		ship_group = 39902,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Battleship – Izumo. ",
+		desc = "Battleship – Izumo.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "chuyun",
@@ -111201,7 +111405,7 @@ pg.ship_skin_template = {
 		ship_group = 49901,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Heavy cruiser – Roon. ",
+		desc = "Heavy cruiser – Roon.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "luoen",
@@ -111421,7 +111625,7 @@ pg.ship_skin_template = {
 		ship_group = 89901,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Heavy cruiser – Saint Louis. ",
+		desc = "Heavy cruiser – Saint Louis.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "luyijiushi",
@@ -111519,11 +111723,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[199010] = {
-		name = "Seattle ",
+		name = "Seattle",
 		ship_group = 19901,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Light cruiser – Seattle. ",
+		desc = "Light cruiser – Seattle.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xiyatu",
@@ -111937,7 +112141,7 @@ pg.ship_skin_template = {
 		ship_group = 19902,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Battleship – Georgia. ",
+		desc = "Battleship – Georgia.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zuozhiya",
@@ -112241,11 +112445,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[399030] = {
-		name = "Kitakaze ",
+		name = "Kitakaze",
 		ship_group = 39903,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Destroyer – Kitakaze. ",
+		desc = "Destroyer – Kitakaze.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "beifeng",
@@ -112447,11 +112651,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[399040] = {
-		name = "Azuma ",
+		name = "Azuma",
 		ship_group = 39904,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Large cruiser – Azuma. ",
+		desc = "Large cruiser – Azuma.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "wuqi",
@@ -112668,11 +112872,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[499020] = {
-		name = "Friedrich der Große ",
+		name = "Friedrich der Große",
 		ship_group = 49902,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Battleship – Friedrich der Große. ",
+		desc = "Battleship – Friedrich der Große.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "feiteliedadi",
@@ -112976,11 +113180,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[999010] = {
-		name = "Gascogne ",
+		name = "Gascogne",
 		ship_group = 99901,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Battleship – Gascogne. ",
+		desc = "Battleship – Gascogne.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "jiasikenie",
@@ -113186,7 +113390,7 @@ pg.ship_skin_template = {
 		ship_group = 29903,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Heavy cruiser – Cheshire. ",
+		desc = "Heavy cruiser – Cheshire.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "chaijun",
@@ -113295,7 +113499,7 @@ pg.ship_skin_template = {
 		ship_group = 29904,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Heavy cruiser – Drake. ",
+		desc = "Heavy cruiser – Drake.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "deleike",
@@ -113404,7 +113608,7 @@ pg.ship_skin_template = {
 		ship_group = 49903,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Light cruiser – Mainz. ",
+		desc = "Light cruiser – Mainz.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "meiyinci",
@@ -113513,7 +113717,7 @@ pg.ship_skin_template = {
 		ship_group = 49904,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Battlecruiser – Odin. ",
+		desc = "Battlecruiser – Odin.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "aoding",
@@ -113622,7 +113826,7 @@ pg.ship_skin_template = {
 		ship_group = 89902,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "Battleship – Champagne. ",
+		desc = "Battleship – Champagne.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xiangbin",
@@ -114507,6 +114711,9 @@ pg.ship_skin_template = {
 			401011,
 			401019
 		},
+		[31701] = {
+			317010
+		},
 		[31201] = {
 			312010,
 			312011,
@@ -114681,6 +114888,9 @@ pg.ship_skin_template = {
 		[30401] = {
 			304010,
 			304011
+		},
+		[30317] = {
+			303170
 		},
 		[30314] = {
 			303140
@@ -116381,6 +116591,7 @@ pg.ship_skin_template = {
 		303128,
 		303130,
 		303140,
+		303170,
 		304010,
 		304011,
 		304020,
@@ -116480,6 +116691,7 @@ pg.ship_skin_template = {
 		312012,
 		312013,
 		312014,
+		317010,
 		331050,
 		401010,
 		401011,

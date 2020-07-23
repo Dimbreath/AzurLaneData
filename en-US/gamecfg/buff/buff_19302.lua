@@ -10,7 +10,7 @@ return {
 				},
 				arg_list = {
 					number = 100,
-					attr = "loadSpeed"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -24,6 +24,18 @@ return {
 					number = 100,
 					attr = "cannonPower"
 				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 150,
+					attr = "loadSpeed"
+				}
 			}
 		}
 	},
@@ -38,7 +50,7 @@ return {
 				},
 				arg_list = {
 					number = 140,
-					attr = "loadSpeed"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -51,6 +63,18 @@ return {
 				arg_list = {
 					number = 140,
 					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 210,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -66,7 +90,7 @@ return {
 				},
 				arg_list = {
 					number = 180,
-					attr = "loadSpeed"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -80,6 +104,18 @@ return {
 					number = 180,
 					attr = "cannonPower"
 				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 270,
+					attr = "loadSpeed"
+				}
 			}
 		}
 	},
@@ -94,7 +130,7 @@ return {
 				},
 				arg_list = {
 					number = 220,
-					attr = "loadSpeed"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -107,6 +143,18 @@ return {
 				arg_list = {
 					number = 220,
 					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 330,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -122,7 +170,7 @@ return {
 				},
 				arg_list = {
 					number = 260,
-					attr = "loadSpeed"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -136,6 +184,18 @@ return {
 					number = 260,
 					attr = "cannonPower"
 				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 390,
+					attr = "loadSpeed"
+				}
 			}
 		}
 	},
@@ -150,7 +210,7 @@ return {
 				},
 				arg_list = {
 					number = 300,
-					attr = "loadSpeed"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -163,6 +223,18 @@ return {
 				arg_list = {
 					number = 300,
 					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 450,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -178,7 +250,7 @@ return {
 				},
 				arg_list = {
 					number = 350,
-					attr = "loadSpeed"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -192,6 +264,18 @@ return {
 					number = 350,
 					attr = "cannonPower"
 				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 510,
+					attr = "loadSpeed"
+				}
 			}
 		}
 	},
@@ -206,7 +290,7 @@ return {
 				},
 				arg_list = {
 					number = 400,
-					attr = "loadSpeed"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -219,6 +303,18 @@ return {
 				arg_list = {
 					number = 400,
 					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 570,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -234,7 +330,7 @@ return {
 				},
 				arg_list = {
 					number = 450,
-					attr = "loadSpeed"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -247,6 +343,18 @@ return {
 				arg_list = {
 					number = 450,
 					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 630,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -262,7 +370,7 @@ return {
 				},
 				arg_list = {
 					number = 500,
-					attr = "loadSpeed"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -275,6 +383,18 @@ return {
 				arg_list = {
 					number = 500,
 					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onStack",
+					"onRemove"
+				},
+				arg_list = {
+					number = 700,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -289,9 +409,9 @@ return {
 	icon = 19300,
 	last_effect = "",
 	blink = {
-		0,
-		0.7,
 		1,
+		0,
+		0,
 		0.3,
 		0.3
 	},
@@ -305,7 +425,7 @@ return {
 			},
 			arg_list = {
 				number = 100,
-				attr = "loadSpeed"
+				attr = "dodgeRate"
 			}
 		},
 		{
@@ -318,6 +438,18 @@ return {
 			arg_list = {
 				number = 100,
 				attr = "cannonPower"
+			}
+		},
+		{
+			type = "BattleBuffAddAttrRatio",
+			trigger = {
+				"onAttach",
+				"onStack",
+				"onRemove"
+			},
+			arg_list = {
+				number = 150,
+				attr = "loadSpeed"
 			}
 		}
 	}

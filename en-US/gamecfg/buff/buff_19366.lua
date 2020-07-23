@@ -2,13 +2,25 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
-					number = -0.05,
-					attr = "injureRatio"
+					number = 500,
+					attr = "dodgeRate"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 500,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -16,13 +28,25 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
-					number = -0.061,
-					attr = "injureRatio"
+					number = 610,
+					attr = "dodgeRate"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 610,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -30,13 +54,25 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
-					number = -0.072,
-					attr = "injureRatio"
+					number = 720,
+					attr = "dodgeRate"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 720,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -44,13 +80,25 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
-					number = -0.083,
-					attr = "injureRatio"
+					number = 830,
+					attr = "dodgeRate"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 830,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -58,13 +106,25 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
-					number = -0.094,
-					attr = "injureRatio"
+					number = 940,
+					attr = "dodgeRate"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 940,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -72,13 +132,25 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
-					number = -0.105,
-					attr = "injureRatio"
+					number = 1050,
+					attr = "dodgeRate"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 1050,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -86,13 +158,25 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
-					number = -0.116,
-					attr = "injureRatio"
+					number = 1160,
+					attr = "dodgeRate"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 1160,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -100,13 +184,25 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
-					number = -0.127,
-					attr = "injureRatio"
+					number = 1270,
+					attr = "dodgeRate"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 1270,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -114,13 +210,25 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
-					number = -0.138,
-					attr = "injureRatio"
+					number = 1380,
+					attr = "dodgeRate"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 1380,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -128,13 +236,25 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
-					number = -0.15,
-					attr = "injureRatio"
+					number = 1500,
+					attr = "dodgeRate"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 1500,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -143,7 +263,7 @@ return {
 	init_effect = "jinengchufablue",
 	time = 0,
 	picture = "",
-	desc = "减伤",
+	desc = "",
 	stack = 1,
 	id = 19366,
 	icon = 19360,
@@ -157,13 +277,25 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleBuffAddAttr",
+			type = "BattleBuffAddAttrRatio",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onRemove"
 			},
 			arg_list = {
-				number = -0.05,
-				attr = "injureRatio"
+				number = 500,
+				attr = "dodgeRate"
+			}
+		},
+		{
+			type = "BattleBuffAddAttrRatio",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				number = 500,
+				attr = "attackRating"
 			}
 		}
 	}

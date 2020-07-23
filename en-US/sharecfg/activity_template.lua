@@ -12561,6 +12561,386 @@ pg.activity_template = {
 			}
 		}
 	},
+	[30446] = {
+		mark = 20200716,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 121,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 30446,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30447] = {
+		mark = 20200716,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30447,
+		config_data = {
+			14230,
+			14231,
+			14232,
+			14233,
+			14234,
+			14235,
+			14236,
+			14237,
+			14238,
+			14239,
+			14240,
+			14241,
+			14242,
+			14243,
+			14244
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30448] = {
+		mark = 20200716,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 30448,
+		config_data = {
+			692,
+			680,
+			681,
+			682,
+			688,
+			683,
+			684,
+			685,
+			686,
+			687,
+			689,
+			690,
+			691
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_fengshan",
+			{
+				1,
+				0.65,
+				0.23,
+				1
+			},
+			pt_id = 121,
+			painting = "luao_pt"
+		}
+	},
+	[30449] = {
+		mark = 20200716,
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 42,
+		config_client = "",
+		title_res_tag = "TWmoran",
+		id = 30449,
+		config_data = {
+			1210001,
+			1210002,
+			1210003,
+			1210004,
+			1210011,
+			1210012,
+			1210013,
+			1210014
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MoranMainPage",
+			ui_name = "MoranMainPage"
+		}
+	},
+	[30450] = {
+		mark = 20200716,
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30450,
+		config_data = {
+			1210005,
+			1210006,
+			1210015,
+			1210016,
+			1210021
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30451] = {
+		mark = 20200716,
+		type = 54,
+		login_pop = 0,
+		config_id = 30451,
+		is_show = 41,
+		config_client = "",
+		title_res_tag = "TWmoranPT",
+		id = 30451,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MoranPtPage",
+			ui_name = "MoranPtPage"
+		}
+	},
+	[30452] = {
+		mark = 20200716,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30452,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30453] = {
+		mark = 20200716,
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30453,
+		config_data = {
+			3001201,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[30500] = {
 		mark = 20181030,
 		page_info = "",
@@ -13740,6 +14120,14 @@ pg.activity_template = {
 		30443,
 		30444,
 		30445,
+		30446,
+		30447,
+		30448,
+		30449,
+		30450,
+		30451,
+		30452,
+		30453,
 		30500,
 		30501,
 		30502,

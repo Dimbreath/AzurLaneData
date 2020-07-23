@@ -244,6 +244,7 @@ pg.collection_template = {
 			3,
 			6,
 			8,
+			17,
 			18
 		},
 		drop_display = {
@@ -357,7 +358,8 @@ pg.collection_template = {
 			1,
 			2,
 			6,
-			8
+			8,
+			17
 		},
 		drop_display = {
 			{
@@ -971,6 +973,7 @@ pg.collection_template = {
 			3,
 			6,
 			8,
+			17,
 			18
 		},
 		drop_display = {
@@ -1038,6 +1041,7 @@ pg.collection_template = {
 			3,
 			6,
 			8,
+			17,
 			18
 		},
 		drop_display = {
@@ -1274,7 +1278,8 @@ pg.collection_template = {
 			1,
 			6,
 			7,
-			8
+			8,
+			17
 		},
 		drop_display = {
 			{
@@ -1348,7 +1353,8 @@ pg.collection_template = {
 		ship_type = {
 			1,
 			6,
-			8
+			8,
+			17
 		},
 		drop_display = {
 			{
@@ -1435,7 +1441,8 @@ pg.collection_template = {
 			1,
 			2,
 			6,
-			8
+			8,
+			17
 		},
 		drop_display = {
 			{
@@ -1791,7 +1798,8 @@ pg.collection_template = {
 			1,
 			6,
 			7,
-			8
+			8,
+			17
 		},
 		drop_display = {
 			{
@@ -1950,7 +1958,8 @@ pg.collection_template = {
 			1,
 			2,
 			6,
-			8
+			8,
+			17
 		},
 		drop_display = {
 			{
@@ -2306,7 +2315,8 @@ pg.collection_template = {
 			1,
 			6,
 			7,
-			8
+			8,
+			17
 		},
 		drop_display = {
 			{
@@ -2712,6 +2722,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -2761,6 +2772,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -2810,6 +2822,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -2859,6 +2872,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -2908,6 +2922,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -2957,6 +2972,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3006,6 +3022,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3055,6 +3072,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3104,6 +3122,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3153,6 +3172,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3202,6 +3222,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3251,6 +3272,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3300,6 +3322,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3349,6 +3372,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3398,6 +3422,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3447,6 +3472,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3496,6 +3522,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3545,6 +3572,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3594,6 +3622,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3652,6 +3681,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3710,6 +3740,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3768,6 +3799,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3826,6 +3858,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3884,6 +3917,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -3942,6 +3976,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4000,6 +4035,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4058,6 +4094,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4116,6 +4153,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4174,6 +4212,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4232,6 +4271,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4290,6 +4330,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4348,6 +4389,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4406,6 +4448,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4464,6 +4507,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4522,6 +4566,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4580,6 +4625,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4638,6 +4684,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4696,6 +4743,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4754,6 +4802,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4812,6 +4861,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4870,6 +4920,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4928,6 +4979,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -4986,6 +5038,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5044,6 +5097,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5102,6 +5156,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5160,6 +5215,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5218,6 +5274,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5276,6 +5333,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5334,6 +5392,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5392,6 +5451,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5450,6 +5510,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5508,6 +5569,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5566,6 +5628,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5624,6 +5687,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5682,6 +5746,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5740,6 +5805,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5798,6 +5864,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5856,6 +5923,7 @@ pg.collection_template = {
 			11,
 			12,
 			13,
+			17,
 			18
 		},
 		drop_display = {
@@ -5980,6 +6048,7 @@ pg.collection_template = {
 			3,
 			6,
 			8,
+			17,
 			18
 		},
 		drop_display = {
@@ -6013,7 +6082,8 @@ pg.collection_template = {
 			1,
 			2,
 			6,
-			8
+			8,
+			17
 		},
 		drop_display = {
 			{
@@ -6094,7 +6164,8 @@ pg.collection_template = {
 			1,
 			2,
 			6,
-			8
+			8,
+			17
 		},
 		drop_display = {
 			{
@@ -6408,6 +6479,7 @@ pg.collection_template = {
 			3,
 			6,
 			8,
+			17,
 			18
 		},
 		drop_display = {

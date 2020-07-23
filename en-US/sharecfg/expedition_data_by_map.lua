@@ -3110,6 +3110,211 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1210001] = {
+		map = 1210001,
+		name = "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
+		bgm = "Nagato-map",
+		type = 4,
+		on_activity = 30449,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YINGHUA1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "yinghua_map_effect01",
+		cloud_suffix = "",
+		bg = "Map_1100001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1210011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1210002] = {
+		map = 1210002,
+		name = "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
+		bgm = "Nagato-map",
+		type = 4,
+		on_activity = 30450,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YINGHUA9",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "yinghua_map_effect02",
+		cloud_suffix = "",
+		bg = "Map_1100002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1210012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1210011] = {
+		map = 1210011,
+		name = "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
+		bgm = "Nagato-map",
+		type = 5,
+		on_activity = 30449,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YINGHUA1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "yinghua_map_effect03",
+		cloud_suffix = "",
+		bg = "Map_1100011",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1210001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1210012] = {
+		map = 1210012,
+		name = "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
+		bgm = "Nagato-map",
+		type = 5,
+		on_activity = 30450,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YINGHUA9",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "yinghua_map_effect04",
+		cloud_suffix = "",
+		bg = "Map_1100012",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1210002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1210021] = {
+		map = 1210021,
+		name = "Ink-Stained Steel Sakura – EX|| ||CHAPTER EX||E.X.",
+		bgm = "Nagato-map",
+		type = 8,
+		on_activity = 30450,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "yinghua_map_effect02",
+		cloud_suffix = "",
+		bg = "Map_1100002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1210012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1220001] = {
 		map = 1220001,
 		name = "Virtual Link Synchronicity|| ||CHAPTER EX||E.X.",
@@ -6481,6 +6686,11 @@ pg.expedition_data_by_map = {
 		1190010,
 		1190011,
 		1190021,
+		1210001,
+		1210002,
+		1210011,
+		1210012,
+		1210021,
 		1220001,
 		1220021,
 		1230001,

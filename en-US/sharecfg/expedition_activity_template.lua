@@ -3571,50 +3571,125 @@ pg.expedition_activity_template = {
 			}
 		}
 	},
+	[3000013] = {
+		id = 3000013,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30449,
+				121
+			}
+		}
+	},
+	[3000113] = {
+		id = 3000113,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30449,
+				121
+			}
+		}
+	},
+	[3000213] = {
+		id = 3000213,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30449,
+				121
+			}
+		}
+	},
 	[3000313] = {
 		id = 3000313,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30449,
+				121
+			}
+		}
 	},
 	[3000413] = {
 		id = 3000413,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30449,
+				121
+			}
+		}
 	},
 	[3000513] = {
 		id = 3000513,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30449,
+				121
+			}
+		}
 	},
 	[3000613] = {
 		id = 3000613,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30449,
+				121
+			}
+		}
 	},
 	[3000713] = {
 		id = 3000713,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30449,
+				121
+			}
+		}
 	},
 	[3000813] = {
 		id = 3000813,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30449,
+				121
+			}
+		}
 	},
 	[3000913] = {
 		id = 3000913,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30449,
+				121
+			}
+		}
 	},
 	[3001013] = {
 		id = 3001013,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30449,
+				121
+			}
+		}
 	},
 	[3001113] = {
 		id = 3001113,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				30449,
+				121
+			}
+		}
 	},
 	[3001201] = {
 		id = 3001201,
@@ -4172,6 +4247,9 @@ pg.expedition_activity_template = {
 		1410002,
 		1410003,
 		1410004,
+		3000013,
+		3000113,
+		3000213,
 		3000313,
 		3000413,
 		3000513,

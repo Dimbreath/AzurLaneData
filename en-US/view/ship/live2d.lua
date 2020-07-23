@@ -103,9 +103,6 @@ function slot6(slot0, slot1)
 	end
 
 	slot0.liveCom:SetTouchParts(uv0.assistantTouchParts)
-
-	slot0.liveCom.name = slot0.live2dData:GetShipName()
-
 	setActive(slot0.live2dData.parent, true)
 	uv1(slot0)
 	uv2(slot0)

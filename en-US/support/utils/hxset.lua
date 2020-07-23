@@ -1,7 +1,13 @@
-HXSet = {}
-slot0 = HXSet
-slot0.codeModeKey = "hx_code_mode"
-slot0.codeMode = false
+HXSet = {
+	codeModeKey = "hx_code_mode"
+}
+
+if PLATFORM_CODE == PLATFORM_CH then
+	slot0.codeMode = false
+else
+	slot0.codeMode = true
+end
+
 slot0.nameCodeMap = {}
 slot0.codeNameMap = {}
 slot0.nameCodeMap_EN = {
@@ -24,6 +30,18 @@ function slot0.init()
 	end
 
 	uv0.update()
+
+	if PLATFORM_CODE == PLATFORM_CH then
+		slot0 = nil
+
+		if PathMgr.FileExists((not Application.isEditor or PathMgr.getAssetBundle("../localization.txt")) and Application.persistentDataPath .. "/localization.txt") then
+			if string.gsub(PathMgr.ReadAllText(slot0), "%w+%s*=%s*", "") == "true" then
+				uv0.codeMode = true
+			end
+		else
+			System.IO.File.WriteAllText(slot0, "Localization = false")
+		end
+	end
 end
 
 function slot0.switchCodeMode()
@@ -70,16 +88,64 @@ end
 
 function slot0.hxLan(slot0, slot1)
 	return string.gsub(slot0 or "", "{namecode:(%d+)}", function (slot0)
-		return pg.name_code[tonumber(slot0)] and ((uv0.codeMode or uv1) and slot1.name or slot1.code)
+		if PLATFORM_CODE == PLATFORM_CH then
+			return pg.name_code[tonumber(slot0)].code
+		else
+			return slot1 and ((uv0.codeMode or uv1) and slot1.name or slot1.code)
+		end
 	end)
 end
 
 function slot0.isHx()
-	if uv0.codeMode then
-		-- Nothing
+	return not uv0.codeMode
+end
+
+slot0.hxPathList = {
+	"live2d",
+	"painting",
+	"shipYardIcon"
+}
+
+function slot0.needShift(slot0)
+	for slot4, slot5 in ipairs(uv0.hxPathList) do
+		if string.find(slot0, slot5) then
+			return true
+		end
 	end
 
-	return true
+	return false
+end
+
+function slot0.autoHxShift(slot0, slot1)
+	if uv0.isHx() then
+		if string.find(slot0, "live2d") and pg.l2dhx[slot1] then
+			return slot0, slot1 .. "_hx"
+		end
+
+		if uv0.needShift(slot0) and PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. slot1 .. "_hx")) then
+			return slot0, slot1 .. "_hx"
+		end
+	end
+
+	return slot0, slot1
+end
+
+function slot0.autoHxShiftPath(slot0, slot1)
+	if uv0.isHx() then
+		if string.find(slot0, "live2d") and pg.l2dhx[string.gsub(slot0, "live2d/", "")] then
+			return slot0 .. "_hx"
+		end
+
+		if uv0.needShift(slot0) and PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. "_hx")) then
+			if slot1 then
+				return slot0 .. "_hx", slot1 .. "_hx"
+			else
+				return slot0 .. "_hx", slot1
+			end
+		end
+	end
+
+	return slot0, slot1
 end
 
 slot0.init()

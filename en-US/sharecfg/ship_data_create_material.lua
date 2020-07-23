@@ -70,10 +70,14 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Common：30%",
-			"<color=#ffde38>Richelieu</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Algérie</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Jeanne d'Arc</color>：0.5%",
-			"<color=#d797ff>Vauquelin</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>Nagato</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Kawakaze</color>：1.8%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>I-13</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Suzuya</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Yoizuki</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Harutsuki</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>Fumizuki</color>：5.0%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>Asashio</color>：5.0%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

@@ -6780,6 +6780,17 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6370] = {
+		desc_get = "",
+		name = "Aviation Submarine Specialization",
+		desc = "When equipped by an SSV: increases this aircraft's DMG dealt by 60.0%.",
+		type = 0,
+		max_level = 0,
+		id = 6370,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[6380] = {
 		desc_get = "",
 		name = "Random Word Generator",
@@ -22497,6 +22508,66 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12010] = {
+		desc_get = "",
+		name = "From the Seas to the Skies",
+		desc = "When this boat enters the battle: launches a Saiun seaplane and increases DMG dealt by your Main Fleet by $1 for 10s.",
+		type = 3,
+		max_level = 10,
+		id = 12010,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
 	[12020] = {
 		desc_get = "",
 		name = "潜母飞机用",
@@ -22507,6 +22578,109 @@ pg.skill_data_template = {
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
+	},
+	[12030] = {
+		desc_get = "",
+		name = "The Dark-Dispelling Flame",
+		desc = "Every 8 times this ship hits a target with its Main Guns: increases this ship's FP by $1 and RLD by $2 (can be stacked up to 3 times.) When fully stacked: improves this ship's All Out Assault barrage.",
+		type = 1,
+		max_level = 10,
+		id = 12030,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.5%",
+				"5%"
+			},
+			{
+				"10.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.3%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.4%"
+				},
+				{
+					"2.5%",
+					"+0.3%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%",
+					"+0.4%"
+				},
+				{
+					"3.9%",
+					"+0.4%"
+				},
+				{
+					"4.3%",
+					"+0.7%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.2%"
+				},
+				{
+					"11.2%",
+					"+1.2%"
+				},
+				{
+					"12.4%",
+					"+1.6%"
+				},
+				{
+					"14.0%",
+					"+1.5%"
+				},
+				{
+					"15.5%",
+					"+1.5%"
+				},
+				{
+					"17.0%",
+					"+2.0%"
+				},
+				{
+					"19.0%",
+					"+1.8%"
+				},
+				{
+					"20.8%",
+					"+1.8%"
+				},
+				{
+					"22.6%",
+					"+2.4%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
 	},
 	[12040] = {
 		desc_get = "",
@@ -37837,7 +38011,7 @@ pg.skill_data_template = {
 	[19290] = {
 		desc_get = "",
 		name = "The Fearless Privateer",
-		desc = "Increases this ship's built-in Secondary Gun Crit Rate by $2 and gives a $1 ammo buff to it. When this ship uses a Main Gun that fires Normal or HE ammo: this ship's Main Gun ammo type changes to special HE (DMG is based on the skill's level.)",
+		desc = "Increases this ship's built-in Secondary Gun Crit Rate by $2 and improves its ammo. When this ship uses a Main Gun that fires Normal or HE ammo: this ship's Main Gun ammo type changes to $1 special HE with a chance to cause a special Burn to enemies (special HE DMG increase is based on the skill's level.)",
 		type = 1,
 		max_level = 10,
 		id = 19290,
@@ -37931,7 +38105,7 @@ pg.skill_data_template = {
 	[19300] = {
 		desc_get = "",
 		name = "Flintlock Burst",
-		desc = "Every $1s: fires a special barrage that heals this ship for 15.0% of the DMG dealt (barrage DMG is based on the skill's level.) When this ship sinks an enemy: increases this ship's FP and RLD by $2 until the end of the battle. Can be stacked up to 3 times.",
+		desc = "Every $1s: fires a special barrage that ignores enemy shields and heals this ship for 15.0% of the DMG dealt (barrage DMG is based on the skill's level.) When this ship sinks an enemy: increases this ship's FP and EVA by $2 and RLD by $3 until the end of the battle. Can be stacked up to 3 times; if this ship is in the frontmost position of your Vanguard at the start of the battle: immediately gives all 3 stacks of this buff.",
 		type = 3,
 		max_level = 10,
 		id = 19300,
@@ -37944,6 +38118,10 @@ pg.skill_data_template = {
 			{
 				"1.0%",
 				"5.0%"
+			},
+			{
+				"1.5%",
+				"7.0%"
 			}
 		},
 		desc_add = {
@@ -38027,6 +38205,47 @@ pg.skill_data_template = {
 				},
 				{
 					"5.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.6%"
+				},
+				{
+					"2.1%",
+					"+0.6%"
+				},
+				{
+					"2.7%",
+					"+0.6%"
+				},
+				{
+					"3.3%",
+					"+0.6%"
+				},
+				{
+					"3.9%",
+					"+0.6%"
+				},
+				{
+					"4.5%",
+					"+0.6%"
+				},
+				{
+					"5.1%",
+					"+0.6%"
+				},
+				{
+					"5.7%",
+					"+0.6%"
+				},
+				{
+					"6.3%",
+					"+0.7%"
+				},
+				{
+					"7.0%"
 				}
 			}
 		}
@@ -38433,7 +38652,7 @@ pg.skill_data_template = {
 	[19340] = {
 		desc_get = "",
 		name = "Herteitr's Rolling Thunder",
-		desc = "Every 18s: $1 chance to fire a special barrage (DMG is based on the skill's level.) Changes the Spread Angle of this ship's torpedoes.",
+		desc = "Every 18s: $1 chance to fire a special barrage with thunderbolts that ignore enemy shields (DMG is based on the skill's level.) Changes the Spread Angle of this ship's torpedoes.",
 		type = 1,
 		max_level = 10,
 		id = 19340,
@@ -40161,6 +40380,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[22254] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Suzuya-class once every 9 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 22254,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[22255] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Suzuya-class once every 6 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 22255,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[22261] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -41580,6 +41821,28 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29362,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29371] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: I-13 immediately after entering the battle.",
+		type = 1,
+		max_level = 1,
+		id = 29371,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29372] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: I-13 immediately after entering the battle.",
+		type = 1,
+		max_level = 1,
+		id = 29372,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -45301,6 +45564,7 @@ pg.skill_data_template = {
 		6329,
 		6330,
 		6360,
+		6370,
 		6380,
 		6390,
 		6400,
@@ -45536,7 +45800,9 @@ pg.skill_data_template = {
 		11980,
 		11990,
 		12000,
+		12010,
 		12020,
+		12030,
 		12040,
 		12050,
 		12060,
@@ -45841,6 +46107,8 @@ pg.skill_data_template = {
 		22251,
 		22252,
 		22253,
+		22254,
+		22255,
 		22261,
 		22262,
 		22311,
@@ -45970,6 +46238,8 @@ pg.skill_data_template = {
 		29351,
 		29361,
 		29362,
+		29371,
+		29372,
 		29381,
 		29382,
 		29391,

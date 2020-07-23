@@ -2000,6 +2000,56 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[902010] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 902010,
+		expedition = "",
+		win_mvp = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"What are we doing today? Why don't you gimme something to do before I turn to rust?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"There's not too much of \"that\" kind of work to do at this port, huh... Well, as long as the Iris girls are safe and sound here, then I can have fun without worrying about anything! Hehehe!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"You wanna know about \"that\" work? How do I say this... Let's just call it the \"Inquisition?\" What it means is... Hmm, I really can't tell you after all~♪"
+			}
+		},
+		main = {
+			{
+				1100,
+				"nil|♪～Hey Commander, can you help me check if I sharpened this enough? I'm always afraid that I missed a spot or something...|Gotta say, I still prefer working under Jean Bart rather than Algérie. Y'know, it's that whole \"don't worry about anything other than slaughtering your enemies\" kind of feeling..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hm? Hmmmmm? ...Mmm... Well, whatever~♪"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -2033,6 +2083,7 @@ pg.ship_skin_words_extra = {
 		201100,
 		901110,
 		205060,
-		205070
+		205070,
+		902010
 	}
 }

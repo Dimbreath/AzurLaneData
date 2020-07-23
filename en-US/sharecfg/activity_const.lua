@@ -193,10 +193,10 @@ pg.activity_const = {
 		act_id = 253
 	},
 	MORAN_RE_PREVIEW_ID = {
-		act_id = 30109
+		act_id = 30449
 	},
 	MORAN_RE_PT_ID = {
-		act_id = 264
+		act_id = 30451
 	},
 	XIAOJIAJIA_PREVIEW_ID = {
 		act_id = 267

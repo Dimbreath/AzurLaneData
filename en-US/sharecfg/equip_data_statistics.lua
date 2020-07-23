@@ -2784,6 +2784,109 @@ pg.equip_data_statistics = {
 			"QUAD"
 		}
 	},
+	[434] = {
+		name = "试作型三联装234mm主炮（模拟展示用）",
+		speciality = "锁定",
+		type = 3,
+		tech = 0,
+		descrip = "说明未填写",
+		value_2 = 65,
+		icon = "1",
+		attribute_2 = "cannon",
+		rarity = 6,
+		damage = "35 x 6",
+		nationality = 2,
+		ammo = "通常弹",
+		value_3 = 0,
+		id = 434,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		ammo_info = {
+			{
+				1,
+				1418
+			}
+		},
+		equip_info = {
+			1,
+			2,
+			{
+				3,
+				1418
+			},
+			{
+				4,
+				1222
+			},
+			6
+		},
+		weapon_id = {
+			434
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CA",
+			"MG",
+			"CM"
+		}
+	},
+	[435] = {
+		name = "皇家雷击轻巡副炮T4（模拟展示用）",
+		speciality = "锁定",
+		type = 1,
+		tech = 1,
+		rarity = 1,
+		descrip = "默认装备",
+		value_2 = 0,
+		icon = "1",
+		damage = "10 x 4",
+		nationality = 0,
+		ammo = "通常",
+		value_3 = 0,
+		id = 435,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			435
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
+	},
 	[500] = {
 		name = "Beaver Squad Tag",
 		tech = 1,
@@ -60150,12 +60253,12 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39300] = {
-		name = "晴岚",
+		name = "Seiran",
 		type = 12,
-		speciality = "轰炸",
+		speciality = "Bomber",
 		rarity = 4,
 		tech = 0,
-		descrip = "Aichi M6A1 Seiran 晴岚式特殊攻击机，搭载1门13mm机枪和1枚约1600磅炸弹",
+		descrip = "Aichi M6A1 Seiran special purpose seaplane. It is capable of equipping 13mm guns and one 800kg bomb.",
 		value_2 = 25,
 		icon = "39300",
 		attribute_2 = "air",
@@ -90506,6 +90609,8 @@ pg.equip_data_statistics = {
 		431,
 		432,
 		433,
+		434,
+		435,
 		500,
 		501,
 		502,

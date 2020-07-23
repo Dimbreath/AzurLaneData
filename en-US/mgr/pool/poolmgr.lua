@@ -359,7 +359,7 @@ function slot0.ReturnPainting(slot0, slot1, slot2)
 	slot4 = "painting/" .. slot1 .. slot1
 
 	if IsNil(slot2) then
-		Debugger.LogError("empty go: " .. slot1)
+		Debugger.LogError("empty go: " .. resName)
 	elseif slot0.pools_plural[slot4] then
 		if tf(slot2):Find("face") then
 			setActive(slot5, false)
@@ -682,7 +682,9 @@ function slot0.FromObjPack(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function slot0.LoadAsset(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	if slot0.callbacks[slot1 .. slot2] then
+	slot7, slot8 = HXSet.autoHxShiftPath(slot1, slot2)
+
+	if slot0.callbacks[slot7 .. slot8] then
 		if not slot3 then
 			errorMsg("Sync Loading after async operation")
 		end

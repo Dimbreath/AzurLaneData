@@ -1,5 +1,8 @@
 pg = pg or {}
 pg.gametip = {
+	multiple_ship_energy_low_desc = {
+		tip = "Exhausted\nAffinity will be reduced if you attack"
+	},
 	["new_airi_error_code_-1"] = {
 		tip = "Unknown Error"
 	},
@@ -6990,7 +6993,7 @@ Combat Details:
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "Richelieu, Algérie, and Vauquelin have increased build rates! "
+		tip = "Nagato, Kawakaze, I-13, Suzuya and others have increased build rates! "
 	},
 	buildship_heavy_tip = {
 		tip = "Duke of York added to standard build pool! "
@@ -10682,5 +10685,8 @@ you can earn.]]
 	},
 	tech_catchup_sentence_pauses = {
 		tip = "—"
+	},
+	tec_act_catchup_btn_word = {
+		tip = "Blueprint Boost"
 	}
 }

@@ -5888,7 +5888,7 @@ Twin 37mm AA Gun (Mle 1936) T0 Design]],
 		index = {}
 	},
 	[20101] = {
-		display = "A data pack developed by the Research Division. Can be used to supplement 10,000 EXP for the Combat Data Collection missions of PR1 ships. ",
+		display = "A compilation of experimental data from the Research Department, can be used to add 10,000 EXP towards PR Series 1 Combat Data Collection missions.<color=#ff5c5c>(Can be converted into Prototype Cores).</color>",
 		rarity = 4,
 		type = 18,
 		drop_oil_max = 0,
@@ -89775,6 +89775,24 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59124] = {
+		display = "Used in the \"Ink-Stained Steel Sakura\" Event Exchange. Will disappear after the exchange period ends. ",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Sakura Amulet ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59124,
+		icon = "Props/omamori",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59125] = {
 		display = "Used to exchange for items in the \"Hibiscus-scented Idol?\" event, will disappear after the event ends. ",
 		rarity = 2,
@@ -97546,6 +97564,7 @@ Skins and their drop rates:
 		59119,
 		59120,
 		59121,
+		59124,
 		59125,
 		59126,
 		59128,

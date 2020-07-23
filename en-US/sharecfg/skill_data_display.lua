@@ -1692,6 +1692,14 @@ pg.skill_data_display = {
 		id = 12001,
 		name = "Here to Help"
 	},
+	[12010] = {
+		id = 12010,
+		name = "Code:Hikari"
+	},
+	[12030] = {
+		id = 12030,
+		name = "划破夜空之火"
+	},
 	[12041] = {
 		id = 12041,
 		name = "Prototype Type-0 Main Gun"
@@ -3028,12 +3036,20 @@ pg.skill_data_display = {
 		id = 19291,
 		name = "The Fearless Privateer "
 	},
+	[19292] = {
+		id = 19292,
+		name = "The Fearless Privateer "
+	},
 	[19300] = {
 		id = 19300,
 		name = "Flintlock Burst "
 	},
 	[19301] = {
 		id = 19301,
+		name = "Flintlock Burst "
+	},
+	[19302] = {
+		id = 19302,
 		name = "Flintlock Burst "
 	},
 	[19311] = {
@@ -3580,6 +3596,14 @@ pg.skill_data_display = {
 		id = 22253,
 		name = "All Out Assault - Retrofit"
 	},
+	[22254] = {
+		id = 22254,
+		name = "全弹发射I"
+	},
+	[22255] = {
+		id = 22255,
+		name = "全弹发射II"
+	},
 	[22261] = {
 		id = 22261,
 		name = "All Out Assault Ⅰ"
@@ -4087,6 +4111,14 @@ pg.skill_data_display = {
 	[29362] = {
 		id = 29362,
 		name = "All Out Assault Ⅱ"
+	},
+	[29371] = {
+		id = 29371,
+		name = "专属弹幕-{namecode:163}I"
+	},
+	[29372] = {
+		id = 29372,
+		name = "专属弹幕-{namecode:163}II"
 	},
 	[29381] = {
 		id = 29381,
@@ -4936,6 +4968,8 @@ pg.skill_data_display = {
 		11992,
 		12000,
 		12001,
+		12010,
+		12030,
 		12041,
 		12042,
 		12043,
@@ -5270,8 +5304,10 @@ pg.skill_data_display = {
 		19280,
 		19281,
 		19291,
+		19292,
 		19300,
 		19301,
+		19302,
 		19311,
 		19312,
 		19320,
@@ -5408,6 +5444,8 @@ pg.skill_data_display = {
 		22251,
 		22252,
 		22253,
+		22254,
+		22255,
 		22261,
 		22262,
 		23011,
@@ -5535,6 +5573,8 @@ pg.skill_data_display = {
 		29351,
 		29361,
 		29362,
+		29371,
+		29372,
 		29381,
 		29382,
 		29391,

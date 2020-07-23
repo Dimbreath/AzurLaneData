@@ -10,6 +10,7 @@ slot0.Battle.BattleBulletUnit.__name = "BattleBulletUnit"
 slot7 = slot0.Battle.BattleBulletUnit
 slot7.ACC_INTERVAL = slot0.Battle.BattleConfig.calcInterval
 slot7.TRACKER_ANGLE = math.cos(math.deg2Rad * 10)
+slot7.MIRROR_RES = "_mirror"
 
 function slot8(slot0, slot1)
 	slot2, slot3 = slot0:GetAcceleration(slot1)
@@ -187,12 +188,17 @@ function slot7.SetTemplateData(slot0, slot1)
 	slot0._field = slot1.effect_type
 	slot0._gravity = slot2.gravity or 0
 	slot0._fieldSwitchHeight = slot2.effectSwitchHeight or 0
+	slot0._ignoreShield = slot0._tempData.extra_param.ignoreShield == true
 
 	slot0:SetDiverFilter()
 end
 
 function slot7.GetModleID(slot0)
-	return slot0._modleID
+	if slot0:GetTemplate().extra_param.mirror == true and slot0._IFF == uv0.FOE_CODE then
+		return slot0._modleID .. uv1.MIRROR_RES
+	else
+		return slot0._modleID
+	end
 end
 
 function slot7.SetModleID(slot0, slot1)
@@ -523,6 +529,10 @@ function slot7.SetExist(slot0, slot1)
 	slot0._exist = slot1
 end
 
+function slot7.GetIgnoreShield(slot0)
+	return slot0._ignoreShield
+end
+
 function slot7.Dispose(slot0)
 	slot0._dataProxy = nil
 
@@ -532,14 +542,14 @@ end
 function slot7.InitCldComponent(slot0)
 	slot1 = slot0:GetTemplate().cld_box
 
-	if slot0:GetIFF() == uv0.Battle.BattleConst.FOE_CODE then
+	if slot0:GetIFF() == uv0.FOE_CODE then
 		slot3 = slot0:GetTemplate().cld_offset[1] * -1
 	end
 
-	slot0._cldComponent = uv0.Battle.BattleCubeCldComponent.New(slot1[1], slot1[2], slot1[3], slot3, slot2[3])
+	slot0._cldComponent = uv1.Battle.BattleCubeCldComponent.New(slot1[1], slot1[2], slot1[3], slot3, slot2[3])
 
 	slot0._cldComponent:SetCldData({
-		type = uv0.Battle.BattleConst.CldType.BULLET,
+		type = uv1.Battle.BattleConst.CldType.BULLET,
 		IFF = slot0:GetIFF(),
 		UID = slot0:GetUniqueID()
 	})

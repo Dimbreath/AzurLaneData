@@ -947,5 +947,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Yuki Matsuoka",
 		code = 237
+	},
+	{
+		actor_name = "Yui Makino",
+		code = 238
 	}
 }

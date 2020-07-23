@@ -10611,6 +10611,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[382] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 251,
+		group_type = 30317,
+		code = 382,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Ink-Stained Steel Sakura",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[321] = {
 		type = 2,
 		trans_skin = 0,
@@ -12456,6 +12487,37 @@ pg.ship_data_group = {
 						projectName = "special",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[381] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 302,
+		group_type = 31701,
+		code = 381,
+		property_hexagon = {
+			"D",
+			"A",
+			"B",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Ink-Stained Steel Sakura",
+				{
+					""
 				},
 				0
 			}
@@ -16448,6 +16510,7 @@ pg.ship_data_group = {
 		310,
 		188,
 		189,
+		382,
 		321,
 		322,
 		190,
@@ -16498,6 +16561,7 @@ pg.ship_data_group = {
 		397,
 		340,
 		398,
+		381,
 		232,
 		233,
 		346,

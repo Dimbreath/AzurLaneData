@@ -334,7 +334,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "PT",
-		key_value = 159
+		key_value = 121
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -584,6 +584,10 @@ pg.gameset = {
 	commander_rename_coldtime = {
 		description = "",
 		key_value = 86400
+	},
+	big_seven_old_skin_timestamp = {
+		description = "",
+		key_value = 1540396800
 	},
 	event_tips = {
 		description = "",
