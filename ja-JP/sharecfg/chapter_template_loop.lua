@@ -131046,7 +131046,7 @@ pg.chapter_template_loop = {
 			1421320,
 			1421322,
 			1421322,
-			1423322
+			1421322
 		},
 		patrolai_expedition_list = {
 			1

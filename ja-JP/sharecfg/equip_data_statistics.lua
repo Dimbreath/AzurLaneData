@@ -59633,7 +59633,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42100] = {
-		name = "150mmSKC/28三連装砲",
+		name = "150mmSKC/25三連装砲",
 		speciality = "追尾",
 		type = 2,
 		tech = 1,
@@ -59721,7 +59721,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42120] = {
-		name = "150mmSKC/28三連装砲",
+		name = "150mmSKC/25三連装砲",
 		speciality = "追尾",
 		type = 2,
 		tech = 2,
@@ -59839,7 +59839,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42140] = {
-		name = "150mmSKC/28三連装砲",
+		name = "150mmSKC/25三連装砲",
 		speciality = "追尾",
 		type = 2,
 		tech = 3,

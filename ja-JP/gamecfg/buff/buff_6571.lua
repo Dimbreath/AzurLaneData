@@ -26,11 +26,14 @@ return {
 		{
 			type = "BattleBuffAddBulletAttr",
 			trigger = {
-				"onTorpedoWeaponBulletCreate"
+				"onBulletCreate"
 			},
 			arg_list = {
 				number = 0.05,
-				attr = "damageRatioByBulletTorpedo"
+				attr = "damageRatioBullet",
+				index = {
+					2
+				}
 			}
 		},
 		{

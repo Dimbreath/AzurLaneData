@@ -11207,7 +11207,7 @@ GET!
 		tip = "艦隊が指定地点に到達"
 	},
 	lose_condition_display_quanmie = {
-		tip = "我味方艦隊全滅"
+		tip = "味方艦隊全滅"
 	},
 	lose_condition_display_gangqu = {
 		tip = "味方艦隊全滅/港の耐久度が0"
