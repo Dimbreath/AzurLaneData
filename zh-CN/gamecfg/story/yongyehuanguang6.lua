@@ -81,7 +81,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "我这边的战斗也结束了哦，铁血舰载机驱散完毕。",
+			say = "我这边的战斗也结束了哦，铁血飞机驱散完毕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
