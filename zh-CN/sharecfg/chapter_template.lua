@@ -218209,7 +218209,7 @@ pg.chapter_template = {
 			1421319,
 			1421321,
 			1421321,
-			1423321
+			1421321
 		},
 		patrolai_expedition_list = {
 			1
