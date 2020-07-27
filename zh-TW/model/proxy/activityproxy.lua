@@ -52,6 +52,8 @@ function slot0.register(slot0)
 		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot3:isEnd() then
 			uv0:InitActivityBossData(uv0.data[slot3.id])
 		end
+
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
 	end)
 	slot0:on(11201, function (slot0)
 		if not uv0.data[Activity.Create(slot0.activity_info).id] then
