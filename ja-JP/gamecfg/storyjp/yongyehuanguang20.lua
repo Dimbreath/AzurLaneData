@@ -11,7 +11,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			bgm = "xingnong-3",
+			bgm = "xinnong-3",
 			actor = 900219,
 			nameColor = "#ff5c5c",
 			say = "ヨユウヨユウズバリラクチン！Ⅲ型リソースの使用許諾さえあれば北方連合なんぞに囚われるかよコノヤロー！！",

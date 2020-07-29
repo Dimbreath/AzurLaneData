@@ -12,7 +12,7 @@ return {
 			bgName = "bg_underwater",
 			dir = 1,
 			bgmDelay = 1,
-			bgm = "xingnong-3",
+			bgm = "xinnong-3",
 			actor = 408060,
 			nameColor = "#ff5c5c",
 			say = "「おっと、護衛艦隊、引き続き航行を開始したわね」",

@@ -9,7 +9,7 @@ return {
 			say = "バレンツ海・ロイヤル主力艦隊。セイレーンとの戦いはまだ続いている――",
 			side = 2,
 			dir = 1,
-			bgm = "xingnong-4",
+			bgm = "xinnong-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

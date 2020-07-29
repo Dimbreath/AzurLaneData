@@ -10,7 +10,7 @@ return {
 			side = 2,
 			soundeffect = "event:/battle/boom2",
 			dir = 1,
-			bgm = "xingnong-4",
+			bgm = "xinnong-4",
 			actor = 201330,
 			nameColor = "#a9f548",
 			say = "再装填完了！全弾発射です！",

@@ -9,7 +9,7 @@ return {
 			say = "バレンツ海・ロイヤル護衛艦隊",
 			side = 2,
 			dir = 1,
-			bgm = "xingnong-4",
+			bgm = "xinnong-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			dir = 1,
 			say = "さっきまでの威勢はどうした！もう逃げ回ることしかできねぇのかー！？はははははは！！！",
-			bgm = "xingnong-2",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

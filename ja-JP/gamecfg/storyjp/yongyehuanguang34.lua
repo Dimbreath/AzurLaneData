@@ -9,7 +9,7 @@ return {
 			say = "オミッターとの戦いは苛烈をきわめた。",
 			side = 2,
 			dir = 1,
-			bgm = "xingnong-2",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

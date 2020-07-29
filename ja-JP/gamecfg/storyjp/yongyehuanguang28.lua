@@ -9,7 +9,7 @@ return {
 			expression = 1,
 			side = 2,
 			dir = 1,
-			bgm = "xingnong-4",
+			bgm = "xinnong-4",
 			actor = 206060,
 			nameColor = "#a9f548",
 			say = "軽空母だからってなめるんじゃないわよ。ふん",

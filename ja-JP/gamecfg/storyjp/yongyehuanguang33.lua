@@ -11,7 +11,7 @@ return {
 			side = 2,
 			dir = 1,
 			say = "よーやく辿り着いたか。量産型艦隊を突破したことは褒めてやるぜ",
-			bgm = "xingnong-2",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
