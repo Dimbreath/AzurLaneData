@@ -12941,6 +12941,267 @@ pg.activity_template = {
 			}
 		}
 	},
+	[30454] = {
+		mark = 20200730,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 6,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30454,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30455] = {
+		mark = 20200730,
+		type = 54,
+		login_pop = 0,
+		config_id = 30455,
+		is_show = 44,
+		title_res_tag = "Britain_framev2",
+		id = 30455,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "BritainframePage",
+			ui_name = "BritainframePage"
+		},
+		config_client = {
+			timer,
+			{
+				{
+					2020,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30457] = {
+		mark = 20200730,
+		type = 69,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 43,
+		title_res_tag = "Neptune_catchup",
+		id = 30457,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NeptuneTecCatchupPage",
+			ui_name = "NeptuneTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42001
+		}
+	},
+	[30458] = {
+		mark = 20200730,
+		type = 18,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 42,
+		title_res_tag = "Cravenskin",
+		id = 30458,
+		config_data = {
+			{
+				15736,
+				15737
+			},
+			{
+				15738,
+				15739
+			},
+			{
+				15740,
+				15741
+			},
+			{
+				15742,
+				15743
+			},
+			{
+				15744,
+				15745
+			},
+			{
+				15746,
+				15747
+			},
+			{
+				15748,
+				15749
+			},
+			{
+				15750,
+				15751
+			},
+			{
+				15752,
+				15753
+			},
+			{
+				15754,
+				15755
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					7,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CravenCheeringSkinPage",
+			ui_name = "CravenCheeringSkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"KAIXUE01"
+				},
+				{
+					"KAIXUE02"
+				},
+				{
+					"KAIXUE03"
+				},
+				{},
+				{
+					"KAIXUE04"
+				},
+				{},
+				{
+					"KAIXUE05"
+				},
+				{},
+				{
+					"KAIXUE06"
+				},
+				{
+					"KAIXUE07"
+				}
+			}
+		}
+	},
 	[30500] = {
 		mark = 20181030,
 		page_info = "",
@@ -14128,6 +14389,10 @@ pg.activity_template = {
 		30451,
 		30452,
 		30453,
+		30454,
+		30455,
+		30457,
+		30458,
 		30500,
 		30501,
 		30502,

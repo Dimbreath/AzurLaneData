@@ -7,14 +7,31 @@ slot1.__name = "BattleCubeCldComponent"
 function slot1.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 	uv0.Battle.BattleCubeCldComponent.super.Ctor(slot0)
 
-	slot6 = slot1 * 0.5
-	slot7 = slot2 * 0.5
-	slot8 = slot3 * 0.5
-	slot0._boxSize = Vector3(slot6, slot7, slot8)
+	slot0._offsetX = slot4
+	slot0._offsetZ = slot5
 	slot0._offset = Vector3(slot4, 0, slot5)
-	slot0._min = Vector3(slot4 - slot6, -slot7, slot5 - slot8)
-	slot0._max = Vector3(slot4 + slot6, slot7, slot5 + slot8)
+	slot0._boxSize = Vector3.zero
+	slot0._min = Vector3.zero
+	slot0._max = Vector3.zero
+
+	slot0:ResetSize(slot1, slot2, slot3)
+
 	slot0._box = pg.CldNode.New()
+end
+
+function slot1.ResetSize(slot0, slot1, slot2, slot3)
+	slot4 = slot1 * 0.5
+	slot5 = slot2 * 0.5
+	slot6 = slot3 * 0.5
+	slot0._boxSize.x = slot4
+	slot0._boxSize.y = slot5
+	slot0._boxSize.z = slot6
+	slot0._min.x = slot0._offsetX - slot4
+	slot0._min.y = -slot5
+	slot0._min.z = slot0._offsetZ - slot6
+	slot0._max.x = slot0._offsetX + slot4
+	slot0._max.y = slot5
+	slot0._max.z = slot0._offsetZ + slot6
 end
 
 function slot1.GetCenterOffset(slot0, slot1)

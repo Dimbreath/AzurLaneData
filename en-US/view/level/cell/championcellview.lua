@@ -15,6 +15,30 @@ end
 
 function slot0.SetActive(slot0, slot1)
 	slot0.go:SetActive(slot1)
+
+	for slot5, slot6 in pairs(slot0._attachmentList) do
+		if not IsNil(slot6) then
+			setActive(slot6, slot1)
+		end
+	end
+
+	for slot5, slot6 in pairs(slot0._attachmentList) do
+		if not IsNil(slot6) then
+			setActive(slot6, slot1)
+		end
+	end
+end
+
+function slot0.OnLoadAttachment(slot0)
+	uv0.super.OnLoadAttachment(slot0)
+	slot0:SetActive(slot0.showFlag)
+end
+
+function slot0.SetActiveModel(slot0, slot1)
+	slot0:SetSpineVisible(slot1 and slot0.showFlag)
+end
+
+function slot0.PlayShuiHua(slot0)
 end
 
 return slot0

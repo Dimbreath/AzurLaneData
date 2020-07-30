@@ -4782,8 +4782,8 @@ pg.enemy_data_statistics = {
 			},
 			torpedo = {
 				{
-					-1.68,
-					0.79,
+					2.3,
+					-0.6,
 					0
 				}
 			}
@@ -46731,15 +46731,15 @@ pg.enemy_data_statistics = {
 		bound_bone = {
 			cannon = {
 				{
-					1.097,
-					1.231,
+					-1.68,
+					0.79,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0.527,
-					0.513,
+					2.3,
+					-0.6,
 					0
 				}
 			},

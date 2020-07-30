@@ -10028,18 +10028,14 @@ pg.equip_data_statistics = {
 			1,
 			2,
 			3,
-			8,
 			11,
-			17,
 			18
 		},
 		part_sub = {
 			1,
 			2,
 			3,
-			8,
 			11,
-			17,
 			18
 		},
 		equip_parameters = {},
@@ -10126,18 +10122,14 @@ pg.equip_data_statistics = {
 			1,
 			2,
 			3,
-			8,
 			11,
-			17,
 			18
 		},
 		part_sub = {
 			1,
 			2,
 			3,
-			8,
 			11,
-			17,
 			18
 		},
 		equip_parameters = {},
@@ -10250,23 +10242,21 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {},
-		skill_id = {},
+		skill_id = {
+			6570
+		},
 		part_main = {
 			1,
 			2,
 			3,
-			8,
 			11,
-			17,
 			18
 		},
 		part_sub = {
 			1,
 			2,
 			3,
-			8,
 			11,
-			17,
 			18
 		},
 		equip_parameters = {},

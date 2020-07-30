@@ -20979,9 +20979,11 @@ pg.equip_data_template = {
 			5,
 			6,
 			7,
+			8,
 			10,
 			12,
-			13
+			13,
+			17
 		},
 		trans_use_item = {
 			{
@@ -21201,9 +21203,11 @@ pg.equip_data_template = {
 			5,
 			6,
 			7,
+			8,
 			10,
 			12,
-			13
+			13,
+			17
 		},
 		trans_use_item = {
 			{
@@ -21595,7 +21599,7 @@ pg.equip_data_template = {
 		}
 	},
 	[2740] = {
-		important = 1,
+		important = 2,
 		destory_gold = 25,
 		type = 10,
 		group = 2740,
@@ -21611,9 +21615,11 @@ pg.equip_data_template = {
 			5,
 			6,
 			7,
+			8,
 			10,
 			12,
-			13
+			13,
+			17
 		},
 		trans_use_item = {
 			{

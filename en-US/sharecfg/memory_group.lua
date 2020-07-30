@@ -101,7 +101,7 @@ pg.memory_group = {
 		}
 	},
 	[101] = {
-		title = "Power, Hope and Plans",
+		title = "Strive, Wish and Strategize ",
 		type = 2,
 		id = 101,
 		icon = "title_event",
@@ -442,7 +442,7 @@ pg.memory_group = {
 		}
 	},
 	[125] = {
-		title = "Sakura School Festival",
+		title = "School Day Celebrations",
 		type = 2,
 		id = 125,
 		icon = "title_event",

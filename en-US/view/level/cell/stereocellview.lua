@@ -1,6 +1,8 @@
 slot0 = class("StereoCellView", import("view.level.cell.LevelCellView"))
 
 function slot0.Ctor(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0)
+
 	slot0.assetName = nil
 	slot0.line = {
 		row = slot1,

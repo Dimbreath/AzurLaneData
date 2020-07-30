@@ -858,6 +858,9 @@ pg.gametip = {
 	word_facility = {
 		tip = "设施"
 	},
+	word_cv_key_main = {
+		tip = "主界面"
+	},
 	channel_name_1 = {
 		tip = "All"
 	},
@@ -2749,7 +2752,7 @@ Current expansions: <color=#92fc63>$3</color>
 		}
 	},
 	levelScene_activate_loop_mode_failed = {
-		tip = "Bring the Threat Level down to Safe and clear with 3 Stars to unlock Clearing Mode."
+		tip = "Bring the Threat Level to Safe and clear with 3 Stars to unlock Clearing Mode."
 	},
 	levelScene_coastalgun_help_tip = {
 		tip = "You already have the maximum amount of <color=#ffde38>Data Keys</color>. You will receive <color=#ff5c5c>$1</color> Data Key(s) if you proceed. Would you still like to collect these rewards?"
@@ -10586,6 +10589,15 @@ any Credits, or give any rewards.]]
 	equip_info_24 = {
 		tip = "Armaments"
 	},
+	equip_info_25 = {
+		tip = ""
+	},
+	equip_info_26 = {
+		tip = "After Upgrade"
+	},
+	equip_info_27 = {
+		tip = ""
+	},
 	tec_settings_btn_word = {
 		tip = "Research Focus"
 	},
@@ -10688,5 +10700,8 @@ you can earn.]]
 	},
 	tec_act_catchup_btn_word = {
 		tip = "Blueprint Boost"
+	},
+	tec_catchup_errorfix = {
+		tip = "The special beginners' PR1 Research Missions will be reset once. (These missions will not be reset if you've already completed them 2 times)"
 	}
 }

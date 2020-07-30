@@ -139,7 +139,8 @@ function slot2.GetFactoryList()
 			[uv1.BulletType.EFFECT] = uv2.Battle.BattleEffectBulletFactory.GetInstance(),
 			[uv1.BulletType.BEAM] = uv2.Battle.BattleBeamBulletFactory.GetInstance(),
 			[uv1.BulletType.G_BULLET] = uv2.Battle.BattleGravitationBulletFactory.GetInstance(),
-			[uv1.BulletType.ELECTRIC_ARC] = uv2.Battle.BattleElectricArcBulletFactory.GetInstance()
+			[uv1.BulletType.ELECTRIC_ARC] = uv2.Battle.BattleElectricArcBulletFactory.GetInstance(),
+			[uv1.BulletType.SCALE] = uv2.Battle.BattleScaleBulletFactory.GetInstance()
 		}
 	end
 

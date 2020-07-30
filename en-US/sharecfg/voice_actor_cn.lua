@@ -951,5 +951,21 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Yui Makino",
 		code = 238
+	},
+	{
+		actor_name = "Fumie Mizusawa",
+		code = 239
+	},
+	{
+		actor_name = "Asuka Nishi",
+		code = 240
+	},
+	{
+		actor_name = "Naomi Ohzora",
+		code = 241
+	},
+	{
+		actor_name = "Hiroko Taguchi",
+		code = 242
 	}
 }

@@ -50,6 +50,7 @@ function slot0.activeBotHelp(slot0)
 
 	if getProxy(SettingsProxy):isTipAutoBattle() then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			toggleStatus = true,
 			showStopRemind = true,
 			type = MSGBOX_TYPE_HELP,
 			helps = i18n("help_battle_auto"),

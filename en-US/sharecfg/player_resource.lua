@@ -345,6 +345,16 @@ pg.player_resource = {
 		name = "xunliandianshu_yv2",
 		itemid = 59170
 	},
+	[163] = {
+		id = 163,
+		name = "yingxiv2_pt",
+		itemid = 59171
+	},
+	[164] = {
+		id = 164,
+		name = "skinTicket7",
+		itemid = 59172
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -417,6 +427,12 @@ pg.player_resource = {
 		},
 		yisegefuke_pt1 = {
 			950
+		},
+		skinTicket7 = {
+			164
+		},
+		yingxiv2_pt = {
+			163
 		},
 		xunliandianshu_yv2 = {
 			162
@@ -696,6 +712,8 @@ pg.player_resource = {
 		160,
 		161,
 		162,
+		163,
+		164,
 		950,
 		1001,
 		2001,

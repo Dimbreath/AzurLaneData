@@ -730,7 +730,7 @@ function slot1.commonSetting(slot0, slot1)
 
 	setActive(slot0._btnContainer, true)
 
-	slot0.stopRemindToggle.isOn = false
+	slot0.stopRemindToggle.isOn = slot1.toggleStatus or false
 
 	setActive(go(slot0.stopRemindToggle), slot1.showStopRemind)
 

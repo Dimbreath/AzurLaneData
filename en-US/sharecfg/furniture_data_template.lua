@@ -3113,6 +3113,107 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100006] = {
+		advice = 0,
+		describe = "Today's the day you can shine brightly on stage like the star you are!",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "Sparkling Stage",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "qiandaowutaiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 100006,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			10,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xingguangwutaiB",
+				"normal"
+			},
+			{
+				"xingguangwutaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk1",
+						0,
+						"walk"
+					},
+					{
+						"dance",
+						0,
+						"stand2"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					},
+					{
+						"motou",
+						0,
+						"dance"
+					},
+					{
+						"dance2",
+						0,
+						"dance"
+					},
+					{
+						"normal",
+						0,
+						"walk"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"xingguangwutaiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "Watch out for splinters.",
@@ -60362,6 +60463,7 @@ pg.furniture_data_template = {
 		100003,
 		100004,
 		100005,
+		100006,
 		1001,
 		1002,
 		1101,

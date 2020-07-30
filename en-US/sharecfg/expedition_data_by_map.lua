@@ -6429,6 +6429,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2200000] = {
+		map = 2200000,
+		name = "Strive, Wish, and Strategize || || Chapter SP || S.P.",
+		bgm = "level02",
+		type = 3,
+		on_activity = 100001,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "UIACT10000",
+		level_limit = 15,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "map_10000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200010] = {
 		map = 2200010,
 		name = "The Pursuit of Graf Spee|| | S.P. ||S.P. ",
@@ -6769,6 +6810,7 @@ pg.expedition_data_by_map = {
 		2100061,
 		2100070,
 		2100071,
+		2200000,
 		2200010,
 		9920001,
 		9920002,

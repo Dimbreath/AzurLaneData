@@ -84091,7 +84091,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205052] = {
 		oxy_max = 0,
@@ -84208,7 +84210,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205053] = {
 		oxy_max = 0,
@@ -84325,7 +84329,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205054] = {
 		oxy_max = 0,
@@ -84442,7 +84448,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205061] = {
 		oxy_max = 0,
@@ -84559,7 +84567,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205062] = {
 		oxy_max = 0,
@@ -84676,7 +84686,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205063] = {
 		oxy_max = 0,
@@ -84793,7 +84805,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205064] = {
 		oxy_max = 0,
@@ -84910,7 +84924,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205071] = {
 		oxy_max = 0,
@@ -85027,7 +85043,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205072] = {
 		oxy_max = 0,
@@ -85144,7 +85162,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205073] = {
 		oxy_max = 0,
@@ -85261,7 +85281,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205074] = {
 		oxy_max = 0,
@@ -85378,7 +85400,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[206011] = {
 		oxy_max = 0,
@@ -217205,7 +217229,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[299022] = {
 		oxy_max = 0,
@@ -217322,7 +217348,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[299023] = {
 		oxy_max = 0,
@@ -217439,7 +217467,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[299024] = {
 		oxy_max = 0,
@@ -217556,7 +217586,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[399011] = {
 		oxy_max = 0,

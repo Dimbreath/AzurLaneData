@@ -90459,6 +90459,24 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59170] = {
+		display = "Used to exchange for the \"Royal Crown\" portrait frame. Will be removed after the event ends.",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Training Pt",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59170,
+		icon = "Props/xunliandianshu_y",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 		rarity = 2,
@@ -97602,6 +97620,7 @@ Skins and their drop rates:
 		59165,
 		59167,
 		59168,
+		59170,
 		59601,
 		59602,
 		59603,

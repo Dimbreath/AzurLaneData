@@ -128,6 +128,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>May numerous hymns cross the seas to reach the skies... Vive la Iris！ </color>\n―― Earned in the \"Skybound Oratorio\" Event.",
 		scene = {}
 	},
+	[309] = {
+		name = "Royal Crown",
+		time_second = 0,
+		id = 309,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -144,6 +152,7 @@ pg.item_data_frame = {
 		305,
 		306,
 		307,
-		308
+		308,
+		309
 	}
 }

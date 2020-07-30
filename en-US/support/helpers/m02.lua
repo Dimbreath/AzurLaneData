@@ -1500,65 +1500,67 @@ function filterSpecChars(slot0)
 	slot2 = 0
 	slot3 = 0
 	slot4 = 0
+	slot5 = 1
 
-	for slot8 = 1, #slot0 do
-		if not string.byte(slot0, slot8) then
+	while slot5 <= #slot0 do
+		if not string.byte(slot0, slot5) then
 			break
 		end
 
-		if slot9 >= 48 and slot9 <= 57 or slot9 >= 65 and slot9 <= 90 or slot9 >= 97 and slot9 <= 122 then
-			table.insert(slot1, string.char(slot9))
-		elseif slot9 >= 228 and slot9 <= 233 then
-			slot11 = string.byte(slot0, slot8 + 2)
+		if slot6 >= 48 and slot6 <= 57 or slot6 >= 65 and slot6 <= 90 or slot6 == 95 or slot6 >= 97 and slot6 <= 122 then
+			table.insert(slot1, string.char(slot6))
+		elseif slot6 >= 228 and slot6 <= 233 then
+			slot8 = string.byte(slot0, slot5 + 2)
 
-			if string.byte(slot0, slot8 + 1) and slot11 and slot10 >= 128 and slot10 <= 191 and slot11 >= 128 and slot11 <= 191 then
-				slot8 = slot8 + 2
+			if string.byte(slot0, slot5 + 1) and slot8 and slot7 >= 128 and slot7 <= 191 and slot8 >= 128 and slot8 <= 191 then
+				slot5 = slot5 + 2
 
-				table.insert(slot1, string.char(slot9, slot10, slot11))
+				table.insert(slot1, string.char(slot6, slot7, slot8))
 
 				slot2 = slot2 + 1
 			end
-		elseif slot9 == 227 and PLATFORM_CODE == PLATFORM_JP then
-			slot11 = string.byte(slot0, slot8 + 2)
+		elseif slot6 == 227 and PLATFORM_CODE == PLATFORM_JP then
+			slot8 = string.byte(slot0, slot5 + 2)
 
-			if string.byte(slot0, slot8 + 1) and slot11 and slot10 > 128 and slot10 <= 191 and slot11 >= 128 and slot11 <= 191 then
-				slot8 = slot8 + 2
+			if string.byte(slot0, slot5 + 1) and slot8 and slot7 > 128 and slot7 <= 191 and slot8 >= 128 and slot8 <= 191 then
+				slot5 = slot5 + 2
 
-				table.insert(slot1, string.char(slot9, slot10, slot11))
+				table.insert(slot1, string.char(slot6, slot7, slot8))
 
 				slot3 = slot3 + 1
 			end
-		elseif slot9 > 233 and PLATFORM_CODE == PLATFORM_KR then
-			slot11 = string.byte(slot0, slot8 + 2)
+		elseif slot6 > 233 and PLATFORM_CODE == PLATFORM_KR then
+			slot8 = string.byte(slot0, slot5 + 2)
 
-			if string.byte(slot0, slot8 + 1) and slot11 and slot10 >= 128 and slot10 <= 191 and slot11 >= 128 and slot11 <= 191 then
-				slot8 = slot8 + 2
+			if string.byte(slot0, slot5 + 1) and slot8 and slot7 >= 128 and slot7 <= 191 and slot8 >= 128 and slot8 <= 191 then
+				slot5 = slot5 + 2
 
-				table.insert(slot1, string.char(slot9, slot10, slot11))
+				table.insert(slot1, string.char(slot6, slot7, slot8))
 
 				slot4 = slot4 + 1
 			end
 		elseif PLATFORM_CODE == PLATFORM_US then
-			if slot8 ~= 1 and slot9 == 32 then
-				if string.byte(slot0, slot8 + 1) == 32 then
-					slot8 = slot8 + 1
-				else
-					table.insert(slot1, string.char(slot9))
+			if slot5 ~= 1 and slot6 == 32 and string.byte(slot0, slot5 + 1) ~= 32 then
+				table.insert(slot1, string.char(slot6))
+			end
+
+			if slot6 >= 192 and slot6 <= 223 then
+				slot7 = string.byte(slot0, slot5 + 1)
+				slot5 = slot5 + 1
+
+				if slot6 == 194 and slot7 and slot7 >= 128 then
+					table.insert(slot1, string.char(slot6, slot7))
+				elseif slot6 == 195 and slot7 and slot7 <= 191 then
+					table.insert(slot1, string.char(slot6, slot7))
 				end
 			end
 
-			if slot9 == 195 and string.byte(slot0, slot8 + 1) == 188 then
-				table.insert(slot1, string.char(slot9, slot10))
-			end
-
-			if slot9 == 195 and string.byte(slot0, slot8 + 1) == 188 then
-				table.insert(slot1, string.char(slot9, slot10))
+			if slot6 == 195 and string.byte(slot0, slot5 + 1) == 188 then
+				table.insert(slot1, string.char(slot6, slot7))
 			end
 		end
 
-		if slot9 == 95 then
-			table.insert(slot1, string.char(slot9))
-		end
+		slot5 = slot5 + 1
 	end
 
 	return table.concat(slot1), slot2 + slot3 + slot4
@@ -2447,15 +2449,11 @@ function checkExist(slot0, ...)
 	for slot5, slot6 in ipairs({
 		...
 	}) do
-		if type(slot0) == "table" then
-			if type(slot0[slot6[1]]) == "function" then
-				slot0 = slot0[slot6[1]](slot0, unpack(slot6[2] or {}))
-			else
-				slot0 = slot0[slot6[1]]
-			end
-		elseif not slot0 then
+		if slot0 == nil then
 			break
 		end
+
+		slot0 = (type(slot0[slot6[1]]) ~= "function" or slot0[slot6[1]](slot0, unpack(slot6[2] or {}))) and slot0[slot6[1]](slot0, unpack(slot6[2] or ))[slot6[1]]
 	end
 
 	return slot0
