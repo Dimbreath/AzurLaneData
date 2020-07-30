@@ -2,12 +2,13 @@ pg = pg or {}
 pg.ship_skin_words_extra = {
 	[999010] = {
 		feeling3 = "",
-		id = 999010,
 		win_mvp = "",
+		main_extra = "",
+		id = 999010,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		lose = "",
+		feeling4 = "",
 		profile = "",
 		headtouch = "",
 		feeling2 = "",
@@ -88,18 +89,19 @@ pg.ship_skin_words_extra = {
 	[108030] = {
 		touch = "",
 		feeling3 = "",
-		upgrade = "",
-		id = 108030,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
 		home = "",
 		mission = "",
 		touch2 = "",
+		id = 108030,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		main = "",
 		profile = "",
 		mission_complete = "",
@@ -117,15 +119,16 @@ pg.ship_skin_words_extra = {
 	},
 	[999011] = {
 		feeling3 = "",
-		upgrade = "",
-		id = 999011,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
 		mission = "",
+		id = 999011,
 		feeling1 = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		feeling5 = "",
 		profile = "",
 		mission_complete = "",
@@ -177,13 +180,14 @@ pg.ship_skin_words_extra = {
 	},
 	[207050] = {
 		feeling3 = "",
-		upgrade = "",
-		id = 207050,
 		win_mvp = "",
+		upgrade = "",
+		main_extra = "",
+		id = 207050,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		lose = "",
+		feeling4 = "",
 		feeling5 = "",
 		profile = "",
 		headtouch = "",
@@ -252,13 +256,14 @@ pg.ship_skin_words_extra = {
 	},
 	[905030] = {
 		feeling3 = "",
-		upgrade = "",
-		id = 905030,
 		win_mvp = "",
+		upgrade = "",
+		main_extra = "",
+		id = 905030,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		lose = "",
+		feeling4 = "",
 		profile = "",
 		headtouch = "",
 		feeling2 = "",
@@ -333,15 +338,16 @@ pg.ship_skin_words_extra = {
 	[305140] = {
 		touch = "",
 		feeling3 = "",
-		upgrade = "",
-		id = 305140,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		id = 305140,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		profile = "",
 		feeling2 = "",
 		login = {
@@ -409,15 +415,16 @@ pg.ship_skin_words_extra = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
-		id = 306070,
 		expedition = "",
+		main_extra = "",
 		home = "",
 		touch2 = "",
+		id = 306070,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		feeling5 = "",
 		profile = "",
 		mission_complete = "",
@@ -453,18 +460,19 @@ pg.ship_skin_words_extra = {
 	[202100] = {
 		touch = "",
 		feeling3 = "",
-		upgrade = "",
-		id = 202100,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
 		home = "",
 		mission = "",
 		touch2 = "",
+		id = 202100,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		main = "",
 		profile = "",
 		mission_complete = "",
@@ -482,17 +490,18 @@ pg.ship_skin_words_extra = {
 	},
 	[705010] = {
 		feeling3 = "",
-		upgrade = "",
-		id = 705010,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
 		home = "",
 		mission = "",
+		id = 705010,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		feeling5 = "",
 		profile = "",
 		mission_complete = "",
@@ -523,14 +532,15 @@ pg.ship_skin_words_extra = {
 	[702030] = {
 		feeling3 = "",
 		upgrade = "",
-		id = 702030,
 		expedition = "",
+		main_extra = "",
 		mission = "",
+		id = 702030,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
@@ -593,17 +603,18 @@ pg.ship_skin_words_extra = {
 	[702020] = {
 		touch = "",
 		feeling3 = "",
-		upgrade = "",
-		id = 702020,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
 		home = "",
 		mission = "",
+		id = 702020,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
@@ -642,16 +653,17 @@ pg.ship_skin_words_extra = {
 	},
 	[705050] = {
 		feeling3 = "",
-		upgrade = "",
-		id = 705050,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
 		mission = "",
+		id = 705050,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		feeling5 = "",
 		profile = "",
 		mission_complete = "",
@@ -692,16 +704,17 @@ pg.ship_skin_words_extra = {
 	},
 	[106550] = {
 		feeling3 = "",
-		upgrade = "",
-		id = 106550,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
 		mission = "",
+		id = 106550,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		feeling5 = "",
 		profile = "",
 		mission_complete = "",
@@ -753,16 +766,17 @@ pg.ship_skin_words_extra = {
 	[103240] = {
 		touch = "",
 		feeling3 = "",
-		upgrade = "",
-		id = 103240,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
 		mission = "",
+		id = 103240,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
@@ -807,17 +821,18 @@ pg.ship_skin_words_extra = {
 	},
 	[102270] = {
 		feeling3 = "",
-		upgrade = "",
-		id = 102270,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
 		home = "",
 		mission = "",
+		id = 102270,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		feeling5 = "",
 		profile = "",
 		mission_complete = "",
@@ -858,15 +873,16 @@ pg.ship_skin_words_extra = {
 	[107110] = {
 		touch = "",
 		feeling3 = "",
-		upgrade = "",
-		id = 107110,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		id = 107110,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		profile = "",
 		feeling2 = "",
 		battle = "",
@@ -929,15 +945,16 @@ pg.ship_skin_words_extra = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
-		id = 207020,
 		expedition = "",
+		main_extra = "",
 		home = "",
 		mission = "",
+		id = 207020,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		feeling5 = "",
 		profile = "",
 		mission_complete = "",
@@ -982,16 +999,17 @@ pg.ship_skin_words_extra = {
 	},
 	[105030] = {
 		feeling3 = "",
-		upgrade = "",
-		id = 105030,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
 		mission = "",
+		id = 105030,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		feeling5 = "",
 		profile = "",
 		mission_complete = "",
@@ -1038,15 +1056,16 @@ pg.ship_skin_words_extra = {
 	[302140] = {
 		feeling3 = "",
 		upgrade = "",
-		id = 302140,
 		expedition = "",
+		main_extra = "",
 		mission = "",
 		touch2 = "",
+		id = 302140,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
@@ -1097,16 +1116,17 @@ pg.ship_skin_words_extra = {
 	},
 	[805010] = {
 		feeling3 = "",
-		upgrade = "",
-		id = 805010,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
 		mission = "",
+		id = 805010,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
@@ -1157,14 +1177,15 @@ pg.ship_skin_words_extra = {
 	},
 	[905010] = {
 		feeling3 = "",
-		upgrade = "",
-		id = 905010,
 		win_mvp = "",
+		upgrade = "",
+		main_extra = "",
+		id = 905010,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
@@ -1233,16 +1254,17 @@ pg.ship_skin_words_extra = {
 	[301820] = {
 		touch = "",
 		feeling3 = "",
-		upgrade = "",
-		id = 301820,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
 		touch2 = "",
+		id = 301820,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
@@ -1287,13 +1309,14 @@ pg.ship_skin_words_extra = {
 	},
 	[305080] = {
 		feeling3 = "",
-		upgrade = "",
-		id = 305080,
 		win_mvp = "",
+		upgrade = "",
+		main_extra = "",
+		id = 305080,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		lose = "",
+		feeling4 = "",
 		profile = "",
 		headtouch = "",
 		feeling2 = "",
@@ -1368,10 +1391,11 @@ pg.ship_skin_words_extra = {
 	[903020] = {
 		touch = "",
 		feeling3 = "",
-		upgrade = "",
-		id = 903020,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		id = 903020,
 		feeling1 = "",
 		unlock = "",
 		feeling4 = "",
@@ -1437,16 +1461,17 @@ pg.ship_skin_words_extra = {
 	},
 	[802020] = {
 		feeling3 = "",
-		upgrade = "",
-		id = 802020,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
 		mission = "",
+		id = 802020,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		feeling5 = "",
 		profile = "",
 		mission_complete = "",
@@ -1494,14 +1519,15 @@ pg.ship_skin_words_extra = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
-		id = 901020,
 		expedition = "",
+		main_extra = "",
 		mission = "",
+		id = 901020,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
@@ -1549,15 +1575,16 @@ pg.ship_skin_words_extra = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
-		id = 901030,
 		expedition = "",
+		main_extra = "",
 		mission = "",
 		touch2 = "",
+		id = 901030,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		feeling5 = "",
 		profile = "",
 		mission_complete = "",
@@ -1594,9 +1621,10 @@ pg.ship_skin_words_extra = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
-		id = 202030,
+		main_extra = "",
 		mission = "",
 		touch2 = "",
+		id = 202030,
 		feeling1 = "",
 		unlock = "",
 		feeling4 = "",
@@ -1664,13 +1692,14 @@ pg.ship_skin_words_extra = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
-		id = 201100,
 		expedition = "",
+		main_extra = "",
 		mission = "",
+		id = 201100,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
+		feeling4 = "",
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
@@ -1729,12 +1758,13 @@ pg.ship_skin_words_extra = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
-		id = 901110,
+		main_extra = "",
 		touch2 = "",
+		id = 901110,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
+		feeling4 = "",
 		profile = "",
 		headtouch = "",
 		feeling2 = "",
@@ -1807,14 +1837,15 @@ pg.ship_skin_words_extra = {
 	},
 	[205060] = {
 		feeling3 = "",
-		upgrade = "",
-		id = 205060,
 		win_mvp = "",
+		upgrade = "",
+		main_extra = "",
 		mission = "",
+		id = 205060,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
+		feeling4 = "",
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
@@ -1884,15 +1915,16 @@ pg.ship_skin_words_extra = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
-		id = 205070,
 		expedition = "",
+		main_extra = "",
 		home = "",
 		mission = "",
+		id = 205070,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
@@ -1938,16 +1970,17 @@ pg.ship_skin_words_extra = {
 	[902010] = {
 		touch = "",
 		feeling3 = "",
-		upgrade = "",
-		id = 902010,
-		expedition = "",
 		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
 		mission = "",
+		id = 902010,
 		feeling1 = "",
 		unlock = "",
-		feeling4 = "",
 		mail = "",
 		lose = "",
+		feeling4 = "",
 		feeling5 = "",
 		profile = "",
 		mission_complete = "",
@@ -1985,6 +2018,296 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[205100] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		mission = "",
+		touch2 = "",
+		id = 205100,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"하인, 마침 잘 왔어. 오늘의 보고서를 함께 살펴보자고!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"하인, 전투 상황은 어때? 별문제 없었지?"
+			}
+		},
+		main = {
+			{
+				1100,
+				"너무 느린데…홍차는 아직 준비가 안됐나…? 자네가 타주는 차에 습관이 되었는데 날 너무 오래 기다리게 하지마…|카리스마 물론 중요하지. 하지만 사람이 진심으로 따르게 하려면 능력과 진심도 있어야 하지…|nil"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"무슨 일이야? 듣고 있어, 하인."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"일이 이렇게 됐으니, 승패는 이미 상관없어졌어. 나에겐 하인 너와 함께한 시간이야말로 가장 즐거운 시간이야.… 너도 그렇게 생각해? 그럼 정말 다행이다! 우리 다시 한 판 하자고!"
+			}
+		}
+	},
+	[207010] = {
+		feeling3 = "",
+		win_mvp = "",
+		expedition = "",
+		main_extra = "",
+		mission = "",
+		id = 207010,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"지휘관, 언젠가 피곤함을 느낀다면 잠시 쉬어. 늦게 와도 괜찮으니까. 미리 나에게 이야기만 해주면 돼."
+			}
+		},
+		home = {
+			{
+				1100,
+				"오늘도 모든 것이 평소처럼…응? 지휘관도 무사히 돌아왔네. 응, 여기도 모두 정상이야."
+			}
+		},
+		upgrade = {
+			{
+				1100,
+				"느낌이 괜찮아. 고마워. 지휘관을 위해서 아무리 좁은 항로라도 전력을 다해 뚫을거야."
+			}
+		},
+		main = {
+			{
+				1100,
+				"사실 일단 습관되면 저칼로리 식단도 엄청 맛있어. 기회가 있으면 한번 함께 시도해봐, 지휘관.|만일 지휘관이라면 이 안의 기록을 보여줄 수 없는건 아니지...|요즘 다른 아이들과도 잘 인사할 수 있게 됐어. 후후…지휘관과 오래 지내서인지 나도 부드러워진 건가?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"무슨 일이야? 만일 회식이라면…윽…지휘관이 함께라면 나도 마음이 좀 놓일거야…나와 함께 갈 수 있어?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"그렇게 보지마! 사실 살은 별로 없… 뭐, 뭐하는 거야?!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"이렇게 된김에 체중에 관해서는 고민할 만한 가치가 없을 것 같네. 어찌 됐든 지휘관은 예전처럼 날 대할 것이라는 것을 내가 아니까. 결국 지금 우리는 서로를 떨어질 수 없어. 맞지, 지휘관?"
+			}
+		}
+	},
+	[201330] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 201330,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"지휘관님 오셨어요? 네. 자료와 스케줄은 모두 이곳에 두었습니다. 그리고 지휘관님을 위해 레몬차도 준비해뒀어요. 비타민을 보충해야만 일을 더 잘하실 수 있어요."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"음…지휘관이 쓰담쓰담해주시면 매우 마음이 편해져요."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"지휘관님의 도시락이에요, 편식은 안됩니다!|후드 씨는 오늘도 역시나 우아하군요… 지휘관님도 힘내세요, 목표는 후드 씨와 같은 품격을 갖추는 겁니다!|숨바꼭질에서 술래할 때… 항상 직감에 따라 모두를 찾았어요. 실은 저 여기에 재능이 있다구요?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"이카로스 여기 있어요. 무슨 일 있으면 얼마든지 제게 말씀하세요."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"이, 이런 일은 그래도 장소를 바꿔서…(///"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"지금 보니, 태양보다 지휘관님은 겨울의 난로를 더 닮은 것 같아요. 사람을 따뜻하게 하지만 화상 입을 걱정을 할 필요도 없어요. 헤헤헤, 이렇게 함께 붙어있어도 상관없어요!"
+			}
+		}
+	},
+	[202270] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		home = "",
+		mission = "",
+		id = 202270,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"좋은 아침이에요, 지휘관님. 깊이 주무시는 걸 보고 깨우지 않았어요. 오늘도 함께 화이팅해요!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"좋아요. 그리고 눈을 감으세요. 제가 로열 네이비 스타일의 안면 마사지를 해드릴게요|nil|와 이렇게 지휘관님과 함께 임무를 하나씩 해결해 나가는 것은 정말 더할 나위없이 즐거운 일이에요."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"탄산음료요? 윽…정말 어쩔 수가 없네요. 오늘은 한 병만 더 마시는 거에요?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"정말… 유일하게 이 점만 끝까지 말을 안들으시네요…"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"♪～방청소는 끝났고 다음은…앗! 돌아오셨네요, 지휘관님. 금방 식사 준비해드릴게요. 잠시만 기다리시면 돼요."
+			}
+		}
+	},
+	[206060] = {
+		feeling3 = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		id = 206060,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"일찍 일어난 새 가 먼저 먹이를 잡는다지. 지휘관… 굶어죽는 새가 되지 않으려면 힘내야 해."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"방안의 거울은 사실 언제든 대화를 쉽게 연습하기 위해서 쓰는거지…. 앗, 웃으면 안돼!"
+			}
+		},
+		upgrade = {
+			{
+				1100,
+				"아주 고마워. … 답례가 필요한가?"
+			}
+		},
+		main = {
+			{
+				1100,
+				"필요한 것이 있으면 항상 나에게 말해. 내가 당신과 함께 할테니. 지휘관.|일은 유통기한이 곧 끝나가는 식품과 같지. 두고 신경쓰지 않으면 문제가 생길거야. 필요하다면 내가 당신을 도와주지. 지휘관.|nil"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"인트레피드, 저게 바로 퍼시어스야. 봤나?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"나와 얘기하길 원하나?"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"지휘관…음…의뢰조가 업무를 끝내고 돌아왔어."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"…………"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"요즘 느낌이…지휘관에게 뿐만 아니라 다른 함선 동료들과도 대화가 더 통하는 것 같은데… 모두 지휘관이 내 곁에서 용기와 격려를 주었기 때문이야. 나는 지휘관이 제일 좋아."
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -2018,6 +2341,11 @@ pg.ship_skin_words_extra = {
 		901110,
 		205060,
 		205070,
-		902010
+		902010,
+		205100,
+		207010,
+		201330,
+		202270,
+		206060
 	}
 }

@@ -2844,6 +2844,48 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[177] = {
+		advice = 0,
+		describe = "영원한 밤 아래 흔들리는 눈부신 오로라. 화려하고 환상적인 빛 속에, 어쩌면 다른 위험이 도사리고 있을지도.————「영원한 밤의 환광」 특별 작전에서 얻은 최고의 영예를 기념한다.",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "환광 기념 휘장",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "영원한 밤의 환광",
+		themeId = 0,
+		icon = "jiguangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 177,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"jiguang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -3989,6 +4031,52 @@ pg.furniture_data_template = {
 		animator = {
 			{
 				"fengshanCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100017] = {
+		advice = 0,
+		describe = "달이 나왔나요?",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "달 시뮬레이터",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "yueicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 100017,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yue",
+				"normal",
+				{
+					"action",
+					false
+				}
 			}
 		},
 		interAction_group = {}
@@ -67926,6 +68014,1361 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[69001] = {
+		advice = 0,
+		describe = "환영한다쥬! 먼저 검사를 할까쥬?",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "진료소 바닥",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "dibanyiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69001,
+		picture = "yi/dibanyi",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69002] = {
+		advice = 0,
+		describe = "환영한다쥬! 먼저 검사를 할까쥬?",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "진료소 벽지",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "qiangbiyiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69002,
+		picture = "yi/qiangbiyi",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69101] = {
+		advice = 0,
+		describe = "일반 의자. 앉으면 좀 딱딱한 느낌.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "프런트 의자",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "1yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69101,
+		picture = "Yi/1yi",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					21.6,
+					43.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69102] = {
+		advice = 0,
+		describe = "아무튼 먼저 검사를 한다쥬!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "쥬쥬 테이블",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "2yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69102,
+		picture = "Yi/2yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11.2,
+					57.5
+				},
+				{
+					-1,
+					1
+				},
+				"yi/2yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69103] = {
+		advice = 0,
+		describe = "긴장 하지마, 릴렉스쥬!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "치과 수술 침대",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "5yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69103,
+		picture = "Yi/5yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-6,
+					11.3
+				},
+				{
+					-1,
+					1
+				},
+				"yi/5yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69104] = {
+		advice = 0,
+		describe = "햇살이 내리쬐는 생명을 맞이해요~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "진료소 해바라기",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "6yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69104,
+		picture = "Yi/6yi",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69105] = {
+		advice = 0,
+		describe = "모든 사람들의 프라이버시는 중요하다쥬!",
+		count = 7,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "진료소 칸막이",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "7yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69105,
+		picture = "Yi/7yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69106] = {
+		advice = 0,
+		describe = "대기할 때 잡지를 봐도 좋아요.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "신문",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "8yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69106,
+		picture = "Yi/8yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69107] = {
+		advice = 0,
+		describe = "겁먹지 마, 이 주사는 안 아프다쥬!",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "간호사쥬",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "9yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69107,
+		picture = "Yi/9yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69108] = {
+		advice = 0,
+		describe = "약을 받기 전에 허가를 거쳐야 해요.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "진료소 약장",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "10yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69108,
+		picture = "Yi/10yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69109] = {
+		advice = 0,
+		describe = "한 번 자고 나면 괜찮을거다쥬!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "쥬쥬 수술대",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "11yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69109,
+		picture = "Yi/11yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					3.7,
+					-21.5
+				},
+				{
+					-1,
+					1
+				},
+				"yi/11yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69110] = {
+		advice = 0,
+		describe = "일반 화분. 안심하게 해줘요.",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "진료소 화분",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "12yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69110,
+		picture = "Yi/12yi",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69111] = {
+		advice = 0,
+		describe = "음... 누워 있으면 편안해요!",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "진료소 병상",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "13yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69111,
+		picture = "Yi/13yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-13.5,
+					-17.8
+				},
+				{
+					-1,
+					1
+				},
+				"yi/13yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69112] = {
+		advice = 0,
+		describe = "한밤 중에 혼자 걸어다닐리가... 없겠죠~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "골격 모형",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "14yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69112,
+		picture = "Yi/14yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69113] = {
+		advice = 0,
+		describe = "무엇을 도와드릴까쥬?",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "진료소 프런트",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "17yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69113,
+		picture = "Yi/17yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69114] = {
+		advice = 0,
+		describe = "진료소 어디서든 볼 수 있는 의자. 앉으면 좀 딱딱한 느낌.",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "대기 의자",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "18yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69114,
+		picture = "Yi/18yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					52.9,
+					37.4
+				},
+				{
+					1,
+					1
+				},
+				"yi/18yi_using"
+			},
+			{
+				"sit",
+				{
+					-18.7,
+					2.3
+				},
+				{
+					1,
+					1
+				},
+				"yi/18yi_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69115] = {
+		advice = 0,
+		describe = "깨끗한 정수기, 안심하고 사용하세요.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "정수기",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "19yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69115,
+		picture = "Yi/19yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69116] = {
+		advice = 0,
+		describe = "인체의 구조는 정말 신기해요~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "인체 모형",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "21yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69116,
+		picture = "Yi/21yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69117] = {
+		advice = 0,
+		describe = "비타민을 보충해주는 음료는 어때요~?",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "자판기",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "22yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 69117,
+		picture = "Yi/22yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69118] = {
+		advice = 0,
+		describe = "허리 피세요~ 고개를 똑바로~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "X-ray 기계",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "4yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69118,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xguangB",
+				"normal"
+			},
+			{
+				"xguangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"xguangCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[69119] = {
+		advice = 0,
+		describe = "엄청 최신 의료 기계 같아요",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "CT 기계",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "15yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69119,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"CTB",
+				"normal"
+			},
+			{
+				"CTT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"CTCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[69120] = {
+		advice = 0,
+		describe = "긴급 상황! 정말 긴급하다쥬!",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "쥬쥬 진료차",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "20yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69120,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheyiB",
+				"normal"
+			},
+			{
+				"cheyiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"cheyiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[69121] = {
+		advice = 0,
+		describe = "나... 나왔다쥬~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "휴식쥬",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "16yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69121,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"anxijiu",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[69301] = {
+		advice = 0,
+		describe = "편리를 위해 설치된 손 소독제.",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "손 소독제",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "3yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69301,
+		picture = "Yi/3yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69302] = {
+		advice = 0,
+		describe = "어떻게 되든 상관없이, 모두 마지막 최선을 다해요!",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "ICU 입구",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "23yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69302,
+		picture = "Yi/23yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69303] = {
+		advice = 0,
+		describe = "오늘 상태도 매우 안정적이다쥬!",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "심박동 기록",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "24yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69303,
+		picture = "Yi/24yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69304] = {
+		advice = 0,
+		describe = "진료소 성적 증명서~",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "진료소 증명서",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "25yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69304,
+		picture = "Yi/25yi",
+		comfortable = 1,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69305] = {
+		advice = 0,
+		describe = "순환기내과 진찰실 문. 심장과 폐는 사람의 동력로다쥬!",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "입구·순환기내과",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "26yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69305,
+		picture = "Yi/26yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69306] = {
+		advice = 0,
+		describe = "안과 진찰실 문. 왜 위에 시력표를 붙였는지 모르겠어요......",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "입구·안과",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "27yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69306,
+		picture = "Yi/27yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69307] = {
+		advice = 0,
+		describe = "내과 진찰실 문. 모든 기관들은 중요한 선실이다쥬!",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "입구·내과",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "28yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69307,
+		picture = "Yi/28yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69308] = {
+		advice = 0,
+		describe = "정형외과 진찰실 문. 골격이 기초다쥬!",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "입구·정형외과",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "29yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69308,
+		picture = "Yi/29yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69309] = {
+		advice = 0,
+		describe = "신경외과 진찰실 문. 대뇌는 지휘탑이다쥬!",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "입구·신경외과",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "30yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69309,
+		picture = "Yi/30yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -67989,6 +69432,7 @@ pg.furniture_data_template = {
 		171,
 		173,
 		175,
+		177,
 		100002,
 		100003,
 		100004,
@@ -68004,6 +69448,7 @@ pg.furniture_data_template = {
 		100014,
 		100015,
 		100016,
+		100017,
 		1001,
 		1002,
 		1101,
@@ -69492,6 +70937,38 @@ pg.furniture_data_template = {
 		66124,
 		66125,
 		66126,
-		66127
+		66127,
+		69001,
+		69002,
+		69101,
+		69102,
+		69103,
+		69104,
+		69105,
+		69106,
+		69107,
+		69108,
+		69109,
+		69110,
+		69111,
+		69112,
+		69113,
+		69114,
+		69115,
+		69116,
+		69117,
+		69118,
+		69119,
+		69120,
+		69121,
+		69301,
+		69302,
+		69303,
+		69304,
+		69305,
+		69306,
+		69307,
+		69308,
+		69309
 	}
 }

@@ -1,6 +1,8 @@
 slot0 = class("EggCellView", import("view.level.cell.LevelCellView"))
 
 function slot0.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0)
+
 	slot0.go = slot1
 	slot0.tf = slot0.go.transform
 	slot0.tf.anchorMin = Vector2(0.5, 0.5)

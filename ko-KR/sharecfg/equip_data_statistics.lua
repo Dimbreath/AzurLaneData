@@ -10145,18 +10145,14 @@ pg.equip_data_statistics = {
 			1,
 			2,
 			3,
-			8,
 			11,
-			17,
 			18
 		},
 		part_sub = {
 			1,
 			2,
 			3,
-			8,
 			11,
-			17,
 			18
 		},
 		equip_parameters = {},
@@ -10244,18 +10240,14 @@ pg.equip_data_statistics = {
 			1,
 			2,
 			3,
-			8,
 			11,
-			17,
 			18
 		},
 		part_sub = {
 			1,
 			2,
 			3,
-			8,
 			11,
-			17,
 			18
 		},
 		equip_parameters = {},
@@ -10369,23 +10361,21 @@ pg.equip_data_statistics = {
 			}
 		},
 		weapon_id = {},
-		skill_id = {},
+		skill_id = {
+			6570
+		},
 		part_main = {
 			1,
 			2,
 			3,
-			8,
 			11,
-			17,
 			18
 		},
 		part_sub = {
 			1,
 			2,
 			3,
-			8,
 			11,
-			17,
 			18
 		},
 		equip_parameters = {},
@@ -41522,6 +41512,259 @@ pg.equip_data_statistics = {
 			{
 				5,
 				52350
+			}
+		},
+		property_rate = {}
+	},
+	[27320] = {
+		name = "시 호넷 ",
+		type = 7,
+		speciality = "항공",
+		rarity = 5,
+		tech = 0,
+		descrip = "로열의 듀플렉스 엔진 전투기 「드 해빌랜드 호넷」의 함재기형. 비행 속도가 빠르며 성능이 우수하다.",
+		value_2 = 45,
+		icon = "27320",
+		attribute_2 = "air",
+		scatter = "없음",
+		nationality = 2,
+		ammo = "일반",
+		value_3 = 0,
+		id = 27320,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50660
+			},
+			{
+				5,
+				52760
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			9
+		},
+		weapon_id = {
+			27320,
+			82320
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
+	},
+	[27321] = {
+		base = 27320,
+		id = 27321,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27321,
+			82321
+		},
+		ammo_info = {
+			{
+				6,
+				50661
+			},
+			{
+				5,
+				52761
+			}
+		},
+		property_rate = {}
+	},
+	[27322] = {
+		base = 27320,
+		id = 27322,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27322,
+			82322
+		},
+		ammo_info = {
+			{
+				6,
+				50662
+			},
+			{
+				5,
+				52762
+			}
+		},
+		property_rate = {}
+	},
+	[27323] = {
+		base = 27320,
+		id = 27323,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27323,
+			82323
+		},
+		ammo_info = {
+			{
+				6,
+				50663
+			},
+			{
+				5,
+				52763
+			}
+		},
+		property_rate = {}
+	},
+	[27324] = {
+		base = 27320,
+		id = 27324,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27324,
+			82324
+		},
+		ammo_info = {
+			{
+				6,
+				50664
+			},
+			{
+				5,
+				52764
+			}
+		},
+		property_rate = {}
+	},
+	[27325] = {
+		base = 27320,
+		id = 27325,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27325,
+			82325
+		},
+		ammo_info = {
+			{
+				6,
+				50665
+			},
+			{
+				5,
+				52765
+			}
+		},
+		property_rate = {}
+	},
+	[27326] = {
+		base = 27320,
+		id = 27326,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27326,
+			82326
+		},
+		ammo_info = {
+			{
+				6,
+				50666
+			},
+			{
+				5,
+				52766
+			}
+		},
+		property_rate = {}
+	},
+	[27327] = {
+		base = 27320,
+		id = 27327,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27327,
+			82327
+		},
+		ammo_info = {
+			{
+				6,
+				50667
+			},
+			{
+				5,
+				52767
+			}
+		},
+		property_rate = {}
+	},
+	[27328] = {
+		base = 27320,
+		id = 27328,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27328,
+			82328
+		},
+		ammo_info = {
+			{
+				6,
+				50668
+			},
+			{
+				5,
+				52768
+			}
+		},
+		property_rate = {}
+	},
+	[27329] = {
+		base = 27320,
+		id = 27329,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27329,
+			82329
+		},
+		ammo_info = {
+			{
+				6,
+				50669
+			},
+			{
+				5,
+				52769
+			}
+		},
+		property_rate = {}
+	},
+	[27330] = {
+		base = 27320,
+		id = 27330,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27330,
+			82330
+		},
+		ammo_info = {
+			{
+				6,
+				50670
+			},
+			{
+				5,
+				52770
 			}
 		},
 		property_rate = {}
@@ -72936,6 +73179,112 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[60521] = {
+		name = "航空攻击展示-英仙座I",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航母空袭展示用",
+		scatter = "0",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 60521,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			60521
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60522] = {
+		name = "航空攻击展示-英仙座II",
+		base = 60521,
+		id = 60522,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60522
+		},
+		property_rate = {}
+	},
+	[60523] = {
+		name = "航空攻击展示-英仙座III",
+		base = 60521,
+		id = 60523,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60523
+		},
+		property_rate = {}
+	},
+	[60531] = {
+		name = "航空攻击展示-鹰I",
+		tech = 1,
+		speciality = "无",
+		type = 99,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "航母空袭展示用",
+		scatter = "0",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 60531,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			60531
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60532] = {
+		name = "航空攻击展示-鹰II",
+		base = 60531,
+		id = 60532,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60532
+		},
+		property_rate = {}
+	},
+	[60533] = {
+		name = "航空攻击展示-鹰III",
+		base = 60531,
+		id = 60533,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60533
+		},
+		property_rate = {}
+	},
 	[61007] = {
 		name = "0",
 		tech = 1,
@@ -74875,6 +75224,58 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			71062
+		},
+		property_rate = {}
+	},
+	[71026] = {
+		name = "全弹发射-I级I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		scatter = "0",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 71026,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			71026
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[71027] = {
+		name = "全弹发射-I级II",
+		base = 71026,
+		id = 71027,
+		torpedo_ammo = 0,
+		weapon_id = {
+			71027
 		},
 		property_rate = {}
 	},
@@ -81248,6 +81649,58 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			79572
+		},
+		property_rate = {}
+	},
+	[79581] = {
+		name = "专属弹幕-赫敏I",
+		tech = 1,
+		speciality = "无",
+		type = 1,
+		rarity = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		descrip = "技能弹幕",
+		scatter = "0",
+		nationality = 0,
+		ammo = "无",
+		value_3 = 0,
+		id = 79581,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {
+			79581
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[79582] = {
+		name = "专属弹幕-赫敏II",
+		base = 79581,
+		id = 79582,
+		torpedo_ammo = 0,
+		weapon_id = {
+			79582
 		},
 		property_rate = {}
 	},
@@ -93618,6 +94071,17 @@ pg.equip_data_statistics = {
 		27308,
 		27309,
 		27310,
+		27320,
+		27321,
+		27322,
+		27323,
+		27324,
+		27325,
+		27326,
+		27327,
+		27328,
+		27329,
+		27330,
 		28000,
 		28001,
 		28002,
@@ -95296,6 +95760,12 @@ pg.equip_data_statistics = {
 		60511,
 		60512,
 		60513,
+		60521,
+		60522,
+		60523,
+		60531,
+		60532,
+		60533,
 		61007,
 		61008,
 		61009,
@@ -95366,6 +95836,8 @@ pg.equip_data_statistics = {
 		71052,
 		71061,
 		71062,
+		71026,
+		71027,
 		71071,
 		71072,
 		71081,
@@ -95612,6 +96084,8 @@ pg.equip_data_statistics = {
 		79562,
 		79571,
 		79572,
+		79581,
+		79582,
 		85000,
 		85001,
 		85002,

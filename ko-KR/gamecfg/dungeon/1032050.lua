@@ -401,7 +401,7 @@ return {
 								70
 							},
 							bossData = {
-								hpBarNum = 65,
+								hpBarNum = 34,
 								icon = "yishi"
 							}
 						},
@@ -416,7 +416,7 @@ return {
 								40
 							},
 							bossData = {
-								hpBarNum = 65,
+								hpBarNum = 34,
 								icon = "rixiang"
 							}
 						}
@@ -431,36 +431,6 @@ return {
 								10,
 								0,
 								75
-							},
-							buffList = {
-								8001,
-								8007
-							}
-						},
-						{
-							monsterTemplateID = 10041007,
-							score = 10,
-							delay = 0,
-							moveCast = true,
-							corrdinate = {
-								20,
-								0,
-								65
-							},
-							buffList = {
-								8001,
-								8007
-							}
-						},
-						{
-							monsterTemplateID = 10041007,
-							score = 10,
-							delay = 0,
-							moveCast = true,
-							corrdinate = {
-								20,
-								0,
-								45
 							},
 							buffList = {
 								8001,

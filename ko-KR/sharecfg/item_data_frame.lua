@@ -137,11 +137,11 @@ pg.item_data_frame = {
 		scene = {}
 	},
 	[309] = {
-		name = "皇家之冠",
+		name = "로열의 왕관",
 		time_second = 0,
 		id = 309,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>等待后续活动获取</color>",
+		desc = "<color=#ffffff>로열 네이비의 영광을 위해 싸워라, God Save The Queen </color>\n이벤트「영원한 밤의 환광」을 통해 획득",
 		scene = {}
 	},
 	all = {

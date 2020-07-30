@@ -8150,6 +8150,65 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[201331] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20133,
+		breakout_id = 201332,
+		breakout_view = "스킬 습득 - 전탄 발사 I / 주포 효율 +5%",
+		id = 201331,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			71026
+		}
+	},
+	[201332] = {
+		use_gold = 1500,
+		pre_id = 201331,
+		use_char_num = 1,
+		use_char = 20133,
+		breakout_id = 201333,
+		breakout_view = "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 주포 효율 +10%",
+		id = 201332,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			108,
+			108
+		}
+	},
+	[201333] = {
+		use_gold = 2500,
+		pre_id = 201332,
+		use_char_num = 2,
+		use_char = 20133,
+		breakout_id = 201334,
+		breakout_view = "전탄 발사 스킬 강화 / 모든 무기 효율 +5%",
+		id = 201333,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			71027
+		}
+	},
+	[201334] = {
+		use_gold = 0,
+		pre_id = 201333,
+		use_char_num = 0,
+		use_char = 20133,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 201334,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[201511] = {
 		use_gold = 300,
 		pre_id = 0,
@@ -9566,6 +9625,65 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[202271] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20227,
+		breakout_id = 202272,
+		breakout_view = "스킬 습득 - 특수 탄막 I / 주포 효율 +5%",
+		id = 202271,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79581
+		}
+	},
+	[202272] = {
+		use_gold = 3000,
+		pre_id = 202271,
+		use_char_num = 1,
+		use_char = 20227,
+		breakout_id = 202273,
+		breakout_view = "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 어뢰 효율 +10%",
+		id = 202272,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[202273] = {
+		use_gold = 10000,
+		pre_id = 202272,
+		use_char_num = 2,
+		use_char = 20227,
+		breakout_id = 202274,
+		breakout_view = "특수 탄막 강화 / 주포 효율 +15%",
+		id = 202273,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79582
+		}
+	},
+	[202274] = {
+		use_gold = 0,
+		pre_id = 202273,
+		use_char_num = 0,
+		use_char = 20227,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 202274,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[203011] = {
 		use_gold = 500,
 		pre_id = 0,
@@ -10912,6 +11030,69 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[205101] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20510,
+		breakout_id = 205102,
+		breakout_view = "주포 발사 수 +1 / 주포 효율 +5%",
+		id = 205101,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			24100,
+			24100
+		}
+	},
+	[205102] = {
+		use_gold = 1500,
+		pre_id = 205101,
+		use_char_num = 1,
+		use_char = 20510,
+		breakout_id = 205103,
+		breakout_view = "부포 발사 수 +2 / 주포 효율 +10%",
+		id = 205102,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			22000,
+			22000,
+			22000
+		}
+	},
+	[205103] = {
+		use_gold = 2500,
+		pre_id = 205102,
+		use_char_num = 2,
+		use_char = 20510,
+		breakout_id = 205104,
+		breakout_view = "주포 발사 수 +1 / 주포 효율 +15%",
+		id = 205103,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			24100,
+			24100,
+			24100
+		}
+	},
+	[205104] = {
+		use_gold = 0,
+		pre_id = 205103,
+		use_char_num = 0,
+		use_char = 20510,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 205104,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[206011] = {
 		use_gold = 100,
 		pre_id = 0,
@@ -11167,6 +11348,136 @@ pg.ship_data_breakout = {
 		breakout_id = 0,
 		breakout_view = "없음",
 		id = 206054,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[206061] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20606,
+		breakout_id = 206062,
+		breakout_view = "전투기 탑재량 +1 / 전투기 효율 +5%",
+		id = 206061,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60521,
+			54011
+		}
+	},
+	[206062] = {
+		use_gold = 3000,
+		pre_id = 206061,
+		use_char_num = 1,
+		use_char = 20606,
+		breakout_id = 206063,
+		breakout_view = "뇌격기 탑재량 +1 /전투기 효율 +10%",
+		id = 206062,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60522,
+			54011,
+			60522,
+			54011
+		}
+	},
+	[206063] = {
+		use_gold = 10000,
+		pre_id = 206062,
+		use_char_num = 2,
+		use_char = 20606,
+		breakout_id = 206064,
+		breakout_view = "함재기 탑재량 +1 / 뇌격기 효율 +15%",
+		id = 206063,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60523,
+			54012,
+			60523,
+			54012
+		}
+	},
+	[206064] = {
+		use_gold = 0,
+		pre_id = 206063,
+		use_char_num = 0,
+		use_char = 20606,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 206064,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[207011] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20701,
+		breakout_id = 207012,
+		breakout_view = "함재기 탑재량 +1 / 폭격기 효율 +3%",
+		id = 207011,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60531,
+			54014
+		}
+	},
+	[207012] = {
+		use_gold = 1500,
+		pre_id = 207011,
+		use_char_num = 1,
+		use_char = 20701,
+		breakout_id = 207013,
+		breakout_view = "격납고 용량 +1 / 부포 발사 수 +1 / 폭격기 효율 +5%",
+		id = 207012,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60532,
+			54014,
+			60532,
+			54014
+		}
+	},
+	[207013] = {
+		use_gold = 2500,
+		pre_id = 207012,
+		use_char_num = 2,
+		use_char = 20701,
+		breakout_id = 207014,
+		breakout_view = "함재기 탑재량 +1 / 함재기 효율 +7%",
+		id = 207013,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60533,
+			54015,
+			60533,
+			54015
+		}
+	},
+	[207014] = {
+		use_gold = 0,
+		pre_id = 207013,
+		use_char_num = 0,
+		use_char = 20701,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 207014,
 		icon = "10001",
 		level = 0,
 		use_item = {},
@@ -26284,6 +26595,10 @@ pg.ship_data_breakout = {
 		201322,
 		201323,
 		201324,
+		201331,
+		201332,
+		201333,
+		201334,
 		201511,
 		201512,
 		201513,
@@ -26380,6 +26695,10 @@ pg.ship_data_breakout = {
 		202262,
 		202263,
 		202264,
+		202271,
+		202272,
+		202273,
+		202274,
 		203011,
 		203012,
 		203013,
@@ -26468,6 +26787,10 @@ pg.ship_data_breakout = {
 		205072,
 		205073,
 		205074,
+		205101,
+		205102,
+		205103,
+		205104,
 		206011,
 		206012,
 		206013,
@@ -26484,6 +26807,14 @@ pg.ship_data_breakout = {
 		206052,
 		206053,
 		206054,
+		206061,
+		206062,
+		206063,
+		206064,
+		207011,
+		207012,
+		207013,
+		207014,
 		207021,
 		207022,
 		207023,

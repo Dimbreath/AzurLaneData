@@ -1,9 +1,9 @@
 return {
 	name = "LuckyE",
 	init_effect = "jinengchufared",
-	time = 3,
+	time = 8,
 	picture = "",
-	desc = "buff触发器",
+	desc = "伤害提高，闪避",
 	stack = 1,
 	id = 10201,
 	icon = 10201,
@@ -17,25 +17,36 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddAttr",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onRemove"
 			},
 			arg_list = {
-				rant = 10000,
-				skill_id = 10201,
-				target = "TargetSelf"
+				number = 1,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddAttr",
 			trigger = {
-				"onAllInStrike"
+				"onAttach",
+				"onRemove"
 			},
 			arg_list = {
-				rant = 10000,
-				skill_id = 10202,
-				target = "TargetSelf"
+				number = 1,
+				attr = "perfectDodge"
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				number = 1,
+				attr = "immuneDirectHit"
 			}
 		}
 	}

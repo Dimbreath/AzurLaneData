@@ -926,9 +926,9 @@ function slot0.didEnter(slot0)
 		elseif uv0.live2dChar then
 			uv0:AssistantEventEffect()
 		else
-			slot0 = uv2.filterAssistantEvents(uv2.PaintingTouchEvents, uv0.flagShip.skinId)
+			slot1 = uv2.filterAssistantEvents(uv2.PaintingTouchEvents, uv0.flagShip.skinId, uv0.flagShip:getCVIntimacy())
 
-			uv0:AssistantEventEffect(slot0[math.ceil(math.random(#slot0))])
+			uv0:AssistantEventEffect(slot1[math.ceil(math.random(#slot1))])
 			uv0:paintClimax(uv1.TOUCH_HEIGHT, uv1.TOUCH_DURATION, uv1.TOUCH_LOOP)
 		end
 
@@ -1496,7 +1496,7 @@ function slot0.startChatTimer(slot0)
 
 			if #slot0 == 0 then
 				if uv0._taskNotFinishCount and uv0._taskNotFinishCount > 0 and uv0.lastChatEvent ~= "mission" then
-					table.insert(uv2.filterAssistantEvents(Clone(uv2.IdleEvents), uv0.flagShip.skinId), "mission")
+					table.insert(uv2.filterAssistantEvents(Clone(uv2.IdleEvents), uv0.flagShip.skinId, uv0.flagShip:getCVIntimacy()), "mission")
 				end
 			end
 		end
@@ -1599,10 +1599,10 @@ function slot0.AssistantEventEffect(slot0, slot1)
 		end
 
 		if slot0.live2dChar:GetTouchPart() > 0 then
-			slot4 = uv0.filterAssistantEvents(uv0.getAssistantTouchEvents(slot3), slot0.flagShip.skinId)
+			slot4 = uv0.filterAssistantEvents(uv0.getAssistantTouchEvents(slot3), slot0.flagShip.skinId, 0)
 			slot1 = slot4[math.ceil(math.random(#slot4))]
 		else
-			slot4 = uv0.filterAssistantEvents(uv0.IdleEvents, slot0.flagShip.skinId)
+			slot4 = uv0.filterAssistantEvents(uv0.IdleEvents, slot0.flagShip.skinId, 0)
 			slot1 = slot4[math.floor(math.Random(0, #slot4)) + 1]
 		end
 	end
@@ -2025,7 +2025,7 @@ function slot0.updateChat(slot0, slot1)
 			slot11 = false
 
 			if not slot7.emojiId then
-				slot11, slot12 = contentWrap(slot7.player.name .. ": " .. slot7.content, 40, 1.65)
+				slot12 = shortenString(slot7.player.name .. ": " .. slot7.content, 24)
 			end
 
 			for slot17 in string.gmatch(slot12, ChatConst.EmojiIconCodeMatch), nil,  do
@@ -2038,7 +2038,7 @@ function slot0.updateChat(slot0, slot1)
 				if table.contains(pg.emoji_small_template.all, tonumber(slot0)) then
 					return string.format("<icon name=%s w=0.7 h=0.7/>", slot0)
 				end
-			end) .. (slot11 and "..." or "")
+			end)
 		end
 	end
 end

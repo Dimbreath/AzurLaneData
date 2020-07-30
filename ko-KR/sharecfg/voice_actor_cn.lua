@@ -951,5 +951,21 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Yui Makino",
 		code = 238
+	},
+	{
+		actor_name = "미즈사와 후미에",
+		code = 239
+	},
+	{
+		actor_name = "니시 아스카",
+		code = 240
+	},
+	{
+		actor_name = "오조라 나오미",
+		code = 241
+	},
+	{
+		actor_name = "타구치 히로코",
+		code = 242
 	}
 }

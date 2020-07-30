@@ -326,7 +326,7 @@ return {
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								0,
+								-5,
 								0,
 								55
 							},
@@ -353,9 +353,9 @@ return {
 					},
 					reinforcement = {
 						{
-							monsterTemplateID = 10044004,
+							monsterTemplateID = 10044060,
 							score = 10,
-							delay = 0,
+							delay = 3,
 							moveCast = true,
 							corrdinate = {
 								20,
@@ -364,13 +364,13 @@ return {
 							},
 							buffList = {
 								8001,
-								8007
+								8002
 							}
 						},
 						{
-							monsterTemplateID = 10044004,
+							monsterTemplateID = 10044060,
 							score = 10,
-							delay = 0,
+							delay = 3,
 							moveCast = true,
 							corrdinate = {
 								20,
@@ -379,7 +379,7 @@ return {
 							},
 							buffList = {
 								8001,
-								8007
+								8002
 							}
 						}
 					}

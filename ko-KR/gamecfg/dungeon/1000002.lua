@@ -145,8 +145,8 @@ return {
 					airFighter = {
 						{
 							interval = 10,
-							onceNumber = 4,
-							totalNumber = 4,
+							onceNumber = 2,
+							totalNumber = 2,
 							formation = 10006,
 							templateID = 470903,
 							delay = 0,
@@ -191,7 +191,7 @@ return {
 							corrdinate = {
 								5,
 								0,
-								55
+								40
 							},
 							buffList = {
 								8001,
@@ -205,7 +205,7 @@ return {
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								-15,
+								-10,
 								0,
 								55
 							}

@@ -39,106 +39,29 @@ return {
 			},
 			waves = {
 				{
-					triggerType = 1,
-					waveIndex = 100,
-					preWaves = {},
-					triggerParams = {
-						timeout = 0.5
-					}
-				},
-				{
 					triggerType = 0,
 					waveIndex = 101,
 					conditionType = 0,
-					preWaves = {
-						100
-					},
+					preWaves = {},
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 700,
+							monsterTemplateID = 10106031,
+							score = 0,
 							delay = 0,
 							moveCast = true,
-							score = 0,
-							reinforceDelay = 1,
 							corrdinate = {
 								-15,
 								0,
-								77
+								55
 							},
-							bossData = {
-								hpBarNum = 50,
-								icon = "awuwei"
-							},
-							buffList = {
-								8001,
-								8007
-							}
-						}
-					},
-					reinforcement = {
-						{
-							monsterTemplateID = 702,
-							score = 0,
-							delay = 0,
-							moveCast = true,
-							corrdinate = {
-								0,
-								0,
-								80
-							},
-							buffList = {
-								8001,
-								8007
-							}
-						},
-						{
-							monsterTemplateID = 701,
-							score = 0,
-							delay = 0,
-							moveCast = true,
-							corrdinate = {
-								0,
-								0,
-								65
-							},
-							buffList = {
-								8001,
-								8007,
-								8027,
-								8028
-							}
-						},
-						{
-							monsterTemplateID = 701,
-							score = 0,
-							delay = 0,
-							moveCast = true,
-							corrdinate = {
-								0,
-								0,
-								45
-							},
-							buffList = {
-								8001,
-								8007,
-								8027,
-								8028
-							}
-						},
-						{
-							monsterTemplateID = 702,
-							score = 0,
-							delay = 0,
-							moveCast = true,
-							corrdinate = {
-								0,
-								0,
-								30
-							},
-							buffList = {
-								8001,
-								8007
+							phase = {
+								{
+									index = 0,
+									switchType = 1,
+									switchTo = 1,
+									switchParam = 200
+								}
 							}
 						}
 					}

@@ -102,7 +102,7 @@ return {
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								11,
+								-11,
 								0,
 								65
 							}
@@ -153,7 +153,7 @@ return {
 						{
 							interval = 10,
 							onceNumber = 3,
-							totalNumber = 6,
+							totalNumber = 3,
 							formation = 10006,
 							templateID = 470902,
 							delay = 0,
@@ -186,7 +186,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 10010021,
+							monsterTemplateID = 10010020,
 							score = 0,
 							delay = 0,
 							moveCast = true,
@@ -212,7 +212,7 @@ return {
 						{
 							interval = 10,
 							onceNumber = 3,
-							totalNumber = 6,
+							totalNumber = 3,
 							formation = 10006,
 							templateID = 470903,
 							delay = 0,
@@ -368,7 +368,7 @@ return {
 					},
 					reinforcement = {
 						{
-							monsterTemplateID = 10010003,
+							monsterTemplateID = 10010001,
 							score = 0,
 							delay = 0,
 							moveCast = true,
@@ -383,7 +383,7 @@ return {
 							}
 						},
 						{
-							monsterTemplateID = 10010003,
+							monsterTemplateID = 10010001,
 							score = 0,
 							delay = 0,
 							moveCast = true,

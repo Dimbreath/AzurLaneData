@@ -137,8 +137,8 @@ return {
 					airFighter = {
 						{
 							interval = 10,
-							onceNumber = 3,
-							totalNumber = 6,
+							onceNumber = 2,
+							totalNumber = 4,
 							formation = 10006,
 							templateID = 470903,
 							delay = 0,
@@ -234,8 +234,8 @@ return {
 					airFighter = {
 						{
 							interval = 10,
-							onceNumber = 3,
-							totalNumber = 3,
+							onceNumber = 2,
+							totalNumber = 2,
 							formation = 10006,
 							templateID = 470902,
 							delay = 0,

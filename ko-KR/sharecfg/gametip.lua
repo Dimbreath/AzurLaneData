@@ -662,17 +662,17 @@ pg.gametip = {
 	},
 	word_diamond_tip = {
 		tip = [[
-免费<icon name=diamond w=0.7 h=0.7/>：$1
+무료<icon name=diamond w=0.7 h=0.7/>: $1
 
-收费<icon name=diamond w=0.7 h=0.7/>：$2
+비용<icon name=diamond w=0.7 h=0.7/>: $2
 
-合计<icon name=diamond w=0.7 h=0.7/>：$3]]
+합계<icon name=diamond w=0.7 h=0.7/>: $3 ]]
 	},
 	word_contribution = {
-		tip = "贡献"
+		tip = "기부"
 	},
 	word_guild_res = {
-		tip = "舰队资源"
+		tip = "함대자원"
 	},
 	word_fit = {
 		tip = "장착"
@@ -684,13 +684,16 @@ pg.gametip = {
 		tip = "活动"
 	},
 	word_urgency_event = {
-		tip = "紧急事件"
+		tip = "긴급의뢰"
 	},
 	word_shop = {
-		tip = "商店"
+		tip = "상점"
 	},
 	word_facility = {
-		tip = "设施"
+		tip = "시설"
+	},
+	word_cv_key_main = {
+		tip = "메인화면"
 	},
 	channel_name_1 = {
 		tip = "전체"
@@ -5926,7 +5929,7 @@ B평가:<color=#92fc63>70</color>점
 		tip = "다음 단계는 목표 보상을 전부 획득하여 개방할 수 있습니다."
 	},
 	shop_street_activity_tip = {
-		tip = "·이벤트 기간(<color=#A1E400FF>2020.05.28-2020.06.09</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다."
+		tip = "·이벤트 기간(<color=#A1E400FF>2020.07.30-2020.08.12</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다."
 	},
 	twitter_link_title = {
 		tip = "连接中的推特账号：$1"
@@ -6955,7 +6958,7 @@ B평가:<color=#92fc63>70</color>점
 		tip = "어빌리티 포인트가 부족합니다"
 	},
 	buildship_new_tip = {
-		tip = "리슐리외, 알제리, 보클랭 출현 확률 UP! "
+		tip = "퍼시어스, 밸리언트,이글 출현 확률 UP! "
 	},
 	buildship_heavy_tip = {
 		tip = "나가토 ,스즈야 건조 추가 "
@@ -10696,6 +10699,15 @@ BUFF 보너스도 증가합니다.
 	equip_info_24 = {
 		tip = "휴대 무기"
 	},
+	equip_info_25 = {
+		tip = "없음"
+	},
+	equip_info_26 = {
+		tip = "스킬 변경"
+	},
+	equip_info_27 = {
+		tip = ""
+	},
 	tec_settings_btn_word = {
 		tip = "연구 선택"
 	},
@@ -10787,5 +10799,8 @@ BUFF 보너스도 증가합니다.
 	},
 	tec_act_catchup_btn_word = {
 		tip = "강화 유닛 보완 "
+	},
+	tec_catchup_errorfix = {
+		tip = "「신병 훈련」 중 「과학 연구 임무·1기」 완료 후 임무가 갱신되는 문제가 존재하기 때문에, 공정한 게임을 위하여 「과학 연구 임무·1기」 임무를 처음 완료 후, 1기 임무가 자동으로 1회 초기화될 것이며, 모든 지휘관들은 2번째 「과학 연구 임무·1기」를 완료할 수 있을 것입니다. "
 	}
 }

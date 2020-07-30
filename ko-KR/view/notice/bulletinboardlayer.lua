@@ -117,7 +117,11 @@ function slot0.setNoticeDetail(slot0, slot1)
 		table.insert(slot0.loadPic, slot10)
 	end
 
-	setText(slot0._detailContentTxt, slot0.tempContent)
+	slot4 = slot0.tempContent
+	slot5 = slot4
+	slot6 = " "
+
+	setText(slot0._detailContentTxt, slot4.gsub(slot5, slot6, " "))
 
 	slot0.loadingCount = #slot0.loadPic
 
@@ -133,7 +137,7 @@ function slot0.setNoticeDetail(slot0, slot1)
 				uv0._detailContentTxtComp:AddSprite(slot0.name, slot0)
 
 				if uv0.loadingCount <= 0 then
-					setText(uv0._detailContentTxt, uv0.realContent)
+					setText(uv0._detailContentTxt, uv0.realContent:gsub(" ", " "))
 				end
 			end
 		end))

@@ -253,7 +253,7 @@ return {
 						{
 							interval = 10,
 							onceNumber = 3,
-							totalNumber = 6,
+							totalNumber = 3,
 							formation = 10006,
 							templateID = 470902,
 							delay = 0,
@@ -407,7 +407,7 @@ return {
 						{
 							interval = 10,
 							onceNumber = 3,
-							totalNumber = 6,
+							totalNumber = 3,
 							formation = 10006,
 							templateID = 470903,
 							delay = 0,

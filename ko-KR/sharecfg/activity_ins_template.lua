@@ -1596,7 +1596,7 @@ pg.activity_ins_template = {
 		name = "YIXIAN",
 		message_persist = "ins_61",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_yixian_Hl2itAb9YRxHTktpkr.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "yixian",
 		id = 61,
 		group_id = 61,
@@ -1622,7 +1622,7 @@ pg.activity_ins_template = {
 		name = "P.Eugen",
 		message_persist = "ins_62",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_ougen_lS7JisPYJMACh2b6.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "ougen",
 		id = 62,
 		group_id = 62,
@@ -1648,7 +1648,7 @@ pg.activity_ins_template = {
 		name = "SisterSara",
 		message_persist = "ins_63",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_salatuojia_35eJiU9eH7dB3aso.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "salatuojia",
 		id = 63,
 		group_id = 63,
@@ -1674,7 +1674,7 @@ pg.activity_ins_template = {
 		name = "Amagi",
 		message_persist = "ins_64",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_tiancheng_q3pUwRxue8YsBgghkr.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "tiancheng",
 		id = 64,
 		group_id = 64,
@@ -1700,7 +1700,7 @@ pg.activity_ins_template = {
 		name = "PINGHAI",
 		message_persist = "ins_65",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_pinghai_OZtRoZcILjB484RFkr.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "pinghai",
 		id = 65,
 		group_id = 65,
@@ -1726,7 +1726,7 @@ pg.activity_ins_template = {
 		name = "Le.Triomphant",
 		message_persist = "ins_66",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_edu_1Hv3iG4eGajBqrD5.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "kaixuan",
 		id = 66,
 		group_id = 66,
@@ -1752,7 +1752,7 @@ pg.activity_ins_template = {
 		name = "UnicornI72",
 		message_persist = "ins_67",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_dujiaoshou_gkfvWp7rc0RGhVwf.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "dujiaoshou",
 		id = 67,
 		group_id = 67,
@@ -1778,7 +1778,7 @@ pg.activity_ins_template = {
 		name = "SakuraCombinedFleet",
 		message_persist = "ins_68",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_changmen_Xkhro2qqR6KLunvR.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "changmen",
 		id = 68,
 		group_id = 68,
@@ -1804,7 +1804,7 @@ pg.activity_ins_template = {
 		name = "GascogneT8",
 		message_persist = "ins_69",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_jiasikenie_3TV8Tpdnn2Tv1coMkr.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "jiasikenie",
 		id = 69,
 		group_id = 69,
@@ -1831,7 +1831,7 @@ pg.activity_ins_template = {
 		name = "SymphonicStigma",
 		message_persist = "ins_70",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_feitelie_VD0RhyHlpeIDHb1n.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "feiteliedadi",
 		id = 70,
 		group_id = 70,
@@ -1857,7 +1857,7 @@ pg.activity_ins_template = {
 		name = "2700P.Justice",
 		message_persist = "ins_71",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_rangbaer_oQ5UOaTaRUEMNv5k.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "masazhusai",
 		id = 71,
 		group_id = 71,
@@ -1883,7 +1883,7 @@ pg.activity_ins_template = {
 		name = "AuroraRose",
 		message_persist = "ins_72",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_ouruola_vnbClpL7OysexQ17.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "ouruola",
 		id = 72,
 		group_id = 72,
@@ -1909,7 +1909,7 @@ pg.activity_ins_template = {
 		name = "LuckyShigure",
 		message_persist = "ins_73",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_xuefeng_2WpanPX4QYSsq8BQ.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "shiyu",
 		id = 73,
 		group_id = 73,
@@ -1935,7 +1935,7 @@ pg.activity_ins_template = {
 		name = "Bismarck",
 		message_persist = "ins_74",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_bisimai_JHh0Ia8mfT192UQO.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "bisimai",
 		id = 74,
 		group_id = 74,
@@ -1961,7 +1961,7 @@ pg.activity_ins_template = {
 		name = "Honolulu",
 		message_persist = "ins_75",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_huonululu_TVnI52QiZtaNJ9Y3.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "huonululu",
 		id = 75,
 		group_id = 75,
@@ -1987,7 +1987,7 @@ pg.activity_ins_template = {
 		name = "AzumaB65",
 		message_persist = "ins_76",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_wuqi_5FMIdb2u1nRsD4xA.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "wuqi",
 		id = 76,
 		group_id = 76,
@@ -2014,7 +2014,7 @@ pg.activity_ins_template = {
 		name = "Monarch",
 		message_persist = "ins_77",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_junzhu_GW6eLTCljTKJH93D.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "junzhu",
 		id = 77,
 		group_id = 77,
@@ -2040,7 +2040,7 @@ pg.activity_ins_template = {
 		name = "forMaster_Sirius",
 		message_persist = "ins_78",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_tianlangxing_reDwfR3wAbtARp1k.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "tianlangxing",
 		id = 78,
 		group_id = 78,
@@ -2066,7 +2066,7 @@ pg.activity_ins_template = {
 		name = "HelenaSG",
 		message_persist = "ins_79",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_hailunna_3izbPW2if8DtJrFZ.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "hailunna",
 		id = 79,
 		group_id = 79,
@@ -2093,7 +2093,7 @@ pg.activity_ins_template = {
 		name = "Lafite.82",
 		message_persist = "ins_80",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_lafei_qD1hxXzb7uuLVCWH.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "lafei",
 		id = 80,
 		group_id = 80,
@@ -2119,7 +2119,7 @@ pg.activity_ins_template = {
 		name = "Atago",
 		message_persist = "ins_81",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_atago_0PBS23m3I52O68FB.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "aidang",
 		id = 81,
 		group_id = 81,
@@ -2145,7 +2145,7 @@ pg.activity_ins_template = {
 		name = "CenAlpha",
 		message_persist = "ins_82",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_banrenma_gLis4J3p8EoVu5JE.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "banrenma",
 		id = 82,
 		group_id = 82,
@@ -2171,7 +2171,7 @@ pg.activity_ins_template = {
 		name = "Illustrious",
 		message_persist = "ins_83",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_guanghui_VgdwUjHOX8gKbcVt.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "guanghui",
 		id = 83,
 		group_id = 83,
@@ -2197,7 +2197,7 @@ pg.activity_ins_template = {
 		name = "AYANAMIN",
 		message_persist = "ins_84",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_lingbo_4lQGhqtR0fxdJAfT.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "lingbo",
 		id = 84,
 		group_id = 84,
@@ -2224,7 +2224,7 @@ pg.activity_ins_template = {
 		name = "Ootori_Shikikan",
 		message_persist = "ins_85",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_chicheng_YcZfGCgUWjKfLVhl.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "chicheng",
 		id = 85,
 		group_id = 85,
@@ -2250,7 +2250,7 @@ pg.activity_ins_template = {
 		name = "RoonDESU",
 		message_persist = "ins_87",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_luoen_VVLA33NrLl42Svdj.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "luoen",
 		id = 86,
 		group_id = 86,
@@ -2276,7 +2276,7 @@ pg.activity_ins_template = {
 		name = "Zerstorer23",
 		message_persist = "ins_86",
 		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/200528_Z23_Qh5sHZBYKu6EnKVc.png",
-		is_active = 1,
+		is_active = 0,
 		sculpture = "z23",
 		id = 87,
 		group_id = 87,
@@ -2296,6 +2296,276 @@ pg.activity_ins_template = {
 			685,
 			688,
 			690
+		}
+	},
+	{
+		ship_group = 20606,
+		name = "Per",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yingxianzuo",
+		id = 88,
+		group_id = 88,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20510,
+		name = "Hermione",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "hemin",
+		id = 89,
+		group_id = 89,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20133,
+		name = "Cmdr_Valiant",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yingyong",
+		id = 90,
+		group_id = 90,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20701,
+		name = "Icarus_Wing",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yikaluosi",
+		id = 91,
+		group_id = 91,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20509,
+		name = "Eagle",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "ying",
+		id = 92,
+		group_id = 92,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20509,
+		name = "Per",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yingxianzuo",
+		id = 93,
+		group_id = 93,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20606,
+		name = "Eagle",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "ying",
+		id = 94,
+		group_id = 94,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20701,
+		name = "Hermione",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "hemin",
+		id = 95,
+		group_id = 95,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20227,
+		name = "Icarus_Wing",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yikaluosi",
+		id = 96,
+		group_id = 96,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
+		}
+	},
+	{
+		ship_group = 20133,
+		name = "Cmdr_Valiant",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yingyong",
+		id = 97,
+		group_id = 97,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				21,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			1,
+			2,
+			3
 		}
 	},
 	all = {
@@ -2385,6 +2655,16 @@ pg.activity_ins_template = {
 		84,
 		85,
 		86,
-		87
+		87,
+		88,
+		89,
+		90,
+		91,
+		92,
+		93,
+		94,
+		95,
+		96,
+		97
 	}
 }

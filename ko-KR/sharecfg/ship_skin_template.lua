@@ -31030,6 +31030,228 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[201330] = {
+		name = "이카로스 ",
+		bullet_skin_main = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "I급 구축함-이카로스",
+		bullet_skin_secondary = "",
+		ship_group = 20133,
+		painting = "yikaluosi",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = -1,
+		id = 201330,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yikaluosi",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 18,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.151,
+					1.169,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.194,
+					1.173,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.019,
+					0.003,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.219,
+					1.185,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.32,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201331] = {
+		name = "모항 병원 체험 위크?",
+		bullet_skin_main = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "모항 병원에서 하는 특별 연습에 잘 따른다고 말을 했지만... 뭔가 느낌이 이상해요... 아하하... 저는 다른 사람이 돌봐주는 것보다, 돌봐주는 쪽이 더 어울렸을텐데......",
+		bullet_skin_secondary = "",
+		ship_group = 20133,
+		painting = "yikaluosi_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 15,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "1101",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 201331,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yikaluosi_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70396,
+		voice_actor = 18,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.163,
+					1.072,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.22,
+					1.096,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.019,
+					0.003,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.238,
+					1.108,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.404,
+							2.417,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202010] = {
 		name = "리엔더",
 		bullet_skin_main = "",
@@ -37837,6 +38059,246 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[202270] = {
+		name = "허마이오니 ",
+		bullet_skin_main = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "다이도급 경순양함-허마이오니 ",
+		bullet_skin_secondary = "",
+		ship_group = 20227,
+		painting = "hemin",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = -1,
+		id = 202270,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "hemin",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 242,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.506,
+					1.264,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.579,
+					1.263,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.575,
+					1.289,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.376,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202271] = {
+		name = "퓨어화이트 엔젤",
+		bullet_skin_main = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "어머, 지휘관님, 어떻게 여길, 설마 몸이 불편하신가요? 이 쪽으로 앉으세요. 우선 체온을 재드릴게요.",
+		bullet_skin_secondary = "",
+		ship_group = 20227,
+		painting = "hemin_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "1101",
+		shop_type_id = 15,
+		hand_id = 1,
+		lip_smoothing = 0,
+		bgm = "",
+		bg = "138",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 202271,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "hemin_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70394,
+		voice_actor = 242,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			-50,
+			-85,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.171,
+					1.195,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.176,
+					1.149,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.149,
+					1.236,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.376,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			login = 2.13
+		}
+	},
 	[203010] = {
 		name = "런던",
 		bullet_skin_main = "",
@@ -42467,6 +42929,341 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[205090] = {
+		name = "하우 ",
+		bullet_skin_main = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "英王乔治五世级战列舰—豪，舷号32",
+		bullet_skin_secondary = "",
+		ship_group = 20509,
+		painting = "hao",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = -1,
+		id = 205090,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "hao",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 116,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.063,
+					1.184,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.112,
+					1.175,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.003,
+					-0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.118,
+					1.193,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.315,
+							0.53
+						}
+					}
+				}
+			}
+		}
+	},
+	[205100] = {
+		name = "밸리언트 ",
+		bullet_skin_main = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "퀸 엘리자베스급 전함-밸리언트, 현호02",
+		bullet_skin_secondary = "",
+		ship_group = 20510,
+		painting = "yingyong",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = -1,
+		id = 205100,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yingyong",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 240,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.605,
+					1.205,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.607,
+					1.255,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.014,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.59,
+					1.288,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.415,
+							0.53
+						}
+					}
+				}
+			}
+		}
+	},
+	[205101] = {
+		name = "리틀 간호사의 시간",
+		bullet_skin_main = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "으흠, 이번 \"모항 병원 특별 연습\"은 아주 재미있는 활동이구나. 함대를 이끄는 사람으로서, 당연히 적극적으로 지지해야겠지... 하지만! 왜 내가 겨우 간호사인 것이냐!? 하인, 이게 대체 어찌된 일이냐!",
+		bullet_skin_secondary = "",
+		ship_group = 20510,
+		painting = "yingyong_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 15,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "138",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 205101,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yingyong_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70397,
+		voice_actor = 240,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.512,
+					1.19,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.502,
+					1.248,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					-0.004,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.548,
+					1.239,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.366,
+							0.53
+						}
+					}
+				}
+			}
+		}
+	},
 	[206010] = {
 		name = "허미즈",
 		bullet_skin_main = "",
@@ -44151,6 +44948,482 @@ pg.ship_skin_template = {
 						{
 							-0.498,
 							2.586,
+							-0.55
+						}
+					}
+				}
+			}
+		}
+	},
+	[206060] = {
+		name = "퍼시어스 ",
+		bullet_skin_main = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "콜로서스급 항공모함-퍼시어스",
+		bullet_skin_secondary = "",
+		ship_group = 20606,
+		painting = "yingxianzuo",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = -1,
+		id = 206060,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yingxianzuo",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 241,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			80,
+			-120,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.789,
+					1.258,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.747,
+					1.311,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.785,
+					1.358,
+					0
+				}
+			},
+			plane = {
+				{
+					2.785,
+					1.301,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.481,
+							2.325,
+							-0.55
+						}
+					}
+				}
+			}
+		}
+	},
+	[206061] = {
+		name = "미숙한 근무 시간",
+		bullet_skin_main = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "나는 오늘의 당직 간호사, 퍼시어스다. 무슨 일이 있다면 벨을 눌러 나를 불러라... 또 다른 문제가 남았나?",
+		bullet_skin_secondary = "",
+		ship_group = 20606,
+		painting = "yingxianzuo_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 15,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "138",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 206061,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yingxianzuo_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70395,
+		voice_actor = 241,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			80,
+			-120,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.367,
+					1.065,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.349,
+					1.122,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.001,
+					-0.008,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.339,
+					1.165,
+					0
+				}
+			},
+			plane = {
+				{
+					1.353,
+					1.147,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.481,
+							2.325,
+							-0.55
+						}
+					}
+				}
+			}
+		}
+	},
+	[207010] = {
+		name = "이글 ",
+		bullet_skin_main = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "항공모함-이글",
+		bullet_skin_secondary = "",
+		ship_group = 20701,
+		painting = "ying",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = -1,
+		id = 207010,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ying",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 239,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			80,
+			-120,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.462,
+					1.16,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.463,
+					1.198,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.002,
+					-0.018,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.466,
+					1.186,
+					0
+				}
+			},
+			plane = {
+				{
+					1.446,
+					1.124,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.481,
+							2.325,
+							-0.55
+						}
+					}
+				}
+			}
+		}
+	},
+	[207011] = {
+		name = "인턴 의사 이글",
+		bullet_skin_main = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "임무를 받았으니, 최선을 다해 해내겠다. 지금의 나는 로열의 전사일 뿐 아니라, 모항 병원의 인턴 의사다. 몸에 어떤 이상이 있는 것 같다면, 언제든 나를 찾아 와라, 지휘관.",
+		bullet_skin_secondary = "",
+		ship_group = 20701,
+		painting = "ying_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 15,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "138",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 207011,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ying_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70399,
+		voice_actor = 239,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			80,
+			-120,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.165,
+					0.858,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.201,
+					0.822,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					-0.015,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.216,
+					0.916,
+					0
+				}
+			},
+			plane = {
+				{
+					1.236,
+					0.937,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.481,
+							2.325,
 							-0.55
 						}
 					}
@@ -66350,6 +67623,112 @@ pg.ship_skin_template = {
 						{
 							-0.436,
 							2.45,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[304012] = {
+		name = "Talent Hospital",
+		bullet_skin_main = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "“모항 병원 홍보”의 임무를 저에게 맡긴 것은 정말 탁월한 선택입니다. 음, 홍보 사진 촬영 업무는 당신에게 맡길게요, 문제 없겠죠, 지휘관?",
+		bullet_skin_secondary = "",
+		ship_group = 30401,
+		painting = "jingang_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "1101",
+		shop_type_id = 15,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "138",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 304012,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "jingang_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70398,
+		voice_actor = 138,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.687,
+					1.13,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.011,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.612,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.436,
+							2.26,
 							-0.16
 						}
 					}
@@ -120068,7 +121447,8 @@ pg.ship_skin_template = {
 		},
 		[30401] = {
 			304010,
-			304011
+			304011,
+			304012
 		},
 		[30317] = {
 			303170
@@ -120429,6 +121809,14 @@ pg.ship_skin_template = {
 			207022,
 			207023
 		},
+		[20701] = {
+			207010,
+			207011
+		},
+		[20606] = {
+			206060,
+			206061
+		},
 		[20605] = {
 			206050,
 			206051,
@@ -120450,6 +121838,13 @@ pg.ship_skin_template = {
 		[20601] = {
 			206010,
 			206019
+		},
+		[20510] = {
+			205100,
+			205101
+		},
+		[20509] = {
+			205090
 		},
 		[20507] = {
 			205070,
@@ -120530,6 +121925,10 @@ pg.ship_skin_template = {
 		[20301] = {
 			203010,
 			203019
+		},
+		[20227] = {
+			202270,
+			202271
 		},
 		[20226] = {
 			202260,
@@ -120635,6 +122034,10 @@ pg.ship_skin_template = {
 		[20201] = {
 			202010,
 			202019
+		},
+		[20133] = {
+			201330,
+			201331
 		},
 		[20132] = {
 			201320,
@@ -121468,6 +122871,8 @@ pg.ship_skin_template = {
 		201290,
 		201320,
 		201321,
+		201330,
+		201331,
 		202010,
 		202019,
 		202020,
@@ -121527,6 +122932,8 @@ pg.ship_skin_template = {
 		202250,
 		202260,
 		202261,
+		202270,
+		202271,
 		203010,
 		203019,
 		203020,
@@ -121567,6 +122974,9 @@ pg.ship_skin_template = {
 		205070,
 		205072,
 		205073,
+		205090,
+		205100,
+		205101,
 		206010,
 		206019,
 		206030,
@@ -121581,6 +122991,10 @@ pg.ship_skin_template = {
 		206050,
 		206051,
 		206052,
+		206060,
+		206061,
+		207010,
+		207011,
 		207020,
 		207021,
 		207022,
@@ -121779,6 +123193,7 @@ pg.ship_skin_template = {
 		303170,
 		304010,
 		304011,
+		304012,
 		304020,
 		304021,
 		304022,

@@ -213,8 +213,8 @@ return {
 					airFighter = {
 						{
 							interval = 10,
-							onceNumber = 3,
-							totalNumber = 3,
+							onceNumber = 2,
+							totalNumber = 2,
 							formation = 10006,
 							templateID = 470903,
 							delay = 0,
@@ -295,8 +295,8 @@ return {
 					airFighter = {
 						{
 							interval = 10,
-							onceNumber = 3,
-							totalNumber = 3,
+							onceNumber = 2,
+							totalNumber = 2,
 							formation = 10006,
 							templateID = 470902,
 							delay = 0,
@@ -324,7 +324,7 @@ return {
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								8,
+								5,
 								0,
 								70
 							},
@@ -340,20 +340,20 @@ return {
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								-15,
+								-10,
 								0,
-								60
+								55
 							}
 						},
 						{
-							monsterTemplateID = 10010003,
+							monsterTemplateID = 10010001,
 							score = 0,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
+								5,
 								0,
-								0,
-								55
+								30
 							}
 						},
 						{
@@ -363,9 +363,9 @@ return {
 							moveCast = true,
 							reinforceDelay = 4,
 							corrdinate = {
-								-15,
+								-10,
 								0,
-								50
+								45
 							},
 							buffList = {
 								8036,
