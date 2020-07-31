@@ -88,9 +88,11 @@ function slot0.initPainting(slot0)
 	slot3.Tween = 1
 
 	slot2:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
-		setActive(uv0._currentPainting, false)
+		if uv0._currentPainting then
+			setActive(uv0._currentPainting, false)
 
-		uv0._currentPainting = nil
+			uv0._currentPainting = nil
+		end
 	end)
 end
 
