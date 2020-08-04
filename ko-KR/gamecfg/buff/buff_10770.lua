@@ -29,13 +29,13 @@ return {
 	{
 		desc = "六驱精锐·{namecode:11}"
 	},
-	desc_get = "与任意第六驱逐舰队成员({namecode:12},{namecode:13},{namecode:14})同时出击时，炮击,雷击,装填提升5.0%(满级15.0%)，效果不叠加",
+	desc_get = "与任意第六驱逐舰队成员({namecode:12}、{namecode:13}、{namecode:14})同时出击时，炮击、雷击、装填提升5.0%(满级15.0%)，效果不叠加",
 	name = "六驱精锐·{namecode:11}",
 	init_effect = "",
 	id = 10770,
 	time = 0,
 	picture = "",
-	desc = "与任意第六驱逐舰队成员({namecode:12},{namecode:13},{namecode:14})同时出击时，炮击,雷击,装填提升$1，效果不叠加",
+	desc = "与任意第六驱逐舰队成员({namecode:12}、{namecode:13}、{namecode:14})同时出击时，炮击、雷击、装填提升$1，效果不叠加",
 	stack = 1,
 	color = "red",
 	icon = 10770,

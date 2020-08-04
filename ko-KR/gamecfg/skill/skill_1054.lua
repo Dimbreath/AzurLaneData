@@ -3,7 +3,7 @@ return {
 	name = "战术指挥·先锋",
 	cd = 0,
 	picture = "0",
-	desc = "提高舰队中所有先锋的炮击,雷击,装填属性",
+	desc = "提高舰队中所有先锋的炮击、雷击、装填属性",
 	painting = 1,
 	id = 1054,
 	castCV = "skill",

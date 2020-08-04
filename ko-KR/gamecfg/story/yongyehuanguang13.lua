@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-2",
 			actor = 401360,
 			nameColor = "#ff5c5c",
-			say = " 하하하. 악마의 눈에서 온 깊은 어둠을 맛보았나! 곧 넌 악마의 제물이 될거야. 진정한 두려움을 체험할 준비해!",
+			say = "하하하. 악마의 눈에서 온 깊은 어둠을 맛보았나! 곧 넌 악마의 제물이 될 거야. 진정한 두려움을 체험할 준비해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = " 매우 유감이야. 난 뱀파이어라서 악마 같은거 두렵지 않거든! 얌전하게 내앞에 무릎꿇지!",
+			say = "매우 유감이야. 난 뱀파이어라서 악마 같은 거 두렵지 않거든! 얌전하게 내 앞에 무릎 꿇지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "별안간... 채널을 맞추게 되다니…",
+			say = "채널이... 맞춰지다니...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = " 하아..이게 내가 하고 싶던 말이어야 맞지! 이런 상태의 Z36과 정상적으로 교류가 되다니…",
+			say = "하아... 내가 하고 싶던 말이다! 이런 상태의 Z36과 정상적으로 교류가 되다니…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = " …네가 히퍼지? 처음 보네. 난 로열 네이비 소속 항공모함 퍼시어스야. 메탈 블러드 함대여! 투항한다면…",
+			say = "…네가 아드미랄 히퍼지? 처음 보는군. 난 로열 네이비 소속 항공모함 퍼시어스다. 메탈 블러드 함대여! 투항한다면…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = " 방금 잠깐 정신이 나갔어. 지금 보…",
+			say = "방금은 잠깐 정신이 없었다. 지금 보…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "헛점이 있어!",
+			say = "헛점이 있군요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = " 무슨 헛소리야! 겨우 경순양함 주제에 어딜 날뛰는 거야! 진정한 공격은 마땅히 이래야지!",
+			say = "무슨 헛소리야! 겨우 경순양함 주제에 어딜 날뛰는 거야! 진정한 공격은 이런 것이다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

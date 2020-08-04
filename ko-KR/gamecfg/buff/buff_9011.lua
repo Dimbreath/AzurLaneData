@@ -3,7 +3,7 @@ return {
 	init_effect = "jinengchufared",
 	time = 0,
 	picture = "",
-	desc = "免伤,回避率提升",
+	desc = "免伤、回避率提升",
 	stack = 1,
 	id = 9011,
 	icon = 9011,

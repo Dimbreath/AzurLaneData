@@ -4,7 +4,7 @@ return {
 	init_effect = "",
 	id = 6240,
 	picture = "",
-	desc = "空中支援时，自身舰载机对敌方轻母,航母伤害提高5.0%",
+	desc = "空中支援时，自身舰载机对敌方轻母、航母伤害提高5.0%",
 	stack = 1,
 	color = "yellow",
 	icon = 6240,

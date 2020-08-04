@@ -4,7 +4,7 @@ return {
 	cd = 0,
 	picture = "0",
 	desc = "归航引导",
-	painting = 1,
+	painting = 0,
 	id = 6310,
 	castCV = "",
 	aniEffect = {

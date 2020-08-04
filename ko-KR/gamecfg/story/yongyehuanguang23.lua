@@ -37,7 +37,7 @@ return {
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "중앙의 운송 함대, 근처의 호위선…음. 모두 문제없어. 휴우…여러분, 상황은 모두 괜찮지?",
+			say = "중앙의 운송 함대, 근처의 호위선… 음. 모두 문제없어요. 휴우…여러분, 상황은 모두 괜찮죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "적의 수는?",
+			say = "적의 수는요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "구체적인 수량은 드러나지 않았어. 하지만…한 차례 대규모 습격은 가능해보여.",
+			say = "구체적인 숫자는 드러나지 않았어. 하지만…한 차례 대규모 습격은 가능해보여.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "하하하, 보아하니 우리의 결정이 맞은 것 같군. 돌아가서 모두에게도 잘 알려줘야지.",
+			say = "하하하, 보아하니 우리의 결정이 맞은 것 같군요. 돌아가서 모두에게도 잘 알려줘야겠어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

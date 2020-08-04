@@ -28,7 +28,7 @@ return {
 			},
 			arg_list = {
 				buff_id = 19341,
-				time = 5,
+				time = 18,
 				target = "TargetSelf"
 			}
 		}

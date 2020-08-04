@@ -3,7 +3,7 @@ return {
 	name = "T字战法",
 	cd = 0,
 	picture = "0",
-	desc = "队伍中战巡,战列伤害提高3.0%（15.0%）",
+	desc = "队伍中战巡、战列伤害提高3.0%（15.0%）",
 	painting = 1,
 	id = 10920,
 	castCV = "skill",

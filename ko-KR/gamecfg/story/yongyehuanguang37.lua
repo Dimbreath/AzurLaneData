@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			dir = 1,
-			say = " 이곳은 이미 극지 세이렌의 외부 거점이 되어 있었고, 한때 패잔병들로부터 시작되었던 첫번째 특이점, '왕관'이었다.",
+			say = "이곳은 이미 극지 세이렌의 외부 거점이 되어 있었고, 한때 패잔병들로부터 시작되었던 첫 번째 특이점, '왕관'이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_hms_0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = " 하하하, 이번의 난도는 조금 높은 것 같네. 하지만 지휘관님이라면 분명 문제없겠지.",
+			say = "하하하, 이번 난이도는 조금 높은 것 같네. 하지만 지휘관이라면 분명 문제없겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_hms_0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = " 이렇게 하자. 우리 함께 저들을 때려눕히자, 님들아!",
+			say = "이렇게 하자. 우리 함께 저들을 때려눕히자, 동지쨩!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_hms_0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = " 우리, 생존을 위해 싸우는 것 뿐만 아니라, 미래를 위해서도 싸우는 겁니다. 지휘관님, 어떤 위험에 빠져도 희망의 빛은 영원히 존재합니다.",
+			say = "저희는 생존 뿐만 아니라, 미래를 위해서도 싸우는 겁니다. 지휘관님, 어떤 위험에 빠져도 희망의 빛은 영원히 존재합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_hms_0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = " 지휘관님, 지금 왕관 부근에 위치한 모든 노스 유니온 함대가 당신의 지휘를 따를 겁니다.",
+			say = "지휘관 동지, 지금 왕관 부근에 위치한 모든 노스 유니온 함대가 너의 지휘를 따를 것이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_hms_0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = " 우리를 앞으로 당신의 예리한 검으로써, 얼마든지 휘둘러주세요. 간 크게 우리의 땅을 감히 침입한 적을 부숴버립시다!",
+			say = "앞으로 우리를 당신의 예리한 검으로써, 얼마든지 휘둘러라. 감히 우리의 땅을 침입한 적을 부숴버리자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			dir = 1,
-			say = " 비록 이번 난도가 확실이 높지만… 철수, 투항, 도망이란 선택지는 애초부터 없어.",
+			say = "이번 난이도는 확실히 높았지만… 철수, 투항, 도망이란 선택지는 애초부터 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			blackBg = true,
 			actor = 900218,
 			nameColor = "#ffff4d",
-			say = "γpa…우리를 싸우게 해주세요, 지휘관님.",
+			say = "γpa… 그럼 전투를 시작하겠습니다.",
 			flashout = {
 				dur = 0.5,
 				black = true,

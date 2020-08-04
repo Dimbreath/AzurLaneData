@@ -38,7 +38,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = " 오이겐, 이번 작전명은 네가 정한거야? 아니면 프리드리히 데어 그로세야?",
+			say = "오이겐, 이번 작전명은 네가 정한 거야? 아니면 프리드리히 데어 그로세야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = " 당연히 그녀가 정한 거지. 하지만 이런 기묘한 곳에서 조차 이렇게 빈틈없을 줄은 몰랐어. 정말 끔찍해…",
+			say = "당연히 그녀가 정한 거지. 하지만 이런 기묘한 곳에서조차 이렇게 빈틈없을 줄은 몰랐어. 정말 끔찍해…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = " 정말 성공적으로 가로막은건가! 프리드리히가 정말 우리에게 좋은 장난감을 줬네…!",
+			say = "정말 성공적으로 가로막은 건가! 프리드리히가 정말 우리에게 좋은 장난감을 줬네…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			blackBg = true,
 			actor = 403030,
 			nameColor = "#ff5c5c",
-			say = " …이제…누구의 이름으로 보내는것이 좋을까. 하하하하! 저들이 존경하는 여왕 폐하를 쓰자.",
+			say = "…이제…누구의 이름으로 보내는 것이 좋을까. 하하하하! 저들이 존경하는 여왕 폐하를 쓰자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			blackBg = true,
 			actor = 401020,
 			nameColor = "#ff5c5c",
-			say = "오이겐, 웃는게 너무 역겨워.",
+			say = "오이겐, 웃는 게 너무 역겨워.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = " 그리고…로열 네이비의 지원 함대를 외롭게 그곳에 내버려두는 것도 좋지 않아. 우리도 선봉 함대를 보내서 그들과 잘 놀아보자고.",
+			say = "그리고…로열 네이비의 지원 함대를 외롭게 그곳에 내버려 두는 것도 좋지 않아. 우리도 선봉 함대를 보내서 그들과 잘 놀아보자고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

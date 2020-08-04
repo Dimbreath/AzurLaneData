@@ -3,7 +3,7 @@ return {
 	name = "Z字旗·三笠",
 	init_effect = "",
 	picture = "",
-	desc = "炮击,命中提高5%",
+	desc = "炮击、命中提高5%",
 	stack = 1,
 	id = 6235,
 	icon = 6235,

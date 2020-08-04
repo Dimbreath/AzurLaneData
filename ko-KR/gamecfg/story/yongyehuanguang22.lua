@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			nameColor = "#ff5c5c",
-			say = " 정말 아깝네. 만약 오이겐의 계획이 성공할 수 있었다면 우리는 한번에 모든 운송선을 처리할 수 있었어.",
+			say = "정말 아깝네. 만약 오이겐의 계획이 성공할 수 있었다면 우리는 한 번에 모든 운송선을 처리할 수 있었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actor = 408070,
 			nameColor = "#ff5c5c",
-			say = "그런 좋은 일이 있을거라고 기대하는 것보다 어뢰가 조금 더 정확하기를 바라는게 낫지.",
+			say = "그런 좋은 일이 있을 거라고 기대하는 것보다 어뢰가 조금 더 정확하기를 바라는 게 낫지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			blackBg = true,
 			actor = 408010,
 			nameColor = "#ff5c5c",
-			say = " 한척이라도 처리할 수 있다면 늑대들에게 사냥을 시켜줘!",
+			say = "한 척이라도 처리할 수 있다면 늑대들에게 사냥을 시켜줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

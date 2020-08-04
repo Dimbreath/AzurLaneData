@@ -343,7 +343,7 @@ return {
 	init_effect = "jinengchufared",
 	time = 0,
 	picture = "",
-	desc = "炮击,机动,雷击提升",
+	desc = "炮击、机动、雷击提升",
 	stack = 1,
 	id = 10960,
 	icon = 10960,

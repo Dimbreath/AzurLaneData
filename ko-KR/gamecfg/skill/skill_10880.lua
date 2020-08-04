@@ -3,7 +3,7 @@ return {
 	name = "LuckyLou",
 	cd = 0,
 	picture = "0",
-	desc = "每隔一定时间，有概率发动，提高自身炮击,装填,机动属性",
+	desc = "每隔一定时间，有概率发动，提高自身炮击、装填、机动属性",
 	painting = 1,
 	id = 10880,
 	castCV = "skill",

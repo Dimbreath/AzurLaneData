@@ -343,7 +343,7 @@ return {
 	init_effect = "jinengchufared",
 	time = 0,
 	picture = "",
-	desc = "对自爆船,鱼雷艇,运输舰伤害提高",
+	desc = "对自爆船、鱼雷艇、运输舰伤害提高",
 	stack = 1,
 	id = 2110,
 	icon = 2110,

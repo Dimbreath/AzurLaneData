@@ -160,10 +160,10 @@ return {
 		}
 	},
 	time = 3,
-	name = "概率触发器",
+	name = "蛮啾,猫猫,小枭!",
 	init_effect = "",
 	picture = "",
-	desc = "",
+	desc = "概率触发器",
 	stack = 2,
 	id = 11751,
 	icon = 11750,

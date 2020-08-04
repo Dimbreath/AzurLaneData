@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actorName = "히퍼",
+			actorName = "아드미랄 히퍼",
 			side = 1,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
@@ -67,7 +67,7 @@ return {
 			side = 1,
 			bgName = "bg_hms_3",
 			dir = 1,
-			actorName = "히퍼",
+			actorName = "아드미랄 히퍼",
 			say = "하! 오로라 행동 같은 이렇게 중요한 작전에서 너에게 기함 지휘를 맡기는데, 내가 어떻게 조급하지 않을 수가 있어!",
 			dialogShake = {
 				speed = 0.09,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actorName = "도이칠란드",
+			actorName = "도이칠란트",
 			side = 2,
 			bgName = "bg_hms_3",
 			dir = 1,
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = " 그녀들은 계획이 완벽하다고 생각하고 있을거야. 진작에 다 들통난건 전혀 모르겠지…",
+			say = " 그녀들은 계획이 완벽하다고 생각하고 있겠죠. 진작에 다 들통난 건 전혀 모르고…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

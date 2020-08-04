@@ -264,7 +264,7 @@ return {
 	id = 10871,
 	time = 0,
 	picture = "",
-	desc = "提高雷击,装填属性",
+	desc = "提高雷击、装填属性",
 	stack = 1,
 	color = "yellow",
 	icon = 10871,

@@ -3,7 +3,7 @@ return {
 	name = "游刃有余",
 	init_effect = "",
 	picture = "",
-	desc = "每堆叠1层，伤害,装填提高5%",
+	desc = "每堆叠1层，伤害、装填提高5%",
 	stack = 5,
 	id = 45,
 	icon = 45,

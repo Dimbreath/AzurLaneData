@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = " 이야, 구축함으로서 이번 전투 스타일 정말 대단한데!",
+			say = "이야, 구축함인데 전투 스타일이 꽤 대단한걸!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "모두를 다치게 하려는 적을 상대할때는 화력을 전면 개방해서 서둘려 섬멸시키는 것이 당연한거지!",
+			say = "모두를 다치게 하려는 적을 상대할 때는 화력을 전면 개방해서 서둘려 섬멸시키는 것이 당연한 거죠!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "응…! 이카로스 존명!",
+			say = "네...! 이카로스 존명!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

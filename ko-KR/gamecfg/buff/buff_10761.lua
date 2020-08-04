@@ -243,7 +243,7 @@ return {
 	init_effect = "jinengchufablue",
 	time = 0,
 	picture = "",
-	desc = "免伤,回避率提升",
+	desc = "免伤、回避率提升",
 	stack = 1,
 	id = 10761,
 	icon = 10761,

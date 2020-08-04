@@ -3,7 +3,7 @@ return {
 	name = "袖珍战列舰",
 	cd = 0,
 	picture = "0",
-	desc = "对驱逐,轻巡伤害提高",
+	desc = "对驱逐、轻巡伤害提高",
 	painting = 1,
 	id = 10650,
 	castCV = "skill",

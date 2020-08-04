@@ -343,7 +343,7 @@ return {
 	init_effect = "jinengchufared",
 	time = 0,
 	picture = "",
-	desc = "起火概率,伤害提高",
+	desc = "起火概率、伤害提高",
 	stack = 1,
 	id = 10571,
 	icon = 10571,
