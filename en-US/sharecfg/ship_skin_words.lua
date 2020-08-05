@@ -15238,7 +15238,7 @@ pg.ship_skin_words = {
 	},
 	[207090] = {
 		touch = "Commander's hand is so big... much bigger than mine...",
-		feeling3 = "Ah, Commander, wait a second... Here, yse my handkerchief... Ehehe, there are some cake crumbs stuck on the corner of your mouth~",
+		feeling3 = "Ah, Commander, wait a second... Here, use my handkerchief... Ehehe, there are some cake crumbs stuck on the corner of your mouth~",
 		upgrade = "With this, I'll be able to further spread the light of love and peace...",
 		expedition = "Everyone has come back from their commission. I'll have to hurry to bring the refreshments out to them!",
 		win_mvp = "We're one step closer to a world of love and peace.",

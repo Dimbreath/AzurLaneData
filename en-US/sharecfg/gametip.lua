@@ -3,6 +3,9 @@ pg.gametip = {
 	multiple_ship_energy_low_desc = {
 		tip = "Exhausted\nAffinity will be reduced if you attack"
 	},
+	multiple_ship_energy_low_warn = {
+		tip = "Exhausted\nAffinity will be reduced if you attack"
+	},
 	["new_airi_error_code_-1"] = {
 		tip = "Unknown Error"
 	},
