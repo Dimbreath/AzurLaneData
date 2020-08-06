@@ -3395,7 +3395,7 @@ pg.activity_template = {
 				"<color=#d797ff>精锐舰船</color>：12%",
 				"<color=#3dc6ff>稀有舰船</color>：51%",
 				"普通舰船：30%",
-				"<color=#d797ff>U110</color>：1.4%<color=#92FC63>(up!)</color>"
+				"<color=#d797ff>U-110</color>：1.4%<color=#92FC63>(up!)</color>"
 			}
 		}
 	},
