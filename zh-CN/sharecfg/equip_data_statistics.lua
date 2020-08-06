@@ -17197,8 +17197,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3,
-			18
+			8,
+			17
 		},
 		part_sub = {},
 		equip_parameters = {},
