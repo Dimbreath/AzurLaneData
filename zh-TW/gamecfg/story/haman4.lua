@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=45>四 不高兴的理由·下</size>",
+					"哈曼觀察日誌\n\n<size=45>四 不高興的理由·下</size>",
 					1
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			actor = 101240,
 			side = 0,
 			bgName = "bg_story_task",
-			say = "虽然不是故意要看的…妳那是在干吗？",
+			say = "雖然不是故意要看的…妳那是在幹嘛？",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -55,7 +55,7 @@ return {
 			actor = 101250,
 			side = 1,
 			bgName = "bg_story_task",
-			say = "事情是这样的——",
+			say = "事情是這樣的——",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 101250,
-			say = "…刚才的事快忘掉！一定要忘掉哦！",
+			say = "…剛才的事快忘掉！一定要忘掉哦！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊啊别摇我啦！也不是什么大事嘛……",
+			say = "啊啊別搖我啦！也不是什麼大事嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 101250,
-			say = "就是很大的事啦！指挥官…不知道现在在怎么样了……",
+			say = "就是很大的事啦！指揮官…不知道現在在怎麼樣了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "话说回来，不就是因为哈曼不肯老实道歉，才搞得事情这么复杂的吗？",
+			say = "話說回來，不就是因為哈曼不肯老實道歉，才搞得事情這麼複雜的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "说是这么说…可是道歉什么的…哈曼一个人做不到啊！西姆斯妳要帮我啦！",
+			say = "說是這麼說…可是道歉什麼的…哈曼一個人做不到啊！西姆斯妳要幫我啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不不就算妳找我也没用啊…对了，去问问约克城吧！",
+			say = "不不就算妳找我也沒用啊…對了，去問問約克鎮吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "对哦！约克城姐姐的话…！谢了西姆斯！帮我看会指挥室！",
+			say = "對哦！約克鎮姐姐的話…！謝了西姆斯！幫我看會指揮室！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哈曼一溜烟地跑掉了。",
+			say = "哈曼一溜煙地跑掉了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊……又这么慌慌张张的…",
+			say = "啊……又這麼慌慌張張的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过刚才哈曼那表情我都录下来了，这就算是必要的投入吧～",
+			say = "不過剛才哈曼那表情我都錄下來了，這就算是必要的投入吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "等下要怎么耍她呢~嘿嘿嘿♪",
+			say = "等下要怎麼耍她呢~嘿嘿嘿♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			},
 			options = {
 				{
-					content = "绕到指挥室里的西姆斯身后警告她",
+					content = "繞到指揮室裡的西姆斯身後警告她",
 					flag = 1
 				}
 			}
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101240,
-			say = "吓！？指挥官，什么时候出现的！？",
+			say = "嚇！？指揮官，什麼時候出現的！？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "带妳去约克城那里？可以是可以——还要把刚才录的视频删掉？！怎么这样——",
+			say = "帶你去約克鎮那裡？可以是可以——還要把剛才錄的影片刪掉？！怎麼這樣——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

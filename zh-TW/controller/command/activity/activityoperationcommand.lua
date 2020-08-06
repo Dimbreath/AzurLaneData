@@ -62,6 +62,8 @@ function slot0.execute(slot0, slot1)
 				end
 			elseif uv3 == 17 then
 				pg.TipsMgr.GetInstance():ShowTips("错误!:" .. slot0.result)
+			elseif uv3 == ActivityConst.ACTIVITY_TYPE_FRESH_TEC_CATCHUP then
+				-- Nothing
 			elseif slot0.result == 3 or slot0.result == 4 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 			else

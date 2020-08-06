@@ -1174,6 +1174,38 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[2004] = {
+		mark = 20180327,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5081,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2004,
+		config_data = {
+			0,
+			{}
+		}
+	},
+	[2006] = {
+		mark = 20180426,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5101,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2006,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	[2007] = {
 		mark = 20180510,
 		page_info = "",
@@ -1553,6 +1585,22 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 2046,
+		config_data = {
+			0,
+			{}
+		}
+	},
+	[2047] = {
+		mark = 20200723,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5511,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2047,
 		config_data = {
 			0,
 			{}
@@ -2332,7 +2380,6 @@ pg.activity_template = {
 	[40030] = {
 		mark = 20191115,
 		page_info = "",
-		time = "stop",
 		type = 0,
 		login_pop = 0,
 		config_id = 0,
@@ -2340,7 +2387,34 @@ pg.activity_template = {
 		config_data = "",
 		config_client = "",
 		title_res_tag = "",
-		id = 40030
+		id = 40030,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[40031] = {
 		mark = 20191205,
@@ -4737,6 +4811,7 @@ pg.activity_template = {
 	},
 	[40147] = {
 		mark = 20200723,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -4761,33 +4836,6 @@ pg.activity_template = {
 			1120017,
 			1120018
 		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					7,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "SummerRemakePage",
 			ui_name = "summerremakepage"
@@ -4802,6 +4850,7 @@ pg.activity_template = {
 	[40148] = {
 		mark = 20200723,
 		page_info = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 102,
@@ -4809,38 +4858,12 @@ pg.activity_template = {
 		config_data = "100",
 		config_client = "",
 		title_res_tag = "",
-		id = 40148,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					7,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 40148
 	},
 	[40149] = {
 		mark = 20200723,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -4848,38 +4871,12 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 40149,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					7,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[40150] = {
 		mark = 20200723,
 		page_info = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -4894,33 +4891,6 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					7,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40151] = {
@@ -4970,6 +4940,7 @@ pg.activity_template = {
 	[40152] = {
 		mark = 20200723,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -4979,38 +4950,12 @@ pg.activity_template = {
 		id = 40152,
 		config_data = {
 			80168
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					7,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40153] = {
 		mark = 20200723,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -5039,33 +4984,6 @@ pg.activity_template = {
 			80165,
 			80166,
 			80167
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					7,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[45000] = {
@@ -5123,6 +5041,8 @@ pg.activity_template = {
 		999,
 		2001,
 		2002,
+		2004,
+		2006,
 		2007,
 		2008,
 		2009,
@@ -5147,6 +5067,7 @@ pg.activity_template = {
 		2036,
 		2040,
 		2046,
+		2047,
 		40002,
 		40003,
 		40004,

@@ -1673,7 +1673,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[41,3037]",
+		next_task = "[41,3037,6037]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1001,
@@ -1715,7 +1715,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[42,3038]",
+		next_task = "[42,3038,6038]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1002,
@@ -1757,7 +1757,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[43,3039]",
+		next_task = "[43,3039,6039]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1003,
@@ -1799,7 +1799,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[44,3040]",
+		next_task = "[44,3040,6040]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1004,
@@ -2135,7 +2135,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[3048]",
+		next_task = "[52,3048]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1204,
@@ -2143,6 +2143,174 @@ pg.task_data_template = {
 		target_num = 1,
 		fix_task = 0,
 		target_id = "1204",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				150
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 52,
+		type = 1,
+		name = "第十三章1图",
+		count_inherit = 0,
+		desc = "通關13-1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[53,3049]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1301,
+		id = 52,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1301",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 53,
+		type = 1,
+		name = "第十三章2图",
+		count_inherit = 0,
+		desc = "通關13-2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[54,3050]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1302,
+		id = 53,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1302",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 54,
+		type = 1,
+		name = "第十三章3图",
+		count_inherit = 0,
+		desc = "通關13-3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[55,3051]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1303,
+		id = 54,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1303",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 55,
+		type = 1,
+		name = "第十三章4图",
+		count_inherit = 0,
+		desc = "通關13-4",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "3052",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1304,
+		id = 55,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1304",
 		open_need = {},
 		award_display = {
 			{
@@ -6158,6 +6326,174 @@ pg.task_data_template = {
 		target_num = 1,
 		fix_task = 0,
 		target_id = "1204",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				100
+			},
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				2,
+				15008,
+				550
+			}
+		}
+	},
+	[3049] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3049,
+		type = 2,
+		name = "第十三章1图",
+		count_inherit = 0,
+		desc = "完成13-1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1301,
+		id = 3049,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1301",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				2,
+				54034,
+				1
+			},
+			{
+				2,
+				15008,
+				250
+			}
+		}
+	},
+	[3050] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3050,
+		type = 2,
+		name = "第十三章2图",
+		count_inherit = 0,
+		desc = "完成13-2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1302,
+		id = 3050,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1302",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15008,
+				350
+			}
+		}
+	},
+	[3051] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3051,
+		type = 2,
+		name = "第十三章3图",
+		count_inherit = 0,
+		desc = "完成13-3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1303,
+		id = 3051,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1303",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				2,
+				54035,
+				1
+			},
+			{
+				2,
+				15008,
+				450
+			}
+		}
+	},
+	[3052] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3052,
+		type = 2,
+		name = "第十三章4图",
+		count_inherit = 0,
+		desc = "完成13-4的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1304,
+		id = 3052,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1304",
 		open_need = {},
 		award_display = {
 			{
@@ -17013,7 +17349,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 5366,
 		type = 5,
-		name = "指挥官闷闷不乐？",
+		name = "指揮官悶悶不樂？ ",
 		count_inherit = 0,
 		desc = "提交3個《魚雷天婦羅》",
 		target_id_2 = "",
@@ -17047,7 +17383,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 5367,
 		type = 5,
-		name = "{namecode:162}会帮助你的！",
+		name = "{namecode:162}會幫助妳的！",
 		count_inherit = 0,
 		desc = "強化任意角色10次",
 		target_id_2 = "",
@@ -17079,7 +17415,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 5368,
 		type = 5,
-		name = "{namecode:162}今天也很高兴！",
+		name = "{namecode:162}今天也很高興！",
 		count_inherit = 0,
 		desc = "{namecode:162}上陣出擊(關卡)勝利20次",
 		target_id_2 = "",
@@ -17111,7 +17447,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 5369,
 		type = 5,
-		name = "其名为——指挥官开心计划！·上",
+		name = "其名為——指揮官開心計劃！·上",
 		count_inherit = 0,
 		desc = "{namecode:162}上陣完成3次每日挑戰",
 		target_id_2 = "",
@@ -17143,7 +17479,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 5370,
 		type = 5,
-		name = "其名为——指挥官开心计划！·下",
+		name = "其名為——指揮官開心計劃！·下",
 		count_inherit = 0,
 		desc = "{namecode:162}好感度達到100",
 		target_id_2 = "",
@@ -17185,7 +17521,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 5371,
 		type = 5,
-		name = "不笑的指挥官",
+		name = "不笑的指揮官 ",
 		count_inherit = 0,
 		desc = "{namecode:162}突破至滿星",
 		target_id_2 = "",
@@ -17227,7 +17563,7 @@ pg.task_data_template = {
 		guild_coin_award = 0,
 		award = 5372,
 		type = 5,
-		name = "指挥官，笑起来了！",
+		name = "指揮官，笑起來了！ ",
 		count_inherit = 0,
 		desc = "{namecode:162}等級達到100",
 		target_id_2 = "",
@@ -17260,6 +17596,262 @@ pg.task_data_template = {
 			{
 				2,
 				18002,
+				2
+			}
+		}
+	},
+	[5511] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5373,
+		type = 5,
+		name = "印第強化週開始！ ",
+		count_inherit = 0,
+		desc = "提交3個《魚雷天婦羅》",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "botelan",
+		award_choice = "",
+		level = 1,
+		next_task = "5512",
+		visibility = 1,
+		story_id = "BOTELAN1",
+		target_id_for_client = 50003,
+		id = 5511,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5512] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5374,
+		type = 5,
+		name = "堅不可摧！逼迫改推！ ",
+		count_inherit = 0,
+		desc = "強化任意角色10次",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5513",
+		visibility = 1,
+		story_id = "BOTELAN2",
+		target_id_for_client = 0,
+		id = 5512,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5513] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5375,
+		type = 5,
+		name = "姐妹談資喋喋不休 ",
+		count_inherit = 0,
+		desc = "波特蘭上陣出擊(關卡)勝利20次",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5514",
+		visibility = 1,
+		story_id = "BOTELAN3",
+		target_id_for_client = 10306,
+		id = 5513,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "10306",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5514] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5376,
+		type = 5,
+		name = "尷尬的關係 ",
+		count_inherit = 0,
+		desc = "波特蘭上陣完成3次每日挑戰",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5515",
+		visibility = 1,
+		story_id = "BOTELAN4",
+		target_id_for_client = 10306,
+		id = 5514,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "10306",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5515] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5377,
+		type = 5,
+		name = "命運的出擊 ",
+		count_inherit = 0,
+		desc = "波特蘭好感度達到100",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5516",
+		visibility = 1,
+		story_id = "BOTELAN5",
+		target_id_for_client = 10306,
+		id = 5515,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "10306",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5516] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5378,
+		type = 5,
+		name = "真正重要的事 ",
+		count_inherit = 0,
+		desc = "波特蘭突破至滿星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5517",
+		visibility = 1,
+		story_id = "BOTELAN6",
+		target_id_for_client = 103064,
+		id = 5516,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "103064",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5517] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5379,
+		type = 5,
+		name = "嚮往的幸福 ",
+		count_inherit = 0,
+		desc = "波特蘭等級達到100",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "BOTELAN7",
+		target_id_for_client = 10306,
+		id = 5517,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "10306",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
 				2
 			}
 		}
@@ -18462,6 +19054,154 @@ pg.task_data_template = {
 		target_num = 1,
 		fix_task = 0,
 		target_id = "10904",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				2
+			},
+			{
+				2,
+				15008,
+				550
+			}
+		}
+	},
+	[6037] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6037,
+		type = 2,
+		name = "困难·再次出击，再次！",
+		count_inherit = 0,
+		desc = "完成困難10-1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 11001,
+		id = 6037,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "11001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				2
+			},
+			{
+				2,
+				15008,
+				250
+			}
+		}
+	},
+	[6038] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6038,
+		type = 2,
+		name = "困难·先发制人",
+		count_inherit = 0,
+		desc = "完成困難10-2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 11002,
+		id = 6038,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "11002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				2
+			},
+			{
+				2,
+				15008,
+				350
+			}
+		}
+	},
+	[6039] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6039,
+		type = 2,
+		name = "困难·乘胜追击",
+		count_inherit = 0,
+		desc = "完成困難10-3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 11003,
+		id = 6039,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "11003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				2
+			},
+			{
+				2,
+				15008,
+				450
+			}
+		}
+	},
+	[6040] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6040,
+		type = 2,
+		name = "困难·回马枪",
+		count_inherit = 0,
+		desc = "完成困難10-4的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 11004,
+		id = 6040,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "11004",
 		open_need = {},
 		award_display = {
 			{
@@ -33741,7 +34481,15 @@ pg.task_data_template = {
 			10901,
 			10902,
 			10903,
-			10904
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -48675,6 +49423,10 @@ pg.task_data_template = {
 		49,
 		50,
 		51,
+		52,
+		53,
+		54,
+		55,
 		1001,
 		1011,
 		1012,
@@ -48781,6 +49533,10 @@ pg.task_data_template = {
 		3046,
 		3047,
 		3048,
+		3049,
+		3050,
+		3051,
+		3052,
 		5001,
 		5002,
 		5003,
@@ -49086,6 +49842,13 @@ pg.task_data_template = {
 		5505,
 		5506,
 		5507,
+		5511,
+		5512,
+		5513,
+		5514,
+		5515,
+		5516,
+		5517,
 		6001,
 		6002,
 		6003,
@@ -49122,6 +49885,10 @@ pg.task_data_template = {
 		6034,
 		6035,
 		6036,
+		6037,
+		6038,
+		6039,
+		6040,
 		7001,
 		7002,
 		7003,

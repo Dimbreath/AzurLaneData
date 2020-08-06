@@ -8432,6 +8432,181 @@ pg.aircraft_template = {
 			52350
 		}
 	},
+	[27320] = {
+		name = "海大黄蜂",
+		max_hp = 49,
+		accuracy = 24,
+		model_ID = "haidahuangfeng",
+		ACC_growth = 0,
+		crash_DMG = 190,
+		dodge = 0.3,
+		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
+		AP_growth = 2000,
+		icon = "haidahuangfeng",
+		funnel_behavior = "",
+		nationality = 2,
+		hp_growth = 1903,
+		speed = 60,
+		id = 27320,
+		scale = 1,
+		weapon_ID = {
+			50660,
+			52760
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.52,
+					-1.61,
+					0
+				},
+				{
+					0.6,
+					1.5,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.86,
+				-0.12,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[27321] = {
+		id = 27321,
+		base = 27320,
+		max_hp = 57,
+		hp_growth = 2189,
+		weapon_ID = {
+			50661,
+			52761
+		}
+	},
+	[27322] = {
+		id = 27322,
+		base = 27320,
+		max_hp = 64,
+		hp_growth = 2474,
+		weapon_ID = {
+			50662,
+			52762
+		}
+	},
+	[27323] = {
+		id = 27323,
+		base = 27320,
+		max_hp = 72,
+		hp_growth = 2760,
+		weapon_ID = {
+			50663,
+			52763
+		}
+	},
+	[27324] = {
+		id = 27324,
+		base = 27320,
+		max_hp = 79,
+		hp_growth = 3045,
+		weapon_ID = {
+			50664,
+			52764
+		}
+	},
+	[27325] = {
+		id = 27325,
+		base = 27320,
+		max_hp = 87,
+		hp_growth = 3330,
+		weapon_ID = {
+			50665,
+			52765
+		}
+	},
+	[27326] = {
+		id = 27326,
+		base = 27320,
+		max_hp = 94,
+		hp_growth = 3616,
+		weapon_ID = {
+			50666,
+			52766
+		}
+	},
+	[27327] = {
+		id = 27327,
+		base = 27320,
+		max_hp = 101,
+		hp_growth = 3901,
+		weapon_ID = {
+			50667,
+			52767
+		}
+	},
+	[27328] = {
+		id = 27328,
+		base = 27320,
+		max_hp = 109,
+		hp_growth = 4187,
+		weapon_ID = {
+			50668,
+			52768
+		}
+	},
+	[27329] = {
+		id = 27329,
+		base = 27320,
+		max_hp = 116,
+		hp_growth = 4472,
+		weapon_ID = {
+			50669,
+			52769
+		}
+	},
+	[27330] = {
+		id = 27330,
+		base = 27320,
+		max_hp = 124,
+		hp_growth = 4758,
+		weapon_ID = {
+			50670,
+			52770
+		}
+	},
 	[28000] = {
 		name = "剑鱼",
 		max_hp = 28,
@@ -16632,20 +16807,20 @@ pg.aircraft_template = {
 		}
 	},
 	[61011] = {
-		id = 61011,
+		max_hp = 64,
 		name = "皇家方舟技能LV2",
 		base = 61010,
-		max_hp = 64,
+		id = 61011,
 		hp_growth = 2432,
 		weapon_ID = {
 			61014
 		}
 	},
 	[61012] = {
-		id = 61012,
+		max_hp = 95,
 		name = "皇家方舟技能LV3",
 		base = 61010,
-		max_hp = 95,
+		id = 61012,
 		hp_growth = 3648,
 		weapon_ID = {
 			61015
@@ -17090,100 +17265,100 @@ pg.aircraft_template = {
 		}
 	},
 	[66241] = {
-		id = 66241,
+		max_hp = 32,
 		name = "山城改技能Lv1",
 		base = 66240,
-		max_hp = 32,
+		id = 66241,
 		hp_growth = 1233,
 		weapon_ID = {
 			66261
 		}
 	},
 	[66242] = {
-		id = 66242,
+		max_hp = 37,
 		name = "山城改技能Lv2",
 		base = 66240,
-		max_hp = 37,
+		id = 66242,
 		hp_growth = 1443,
 		weapon_ID = {
 			66262
 		}
 	},
 	[66243] = {
-		id = 66243,
+		max_hp = 42,
 		name = "山城改技能Lv3",
 		base = 66240,
-		max_hp = 42,
+		id = 66243,
 		hp_growth = 1653,
 		weapon_ID = {
 			66263
 		}
 	},
 	[66244] = {
-		id = 66244,
+		max_hp = 47,
 		name = "山城改技能Lv4",
 		base = 66240,
-		max_hp = 47,
+		id = 66244,
 		hp_growth = 1863,
 		weapon_ID = {
 			66264
 		}
 	},
 	[66245] = {
-		id = 66245,
+		max_hp = 52,
 		name = "山城改技能Lv5",
 		base = 66240,
-		max_hp = 52,
+		id = 66245,
 		hp_growth = 2073,
 		weapon_ID = {
 			66265
 		}
 	},
 	[66246] = {
-		id = 66246,
+		max_hp = 57,
 		name = "山城改技能Lv6",
 		base = 66240,
-		max_hp = 57,
+		id = 66246,
 		hp_growth = 2283,
 		weapon_ID = {
 			66266
 		}
 	},
 	[66247] = {
-		id = 66247,
+		max_hp = 63,
 		name = "山城改技能Lv7",
 		base = 66240,
-		max_hp = 63,
+		id = 66247,
 		hp_growth = 2494,
 		weapon_ID = {
 			66267
 		}
 	},
 	[66248] = {
-		id = 66248,
+		max_hp = 69,
 		name = "山城改技能Lv8",
 		base = 66240,
-		max_hp = 69,
+		id = 66248,
 		hp_growth = 2705,
 		weapon_ID = {
 			66268
 		}
 	},
 	[66249] = {
-		id = 66249,
+		max_hp = 75,
 		name = "山城改技能Lv9",
 		base = 66240,
-		max_hp = 75,
+		id = 66249,
 		hp_growth = 2916,
 		weapon_ID = {
 			66269
 		}
 	},
 	[66250] = {
-		id = 66250,
+		max_hp = 81,
 		name = "山城改技能Lv10",
 		base = 66240,
-		max_hp = 81,
+		id = 66250,
 		hp_growth = 3127,
 		weapon_ID = {
 			66270
@@ -17266,10 +17441,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66421] = {
-		id = 66421,
+		max_hp = 37,
 		name = "胡蜂技能LV1",
 		base = 66420,
-		max_hp = 37,
+		id = 66421,
 		hp_growth = 1458,
 		weapon_ID = {
 			50141,
@@ -17278,10 +17453,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66422] = {
-		id = 66422,
+		max_hp = 43,
 		name = "胡蜂技能LV2",
 		base = 66420,
-		max_hp = 43,
+		id = 66422,
 		hp_growth = 1706,
 		weapon_ID = {
 			50142,
@@ -17290,10 +17465,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66423] = {
-		id = 66423,
+		max_hp = 49,
 		name = "胡蜂技能LV3",
 		base = 66420,
-		max_hp = 49,
+		id = 66423,
 		hp_growth = 1954,
 		weapon_ID = {
 			50143,
@@ -17302,10 +17477,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66424] = {
-		id = 66424,
+		max_hp = 55,
 		name = "胡蜂技能LV4",
 		base = 66420,
-		max_hp = 55,
+		id = 66424,
 		hp_growth = 2202,
 		weapon_ID = {
 			50144,
@@ -17314,10 +17489,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66425] = {
-		id = 66425,
+		max_hp = 61,
 		name = "胡蜂技能LV5",
 		base = 66420,
-		max_hp = 61,
+		id = 66425,
 		hp_growth = 2451,
 		weapon_ID = {
 			50145,
@@ -17326,10 +17501,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66426] = {
-		id = 66426,
+		max_hp = 68,
 		name = "胡蜂技能LV6",
 		base = 66420,
-		max_hp = 68,
+		id = 66426,
 		hp_growth = 2700,
 		weapon_ID = {
 			50146,
@@ -17338,10 +17513,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66427] = {
-		id = 66427,
+		max_hp = 75,
 		name = "胡蜂技能LV7",
 		base = 66420,
-		max_hp = 75,
+		id = 66427,
 		hp_growth = 2949,
 		weapon_ID = {
 			50147,
@@ -17350,10 +17525,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66428] = {
-		id = 66428,
+		max_hp = 82,
 		name = "胡蜂技能LV8",
 		base = 66420,
-		max_hp = 82,
+		id = 66428,
 		hp_growth = 3198,
 		weapon_ID = {
 			50148,
@@ -17362,10 +17537,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66429] = {
-		id = 66429,
+		max_hp = 89,
 		name = "胡蜂技能LV9",
 		base = 66420,
-		max_hp = 89,
+		id = 66429,
 		hp_growth = 3447,
 		weapon_ID = {
 			50149,
@@ -17374,10 +17549,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66430] = {
-		id = 66430,
+		max_hp = 96,
 		name = "胡蜂技能LV10",
 		base = 66420,
-		max_hp = 96,
+		id = 66430,
 		hp_growth = 3696,
 		weapon_ID = {
 			50150,
@@ -17460,100 +17635,100 @@ pg.aircraft_template = {
 		}
 	},
 	[66581] = {
-		id = 66581,
+		max_hp = 45,
 		name = "宝石枪雨LV1",
 		base = 66580,
-		max_hp = 45,
+		id = 66581,
 		hp_growth = 1773,
 		weapon_ID = {
 			66621
 		}
 	},
 	[66582] = {
-		id = 66582,
+		max_hp = 52,
 		name = "宝石枪雨LV2",
 		base = 66580,
-		max_hp = 52,
+		id = 66582,
 		hp_growth = 2068,
 		weapon_ID = {
 			66622
 		}
 	},
 	[66583] = {
-		id = 66583,
+		max_hp = 59,
 		name = "宝石枪雨LV3",
 		base = 66580,
-		max_hp = 59,
+		id = 66583,
 		hp_growth = 2363,
 		weapon_ID = {
 			66623
 		}
 	},
 	[66584] = {
-		id = 66584,
+		max_hp = 67,
 		name = "宝石枪雨LV4",
 		base = 66580,
-		max_hp = 67,
+		id = 66584,
 		hp_growth = 2659,
 		weapon_ID = {
 			66624
 		}
 	},
 	[66585] = {
-		id = 66585,
+		max_hp = 75,
 		name = "宝石枪雨LV5",
 		base = 66580,
-		max_hp = 75,
+		id = 66585,
 		hp_growth = 2955,
 		weapon_ID = {
 			66625
 		}
 	},
 	[66586] = {
-		id = 66586,
+		max_hp = 83,
 		name = "宝石枪雨LV6",
 		base = 66580,
-		max_hp = 83,
+		id = 66586,
 		hp_growth = 3251,
 		weapon_ID = {
 			66626
 		}
 	},
 	[66587] = {
-		id = 66587,
+		max_hp = 91,
 		name = "宝石枪雨LV7",
 		base = 66580,
-		max_hp = 91,
+		id = 66587,
 		hp_growth = 3547,
 		weapon_ID = {
 			66627
 		}
 	},
 	[66588] = {
-		id = 66588,
+		max_hp = 99,
 		name = "宝石枪雨LV8",
 		base = 66580,
-		max_hp = 99,
+		id = 66588,
 		hp_growth = 3843,
 		weapon_ID = {
 			66628
 		}
 	},
 	[66589] = {
-		id = 66589,
+		max_hp = 107,
 		name = "宝石枪雨LV9",
 		base = 66580,
-		max_hp = 107,
+		id = 66589,
 		hp_growth = 4139,
 		weapon_ID = {
 			66629
 		}
 	},
 	[66590] = {
-		id = 66590,
+		max_hp = 115,
 		name = "宝石枪雨LV10",
 		base = 66580,
-		max_hp = 115,
+		id = 66590,
 		hp_growth = 4435,
 		weapon_ID = {
 			66630
@@ -17634,100 +17809,100 @@ pg.aircraft_template = {
 		}
 	},
 	[66821] = {
-		id = 66821,
+		max_hp = 27,
 		name = "飞鹰隼鹰技能Lv1",
 		base = 66820,
-		max_hp = 27,
+		id = 66821,
 		hp_growth = 1051,
 		weapon_ID = {
 			66841
 		}
 	},
 	[66822] = {
-		id = 66822,
+		max_hp = 30,
 		name = "飞鹰隼鹰技能Lv2",
 		base = 66820,
-		max_hp = 30,
+		id = 66822,
 		hp_growth = 1178,
 		weapon_ID = {
 			66842
 		}
 	},
 	[66823] = {
-		id = 66823,
+		max_hp = 33,
 		name = "飞鹰隼鹰技能Lv3",
 		base = 66820,
-		max_hp = 33,
+		id = 66823,
 		hp_growth = 1305,
 		weapon_ID = {
 			66843
 		}
 	},
 	[66824] = {
-		id = 66824,
+		max_hp = 37,
 		name = "飞鹰隼鹰技能Lv4",
 		base = 66820,
-		max_hp = 37,
+		id = 66824,
 		hp_growth = 1432,
 		weapon_ID = {
 			66844
 		}
 	},
 	[66825] = {
-		id = 66825,
+		max_hp = 40,
 		name = "飞鹰隼鹰技能Lv5",
 		base = 66820,
-		max_hp = 40,
+		id = 66825,
 		hp_growth = 1559,
 		weapon_ID = {
 			66845
 		}
 	},
 	[66826] = {
-		id = 66826,
+		max_hp = 43,
 		name = "飞鹰隼鹰技能Lv6",
 		base = 66820,
-		max_hp = 43,
+		id = 66826,
 		hp_growth = 1686,
 		weapon_ID = {
 			66846
 		}
 	},
 	[66827] = {
-		id = 66827,
+		max_hp = 47,
 		name = "飞鹰隼鹰技能Lv7",
 		base = 66820,
-		max_hp = 47,
+		id = 66827,
 		hp_growth = 1813,
 		weapon_ID = {
 			66847
 		}
 	},
 	[66828] = {
-		id = 66828,
+		max_hp = 50,
 		name = "飞鹰隼鹰技能Lv8",
 		base = 66820,
-		max_hp = 50,
+		id = 66828,
 		hp_growth = 1940,
 		weapon_ID = {
 			66848
 		}
 	},
 	[66829] = {
-		id = 66829,
+		max_hp = 53,
 		name = "飞鹰隼鹰技能Lv9",
 		base = 66820,
-		max_hp = 53,
+		id = 66829,
 		hp_growth = 2067,
 		weapon_ID = {
 			66849
 		}
 	},
 	[66830] = {
-		id = 66830,
+		max_hp = 57,
 		name = "飞鹰隼鹰技能Lv10",
 		base = 66820,
-		max_hp = 57,
+		id = 66830,
 		hp_growth = 2195,
 		weapon_ID = {
 			66850
@@ -17808,100 +17983,100 @@ pg.aircraft_template = {
 		}
 	},
 	[66941] = {
-		id = 66941,
+		max_hp = 36,
 		name = "萨拉托加技能鱼雷机Lv1",
 		base = 66940,
-		max_hp = 36,
+		id = 66941,
 		hp_growth = 1385,
 		weapon_ID = {
 			66981
 		}
 	},
 	[66942] = {
-		id = 66942,
+		max_hp = 42,
 		name = "萨拉托加技能鱼雷机Lv2",
 		base = 66940,
-		max_hp = 42,
+		id = 66942,
 		hp_growth = 1621,
 		weapon_ID = {
 			66982
 		}
 	},
 	[66943] = {
-		id = 66943,
+		max_hp = 48,
 		name = "萨拉托加技能鱼雷机Lv3",
 		base = 66940,
-		max_hp = 48,
+		id = 66943,
 		hp_growth = 1857,
 		weapon_ID = {
 			66983
 		}
 	},
 	[66944] = {
-		id = 66944,
+		max_hp = 54,
 		name = "萨拉托加技能鱼雷机Lv4",
 		base = 66940,
-		max_hp = 54,
+		id = 66944,
 		hp_growth = 2093,
 		weapon_ID = {
 			66984
 		}
 	},
 	[66945] = {
-		id = 66945,
+		max_hp = 60,
 		name = "萨拉托加技能鱼雷机Lv5",
 		base = 66940,
-		max_hp = 60,
+		id = 66945,
 		hp_growth = 2329,
 		weapon_ID = {
 			66985
 		}
 	},
 	[66946] = {
-		id = 66946,
+		max_hp = 66,
 		name = "萨拉托加技能鱼雷机Lv6",
 		base = 66940,
-		max_hp = 66,
+		id = 66946,
 		hp_growth = 2565,
 		weapon_ID = {
 			66986
 		}
 	},
 	[66947] = {
-		id = 66947,
+		max_hp = 72,
 		name = "萨拉托加技能鱼雷机Lv7",
 		base = 66940,
-		max_hp = 72,
+		id = 66947,
 		hp_growth = 2801,
 		weapon_ID = {
 			66987
 		}
 	},
 	[66948] = {
-		id = 66948,
+		max_hp = 78,
 		name = "萨拉托加技能鱼雷机Lv8",
 		base = 66940,
-		max_hp = 78,
+		id = 66948,
 		hp_growth = 3037,
 		weapon_ID = {
 			66988
 		}
 	},
 	[66949] = {
-		id = 66949,
+		max_hp = 84,
 		name = "萨拉托加技能鱼雷机Lv9",
 		base = 66940,
-		max_hp = 84,
+		id = 66949,
 		hp_growth = 3274,
 		weapon_ID = {
 			66989
 		}
 	},
 	[66950] = {
-		id = 66950,
+		max_hp = 91,
 		name = "萨拉托加技能鱼雷机Lv10",
 		base = 66940,
-		max_hp = 91,
+		id = 66950,
 		hp_growth = 3511,
 		weapon_ID = {
 			66990
@@ -17983,10 +18158,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66961] = {
-		id = 66961,
+		max_hp = 35,
 		name = "萨拉托加技能轰炸机Lv1",
 		base = 66960,
-		max_hp = 35,
+		id = 66961,
 		hp_growth = 1345,
 		weapon_ID = {
 			67001,
@@ -17994,10 +18169,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66962] = {
-		id = 66962,
+		max_hp = 39,
 		name = "萨拉托加技能轰炸机Lv2",
 		base = 66960,
-		max_hp = 39,
+		id = 66962,
 		hp_growth = 1507,
 		weapon_ID = {
 			67002,
@@ -18005,10 +18180,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66963] = {
-		id = 66963,
+		max_hp = 43,
 		name = "萨拉托加技能轰炸机Lv3",
 		base = 66960,
-		max_hp = 43,
+		id = 66963,
 		hp_growth = 1669,
 		weapon_ID = {
 			67003,
@@ -18016,10 +18191,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66964] = {
-		id = 66964,
+		max_hp = 47,
 		name = "萨拉托加技能轰炸机Lv4",
 		base = 66960,
-		max_hp = 47,
+		id = 66964,
 		hp_growth = 1831,
 		weapon_ID = {
 			67004,
@@ -18027,10 +18202,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66965] = {
-		id = 66965,
+		max_hp = 51,
 		name = "萨拉托加技能轰炸机Lv5",
 		base = 66960,
-		max_hp = 51,
+		id = 66965,
 		hp_growth = 1994,
 		weapon_ID = {
 			67005,
@@ -18038,10 +18213,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66966] = {
-		id = 66966,
+		max_hp = 55,
 		name = "萨拉托加技能轰炸机Lv6",
 		base = 66960,
-		max_hp = 55,
+		id = 66966,
 		hp_growth = 2157,
 		weapon_ID = {
 			67006,
@@ -18049,10 +18224,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66967] = {
-		id = 66967,
+		max_hp = 59,
 		name = "萨拉托加技能轰炸机Lv7",
 		base = 66960,
-		max_hp = 59,
+		id = 66967,
 		hp_growth = 2320,
 		weapon_ID = {
 			67007,
@@ -18060,10 +18235,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66968] = {
-		id = 66968,
+		max_hp = 63,
 		name = "萨拉托加技能轰炸机Lv8",
 		base = 66960,
-		max_hp = 63,
+		id = 66968,
 		hp_growth = 2483,
 		weapon_ID = {
 			67008,
@@ -18071,10 +18246,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66969] = {
-		id = 66969,
+		max_hp = 68,
 		name = "萨拉托加技能轰炸机Lv9",
 		base = 66960,
-		max_hp = 68,
+		id = 66969,
 		hp_growth = 2646,
 		weapon_ID = {
 			67009,
@@ -18082,10 +18257,10 @@ pg.aircraft_template = {
 		}
 	},
 	[66970] = {
-		id = 66970,
+		max_hp = 73,
 		name = "萨拉托加技能轰炸机Lv10",
 		base = 66960,
-		max_hp = 73,
+		id = 66970,
 		hp_growth = 2809,
 		weapon_ID = {
 			67010,
@@ -18167,100 +18342,100 @@ pg.aircraft_template = {
 		}
 	},
 	[67141] = {
-		id = 67141,
+		max_hp = 40,
 		name = "半人马技能鱼雷机Lv1",
 		base = 67140,
-		max_hp = 40,
+		id = 67141,
 		hp_growth = 1538,
 		weapon_ID = {
 			67181
 		}
 	},
 	[67142] = {
-		id = 67142,
+		max_hp = 45,
 		name = "半人马技能鱼雷机Lv2",
 		base = 67140,
-		max_hp = 45,
+		id = 67142,
 		hp_growth = 1739,
 		weapon_ID = {
 			67182
 		}
 	},
 	[67143] = {
-		id = 67143,
+		max_hp = 50,
 		name = "半人马技能鱼雷机Lv3",
 		base = 67140,
-		max_hp = 50,
+		id = 67143,
 		hp_growth = 1940,
 		weapon_ID = {
 			67183
 		}
 	},
 	[67144] = {
-		id = 67144,
+		max_hp = 56,
 		name = "半人马技能鱼雷机Lv4",
 		base = 67140,
-		max_hp = 56,
+		id = 67144,
 		hp_growth = 2140,
 		weapon_ID = {
 			67184
 		}
 	},
 	[67145] = {
-		id = 67145,
+		max_hp = 61,
 		name = "半人马技能鱼雷机Lv5",
 		base = 67140,
-		max_hp = 61,
+		id = 67145,
 		hp_growth = 2341,
 		weapon_ID = {
 			67185
 		}
 	},
 	[67146] = {
-		id = 67146,
+		max_hp = 66,
 		name = "半人马技能鱼雷机Lv6",
 		base = 67140,
-		max_hp = 66,
+		id = 67146,
 		hp_growth = 2541,
 		weapon_ID = {
 			67186
 		}
 	},
 	[67147] = {
-		id = 67147,
+		max_hp = 71,
 		name = "半人马技能鱼雷机Lv7",
 		base = 67140,
-		max_hp = 71,
+		id = 67147,
 		hp_growth = 2742,
 		weapon_ID = {
 			67187
 		}
 	},
 	[67148] = {
-		id = 67148,
+		max_hp = 77,
 		name = "半人马技能鱼雷机Lv8",
 		base = 67140,
-		max_hp = 77,
+		id = 67148,
 		hp_growth = 2943,
 		weapon_ID = {
 			67188
 		}
 	},
 	[67149] = {
-		id = 67149,
+		max_hp = 82,
 		name = "半人马技能鱼雷机Lv9",
 		base = 67140,
-		max_hp = 82,
+		id = 67149,
 		hp_growth = 3143,
 		weapon_ID = {
 			67189
 		}
 	},
 	[67150] = {
-		id = 67150,
+		max_hp = 87,
 		name = "半人马技能鱼雷机Lv10",
 		base = 67140,
-		max_hp = 87,
+		id = 67150,
 		hp_growth = 3344,
 		weapon_ID = {
 			67190
@@ -18341,100 +18516,100 @@ pg.aircraft_template = {
 		}
 	},
 	[67161] = {
-		id = 67161,
+		max_hp = 40,
 		name = "半人马技能鱼雷机Lv1",
 		base = 67160,
-		max_hp = 40,
+		id = 67161,
 		hp_growth = 1538,
 		weapon_ID = {
 			67201
 		}
 	},
 	[67162] = {
-		id = 67162,
+		max_hp = 45,
 		name = "半人马技能鱼雷机Lv2",
 		base = 67160,
-		max_hp = 45,
+		id = 67162,
 		hp_growth = 1739,
 		weapon_ID = {
 			67202
 		}
 	},
 	[67163] = {
-		id = 67163,
+		max_hp = 50,
 		name = "半人马技能鱼雷机Lv3",
 		base = 67160,
-		max_hp = 50,
+		id = 67163,
 		hp_growth = 1940,
 		weapon_ID = {
 			67203
 		}
 	},
 	[67164] = {
-		id = 67164,
+		max_hp = 56,
 		name = "半人马技能鱼雷机Lv4",
 		base = 67160,
-		max_hp = 56,
+		id = 67164,
 		hp_growth = 2140,
 		weapon_ID = {
 			67204
 		}
 	},
 	[67165] = {
-		id = 67165,
+		max_hp = 61,
 		name = "半人马技能鱼雷机Lv5",
 		base = 67160,
-		max_hp = 61,
+		id = 67165,
 		hp_growth = 2341,
 		weapon_ID = {
 			67205
 		}
 	},
 	[67166] = {
-		id = 67166,
+		max_hp = 66,
 		name = "半人马技能鱼雷机Lv6",
 		base = 67160,
-		max_hp = 66,
+		id = 67166,
 		hp_growth = 2541,
 		weapon_ID = {
 			67206
 		}
 	},
 	[67167] = {
-		id = 67167,
+		max_hp = 71,
 		name = "半人马技能鱼雷机Lv7",
 		base = 67160,
-		max_hp = 71,
+		id = 67167,
 		hp_growth = 2742,
 		weapon_ID = {
 			67207
 		}
 	},
 	[67168] = {
-		id = 67168,
+		max_hp = 77,
 		name = "半人马技能鱼雷机Lv8",
 		base = 67160,
-		max_hp = 77,
+		id = 67168,
 		hp_growth = 2943,
 		weapon_ID = {
 			67208
 		}
 	},
 	[67169] = {
-		id = 67169,
+		max_hp = 82,
 		name = "半人马技能鱼雷机Lv9",
 		base = 67160,
-		max_hp = 82,
+		id = 67169,
 		hp_growth = 3143,
 		weapon_ID = {
 			67209
 		}
 	},
 	[67170] = {
-		id = 67170,
+		max_hp = 87,
 		name = "半人马技能鱼雷机Lv10",
 		base = 67160,
-		max_hp = 87,
+		id = 67170,
 		hp_growth = 3344,
 		weapon_ID = {
 			67210
@@ -18516,10 +18691,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67241] = {
-		id = 67241,
+		max_hp = 48,
 		name = "伊势技能轰炸机Lv1",
 		base = 67240,
-		max_hp = 48,
+		id = 67241,
 		hp_growth = 1846,
 		weapon_ID = {
 			67261,
@@ -18527,10 +18702,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67242] = {
-		id = 67242,
+		max_hp = 54,
 		name = "伊势技能轰炸机Lv2",
 		base = 67240,
-		max_hp = 54,
+		id = 67242,
 		hp_growth = 2087,
 		weapon_ID = {
 			67262,
@@ -18538,10 +18713,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67243] = {
-		id = 67243,
+		max_hp = 61,
 		name = "伊势技能轰炸机Lv3",
 		base = 67240,
-		max_hp = 61,
+		id = 67243,
 		hp_growth = 2327,
 		weapon_ID = {
 			67263,
@@ -18549,10 +18724,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67244] = {
-		id = 67244,
+		max_hp = 67,
 		name = "伊势技能轰炸机Lv4",
 		base = 67240,
-		max_hp = 67,
+		id = 67244,
 		hp_growth = 2568,
 		weapon_ID = {
 			67264,
@@ -18560,10 +18735,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67245] = {
-		id = 67245,
+		max_hp = 73,
 		name = "伊势技能轰炸机Lv5",
 		base = 67240,
-		max_hp = 73,
+		id = 67245,
 		hp_growth = 2809,
 		weapon_ID = {
 			67265,
@@ -18571,10 +18746,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67246] = {
-		id = 67246,
+		max_hp = 79,
 		name = "伊势技能轰炸机Lv6",
 		base = 67240,
-		max_hp = 79,
+		id = 67246,
 		hp_growth = 3050,
 		weapon_ID = {
 			67266,
@@ -18582,10 +18757,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67247] = {
-		id = 67247,
+		max_hp = 86,
 		name = "伊势技能轰炸机Lv7",
 		base = 67240,
-		max_hp = 86,
+		id = 67247,
 		hp_growth = 3290,
 		weapon_ID = {
 			67267,
@@ -18593,10 +18768,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67248] = {
-		id = 67248,
+		max_hp = 92,
 		name = "伊势技能轰炸机Lv8",
 		base = 67240,
-		max_hp = 92,
+		id = 67248,
 		hp_growth = 3531,
 		weapon_ID = {
 			67268,
@@ -18604,10 +18779,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67249] = {
-		id = 67249,
+		max_hp = 98,
 		name = "伊势技能轰炸机Lv9",
 		base = 67240,
-		max_hp = 98,
+		id = 67249,
 		hp_growth = 3772,
 		weapon_ID = {
 			67269,
@@ -18615,10 +18790,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67250] = {
-		id = 67250,
+		max_hp = 104,
 		name = "伊势技能轰炸机Lv10",
 		base = 67240,
-		max_hp = 104,
+		id = 67250,
 		hp_growth = 4013,
 		weapon_ID = {
 			67270,
@@ -18700,100 +18875,100 @@ pg.aircraft_template = {
 		}
 	},
 	[67301] = {
-		id = 67301,
+		max_hp = 48,
 		name = "大凤技能轰炸机Lv1",
 		base = 67300,
-		max_hp = 48,
+		id = 67301,
 		hp_growth = 1846,
 		weapon_ID = {
 			67381
 		}
 	},
 	[67302] = {
-		id = 67302,
+		max_hp = 54,
 		name = "大凤技能轰炸机Lv2",
 		base = 67300,
-		max_hp = 54,
+		id = 67302,
 		hp_growth = 2087,
 		weapon_ID = {
 			67382
 		}
 	},
 	[67303] = {
-		id = 67303,
+		max_hp = 61,
 		name = "大凤技能轰炸机Lv3",
 		base = 67300,
-		max_hp = 61,
+		id = 67303,
 		hp_growth = 2327,
 		weapon_ID = {
 			67383
 		}
 	},
 	[67304] = {
-		id = 67304,
+		max_hp = 67,
 		name = "大凤技能轰炸机Lv4",
 		base = 67300,
-		max_hp = 67,
+		id = 67304,
 		hp_growth = 2568,
 		weapon_ID = {
 			67384
 		}
 	},
 	[67305] = {
-		id = 67305,
+		max_hp = 73,
 		name = "大凤技能轰炸机Lv5",
 		base = 67300,
-		max_hp = 73,
+		id = 67305,
 		hp_growth = 2809,
 		weapon_ID = {
 			67385
 		}
 	},
 	[67306] = {
-		id = 67306,
+		max_hp = 79,
 		name = "大凤技能轰炸机Lv6",
 		base = 67300,
-		max_hp = 79,
+		id = 67306,
 		hp_growth = 3050,
 		weapon_ID = {
 			67386
 		}
 	},
 	[67307] = {
-		id = 67307,
+		max_hp = 86,
 		name = "大凤技能轰炸机Lv7",
 		base = 67300,
-		max_hp = 86,
+		id = 67307,
 		hp_growth = 3290,
 		weapon_ID = {
 			67387
 		}
 	},
 	[67308] = {
-		id = 67308,
+		max_hp = 92,
 		name = "大凤技能轰炸机Lv8",
 		base = 67300,
-		max_hp = 92,
+		id = 67308,
 		hp_growth = 3531,
 		weapon_ID = {
 			67388
 		}
 	},
 	[67309] = {
-		id = 67309,
+		max_hp = 98,
 		name = "大凤技能轰炸机Lv9",
 		base = 67300,
-		max_hp = 98,
+		id = 67309,
 		hp_growth = 3772,
 		weapon_ID = {
 			67389
 		}
 	},
 	[67310] = {
-		id = 67310,
+		max_hp = 104,
 		name = "大凤技能轰炸机Lv10",
 		base = 67300,
-		max_hp = 104,
+		id = 67310,
 		hp_growth = 4013,
 		weapon_ID = {
 			67390
@@ -18874,100 +19049,100 @@ pg.aircraft_template = {
 		}
 	},
 	[67321] = {
-		id = 67321,
+		max_hp = 48,
 		name = "大凤技能鱼雷机Lv1",
 		base = 67320,
-		max_hp = 48,
+		id = 67321,
 		hp_growth = 1846,
 		weapon_ID = {
 			67401
 		}
 	},
 	[67322] = {
-		id = 67322,
+		max_hp = 54,
 		name = "大凤技能鱼雷机Lv2",
 		base = 67320,
-		max_hp = 54,
+		id = 67322,
 		hp_growth = 2087,
 		weapon_ID = {
 			67402
 		}
 	},
 	[67323] = {
-		id = 67323,
+		max_hp = 61,
 		name = "大凤技能鱼雷机Lv3",
 		base = 67320,
-		max_hp = 61,
+		id = 67323,
 		hp_growth = 2327,
 		weapon_ID = {
 			67403
 		}
 	},
 	[67324] = {
-		id = 67324,
+		max_hp = 67,
 		name = "大凤技能鱼雷机Lv4",
 		base = 67320,
-		max_hp = 67,
+		id = 67324,
 		hp_growth = 2568,
 		weapon_ID = {
 			67404
 		}
 	},
 	[67325] = {
-		id = 67325,
+		max_hp = 73,
 		name = "大凤技能鱼雷机Lv5",
 		base = 67320,
-		max_hp = 73,
+		id = 67325,
 		hp_growth = 2809,
 		weapon_ID = {
 			67405
 		}
 	},
 	[67326] = {
-		id = 67326,
+		max_hp = 79,
 		name = "大凤技能鱼雷机Lv6",
 		base = 67320,
-		max_hp = 79,
+		id = 67326,
 		hp_growth = 3050,
 		weapon_ID = {
 			67406
 		}
 	},
 	[67327] = {
-		id = 67327,
+		max_hp = 86,
 		name = "大凤技能鱼雷机Lv7",
 		base = 67320,
-		max_hp = 86,
+		id = 67327,
 		hp_growth = 3290,
 		weapon_ID = {
 			67407
 		}
 	},
 	[67328] = {
-		id = 67328,
+		max_hp = 92,
 		name = "大凤技能鱼雷机Lv8",
 		base = 67320,
-		max_hp = 92,
+		id = 67328,
 		hp_growth = 3531,
 		weapon_ID = {
 			67408
 		}
 	},
 	[67329] = {
-		id = 67329,
+		max_hp = 98,
 		name = "大凤技能鱼雷机Lv9",
 		base = 67320,
-		max_hp = 98,
+		id = 67329,
 		hp_growth = 3772,
 		weapon_ID = {
 			67409
 		}
 	},
 	[67330] = {
-		id = 67330,
+		max_hp = 104,
 		name = "大凤技能鱼雷机Lv10",
 		base = 67320,
-		max_hp = 104,
+		id = 67330,
 		hp_growth = 4013,
 		weapon_ID = {
 			67410
@@ -19048,100 +19223,100 @@ pg.aircraft_template = {
 		}
 	},
 	[67341] = {
-		id = 67341,
+		max_hp = 42,
 		name = "埃塞克斯技能鱼雷机Lv1",
 		base = 67340,
-		max_hp = 42,
+		id = 67341,
 		hp_growth = 1615,
 		weapon_ID = {
 			67441
 		}
 	},
 	[67342] = {
-		id = 67342,
+		max_hp = 47,
 		name = "埃塞克斯技能鱼雷机Lv2",
 		base = 67340,
-		max_hp = 47,
+		id = 67342,
 		hp_growth = 1826,
 		weapon_ID = {
 			67442
 		}
 	},
 	[67343] = {
-		id = 67343,
+		max_hp = 53,
 		name = "埃塞克斯技能鱼雷机Lv3",
 		base = 67340,
-		max_hp = 53,
+		id = 67343,
 		hp_growth = 2036,
 		weapon_ID = {
 			67443
 		}
 	},
 	[67344] = {
-		id = 67344,
+		max_hp = 58,
 		name = "埃塞克斯技能鱼雷机Lv4",
 		base = 67340,
-		max_hp = 58,
+		id = 67344,
 		hp_growth = 2247,
 		weapon_ID = {
 			67444
 		}
 	},
 	[67345] = {
-		id = 67345,
+		max_hp = 64,
 		name = "埃塞克斯技能鱼雷机Lv5",
 		base = 67340,
-		max_hp = 64,
+		id = 67345,
 		hp_growth = 2458,
 		weapon_ID = {
 			67445
 		}
 	},
 	[67346] = {
-		id = 67346,
+		max_hp = 69,
 		name = "埃塞克斯技能鱼雷机Lv6",
 		base = 67340,
-		max_hp = 69,
+		id = 67346,
 		hp_growth = 2669,
 		weapon_ID = {
 			67446
 		}
 	},
 	[67347] = {
-		id = 67347,
+		max_hp = 75,
 		name = "埃塞克斯技能鱼雷机Lv7",
 		base = 67340,
-		max_hp = 75,
+		id = 67347,
 		hp_growth = 2879,
 		weapon_ID = {
 			67447
 		}
 	},
 	[67348] = {
-		id = 67348,
+		max_hp = 80,
 		name = "埃塞克斯技能鱼雷机Lv8",
 		base = 67340,
-		max_hp = 80,
+		id = 67348,
 		hp_growth = 3090,
 		weapon_ID = {
 			67448
 		}
 	},
 	[67349] = {
-		id = 67349,
+		max_hp = 86,
 		name = "埃塞克斯技能鱼雷机Lv9",
 		base = 67340,
-		max_hp = 86,
+		id = 67349,
 		hp_growth = 3301,
 		weapon_ID = {
 			67449
 		}
 	},
 	[67350] = {
-		id = 67350,
+		max_hp = 91,
 		name = "埃塞克斯技能鱼雷机Lv10",
 		base = 67340,
-		max_hp = 91,
+		id = 67350,
 		hp_growth = 3511,
 		weapon_ID = {
 			67450
@@ -19540,10 +19715,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67682] = {
-		id = 67682,
+		max_hp = 48,
 		name = "龙骧技能轰炸机Lv2",
 		base = 67681,
-		max_hp = 48,
+		id = 67682,
 		hp_growth = 2087,
 		weapon_ID = {
 			67692,
@@ -19551,10 +19726,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67683] = {
-		id = 67683,
+		max_hp = 54,
 		name = "龙骧技能轰炸机Lv3",
 		base = 67681,
-		max_hp = 54,
+		id = 67683,
 		hp_growth = 2327,
 		weapon_ID = {
 			67693,
@@ -19562,10 +19737,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67684] = {
-		id = 67684,
+		max_hp = 61,
 		name = "龙骧技能轰炸机Lv4",
 		base = 67681,
-		max_hp = 61,
+		id = 67684,
 		hp_growth = 2568,
 		weapon_ID = {
 			67694,
@@ -19573,10 +19748,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67685] = {
-		id = 67685,
+		max_hp = 67,
 		name = "龙骧技能轰炸机Lv5",
 		base = 67681,
-		max_hp = 67,
+		id = 67685,
 		hp_growth = 2809,
 		weapon_ID = {
 			67695,
@@ -19584,10 +19759,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67686] = {
-		id = 67686,
+		max_hp = 73,
 		name = "龙骧技能轰炸机Lv6",
 		base = 67681,
-		max_hp = 73,
+		id = 67686,
 		hp_growth = 3050,
 		weapon_ID = {
 			67696,
@@ -19595,10 +19770,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67687] = {
-		id = 67687,
+		max_hp = 79,
 		name = "龙骧技能轰炸机Lv7",
 		base = 67681,
-		max_hp = 79,
+		id = 67687,
 		hp_growth = 3290,
 		weapon_ID = {
 			67697,
@@ -19606,10 +19781,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67688] = {
-		id = 67688,
+		max_hp = 86,
 		name = "龙骧技能轰炸机Lv8",
 		base = 67681,
-		max_hp = 86,
+		id = 67688,
 		hp_growth = 3531,
 		weapon_ID = {
 			67698,
@@ -19617,10 +19792,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67689] = {
-		id = 67689,
+		max_hp = 92,
 		name = "龙骧技能轰炸机Lv9",
 		base = 67681,
-		max_hp = 92,
+		id = 67689,
 		hp_growth = 3772,
 		weapon_ID = {
 			67699,
@@ -19628,10 +19803,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67690] = {
-		id = 67690,
+		max_hp = 98,
 		name = "龙骧技能轰炸机Lv10",
 		base = 67681,
-		max_hp = 98,
+		id = 67690,
 		hp_growth = 4013,
 		weapon_ID = {
 			67700,
@@ -19714,10 +19889,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67782] = {
-		id = 67782,
+		max_hp = 48,
 		name = "双龙改轰炸5 Lv2",
 		base = 67781,
-		max_hp = 48,
+		id = 67782,
 		hp_growth = 1913,
 		weapon_ID = {
 			67802,
@@ -19725,10 +19900,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67783] = {
-		id = 67783,
+		max_hp = 54,
 		name = "双龙改轰炸5 Lv3",
 		base = 67781,
-		max_hp = 54,
+		id = 67783,
 		hp_growth = 2133,
 		weapon_ID = {
 			67803,
@@ -19736,10 +19911,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67784] = {
-		id = 67784,
+		max_hp = 61,
 		name = "双龙改轰炸5 Lv4",
 		base = 67781,
-		max_hp = 61,
+		id = 67784,
 		hp_growth = 2354,
 		weapon_ID = {
 			67804,
@@ -19747,10 +19922,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67785] = {
-		id = 67785,
+		max_hp = 67,
 		name = "双龙改轰炸5 Lv5",
 		base = 67781,
-		max_hp = 67,
+		id = 67785,
 		hp_growth = 2575,
 		weapon_ID = {
 			67805,
@@ -19758,10 +19933,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67786] = {
-		id = 67786,
+		max_hp = 73,
 		name = "双龙改轰炸5 Lv6",
 		base = 67781,
-		max_hp = 73,
+		id = 67786,
 		hp_growth = 2796,
 		weapon_ID = {
 			67806,
@@ -19769,10 +19944,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67787] = {
-		id = 67787,
+		max_hp = 79,
 		name = "双龙改轰炸5 Lv7",
 		base = 67781,
-		max_hp = 79,
+		id = 67787,
 		hp_growth = 3016,
 		weapon_ID = {
 			67807,
@@ -19780,10 +19955,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67788] = {
-		id = 67788,
+		max_hp = 86,
 		name = "双龙改轰炸5 Lv8",
 		base = 67781,
-		max_hp = 86,
+		id = 67788,
 		hp_growth = 3237,
 		weapon_ID = {
 			67808,
@@ -19791,10 +19966,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67789] = {
-		id = 67789,
+		max_hp = 92,
 		name = "双龙改轰炸5 Lv9",
 		base = 67781,
-		max_hp = 92,
+		id = 67789,
 		hp_growth = 3458,
 		weapon_ID = {
 			67809,
@@ -19802,10 +19977,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67790] = {
-		id = 67790,
+		max_hp = 98,
 		name = "双龙改轰炸5 Lv10",
 		base = 67781,
-		max_hp = 98,
+		id = 67790,
 		hp_growth = 3678,
 		weapon_ID = {
 			67810,
@@ -19887,90 +20062,90 @@ pg.aircraft_template = {
 		}
 	},
 	[67792] = {
-		id = 67792,
+		max_hp = 48,
 		name = "双龙改雷1 Lv2",
 		base = 67791,
-		max_hp = 48,
+		id = 67792,
 		hp_growth = 1913,
 		weapon_ID = {
 			67822
 		}
 	},
 	[67793] = {
-		id = 67793,
+		max_hp = 54,
 		name = "双龙改雷1 Lv3",
 		base = 67791,
-		max_hp = 54,
+		id = 67793,
 		hp_growth = 2133,
 		weapon_ID = {
 			67823
 		}
 	},
 	[67794] = {
-		id = 67794,
+		max_hp = 61,
 		name = "双龙改雷1 Lv4",
 		base = 67791,
-		max_hp = 61,
+		id = 67794,
 		hp_growth = 2354,
 		weapon_ID = {
 			67824
 		}
 	},
 	[67795] = {
-		id = 67795,
+		max_hp = 67,
 		name = "双龙改雷1 Lv5",
 		base = 67791,
-		max_hp = 67,
+		id = 67795,
 		hp_growth = 2575,
 		weapon_ID = {
 			67825
 		}
 	},
 	[67796] = {
-		id = 67796,
+		max_hp = 73,
 		name = "双龙改雷1 Lv6",
 		base = 67791,
-		max_hp = 73,
+		id = 67796,
 		hp_growth = 2796,
 		weapon_ID = {
 			67826
 		}
 	},
 	[67797] = {
-		id = 67797,
+		max_hp = 79,
 		name = "双龙改雷1 Lv7",
 		base = 67791,
-		max_hp = 79,
+		id = 67797,
 		hp_growth = 3016,
 		weapon_ID = {
 			67827
 		}
 	},
 	[67798] = {
-		id = 67798,
+		max_hp = 86,
 		name = "双龙改雷1 Lv8",
 		base = 67791,
-		max_hp = 86,
+		id = 67798,
 		hp_growth = 3237,
 		weapon_ID = {
 			67828
 		}
 	},
 	[67799] = {
-		id = 67799,
+		max_hp = 92,
 		name = "双龙改雷1 Lv9",
 		base = 67791,
-		max_hp = 92,
+		id = 67799,
 		hp_growth = 3458,
 		weapon_ID = {
 			67829
 		}
 	},
 	[67800] = {
-		id = 67800,
+		max_hp = 98,
 		name = "双龙改雷1 Lv10",
 		base = 67791,
-		max_hp = 98,
+		id = 67800,
 		hp_growth = 3678,
 		weapon_ID = {
 			67830
@@ -20052,10 +20227,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67892] = {
-		id = 67892,
+		max_hp = 45,
 		name = "追赶者剑鱼 Lv2",
 		base = 67891,
-		max_hp = 45,
+		id = 67892,
 		hp_growth = 1739,
 		weapon_ID = {
 			67902,
@@ -20063,10 +20238,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67893] = {
-		id = 67893,
+		max_hp = 50,
 		name = "追赶者剑鱼 Lv3",
 		base = 67891,
-		max_hp = 50,
+		id = 67893,
 		hp_growth = 1940,
 		weapon_ID = {
 			67903,
@@ -20074,10 +20249,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67894] = {
-		id = 67894,
+		max_hp = 56,
 		name = "追赶者剑鱼 Lv4",
 		base = 67891,
-		max_hp = 56,
+		id = 67894,
 		hp_growth = 2140,
 		weapon_ID = {
 			67904,
@@ -20085,10 +20260,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67895] = {
-		id = 67895,
+		max_hp = 61,
 		name = "追赶者剑鱼 Lv5",
 		base = 67891,
-		max_hp = 61,
+		id = 67895,
 		hp_growth = 2341,
 		weapon_ID = {
 			67905,
@@ -20096,10 +20271,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67896] = {
-		id = 67896,
+		max_hp = 66,
 		name = "追赶者剑鱼 Lv6",
 		base = 67891,
-		max_hp = 66,
+		id = 67896,
 		hp_growth = 2541,
 		weapon_ID = {
 			67906,
@@ -20107,10 +20282,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67897] = {
-		id = 67897,
+		max_hp = 71,
 		name = "追赶者剑鱼 Lv7",
 		base = 67891,
-		max_hp = 71,
+		id = 67897,
 		hp_growth = 2742,
 		weapon_ID = {
 			67907,
@@ -20118,10 +20293,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67898] = {
-		id = 67898,
+		max_hp = 77,
 		name = "追赶者剑鱼 Lv8",
 		base = 67891,
-		max_hp = 77,
+		id = 67898,
 		hp_growth = 2943,
 		weapon_ID = {
 			67908,
@@ -20129,10 +20304,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67899] = {
-		id = 67899,
+		max_hp = 82,
 		name = "追赶者剑鱼 Lv9",
 		base = 67891,
-		max_hp = 82,
+		id = 67899,
 		hp_growth = 3143,
 		weapon_ID = {
 			67909,
@@ -20140,10 +20315,10 @@ pg.aircraft_template = {
 		}
 	},
 	[67900] = {
-		id = 67900,
+		max_hp = 87,
 		name = "追赶者剑鱼 Lv10",
 		base = 67891,
-		max_hp = 87,
+		id = 67900,
 		hp_growth = 3344,
 		weapon_ID = {
 			67910,
@@ -20225,90 +20400,90 @@ pg.aircraft_template = {
 		}
 	},
 	[67922] = {
-		id = 67922,
+		max_hp = 47,
 		name = "独立技能鱼雷机Lv2",
 		base = 67921,
-		max_hp = 47,
+		id = 67922,
 		hp_growth = 1826,
 		weapon_ID = {
 			67942
 		}
 	},
 	[67923] = {
-		id = 67923,
+		max_hp = 53,
 		name = "独立技能鱼雷机Lv3",
 		base = 67921,
-		max_hp = 53,
+		id = 67923,
 		hp_growth = 2036,
 		weapon_ID = {
 			67943
 		}
 	},
 	[67924] = {
-		id = 67924,
+		max_hp = 58,
 		name = "独立技能鱼雷机Lv4",
 		base = 67921,
-		max_hp = 58,
+		id = 67924,
 		hp_growth = 2247,
 		weapon_ID = {
 			67944
 		}
 	},
 	[67925] = {
-		id = 67925,
+		max_hp = 64,
 		name = "独立技能鱼雷机Lv5",
 		base = 67921,
-		max_hp = 64,
+		id = 67925,
 		hp_growth = 2458,
 		weapon_ID = {
 			67945
 		}
 	},
 	[67926] = {
-		id = 67926,
+		max_hp = 69,
 		name = "独立技能鱼雷机Lv6",
 		base = 67921,
-		max_hp = 69,
+		id = 67926,
 		hp_growth = 2669,
 		weapon_ID = {
 			67946
 		}
 	},
 	[67927] = {
-		id = 67927,
+		max_hp = 75,
 		name = "独立技能鱼雷机Lv7",
 		base = 67921,
-		max_hp = 75,
+		id = 67927,
 		hp_growth = 2879,
 		weapon_ID = {
 			67947
 		}
 	},
 	[67928] = {
-		id = 67928,
+		max_hp = 80,
 		name = "独立技能鱼雷机Lv8",
 		base = 67921,
-		max_hp = 80,
+		id = 67928,
 		hp_growth = 3090,
 		weapon_ID = {
 			67948
 		}
 	},
 	[67929] = {
-		id = 67929,
+		max_hp = 86,
 		name = "独立技能鱼雷机Lv9",
 		base = 67921,
-		max_hp = 86,
+		id = 67929,
 		hp_growth = 3301,
 		weapon_ID = {
 			67949
 		}
 	},
 	[67930] = {
-		id = 67930,
+		max_hp = 91,
 		name = "独立技能鱼雷机Lv10",
 		base = 67921,
-		max_hp = 91,
+		id = 67930,
 		hp_growth = 3511,
 		weapon_ID = {
 			67950
@@ -20389,90 +20564,90 @@ pg.aircraft_template = {
 		}
 	},
 	[67932] = {
-		id = 67932,
+		max_hp = 47,
 		name = "独立技能鱼雷机Lv2",
 		base = 67931,
-		max_hp = 47,
+		id = 67932,
 		hp_growth = 1826,
 		weapon_ID = {
 			67952
 		}
 	},
 	[67933] = {
-		id = 67933,
+		max_hp = 53,
 		name = "独立技能鱼雷机Lv3",
 		base = 67931,
-		max_hp = 53,
+		id = 67933,
 		hp_growth = 2036,
 		weapon_ID = {
 			67953
 		}
 	},
 	[67934] = {
-		id = 67934,
+		max_hp = 58,
 		name = "独立技能鱼雷机Lv4",
 		base = 67931,
-		max_hp = 58,
+		id = 67934,
 		hp_growth = 2247,
 		weapon_ID = {
 			67954
 		}
 	},
 	[67935] = {
-		id = 67935,
+		max_hp = 64,
 		name = "独立技能鱼雷机Lv5",
 		base = 67931,
-		max_hp = 64,
+		id = 67935,
 		hp_growth = 2458,
 		weapon_ID = {
 			67955
 		}
 	},
 	[67936] = {
-		id = 67936,
+		max_hp = 69,
 		name = "独立技能鱼雷机Lv6",
 		base = 67931,
-		max_hp = 69,
+		id = 67936,
 		hp_growth = 2669,
 		weapon_ID = {
 			67956
 		}
 	},
 	[67937] = {
-		id = 67937,
+		max_hp = 75,
 		name = "独立技能鱼雷机Lv7",
 		base = 67931,
-		max_hp = 75,
+		id = 67937,
 		hp_growth = 2879,
 		weapon_ID = {
 			67957
 		}
 	},
 	[67938] = {
-		id = 67938,
+		max_hp = 80,
 		name = "独立技能鱼雷机Lv8",
 		base = 67931,
-		max_hp = 80,
+		id = 67938,
 		hp_growth = 3090,
 		weapon_ID = {
 			67958
 		}
 	},
 	[67939] = {
-		id = 67939,
+		max_hp = 86,
 		name = "独立技能鱼雷机Lv9",
 		base = 67931,
-		max_hp = 86,
+		id = 67939,
 		hp_growth = 3301,
 		weapon_ID = {
 			67959
 		}
 	},
 	[67940] = {
-		id = 67940,
+		max_hp = 91,
 		name = "独立技能鱼雷机Lv10",
 		base = 67931,
-		max_hp = 91,
+		id = 67940,
 		hp_growth = 3511,
 		weapon_ID = {
 			67960
@@ -20564,6 +20739,518 @@ pg.aircraft_template = {
 			offsetZ = -14
 		}
 	},
+	[68001] = {
+		name = "邦克山技能鱼雷机Lv1",
+		max_hp = 37,
+		accuracy = 23,
+		model_ID = "tbf",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tbf",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1404,
+		speed = 48,
+		id = 68001,
+		scale = 1,
+		weapon_ID = {
+			68011
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.15,
+				-0.08,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[68002] = {
+		max_hp = 42,
+		name = "邦克山技能鱼雷机Lv2",
+		base = 68001,
+		id = 68002,
+		hp_growth = 1615,
+		weapon_ID = {
+			68012
+		}
+	},
+	[68003] = {
+		max_hp = 47,
+		name = "邦克山技能鱼雷机Lv3",
+		base = 68001,
+		id = 68003,
+		hp_growth = 1826,
+		weapon_ID = {
+			68013
+		}
+	},
+	[68004] = {
+		max_hp = 53,
+		name = "邦克山技能鱼雷机Lv4",
+		base = 68001,
+		id = 68004,
+		hp_growth = 2036,
+		weapon_ID = {
+			68014
+		}
+	},
+	[68005] = {
+		max_hp = 58,
+		name = "邦克山技能鱼雷机Lv5",
+		base = 68001,
+		id = 68005,
+		hp_growth = 2247,
+		weapon_ID = {
+			68015
+		}
+	},
+	[68006] = {
+		max_hp = 64,
+		name = "邦克山技能鱼雷机Lv6",
+		base = 68001,
+		id = 68006,
+		hp_growth = 2458,
+		weapon_ID = {
+			68016
+		}
+	},
+	[68007] = {
+		max_hp = 69,
+		name = "邦克山技能鱼雷机Lv7",
+		base = 68001,
+		id = 68007,
+		hp_growth = 2669,
+		weapon_ID = {
+			68017
+		}
+	},
+	[68008] = {
+		max_hp = 75,
+		name = "邦克山技能鱼雷机Lv8",
+		base = 68001,
+		id = 68008,
+		hp_growth = 2879,
+		weapon_ID = {
+			68018
+		}
+	},
+	[68009] = {
+		max_hp = 80,
+		name = "邦克山技能鱼雷机Lv9",
+		base = 68001,
+		id = 68009,
+		hp_growth = 3090,
+		weapon_ID = {
+			68019
+		}
+	},
+	[68010] = {
+		max_hp = 86,
+		name = "邦克山技能鱼雷机Lv10",
+		base = 68001,
+		id = 68010,
+		hp_growth = 3301,
+		weapon_ID = {
+			68020
+		}
+	},
+	[68021] = {
+		name = "邦克山技能战斗机Lv1",
+		max_hp = 51,
+		accuracy = 23,
+		model_ID = "f6f",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "F4U",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1947,
+		speed = 50,
+		id = 68021,
+		scale = 1,
+		weapon_ID = {
+			50441,
+			68051
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[68022] = {
+		max_hp = 57,
+		name = "邦克山技能战斗机Lv2",
+		base = 68021,
+		id = 68022,
+		hp_growth = 2201,
+		weapon_ID = {
+			50442,
+			68052
+		}
+	},
+	[68023] = {
+		max_hp = 64,
+		name = "邦克山技能战斗机Lv3",
+		base = 68021,
+		id = 68023,
+		hp_growth = 2455,
+		weapon_ID = {
+			50443,
+			68053
+		}
+	},
+	[68024] = {
+		max_hp = 70,
+		name = "邦克山技能战斗机Lv4",
+		base = 68021,
+		id = 68024,
+		hp_growth = 2710,
+		weapon_ID = {
+			50444,
+			68054
+		}
+	},
+	[68025] = {
+		max_hp = 77,
+		name = "邦克山技能战斗机Lv5",
+		base = 68021,
+		id = 68025,
+		hp_growth = 2964,
+		weapon_ID = {
+			50445,
+			68055
+		}
+	},
+	[68026] = {
+		max_hp = 84,
+		name = "邦克山技能战斗机Lv6",
+		base = 68021,
+		id = 68026,
+		hp_growth = 3218,
+		weapon_ID = {
+			50446,
+			68056
+		}
+	},
+	[68027] = {
+		max_hp = 90,
+		name = "邦克山技能战斗机Lv7",
+		base = 68021,
+		id = 68027,
+		hp_growth = 3472,
+		weapon_ID = {
+			50447,
+			68057
+		}
+	},
+	[68028] = {
+		max_hp = 97,
+		name = "邦克山技能战斗机Lv8",
+		base = 68021,
+		id = 68028,
+		hp_growth = 3726,
+		weapon_ID = {
+			50448,
+			68058
+		}
+	},
+	[68029] = {
+		max_hp = 103,
+		name = "邦克山技能战斗机Lv9",
+		base = 68021,
+		id = 68029,
+		hp_growth = 3980,
+		weapon_ID = {
+			50449,
+			68059
+		}
+	},
+	[68030] = {
+		max_hp = 110,
+		name = "邦克山技能战斗机Lv10",
+		base = 68021,
+		id = 68030,
+		hp_growth = 4234,
+		weapon_ID = {
+			50450,
+			68060
+		}
+	},
+	[68031] = {
+		name = "邦克山技能轰炸机Lv1",
+		max_hp = 35,
+		accuracy = 23,
+		model_ID = "sbdwuwei",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "sbdwuwei",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1183,
+		speed = 46,
+		id = 68031,
+		scale = 1,
+		weapon_ID = {
+			68041,
+			68051
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.72,
+				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[68032] = {
+		max_hp = 39,
+		name = "邦克山技能轰炸机Lv2",
+		base = 68031,
+		id = 68032,
+		hp_growth = 1345,
+		weapon_ID = {
+			68042,
+			68052
+		}
+	},
+	[68033] = {
+		max_hp = 43,
+		name = "邦克山技能轰炸机Lv3",
+		base = 68031,
+		id = 68033,
+		hp_growth = 1507,
+		weapon_ID = {
+			68043,
+			68053
+		}
+	},
+	[68034] = {
+		max_hp = 47,
+		name = "邦克山技能轰炸机Lv4",
+		base = 68031,
+		id = 68034,
+		hp_growth = 1669,
+		weapon_ID = {
+			68044,
+			68054
+		}
+	},
+	[68035] = {
+		max_hp = 51,
+		name = "邦克山技能轰炸机Lv5",
+		base = 68031,
+		id = 68035,
+		hp_growth = 1831,
+		weapon_ID = {
+			68045,
+			68055
+		}
+	},
+	[68036] = {
+		max_hp = 55,
+		name = "邦克山技能轰炸机Lv6",
+		base = 68031,
+		id = 68036,
+		hp_growth = 1994,
+		weapon_ID = {
+			68046,
+			68056
+		}
+	},
+	[68037] = {
+		max_hp = 59,
+		name = "邦克山技能轰炸机Lv7",
+		base = 68031,
+		id = 68037,
+		hp_growth = 2157,
+		weapon_ID = {
+			68047,
+			68057
+		}
+	},
+	[68038] = {
+		max_hp = 63,
+		name = "邦克山技能轰炸机Lv8",
+		base = 68031,
+		id = 68038,
+		hp_growth = 2320,
+		weapon_ID = {
+			68048,
+			68058
+		}
+	},
+	[68039] = {
+		max_hp = 68,
+		name = "邦克山技能轰炸机Lv9",
+		base = 68031,
+		id = 68039,
+		hp_growth = 2483,
+		weapon_ID = {
+			68049,
+			68059
+		}
+	},
+	[68040] = {
+		max_hp = 73,
+		name = "邦克山技能轰炸机Lv10",
+		base = 68031,
+		id = 68040,
+		hp_growth = 2646,
+		weapon_ID = {
+			68050,
+			68060
+		}
+	},
 	[68541] = {
 		name = "伊25技能零侦LV1",
 		max_hp = 42,
@@ -20637,74 +21324,74 @@ pg.aircraft_template = {
 		}
 	},
 	[68542] = {
-		id = 68542,
+		max_hp = 48,
 		name = "伊25技能零侦LV2",
 		base = 68541,
-		max_hp = 48,
+		id = 68542,
 		hp_growth = 1826,
 		weapon_ID = {}
 	},
 	[68543] = {
-		id = 68543,
+		max_hp = 54,
 		name = "伊25技能零侦LV3",
 		base = 68541,
-		max_hp = 54,
+		id = 68543,
 		hp_growth = 2036,
 		weapon_ID = {}
 	},
 	[68544] = {
-		id = 68544,
+		max_hp = 61,
 		name = "伊25技能零侦LV4",
 		base = 68541,
-		max_hp = 61,
+		id = 68544,
 		hp_growth = 2247,
 		weapon_ID = {}
 	},
 	[68545] = {
-		id = 68545,
+		max_hp = 67,
 		name = "伊25技能零侦LV5",
 		base = 68541,
-		max_hp = 67,
+		id = 68545,
 		hp_growth = 2458,
 		weapon_ID = {}
 	},
 	[68546] = {
-		id = 68546,
+		max_hp = 73,
 		name = "伊25技能零侦LV6",
 		base = 68541,
-		max_hp = 73,
+		id = 68546,
 		hp_growth = 2669,
 		weapon_ID = {}
 	},
 	[68547] = {
-		id = 68547,
+		max_hp = 79,
 		name = "伊25技能零侦LV7",
 		base = 68541,
-		max_hp = 79,
+		id = 68547,
 		hp_growth = 2879,
 		weapon_ID = {}
 	},
 	[68548] = {
-		id = 68548,
+		max_hp = 86,
 		name = "伊25技能零侦LV8",
 		base = 68541,
-		max_hp = 86,
+		id = 68548,
 		hp_growth = 3090,
 		weapon_ID = {}
 	},
 	[68549] = {
-		id = 68549,
+		max_hp = 92,
 		name = "伊25技能零侦LV9",
 		base = 68541,
-		max_hp = 92,
+		id = 68549,
 		hp_growth = 3301,
 		weapon_ID = {}
 	},
 	[68550] = {
-		id = 68550,
+		max_hp = 98,
 		name = "伊25技能零侦LV10",
 		base = 68541,
-		max_hp = 98,
+		id = 68550,
 		hp_growth = 3511,
 		weapon_ID = {}
 	},
@@ -20784,10 +21471,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69162] = {
-		id = 69162,
+		max_hp = 55,
 		name = "无畏技能SB2C(VB-18)轰炸机Lv2",
 		base = 69161,
-		max_hp = 55,
+		id = 69162,
 		hp_growth = 2114,
 		weapon_ID = {
 			69172,
@@ -20795,10 +21482,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69163] = {
-		id = 69163,
+		max_hp = 61,
 		name = "无畏技能SB2C(VB-18)轰炸机Lv3",
 		base = 69161,
-		max_hp = 61,
+		id = 69163,
 		hp_growth = 2358,
 		weapon_ID = {
 			69173,
@@ -20806,10 +21493,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69164] = {
-		id = 69164,
+		max_hp = 68,
 		name = "无畏技能SB2C(VB-18)轰炸机Lv4",
 		base = 69161,
-		max_hp = 68,
+		id = 69164,
 		hp_growth = 2602,
 		weapon_ID = {
 			69174,
@@ -20817,10 +21504,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69165] = {
-		id = 69165,
+		max_hp = 74,
 		name = "无畏技能SB2C(VB-18)轰炸机Lv5",
 		base = 69161,
-		max_hp = 74,
+		id = 69165,
 		hp_growth = 2846,
 		weapon_ID = {
 			69175,
@@ -20828,10 +21515,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69166] = {
-		id = 69166,
+		max_hp = 80,
 		name = "无畏技能SB2C(VB-18)轰炸机Lv6",
 		base = 69161,
-		max_hp = 80,
+		id = 69166,
 		hp_growth = 3090,
 		weapon_ID = {
 			69176,
@@ -20839,10 +21526,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69167] = {
-		id = 69167,
+		max_hp = 87,
 		name = "无畏技能SB2C(VB-18)轰炸机Lv7",
 		base = 69161,
-		max_hp = 87,
+		id = 69167,
 		hp_growth = 3334,
 		weapon_ID = {
 			69177,
@@ -20850,10 +21537,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69168] = {
-		id = 69168,
+		max_hp = 93,
 		name = "无畏技能SB2C(VB-18)轰炸机Lv8",
 		base = 69161,
-		max_hp = 93,
+		id = 69168,
 		hp_growth = 3578,
 		weapon_ID = {
 			69178,
@@ -20861,10 +21548,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69169] = {
-		id = 69169,
+		max_hp = 99,
 		name = "无畏技能SB2C(VB-18)轰炸机Lv9",
 		base = 69161,
-		max_hp = 99,
+		id = 69169,
 		hp_growth = 3822,
 		weapon_ID = {
 			69179,
@@ -20872,10 +21559,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69170] = {
-		id = 69170,
+		max_hp = 106,
 		name = "无畏技能SB2C(VB-18)轰炸机Lv10",
 		base = 69161,
-		max_hp = 106,
+		id = 69170,
 		hp_growth = 4066,
 		weapon_ID = {
 			69180,
@@ -20957,90 +21644,90 @@ pg.aircraft_template = {
 		}
 	},
 	[69202] = {
-		id = 69202,
+		max_hp = 48,
 		name = "库珀反潜PBY-Lv2",
 		base = 69201,
-		max_hp = 48,
+		id = 69202,
 		hp_growth = 1826,
 		weapon_ID = {
 			53142
 		}
 	},
 	[69203] = {
-		id = 69203,
+		max_hp = 54,
 		name = "库珀反潜PBY-Lv3",
 		base = 69201,
-		max_hp = 54,
+		id = 69203,
 		hp_growth = 2036,
 		weapon_ID = {
 			53143
 		}
 	},
 	[69204] = {
-		id = 69204,
+		max_hp = 61,
 		name = "库珀反潜PBY-Lv4",
 		base = 69201,
-		max_hp = 61,
+		id = 69204,
 		hp_growth = 2247,
 		weapon_ID = {
 			53144
 		}
 	},
 	[69205] = {
-		id = 69205,
+		max_hp = 67,
 		name = "库珀反潜PBY-Lv5",
 		base = 69201,
-		max_hp = 67,
+		id = 69205,
 		hp_growth = 2458,
 		weapon_ID = {
 			53145
 		}
 	},
 	[69206] = {
-		id = 69206,
+		max_hp = 73,
 		name = "库珀反潜PBY-Lv6",
 		base = 69201,
-		max_hp = 73,
+		id = 69206,
 		hp_growth = 2669,
 		weapon_ID = {
 			53146
 		}
 	},
 	[69207] = {
-		id = 69207,
+		max_hp = 79,
 		name = "库珀反潜PBY-Lv7",
 		base = 69201,
-		max_hp = 79,
+		id = 69207,
 		hp_growth = 2879,
 		weapon_ID = {
 			53147
 		}
 	},
 	[69208] = {
-		id = 69208,
+		max_hp = 86,
 		name = "库珀反潜PBY-Lv8",
 		base = 69201,
-		max_hp = 86,
+		id = 69208,
 		hp_growth = 3090,
 		weapon_ID = {
 			53148
 		}
 	},
 	[69209] = {
-		id = 69209,
+		max_hp = 92,
 		name = "库珀反潜PBY-Lv9",
 		base = 69201,
-		max_hp = 92,
+		id = 69209,
 		hp_growth = 3301,
 		weapon_ID = {
 			53149
 		}
 	},
 	[69210] = {
-		id = 69210,
+		max_hp = 98,
 		name = "库珀反潜PBY-Lv10",
 		base = 69201,
-		max_hp = 98,
+		id = 69210,
 		hp_growth = 3511,
 		weapon_ID = {
 			53150
@@ -21121,90 +21808,90 @@ pg.aircraft_template = {
 		}
 	},
 	[69212] = {
-		id = 69212,
+		max_hp = 48,
 		name = "库珀轰炸PBY-Lv2",
 		base = 69211,
-		max_hp = 48,
+		id = 69212,
 		hp_growth = 1826,
 		weapon_ID = {
 			69222
 		}
 	},
 	[69213] = {
-		id = 69213,
+		max_hp = 54,
 		name = "库珀轰炸PBY-Lv3",
 		base = 69211,
-		max_hp = 54,
+		id = 69213,
 		hp_growth = 2036,
 		weapon_ID = {
 			69223
 		}
 	},
 	[69214] = {
-		id = 69214,
+		max_hp = 61,
 		name = "库珀轰炸PBY-Lv4",
 		base = 69211,
-		max_hp = 61,
+		id = 69214,
 		hp_growth = 2247,
 		weapon_ID = {
 			69224
 		}
 	},
 	[69215] = {
-		id = 69215,
+		max_hp = 67,
 		name = "库珀轰炸PBY-Lv5",
 		base = 69211,
-		max_hp = 67,
+		id = 69215,
 		hp_growth = 2458,
 		weapon_ID = {
 			69225
 		}
 	},
 	[69216] = {
-		id = 69216,
+		max_hp = 73,
 		name = "库珀轰炸PBY-Lv6",
 		base = 69211,
-		max_hp = 73,
+		id = 69216,
 		hp_growth = 2669,
 		weapon_ID = {
 			69226
 		}
 	},
 	[69217] = {
-		id = 69217,
+		max_hp = 79,
 		name = "库珀轰炸PBY-Lv7",
 		base = 69211,
-		max_hp = 79,
+		id = 69217,
 		hp_growth = 2879,
 		weapon_ID = {
 			69227
 		}
 	},
 	[69218] = {
-		id = 69218,
+		max_hp = 86,
 		name = "库珀轰炸PBY-Lv8",
 		base = 69211,
-		max_hp = 86,
+		id = 69218,
 		hp_growth = 3090,
 		weapon_ID = {
 			69228
 		}
 	},
 	[69219] = {
-		id = 69219,
+		max_hp = 92,
 		name = "库珀轰炸PBY-Lv9",
 		base = 69211,
-		max_hp = 92,
+		id = 69219,
 		hp_growth = 3301,
 		weapon_ID = {
 			69229
 		}
 	},
 	[69220] = {
-		id = 69220,
+		max_hp = 98,
 		name = "库珀轰炸PBY-Lv10",
 		base = 69211,
-		max_hp = 98,
+		id = 69220,
 		hp_growth = 3511,
 		weapon_ID = {
 			69230
@@ -21286,10 +21973,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69452] = {
-		id = 69452,
+		max_hp = 57,
 		name = "贝亚恩V-156F-LV2",
 		base = 69451,
-		max_hp = 57,
+		id = 69452,
 		hp_growth = 2201,
 		weapon_ID = {
 			50702,
@@ -21297,10 +21984,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69453] = {
-		id = 69453,
+		max_hp = 64,
 		name = "贝亚恩V-156F-LV3",
 		base = 69451,
-		max_hp = 64,
+		id = 69453,
 		hp_growth = 2455,
 		weapon_ID = {
 			50703,
@@ -21308,10 +21995,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69454] = {
-		id = 69454,
+		max_hp = 70,
 		name = "贝亚恩V-156F-LV4",
 		base = 69451,
-		max_hp = 70,
+		id = 69454,
 		hp_growth = 2710,
 		weapon_ID = {
 			50704,
@@ -21319,10 +22006,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69455] = {
-		id = 69455,
+		max_hp = 77,
 		name = "贝亚恩V-156F-LV5",
 		base = 69451,
-		max_hp = 77,
+		id = 69455,
 		hp_growth = 2964,
 		weapon_ID = {
 			50705,
@@ -21330,10 +22017,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69456] = {
-		id = 69456,
+		max_hp = 84,
 		name = "贝亚恩V-156F-LV6",
 		base = 69451,
-		max_hp = 84,
+		id = 69456,
 		hp_growth = 3218,
 		weapon_ID = {
 			50706,
@@ -21341,10 +22028,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69457] = {
-		id = 69457,
+		max_hp = 90,
 		name = "贝亚恩V-156F-LV7",
 		base = 69451,
-		max_hp = 90,
+		id = 69457,
 		hp_growth = 3472,
 		weapon_ID = {
 			50707,
@@ -21352,10 +22039,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69458] = {
-		id = 69458,
+		max_hp = 97,
 		name = "贝亚恩V-156F-LV8",
 		base = 69451,
-		max_hp = 97,
+		id = 69458,
 		hp_growth = 3726,
 		weapon_ID = {
 			50708,
@@ -21363,10 +22050,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69459] = {
-		id = 69459,
+		max_hp = 103,
 		name = "贝亚恩V-156F-LV9",
 		base = 69451,
-		max_hp = 103,
+		id = 69459,
 		hp_growth = 3980,
 		weapon_ID = {
 			50709,
@@ -21374,10 +22061,10 @@ pg.aircraft_template = {
 		}
 	},
 	[69460] = {
-		id = 69460,
+		max_hp = 110,
 		name = "贝亚恩V-156F-LV10",
 		base = 69451,
-		max_hp = 110,
+		id = 69460,
 		hp_growth = 4234,
 		weapon_ID = {
 			50710,
@@ -21459,90 +22146,90 @@ pg.aircraft_template = {
 		}
 	},
 	[69482] = {
-		id = 69482,
+		max_hp = 45,
 		name = "小光辉技能鱼雷机Lv2",
 		base = 69481,
-		max_hp = 45,
+		id = 69482,
 		hp_growth = 1739,
 		weapon_ID = {
 			69492
 		}
 	},
 	[69483] = {
-		id = 69483,
+		max_hp = 50,
 		name = "小光辉技能鱼雷机Lv3",
 		base = 69481,
-		max_hp = 50,
+		id = 69483,
 		hp_growth = 1940,
 		weapon_ID = {
 			69493
 		}
 	},
 	[69484] = {
-		id = 69484,
+		max_hp = 56,
 		name = "小光辉技能鱼雷机Lv4",
 		base = 69481,
-		max_hp = 56,
+		id = 69484,
 		hp_growth = 2140,
 		weapon_ID = {
 			69494
 		}
 	},
 	[69485] = {
-		id = 69485,
+		max_hp = 61,
 		name = "小光辉技能鱼雷机Lv5",
 		base = 69481,
-		max_hp = 61,
+		id = 69485,
 		hp_growth = 2341,
 		weapon_ID = {
 			69495
 		}
 	},
 	[69486] = {
-		id = 69486,
+		max_hp = 66,
 		name = "小光辉技能鱼雷机Lv6",
 		base = 69481,
-		max_hp = 66,
+		id = 69486,
 		hp_growth = 2541,
 		weapon_ID = {
 			69496
 		}
 	},
 	[69487] = {
-		id = 69487,
+		max_hp = 71,
 		name = "小光辉技能鱼雷机Lv7",
 		base = 69481,
-		max_hp = 71,
+		id = 69487,
 		hp_growth = 2742,
 		weapon_ID = {
 			69497
 		}
 	},
 	[69488] = {
-		id = 69488,
+		max_hp = 77,
 		name = "小光辉技能鱼雷机Lv8",
 		base = 69481,
-		max_hp = 77,
+		id = 69488,
 		hp_growth = 2943,
 		weapon_ID = {
 			69498
 		}
 	},
 	[69489] = {
-		id = 69489,
+		max_hp = 82,
 		name = "小光辉技能鱼雷机Lv9",
 		base = 69481,
-		max_hp = 82,
+		id = 69489,
 		hp_growth = 3143,
 		weapon_ID = {
 			69499
 		}
 	},
 	[69490] = {
-		id = 69490,
+		max_hp = 87,
 		name = "小光辉技能鱼雷机Lv10",
 		base = 69481,
-		max_hp = 87,
+		id = 69490,
 		hp_growth = 3344,
 		weapon_ID = {
 			69500
@@ -21621,76 +22308,752 @@ pg.aircraft_template = {
 		}
 	},
 	[69502] = {
-		id = 69502,
+		max_hp = 48,
 		name = "小光辉圣光飞机Lv2",
 		base = 69501,
-		max_hp = 48,
+		id = 69502,
 		hp_growth = 1826,
 		weapon_ID = {}
 	},
 	[69503] = {
-		id = 69503,
+		max_hp = 54,
 		name = "小光辉圣光飞机Lv3",
 		base = 69501,
-		max_hp = 54,
+		id = 69503,
 		hp_growth = 2036,
 		weapon_ID = {}
 	},
 	[69504] = {
-		id = 69504,
+		max_hp = 61,
 		name = "小光辉圣光飞机Lv4",
 		base = 69501,
-		max_hp = 61,
+		id = 69504,
 		hp_growth = 2247,
 		weapon_ID = {}
 	},
 	[69505] = {
-		id = 69505,
+		max_hp = 67,
 		name = "小光辉圣光飞机Lv5",
 		base = 69501,
-		max_hp = 67,
+		id = 69505,
 		hp_growth = 2458,
 		weapon_ID = {}
 	},
 	[69506] = {
-		id = 69506,
+		max_hp = 73,
 		name = "小光辉圣光飞机Lv6",
 		base = 69501,
-		max_hp = 73,
+		id = 69506,
 		hp_growth = 2669,
 		weapon_ID = {}
 	},
 	[69507] = {
-		id = 69507,
+		max_hp = 79,
 		name = "小光辉圣光飞机Lv7",
 		base = 69501,
-		max_hp = 79,
+		id = 69507,
 		hp_growth = 2879,
 		weapon_ID = {}
 	},
 	[69508] = {
-		id = 69508,
+		max_hp = 86,
 		name = "小光辉圣光飞机Lv8",
 		base = 69501,
-		max_hp = 86,
+		id = 69508,
 		hp_growth = 3090,
 		weapon_ID = {}
 	},
 	[69509] = {
-		id = 69509,
+		max_hp = 92,
 		name = "小光辉圣光飞机Lv9",
 		base = 69501,
-		max_hp = 92,
+		id = 69509,
 		hp_growth = 3301,
 		weapon_ID = {}
 	},
 	[69510] = {
-		id = 69510,
+		max_hp = 98,
 		name = "小光辉圣光飞机Lv10",
 		base = 69501,
-		max_hp = 98,
+		id = 69510,
 		hp_growth = 3511,
 		weapon_ID = {}
+	},
+	[69691] = {
+		name = "英仙座技能海黄蜂Lv1",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "haidahuangfeng",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "haidahuangfeng",
+		funnel_behavior = "",
+		nationality = 2,
+		hp_growth = 1692,
+		speed = 48,
+		id = 69691,
+		scale = 1,
+		weapon_ID = {
+			50661,
+			69721
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[69692] = {
+		max_hp = 48,
+		name = "英仙座技能海黄蜂Lv2",
+		base = 69691,
+		id = 69692,
+		hp_growth = 1913,
+		weapon_ID = {
+			50662,
+			69722
+		}
+	},
+	[69693] = {
+		max_hp = 54,
+		name = "英仙座技能海黄蜂Lv3",
+		base = 69691,
+		id = 69693,
+		hp_growth = 2133,
+		weapon_ID = {
+			50663,
+			69723
+		}
+	},
+	[69694] = {
+		max_hp = 61,
+		name = "英仙座技能海黄蜂Lv4",
+		base = 69691,
+		id = 69694,
+		hp_growth = 2354,
+		weapon_ID = {
+			50664,
+			69724
+		}
+	},
+	[69695] = {
+		max_hp = 67,
+		name = "英仙座技能海黄蜂Lv5",
+		base = 69691,
+		id = 69695,
+		hp_growth = 2575,
+		weapon_ID = {
+			50665,
+			69725
+		}
+	},
+	[69696] = {
+		max_hp = 73,
+		name = "英仙座技能海黄蜂Lv6",
+		base = 69691,
+		id = 69696,
+		hp_growth = 2796,
+		weapon_ID = {
+			50666,
+			69726
+		}
+	},
+	[69697] = {
+		max_hp = 79,
+		name = "英仙座技能海黄蜂Lv7",
+		base = 69691,
+		id = 69697,
+		hp_growth = 3016,
+		weapon_ID = {
+			50667,
+			69727
+		}
+	},
+	[69698] = {
+		max_hp = 86,
+		name = "英仙座技能海黄蜂Lv8",
+		base = 69691,
+		id = 69698,
+		hp_growth = 3237,
+		weapon_ID = {
+			50668,
+			69728
+		}
+	},
+	[69699] = {
+		max_hp = 92,
+		name = "英仙座技能海黄蜂Lv9",
+		base = 69691,
+		id = 69699,
+		hp_growth = 3458,
+		weapon_ID = {
+			50669,
+			69729
+		}
+	},
+	[69700] = {
+		max_hp = 98,
+		name = "英仙座技能海黄蜂Lv10",
+		base = 69691,
+		id = 69700,
+		hp_growth = 3678,
+		weapon_ID = {
+			50670,
+			69730
+		}
+	},
+	[69701] = {
+		name = "英仙座技能TBFLv1",
+		max_hp = 44,
+		accuracy = 23,
+		model_ID = "tbf",
+		ACC_growth = 0,
+		crash_DMG = 300,
+		dodge = 1.05,
+		attack_power = 2,
+		dodge_limit = 6,
+		type = 3,
+		AP_growth = 2000,
+		icon = "tbf",
+		funnel_behavior = "",
+		nationality = 2,
+		hp_growth = 1674,
+		speed = 48,
+		id = 69701,
+		scale = 1,
+		weapon_ID = {
+			69731
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.15,
+				-0.08,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[69702] = {
+		max_hp = 49,
+		name = "英仙座技能TBFLv2",
+		base = 69701,
+		id = 69702,
+		hp_growth = 1892,
+		weapon_ID = {
+			69732
+		}
+	},
+	[69703] = {
+		max_hp = 55,
+		name = "英仙座技能TBFLv3",
+		base = 69701,
+		id = 69703,
+		hp_growth = 2111,
+		weapon_ID = {
+			69733
+		}
+	},
+	[69704] = {
+		max_hp = 61,
+		name = "英仙座技能TBFLv4",
+		base = 69701,
+		id = 69704,
+		hp_growth = 2329,
+		weapon_ID = {
+			69734
+		}
+	},
+	[69705] = {
+		max_hp = 66,
+		name = "英仙座技能TBFLv5",
+		base = 69701,
+		id = 69705,
+		hp_growth = 2547,
+		weapon_ID = {
+			69735
+		}
+	},
+	[69706] = {
+		max_hp = 72,
+		name = "英仙座技能TBFLv6",
+		base = 69701,
+		id = 69706,
+		hp_growth = 2766,
+		weapon_ID = {
+			69736
+		}
+	},
+	[69707] = {
+		max_hp = 78,
+		name = "英仙座技能TBFLv7",
+		base = 69701,
+		id = 69707,
+		hp_growth = 2984,
+		weapon_ID = {
+			69737
+		}
+	},
+	[69708] = {
+		max_hp = 83,
+		name = "英仙座技能TBFLv8",
+		base = 69701,
+		id = 69708,
+		hp_growth = 3202,
+		weapon_ID = {
+			69738
+		}
+	},
+	[69709] = {
+		max_hp = 89,
+		name = "英仙座技能TBFLv9",
+		base = 69701,
+		id = 69709,
+		hp_growth = 3421,
+		weapon_ID = {
+			69739
+		}
+	},
+	[69710] = {
+		max_hp = 95,
+		name = "英仙座技能TBFLv10",
+		base = 69701,
+		id = 69710,
+		hp_growth = 3639,
+		weapon_ID = {
+			69740
+		}
+	},
+	[69711] = {
+		name = "英仙座技能萤火虫Lv1",
+		max_hp = 51,
+		accuracy = 23,
+		model_ID = "yinghuochong",
+		ACC_growth = 0,
+		crash_DMG = 210,
+		dodge = 0.75,
+		attack_power = 2,
+		dodge_limit = 7,
+		type = 3,
+		AP_growth = 2000,
+		icon = "yinghuochong",
+		funnel_behavior = "",
+		nationality = 2,
+		hp_growth = 1943,
+		speed = 47,
+		id = 69711,
+		scale = 1,
+		weapon_ID = {
+			50661,
+			52741
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.26,
+					-1.13,
+					0
+				},
+				{
+					1.35,
+					1.18,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.44,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[69712] = {
+		max_hp = 57,
+		name = "英仙座技能萤火虫Lv2",
+		base = 69711,
+		id = 69712,
+		hp_growth = 2196,
+		weapon_ID = {
+			50662,
+			52742
+		}
+	},
+	[69713] = {
+		max_hp = 64,
+		name = "英仙座技能萤火虫Lv3",
+		base = 69711,
+		id = 69713,
+		hp_growth = 2450,
+		weapon_ID = {
+			50663,
+			52743
+		}
+	},
+	[69714] = {
+		max_hp = 70,
+		name = "英仙座技能萤火虫Lv4",
+		base = 69711,
+		id = 69714,
+		hp_growth = 2703,
+		weapon_ID = {
+			50664,
+			52744
+		}
+	},
+	[69715] = {
+		max_hp = 77,
+		name = "英仙座技能萤火虫Lv5",
+		base = 69711,
+		id = 69715,
+		hp_growth = 2957,
+		weapon_ID = {
+			50665,
+			52745
+		}
+	},
+	[69716] = {
+		max_hp = 83,
+		name = "英仙座技能萤火虫Lv6",
+		base = 69711,
+		id = 69716,
+		hp_growth = 3210,
+		weapon_ID = {
+			50666,
+			52746
+		}
+	},
+	[69717] = {
+		max_hp = 90,
+		name = "英仙座技能萤火虫Lv7",
+		base = 69711,
+		id = 69717,
+		hp_growth = 3464,
+		weapon_ID = {
+			50667,
+			52747
+		}
+	},
+	[69718] = {
+		max_hp = 97,
+		name = "英仙座技能萤火虫Lv8",
+		base = 69711,
+		id = 69718,
+		hp_growth = 3717,
+		weapon_ID = {
+			50668,
+			52748
+		}
+	},
+	[69719] = {
+		max_hp = 103,
+		name = "英仙座技能萤火虫Lv9",
+		base = 69711,
+		id = 69719,
+		hp_growth = 3971,
+		weapon_ID = {
+			50669,
+			52749
+		}
+	},
+	[69720] = {
+		max_hp = 110,
+		name = "英仙座技能萤火虫Lv10",
+		base = 69711,
+		id = 69720,
+		hp_growth = 4224,
+		weapon_ID = {
+			50670,
+			52750
+		}
+	},
+	[69751] = {
+		name = "鹰技能剑鱼 Lv1",
+		max_hp = 40,
+		accuracy = 23,
+		model_ID = "jianyu",
+		ACC_growth = 0,
+		crash_DMG = 102,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "jianyu",
+		funnel_behavior = "",
+		nationality = 0,
+		hp_growth = 1538,
+		speed = 45,
+		id = 69751,
+		scale = 1,
+		weapon_ID = {
+			69771
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					1.03,
+					-1.43,
+					0
+				},
+				{
+					1.01,
+					1.43,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[69752] = {
+		max_hp = 45,
+		name = "鹰技能剑鱼 Lv2",
+		base = 69751,
+		id = 69752,
+		hp_growth = 1739,
+		weapon_ID = {
+			69772
+		}
+	},
+	[69753] = {
+		max_hp = 50,
+		name = "鹰技能剑鱼 Lv3",
+		base = 69751,
+		id = 69753,
+		hp_growth = 1940,
+		weapon_ID = {
+			69773
+		}
+	},
+	[69754] = {
+		max_hp = 56,
+		name = "鹰技能剑鱼 Lv4",
+		base = 69751,
+		id = 69754,
+		hp_growth = 2140,
+		weapon_ID = {
+			69774
+		}
+	},
+	[69755] = {
+		max_hp = 61,
+		name = "鹰技能剑鱼 Lv5",
+		base = 69751,
+		id = 69755,
+		hp_growth = 2341,
+		weapon_ID = {
+			69775
+		}
+	},
+	[69756] = {
+		max_hp = 66,
+		name = "鹰技能剑鱼 Lv6",
+		base = 69751,
+		id = 69756,
+		hp_growth = 2541,
+		weapon_ID = {
+			69776
+		}
+	},
+	[69757] = {
+		max_hp = 71,
+		name = "鹰技能剑鱼 Lv7",
+		base = 69751,
+		id = 69757,
+		hp_growth = 2742,
+		weapon_ID = {
+			69777
+		}
+	},
+	[69758] = {
+		max_hp = 77,
+		name = "鹰技能剑鱼 Lv8",
+		base = 69751,
+		id = 69758,
+		hp_growth = 2943,
+		weapon_ID = {
+			69778
+		}
+	},
+	[69759] = {
+		max_hp = 82,
+		name = "鹰技能剑鱼 Lv9",
+		base = 69751,
+		id = 69759,
+		hp_growth = 3143,
+		weapon_ID = {
+			69779
+		}
+	},
+	[69760] = {
+		max_hp = 87,
+		name = "鹰技能剑鱼 Lv10",
+		base = 69751,
+		id = 69760,
+		hp_growth = 3344,
+		weapon_ID = {
+			69780
+		}
 	},
 	[81000] = {
 		name = "F2A水牛",
@@ -24502,7 +25865,7 @@ pg.aircraft_template = {
 		name = "海斗士",
 		max_hp = 28,
 		accuracy = 23,
-		model_ID = "haipenhuo",
+		model_ID = "haidoushi",
 		ACC_growth = 0,
 		crash_DMG = 76,
 		dodge = 0.375,
@@ -24510,7 +25873,7 @@ pg.aircraft_template = {
 		dodge_limit = 8,
 		type = 1,
 		AP_growth = 2000,
-		icon = "haipenhuo",
+		icon = "haidoushi",
 		funnel_behavior = "",
 		nationality = 2,
 		hp_growth = 1075,
@@ -24603,7 +25966,7 @@ pg.aircraft_template = {
 		name = "海斗士",
 		max_hp = 31,
 		accuracy = 23,
-		model_ID = "haipenhuo",
+		model_ID = "haidoushi",
 		ACC_growth = 0,
 		crash_DMG = 76,
 		dodge = 0.363,
@@ -24611,7 +25974,7 @@ pg.aircraft_template = {
 		dodge_limit = 8.5,
 		type = 1,
 		AP_growth = 2000,
-		icon = "haipenhuo",
+		icon = "haidoushi",
 		funnel_behavior = "",
 		nationality = 2,
 		hp_growth = 1210,
@@ -24704,7 +26067,7 @@ pg.aircraft_template = {
 		name = "海斗士",
 		max_hp = 35,
 		accuracy = 23,
-		model_ID = "haipenhuo",
+		model_ID = "haidoushi",
 		ACC_growth = 0,
 		crash_DMG = 76,
 		dodge = 0.351,
@@ -24712,7 +26075,7 @@ pg.aircraft_template = {
 		dodge_limit = 9,
 		type = 1,
 		AP_growth = 2000,
-		icon = "haipenhuo",
+		icon = "haidoushi",
 		funnel_behavior = "",
 		nationality = 2,
 		hp_growth = 1344,
@@ -24988,6 +26351,170 @@ pg.aircraft_template = {
 		base = 82300,
 		max_hp = 107,
 		hp_growth = 4113,
+		weapon_ID = {
+			50670
+		}
+	},
+	[82320] = {
+		name = "海大黄蜂",
+		max_hp = 49,
+		accuracy = 24,
+		model_ID = "haidahuangfeng",
+		ACC_growth = 0,
+		crash_DMG = 190,
+		dodge = 0.3,
+		attack_power = 2,
+		dodge_limit = 10,
+		type = 1,
+		AP_growth = 2000,
+		icon = "haidahuangfeng",
+		funnel_behavior = "",
+		nationality = 2,
+		hp_growth = 1903,
+		speed = 60,
+		id = 82320,
+		scale = 1,
+		weapon_ID = {
+			50660
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.52,
+					-1.61,
+					0
+				},
+				{
+					0.6,
+					1.5,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.86,
+				-0.12,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[82321] = {
+		id = 82321,
+		base = 82320,
+		max_hp = 57,
+		hp_growth = 2189,
+		weapon_ID = {
+			50661
+		}
+	},
+	[82322] = {
+		id = 82322,
+		base = 82320,
+		max_hp = 64,
+		hp_growth = 2474,
+		weapon_ID = {
+			50662
+		}
+	},
+	[82323] = {
+		id = 82323,
+		base = 82320,
+		max_hp = 72,
+		hp_growth = 2760,
+		weapon_ID = {
+			50663
+		}
+	},
+	[82324] = {
+		id = 82324,
+		base = 82320,
+		max_hp = 79,
+		hp_growth = 3045,
+		weapon_ID = {
+			50664
+		}
+	},
+	[82325] = {
+		id = 82325,
+		base = 82320,
+		max_hp = 87,
+		hp_growth = 3330,
+		weapon_ID = {
+			50665
+		}
+	},
+	[82326] = {
+		id = 82326,
+		base = 82320,
+		max_hp = 94,
+		hp_growth = 3616,
+		weapon_ID = {
+			50666
+		}
+	},
+	[82327] = {
+		id = 82327,
+		base = 82320,
+		max_hp = 101,
+		hp_growth = 3901,
+		weapon_ID = {
+			50667
+		}
+	},
+	[82328] = {
+		id = 82328,
+		base = 82320,
+		max_hp = 109,
+		hp_growth = 4187,
+		weapon_ID = {
+			50668
+		}
+	},
+	[82329] = {
+		id = 82329,
+		base = 82320,
+		max_hp = 116,
+		hp_growth = 4472,
+		weapon_ID = {
+			50669
+		}
+	},
+	[82330] = {
+		id = 82330,
+		base = 82320,
+		max_hp = 124,
+		hp_growth = 4758,
 		weapon_ID = {
 			50670
 		}
@@ -44816,6 +46343,1641 @@ pg.aircraft_template = {
 			},
 			{
 				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340005] = {
+		name = "第13章通用轰炸机",
+		max_hp = 800,
+		accuracy = 35,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 180,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340005,
+		scale = 0.75,
+		weapon_ID = {
+			340008
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340006] = {
+		name = "第13章通用鱼雷机",
+		max_hp = 672,
+		accuracy = 35,
+		model_ID = "tianshan",
+		ACC_growth = 0,
+		crash_DMG = 150,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tianshan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340006,
+		scale = 0.75,
+		weapon_ID = {
+			340009
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340007] = {
+		name = "第13章通用战斗机",
+		max_hp = 512,
+		accuracy = 35,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 100,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340007,
+		scale = 0.75,
+		weapon_ID = {
+			340010,
+			340011
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340010] = {
+		name = "第13章空袭 轰炸机",
+		max_hp = 1400,
+		accuracy = 35,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 360,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340010,
+		scale = 0.75,
+		weapon_ID = {
+			340008
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340020] = {
+		name = "第13章空袭 鱼雷机",
+		max_hp = 1176,
+		accuracy = 35,
+		model_ID = "tianshan",
+		ACC_growth = 0,
+		crash_DMG = 280,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "tianshan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340020,
+		scale = 0.75,
+		weapon_ID = {
+			340009
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340030] = {
+		name = "第13章空袭 战斗机",
+		max_hp = 896,
+		accuracy = 35,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 220,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340030,
+		scale = 0.75,
+		weapon_ID = {
+			340010,
+			340011
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340113] = {
+		name = "第13章翔鹤战斗机",
+		max_hp = 960,
+		accuracy = 50,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 220,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340113,
+		scale = 0.75,
+		weapon_ID = {
+			340116,
+			340118
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340114] = {
+		name = "第13章翔鹤轰炸机",
+		max_hp = 1500,
+		accuracy = 50,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 400,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340114,
+		scale = 0.75,
+		weapon_ID = {
+			340117
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-0.91,
+					0
+				},
+				{
+					0.77,
+					1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340123] = {
+		name = "第13章翔鹤战斗机",
+		max_hp = 992,
+		accuracy = 50,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 220,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340123,
+		scale = 0.75,
+		weapon_ID = {
+			340126,
+			340128
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340124] = {
+		name = "第13章翔鹤轰炸机",
+		max_hp = 1550,
+		accuracy = 50,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 400,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "huixing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340124,
+		scale = 0.75,
+		weapon_ID = {
+			340127
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-0.91,
+					0
+				},
+				{
+					0.77,
+					1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340133] = {
+		name = "第13章瑞鹤战斗机",
+		max_hp = 992,
+		accuracy = 50,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 220,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340133,
+		scale = 0.75,
+		weapon_ID = {
+			340136,
+			340138
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340134] = {
+		name = "第13章瑞鹤轰炸机",
+		max_hp = 1550,
+		accuracy = 50,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 400,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340134,
+		scale = 0.75,
+		weapon_ID = {
+			340137
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-0.91,
+					0
+				},
+				{
+					0.77,
+					1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340141] = {
+		name = "第13章大凤地毯轰炸",
+		max_hp = 1800,
+		accuracy = 50,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 540,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "huixing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340141,
+		scale = 0.75,
+		weapon_ID = {
+			340142
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340148] = {
+		name = "第13章大凤战斗机",
+		max_hp = 1024,
+		accuracy = 50,
+		model_ID = "lingzhan21",
+		ACC_growth = 0,
+		crash_DMG = 220,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan21",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340148,
+		scale = 0.75,
+		weapon_ID = {
+			340150,
+			340152
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340149] = {
+		name = "第13章大凤轰炸机",
+		max_hp = 1600,
+		accuracy = 50,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 400,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340149,
+		scale = 0.75,
+		weapon_ID = {
+			340151
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-0.91,
+					0
+				},
+				{
+					0.77,
+					1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.51,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340301] = {
+		name = "第13章道中地毯轰炸机",
+		max_hp = 1450,
+		accuracy = 35,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 350,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "huixing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340301,
+		scale = 0.75,
+		weapon_ID = {
+			340301
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340302] = {
+		name = "第13章BOSS轰炸-瑞鹤用飞机",
+		max_hp = 1650,
+		accuracy = 50,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 450,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "huixing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340302,
+		scale = 0.75,
+		weapon_ID = {
+			340303
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340304] = {
+		name = "第13章瑞鹤战斗机",
+		max_hp = 560,
+		accuracy = 50,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 100,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340304,
+		scale = 0.75,
+		weapon_ID = {
+			340138
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340305] = {
+		name = "第13章大凤战斗机",
+		max_hp = 620,
+		accuracy = 50,
+		model_ID = "liefeng",
+		ACC_growth = 0,
+		crash_DMG = 100,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "liefeng",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340305,
+		scale = 0.75,
+		weapon_ID = {
+			340152
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340306] = {
+		name = "第13章指挥舰用飞机",
+		max_hp = 1650,
+		accuracy = 35,
+		model_ID = "huixing",
+		ACC_growth = 0,
+		crash_DMG = 450,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "huixing",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 340306,
+		scale = 0.75,
+		weapon_ID = {
+			340307
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340308] = {
+		name = "第13章指挥舰战斗机",
+		max_hp = 560,
+		accuracy = 35,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 100,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340308,
+		scale = 0.75,
+		weapon_ID = {
+			340118
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[340310] = {
+		name = "第13章飞鹰&隼鹰战斗机",
+		max_hp = 928,
+		accuracy = 35,
+		model_ID = "lingzhan52",
+		ACC_growth = 0,
+		crash_DMG = 220,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "lingzhan52",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 33,
+		id = 340310,
+		scale = 0.75,
+		weapon_ID = {
+			340311,
+			340312
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
 				0,
 				0
 			},
@@ -85701,6 +88863,314 @@ pg.aircraft_template = {
 			}
 		}
 	},
+	[680146] = {
+		name = "【2020英系活动B3】BOSS 清除者 第一波 环绕浮游炮",
+		max_hp = 3000,
+		accuracy = 23,
+		model_ID = "fuyoupao",
+		ACC_growth = 0,
+		crash_DMG = 86,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "fuyoupao",
+		nationality = 3,
+		hp_growth = 3680,
+		speed = 50,
+		id = 680146,
+		scale = 0.75,
+		funnel_behavior = {
+			AI = 70096
+		},
+		weapon_ID = {
+			680148,
+			680149
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.72,
+					-0.21,
+					0
+				},
+				{
+					3.2,
+					-0.14,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[680147] = {
+		name = "【2020英系活动B3】BOSS 清除者 第一波 环绕浮游炮",
+		max_hp = 3000,
+		accuracy = 23,
+		model_ID = "fuyoupao",
+		ACC_growth = 0,
+		crash_DMG = 86,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "fuyoupao",
+		nationality = 3,
+		hp_growth = 3680,
+		speed = 50,
+		id = 680147,
+		scale = 0.75,
+		funnel_behavior = {
+			AI = 70097
+		},
+		weapon_ID = {
+			680148,
+			680149
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.72,
+					-0.21,
+					0
+				},
+				{
+					3.2,
+					-0.14,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[680346] = {
+		name = "【2020英系活动D3】BOSS 清除者 第一波 环绕浮游炮",
+		max_hp = 8000,
+		accuracy = 23,
+		model_ID = "fuyoupao",
+		ACC_growth = 0,
+		crash_DMG = 240,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "fuyoupao",
+		nationality = 3,
+		hp_growth = 3680,
+		speed = 50,
+		id = 680346,
+		scale = 0.75,
+		funnel_behavior = {
+			AI = 70096
+		},
+		weapon_ID = {
+			680348,
+			680349
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.72,
+					-0.21,
+					0
+				},
+				{
+					3.2,
+					-0.14,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[680347] = {
+		name = "【2020英系活动D3】BOSS 清除者 第一波 环绕浮游炮",
+		max_hp = 8000,
+		accuracy = 23,
+		model_ID = "fuyoupao",
+		ACC_growth = 0,
+		crash_DMG = 240,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "fuyoupao",
+		nationality = 3,
+		hp_growth = 3680,
+		speed = 50,
+		id = 680347,
+		scale = 0.75,
+		funnel_behavior = {
+			AI = 70097
+		},
+		weapon_ID = {
+			680348,
+			680349
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					2.72,
+					-0.21,
+					0
+				},
+				{
+					3.2,
+					-0.14,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
 	[700034] = {
 		name = "苍龙轰炸机",
 		max_hp = 316,
@@ -103277,7 +106747,8 @@ pg.aircraft_template = {
 		id = 1100925,
 		scale = 0.75,
 		weapon_ID = {
-			1100950
+			1100950,
+			1100750
 		},
 		position_offset = {
 			0,
@@ -103351,7 +106822,8 @@ pg.aircraft_template = {
 		id = 1100926,
 		scale = 0.75,
 		weapon_ID = {
-			1100951
+			1100951,
+			1100751
 		},
 		position_offset = {
 			0,
@@ -103425,7 +106897,8 @@ pg.aircraft_template = {
 		id = 1100927,
 		scale = 0.75,
 		weapon_ID = {
-			1100952
+			1100952,
+			1100752
 		},
 		position_offset = {
 			0,
@@ -103499,7 +106972,8 @@ pg.aircraft_template = {
 		id = 1100928,
 		scale = 0.75,
 		weapon_ID = {
-			1100953
+			1100953,
+			1100753
 		},
 		position_offset = {
 			0,
@@ -103573,7 +107047,8 @@ pg.aircraft_template = {
 		id = 1100929,
 		scale = 0.75,
 		weapon_ID = {
-			1100954
+			1100954,
+			1100754
 		},
 		position_offset = {
 			0,
@@ -104367,6 +107842,1491 @@ pg.aircraft_template = {
 			}
 		}
 	},
+	[1100955] = {
+		name = "德系舰载-战斗机I",
+		max_hp = 64,
+		accuracy = 23,
+		model_ID = "BF109T",
+		ACC_growth = 0,
+		crash_DMG = 36,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "BF109T",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1680,
+		speed = 33,
+		id = 1100955,
+		scale = 0.75,
+		weapon_ID = {
+			1100980,
+			1100750
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100956] = {
+		name = "德系舰载-战斗机II",
+		max_hp = 88,
+		accuracy = 23,
+		model_ID = "BF109T",
+		ACC_growth = 0,
+		crash_DMG = 48,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "BF109T",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1960,
+		speed = 33,
+		id = 1100956,
+		scale = 0.75,
+		weapon_ID = {
+			1100981,
+			1100751
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100957] = {
+		name = "德系舰载-战斗机III",
+		max_hp = 112,
+		accuracy = 23,
+		model_ID = "BF109T",
+		ACC_growth = 0,
+		crash_DMG = 62,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "BF109T",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2240,
+		speed = 33,
+		id = 1100957,
+		scale = 0.75,
+		weapon_ID = {
+			1100982,
+			1100752
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100958] = {
+		name = "德系舰载-战斗机IV",
+		max_hp = 136,
+		accuracy = 23,
+		model_ID = "BF109T",
+		ACC_growth = 0,
+		crash_DMG = 78,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "BF109T",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2520,
+		speed = 33,
+		id = 1100958,
+		scale = 0.75,
+		weapon_ID = {
+			1100983,
+			1100753
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100959] = {
+		name = "德系舰载-战斗机V",
+		max_hp = 160,
+		accuracy = 23,
+		model_ID = "BF109T",
+		ACC_growth = 0,
+		crash_DMG = 98,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "BF109T",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2800,
+		speed = 33,
+		id = 1100959,
+		scale = 0.75,
+		weapon_ID = {
+			1100984,
+			1100754
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100960] = {
+		name = "德系舰载-鱼雷机I",
+		max_hp = 72,
+		accuracy = 23,
+		model_ID = "FI167",
+		ACC_growth = 0,
+		crash_DMG = 52,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "FI167",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2040,
+		speed = 30,
+		id = 1100960,
+		scale = 0.75,
+		weapon_ID = {
+			1100975
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100961] = {
+		name = "德系舰载-鱼雷机II",
+		max_hp = 99,
+		accuracy = 23,
+		model_ID = "FI167",
+		ACC_growth = 0,
+		crash_DMG = 70,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "FI167",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2380,
+		speed = 30,
+		id = 1100961,
+		scale = 0.75,
+		weapon_ID = {
+			1100976
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100962] = {
+		name = "德系舰载-鱼雷机III",
+		max_hp = 126,
+		accuracy = 23,
+		model_ID = "FI167",
+		ACC_growth = 0,
+		crash_DMG = 90,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "FI167",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2720,
+		speed = 30,
+		id = 1100962,
+		scale = 0.75,
+		weapon_ID = {
+			1100977
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100963] = {
+		name = "德系舰载-鱼雷机IV",
+		max_hp = 153,
+		accuracy = 23,
+		model_ID = "FI167",
+		ACC_growth = 0,
+		crash_DMG = 112,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "FI167",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3060,
+		speed = 30,
+		id = 1100963,
+		scale = 0.75,
+		weapon_ID = {
+			1100978
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100964] = {
+		name = "德系舰载-鱼雷机V",
+		max_hp = 180,
+		accuracy = 23,
+		model_ID = "FI167",
+		ACC_growth = 0,
+		crash_DMG = 136,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 2,
+		AP_growth = 2000,
+		icon = "FI167",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3400,
+		speed = 30,
+		id = 1100964,
+		scale = 0.75,
+		weapon_ID = {
+			1100979
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.13,
+					-1.29,
+					0
+				},
+				{
+					-1.25,
+					1.47,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.54,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100965] = {
+		name = "德系舰载-轰炸机I",
+		max_hp = 80,
+		accuracy = 23,
+		model_ID = "JU87C",
+		ACC_growth = 0,
+		crash_DMG = 65,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU87C",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2280,
+		speed = 30,
+		id = 1100965,
+		scale = 0.75,
+		weapon_ID = {
+			1100970
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100966] = {
+		name = "德系舰载-轰炸机II",
+		max_hp = 110,
+		accuracy = 23,
+		model_ID = "JU87C",
+		ACC_growth = 0,
+		crash_DMG = 85,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU87C",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2660,
+		speed = 30,
+		id = 1100966,
+		scale = 0.75,
+		weapon_ID = {
+			1100971
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100967] = {
+		name = "德系舰载-轰炸机III",
+		max_hp = 140,
+		accuracy = 23,
+		model_ID = "JU87C",
+		ACC_growth = 0,
+		crash_DMG = 110,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU87C",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3040,
+		speed = 30,
+		id = 1100967,
+		scale = 0.75,
+		weapon_ID = {
+			1100972
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100968] = {
+		name = "德系舰载-轰炸机IV",
+		max_hp = 170,
+		accuracy = 23,
+		model_ID = "JU87C",
+		ACC_growth = 0,
+		crash_DMG = 140,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU87C",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3420,
+		speed = 30,
+		id = 1100968,
+		scale = 0.75,
+		weapon_ID = {
+			1100973
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1100969] = {
+		name = "德系舰载-轰炸机V",
+		max_hp = 200,
+		accuracy = 23,
+		model_ID = "JU87C",
+		ACC_growth = 0,
+		crash_DMG = 175,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU87C",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 3800,
+		speed = 30,
+		id = 1100969,
+		scale = 0.75,
+		weapon_ID = {
+			1100974
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1101010] = {
+		name = "德系陆航轰炸机I",
+		max_hp = 214,
+		accuracy = 23,
+		model_ID = "JU88A",
+		ACC_growth = 0,
+		crash_DMG = 12,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU88A",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2280,
+		speed = 32,
+		id = 1101010,
+		scale = 0.75,
+		weapon_ID = {
+			1101010
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1101011] = {
+		name = "德系陆航轰炸机II",
+		max_hp = 260,
+		accuracy = 23,
+		model_ID = "JU88A",
+		ACC_growth = 0,
+		crash_DMG = 14,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU88A",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 8650,
+		speed = 32,
+		id = 1101011,
+		scale = 0.75,
+		weapon_ID = {
+			1101011
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1101012] = {
+		name = "德系陆航轰炸机III",
+		max_hp = 310,
+		accuracy = 23,
+		model_ID = "JU88A",
+		ACC_growth = 0,
+		crash_DMG = 16,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU88A",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 12470,
+		speed = 32,
+		id = 1101012,
+		scale = 0.75,
+		weapon_ID = {
+			1101012
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1101013] = {
+		name = "德系陆航轰炸机IV",
+		max_hp = 355,
+		accuracy = 23,
+		model_ID = "JU88A",
+		ACC_growth = 0,
+		crash_DMG = 20,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU88A",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 14385,
+		speed = 32,
+		id = 1101013,
+		scale = 0.75,
+		weapon_ID = {
+			1101013
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[1101014] = {
+		name = "德系陆航轰炸机V",
+		max_hp = 405,
+		accuracy = 23,
+		model_ID = "JU88A",
+		ACC_growth = 0,
+		crash_DMG = 24,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "JU88A",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 16300,
+		speed = 32,
+		id = 1101014,
+		scale = 0.75,
+		weapon_ID = {
+			1101014
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
 	all = {
 		109,
 		110,
@@ -104766,6 +109726,17 @@ pg.aircraft_template = {
 		27308,
 		27309,
 		27310,
+		27320,
+		27321,
+		27322,
+		27323,
+		27324,
+		27325,
+		27326,
+		27327,
+		27328,
+		27329,
+		27330,
 		28000,
 		28001,
 		28002,
@@ -105429,6 +110400,36 @@ pg.aircraft_template = {
 		67940,
 		67981,
 		67982,
+		68001,
+		68002,
+		68003,
+		68004,
+		68005,
+		68006,
+		68007,
+		68008,
+		68009,
+		68010,
+		68021,
+		68022,
+		68023,
+		68024,
+		68025,
+		68026,
+		68027,
+		68028,
+		68029,
+		68030,
+		68031,
+		68032,
+		68033,
+		68034,
+		68035,
+		68036,
+		68037,
+		68038,
+		68039,
+		68040,
 		68541,
 		68542,
 		68543,
@@ -105499,6 +110500,46 @@ pg.aircraft_template = {
 		69508,
 		69509,
 		69510,
+		69691,
+		69692,
+		69693,
+		69694,
+		69695,
+		69696,
+		69697,
+		69698,
+		69699,
+		69700,
+		69701,
+		69702,
+		69703,
+		69704,
+		69705,
+		69706,
+		69707,
+		69708,
+		69709,
+		69710,
+		69711,
+		69712,
+		69713,
+		69714,
+		69715,
+		69716,
+		69717,
+		69718,
+		69719,
+		69720,
+		69751,
+		69752,
+		69753,
+		69754,
+		69755,
+		69756,
+		69757,
+		69758,
+		69759,
+		69760,
 		81000,
 		81001,
 		81002,
@@ -105686,6 +110727,17 @@ pg.aircraft_template = {
 		82308,
 		82309,
 		82310,
+		82320,
+		82321,
+		82322,
+		82323,
+		82324,
+		82325,
+		82326,
+		82327,
+		82328,
+		82329,
+		82330,
 		83000,
 		83001,
 		83002,
@@ -106080,6 +111132,28 @@ pg.aircraft_template = {
 		330030,
 		330403,
 		330503,
+		340005,
+		340006,
+		340007,
+		340010,
+		340020,
+		340030,
+		340113,
+		340114,
+		340123,
+		340124,
+		340133,
+		340134,
+		340141,
+		340148,
+		340149,
+		340301,
+		340302,
+		340304,
+		340305,
+		340306,
+		340308,
+		340310,
 		470043,
 		470044,
 		470173,
@@ -106628,6 +111702,10 @@ pg.aircraft_template = {
 		670312,
 		670313,
 		670314,
+		680146,
+		680147,
+		680346,
+		680347,
 		700034,
 		700035,
 		700036,
@@ -106878,6 +111956,26 @@ pg.aircraft_template = {
 		1100936,
 		1100937,
 		1100938,
-		1100939
+		1100939,
+		1100955,
+		1100956,
+		1100957,
+		1100958,
+		1100959,
+		1100960,
+		1100961,
+		1100962,
+		1100963,
+		1100964,
+		1100965,
+		1100966,
+		1100967,
+		1100968,
+		1100969,
+		1101010,
+		1101011,
+		1101012,
+		1101013,
+		1101014
 	}
 }

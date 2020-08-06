@@ -1,16 +1,22 @@
 slot0 = class("CheckHotfixCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
+	if slot1:getBody().mediatorName and (string.find(slot2, "Combat") or string.find(slot2, "Battle")) then
+		return
+	end
+
+	slot3 = getProxy(SettingsProxy)
+
 	if PLATFORM_CODE == PLATFORM_US and VersionMgr.Inst:OnProxyUsing() then
 		return
 	end
 
-	if UpdateMgr.Inst.currentVersion.Major > 0 and (not uv0.lastRequestVersionTime or Time.realtimeSinceStartup - uv0.lastRequestVersionTime > 1800) then
-		uv0.lastRequestVersionTime = Time.realtimeSinceStartup
+	if UpdateMgr.Inst.currentVersion.Major > 0 and (not slot3.lastRequestVersionTime or Time.realtimeSinceStartup - slot3.lastRequestVersionTime > 1800) then
+		slot3.lastRequestVersionTime = Time.realtimeSinceStartup
 
 		pg.UIMgr.GetInstance():LoadingOn()
 
-		slot2 = true
+		slot4 = true
 
 		VersionMgr.Inst:FetchVersion(function (slot0)
 			pg.UIMgr.GetInstance():LoadingOff()
@@ -20,10 +26,14 @@ function slot0.execute(slot0, slot1)
 			if UpdateMgr.Inst.currentVersion.Build < slot0.Build then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					modal = true,
+					locked = true,
 					hideNo = true,
 					content = i18n("new_version_tip"),
 					weight = LayerWeightConst.TOP_LAYER,
 					onYes = function ()
+						Application.Quit()
+					end,
+					onClose = function ()
 						Application.Quit()
 					end
 				})
@@ -34,6 +44,10 @@ function slot0.execute(slot0, slot1)
 				pg.UIMgr.GetInstance():LoadingOff()
 			end
 		end))
+	end
+
+	if slot2 and string.find(slot2, "LoginMediator") then
+		slot3.lastRequestVersionTime = nil
 	end
 end
 

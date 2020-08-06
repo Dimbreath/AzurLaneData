@@ -230,6 +230,474 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[101021] = {
+		oxy_max = 0,
+		type = 1,
+		name = "杜威",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Dewey",
+		oxy_cost = 0,
+		skin_id = 101020,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			265,
+			14,
+			52,
+			34,
+			0,
+			69,
+			0,
+			63,
+			60,
+			44.4,
+			72,
+			45
+		},
+		attrs_growth = {
+			6475,
+			136,
+			512,
+			676,
+			0,
+			344,
+			0,
+			936,
+			888,
+			0,
+			0,
+			444
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[101022] = {
+		oxy_max = 0,
+		type = 1,
+		name = "杜威",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Dewey",
+		oxy_cost = 0,
+		skin_id = 101020,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			330,
+			17,
+			65,
+			42,
+			0,
+			69,
+			0,
+			63,
+			60,
+			44.4,
+			72,
+			56
+		},
+		attrs_growth = {
+			6475,
+			136,
+			512,
+			676,
+			0,
+			344,
+			0,
+			936,
+			888,
+			0,
+			0,
+			444
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.12,
+			1.22,
+			1.22
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[101023] = {
+		oxy_max = 0,
+		type = 1,
+		name = "杜威",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Dewey",
+		oxy_cost = 0,
+		skin_id = 101020,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			459,
+			24,
+			90,
+			59,
+			0,
+			69,
+			0,
+			63,
+			60,
+			44.4,
+			72,
+			78
+		},
+		attrs_growth = {
+			6475,
+			136,
+			512,
+			676,
+			0,
+			344,
+			0,
+			936,
+			888,
+			0,
+			0,
+			444
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[101024] = {
+		oxy_max = 0,
+		type = 1,
+		name = "杜威",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Dewey",
+		oxy_cost = 0,
+		skin_id = 101020,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			654,
+			34,
+			129,
+			85,
+			0,
+			69,
+			0,
+			63,
+			60,
+			44.4,
+			72,
+			112
+		},
+		attrs_growth = {
+			6475,
+			136,
+			512,
+			676,
+			0,
+			344,
+			0,
+			936,
+			888,
+			0,
+			0,
+			444
+		},
+		attrs_growth_extra = {
+			6475,
+			322,
+			1127,
+			457,
+			0,
+			819,
+			0,
+			-549,
+			-621,
+			0,
+			0,
+			447
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[101031] = {
 		oxy_max = 0,
 		type = 1,
@@ -34634,6 +35102,474 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[107171] = {
+		oxy_max = 0,
+		type = 7,
+		name = "碉堡山",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 107171,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Bunker Hill",
+		oxy_cost = 0,
+		skin_id = 107170,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1102,
+			0,
+			0,
+			58,
+			81,
+			48,
+			0,
+			28,
+			13,
+			33,
+			35,
+			0
+		},
+		attrs_growth = {
+			26880,
+			0,
+			0,
+			1144,
+			804,
+			238,
+			0,
+			420,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107172] = {
+		oxy_max = 0,
+		type = 7,
+		name = "碉堡山",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 107172,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Bunker Hill",
+		oxy_cost = 0,
+		skin_id = 107170,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1371,
+			0,
+			0,
+			72,
+			101,
+			48,
+			0,
+			28,
+			13,
+			33,
+			35,
+			0
+		},
+		attrs_growth = {
+			26880,
+			0,
+			0,
+			1144,
+			804,
+			238,
+			0,
+			420,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.28,
+			1.18,
+			1.03
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107173] = {
+		oxy_max = 0,
+		type = 7,
+		name = "碉堡山",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 107173,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Bunker Hill",
+		oxy_cost = 0,
+		skin_id = 107170,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1908,
+			0,
+			0,
+			101,
+			141,
+			48,
+			0,
+			28,
+			13,
+			33,
+			35,
+			0
+		},
+		attrs_growth = {
+			26880,
+			0,
+			0,
+			1144,
+			804,
+			238,
+			0,
+			420,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.33,
+			1.23,
+			1.08
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107174] = {
+		oxy_max = 0,
+		type = 7,
+		name = "碉堡山",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 107174,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Bunker Hill",
+		oxy_cost = 0,
+		skin_id = 107170,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2715,
+			0,
+			0,
+			144,
+			202,
+			48,
+			0,
+			28,
+			13,
+			33,
+			35,
+			0
+		},
+		attrs_growth = {
+			26880,
+			0,
+			0,
+			1144,
+			804,
+			238,
+			0,
+			420,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			16128,
+			0,
+			0,
+			600,
+			1177,
+			565,
+			0,
+			5,
+			762,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[108011] = {
 		oxy_max = 243,
 		type = 8,
@@ -59964,7 +60900,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205062] = {
 		oxy_max = 0,
@@ -60081,7 +61019,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205063] = {
 		oxy_max = 0,
@@ -60198,7 +61138,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205064] = {
 		oxy_max = 0,
@@ -60315,7 +61257,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205071] = {
 		oxy_max = 0,
@@ -60432,7 +61376,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205072] = {
 		oxy_max = 0,
@@ -60549,7 +61495,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205073] = {
 		oxy_max = 0,
@@ -60666,7 +61614,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[205074] = {
 		oxy_max = 0,
@@ -60783,7 +61733,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[206011] = {
 		oxy_max = 0,
@@ -153775,7 +154727,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[299022] = {
 		oxy_max = 0,
@@ -153892,7 +154846,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[299023] = {
 		oxy_max = 0,
@@ -154009,7 +154965,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[299024] = {
 		oxy_max = 0,
@@ -154126,7 +155084,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"KGV"
+		}
 	},
 	[399011] = {
 		oxy_max = 0,
@@ -156027,6 +156987,10 @@ pg.ship_data_statistics = {
 	all = {
 		100001,
 		100011,
+		101021,
+		101022,
+		101023,
+		101024,
 		101031,
 		101032,
 		101033,
@@ -156319,6 +157283,10 @@ pg.ship_data_statistics = {
 		107082,
 		107083,
 		107084,
+		107171,
+		107172,
+		107173,
+		107174,
 		108011,
 		108012,
 		108013,

@@ -576,7 +576,7 @@ pg.expedition_data_by_map = {
 		bg = "map_10",
 		destory_icon_suffix = "blue",
 		animtor = 0,
-		bind_map = 0,
+		bind_map = 210,
 		clouds_pos = {
 			{
 				76,
@@ -704,6 +704,47 @@ pg.expedition_data_by_map = {
 		title = "12",
 		enter_story = "",
 		level_limit = 75,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "Map_12",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		drop_by_map_display = {}
+	},
+	{
+		map = 13,
+		name = "馬里亞納風雲下",
+		bgm = "level",
+		type = 1,
+		on_activity = 0,
+		title = "13",
+		enter_story = "",
+		level_limit = 80,
 		uifx = "",
 		guide_id = "",
 		ani_name = "",
@@ -1094,6 +1135,51 @@ pg.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 0,
 		bind_map = 9,
+		clouds_pos = {
+			{
+				76,
+				263
+			},
+			{
+				881,
+				44
+			},
+			{
+				23,
+				-143
+			},
+			{
+				473,
+				163
+			},
+			{
+				514,
+				-245
+			},
+			{
+				830,
+				-109
+			}
+		}
+	},
+	[210] = {
+		map = 210,
+		name = "科隆班加拉島夜戰",
+		bgm = "level",
+		type = 2,
+		on_activity = 0,
+		title = "10",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 45,
+		uifx = "UIhuohua2",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "Map_210",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 10,
 		clouds_pos = {
 			{
 				76,
@@ -4162,6 +4248,7 @@ pg.expedition_data_by_map = {
 		10,
 		11,
 		12,
+		13,
 		201,
 		202,
 		203,
@@ -4171,6 +4258,7 @@ pg.expedition_data_by_map = {
 		207,
 		208,
 		209,
+		210,
 		10000,
 		90000,
 		90001,

@@ -832,29 +832,6 @@ function slot0.onChapterTimeUp(slot0)
 	end
 end
 
-function slot0.tryShowItemIconChnageNotice(slot0, slot1)
-	if PlayerPrefs.GetInt("ItemIconChange_" .. getProxy(PlayerProxy):getRawData().id, 0) == 0 then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			modal = true,
-			hideNo = true,
-			hideClose = true,
-			type = MSGBOX_TYPE_JUST_FOR_SHOW,
-			title = pg.MsgboxMgr.TITLE_INFORMATION,
-			weight = LayerWeightConst.TOP_LAYER,
-			onClose = function ()
-				uv0()
-				PlayerPrefs.SetInt("ItemIconChange_" .. uv1, 1)
-			end,
-			onYes = function ()
-				PlayerPrefs.SetInt("ItemIconChange_" .. uv0, 1)
-				uv1()
-			end
-		})
-	else
-		slot1()
-	end
-end
-
 function slot0.GetMilitaryExerciseInfo(slot0, slot1)
 	if not getProxy(MilitaryExerciseProxy):getData() then
 		slot0:sendNotification(GAME.GET_SEASON_INFO, {

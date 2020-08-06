@@ -19,32 +19,41 @@ function slot0.Ctor(slot0, slot1)
 	slot0.posTxt = slot0.pos:Find("Text"):GetComponent(typeof(Text))
 end
 
-function slot0.Update(slot0, slot1)
+function slot0.FlushData(slot0, slot1)
 	slot0.template = slot1
 	slot0.themeVO = slot1
+end
 
-	setActive(slot0.iconRaw.gameObject, false)
-	BackYardThemeTempalteUtil.GetTexture(slot1:GetTextureIconName(), slot1:GetIconMd5(), function (slot0)
-		if not IsNil(uv0.iconRaw) and slot0 then
-			setActive(uv0.iconRaw.gameObject, true)
+function slot0.Update(slot0, slot1)
+	if slot0.template and slot1.id == slot0.template.id then
+		slot0:FlushData(slot1)
 
-			uv0.iconRaw.texture = slot0
+		return
+	else
+		slot0:FlushData(slot1)
+		setActive(slot0.iconRaw.gameObject, false)
+		BackYardThemeTempalteUtil.GetTexture(slot1:GetTextureIconName(), slot1:GetIconMd5(), function (slot0)
+			if not IsNil(uv0.iconRaw) and slot0 then
+				setActive(uv0.iconRaw.gameObject, true)
+
+				uv0.iconRaw.texture = slot0
+			end
+		end)
+
+		slot3 = slot1:IsSelfUsage()
+
+		setActive(slot0.mask, slot1:IsPushed() and slot3)
+		setActive(slot0.pos, slot3)
+
+		if slot3 then
+			slot4 = slot1.pos
+
+			if slot1.pos <= 9 then
+				slot4 = "0" .. slot1.pos
+			end
+
+			slot0.posTxt.text = slot4
 		end
-	end)
-
-	slot3 = slot1:IsSelfUsage()
-
-	setActive(slot0.mask, slot1:IsPushed() and slot3)
-	setActive(slot0.pos, slot3)
-
-	if slot3 then
-		slot4 = slot1.pos
-
-		if slot1.pos <= 9 then
-			slot4 = "0" .. slot1.pos
-		end
-
-		slot0.posTxt.text = slot4
 	end
 end
 

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=45>七 最棒的冠军奖励</size>",
+					"騎士與獎賞\n\n<size=45>七 最棒的冠軍獎勵</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·体育馆",
+			say = "港區·體育館",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "怀里抱着“摇钱树”——翡翠木的盆栽，喜不自胜的克利夫兰。",
+			say = "懷裡抱著“搖錢樹”——翡翠木的盆栽，喜不自勝的克里夫蘭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "冠军奖品到手了！和想象中长得完全不一样，不过不妨碍种它的乐趣！",
+			say = "冠軍獎品到手了！和想像中長得完全不一樣，不過不妨礙種它的樂趣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家……咦？指挥官，看见哥伦比亚她们了么？真是的，刚准备把奖品拿给她们看的……",
+			say = "大家……咦？指揮官，看見哥倫比亞她們了嗎？真是的，剛準備把獎品拿給她們看的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官？呃，不好意思……我本来是想，这个能长钱的话……就能给妳添点经费了……",
+			say = "啊，指揮官？呃，不好意思……我本來是想，這個能長錢的話……就能給你添點經費了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一开始就知道？！…呃，那怎么不拦住我……难道是……！？",
+			say = "一開始就知道？ ！ …呃，那怎麼不攔住我……難道是……！ ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "克利夫兰变得满脸通红。",
+			say = "克里夫蘭變得滿臉通紅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "钱的问题倒是没什么，就是难得有机会在指挥官面前表现一下，结果还搞砸了……",
+			say = "錢的問題倒是沒什麼，就是難得有機會在指揮官面前表現一下，結果還搞砸了……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -150,7 +150,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最后还被妳安慰了……唔……结果呢，妳觉得刚才我怎么样？ ",
+			say = "最後還被你安慰了……唔……結果呢，你覺得剛才我怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "轻轻地揉了揉克利夫兰的头发。",
+			say = "輕輕地揉了揉克里夫蘭的頭髮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,23 +176,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“不是帅气的大姐头”……嗯，这点我无话可说……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102090,
-			side = 2,
-			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "“不过还是很可爱的克爹”…………",
+			say = "“不是帥氣的大姐頭”……嗯，這點我無話可說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +192,23 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶？",
+			say = "“不過還是很可愛的克爹”…………",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102090,
+			side = 2,
+			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "欸？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "可、可爱！？！？！？",
+			say = "可、可愛！ ？ ！ ？ ！ ？",
 			action = {
 				{
 					y = 30,
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "啊、啊……我可爱……可爱……呀……嗷嗷…………///（脸红）",
+			say = "啊、啊……我可愛……可愛……呀……嗷嗷…………///（臉紅）",
 			action = {
 				{
 					y = 0,
@@ -300,7 +300,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "走在身旁的她，泪眼汪汪地发出了惹人怜爱的抗议（？）。",
+			say = "走在身旁的她，淚眼汪汪地發出了惹人憐愛的抗議（？）。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

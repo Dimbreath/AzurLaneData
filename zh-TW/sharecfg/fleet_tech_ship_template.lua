@@ -1,5 +1,23 @@
 pg = pg or {}
 pg.fleet_tech_ship_template = {
+	[10102] = {
+		max_star = 5,
+		pt_level = 5,
+		add_level_attr = 1,
+		pt_upgrage = 7,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 10101,
+		id = 10102,
+		add_get_value = 1,
+		pt_get = 3,
+		add_get_shiptype = {
+			1
+		},
+		add_level_shiptype = {
+			1
+		}
+	},
 	[10103] = {
 		max_star = 4,
 		pt_level = 4,
@@ -1390,6 +1408,26 @@ pg.fleet_tech_ship_template = {
 		id = 10708,
 		add_get_value = 1,
 		pt_get = 8,
+		add_get_shiptype = {
+			6,
+			7
+		},
+		add_level_shiptype = {
+			6,
+			7
+		}
+	},
+	[10717] = {
+		max_star = 6,
+		pt_level = 26,
+		add_level_attr = 5,
+		pt_upgrage = 35,
+		add_get_attr = 1,
+		add_level_value = 2,
+		class = 10705,
+		id = 10717,
+		add_get_value = 1,
+		pt_get = 17,
 		add_get_shiptype = {
 			6,
 			7
@@ -5127,6 +5165,7 @@ pg.fleet_tech_ship_template = {
 		}
 	},
 	all = {
+		10102,
 		10103,
 		10104,
 		10105,
@@ -5200,6 +5239,7 @@ pg.fleet_tech_ship_template = {
 		10706,
 		10707,
 		10708,
+		10717,
 		10801,
 		11201,
 		20101,

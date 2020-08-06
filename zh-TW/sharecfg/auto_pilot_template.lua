@@ -5250,6 +5250,144 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70095] = {
+		id = 70095,
+		name = "2020英系希佩尔有节奏随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 20,
+					Z2 = 75,
+					moveCount = 40,
+					Z1 = 35,
+					duration = -1,
+					X1 = -20,
+					X2 = -5
+				}
+			}
+		}
+	},
+	[70096] = {
+		id = 70096,
+		name = "2020英系清除者第一波浮游炮1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 2,
+					z = 0,
+					x = 5
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 4,
+				param = {
+					radius = 25,
+					z = 40,
+					antiClockWise = false,
+					duration = 5,
+					x = -2
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 155
+				}
+			}
+		}
+	},
+	[70097] = {
+		id = 70097,
+		name = "2020英系清除者第一波浮游炮2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 2,
+					z = -30,
+					x = 5
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 4,
+				param = {
+					radius = 25,
+					z = 40,
+					antiClockWise = false,
+					duration = 5,
+					x = -2
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = -45
+				}
+			}
+		}
+	},
+	[70098] = {
+		id = 70098,
+		name = "2020英系清除者水平追踪移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 8,
+				param = {
+					offsetZ = -5,
+					duration = 300,
+					X = 0
+				}
+			}
+		}
+	},
+	[70099] = {
+		id = 70099,
+		name = "2020英系EX清除者移动到屏幕中央",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -53,
+					z = 55
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

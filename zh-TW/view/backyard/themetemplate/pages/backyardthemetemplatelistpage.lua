@@ -429,6 +429,10 @@ function slot0.CreateCard(slot0, slot1)
 end
 
 function slot0.OnCardClick(slot0, slot1)
+	if slot1.template == slot0.card then
+		return
+	end
+
 	if slot0.descPages:GetLoaded() then
 		slot0.descPages:Hide()
 	end
@@ -453,6 +457,8 @@ function slot0.OnCardClick(slot0, slot1)
 	else
 		slot2(slot1.template)
 	end
+
+	slot0.card = slot1.template
 end
 
 function slot0.OnDestroy(slot0)

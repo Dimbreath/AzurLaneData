@@ -6,10 +6,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
-		group_num = 1,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 2,
 		air_dominance = 6,
@@ -25,9 +25,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.157291667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 6,
+		is_ai = 0,
+		group_num = 1,
 		num_2 = 3,
 		land_based = "",
 		unlocklevel = 0,
@@ -41,6 +44,7 @@ pg.chapter_template = {
 		boss_refresh = 1,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -53,7 +57,6 @@ pg.chapter_template = {
 		avoid_ratio = 3,
 		star_require_2 = 2,
 		time = 99999999,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -260,10 +263,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
-		group_num = 1,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 2,
 		air_dominance = 12,
@@ -279,9 +282,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347916667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 6,
+		is_ai = 0,
+		group_num = 1,
 		num_2 = 5,
 		land_based = "",
 		unlocklevel = 0,
@@ -295,6 +301,7 @@ pg.chapter_template = {
 		boss_refresh = 2,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -307,7 +314,6 @@ pg.chapter_template = {
 		avoid_ratio = 3,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -623,10 +629,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
-		group_num = 1,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 2,
 		air_dominance = 18,
@@ -642,9 +648,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.080208333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 7,
+		is_ai = 0,
+		group_num = 1,
 		num_2 = 5,
 		land_based = "",
 		unlocklevel = 0,
@@ -658,6 +667,7 @@ pg.chapter_template = {
 		boss_refresh = 2,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -670,7 +680,6 @@ pg.chapter_template = {
 		avoid_ratio = 3,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -1020,10 +1029,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 80,
 		oil = 10,
-		group_num = 1,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 2,
 		air_dominance = 24,
@@ -1039,9 +1048,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.446875",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 8,
+		is_ai = 0,
+		group_num = 1,
 		num_2 = 7,
 		land_based = "",
 		unlocklevel = 0,
@@ -1055,6 +1067,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -1067,7 +1080,6 @@ pg.chapter_template = {
 		avoid_ratio = 4,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -1504,10 +1516,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 70,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 2,
 		air_dominance = 45,
@@ -1523,9 +1535,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15625",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 10,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 10,
 		land_based = "",
 		unlocklevel = 0,
@@ -1539,6 +1554,7 @@ pg.chapter_template = {
 		boss_refresh = 2,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -1551,7 +1567,6 @@ pg.chapter_template = {
 		avoid_ratio = 4,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -2076,10 +2091,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 60,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 2,
 		air_dominance = 55,
@@ -2095,9 +2110,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 10,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 12,
 		land_based = "",
 		unlocklevel = 10,
@@ -2111,6 +2129,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -2123,7 +2142,6 @@ pg.chapter_template = {
 		avoid_ratio = 4,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -2701,10 +2719,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 2,
 		air_dominance = 65,
@@ -2719,9 +2737,12 @@ pg.chapter_template = {
 		pop_pic = "",
 		star_require_1 = 1,
 		pos_y = "0.35",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 11,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 12,
 		unlocklevel = 10,
 		chapter_fx = "",
@@ -2734,6 +2755,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -2746,7 +2768,6 @@ pg.chapter_template = {
 		avoid_ratio = 5,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -3303,10 +3324,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 3,
 		air_dominance = 80,
@@ -3322,9 +3343,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.0625",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 12,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 12,
 		land_based = "",
 		unlocklevel = 10,
@@ -3338,6 +3362,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -3350,7 +3375,6 @@ pg.chapter_template = {
 		avoid_ratio = 5,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -3875,10 +3899,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 3,
 		air_dominance = 110,
@@ -3894,9 +3918,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.403125",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 12,
 		land_based = "",
 		unlocklevel = 20,
@@ -3910,6 +3937,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -3922,7 +3950,6 @@ pg.chapter_template = {
 		avoid_ratio = 6,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -4468,10 +4495,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 3,
 		air_dominance = 125,
@@ -4487,9 +4514,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 12,
 		land_based = "",
 		unlocklevel = 20,
@@ -4503,6 +4533,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -4515,7 +4546,6 @@ pg.chapter_template = {
 		avoid_ratio = 6,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -5085,10 +5115,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 3,
 		air_dominance = 145,
@@ -5104,9 +5134,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.491666667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 12,
 		land_based = "",
 		unlocklevel = 20,
@@ -5120,6 +5153,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -5132,7 +5166,6 @@ pg.chapter_template = {
 		avoid_ratio = 7,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -5697,10 +5730,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 175,
@@ -5716,9 +5749,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 12,
 		land_based = "",
 		unlocklevel = 20,
@@ -5732,6 +5768,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -5744,7 +5781,6 @@ pg.chapter_template = {
 		avoid_ratio = 7,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -6295,10 +6331,10 @@ pg.chapter_template = {
 		num_3 = 0,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 43200,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 175,
@@ -6314,9 +6350,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.091666667",
+		ammo_submarine = 0,
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 16,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 0,
 		land_based = "",
 		unlocklevel = 20,
@@ -6330,6 +6369,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -6342,7 +6382,6 @@ pg.chapter_template = {
 		avoid_ratio = 7,
 		star_require_2 = 0,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -6965,10 +7004,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 120,
@@ -6984,9 +7023,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 15,
 		land_based = "",
 		unlocklevel = 25,
@@ -7000,6 +7042,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -7012,7 +7055,6 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -7482,10 +7524,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 135,
@@ -7501,9 +7543,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.140625",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 15,
 		land_based = "",
 		unlocklevel = 25,
@@ -7517,6 +7562,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -7529,7 +7575,6 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -7992,10 +8037,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 155,
@@ -8011,9 +8056,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.061458333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 15,
 		land_based = "",
 		unlocklevel = 25,
@@ -8027,6 +8075,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -8039,7 +8088,6 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -8447,10 +8495,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 180,
@@ -8466,9 +8514,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.328125",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 18,
 		land_based = "",
 		unlocklevel = 25,
@@ -8482,6 +8533,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -8494,7 +8546,6 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -9039,10 +9090,10 @@ pg.chapter_template = {
 		num_3 = 0,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 43200,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 180,
@@ -9058,9 +9109,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.458333333",
+		ammo_submarine = 0,
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 20,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 0,
 		land_based = "",
 		unlocklevel = 25,
@@ -9074,6 +9128,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -9086,7 +9141,6 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 0,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -9682,10 +9736,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 215,
@@ -9701,9 +9755,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 18,
 		land_based = "",
 		unlocklevel = 30,
@@ -9717,6 +9774,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -9729,7 +9787,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -10279,10 +10336,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 250,
@@ -10298,9 +10355,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.071875",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 18,
 		land_based = "",
 		unlocklevel = 30,
@@ -10314,6 +10374,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -10326,7 +10387,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -10814,10 +10874,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 295,
@@ -10833,9 +10893,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 23,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 18,
 		land_based = "",
 		unlocklevel = 30,
@@ -10849,6 +10912,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -10861,7 +10925,6 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -11319,10 +11382,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 345,
@@ -11338,9 +11401,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.408333333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 24,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 30,
@@ -11354,6 +11420,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -11366,7 +11433,6 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -11849,10 +11915,10 @@ pg.chapter_template = {
 		num_3 = 0,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 43200,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 345,
@@ -11868,9 +11934,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.071875",
+		ammo_submarine = 0,
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 24,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 0,
 		land_based = "",
 		unlocklevel = 30,
@@ -11884,6 +11953,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -11896,7 +11966,6 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 0,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -12430,10 +12499,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 225,
@@ -12449,9 +12518,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.113541667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 26,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 40,
@@ -12465,6 +12537,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -12477,7 +12550,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -12998,10 +13070,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 255,
@@ -13017,9 +13089,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.273958333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 26,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 40,
@@ -13033,6 +13108,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -13045,7 +13121,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -13622,10 +13697,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 290,
@@ -13641,9 +13716,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.40625",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 27,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 40,
@@ -13657,6 +13735,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -13669,7 +13748,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -14170,10 +14248,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 325,
@@ -14189,9 +14267,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.186458333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 28,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 40,
@@ -14205,6 +14286,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -14217,7 +14299,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -14762,10 +14843,10 @@ pg.chapter_template = {
 		num_3 = 0,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 43200,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 325,
@@ -14781,9 +14862,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.470833333",
+		ammo_submarine = 0,
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 28,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 0,
 		land_based = "",
 		unlocklevel = 40,
@@ -14797,6 +14881,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -14809,7 +14894,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 0,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -15353,10 +15437,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 370,
@@ -15372,9 +15456,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.130208333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 30,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 50,
@@ -15388,6 +15475,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -15400,7 +15488,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -15768,10 +15855,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 425,
@@ -15787,9 +15874,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.442708333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 30,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 50,
@@ -15803,6 +15893,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -15815,7 +15906,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -16286,10 +16376,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 480,
@@ -16305,9 +16395,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.335416667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 50,
@@ -16321,6 +16414,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -16333,7 +16427,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -16875,10 +16968,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 535,
@@ -16894,9 +16987,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.163541667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 50,
@@ -16910,6 +17006,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -16922,7 +17019,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -17448,10 +17544,10 @@ pg.chapter_template = {
 		num_3 = 0,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 43200,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 535,
@@ -17467,9 +17563,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.291666667",
+		ammo_submarine = 0,
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 32,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 0,
 		land_based = "",
 		unlocklevel = 50,
@@ -17483,6 +17582,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -17495,7 +17595,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 0,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -18024,10 +18123,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 590,
@@ -18043,9 +18142,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 60,
@@ -18059,6 +18161,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -18071,7 +18174,6 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -18461,10 +18563,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 650,
@@ -18480,9 +18582,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.258333333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 60,
@@ -18496,6 +18601,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -18508,7 +18614,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -18984,10 +19089,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 710,
@@ -19003,9 +19108,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.041666667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 60,
@@ -19019,6 +19127,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -19031,7 +19140,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -19570,10 +19678,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 770,
@@ -19589,9 +19697,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.153125",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 60,
@@ -19605,6 +19716,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -19617,7 +19729,6 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -20219,10 +20330,10 @@ pg.chapter_template = {
 		num_3 = 0,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 43200,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 770,
@@ -20238,9 +20349,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.338541667",
+		ammo_submarine = 0,
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 33,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 0,
 		land_based = "",
 		unlocklevel = 60,
@@ -20254,6 +20368,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -20266,7 +20381,6 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 0,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -20857,10 +20971,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 840,
@@ -20876,9 +20990,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 65,
@@ -20892,6 +21009,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -20904,7 +21022,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -21388,10 +21505,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 915,
@@ -21407,9 +21524,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 65,
@@ -21423,6 +21543,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -21435,7 +21556,6 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -21957,10 +22077,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 990,
@@ -21976,9 +22096,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 65,
@@ -21992,6 +22115,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -22004,7 +22128,6 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -22550,10 +22673,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 1065,
@@ -22569,9 +22692,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09375",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 40,
 		land_based = "",
 		unlocklevel = 65,
@@ -22585,6 +22711,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -22597,7 +22724,6 @@ pg.chapter_template = {
 		avoid_ratio = 19,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -23165,10 +23291,10 @@ pg.chapter_template = {
 		num_3 = 0,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 43200,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 1065,
@@ -23184,9 +23310,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.238541667",
+		ammo_submarine = 0,
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 34,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 0,
 		land_based = "",
 		unlocklevel = 65,
@@ -23200,6 +23329,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -23212,7 +23342,6 @@ pg.chapter_template = {
 		avoid_ratio = 19,
 		star_require_2 = 0,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -23790,10 +23919,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 1155,
@@ -23809,9 +23938,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 70,
@@ -23825,6 +23957,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -23837,7 +23970,6 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -24340,10 +24472,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 1250,
@@ -24359,9 +24491,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.234375",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 70,
@@ -24375,6 +24510,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -24387,7 +24523,6 @@ pg.chapter_template = {
 		avoid_ratio = 19,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -24946,10 +25081,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 1345,
@@ -24965,9 +25100,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 70,
@@ -24981,6 +25119,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -24993,7 +25132,6 @@ pg.chapter_template = {
 		avoid_ratio = 19,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -25569,10 +25707,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 1440,
@@ -25588,9 +25726,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.378125",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 40,
 		land_based = "",
 		unlocklevel = 70,
@@ -25604,6 +25745,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -25616,7 +25758,6 @@ pg.chapter_template = {
 		avoid_ratio = 20,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -26206,10 +26347,10 @@ pg.chapter_template = {
 		num_3 = 0,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 43200,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 1440,
@@ -26225,9 +26366,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.196875",
+		ammo_submarine = 0,
 		num_1 = 0,
 		model = 4,
 		investigation_ratio = 35,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 0,
 		land_based = "",
 		unlocklevel = 70,
@@ -26241,6 +26385,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -26253,7 +26398,6 @@ pg.chapter_template = {
 		avoid_ratio = 20,
 		star_require_2 = 0,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -26832,10 +26976,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 1520,
@@ -26851,9 +26995,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.388541667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 75,
@@ -26867,6 +27014,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -26879,7 +27027,6 @@ pg.chapter_template = {
 		avoid_ratio = 19,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -27431,10 +27578,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 1610,
@@ -27450,9 +27597,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.091666667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 75,
@@ -27466,6 +27616,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -27478,7 +27629,6 @@ pg.chapter_template = {
 		avoid_ratio = 20,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -28145,10 +28295,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 1700,
@@ -28164,9 +28314,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.453125",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 40,
 		land_based = "",
 		unlocklevel = 75,
@@ -28180,6 +28333,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -28192,7 +28346,6 @@ pg.chapter_template = {
 		avoid_ratio = 20,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -28829,10 +28982,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 1790,
@@ -28848,9 +29001,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.167708333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 36,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 45,
 		land_based = "",
 		unlocklevel = 75,
@@ -28864,6 +29020,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -28876,7 +29033,6 @@ pg.chapter_template = {
 		avoid_ratio = 21,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -29622,10 +29778,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 1890,
@@ -29641,9 +29797,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 80,
@@ -29657,6 +29816,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -29669,7 +29829,6 @@ pg.chapter_template = {
 		avoid_ratio = 20,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -30199,10 +30358,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 1995,
@@ -30218,9 +30377,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 35,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 80,
@@ -30234,6 +30396,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -30246,7 +30409,6 @@ pg.chapter_template = {
 		avoid_ratio = 21,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -30889,10 +31051,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 2100,
@@ -30908,9 +31070,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 36,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 40,
 		land_based = "",
 		unlocklevel = 80,
@@ -30924,6 +31089,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -30936,7 +31102,6 @@ pg.chapter_template = {
 		avoid_ratio = 21,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -31615,10 +31780,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 4,
 		air_dominance = 2205,
@@ -31634,9 +31799,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09375",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 37,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 45,
 		land_based = "",
 		unlocklevel = 80,
@@ -31650,6 +31818,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -31662,7 +31831,6 @@ pg.chapter_template = {
 		avoid_ratio = 22,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -32451,16 +32619,2880 @@ pg.chapter_template = {
 		chapter_buff = {},
 		alarm_cell = {}
 	},
+	[1301] = {
+		mine_id = 2001,
+		pos_x = "0.14609375",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 0,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		ammo_cost = 1,
+		collection_team = 4,
+		air_dominance = 2315,
+		best_air_dominance = 3010,
+		count = 0,
+		id = 1301,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 1204,
+		chapter_tag = 0,
+		pop_pic = "",
+		wall_prefab = "",
+		star_require_1 = 1,
+		pos_y = "0.380208333",
+		ammo_submarine = 0,
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 36,
+		is_ai = 0,
+		group_num = 2,
+		num_2 = 30,
+		unlocklevel = 85,
+		chapter_fx = "",
+		uifx = "",
+		name = "激戰的長空",
+		chapter_name = "13–1",
+		type = 1,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 10,
+		ammo_total = 5,
+		map = 13,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "敵方的第一波航空隊即將進入防空圈！獵物已經落入陷阱，TF58，起飛迎擊！",
+		difficulty = 6,
+		avoid_ratio = 21,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.35,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1301010,
+				10,
+				0
+			},
+			{
+				1301020,
+				90,
+				0
+			},
+			{
+				1301030,
+				160,
+				0
+			},
+			{
+				1301040,
+				15,
+				0
+			},
+			{
+				1301050,
+				110,
+				0
+			},
+			{
+				1301060,
+				170,
+				2
+			},
+			{
+				1301070,
+				25,
+				0
+			},
+			{
+				1301080,
+				150,
+				0
+			},
+			{
+				1301090,
+				230,
+				1
+			},
+			{
+				1301100,
+				10,
+				3
+			},
+			{
+				1301110,
+				20,
+				3
+			},
+			{
+				1301120,
+				10,
+				3
+			}
+		},
+		ambush_expedition_list = {
+			1301210,
+			1301211,
+			1301212
+		},
+		guarder_expedition_list = {
+			1301100,
+			1301110,
+			1301120
+		},
+		elite_expedition_list = {
+			1301050,
+			1301080
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			1301000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"zuishang_g"
+		},
+		awards = {
+			{
+				2,
+				56049
+			},
+			{
+				2,
+				55049
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				8
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				4
+			},
+			{
+				7,
+				5,
+				true,
+				4
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				4
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				16
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				16
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				8
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			}
+		},
+		float_items = {
+			{
+				6,
+				7,
+				"1x2NormalIsland_2",
+				3,
+				-36
+			},
+			{
+				5,
+				3,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				3,
+				1,
+				"1x2NormalIsland_1",
+				0,
+				-31
+			},
+			{
+				2,
+				5,
+				"2x2NormalIsland_1",
+				71,
+				-47
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-250,
+			31,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			10,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[1302] = {
+		mine_id = 2001,
+		pos_x = "0.28671875",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 0,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		ammo_cost = 1,
+		collection_team = 4,
+		air_dominance = 2450,
+		best_air_dominance = 3185,
+		count = 0,
+		id = 1302,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 1301,
+		chapter_tag = 0,
+		pop_pic = "",
+		wall_prefab = "",
+		star_require_1 = 1,
+		pos_y = "0.122916667",
+		ammo_submarine = 0,
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 36,
+		is_ai = 0,
+		group_num = 2,
+		num_2 = 35,
+		unlocklevel = 85,
+		chapter_fx = "",
+		uifx = "",
+		name = "羽棲之鶴",
+		chapter_name = "13–2",
+		type = 1,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 10,
+		ammo_total = 5,
+		map = 13,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "伴隨著悠遠的笛聲，敵方的第二波攻擊襲來！這是第幾次交手了呢，{namecode:95}？",
+		difficulty = 7,
+		avoid_ratio = 22,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.66,
+			0.62,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1302010,
+				8,
+				0
+			},
+			{
+				1302020,
+				87,
+				0
+			},
+			{
+				1302030,
+				165,
+				0
+			},
+			{
+				1302040,
+				13,
+				0
+			},
+			{
+				1302050,
+				107,
+				0
+			},
+			{
+				1302060,
+				175,
+				2
+			},
+			{
+				1302070,
+				23,
+				0
+			},
+			{
+				1302080,
+				147,
+				0
+			},
+			{
+				1302090,
+				235,
+				1
+			},
+			{
+				1302100,
+				10,
+				3
+			},
+			{
+				1302110,
+				20,
+				3
+			},
+			{
+				1302120,
+				10,
+				3
+			}
+		},
+		ambush_expedition_list = {
+			1302210,
+			1302211,
+			1302212
+		},
+		guarder_expedition_list = {
+			1302100,
+			1302110,
+			1302120
+		},
+		elite_expedition_list = {
+			1302050,
+			1302080
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			1302000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"xianghe"
+		},
+		awards = {
+			{
+				2,
+				56050
+			},
+			{
+				2,
+				55050
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				9,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				4
+			},
+			{
+				8,
+				6,
+				true,
+				6
+			},
+			{
+				8,
+				5,
+				true,
+				6
+			},
+			{
+				8,
+				4,
+				true,
+				4
+			},
+			{
+				8,
+				3,
+				true,
+				4
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				6
+			},
+			{
+				7,
+				9,
+				true,
+				8
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				4
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				16
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				4
+			},
+			{
+				5,
+				8,
+				true,
+				16
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				1
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				8
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				1
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				8
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				4
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				9,
+				"2x1NormalIsland_1",
+				-54,
+				0
+			},
+			{
+				7,
+				4,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				5,
+				4,
+				"2x2NormalIsland_1",
+				77,
+				29
+			},
+			{
+				3,
+				8,
+				"1x3NormalIsland_2",
+				0,
+				0
+			},
+			{
+				2,
+				5,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				2,
+				1,
+				"1x2NormalIsland_1",
+				0,
+				-31
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-300,
+			82,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			10,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[1303] = {
+		mine_id = 2001,
+		pos_x = "0.6046875",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 0,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		ammo_cost = 1,
+		collection_team = 4,
+		air_dominance = 2585,
+		best_air_dominance = 3365,
+		count = 0,
+		id = 1303,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 1302,
+		chapter_tag = 0,
+		pop_pic = "",
+		wall_prefab = "",
+		star_require_1 = 1,
+		pos_y = "0.35625",
+		ammo_submarine = 0,
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 37,
+		is_ai = 0,
+		group_num = 2,
+		num_2 = 40,
+		unlocklevel = 85,
+		chapter_fx = "",
+		uifx = "",
+		name = "奮起之鶴",
+		chapter_name = "13–3",
+		type = 1,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 10,
+		ammo_total = 5,
+		map = 13,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "在潛艇的幫助下，我方已獲得了相當的優勢。然而來自五航戰的宿敵——{namecode:96}，卻在此時發起了新一輪的猛烈攻勢！",
+		difficulty = 8,
+		avoid_ratio = 22,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.66,
+			0.38,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1303010,
+				6,
+				0
+			},
+			{
+				1303020,
+				84,
+				0
+			},
+			{
+				1303030,
+				170,
+				0
+			},
+			{
+				1303040,
+				11,
+				0
+			},
+			{
+				1303050,
+				104,
+				0
+			},
+			{
+				1303060,
+				180,
+				2
+			},
+			{
+				1303070,
+				21,
+				0
+			},
+			{
+				1303080,
+				144,
+				0
+			},
+			{
+				1303090,
+				240,
+				1
+			},
+			{
+				1303100,
+				10,
+				3
+			},
+			{
+				1303110,
+				20,
+				3
+			},
+			{
+				1303120,
+				10,
+				3
+			}
+		},
+		ambush_expedition_list = {
+			1303210,
+			1303211,
+			1303212
+		},
+		guarder_expedition_list = {
+			1303100,
+			1303110,
+			1303120
+		},
+		elite_expedition_list = {
+			1303050,
+			1303080,
+			1303090
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			1303000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			1,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"xianghe",
+			"ruihe"
+		},
+		awards = {
+			{
+				2,
+				56051
+			},
+			{
+				2,
+				55051
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				10,
+				true,
+				6
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				6
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				6
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				6
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				4
+			},
+			{
+				7,
+				6,
+				true,
+				1
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				10,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				4
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				16
+			},
+			{
+				5,
+				1,
+				true,
+				8
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				16
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				8
+			},
+			{
+				3,
+				10,
+				true,
+				8
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				8
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				8
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				1,
+				"1x2NormalIsland_2",
+				0,
+				-36
+			},
+			{
+				6,
+				10,
+				"1x1NormalIsland_2",
+				0,
+				0
+			},
+			{
+				5,
+				4,
+				"2x3NormalIsland_1",
+				54,
+				-38
+			},
+			{
+				4,
+				6,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				2,
+				9,
+				"1x2NormalIsland_1",
+				5,
+				-45
+			},
+			{
+				2,
+				2,
+				"1x3NormalIsland_1",
+				1,
+				0
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-380,
+			115,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			10,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[1304] = {
+		mine_id = 2001,
+		pos_x = "0.70703125",
+		num_3 = 1,
+		progress_boss = 18,
+		oil = 10,
+		is_limit_move = 0,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		ammo_cost = 1,
+		collection_team = 4,
+		air_dominance = 2720,
+		best_air_dominance = 3540,
+		count = 0,
+		id = 1304,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 1303,
+		chapter_tag = 0,
+		pop_pic = "",
+		wall_prefab = "",
+		star_require_1 = 1,
+		pos_y = "0.09375",
+		ammo_submarine = 0,
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 38,
+		is_ai = 0,
+		group_num = 2,
+		num_2 = 50,
+		unlocklevel = 85,
+		chapter_fx = "",
+		uifx = "",
+		name = "起舞之鳳",
+		chapter_name = "13–4",
+		type = 1,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 7,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 10,
+		ammo_total = 5,
+		map = 13,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "最後的對決！目標是敵方旗艦，以重型裝甲為傲的最新銳航母——{namecode:97}，慎重地進行戰鬥吧！",
+		difficulty = 9,
+		avoid_ratio = 23,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 1,
+		scale = {
+			0.66,
+			0.34,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1304010,
+				4,
+				0
+			},
+			{
+				1304020,
+				81,
+				0
+			},
+			{
+				1304030,
+				175,
+				0
+			},
+			{
+				1304040,
+				9,
+				0
+			},
+			{
+				1304050,
+				101,
+				0
+			},
+			{
+				1304060,
+				185,
+				2
+			},
+			{
+				1304070,
+				19,
+				0
+			},
+			{
+				1304080,
+				141,
+				0
+			},
+			{
+				1304090,
+				245,
+				1
+			},
+			{
+				1304100,
+				10,
+				3
+			},
+			{
+				1304110,
+				20,
+				3
+			},
+			{
+				1304120,
+				10,
+				3
+			}
+		},
+		ambush_expedition_list = {
+			1304210,
+			1304211,
+			1304212
+		},
+		guarder_expedition_list = {
+			1304100,
+			1304110,
+			1304120
+		},
+		elite_expedition_list = {
+			1304050,
+			1304060,
+			1304080,
+			1304090
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			1304000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			1,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"dafeng"
+		},
+		awards = {
+			{
+				2,
+				56052
+			},
+			{
+				2,
+				55052
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				11,
+				true,
+				0
+			},
+			{
+				8,
+				10,
+				true,
+				6
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				4
+			},
+			{
+				8,
+				2,
+				true,
+				6
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				11,
+				true,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				6
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				4
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				4
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				11,
+				true,
+				6
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				11,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				1
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				11,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				4
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				1
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				11,
+				true,
+				6
+			},
+			{
+				3,
+				10,
+				true,
+				4
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				11,
+				false,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				4
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				3
+			},
+			{
+				2,
+				7,
+				true,
+				16
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				16
+			},
+			{
+				2,
+				1,
+				true,
+				8
+			},
+			{
+				1,
+				11,
+				false,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				8
+			},
+			{
+				1,
+				9,
+				true,
+				8
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				8,
+				8,
+				"2x1NormalIsland_1",
+				-52,
+				0
+			},
+			{
+				5,
+				9,
+				"2x3NormalIsland_1",
+				53,
+				-42
+			},
+			{
+				4,
+				5,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				4,
+				1,
+				"3x1NormalIsland_1",
+				-3,
+				-77
+			},
+			{
+				1,
+				11,
+				"1x2NormalIsland_1",
+				0,
+				-36
+			},
+			{
+				1,
+				7,
+				"1x3NormalIsland_2",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			-380,
+			87,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			10,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
 	[10000] = {
 		mine_id = 2001,
 		pos_x = "0.35625",
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 81,
@@ -32476,9 +35508,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.43125",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 5,
 		land_based = "",
 		unlocklevel = 15,
@@ -32492,6 +35527,7 @@ pg.chapter_template = {
 		boss_refresh = 2,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -32504,7 +35540,6 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -32869,10 +35904,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 42,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 100,
@@ -32888,9 +35923,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.294791667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 15,
@@ -32904,6 +35942,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -32916,7 +35955,6 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -33349,10 +36387,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 120,
@@ -33368,9 +36406,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.080208333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 15,
@@ -33384,6 +36425,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -33396,7 +36438,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -33859,10 +36900,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
-		group_num = 1,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 45,
@@ -33878,9 +36919,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.157291667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 6,
+		is_ai = 0,
+		group_num = 1,
 		num_2 = 3,
 		land_based = "",
 		unlocklevel = 10,
@@ -33894,6 +36938,7 @@ pg.chapter_template = {
 		boss_refresh = 1,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -33906,7 +36951,6 @@ pg.chapter_template = {
 		avoid_ratio = 3,
 		star_require_2 = 2,
 		time = 99999999,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -34149,10 +37193,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
-		group_num = 1,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 50,
@@ -34168,9 +37212,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347916667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 6,
+		is_ai = 0,
+		group_num = 1,
 		num_2 = 5,
 		land_based = "",
 		unlocklevel = 10,
@@ -34184,6 +37231,7 @@ pg.chapter_template = {
 		boss_refresh = 2,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -34196,7 +37244,6 @@ pg.chapter_template = {
 		avoid_ratio = 3,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -34546,10 +37593,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
-		group_num = 1,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 60,
@@ -34565,9 +37612,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.080208333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 7,
+		is_ai = 0,
+		group_num = 1,
 		num_2 = 5,
 		land_based = "",
 		unlocklevel = 10,
@@ -34581,6 +37631,7 @@ pg.chapter_template = {
 		boss_refresh = 2,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -34593,7 +37644,6 @@ pg.chapter_template = {
 		avoid_ratio = 3,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -34979,10 +38029,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 80,
 		oil = 10,
-		group_num = 1,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 80,
@@ -34998,9 +38048,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.446875",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 8,
+		is_ai = 0,
+		group_num = 1,
 		num_2 = 7,
 		land_based = "",
 		unlocklevel = 10,
@@ -35014,6 +38067,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -35026,7 +38080,6 @@ pg.chapter_template = {
 		avoid_ratio = 4,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -35495,10 +38548,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 70,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 110,
@@ -35514,9 +38567,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15625",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 10,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 10,
 		land_based = "",
 		unlocklevel = 20,
@@ -35530,6 +38586,7 @@ pg.chapter_template = {
 		boss_refresh = 2,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -35542,7 +38599,6 @@ pg.chapter_template = {
 		avoid_ratio = 4,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -36111,10 +39167,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 60,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 135,
@@ -36130,9 +39186,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 10,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 12,
 		land_based = "",
 		unlocklevel = 20,
@@ -36146,6 +39205,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -36158,7 +39218,6 @@ pg.chapter_template = {
 		avoid_ratio = 4,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -36780,10 +39839,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 160,
@@ -36799,9 +39858,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 11,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 12,
 		land_based = "",
 		unlocklevel = 20,
@@ -36815,6 +39877,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -36827,7 +39890,6 @@ pg.chapter_template = {
 		avoid_ratio = 5,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -37426,10 +40488,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 190,
@@ -37445,9 +40507,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.0625",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 12,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 12,
 		land_based = "",
 		unlocklevel = 20,
@@ -37461,6 +40526,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -37473,7 +40539,6 @@ pg.chapter_template = {
 		avoid_ratio = 5,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -38042,10 +41107,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 245,
@@ -38061,9 +41126,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.403125",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 12,
 		land_based = "",
 		unlocklevel = 25,
@@ -38077,6 +41145,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -38089,7 +41158,6 @@ pg.chapter_template = {
 		avoid_ratio = 6,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -38679,10 +41747,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 285,
@@ -38698,9 +41766,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 12,
 		land_based = "",
 		unlocklevel = 25,
@@ -38714,6 +41785,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -38726,7 +41798,6 @@ pg.chapter_template = {
 		avoid_ratio = 6,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -39340,10 +42411,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 330,
@@ -39359,9 +42430,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.491666667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 12,
 		land_based = "",
 		unlocklevel = 25,
@@ -39375,6 +42449,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -39387,7 +42462,6 @@ pg.chapter_template = {
 		avoid_ratio = 7,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -39996,10 +43070,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 380,
@@ -40015,9 +43089,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 12,
 		land_based = "",
 		unlocklevel = 25,
@@ -40031,6 +43108,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -40043,7 +43121,6 @@ pg.chapter_template = {
 		avoid_ratio = 7,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -40638,10 +43715,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 190,
@@ -40657,9 +43734,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 15,
 		land_based = "",
 		unlocklevel = 30,
@@ -40673,6 +43753,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -40685,7 +43766,6 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -41197,10 +44277,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 220,
@@ -41216,9 +44296,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.140625",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 15,
 		land_based = "",
 		unlocklevel = 30,
@@ -41232,6 +44315,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -41244,7 +44328,6 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -41749,10 +44832,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 250,
@@ -41768,9 +44851,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.061458333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 15,
 		land_based = "",
 		unlocklevel = 30,
@@ -41784,6 +44870,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -41796,7 +44883,6 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -42246,10 +45332,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 285,
@@ -42265,9 +45351,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.328125",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 18,
 		land_based = "",
 		unlocklevel = 30,
@@ -42281,6 +45370,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -42293,7 +45383,6 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -42880,10 +45969,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 340,
@@ -42899,9 +45988,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 18,
 		land_based = "",
 		unlocklevel = 40,
@@ -42915,6 +46007,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -42927,7 +46020,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -43519,10 +46611,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 380,
@@ -43538,9 +46630,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.071875",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 18,
 		land_based = "",
 		unlocklevel = 40,
@@ -43554,6 +46649,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -43566,7 +46662,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -44096,10 +47191,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 425,
@@ -44115,9 +47210,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 23,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 18,
 		land_based = "",
 		unlocklevel = 40,
@@ -44131,6 +47229,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -44143,7 +47242,6 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -44643,10 +47741,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 475,
@@ -44662,9 +47760,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.408333333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 24,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 40,
@@ -44678,6 +47779,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -44690,7 +47792,6 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -45215,10 +48316,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 445,
@@ -45234,9 +48335,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.113541667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 26,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 50,
@@ -45250,6 +48354,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -45262,7 +48367,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -45826,10 +48930,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 510,
@@ -45845,9 +48949,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.273958333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 26,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 50,
@@ -45861,6 +48968,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -45873,7 +48981,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -46493,10 +49600,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 575,
@@ -46512,9 +49619,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.40625",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 27,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 50,
@@ -46528,6 +49638,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -46540,7 +49651,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -47084,10 +50194,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 645,
@@ -47103,9 +50213,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.186458333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 28,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 50,
@@ -47119,6 +50232,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -47131,7 +50245,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -47719,10 +50832,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 720,
@@ -47738,9 +50851,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.130208333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 30,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 60,
@@ -47754,6 +50870,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -47766,7 +50883,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -48179,10 +51295,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 800,
@@ -48198,9 +51314,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.442708333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 30,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 60,
@@ -48214,6 +51333,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -48226,7 +51346,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -48742,10 +51861,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 880,
@@ -48761,9 +51880,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.335416667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 60,
@@ -48777,6 +51899,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -48789,7 +51912,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -49376,10 +52498,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 965,
@@ -49395,9 +52517,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.163541667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 60,
@@ -49411,6 +52536,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -49423,7 +52549,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -49994,10 +53119,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1055,
@@ -50013,9 +53138,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 70,
@@ -50029,6 +53157,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -50041,7 +53170,6 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -50476,10 +53604,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1150,
@@ -50495,9 +53623,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.258333333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 31,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 70,
@@ -50511,6 +53642,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -50523,7 +53655,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -51044,10 +54175,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1245,
@@ -51063,9 +54194,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.041666667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 70,
@@ -51079,6 +54213,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -51091,7 +54226,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -51675,10 +54809,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1350,
@@ -51694,9 +54828,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.153125",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 70,
@@ -51710,6 +54847,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -51722,7 +54860,6 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -52369,10 +55506,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1440,
@@ -52388,9 +55525,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 80,
@@ -52404,6 +55544,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -52416,7 +55557,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -52945,10 +56085,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1535,
@@ -52964,9 +56104,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 32,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 80,
@@ -52980,6 +56123,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -52992,7 +56136,6 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -53559,10 +56702,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1635,
@@ -53578,9 +56721,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 33,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 80,
@@ -53594,6 +56740,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -53606,7 +56753,6 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -54197,10 +57343,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1735,
@@ -54216,9 +57362,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09375",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 34,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 40,
 		land_based = "",
 		unlocklevel = 80,
@@ -54232,6 +57381,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -54244,7 +57394,6 @@ pg.chapter_template = {
 		avoid_ratio = 19,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -54851,16 +58000,2624 @@ pg.chapter_template = {
 		chapter_buff = {},
 		alarm_cell = {}
 	},
+	[11001] = {
+		mine_id = 2001,
+		pos_x = "0.14609375",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 0,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		ammo_cost = 1,
+		collection_team = 4,
+		air_dominance = 1855,
+		best_air_dominance = 2415,
+		count = 0,
+		id = 11001,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 0,
+		chapter_tag = 0,
+		pop_pic = "",
+		wall_prefab = "",
+		star_require_1 = 1,
+		pos_y = "0.380208333",
+		ammo_submarine = 0,
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 33,
+		is_ai = 0,
+		group_num = 2,
+		num_2 = 30,
+		land_based = "",
+		unlocklevel = 70,
+		chapter_fx = "",
+		uifx = "UIhuohua2",
+		name = "再次出擊，再次！",
+		chapter_name = "10–1",
+		type = 2,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 10,
+		ammo_total = 5,
+		map = 210,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "庫拉灣海戰後不到一周，重櫻艦隊再次集結出動前往科隆班加拉島輸送物資，由火奴魯魯與聖路易斯領銜的TF18，再次奉命出擊攔截。",
+		difficulty = 5,
+		avoid_ratio = 18,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.66,
+			0.34,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					5,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			},
+			{
+				{
+					7,
+					4,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"cannon",
+				1,
+				1200
+			},
+			{
+				"torpedo",
+				1,
+				1200
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				11001010,
+				5,
+				0
+			},
+			{
+				11001020,
+				30,
+				0
+			},
+			{
+				11001030,
+				38,
+				0
+			},
+			{
+				11001040,
+				6,
+				0
+			},
+			{
+				11001050,
+				36,
+				0
+			},
+			{
+				11001060,
+				26,
+				0
+			},
+			{
+				11001100,
+				4,
+				0
+			},
+			{
+				11001110,
+				5,
+				0
+			},
+			{
+				11001120,
+				5,
+				0
+			}
+		},
+		ambush_expedition_list = {
+			11001210,
+			11001211,
+			11001212
+		},
+		guarder_expedition_list = {
+			11001100,
+			11001110,
+			11001120
+		},
+		elite_expedition_list = {
+			11001050,
+			11001080
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			11001000
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"ximu",
+			"songfeng"
+		},
+		awards = {
+			{
+				2,
+				54045
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56037
+			},
+			{
+				2,
+				55037
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				8
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				8
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"1x1depot_night",
+				-10,
+				25
+			},
+			{
+				7,
+				4,
+				"1x1YWIsland_2",
+				0,
+				3
+			},
+			{
+				7,
+				3,
+				"1x2YWIsland_1",
+				0,
+				40
+			},
+			{
+				4,
+				6,
+				"2x2YWIsland_1",
+				-30,
+				-31
+			},
+			{
+				4,
+				5,
+				"1x1YWRock_1",
+				-28,
+				-17
+			},
+			{
+				3,
+				3,
+				"1x2YWIsland_2",
+				5,
+				33
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_YW",
+			45,
+			20,
+			-250,
+			31,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[11002] = {
+		mine_id = 2001,
+		pos_x = "0.35234375",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		is_limit_move = 0,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		ammo_cost = 1,
+		collection_team = 4,
+		air_dominance = 1970,
+		best_air_dominance = 2565,
+		count = 0,
+		id = 11002,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 0,
+		chapter_tag = 0,
+		pop_pic = "",
+		wall_prefab = "",
+		star_require_1 = 1,
+		pos_y = "0.234375",
+		ammo_submarine = 0,
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 33,
+		is_ai = 0,
+		group_num = 2,
+		num_2 = 30,
+		land_based = "",
+		unlocklevel = 70,
+		chapter_fx = "",
+		uifx = "UIhuohua2",
+		name = "先發制人",
+		chapter_name = "10–2",
+		type = 2,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 10,
+		ammo_total = 5,
+		map = 210,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "PBY夜航機發現了南下中的敵軍位置，然而，敵方也通過“逆電探”發現了我們，夜戰開始了！",
+		difficulty = 6,
+		avoid_ratio = 19,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.55,
+			0.5,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					5,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			},
+			{
+				{
+					7,
+					4,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"cannon",
+				1,
+				1200
+			},
+			{
+				"torpedo",
+				1,
+				1200
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				11002010,
+				4,
+				0
+			},
+			{
+				11002020,
+				30,
+				0
+			},
+			{
+				11002030,
+				40,
+				0
+			},
+			{
+				11002040,
+				5,
+				0
+			},
+			{
+				11002050,
+				36,
+				0
+			},
+			{
+				11002060,
+				28,
+				0
+			},
+			{
+				11002100,
+				4,
+				0
+			},
+			{
+				11002110,
+				5,
+				0
+			},
+			{
+				11002120,
+				3,
+				0
+			}
+		},
+		ambush_expedition_list = {
+			11002210,
+			11002211,
+			11002212
+		},
+		guarder_expedition_list = {
+			11002100,
+			11002110,
+			11002120
+		},
+		elite_expedition_list = {
+			11002050,
+			11002080
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			11002000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"bangfeng"
+		},
+		awards = {
+			{
+				2,
+				54046
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56038
+			},
+			{
+				2,
+				55038
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				8
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				4
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				1
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				1
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				8
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				4
+			}
+		},
+		float_items = {
+			{
+				7,
+				6,
+				"1x2YWIsland_2",
+				0,
+				40
+			},
+			{
+				6,
+				3,
+				"1x1YWRock_1",
+				15,
+				0
+			},
+			{
+				6,
+				2,
+				"2x1YWIsland_1",
+				29,
+				1
+			},
+			{
+				5,
+				8,
+				"1x1depot_night",
+				-10,
+				24
+			},
+			{
+				4,
+				8,
+				"1x1YWIsland_2",
+				2,
+				5
+			},
+			{
+				4,
+				4,
+				"2x3YWIsland_1",
+				-47,
+				-35
+			},
+			{
+				3,
+				6,
+				"1x2YWIsland_1",
+				0,
+				34
+			},
+			{
+				3,
+				3,
+				"1x1YWIsland_1",
+				-3,
+				4
+			},
+			{
+				3,
+				2,
+				"1x1YWIsland_2",
+				-4,
+				6
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_YW",
+			45,
+			20,
+			-250,
+			25,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[11003] = {
+		mine_id = 2001,
+		pos_x = "0.49453125",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 0,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		ammo_cost = 1,
+		collection_team = 4,
+		air_dominance = 2090,
+		best_air_dominance = 2720,
+		count = 0,
+		id = 11003,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 0,
+		chapter_tag = 0,
+		pop_pic = "",
+		wall_prefab = "",
+		star_require_1 = 1,
+		pos_y = "0.070833333",
+		ammo_submarine = 0,
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 34,
+		is_ai = 0,
+		group_num = 2,
+		num_2 = 35,
+		land_based = "",
+		unlocklevel = 70,
+		chapter_fx = "",
+		uifx = "UIhuohua2",
+		name = "乘勝追擊",
+		chapter_name = "10–3",
+		type = 2,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 10,
+		ammo_total = 5,
+		map = 210,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "夜色中，重櫻引以為傲的純氧魚雷重創了多艘巡洋艦，然而旗艦神通也被152MM艦炮集火而大破，開始撤退。",
+		difficulty = 7,
+		avoid_ratio = 19,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.36,
+			0.64,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					5,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			},
+			{
+				{
+					7,
+					4,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"cannon",
+				1,
+				1200
+			},
+			{
+				"torpedo",
+				1,
+				1200
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				11003010,
+				3,
+				0
+			},
+			{
+				11003020,
+				28,
+				0
+			},
+			{
+				11003030,
+				42,
+				0
+			},
+			{
+				11003040,
+				5,
+				0
+			},
+			{
+				11003050,
+				36,
+				0
+			},
+			{
+				11003060,
+				30,
+				0
+			},
+			{
+				11003100,
+				4,
+				0
+			},
+			{
+				11003110,
+				5,
+				0
+			},
+			{
+				11003120,
+				3,
+				0
+			}
+		},
+		ambush_expedition_list = {
+			11003210,
+			11003211,
+			11003212
+		},
+		guarder_expedition_list = {
+			11003100,
+			11003110,
+			11003120
+		},
+		elite_expedition_list = {
+			11003050,
+			11003060,
+			11003080
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			11003000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"xuefeng"
+		},
+		awards = {
+			{
+				2,
+				54047
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56039
+			},
+			{
+				2,
+				55039
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				true,
+				6
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				4
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				8
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				8
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				16
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				8
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				2
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				8
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				4
+			}
+		},
+		float_items = {
+			{
+				7,
+				1,
+				"1x1YWIsland_1",
+				0,
+				0
+			},
+			{
+				6,
+				6,
+				"1x3YWIsland_2",
+				0,
+				0
+			},
+			{
+				5,
+				9,
+				"1x1YWIsland_2",
+				0,
+				4
+			},
+			{
+				5,
+				3,
+				"2x1YWIsland_1",
+				46,
+				0
+			},
+			{
+				3,
+				7,
+				"1x2YWIsland_2",
+				0,
+				33
+			},
+			{
+				3,
+				3,
+				"1x3YWIsland_1",
+				0,
+				3
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_YW",
+			45,
+			20,
+			-280,
+			27,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
+	[11004] = {
+		mine_id = 2001,
+		pos_x = "0.571875",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		is_limit_move = 0,
+		activate_time = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		ammo_cost = 1,
+		collection_team = 4,
+		air_dominance = 2210,
+		best_air_dominance = 2875,
+		count = 0,
+		id = 11004,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 0,
+		chapter_tag = 0,
+		pop_pic = "",
+		wall_prefab = "",
+		star_require_1 = 1,
+		pos_y = "0.378125",
+		ammo_submarine = 0,
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 35,
+		is_ai = 0,
+		group_num = 2,
+		num_2 = 40,
+		land_based = "",
+		unlocklevel = 70,
+		chapter_fx = "",
+		uifx = "UIhuohua2",
+		name = "回馬槍",
+		chapter_name = "10–4",
+		type = 2,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 6,
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 10,
+		ammo_total = 5,
+		map = 210,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "正當火奴魯魯等艦乘勝追擊之時，重櫻的水雷小隊在夜色的掩護中殺出了一記回馬槍，火奴魯魯與聖路易斯接連中雷，情況危急！",
+		difficulty = 8,
+		avoid_ratio = 20,
+		star_require_2 = 2,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		submarine_num = 0,
+		scale = {
+			0.338,
+			0.43,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					5,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			},
+			{
+				{
+					7,
+					4,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"cannon",
+				1,
+				1200
+			},
+			{
+				"torpedo",
+				1,
+				1200
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				11004010,
+				2,
+				0
+			},
+			{
+				11004020,
+				26,
+				0
+			},
+			{
+				11004030,
+				44,
+				0
+			},
+			{
+				11004040,
+				5,
+				0
+			},
+			{
+				11004050,
+				36,
+				0
+			},
+			{
+				11004060,
+				30,
+				0
+			},
+			{
+				11004100,
+				4,
+				0
+			},
+			{
+				11004110,
+				5,
+				0
+			},
+			{
+				11004120,
+				3,
+				0
+			}
+		},
+		ambush_expedition_list = {
+			11004210,
+			11004211,
+			11004212
+		},
+		guarder_expedition_list = {
+			11004100,
+			11004110,
+			11004120
+		},
+		elite_expedition_list = {
+			11004050,
+			11004060,
+			11004080,
+			11004090
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			11004000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"shentong"
+		},
+		awards = {
+			{
+				2,
+				54048
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56040
+			},
+			{
+				2,
+				55040
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				true,
+				8
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				4
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				16
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				16
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				8
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				7,
+				6,
+				"1x2YWIsland_1",
+				0,
+				42
+			},
+			{
+				5,
+				8,
+				"1x1YWIsland_1",
+				4,
+				4
+			},
+			{
+				5,
+				2,
+				"1x3YWIsland_2",
+				0,
+				0
+			},
+			{
+				4,
+				6,
+				"1x1YWIsland_2",
+				0,
+				0
+			},
+			{
+				4,
+				5,
+				"1x1YWRock_1",
+				46,
+				44
+			},
+			{
+				3,
+				5,
+				"1x2YWIsland_2",
+				1,
+				34
+			},
+			{
+				3,
+				3,
+				"1x1depot_night",
+				-12,
+				21
+			},
+			{
+				2,
+				9,
+				"2x2YWIsland_1",
+				-21,
+				-29
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_YW",
+			45,
+			20,
+			-280,
+			12,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {},
+		alarm_cell = {}
+	},
 	[1000001] = {
 		mine_id = 2001,
 		pos_x = "0.1625",
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 100,
@@ -54876,9 +60633,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -54892,6 +60652,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -54904,7 +60665,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -55406,10 +61166,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 135,
@@ -55425,9 +61185,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -55441,6 +61204,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -55453,7 +61217,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -56095,10 +61858,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 170,
@@ -56114,9 +61877,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -56130,6 +61896,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -56142,7 +61909,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -56751,10 +62517,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 205,
@@ -56770,9 +62536,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -56786,6 +62555,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -56798,7 +62568,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -57525,10 +63294,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 220,
@@ -57544,9 +63313,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -57560,6 +63332,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -57572,7 +63345,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -58094,10 +63866,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 320,
@@ -58113,9 +63885,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -58129,6 +63904,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -58141,7 +63917,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -58671,10 +64446,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 425,
@@ -58690,9 +64465,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -58706,6 +64484,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -58718,7 +64497,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -59303,10 +65081,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 535,
@@ -59322,9 +65100,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -59338,6 +65119,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -59350,7 +65132,6 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -60091,10 +65872,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 355,
@@ -60110,9 +65891,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -60126,6 +65910,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -60138,7 +65923,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -60681,10 +66465,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 430,
@@ -60700,9 +66484,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -60716,6 +66503,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -60728,7 +66516,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -61413,10 +67200,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 505,
@@ -61432,9 +67219,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -61448,6 +67238,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -61460,7 +67251,6 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -62110,10 +67900,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 580,
@@ -62129,9 +67919,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -62145,6 +67938,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -62157,7 +67951,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -62925,10 +68718,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 635,
@@ -62944,9 +68737,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -62960,6 +68756,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -62972,7 +68769,6 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -63535,10 +69331,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 790,
@@ -63554,9 +69350,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -63570,6 +69369,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -63582,7 +69382,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -64153,10 +69952,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 955,
@@ -64172,9 +69971,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -64188,6 +69990,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -64200,7 +70003,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -64826,10 +70628,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 17,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1130,
@@ -64845,9 +70647,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -64861,6 +70666,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -64873,7 +70679,6 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -65655,10 +71460,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 81,
@@ -65674,9 +71479,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -65690,6 +71498,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -65702,7 +71511,6 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -66251,10 +72059,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 100,
@@ -66270,9 +72078,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -66286,6 +72097,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -66298,7 +72110,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -66849,10 +72660,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 120,
@@ -66868,9 +72679,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -66884,6 +72698,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -66896,7 +72711,6 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -67570,10 +73384,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 35,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 81,
@@ -67589,9 +73403,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -67605,6 +73422,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -67617,7 +73435,6 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -68149,10 +73966,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 28,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 100,
@@ -68168,9 +73985,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.079166667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -68184,6 +74004,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -68196,7 +74017,6 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -68827,10 +74647,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 22,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 120,
@@ -68846,9 +74666,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.373958333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -68862,6 +74685,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -68874,7 +74698,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -69563,10 +75386,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 0,
@@ -69582,9 +75405,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.196875",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 10,
 		land_based = "",
 		unlocklevel = 0,
@@ -69598,6 +75424,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -69610,7 +75437,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -70421,10 +76247,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
-		ammo_submarine = 2,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 150,
@@ -70440,9 +76266,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -70456,6 +76285,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -70468,7 +76298,6 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -70960,10 +76789,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
-		ammo_submarine = 2,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 205,
@@ -70979,9 +76808,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -70995,6 +76827,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -71007,7 +76840,6 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -71555,10 +77387,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
-		ammo_submarine = 2,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 270,
@@ -71574,9 +77406,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -71590,6 +77425,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -71602,7 +77438,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -72219,10 +78054,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
-		ammo_submarine = 2,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 330,
@@ -72238,9 +78073,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -72254,6 +78092,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -72266,7 +78105,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -72834,10 +78672,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
-		ammo_submarine = 2,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 430,
@@ -72853,9 +78691,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -72869,6 +78710,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -72881,7 +78723,6 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -73548,10 +79389,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
-		ammo_submarine = 2,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 535,
@@ -73567,9 +79408,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -73583,6 +79427,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -73595,7 +79440,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -74259,10 +80103,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
-		ammo_submarine = 2,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 530,
@@ -74278,9 +80122,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -74294,6 +80141,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -74306,7 +80154,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -74841,10 +80688,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
-		ammo_submarine = 2,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 605,
@@ -74860,9 +80707,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -74876,6 +80726,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -74888,7 +80739,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -75478,10 +81328,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
-		ammo_submarine = 2,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 680,
@@ -75497,9 +81347,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -75513,6 +81366,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -75525,7 +81379,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -76185,10 +82038,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
-		ammo_submarine = 2,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 810,
@@ -76204,9 +82057,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -76220,6 +82076,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -76232,7 +82089,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -76842,10 +82698,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
-		ammo_submarine = 2,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 965,
@@ -76861,9 +82717,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -76877,6 +82736,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -76889,7 +82749,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -77598,10 +83457,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
-		ammo_submarine = 2,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1130,
@@ -77617,9 +83476,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 40,
 		land_based = "",
 		unlocklevel = 0,
@@ -77633,6 +83495,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -77645,7 +83508,6 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -78350,10 +84212,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 2,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 0,
@@ -78369,9 +84231,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.277083333",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 10,
 		land_based = "",
 		unlocklevel = 0,
@@ -78385,6 +84250,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -78397,7 +84263,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -79095,10 +84960,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 100,
@@ -79114,9 +84979,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -79130,6 +84998,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -79142,7 +85011,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -79644,10 +85512,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 135,
@@ -79663,9 +85531,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -79679,6 +85550,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -79691,7 +85563,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -80333,10 +86204,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 170,
@@ -80352,9 +86223,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -80368,6 +86242,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -80380,7 +86255,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -80989,10 +86863,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 205,
@@ -81008,9 +86882,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -81024,6 +86901,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -81036,7 +86914,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -81763,10 +87640,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 220,
@@ -81782,9 +87659,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -81798,6 +87678,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -81810,7 +87691,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -82332,10 +88212,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 320,
@@ -82351,9 +88231,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -82367,6 +88250,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -82379,7 +88263,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -82909,10 +88792,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 425,
@@ -82928,9 +88811,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -82944,6 +88830,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -82956,7 +88843,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -83541,10 +89427,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 535,
@@ -83560,9 +89446,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -83576,6 +89465,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -83588,7 +89478,6 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -84329,10 +90218,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 355,
@@ -84348,9 +90237,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -84364,6 +90256,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -84376,7 +90269,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -84919,10 +90811,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 430,
@@ -84938,9 +90830,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -84954,6 +90849,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -84966,7 +90862,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -85651,10 +91546,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 505,
@@ -85670,9 +91565,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -85686,6 +91584,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -85698,7 +91597,6 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -86348,10 +92246,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 580,
@@ -86367,9 +92265,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -86383,6 +92284,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -86395,7 +92297,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -87163,10 +93064,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 635,
@@ -87182,9 +93083,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -87198,6 +93102,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -87210,7 +93115,6 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -87773,10 +93677,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 790,
@@ -87792,9 +93696,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -87808,6 +93715,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -87820,7 +93728,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -88391,10 +94298,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 955,
@@ -88410,9 +94317,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -88426,6 +94336,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -88438,7 +94349,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -89064,10 +94974,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 17,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 1,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1130,
@@ -89083,9 +94993,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -89099,6 +95012,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 1,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -89111,7 +95025,6 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -89893,10 +95806,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 0,
-		group_num = 1,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1485,
@@ -89912,9 +95825,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 1,
 		num_2 = 4,
 		land_based = "",
 		unlocklevel = 0,
@@ -89928,6 +95844,7 @@ pg.chapter_template = {
 		boss_refresh = 0,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -89940,7 +95857,6 @@ pg.chapter_template = {
 		avoid_ratio = 18,
 		star_require_2 = 4,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -90316,10 +96232,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 120,
@@ -90335,9 +96251,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 7,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 15,
 		land_based = "",
 		unlocklevel = 0,
@@ -90351,6 +96270,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -90363,7 +96283,6 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -90897,10 +96816,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 160,
@@ -90916,9 +96835,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 7,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -90932,6 +96854,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -90944,7 +96867,6 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -91539,10 +97461,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 200,
@@ -91558,9 +97480,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 7,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -91574,6 +97499,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -91586,7 +97512,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -92272,10 +98197,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 260,
@@ -92291,9 +98216,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 7,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -92307,6 +98235,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -92319,7 +98248,6 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -92943,10 +98871,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 320,
@@ -92962,9 +98890,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 7,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -92978,6 +98909,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -92990,7 +98922,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -93755,10 +99686,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 320,
@@ -93774,9 +99705,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 7,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -93790,6 +99724,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -93802,7 +99737,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -94746,10 +100680,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 360,
@@ -94765,9 +100699,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 7,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -94781,6 +100718,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -94793,7 +100731,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -95368,10 +101305,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 400,
@@ -95387,9 +101324,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 7,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -95403,6 +101343,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -95415,7 +101356,6 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -96051,10 +101991,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 490,
@@ -96070,9 +102010,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 7,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -96086,6 +102029,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -96098,7 +102042,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -96825,10 +102768,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 580,
@@ -96844,9 +102787,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 7,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -96860,6 +102806,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -96872,7 +102819,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -97537,10 +103483,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 680,
@@ -97556,9 +103502,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 7,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -97572,6 +103521,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -97584,7 +103534,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -98390,10 +104339,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1130,
@@ -98409,9 +104358,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 7,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 40,
 		land_based = "",
 		unlocklevel = 0,
@@ -98425,6 +104377,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -98437,7 +104390,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -99422,10 +105374,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 95,
@@ -99441,9 +105393,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 10,
 		land_based = "",
 		unlocklevel = 0,
@@ -99457,6 +105412,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -99469,7 +105425,6 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -100013,10 +105968,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 130,
@@ -100032,9 +105987,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 15,
 		land_based = "",
 		unlocklevel = 0,
@@ -100048,6 +106006,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -100060,7 +106019,6 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -100575,10 +106533,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 170,
@@ -100594,9 +106552,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 15,
 		land_based = "",
 		unlocklevel = 0,
@@ -100610,6 +106571,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -100622,7 +106584,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -101233,10 +107194,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 220,
@@ -101252,9 +107213,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -101268,6 +107232,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -101280,7 +107245,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -101893,10 +107857,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 300,
@@ -101912,9 +107876,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -101928,6 +107895,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -101940,7 +107908,6 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -102596,10 +108563,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 380,
@@ -102615,9 +108582,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -102631,6 +108601,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -102643,7 +108614,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -103273,10 +109243,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 375,
@@ -103292,9 +109262,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 17,
 		land_based = "",
 		unlocklevel = 0,
@@ -103308,6 +109281,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -103320,7 +109294,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -103906,10 +109879,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 470,
@@ -103925,9 +109898,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 17,
 		land_based = "",
 		unlocklevel = 0,
@@ -103941,6 +109917,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -103953,7 +109930,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -104510,10 +110486,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 570,
@@ -104529,9 +110505,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 21,
 		land_based = "",
 		unlocklevel = 0,
@@ -104545,6 +110524,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -104557,7 +110537,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -105210,10 +111189,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 730,
@@ -105229,9 +111208,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -105245,6 +111227,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -105257,7 +111240,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -105912,10 +111894,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 930,
@@ -105931,9 +111913,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 40,
 		land_based = "",
 		unlocklevel = 0,
@@ -105947,6 +111932,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -105959,7 +111945,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -106659,10 +112644,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1125,
@@ -106678,9 +112663,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 40,
 		land_based = "",
 		unlocklevel = 0,
@@ -106694,6 +112682,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -106706,7 +112695,6 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -107380,10 +113368,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 0,
-		group_num = 1,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 620,
@@ -107399,9 +113387,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 1,
 		num_2 = 4,
 		land_based = "",
 		unlocklevel = 0,
@@ -107415,6 +113406,7 @@ pg.chapter_template = {
 		boss_refresh = 0,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -107427,7 +113419,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 4,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -107784,10 +113775,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 90,
@@ -107803,9 +113794,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.361458333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 15,
 		land_based = "",
 		unlocklevel = 0,
@@ -107819,6 +113813,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -107831,7 +113826,6 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -108275,10 +114269,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 120,
@@ -108294,9 +114288,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.111458333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -108310,6 +114307,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -108322,7 +114320,6 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -108828,10 +114825,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 160,
@@ -108847,9 +114844,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3446875",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -108863,6 +114863,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -108875,7 +114876,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -109471,10 +115471,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 200,
@@ -109490,9 +115490,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -109506,6 +115509,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -109518,7 +115522,6 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -110137,10 +116140,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 260,
@@ -110156,9 +116159,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.073958",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -110172,6 +116178,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -110184,7 +116191,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -110821,10 +116827,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 320,
@@ -110840,9 +116846,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347395833",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -110856,6 +116865,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -110868,7 +116878,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -111680,10 +117689,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 320,
@@ -111699,9 +117708,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.361458333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -111715,6 +117727,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -111727,7 +117740,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -112212,10 +118224,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 360,
@@ -112231,9 +118243,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.111458333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -112247,6 +118262,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -112259,7 +118275,6 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -112806,10 +118821,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 400,
@@ -112825,9 +118840,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3446875",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -112841,6 +118859,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -112853,7 +118872,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -113490,10 +119508,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 490,
@@ -113509,9 +119527,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -113525,6 +119546,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -113537,7 +119559,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -114197,10 +120218,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 580,
@@ -114216,9 +120237,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.073958",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -114232,6 +120256,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -114244,7 +120269,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -114922,10 +120946,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 680,
@@ -114941,9 +120965,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347395833",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 40,
 		land_based = "",
 		unlocklevel = 0,
@@ -114957,6 +120984,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -114969,7 +120997,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -115822,10 +121849,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 100,
 		oil = 0,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 620,
@@ -115841,9 +121868,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.196875",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 4,
 		land_based = "",
 		unlocklevel = 0,
@@ -115857,6 +121887,7 @@ pg.chapter_template = {
 		boss_refresh = 0,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -115869,7 +121900,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 4,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -116401,10 +122431,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 95,
@@ -116420,9 +122450,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.375",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 15,
 		land_based = "",
 		unlocklevel = 0,
@@ -116436,6 +122469,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -116448,7 +122482,6 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -116997,10 +123030,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 130,
@@ -117016,9 +123049,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.151041667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -117032,6 +123068,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -117044,7 +123081,6 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -117558,10 +123594,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 170,
@@ -117577,9 +123613,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09583",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -117593,6 +123632,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -117605,7 +123645,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -118217,10 +124256,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 220,
@@ -118236,9 +124275,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.334375",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -118252,6 +124294,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -118264,7 +124307,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -118874,10 +124916,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "YINGHUA11",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 285,
@@ -118893,9 +124935,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.175",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -118909,6 +124954,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -118921,7 +124967,6 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -119582,10 +125627,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 380,
@@ -119601,9 +125646,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.255208333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -119617,6 +125665,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -119629,7 +125678,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -120350,10 +126398,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 375,
@@ -120369,9 +126417,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.375",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 25,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -120384,6 +126435,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -120396,7 +126448,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -120988,10 +127039,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 470,
@@ -121007,9 +127058,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.151041667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -121023,6 +127077,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -121035,7 +127090,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -121591,10 +127645,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 570,
@@ -121610,9 +127664,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09583",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -121626,6 +127683,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -121638,7 +127696,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -122292,10 +128349,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 730,
@@ -122311,9 +128368,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.334375",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -122327,6 +128387,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -122339,7 +128400,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -122991,10 +129051,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "YINGHUA11",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 915,
@@ -123010,9 +129070,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.175",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 40,
 		land_based = "",
 		unlocklevel = 0,
@@ -123026,6 +129089,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -123038,7 +129102,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -123743,10 +129806,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1125,
@@ -123762,9 +129825,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.255208333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 1,
+		group_num = 2,
 		num_2 = 40,
 		land_based = "",
 		unlocklevel = 0,
@@ -123778,6 +129844,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -123790,7 +129857,6 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -124555,10 +130621,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 0,
-		group_num = 1,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1485,
@@ -124574,9 +130640,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.277083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 5,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 1,
 		num_2 = 4,
 		land_based = "",
 		unlocklevel = 0,
@@ -124590,6 +130659,7 @@ pg.chapter_template = {
 		boss_refresh = 0,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -124602,7 +130672,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 4,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -124963,10 +131032,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
-		ammo_submarine = 2,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 150,
@@ -124982,9 +131051,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 14,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -124998,6 +131070,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -125010,7 +131083,6 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -125502,10 +131574,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
-		ammo_submarine = 2,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 205,
@@ -125521,9 +131593,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -125537,6 +131612,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -125549,7 +131625,6 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -126097,10 +132172,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
-		ammo_submarine = 2,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 270,
@@ -126116,9 +132191,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -126132,6 +132210,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -126144,7 +132223,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -126761,10 +132839,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
-		ammo_submarine = 2,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 330,
@@ -126780,9 +132858,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 15,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -126796,6 +132877,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -126808,7 +132890,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -127376,10 +133457,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
-		ammo_submarine = 2,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 430,
@@ -127395,9 +133476,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 16,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -127411,6 +133495,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -127423,7 +133508,6 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -128090,10 +134174,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
-		ammo_submarine = 2,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 535,
@@ -128109,9 +134193,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -128125,6 +134212,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -128137,7 +134225,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -128801,10 +134888,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
-		ammo_submarine = 2,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 530,
@@ -128820,9 +134907,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 17,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -128836,6 +134926,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -128848,7 +134939,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -129383,10 +135473,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
-		ammo_submarine = 2,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 605,
@@ -129402,9 +135492,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 18,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -129418,6 +135511,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -129430,7 +135524,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -130020,10 +136113,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
-		ammo_submarine = 2,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 680,
@@ -130039,9 +136132,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -130055,6 +136151,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -130067,7 +136164,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -130727,10 +136823,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
-		ammo_submarine = 2,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 810,
@@ -130746,9 +136842,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 19,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -130762,6 +136861,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -130774,7 +136874,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -131384,10 +137483,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
-		ammo_submarine = 2,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 965,
@@ -131403,9 +137502,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 20,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -131419,6 +137521,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -131431,7 +137534,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -132140,10 +138242,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
-		ammo_submarine = 2,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 1130,
@@ -132159,9 +138261,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 21,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 40,
 		land_based = "",
 		unlocklevel = 0,
@@ -132175,6 +138280,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -132187,7 +138293,6 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -132892,10 +138997,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 2,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 620,
@@ -132911,9 +139016,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.277083333",
+		ammo_submarine = 2,
 		num_1 = 1,
 		model = 1,
 		investigation_ratio = 22,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 10,
 		land_based = "",
 		unlocklevel = 0,
@@ -132927,6 +139035,7 @@ pg.chapter_template = {
 		boss_refresh = 3,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -132939,7 +139048,6 @@ pg.chapter_template = {
 		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 0,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 0,
 		scale = {
@@ -133637,10 +139745,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 50,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 120,
@@ -133656,9 +139764,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 15,
 		land_based = "",
 		unlocklevel = 0,
@@ -133672,6 +139783,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -133684,7 +139796,6 @@ pg.chapter_template = {
 		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -134178,10 +140289,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 165,
@@ -134197,9 +140308,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 20,
 		land_based = "",
 		unlocklevel = 0,
@@ -134213,6 +140327,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -134225,7 +140340,6 @@ pg.chapter_template = {
 		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -134825,10 +140939,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 215,
@@ -134844,9 +140958,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1739",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -134860,6 +140977,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -134872,7 +140990,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -135584,10 +141701,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 265,
@@ -135603,9 +141720,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -135619,6 +141739,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -135631,7 +141752,6 @@ pg.chapter_template = {
 		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -136138,10 +142258,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 345,
@@ -136157,9 +142277,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -136173,6 +142296,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -136185,7 +142309,6 @@ pg.chapter_template = {
 		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -136797,10 +142920,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 425,
@@ -136816,9 +142939,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		unlocklevel = 0,
 		chapter_fx = "",
@@ -136831,6 +142957,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -136843,7 +142970,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -137583,10 +143709,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 34,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 425,
@@ -137602,9 +143728,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 25,
 		land_based = "",
 		unlocklevel = 0,
@@ -137618,6 +143747,7 @@ pg.chapter_template = {
 		boss_refresh = 4,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -137630,7 +143760,6 @@ pg.chapter_template = {
 		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -138165,10 +144294,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 485,
@@ -138184,9 +144313,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -138200,6 +144332,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -138212,7 +144345,6 @@ pg.chapter_template = {
 		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -138853,10 +144985,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 25,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 545,
@@ -138872,9 +145004,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1739",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -138888,6 +145023,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -138900,7 +145036,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -139653,10 +145788,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 650,
@@ -139672,9 +145807,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 30,
 		land_based = "",
 		unlocklevel = 0,
@@ -139688,6 +145826,7 @@ pg.chapter_template = {
 		boss_refresh = 5,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -139700,7 +145839,6 @@ pg.chapter_template = {
 		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -140250,10 +146388,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 20,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 770,
@@ -140269,9 +146407,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 35,
 		land_based = "",
 		unlocklevel = 0,
@@ -140285,6 +146426,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -140297,7 +146439,6 @@ pg.chapter_template = {
 		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -140952,10 +147093,10 @@ pg.chapter_template = {
 		num_3 = 1,
 		progress_boss = 17,
 		oil = 10,
-		group_num = 2,
+		is_limit_move = 0,
 		activate_time = 0,
 		story_refresh_boss = "",
-		ammo_submarine = 0,
+		is_ambush = 0,
 		ammo_cost = 1,
 		collection_team = 0,
 		air_dominance = 905,
@@ -140971,9 +147112,12 @@ pg.chapter_template = {
 		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
+		ammo_submarine = 0,
 		num_1 = 1,
 		model = 2,
 		investigation_ratio = 0,
+		is_ai = 0,
+		group_num = 2,
 		num_2 = 40,
 		land_based = "",
 		unlocklevel = 0,
@@ -140987,6 +147131,7 @@ pg.chapter_template = {
 		boss_refresh = 6,
 		event_skip = 0,
 		lose_condition_display = "lose_condition_display_quanmie",
+		is_air_attack = 0,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -140999,7 +147144,6 @@ pg.chapter_template = {
 		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
-		limit_move = 1,
 		win_condition_display = "win_condition_display_qijian",
 		submarine_num = 1,
 		scale = {
@@ -141831,6 +147975,10 @@ pg.chapter_template = {
 		1202,
 		1203,
 		1204,
+		1301,
+		1302,
+		1303,
+		1304,
 		10000,
 		10001,
 		10002,
@@ -141870,6 +148018,10 @@ pg.chapter_template = {
 		10902,
 		10903,
 		10904,
+		11001,
+		11002,
+		11003,
+		11004,
 		1000001,
 		1000002,
 		1000003,

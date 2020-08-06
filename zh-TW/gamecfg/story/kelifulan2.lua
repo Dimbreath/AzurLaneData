@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=45>二 骑士团结成！</size>",
+					"騎士與獎賞\n\n<size=45>二 騎士團結成！ </size>",
 					1
 				}
 			}
 		},
 		{
-			say = "傍晚·体育馆的一角",
+			say = "傍晚·體育館的一角",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我把队员找齐了！…虽然其实就是我那些妹妹吧。咳，“海上骑士团”，全体集合！",
+			say = "我把隊員找齊了！ …雖然其實就是我那些妹妹吧。咳，“海上騎士團”，全體集合！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "喔——！",
+			say = "噢——！",
 			action = {
 				{
 					y = 30,
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 102100,
 			nameColor = "#a9f548",
-			say = "……噗。……喔——！",
+			say = "……噗。 ……噢——！",
 			action = {
 				{
 					y = 30,
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "看来是由克利夫兰级轻巡四人组成了队伍。",
+			say = "看來是由克里夫蘭級輕巡四人組成了隊伍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，这次就由我们四个人组队参赛！指挥官来担任我们的教练！大家一起努力争取冠军吧！",
+			say = "好了，這次就由我們四個人組隊參賽！指揮官來擔任我們的教練！大家一起努力爭取冠軍吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我先来说一下这次事情的经过和比赛规则！指挥官如果有什么要补充的也尽管说吧！",
+			say = "我先來說一下這次事情的經過和比賽規則！指揮官如果有什麼要補充的也儘管說吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = -1,
 			actor = 102140,
 			nameColor = "#a9f548",
-			say = "……明白了。只要大姐头一声令下，就算只有我一个人也会去干掉对方全队的",
+			say = "……明白了。只要大姐頭一聲令下，就算只有我一個人也會去幹掉對方全隊的",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			say = "不是啦！不是干掉对方，是要靠比赛赢过她们啊！",
+			say = "不是啦！不是幹掉對方，是要靠比賽贏過她們啊！",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "懂了，大家一起比赛一起挥洒汗水，既能促进团队精神，更有利于消除势力间的隔阂对吧！不愧是大姐头！",
+			say = "懂了，大家一起比賽一起揮灑汗水，既能促進團隊精神，更有利於消除勢力間的隔閡對吧！不愧是大姐頭！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我倒是没想那么远……唉……哥伦比亚应该明白我的意思吧？",
+			say = "我倒是沒想那麼遠……唉……哥倫比亞應該明白我的意思吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "重点我倒是明白啦……（小声）说白了就是大姐头让指挥官看到自己的优点嘛？",
+			say = "重點我倒是明白啦……（小聲）說白了就是大姐頭讓指揮官看到自己的優點嘛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "……什么！？///（脸红）",
+			say = "……什麼！ ？ ///（臉紅）",
 			action = {
 				{
 					y = 0,
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "克利夫兰瞬间变得满脸通红。",
+			say = "克里夫蘭瞬間變得滿臉通紅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "懂了！和指挥官确定恋爱关系的话，整个舰队的战力也能提高对吧！为了大姐头和舰队的幸福，我会全力支持妳们的！",
+			say = "懂了！和指揮官確定戀愛關係的話，整個艦隊的戰力也能提高對吧！為了大姐頭和艦隊的幸福，我會全力支持你們的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			say = "我明白了。……喂，大姐头为了讨妳喜欢都做到这份上了，以后不许妳离开她半步听见没有。妳要把她的一言一行都牢牢记住。",
+			say = "我明白了。……喂，大姐頭為了討你喜歡都做到這份上了，以後不許你離開她半步聽見沒有。你要把她的一言一行都牢牢記住。",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -325,7 +325,7 @@ return {
 			blackBg = true,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "不——是——啦！！妳们倒是好好听人说话啊——！",
+			say = "不——是——啦！ ！你們倒是好好聽人說話啊——！",
 			action = {
 				{
 					y = 30,

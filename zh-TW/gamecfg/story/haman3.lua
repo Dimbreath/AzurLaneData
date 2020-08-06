@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=45>三 不高兴的理由·中</size>",
+					"哈曼觀察日誌\n\n<size=45>三 不高興的理由·中</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "被哈曼赶出指挥室后过了一会儿……",
+			say = "被哈曼趕出指揮室後過了一會兒……",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -28,7 +28,7 @@ return {
 			},
 			options = {
 				{
-					content = "吃着外卖继续观察哈曼",
+					content = "吃著外送繼續觀察哈曼",
 					flag = 1
 				}
 			}
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101250,
-			say = "总，总之先打扫一下指挥室吧……",
+			say = "總，總之先打掃一下指揮室吧……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "五分钟后——",
+			say = "五分鐘後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101250,
-			say = "怎，怎么办…要是被指挥官嫌弃了…哈曼就…",
+			say = "怎，怎麼辦…要是被指揮官嫌棄了…哈曼就…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不会的，现在还不会，只要去找指挥官道个歉……可我又不知道他现在去哪了……",
+			say = "不會的，現在還不會，只要去找指揮官道個歉……可我又不知道他現在去哪了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "对了，去问问正在用演习海域的列星頓姐姐…",
+			say = "對了，去問問正在用演習海域的列星頓姐姐…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不行不行不行！我得预习一下要是在路上碰到指挥官了该怎么办…！",
+			say = "不行不行不行！我得預習一下要是在路上碰到指揮官了該怎麼辦…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哈曼啪啪的拍了拍脸，振作精神。",
+			say = "哈曼啪啪的拍了拍臉，振作精神。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指，指指，指挥官！把，把妳赶出去对不起啦！",
+			say = "指，指指，指揮官！把，把你趕出去對不起啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "别在这里摸鱼了！快回指挥室去！",
+			say = "別在這裡摸魚了！快回指揮室去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊不行！这么说的话指挥官又要消沉了…！",
+			say = "啊不行！這麼說的話指揮官又要消沉了…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哈曼抱着脑袋，十分苦恼的样子。",
+			say = "哈曼抱著腦袋，十分苦惱的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊啊不管了！就用萨拉托加上次告诉我的办法……",
+			say = "啊啊不管了！就用薩拉托加上次告訴我的辦法……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "“不好意思啦指挥官♪哈曼刚才呀，犯了个小错误呢☆”",
+			say = "“不好意思啦指揮官♪哈曼剛才呀，犯了個小錯誤呢☆”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "“哈曼会为了指挥官更~努力的，所以妳就原谅哈曼嘛(>_<)”",
+			say = "“哈曼會為了指揮官更~努力的，所以你就原諒哈曼嘛(>_<)”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（开门）",
+			say = "（開門）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哈曼♪我来找妳玩了~",
+			say = "哈曼♪我來找妳玩了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "诶？",
+			say = "欸？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "诶？",
+			say = "欸？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

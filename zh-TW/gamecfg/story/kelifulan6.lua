@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=45>六　奋发努力！</size>",
+					"騎士與獎賞\n\n<size=45>六 奮發努力！</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "体育馆的休息室里。克利夫兰和队员们嘴上虽不说，每个人脸上都是愁云满布。",
+			say = "體育館的休息室裡。克里夫蘭和隊員們嘴上雖不說，每個人臉上都是愁雲滿佈。",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -28,7 +28,7 @@ return {
 			},
 			options = {
 				{
-					content = "给克利夫兰打气",
+					content = "給克里夫蘭打氣",
 					flag = 1
 				}
 			}
@@ -39,7 +39,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢妳鼓励我指挥官，可事到如今都是我的责任……作为队长，我要怎么面对一路努力过来的队员和指挥官……",
+			say = "謝謝你鼓勵我指揮官，可事到如今都是我的責任……作為隊長，我要怎麼面對一路努力過來的隊員和指揮官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再说这次比赛本来就是我把大家硬拉进来的，就更对不住……",
+			say = "再說這次比賽本來就是我把大家硬拉進來的，就更對不起……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“不想看到克爹垂头丧气的样子”？……所以说为啥要叫我克爹啊！明、明明人家正在低落的时候！",
+			say = "“不想看到克爹垂頭喪氣的樣子”？ ……所以說為啥要叫我克爹啊！明、明明人家正在低落的時候！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……“不想被叫克爹的话，就要有克爹的样子”？……",
+			say = "……“不想被叫克爹的話，就要有克爹的樣子”？ ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "行了！让妳们看看就是了！……回头一定要让妳后悔拿我开心！",
+			say = "行了！讓你們看看就是了！ ……回頭一定要讓你後悔拿我開心！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "被气呼呼的克利夫兰所感染，大家的表情也恢复了生气。",
+			say = "被氣呼呼的克里夫蘭所感染，大家的表情也恢復了生氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "各位！比赛还没有结束！让她们见识见识我们“海上骑士团”真正的实力吧！！",
+			say = "各位！比賽還沒有結束！讓她們見識見識我們“海上騎士團”真正的實力吧！ ！",
 			action = {
 				{
 					y = 30,
@@ -156,7 +156,7 @@ return {
 			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "喔喔喔！！！",
+			say = "噢噢噢！ ！ ！",
 			action = {
 				{
 					y = 30,
@@ -190,7 +190,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（小声）谢啦，指挥官♪",
+			say = "（小聲）謝啦，指揮官♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgm = "battle-boss-6",
 			actor = 303070,
 			nameColor = "#a9f548",
-			say = "这样下去要被反超了！一定要截住她们的传球！",
+			say = "這樣下去要被反超了！一定要截住她們的傳球！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			say = "！要是让她们配合成功，我们的战术就没用了…！",
+			say = "！要是讓她們配合成功，我們的戰術就沒用了…！",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -268,7 +268,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了大家…为了指挥官……这场比赛我赢定了！！！",
+			say = "為了大家…為了指揮官……這場比賽我贏定了！ ！ ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "随着终场哨声的响起，克利夫兰的一记猛烈的灌篮，宣告了比赛的结束。",
+			say = "隨著終場哨聲的響起，克里夫蘭的一記猛烈的灌籃，宣告了比賽的結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赢了！我们赢了！！！",
+			say = "贏了！我們贏了！ ！ ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "打进致胜一球的克利夫兰朝这边飞奔而来。",
+			say = "打進致勝一球的克里夫蘭朝這邊飛奔而來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢妳指挥官！！我爱妳！！！",
+			say = "謝謝你指揮官！ ！我愛你！ ！ ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "——少女的身体虽娇弱，分享胜利喜悦的拥抱却充满了力量。",
+			say = "——少女的身體雖嬌弱，分享勝利喜悅的擁抱卻充滿了力量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

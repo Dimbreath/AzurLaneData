@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=45>二 不高兴的理由·上</size>",
+					"哈曼觀察日誌\n\n<size=45>二 不高興的理由·上</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "被哈曼赶出指挥室一分钟后——",
+			say = "被哈曼趕出指揮室一分鐘後——",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -32,7 +32,7 @@ return {
 			},
 			options = {
 				{
-					content = "从窗外看看哈曼怎么样了。",
+					content = "從窗外看看哈曼怎麼樣了。",
 					flag = 1
 				}
 			}
@@ -42,7 +42,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101250,
-			say = "那个大笨蛋！难得哈曼开口说要帮他，居然说什么“太努力过头了不好啊—”！？",
+			say = "那個大笨蛋！難得哈曼開口說要幫他，居然說什麼“太努力過頭了不好啊—”！？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "工作忙的话让秘书舰帮忙不是再正常不过的吗！？",
+			say = "工作忙的話讓秘書艦幫忙不是再正常不過的嗎！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……下次演习视察的时间是……下午4点……还有两个小时！？",
+			say = "……下次演習視察的時間是……下午4點……還有兩個小時！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……呜呃……",
+			say = "……嗚呃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哼，哼哒！都怪指挥官处理文件太慢了啦！",
+			say = "哼，哼噠！都怪指揮官處理文件太慢了啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……今天要处理的是……这堆全是！？",
+			say = "……今天要處理的是……這堆全是！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…文件时间是…一早上就有这么多！？",
+			say = "…文件時間是…一早上就有這麼多！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "所，所以才说资料明天也行……",
+			say = "所，所以才說資料明天也行……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…………呜呃………………",
+			say = "…………嗚呃………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "还，还是挺努力的嘛……不愧是哈曼的指挥官……",
+			say = "還，還是挺努力的嘛……不愧是哈曼的指揮官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然有时候会做出下流的举动，但是对大家都很温柔……",
+			say = "雖然有時候會做出下流的舉動，但是對大家都很溫柔……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "而且明明在战场上表现得那么帅气，为什么对哈曼就……",
+			say = "而且明明在戰場上表現得那麼帥氣，為什麼對哈曼就……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 101250,
-			say = "哈曼为什么把指挥官赶出去了啊！！",
+			say = "哈曼為什麼把指揮官趕出去了啊！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

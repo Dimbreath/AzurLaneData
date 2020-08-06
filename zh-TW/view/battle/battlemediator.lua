@@ -569,6 +569,10 @@ function slot0.GenBattleData(slot0)
 		slot0.viewComponent:setFleet(slot9, slot10, slot11)
 	end
 
+	if slot0.mainShips then
+		slot0.sortMainShips(slot0.mainShips)
+	end
+
 	slot1.RivalVanguardUnitList = {}
 	slot1.RivalMainUnitList = {}
 	slot5 = nil
@@ -814,6 +818,14 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == uv0.CLOSE_CHAT then
 		slot0.viewComponent:OnCloseChat()
 	end
+end
+
+function slot0.sortMainShips(slot0)
+	slot1 = ys.Battle.BattleDataFunction
+
+	table.sort(slot0, function (slot0, slot1)
+		return TeamType.TeamTypeSortIndex(TeamType.TypeToTeamType(uv0.GetPlayerShipTmpDataFromID(slot0.configId).type)) < TeamType.TeamTypeSortIndex(TeamType.TypeToTeamType(uv0.GetPlayerShipTmpDataFromID(slot1.configId).type))
+	end)
 end
 
 function slot0.remove(slot0)

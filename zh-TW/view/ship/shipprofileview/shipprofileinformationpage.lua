@@ -156,6 +156,32 @@ function slot0.UpdateCvList(slot0, slot1)
 		slot0:AddCvBtn(slot6)
 		slot0:AddExCvBtn(slot6)
 	end
+
+	if slot0.cvBtns[(pg.character_voice.touch.profile_index - 1) * 2] then
+		slot2 = slot3._tf:GetSiblingIndex() or slot2
+	end
+
+	if ShipWordHelper.GetMainSceneWordCnt(slot0.skin.id, -1) < ShipWordHelper.GetMainSceneWordCnt(slot0.skin.id, slot0.shipGroup:GetMaxIntimacy()) then
+		for slot10 = slot4 + 1, slot6 do
+			slot0:AddMainExBtn(slot10, slot2)
+
+			slot2 = slot2 + 1
+		end
+	end
+end
+
+function slot0.AddMainExBtn(slot0, slot1, slot2)
+	slot3 = ShipProfileMainExCvBtn.New(cloneTplTo(slot0.cvTpl, slot0.cvContainer))
+
+	onButton(slot0, slot3._tf, function ()
+		if uv0.callback then
+			uv0.callback(uv1)
+		end
+	end, SFX_PANEL)
+	slot3:Init(slot0.shipGroup, slot0.skin, slot0.isLive2d, slot1)
+	slot3:Update()
+	slot3._tf:SetSiblingIndex(slot2)
+	table.insert(slot0.cvBtns, slot3)
 end
 
 function slot0.AddCvBtn(slot0, slot1)

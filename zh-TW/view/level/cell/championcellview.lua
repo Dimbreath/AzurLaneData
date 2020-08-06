@@ -19,6 +19,17 @@ function slot0.SetActive(slot0, slot1)
 
 	slot0:SetActiveModel(slot1)
 	setActive(slot0.tfShadow, slot1)
+
+	for slot5, slot6 in pairs(slot0._attachmentList) do
+		if not IsNil(slot6) then
+			setActive(slot6, slot1)
+		end
+	end
+end
+
+function slot0.OnLoadAttachment(slot0)
+	uv0.super.OnLoadAttachment(slot0)
+	slot0:SetActive(slot0.showFlag)
 end
 
 function slot0.SetActiveModel(slot0, slot1)

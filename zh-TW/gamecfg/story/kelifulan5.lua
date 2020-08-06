@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=45>五　强敌出场！？</size>",
+					"騎士與獎賞\n\n<size=45>五 強敵出場！ ？</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "克利夫兰的队伍一路过关斩将闯进了决赛。",
+			say = "克里夫蘭的隊伍一路過關斬將闖進了決賽。",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			actor = 102100,
 			nameColor = "#a9f548",
-			say = "下场比赛的对手是……不会吧！？{namecode:38}和{namecode:49}，还有{namecode:63}！？",
+			say = "下場比賽的對手是……不會吧！ ？ {namecode:38}和{namecode:49}，還有{namecode:63}！ ？",
 			action = {
 				{
 					y = 30,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			say = "哼，管他对手是谁，干掉就行了。我说的没错吧，大姐头？",
+			say = "哼，管他對手是誰，幹掉就行了。我說的沒錯吧，大姐頭？",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
@@ -78,7 +78,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是没那么好的事啊…她们应该有研究过我们的阵容了…这场比赛我们要小心。",
+			say = "還是沒那麼好的事啊…她們應該有研究過我們的陣容了…這場比賽我們要小心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actorName = "丹佛&哥伦比亚",
+			actorName = "丹佛&哥倫比亞",
 			side = 0,
 			actor = 102150,
 			dir = -1,
@@ -131,7 +131,7 @@ return {
 			bgm = "story-4",
 			actor = 102140,
 			nameColor = "#a9f548",
-			say = "不愧是三水战的旗舰，真难对付…！",
+			say = "不愧是三水戰的旗艦，真難對付…！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			say = "能和我较量到这地步妳也不错了……不过别指望能和那时一样！",
+			say = "能和我較量到這地步妳也不錯了……不過別指望能和那時一樣！",
 			side = 1,
 			bgName = "star_level_bg_103",
 			actor = 302120,
@@ -191,7 +191,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "就算对手是重巡…我也绝不会输的！",
+			say = "就算對手是重巡…我也絕不會輸的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			say = "来吧！让妳们尝尝我卧薪尝胆的苦练成果！",
+			say = "來吧！讓妳們嚐嚐我臥薪嘗膽的苦練成果！",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -228,7 +228,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "竟然每个人都来一对一盯防…！是受了那时战训的启发吗！",
+			say = "竟然每個人都來一對一盯防…！是受了那時戰訓的啟發嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			}
 		},
 		{
-			say = "对我们的战术有意见的话，就赶紧认输吧，呵呵～",
+			say = "對我們的戰術有意見的話，就趕緊認輸吧，呵呵～",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "由于重樱队的各个击破战术，克利夫兰的队伍陷入了苦战。",
+			say = "由於重櫻隊的各個擊破戰術，克里夫蘭的隊伍陷入了苦戰。",
 			effects = {
 				{
 					active = false,
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "呜……指挥官……我对不住大家……都是我这个队长太没用了……",
+			say = "嗚……指揮官……我對不起大家……都是我這個隊長太沒用了……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -314,7 +314,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好不容易都打进决赛了……要是输在这里，我……",
+			say = "好不容易都打進決賽了……要是輸在這裡，我……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "最后的休息时间，虽然比赛还未结束，看着与重樱的比分差，连豪迈的克利夫兰都露出了难得一见的沮丧表情。",
+			say = "最後的休息時間，雖然比賽還未結束，看著與重櫻的比分差，連豪邁的克里夫蘭都露出了難得一見的沮喪表情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

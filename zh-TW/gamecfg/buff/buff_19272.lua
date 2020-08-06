@@ -10,7 +10,7 @@ return {
 				},
 				arg_list = {
 					number = 100,
-					attr = "antiAirPower"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -38,7 +38,7 @@ return {
 				},
 				arg_list = {
 					number = 140,
-					attr = "antiAirPower"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -66,7 +66,7 @@ return {
 				},
 				arg_list = {
 					number = 180,
-					attr = "antiAirPower"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -94,7 +94,7 @@ return {
 				},
 				arg_list = {
 					number = 220,
-					attr = "antiAirPower"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -122,7 +122,7 @@ return {
 				},
 				arg_list = {
 					number = 260,
-					attr = "antiAirPower"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -150,7 +150,7 @@ return {
 				},
 				arg_list = {
 					number = 300,
-					attr = "antiAirPower"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -178,7 +178,7 @@ return {
 				},
 				arg_list = {
 					number = 350,
-					attr = "antiAirPower"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -206,7 +206,7 @@ return {
 				},
 				arg_list = {
 					number = 400,
-					attr = "antiAirPower"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -234,7 +234,7 @@ return {
 				},
 				arg_list = {
 					number = 450,
-					attr = "antiAirPower"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -262,7 +262,7 @@ return {
 				},
 				arg_list = {
 					number = 500,
-					attr = "antiAirPower"
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -306,7 +306,7 @@ return {
 			},
 			arg_list = {
 				number = 100,
-				attr = "antiAirPower"
+				attr = "dodgeRate"
 			}
 		},
 		{

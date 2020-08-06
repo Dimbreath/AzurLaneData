@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=45>五 哈曼和约克城</size>",
+					"哈曼觀察日誌\n\n<size=45>五 哈曼和約克鎮</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "——然后呢，哈曼就把指挥官赶出指挥室了……",
+			say = "——然後呢，哈曼就把指揮官趕出指揮室了……",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "……想去找指挥官又不知道人在哪……",
+			say = "……想去找指揮官又不知道人在哪……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "……就算找到了也不知道该怎么道歉……",
+			say = "……就算找到了也不知道該怎麼道歉……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "呜哇啊啊约克城姐姐～",
+			say = "嗚哇啊啊約克鎮姐姐～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "约克城摸着哈曼的头安慰她，哈曼把脸埋进约克城胸口撒娇。",
+			say = "約克鎮摸著哈曼的頭安慰她，哈曼把臉埋進約克鎮胸口撒嬌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "哈曼想道歉的话，用自己的方式就好了呀。",
+			say = "哈曼想道歉的話，用自己的方式就好了呀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "只要发自真心，自然能传达妳的心意，指挥官也能理解妳的",
+			say = "只要發自真心，自然能傳達妳的心意，指揮官也能理解妳的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "说得…是呢…谢谢约克城姐姐…",
+			say = "說得…是呢…謝謝約克鎮姐姐…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "另一边……",
+			say = "另一邊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "嗯…好像错过了出场的时机？…我没在录像啦！",
+			say = "嗯…好像錯過了出場的時機？…我沒在錄影啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			},
 			options = {
 				{
-					content = "确实错过了出面的时机呢……",
+					content = "確實錯過了出面的時機呢……",
 					flag = 1
 				}
 			}
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "说不定其实她们已经发现了……",
+			say = "說不定其實她們已經發現了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "是的。西姆斯？指挥官？我知道妳们在那边哦。",
+			say = "是的。西姆斯？指揮官？我知道你們在那邊哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 101240,
-			say = "诶！？",
+			say = "欸！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

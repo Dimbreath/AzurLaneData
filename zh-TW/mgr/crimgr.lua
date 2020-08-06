@@ -65,10 +65,12 @@ end
 
 function slot1.SetStoryBGM(slot0, slot1)
 	slot0.storyBGMName = slot1
+	slot0.normalBGMName = nil
 end
 
 function slot1.SetNormalBGM(slot0, slot1)
 	slot0.normalBGMName = slot1
+	slot0.storyBGMName = nil
 end
 
 function slot1.ResumeNormalBGM(slot0)

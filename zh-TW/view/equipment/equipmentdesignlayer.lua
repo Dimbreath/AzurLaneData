@@ -137,14 +137,16 @@ function slot0.initDesigns(slot0)
 end
 
 function slot2(slot0, slot1)
-	setImageSprite(findTF(slot0, "name_bg/tag"), GetSpriteFromAtlas("equiptype", EquipType.type2Tag(slot1.config.type)))
+	slot3 = slot1.config
+
+	setImageSprite(findTF(slot0, "name_bg/tag"), GetSpriteFromAtlas("equiptype", EquipType.type2Tag(slot3.type)))
 	eachChild(findTF(slot0, "attrs"), function (slot0)
 		setActive(slot0, false)
 	end)
 
 	slot4 = slot1:GetPropertiesInfo().attrs
 
-	for slot9, slot10 in ipairs(EquipType.isDevice(slot1.configId) and {
+	for slot10, slot11 in ipairs(slot3.skill_id[1] and EquipType.isDevice(slot1.configId) and {
 		1,
 		2,
 		5
@@ -154,26 +156,20 @@ function slot2(slot0, slot1)
 		2,
 		3
 	}) do
-		setActive(slot2:Find("attr_" .. slot10), true)
+		setActive(slot2:Find("attr_" .. slot11), true)
 
-		if slot10 == 5 then
-			slot12 = ""
-
-			if slot3.skill_id[1] then
-				slot12 = getSkillName(slot13)
-			end
-
-			setText(slot11:Find("value"), slot12)
+		if slot11 == 5 then
+			setText(slot12:Find("value"), getSkillName(slot5))
 		else
-			slot12 = ""
 			slot13 = ""
+			slot14 = ""
 
 			if #slot4 > 0 then
-				slot12, slot13 = Equipment.GetInfoTrans(table.remove(slot4, 1))
+				slot13, slot14 = Equipment.GetInfoTrans(table.remove(slot4, 1))
 			end
 
-			setText(slot11:Find("tag"), slot12)
-			setText(slot11:Find("value"), slot13)
+			setText(slot12:Find("tag"), slot13)
+			setText(slot12:Find("value"), slot14)
 		end
 	end
 end

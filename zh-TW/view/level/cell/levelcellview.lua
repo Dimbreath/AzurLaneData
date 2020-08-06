@@ -1,5 +1,9 @@
 slot0 = class("LevelCellView")
 
+function slot0.Ctor(slot0)
+	slot0.sortingOrderOffset = 0
+end
+
 function slot0.GetOrder(slot0)
 	return ChapterConst.CellPriorityNone
 end

@@ -2,35 +2,20 @@ pg = pg or {}
 slot0 = pg
 slot0.word_legal_template = {}
 slot1 = slot0.word_legal_template
-slot2 = nil
 
-function ()
-	uv0.A = {
-		U = {
-			R = {
-				O = {
-					R = {
-						A = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		u = {
-			r = {
-				o = {
-					r = {
-						a = {
-							this = true
-						}
-					}
-				}
+function temp()
+	uv0["合"] = {
+		["法"] = {
+			["词"] = {
+				this = true
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
 	uv0.T = {
 		o = {
 			r = {
@@ -46,8 +31,40 @@ function ()
 			}
 		}
 	}
-end()
-function ()
+end
+
+temp()
+
+function temp()
+	uv0.A = {
+		u = {
+			r = {
+				o = {
+					r = {
+						a = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		U = {
+			R = {
+				O = {
+					R = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0.a = {
 		u = {
 			r = {
@@ -61,4 +78,6 @@ function ()
 			}
 		}
 	}
-end()
+end
+
+temp()

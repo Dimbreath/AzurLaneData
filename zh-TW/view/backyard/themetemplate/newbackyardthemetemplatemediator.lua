@@ -232,7 +232,7 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == GAME.BACKYARD_REFRESH_SHOP_TEMPLATE_DONE then
 		if slot3.existNew then
-			BackYardThemeTempalteUtil.ClearAllCache()
+			BackYardThemeTempalteUtil.ClearAllCacheAsyn()
 		end
 
 		slot0.viewComponent:OnShopTemplatesUpdated(getProxy(DormProxy):GetShopThemeTemplates())

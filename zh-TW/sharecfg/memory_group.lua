@@ -636,6 +636,36 @@ pg.memory_group = {
 			266
 		}
 	},
+	[506] = {
+		title = "哈曼觀察日誌",
+		type = 3,
+		id = 506,
+		icon = "title_chara_haman",
+		memories = {
+			274,
+			275,
+			276,
+			277,
+			278,
+			279,
+			280
+		}
+	},
+	[508] = {
+		title = "騎士與獎賞",
+		type = 3,
+		id = 508,
+		icon = "title_chara_kelifulan",
+		memories = {
+			288,
+			289,
+			290,
+			291,
+			292,
+			293,
+			294
+		}
+	},
 	[509] = {
 		title = "雨過天晴",
 		type = 3,
@@ -996,6 +1026,21 @@ pg.memory_group = {
 			1210
 		}
 	},
+	[549] = {
+		title = "為了印第的笑容 ",
+		type = 3,
+		id = 549,
+		icon = "title_chara_botelan",
+		memories = {
+			1321,
+			1322,
+			1323,
+			1324,
+			1325,
+			1326,
+			1327
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1036,6 +1081,8 @@ pg.memory_group = {
 		502,
 		503,
 		504,
+		506,
+		508,
 		509,
 		510,
 		511,
@@ -1059,6 +1106,7 @@ pg.memory_group = {
 		537,
 		538,
 		542,
-		548
+		548,
+		549
 	}
 }

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=45>四　比赛开始！</size>",
+					"騎士與獎賞\n\n<size=45>四 比賽開始！</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "篮球对抗赛当天·会场",
+			say = "籃球對抗賽當天·會場",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "这一天终于来了……指挥官，我们都准备好了！比赛的指挥就靠妳了！",
+			say = "這一天終於來了……指揮官，我們都準備好了！比賽的指揮就靠你了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			},
 			options = {
 				{
-					content = "没问题！",
+					content = "沒問題！",
 					flag = 1
 				},
 				{
@@ -59,7 +59,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "克利夫兰加油哦——！赢了再让海伦娜给妳做便当哦——！",
+			say = "克里夫蘭加油哦——！贏了再讓海倫娜給妳做便當哦——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			say = "姐、姐姐！！别说了！",
+			say = "姐、姐姐！ ！別說了！",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈……她还是老样子啊。先不管这些，趁比赛还没开始，我们再讨论一下战术吧！时间就是金钱♪",
+			say = "啊哈哈……她還是老樣子啊。先不管這些，趁比賽還沒開始，我們再討論一下戰術吧！時間就是金錢♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
-			say = "第一回合的比赛对手是“正义海狸”队。",
+			say = "第一回合的比賽對手是“正義海狸”隊。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			actor = 101110,
 			nameColor = "#a9f548",
-			say = "让对手见识见识我们的正义吧！小海狸分队，出击！……咦？",
+			say = "讓對手見識見識我們的正義吧！小海狸分隊，出擊！ ……咦？",
 			effects = {
 				{
 					active = true,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			say = "太麻烦了……我做替补就好啦。",
+			say = "太麻煩了……我做替補就好啦。",
 			side = 1,
 			bgName = "star_level_bg_103",
 			actor = 101140,
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			actor = 101120,
 			nameColor = "#a9f548",
-			say = "哈哈哈斯彭斯又差点摔了！……啊啊啊要撞上了！",
+			say = "哈哈哈斯彭斯又差點摔了！ ……啊啊啊要撞上了！",
 			action = {
 				{
 					y = 0,
@@ -212,7 +212,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊！要撞上撒切尔了！！",
+			say = "啊啊啊！要撞上柴契爾了！ ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "机会来了！大家上啊！",
+			say = "機會來了！大家上啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "教练唐斯的努力也没能挽回局面，克利夫兰队大获全胜",
+			say = "教練唐斯的努力也沒能挽回局面，克里夫蘭隊大獲全勝",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "好，开局还不错！一口气赢下冠军吧！……不会有这么好的事吧，嘿嘿♪",
+			say = "好，開局還不錯！一口氣贏下冠軍吧！ ……不會有這麼好的事吧，嘿嘿♪",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -282,7 +282,7 @@ return {
 			},
 			options = {
 				{
-					content = "拍拍克利夫兰的肩",
+					content = "拍拍克里夫蘭的肩",
 					flag = 1
 				}
 			}
@@ -294,7 +294,7 @@ return {
 			blackBg = true,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "好！指挥官也睁大眼睛好好看着吧！我们会使出全力的♪",
+			say = "好！指揮官也睜大眼睛好好看著吧！我們會使出全力的♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

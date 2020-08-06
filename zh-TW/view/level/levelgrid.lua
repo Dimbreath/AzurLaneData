@@ -164,7 +164,11 @@ function slot0.initAll(slot0, slot1)
 			onNextTick(slot0)
 		end,
 		function (slot0)
-			uv0:AddEdgePool("SubmarineHunting", "ui/commonUI_atlas", "white_dot", Color.New(1, 0, 0), "add")
+			uv0:AddEdgePool("SubmarineHunting", "ui/commonUI_atlas", "white_dot", {
+				1,
+				0,
+				0
+			}, "add")
 			uv0:UpdateFloor()
 			uv0:updateAttachments()
 			uv0:InitWalls()
@@ -1063,7 +1067,7 @@ function slot0.updateChampion(slot0, slot1)
 
 		if slot3.tfBufficons and slot7 and #slot7.bufficon > 0 and slot5 then
 			setActive(slot8, true)
-			slot0:AlignListContainer(slot8, #slot7.bufficon)
+			slot0.AlignListContainer(slot8, #slot7.bufficon)
 
 			slot9 = 1
 
@@ -1754,13 +1758,13 @@ end
 function slot0.UpdateQuadStateNormal(slot0)
 	slot1 = slot0.contextData.chapterVO
 	slot2 = slot1.fleet
-	slot3 = {}
+	slot3 = nil
 
 	if slot1:existMoveLimit() and not slot1:checkAnyInteractive() then
 		slot3 = slot1:calcWalkableCells(ChapterConst.SubjectPlayer, slot2.line.row, slot2.line.column, slot2:getSpeed())
 	end
 
-	if #slot3 > 0 then
+	if slot3 and #slot3 > 0 then
 		slot5 = ManhattonDist(_.min(slot3, function (slot0)
 			return ManhattonDist(slot0, uv0.line)
 		end), slot2.line)
@@ -3021,17 +3025,17 @@ function slot0.TransformLine2PlanePos(slot0, slot1)
 	return string.char(string.byte("A") + slot1.column - slot0.indexMin.y) .. string.char(string.byte("1") + slot1.row - slot0.indexMin.x)
 end
 
-function slot0.AlignListContainer(slot0, slot1, slot2)
-	for slot7 = slot2, slot1.childCount - 1 do
-		setActive(slot1:GetChild(slot7), false)
+function slot0.AlignListContainer(slot0, slot1)
+	for slot6 = slot1, slot0.childCount - 1 do
+		setActive(slot0:GetChild(slot6), false)
 	end
 
-	for slot7 = slot3, slot2 - 1 do
-		slot8 = cloneTplTo(slot1:GetChild(0), slot1)
+	for slot6 = slot2, slot1 - 1 do
+		slot7 = cloneTplTo(slot0:GetChild(0), slot0)
 	end
 
-	for slot7 = 0, slot2 - 1 do
-		setActive(slot1:GetChild(slot7), true)
+	for slot6 = 0, slot1 - 1 do
+		setActive(slot0:GetChild(slot6), true)
 	end
 end
 

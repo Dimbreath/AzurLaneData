@@ -1,5 +1,16 @@
 pg = pg or {}
 pg.fleet_tech_ship_class = {
+	[10101] = {
+		shiptype = 1,
+		name = "法拉格特級",
+		t_level = 3,
+		id = 10101,
+		t_level_1 = 1,
+		nation = 1,
+		ships = {
+			10102
+		}
+	},
 	[10102] = {
 		shiptype = 1,
 		name = "馬漢級",
@@ -351,6 +362,17 @@ pg.fleet_tech_ship_class = {
 		nation = 1,
 		ships = {
 			10708
+		}
+	},
+	[10705] = {
+		shiptype = 7,
+		name = "艾塞克斯級",
+		t_level = 8,
+		id = 10705,
+		t_level_1 = 31,
+		nation = 1,
+		ships = {
+			10717
 		}
 	},
 	[10801] = {
@@ -1601,6 +1623,7 @@ pg.fleet_tech_ship_class = {
 		}
 	},
 	all = {
+		10101,
 		10102,
 		10103,
 		10104,
@@ -1629,6 +1652,7 @@ pg.fleet_tech_ship_class = {
 		10701,
 		10702,
 		10703,
+		10705,
 		10801,
 		11201,
 		20101,

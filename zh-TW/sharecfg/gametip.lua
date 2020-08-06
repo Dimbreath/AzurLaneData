@@ -620,6 +620,9 @@ pg.gametip = {
 	word_facility = {
 		tip = "設施"
 	},
+	word_cv_key_main = {
+		tip = "主界面"
+	},
 	channel_name_1 = {
 		tip = "全部"
 	},
@@ -10297,6 +10300,15 @@ TIPS：
 	},
 	equip_info_24 = {
 		tip = "掛載武器"
+	},
+	equip_info_25 = {
+		tip = "無"
+	},
+	equip_info_26 = {
+		tip = "技能更換為"
+	},
+	equip_info_27 = {
+		tip = ""
 	},
 	tec_settings_btn_word = {
 		tip = "研發選項"

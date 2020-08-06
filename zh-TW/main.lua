@@ -24,6 +24,8 @@ PLATFORM = LuaHelper.GetPlatformInt()
 CHANNEL_NAME = LuaHelper.GetSDKChannelName()
 SDK_EXIT_CODE = 99
 
+ReflectionHelp.RefSetField(typeof("ResourceMgr"), "_asyncMax", ResourceMgr.Inst, 30)
+
 function luaIdeDebugFunc()
 	breakInfoFun = require("LuaDebugjit")("localhost", 7003)
 	time = Timer.New(breakInfoFun, 0.5, -1, 1)
