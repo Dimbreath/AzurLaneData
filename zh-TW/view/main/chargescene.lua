@@ -407,7 +407,7 @@ function slot0.confirm(slot0, slot1)
 				name = slot1.goods:getConfig("name"),
 				tipExtra = slot5 and i18n("charge_title_getitem_month") or i18n("charge_title_getitem"),
 				extraItems = slot6,
-				price = slot1.goods:getConfig("display_money"),
+				price = slot1.goods:getConfig("money"),
 				tagType = slot4,
 				isMonthCard = slot5,
 				tipBonus = slot5 and i18n("charge_title_getitem_soon") or "",
@@ -428,9 +428,9 @@ function slot0.confirm(slot0, slot1)
 				isChargeType = true,
 				icon = "chargeicon/" .. slot1.goods:getConfig("picture"),
 				name = slot1.goods:getConfig("name"),
-				price = slot1.goods:getConfig("display_money"),
+				price = slot1.goods:getConfig("money"),
 				tagType = slot4,
-				normalTip = i18n("charge_start_tip", slot1.goods:getConfig("display_money"), slot3 and slot7 + slot1.goods:getConfig("gem") or slot7 + slot1.goods:getConfig("extra_gem")),
+				normalTip = i18n("charge_start_tip", slot1.goods:getConfig("money"), slot3 and slot7 + slot1.goods:getConfig("gem") or slot7 + slot1.goods:getConfig("extra_gem")),
 				onYes = function ()
 					if uv0:checkSetBirth() then
 						uv0:emit(ChargeMediator.CHARGE, uv1.goods.id)

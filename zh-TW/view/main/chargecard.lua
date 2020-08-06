@@ -190,7 +190,7 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 	end
 
 	slot0.resCount.text = "x" .. slot1:getConfig("gem")
-	slot0.price.text = slot1:getConfig("display_money")
+	slot0.price.text = slot1:getConfig("money")
 	slot0.iconTF.sprite = GetSpriteFromAtlas("chargeicon/1", "")
 
 	LoadSpriteAsync("chargeicon/" .. slot1:getConfig("picture"), function (slot0)
