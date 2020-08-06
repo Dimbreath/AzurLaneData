@@ -117,5 +117,14 @@ pg.furniture_specail_action = {
 				10
 			}
 		}
+	},
+	[100018] = {
+		id = 100018,
+		actions = {
+			{
+				"tuozhuai2",
+				7
+			}
+		}
 	}
 }

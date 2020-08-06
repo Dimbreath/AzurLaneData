@@ -373,5 +373,14 @@ slot0.AirDominance = {
 		color = Color.New(0.615686274509804, 0.9215686274509803, 0.14901960784313725)
 	}
 }
+chapter_skip_battle = PlayerPrefs.GetInt("chapter_skip_battle") or 0
+
+function switch_chapter_skip_battle()
+	chapter_skip_battle = 1 - chapter_skip_battle
+
+	PlayerPrefs.SetInt("chapter_skip_battle", chapter_skip_battle)
+	PlayerPrefs.Save()
+	pg.TipsMgr.GetInstance():ShowTips(chapter_skip_battle == 1 and "已开启战斗跳略" or "已关闭战斗跳略")
+end
 
 return slot0

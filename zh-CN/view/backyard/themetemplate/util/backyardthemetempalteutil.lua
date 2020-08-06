@@ -185,6 +185,7 @@ end
 function slot19(slot0, slot1, slot2)
 	table.insert(uv0.loader, {
 		name = slot0,
+		md5 = slot1,
 		callback = slot2
 	})
 
@@ -199,9 +200,7 @@ function slot19(slot0, slot1, slot2)
 			return
 		end
 
-		slot0 = uv0.loader[1]
-
-		if not uv3 or uv3 == "" then
+		if not uv0.loader[1].md5 or slot2 == "" then
 			function (slot0)
 				uv0.callback(slot0)
 				table.remove(uv1.loader, 1)
@@ -216,10 +215,10 @@ function slot19(slot0, slot1, slot2)
 
 				onNextTick(uv3)
 			end(nil)
-		elseif uv0.FileExists(slot0.name) and uv3 == uv4(uv5(uv1)) then
-			uv6(slot0.name, uv3, slot1)
+		elseif uv0.FileExists(slot0.name) and slot2 == uv3(uv4(uv1)) then
+			uv5(slot0.name, slot2, slot1)
 		else
-			uv7(slot0.name, uv3, slot1)
+			uv6(slot0.name, slot2, slot1)
 		end
 	end()
 end
@@ -296,10 +295,16 @@ function slot0.ClearAllCache()
 	gcAll(true)
 end
 
+function slot0.ClearAllCacheAsyn(slot0)
+	uv0.caches = {}
+
+	gcAll(false)
+end
+
 function slot0.Exit(slot0)
 	uv0.loader = {}
 
-	uv0.ClearAllCache()
+	uv0.ClearAllCacheAsyn()
 end
 
 return slot0

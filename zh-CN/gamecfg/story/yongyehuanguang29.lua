@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呵，感觉心情突然变差了。任务已经完成来，我们撤退吧。",
+			say = "呵，感觉心情突然变差了。任务已经完成了，我们撤退吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

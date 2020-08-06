@@ -960,6 +960,14 @@ pg.drop_data_restore = {
 		drop_id = 93364,
 		target_id = 101061
 	},
+	[171] = {
+		target_type = 7,
+		resource_type = 1,
+		id = 171,
+		resource_num = 2000,
+		drop_id = 93536,
+		target_id = 201232
+	},
 	all = {
 		1,
 		2,
@@ -1080,6 +1088,7 @@ pg.drop_data_restore = {
 		155,
 		156,
 		157,
-		170
+		170,
+		171
 	}
 }

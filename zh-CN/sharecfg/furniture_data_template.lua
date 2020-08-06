@@ -4979,13 +4979,55 @@ pg.furniture_data_template = {
 		comfortable = 0,
 		tag = 6,
 		size = {
-			5,
+			6,
 			5
 		},
 		offset = {},
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		spine = {
+			{
+				"shuiqiuB",
+				"normal"
+			},
+			{
+				"shuiqiuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					nil,
+					{
+						"action",
+						"tuozhuai2"
+					},
+					"tuozhuai2"
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				-2.1,
+				-58.5
+			}
+		},
+		animator = {
+			{
+				"shuiqiuCharControl"
+			}
 		},
 		interAction_group = {}
 	},
@@ -65562,10 +65604,12 @@ pg.furniture_data_template = {
 				},
 				{
 					nil,
-					1
+					nil,
+					nil,
+					"sit"
 				},
 				{
-					1
+					0
 				}
 			},
 			{},

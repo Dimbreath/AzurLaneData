@@ -25,9 +25,9 @@ function pm.Facade.sendNotification(slot0, slot1, slot2, slot3)
 			end
 		end
 
-		if not string.find(slot5, "Combat") and not string.find(slot5, "Battle") then
-			uv1(slot0, GAME.CHECK_HOTFIX_VER)
-		end
+		uv1(slot0, GAME.CHECK_HOTFIX_VER, {
+			mediatorName = slot5
+		})
 	end
 
 	uv1(slot0, slot1, slot2, slot3)

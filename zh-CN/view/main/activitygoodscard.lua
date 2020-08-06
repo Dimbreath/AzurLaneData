@@ -67,15 +67,13 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 
 	if slot1:getConfig("num_limit") == 0 then
 		slot0.limitCountTF.text = i18n("common_no_limit")
-	elseif slot6 == DROP_TYPE_SKIN and not slot5 then
-		slot0.limitCountTF.text = "0/" .. slot1:getConfig("num_limit")
 	else
-		slot0.limitCountTF.text = slot12 - slot1.buyCount .. "/" .. slot12
+		slot0.limitCountTF.text = math.max(slot1:GetPurchasableCnt(), 0) .. "/" .. slot12
 	end
 
-	slot12 = uv0.Color[slot2] or uv0.DefaultColor
-	slot0.limitCountTF.color = slot3 or Color.New(unpack(slot12))
-	slot0.limitCountLabelTF.color = slot3 or Color.New(unpack(slot12))
+	slot13 = uv0.Color[slot2] or uv0.DefaultColor
+	slot0.limitCountTF.color = slot3 or Color.New(unpack(slot13))
+	slot0.limitCountLabelTF.color = slot3 or Color.New(unpack(slot13))
 
 	if GetComponent(slot0.limitCountTF, typeof(Outline)) then
 		setOutlineColor(slot0.limitCountTF, slot4 or Color.New(0, 0, 0, 1))

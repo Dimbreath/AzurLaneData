@@ -32,7 +32,11 @@ function slot0.Update(slot0, slot1)
 	slot0.name.text = slot1:getConfig("name")
 	slot0.desc.text = slot1:getConfig("describe")
 	slot0.comfortable.text = slot1:getConfig("comfortable")
-	slot0.icon.sprite = GetSpriteFromAtlas("furnitureicon/" .. slot1:getConfig("icon"), "")
+
+	GetSpriteFromAtlasAsync("furnitureicon/" .. slot1:getConfig("icon"), "", function (slot0)
+		uv0.icon.sprite = slot0
+	end)
+
 	slot0.countTxt.text = slot1:getConfig("count") > 1 and slot1.count .. "/" .. slot2 or ""
 
 	setActive(slot0.resGem, slot1:canPurchaseByGem())

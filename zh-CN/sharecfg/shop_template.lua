@@ -22688,7 +22688,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 10,
+		order = 1,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -22704,8 +22704,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					6,
-					3
+					8,
+					6
 				},
 				{
 					0,
@@ -22716,8 +22716,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					6,
-					17
+					8,
+					19
 				},
 				{
 					23,

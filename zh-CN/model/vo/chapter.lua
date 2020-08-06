@@ -451,7 +451,7 @@ function slot0.IncreaseRound(slot0)
 end
 
 function slot0.existMoveLimit(slot0)
-	return slot0:getConfig("limit_move") == 1 or slot0:existOni() or slot0:isPlayingWithBombEnemy()
+	return slot0:getConfig("is_limit_move") == 1
 end
 
 function slot0.getChapterCell(slot0, slot1, slot2)
@@ -587,7 +587,7 @@ function slot0.shipInWartime(slot0, slot1)
 end
 
 function slot0.existAmbush(slot0)
-	return slot0:getPlayType() == ChapterConst.TypeLagacy
+	return slot0:getConfig("is_ambush") == 1 or slot0:getConfig("is_air_attack") == 1
 end
 
 function slot0.getAmbushRate(slot0, slot1, slot2)

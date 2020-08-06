@@ -557,6 +557,8 @@ function slot0.handleNotification(slot0, slot1)
 			uv0.viewComponent:showAwakenCompleteAni(i18n("upgrade_to_next_maxlevel_succeed", uv1.newShip:getMaxLevel()))
 			uv1.callback()
 		end)
+	elseif slot2 == GAME.REMOVE_LAYERS and slot3.context.mediator == ProposeMediator then
+		slot0.viewComponent:SwitchToDefaultBGM()
 	end
 end
 

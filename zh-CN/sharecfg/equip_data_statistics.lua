@@ -15939,7 +15939,7 @@ pg.equip_data_statistics = {
 		icon = "7000",
 		damage = "16 x 3",
 		nationality = 7,
-		ammo = "通常",
+		ammo = "通常弹",
 		value_3 = 0,
 		id = 7000,
 		torpedo_ammo = 0,
@@ -16025,7 +16025,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "18 x 3",
 		nationality = 7,
-		ammo = "通常",
+		ammo = "通常弹",
 		value_3 = 0,
 		id = 7020,
 		torpedo_ammo = 0,
@@ -16111,7 +16111,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "20 x 3",
 		nationality = 7,
-		ammo = "通常",
+		ammo = "通常弹",
 		value_3 = 0,
 		id = 7040,
 		torpedo_ammo = 0,
@@ -16226,7 +16226,7 @@ pg.equip_data_statistics = {
 		icon = "7100",
 		damage = "14 x 3",
 		nationality = 5,
-		ammo = "通常",
+		ammo = "通常弹",
 		value_3 = 0,
 		id = 7100,
 		torpedo_ammo = 0,
@@ -16312,7 +16312,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		damage = "16 x 3",
 		nationality = 5,
-		ammo = "通常",
+		ammo = "通常弹",
 		value_3 = 0,
 		id = 7120,
 		torpedo_ammo = 0,
@@ -16398,7 +16398,7 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		damage = "18 x 3",
 		nationality = 5,
-		ammo = "通常",
+		ammo = "通常弹",
 		value_3 = 0,
 		id = 7140,
 		torpedo_ammo = 0,
@@ -32751,7 +32751,7 @@ pg.equip_data_statistics = {
 			"HMS",
 			"DD",
 			"MG",
-			"HE"
+			"CM"
 		}
 	},
 	[21601] = {
@@ -32876,7 +32876,7 @@ pg.equip_data_statistics = {
 		ammo_info = {
 			{
 				1,
-				1101
+				1104
 			}
 		},
 		equip_info = {
@@ -32884,7 +32884,7 @@ pg.equip_data_statistics = {
 			2,
 			{
 				3,
-				1101
+				1104
 			},
 			{
 				4,
@@ -32963,7 +32963,7 @@ pg.equip_data_statistics = {
 		ammo_info = {
 			{
 				1,
-				1101
+				1104
 			}
 		},
 		equip_info = {
@@ -32971,7 +32971,7 @@ pg.equip_data_statistics = {
 			2,
 			{
 				3,
-				1101
+				1104
 			},
 			{
 				4,
@@ -86763,11 +86763,9 @@ pg.equip_data_statistics = {
 			}
 		},
 		equip_info = {
-			{
-				6,
-				7,
-				9
-			}
+			6,
+			7,
+			9
 		},
 		weapon_id = {
 			90820,
@@ -86913,11 +86911,9 @@ pg.equip_data_statistics = {
 			}
 		},
 		equip_info = {
-			{
-				6,
-				7,
-				9
-			}
+			6,
+			7,
+			9
 		},
 		weapon_id = {
 			90840
