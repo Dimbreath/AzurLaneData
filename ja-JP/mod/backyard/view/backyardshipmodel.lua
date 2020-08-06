@@ -562,6 +562,7 @@ function slot0.updateSpineInterAction(slot0, slot1)
 	end
 
 	for slot11, slot12 in pairs(slot0.roles) do
+		slot12:SetActionCallBack(nil)
 		slot12:SetAction(slot0:getSpineNormalAction(slot12), 0)
 		setActive(slot12.gameObject, false)
 		setActive(slot12.gameObject, true)
@@ -616,47 +617,72 @@ function slot0.PlayRandomControllerAction(slot0, slot1)
 end
 
 function slot0.PlaySpineAction(slot0, slot1)
-	if slot1:hasTailAction() then
-		slot0.viewComponent.blockEvent = true
+	function slot2()
+		if uv0:hasAnimator() then
+			uv1:startSpineAnimator(uv0)
+		end
 	end
 
-	if slot1:getPreheatAnim() then
-		slot0:playPreHeatAnim(slot1, slot3, function ()
-			if uv0:hasAnimator() then
-				uv1:startSpineAnimator(uv0)
-			end
+	function slot3(slot0)
+		if uv0:isFollowFurnitrueAnim() then
+			uv1:PlayActionAccordingFurniture(uv0, slot0)
+		else
+			uv1:PlayActionTogether(uv0, slot0)
+		end
+	end
 
-			if uv0:isFollowFurnitrueAnim() then
-				uv1:playAnimsFollowFurniture(uv0)
-			else
-				uv1:playAnims(uv0)
-			end
+	if slot1:getPreheatAnim() and type(slot4) == "string" then
+		setActive(slot0.tf, false)
+		slot0:PlayPerHeatAnim({
+			slot0.roles[2]
+		}, slot4, function ()
+			setActive(uv0.tf, true)
+			uv1()
+			uv2()
 		end)
+	elseif slot4 and type(slot4) == "table" then
+		slot2()
+		slot0:PlayPerHeatAnim({
+			slot0.roles[2],
+			slot0.roles[3]
+		}, slot4[1], function ()
+			uv0(true)
+		end)
+		slot0.roles[1]:SetAction(slot4[2], 0)
 	else
 		slot2()
+		slot3()
 	end
 end
 
-function slot0.playPreHeatAnim(slot0, slot1, slot2, slot3)
-	slot4 = slot0.roles[2]
+function slot0.PlayPerHeatAnim(slot0, slot1, slot2, slot3)
+	function slot4(slot0, slot1)
+		slot0:SetActionCallBack(function (slot0)
+			if slot0 == "finish" then
+				uv0:SetActionCallBack(nil)
+				uv1()
+			end
+		end)
+		slot0:SetAction(uv0, 0)
+	end
 
-	setActive(slot0.tf, false)
-	slot4:SetActionCallBack(function (slot0)
-		if slot0 == "finish" then
-			uv0:SetActionCallBack(nil)
-			uv1()
-			setActive(uv2.tf, true)
-		end
-	end)
-	slot4:SetAction(slot2, 0)
+	slot5 = {}
+
+	for slot9, slot10 in ipairs(slot1) do
+		table.insert(slot5, function (slot0)
+			uv0(uv1, slot0)
+		end)
+	end
+
+	parallelAsync(slot5, slot3)
 end
 
-function slot0.playAnimsFollowFurniture(slot0, slot1)
-	slot2 = slot1:getSpineAnims()
-	slot3 = slot0.roles[2]
-	slot4 = nil
+function slot0.PlayActionAccordingFurniture(slot0, slot1, slot2)
+	slot3 = slot1:getSpineAnims()
+	slot4 = slot0.roles[2]
+	slot5, slot6 = nil
 
-	function slot5(slot0)
+	function slot7(slot0)
 		if slot0 > #uv0 then
 			uv1:SetActionCallBack(nil)
 
@@ -670,9 +696,9 @@ function slot0.playAnimsFollowFurniture(slot0, slot1)
 					uv4:setSpineAnimtorParent(uv2)
 				end
 			elseif uv2:hasTailAction() then
-				uv4.viewComponent.blockEvent = nil
-
-				uv4:playTailActions(uv2)
+				if uv5 ~= uv2:getTailAction() then
+					uv4:playTailActions(slot3)
+				end
 			else
 				uv4:clearSpine()
 				uv4:updateShadowTF(true)
@@ -698,28 +724,30 @@ function slot0.playAnimsFollowFurniture(slot0, slot1)
 				uv4.bodyMask:GetComponent(typeof(Image)).enabled = not uv0[slot0][2]
 			end
 
+			uv5 = slot1
+
 			uv4:callActionCB("update", slot1)
 		end
 	end
 
 	function ()
-		if uv0:hasAnimator() then
-			uv1:endSpineAnimator(uv0)
-			uv1:startSpineAnimator(uv0)
+		if uv0:hasAnimator() and not uv1 then
+			uv2:endSpineAnimator(uv0)
+			uv2:startSpineAnimator(uv0)
 		end
 
-		uv1:callActionCB("end")
+		uv2:callActionCB("end")
 
 		slot0 = 1
 
-		uv2:SetActionCallBack(function (slot0)
+		uv3:SetActionCallBack(function (slot0)
 			if slot0 == "finish" then
 				uv0 = uv0 + 1
 
 				uv1(uv0)
 			end
 		end)
-		uv3(1)
+		uv4(1)
 	end()
 end
 
@@ -759,9 +787,9 @@ end
 
 function slot0.resumeAnim(slot0)
 	if slot0.spineFurniture:isFollowFurnitrueAnim() then
-		slot0:playAnimsFollowFurniture(slot1)
+		slot0:PlayActionAccordingFurniture(slot1)
 	else
-		slot0:playAnims(slot1)
+		slot0:PlayActionTogether(slot1)
 	end
 end
 
@@ -769,12 +797,12 @@ slot4 = 0
 slot5 = 1
 slot6 = 2
 
-function slot0.playAnims(slot0, slot1)
-	slot2 = slot1:getSpineAnims()
-	slot3 = 0
-	slot4, slot5, slot6, slot7 = nil
+function slot0.PlayActionTogether(slot0, slot1, slot2)
+	slot3 = slot1:getSpineAnims()
+	slot4 = 0
+	slot5, slot6, slot7, slot8, slot9 = nil
 
-	function slot7(slot0)
+	function slot8(slot0)
 		slot0:SetActionCallBack(nil)
 
 		slot1, slot2 = uv0:isLoopSpineInterAction()
@@ -784,7 +812,7 @@ function slot0.playAnims(slot0, slot1)
 				slot0:SetAction(uv0:getEndAnimName(), 0)
 
 				return
-			else
+			elseif not uv0:hasTailAction() then
 				slot0:SetAction(uv1:getSpineNormalAction(slot0), 0)
 			end
 		end
@@ -800,9 +828,9 @@ function slot0.playAnims(slot0, slot1)
 					uv1:setSpineAnimtorParent(uv0)
 				end
 			elseif uv0:hasTailAction() then
-				uv1.viewComponent.blockEvent = nil
-
-				uv1:playTailActions(uv0)
+				if uv4 ~= uv0:getTailAction() then
+					uv1:playTailActions(slot3)
+				end
 			else
 				uv1:clearSpine()
 				uv1:updateShadowTF(true)
@@ -812,7 +840,7 @@ function slot0.playAnims(slot0, slot1)
 		end
 	end
 
-	function slot6(slot0, slot1)
+	function slot7(slot0, slot1)
 		if slot1 > #uv0 then
 			uv1 = uv1 + 1
 
@@ -826,7 +854,7 @@ function slot0.playAnims(slot0, slot1)
 		end
 	end
 
-	function slot5(slot0, slot1, slot2)
+	function slot6(slot0, slot1, slot2)
 		if type(uv0[slot1][1]) == "table" then
 			slot3 = slot3[math.random(1, #slot3)]
 		end
@@ -848,6 +876,8 @@ function slot0.playAnims(slot0, slot1)
 		end
 
 		slot0:SetAction(slot3, 0)
+
+		uv6 = slot3
 
 		if uv2:GetSpecailActiont(slot3) and slot6 > 0 then
 			if uv1.timer[slot0] then
@@ -878,15 +908,15 @@ function slot0.playAnims(slot0, slot1)
 	slot0.timer = {}
 
 	function ()
-		if uv0:hasAnimator() then
-			uv1:endSpineAnimator(uv0)
-			uv1:startSpineAnimator(uv0)
+		if uv0:hasAnimator() and not uv1 then
+			uv2:endSpineAnimator(uv0)
+			uv2:startSpineAnimator(uv0)
 		end
 
-		uv2 = 0
+		uv3 = 0
 
-		for slot3, slot4 in pairs(uv1.roles) do
-			uv3(slot4, 1, function ()
+		for slot3, slot4 in pairs(uv2.roles) do
+			uv4(slot4, 1, function ()
 				uv0 = uv0 + 1
 
 				uv1(uv2, uv0)
@@ -896,8 +926,8 @@ function slot0.playAnims(slot0, slot1)
 end
 
 function slot0.playTailActions(slot0, slot1)
-	for slot6, slot7 in pairs(slot0.roles) do
-		slot7:SetAction(slot1:getTailAction(), 0)
+	for slot5, slot6 in pairs(slot0.roles) do
+		slot6:SetAction(slot1, 0)
 	end
 end
 
@@ -1043,12 +1073,20 @@ function slot0.clearSpineInteraction(slot0, slot1)
 	uv0.print("clear spine interaction.............")
 
 	for slot5, slot6 in pairs(slot0.roles) do
+		slot7 = slot0:getSpineNormalAction(slot6)
+
 		slot6:SetActionCallBack(nil)
-		slot6:SetAction(slot0:getSpineNormalAction(slot6), 0)
 
 		if slot5 == 3 then
-			setActive(tf(go(slot6)).parent, false)
+			slot6:SetActionCallBack(function (slot0)
+				if slot0 == "action" then
+					uv0:SetActionCallBack(nil)
+					setActive(tf(go(uv0)).parent, false)
+				end
+			end)
 		end
+
+		slot6:SetAction(slot7, 0)
 
 		if slot0.timer and slot0.timer[slot6] then
 			slot0.timer[slot6]:Stop()

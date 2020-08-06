@@ -570,6 +570,15 @@ pg.activity_const = {
 	MONOPOLY_CAR_PAGE = {
 		act_id = 620
 	},
+	U110BATTLE_RE_PAGE = {
+		act_id = 650
+	},
+	LINDONG_REMAKE_KR = {
+		act_id = 0
+	},
+	TWHALLOWEENSKIN = {
+		act_id = 0
+	},
 	VOTE_ORDER_BOOK_PHASE_1 = {
 		act_id = 1020
 	},
@@ -593,12 +602,6 @@ pg.activity_const = {
 	},
 	VOTE_ORDER_BOOK_PHASE_8 = {
 		act_id = 1027
-	},
-	LINDONG_REMAKE_KR = {
-		act_id = 0
-	},
-	TWHALLOWEENSKIN = {
-		act_id = 0
 	},
 	ACTIVITY_BOSS_AISAIKESI_PT = {
 		act_id = 623

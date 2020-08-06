@@ -58626,10 +58626,12 @@ pg.furniture_data_template = {
 				},
 				{
 					nil,
-					1
+					nil,
+					nil,
+					"sit"
 				},
 				{
-					1
+					0
 				}
 			},
 			{},

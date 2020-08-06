@@ -45,4 +45,24 @@ function slot0.TeamToTypeList(slot0)
 	end
 end
 
+function slot0.TypeToTeamType(slot0)
+	if table.contains(uv0.VanguardShipType, slot0) then
+		return uv0.Vanguard
+	elseif table.contains(uv0.MainShipType, slot0) then
+		return uv0.Main
+	elseif table.contains(uv0.SubShipType, slot0) then
+		return uv0.Submarine
+	end
+end
+
+function slot0.TeamTypeSortIndex(slot0)
+	if slot0 == uv0.Main then
+		return 1
+	elseif slot0 == uv0.Vanguard then
+		return 2
+	elseif slot0 == uv0.Submarine then
+		return 3
+	end
+end
+
 return slot0

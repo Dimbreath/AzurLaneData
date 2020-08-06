@@ -1607,7 +1607,7 @@ pg.activity_ins_template = {
 				28
 			},
 			{
-				16,
+				13,
 				2,
 				0
 			}
@@ -1633,7 +1633,7 @@ pg.activity_ins_template = {
 				28
 			},
 			{
-				17,
+				14,
 				20,
 				0
 			}
@@ -1659,7 +1659,7 @@ pg.activity_ins_template = {
 				28
 			},
 			{
-				20,
+				18,
 				10,
 				0
 			}
@@ -1786,7 +1786,7 @@ pg.activity_ins_template = {
 			{
 				2020,
 				5,
-				30
+				31
 			},
 			{
 				10,
@@ -2301,325 +2301,316 @@ pg.activity_ins_template = {
 	{
 		ship_group = 20227,
 		name = "Howe_Cookies",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_93",
+		picture_persist = "https://blhxstatic.akamaized.net/pic/200723_hao1_OwvHFbksKtUk0v7z.png",
+		is_active = 0,
 		sculpture = "hao",
 		id = 88,
 		group_id = 88,
 		time_persist = {
 			{
-				2019,
-				10,
-				31
+				2020,
+				7,
+				23
 			},
 			{
-				21,
-				0,
+				13,
+				20,
 				0
 			}
 		},
 		npc_discuss_persist = {
-			1,
-			2,
-			3
+			742,
+			745
 		}
 	},
 	{
 		ship_group = 20606,
 		name = "Per",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_89",
+		picture_persist = "https://blhxstatic.akamaized.net/pic/200723_yingxianzuo1_1LZhzvMpmTiUmfev.png",
+		is_active = 0,
 		sculpture = "yingxianzuo",
 		id = 89,
 		group_id = 89,
 		time_persist = {
 			{
-				2019,
-				10,
-				31
+				2020,
+				7,
+				23
 			},
 			{
-				21,
-				0,
+				20,
+				38,
 				0
 			}
 		},
 		npc_discuss_persist = {
-			1,
-			2,
-			3
+			711,
+			714
 		}
 	},
 	{
 		ship_group = 20510,
 		name = "Hermione",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_88",
+		picture_persist = "https://blhxstatic.akamaized.net/pic/200723_hemin1_W8iwP4F94EQf3IyD.png",
+		is_active = 0,
 		sculpture = "hemin",
 		id = 90,
 		group_id = 90,
 		time_persist = {
 			{
-				2019,
-				10,
-				31
+				2020,
+				7,
+				24
 			},
 			{
-				21,
-				0,
+				13,
+				12,
 				0
 			}
 		},
 		npc_discuss_persist = {
-			1,
-			2,
-			3
+			704,
+			707
 		}
 	},
 	{
 		ship_group = 20133,
 		name = "Cmdr_Valiant",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_90",
+		picture_persist = "https://blhxstatic.akamaized.net/pic/200723_yingyong1_ejPA7FdfygEacCJM.png",
+		is_active = 0,
 		sculpture = "yingyong",
 		id = 91,
 		group_id = 91,
 		time_persist = {
 			{
-				2019,
-				10,
-				31
+				2020,
+				7,
+				25
 			},
 			{
-				21,
-				0,
+				9,
+				33,
 				0
 			}
 		},
 		npc_discuss_persist = {
-			1,
-			2,
-			3
+			718,
+			721,
+			724
 		}
 	},
 	{
 		ship_group = 20701,
 		name = "Icarus_Wing",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_91",
+		picture_persist = "https://blhxstatic.akamaized.net/pic/200723_yikaluosi2_FOLcdXHkjzLtBbbv.png",
+		is_active = 0,
 		sculpture = "yikaluosi",
 		id = 92,
 		group_id = 92,
 		time_persist = {
 			{
-				2019,
-				10,
-				31
+				2020,
+				7,
+				25
 			},
 			{
-				21,
-				0,
+				17,
+				41,
 				0
 			}
 		},
 		npc_discuss_persist = {
-			1,
-			2,
-			3
+			727,
+			731
 		}
 	},
 	{
 		ship_group = 20509,
 		name = "Eagle",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_92",
+		picture_persist = "https://blhxstatic.akamaized.net/pic/200723_ying1_PKilcJDxuMmc4GnJ.png",
+		is_active = 0,
 		sculpture = "ying",
 		id = 93,
 		group_id = 93,
 		time_persist = {
 			{
-				2019,
-				10,
-				31
+				2020,
+				7,
+				26
 			},
 			{
-				21,
-				0,
+				11,
+				54,
 				0
 			}
 		},
 		npc_discuss_persist = {
-			1,
-			2,
-			3
+			735,
+			740
 		}
 	},
 	{
 		ship_group = 20509,
 		name = "Per",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_95",
+		picture_persist = "https://blhxstatic.akamaized.net/pic/200723_yingxianzuo2_B7EFmKq5pcJUqvez.png",
+		is_active = 0,
 		sculpture = "yingxianzuo",
 		id = 94,
 		group_id = 94,
 		time_persist = {
 			{
-				2019,
-				10,
-				31
+				2020,
+				7,
+				27
 			},
 			{
-				21,
+				14,
 				0,
 				0
 			}
 		},
 		npc_discuss_persist = {
-			1,
-			2,
-			3
+			760,
+			764
 		}
 	},
 	{
 		ship_group = 20606,
 		name = "Eagle",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_96",
+		picture_persist = "https://blhxstatic.akamaized.net/pic/200723_ying2_aYSwak8lGvvDKBZg.png",
+		is_active = 0,
 		sculpture = "ying",
 		id = 95,
 		group_id = 95,
 		time_persist = {
 			{
-				2019,
-				10,
-				31
+				2020,
+				7,
+				27
 			},
 			{
-				21,
-				0,
+				19,
+				25,
 				0
 			}
 		},
 		npc_discuss_persist = {
-			1,
-			2,
-			3
+			770,
+			773,
+			775
 		}
 	},
 	{
 		ship_group = 20701,
 		name = "Hermione",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_97",
+		picture_persist = "https://blhxstatic.akamaized.net/pic/200723_hemin2_Jx5r8cHKbunFkYDv.png",
+		is_active = 0,
 		sculpture = "hemin",
 		id = 96,
 		group_id = 96,
 		time_persist = {
 			{
-				2019,
-				10,
-				31
+				2020,
+				7,
+				28
 			},
 			{
-				21,
-				0,
+				16,
+				34,
 				0
 			}
 		},
 		npc_discuss_persist = {
-			1,
-			2,
-			3
+			779,
+			783
 		}
 	},
 	{
 		ship_group = 20227,
 		name = "Icarus_Wing",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_98",
+		picture_persist = "https://blhxstatic.akamaized.net/pic/200723_yikaluosi1_6cawBX1aQDZxtOS3.png",
+		is_active = 0,
 		sculpture = "yikaluosi",
 		id = 97,
 		group_id = 97,
 		time_persist = {
 			{
-				2019,
-				10,
-				31
+				2020,
+				7,
+				29
 			},
 			{
-				21,
-				0,
+				10,
+				13,
 				0
 			}
 		},
 		npc_discuss_persist = {
-			1,
-			2,
-			3
+			787,
+			789,
+			791
 		}
 	},
 	{
 		ship_group = 20133,
 		name = "Cmdr_Valiant",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_99",
+		picture_persist = "https://blhxstatic.akamaized.net/pic/200723_yingyong2_QkkIQtIaKzDOFBcc.png",
+		is_active = 0,
 		sculpture = "yingyong",
 		id = 98,
 		group_id = 98,
 		time_persist = {
 			{
-				2019,
-				10,
-				31
+				2020,
+				7,
+				29
 			},
 			{
-				21,
-				0,
+				15,
+				48,
 				0
 			}
 		},
 		npc_discuss_persist = {
-			1,
-			2,
-			3
+			794,
+			799
 		}
 	},
 	{
 		ship_group = 20510,
 		name = "Howe_Cookies",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_94",
+		picture_persist = "https://blhxstatic.akamaized.net/pic/200723_hao2_0hQK0vet0zEIDgcj.png",
+		is_active = 0,
 		sculpture = "hao",
 		id = 99,
 		group_id = 99,
 		time_persist = {
 			{
-				2019,
-				10,
-				31
+				2020,
+				7,
+				30
 			},
 			{
-				21,
-				0,
+				14,
+				42,
 				0
 			}
 		},
 		npc_discuss_persist = {
-			1,
-			2,
-			3
+			750,
+			755
 		}
 	},
 	all = {

@@ -1758,13 +1758,13 @@ end
 function slot0.UpdateQuadStateNormal(slot0)
 	slot1 = slot0.contextData.chapterVO
 	slot2 = slot1.fleet
-	slot3 = {}
+	slot3 = nil
 
 	if slot1:existMoveLimit() and not slot1:checkAnyInteractive() then
 		slot3 = slot1:calcWalkableCells(ChapterConst.SubjectPlayer, slot2.line.row, slot2.line.column, slot2:getSpeed())
 	end
 
-	if #slot3 > 0 then
+	if slot3 and #slot3 > 0 then
 		slot5 = ManhattonDist(_.min(slot3, function (slot0)
 			return ManhattonDist(slot0, uv0.line)
 		end), slot2.line)

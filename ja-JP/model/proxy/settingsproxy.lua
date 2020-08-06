@@ -17,6 +17,7 @@ function slot0.onRegister(slot0)
 	slot0:resetEquipSceneIndex()
 
 	slot0._isShowCollectionHelp = PlayerPrefs.GetInt("collection_Help", 0) > 0
+	slot0.lastRequestVersionTime = nil
 end
 
 function slot0.GetDockYardLockBtnFlag(slot0)
