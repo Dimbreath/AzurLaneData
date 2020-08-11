@@ -50,9 +50,13 @@ function slot0.register(slot0)
 		end
 	end)
 	slot0:on(10999, function (slot0)
-		uv0:sendNotification(GAME.LOGOUT, {
-			code = slot0.reason
-		})
+		if slot0.reason == LOGOUT_NEW_VERSION then
+			getProxy(SettingsProxy).lastRequestVersionTime = nil
+		else
+			uv0:sendNotification(GAME.LOGOUT, {
+				code = slot0.reason
+			})
+		end
 	end)
 	slot0:on(11015, function (slot0)
 		uv0.data:clone().buff_list = {}

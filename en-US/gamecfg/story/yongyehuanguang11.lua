@@ -13,7 +13,7 @@ return {
 			bgm = "bsm-5",
 			actor = 401020,
 			nameColor = "#ff5c5c",
-			say = "「幻光」，也就是飘忽不定的极光...没想到真的在行动中能赶上极光出现……",
+			say = "The Northern Lights actually came out at a time like this...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -38,7 +38,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "欧根，这次的行动名是你定的，还是腓特烈大帝？",
+			say = "The only one who could've devised this plan is Eugen... Nay, it must have been the \"assistant,\" Friedrich der Große.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "当然是她定的咯，不过没想到居然连这种莫名其妙的地方都这么严谨啊，真恐怖…",
+			say = "Of course it's her plan. But you know, she's such a stickler about the details, it's killing me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "唔嗯？刚刚那是…皇家的舰载机…？看来我们的行踪已经按照计划“暴露”了呢~",
+			say = "...Oh my, is that a Royal recon plane? What are we ever to do if they \"find out\" about our plans?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "接下来就应该是...",
+			say = "Now, for the next move...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "欧根，那边奇怪的指示灯开始乱闪起来了。",
+			say = "Prinz Eugen, we've intercepted a transmission from the Royal Navy's supporting fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "真的成功拦截到了么！腓特烈还真是给了我们一个好玩具啊…！",
+			say = "Well done. Ah, how proud I am of our wonderful Iron Blood technology... Ehehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			blackBg = true,
 			actor = 403030,
 			nameColor = "#ff5c5c",
-			say = "......接下来...用谁的名义发出去比较好呢，呵呵呵呵，就用她们尊敬的女王陛下吧~",
+			say = "...I wonder whose name I should use next. Maybe using that little queen's name will be a bit more believable?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			blackBg = true,
 			actor = 401020,
 			nameColor = "#ff5c5c",
-			say = "欧根，笑得好恶心。",
+			say = "Prinz Eugen... You're having too much fun with this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "哼哼哼，这是少女因为计划进展的过于顺利而露出的会心一笑啊~",
+			say = "Eh? It's not like I particularly enjoy my job... But you also wouldn't want to face the Royal Navy head-on, would you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "好了，快去给“狼群”发报。就说计划顺利，让她们在静待护卫舰队撤离之后再发动总攻。",
+			say = "Anyway, I'm going to go relay the proper timing of the attack to the submarines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "好好好...不过我觉得皇家不会蠢到被这种计划骗到就是了。",
+			say = "I know, I know... But, how long will the Royal Navy continue to move according to our expectations?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "重要的不是结果，而是出现在过程之中的“要素”。反正狼群还准备了一套自己的袭击计划吧，如果护卫舰队没被骗就随她们去打好咯~",
+			say = "The submarines are the \"wedges\" that will fracture the Reenactment. What matters is that \"They\" will appear there, not whether we can actually draw away the escort fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "然后...把皇家的支援舰队孤独的晾在那里也不好，我们也派出前锋舰队和她们好好玩玩吧~",
+			say = "And of course, we can't have our little support fleet here getting in the way, now can we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "无数冰柱仿佛被巨大的力量牵引一般，不自然的汇聚到一起，由海面延伸至天空，扭曲成一座诡异的巨型结构体。",
+			say = "Countless spears of ice reach up from the ocean as if lifted by an external force, forming a massive structure that claws at the clouds.",
 			side = 2,
 			bgName = "bg_hms_0",
 			dir = 1,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			dir = 1,
-			say = "这里是已经成为极地塞壬外围据点的，曾经由余烬开启过的第一个奇异点------“王冠”。",
+			say = "That is the \"Crown\" of the Northern Parliament, the singularity that serves as one of the largest Siren bases in the Arctic Circle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			dir = 1,
-			say = "面向“王冠”的方向，无穷无尽的塞壬正在由远及近侵蚀着视野中的海面，景象宛如末日降临一般。",
+			say = "And around it stand the guardians of humanity who continue to push back against the inexhaustible waves of Sirens materialized from that base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_hms_0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，这次的难度好像稍微有些高呢，不过指挥官的话一定没有问题吧~",
+			say = "Soyuz's personal desires aside, haven't we kept the commander for a bit too long? One of their escort fleets will probably come knocking on our doors soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_hms_0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样，让我们一起揍扁它们吧，同志酱！",
+			say = "Is that so? I don't really care either way... Well, maybe a little...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_hms_0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们不光是为了生存而战，也是为了未来而战。指挥官，不论陷入何种险境，希望的曙光永远存在。",
+			say = "That would be rather inopportune for us. After all, we've managed closer to the \"Crown\" thanks to the commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_hms_0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官同志，现在位于王冠附近的所有北方联合舰队都听从您的指挥。",
+			say = "Indeed. If we don't crush the Siren bases one by one, we are the ones who will be destroyed in the end. What we need is total war, not just holding the line.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_hms_0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们将作为您的利刃，尽情挥舞我们，粉碎这些胆敢入侵我们家园的敌人吧！",
+			say = "I'm sorry, Commander, but can we count on your assistance once more, just like back then with the Iceberg Stronghold?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			dir = 1,
-			say = "虽然这次的难度确实有点高，但是......撤退、投降、逃跑的选项从来都不存在。",
+			say = "The war situation in the Northern Parliament is one of the most harrowing things I've ever seen. But this was also the moment they needed me the most.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			dir = 1,
-			say = "带领舰队进行战斗，然后取得胜利。这是作为指挥官的职责、义务…和使命。",
+			say = "Then, as the person entrusted with leading them to victory, perhaps I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			},
 			options = {
 				{
-					content = "下达出击指令",
+					content = "...shall take command once more.",
 					flag = 1
 				}
 			}
@@ -167,8 +167,8 @@ return {
 			side = 2,
 			bgName = "bg_cccp_3",
 			dir = 1,
-			actorName = "北方联合众人",
-			say = "γpa！！！！",
+			actorName = "Sovetsky Soyuz",
+			say = "γpa!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -189,7 +189,7 @@ return {
 			blackBg = true,
 			actor = 900218,
 			nameColor = "#ffff4d",
-			say = "γpa…让我们开始战斗吧，指挥官同志。",
+			say = "γpa!!",
 			flashout = {
 				dur = 0.5,
 				black = true,

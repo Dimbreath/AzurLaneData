@@ -10,7 +10,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			say = "哈哈哈哈，刚才的嚣张势头哪里去了？怎么现在就只有乱跑的份啊！",
+			say = "Where'd all that bravado from earlier go? Are you rats only capable of scurrying around?! Ahahahaha!!",
 			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "清除者的光束在海面上肆无忌惮的扫射着，英勇和豪则一面与之周旋，一面等待着必杀的时机。",
+			say = "Valiant and Howe dodged and weaved between Omitter's attacks, ruination flashing all around them as they waited for a single decisive moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "炮击…鱼雷…主武器…然后再接上炮击、鱼雷和主武器…么。然后是…",
+			say = "Cannonfire, torpedo barrage, beam weapon... then repeat...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "原来如此，在主武器开火的短时间内没办法移动。胜机就在这里了…英勇，你觉得呢？",
+			say = "...I see it! After launching her beam weapon, she stops for a moment to recharge!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "由“国王”主动露出破绽么…哼哼，为了对局的胜利，当一次诱饵也无妨！绝对不许失手哦，“皇后”。",
+			say = "In a game of chess, sometimes the king must move before the other pieces follow... In that case, I'll be the decoy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 900219,
 			nameColor = "#ff5c5c",
-			say = "哦？居然大剌剌地靠过来了…看来在认清楚实力差距以后，终于放弃无谓的挣扎了啊。",
+			say = "...Oh? Are you admitting defeat? Why'd you suddenly stop moving?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "......我承认，之前确实小看你了。就算看上去再不靠谱，到底是塞壬的高级型号…",
+			say = "You might be a rotten bastard, but I'll admit that I underestimated you. You really are a high-ranking Siren.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "“看上去不怎么靠谱”是多余的！哼，早点这样也不用白受那么多苦了。",
+			say = "Rotten? The only one who's going to rot is you. But it seems like you've already recognized that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "反正数据也收集得差不多了，我还要赶时间，直接给你个痛快吧！",
+			say = "In any case, I've already collected the data I need, so let's make this quick—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "哼…太天真了！",
+			say = "Don't think you've won just yet...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "清除者瞄准停留在不远处的英勇启动了主炮，可是光束却在命中前的千钧一发之际被勉强躲开了。",
+			say = "At the last possible moment, Valiant barely managed to evade the path of the devastating beam, and—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "......哎？！干嘛又躲开啦！你不是来决死突击的么...？",
+			say = "Oh, did I miss? That's a pity, but let's try that again—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想也知道不可能吧！笨蛋！该你表演了，豪！",
+			say = "Now's your chance, Howe! Don't let her finish charging!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "交给我吧！",
+			say = "You're mine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			side = 2,
-			say = "…糟了！",
+			say = "What?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_6",
 			dir = 1,
-			say = "由于清除者将全部注意力都放在了面前的英勇身上，当发现从侧面高速袭来的豪时已经太迟了。",
+			say = "Haaaaaaaaaah!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,12 +295,12 @@ return {
 			}
 		},
 		{
-			actorName = "清除者",
+			actorName = "Omitter",
 			side = 1,
 			bgName = "bg_hms_6",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "…啧！舰队指挥居然亲自把自己当成诱饵么？！",
+			say = "Was that midget using herself as bait... Gah?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,12 +311,12 @@ return {
 			}
 		},
 		{
-			actorName = "英勇",
+			actorName = "Valiant",
 			side = 2,
 			bgName = "bg_hms_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "整天把棋子棋子的挂在嘴上，今天还是让我来教教你们什么叫下棋吧！",
+			say = "You Siren scum are always going on and on about \"pieces,\" but Valiant shall instruct you on how to turn a pawn into a queen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_6",
 			dir = 1,
-			say = "清除者试图通过强行终止主炮的发射程序来进行紧急规避，但是在那之前豪的剑已经深深刺入了清除者的舰装内。",
+			say = "Before Omitter could finish charging her weapon, Howe plunged her blade deep into the Siren's rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,12 +341,12 @@ return {
 			}
 		},
 		{
-			actorName = "豪",
+			actorName = "Howe",
 			side = 2,
 			bgName = "bg_hms_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "安心上路吧！",
+			say = "You're finished, Siren!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,8 +361,8 @@ return {
 			side = 1,
 			bgName = "bg_hms_6",
 			dir = 1,
-			actorName = "清除者",
-			say = "…可恶！啊啊啊啊啊！！！I'll be bac...k......",
+			actorName = "Omitter",
+			say = "How... could this be?! I'm explodinggggggraaahhhhh!!!!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "舰装的破损引起了尚且停留在发射系统中的能量泄露。在一连串小爆炸之后，一声巨大的爆炸响彻海面，硝烟过后清除者已经从海面上完全消失了.",
+			say = "The energy stored within Omitter's rigging burst outwards violently, causing a massive explosion that erased all traces of the Siren and her equipment.",
 			effects = {
 				{
 					active = true,
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "咳、咳咳...这威力真够夸张的......果然这种战术还是不能轻易使用啊…英勇？",
+			say = "*cough* *cough*...Let's... just go back to exchanging fire next time... Valiant?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "又报废了一座主炮而已，我没事。反正回去之后肯定要大修了，怎么修不一样是修。",
+			say = "Don't worry, she only took out one of my guns. Simple enough to get it repaired once we return home, so it's no big deal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "豪…视界内和雷达上都找不到清除者的踪影了！",
+			say = "Her signal disappeared from the radar... There are only a few stragglers left!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			actor = 205090,
 			nameColor = "#a9f548",
-			say = "好，剩下的残敌就交给我们，你好好休息吧，英勇。",
+			say = "All right. Let's clean up the remaining enemies.",
 			effects = {
 				{
 					active = false,

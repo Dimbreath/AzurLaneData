@@ -58655,6 +58655,230 @@ pg.task_data_template = {
 		open_need = {},
 		award_display = {}
 	},
+	[14840] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91483,
+		type = 26,
+		name = "吸血鬼登录复刻1",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "XIXUEGUI1",
+		target_id_for_client = 0,
+		id = 14840,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				300
+			}
+		}
+	},
+	[14841] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91484,
+		type = 26,
+		name = "吸血鬼登录复刻2",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "XIXUEGUI2",
+		target_id_for_client = 0,
+		id = 14841,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17013,
+				3
+			}
+		}
+	},
+	[14842] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91485,
+		type = 26,
+		name = "吸血鬼登录复刻3",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "XIXUEGUI3",
+		target_id_for_client = 0,
+		id = 14842,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17033,
+				3
+			}
+		}
+	},
+	[14843] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91486,
+		type = 26,
+		name = "吸血鬼登录复刻4",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14843,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17023,
+				3
+			}
+		}
+	},
+	[14844] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91487,
+		type = 26,
+		name = "吸血鬼登录复刻5",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "XIXUEGUI4",
+		target_id_for_client = 0,
+		id = 14844,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17043,
+				3
+			}
+		}
+	},
+	[14845] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91488,
+		type = 26,
+		name = "吸血鬼登录复刻6",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14845,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				3
+			}
+		}
+	},
+	[14846] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91489,
+		type = 26,
+		name = "吸血鬼登录复刻7",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "XIXUEGUI5",
+		target_id_for_client = 0,
+		id = 14846,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				201232,
+				1
+			}
+		}
+	},
 	[14847] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -82271,6 +82495,1104 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15761] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93460,
+		type = 6,
+		name = "『英系V2』角色收集：豪",
+		count_inherit = 0,
+		desc = "Fully Limit Break Howe.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 205094,
+		id = 15761,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "205094",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				600
+			}
+		}
+	},
+	[15762] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93461,
+		type = 6,
+		name = "『英系V2』角色收集：英仙座",
+		count_inherit = 0,
+		desc = "Fully Limit Break Perseus.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 206064,
+		id = 15762,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "206064",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				600
+			}
+		}
+	},
+	[15763] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93462,
+		type = 6,
+		name = "『英系V2』角色收集：赫敏",
+		count_inherit = 0,
+		desc = "Fully Limit Break Hermione.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 202274,
+		id = 15763,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "202274",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				600
+			}
+		}
+	},
+	[15764] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93463,
+		type = 6,
+		name = "『英系V2』角色收集：鹰",
+		count_inherit = 0,
+		desc = "Fully Limit Break Eagle.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 207014,
+		id = 15764,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "207014",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				400
+			}
+		}
+	},
+	[15765] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93464,
+		type = 6,
+		name = "『英系V2』角色收集：伊卡洛斯",
+		count_inherit = 0,
+		desc = "Fully Limit Break Icarus.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 201334,
+		id = 15765,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "201334",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				400
+			}
+		}
+	},
+	[15766] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93465,
+		type = 6,
+		name = "『英系V2』角色收集：英勇",
+		count_inherit = 0,
+		desc = "Fully Limit Break Valiant.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 205104,
+		id = 15766,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "205104",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				400
+			}
+		}
+	},
+	[15767] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93466,
+		type = 6,
+		name = "『英系V2』角色刷关：牙买加",
+		count_inherit = 0,
+		desc = "Defeat the boss of A2 or C2 10 times with Jamaica at max Limit Break. Jamaica must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15767,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1420113,
+			1422113
+		},
+		target_id_2 = {
+			202174
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15768] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93467,
+		type = 6,
+		name = "『英系V2』角色刷关：希佩尔",
+		count_inherit = 0,
+		desc = "Defeat the boss of A3 or C3 10 times with Admiral Graf Spee at max Limit Break. Admiral Graf Spee must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15768,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1420213,
+			1422213
+		},
+		target_id_2 = {
+			403054
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15769] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93468,
+		type = 6,
+		name = "『英系V2』角色刷关：吸血鬼",
+		count_inherit = 0,
+		desc = "Defeat the boss of B2 or D2 10 times with Vampire at max Limit Break. Vampire must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15769,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1421113,
+			1423113
+		},
+		target_id_2 = {
+			201234
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15770] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93469,
+		type = 6,
+		name = "『英系V2』角色刷关：贝尔法斯特",
+		count_inherit = 0,
+		desc = "Defeat the boss of B3 or D3 10 times with Belfast at max Limit Break. Belfast must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15770,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1421213,
+			1423213
+		},
+		target_id_2 = {
+			202124
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59170,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15771] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93485,
+		type = 36,
+		name = "『英系V2』-日常建造",
+		count_inherit = 0,
+		desc = "Build 3 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15771,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59171,
+				300
+			}
+		}
+	},
+	[15772] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93486,
+		type = 36,
+		name = "『英系V2』-日常出击",
+		count_inherit = 0,
+		desc = "Sortie and obtain 15 victories.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15772,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59171,
+				300
+			}
+		}
+	},
+	[15773] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93487,
+		type = 36,
+		name = "『英系V2』-日常困难本",
+		count_inherit = 0,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15773,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59171,
+				150
+			}
+		}
+	},
+	[15774] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93471,
+		type = 6,
+		name = "『英系V2』通关A1/C1",
+		count_inherit = 0,
+		desc = "Clear A1 or C1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15775",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15774,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1380001,
+			1380021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59171,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15775] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93472,
+		type = 6,
+		name = "『英系V2』通关A2/C2",
+		count_inherit = 0,
+		desc = "Clear A2 or C2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15776",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15775,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1380002,
+			1380022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59171,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15776] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93473,
+		type = 6,
+		name = "『英系V2』通关A3/C3",
+		count_inherit = 0,
+		desc = "Clear A3 or C3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15777",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15776,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1380003,
+			1380023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59171,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15777] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93474,
+		type = 6,
+		name = "『英系V2』通关B1/D1",
+		count_inherit = 0,
+		desc = "Clear B1 or D1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15778",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15777,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1380004,
+			1380024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59171,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15778] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93475,
+		type = 6,
+		name = "『英系V2』通关B2/D2",
+		count_inherit = 0,
+		desc = "Clear B2 or D2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15779",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15778,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1380005,
+			1380025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59171,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15779] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93476,
+		type = 6,
+		name = "『英系V2』通关B3/D3",
+		count_inherit = 0,
+		desc = "Clear B3 or D3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15780",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15779,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1380006,
+			1380026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59171,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15780] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93477,
+		type = 6,
+		name = "『英系V2』通关SP",
+		count_inherit = 0,
+		desc = "Clear SP.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1380041,
+		id = 15780,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1380041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15781] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93478,
+		type = 6,
+		name = "『英系V2』通关D3",
+		count_inherit = 0,
+		desc = "Clear D3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1380026,
+		id = 15781,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1380026",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				177,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15782] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93479,
+		type = 6,
+		name = "『英系V2』A1/C1的3星",
+		count_inherit = 0,
+		desc = "Complete A1 or C1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15783",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15782,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1380001,
+			1380021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15783] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93480,
+		type = 6,
+		name = "『英系V2』A2/C2的3星",
+		count_inherit = 0,
+		desc = "Complete A2 or C2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15784",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15783,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1380002,
+			1380022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15784] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93481,
+		type = 6,
+		name = "『英系V2』A3/C3的3星",
+		count_inherit = 0,
+		desc = "Complete A3 or C3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15785",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15784,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1380003,
+			1380023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15785] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93482,
+		type = 6,
+		name = "『英系V2』B1/D1的3星",
+		count_inherit = 0,
+		desc = "Complete B1 or D1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15786",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15785,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1380004,
+			1380024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15786] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93483,
+		type = 6,
+		name = "『英系V2』B2/D2的3星",
+		count_inherit = 0,
+		desc = "Complete B2 or D2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15787",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15786,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1380005,
+			1380025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15787] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93484,
+		type = 6,
+		name = "『英系V2』B3/D3的3星",
+		count_inherit = 0,
+		desc = "Complete B3 or D3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15787,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1380006,
+			1380026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15788] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93527,
+		type = 6,
+		name = "『英系V2』登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "Log in to the game.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15788,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				164,
+				2
+			}
+		}
+	},
 	[31013] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -94823,6 +96145,13 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		14832,
 		14833,
 		14834,
+		14840,
+		14841,
+		14842,
+		14843,
+		14844,
+		14845,
+		14846,
 		14847,
 		14910,
 		14911,
@@ -95427,6 +96756,34 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		15758,
 		15759,
 		15760,
+		15761,
+		15762,
+		15763,
+		15764,
+		15765,
+		15766,
+		15767,
+		15768,
+		15769,
+		15770,
+		15771,
+		15772,
+		15773,
+		15774,
+		15775,
+		15776,
+		15777,
+		15778,
+		15779,
+		15780,
+		15781,
+		15782,
+		15783,
+		15784,
+		15785,
+		15786,
+		15787,
+		15788,
 		31013,
 		31014,
 		31015,

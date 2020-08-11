@@ -2084,6 +2084,347 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[205100] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		mission = "",
+		touch2 = "",
+		id = 205100,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"You're here! Good timing, let's go over today's itinerary!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"My assistant, how fares the war situation? N-nothing out of the ordinary, hopefully?"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Hey, what's taking so long? ...The black tea still isn't ready? I'm already used to the flavor of your tea, so don't keep me waiting too long...|Charisma might be important, but what people truly flock to is your talent and sincerity.|nil"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Huh? What is it? Are you even listening to me?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I don't care if I win or lose... A-after all, what's more important is that I get to be with you, right...? You agree?! ...W-well then, let's have a rematch!"
+			}
+		}
+	},
+	[207010] = {
+		feeling3 = "",
+		win_mvp = "",
+		expedition = "",
+		main_extra = "",
+		mission = "",
+		id = 207010,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, if you're tired, you could've just stayed in bed, or arrived late if you wanted. All you need do is let me know about it."
+			}
+		},
+		home = {
+			{
+				1100,
+				"My body weight's still the same as it w– Oh, you're back, Commander. Yeah, it's been business as usual in here."
+			}
+		},
+		upgrade = {
+			{
+				1100,
+				"That really hit the spot, thank you. No matter how hard the going may get, I will always keep advancing for you."
+			}
+		},
+		main = {
+			{
+				1100,
+				"Low-calorie diets are a healthy habit, Commander. You should give one a try sometime.|I don't really mind showing you my physical exam report. Just to you, Commander.|I've gotten better at talking to all the submarines. Knowing you for so long has helped me substantially improve my social skills."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"An invitation for lunch, eh? With you watching over me, I think I can do it. Let's go."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Despite my weight, I have little meat on my– Wh-what are you doing?!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Weight and appearances don't bother me as much anymore. We, as ships, can't physically change much anyway, and you're happy with me no matter how I look. We are both irreplaceable to one another, after all."
+			}
+		}
+	},
+	[201330] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 201330,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Oh, Commander. Did you just get here? I've prepared the schedule and documents on your desk, along with a glass of lemon water. It's got plenty of vitamins in it, so I hope you'll do your best!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hehe~ Commander, your kindness puts me at ease."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Here Commander, your lunch! Ah, but you can't be a picky eater!|Wow, Hood is gorgeous as always... Hey Commander, you should follow her example too and act more gracefully!|Whenever I play hide-and-seek, I usually find everyone intuitively... Perhaps I'm better at it than I thought?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I'm right over here~ Please let me know if you need anything!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"If you're g-going to do something like this, shouldn't we go elsewhere...?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"\"You, who are like the sun...\" No, that's not quite it. If I were to say what you are really like... Maybe a space heater? Warm to be around, without the danger of being burned... Look, even if I'm sticking to you this closely, I'm still not burned! Hehe~"
+			}
+		}
+	},
+	[202270] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		home = "",
+		mission = "",
+		id = 202270,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Good morning, Commander. Hehe, you were sleeping so soundly, I couldn't bear to wake you up. Let's do our best today~"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Commander, please come over here and lie on your side. I'll give you a wonderful Royal Navy-style massage~ Hehe.|nil|This feeling of doing work with you, by your side... It feels really great. Yep~♪"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"A fizzy drink? ...I guess it can't be helped. Just one more, alright?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Good grief, you never change..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Hmhm~♪ The room's all cleaned, time for... Oh, welcome back, Commander. I'll prepare your meal right away, so please wait a bit longer~"
+			}
+		}
+	},
+	[205090] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		mission = "",
+		id = 205090,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Welcome back. Can I keep you company until the night arrives, love?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Splendid work, love. Have a cookie and get some rest, then we'll start on the after-battle report."
+			}
+		},
+		main = {
+			{
+				1100,
+				"My sisters can be rather headstrong at times. If they give you any trouble, you can turn to me, love.|nil|It seems my cookies were adored, but my performance failed to garner any reactions..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"You'd like a massage? It would be my pleasure."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I can see why you'd do that. Hehehe~"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Hehehe, let's plan for our next date, love. Speaking of which, I've heard of a place with famously delicious cookies. How does that sound?"
+			}
+		}
+	},
+	[206060] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		home = "",
+		mission = "",
+		id = 206060,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"There's that saying that goes, \"the early bird catches the worm\"... Uh, just try not to starve to death, Commander."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Okay, fine. I use my mirror for conversation practice... Stop giggling, it's not funny."
+			}
+		},
+		main = {
+			{
+				1100,
+				"If you need my help with something, just say it. But first, try to accomplish it on your own. Or don't, that's fine.|Work is like food, they both have an expiry date. So, need any help finishing your food, so to speak?|nil"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Intrepid, can you see Perseus? No, I mean, the constellation."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"So, are you up for a chat?"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"The commission team is back, Commander."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I've become able to just, you know, talk. Like a normal person. With you and other people, I mean. I owe you thanks for helping me come this far. I love you, Commander. I really do."
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -2118,6 +2459,12 @@ pg.ship_skin_words_extra = {
 		901110,
 		205060,
 		205070,
-		902010
+		902010,
+		205100,
+		207010,
+		201330,
+		202270,
+		205090,
+		206060
 	}
 }

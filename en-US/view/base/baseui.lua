@@ -84,6 +84,14 @@ function slot0.PlayBGM(slot0)
 	end
 end
 
+function slot0.SwitchToDefaultBGM(slot0)
+	slot1 = slot0:getBGM() or pg.voice_bgm.MainUI.bgm
+
+	playBGM(slot1)
+
+	slot0.bgm = slot1
+end
+
 function slot0.isLoaded(slot0)
 	return slot0._isLoaded
 end

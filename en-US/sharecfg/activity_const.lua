@@ -319,7 +319,7 @@ pg.activity_const = {
 		act_id = 30186
 	},
 	SKIN_XIXUEGUI = {
-		act_id = 30185
+		act_id = 30470
 	},
 	SUMMER_FEAST_ID = {
 		act_id = 30194
@@ -521,6 +521,9 @@ pg.activity_const = {
 	},
 	MONOPOLY_CAR_PAGE = {
 		act_id = 620
+	},
+	U110BATTLE_RE_PAGE = {
+		act_id = 650
 	},
 	LINDONG_REMAKE_KR = {
 		act_id = 0

@@ -13,7 +13,7 @@ return {
 			bgmDelay = 1,
 			bgm = "level02",
 			nameColor = "#a9f548",
-			say = "皇家·LD司令部 数日前",
+			say = "Royal Islands -  Several days prior",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "——北方联合的现状，就和报告中说的一样。皇家的各位有什么看法么？",
+			say = "—That concludes our report regarding the Northern Parliament's war efforts. It roughly lines up with the information they released, but I'd like to hear your opinions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…极地舰队在之前的作战中展现出了远超我们的预估的实力。能让这样的北方联合主动求援，极地战线的局势已经如此严峻了啊。",
+			say = "The Northern Parliament demonstrated strength far surpassing our expectations during the previous operation. The fact that they, with such a formidable fighting force, would request our aid... does not bode well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			actor = 205090,
 			nameColor = "#a9f548",
-			say = "解决了冰雪要塞之后反而刺激了塞壬进行更凶猛的反扑…么。真是意想不到的灾难。",
+			say = "I thought that capturing the Iceberg Stronghold would suppress Siren activity, but it instead seems to have sent them into a rampage... What an unforeseen disaster...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "唔，一直以来多亏有北方联合把那些家伙牢牢堵在极地内，要是她们撑不住了…",
+			say = "Hmm... Up until now, the Northern Parliament has done well in containing the Sirens to the Arctic...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 205090,
 			nameColor = "#a9f548",
-			say = "极地塞壬将会和NA海域的塞壬连成一片，皇家将会变成大洋上的孤岛吧。",
+			say = "Indeed. Should they be defeated, the Sirens would flood outward, threatening not only the Union-held side of the Northern Pacific, but also the Royal Islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "哼…这种事绝对不可以发生。",
+			say = "As if I would allow that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "嗯，那么对于本次针对北方联合的求援做出的支援行动，可以认为皇家也没有异议吧？",
+			say = "I agree. In other words, can I take it that the Royal Navy has no objections to supporting the Northern Parliament?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟都到这份上了啊，皇家会全力配合本次行动。等白鹰的物资抵达，船团就立刻出航，没问题吧，陛下？",
+			say = "\"The Eagle Union will provide relief supplies, and the Royal Navy will form a force consisting of a transport fleet and escort fleet to deliver the supplies to the Northern Parliament.\" ...Your Majesty, your counsel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯哼，就这么办吧。",
+			say = "I accept the proposal! By the way, what's going on with the Iron Blood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "我们收到可靠情报，铁血正在偷偷向巴伦支海方向调集舰队中。你们通过的时候一定要千万小心哦？",
+			say = "Allow Sister Sara to explain! ...According to the intel, the Iron Blood seems to be moving their forces to the Barents Sea, so please be careful when passing through that area!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			actor = 205090,
 			nameColor = "#a9f548",
-			say = "铁血最近对极地航线的态度好像也认真起来了呢…",
+			say = "They're seriously after the Polar route...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "哼，如果铁血敢来凑这个热闹，本王肯定准备一场盛大的宴会来“欢迎”它们！",
+			say = "Hmph! Bring it on! If that's how they want to do things, we'll be sure to show them some Royal Navy \"hospitality!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "难道说…你们想趁这个机会对铁血的舰队…？",
+			say = "Elly~ Are you serious about that...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以为靠这点小聪明就能坐收渔翁之利的铁血，你觉得本王会怕它们吗！",
+			say = "Heh! We've got to teach them a lesson about the folly of trying to mess with the Polar route!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "那这件事就这么决定了。另外，是关于指挥官现在的情况。",
+			say = "...Ahem. In that case, we'll provide the supplies as agreed upon. One more issue though, regarding the commander's situation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官在北方联合的驻扎期限将满，但是那边却以战事紧张为由，表示无法护送指挥官离开…对吧？",
+			say = "Yes, if I recall, the commander had plans to stay in the Northern Parliament a bit longer and told you to stay behind to manage the war situation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "嗯。鉴于当前形式，北方联合发来了暂时延长指挥官驻扎期限的提案，你们怎么看？",
+			say = "Right. I received a message from the Northern Parliament, and they seem to want to extend the commander's stay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "......真是会选时间提要求。",
+			say = "Sigh... What a time to be making such a request.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "就是啊，白鹰对此是坚决反对的哦！支援物资送到以后，极地战局就能得到大幅改善，没有任何延长指挥官留驻期限的理由！",
+			say = "Of course we're opposed to that! After we deliver the relief supplies, the war situation over there should improve, and there won't be any reason for Commander to stay in that walk-in freezer of a country!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "既然北方联合这么不方便的话，我们计划从圣地亚哥司令部抽调一支舰队，直接把指挥官从北方联合接回来！",
+			say = "Y'know, actually if they're going to be difficult, why don't we take a fleet from SD City's Naval Headquarters and retrieve Commander ourselves?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			actor = 205090,
 			nameColor = "#a9f548",
-			say = "皇家也不会同意的。不过，圣地亚哥司令部…还要负责对重樱的作战吧，抽调舰队去极地会不会……",
+			say = "Isn't SD City already too tied up dealing with the Sakura Empire to handle something like that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "哼哼！本王有个更好的方案！直接利用返航的运输舰队把指挥官接来皇家，然后再由皇家舰队护送指挥官返回白鹰，怎么样！",
+			say = "I have a better idea, so listen up. Why don't we just have our transport fleet escort the commander back to the Eagle Union?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "顺便也能让指挥官好好熟悉一下皇家舰队的指挥系统和欧罗巴大陆的情况。",
+			say = "(This is a prime chance to show the commander the leadership of the Royal Navy, and maybe go sightseeing around Europa as well... Come on, Elizabeth, this is your chance!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，本王可不想在之后的NA海域作战指挥上出现疏漏！",
+			say = "(Heheh! You'll have to make preparations too, so that nothing goes wrong on this operation!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "如果皇家愿意帮忙的话就再好不过了！",
+			say = "I have no objections.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			actor = 205090,
 			nameColor = "#a9f548",
-			say = "是，陛下，我会妥善安排下去的。",
+			say = "Yes... I'll be sure to make the proper arrangements.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么按照援助法案，在白鹰完成物资准备后，船团的组建、护航，以及接回指挥官的事，就由我们皇家负责。让我们齐心协力，挽救极地的危机吧！",
+			say = "To summarize Her Majesty's counsel, after delivering the Eagle Union's supplies to the Northern Parliament, the commander will be welcome here in the Royal Islands before being escorted back to the Eagle Union. With that in order, may we work as one to complete this operation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,43 +506,43 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「议案」</size>",
+					"<size=51>[Bill: Regarding the Leasing of Equipment and Supplies]</size>",
 					1
 				},
 				{
-					"<size=51>「为了促进碧蓝航线取得对抗塞壬的最终胜利，和其他相关目的。」</size>",
+					"<size=51>\"To promote the victory of Azur Lane over the Sirens, and to achieve other goals that benefit the Eagle Union\"</size>",
 					2
 				},
 				{
-					"<size=51>「如果经白鹰参议院和众议院在国会全体会议上通过，则该法案可以被称为『促进战争胜利的援助法案』。」</size>",
+					"<size=51>\"As agreed upon by the legislative body of the Eagle Union, this bill shall be passed into law as 'a bill of the highest order for the sake of winning the war.'\"</size>",
 					3
 				},
 				{
-					"<size=51>「适用于本法案的项目-」</size> ",
+					"<size=51>\"The following items are applicable to this bill—\"</size> ",
 					4
 				},
 				{
-					"<size=51>「『战争物品』一词是指-」</size>",
+					"<size=51>\"War Supplies refers to the following—\"</size>",
 					5
 				},
 				{
-					"<size=51>「1.任何武器、弹药，飞机、舰船和舰艇。」</size>",
+					"<size=51>\"1. Any armaments, ammunition, planes, or ships\"</size>",
 					6
 				},
 				{
-					"<size=51>「2.为制造、生产、加工、修理、保养或操作本款所述任何物品所需的任何机械、设施、工具、材料和必需品。」</size>",
+					"<size=51>\"2. All of the following with the exception of items that directly count towards naval power - Machines, facilities, tools, and supplies necessary for production, processing, repair, and/or maintenance\"</size>",
 					7
 				},
 				{
-					"<size=51>「3.本款所述任何物品的任何组件材料、部件和设备。」</size>",
+					"<size=51>\"3. Any components or basic materials of the items aforementioned\"</size>",
 					8
 				},
 				{
-					"<size=51>「4.…………………………」</size>",
+					"<size=51>\"...Naturally.\"</size>",
 					9
 				},
 				{
-					"<size=51>「……」</size>",
+					"<size=51>\"......\"</size>",
 					10
 				}
 			}

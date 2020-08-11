@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "巴伦支海·皇家护航舰队",
+			say = "Barents Sea - Royal Navy Escort Fleet",
 			side = 2,
 			dir = 1,
 			bgm = "xinnong-4",
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…鹰、赫敏，这已经是第三次命令了。",
+			say = "Eagle, Hermione, this is the third time we're getting a new order...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "唔…先是“所有军舰立刻掉头向西方前进”。",
+			say = "Um, first it says, \"all ships are to sail west.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "然后是——“鉴于铁血主力舰队的威胁，运输船团应该分散前往北方联合的港口”…",
+			say = "And next, \"drop off the cargo at the Northern Parliament's nearest port.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "最后是…“解散船团”？",
+			say = "And finally, \"disband the fleet?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是一次比一次离谱...向司令部发出的联络呢？",
+			say = "That makes no sense... Are you sure this is from Naval HQ?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的通讯器只收到了司令部断断续续的指令，除此之外没有任何其他回复。",
+			say = "These are the only messages we've gotten. It doesn't make any sense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "天上的极光已经开始变成更亮的紫色了…果然强烈的极光总是会伴随着通讯干扰么…",
+			say = "I heard that auroras can interfere with electronic communications. Do you think something like that is going on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来我们怎么办？",
+			say = "It's possible... So, what are we going to do next?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…作为运输船的护航舰队，我们过分加入战斗的话，反而可能白白损失掉运输船队…",
+			say = "Our job as the transport fleet is to make sure the cargo arrives at the intended destination safely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "不管周围还有没有铁血的狼群在水下游弋，至少铁血的飞机肯定不可能放船团平安通过。",
+			say = "We have no idea if there are submarines patrolling that way, but I can say for a fact that the Iron Blood's carriers won't let us pass safely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "最重要的，是这几次命令…怎么看都不太对劲呢。",
+			say = "I may not be in a position to say this, but maybe it would be best to disregard this order...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎…麻烦的是我们无法联系到司令部进行确认啊…不过.......",
+			say = "...I didn't get a response when I tried to confirm the order... However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "不论如何，命令就是命令。遵从命令就要立刻返航，继续护送运输船就是违抗命令。",
+			say = "Regardless of whether this is true or not, we have a mission from Her Majesty—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "鉴于命令内容毫无逻辑，现在又无法与司令部取得通畅联系，为了避免出现不可挽回的后果，让我们投票决定吧！",
+			say = "—and that is to safely deliver the cargo to the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "我相信不论出现什么情况，陛下都是不可能下出这种命令来的。一定是哪个环节出现了差错…",
+			say = "\"The main fleet and supporting fleet are to turn around and fight the Iron Blood?\" That has to be some kind of mistake...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "永远不要忘记“向往正义之心”......这种命令我绝对不会认可！就算只剩我一个人，我也要护送船队继续前进！",
+			say = "Our answer should be clear then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "...我也是这么打算的，看来大家的想法是一致的呢。不管之后会受到什么处分，至少我们接下来要做的事已经很明显了...",
+			say = "Yes. As a member of the Royal Navy, our top priority is to carry out the Queen's orders. Don't be fooled by this kind of disinformation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "阵型不变，航线不变，继续护送船团向北方联合前进！对吧~？",
+			say = "Her Majesty would never order us to abandon the convoy. Everyone, let's continue!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,8 +306,8 @@ return {
 			actor = 202170,
 			dir = 1,
 			hideOther = true,
-			actorName = "牙买加&鹰",
-			say = "嗯！",
+			actorName = "Jamaica&Eagle",
+			say = "All right!",
 			subActors = {
 				{
 					actor = 207010,

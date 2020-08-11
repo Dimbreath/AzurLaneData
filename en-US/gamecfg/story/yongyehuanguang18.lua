@@ -13,7 +13,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 201330,
 			nameColor = "#a9f548",
-			say = "再装填完毕，伊卡洛斯，火力全开！",
+			say = "Reloading complete! Icarus, commencing all-out assault!",
 			flashN = {
 				color = {
 					1,
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "嚯~作为驱逐舰，这个战斗风格倒是挺不赖的嘛~",
+			say = "Your fighting style is a lot more dynamic than your appearances might suggest. Heh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "对于想伤害大家的敌人，火力全开，迅速消灭是理所当然的！",
+			say = "Anyone who would harm my friends will be punished! With overwhelming firepower!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "不过…要是有像豪这样的火力的话，就更…",
+			say = "But... I wish I actually had overwhelming firepower just like you, Howe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "明明只是驱逐舰…还真是平静地说出了不得了的话啊。",
+			say = "I don't think it would be possible to give battleship-tier firepower to a destroyer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "呵呵，每个人都有自己的作战风格，有这样一艘英勇无畏的驱逐舰也不错吧~",
+			say = "Well, let's just do the best we can given our options.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 205090,
 			nameColor = "#a9f548",
-			say = "剩下的敌人还有不少呢，我会用炮火掩护你们的，尽情战斗吧~",
+			say = "Your bravery is commendable, but there's really no benefit for you to...",
 			flashN = {
 				color = {
 					1,
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是...！伊卡洛斯收到~",
+			say = "But still, it'd be great to be able to overwhelm the enemy with great firepower...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

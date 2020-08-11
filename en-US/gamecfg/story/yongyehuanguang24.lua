@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-5",
 			actor = 408050,
 			nameColor = "#ff5c5c",
-			say = "嗨，我们又见面了，皇家的护航舰船们~",
+			say = "It seems that we meet again! Although I have no idea how you found me again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "明明刚刚才吃了败仗，真是不长记性啊…",
+			say = "How bold of you to show your face again after fleeing with your tail between your legs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "铁血的各位，就算再纠缠下去，也不会给你们靠近运输船队的机会的哦？",
+			say = "We're warning you... Stay away from our transport fleet, or else!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408070,
-			say = "哼哼~能不能做到就要看你的本事了哦，皇家的女仆小姐~",
+			say = "(Well, that purely depends on your ability to stop us~)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "破交战可是我们的拿手好戏，没有船团能从铁血狼群的袭击下完好无损的逃生！",
+			say = "(Great Shark is all amped up and ready to go! That convoy's gonna be ours!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嘻嘻，漂浮在海面上的运输舰残骸，将会是铁血送给你们自大的女王最好的礼物。",
+			say = "(Their supplies will become spoils of war for us U-boats! Ahaha!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "这句话我可不能当做没听见。将你们变成护航行动中的战绩，才是送给陛下最好的礼物！",
+			say = "There are a lot more of them waiting in the wings...! This is where we have to make our stand!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来需要对不守礼仪的“坏孩子”进行一点教育了呢，以皇家女仆的方式…！",
+			say = "Don't underestimate the anti-sub capabilities of the Royal Maid Team!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

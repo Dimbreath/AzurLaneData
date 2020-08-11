@@ -12,7 +12,7 @@ return {
 			bgm = "xinnong-4",
 			actor = 206060,
 			nameColor = "#a9f548",
-			say = "以为我不是主力航母，就能仅依靠量产型夺取制空权么…",
+			say = "Don't underestimate me just because I'm a light carrier. Hmph!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "不要…太小看人了…！",
+			say = "..And that's why.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦…真是让人安心的后援呀~解决完空中问题之后也帮我们处理一下海面哦，铁血的重巡洋舰确实有些难缠！",
+			say = "After you're done dealing with the planes, we could use your help. Even though they're just mass-produced models, we're having trouble dealing with the heavy cruisers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "没问题，都交给我吧。",
+			say = "Sure, you got it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，没什么航空母舰的铁血舰队，时代变啦！",
+			say = "Good, good. It's sure nice having backup from an aircraft carrier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要解决了铁血的重巡，基本就可以锁定战斗的胜利了，不过…",
+			say = "We've managed to neutrallize the Iron Blood force here, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在战斗开始后通讯器就受到了某种形式的干扰，我们和司令部的联系中断了。",
+			say = "Our communications aren't working. I suspect the problem isn't that we're not receiving messages, but rather our messages aren't getting out at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前不还好好的吗！",
+			say = "Wasn't it working fine not too long ago?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "排除设备本身故障的话，可能是铁血的干扰、极光的影响、或者是塞壬的干扰…",
+			say = "We can't treat this like a case of mechanical failure. Someone's clearly trying to jam us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "关于这个，我可能有点头绪…数架塞壬的舰载机正在从北方的天空向我们接近，干扰…是不是与塞壬有关？",
+			say = "I would've liked to say that the Iron Blood is behind it, but that doesn't seem to be the case.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有敌机…？！航道附近的塞壬不是早就被清理的差不多了么！",
+			say = "Look over there, it's anti-air gunfire! Someone's fighting against Siren aircraft!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "不对…..不光是舰载机。情报更正，海面上发现包含主力舰在内的多支塞壬舰队…正在从北方向我们靠近！",
+			say = "It's not just planes. Mass-produced Siren ships are approaching from the north, and there's quite a lot of them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "已经不想追究这么大规模的舰队是从哪里冒出来的了…",
+			say = "Which abyssal hellhole did they crawl out of this time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "也许是极地战线的漏网之鱼吧…这样下去，在与铁血的战斗结束前，塞壬舰队就会从侧面对我们发动进攻。",
+			say = "That should be obvious. The Northern Parliament has been holding the Sirens back this whole time, so this means that the Sirens are starting to break through their defenses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...真倒霉。立刻和铁血舰队停火，然后大家联手对抗塞壬，这个选项应该不存在吧...？",
+			say = "In other words, you want to team up with the Iron Blood to fight back the Sirens?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "梦话，还是留在梦里去说吧…现在的铁血，已经不是过去能和我们一起并肩战斗的铁血了。",
+			say = "...Maybe at one point. But long gone are the days when that would be possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

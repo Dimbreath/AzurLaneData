@@ -706,6 +706,114 @@ pg.map_event_list = {
 			"helpbg/battle_faxiv2_1"
 		}
 	},
+	[1380001] = {
+		help_open = 1,
+		chapter_id = 1380001,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[1380002] = {
+		help_open = 0,
+		chapter_id = 1380002,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[1380003] = {
+		help_open = 0,
+		chapter_id = 1380003,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[1380004] = {
+		help_open = 0,
+		chapter_id = 1380004,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[1380005] = {
+		help_open = 0,
+		chapter_id = 1380005,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[1380006] = {
+		help_open = 0,
+		chapter_id = 1380006,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[1380021] = {
+		help_open = 1,
+		chapter_id = 1380021,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[1380022] = {
+		help_open = 0,
+		chapter_id = 1380022,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[1380023] = {
+		help_open = 0,
+		chapter_id = 1380023,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[1380024] = {
+		help_open = 0,
+		chapter_id = 1380024,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[1380025] = {
+		help_open = 0,
+		chapter_id = 1380025,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
+	[1380026] = {
+		help_open = 0,
+		chapter_id = 1380026,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yingxiv2"
+		}
+	},
 	all = {
 		1220001,
 		1220002,
@@ -734,6 +842,18 @@ pg.map_event_list = {
 		1360024,
 		1360025,
 		1360026,
-		1360041
+		1360041,
+		1380001,
+		1380002,
+		1380003,
+		1380004,
+		1380005,
+		1380006,
+		1380021,
+		1380022,
+		1380023,
+		1380024,
+		1380025,
+		1380026
 	}
 }

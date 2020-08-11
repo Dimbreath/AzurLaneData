@@ -147,6 +147,24 @@ pg.strategy_data_template = {
 		desc = "An ominous mist surrounds the battlefield. The Accuracy of all your ships is decreased by 5%.",
 		arg = {}
 	},
+	[9505] = {
+		buff_id = 9505,
+		name = "Iron Blood Aerial Support",
+		type = 10,
+		id = 9505,
+		icon = "10015",
+		desc = "Enemy Air Squads will appear on this stage, and your fleets will take 10% more damage from Airstrikes.",
+		arg = {}
+	},
+	[9508] = {
+		buff_id = 9508,
+		name = "Endless Night",
+		type = 10,
+		id = 9508,
+		icon = "10016",
+		desc = "Darkness shrouds the battlefield, making it impossible to check the composition of enemy fleets before battle.",
+		arg = {}
+	},
 	[10001] = {
 		buff_id = 200,
 		name = "Adequate Ammo",
@@ -236,6 +254,8 @@ pg.strategy_data_template = {
 		8650,
 		9500,
 		9502,
+		9505,
+		9508,
 		10001,
 		10002,
 		10011,

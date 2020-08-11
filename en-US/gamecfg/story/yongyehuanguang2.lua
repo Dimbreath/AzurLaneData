@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			stopbgm = true,
-			say = "在白鹰和皇家的全力动员下，前往北方联合的特别船团很快就组建完成了。",
+			say = "Upon receiving the relief supplies from the Eagle Union, the Royal Navy quickly assembled their transport and escort fleets.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "虽然笼罩在巴伦支海上空的极夜显示现在并不是进行运输任务的理想时期，但是紧急任务从来就没有选择的权力。",
+			say = "Their mission was to pass through the Barents Sea's polar night - in other words, the extremely disadvantageous task of running a convoy through prolonged darkness. However, the Northern Parliament's request had to be prioritized.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "至少，今天的皇家本岛是个适合出航的好天气。",
+			say = "Fortunately, the winds were favorable when the fleet departed from the Royal Islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,13 +62,13 @@ return {
 			}
 		},
 		{
-			actorName = "贝尔法斯特",
+			actorName = "Belfast",
 			side = 0,
 			bgName = "bg_hms_1",
 			dir = 1,
 			bgm = "story-richang",
 			nameColor = "#a9f548",
-			say = "差不多要到启航的时间了，准备工作如何了，赫敏？",
+			say = "It's about time to depart. Hermione, have you finished your preparations?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,12 +79,12 @@ return {
 			}
 		},
 		{
-			actorName = "赫敏",
+			actorName = "Hermione",
 			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是！运输船队、护航舰队、支援舰队以及主力舰队均清点完毕！除了几艘运输船在进行最后的货物检查之外，各舰均已做好出发准备了！贝尔法斯特小姐！",
+			say = "Yes. The transport and escort fleets, as well as the supporting main fleet and vanguard, have all been assembled. We can set sail once the supplies are loaded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,12 +95,12 @@ return {
 			}
 		},
 		{
-			actorName = "贝尔法斯特",
+			actorName = "Belfast",
 			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好，辛苦大家了。这次很遗憾，我不能和大家一同前往，作为皇家女仆队的代表，你们要加油哦。认真完成陛下交代的任务，本次行动不能出现任何闪失，明白了吧？",
+			say = "Very well. As representatives of the Royal Maids in this operation, please fulfill the duties entrusted to you by Her Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,8 +115,8 @@ return {
 			side = 2,
 			bgName = "bg_hms_1",
 			dir = 1,
-			actorName = "爱丁堡&谢菲尔德",
-			say = "是！",
+			actorName = "Edinburgh & Sheffield",
+			say = "Understood!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actorName = "赫敏",
+			actorName = "Hermione",
 			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
@@ -148,12 +148,12 @@ return {
 			}
 		},
 		{
-			actorName = "贝尔法斯特",
+			actorName = "Belfast",
 			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赫敏…？怎么了吗？",
+			say = "Hermione, what's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,12 +164,12 @@ return {
 			}
 		},
 		{
-			actorName = "赫敏",
+			actorName = "Hermione",
 			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…！？非、非常抱歉，稍微有点走神了…",
+			say = "Hwuh...?! Oh, my apologies... I was just a bit nervous...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,12 +180,12 @@ return {
 			}
 		},
 		{
-			actorName = "贝尔法斯特",
+			actorName = "Belfast",
 			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，久违的出击任务，感到紧张了吗？赫敏的话一定没问题的，可能的话，还要请你多关照下我这位姐姐呢。",
+			say = "Oh my, is this your first major mission in quite some time? I have no doubts about your abilities, Hermione. If anything, I hope you'll be able to look after my sister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,8 +200,8 @@ return {
 			side = 1,
 			bgName = "bg_hms_1",
 			dir = 1,
-			actorName = "爱丁堡",
-			say = "什么意思嘛贝法…就算是我，想做的时候还是能做好的好吧！",
+			actorName = "Edinburgh",
+			say = "Gosh, Bel, what do you mean by that? I'm perfectly capable of looking after myself!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -217,12 +217,12 @@ return {
 			}
 		},
 		{
-			actorName = "贝尔法斯特",
+			actorName = "Belfast",
 			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是…那么，再重新确认一下作战任务吧？",
+			say = "Hehe~ I know. In any case, let's go over the mission objectives one last time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,12 +233,12 @@ return {
 			}
 		},
 		{
-			actorName = "赫敏",
+			actorName = "Hermione",
 			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好的！这次行动的主要目标是护送前往北方联合的特别极地船团，然后接回停留于北方联合的指挥官。",
+			say = "We are to form a fleet to transport relief supplies to the Northern Parliament. We will then retrieve the commander and come back to the Royal Islands, before transferring—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,12 +249,12 @@ return {
 			}
 		},
 		{
-			actorName = "赫敏",
+			actorName = "Hermione",
 			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "若铁血舰队上钩前来进攻的话，就由支援舰队和主力舰队夹击，一举消除铁血的海上威胁。",
+			say = "If the Iron Blood tries to intercept us, the supporting fleet and the main fleet will join up to eliminate the threat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actorName = "谢菲尔德",
+			actorName = "Sheffield",
 			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（当然，还有密切注视战场动向，收集北方联合的情报，以及...协议的事......）",
+			say = "(And finally, our secret mission to collect information about the Northern Union, and about the \"Reenactments.\")",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,12 +281,12 @@ return {
 			}
 		},
 		{
-			actorName = "爱丁堡",
+			actorName = "Edinburgh",
 			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我、我姑且也有把任务都记在心里了哦！而且为了本次行动，我还看了很多遍指挥官上次在白令海的作战报告呢！",
+			say = "See, I remembered all of that! I've even reviewed the reports about the Northern Parliament's uhh... ahem, yes, the Iceberg Stronghold!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,12 +297,12 @@ return {
 			}
 		},
 		{
-			actorName = "赫敏",
+			actorName = "Hermione",
 			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是爱丁堡小姐呢！",
+			say = "Well done, Miss Edinburgh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,12 +313,12 @@ return {
 			}
 		},
 		{
-			actorName = "爱丁堡",
+			actorName = "Edinburgh",
 			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，再多夸我一点也没问题哦！再怎么说我也是贝法的姐姐。这次既然贝法不在，重要的事就放心交给姐姐我吧~",
+			say = "Yes, yes, praise me more! I'm Bel's older sister after all, so you can count on me~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,12 +329,12 @@ return {
 			}
 		},
 		{
-			actorName = "贝尔法斯特",
+			actorName = "Belfast",
 			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是…赫敏，那就万事拜托了。",
+			say = "All right. Hermione, Sheffield, Edinburg, I look forward to the good news.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,12 +345,12 @@ return {
 			}
 		},
 		{
-			actorName = "赫敏",
+			actorName = "Hermione",
 			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是！我会加油的！",
+			say = "Understood! I'll do my best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,12 +361,12 @@ return {
 			}
 		},
 		{
-			actorName = "爱丁堡",
+			actorName = "Edinburgh",
 			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呣…贝法是笨蛋！",
+			say = "Damn, why can't Bel just praise me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,12 +377,12 @@ return {
 			}
 		},
 		{
-			actorName = "谢菲尔德",
+			actorName = "Sheffield",
 			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（陛下既然今天也来到这里了，之后果然是要去.....）",
+			say = "(If Her Majesty bothered to come all the way out to port, then she might be...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,12 +393,12 @@ return {
 			}
 		},
 		{
-			actorName = "谢菲尔德",
+			actorName = "Sheffield",
 			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法，我总有种说不出的不详预感…我们出发之后，陛下身边拜托你了。",
+			say = "Sorry, Belfast, there's still something that's bothering me... Please take care of Her Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,12 +409,12 @@ return {
 			}
 		},
 		{
-			actorName = "贝尔法斯特",
+			actorName = "Belfast",
 			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心吧。谢菲，你那边也一切小心哦，天佑女王。",
+			say = "I will, Sheffy. Make sure you also stay safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,13 +425,13 @@ return {
 			}
 		},
 		{
-			actorName = "谢菲尔德",
+			actorName = "Sheffield",
 			side = 1,
 			bgName = "bg_hms_1",
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "天佑女王。",
+			say = "...Glory to the Queen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

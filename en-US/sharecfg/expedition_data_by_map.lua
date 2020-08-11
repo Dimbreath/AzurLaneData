@@ -5937,6 +5937,252 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1380001] = {
+		map = 1380001,
+		name = "Aurora Noctis - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "bgm-cccp2",
+		type = 4,
+		on_activity = 30459,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YONGYEHUANGUANG1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1340001",
+		cloud_suffix = "",
+		bg = "Map_1340001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1380011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380002] = {
+		map = 1380002,
+		name = "Aurora Noctis - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-4",
+		type = 4,
+		on_activity = 30460,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YONGYEHUANGUANG20",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1340002",
+		cloud_suffix = "",
+		bg = "Map_1340002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1380012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380011] = {
+		map = 1380011,
+		name = "Aurora Noctis - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "bgm-cccp2",
+		type = 5,
+		on_activity = 30459,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YONGYEHUANGUANG1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1340003",
+		cloud_suffix = "",
+		bg = "Map_1340003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1380001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380012] = {
+		map = 1380012,
+		name = "Aurora Noctis - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-4",
+		type = 5,
+		on_activity = 30460,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YONGYEHUANGUANG20",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1340004",
+		cloud_suffix = "",
+		bg = "Map_1340004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1380002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380025] = {
+		map = 1380025,
+		name = "Aurora Noctis - SP|| ||CHAPTER EX||E.X.",
+		bgm = "bgm-cccp2",
+		type = 8,
+		on_activity = 30460,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1340004",
+		cloud_suffix = "",
+		bg = "Map_1340004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1380012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380026] = {
+		map = 1380026,
+		name = "Aurora Noctis - EX|| ||CHAPTER EX||E.X.",
+		bgm = "bgm-cccp2",
+		type = 8,
+		on_activity = 30460,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1340004",
+		cloud_suffix = "",
+		bg = "Map_1340004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1380012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
@@ -6798,6 +7044,12 @@ pg.expedition_data_by_map = {
 		1360012,
 		1360025,
 		1360026,
+		1380001,
+		1380002,
+		1380011,
+		1380012,
+		1380025,
+		1380026,
 		2100000,
 		2100001,
 		2100010,

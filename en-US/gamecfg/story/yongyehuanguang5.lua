@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-5",
 			actor = 408050,
 			nameColor = "#ff5c5c",
-			say = "悄悄地潜伏，悄悄地接近，然后悄悄地偷袭------",
+			say = "Lurk quietly... Approach quietly... and STRIKE QUIETLY...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			side = 2,
-			say = "发现你了，铁血的潜艇！",
+			say = "There you are, Iron Blood submarine!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -48,7 +48,7 @@ return {
 			dir = 1,
 			actor = 408050,
 			nameColor = "#ff5c5c",
-			say = "哎~？还是被发现了么~",
+			say = "What... How'd you find me?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "这里是皇家海军极地船团护航舰队，铁血潜艇，我们不会让你们伤到运输队一丝一毫的。",
+			say = "Turn back, Iron Blood submarine. This is the escort fleet of the Royal Navy's Polar Transport Fleet. We ask that you turn back at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然敢来袭击由我亲自护航的船团，勇气可嘉啊。",
+			say = "How bold of you to attack a convoy that I'm personally escorting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哼哼，那我建议你们看看天空哦~航空队增援已经到了，很快主力舰队也会赶来，你们一个跑不掉了~",
+			say = "Fat chance of that happening! Our main fleet will be here shortly, so you should just give up before things get ugly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "听起来像是虚张声势啊...你们那些被封锁在北海的主力舰队，要怎么才能不被发现的绕过封锁线进入巴伦支海呢？",
+			say = "(The Iron Blood's main fleet is coming...? What should we do...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "可惜，看来你们还什么都不知道哎~",
+			say = "...Apparently, you have no intention of surrendering your cargo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408050,
-			say = "没办法了，来打一架吧~我可不打算轻易放过这批战果哦！",
+			say = "But too bad for you! Today's going to be my big break, and you're just going to be my stepping stones towards greatness!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "口气倒是不小...希望一会打起来的实力也能让人满意。",
+			say = "Let me guess, the next thing you're going to say is, \"Come at me!\" In that case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "皇家女仆赫敏，准备进行反潜作战。牙买加小姐，让我们一同为女王陛下带来胜利吧！",
+			say = "Hermione, commencing anti-submarine combat! For Her Majesty the Queen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

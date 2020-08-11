@@ -1,11 +1,5 @@
 pg = pg or {}
 pg.gametip = {
-	multiple_ship_energy_low_desc = {
-		tip = "Exhausted\nAffinity will be reduced if you attack"
-	},
-	multiple_ship_energy_low_warn = {
-		tip = "Exhausted\nAffinity will be reduced if you attack"
-	},
 	["new_airi_error_code_-1"] = {
 		tip = "Unknown Error"
 	},
@@ -528,11 +522,17 @@ pg.gametip = {
 	word_shipState_study = {
 		tip = "She's currently in class!"
 	},
+	word_shipState_tactics = {
+		tip = "戦術教室で勉強中です"
+	},
 	word_shipState_collect = {
 		tip = "She's currently on commission!"
 	},
 	word_shipState_event = {
 		tip = "She's in the middle of a special ops!"
+	},
+	word_shipState_activity = {
+		tip = "该角色在特殊作战编队中哦~"
 	},
 	word_shipState_sham = {
 		tip = "She's in the middle of a simulation!"
@@ -597,11 +597,20 @@ pg.gametip = {
 	word_ema = {
 		tip = "Emas"
 	},
+	word_ema1 = {
+		tip = "Emas"
+	},
 	word_pt = {
 		tip = "PT"
 	},
+	word_omamori = {
+		tip = "樱之御守"
+	},
 	word_yisegefuke_pt = {
 		tip = "pt"
+	},
+	word_faxipt = {
+		tip = "爱丽丝之徽"
 	},
 	word_count_2 = {
 		tip = "<color=$1>$2つ</color>"
@@ -862,7 +871,7 @@ pg.gametip = {
 		tip = "设施"
 	},
 	word_cv_key_main = {
-		tip = "主界面"
+		tip = "Main screen "
 	},
 	channel_name_1 = {
 		tip = "All"
@@ -1070,6 +1079,9 @@ pg.gametip = {
 	},
 	battle_levelScene_lock = {
 		tip = "Stage not yet open. Please clear <color=#92fc63>previous stage</color>."
+	},
+	battle_levelScene_lock_1 = {
+		tip = ""
 	},
 	battle_preCombatLayer_changeFormationError = {
 		tip = "Formation switch error. Please check your formations."
@@ -1863,12 +1875,6 @@ Current expansions: <color=#92fc63>$3</color>
 	main_navalAcademyScene_systemClose = {
 		tip = "Commander, you haven't unlocked this feature yet!"
 	},
-	main_navalAcademyScene_noClass = {
-		tip = "This class isn't scheduled for today! Please find another teacher."
-	},
-	main_navalAcademyScene_noClassDialogue = {
-		tip = "You forgot the schedule again! We don't have this class today."
-	},
 	main_navalAcademyScene_quest_startClass = {
 		tip = "<color=#92fc63>Class is starting! Please take your seats~!</color>"
 	},
@@ -1880,9 +1886,6 @@ Current expansions: <color=#92fc63>$3</color>
 	},
 	main_navalAcademyScene_quest_Classover_short = {
 		tip = "Class dismissed! <color=#92fc63>$1</color> studied hard. <color=#92fc63>$2 +$3</color>!"
-	},
-	main_navalAcademyScene_full = {
-		tip = "This student has completed <color=#92fc63>all course credits</color>!"
 	},
 	main_navalAcademyScene_upgrade_complete = {
 		tip = "<color=#92fc63>$1</color> upgraded! Max capacity <color=#9CFF5CE6>+$2</color>!"
@@ -2333,9 +2336,6 @@ Current expansions: <color=#92fc63>$3</color>
 	ship_formationUI_exercise_fleetName = {
 		tip = "Exercise Fleet"
 	},
-	ship_formationUI_fleetName_world = {
-		tip = "大世界舰队"
-	},
 	ship_formationUI_changeFormationError_flag = {
 		tip = "Formation switch error. Please check your formations!"
 	},
@@ -2765,43 +2765,6 @@ Current expansions: <color=#92fc63>$3</color>
 	},
 	error_refresh_sub_chapter = {
 		tip = "You cannot initiate any more Rescue Missions. "
-	},
-	world_ship_repair_1 = {
-		tip = "维护保养$1需要：\n<icon name=diamond w=0.7 h=0.7/>*$2"
-	},
-	world_ship_repair_2 = {
-		tip = "紧急维修$1需要：\n<icon name=diamond w=0.7 h=0.7/>*$2"
-	},
-	world_ship_repair_all = {
-		tip = "检修所有船需要：\n<icon name=diamond w=0.7 h=0.7/>*$1"
-	},
-	world_ship_repair_no_need = {
-		tip = "无需修理"
-	},
-	world_event_teleport_alter = {
-		tip = "即将传送到其他地图，交战中舰队将会撤退"
-	},
-	world_transport_battle_alter = {
-		tip = "其他舰队处于交战中，无法传送"
-	},
-	world_help_tip = {
-		tip = {
-			{
-				info = "\n大世界说明："
-			}
-		}
-	},
-	world_stamina_exchange = {
-		tip = "行动力不足，是否花费<icon name=oil w=0.7 h=0.7/>$1兑换行动力*$2？"
-	},
-	world_stamina_not_enough = {
-		tip = "行动力不足"
-	},
-	world_map_dangerous = {
-		tip = "该海域过于危险，禁止进入"
-	},
-	world_item_allocate_panel_fleet_info_text = {
-		tip = "得到了塞壬的祝福，舰娘的状态被强化了！"
 	},
 	task_notfound_error = {
 		tip = "Unable to find mission config. Update may be required. Error ID: "
@@ -3327,6 +3290,12 @@ Current expansions: <color=#92fc63>$3</color>
 	},
 	word_shipNation_weixi = {
 		tip = "Vichya Dominion"
+	},
+	word_shipNation_bili = {
+		tip = "哔哩哔哩"
+	},
+	word_shipNation_um = {
+		tip = "传颂之物"
 	},
 	word_shipNation_ai = {
 		tip = "KizunaAI"
@@ -5522,6 +5491,12 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]]
 	qiuqiu_total_count = {
 		tip = "累計数"
 	},
+	npcfriendly_count = {
+		tip = "目标友好度："
+	},
+	npcfriendly_total_count = {
+		tip = "当前友好度："
+	},
 	longxiang_count = {
 		tip = "J Talisman target: "
 	},
@@ -5925,6 +5900,12 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 	escort_less_count_to_combat = {
 		tip = "You cannot run this any more today. "
 	},
+	ten_even_draw = {
+		tip = "$1回交換する"
+	},
+	ten_even_draw_confirm = {
+		tip = "$1回交換しますか？"
+	},
 	level_risk_level_desc = {
 		tip = " $1\n\n"
 	},
@@ -6055,7 +6036,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>6.11 – 6.25</COLOR>)!"
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>8.06 – 8.19</COLOR>)!"
 	},
 	twitter_link_title = {
 		tip = "Twitter Account:$1"
@@ -6089,6 +6070,22 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 	},
 	activity_hit_monster_reset_tip = {
 		tip = "Would you like to play Fu Shun's Great Adventure again? Completing this challenge multiple times will not yield additional rewards. "
+	},
+	answer_help_tip = {
+		tip = {
+			{
+				info = "                                       游戏规则\n"
+			},
+			{
+				info = "1 ???????"
+			}
+		}
+	},
+	answer_answer_role = {
+		tip = "下一题由【$1】同学来回答问题\n（请选择【$1】认为正确的答案噢）"
+	},
+	answer_exit_tip = {
+		tip = "正在答题中，是否退出？"
 	},
 	equip_skin_detail_tip = {
 		tip = "It contains Gear Skins listed below:"
@@ -6179,6 +6176,15 @@ $3]]
 	},
 	player_name_change_warning = {
 		tip = "It will cost you <color=#92fc63>$1</color> <color=#92fc63>$2</color>, are you sure you want to change your Commander’s name to <color=#92fc63>$3</color>?"
+	},
+	player_name_change_success = {
+		tip = "Identity Change Successful"
+	},
+	player_name_change_failed = {
+		tip = "Identity Change Failed"
+	},
+	same_player_name_tip = {
+		tip = "You cannot use this name "
 	},
 	task_is_not_existence = {
 		tip = "Mission $1 unavailable now."
@@ -6691,6 +6697,15 @@ Combat Details:
 	touch_special = {
 		tip = "Touch\n3"
 	},
+	gold = {
+		tip = "金币"
+	},
+	oil = {
+		tip = "石油"
+	},
+	diamond = {
+		tip = "钻石"
+	},
 	word_photo_mode = {
 		tip = "Photo"
 	},
@@ -6763,6 +6778,15 @@ Combat Details:
 	},
 	resource_verify_success = {
 		tip = "Game resource restoration complete."
+	},
+	resource_clear_all = {
+		tip = "是否清理缓存资源？(清理完成之后游戏将自动退出)"
+	},
+	acl_oil_count = {
+		tip = "目标石油："
+	},
+	acl_oil_total_count = {
+		tip = "累计使用石油："
 	},
 	word_take_video_tip = {
 		tip = "Tips: Tap the button on the right side to stop recording."
@@ -6999,7 +7023,7 @@ Combat Details:
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "Nagato, Kawakaze, I-13, Suzuya and others have increased build rates! "
+		tip = "Perseus, Howe, Valiant, and Eagle Rate UP! "
 	},
 	buildship_heavy_tip = {
 		tip = "Duke of York added to standard build pool! "
@@ -7009,48 +7033,6 @@ Combat Details:
 	},
 	buildship_special_tip = {
 		tip = "Shangri-La, Essex and others are added to standard build pool! "
-	},
-	world_log_1 = {
-		tip = "Mission [$task] complete."
-	},
-	world_log_2 = {
-		tip = "Mission [$task] failed."
-	},
-	world_log_3 = {
-		tip = "This mission seems to require [$chapter]..."
-	},
-	world_log_4 = {
-		tip = "[$fleet] has arrived at Port [$port]"
-	},
-	world_log_5 = {
-		tip = "[$fleet] has purchased [$goods] at Port [$port]"
-	},
-	world_log_6 = {
-		tip = "[$fleet] was defeated in combat..."
-	},
-	world_log_7 = {
-		tip = "Acquired <color=$rarity>[$item]*$itemnum</color>"
-	},
-	world_log_8 = {
-		tip = "Fleet power has reached [$rank], granting access to sea areas with a danger level of [$risk]"
-	},
-	world_log_9 = {
-		tip = "Arrived at <material=underline><color=#92fc63>[$chapter]</color></material>."
-	},
-	world_log_10 = {
-		tip = "Changed the formation of [$fleet]."
-	},
-	world_log_11 = {
-		tip = "Submarine fleet called to [$chapter]!"
-	},
-	world_log_12 = {
-		tip = "Cannot move to this sea area."
-	},
-	world_log_13 = {
-		tip = "Unable to move - insufficient movement"
-	},
-	world_log_14 = {
-		tip = "Completed the conditions for [$tasknum1/$tasknum2]"
 	},
 	open_skill_pos = {
 		tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color> to unlock 3rd slot, Do you wish to proceed?"
@@ -7422,6 +7404,32 @@ disappear.]]
 	commander_build_rate_tip = {
 		tip = "Cat Box procurement rates: Rare: 60%; Elite: 35%; Super Rare: 5%."
 	},
+	help_activity_bossbattle = {
+		tip = {
+			{
+				info = "                                         ※作战手册※\n"
+			},
+			{
+				info = [[
+  活动期间，不同难度的演习，每次通关时可以获得额外收益，
+  额外收益每天有获得次数上限。不同难度的额外收益次数分
+  别为：初级演习：<color=#92fc63>20</color>次；中级演习：<color=#92fc63>20</color>次；高级演习：<color=#92fc63>40</color>次
+]]
+			},
+			{
+				info = "1.参与活动获取pt点数，并与本服玩家协力攻略女仆据点；"
+			},
+			{
+				info = "2.女仆据点攻略完成后，所有参与据点战斗的玩家都将获得限\n定角色<color=#92fc63>【纽卡斯尔号】</color>（通过邮件发放）；"
+			},
+			{
+				info = "3.女仆据点攻略完成后，玩家可继续参与活动累计pt获得大量\n奖励与限定角色<color=#92fc63>【纽卡斯尔号】</color>；"
+			},
+			{
+				info = "4.个人累计pt的奖励截止时间为<color=#92fc63>2018.10.18 23.59.59</color>"
+			}
+		}
+	},
 	commander_is_in_fleet_already = {
 		tip = "This Meowfficer is already assigned to a fleet."
 	},
@@ -7503,6 +7511,64 @@ disappear.]]
 	spece_illegal_tip = {
 		tip = "Cannot uses spaces"
 	},
+	utaware_warmup_notice = {
+		tip = {
+			{
+				info = "活动说明："
+			},
+			{
+				info = "    1.活动期间，玩家可获得临时npc角色芙米露露，临时角色不\n    可誓约、不可退役、不可被选为强化突破材料；"
+			},
+			{
+				info = "    2.活动期间，击破普通难度主线第三章及之后章节旗舰&传颂\n    之物活动地图旗舰，可增加临时npc角色芙米露露的友好度；"
+			},
+			{
+				info = "    3.上阵芙米露露参与战斗，且未被击沉，可增加双倍友好度；"
+			},
+			{
+				info = "    4.在活动结束前累计获得1500点好友度，可领取奖励并将临时\n    角色【芙米露露】转化为永久角色；"
+			},
+			{
+				info = "    5.在活动结束后，未完成转化的临时角色【芙米露露】将离开\n    港区，不返还已经消耗的强化、突破等培养材料；"
+			}
+		}
+	},
+	utaware_formal_notice = {
+		tip = {
+			{
+				info = "通过一次SP4后，在如下章节解开线索，探寻隐藏的故事"
+			},
+			{
+				info = [[
+ SP1
+※重返「倾国之相」的战场吧！
+※在最初的战场尽情杀敌吧！
+]]
+			},
+			{
+				info = [[
+ SP2
+※重返「金兰之杯」的战场吧！
+※在没有敌人的战场之中…？
+※立于强敌之前
+]]
+			},
+			{
+				info = [[
+ SP3
+※再一次拯救两位同伴吧！
+※解除二重的湛蓝封印吧！
+]]
+			},
+			{
+				info = [[
+ SP4
+※击败战场中央的二名强敌吧！
+※消灭看得到的所有敌人！
+※追寻梦幻的赤红封印吧！]]
+			}
+		}
+	},
 	npc_learn_skill_tip = {
 		tip = "When the event period ends, you will lose this ship if she has not been Formally Recruited. Any items used to train her skills will NOT be refunded. Continue anyway?"
 	},
@@ -7517,6 +7583,9 @@ disappear.]]
 	},
 	npc_breakout_tip = {
 		tip = "If this Temporary Recruit leaves the port, any items or materials used to Limit Break her will NOT be refunded. Continue anyway?"
+	},
+	word_chuansong = {
+		tip = "可可波币"
 	},
 	npc_evaluation_tip = {
 		tip = "You cannot Like or Comment on characters that have not yet been Formally Recruited. "
@@ -8957,6 +9026,9 @@ Voting Schedule:
 	vote_book_is_over = {
 		tip = "The Popularity Poll has concluded."
 	},
+	vote_fame_tip = {
+		tip = "※观赏完殿堂角色特别小故事，可解锁角色专属头像框：企业$1,贝尔法斯特$2,椿$3"
+	},
 	word_maintain = {
 		tip = "post-maintenance "
 	},
@@ -10023,30 +10095,6 @@ Event Rules:
 	res_downloading = {
 		tip = "Downloading"
 	},
-	res_pic_time_all = {
-		tip = "All"
-	},
-	res_pic_time_2017_up = {
-		tip = "2017 (1/2)"
-	},
-	res_pic_time_2017_down = {
-		tip = "2017 (2/2)"
-	},
-	res_pic_time_2018_up = {
-		tip = "2018 (1/2)"
-	},
-	res_pic_time_2018_down = {
-		tip = "2018 (2/2)"
-	},
-	res_pic_time_2019_up = {
-		tip = "2019 (1/2)"
-	},
-	res_pic_time_2019_down = {
-		tip = "2019 (2/2)"
-	},
-	res_pic_time_2020_up = {
-		tip = "2020 (1/2)"
-	},
 	res_pic_new_tip = {
 		tip = "$1 new illustrations were added in this update. Come take a look!"
 	},
@@ -10233,6 +10281,28 @@ By tapping the “Quick Retire” button to the bottom left of the Retire interf
 	},
 	collect_tip2 = {
 		tip = "Some selected ships are busy. Unable to form commission fleet. "
+	},
+	discount_coupon_tip = {
+		tip = "是否使用<color=#92fc63FF>$1钻石</color>及<color=#92fc63FF>$2 </color>购买<color=#92fc63FF>$3</color>"
+	},
+	pizzahut_help = {
+		tip = {
+			{
+				info = [[
+通关下列指定关卡会获得不同数量<color=#92fc63>「比萨研发物资」</color>
+1.三章及以后的普通主线海域
+2.活动关卡「穹顶下的圣咏曲」（EX关卡除外）
+活动规则：
+1.活动期间指挥官获得<color=#92fc63>「比萨研发物资」</color>后可以在活动页
+面投入研发，当研发进度到达特殊阶段时会出现食材选择
+界面，指挥官需要选择研发比萨的食材
+2.当完成所有特殊阶段的研发后，会解锁自由组合模式，
+指挥官可以在该模式中自由组合各种食材，研发自己喜欢
+的比萨
+3.研发完成后，可以点击分享按钮将自己研发的比萨与其
+他指挥官分享]]
+			}
+		}
 	},
 	towerclimbing_gametip = {
 		tip = {
@@ -10706,5 +10776,14 @@ you can earn.]]
 	},
 	tec_catchup_errorfix = {
 		tip = "The special beginners' PR1 Research Missions will be reset once. (These missions will not be reset if you've already completed them 2 times)"
+	},
+	us_error_download_painting = {
+		tip = "As data has been detected as missing, the game will now close to clear the cache. The neccessary files will be downloaded once the game is open again. "
+	},
+	multiple_ship_energy_low_desc = {
+		tip = "Exhausted\nAffinity will be reduced if you attack"
+	},
+	multiple_ship_energy_low_warn = {
+		tip = "Exhausted\nAffinity will be reduced if you attack"
 	}
 }

@@ -10,7 +10,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			say = "嚯~终于到了啊。能一路突破III型舰队来到这里，还是要稍微称赞你们一下。",
+			say = "I've been waiting for you. Congratulations on breaking through those mass-produced ships.",
 			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "这次可是特意连侵扰者都特意换成III型了，刚刚的战斗一定很艰苦吧？哈哈哈哈哈~",
+			say = "And you've had to ship out resources just to fight the new Obstructor model. Must've given you quite a bit of trouble? Ahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "哼，也没有你说的这么夸张嘛。是不是你在艰难突围的时候大半舰队都被北方联合和指挥官报销了？",
+			say = "There's no need to commit resources to clean up riffraff let through by the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哼，你们懂什么！那些不过是洪水中的河湾，是彗星上的拖尾，是月光下的群星，所有的这一切都只是大计划的一部分！",
+			say = "Shows how little you know. We are infinite, and this is but a drop of water in the vast ocean, or a star in the endless cosmos...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "感觉…只是在嘴硬呢。",
+			say = "...Excuse me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "所！以！说！用现在手头的舰队就足够收拾你们啦！",
+			say = "In other words, what I have at my disposal is more than enough to crush you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听名字还以为你会随身带着抹布扫帚什么的，原来没有啊…",
+			say = "Looks like you're the only leader here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "谁会把那些东西挂在身上啊？！你们的资料里难道都不配图的吗？",
+			say = "I AM the fleet! How dare you look down upon me, you midget ass!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "每天报告那么多，哪会每份都看那么细…爱丁堡，报告上指挥官怎么说的？",
+			say = "Midget?! ...Edinburgh, this was the one who was at the Iceberg Stronghold, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，我想想！应该是……",
+			say = "Eh? Um, uhh... based upon her appearances and the characteristics of her rigging...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“清除者，推测为和净化者为同一类型的攻坚类高阶人型指挥单位，可以使用塞壬鱼雷以及发射塞壬战列舰威力以上的炮击。”",
+			say = "(Think, Edinburgh! I've read the report before, but I can't just drag up those kinds of details all of a sudden... Come on, Edinburgh, prove to everyone that you're just as capable as Bel...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“和侵扰者类似，擅长针对电子设备的干扰作战。推荐使用与对抗侵扰者相同的策略。”",
+			say = "\"Obstructor, high level attack-type Siren, presumably sharing the same level of command as Purifier. Is capable of launching Siren torpedoes and has firepower equal to or greater than Siren battleships. Recommended to target with concentrated firepower to deter the use of torpedoes and shelling attacks, as well as interfere with her ability to attack electronic communications systems.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…然后好像还有什么来着…？",
+			say = "\"Furthermore, we observed no use for the massive cannon equipped on her back during the Stronghold operation. Its purpose is currently unknown, but we speculate that it is used for intimidation purposes only.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "我来补充~“#特别注意#舰装上的巨口虽然看起来压迫力十足，但是直到本次作战最结束清除者被击破为止，巨口都一次都没有被使用过。”",
+			say = "Th-that huge thing on her back isn't a cannon...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "“P.S.虽然考虑到为了保留实力而故意没有使用主武器的可能性，不过联想到清除者的性格，也存在只是单纯为了吓人而安装上的装饰品而已......”",
+			say = "(I'm glad it's not some powerful secret weapon, but that's a bit of a let-down...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "以上~",
+			say = "(Ahhhhhh!! Just what am I thinking about?! Ahaha...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "...................................这就上次那个指挥官报告的全部了？",
+			say = "In-intimidation purposes only?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "开什么玩笑啊！！！！！！！！！！！！！！！！！",
+			say = "SCREW YOU, SHITHEADS!!!!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "于吞噬天地的巨口之中诞生出的璀璨星河…既然你们这么好奇的话，这次就让你们好好看个够吧！！！！！！！！！",
+			say = "Now you've done it... You've gone and pissed me off... If you want to die so badly, then I will give it to you—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "尽情在绝望中战斗，尽情在地狱中挣扎，你们的数据就是——",
+			say = "Choke on your own despair! Rot in hell! I'll rip you apart until nothing's left except your data!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——！",
+			say = "KABOOM—!!",
 			effects = {
 				{
 					active = false,
@@ -415,7 +415,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多说无益！全舰队注意，以伊丽莎白女王之名，轰碎眼前的敌人！",
+			say = "She's coming! Everyone, combat formations! Glory to Her Majesty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

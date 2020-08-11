@@ -12,7 +12,7 @@ return {
 			bgm = "bgm-cccp2",
 			actor = 206060,
 			nameColor = "#a9f548",
-			say = "据说北方联合现在每一艘能开动的军舰都已经投入了前线战斗，指挥官应该也已经作为极地舰队的指挥前往一线了吧。",
+			say = "According to the information we have, the Northern Parliament is in peril and even the commander is fighting on the front lines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…希望明亮的极光，也能给指挥官和北方联合的诸位带来些许优势。",
+			say = "I can only pray for everyone's safety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很担心指挥官~？",
+			say = "You don't seem like the praying type. Worried about the commander~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下吩咐过一定要将指挥官平安接回去，如果出现了意外情况…这边会很难办的。",
+			say = "It is our directive to escort the commander back to the Royal Islands. Surely you have no objections to those orders?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼~只是这样么~？",
+			say = "Nope, none at all~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "…大家注意，比起在极地舰队保护下的指挥官，可能有更紧急的事要担心了。",
+			say = "...Everyone, I'd like to remind you that there may be more pressing matters than how the commander and the Northern Parliament are faring...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "铁血的主力舰队有动作了…？",
+			say = "Is the Iron Blood making their move?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "侦察舰队刚刚发现了铁血主力舰队，这个规模…简直像是倾倒在海面上的积木——",
+			say = "The recons we sent out seem to have found the enemy fleet... And it looks like a storm is coming for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…积木？",
+			say = "A storm? My apologies, but I'm not observing anything to corroborate that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "仅算主力舰就有五艘......提尔比茨、沙恩霍斯特、格奈森瑙，德意志以及斯佩伯海军上将。",
+			say = "I'm talking about the enemy. Tirpitz and the Scharnhorst sisters are there, as well as Deutschland and Graf Spee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "还有重巡洋舰欧根亲王、希佩尔以及大量轻巡洋舰和驱逐舰......",
+			say = "Then there's Prinz Eugen, Admiral Hipper, and a massive number of mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这还...真是钓上来群大鱼啊！光是出动的军舰数量已经比船团里所有运输船加起来还要多了！",
+			say = "Those tin buckets stand no chance against us! We'll smash them to pieces if they try to approach our transport fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前进方向呢，是向着护航舰队的方向去的么？",
+			say = "Do we know where they're headed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "航线…目前看起来是笔直向着我们的方向来的…",
+			say = "Let's see... They seem to be coming straight at us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "？！怎么可能…我们从出发之后一直维持着无线电静默，航线也是严格保密的…",
+			say = "..How is that possible? Unlike the much larger transport fleet, we should've been concealed the entire time. Besides, they just made contact with the escort fleet, and we haven't seen any ships get inside our detection range...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "难道说…情报泄露…？",
+			say = "That means our communications must have been intercepted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这下可糟了，如果我们单独对抗铁血主力舰队的话，一瞬间就会被消灭掉哦！",
+			say = "All right, we can speculate about that later! A ridiculously huge fleet is coming straight at us, so we need to decide if we're going to fight or run!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "…既然已经被发现，继续维持无线电静默就没有意义了。",
+			say = "We've already been spotted, so I don't think running will do us any good at this point. We'd best call the main fleet and engage the enemy at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "从现在开始舰队解除无线电静默，联络司令部和其余各舰队，现在开始对铁血主力的歼灭行动！",
+			say = "As Her Majesty planned, I shall destroy the Iron Blood's main fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

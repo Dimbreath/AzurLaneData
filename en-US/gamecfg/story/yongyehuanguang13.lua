@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-2",
 			actor = 401360,
 			nameColor = "#ff5c5c",
-			say = "呵呵呵，感受到这来自魔眼中深邃的黑暗了么！很快你就将成为恶魔的祭品，准备感受真正的恐惧吧！",
+			say = "My eye holds the forbidden power of bewitchment! The Devilish Idol shall teach you the true meaning of fear! Writhe in utter defeat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很遗憾，人家可是吸血鬼，才不怕什么恶魔呢！乖乖臣服在我的裙下吧~",
+			say = "My eye controls the infinite darkness of undying night! Kneel in terror before Vampire, and tithe your fresh blood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401360,
-			say = "啊！这股力量…难道是真祖之力？！",
+			say = "What?! A trueblood...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然…能对上频道啊…",
+			say = "Um, girls, what are you two doing over there...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哈啊…这是我想说的话才对！居然能和这种状态下的Z36正常交流…",
+			say = "I'd like to know too! I never thought there'd be another person on the same wavelength as Z36...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "...你就是希佩尔吧。初次见面...我是皇家所属航空母舰英仙座。铁血舰队，如果你们能放下----",
+			say = "I've heard much about you, Admiral Hipper. It's a pleasure to meet you in person. I am Perseus, Royal Navy aircraft carrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哈？！现在才说这个...？这都已经打起来了吧......！",
+			say = "Huhh? A pleasure? You've already started attacking us!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚有点走神，现在补上…",
+			say = "A Lady of the Royal Navy must conduct herself with grace and elegance at all times. With that out of the way, I hope that we can have a cordial relationship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……例行流程就免了，大家立场不同，为各自阵营作战到最后一刻吧！",
+			say = "...Yeah, cordial my ass...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——有破绽！",
+			say = "——!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "有个鬼啦！区区轻巡洋舰而已嚣张什么！真正的攻击，应该是这样的！",
+			say = "Damnit...! You coward! If you wanna fight, face me fair and square!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 202080,
-			say = "切。",
+			say = "That would be strategically disadvantageous, so please forgive me for being unable to accept your proposal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嘁，别乱跑啊！哼哼…今天铁血主力全部出马，你们一·个·都·跑·不·掉！",
+			say = "Hey, get your frilly ass back here! Gaaah...! You're not getting away with this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -2772,6 +2772,48 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[177] = {
+		advice = 0,
+		describe = "\"We are not always safer in the light.\" ― Commemorative piece awarded to commanders who displayed excellence during the \"Aurora Noctis\" event.",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "Remnant of Light",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "Aurora Noctis ",
+		themeId = 0,
+		icon = "jiguangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 177,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"jiguang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		describe = "It feels like you've seen these in a popular party game before...",
@@ -49031,10 +49073,12 @@ pg.furniture_data_template = {
 				},
 				{
 					nil,
-					1
+					nil,
+					nil,
+					"sit"
 				},
 				{
-					1
+					0
 				}
 			},
 			{},
@@ -60398,6 +60442,1361 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[69001] = {
+		advice = 0,
+		describe = "Clean, like how a perfect health record looks.",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "Infirmary Flooring",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "dibanyiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69001,
+		picture = "yi/dibanyi",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69002] = {
+		advice = 0,
+		describe = "Sterile, in both meanings of the word.",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "Infirmary Wallpaper",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "qiangbiyiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69002,
+		picture = "yi/qiangbiyi",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69101] = {
+		advice = 0,
+		describe = "It's not the cushiest, but then again, it's not really a cushion.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Lobby Seat",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "1yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69101,
+		picture = "Yi/1yi",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					21.6,
+					43.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69102] = {
+		advice = 0,
+		describe = "This is not Loss.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Lobby Counter",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "2yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69102,
+		picture = "Yi/2yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11.2,
+					57.5
+				},
+				{
+					-1,
+					1
+				},
+				"yi/2yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69103] = {
+		advice = 0,
+		describe = "Everyone's least favorite place to be. Even with the cute Manjuus.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Dental Engine",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "5yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69103,
+		picture = "Yi/5yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-6,
+					11.3
+				},
+				{
+					-1,
+					1
+				},
+				"yi/5yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69104] = {
+		advice = 0,
+		describe = "Be a patient patient and stare at these flowers for a while.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Potted Sunflower",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "6yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69104,
+		picture = "Yi/6yi",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69105] = {
+		advice = 0,
+		describe = "What happens behind the curtain? Nothing. It's just for privacy's sake.",
+		count = 7,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Infirmary Curtains",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "7yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69105,
+		picture = "Yi/7yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69106] = {
+		advice = 0,
+		describe = "De facto redundant after the widespread adoption of smartphones.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Magazine Rack",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "8yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69106,
+		picture = "Yi/8yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69107] = {
+		advice = 0,
+		describe = "That's just the sedative. You won't feel a thing... afterwards.",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuu Nurse w/ Syringe",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "9yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69107,
+		picture = "Yi/9yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69108] = {
+		advice = 0,
+		describe = "You'd need a degree in chemistry just to understand what these labels mean.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Medicine Cabinet",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "10yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69108,
+		picture = "Yi/10yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69109] = {
+		advice = 0,
+		describe = "Fun fact: both military and medical operations take place in a theater.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Operating Table",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "11yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69109,
+		picture = "Yi/11yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					3.7,
+					-21.5
+				},
+				{
+					-1,
+					1
+				},
+				"yi/11yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69110] = {
+		advice = 0,
+		describe = "Cook with almost any other ingredient to make a dish that restores all your hearts.",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Infirmary Potted Plant",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "12yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69110,
+		picture = "Yi/12yi",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69111] = {
+		advice = 0,
+		describe = "Long ago, in this very bed, a legend awoke from a coma that lasted 9 years.",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Infirmary Sickbed",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "13yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69111,
+		picture = "Yi/13yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-13.5,
+					-17.8
+				},
+				{
+					-1,
+					1
+				},
+				"yi/13yi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69112] = {
+		advice = 0,
+		describe = "\"This is Mr. Bones. Say hi to Mr. Bones, Mutsuki!\"",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Model Skeleton",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "14yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69112,
+		picture = "Yi/14yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69113] = {
+		advice = 0,
+		describe = "\"Paging Doctor Rhodes. Doctor Rhodes, please come to the reception.\"",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Infirmary Reception",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 69,
+		icon = "17yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69113,
+		picture = "Yi/17yi",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69114] = {
+		advice = 0,
+		describe = "Please sit down and wait for your name to be called.",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Lobby Chairs",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "18yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 69114,
+		picture = "Yi/18yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					52.9,
+					37.4
+				},
+				{
+					1,
+					1
+				},
+				"yi/18yi_using"
+			},
+			{
+				"sit",
+				{
+					-18.7,
+					2.3
+				},
+				{
+					1,
+					1
+				},
+				"yi/18yi_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69115] = {
+		advice = 0,
+		describe = "It's the purest water you'll ever taste.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Water Dispenser",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "19yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69115,
+		picture = "Yi/19yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69116] = {
+		advice = 0,
+		describe = "Offers a view of the literal inner workings of the human body.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Anatomical Model",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "21yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69116,
+		picture = "Yi/21yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69117] = {
+		advice = 0,
+		describe = "It even dispenses a few over-the-counter medications!",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Infirmary Vending Machine",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "22yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 69117,
+		picture = "Yi/22yi",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69118] = {
+		advice = 0,
+		describe = "\"Honey, I'm heading into the Roentgen machine\" sounds so much cooler.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "X-ray Machine",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "4yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69118,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xguangB",
+				"normal"
+			},
+			{
+				"xguangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"xguangCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[69119] = {
+		advice = 0,
+		describe = "Not recommended for small children or people with metal bees lodged in their brains.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "CT Scan Machine",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "15yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69119,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"CTB",
+				"normal"
+			},
+			{
+				"CTT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"CTCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[69120] = {
+		advice = 0,
+		describe = "For those times when you're losing him and have to get to the ER, quick.",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "Stretcher Cart",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "20yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69120,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheyiB",
+				"normal"
+			},
+			{
+				"cheyiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"cheyiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[69121] = {
+		advice = 0,
+		describe = "\"IT'S NOT 'PINING FOR THE FJORDS'! THIS IS AN EX-MANJUU!\"",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Resting Manjuu",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 69,
+		icon = "16yiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69121,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"anxijiu",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[69301] = {
+		advice = 0,
+		describe = "This has been in high demand lately.",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Antibacterial Soap",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "3yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69301,
+		picture = "Yi/3yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69302] = {
+		advice = 0,
+		describe = "\"Not surprised you see me. I'm a door.\"",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "ICU Door",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "23yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69302,
+		picture = "Yi/23yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69303] = {
+		advice = 0,
+		describe = "A heartbeat is strangely unromantic in a clinical setting.",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Electrocardiograph",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "24yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69303,
+		picture = "Yi/24yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69304] = {
+		advice = 0,
+		describe = "These mean nothing to you, but they add an air of legitimacy.",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Doctor Credentials",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 69,
+		icon = "25yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69304,
+		picture = "Yi/25yi",
+		comfortable = 1,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69305] = {
+		advice = 0,
+		describe = "Remember the basics of resuscitation: ♪ Ah, ha, ha, ha, stayin' alive ♪",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Cardiology Ward Door",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "26yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69305,
+		picture = "Yi/26yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69306] = {
+		advice = 0,
+		describe = "\"Up, up, down, down, left, right, left, right... I can't read the rest.\"",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Ophthalmology Ward Door",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "27yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69306,
+		picture = "Yi/27yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69307] = {
+		advice = 0,
+		describe = "Take a deep breath, then exhale. You are now breathing manually.",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Pulmonology Ward Door",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "28yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69307,
+		picture = "Yi/28yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69308] = {
+		advice = 0,
+		describe = "\"I hate to be the bearer of bad news, but... there is a skeleton inside you.\"",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Orthopedics Ward Door",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "29yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69308,
+		picture = "Yi/29yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[69309] = {
+		advice = 0,
+		describe = "\"Great Scott! Nurse, there is an entire galaxy within the patient's cranium!\"",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Neurology Ward Door",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 69,
+		icon = "30yiicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 69309,
+		picture = "Yi/30yi",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -60459,6 +61858,7 @@ pg.furniture_data_template = {
 		171,
 		173,
 		175,
+		177,
 		100002,
 		100003,
 		100004,
@@ -61800,6 +63200,38 @@ pg.furniture_data_template = {
 		66124,
 		66125,
 		66126,
-		66127
+		66127,
+		69001,
+		69002,
+		69101,
+		69102,
+		69103,
+		69104,
+		69105,
+		69106,
+		69107,
+		69108,
+		69109,
+		69110,
+		69111,
+		69112,
+		69113,
+		69114,
+		69115,
+		69116,
+		69117,
+		69118,
+		69119,
+		69120,
+		69121,
+		69301,
+		69302,
+		69303,
+		69304,
+		69305,
+		69306,
+		69307,
+		69308,
+		69309
 	}
 }

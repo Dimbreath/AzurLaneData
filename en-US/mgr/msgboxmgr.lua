@@ -862,6 +862,7 @@ function slot1.commonSetting(slot0, slot1)
 
 	slot17 = slot0._go.transform.localPosition
 	slot0._go.transform.localPosition = Vector3(slot17.x, slot17.y, slot0.settings.zIndex or 0)
+	slot0.locked = slot0.settings.locked or false
 end
 
 function slot1.createBtn(slot0, slot1)
@@ -1003,9 +1004,14 @@ function slot1.Clear(slot0)
 
 	slot0.settings = nil
 	slot0.enable = false
+	slot0.locked = nil
 end
 
 function slot1.ShowMsgBox(slot0, slot1)
+	if slot0.locked then
+		return
+	end
+
 	if (slot1.type or MSGBOX_TYPE_NORMAL) == MSGBOX_TYPE_NORMAL then
 		uv0(slot0, slot1)
 	elseif slot2 == MSGBOX_TYPE_INPUT then

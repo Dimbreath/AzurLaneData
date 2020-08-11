@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "通讯器有反应了…是支援舰队发来的联络！",
+			say = "It's a message! We've got a message from the support fleet!",
 			bgm = "bgm-royalnavy",
 			typewriter = {
 				speed = 0.05,
@@ -22,11 +22,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "电告，包括战列舰提尔比茨号、沙恩霍斯特号、格奈森瑙号、德意志号、斯佩伯爵号在内的铁血主力舰队已经完成集结，现在正在向巴伦支海的方向逼近。",
+			say = "The Iron Blood's main fleet is moving towards the support fleet! Tirpitz and the Scharnhorst sisters are with them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,11 +37,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主力舰队请按照预定计划所有舰船立刻掉头向西方前进，准备迎击铁血主力舰队。",
+			say = "—Requesting immediate assistance from the main fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "铁血终于还是对运输船团动心了么…让我们等的好久啊！",
+			say = "The Iron Blood have finally shown themselves...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵，居然连提尔比茨都出动了？真亏铁血这么快就把主力舰都修好了。",
+			say = "Heh, so they've brought out their big guns... Too bad that won't save them from Valiant's charismatic leadership!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "除了规模上有点超出预期之外，一切都如陛下所料呢。",
+			say = "Just as Her Majesty predicted!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她们倾巢出动，我们正好来个一网打尽！本土舰队不能再被铁血的存在舰队战术这么拖下去了。",
+			say = "Valiant, let's hurry and back them up! It's time to drive the Iron Blood from the seas!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼~一举消除铁血舰队威胁的机会终于来了！通知各舰立刻转向，让我们去迎接“客人”吧！",
+			say = "Exactly! Members of the Royal Navy Main Fleet, change course and advance towards the Iron Blood fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -942,11 +942,7 @@ function slot0.updateCountDown(slot0)
 		slot3 = pg.TimeMgr.GetInstance()
 
 		_.each(pg.chapter_template.all, function (slot0)
-			slot1 = pg.chapter_template[slot0]
-
-			print(slot1.map)
-
-			if (pg.expedition_data_by_map[slot1.map].type == Map.ACTIVITY_HARD or slot2.type == Map.ACTIVITY_HARD) and pg.activity_template[slot1.act_id] and slot3.time and #slot3.time == 3 and uv0:parseTimeFromConfig(slot3.time[2]) - uv0:GetServerTime() > 0 then
+			if (pg.expedition_data_by_map[pg.chapter_template[slot0].map].type == Map.ACTIVITY_HARD or slot2.type == Map.ACTIVITY_HARD) and pg.activity_template[slot1.act_id] and slot3.time and #slot3.time == 3 and uv0:parseTimeFromConfig(slot3.time[2]) - uv0:GetServerTime() > 0 then
 				if uv1 == 0 then
 					uv1 = slot4
 				else

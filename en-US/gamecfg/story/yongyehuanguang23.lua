@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bgm-royalnavy",
-			say = "极光之下，皇家的护航舰队排列着整齐的队形在海面上行进着。",
+			say = "Barents Sea - Royal Navy Escort Fleet",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,12 +32,12 @@ return {
 			}
 		},
 		{
-			actorName = "赫敏",
+			actorName = "Hermione",
 			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "中央的运输船队、紧邻的护卫舰…嗯，都没问题，呼…各位，状况都还好吧？",
+			say = "We've linked up with the transport fleet. Is everyone in the escort fleet fine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,12 +48,12 @@ return {
 			}
 		},
 		{
-			actorName = "鹰",
+			actorName = "Eagle",
 			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，前后的掩护舰队都好好地发挥着作用。我的舰载机们也在巡回侦察中——",
+			say = "No problems here. I'll continue the patrols.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,12 +64,12 @@ return {
 			}
 		},
 		{
-			actorName = "鹰",
+			actorName = "Eagle",
 			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘁，刚刚的撤退果然只是障眼法。大家注意，我们已经被狼群包围了。",
+			say = "That sub earlier did say that she'd come back to settle the score, so she's probably going to use their favorite tactic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,12 +80,12 @@ return {
 			}
 		},
 		{
-			actorName = "赫敏",
+			actorName = "Hermione",
 			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌人的数量呢？",
+			say = "Wolfpack...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,12 +96,12 @@ return {
 			}
 		},
 		{
-			actorName = "鹰",
+			actorName = "Eagle",
 			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "具体数量不明，不过…看起来完全可以发动一次大规模的袭击。",
+			say = "No, it's worse than that. Judging from their wakes, the three of us won't be enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,12 +112,12 @@ return {
 			}
 		},
 		{
-			actorName = "牙买加",
+			actorName = "Jamaica",
 			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "司令部不会就是被铁血潜艇撤退的情报骗到了吧…还好我们没有走，不然现在所有的运输船都要成为狼群嘴里的肉了…",
+			say = "The Naval HQ must have received some faulty intel about the Iron Blood subs... If we had left, the entire transport fleet would've been torpedoed to hell and back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,12 +128,12 @@ return {
 			}
 		},
 		{
-			actorName = "赫敏",
+			actorName = "Hermione",
 			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，看样子我们的决定是正确的呢，回去跟大家也有个好交代了~",
+			say = "I'm glad we made the right decision. I'm going to need to have a talk to the higher-ups when we get back...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,12 +144,12 @@ return {
 			}
 		},
 		{
-			actorName = "赫敏",
+			actorName = "Hermione",
 			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…好！无论发生任何情况，一定要保护好运输舰！各位，打起精神，准备作战了哦！",
+			say = "Ah! ...We've found them! Everyone, stay calm and prepare for anti-submarine combat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

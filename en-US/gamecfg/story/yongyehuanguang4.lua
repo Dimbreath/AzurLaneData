@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "不断变换着色彩的光带将本应一片漆黑的海面点亮，如同一道帷幔，在璀璨的星空下舞动着奇妙的轨迹。",
+			say = "A colorful band of light shimmers across the night skies of the Barent Sea, illuminating the sea along with the stars.",
 			side = 2,
 			dir = 1,
 			bgm = "bgm-cccp2",
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "这就是只有在极地上空才能观测到的特殊天文现象…极光吗？真是…压倒性的美丽啊…",
+			say = "So this is an aurora... Absolutely breathtaking...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如同斩断无尽黑暗的光之利刃，呼呼呼…我感觉到了，这只眼中压抑的力量正在产生共鸣…",
+			say = "Like a sash of light weaving across the infinite darkness... Ahh, how it makes this eye resonate with power...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "呵呵，牙买加小姐…说话还是一如既往地有趣呢~要是我也能……",
+			say = "What do you mean by that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "这可不是值得学习的对象哦，赫敏。唔，听说极光一般会持续数分钟或者数小时，看来一段时间内我们的索敌压力可以减轻不少，不过…",
+			say = "That's not anything you need to learn, Hermione. The fact that we can see the aurora means that there aren't any clouds, which also means...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "这样一来，敌人的视野也同样变好了呢…——",
+			say = "It'll be easier for both us and the enemy to spot each other... right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 202270,
 			nameColor = "#a9f548",
-			say = "！？不好...护卫舰发来消息，在编队侧后方的天空上发现了铁血侦察机！",
+			say = "Woah...! An Iron Blood recon plane has shown up, tailing a mass-produced ship!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "嘁，到底还是被发现了…",
+			say = "I knew they'd be here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很快周边所有的潜艇和飞机也都会向我们靠过来，极光照亮海面的期间就是它们发动进攻的绝佳时机。",
+			say = "Soon, they'll bear down upon us with their entire force... The illumination from the aurora has given them the perfect window to strike.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么这时候天气反而平静下来了...如果能来场风暴把铁血飞机都吹下去多好啊~",
+			say = "The sky is changing way too quickly! Is this The World's influence...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "牙买加小姐！现在正是你发挥“眼中压抑的力量”的时候了！",
+			say = "Jamaica, now's the time to tap into the power stored within your eye!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔！？",
+			say = "...Oh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "…有时候真搞不清你是认真的还是开玩笑的啊…",
+			say = "(Those two may be an odd duo, but it's working out...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼，鹰小姐的预感猜中了呢。不过，天气可不会随着我们的心意改变，我们能做的只有接受它和利用它…",
+			say = "Eagle, your hunch was right. However, we're not going to be able to change the weather, so we'll have to make the best of this situation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 207010,
 			nameColor = "#a9f548",
-			say = "说的没错！铁血在空中的飞机交给我，各舰专注于反潜作战，维持护航阵型前进，保护运输船队！",
+			say = "That's right. I'll suppress their air power, so stay vigilant of the enemy submarines and protect the transport fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

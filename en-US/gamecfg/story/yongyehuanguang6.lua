@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-5",
 			actor = 408050,
 			nameColor = "#ff5c5c",
-			say = "啧，对面战意高昂啊...正好鱼雷也需要重新装填...先告辞咯~！",
+			say = "Crap, they're really getting serious, and I need to reload my torpedo tubes... We'll settle this later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "U-73打出最后几发鱼雷干扰了航线，抓住空隙下潜到水面下头也不回的撤退了。",
+			say = "After forcing Hermione to swerve sharply to evade her last torpedo, U-73 quickly dove under the waves and retreated from the battlefield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就这？刚刚的话说的很满，实际打起来只有这种程度么，真令人失望。",
+			say = "After all that talk, she didn't even last an episode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "抓住机会就发动进攻，见势不妙就火速撤退...铁血的潜艇真的像狼一样狡猾呢…",
+			say = "Hmm... It seems like she didn't bring an entire wolfpack with her. Was she really just acting alone...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "我这边的战斗也结束了哦，铁血飞机驱散完毕。",
+			say = "I've neutralized their air force as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "周围没有发现更多的铁血潜艇，嗯…这就算击退铁血的第一波进攻了…？",
+			say = "As for other submarines... I'm not picking up on any. Does this mean we've successfully repelled them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的损失统计呢？",
+			say = "Mm. Any damages?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "除了打出去的弹药之外，舰队没有受到任何消耗和损失。",
+			say = "I don't think so. Nobody got hit, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总感觉…事情有些奇怪？",
+			say = "...How bizarre.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "嗯…作为精心准备的袭击来说，这次袭击实在是太弱了。",
+			say = "You're right. It makes no sense to send such a small force to attack an entire convoy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "铁血的目标真的是运输舰么？刚才她们提到的主力舰队也让我有些在意…",
+			say = "Maybe they were just trying to gauge our strength? That submarine said something about the main fleet being on its way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "让我们重新理一下状况吧。按照原计划，由主力舰队在前方开路，支援舰队后方殿后…",
+			say = "Not sure. What do you think they could learn from an engagement like that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "两支舰队均保持无线电静默隐藏起来，而运输舰队居中，作为吸引铁血目光的诱饵。",
+			say = "Th-that's right, even if there was a main fleet on its way, it'd be too late to respond by the time they reported back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，如果铁血主力舰队上钩，想要进入巴伦支海袭击船团的话，一定会被我方发现的才对。",
+			say = "Wait a second... What if they were trying to lure us into a certain position...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道说…有情报泄露？铁血窃取了我们的计划！？然后想要用潜艇部队和主力舰队先下手吃掉我们的支援舰队！？",
+			say = "You mean, they were trying to separate us from the support fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "如果那样的话…英仙座她们可就危险了！",
+			say = "Oh no! The support fleet is in danger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "支援舰队处于无线电静默中，铁血就算知道了计划也不会这么快锁定她们现在的位置。",
+			say = "It's too early to say that. The Iron Blood shouldn't know that another fleet is even here, let alone their position.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…首先再侦测一遍周边海域，然后把这个情报向司令部汇报吧。",
+			say = "I'll send another recon out to re-assess the situation. Hermione, Jamaica, both of you stay vigilant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

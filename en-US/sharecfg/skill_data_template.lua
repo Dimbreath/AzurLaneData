@@ -7022,6 +7022,17 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6570] = {
+		desc_get = "",
+		name = "Acoustic Preload",
+		desc = "When equipped, turns the first wave of torpedoes fired into acoustic torpedoes that deal 5.0% more damage.",
+		type = 0,
+		max_level = 0,
+		id = 6570,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -34880,6 +34891,1068 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[13410] = {
+		desc_get = "",
+		name = "Mercury's Talaria",
+		desc = "This ship starts the battle with $1 Airstrike(s) preloaded, but the loading time of its Airstrikes is increased by 90.0%. Additionally, when this ship launches an Airstrike: heals all ships in your Vanguard for $2 and your Main Fleet for $3 of their respective max HP.",
+		type = 2,
+		max_level = 10,
+		id = 13410,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1",
+				"2"
+			},
+			{
+				"1.5%",
+				"7.0%"
+			},
+			{
+				"1.0%",
+				"3.5%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.6%"
+				},
+				{
+					"2.1%",
+					"+0.6%"
+				},
+				{
+					"2.7%",
+					"+0.6%"
+				},
+				{
+					"3.3%",
+					"+0.6%"
+				},
+				{
+					"3.9%",
+					"+0.6%"
+				},
+				{
+					"4.5%",
+					"+0.6%"
+				},
+				{
+					"5.1%",
+					"+0.6%"
+				},
+				{
+					"5.7%",
+					"+0.6%"
+				},
+				{
+					"6.3%",
+					"+0.7%"
+				},
+				{
+					"7.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.3%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.4%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%"
+				}
+			}
+		}
+	},
+	[13420] = {
+		desc_get = "",
+		name = "Athena's Catapult",
+		desc = "Every 12s after the start of the battle: launches a randomly chosen $1 special airstrike consisting of either Sea Hornets, TBF Avengers, or Fireflies.",
+		type = 1,
+		max_level = 10,
+		id = 13420,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13430] = {
+		desc_get = "",
+		name = "Waters of Styx",
+		desc = "Increases this ship's max Airstrike capacity to 3 and restores 1.0% HP to all ships in the same fleet as this ship once every $2s. 20s after the fleet this ship is NOT in starts a battle: heals that fleet's Vanguard for $1 HP.",
+		type = 3,
+		max_level = 10,
+		id = 13430,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.0%",
+				"3.0%"
+			},
+			{
+				"40",
+				"20"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.2%"
+				},
+				{
+					"2.0%",
+					"+0.2%"
+				},
+				{
+					"2.2%",
+					"+0.2%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.3%"
+				},
+				{
+					"3.0%"
+				}
+			},
+			{
+				{
+					"40",
+					"-2"
+				},
+				{
+					"38",
+					"-2"
+				},
+				{
+					"36",
+					"-2"
+				},
+				{
+					"34",
+					"-2"
+				},
+				{
+					"32",
+					"-2"
+				},
+				{
+					"30",
+					"-2"
+				},
+				{
+					"28",
+					"-2"
+				},
+				{
+					"26",
+					"-3"
+				},
+				{
+					"23",
+					"-3"
+				},
+				{
+					"20"
+				}
+			}
+		}
+	},
+	[13440] = {
+		desc_get = "",
+		name = "Synchronized Strike",
+		desc = "Every $1s after the start of the battle: fires a $2 special barrage at a randomly chosen enemy (DMG is based on the skill's level) and increases Accuracy and RLD by $3 for 8s for all your BBs, BCs, and BBVs.",
+		type = 1,
+		max_level = 10,
+		id = 13440,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"35",
+				"15"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"35",
+					"-2"
+				},
+				{
+					"33",
+					"-2"
+				},
+				{
+					"31",
+					"-2"
+				},
+				{
+					"29",
+					"-2"
+				},
+				{
+					"27",
+					"-2"
+				},
+				{
+					"25",
+					"-2"
+				},
+				{
+					"23",
+					"-2"
+				},
+				{
+					"21",
+					"-3"
+				},
+				{
+					"18",
+					"-3"
+				},
+				{
+					"15"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[13450] = {
+		desc_get = "",
+		name = "Covenant of the Immortal Knights",
+		desc = "At the start of the battle: increases this ship's FP and RLD by $1. When sortied together with any of the following: any King George V-class BB, Monarch, or any 3 (or more) Royal Navy ships: increases this ship's FP and AA by $1.",
+		type = 3,
+		max_level = 10,
+		id = 13450,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[13460] = {
+		desc_get = "",
+		name = "Bombarda Geminio",
+		desc = "Every 15s after the start of the battle: fires a $1 special barrage; if there are no enemies within 30 units of this ship when this barrage procs: fires a separate $1 special barrage.",
+		type = 1,
+		max_level = 10,
+		id = 13460,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13470] = {
+		desc_get = "",
+		name = "Supporting Role",
+		desc = "At the start of the battle, if this ship is NOT in the frontmost position of the Vanguard: increases this ship's FP, TRP, AA, and RLD by $1. Furthermore, if there are other Royal Navy ships in the same fleet: also increases this ship's DMG dealt by $2.",
+		type = 3,
+		max_level = 10,
+		id = 13470,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[13480] = {
+		desc_get = "",
+		name = "All Out Assault, Open Fire!",
+		desc = "5s after the start of the battle, and with a $2 chance every 30s: launches a $1 special barrage (DMG is based on the skill's level.)",
+		type = 1,
+		max_level = 10,
+		id = 13480,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			}
+		}
+	},
+	[13490] = {
+		desc_get = "",
+		name = "Torpedo Mode? ...Sure!",
+		desc = "At the start of the battle and every 20s after that: for 10s, decreases the DMG this ship takes from torpedoes by $1 and changes this ship's torpedo barrage.",
+		type = 2,
+		max_level = 10,
+		id = 13490,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"6.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"6.0%",
+					"+1.2%"
+				},
+				{
+					"7.2%",
+					"+1.2%"
+				},
+				{
+					"8.4%",
+					"+1.6%"
+				},
+				{
+					"10.0%",
+					"+1.2%"
+				},
+				{
+					"11.2%",
+					"+1.2%"
+				},
+				{
+					"12.4%",
+					"+1.6%"
+				},
+				{
+					"14.0%",
+					"+1.8%"
+				},
+				{
+					"15.8%",
+					"+1.8%"
+				},
+				{
+					"17.6%",
+					"+2.4%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[13500] = {
+		desc_get = "",
+		name = "Leading the Way",
+		desc = "10s after this ship fires its Main Guns: fires a $1 special barrage that inflicts Armor Break to all enemies hit by it (barrage DMG is based on the skill's level.)",
+		type = 3,
+		max_level = 10,
+		id = 13500,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13510] = {
+		desc_get = "",
+		name = "Forward!",
+		desc = "When this ship fires its Main Guns: $1 chance to fire a frontal special barrage (DMG is based on the skill's level.)",
+		type = 1,
+		max_level = 10,
+		id = 13510,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"20.0%",
+				"50.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50%"
+				}
+			}
+		}
+	},
+	[13520] = {
+		desc_get = "",
+		name = "Royal Arts: Knight's Arsenal",
+		desc = "When equipping a CL Gun in this ship's Secondary Weapon slot: increases that slot's efficiency by $1, sets the gun's Range and Detection Range to 80, and fires a special barrage every 24s; if instead equipping a Dive Bomber: shortens the loading time of this ship's first Airstrike by $2.",
+		type = 1,
+		max_level = 10,
+		id = 13520,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"25.0%",
+				"45.0%"
+			},
+			{
+				"20.0%",
+				"50.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"25.0%",
+					"+2.2%"
+				},
+				{
+					"27.2%",
+					"+2.2%"
+				},
+				{
+					"29.4%",
+					"+2.2%"
+				},
+				{
+					"31.6%",
+					"+2.2%"
+				},
+				{
+					"33.8%",
+					"+2.2%"
+				},
+				{
+					"36.0%",
+					"+2.2%"
+				},
+				{
+					"38.2%",
+					"+2.2%"
+				},
+				{
+					"40.4%",
+					"+2.2%"
+				},
+				{
+					"42.6%",
+					"+2.4%"
+				},
+				{
+					"45.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50%"
+				}
+			}
+		}
+	},
+	[13530] = {
+		desc_get = "",
+		name = "Royal Arts: Swordbearing Eagle",
+		desc = "When this ship launches an Airstrike: launches an additional $1 Swordfish torpedo bomber airstrike.",
+		type = 1,
+		max_level = 10,
+		id = 13530,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13540] = {
+		desc_get = "",
+		name = "Waters of Styx ",
+		desc = "支援效果ID占位",
+		type = 2,
+		max_level = 10,
+		id = 13540,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -39489,6 +40562,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[21026] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: I-class once every 15 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 21026,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[21027] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: I-class once every 10 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 21027,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[21031] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -42261,6 +43356,28 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29572,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29581] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Hermione once every 15 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29581,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29582] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Hermione once every 10 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29582,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -45586,6 +46703,7 @@ pg.skill_data_template = {
 		6540,
 		6550,
 		6560,
+		6570,
 		7000,
 		9010,
 		9020,
@@ -45932,6 +47050,20 @@ pg.skill_data_template = {
 		13370,
 		13380,
 		13400,
+		13410,
+		13420,
+		13430,
+		13440,
+		13450,
+		13460,
+		13470,
+		13480,
+		13490,
+		13500,
+		13510,
+		13520,
+		13530,
+		13540,
 		18010,
 		18040,
 		18050,
@@ -46026,6 +47158,8 @@ pg.skill_data_template = {
 		21012,
 		21021,
 		21022,
+		21026,
+		21027,
 		21031,
 		21032,
 		21041,
@@ -46278,6 +47412,8 @@ pg.skill_data_template = {
 		29562,
 		29571,
 		29572,
+		29581,
+		29582,
 		101010,
 		101020,
 		101030,

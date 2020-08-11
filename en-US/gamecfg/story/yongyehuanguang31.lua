@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "极光下的激烈战斗，仍在持续。",
+			say = "Barents Sea - Royal Navy Main Fleet",
 			side = 2,
 			dir = 1,
 			bgm = "xinnong-4",
@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "纵使是新型塞壬舰队，在皇家主力的猛烈炮火下，依然接连化为燃烧着的残骸。问题在于——",
+			say = "Gunfire dotted the skies beneath a luminous aurora. The Royal Navy fleet that had assembled to challenge the Iron Blood had now directed their attention towards the Sirens, cutting down even the improved models one after another.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "啧，敌人的数量太多了！这真的只是突破了封锁线的一小部分吗？！北方联合究竟在和什么东西作战啊！",
+			say = "Damn it... There's no end to them...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "总不会到现在缺口还没堵上吧，真是靠不住！",
+			say = "Impossible! Has the Northern Parliament's defensive line collapsed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来关键时刻还是得靠我们的啊。主力舰队就钉死在这里，一架飞机都不要放走！",
+			say = "Calm down, Valiant! The Sirens are known to materialize out of seemingly nowhere! We will show them that the Royal Navy's main fleet is an impregnable fortress, and dash them against our ramparts!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，一定要让北方联合和塞壬都见识下皇家海军的厉害！",
+			say = "Y-you're right! Both the Northern Parliament and these Sirens will learn what true charisma looks like!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "唔…英勇，你注意到了吗，混杂在对面舰队里的一部分难缠的家伙。",
+			say = "That's the spirit, Valiant! ...Wait, what's that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "啊啊，那个新型号，应该是叫…侵扰者吧。",
+			say = "Based on my intel, that should be a new humanoid Siren known as \"Obstructor.\" Icarus, do you have any more information about it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "根据记录，侵扰者是一种以干扰和摧毁电子设备为主的型号！如果被其主武器直接命中的话，就算是战列舰也有可能暂时陷入电力系统故障！",
+			say = "U-um, yes! It's a disruption-type Siren equipped with weapons that damage the electrical conduction system of our riggings. If you're hit by that weapon, you won't be able to fully deploy your armaments!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "应对方式呢？",
+			say = "How do we fight against it then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那...那个！根据指挥官的报告......北方联合似乎是以火力的密集覆盖来解决精度被干扰的问题的...！",
+			say = "According to the Iceberg Stronghold report, the Northern Parliament smashed through it with overwhelming firepower!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "真是有北方联合特色的解决方式......哎？你真的是平时那个冒失的爱丁堡么？",
+			say = "...That is something they'd do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么叫冒失的爱丁堡啊！我可是贝法的姐姐，终于认识到我的可靠之处了吧~",
+			say = "Did someone say overwhelming firepower?! Coool...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "火力覆盖…真、真是让人羡慕…！",
+			say = "Did someone say overwhelming firepower?! Coool...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "哼，论火力，我们也不会输给区区北方联合的！",
+			say = "Damn it all! There's no way we'd let the Northern Parliament out-gun us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "说得好！我来分配覆盖区域，大家尽情倾泻火力吧！",
+			say = "You heard her! Everyone, commence all-out assault!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

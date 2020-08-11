@@ -8,7 +8,7 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 2,
-			say = "巴伦支海·皇家护航舰队",
+			say = "Barents Sea - Royal Navy Escort Fleet",
 			dir = 1,
 			bgm = "bgm-cccp2",
 			typewriter = {
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "告诉大家一个坏消息。刚刚收到司令部的联络，原定于我们汇合的北方联合驱逐舰队已经被派遣到极地作战前线，无法如约前来了。",
+			say = "Everyone, I have some bad news. The Northern Parliament's destroyer fleet, which was supposed to join us, was suddenly summoned to the front lines and no longer will be coming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "？！居然连旧式驱逐舰队都派上前线...局势已经紧迫到这个程度了吗！？",
+			say = "Wow... They're even pulling the old destroyers to the front lines...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "极地塞壬似乎又发动了一轮大规模进攻，指挥官也已经亲自前往一线指挥战斗了。",
+			say = "That seems to be the case. I heard that even the commander went to help out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "竟然连指挥官都…看来就算完成了运输任务，也要等到局势缓和下来之后才能把指挥官接走了啊…",
+			say = "Even the commander? ...We might not be able to fulfill our mission even after dropping off the supplies then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，现在这种局面下Boss也不可能同意从一线撤下来和我们回去吧~",
+			say = "If things go south, the Boss won't be able to leave the Northern Parliament then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "战况如此激烈…希望指挥官千万要照顾好自己…",
+			say = "That's not good... I hope the commander stays safe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "要不然等到了北方联合之后，我们向司令部申请去前线助指挥官一臂之力好了。",
+			say = "Worst case scenario, we'll have to ask Her Majesty if we can directly reinforce them on the front line as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噢？真是一个正义提案啊！不过在那之前...我已经快要冻死了！",
+			say = "Worst case scenario, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "也是呢…颠簸的风浪，再加上凌冽寒风。每一次来巴伦支海都感觉比上一次天气更差…这次居然极夜都赶上了。",
+			say = "What's with this awful weather though? Neither the sun nor the wind seems to be on our side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "这些都不算最差的部分。听说铁血已经加强了沿岸的军事部署。如果遭遇到铁血轰炸机铺天盖地的袭击，你估计该希望天气越差越好咯。",
+			say = "The weather's not going to deter the Iron Blood. All we can hope for is that they won't be able to exercise their airpower to its fullest extent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 202270,
-			say = "不光是我们，目前主力舰队和支援舰队也都没有被敌人发现哦，看来极夜对于铁血的侦察机来说麻烦更大呢。",
+			say = "At least we're not the only ones being affected. Based on the fact that our fleets haven't been detected yet, the Iron Blood recon planes seem to also be running into problems.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也是…算了，如果吃这点苦就能一路平安度过这片危险区域，倒也挺划算的~",
+			say = "Hmph. I guess for the time being, our decoy be working well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到底会怎么样呢.....至少我们有确切的情报表明，铁血狼群已经被部署在这片海域了。",
+			say = "I hope that's the case... Right now, I'm more concerned about submarines. Our detection systems won't work as well in this turbulent weather.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她们只是来巴伦支海欣赏风景的…大概不太可能吧，啊哈哈…",
+			say = "That's true... I hope that we can talk things through with the Iron Blood and resolve things peacefully...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "大家保持好队形，不要大意。在前线奋战的盟友们还在迫切等待这批物资的到达，船队中的任何损失都会让她们的处境变得更加艰难。",
+			say = "I appreciate the optimism, but I don't think they're coming to chat. In any case, let's all keep our wits about us. The people fighting on the front lines are waiting for our aid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鹰，舰队联络的时间要到了哦~",
+			say = "Indeed. Oh, it's time to check in with the supporting fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207010,
-			say = "了解。通知各方，护航舰队正在按照预定航线继续接近北方联合的摩尔曼斯克港，目前一切正常。",
+			say = "Appreciate it. ...To the Royal Navy HQ, the escort fleet is currently en route to the Northern Parliament as planned. No abnormalities detected in surrounding waters yet. Over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

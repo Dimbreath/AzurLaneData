@@ -5596,6 +5596,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[465] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 129,
+		group_type = 20133,
+		code = 465,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Aurora Noctis",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[101] = {
 		type = 1,
 		trans_skin = 201219,
@@ -6651,6 +6682,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[463] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 155,
+		group_type = 20227,
+		code = 463,
+		property_hexagon = {
+			"B",
+			"D",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Aurora Noctis",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[371] = {
 		type = 2,
 		trans_skin = 0,
@@ -7631,6 +7693,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[464] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 176,
+		group_type = 20510,
+		code = 464,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Aurora Noctis",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[132] = {
 		type = 5,
 		trans_skin = 0,
@@ -7866,6 +7959,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[461] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 182,
+		group_type = 20509,
+		code = 461,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Aurora Noctis",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[140] = {
 		type = 6,
 		trans_skin = 206019,
@@ -8027,6 +8151,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[462] = {
+		type = 6,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 186,
+		group_type = 20606,
+		code = 462,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Aurora Noctis",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[356] = {
 		type = 6,
 		trans_skin = 0,
@@ -8057,6 +8212,37 @@ pg.ship_data_group = {
 						projectName = "special",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[143] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 188,
+		group_type = 20701,
+		code = 143,
+		property_hexagon = {
+			"D",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Aurora Noctis",
+				{
+					""
 				},
 				0
 			}
@@ -16390,6 +16576,7 @@ pg.ship_data_group = {
 		92,
 		93,
 		94,
+		465,
 		101,
 		102,
 		306,
@@ -16414,6 +16601,7 @@ pg.ship_data_group = {
 		335,
 		421,
 		107,
+		463,
 		371,
 		408,
 		327,
@@ -16434,15 +16622,19 @@ pg.ship_data_group = {
 		129,
 		130,
 		131,
+		464,
 		132,
 		133,
 		134,
 		135,
 		136,
+		461,
 		140,
 		142,
 		376,
+		462,
 		356,
+		143,
 		144,
 		145,
 		146,

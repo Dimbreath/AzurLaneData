@@ -13,7 +13,7 @@ return {
 			bgm = "xinnong-4",
 			actor = 201330,
 			nameColor = "#a9f548",
-			say = "再次装填完毕，全弹发射！",
+			say = "All weapons reloaded! All-out assault, open fire!",
 			flashN = {
 				color = {
 					1,
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦…就是这股气势！伊卡洛斯，干得好！",
+			say = "Haha! Well done, Icarus! That's how it's done!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "很好，果然很有效果。看来侵扰者的机动能力并不强，是因为搭载了过多精密设备的原因么...",
+			say = "That seems to have worked well! Apparently, this Obstructor's defenses and maneuverability are not so high.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱丁堡，指挥官还在报告里说过什么消灭极地塞壬的诀窍么？",
+			say = "Edinburgh, is there anything else we need to know from that Iceberg Stronghold report?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个...哎？！我想想…想想……",
+			say = "Huh?! Let me think... Uhh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "…果然还是那个爱丁堡。",
+			say = "That's the good ol' Edinburgh we know and love...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…！",
+			say = "You meanie!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "哈哈，别在意。解决掉麻烦的侵扰者以后，剩下的不过是火力标靶而已…嗯？伊卡洛斯，怎么了吗？",
+			say = "Sorry, I didn't mean to put you on the spot. ...Hm, Icarus, what's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "唔…总感觉有一些奇怪的地方，可能只是我想多了…",
+			say = "Um, it's nothing! I'm probably just overthinking things again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都是抗命的同伴了，有什么想说的话尽管说出来！",
+			say = "Never second-guess your intuition! Speak your mind, quickly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "这批塞壬能突破北方联合的封锁线，一定是集中了非常强大的火力吧...",
+			say = "Um, yes! I was just thinking... wasn't their firepower a bit too weak for Sirens that supposedly managed to break through the Northern Parliament's defensive line?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "可是现在，除了数量多一些，侵扰者稍微麻烦一点之外，总感觉少了什么……",
+			say = "Certainly, their overall specs are a bit higher than normal, and there were some more troublesome enemies like Obstructor, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "唔…被你这么一说，倒确实是——",
+			say = "That is true, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,8 +261,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "通讯器",
-			say = "——终于发现了么，一群迟钝的家伙，我都快等的不耐烦了！",
+			actorName = "Communicator",
+			say = "—Took you absolute ignoramuses long enough. I was starting to get bored!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "畏惧吧，颤栗吧，感受从幽暗之中渗入骨髓的恐惧吧！",
+			say = "Tremble!! Despair!! Cower before the face of true terror, the gaping maw of the abyss!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			actor = 201330,
 			nameColor = "#a9f548",
-			say = "被严重干扰的通讯器突然发出声音了？！",
+			say = "A voice came from the communication device?",
 			effects = {
 				{
 					active = false,
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呼呼…成了！果然这样的登场不论用多少次都是一样帅啊~！",
+			say = "...Damn straight. After my lengthy imprisonment, my revival must be legendary!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！我想起来了！这个就是报告中指挥官提过的，在冰雪要塞作战中遇到的通讯频道污染！",
+			say = "I remember now! There was something written in that report about unsolicited communication coming from some channel!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,10 +352,10 @@ return {
 		},
 		{
 			nameColor = "#ff5c5c",
-			actorName = "通讯器",
+			actorName = "Communicator",
 			dir = 1,
 			side = 2,
-			say = "喂喂喂喂喂，通讯频道污染是什么意思！？不要看不起人啊！",
+			say = "Unsolicited...?! Why, you cheeky bastard!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -376,7 +376,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "哼，你就是这批塞壬舰队的指挥官？",
+			say = "So you're the one who's leading these Sirens?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不错！擅自入侵吾之领地之人，就永远的冻结在这片冰海之中吧！",
+			say = "That's right! Those foolish enough to intrude upon my domain will meet an eternal, icy demise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巴伦之海的入侵者…你打算把自己冻结在冰海之中么？",
+			say = "What?! You're going to freeze over this entire sea...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,10 +418,10 @@ return {
 		},
 		{
 			nameColor = "#ff5c5c",
-			actorName = "通讯器",
+			actorName = "Communicator",
 			dir = 1,
 			side = 2,
-			say = "什么？！算了…今天特意为你们准备了很多新玩具，一会儿看你们还能嘴硬多久！",
+			say = "Ahahaha! You're a funny one! But I've brought a bunch of new toys with me today, so sit back and enjoy your final moments!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -437,7 +437,7 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -457,7 +457,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "通讯器里的声音消失了…",
+			say = "Th-the voice went away...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "可惜，牙买加被分配到护航舰队里了，不然感觉她们还可能交流一下…",
+			say = "Unfortunately, Jamaica's with the escort fleet. She would've been a good interpreter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "光凭刚才那令人火大的说话口气，就已经足够罪无可恕了！",
+			say = "Acting all high and mighty while blathering about nonsense like that... She's giving charisma a bad name! Unforgivable!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "大家都打起精神来，一会儿好好教教这个“清除者”什么叫做社交礼仪！",
+			say = "Everyone, we're going to go instruct her on etiquette! Violently!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

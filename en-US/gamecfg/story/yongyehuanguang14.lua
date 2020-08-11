@@ -15,7 +15,7 @@ return {
 			bgm = "bgm-cccp2",
 			actor = 401360,
 			nameColor = "#ff5c5c",
-			say = "呃…希佩尔,被她们给跑了…",
+			say = "Sorry, Hipper, Vampire and the others got away...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			actor = 403010,
 			nameColor = "#ff5c5c",
-			say = "啊啊啊啊！这些舰载机太烦人了！",
+			say = "Don't worry, it's not your fault. There's only so much you can do with all those planes circling over us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "气死我了，看来这些皇家舰队也不是只知道逃跑嘛，很好，这样才有作为猎物的价值！",
+			say = "They might be a pain to deal with, but they'll just make better for prey this way. I already told you that before, didn't I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			actor = 201230,
 			nameColor = "#a9f548",
-			say = "呼~动力受损的希佩尔应该一段时间动弹不得了，暂时脱离险境~",
+			say = "Thanks for holding Hipper back. We should be safe for a while.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…有点奇怪。铁血主力舰队前进的速度好快，已经快要和希佩尔汇合了...",
+			say = "I don't think so. The Iron Blood's main fleet has already joined up with Hipper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			actor = 201230,
 			nameColor = "#a9f548",
-			say = "什么！？战列舰编队怎么可能跑得这么快...？！",
+			say = "How are their battleships moving that fast?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "英仙座，侦查准确无误么？确定提尔比茨等铁血主力舰都在跟随舰队移动？",
+			say = "Perseus, are you absolutely certain that the Iron Blood's main fleet has joined up with Admiral Hipper?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			actor = 206060,
 			nameColor = "#a9f548",
-			say = "嗯，绝对没错。",
+			say = "What do you mean...? I'm sure I saw a ship in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "使用侦察机对她们进行攻击看看？只要试探性攻击一下就好。",
+			say = "It might just be my imagination, but could you send your recon planes a bit closer to the Iron Blood fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			actor = 206060,
 			nameColor = "#a9f548",
-			say = "…我觉得几艘侦察机不可能对主力舰造成有效的损害。不过既然你这么说的话，稍等一下——",
+			say = "I don't mind, but that runs the risk of it getting shot down... Wait, what's this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_hms_7",
 			actor = 206060,
 			nameColor = "#a9f548",
-			say = "唔…？提尔比茨对于侦察机的攻击没有任何回应，位于两侧的沙恩霍斯特和格奈森瑙也是一样。",
+			say = "Tirpitz and Scharnhorst's anti-air guns aren't responding...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "判断侦察机没有任何威胁能力所以直接无视了…么？真是自信呢。",
+			say = "Do they not feel like wasting ammo on a single recon plane? No, this has to be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			actor = 202080,
 			nameColor = "#a9f548",
-			say = "对于攻击没有回应、高速的移动的主力舰队……难道说…！",
+			say = "I knew it. The \"main fleet\" is actually a bunch of dummies.",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吸血鬼，英仙座，我们可能被骗了！铁血主力舰队也许是假的！立刻调整舰队阵型准备正面迎敌！",
+			say = "Vampire, Perseus, let's turn around and take out the enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_7",
 			dir = 1,
-			say = "话音刚落，谢菲尔德便急迫地掉头，向着铁血主力舰队的方向冲了过去。",
+			say = "The evidence was clear. A speed that was inconsistent with that of a battleship. Anti-air weapons that didn't react... In other words, \"Tirpitz is not here.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "假的！？喂，把话说清楚一点谢菲尔德…！",
+			say = "Gosh, we almost got tricked by their decoy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…像尾巴着火的兔子一样跑走了......",
+			say = "It's only natural that we'd be wary of a main fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

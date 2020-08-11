@@ -12,7 +12,7 @@ return {
 			bgm = "bgm-royalnavy",
 			actor = 206060,
 			nameColor = "#a9f548",
-			say = "这是…一支由巡洋舰和驱逐舰组成的前锋舰队，正在希佩尔的带领下脱离铁血主力舰队向我们高速驶来…！",
+			say = "Admiral Hipper's group has broken off from the main fleet and is rapidly approaching us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啧，这下我们的速度优势也没了，看来不打算这么轻易地放我们走啊…",
+			say = "They won't even let us stall for time, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是自大…这种程度的舰队就想解决我们吗？",
+			say = "However, they've now split up their forces. Even if we are unable to take on the entire main force, we should be more than capable of taking on a force of destroyers and cruisers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "…作战方针不变，舰队边战边退，将铁血舰队往我们主力舰队的方向诱导——",
+			say = "Sheffield is right. I'll try to head toward Howe's position as I fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "几只脱离了集团的鬣狗而已…让我们轻松解决吧。",
+			say = "Hopefully that's the only trick they have up their sleeves... Phew...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

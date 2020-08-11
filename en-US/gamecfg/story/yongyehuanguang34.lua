@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "炮击、雷击、干扰攻击，清除者的战斗策略与报告记录中基本一致，除了——",
+			say = "The fierce confrontation against Omitter raged on. Her torpedoes, cannon barrages, and electronic interference were just as the report had described. However...",
 			side = 2,
 			dir = 1,
 			bgm = "xinnong-2",
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "量产型战列舰的装甲会被直接融化，巡洋和驱逐则会被直接切开么.....",
+			say = "A beam weapon...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "好惊人的威力......这光束…不是开玩笑的呀！",
+			say = "Woah... It's so colourful...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "还真是稍微有点小看它了......英勇，刚刚光束好像擦着你过去了，还好么？",
+			say = "We underestimated her... Valiant, are you still alive over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "擦伤，副炮塔少了几座而已。伊卡洛斯、爱丁堡，立刻带领量产型舰队后撤，这威力哪怕是擦伤也够你们受的了。",
+			say = "Somehow... Taking a hit from her head-on hurts like hell though! Icarus, Edinburgh, and those of you with light armor, stand back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,8 +90,8 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 201330,
-			actorName = "爱丁堡&伊卡洛斯",
-			say = "是\n 是！",
+			actorName = "Edinburgh & Icarus",
+			say = "Understood!",
 			subActors = {
 				{
 					actor = 202110,
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "然后就是…尽快想出一个对付这东西的策略来…",
+			say = "(How is there an enemy this strong...?! She hits even harder than Warspite...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "英勇，放弃远程作战策略吧。在那个巨口面前，想依靠远程火力优势解决战斗已经不可能了。",
+			say = "Just exchanging shells with her is already difficult enough. I've got to find some way of disabling that beam weapon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "放弃远程…等等，你是指...近身战？！",
+			say = "Disabling her beam weapon... Howe, you don't mean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "哈哈，没错！直接贴身解决掉那烦人的“主炮”吧！",
+			say = "Yes, we've got to destroy that main cannon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "怎么样，英勇，能跟上来吗？",
+			say = "Can you keep up with me, Valiant?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你以为我是谁？我可是伊丽莎白女王级的英勇，本次作战行动的前线指挥！",
+			say = "Hmph! Who do you take me for? The charismatic Valiant only leads, never follows!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "在这种时候挺身而出，正是作为指挥舰队之人应尽的义务吧！",
+			say = "Hear me, main fleet of the Royal Navy's convoy operation! Follow my lead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "很好！终于有机会试试乔治五世姐姐传授的剑术了…我们上！",
+			say = "Upon this sword I swear, glory to Her Majesty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

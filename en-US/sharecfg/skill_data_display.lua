@@ -676,6 +676,22 @@ pg.skill_data_display = {
 		id = 8705,
 		name = "Exhaustion"
 	},
+	[8709] = {
+		id = 8709,
+		name = "Silent Hunter"
+	},
+	[8711] = {
+		id = 8711,
+		name = "Unbreakable Shield"
+	},
+	[8714] = {
+		id = 8714,
+		name = "Sea-Sundering Destructive Light"
+	},
+	[8718] = {
+		id = 8718,
+		name = "All-Eclipsing Beam of Annihilation"
+	},
 	[9010] = {
 		id = 9010,
 		name = "Eastern Bonds"
@@ -2764,6 +2780,102 @@ pg.skill_data_display = {
 		id = 13401,
 		name = "Radar Scan Plus"
 	},
+	[13410] = {
+		id = 13410,
+		name = "Acoustic Preload"
+	},
+	[13411] = {
+		id = 13411,
+		name = "Acoustic Preload"
+	},
+	[13421] = {
+		id = 13421,
+		name = "Athena's Catapult "
+	},
+	[13422] = {
+		id = 13422,
+		name = "Athena's Catapult "
+	},
+	[13423] = {
+		id = 13423,
+		name = "Athena's Catapult "
+	},
+	[13430] = {
+		id = 13430,
+		name = "Waters of Styx "
+	},
+	[13431] = {
+		id = 13431,
+		name = "Waters of Styx "
+	},
+	[13440] = {
+		id = 13440,
+		name = "Synchronized Strike "
+	},
+	[13450] = {
+		id = 13450,
+		name = "Covenant of the Immortal Knights "
+	},
+	[13451] = {
+		id = 13451,
+		name = "Covenant of the Immortal Knights "
+	},
+	[13460] = {
+		id = 13460,
+		name = "Bombarda Geminio "
+	},
+	[13461] = {
+		id = 13461,
+		name = "Blast Geminio"
+	},
+	[13470] = {
+		id = 13470,
+		name = "Supporting Role "
+	},
+	[13471] = {
+		id = 13471,
+		name = "Supporting Role "
+	},
+	[13480] = {
+		id = 13480,
+		name = "All Out Assault, Open Fire! "
+	},
+	[13490] = {
+		id = 13490,
+		name = "Torpedo Mode? ...Sure! "
+	},
+	[13495] = {
+		id = 13495,
+		name = "Torpedo Mode? ...Sure! "
+	},
+	[13500] = {
+		id = 13500,
+		name = "Leading the Way "
+	},
+	[13510] = {
+		id = 13510,
+		name = "Forward! "
+	},
+	[13520] = {
+		id = 13520,
+		name = "Royal Arts: Knight's Arsenal "
+	},
+	[13521] = {
+		id = 13521,
+		name = "Royal Arts: Knight's Arsenal "
+	},
+	[13522] = {
+		id = 13522,
+		name = "Royal Arts: Knight's Arsenal "
+	},
+	[13530] = {
+		id = 13530,
+		name = "Royal Arts: Swordbearing Eagle "
+	},
+	[13540] = {
+		id = 13540,
+		name = "Waters of Styx "
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -3598,11 +3710,11 @@ pg.skill_data_display = {
 	},
 	[22254] = {
 		id = 22254,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22255] = {
 		id = 22255,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22261] = {
 		id = 22261,
@@ -3686,11 +3798,11 @@ pg.skill_data_display = {
 	},
 	[23321] = {
 		id = 23321,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23322] = {
 		id = 23322,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23411] = {
 		id = 23411,
@@ -4714,6 +4826,10 @@ pg.skill_data_display = {
 		8702,
 		8703,
 		8705,
+		8709,
+		8711,
+		8714,
+		8718,
 		9010,
 		9020,
 		9030,
@@ -5236,6 +5352,30 @@ pg.skill_data_display = {
 		13381,
 		13400,
 		13401,
+		13410,
+		13411,
+		13421,
+		13422,
+		13423,
+		13430,
+		13431,
+		13440,
+		13450,
+		13451,
+		13460,
+		13461,
+		13470,
+		13471,
+		13480,
+		13490,
+		13495,
+		13500,
+		13510,
+		13520,
+		13521,
+		13522,
+		13530,
+		13540,
 		18010,
 		18040,
 		18041,

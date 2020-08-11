@@ -57,8 +57,6 @@ function slot3.ConvertSkillTemplate()
 end
 
 function slot3.GetBuffTemplate(slot0, slot1)
-	print(slot0)
-
 	return pg.ConvertedBuff["buff_" .. slot0][slot1 or 1] or slot3[0]
 end
 

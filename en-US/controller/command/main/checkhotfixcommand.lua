@@ -26,6 +26,7 @@ function slot0.execute(slot0, slot1)
 			if UpdateMgr.Inst.currentVersion.Build < slot0.Build then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					modal = true,
+					locked = true,
 					hideNo = true,
 					content = i18n("new_version_tip"),
 					weight = LayerWeightConst.TOP_LAYER,

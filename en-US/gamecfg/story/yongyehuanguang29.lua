@@ -11,7 +11,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			say = "发现塞壬舰队出现在皇家舰队的东北方，与我们一同对皇家舰队构成了夹击之势。",
+			say = "It seems that the Sirens have joined the fight and are assisting us in flanking the Royal Navy.",
 			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "以及，我们的通讯器也突然瘫痪了，这些也都是计划的一环么？",
+			say = "Our radio equipment is barely usable over extremely short distances, but otherwise this feels just like being in a Mirror Sea. Was this a part of your calculus as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "......计划里可没有这些哦。",
+			say = "There's no way I'd do that~ Wouldn't we be playing right into the Sirens' \"Reenactment\" if we tried to use them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "那就是说，就算是我们的通讯系统也还是扛不住塞壬的干扰么......",
+			say = "So what you're telling me is... You're going to give up already?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "接下来怎么办，和塞壬稍微“配合”一下？",
+			say = "...Well, so be it. Let's quickly get in touch with Admiral Hipper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "........................",
+			say = "...Naturally.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呵，感觉心情突然变差了。任务已经完成了，我们撤退吧。",
+			say = "I've already done what I came here to do. I'll be taking everyone back home soon enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			actor = 401360,
 			nameColor = "#ff5c5c",
-			say = "希佩尔，天上有大量皇家的舰载机朝你飞过来了哦。",
+			say = "Admiral Hipper! A large number of Siren planes are headed your way!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哈？！为什么都突然朝我飞过来了啊！",
+			say = "Damnit, my propulsion system's way too old and busted... There, that should fix it for now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401360,
-			say = "因为你是希佩尔级的首舰，对面把你当成我们的舰队旗舰了吧...",
+			say = "We've got orders to withdraw from Eugen! Hurry it up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哈啊...那还真是多谢！不就是多几架飞机么，有什么好神气的！让舰队摆开防空队形，把它们全打下来！",
+			say = "Huh?! But Deutschland is still out there fighting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "不需要了哦。希佩尔、Z36，我们的作战行动结束，准备撤退。",
+			say = "I understand. I'll try to get in touch with her, but we've finished the operation. Get ready to head back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "...哎？战斗开始到现在，我们还任何战果都没取得啊！",
+			say = "...Huh? We barely just got here, and haven't even gotten anything done! Are you sure that plan is working?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401020,
-			say = "计划之外的塞壬舰队要过来搅局了，我们见好就收。",
+			say = "Yes. The plan is still on track.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "......我明白了。哼，这次算是便宜她们了，我们撤！",
+			say = "Fine. Z36, hurry up and have the mass-produced ships turn around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			actor = 202080,
 			nameColor = "#a9f548",
-			say = "铁血舰队开始撤退了，果然是不想再承担大型舰损伤的风险了吗…",
+			say = "The Iron Blood fleet is retreating. It's only sensible that they'd prioritize the Siren problem first.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔...？战略选择上先不说，战斗中的铁血海军应该不会这么胆小才对，奇怪…",
+			say = "We'd both be out of here if they helped us fight back the Sirens, but what can you expect from those cowards?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "不管原因如何，总算是避免了被两面夹击的最坏情况…",
+			say = "They say that \"yesterday's foe may be today's friend,\" but we seem to still be stuck in yesterday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "铁血舰队想跑就让她们跑吧，我们还有更大的麻烦要应付。",
+			say = "For the time being, let's leave the Iron Blood to their devices and focus on the problem in front of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "塞壬舰队已经很近了，大家小心——",
+			say = "Be careful, everyone, there's something different about these Sirens...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

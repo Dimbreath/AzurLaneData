@@ -1560,6 +1560,21 @@ pg.item_data_template = {
 			0
 		}
 	},
+	[10013] = {
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 10013,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
 	[10014] = {
 		limit = "[]",
 		display_effect = "",
@@ -3113,6 +3128,21 @@ pg.item_data_template = {
 		other_item_cost = "[]",
 		usage_arg = "[]",
 		id = 11002,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
+	[11004] = {
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 11004,
 		compose_number = 0,
 		target_id = 0,
 		open_ui = {
@@ -5701,6 +5731,21 @@ pg.item_data_template = {
 			0
 		}
 	},
+	[30320] = {
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30320",
+		id = 30320,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
 	[40004] = {
 		limit = "[]",
 		display_effect = "OpenBox",
@@ -6384,6 +6429,21 @@ pg.item_data_template = {
 		other_item_cost = "[]",
 		usage_arg = "4967",
 		id = 40967,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
+	[40968] = {
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "4968",
+		id = 40968,
 		compose_number = 0,
 		target_id = 0,
 		open_ui = {
@@ -18110,6 +18170,7 @@ pg.item_data_template = {
 		10009,
 		10010,
 		10011,
+		10013,
 		10014,
 		10015,
 		10016,
@@ -18214,6 +18275,7 @@ pg.item_data_template = {
 		11000,
 		11001,
 		11002,
+		11004,
 		11005,
 		11006,
 		11009,
@@ -18369,6 +18431,7 @@ pg.item_data_template = {
 		30317,
 		30318,
 		30319,
+		30320,
 		40004,
 		40005,
 		40006,
@@ -18415,6 +18478,7 @@ pg.item_data_template = {
 		40965,
 		40966,
 		40967,
+		40968,
 		41201,
 		41202,
 		41203,

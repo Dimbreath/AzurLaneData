@@ -6688,7 +6688,7 @@ pg.ship_strengthen_blueprint = {
 			215
 		},
 		extra_desc = {
-			"Learn Siren Killer Ⅱ",
+			"Learn Siren Killer Ⅲ",
 			"Learn All Out Assault Ⅱ",
 			"Main Gun efficiency 15%"
 		}
@@ -7662,7 +7662,7 @@ pg.ship_strengthen_blueprint = {
 			225
 		},
 		extra_desc = {
-			"Learn Siren Killer Ⅱ",
+			"Learn Siren Killer Ⅲ",
 			"Main Gun efficiency 15%"
 		}
 	},
@@ -8636,7 +8636,7 @@ pg.ship_strengthen_blueprint = {
 			305
 		},
 		extra_desc = {
-			"Learn Siren Killer Ⅱ",
+			"Learn Siren Killer Ⅲ",
 			"Learn All Out Assault Ⅱ",
 			"All weapons' efficiency 5%"
 		}
@@ -9616,7 +9616,7 @@ pg.ship_strengthen_blueprint = {
 			235
 		},
 		extra_desc = {
-			"Learn Siren Killer Ⅱ",
+			"Learn Siren Killer Ⅲ",
 			"Main Gun efficiency 15%"
 		}
 	},
@@ -10436,7 +10436,7 @@ pg.ship_strengthen_blueprint = {
 			215
 		},
 		extra_desc = {
-			"Learn Siren Killer Ⅱ",
+			"Learn Siren Killer Ⅲ",
 			"Main Gun base +1",
 			"Main Gun efficiency 15%"
 		}
@@ -11257,7 +11257,7 @@ pg.ship_strengthen_blueprint = {
 			230
 		},
 		extra_desc = {
-			"Learn Siren Killer Ⅱ",
+			"Learn Siren Killer Ⅲ",
 			"Main Gun efficiency 15%"
 		}
 	},
@@ -12235,7 +12235,7 @@ pg.ship_strengthen_blueprint = {
 			215
 		},
 		extra_desc = {
-			"Learn Siren Killer Ⅱ",
+			"Learn Siren Killer Ⅲ",
 			"Learn All Out Assault Ⅱ",
 			"All weapons' efficiency +5%"
 		}
@@ -13065,7 +13065,7 @@ pg.ship_strengthen_blueprint = {
 			190
 		},
 		extra_desc = {
-			"Learn Siren Killer Ⅱ",
+			"Learn Siren Killer Ⅲ",
 			"Learn All Out Assault Ⅱ",
 			"Main Gun efficiency 15%"
 		}
@@ -13887,7 +13887,7 @@ pg.ship_strengthen_blueprint = {
 			250
 		},
 		extra_desc = {
-			"Learn Siren Killer Ⅱ",
+			"Learn Siren Killer Ⅲ",
 			"Learn All Out Assault Ⅱ",
 			"Main Gun efficiency 15%"
 		}
@@ -14707,7 +14707,7 @@ pg.ship_strengthen_blueprint = {
 			235
 		},
 		extra_desc = {
-			"Learn Siren Killer Ⅱ",
+			"Learn Siren Killer Ⅲ",
 			"Main Gun base +1",
 			"Main Gun efficiency 15%"
 		}
@@ -15531,7 +15531,7 @@ pg.ship_strengthen_blueprint = {
 			250
 		},
 		extra_desc = {
-			"Learn Siren Killer Ⅱ",
+			"Learn Siren Killer Ⅲ",
 			"Main Gun efficiency 15%"
 		}
 	},

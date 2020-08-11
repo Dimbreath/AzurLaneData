@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-richang",
-			say = "皇家·斯卡帕湾锚地·某设施 稍早前",
+			say = "Royal Islands",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本土舰队能像今天这样倾巢出动实在是难得，真是冷清啊。",
+			say = "There are few things more glorious than watching our prized fleet sail off to battle. Wouldn't you agree, Bel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "希望您的作战计划能够一切顺利，陛下。",
+			say = "Indeed. May your operation bear rich fruit, Your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，铁血舰队一定会上钩的，一定！好了，贝法你就看在这里，别放任何人过去。",
+			say = "There's no way the Iron Blood wouldn't take the bait! ...Anyway, Belfast, I'll trust you to hold this point. Don't let anyone through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，如果谢菲尔德那边有消息了也及时通知我哦。",
+			say = "Also, please notify me if there are any updates from Sheffield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "遵命。陛下。",
+			say = "Yes, Your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgm = "bsm-2",
 			actor = 202080,
 			nameColor = "#a9f548",
-			say = "斯卡帕湾......是么？",
+			say = "You'll be waiting for me at Scapa Flow?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -158,7 +158,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！返航的时候，你就带着与北方协议中约定好的那些东西，还有指挥官，直接去斯卡帕湾锚地，我会在那里等你们的！",
+			say = "That's right! After you get back from the Northern Parliament, I want you to bring the commander to Scapa Flow, along with \"that.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了。",
+			say = "As you will.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "“留存于水面下的往昔，浮现在假设中的虚妄”，啧，铁血已经成功了一半了么…",
+			say = "(\"The remnants of the past swallowed by the waves, the hypothesis born from falsehood\" ...Has the Iron Blood been a step ahead of us this entire time?)",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -229,7 +229,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "看来这边也得加快速度了…啊啊啊！真是的，那个腓特烈大帝究竟是怎么回事啊！",
+			say = "(I've got to work faster too... What a pain... There's no telling what the Vichya... No, that Iron Blood battleship...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "早在心智魔方出现之前，腓特烈大帝号的船体就已经随着与塞壬对抗的“第十一节”行动，伴随着无数铁血军舰和皇家军舰一起沉没在斯卡帕湾水底了才对。",
+			say = "(She shouldn't exist in that form. Her hull, her fate... should've ended here at Scapa Flow, along with all those other Iron Blood and Royal Navy ships.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "难道说是塞壬亲自…呵，这么想下来。现在的腓特烈大帝究竟算“水下的往昔”还是“假设的虚妄”呢…",
+			say = "(If so... what does she now represent that gives her such a form? Is it an edification of a lost past... or the future of an untested hypothesis...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
-			say = "轰---------！",
+			say = "KABOOM——!!",
 			flashN = {
 				color = {
 					1,
@@ -332,7 +332,7 @@ return {
 			bgm = "bsm-3",
 			actor = 202120,
 			nameColor = "#a9f548",
-			say = "陛下，斯卡帕湾周边突然出现了大量铁血军舰，正在对锚地发动攻击！",
+			say = "Your Majesty, it's an ambush from the Iron Blood's main fleet! Please evacuate at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "铁血的大量军舰…？她们不是正往巴伦支海去么，怎么会突然出现在这里！",
+			say = "The Iron Blood's main fleet?! Here? Not at the Barents Sea?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			blackBg = true,
 			actor = 202120,
 			nameColor = "#a9f548",
-			say = "看来…铁血不知道通过什么方式欺骗了我们的侦察机。陛下，请您尽快撤离。",
+			say = "Perhaps our communication channel has been compromised. In any case, I don't have much time, so please find somewhere safe right away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#ff5c5c",
-			say = "给我等一下！皇家的伊丽莎白女王，没想到能在这里遇到你啊，哈哈哈哈哈哈！",
+			say = "Where do you think you're going, shorty queen?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -414,7 +414,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "真是出乎意料的惊喜！你们用斯卡帕湾封锁了铁血这么久，今天终于被我们抓到机会了吧！",
+			say = "At long last, we're here! The truth that you've hidden from the Iron Blood for so long... shall now be ours!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "反正这片可恶的斯卡帕湾锚地是肯定要被彻底摧毁了，既然在这里碰上了，就让你们也留在这里一起陪葬吧！",
+			say = "If you don't want to meet your watery grave here, then you'd better run as quickly as you can!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法，敌人的规模清楚了么。",
+			say = "Bel, how many enemies are there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "十分抱歉，陛下，事发突然…还未完全摸清敌方舰队的规模，不过除了德意志之外，至少还有两艘以上铁血战列舰正在对锚地进行轰击。",
+			say = "My apologies, but our command structure is in a state of disarray due to the surprise attack. However, I'd estimate that there are at least two more battleships here—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果真是铁血的主力舰队么…百密一疏…唉，果然还是没法事事尽如人意啊。",
+			say = "(They've really brought their entire fleet here... How is this possible...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，区区铁血的袖珍战列舰，不要在本王面前太嚣张了！",
+			say = "...Hmph. You're just a pocket battleship. Lower your head when addressing the Queen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果在从前你还要站在一旁毕恭毕敬叫我一声女王陛下呢，给我闪开！",
+			say = "If you're not prepared to kneel in my presence, then get out of my sight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果被包围在这里只有死路一条，贝法，跟我打出去！",
+			say = "...Bel, we're breaking through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			blackBg = true,
 			actor = 202120,
 			nameColor = "#a9f548",
-			say = "如您所愿，陛下。",
+			say = "Understood, Your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

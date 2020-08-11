@@ -14,7 +14,7 @@ return {
 			bgm = "bgm-cccp2",
 			actor = 202270,
 			nameColor = "#a9f548",
-			say = "...司令部首先发来联络了，发信人是…伊丽莎白女王陛下？！",
+			say = "We're receiving communications from the Naval HQ. It's from... Her Majesty?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,8 +31,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 205010,
-			actorName = "伊丽莎白？",
-			say = "电告，包括战列舰提尔比茨号、沙恩霍斯特号、格奈森瑙号、德意志号、斯佩伯爵号在内的铁血主力舰队已经完成集结，现在正在向巴伦支海的方向逼近。",
+			actorName = "Queen Elizabeth？",
+			say = "Notifying all fleets! Tirpitz and the Scharnhorst sisters are... Anyway, the Iron Blood's main fleet is heading towards the Barents Sea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,8 +49,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 205010,
-			actorName = "伊丽莎白？",
-			say = "所有舰船立刻掉头向西方前进，准备迎击铁血主力舰队。",
+			actorName = "Queen Elizabeth？",
+			say = "Have all ships turn around right now and intercept their fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "三艘战列舰两艘袖珍战列舰，铁血主力舰队果然上钩了！",
+			say = "They're bringing all those battleships out here? Great, that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			actor = 207010,
 			nameColor = "#a9f548",
-			say = "不对......哎？我是不是听错了，陛下刚刚说什么...？",
+			say = "...shouldn't be right... Huh? Can you repeat that again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			actor = 202270,
 			nameColor = "#a9f548",
-			say = "命令说...要我们立刻掉头与支援舰队汇合，准备迎击铁血主力舰队......",
+			say = "Sure. The message ordered us to turn around and intercept their fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			actor = 207010,
 			nameColor = "#a9f548",
-			say = "按照皇家海军的传统，一旦发现敌方舰队集结我方舰队确实应该主动迎击，不过...哎？现在我们可是在护航中啊！",
+			say = "It's true that the Royal Navy doctrine encourages us to proactively take the fight to the enemy if they seek to assemble their forces against us... but even when we're on a transport mission?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果我们就这么走了，运输船队要怎么办...？",
+			say = "If we turned around and left, what would the transport fleet do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			actor = 202270,
 			nameColor = "#a9f548",
-			say = "现在离开将会是抛弃整个运输船队和北方联合的背叛行为，陛下怎么会下出这样的命令来...！",
+			say = "That's right... And if the Northern Parliament and Eagle Union get attacked, they'll be in big trouble...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			actor = 207010,
 			nameColor = "#a9f548",
-			say = "也许真的发生了情报泄露，也许局势发生了某些预料之外的变化…立刻向司令部回复核实刚刚的命令！",
+			say = "I don't think Her Majesty would choose this place for a decisive confrontation with the Iron Blood. Surely there's some kind of mistake...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			actor = 202270,
 			nameColor = "#a9f548",
-			say = "是！",
+			say = "I'll double-check!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			nameColor = "#ff5c5c",
-			say = "U-73按照计划撤退了，天上的飞机也返航了，这下皇家的运输舰队就暂时安全了哦~",
+			say = "U-73 retreated, and so did the air squadron. Now, the Royal Navy fleet is safe for the time being~",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -233,7 +233,7 @@ return {
 			bgName = "star_level_bg_134",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "接下来就是等欧根所说的时机出现么......",
+			say = "They're still maintaining their defenses... The escort fleet is staying vigilant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "star_level_bg_134",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "目前我可没看到有什么变化啊~护航编队怎么可能作出抛弃运输船队独自返航的事，欧根今天又在说什么梦话...",
+			say = "Well, what'd you expect from such an optimistic plan? It's not like an escort fleet would randomly abandon the convoy. Like, what the heck is that lush thinking anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "star_level_bg_134",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "随她去吧...既然欧根特意这么说了，我们就先耐心等等。",
+			say = "Who, Eugen? Didn't she tell us to wait patiently for an opening?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "star_level_bg_134",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "原本也是临时改变的部署，如果护航编队没有变化的话，我们再按最开始定好的计划展开围猎就行。",
+			say = "If we wait a bit longer, maybe the escort fleet will decide to leave... Even if they don't, we'll still have our chance soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			blackBg = true,
 			actor = 408070,
 			nameColor = "#ff5c5c",
-			say = "好嘛好嘛~作为潜艇，最不缺的可就是耐心了哦，嘻嘻~",
+			say = "Sure, sure. I've got time to kill anyway~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

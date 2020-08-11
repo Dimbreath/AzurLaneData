@@ -13,7 +13,7 @@ return {
 			bgm = "battle-boss-5",
 			actor = 408060,
 			nameColor = "#ff5c5c",
-			say = "呜…U-81，我的大鱼刚刚被深水炸弹击中了！",
+			say = "What?! Great Shark just took a direct hit from a depth charge?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408050,
-			say = "鱼雷也都打光了…对面的护航阵型密不透风呀…",
+			say = "I'm running of torpedoes on my end as well! They're not giving us an opening at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408070,
-			say = "唔...量产型舰队也快顶不住了，差不多该考虑撤退了吧？",
+			say = "All righty, looks like our mass-produced fleet is done for as well. How about we wrap things up over here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "最终战果只有4艘么…算了~见好就收，大家分散撤退，注意安全！",
+			say = "I enjoyed the game of tag, but too bad there's nothing to show for it~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgm = "bgm-royalnavy",
 			actor = 202270,
 			nameColor = "#a9f548",
-			say = "攻击减弱了，潜艇装载的鱼雷有限，打光了开始撤退了么…",
+			say = "Hmm... The Iron Blood submarines left the battlefield as soon as they started running out of torpedoes to launch at us...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这波攻击真够猛的......极地航线还是一如既往的危险刺激啊。",
+			say = "What a long and fierce battle... No wonder why Her Majesty wants to eliminate the Iron Blood presence from these waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 202270,
 			nameColor = "#a9f548",
-			say = "呼…不过我觉得这次袭击之后就真的结束了哦，铁血应该不可能水面下埋伏更大规模的狼群了。",
+			say = "If only we were able to achieve that result...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 207010,
 			nameColor = "#a9f548",
-			say = "好！终于把对面的飞机都解决了！我们的最终损失呢？",
+			say = "Hopefully we won't have to deal with any more of these air raids. What's the damage report?",
 			flashN = {
 				color = {
 					1,
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			actor = 202270,
 			nameColor = "#a9f548",
-			say = "极地船团的36艘运输船中，有4艘沉没，3艘失去动力，另有数艘受到轻微受损…",
+			say = "Some of our mass-produced ships have been damaged, but the transport fleet is unharmed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			actor = 207010,
 			nameColor = "#a9f548",
-			say = "还是损失了10%么…可恶！",
+			say = "Good. From this engagement, it is clear that the Iron Blood at least does not want to sabotage the war effort against the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 202270,
 			nameColor = "#a9f548",
-			say = "对手到底还是长期游弋在大洋中的狼群…鹰，别太自责，我们已经尽力了。",
+			say = "It would've been better to just let us pass through then... Ahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉…和司令部的联络呢？",
+			say = "By the way, Hermione, have you heard anything from the Naval HQ yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			actor = 202270,
 			nameColor = "#a9f548",
-			say = "还是不行，我们和司令部以及其他两支舰队的联系已经彻底中断了…",
+			say = "Nay... As a matter of fact, the support fleet and main fleet haven't been responding to my messages either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 202270,
 			nameColor = "#a9f548",
-			say = "大家先去救助需要帮助的运输船，然后整顿编队继续出发吧。",
+			say = "(It doesn't seem like the communication device is malfunctioning though... Are the messages somehow not getting relayed properly...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			blackBg = true,
 			actor = 202270,
 			nameColor = "#a9f548",
-			say = "我们的战斗已经基本结束，只能祝愿其他人也能一切顺利了…",
+			say = "(I can't do anything about it though... so all I can do is continue to press forward!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

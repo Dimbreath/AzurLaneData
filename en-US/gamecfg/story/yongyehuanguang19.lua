@@ -15,7 +15,7 @@ return {
 			bgm = "bgm-cccp2",
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "嘁，虽然已经有了心理准备，但这新型塞壬…实际体验下来比记录中还要棘手。再这么被拖下去就麻烦了…！",
+			say = "I thought I had a good grasp of the situation from looking over the data, but this new type of Siren... is far more troublesome than I anticipated!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			actor = 205090,
 			nameColor = "#a9f548",
-			say = "英勇，这批塞壬的数量和质量不是护航舰队能应付的。",
+			say = "The escort fleet wouldn't be able to handle enemies like these if the transport fleet gets attacked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果我们不彻底解决的话，之后的护航船团就危险了。",
+			say = "We can't afford to waste any more time here and group up with the transport fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 201330,
 			nameColor = "#a9f548",
-			say = "可是支援舰队还在进行诱导作战，如果我们不快点赶过去的话……她们就危险了！",
+			say = "But, the support fleet is still drawing the attention of the Iron Blood! If we don't go help out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜....不能看着护航舰队撞上塞壬，也不能放着支援舰队不管…",
+			say = "We can't just abandon our escort fleet, but the support fleet needs our help too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "立刻联系司令部报告现在的情况！如果放弃歼灭铁血主力舰队的作战，支援舰队还有向本土方向撤退的选项。",
+			say = "Get in contact with the Naval HQ! Worst case scenario, the support fleet still has the option to retreat to the Royal Islands!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样的话就会换成我们被铁血舰队和塞壬舰队夹击了哦？",
+			say = "But then, the Iron Blood fleet would turn around and pincer us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "到那时候，就由我们就把它们全部都解决掉！",
+			say = "If that's what they want, then we'll give it to them! They shall know that Valiant loses to no foe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,12 +151,12 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			side = 2,
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "————————",
+			say = "———————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			actor = 202110,
 			nameColor = "#a9f548",
-			say = "不、不行..通讯器没有反应！",
+			say = "I'm trying to send the message, but I'm not getting a response...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "通讯器怎么老是在关键时候失灵啊！是刚才的塞壬干的好事么...气死我了！",
+			say = "This must be the doing of those accursed Sirens! We don't even know if the message got through to HQ... Damn, what do we do now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 201330,
 			nameColor = "#a9f548",
-			say = "呜…和大家联系不上就不能让她们撤退了，接下来应该怎么办啊…",
+			say = "Th-then, our only option is to go all-out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…时间紧迫，英勇，你和我是这次行动的负责人，一起来下个决断吧。",
+			say = "Valiant, your decision?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "…呼...再分析一下现状吧。",
+			say = "Hmph! I won't be made a fool of in front of Elizabeth! Let's review our options.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "原本，这次的任务就是支援北方联合的船团护航任务，对铁血舰队的作战只是附加选项…",
+			say = "Anyway, our primary objective is to protect the transport fleet so that it can deliver its cargo to the Northern Parliament — that's right, we don't need to defeat the Iron Blood, only repel them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "如果我们掉头离开，船团就会遭遇到塞壬的直接攻击，然后…",
+			say = "The support fleet might be in trouble, but with their speed, they should be able to avoid the worst. The same can't be said for the slow-moving convoy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			actor = 205090,
 			nameColor = "#a9f548",
-			say = "嗯，恐怕一艘都不会幸存下来。极地塞壬的实力，刚刚我们已经亲身体会过了。",
+			say = "Indeed. If the Sirens were to attack, the transport fleet would be fine, but all our cargo would be lost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "如果支援物资不能到达北方联合，极地防线恐怕很快就会崩溃瓦解吧......",
+			say = "Right, and given the dire situation the commander and the Northern Parliament are in, that is an unacceptable outcome.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			actor = 205090,
 			nameColor = "#a9f548",
-			say = "到那时，极地和NY海域的塞壬会连成一片，将皇家将变成大洋上的孤岛。",
+			say = "The effects of not aiding the Northern Parliament are dire as well. If the Sirens expand outwards from the Arctic Circle, they'll threaten the Royal Islands and the Eagle Union as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "所以说......我们现在掉头的话，是对船团和北方联合的不负责任，也是对于整个战局的不负责任…",
+			say = "...If we cannot accomplish our mission, this entire front will collapse... Damn it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们正在对抗共同的敌人，而且我们需要相互帮助才能取得最终的胜利。",
+			say = "Valiant...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "嗯.........我决定了，主力舰队不返航。",
+			say = "I've made up my mind. The main fleet will stay its course. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "我们留在这里继续战斗。如果塞壬靠近就消灭塞壬，如果铁血靠近就解决铁血。消灭一切敌人......不惜代价保护极地船团的安全！",
+			say = "We will stop the Sirens here, and protect the transport fleet.",
 			effects = {
 				{
 					active = true,
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			actor = 201330,
 			nameColor = "#a9f548",
-			say = "那…支援舰队那边怎么办？",
+			say = "Then... what about everyone in the support fleet?",
 			effects = {
 				{
 					active = false,
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "…继续检查通讯设备，一旦通讯恢复，立刻让她们向本土方向撤退！",
+			say = "We'll have them retreat to the Royal Islands. Next, we'll try to contact the Iron Blood and hope they understand that the Crimson Axis and Azur Lane shouldn't fight in front of the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…这下要违背陛下的命令了呢。",
+			say = "Hopefully they can be convinced to back off...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "时局难测，既然已经是这种状况了，决定了就行动起来！回头再思考怎么跟陛下汇报吧！",
+			say = "Agreed! That is the most sensible option at the moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			blackBg = true,
 			actor = 205100,
 			nameColor = "#a9f548",
-			say = "责任什么的，我来担着就是了！塞壬舰队又靠过来了，要拼劲全力迎战了哦！",
+			say = "There is no situation that I, Valiant, cannot resolve! First, let us put a halt to the Sirens' advance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

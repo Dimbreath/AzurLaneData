@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "巴伦支海·皇家支援舰队 稍早前",
+			say = "Barents Sea - Royal Navy Supporting Fleet",
 			side = 2,
 			dir = 1,
 			bgm = "bgm-cccp2",
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吸血鬼，你好像经历过很多以前的作战吧？可以跟我说说当时的事么…？",
+			say = "The previous Great War, huh? Vampire, you already know what that was like, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼~算你问对人了~就对抗塞壬的经验来说，人家可以算是大大大前辈~",
+			say = "Of course. I have more experience fighting the Sirens than any of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那时候啊，无论是铁血还是皇家，还是其他各个阵营，大家都一同在碧蓝航线的旗帜下并肩对抗塞壬哦！",
+			say = "Back then, the Iron Blood and Royal Navy both fought the Sirens together as a part of Azur Lane.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "嗯…现在来看，还真是难以想象……",
+			say = "But now, we're traversing through this endless darkness to try to eliminate them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_2",
 			dir = 1,
-			say = "突然，在空中出现的极光点亮了永夜，也照亮了皇家支援舰队前进的方向。",
+			say = "Suddenly, a dazzling array of light wove through the sky, illuminating the position of the Royal Navy's supporting fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_2",
 			dir = 1,
-			say = "飘动的光带伴随着整片星空映射在波光粼粼的海面上,如同沐浴在星海仙境之中。",
+			say = "The shimmering expanse mapped the starry sky onto the water's surface, bathing Perseus and the others in a scene of fairytale-like beauty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,12 +109,12 @@ return {
 			}
 		},
 		{
-			actorName = "英仙座",
+			actorName = "Perseus",
 			side = 2,
 			bgName = "bg_hms_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……！？",
+			say = "My goodness...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,12 +125,12 @@ return {
 			}
 		},
 		{
-			actorName = "吸血鬼",
+			actorName = "Vampire",
 			side = 1,
 			bgName = "bg_hms_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嚯…这还真是…",
+			say = "This is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actorName = "英仙座",
+			actorName = "Perseus",
 			side = 2,
 			bgName = "bg_hms_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "夜空…像被光之炸弹轰炸过一样…令人震撼……",
+			say = "...It's like a painting coming to life...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……出现了，英仙座的奇妙比喻！不过令人震撼这点，我倒是很同意呢~",
+			say = "Usually the paintings try to capture this kind of beauty, but your point is well taken.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "极光也提高了可见度。不要因为欣赏风景而放松警惕，危险可能就潜藏在周围。",
+			say = "Do note, however, that we have an increased probability to be detected and attacked because of the increased visibility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉…第一反应竟然是这个？",
+			say = "Do people have no sense of romance these days...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…英仙座，现在这样的极光属于正常现象么？",
+			say = "First of all, it is abnormal and unscientific for such a large-scale aurora to suddenly appear out of nowhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "极圈附近的极光形态很多…既然是极夜期间，偶尔也会出现像现在这样明亮又持久的极光吧。",
+			say = "Natural phenomena like this do appear in the Polar North, though it is strange that we didn't see any signs of an aurora given the visibility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算是合理的自然现象吗…大概是我多虑了。",
+			say = "That is reasonable, and I may be overthinking things, but please be very careful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢菲尔德，作为女仆不是应该多关注些战斗外的东西嘛，一直那么紧绷着神经可是会出问题的哦？",
+			say = "Sheffield, all that worrying cannot possibly be good for your health.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "美丽的风景就在眼前，不欣赏下才是罪过不是嘛~放松一点放松一点~",
+			say = "There is such splendour before you, and it would simply be sinful to not relax and appreciate it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论是清扫还是战斗，只要是必要的事我就会去做。还是说，吸血鬼“大人”现在就想体验一下清扫服务？",
+			say = "My sincerest apologies, but we are in the middle of an operation. Miss Vampire, if your soul is in need of \"cleaning,\" you may perhaps find my \"services\" adequate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇~“冷血”女仆，好可怕好可怕~",
+			say = "Ah, um, I shall pass on that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 206060,
-			say = "…刀切西红柿……",
+			say = "Vampire, don't you think it's a good idea to have your casket freshened up a little?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,8 +349,8 @@ return {
 			actor = 202080,
 			dir = 1,
 			hideOther = true,
-			actorName = "谢菲尔德&吸血鬼",
-			say = "……欸？",
+			actorName = "Sheffield & Vampire",
+			say = "...Huh?",
 			subActors = {
 				{
 					actor = 201230,

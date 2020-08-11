@@ -133,7 +133,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 309,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>Obtained from a subsequent event</color>",
+		desc = "<color=#ffffff>For the glory of Her Majesty and the Royal Navy!</color>\n―Obtained from \"Aurora Noctis\"",
 		scene = {}
 	},
 	all = {

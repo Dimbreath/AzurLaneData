@@ -15,7 +15,7 @@ return {
 			bgm = "xinnong-3",
 			actor = 408060,
 			nameColor = "#ff5c5c",
-			say = "皇家护卫舰的阵型稍微混乱了一下，紧接着又恢复队形继续前进了哦。",
+			say = "\"Oops, looks like the escort fleet is continuing to sail forward.\"",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			actor = 408070,
 			nameColor = "#ff5c5c",
-			say = "什么嘛，结果和欧根说的完全不一样......我就说怎么会出现护航编队抛弃运输船撤离的好事。",
+			say = "\"See, I told you, didn't I? The Royal Navy's escort fleet would never just abandon their convoy.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_underwater",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "发消息给欧根，告诉她计划失败了，狼群还是会按照预定方案对船团进行袭击。",
+			say = "I'll get in touch with Prinz Eugen! I need to make sure we're still starting the attack at the designated time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 408060,
 			nameColor = "#ff5c5c",
-			say = "真可惜~如果欧根的计划能成功，我们就能一举干掉所有的运输船了！",
+			say = "\"A plan like that wasn't going to work anyway. Let's just stick to the schedule and get ready to make our move.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actor = 408070,
 			nameColor = "#ff5c5c",
-			say = "期待会有这种好事，还不如期待一会儿鱼雷打的准一点。",
+			say = "\"(If the enemy is ready for us, however, we're probably not going to have a great time though.)\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			actor = 408070,
 			nameColor = "#ff5c5c",
-			say = "面对这种规模的护航舰队，我们能取得的战果恐怕会很有限吧...",
+			say = "\"(The convoy is carrying supplies to combat the Sirens, so if possible, we should try to leave it intact.)\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			blackBg = true,
 			actor = 408010,
 			nameColor = "#ff5c5c",
-			say = "能解决一艘是一艘，让狼群开始狩猎吧~！",
+			say = "\"All right, let's start our mission.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

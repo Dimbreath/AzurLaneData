@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "嗡——",
+			say = "Whoosh————!",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -28,7 +28,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 202110,
 			nameColor = "#a9f548",
-			say = "这里交给我来处理吧！",
+			say = "Lady Valiant, watch out!",
 			flashN = {
 				color = {
 					1,
@@ -91,7 +91,7 @@ return {
 			expression = 1,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "爱丁堡，反应不错。唔...刚才飞过来送死的塞壬的舰载机？",
+			say = "Woah! ...Nice shot, Edinburgh! ...But damn, was that a Siren carrier just now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 201330,
 			nameColor = "#a9f548",
-			say = "不、不好了！是指挥官从北方联合前线发来的联络，一部分塞壬不久前冲破了封锁的薄弱处，正在向着巴伦支海方向移动！",
+			say = "We just got a message from the Northern Parliament! Some Sirens have broken through the defense line and are making their way towards us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "我已经看到了，原来刚才的苍蝇是这么来的。",
+			say = "Bloody hell, they could've told us before the Sirens got here. What's the Northern Parliament doing anyway?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "居然突破了北方联合的封锁？！指挥官没事吧？",
+			say = "Icarus, any news about the commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "…指挥官正在努力堵上防线的缺口，但是实在没有余力处理突围成功的塞壬了！",
+			say = "Yes, there's an addendum! The commander says that the breach in the defensive line has been fortified, but there weren't enough forces to spare to chase after the Sirens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "我知道了。明明还要赶着解决铁血舰队呢，塞壬舰居然强行突破北封锁也要来凑热闹。真是麻烦...",
+			say = "Phew... At least the commander is safe. But... we're going to be in a spot of trouble over here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来…该怎么办呢？",
+			say = "Should we deal with the Sirens first, or back up our allies first...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205100,
-			say = "还能怎么办…塞壬的先锋舰队都快从海平面上冒出来了，不把追兵解决掉怎么能安心赶路！",
+			say = "What do you think?! The Sirens are popping out left and right, so we're not going to be able to go anywhere without dealing with them first!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赞成。就当是大战前的热身运动，速战速决吧。",
+			say = "You're right... We won't be able to accomplish our objective unless we defeat the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201330,
-			say = "啊，指挥官还说，这批塞壬是之前在白令海要塞攻略作战中出现的新型号塞壬，希望我们小心应对。",
+			say = "Apparently, a new type of Siren appeared from the Iceberg Stronghold! Please be careful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205090,
-			say = "感谢指挥官及时的情报。嚯~居然还是最新型号的塞壬啊，那还真是有点期待手感了。",
+			say = "Great, the commander and the Eagle Union's intel gathering has pulled through for us again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			side = 2,
-			say = "大家调整阵型，准备迎敌！",
+			say = "Everyone, prepare to face the Sirens!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
