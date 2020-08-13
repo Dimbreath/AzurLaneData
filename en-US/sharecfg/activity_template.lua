@@ -13566,7 +13566,27 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 30471,
-		config_data = {},
+		config_data = {
+			106,
+			112,
+			117,
+			118,
+			119,
+			124,
+			129,
+			140,
+			141,
+			145,
+			148,
+			151,
+			155,
+			157,
+			160,
+			167,
+			173,
+			175,
+			177
+		},
 		time = {
 			timer,
 			{

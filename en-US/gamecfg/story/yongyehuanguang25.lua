@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 408050,
-			say = "I'm running out of torpedoes on my end as well! They're not giving us an opening at all!",
+			say = "I'm running of torpedoes on my end as well! They're not giving us an opening at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1991,11 +1991,21 @@ Current expansions: <color=#92fc63>$3</color>
 5. Paint can be obtained by completing event missions to consume a total amount of oil. 
 6. Completing pages in the Coloring Book will grant rewards. 
 7. The rewards for completing each page are as follows: 
-	 Complete Page 1: T3 General Part x4;
-	 Complete Page 2: T3 Mystery Skill Book x3
-	 Complete Page 3: Little Illustrious x1;
-8. After the event ends, unused paint will be removed.
-9. The extra blank page will be available after May 31st.]]
+	 Complete Page 1: Random T2 Skill Book x2, Coins x300
+	 Complete Page 2: T2 Mystery Retrofit Blueprint x2, Oil x100
+	 Complete Page 3: T2 Mystery Gear Part x3, Coins x300
+	 Complete Page 4: T3 Offensive Skill Book x2, Oil x100
+	 Complete Page 5: T3 Defensive Skill Book, Coins x300
+	 Complete Page 6: T3 General Part, Oil x100
+	 Complete Page 7: Z23 skin - The Eyecatch in the Rye?
+8. Unlock an extra blank drawing page after completing the first 8 pages in the Coloring Book. 
+9. There are no restrictions on which colors can be used in the blank coloring page, and no paint will be consumed. 
+10. The "Eraser" and "Clear All" functions can be used on the extra blank page. 
+11. The "Eraser" tool can erase a single cell. 
+12. The "Clear All" function will erase all colored cells on the extra page. 
+13. After the event ends, all unused paint will be removed. 
+14. A new page will be unlocked every day until August 19th.
+15. The extra blank page will be available after August 19th.]]
 			}
 		}
 	},
@@ -8414,7 +8424,7 @@ Event Information:
  a. Active Commander 
  b. Returning/New Commander
 2. Players who meet the following criterion are categorized as Active Commanders and are eligible for Active Commander objectives and rewards: 
-- Logged in at least once at any point between August 11th, 2019 and before the maintenance on September 11th, 2019.
+- Logged in at least once at any point between July 30th, 2020  and before the maintenance on August 13, 2020.
 3. Players who do not meet this criterion are categorized as Returning/New Commanders and are eligible for their own set of objectives and rewards.
 4. If you are unsure whether you are an Active Commander or a Returning/New Commander, please view the information in the Returnee Missions banner. 
 5. An Active Commander's objective is to receive Returnee Points from up to 2 other players who participate in and complete Returnee Missions. Once an Active Commander has collected enough points, they can claim various nice rewards from the event banner.

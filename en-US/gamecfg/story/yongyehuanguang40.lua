@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-2",
-			say = "北方联合·北地群岛 战役结束后",
+			say = "At the Northern Parliament",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,7 +36,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "极地塞壬在全线进攻的同时，居然还想同时吃掉我们的运输船团啊...还好皇家提前派遣了主力舰队开路。",
+			say = "The Sirens hoped to cut off our supply convoy during that last attack. Fortunately, the Royal Navy's escort fleet cleared the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "不过也因此，皇家的钓鱼作战不但失败了，还被铁血狠狠地反咬了一口...",
+			say = "Officially, the Royal Navy's operation ended in failure... and they were savagely defeated by the Iron Blood...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			blackBg = true,
 			actor = 705050,
 			nameColor = "#ffff4d",
-			say = "塞壬的行动和铁血的步调太一致了，我不相信只是单纯的巧合而已。",
+			say = "The movements of the Iron Blood and the Sirens were too synchronized. Don't believe it's a coincidence for a second.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "不论如何，在铁血舰队离开之后我们在波罗的海方面终于能喘口气了。运输物资都装卸完毕了么？",
+			say = "However, the arrival of the convoy has improved the situation in the Baltic Sea. The relief supplies have been distributed appropriately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			blackBg = true,
 			actor = 705050,
 			nameColor = "#ffff4d",
-			say = "运达的物资已经全部装卸完毕，现在正以最快的速度分配到各个战场。对于受伤运输船的维修也开始了。",
+			say = "The front lines received the bulk of the aid. We're also starting to repair the damaged transports.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "运输船团的各位都辛苦了......他们都是北方联合的英雄。",
+			say = "This success was made possible by the bravery of everyone in the transport operation. We will sing their names as heroes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			blackBg = true,
 			actor = 705050,
 			nameColor = "#ffff4d",
-			say = "可是路上还是受到了将近十分之一的损失，这算是设计铁血所付出的必要代价么...真是可恶。",
+			say = "As expected, the Iron Blood would not dare sabotage the supplies needed to fight the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "如果没有指挥官在的话，我们这次战役不会以如此小的损失取得胜利的哦。",
+			say = "Without the commander's leadership, we would not have seized victory without devastating losses...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "现在指挥官对于极地的重要性已经人尽皆知，皇家前来迎接的舰队又已经紧急返航。",
+			say = "There is no longer any reason to doubt the commander's importance. The Royal Navy seems to also be focusing on other issues at the moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "呵呵呵，接下来指挥部应该无法再次拒绝我们延长指挥官驻扎期限的申请了吧。",
+			say = "As such, the commander is no longer in a position to refuse requests to stay with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "当然，时间还是很宝贵的。既然对于指挥官同志的审查已经结束，是时候向计划的下一阶段迈进了。",
+			say = "We've finished our assessment. It's time to move on to the next phase.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "作为第一步，首先带指挥官同志去看一看我们在冰海之中发现的“那个”吧。",
+			say = "Perhaps, it is time to show our new comrade what we found in the frigid ocean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
