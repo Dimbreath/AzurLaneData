@@ -2084,7 +2084,7 @@ pg.backyard_theme_template = {
 		name = "Iris Countryside ",
 		desc = "Bask in the idyllic Iris scenery as you sip from a glass of fine wine. ",
 		deblocking = 1,
-		new = 1,
+		new = 0,
 		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
@@ -2119,7 +2119,7 @@ pg.backyard_theme_template = {
 		name = "Passion for Acceleration",
 		desc = "Pedal to the metal and Eurobeat on the CD player! Hit it, chief!",
 		deblocking = 1,
-		new = 1,
+		new = 0,
 		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
@@ -2154,12 +2154,42 @@ pg.backyard_theme_template = {
 			66121
 		}
 	},
+	[68] = {
+		Cfg_1 = 5,
+		name = "Manjuuversal Studios",
+		desc = "Immerse yourself in the marvelous universe of movies!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 68,
+		icon = "us3themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			68001,
+			68002,
+			68101,
+			68102,
+			68103,
+			68104,
+			68105,
+			68106,
+			68107,
+			68108,
+			68109,
+			68110,
+			68111
+		}
+	},
 	[69] = {
 		Cfg_1 = 5,
 		name = "Manjuu Infirmary",
 		desc = "The latest and greatest in medical science is all in here. Now, turn your head and cough.",
 		deblocking = 1,
-		new = 1,
+		new = 0,
 		hot = 1,
 		Cfg_2 = 8,
 		is_view = 1,
@@ -2246,6 +2276,7 @@ pg.backyard_theme_template = {
 		61,
 		62,
 		66,
+		68,
 		69
 	}
 }

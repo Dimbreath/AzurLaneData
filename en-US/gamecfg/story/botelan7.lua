@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印地的笑容！\n\n<size=45>七 向往的幸福</size>",
+					"Anything and Everything for Indy!\n\n<size=45>Chapter 7 - Happiness is Best When Shared</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·港口",
+			say = "Port - Noon",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊……姐姐她们回来了",
+			say = "...Oh. Portland's team is back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "舰队，顺利返航~哈呜~~~印地我回来啦！！",
+			say = "We've returned! I missed you, Indyyyyyy!",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 103070,
 			nameColor = "#a9f548",
-			say = "咕呜……姐姐……你抱得太紧了……",
+			say = "Grrghhh... N-not so tight, please... I can't breathe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			say = "毕竟啊~本来今天应该由印地大显身手~",
+			say = "Sorry! But you know, *you* were supposed to go on that sortie instead of me!",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后借此机会让印地和大家变成好朋友才对的嘛！",
+			say = "This isn't how it was supposed to go! My plan was to help you make new friends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不…不是的，现在这样才正好，是吧，指挥官",
+			say = "Actually... I think this exactly is what the Commander wanted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？怎么回事？",
+			say = "Huh? What the Commander wanted?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，虽然只是我的推测，之所以今天这样编队，其实是指挥官希望大家能更了解波特兰吧？",
+			say = "Heheh. This is just a guess, but I believe the Commander sortied us together so we could learn more about you, Portland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！原来是这样呀！说起来，{namecode:16}之前一点也不了解波特兰欸！",
+			say = "Oh yeah, that makes sense! I've pretty much like, never talked to her before now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一直觉得她是个整天把妹妹挂嘴边的危险人物来着！",
+			say = "All I knew about her is that she's crazy for her sister!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，在并肩作战后，感觉有了不一样的了解…",
+			say = "But as we found out from fighting alongside her, there are many more facets to her personality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "波特兰是只要想做，就能做好的孩子呢！",
+			say = "Like how capable she is when she gets serious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位……",
+			say = "I-I don't know what to say...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官认为，要先改变周围人的看法，因此才把大家编到一起，让大家多多了解姐姐",
+			say = "The Commander wanted to improve everyone's perception of you, and thought the best way of doing that was to have them see you in a new light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样的话，大家应该就会好好听姐姐的话了",
+			say = "The idea was that once they got to know you better, they'd be willing to listen to what you have to say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以呢，指挥官其实更想让姐姐先交到朋友",
+			say = "So basically, the goal of this was to help you make some new friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "指挥官……是这样的吗……？",
+			say = "Commander... is that true?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "Yep.",
 					flag = 1
 				}
 			}
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐……能向大家介绍我的事情我很高兴…",
+			say = "Sis... It really does make me happy that you like talking about me so much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过姐姐能过得开心快乐的话，我会更高兴的。",
+			say = "But you know what else makes me happy? You actually being happy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像这样，看到姐姐和大家其乐融融的样子的样子，嗯，就是最让人高兴的事情了。",
+			say = "Seeing you getting on so well with people... that really brings a smile to my face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "印地……",
+			say = "Oh, Indy...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，谢谢你！让我能看到印地那样幸福的笑容！！",
+			say = "Thank you, Commander! Thank you for making Indy so happy! Her smile is as bright and essential as the sun to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "好！就特别授予你“印地粉丝俱乐部会员1号”的称号吧！",
+			say = "I hereby declare you the second member of the Church of Indy, with honors!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，不行不行，难得印地那么高兴……",
+			say = "Wait, that doesn't sufficiently express how grateful I am. You deserve something a little more special...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，姐姐，要再好好感谢一下指挥官才行呢。",
+			say = "Mhm. Since you made me smile, I think you should do the same for the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！指挥官，无论是印地，还是我的事情都好好考虑到了吧？",
+			say = "Oh, yeah! Commander, you really thought all this through, didn't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "我现在明白了，为了让印地露出幸福的笑容，我也得过得开心快乐才行…！",
+			say = "Not only did you make Indy happy, you also made me really happy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，那个……非常谢谢你！",
+			say = "And by making me happy, I hope I make you happy. So... thank you so much, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……欸嘿嘿",
+			say = "Hehehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "波特兰露出有些害羞的笑容，说出了感谢的话语。",
+			say = "Portland giggled and smiled for me. I couldn't help but smile back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

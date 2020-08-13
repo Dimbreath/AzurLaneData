@@ -7234,6 +7234,133 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		},
 		index = {}
 	},
+	[30309] = {
+		display = "Contains a random gear skin.",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "Gear Skin Box",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 30309,
+		icon = "Props/appearancebox",
+		replace_item = 0,
+		display_icon = {
+			{
+				9,
+				1,
+				1
+			},
+			{
+				9,
+				2,
+				1
+			},
+			{
+				9,
+				3,
+				1
+			},
+			{
+				9,
+				4,
+				1
+			},
+			{
+				9,
+				5,
+				1
+			},
+			{
+				9,
+				6,
+				1
+			},
+			{
+				9,
+				7,
+				1
+			},
+			{
+				9,
+				8,
+				1
+			},
+			{
+				9,
+				9,
+				1
+			},
+			{
+				9,
+				10,
+				1
+			},
+			{
+				9,
+				11,
+				1
+			},
+			{
+				9,
+				12,
+				1
+			},
+			{
+				9,
+				13,
+				1
+			},
+			{
+				9,
+				14,
+				1
+			},
+			{
+				9,
+				15,
+				1
+			},
+			{
+				9,
+				16,
+				1
+			},
+			{
+				9,
+				17,
+				1
+			},
+			{
+				9,
+				18,
+				1
+			},
+			{
+				9,
+				19,
+				1
+			},
+			{
+				9,
+				20,
+				1
+			},
+			{
+				9,
+				21,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {}
+	},
 	[30310] = {
 		display = "Contains a random gear skin.",
 		rarity = 4,
@@ -93390,6 +93517,24 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59162] = {
+		display = "Points acquired through Returnee Missions. Expires after the event period ends. ",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Returnee Points ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59162,
+		icon = "Props/union_pt",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59164] = {
 		display = "Used to upgrade buildings in the \"Manjuu Plaza\" event (Will be removed after the event ends). ",
 		rarity = 2,
@@ -93511,6 +93656,24 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		link_id = 0,
 		id = 59172,
 		icon = "Props/skinTicket",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59173] = {
+		display = "Used to exchange for items during the 2nd Anniversary Event. Will be removed after the event ends. ",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Eagle's Plume ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59173,
+		icon = "Props/meifu2_pt",
 		replace_item = 0,
 		display_icon = {},
 		price = {},
@@ -94605,7 +94768,7 @@ let us celebrate."]],
 		index = {}
 	},
 	[59762] = {
-		display = "An item required to retrofit Warspite – \"Belli dura despicio!\"",
+		display = "An item required to retrofit Warspite – \"Belli dura despicio!\"",
 		rarity = 4,
 		type = 7,
 		drop_oil_max = 0,
@@ -95702,6 +95865,493 @@ let us celebrate."]],
 		price = {},
 		index = {}
 	},
+	[59906] = {
+		display = "Can be used to receive an SR ship of your choosing as well as a commemorative item. ",
+		rarity = 4,
+		type = 13,
+		drop_oil_max = 0,
+		name = "2st Anniversary Invitation ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59906,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				105131,
+				1
+			},
+			{
+				4,
+				202121,
+				1
+			},
+			{
+				4,
+				303111,
+				1
+			},
+			{
+				4,
+				205021,
+				1
+			},
+			{
+				4,
+				204031,
+				1
+			},
+			{
+				4,
+				107061,
+				1
+			},
+			{
+				4,
+				207031,
+				1
+			},
+			{
+				4,
+				205061,
+				1
+			},
+			{
+				4,
+				105121,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[59907] = {
+		display = "A letter from Washington",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "Washington's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59907,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				105131,
+				1
+			},
+			{
+				2,
+				59916,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[59908] = {
+		display = "A letter from Belfast",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "Belfast's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59908,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				202121,
+				1
+			},
+			{
+				2,
+				59917,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[59909] = {
+		display = "A letter from Atago",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "Atago's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59909,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				303111,
+				1
+			},
+			{
+				2,
+				59918,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[59910] = {
+		display = "A letter from Warspite",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "Warspite's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59910,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				205021,
+				1
+			},
+			{
+				2,
+				59919,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[59911] = {
+		display = "A letter from Hood",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "Hood's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59911,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				204031,
+				1
+			},
+			{
+				2,
+				59920,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[59912] = {
+		display = "A letter from Enterprise",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "Enterprise's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59912,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				107061,
+				1
+			},
+			{
+				2,
+				59921,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[59913] = {
+		display = "A letter from Illustrious",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "Illustrious's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59913,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				207031,
+				1
+			},
+			{
+				2,
+				59922,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[59914] = {
+		display = "A letter from Prince of Wales",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "Prince of Wales's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59914,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				205061,
+				1
+			},
+			{
+				2,
+				59923,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[59915] = {
+		display = "A letter from North Carolina",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "North Carolina's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59915,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				105121,
+				1
+			},
+			{
+				2,
+				59924,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[59916] = {
+		display = "A thank-you gift from Washington",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Washington",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59916,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59917] = {
+		display = "A thank-you gift from Belfast",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Belfast",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59917,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59918] = {
+		display = "A thank-you gift from Atago",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Atago",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59918,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59919] = {
+		display = "A thank-you gift from Warspite",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Warspite",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59919,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59920] = {
+		display = "A thank-you gift from Hood",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Hood",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59920,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59921] = {
+		display = "A thank-you gift from Enterprise",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Enterprise",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59921,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59922] = {
+		display = "A thank-you gift from Illustrious",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Illustrious",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59922,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59923] = {
+		display = "A thank-you gift from Prince of Wales",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from Prince of Wales",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59923,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59924] = {
+		display = "A thank-you gift from North Carolina",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Gift from North Carolina",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59924,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59925] = {
 		display = "Something good might happen when you collect 7 of these. ",
 		rarity = 2,
@@ -95883,11 +96533,11 @@ let us celebrate."]],
 		index = {}
 	},
 	[59939] = {
-		display = "An item required to retrofit Warspite – \"Belli dura despicio!\"",
+		display = "Here is your trophy. ",
 		rarity = 3,
 		type = 1,
 		drop_oil_max = 0,
-		name = "The Warrior's Prowess",
+		name = "The Old Lady's Keepsake",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -96460,7 +97110,7 @@ let us celebrate."]],
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 4,
-		link_id = 30338,
+		link_id = 30473,
 		id = 59970,
 		icon = "props/z23draw_a",
 		replace_item = 0,
@@ -96478,7 +97128,7 @@ let us celebrate."]],
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 4,
-		link_id = 30338,
+		link_id = 30473,
 		id = 59971,
 		icon = "props/z23draw_b",
 		replace_item = 0,
@@ -96496,7 +97146,7 @@ let us celebrate."]],
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 4,
-		link_id = 30338,
+		link_id = 30473,
 		id = 59972,
 		icon = "props/z23draw_c",
 		replace_item = 0,
@@ -96514,7 +97164,7 @@ let us celebrate."]],
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 4,
-		link_id = 30338,
+		link_id = 30473,
 		id = 59973,
 		icon = "props/z23draw_d",
 		replace_item = 0,
@@ -96532,7 +97182,7 @@ let us celebrate."]],
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 4,
-		link_id = 30338,
+		link_id = 30473,
 		id = 59974,
 		icon = "props/z23draw_e",
 		replace_item = 0,
@@ -96550,7 +97200,7 @@ let us celebrate."]],
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 4,
-		link_id = 30338,
+		link_id = 30473,
 		id = 59975,
 		icon = "props/z23draw_f",
 		replace_item = 0,
@@ -96568,7 +97218,7 @@ let us celebrate."]],
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 4,
-		link_id = 30338,
+		link_id = 30473,
 		id = 59976,
 		icon = "props/z23draw_g",
 		replace_item = 0,
@@ -96586,7 +97236,7 @@ let us celebrate."]],
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 4,
-		link_id = 30338,
+		link_id = 30473,
 		id = 59977,
 		icon = "props/z23draw_h",
 		replace_item = 0,
@@ -96604,9 +97254,27 @@ let us celebrate."]],
 		shiptrans_id = 0,
 		drop_gold_max = 0,
 		virtual_type = 4,
-		link_id = 30338,
+		link_id = 30473,
 		id = 59978,
 		icon = "props/z23draw_i",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59979] = {
+		display = "Collect all 7 to receive Warspite's retrofit item – The Warrior's Prowess.",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "Proof of Veterancy",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 8,
+		link_id = 0,
+		id = 59979,
+		icon = "Props/lizhanzhizheng",
 		replace_item = 0,
 		display_icon = {},
 		price = {},
@@ -97183,6 +97851,493 @@ let us celebrate."]],
 		link_id = 0,
 		id = 60058,
 		icon = "Props/nvpu_ticket",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60059] = {
+		display = "Can be used to receive an SR ship of your choosing as well as a commemorative item. ",
+		rarity = 4,
+		type = 13,
+		drop_oil_max = 0,
+		name = "2nd Anniversary Invitation ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60059,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				202121,
+				1
+			},
+			{
+				4,
+				205021,
+				1
+			},
+			{
+				4,
+				204031,
+				1
+			},
+			{
+				4,
+				107061,
+				1
+			},
+			{
+				4,
+				207031,
+				1
+			},
+			{
+				4,
+				205061,
+				1
+			},
+			{
+				4,
+				303121,
+				1
+			},
+			{
+				4,
+				105131,
+				1
+			},
+			{
+				4,
+				105121,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60060] = {
+		display = "Can be used to obtain the SR ship Belfast and her commemorative item.",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "2nd Anniversary Invitation (Belfast)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60060,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				202121,
+				1
+			},
+			{
+				2,
+				60069,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60061] = {
+		display = "Can be used to obtain the SR ship Warspite and her commemorative item.",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "2nd Anniversary Invitation (Warspite)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60061,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				205021,
+				1
+			},
+			{
+				2,
+				60070,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60062] = {
+		display = "Can be used to obtain the SR ship Hood and her commemorative item.",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "2nd Anniversary Invitation (Hood)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60062,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				204031,
+				1
+			},
+			{
+				2,
+				60071,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60063] = {
+		display = "Can be used to obtain the SR ship Enterprise and her commemorative item.",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "2nd Anniversary Invitation (Enterprise)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60063,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				107061,
+				1
+			},
+			{
+				2,
+				60072,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60064] = {
+		display = "Can be used to obtain the SR ship Illustrious and her commemorative item.",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "2nd Anniversary Invitation (Illustrious)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60064,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				207031,
+				1
+			},
+			{
+				2,
+				60073,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60065] = {
+		display = "Can be used to obtain the SR ship Prince of Wales and her commemorative item.",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "2nd Anniversary Invitation (Prince of Wales)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60065,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				205061,
+				1
+			},
+			{
+				2,
+				60074,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60066] = {
+		display = "Can be used to obtain the SR ship Atago and her commemorative item.",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "2nd Anniversary Invitation (Atago)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60066,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				303121,
+				1
+			},
+			{
+				2,
+				60075,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60067] = {
+		display = "Can be used to obtain the SR ship Washington and her commemorative item.",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "2nd Anniversary Invitation (Washington)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60067,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				105131,
+				1
+			},
+			{
+				2,
+				60076,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60068] = {
+		display = "Can be used to obtain the SR ship North Carolina and her commemorative item.",
+		rarity = 4,
+		type = 11,
+		drop_oil_max = 0,
+		name = "2nd Anniversary Invitation (North Carolina)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60068,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {
+			{
+				4,
+				105121,
+				1
+			},
+			{
+				2,
+				60077,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[60069] = {
+		display = "A letter from Belfast. It reads: \"I wish you a joyous and fortuitous second anniversary, Master.\"",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Belfast's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60069,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60070] = {
+		display = "A letter from Warspite. It reads: \"Happy second anniversary, Commander.\"",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Warspite's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60070,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60071] = {
+		display = "A letter from Hood. It reads: \"I hope you have a most pleasant second anniversary, Commander.\"",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Hood's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60071,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60072] = {
+		display = "A letter from Enterprise. It reads: \"Been a whole year, huh? Happy second anniversary, Commander.\"",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Enterprise's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60072,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60073] = {
+		display = "A letter from Illustrious. It reads: \"Happy second anniversary, my dear Commander.\"",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Illustrious's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60073,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60074] = {
+		display = "A letter from Prince of Wales. It reads: \"The year certainly passed quickly. Heheh. Happy second anniversary, Commander.\"",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Prince of Wales's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60074,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60075] = {
+		display = "A letter from Atago. It reads: \"My, my, a year already? Happy second anniversary, Commander~\"",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Atago's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60075,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60076] = {
+		display = "A letter from Washington. It reads: \"Happy second anniversary.\"",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "Washington's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60076,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60077] = {
+		display = "A letter from North Carolina. It reads: \"Happy second anniversary, Commander~\"",
+		rarity = 9,
+		type = 1,
+		drop_oil_max = 0,
+		name = "North Carolina's Letter",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 60077,
+		icon = "Props/yaoqinghan",
 		replace_item = 0,
 		display_icon = {},
 		price = {},
@@ -98970,6 +100125,7 @@ The available outfits and their rarities are as follows:
 		30305,
 		30306,
 		30307,
+		30309,
 		30310,
 		30311,
 		30312,
@@ -100725,6 +101881,7 @@ The available outfits and their rarities are as follows:
 		59158,
 		59159,
 		59160,
+		59162,
 		59164,
 		59165,
 		59167,
@@ -100732,6 +101889,7 @@ The available outfits and their rarities are as follows:
 		59170,
 		59171,
 		59172,
+		59173,
 		59601,
 		59602,
 		59603,
@@ -100849,6 +102007,25 @@ The available outfits and their rarities are as follows:
 		59838,
 		59839,
 		59900,
+		59906,
+		59907,
+		59908,
+		59909,
+		59910,
+		59911,
+		59912,
+		59913,
+		59914,
+		59915,
+		59916,
+		59917,
+		59918,
+		59919,
+		59920,
+		59921,
+		59922,
+		59923,
+		59924,
 		59925,
 		59930,
 		59931,
@@ -100895,6 +102072,7 @@ The available outfits and their rarities are as follows:
 		59976,
 		59977,
 		59978,
+		59979,
 		60011,
 		60012,
 		60021,
@@ -100927,6 +102105,25 @@ The available outfits and their rarities are as follows:
 		60056,
 		60057,
 		60058,
+		60059,
+		60060,
+		60061,
+		60062,
+		60063,
+		60064,
+		60065,
+		60066,
+		60067,
+		60068,
+		60069,
+		60070,
+		60071,
+		60072,
+		60073,
+		60074,
+		60075,
+		60076,
+		60077,
 		69903,
 		69904,
 		69905,

@@ -283,6 +283,8 @@ function slot0.updateTecProgressPanel(slot0, slot1, slot2, slot3)
 
 	slot6 = slot0:getTask(slot1, slot2, slot5)
 
+	print("数据", slot1, slot0.phaseId, tostring(slot0:isMissTask(slot3)))
+
 	if slot1 == slot0.phaseId and slot0:isMissTask(slot3) then
 		slot0:emit(TrainingCampMediator.ON_TRIGGER, {
 			cmd = 1,

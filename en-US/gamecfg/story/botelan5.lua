@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印地的笑容！\n\n<size=45>五 命运的出击</size>",
+					"Anything and Everything for Indy!\n\n<size=45>Chapter 5 - Change of Plans</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区・港口",
+			say = "Port - Noon",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "——又到了演习出击之时，最后还是按照波特兰希望的那样组成了编队。",
+			say = "Today's the day of the sortie. I created a special fleet for the mission, composed of the girls relevant to Portland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "德意志、多塞特郡、{namecode:156}，还有{namecode:71}、{namecode:16}。以及——",
+			say = "Deutschland. Dorsetshire. Hiei. I-58. Yuudachi. And last, but not least...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…指挥官？是不是哪里搞错了，为什么我是旗舰啦？！",
+			say = "...Me? Why am I the flagship?! This isn't what I asked for!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊，这支编队到底是以什么规律组起来的啊？先不说重樱那三只，怎么还有波特兰和多塞特郡……",
+			say = "*sigh*, so what is the idea behind this fleet, exactly? Three girls from one faction, but then there's me, Dorsetshire, and Portland...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，要是能聊诺福克姐姐的事情，我在哪个舰队都无所谓~",
+			say = "Heheh, I'll work with any fleet composition as long as you'll listen to me talk about Norfolk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			actor = 308030,
 			nameColor = "#a9f548",
-			say = "波……特兰……！",
+			say = "Um... Hi, Portland...！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			actor = 301140,
 			nameColor = "#a9f548",
-			say = "嗷？这不是波特兰吗！还要继续训练吗？！",
+			say = "Woof? Yo, Portland! You ready for some payback after that time you dunked on me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呣呣…这孩子，不会还在记仇吧？！",
+			say = "Oh geez... Don't tell me you still hold a grudge against me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，不能这样哦{namecode:16}。波特兰也很为难哦。",
+			say = "Now, now, let's not taunt Portland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前虽然因为一些疏忽输了，这次作为伙伴，让我们好好相处吧~",
+			say = "We once suffered an embarrassing defeat owing to her, but that's all in the past. Now let us fight side by side, rather than with each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（呣呣…感觉{namecode:71}好像也有点可怕……）",
+			say = "(Gosh, Hiei's giving me scary looks...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（波特兰…没、没问题吧…姑且…这回大家是队友就是……）",
+			say = "(Hope Portland's still not angry with me... It's probably for the best if I just treat this as a normal mission.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，也不知道这群家伙能不能好好配合。",
+			say = "Hmph. If any of you can work as a team, I'll be surprised.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "万一有什么情况，把全员当作我的狗用会比较有效率吧",
+			say = "Probably not, though. I don't expect much teamwork out of a pack of dogs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你说谁是狗？！",
+			say = "A pack of *what*?! I dare you, call me a dog again! I double dog dare you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样不就不能让大家知道印地有多好了嘛！",
+			say = "Commandeeeer! You need to swap me out for Indy, because this wasn't the plan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "真是的，指挥官！不是拜托你让她们和印地组队吗！",
+			say = "How am I supposed to preach Indy's adorable side to them if they won't even see her eye-to-eye?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			},
 			options = {
 				{
-					content = "摇头",
+					content = "No, this is about you.",
 					flag = 1
 				}
 			},
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "欸！！波特兰也需要和大家拉近距离吗？",
+			say = "Huh?! You're doing this to... close the gap between me and other people?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明白了……我会好好完成任务的啦~",
+			say = "Well, all right, I suppose. And don't worry, I'll still play my part in the mission!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "作为补偿，回去以后【一起被印地酱治愈的时间】要增加一倍才行哦！",
+			say = "But in exchange, we're gonna have a double pass of Indy Appreciation Hour when I get back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

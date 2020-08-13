@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 30409
+		act_id = 30477
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -109,7 +109,7 @@ pg.activity_const = {
 		act_id = 158
 	},
 	LOGIN_YEAR_ID = {
-		act_id = 30192
+		act_id = 30475
 	},
 	SHOW_DRESS_ACTIVITY_ID = {
 		act_id = 30184
@@ -229,7 +229,7 @@ pg.activity_const = {
 		act_id = 30210
 	},
 	ACTIVITY_TYPE_RETURN_AWARD_ID3 = {
-		act_id = 590
+		act_id = 30472
 	},
 	BISMARCK_CHAPTER_ID = {
 		act_id = 30146
@@ -415,7 +415,7 @@ pg.activity_const = {
 		act_id = 30270
 	},
 	WARSPITE_TRANS = {
-		act_id = 30259
+		act_id = 30476
 	},
 	HOLOLIVE_MAIN = {
 		act_id = 30284
@@ -625,7 +625,7 @@ pg.activity_const = {
 		act_id = 30254
 	},
 	WUDAOLOGIN_ID = {
-		act_id = 30192
+		act_id = 30475
 	},
 	SANDIEGO_REFORM = {
 		act_id = 30425

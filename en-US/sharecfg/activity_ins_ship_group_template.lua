@@ -465,6 +465,11 @@ pg.activity_ins_ship_group_template = {
 		name = "CenAlpha",
 		sculpture = "banrenma"
 	},
+	[30312] = {
+		ship_group = 30312,
+		name = "Atago",
+		sculpture = "aidang"
+	},
 	[30311] = {
 		ship_group = 30311,
 		name = "Takao",
@@ -764,6 +769,7 @@ pg.activity_ins_ship_group_template = {
 		30405,
 		29902,
 		20604,
+		30312,
 		30311,
 		30313,
 		30314,

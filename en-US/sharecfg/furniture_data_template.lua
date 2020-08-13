@@ -60442,6 +60442,795 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[68001] = {
+		advice = 0,
+		describe = "Follow the footsteps of the stars!",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuuversal Studios Floor",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "dibanus3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 68001,
+		picture = "us3/dibanus3",
+		comfortable = 0,
+		tag = 4,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[68002] = {
+		advice = 0,
+		describe = "Conveniently contains all those rides you swore to never go on.",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuuversal Studios Wallpaper",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "qiangbius3icon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 68002,
+		picture = "us3/qiangbius3",
+		comfortable = 0,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[68101] = {
+		advice = 0,
+		describe = "Just because someone stumbles and loses their path, doesn't mean they can't just look at this sign.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Studios Road Sign",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "1us3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 68101,
+		picture = "us3/1us3",
+		comfortable = 0,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[68102] = {
+		advice = 0,
+		describe = "All the leaves are green! And the sky is purple!",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Studios Palm Tree",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "2us3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 68102,
+		picture = "us3/2us3",
+		comfortable = 0,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[68103] = {
+		advice = 0,
+		describe = "Ms. Hammann, after careful consideration I've decided not to endorse your park.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuuversal Studios Entrance",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "3us3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 68103,
+		picture = "us3/3us3",
+		comfortable = 0,
+		tag = 1,
+		size = {
+			2,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[68104] = {
+		advice = 0,
+		describe = "Welcome to Manjuuversal Studios!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuuversal Studios Ball",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "4us3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 68104,
+		picture = "us3/4us3",
+		comfortable = 0,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[68105] = {
+		advice = 0,
+		describe = "The world is not in your books and maps. It's in this one.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Studio Park Map",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "5us3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 68105,
+		picture = "us3/5us3",
+		comfortable = 0,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[68106] = {
+		advice = 0,
+		describe = "Ever the crowd favorite, now with extra caramel.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuu Popcorn Cart",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "6us3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 68106,
+		picture = "us3/6us3",
+		comfortable = 0,
+		tag = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[68107] = {
+		advice = 0,
+		describe = "The manjuu on top is there to scare off the other birds.",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Studio Street Light",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "7us3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 68107,
+		picture = "us3/7us3",
+		comfortable = 0,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[68108] = {
+		advice = 0,
+		describe = "The most iconic landmark for those who get separated from their groups.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Studio Landmarks Sign",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "8us3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 68108,
+		picture = "us3/8us3",
+		comfortable = 0,
+		tag = 1,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[68109] = {
+		advice = 0,
+		describe = "Not all treasure is silver and gold, mate.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuu Pirate Cove",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "9us3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 68109,
+		picture = "us3/9us3",
+		comfortable = 0,
+		tag = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					49,
+					-135
+				},
+				{
+					-1,
+					1
+				},
+				"us3/9us3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[68110] = {
+		advice = 0,
+		describe = "Runs more regularly than the public transit in your city.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Tour Trolley",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "10us3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 68110,
+		picture = "us3/10us3",
+		comfortable = 0,
+		tag = 1,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					88,
+					-60
+				},
+				{
+					1,
+					1
+				},
+				"us3/10us3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[68111] = {
+		advice = 0,
+		describe = "You're a wizard, Commander!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuu Magic School",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "11us3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 68111,
+		picture = "us3/11us3",
+		comfortable = 0,
+		tag = 1,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[68112] = {
+		advice = 0,
+		describe = "The fleet is coming through!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuu Cruiseship Float",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "12us3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 68112,
+		picture = "",
+		comfortable = 0,
+		tag = 1,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"12us3B",
+				"normal"
+			},
+			{
+				"12us3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"12us3BCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[68113] = {
+		advice = 0,
+		describe = "Oh hell no.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Zumanjuuro",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "13us3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		id = 68113,
+		picture = "",
+		comfortable = 0,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"13us3B",
+				"normal"
+			},
+			{
+				"13us3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"13us3CharControl",
+				"13us3CharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[68114] = {
+		advice = 0,
+		describe = "Curses, budget cuts.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuu Roller Coaster",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "14us3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 68114,
+		picture = "",
+		comfortable = 0,
+		tag = 1,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"14us3B",
+				"normal"
+			},
+			{
+				"14us3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"14us3BCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[68115] = {
+		advice = 0,
+		describe = "Come forth, brave explorers!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuu Water Slide",
+		is_get_time_note = 0,
+		rarity = 0,
+		gain_by = "",
+		themeId = 68,
+		icon = "15us3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 68115,
+		picture = "",
+		comfortable = 0,
+		tag = 1,
+		size = {
+			10,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"15us3B",
+				"normal"
+			},
+			{
+				"15us3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"15us3BCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[69001] = {
 		advice = 0,
 		describe = "Clean, like how a perfect health record looks.",
@@ -63201,6 +63990,23 @@ pg.furniture_data_template = {
 		66125,
 		66126,
 		66127,
+		68001,
+		68002,
+		68101,
+		68102,
+		68103,
+		68104,
+		68105,
+		68106,
+		68107,
+		68108,
+		68109,
+		68110,
+		68111,
+		68112,
+		68113,
+		68114,
+		68115,
 		69001,
 		69002,
 		69101,

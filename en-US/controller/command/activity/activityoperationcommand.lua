@@ -51,6 +51,7 @@ function slot0.execute(slot0, slot1)
 			uv0:performance(uv1, slot0, uv0:updateActivityData(uv1, slot0, uv2, slot1), slot1)
 		else
 			print("activity op ret code: " .. slot0.result)
+			print("activity op ret code: " .. slot0.result, uv1.cmd, uv1.arg1)
 
 			if uv3 == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN or uv3 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN or uv3 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN or uv3 == ActivityConst.ACTIVITY_TYPE_REFLUX then
 				uv2.autoActionForbidden = true

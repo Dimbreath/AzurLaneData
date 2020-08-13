@@ -253,7 +253,7 @@ pg.gameset_language_client = {
 		value = "Detecting disruptions within emotion capacitor..."
 	},
 	ins_9 = {
-		value = "#lunch #burgers/nBought lunch for everyone! This stuff was HEAVY!"
+		value = "#lunch #burgers /nBought lunch for everyone! This stuff was HEAVY!"
 	},
 	ins_discuss_9_1 = {
 		value = "You carried that fast food like a boss, sis! "
@@ -1418,5 +1418,482 @@ pg.gameset_language_client = {
 	},
 	op_reply_60_1_2 = {
 		value = "I don't think this is a matter of giving it your best shot... "
+	},
+	ins_88 = {
+		value = "Is this how Belfast would do it? Present herself, I mean."
+	},
+	ins_discuss_88_1 = {
+		value = "Please, no! One is enough, we don't need a Belfast impersonator!"
+	},
+	ins_reply_88_1_1 = {
+		value = "You're quite right, Edinburgh. I need more practice to advance from mere imitation to a capable second Belfast!"
+	},
+	ins_reply_88_1_2 = {
+		value = "OR JUST DON'T. PLEASE. I WANT MY OWN TIME IN THE LIMELIGHT T^T"
+	},
+	ins_discuss_88_2 = {
+		value = "You need not try to emulate me, Miss Hermione; you are already an exceptional maid."
+	},
+	ins_reply_88_2_1 = {
+		value = "Wow, look at that humblebrag >_>"
+	},
+	ins_reply_88_2_2 = {
+		value = "I am honoured, Miss Belfast! And Edinburgh, you must be quite cordial with one another, having a go at her like that!"
+	},
+	ins_reply_88_2_3 = {
+		value = "Cordial? Let's just call it a \"friendly\" rivalry :|"
+	},
+	ins_op_88_1_1 = {
+		value = "This is the quintessential maid style, that's for sure."
+	},
+	op_reply_88_1_1 = {
+		value = "As a Royal Maid, it honours me to hear that, Commander!"
+	},
+	ins_op_88_1_2 = {
+		value = "For a second there I really thought you were Belfast."
+	},
+	op_reply_88_1_2 = {
+		value = "Hehe, but only for a second. Which is to say: I still have a long way to go!"
+	},
+	ins_89 = {
+		value = "snapped a selfie with a shooting star"
+	},
+	ins_discuss_89_1 = {
+		value = "Wow, it's so pretty... Did you make a wish?"
+	},
+	ins_reply_89_1_1 = {
+		value = "nop, didnt see it till it was too late anyway"
+	},
+	ins_reply_89_1_2 = {
+		value = "Aww... Well, better luck next time!"
+	},
+	ins_discuss_89_2 = {
+		value = "a shooting ☆star☆! oh gosh, quick, what should I wish for~"
+	},
+	ins_reply_89_2_1 = {
+		value = "uhh, i dont think pictures of shooting stars can grant wishes"
+	},
+	ins_reply_89_2_2 = {
+		value = "well, *I* think they can! anything is possible if you believe it is! ^o^"
+	},
+	ins_reply_89_2_3 = {
+		value = "lets hope that works out for you then"
+	},
+	ins_op_89_1_1 = {
+		value = "A shooting star? Talk about lucky."
+	},
+	op_reply_89_1_1 = {
+		value = "talk about ordinary astronomical event more like"
+	},
+	ins_op_89_1_2 = {
+		value = "Now that's a nice photo."
+	},
+	op_reply_89_1_2 = {
+		value = "thanks? dont forget to like and follow for more"
+	},
+	ins_90 = {
+		value = "A leader needs charisma! Charisma with a capital C!"
+	},
+	ins_discuss_90_1 = {
+		value = "C? Sea. What I see is a leader with the charisma to ignore the crashing waves behind them."
+	},
+	ins_reply_90_1_1 = {
+		value = "Poetic! But yes, that is correct!"
+	},
+	ins_reply_90_1_2 = {
+		value = "twas not the stone nor the throne that fell the queen, but the seas... or something"
+	},
+	ins_discuss_90_2 = {
+		value = "Poor Lady Valiant. I heard she got drenched by the waves, which led to her catching a cold."
+	},
+	ins_reply_90_2_1 = {
+		value = "My, how terrible that must've been."
+	},
+	ins_reply_90_2_2 = {
+		value = "I never caught a cold! Fake news! Rumours! RUMOURS, I SAY!"
+	},
+	ins_discuss_90_3 = {
+		value = "Hoho! Not bad, Valiant, but your charisma pales in comparison to ours! We shall replicate this photograph, but even better!"
+	},
+	ins_reply_90_3_1 = {
+		value = "Hoho right back at you, sister! You may believe yourself superior now, but one day the throne shall be mine!"
+	},
+	ins_reply_90_3_2 = {
+		value = "Your Majesty, there is no need to try to one-up her! I urge you to reconsider!"
+	},
+	ins_op_90_1_1 = {
+		value = "Charisma with a capital C, indeed!"
+	},
+	op_reply_90_1_1 = {
+		value = "Hoho! Indulge in my charisma! Let it be your lifeblood!"
+	},
+	ins_op_90_1_2 = {
+		value = "Were you okay after that wave?"
+	},
+	op_reply_90_1_2 = {
+		value = "I am Valiant! No wave could as much as perturb me!"
+	},
+	ins_91 = {
+		value = "I went for a dive and gosh, it was a ton of fun!"
+	},
+	ins_discuss_91_1 = {
+		value = "finally, a surface ship that just gets it! U-BOAT GANG, GET IN HERE!"
+	},
+	ins_reply_91_1_1 = {
+		value = "Calm down, she only just started diving. Anyway, Icarus, want me to dm you some beginner diving tips?"
+	},
+	ins_reply_91_1_2 = {
+		value = "Oh, if it's no problem, yes please!"
+	},
+	ins_reply_91_1_3 = {
+		value = "we'll turn you into a proper iron blood u-boat yet, don't you worry, heh"
+	},
+	ins_discuss_91_2 = {
+		value = "Hey, that's no fair! We wanna play with her too! TvT"
+	},
+	ins_reply_91_2_1 = {
+		value = "These replies lol. Icarus: Diving is fun! / Literally every submarine: HELLO DO YOU HAVE A MOMENT MISS"
+	},
+	ins_reply_91_2_2 = {
+		value = "That's because surface ships who're into scuba diving are rarer than unicorns, dangit :T"
+	},
+	ins_reply_91_2_3 = {
+		value = "Don't worry! We can play together the next time!"
+	},
+	ins_op_91_1_1 = {
+		value = "Suddenly I'm raring to go for a dip."
+	},
+	op_reply_91_1_1 = {
+		value = "I'm certain it'd be more fun if we went for a swim together!"
+	},
+	ins_op_91_1_2 = {
+		value = "Is nobody going to bring up the stunning coral reefs?"
+	},
+	op_reply_91_1_2 = {
+		value = "You're the first! If you ever have the time, I'd love to revisit them with you!"
+	},
+	ins_92 = {
+		value = "\"Hey there, little one. Are you lost?\""
+	},
+	ins_discuss_92_1 = {
+		value = "That's my pet eagle. Thanks for finding her."
+	},
+	ins_reply_92_1_1 = {
+		value = "Oh, she's YOURS, Enterprise? I thought I'd seen her somewhere. Maybe destiny is what led me to her."
+	},
+	ins_reply_92_1_2 = {
+		value = "Destiny? Why do you say that?"
+	},
+	ins_reply_92_1_3 = {
+		value = "Ah, never mind. I just feel like we have some kind of connection."
+	},
+	ins_reply_92_1_4 = {
+		value = "Maybe your names. You're both eagles."
+	},
+	ins_discuss_92_2 = {
+		value = "birds of a feather flock together amirite"
+	},
+	ins_reply_92_2_1 = {
+		value = "Huh? I don't have feathers."
+	},
+	ins_op_92_1_1 = {
+		value = "I like that expression."
+	},
+	op_reply_92_1_1 = {
+		value = "Expression? Whose?"
+	},
+	ins_op_92_1_2 = {
+		value = "Oh, hey, that's Enterprise's eagle."
+	},
+	op_reply_92_1_2 = {
+		value = "Apparently so. Have you ever petted it, Commander?"
+	},
+	ins_93 = {
+		value = "There's no problem on this earth that cookies can't fix!"
+	},
+	ins_discuss_93_1 = {
+		value = "Lovely cookies as always, Howe."
+	},
+	ins_reply_93_1_1 = {
+		value = "Mhm, I'm happy with how they turned out. stop by later if you want one, George!"
+	},
+	ins_reply_93_1_2 = {
+		value = "What a gracious offer! I shall take you up on it."
+	},
+	ins_discuss_93_2 = {
+		value = "Can I help the next time you make cookies? I want to be there from start to finish; baking to eating!"
+	},
+	ins_reply_93_2_1 = {
+		value = "Sure thing, love."
+	},
+	ins_reply_93_2_2 = {
+		value = "I recently learned of a splendid cookie recipe, if you'd care to try it, Miss Howe."
+	},
+	ins_reply_93_2_3 = {
+		value = "Oh really? Let's go with that"
+	},
+	ins_reply_93_2_4 = {
+		value = "*sigh*... There goes my chance..."
+	},
+	ins_op_93_1_1 = {
+		value = "They look great. I'd love to have one."
+	},
+	op_reply_93_1_1 = {
+		value = "Lucky for you, I've still got a few left! I'll bring them to your quarters later, Commander."
+	},
+	ins_op_93_1_2 = {
+		value = "Those are some cute cookie designs."
+	},
+	op_reply_93_1_2 = {
+		value = "Cheers, love. Maybe I'll make one in your image next time, hehe"
+	},
+	ins_94 = {
+		value = "Let's bury our hatchets and be friends now, all right?"
+	},
+	ins_discuss_94_1 = {
+		value = "The past is the past, but putting it behind you is another topic..."
+	},
+	ins_reply_94_1_1 = {
+		value = "Well done, Howe! A handshake is the first step to reconciliation."
+	},
+	ins_reply_94_1_2 = {
+		value = "\"Reconciliation\"? Oh please, don't paint it as something greater than it is"
+	},
+	ins_reply_94_1_3 = {
+		value = "More than it is? What is it, then?"
+	},
+	ins_reply_94_1_4 = {
+		value = "Well, it's SOMETHING, I suppose."
+	},
+	ins_discuss_94_2 = {
+		value = "Hmph. Why must I help rebuild the bridge that YOU burned?"
+	},
+	ins_reply_94_2_1 = {
+		value = "Tis best to accept thy fate and heal the bond that hath been damaged."
+	},
+	ins_reply_94_2_2 = {
+		value = "York said it best! Seeing you reconcile brings a smile to my face."
+	},
+	ins_reply_94_2_3 = {
+		value = "Let's have cookies at our next gathering. There'll be some for you too, Monarch!"
+	},
+	ins_reply_94_2_4 = {
+		value = "I must admit, I do want a cookie..."
+	},
+	ins_op_94_1_1 = {
+		value = "Aww, how sweet!"
+	},
+	op_reply_94_1_1 = {
+		value = "They're a long way from friends, but at least they're not going at each other's throats anymore."
+	},
+	ins_op_94_1_2 = {
+		value = "I couldn't have said it better myself."
+	},
+	op_reply_94_1_2 = {
+		value = "Mhm! I knew you'd agree, Commander."
+	},
+	ins_95 = {
+		value = "helping yuubari with this prototype aeroplane. handles more like a toy plane than a fighter tho tbh"
+	},
+	ins_discuss_95_1 = {
+		value = "I believe that IS a toy plane. Don't tell the foolish cat, though. I advice against giving her any funny ideas."
+	},
+	ins_reply_95_1_1 = {
+		value = "uhh, i think you just did. anyone can read these posts"
+	},
+	ins_reply_95_1_2 = {
+		value = "We'll modify it, mass-produce it, and make a mint, nya! Thanks for the inspiration, nya!"
+	},
+	ins_reply_95_1_3 = {
+		value = "i want a 15% cut for prototyping it kthx"
+	},
+	ins_discuss_95_2 = {
+		value = "I bet it would be lovely to soar through the air like that plane."
+	},
+	ins_reply_95_2_1 = {
+		value = "guess we could upscale it and make it big enough to fit a person"
+	},
+	ins_reply_95_2_2 = {
+		value = "Um, would that even be possible? It sounds like an engineering challenge..."
+	},
+	ins_reply_95_2_3 = {
+		value = "hum-hum. improbable, but not impossible... We shall build a prototype and expand the horizons of science."
+	},
+	ins_reply_95_2_4 = {
+		value = "When it's done, allow me to be your test pilot, please!"
+	},
+	ins_reply_95_2_5 = {
+		value = "hum-hum. we shall see."
+	},
+	ins_op_95_1_1 = {
+		value = "Looks like fun."
+	},
+	op_reply_95_1_1 = {
+		value = "great, then you can pilot it next time"
+	},
+	ins_op_95_1_2 = {
+		value = "I'm guessing it IS a toy plane."
+	},
+	op_reply_95_1_2 = {
+		value = "apparently it isnt tho so /shrug"
+	},
+	ins_96 = {
+		value = "#Exercising at the #gym to lose some pounds!"
+	},
+	ins_discuss_96_1 = {
+		value = "Keep at it. Losing weight takes a lot of perseverance."
+	},
+	ins_reply_96_1_1 = {
+		value = "You know me. I'm nothing if not persistent!"
+	},
+	ins_reply_96_1_2 = {
+		value = "That's the spirit, love. I'm rooting for you"
+	},
+	ins_discuss_96_2 = {
+		value = "It's inspirational to see you pushing yourself daily, Miss Eagle."
+	},
+	ins_reply_96_2_1 = {
+		value = "Thanks. Hope it motivates you to do the same."
+	},
+	ins_discuss_96_3 = {
+		value = "And after exercise: relax time! ^_^ Warm bath and crisps, let's goooo~"
+	},
+	ins_reply_96_3_1 = {
+		value = "I still wish you hadn't given up on your exercise regimen after just one day, Edinburgh."
+	},
+	ins_reply_96_3_2 = {
+		value = "If she's got trouble sticking to it, I could be her coach."
+	},
+	ins_reply_96_3_3 = {
+		value = "Thanks, but I think I'll pass!"
+	},
+	ins_op_96_1_1 = {
+		value = "Let's work out together sometime!"
+	},
+	op_reply_96_1_1 = {
+		value = "Sure thing. Need a workout plan, Commander? I could create one for you."
+	},
+	ins_op_96_1_2 = {
+		value = "Oof. I'm sweating just looking at those weights."
+	},
+	op_reply_96_1_2 = {
+		value = "No pain, no gain, Commander. Plus, you feel great afterwards."
+	},
+	ins_97 = {
+		value = "I ran some errands and went shopping earlier today!"
+	},
+	ins_discuss_97_1 = {
+		value = "Thank you, Hermione. You were a great help."
+	},
+	ins_reply_97_1_1 = {
+		value = "Oh, it was my pleasure. I enjoy shopping for food, toiletries, and the like."
+	},
+	ins_reply_97_1_2 = {
+		value = "Would you mind if I accompanied you on your next shopping trip?"
+	},
+	ins_reply_97_1_3 = {
+		value = "If it's not too much trouble, I would love to have you along, Miss Newcastle."
+	},
+	ins_discuss_97_2 = {
+		value = "Dear, oh dear, you're such a hard worker, Hermione... Last time Master requested I go shopping, I just... I..."
+	},
+	ins_reply_97_2_1 = {
+		value = "I know you always do your best, Dido! Especially if it's a request directly from the Commander!"
+	},
+	ins_reply_97_2_2 = {
+		value = "I-I do try my best, yes..."
+	},
+	ins_reply_97_2_3 = {
+		value = "Then you have nothing to worry about. You're doing fine."
+	},
+	ins_op_97_1_1 = {
+		value = "I'll go with you next time."
+	},
+	op_reply_97_1_1 = {
+		value = "Your offer is most gracious, Commander, but it would be rude of me to take precious time out of your day."
+	},
+	ins_op_97_1_2 = {
+		value = "Looking forward to dinner tonight."
+	},
+	op_reply_97_1_2 = {
+		value = "I shall put my utmost effort into cooking you a delectable dinner, Commander."
+	},
+	ins_98 = {
+		value = "#FreeToDream One day, I want to wield firepower like this!"
+	},
+	ins_discuss_98_1 = {
+		value = "Battleship-grade firepower on a destroyer? That's brave!"
+	},
+	ins_reply_98_1_1 = {
+		value = "I suppose you're right, Lady Valiant... I can only dream of reaching your level."
+	},
+	ins_discuss_98_2 = {
+		value = "Destroyers are all about mobility, not firepower. Focus on your strengths, Icarus."
+	},
+	ins_reply_98_2_1 = {
+		value = "Well, that's true, but wouldn't it be great to have both?"
+	},
+	ins_discuss_98_3 = {
+		value = "If there's a will, there's a way. You'd be surprised how close you can come to achieving your dream."
+	},
+	ins_reply_98_3_1 = {
+		value = "Thank you for the inspirational words, Miss Howe!"
+	},
+	ins_reply_98_3_2 = {
+		value = "just an fyi: it might not be all its cracked up to be"
+	},
+	ins_op_98_1_1 = {
+		value = "Big BB energy."
+	},
+	op_reply_98_1_1 = {
+		value = "I just hope I'll be able to achieve it in reality some day~"
+	},
+	ins_op_98_1_2 = {
+		value = "You might be setting your sights a little too high."
+	},
+	op_reply_98_1_2 = {
+		value = "Hahaha... Yeah, you're probably right... Flying too close to the sun, and all that..."
+	},
+	ins_99 = {
+		value = "It is I, Valiant, deep in thought as I plan my next move on this divergent chessboard!"
+	},
+	ins_discuss_99_1 = {
+		value = "Z23 said you were a worthy adversary, even with the handicap placed on her."
+	},
+	ins_reply_99_1_1 = {
+		value = "She, too, was a tough opponent. Next time, I shall win with no such advantage!"
+	},
+	ins_reply_99_1_2 = {
+		value = "lmaooo for a sec there i thought valiant was actually good at chess"
+	},
+	ins_reply_99_1_3 = {
+		value = "She is a very apt chess player and is able to move the pieces on the board."
+	},
+	ins_reply_99_1_4 = {
+		value = "Um... Thanks for the compliment?"
+	},
+	ins_discuss_99_2 = {
+		value = "Do you add much sugar to your tea, Lady Valiant?"
+	},
+	ins_reply_99_2_1 = {
+		value = "Of course! The brain requires energy for intense mental labour."
+	},
+	ins_reply_99_2_2 = {
+		value = "Ah. I will start doing the same!"
+	},
+	ins_reply_99_2_3 = {
+		value = "Watch out for the calories, though. Ugh, I can feel my arteries clogging up just looking at all that sugar!"
+	},
+	ins_op_99_1_1 = {
+		value = "Wanna have a game with me sometime, Valiant?"
+	},
+	op_reply_99_1_1 = {
+		value = "Oh, I will! And I will win if it's the last thing I do, mark my words!"
+	},
+	ins_op_99_1_2 = {
+		value = "Want some tips? I know a thing or two about chess."
+	},
+	op_reply_99_1_2 = {
+		value = "I want no such thing! I can manage just fine on my own!"
 	}
 }

@@ -2223,6 +2223,21 @@ pg.memory_group = {
 			1210
 		}
 	},
+	[549] = {
+		title = "Anything and Everything for Indy! ",
+		type = 3,
+		id = 549,
+		icon = "title_chara_botelan",
+		memories = {
+			1321,
+			1322,
+			1323,
+			1324,
+			1325,
+			1326,
+			1327
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2352,6 +2367,7 @@ pg.memory_group = {
 		545,
 		546,
 		547,
-		548
+		548,
+		549
 	}
 }

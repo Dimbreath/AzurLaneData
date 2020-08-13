@@ -1841,7 +1841,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[45,3041]",
+		next_task = "[45,3041,6041]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1101,
@@ -1883,7 +1883,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[46,3042]",
+		next_task = "[46,3042,6042]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1102,
@@ -1925,7 +1925,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[47,3043]",
+		next_task = "[47,3043,6043]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1103,
@@ -1967,7 +1967,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[48,3044]",
+		next_task = "[48,3044,6044]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1104,
@@ -18863,6 +18863,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5511] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5373,
+		type = 5,
+		name = "Let's Have a Week of Indy!",
+		count_inherit = 0,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "botelan",
+		award_choice = "",
+		level = 1,
+		next_task = "5512",
+		visibility = 1,
+		story_id = "BOTELAN1",
+		target_id_for_client = 50003,
+		id = 5511,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5512] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5374,
+		type = 5,
+		name = "Clash of Sisters",
+		count_inherit = 0,
+		desc = "Enhance any character 10 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5513",
+		visibility = 1,
+		story_id = "BOTELAN2",
+		target_id_for_client = 0,
+		id = 5512,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5513] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5375,
+		type = 5,
+		name = "Like Two Peas in a Pod",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 victories with Portland in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5514",
+		visibility = 1,
+		story_id = "BOTELAN3",
+		target_id_for_client = 10306,
+		id = 5513,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "10306",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5514] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5376,
+		type = 5,
+		name = "Distance Felt",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with Portland in the fleet.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5515",
+		visibility = 1,
+		story_id = "BOTELAN4",
+		target_id_for_client = 10306,
+		id = 5514,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "10306",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5515] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5377,
+		type = 5,
+		name = "Change of Plans",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Portland.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5516",
+		visibility = 1,
+		story_id = "BOTELAN5",
+		target_id_for_client = 10306,
+		id = 5515,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "10306",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5516] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5378,
+		type = 5,
+		name = "More Layers Than One",
+		count_inherit = 0,
+		desc = "Fully Limit Break Portland.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5517",
+		visibility = 1,
+		story_id = "BOTELAN6",
+		target_id_for_client = 103064,
+		id = 5516,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "103064",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5517] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5379,
+		type = 5,
+		name = "Happiness is Best When Shared",
+		count_inherit = 0,
+		desc = "Get Portland to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "botelan",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "BOTELAN7",
+		target_id_for_client = 10306,
+		id = 5517,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "10306",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -20223,6 +20479,154 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[6041] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6041,
+		type = 2,
+		name = "困难·拂晓登陆！",
+		count_inherit = 0,
+		desc = "Get 3 stars on Hard mode in stage 11-1.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 11101,
+		id = 6041,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "11101",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				2
+			},
+			{
+				2,
+				15008,
+				250
+			}
+		}
+	},
+	[6042] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6042,
+		type = 2,
+		name = "困难·暴风雨之夜",
+		count_inherit = 0,
+		desc = "Get 3 stars on Hard mode in stage 11-2.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 11102,
+		id = 6042,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "11102",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				2
+			},
+			{
+				2,
+				15008,
+				350
+			}
+		}
+	},
+	[6043] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6043,
+		type = 2,
+		name = "困难·所罗门四骑士",
+		count_inherit = 0,
+		desc = "Get 3 stars on Hard mode in stage 11-3.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 11103,
+		id = 6043,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "11103",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				2
+			},
+			{
+				2,
+				15008,
+				450
+			}
+		}
+	},
+	[6044] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6044,
+		type = 2,
+		name = "困难·撕裂黑夜！",
+		count_inherit = 0,
+		desc = "Get 3 stars on Hard mode in stage 11-4.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 11104,
+		id = 6044,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "11104",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				2
+			},
+			{
+				2,
+				15008,
+				550
+			}
+		}
+	},
 	[7001] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -20618,7 +21022,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -24756,7 +25164,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -25437,7 +25849,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -27088,7 +27504,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -28077,7 +28497,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -28182,7 +28606,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -28287,7 +28715,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -28392,7 +28824,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -28497,7 +28933,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -28602,7 +29042,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -28707,7 +29151,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -28812,7 +29260,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -28917,7 +29369,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -29022,7 +29478,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -29127,7 +29587,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -29232,7 +29696,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -29337,7 +29805,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -29442,7 +29914,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -35268,7 +35744,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -35917,7 +36397,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -38659,7 +39143,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -38988,7 +39476,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -39317,7 +39809,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -39646,7 +40142,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -39975,7 +40475,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -43472,7 +43976,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -45413,7 +45921,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -47759,7 +48271,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -51486,7 +52002,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -53467,7 +53987,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -57845,7 +58369,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -59037,7 +59565,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -60100,7 +60632,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -60205,7 +60741,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -60310,7 +60850,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -60415,7 +60959,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -60520,7 +61068,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -60625,7 +61177,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -60730,7 +61286,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -60835,7 +61395,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -60940,7 +61504,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -61045,7 +61613,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -61150,7 +61722,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -61255,7 +61831,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -61360,7 +61940,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -61465,7 +62049,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -63510,7 +64098,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -63583,7 +64175,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -64674,7 +65270,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -65991,7 +66591,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -66128,7 +66732,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -69571,7 +70179,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -70380,7 +70992,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -72872,7 +73488,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -72945,7 +73565,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -74324,7 +74948,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -76456,7 +77084,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -77390,7 +78022,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -78872,7 +79508,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -79651,6 +80291,1980 @@ pg.task_data_template = {
 		},
 		scene = {
 			"ACTIVITY_MAP"
+		}
+	},
+	[15620] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93105,
+		type = 26,
+		name = "Active Commander Points Acquired:30",
+		count_inherit = 0,
+		desc = "Login to the game.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15620,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				310,
+				1
+			}
+		}
+	},
+	[15621] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93106,
+		type = 26,
+		name = "Active Commander Points Acquired:30",
+		count_inherit = 0,
+		desc = "Clear 3 Hard Mode stages.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15621,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30305,
+				5
+			}
+		}
+	},
+	[15622] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93107,
+		type = 26,
+		name = "Active Commander Points Acquired:30",
+		count_inherit = 0,
+		desc = "Build 1 ship.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15622,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42010,
+				2
+			}
+		}
+	},
+	[15623] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93108,
+		type = 26,
+		name = "Active Commander Points Acquired:30",
+		count_inherit = 0,
+		desc = "Clear 3 Hard Mode stages.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15623,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		}
+	},
+	[15624] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93109,
+		type = 26,
+		name = "Active Commander Points Acquired:25",
+		count_inherit = 0,
+		desc = "Resupply the Dorm with Snacks 5 times.",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15624,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50005,
+				5
+			}
+		}
+	},
+	[15625] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93110,
+		type = 26,
+		name = "Active Commander Points Acquired:25",
+		count_inherit = 0,
+		desc = "Clear 3 Hard Mode stages.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15625,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30310,
+				5
+			}
+		}
+	},
+	[15626] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93111,
+		type = 26,
+		name = "Active Commander Points Acquired:25",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges.",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15626,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54034,
+				2
+			}
+		}
+	},
+	[15627] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93112,
+		type = 26,
+		name = "Active Commander Points Acquired:25",
+		count_inherit = 0,
+		desc = "Clear 3 Hard Mode stages.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15627,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		}
+	},
+	[15628] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93113,
+		type = 26,
+		name = "Active Commander Points Acquired:20",
+		count_inherit = 0,
+		desc = "Complete 3 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15628,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15003,
+				3
+			}
+		}
+	},
+	[15629] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93114,
+		type = 26,
+		name = "Active Commander Points Acquired:20",
+		count_inherit = 0,
+		desc = "Clear 3 Hard Mode stages.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15629,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				15,
+				301,
+				1
+			}
+		}
+	},
+	[15630] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93115,
+		type = 26,
+		name = "Active Commander Points Acquired:20",
+		count_inherit = 0,
+		desc = "Enhance ships 5 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15630,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	},
+	[15631] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93116,
+		type = 26,
+		name = "Active Commander Points Acquired:20",
+		count_inherit = 0,
+		desc = "Clear 3 Hard Mode stages.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15631,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		}
+	},
+	[15632] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93117,
+		type = 26,
+		name = "Active Commander Points Acquired:15",
+		count_inherit = 0,
+		desc = "Conduct 2 Exercises.",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15632,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			}
+		}
+	},
+	[15633] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93118,
+		type = 26,
+		name = "Active Commander Points Acquired:15",
+		count_inherit = 0,
+		desc = "Clear 3 Hard Mode stages.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15633,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30309,
+				5
+			}
+		}
+	},
+	[15634] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93119,
+		type = 26,
+		name = "Active Commander Points Acquired:15",
+		count_inherit = 0,
+		desc = "Build 1 ship.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15634,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42010,
+				3
+			}
+		}
+	},
+	[15635] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93120,
+		type = 26,
+		name = "Active Commander Points Acquired:15",
+		count_inherit = 0,
+		desc = "Clear 3 Hard Mode stages.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15635,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		}
+	},
+	[15636] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93121,
+		type = 26,
+		name = "Active Commander Points Acquired:15",
+		count_inherit = 0,
+		desc = "Resupply the Dorm with Snacks 5 times.",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15636,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50006,
+				4
+			}
+		}
+	},
+	[15637] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93122,
+		type = 26,
+		name = "Active Commander Points Acquired:15",
+		count_inherit = 0,
+		desc = "Clear 3 Hard Mode stages.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15637,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		}
+	},
+	[15638] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93123,
+		type = 26,
+		name = "Active Commander Points Acquired:15",
+		count_inherit = 0,
+		desc = "Complete 3 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15638,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15003,
+				5
+			}
+		}
+	},
+	[15639] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93124,
+		type = 26,
+		name = "Active Commander Points Acquired:15",
+		count_inherit = 0,
+		desc = "Clear 3 Hard Mode stages.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15639,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42010,
+				5
+			}
+		}
+	},
+	[15640] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93125,
+		type = 26,
+		name = "Active Commander Points Acquired:10",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges.",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15640,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54034,
+				3
+			}
+		}
+	},
+	[15641] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93126,
+		type = 26,
+		name = "Active Commander Points Acquired:10",
+		count_inherit = 0,
+		desc = "Clear 3 Hard Mode stages.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15641,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		}
+	},
+	[15642] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93127,
+		type = 26,
+		name = "Active Commander Points Acquired:10",
+		count_inherit = 0,
+		desc = "Enhance ships 5 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15642,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				10
+			}
+		}
+	},
+	[15643] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93128,
+		type = 26,
+		name = "Active Commander Points Acquired:10",
+		count_inherit = 0,
+		desc = "Clear 3 Hard Mode stages.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15643,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		}
+	},
+	[15644] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93129,
+		type = 26,
+		name = "Active Commander Points Acquired:10",
+		count_inherit = 0,
+		desc = "Conduct 2 Exercises.",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15644,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42020,
+				2
+			}
+		}
+	},
+	[15645] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93130,
+		type = 26,
+		name = "Active Commander Points Acquired:10",
+		count_inherit = 0,
+		desc = "Clear 3 Hard Mode stages.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15645,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		}
+	},
+	[15646] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93131,
+		type = 26,
+		name = "Active Commander Points Acquired:10",
+		count_inherit = 0,
+		desc = "Build 1 ship.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15646,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				3
+			}
+		}
+	},
+	[15647] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93132,
+		type = 26,
+		name = "Active Commander Points Acquired:10",
+		count_inherit = 0,
+		desc = "Clear 3 Hard Mode stages.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15647,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30307,
+				5
+			}
+		}
+	},
+	[15648] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93163,
+		type = 26,
+		name = "召集者任务可获得PT：35",
+		count_inherit = 0,
+		desc = "(1/14) Sortie and obtain 25 Perfect victories.",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15648,
+		target_num = 25,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59162,
+				35
+			}
+		}
+	},
+	[15649] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93164,
+		type = 26,
+		name = "召集者任务可获得PT：35",
+		count_inherit = 0,
+		desc = "(2/14) Conduct tactical training 6 times.",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15649,
+		target_num = 6,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59162,
+				35
+			}
+		}
+	},
+	[15650] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93165,
+		type = 26,
+		name = "召集者任务可获得PT：35",
+		count_inherit = 0,
+		desc = "(3/14) Sortie and defeat 5 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15650,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59162,
+				35
+			}
+		}
+	},
+	[15651] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93166,
+		type = 26,
+		name = "召集者任务可获得PT：35",
+		count_inherit = 0,
+		desc = "(4/14) Conduct 10 Exercises.",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15651,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59162,
+				35
+			}
+		}
+	},
+	[15652] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93167,
+		type = 26,
+		name = "召集者任务可获得PT：35",
+		count_inherit = 0,
+		desc = "(5/14) Defeat 250 enemies.",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15652,
+		target_num = 250,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59162,
+				35
+			}
+		}
+	},
+	[15653] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93168,
+		type = 26,
+		name = "召集者任务可获得PT：35",
+		count_inherit = 0,
+		desc = "(6/14) Sortie and obtain 35 Perfect victories.",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15653,
+		target_num = 35,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59162,
+				35
+			}
+		}
+	},
+	[15654] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93169,
+		type = 26,
+		name = "召集者任务可获得PT：35",
+		count_inherit = 0,
+		desc = "(7/14) Complete 10 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15654,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59162,
+				35
+			}
+		}
+	},
+	[15655] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93170,
+		type = 26,
+		name = "召集者任务可获得PT：35",
+		count_inherit = 0,
+		desc = "(8/14) Sortie and defeat 8 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15655,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59162,
+				35
+			}
+		}
+	},
+	[15656] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93171,
+		type = 26,
+		name = "召集者任务可获得PT：35",
+		count_inherit = 0,
+		desc = "(9/14) Enhance ships 20 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15656,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59162,
+				35
+			}
+		}
+	},
+	[15657] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93172,
+		type = 26,
+		name = "召集者任务可获得PT：35",
+		count_inherit = 0,
+		desc = "(10/14) Defeat 350 enemies.",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15657,
+		target_num = 350,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59162,
+				35
+			}
+		}
+	},
+	[15658] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93173,
+		type = 26,
+		name = "召集者任务可获得PT：35",
+		count_inherit = 0,
+		desc = "(11/14) Sortie and obtain 45 Perfect victories.",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15658,
+		target_num = 45,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59162,
+				35
+			}
+		}
+	},
+	[15659] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93174,
+		type = 26,
+		name = "召集者任务可获得PT：35",
+		count_inherit = 0,
+		desc = "(12/14) Complete 3 Daily Challenges.",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15659,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59162,
+				35
+			}
+		}
+	},
+	[15660] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93175,
+		type = 26,
+		name = "召集者任务可获得PT：40",
+		count_inherit = 0,
+		desc = "(13/14) Sortie and defeat 10 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15660,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59162,
+				40
+			}
+		}
+	},
+	[15661] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93176,
+		type = 26,
+		name = "召集者任务可获得PT：40",
+		count_inherit = 0,
+		desc = "(14/14) Defeat 500 enemies.",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15661,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59162,
+				40
+			}
 		}
 	},
 	[15662] = {
@@ -83593,6 +86207,678 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15810] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91132,
+		type = 6,
+		name = "美服二周年登录送头像框",
+		count_inherit = 0,
+		desc = "Login to the game.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15810,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				310,
+				1
+			}
+		}
+	},
+	[15811] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93559,
+		type = 6,
+		name = "美服2-战斗胜利I",
+		count_inherit = 0,
+		desc = "Claim victory 50 times.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15811,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				100
+			}
+		}
+	},
+	[15812] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93560,
+		type = 6,
+		name = "美服2-战斗胜利II",
+		count_inherit = 0,
+		desc = "Claim victory 80 times.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15812,
+		target_num = 80,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				150
+			}
+		}
+	},
+	[15813] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93561,
+		type = 6,
+		name = "美服2-战斗胜利III",
+		count_inherit = 0,
+		desc = "Claim victory 120 times.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15813,
+		target_num = 120,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				200
+			}
+		}
+	},
+	[15814] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93562,
+		type = 6,
+		name = "美服2-战斗胜利IV",
+		count_inherit = 0,
+		desc = "Claim victory 200 times.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15814,
+		target_num = 200,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				300
+			}
+		}
+	},
+	[15815] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93563,
+		type = 6,
+		name = "美服2-消灭旗舰I",
+		count_inherit = 0,
+		desc = "Destroy 10 enemy flagships.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15815,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				100
+			}
+		}
+	},
+	[15816] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93564,
+		type = 6,
+		name = "美服2-消灭旗舰II",
+		count_inherit = 0,
+		desc = "Destroy 20 enemy flagships.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15816,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				150
+			}
+		}
+	},
+	[15817] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93565,
+		type = 6,
+		name = "美服2-消灭旗舰III",
+		count_inherit = 0,
+		desc = "Destroy 30 enemy flagships.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15817,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				200
+			}
+		}
+	},
+	[15818] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93566,
+		type = 6,
+		name = "美服2-消灭旗舰IV",
+		count_inherit = 0,
+		desc = "Destroy 50 enemy flagships.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15818,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				300
+			}
+		}
+	},
+	[15819] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93567,
+		type = 6,
+		name = "美服2-建造I",
+		count_inherit = 0,
+		desc = "Build 5 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15819,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				100
+			}
+		}
+	},
+	[15820] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93568,
+		type = 6,
+		name = "美服2-建造II",
+		count_inherit = 0,
+		desc = "Build 20 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15820,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				300
+			}
+		}
+	},
+	[15821] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93569,
+		type = 6,
+		name = "美服2-委托I",
+		count_inherit = 0,
+		desc = "Complete 10 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15821,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				100
+			}
+		}
+	},
+	[15822] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93570,
+		type = 6,
+		name = "美服2-委托II",
+		count_inherit = 0,
+		desc = "Complete 20 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15822,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				150
+			}
+		}
+	},
+	[15823] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93571,
+		type = 6,
+		name = "美服2-委托III",
+		count_inherit = 0,
+		desc = "Complete 30 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15823,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				200
+			}
+		}
+	},
+	[15824] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93572,
+		type = 6,
+		name = "美服2-委托IV",
+		count_inherit = 0,
+		desc = "Complete 50 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15824,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				300
+			}
+		}
+	},
+	[15825] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93573,
+		type = 36,
+		name = "美服2-战斗胜利-日常",
+		count_inherit = 0,
+		desc = "Sortie and obtain 25 victories.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15825,
+		target_num = 25,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				60
+			}
+		}
+	},
+	[15826] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93574,
+		type = 36,
+		name = "美服2-消灭旗舰-日常",
+		count_inherit = 0,
+		desc = "Sortie and defeat 5 enemy flagships.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15826,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				60
+			}
+		}
+	},
+	[15827] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93575,
+		type = 36,
+		name = "美服2-建造-日常",
+		count_inherit = 0,
+		desc = "Build 3 times",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15827,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				60
+			}
+		}
+	},
+	[15828] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93576,
+		type = 36,
+		name = "美服2-强化-日常",
+		count_inherit = 0,
+		desc = "Enhance any character 8 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15828,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				60
+			}
+		}
+	},
+	[15829] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93577,
+		type = 36,
+		name = "美服2-退役-日常",
+		count_inherit = 0,
+		desc = "Retire 3 ships.",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15829,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				60
+			}
+		}
+	},
+	[15830] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93578,
+		type = 36,
+		name = "美服2-委托-日常",
+		count_inherit = 0,
+		desc = "Complete 5 commissions",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15830,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				165,
+				60
+			}
+		}
+	},
 	[31013] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -84231,7 +87517,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -84560,7 +87850,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -85435,7 +88729,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -85572,7 +88870,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -92842,7 +96144,11 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -94517,6 +97823,798 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 			}
 		}
 	},
+	[999987] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 1092571,
+		type = 6,
+		name = "Z23画家填色累计耗油1",
+		count_inherit = 15351,
+		desc = "Spend a total of 500 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "999988",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999987,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59970,
+				60
+			},
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59972,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[999988] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092572,
+		type = 6,
+		name = "Z23画家填色累计耗油2",
+		count_inherit = 15352,
+		desc = "Spent a total of 1,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "999989",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999988,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59973,
+				80
+			},
+			{
+				8,
+				59975,
+				60
+			},
+			{
+				8,
+				59976,
+				35
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[999989] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092573,
+		type = 6,
+		name = "Z23画家填色累计耗油3",
+		count_inherit = 15353,
+		desc = "Spent a total of 1,500 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "999990",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999989,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59977,
+				30
+			},
+			{
+				8,
+				59974,
+				90
+			},
+			{
+				8,
+				59972,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[999990] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092574,
+		type = 6,
+		name = "Z23画家填色累计耗油4",
+		count_inherit = 15354,
+		desc = "Spent a total of 2,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "999991",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999990,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59978,
+				100
+			},
+			{
+				8,
+				59975,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[999991] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092575,
+		type = 6,
+		name = "Z23画家填色累计耗油5",
+		count_inherit = 15355,
+		desc = "Spent a total of 2,500 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "999992",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999991,
+		target_num = 2500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59978,
+				100
+			},
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59974,
+				75
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[999992] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092576,
+		type = 6,
+		name = "Z23画家填色累计耗油6",
+		count_inherit = 15356,
+		desc = "Spent a total of 3,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "999993",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999992,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59976,
+				40
+			},
+			{
+				8,
+				59977,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[999993] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092577,
+		type = 6,
+		name = "Z23画家填色累计耗油7",
+		count_inherit = 15357,
+		desc = "Spent a total of 4,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "999994",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999993,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59978,
+				100
+			},
+			{
+				8,
+				59970,
+				90
+			},
+			{
+				8,
+				59975,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[999994] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092578,
+		type = 6,
+		name = "Z23画家填色累计耗油8",
+		count_inherit = 15358,
+		desc = "Spent a total of 5,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "999995",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999994,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59972,
+				80
+			},
+			{
+				8,
+				59977,
+				80
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[999995] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092579,
+		type = 6,
+		name = "Z23画家填色累计耗油9",
+		count_inherit = 15359,
+		desc = "Spent a total of 6,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "999996",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999995,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59970,
+				55
+			},
+			{
+				8,
+				59971,
+				80
+			},
+			{
+				8,
+				59975,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[999996] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092580,
+		type = 6,
+		name = "Z23画家填色累计耗油10",
+		count_inherit = 15360,
+		desc = "Spent a total of 7,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "999997",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999996,
+		target_num = 7000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				90
+			},
+			{
+				8,
+				59974,
+				75
+			},
+			{
+				8,
+				59977,
+				60
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[999997] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092581,
+		type = 6,
+		name = "Z23画家填色累计耗油11",
+		count_inherit = 15361,
+		desc = "Spent a total of 8,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "999998",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999997,
+		target_num = 8000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				100
+			},
+			{
+				8,
+				59977,
+				70
+			},
+			{
+				8,
+				59978,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[999998] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092582,
+		type = 6,
+		name = "Z23画家填色累计耗油12",
+		count_inherit = 15362,
+		desc = "Spent a total of 9,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "999999",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999998,
+		target_num = 9000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				120
+			},
+			{
+				8,
+				59972,
+				100
+			},
+			{
+				8,
+				59978,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[999999] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092583,
+		type = 6,
+		name = "Z23画家填色累计耗油13",
+		count_inherit = 15363,
+		desc = "Spent a total of 10,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "1000000",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999999,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59975,
+				110
+			},
+			{
+				8,
+				59973,
+				25
+			},
+			{
+				8,
+				59977,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[1000000] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092584,
+		type = 6,
+		name = "Z23画家填色累计耗油14",
+		count_inherit = 15364,
+		desc = "Spent a total of 11,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "1000001",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 1000000,
+		target_num = 11000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				70
+			},
+			{
+				8,
+				59974,
+				30
+			},
+			{
+				8,
+				59976,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[1000001] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092585,
+		type = 6,
+		name = "Z23画家填色累计耗油15",
+		count_inherit = 15365,
+		desc = "Spent a total of 12,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "1000002",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 1000001,
+		target_num = 12000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				70
+			},
+			{
+				8,
+				59977,
+				85
+			},
+			{
+				8,
+				59978,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[1000002] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092586,
+		type = 6,
+		name = "Z23画家填色累计耗油16",
+		count_inherit = 15366,
+		desc = "Spent a total of 13,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "1000003",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 1000002,
+		target_num = 13000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				70
+			},
+			{
+				8,
+				59972,
+				92
+			},
+			{
+				8,
+				59973,
+				48
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[1000003] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092587,
+		type = 6,
+		name = "Z23画家填色累计耗油17",
+		count_inherit = 15367,
+		desc = "Spent a total of 14,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "1000004",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 1000003,
+		target_num = 14000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59974,
+				45
+			},
+			{
+				8,
+				59975,
+				114
+			},
+			{
+				8,
+				59976,
+				10
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[1000004] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 1092588,
+		type = 6,
+		name = "Z23画家填色累计耗油18",
+		count_inherit = 0,
+		desc = "Spent a total of 15,000 Oil.",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 1000004,
+		target_num = 15000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59971,
+				75
+			},
+			{
+				8,
+				59977,
+				49
+			},
+			{
+				8,
+				59978,
+				44
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -95022,6 +99120,13 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		5505,
 		5506,
 		5507,
+		5511,
+		5512,
+		5513,
+		5514,
+		5515,
+		5516,
+		5517,
 		6001,
 		6002,
 		6003,
@@ -95062,6 +99167,10 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		6038,
 		6039,
 		6040,
+		6041,
+		6042,
+		6043,
+		6044,
 		7001,
 		7002,
 		7003,
@@ -96682,6 +100791,48 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		15587,
 		15588,
 		15589,
+		15620,
+		15621,
+		15622,
+		15623,
+		15624,
+		15625,
+		15626,
+		15627,
+		15628,
+		15629,
+		15630,
+		15631,
+		15632,
+		15633,
+		15634,
+		15635,
+		15636,
+		15637,
+		15638,
+		15639,
+		15640,
+		15641,
+		15642,
+		15643,
+		15644,
+		15645,
+		15646,
+		15647,
+		15648,
+		15649,
+		15650,
+		15651,
+		15652,
+		15653,
+		15654,
+		15655,
+		15656,
+		15657,
+		15658,
+		15659,
+		15660,
+		15661,
 		15662,
 		15664,
 		15666,
@@ -96784,6 +100935,27 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		15786,
 		15787,
 		15788,
+		15810,
+		15811,
+		15812,
+		15813,
+		15814,
+		15815,
+		15816,
+		15817,
+		15818,
+		15819,
+		15820,
+		15821,
+		15822,
+		15823,
+		15824,
+		15825,
+		15826,
+		15827,
+		15828,
+		15829,
+		15830,
 		31013,
 		31014,
 		31015,
@@ -97092,6 +101264,24 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		999983,
 		999984,
 		999985,
-		999986
+		999986,
+		999987,
+		999988,
+		999989,
+		999990,
+		999991,
+		999992,
+		999993,
+		999994,
+		999995,
+		999996,
+		999997,
+		999998,
+		999999,
+		1000000,
+		1000001,
+		1000002,
+		1000003,
+		1000004
 	}
 }

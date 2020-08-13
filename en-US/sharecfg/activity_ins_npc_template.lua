@@ -8705,8 +8705,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				13,
@@ -8715,8 +8715,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			467,
-			468
+			705,
+			706
 		}
 	},
 	{
@@ -8727,8 +8727,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				13,
@@ -8745,8 +8745,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				13,
@@ -8763,8 +8763,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				13,
@@ -8780,8 +8780,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				13,
@@ -8790,10 +8790,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			471,
-			472,
-			473,
-			469
+			705,
+			706
 		}
 	},
 	{
@@ -8804,8 +8802,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				13,
@@ -8822,8 +8820,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				13,
@@ -8840,8 +8838,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				13,
@@ -8858,8 +8856,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -8876,8 +8874,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -8893,8 +8891,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				14,
@@ -8903,9 +8901,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			477,
-			478,
-			479
+			705,
+			706
 		}
 	},
 	{
@@ -8916,8 +8913,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				14,
@@ -8934,8 +8931,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				14,
@@ -8952,8 +8949,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				14,
@@ -8969,8 +8966,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				14,
@@ -8979,9 +8976,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			481,
-			482,
-			483
+			705,
+			706
 		}
 	},
 	{
@@ -8992,8 +8988,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				14,
@@ -9010,8 +9006,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				14,
@@ -9028,8 +9024,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				15,
@@ -9046,8 +9042,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -9064,8 +9060,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -9081,8 +9077,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				18,
@@ -9091,8 +9087,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			487,
-			488
+			705,
+			706
 		}
 	},
 	{
@@ -9103,8 +9099,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				18,
@@ -9121,8 +9117,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				18,
@@ -9138,8 +9134,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				18,
@@ -9148,8 +9144,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			490,
-			491
+			705,
+			706
 		}
 	},
 	{
@@ -9160,8 +9156,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				18,
@@ -9178,8 +9174,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				18,
@@ -9196,8 +9192,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -9214,8 +9210,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -9231,8 +9227,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				29
+				8,
+				15
 			},
 			{
 				16,
@@ -9241,7 +9237,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			495
+			705,
+			706
 		}
 	},
 	{
@@ -9252,8 +9249,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				29
+				8,
+				15
 			},
 			{
 				16,
@@ -9269,8 +9266,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				29
+				8,
+				15
 			},
 			{
 				16,
@@ -9279,8 +9276,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			497,
-			498
+			705,
+			706
 		}
 	},
 	{
@@ -9291,8 +9288,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				29
+				8,
+				15
 			},
 			{
 				16,
@@ -9309,8 +9306,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				29
+				8,
+				15
 			},
 			{
 				16,
@@ -9327,8 +9324,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -9344,8 +9341,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				9,
@@ -9354,7 +9351,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			501
+			705,
+			706
 		}
 	},
 	{
@@ -9365,8 +9363,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				9,
@@ -9382,8 +9380,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				9,
@@ -9392,8 +9390,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			503,
-			504
+			705,
+			706
 		}
 	},
 	{
@@ -9404,8 +9402,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				10,
@@ -9422,8 +9420,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				10,
@@ -9440,8 +9438,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -9458,8 +9456,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -9475,8 +9473,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				13,
@@ -9485,9 +9483,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			508,
-			509,
-			510
+			705,
+			706
 		}
 	},
 	{
@@ -9498,8 +9495,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				13,
@@ -9516,8 +9513,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				13,
@@ -9534,8 +9531,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				13,
@@ -9551,8 +9548,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				14,
@@ -9561,8 +9558,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			512,
-			513
+			705,
+			706
 		}
 	},
 	{
@@ -9573,8 +9570,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				14,
@@ -9591,8 +9588,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				14,
@@ -9609,8 +9606,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -9626,8 +9623,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				14,
@@ -9636,9 +9633,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			516,
-			517,
-			518
+			705,
+			706
 		}
 	},
 	{
@@ -9649,8 +9645,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				14,
@@ -9667,8 +9663,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				14,
@@ -9685,8 +9681,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				14,
@@ -9702,8 +9698,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				14,
@@ -9712,8 +9708,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			520,
-			521
+			705,
+			706
 		}
 	},
 	{
@@ -9724,8 +9720,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				14,
@@ -9742,8 +9738,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				30
+				8,
+				16
 			},
 			{
 				15,
@@ -9760,8 +9756,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -9777,8 +9773,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				31
+				8,
+				17
 			},
 			{
 				10,
@@ -9787,8 +9783,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			524,
-			525
+			705,
+			706
 		}
 	},
 	{
@@ -9799,8 +9795,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				31
+				8,
+				17
 			},
 			{
 				10,
@@ -9817,8 +9813,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				31
+				8,
+				17
 			},
 			{
 				10,
@@ -9834,8 +9830,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				31
+				8,
+				17
 			},
 			{
 				10,
@@ -9844,9 +9840,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			527,
-			528,
-			529
+			705,
+			706
 		}
 	},
 	{
@@ -9857,8 +9852,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				31
+				8,
+				17
 			},
 			{
 				10,
@@ -9875,8 +9870,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				31
+				8,
+				17
 			},
 			{
 				10,
@@ -9893,8 +9888,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				31
+				8,
+				17
 			},
 			{
 				10,
@@ -9911,8 +9906,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -9929,8 +9924,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -9946,8 +9941,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				31
+				8,
+				17
 			},
 			{
 				15,
@@ -9956,7 +9951,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			533
+			705,
+			706
 		}
 	},
 	{
@@ -9967,8 +9963,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				31
+				8,
+				17
 			},
 			{
 				15,
@@ -9984,8 +9980,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				31
+				8,
+				17
 			},
 			{
 				15,
@@ -9994,7 +9990,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			535
+			705,
+			706
 		}
 	},
 	{
@@ -10005,8 +10002,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				31
+				8,
+				17
 			},
 			{
 				15,
@@ -10022,8 +10019,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				31
+				8,
+				17
 			},
 			{
 				15,
@@ -10032,7 +10029,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			537
+			705,
+			706
 		}
 	},
 	{
@@ -10043,8 +10041,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				31
+				8,
+				17
 			},
 			{
 				15,
@@ -10061,8 +10059,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -10079,8 +10077,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -10096,8 +10094,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				1
+				8,
+				18
 			},
 			{
 				11,
@@ -10106,9 +10104,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			541,
-			542,
-			543
+			705,
+			706
 		}
 	},
 	{
@@ -10119,8 +10116,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				1
+				8,
+				18
 			},
 			{
 				11,
@@ -10137,8 +10134,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				1
+				8,
+				18
 			},
 			{
 				11,
@@ -10155,8 +10152,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				1
+				8,
+				18
 			},
 			{
 				11,
@@ -10172,8 +10169,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				1
+				8,
+				18
 			},
 			{
 				12,
@@ -10182,8 +10179,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			545,
-			546
+			705,
+			706
 		}
 	},
 	{
@@ -10194,8 +10191,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				1
+				8,
+				18
 			},
 			{
 				12,
@@ -10212,8 +10209,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				1
+				8,
+				18
 			},
 			{
 				12,
@@ -10230,8 +10227,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -10247,8 +10244,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				2
+				8,
+				19
 			},
 			{
 				16,
@@ -10257,9 +10254,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			549,
-			550,
-			551
+			705,
+			706
 		}
 	},
 	{
@@ -10270,8 +10266,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				2
+				8,
+				19
 			},
 			{
 				16,
@@ -10288,8 +10284,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				2
+				8,
+				19
 			},
 			{
 				16,
@@ -10306,8 +10302,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				2
+				8,
+				19
 			},
 			{
 				16,
@@ -10323,8 +10319,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				2
+				8,
+				19
 			},
 			{
 				16,
@@ -10333,10 +10329,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			553,
-			554,
-			555,
-			556
+			705,
+			706
 		}
 	},
 	{
@@ -10347,8 +10341,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				2
+				8,
+				19
 			},
 			{
 				16,
@@ -10365,8 +10359,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				2
+				8,
+				19
 			},
 			{
 				17,
@@ -10383,8 +10377,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				2
+				8,
+				19
 			},
 			{
 				17,
@@ -10401,8 +10395,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				2
+				8,
+				19
 			},
 			{
 				17,
@@ -10418,8 +10412,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -10428,8 +10422,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			558,
-			559
+			705,
+			706
 		}
 	},
 	{
@@ -10440,8 +10434,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -10458,8 +10452,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -10475,8 +10469,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				3
+				8,
+				20
 			},
 			{
 				9,
@@ -10485,8 +10479,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			561,
-			562
+			705,
+			706
 		}
 	},
 	{
@@ -10497,8 +10491,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				3
+				8,
+				20
 			},
 			{
 				9,
@@ -10515,8 +10509,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				3
+				8,
+				20
 			},
 			{
 				10,
@@ -10532,8 +10526,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				3
+				8,
+				20
 			},
 			{
 				10,
@@ -10542,8 +10536,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			564,
-			565
+			705,
+			706
 		}
 	},
 	{
@@ -10554,8 +10548,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				3
+				8,
+				20
 			},
 			{
 				10,
@@ -10572,8 +10566,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				3
+				8,
+				20
 			},
 			{
 				10,
@@ -10590,8 +10584,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -10608,8 +10602,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -10625,8 +10619,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				4
+				8,
+				21
 			},
 			{
 				15,
@@ -10635,11 +10629,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			569,
-			570,
-			571,
-			572,
-			573
+			705,
+			706
 		}
 	},
 	{
@@ -10650,8 +10641,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				4
+				8,
+				21
 			},
 			{
 				15,
@@ -10668,8 +10659,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				4
+				8,
+				21
 			},
 			{
 				15,
@@ -10686,8 +10677,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				4
+				8,
+				21
 			},
 			{
 				15,
@@ -10704,8 +10695,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				4
+				8,
+				21
 			},
 			{
 				15,
@@ -10722,8 +10713,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				4
+				8,
+				21
 			},
 			{
 				15,
@@ -10739,8 +10730,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				4
+				8,
+				21
 			},
 			{
 				15,
@@ -10749,7 +10740,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			575
+			705,
+			706
 		}
 	},
 	{
@@ -10760,8 +10752,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				4
+				8,
+				21
 			},
 			{
 				16,
@@ -10778,8 +10770,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -10796,8 +10788,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -10813,8 +10805,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				5
+				8,
+				22
 			},
 			{
 				10,
@@ -10823,8 +10815,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			579,
-			580
+			705,
+			706
 		}
 	},
 	{
@@ -10835,8 +10827,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				5
+				8,
+				22
 			},
 			{
 				10,
@@ -10853,8 +10845,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				5
+				8,
+				22
 			},
 			{
 				10,
@@ -10870,8 +10862,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				5
+				8,
+				22
 			},
 			{
 				10,
@@ -10880,7 +10872,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			582
+			705,
+			706
 		}
 	},
 	{
@@ -10891,8 +10884,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				5
+				8,
+				22
 			},
 			{
 				10,
@@ -10909,8 +10902,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -10927,8 +10920,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -10944,8 +10937,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				5
+				8,
+				22
 			},
 			{
 				10,
@@ -10954,7 +10947,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			586
+			705,
+			706
 		}
 	},
 	{
@@ -10965,8 +10959,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				5
+				8,
+				22
 			},
 			{
 				10,
@@ -10982,8 +10976,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				5
+				8,
+				22
 			},
 			{
 				11,
@@ -10992,9 +10986,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			588,
-			589,
-			590
+			705,
+			706
 		}
 	},
 	{
@@ -11005,8 +10998,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				5
+				8,
+				22
 			},
 			{
 				11,
@@ -11023,8 +11016,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				5
+				8,
+				22
 			},
 			{
 				11,
@@ -11041,8 +11034,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				5
+				8,
+				22
 			},
 			{
 				11,
@@ -11058,8 +11051,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -11068,7 +11061,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			592
+			705,
+			706
 		}
 	},
 	{
@@ -11079,8 +11073,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -11096,8 +11090,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				6
+				8,
+				23
 			},
 			{
 				14,
@@ -11106,7 +11100,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			594
+			705,
+			706
 		}
 	},
 	{
@@ -11117,8 +11112,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				6
+				8,
+				23
 			},
 			{
 				14,
@@ -11134,8 +11129,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				6
+				8,
+				23
 			},
 			{
 				14,
@@ -11144,7 +11139,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			596
+			705,
+			706
 		}
 	},
 	{
@@ -11155,8 +11151,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				6
+				8,
+				23
 			},
 			{
 				14,
@@ -11172,8 +11168,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				6
+				8,
+				23
 			},
 			{
 				14,
@@ -11182,7 +11178,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			598
+			705,
+			706
 		}
 	},
 	{
@@ -11193,8 +11190,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				6
+				8,
+				23
 			},
 			{
 				14,
@@ -11210,8 +11207,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -11220,7 +11217,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			600
+			705,
+			706
 		}
 	},
 	{
@@ -11231,8 +11229,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -11248,8 +11246,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				7
+				8,
+				24
 			},
 			{
 				10,
@@ -11258,7 +11256,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			602
+			705,
+			706
 		}
 	},
 	{
@@ -11269,8 +11268,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				7
+				8,
+				24
 			},
 			{
 				10,
@@ -11286,8 +11285,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				7
+				8,
+				24
 			},
 			{
 				10,
@@ -11296,9 +11295,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			604,
-			605,
-			606
+			705,
+			706
 		}
 	},
 	{
@@ -11309,8 +11307,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				7
+				8,
+				24
 			},
 			{
 				10,
@@ -11327,8 +11325,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				7
+				8,
+				24
 			},
 			{
 				10,
@@ -11345,8 +11343,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				7
+				8,
+				24
 			},
 			{
 				11,
@@ -11363,8 +11361,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -11381,8 +11379,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -11399,8 +11397,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -11416,8 +11414,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				8
+				8,
+				25
 			},
 			{
 				18,
@@ -11426,9 +11424,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			611,
-			612,
-			613
+			705,
+			706
 		}
 	},
 	{
@@ -11439,8 +11436,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				8
+				8,
+				25
 			},
 			{
 				18,
@@ -11457,8 +11454,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				8
+				8,
+				25
 			},
 			{
 				18,
@@ -11475,8 +11472,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				8
+				8,
+				25
 			},
 			{
 				18,
@@ -11492,8 +11489,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				8
+				8,
+				25
 			},
 			{
 				18,
@@ -11502,9 +11499,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			615,
-			616,
-			617
+			705,
+			706
 		}
 	},
 	{
@@ -11515,8 +11511,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				8
+				8,
+				25
 			},
 			{
 				18,
@@ -11533,8 +11529,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				8
+				8,
+				25
 			},
 			{
 				18,
@@ -11551,8 +11547,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				8
+				8,
+				25
 			},
 			{
 				19,
@@ -11569,8 +11565,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -11587,8 +11583,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -11604,8 +11600,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				9
+				8,
+				26
 			},
 			{
 				11,
@@ -11614,7 +11610,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			621
+			705,
+			706
 		}
 	},
 	{
@@ -11625,8 +11622,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				9
+				8,
+				26
 			},
 			{
 				11,
@@ -11643,8 +11640,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				9
+				8,
+				26
 			},
 			{
 				11,
@@ -11660,8 +11657,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				9
+				8,
+				26
 			},
 			{
 				11,
@@ -11670,13 +11667,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			624,
-			625,
-			626,
-			627,
-			628,
-			629,
-			630
+			705,
+			706
 		}
 	},
 	{
@@ -11687,8 +11679,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				9
+				8,
+				26
 			},
 			{
 				11,
@@ -11705,8 +11697,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				9
+				8,
+				26
 			},
 			{
 				11,
@@ -11723,8 +11715,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				9
+				8,
+				26
 			},
 			{
 				11,
@@ -11741,8 +11733,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				9
+				8,
+				26
 			},
 			{
 				11,
@@ -11759,8 +11751,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				9
+				8,
+				26
 			},
 			{
 				11,
@@ -11777,8 +11769,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				9
+				8,
+				26
 			},
 			{
 				11,
@@ -11795,8 +11787,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				9
+				8,
+				26
 			},
 			{
 				12,
@@ -11813,8 +11805,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -11831,8 +11823,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -11848,8 +11840,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				10
+				8,
+				27
 			},
 			{
 				13,
@@ -11858,9 +11850,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			634,
-			635,
-			636
+			705,
+			706
 		}
 	},
 	{
@@ -11871,8 +11862,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				10
+				8,
+				27
 			},
 			{
 				13,
@@ -11889,8 +11880,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				10
+				8,
+				27
 			},
 			{
 				13,
@@ -11907,8 +11898,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				10
+				8,
+				27
 			},
 			{
 				13,
@@ -11924,8 +11915,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				10
+				8,
+				27
 			},
 			{
 				13,
@@ -11934,10 +11925,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			638,
-			639,
-			640,
-			641
+			705,
+			706
 		}
 	},
 	{
@@ -11948,8 +11937,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				10
+				8,
+				27
 			},
 			{
 				13,
@@ -11966,8 +11955,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				10
+				8,
+				27
 			},
 			{
 				13,
@@ -11984,8 +11973,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				10
+				8,
+				27
 			},
 			{
 				13,
@@ -12002,8 +11991,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				10
+				8,
+				27
 			},
 			{
 				14,
@@ -12020,8 +12009,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -12037,8 +12026,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -12047,7 +12036,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			644
+			705,
+			706
 		}
 	},
 	{
@@ -12058,8 +12048,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -12075,8 +12065,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				11
+				8,
+				28
 			},
 			{
 				15,
@@ -12085,7 +12075,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			646
+			705,
+			706
 		}
 	},
 	{
@@ -12096,8 +12087,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				11
+				8,
+				28
 			},
 			{
 				15,
@@ -12113,8 +12104,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				11
+				8,
+				28
 			},
 			{
 				15,
@@ -12123,8 +12114,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			648,
-			649
+			705,
+			706
 		}
 	},
 	{
@@ -12135,8 +12126,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				11
+				8,
+				28
 			},
 			{
 				15,
@@ -12153,8 +12144,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				11
+				8,
+				28
 			},
 			{
 				15,
@@ -12171,8 +12162,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -12188,8 +12179,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				12
+				8,
+				29
 			},
 			{
 				11,
@@ -12198,9 +12189,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			652,
-			653,
-			654
+			705,
+			706
 		}
 	},
 	{
@@ -12211,8 +12201,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				12
+				8,
+				29
 			},
 			{
 				11,
@@ -12229,8 +12219,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				12
+				8,
+				29
 			},
 			{
 				11,
@@ -12247,8 +12237,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				12
+				8,
+				29
 			},
 			{
 				11,
@@ -12264,8 +12254,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				12
+				8,
+				29
 			},
 			{
 				11,
@@ -12274,7 +12264,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			656
+			705,
+			706
 		}
 	},
 	{
@@ -12285,8 +12276,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				12
+				8,
+				29
 			},
 			{
 				11,
@@ -12303,8 +12294,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -12321,8 +12312,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -12338,8 +12329,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				13
+				8,
+				30
 			},
 			{
 				16,
@@ -12348,8 +12339,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			660,
-			661
+			705,
+			706
 		}
 	},
 	{
@@ -12360,8 +12351,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				13
+				8,
+				30
 			},
 			{
 				16,
@@ -12378,8 +12369,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				13
+				8,
+				30
 			},
 			{
 				16,
@@ -12395,8 +12386,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				13
+				8,
+				30
 			},
 			{
 				16,
@@ -12405,8 +12396,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			663,
-			664
+			705,
+			706
 		}
 	},
 	{
@@ -12417,8 +12408,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				13
+				8,
+				30
 			},
 			{
 				16,
@@ -12435,8 +12426,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				13
+				8,
+				30
 			},
 			{
 				16,
@@ -12452,8 +12443,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -12462,7 +12453,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			666
+			705,
+			706
 		}
 	},
 	{
@@ -12473,8 +12465,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -12490,8 +12482,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				14
+				8,
+				31
 			},
 			{
 				12,
@@ -12500,8 +12492,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			668,
-			669
+			705,
+			706
 		}
 	},
 	{
@@ -12512,8 +12504,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				14
+				8,
+				31
 			},
 			{
 				12,
@@ -12530,8 +12522,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				14
+				8,
+				31
 			},
 			{
 				12,
@@ -12547,8 +12539,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				14
+				8,
+				31
 			},
 			{
 				12,
@@ -12557,8 +12549,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			671,
-			672
+			705,
+			706
 		}
 	},
 	{
@@ -12569,8 +12561,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				14
+				8,
+				31
 			},
 			{
 				12,
@@ -12587,8 +12579,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				14
+				8,
+				31
 			},
 			{
 				12,
@@ -12604,8 +12596,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				14
+				8,
+				31
 			},
 			{
 				12,
@@ -12614,7 +12606,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			674
+			705,
+			706
 		}
 	},
 	{
@@ -12625,8 +12618,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				14
+				8,
+				31
 			},
 			{
 				12,
@@ -12643,8 +12636,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -12661,8 +12654,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -12678,8 +12671,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				15
+				9,
+				1
 			},
 			{
 				14,
@@ -12688,7 +12681,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			678
+			705,
+			706
 		}
 	},
 	{
@@ -12699,8 +12693,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				15
+				9,
+				1
 			},
 			{
 				14,
@@ -12716,8 +12710,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				15
+				9,
+				1
 			},
 			{
 				14,
@@ -12726,9 +12720,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			680,
-			681,
-			682
+			705,
+			706
 		}
 	},
 	{
@@ -12739,8 +12732,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				15
+				9,
+				1
 			},
 			{
 				15,
@@ -12757,8 +12750,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				15
+				9,
+				1
 			},
 			{
 				15,
@@ -12775,8 +12768,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				15
+				9,
+				1
 			},
 			{
 				15,
@@ -12793,8 +12786,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -12811,8 +12804,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -12828,8 +12821,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				17
+				9,
+				3
 			},
 			{
 				17,
@@ -12838,8 +12831,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			686,
-			687
+			705,
+			706
 		}
 	},
 	{
@@ -12850,8 +12843,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				17
+				9,
+				3
 			},
 			{
 				17,
@@ -12868,8 +12861,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				17
+				9,
+				3
 			},
 			{
 				17,
@@ -12885,8 +12878,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				17
+				9,
+				3
 			},
 			{
 				17,
@@ -12895,7 +12888,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			689
+			705,
+			706
 		}
 	},
 	{
@@ -12906,8 +12900,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				17
+				9,
+				3
 			},
 			{
 				17,
@@ -12923,8 +12917,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				17
+				9,
+				3
 			},
 			{
 				18,
@@ -12933,9 +12927,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			691,
-			692,
-			693
+			705,
+			706
 		}
 	},
 	{
@@ -12946,8 +12939,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				17
+				9,
+				3
 			},
 			{
 				18,
@@ -12964,8 +12957,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				17
+				9,
+				3
 			},
 			{
 				18,
@@ -12982,8 +12975,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				17
+				9,
+				3
 			},
 			{
 				18,
@@ -13000,8 +12993,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -13018,8 +13011,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -13035,8 +13028,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				16
+				9,
+				2
 			},
 			{
 				10,
@@ -13045,9 +13038,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			697,
-			698,
-			699
+			705,
+			706
 		}
 	},
 	{
@@ -13058,8 +13050,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				16
+				9,
+				2
 			},
 			{
 				10,
@@ -13076,8 +13068,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				16
+				9,
+				2
 			},
 			{
 				10,
@@ -13094,8 +13086,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				16
+				9,
+				2
 			},
 			{
 				10,
@@ -13111,8 +13103,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				16
+				9,
+				2
 			},
 			{
 				10,
@@ -13121,8 +13113,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			705,
+			706
 		}
 	},
 	{
@@ -13133,8 +13125,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				16
+				9,
+				2
 			},
 			{
 				10,
@@ -13151,8 +13143,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				6,
-				16
+				9,
+				2
 			},
 			{
 				10,
@@ -13169,8 +13161,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				14
 			},
 			{
 				10,
@@ -13186,18 +13178,18 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				7
 			},
 			{
-				10,
-				0,
+				13,
+				18,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			705,
+			706
 		}
 	},
 	{
@@ -13208,12 +13200,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				7
 			},
 			{
-				10,
-				0,
+				13,
+				23,
 				0
 			}
 		}
@@ -13226,12 +13218,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				7
 			},
 			{
-				10,
-				0,
+				13,
+				27,
 				0
 			}
 		}
@@ -13243,18 +13235,19 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				7
 			},
 			{
-				10,
-				0,
+				13,
+				34,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			708,
+			709,
+			710
 		}
 	},
 	{
@@ -13265,12 +13258,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				7
 			},
 			{
-				10,
-				0,
+				13,
+				38,
 				0
 			}
 		}
@@ -13283,12 +13276,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				7
 			},
 			{
-				10,
-				0,
+				13,
+				44,
 				0
 			}
 		}
@@ -13301,12 +13294,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				7
 			},
 			{
-				10,
-				0,
+				13,
+				49,
 				0
 			}
 		}
@@ -13318,18 +13311,18 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				6
 			},
 			{
-				10,
-				0,
+				20,
+				43,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			712,
+			713
 		}
 	},
 	{
@@ -13340,12 +13333,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				6
 			},
 			{
-				10,
-				0,
+				20,
+				50,
 				0
 			}
 		}
@@ -13358,12 +13351,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				6
 			},
 			{
-				10,
-				0,
+				20,
+				56,
 				0
 			}
 		}
@@ -13375,18 +13368,19 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				6
 			},
 			{
-				10,
-				0,
+				21,
+				8,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			715,
+			716,
+			717
 		}
 	},
 	{
@@ -13397,12 +13391,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				6
 			},
 			{
-				10,
-				0,
+				21,
+				14,
 				0
 			}
 		}
@@ -13415,12 +13409,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				6
 			},
 			{
-				10,
-				0,
+				21,
+				19,
 				0
 			}
 		}
@@ -13433,12 +13427,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				6
 			},
 			{
-				10,
-				0,
+				21,
+				25,
 				0
 			}
 		}
@@ -13450,18 +13444,18 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
-				10,
-				0,
+				9,
+				38,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			719,
+			720
 		}
 	},
 	{
@@ -13472,12 +13466,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
-				10,
-				0,
+				9,
+				42,
 				0
 			}
 		}
@@ -13490,12 +13484,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
-				10,
-				0,
+				9,
+				49,
 				0
 			}
 		}
@@ -13507,18 +13501,18 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
-				10,
-				0,
+				9,
+				58,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			722,
+			723
 		}
 	},
 	{
@@ -13529,12 +13523,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
 				10,
-				0,
+				3,
 				0
 			}
 		}
@@ -13547,12 +13541,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
 				10,
-				0,
+				7,
 				0
 			}
 		}
@@ -13564,18 +13558,18 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
 				10,
-				0,
+				15,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			725,
+			726
 		}
 	},
 	{
@@ -13586,12 +13580,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
 				10,
-				0,
+				21,
 				0
 			}
 		}
@@ -13604,12 +13598,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
 				10,
-				0,
+				28,
 				0
 			}
 		}
@@ -13621,18 +13615,19 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
-				10,
-				0,
+				17,
+				46,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			728,
+			729,
+			730
 		}
 	},
 	{
@@ -13643,12 +13638,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
-				10,
-				0,
+				17,
+				52,
 				0
 			}
 		}
@@ -13661,12 +13656,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
-				10,
-				0,
+				17,
+				56,
 				0
 			}
 		}
@@ -13679,12 +13674,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
-				10,
-				0,
+				18,
+				3,
 				0
 			}
 		}
@@ -13696,18 +13691,19 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
-				10,
-				0,
+				18,
+				12,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			732,
+			733,
+			734
 		}
 	},
 	{
@@ -13718,12 +13714,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
-				10,
-				0,
+				18,
+				15,
 				0
 			}
 		}
@@ -13736,12 +13732,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
-				10,
-				0,
+				18,
+				19,
 				0
 			}
 		}
@@ -13754,12 +13750,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				8
 			},
 			{
-				10,
-				0,
+				18,
+				25,
 				0
 			}
 		}
@@ -13771,18 +13767,20 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				9
 			},
 			{
-				10,
-				0,
+				11,
+				59,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			736,
+			737,
+			738,
+			739
 		}
 	},
 	{
@@ -13793,12 +13791,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				9
 			},
 			{
-				10,
-				0,
+				12,
+				3,
 				0
 			}
 		}
@@ -13811,12 +13809,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				9
 			},
 			{
-				10,
-				0,
+				12,
+				9,
 				0
 			}
 		}
@@ -13829,12 +13827,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				9
 			},
 			{
-				10,
-				0,
+				12,
+				14,
 				0
 			}
 		}
@@ -13847,12 +13845,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				9
 			},
 			{
-				10,
-				0,
+				12,
+				20,
 				0
 			}
 		}
@@ -13864,18 +13862,17 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				9
 			},
 			{
-				10,
-				0,
+				12,
+				28,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			741
 		}
 	},
 	{
@@ -13886,12 +13883,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				9
 			},
 			{
-				10,
-				0,
+				12,
+				35,
 				0
 			}
 		}
@@ -13903,18 +13900,18 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				6
 			},
 			{
-				10,
-				0,
+				13,
+				26,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			743,
+			744
 		}
 	},
 	{
@@ -13925,12 +13922,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				6
 			},
 			{
-				10,
-				0,
+				13,
+				31,
 				0
 			}
 		}
@@ -13943,12 +13940,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				6
 			},
 			{
-				10,
-				0,
+				13,
+				34,
 				0
 			}
 		}
@@ -13960,18 +13957,20 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				6
 			},
 			{
-				10,
-				0,
+				13,
+				42,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			746,
+			747,
+			748,
+			749
 		}
 	},
 	{
@@ -13982,12 +13981,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				6
 			},
 			{
-				10,
-				0,
+				13,
+				47,
 				0
 			}
 		}
@@ -14000,12 +13999,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				6
 			},
 			{
-				10,
-				0,
+				13,
+				54,
 				0
 			}
 		}
@@ -14018,11 +14017,11 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				6
 			},
 			{
-				10,
+				14,
 				0,
 				0
 			}
@@ -14036,12 +14035,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				6
 			},
 			{
-				10,
-				0,
+				14,
+				6,
 				0
 			}
 		}
@@ -14053,18 +14052,20 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				13
 			},
 			{
-				10,
-				0,
+				14,
+				46,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			751,
+			752,
+			753,
+			754
 		}
 	},
 	{
@@ -14075,12 +14076,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				13
 			},
 			{
-				10,
-				0,
+				14,
+				49,
 				0
 			}
 		}
@@ -14093,12 +14094,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				13
 			},
 			{
-				10,
-				0,
+				14,
+				54,
 				0
 			}
 		}
@@ -14111,12 +14112,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				13
 			},
 			{
-				10,
-				0,
+				14,
+				59,
 				0
 			}
 		}
@@ -14129,12 +14130,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				13
 			},
 			{
-				10,
-				0,
+				15,
+				2,
 				0
 			}
 		}
@@ -14146,18 +14147,20 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				13
 			},
 			{
-				10,
-				0,
+				15,
+				9,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			756,
+			757,
+			758,
+			759
 		}
 	},
 	{
@@ -14168,12 +14171,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				13
 			},
 			{
-				10,
-				0,
+				15,
+				14,
 				0
 			}
 		}
@@ -14186,12 +14189,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				13
 			},
 			{
-				10,
-				0,
+				15,
+				18,
 				0
 			}
 		}
@@ -14204,12 +14207,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				13
 			},
 			{
-				10,
-				0,
+				15,
+				23,
 				0
 			}
 		}
@@ -14222,12 +14225,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				13
 			},
 			{
-				10,
-				0,
+				15,
+				26,
 				0
 			}
 		}
@@ -14239,18 +14242,19 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				14,
+				6,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			761,
+			762,
+			763
 		}
 	},
 	{
@@ -14261,12 +14265,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				14,
+				9,
 				0
 			}
 		}
@@ -14279,12 +14283,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				14,
+				16,
 				0
 			}
 		}
@@ -14297,12 +14301,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				14,
+				20,
 				0
 			}
 		}
@@ -14314,18 +14318,21 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				14,
+				31,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			765,
+			766,
+			767,
+			768,
+			769
 		}
 	},
 	{
@@ -14336,12 +14343,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				14,
+				38,
 				0
 			}
 		}
@@ -14354,12 +14361,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				14,
+				43,
 				0
 			}
 		}
@@ -14372,12 +14379,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				14,
+				51,
 				0
 			}
 		}
@@ -14390,12 +14397,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				14,
+				54,
 				0
 			}
 		}
@@ -14408,12 +14415,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				14,
+				59,
 				0
 			}
 		}
@@ -14425,18 +14432,18 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				19,
+				31,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			771,
+			772
 		}
 	},
 	{
@@ -14447,12 +14454,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				19,
+				35,
 				0
 			}
 		}
@@ -14465,12 +14472,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				19,
+				40,
 				0
 			}
 		}
@@ -14482,18 +14489,17 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				19,
+				48,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			774
 		}
 	},
 	{
@@ -14504,12 +14510,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				19,
+				52,
 				0
 			}
 		}
@@ -14521,18 +14527,19 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				19,
+				59,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			776,
+			777,
+			778
 		}
 	},
 	{
@@ -14543,12 +14550,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				20,
+				4,
 				0
 			}
 		}
@@ -14561,12 +14568,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				20,
+				8,
 				0
 			}
 		}
@@ -14579,12 +14586,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				10
 			},
 			{
-				10,
-				0,
+				20,
+				14,
 				0
 			}
 		}
@@ -14596,18 +14603,19 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				11
 			},
 			{
-				10,
-				0,
+				16,
+				38,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			780,
+			781,
+			782
 		}
 	},
 	{
@@ -14618,12 +14626,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				11
 			},
 			{
-				10,
-				0,
+				16,
+				44,
 				0
 			}
 		}
@@ -14636,12 +14644,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				11
 			},
 			{
-				10,
-				0,
+				16,
+				49,
 				0
 			}
 		}
@@ -14654,12 +14662,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				11
 			},
 			{
-				10,
-				0,
+				16,
+				52,
 				0
 			}
 		}
@@ -14671,18 +14679,19 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				11
 			},
 			{
-				10,
+				17,
 				0,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			784,
+			785,
+			786
 		}
 	},
 	{
@@ -14693,12 +14702,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				11
 			},
 			{
-				10,
-				0,
+				17,
+				5,
 				0
 			}
 		}
@@ -14711,12 +14720,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				11
 			},
 			{
-				10,
-				0,
+				17,
+				9,
 				0
 			}
 		}
@@ -14729,12 +14738,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				11
 			},
 			{
-				10,
-				0,
+				17,
+				12,
 				0
 			}
 		}
@@ -14746,18 +14755,17 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
 				10,
-				0,
+				19,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			788
 		}
 	},
 	{
@@ -14768,12 +14776,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
 				10,
-				0,
+				24,
 				0
 			}
 		}
@@ -14785,18 +14793,17 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
 				10,
-				0,
+				28,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			790
 		}
 	},
 	{
@@ -14807,12 +14814,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
 				10,
-				0,
+				35,
 				0
 			}
 		}
@@ -14824,18 +14831,18 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
 				10,
-				0,
+				43,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			792,
+			793
 		}
 	},
 	{
@@ -14846,12 +14853,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
 				10,
-				0,
+				48,
 				0
 			}
 		}
@@ -14864,12 +14871,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
 				10,
-				0,
+				54,
 				0
 			}
 		}
@@ -14881,18 +14888,20 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
-				10,
-				0,
+				15,
+				53,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			795,
+			796,
+			797,
+			798
 		}
 	},
 	{
@@ -14903,12 +14912,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
-				10,
-				0,
+				15,
+				56,
 				0
 			}
 		}
@@ -14921,12 +14930,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
-				10,
-				0,
+				16,
+				1,
 				0
 			}
 		}
@@ -14939,12 +14948,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
-				10,
-				0,
+				16,
+				5,
 				0
 			}
 		}
@@ -14957,12 +14966,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
+				16,
 				10,
-				0,
 				0
 			}
 		}
@@ -14974,18 +14983,19 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
-				10,
-				0,
+				16,
+				15,
 				0
 			}
 		},
 		npc_reply_persist = {
-			701,
-			702
+			800,
+			801,
+			802
 		}
 	},
 	{
@@ -14996,12 +15006,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
-				10,
-				0,
+				16,
+				19,
 				0
 			}
 		}
@@ -15014,12 +15024,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
-				10,
-				0,
+				16,
+				24,
 				0
 			}
 		}
@@ -15032,12 +15042,12 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2020,
-				5,
-				28
+				8,
+				12
 			},
 			{
-				10,
-				0,
+				16,
+				30,
 				0
 			}
 		}

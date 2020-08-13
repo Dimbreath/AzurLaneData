@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印地的笑容！\n\n<size=45>四 尴尬的关系</size>",
+					"Anything and Everything for Indy!\n\n<size=45>Chapter 4 - Distance Felt</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区・学院",
+			say = "Port - Classroom",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太奇怪了，指挥官。印地的粉丝一点都没变多……",
+			say = "I don't get it, Commander. Despite all my efforts, my Indy fans counter remains at just one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明我努力扫清外部障碍，还选了最喜欢姐妹舰的人推销……",
+			say = "Here I thought I could convince my fellow sister-lovers to join me, but it seems I was wrong...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "事到如今只能抓到谁就向谁传教了！",
+			say = "Since that's failed, all there's left now is to preach to everyone I come across!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "在阻止她之前，旁边出现了一个熟悉的身影",
+			say = "Just as I'm about to tell her not to be ridiculous, a familiar face peeks out from behind a corner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "那边的小伙伴！来成为印地的粉丝吧！",
+			say = "You there! Have you heard about Indy, the cutest little sister on the planet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			actor = 308030,
 			nameColor = "#a9f548",
-			say = "哇，吓我一跳！？印地…？是啥？！",
+			say = "Wah! Don't spook me like that... Wh-what was that about an \"Indy\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，难道是在说印第安纳波利斯吗？",
+			say = "You don't mean... Indianapolis, do you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "对！现在马上入会的话，就能得到个位数的会员编号噢！",
+			say = "I do! If you want to be among the first people to join the Church of Indy, now's your chance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这，这个……波……波特兰……",
+			say = "Umm, the thing is, Portland...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个……之前在训练中……我让印地被判定击沉了……",
+			say = "I... had this mock battle with Indy the other day, and I... I sank her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从那以后……还没能好好说上话……",
+			say = "And ever since, I haven't been able to strike up a conversation with her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "什么！在训练里把印地击沉了？！",
+			say = "You what?! Mock battle or not, you sank Indy?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			actor = 308030,
 			nameColor = "#a9f548",
-			say = "对对对对对、对不起！！",
+			say = "I'm sorry! Sorry, sorry, sorryyyyy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "{namecode:156}战战兢兢地逃走了。",
+			say = "Frightened, I-58 ran away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "啊！等等……！",
+			say = "Sorry for wh– Hey, wait!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来是想夸她赢过印地好厉害的……难道吓到她了？",
+			say = "Aww... I didn't mean to scare her, I was just gonna say how amazed I am that she defeated Indy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过我能理解呢。我也经历过一样的事……夕立和比叡……",
+			say = "Although I guess I understand how she feels. Back in the day, I had a similar incident with Yuudachi and Hiei...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是演习，变成那样的话，也会让相处变得有些尴尬呢。",
+			say = "Beating someone really badly, even if just in an exercise, does make them wanna distance themselves from you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "波特兰似乎在烦恼，和一些伙伴变得难以相处的事情。",
+			say = "Portland seems nervous about how to deal with the people she's clashed with in the past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,23 +404,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这下麻烦了…如果存在隔阂的话，就没法宣传印地酱多可爱了呢…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 103060,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "唔…既然如此，就让印地和大家多多相处，让大家多了解她好了！",
+			say = "And that's a problem, because if they won't want to talk to Indy, I can't preach her greatness to them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +420,23 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要大家能认识到些许印地的可爱之处，之后的宣传就好办了！",
+			say = "There's only one solution: getting Indy back in touch with those people so I can then preach about her to them!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 103060,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Once she's gotten her foot in the door, I'll sing Indy's praises until they realize how perfect and adorable she is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "好，决定了！指挥官，我想拜托你一件事！",
+			say = "With that decided... Commander, I need a small favor from you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请在下次出击的时候，把之前遇到的人和印地放在同一个舰队！",
+			say = "Could you gather all the people I've talked to over the past few days and send them and Indy on the same sortie?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "虽说动机似乎不太单纯，但波特兰的眼神十分认真。",
+			say = "The look in her eyes is that of utmost sincerity. I don't know what she's planning here, but I'm inclined to go along with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？指挥官？怎么突然不说话了…",
+			say = "Commander? What is it? Why so quiet all of a sudden?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "不过，比起印地，现在反而波特兰被敬而远之才是问题吧…",
+			say = "On second thought, I think the problem here is people distancing themselves not from Indy, but from Portland...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "要好好想想下次的演习该怎么编队了——",
+			say = "I'd have to think carefully about how I wanted to conduct the next sortie...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

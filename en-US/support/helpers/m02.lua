@@ -1150,6 +1150,8 @@ function getDropRarity(slot0)
 	if slot0.type == DROP_TYPE_RESOURCE then
 		slot1 = pg.item_data_statistics[id2ItemId(slot0.id)].rarity + 1
 	elseif slot2 == DROP_TYPE_ITEM then
+		print(slot0.id)
+
 		slot1 = pg.item_data_statistics[slot0.id].rarity + 1
 	elseif slot2 == DROP_TYPE_EQUIP then
 		slot1 = pg.equip_data_statistics[slot0.id].rarity
@@ -2171,6 +2173,10 @@ function getSpecialItemPage(slot0)
 		{
 			mediator = AssignedShipMediator,
 			viewComponent = AssignedShipScene4
+		},
+		{
+			mediator = AssignedShipMediator,
+			viewComponent = AssignedShipScene5
 		}
 	})[slot0]
 end

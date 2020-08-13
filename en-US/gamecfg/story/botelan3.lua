@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印地的笑容！\n\n<size=45>三 姐妹谈资喋喋不休</size>",
+					"Anything and Everything for Indy!\n\n<size=45>Chapter 3 - Like Two Peas in a Pod</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区・学园",
+			say = "Port - Classroom",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "波特兰没有放弃印地强化周。",
+			say = "The Week of Indy continues. Portland is not giving up so easily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "下一个被盯上的是──",
+			say = "She's trying again with a slightly different approach. Perhaps she will have better luck this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯嗯！我明白！有姐妹确实很棒呢！",
+			say = "Goodness, yes, I totally understand you! It's so amazing to have a sister like mine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "对吧~！无论聊多久都聊不完！",
+			say = "I knooow, right? It's like, I literally never tire of talking about how great Indy is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！就算说上三天三夜，也说不完诺福克姐姐魅力的百分之五！",
+			say = "You said it! Even if I were to talk nonstop for three whole days, I wouldn't be able to express even 5% of Norfolk's greatness!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "就是就是！所以我拜托了指挥官，希望能安排制作充满印地魅力的周边哦~！",
+			say = "Same with Indy! We need more than words to convey our sisters's splendor! That's why I've been trying to get the Commander to agree to mass-producing Indy goods.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，这个想法真好！我也想弄姐姐的照片~……",
+			say = "Ahh, making things in her image, eh? That's an ingenious idea! I'd love figurines of my dear Norfolk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "和多塞特郡的沟通似乎比想象中的顺畅许多",
+			say = "I'm honestly surprised. These two are almost on the exact same wavelength.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "不过…好像有哪里不对？",
+			say = "Keyword: almost. Listening a little closer, I realize that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后啊！那时候的印地呀~……",
+			say = "And then there's the time Indy hugged me in her sleep! My gosh, I just about...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯！诺福克姐姐的话肯定会这样~……",
+			say = "Norfolk is still a little afraid of the dark, so sometimes I need to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,14 +221,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "似乎都在自顾自地说着自家姐妹的事情……",
+			say = "...Both of them are only talking about their own sister and not really listening to the other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "指出这一点",
+					content = "This conversation is going nowhere.",
 					flag = 1
 				}
 			}
@@ -239,7 +239,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官你说什么呢！多塞特郡能明白印地的可爱——",
+			say = "What do you mean \"going nowhere\"?! Of course it is! Dorsetshire completely understands Indy's appeal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "并且会一起和我向大家宣传印地的可爱哦！",
+			say = "She's totally on board with joining forces and spreading the word of how cute she is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的！波特兰被诺福克姐姐的光芒照耀着——",
+			say = "All too true! Together, Portland and I shall enlighten the entire world!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肯定会和我一起，每天沉浸在诺福克姐姐的魅力之下的！",
+			say = "Everyone will know Norfolk's name and celebrate her each and every charm point!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………欸？",
+			say = "Hang on... Norfolk's name?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………嗯？",
+			say = "Yes...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多塞特郡，不是喜欢上印地了吗？",
+			say = "I thought you were going to join me in the Church of Indy and ask to be graced with her cuteness?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？嗯？波特兰，按照刚才聊的，不是要和我一起喜欢诺福克姐姐吗？",
+			say = "What? I thought you were the one who wanted to kneel with me before the altar of Norfolk and ask for her blessings?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇……奇怪？",
+			say = "That's, uhh... not what I had mind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "看来两人的交谈……完全是两条平行线的样子",
+			say = "Turns out I was right. They were both talking to a brick wall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

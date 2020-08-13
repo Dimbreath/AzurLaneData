@@ -176,15 +176,10 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "30475",
+		type = 3,
 		id = 6,
 		pic = "temp5",
-		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
-		},
 		time = {
 			{
 				{

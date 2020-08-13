@@ -23,7 +23,7 @@ slot0.shiplist = {
 }
 slot0.titleFromID = {
 	[59720.0] = "first",
-	[59906.0] = "second"
+	[60059.0] = "second"
 }
 
 function slot0.getUIName(slot0)

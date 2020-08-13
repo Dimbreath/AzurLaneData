@@ -23,6 +23,10 @@ function slot0.InitByServer(slot0, slot1)
 	slot0.text = slot1.text
 	slot0.picture = slot1.picture
 	slot0.time = slot1.time
+	slot5 = slot0.time
+
+	print(pg.TimeMgr.GetInstance():GetServerTime(), "------------", slot5)
+
 	slot0.optionDiscuss = {}
 	slot0.discussList = {}
 	slot0.allReply = {}
@@ -154,6 +158,16 @@ end
 
 function slot0.GetName(slot0)
 	return slot0:getConfig("name")
+end
+
+function slot0.GetSortIndex(slot0)
+	slot1 = slot0:bindConfigTable()
+
+	if slot1[slot1.all[1]].order then
+		return slot0:getConfig("order")
+	else
+		return 0
+	end
 end
 
 function slot0.GetImage(slot0)

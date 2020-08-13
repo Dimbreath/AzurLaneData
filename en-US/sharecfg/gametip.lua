@@ -4535,17 +4535,18 @@ Attack/Support Range Level:
 			},
 			disableScroll = true,
 			pageMode = false,
+			buttonsHeight = -130,
 			ImageMode = true,
 			windowSize = {
-				x = 1263,
-				y = 1200
+				x = 836,
+				y = 740
 			},
 			windowPos = {
-				y = 80
+				y = 15
 			},
 			helpSize = {
 				x = 1176,
-				y = 800
+				y = 924
 			}
 		}
 	},
@@ -8466,7 +8467,7 @@ Event Information:
 				info = "4. You may choose two ships on which to focus your wishes."
 			},
 			{
-				info = "5. Only ships added to the normal building pool prior to March 19th can hear your wishes."
+				info = "5. Only ships added to the normal building pool prior to June 3rd can hear your wishes."
 			},
 			{
 				info = "6. Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."

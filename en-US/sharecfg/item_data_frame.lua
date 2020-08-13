@@ -16,6 +16,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Happy 1st Anniversary!</color>\nUnlocked by using the New Dawn item.",
 		scene = {}
 	},
+	[102] = {
+		name = "Second Anniversary",
+		time_second = 0,
+		id = 102,
+		time_limit_type = 0,
+		desc = "Granted to all Commanders who have defended the port for two years.\n (earned by participating in the Second Anniversary limited event)",
+		scene = {}
+	},
 	[201] = {
 		name = "Achievement Chat Bubbles",
 		time_second = 0,
@@ -69,7 +77,7 @@ pg.item_data_frame = {
 		time_second = 2592000,
 		id = 301,
 		time_limit_type = 1,
-		desc = "Welcome back to the Admiralty, Commander. We expect great things from you.",
+		desc = "<color=#ffffff>Welcome back to the Admiralty, Commander. We expect great things from you.</color>\n(Lasts for 30 days)",
 		scene = {}
 	},
 	[302] = {
@@ -136,9 +144,18 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>For the glory of Her Majesty and the Royal Navy!</color>\n―Obtained from \"Aurora Noctis\"",
 		scene = {}
 	},
+	[310] = {
+		name = "Laffey's Gift",
+		time_second = 0,
+		id = 310,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>A special portrait frame designed with Laffey's motifs.</color>\nObtained by participating in the 2nd Anniversary Event.",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
+		102,
 		201,
 		202,
 		203,
@@ -153,6 +170,7 @@ pg.item_data_frame = {
 		306,
 		307,
 		308,
-		309
+		309,
+		310
 	}
 }

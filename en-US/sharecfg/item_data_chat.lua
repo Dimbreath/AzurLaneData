@@ -16,6 +16,14 @@ pg.item_data_chat = {
 		desc = "Happy 1st Anniversary! \n<color=#A7A7AAFF>Unlocked by using the New Dawn item.</color>",
 		scene = {}
 	},
+	[102] = {
+		name = "Second Anniversary",
+		time_second = 0,
+		id = 102,
+		time_limit_type = 0,
+		desc = "Granted to all Commanders who have defended the port for two years.\n (earned by participating in the Second Anniversary limited event)",
+		scene = {}
+	},
 	[300] = {
 		name = "Leader",
 		time_second = 2592000,
@@ -35,6 +43,7 @@ pg.item_data_chat = {
 	all = {
 		0,
 		101,
+		102,
 		300,
 		301
 	}

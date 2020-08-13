@@ -15137,6 +15137,110 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[103072] = {
+		name = "The Light of Circle City",
+		ship_group = 10307,
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "Oh. Good evening, Commander. Do you want some steak? It goes great with wine.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bolisi_3",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "1102",
+		shop_type_id = 7,
+		hand_id = 7,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "135",
+		skin_type = 0,
+		id = 103072,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bolisi_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 7,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.832,
+					1.24,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.721,
+					1.286,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.807,
+					1.157,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.566,
+							2.406,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[103080] = {
 		name = "Astoria",
 		ship_group = 10308,
@@ -22843,6 +22947,103 @@ pg.ship_skin_template = {
 				{
 					0.914,
 					1.198,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107222] = {
+		name = "The Independent Line",
+		ship_group = 10722,
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "Hmm... Isn't this one a bit too garish? Mm... What if we pair it with a necklace or some sort of purse? ...Commander, your thoughts? C'mon, don't just stare at me, give me something to work with here...",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "duli_5",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "1102",
+		shop_type_id = 7,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "135",
+		skin_type = 0,
+		id = 107222,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "duli_5",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70400,
+		voice_actor = 130,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.931,
+					0.917,
+					0
+				}
+			},
+			plane = {
+				{
+					0.914,
+					0.955,
 					0
 				}
 			}
@@ -67727,6 +67928,117 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[304051] = {
+		name = "Wending Waters, Serene Lotus",
+		ship_group = 30405,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Commander, are you here to pay me a visit? ...Ah, there is no need to be concerned about me. I made a promise to both you and Akagi that I would be mindful of my health.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "tiancheng_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 6,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "106",
+		skin_type = 0,
+		id = 304051,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "tiancheng_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70341,
+		voice_actor = 104,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.382,
+					1.219,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.325,
+					1.276,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.002,
+					0.003,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.394,
+					1.25,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[304060] = {
 		name = "Hiei-chan",
 		ship_group = 30406,
@@ -78752,6 +79064,115 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[401238] = {
+		name = "Schwarze Hochzeit",
+		ship_group = 40123,
+		group_index = 8,
+		illustrator2 = -1,
+		desc = "Whew... Sorry to keep you waiting. I was having a hard time deciding which outfit to wear... Ah, um... how do I look? ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "z23_h",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 1,
+		id = 401238,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "z23_h",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 3,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.435,
+					1.07,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.411,
+					1.106,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.01,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.335,
+					1.146,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.473,
+							2.372,
+							-0.38
+						}
+					}
+				}
+			}
+		}
+	},
 	[401239] = {
 		name = "Z23 (Retrofit)",
 		ship_group = 40123,
@@ -84336,6 +84757,103 @@ pg.ship_skin_template = {
 				{
 					0.99,
 					0.23,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408022] = {
+		name = "Eigenen Raum",
+		ship_group = 40802,
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "Sigh... I'd much rather be in a nice, quiet place like this over the din and clamor of the venue... Wouldn't you agree, Commander? I see. Well, come sit here then.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "U47_3",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "1102",
+		shop_type_id = 7,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "115",
+		skin_type = 0,
+		id = 408022,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U47_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70235,
+		voice_actor = 160,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.406,
+					-0.166,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.098,
+					-0.332,
 					0
 				}
 			}
@@ -113291,15 +113809,15 @@ pg.ship_skin_template = {
 		}
 	},
 	[199011] = {
-		name = "Seattle",
+		name = "Gorgeous Party",
 		ship_group = 19901,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "哦哦指挥官，来得正好！嘿嘿，这身礼服，怎么说…会不会有种太华丽的感觉？……不会？太好了！还想着我这么穿会不会不太合适呢，谢谢啦~",
+		desc = "Hey! Great to have you here, Commander! I've gotta ask, whaddya think of my dress? Looking real gorgeous, right? ...Phew, awesome! I was worried my dress didn't look nice and might be dragging down the party mood, that's all!",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "xiyatu_2",
-		no_showing = "1",
+		no_showing = "0",
 		air_bullet_skin = "",
 		bg_sp = "",
 		shop_type_id = 7,
@@ -113705,15 +114223,15 @@ pg.ship_skin_template = {
 		}
 	},
 	[199021] = {
-		name = "Georgia",
+		name = "South Town Pearl",
 		ship_group = 19902,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "呀，指挥官，出来透透气吗？我？哈哈，我不太习惯宴会那种高雅的氛围，所以偷溜出来了……要一起走走吗？",
+		desc = "Oh? Commander, did you need to get some fresh air as well? Me? Ahaha... It's a bit too stiff inside that venue, so I came out for a change of pace. Why don't we take a little stroll together?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zuozhiya_2",
-		no_showing = "1",
+		no_showing = "0",
 		air_bullet_skin = "",
 		bg_sp = "",
 		shop_type_id = 7,
@@ -115663,7 +116181,8 @@ pg.ship_skin_template = {
 		},
 		[10307] = {
 			103070,
-			103071
+			103071,
+			103072
 		},
 		[10308] = {
 			103080,
@@ -115808,7 +116327,8 @@ pg.ship_skin_template = {
 		},
 		[10722] = {
 			107220,
-			107221
+			107221,
+			107222
 		},
 		[10729] = {
 			107290,
@@ -116549,7 +117069,8 @@ pg.ship_skin_template = {
 			304043
 		},
 		[30405] = {
-			304050
+			304050,
+			304051
 		},
 		[30406] = {
 			304060
@@ -116735,6 +117256,7 @@ pg.ship_skin_template = {
 			401235,
 			401236,
 			401237,
+			401238,
 			401239
 		},
 		[40125] = {
@@ -116825,7 +117347,8 @@ pg.ship_skin_template = {
 		},
 		[40802] = {
 			408020,
-			408021
+			408021,
+			408022
 		},
 		[40803] = {
 			408030
@@ -117632,6 +118155,7 @@ pg.ship_skin_template = {
 		103069,
 		103070,
 		103071,
+		103072,
 		103080,
 		103081,
 		103090,
@@ -117705,6 +118229,7 @@ pg.ship_skin_template = {
 		107170,
 		107220,
 		107221,
+		107222,
 		107290,
 		107291,
 		107380,
@@ -118109,6 +118634,7 @@ pg.ship_skin_template = {
 		304042,
 		304043,
 		304050,
+		304051,
 		304060,
 		305010,
 		305011,
@@ -118213,6 +118739,7 @@ pg.ship_skin_template = {
 		401235,
 		401236,
 		401237,
+		401238,
 		401239,
 		401250,
 		401251,
@@ -118262,6 +118789,7 @@ pg.ship_skin_template = {
 		408011,
 		408020,
 		408021,
+		408022,
 		408030,
 		408040,
 		408041,

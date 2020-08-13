@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印地的笑容！\n\n<size=45>六 真正重要的事</size>",
+					"Anything and Everything for Indy!\n\n<size=45>Chapter 6 - More Layers Than One</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
-			say = "演习海域",
+			say = "Exercise Area - Noon",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "左舷发现敌方潜艇！{namecode:16}，准备反潜战!",
+			say = "Enemy submarine to our port side! Yuudachi, ready depth charges!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噢！交给我吧！看我大闹一番！!",
+			say = "Got it! I'm gonna blow 'em to pieces!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌人的主力以轻巡洋舰为主……我们的编队是三艘重巡洋舰和战舰，速度较慢……",
+			say = "Their fleet is comprised mainly of light cruisers... We'll be playing catch-up with them since our ships are slower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:71}，把主炮对准敌人的正面开火！用水柱引开他们的注意力，另外两位进行夹击!",
+			say = "Hiei, fire a battery to the enemy's front! Disorient them with the impact while Deutschland and Dorsetshire flank them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我会用弹幕来牵制他们，{namecode:156}负责雷击支援！",
+			say = "I'll suppress them with my own cannon fire! I-58, circle around to attack them with torpedoes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了！",
+			say = "Understood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我去了！",
+			say = "Okay! They won't know what hit them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也出发了！只是夹击的话…一定没问题的！",
+			say = "Let's go, Deutschland! I'll come in from the left!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再来就只剩靠实力制服对手了！",
+			say = "Very well, then I will come in from the right and crush them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgm = "level",
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "——确认击退敌军，可以返航了哦。",
+			say = "All targets confirmed neutralized. Let's head back to port.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "辛苦大家了，看来打得很顺利呢~",
+			say = "That went surprisingly well. Good job, everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实欸！感觉超顺手的！",
+			say = "Hell yeah! We totally mopped the floor with them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多亏了波特兰明确的指示，受损也控制在了最小程度。",
+			say = "Plus, we only sustained minimal damage. It was all thanks to Portland's precise instructions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（波特兰…在不牵扯到印第安纳波利斯的时候是这种感觉的呀……）",
+			say = "(Holy cow... Portland's a pretty good strategist without Indianapolis around to distract her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊~真是的，明明要是印地在的话，能发挥得更好的~",
+			say = "Still, I could've done an even better job if only Indy had been here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嚯~仿佛在说这不是你本来的实力似的啊？",
+			say = "Really, now? So you weren't even at your best today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来就是嘛！要是和印地在一起的话，我能比现在更有干劲100倍！",
+			say = "Mhm! When Indy's with me, my brain works 100 times as fast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…没有印地在，完全提不起劲嘛~",
+			say = "But when she isn't, I just can't push myself to my limit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，还真是有意思的发言。",
+			say = "Heheh, you're a curiosity, I'll give you that much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "取得这般战果，竟然还说不是全力的发挥么…",
+			say = "To think you're this good at commanding, but you weren't even going all-out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯？",
+			say = "...Um, thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对你稍微改观些了。看来不只是个死妹控啊。",
+			say = "My opinion of you has improved. You're not just some weirdo obsessed with her own sister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于你如此重视的妹妹，我也多少有些兴趣了呢",
+			say = "You've also made me want to learn more about your sister, if she really gives you the power you claim she does.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……哦哦？之前不是听都不想听的吗，这是怎么了？",
+			say = "Really? But you didn't want to hear me out earlier, so what's changed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，我不讨厌强者就是了",
+			say = "It's simple... You're strong and competent, two traits which I like in people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别发呆了，赶紧返航吧。",
+			say = "More importantly, shouldn't we get a move on already? We're just standing around here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "啊，嗯，大家注意，我们要回去啦~",
+			say = "Oh, right! Yeah, let's go, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

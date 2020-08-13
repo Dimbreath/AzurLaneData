@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印地的笑容！\n\n<size=45>一 印地强化周开始！</size>",
+					"Anything and Everything for Indy!\n\n<size=45>Chapter 1 - Let's Have a Week of Indy!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "指挥官，怎么样～？这点子不错吧！",
+			say = "Well, Commander? I think it's a brilliant idea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			actor = 103070,
 			nameColor = "#a9f548",
-			say = "姐姐……怎么又拿这么多过来……",
+			say = "Not again, sis... You're dumping stuff on people again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			say = "为了让大家知道印地有多可爱，多少办法我都想得出！",
+			say = "I can't help it! My head is always brimming with ideas thanks to how cute you are!",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，这次你要做什么？",
+			say = "Okay, well, what did you come up with this time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "印地的量产周边！相片、钥匙链，还有抱枕套！",
+			say = "Mass-producible Indy merch! Collectible photos! Keychains! Pillowcase covers! And much more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "办公桌上堆满了印地周边的企划书。",
+			say = "My desk is buried beneath giant stacks of documents, none of which go more than one sentence without mentioning Indianapolis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不管被驳回了多少次，波特兰还是决不放弃，每天都闯进来。",
+			say = "I've rejected Portland's proposals over and over, but each and every day she comes back and tries again to convince me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱枕套…这也太羞耻了…",
+			say = "Please, not a pillowcase cover... That's too much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "关键人物波利斯看起来毫无兴致，但波特兰并不在意。",
+			say = "Indianapolis doesn't like the idea of being commercialized, but her concerns don't seem to weigh much on Portland's conscience.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么不行呀～！我只是想让大家了解印地而已嘛！",
+			say = "But why not?! All I want is to maximize your appeal to the widest audience possible!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			say = "有这份心我很高兴，但这也太极端了…",
+			say = "I appreciate the sentiment, but this is way over the line...",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实，我想交更多的朋友，想让更多人了解我。",
+			say = "I want to make more friends, and while this would introduce me to new people, I just...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，这个方法实在有点……",
+			say = "I don't think it's the best way to do it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "你听见了吗？！指挥官！印地想让大家了解自己！",
+			say = "Aha! Did you hear that, Commander?! Indy wants to make more friends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "对了！既然如此，就由我们来支援印地，直到她的粉丝变多为止！",
+			say = "That gives me an idea! I'll preach about Indy until more faithful followers join our ranks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要开始咯！印地强化周！",
+			say = "We'll have a whole Week of Indy! It's the perfect plan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "波特兰眼睛里的光芒熠熠闪光。虽然已经预见到不会有什么好结果，不过……",
+			say = "Portland's eyes gleam with enthusiasm. I remain skeptical of her plan, however.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "如果这样能让波利斯——以及波特兰增加朋友的话，就帮帮她们好了。",
+			say = "Having said that... if it does work, and the two of them make new friends in the end, then that's great. And so, I give her the go-ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "连指挥官都……要是姐姐乱来的话，要马上制止她哦？",
+			say = "Um, Commander... If this gets out of control, you have to tell my sis to stop, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			say = "没关系的！相信姐姐！",
+			say = "It won't get out of control! Just have some faith in me!",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肯定会让大家都喜欢上印地的~！",
+			say = "My plan is gonna make you some new friends, I guarantee it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是担心这个啦……",
+			say = "That's not the part I have my doubts about...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
