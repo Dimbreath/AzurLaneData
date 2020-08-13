@@ -6695,6 +6695,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1390001] = {
+		map = 1390001,
+		name = "최고의 보물|| ||CHAPTER SP||S.P.",
+		bgm = "level02",
+		type = 3,
+		on_activity = 20514,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "ZUIZHENGUIDEBAOWU1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "Map_1250001",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『홍염의 방문자』-전편|| ||CHAPTER EX||E.X.",
@@ -7861,6 +7902,7 @@ pg.expedition_data_by_map = {
 		1380012,
 		1380025,
 		1380026,
+		1390001,
 		2100000,
 		2100001,
 		2100010,

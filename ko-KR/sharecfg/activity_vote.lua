@@ -11,7 +11,6 @@ pg.activity_vote = {
 		is_on_web = 0,
 		id = 5,
 		activity_bg = 0,
-		time = "0",
 		time_vote = {
 			{
 				{
@@ -614,7 +613,6 @@ pg.activity_vote = {
 		is_on_web = 1,
 		id = 6,
 		activity_bg = 0,
-		time = "0",
 		time_vote = {
 			{
 				{
@@ -673,7 +671,6 @@ pg.activity_vote = {
 		is_on_web = 1,
 		id = 7,
 		activity_bg = 0,
-		time = "0",
 		time_vote = {
 			{
 				{
@@ -787,7 +784,6 @@ pg.activity_vote = {
 		is_on_web = 1,
 		id = 8,
 		activity_bg = 0,
-		time = "0",
 		time_vote = {
 			{
 				{
@@ -901,7 +897,6 @@ pg.activity_vote = {
 		is_on_web = 1,
 		id = 9,
 		activity_bg = 0,
-		time = "0",
 		time_vote = {
 			{
 				{
@@ -1015,7 +1010,6 @@ pg.activity_vote = {
 		is_on_web = 1,
 		id = 10,
 		activity_bg = 0,
-		time = "0",
 		time_vote = {
 			{
 				{
@@ -1129,7 +1123,6 @@ pg.activity_vote = {
 		is_on_web = 1,
 		id = 11,
 		activity_bg = 0,
-		time = "0",
 		time_vote = {
 			{
 				{
@@ -1243,7 +1236,6 @@ pg.activity_vote = {
 		is_on_web = 1,
 		id = 12,
 		activity_bg = 0,
-		time = "0",
 		time_vote = {
 			{
 				{
@@ -1351,7 +1343,6 @@ pg.activity_vote = {
 		is_on_web = 1,
 		id = 13,
 		activity_bg = 0,
-		time = "0",
 		time_vote = {
 			{
 				{

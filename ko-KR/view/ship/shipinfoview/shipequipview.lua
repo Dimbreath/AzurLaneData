@@ -217,7 +217,7 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 
 		slot17 = slot2:GetPropertiesInfo().attrs
 
-		for slot22, slot23 in ipairs(EquipType.isDevice(slot2.configId) and {
+		for slot23, slot24 in ipairs(slot2.config.skill_id[1] and EquipType.isDevice(slot2.configId) and {
 			1,
 			2,
 			5
@@ -227,41 +227,34 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 			2,
 			3
 		}) do
-			slot24 = slot16:Find("attr_" .. slot23)
-			slot25 = findTF(slot24, "panel")
-			slot26 = findTF(slot24, "lock")
+			slot25 = slot16:Find("attr_" .. slot24)
+			slot26 = findTF(slot25, "panel")
 
-			setActive(slot24, true)
+			setActive(slot25, true)
 
-			if slot23 == 5 then
-				slot27 = ""
-
-				if slot2.config.skill_id[1] then
-					slot27 = getSkillName(slot28)
-				end
-
-				setText(slot25:Find("values/value"), "")
-				setText(slot25:Find("values/value_1"), slot27)
-				setActive(slot26, not slot28)
+			if slot24 == 5 then
+				setText(slot26:Find("values/value"), "")
+				setText(slot26:Find("values/value_1"), getSkillName(slot18))
+				setActive(findTF(slot25, "lock"), false)
 			elseif #slot17 > 0 then
-				slot28, slot29 = Equipment.GetInfoTrans(table.remove(slot17, 1), slot8)
+				slot29, slot30 = Equipment.GetInfoTrans(table.remove(slot17, 1), slot8)
 
-				setText(slot25:Find("tag"), slot28)
+				setText(slot26:Find("tag"), slot29)
 
-				if #string.split(tostring(slot29), "/") >= 2 then
-					setText(slot25:Find("values/value"), slot30[1] .. "/")
-					setText(slot25:Find("values/value_1"), slot30[2])
+				if #string.split(tostring(slot30), "/") >= 2 then
+					setText(slot26:Find("values/value"), slot31[1] .. "/")
+					setText(slot26:Find("values/value_1"), slot31[2])
 				else
-					setText(slot25:Find("values/value"), slot29)
-					setText(slot25:Find("values/value_1"), "")
+					setText(slot26:Find("values/value"), slot30)
+					setText(slot26:Find("values/value_1"), "")
 				end
 
-				setActive(slot26, false)
+				setActive(slot27, false)
 			else
-				setText(slot25:Find("tag"), "")
-				setText(slot25:Find("values/value"), "")
-				setText(slot25:Find("values/value_1"), "")
-				setActive(slot26, true)
+				setText(slot26:Find("tag"), "")
+				setText(slot26:Find("values/value"), "")
+				setText(slot26:Find("values/value_1"), "")
+				setActive(slot27, true)
 			end
 		end
 

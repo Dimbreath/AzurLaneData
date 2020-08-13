@@ -30,7 +30,6 @@ pg.ship_skin_words = {
 		battle = "잘 모르지만 할 수밖에 없어 푸링~!",
 		login = "렌치 한 방에 집무실의 마루도 뚫을 수 있어 푸링!",
 		vote = "",
-		name = "범용형 부린",
 		detail = "푸링?──푸링? 여기 어디? 어떻게 하면 되는 거야?",
 		couple_encourage = {}
 	},
@@ -64,7 +63,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "범용형 강화 장비(업무용) ",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -98,7 +96,6 @@ pg.ship_skin_words = {
 		battle = "푸링! 적이 울 때까지 때리는 것을 멈추지 않아 푸링!",
 		login = "왼쪽을 파고, 오른쪽도 파고 푸링, 푸링하게!",
 		vote = "",
-		name = "시제형 부린 MKⅡ",
 		detail = "아무리 봐도 상급자로는 되지 않는다구~!",
 		couple_encourage = {}
 	},
@@ -132,7 +129,6 @@ pg.ship_skin_words = {
 		battle = "모두를 위해, 듀이, 힘내겠습니다!",
 		login = "지휘관님, 어서 오세요. 모항의 재해 방지 장비를 확인해 보시겠어요? 언제 천재지변이 일어날 지는 아무도 모르니까요.",
 		vote = "",
-		name = "듀이",
 		detail = "지휘관님, 뭔가 고민거리라도 있으신가요? 듀이의 도움이 필요하신가요…?",
 		couple_encourage = {
 			{
@@ -200,7 +196,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 일기예보에서 오늘은 맑음이라고 합니다. ",
 		vote = "",
-		name = "여름의 동경",
 		detail = "이 그림책이요? 한 여자아이가 꿈 속에서 자신이 동경하는 사람을 쫓는 이야기입니다. 듀이가 그렸어요. 지휘관님, 보고싶으신가요? 렉싱턴에게는… 비밀로 해주세요.",
 		couple_encourage = {}
 	},
@@ -234,7 +229,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "메리크리스마스, 지휘관님. 지휘관님께서도 축복으로 가득한 아름다운 밤을 즐기시길 바라요.",
 		vote = "",
-		name = "겨울밤의 감사",
 		detail = "저도 렉싱턴 씨에게 특별한 크리스마스 선물을 주고 싶어요…… 지휘관님, 어떤 선물이 좋을 것 같으세요?",
 		couple_encourage = {}
 	},
@@ -268,7 +262,6 @@ pg.ship_skin_words = {
 		battle = "응…… 캐신의 휴식을 방해한 녀석에게는… 교육을 해줘야겠네.",
 		login = "아무리 지휘관이라도 날 방에서 끄집어낼 수 없어……",
 		vote = "",
-		name = "캐신",
 		detail = "딱히 신경 쓰이는 곳은 없어……",
 		couple_encourage = {}
 	},
@@ -302,7 +295,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "캐신·改",
 		detail = "후아……다시 잘 거니까, 뒤는 맡길게…",
 		couple_encourage = {}
 	},
@@ -336,7 +328,6 @@ pg.ship_skin_words = {
 		battle = "모두 돌격! 저 녀석들한테 본때를 보여주라고!",
 		login = "엇차! 지휘관, 오늘은 좋은 바람이 부는걸! 다운즈랑 같이 저 녀석들한테 어뢰라도 먹여주러 갈래?",
 		vote = "",
-		name = "다운즈",
 		detail = "뭐야, 나처럼 근육이 좀 붙은 여자가 취향이야?",
 		couple_encourage = {}
 	},
@@ -370,7 +361,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어이! 지휘관, 오늘도 열심이네! 졸리면 내가 뭐라도 터뜨려 개운하게 해줄까?",
 		vote = "",
-		name = "다운즈·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -404,7 +394,6 @@ pg.ship_skin_words = {
 		battle = "상대는 멈춰 있다구, 발포~!",
 		login = "지휘관~ 저기 있지, 새러토가는 무진장 귀엽다구!",
 		vote = "",
-		name = "그리들리",
 		detail = "와, 저 귀여운 애 좀 봐~! 어, 나 아니라니까! 쟤!",
 		couple_encourage = {}
 	},
@@ -438,7 +427,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "성야의 촬영회!",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -472,7 +460,6 @@ pg.ship_skin_words = {
 		battle = "모두~ 오늘도 힘차게~ 파이팅이야~☆",
 		login = "지휘관님. 오늘의 하프타임 응원은 맡겨달라구요!",
 		vote = "",
-		name = "크레이븐",
 		detail = "아아앗~ 지휘관님! 다, 다가오시는 게 너무 갑작스럽다구요!",
 		couple_encourage = {}
 	},
@@ -506,7 +493,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "장외의 치어리더",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -540,7 +526,6 @@ pg.ship_skin_words = {
 		battle = "아, 역시 전투인가. 아무리 그래도 계속 피하기만 해선 지나갈 수 없지.",
 		login = "지휘관 씨, 오늘은 이대로 앉아 있기만 하면 돼?",
 		vote = "",
-		name = "맥콜",
 		detail = "미안, 조금만 서둘러주지 않겠어? 새로 나온 아이스크림 사고 싶어.",
 		couple_encourage = {}
 	},
@@ -574,7 +559,6 @@ pg.ship_skin_words = {
 		battle = "속전속결로 갑니다! 안 그러면 또 금방 배고파지니까…",
 		login = "지휘관님, 같이 워밍업 하지 않을래요?",
 		vote = "",
-		name = "모리",
 		detail = "저기, 어째서 항상 워밍업할 때… 여자애가 땀 흘리는 모습이 신경 쓰이세요?",
 		couple_encourage = {}
 	},
@@ -608,7 +592,6 @@ pg.ship_skin_words = {
 		battle = "상대는 고작 몇 척일 뿐이에요~ 머릿수로 밀어붙이도록 해요!",
 		login = "지휘관 씨, 오늘은 저를 쉽게 알아보실 수 있으셨나요? 여동생들과는 다르답니다~?",
 		vote = "",
-		name = "플레처",
 		detail = "저, 꽤 빠르니까 아마도 피탄당하거나 하진 않을 거랍니다? 에… 뭐 조금 정도 피탄당하더라도 괜찮…으려나?",
 		couple_encourage = {}
 	},
@@ -642,7 +625,6 @@ pg.ship_skin_words = {
 		battle = "자, 비버즈, 31노트 고속 출격이야! 이번엔 측면을 적 신사분들께 보여주지 않도록! ",
 		login = "안녕, 지휘관. 리틀·비버즈의 대장, 오스본이 왔어. 오늘은 대체 어떤 짓궂은 아이가 내 심판을 기다리고 있을까?",
 		vote = "",
-		name = "찰스 오스본",
 		detail = "무기를 장착하는 이유는, 정의의 철퇴를 내리기 위해서야!",
 		couple_encourage = {
 			{
@@ -697,7 +679,6 @@ pg.ship_skin_words = {
 		battle = "일전에 놓쳐버린 칠면조, 이번에야말로 놓치지 않겠어!",
 		login = "지휘관, 오늘은 모두에게 어떤 식으로 장난을 쳐볼까? 히히힛.",
 		vote = "",
-		name = "대처",
 		detail = "레이더 좀 그만 만져~! 밤중에 적에게 장난칠 때 써야 한다구!",
 		couple_encourage = {}
 	},
@@ -731,7 +712,6 @@ pg.ship_skin_words = {
 		battle = "쉬─잇, 조용! 언니들과 맞춰서 저쪽부터 가자!",
 		login = "와─아! 어서 와, 지휘관!",
 		vote = "",
-		name = "얼릭",
 		detail = "지휘관도 장비를 확실히 정비하도록 해!",
 		couple_encourage = {}
 	},
@@ -765,7 +745,6 @@ pg.ship_skin_words = {
 		battle = "뭐? 기함? 칫, 귀찮구만…",
 		login = "매일 인사를 해야 한다니… 귀찮아…",
 		vote = "",
-		name = "푸트",
 		detail = "빨리해. 이거, 포즈 취하는 것도 지치니까.",
 		couple_encourage = {}
 	},
@@ -799,7 +778,6 @@ pg.ship_skin_words = {
 		battle = "지휘관 씨… 스펜스, 기대에 부응할 수 있게 힘낼게요!",
 		login = "지, 지휘관 씨… 아, 아뇨… 스펜스, 많이 기다린 거 아니니까요!",
 		vote = "",
-		name = "스펜스",
 		detail = "아앗─! 이, 이상한 곳 만지지 말아주세요오~",
 		couple_encourage = {}
 	},
@@ -833,7 +811,6 @@ pg.ship_skin_words = {
 		battle = "게임오버되면 타이틀에 돌아갈 뿐, 인 게 아니니까 말야~",
 		login = "이 초절 파워풀 초귀염 미소녀 벤슨쨩을 기다리게 하다니, 지휘관은 뭐 변명거리라도 있을까나~?",
 		vote = "",
-		name = "벤슨",
 		detail = "아아 정말 귀 만지지 마! 뗄 수 있는 게 아니라니깐! 무, 물 거야!",
 		couple_encourage = {}
 	},
@@ -867,7 +844,6 @@ pg.ship_skin_words = {
 		battle = "자기제어기능 해제……",
 		login = "지휘관, 잘 지냈어? 라피는 잘 지냈어. 아마도.",
 		vote = "",
-		name = "라피",
 		detail = "내가 이 몸이 아니게 되더라도, 그래도 바라봐줄 거야…?",
 		couple_encourage = {
 			{
@@ -910,7 +886,6 @@ pg.ship_skin_words = {
 		battle = "움직이기 불편해……",
 		login = "귀여워 보여? 그럼……좀 더 이대로 있을래.",
 		vote = "",
-		name = "눈토끼와 사과 사탕",
 		detail = "!!! 너무 잡아당기지 마……지휘관, 강아지랑 산책하는 거, 힘들어……",
 		couple_encourage = {}
 	},
@@ -944,7 +919,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 아직 안 돌아왔어. 라피, 이제 잠들어버릴 거 같아……쿠울…",
 		vote = "",
-		name = "봄을 기다리는 토끼",
 		detail = "정월… 춘절… 다른 거야? 라피, 잘 모르지만… 으음, 맛있는 거 먹고 푹 잘 수 있는 날이면… 좋은 날. 응.",
 		couple_encourage = {}
 	},
@@ -978,7 +952,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "토끼 직원?",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -1012,7 +985,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 뭐 좀 먹을래? 라피꺼 전부 줄게.",
 		vote = "",
-		name = "피크닉 해프닝?",
 		detail = "지휘관이랑 모두들이랑 피크닉, 즐거워...... 라피는 모두 사이좋게 지내는 걸 보니까, 기뻐......",
 		couple_encourage = {}
 	},
@@ -1046,7 +1018,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오늘도… 후아암, 열심히 아이돌 활동을…",
 		vote = "",
-		name = "토끼 아이돌・나른나른",
 		detail = "재블린이 라피를 찾아와서 아이돌을 하자고 할 때 옆에 벤슨 언니가 있었어. 언니의 눈을 보고 라피는 깨달았지. 일이 귀찮게 됐구나… 하고.",
 		couple_encourage = {}
 	},
@@ -1080,7 +1051,6 @@ pg.ship_skin_words = {
 		battle = "적을 무찌르고, 돌아가자......",
 		login = "라피는 계속 지휘관이 오기만을 기다리지 않았어......응, 그랬어.",
 		vote = "",
-		name = "토끼와 서약",
 		detail = "지휘관이 사랑하는 건 라피의 몸이 아니라, 라피의 \"마음\"인거야? 복잡한 건 몰라. 그러니까 항상 라피와 함께 하겠다는 뜻인거지?",
 		couple_encourage = {}
 	},
@@ -1114,7 +1084,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "라피는 지금, 엄청 기운 넘쳐.",
 		vote = "",
-		name = "라피·改",
 		detail = "재블린, 아야나미, Z23……모두 친구…모두랑 쭈욱 함께 있고 싶어……",
 		couple_encourage = {}
 	},
@@ -1148,7 +1117,6 @@ pg.ship_skin_words = {
 		battle = "적당히 해치워 버릴까나~",
 		login = "어서 와, 지휘관…… 칠판지우개? 글쎄? 내가 올려둔 거 아닌데~",
 		vote = "",
-		name = "심즈",
 		detail = "지휘관 있잖아~ 아무리 뚫어지게 봐도 능력치는 안 오른다구.",
 		couple_encourage = {}
 	},
@@ -1182,7 +1150,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 매운 케이크와 짠 케이크 중에 뭐가 먹고싶어~?",
 		vote = "",
-		name = "심즈·改",
 		detail = "지휘관, 엄청 피곤해 보이잖아? 게임 할래?",
 		couple_encourage = {}
 	},
@@ -1216,7 +1183,6 @@ pg.ship_skin_words = {
 		battle = "송사리 녀석들, 이 허먼이 해치워 주겠어!",
 		login = "허먼을 언제까지 기다리게 할 셈이야! 혼자서 엄청 외로… 흥!",
 		vote = "",
-		name = "허먼",
 		detail = "변태! 뭘 빤히 쳐다보고 있는 거야!!",
 		couple_encourage = {
 			{
@@ -1275,7 +1241,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "허먼",
 		detail = "허, 허먼의 수영복에 넋을 잃은 거야…? 흥! 오, 오늘만큼은 특별히 감상하게 해주겠어!",
 		couple_encourage = {}
 	},
@@ -1309,7 +1274,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지~휘~관? 대체 허먼을 얼마나 오래 기다리게 할 셈이야!? 아... 크, 크흠, 오래 기다리진 않았어. 허먼도 방금 막 왔어!",
 		vote = "",
-		name = "무도회의 새침한 요정",
 		detail = "무도회 다 끝나가잖아, 바보 지휘관!",
 		couple_encourage = {}
 	},
@@ -1343,7 +1307,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "이런 모습을 했다고 흥분하다니, 역시 구제할 도리가 없는 변태네!",
 		vote = "",
-		name = "허먼·改",
 		detail = "언제까지 보는 거야… 허먼, 요크타운 언니한테 가고 싶어…",
 		couple_encourage = {}
 	},
@@ -1377,7 +1340,6 @@ pg.ship_skin_words = {
 		battle = "좋아하진 않지만, 열심히 해볼게.",
 		login = "지휘관, 먹을래? 줄게.",
 		vote = "",
-		name = "엘드릿지",
 		detail = "……지휘관, 귀여워?",
 		couple_encourage = {
 			{
@@ -1420,7 +1382,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "성야의 포옹",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -1454,7 +1415,6 @@ pg.ship_skin_words = {
 		battle = "오늘의……숙제?",
 		login = "지휘관, 같이 들을래? ……자",
 		vote = "",
-		name = "빈 교실의 불가사의",
 		detail = "지휘관, 엘드릿지랑 수업, 안 할래?",
 		couple_encourage = {}
 	},
@@ -1488,7 +1448,6 @@ pg.ship_skin_words = {
 		battle = "명절, 방해, 안 돼.",
 		login = "지휘관, 같이 놀자.",
 		vote = "",
-		name = "정월의 손길",
 		detail = "이 옷, 예뻐. 포옹은, 좀 무리, 시무룩……",
 		couple_encourage = {}
 	},
@@ -1522,7 +1481,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 엘드릿지, 야옹이가 됐어……",
 		vote = "",
-		name = "냥냥 아이돌?",
 		detail = "엘드릿지는, 전기 아이돌…… (엘드릿지 근처의 전기가 규칙적으로 변하고 있다.)",
 		couple_encourage = {}
 	},
@@ -1556,7 +1514,6 @@ pg.ship_skin_words = {
 		battle = "베일리는 너희들이 무섭지 않은걸!",
 		login = "지휘관, 몸은 어때~? 베일리가 토끼토끼 파워를 주입해줄게!",
 		vote = "",
-		name = "베일리",
 		detail = "뀨─…… 큐─…… 아우…… 부, 부─…? 우우… 토끼토끼의 울음소리, 어려워…",
 		couple_encourage = {}
 	},
@@ -1590,7 +1547,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "장난스러운 베일리",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -1624,7 +1580,6 @@ pg.ship_skin_words = {
 		battle = "토끼토끼 매직은 엄~청 강하다구~!",
 		login = "",
 		vote = "",
-		name = "베일리·改",
 		detail = "토순이, 토돌이, 준비는 너희에게 맡길게~",
 		couple_encourage = {}
 	},
@@ -1658,7 +1613,6 @@ pg.ship_skin_words = {
 		battle = "좋은 건 다 같이 나눠야지! 사탕을 독차지 하지마!",
 		login = "나의 감이 맞다면, 지휘관의 사탕은…… 엥, 없다고?!",
 		vote = "",
-		name = "래드포드",
 		detail = "지휘관도 사탕의 좋은 점을 알게 됐어? 여기, 먹고 싶은 거, 원하는 만큼 먹어도 돼.",
 		couple_encourage = {}
 	},
@@ -1692,7 +1646,6 @@ pg.ship_skin_words = {
 		battle = "겁내고 있을 때가 아니죠… 싸, 싸울게요!",
 		login = "아, 암호 기억하시죠…… 하, 하아… 진짜 지휘관님이구나…",
 		vote = "",
-		name = "젠킨스",
 		detail = "지, 지휘관과 함께할 수 있을 만한 일, 없을까요……?",
 		couple_encourage = {}
 	},
@@ -1726,7 +1679,6 @@ pg.ship_skin_words = {
 		battle = "……승리를 향해… 어때?",
 		login = "지휘관과는 달리, 난 어디에도 가고 싶지 않다고, 어디에도……",
 		vote = "",
-		name = "니콜라스",
 		detail = "쿨…쿨… 아, 지, 지휘관? 혹시 나 너무 땡땡이 쳐서 출격해야 하게 된 거야?! ",
 		couple_encourage = {
 			{
@@ -1769,7 +1721,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "……하아…… 지휘관, 좋은 아침~",
 		vote = "",
-		name = "미스 패키징?",
 		detail = "에에~ 크리스마스인데 휴가가 없다구~? ……그, 그럼 딱 5분만 자게 해줘~ …5분만 ……쿠울……",
 		couple_encourage = {}
 	},
@@ -1803,7 +1754,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "니콜라스·改",
 		detail = "안 나가도 할 수 있는 업무는 나한테 맡겨도 돼~",
 		couple_encourage = {}
 	},
@@ -1837,7 +1787,6 @@ pg.ship_skin_words = {
 		battle = "부시, 파이팅!",
 		login = "저기…오늘 일정이 뭐였었죠?",
 		vote = "",
-		name = "부시",
 		detail = "왜요 왜요? 뭘 하면 되나요?",
 		couple_encourage = {}
 	},
@@ -1871,7 +1820,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "앗, 일 해야 하나요? 아직 다 못 그렸는데......",
 		vote = "",
-		name = "꼬마 화가",
 		detail = "노스캐롤라이나 언니가 저에게 워싱턴 언니를 도와 웃는 얼굴을 그려달라고 부탁했어요. 하지만 워싱턴 언니는 별로 원하지 않는 것 같아요...... 아, 알겠어요. 워싱턴 언니는 부끄러운 거에요!",
 		couple_encourage = {}
 	},
@@ -1905,7 +1853,6 @@ pg.ship_skin_words = {
 		battle = "좋아~! 다 함께 가자~!",
 		login = "나이스 타이밍~ 난 준비운동 다 끝났어~ 같이 나가자!",
 		vote = "",
-		name = "헤이즐우드",
 		detail = "후하~ 기분 좋아! 오늘도 햇살이 따뜻하네!",
 		couple_encourage = {}
 	},
@@ -1939,7 +1886,6 @@ pg.ship_skin_words = {
 		battle = "고작 너희들로 배시를 이겨보겠다고? 웃겨 죽겠네!",
 		login = "빨리 이 커피 마시고 정신 차리라고! 배시의 지휘관이라면 이렇게 힘이 없으면 안된다고!",
 		vote = "",
-		name = "배시",
 		detail = "하하하. 배시가 출동할 시간인가?",
 		couple_encourage = {
 			{
@@ -1987,7 +1933,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "아? 응~~? 지휘관, 힘이 없어 보이네? 배시가 두 바퀴 정도 드라이브 시켜줄까~? 히히.",
 		vote = "",
-		name = "럭셔리 스피드 스타",
 		detail = "사실 배시는 바이크에 대해… 잘 아는 건 아니야. 하지만, 로열의 친구 하나가 많이 도와줬다고! 제대로 감사 인사를 해야겠어.",
 		couple_encourage = {}
 	},
@@ -2021,7 +1966,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "눈부신 경기장의 별",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -2055,7 +1999,6 @@ pg.ship_skin_words = {
 		battle = "유일무이한 하비는 당연히 기함이라고!",
 		login = "지휘관, 어서 와! 하비가 없어서 쓸쓸하니까 돌아온 거지?",
 		vote = "",
-		name = "하비",
 		detail = "하비는 이미 포즈를 잡고 있다구! …지휘관, 사진 제대로 찍었어?",
 		couple_encourage = {
 			{
@@ -2101,7 +2044,6 @@ pg.ship_skin_words = {
 		battle = "공부할 건 아직 잔뜩 남았지만, 하비는 전혀 무섭지 않다구~",
 		login = "헬로~ 지휘관! 하비와 함께 학교에 가자~ 괜찮아, 시간은 잔뜩 있으니까 가는 길엔 계속 둘이 함께 있을 수 있다구~",
 		vote = "",
-		name = "리틀 스쿨 스타",
 		detail = "하비의 변한 모습을 좀 더 알고 싶어? 후훗, 지휘관, 카메라는 준비했어? 마음껏 찍어도 된다구~",
 		couple_encourage = {}
 	},
@@ -2135,7 +2077,6 @@ pg.ship_skin_words = {
 		battle = "해보자고~ 제대로 힘내야겠네~",
 		login = "지휘관 지휘관, 지휘관이 없는 사이에 또 몰래 모두의 급식에 칠리 소스를 뿌렸었는데, 왜 내 것만 엄청 매웠던 걸까… 으아~ 꿀밤 때리지 마…",
 		vote = "",
-		name = "커크",
 		detail = "좋은 장비로 제대로 달아줘~ 나쁜 비행기가 나에게 닿지 못하게 해야 하니까",
 		couple_encourage = {
 			{
@@ -2181,7 +2122,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 계속 기다렸다구. 에에 그러니까, 봐봐, 계속 밖에 있다 보니 주포랑 어뢰가 얼음 투성이가 되어버렸어~",
 		vote = "",
-		name = "학원의 눈꽃 요정",
 		detail = "토끼씨, 착하지 착하지~ 헤헤헤, 지휘관, 나 동물과 함께 있는 게 제일 좋아!",
 		couple_encourage = {}
 	},
@@ -2215,7 +2155,6 @@ pg.ship_skin_words = {
 		battle = "요격, 준비!",
 		login = "시간 준수는 좋은 습관입니다. 앞으로도 잘 부탁합니다.",
 		vote = "",
-		name = "킴벌리",
 		detail = "뭘 보고 있는 겁니까? 자리로 돌아가 주십시오.",
 		couple_encourage = {}
 	},
@@ -2249,7 +2188,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "이스트 글림에는 '하루의 계획은 아침에 달려 있다'란 속담이 있어요. 하지만, 굳이 아침이 아니더라도, 뭐든 항상 시작은 좋았으면 해요. 지휘관님도 그렇게 생각하시지 않으세요?",
 		vote = "",
-		name = "안양의 이문화 공부",
 		detail = "이스트 글림과 유니온은 역시 다른 점이 많네요. 하지만, 어느 소속이건 미래를 지키겠다는 기분은 다들 같습니다.",
 		couple_encourage = {}
 	},
@@ -2283,7 +2221,6 @@ pg.ship_skin_words = {
 		battle = "오늘도 지휘관을 위해 노력할게.",
 		login = "지휘관은 밥 먹었어? 내가 간단한 거라도 좀 만들어 줄까?",
 		vote = "",
-		name = "멀라니",
 		detail = "지휘관, 내 도움이 필요하면 언제든지 불러줘.",
 		couple_encourage = {}
 	},
@@ -2317,7 +2254,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "샤오룽바오라도 먹을래?",
 		vote = "",
-		name = "칭양의 요리 특훈",
 		detail = "이스트 글림에서 공부하면서 그 긴 역사와 문화를 접한 덕분에, 예전보다 조금은 차분해진 느낌이지만, 그렇게까지 변하진 않았다구? 안 믿어져? 요리를 보면 알아주려나…?",
 		couple_encourage = {}
 	},
@@ -2351,7 +2287,6 @@ pg.ship_skin_words = {
 		battle = "모두, 함께 힘내요!",
 		login = "다녀오셨어요, 지휘관님. 새로운 하루가 또 시작되네요~",
 		vote = "",
-		name = "아일윈",
 		detail = "지휘관님, 렉싱턴씨와 새러토가씨 중 누가 더 좋으세요? 아니면… 다른 여자아이가 좋으신건가요?",
 		couple_encourage = {
 			{
@@ -2402,7 +2337,6 @@ pg.ship_skin_words = {
 		battle = "방금 본 내용, 대 잠수함 전투에 쓸 수 있지 않을까…",
 		login = "지휘관님, 오늘 잘 부탁드려요. 어때요? 이 인사는 로열 메이드대에서 배워온 거라구요?",
 		vote = "",
-		name = "일요일의 아쿠아리움",
 		detail = "배가 고픈데… 와, 과자하고 사탕. 그리고… 안돼, 안돼. 지휘관님 것은 남겨둬야…",
 		couple_encourage = {}
 	},
@@ -2436,7 +2370,6 @@ pg.ship_skin_words = {
 		battle = "전투 모드 기동! 출격!",
 		login = "스탠리, 작업 모드 돌입! 한가지 알려주자면 이 모드의 지속 시간은 엄청 짧다구. ",
 		vote = "",
-		name = "스탠리",
 		detail = "아무리 봐도 스탠리는 변신같은 거 안 한다고?",
 		couple_encourage = {
 			{
@@ -2479,7 +2412,6 @@ pg.ship_skin_words = {
 		battle = "일단 준비 운동 먼저 하자.",
 		login = "지휘관, 사무실에서 훈련해도 돼?",
 		vote = "",
-		name = "스몰리",
 		detail = "볼티모어 씨? ...... 아, 지휘관인가...... 미안, 방금 단련하느라 몰랐어. ",
 		couple_encourage = {
 			{
@@ -2522,7 +2454,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "사무실 장식하는 호박은 여기 둘게.",
 		vote = "",
-		name = "위치 딜리버리",
 		detail = "모두를 도와주면서 내 몸도 단련할 수 있어. 나한테 정말 최고의 일이야.",
 		couple_encourage = {}
 	},
@@ -2556,7 +2487,6 @@ pg.ship_skin_words = {
 		battle = "이 할시 파웰이 함대를 승리로 이끌겠어!",
 		login = "으응—— 오늘의 지휘관도 언제나와 같네!",
 		vote = "",
-		name = "할시 파웰",
 		detail = "에에, 지휘관도 역시 날 신경쓰고 있었구나!",
 		couple_encourage = {}
 	},
@@ -2590,7 +2520,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 새해 복 많이 받아! 저기, 내 세뱃돈은 어디에 있어?",
 		vote = "",
-		name = "새해의 럭키스타!",
 		detail = "럭키스타는 사실 할아버지라고? 그렇구나…… 에에에에?! 그, 그럼 럭키스타는 그만 둘래!",
 		couple_encourage = {}
 	},
@@ -2624,7 +2553,6 @@ pg.ship_skin_words = {
 		battle = "캐스트 오프! 간다!",
 		login = "히히, 씩씩한 지휘관을 보니 걱정 없네!",
 		vote = "",
-		name = "쿠퍼",
 		detail = "가끔은 말이지, 모두가 위험에 처했을 때 나에게 숨겨진 엄청난 힘이 쨘! 하고 나타나서 세계를 구하면 어떨까 하는 생각을 해! … 하아, 정말이라면 얼마나 좋을까!",
 		couple_encourage = {}
 	},
@@ -2658,7 +2586,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "사쿠라 엠파이어의 저 꼬맹이를 꺾고 나면 그다음에 승부하자!",
 		vote = "",
-		name = "뜨거운 테니스장",
 		detail = "태양 아래에서 테니스 치는 게 이렇게 힘든 일일줄은 몰랐네…… 지휘관, 어디 있어?",
 		couple_encourage = {}
 	},
@@ -2692,7 +2619,6 @@ pg.ship_skin_words = {
 		battle = "배 채운 나는 무적이니까! 너덜너덜해질 때까지 돌려보내지 않아!",
 		login = "지휘관 씨~오늘은 오마하에게 맡길 재미있는 일 없어?",
 		vote = "",
-		name = "오마하",
 		detail = "지휘관! 배, 배는 안 나왔다고── 아아! 보지마아아아!",
 		couple_encourage = {}
 	},
@@ -2726,7 +2652,6 @@ pg.ship_skin_words = {
 		battle = "모두, 오랜만의 실전이니까 집중해주세요~",
 		login = "안녕하세요, 지휘관. 롤리는 계속 기다리고 있었다구요? 네, 슬슬 훈련 시간이네요?",
 		vote = "",
-		name = "롤리",
 		detail = "모르는 것이 있다면, 선생님께 물어보세요.",
 		couple_encourage = {}
 	},
@@ -2760,7 +2685,6 @@ pg.ship_skin_words = {
 		battle = "쏴버려라! 내가 곁에 있다.",
 		login = "좋은 타이밍입니다. 마침 사인을 해 주셨으면 하는 서류가 몇 장 있더군요.",
 		vote = "",
-		name = "브루클린",
 		detail = "이쪽은 기밀 정보로 되어 있으니 비밀 엄수를 부탁합니다.",
 		couple_encourage = {}
 	},
@@ -2794,7 +2718,6 @@ pg.ship_skin_words = {
 		battle = "봐라! 동방은 붉게 타오르고 있다!",
 		login = "Hey! 지휘관! 오늘도 이 피닉스가 지켜줄게!",
 		vote = "",
-		name = "피닉스",
 		detail = "지휘관, 뭔 일 있었어? 눈이 멍하다고.",
 		couple_encourage = {
 			{
@@ -2837,7 +2760,6 @@ pg.ship_skin_words = {
 		battle = "내 앞에서는 숨어도 소용없어요.",
 		login = "…아 지휘관, 다녀오셨어요? 미안해요, 잠깐 생각할 게 있어서.",
 		vote = "",
-		name = "헬레나",
 		detail = "이것에만 의지해서도 안 돼…",
 		couple_encourage = {
 			{
@@ -2890,7 +2812,6 @@ pg.ship_skin_words = {
 		battle = "나……이기고 싶어!",
 		login = "지휘관, 함대는 온통 명절 분위기네.",
 		vote = "",
-		name = "파랑새의 정월",
 		detail = "세인트루이스 언니, 나한테 이 옷 저 옷 입히는 걸 기대하고 있었나 보네…… 지휘관, 이 옷, 정말 귀여워?",
 		couple_encourage = {}
 	},
@@ -2924,7 +2845,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 슬슬 파티가 시작할 거야.",
 		vote = "",
-		name = "지휘관과의 춤",
 		detail = "오늘을 위해서, 세인트루이스 언니에게 춤을 배웠어. 몸치라고 몇 번이나 놀림당했어… 후후.",
 		couple_encourage = {}
 	},
@@ -2958,7 +2878,6 @@ pg.ship_skin_words = {
 		battle = "내가...... 이길 거야!",
 		login = "지휘관, 복귀를 환영해. 오늘도 함께 힘내자!",
 		vote = "",
-		name = "헬레나·改",
 		detail = "요즘 내가 뭘 주동적으로 하기만 하면, 루이스 언니가 \"어머, 많이 컸네\"라면서 탄식하는 척을 해...... 정말이지, 사기꾼이야......",
 		couple_encourage = {}
 	},
@@ -2992,7 +2911,6 @@ pg.ship_skin_words = {
 		battle = "대량 포탑 독트린의 진가, 누나가 알·려·줄·게!",
 		login = "지휘관, 문제가 생기면 언제라도 말해줘!",
 		vote = "",
-		name = "애틀란타",
 		detail = "아, 지휘관이 보고 있어… 누나로서 제대로 해야겠네!",
 		couple_encourage = {}
 	},
@@ -3026,7 +2944,6 @@ pg.ship_skin_words = {
 		battle = "모두… 수비에 신경 쓰고… 꺼림칙한 잠수함에 주의해줘…",
 		login = "지, 지휘관 씨… 쥬노는 계, 계속 기다리고 있었으니까요……",
 		vote = "",
-		name = "쥬노",
 		detail = "다리의… 예전 상처 말인가요? 응…… 아직도 조금 어색하지만, 모두의 발목을 잡지는 않아요…!",
 		couple_encourage = {}
 	},
@@ -3060,7 +2977,6 @@ pg.ship_skin_words = {
 		battle = "출격! …위험했다… 넘어질 뻔했어…",
 		login = "있지 지휘관, 익사이팅한 물총 싸움하자!",
 		vote = "",
-		name = "샌디에이고",
 		detail = "뭐가 재미있다고 이런 걸 보는 거야? 그러지 말고, 놀자~",
 		couple_encourage = {
 			{
@@ -3103,7 +3019,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "메리 크리디에이고!",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -3137,7 +3052,6 @@ pg.ship_skin_words = {
 		battle = "샌디에이고 출격! GOGOGO!",
 		login = "오늘의 업무는 샌디에이고가 이미 전부 끝냈어! 됐지 됐지, 놀러 가자!",
 		vote = "",
-		name = "June Bride No.1！",
 		detail = "샌디에이고의 웨딩 드레스 정말 최고야! 맞지!",
 		couple_encourage = {}
 	},
@@ -3171,7 +3085,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "헤이, 지휘관! 오늘 일은 이 머리 좋은 샌디에이고한테 맡겨줘~! 후다닥 전부 해치워버릴거야~!",
 		vote = "",
-		name = "샌디에이고·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -3205,7 +3118,6 @@ pg.ship_skin_words = {
 		battle = "서두르고 있거든… 모두 한꺼번에 덤벼도 되는데?",
 		login = "하이, 지휘관. 오늘은 기운이 넘쳐 보이는데!",
 		vote = "",
-		name = "클리블랜드",
 		detail = "나, 자신 있다고.",
 		couple_encourage = {}
 	},
@@ -3239,7 +3151,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "데빌 피버",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -3273,7 +3184,6 @@ pg.ship_skin_words = {
 		battle = "속전속결로 가자!",
 		login = "지휘관, 아직 괜찮아? 다음은 파티에 갈 거라고!",
 		vote = "",
-		name = "비스티 나이트",
 		detail = "아아 지휘관, 당황하지 않아도 돼. 당신과의 약속이 최우선이니까.",
 		couple_encourage = {}
 	},
@@ -3307,7 +3217,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 준비됐어? 이제부터 우리는 바람을 쫓아갈거라고!",
 		vote = "",
-		name = "Road·Traveler",
 		detail = "지휘관은 어떤 음악을 좋아해? 나는 역시 힘을 낼 수 있게 만들어주는 음악이 좋으려나.",
 		couple_encourage = {}
 	},
@@ -3341,7 +3250,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "헤헤, 지휘관, 제기치기 한 판 할래?",
 		vote = "",
-		name = "신년 배틀!",
 		detail = "원래 그런지는 모르지만, 사쿠라 엠파이어에서는 제기치기를 지면 얼굴에 낙서하는 벌칙을 받아야해...",
 		couple_encourage = {}
 	},
@@ -3375,7 +3283,6 @@ pg.ship_skin_words = {
 		battle = "이 싸움은 지휘관을 위해!",
 		login = "슬슬 돌아와 주지 않을까 생각했었는데, 바로 와줬네! 이게 바로 '이심전심'이란 거구나! 헤헤헤♪",
 		vote = "",
-		name = "가슴 떨리는 순간",
 		detail = "내 고민거리? 없어. ……아니, 숨기는 게 아니라구! 그치만… 지휘관 앞에선 숨겨봤자 소용없잖아. 하하하.",
 		couple_encourage = {}
 	},
@@ -3409,7 +3316,6 @@ pg.ship_skin_words = {
 		battle = "칫, 별수 없지! 우리 남부인의 힘을 보여주마!",
 		login = "오늘도 날씨가 잠잠하네! 좋아 좋아! ",
 		vote = "",
-		name = "컬럼비아",
 		detail = "나에 대해 알고 싶어? 그래~ 실컷 보라고~",
 		couple_encourage = {
 			{
@@ -3452,7 +3358,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "방학 전의 Odette",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -3486,7 +3391,6 @@ pg.ship_skin_words = {
 		battle = "영차, 워밍업 간다─",
 		login = "지휘관, 시간이 꽤 흘렀는데, 무슨 재미있는 일이라도 있었어? 나도 데려가 줘~",
 		vote = "",
-		name = "리치몬드",
 		detail = "지휘관, 뭔 일이야~? 일 없으면, 잠시 잡담하지 않을래?",
 		couple_encourage = {}
 	},
@@ -3520,7 +3424,6 @@ pg.ship_skin_words = {
 		battle = "이 녀석들을 쓸어버리면 되는 거지?",
 		login = "왜 여기서 기다려야 하는 건데……",
 		vote = "",
-		name = "호놀룰루",
 		detail = "정비? 이상한 짓만 안 하면 뭐 상관없지만…",
 		couple_encourage = {}
 	},
@@ -3554,7 +3457,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "양산을 쓴 그녀",
 		detail = "가, 같이 점심? 진짜? 그냥 놀리는 거지? 아니면…헬레나가 만든 요리가 목적이야?",
 		couple_encourage = {}
 	},
@@ -3588,7 +3490,6 @@ pg.ship_skin_words = {
 		battle = "본 사람을 전부 없애버리면…부끄러워하지 않아도 되겠지!",
 		login = "",
 		vote = "",
-		name = "여름의 수난",
 		detail = "지휘관, 내 주포에 장난쳐놓은 건 당신이지? 자, 자백하라고! 지금이라면 아직 늦지 않았으니까……",
 		couple_encourage = {}
 	},
@@ -3622,7 +3523,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지, 지휘관! 일부러 그랬지!?",
 		vote = "",
-		name = "대담한(?) 루돌프 아가씨",
 		detail = "크리스마스 스페셜 란제리라니…… 루이스 말 듣는 게 아니었어! 빨리 이 순록 의상을 입어서 안 보이도록 해야…!",
 		couple_encourage = {}
 	},
@@ -3656,7 +3556,6 @@ pg.ship_skin_words = {
 		battle = "얼른 해치우고 다시 축제를 보러 가야지…!",
 		login = "미리 말해두지만 축, 축제를 좋아하는 건…… 아아아, 됐어! 지휘관, 나랑 같이 가줘!",
 		vote = "",
-		name = "둘만의 여름 축제",
 		detail = "뭘 그렇게 봐. 축제 좋아하는 게 이상해?",
 		couple_encourage = {
 			{
@@ -3707,7 +3606,6 @@ pg.ship_skin_words = {
 		battle = "행운의 바람 소리, 들렸어?",
 		login = "지휘관 군, 운이란 건 흐름과도 같아. 흐름이 왔을 때, 마음껏 해보라고! ",
 		vote = "",
-		name = "세인트루이스",
 		detail = "사쿠라 엠파이어의 그 아이들같이, 동료에게 악운을 주는 함선이 아니라고. 아마도… 말이지…",
 		couple_encourage = {
 			{
@@ -3758,7 +3656,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "봄의 꽃",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -3792,7 +3689,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "일하기 전에, 가볍게 한 잔 해서 몸을 덥혀두도록 해.",
 		vote = "",
-		name = "눈 내린 그날 밤, 잊지 못할 그 한 잔의 술",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -3826,7 +3722,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "경치가 좋네. 여기서 바람이라도 쐴까?",
 		vote = "",
-		name = "Luxury Handle",
 		detail = "지휘관 군, 설마 내가 하이힐을 신고 운전할 거라 생각한 거니? 후훗, 못 할 것도 없지만 차 안에는 드라이빙 슈즈가 따로 있단다.",
 		couple_encourage = {}
 	},
@@ -3860,7 +3755,6 @@ pg.ship_skin_words = {
 		battle = "해상기사단, 진군!",
 		login = "왔어? 그럼 난 나갔다 올게. 여긴 너무 따분해.",
 		vote = "",
-		name = "몬트필리어",
 		detail = "언니이~! …가 아니라 지휘관이었네. 무슨 일이지?",
 		couple_encourage = {
 			{
@@ -3903,7 +3797,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "눈 내린 밤에 핀 꽃",
 		detail = "사쿠라 엠파이어의 새해, 상상했던 것과는 조금 다르네.",
 		couple_encourage = {}
 	},
@@ -3937,7 +3830,6 @@ pg.ship_skin_words = {
 		battle = "눈앞의 적을 소탕한다! 전원 포격 준비!",
 		login = "지휘관, 어서 와! 오늘도 작전 행동하기 좋은 날씨네!​",
 		vote = "",
-		name = "덴버",
 		detail = "지휘관, 내 훈련 보고 가지 않을래? 에헤헤, 차라리 지휘관도 참가해보지 그래?",
 		couple_encourage = {
 			{
@@ -3980,7 +3872,6 @@ pg.ship_skin_words = {
 		battle = "가자! 모두들 최고 수준의 실력을 발휘해야해!",
 		login = "지휘관, 드디어 왔구나. 그럼 출발하자~ 어서 날 따라와!",
 		vote = "",
-		name = "멤피스",
 		detail = "계속 나와 함께하고 싶다면, 나의 모든 것을 잘 주시해~",
 		couple_encourage = {
 			{
@@ -4025,7 +3916,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "좋은 아침. 오늘 바람이 아주 훌륭해. 배를 타고 여행하기 좋은 날이야. 그렇지?",
 		vote = "",
-		name = "바다 여행",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -4060,7 +3950,6 @@ pg.ship_skin_words = {
 		battle = "마녀의 위대함을 맛보여주지~",
 		login = "지휘관 마침 잘 왔어~ 같이 펌킨 램프 만들까? 내 기준 최고치에 따라 만들어야 해~",
 		vote = "",
-		name = "Mystical Night",
 		detail = "지휘관 와서 캔디 먹을래? 애버크롬비에게서 얻어온거야~ (냥)"
 	},
 	[102180] = {
@@ -4093,7 +3982,6 @@ pg.ship_skin_words = {
 		battle = "흐~흐흠~ 어떻게 귀여워해줄까?",
 		login = "지휘관이랑 또 만났네♪ 맛있는 사탕, 가져왔어?",
 		vote = "",
-		name = "콩코드",
 		detail = "힘내 지휘관, 열심히 일해준 상으로 사탕을 줄게♪",
 		couple_encourage = {
 			{
@@ -4139,7 +4027,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "밤 축제가 곧 시작된대, 같이 보러 가자!",
 		vote = "",
-		name = "스위티 애플",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -4173,7 +4060,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 좋은 아침♪ 오늘도 콩코드와 함께 당분 보충을 하러 가자!",
 		vote = "",
-		name = "성탄☆당분천국",
 		detail = "모항의 겨울은 정말 추워. 이럴 때는 당분으로 칼로리를 보충해서 견뎌야 해! 살이 찌지 않는 체질을 제대로 써먹자구♪",
 		couple_encourage = {}
 	},
@@ -4207,7 +4093,6 @@ pg.ship_skin_words = {
 		battle = "놓치지 않을 거야~",
 		login = "지, 지휘관, 지금 무슨 머리 할 지 고민 중이란 말야. 갑자기 들어오지 말아줘.",
 		vote = "",
-		name = "꼬마 헬레나",
 		detail = "언젠가는 세인트루이스 언니처럼 예뻐질 수 있다면 좋겠어.",
 		couple_encourage = {
 			{
@@ -4250,7 +4135,6 @@ pg.ship_skin_words = {
 		battle = "전부 한꺼번에 덤벼라! 나는 두렵지 않다!",
 		login = "지휘관, 좋은 아침! 초콜릿 바라도 먹을래?",
 		vote = "",
-		name = "꼬마 클리블랜드",
 		detail = "매일 잔뜩 먹고 있는데, 키가 크질 않아…어째서일까……",
 		couple_encourage = {
 			{
@@ -4293,7 +4177,6 @@ pg.ship_skin_words = {
 		battle = "바다를 향해, 전진하라아아아!",
 		login = "여! 지휘관! 여기 잔뜩 있는 종이를 이용해서 누가 만든 종이비행기가 제일 멀리 가는지 시합하자!",
 		vote = "",
-		name = "꼬마 샌디에이고",
 		detail = "하늘에는 비행기 뿐만 아니라, 구름이랑 별도 있어!",
 		couple_encourage = {
 			{
@@ -4344,7 +4227,6 @@ pg.ship_skin_words = {
 		battle = "대공지원은 나에게 맡겨줘. 모두 돌격!",
 		login = "너무 게·을·러! 오늘의 일은 이미 시작됐다구? 정말이지… 빨리 와. 옷 좀 정리해줄게.",
 		vote = "",
-		name = "산후안",
 		detail = "책에 써있던 대로 새 덫을 놓았는데 왜 아무것도 잡히지 않지? 이상하네.",
 		couple_encourage = {
 			{
@@ -4403,7 +4285,6 @@ pg.ship_skin_words = {
 		battle = "속전속결! 모두, 나를 따라서 돌격!",
 		login = "출격 준비 완료. 지휘관, 지시를.",
 		vote = "",
-		name = "버밍햄",
 		detail = "언젠가 이 바다의 고요한 모습을 볼 수 있으면 좋겠군…",
 		couple_encourage = {
 			{
@@ -4446,7 +4327,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "출격인가? 잠시만, 먼저 자전거 좀 세우고…",
 		vote = "",
-		name = "적색의 기수",
 		detail = "자전거 정비도 꽤나 까다로운 일이지. U-47씨로부터 많은 조언과 도움을 받았다. 제대로 감사하지 않으면……",
 		couple_encourage = {}
 	},
@@ -4480,7 +4360,6 @@ pg.ship_skin_words = {
 		battle = "라이트 온! 전투 개시!",
 		login = "모두들 즐거운 건가! … 응, 이 느낌이면 충분해! … 아, 지휘관. 헤헤, 혼자서 연습하고 있었어.",
 		vote = "",
-		name = "클리블랜드(μ장비)",
 		detail = "스테이지에서 가장 중요한 것은 자신감! 자신이 빛난다고 생각해야 성공할 수 있어! 응응, 방금 엄청 멋있는 말을 한 것 같은데! ",
 		couple_encourage = {}
 	},
@@ -4514,7 +4393,6 @@ pg.ship_skin_words = {
 		battle = "쉽게 이길 수 있게 해주겠어…!",
 		login = "임무는 모두 순조로워. 확인해줄래?",
 		vote = "",
-		name = "빌럭시",
 		detail = "응? 내가 도와줄만한 일이 있으면 얼마든지 말해도 좋아. 바쁘긴 하지만 어떻게든 짬을 내서 지휘관의 일을 먼저 처리해줄 테니까.",
 		couple_encourage = {
 			{
@@ -4558,7 +4436,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 오늘은 어디에 갈 거야? 서두르지 않아도 돼. 휴가니까 시간은 충분하거든.",
 		vote = "",
-		name = "뷰티풀 갱스터",
 		detail = "누군가 나에게 ‘지휘관을 사로잡을 수 있을 것 같아’라고 말 했는데, 정말 그래? 하하하. 장난이야.",
 		couple_encourage = {}
 	},
@@ -4592,7 +4469,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 느낌이 어때? …내가 이런 걸 물어보는게 좀 이상하지만… 왜 그래?",
 		vote = "",
-		name = "LA 엠프레스",
 		detail = "지휘관에 대한 내 생각은 변함이 없지만 역시 이 차림새가 너무 박력있는 건가… 나도 좀 과하게 몰입한 모양이군, 하하……",
 		couple_encourage = {}
 	},
@@ -4626,7 +4502,6 @@ pg.ship_skin_words = {
 		battle = "대공은 나에게 맡겨줘!",
 		login = "지휘관, 오늘도 세계를 구하기 위해 힘내자!",
 		vote = "",
-		name = "리노",
 		detail = "지휘관, 지금 좀 곤란해졌어…… 이 의상 아이템, 아카시 씨의 가게에서도 살 수가 없단 말이지. 아무래도 직접 나서야 할 것 같아.",
 		couple_encourage = {
 			{
@@ -4685,7 +4560,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 여기라면 경기를 잘 볼수 있어. 잠깐 앉았다 가!",
 		vote = "",
-		name = "파도의 치어리더 단장!",
 		detail = "사실 팀장은 크레이븐 같이 경력이 있는 이글 유니온 함선에게 맡겨야 하지만, 나에게 넘겨버리는 바람에…… 크레이븐의 기대를 저버리지 않기 위해서라도 모두를 열심히 응원할게!",
 		couple_encourage = {}
 	},
@@ -4719,7 +4593,6 @@ pg.ship_skin_words = {
 		battle = "가볍게 가볼까요?",
 		login = "오늘의 천칭자리는…… 대길이네요.",
 		vote = "",
-		name = "마블헤드",
 		detail = "상하 관계지만 너무 진지하면 재미없죠. 사이좋게 지내봐요.",
 		couple_encourage = {
 			{
@@ -4775,7 +4648,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 워밍 업부터 해볼까요?",
 		vote = "",
-		name = "Boxing Girl！",
 		detail = "그러고 보니 복싱을 시작하면서 자연스럽게 인체의 근육에 대해서도 공부하고 있어요. 굉장히 오묘한 면이 있더라고요.",
 		couple_encourage = {}
 	},
@@ -4809,7 +4681,6 @@ pg.ship_skin_words = {
 		battle = "이 정도의 상대, 힘을 절반만 써도 OK야!",
 		login = "지휘관, 뭐 도울만한 거 없어? 나는 언제라도 OK야!",
 		vote = "",
-		name = "펜사콜라",
 		detail = "정비? OK, 이상한 부분이 있으면 말해줘.",
 		couple_encourage = {}
 	},
@@ -4843,7 +4714,6 @@ pg.ship_skin_words = {
 		battle = "저쪽은 아군이 아니야. 전 포문 발사 준비!",
 		login = "지휘관, 함께 헤엄치러 갈래?",
 		vote = "",
-		name = "솔트레이크시티",
 		detail = "바다에 떠 있는 것만으로도 가끔은 좋은 일이 생기네!",
 		couple_encourage = {}
 	},
@@ -4877,7 +4747,6 @@ pg.ship_skin_words = {
 		battle = "전투의 시작을 알리는 나팔 소리가 울려 퍼지고 있어! 자아, 가자!",
 		login = "지휘관, 제대로 훈련하면 여러 가지로 마음이 맞을 거라고 생각해.",
 		vote = "",
-		name = "노샘프턴",
 		detail = "장갑은 두꺼워졌지만, 노출이 증가했다는 느낌이 드는데…",
 		couple_encourage = {}
 	},
@@ -4911,7 +4780,6 @@ pg.ship_skin_words = {
 		battle = "좋은 바람이네~",
 		login = "방치 플레이에도 정도가 있단다. 지휘관 군~",
 		vote = "",
-		name = "시카고",
 		detail = "딱딱한 숫자하고 눈싸움하지 말고… 좀 더 부드러운 거 보지 않을래?",
 		couple_encourage = {}
 	},
@@ -4945,7 +4813,6 @@ pg.ship_skin_words = {
 		battle = "짜잔! 오늘도 힘차게, 출발이다아!",
 		login = "오늘도 지휘관이 놀아준다! 얏호──☆",
 		vote = "",
-		name = "휴스턴",
 		detail = "경순양함? 그게 아니면 중순양함? 지휘관은 이상한 부분을 신경 쓰는구나~",
 		couple_encourage = {
 			{
@@ -4988,7 +4855,6 @@ pg.ship_skin_words = {
 		battle = "…인디, 아아, 아니지… 모두 날 따라와!",
 		login = "저기, 지휘관. 들어보세요! 우리 여동생 엄청 귀여워요!",
 		vote = "",
-		name = "포틀랜드",
 		detail = "저기, 지휘관. 들어보세요! 우리 여동생 엄청 엄청 귀여워요!",
 		couple_encourage = {}
 	},
@@ -5022,7 +4888,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "아, 지휘관님, 인디 못 봤어요? 지금 엄청 귀여운 옷 입혀주고 싶어서요~ 크헤헤헤~",
 		vote = "",
-		name = "학원에서 인디랑!",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -5056,7 +4921,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "포틀랜드·改",
 		detail = "지휘관은 알고 있어요? 인디는 이렇~~~게나 귀엽다고요!",
 		couple_encourage = {}
 	},
@@ -5090,7 +4954,6 @@ pg.ship_skin_words = {
 		battle = "내가 대장… 어라, 대장!?",
 		login = "……?! 지휘관. 언제 온 거야? 깜짝 놀랐어─",
 		vote = "",
-		name = "인디애나폴리스",
 		detail = "어딜 보는 거야? 구릿빛 피부는 태어날 때부터 이랬어… 태운 흔적이 아니야.",
 		couple_encourage = {
 			{
@@ -5141,7 +5004,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "아, 지휘관… 언니 오면 나 없다고 말해줄래? 미안, 부탁할게…",
 		vote = "",
-		name = "학원에서 언니랑……",
 		detail = "지휘관 뭐 보는 거야? …교복이 어울린다고…? …언니랑 비슷한 기운이 느껴지는데…",
 		couple_encourage = {}
 	},
@@ -5175,7 +5037,6 @@ pg.ship_skin_words = {
 		battle = "내 소중한 사람들을 다치게 놔두진 않겠어!",
 		login = "지휘관, 내게 더 맡겨도 진짜 상관없다니깐~?",
 		vote = "",
-		name = "아스토리아",
 		detail = "헬로~ 지휘관, 한가해 보이네.",
 		couple_encourage = {}
 	},
@@ -5209,7 +5070,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오늘의 운세는…연애운 별점 다섯 개?! 지, 진짜일까…",
 		vote = "",
-		name = "청순, 큐티, 발랄, 여고생?",
 		detail = "지휘관, 노래방 기기를 지휘실에 하나 사 놓는 건 어때? 일과 여흥을 동시에! 응, 좋은 생각인 거 같아.",
 		couple_encourage = {}
 	},
@@ -5243,7 +5103,6 @@ pg.ship_skin_words = {
 		battle = "부탁을 받았으면, 최선을 다 해야죠!",
 		login = "지휘관님, 제가 도와드릴 수 있는 일이 있을까요?",
 		vote = "",
-		name = "퀸시",
 		detail = "그렇게 쳐다보시면, 부끄러워요……",
 		couple_encourage = {}
 	},
@@ -5277,7 +5136,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 모두가 기다리고 있답니다.",
 		vote = "",
-		name = "무더운 여름의 시원한 바람",
 		detail = "저는 여기서 다른 분들의 짐을 봐줄게요. ……우, 운동 같은 건 무리에요……",
 		couple_encourage = {}
 	},
@@ -5311,7 +5169,6 @@ pg.ship_skin_words = {
 		battle = "같이 헤엄치자…?",
 		login = "지휘관의 자는 얼굴, 귀여워…",
 		vote = "",
-		name = "빈센스",
 		detail = "지휘관, 나랑 같이 구름 보면서 멍하니 있을래?",
 		couple_encourage = {}
 	},
@@ -5345,7 +5202,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "못 일어나겠어……",
 		vote = "",
-		name = "꿈꾸는 냥냥이",
 		detail = "꿈꾸는 게 좋아. 꿈속에선 아무것도 안 해도 되니까……싸울 일도, 슬퍼할 일도……",
 		couple_encourage = {}
 	},
@@ -5379,7 +5235,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "여유로운 행진곡",
 		detail = "사진 찍을래? 그럼 pose를 취해야지냥~",
 		couple_encourage = {}
 	},
@@ -5413,7 +5268,6 @@ pg.ship_skin_words = {
 		battle = "전군, 포격 개시! ",
 		login = "돌아왔나. 나를 기다리게 하다니, 어서 출정 준비나 하라고.",
 		vote = "",
-		name = "위치타",
 		detail = "중순의 기준인 나의 힘, 맛보도록!",
 		couple_encourage = {
 			{
@@ -5457,7 +5311,6 @@ pg.ship_skin_words = {
 		battle = "다음 사냥감은 어떤 녀석이지?",
 		login = "으~음… 지휘관은 오늘도 컨디션이 좋아 보이는군",
 		vote = "",
-		name = "미니애폴리스",
 		detail = "사냥에 대해 궁금한 게 있다고? 좋아. 그런데 어떤 거 부터 말하면 좋을까…",
 		couple_encourage = {
 			{
@@ -5510,7 +5363,6 @@ pg.ship_skin_words = {
 		battle = "야외실습 시간이다!",
 		login = "여어 지휘관, 음, 이 햄버거를 다 먹은 다음에 오늘의 임무를 하도록 하지.",
 		vote = "",
-		name = "와일드 스튜던트",
 		detail = "수업은 잘 들었다고! 자, 필기한 거!",
 		couple_encourage = {}
 	},
@@ -5544,7 +5396,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "익스트림 스포츠 X",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -5578,7 +5429,6 @@ pg.ship_skin_words = {
 		battle = "내가 준비한 함정에 빠져 보시지!",
 		login = "지휘관, 오늘도 사냥하러 갈꺼야? 출격도 문제 없어!",
 		vote = "",
-		name = "Trapper white",
 		detail = "아얏! 이런, 요리 연습 따위를 하다니! 빈센스 녀석, 평소에는 자기도 분명히 전자레인지로 돌렸으면서! ...내가 한다, 해! 지휘관을 위해서다아아아!",
 		couple_encourage = {}
 	},
@@ -5612,7 +5462,6 @@ pg.ship_skin_words = {
 		battle = "전함, 포메이션 준비!",
 		login = "자 지휘관, 일을 시작하도록 하자!",
 		vote = "",
-		name = "볼티모어",
 		detail = "할 수 있는 것, 해야 하는 것, 실제로 하는 것. 모두 취사선택이 필요해. 그러니 지휘관은 자신이 제일 잘 하는 일에 집중하도록 해.",
 		couple_encourage = {
 			{
@@ -5663,7 +5512,6 @@ pg.ship_skin_words = {
 		battle = "두고 보라고!",
 		login = "",
 		vote = "",
-		name = "방과 후의 에이스",
 		detail = "지휘관, 동아리 활동 장소가 어딘지 알아? 데려다 줄까?",
 		couple_encourage = {}
 	},
@@ -5697,7 +5545,6 @@ pg.ship_skin_words = {
 		battle = "자, 화려하게 가보자!",
 		login = "좋아, 오늘도 평소처럼 깔끔하게 처리해주지.",
 		vote = "",
-		name = "Black Ace",
 		detail = "평소와는 다른 차가운 분위기라고? … 칭찬 고마워, 하하. 아마도 브레머튼이 추천한 이 문신 스티커 때문이겠지? 평소보다 더 강해보인다는 뜻으로 받아 들이겠어.",
 		couple_encourage = {}
 	},
@@ -5731,7 +5578,6 @@ pg.ship_skin_words = {
 		battle = "좋아! 가자!",
 		login = "지휘관, 돌아왔구나! 오늘의 목표는… 음, 잠시만. 오늘의 상태부터 갱신할까.",
 		vote = "",
-		name = "브레머튼",
 		detail = "잠시만, 답장 먼저하고…… 됐다! 모두에게 상담해주는 계정을 하나 만들었거든. 그래서 종종 이런저런 고민이 날아오곤 해. 지휘관은 어때? 나에게 상담하고 싶은 일 없어? 직접 얘기하는 것도 대환영이라구?",
 		couple_encourage = {
 			{
@@ -5774,7 +5620,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "꿀꺽꿀꺽, 하…… 살아났다! 코치, 항상 연습에 함께 해줘서 고마워!",
 		vote = "",
-		name = "열정의 테니스 연습",
 		detail = "아, 더워. 돌아가서 목욕하고 싶다. 그리고 바로 침대로 직행해서 아무 생각 없이 자는 거야…… 아, 맞다. SNS…… 에이, 됐어. 오늘은 갱신 안 할래.",
 		couple_encourage = {}
 	},
@@ -5808,7 +5653,6 @@ pg.ship_skin_words = {
 		battle = "떠들썩하잖아! 내가 좀 더 북돋워 주지!",
 		login = "이봐, 확실하게 해야지!",
 		vote = "",
-		name = "네바다",
 		detail = "이럴 때에 한해서, 너의 배려는 부러운걸.",
 		couple_encourage = {}
 	},
@@ -5842,7 +5686,6 @@ pg.ship_skin_words = {
 		battle = "내가 있는 한은 지지 않는다!",
 		login = "네바다, 언제라도 명령을 기다리고 있다!",
 		vote = "",
-		name = "네바다·改",
 		detail = "소년, 말에라도 타보고 싶은 건가? 뭐, 타지 않아도 내 허리를 끌어안고 있으면 괜찮다고!",
 		couple_encourage = {}
 	},
@@ -5876,7 +5719,6 @@ pg.ship_skin_words = {
 		battle = "나의 지휘에 따라 제대로 진형을 짜도록 해.",
 		login = "지휘관 씨~ 오늘도 오클라호마와 함께 힘내자!",
 		vote = "",
-		name = "오클라호마",
 		detail = "응? 뭘 보고 있는 거야? 내 얼굴에 뭔가 있는 거야?",
 		couple_encourage = {}
 	},
@@ -5910,7 +5752,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "Howdy~ 지휘관 씨, 잘 지내?",
 		vote = "",
-		name = "오클라호마·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -5944,7 +5785,6 @@ pg.ship_skin_words = {
 		battle = "자, 이 14인치 포를 받아봐라!",
 		login = "지휘관, 의견이 있으면 사양 말고 말해줘.",
 		vote = "",
-		name = "펜실베이니아",
 		detail = "고마워, 이렇게 누군가로부터 관심을 받는 건, 처음이야…",
 		couple_encourage = {}
 	},
@@ -5978,7 +5818,6 @@ pg.ship_skin_words = {
 		battle = "이번에야말로 지키고 싶은 것들을 지켜 보이겠어…!",
 		login = "지휘관님, 동료들을 지키고 싶다는 제 마음, 이해하시겠나요…?",
 		vote = "",
-		name = "애리조나",
 		detail = "이런 저라도…… 감사합니다!",
 		couple_encourage = {
 			{
@@ -6031,7 +5870,6 @@ pg.ship_skin_words = {
 		battle = "지옥 끝까지 쫓아가라! 우리의 모습을 상대의 두 눈에 똑똑히 새겨줘라!",
 		login = "지휘관, 준비해라. 곧 출항한다!",
 		vote = "",
-		name = "테네시",
 		detail = "원하는 만큼 봐도 좋다. 단, 본업을 잊지 마라.",
 		couple_encourage = {}
 	},
@@ -6065,7 +5903,6 @@ pg.ship_skin_words = {
 		battle = "당황하지 말고, 침착하자… 응! 가자!",
 		login = "날씨 OK, 풍향 OK~ 응, 출항하기 좋은 날이야. 지휘관.",
 		vote = "",
-		name = "캘리포니아",
 		detail = "지휘관, 기대에 부응할 수 있게 힘낼게~",
 		couple_encourage = {}
 	},
@@ -6099,7 +5936,6 @@ pg.ship_skin_words = {
 		battle = "이번에는 마음대로 하도록 내버려 두지 않겠어……전 주포 장전 완료, 일제 사격 준비!",
 		login = "지휘관, 대기 시간은 이미 끝났을 텐데, 언제 출격할 수 있는 거지?",
 		vote = "",
-		name = "콜로라도",
 		detail = "지휘관… 나를 너무 쳐다보진 말아 줄 수 있을까?",
 		couple_encourage = {}
 	},
@@ -6133,7 +5969,6 @@ pg.ship_skin_words = {
 		battle = "어이, 거기! 날 실망시키지 말라고!",
 		login = "화약 냄새가 나는군. 싸움이 시작된 건가? 앗…. 베스탈이 식사를 만들고 있던 것 뿐이었나.",
 		vote = "",
-		name = "메릴랜드",
 		detail = "의전? 명예? 나는 전투 이외의 일 따윈 어찌 되든 상관없어.",
 		couple_encourage = {
 			{
@@ -6176,7 +6011,6 @@ pg.ship_skin_words = {
 		battle = "과거에 받았던 굴욕, 전부 몇 배로 돌려주마!",
 		login = "늦었군… 슬슬 연습전이 시작된다. 지각하지 말도록.",
 		vote = "",
-		name = "웨스트버지니아",
 		detail = "지휘관, 내 힘은 의심하지 않아도 좋다. 걱정할 것 없어.",
 		couple_encourage = {}
 	},
@@ -6210,7 +6044,6 @@ pg.ship_skin_words = {
 		battle = "방심하지 말고 긴장하지 말고, 승리를 목표로 하자고요~",
 		login = "어서 오세요~",
 		vote = "",
-		name = "노스캐롤라이나",
 		detail = "그렇게 보고 계시니 부끄럽네요…",
 		couple_encourage = {}
 	},
@@ -6244,7 +6077,6 @@ pg.ship_skin_words = {
 		battle = "좋아, 운동이라도 해볼까",
 		login = "어서 오세요~ …이 스마일, 어때?",
 		vote = "",
-		name = "워싱턴",
 		detail = "뭐? 내가 얼마나 강한지 보고 싶다고?",
 		couple_encourage = {}
 	},
@@ -6278,7 +6110,6 @@ pg.ship_skin_words = {
 		battle = "전력으로 덤벼라!",
 		login = "지휘관, 명령을.",
 		vote = "",
-		name = "사우스다코타",
 		detail = "사우스다코타, 언제든 명령을 기다리고 있다. 지휘관",
 		couple_encourage = {
 			{
@@ -6339,7 +6170,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오늘은 어떤 곡을 연습해 볼까…",
 		vote = "",
-		name = "피아노 리사이틀",
 		detail = ""
 	},
 	[105190] = {
@@ -6372,7 +6202,6 @@ pg.ship_skin_words = {
 		battle = "꽤 튼튼하지? 맞아도 안 울거지?",
 		login = "점심은…… 아, 지휘관, 이제부터 산책?",
 		vote = "",
-		name = "매사추세츠",
 		detail = "다 봤으면, 말해줘.",
 		couple_encourage = {
 			{
@@ -6423,7 +6252,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "연회의 준비",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -6457,7 +6285,6 @@ pg.ship_skin_words = {
 		battle = "끝까지 놀아줘야 갈 수 있다구?",
 		login = "아, 지휘관이야? 나쁜 사람인 줄 알고 날려버릴 뻔 했잖아.",
 		vote = "",
-		name = "앨라배마",
 		detail = "지휘관, 배고파. 칠면조 먹고싶어.",
 		couple_encourage = {
 			{
@@ -6508,7 +6335,6 @@ pg.ship_skin_words = {
 		battle = "파티하자! 연료를 흘릴 정도로 무섭게 해줄 테니까~",
 		login = "갸오오! ──헤헤헤, 놀랐어? 롱 아일랜드는 유령 씨처럼 언제나 지휘관 곁에 있다구!",
 		vote = "",
-		name = "롱 아일랜드",
 		detail = "안 보인다… 안 보인다…… 안 보인다……",
 		couple_encourage = {}
 	},
@@ -6542,7 +6368,6 @@ pg.ship_skin_words = {
 		battle = "지휘관 씨…농땡이 부려도 돼?",
 		login = "",
 		vote = "",
-		name = "건어물 3콤보!",
 		detail = "평소의 롱 아일랜드 씨는 커뮤력 가면을 쓰고 있어…감자칩, 먹을래?",
 		couple_encourage = {}
 	},
@@ -6576,7 +6401,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "롱 아일랜드·改",
 		detail = "응? 이 모습은 시원하니까 괜찮아~",
 		couple_encourage = {}
 	},
@@ -6610,7 +6434,6 @@ pg.ship_skin_words = {
 		battle = "가라, 변화구!!",
 		login = "일류 투수는, 언제나 연습하는 법, 이라구!",
 		vote = "",
-		name = "보그",
 		detail = "내 데이터를 마음에 새기도록 해!",
 		couple_encourage = {}
 	},
@@ -6644,7 +6467,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "보그·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -6678,7 +6500,6 @@ pg.ship_skin_words = {
 		battle = "역시 최전선 작전인가요? 알겠습니다…! 지원은 저에게 맡겨주세요!",
 		login = "지체해서는 안 됩니다. 오늘의 일을 시작하도록 하죠.",
 		vote = "",
-		name = "카사블랑카",
 		detail = "최전선의 전투에는 알맞지 않지만, 해야 할 때는 저도 전력을 다해 싸우겠습니다.",
 		couple_encourage = {
 			{
@@ -6738,7 +6559,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "치어리더의 임무는 시합 중인 선수들을 응원하는 것이죠. 호위 항공모함의 임무와 조금 닮은 느낌이 있네요…",
 		vote = "",
-		name = "치어리더의 휴식 시간",
 		detail = "치어리딩은 저에게 어려운 일은 아니에요. 하지만 리노 팀장처럼 큰 소리로 응원하는 것은 조금… 부끄럽네요……",
 		couple_encourage = {}
 	},
@@ -6772,7 +6592,6 @@ pg.ship_skin_words = {
 		battle = "공부의 성과를 보여줄 찬스에요. 확실히 하세요!",
 		login = "지휘관, 오늘도 전력으로 당신을 보좌하겠어요.",
 		vote = "",
-		name = "랭글리",
 		detail = "지휘관, 아까부터 절 빤히 보고 계시는데, 제 질문엔 뭐라고 대답할 생각이신지?",
 		couple_encourage = {}
 	},
@@ -6806,7 +6625,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "랭글리·改",
 		detail = "지휘관, 마음속에 있는 의문은 스스로 해결해야 합니다. 언제까지고 절 바라봐도 힌트는 안 줄 거에요",
 		couple_encourage = {}
 	},
@@ -6840,7 +6658,6 @@ pg.ship_skin_words = {
 		battle = "모두, 지휘관을 위해 승리를 되찾자!",
 		login = "어머~지휘관? 오늘은 어디로 갈 거야? 괜찮아. 내가 있으면 하늘을 나는 크레인이라도 놓치지 않아.",
 		vote = "",
-		name = "렉싱턴",
 		detail = "어머나, 눈살 찌푸리고, 지휘관도 큰일이네…",
 		couple_encourage = {
 			{
@@ -6891,7 +6708,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "복귀를 환영해, 지휘관. 이스트 글림의 풍습에 대해 잘 알아? ...그럼 나에게 새해 풍습에 대해 설명해줘~ 온통 거기에만 관심이 있으니까~",
 		vote = "",
-		name = "봄꽃의 노래",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -6925,7 +6741,6 @@ pg.ship_skin_words = {
 		battle = "그저께는 류죠, 어제는 치토세, 오늘은 너희들이구나~ 간다!",
 		login = "어머~ 지휘관 미안해. 일부러 그쪽을 향해 함재기를 날린 건 아니야~",
 		vote = "",
-		name = "새러토가",
 		detail = "이상한 곳 엿보면 초등학생도 상대 안 해준다구♪",
 		couple_encourage = {
 			{
@@ -7013,7 +6828,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 오늘도 바다로 가자! 나 시원한 수박이 먹고 싶어~!",
 		vote = "",
-		name = "새러토가",
 		detail = "지휘관…? 아깐 고마워, 유니온의 항모로서 비치 발리볼로 진 정도로 풀 죽어 있으면 안 되겠지! ……응! 새러토가! 재출격!",
 		couple_encourage = {}
 	},
@@ -7047,7 +6861,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "돌아온 걸 환영해~! 이번에는 평범하게 지휘관을 맞아주고 싶었어~",
 		vote = "",
-		name = "이국의 아이돌?",
 		detail = "이렇게 입으면 장난 치기가 힘들어지는데. 어떻게 하면 좋지… 우와아?! 지휘관, 언제 왔어?",
 		couple_encourage = {}
 	},
@@ -7081,7 +6894,6 @@ pg.ship_skin_words = {
 		battle = "버츄얼 아이돌의 힘을 잘 보라구!",
 		login = "다녀왔어, 지휘관! 아이쨩이 다음 콘서트를 위해 만든 노래 연습 하는 걸 보러갈 참이었어. 흔치 않은 기회라구! 같이 가자!",
 		vote = "",
-		name = "버츄얼 아이돌?",
 		detail = "첫 인사는 버츄얼 아이돌에게 제일 중요해… 롱 아일랜드, 멋진 포즈 추천해주지 않을래?",
 		couple_encourage = {}
 	},
@@ -7115,7 +6927,6 @@ pg.ship_skin_words = {
 		battle = "바다의 평화를 파괴하는 적들, 이 새러쨩이 용서하지 않겠어. 가라!",
 		login = "휴~! 히히. 이 아이들의 열렬한 환영을 느꼈어?",
 		vote = "",
-		name = "바다의 아이돌",
 		detail = "요즘 해양보호에 대한 것들을 많이 배웠어! 지휘관도 궁금한 게 있으면 물어봐. 새러 선생님이 답을 알려줄게. 히히~",
 		couple_encourage = {}
 	},
@@ -7149,7 +6960,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "휴~! 지휘관, 어때? 새러토가 항공대가 펼치는 환영 비행은♪",
 		vote = "",
-		name = "새러토가·改",
 		detail = "승리 포즈와 마법 주문은 마법 소녀에겐 필수불가결이지! 지휘관, 새러토가랑 같이 생각해줘♪",
 		couple_encourage = {}
 	},
@@ -7183,7 +6993,6 @@ pg.ship_skin_words = {
 		battle = "여러분, 가장 전적이 낮은 아이는 나중에 보충이에요~~",
 		login = "좋은 날씨니까 임무를 수행하러 가고 싶네요. 그쵸, 지휘관 군?",
 		vote = "",
-		name = "레인저",
 		detail = "이, 이상한 데 보지 말고 진지하게 해주세요! ──하, 함교를 보고 있던 건가요!?…… 아하하……",
 		couple_encourage = {}
 	},
@@ -7217,7 +7026,6 @@ pg.ship_skin_words = {
 		battle = "모두들, 배운 걸 실천해보자고요!",
 		login = "음, 얘는 오케이…… 다음은…… 아, 어서와요 지휘관 군",
 		vote = "",
-		name = "레인져·改",
 		detail = "지, 지휘관 군?! 하하하함교가 그렇게 예쁜… 가요?",
 		couple_encourage = {}
 	},
@@ -7251,7 +7059,6 @@ pg.ship_skin_words = {
 		battle = "빛을 찾아내자…!",
 		login = "지휘관님, 평안하신지요. 문제가 있다면 제게 맡겨 주세요.",
 		vote = "",
-		name = "요크타운",
 		detail = "저에 대한 것을 기억하지 않아도……",
 		couple_encourage = {
 			{
@@ -7319,7 +7126,6 @@ pg.ship_skin_words = {
 		battle = "엣, 여기가 어디지?",
 		login = "지휘관님, 지각한 벌이에요. 한 잔 하세요~",
 		vote = "",
-		name = "우아와 취기가 어린 밤",
 		detail = "엔터프라이즈가 저번에 저에게 절대로 술 마시지 말라고 경고했었어요, 지휘관님이 보기엔 이유가 뭐 일 거 같나요?",
 		couple_encourage = {}
 	},
@@ -7353,7 +7159,6 @@ pg.ship_skin_words = {
 		battle = "힘차게 나아가자!",
 		login = "왔나. 전투 준비라면, 언제든 되어 있다고",
 		vote = "",
-		name = "엔터프라이즈",
 		detail = "내 훈장 컬렉션이라도 보겠나?",
 		couple_encourage = {
 			{
@@ -7482,7 +7287,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "루돌프 마스터",
 		detail = "과거에 감사하고, 미래에 꿈을 갖고, 지금을 살아가자! ",
 		couple_encourage = {}
 	},
@@ -7516,7 +7320,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "등롱은 이렇게 장식하면 되는 건가? …지휘관, 마침 잘 와줬다. 이스트 글림의 새해엔 '등롱'이란 랜턴을 장식한다고 들어서, 시험 삼아 장식해봤다만… 어때, 명절 분위기가 나는가?",
 		vote = "",
-		name = "블루밍 피어니",
 		detail = "이렇게 평화롭게 명절을 축하하는 분위기가 된 것도, 지휘관과 모항의 동료들 덕분이다. …응.",
 		couple_encourage = {}
 	},
@@ -7550,7 +7353,6 @@ pg.ship_skin_words = {
 		battle = "Enterprise, engage!",
 		login = "왔나. 출발 준비는 이미 끝났어. 아, 헬멧 쓰는 것을 잊지 마.",
 		vote = "",
-		name = "Anniversary Drive!",
 		detail = "지휘관, 느낌은 어떤가? … ‘장수와 번영을’! 후후.",
 		couple_encourage = {}
 	},
@@ -7584,7 +7386,6 @@ pg.ship_skin_words = {
 		battle = "엔터프라이즈, 전진! 모두 처치해주마!",
 		login = "지휘관, 좋은 아침이다. 작전 회의 시작까지는 시간이 좀 있네. 쉴 수 있을 때 쉬엄쉬엄하자고.",
 		vote = "",
-		name = "비상하는 자유의 날개",
 		detail = "정의를 위해서라면 무력을 아끼지 않겠다. 그녀에게 해를 끼치는 것은...난 옳다고 생각하지 않는다.",
 		couple_encourage = {}
 	},
@@ -7618,7 +7419,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "나는 이글 유니온의 엔터프라이즈, 옵서버로서 연회에 참석했다.",
 		vote = "",
-		name = "히어로의 드레스",
 		detail = "그러고 보니 바빠서 묻는 것을 잊었군… 지휘관, 내 모습은 어떻지? 호넷의 평가와 지휘관의 평가, 모두 듣고 싶다.",
 		couple_encourage = {}
 	},
@@ -7652,7 +7452,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "서약의 별빛",
 		detail = "당신 곁에 있으면, 설령 얼마나 힘든 싸움을 한다 해도, 얼마나 슬픈 이별이 찾아와도, 분명히 희망을 갖고 이겨낼 수 있을 거야.",
 		couple_encourage = {}
 	},
@@ -7686,7 +7485,6 @@ pg.ship_skin_words = {
 		battle = "안심해, 내 사격은 엄청 빠르니까!",
 		login = "지휘관, 좋은 날씨네. 어디로 나갈까?",
 		vote = "",
-		name = "호넷",
 		detail = "흐응? 지휘관, 언제나 나를 빤히 보는데, 혹시 반한 거냥?",
 		couple_encourage = {
 			{
@@ -7739,7 +7537,6 @@ pg.ship_skin_words = {
 		battle = "화려하게 가보자구~!",
 		login = "휘유~♪ 지휘관, 오늘 꽤 멋진데?",
 		vote = "",
-		name = "Bubbly Anniversary！",
 		detail = "파티에서는 실컷 먹어줘야 제맛이지~ 너무 많이 먹으면 어쩌냐고? 「문제없다. 나중에 운동하면 되는 거다.」 어때? 엔터프라이즈 언니 같아?"
 	},
 	[107080] = {
@@ -7772,7 +7569,6 @@ pg.ship_skin_words = {
 		battle = "와스프류의 전투를 보여 주겠어!",
 		login = "지휘관, 다음에 들어올 땐 노크 좀 하라고. 오발사격하지 않는다는 보장은 못 하니까 말야.",
 		vote = "",
-		name = "와스프",
 		detail = "림… 캠… 스트링……응? 무슨 일이야? 지금 이 녀석의 손질을 하고 있거든, 적당히 있다 가라고.",
 		couple_encourage = {}
 	},
@@ -7806,7 +7602,6 @@ pg.ship_skin_words = {
 		battle = "항공대, 호위 비행 배치 완료. 방공 태세, 준비 완료…전 함, 최대 속력으로!",
 		login = "이제서야 왔군요…모든 건 준비되었습니다. 지휘관님, 출격 지시를!",
 		vote = "",
-		name = "에식스",
 		detail = "지휘관님께선 무엇을 알고 싶으십니까? 제가 알고 있는 거라면 무엇이든지 알려 드리겠습니다만…",
 		couple_encourage = {}
 	},
@@ -7840,7 +7635,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 헬멧은 쓰셨습니까? 계속 출발하겠습니다!",
 		vote = "",
-		name = "66번 국도 여행",
 		detail = "2448 마일, 그 짧은 경치로도 기분이 좋아집니다… 완주하지 못하더라도 이런 경험을 했다는 것 만으로도 이미 만족스럽습니다.",
 		couple_encourage = {}
 	},
@@ -7874,7 +7668,6 @@ pg.ship_skin_words = {
 		battle = "이륙 준비 완료—— 함재기 부대, 가라! 롤 아웃!",
 		login = "오늘의 작전 계획에 내 이름은 있나? 없다면 내 이름을 넣어줘!",
 		vote = "",
-		name = "인트레피드",
 		detail = "어떤 강적에게도 용감하게 도전해야 한다——말은 이렇게 하지만 여러 가지 이유로 전력을 다할 수 없게 되지…",
 		couple_encourage = {
 			{
@@ -7918,7 +7711,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "피칭뿐 아니라 타격도 연습해야… 아, 블루길도 요즘 연습을 하고 있었지. 같이 연습하면 되겠다.",
 		vote = "",
-		name = "인트레피드의 일투",
 		detail = "나이스 캐치! 지휘관과 호흡이 잘 맞는데? 어때, 내 전속 포수가 될 생각은 없어?",
 		couple_encourage = {}
 	},
@@ -7952,7 +7744,6 @@ pg.ship_skin_words = {
 		battle = "어째서 적이 되는 길을 택한 거냐……!",
 		login = "지금은 비상시다. 휴일에도 '홀리데이 익스프레스'의 각오를 해두도록.",
 		vote = "",
-		name = "벙커힐",
 		detail = "지휘관, 왜 날 빤히 보는 거지……?",
 		couple_encourage = {
 			{
@@ -8004,7 +7795,6 @@ pg.ship_skin_words = {
 		battle = "집중해라, 경계를 늦추지 마라!",
 		login = "지휘관, 오늘 특훈과 통상 임무도 순조롭게 수행 중이다. 안심해라.",
 		vote = "",
-		name = "인디펜던스",
 		detail = "필요하다면, 야간 작전도 대응 가능하다.",
 		couple_encourage = {
 			{
@@ -8067,7 +7857,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "기숙사 생활이라면 지각할 걱정은 없겠군.",
 		vote = "",
-		name = "이쪽의 학원으로",
 		detail = "음… 애완동물은… 기숙사에 들여도 괜찮은…가?",
 		couple_encourage = {}
 	},
@@ -8101,7 +7890,6 @@ pg.ship_skin_words = {
 		battle = "마음껏 싸우세요! 제가 전력으로 서포트 하겠습니다!",
 		login = "드디어 만났네요, 지휘관님. 늦지 않게 오늘 일을 시작해봐요.",
 		vote = "",
-		name = "바탄",
 		detail = "딱 맞춰서 오셨네요, 지휘관님. 이 아이를 검사하던 중이었는데, 잠시 도와주실 수 있나요?",
 		couple_encourage = {}
 	},
@@ -8135,7 +7923,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "좋은 아침… 지휘관. 미안, 세수부터 하고 와도 돼?",
 		vote = "",
-		name = "폭신폭신 파자마",
 		detail = "말하기 조금 쑥스럽지만 항상 이 아이와 같이 자곤 해…",
 		couple_encourage = {}
 	},
@@ -8169,7 +7956,6 @@ pg.ship_skin_words = {
 		battle = "함수, 풍상 측으로! 자유의 무게, 깨닫게 해 드리죠!",
 		login = "어서 오십시오, 지휘관님. 지휘관님이 부재중이신 동안 일어난 중요한 사항은 여기 필기해두었습니다. 확인하시겠습니까?",
 		vote = "",
-		name = "샹그릴라",
 		detail = "외부에 대한 비밀 엄수, 상관에 대한 멸사봉공, 모쪼록 철저히 준수하여 주시길.",
 		couple_encourage = {
 			{
@@ -8220,7 +8006,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어서 오십시오, 지휘관님. 따뜻한 음료라도 드시고 몸을 덥히시지요. 커피? 코코아? 어느 쪽이 좋으신지요?",
 		vote = "",
-		name = "유토피아의 수집가",
 		detail = "지휘관님께서 선물해주신 이 숄, 무척 따뜻하네요. 후후, 이러면 어떨까요. 이걸 이렇게해서… 함께 온기를 나누는 건 어때요?",
 		couple_encourage = {}
 	},
@@ -8254,7 +8039,6 @@ pg.ship_skin_words = {
 		battle = "어뢰 준비 완료~ 간다아~!",
 		login = "아~ 지휘관, 딱 좋을 때 와줬네! 발밑에 어뢰 줍는 것 좀 도와줘~",
 		vote = "",
-		name = "데이스",
 		detail = "만지면 시원시원, 볼 때는 반짝반짝, 쏘면 퍼엉~하고 폭발하고 쏴아~하고 물보라가 일어나……지휘관, 어뢰는 역시 최고라고 생각하지 않아?",
 		couple_encourage = {}
 	},
@@ -8288,7 +8072,6 @@ pg.ship_skin_words = {
 		battle = "다음은 누굴까나~ 히히~♪",
 		login = "지휘관, 왔어? 좋아, 오늘도 신나게 장난…이 아니지, 열심히 일할게~!",
 		vote = "",
-		name = "알바코어",
 		detail = "하항? 아까부터 힐끔힐끔 여기만 쳐다보고 말야~ 혹시 지휘관……작은 게 취향인 거야?",
 		couple_encourage = {}
 	},
@@ -8322,7 +8105,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "펑! 에헤헤, 놀랐지? 직접 만든 폭죽의 위력이 나쁘지 않네!",
 		vote = "",
-		name = "블랙 드레스 아래의「비밀」",
 		detail = "모두에게 폭죽을 조심하라고 알려준다고? 흥흥, 그래~ 그런데 폭죽은 전부 내 드레스 아래에 숨겨뒀는데 어떻게 안 걸까~ …지휘관, 내 말 뜻을 알겠어? 히히~",
 		couple_encourage = {}
 	},
@@ -8356,7 +8138,6 @@ pg.ship_skin_words = {
 		battle = "모두들, 나에게 용기를!",
 		login = "좋은 아침, 지휘관! 오늘도 정시 도착이네!",
 		vote = "",
-		name = "카발라",
 		detail = "잠수함은 바닷 속에서만 적을 섬멸하는 게 아니야. 수면 위라도 나는 똑같이 싸울 수 있어!",
 		couple_encourage = {
 			{
@@ -8399,7 +8180,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 오래 기다렸어! ",
 		vote = "",
-		name = "편의점 대작전!",
 		detail = "이 간식은 알바코어의 몫, 어뢰모형은 데이스가 부탁한 거… 편의점에는 정말 뭔가 많네!",
 		couple_encourage = {}
 	},
@@ -8433,7 +8213,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 드디어 왔구나! 하도 안 오니까 길을 잃어서 못 오는 거 아닌가 했잖아……",
 		vote = "",
-		name = "오색찬란한 연회",
 		detail = "지휘관, 이거 줄게! 내가 특별히 만든 부케야! {namecode:95}가 지휘관이 분명 좋아할 거라고 했어!",
 		couple_encourage = {}
 	},
@@ -8467,7 +8246,6 @@ pg.ship_skin_words = {
 		battle = "블루길, 출발!",
 		login = "지휘관, 다녀왔어? 커튼을 이렇게 열면—— 헤헤, 지휘실에 햇빛이 가득!",
 		vote = "",
-		name = "블루길",
 		detail = "하루 종일 연구실에만 틀어박혀 있는 사쿠라 엠파이어의 과학 매니아 {namecode:37}…… 끌어내서 같이 놀 방법은 없을까?",
 		couple_encourage = {
 			{
@@ -8520,7 +8298,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "야구가 잠수만큼 간단하면 얼마나 좋을까…… 하지만 열심히 할 거야! 블루길, 화이팅! 넌 할 수 있어!",
 		vote = "",
-		name = "견습 에이스 필더!",
 		detail = "공을 던질 때 다리를 높게 들면 들수록 강해진다고 들었어! …… 아니야?",
 		couple_encourage = {}
 	},
@@ -8554,7 +8331,6 @@ pg.ship_skin_words = {
 		battle = "모두의 공작함이 될 수 있다는 것이, 제게는 큰 행복이랍니다.",
 		login = "베스탈은 언제라도 다친 아이들을 치료해주고 있답니다.",
 		vote = "",
-		name = "베스탈",
 		detail = "지휘관, 약품과 의료 기재의 보충을 부탁드려요.",
 		couple_encourage = {
 			{
@@ -8605,7 +8381,6 @@ pg.ship_skin_words = {
 		battle = "바닷바람은 역시 기분 좋네요~",
 		login = "지휘관, 해변에선 열사병에 주의해주세요. ",
 		vote = "",
-		name = "맑고 상쾌한 헤스티아",
 		detail = "여름은 다 함께 바캉스에 가는 계절이지만, 제 업무는 연중무휴랍니다♪",
 		couple_encourage = {}
 	},
@@ -8639,7 +8414,6 @@ pg.ship_skin_words = {
 		battle = "흥! 어쩔 수 없지, 내가 직접 본보기를 보여주겠어!",
 		login = "어이, 지휘관! 나가고 싶지만, 오늘은 동행할 사람이 없어. 네가 따라와!",
 		vote = "",
-		name = "아마존",
 		detail = "뭐, 오늘은 기분도 좋으니까… 제대로 배려해줄까…",
 		couple_encourage = {}
 	},
@@ -8673,7 +8447,6 @@ pg.ship_skin_words = {
 		battle = "내 시범을 똑똑히 보라구!",
 		login = "지휘관, 물론 일은 열심히 해야겠지만, 파티도 즐기라구!",
 		vote = "",
-		name = "리틀 오케스트라",
 		detail = "지휘관, 리허설 견학하러 왔어?",
 		couple_encourage = {}
 	},
@@ -8707,7 +8480,6 @@ pg.ship_skin_words = {
 		battle = "흐응! 새롭게 태어난 아마존의 힘, 잘 봤겠지!",
 		login = "언제까지 산만하게 굴 생각이야! 고개 들고 정신 차려!",
 		vote = "",
-		name = "아마존·改",
 		detail = "하? 개조된 내 모습을 그렇게 보고싶다는 거야? 어쩔 수 없네. 잘 보라고.",
 		couple_encourage = {}
 	},
@@ -8741,7 +8513,6 @@ pg.ship_skin_words = {
 		battle = "모두들…침착하게 기회를 잡아서 적을 물리쳐야 해.",
 		login = "음냐음냐… 아, 지휘관, 어서 와.",
 		vote = "",
-		name = "아카스타",
 		detail = "내 얼굴에 뭔가가 묻은 걸까?",
 		couple_encourage = {}
 	},
@@ -8775,7 +8546,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "외출 스타일",
 		detail = "나도 이런 '외출 스타일'은… 피곤하지만, 말이야…",
 		couple_encourage = {}
 	},
@@ -8809,7 +8579,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "에? 모처럼의 명절인데 이 기회에 제대로 게으름을… 아니, 느긋하게 지내는 게 좋지 않을까?",
 		vote = "",
-		name = "대보름의 등불축제",
 		detail = "이렇게 꾸미는데 꽤 애를 썼다구… 꼭제대로 봐 줘야 해?",
 		couple_encourage = {}
 	},
@@ -8843,7 +8612,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "개조해도 의욕은 안 생기네…",
 		vote = "",
-		name = "아카스타·改",
 		detail = "겉보긴 이상해도, 지휘관은 여전히 상냥하게 대해주네…다행이다……",
 		couple_encourage = {}
 	},
@@ -8877,7 +8645,6 @@ pg.ship_skin_words = {
 		battle = "적이 왔어! 화재에는 조심해!",
 		login = "지휘관, 간식 먹을래? 조금 남겨 뒀어.",
 		vote = "",
-		name = "아덴트",
 		detail = "그… 여기 살 게 된지 벌써 좀 됐는데, 아직 남이 날 본다는 게 좀 어색하네… 내가 좀 특이한가? 아하하…",
 		couple_encourage = {}
 	},
@@ -8911,7 +8678,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "발렌타인의 아덴트",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -8945,7 +8711,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 내가 만든 요리가 또 먹고 싶어졌다고? 좀만 기다려~지금 만들어 줄게!",
 		vote = "",
-		name = "아덴트·改",
 		detail = "지휘관도 내 옷, 귀여워졌다 생각하지?",
 		couple_encourage = {}
 	},
@@ -8979,7 +8744,6 @@ pg.ship_skin_words = {
 		battle = "비글, 갑니다!",
 		login = "지휘관, 어서 와!",
 		vote = "",
-		name = "비글",
 		detail = "지휘관, 오늘은 함께 나가는 거야?",
 		couple_encourage = {}
 	},
@@ -9013,7 +8777,6 @@ pg.ship_skin_words = {
 		battle = "지휘관, 전투 중입니다. 집중해 주세요.",
 		login = "지휘관은 함대를 생각해서 빨리 돌아온 것이라 생각합니다만.",
 		vote = "",
-		name = "불독",
 		detail = "지휘관이 소중히 여겨주면 기쁩니다만, 이상한 기대를 하진 말아 주세요. 응, 이상한.",
 		couple_encourage = {}
 	},
@@ -9047,7 +8810,6 @@ pg.ship_skin_words = {
 		battle = "괴, 굉장해… 모두 이렇게 싸우고 있는 건가요??",
 		login = "랄라라~♪제 노랫소리, 예쁜가요?",
 		vote = "",
-		name = "코멧",
 		detail = "지휘관~ \"코멧은 반짝반짝… 빛나고 있나요~?\" 우으…… 부끄러워요……",
 		couple_encourage = {}
 	},
@@ -9081,7 +8843,6 @@ pg.ship_skin_words = {
 		battle = "아이돌이지만, 전투도 열심히 할게요!",
 		login = "",
 		vote = "",
-		name = "코멧·改",
 		detail = "개인레슨 받을 땐 외롭지만, 무대에서 모두의 웃는 얼굴을 볼 수 있으면 기뻐요!",
 		couple_encourage = {}
 	},
@@ -9115,7 +8876,6 @@ pg.ship_skin_words = {
 		battle = "「햇병아리들, 쉽게 죽도록 두진 않겠어!」 ……차, 창피해─!",
 		login = "지휘관, 뭔 일 없슈?… 앗… 아냐(크흠) ──아무 말 안 했다고!",
 		vote = "",
-		name = "크레센트",
 		detail = "이런 눈으로 타인을 보다니, 분명 이런 짓이나 저런 짓 상상하고 있는 거지! 앗…… 그건…… 파렴치한… 우와아!",
 		couple_encourage = {}
 	},
@@ -9149,7 +8909,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "크레센트·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -9183,7 +8942,6 @@ pg.ship_skin_words = {
 		battle = "우우우… 무서워어~ 그래도… 이기면 피쉬 앤 칩스를 먹을 수 있어! 힘내자!",
 		login = "지, 지휘관……이제야 와주었어~ 여긴 너무 넓어요…… 길 잃어버리겠어요……",
 		vote = "",
-		name = "시그넷",
 		detail = "우에에~ 창피해…… 왜 여기서 이런 포즈로 있어야 하는 거야…",
 		couple_encourage = {}
 	},
@@ -9217,7 +8975,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지, 지휘관, 어서 와요~ 하아… 에어콘은 훌륭한 발명품이에요오… 후으…… 기분 좋아……",
 		vote = "",
-		name = "해변의 십자성",
 		detail = "후드 언니한테 선물 받은 수영복인데, 어때유…? 지한티 안 어울리거나… 그러진 않쥬…",
 		couple_encourage = {}
 	},
@@ -9251,7 +9008,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "성야의 찬송가",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -9285,7 +9041,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 여 있었남유… 지는, 지휘관님이랑 떨어져버렸나 했어유……",
 		vote = "",
-		name = "겨울의 데이트",
 		detail = "코멧이랑 크레센트가 골라준 기모노, 너무 튀는 거 같은디…… 나가 입어도 괜찮은겨? …아, 암 것두 아니여유!",
 		couple_encourage = {}
 	},
@@ -9319,7 +9074,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "돌아온 걸 환영해유, 지휘...... 아, 주, 주인님!",
 		vote = "",
-		name = "메이드 체험 위크?",
 		detail = "해보니까 알겠네유, 메이드 여러분들 모두 대단하네유...... 그녀들과 비교하면, 지는 참...... 우우웅......",
 		couple_encourage = {}
 	},
@@ -9353,7 +9107,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지를 로열의 치어리더 팀장에 추천한게 후드 언니라고 하더만유. 언니의 기대에 부응하기 위해 힘낼 거여유! 하지만 치어리딩은 생각했던 것보다 어려워서… 어떻게 해도 힘든 것이…정말 잘 할 수 있겠쥬?",
 		vote = "",
-		name = "로열 응원가",
 		detail = "제대로 하지 못해서 후드 언니나 로열에 폐가 되지 않을지 걱정이 돼유… 에? 지휘관님, 응원해주시는 거유? 그, 그럼 열심히 하겠슈!",
 		couple_encourage = {}
 	},
@@ -9387,7 +9140,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "시그넷·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -9421,7 +9173,6 @@ pg.ship_skin_words = {
 		battle = "자, 뭐가 있을지 보도록 하겠어!",
 		login = "지휘관~ 헤헤헤, 오늘은 뭔가 재미있는 일을 하고 싶네.",
 		vote = "",
-		name = "폭스하운드",
 		detail = "언니는 내 쪽이 좀 더 어른으로 보인다고 했지만…. 어디가 그런 거지…",
 		couple_encourage = {}
 	},
@@ -9455,7 +9206,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관~ 에헤헤…크, 크흠! 오늘도 힘내…",
 		vote = "",
-		name = "폭스하운드·改",
 		detail = "지휘관, 이 방울 좀 봐봐~ 소리 되게 좋아!",
 		couple_encourage = {}
 	},
@@ -9489,7 +9239,6 @@ pg.ship_skin_words = {
 		battle = "신의 심판을… 받아라앗!",
 		login = "지휘관. 기, 기다리게 해 버렸습니까? ……우우……",
 		vote = "",
-		name = "포춘",
 		detail = "지휘관…… 저, 노력했습니다만… 역시 안 되나요?",
 		couple_encourage = {
 			{
@@ -9532,7 +9281,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "포춘·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -9566,7 +9314,6 @@ pg.ship_skin_words = {
 		battle = "상대에게 우리의 강함을 보여주자고~!",
 		login = "지휘관, 돌아왔구나! 푹 쉬었어? 그렇다면 빨리 오늘의 일을 시작하자~",
 		vote = "",
-		name = "그렌빌",
 		detail = "지휘관, 후드 씨에게 배운 대로 홍차를 한 잔 내려봤어~ 마셔볼래? …… 엑? 너무 달다고? 아하하하. 꿀 한 스푼은 너무 많았던 건가……",
 		couple_encourage = {
 			{
@@ -9609,7 +9356,6 @@ pg.ship_skin_words = {
 		battle = "돌입~! 제일 먼저 쓰러지는 녀석은 나중에 벌칙 게임이야~☆",
 		login = "지휘관 지휘관~ 오는 게 늦잖아~ 빨리 출발해서~ 놀러 가자~!",
 		vote = "",
-		name = "글로우웜",
 		detail = "지휘관 지휘관, 봐봐, 나 몇 번이나 빙빙 돌아도 어지럽지 않아! 굉장해? 칭찬해줘 칭찬~!",
 		couple_encourage = {
 			{
@@ -9653,7 +9399,6 @@ pg.ship_skin_words = {
 		battle = "분발하세요! 적에게 틈을 보여서는 안 됩니다!",
 		login = "조금 늦었군요. 각하, 어서 업무를 시작해 주십시오.",
 		vote = "",
-		name = "하디",
 		detail = "기술은 반복된 연습을 통해 몸에 익혀야 합니다. 각하는 물론 알고 계시겠죠?",
 		couple_encourage = {
 			{
@@ -9704,7 +9449,6 @@ pg.ship_skin_words = {
 		battle = "…놓치지 않아.",
 		login = "지휘관, 사냥, 어때?",
 		vote = "",
-		name = "헌터",
 		detail = "지휘관, 내 전리품 컬렉션… 보고 싶어?",
 		couple_encourage = {
 			{
@@ -9747,7 +9491,6 @@ pg.ship_skin_words = {
 		battle = "좋은 심심풀이가 되겠네요!",
 		login = "지휘관, 어서… 오세요!",
 		vote = "",
-		name = "재블린",
 		detail = "지휘관이 이렇게나 재블린을 신경 써준다니, 기뻐요!",
 		couple_encourage = {
 			{
@@ -9798,7 +9541,6 @@ pg.ship_skin_words = {
 		battle = "휴가를 위해, 모두 힘내자구~!",
 		login = "지휘관, 느려~!",
 		vote = "",
-		name = "해변의 피크닉",
 		detail = "라피, Z23, 아야나미, 그리고 지휘관이 좋아하는 요리를 전~부 준비했으니까! 괜찮아~!",
 		couple_encourage = {}
 	},
@@ -9832,7 +9574,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "웨이트리스가 되려면？",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -9866,7 +9607,6 @@ pg.ship_skin_words = {
 		battle = "재블린, 전력 출격!",
 		login = "지휘관님, 돌아온 것을 환영해요! 오늘의 저는 특히 이뻐 보이지 않나요? 에헤헤♪",
 		vote = "",
-		name = "미속전진",
 		detail = "♪~오늘 도시락은 어떤걸 싸면 좋을까~",
 		couple_encourage = {}
 	},
@@ -9900,7 +9640,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "베개 싸움!",
 		detail = "평소 입는 곰돌이 옷도 귀엽긴 하지만, 가끔은 다른 걸로 갈아입는 것도 좋네요! 헤헤~ ",
 		couple_encourage = {}
 	},
@@ -9934,7 +9673,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "헤헤, 이 아름다운 하루를 같이 힘차게 보내자!",
 		vote = "",
-		name = "왕도 아이돌·원기120!",
 		detail = "헤헤, 다음 번에도 4명이 함께 무대에서 공연할거야!",
 		couple_encourage = {}
 	},
@@ -9968,7 +9706,6 @@ pg.ship_skin_words = {
 		battle = "사랑의 힘을 보여주마!",
 		login = "",
 		vote = "",
-		name = "행복한 유월의 신부",
 		detail = "그러고 보니 지휘관, 그 때는 재블린, 줄곧 '크헤헤' 하고 웃지 않았었네요……그치만 별수 없었다구요! 그 땐 너무 행복해서 웃어버릴 것만 같았는걸요!",
 		couple_encourage = {}
 	},
@@ -10002,7 +9739,6 @@ pg.ship_skin_words = {
 		battle = "한 방에 처리해주마! …에잇!",
 		login = "",
 		vote = "",
-		name = "재블린·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -10036,7 +9772,6 @@ pg.ship_skin_words = {
 		battle = "지휘관을 위해서, 힘내겠습니다…!",
 		login = "지휘관. 어서 오세요. 오늘 사용하실 서류는 이미 정리해 뒀어요.",
 		vote = "",
-		name = "주노",
 		detail = "지휘관. 이, 이것도 신체 검사입니까…?",
 		couple_encourage = {}
 	},
@@ -10070,7 +9805,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "제가 이미 다 체크해봤습니다. 오늘은 중요한 임무가 없습니다! 헤헤, 안심하고 축제를 즐길 수 있겠습니다, 지휘관님!",
 		vote = "",
-		name = "맛있는 축제?",
 		detail = "지, 지금 확인하시겠습니까…? (작은 소리) 축제에서 조금 많이 먹…… 우와아! 아, 아무것도 아닙니다!",
 		couple_encourage = {}
 	},
@@ -10104,7 +9838,6 @@ pg.ship_skin_words = {
 		battle = "오─호호홋! 광연의 시작이야!",
 		login = "오늘은 어떤 색을 입고 있는지… 알고 싶어?",
 		vote = "",
-		name = "뱀파이어",
 		detail = "뭐야~? 구축함한테도 이상한 생각을 품는 거야?",
 		couple_encourage = {}
 	},
@@ -10138,7 +9871,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "봄의 바람",
 		detail = "어딜 보고 있는 거야? …! 이, 이건 슬림핏이라구! 슬·림·핏!",
 		couple_encourage = {}
 	},
@@ -10172,7 +9904,6 @@ pg.ship_skin_words = {
 		battle = "백의의 뱀파이어도 적을 구해주진 않는다고~",
 		login = "",
 		vote = "",
-		name = "백의의 소악마",
 		detail = "지휘관, 나의 세심한 간호가 그리웠어~?",
 		couple_encourage = {}
 	},
@@ -10206,7 +9937,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 오늘 이몸과 함께 즐겁게 놀아야 한다고?",
 		vote = "",
-		name = "밤의 공주 정장",
 		detail = "사쿠라 엠파이어의 유카타? 그게 뭐지? 이몸에게는 이 옷이야 말로 축제에 걸맞는 것이라고?",
 		couple_encourage = {}
 	},
@@ -10240,7 +9970,6 @@ pg.ship_skin_words = {
 		battle = "오너라! 우리의 사랑에 갈채를!",
 		login = "달링~♪ 오늘은 어디서 데이트할 거야?",
 		vote = "",
-		name = "엘리의 축복",
 		detail = "이제야 우리 둘만 남았네♪달링~♪",
 		couple_encourage = {}
 	},
@@ -10274,7 +10003,6 @@ pg.ship_skin_words = {
 		battle = "신이 내린 벌이다~ 헤헷~",
 		login = "주, 주노, 난 신경 안 써도 돼......분명 언니는 난데......",
 		vote = "",
-		name = "주피터",
 		detail = "이-60 격침? 그런일은...",
 		couple_encourage = {
 			{
@@ -10325,7 +10053,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "방송 대기 중",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -10359,7 +10086,6 @@ pg.ship_skin_words = {
 		battle = "어떤 적이라도 제대로 상대해야지.",
 		login = "나를 이렇게 기다리게 하다니 이게 무슨 뜻이지, 지휘관?",
 		vote = "",
-		name = "저지",
 		detail = "무슨 용건이라도? 아니면 나와 대화를 나누고 싶은 거야?",
 		couple_encourage = {
 			{
@@ -10402,7 +10128,6 @@ pg.ship_skin_words = {
 		battle = "지, 지휘관 씨에게 지켜질 수 있게 할게!",
 		login = "지휘관 씨, 왜 우울한 표정을 하고 그래…좋~아……에헷☆ 기운 났어?",
 		vote = "",
-		name = "매치리스",
 		detail = "누구라도 지키고 싶은 사람이 있지……그러니까, 지켜야 하는 아이는 나뿐만이 아니라구, 지휘관 씨☆",
 		couple_encourage = {}
 	},
@@ -10436,7 +10161,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "에스코트 해주세요!",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -10470,7 +10194,6 @@ pg.ship_skin_words = {
 		battle = "얏호~그럼~사격 준비~!",
 		login = "지휘관 좋은 아침~! 오늘도 좋은 날씨네~ 철컥철컥…팡! 후~ 왠지 나, 항상 하이텐션이네!",
 		vote = "",
-		name = "머스킷티어",
 		detail = "지휘관, 나와 함께 있으면 즐거워? ……아…미안, 지금 건 잊어줘.",
 		couple_encourage = {}
 	},
@@ -10504,7 +10227,6 @@ pg.ship_skin_words = {
 		battle = "돌겨! 에헤헤, 에코, 기함 같나요?",
 		login = "♪～아, 지휘관 씨! 에헤헤, 돌아오셨네요! 에코, 엄청 쓸쓸했다구요? 빨리 같이 놀아요~!",
 		vote = "",
-		name = "에코",
 		detail = "웨일즈 씨가, 몸집이 작아도 잠재력이 있는 경우가 있다고 했어요! 에헤헤, 무슨 뜻인지는 잘 모르겠지만, 에코를 칭찬해 준 거죠? ♪~",
 		couple_encourage = {}
 	},
@@ -10538,7 +10260,6 @@ pg.ship_skin_words = {
 		battle = "에스키모, 출격!",
 		login = "지휘관, 기다리다 지루해서 네 의자를 해체해 버렸어, 어떻게 다시 조립해?",
 		vote = "",
-		name = "에스키모",
 		detail = "지휘관, 내가 막 같이 놀자고 찾아가려고 했는데!",
 		couple_encourage = {
 			{
@@ -10581,7 +10302,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "해변의 \"문제 어린이\"",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -10615,7 +10335,6 @@ pg.ship_skin_words = {
 		battle = "좋아요…! 이어서 화력을 전력으로 가동하겠어요! ",
 		login = "지휘관님 오셨어요? 음, 필요한 자료들은 모두 테이블에 놔뒀어요. 차도 곧 갖다 드릴테니, 안심하시고 일하세요.",
 		vote = "",
-		name = "이카로스",
 		detail = "지휘관님의 세탁할 옷들…내일 세끼 식사 준비…그리고 또…앗!지휘관님, 언제 오신거에요? 별 것 아니에요. 그저 평소 하던 준비 작업을 하고 있는 것 뿐이에요.",
 		couple_encourage = {
 			{
@@ -10666,7 +10385,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어머, 지휘관님 절 보러오신 건가요? 이카로스는 아주 멀쩡해요. 별일 없어요.",
 		vote = "",
-		name = "모항 병원 체험 위크?",
 		detail = "갈아입으실 옷들과 생필품들은 모두 미리 준비해뒀어요. 이카로스가 이곳에 있는 동안 스스로를 잘 챙기셔야 해요. ",
 		couple_encourage = {}
 	},
@@ -10700,7 +10418,6 @@ pg.ship_skin_words = {
 		battle = "모두, 같이 가자. 다치지 않게 조심하고.",
 		login = "어머머, 지휘관님. 오늘도 리엔더를 잘 부탁해요.",
 		vote = "",
-		name = "리엔더",
 		detail = "응, 그럼 지휘관님. 부탁드릴게요.",
 		couple_encourage = {}
 	},
@@ -10734,7 +10451,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "리엔더·改",
 		detail = "응응, 지휘관님, 가끔은 제게 의지하셔도 괜찮다구요?",
 		couple_encourage = {}
 	},
@@ -10768,7 +10484,6 @@ pg.ship_skin_words = {
 		battle = "와하하, 간다~ 기합을 넣어!",
 		login = "지휘관 지휘관. 정말 헷갈리지 말라구. 아킬레스라구? 기억했어? 기억했지? 아─킬─레─스, 라구☆",
 		vote = "",
-		name = "아킬레스",
 		detail = "에~ 감자를 좋아한다던가… 내 이미지에 안 맞아!?",
 		couple_encourage = {}
 	},
@@ -10802,7 +10517,6 @@ pg.ship_skin_words = {
 		battle = "타겟, 전방의 적군, 발사~",
 		login = "지휘관, 꿀 좀 먹을래? 진짜 맛있어~",
 		vote = "",
-		name = "아킬레스·改",
 		detail = "지휘관, 저쪽에 미소녀가 날고 있어! ...에이, 그걸 믿어?",
 		couple_encourage = {
 			{
@@ -10845,7 +10559,6 @@ pg.ship_skin_words = {
 		battle = "어머머~ 어서 무릎꿇고 빌면 적당히 끝내주지.",
 		login = "후훗, 오늘도 잘 부탁할게요, 지─휘─관!",
 		vote = "",
-		name = "에이잭스",
 		detail = "지휘관, 제 비밀을 더 알고 싶으세요…?",
 		couple_encourage = {
 			{
@@ -10914,7 +10627,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 너무 늦잖아요. 벌써 파티가 시작되려 하고 있다고요.",
 		vote = "",
-		name = "파티 퀸",
 		detail = "파티에선 내게서 떨어지지 말라고요. 설마 지휘관, 잊은 것 아니죠?",
 		couple_encourage = {}
 	},
@@ -10948,7 +10660,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "에이잭스·改",
 		detail = "지휘관, 오늘은 어떤 플레이를 하고 싶으세요?",
 		couple_encourage = {}
 	},
@@ -10982,7 +10693,6 @@ pg.ship_skin_words = {
 		battle = "열심히 해야 주인님께 도움이 될 수 있어…! 출격!",
 		login = "주인님, 돌아오셨나요? 저도 별 일 없었습니다. 으아…… 주인님이 걱정해주시다니…!",
 		vote = "",
-		name = "다이도",
 		detail = "주인님, 다이도를 버리지 않으실 거죠? 정말 버리지 않으실 거죠? 믿어도 되는 거겠죠? 그렇죠? 아…… 주인님의 말이 사실이라면 다이도는 만족해요……",
 		couple_encourage = {
 			{
@@ -11026,7 +10736,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "센치한 BIsqueDoll",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -11060,7 +10769,6 @@ pg.ship_skin_words = {
 		battle = "잠깐만요, 다들 서두르지말아요!",
 		login = "오! 지휘관님, 오늘 일을 빨리 끝낼 수 있도록 같이 화이팅 해요!",
 		vote = "",
-		name = "사우스햄튼",
 		detail = "역시 메이드복 보다는 기사도 복장이 낫네요. 여러모로 편하고~ 지휘관님도 한번 입어보세요! ",
 		couple_encourage = {
 			{
@@ -11112,7 +10820,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 해피 뉴 이어! 같이 신년 예배하러 갈 시간이죠? 헤헤, 오늘은 릴렉스해요.",
 		vote = "",
-		name = "신년의 LittleKnight",
 		detail = "사쿠라 엠파이어 스타일로 갈아입으니 사쿠라 엠파이어의 노래가 듣고 싶어지네요, 헤헤~"
 	},
 	[202080] = {
@@ -11145,7 +10852,6 @@ pg.ship_skin_words = {
 		battle = " '청소' 하지 않으면 안 되는 '쓰레기'가 많은 것 같군요……",
 		login = "주인님, 발밑을 조심…거기……방금 다 닦아둔 참이라서……",
 		vote = "",
-		name = "셰필드",
 		detail = "응? '청소'는 총포로 하는 것이, 메이드의 상식입니다. 주인님.",
 		couple_encourage = {
 			{
@@ -11196,7 +10902,6 @@ pg.ship_skin_words = {
 		battle = "…아침이 밝기 전에, 속전속결로.",
 		login = "주인님, 오늘 밤은 또 어떤 새로운 임무가 저희를 기다리고 있습니까?",
 		vote = "",
-		name = "이중생활?",
 		detail = "낮에는 메이드지만 밤에는 에이전트……입니까. 로열의 분위기가 느껴지는 생각이군요. 아쉽게도 모두 주인님의 망상일 뿐이지만.",
 		couple_encourage = {}
 	},
@@ -11230,7 +10935,6 @@ pg.ship_skin_words = {
 		battle = "어디서든 해충은 박멸해야 합니다.",
 		login = "주인님, 여기 계셨군요. 두고 가신 줄 알고 다른 메이드들과 연락을 하려고 했습니다. 대체 뭘 하러 가셨던건가요?",
 		vote = "",
-		name = "잠깐의 휴식",
 		detail = "스위프트슈어, 확실히 축제 때는 방에 있는 것 보다는 모두와 함께 나와 놀아야 합니다. …모두와 함께 노는 것은 분명히 재미있을 테니까요.",
 		couple_encourage = {}
 	},
@@ -11264,7 +10968,6 @@ pg.ship_skin_words = {
 		battle = "남은 탄약을 한번 더 체크하겠습니다.",
 		login = "시간 엄수는 미덕이 아닌 원칙입니다. 주인님, 이 점 잊지 마시길 바랍니다.",
 		vote = "",
-		name = "글로스터",
 		detail = "메이드의 일을 견학할 짬이 있다면 차라리 일을 하시는 게 어떠십니까, 주인님.",
 		couple_encourage = {
 			{
@@ -11315,7 +11018,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "주인님, 일은 끝내셨습니까? 명절까지 일하는 것만은 피해주십시오.",
 		vote = "",
-		name = "피올레 브릴리언트",
 		detail = "하아… 피지가 ‘설빔’같은 이야기를 할 때 알겠다고 하지 말았어야 했습니다… ‘이렇게 살짝 쓸어올리면 지휘관이 좋아할거야’라니… 대체 이게 무슨 일인지…",
 		couple_encourage = {}
 	},
@@ -11349,7 +11051,6 @@ pg.ship_skin_words = {
 		battle = "어어어 어떡하지?? 우선 퇴…… 가 아니라 요격입니다!",
 		login = "아우! 이상한 짓 안 했어요! 금덩이를 방에 「수송」하고 있을 뿐이에요!",
 		vote = "",
-		name = "에든버러",
 		detail = "아무리 에든버러를 쳐다봐도 이건 안 줄 거라구요?",
 		couple_encourage = {
 			{
@@ -11416,7 +11117,6 @@ pg.ship_skin_words = {
 		battle = "칫, '그 녀석'이 없다 해도 '벨코' 가……! 전 함, 쏴라!",
 		login = "이 스트랩 귀엽죠? '그 녀석' 을 본떠서 만들었어요! 이름은……'벨코' 라 부르면 되려나?",
 		vote = "",
-		name = "도서관의 요정",
 		detail = "후우……연금술이란 심오하네요…그래도 이것만 할 수 있다면, 벨파스트 기금회가…!",
 		couple_encourage = {}
 	},
@@ -11450,7 +11150,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어엇! 단지 호박을 이용해서 금괴를 방으로 \"운송\"하고 있을 뿐이에요! 이상한 짓 안 했다구요!",
 		vote = "",
-		name = "Candy Maid",
 		detail = "로열 메이드로서, 어떻게 시시한 핼러윈 유령 소문에—— 으앗! 어어어언제 제 뒤에 나타난 거예요?... 노, 놀라게 하지 마세요!",
 		couple_encourage = {}
 	},
@@ -11484,7 +11183,6 @@ pg.ship_skin_words = {
 		battle = "주인을 위해 위험을 배제하는 건 메이드의 임무입니다.",
 		login = "어서 오세요, 주인님. 홍차를 준비했습니다. 또 서류는 저쪽에 정리해뒀습니다. 천천히 업무를 진행해주세요.",
 		vote = "",
-		name = "벨파스트",
 		detail = "주인님, 시키실 게 있으신가요?",
 		couple_encourage = {}
 	},
@@ -11518,7 +11216,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어서 오십시오, 주인님. 이스트 글림 각지의 찻잎을 들여놓았습니다. 오늘은 어떤 차를 원하시는지요?",
 		vote = "",
-		name = "채운의 장미",
 		detail = "이스트 글림의 의상엔, 확실히 이국의 매력이 있군요. 메이드대의 제복으로 도입하는 것도 생각하고 있습니다만…… …주인님, 어떠신지요?",
 		couple_encourage = {}
 	},
@@ -11552,7 +11249,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "돌아오신 것을 환영합니다, 주인님. 커피는 이미 준비해뒀어요, 드세요.",
 		vote = "",
-		name = "차가운 강철의 메이드",
 		detail = "평소에 규칙적인 생활을 유지해야만 돌발적인 상황에서 냉정히 판단하고 침착히 행동할 수 있습니다... 벨파스트는 메이드로서 주인님의 생활 방면에 대해서 전적으로 지원해드릴 것입니다.",
 		couple_encourage = {}
 	},
@@ -11586,7 +11282,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "우아하고 고귀한 메이드",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -11620,7 +11315,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "평소에는 제가 스케줄 정리를 맡았지만, 가끔은 다른 사람의 계획을 들어 보는 것도 나쁘지 않더군요. 주인님, 다음 목적지는 주인님께 맡길게요. 후훗, 기대되네요~",
 		vote = "",
-		name = "메이드장의 쇼핑데이",
 		detail = "주인님, 점심을 드시고 싶으신가요? 제가 준비했습니다...——이것만 드시고 괜찮으시겠어요? 간식은 식사가 될 수 없어요.",
 		couple_encourage = {}
 	},
@@ -11654,7 +11348,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오늘도 늘 하시던 걸 준비해 드릴까요?",
 		vote = "",
-		name = "클라다 링의 맹세",
 		detail = "메이드를 관둘 마음은 없습니다. 무엇보다, 주인님을 위한 봉사에 관해선, 이 벨파스트 보다 정통한 아이는 없으니 말이죠.",
 		couple_encourage = {}
 	},
@@ -11688,7 +11381,6 @@ pg.ship_skin_words = {
 		battle = "잘 들어! 이건 자존심이 걸린 싸움이야! 제대로 하라고!",
 		login = "지휘관, 제대로 안 하면 화낼 거야!",
 		vote = "",
-		name = "아레투사",
 		detail = "…바보! 여자아이를 빤히 쳐다보는 건 실례라고 배우지 않았어!?",
 		couple_encourage = {}
 	},
@@ -11722,7 +11414,6 @@ pg.ship_skin_words = {
 		battle = "말을 듣지 않는 아이는~~ 벌을 주지 않으면~",
 		login = "오늘도 갈라테아의 이런 일이나 저런 일, 전부 부탁드릴게요~♪",
 		vote = "",
-		name = "갈라테아",
 		detail = "정말~, 이 이상, 사람을 뚫어져라 쳐다보면, 상부에 보고해버릴 거예요~",
 		couple_encourage = {}
 	},
@@ -11756,7 +11447,6 @@ pg.ship_skin_words = {
 		battle = "승리에 여신의 축복이 있기를!",
 		login = "제 이름에는 '새벽의 빛'이라는 의미도 있습니다. 우후후♪ 저를 보고 아침인 것처럼 기운이 나셨나요?",
 		vote = "",
-		name = "오로라",
 		detail = "지휘관 씨…… 장비에 관해서 도와드릴 건 없나요?",
 		couple_encourage = {}
 	},
@@ -11790,7 +11480,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관 씨, 어서 오세요. 아뇨, 그렇게 서두르지 않아도 된답니다. 저도 이제 막 돌아온 참인걸요♪",
 		vote = "",
-		name = "봄의 이야기",
 		detail = "이 차림 조금 뜻밖인가요? 우후후, 이제부터는 더욱 다른 저를 알게 되실 거에요.",
 		couple_encourage = {}
 	},
@@ -11824,7 +11513,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "여명에 바치는 찬가",
 		detail = "지휘관 씨, 저는 평소에 광장에서 연주하곤 하니까 관심 있으시면 와서 감상해도 좋아요.",
 		couple_encourage = {}
 	},
@@ -11858,7 +11546,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "그렇다면, 오늘은 지휘관님을 위해 어떤 공연을 준비해 볼까요——선택지가 많은 것도 어려운 일이네요.",
 		vote = "",
-		name = "투성의 비기",
 		detail = "희곡 외에도 이스트글림의 오천 년 역사에는 매력적인 것들이 많답니다! 이스트 글림과 인연이 깊은 함선으로서 앞으로도 문화적인 매력을 많은 사람들에게 알려주고 싶어요.",
 		couple_encourage = {
 			{
@@ -11902,17 +11589,16 @@ pg.ship_skin_words = {
 		battle = "전투야! 다들 정신 똑바로 차려!",
 		login = "지휘관, 밥은 벌써 먹었어? 아직 안 먹었으면 만들어줄까?",
 		vote = "",
-		name = "피지",
 		detail = "지휘관 왜 그래? 내가 그리워졌어? 후훗, 뭐 앉아봐~ 차 가져올게.",
 		couple_encourage = {}
 	},
 	[202161] = {
-		touch = "",
+		touch = "쇼핑 데이트 때는 이렇게 해야지~ 팔짱을 끼고, 어깨에 기대고~~ 아하하, 지휘관 부끄러워~?",
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
 		win_mvp = "",
-		home = "",
+		home = "복귀 환영해~ 음~~ 지휘관을 어떻게 위로해줘야 좋을까나? 후훗, 촛불만찬 체험해볼래?",
 		mission = "",
 		touch2 = "",
 		feeling1 = "",
@@ -11925,19 +11611,18 @@ pg.ship_skin_words = {
 		id = 202161,
 		voice_key = 0,
 		feeling5 = "",
-		main = "nil|nil|nil",
+		main = "외출할 때마다 예상 밖의 새로운 발견이 있어. 이게 바로 외출의 재미지. 지휘관, 구매한 \"전리품\"들은 네가 좀 들어줘~|가끔은 휴일에 색다른 스타일로 꾸며보는 것도 괜찮네~ 히힛, 내가 옷 골라줄게, 지휘관~?|여자는 외출할 때 준비해야 할 것들이 많다구? 헤어 스타일, 화장, 옷 등등... 그러니까 상대방의 사랑스러운 모습을 보고 싶다면, 참고 기다려줘~",
 		voice_key_2 = -1,
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
 		feeling4 = "",
-		unlock = "",
+		unlock = "지휘관, 오래 기다렸어? 아하하... 여자는 외출 준비하는데 시간이 오래 걸린다구, 알았지~? 자, 손 잡고, 출발~ 히힛",
 		battle = "",
-		login = "",
+		login = "지휘관, 내가 시간 지켜야한다고 말했었지...? 나를 기다리게한 보상으로... 오늘 나랑 같이 쇼핑해줘~! 히힛",
 		vote = "",
-		name = "패션 스타일?",
-		detail = "",
+		detail = "헤헤, 지휘관 이 옷 어때? 느낌 괜찮지 않아?——눈을 어디 둬야할지 모르겠어? 아하하... 지휘관도 참~",
 		couple_encourage = {}
 	},
 	[202170] = {
@@ -11970,7 +11655,6 @@ pg.ship_skin_words = {
 		battle = "내 마음엔 일말의 거리낌도 없다…!",
 		login = "보스, 이 <눈> 이 포착했다……넥타이가 조금 비뚤어져 있군.",
 		vote = "",
-		name = "자메이카",
 		detail = "보스, 왼쪽 눈이 체인에 가려지지 않았나 봐주지 않겠나? 팔의 위치를 조정하지.",
 		couple_encourage = {
 			{
@@ -12021,7 +11705,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "보스, 날씨가 좋다. 드라이브 가지 않겠는가.",
 		vote = "",
-		name = "블랙 플래시",
 		detail = "보스, 시간이 있다면 바이크의 개조를 도와주지 않겠어? 새로운 아이디어가 생겼어.",
 		couple_encourage = {}
 	},
@@ -12055,7 +11738,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "Highway·Star",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -12089,7 +11771,6 @@ pg.ship_skin_words = {
 		battle = "주인을 위해 위험을 배제하는 건 메이드의 임무죠.",
 		login = "주인님, 홍차라도 어떠세요?",
 		vote = "",
-		name = "꼬마 벨파스트",
 		detail = "레이디의 인사는 양손으로, 이렇게……죄송해요, 실패했어요……",
 		couple_encourage = {}
 	},
@@ -12123,7 +11804,6 @@ pg.ship_skin_words = {
 		battle = "좋은 날씨네요. 쓸모없는 싸움은 빨리 끝내도록 하죠.",
 		login = "하루 업무를 시작하기 전에…커피, 진하게 우려낸 홍차, 페일에일, 어떤 게 좋으십니까?",
 		vote = "",
-		name = "뉴캐슬",
 		detail = "같이 우산을 쓰고 싶으시다면, 좀 더 가까이 붙는 편이 좋을 겁니다.",
 		couple_encourage = {
 			{
@@ -12170,7 +11850,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "보리차를 준비했습니다. 지휘관님, 정신을 가다듬고, 오늘도 업무에 정진하도록 하지요.",
 		vote = "",
-		name = "무궁화가 핀 풍경",
 		detail = "모항에서는 매일 재미있는 일이 일어나고, 제가 바라는 평범한 일상과는 점점 멀어져가는 듯하지만… 아닙니다. 이런 생활도 나쁘지는 않아요.",
 		couple_encourage = {}
 	},
@@ -12204,7 +11883,6 @@ pg.ship_skin_words = {
 		battle = "쓸데없는 싸움은 어서 끝내고, 나중에 같이 소풍이라도 같이 어떠세요?",
 		login = "",
 		vote = "",
-		name = "뉴캐슬·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -12238,7 +11916,6 @@ pg.ship_skin_words = {
 		battle = "로열 네이비의 관례에 따라, 용감하게 나아갑시다.",
 		login = "만반의 준비가 되었습니다. 주인님, 명령을 내려주십시오. 이 아이들이 확실히 임무를 완수해 낼 테니까요.",
 		vote = "",
-		name = "퀴라소",
 		detail = "여성은 카메라 앞에 섰을 때야말로 가장 매력을 발휘할 수 있는 건지도 모르겠네요…… 주인님, 예쁜 사진을 찍어 주세요.",
 		couple_encourage = {}
 	},
@@ -12272,7 +11949,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오랜만의 휴일을 즐겨주시기 바랍니다, 주인님.",
 		vote = "",
-		name = "동쪽 나라의 고운 빛깔",
 		detail = "이 옷의 디자인은 대담하군요… 언제나 메이드 복을 입고 있는 저로선, 아무래도 좀 익숙해지기 힘드네요.",
 		couple_encourage = {}
 	},
@@ -12306,7 +11982,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "아직 오늘 일정을 고민중이시라면, 먼저 따뜻한 차 한잔 하시는게 어떨까요?",
 		vote = "",
-		name = "퀴라소·改",
 		detail = "컬루는 항상 무뚝뚝한 얼굴이에요...\"메이드로서 갖춰야 할 에티튜드\"에 대한 생각이 저와는 다른 걸까요...?",
 		couple_encourage = {}
 	},
@@ -12340,7 +12015,6 @@ pg.ship_skin_words = {
 		battle = "적에게 로열 메이드의 예법을 보여드리죠!",
 		login = "어서 오십시오, 주인님. 넥타이가 비뚤어져 있습니다. 신사라면 외견에 흐트러짐이 있어선 안됩니다. 지금 바로잡아드리겠습니다.",
 		vote = "",
-		name = "컬루",
 		detail = "언제, 어디에 있든 예법과 매너를 잊을 수는 없습니다. 메이드에게 있어서도 함선에게 있어서도 중요한 것이니까요.",
 		couple_encourage = {}
 	},
@@ -12374,7 +12048,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어서 오십시오, 주인님. 오늘은 이스트 글림의 친구에게 명절 풍습에 대한 이야기를 들으러 가는데, 함께 가시겠습니까?",
 		vote = "",
-		name = "동쪽 나라의 정취",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -12408,7 +12081,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "컬루·改",
 		detail = "제 새로운 장비가 신경쓰이십니까? 일할 때 방해가 되지는 않으니 걱정 마십시오.",
 		couple_encourage = {}
 	},
@@ -12442,7 +12114,6 @@ pg.ship_skin_words = {
 		battle = "승리와 영광을 저의 자랑스러운 주인님께!",
 		login = "돌아오신 것을 환영합니다. 저의 자랑스러운 주인님.",
 		vote = "",
-		name = "시리우스",
 		detail = "주인님, 오늘은 무엇을 탐구하시겠습니까? 고전 문학? 군사 예술? 미술 작품? 혹은… ‘사랑’에 대해서?",
 		couple_encourage = {}
 	},
@@ -12476,7 +12147,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "화이트로즈",
 		detail = "어떤 복장을 하고 있더라도 저는 주인님의 기대에 전력을 다해 부응하는, 주인님의 메이드입니다. 저의 자랑스러운 주인님.",
 		couple_encourage = {}
 	},
@@ -12510,7 +12180,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "그 어떤 곳에서도 시리우스는 주인님을 섬기고 보호할 것입니다. 주인님께서는 원하시는 일만 하시면 됩니다.",
 		vote = "",
-		name = "한 여름의 Seirios",
 		detail = "걱정 마십시오. 이미 시리우스가 이번 해변 여행을 위해 충분히 준비했습니다. 음식, 음료, 잡지, 자외선 차단 오일, 함장, 구명기구, 그리고...... 고양이? 어떻게 여기에......? 아니, 아닙니다. 저의 자랑스러운 주인님.",
 		couple_encourage = {}
 	},
@@ -12544,7 +12213,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "새해 복 많이 받으십시오. 저의 자랑스러운 주인님. 드실 차를 준비해 두었습니다.",
 		vote = "",
-		name = "푸른 물결의 구름",
 		detail = "이스트 글림의 요리를 만들어보려고 했지만 결과는…… 걱정 마십시오. 내년 이맘때 쯤이면 시리우스도 주인님의 칭찬을 받을 만한 이스트 글림의 요리를 만들 수 있을테니까요.",
 		couple_encourage = {}
 	},
@@ -12578,7 +12246,6 @@ pg.ship_skin_words = {
 		battle = "함대 전진!...스위프트슈어, 정신 차리자...!",
 		login = "안녕하십니까. 이건 오늘의 업무 내용입니다. 살펴 보시죠...... 후...",
 		vote = "",
-		name = "스위프트슈어",
 		detail = "앗, 어지럽혀서 죄송합니다...... 셰필드가 준 청소 도구인데, 저에게는 아직 손에 맞지가 않네요......아하하...",
 		couple_encourage = {
 			{
@@ -12621,7 +12288,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "안녕하십니까. 이건 오늘의 교육 과정입니다. 살펴 보시죠.",
 		vote = "",
-		name = "자습실의 Cyclamen",
 		detail = "유니콘 씨가 이 문제는 이렇게 풀면... 앗, 지휘관, 죄송합니다. 문제 풀이법을 알려주고 있었습니다. 우선 편히 쉬세요.",
 		couple_encourage = {}
 	},
@@ -12655,7 +12321,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 새해 복 많이 받으세요. 명절이니만큼 오늘 만은 일에 대한 것은 잊고 푹 쉬세요.",
 		vote = "",
-		name = "백옥의 미녀",
 		detail = "음… 뭘 해야 할까요? 일손이 부족한지, 도와줄 것이 있는지 알아봐야 할까요… 아무것도 하지 않고 있으면 마음이 불편해서……",
 		couple_encourage = {}
 	},
@@ -12689,7 +12354,6 @@ pg.ship_skin_words = {
 		battle = "적을 상대 할 때는 자비를 베풀어서는 안돼요……",
 		login = "지휘관님은 매일 이 시간에 돌아오시네요.",
 		vote = "",
-		name = "블랙 프린스",
 		detail = "적을 무찌르는 장궁, 적을 막는 방패…… 지휘관님의 뜻에 따라서 당신의 힘이 되어드릴게요.",
 		couple_encourage = {
 			{
@@ -12734,7 +12398,6 @@ pg.ship_skin_words = {
 		battle = "지휘관님을 방해하는 적은 단 하나도 놓치지 않을겁니다.",
 		login = "이 수영복, 별로 눈에 띄지 않을 줄 알았는데 지휘관님이 저를 한번에 찾아내실 줄은 몰랐어요…",
 		vote = "",
-		name = "White Princess",
 		detail = "아, 벌써 이 시간인가요? 간단한 음식을 준비했어요. 지휘관님, 모두에게 잠시 쉬자고 하는 건 어떤가요?",
 		couple_encourage = {}
 	},
@@ -12768,7 +12431,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "Fairmaid·Spring",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -12802,7 +12464,6 @@ pg.ship_skin_words = {
 		battle = "라이브를 방해하는 해충들을 ‘박멸’했습니다.",
 		login = "합주 전에 사무실 청소를 마쳤습니다. 부디 어지럽히지 마시길.",
 		vote = "",
-		name = "셰필드(μ장비)",
 		detail = "프로듀서? 아니, 역시 주인님이라는 호칭이 익숙합니다. 아니면, ‘해충’ 쪽이 더 마음에 드십니까?",
 		couple_encourage = {
 			{
@@ -12848,7 +12509,6 @@ pg.ship_skin_words = {
 		battle = "기함...요? 여, 열심히 작전을 펼칠게요!",
 		login = "돌아오신 것을 환영합니다. 차는 이미 준비해뒀어요.",
 		vote = "",
-		name = "글래스고",
 		detail = "이번 회에 연재한 스토리가 그렇게 전개될 줄이야, 대체 어떻게 이어......와악!? 지, 지휘관님!? ......컥컥! 괜찮으세요?",
 		couple_encourage = {
 			{
@@ -12902,7 +12562,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "복귀를 환영합니다. 지휘관님. 저도 막 학교에서 돌아왔어요. 음... 차는 조금만 더 기다려주세요.",
 		vote = "",
-		name = "메이드씨는 동급생",
 		detail = "엔터프라이즈요? 저 알아요. 과거 저와 비스케이 만에서 함께 분투했던 그 친구죠? 아, 다른 엔터프라이즈라구요?... 아, 알았어요!",
 		couple_encourage = {}
 	},
@@ -12936,7 +12595,6 @@ pg.ship_skin_words = {
 		battle = "적을 발견했어요~ ",
 		login = "좋은 아침이네요. 지휘관님, 잘 쉬셨습니까? ",
 		vote = "",
-		name = "허마이오니",
 		detail = "수석 메이드 벨파스트님은 능력이 매우 뛰어나고 굳건한 의지도 있어서 제가 매우 동경하죠. 언젠가 그런 존재가 됐으면 좋겠어요. ",
 		couple_encourage = {
 			{
@@ -12987,7 +12645,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 어떻게 또 오셨어요? 앗! 시찰…오신건가요?",
 		vote = "",
-		name = "퓨어화이트 엔젤",
 		detail = "함선이라도 아플 수 있어요…지휘관님도 건강 조심하셔야 해요. ",
 		couple_encourage = {}
 	},
@@ -13021,7 +12678,6 @@ pg.ship_skin_words = {
 		battle = "여러분, 자신을 소중히 여겨주세요. 가능한 한 다치지 않도록 하시길!",
 		login = "평안하신가요, 각하, 런던은 오늘도 곁에 있답니다.",
 		vote = "",
-		name = "런던",
 		detail = "무슨 일이신가요? 각하, 무엇을 그리 열심히 보고 계신지요?",
 		couple_encourage = {
 			{
@@ -13066,7 +12722,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "런던·改",
 		detail = "입던 옷으로 갈아입어도 되긴 하지만, 전 줄곧 이런 스타일의 옷을 동경해 왔는걸요. 각하, 제가 바꿔 입길 바라세요?",
 		couple_encourage = {}
 	},
@@ -13100,7 +12755,6 @@ pg.ship_skin_words = {
 		battle = "나는 딱히 상관없지만, 지휘관에게 승리를 가져다드리지 않으면~",
 		login = "아, 지휘관 이제 왔어요? 마중 가려던 참이었어요~",
 		vote = "",
-		name = "슈롭셔",
 		detail = "지휘관은 한가해 보이네요~",
 		couple_encourage = {}
 	},
@@ -13134,7 +12788,6 @@ pg.ship_skin_words = {
 		battle = "Huh, 적에게 이쪽의 힘을 보여주지!",
 		login = "Yo! 지휘관, 함께 콰쾅 해버리자?",
 		vote = "",
-		name = "켄트",
 		detail = "Errr, 내 장갑과 화력은 무시해!",
 		couple_encourage = {}
 	},
@@ -13168,7 +12821,6 @@ pg.ship_skin_words = {
 		battle = "적 씨, 강한 듯해요……",
 		login = "아, 지휘관 씨 어서 오세요. 저 말인가요? 지금 구름 씨를 관찰하고 있었어요.",
 		vote = "",
-		name = "서포크",
 		detail = "근대화 개수 전과 후의 수치는 전혀 다르다구요?",
 		couple_encourage = {}
 	},
@@ -13202,7 +12854,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "서포크·改",
 		detail = "개조 전의 저보다 훠얼씬 유능하다고요! 네!",
 		couple_encourage = {}
 	},
@@ -13236,7 +12887,6 @@ pg.ship_skin_words = {
 		battle = "노포크… 여, 열심히 하겠습니다…",
 		login = "지휘관, 어서 오세요…",
 		vote = "",
-		name = "노포크",
 		detail = "부끄러워요…",
 		couple_encourage = {}
 	},
@@ -13270,7 +12920,6 @@ pg.ship_skin_words = {
 		battle = "언니에게 망신 끼치지 않도록 노력하겠습니다!",
 		login = "어서 오시지요~ 오늘은 뭘 하실 건가요?",
 		vote = "",
-		name = "도셋셔",
 		detail = "저보다 역시 언니 쪽이 귀엽지요.",
 		couple_encourage = {}
 	},
@@ -13304,7 +12953,6 @@ pg.ship_skin_words = {
 		battle = "제 힘<†포스†>에 엎드리도록 하세요!",
 		login = "수행에서 돌아왔나요? 가죠. 운명<†페이트†>이 우릴 부르고 있어요.",
 		vote = "",
-		name = "요크",
 		detail = "제 힘<†포스†>을 느끼세요. 기껏해야 빙산의 일각이지만 말이죠.",
 		couple_encourage = {
 			{
@@ -13356,7 +13004,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "그럼 오늘의 조사<†서치†>를 시작하죠! 결국에는 흑막<†마스터 마인드†>이 꼬리를 드러낼 겁니다!",
 		vote = "",
-		name = "truth seeker",
 		detail = "빈 교실에서 갑자기 사람 실루엣이 나타났는데, 말 없는 노란 요정<†엘프†>이었어요.；도서관의 책더미는 사람을 홀리는 잘못된 길<†롱 패스†>이에요.；운동 동아리 전체에 퍼진 전설은 절대 헛것이 아니에요. 진정한 <†에이스†>죠... 흑막<†마스터 마인드†>이 나타나지 않는 것은 제 조사 방향이 틀렸다는 건가요?"
 	},
 	[203079] = {
@@ -13389,7 +13036,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "설마 이 시각에 당신과 만날 줄은…… 이것도 제 운명인 게 틀림없어요!",
 		vote = "",
-		name = "요크·改",
 		detail = "힘<†포스†>에 의의가 있다고 한다면, 그건 분명 계속 싸워나가기 위해 있는 게 틀림없어요…… 그래, 내가 이 운명을 넘어설 때까지! ",
 		couple_encourage = {}
 	},
@@ -13423,7 +13069,6 @@ pg.ship_skin_words = {
 		battle = "로열 네이비의 영광에 맹세코 결코 사명을 배신하지는 않아!",
 		login = "로열 네이비의 정예로서 결코 지휘관 공을 실망하게 만들거나 하지 않습니다!",
 		vote = "",
-		name = "엑세터",
 		detail = "검사를 부탁드리겠습니다. 지휘관 공.",
 		couple_encourage = {
 			{
@@ -13466,7 +13111,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "황실의...어, 그, 어서 오십시오. 지휘관님.",
 		vote = "",
-		name = "엑세터·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -13500,7 +13144,6 @@ pg.ship_skin_words = {
 		battle = "함대에 부끄럽지 않도록… 각 대원의 분투를 기대합니다!",
 		login = "업무 준비, 괜찮나요? 나중에 깜빡했다고 해도 난 몰라요.",
 		vote = "",
-		name = "서식스",
 		detail = "슈롭셔는 좀 비뚤어진 구석이 있네요…… 뭐, 그 애는 뭘하든 손해는 안 보는 타입이니까, 가만히 놔두면 괜찮지 않을까요?",
 		couple_encourage = {
 			{
@@ -13551,7 +13194,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 일은 다 끝낸거겠죠? 만약 몰래 빠져나온 거라면, 하아……",
 		vote = "",
-		name = "태양과 튤립",
 		detail = "언니는 수영복의 노출이 심하다고 입고싶지 않아해요. 하…… 저도 가끔은 그렇게 생각하지만, 언니는 슈롭셔의 대담함을 배울 필요가 있어요…",
 		couple_encourage = {}
 	},
@@ -13585,7 +13227,6 @@ pg.ship_skin_words = {
 		battle = "다른 진영에게 지면 안 돼요. 다들 화이팅!",
 		login = "업무에는 문제 없죠? 여기서 계속 빈둥대면 절대로 야근 해야 한다구요!",
 		vote = "",
-		name = "와인과 로즈",
 		detail = "리나운 씨, 연회의 경비는 메이드단에게 맡기면 될텐데… 지휘관도 여기에 가만히 있으세요! 정말이지, 지휘관이 없는데 연회를 어떻게 하나요?!",
 		couple_encourage = {}
 	},
@@ -13619,7 +13260,6 @@ pg.ship_skin_words = {
 		battle = "적 함 발견! 전 함, 사격 개시!",
 		login = "지휘관님, 명령을!",
 		vote = "",
-		name = "리나운",
 		detail = "리나운, 모든 기능 정상! 걱정 마십시오!",
 		couple_encourage = {
 			{
@@ -13678,7 +13318,6 @@ pg.ship_skin_words = {
 		battle = "움직이는 것들 전부 날려버려! 랄까나☆",
 		login = "헬로─ 지휘관! 같이 적을 너덜너덜하게 만들어주자고!",
 		vote = "",
-		name = "리펄스",
 		detail = "Hi! 지휘관! 움직이기 편하게 얇게 입어봤어~ ",
 		couple_encourage = {}
 	},
@@ -13712,7 +13351,6 @@ pg.ship_skin_words = {
 		battle = "영광은 언제나 저희와 함께 있음을.",
 		login = "어서 오십시오. 지휘관님. 홍차는 어떠신가요?",
 		vote = "",
-		name = "후드",
 		detail = "로열 네이비의 영광, 마음껏 봐주시기 바랍니다.",
 		couple_encourage = {
 			{
@@ -13779,7 +13417,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "평안하신지요, 지휘관님. 부디 이 더위에 현혹당하지 않도록 하세요. 냉정함을 잃어서는 정확한 판단을 내릴 수 없답니다.",
 		vote = "",
-		name = "후드",
 		detail = "어머, 제가 태양보다도 눈부시다구요? 후후, 감사히 받아들이지요.",
 		couple_encourage = {}
 	},
@@ -13813,7 +13450,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님 조급해 하지마세요. 끝 없는 바다는 지휘관님을 향해 활짝 열려 있답니다.",
 		vote = "",
-		name = "순결한 사랑",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -13847,7 +13483,6 @@ pg.ship_skin_words = {
 		battle = "로열 네이비, 서치 앤 디스트로이!",
 		login = "지휘관님, 리나운 대기 중입니다. 오늘 명령을 내려주세요!",
 		vote = "",
-		name = "꼬마 리나운",
 		detail = "지휘관님, 나이트에 관한 책을 찾았는데 이해하기 어려운 내용이 너무 많아요. 가르쳐주실 수 있나요?",
 		couple_encourage = {}
 	},
@@ -13881,7 +13516,6 @@ pg.ship_skin_words = {
 		battle = "초노급 전함의 위력을 보아라!",
 		login = "뭐냐구, 나를 이렇게나 기다리게 하다니!",
 		vote = "",
-		name = "퀸 엘리자베스",
 		detail = "이 서민! 누가 훔쳐봐도 된다고 했어? 아, 아직 준비 안 됐으니깐 말야…",
 		couple_encourage = {
 			{
@@ -13940,7 +13574,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "여왕님의 무도회",
 		detail = "내게 찬사를 바치는 걸 허락해줄게! ……어서 칭찬하는 말을 늘어놓으라고, 하인!",
 		couple_encourage = {}
 	},
@@ -13974,7 +13607,6 @@ pg.ship_skin_words = {
 		battle = "지휘관의 적은 절대로 놓치지 않는다!",
 		login = "이 워스파이트, 제아무리 멀리 도망친 적이라도 해치워 보이겠어.",
 		vote = "",
-		name = "워스파이트",
 		detail = "데이터에 현혹되지 마. 승리를 이끌어낼 조건은 그 외에도 잔뜩 있어.",
 		couple_encourage = {
 			{
@@ -14050,7 +13682,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "전사에게도 휴식은 필요해. 명절에는 그렇게 예민하게 굴지 말라구.",
 		vote = "",
-		name = "전사의 크리스마스 선물",
 		detail = "폐하의 집무실 문에 장식할 화환…… 응응, 벨이 알려준 조개 화환이 좋겠어! 지휘관, 빨리 조개 주우러 출발하자!",
 		couple_encourage = {}
 	},
@@ -14084,7 +13715,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "보다 멀리 있는 적을 해치울 수 있게 됐어. 지휘관, 출격한다면 이 워스파이트에게 맡겨줘.",
 		vote = "",
-		name = "워스파이트·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -14118,7 +13748,6 @@ pg.ship_skin_words = {
 		battle = "모두가 자신의 의무를 다해주길 기대할게.",
 		login = "흥, 땡땡이 끝났어? 서류는 준비해뒀으니까, 열심히 해봐. 기대는 해줄게.",
 		vote = "",
-		name = "넬슨",
 		detail = "뭐가 이상하다는 거야! 이 이상 보면 눈을 파버릴 거야!",
 		couple_encourage = {
 			{
@@ -14169,7 +13798,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "핼러윈 정도는 너그럽게 봐줄게. 내일부터는 농땡이 피우지 말라구!",
 		vote = "",
-		name = "달의 마녀",
 		detail = "별로 입을 생각은 없었어. 살짝 호기심이 들어서…… 예, 예쁘다구? ……고, 고마워……잘난 척 하지 말라구!",
 		couple_encourage = {}
 	},
@@ -14203,7 +13831,6 @@ pg.ship_skin_words = {
 		battle = "네! ……여러분 모두가 의무를 다하길, 로드니, 기대하고 있습니다!",
 		login = "아, 지휘관님 어서 오세요. 마침 서류 정리해놨답니다. 확인해보셔요.",
 		vote = "",
-		name = "로드니",
 		detail = "상세정보의 설명이 필요한가요?",
 		couple_encourage = {
 			{
@@ -14254,7 +13881,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "이렇게나 더우면 서류 정리도 진행이 안 되네요…… 지휘관님, 시원하게 샤워라도 하시는 건 어떠신가요?",
 		vote = "",
-		name = "로드니",
 		detail = "우후후, 지휘관님. 그렇게 부끄러워하지 않으셔도 괜찮답니다. 좀 더 가까이 오셔서… 어떠신가요? 로드니의 손, 시원하지 않나요?",
 		couple_encourage = {}
 	},
@@ -14288,7 +13914,6 @@ pg.ship_skin_words = {
 		battle = "우리의 위명을 여기에도 떨쳐 보이도록 할까!",
 		login = "지휘관, 저녁 식사는 마쳤는가?",
 		vote = "",
-		name = "킹 조지 5세",
 		detail = "로열에서의 나의 위치가 신경쓰인다고? 흠……그렇군, 예를 들자면 \"기사단장\" 이라고 하는 것이 제일 적절하겠군. 하하하.",
 		couple_encourage = {
 			{
@@ -14340,7 +13965,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "온순한 장미",
 		detail = ""
 	},
 	[205060] = {
@@ -14373,7 +13997,6 @@ pg.ship_skin_words = {
 		battle = "성공은 용감한 자의 것…… 전 함, 사격개시!",
 		login = "돌아왔나? 홍차라도 한 잔 마시고 일을 시작해보지.",
 		vote = "",
-		name = "프린스 오브 웨일즈",
 		detail = "운명은 곧잘 레일에서 벗어나는 법이다. 지휘관.",
 		couple_encourage = {
 			{
@@ -14456,7 +14079,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "사물의 매력을 아는 것은, 우선 그것을 사랑하는 것…… 여자에게 있어서도 예외는 아니지, 지휘관",
 		vote = "",
-		name = "윈저의 태양",
 		detail = "때에 상관없이, 아름다운 레이디를 무시하는 건 신사의 소행이 아니지.",
 		couple_encourage = {}
 	},
@@ -14490,7 +14112,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "로열 네이비의 풍류",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -14524,7 +14145,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "돌아왔나? 돌아오는 길에 다른 자매들을 만나지는 않았겠지?",
 		vote = "",
-		name = "영광의 빅토리 레이싱",
 		detail = "운명은 너무나도 쉽게 그 궤적에서 벗어나곤 하지—— 시합을 할 때 트랙을 벗어나는 것은 위험해. 그러니까 관전할 때 주의하도록 해, 지휘관.",
 		couple_encourage = {}
 	},
@@ -14558,7 +14178,6 @@ pg.ship_skin_words = {
 		battle = "죄 깊은 선혈의 꽃이여, 나의 곁에 만발하거라!",
 		login = "부정한 뱀이여, 그대는 지금 누구를 떠올리고 있는 것인가?",
 		vote = "",
-		name = "듀크 오브 요크",
 		detail = "나와 만나지 못한 것이, 그렇게나 그대를 애태우게 하였는가?",
 		couple_encourage = {
 			{
@@ -14609,7 +14228,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "그대… 역시 이 달콤한 핏빛 단비를 맛보고 싶은가?",
 		vote = "",
-		name = "영원한 밤의 코롤라",
 		detail = "후후, 그대의 심장 소리가 들리는구나. 두근, 두근… 이렇게 건강하다니, 듣기 좋구나…",
 		couple_encourage = {}
 	},
@@ -14643,7 +14261,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "위대한 글로리어스 포뮬러 ",
 		detail = "다른 사람에게 빼앗길 수 있는 사랑은 결코 좋은 것이 아니다. 그대가 완전히 나의 소유가 되어야만, 충분한 시간을 들여 함께할 가치가 있다——",
 		couple_encourage = {}
 	},
@@ -14677,7 +14294,6 @@ pg.ship_skin_words = {
 		battle = "对待敌人我可不会心慈手软！",
 		login = "终于来了啊，好，让我们一起攻克今天的难题吧。",
 		vote = "",
-		name = "豪",
 		detail = "为同伴可以赴汤蹈火，对敌人则无须留情，这是我的准则哦。",
 		couple_encourage = {
 			{
@@ -14738,7 +14354,6 @@ pg.ship_skin_words = {
 		battle = "내 지휘를 들어라! 모두 공격!",
 		login = "하인, 마침 잘 왔어. 오늘의 보고서를 가져와라.",
 		vote = "",
-		name = "밸리언트",
 		detail = "엘리자베스는 지도자로서는 약간 지나치게 제멋대로야. 워스파이트 그녀들이 너무 오냐오냐 했어. 역시 이곳은 당연히 내가…응? 어떤 의미에서는 나도 다를바 없다고…? 무슨 말하는 거야?",
 		couple_encourage = {
 			{
@@ -14779,7 +14394,7 @@ pg.ship_skin_words = {
 		id = 205101,
 		voice_key = 0,
 		feeling5 = "",
-		main = "부하가 환자 역할이니까, 내가 귀찮음을 무릅쓰고 홍차를 만들어 주고 있는 거라고, 오해하지 마! |으흥, 훈련 틈틈이 바둑 두는 건 어때? 내가 바둑판을 가져왔어, 침대에서 두면 돼!| 부하, 넌 지금 환자니까 말 잘 들어야 해! 윽, 부하로써 원래 내 말을 잘 들어야 맞는 거잖아? ",
+		main = "부하가 환자 역할이니까, 내가 귀찮음을 무릅쓰고 홍차를 만들어 주고 있는 거라고, 오해하지 마! |으흥, 훈련 틈틈이 체스 두는 건 어때? 내가 체스판을 가져왔어, 침대에서 두면 돼!| 부하, 넌 지금 환자니까 말 잘 들어야 해! 윽, 부하로써 원래 내 말을 잘 들어야 맞는 거잖아? ",
 		voice_key_2 = -1,
 		profile = "",
 		mission_complete = "",
@@ -14790,7 +14405,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "왔구나, 부하여. 아니다, 지금은 환자 역할이잖아, 근데 왜 그렇게 팔팔해 보이는 거야? 빨리 침대에 가서 누워!",
 		vote = "",
-		name = "리틀 간호사의 시간",
 		detail = "부하, 사실 이렇게 보살핌 받는 기분을 즐기고 있는 거지? 흠흠… 아무리 생각해도 이건 불공평해… 이렇게 하자! 다음엔 내가 환자 역할 할게, 부하 네가 의사가 돼서 날 보살펴 줘. 어때? ",
 		couple_encourage = {}
 	},
@@ -14824,7 +14438,6 @@ pg.ship_skin_words = {
 		battle = "함대를 믿고 있는 한, 언젠가 함대는 내게 대답해줄 거야!",
 		login = "돌아왔나. 즐거운 듀얼을 하자고!",
 		vote = "",
-		name = "허미즈",
 		detail = "데이터가 전부는 아냐. 제대로 활용해야 비로소 힘이 되는 거지.",
 		couple_encourage = {}
 	},
@@ -14858,7 +14471,6 @@ pg.ship_skin_words = {
 		battle = "함재고, Gate Open！",
 		login = "기다렸어. 카드... 아니, 그 거칠게 날뛰는 혼이 당신이 돌아온 걸 알려줬어.",
 		vote = "",
-		name = "허미즈·改",
 		detail = "진정한 승부가에 대해 말하자면, 그 무엇에도 우연이란 것은 없어. 지휘관.",
 		couple_encourage = {}
 	},
@@ -14892,7 +14504,6 @@ pg.ship_skin_words = {
 		battle = "후방지원은 맡겨줘… 유니콘… 힘낼게…!",
 		login = "어서 와, 오빠… 오늘도 출격이야?",
 		vote = "",
-		name = "유니콘",
 		detail = "오빠… 유니콘에 대해, 더 알고 싶어?",
 		couple_encourage = {
 			{
@@ -14901,6 +14512,29 @@ pg.ship_skin_words = {
 				},
 				1,
 				"일러스트리어스 언니의 지원은… 내가…!",
+				0
+			},
+			{
+				{
+					10117,
+					30105,
+					20121,
+					40123
+				},
+				1,
+				"내 친구를 괴롭히지 마!",
+				0
+			},
+			{
+				{
+					10224,
+					20225,
+					30710,
+					40307,
+					90503
+				},
+				1,
+				"유니콘은 노래 부르는 걸 좋아해요… 하지만 모두들 앞에서는 역시…///",
 				0
 			}
 		}
@@ -14935,7 +14569,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "작은 별의 디바",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -14969,7 +14602,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "봄의 선물",
 		detail = "오, 오빠…유니콘을 그렇게 뚫어지게 쳐다보지 말아줘…우으……",
 		couple_encourage = {}
 	},
@@ -15003,7 +14635,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "유니콘, 오빠랑 같이 타고 싶은 놀이기구가 잔뜩 있어.",
 		vote = "",
-		name = "꿈에 그리던 유원지",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -15037,42 +14668,40 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "해피...뉴 이어! 올해의 신년도, 오빠랑 함께 보낸다~ 헤헤...",
 		vote = "",
-		name = "소원의 눈과 매화",
 		detail = "복주머니? 유, 유니콘한테 주는거야? ...고, 고마워 오빠! 안에 뭐가 있는지 모르겠네... 히히... 기대된다.",
 		couple_encourage = {}
 	},
 	[206038] = {
-		touch = "",
+		touch = "오빠랑 더 손잡고 싶은데... 괜찮을까?",
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
-		win_mvp = "",
+		win_mvp = "유니콘이 오빠를 도왔어... 에헤헷~",
 		home = "",
-		mission = "",
+		mission = "임무... 유니콘도 도와줄까?",
 		touch2 = "",
 		feeling1 = "",
 		skill = "",
 		drop_descrip = "이건... 중요한 의식을 위해 갈아입은 중요한 옷... 응! 유니콘이랑 유짱 모두 준비 됐어! 오빠... 유니콘, 이렇게 하면 되지?",
-		mail = "",
-		lose = "",
+		mail = "우편은...... 유짱이 이미 가져왔다구~",
+		lose = "우움... 오빠 앞에서는... 강해져야 해...",
 		propose = "",
-		hp_warning = "",
+		hp_warning = "오빠를 위해서...... 유니콘, 더 용감해질거야...!",
 		id = 206038,
 		voice_key = 0,
 		feeling5 = "",
-		main = "nil|nil|nil",
+		main = "오, 오빠... 유니콘, 요즘에 엄청 열심인데, 그... 휴일에... 오빠랑 같이 놀러가고 싶어... 괜찮아?|유짱도 유니콘이랑 세트로 갈아입었어, 헤헤...|유니콘이 로열 언니들에게 요리를 가르쳐달라고 했어...... 헤헷, 오빠에게 서프라이즈를 주고 싶어... 아! 말해버리면 서프라이즈가 아닌건데... 웅...|유니콘이 일러스트리어스 언니처럼 그렇게 성숙한 어른이 될 수 없다고 해도, 오빠는 항상 유니콘 곁에 있을 거...지?",
 		voice_key_2 = -1,
 		profile = "",
-		mission_complete = "",
+		mission_complete = "보상이... 아주 많아... 모두 오빠의 공로야.",
 		headtouch = "",
 		feeling2 = "",
 		feeling4 = "",
-		unlock = "",
+		unlock = "이건... 중요한 의식을 위해 갈아입은 중요한 옷... 응! 유니콘이랑 유짱 모두 준비 됐어! 오빠... 유니콘, 이렇게 하면 되지?",
 		battle = "",
-		login = "",
+		login = "오빠! 헤헷~ 유니콘이 여기서 오빠가 돌아오길 계속 기다렸다구",
 		vote = "",
-		name = "행복의 순백",
-		detail = "",
+		detail = "오빠... 이미 유니콘을 잘 알고 있구나.",
 		couple_encourage = {}
 	},
 	[206040] = {
@@ -15105,7 +14734,6 @@ pg.ship_skin_words = {
 		battle = "선배님들, 함께 열심히 하자고요!",
 		login = "지휘관님, 오늘도 저, 열심히 선배님들을 보고 배울게요!",
 		vote = "",
-		name = "센토",
 		detail = "외관…말씀이세요? 그렇네요, 이름이 원래 환상의 동물에서 따온 거 다 보니 좀 판타지스럽…죠?",
 		couple_encourage = {
 			{
@@ -15148,7 +14776,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 모래사장에서 산책이라도 어떠신가요?",
 		vote = "",
-		name = "해변의 운디네",
 		detail = "몸매가 좋다고 자주 선배님들께 칭찬받긴 하지만, 사실은 좀 부끄러워요…",
 		couple_encourage = {}
 	},
@@ -15182,7 +14809,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "이스트 글림의 여러분은 설 파티를 준비하고 있는 것 같네요. 제가 도와드릴 건 없을까요…",
 		vote = "",
-		name = "청량한 봄바람",
 		detail = "제가 춤추는 걸 보고 싶으신 건가요? …그, 그다지 잘 추지는 못합니다만, 지휘관님이 보고 싶다고 하신다면……",
 		couple_encourage = {}
 	},
@@ -15216,7 +14842,6 @@ pg.ship_skin_words = {
 		battle = "내가 쫓아가면 도망갈 수 있을 거라 생각하지 마. 후후후♪",
 		login = "지휘관, 잘 지냈니♪ 건강과 미용을 위해, 매일 아침 한 잔의 홍차야.",
 		vote = "",
-		name = "체이서",
 		detail = "지휘관, 홍차에 밀크를 넣으면 맛있어 져. 다음에 기회가 있으면 시험해봐♪",
 		couple_encourage = {}
 	},
@@ -15250,7 +14875,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어머, 지휘관, 돌아왔네~ 오늘은 어떤 동화가 듣고 싶은 걸까?",
 		vote = "",
-		name = "이스트 글림 견문록",
 		detail = "이스트 글림에 다녀온 뒤론, 로열 네이비 홍차도 좋지만 가끔은 녹차의 산뜻한 향도 좋지 않을까 생각하게 됐어.",
 		couple_encourage = {}
 	},
@@ -15284,7 +14908,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 오늘은 어느 스테이지를 공략할거야?",
 		vote = "",
-		name = "Gamer Style",
 		detail = "우리는 세계의 커다란 해역들을 누비는 함선이지. 무료함을 달래기 위한 수단으로 게임기 같은 걸 가지고 다니는 것도 괜찮지 않아?",
 		couple_encourage = {}
 	},
@@ -15318,7 +14941,6 @@ pg.ship_skin_words = {
 		battle = "모두 신중함을 유지해주세요. 적은 마음을 놓을 수 없는 존재에요.",
 		login = "일찍 일어난 새 가 먼저 먹이를 잡는다지. 지휘관은…거의 굶어죽을 새군.",
 		vote = "",
-		name = "퍼시어스 ",
 		detail = "방안에 전신 거울이 꽤 많다고? 그건…내가 좋아하는 거울이기 때문이지. 이렇게 대답하면 만족하나?",
 		couple_encourage = {
 			{
@@ -15361,7 +14983,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "....눈빛? 미안하다. 이럴 때는 어떤 표정으로 지휘관을 마주해야 할지 잘 모르겠어.",
 		vote = "",
-		name = "미숙한 근무 시간",
 		detail = "주사, 붕대감기, 간호 뭐든 연습 중이다. 지휘관, 다음에 내 연습 상대가 되어줄 수 있어?",
 		couple_encourage = {}
 	},
@@ -15384,7 +15005,7 @@ pg.ship_skin_words = {
 		id = 207010,
 		voice_key = 20701,
 		feeling5 = "지금의 지휘관은 나에게 이미 분리할 수 없는 부분이야. 내가 어떻게 변하든…아니, 일이 이렇게 됐으니 나도 다시는 변하지 않을 생각이야. 지휘관, 당신에게는 내가 분리할 수 없는 존재야?",
-		main = "오늘의 메뉴는…과일 샐러드, 야채 샐러드, 저칼로리 건강식이라…음, 아주 완벽해! 이 노트의 내용이 궁금한가? 포기하기를 바라네. 당신이 노트안의 내용을 보게 된다면, 입을 막을 수밖에 없으니까…농담이야!|이전에 모항에서 메탈 블러드의 잠수함들을 만났었는데… 난 인사 방식도 생각 못했는데 그녀들은 놀란 토끼처럼 도망치더라구. 으… 그녀들과 접촉하는 방식을 반성해봐야겠어.",
+		main = "오늘의 메뉴는…과일 샐러드, 야채 샐러드, 저칼로리 건강식이라…음, 아주 완벽해!|이 노트의 내용이 궁금한가? 포기하기를 바라네. 당신이 노트안의 내용을 보게 된다면, 입을 막을 수밖에 없으니까…농담이야!|이전에 모항에서 메탈 블러드의 잠수함들을 만났었는데… 난 인사 방식도 생각 못했는데 그녀들은 놀란 토끼처럼 도망치더라구. 으… 그녀들과 접촉하는 방식을 반성해봐야겠어.",
 		voice_key_2 = -1,
 		profile = "전투함으로 개조한 항공모함으로 한때 로열 네이비의 해상 항공전에 큰 경험을 제공한 적이 있고 최전선에서 싸우다가 마지막에는 해상으로 돌아갔어. 로열 네이비 전사에게는 괜찮은 결말인 셈이지. 다만 기습당한 것은 항상 풀리지가 않아...",
 		mission_complete = "아주 좋아. 이게 바로 우수한 지휘관이 가져야 할 모습이지.",
@@ -15395,7 +15016,6 @@ pg.ship_skin_words = {
 		battle = "전쟁이라… 하하. 살짝 흥분되는데!",
 		login = "음, 아주 좋아! 정확한 시간에 온 걸로 봐서 아주 책임감 있는 지휘관이라는 것을 알겠군.",
 		vote = "",
-		name = "이글",
 		detail = "내가 있기 전 옛날에 많은 로열 네이비들 역시 '이글'이란 이름을 부여받았지. 나 이후로도 책임감과 사명감이 가득한 이 이름에 부끄럽지 않기를 바라.",
 		couple_encourage = {
 			{
@@ -15446,7 +15066,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 증상을 말해봐. 음... 안맞는 것 같은데. 이러면 너무 직접적이야. 그럼…어디가 불편해?",
 		vote = "",
-		name = "인턴 의사 이글",
 		detail = "이번 모항 병원 특별 훈련을 위해서 아주 많은 준비를 했지! ",
 		couple_encourage = {}
 	},
@@ -15480,7 +15099,6 @@ pg.ship_skin_words = {
 		battle = "흐흥, 너희들인가? 소드 피쉬 중대, 출격 준비!",
 		login = "각하, 준비는 끝났어. 언제든지 명령해줘! 전투에는 자신이 있다고.",
 		vote = "",
-		name = "아크 로열",
 		detail = "아크 로열, 검사는 언제나 환영이다!",
 		couple_encourage = {
 			{
@@ -15532,7 +15150,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "여름인가……각하는 여름이 좋은가? 난 좋아한다네.",
 		vote = "",
-		name = "해안의 감시자",
 		detail = "구축함 동생들끼리 모래사장에서 노는 건 위험해……시간대를 정하고, 그때만 놀 수 있도록 하길 진언드리네!",
 		couple_encourage = {}
 	},
@@ -15567,7 +15184,6 @@ pg.ship_skin_words = {
 		battle = "훼방꾼 구제를 개시한다!",
 		login = "각하, 현재까지 연회장에 이상은 없다.",
 		vote = "",
-		name = "연회장의 수호자",
 		detail = "내가 찍은 사진을 보고 싶나? 그렇다면…… 크흠! 안심하도록! 찍은 사진은 연회가 끝난 후에 확실히 건네주도록 하지!"
 	},
 	[207023] = {
@@ -15600,7 +15216,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "조화롭고 정겨운 풍경일수록 사람들은 잘 보호하려하지. 각하, 넌 어떻게 생각해?",
 		vote = "",
-		name = "신년의 수호자",
 		detail = "이 총도 축포를 발사하는데 사용돼. 저녁 축제에서 유용하게 써먹을 수 있지!",
 		couple_encourage = {}
 	},
@@ -15634,7 +15249,6 @@ pg.ship_skin_words = {
 		battle = "무의미한 싸움을 어째서……",
 		login = "평안하신지요, 지휘관님. 조금 정리해뒀습니다. 어떠신가요?",
 		vote = "",
-		name = "일러스트리어스",
 		detail = "저기… 일러스트리어스의 손수건을 주워주지 않으시겠나요…… 저, 숙이면 균형을 못 잡아서 잘 쓰러지거든요… ",
 		couple_encourage = {
 			{
@@ -15677,7 +15291,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "끝나지 않는 다과회",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -15711,7 +15324,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "안녕하세요, 지휘관님. 무도회에 가실 준비는 끝나셨나요?",
 		vote = "",
-		name = "빛나는 무도회",
 		detail = "평소와는 다른 옷을 입고 지휘관님 앞에 서니 가슴이 두근거리는 느낌이 드네요.",
 		couple_encourage = {}
 	},
@@ -15745,7 +15357,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "이국의 일러스트리어스",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -15779,7 +15390,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "안녕하세요, 지휘관님. 오늘 같은 명절에는 평소의 고민을 잊으시길 바라요.",
 		vote = "",
-		name = "봄날의 사랑",
 		detail = "이 모항에게 설날은 이국적인 명절이지만, 모두가 자연스럽게 즐기고 있지요. 모두 지휘관님의 노력 덕분이에요. 후후후.",
 		couple_encourage = {}
 	},
@@ -15813,7 +15423,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "평안하신지요, 지휘관님. 휴식은 제대로 취하셨나요?",
 		vote = "",
-		name = "일러스트리어스",
 		detail = "지휘관님, 어디로 향하시더라도 일러스트리어스는 언제나 곁에 있을 거랍니다.",
 		couple_encourage = {}
 	},
@@ -15847,7 +15456,6 @@ pg.ship_skin_words = {
 		battle = "정말, 대포와 화약은 이 전쟁을 더 추악하게 만들 뿐이라니까……",
 		login = "평온한 파도, 시원한 바닷바람…지금 이 순간에도 새로운 미의 탄생이 축복받고 있어.",
 		vote = "",
-		name = "빅토리어스",
 		detail = "사랑도 싸움도, 더욱 대담해져도 좋아~ 자, 여차하면 나도 응원해 줄 테니까!",
 		couple_encourage = {
 			{
@@ -15898,7 +15506,6 @@ pg.ship_skin_words = {
 		battle = "모처럼의 휴일인데 기분이 나빠졌어… 너희에게 벌을 줘야겠는걸!",
 		login = "늦. 어. 요! 지휘관, 오늘 어떤 임무가 있나요? 얼른 끝내버리고 저랑 쇼핑가요.",
 		vote = "",
-		name = "여신의 휴일",
 		detail = "아름다운 빅토리어스의 조언이 필요한가요? 스타일링 문제건 연애 문제건 뭐든지 말해주세요. 전부 다 대답해줄게요~",
 		couple_encourage = {}
 	},
@@ -15932,7 +15539,6 @@ pg.ship_skin_words = {
 		battle = "레이디의 예의 중 적에 대한 자비는 존재하지 않아요.",
 		login = "지휘관님, 오늘은 의외로 제때 오셨네요.",
 		vote = "",
-		name = "포미더블",
 		detail = "!? …… 흠흠, 죄송해요. 방을 정리하고 있어서. 들어오세요.",
 		couple_encourage = {
 			{
@@ -15983,7 +15589,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "해변의 로열 레이디",
 		detail = "지휘관님, 워밍 업은 끝나셨나요? … 좋아요. 그럼 수영하러 가요♪",
 		couple_encourage = {}
 	},
@@ -16017,7 +15622,6 @@ pg.ship_skin_words = {
 		battle = "서치 앤 디스트로이!",
 		login = "멋진 날씨…날씨가 좋으면 기분도 밝아지죠. 일도 순조롭네요!",
 		vote = "",
-		name = "글로리어스",
 		detail = "아무쪼록 기대해주세요! 이 글로리어스는 반드시 귀관의 영원한 영광이 되어 보이겠어요!",
 		couple_encourage = {
 			{
@@ -16060,7 +15664,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "영광스런 학원 생활",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -16094,7 +15697,6 @@ pg.ship_skin_words = {
 		battle = "평화를 해치는 사람들은 반드시 벌을 받을 거에요!",
 		login = "지휘관님, 평안하신지요! 원래 있던 대로 정리를 해봤어요. 어떻게 생각하세요?",
 		vote = "",
-		name = "꼬마 일러스트리어스",
 		detail = "일러스트리어스는 아주 똑바로 서 있어요. 절대 넘어지지 않아요!",
 		couple_encourage = {
 			{
@@ -16167,7 +15769,6 @@ pg.ship_skin_words = {
 		battle = "모두 안심해. 암흑이 있어야 비로소, 하늘의 별들이 한층 더 빛나 보일 수 있는 거야.",
 		login = "지휘관, 에레버스는 쭉 여기서 당신이 부르기를 기다리고 있어…",
 		vote = "",
-		name = "에레버스",
 		detail = "내 역할은 죽음을 불러오는 게 아냐… 생명의 불이 꺼지기 직전의 그녀들이 있을 곳을 깨끗이 해주는 것뿐.",
 		couple_encourage = {
 			{
@@ -16234,7 +15835,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "환상의 행복",
 		detail = "난 그림자 그 자체. 지금은 자그마한 부탁을 여분으로 갖고 있을 뿐.",
 		couple_encourage = {}
 	},
@@ -16268,7 +15868,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "핼러윈 파티가 시작됐어. 하지만 마녀는 어둠 속에서 조용히 기다려야만해...",
 		vote = "",
-		name = "크로스드레싱 매직",
 		detail = "테러는 내가 핼러윈 전야제 파티에 꼭 함께 가주길 바라는 것 같은데... 하지만... 난...",
 		couple_encourage = {}
 	},
@@ -16302,7 +15901,6 @@ pg.ship_skin_words = {
 		battle = "테러도, 긴장되기 시작했어요…",
 		login = "지휘관… 저, 예전부터, 지휘관과 이야기를 하고 싶어서… 저…",
 		vote = "",
-		name = "테러",
 		detail = "지금의 지휘관의 눈빛, 그 이상한 사람들과 똑같아…",
 		couple_encourage = {
 			{
@@ -16345,7 +15943,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "그, 그에에에에에~ ……이렇게 하는 건가요…?",
 		vote = "",
-		name = "테러 오브 핼러윈",
 		detail = "\"긴 잠에서 눈을 떠, 당신의 영혼을 가져가기 위해 왔다~\"……이 대사, 조금 언니 같은데……?",
 		couple_encourage = {}
 	},
@@ -16379,7 +15976,6 @@ pg.ship_skin_words = {
 		battle = "이히히, 어디부터 요리해줄까? 함수? 포탑? 동력부?",
 		login = "방금 주포 소리? 이히히, 지휘관이 영 안 오길래, 좀 심심해져서 쏴버렸어~",
 		vote = "",
-		name = "애버크롬비",
 		detail = "포 쏘는 건 즐겁구나~",
 		couple_encourage = {
 			{
@@ -16431,7 +16027,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "이따가 내 “스크리밍 펌킨”을 어디에 두면 좋을까나~",
 		vote = "",
-		name = "스크리밍 펌킨!",
 		detail = "trick or treat! 지휘관, 사탕 안주면 소란 피울거야! 사탕 주면... 그때는 내 기분 보고! 하하하!",
 		couple_encourage = {}
 	},
@@ -16465,7 +16060,6 @@ pg.ship_skin_words = {
 		battle = "날씨 좋고~ 간다앗!",
 		login = "지휘관, 오늘 컨디션은 어때?",
 		vote = "",
-		name = "후부키",
 		detail = "에헤헤, 지휘관은 외로움을 많이 타나봐~",
 		couple_encourage = {
 			{
@@ -16508,7 +16102,6 @@ pg.ship_skin_words = {
 		battle = "학교에 도착하기 전까지 처리하자고~!",
 		login = "",
 		vote = "",
-		name = "지각 5분전",
 		detail = "늦잠 잔 게 아니야! 좋아하는 걸 하다 보니 시간 가는 걸 깜빡해서……",
 		couple_encourage = {}
 	},
@@ -16542,7 +16135,6 @@ pg.ship_skin_words = {
 		battle = "이 튜바…… 역시 전투용인가…?",
 		login = "지휘관, 아침을 깨우는 행진곡 독주, 시작할게~!",
 		vote = "",
-		name = "뮤직 픽시",
 		detail = "악기는 의외로 재밌네! 다른 애들한테도 전파해야겠다!",
 		couple_encourage = {}
 	},
@@ -16576,7 +16168,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오늘의 공연을 시작하자, 3, 2, 1, 시작!",
 		vote = "",
-		name = "특형 아이돌 Fubuki",
 		detail = "난 모든 특형 구축함의 희망을 짊어지고 있어, 똑바로 안하면 안된다고!",
 		couple_encourage = {}
 	},
@@ -16610,7 +16201,6 @@ pg.ship_skin_words = {
 		battle = "솔로몬에… 가고 싶어?",
 		login = "지휘관은 드셨나요? 간식, 말이에요.",
 		vote = "",
-		name = "아야나미",
 		detail = "통신 설비, 이번에는 제대로 정비했어요. 폐를 끼치진 않을 거예요…",
 		couple_encourage = {}
 	},
@@ -16644,7 +16234,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "해질녘의 마녀",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -16678,7 +16267,6 @@ pg.ship_skin_words = {
 		battle = "지금 듣고 있는 곡, 전장에서 듣기 딱이에요.",
 		login = "지휘관, 일하기 전에 음악이라도 같이 어떤가요?",
 		vote = "",
-		name = "Gwisin of Rock",
 		detail = "헤드폰을 쓰면, 흘러나오는 소리… 그리고 눈 앞에 있는 사람만이 세상의 모든 것이에요.",
 		couple_encourage = {}
 	},
@@ -16712,7 +16300,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 이스트 글림의 동료들은 \"연야반\"이라는…… 섣달그믐날을 맞이하는 식사를 하고 있어요. 아야나미와 함께 보러 가시지 않겠어요?",
 		vote = "",
-		name = "파도신년",
 		detail = "이스트 글림풍 옷은 가볍고, 나쁘지 않은 느낌이에요. …귀여워, 라구요? 고마…워요.",
 		couple_encourage = {}
 	},
@@ -16746,7 +16333,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "특별한 세일러복",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -16780,7 +16366,6 @@ pg.ship_skin_words = {
 		battle = "아야나미와 동료들의 힘을 보아라! 에요!",
 		login = "지휘관, 아야나미와 함께 잠입 작전 훈련 하실래요? ... 아마 거절...이네요",
 		vote = "",
-		name = "특수 잠입 작전용 망토",
 		detail = "카가와 잠입 작전에 사용할 암호를 정하긴 했지만 모두 그다지 사용하지 않는 것 같아요. 조금 곤란...하네요",
 		couple_encourage = {}
 	},
@@ -16814,7 +16399,6 @@ pg.ship_skin_words = {
 		battle = "아이돌의 의무는 모두의 웃음을 지키는 것!",
 		login = "지휘관, 댄스 연습 중인데 보시겠어요?",
 		vote = "",
-		name = "냉정한 아이돌・당황 중",
 		detail = "Z23은 모두를 잘 챙겨줘요…… 분명히 자기 일도 있는데 모두의 스케쥴도 도와주다니, 정말 믿음직스러워요.",
 		couple_encourage = {}
 	},
@@ -16848,7 +16432,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어디를 가든, 아야나미는 따라갈 거예요. …지휘관님, 같이 출발이에요.",
 		vote = "",
-		name = "화려한 귀신의 백무구",
 		detail = "지금은, 아야나미가 혼자가 아니란 걸 알 수 있어요. …왜냐면, 지휘관님이 여기 있는걸요.",
 		couple_encourage = {}
 	},
@@ -16882,7 +16465,6 @@ pg.ship_skin_words = {
 		battle = "괜찮아요, 지휘관… 아야나미를 믿어줘요…",
 		login = "",
 		vote = "",
-		name = "아야나미·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -16916,7 +16498,6 @@ pg.ship_skin_words = {
 		battle = "제6 구축대! 출격이오!",
 		login = "소인의 이름은 아카츠키, 모든 어둠을 싸그리 날려버리는 닌자라오! …으악! 지휘관, 어, 언제부터 있었던 거야!",
 		vote = "",
-		name = "아카츠키",
 		detail = "소, 소인이 불을 켜둔 채 잠든 건…… 무, 무서워서가 아니오!",
 		couple_encourage = {
 			{
@@ -16967,7 +16548,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "오토바이 닌자, 출격!",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -17001,7 +16581,6 @@ pg.ship_skin_words = {
 		battle = "흥흥~ {namecode:12}는 대단하다고! 못 믿겠으면 두고 봐~",
 		login = "지휘관씨, 왔어~? 휴우~ 오늘 일도 함께 힘내자!",
 		vote = "",
-		name = "히비키",
 		detail = "제6구축대는 모두 개성이 뚜렷해. {namecode:13}, {namecode:14}, 그리고 닌자가 되겠다는 {namecode:11} 언니까지. 그래도 나는 그런 모두가 좋아. 헤헤~",
 		couple_encourage = {
 			{
@@ -17086,7 +16665,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관씨, 아직도 일이 남았어? 적어도 오늘은 조금 쉬는게 낫지 않을까?",
 		vote = "",
-		name = "정월 데빌 히비키",
 		detail = "우와, 확실히 오래 기다리게 했네. {namecode:12}도 확실히 미안하게 생각하고 있어. 하지만 이렇게 왔으니까 즐겁게 가자~ 앞으로, 앞으로~ 헤헤!",
 		couple_encourage = {}
 	},
@@ -17120,7 +16698,6 @@ pg.ship_skin_words = {
 		battle = "그렇구나! 일단은 좌측 상단의 '자율전투' 버튼을 누르면 된다는 거네!",
 		login = "그렇구나! 이게 '로그인' 이지? 인간의 말은 심오하네~",
 		vote = "",
-		name = "이카즈치",
 		detail = "이 이카즈치님에게 열심히 절하면, 웬만한 소원은 다 이뤄져! ……효과 없다고? 그건……아직 충분히 빌지 않아서야!",
 		couple_encourage = {
 			{
@@ -17163,7 +16740,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "사쿠라 브레이크",
 		detail = "이카즈치를 잡아먹을 거라면, 되도록 한입에…… 아, 아냐! 역시 이카즈치를 잡아먹지 말아줘!",
 		couple_encourage = {}
 	},
@@ -17197,7 +16773,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "역시! 지휘관도 {namecode:13}와 함께 ‘데이트’하는 걸 좋아하는구나!",
 		vote = "",
-		name = "축제 이카즈치",
 		detail = "지휘관, {namecode:13}의 유카타를 샀다면 {namecode:14}의 유카타도 같이 샀겠지!",
 		couple_encourage = {}
 	},
@@ -17231,7 +16806,6 @@ pg.ship_skin_words = {
 		battle = "에……에에! 매복하고 있었던 건가요!",
 		login = "어라…… 지휘관 씨인가요? 이 시간에 '로그인' 하시다니……. 땡땡이치고 계신 거죠?",
 		vote = "",
-		name = "이나즈마",
 		detail = "지휘관 씨…… 쭉 방 안에만 틀어박혀 계시네요……",
 		couple_encourage = {
 			{
@@ -17282,7 +16856,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "……이나즈마의 소원, 전해졌나요? ……지휘관 씨……?",
 		vote = "",
-		name = "바닐라 푸딩",
 		detail = "지휘관 씨, 이나즈마를 먹고 나면…… 힘을 내주세요.",
 		couple_encourage = {}
 	},
@@ -17316,7 +16889,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님이 {namecode:14}와의 약속을 잊은 줄 알았어요.",
 		vote = "",
-		name = "불꽃 이나즈마",
 		detail = "지휘관님, {namecode:13}의 말을 듣고 나서야 {namecode:14}에게 새 옷을 사준거죠? {namecode:14}는 사실 그렇게 신경쓰지 않았어요? 네… 신경쓰지 않았어요…",
 		couple_encourage = {}
 	},
@@ -17350,7 +16922,6 @@ pg.ship_skin_words = {
 		battle = "모, 모모모, 모두, 비켜~ 브레이크가 안 먹혀─!",
 		login = "어? 지휘관, 여기 있었구나… 에헤헤…",
 		vote = "",
-		name = "시라츠유",
 		detail = "지휘관, 뭐 보고 있어? 어? 가르쳐줘~…",
 		couple_encourage = {}
 	},
@@ -17384,7 +16955,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "주문은 어뢰입니까?",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -17418,7 +16988,6 @@ pg.ship_skin_words = {
 		battle = "오오오! 싸움이라면 봐주지 않겠어!",
 		login = "아우, 지휘관……「손」이라니!? 얕보는 거냐!?",
 		vote = "",
-		name = "유다치",
 		detail = "아우? ……뭐야?",
 		couple_encourage = {}
 	},
@@ -17452,7 +17021,6 @@ pg.ship_skin_words = {
 		battle = "눈싸움도 잘 한다고!",
 		login = "지휘관 뭘 움추리고 있는 거야! 자! 눈 위에서 같이 굴러보자고!",
 		vote = "",
-		name = "신년 눈싸움!",
 		detail = "춥냐고? 전혀 안 추워!",
 		couple_encourage = {}
 	},
@@ -17486,7 +17054,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "파티에는 고기가 많다고 들었는데, 기다릴 수가 없는걸!",
 		vote = "",
-		name = "고기 파티!",
 		detail = "지휘관, 봐봐. 유다치의 전리품! 파티에 맛있는 고기가 엄청 많다고. 정말 최고야!",
 		couple_encourage = {}
 	},
@@ -17520,7 +17087,6 @@ pg.ship_skin_words = {
 		battle = "아우우! 지휘관을 괴롭히게 두진 않을 거다!",
 		login = "지휘관!! 헤헤헤, 한참 전부터 냄새로 오는 거 알았다고!",
 		vote = "",
-		name = "솔로몬의 신부",
 		detail = "왜인지는 모르겠지만, 이거 입고 있으면 왠지 지휘관이 계속 옆에 있는 것 같은 느낌이 들어!",
 		couple_encourage = {}
 	},
@@ -17554,7 +17120,6 @@ pg.ship_skin_words = {
 		battle = "그쪽 바보들에게 병문안이나 가라~",
 		login = "지휘관! 늦잖아! 빨리 준비해줘~ 기다렸으니까",
 		vote = "",
-		name = "시구레",
 		detail = "지휘관 이 바보! 이 이상 보면 깨물 거다!",
 		couple_encourage = {}
 	},
@@ -17588,7 +17153,6 @@ pg.ship_skin_words = {
 		battle = "산소어뢰, 모두 발사 준비!",
 		login = "",
 		vote = "",
-		name = "전진! 이490!",
 		detail = "고작 수영복 하나 칭찬해줬다고 안 깨물줄 알았어? 크앙!",
 		couple_encourage = {}
 	},
@@ -17622,7 +17186,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 마침 잘 왔어! 파티 메인 이벤트가 지금부터 시작해!",
 		vote = "",
-		name = "행운의 연회!",
 		detail = "야마시로 언니, 이상한 장난 하지 말라고 잔소리하는데, 이 시구레님이 무슨 어린애도 아니고…… 오히려 야마시로 언니 쪽이 걱정이라구……",
 		couple_encourage = {}
 	},
@@ -17656,7 +17219,6 @@ pg.ship_skin_words = {
 		battle = "자, {namecode:17}님의 능력을 보여주도록 하지!",
 		login = "오늘은 뭘 할거야? 이 {namecode:17}님과 행운 대결이라도 할래? 하하, 질게 뻔하면서도 제 발로 찾아오는 바보라니. 정말 재밌어~",
 		vote = "",
-		name = "시구레·改",
 		detail = "어딜 보는거야? 바.보.지.휘.관?",
 		couple_encourage = {}
 	},
@@ -17690,7 +17252,6 @@ pg.ship_skin_words = {
 		battle = "죽고 싶으면 덤비라는 거다!",
 		login = "드디어 온 것이냐! {namecode:22}님을 위해 어서 일하란거다!",
 		vote = "",
-		name = "유키카제",
 		detail = "{namecode:22}님의 용감한 자태를 잘 봐두라는 말이다!",
 		couple_encourage = {}
 	},
@@ -17724,7 +17285,6 @@ pg.ship_skin_words = {
 		battle = "그네인 줄 알았겠지만, 사실 이건 어뢰인 거다!",
 		login = "지휘관, 마침 잘 왔어. 그네 좀 밀어달라는 거다.",
 		vote = "",
-		name = "유키카제님의 그네놀이",
 		detail = "이 수트는 잘 맞긴 한데 그네를 탈 때는 좀 불편하단 거다. 으으...고르기 힘들다는 거다!",
 		couple_encourage = {}
 	},
@@ -17758,7 +17318,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "겨울의 유키카제",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -17792,7 +17351,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "봄날의 따뜻한 바람",
 		detail = "지휘관만 보면 부비고 싶어진다——헤헤헤 너무 편한 거다~",
 		couple_encourage = {}
 	},
@@ -17826,7 +17384,6 @@ pg.ship_skin_words = {
 		battle = "이제야 이 몸이 나설 차례가 온 것이로구나!",
 		login = "어디부터, 어딜 봐도… 정말이지 어려운 문제로구나.",
 		vote = "",
-		name = "카게로",
 		detail = "으으~ 그런 실례되는 눈으로 보지 말게나! 이 몸, 화낼 것이야!",
 		couple_encourage = {}
 	},
@@ -17860,7 +17417,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "핼러윈일세!",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -17894,7 +17450,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "카게로·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -17928,7 +17483,6 @@ pg.ship_skin_words = {
 		battle = "소녀의 싸움을, 봐주시겠사옵니까…?",
 		login = "오랜만입니다, 라고 말하면 될런지요…?",
 		vote = "",
-		name = "시라누이",
 		detail = "…이상한 곳을 만지신다면 목숨이 남아나지 않을 것이옵니다?",
 		couple_encourage = {
 			{
@@ -17971,7 +17525,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "「즐거운 한가위」…라고 하면 되는 것이 옵니까?",
 		vote = "",
-		name = "월병, 먹어 볼래?",
 		detail = "아? 지휘관님, 도와주러 오신 것이 옵니까? 잘됐사옵니다. 보답으로 월병을 20% 할인해드리지요.",
 		couple_encourage = {}
 	},
@@ -18005,7 +17558,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "시라누이·改",
 		detail = "이 도깨비불, 전보다 더 화려해졌습니다……후후후, 이것이야말로 돈의 힘이라 할 수 있……물론 농담이랍니다.",
 		couple_encourage = {}
 	},
@@ -18039,7 +17591,6 @@ pg.ship_skin_words = {
 		battle = "지금은 잠들면 안 돼…!",
 		login = "쿨쿨… 괜찮아─ 곧 일어날 테니까… 햇빛… 따뜻해… 쿠울…",
 		vote = "",
-		name = "노와키",
 		detail = "레이테? 그다지 기억나진 않습니다만……",
 		couple_encourage = {
 			{
@@ -18098,7 +17649,6 @@ pg.ship_skin_words = {
 		battle = "하, 하츠하루, 힘내겠습니다!",
 		login = "으으… 비서함 같은 건 무리…",
 		vote = "",
-		name = "하츠하루",
 		detail = "지, 지휘관님, 그… 거, 걱정해주시는 건 기, 기쁘지만…",
 		couple_encourage = {
 			{
@@ -18142,7 +17692,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "저, 저기! ……지휘관님 시선은 이, 이미 익숙해져서 괜찮아요! 그래도… 빠, 빤히 쳐다보시면 아무래도, 전……",
 		vote = "",
-		name = "눈 오는 날의 하츠하루",
 		detail = "이건… 눈으로 만든 토끼씨… 아, 아직 덜 만들었어요! ……그래도… 눈으로 여러 가지 만들어서 재, 재밌어요……",
 		couple_encourage = {}
 	},
@@ -18176,7 +17725,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "비서함 업무… 지금의 {namecode:30}라면 문제없을 거예요! 아마도…",
 		vote = "",
-		name = "하츠하루·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -18210,7 +17758,6 @@ pg.ship_skin_words = {
 		battle = "우리의 실력을 보여주자!",
 		login = "지휘관, 좋은 아침.....아얏! 그렇게 행복 가득한 얼굴로 내 꼬리를 안고 눕지마!",
 		vote = "",
-		name = "와카바",
 		detail = "털을 윤기나게 단정히~ 꼬리를 눈에 띄게 하고 싶다면, 매일 정성껏 관리해야해~",
 		couple_encourage = {
 			{
@@ -18253,7 +17800,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 좋은 아침…… 떨어뜨린 크리스마스 선물 찾는 걸 도와주지 않을래? 왜 하나가 모자란 거야. 으으……",
 		vote = "",
-		name = "크리스마스 한정 Wakaba",
 		detail = "선물 배달로 바쁘더라도 꼬리 관리는 소홀히 하면 안 된다구~",
 		couple_encourage = {}
 	},
@@ -18287,7 +17833,6 @@ pg.ship_skin_words = {
 		battle = "얼른 해결해버리자!",
 		login = "해야할 일이 남아있다는 걸 이제 깨달은거야?",
 		vote = "",
-		name = "하츠시모",
 		detail = "좋아, 날 보러 올 시간을 기억하는구나~",
 		couple_encourage = {
 			{
@@ -18330,7 +17875,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "하츠시모·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -18364,7 +17908,6 @@ pg.ship_skin_words = {
 		battle = "눈을 크게 뜨고, 공습에 주의하라고~",
 		login = "지휘관 수고했어~ 오늘은 조금 바빠질지도?",
 		vote = "",
-		name = "아리아케",
 		detail = "유구레 처럼 자립하고 싶어~ 아냐…그것도 나름대로 좀 외로울지도?",
 		couple_encourage = {
 			{
@@ -18423,7 +17966,6 @@ pg.ship_skin_words = {
 		battle = "작전대로, 각자 위치로 가주세요!",
 		login = "지휘관님, 수고하셨어요.",
 		vote = "",
-		name = "유구레",
 		detail = "저기… 어떻게 하면 아리아케 언니를 다시 만날 수 있을까요…",
 		couple_encourage = {}
 	},
@@ -18457,7 +17999,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어서오세요 지휘관님. 주스는 여기에 놔두었습니다. 자료…… 자료는 아직 정리 중이에요…… 죄송해요……",
 		vote = "",
-		name = "견습은 메이드 씨!",
 		detail = "지휘관님, 벨파스트 씨가 이것저것 알려주었어요! ……아리아케 언니가 지금의 저를 보면, 분명 놀라겠…죠.",
 		couple_encourage = {}
 	},
@@ -18491,7 +18032,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어서 오세요, 지휘관님. 저기, 아리아케 언니한테 이스트 글림의 설날 인사를 하러 가려던 참인데… 지휘관님도 같이 가고 싶으신… 건가요?",
 		vote = "",
-		name = "해질 무렵에 피는 봄꽃",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -18525,7 +18065,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "파티는 「어른이 즐기는 세계」라고 들었습니다. 지, 지휘관님, 유구레, 「어른이 즐기는 세계」까지 함께 할 수 있을까요…？",
 		vote = "",
-		name = "찬란한 사쿠라",
 		detail = "여자는 옷이 바뀌면 인상도 바뀐다고들 하잖아요? 아리아케 언니에게도 새로운 옷을 만들어주면 좋겠어요……",
 		couple_encourage = {}
 	},
@@ -18559,7 +18098,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "유구레·改",
 		detail = "지휘관님, 드세요! 언니가 제일 좋아하는 디저트인데, 지휘관님은 어떨지 모르겠네요……",
 		couple_encourage = {}
 	},
@@ -18593,7 +18131,6 @@ pg.ship_skin_words = {
 		battle = "주인님의 앞을 가로막는 자에겐 죽음뿐이다…!",
 		login = "주인님, 어서 오십시오.",
 		vote = "",
-		name = "쿠로시오",
 		detail = "주인님……너무 빤히 쳐다보지는 말아주십시오……",
 		couple_encourage = {
 			{
@@ -18636,7 +18173,6 @@ pg.ship_skin_words = {
 		battle = "자자~ 동네 사람들~ 구경 한 번 와보세요~!",
 		login = "지휘관, \"기운 낼 수 있게 내 인형극을 한 번 구경하는 건 어떠실라나~?\" 이렇게 말하는 거, 어때 어때?",
 		vote = "",
-		name = "오야시오",
 		detail = "지휘관, 내 손동작 말야, 되게 닌자 같지 않아? 에헤헤~ 실은 이거, 쿠로가 알려준 거야~",
 		couple_encourage = {}
 	},
@@ -18670,7 +18206,6 @@ pg.ship_skin_words = {
 		battle = "잠수함과 어뢰를 조심하게. 전력으로 가겠네!",
 		login = "아, 왔는가~ 오늘은 왠지 이상한 일이라도 하는 겐가?",
 		vote = "",
-		name = "카미카제",
 		detail = "호오~ 지휘관은 이 몸의 어디에 흥미가 있다는 겐가?",
 		couple_encourage = {
 			{
@@ -18713,7 +18248,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "카미카제·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -18747,7 +18281,6 @@ pg.ship_skin_words = {
 		battle = "위험한 일만은 하지 말아줘.",
 		login = "지휘관, 배가 고프면 싸울 수 없다고! 나, 맛있는 걸 한~가득 만들었으니까, 많~이 먹어줘!",
 		vote = "",
-		name = "마츠카제",
 		detail = "자매들, 괜찮으려나… 걱정돼……",
 		couple_encourage = {}
 	},
@@ -18781,7 +18314,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 왔어? 어디 불편한 곳은 없고? 배는 안고파? 자자~일단 앉아있어, 내가 먹을 것 좀 가져올게~",
 		vote = "",
-		name = "마츠카제·改",
 		detail = "날이 추우면 이 부채는 별 쓸모 없는 것 같아...",
 		couple_encourage = {}
 	},
@@ -18815,7 +18347,6 @@ pg.ship_skin_words = {
 		battle = "아! 사탕 가져가는 나쁜 사람이다!",
 		login = "지히간도 사탕 먹고싶어? 내꺼 안 줄 꺼야─",
 		vote = "",
-		name = "무츠키",
 		detail = "사탕이 정말 맛있는 간식이야!",
 		couple_encourage = {}
 	},
@@ -18849,7 +18380,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "순록씨, 출발!",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -18883,7 +18413,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "사탕 축제!",
 		detail = "초콜릿 바나나~ 타코야키~ 다 맛있어~ 사탕이랑 비교하면…? 약간 부족하지~",
 		couple_encourage = {}
 	},
@@ -18917,7 +18446,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "달콤달콤 설날!",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -18951,7 +18479,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지히간, 오늘은 어떤 사탕이 조아? 무츠키 다 갖고 있어!",
 		vote = "",
-		name = "무츠키·改",
 		detail = "이건 키사라기 꺼…이건 지히간 꺼…이건 무츠키꺼…응응!",
 		couple_encourage = {}
 	},
@@ -18985,7 +18512,6 @@ pg.ship_skin_words = {
 		battle = "비행기… 싫어…!",
 		login = "꺄아!! 깜짝이야… 늑대가 온 줄 알았어요…",
 		vote = "",
-		name = "키사라기",
 		detail = "무츠키, 부러워…",
 		couple_encourage = {}
 	},
@@ -19019,7 +18545,6 @@ pg.ship_skin_words = {
 		battle = "키사라기……힘낼게!",
 		login = "꺄악!! 지, 지휘관! 저기! 어서 와!",
 		vote = "",
-		name = "정월의 소원",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -19053,7 +18578,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "엣, 지, 지휘관? 화, 환영해요......",
 		vote = "",
-		name = "키사라기·改",
 		detail = "{namecode:34}는...... 항상 여러분이 돌봐주어서 기뻐요. 하지만, {namecode:34}는 계속 귀찮게 해드릴 순 없어요......",
 		couple_encourage = {}
 	},
@@ -19087,7 +18611,6 @@ pg.ship_skin_words = {
 		battle = "저기…… 도망쳐도 돼……?",
 		login = "흐아아앙… 지휘관 어디 갔어?? 우즈키, 혼자는 무서워!",
 		vote = "",
-		name = "우즈키",
 		detail = "아아앗! 지휘관! ‘바퀴벌레’ 가 있어! 빨리 잡아줘~!",
 		couple_encourage = {}
 	},
@@ -19121,7 +18644,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "음냐…… 벌써 아침이야…?",
 		vote = "",
-		name = "우즈키는 잠꾸러기",
 		detail = "지히간, 우즈키 꿈꿨어~! 다같이 손잡고 같이 놀았어! 재밌었어!",
 		couple_encourage = {}
 	},
@@ -19155,7 +18677,6 @@ pg.ship_skin_words = {
 		battle = "응응, 적에게 어떻게 장난쳐줄까나♪",
 		login = "지휘관, 못 봤구나~? 아까 다른 애한테 장난치고 있었는데~!",
 		vote = "",
-		name = "미나즈키",
 		detail = "지휘관, 아직 장난 안 쳤는데?",
 		couple_encourage = {}
 	},
@@ -19189,7 +18710,6 @@ pg.ship_skin_words = {
 		battle = "어라? 공격개시~ 인 거야?",
 		login = "어라? 지휘관, 있었어?",
 		vote = "",
-		name = "후미즈키",
 		detail = "또, 또 실수했어…?",
 		couple_encourage = {}
 	},
@@ -19223,7 +18743,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관…… 좋은 오후…… 어라? 오후 아니야…?",
 		vote = "",
-		name = "잠이 덜 깬 요정",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -19257,7 +18776,6 @@ pg.ship_skin_words = {
 		battle = "오, 오지마─! 내 삐코는 나쁜 아이들의 천적이라구!",
 		login = "니히히, 오늘은 어떤 재밌는 일을 할까나? 지휘관!",
 		vote = "",
-		name = "나가츠키",
 		detail = "누구를 위하여 삐코는 울리나?",
 		couple_encourage = {
 			{
@@ -19306,7 +18824,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "주인님, 돌아오신 것을 환영합니다냥!......또 듣고 싶으면 딸기 아이스크림을 준비해줘!",
 		vote = "",
-		name = "냥냥 메이드는 위험해?",
 		detail = "메이드이긴 하지만, 냥냥 글러브를 끼고 있어서 메이드의 업무를 할 수가 없네, 정말 유감이야~",
 		couple_encourage = {}
 	},
@@ -19340,7 +18857,6 @@ pg.ship_skin_words = {
 		battle = "적이다……먹을 수 있어?",
 		login = "지휘관? 어~서~와~, 앙! 맛있어!",
 		vote = "",
-		name = "미카즈키",
 		detail = "지휘관, 붕어빵… 잔뜩 있으니까, 괜찮아.",
 		couple_encourage = {}
 	},
@@ -19374,7 +18890,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 붕어빵을 주지 않으면 미카즈키가 미나즈키 언니 불러서 귀찮게 할 거야.",
 		vote = "",
-		name = "강시 아가씨 등장!",
 		detail = "미카즈키는 귀찮은 옷으로 갈아입는 거 싫어해. 하지만 다들 미카즈키가 이 옷을 입은 모습이 보고 싶어 하니까 강시로 변한 거야. 폴짝~",
 		couple_encourage = {}
 	},
@@ -19408,7 +18923,6 @@ pg.ship_skin_words = {
 		battle = "싸움은…… 아무것도 변하지 않았구나",
 		login = "오늘도 아무것도 다를 것 없는 날이군.",
 		vote = "",
-		name = "카와카제",
 		detail = "낚시는 좋아한다. 머리를 비우고, 아무것도 생각하지 않아도 좋으니까.",
 		couple_encourage = {
 			{
@@ -19451,7 +18965,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오늘은 어쩌면 평소와는 다른 일이 일어날지도 모르겠군.",
 		vote = "",
-		name = "간주 모노크롬",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -19485,7 +18998,6 @@ pg.ship_skin_words = {
 		battle = "그 사람을 위해 싸울 것이다...!",
 		login = "오늘도 평범하기 짝이 없는 하루군. 하지만, 네 곁에서의 행복한 시간이라면, 평범하다해도, 괜찮겠지...",
 		vote = "",
-		name = "무구한 하얀 여우",
 		detail = "가끔은 {namecode:74} 씨를 보러 가야한다. 너는 나와 다르게 그녀의 외로움을 달래줄 수 있을테니... 괜찮다, 날 보러 올 것도 알고 있으니.",
 		couple_encourage = {}
 	},
@@ -19519,7 +19031,6 @@ pg.ship_skin_words = {
 		battle = "엑!? 제, 제가 모두를 이끌어요!? ...웅.....모, 모두 힘내!",
 		login = "지휘관님 드디어 돌아오셨군요...토토, 지휘관님께 인사드려야지?",
 		vote = "",
-		name = "키요나미",
 		detail = "웅...{namecode:174}를 계, 계속 그렇게 빤히 쳐다보지 말아줄래요...?",
 		couple_encourage = {
 			{
@@ -19562,7 +19073,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "메, 메리크리스마스예요, 지휘관님! 후… 제대로 말했다.",
 		vote = "",
-		name = "크리스마스 빨간 모자?",
 		detail = "모두에게 줄 선물을 어떻게 포장해야 할까요… 음… 지휘관님, 같이 생각해주실 수 있나요?",
 		couple_encourage = {}
 	},
@@ -19596,7 +19106,6 @@ pg.ship_skin_words = {
 		battle = "실전…… 열심히 할게요…!",
 		login = "지휘관님, 니이즈키, 서류를 정리했습니다…… 쓸데없는 일은 하지 않은… 거죠?",
 		vote = "",
-		name = "니이즈키",
 		detail = "지, 지휘관님, 니이즈키는 저기… 실망시키거나… 하진 않았죠?",
 		couple_encourage = {}
 	},
@@ -19630,7 +19139,6 @@ pg.ship_skin_words = {
 		battle = "치, 치마가~~!!",
 		login = "지휘관님, 어, 어서 오세요!",
 		vote = "",
-		name = "하루츠키",
 		detail = "꺅!? 지, 지휘관님 언제부터 계셨어요!?",
 		couple_encourage = {}
 	},
@@ -19664,7 +19172,6 @@ pg.ship_skin_words = {
 		battle = "조심하세요. 요이즈키와 멀리 떨어지지 않도록.",
 		login = "지휘관님, 오셨군요. 문서는 전부 정리해두었습니다.",
 		vote = "",
-		name = "요이즈키",
 		detail = "혼자서 할 수 있는 일은 많지 않습니다. 그러니, 요이즈키가 도움이 될 수 있다면 사양 말고 말씀해주세요. 돕겠습니다.",
 		couple_encourage = {}
 	},
@@ -19698,7 +19205,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "이번에 엄청 많은 종목에 신청했답니다. 운동회는 이미 시작되었어요. 절대 뒤처질 수 없습니다.",
 		vote = "",
-		name = "운동회 준비",
 		detail = "{namecode:157}가 행운을 가져온다는 부적을 줬어요...... 진짜라면 정말 좋을텐데.",
 		couple_encourage = {}
 	},
@@ -19732,7 +19238,6 @@ pg.ship_skin_words = {
 		battle = "크흠! 전함……출진!",
 		login = "늦어! 네가 무슨 논두렁의 거북이야?",
 		vote = "",
-		name = "우라카제",
 		detail = "이 문장? 내가 고안해낸 거야. 이 겉옷도 말야. 귀엽다는 말 외에 다른 감상은 받지 않겠어.",
 		couple_encourage = {
 			{
@@ -19776,7 +19281,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "메리 크리스마스. 오늘은 관대하게 봐줄게.",
 		vote = "",
-		name = "성탄 대장군",
 		detail = "가문의 문장을 보면 이 옷도 내가 설계한 거란 거 알겠지? 그래서, 이 옷, 어때?",
 		couple_encourage = {}
 	},
@@ -19810,7 +19314,6 @@ pg.ship_skin_words = {
 		battle = "선봉은 나 이소카제가……우와아아! 기다려어~",
 		login = "대장! 출진 시간이라고!",
 		vote = "",
-		name = "이소카제",
 		detail = "천! 하! 포! 무!",
 		couple_encourage = {
 			{
@@ -19853,7 +19356,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "대장! 새해 복 많이 받아!",
 		vote = "",
-		name = "신년 대합전",
 		detail = "대장! 세뱃돈 받고 싶어!",
 		couple_encourage = {}
 	},
@@ -19887,7 +19389,6 @@ pg.ship_skin_words = {
 		battle = "이 바람…싸우기 딱 좋겠어!",
 		login = "지휘관, 아직 긴장 풀 때가 아니라고.",
 		vote = "",
-		name = "하마카제",
 		detail = "이번에도……동료를 지키겠어!",
 		couple_encourage = {}
 	},
@@ -19921,7 +19422,6 @@ pg.ship_skin_words = {
 		battle = "응응……이 거리와 이 전투력……이길 수 있어!",
 		login = "지휘관, 어제 문제는 풀었어?",
 		vote = "",
-		name = "모범적인 우등생",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -19955,7 +19455,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "하마카제·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -19989,7 +19488,6 @@ pg.ship_skin_words = {
 		battle = "제17구축대, 출격합니다! 에, 지금 잘못 말했나요…?",
 		login = "지휘관 씨가 타니카제를 필요로 할 때, 타니카제는 여기에 있을 거에요.",
 		vote = "",
-		name = "타니카제",
 		detail = "미드웨이? 우리들의 승리였었죠…… 또, 또 틀렸나요?!",
 		couple_encourage = {
 			{
@@ -20032,7 +19530,6 @@ pg.ship_skin_words = {
 		battle = "하마카제네는 혹시 거기 없나요?",
 		login = "지휘관 씨, 하마카제네는 어디에 있는지 아시나요? 모두 같이 해수욕장에 가자고 약속했는데……",
 		vote = "",
-		name = "길잃은 소녀와 미로의 나비",
 		detail = "지휘관 씨도 바닷가에 안 가시겠어요? 다 함께 모래성을 짓고 싶어요!",
 		couple_encourage = {}
 	},
@@ -20066,7 +19563,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "타니카제·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -20100,7 +19596,6 @@ pg.ship_skin_words = {
 		battle = "대공태세… 준비는 됐어？",
 		login = "어서 오세요, 지휘관님. 당분간 출항하고 싶지 않으시다면, 이쪽에서 쉬는 것은 어떠신가요?",
 		vote = "",
-		name = "아사시오",
 		detail = "계속 모항에 있고 싶습니다. …하지만 이대로는 아라시오를 찾을 수 없겠죠…",
 		couple_encourage = {}
 	},
@@ -20134,7 +19629,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "또 학교에 갈 시간이네요…지휘관님, 학교까지 같이 가실래요?",
 		vote = "",
-		name = "꽃이 흩날리는 계절의 전학생",
 		detail = "아라시오, 학교에는 없는 걸까요…?",
 		couple_encourage = {}
 	},
@@ -20168,7 +19662,6 @@ pg.ship_skin_words = {
 		battle = "다치지 않게 조심해레이~",
 		login = "지휘관, 오늘도 모두의 행복을 위해, 같이 노력하제이~",
 		vote = "",
-		name = "오오시오",
 		detail = "지휘관은 어떤 애가 맘에 드노? 함 얘기해보까?",
 		couple_encourage = {
 			{
@@ -20221,7 +19714,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "순록과 성탄 선물",
 		detail = "이 옷은 역시 조금 갑갑하데이......내년에는 새로운 옷으로 갈아입을끼다."
 	},
 	[301642] = {
@@ -20254,7 +19746,6 @@ pg.ship_skin_words = {
 		battle = "모두 따라온나~",
 		login = "지휘관도 한잔할래? 맛있다, 무라. 취해도 안잡아묵는다~",
 		vote = "",
-		name = "취기 오른 파티",
 		detail = "아사시오는 아직 안왔나… 못된 놈들한테 잡힌거 아니가… 지휘관, 내가 생각이 많은거가.",
 		couple_encourage = {}
 	},
@@ -20288,7 +19779,6 @@ pg.ship_skin_words = {
 		battle = "친구를 잃고 싶지 않아요!",
 		login = "아, 돌아오셨군요. 오늘 쓸 물건을 이미 준비해뒀답니다. 한번 보세요.",
 		vote = "",
-		name = "미치시오",
 		detail = "지휘관님, 무슨 일이 있으면 얼마든지 불러주세요. 저는 부탁받는 걸 제일 좋아한답니다.",
 		couple_encourage = {}
 	},
@@ -20322,7 +19812,6 @@ pg.ship_skin_words = {
 		battle = "다들, 되도록 다치지 않도록 해……",
 		login = "제 옷차림, 이상하지 않나요? 지휘관님을 맞이할 때는 역시 미소가 제일이죠!",
 		vote = "",
-		name = "아라시오",
 		detail = "날고 있는 비행기를 보면, 조금 침울해져요…… 뭐, 그래도 이제는 옛날 일이에요. 그보다 지금 중요한 건, 웃는 얼굴을 잃지 않는 것이겠죠, 지휘관님.",
 		couple_encourage = {
 			{
@@ -20375,7 +19864,6 @@ pg.ship_skin_words = {
 		battle = "하늘과 바다는… 모두 파랗네—",
 		login = "우라나미, 여기서 놀 건데… 괜찮지?",
 		vote = "",
-		name = "우라나미",
 		detail = "키누의 가면이 귀엽다고 생각해서 한번 빌려달라고 했는데… 거절당했어……",
 		couple_encourage = {
 			{
@@ -20434,7 +19922,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "{namecode:184}는 겨울이 좋아......{namecode:184}는 눈을 좋아해!",
 		vote = "",
-		name = "스노우 뱅가드",
 		detail = "지휘관, {namecode:184}랑... 같이 스키타자...쥬쥬도 같이...!",
 		couple_encourage = {}
 	},
@@ -20468,7 +19955,6 @@ pg.ship_skin_words = {
 		battle = "이제와서 숙고할 필요는 없네. 각자 맡은 바를 다 하면 싸움에서 이기는 법이지, 가자!",
 		login = "시간 엄수, 지휘관에게 있어 기본 중의 기본이지…… 참고로 그대가 지금까지 노력한 것에 비추어봐서… 조금은 칭찬 못해줄 것도 없겠지.",
 		vote = "",
-		name = "하타카제",
 		detail = "참고로, 내 초기 명칭은 '제9호 구축함'이었네. ……뭐, 이름 짓는 방식은 그대로 답습되지 않아서 다행이군.",
 		couple_encourage = {
 			{
@@ -20521,7 +20007,6 @@ pg.ship_skin_words = {
 		battle = "에헤헤~ 내가 지휘를 맡을 차례야!",
 		login = "지휘관도 참, 심각한 표정 짓지 마! 포지티브 포지티브!",
 		vote = "",
-		name = "마키나미",
 		detail = "수송 임무만 계속해왔다고? 저, 전투도 치렀는걸!",
 		couple_encourage = {}
 	},
@@ -20555,7 +20040,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "저기저기, 들어봐! 학원에 미스테리한 소문이 있대! 지휘관, 같이 소문의 진상을 찾으러 가자!",
 		vote = "",
-		name = "원기 RUN TIME!",
 		detail = "오늘 달리기 하다가 또 넘어졌어…… 하지만 {namecode:128}가 도와줘서 이제는 안 아파!",
 		couple_encourage = {}
 	},
@@ -20589,7 +20073,6 @@ pg.ship_skin_words = {
 		battle = "둥실아, 가자.",
 		login = "지휘관, 안녕. 둥실이도 지휘관에게 인사하자?",
 		vote = "",
-		name = "카스미",
 		detail = "{namecode:180}는 모두가 보지 못하는 걸 볼 수 있어. 둥실이가 그래. 둥실이가 외로워하는 걸 {namecode:180}가 보고 우리는 친구가 됐어.",
 		couple_encourage = {
 			{
@@ -20649,7 +20132,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 새해 복 많이 받아. 떡 먹을래?",
 		vote = "",
-		name = "포근포근 정월",
 		detail = "{namecode:20}가 준 떡 아직 많이 있어. 지휘관, 먹을래?",
 		couple_encourage = {}
 	},
@@ -20683,7 +20165,6 @@ pg.ship_skin_words = {
 		battle = "여러분, 잠수함의 습격을 조심하세요!",
 		login = "다녀오셨어요, 지휘관님. 계속 일을 하셔야 하나요? 곤란한 일이 있으시다면 {namecode:29}에게 말씀해주세요. 기꺼이 도와드리겠습니다.",
 		vote = "",
-		name = "하나즈키",
 		detail = "저는 꽃이 피는 봄이 좋아요. 하지만 1년 내내 봄이라면 다른 계절에 피는 꽃에게는 공평하지 않겠지요… 대자연에 사계절이 있는 것은 분명히 더 많은 꽃에게 기회를 주기 위함일 거에요.",
 		couple_encourage = {
 			{
@@ -20736,7 +20217,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 오늘은 쉬는 날이지만 {namecode:29}의 도움이 필요하시다면 말씀해주세요.",
 		vote = "",
-		name = "백주월, 한여름의 꽃",
 		detail = "여름은 참 신기해요… 분명히 익숙한 장소에서 수영복으로 갈아입기만 했을 뿐인데, 지휘관님과 함께 구름을 바라보기만 해도 신선한 느낌이 들어요……",
 		couple_encourage = {}
 	},
@@ -20770,7 +20250,6 @@ pg.ship_skin_words = {
 		battle = "작전의 기함 말씀인가요? 저에게 맡겨주세요!",
 		login = "다녀오셨어요, 지휘관님! 아무리 늦은 시간이라도 항상 여기서 기다릴게요. 왜냐하면… 지휘관님 곁에 있으면 행복한 기운이 느껴지거든요.",
 		vote = "",
-		name = "나가나미",
 		detail = "온 몸에서 포근한 기운을 내뿜는다고요? 에헤헤, 쑥쓰러운 평가네요. 에? 지휘관님도 그렇게 생각하신다니… 좋아요!",
 		couple_encourage = {
 			{
@@ -20825,7 +20304,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 오늘은 지휘관님과 모두의 행복을 위해서 힘낼게요! 만약 매일 이렇게 노력한다면 행복한 기운이 모항 전체에 가득하지 않을까요?",
 		vote = "",
-		name = "행복의 롱웨이브",
 		detail = "메이드는 모두에게 행복을 가져다주는 존재예요. 그러니까 저도 꼭 한번 해보고 싶었답니다. 하지만 조금 더 노력해야 할 것 같네요……",
 		couple_encourage = {}
 	},
@@ -20859,7 +20337,6 @@ pg.ship_skin_words = {
 		battle = "신형 병기 실전 테스트── 시작!",
 		login = "주인님만 있다면, 유바리는 더 이상 아무것도 두렵지 않아…!",
 		vote = "",
-		name = "유바리",
 		detail = "기관이든 병기든 유바리 게 가장 최신식이라구. (으쓱)",
 		couple_encourage = {}
 	},
@@ -20893,7 +20370,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "유바리·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -20927,7 +20403,6 @@ pg.ship_skin_words = {
 		battle = "이번 상대는 누굴까?",
 		login = "콕콕, 콕콕~ 지휘관, 멍하니 있는 거야?",
 		vote = "",
-		name = "나가라",
 		detail = "지휘관은 어떤 아이가 타입이야? ──에헤헤─ 그래?",
 		couple_encourage = {
 			{
@@ -20970,7 +20445,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 와서 차 마실래?",
 		vote = "",
-		name = "한가한 봄날",
 		detail = "지휘관은 설날에 하고 싶은 게 있어? 나는 방에 누워서 차도 마시고 책도 읽고 싶어. 느긋하게 말이지.",
 		couple_encourage = {}
 	},
@@ -21004,7 +20478,6 @@ pg.ship_skin_words = {
 		battle = "이, 이상한 게 갑자기 나오거나 하진 않겠지!?",
 		login = "우냐아아앗! 지휘관이었나… 정말, 놀래키지 말아줘…",
 		vote = "",
-		name = "이스즈",
 		detail = "아으읏… 다행이다… 오직 지휘관만이 나한테 다정하구나~…",
 		couple_encourage = {}
 	},
@@ -21038,7 +20511,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지지지지휘관! 트릭 오어…… 오, 오어…… 나한테는 무리야…",
 		vote = "",
-		name = "동화의 밤",
 		detail = "해, 핼러윈 귀신은 다 가짜지!? ……진짜가 있거나 하진 않지!?",
 		couple_encourage = {}
 	},
@@ -21072,7 +20544,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "이렇게 둘이 벽난로 옆에 있으니 가족 같아……",
 		vote = "",
-		name = "훈훈한 크리스마스 밤",
 		detail = "{namecode:46} 언니와 {namecode:47}가 한밤중에 산타클로스로 변장해서 아이들에게 선물을 나누어 줄 거래. 밤, 밤은 어둡고 무서우니까 나는 같이 안 갈 거야……",
 		couple_encourage = {}
 	},
@@ -21106,7 +20577,6 @@ pg.ship_skin_words = {
 		battle = "대공 지원은 나에게 맡겨줘.",
 		login = "와! …… 지휘관, 일부러 놀래킨 건 아니지?",
 		vote = "",
-		name = "이스즈·改",
 		detail = "지휘관, 항상 상냥하게 대해줘서 고마워.",
 		couple_encourage = {}
 	},
@@ -21140,7 +20610,6 @@ pg.ship_skin_words = {
 		battle = "마음껏 덤벼라!",
 		login = "오늘의 임무는 뭐지? 어서 지시해.",
 		vote = "",
-		name = "키누",
 		detail = "다른 곳은 마음대로 점검해도 좋지만, 웬만하면 귀면은 만지지 않는 것이 좋아.",
 		couple_encourage = {
 			{
@@ -21199,7 +20668,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "후… 아무리 새해라고 해도 단련을 게을리 할 수는 없지.",
 		vote = "",
-		name = "정월의 검귀",
 		detail = "{namecode:66}님의 그건 동아리 활동이라 할 수 없는데… 아니, 이유는 없다. 좋아하기 때문에 동아리 활동에 참여한 것뿐이니까.",
 		couple_encourage = {}
 	},
@@ -21233,7 +20701,6 @@ pg.ship_skin_words = {
 		battle = "귀신의 진정한 힘을 느껴봐라!",
 		login = "",
 		vote = "",
-		name = "키누·改",
 		detail = "귀신의 갑옷? 아, 목 주변에 있지. 전투를 위해서라면 실속 없는 것은 버려야해.",
 		couple_encourage = {}
 	},
@@ -21267,7 +20734,6 @@ pg.ship_skin_words = {
 		battle = "제1 수뢰 전대, 아부쿠마, 출격.",
 		login = "어서 와. 어뢰 먹을래? 아삭아삭, 사각사각이야.",
 		vote = "",
-		name = "아부쿠마",
 		detail = "지휘관, 너무 무리하진 마.",
 		couple_encourage = {}
 	},
@@ -21301,7 +20767,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "아부쿠마·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -21335,7 +20800,6 @@ pg.ship_skin_words = {
 		battle = "싸우고 싶지 않지만...지기도 싫어.",
 		login = "잘 돌아왔어. 응? 더 열정적으로? 그건 힘들겠어.",
 		vote = "",
-		name = "모가미",
 		detail = "말을 안 할 때가 좀 멋있는 것 같다고?...너만 그렇게 생각하는 걸거야.",
 		couple_encourage = {
 			{
@@ -21394,7 +20858,6 @@ pg.ship_skin_words = {
 		battle = "나에게 기대를 건 사람이 있으니...지고 싶지 않아.",
 		login = "왔어? 응? 지휘관 발소리야 이미 알고 있지.",
 		vote = "",
-		name = "모가미·改",
 		detail = "방금 말 안 할 때 멋있었다고?...됐어, 그냥 이렇게 살래.",
 		couple_encourage = {}
 	},
@@ -21428,7 +20891,6 @@ pg.ship_skin_words = {
 		battle = "다들 흩어지지 않도록 하세요!",
 		login = "돌아오신 것을 환영합니다. 오늘도 열심히 일을 해보죠. 지휘관님",
 		vote = "",
-		name = "미쿠마",
 		detail = "뿔이요? 그래서 사람들이 기억하기 쉬우면 나쁜 건 아닌 것 같아요.",
 		couple_encourage = {
 			{
@@ -21471,7 +20933,6 @@ pg.ship_skin_words = {
 		battle = "이 내가 상대해주지!",
 		login = "워밍업이 끝났다. 출격할까?",
 		vote = "",
-		name = "센다이",
 		detail = "붕대? 이건 상처 같은 게 아니라, 주먹에 감는 건데……내게 상처를 입힐 수 있는 녀석들은 그렇게 많이 없거든.",
 		couple_encourage = {
 			{
@@ -21522,7 +20983,6 @@ pg.ship_skin_words = {
 		battle = "미안! 여기가 바로 너희가 죽을 장소야!",
 		login = "돌아왔나? 집무에 집중해라. 출격할 때가 되면 불러줘.",
 		vote = "",
-		name = "센다이·改",
 		detail = "응? 아아, 지금 출격할 때의 포즈를 연습하고 있었다. 기합이란 것도 중요하다고.",
 		couple_encourage = {}
 	},
@@ -21556,7 +21016,6 @@ pg.ship_skin_words = {
 		battle = "전 함, 돌격하라!",
 		login = "지휘관님, 밖에서 농땡이를 부리시는 건 괜찮습니다만, 집무실에선 집무에 집중하여 주시기 바랍니다.",
 		vote = "",
-		name = "진츠",
 		detail = "다음 작전과 자원 배분……어머, 지휘관님 아니십니까. 편히 있다 가시지요.",
 		couple_encourage = {}
 	},
@@ -21590,7 +21049,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오늘 일이 끝나면 모래사장에 가서 한숨 돌려볼까요?",
 		vote = "",
-		name = "책사님은 휴가 중",
 		detail = "한숨돌린다면서 해변에서도 함대의 일을 생각하고 있다니… 저도 참 사서 고생이네요.",
 		couple_encourage = {}
 	},
@@ -21624,7 +21082,6 @@ pg.ship_skin_words = {
 		battle = "준비는 되었나? 돌격하라!",
 		login = "지휘관님, 잘 쉬셨는지요? 공무는 잠깐 제가 대신 봐 드려도 괜찮을지요?",
 		vote = "",
-		name = "진츠·改",
 		detail = "지휘관님? 뭔가 의논하고 싶으신 게 있으신 건 아닌지요? 아, 잡담이라도 괜찮답니다.",
 		couple_encourage = {}
 	},
@@ -21658,7 +21115,6 @@ pg.ship_skin_words = {
 		battle = "언니들, 나카의 활약을 기대해줘!",
 		login = "지휘관님, 어서오세요! 오늘도 힘내겠습니다!",
 		vote = "",
-		name = "나카",
 		detail = "지휘관님, 같이 스터디라도 할까요?",
 		couple_encourage = {
 			{
@@ -21702,7 +21158,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "성난 파도의 여름!",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -21736,7 +21191,6 @@ pg.ship_skin_words = {
 		battle = "같이 힘내자고요.",
 		login = "지휘관님, 아직은 집무 시간이 아니랍니다. 시간을 착각하신 건 아닌지?",
 		vote = "",
-		name = "아가노",
 		detail = "어머, 지휘관님 아니세요. 저, 과자를 만들고 있었답니다. 괜찮으시면 기미를…..아니, 시식을 부탁드려도 될까요?",
 		couple_encourage = {
 			{
@@ -21779,7 +21233,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어머머, 지휘관님. 저를 위해서 선물을 옮겨주러 오셨군요. 감사합니다.",
 		vote = "",
-		name = "성야의 장난",
 		detail = "지휘관님, 지금 포즈가 좋아요? 아니면 팔로 가슴을 감싼 쪽이 좋아요?",
 		couple_encourage = {}
 	},
@@ -21813,7 +21266,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "“그, 혹시 혼자야? 그럼, 나랑 얘기 좀 할 수 있어?”",
 		vote = "",
-		name = "데이트 게임?",
 		detail = "공원 벤치에 앉아서 크레페를 먹고 있는, 좀 외로워 보이는 귀여운 여자아이는 주동적으로 출격하지 않아요. 지휘관님처럼 겁쟁이인가봐요.",
 		couple_encourage = {}
 	},
@@ -21847,7 +21299,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "고백의 모르포나비",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -21881,7 +21332,6 @@ pg.ship_skin_words = {
 		battle = "작전 계획을 다시 한 번 확인해 보죠.",
 		login = "어머나, 일찍 오셨네요. 그렇다면 오늘의 계획을 먼저 생각해보는 건 어떨까요?",
 		vote = "",
-		name = "노시로",
 		detail = "어떤 상황이라도 냉정하게 생각하면 문제를 해결할 수 있다, 이게 제 철칙이랍니다.",
 		couple_encourage = {
 			{
@@ -21933,7 +21383,6 @@ pg.ship_skin_words = {
 		battle = "자, 화려한 불꽃을 쏘아 올려보죠!",
 		login = "잠시 같이 걷지 않겠어요?",
 		vote = "",
-		name = "축제의 비경?",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -21967,7 +21416,6 @@ pg.ship_skin_words = {
 		battle = "전투는 확실히 잘 해내 보일 테니까!",
 		login = "지휘관… 문을 열 땐 조심해줘…",
 		vote = "",
-		name = "후루타카",
 		detail = "좀 지루하네…",
 		couple_encourage = {}
 	},
@@ -22001,7 +21449,6 @@ pg.ship_skin_words = {
 		battle = "지금의 나는 전보다 강해졌으니까 말야!",
 		login = "지휘관, 잘 쉬었어? 나? 으음… 하아…… 잘 잤어.",
 		vote = "",
-		name = "후루타카·改",
 		detail = "",
 		couple_encourage = {
 			{
@@ -22044,7 +21491,6 @@ pg.ship_skin_words = {
 		battle = "저, 이래 봬도 대표적인 중순양함이라구요…!",
 		login = "마침 잘됐네요. 제 쪽의 서류 정리는 끝났습니다. 이쪽에 있는 건, 전부 처리하실 수 있으시겠죠? ",
 		vote = "",
-		name = "카코",
 		detail = "하실 말씀이 있다면, 확실히 말씀해주시는 게 어때요?",
 		couple_encourage = {}
 	},
@@ -22078,7 +21524,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "예정 시간보다 5분 늦었습니다. 지휘관.",
 		vote = "",
-		name = "카코·改",
 		detail = "무슨 일이십니까?  설마 설교 당하고 싶다든지, 그런 건 아니겠죠.",
 		couple_encourage = {}
 	},
@@ -22112,7 +21557,6 @@ pg.ship_skin_words = {
 		battle = "이 아오바의 시선에서 도망치기엔 1만 년은 이르다는 거야!",
 		login = "헤헤─, 지휘관, 보여지고 있다구~",
 		vote = "",
-		name = "아오바",
 		detail = "왜 그래? 정보는 공짜가 아니라구~",
 		couple_encourage = {
 			{
@@ -22181,7 +21625,6 @@ pg.ship_skin_words = {
 		battle = "모두, 방비에 주의하세요! 혼자 따로 날뛰지 않도록 하세요!",
 		login = "다녀오셨어요, 지휘관. 오늘의 영양은 제대로 섭취하셨나요? 부족하다면 제가 뭔가 만들어 드릴까요?",
 		vote = "",
-		name = "키누가사",
 		detail = "건강이 제일이에요!",
 		couple_encourage = {
 			{
@@ -22224,7 +21667,6 @@ pg.ship_skin_words = {
 		battle = "훈련의 성과를 보여줄 때다! 포격전, 개시!",
 		login = "갓 구운 수제 팬케이크다. 지휘관, 괜찮다면, 부디 먹어보도록.",
 		vote = "",
-		name = "묘코",
 		detail = "지휘관, 충분한 정보는 승리의 주춧돌이 된다.",
 		couple_encourage = {}
 	},
@@ -22258,7 +21700,6 @@ pg.ship_skin_words = {
 		battle = "흥! 눈은 장식으로 달고 다니는 멍청이들!",
 		login = "따, 딱히 훈련하고 있는 게 아니라구? 여기서 느긋하게, 저쪽에서 땀을 흘리고 있는 아이들을 보고 그저 웃어줬을 뿐이야!",
 		vote = "",
-		name = "나치",
 		detail = "뭐? 내 꼬봉이 되고 싶다고?",
 		couple_encourage = {}
 	},
@@ -22292,7 +21733,6 @@ pg.ship_skin_words = {
 		battle = "전함 전진! 무운을!",
 		login = "드디어 돌아오셨군요 지휘관 나리. 저기…잠깐 시간이 괜찮으시다면……연습 상대를 부탁드려도 될까요?",
 		vote = "",
-		name = "아시가라",
 		detail = "아무리 보셔도 제가 강해지거나 하진 않으니까…지휘관 나리, 그…그러지 마시고 출격을 더 시켜주세요!",
 		couple_encourage = {
 			{
@@ -22335,7 +21775,6 @@ pg.ship_skin_words = {
 		battle = "전투력은 옷에 영향을 받지 않을 거예요, 아마도… 어쨌든 모두 함께 가요!",
 		login = "검술의 연습인가요? 이런 차림새지만 지휘관 나리를 이길 수 있다는 자신은 있답니다.",
 		vote = "",
-		name = "막간 휴식",
 		detail = "너무 무리하지 말라고… {namecode:63} 언니도 이야기 했었죠. 지휘관 나리도 너무 무리하고 계신 것은 아닌가요?",
 		couple_encourage = {}
 	},
@@ -22369,7 +21808,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "시원한 바닷물이 닿으니 기분이 좋아지네요.",
 		vote = "",
-		name = "찬란한 여름",
 		detail = "사실은 쉴 때 {namecode:63} 언니의… 아니, 음악을 들으려고 이어폰을 가져왔어요. 하지만 파도 소리를 듣는게 더 기분이 좋아지네요.",
 		couple_encourage = {}
 	},
@@ -22403,7 +21841,6 @@ pg.ship_skin_words = {
 		battle = "전투는 소인에게 맡겨주게! 「최강」의 이름을 절대 더럽히지 않겠네!",
 		login = "타카오, 여기서 주군의 명을 기다리고 있다. 지시는?",
 		vote = "",
-		name = "타카오",
 		detail = "「티끌이 모여 태산이 되고, 실도랑이 모여 대동강이 된다. 」 ──평소 단련을 꾸준히 정진하는 자가 승리를 쟁취할 수 있다. 소인은 그리 믿고 있네.",
 		couple_encourage = {}
 	},
@@ -22437,7 +21874,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "소인이라고 해서 세상물정을 아예 모르지는 않네. 이런 불볕더위에는 적당한 휴식이 필요하겠지. 허나…훈련을 소홀히 해서는 아니 되네!",
 		vote = "",
-		name = "모래사장의 랩소디",
 		detail = "모래성 짓기로는 새러토가 공에게 졌네만, 비치발리볼로는 꼭 이기도록 하겠네!",
 		couple_encourage = {}
 	},
@@ -22471,7 +21907,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관 나리, 잘 돌아왔네. 조금 어질러놓아 미안하네. 지금 당장 정리하지. ",
 		vote = "",
-		name = "봄의 수련",
 		detail = "이런! 먹물이 아직……지휘관 나리! 화선지를 밟으면 아니 되네!",
 		couple_encourage = {}
 	},
@@ -22505,7 +21940,6 @@ pg.ship_skin_words = {
 		battle = "학원 최강'의 힘, 보여주도록 하지!",
 		login = "!? 지, 지휘관 나리? 언제부터 거기에… 미, 미안하네! 아직 준비가……!",
 		vote = "",
-		name = "학교 로맨티카",
 		detail = "학원 생활도 모항의 임무 중 하나. 이렇게 학원에 다니는 것은 분명, 나날이 노력하며 연구하는 것과 통하는 데가 있겠지.",
 		couple_encourage = {}
 	},
@@ -22539,7 +21973,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "한 자세로 오래 있는 것도 힘든 일이군. 하지만 이런 훈련을 통해 몸이 좀 더 유연해질 수 있으면 좋겠어…",
 		vote = "",
-		name = "집중 최고조",
 		detail = "어떤 임무라도 접수하기만 한다면, 반드시 전력을 다해 완성해내겠네.. 하, 하지만 지휘관 나리, 소인을 그리 빤히 쳐다보지 말아줄 수 있겠나, 조금… 부끄럽다네……",
 		couple_encourage = {}
 	},
@@ -22573,7 +22006,6 @@ pg.ship_skin_words = {
 		battle = "지금의 나를 너희가 막을 수 있을 것 같으냐!",
 		login = "지휘관 나리, 소인이 직접 만든 요리를 들어보게.",
 		vote = "",
-		name = "신호의 풍화",
 		detail = "이렇게 신부 의상으로 갈아입었지만, 실은 여전히 칼을 차고 있다네. 그대가 볼 수 없는 데다 숨겨놓았지.",
 		couple_encourage = {
 			{
@@ -22625,7 +22057,6 @@ pg.ship_skin_words = {
 		battle = "말이 안 통하는 애한텐 벌을 줘야지~",
 		login = "…어서 와. 오늘은 뭘 하고 싶니?",
 		vote = "",
-		name = "아타고",
 		detail = "여자의 몸무게는 쉽게 알아낼 수 있는 게 아니란다? 우후후훗… ",
 		couple_encourage = {}
 	},
@@ -22659,7 +22090,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "후우…여름은 뜨겁네…어머, 지휘관, 왜 빨개진 거야? 혹시 열사병이라도 걸린 거야?",
 		vote = "",
-		name = "한여름의 행진곡",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -22693,7 +22123,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 추워? 누나가 따뜻하게 해줄까?",
 		vote = "",
-		name = "겨울의 풍물시",
 		detail = "이 아이는 만져도 괜찮아. 왠지 지휘관을 잘 따르는 것 같네. 우후후.",
 		couple_encourage = {}
 	},
@@ -22727,7 +22156,6 @@ pg.ship_skin_words = {
 		battle = "우후훗, 말을 안 듣는 나쁜 아이에겐 벌을 줄 테니까 말야.",
 		login = "오늘 지휘관 도시락은 뭐로 할까~?",
 		vote = "",
-		name = "학교 트로이메라이",
 		detail = "교복을 입었으니 호칭도 바꿔야겠지…? 지휘관, 날 '선배'라고 불러도 돼. 우후훗.",
 		couple_encourage = {}
 	},
@@ -22761,7 +22189,6 @@ pg.ship_skin_words = {
 		battle = "지휘관, 힘내~",
 		login = "지휘관, 오늘 일도 힘내~ 츄~ (손 키스)",
 		vote = "",
-		name = "최절정 속도",
 		detail = "아무리 스타일이라고는 하지만 이 옷, 노출이 꽤 심하네…… 후후, 솔직한 지휘관도 누나는 싫지 않다구?",
 		couple_encourage = {}
 	},
@@ -22795,7 +22222,6 @@ pg.ship_skin_words = {
 		battle = "지휘관을 방해하는 건 누나가 다 해치워줄까나. 우후후.",
 		login = "지휘관, 휴식한 지 그렇게 오래되진 않았잖아. 그사이 누나가 보고 싶어진 거야?",
 		vote = "",
-		name = "새하얀 약속",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -22829,7 +22255,6 @@ pg.ship_skin_words = {
 		battle = "전부 베면 되는 거지……?",
 		login = "이런 날 오늘도 곁에 둘 셈인가? …정말이지, 이상한 녀석.",
 		vote = "",
-		name = "마야",
 		detail = "그렇게 날 쳐다보지 말아 주겠어…? 무심코 베어버린다고.",
 		couple_encourage = {}
 	},
@@ -22863,7 +22288,6 @@ pg.ship_skin_words = {
 		battle = "전 함선 상황 확인…… 포격전 준비!",
 		login = "지휘관, 어서 오세요. 서류는 초카이가 정리해두었습니다. 그리고… 여기 쿠키는 어떠신지요?",
 		vote = "",
-		name = "초카이",
 		detail = "에, 따분하지 않냐고요…? 괜찮습니다. 아무것도 하지 않아도, 지휘관님과 함께라면 초카이는 즐겁답니다!",
 		couple_encourage = {
 			{
@@ -22914,7 +22338,6 @@ pg.ship_skin_words = {
 		battle = "이번엔... 절대 피하지 않을거에요!",
 		login = "환영합니다. 지휘관님. 오늘은 어떤 업무부터 시작할까요?",
 		vote = "",
-		name = "스즈야",
 		detail = "지휘관님? 아, 다음 수업 내용을 예습 중이에요. 저는 신경쓰지 말고 계속 업무 보시면 돼요.",
 		couple_encourage = {
 			{
@@ -22967,7 +22390,6 @@ pg.ship_skin_words = {
 		battle = "전 함, 전투 배치!",
 		login = "휴식은 이제 충분한가요? 함대 지휘권은 그쪽에게 돌려드리죠.",
 		vote = "",
-		name = "콘고",
 		detail = "…'전쟁'에서 찾을 수 있는 유일한 가치는 그 뒤에 있을 '평화'랍니다. 부디 잊지 마시길 바랍니다. ",
 		couple_encourage = {
 			{
@@ -23036,7 +22458,6 @@ pg.ship_skin_words = {
 		battle = "정말 눈치 없는 녀석들이군요!",
 		login = "지휘관님, 잘 쉬셨나요? 오늘 하루는 아직 많이 남았어요.",
 		vote = "",
-		name = "화조풍월",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -23070,7 +22491,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "이미 충분히 쉬셨죠? 오늘도 평소처럼 우아하게 일을 시작하죠!",
 		vote = "",
-		name = "Talent Hospital",
 		detail = "이 작업대는 아카시 그녀들이 심혈을 기울인 결정체에요. 지휘관님도 기회가 생기면 이용해보세요. 물론 사용할 일이 없는 것이 당연히 가장 좋은거죠.후후후~ ",
 		couple_encourage = {}
 	},
@@ -23104,7 +22524,6 @@ pg.ship_skin_words = {
 		battle = "후후, 의전의 여흥으로 상대 해 드리도록 할까요",
 		login = "전투 후의 연회야 말로 제일 마음이 편안해지죠……그건 그렇고 지휘관님, 저…이 다음 일정은 비어있답니다…?",
 		vote = "",
-		name = "히에이",
 		detail = "후후, 말차와 홍차…어느 쪽이 더 좋으세요?",
 		couple_encourage = {}
 	},
@@ -23138,7 +22557,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "더 좋은 컨디션을 위해서는 적당한 휴식도 필요해요. 지휘관님, 베개를 준비했답니다. 오늘 밤은…충분한 휴식을 취하도록 하세요.",
 		vote = "",
-		name = "은밀한 밀월 유람",
 		detail = "지휘관님은 어떤 베개를 좋아하시나요? 부드러운 거? 딱딱한 거? 아니면…무릎베개를 원하시나요? 후후후.",
 		couple_encourage = {}
 	},
@@ -23172,7 +22590,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "매화의 향기",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -23206,7 +22623,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "하얀 모래톱의 경치",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -23240,7 +22656,6 @@ pg.ship_skin_words = {
 		battle = "자, 시작한다!",
 		login = "날씨 좋네. \"모처럼 화창한 날인데 출항할 걸\" 같은 소리는 안 나오게 하는 편이 좋아. 지휘관도 그렇게 생각하지?",
 		vote = "",
-		name = "하루나",
 		detail = "나도 키리시마처럼 인기인이 되고 싶…… 달까……",
 		couple_encourage = {
 			{
@@ -23308,7 +22723,6 @@ pg.ship_skin_words = {
 		battle = "큭… 시간이… 빨리 적을 해치울게!",
 		login = "",
 		vote = "",
-		name = "수업 전 쉬는 시간",
 		detail = "키리시마랑 같이 이런 차림으로 돌아다니면 괜히 더 시선을 끄는 듯해…… 하아… 인기인도 큰일이네……",
 		couple_encourage = {}
 	},
@@ -23342,7 +22756,6 @@ pg.ship_skin_words = {
 		battle = "이 주포로 끝내겠다!",
 		login = "지휘관, 이 몸이 활약해 줄 일이 있는가?",
 		vote = "",
-		name = "키리시마",
 		detail = "콘고로부터 홍차를 받았다네. 같이 마셔보지 않겠나?",
 		couple_encourage = {
 			{
@@ -23409,7 +22822,6 @@ pg.ship_skin_words = {
 		battle = "방과후의 포격 타임이란 거군!",
 		login = "지휘관, 넥타이가 삐뚤어졌어. 내가 제대로 해줄까?",
 		vote = "",
-		name = "방과후의 포격 타임",
 		detail = "지휘관, 방과후에 함께 꽃구경이라도 어떤가?",
 		couple_encourage = {}
 	},
@@ -23443,7 +22855,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "윽, 지휘관. 딱 맞춰서 왔네…",
 		vote = "",
-		name = "여름의 대담한 시도",
 		detail = "응… 이건 사실 잡지에서 추천한 스타일이야. 콩고 언니 말로는 유니온 스타일이라고…",
 		couple_encourage = {}
 	},
@@ -23477,7 +22888,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오랜만의 기념일, 와서 전투 성과를 맘껏 거두어봐!",
 		vote = "",
-		name = "제멋대로 반짝이는 별",
 		detail = "총이 검보다 더 강해! ...하지만, 주포 앞에선 전부 별거 아니지~",
 		couple_encourage = {}
 	},
@@ -23511,7 +22921,6 @@ pg.ship_skin_words = {
 		battle = "그럼, 계획대로 가겠습니다.",
 		login = "지휘관님, 오늘의 작전 요강을 책상에 올려놓았습니다. 확인 부탁드립니다.",
 		vote = "",
-		name = "아마기",
 		detail = "아무도 상처 입히고 싶지 않다는 건가요……? 지휘관님께서는 무리한 주문을 하시는군요… 후후, 방법은 찾아보겠습니다.",
 		couple_encourage = {
 			{
@@ -23562,7 +22971,6 @@ pg.ship_skin_words = {
 		battle = "흥, 히에이는 지지 않아요!",
 		login = "평안하신……, 아윽?! 손잡이에 부딪혔어요……!",
 		vote = "",
-		name = "꼬마 히에이",
 		detail = "어째서 히에이를 뚫어져라 쳐다보는 거죠……? 검이 너무 무겁지 않냐고요? 히에이는 혼자서도 괜찮아요! 걱정할 필요 없어요!",
 		couple_encourage = {
 			{
@@ -23629,7 +23037,6 @@ pg.ship_skin_words = {
 		battle = "가로막는 자에게 용서는 없습니다!",
 		login = "지휘관님, 어서 오세요. 한 번 점쳐보는 건 어떠신지요?",
 		vote = "",
-		name = "후소",
 		detail = "지휘관님, 같이 차라도 어떠시온지요?",
 		couple_encourage = {}
 	},
@@ -23663,7 +23070,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님의 최근 운세는 대길이네요. 분명 신께서도 기뻐하고 계셔서 그럴 거에요.",
 		vote = "",
-		name = "봄의 축복",
 		detail = "지휘관님, 함께 산책이라도 어떠신지요?",
 		couple_encourage = {}
 	},
@@ -23697,7 +23103,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님. 후소가 과자를 만들었습니다. 드셔보시지 않겠어요?",
 		vote = "",
-		name = "폭신폭신 내조?",
 		detail = "지휘관님과 함께 있으면, 악운도 어딘가로 날아가 버린 것 같은 기분이 듭니다. …지휘관님, 감사합니다.",
 		couple_encourage = {}
 	},
@@ -23731,7 +23136,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 어서 오세요. 점을 쳐봤습니다만, '오늘은 좋은 일이 있을 것'이라고 하네요.",
 		vote = "",
-		name = "후소·改",
 		detail = "시험해보고 싶은 건 잔뜩 있네요. 예를 들면 야마시로처럼 뿅뿅하고…… 에, '너무 자극적'…이라고요?",
 		couple_encourage = {}
 	},
@@ -23765,7 +23169,6 @@ pg.ship_skin_words = {
 		battle = "모두 돌격~! 흐에엣, 모르고 주포를 쏴버렸어요!",
 		login = "나리, 오늘은 무얼 하시겠어요?",
 		vote = "",
-		name = "야마시로",
 		detail = "(킁킁) 나리한테서 좋은 냄새가 나요~",
 		couple_encourage = {}
 	},
@@ -23799,7 +23202,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "나리, 비치발리볼 연습, 도와주실 수 있나요? 시그넷에게 만큼은 지고 싶지 않아요…!",
 		vote = "",
-		name = "여름의 대작전?",
 		detail = "나리, 이 코이노보리는 행운을 가져다준다고 해서 가져왔어요!",
 		couple_encourage = {}
 	},
@@ -23833,7 +23235,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "성야의 대작전(?)",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -23867,7 +23268,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "흐흥~흥~♪ 나리와 같이 연회…… 으와와!? 나리 언제부터 거기 계셨던 거예요…?",
 		vote = "",
-		name = "연회복을 입은 검은고양이",
 		detail = "연회란 거 엄청 재밌네요! 다음에 사쿠라 엠파이어에서 연회를 개최한다면, 다른 진영 사람들도 초대하고 싶어요!",
 		couple_encourage = {}
 	},
@@ -23902,7 +23302,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "나리, 도시락 챙기세요~ 제가 직접 만든거랍니다!",
 		vote = "",
-		name = "모퉁이 공세！",
 		detail = "나리 나리, 다른 진영의 동료들이 저에게 재미난 것들을 많이 가르쳐 주었어요. 그래서 저도 답례로 사쿠라 엠파이어의 전통 놀이들을 알려줬어요~"
 	},
 	[305028] = {
@@ -23935,7 +23334,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "나리, 어서 오세… 우와아아아! 에, 에헤헤헤… 나리가 잡아주신 게 이걸로 몇 번째인지 모르겠어요…",
 		vote = "",
-		name = "백무구 대작전?!",
 		detail = "나리, 카구라의 춤 보실래요? 후소 언니한테서 배운, 악운을 쫓는 카구라의 춤이에요!",
 		couple_encourage = {}
 	},
@@ -23969,7 +23367,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "야마시로·改",
 		detail = "나리? 야마시로, 도움이 되고 있나요?",
 		couple_encourage = {}
 	},
@@ -24003,7 +23400,6 @@ pg.ship_skin_words = {
 		battle = "이제야 내가 날뛸 차례구만!",
 		login = "지휘관, 바다로 나가 펑펑 터뜨려보자고!",
 		vote = "",
-		name = "이세",
 		detail = "지휘관, 탄막을 뿌리는 법을 알려줄까?",
 		couple_encourage = {}
 	},
@@ -24037,7 +23433,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 계속 모항에 틀어박혀 있으면 주포가 녹슬어 버린다고.",
 		vote = "",
-		name = "이세·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -24071,7 +23466,6 @@ pg.ship_skin_words = {
 		battle = "이름을 대라! 이름없는 녀석에게 내 칼날은 어울리지 않는다!",
 		login = "하아……훈련은 날이 밝을 때 부터 밤까지 하는 거 보다, 밤부터 날 밝을 때까지 하는 게 더 편하지.",
 		vote = "",
-		name = "휴가",
 		detail = "지휘관, 나와 격투기라도 겨뤄보겠나?",
 		couple_encourage = {}
 	},
@@ -24105,7 +23499,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 오늘 훈련도 부탁할게!",
 		vote = "",
-		name = "휴가·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -24139,7 +23532,6 @@ pg.ship_skin_words = {
 		battle = "다시… 슬픈 전쟁을… ",
 		login = "어서 오레… 혀, 혀를 깨물었을 뿐이니라…",
 		vote = "",
-		name = "나가토",
 		detail = "모두의 얼굴에 미소가 넘치는구나…… 이 몸은 이 장소가 마음에 들었다!",
 		couple_encourage = {
 			{
@@ -24192,7 +23584,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "후암...... 지휘관, 그대 왔군. 이 몸은 더 잘 것이다. 그럼......",
 		vote = "",
-		name = "여우의 휴식",
 		detail = "지휘관, 그대는 쉴 때 무엇을 하는가, 이 몸에게 말해보거라",
 		couple_encourage = {}
 	},
@@ -24226,7 +23617,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오늘 무엇을 할 것인가? 얼마든지 이 몸에게 지시해도 괜찮다.",
 		vote = "",
-		name = "여우의 빛나는 후리소데",
 		detail = "그, 그렇게 급히 갈 필요는 없지 않나...? 여기는 넓기도 하고, 조용하기도 하고, 따뜻하다... 이 아이의 몸에 파묻혀서 부비적하고 싶다면, 그것도 괜찮다!",
 		couple_encourage = {}
 	},
@@ -24260,7 +23650,6 @@ pg.ship_skin_words = {
 		battle = "우리의 미래를 위하여!",
 		login = "이 몸을 이렇게나 기다리게 할 용기가 있는 것은 그대 정도라네.",
 		vote = "",
-		name = "여우의 백장속",
 		detail = "여기라면 이 몸도 진심으로 웃을 수 있지…… 이 몸은 이 장소가 마음에 드는구나!",
 		couple_encourage = {}
 	},
@@ -24294,7 +23683,6 @@ pg.ship_skin_words = {
 		battle = "연합함대! 어… 출격!",
 		login = "아, 지휘관! 저기, 없는 동안에 모르는 게 있었어! 왜……(무츠가 질문 폭격을 해왔다.)",
 		vote = "",
-		name = "무츠",
 		detail = "지휘관, 3번 포탑의 검사, 도와줘!",
 		couple_encourage = {
 			{
@@ -24337,7 +23725,6 @@ pg.ship_skin_words = {
 		battle = "풍! 림! 화! 산! 출격!",
 		login = "지휘관, 나랑 전쟁 게임하자!",
 		vote = "",
-		name = "전국 풍운의 소녀",
 		detail = "지휘관, 전국 시대도 그렇고, 지금도 그렇고, 왜 모두들 싸우는거야?",
 		couple_encourage = {}
 	},
@@ -24371,7 +23758,6 @@ pg.ship_skin_words = {
 		battle = "강적인가… 즐겨주도록 하지! 실망시키지는 말라고!",
 		login = "지휘관, 집무 시작 전에 어깨라도 좀 풀어둬라.",
 		vote = "",
-		name = "카가",
 		detail = "보는 것만으론 강해지지 않아. 지휘관, 빨리 날 출격시켜라.",
 		couple_encourage = {
 			{
@@ -24414,7 +23800,6 @@ pg.ship_skin_words = {
 		battle = "어라? 나보고 날뛰라는 건가?",
 		login = "뭔가 재미있는 일을 찾아줘, 지휘관.",
 		vote = "",
-		name = "토사",
 		detail = "나는 ‘언제나 그래왔다’라는 말을 입에 달고 사는 사람을 제일 싫어한다. 그들의 어리석음 때문에 지금까지의 잘못을 되풀이 하지 않았는가?",
 		couple_encourage = {
 			{
@@ -24465,7 +23850,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "후… 자유롭게 노는 것도 좋지만, 이런 모습이라면 평소보다 다른 사람들의 시선을 더 신경써야겠군…",
 		vote = "",
-		name = "나루코 코나츠",
 		detail = "{namecode:161}, 몸이 좋지 않다면 수영은 그만두는 편이…… 함선인데도 불구하고, 아쉽군.",
 		couple_encourage = {}
 	},
@@ -24499,7 +23883,6 @@ pg.ship_skin_words = {
 		battle = "사쿠라 엠파이어의 흥망! 이 전투에 달렸으니!",
 		login = "인류에게 바다를 되찾아 줄 때까지, 용왕매진을 멈춰서는 아니 된다!",
 		vote = "",
-		name = "미카사",
 		detail = "기함이란 최전선에서 지휘를 맡는 법. 당연하지 않은가.",
 		couple_encourage = {}
 	},
@@ -24533,7 +23916,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "흠, 기분 좋은 아침이군, 조식은 들었는가?",
 		vote = "",
-		name = "벚꽃 도시의 바람",
 		detail = "후우~ 기분 좋은 바람이군, 이게 바로 '여행 떠나기 딱 좋은 날씨' 라는 거겠지. ",
 		couple_encourage = {}
 	},
@@ -24567,7 +23949,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "음, 쾌청한 날씨에 따스한 바람…… '벚꽃놀이 가기 좋은 날'이란 이런 날을 두고 하는 말이지.",
 		vote = "",
-		name = "벚꽃놀이 가기 좋은 날",
 		detail = "어떤 시대라도, 만개한 벚꽃은 변함없이 아름답구나.",
 		couple_encourage = {}
 	},
@@ -24601,7 +23982,6 @@ pg.ship_skin_words = {
 		battle = "{namecode:175} 함대… 전, 전력을 다하세요…!",
 		login = "오늘 업무도 힘내주세요. 저의 도움이 필요하다면 부담 없이 말씀해 주시길.",
 		vote = "",
-		name = "스루가",
 		detail = "특별계획함의 모두는 뿔 속성이 강하… 아니, 개성이 독특하네요. 별로 부럽지는 않습니다.",
 		couple_encourage = {
 			{
@@ -24668,7 +24048,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "좋은 아침입니다, 지휘관님. 오늘은 한가하게 보내는 것 어떠신가요?",
 		vote = "",
-		name = "백화경운",
 		detail = "술을 잘 마시지는 않지만, 모두와 어울리기 위해서는 어느 정도 마시는 편입니다. 지휘관님은 어떠신가요? 소프트 드링크라면 금방 준비해드릴 수 있습니다만?",
 		couple_encourage = {}
 	},
@@ -24702,7 +24081,6 @@ pg.ship_skin_words = {
 		battle = "비상하는 날개의 이름으로…… 발함하라!",
 		login = "후후…… 지휘관, 오늘도 잘 부탁한다.",
 		vote = "",
-		name = "히요",
 		detail = "같이 밥이라도 먹자고?",
 		couple_encourage = {}
 	},
@@ -24736,7 +24114,6 @@ pg.ship_skin_words = {
 		battle = "나와 지휘관을 방해하는 녀석은…… 뒈져버려!",
 		login = "지휘관? 준요는 '언제나' 당신과 함께라구.",
 		vote = "",
-		name = "준요",
 		detail = "내 운명은…… 지휘관과 얽혀서 떨어지지 않는 거라구? 우후후.",
 		couple_encourage = {}
 	},
@@ -24770,7 +24147,6 @@ pg.ship_skin_words = {
 		battle = "실전은 서툴지만… 지휘관님에게 수치를 당하게 할 순 없어요!",
 		login = "지휘관님? 식사는 어떠신가요? 만약 아직이라면 제가 뭔가 드실만한 거라도 준비해올까요? 배가 고픈 상태에서는 일에도 집중할 수가 없답니다~",
 		vote = "",
-		name = "호쇼",
 		detail = "지휘관님은 가끔 어린아이 같아요… 자, 이리 오세요.",
 		couple_encourage = {}
 	},
@@ -24804,7 +24180,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "초저녁의 꿈",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -24838,7 +24213,6 @@ pg.ship_skin_words = {
 		battle = "자 모두 가제이~ 누가 주인공인지, 보여주는 기다!",
 		login = "목숨을 걸어서라도, 내가 지휘관을 지킬 끼다!",
 		vote = "",
-		name = "쇼호",
 		detail = "하아, 내는 크면 미인이 될 끼란 말을, 자주 듣는다 아이가~",
 		couple_encourage = {}
 	},
@@ -24872,7 +24246,6 @@ pg.ship_skin_words = {
 		battle = "호박 함대, 출격!",
 		login = "",
 		vote = "",
-		name = "마녀의 야간순찰",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -24906,7 +24279,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "쇼호·改",
 		detail = "내 그런 눈으로 안보면 안되나?…… 내는 아직 성장할 수 있다……분명 그럴끼다……",
 		couple_encourage = {}
 	},
@@ -24940,7 +24312,6 @@ pg.ship_skin_words = {
 		battle = "자, 네놈들의 죄는 네놈들이 알렷다!",
 		login = "휴일 말입니까? 주군, 제 근무표는 월월화수목금금입니다!",
 		vote = "",
-		name = "류조",
 		detail = "주군, 싸우지 않으면 살아남을 수 없다고요!",
 		couple_encourage = {}
 	},
@@ -24974,7 +24345,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "후아…… 우아아, 주군! 잠시만 기다려주세요. 금방 치우겠습니다!",
 		vote = "",
-		name = "건어물 무사?",
 		detail = "주군, 월화수목금금금에는 이미 익숙해졌지만 이러는 것도…… 나쁘지 않습니다.",
 		couple_encourage = {}
 	},
@@ -25008,7 +24378,6 @@ pg.ship_skin_words = {
 		battle = "쌓이고 또 쌓인 투자와 열정, 전부 적에게 쏟아부으리!",
 		login = "이렇게 오래 기다리게 하다니… 아, 아닙니다. 이 정도는 괜찮으니까요.",
 		vote = "",
-		name = "류호",
 		detail = "잠수함의 힘에 대해서는 잘 알고 있습니다. 지금 할 말은 아니지만, 세계 대전 때 항공모함으로 개조되지 않았다면 저는 모두에게 어떤 존재가 되었을까요……",
 		couple_encourage = {
 			{
@@ -25075,7 +24444,6 @@ pg.ship_skin_words = {
 		battle = "지휘관님의 승리를 위해, 전력으로 갑니다!",
 		login = "지휘관님, 수고하셨습니다. 파마의 화살 준비는 저에게 맡겨주세요!",
 		vote = "",
-		name = "봉황이 춤추는 정월",
 		detail = "함재기의 제어는 이 주문으로… 항공모함이 적진 한가운데서 싸울 수는 없으니까요. 칼이라던가는… 역시 만일을 위해… 일까요.",
 		couple_encourage = {}
 	},
@@ -25109,7 +24477,6 @@ pg.ship_skin_words = {
 		battle = "당신들도 지휘관님에게 가까워지고 싶다고?! ──아하하하!",
 		login = "어머, 어서 와요… 지휘관님이 조금만 더 늦었더라면 여길 불바다로 만들어 버릴 참이었어요… 우후훗.",
 		vote = "",
-		name = "아카기",
 		detail = "지휘관님, 이 아카기를 소중히 여겨주시는 건가요? 기쁘와요~",
 		couple_encourage = {
 			{
@@ -25184,7 +24551,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어머, 어서오세요…지휘관님, 지금까지 어디에 계셨나요? 빨리 웃옷을 벗고, 아카기가 다른 아이의 냄새가 묻지는 않았는지 확인하도록 하겠어요…우후후……",
 		vote = "",
-		name = "낙원의 피안화",
 		detail = "이건 아카기가 엄선한 수영복이랍니다. 지휘관님, 어떠세요? 이 아카기에 대한 사랑이 넘칠 것 같지 않나요? 네?",
 		couple_encourage = {}
 	},
@@ -25218,7 +24584,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어서와요, 지휘관님~ 식사와 목욕은…아니면, 먼저 이 아카기를 드셔주세요♡",
 		vote = "",
-		name = "매화와 꽃",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -25252,7 +24617,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 이 「다른 여자의 냄새」는 어디서 나는 걸까요? 그 아이군요…… 우후훗…… 아카기는 알고 있답니다…",
 		vote = "",
-		name = "아카기",
 		detail = "지휘관님. 언제까지나 계속 아카기 곁에 있어 주세요. 절대, 절대로, 아카기한테서 떨어지셔선 안 된답니다…",
 		couple_encourage = {}
 	},
@@ -25286,7 +24650,6 @@ pg.ship_skin_words = {
 		battle = "발버둥 치며 날 즐겁게 해보거라… 후후훗…",
 		login = "공평도 정의도 강한 자만이 누릴 수 있다. 약자는 그저 허망하게, 흐느껴 울기만 할 뿐이지.",
 		vote = "",
-		name = "카가",
 		detail = "지휘관, 그렇게 쳐다보면, 무심코 널 먹고 싶어진다고.",
 		couple_encourage = {
 			{
@@ -25352,7 +24715,6 @@ pg.ship_skin_words = {
 		battle = "우후후…어떤 옷을 입어도 내 강함은 변하지 않는다고.",
 		login = "지휘관, \"쉴 땐 쉬고, 싸울 땐 싸워라\", 내 좌우명이다.",
 		vote = "",
-		name = "여름날의 살생석",
 		detail = "지휘관, 나와 언니의 수영복, 어느 쪽이 더 취향인가?",
 		couple_encourage = {}
 	},
@@ -25386,7 +24748,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "모처럼만의 정월이다. 느긋하게 있어도 괜찮아.",
 		vote = "",
-		name = "백호하정",
 		detail = "지휘관, 그렇게 한가하다면, 정월 장식하는 것좀 도와주는 건 어때?",
 		couple_encourage = {}
 	},
@@ -25420,7 +24781,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "흠… 적을 몰살시키러 갈 준비는 다 된 것인가?",
 		vote = "",
-		name = "월청 군자란",
 		detail = "그 얼굴, 여우에게 홀린 어린아이 같구나.",
 		couple_encourage = {}
 	},
@@ -25454,7 +24814,6 @@ pg.ship_skin_words = {
 		battle = "의미 없는 싸움은 피하고 싶습니다만…",
 		login = "지휘관, 서류가 준비되었습니다, 확인 부탁드립니다.",
 		vote = "",
-		name = "소류",
 		detail = "이런 데이터로도 도움이 될 수 있다면…",
 		couple_encourage = {
 			{
@@ -25505,7 +24864,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "정월 휴일이라곤 하지만, 지휘관님의 업무는 아직 잔뜩 남아있답니다.",
 		vote = "",
-		name = "소나무에 앉은 학",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -25539,7 +24897,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "최근 히류가 좀 사춘기란 말이죠…제가 고른 옷을 입어주지 않고, 학교도 같이 안 가주는 걸요……언니로서 살짝 섭섭하네요.",
 		vote = "",
-		name = "복도의 선도부장",
 		detail = "선도부를 맡고 있지만, 그렇게 딱딱한 캐릭터는 되고 싶지 않네요.",
 		couple_encourage = {}
 	},
@@ -25573,7 +24930,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어서오십시오. 확인이 필요한 서류 준비가 끝났습니다. 잘 부탁 드립니다.",
 		vote = "",
-		name = "소류·改",
 		detail = "어떤 상황이라도, 자신의 판단을 믿는 것이 가장 중요합니다, 지휘관님.",
 		couple_encourage = {}
 	},
@@ -25607,7 +24963,6 @@ pg.ship_skin_words = {
 		battle = "선수필승! 함재기, 출격! ",
 		login = "핫!… 엣! 아, 지휘관, 피해─!",
 		vote = "",
-		name = "히류",
 		detail = "이 포즈는 멋진…가요?",
 		couple_encourage = {
 			{
@@ -25658,7 +25013,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "도서관에 로열의 요정 한 분이 계시다구요? 음, 도서관에 계속 있어도 누군가에게 괴롭힘 당하지는 않겠죠......?",
 		vote = "",
-		name = "방과후 불량학생",
 		detail = "자칭 불량학생이긴 해도, 대체 뭘 어떻게 해야하는 건지......",
 		couple_encourage = {}
 	},
@@ -25692,7 +25046,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "진정해, 히류, 진정해…… 아, 지휘관님? 언제 오셨나요?",
 		vote = "",
-		name = "히류・改",
 		detail = "멋있어졌다는 소릴 듣는 건 기쁘지만, 그래도……",
 		couple_encourage = {}
 	},
@@ -25726,7 +25079,6 @@ pg.ship_skin_words = {
 		battle = "완성형 정규 항공모함… 쇼카쿠, 갑니다!",
 		login = "지성은 여자의 매력이라고 합니다만…… 덕분에 '선배들' 과는 자주 껄끄러워져요… 우후훗, 곤란하네요♪",
 		vote = "",
-		name = "쇼카쿠",
 		detail = "이 피리 소리는 망자를 달래는 진혼곡…… 지휘관, 한 곡 어떠신지요? 우후훗♪",
 		couple_encourage = {
 			{
@@ -25801,7 +25153,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어떻게 저를 초대하실 건가요, 지휘관님? 약간 기대되는걸요~",
 		vote = "",
-		name = "바람에 춤추는 학",
 		detail = "꽃과 잎사귀가 시드는 것 처럼 무도회도 그 막을 내리겠지요…… 하지만 지금은, 모든걸 잊고 즐겨볼까요~",
 		couple_encourage = {}
 	},
@@ -25835,7 +25186,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오늘의 바람은 꽤 마음에 드네요.",
 		vote = "",
-		name = "신속의 학",
 		detail = "{namecode:96}… 아무래도 이런 곳에는 잘 적응하지 못할 것 같네요. 지휘관님, 저를 대신해서 돌봐주시지 않겠어요?",
 		couple_encourage = {}
 	},
@@ -25869,7 +25219,6 @@ pg.ship_skin_words = {
 		battle = "끝도 없이 몰려오는 적들… 이런 건 이미 겪을 만큼 많이 겪었으니까!",
 		login = "오늘은 어느 쪽이야? 진주만? 아니면 산호해?",
 		vote = "",
-		name = "즈이카쿠",
 		detail = "1대1로 진검승부를 해보고 싶어… '그레이 고스트'!",
 		couple_encourage = {
 			{
@@ -25944,7 +25293,6 @@ pg.ship_skin_words = {
 		battle = "{namecode:96}, 등장!",
 		login = "지휘관, 오늘의 일은 어디서부터 시작해? 응원은 나에게 맡겨줘!",
 		vote = "",
-		name = "제화의 학",
 		detail = "평소랑 다른 느낌이라고? 히히. 칭찬으로 받아들여도 되지? 사실 나도 가끔은 새롭게 갈아입고 싶다고. 기분전환 삼아서 말이야.",
 		couple_encourage = {}
 	},
@@ -25978,7 +25326,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "헤헤, 걱정하지 마. 지휘관. 나에게는 그냥 사소한 것일 뿐이니까~",
 		vote = "",
-		name = "광속의 학",
 		detail = "아, 그러고 보니까 {namecode:95} 언니도 이 일, 오케이 했지? 스타일은 나랑 비슷하지만 {namecode:95} 언니가 입으면 조금 느낌이 다르네.",
 		couple_encourage = {}
 	},
@@ -26012,7 +25359,6 @@ pg.ship_skin_words = {
 		battle = "지휘관 님과 나 사이에 있는 모든 걸 전부 부숴버리면 좋을 텐데! 아하하하하하!",
 		login = "다이호와 함께 목욕하시겠어요? 다이호를 드셔 보시겠어요? 아니면~다이호와 그런 짓을…해버릴까요? 우후후♡",
 		vote = "",
-		name = "다이호",
 		detail = "저의 모든 것은, 지휘관 님께……",
 		couple_encourage = {}
 	},
@@ -26046,7 +25392,6 @@ pg.ship_skin_words = {
 		battle = "지휘관님이 파티에 집중하지 못하도록 한게 너희들이야?",
 		login = "지휘관님, {namecode:97}가 계속 기다렸답니다~",
 		vote = "",
-		name = "금단의 연회",
 		detail = "정말 부럽다, 야옹아. {namecode:97}가 너였다면, 항상 지휘관님의 품안에 안겨있을 수 있을텐데.",
 		couple_encourage = {}
 	},
@@ -26080,7 +25425,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "봉황의 노래",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -26114,7 +25458,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "사랑의 파트너 ",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -26148,7 +25491,6 @@ pg.ship_skin_words = {
 		battle = "부하를 괴롭힐 수 있는 것은 나뿐이야!",
 		login = "내 허락 없이 멀어지면, 이곳을 불바다로 만들 거야.",
 		vote = "",
-		name = "꼬마 아카기",
 		detail = "부하에게 보호받는 기분은 나쁘지 않아. 우후후후.",
 		couple_encourage = {}
 	},
@@ -26182,7 +25524,6 @@ pg.ship_skin_words = {
 		battle = "{namecode:91}의 라이브, 제대로 봐달라고요~ 우후후.",
 		login = "지휘관님, 오늘의 스케쥴은 어떤 것인가요? 우후후.",
 		vote = "",
-		name = "아카기(μ장비)",
 		detail = "지휘관님을 위해서라면 {namecode:91}는 무엇이든 할 수 있어요. 물론 ‘아이돌’ 같은 일이라도요… 우후후.",
 		couple_encourage = {
 			{
@@ -26228,7 +25569,6 @@ pg.ship_skin_words = {
 		battle = "열심히 할게~",
 		login = "지휘관, 쭈~~욱 기다렸어!",
 		vote = "",
-		name = "이19",
 		detail = "나랑 만나고 싶어졌어? 에헤헤, 무척 기뻐♪",
 		couple_encourage = {
 			{
@@ -26280,7 +25620,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "수업은 재미없어……지휘관 옆에 있는 편이 즐거운걸~ 에헤헤♪",
 		vote = "",
-		name = "여행길의 산들바람",
 		detail = "친구를 만들라고? 딱히 상관없어~ 지휘관만 있으면 충분한걸!",
 		couple_encourage = {}
 	},
@@ -26314,7 +25653,6 @@ pg.ship_skin_words = {
 		battle = "오늘의 럭키걸은 어느 아이일까~♪",
 		login = "뿅! 헷헤~ 어때 지휘관, 깜짝 놀랐어?",
 		vote = "",
-		name = "이26",
 		detail = "구릿빛 피부는 건강의 상징! 지휘관도 태닝 한 번 해보지 않을래?",
 		couple_encourage = {
 			{
@@ -26365,7 +25703,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "인스머스! …헷헤~ 지휘관, 방금 깜짝 놀랐어? 사실 이거, 그냥 인형이지롱~!",
 		vote = "",
-		name = "토끼와 심해어",
 		detail = "수업보다 바다가 더 재밌어…왜냐면 바닷속 깊은 곳엔 아직 모두가 모르는 물고기나 괴물 같은 게 잔뜩 있으니까! 좋겠다~ 보러 가고 싶다아~",
 		couple_encourage = {}
 	},
@@ -26399,7 +25736,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 깼어? 불꽃놀이는 이미 끝났다구! …아하하, 장난이야. 축제는 아직 많이 남았어.",
 		vote = "",
-		name = "불꽃놀이 전",
 		detail = "우으…… 머리 얘기를 하니까 약간 불편한 것 같아. 지휘관, 머리 좀 빗겨줘.",
 		couple_encourage = {}
 	},
@@ -26433,7 +25769,6 @@ pg.ship_skin_words = {
 		battle = "대잠전은 맡기도록 하지.",
 		login = "지휘관, 잠수함은 바다에서 멀어지면 말라죽는다고… 노, 농담이지만……",
 		vote = "",
-		name = "이58",
 		detail = "조용한 밤은 좋아해. 누구도 내 존재를 눈치채지 못하니까.",
 		couple_encourage = {}
 	},
@@ -26467,7 +25802,6 @@ pg.ship_skin_words = {
 		battle = "가끔은 좀 눈에 띄어야...!",
 		login = "우음...지휘관님, 돌아오신 것을 환영합니다. 자리를 비우신 동안 발생한 사항을 정리해 두었으니 검토 부탁드립니다~",
 		vote = "",
-		name = "이25",
 		detail = "지휘관님, 바쁘신데 번거롭게 해드려 정말 죄송합니다만...정찰기 성능 테스트 좀 도와주시겠습니까?",
 		couple_encourage = {
 			{
@@ -26510,7 +25844,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "심, 심해어 공격! 이, 이게 아닌가요...? 저랑 잘 맞지 않는 거 같아요...",
 		vote = "",
-		name = "토끼와 산호초",
 		detail = "잘 하는 과목이요? 전부 다 문제 없어요. 에헤헤, 맡겨만 주세요.",
 		couple_encourage = {}
 	},
@@ -26544,7 +25877,6 @@ pg.ship_skin_words = {
 		battle = "아무도 못봤겠죠?",
 		login = "어! 지휘관님, 인사 안해주셔도 되는데...",
 		vote = "",
-		name = "이56",
 		detail = "히익?!지, 지휘관님...무슨 일이신가요?",
 		couple_encourage = {
 			{
@@ -26587,7 +25919,6 @@ pg.ship_skin_words = {
 		battle = "제 공부를 방해하시면 안돼요...",
 		login = "",
 		vote = "",
-		name = "외톨이 해바라기",
 		detail = "항구에 있는 동료들은 단체 채팅방이 많이 있어요...모두들 종종 거기에 사진을 올리니까 지휘관님도 한번 보세요.",
 		couple_encourage = {}
 	},
@@ -26621,7 +25952,6 @@ pg.ship_skin_words = {
 		battle = "자, 대어를 낚으러 가자고!",
 		login = "느.려! 우리 잠수정들이 때를 잘 기다린다곤 해도 이렇게 오래 기다리게 하는건 좀...",
 		vote = "",
-		name = "이168",
 		detail = "무슨 할 말 있어?....없어도 상관은 없고...",
 		couple_encourage = {
 			{
@@ -26664,7 +25994,6 @@ pg.ship_skin_words = {
 		battle = "너희를 격침 시키는 거야 쉽지!",
 		login = "",
 		vote = "",
-		name = "축제의 날!",
 		detail = "타코야키! 경단! 사과 사탕!...우적우적...켁, 켁켁! 무, 물 좀!",
 		couple_encourage = {}
 	},
@@ -26698,7 +26027,6 @@ pg.ship_skin_words = {
 		battle = "부담 갖지 말고 덤벼라냥~ 망가지면 수리해주겠다냥.",
 		login = "지휘관 안냥~ 후와암",
 		vote = "",
-		name = "아카시",
 		detail = "지휘관, 신체검사 해줄까냥?",
 		couple_encourage = {}
 	},
@@ -26732,7 +26060,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오늘도 매진을 목표로 힘내자냥!",
 		vote = "",
-		name = "먹고 살기 힘들다냥",
 		detail = "지휘관이 사준다고냥?!",
 		couple_encourage = {}
 	},
@@ -26766,7 +26093,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 어서 오시라냥~",
 		vote = "",
-		name = "검은 고양이의 습격!",
 		detail = "냐냥? 이건… 이 의상, 예산 초과다냥! 새로운 판촉을 생각야겠다냥… ……냥!? 지휘관냥?! 어, 어서 오시라냥!",
 		couple_encourage = {}
 	},
@@ -26800,7 +26126,6 @@ pg.ship_skin_words = {
 		battle = "회,회장 위에서 뛰지 말라냥!",
 		login = "",
 		vote = "",
-		name = "아카시 특별 판매중이다냥!",
 		detail = "그림그림…… 아, 태블릿 펜심이 다 닳았다냥. {namecode:20}에게 새로 주문하라고 해야겠다냥.",
 		couple_encourage = {}
 	},
@@ -26834,7 +26159,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어서 오라냥! 지휘관도 간판 소녀 {namecode:98}를 만나러 온거냥?",
 		vote = "",
-		name = "어서와냥 Sofmap!",
 		detail = "후후, 오늘도 판매 신기록이다냥! {namecode:98}는 역시 대단하다냥! 지휘관에게 고마워해야겠다냥!",
 		couple_encourage = {}
 	},
@@ -26868,7 +26192,6 @@ pg.ship_skin_words = {
 		battle = "더 노력할게요~",
 		login = "환영합니다, 지휘관님. 오늘 하늘도 온통 푸른색입니다.",
 		vote = "",
-		name = "이13",
 		detail = "지휘관님, 잠수함에만 의지하면 할 수 있는 일에 한계가 있어요. 판을 좌우하려면 결국 하늘의 힘에 기대야해요.",
 		couple_encourage = {}
 	},
@@ -26902,7 +26225,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "기념일이라 모두 즐거워하네요. {namecode:6}도, 즐거...워요.",
 		vote = "",
-		name = "신년의 소망",
 		detail = "{namecode:2}가 신사에서 \"흉\"을 뽑았어요. 하지만, 별로 개의치 하지 않는 것 같아요. ...저요? \"소길\". 조금 기쁘...네요.",
 		couple_encourage = {}
 	},
@@ -26936,7 +26258,6 @@ pg.ship_skin_words = {
 		battle = "바람을 타고 파도를 가로지르는 거다! Feuer!",
 		login = "좋아, 전쟁을 시작하자!",
 		vote = "",
-		name = "Z1",
 		detail = "빠르고 강하다! 그것이 바로 나, 레베 님이다!",
 		couple_encourage = {
 			{
@@ -26979,7 +26300,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "반역의 우등생",
 		detail = "장비는 어디까지나 호신용이다. 흥, 어리석게도 Z1 님에게 도전하는, 목숨 아까운 줄 모르는 놈들이 많으니까 말이다!",
 		couple_encourage = {}
 	},
@@ -27013,7 +26333,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "드디어 왔구나, 어서 한바탕하러 가자!",
 		vote = "",
-		name = "Z1·改",
 		detail = "흐흠, Z1님은 아직 더 빠르고 강해질 수 있다고!",
 		couple_encourage = {}
 	},
@@ -27047,7 +26366,6 @@ pg.ship_skin_words = {
 		battle = "매복에 주의. 너무 앞으로 나가지 않도록……",
 		login = "지휘관님, 어째서 항상 저보다 늦게 오시는 겁니까? 라고 질문 드립니다.",
 		vote = "",
-		name = "Z2",
 		detail = "지휘관님, 모두에게 여러 가지 옷을 갈아입히는 취미를 가지고 계십니까? 라고 질문 드립니다.",
 		couple_encourage = {
 			{
@@ -27103,7 +26421,6 @@ pg.ship_skin_words = {
 		battle = "Z18은 모두를 응원해요!",
 		login = "지휘관님, 어서 오세요~ 오늘은 웃으셨나요?",
 		vote = "",
-		name = "Z18",
 		detail = "지휘관님, 자, 함께~~ 스마일☆",
 		couple_encourage = {}
 	},
@@ -27137,7 +26454,6 @@ pg.ship_skin_words = {
 		battle = "전 함, 적 함대 조준, 포격 준비! Feuer!",
 		login = "지휘관님, 아침밥을 거르는 건 몸에 좋지 않다고요. 제가 귀리빵을 준비해두었으니 지휘관님, 괜찮으시다면 같이 드시지 않겠습니까?",
 		vote = "",
-		name = "Z19",
 		detail = "문제 있으신가요? 지휘관님?",
 		couple_encourage = {}
 	},
@@ -27171,7 +26487,6 @@ pg.ship_skin_words = {
 		battle = "내가 기함? 좋아, 모두 따라와!",
 		login = "지휘관, 나랑 같이 달리기 안 할래?",
 		vote = "",
-		name = "Z20",
 		detail = "아픈 거 고민되는 거, 퓨~웅하고 날아가 버려랏~! 어때? 지휘관, 기운 나지?",
 		couple_encourage = {}
 	},
@@ -27205,7 +26520,6 @@ pg.ship_skin_words = {
 		battle = "모두, 힘내자고!",
 		login = "어서 와 지휘관! ……에? 따, 딱히 걱정한 건 아니니까!",
 		vote = "",
-		name = "Z21",
 		detail = "내 얼굴에 뭔가 묻었어? 뚫어지게 보지 말라고!",
 		couple_encourage = {}
 	},
@@ -27239,7 +26553,6 @@ pg.ship_skin_words = {
 		battle = "좋아, 노력의 성과를 시험할 때입니다!",
 		login = "오늘은 할 일이 잔뜩 있으니까, 게으름 피우면 안 돼요.",
 		vote = "",
-		name = "Z23",
 		detail = "저를 쳐다볼 시간이 있으면, 차라리 책을 보시죠! 저도 부끄러워하긴 한다고요……",
 		couple_encourage = {
 			{
@@ -27282,7 +26595,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "철학 강사",
 		detail = "다 외웠죠? 이건 나중에 시험에 나올 거라고요, 합격 못 하면……",
 		couple_encourage = {}
 	},
@@ -27316,7 +26628,6 @@ pg.ship_skin_words = {
 		battle = "시합이든 전투든 쉽게 질 수는 없어요!",
 		login = "오늘은 운동하기 좋은 날씨네요, 지휘관님.",
 		vote = "",
-		name = "비공식 비치 발리볼",
 		detail = "에? 귀여운 수영복에 시선을 뺏겨서 공을 놓쳤다고요? 정, 정말이지. 대체 뭘 하고 계시는 거예요, 지휘관님!",
 		couple_encourage = {}
 	},
@@ -27350,7 +26661,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "참된 미소",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -27384,7 +26694,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 파티 즐거우신가요?",
 		vote = "",
-		name = "연회의 우등생",
 		detail = "요사이 자주 웃게 된 이유 말인가요? ……지휘관님이 믿음직해지셨기 때문 아닐까요.",
 		couple_encourage = {}
 	},
@@ -27418,7 +26727,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 주문하시겠어요?",
 		vote = "",
-		name = "신설 기지・찻집 체험",
 		detail = "오이겐 언니가 또 직원을 놀렸어요... 으음, 위가 아프네요.",
 		couple_encourage = {}
 	},
@@ -27452,7 +26760,6 @@ pg.ship_skin_words = {
 		battle = "전투든, 아이돌이든 반드시 해내겠어요!",
 		login = "기왕 시작했으니 정점을 노려보죠! 목표는 톱 아이돌!",
 		vote = "",
-		name = "성실한 아이돌・매니저 담당？",
 		detail = "매니저 겸 아이돌을 하는 것도 나쁘지 않네요. 어쩌면 이렇게 하는 것이 저에게 맞는 것일지도 모르죠.",
 		couple_encourage = {}
 	},
@@ -27486,7 +26793,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 정신 차리세요. 지금부터 일할 시간이라구요.",
 		vote = "",
-		name = "Z23·改",
 		detail = "이걸로 오케이, 그리고…음, 슬슬 재블린 일행과 만나러……에, 지, 지휘관?! 엣헴! 마침 잘 됐습니다! 확인해주셨으면 하는 서류가……",
 		couple_encourage = {}
 	},
@@ -27520,7 +26826,6 @@ pg.ship_skin_words = {
 		battle = "Z25, 색적태세!",
 		login = "시간 맞춰 왔네. 나도 힘내야겠지!",
 		vote = "",
-		name = "Z25",
 		detail = "앵커 씨, 난 어떻게 해야 언니처럼 우수해질 수 있을까……",
 		couple_encourage = {
 			{
@@ -27563,7 +26868,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "후하~ 이렇게 기분 좋은 바람은 오랜만이네요……",
 		vote = "",
-		name = "한여름의 바닷바람",
 		detail = "앵커씨도 햇빛을 쬐어야 되는데…안 그러면 썩어버리니까……",
 		couple_encourage = {}
 	},
@@ -27597,7 +26901,6 @@ pg.ship_skin_words = {
 		battle = "모두 힘내~! 우린 최고라고!",
 		login = "Hallihallo~! 지휘관, 어제 꿈에 퓐이 나오지 않았어?",
 		vote = "",
-		name = "Z35",
 		detail = "어라, 지휘관, 왜 내 방에……? 에에?! 내가 방을 잘못 들어간 거야?!",
 		couple_encourage = {}
 	},
@@ -27631,7 +26934,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "신년 추첨 이벤트의 상품 안에 수뢰 쿠션이? 음, 이것만 유독 별로 끌리지가 않네......",
 		vote = "",
-		name = "projekt Kirschblüte",
 		detail = "에헤, 무슨 옷을 입고 있든 내가 실력을 백프로 발휘하는데에 아~무런 영향도 없지~",
 		couple_encourage = {}
 	},
@@ -27665,7 +26967,6 @@ pg.ship_skin_words = {
 		battle = "봉인 해제! 자아, 데빌 아이돌의 힘을 그 눈에 똑똑히 새기도록 해! (번쩍!)",
 		login = "오오, 마침 잘 왔군! 흠, 나의 신곡……이름하여 '악마서곡-데빌 인트로'……듣고 가지 않을래?",
 		vote = "",
-		name = "Z36",
 		detail = "흐흥~, 어때? 이 불길한 힘을 표현하는 그라나트(Granat)의 마안……레, 렌즈 낀 거 아니거든!",
 		couple_encourage = {
 			{
@@ -27708,7 +27009,6 @@ pg.ship_skin_words = {
 		battle = "나를 보고도 도망치지 않는, 그 용기와 우둔함에 찬사를!",
 		login = "이 세계가 설마 이렇게나 예상과 달랐을 줄이야! 재미있군!",
 		vote = "",
-		name = "Z46",
 		detail = "퓌제는 단순한 가칭, 물론 이름은 아니다. 함선에게 있어 이름의 유무는 중요하지 않아, 허나…",
 		couple_encourage = {}
 	},
@@ -27742,7 +27042,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "수수께끼와 미지로 가득한 한여름의 해안… 함께 탐색해보자!",
 		vote = "",
-		name = "퍼스트 서머",
 		detail = "밀물, 썰물, 남겨진 것은 잊을 수 없는 여름의 추억……",
 		couple_encourage = {}
 	},
@@ -27776,7 +27075,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "스카벤지 헌트리스",
 		detail = "나도 표범처럼 빠르게 달리고 새처럼 더 높게 날고 싶다.",
 		couple_encourage = {}
 	},
@@ -27810,7 +27108,6 @@ pg.ship_skin_words = {
 		battle = "자아, 지금이 훈련의 성과를 보여줄 때! 적을 벌벌 떨게 만들어 주는 거야!",
 		login = "그럼, 오늘 훈련을 시작해보죠.",
 		vote = "",
-		name = "쾨니히스베르크",
 		detail = "알겠나요? 카탈로그의 수치만 주목하면, 실전에서 심한 꼴을 당할 거예요.",
 		couple_encourage = {}
 	},
@@ -27844,7 +27141,6 @@ pg.ship_skin_words = {
 		battle = "카를스루에의 힘을 보여주겠어! 간다─!",
 		login = "에헤헤, 뭔가 오늘 좋을 일이 있을 듯한 예감~",
 		vote = "",
-		name = "카를스루에",
 		detail = "아하하, 지휘관은 나한테 관심이 정말 많구나~ ",
 		couple_encourage = {}
 	},
@@ -27878,7 +27174,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 오늘도 기운 넘치게, 힘내자고!",
 		vote = "",
-		name = "카를스루에·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -27912,7 +27207,6 @@ pg.ship_skin_words = {
 		battle = "적함 발견, 뇌격전 준비!",
 		login = "어서 오세요, 지휘관님. 오늘의 스케쥴입니다. 확인 부탁드려요.",
 		vote = "",
-		name = "쾰른",
 		detail = "지휘관님은 어떤 데이터를 보고 싶으신가요?",
 		couple_encourage = {}
 	},
@@ -27946,7 +27240,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오늘의 계획입니다. 그리고 제가 정리한 일처리 우선순위이니 한번 살펴보세요.",
 		vote = "",
-		name = "쾰른·改",
 		detail = "데이터 말고도 더 이해하고 싶은 것이 있다면 저에게 얼마든지 물어보셔도 괜찮아요. 지휘관님.",
 		couple_encourage = {}
 	},
@@ -27980,7 +27273,6 @@ pg.ship_skin_words = {
 		battle = "히익! 긴장해서 쓰러질 것…… 후우─ 하아─…!",
 		login = "어, 어서 오세요…… 지휘관님, 파일 정리해놨답니다.",
 		vote = "",
-		name = "라이프치히",
 		detail = "지, 지휘관님, 그렇게 쳐다보지 말아 주세요…",
 		couple_encourage = {}
 	},
@@ -28014,7 +27306,6 @@ pg.ship_skin_words = {
 		battle = "아직 긴장되긴 하지만...... 전 노력할 거에요!",
 		login = "후...... 지휘관님, 제, 제가 문서를 다 정리했어요.",
 		vote = "",
-		name = "라이프치히·改",
 		detail = "물고기 씨는 엄청 무섭긴 하지만, 실은 매우 상냥하답니다! 앗, 아마 저에게만 그런 것 같아요...... 죄송합니다......",
 		couple_encourage = {}
 	},
@@ -28048,7 +27339,6 @@ pg.ship_skin_words = {
 		battle = "이런 거, 유틀란트 해에 비하면 애들 장난하는 정도지!",
 		login = "얼간아, 이제 일어났냐? 하아? 뭘 히죽히죽 거리고 있어! 모항을 산책하다 우연히 본 것뿐이라고!",
 		vote = "",
-		name = "아드미럴 히퍼",
 		detail = "이 바보야, 뭘 보는 거야! 빨리 내 방에서 나가라고!",
 		couple_encourage = {
 			{
@@ -28097,7 +27387,6 @@ pg.ship_skin_words = {
 		battle = "전 함대, 화력 전개! Feuer!",
 		login = "흐흥~뭐야? 오늘은 어떻게 귀여워해줄까?",
 		vote = "",
-		name = "프린츠 오이겐",
 		detail = "응? ……검사? Vielen Dank…",
 		couple_encourage = {
 			{
@@ -28158,7 +27447,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 지금 웃는 연습을 하고 있거든…… 어디의 누구 씨가 내 웃는 표정이 어색하다던데… 지휘관은 어떻게 생각해?",
 		vote = "",
-		name = "프린츠 오이겐",
 		detail = "하아아…… 웨일즈와 온종일 놀았더니 살이 조금 타버렸어~",
 		couple_encourage = {}
 	},
@@ -28192,7 +27480,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "뭐야~지휘관이구나~어~서~와~",
 		vote = "",
-		name = "백화요란",
 		detail = "Frohes neues Jahr~메탈 블러드에서 하는 신년 인사야~",
 		couple_encourage = {}
 	},
@@ -28226,7 +27513,6 @@ pg.ship_skin_words = {
 		battle = "칫, 분위기라곤 전혀 모르는 녀석들…",
 		login = "지휘관도 한 잔 할래?",
 		vote = "",
-		name = "Wein Kornblume",
 		detail = "후후… 지휘관, 완전 못난 얼굴이잖아… 얼굴은 그렇게 빨개져서. 혹시 취한거야~?",
 		couple_encourage = {}
 	},
@@ -28260,7 +27546,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 올 때 다른 아이를 몰래 쳐다보거나 하진 않았지?",
 		vote = "",
-		name = "운명의 교향곡",
 		detail = "메탈 블러드에선 연인 끼리 동물 이름으로 부르기도 해. 곰이나 토끼같이 말야. 우후후, 지휘관은 어떻게 불리고 싶어? 곰? 아니면 토끼?",
 		couple_encourage = {}
 	},
@@ -28294,7 +27579,6 @@ pg.ship_skin_words = {
 		battle = "즐거운 소탕이 될 것 같네.",
 		login = "꽤 시간이 걸렸네…대체 어디서 농땡이를 부리고 있었던 거야?",
 		vote = "",
-		name = "도이칠란트",
 		detail = "이럴 땐…어찌 됐든 당신을 처벌하지 않으면…",
 		couple_encourage = {}
 	},
@@ -28328,7 +27612,6 @@ pg.ship_skin_words = {
 		battle = "뼛속까지 내 이름을 새겨주마!",
 		login = "",
 		vote = "",
-		name = "칠흑의 마희",
 		detail = "하인, 가까이 와라…그렇게 무서워하지 않아도 돼. 이 아이들은 널 해치지 않으니까.",
 		couple_encourage = {}
 	},
@@ -28362,7 +27645,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "늦. 었. 어! 이 몸의 피부를 홀라당 태워먹을 셈이야!?",
 		vote = "",
-		name = "서비스 타임?",
 		detail = "농땡이 치지마, 하등생물! 선크림은 빈틈없이 골고루 바르라구!",
 		couple_encourage = {}
 	},
@@ -28396,7 +27678,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "여전히 변함없이 느리지만, 오늘은 기분이 좋으니 용서해주지!",
 		vote = "",
-		name = "마희의 나이트 파티",
 		detail = "하등생물의 것은 나의 것, 그러니 하등생물의 함대가 강해진다는 건 나의 힘이 더 강해지는 것을 뜻하지 않겠어?",
 		couple_encourage = {}
 	},
@@ -28430,7 +27711,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "마침 잘 왔어. 하등 생물, 내 신발 좀 벗겨봐. 이런 걸 신고 있으니까 다리가 아프잖아…",
 		vote = "",
-		name = "등불 아래의 지배자",
 		detail = "이 등불들, 꽤나 호화롭구나… 우후후. 여기에 이 도이칠란트님이 고귀함을 더해주겠어. 하등 생물, 너도 그렇게 생각하지?",
 		couple_encourage = {}
 	},
@@ -28464,7 +27744,6 @@ pg.ship_skin_words = {
 		battle = "메탈 블러드의 존엄과 이익을 위해, 무궁한 영광을!",
 		login = "당신을 위해 마지막까지 싸울 거야.",
 		vote = "",
-		name = "아드미랄 그라프 슈피",
 		detail = "승리할 확률이 아무리 낮더라도, 전장으론 향할 거야……그렇게 하는 편이 인간들에게 동경 받을 수 있으니까.",
 		couple_encourage = {
 			{
@@ -28521,7 +27800,6 @@ pg.ship_skin_words = {
 		battle = "학교에 있는 아이들을 방해하면 안 돼.",
 		login = "오이겐한테 화장을 배웠는데……예쁘게 보이려나…",
 		vote = "",
-		name = "소녀의 일요일",
 		detail = "전투 외의 다른 것들은 열심히 공부하고 있어. 평범하게 사는 것도 전투에 비해 간단하진 않네……",
 		couple_encourage = {}
 	},
@@ -28555,7 +27833,6 @@ pg.ship_skin_words = {
 		battle = "상냥하게 대해주는 모두를 위해…… 더 이상 한 발짝도 다가오게 두지 않아!!",
 		login = "지휘관, 어서 와! 저기…… 에이젝스가 지휘관이 '이상한 취미'를 가졌다고 그러던데…… 무슨 취미야?",
 		vote = "",
-		name = "평온한 나날",
 		detail = "이제 드디어 요리 연습을 할 수 있겠네! 여기 있는 상냥한 모두를 위해, 나, 보답하고 싶어…!",
 		couple_encourage = {}
 	},
@@ -28589,7 +27866,6 @@ pg.ship_skin_words = {
 		battle = "파티에 있는 모두를 방해하게 두진 않겠어!",
 		login = "지휘관 여기 있었네. 연회장에 사람들이 많아서, 나, 혹시 못 찾으면 어쩌지하고 걱정이 되서……",
 		vote = "",
-		name = "비밀 연회",
 		detail = "사교 댄스…? 미안, 나, 그런 건 좀 생소해서…… 지휘관이 밟는 스텝을 따라 하면 되는 거야? 그, 그럼 힘내서 해봐도… 괜찮은 거지?",
 		couple_encourage = {}
 	},
@@ -28623,7 +27899,6 @@ pg.ship_skin_words = {
 		battle = "오늘의 레슨이 아직 끝나지 않았는데……",
 		login = "지휘관, 여기서 연습하면 되는 거야?",
 		vote = "",
-		name = "메탈 블러드♥귀여워",
 		detail = "‘메탈 블러드의 영광을 위해서’라고 말하면서 이런 일에 나를 끼워 넣다니, 언니가 해도 괜찮을 텐데……",
 		couple_encourage = {}
 	},
@@ -28657,7 +27932,6 @@ pg.ship_skin_words = {
 		battle = "내 실력을 보여주도록 하지!",
 		login = "연습 끝났어. 나 참, 대체 왜 이런 일을 해야하는 거야…!",
 		vote = "",
-		name = "아드미랄 히퍼(μ장비)",
 		detail = "…오늘 기타의 상태가 썩 별로야… 조율을 해야 하나? 아니, 역시 연습을 먼저 하는 게 좋겠어…",
 		couple_encourage = {
 			{
@@ -28703,7 +27977,6 @@ pg.ship_skin_words = {
 		battle = "적의 잔해를 갈아버리자!",
 		login = "지금 돌아왔나? 마침 잘 됐군, 지금 시험 사격을 하려던 참이었다.",
 		vote = "",
-		name = "샤른호르스트",
 		detail = "남의 상처를 비웃을 수 있는 건 상처 입은 적이 없는 인간뿐이야.",
 		couple_encourage = {}
 	},
@@ -28737,7 +28010,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "설표와 매화",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -28771,7 +28043,6 @@ pg.ship_skin_words = {
 		battle = "대포의 사정범위 안에만, 진리가 있는 거야",
 		login = "어서 오십시오. 업무를 시작하시겠습니까? 지휘관님께 필요한 것들을 준비했습니다.",
 		vote = "",
-		name = "그나이제나우",
 		detail = "제 사명은 언제나 물불 안 가리고 뛰어드는 언니를 서포트 하는 것…하지만…가끔은 좀 귀찮다고 생각하곤 합니다.",
 		couple_encourage = {}
 	},
@@ -28805,7 +28076,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "처음에는 너무 부끄러웠지만 익숙해지니까... 음... 이 의상을 오래 입고 있으니까 평소랑 다른 기분이 들어요...",
 		vote = "",
-		name = "서큐버스 나이트메어",
 		detail = "핼러윈 마녀가 너무 많잖아요. 그래서 전 좀 다른 분장을 해봤어요. 지휘관님이 이렇게 관심을 가지시니 제대로 선택한 것 같네요, 후훗...",
 		couple_encourage = {}
 	},
@@ -28839,7 +28109,6 @@ pg.ship_skin_words = {
 		battle = "오이겐이 아니라, 날 따라와! 자아, 적이 몇이든지간에 한번에 덤벼 보시지!",
 		login = "당신에게는 기대가 커.",
 		vote = "",
-		name = "비스마르크",
 		detail = "내 얼굴에 뭐가 묻어있기라도 해?",
 		couple_encourage = {}
 	},
@@ -28873,7 +28142,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "집무 진척은 어떤가? 지휘관.",
 		vote = "",
-		name = "메탈 블러드의 영광",
 		detail = "미안, 지휘관, 평소의 나와 다른 것 같아? 나도 가끔, 어떤 게 진정한 나인지 헷갈릴 정도야……",
 		couple_encourage = {}
 	},
@@ -28907,7 +28175,6 @@ pg.ship_skin_words = {
 		battle = "지휘관, 당신을 위해 싸우겠다.",
 		login = "기다리는 것에 익숙해지면, 기다리던 것의 가치가 사라져버리지……",
 		vote = "",
-		name = "티르피츠",
 		detail = "적의 선택은 신중하게 하도록, 지휘관.",
 		couple_encourage = {}
 	},
@@ -28941,7 +28208,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 조급해 하지마, 나에게 널 기다리는 것은 의미 있는 일이니까.",
 		vote = "",
-		name = "얼음이 녹는 여름",
 		detail = "평소의 전투는 바로 이 순간의 안녕을 위한 거야——휴식이 있어야 우리의 투지를 더욱 높일 수 있지.",
 		couple_encourage = {}
 	},
@@ -28975,7 +28241,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "메탈 블러드의 아이스 윈드",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -29009,7 +28274,6 @@ pg.ship_skin_words = {
 		battle = "그럼 시작하지, 우리의 파괴를",
 		login = "검은 산양의 뿔피리는 이미 울려 퍼지고 있다. 초조해할 거 없어, 신중히 기다리는 게 좋아.",
 		vote = "",
-		name = "그라프 체펠린",
 		detail = "만약 신이 있다면, 그 녀석부터 묻어버리도록 하지……",
 		couple_encourage = {}
 	},
@@ -29043,7 +28307,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어디에 갔었나? 함께 모래사장으로 가기로 약속했었지?",
 		vote = "",
-		name = "모래사장의 우르즈",
 		detail = "이건 다른 얘기네만, 여름에는 이 작은 천 쪼가리 옷을 입는 것 외에, 대체 무엇을 하면 좋단 말인가?",
 		couple_encourage = {}
 	},
@@ -29077,7 +28340,6 @@ pg.ship_skin_words = {
 		battle = "함재기의 강함을 깨달아라!",
 		login = "가, 갑자기 어디로 사라진 것인가! 이거나 먹어라!",
 		vote = "",
-		name = "꼬마 그라프 체펠린",
 		detail = "왜 이곳에도 메탈 블러드 사람이……. 게다가 다들 크고, 조금 무서워…….",
 		couple_encourage = {
 			{
@@ -29135,7 +28397,6 @@ pg.ship_skin_words = {
 		battle = "조용히…살그머니…전장에 잠입…",
 		login = "지휘관, 드디어 왔나. 이쪽은 너무 따분해서 죽는 줄 알았다고.",
 		vote = "",
-		name = "U-81",
 		detail = "우왓~! 어떤가 지휘관, 깜짝 놀랐는가!",
 		couple_encourage = {}
 	},
@@ -29169,7 +28430,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관 늦어~! 얼마나 기다리게 하는 거야~!",
 		vote = "",
-		name = "정밀한 세레나데",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -29203,7 +28463,6 @@ pg.ship_skin_words = {
 		battle = "여기서 잠들어라!",
 		login = "아...돌아왔구나...",
 		vote = "",
-		name = "U-47",
 		detail = "내가 출격해야해? 나 혼자서도 다 해결할 수 있어.",
 		couple_encourage = {
 			{
@@ -29247,7 +28506,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "아, 왔구나. 나?......아니야. 막 왔어.",
 		vote = "",
-		name = "비기너 라이더?",
 		detail = "어쩐지 어색해서 다른 사람과는 같이 다니고 싶지 않아...하지만 혼자는 길을 잃어서 귀찮아지는걸...그러니까 지휘관, 오늘 시간 있어?",
 		couple_encourage = {}
 	},
@@ -29281,7 +28539,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "Eigenen Raum",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -29315,7 +28572,6 @@ pg.ship_skin_words = {
 		battle = "문제가 없으면 좋겠는데......",
 		login = "지휘관, 오는 길에 나쁜 일은 없었지?",
 		vote = "",
-		name = "U-557",
 		detail = "1센트는 행운을 가져다 주는 동전이라고 하던데...돼지 저금통 한가득 동전을 모았지만 왠지...차이가 없는것 같아…",
 		couple_encourage = {}
 	},
@@ -29349,7 +28605,6 @@ pg.ship_skin_words = {
 		battle = "더 이상은 도망 못 가!",
 		login = "어서 와! 오늘도 왠지 신날 것 같은 하루네!",
 		vote = "",
-		name = "U-556",
 		detail = "에에에에에잇! 받아라아아아앗! 헉…헉…얘는 가끔 폭주하니까, 진정시켜줘야 된단 말이지……아하하하……",
 		couple_encourage = {
 			{
@@ -29408,7 +28663,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "파티에는 재미있어 보이는 게 잔~~~뜩 있다고 들었는걸! 더 이상 못 기다리겠어!",
 		vote = "",
-		name = "해피 나이트",
 		detail = "지휘관, 부엌에서는 뭐하고 있는지 보러가지 않을래?……엣, 거기 있는 사람들 다 바쁜 거야? 음, 그럼 방해하면 안되겠네……",
 		couple_encourage = {}
 	},
@@ -29442,7 +28696,6 @@ pg.ship_skin_words = {
 		battle = "늑대를 이끄는 자, 그게 바로 나야!",
 		login = "야호~ 지휘관, 또 만났네! 이쪽은 준비 만반, 언제든 출격 가능! ……당신 명령 한 마디만 있다면, 말야♪",
 		vote = "",
-		name = "U-73",
 		detail = "지휘관, 뭐 너무 고민하지 마~ 전부 다 잘 될 거야!",
 		couple_encourage = {
 			{
@@ -29488,7 +28741,6 @@ pg.ship_skin_words = {
 		battle = "딱 너희들을 가지고 실험해야겠다!",
 		login = "이걸 여기에 넣고, 다시 이렇게....와악! 지휘관 갑자기 나타나면 어떡해, 손 떨려서 큰일날 뻔했어!",
 		vote = "",
-		name = "이과 실험 시간!",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -29522,7 +28774,6 @@ pg.ship_skin_words = {
 		battle = "어뢰 장착, 준비 완료~",
 		login = "지휘관 말이라면 내가 다음에 데리러 와줄 수도 있는데?",
 		vote = "",
-		name = "U-101",
 		detail = "유니온에 \"해상의 기사\"라고 불리는 사람이 있다던데? 이 별명 정말 멋지지 않아? 지휘관, 내 별명은 \"해저의 기사\" 어때?",
 		couple_encourage = {}
 	},
@@ -29556,7 +28807,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 음악 좀 틀어줘!",
 		vote = "",
-		name = "학교의 Posaunist",
 		detail = "가끔은 이렇게 고요하게 앉아서 음악을 듣는 것도 나쁘진 않네.",
 		couple_encourage = {}
 	},
@@ -29590,7 +28840,6 @@ pg.ship_skin_words = {
 		battle = "어? 왔다~ 여러분, 또 \"만찬\"의 시간이 왔어요!",
 		login = "지휘관님을 다시 만날 수 있어서 기뻐요, 오늘은 심심하지 않겠네요~",
 		vote = "",
-		name = "U-522",
 		detail = "흐흠~지휘관님, 방금 또 저 훔쳐봤죠? 이미 다 알고 있었거든요!",
 		couple_encourage = {}
 	},
@@ -29624,7 +28873,6 @@ pg.ship_skin_words = {
 		battle = "상어, 출격.",
 		login = "지휘관, 막대사탕 가져왔어?",
 		vote = "",
-		name = "U-110",
 		detail = "머리는 마늘이 아니라 상어야. 무서운 상어라고, 캬오.",
 		couple_encourage = {}
 	},
@@ -29658,7 +28906,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 함께 학교에 갈래?",
 		vote = "",
-		name = "Kleiner Hai",
 		detail = "모자는 마늘이 아니라 상어야. 무서운 상어라고, 캬오.",
 		couple_encourage = {}
 	},
@@ -29692,7 +28939,6 @@ pg.ship_skin_words = {
 		battle = "무엇을 위해 싸우는 거지!",
 		login = "오늘 스케줄도 빡빡하네요. 같이 힘내자고요!",
 		vote = "",
-		name = "안샨",
 		detail = "지휘관님은 어떤 정보를 알고 싶으십니까?",
 		couple_encourage = {
 			{
@@ -29751,7 +28997,6 @@ pg.ship_skin_words = {
 		battle = "언니, 이번엔 연습이 아니야!",
 		login = "오늘의 푸슌도, 의욕 MAX!",
 		vote = "",
-		name = "푸슌",
 		detail = "알고 싶은 게 있으면 같이 알아볼게!",
 		couple_encourage = {
 			{
@@ -29802,7 +29047,6 @@ pg.ship_skin_words = {
 		battle = "어째서 싸우는 거야……",
 		login = "지휘관 좋은 아침~ 에헤헤~ 이제 아침은 아니지만.",
 		vote = "",
-		name = "창춘",
 		detail = "푸슌이 산 건 여기 없어.",
 		couple_encourage = {
 			{
@@ -29853,7 +29097,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "하루의 계획은 아침에 있고, 한 해의 계획은 봄에 있으며, 일생의 계획은 공부에 있다~ 그러니까 지휘관 도 노력해~ 나? 꿈에서 응원해 줄 테니까~",
 		vote = "",
-		name = "춘계사양",
 		detail = "푸슌 언니, 폭죽으로 해저화산을 태우려고 하던데… 이야, 설마 온천이 나와버리다니……",
 		couple_encourage = {}
 	},
@@ -29887,7 +29130,6 @@ pg.ship_skin_words = {
 		battle = "시, 실전이군요… 노력하지 않으면…!",
 		login = "네? 지휘관님입니까… 죄송해요, 독서에 열중해서… 벌써 이런 시간인가요?",
 		vote = "",
-		name = "타이위안",
 		detail = "아까 '레인보우 프로젝트'가 뭐냐고 푸슌 언니가 물어봤습니다만, 지휘관님도 알고 싶으신가요?",
 		couple_encourage = {
 			{
@@ -29938,7 +29180,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "춘절만 되면, 푸슌 언니는 기분이 엄청 업 되네요… 저와 창춘 언니를 끌고 이리 갔다, 저리 갔다 하고……",
 		vote = "",
-		name = "봄을 깨우는 검은 거북이",
 		detail = "지휘관님은 알고 계시나요? 이스트 글림에는 '연수'라는 괴수에 대한 전설이 있어요. 매년 춘절에는 모두 대련을 장식하거나, 폭죽을 터트리거나 해서 연수를 쫓아내요.",
 		couple_encourage = {}
 	},
@@ -29972,7 +29213,6 @@ pg.ship_skin_words = {
 		battle = "선배님들, 이 막중한 임무는 지금 얏센이 맡고 있답니다.",
 		login = "또 만났군요, 지휘관님. 부디 걱정하지 마세요. 얏센이 계속 곁에서 모시도록 하겠습니다.",
 		vote = "",
-		name = "얏센",
 		detail = "이 얏센에 관해서 무언가 알고 싶으신가요? 지휘관님?",
 		couple_encourage = {
 			{
@@ -30016,7 +29256,6 @@ pg.ship_skin_words = {
 		battle = "당신의 곁이라면 얏센은 무엇이든 할 수 있습니다.",
 		login = "",
 		vote = "",
-		name = "봉관하피",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -30050,7 +29289,6 @@ pg.ship_skin_words = {
 		battle = "적에겐 용서 없다고!",
 		login = "느려! 어디서 농땡이 친 거야? 어? 먹을 거 가져왔다고? ……뭐, 일이나 하라고…",
 		vote = "",
-		name = "닝하이",
 		detail = "뭐야? 연무가 보고 싶어?",
 		couple_encourage = {
 			{
@@ -30093,7 +29331,6 @@ pg.ship_skin_words = {
 		battle = "내 손에서 짬뽕을 뺏을 수 있을 거라는 망상은 금물!",
 		login = "후...... 지, 지휘관, 미, 미안. 길을 잃어서 이상한 무인도까지 와버렸어... 후... 최선을 다해서 헤엄쳐서 마침내 해가 지기 전에 돌아왔어!",
 		vote = "",
-		name = "식욕의 여름!",
 		detail = "어째서 길을 잃은 거지... 해도는 문제가 없을텐데......",
 		couple_encourage = {}
 	},
@@ -30127,7 +29364,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "달궁전의 토끼",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -30161,7 +29397,6 @@ pg.ship_skin_words = {
 		battle = "전장에서 노래 하라는 건 무슨 수치 플레이야!",
 		login = "잘 부탁 드립니—— 아, 지휘관이구나.",
 		vote = "",
-		name = "이스트 글림 시스터즈!・N",
 		detail = "이건 어디까지나 일이라고, 절대 즐기고 있는 거 아니야!",
 		couple_encourage = {}
 	},
@@ -30195,7 +29430,6 @@ pg.ship_skin_words = {
 		battle = "저기, 우린 여행 중이니까 방해하지 말라고!",
 		login = "다음은 어디를 갈까?",
 		vote = "",
-		name = "새해맞이 여행!",
 		detail = "핑하이는 그렇다 치고 지휘관도 여행 일정에 대해서 전혀 신경쓰고 있지 않잖아…… 됐어. 내가 하는 게 낫지.",
 		couple_encourage = {}
 	},
@@ -30229,7 +29463,6 @@ pg.ship_skin_words = {
 		battle = "케이크를 뺏어가게 두지 않겠어!",
 		login = "자, 지휘관. 케이크야! 맛, 맛있게 먹어!",
 		vote = "",
-		name = "보랏빛 연회",
 		detail = "이 커다란 케이크는 나와 얏센 언니, 핑하이, 그리고 다른 친구들이 모두가 즐겁게 연회를 즐기기를 바라면서 특별히 준비한 거야! …하지만 케이크보다 만두가 훨씬 더 좋지 않았을까…… 아, 아무것도 아니야!",
 		couple_encourage = {}
 	},
@@ -30263,7 +29496,6 @@ pg.ship_skin_words = {
 		battle = "내가 모두에게 모범이 되겠어!",
 		login = "",
 		vote = "",
-		name = "닝하이·改",
 		detail = "돈을 절약하기 위해서는 역시 직접 요리하는 게 제일 효과적이야...... 지휘관, 한 번 먹어봐.",
 		couple_encourage = {}
 	},
@@ -30297,7 +29529,6 @@ pg.ship_skin_words = {
 		battle = "이기면 맛있는 거 주는 거야?",
 		login = "지휘관, 제대로 먹고 다녀? 배부르게 먹지 않으면 힘 안 난다구?",
 		vote = "",
-		name = "핑하이",
 		detail = "……? 지휘관, 어디 보고 있어?",
 		couple_encourage = {
 			{
@@ -30340,7 +29571,6 @@ pg.ship_skin_words = {
 		battle = "이기면 음식 더 가져가도 괜찮아? 자, 됐지~?",
 		login = "어, 언니, 우리 지금 어디야...... 주위에 사람 그림자도 안 보여...... 꺅! 어, 언니, 방금 무슨 소리 못 들었어?",
 		vote = "",
-		name = "신나는 여름?!",
 		detail = "나랑 언니가 길을 잃고 간 섬에는 이상한 것들이 되게 많았어...... 음, 뭐가 이상하냐고? 아무튼 엄청 이상했어.",
 		couple_encourage = {}
 	},
@@ -30374,7 +29604,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "계수나무 꽃의 달토끼",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -30408,7 +29637,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 핑하이의 공연을 보러 온 거야?",
 		vote = "",
-		name = "이스트 글림 시스터즈!・P",
 		detail = "언니는 아이돌 의상이 마음에 든 것 같아.",
 		couple_encourage = {}
 	},
@@ -30442,7 +29670,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관. 핑하이, 라면 먹고싶어.",
 		vote = "",
-		name = "미식 원정대!",
 		detail = "언니가 일정표를 만들어 줬는데 보기만 해도 졸려…… 하지만 거기에도 맛있는 건 많겠지? 그럼 핑하이도 갈거야.",
 		couple_encourage = {}
 	},
@@ -30476,7 +29703,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 케이크야! 언니가 나눠준 블루베리맛이 아니고 딸기맛이라고.",
 		vote = "",
-		name = "스위트 레드",
 		detail = "핑하이의 케이크는 언니 것과 같이 모두와 함께 열심히 준비한 거야. 커다란 딸기 케이크…… 핑하이 혼자서 먹으면 며칠을 먹을 수 있을까. 에헤헤……",
 		couple_encourage = {}
 	},
@@ -30510,7 +29736,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "핑하이·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -30544,7 +29769,6 @@ pg.ship_skin_words = {
 		battle = "지휘관님을 위해, 출격!",
 		login = "경례! 카라비니에레, 지휘관님을 뵙습니다!",
 		vote = "",
-		name = "카라비니에레",
 		detail = "지휘관님, 순찰 중입니다. 명령을 내리시겠습니까?",
 		couple_encourage = {}
 	},
@@ -30578,7 +29802,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어서오십시오, 지휘관님. 휴, 휴일인데 밖에 나가시지 않으시겠습니까? 죄, 죄송합니다. 주제 넘었습니다……",
 		vote = "",
-		name = "상쾌한 여름Choice",
 		detail = "이런 옷으로 갈아입어서 그런지 기분이 평소와 다릅니다. 상쾌한 해방감이라고 해야 할까, 아니면 무방비한 불안감이라고 해야 할까…",
 		couple_encourage = {}
 	},
@@ -30612,7 +29835,6 @@ pg.ship_skin_words = {
 		battle = "힘내요. 우리는 지지 않아요!",
 		login = "제때 왔군요. 지휘관님, 참 잘했어요~",
 		vote = "",
-		name = "트렌토",
 		detail = "그러니까…… 제가, 방금 뭘 하려고 했죠? 지휘관님, 혹시 기억나나요?",
 		couple_encourage = {}
 	},
@@ -30646,7 +29868,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님? 바닷소리를 듣다가 잠이 드셨나요? 후후, 괜찮아요~ 있는게 시간인걸요. 푹 자도록 해요~",
 		vote = "",
-		name = "멀티플 템테이션",
 		detail = "탄 자국? 아, 신경 쓰기는 해야겠네요… 지휘관님, 태닝 오일을 좀 발려주시겠어요?",
 		couple_encourage = {}
 	},
@@ -30680,7 +29901,6 @@ pg.ship_skin_words = {
 		battle = "기함은 익숙하답니다. 전 함대, 전투 대형을 유지하세요. tiro!",
 		login = "어서오세요, 지휘관님. 차라와 자매들은 항상 지휘관님의 사열을 기다리고 있어요~?",
 		vote = "",
-		name = "차라",
 		detail = "어머? 우리 자매들이 아름답다는 이야기는 자주 듣지만, 지휘관님이 계속 쳐다본다면 이상한 오해를 사게 되겠죠?",
 		couple_encourage = {
 			{
@@ -30723,7 +29943,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 깊은 곳으로 수영하러 가려면 안전에 주의해야하는거 아시죠?",
 		vote = "",
-		name = "수영장의 우연",
 		detail = "워밍 업은 하셨나요? 물 속에서 쥐가 나면 큰일난다고요.",
 		couple_encourage = {}
 	},
@@ -30757,7 +29976,6 @@ pg.ship_skin_words = {
 		battle = "적들이 길을 잃었나? 어쩔 수 없네.",
 		login = "기다리는 것은 재미 없지만, 지휘관을 기다리는 것은 지겹지 않아.",
 		vote = "",
-		name = "리토리오",
 		detail = "베네토는 총 기함의 역할을 썩 잘 수행하는 편이긴 하지만… 좀 더 강해지고 싶다면 역시 나를 배워야 할거야. 하하하하.",
 		couple_encourage = {}
 	},
@@ -30791,7 +30009,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 왔군요. 오늘의 나는 햇살보다 눈부시다고.",
 		vote = "",
-		name = "나폴리의 빛",
 		detail = "베네토? 지휘관, 너무 기대하지는 마—— 아니, 수영복 얘기가 아니야. 그녀는 하루 종일 모래사장에서 씨름판을 만드는 천재라고.",
 		couple_encourage = {}
 	},
@@ -30825,7 +30042,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "나를 기다리게 할 수 있는 사람은 지휘관 하나 뿐이야.",
 		vote = "",
-		name = "Calabria Aurea",
 		detail = "어차피 베네토 녀석은 다른 사람들과 함께 목욕을 한다는 귀여운 생각이나 하겠지. 외교라는 건 적임자에게 맡겨야 하는 것 아니겠어?",
 		couple_encourage = {}
 	},
@@ -30859,7 +30075,6 @@ pg.ship_skin_words = {
 		battle = "너희들의 용기와 지혜를 발휘할 차례야!",
 		login = "말은 필요 없어. 오늘의 일을 시작하자.",
 		vote = "",
-		name = "콘테 디 카보우르",
 		detail = "레오나르도 다 빈치…… 그 비극만 아니었다면, 분명히 체사레처럼 사르데냐 엠파이어의 영광을 위해 마지막까지 싸울 인재가 되었을텐데.",
 		couple_encourage = {
 			{
@@ -30918,7 +30133,6 @@ pg.ship_skin_words = {
 		battle = "지휘관의 명령에 따라, 출정!",
 		login = "매일 이렇게 제시간에…… 역시 지휘관이야. 이 점은 나도 보고 배워야겠어.",
 		vote = "",
-		name = "줄리오 체사레",
 		detail = "워스파이트… 드디어 일대일로 승부를 할 수 있는건가. 정말로 오래 기다렸다고!",
 		couple_encourage = {
 			{
@@ -30969,7 +30183,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "트레드밀이 비어있네. 편하게 쓰도록 해.",
 		vote = "",
-		name = "피트니스 마스터",
 		detail = "운동 계획을 세워줄까? 음, 어디보자. 먼저 팔굽혀펴기 100개, 그리고 윗몸 일으키기 100개, 그 다음은…… 에, 필요 없어? 왜?",
 		couple_encourage = {}
 	},
@@ -31003,7 +30216,6 @@ pg.ship_skin_words = {
 		battle = "음, 무슨 말을 해야 할까? 그러면… Ура!",
 		login = "……히끅, 음. 지휘관 동지, 혹시 이 향기에 끌려서 온 거야? 응…… 한 잔 할까?",
 		vote = "",
-		name = "그로즈니",
 		detail = "Кролик를 쥐고 있으면 지휘관 동지도 얌전히 말을 듣네. 응, 차파예프의 말이 맞았어.",
 		couple_encourage = {
 			{
@@ -31047,7 +30259,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관 동지, 오늘은 먹을 걸 주지 않아도 돼. 아직 괜찮아.",
 		vote = "",
-		name = "감옥의 위험한 토끼",
 		detail = "조금만 기다려. 히유… 응… 그로즈니의 방에 온 것을 환영해. 에? 이 아이가 무섭다고? 왜?",
 		couple_encourage = {}
 	},
@@ -31081,7 +30292,6 @@ pg.ship_skin_words = {
 		battle = "따라와보시지. Ура!",
 		login = "지휘관 동지, 마침 잘 왔어. 내가 또 번뜩이는 새로운 전술을 생각해냈다고! 한번 시험해줘.",
 		vote = "",
-		name = "민스크",
 		detail = "흐응? 새롭게 떠오른 영감 실험을 도와주려는 걸까? 지휘관 동지?",
 		couple_encourage = {
 			{
@@ -31124,7 +30334,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "벼락의 감옥장",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -31158,7 +30367,6 @@ pg.ship_skin_words = {
 		battle = "타슈켄트가 코를 납작하게 만들어 주겠어! Ура!",
 		login = "타슈켄트를 보면 즐거워? …… 아 그래? 마음대로 해.",
 		vote = "",
-		name = "타슈켄트",
 		detail = "동지쨩도 타슈켄트가 연습하는 걸 보러온 거야? 아 그래? 그래서 볼 거야?",
 		couple_encourage = {
 			{
@@ -31210,7 +30418,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "동지쨩, 이정도로 타슈켄트를 묶을 수 있을 거라고 생각했어? …… 아 그래? 순진하네. 후후.",
 		vote = "",
-		name = "속박된 순양함",
 		detail = "동지쨩, 타슈켄트가 이렇게 얼마나 더 있어야 하는 거야? … 아 그래… 에? 계속?!",
 		couple_encourage = {}
 	},
@@ -31244,7 +30451,6 @@ pg.ship_skin_words = {
 		battle = "우리의 목적지는 승리입니다!",
 		login = "아, 지휘관님, 어서오세요. 보르시라도 드시겠어요?",
 		vote = "",
-		name = "아브로라",
 		detail = "전사로서 행동하는 것은 뭔가 신선하네요.",
 		couple_encourage = {
 			{
@@ -31307,7 +30513,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "아, 지휘관님. 돌아오셨군요. 아브로라를 구해주러 오셨나요? 후후~",
 		vote = "",
-		name = "사로잡힌 서광의 공주",
 		detail = "공주 연기는 정말 신선한 느낌이네요. 후후~",
 		couple_encourage = {}
 	},
@@ -31341,7 +30546,6 @@ pg.ship_skin_words = {
 		battle = "충각전 준비! 간다!",
 		login = "야호~ 지휘관, 오늘은 무슨 일부터 할 거야?",
 		vote = "",
-		name = "파먀티 메르쿠리야",
 		detail = "그렇게 보지 마. 이래 봬도 나는 아브로라, {namecode:82}와 동시대의 함선이라고! 지휘관이라면 좀 더 존경을 표해야 하는 거 아니겠어?",
 		couple_encourage = {
 			{
@@ -31385,7 +30589,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "우우… 왜 이런 비참한 대우를 받아야 하는 거야…",
 		vote = "",
-		name = "감옥과 유혹",
 		detail = "우우우… 이 연습용 철창, 너무 튼튼한 거 아니야? 이봐, 강구트! 빨리 좀 와서 도와달라구……",
 		couple_encourage = {}
 	},
@@ -31419,7 +30622,6 @@ pg.ship_skin_words = {
 		battle = "이 아이도 능숙하게 다뤄보이겠어. 가자!",
 		login = "어서와 지휘관, 여기는 지휘실이라고? 물론 알고있어, '우리 둘만의 지휘실', 그렇지? ",
 		vote = "",
-		name = "차파예프",
 		detail = "지휘관, 대화라도 나눌까? 서로를 이해하는 것이 가장 중요하지. 안 그래?",
 		couple_encourage = {}
 	},
@@ -31453,7 +30655,6 @@ pg.ship_skin_words = {
 		battle = "열심히 싸울 거야!",
 		login = "하아… 하아… 지휘관, 오늘은 무엇부터 할 생각이야?",
 		vote = "",
-		name = "결박된 백기병",
 		detail = "언제든 나갈 수 있지만, 왜 나는 아직 여기에..... 지휘관? 아, 아니. 아무것도 아니야...",
 		couple_encourage = {}
 	},
@@ -31487,7 +30688,6 @@ pg.ship_skin_words = {
 		battle = "우리의 용기를 보여주게!",
 		login = "동지여. 오늘은 어떤 적과 싸워야 하는가? 나 강구트가 함께 싸워주도록 하지!",
 		vote = "",
-		name = "강구트",
 		detail = "패배하고 넘어지고, 진흙탕에서 구를지라도 다시 한번 일어날 수 있는 힘——그것이 우리가 추구하는 революция(혁명), 우리가 사랑하는 небо(천국)이라네!",
 		couple_encourage = {
 			{
@@ -31538,7 +30738,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "동지여, 연습을 보러 왔는가? 하하하. 궁금한 것이 있다면 물어보게. 아는 것은 전부 대답해 주지!",
 		vote = "",
-		name = "단호한 집행자",
 		detail = "동지여, 죄를 시인하기에는 아직 이르다네! 온 힘을 다해 저항하게나. 마지막까지 필사적으로 도망치게! 그래야 진정한 성장을 이룰 수 있다네!",
 		couple_encourage = {}
 	},
@@ -31572,7 +30771,6 @@ pg.ship_skin_words = {
 		battle = "포격 개시! 단숨에 적을 제압하라!",
 		login = "지휘관 동지, 오늘은 조금 늦었다. 근로 정신을 잊어서는 안 된다.",
 		vote = "",
-		name = "소비에츠카야 러시아",
 		detail = "지휘관 동지인가… 미안하다. 방이 조금 난잡하군. 하지만 목표 달성을 위한 어쩔 수 없는 희생이었다.",
 		couple_encourage = {
 			{
@@ -31634,7 +30832,6 @@ pg.ship_skin_words = {
 		battle = "움직이지 마! 가만히 있어!",
 		login = "설비 조사, 순찰. 그리고 기본적인 감시는 모두 순조롭게 진행 중이다.",
 		vote = "",
-		name = "게으른 감시자",
 		detail = "효과적인 처분 방식… 아, 쓰레기를 말하는 것이다. 그렇게 걱정한다는 얼굴 하지 않아도 돼.",
 		couple_encourage = {}
 	},
@@ -31668,7 +30865,6 @@ pg.ship_skin_words = {
 		battle = "아이리스의 이름에 맹세하건대, 적을 반드시 분쇄하겠어요!",
 		login = "어머, 평안하신가요? 오늘의 명령은 무엇인가요? 출격도 의뢰도, 이 제게 맡기셔도 좋답니다.",
 		vote = "",
-		name = "르 트리옹팡",
 		detail = "질문이라면 뭐~든 환영이랍니다. 전~부 대답해 드리죠.",
 		couple_encourage = {
 			{
@@ -31711,7 +30907,6 @@ pg.ship_skin_words = {
 		battle = "좋아, 지금 상태라면 이길 수 있을 거에요!",
 		login = "흣! 핫! 아, 지휘관님! 함께 워밍업이라도 어떻습니까?",
 		vote = "",
-		name = "포르뱅",
 		detail = "흣! 핫! 아, 지휘관님 마침 좋은 때에! 제 자율 훈련의 상대를 해주실 수 있을까요?",
 		couple_encourage = {
 			{
@@ -31754,7 +30949,6 @@ pg.ship_skin_words = {
 		battle = "이 옷…… 너무 더럽히면 안 되겠네요.",
 		login = "",
 		vote = "",
-		name = "플뢰르 드 블랑",
 		detail = "지휘관님, 신선한 과일이라도 어떠신가요?",
 		couple_encourage = {}
 	},
@@ -31788,7 +30982,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "아, 좋은 아침입니다. 지휘관님! 오늘도 날씨가 좋네요.",
 		vote = "",
-		name = "학원의 견습 기사",
 		detail = "전 검도부에 가입했어요. 공부 외 시간에 동료들과 함께 검술 연습을 하고 실력을 키울 수 있으니까요——엣? 이 검은 다르다고요?",
 		couple_encourage = {}
 	},
@@ -31822,7 +31015,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "샴페인 연회",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -31856,7 +31048,6 @@ pg.ship_skin_words = {
 		battle = "사랑하는 모든 것을 지키기 위해!",
 		login = "",
 		vote = "",
-		name = "포르뱅·改",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -31890,7 +31081,6 @@ pg.ship_skin_words = {
 		battle = "어쨌든 전진~!",
 		login = "Vas-y! 오늘의 일은 이제부터~!",
 		vote = "",
-		name = "르 테메레르",
 		detail = "모항의 모두는 친절해. 그치만, 말 붙이기 어려운 사람도 드문드문 보여……",
 		couple_encourage = {
 			{
@@ -31933,7 +31123,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "여——! 지휘관, 나 여기 있어!",
 		vote = "",
-		name = "한여름 Festival!",
 		detail = "지휘관, 내 수영복 어때? 아, 얘기한 김에 말하자면, 로피니아트르의 수영복도 내가 골라준거야!",
 		couple_encourage = {}
 	},
@@ -31967,7 +31156,6 @@ pg.ship_skin_words = {
 		battle = "괜찮아, 로피니아트르, 넌 할 수 있어......!",
 		login = "지휘관님, 역시 이 시간에 돌아오시는군요. 음? 단지 지휘관님의 평상시 습관에 근거한 \"점괘\"일 뿐입니다만.",
 		vote = "",
-		name = "로피니아트르",
 		detail = "이 책에는 수백개의 강력한 마력을 지닌 주문들이 기록되어 있어요...—농담입니다. 그냥 평범한 이야기책일 뿐이에요...... 정말입니다.",
 		couple_encourage = {
 			{
@@ -32010,7 +31198,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "이런, 안경에 모래가 묻었네. 손수건, 손수건......찾았다. 여기 있었구나...... 엇, 지휘관님 언제 오셨어요?",
 		vote = "",
-		name = "모래사장의 마법사?",
 		detail = "지휘관님, 계속 여자의 수영복만 주시하시다니, 신사적인 행동이 아니잖아요. 그리고 부끄럽기도 하고요......",
 		couple_encourage = {}
 	},
@@ -32044,7 +31231,6 @@ pg.ship_skin_words = {
 		battle = "한 곡 출게~",
 		login = "Bonjour(봉주르)~ 지휘관, 일하기 전에 같이 스트레칭이라도 하자~",
 		vote = "",
-		name = "에밀 베르탱",
 		detail = "춤은 모두를 행복하게 할 수 있으니까 좋아해♪",
 		couple_encourage = {}
 	},
@@ -32078,7 +31264,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 바다에 들어가기 전에 스트레칭, 까먹진 않았겠지?",
 		vote = "",
-		name = "Côte d'Azur/코트다쥐르",
 		detail = "지휘관, 비치 발리볼이라도 할래? 사실 나, 이런 거엔 자신 있다구♪",
 		couple_encourage = {}
 	},
@@ -32112,7 +31297,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "\"다녀오셨어요, 주인님~\" 이라고 로열의 메이드들은 인사하더라고~",
 		vote = "",
-		name = "「메이드」로맨틱",
 		detail = "수수하든 화려하든 마음만 먹으면 그 옷이 가지고 있는 특유의 로맨틱함을 느낄 수 있을 거야!",
 		couple_encourage = {}
 	},
@@ -32146,7 +31330,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오늘도 아름다운 하루야, 지휘관!",
 		vote = "",
-		name = "에밀 베르탱·改",
 		detail = "지금의 나는, 분명 더 많은 사람들에게 아름다운 춤을 선사할 수 있어.",
 		couple_encourage = {}
 	},
@@ -32180,7 +31363,6 @@ pg.ship_skin_words = {
 		battle = "전사들이여, 나를 따르세요!",
 		login = "오늘도 모항에서 하늘의 가호를 받을 수 있기를.",
 		vote = "",
-		name = "잔 다르크",
 		detail = "잔 다르크…… 이 이름은 너무나도 많은 것을 짊어지고 있습니다. 하지만 이것이 저의 사명이기에 도망치지 않겠습니다.",
 		couple_encourage = {
 			{
@@ -32223,7 +31405,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 시작할까요? 저는 준비 되었습니다.",
 		vote = "",
-		name = "바다의 성녀",
 		detail = "모항에 이렇게 박진감 넘치는 곳이 있다니, 놀랐습니다…",
 		couple_encourage = {}
 	},
@@ -32257,7 +31438,6 @@ pg.ship_skin_words = {
 		battle = "자유와 명예의 이름으로, 전 함대! aux armes, marchons!",
 		login = "지휘관님, Bonjour. 오늘 회의에서 질의할 내용을 검토해보도록 하지요.",
 		vote = "",
-		name = "리슐리외",
 		detail = "나를 믿고 따르면 원하는 것을 얻을 수 있을 겁니다. 기도하고 찾으세요. 그렇다면 길이 열릴 것입니다.",
 		couple_encourage = {
 			{
@@ -32338,7 +31518,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "풍경이 아름답네요. 보는 눈이 있으시군요, 지휘관님.",
 		vote = "",
-		name = "잔잔한 조석풍의 Fleuron",
 		detail = "아이리스 리브레의 교리에는 쉬어서는 안 된다는 말은 없답니다. 오늘은 신께서 내려 주신 축복이니 모두 푹 쉬도록 하지요.",
 		couple_encourage = {}
 	},
@@ -32372,7 +31551,6 @@ pg.ship_skin_words = {
 		battle = "여러분, 계획대로 전투 준비를!",
 		login = "지휘관님, 오늘의 업무입니다. 확인해주세요.",
 		vote = "",
-		name = "베아른",
 		detail = "조작 방식… 과거 기록… 재료 개선… 이렇게 조합해본다면 더 재밌지 않을까요… 음, 일단 기록해 두도록 하지요.",
 		couple_encourage = {
 			{
@@ -32434,7 +31612,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 튜브가 필요하신가요? 저쪽에 있는 아이들과 놀 때 요긴하게 쓰일지도 몰라요.",
 		vote = "",
-		name = "라이프가드 스테이션",
 		detail = "모두가 자신의 방식으로 여름의 해변을 즐기고 있네요. 지휘관님도 어울리시는 게 어떤가요? 모래성이나 비치 발리볼 같은… 저요? 저는 여기서 모두를 지켜보는 것으로 만족해요.",
 		couple_encourage = {}
 	},
@@ -32468,7 +31645,6 @@ pg.ship_skin_words = {
 		battle = "조금 큰 사냥감이야! On y va(같이 가자)!",
 		login = "Salut(안녕)~ 지휘관, 좋은 아침~",
 		vote = "",
-		name = "쉬르쿠프",
 		detail = "지휘관, 우리 함대의 깃발이라도 만들어 볼래? 이 아이리스 깃발 같은 느낌으로~",
 		couple_encourage = {}
 	},
@@ -32502,7 +31678,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 준비 됐어? 다음 가게로 출발~",
 		vote = "",
-		name = "쇼핑 타임!",
 		detail = "이 바이크, 정말 좋은걸! 탑승감 좋고, 튼튼하고, 가격 착하고~ 고마워 고마워♪",
 		couple_encourage = {}
 	},
@@ -32536,7 +31711,6 @@ pg.ship_skin_words = {
 		battle = "준비 운동 완료! 갑니다아!",
 		login = "지휘관님, 드디어 오셨군요! 그래서, 오늘의 훈련 임무는 무엇인가요?",
 		vote = "",
-		name = "르 마르스",
 		detail = "사실 저, 포르뱅이 조금 부러운 것 같습니다. 그때는 저쪽도 똑같이 움직이지 못했지만, 저보다는……",
 		couple_encourage = {
 			{
@@ -32579,7 +31753,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 모처럼의 여름이니까 그렇게 음침하게 있으면 안 돼요! 같이 햇살과 모래사장을 즐겨요♪",
 		vote = "",
-		name = "에테 브릴리언트",
 		detail = "이건, 단순한 튜브가 아니라, 물총의 탄약고이기도 한 거에요. 에헤헤, 위력 한 번 맛보실래요? 지휘관님~",
 		couple_encourage = {}
 	},
@@ -32613,7 +31786,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오늘도 학원 생활 화이팅!",
 		vote = "",
-		name = "빛나는 행복한 학원",
 		detail = "학원 생활이라면, 틀림없이 햇빛을 받으며 운동장을 달리는 것이겠죠!?",
 		couple_encourage = {}
 	},
@@ -32647,7 +31819,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "어뢰도 포탄도 준비 만반! 지휘관님, 언제든지 출격할 수 있어요!",
 		vote = "",
-		name = "르 마르스·改",
 		detail = "지휘관님은 제 전 포문 발사관 전개의 늠름한 모습이 그렇게나 보고 싶으신가요? 에헤헤, 어쩔 수 없네요~",
 		couple_encourage = {}
 	},
@@ -32681,7 +31852,6 @@ pg.ship_skin_words = {
 		battle = "정신 집중…!",
 		login = "아, 지휘관님. 안녕하세요. 왜 지금까지 오지 않으셨는지 생각하고 있었습니다.",
 		vote = "",
-		name = "타르투",
 		detail = "친절한 됭케르크나 우아한 알제리, 위엄있는 리슐리외…모두 매력적인 여성이에요. 음, 저도 목표로 삼고 힘내야겠죠!",
 		couple_encourage = {
 			{
@@ -32732,7 +31902,6 @@ pg.ship_skin_words = {
 		battle = "파도에 떠밀려가지는 않을 거예요!",
 		login = "아, 지휘관님. 안녕하세요. 아이스크림 드실래요?",
 		vote = "",
-		name = "걱정이 많은 한여름",
 		detail = "아, 지휘관님. 해변에서 일어난 살인사건을 다룬 탐정 소설에 대해서 생각하고 있었어요.",
 		couple_encourage = {}
 	},
@@ -32766,7 +31935,6 @@ pg.ship_skin_words = {
 		battle = "대형! 구축함의 힘을! 보여주지!",
 		login = "지휘관, 디저트 가져다 준다고 하지 않았어? 내 디저트는!",
 		vote = "",
-		name = "보클랭",
 		detail = "지휘관, 갑자기 나타나면 깜짝 놀란단 말이야.",
 		couple_encourage = {
 			{
@@ -32809,7 +31977,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "천진난만한 여름의 기사",
 		detail = "타르투, 설마 또 파도에 휩쓸려 가는 건 아니겠지…… 아니, 그럴 리 없어.",
 		couple_encourage = {}
 	},
@@ -32843,7 +32010,6 @@ pg.ship_skin_words = {
 		battle = "비시아를 수호하는 마검, 전진!",
 		login = "구축함 르 말랭, 언제든 명령만 내려주세요——하암... 졸려...",
 		vote = "",
-		name = "르 말랭",
 		detail = "하암... 졸려... 침대에서 뒹굴뒹굴하고 싶다......Zzzzz...... 엇!? 무, 무슨 일이시죠!?",
 		couple_encourage = {
 			{
@@ -32886,7 +32052,6 @@ pg.ship_skin_words = {
 		battle = "르 팡타스크급의 힘을 보여주겠어요!",
 		login = "",
 		vote = "",
-		name = "나른한 디망쉬",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -32920,7 +32085,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님, 아이스크림……",
 		vote = "",
-		name = "비밀 기지의 Mercredi",
 		detail = "해먹은 편하지만 굴러다닐 수는 없네요… 쯧, 계산 실패예요…",
 		couple_encourage = {}
 	},
@@ -32954,7 +32118,6 @@ pg.ship_skin_words = {
 		battle = "신나게 놀아보자고…!",
 		login = "드디어 왔구나? 없는 동안 따분해 죽는 줄 알았다고. 저기, 나한테 시킬 일 없어?",
 		vote = "",
-		name = "라 갈리소니에르",
 		detail = "응? 내가 들고 있는 거에 관심이 있는 걸까, 아니면… 나에게 관심이 있는 걸까?",
 		couple_encourage = {
 			{
@@ -33005,7 +32168,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "준비 운동? 필요 없어~ 벌써 이렇게 놀고 있잖아. 괜찮을 거야.",
 		vote = "",
-		name = "순결한 Piscine",
 		detail = "만약 지휘관이 물에 빠진다면 제일 먼저 튜브를 던져주는 건 나일걸! 지휘관은 꽤 빠르니까 분명 잘 잡을 수 있을 거야~",
 		couple_encourage = {}
 	},
@@ -33039,7 +32201,6 @@ pg.ship_skin_words = {
 		battle = "기대를 저버리지 않는 싸움이 되길… 후후.",
 		login = "지휘관, 우리는 친구이니 조금 더 기다리게 해도 상관 없다.",
 		vote = "",
-		name = "알제리",
 		detail = "지휘관, 역사와 진실 사이의 괴리를 알고 싶다면 직접 답을 찾아야하지 않을까?",
 		couple_encourage = {
 			{
@@ -33101,7 +32262,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "아직 정신이 덜 들었나? 일광욕은 기분 좋지만 너무 오래하면 새까맣게 타버릴 수도 있다고?",
 		vote = "",
-		name = "하얀 모래의 천국",
 		detail = "이렇게 많은 여자아이들에게 둘러 쌓인 것도 일종의 행복이겠지. 지휘관, 과연 그 눈길은 누구에게 머무르게 될까?",
 		couple_encourage = {}
 	},
@@ -33135,7 +32295,6 @@ pg.ship_skin_words = {
 		battle = "미안, 적을 봐주는 게 가능할 리 없잖아.",
 		login = "지휘관, 잘 쉬었어?",
 		vote = "",
-		name = "됭케르크",
 		detail = "마카롱과 몽블랑, 어느 것이 좋을까…… 어머, 지휘관, 좋은 타이밍에 와줬네. 오늘은 어떤 과자를 만들면 좋을지 정해줬으면 해.",
 		couple_encourage = {}
 	},
@@ -33169,7 +32328,6 @@ pg.ship_skin_words = {
 		battle = "적…… 음울하네.",
 		login = "지휘관, 수영복으로 잘 갈아입었어?",
 		vote = "",
-		name = "여름의 슈크레",
 		detail = "다들 즐거워보여…… 이보다 더 기쁜 일은 없어.",
 		couple_encourage = {}
 	},
@@ -33203,7 +32361,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관, 왔어? 응? 괜찮아, 나도 조금 전에 막 도착했어.",
 		vote = "",
-		name = "오후 3시의 Venus",
 		detail = "지휘관은 내가 만든 디저트 중 어떤게 가장 좋아?",
 		couple_encourage = {}
 	},
@@ -33237,7 +32394,6 @@ pg.ship_skin_words = {
 		battle = "기사도 따위 쓸모없다! 한꺼번에 덤벼라!",
 		login = "너…… 보기 보다 바쁜 모양이군. 내가 도울 수 있는 것이 있다면 말이라도 걸어라.",
 		vote = "",
-		name = "장 바르",
 		detail = "멋대로 남의 속사정을 캐는 녀석은, 주포에 매달려도 불평할 수 없을 거다.",
 		couple_encourage = {}
 	},
@@ -33271,7 +32427,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "네 녀석…… 지루한 것 같군, 지휘관. 흥, 우연이지만 나도 지금 지루해서 말이다.",
 		vote = "",
-		name = "자유의 BloodStone",
 		detail = "다른 사람보다 나는 됭케르크의 이야기를 듣고 싶다. 됭케르크는 듣기도 잘 들어주지만, 자기 이야기도 잘 하거든.",
 		couple_encourage = {}
 	},
@@ -33305,7 +32460,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "내 물건에 함부로 손대지 마, 내가 너를 날려버릴지도 몰라.",
 		vote = "",
-		name = "비밀의 Après midi",
 		detail = "보물 찾기? 흥, 근해에 무슨 보물이 있을 수 있겠어. 언젠가 세이렌을 해결하고 나면 내가 진정한 보물 찾기를 체험시켜 줄게.",
 		couple_encourage = {}
 	},
@@ -33339,7 +32493,6 @@ pg.ship_skin_words = {
 		battle = "작전 프로토콜——코드명: 아이돌, 가동.",
 		login = "보컬, 댄스, 비주얼—— 주인, 가스코뉴의 오늘 스케쥴 설정을 요청한다.",
 		vote = "",
-		name = "가스코뉴(μ장비)",
 		detail = "질문. 주인이 좋아하는 노래는 어떤 것인가?",
 		couple_encourage = {}
 	},
@@ -33373,7 +32526,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "쾨니히스베르크",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -33407,7 +32559,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "카를스루에",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -33441,7 +32592,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "쾰른",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -33475,7 +32625,6 @@ pg.ship_skin_words = {
 		battle = "적 씨, 강한 듯 해요……",
 		login = "",
 		vote = "",
-		name = "서포크",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -33509,7 +32658,6 @@ pg.ship_skin_words = {
 		battle = "노포크…여, 열심히 하겠습니다…",
 		login = "",
 		vote = "",
-		name = "노포크",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -33543,7 +32691,6 @@ pg.ship_skin_words = {
 		battle = "영광은 언제나 저희와 함께 있음을.",
 		login = "어서 오십시오. 지휘관님. 홍차는 어떠신가요?",
 		vote = "",
-		name = "후드",
 		detail = "로열 네이비의 영광, 마음껏 봐주시기 바랍니다.",
 		couple_encourage = {}
 	},
@@ -33577,7 +32724,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "프린스 오브 웨일즈",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -33611,7 +32757,6 @@ pg.ship_skin_words = {
 		battle = "솔로몬에… 가고 싶어?",
 		login = "지휘관은 드셨나요? 간식, 말이에요.",
 		vote = "",
-		name = "아야나미",
 		detail = "통신 설비, 이번에는 제대로 정비했어요. 폐를 끼치진 않을 거예요…",
 		couple_encourage = {}
 	},
@@ -33645,7 +32790,6 @@ pg.ship_skin_words = {
 		battle = "전투는 소인에게 맡겨주게! 「최강」의 이름을 절대 더럽히지 않겠네!",
 		login = "타카오, 여기서 주군의 명을 기다리고 있다. 지시는?",
 		vote = "",
-		name = "타카오",
 		detail = "「티끌이 모여 태산이 되고, 실도랑이 모여 대동강이 된다. 」 ──평소 단련을 꾸준히 정진하는 자가 승리를 쟁취할 수 있다. 소인은 그리 믿고 있네.",
 		couple_encourage = {}
 	},
@@ -33679,7 +32823,6 @@ pg.ship_skin_words = {
 		battle = "말이 안 통하는 애한텐 벌을 줘야지~",
 		login = "…어서 와. 오늘은 뭘 하고 싶니?",
 		vote = "",
-		name = "아타고",
 		detail = "여자의 몸무게는 쉽게 알아낼 수 있는 게 아니란다? 우후후훗… ",
 		couple_encourage = {}
 	},
@@ -33713,7 +32856,6 @@ pg.ship_skin_words = {
 		battle = "완성형 정규 항공모함… 쇼카쿠, 갑니다!",
 		login = "지성은 여자의 매력이라고 합니다만…… 덕분에 '선배들' 과는 자주 껄끄러워져요… 우후훗, 곤란하네요♪",
 		vote = "",
-		name = "쇼카쿠",
 		detail = "이 피리 소리는 망자를 달래는 진혼곡…… 지휘관, 한 곡 어떠신지요? 우후훗♪",
 		couple_encourage = {
 			{
@@ -33788,7 +32930,6 @@ pg.ship_skin_words = {
 		battle = "끝도 없이 몰려오는 적들… 이런 건 이미 겪을 만큼 많이 겪었으니까!",
 		login = "오늘은 어느 쪽이야? 진주만? 아니면 산호해?",
 		vote = "",
-		name = "즈이카쿠",
 		detail = "1대1로 진검승부를 해보고 싶어… '그레이 고스트'!",
 		couple_encourage = {
 			{
@@ -33863,7 +33004,6 @@ pg.ship_skin_words = {
 		battle = "사쿠라 엠파이어의 흥망! 이 전투에 달렸으니!",
 		login = "인류에게 바다를 되찾아 줄 때까지, 용왕매진을 멈춰서는 아니 된다!",
 		vote = "",
-		name = "미카사",
 		detail = "기함이란 최전선에서 지휘를 맡는 법. 당연하지 않은가.",
 		couple_encourage = {}
 	},
@@ -33897,7 +33037,6 @@ pg.ship_skin_words = {
 		battle = "후후, 의전의 여흥으로 상대 해 드리도록 할까요",
 		login = "전투 후의 연회야 말로 제일 마음이 편안해지죠……그건 그렇고 지휘관님, 저…이 다음 일정은 비어있답니다…?",
 		vote = "",
-		name = "히에이",
 		detail = "후후, 말차와 홍차…어느 쪽이 더 좋으세요?",
 		couple_encourage = {}
 	},
@@ -33931,7 +33070,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "海伦娜",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -33965,7 +33103,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "北卡罗来纳",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -33999,7 +33136,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "华盛顿",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -34033,7 +33169,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "？？？？？",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -34067,7 +33202,6 @@ pg.ship_skin_words = {
 		battle = "지휘관의 적은 절대로 놓치지 않는다! ",
 		login = "",
 		vote = "",
-		name = "워스파이트",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -34101,7 +33235,6 @@ pg.ship_skin_words = {
 		battle = "너네는 도망가지 못 해! ",
 		login = "",
 		vote = "",
-		name = "U-556",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -34135,7 +33268,6 @@ pg.ship_skin_words = {
 		battle = "너네는 도망가지 못 해! ",
 		login = "",
 		vote = "",
-		name = "U-556",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -34169,7 +33301,6 @@ pg.ship_skin_words = {
 		battle = "너네는 도망가지 못 해! ",
 		login = "",
 		vote = "",
-		name = "U-556",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -34203,7 +33334,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "指挥喵",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -34237,7 +33367,6 @@ pg.ship_skin_words = {
 		battle = "힘차게 나아가자!",
 		login = "왔나. 전투 준비라면, 언제든 되어 있다고",
 		vote = "",
-		name = "엔터프라이즈",
 		detail = "내 훈장 컬렉션이라도 보겠나?",
 		couple_encourage = {
 			{
@@ -34323,7 +33452,6 @@ pg.ship_skin_words = {
 		battle = "눈앞의 적을 소탕한다! 전원 포격 준비!",
 		login = "지휘관, 어서 와! 오늘도 작전 행동하기 좋은 날씨네!​",
 		vote = "",
-		name = "덴버",
 		detail = "지휘관, 내 훈련 보고 가지 않을래? 에헤헤, 차라리 지휘관도 참가해보지 그래?",
 		couple_encourage = {
 			{
@@ -34366,7 +33494,6 @@ pg.ship_skin_words = {
 		battle = "칫, 별수 없지! 우리 남부인의 힘을 보여주마!",
 		login = "오늘도 날씨가 잠잠하네! 좋아 좋아! ",
 		vote = "",
-		name = "컬럼비아",
 		detail = "나에 대해 알고 싶어? 그래~ 실컷 보라고~",
 		couple_encourage = {
 			{
@@ -34409,7 +33536,6 @@ pg.ship_skin_words = {
 		battle = "해상기사단, 진군!",
 		login = "왔어? 그럼 난 나갔다 올게. 여긴 너무 따분해.",
 		vote = "",
-		name = "몬트필리어",
 		detail = "언니이~! …가 아니라 지휘관이었네. 무슨 일이지?",
 		couple_encourage = {
 			{
@@ -34452,7 +33578,6 @@ pg.ship_skin_words = {
 		battle = "서두르고 있거든… 모두 한꺼번에 덤벼도 되는데?",
 		login = "하이, 지휘관. 오늘은 기운이 넘쳐 보이는데!",
 		vote = "",
-		name = "클리블랜드",
 		detail = "나, 자신 있다고.",
 		couple_encourage = {}
 	},
@@ -34486,7 +33611,6 @@ pg.ship_skin_words = {
 		battle = "잘 모르지만 할 수밖에 없어 푸링~!",
 		login = "렌치 한 방에 집무실의 마루도 뚫을 수 있어 푸링!",
 		vote = "",
-		name = "범용형 부린",
 		detail = "푸링?──푸링? 여기 어디? 어떻게 하면 되는 거야?",
 		couple_encourage = {}
 	},
@@ -34520,7 +33644,6 @@ pg.ship_skin_words = {
 		battle = "주인공의 힘, 보여줄게~!",
 		login = "어서 와~! 오늘 하루도 힘내자 네푸!",
 		vote = "",
-		name = "넵튠",
 		detail = "그렇게 빤히 쳐다보면 부끄럽네",
 		couple_encourage = {
 			{
@@ -34573,7 +33696,6 @@ pg.ship_skin_words = {
 		battle = "내 진짜 실력, 보여줄게!",
 		login = "꽤나 여유로운 귀환이네, 오늘도 할 일이 가득 있으니까 정신 바짝 차리라고.",
 		vote = "",
-		name = "느와르",
 		detail = "자, 잠깐! 어딜 보는 거야!",
 		couple_encourage = {
 			{
@@ -34626,7 +33748,6 @@ pg.ship_skin_words = {
 		battle = "침착하게 하면 문제 없어",
 		login = "어서 와. 특별히 변한 건 없어.",
 		vote = "",
-		name = "블랑",
 		detail = "지휘관도 책을 읽고 싶은 거야?",
 		couple_encourage = {
 			{
@@ -34677,7 +33798,6 @@ pg.ship_skin_words = {
 		battle = "지휘관 씨, 준비는 되셨나요?",
 		login = "안녕하세요. 마침 홍차를 끓이고 있었어요. 지휘관 씨도 함께 어떠세요?",
 		vote = "",
-		name = "벨",
 		detail = "우후훗, 제게 무슨 용무라도?",
 		couple_encourage = {
 			{
@@ -34738,7 +33858,6 @@ pg.ship_skin_words = {
 		battle = "하나도 남김 없이 해치워주겠어.",
 		login = "어서 와. 출격 할래? 연습전 할래? 아니면 푸·디·잉?",
 		vote = "",
-		name = "퍼플 하트",
 		detail = "그렇게 신경쓰이면 더 가까이 와도 된다고.",
 		couple_encourage = {
 			{
@@ -34791,7 +33910,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "여신의 약속",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -34825,7 +33943,6 @@ pg.ship_skin_words = {
 		battle = "처음부터 날려버려 주마!",
 		login = "여신의 전투법을 보여주지! 언제든 좋다고.",
 		vote = "",
-		name = "블랙 하트",
 		detail = "저기, 너무 가깝지 않아?",
 		couple_encourage = {
 			{
@@ -34876,7 +33993,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "여신의 미소",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -34910,7 +34026,6 @@ pg.ship_skin_words = {
 		battle = "이대로 돌아갈 수 있을 거라 생각하지 마라!",
 		login = "느리다고. 정말이지… 언제까지 기다리게 할 거야.",
 		vote = "",
-		name = "화이트 하트",
 		detail = "무슨 일인가?",
 		couple_encourage = {
 			{
@@ -34961,7 +34076,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "여신의 부끄러움",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -34995,7 +34109,6 @@ pg.ship_skin_words = {
 		battle = "시작부터 전력으로 상대 해드리죠.",
 		login = "늦었네요. 홍차는 우려냈을 때가 제일 맛있다고요.",
 		vote = "",
-		name = "그린 하트",
 		detail = "제 아름다움에 넋이 나간 모양이네요.",
 		couple_encourage = {
 			{
@@ -35048,7 +34161,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "여신의 한때",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -35082,7 +34194,6 @@ pg.ship_skin_words = {
 		battle = "자 그럼 전력으로 간다!",
 		login = "안녕, 지휘관. 잘 잤어? 자, 오늘도 힘내서 일해볼까!",
 		vote = "",
-		name = "쿠온",
 		detail = "나를 알고 싶다고? 그럼 서로를 잘 알기 위해 대화를 해야겠네.",
 		couple_encourage = {}
 	},
@@ -35116,7 +34227,6 @@ pg.ship_skin_words = {
 		battle = "금방 돌아올 테니까, 잔치 준비라도 해놓고 기다리라고.",
 		login = "좋은 아침, 일어났어?",
 		vote = "",
-		name = "쿠온 (칭송받는 자)",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -35150,7 +34260,6 @@ pg.ship_skin_words = {
 		battle = "전쟁에 초조해하는 것은 금물, 먼저 상대의 반응을 살피는 거예요",
 		login = "드디어 왔네요…… 일이 산처럼 쌓여있어요. 빨리 처리하셨으면 하는 거에요.",
 		vote = "",
-		name = "네코네",
 		detail = "친목을 다지고 싶다구요? 뭐, 조금만이라면 괜찮은 거에요.",
 		couple_encourage = {}
 	},
@@ -35184,7 +34293,6 @@ pg.ship_skin_words = {
 		battle = "병귀신속이에요. 서두르지 않으면 안 되는 거에요.",
 		login = "……안녕하세요, 에요.",
 		vote = "",
-		name = "네코네 (칭송받는 자)",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -35218,7 +34326,6 @@ pg.ship_skin_words = {
 		battle = "저도…… 싸울 수 있어요!",
 		login = "안녕하세요, 지휘관님. 업무 준비, 다 되어 있습니다.",
 		vote = "",
-		name = "루루티에",
 		detail = "저기…… 제게 용건이 있으신가요?",
 		couple_encourage = {}
 	},
@@ -35252,7 +34359,6 @@ pg.ship_skin_words = {
 		battle = "싸우겠습니다……상대가 그 누구라해도, 싸워보이겠습니다.",
 		login = "자, 잘 부탁드립니다……",
 		vote = "",
-		name = "루루티에 (칭송받는 자)",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -35286,7 +34392,6 @@ pg.ship_skin_words = {
 		battle = "온비타이카얀의 가호가 있기를……",
 		login = "안녕.",
 		vote = "",
-		name = "우루루",
 		detail = "자세히.",
 		couple_encourage = {}
 	},
@@ -35320,7 +34425,6 @@ pg.ship_skin_words = {
 		battle = "부디, 명령을.",
 		login = "좋은 아침.",
 		vote = "",
-		name = "우루루 (칭송받는 자)",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -35354,7 +34458,6 @@ pg.ship_skin_words = {
 		battle = "온비타이카얀의 가호가 있기를……",
 		login = "기다리고 있었습니다 지휘관님. 오늘도 아무쪼록 지도 부탁드립니다.",
 		vote = "",
-		name = "사라나",
 		detail = "원하신다면 상세하게 말씀드리겠습니다.",
 		couple_encourage = {}
 	},
@@ -35388,7 +34491,6 @@ pg.ship_skin_words = {
 		battle = "저희가 지켜드리겠습니다.",
 		login = "좋은 아침입니다. 일어나실 시간입니다.",
 		vote = "",
-		name = "사라나 (칭송받는 자)",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -35422,7 +34524,6 @@ pg.ship_skin_words = {
 		battle = "조금은 언니다운 모습을 보여줘야……",
 		login = "안녕하세요 지휘관님. 우선은 어떤 일부터 손을 대시겠어요?",
 		vote = "",
-		name = "후미뤼르",
 		detail = "저보다는 쿠온에 대해서 이야기하는 것이 어때요?",
 		couple_encourage = {}
 	},
@@ -35456,7 +34557,6 @@ pg.ship_skin_words = {
 		battle = "그럼, 바로 준비해야겠네요.",
 		login = "기다리고 있었습니다. 꽤 시간이 걸리신 것 같네요.",
 		vote = "",
-		name = "후미뤼르 (칭송받는 자)",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -35490,7 +34590,6 @@ pg.ship_skin_words = {
 		battle = "이번에야말로, 인텔리전트한 슈퍼 AI의 힘을 보여줄 때…!",
 		login = "아, 지휘관님 어서 오세요! 방금 새로운 영상을 올렸어요. 해역 돌면서 봐주세요!",
 		vote = "",
-		name = "키즈나 아이",
 		detail = "앗, 지휘관님! 채널 구독하러 오셨나요? 엥, 그냥 보러 왔다구요?모처럼이니까 구독하고 가시죠! 자!",
 		couple_encourage = {
 			{
@@ -35543,7 +34642,6 @@ pg.ship_skin_words = {
 		battle = "포격 축제의 시작이다~! 불꽃 발사!",
 		login = "정말~ 지휘관님~! '미안, 기다렸어?'가 아니에요. 엄청나게 기다렸다고요! 조금만 더 늦었으면 돌아가려고 했다니까요! 정말, 얼른 축제 가죠!",
 		vote = "",
-		name = "키즈나 아이",
 		detail = "유카타 참 좋네요! 저는 버츄얼이니까 더위 같은 건 못 느낄텐데도, 왠지 시원한 기분이 들어요.",
 		couple_encourage = {}
 	},
@@ -35577,7 +34675,6 @@ pg.ship_skin_words = {
 		battle = "여러분, 상처를 입지 않도록 조심해서 가시죠.",
 		login = "어서 오세요, 지휘관님. 곧 회의 시간입니다. 오늘 하루도 힘내요♪",
 		vote = "",
-		name = "키즈나 아이 - 엘레강트",
 		detail = "안심하세요. 정장을 몸에 걸친 제가 너무나도 우아해서 시선을 빼앗겨버릴지도 모릅니다만, 변함없이 인텔리전트한 슈퍼 AI, 키즈나 아이랍니다?",
 		couple_encourage = {
 			{
@@ -35620,7 +34717,6 @@ pg.ship_skin_words = {
 		battle = "배틀도 텐션 올려서 간다~~~!",
 		login = "지휘관 어서 와! 다음 라이브를 대비해서 새러토가 선생님에게 노래 레슨을 받고 있어. 조금 들어 봐!",
 		vote = "",
-		name = "키즈나 아이 - 애니버서리",
 		detail = "지휘관은 어떤 음악 들어? 지금 되게 추천하는 아티스트가 있어! Kizuna AI라고 하는데…… 아, 나였다!",
 		couple_encourage = {
 			{
@@ -35663,7 +34759,6 @@ pg.ship_skin_words = {
 		battle = "간다아아아아! 이야아아아아압!",
 		login = "지휘관님, 로그인 보너스는 잊지 말고 받으세요. 게임의 기본이야~!",
 		vote = "",
-		name = "키즈나 아이 - 슈퍼 게이머",
 		detail = "지휘관님도 게임하러 오셨나요? 마침 방송하려고 했던 게임이 있어요! 지휘관님도 같이 어때요?",
 		couple_encourage = {
 			{
@@ -35706,7 +34801,6 @@ pg.ship_skin_words = {
 		battle = "Gamers 리더! 시라카미 후부키! 출격!",
 		login = "지휘관! 돌아온 걸 환영해! 맛있는 차를 준비해 기다리고 있었다구! 자! 나랑 같이 출격하자♫",
 		vote = "",
-		name = "시라카미 후부키",
 		detail = "나는 정통파 큐트 브이튜버라구~ 성격은 조금 조용하고 부끄럼 많지만… 엑, 그렇게 안 보여? 그냥 사람들과 이야기 하는 것을 좋아하는 걸~|",
 		couple_encourage = {
 			{
@@ -35770,7 +34864,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "바다면 당연히 수영복이 떠오르지! 여름 버전에서 조금 더 개방적으로 변한 후부키라구~",
 		vote = "",
-		name = "모래사장의 여우",
 		detail = "모처럼 수영복을 입었는데 해변에 가지 않는 거야? 으와아앗… 그런뜻이 아니라 연습에 도움이 되었으면 한다는 거지.",
 		couple_encourage = {}
 	},
@@ -35804,7 +34897,6 @@ pg.ship_skin_words = {
 		battle = "아군 함대가 아니야… 그럼 너희가 바로 적이구나?",
 		login = "돌아온 걸 환영해, 지휘관~ 오늘도 힘내자!",
 		vote = "",
-		name = "토키노 소라",
 		detail = "다음번에는 퀸 엘리자베스와 함께 공포 게임 방송을 해볼까~ 굉장히 재미있을 것 같은걸!",
 		couple_encourage = {}
 	},
@@ -35838,7 +34930,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "돌아온 걸 환영해, 지휘관~ 오늘도 해변에서 릴렉스 타임을 좀 가질까?",
 		vote = "",
-		name = "맑은 하늘의 여름",
 		detail = "비치 발리볼? 잘 할 수 있을지 모르겠네… hololive game 대결을 하지 않을래?",
 		couple_encourage = {}
 	},
@@ -35872,7 +34963,6 @@ pg.ship_skin_words = {
 		battle = "아쿠아호, 전탄 발사! … 에? 이 버튼이 아니야?!!",
 		login = "안녕이쿠아~ 나는 게임을 좀 더 할테니까 지휘관은 일 힘내!",
 		vote = "",
-		name = "미나토 아쿠아",
 		detail = "이 장비 위에 올라서면 지휘관보다 훨씬 커! … 아마도.",
 		couple_encourage = {
 			{
@@ -35924,7 +35014,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "후~ 오늘은 늦잠을 자지 않아서 다행이야. 그렇다면 지휘관, 이제 뭘 해야 해?",
 		vote = "",
-		name = "해변의 메이드",
 		detail = "먼, 먼저 말해두지만… 난 수영 못해. 지휘관이 잘 도와줘야 한다구! 하지만 얕은 물이라면 괜찮아…",
 		couple_encourage = {}
 	},
@@ -35958,7 +35047,6 @@ pg.ship_skin_words = {
 		battle = "후후후, 적들에게 이 자연재해 같은 여고생의 전투력을 보여주지!",
 		login = "지휘관, 안녕~ 오늘도 열심히 하자. 이상한 계획이 있을 거라고 기대하지는 마. 나는 초——진지한 브이튜버니까!",
 		vote = "",
-		name = "나츠이로 마츠리",
 		detail = "이봐, 나를 보면서 ‘미안'이라는 말하지 말라고. 어쨌든 마츠리도 여자애란 말이야. 주의해줘. 미안하다면 마츠리의 귀여운 점을 말해보자!",
 		couple_encourage = {
 			{
@@ -36010,7 +35098,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "하암~ (하품) 새로운 하루의 시작인가? 아직 잠이 부족한데… 하지만 어서 정신을 차려야지. 좋은 일이 일어날 것 같은 예감이 들어! 지휘관도 게으름 피우지 말라구~",
 		vote = "",
-		name = "마츠리의 일상생활",
 		detail = "이 폭신한 느낌이 좋아? 흐응! 드디어 마츠리의 귀여운 점을 알아차렸구나. 포즈를 바꿔줄 테니까 지휘관, 사진 찍어도 좋아. 사양하지 않아도 돼.",
 		couple_encourage = {}
 	},
@@ -36044,7 +35131,6 @@ pg.ship_skin_words = {
 		battle = "짐의 실력을 보여줄 때가 왔군. [카르마], [시라누이], 가자!",
 		login = "아, 지휘관님 돌아왔구나~ 짐은 방송 준비를 하고 있어. 조금만 기다려줘~",
 		vote = "",
-		name = "나키리 아야메",
 		detail = "‘귀신’이라는 이름을 가진 동료가 여기에도 있는 것 같더군. 짐도 꼭 한번 만나보고 싶구나!",
 		couple_encourage = {
 			{
@@ -36087,7 +35173,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오래 기다렸다! 다음 전장은 바다 밑이다!",
 		vote = "",
-		name = "여름의 백귀",
 		detail = "엣, 이런 옷을 입고 전투를?! 모처럼의 휴가를 즐기는 줄 알았는데----!",
 		couple_encourage = {}
 	},
@@ -36121,7 +35206,6 @@ pg.ship_skin_words = {
 		battle = "시온을 얕보지 말라구. 속공 작전 개시!",
 		login = "좋은 아침, 지휘관! 이 코스튬을 입은 시온은 모항이든 바다든 어디에서건 모두의 마음을 사로잡을 거야!",
 		vote = "",
-		name = "무라사키 시온",
 		detail = "키도 스타일도 모두 어린애 같다구? 시, 시끄러! 시온은 어른이라고. 대단한 어른! 지휘관도 언젠가는 깨닫게 될 거야!",
 		couple_encourage = {
 			{
@@ -36165,7 +35249,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "좋은 아침, 지휘관! 오늘도 시온의 매력을 듬뿍 보여줄게~ 하지만 시온에게 이상한 대사를 읽게 하는 건 안돼!",
 		vote = "",
-		name = "버츄얼 마법사 ",
 		detail = "노출이 심하다고? 헤헤~ 지휘관도 나의 매력에 푹 빠진 거구나? 진실을 꿰뚫는 안목도 천재급. 나는 역시 천재 마법사야!",
 		couple_encourage = {}
 	},
@@ -36199,7 +35282,6 @@ pg.ship_skin_words = {
 		battle = "좋아~ 가볼까! 제대로 보여줘야겠는걸~",
 		login = "오! 드디어 로그인했네, 지휘관군~ 나는 벌써 준비를 끝냈다고. 어서 출격하자~! 오늘은 계속 함께… 아니, 즐거운 시간을 보내면 좋겠네~♪",
 		vote = "",
-		name = "오오카미 미오",
 		detail = "이런 장비를 매치하면 훨씬 더 멋있겠지… 헤헤, 오오카미 미오, 디스트로이 모드! … 응? 디스트로이의 사용법이 잘못 됐어?!!",
 		couple_encourage = {
 			{
@@ -36242,7 +35324,6 @@ pg.ship_skin_words = {
 		battle = "작전 개시! 받아라, 물대포 스플래쉬!",
 		login = "지휘관군, 안녕하미오! 그럼 같이 바다로 가자~",
 		vote = "",
-		name = "Summer Vacance",
 		detail = "조금 섹시해졌으려나? 이봐! 어딜 보고있는 거야~ 됐어… 지휘관군이 즐거우면 그걸로 좋아… 하지만 계속 이상한 곳만 보고있지 말라고.",
 		couple_encourage = {}
 	},
@@ -36276,7 +35357,6 @@ pg.ship_skin_words = {
 		battle = "여기가 전장? ……우후후, 재밌네요.",
 		login = "안 되겠네요 지휘관님, 저를 이렇게나 기다리게 하다니.",
 		vote = "",
-		name = "넵튠",
 		detail = "이거 말인가요? 트라이던트라고 합니다. 멋있다고 생각하지 않으시는지요?",
 		couple_encourage = {}
 	},
@@ -36310,7 +35390,6 @@ pg.ship_skin_words = {
 		battle = "정말 눈치라곤 찾아볼 수 없는 녀석들이네요……",
 		login = "지휘관님, 메리크리스마스~",
 		vote = "",
-		name = "루돌프 프린세스",
 		detail = "평소에는 항상 전투, 출격, 임무 뿐이니까요. 이렇게 예쁜 옷을 입고 기념일을 보내는 느낌, 싫지 않네요.",
 		couple_encourage = {}
 	},
@@ -36344,7 +35423,6 @@ pg.ship_skin_words = {
 		battle = "나를 믿어라! 이 함대의 어느 누구도 빼놓지 않고 함께 귀환하여 보이겠다!",
 		login = "잘 돌아왔다. 이 모나크는, 웨일즈나 요크보다도 우수하다…지휘관도 그렇게 생각하지?",
 		vote = "",
-		name = "모나크",
 		detail = "내게 있어 너는 이 세계의 유일한 특이점…너와 만나기 전까지, 나에게 기대를 걸었던 인간은 단 한 명도 없었다.",
 		couple_encourage = {
 			{
@@ -36395,7 +35473,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "화이트 워릭",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -36429,7 +35506,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "얼마만의 명절인데, 그렇게 고생할 필요 없다. 업무는 잠시 내게 맡겨두고 푹 쉬어도 좋다.",
 		vote = "",
-		name = "블랙 제라드",
 		detail = "“아름다운 기억을 남기자”라고? 흥, 그 녀석 여전히 입만 살았군.",
 		couple_encourage = {}
 	},
@@ -36463,7 +35539,6 @@ pg.ship_skin_words = {
 		battle = "싸움에 자비 따윈 무용…이부키, 갑니다!",
 		login = "주군, 외출하시느라 고생 많으셨습니다.",
 		vote = "",
-		name = "이부키",
 		detail = "주군, 어, 어서 오십시오……별로 내어 드릴 건 없지만…차라도 드시겠습니까?",
 		couple_encourage = {}
 	},
@@ -36497,7 +35572,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "주군, 함께 외출하시지 않겠어요?",
 		vote = "",
-		name = "영원한 꿈을 꾸는 청녀",
 		detail = "이 기모노, 호쇼 씨에게 감사해야겠네요……",
 		couple_encourage = {}
 	},
@@ -36531,12 +35605,11 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "「파티」가 구체적으로 무엇을 하는지 아직 잘 몰라서… 주군, 제가 같이 가도 괜찮겠습니까?",
 		vote = "",
-		name = "바람에 날리는 꽃",
 		detail = "타향의 차와 술도 별미로군요.",
 		couple_encourage = {}
 	},
 	[399013] = {
-		touch = "",
+		touch = "이맘때가 되니 추위도 풀리는군요. 조금 지나면 봄이 옵니다… 아, 그래서 설날에는 ‘춘련'을 붙이는 군요……",
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -36554,19 +35627,18 @@ pg.ship_skin_words = {
 		id = 399013,
 		voice_key = 0,
 		feeling5 = "",
-		main = "nil|nil|nil",
+		main = "주군. 사실 파티에서 검무를 추기로 되어 있습니다만…… 함대의 모두들에게 선보이는 것은 처음이라 조금 긴장됩니다.|주군, 아카시의 상점에서 ‘연발 폭죽’이라는 것을 팔고 있는 모양입니다. 불꽃과 비슷한 것이라고 하는데, 저도 해보고 싶습니다. 같이 하시겠습니까? |주군, 저쪽 벽에 붙어있는 것은……? …… 아, ‘춘련’이라고 하는 것이군요. 내용을 알려주실 수 있습니까? 약간 신기하네요.",
 		voice_key_2 = -1,
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
 		feeling4 = "",
-		unlock = "",
+		unlock = "이스트 글림의 설날이라는 건 정말 떠들썩합니다. 이렇게 순수한 마음으로 기뻐하다니…… 이부키…… 설날이 마음에 듭니다.",
 		battle = "",
-		login = "",
+		login = "온통 설날의 붉은 등불과 장식으로 꾸며진 모항이 아름답습니다.",
 		vote = "",
-		name = "새해의 마음가짐",
-		detail = "",
+		detail = "에? 평소와는 분위기가 다르다니…… 그렇네요. 어쩌면 설날 분위기에 젖었을지도… 이부키, 평소보다 조금 들뜬 것 같습니다… 혹시… 이상합니까?",
 		couple_encourage = {}
 	},
 	[399020] = {
@@ -36599,7 +35671,6 @@ pg.ship_skin_words = {
 		battle = "전 함, 진형을 갖춰라! 목표, 전방의 적!",
 		login = "변함없이 늦는구나. 이 나를 언제까지 기다리게 할 셈이냐.",
 		vote = "",
-		name = "이즈모",
 		detail = "나를 보고 있을 시간이 있다면 일이라도 하는 게 어떤가.",
 		couple_encourage = {}
 	},
@@ -36633,7 +35704,6 @@ pg.ship_skin_words = {
 		battle = "모른다면 가르쳐주지! 전함 이즈모는 바로 나다!",
 		login = "",
 		vote = "",
-		name = "구름을 벗어난 천 그루 벚꽃처럼",
 		detail = "내 이름, 어딘가 가부키 춤이랑…… 아, 그런가……",
 		couple_encourage = {}
 	},
@@ -36667,7 +35737,6 @@ pg.ship_skin_words = {
 		battle = "후후, 저를 보고도 도망치려고 하다니, 설마 도망칠 수 있을 거라 생각하는 건가요~?",
 		login = "이 모항은 평화롭네요. 다들 정말 친절하시고……",
 		vote = "",
-		name = "론",
 		detail = "지휘관은 일 말고 다른 취미는 없으신가요? 괜찮으시다면 같이 릴렉스 하지 않으실래요?",
 		couple_encourage = {}
 	},
@@ -36701,7 +35770,6 @@ pg.ship_skin_words = {
 		battle = "잘 왔어요. 내 ‘스트레스'를 조금 풀어주세요…!",
 		login = "후후… 오래간만의 떠들썩한 파티니 즐기도록 해요. 지휘관님.",
 		vote = "",
-		name = "다크레드 스마일",
 		detail = "일부러 준비한 드레스가 지휘관님의 시선을 끌긴 했지만, 역시… 다른 함선들과 같다고 생각하니, 저는…",
 		couple_encourage = {}
 	},
@@ -36735,7 +35803,6 @@ pg.ship_skin_words = {
 		battle = "동등하게 파멸을 안겨주마…!",
 		login = "봉 주르, 지휘관. 알려줘, 다음엔 뭘 하면 되지?",
 		vote = "",
-		name = "생 루이",
 		detail = "지휘관, 당신도 신에게 기도를 올리는 것인가?",
 		couple_encourage = {}
 	},
@@ -36769,7 +35836,6 @@ pg.ship_skin_words = {
 		battle = "좋아, 다구리다~!",
 		login = "지휘관님, 밥 먹었슴까? 아직 안 먹었으면, 잠깐 같이 어디 밥 먹으러 가는 건 어떻슴까?",
 		vote = "",
-		name = "시애틀",
 		detail = "파티, 다과회, 여자 모임에 회식까지…… OK! 역시 바쁨다~ ……뭐, 이런 게 삶에 충실하다는 거니까 괜찮지만!",
 		couple_encourage = {
 			{
@@ -36822,7 +35888,6 @@ pg.ship_skin_words = {
 		battle = "하하! 기세 좋게 가는검다!",
 		login = "오오! 지휘관님, 아름다운 파티에 오신 것을 환영함다! 오늘의 주인공은 우리 두 사람! 헤헤. 장난임다~",
 		vote = "",
-		name = "고저스 파티",
 		detail = "바이올린 같은 것, 손에 들고만 있어도 상류층이 된 것 같은 기분임다! 하하, 기왕 손에 들었으니 제대로 해야겠슴다! 열심히 들으시지 말임다~♪",
 		couple_encourage = {}
 	},
@@ -36856,22 +35921,21 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오오! 잘됐슴다! 지휘관님의 도움이 있으면 두 배…… 아니 세 배는 빨라질 검다!",
 		vote = "",
-		name = "크리스마스 파티 준비 중!",
 		detail = "파티에 참여한 사람 모두에게 반드시 유니온의 충만한 크리스마스 열정을 느끼게 해줄 검다!",
 		couple_encourage = {}
 	},
 	[199013] = {
-		touch = "",
+		touch = "지휘관님, 손 꽉 잡아야 함다!",
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
 		win_mvp = "",
-		home = "",
-		mission = "",
+		home = "쉬는 것도 중요하지만, 이럴 때일 수록 모두를 돌보는 것도 중요함다!",
+		mission = "새로운 임무임다! 로피니아트르의 '주문'으로 처리하면 됨까?",
 		touch2 = "",
 		feeling1 = "",
 		skill = "",
-		drop_descrip = "모두를 돕기 위해 도착한 바다의 마녀, 시애틀임다! 뭔가 고민이라도 있슴까? 뭐~든지 말해도 됨다? 그 대신——오늘의 파티에는 강제 참가인 검다! ",
+		drop_descrip = "모두를 돕기 위해 도착한 바다의 마녀, 시애틀임다! 뭔가 고민이라도 있슴까? 뭐~든지 말해도 됨다? 그 대신——오늘의 파티에는 강제 참가인 검다!",
 		mail = "",
 		lose = "",
 		propose = "",
@@ -36879,19 +35943,18 @@ pg.ship_skin_words = {
 		id = 199013,
 		voice_key = 0,
 		feeling5 = "",
-		main = "",
+		main = "아, 정말… 체셔! 게으름은 금물임다! 얼른 와서 도우란 말임다! 조지아도 마찬가지임다~ 얼른얼른~|브레머튼은 정말 좋은 사람임다! 고민 상담에 제격임다. 지휘관님도 고민이 있으면 한번 찾아가보시면 어떻슴까! |바다는 정말 재미있슴다~ 모두가 즐겁게 놀기 위해서 우리도 힘내야 함다!",
 		voice_key_2 = -1,
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
 		feeling4 = "",
-		unlock = "",
-		battle = "",
-		login = "",
+		unlock = "모두를 돕기 위해 도착한 바다의 마녀, 시애틀임다! 뭔가 고민이라도 있슴까? 뭐~든지 말해도 됨다? 그 대신——오늘의 파티에는 강제 참가인 검다!",
+		battle = "계속 잠수만 하고 있을 수는 없슴다!",
+		login = "지휘관님도 잠수 해보는 건 어떻슴까? 자~ 시애틀이 도와드리겠슴다!",
 		vote = "",
-		name = "Sunfish Spell！",
-		detail = "",
+		detail = "낮에는 수영대회, 밤에는 바비큐 대회…… 역시 다양한 이벤트가 있어서 즐겁슴다!",
 		couple_encourage = {}
 	},
 	[199020] = {
@@ -36924,7 +35987,6 @@ pg.ship_skin_words = {
 		battle = "이번엔 어떤 상대지? 괜히 기대하게 해놓고 실망시키지는 말라고!",
 		login = "호오, 딱 좋은 타이밍에 왔군. 준비 운동을 끝낸 참이다. 그럼, 연습인가? 아니면 출격인가?",
 		vote = "",
-		name = "조지아",
 		detail = "장비의 정기적 검사와 정비는 중요하지. 지휘관도 도와줄 텐가?",
 		couple_encourage = {}
 	},
@@ -36958,7 +36020,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "사우스타운 펄",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -36992,7 +36053,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "오? 마침 잘 왔어. 파라솔을 펴려고 하는데 좀 도와줘, 지휘관.",
 		vote = "",
-		name = "Lanier Swan",
 		detail = "이 까만 보일은 시애틀이 골라준거야. 그 녀석, 평소에는 건성건성 같아 보이지만 의외로 이런 재주가 있단 말이지…",
 		couple_encourage = {}
 	},
@@ -37026,7 +36086,6 @@ pg.ship_skin_words = {
 		battle = "적의 움직임, 간파했다! 모두, 키타카제를 따르라!",
 		login = "지휘관, 잘 돌아왔다. 키타카제는 지금 이 아이와 수련 중이다. 음, 장군답게 똑바로 서 있어야겠지.",
 		vote = "",
-		name = "키타카제",
 		detail = "전투를 지휘하는 자라면 항상 칼을 지참해야 한다고 했다… 음, 이 아이는 무겁지 않다. 안심하도록.",
 		couple_encourage = {}
 	},
@@ -37060,7 +36119,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "그 녀석들도 아마 기다리기 힘들거다. 지휘관, 출발하자. 축제는 우리를 기다려주지 않아.",
 		vote = "",
-		name = "축제 제패!",
 		detail = "타코야키! 구운 오징어! …우움… 야키소바도 있구나! 지휘관, 조금 들어줘. 아, 이것도 먹고싶다!",
 		couple_encourage = {}
 	},
@@ -37094,7 +36152,6 @@ pg.ship_skin_words = {
 		battle = "제가 함대 지휘를…? 결과는 보장하지 못합니다만… 노력하겠습니다!",
 		login = "오늘 업무를 시작해볼까요? 괜찮아요, 제가 쭉 지휘관님 곁에 있어 드릴게요.",
 		vote = "",
-		name = "아즈마",
 		detail = "경험을 쌓아서, 동료들과 호흡을 맞출 수 있게 되면 좋겠어요……그러니까, 제게 무엇이든 맡겨주세요. 후후후.",
 		couple_encourage = {
 			{
@@ -37145,7 +36202,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "지휘관님. 설날 밤은 정말 떠들썩하네요. 하지만 외출하실 때는 감기 조심하세요.",
 		vote = "",
-		name = "봄 안개의 속삭임",
 		detail = "기념 사진 때문이라고는 했지만, 이런 포즈는 역시 좀 힘드네요……",
 		couple_encourage = {
 			{
@@ -37188,7 +36244,6 @@ pg.ship_skin_words = {
 		battle = "연주하라! 증오, 공포, 절망을……!",
 		login = "연주자들도 기다리다 지쳤단다! 자, 오늘 밤의 전투의 막을 올리자꾸나!",
 		vote = "",
-		name = "프리드리히 데어 그로세 ",
 		detail = "꼬마야, 절대적인 승리를 쟁취하려면, 절대적인 이성이 필요하단다.",
 		couple_encourage = {
 			{
@@ -37239,7 +36294,6 @@ pg.ship_skin_words = {
 		battle = "허무의 교향곡과 함께 사라져라——！",
 		login = "계속 거기 서있으면 춥지 않니? 이리 오렴, 꼬마야.",
 		vote = "",
-		name = "아악의 어둠",
 		detail = "인류의 욕망은 무한하다. 맞아... 마치 이 거대한 함장과 같지... 더 커다란 형태, 더 강대한 힘... 더 많은 포탑... 그리고 더 위대한 영광을 추구하지——",
 		couple_encourage = {}
 	},
@@ -37273,7 +36327,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "",
 		vote = "",
-		name = "요람의 Zeremonie",
 		detail = "",
 		couple_encourage = {}
 	},
@@ -37307,7 +36360,6 @@ pg.ship_skin_words = {
 		battle = "목표 확인…… 섬멸을 개시한다.",
 		login = "조회 완료…… 어서 오십시오, 주인님.",
 		vote = "",
-		name = "가스코뉴",
 		detail = "장비 조사… 상태 양호. 가스코뉴, 명령 수행 가능.",
 		couple_encourage = {}
 	},
@@ -37341,7 +36393,6 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "귀환을 환영한다, 주인. ‘자유 행동’에 대해, 가스코뉴는 현재 데이터 축적과 정의 규정을 진행중이다.",
 		vote = "",
-		name = "여름 환경 대응 쉘",
 		detail = "주인은 가스코뉴에게 검사를 하려고 하는가?",
 		couple_encourage = {}
 	},
@@ -37375,7 +36426,6 @@ pg.ship_skin_words = {
 		battle = "어디 보자, 오늘 너희가 준비한 메인 디쉬는 어뢰일까, 포탄일까~?",
 		login = "서~방~님~! 헷, 와락! ......너무 과격하다고? 헤헤, 서방님이니까 설레지 않을 수가 없잖아!",
 		vote = "",
-		name = "체셔",
 		detail = "왜 서방님에게 첫눈에 반했냐고? 동물은 처음 본 생물을 애인으로 생각한대. 부모가 아니라 애인이라구~ 에이, 이게 중요한 게 아니야! 어쨌든 처음 본 그 순간부터 서방님은 내 서방님이었어!",
 		couple_encourage = {
 			{
@@ -37461,7 +36511,6 @@ pg.ship_skin_words = {
 		battle = "후후후, 제대로 놀아볼까!",
 		login = "왔구나. 오늘은 뭐 부터 할까? 작전 연구도 좋고, 출격해도 괜찮다고?",
 		vote = "",
-		name = "드레이크",
 		detail = "위대한 일에는 모두 시작점이 있지, 하지만 끝까지 해내야만 진정한 영광을 누릴 수 있어——그러니까 계속 노력하자!",
 		couple_encourage = {
 			{
@@ -37504,7 +36553,6 @@ pg.ship_skin_words = {
 		battle = "내 발목을 붙잡지는 말게나.",
 		login = "나의 이 기다림을 유의미한 것으로 바꾸어 주게, 지휘관.",
 		vote = "",
-		name = "마인츠",
 		detail = "전적은…… 오늘부터 세도 괜찮겠지.",
 		couple_encourage = {
 			{
@@ -37549,7 +36597,6 @@ pg.ship_skin_words = {
 		battle = "아직 도망갈 수 있다——",
 		login = "돌아왔나, 지휘관. 이제 뭘 할 계획이지?",
 		vote = "",
-		name = "오딘",
 		detail = "이상하군, 왜 모항의 녀석들은 이렇게 느긋하게 있을 수 있는 거지……",
 		couple_encourage = {}
 	},
@@ -37583,7 +36630,6 @@ pg.ship_skin_words = {
 		battle = "함대를 위해 싸우는 것이 나의 사명.",
 		login = "알려줘. 당신이 필요로 하는 것, 당신이 나에게 바라는 것을.",
 		vote = "",
-		name = "샹파뉴",
 		detail = "지휘관, 당신이 추구하는 것을 알려줘——누구도 따라올 수 없는 업적인가? 세계의 정점에서 군림하는 것인가? 아니면, 자신만의 세계를 구축하는 것?",
 		couple_encourage = {
 			{

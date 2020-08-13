@@ -94,7 +94,7 @@ function slot0.didEnter(slot0)
 	slot1 = defaultValue(slot0.contextData.type, EquipmentInfoMediator.TYPE_DEFAULT)
 	slot0.isShowUnique = table.contains(EquipmentInfoMediator.SHOW_UNIQUE, slot1)
 
-	onButton(slot0, slot0._tf, function ()
+	onButton(slot0, slot0._tf:Find("bg"), function ()
 		if isActive(uv0.destroyPanel) then
 			triggerToggle(uv0.toggles.defaultPanel, true)
 
@@ -428,8 +428,6 @@ end
 function slot0.showDestoryMsgbox(slot0, slot1)
 	slot0.isOpenDestoryMsgbox = true
 
-	setActive(slot0.destroyMsgBox, true)
-
 	if not slot0.isInitDestoryMsgBox then
 		slot0.isInitDestoryMsgBox = true
 		slot0.destroyMsgboxIntro = slot0.destroyMsgBox:Find("window/info/intro")
@@ -462,12 +460,18 @@ function slot0.showDestoryMsgbox(slot0, slot1)
 	onButton(slot0, slot0.destoryMsgboxBackBtn, function ()
 		uv0:closeDestoryMsgbox()
 	end, SFX_PANEL)
+	onButton(slot0, slot0.destroyMsgBox:Find("bg"), function ()
+		uv0:closeDestoryMsgbox()
+	end, SFX_PANEL)
+	setActive(slot0.destroyMsgBox, true)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.destroyMsgBox)
 end
 
 function slot0.closeDestoryMsgbox(slot0)
 	slot0.isOpenDestoryMsgbox = nil
 
 	setActive(slot0.destroyMsgBox, false)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0.destroyMsgBox, slot0._tf)
 end
 
 function slot0.cloneSampleTo(slot0, slot1, slot2, slot3, slot4)

@@ -531,6 +531,9 @@ pg.activity_const = {
 	MONOPOLY_CAR_PAGE = {
 		act_id = 29006
 	},
+	U110BATTLE_RE_PAGE = {
+		act_id = 20511
+	},
 	LINDONG_REMAKE_KR = {
 		act_id = 20289
 	},

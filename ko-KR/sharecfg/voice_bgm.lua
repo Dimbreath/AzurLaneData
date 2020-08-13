@@ -77,5 +77,8 @@ pg.voice_bgm = {
 	},
 	ShipBluePrintScene = {
 		bgm = "main"
+	},
+	ShipMainScene = {
+		bgm = "main"
 	}
 }

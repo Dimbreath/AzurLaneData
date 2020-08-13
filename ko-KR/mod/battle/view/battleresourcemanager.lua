@@ -701,26 +701,44 @@ end
 
 function slot5.GetEnemyResource(slot0)
 	slot1 = {}
-	slot2 = uv0.GetMonsterTmpDataFromID(slot0)
-	slot1[#slot1 + 1] = uv1.GetCharacterPath(slot2.prefab)
-	slot1[#slot1 + 1] = uv1.GetFXPath(slot2.wave_fx)
+	slot3 = slot0.bossData ~= nil
+	slot4 = slot0.buffList or {}
+	slot5 = uv0.GetMonsterTmpDataFromID(slot0.monsterTemplateID)
+	slot1[#slot1 + 1] = uv1.GetCharacterPath(slot5.prefab)
+	slot1[#slot1 + 1] = uv1.GetFXPath(slot5.wave_fx)
 
-	for slot6, slot7 in ipairs(slot2.appear_fx) do
-		slot1[#slot1 + 1] = uv1.GetFXPath(slot7)
+	for slot9, slot10 in ipairs(slot5.appear_fx) do
+		slot1[#slot1 + 1] = uv1.GetFXPath(slot10)
 	end
 
-	for slot6, slot7 in ipairs(slot2.smoke) do
-		for slot12, slot13 in ipairs(slot7[2]) do
-			slot1[#slot1 + 1] = uv1.GetFXPath(slot13[1])
+	for slot9, slot10 in ipairs(slot5.smoke) do
+		for slot15, slot16 in ipairs(slot10[2]) do
+			slot1[#slot1 + 1] = uv1.GetFXPath(slot16[1])
 		end
 	end
 
-	slot1[#slot1 + 1] = uv1.GetFXPath(slot2.bubble_fx)
+	slot1[#slot1 + 1] = uv1.GetFXPath(slot5.bubble_fx)
 
-	if string.find(slot2.icon, "danchuan") == nil then
-		slot1[#slot1 + 1] = uv1.GetHrzIcon(slot2.icon)
-		slot1[#slot1 + 1] = uv1.GetQIcon(slot2.icon)
-		slot1[#slot1 + 1] = uv1.GetSquareIcon(slot2.icon)
+	for slot10, slot11 in ipairs(slot4) do
+		function (slot0)
+			for slot5, slot6 in pairs(uv0.Battle.BattleDataFunction.GetBuffTemplate(slot0, 1).effect_list) do
+				if slot6.arg_list.skill_id then
+					if uv0.Battle.BattleDataFunction.GetSkillTemplate(slot7).painting == 1 then
+						uv1[#uv1 + 1] = uv2.GetHrzIcon(uv3.icon)
+					elseif type(slot9) == "string" then
+						uv1[#uv1 + 1] = uv2.GetHrzIcon(slot9)
+					end
+				end
+
+				if slot6.arg_list.buff_id then
+					uv4(slot8)
+				end
+			end
+		end(slot11)
+	end
+
+	if slot3 then
+		slot1[#slot1 + 1] = uv1.GetSquareIcon(slot5.icon)
 	end
 
 	return slot1
@@ -971,7 +989,7 @@ end
 function slot5.GetMonsterRes(slot0)
 	slot1 = {}
 
-	for slot6, slot7 in ipairs(uv0.GetEnemyResource(slot0.monsterTemplateID)) do
+	for slot6, slot7 in ipairs(uv0.GetEnemyResource(slot0)) do
 		slot1[#slot1 + 1] = slot7
 	end
 

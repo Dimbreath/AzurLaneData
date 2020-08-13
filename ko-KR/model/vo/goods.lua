@@ -93,6 +93,18 @@ function slot0.canPurchase(slot0)
 	end
 end
 
+function slot0.GetPurchasableCnt(slot0)
+	if slot0.type == slot0.TYPE_ACTIVITY or slot0.type == slot0.TYPE_ACTIVITY_EXTRA or slot0.type == slot0.TYPE_SHAM_BATTLE or slot0.type == slot0.TYPE_FRAGMENT or slot0.type == slot0.TYPE_ESCORT then
+		if slot0:getConfig("commodity_type") == DROP_TYPE_SKIN then
+			return getProxy(ShipSkinProxy):hasSkin(slot0:getConfig("commodity_id")) and 0 or 1
+		elseif slot1 == DROP_TYPE_FURNITURE then
+			return math.min(pg.furniture_data_template[slot2].count - getProxy(DormProxy):getFurnitrueCount(slot2), slot0:getConfig("num_limit"))
+		else
+			return slot0:getConfig("num_limit") - slot0.buyCount
+		end
+	end
+end
+
 function slot0.hasDiscount(slot0)
 	return slot0.discount < 100
 end

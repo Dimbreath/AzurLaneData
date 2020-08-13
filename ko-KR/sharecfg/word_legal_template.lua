@@ -2,9 +2,20 @@ pg = pg or {}
 slot0 = pg
 slot0.word_legal_template = {}
 slot1 = slot0.word_legal_template
-slot2 = nil
 
-function ()
+function temp()
+	uv0["合"] = {
+		["法"] = {
+			["词"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["サ"] = {
 		["セ"] = {
 			["ッ"] = {
@@ -16,4 +27,6 @@ function ()
 			}
 		}
 	}
-end()
+end
+
+temp()

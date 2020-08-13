@@ -214,6 +214,10 @@ function slot0.OnCardClick(slot0, slot1)
 end
 
 function slot0.UpdateMainPage(slot0, slot1)
+	if slot1 == slot0.card then
+		return
+	end
+
 	slot0.title.text = slot1:getConfig("name")
 	slot0.desc.text = slot1:getConfig("desc")
 	slot2 = slot1:getConfig("discount")
@@ -230,6 +234,8 @@ function slot0.UpdateMainPage(slot0, slot1)
 		uv0.preview.sprite = slot0
 	end)
 	setActive(go(slot0.preview), true)
+
+	slot0.card = slot1
 end
 
 function slot0.CalcThemePrice(slot0, slot1)
