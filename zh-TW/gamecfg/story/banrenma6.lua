@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"半人马与港区的“前辈”们\n\n<size=45>六　大家的后辈</size>",
+					"半人馬與港區的“前輩”們\n\n<size=45>六　大家的後輩</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·广场",
+			say = "港區·廣場",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "和担任秘书舰的半人马在港区巡逻中。",
+			say = "和擔任秘書艦的半人馬在港區巡邏中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "…实际上最近半人马一个人就能够完成这项工作了",
+			say = "…實際上最近半人馬一個人就能夠完成這項工作了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "不过，被半人马说坐太久对身体不好，于是还是一起出来了",
+			say = "不過，被半人馬說坐太久對身體不好，於是還是一起出來了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，半人马，在和指挥官一起巡逻吗？",
+			say = "咦，半人馬，在和指揮官一起巡邏嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "啊，是的。妳好，胡德前辈。",
+			say = "啊，是的。妳好，胡德前輩。",
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，还是老样子，是个懂礼貌的好孩子呢。",
+			say = "呵呵，還是老樣子，是個懂禮貌的好孩子呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "嘻嘻，没有啦，您过奖了~",
+			say = "嘻嘻，沒有啦，您過獎了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前送妳的茶叶，试过了吗？",
+			say = "之前送妳的茶葉，試過了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "嗯！虽然我对茶懂得不多，不过很好喝呢。",
+			say = "嗯！雖然我對茶懂得不多，不過很好喝呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳喜欢就好，对茶叶还感兴趣的话，随时来找我哦？",
+			say = "妳喜歡就好，對茶葉還感興趣的話，隨時來找我哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			actor = 301320,
 			nameColor = "#a9f548",
-			say = "啊，是半人马！",
+			say = "啊，是半人馬！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			say = "半人马，在工作吗？",
+			say = "半人馬，在工作嗎？",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -270,7 +270,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是的，两位前辈还是一样精神很好呢！",
+			say = "是的，兩位前輩還是一樣精神很好呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "谢谢~",
+			say = "謝謝~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "半人马，给妳糖，记得来找我们玩哦！",
+			say = "半人馬，給妳糖，記得來找我們玩哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "好的~我晚点再去找妳们~",
+			say = "好的~我晚點再去找妳們~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			actor = 301320,
 			nameColor = "#a9f548",
-			say = "不给指挥官~~",
+			say = "不給指揮官~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "有种微妙的挫败感…",
+			say = "有種微妙的挫敗感…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
-			say = "虽然还在使用“前辈”的称呼，但是半人马和大家的交流已经自然了许多了",
+			say = "雖然還在使用“前輩”的稱呼，但是半人馬和大家的交流已經自然了許多了",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -416,7 +416,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问为什么还要使用“前辈”的称呼",
+					content = "詢問為什麼還要使用“前輩”的稱呼",
 					flag = 1
 				}
 			}
@@ -429,7 +429,7 @@ return {
 			blackBg = true,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "啊，这个的话，因为“前辈”两个字对现在的我来说，有了新的含义呢~",
+			say = "啊，這個的話，因為“前輩”兩個字對現在的我來說，有了新的含義呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

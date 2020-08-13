@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"碧海的偶像\n\n<size=45>五 欢聚一刻</size>",
+					"碧海的偶像\n\n<size=45>五 歡聚一刻</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "虽然发生了一点小意外，但是萨拉托加她们的《传说的小海豹》主题慈善演出还是圆满结束了",
+			say = "雖然發生了一點小意外，但是薩拉托加她們的《傳說的小海豹》主題慈善演出還是圓滿結束了",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶嘿嘿ー小海豹乖‐",
+			say = "欸嘿嘿ー小海豹乖‐",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "小海豹游到萨拉的脚边，一点也没有抗拒萨拉抚摸它的动作，甚至亲昵地蹭了蹭她的脚踝。",
+			say = "小海豹游到薩拉的腳邊，一點也沒有抗拒薩拉撫摸它的動作，甚至親暱地蹭了蹭她的腳踝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "所以说嘛，要说起来保护小海豹，可不是一天两天就能做好的哦？得每天都加油才行♪",
+			say = "所以說嘛，要說起來保護小海豹，可不是一天兩天就能做好的哦？得每天都加油才行♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "要是早点知道的话，应该能帮上更多的忙吧？",
+			say = "要是早點知道的話，應該能幫上更多的忙吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			},
 			options = {
 				{
-					content = "提出自己也要帮忙",
+					content = "提出自己也要幫忙",
 					flag = 1
 				}
 			}
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢指挥官！诶嘿嘿，本来就是打算今天的义演结束后告诉指挥官的啦",
+			say = "謝謝指揮官！欸嘿嘿，本來就是打算今天的義演結束後告訴指揮官的啦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉托加，之前说的东西已经准备好了",
+			say = "薩拉托加，之前說的東西已經準備好了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也一起来吧",
+			say = "指揮官也一起來吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "额？还有什么东西吗？",
+			say = "呃？還有什麼東西嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "虽然有点晚了，但是其实今天正好是东煌和重樱的七夕节哦",
+			say = "雖然有點晚了，但是其實今天正好是東煌和重櫻的七夕節哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "逸仙姐她准备了不少好吃的，指挥官一定要来啊",
+			say = "逸仙姐她準備了不少好吃的，指揮官一定要來啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平海，肚子饿了……",
+			say = "平海，肚子餓了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			soundeffect = "event:/battle/firework",
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "哼哼，{namecode:98}也为了不让这里的动物们受惊准备了特别的烟花喵",
+			say = "哼哼，{namecode:98}也為了不讓這裡的動物們受驚準備了特別的煙花喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说起来萨拉托加，是不是忘记了什么？",
+			say = "說起來薩拉托加，是不是忘記了什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……是什么来着？",
+			say = "嗯……是什麼來著？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "需要定一下这个小海豹的名字！",
+			say = "需要定一下這個小海豹的名字！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "啊对了！忘了给传说中的小海豹起名了！",
+			say = "啊對了！忘了給傳說中的小海豹起名了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官有什么好想法吗？",
+			say = "指揮官有什麼好想法嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "萨拉托加慈善活动的主角，大家守护的大海的宝物，小海豹的名字要叫什么好呢……？",
+			say = "薩拉托加慈善活動的主角，大家守護的大海的寶物，小海豹的名字要叫什麼好呢……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "诶嘿嘿，指挥官，为了保护这片美丽的大海，今后也请和萨拉托加妹妹——",
+			say = "欸嘿嘿，指揮官，為了保護這片美麗的大海，今後也請和薩拉托加妹妹——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			blackBg = true,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "还有“小加加”一起，努力加油吧！",
+			say = "還有“小加加”一起，努力加油吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

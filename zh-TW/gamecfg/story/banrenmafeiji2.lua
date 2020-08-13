@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"盛夏的半人马座\n\n<size=45>二　盛夏的秘密武器？</size>",
+					"盛夏的半人馬座\n\n<size=45>二　盛夏的秘密武器？</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "嗨，平海，{namecode:17}~妳也来拿西瓜吗？",
+			say = "嗨，平海，{namecode:17}~妳也來拿西瓜嗎？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -88,7 +88,7 @@ return {
 			dir = -1,
 			actor = 301151,
 			actorName = "{namecode:17}",
-			say = "是标枪啊，对呀。",
+			say = "是標槍啊，對呀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = -1,
 			actor = 301151,
 			actorName = "{namecode:17}",
-			say = "妳在带新人观光吗？",
+			say = "妳在帶新人觀光嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "妳们好，{namecode:17}前辈，平海前辈。",
+			say = "妳們好，{namecode:17}前輩，平海前輩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			say = "嗯！就冲这句前辈，以后妳就由我罩着了！",
+			say = "嗯！就衝這句前輩，以後妳就由我罩著了！",
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -195,7 +195,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平海是前辈？半人马也会功夫吗？",
+			say = "平海是前輩？半人馬也會功夫嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，半人马说的前辈不是功夫上的前辈啦~",
+			say = "啊哈哈，半人馬說的前輩不是功夫上的前輩啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:17}前辈的泳装，造型很独特呢？感觉和重樱的大家都不一样呢",
+			say = "{namecode:17}前輩的泳裝，造型很獨特呢？感覺和重櫻的大家都不一樣呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			actor = 301151,
 			actorName = "{namecode:17}",
-			say = "妳说这个？这个可是有正式的名字的，叫做“校园泳装”，简称“死库水”，是重樱的特色哦！",
+			say = "妳說這個？這個可是有正式的名字的，叫做“校園泳裝”，暱稱“死庫水”，是重櫻的特色哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			actor = 301151,
 			actorName = "{namecode:17}",
-			say = "顺便告诉妳一个小秘密，指挥官说不定喜欢这种哦~",
+			say = "順便告訴妳一個小秘密，指揮官說不定喜歡這種哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "真、真的吗？！",
+			say = "真、真的嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			say = "哼哼，不过我要去找{namecode:79}玩了，感兴趣的话之后再来找我吧~",
+			say = "哼哼，不過我要去找{namecode:79}玩了，感興趣的話之後再來找我吧~",
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -324,7 +324,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那{namecode:17}说好了哦，我之后再去找妳~",
+			say = "那時雨說好了哦，我之後再去找妳~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "原来世上还有死库水这样的泳装吗……",
+			say = "原來世上還有死庫水這樣的泳裝嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "……没想到重樱…居然还藏着这样的秘密武器呢……",
+			say = "……沒想到重櫻…居然還藏著這樣的秘密武器呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "标枪前辈……？",
+			say = "標槍前輩……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "咳、咳咳，没什么没什么，我继续给妳介绍吧！",
+			say = "咳、咳咳，沒什麼沒什麼，我繼續給妳介紹吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			}
 		},
 		{
-			say = "我们皇家在沙滩的中间，别的不说，我们可是有最强无敌的胡德姐姐！她的泳装超漂亮的！妳看那边~",
+			say = "我們皇家在沙灘的中間，別的不說，我們可是有最強無敵的胡德姐姐！她的泳裝超漂亮的！妳看那邊~",
 			side = 0,
 			bgName = "star_level_bg_106",
 			hideOther = true,
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "确实，胡德前辈不愧是优雅的代名词呢，只是坐在那里就像是一幅画一样美丽。",
+			say = "確實，胡德前輩不愧是優雅的代名詞呢，只是坐在那裡就像是一幅畫一樣美麗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			}
 		},
 		{
-			say = "不过，据说新加入的自由和维希也准备了泳装，铁血今年似乎也摩拳擦掌的样子，嗯嗯，今年的沙滩，感觉会风起云涌呢。",
+			say = "不過，據說新加入的自由和維希也準備了泳裝，鐵血今年似乎也摩拳擦掌的樣子，嗯嗯，今年的沙灘，感覺會風起雲湧呢。",
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "那个，为什么标枪前辈的介绍，听起来像是什么比赛一样呢？",
+			say = "那個，為什麼標槍前輩的介紹，聽起來像是什麼比賽一樣呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…半人马，既然妳都叫我前辈了，那么作为前辈就把一些重要的事情教导给妳！",
+			say = "…半人馬，既然妳都叫我前輩了，那麼作為前輩就把一些重要的事情教導給妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听好了，那当然是因为，夏天、沙滩、泳装这些词语对女孩子来说，就是……",
+			say = "聽好了，那當然是因為，夏天、沙灘、泳裝這些詞語對女孩子來說，就是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "战争啊！",
+			say = "戰爭啊！",
 			effects = {
 				{
 					active = true,
@@ -616,7 +616,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "是、是这样吗？",
+			say = "是、是這樣嗎？",
 			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
@@ -654,7 +654,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然啦，身材如何，怎么防晒，怎么搭配服装，怎么才能将自己的魅力最大限度地引发出来，这些可是一门巨~~~大的学问呢。",
+			say = "當然啦，身材如何，怎麼防曬，怎麼搭配服裝，怎麼才能將自己的魅力最大限度地引發出來，這些可是一門巨~~~大的學問呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，姑且指挥官喜不喜欢也算是一条呢。",
+			say = "啊，姑且指揮官喜不喜歡也算是一條呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			blackBg = true,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "原、原来如此……",
+			say = "原、原來如此……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

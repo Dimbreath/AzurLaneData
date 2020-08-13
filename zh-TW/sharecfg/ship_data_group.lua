@@ -6294,6 +6294,41 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[356] = {
+		type = 6,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 187,
+		group_type = 20604,
+		code = 356,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
 	[144] = {
 		type = 7,
 		trans_skin = 0,
@@ -8775,6 +8810,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[383] = {
+		type = 4,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 275,
+		group_type = 30406,
+		code = 383,
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"C",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：港區逃離大作戰",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[367] = {
 		type = 4,
 		trans_skin = 0,
@@ -9304,6 +9370,37 @@ pg.ship_data_group = {
 					{
 						chapterid = 304
 					}
+				},
+				0
+			}
+		}
+	},
+	[384] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 295,
+		group_type = 30709,
+		code = 384,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：港區逃離大作戰",
+				{
+					""
 				},
 				0
 			}
@@ -10458,6 +10555,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[385] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 335,
+		group_type = 40702,
+		code = 385,
+		property_hexagon = {
+			"D",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：港區逃離大作戰",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[343] = {
 		type = 8,
 		trans_skin = 0,
@@ -11469,6 +11597,7 @@ pg.ship_data_group = {
 		140,
 		142,
 		376,
+		356,
 		144,
 		145,
 		146,
@@ -11538,6 +11667,7 @@ pg.ship_data_group = {
 		204,
 		205,
 		206,
+		383,
 		367,
 		320,
 		208,
@@ -11553,6 +11683,7 @@ pg.ship_data_group = {
 		222,
 		224,
 		225,
+		384,
 		226,
 		227,
 		228,
@@ -11584,6 +11715,7 @@ pg.ship_data_group = {
 		249,
 		251,
 		252,
+		385,
 		343,
 		341,
 		399,

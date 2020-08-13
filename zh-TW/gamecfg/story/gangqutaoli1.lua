@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区逃离大作战！\n\n<size=45>一　这里是哪里？</size>",
+					"港區逃離大作戰！\n\n<size=45>一　這裡是哪裡？</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "这是，小小的钢之勇者们的冒险谭(Epos)——",
+			say = "這是，小小的鋼之勇者們的冒險譚(Epos)——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			say = "港区·仓库",
+			say = "港區·倉庫",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			actorName = "？？？",
-			say = "所以说，我们一定是被诱拐来的！",
+			say = "所以說，我們一定是被誘拐來的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			actorName = "？？？",
-			say = "哼…！那个可恶的指挥官！一定是趁着我大意的时候干的！不能原谅！一定要给点惩罚！",
+			say = "哼…！那個可惡的指揮官！一定是趁著我大意的時候幹的！不能原諒！一定要給點懲罰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			actorName = "？？？",
-			say = "妳也这么认为的吧！{namecode:71}！",
+			say = "妳也這麼認為的吧！{namecode:71}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			say = "是、是吗…指挥官大人把我们…诱拐来的吗？理由也不明不白…",
+			say = "是、是嗎…指揮官大人把我們…誘拐來的嗎？理由也不明不白…",
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -143,7 +143,7 @@ return {
 			dir = -1,
 			actor = 304060,
 			actorName = "？？？",
-			say = "说到底，小齐柏林也没见过指挥官吧…？",
+			say = "說到底，小齊柏林也沒見過指揮官吧…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系！话说哪有诱拐犯会特意让被诱拐的对象看到脸的啊！",
+			say = "沒關係！話說哪有誘拐犯會特意讓被誘拐的對象看到臉的啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = -1,
 			actor = 304060,
 			nameColor = "#a9f548",
-			say = "唔……我们应该是作为指挥官大人的部下来报道的才对，到底是怎么回事呢…",
+			say = "唔……我們應該是作為指揮官大人的部下來報到的才對，到底是怎麼回事呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不过{namecode:71}应该是要为更了不起的大人准备宴会才……啊！",
+			say = "不過{namecode:71}應該是要為更了不起的大人準備宴會才……啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = -1,
 			actor = 304060,
 			nameColor = "#a9f548",
-			say = "难道说指挥官是为了让{namecode:71}一直留在身边才诱拐哦我们的！？",
+			say = "難道說指揮官是為了讓{namecode:71}一直留在身邊才誘拐我們的！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "呒呒…没想到还有这一手…！很好！妳终于弄明白自己现在所处的状况了！",
+			say = "嘸嘸…沒想到還有這一手…！很好！妳終於弄明白自己現在所處的狀況了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是这样！赶紧离开这里，回铁血去吧！{namecode:71}也没问题吧！",
+			say = "就是這樣！趕緊離開這裡，回鐵血去吧！{namecode:71}也沒問題吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:71}是重樱的来着……",
+			say = "{namecode:71}是重櫻的來著……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "……这种事无所谓啦！现在正是脱离港区的好时机！我们要出击了！",
+			say = "……這種事無所謂啦！現在正是逃離港區的好時機！我們要出擊了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果那个维修舰说得没错的话，只要从这里出去直走就能到海上了…！",
+			say = "如果那個維修艦說得沒錯的話，只要從這裡出去直走就能到海上了…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = -1,
 			actor = 304060,
 			nameColor = "#a9f548",
-			say = "小齐柏林！……别把我丢在这里啦！",
+			say = "小齊柏林！……別把我丟在這裡啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "哼，现在正是让妳们见识一下，铁血第一艘航母·齐柏林伯爵的力量的时……好痛！",
+			say = "哼，現在正是讓妳們見識一下，鐵血第一艘航母·齊柏林伯爵的力量的時……好痛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "什么嘛！从这里出来直走明明就是墙啊！那个维修舰，早就算好要骗我了吧…!",
+			say = "什麼嘛！從這裡出來直走明明就是牆啊！那個維修艦，早就算好要騙我了吧…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "小齐柏林！没事吧？！",
+			say = "小齊柏林！沒事吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			blackBg = true,
 			actor = 304060,
 			nameColor = "#a9f548",
-			say = "……这下看来光是找到路就要花不少时间呢……",
+			say = "……這下看來光是找到路就要花不少時間呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

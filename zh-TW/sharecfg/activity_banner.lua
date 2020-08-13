@@ -1,18 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "40154",
+		type = 3,
 		id = 1,
-		pic = "temp9",
-		param = {
-			"scene level"
-		},
+		pic = "temp2",
 		time = {
 			{
 				{
 					2020,
 					8,
-					6
+					13
 				},
 				{
 					0,
@@ -24,7 +22,39 @@ pg.activity_banner = {
 				{
 					2020,
 					8,
-					12
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "40156",
+		type = 3,
+		id = 2,
+		pic = "temp3",
+		time = {
+			{
+				{
+					2020,
+					8,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					27
 				},
 				{
 					23,
@@ -36,17 +66,20 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 2,
-		pic = "temp8",
+		id = 3,
+		pic = "temp13",
 		param = {
-			"scene level"
+			"scene get boat",
+			{
+				projectName = "special"
+			}
 		},
 		time = {
 			{
 				{
 					2020,
 					8,
-					7
+					13
 				},
 				{
 					0,
@@ -58,7 +91,7 @@ pg.activity_banner = {
 				{
 					2020,
 					8,
-					16
+					27
 				},
 				{
 					23,
@@ -69,21 +102,16 @@ pg.activity_banner = {
 		}
 	},
 	[4] = {
-		type = 2,
+		param = "40157",
+		type = 3,
 		id = 4,
-		pic = "temp12",
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		},
+		pic = "temp9",
 		time = {
 			{
 				{
 					2020,
 					8,
-					6
+					13
 				},
 				{
 					0,
@@ -94,8 +122,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					8,
-					12
+					9,
+					2
 				},
 				{
 					23,
@@ -108,16 +136,16 @@ pg.activity_banner = {
 	[5] = {
 		type = 2,
 		id = 5,
-		pic = "temp7",
+		pic = "temp5",
 		param = {
-			"scene back yard"
+			"scene skinshop"
 		},
 		time = {
 			{
 				{
 					2020,
-					7,
-					15
+					8,
+					13
 				},
 				{
 					0,
@@ -129,6 +157,40 @@ pg.activity_banner = {
 				{
 					2020,
 					8,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[6] = {
+		type = 2,
+		id = 6,
+		pic = "temp7",
+		param = {
+			"scene back yard"
+		},
+		time = {
+			{
+				{
+					2020,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					9,
 					14
 				},
 				{
@@ -143,6 +205,8 @@ pg.activity_banner = {
 		1,
 		2,
 		4,
-		5
+		3,
+		5,
+		6
 	}
 }

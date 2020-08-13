@@ -423,6 +423,10 @@ pg.activity_template = {
 			{
 				29,
 				90924
+			},
+			{
+				30,
+				0
 			}
 		}
 	},
@@ -1345,6 +1349,22 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 2016,
+		config_data = {
+			0,
+			{}
+		}
+	},
+	[2017] = {
+		mark = 20188020,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5211,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2017,
 		config_data = {
 			0,
 			{}
@@ -4744,6 +4764,7 @@ pg.activity_template = {
 	[40146] = {
 		mark = 20200723,
 		page_info = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -4769,33 +4790,6 @@ pg.activity_template = {
 			5153,
 			5154,
 			5155
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					7,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_fengshan",
@@ -4895,6 +4889,7 @@ pg.activity_template = {
 	},
 	[40151] = {
 		mark = 20200723,
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 40151,
@@ -4902,33 +4897,6 @@ pg.activity_template = {
 		title_res_tag = "yisegeTWpt",
 		id = 40151,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					7,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "SummerRemakePTPage",
 			ui_name = "summerremakeptpage"
@@ -4984,6 +4952,285 @@ pg.activity_template = {
 			80165,
 			80166,
 			80167
+		}
+	},
+	[40154] = {
+		mark = 20200813,
+		type = 18,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 1,
+		config_client = "",
+		title_res_tag = "Midsummer",
+		id = 40154,
+		config_data = {
+			{
+				13719
+			},
+			{
+				13720
+			},
+			{
+				13721
+			},
+			{
+				13722
+			},
+			{
+				13723
+			},
+			{
+				13724
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					8,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CentaurAwardPage",
+			ui_name = "centaurawardpage"
+		}
+	},
+	[40155] = {
+		mark = 20200813,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_40155",
+		title_res_tag = "",
+		id = 40155,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					8,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "半人馬、小齊柏林、小赤城、小比叡建造機率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：51%",
+				"普通艦船：30%",
+				"<color=#ffde38>半人馬</color>：2%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>小赤城</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>小齊柏林</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>小比叡</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[40156] = {
+		mark = 20200813,
+		type = 3,
+		login_pop = 0,
+		config_id = 8,
+		is_show = 1,
+		title_res_tag = "gangqutuoli",
+		id = 40156,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					8,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "PortFightLoginPage",
+			ui_name = "PortFightLoginPage"
+		},
+		config_client = {
+			story = {
+				{
+					"GANGQUTAOLI1"
+				},
+				{
+					"GANGQUTAOLI2"
+				},
+				{
+					"GANGQUTAOLI3"
+				},
+				{
+					"GANGQUTAOLI4"
+				},
+				{
+					"GANGQUTAOLI5"
+				}
+			}
+		}
+	},
+	[40157] = {
+		mark = 20200813,
+		type = 54,
+		login_pop = 0,
+		config_id = 40157,
+		is_show = 3,
+		title_res_tag = "qixihaibao_pt",
+		id = 40157,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					8,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					9,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SaratogaWFSkinPage",
+			ui_name = "saratogawfskinpage"
+		},
+		config_client = {
+			story = {
+				{
+					"SALATUOJIAHAIBAO1"
+				},
+				{},
+				{},
+				{},
+				{
+					"SALATUOJIAHAIBAO2"
+				},
+				{},
+				{
+					"SALATUOJIAHAIBAO3"
+				},
+				{},
+				{
+					"SALATUOJIAHAIBAO4"
+				},
+				{},
+				{
+					"SALATUOJIAHAIBAO5"
+				}
+			}
+		}
+	},
+	[40158] = {
+		mark = 20200813,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 40158,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					8,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[45000] = {
@@ -5052,6 +5299,7 @@ pg.activity_template = {
 		2014,
 		2015,
 		2016,
+		2017,
 		2018,
 		2019,
 		2023,
@@ -5209,6 +5457,11 @@ pg.activity_template = {
 		40151,
 		40152,
 		40153,
+		40154,
+		40155,
+		40156,
+		40157,
+		40158,
 		45000
 	}
 }

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"盛夏的半人马座\n\n<size=45>一　一如既往的夏天</size>",
+					"盛夏的半人馬座\n\n<size=45>一　一如既往的夏天</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·沙滩",
+			say = "港區·沙灘",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "这里就是舰队专用的沙滩吗。",
+			say = "這裡就是艦隊專用的沙灘嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "一望无际的碧蓝大海，砂子也很舒服……真是个好地方呢。",
+			say = "一望無際的碧藍大海，沙子也很舒服……真是個好地方呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么标枪前辈是在……",
+			say = "那麼標槍前輩是在……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "啊，半人马，妳来啦，这边这边~~",
+			say = "啊，半人馬，妳來啦，這邊這邊~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			say = "标枪前辈上午好，今天就麻烦妳了。",
+			say = "標槍前輩上午好，今天就麻煩妳了。",
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -148,7 +148,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "上午好~啊哈哈，没想到我也有被人称为前辈的一天啊…",
+			say = "上午好~啊哈哈，沒想到我也有被人稱為前輩的一天啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "嗯～没事没事，指挥官为了之后能够无忧无虑地放假正在拼命工作呢，最近战斗任务也不多，就由我来做妳的向导啦。",
+			say = "嗯～沒事沒事，指揮官為了之後能夠無憂無慮地放假正在拼命工作呢，最近戰鬥任務也不多，就由我來做妳的嚮導啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我一边走一边给妳介绍吧。",
+			say = "那我一邊走一邊給妳介紹吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			say = "聚在沙滩东边的是重樱的场地，去年她们的泳装无论数量还是质量都是数一数二的呢，不过今年可就不好说了~",
+			say = "聚在沙灘東邊的是重櫻的場地，去年她們的泳裝無論數量還是質量都是數一數二的呢，不過今年可就不好說了~",
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			say = "妳看，那边阳伞下的是{namecode:92}小姐，和她身边的……咦，{namecode:91}小姐人呢？",
+			say = "妳看，那邊陽傘下的是{namecode:92}小姐，和她身邊的……咦，{namecode:91}小姐人呢？",
 			side = 0,
 			bgName = "star_level_bg_106",
 			actor = 201212,
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "那边的……是吗？",
+			say = "那邊的……是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "star_level_bg_106",
 			actor = 307011,
 			nameColor = "#a9f548",
-			say = "今年也有不少害虫在打指挥官的主意呢，呵呵呵，我{namecode:91}是不会让妳们得逞的！",
+			say = "今年也有不少害蟲在打指揮官的主意呢，呵呵呵，我{namecode:91}是不會讓妳們得逞的！",
 			flashout = {
 				dur = 0.2,
 				black = true,
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			say = "哎呀，指挥官只是自然而然地在我这里寻找姐姐的温暖而已，妳在说什么我完全听不明白呢~",
+			say = "哎呀，指揮官只是自然而然地在我這裡尋找姐姐的溫暖而已，妳在說什麼我完全聽不明白呢~",
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			actor = 307011,
 			actorName = "{namecode:91}",
-			say = "呵、呵呵、呵呵呵呵看来必须再进行一次大扫除了呢——",
+			say = "呵、呵呵、呵呵呵呵看來必須再進行一次大掃除了呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			actor = 303121,
 			actorName = "{namecode:67}",
-			say = "哎呀呀，大扫除吗，我也来帮忙吧？",
+			say = "哎呀呀，大掃除嗎，我也來幫忙吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "嗯嗯！重樱的各位还是一样关系很好呢！",
+			say = "嗯嗯！重櫻的各位還是一樣關係很好呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			say = "欸，真的没事吗？",
+			say = "欸，真的沒事嗎？",
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -435,7 +435,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "应该没事吧，大概？",
+			say = "應該沒事吧，大概？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "原来如此，前辈们真是充满活力呢！",
+			say = "原來如此，前輩們真是充滿活力呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "咦，那是…{namecode:66}前辈吧？",
+			say = "咦，那是…{namecode:66}前輩吧？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "哦，{namecode:66}小姐在以她的方式进行着修行呢，“以蒙眼打西瓜来锻炼五感”什么的，不愧是{namecode:66}小姐~而且切好的西瓜也能供应给大家，一举两得呢~",
+			say = "哦，{namecode:66}小姐在以她的方式進行著修行呢，“以蒙眼打西瓜來鍛煉五感”什麼的，不愧是{namecode:66}小姐~而且切好的西瓜也能供應給大家，一舉兩得呢~",
 			subActors = {
 				{
 					actor = 303112,
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "原来如此……",
+			say = "原來如此……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "啊，顺利打破西瓜了呢。",
+			say = "啊，順利打破西瓜了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:66}小姐果然厉害~",
+			say = "{namecode:66}小姐果然厲害~",
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "我们也过去拿两片西瓜吧。",
+			say = "我們也過去拿兩片西瓜吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为舰队有军部的支持，西瓜想要多少就有多少，重樱的大家似乎都很开心呢~",
+			say = "因為艦隊有軍部的支持，西瓜想要多少就有多少，重櫻的大家似乎都很開心呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			blackBg = true,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "那真是太好了呢，标枪前辈~",
+			say = "那真是太好了呢，標槍前輩~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

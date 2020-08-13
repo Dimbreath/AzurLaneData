@@ -62,25 +62,25 @@ pg.skin_page_template = {
 	},
 	[12] = {
 		id = 12,
-		name = "特别演习 ",
+		name = "特別演習",
 		res = "laoyuyanxi",
 		english_name = "Prison Exerciese"
 	},
 	[13] = {
 		id = 13,
-		name = "运动时间",
+		name = "運動時間",
 		res = "yundongshijian",
 		english_name = "Sport time"
 	},
 	[14] = {
 		id = 14,
-		name = "疾速狂热",
+		name = "疾速狂熱",
 		res = "jisukuangre",
 		english_name = "Race Queen"
 	},
 	[15] = {
 		id = 15,
-		name = "医院系列",
+		name = "醫院系列",
 		res = "yiyuanxilie",
 		english_name = "hospital"
 	},

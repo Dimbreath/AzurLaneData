@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"盛夏的半人马座\n\n<size=45>四　沙滩上的美味</size>",
+					"盛夏的半人馬座\n\n<size=45>四　沙灘上的美味</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "啊，自由和维希的姐妹们来了呢。",
+			say = "啊，自由和維希的姐妹們來了呢。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			say = "还有罗德尼前辈。",
+			say = "還有羅德尼前輩。",
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "罗德尼姐姐，敦刻尔克小姐，埃米尔小姐，这边~~~",
+			say = "羅德尼姐姐，敦克爾克小姐，埃米爾小姐，這邊~~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "妳是……啊，新加入的半人马对吧？",
+			say = "妳是……啊，新加入的半人馬對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			say = "是的，敦刻尔克前辈，埃米尔·贝尔汀前辈，还有罗德尼前辈，上午好。",
+			say = "是的，敦克爾克前輩，埃米爾·貝爾坦前輩，還有羅德尼前輩，上午好。",
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -157,7 +157,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "日安，叫我埃米尔就好啦~",
+			say = "日安，叫我埃米爾就好啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "妳好~我在路上遇到了她们两个，就顺便带过来了。",
+			say = "妳好~我在路上遇到了她們兩個，就順便帶過來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "标枪，不好意思，巴尔她果然还是不愿意过来呢。不过妳放心，今晚我一定会把她拉过来的。",
+			say = "標槍，不好意思，巴爾她果然還是不願意過來呢。不過妳放心，今晚我一定會把她拉過來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，那就麻烦敦刻尔克姐姐了~",
+			say = "嗯，那就麻煩敦克爾克姐姐了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，晚上有什么事吗？",
+			say = "咦，晚上有什麼事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，等到晚上妳就知道了，也和半人马妳有关哦~",
+			say = "嘻嘻，等到晚上妳就知道了，也和半人馬妳有關哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			say = "这样啊，那好吧……",
+			say = "這樣啊，那好吧……",
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -290,7 +290,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "总之，我做了甜点来，要一起尝尝吗？",
+			say = "總之，我做了甜點來，要一起嚐嚐嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "半人马我跟妳说，敦刻尔克姐姐做的甜点超级好吃的哦。",
+			say = "半人馬我跟妳說，敦克爾克姐姐做的甜點超級好吃的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我也听姐姐说过呢，说维希教廷来了一位世界级的甜点大师什么的。",
+			say = "我也聽姐姐說過呢，說維希教廷來了一位世界級的甜點大師什麼的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵，妳们都太过奖了……好了，请用吧。",
+			say = "呵呵，妳們都太過獎了……好了，請用吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "对吧~不过我虽然很想吃……但总觉得吃下去的话，回去要没有勇气面对体重计了。",
+			say = "對吧~不過我雖然很想吃……但總覺得吃下去的話，回去要沒有勇氣面對體重計了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "确实很美味呢……不过真遗憾，等一下我还要去练习沙滩排球，不能吃太多呢。",
+			say = "確實很美味呢……不過真遺憾，等一下我還要去練習沙灘排球，不能吃太多呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵，没事的，想要吃的话可以随时来找我。",
+			say = "呵呵，沒事的，想要吃的話可以隨時來找我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，为什么来海边会带蛋糕这些点心啦……",
+			say = "不過，為什麼來海邊會帶蛋糕這些點心啦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然敦刻尔克妳做的是很好吃没错，妳看标枪做的便当就很正常。",
+			say = "雖然敦克爾克妳做的是很好吃沒錯，妳看標槍做的便當就很正常。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……那下次我问指挥官申请一个便携冰箱，做点冰淇淋过来怎么样？",
+			say = "……那下次我向指揮官申請一個隨身冰箱，做點冰淇淋過來怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳还真是完全没有抛弃甜点的念头呢……",
+			say = "妳還真是完全沒有拋棄甜點的念頭呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过冰淇淋是个好主意，我支持哦。",
+			say = "不過冰淇淋是個好主意，我支持哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "也很符合夏天的感觉呢。",
+			say = "也很符合夏天的感覺呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然热量也很高就是了……",
+			say = "雖然熱量也很高就是了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

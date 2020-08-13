@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"盛夏的半人马座\n\n<size=45>五　铁血之盟</size>",
+					"盛夏的半人馬座\n\n<size=45>五　鐵血之盟</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "咦，标枪前辈，铁血的各位前辈们也来了。",
+			say = "咦，標槍前輩，鐵血的各位前輩們也來了。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			say = "果然铁血的各位也都换上了泳装呢。",
+			say = "果然鐵血的各位也都換上了泳裝呢。",
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			say = "我跟妳说哦，去年夏天铁血虽然已经加入了不少人，不过只有欧根一个人来过海边玩，今年就好多了呢~",
+			say = "我跟妳說哦，去年夏天鐵血雖然已經加入了不少人，不過只有歐根一個人過來海邊玩，今年就好多了呢~",
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			say = "啊，她们往这边来了呢。",
+			say = "啊，她們往這邊來了呢。",
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "Z25前辈，Z46前辈，妳们好。",
+			say = "Z25前輩，Z46前輩，妳們好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那个，敦刻尔克小姐，我也能一起吃甜点吗？",
+			say = "那個，敦克爾克小姐，我也能一起吃甜點嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z46不是前辈……",
+			say = "Z46不是前輩……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也想吃甜点。",
+			say = "我也想吃甜點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "当然可以，我做了不少呢，坐吧。",
+			say = "當然可以，我做了不少呢，坐吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，敦刻尔克姐姐的甜点果然很受欢迎呢。",
+			say = "啊哈哈，敦克爾克姐姐的甜點果然很受歡迎呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "Z25，Z46，来坐这边~",
+			say = "Z25，Z46，來坐這邊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这边看起来相当热闹呢。",
+			say = "這邊看起來相當熱鬧呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "齐柏林，妳也过来坐坐吧。",
+			say = "齊柏林，妳也過來坐坐吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			say = "我对团体活动没有兴趣——",
+			say = "我對團體活動沒有興趣——",
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = -1,
@@ -338,7 +338,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我会来这里只是因为指挥官让我在这里等罢了",
+			say = "我會來這裡只是因為指揮官讓我在這裡等罷了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别这么说，敦刻尔克的甜点，错过就可惜了，妳尝尝",
+			say = "別這麼說，敦克爾克的甜點，錯過就可惜了，妳嚐嚐",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = -1,
 			actor = 407011,
 			nameColor = "#a9f548",
-			say = "唔…这直达味蕾的美味…！",
+			say = "唔…這直達味蕾的美味…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "…那我姑且也来这边小坐片刻吧。",
+			say = "…那我姑且也來這邊小坐片刻吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "提尔比茨前辈和齐柏林前辈，中午好。",
+			say = "鐵必制前輩和齊柏林前輩，中午好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			}
 		},
 		{
-			say = "妳就是传闻中那个“对谁都会喊前辈的新人”吗…",
+			say = "妳就是傳聞中那個“對誰都會喊前輩的新人”嗎…",
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -448,7 +448,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…被叫做前辈的感觉，倒也不坏，中午好。",
+			say = "嗯…被叫做前輩的感覺，倒也不壞，中午好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前辈？……哼，听起来倒是不错…",
+			say = "前輩？……哼，聽起來倒是不錯…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "（小声）标枪前辈，铁血的前辈们意外地好相处呢。",
+			say = "（小聲）標槍前輩，鐵血的前輩們意外地好相處呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			}
 		},
 		{
-			say = "（小声）啊哈哈，虽然一开始确实会让人有种想退却的感觉，不过大家其实都是好人哦",
+			say = "（小聲）啊哈哈，雖然一開始確實會讓人有種想退卻的感覺，不過大家其實都是好人哦",
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -517,7 +517,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？话说…德意志小姐呢？",
+			say = "嗯？話說…德意志小姐呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			}
 		},
 		{
-			say = "她啊，好像是被欧根灌输了什么奇怪的知识，整天在研究怎么样才能用泳装诱惑指挥官，刚到沙滩就跑去欧根那边了。",
+			say = "她啊，好像是被歐根灌輸了什麼奇怪的知識，整天在研究怎麼樣才能用泳裝誘惑指揮官，剛到沙灘就跑去歐根那邊了。",
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -569,7 +569,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给她找点事情做也好…欧根这次算是干得不错了。",
+			say = "給她找點事情做也好…歐根這次算是幹得不錯了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，我们这么多人，感觉可以找点游戏玩了呢~",
+			say = "嘻嘻，我們這麼多人，感覺可以找點遊戲玩了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "沙滩…海边…沙滩排球…？",
+			say = "沙灘…海邊…沙灘排球…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "咦，提尔比茨小姐是喜欢这种运动的类型吗？",
+			say = "咦，鐵必制小姐是喜歡這種運動的類型嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…看来妳们对我的形象有着不少先入为主的观念啊…",
+			say = "…看來妳們對我的形像有著不少先入為主的觀念啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			blackBg = true,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "唔，既然如此，那么等大家都吃得差不多了，我们就来分组打沙滩排球吧！",
+			say = "唔，既然如此，那麼等大家都吃得差不多了，我們就來分組打沙灘排球吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14807,8 +14807,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3,
-			18
+			8,
+			17
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -35112,6 +35112,258 @@ pg.equip_data_statistics = {
 		weapon_id = {
 			27246,
 			82246
+		}
+	},
+	[27300] = {
+		name = "海怒",
+		type = 7,
+		speciality = "空戰",
+		rarity = 5,
+		tech = 0,
+		descrip = "說明未填寫",
+		value_2 = 45,
+		icon = "27300",
+		attribute_2 = "air",
+		nationality = 2,
+		ammo = "通常",
+		value_3 = 0,
+		id = 27300,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50660
+			},
+			{
+				5,
+				52340
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			9
+		},
+		weapon_id = {
+			27300,
+			82300
+		},
+		skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
+	},
+	[27301] = {
+		base = 27300,
+		id = 27301,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50661
+			},
+			{
+				5,
+				52341
+			}
+		},
+		weapon_id = {
+			27301,
+			82301
+		}
+	},
+	[27302] = {
+		base = 27300,
+		id = 27302,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50662
+			},
+			{
+				5,
+				52342
+			}
+		},
+		weapon_id = {
+			27302,
+			82302
+		}
+	},
+	[27303] = {
+		base = 27300,
+		id = 27303,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50663
+			},
+			{
+				5,
+				52343
+			}
+		},
+		weapon_id = {
+			27303,
+			82303
+		}
+	},
+	[27304] = {
+		base = 27300,
+		id = 27304,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50664
+			},
+			{
+				5,
+				52344
+			}
+		},
+		weapon_id = {
+			27304,
+			82304
+		}
+	},
+	[27305] = {
+		base = 27300,
+		id = 27305,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50665
+			},
+			{
+				5,
+				52345
+			}
+		},
+		weapon_id = {
+			27305,
+			82305
+		}
+	},
+	[27306] = {
+		base = 27300,
+		id = 27306,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50666
+			},
+			{
+				5,
+				52346
+			}
+		},
+		weapon_id = {
+			27306,
+			82306
+		}
+	},
+	[27307] = {
+		base = 27300,
+		id = 27307,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50667
+			},
+			{
+				5,
+				52347
+			}
+		},
+		weapon_id = {
+			27307,
+			82307
+		}
+	},
+	[27308] = {
+		base = 27300,
+		id = 27308,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50668
+			},
+			{
+				5,
+				52348
+			}
+		},
+		weapon_id = {
+			27308,
+			82308
+		}
+	},
+	[27309] = {
+		base = 27300,
+		id = 27309,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50669
+			},
+			{
+				5,
+				52349
+			}
+		},
+		weapon_id = {
+			27309,
+			82309
+		}
+	},
+	[27310] = {
+		base = 27300,
+		id = 27310,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_info = {
+			{
+				6,
+				50670
+			},
+			{
+				5,
+				52350
+			}
+		},
+		weapon_id = {
+			27310,
+			82310
 		}
 	},
 	[28000] = {
@@ -76730,6 +76982,17 @@ pg.equip_data_statistics = {
 		27244,
 		27245,
 		27246,
+		27300,
+		27301,
+		27302,
+		27303,
+		27304,
+		27305,
+		27306,
+		27307,
+		27308,
+		27309,
+		27310,
 		28000,
 		28001,
 		28002,

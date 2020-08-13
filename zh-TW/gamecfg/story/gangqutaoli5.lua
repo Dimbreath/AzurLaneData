@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区逃离大作战！\n\n<size=45>五　作战失败…？</size>",
+					"港區逃離大作戰！\n\n<size=45>五　作戰失敗…？</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 407010,
 			nameColor = "#a9f548",
-			say = "也就是说，妳进行的高能热线照射试验，偶然诞生出了这些孩子吗",
+			say = "也就是說，妳進行的高能熱線照射試驗，偶然誕生出了這些孩子嗎",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算拥有相同的“战史”，也会因为人们的不同想法而——",
+			say = "就算擁有相同的“戰史”，也會因為人們的不同想法而——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "换句话说，她们就是我们的，幼女姿态的具现化吗……",
+			say = "換句話說，她們就是我們的，幼女姿態的具現化嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只能这么理解了喵…小{namecode:71}和小齐柏林似乎也只记得一部分的“战历”喵……",
+			say = "只能這麼理解了喵…小{namecode:71}和小齊柏林似乎也只記得一部分的“戰歷”喵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小贝法也跟她们一样，是吧",
+			say = "小貝法也跟她們一樣，是吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为不了解自己的存在意义，所以才产生了“被诱拐”的误解吧",
+			say = "因為不了解自己的存在意義，所以才產生了“被誘拐”的誤解吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "原原来是我搞错了吗…我好憎恨…自己的不成熟…！",
+			say = "原原來是我搞錯了嗎…我好憎恨…自己的不成熟…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不过我们今后该怎么办呢……",
+			say = "不過我們今後該怎麼辦呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！不过该怎么安置她们喵？",
+			say = "沒錯！不過該怎麼安置她們喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小{namecode:71}就由我们重樱负起照顾的责任吧。{namecode:82}大人也会很高兴的吧",
+			say = "小{namecode:71}就由我們重櫻負起照顧的責任吧。{namecode:82}大人也會很高興的吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那这孩子就交给我吧。虽然人格有所差异，毕竟还是与我一致的存在。不会亏待她的",
+			say = "那這孩子就交給我吧。雖然人格有所差異，畢竟還是與我一致的存在。不會虧待她的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就这样吧。话说{namecode:98}，还是把那奇怪的设备封印掉吧。要是再发生这类的麻烦事…妳知道会怎样的吧？",
+			say = "那就這樣吧。話說{namecode:98}，還是把那奇怪的設備封印掉吧。要是再發生這類的麻煩事…妳知道會怎樣的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "知、知道了喵！对不起喵！",
+			say = "知、知道了喵！對不起喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小齐柏林，小{namecode:71}！太好了！",
+			say = "小齊柏林，小{namecode:71}！太好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			dir = -1,
 			actor = 304060,
 			nameColor = "#a9f548",
-			say = "和我一样的“{namecode:71}”……那料理的技巧一定更厉害了吧……",
+			say = "和我一樣的“{namecode:71}”……那料理的技巧一定更厲害了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "小…齐柏林？",
+			say = "小…齊柏林？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "不可能…明明是铁血第一艘空母…结果竟然有“两个”…吗？",
+			say = "不可能…明明是鐵血第一艘航母…結果竟然有“兩個”…嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么各位，让我带妳们去宿舍吧。小贝法就去向指挥官报告三人都平安无事吧",
+			say = "那麼各位，讓我帶妳們去宿舍吧。小貝法就去向指揮官報告三人都平安無事吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = -1,
 			actor = 304060,
 			nameColor = "#a9f548",
-			say = "这下就算是告一段落了…不知道以后…能不能顺利融入港区呢…",
+			say = "這下就算是告一段落了…不知道以後…能不能順利融入港區呢…",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -427,7 +427,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "小齐柏林？",
+			say = "小齊柏林？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总感觉从一开始就忘了谁……",
+			say = "總感覺從一開始就忘了誰……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么可能呢。好了，快走吧",
+			say = "怎麼可能呢。好了，快走吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			blackBg = true,
 			actor = 307090,
 			actorName = "？？？",
-			say = "那是当然，呵呵呵……",
+			say = "那是當然，呵呵呵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -455,6 +455,20 @@ pg.memory_group = {
 			386
 		}
 	},
+	[135] = {
+		title = "盛夏的半人馬座",
+		type = 2,
+		id = 135,
+		icon = "title_event",
+		memories = {
+			401,
+			402,
+			403,
+			404,
+			405,
+			406
+		}
+	},
 	[136] = {
 		title = "{namecode:82}前輩的收藏大公開",
 		type = 2,
@@ -527,8 +541,21 @@ pg.memory_group = {
 			683
 		}
 	},
+	[155] = {
+		title = "港區逃離大作戰！",
+		type = 2,
+		id = 155,
+		icon = "title_event",
+		memories = {
+			763,
+			764,
+			765,
+			766,
+			767
+		}
+	},
 	[160] = {
-		title = "月刊漫畫Javelin ",
+		title = "月刊漫畫Javelin",
 		type = 2,
 		id = 160,
 		icon = "title_event",
@@ -552,8 +579,21 @@ pg.memory_group = {
 			843
 		}
 	},
+	[164] = {
+		title = "碧海的偶像",
+		type = 2,
+		id = 164,
+		icon = "title_event",
+		memories = {
+			884,
+			885,
+			886,
+			887,
+			888
+		}
+	},
 	[184] = {
-		title = "黃金的秘寶 ",
+		title = "黃金的秘寶",
 		type = 2,
 		id = 184,
 		icon = "title_event",
@@ -801,6 +841,21 @@ pg.memory_group = {
 			393
 		}
 	},
+	[519] = {
+		title = "半人馬與港區的“前輩”們",
+		type = 3,
+		id = 519,
+		icon = "title_chara_banrenma",
+		memories = {
+			394,
+			395,
+			396,
+			397,
+			398,
+			399,
+			400
+		}
+	},
 	[520] = {
 		title = "{namecode:71}的宴會",
 		type = 3,
@@ -997,7 +1052,7 @@ pg.memory_group = {
 		}
 	},
 	[542] = {
-		title = "港灣 ",
+		title = "港灣",
 		type = 3,
 		id = 542,
 		icon = "title_chara_sipei",
@@ -1027,7 +1082,7 @@ pg.memory_group = {
 		}
 	},
 	[549] = {
-		title = "為了印第的笑容 ",
+		title = "為了印第的笑容",
 		type = 3,
 		id = 549,
 		icon = "title_chara_botelan",
@@ -1070,12 +1125,15 @@ pg.memory_group = {
 		131,
 		133,
 		134,
+		135,
 		136,
 		141,
 		148,
 		149,
+		155,
 		160,
 		161,
+		164,
 		184,
 		501,
 		502,
@@ -1092,6 +1150,7 @@ pg.memory_group = {
 		516,
 		517,
 		518,
+		519,
 		520,
 		521,
 		525,

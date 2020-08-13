@@ -136,6 +136,9 @@ function ShowMsgBox(slot0)
 end
 
 return {
+	CheckPretest = function ()
+		return NetConst.GATEWAY_HOST == "line1-test-login-ios-blhx.bilibiligame.net" and (NetConst.GATEWAY_PORT == 80 or NetConst.GATEWAY_PORT == 10080) or NetConst.GATEWAY_HOST == "line1-test-login-bili-blhx.bilibiligame.net" and (NetConst.GATEWAY_PORT == 80 or NetConst.GATEWAY_PORT == 10080) or Application.isEditor
+	end,
 	InitSDK = function ()
 		if PLATFORM_CHT == PLATFORM_CODE then
 			uv0.sandboxKey = uv1

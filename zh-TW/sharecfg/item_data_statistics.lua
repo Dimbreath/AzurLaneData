@@ -58774,6 +58774,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59135] = {
+		display = "關於「傳說中的海豹」的線索，收集更多情報，尋找傳說中的小海豹吧！用於『碧海的偶像』活動，活動結束後將會消失",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "線索",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59135,
+		icon = "Props/qixihaibaopt",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59136] = {
 		display = "『Azurlane人氣投票2020』活動累計獲得投票，每輪投票結束時次數歸零",
 		rarity = 2,
@@ -62217,6 +62235,7 @@ pg.item_data_statistics = {
 		59123,
 		59124,
 		59128,
+		59135,
 		59136,
 		59140,
 		59150,

@@ -33170,7 +33170,7 @@ pg.enemy_data_statistics = {
 	},
 	[343] = {
 		cannon = 0,
-		name = "铃谷",
+		name = "鈴谷",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -33327,7 +33327,7 @@ pg.enemy_data_statistics = {
 	},
 	[344] = {
 		cannon = 0,
-		name = "矶风",
+		name = "磯風",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -33461,7 +33461,7 @@ pg.enemy_data_statistics = {
 	},
 	[345] = {
 		cannon = 0,
-		name = "浦风",
+		name = "浦風 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -46083,7 +46083,7 @@ pg.enemy_data_statistics = {
 	},
 	[438] = {
 		cannon = 0,
-		name = "构建者",
+		name = "構建者",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -46213,7 +46213,7 @@ pg.enemy_data_statistics = {
 	},
 	[439] = {
 		cannon = 0,
-		name = "潜艇「Assassin」",
+		name = "潛艇「Assassin」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -46340,7 +46340,7 @@ pg.enemy_data_statistics = {
 	},
 	[440] = {
 		cannon = 0,
-		name = "纳尔逊",
+		name = "納爾遜",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -46483,7 +46483,7 @@ pg.enemy_data_statistics = {
 	},
 	[441] = {
 		cannon = 0,
-		name = "沃克兰",
+		name = "沃克蘭",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -46768,7 +46768,7 @@ pg.enemy_data_statistics = {
 	},
 	[443] = {
 		cannon = 0,
-		name = "阿尔及利亚",
+		name = "阿爾及利亞",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -47026,7 +47026,7 @@ pg.enemy_data_statistics = {
 	},
 	[445] = {
 		cannon = 0,
-		name = "狂风级量产型",
+		name = "狂風級量產型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -47171,7 +47171,7 @@ pg.enemy_data_statistics = {
 	},
 	[446] = {
 		cannon = 0,
-		name = "埃米尔·贝尔汀级量产型",
+		name = "埃米爾·貝爾坦級量產型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -47316,7 +47316,7 @@ pg.enemy_data_statistics = {
 	},
 	[447] = {
 		cannon = 0,
-		name = "阿尔及利亚级量产型",
+		name = "阿爾及利亞級量產型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -47468,7 +47468,7 @@ pg.enemy_data_statistics = {
 	},
 	[448] = {
 		cannon = 0,
-		name = "布列塔尼级量产型",
+		name = "布列塔尼級量產型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -47620,7 +47620,7 @@ pg.enemy_data_statistics = {
 	},
 	[449] = {
 		cannon = 0,
-		name = "贝亚恩级量产型",
+		name = "貝亞恩級量產型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -48392,7 +48392,7 @@ pg.enemy_data_statistics = {
 	},
 	[455] = {
 		cannon = 0,
-		name = "侵扰者III型",
+		name = "侵擾者III型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"碧海的偶像\n\n<size=45>四 旅途的终点</size>",
+					"碧海的偶像\n\n<size=45>四 旅途的終點</size>",
 					1
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			},
 			options = {
 				{
-					content = "把海豹雷达关掉",
+					content = "把海豹雷達關掉",
 					flag = 1
 				}
 			}
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，确实变得有些太吵了呢。",
+			say = "啊哈哈，確實變得有些太吵了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "……不过，看来也已经不需要雷达了。",
+			say = "……不過，看來也已經不需要雷達了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "干得好圣地亚哥！小海豹的最后的线索就是在这里了！",
+			say = "幹得好聖地牙哥！小海豹的最後的線索就是在這裡了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			actor = 102080,
 			nameColor = "#a9f548",
-			say = "我果然很厉害吧！哼哼，我们一定会最先找到小海豹的！",
+			say = "我果然很厲害吧！哼哼，我們一定會最先找到小海豹的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，对，对不起……！",
+			say = "指揮官，對，對不起……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			actor = 102220,
 			nameColor = "#a9f548",
-			say = "等等啊！找小海豹这个没有什么先后之分吧！",
+			say = "等等啊！找小海豹這個沒有什麼先後之分吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "最后关头突然出现的劲敌……！？",
+			say = "最後關頭突然出現的勁敵……！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "双方的前进方向一致，既然如此——！",
+			say = "雙方的前進方向一致，既然如此——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "哇哇！指挥官，不要拉我啊！",
+			say = "哇哇！指揮官，不要拉我啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指、指挥官！？",
+			say = "指、指揮官！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，要朝着那边赛跑吗？？",
+			say = "哈哈哈，要朝著那邊賽跑嗎？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，快停下快停下！还太早了啦！",
+			say = "指揮官，快停下快停下！還太早了啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 102220,
 			nameColor = "#a9f548",
-			say = "萨拉托加！…没办法了，赶快通知大家紧急启动！",
+			say = "薩拉托加！…沒辦法了，趕快通知大家緊急啟動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			stopbgm = true,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "——就在那时，从海中浮现出了一个巨大的建筑物",
+			say = "——就在那時，從海中浮現出了一個巨大的建築物",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "建筑物的水槽里，各种各样的海洋动物们开心呢的嬉戏着",
+			say = "建築物的水槽裡，各種各樣的海洋動物們開心呢的嬉戲著",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "那是……“传说中的海豹”！",
+			say = "那是……“傳說中的海豹”！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"半人马与港区的“前辈”们\n\n<size=45>一　尊敬的前辈</size>",
+					"半人馬與港區的“前輩”們\n\n<size=45>一　尊敬的前輩</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·港口",
+			say = "港區·港口",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天就来对着海浪进行抽卡练习吧——",
+			say = "今天就來對著海浪進行抽卡練習吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "竞技神今天也是状态绝佳的样子。",
+			say = "競技神今天也是狀態絕佳的樣子。",
 			effects = {
 				{
 					active = false,
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 2,
 			dir = 1,
-			say = "……那边墙后面似乎有人在探头探脑的样子。",
+			say = "……那邊牆後面似乎有人在探頭探腦的樣子。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -128,7 +128,7 @@ return {
 			},
 			options = {
 				{
-					content = "过去看看",
+					content = "過去看看",
 					flag = 1
 				}
 			}
@@ -140,7 +140,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "啊，指、指挥官，妳好！",
+			say = "啊，指、指揮官，你好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "那个，我没在做什么可疑的事哦！只是……",
+			say = "那個，我沒在做什麼可疑的事哦！只是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "半人马的视线飘向不远处的竞技神。",
+			say = "半人馬的視線飄向不遠處的競技神。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我有个妹妹也叫竞技神，就是继承自这位所有空母的大前辈，所以我一直很想见一见。",
+			say = "我有個妹妹也叫競技神，就是繼承自這位所有航母的大前輩，所以我一直很想見一見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不过实际见到本人就不知道该怎么上去搭话了，只好缩在这里观察。",
+			say = "不過實際見到本人就不知道該怎麼上去搭話了，只好縮在這裡觀察。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "指挥官能帮我……",
+			say = "指揮官能幫我……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			},
 			options = {
 				{
-					content = "竞技神，过来这边一下！",
+					content = "競技神，過來這邊一下！",
 					flag = 1
 				}
 			}
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了指挥官，想要来一场激动人心的决斗吗？",
+			say = "怎麼了指揮官，想要來一場激動人心的決鬥嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "那个，竞技神大前辈……",
+			say = "那個，競技神大前輩……",
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳是……我记得是新加入的半人马吧，听说妳有个妹妹也叫竞技神是吗？",
+			say = "妳是……我記得是新加入的半人馬吧，聽說妳有個妹妹也叫競技神是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "半人马稍微松了一口气的样子。",
+			say = "半人馬稍微鬆了一口氣的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好吧，那就让我用决斗来试试妳灵魂的热度！",
+			say = "好吧，那就讓我用決鬥來試試妳靈魂的熱度！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，这孩子我借走了。",
+			say = "指揮官，這孩子我借走了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "半人马被竞技神拖走了。",
+			say = "半人馬被競技神拖走了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "她会慢慢习惯这位大前辈的风格吧，大概。",
+			say = "她會慢慢習慣這位大前輩的風格吧，大概。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

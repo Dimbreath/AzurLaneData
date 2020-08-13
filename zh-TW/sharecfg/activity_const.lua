@@ -91,7 +91,7 @@ pg.activity_const = {
 		act_id = 147
 	},
 	CENTAUR_ACTIVITY_ID = {
-		act_id = 148
+		act_id = 40154
 	},
 	XIAOBEIFA_ACTIVITY_PT_ID = {
 		act_id = 151
@@ -316,7 +316,7 @@ pg.activity_const = {
 		act_id = 348
 	},
 	SARATOGA_WF_SKIN_ID = {
-		act_id = 350
+		act_id = 40157
 	},
 	SKIN_XIXUEGUI = {
 		act_id = 355

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区逃离大作战！\n\n<size=45>四　到达终点！</size>",
+					"港區逃離大作戰！\n\n<size=45>四　到達終點！</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 202180,
 			nameColor = "#a9f548",
-			say = "这里就是码头了。出击或是执行委托的时候大家会从这里出海哦",
+			say = "這裡就是碼頭了。出擊或是執行委託的時候大家會從這裡出海哦",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这里就是……码头……",
+			say = "這裡就是……碼頭……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "咳、咳咳！是叫小贝法吧，辛苦了！感谢",
+			say = "咳、咳咳！是叫小貝法吧，辛苦了！感謝",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			actor = 202180,
 			nameColor = "#a9f548",
-			say = "如果有别的需要的话，尽管吩咐我吧（鞠躬",
+			say = "如果有別的需要的話，儘管吩咐我吧（鞠躬",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = -1,
 			actor = 304060,
 			nameColor = "#a9f548",
-			say = "那个，嗯…小贝法？",
+			say = "那個，嗯…小貝法？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是，有什么事吗？",
+			say = "是，有什麼事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看起来妳也和我们一样，和舰装比起来身体相当娇小",
+			say = "看起來妳也和我們一樣，和艦裝比起來身體相當嬌小",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道妳也是被指挥官诱拐来的……",
+			say = "難道妳也是被指揮官誘拐來的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "那就和我们一起逃离魔掌，前往碧蓝的大海吧！",
+			say = "那就和我們一起逃離魔掌，前往碧藍的大海吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是。如果需要的话，我出海完全没有问题，不过——",
+			say = "是。如果需要的話，我出海完全沒有問題，不過——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里有主人、陛下，还有姐姐大人在。这里就是我的归宿",
+			say = "這裡有主人、陛下，還有姐姐大人在。這裡就是我的歸宿",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，在这里和大家在一起也很开心的哦？",
+			say = "而且，在這裡和大家在一起也很開心的哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "小贝法……",
+			say = "小貝法……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "怎、怎么……",
+			say = "怎、怎麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过没问题吗？齐柏林大人和{namecode:71}大人，刚才似乎就很难认到方向",
+			say = "不過沒問題嗎？齊柏林大人和{namecode:71}大人，剛才似乎就很難認到方向",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能顺利找到回家的路吗……",
+			say = "能順利找到回家的路嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来在这里啊",
+			say = "原來在這裡啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，真是给人添麻烦",
+			say = "哼，真是給人添麻煩",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别这么说。这种时候才正是大人出场的时候不是吗",
+			say = "別這麼說。這種時候才正是大人出場的時候不是嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错喵！{namecode:98}一个人的话怎么都找不到的喵！",
+			say = "沒錯喵！{namecode:98}一個人的話怎麼都找不到的喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 304060,
-			actorName = "小齐柏林&小{namecode:71}",
+			actorName = "小{namecode:71}&小齊柏林",
 			say = "那些人是——！？",
 			subActors = {
 				{

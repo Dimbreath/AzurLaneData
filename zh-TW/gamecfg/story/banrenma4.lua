@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"半人马与港区的“前辈”们\n\n<size=45>四　意外的发展</size>",
+					"半人馬與港區的“前輩”們\n\n<size=45>四　意外的發展</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "半人马，来玩扮家家酒吧！{namecode:34}也想和妳一起玩呢！",
+			say = "半人馬，來玩扮家家酒吧！{namecode:34}也想和妳一起玩呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，虽然我不喜欢飞机，但我喜欢半人马……来一起玩吧。",
+			say = "嗯，雖然我不喜歡飛機，但我喜歡半人馬……來一起玩吧。",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -88,7 +88,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "啊，两位前辈，当然没问题~",
+			say = "啊，兩位前輩，當然沒問題~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 101240,
 			nameColor = "#a9f548",
-			say = "半人马，没忘了和我们约好玩捉迷藏吧？",
+			say = "半人馬，沒忘了和我們約好玩捉迷藏吧？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -135,7 +135,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			say = "当然没有，西姆斯前辈，我也很期待呢。",
+			say = "當然沒有，西姆斯前輩，我也很期待呢。",
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快点快点，没看到妳来哈曼正在发脾气呢。",
+			say = "快點快點，沒看到妳來哈曼正在發脾氣呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			actor = 201100,
 			nameColor = "#a9f548",
-			say = "那、那个，指挥官，我是来找半人马一起排练live的……",
+			say = "那、那個，指揮官，我是來找半人馬一起排練live的……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -205,7 +205,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			say = "嗯，小天鹅前辈，妳先过去吧，我等会儿就到。",
+			say = "嗯，小天鵝前輩，妳先過去吧，我等會兒就到。",
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，有半人马在感觉大家都有自信了很多，妳一定要来哦？",
+			say = "嗯，有半人馬在感覺大家都有自信了很多，妳一定要來哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……不知为何，上次的谈话过后，半人马反而在驱逐舰之间获得了巨大的人气。",
+			say = "……不知為何，上次的談話過後，半人馬反而在驅逐艦之間獲得了巨大的人氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我只是和驱逐前辈们说明了我对大家的想法，然后被大家接纳了而已。",
+			say = "我只是和驅逐前輩們說明了我對大家的想法，然後被大家接納了而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "驱逐前辈们都是很好的人呢。",
+			say = "驅逐前輩們都是很好的人呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……何等令人羡慕，为什么我纯洁而又炽热的感情就没有得到接纳……",
+			say = "……何等令人羨慕，為什麼我純潔而又熾熱的感情就沒有得到接納……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不知道什么地方传来了充满怨念与不甘的声音。",
+			say = "不知道什麼地方傳來了充滿怨念與不甘的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…不过和驱逐有关的话，也只有那个人了",
+			say = "…不過和驅逐有關的話，也只有那個人了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "啊，皇家方舟前辈，妳好~",
+			say = "啊，皇家方舟前輩，妳好~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "对，只有那个人了。",
+			say = "對，只有那個人了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

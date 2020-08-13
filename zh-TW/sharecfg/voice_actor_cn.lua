@@ -953,7 +953,7 @@ pg.voice_actor_CN = {
 		code = 238
 	},
 	{
-		actor_name = "水泽史绘 ",
+		actor_name = "水澤史繪",
 		code = 239
 	},
 	{

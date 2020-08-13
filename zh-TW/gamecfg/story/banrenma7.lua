@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"半人马与港区的“前辈”们\n\n<size=45>七　真正的同伴</size>",
+					"半人馬與港區的“前輩”們\n\n<size=45>七　真正的同伴</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
-			say = "半人马说起了有关“前辈”的新含义。",
+			say = "半人馬說起了有關“前輩”的新含義。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "自从加入舰队到现在，已经过了有一段时间呢。",
+			say = "自從加入艦隊到現在，已經過了有一段時間呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "在这段时间里，我近距离接触了许多前辈，知道了许多前辈们在战场之外的另一面。",
+			say = "在這段時間裡，我近距離接觸了許多前輩，知道了許多前輩們在戰場之外的另一面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都和我一样是普通的人，会高兴，会难过，会有喜欢的和讨厌的东西。",
+			say = "大家都和我一樣是普通的人，會高興，會難過，會有喜歡的和討厭的東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "就算是指挥官，也会有喊着不想工作和打瞌睡的时候。",
+			say = "就算是指揮官，也會有喊著不想工作和打瞌睡的時候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示这很正常",
+					content = "表示這很正常",
 					flag = 1
 				}
 			}
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "是的，这样才正常，虽然大家有各自的想法，偶尔也会有些争执……",
+			say = "是的，這樣才正常，雖然大家有各自的想法，偶爾也會有些爭執……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是为了实现共同的目标，大家一定会互相扶持，互相帮助，这样才是我所憧憬的舰队。",
+			say = "但是為了實現共同的目標，大家一定會互相扶持，互相幫助，這樣才是我所憧憬的艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "而现在的我也是这支舰队的一员，所以我不再只是尊敬大家，更是喜欢上了大家。",
+			say = "而現在的我也是這支艦隊的一員，所以我不再只是尊敬大家，更是喜歡上了大家。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			},
 			options = {
 				{
-					content = "也包含指挥官吗？",
+					content = "也包含指揮官嗎？",
 					flag = 1
 				}
 			}
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "指挥官，不要突然问这种问题啦……我当然也喜欢指挥官啦~",
+			say = "指揮官，不要突然問這種問題啦……我當然也喜歡指揮官啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "半人马的脸红了一下。",
+			say = "半人馬的臉紅了一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "总之呢，一开始的我，是因为尊敬经历过大战的各位而称呼大家为前辈。",
+			say = "總之呢，一開始的我，是因為尊敬經歷過大戰的各位而稱呼大家為前輩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的我，则是因为喜欢为了和平而战的同伴们，而称呼大家为前辈。",
+			say = "現在的我，則是因為喜歡為了和平而戰的同伴們，而稱呼大家為前輩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "啊哈哈，虽然说起来有点不好意思，其实主要原因还是我已经叫习惯了呢~",
+			say = "啊哈哈，雖然說起來有點不好意思，其實主要原因還是我已經叫習慣了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "还真是说复杂也复杂，说简单也简单啊…",
+			say = "還真是說複雜也複雜，說簡單也簡單啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "说了这么多我的事，也该轮到指挥官了呢。",
+			say = "說了這麼多我的事，也該輪到指揮官了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "虽然担任了这么久的秘书舰，我已经相当了解指挥官了。",
+			say = "雖然擔任了這麼久的秘書艦，我已經相當了解指揮官了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "不过果然还是想听指挥官亲口和我说说自己的事呢…一些小秘密，或者没有对人说过的想法什么的。",
+			say = "不過果然還是想聽指揮官親口和我說說自己的事呢…一些小秘密，或者沒有對人說過的想法什麼的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			blackBg = true,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "嘻嘻，能告诉我更多…妳的事情吗？指挥官…前辈？",
+			say = "嘻嘻，能告訴我更多…你的事情嗎？指揮官…前輩？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

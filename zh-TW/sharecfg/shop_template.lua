@@ -9637,6 +9637,55 @@ pg.shop_template = {
 			207021
 		}
 	},
+	[70093] = {
+		group_type = 0,
+		resource_num = 1180,
+		desc = "購買造型:半人馬泳裝",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 110,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 10,
+		resource_type = 14,
+		id = 70093,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2018,
+					8,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					9,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			206041
+		}
+	},
 	[70095] = {
 		group_type = 0,
 		resource_num = 780,
@@ -10483,9 +10532,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		time_second = 0,
-		order = 1300,
+		order = 130,
 		group = 0,
 		num = 1,
 		discount = 10,
@@ -10526,8 +10575,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					4,
-					23
+					8,
+					13
 				},
 				{
 					0,
@@ -10538,8 +10587,8 @@ pg.shop_template = {
 			{
 				{
 					2020,
-					4,
-					29
+					8,
+					26
 				},
 				{
 					23,
@@ -12436,6 +12485,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70193] = {
+		group_type = 0,
+		resource_num = 1180,
+		desc = "购买皮肤：天狼星泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 110,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70193,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			202202
+		},
+		time = {
+			{
+				{
+					2020,
+					8,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70194] = {
 		group_type = 0,
 		resource_num = 780,
@@ -12672,6 +12770,104 @@ pg.shop_template = {
 					2020,
 					7,
 					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70212] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：杜威泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 180,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70212,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			101021
+		},
+		time = {
+			{
+				{
+					2020,
+					8,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70215] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：苏塞克斯泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 180,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70215,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			203091
+		},
+		time = {
+			{
+				{
+					2020,
+					8,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					26
 				},
 				{
 					23,
@@ -15086,6 +15282,7 @@ pg.shop_template = {
 		70087,
 		70088,
 		70089,
+		70093,
 		70095,
 		70096,
 		70097,
@@ -15137,11 +15334,14 @@ pg.shop_template = {
 		70167,
 		70168,
 		70173,
+		70193,
 		70194,
 		70195,
 		70203,
 		70204,
 		70205,
+		70212,
+		70215,
 		70216,
 		70218,
 		70220,

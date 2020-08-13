@@ -127,7 +127,7 @@ function slot0.CheckPreAudit(slot0)
 end
 
 function slot0.CheckPretest(slot0)
-	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_CH then
 		return slot0:Get("CheckPretest")
 	else
 		return false
@@ -384,7 +384,9 @@ function slot0.GetDeviceId(slot0)
 end
 
 function InLoginScene()
-	if getProxy(ContextProxy):getCurrentContext() and slot0.mediator == LoginMediator then
+	if getProxy(ContextProxy):getCurrentContext() and slot1.mediator == LoginMediator and not function ()
+		return getProxy(UserProxy):GetLoginedFlag()
+	end() then
 		return true
 	end
 

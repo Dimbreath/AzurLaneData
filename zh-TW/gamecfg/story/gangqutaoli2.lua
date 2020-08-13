@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区逃离大作战！\n\n<size=45>二　谍报战！</size>",
+					"港區逃離大作戰！\n\n<size=45>二　諜報戰！</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "前方转角发现舰影…吃我一——咕唔唔唔…！",
+			say = "前方轉角發現艦影…吃我一——咕唔唔唔…！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -68,7 +68,7 @@ return {
 			dir = -1,
 			actor = 304060,
 			nameColor = "#a9f548",
-			say = "小齐柏林！不能用舰装打人啦！",
+			say = "小齊柏林！不能用艦裝打人啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "…真是的，打昏过去的话，不就问不到路了吗！",
+			say = "…真是的，打昏過去的話，不就問不到路了嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_103",
-			say = "咳咳！妳说得没错。那就让这个人来给我们带路吧",
+			say = "咳咳！妳說得沒錯。那就讓這個人來給我們帶路吧",
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
@@ -121,7 +121,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这样也不行！",
+			say = "這樣也不行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "……诶？",
+			say = "……欸？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = -1,
 			actor = 304060,
 			nameColor = "#a9f548",
-			say = "这关系到身为“御召舰“的尊严！小齐柏林既然是铁血海军的明日之星的话，也不可以向这么小的驱逐舰乞求回答哦",
+			say = "這關係到身為“御召艦“的尊嚴！小齊柏林既然是鐵血海軍的明日之星的話，也不可以向這麼小的驅逐艦乞求回答哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦、哦哦……那妳觉得我们现在应该怎么办？说说看妳的作战吧",
+			say = "哦、哦哦……那妳覺得我們現在應該怎麼辦？說說看妳的作戰吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = -1,
 			actor = 304060,
 			nameColor = "#a9f548",
-			say = "静静地跟在她后面，然后逐步把路线掌握就行……也就是说，要进行谍报战了",
+			say = "靜靜地跟在她後面，然後逐步把路線掌握就行……也就是說，要進行諜報戰了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "原来如此…我明白了。哼，让妳见识下不输给专业人士的潜行技能吧…！",
+			say = "原來如此…我明白了。哼，讓妳見識下不輸給專業人士的潛行技能吧…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:71}也不会输的！",
+			say = "{namecode:71}也不會輸的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
-			say = "(快一小时后)",
+			say = "(快一小時後)",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "累死了啊啊啊啊动不了啦啊啊啊……",
+			say = "累死了啊啊啊啊動不了啦啊啊啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = -1,
 			actor = 304060,
 			nameColor = "#a9f548",
-			say = "小齐柏林，中途看丢了好几次吧……不如说中途因为好奇心而饶了好几次弯路不是吗？",
+			say = "小齊柏林，中途看丟了好幾次吧……不如說中途因為好奇心而繞了好幾次彎路不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "就、就是很在意啊！没办法…妳不也一样在经过厨房的时候差点一步都走不动吗！",
+			say = "就、就是很在意啊！沒辦法…妳不也一樣在經過廚房的時候差點一步都走不動嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊呜…总、总之，有弄明白通往大海的路了吗？{namecode:71}还是一头雾水……",
+			say = "啊嗚…總、總之，有弄明白通往大海的路了嗎？{namecode:71}還是一頭霧水……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "哼、哼哼哼……我的话就更不用问了……",
+			say = "哼、哼哼哼……我的話就更不用問了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,8 +378,8 @@ return {
 			bgName = "star_level_bg_103",
 			dir = -1,
 			actor = 304060,
-			actorName = "两人",
-			say = "怎、怎么办……",
+			actorName = "兩人",
+			say = "怎、怎麼辦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "需要帮忙吗？",
+			say = "需要幫忙嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 304060,
-			actorName = "两人",
+			actorName = "兩人",
 			say = "妳、妳是……！？",
 			typewriter = {
 				speed = 0.05,

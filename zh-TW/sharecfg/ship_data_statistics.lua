@@ -62665,6 +62665,470 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[206041] = {
+		oxy_max = 0,
+		type = 6,
+		name = "半人馬",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 206041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Centaur",
+		oxy_cost = 0,
+		skin_id = 206040,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1105,
+			0,
+			0,
+			50,
+			80,
+			59,
+			0,
+			31,
+			19,
+			28,
+			73,
+			31
+		},
+		attrs_growth = {
+			26945,
+			0,
+			0,
+			980,
+			796,
+			292,
+			0,
+			462,
+			288,
+			0,
+			0,
+			302
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			113,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[206042] = {
+		oxy_max = 0,
+		type = 6,
+		name = "半人馬",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 206042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Centaur",
+		oxy_cost = 0,
+		skin_id = 206040,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1374,
+			0,
+			0,
+			62,
+			100,
+			59,
+			0,
+			31,
+			19,
+			28,
+			73,
+			39
+		},
+		attrs_growth = {
+			26945,
+			0,
+			0,
+			980,
+			796,
+			292,
+			0,
+			462,
+			288,
+			0,
+			0,
+			302
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			113,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[206043] = {
+		oxy_max = 0,
+		type = 6,
+		name = "半人馬",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 206043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Centaur",
+		oxy_cost = 0,
+		skin_id = 206040,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1913,
+			0,
+			0,
+			87,
+			140,
+			59,
+			0,
+			31,
+			19,
+			28,
+			73,
+			54
+		},
+		attrs_growth = {
+			26945,
+			0,
+			0,
+			980,
+			796,
+			292,
+			0,
+			462,
+			288,
+			0,
+			0,
+			302
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			113,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[206044] = {
+		oxy_max = 0,
+		type = 6,
+		name = "半人馬",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 206044,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Centaur",
+		oxy_cost = 0,
+		skin_id = 206040,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2722,
+			0,
+			0,
+			124,
+			199,
+			59,
+			0,
+			31,
+			19,
+			28,
+			73,
+			76
+		},
+		attrs_growth = {
+			26945,
+			0,
+			0,
+			980,
+			796,
+			292,
+			0,
+			462,
+			288,
+			0,
+			0,
+			302
+		},
+		attrs_growth_extra = {
+			16167,
+			0,
+			0,
+			619,
+			1181,
+			691,
+			0,
+			218,
+			647,
+			0,
+			0,
+			389
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			113,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			4
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			1.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[206051] = {
 		oxy_max = 0,
 		type = 6,
@@ -96329,6 +96793,478 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[304061] = {
+		oxy_max = 0,
+		type = 4,
+		name = "小比叡",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 304061,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiei",
+		oxy_cost = 0,
+		skin_id = 304060,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1062,
+			68,
+			31,
+			46,
+			0,
+			59,
+			0,
+			21,
+			9,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			25910,
+			678,
+			306,
+			904,
+			0,
+			292,
+			0,
+			312,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.5,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kongo-Class"
+		}
+	},
+	[304062] = {
+		oxy_max = 0,
+		type = 4,
+		name = "小比叡",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 304062,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiei",
+		oxy_cost = 0,
+		skin_id = 304060,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1321,
+			85,
+			39,
+			57,
+			0,
+			59,
+			0,
+			21,
+			9,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			25910,
+			678,
+			306,
+			904,
+			0,
+			292,
+			0,
+			312,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.5,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kongo-Class"
+		}
+	},
+	[304063] = {
+		oxy_max = 0,
+		type = 4,
+		name = "小比叡",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 304063,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiei",
+		oxy_cost = 0,
+		skin_id = 304060,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1839,
+			119,
+			54,
+			80,
+			0,
+			59,
+			0,
+			21,
+			9,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			25910,
+			678,
+			306,
+			904,
+			0,
+			292,
+			0,
+			312,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.5,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kongo-Class"
+		}
+	},
+	[304064] = {
+		oxy_max = 0,
+		type = 4,
+		name = "小比叡",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 304064,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hiei",
+		oxy_cost = 0,
+		skin_id = 304060,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2617,
+			170,
+			77,
+			114,
+			0,
+			59,
+			0,
+			21,
+			9,
+			30,
+			37,
+			0
+		},
+		attrs_growth = {
+			25910,
+			678,
+			306,
+			904,
+			0,
+			292,
+			0,
+			312,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			19433,
+			1209,
+			729,
+			611,
+			0,
+			691,
+			0,
+			343,
+			678,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.5,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kongo-Class"
+		}
+	},
 	[305011] = {
 		oxy_max = 0,
 		type = 5,
@@ -104724,6 +105660,474 @@ pg.ship_data_statistics = {
 		equipment_proficiency = {
 			1.3,
 			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[307091] = {
+		oxy_max = 0,
+		type = 7,
+		name = "小赤城",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 307091,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Akagi",
+		oxy_cost = 0,
+		skin_id = 307090,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1077,
+			0,
+			0,
+			59,
+			75,
+			46,
+			0,
+			31,
+			13,
+			31.5,
+			42,
+			0
+		},
+		attrs_growth = {
+			26280,
+			0,
+			0,
+			1152,
+			740,
+			228,
+			0,
+			456,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[307092] = {
+		oxy_max = 0,
+		type = 7,
+		name = "小赤城",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 307092,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Akagi",
+		oxy_cost = 0,
+		skin_id = 307090,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1340,
+			0,
+			0,
+			73,
+			94,
+			46,
+			0,
+			31,
+			13,
+			31.5,
+			42,
+			0
+		},
+		attrs_growth = {
+			26280,
+			0,
+			0,
+			1152,
+			740,
+			228,
+			0,
+			456,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.13,
+			1.03,
+			1.13
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[307093] = {
+		oxy_max = 0,
+		type = 7,
+		name = "小赤城",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 307093,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Akagi",
+		oxy_cost = 0,
+		skin_id = 307090,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1865,
+			0,
+			0,
+			102,
+			131,
+			46,
+			0,
+			31,
+			13,
+			31.5,
+			42,
+			0
+		},
+		attrs_growth = {
+			26280,
+			0,
+			0,
+			1152,
+			740,
+			228,
+			0,
+			456,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.18,
+			1.08,
+			1.18
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[307094] = {
+		oxy_max = 0,
+		type = 7,
+		name = "小赤城",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 307094,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Akagi",
+		oxy_cost = 0,
+		skin_id = 307090,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2654,
+			0,
+			0,
+			145,
+			186,
+			46,
+			0,
+			31,
+			13,
+			31.5,
+			42,
+			0
+		},
+		attrs_growth = {
+			26280,
+			0,
+			0,
+			1152,
+			740,
+			228,
+			0,
+			456,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5779,
+			0,
+			0,
+			599,
+			1204,
+			537,
+			0,
+			-1,
+			768,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.15,
 			1.25
 		},
 		strategy_list = {},
@@ -120721,6 +122125,470 @@ pg.ship_data_statistics = {
 			1.2,
 			1.3,
 			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[407021] = {
+		oxy_max = 0,
+		type = 7,
+		name = "小齊柏林",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 407021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Graf Zeppelin",
+		oxy_cost = 0,
+		skin_id = 407020,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1228,
+			32,
+			0,
+			58,
+			71,
+			41,
+			0,
+			29,
+			16,
+			33.8,
+			45,
+			0
+		},
+		attrs_growth = {
+			29945,
+			318,
+			0,
+			1136,
+			704,
+			202,
+			0,
+			432,
+			234,
+			0,
+			0,
+			2
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			123
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[407022] = {
+		oxy_max = 0,
+		type = 7,
+		name = "小齊柏林",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 407022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Graf Zeppelin",
+		oxy_cost = 0,
+		skin_id = 407020,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1527,
+			40,
+			0,
+			72,
+			89,
+			41,
+			0,
+			29,
+			16,
+			33.8,
+			45,
+			0
+		},
+		attrs_growth = {
+			29945,
+			318,
+			0,
+			1136,
+			704,
+			202,
+			0,
+			432,
+			234,
+			0,
+			0,
+			2
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			123
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.03,
+			1.18,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[407023] = {
+		oxy_max = 0,
+		type = 7,
+		name = "小齊柏林",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 407023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Graf Zeppelin",
+		oxy_cost = 0,
+		skin_id = 407020,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2126,
+			56,
+			0,
+			101,
+			124,
+			41,
+			0,
+			29,
+			16,
+			33.8,
+			45,
+			0
+		},
+		attrs_growth = {
+			29945,
+			318,
+			0,
+			1136,
+			704,
+			202,
+			0,
+			432,
+			234,
+			0,
+			0,
+			2
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			123
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.08,
+			1.23,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[407024] = {
+		oxy_max = 0,
+		type = 7,
+		name = "小齊柏林",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 407024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Graf Zeppelin",
+		oxy_cost = 0,
+		skin_id = 407020,
+		attack_duration = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			3025,
+			80,
+			0,
+			143,
+			177,
+			41,
+			0,
+			29,
+			16,
+			33.8,
+			45,
+			0
+		},
+		attrs_growth = {
+			29945,
+			318,
+			0,
+			1136,
+			704,
+			202,
+			0,
+			432,
+			234,
+			0,
+			0,
+			2
+		},
+		attrs_growth_extra = {
+			0,
+			755,
+			0,
+			601,
+			1208,
+			473,
+			0,
+			2,
+			461,
+			0,
+			0,
+			-2
+		},
+		lock = {
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			121,
+			123,
+			123
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.3,
+			1
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -157512,6 +159380,10 @@ pg.ship_data_statistics = {
 		206032,
 		206033,
 		206034,
+		206041,
+		206042,
+		206043,
+		206044,
 		206051,
 		206052,
 		206053,
@@ -157797,6 +159669,10 @@ pg.ship_data_statistics = {
 		304052,
 		304053,
 		304054,
+		304061,
+		304062,
+		304063,
+		304064,
 		305011,
 		305012,
 		305013,
@@ -157869,6 +159745,10 @@ pg.ship_data_statistics = {
 		307062,
 		307063,
 		307064,
+		307091,
+		307092,
+		307093,
+		307094,
 		308011,
 		308012,
 		308013,
@@ -157981,6 +159861,10 @@ pg.ship_data_statistics = {
 		407012,
 		407013,
 		407014,
+		407021,
+		407022,
+		407023,
+		407024,
 		408011,
 		408012,
 		408013,

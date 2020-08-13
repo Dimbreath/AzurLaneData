@@ -900,6 +900,149 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[108] = {
+		advice = 0,
+		describe = "仙人居高處，鞦韆且為戲",
+		count = 2,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "半仙戲",
+		is_get_time_note = 1,
+		rarity = 3,
+		gain_by = "",
+		themeId = 0,
+		icon = "qiuqianqixiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 108,
+		picture = "chuanmo/qiuqianqixi",
+		comfortable = 3,
+		tag = 6,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					89,
+					-75
+				},
+				{
+					-1,
+					1
+				},
+				"chuanmo/qiuqianqixi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[109] = {
+		advice = 0,
+		describe = "纖雲弄巧，飛星傳恨，銀漢迢迢暗度",
+		count = 2,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "鵲橋仙",
+		is_get_time_note = 1,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "jiqiaoqixiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 109,
+		picture = "chuanmo/jiqiaoqixi",
+		comfortable = 4,
+		tag = 6,
+		size = {
+			11,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					228,
+					152
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					113,
+					170
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					16,
+					140
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-72,
+					50
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-137,
+					-23
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[112] = {
 		advice = 0,
 		describe = "遺落在塞壬的試驗場中，由“紅染的參訪者”們回收的陳舊勳章，經過處理後，贈予部分在作戰中做出傑出貢獻的指揮官。彷彿能從中感受到重櫻眾人的信念與意志\n\t\t\t<color=#fad545>——紀念參與特殊作戰中獲得的最高榮譽</color>",
@@ -1210,6 +1353,108 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			1
+		},
+		interAction_group = {}
+	},
+	[143] = {
+		advice = 0,
+		describe = "騎上各自的鯉魚旗，一決勝負吧！",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "決戰用鯉魚旗（誤） ",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "liyuqiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		id = 143,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"liyuqiB",
+				"normal"
+			},
+			{
+				"liyuqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					4,
+					171
+				},
+				{
+					314,
+					554
+				},
+				"chuanmo/liyuqi_mask",
+				{
+					-1,
+					1
+				}
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.3
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"liyuCharControl",
+				"liyuCharControl2"
+			}
 		},
 		interAction_group = {}
 	},
@@ -25025,6 +25270,1599 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[27001] = {
+		advice = 0,
+		describe = "泳池邊上的白色地板，防滑",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "水上樂園地板",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 27,
+		icon = "dibanslyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 27001,
+		picture = "shuileyuan/dibansly",
+		comfortable = 4,
+		tag = 4,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27002] = {
+		advice = 0,
+		describe = "周圍滿是樹叢，要確認裡面沒有藏人哦",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "水上樂園牆紙",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 27,
+		icon = "qiangbislyicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 27002,
+		picture = "shuileyuan/qiangbisly",
+		comfortable = 4,
+		tag = 3,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27101] = {
+		advice = 0,
+		describe = "黃色的水球，不可以拿來砸人哦",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "黃色水球",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 27,
+		icon = "dengzi2slyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27101,
+		picture = "shuileyuan/dengzi2sly",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11,
+					48
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27102] = {
+		advice = 0,
+		describe = "藍色的水球，不可以拿來砸人哦",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "藍色水球",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 27,
+		icon = "dengzislyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27102,
+		picture = "shuileyuan/dengzisly",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11,
+					48
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27103] = {
+		advice = 0,
+		describe = "聽說藍白條紋很受歡迎？",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "藍白地毯",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 27,
+		icon = "ditanslyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 27103,
+		picture = "shuileyuan/ditansly",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27104] = {
+		advice = 0,
+		describe = "「嗶嗶！那邊的小朋友，不可以直接跳進泳池裡哦！」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "救生員梯",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 27,
+		icon = "jiushengyislyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27104,
+		picture = "shuileyuan/jiushengyisly",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					25,
+					83
+				},
+				{
+					1,
+					1
+				},
+				"shuileyuan/jiushengyisly_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27105] = {
+		advice = 0,
+		describe = "深水區危險！！ 沒有救生圈不要輕易靠近哦！",
+		count = 10,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "泳池(深水區)",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 27,
+		icon = "shuichislyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 27105,
+		picture = "shuileyuan/shuichisly",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				0,
+				5
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			},
+			{
+				2,
+				5
+			},
+			{
+				3,
+				0
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				4
+			},
+			{
+				3,
+				5
+			},
+			{
+				4,
+				0
+			},
+			{
+				4,
+				1
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			},
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				5,
+				0
+			},
+			{
+				5,
+				1
+			},
+			{
+				5,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				5,
+				4
+			},
+			{
+				5,
+				5
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27106] = {
+		advice = 0,
+		describe = "下泳池的時候當心腳滑哦",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "水池爬梯",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 27,
+		icon = "pajiaslyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27106,
+		picture = "shuileyuan/pajiasly",
+		comfortable = 2,
+		tag = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					2,
+					68
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27107] = {
+		advice = 0,
+		describe = "蠻啾·潛水中——",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "潛水啾",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 27,
+		icon = "qianshuijiuslyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 27107,
+		picture = "shuileyuan/qianshuijiusly",
+		comfortable = 3,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27108] = {
+		advice = 0,
+		describe = "水上鍛煉用的好器材！",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "水上步行球",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 27,
+		icon = "qiuslyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27108,
+		picture = "shuileyuan/qiusly",
+		comfortable = 3,
+		tag = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					1,
+					-83
+				},
+				{
+					1,
+					1
+				},
+				"shuileyuan/qiusly_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27109] = {
+		advice = 0,
+		describe = "躺椅專用的遮陽傘",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "遮陽傘",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 27,
+		icon = "sanslyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 27109,
+		picture = "shuileyuan/sansly",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27110] = {
+		advice = 0,
+		describe = "在遮陽傘下喝杯冰涼的飲料吧",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "遮陽傘(含圓桌)",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 27,
+		icon = "san2slyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 27110,
+		picture = "shuileyuan/san2sly",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {
+			0,
+			13.79
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27111] = {
+		advice = 0,
+		describe = "軟軟的充氣沙發，應該不會坐壞吧…？",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "蠻啾充氣沙發",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 27,
+		icon = "shafaslyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27111,
+		picture = "shuileyuan/shafasly",
+		comfortable = 4,
+		tag = 2,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					15,
+					-3
+				},
+				{
+					1,
+					1
+				},
+				"shuileyuan/shafasly_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27112] = {
+		advice = 0,
+		describe = "要來點夏天的美食嗎？",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "彩虹果盤",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 27,
+		icon = "shiwuslyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 27112,
+		picture = "shuileyuan/shiwusly",
+		comfortable = 2,
+		tag = 2,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27113] = {
+		advice = 0,
+		describe = "西瓜形狀的躺椅，看起來就很涼快的樣子",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "西瓜躺椅",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 27,
+		icon = "tangyi2slyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27113,
+		picture = "shuileyuan/tangyi2sly",
+		comfortable = 3,
+		tag = 2,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					5,
+					22
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27114] = {
+		advice = 0,
+		describe = "造型夢幻的充氣躺椅",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "獨角獸躺椅",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 27,
+		icon = "tangyi3slyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27114,
+		picture = "shuileyuan/tangyi3sly",
+		comfortable = 3,
+		tag = 2,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					6,
+					1
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27115] = {
+		advice = 0,
+		describe = "記得做好防曬措施喲",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "沙灘椅",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 27,
+		icon = "tangyi4slyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27115,
+		picture = "shuileyuan/tangyi4sly",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					48,
+					-21
+				},
+				{
+					1,
+					1
+				},
+				"shuileyuan/tangyi4sly_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27116] = {
+		advice = 0,
+		describe = "這個沒有刺…吧？",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "仙人掌躺椅",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 27,
+		icon = "tangyislyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27116,
+		picture = "shuileyuan/tangyisly",
+		comfortable = 3,
+		tag = 2,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					11.4,
+					17.7
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27117] = {
+		advice = 0,
+		describe = "高高的椰子樹，然而上面並沒有椰子",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "椰子樹",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 27,
+		icon = "yezishuslyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 27117,
+		picture = "shuileyuan/yezishusly",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27118] = {
+		advice = 0,
+		describe = "椰子樣式的浴缸，裡面裝的是水…大概",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "椰子浴缸",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 27,
+		icon = "yezislyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27118,
+		picture = "shuileyuan/yezisly",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					4,
+					-17
+				},
+				{
+					-1,
+					1
+				},
+				"shuileyuan/yezisly_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27119] = {
+		advice = 0,
+		describe = "紅白條紋的游泳圈",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "條紋游泳圈",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 27,
+		icon = "yongquanslyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27119,
+		picture = "shuileyuan/yongquansly",
+		comfortable = 2,
+		tag = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-21,
+					31
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27120] = {
+		advice = 0,
+		describe = "黃色的游泳圈",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "黃色游泳圈",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 27,
+		icon = "yongquan2slyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27120,
+		picture = "shuileyuan/yongquan2sly",
+		comfortable = 2,
+		tag = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-21,
+					31
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27121] = {
+		advice = 0,
+		describe = "進入泳池之前記得一定要先淋浴喲！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "淋浴池",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 27,
+		icon = "yuchislyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27121,
+		picture = "shuileyuan/yuchisly",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					-54
+				},
+				{
+					1,
+					1
+				},
+				"shuileyuan/yuchisly_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27122] = {
+		advice = 0,
+		describe = "彩虹橋的凳子，坐上去軟軟的",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "彩虹凳",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 27,
+		icon = "zuoyi1slyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27122,
+		picture = "shuileyuan/zuoyi1sly",
+		comfortable = 2,
+		tag = 2,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-61,
+					5
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-1,
+					-30
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27123] = {
+		advice = 0,
+		describe = "進入泳池之前記得一定要先淋浴喲！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "淋浴室",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 27,
+		icon = "linyuslyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27123,
+		picture = "shuileyuan/linyusly",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-7,
+					-92
+				},
+				{
+					-1,
+					1
+				},
+				"shuileyuan/linyusly_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27124] = {
+		advice = 0,
+		describe = "排好隊，一個一個來喲！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "鯊魚滑梯",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 27,
+		icon = "shayuhuatislyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 27124,
+		picture = "shuileyuan/",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			13,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shayuhuatiB",
+				"normal"
+			},
+			{
+				"shayuhuatiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						"sit"
+					},
+					{
+						"yun"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				-1,
+				1
+			}
+		},
+		animator = {
+			{
+				"shayuhuaticharcontroller"
+			}
+		},
+		interAction_group = {}
+	},
+	[27125] = {
+		advice = 0,
+		describe = "蠻啾造型的噴水池，不知道能不能看到彩虹？",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "蠻啾噴水池",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 27,
+		icon = "manjuupengquanslyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 27125,
+		picture = "shuileyuan/manjuupengquan",
+		comfortable = 4,
+		tag = 2,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"manjuupengquan",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[27126] = {
+		advice = 0,
+		describe = "夏天果然還是泡在泳池裡最舒服了~  ",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "泳池(活動區)",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 27,
+		icon = "shuichislyicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 27126,
+		picture = "shuileyuan/shuichisly",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-78,
+					-78
+				},
+				{
+					1,
+					1
+				},
+				"shuileyuan/shuichisly_using1",
+				0,
+				{
+					{
+						90,
+						280
+					},
+					{
+						680,
+						390
+					}
+				}
+			},
+			{
+				"wash",
+				{
+					73,
+					-28
+				},
+				{
+					-1,
+					1
+				},
+				"shuileyuan/shuichisly_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27201] = {
+		advice = 0,
+		describe = "未成年人不可以喝酒喲！",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "海軍淡啤",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 27,
+		icon = "pijiuslyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 27201,
+		picture = "shuileyuan/pijiusly",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27202] = {
+		advice = 0,
+		describe = "來幾片西瓜消消暑吧！",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "冰鎮西瓜",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 27,
+		icon = "xiguaslyicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 27202,
+		picture = "shuileyuan/xiguasly",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[27301] = {
+		advice = 0,
+		describe = "似乎拉上窗紗也遮擋不住視線呢…",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "薄紗窗戶",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 27,
+		icon = "chaungslyicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 27301,
+		picture = "shuileyuan/chaungsly",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[28001] = {
 		advice = 0,
 		describe = "貼上之後就能在房間裡享受森林的感覺了",
@@ -39182,6 +41020,8 @@ pg.furniture_data_template = {
 		105,
 		106,
 		107,
+		108,
+		109,
 		112,
 		117,
 		119,
@@ -39190,6 +41030,7 @@ pg.furniture_data_template = {
 		124,
 		129,
 		140,
+		143,
 		149,
 		150,
 		152,
@@ -39740,6 +41581,37 @@ pg.furniture_data_template = {
 		24304,
 		24305,
 		24306,
+		27001,
+		27002,
+		27101,
+		27102,
+		27103,
+		27104,
+		27105,
+		27106,
+		27107,
+		27108,
+		27109,
+		27110,
+		27111,
+		27112,
+		27113,
+		27114,
+		27115,
+		27116,
+		27117,
+		27118,
+		27119,
+		27120,
+		27121,
+		27122,
+		27123,
+		27124,
+		27125,
+		27126,
+		27201,
+		27202,
+		27301,
 		28001,
 		28002,
 		28101,

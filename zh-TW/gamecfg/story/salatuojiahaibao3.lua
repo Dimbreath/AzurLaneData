@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "哦哦哦，雷达的反应越来越强烈了呢！",
+			say = "哦哦哦，雷達的反應越來越強烈了呢！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "……而且变得非常刺耳，不愧是{namecode:98}的发明，总有一些奇怪的地方非常气人。",
+			say = "……而且變得非常刺耳，不愧是{namecode:98}的發明，總有一些奇怪的地方非常氣人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "指挥官，我们快……",
+			say = "指揮官，我們快……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，抱歉妳们先在这里停一下。",
+			say = "指揮官，抱歉你們先在這裡停一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "额，“我们是海豹的守护者哦~”",
+			say = "呃，“我們是海豹的守護者哦~”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“想通过这里的话需要回答我们的问题~”",
+			say = "“想通過這裡的話需要回答我們的問題~”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“回答错误的坏孩子不能告诉她小海豹在什么地方哦！”",
+			say = "“回答錯誤的壞孩子不能告訴她小海豹在什麼地方哦！ ”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			actor = 105200,
 			nameColor = "#a9f548",
-			say = "海豹是什么科的动物？",
+			say = "海豹是什麼科的動物？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,11 +181,11 @@ return {
 					flag = 1
 				},
 				{
-					content = "猫科？",
+					content = "貓科？",
 					flag = 2
 				},
 				{
-					content = "萨拉老师帮帮我！",
+					content = "薩拉老師幫幫我！",
 					flag = 3
 				}
 			}
@@ -198,7 +198,7 @@ return {
 			optionFlag = 1,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "不愧是指挥官！",
+			say = "不愧是指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			optionFlag = 2,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "那是豹子啦！正确答案是——海豹就是海豹科的哦~",
+			say = "那是豹子啦！正確答案是——海豹就是海豹科的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			optionFlag = 3,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "正确答案是——海豹科哦~",
+			say = "正確答案是——海豹科哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，恭喜妳，成为了被海豹选中之人，过去吧。",
+			say = "嗯，恭喜你，成為了被海豹選中之人，過去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "……异常敷衍地被放过了。",
+			say = "……異常敷衍地被放過了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "……噗，没想到妳们会这么投入啊！？",
+			say = "……噗，沒想到妳們會這麼投入啊！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…还好？反正还挺有趣的。",
+			say = "…還好？反正還挺有趣的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妹妹们都觉得挺有意思的，我自然也会奉陪。",
+			say = "妹妹們都覺得挺有意思的，我自然也會奉陪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			actor = 105200,
 			nameColor = "#a9f548",
-			say = "姐姐觉得没意思吗？",
+			say = "姐姐覺得沒意思嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有的事。这样能为环保事业尽一份力当然是很开心的",
+			say = "沒有的事。這樣能為環保事業盡一份力當然是很開心的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，虽然我也觉得挺有意思的啦。大家估计都会吓一跳哦？",
+			say = "啊哈哈，雖然我也覺得挺有意思的啦。大家估計都會嚇一跳哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "先不说这个，准备都完成了吗？",
+			say = "先不說這個，準備都完成了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，很顺利",
+			say = "嗯，很順利",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "萨拉似乎在和她们聊些奇怪的东西，难道……",
+			say = "薩拉似乎在和她們聊些奇怪的東西，難道……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			blackBg = true,
 			actor = 107034,
 			nameColor = "#a9f548",
-			say = "好啦好啦，指挥官，我们赶紧继续前进吧！",
+			say = "好啦好啦，指揮官，我們趕緊繼續前進吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

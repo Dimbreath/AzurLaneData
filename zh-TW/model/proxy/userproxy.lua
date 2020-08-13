@@ -1,5 +1,9 @@
 slot0 = class("UserProxy", import(".NetProxy"))
 
+function slot0.register(slot0)
+	slot0.userIsLogined = false
+end
+
 function slot0.setLastLogin(slot0, slot1)
 	if slot1.type == 1 then
 		PlayerPrefs.SetString("user.type", "1")
@@ -59,6 +63,14 @@ end
 
 function slot0.clearTranscode(slot0)
 	PlayerPrefs.DeleteKey("transcode")
+end
+
+function slot0.SetLoginedFlag(slot0, slot1)
+	slot0.userIsLogined = slot1
+end
+
+function slot0.GetLoginedFlag(slot0)
+	return slot0.userIsLogined
 end
 
 return slot0
