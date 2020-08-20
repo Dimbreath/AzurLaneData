@@ -7106,7 +7106,7 @@ disappear.]]
 		tip = "Receive Nelson after claiming victory"
 	},
 	newplayer_notice_6 = {
-		tip = "Claim victory, select one of the following: Hood, Enterprise, San Diego, or Illustrious"
+		tip = "Claim victory, select one of the following: Hood, \nEnterprise, San Diego, or Illustrious"
 	},
 	newplayer_notice_7 = {
 		tip = "Unlocked after completing previous mission"

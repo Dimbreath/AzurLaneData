@@ -97507,7 +97507,7 @@ pg.enemy_data_statistics = {
 	},
 	[110043] = {
 		cannon = 280,
-		name = "强化自爆船",
+		name = "Enhanced Bombing Ship",
 		hit_growth = 0,
 		speed_growth = 0,
 		antiaircraft_growth = 0,
@@ -99781,7 +99781,7 @@ pg.enemy_data_statistics = {
 	},
 	[111041] = {
 		cannon = 320,
-		name = "强化自爆船",
+		name = "Enhanced Bombing Ship",
 		hit_growth = 0,
 		speed_growth = 0,
 		antiaircraft_growth = 0,
