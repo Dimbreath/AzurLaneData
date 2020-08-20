@@ -156,6 +156,16 @@ function slot0.GetName(slot0)
 	return slot0:getConfig("name")
 end
 
+function slot0.GetSortIndex(slot0)
+	slot1 = slot0:bindConfigTable()
+
+	if slot1[slot1.all[1]].order then
+		return slot0:getConfig("order")
+	else
+		return 0
+	end
+end
+
 function slot0.GetImage(slot0)
 	return slot0.picture
 end

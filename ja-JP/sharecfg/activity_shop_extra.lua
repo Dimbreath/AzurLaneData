@@ -1509,18 +1509,29 @@ pg.activity_shop_extra = {
 	[55] = {
 		num_limit = 1,
 		activity = 651,
+		time = "stop",
 		commodity_type = 7,
 		num = 1,
 		commodity_id = 201232,
 		scene = "",
 		id = 55,
-		order = 2,
+		order = 2
+	},
+	[57] = {
+		num_limit = 1,
+		activity = 671,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 408041,
+		scene = "",
+		id = 57,
+		order = 5,
 		time = {
 			{
 				{
 					2020,
 					8,
-					6
+					20
 				},
 				{
 					0,
@@ -1531,8 +1542,44 @@ pg.activity_shop_extra = {
 			{
 				{
 					2020,
+					9,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[58] = {
+		num_limit = 1,
+		activity = 674,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 408051,
+		scene = "",
+		id = 58,
+		order = 5,
+		time = {
+			{
+				{
+					2020,
 					8,
 					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					9,
+					3
 				},
 				{
 					23,
@@ -1589,6 +1636,8 @@ pg.activity_shop_extra = {
 		51,
 		52,
 		54,
-		55
+		55,
+		57,
+		58
 	}
 }

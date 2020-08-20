@@ -136,7 +136,7 @@ return {
 		return NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
 	end,
 	CheckPretest = function ()
-		return false
+		return Application.isEditor
 	end,
 	GoSDkLoginScene = function ()
 		uv0:GoLoginScene()

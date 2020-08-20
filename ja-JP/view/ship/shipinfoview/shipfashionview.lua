@@ -85,7 +85,11 @@ function slot0.UpdateFashion(slot0, slot1)
 		end
 
 		for slot6 = #slot0.fashionSkins, slot0.styleContainer.childCount - 1 do
-			setActive(slot0.styleContainer:GetChild(slot6), false)
+			if slot0.fashionCellMap[slot0.styleContainer:GetChild(slot6)] then
+				slot0.fashionCellMap[slot7]:clearPainting()
+			end
+
+			setActive(slot7, false)
 		end
 
 		for slot6, slot7 in ipairs(slot0.fashionSkins) do
@@ -242,7 +246,7 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 			if uv5 or uv6 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_skin_out_of_stock"))
 			else
-				slot0 = Goods.New({
+				slot0 = Goods.Create({
 					shop_id = uv4.id
 				}, Goods.TYPE_SKIN)
 				slot3 = i18n("text_buy_fashion_tip", slot0:GetPrice(), HXSet.hxLan(uv3.name))

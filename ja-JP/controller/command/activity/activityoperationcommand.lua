@@ -333,6 +333,25 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		elseif slot1.cmd == 3 then
 			slot3.data4 = defaultValue(slot3.data4, 0) + 1
 		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_SUBMARINE_RUN then
+		if slot1.cmd == 1 then
+			slot0:sendNotification(GAME.FINISH_STAGE_DONE, {
+				statistics = slot1.statistics,
+				score = slot1.statistics._battleScore,
+				system = SYSTEM_SUBMARINE_RUN
+			})
+
+			slot3.data1_list[1] = math.max(slot3.data1_list[1], slot1.arg2)
+			slot3.data2_list[1] = slot2.number[1]
+			slot3.data2_list[2] = slot2.number[2]
+		elseif slot1.cmd == 2 then
+			slot3.data2 = slot2.number[1]
+			slot3.data3 = slot2.number[2]
+			slot3.data2_list[1] = 0
+			slot3.data2_list[2] = 0
+		elseif slot1.cmd == 3 then
+			slot3.data4 = defaultValue(slot3.data4, 0) + 1
+		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_TURNTABLE then
 		if slot1.cmd == 2 then
 			slot3.data4 = 0
@@ -414,7 +433,7 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 				pg.StoryMgr.GetInstance():Play(slot1, uv2)
 				coroutine.yield()
 			end
-		elseif uv0 == ActivityConst.ACTIVITY_TYPE_DODGEM then
+		elseif uv0 == ActivityConst.ACTIVITY_TYPE_DODGEM or uv0 == ActivityConst.ACTIVITY_TYPE_SUBMARINE_RUN then
 			if uv5.cmd == 2 and uv4.number[3] > 0 then
 				slot0 = uv1:getConfig("config_client")[1]
 

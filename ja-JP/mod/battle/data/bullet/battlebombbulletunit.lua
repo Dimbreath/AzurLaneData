@@ -58,6 +58,10 @@ function slot3.SetSpawnPosition(slot0, slot1)
 		slot0._explodePos = Quaternion.Euler(0, slot0._barrageAngle, 0) * (slot0._explodePos - slot3) + slot3
 	end
 
+	if slot0._fixToRange and slot0._range < Vector3.BattleDistance(slot0._explodePos, slot0._spawnPos) then
+		slot0._explodePos = Vector3.Normalize(pg.Tool.FilterY(slot0._explodePos - slot0._spawnPos)) * slot0._range + slot0._spawnPos
+	end
+
 	if slot0._convertedVelocity ~= 0 then
 		slot4 = Vector3.Distance(pg.Tool.FilterY(slot0._spawnPos), slot0._explodePos) / slot0._convertedVelocity
 		slot0._verticalSpeed = slot0:GetTemplate().extra_param.launchVrtSpeed or (slot0._explodePos.y - slot0._spawnPos.y) / slot4 - 0.5 * slot0._gravity * slot4
@@ -79,6 +83,7 @@ function slot3.SetTemplateData(slot0, slot1)
 
 	slot2 = slot0:GetTemplate().extra_param
 	slot0._barragePriority = slot2.barragePriority
+	slot0._fixToRange = slot2.fixToRange
 
 	if slot2.barragePriority then
 		slot0._randomOffset = Vector3.zero

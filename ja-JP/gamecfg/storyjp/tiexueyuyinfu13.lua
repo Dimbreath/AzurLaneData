@@ -9,18 +9,12 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
+			say = "——",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			bgm = "bsm-3",
 			nameColor = "#ffde38",
-			say = "——",
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
+			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -69,18 +63,11 @@ return {
 		},
 		{
 			expression = 4,
+			nameColor = "#ffde38",
 			side = 1,
 			dir = 1,
 			actor = 405010,
-			nameColor = "#ffde38",
 			say = "まだよ！",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,17 +80,11 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
+			say = "——",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			say = "——",
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
+			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -151,19 +132,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
-			side = 1,
-			dir = 1,
 			actor = 405010,
+			side = 1,
+			expression = 4,
+			dir = 1,
 			nameColor = "#ffde38",
 			say = "戦艦の砲撃戦で！",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,16 +150,10 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
+			say = "——",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "——",
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
+			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -233,19 +201,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
-			side = 1,
-			dir = 1,
 			actor = 405010,
+			side = 1,
+			expression = 4,
+			dir = 1,
 			nameColor = "#ffde38",
 			say = "沈められるのは…！",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,16 +219,10 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
+			say = "——",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "——",
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
+			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -315,19 +270,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
-			side = 1,
-			dir = 1,
 			actor = 405010,
+			side = 1,
+			expression = 4,
+			dir = 1,
 			nameColor = "#ffde38",
 			say = "鉄血戦艦として本望よ！",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,16 +288,10 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
+			say = "——",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "——",
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
+			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -397,19 +339,12 @@ return {
 			}
 		},
 		{
-			expression = 2,
-			side = 1,
-			dir = 1,
 			actor = 405010,
+			side = 1,
+			expression = 2,
+			dir = 1,
 			nameColor = "#ffde38",
 			say = "くっ…！ドーラが！？",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -355,6 +355,21 @@ pg.player_resource = {
 		name = "skinTicket7",
 		itemid = 59172
 	},
+	[165] = {
+		id = 165,
+		name = "meifu2_pt",
+		itemid = 59173
+	},
+	[166] = {
+		id = 166,
+		name = "bisimai_pt2",
+		itemid = 59174
+	},
+	[167] = {
+		id = 167,
+		name = "skinTicket8",
+		itemid = 59175
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -609,6 +624,15 @@ pg.player_resource = {
 		skinTicket7 = {
 			164
 		},
+		meifu2_pt = {
+			165
+		},
+		bisimai_pt2 = {
+			166
+		},
+		skinTicket8 = {
+			167
+		},
 		vote2019_pt = {
 			1001
 		},
@@ -706,6 +730,9 @@ pg.player_resource = {
 		162,
 		163,
 		164,
+		165,
+		166,
+		167,
 		1001,
 		2001,
 		2002,

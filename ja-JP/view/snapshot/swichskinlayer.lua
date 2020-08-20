@@ -96,7 +96,7 @@ function slot0.openSelectSkinPanel(slot0)
 				if uv5 or uv6 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_skin_out_of_stock"))
 				else
-					slot0 = Goods.New({
+					slot0 = Goods.Create({
 						shop_id = uv4.id
 					}, Goods.TYPE_SKIN)
 					slot3 = i18n("text_buy_fashion_tip", slot0:GetPrice(), HXSet.hxLan(uv3.name))

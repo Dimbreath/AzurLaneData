@@ -216,12 +216,6 @@ return {
 			seDelay = 1.3,
 			say = "————",
 			soundeffect = "event:/battle/boom2",
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
 			flashN = {
 				color = {
 					1,
@@ -262,18 +256,11 @@ return {
 		},
 		{
 			expression = 1,
+			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			nameColor = "#a9f548",
 			say = "至近弾か！？ふん、初撃からやってくれる…！",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,18 +288,11 @@ return {
 		},
 		{
 			expression = 3,
+			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			nameColor = "#a9f548",
 			say = "全艦隊、砲撃用意！ロイヤルネイビーの栄光のために撃ちまくれ！",
-			effects = {
-				{
-					name = "paoji_qiaozhiwushi",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,12 +306,6 @@ return {
 			seDelay = 1.3,
 			say = "————",
 			soundeffect = "event:/battle/boom2",
-			effects = {
-				{
-					active = true,
-					name = "paoji_qiaozhiwushi"
-				}
-			},
 			flashN = {
 				color = {
 					1,

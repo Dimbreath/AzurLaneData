@@ -60,6 +60,7 @@ slot0.ACTIVITY_TYPE_SKIN_COUPON = 68
 slot0.ACTIVITY_TYPE_BLUEPRINT_CATCHUP = 69
 slot0.ACTIVITY_TYPE_CLIENT_DISPLAY = 70
 slot0.ACTIVITY_TYPE_FRESH_TEC_CATCHUP = 71
+slot0.ACTIVITY_TYPE_SUBMARINE_RUN = 72
 slot0.ELITE_AWARD_ACTIVITY_ID = 10056
 slot0.HIDE_PT_PANELS = false
 slot0.WITHOUT_ACTIVITY = 0
@@ -87,8 +88,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2020,
-			7,
-			23
+			8,
+			20
 		},
 		{
 			0,
@@ -99,8 +100,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2020,
-			8,
-			5
+			9,
+			2
 		},
 		{
 			23,

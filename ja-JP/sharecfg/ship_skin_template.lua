@@ -38663,6 +38663,116 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[203072] = {
+		ship_group = 20307,
+		name = "碧波を召喚せしもの",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "青い海に隠されし謎の支配者<†アンノウン†>、この碧波<†アズール†>と力<†フォース†>をもって汝の顕現を願わん！……指揮官！どうしてここに？！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "yueke_3",
+		air_bullet_skin = "",
+		shop_type_id = 6,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "133",
+		skin_type = 0,
+		id = 203072,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yueke_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70401,
+		voice_actor = 23,
+		air_bomb_skin = "",
+		illustrator = 18,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.829,
+					0.877,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.823,
+					0.865,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.806,
+					0.835,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.414,
+							2.501,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[203079] = {
 		ship_group = 20307,
 		name = "ヨーク改",
@@ -78990,6 +79100,224 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[401260] = {
+		ship_group = 40126,
+		name = "Z26",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "1936A「ナルヴィク」型駆逐艦-Z26",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "Z26",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 401260,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Z26",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.402,
+					1.267,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.31,
+					1.274,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					-0.008,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.331,
+					1.168,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.14,
+							-1.05
+						}
+					}
+				}
+			}
+		}
+	},
+	[401261] = {
+		ship_group = 40126,
+		name = "友情シェアタイム",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "指揮官、ニームの部屋へようこそです！あ、おやつとおもちゃを今出してやります！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "Z26_2",
+		air_bullet_skin = "",
+		shop_type_id = 9999,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "109",
+		skin_type = 0,
+		id = 401261,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Z26_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70405,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.644,
+					1.267,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.674,
+					1.274,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.672,
+					1.342,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.14,
+							-1.05
+						}
+					}
+				}
+			}
+		}
+	},
 	[401350] = {
 		ship_group = 40135,
 		name = "Z35",
@@ -85239,6 +85567,196 @@ pg.ship_skin_template = {
 				{
 					0,
 					-0.109,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408090] = {
+		ship_group = 40809,
+		name = "U-96",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "鉄血VIIC型潜水艦U-96",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "U96",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 408090,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U96",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.175,
+					0.382,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408091] = {
+		ship_group = 40809,
+		name = "秘密の遊戯タイム",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "いいタイミングで来たじゃないか。今ちょうど「戦闘終了」したところだぜ。結果は…？ふん、アタシの勝ちに決まっているだろう。どうだ？お前もアタシとやってみないか？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "U96_2",
+		air_bullet_skin = "",
+		shop_type_id = 9999,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "109",
+		skin_type = 0,
+		id = 408091,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U96_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70404,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.341,
+					0.473,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.25,
 					0
 				}
 			}
@@ -115665,6 +116183,116 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[299031] = {
+		ship_group = 29903,
+		name = "デーティングサマー！",
+		bg_sp = "1101",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "元気出してよダンナさまあ！もぉ、せっかくの海でのデートにゃのに…デートじゃなくてみんなと遊びに来ただけって？同じじゃにゃい？ほらほら早くみんなのところに行こうよー！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "chaijun_2",
+		air_bullet_skin = "",
+		shop_type_id = 6,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "133",
+		skin_type = 0,
+		id = 299031,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "chaijun_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70403,
+		voice_actor = 30,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.43,
+					1.078,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.485,
+					1.082,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.003,
+					0.009,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.409,
+					1.167,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.378,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[299040] = {
 		ship_group = 29904,
 		name = "ドレイク",
@@ -115700,6 +116328,116 @@ pg.ship_skin_template = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.389,
+					1.027,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.384,
+					1.02,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.001,
+					0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.393,
+					1.115,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.602,
+							2.308,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[299041] = {
+		ship_group = 29904,
+		name = "黄金鹿の無聊タイム",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "ふぅ…こうして泳いでもあまりスッキリしないわね。あんたもそこで見てないで、あたしと一緒に泳いで頂戴？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "deleike_2",
+		air_bullet_skin = "",
+		shop_type_id = 6,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "133",
+		skin_type = 0,
+		id = 299041,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "deleike_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70402,
+		voice_actor = 80,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -116779,6 +117517,7 @@ pg.ship_skin_template = {
 		[20307] = {
 			203070,
 			203071,
+			203072,
 			203079
 		},
 		[20308] = {
@@ -117450,6 +118189,10 @@ pg.ship_skin_template = {
 			401250,
 			401251
 		},
+		[40126] = {
+			401260,
+			401261
+		},
 		[40135] = {
 			401350,
 			401351
@@ -117558,6 +118301,10 @@ pg.ship_skin_template = {
 		[40808] = {
 			408080,
 			408081
+		},
+		[40809] = {
+			408090,
+			408091
 		},
 		[50101] = {
 			501010
@@ -118209,10 +118956,12 @@ pg.ship_skin_template = {
 			999011
 		},
 		[29903] = {
-			299030
+			299030,
+			299031
 		},
 		[29904] = {
-			299040
+			299040,
+			299041
 		},
 		[49903] = {
 			499030
@@ -118580,6 +119329,7 @@ pg.ship_skin_template = {
 		203060,
 		203070,
 		203071,
+		203072,
 		203079,
 		203080,
 		203089,
@@ -118952,6 +119702,8 @@ pg.ship_skin_template = {
 		401239,
 		401250,
 		401251,
+		401260,
+		401261,
 		401350,
 		401351,
 		401360,
@@ -119009,6 +119761,8 @@ pg.ship_skin_template = {
 		408070,
 		408080,
 		408081,
+		408090,
+		408091,
 		501010,
 		501020,
 		501030,
@@ -119289,7 +120043,9 @@ pg.ship_skin_template = {
 		999010,
 		999011,
 		299030,
+		299031,
 		299040,
+		299041,
 		499030,
 		499040,
 		899020

@@ -92,6 +92,10 @@ function slot16.Distance(slot0, slot1)
 	return uv0((slot0.x - slot1.x)^2 + (slot0.y - slot1.y)^2 + (slot0.z - slot1.z)^2)
 end
 
+function slot16.BattleDistance(slot0, slot1)
+	return uv0((slot0.x - slot1.x)^2 + (slot0.z - slot1.z)^2)
+end
+
 function slot16.SqrDistance(slot0, slot1)
 	return (slot0.x - slot1.x)^2 + (slot0.y - slot1.y)^2 + (slot0.z - slot1.z)^2
 end

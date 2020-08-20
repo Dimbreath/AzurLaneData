@@ -880,11 +880,21 @@ function slot0.switchPainting(slot0)
 	end)):setEase(LeanTweenType.easeInOutSine)
 end
 
-function slot0.setPreOrNext(slot0, slot1)
+function slot0.setPreOrNext(slot0, slot1, slot2)
 	if slot1 then
 		slot0.isRight = true
 	else
 		slot0.isRight = false
+	end
+
+	if slot0.shipVO:getGroupId() ~= slot2:getGroupId() then
+		slot0.switchCnt = (slot0.switchCnt or 0) + 1
+	end
+
+	if slot0.switchCnt and slot0.switchCnt >= 10 then
+		gcAll()
+
+		slot0.switchCnt = 0
 	end
 end
 
@@ -902,40 +912,49 @@ function slot0.loadPainting(slot0, slot1, slot2)
 	end
 
 	slot3 = 0
+	slot3 = slot0.isRight and 1800 or -1800
 	slot0.isLoading = true
 	slot5 = slot0.paintingCode
 
 	if slot0:getPaintingFromTable(false) then
-		slot7 = slot4:GetComponent(typeof(CanvasGroup))
+		table.insert({}, function (slot0)
+			slot2 = uv0:GetComponent(typeof(CanvasGroup))
 
-		LeanTween.cancel(go(slot7))
-		LeanTween.alphaCanvas(slot7, 0, 0.3):setFrom(1):setUseEstimatedTime(true)
-		LeanTween.moveX(slot4:GetComponent(typeof(RectTransform)), -(slot0.isRight and 1800 or -1800), 0.3):setFrom(0):setOnComplete(System.Action(function ()
-			retPaintingPrefab(uv0, uv1)
-
-			uv2.isLoading = false
-		end))
+			LeanTween.cancel(go(slot2))
+			LeanTween.alphaCanvas(slot2, 0, 0.3):setFrom(1):setUseEstimatedTime(true)
+			LeanTween.moveX(uv0:GetComponent(typeof(RectTransform)), -uv1, 0.3):setFrom(0):setOnComplete(System.Action(function ()
+				retPaintingPrefab(uv0, uv1)
+				uv2()
+			end))
+		end)
 	end
 
-	slot6 = slot0:getPaintingFromTable(true)
+	slot7 = slot0:getPaintingFromTable(true)
 	slot0.paintingCode = slot1
 
-	if slot0.paintingCode and slot6 then
-		slot7 = slot6:GetComponent(typeof(RectTransform))
-		slot0.nowPainting = slot6
+	if slot0.paintingCode and slot7 then
+		slot8 = slot7:GetComponent(typeof(RectTransform))
 
-		setPaintingPrefabAsync(slot6, slot0.paintingCode, slot0.paintingFrameName or "chuanwu", function ()
-			Ship.SetExpression(findTF(uv0, "fitter"):GetChild(0), uv1.paintingCode)
+		table.insert(slot6, function (slot0)
+			uv0.nowPainting = uv1
+
+			setPaintingPrefabAsync(uv1, uv0.paintingCode, uv0.paintingFrameName or "chuanwu", function ()
+				Ship.SetExpression(findTF(uv0, "fitter"):GetChild(0), uv1.paintingCode)
+				uv2()
+			end)
 		end)
-		LeanTween.cancel(go(slot7))
-		LeanTween.moveX(slot7, 0, 0.3):setFrom(slot3):setOnComplete(System.Action(function ()
-			uv0.isLoading = false
-		end))
-		LeanTween.alphaCanvas(slot6:GetComponent(typeof(CanvasGroup)), 1, 0.3):setFrom(0):setUseEstimatedTime(true)
+		table.insert(slot6, function (slot0)
+			LeanTween.cancel(go(uv0))
+			LeanTween.moveX(uv0, 0, 0.3):setFrom(uv1):setOnComplete(System.Action(slot0))
+			LeanTween.alphaCanvas(uv2:GetComponent(typeof(CanvasGroup)), 1, 0.3):setFrom(0):setUseEstimatedTime(true)
+		end)
 	end
 
-	slot0.LoadShipVOId = slot0.shipVO.id
-	slot0.LoadPaintingCode = slot1
+	parallelAsync(slot6, function ()
+		uv0.LoadShipVOId = uv0.shipVO.id
+		uv0.LoadPaintingCode = uv1
+		uv0.isLoading = false
+	end)
 end
 
 function slot0.getPaintingFromTable(slot0, slot1)

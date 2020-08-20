@@ -4540,6 +4540,84 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100018] = {
+		advice = 0,
+		describe = "ひんやりしてさっぱり、しましょう！",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "ミニサマーワールド",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "shuiqiuicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 100018,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shuiqiuB",
+				"normal"
+			},
+			{
+				"shuiqiuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					nil,
+					{
+						"action",
+						"tuozhuai2"
+					},
+					"tuozhuai2"
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				-2.1,
+				-58.5
+			}
+		},
+		animator = {
+			{
+				"shuiqiuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "至る所がぼろぼろになっているフローリング。足元注意。",
@@ -52209,7 +52287,7 @@ pg.furniture_data_template = {
 	[45133] = {
 		advice = 0,
 		describe = "「アネキって、演説する姿がすごくかっこいいよね！」",
-		count = 1,
+		count = 2,
 		type = 2,
 		dir = 0,
 		dorm_id = 0,
@@ -71438,6 +71516,7 @@ pg.furniture_data_template = {
 		100015,
 		100016,
 		100017,
+		100018,
 		1001,
 		1002,
 		1101,

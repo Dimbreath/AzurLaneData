@@ -154,11 +154,30 @@ function slot0.didEnter(slot0)
 		slot0:switchPage(slot0.contextData.wrap)
 
 		slot0.contextData.wrap = nil
+
+		slot0:TriggerMonthCardItem()
 	else
 		slot0:switchPage(uv0.TYPE_MENU)
 	end
 
 	slot0:jpUIEnter()
+
+	slot1 = MonthCardOutDateTipPanel.GetShowMonthCardTag()
+
+	setActive(slot0:findTF("dimond_shop/monthcard_tag", slot0.menu), slot1)
+
+	if slot1 then
+		slot2 = getProxy(ContextProxy):getCurrentContext()
+		slot3 = slot2.onRemoved
+
+		function slot2.onRemoved()
+			MonthCardOutDateTipPanel.SetMonthCardTagDate()
+
+			if uv0 then
+				uv0()
+			end
+		end
+	end
 end
 
 function slot0.triggerPageToggle(slot0, slot1)
@@ -280,7 +299,7 @@ function slot0.initDamondsData(slot0)
 
 	for slot5, slot6 in pairs(pg.pay_data_display.all) do
 		if PLATFORM_CODE ~= PLATFORM_JP and PLATFORM_CODE ~= PLATFORM_US or not pg.SdkMgr.GetInstance():CheckAudit() or slot6 ~= 1 then
-			table.insert(slot0.damondItemVOs, Goods.New({
+			table.insert(slot0.damondItemVOs, Goods.Create({
 				shop_id = slot6
 			}, Goods.TYPE_CHARGE))
 		end
@@ -288,7 +307,7 @@ function slot0.initDamondsData(slot0)
 
 	for slot6, slot7 in pairs(pg.shop_template.all) do
 		if slot2[slot7].genre == "gift_package" then
-			table.insert(slot0.damondItemVOs, Goods.New({
+			table.insert(slot0.damondItemVOs, Goods.Create({
 				shop_id = slot7
 			}, Goods.TYPE_GIFT_PACKAGE))
 		end
@@ -582,7 +601,7 @@ function slot0.setItemVOs(slot0)
 			if slot7 == "ship_bag_size" and slot9 and slot10 then
 				if slot9 <= slot0.player.ship_bag_max and slot0.player.ship_bag_max <= slot10 then
 					print("ship_bag_size type shop id", slot6)
-					table.insert(slot0.itemVOs, Goods.New({
+					table.insert(slot0.itemVOs, Goods.Create({
 						count = 0,
 						shop_id = slot6
 					}, Goods.TYPE_MILITARY))
@@ -590,7 +609,7 @@ function slot0.setItemVOs(slot0)
 			elseif slot7 == "equip_bag_max" and slot9 and slot10 then
 				if slot9 <= slot0.player.equip_bag_max and slot0.player.equip_bag_max <= slot10 then
 					print("equip_bag_max type shop id", slot6)
-					table.insert(slot0.itemVOs, Goods.New({
+					table.insert(slot0.itemVOs, Goods.Create({
 						count = 0,
 						shop_id = slot6
 					}, Goods.TYPE_MILITARY))
@@ -598,13 +617,13 @@ function slot0.setItemVOs(slot0)
 			elseif slot7 == "commander_bag_size" and slot9 and slot10 then
 				if slot9 <= slot0.player.commanderBagMax and slot0.player.commanderBagMax <= slot10 then
 					print("commander_bag_size shop id", slot6)
-					table.insert(slot0.itemVOs, Goods.New({
+					table.insert(slot0.itemVOs, Goods.Create({
 						count = 0,
 						shop_id = slot6
 					}, Goods.TYPE_MILITARY))
 				end
 			else
-				table.insert(slot0.itemVOs, Goods.New({
+				table.insert(slot0.itemVOs, Goods.Create({
 					count = 0,
 					shop_id = slot6
 				}, Goods.TYPE_MILITARY))
@@ -1304,6 +1323,18 @@ function slot0.activeUserAgree(slot0, slot1, slot2)
 		scrollTo(slot0:findTF("container/scrollrect", slot0.userAgreeContainer), 0, 1)
 	else
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.userAgreeContainer, slot0.frame)
+	end
+end
+
+function slot0.TriggerMonthCardItem(slot0)
+	if slot0.contextData.confirmMonthCard then
+		for slot4, slot5 in pairs(slot0.damondItems) do
+			if slot5.goods:isMonthCard() then
+				slot0.contextData.confirmMonthCard = nil
+
+				triggerButton(slot4)
+			end
+		end
 	end
 end
 
