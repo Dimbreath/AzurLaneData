@@ -1329,11 +1329,7 @@ end
 function slot0.TriggerMonthCardItem(slot0)
 	if slot0.contextData.confirmMonthCard then
 		for slot4, slot5 in pairs(slot0.damondItems) do
-			if slot5.goods:isMonthCard() then
-				slot0.contextData.confirmMonthCard = nil
-
-				triggerButton(slot4)
-			end
+			-- Nothing
 		end
 	end
 end

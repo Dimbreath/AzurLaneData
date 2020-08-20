@@ -103173,7 +103173,7 @@ pg.task_data_template = {
 		type = 6,
 		name = "『俾斯麦复刻』通关D3",
 		count_inherit = 0,
-		desc = "通关D3",
+		desc = "通关D3<color=#92fc63>（勋章无法重复获得）</color>",
 		target_id_2 = "",
 		sub_type = 1020,
 		added_tip = 0,
