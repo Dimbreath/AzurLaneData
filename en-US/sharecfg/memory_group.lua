@@ -2238,6 +2238,21 @@ pg.memory_group = {
 			1327
 		}
 	},
+	[550] = {
+		title = "A Lady's Modest Proposal ",
+		type = 3,
+		id = 550,
+		icon = "title_chara_guanghui",
+		memories = {
+			1331,
+			1332,
+			1333,
+			1334,
+			1335,
+			1336,
+			1337
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2368,6 +2383,7 @@ pg.memory_group = {
 		546,
 		547,
 		548,
-		549
+		549,
+		550
 	}
 }

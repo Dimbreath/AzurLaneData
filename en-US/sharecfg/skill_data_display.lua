@@ -2876,6 +2876,22 @@ pg.skill_data_display = {
 		id = 13540,
 		name = "Waters of Styx "
 	},
+	[13550] = {
+		id = 13550,
+		name = "微笑猎手"
+	},
+	[13560] = {
+		id = 13560,
+		name = "狼群战术-U96"
+	},
+	[13570] = {
+		id = 13570,
+		name = "AntiTorpedoField"
+	},
+	[13571] = {
+		id = 13571,
+		name = "AntiTorpedoField"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -5376,6 +5392,10 @@ pg.skill_data_display = {
 		13522,
 		13530,
 		13540,
+		13550,
+		13560,
+		13570,
+		13571,
 		18010,
 		18040,
 		18041,

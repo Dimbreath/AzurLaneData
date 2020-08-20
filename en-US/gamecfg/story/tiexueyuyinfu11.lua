@@ -216,12 +216,6 @@ return {
 			seDelay = 1.3,
 			say = "Booomm————",
 			soundeffect = "event:/battle/boom2",
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
 			flashN = {
 				color = {
 					1,
@@ -262,18 +256,11 @@ return {
 		},
 		{
 			expression = 1,
+			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			nameColor = "#a9f548",
 			say = "She doesn't have the ammo for this. Fear not, our enemy is on her last legs!",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,18 +288,11 @@ return {
 		},
 		{
 			expression = 3,
+			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			nameColor = "#a9f548",
 			say = "All forces, open fire! For the glory of the Royal Navy!",
-			effects = {
-				{
-					name = "paoji_qiaozhiwushi",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,12 +306,6 @@ return {
 			seDelay = 1.3,
 			say = "Booomm————",
 			soundeffect = "event:/battle/boom2",
-			effects = {
-				{
-					active = true,
-					name = "paoji_qiaozhiwushi"
-				}
-			},
 			flashN = {
 				color = {
 					1,

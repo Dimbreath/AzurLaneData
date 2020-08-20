@@ -360,6 +360,16 @@ pg.player_resource = {
 		name = "meifu2_pt",
 		itemid = 59173
 	},
+	[166] = {
+		id = 166,
+		name = "bisimai_pt2",
+		itemid = 59174
+	},
+	[167] = {
+		id = 167,
+		name = "skinTicket8",
+		itemid = 59175
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -622,6 +632,12 @@ pg.player_resource = {
 		meifu2_pt = {
 			165
 		},
+		bisimai_pt2 = {
+			166
+		},
+		skinTicket8 = {
+			167
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -723,6 +739,8 @@ pg.player_resource = {
 		163,
 		164,
 		165,
+		166,
+		167,
 		950,
 		1001,
 		2001,

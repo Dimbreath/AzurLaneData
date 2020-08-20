@@ -3256,6 +3256,82 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100007] = {
+		advice = 0,
+		describe = "What goes inside seldom exits looking the same.",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "Magic Pipe",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "mofatongicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 100007,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"7yuetongB",
+				"normal"
+			},
+			{
+				"7yuetongT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"7yuetongBCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "Watch out for splinters.",
@@ -41169,7 +41245,7 @@ pg.furniture_data_template = {
 	[45133] = {
 		advice = 0,
 		describe = "For when you need to deliver a rousing if morally questionable speech.",
-		count = 1,
+		count = 2,
 		type = 2,
 		dir = 0,
 		dorm_id = 0,
@@ -60451,7 +60527,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Manjuuversal Studios Floor",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 4,
 		gain_by = "",
 		themeId = 68,
 		icon = "dibanus3icon",
@@ -60487,7 +60563,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Manjuuversal Studios Wallpaper",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 4,
 		gain_by = "",
 		themeId = 68,
 		icon = "qiangbius3icon",
@@ -60523,7 +60599,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Studios Road Sign",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 2,
 		gain_by = "",
 		themeId = 68,
 		icon = "1us3icon",
@@ -60559,7 +60635,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Studios Palm Tree",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 2,
 		gain_by = "",
 		themeId = 68,
 		icon = "2us3icon",
@@ -60595,7 +60671,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Manjuuversal Studios Entrance",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 2,
 		gain_by = "",
 		themeId = 68,
 		icon = "3us3icon",
@@ -60631,7 +60707,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Manjuuversal Studios Ball",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 3,
 		gain_by = "",
 		themeId = 68,
 		icon = "4us3icon",
@@ -60667,7 +60743,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Studio Park Map",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 2,
 		gain_by = "",
 		themeId = 68,
 		icon = "5us3icon",
@@ -60703,7 +60779,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Manjuu Popcorn Cart",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 3,
 		gain_by = "",
 		themeId = 68,
 		icon = "6us3icon",
@@ -60739,7 +60815,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Studio Street Light",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 2,
 		gain_by = "",
 		themeId = 68,
 		icon = "7us3icon",
@@ -60775,7 +60851,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Studio Landmarks Sign",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 1,
 		gain_by = "",
 		themeId = 68,
 		icon = "8us3icon",
@@ -60811,7 +60887,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Manjuu Pirate Cove",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 3,
 		gain_by = "",
 		themeId = 68,
 		icon = "9us3icon",
@@ -60861,7 +60937,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Tour Trolley",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 2,
 		gain_by = "",
 		themeId = 68,
 		icon = "10us3icon",
@@ -60911,7 +60987,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Manjuu Magic School",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 3,
 		gain_by = "",
 		themeId = 68,
 		icon = "11us3icon",
@@ -60942,12 +61018,12 @@ pg.furniture_data_template = {
 		advice = 0,
 		describe = "The fleet is coming through!",
 		count = 1,
-		type = 2,
+		type = 11,
 		dir = 0,
 		dorm_id = 0,
 		name = "Manjuu Cruiseship Float",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 4,
 		gain_by = "",
 		themeId = 68,
 		icon = "12us3icon",
@@ -61017,7 +61093,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Zumanjuuro",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 4,
 		gain_by = "",
 		themeId = 68,
 		icon = "13us3icon",
@@ -61100,7 +61176,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Manjuu Roller Coaster",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 4,
 		gain_by = "",
 		themeId = 68,
 		icon = "14us3icon",
@@ -61170,7 +61246,7 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		name = "Manjuu Water Slide",
 		is_get_time_note = 0,
-		rarity = 0,
+		rarity = 4,
 		gain_by = "",
 		themeId = 68,
 		icon = "15us3icon",
@@ -62653,6 +62729,7 @@ pg.furniture_data_template = {
 		100004,
 		100005,
 		100006,
+		100007,
 		1001,
 		1002,
 		1101,

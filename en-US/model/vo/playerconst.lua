@@ -58,9 +58,10 @@ function slot0.addTranDrop(slot0)
 	slot1 = {}
 	slot2 = pg.item_data_statistics
 	slot3 = pg.ship_skin_template
+	slot4 = pg.item_data_frame
 
-	for slot8, slot9 in ipairs(slot0) do
-		slot10, slot11 = function (slot0)
+	for slot9, slot10 in ipairs(slot0) do
+		slot11, slot12 = function (slot0)
 			if slot0.type == DROP_TYPE_SKIN then
 				slot1 = slot0.number or slot0.count
 
@@ -80,6 +81,27 @@ function slot0.addTranDrop(slot0)
 						id = slot2,
 						count = slot3,
 						name = uv0[id2ItemId(slot2)].name .. "(" .. uv1[slot0.id].name .. ")"
+					})
+				end
+			elseif slot0.type == DROP_TYPE_ICON_FRAME then
+				slot1 = slot0.number or slot0.count
+
+				warning(slot1)
+
+				if slot1 == 0 then
+					return Item.New({
+						count = 1,
+						type = slot0.type,
+						id = slot0.id
+					})
+				else
+					slot2, slot3 = Player.headFrame2Res(slot0.id, slot1)
+
+					return Item.New({
+						type = DROP_TYPE_RESOURCE,
+						id = slot2,
+						count = slot3,
+						name = uv0[id2ItemId(slot2)].name .. "(" .. uv2[slot0.id].name .. ")"
 					})
 				end
 			elseif slot0.type == DROP_TYPE_NPC_SHIP then
@@ -122,15 +144,15 @@ function slot0.addTranDrop(slot0)
 				id = slot0.id,
 				count = slot0.number or slot0.count
 			})
-		end(slot9)
-
-		if slot10 then
-			table.insert(slot1, slot10)
-			pg.m02:sendNotification(GAME.ADD_ITEM, slot10)
-		end
+		end(slot10)
 
 		if slot11 then
+			table.insert(slot1, slot11)
 			pg.m02:sendNotification(GAME.ADD_ITEM, slot11)
+		end
+
+		if slot12 then
+			pg.m02:sendNotification(GAME.ADD_ITEM, slot12)
 		end
 	end
 

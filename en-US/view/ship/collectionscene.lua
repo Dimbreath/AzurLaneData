@@ -365,11 +365,16 @@ function slot0.onInitCard(slot0, slot1)
 
 	onButton(slot0, slot2.go, function ()
 		if uv0.state == ShipGroup.STATE_UNLOCK then
-			LeanTween.delayedCall(0.2, System.Action(function ()
-				uv0.contextData.cardScrollValue = uv0.cardList.value
+			if not uv1.isClicked then
+				uv1.isClicked = true
 
-				uv0:emit(uv1.SHOW_DETAIL, uv2.showTrans, uv2.shipGroup.id)
-			end))
+				LeanTween.delayedCall(0.2, System.Action(function ()
+					uv0.isClicked = false
+					uv0.contextData.cardScrollValue = uv0.cardList.value
+
+					uv0:emit(uv1.SHOW_DETAIL, uv2.showTrans, uv2.shipGroup.id)
+				end))
+			end
 		elseif uv0.state == ShipGroup.STATE_NOTGET then
 			if uv0.showTrans == true and uv0.shipGroup.trans == true then
 				return

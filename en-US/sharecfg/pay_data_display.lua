@@ -2768,6 +2768,99 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[127] = {
+		limit_arg = 1,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		name = "Summer Scherzo Lucky Bag ",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Summer Scherzo Lucky Bag ",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai65",
+		id_str = "com.yostaren.azurlane.diamond137",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 127,
+		airijp_id = "com.yostaren.azurlane.diamond137",
+		extra_service_item = {
+			{
+				2,
+				69964,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					8,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					9,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69964,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2803,6 +2896,7 @@ pg.pay_data_display = {
 		123,
 		124,
 		125,
-		126
+		126,
+		127
 	}
 }

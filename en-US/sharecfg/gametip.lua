@@ -3961,18 +3961,9 @@ Temporary Recruit Restrictions:
 			{
 				info = [[
 
-Skins:
+Skin: 
 
- 1. Use ships, identical or special, and resources to change looks.
-May be improved up to 3 times]]
-			},
-			{
-				info = [[
-
-Skins:
-
- 1. Use ships, identical or special, and resources to change looks.
-May be improved up to 3 times]]
+ This skin is currently unavailable for purchase.]]
 			}
 		}
 	},
@@ -7034,7 +7025,7 @@ Combat Details:
 		tip = "This Meowfficer does not have any Talent Points."
 	},
 	buildship_new_tip = {
-		tip = "Perseus, Howe, Valiant, and Eagle Rate UP! "
+		tip = "Build rates increased for Bismarck, U-96, Z26, Z36, U-556, U-73, and Echo! "
 	},
 	buildship_heavy_tip = {
 		tip = "Duke of York added to standard build pool! "
@@ -10790,6 +10781,26 @@ you can earn.]]
 	},
 	us_error_download_painting = {
 		tip = "As data has been detected as missing, the game will now close to clear the cache. The neccessary files will be downloaded once the game is open again. "
+	},
+	trade_card_tips1 = {
+		tip = "Shop "
+	},
+	trade_card_tips2 = {
+		tip = [[
+Heads up, nya. 
+The Trade License you purchased expired on $1, nya. 
+You can renew your license to continue receiving rewards every day, nya! 
+Come visit my shop and see what's on offer, nya~]]
+	},
+	trade_card_tips3 = {
+		tip = [[
+Heads up, nya. 
+The Trade License you purchased will expire on $1, nya. 
+You can extend your license to continue receiving rewards every day, nya! 
+Come visit my shop and see what's on offer, nya~]]
+	},
+	trade_card_tips4 = {
+		tip = "$1 / $2 / $3 "
 	},
 	multiple_ship_energy_low_desc = {
 		tip = "Exhausted\nAffinity will be reduced if you attack"

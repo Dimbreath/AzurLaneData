@@ -10593,7 +10593,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[40968] = {
-		display = "Contains 1 Random Outfit, 2020 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 10 Quick Finishers, and 100 Furniture Coins ",
+		display = "Contains 1 Random Outfit, 2020 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 10 Quick Finishers, and 100 Decor Tokens ",
 		rarity = 4,
 		type = 17,
 		drop_oil_max = 0,
@@ -10610,6 +10610,55 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				2,
 				69963,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40969] = {
+		display = "Contains 1 Random Outfit, 2020 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 10 Quick Finishers, and 100 Decor Tokens ",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "Summer Scherzo Lucky Bag ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40969,
+		icon = "Props/fudai65",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				69964,
 				1
 			},
 			{
@@ -93679,6 +93728,42 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59174] = {
+		display = "Used in the \"Scherzo of Iron and Blood\" event exchange. Will disappear after the exchange period ends. ",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "The Iron Blood Coat of Arms ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59174,
+		icon = "Props/bsm_pt",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59175] = {
+		display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time.",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Rental Outfit Voucher",
+		shop_id = 1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59175,
+		icon = "Props/skinTicket",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 		rarity = 2,
@@ -98561,6 +98646,24 @@ Skins and drop rates:
 		price = {},
 		index = {}
 	},
+	[69911] = {
+		display = "Collect 7 U-556's Medals to earn the limited gear \"Certificate of Sponsorship.\" ",
+		rarity = 2,
+		type = 0,
+		drop_oil_max = 0,
+		name = "U-556's Medal ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 8,
+		link_id = 0,
+		id = 69911,
+		icon = "Props/u556xunzhang",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[69951] = {
 		display = [[
 This lucky bag contains a random Nep Ship skin (If you draw an already owned ship skin, you will be refunded 80% of the gem cost) 
@@ -98899,6 +99002,33 @@ The available outfits and their rarities are as follows:
 		virtual_type = 0,
 		link_id = 0,
 		id = 69963,
+		icon = "Props/clothIcon",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69964] = {
+		display = [[
+Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems) 
+The available outfits and their rarities are as follows:
+(<color=#92fc63>16%</color>) Bismarck - Beacon of the Iron Blood (L2D) (<color=#92fc63>Live 2d</color>;
+(<color=#92fc63>14%</color>) King George V - Rose's Regalia;
+(<color=#92fc63>14%</color>) Drake - The Golden Hind's Retreat;
+(<color=#92fc63>14%</color>) Cheshire - Summery Date!;
+(<color=#92fc63>14%</color>) U96 - Secret Gaming Session;
+(<color=#92fc63>14%</color>) Z26 - Sharing is Caring;
+(<color=#92fc63>14%</color>) York - Summoner from the Azure Depths ]],
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Random Ship skin ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 69964,
 		icon = "Props/clothIcon",
 		replace_item = 0,
 		display_icon = {},
@@ -100184,6 +100314,7 @@ The available outfits and their rarities are as follows:
 		40966,
 		40967,
 		40968,
+		40969,
 		41201,
 		41202,
 		41203,
@@ -101890,6 +102021,8 @@ The available outfits and their rarities are as follows:
 		59171,
 		59172,
 		59173,
+		59174,
+		59175,
 		59601,
 		59602,
 		59603,
@@ -102131,6 +102264,7 @@ The available outfits and their rarities are as follows:
 		69908,
 		69909,
 		69910,
+		69911,
 		69951,
 		69952,
 		69953,
@@ -102144,6 +102278,7 @@ The available outfits and their rarities are as follows:
 		69961,
 		69962,
 		69963,
+		69964,
 		70000,
 		70001,
 		70002,

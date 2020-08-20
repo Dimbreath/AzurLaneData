@@ -1411,7 +1411,6 @@ pg.backyard_theme_template = {
 		id = 45,
 		icon = "bsmthemeicon",
 		comfortable = 0,
-		discount_time = "",
 		ids = {
 			45001,
 			45002,
@@ -1460,6 +1459,32 @@ pg.backyard_theme_template = {
 			45308,
 			45309,
 			45310
+		},
+		discount_time = {
+			{
+				{
+					2020,
+					8,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					9,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[46] = {
@@ -1789,6 +1814,9 @@ pg.backyard_theme_template = {
 		comfortable = 0,
 		discount_time = "",
 		ids = {
+			54101,
+			54102,
+			54103,
 			54104,
 			54105
 		}
@@ -2084,7 +2112,7 @@ pg.backyard_theme_template = {
 		name = "Iris Countryside ",
 		desc = "Bask in the idyllic Iris scenery as you sip from a glass of fine wine. ",
 		deblocking = 1,
-		new = 0,
+		new = 1,
 		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
@@ -2119,7 +2147,7 @@ pg.backyard_theme_template = {
 		name = "Passion for Acceleration",
 		desc = "Pedal to the metal and Eurobeat on the CD player! Hit it, chief!",
 		deblocking = 1,
-		new = 0,
+		new = 1,
 		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
@@ -2189,7 +2217,7 @@ pg.backyard_theme_template = {
 		name = "Manjuu Infirmary",
 		desc = "The latest and greatest in medical science is all in here. Now, turn your head and cough.",
 		deblocking = 1,
-		new = 0,
+		new = 1,
 		hot = 1,
 		Cfg_2 = 8,
 		is_view = 1,

@@ -35953,6 +35953,301 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[13550] = {
+		desc_get = "",
+		name = "The Smiling Sawfish ",
+		desc = "Increases this boat's Torpedo Crit Rate by $1. At the start of the battle: fires a $2 torpedo barrage (DMG is based on the skill's level.) ",
+		type = 1,
+		max_level = 10,
+		id = 13550,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13560] = {
+		desc_get = "",
+		name = "Wolf Pack Formation - U-96",
+		desc = "Increases Accuracy by $1 and Crit DMG by $2 for all your Iron Blood SSs. Additionally, for each SS in your fleet: increases this boat's Accuracy, RLD, and EVA by $3.",
+		type = 1,
+		max_level = 10,
+		id = 13560,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			}
+		}
+	},
+	[13570] = {
+		desc_get = "",
+		name = "Torpedo-Deflecting Field",
+		desc = "10s after the start of the battle: deploys a shield that lasts 20s and can block up to 3 enemy torpedoes. If this shield is destroyed: fires a retaliatory $1 special torpedo barrage and redeploys this shield 30s later.",
+		type = 2,
+		max_level = 10,
+		id = 13570,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -43382,6 +43677,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[29591] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: U-96 immediately after entering the battle.",
+		type = 1,
+		max_level = 1,
+		id = 29591,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29592] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: U-96 immediately after entering the battle.",
+		type = 1,
+		max_level = 1,
+		id = 29592,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[101010] = {
 		desc_get = "",
 		name = "Protagonist Aura",
@@ -47064,6 +47381,9 @@ pg.skill_data_template = {
 		13520,
 		13530,
 		13540,
+		13550,
+		13560,
+		13570,
 		18010,
 		18040,
 		18050,
@@ -47414,6 +47734,8 @@ pg.skill_data_template = {
 		29572,
 		29581,
 		29582,
+		29591,
+		29592,
 		101010,
 		101020,
 		101030,

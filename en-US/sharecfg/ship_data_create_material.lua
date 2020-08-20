@@ -70,11 +70,14 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Common：30%",
-			"<color=#ffde38>Perseus</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Howe</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Hermione</color>：0.5%",
-			"<color=#d797ff>Valiant</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Eagle</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>Bismarck</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>U-96</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>King George V</color>：0.5%",
+			"<color=#d797ff>U-556</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>U-73</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Z36</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Z26</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>Echo</color>：5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

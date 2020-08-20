@@ -27,6 +27,7 @@ MSGBOX_TYPE_SECONDPWD = 8
 MSGBOX_TYPE_OBTAIN = 9
 MSGBOX_TYPE_ITEMTIP = 10
 MSGBOX_TYPE_JUST_FOR_SHOW = 11
+MSGBOX_TYPE_MONTH_CARD_TIP = 12
 slot1.enable = false
 slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
@@ -1047,6 +1048,8 @@ function slot1.ShowMsgBox(slot0, slot1)
 		slot0:GetPanel(ItemTipPanel).buffer:UpdateView(slot1)
 	elseif slot2 == MSGBOX_TYPE_JUST_FOR_SHOW then
 		slot0:GetPanel(ItemShowPanel).buffer:UpdateView(slot1)
+	elseif slot2 == MSGBOX_TYPE_MONTH_CARD_TIP then
+		slot0:GetPanel(MonthCardOutDateTipPanel).buffer:UpdateView(slot1)
 	end
 end
 

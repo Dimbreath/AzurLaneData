@@ -38681,6 +38681,117 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[203072] = {
+		name = "Summoner from the Azure Depths ",
+		ship_group = 20307,
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "O Unfathomable King of the slumbering depths, hear the call of my Force and step into this world through the Azur Gate! ...Huh, Commander? Why did you show up? ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "yueke_3",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 6,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "133",
+		skin_type = 0,
+		id = 203072,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yueke_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70401,
+		voice_actor = 23,
+		air_bomb_skin = "",
+		illustrator = 18,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.829,
+					0.877,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.823,
+					0.865,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.806,
+					0.835,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.414,
+							2.501,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[203079] = {
 		name = "York (Retrofit)",
 		ship_group = 20307,
@@ -79502,6 +79613,226 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[401260] = {
+		name = "Z26",
+		ship_group = 40126,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "Type 1936A \"Narvik class\" destroyer – Z26. ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "Z26",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 401260,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Z26",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.402,
+					1.267,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.31,
+					1.274,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					-0.008,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.331,
+					1.168,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.14,
+							-1.05
+						}
+					}
+				}
+			}
+		}
+	},
+	[401261] = {
+		name = "Sharing is Caring ",
+		ship_group = 40126,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Commander, welcome to my pad! Ah, give me a sec, let me go grab all the snacks and drinks and games! ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "Z26_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 9999,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "109",
+		skin_type = 0,
+		id = 401261,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Z26_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70405,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.644,
+					1.267,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.674,
+					1.274,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.672,
+					1.342,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.14,
+							-1.05
+						}
+					}
+				}
+			}
+		}
+	},
 	[401350] = {
 		name = "Z35",
 		ship_group = 40135,
@@ -85808,6 +86139,198 @@ pg.ship_skin_template = {
 				{
 					0,
 					-0.109,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408090] = {
+		name = "U-96",
+		ship_group = 40809,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "Iron Blood Type VIIC submarine – U-96. ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "U96",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 408090,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U96",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.175,
+					0.382,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408091] = {
+		name = "Secret Gaming Session ",
+		ship_group = 40809,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Nice timing. I just finished an intense battle. The result...? Of course I won. What? Did you want to have a match against me? ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "U96_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 9999,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "109",
+		skin_type = 0,
+		id = 408091,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U96_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70404,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.341,
+					0.473,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.25,
 					0
 				}
 			}
@@ -115478,6 +116001,117 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[299031] = {
+		name = "Summery Date! ",
+		ship_group = 29903,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Cheer up, Owner! Jeez, why are you so bummed out when we're at the beach... Because it's just a normal playdate instead of a romantic date? What's the difference anyway? C'mon, let's go head down to where the others are~! ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "chaijun_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "1101",
+		shop_type_id = 6,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "133",
+		skin_type = 0,
+		id = 299031,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "chaijun_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70403,
+		voice_actor = 30,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.43,
+					1.078,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.485,
+					1.082,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.003,
+					0.009,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.409,
+					1.167,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.378,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[299040] = {
 		name = "Drake",
 		ship_group = 29904,
@@ -115514,6 +116148,117 @@ pg.ship_skin_template = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.389,
+					1.027,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.384,
+					1.02,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.001,
+					0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.393,
+					1.115,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.602,
+							2.308,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[299041] = {
+		name = "The Golden Hind's Respite ",
+		ship_group = 29904,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Phew... Swimming like this doesn't feel all that refreshing... Hey, how about you stop staring and come join me? ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "deleike_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 6,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "133",
+		skin_type = 0,
+		id = 299041,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "deleike_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70402,
+		voice_actor = 80,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -116591,6 +117336,7 @@ pg.ship_skin_template = {
 		[20307] = {
 			203070,
 			203071,
+			203072,
 			203079
 		},
 		[20308] = {
@@ -117263,6 +118009,10 @@ pg.ship_skin_template = {
 			401250,
 			401251
 		},
+		[40126] = {
+			401260,
+			401261
+		},
 		[40135] = {
 			401350,
 			401351
@@ -117371,6 +118121,10 @@ pg.ship_skin_template = {
 		[40808] = {
 			408080,
 			408081
+		},
+		[40809] = {
+			408090,
+			408091
 		},
 		[50101] = {
 			501010
@@ -118002,10 +118756,12 @@ pg.ship_skin_template = {
 			999011
 		},
 		[29903] = {
-			299030
+			299030,
+			299031
 		},
 		[29904] = {
-			299040
+			299040,
+			299041
 		},
 		[49903] = {
 			499030
@@ -118370,6 +119126,7 @@ pg.ship_skin_template = {
 		203060,
 		203070,
 		203071,
+		203072,
 		203079,
 		203080,
 		203089,
@@ -118743,6 +119500,8 @@ pg.ship_skin_template = {
 		401239,
 		401250,
 		401251,
+		401260,
+		401261,
 		401350,
 		401351,
 		401360,
@@ -118800,6 +119559,8 @@ pg.ship_skin_template = {
 		408070,
 		408080,
 		408081,
+		408090,
+		408091,
 		501010,
 		501020,
 		501030,
@@ -119070,7 +119831,9 @@ pg.ship_skin_template = {
 		999010,
 		999011,
 		299030,
+		299031,
 		299040,
+		299041,
 		499030,
 		499040,
 		899020

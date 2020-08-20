@@ -618,6 +618,9 @@ pg.activity_const = {
 	ACTIVITY_BOSS_AISAIKESI_PT = {
 		act_id = 30439
 	},
+	U557_RED_POCKET_RE = {
+		act_id = 30491
+	},
 	SUMMER_REMAKE = {
 		act_id = 30253
 	},

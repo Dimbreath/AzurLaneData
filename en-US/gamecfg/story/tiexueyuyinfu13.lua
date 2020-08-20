@@ -9,18 +9,12 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
+			say = "Booomm————",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			bgm = "bsm-3",
 			nameColor = "#ffde38",
-			say = "Booomm————",
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
+			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -69,18 +63,11 @@ return {
 		},
 		{
 			expression = 4,
+			nameColor = "#ffde38",
 			side = 1,
 			dir = 1,
 			actor = 405010,
-			nameColor = "#ffde38",
 			say = "This is...",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,17 +80,11 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
+			say = "Booomm————",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			say = "Booomm————",
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
+			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -151,19 +132,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
-			side = 1,
-			dir = 1,
 			actor = 405010,
+			side = 1,
+			expression = 4,
+			dir = 1,
 			nameColor = "#ffde38",
 			say = "a once-in-a-lifetime battle...",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,16 +150,10 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
+			say = "Booomm————",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "Booomm————",
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
+			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -233,19 +201,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
-			side = 1,
-			dir = 1,
 			actor = 405010,
+			side = 1,
+			expression = 4,
+			dir = 1,
 			nameColor = "#ffde38",
 			say = "the greatest thrill...",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,16 +219,10 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
+			say = "Booomm————",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "Booomm————",
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
+			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -315,19 +270,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
-			side = 1,
-			dir = 1,
 			actor = 405010,
+			side = 1,
+			expression = 4,
+			dir = 1,
 			nameColor = "#ffde38",
 			say = "for an Iron Blood battleship!",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,16 +288,10 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
+			say = "Booomm————",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "Booomm————",
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
+			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -397,19 +339,12 @@ return {
 			}
 		},
 		{
-			expression = 2,
-			side = 1,
-			dir = 1,
 			actor = 405010,
+			side = 1,
+			expression = 2,
+			dir = 1,
 			nameColor = "#ffde38",
 			say = "Curses... they took out my precious Dora?!",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

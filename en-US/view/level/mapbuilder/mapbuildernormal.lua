@@ -321,16 +321,21 @@ function slot1.UpdateMapItem(slot0, slot1, slot2)
 
 		if slot26 then
 			slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", slot0.sceneParent.contextData.map:getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us", slot24:Find("bonus"))
+			LeanTween.cancel(go(slot24), true)
 
 			slot30 = slot24.anchoredPosition.y
 			slot24:GetComponent(typeof(CanvasGroup)).alpha = 0
 
-			LeanTween.cancel(go(slot24))
 			LeanTween.value(go(slot24), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
 				uv0.alpha = slot0
 				slot1 = uv1.anchoredPosition
 				slot1.y = uv2 * slot0
 				uv1.anchoredPosition = slot1
+			end)):setOnComplete(System.Action(function ()
+				uv0.alpha = 1
+				slot0 = uv1.anchoredPosition
+				slot0.y = uv2
+				uv1.anchoredPosition = slot0
 			end)):setEase(LeanTweenType.easeOutSine):setDelay(0.7)
 		end
 	end
