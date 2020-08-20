@@ -5031,6 +5031,42 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100019] = {
+		advice = 0,
+		describe = "唔，这是…谁家的鹰酱？ ",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "鹰酱 ",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "yingicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 100019,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "到处都是破洞的地板，注意不要踩到洞里啊",
@@ -59187,7 +59223,7 @@ pg.furniture_data_template = {
 	[45133] = {
 		advice = 0,
 		describe = "来一场激情澎湃的演讲吧！",
-		count = 1,
+		count = 2,
 		type = 2,
 		dir = 0,
 		dorm_id = 0,
@@ -79430,6 +79466,7 @@ pg.furniture_data_template = {
 		100016,
 		100017,
 		100018,
+		100019,
 		1001,
 		1002,
 		1101,

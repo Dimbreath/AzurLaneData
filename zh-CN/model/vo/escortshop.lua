@@ -22,7 +22,7 @@ function slot0.update(slot0, slot1, slot2)
 		slot7 = "goods"
 
 		for slot7, slot8 in ipairs(slot0:getConfig(slot7)) do
-			slot0.goods[slot8] = Goods.New({
+			slot0.goods[slot8] = Goods.Create({
 				shop_id = slot8,
 				buy_count = slot3[slot8] or 0
 			}, Goods.TYPE_SHAM_BATTLE)

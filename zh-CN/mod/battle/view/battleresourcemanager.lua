@@ -702,23 +702,24 @@ function slot5.GetEnemyResource(slot0)
 	slot1 = {}
 	slot3 = slot0.bossData ~= nil
 	slot4 = slot0.buffList or {}
-	slot5 = uv0.GetMonsterTmpDataFromID(slot0.monsterTemplateID)
-	slot1[#slot1 + 1] = uv1.GetCharacterPath(slot5.prefab)
-	slot1[#slot1 + 1] = uv1.GetFXPath(slot5.wave_fx)
+	slot5 = slot0.phase or {}
+	slot6 = uv0.GetMonsterTmpDataFromID(slot0.monsterTemplateID)
+	slot1[#slot1 + 1] = uv1.GetCharacterPath(slot6.prefab)
+	slot1[#slot1 + 1] = uv1.GetFXPath(slot6.wave_fx)
 
-	for slot9, slot10 in ipairs(slot5.appear_fx) do
-		slot1[#slot1 + 1] = uv1.GetFXPath(slot10)
+	for slot10, slot11 in ipairs(slot6.appear_fx) do
+		slot1[#slot1 + 1] = uv1.GetFXPath(slot11)
 	end
 
-	for slot9, slot10 in ipairs(slot5.smoke) do
-		for slot15, slot16 in ipairs(slot10[2]) do
-			slot1[#slot1 + 1] = uv1.GetFXPath(slot16[1])
+	for slot10, slot11 in ipairs(slot6.smoke) do
+		for slot16, slot17 in ipairs(slot11[2]) do
+			slot1[#slot1 + 1] = uv1.GetFXPath(slot17[1])
 		end
 	end
 
-	slot1[#slot1 + 1] = uv1.GetFXPath(slot5.bubble_fx)
+	slot1[#slot1 + 1] = uv1.GetFXPath(slot6.bubble_fx)
 
-	for slot10, slot11 in ipairs(slot4) do
+	for slot11, slot12 in ipairs(slot4) do
 		function (slot0)
 			for slot5, slot6 in pairs(uv0.Battle.BattleDataFunction.GetBuffTemplate(slot0, 1).effect_list) do
 				if slot6.arg_list.skill_id then
@@ -733,11 +734,19 @@ function slot5.GetEnemyResource(slot0)
 					uv4(slot8)
 				end
 			end
-		end(slot11)
+		end(slot12)
+	end
+
+	for slot11, slot12 in ipairs(slot5) do
+		if slot12.addBuff then
+			for slot16, slot17 in ipairs(slot12.addBuff) do
+				slot7(slot17)
+			end
+		end
 	end
 
 	if slot3 then
-		slot1[#slot1 + 1] = uv1.GetSquareIcon(slot5.icon)
+		slot1[#slot1 + 1] = uv1.GetSquareIcon(slot6.icon)
 	end
 
 	return slot1

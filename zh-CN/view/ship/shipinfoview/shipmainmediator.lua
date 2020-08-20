@@ -359,7 +359,7 @@ function slot0.nextPage(slot0, slot1, slot2)
 	end
 
 	if slot6 then
-		slot0.viewComponent:setPreOrNext(slot1)
+		slot0.viewComponent:setPreOrNext(slot1, slot6)
 
 		slot0.viewComponent.fashionGroup = 0
 		slot0.viewComponent.fashionSkinId = 0

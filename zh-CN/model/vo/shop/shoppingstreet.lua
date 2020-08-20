@@ -17,7 +17,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.goods = {}
 
 	for slot7, slot8 in ipairs(slot1.goods_list) do
-		slot9 = Goods.New(slot8, Goods.TYPE_SHOPSTREET)
+		slot9 = Goods.Create(slot8, Goods.TYPE_SHOPSTREET)
 		slot9.activityDiscount = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SHOP_DISCOUNT) and not slot2:isEnd()
 
 		table.insert(slot0.goods, slot9)

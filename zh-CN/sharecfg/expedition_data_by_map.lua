@@ -7149,6 +7149,252 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1400001] = {
+		map = 1400001,
+		name = "铁血、音符与誓言·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		on_activity = 665,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "TIEXUEYUYINFU1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220001",
+		cloud_suffix = "",
+		bg = "map_1220001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1400011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1400002] = {
+		map = 1400002,
+		name = "铁血、音符与誓言·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		on_activity = 666,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "TIEXUEYUYINFU10",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220002",
+		cloud_suffix = "",
+		bg = "map_1220002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1400012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1400011] = {
+		map = 1400011,
+		name = "铁血、音符与誓言·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		on_activity = 665,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "TIEXUEYUYINFU1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220003",
+		cloud_suffix = "",
+		bg = "map_1220003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1400001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1400012] = {
+		map = 1400012,
+		name = "铁血、音符与誓言·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		on_activity = 666,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "TIEXUEYUYINFU10",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220004",
+		cloud_suffix = "",
+		bg = "map_1220004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1400002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1400020] = {
+		map = 1400020,
+		name = "铁血、音符与誓言·间奏|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 8,
+		on_activity = 666,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220004",
+		cloud_suffix = "",
+		bg = "map_1220004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1400012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1400021] = {
+		map = 1400021,
+		name = "铁血、音符与誓言·EX|| ||CHAPTER EX||E.X.",
+		bgm = "Story-6",
+		type = 8,
+		on_activity = 666,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220004",
+		cloud_suffix = "",
+		bg = "map_1220004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1400012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『红染的参访者』-前篇|| ||CHAPTER EX||E.X.",
@@ -8307,6 +8553,12 @@ pg.expedition_data_by_map = {
 		1380025,
 		1380026,
 		1390001,
+		1400001,
+		1400002,
+		1400011,
+		1400012,
+		1400020,
+		1400021,
 		2100000,
 		2100001,
 		2100010,

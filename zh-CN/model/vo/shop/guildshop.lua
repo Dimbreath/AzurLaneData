@@ -8,7 +8,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.goods = {}
 
 	for slot5, slot6 in ipairs(slot1.good_list) do
-		slot7 = Goods.New(slot6, Goods.TYPE_GUILD)
+		slot7 = Goods.Create(slot6, Goods.TYPE_GUILD)
 		slot0.goods[slot7.id] = slot7
 	end
 

@@ -11,7 +11,7 @@ function slot0.execute(slot0, slot1)
 		}
 
 		for slot5, slot6 in ipairs(slot0.pay_list) do
-			slot7 = Goods.New(slot6, Goods.TYPE_CHARGE)
+			slot7 = Goods.Create(slot6, Goods.TYPE_CHARGE)
 		end
 
 		for slot6, slot7 in ipairs(slot0.first_pay_list) do
@@ -19,7 +19,7 @@ function slot0.execute(slot0, slot1)
 		end
 
 		for slot7, slot8 in ipairs(slot0.normal_list) do
-			slot9 = Goods.New(slot8, Goods.TYPE_GIFT_PACKAGE)
+			slot9 = Goods.Create(slot8, Goods.TYPE_GIFT_PACKAGE)
 
 			table.insert({
 				[slot9.id] = slot9

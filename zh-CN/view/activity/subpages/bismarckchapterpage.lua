@@ -24,6 +24,8 @@ function slot0.OnInit(slot0)
 	}
 	slot0.awardTF = slot0:findTF("AD/award")
 	slot0.battleBtn = slot0:findTF("AD/battle_btn")
+	slot0.shopBtn = slot0:findTF("AD/exchange_btn")
+	slot0.buildBtn = slot0:findTF("AD/build_btn")
 	slot0.tab = slot0:findTF("tab")
 	slot0.bar = slot0:findTF("bar")
 	slot0.scrollList = slot0:findTF("Scroll View", slot0.tab)
@@ -73,6 +75,19 @@ function slot0.InitInteractable(slot0)
 
 	onButton(slot0, slot0.battleBtn, function ()
 		uv0:emit(ActivityMediator.BATTLE_OPERA)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.shopBtn, function ()
+		uv0:emit(ActivityMediator.GO_SHOPS_LAYER, {
+			warp = NewShopsScene.TYPE_ACTIVITY,
+			actId = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
+				return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
+			end) and slot0.id
+		})
+	end, SFX_PANEL)
+	onButton(slot0, slot0.buildBtn, function ()
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
+			projectName = BuildShipScene.PROJECTS.ACTIVITY
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.bg, function ()
 		if uv0.tabType > 0 then

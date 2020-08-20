@@ -74,6 +74,7 @@ function slot0.execute(slot0, slot1)
 		pg.SdkMgr.GetInstance():BindCPU()
 		getProxy(PlayerProxy):setInited(true)
 		pg.SecondaryPWDMgr.GetInstance():FetchData()
+		MonthCardOutDateTipPanel.SetMonthCardEndDateLocal()
 	end, nil, 60)
 end
 

@@ -15,7 +15,7 @@ function slot0.execute(slot0, slot1)
 			slot2:increaseRefreshCount()
 
 			for slot11, slot12 in ipairs(slot0.arena_shop_list) do
-				slot13 = Goods.New(slot12, Goods.TYPE_MILITARY)
+				slot13 = Goods.Create(slot12, Goods.TYPE_MILITARY)
 			end
 
 			slot2:updateAllGoods({

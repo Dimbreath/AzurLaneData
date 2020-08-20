@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印地的笑容！\n\n<size=45>一 印地强化周开始！</size>",
+					"为了印第的笑容！\n\n<size=45>一 印第强化周开始！</size>",
 					1
 				}
 			}
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			say = "为了让大家知道印地有多可爱，多少办法我都想得出！",
+			say = "为了让大家知道印第有多可爱，多少办法我都想得出！",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "印地的量产周边！相片、钥匙链，还有抱枕套！",
+			say = "印第的量产周边！相片、钥匙链，还有抱枕套！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "办公桌上堆满了印地周边的企划书。",
+			say = "办公桌上堆满了印第周边的企划书。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么不行呀～！我只是想让大家了解印地而已嘛！",
+			say = "为什么不行呀～！我只是想让大家了解印第而已嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "你听见了吗？！指挥官！印地想让大家了解自己！",
+			say = "你听见了吗？！指挥官！印第想让大家了解自己！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "对了！既然如此，就由我们来支援印地，直到她的粉丝变多为止！",
+			say = "对了！既然如此，就由我们来支援印第，直到她的粉丝变多为止！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要开始咯！印地强化周！",
+			say = "要开始咯！印第强化周！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肯定会让大家都喜欢上印地的~！",
+			say = "肯定会让大家都喜欢上印第的~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

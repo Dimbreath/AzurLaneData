@@ -461,7 +461,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "与萨拉托加一起的“传说海豹“追寻之旅，就这样开始了——",
+			say = "与萨拉托加一起的“传说海豹”追寻之旅，就这样开始了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -334,8 +334,8 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "英系V2",
-		key_value = 163
+		description = "俾斯麦复刻",
+		key_value = 166
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -667,7 +667,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 164
+		key_value = 167
 	},
 	order_pt_max = {
 		key_value = 0,

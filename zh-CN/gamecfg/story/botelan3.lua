@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印地的笑容！\n\n<size=45>三 姐妹谈资喋喋不休</size>",
+					"为了印第的笑容！\n\n<size=45>三 姐妹谈资喋喋不休</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "波特兰没有放弃印地强化周。",
+			say = "波特兰没有放弃印第强化周。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "就是就是！所以我拜托了指挥官，希望能安排制作充满印地魅力的周边哦~！",
+			say = "就是就是！所以我拜托了指挥官，希望能安排制作充满印第魅力的周边哦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后啊！那时候的印地呀~……",
+			say = "然后啊！那时候的印第呀~……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官你说什么呢！多塞特郡能明白印地的可爱——",
+			say = "指挥官你说什么呢！多塞特郡能明白印第的可爱——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "并且会一起和我向大家宣传印地的可爱哦！",
+			say = "并且会一起和我向大家宣传印第的可爱哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多塞特郡，不是喜欢上印地了吗？",
+			say = "多塞特郡，不是喜欢上印第了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

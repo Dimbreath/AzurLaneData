@@ -441,6 +441,12 @@ end
 function slot0.onBackPressed(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
+	if isActive(slot0.sortPanel) then
+		triggerButton(slot0.sortPanel)
+
+		return
+	end
+
 	if slot0.destroyConfirmView and slot0.destroyConfirmView:GetLoaded() then
 		slot0.destroyConfirmView:Destroy()
 

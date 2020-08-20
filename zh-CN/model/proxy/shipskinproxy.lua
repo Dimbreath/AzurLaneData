@@ -163,7 +163,7 @@ function slot0.GetAllSkins(slot0)
 		if pg.shop_template[slot7].genre == ShopArgs.SkinShop or slot8 == ShopArgs.SkinShopTimeLimit then
 			function (slot0)
 				slot0:updateBuyCount(getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot2:isExpireType() and 1 or 0)
-			end(Goods.New({
+			end(Goods.Create({
 				shop_id = slot7
 			}, Goods.TYPE_SKIN))
 
@@ -180,7 +180,7 @@ function slot0.GetAllSkins(slot0)
 			slot10 = getProxy(ActivityProxy):getActivityById(slot9.activity)
 
 			if slot9.activity == 0 and pg.TimeMgr.GetInstance():inTime(slot9.time) or slot10 and not slot10:isEnd() then
-				slot11 = Goods.New({
+				slot11 = Goods.Create({
 					shop_id = slot8
 				}, Goods.TYPE_ACTIVITY_EXTRA)
 
@@ -192,7 +192,7 @@ function slot0.GetAllSkins(slot0)
 
 	for slot7, slot8 in ipairs(pg.activity_shop_template.all) do
 		if pg.activity_shop_template[slot8].commodity_type == DROP_TYPE_SKIN and slot3:getActivityById(slot9.activity) and not slot10:isEnd() then
-			slot2(Goods.New({
+			slot2(Goods.Create({
 				shop_id = slot8
 			}, Goods.TYPE_ACTIVITY))
 

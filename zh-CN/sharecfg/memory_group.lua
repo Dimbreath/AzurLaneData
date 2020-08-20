@@ -2425,7 +2425,7 @@ pg.memory_group = {
 		}
 	},
 	[549] = {
-		title = "为了印地的笑容！",
+		title = "为了印第的笑容！",
 		type = 3,
 		id = 549,
 		icon = "title_chara_botelan",
@@ -2437,6 +2437,21 @@ pg.memory_group = {
 			1325,
 			1326,
 			1327
+		}
+	},
+	[550] = {
+		title = "淑女的小小提案",
+		type = 3,
+		id = 550,
+		icon = "title_chara_guanghui",
+		memories = {
+			1331,
+			1332,
+			1333,
+			1334,
+			1335,
+			1336,
+			1337
 		}
 	},
 	all = {
@@ -2580,6 +2595,7 @@ pg.memory_group = {
 		546,
 		547,
 		548,
-		549
+		549,
+		550
 	}
 }
