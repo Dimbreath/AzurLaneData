@@ -85,7 +85,7 @@ function slot0.GetNormalByID(slot0, slot1)
 		slot0.normalList = {}
 	end
 
-	slot0.normalList[slot1] = slot0.normalList[slot1] or Goods.New({
+	slot0.normalList[slot1] = slot0.normalList[slot1] or Goods.Create({
 		buyCount = 0,
 		id = slot1
 	}, Goods.TYPE_GIFT_PACKAGE)

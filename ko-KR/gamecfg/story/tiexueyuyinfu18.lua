@@ -795,7 +795,7 @@ return {
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "(대양을 제패하는……)）",
+			say = "(대양을 제패하는……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "(최강의 해군, 은……)）",
+			say = "(최강의 해군, 은……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1430,7 +1430,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"<size=60>(티르피츠…… 보고 싶어……)）</size>",
+					"<size=60>(티르피츠…… 보고 싶어……)</size>",
 					1
 				}
 			}

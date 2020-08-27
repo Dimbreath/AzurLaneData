@@ -577,7 +577,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[20505] = {
 		ship_group = 20505,
-		name = "King.Geoge.V",
+		name = "King.George.V",
 		sculpture = "qiaozhiwushi"
 	},
 	[20501] = {

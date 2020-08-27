@@ -823,6 +823,7 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == ShopsProxy.CHARGED_LIST_UPDATED then
 		slot0.viewComponent:updateMallBtnSellTag(slot3)
+		slot0.viewComponent:UpdateMallBtnMonthcardTag()
 	end
 end
 
@@ -879,8 +880,10 @@ function slot0.handleEnterMainUI(slot0)
 			if #slot4 > 0 and slot3:needAutoOpen() then
 				uv0:addSubLayers(Context.New({
 					mediator = BulletinBoardMediator,
-					viewComponent = BulletinBoardLayer
+					viewComponent = BulletinBoardLayer,
+					onRemoved = uv1
 				}))
+				coroutine.yield()
 			elseif uv0.contextData.subContext then
 				uv0:addSubLayers(uv0.contextData.subContext)
 
@@ -903,6 +906,15 @@ function slot0.handleEnterMainUI(slot0)
 			uv0:handlingActivityBtn()
 			uv0:handleOverdueAttire()
 			uv0:updateExSkinOverDue()
+			MonthCardOutDateTipPanel.TryShowMonthCardTipPanel(function ()
+				uv0 = false
+
+				uv1()
+			end)
+
+			if true then
+				coroutine.yield()
+			end
 		end))
 	end
 end

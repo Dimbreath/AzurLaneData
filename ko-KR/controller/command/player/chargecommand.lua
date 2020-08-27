@@ -14,7 +14,7 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot6 = not table.contains(slot5, slot3)
-	slot7 = Goods.New({
+	slot7 = Goods.Create({
 		shop_id = slot3
 	}, Goods.TYPE_CHARGE)
 

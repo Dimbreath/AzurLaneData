@@ -41,6 +41,22 @@ function slot0.skin2Res(slot0, slot1)
 	return slot3, slot4
 end
 
+function slot0.headFrame2Res(slot0, slot1)
+	slot3 = 1
+	slot4 = 0
+
+	for slot8, slot9 in pairs(pg.drop_data_restore.all) do
+		if slot0 == slot2[slot9].target_id and slot1 == slot10.drop_id then
+			slot3 = slot10.resource_type
+			slot4 = slot10.resource_num
+
+			break
+		end
+	end
+
+	return slot3, slot4
+end
+
 function slot0.getSkinTicket(slot0)
 	return pg.gameset.skin_ticket.key_value == 0 and 0 or slot0:getResource(slot1)
 end

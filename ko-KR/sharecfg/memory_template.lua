@@ -8119,7 +8119,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[797] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "서장·연설",
@@ -8130,7 +8130,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[798] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "탈출",
@@ -8141,7 +8141,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[799] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "추적",
@@ -8152,7 +8152,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[800] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "시간과의 싸움",
@@ -8163,7 +8163,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[801] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "협상",
@@ -8174,7 +8174,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[802] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "저항",
@@ -8185,7 +8185,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[803] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "전황",
@@ -8196,7 +8196,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[804] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "작은 친구",
@@ -8207,7 +8207,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[805] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "결심",
@@ -8218,7 +8218,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[806] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "만가",
@@ -8229,7 +8229,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[807] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "백열화",
@@ -8240,7 +8240,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[808] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "증원",
@@ -8251,7 +8251,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[809] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "내습",
@@ -8262,7 +8262,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[810] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "균형",
@@ -8273,7 +8273,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[811] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "각성",
@@ -8284,7 +8284,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[812] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "힘",
@@ -8295,7 +8295,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[813] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "결전",
@@ -8306,7 +8306,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[814] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "결말",
@@ -8317,7 +8317,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[815] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "약속",
@@ -8328,7 +8328,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[816] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "어느 때",
@@ -8339,7 +8339,7 @@ pg.memory_template = {
 		is_open = 0
 	},
 	[817] = {
-		mask = "bg/bg_memory",
+		mask = "bg/bg_story_bsmlevel",
 		subtitle = "",
 		type = 1,
 		title = "흑막",
@@ -13255,6 +13255,83 @@ pg.memory_template = {
 		icon = "memory_yongyehuanguang",
 		is_open = 0
 	},
+	[1331] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "특별한 장소",
+		condition = "「숙녀의 작은 제안」 임무1 해제",
+		story = "GUANGHUI1",
+		id = 1331,
+		icon = "memory_guanghui",
+		is_open = 0
+	},
+	[1332] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "고민상담",
+		condition = "「숙녀의 작은 제안」 임무2 해제",
+		story = "GUANGHUI2",
+		id = 1332,
+		icon = "memory_guanghui",
+		is_open = 0
+	},
+	[1333] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "의외의 사건",
+		condition = "「숙녀의 작은 제안」 임무3 해제",
+		story = "GUANGHUI3",
+		id = 1333,
+		icon = "memory_guanghui",
+		is_open = 0
+	},
+	[1334] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "두근두근 스킨십",
+		condition = "「숙녀의 작은 제안」 임무4 해제",
+		story = "GUANGHUI4",
+		id = 1334,
+		icon = "memory_guanghui",
+		is_open = 0
+	},
+	[1335] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "동생의 한 마디",
+		condition = "「숙녀의 작은 제안」 임무5 해제",
+		story = "GUANGHUI5",
+		id = 1335,
+		icon = "memory_guanghui",
+		is_open = 0
+	},
+	[1336] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "다시 잡은 손",
+		condition = "「숙녀의 작은 제안」 임무6 해제",
+		story = "GUANGHUI6",
+		id = 1336,
+		icon = "memory_guanghui",
+		is_open = 0
+	},
+	[1337] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "두 사람의 특별 장소",
+		condition = "「숙녀의 작은 제안」 임무7 해제",
+		story = "GUANGHUI7",
+		id = 1337,
+		icon = "memory_guanghui",
+		is_open = 0
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -15198,6 +15275,13 @@ pg.memory_template = {
 		1318,
 		1319,
 		1320,
+		1331,
+		1332,
+		1333,
+		1334,
+		1335,
+		1336,
+		1337,
 		10000,
 		10001,
 		10002,

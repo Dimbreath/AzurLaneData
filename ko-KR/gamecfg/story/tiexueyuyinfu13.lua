@@ -14,12 +14,6 @@ return {
 			bgm = "bsm-3",
 			nameColor = "#ffde38",
 			seDelay = 1.3,
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
 			flashN = {
 				color = {
 					1,
@@ -68,18 +62,11 @@ return {
 		},
 		{
 			expression = 4,
+			nameColor = "#ffde38",
 			side = 1,
 			dir = 1,
 			actor = 405010,
-			nameColor = "#ffde38",
 			say = "아직이야!",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,12 +83,6 @@ return {
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
 			seDelay = 1.3,
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
 			flashN = {
 				color = {
 					1,
@@ -149,19 +130,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
-			side = 1,
-			dir = 1,
 			actor = 405010,
+			side = 1,
+			expression = 4,
+			dir = 1,
 			nameColor = "#ffde38",
 			say = "전함의 포격전에서!",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,12 +151,6 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			seDelay = 1.3,
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
 			flashN = {
 				color = {
 					1,
@@ -230,19 +198,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
-			side = 1,
-			dir = 1,
 			actor = 405010,
+			side = 1,
+			expression = 4,
+			dir = 1,
 			nameColor = "#ffde38",
 			say = "가라앉는 건…!",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,12 +219,6 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			seDelay = 1.3,
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
 			flashN = {
 				color = {
 					1,
@@ -311,19 +266,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
-			side = 1,
-			dir = 1,
 			actor = 405010,
+			side = 1,
+			expression = 4,
+			dir = 1,
 			nameColor = "#ffde38",
 			say = "메탈 블러드 전함으로서 바라던 바야!",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,12 +287,6 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			seDelay = 1.3,
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
 			flashN = {
 				color = {
 					1,
@@ -392,19 +334,12 @@ return {
 			}
 		},
 		{
-			expression = 2,
-			side = 1,
-			dir = 1,
 			actor = 405010,
+			side = 1,
+			expression = 2,
+			dir = 1,
 			nameColor = "#ffde38",
 			say = "큭…! 도라 포탑이!?",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

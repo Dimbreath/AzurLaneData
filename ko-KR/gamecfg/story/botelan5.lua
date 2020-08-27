@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印地的笑容！\n\n<size=45>五 命运的出击</size>",
+					"为了印第的笑容！\n\n<size=45>五 命运的出击</size>",
 					1
 				}
 			}
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样不就不能让大家知道印地有多好了嘛！",
+			say = "这样不就不能让大家知道印第有多好了嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "真是的，指挥官！不是拜托你让她们和印地组队吗！",
+			say = "真是的，指挥官！不是拜托你让她们和印第组队吗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "作为补偿，回去以后【一起被印地酱治愈的时间】要增加一倍才行哦！",
+			say = "作为补偿，回去以后【一起被印第酱治愈的时间】要增加一倍才行哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

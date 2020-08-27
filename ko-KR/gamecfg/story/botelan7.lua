@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印地的笑容！\n\n<size=45>七 向往的幸福</size>",
+					"为了印第的笑容！\n\n<size=45>七 向往的幸福</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "舰队，顺利返航~哈呜~~~印地我回来啦！！",
+			say = "舰队，顺利返航~哈呜~~~印第我回来啦！！",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			say = "毕竟啊~本来今天应该由印地大显身手~",
+			say = "毕竟啊~本来今天应该由印第大显身手~",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后借此机会让印地和大家变成好朋友才对的嘛！",
+			say = "然后借此机会让印第和大家变成好朋友才对的嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像这样，看到姐姐和大家其乐融融的样子的样子，嗯，就是最让人高兴的事情了。",
+			say = "像这样，看到姐姐和大家其乐融融的样子，嗯，就是最让人高兴的事情了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "印地……",
+			say = "印第……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，谢谢你！让我能看到印地那样幸福的笑容！！",
+			say = "指挥官，谢谢你！让我能看到印第那样幸福的笑容！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "好！就特别授予你“印地粉丝俱乐部会员1号”的称号吧！",
+			say = "好！就特别授予你“印第粉丝俱乐部会员1号”的称号吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，不行不行，难得印地那么高兴……",
+			say = "啊，不行不行，难得印第那么高兴……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！指挥官，无论是印地，还是我的事情都好好考虑到了吧？",
+			say = "嗯！指挥官，无论是印第，还是我的事情都好好考虑到了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "我现在明白了，为了让印地露出幸福的笑容，我也得过得开心快乐才行…！",
+			say = "我现在明白了，为了让印第露出幸福的笑容，我也得过得开心快乐才行…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

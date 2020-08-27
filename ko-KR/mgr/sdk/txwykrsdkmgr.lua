@@ -69,6 +69,9 @@ function PayFailed(slot0, slot1)
 end
 
 return {
+	CheckPretest = function ()
+		return NetConst.GATEWAY_HOST == "bl-kr-test.xdg.com" and NetConst.GATEWAY_PORT == 30001 or Application.isEditor
+	end,
 	GoSDkLoginScene = function ()
 		uv0:GoLoginScene()
 	end,

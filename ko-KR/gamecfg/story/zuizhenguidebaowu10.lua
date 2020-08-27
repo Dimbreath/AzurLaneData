@@ -242,7 +242,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(이렇게 바다에 떨어뜨리고, 상대방이 주울 때 도망가자. 완벽해.)）",
+			say = "(이렇게 바다에 떨어뜨리고, 상대방이 주울 때 도망가자. 완벽해.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

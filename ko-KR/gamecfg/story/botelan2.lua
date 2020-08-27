@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印地的笑容！\n\n<size=45>二 坚不可摧！逼迫改推！</size>",
+					"为了印第的笑容！\n\n<size=45>二 坚不可摧！逼迫改推！</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "印地强化周终于开始了——",
+			say = "印第强化周终于开始了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "「让同样妹控的她改推印地！」",
+			say = "「让同样妹控的她改推印第！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？因为印地更可爱呀！",
+			say = "欸？因为印第更可爱呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，不过被压倒一头，眼睛泛泪的印地……",
+			say = "啊，不过被压倒一头，眼睛泛泪的印第……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“泪眼婆娑的印地”…是不是其实更加可爱！是吧是吧？",
+			say = "“泪眼婆娑的印第”…是不是其实更加可爱！是吧是吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呣呣，确实…要是有人敢欺负印地的话——",
+			say = "呣呣，确实…要是有人敢欺负印第的话——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

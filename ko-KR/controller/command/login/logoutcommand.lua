@@ -49,8 +49,12 @@ function slot0.execute(slot0, slot1)
 	pg.GuideMgr.GetInstance():endGuider()
 	PoolMgr.GetInstance():DestroyAllPrefab()
 
-	if getProxy(UserProxy) and slot6:getRawData() then
-		slot7:clear()
+	if getProxy(UserProxy) then
+		if slot6:getRawData() then
+			slot7:clear()
+		end
+
+		slot6:SetLoginedFlag(false)
 	end
 
 	slot0:sendNotification(GAME.LOAD_SCENE, {

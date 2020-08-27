@@ -15,7 +15,7 @@ end
 function slot0.Exit(slot0, slot1)
 	slot1:sendNotification(GAME.ACTIVITY_OPERATION, {
 		cmd = 1,
-		activity_id = ActivityConst.SUB_RED_POCKET,
+		activity_id = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUBMARINE_RUN) and slot2.id,
 		statistics = slot0.statistics,
 		arg1 = slot0.statistics._battleScore,
 		arg2 = slot0.statistics.subRunResult.score

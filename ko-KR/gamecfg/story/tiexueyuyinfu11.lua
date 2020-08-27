@@ -215,12 +215,6 @@ return {
 		{
 			seDelay = 1.3,
 			soundeffect = "event:/battle/boom2",
-			effects = {
-				{
-					active = true,
-					name = "paoji_bisimai"
-				}
-			},
 			flashN = {
 				color = {
 					1,
@@ -261,18 +255,11 @@ return {
 		},
 		{
 			expression = 1,
+			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			nameColor = "#a9f548",
 			say = "지근탄인가!? 흥, 초탄인데도 제법이군…!",
-			effects = {
-				{
-					name = "paoji_bisimai",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,18 +287,11 @@ return {
 		},
 		{
 			expression = 3,
+			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			nameColor = "#a9f548",
 			say = "전 함대, 포격 준비! 로열 네이비의 영광을 위해, 쏴라!",
-			effects = {
-				{
-					name = "paoji_qiaozhiwushi",
-					active = false,
-					destory = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,12 +304,6 @@ return {
 		{
 			seDelay = 1.3,
 			soundeffect = "event:/battle/boom2",
-			effects = {
-				{
-					active = true,
-					name = "paoji_qiaozhiwushi"
-				}
-			},
 			flashN = {
 				color = {
 					1,

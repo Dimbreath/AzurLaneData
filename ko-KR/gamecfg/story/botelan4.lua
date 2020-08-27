@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印地的笑容！\n\n<size=45>四 尴尬的关系</size>",
+					"为了印第的笑容！\n\n<size=45>四 尴尬的关系</size>",
 					1
 				}
 			}
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太奇怪了，指挥官。印地的粉丝一点都没变多……",
+			say = "太奇怪了，指挥官。印第的粉丝一点都没变多……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "那边的小伙伴！来成为印地的粉丝吧！",
+			say = "那边的小伙伴！来成为印第的粉丝吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			actor = 308030,
 			nameColor = "#a9f548",
-			say = "哇，吓我一跳！？印地…？是啥？！",
+			say = "哇，吓我一跳！？印第…？是啥？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个……之前在训练中……我让印地被判定击沉了……",
+			say = "那个……之前在训练中……我让印第被判定击沉了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			actor = 103060,
 			nameColor = "#a9f548",
-			say = "什么！在训练里把印地击沉了？！",
+			say = "什么！在训练里把印第击沉了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来是想夸她赢过印地好厉害的……难道吓到她了？",
+			say = "本来是想夸她赢过印第好厉害的……难道吓到她了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这下麻烦了…如果存在隔阂的话，就没法宣传印地酱多可爱了呢…",
+			say = "这下麻烦了…如果存在隔阂的话，就没法宣传印第酱多可爱了呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…既然如此，就让印地和大家多多相处，让大家多了解她好了！",
+			say = "唔…既然如此，就让印第和大家多多相处，让大家多了解她好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要大家能认识到些许印地的可爱之处，之后的宣传就好办了！",
+			say = "只要大家能认识到些许印第的可爱之处，之后的宣传就好办了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请在下次出击的时候，把之前遇到的人和印地放在同一个舰队！",
+			say = "请在下次出击的时候，把之前遇到的人和印第放在同一个舰队！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "不过，比起印地，现在反而波特兰被敬而远之才是问题吧…",
+			say = "不过，比起印第，现在反而波特兰被敬而远之才是问题吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

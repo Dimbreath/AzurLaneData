@@ -159,28 +159,18 @@ function slot0.remove(slot0)
 end
 
 function slot0.GetAllSkins(slot0)
-	slot1 = {}
-
-	function slot2(slot0)
-		slot0:updateBuyCount(getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot2:isExpireType() and 1 or 0)
-	end
-
 	for slot6, slot7 in ipairs(pg.shop_template.all) do
-		slot8 = true
-
-		if HXSet.isHx() then
-			slot8 = pg.shop_template[slot7].isHX ~= 1
-		end
-
-		if slot8 and (pg.shop_template[slot7].genre == ShopArgs.SkinShop or slot9 == ShopArgs.SkinShopTimeLimit) then
-			slot2(Goods.New({
+		if pg.shop_template[slot7].genre == ShopArgs.SkinShop or slot8 == ShopArgs.SkinShopTimeLimit then
+			function (slot0)
+				slot0:updateBuyCount(getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot2:isExpireType() and 1 or 0)
+			end(Goods.Create({
 				shop_id = slot7
 			}, Goods.TYPE_SKIN))
 
-			slot11, slot12 = pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot7].time)
+			slot10, slot11 = pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot7].time)
 
-			if slot11 then
-				table.insert(slot1, slot10)
+			if slot10 then
+				table.insert({}, slot9)
 			end
 		end
 	end
@@ -190,7 +180,7 @@ function slot0.GetAllSkins(slot0)
 			slot10 = getProxy(ActivityProxy):getActivityById(slot9.activity)
 
 			if slot9.activity == 0 and pg.TimeMgr.GetInstance():inTime(slot9.time) or slot10 and not slot10:isEnd() then
-				slot11 = Goods.New({
+				slot11 = Goods.Create({
 					shop_id = slot8
 				}, Goods.TYPE_ACTIVITY_EXTRA)
 
@@ -202,7 +192,7 @@ function slot0.GetAllSkins(slot0)
 
 	for slot7, slot8 in ipairs(pg.activity_shop_template.all) do
 		if pg.activity_shop_template[slot8].commodity_type == DROP_TYPE_SKIN and slot3:getActivityById(slot9.activity) and not slot10:isEnd() then
-			slot2(Goods.New({
+			slot2(Goods.Create({
 				shop_id = slot8
 			}, Goods.TYPE_ACTIVITY))
 

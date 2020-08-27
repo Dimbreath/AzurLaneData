@@ -18872,6 +18872,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5521] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5380,
+		type = 5,
+		name = "特别的场所",
+		count_inherit = 0,
+		desc = "提交3个《鱼雷天妇罗》",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "guanghui",
+		award_choice = "",
+		level = 1,
+		next_task = "5522",
+		visibility = 1,
+		story_id = "GUANGHUI1",
+		target_id_for_client = 50003,
+		id = 5521,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5522] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5381,
+		type = 5,
+		name = "烦恼的谈心",
+		count_inherit = 0,
+		desc = "强化任意角色10次",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "guanghui",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5523",
+		visibility = 1,
+		story_id = "GUANGHUI2",
+		target_id_for_client = 0,
+		id = 5522,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5523] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5382,
+		type = 5,
+		name = "意外事件",
+		count_inherit = 0,
+		desc = "光辉上阵出击(关卡)胜利20次",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "guanghui",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5524",
+		visibility = 1,
+		story_id = "GUANGHUI3",
+		target_id_for_client = 20703,
+		id = 5523,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "20703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5524] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5383,
+		type = 5,
+		name = "心跳的亲密接触",
+		count_inherit = 0,
+		desc = "光辉上阵完成3次每日挑战",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "guanghui",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5525",
+		visibility = 1,
+		story_id = "GUANGHUI4",
+		target_id_for_client = 20703,
+		id = 5524,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "20703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5525] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5384,
+		type = 5,
+		name = "妹妹的一言",
+		count_inherit = 0,
+		desc = "光辉好感度达到100",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "guanghui",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5526",
+		visibility = 1,
+		story_id = "GUANGHUI5",
+		target_id_for_client = 20703,
+		id = 5525,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "20703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		}
+	},
+	[5526] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5385,
+		type = 5,
+		name = "再次的牵手",
+		count_inherit = 0,
+		desc = "光辉突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "guanghui",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5527",
+		visibility = 1,
+		story_id = "GUANGHUI6",
+		target_id_for_client = 207034,
+		id = 5526,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "207034",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		}
+	},
+	[5527] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5386,
+		type = 5,
+		name = "两人的特别场所",
+		count_inherit = 0,
+		desc = "光辉等级达到100",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "guanghui",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "GUANGHUI7",
+		target_id_for_client = 20703,
+		id = 5527,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "20703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18033,
+				1
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -26230,6 +26486,7 @@ pg.task_data_template = {
 		sub_type = 1020,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 10,
 		next_task = "10402",
@@ -26255,9 +26512,6 @@ pg.task_data_template = {
 				1,
 				600
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10402] = {
@@ -26272,6 +26526,7 @@ pg.task_data_template = {
 		sub_type = 1020,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 10,
 		next_task = "10403",
@@ -26297,9 +26552,6 @@ pg.task_data_template = {
 				1,
 				600
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10403] = {
@@ -26314,6 +26566,7 @@ pg.task_data_template = {
 		sub_type = 1020,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 10,
 		next_task = "10404",
@@ -26339,9 +26592,6 @@ pg.task_data_template = {
 				1,
 				1500
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10404] = {
@@ -26356,6 +26606,7 @@ pg.task_data_template = {
 		sub_type = 1020,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 10,
 		next_task = "10405",
@@ -26381,9 +26632,6 @@ pg.task_data_template = {
 				1,
 				600
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10405] = {
@@ -26398,6 +26646,7 @@ pg.task_data_template = {
 		sub_type = 1020,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 10,
 		next_task = "[10406,10407]",
@@ -26423,9 +26672,6 @@ pg.task_data_template = {
 				1,
 				600
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10406] = {
@@ -26440,6 +26686,7 @@ pg.task_data_template = {
 		sub_type = 1020,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 10,
 		next_task = "0",
@@ -26465,9 +26712,6 @@ pg.task_data_template = {
 				1,
 				1500
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10407] = {
@@ -26482,6 +26726,7 @@ pg.task_data_template = {
 		sub_type = 1020,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 10,
 		next_task = "0",
@@ -26499,9 +26744,6 @@ pg.task_data_template = {
 				112,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10408] = {
@@ -26516,6 +26758,7 @@ pg.task_data_template = {
 		sub_type = 1021,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 10,
 		next_task = "10409",
@@ -26536,9 +26779,6 @@ pg.task_data_template = {
 				2,
 				500
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10409] = {
@@ -26553,6 +26793,7 @@ pg.task_data_template = {
 		sub_type = 1021,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 10,
 		next_task = "10410",
@@ -26573,9 +26814,6 @@ pg.task_data_template = {
 				100001,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10410] = {
@@ -26590,6 +26828,7 @@ pg.task_data_template = {
 		sub_type = 1021,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 10,
 		next_task = "10411",
@@ -26610,9 +26849,6 @@ pg.task_data_template = {
 				39240,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10411] = {
@@ -26627,6 +26863,7 @@ pg.task_data_template = {
 		sub_type = 1021,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 10,
 		next_task = "10412",
@@ -26647,9 +26884,6 @@ pg.task_data_template = {
 				2,
 				500
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10412] = {
@@ -26664,6 +26898,7 @@ pg.task_data_template = {
 		sub_type = 1021,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 10,
 		next_task = "10413",
@@ -26684,9 +26919,6 @@ pg.task_data_template = {
 				100011,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10413] = {
@@ -26701,6 +26933,7 @@ pg.task_data_template = {
 		sub_type = 1021,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 10,
 		next_task = "0",
@@ -26721,9 +26954,6 @@ pg.task_data_template = {
 				38240,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10414] = {
@@ -26770,6 +27000,7 @@ pg.task_data_template = {
 		sub_type = 20,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 10,
 		next_task = "0",
@@ -26787,9 +27018,6 @@ pg.task_data_template = {
 				59107,
 				200
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10471] = {
@@ -31147,6 +31375,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13513",
@@ -31164,9 +31393,6 @@ pg.task_data_template = {
 				54005,
 				5
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13513] = {
@@ -31181,6 +31407,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13514",
@@ -31198,9 +31425,6 @@ pg.task_data_template = {
 				18012,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13514] = {
@@ -31215,6 +31439,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13515",
@@ -31232,9 +31457,6 @@ pg.task_data_template = {
 				18022,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13515] = {
@@ -31249,6 +31471,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13516",
@@ -31266,9 +31489,6 @@ pg.task_data_template = {
 				1,
 				3000
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13516] = {
@@ -31283,6 +31503,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13517",
@@ -31300,9 +31521,6 @@ pg.task_data_template = {
 				15008,
 				200
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13517] = {
@@ -31317,6 +31535,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13518",
@@ -31334,9 +31553,6 @@ pg.task_data_template = {
 				1,
 				3000
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13518] = {
@@ -31351,6 +31567,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13519",
@@ -31368,9 +31585,6 @@ pg.task_data_template = {
 				18012,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13519] = {
@@ -31385,6 +31599,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13520",
@@ -31402,9 +31617,6 @@ pg.task_data_template = {
 				18022,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13520] = {
@@ -31419,6 +31631,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13521",
@@ -31436,9 +31649,6 @@ pg.task_data_template = {
 				1,
 				4000
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13521] = {
@@ -31453,6 +31663,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13522",
@@ -31470,9 +31681,6 @@ pg.task_data_template = {
 				15008,
 				300
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13522] = {
@@ -31487,6 +31695,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13523",
@@ -31504,9 +31713,6 @@ pg.task_data_template = {
 				18012,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13523] = {
@@ -31521,6 +31727,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13524",
@@ -31538,9 +31745,6 @@ pg.task_data_template = {
 				18022,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13524] = {
@@ -31555,6 +31759,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13525",
@@ -31572,9 +31777,6 @@ pg.task_data_template = {
 				16003,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13525] = {
@@ -31589,6 +31791,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13526",
@@ -31606,9 +31809,6 @@ pg.task_data_template = {
 				15008,
 				300
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13526] = {
@@ -31623,6 +31823,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13527",
@@ -31640,9 +31841,6 @@ pg.task_data_template = {
 				18013,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13527] = {
@@ -31657,6 +31855,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13528",
@@ -31674,9 +31873,6 @@ pg.task_data_template = {
 				18023,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13528] = {
@@ -31691,6 +31887,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13529",
@@ -31708,9 +31905,6 @@ pg.task_data_template = {
 				16023,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13529] = {
@@ -31725,6 +31919,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13530",
@@ -31742,9 +31937,6 @@ pg.task_data_template = {
 				15008,
 				300
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13530] = {
@@ -31759,6 +31951,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13531",
@@ -31776,9 +31969,6 @@ pg.task_data_template = {
 				18013,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13531] = {
@@ -31793,6 +31983,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13532",
@@ -31810,9 +32001,6 @@ pg.task_data_template = {
 				18023,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13532] = {
@@ -31827,6 +32015,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13533",
@@ -31844,9 +32033,6 @@ pg.task_data_template = {
 				16013,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13533] = {
@@ -31861,6 +32047,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13534",
@@ -31878,9 +32065,6 @@ pg.task_data_template = {
 				15008,
 				300
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13534] = {
@@ -31895,6 +32079,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13535",
@@ -31912,9 +32097,6 @@ pg.task_data_template = {
 				305061,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13535] = {
@@ -31929,6 +32111,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13536",
@@ -31946,9 +32129,6 @@ pg.task_data_template = {
 				54006,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13536] = {
@@ -31963,6 +32143,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13537",
@@ -31980,9 +32161,6 @@ pg.task_data_template = {
 				15008,
 				500
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13537] = {
@@ -31997,6 +32175,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13538",
@@ -32014,9 +32193,6 @@ pg.task_data_template = {
 				18013,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13538] = {
@@ -32031,6 +32207,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13539",
@@ -32048,9 +32225,6 @@ pg.task_data_template = {
 				18023,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13539] = {
@@ -32065,6 +32239,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13540",
@@ -32082,9 +32257,6 @@ pg.task_data_template = {
 				305061,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13540] = {
@@ -32099,6 +32271,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13541",
@@ -32116,9 +32289,6 @@ pg.task_data_template = {
 				30035,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13541] = {
@@ -32133,6 +32303,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13542",
@@ -32150,9 +32321,6 @@ pg.task_data_template = {
 				54050,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13542] = {
@@ -32167,6 +32335,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13543",
@@ -32184,9 +32353,6 @@ pg.task_data_template = {
 				15008,
 				500
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13543] = {
@@ -32201,6 +32367,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13544",
@@ -32218,9 +32385,6 @@ pg.task_data_template = {
 				54005,
 				5
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13544] = {
@@ -32235,6 +32399,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13545",
@@ -32252,9 +32417,6 @@ pg.task_data_template = {
 				305061,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13545] = {
@@ -32269,6 +32431,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13546",
@@ -32286,9 +32449,6 @@ pg.task_data_template = {
 				54050,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13546] = {
@@ -32303,6 +32463,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13547",
@@ -32320,9 +32481,6 @@ pg.task_data_template = {
 				54005,
 				5
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13547] = {
@@ -32337,6 +32495,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13548",
@@ -32354,9 +32513,6 @@ pg.task_data_template = {
 				54050,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13548] = {
@@ -32371,6 +32527,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13549",
@@ -32388,9 +32545,6 @@ pg.task_data_template = {
 				305061,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13549] = {
@@ -32405,6 +32559,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13550",
@@ -32422,9 +32577,6 @@ pg.task_data_template = {
 				30035,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13550] = {
@@ -32439,6 +32591,7 @@ pg.task_data_template = {
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -32456,9 +32609,6 @@ pg.task_data_template = {
 				30035,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13596] = {
@@ -73512,7 +73662,7 @@ pg.task_data_template = {
 		scene = {
 			"ACTIVITY",
 			{
-				id = 20336
+				id = 437
 			}
 		}
 	},
@@ -73583,7 +73733,7 @@ pg.task_data_template = {
 		scene = {
 			"ACTIVITY",
 			{
-				id = 20329
+				id = 430
 			}
 		}
 	},
@@ -73620,7 +73770,7 @@ pg.task_data_template = {
 		scene = {
 			"ACTIVITY",
 			{
-				id = 20328
+				id = 429
 			}
 		}
 	},
@@ -73800,7 +73950,7 @@ pg.task_data_template = {
 		scene = {
 			"ACTIVITY",
 			{
-				id = 20324
+				id = 425
 			}
 		}
 	},
@@ -80082,6 +80232,7 @@ pg.task_data_template = {
 		sub_type = 16,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -80105,9 +80256,6 @@ pg.task_data_template = {
 				59148,
 				100
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[15376] = {
@@ -80121,6 +80269,7 @@ pg.task_data_template = {
 		sub_type = 16,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -80144,9 +80293,6 @@ pg.task_data_template = {
 				59148,
 				100
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[15377] = {
@@ -80160,6 +80306,7 @@ pg.task_data_template = {
 		sub_type = 16,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -80183,9 +80330,6 @@ pg.task_data_template = {
 				59148,
 				300
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[15378] = {
@@ -80199,6 +80343,7 @@ pg.task_data_template = {
 		sub_type = 16,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -80222,9 +80367,6 @@ pg.task_data_template = {
 				59148,
 				300
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[15379] = {
@@ -89953,6 +90095,2801 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15851] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93601,
+		type = 36,
+		name = "『俾斯麦复刻』-日常建造",
+		count_inherit = 0,
+		desc = "건조를 3회 진행한다.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15851,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59174,
+				300
+			}
+		}
+	},
+	[15852] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93602,
+		type = 36,
+		name = "『俾斯麦复刻』-日常出击",
+		count_inherit = 0,
+		desc = "전투에서 15번 승리하라!",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15852,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59174,
+				300
+			}
+		}
+	},
+	[15853] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93603,
+		type = 36,
+		name = "『俾斯麦复刻』-日常困难本",
+		count_inherit = 0,
+		desc = "임의의 메인 스테이지 어려움 모드를 1회 클리어",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15853,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59174,
+				100
+			}
+		}
+	},
+	[15854] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93604,
+		type = 6,
+		name = "『俾斯麦复刻』通关A1/C1",
+		count_inherit = 0,
+		desc = "이벤트 해역 A1 혹은 C1을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15855",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15854,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1400001,
+			1400011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59174,
+				200
+			}
+		}
+	},
+	[15855] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93605,
+		type = 6,
+		name = "『俾斯麦复刻』通关A2/C2",
+		count_inherit = 0,
+		desc = "이벤트 해역 A2 혹은 C2를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15856",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15855,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1400002,
+			1400012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59174,
+				400
+			}
+		}
+	},
+	[15856] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93606,
+		type = 6,
+		name = "『俾斯麦复刻』通关A3/C3",
+		count_inherit = 0,
+		desc = "이벤트 해역 A3 혹은 C3를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15857",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15856,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1400003,
+			1400013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59174,
+				600
+			}
+		}
+	},
+	[15857] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93607,
+		type = 6,
+		name = "『俾斯麦复刻』通关B1/D1",
+		count_inherit = 0,
+		desc = "이벤트 해역 B1 혹은 D1을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15858",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15857,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1400004,
+			1400014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59174,
+				400
+			}
+		}
+	},
+	[15858] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93608,
+		type = 6,
+		name = "『俾斯麦复刻』通关B2/D2",
+		count_inherit = 0,
+		desc = "이벤트 해역 B2 혹은 D2를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15859",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15858,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1400005,
+			1400015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59174,
+				600
+			}
+		}
+	},
+	[15859] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93609,
+		type = 6,
+		name = "『俾斯麦复刻』通关B3/D3",
+		count_inherit = 0,
+		desc = "이벤트 해역 B3 혹은 D3를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15860",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15859,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1400006,
+			1400016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59174,
+				800
+			}
+		}
+	},
+	[15860] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93610,
+		type = 6,
+		name = "『俾斯麦复刻』通关SP",
+		count_inherit = 0,
+		desc = "이벤트 해역 SP를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1400017,
+		id = 15860,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1400017",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[15861] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93611,
+		type = 6,
+		name = "『俾斯麦复刻』通关D3",
+		count_inherit = 0,
+		desc = "D3 클리어 <color=#92fc63>(훈장은 중복 획득할 수 없습니다)</color>",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1400016,
+		id = 15861,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1400016",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				145,
+				1
+			}
+		}
+	},
+	[15862] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93612,
+		type = 6,
+		name = "『俾斯麦复刻』A1/C1的3星",
+		count_inherit = 0,
+		desc = "A1 혹은 C1의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15863",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15862,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1400001,
+			1400011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[15863] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93613,
+		type = 6,
+		name = "『俾斯麦复刻』A2/C2的3星",
+		count_inherit = 0,
+		desc = "A2 혹은 C2의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15864",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15863,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1400002,
+			1400012
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[15864] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93614,
+		type = 6,
+		name = "『俾斯麦复刻』A3/C3的3星",
+		count_inherit = 0,
+		desc = "A3 혹은 C3의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15865",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15864,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1400003,
+			1400013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		}
+	},
+	[15865] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93615,
+		type = 6,
+		name = "『俾斯麦复刻』B1/D1的3星",
+		count_inherit = 0,
+		desc = "B1 혹은 D1의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15866",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15865,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1400004,
+			1400014
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[15866] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93616,
+		type = 6,
+		name = "『俾斯麦复刻』B2/D2的3星",
+		count_inherit = 0,
+		desc = "B2 혹은 D2의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15867",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15866,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1400005,
+			1400015
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		}
+	},
+	[15867] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93617,
+		type = 6,
+		name = "『俾斯麦复刻』B3/D3的3星",
+		count_inherit = 0,
+		desc = "B3 혹은 D3의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15867,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1400006,
+			1400016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		}
+	},
+	[15868] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93665,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务1",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, S랭크로 10회 승리하라!",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15868,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15869] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93666,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务2",
+		count_inherit = 0,
+		desc = "게임 로그인하기",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15869,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42017,
+				1
+			}
+		}
+	},
+	[15870] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93667,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务3",
+		count_inherit = 0,
+		desc = "군사 연습 2회 진행",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15870,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	},
+	[15871] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93668,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务4",
+		count_inherit = 0,
+		desc = "군사 의뢰를 2회 완수한다.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15871,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15872] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93669,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务5",
+		count_inherit = 0,
+		desc = "함선을 2척 「퇴역」시켜서 함대를 재정비하라!",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15872,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42017,
+				1
+			}
+		}
+	},
+	[15873] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93670,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务6",
+		count_inherit = 0,
+		desc = "데일리 챌린지를 3회 클리어하라!",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15873,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15874] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93671,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务7",
+		count_inherit = 0,
+		desc = "함선을 5번 「강화」하라!",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15874,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				2
+			}
+		}
+	},
+	[15875] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93672,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务8",
+		count_inherit = 0,
+		desc = "전술학원에서 전술훈련을 2번 수행한다",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15875,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15876] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93673,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务9",
+		count_inherit = 0,
+		desc = "임의의 함선을 20기 격파한다",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15876,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42017,
+				1
+			}
+		}
+	},
+	[15877] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93674,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务10",
+		count_inherit = 0,
+		desc = "숙소에서 식량을 5회 보충한다.",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15877,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15878] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93675,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务11",
+		count_inherit = 0,
+		desc = "건조를 2회 진행한다.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15878,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	},
+	[15879] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93676,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务12",
+		count_inherit = 0,
+		desc = "장비 상자를 1개 오픈한다",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15879,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15880] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93677,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务13",
+		count_inherit = 0,
+		desc = "전술학원에서 전술훈련을 2번 수행한다",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15880,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15881] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93678,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务14",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 전투에서 3번 승리하라!",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15881,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				408051,
+				1
+			}
+		}
+	},
+	[15882] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93679,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务15",
+		count_inherit = 0,
+		desc = "군사 연습 2회 진행",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15882,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	},
+	[15883] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93680,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务16",
+		count_inherit = 0,
+		desc = "군사 의뢰를 2회 완수한다.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15883,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15884] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93681,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务17",
+		count_inherit = 0,
+		desc = "함선을 2척 「퇴역」시켜서 함대를 재정비하라!",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15884,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				2
+			}
+		}
+	},
+	[15885] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93682,
+		type = 26,
+		name = "『u73皮肤』复刻-九日任务18",
+		count_inherit = 0,
+		desc = "데일리 챌린지를 3회 클리어하라!",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15885,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15886] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93683,
+		type = 6,
+		name = "『俾斯麦复刻』登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "게임 로그인하기",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15886,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				167,
+				2
+			}
+		}
+	},
+	[15887] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93684,
+		type = 6,
+		name = "비스마르크 함선 수집 임무",
+		count_inherit = 0,
+		desc = "모든 임무를 완료하여 보상 수령하기",
+		target_id_2 = "",
+		sub_type = 90,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15887,
+		target_num = 6,
+		fix_task = 0,
+		target_id = {
+			15889,
+			15890,
+			15891,
+			15892,
+			15893,
+			15894
+		},
+		open_need = {},
+		award_display = {
+			{
+				14,
+				302,
+				1
+			}
+		}
+	},
+	[15888] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93685,
+		type = 6,
+		name = "비스마르크 가구 수집 임무",
+		count_inherit = 0,
+		desc = "모든 임무를 완료하여 보상 수령하기",
+		target_id_2 = "",
+		sub_type = 90,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15888,
+		target_num = 47,
+		fix_task = 0,
+		target_id = {
+			15895,
+			15896,
+			15897,
+			15898,
+			15899,
+			15900,
+			15901,
+			15902,
+			15903,
+			15904,
+			15905,
+			15906,
+			15907,
+			15908,
+			15909,
+			15910,
+			15911,
+			15912,
+			15913,
+			15914,
+			15915,
+			15916,
+			15917,
+			15918,
+			15919,
+			15920,
+			15921,
+			15922,
+			15923,
+			15924,
+			15925,
+			15926,
+			15927,
+			15928,
+			15929,
+			15930,
+			15931,
+			15932,
+			15933,
+			15934,
+			15935,
+			15936,
+			15937,
+			15938,
+			15939,
+			15940,
+			15941
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				45133,
+				1
+			}
+		}
+	},
+	[15889] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "함선소녀 수집: 비스마르크",
+		count_inherit = 0,
+		desc = "[비스마르크] 돌파MAX 달성하기",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 405014,
+		id = 15889,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "405014",
+		open_need = {},
+		award_display = {}
+	},
+	[15890] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "함선소녀 수집: 킹 조지 5세",
+		count_inherit = 0,
+		desc = "[킹 조지 5세] 돌파MAX 달성하기",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 205054,
+		id = 15890,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "205054",
+		open_need = {},
+		award_display = {}
+	},
+	[15891] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "함선소녀 수집: U-556",
+		count_inherit = 0,
+		desc = "[U-556] 돌파MAX 달성하기",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 408044,
+		id = 15891,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "408044",
+		open_need = {},
+		award_display = {}
+	},
+	[15892] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "함선소녀 수집: Z36",
+		count_inherit = 0,
+		desc = "[Z36] 돌파MAX 달성하기",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 401364,
+		id = 15892,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "401364",
+		open_need = {},
+		award_display = {}
+	},
+	[15893] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "함선소녀 수집: U-73",
+		count_inherit = 0,
+		desc = "[U-73] 돌파MAX 달성하기",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 408054,
+		id = 15893,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "408054",
+		open_need = {},
+		award_display = {}
+	},
+	[15894] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "함선소녀 수집: 에코",
+		count_inherit = 0,
+		desc = "[에코] 돌파MAX 달성하기",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 201294,
+		id = 15894,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "201294",
+		open_need = {},
+		award_display = {}
+	},
+	[15895] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집1",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 메탈 블러드 악장·바닥",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45001,
+		id = 15895,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45001",
+		open_need = {},
+		award_display = {}
+	},
+	[15896] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집2",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 메탈 블러드 악장·벽지",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45002,
+		id = 15896,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45002",
+		open_need = {},
+		award_display = {}
+	},
+	[15897] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집3",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 플레이어",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45101,
+		id = 15897,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45101",
+		open_need = {},
+		award_display = {}
+	},
+	[15898] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집4",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 플로어 스탠드",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45102,
+		id = 15898,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45102",
+		open_need = {},
+		award_display = {}
+	},
+	[15899] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집5",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 융모 카펫(소)",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45103,
+		id = 15899,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45103",
+		open_need = {},
+		award_display = {}
+	},
+	[15900] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집6",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 융모 카펫(대)",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45104,
+		id = 15900,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45104",
+		open_need = {},
+		award_display = {}
+	},
+	[15901] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집7",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 붉은 카펫",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45105,
+		id = 15901,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45105",
+		open_need = {},
+		award_display = {}
+	},
+	[15902] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집8",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 유리 캐비닛",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45106,
+		id = 15902,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45106",
+		open_need = {},
+		award_display = {}
+	},
+	[15903] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집9",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 진열장",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45107,
+		id = 15903,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45107",
+		open_need = {},
+		award_display = {}
+	},
+	[15904] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집10",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 캔들홀더",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45108,
+		id = 15904,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45108",
+		open_need = {},
+		award_display = {}
+	},
+	[15905] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집11",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 목제 신발장",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45109,
+		id = 15905,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45109",
+		open_need = {},
+		award_display = {}
+	},
+	[15906] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집12",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 음반 진열장",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45110,
+		id = 15906,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45110",
+		open_need = {},
+		award_display = {}
+	},
+	[15907] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집13",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 츄츄 밴드",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45111,
+		id = 15907,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45111",
+		open_need = {},
+		award_display = {}
+	},
+	[15908] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집14",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 츄츄 군악병",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45112,
+		id = 15908,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45112",
+		open_need = {},
+		award_display = {}
+	},
+	[15909] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집15",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 레코드 플레이어",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45113,
+		id = 15909,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45113",
+		open_need = {},
+		award_display = {}
+	},
+	[15910] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집16",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 갑옷",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45114,
+		id = 15910,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45114",
+		open_need = {},
+		award_display = {}
+	},
+	[15911] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집17",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 나선형 계단",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45115,
+		id = 15911,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45115",
+		open_need = {},
+		award_display = {}
+	},
+	[15912] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집18",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 메탈 블러드 피아노",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45116,
+		id = 15912,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45116",
+		open_need = {},
+		award_display = {}
+	},
+	[15913] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집19",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 호두까기 인형(검)",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45117,
+		id = 15913,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45117",
+		open_need = {},
+		award_display = {}
+	},
+	[15914] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집20",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 호두까기 인형(창)",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45118,
+		id = 15914,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45118",
+		open_need = {},
+		award_display = {}
+	},
+	[15915] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집21",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 복고풍 책장",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45119,
+		id = 15915,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45119",
+		open_need = {},
+		award_display = {}
+	},
+	[15916] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집22",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 무기 거치대",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45120,
+		id = 15916,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45120",
+		open_need = {},
+		award_display = {}
+	},
+	[15917] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집23",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 부드러운 앉은뱅이 의자",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45121,
+		id = 15917,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45121",
+		open_need = {},
+		award_display = {}
+	},
+	[15918] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집24",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 부드러운 등받이 의자",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45122,
+		id = 15918,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45122",
+		open_need = {},
+		award_display = {}
+	},
+	[15919] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집25",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 오피스 의자",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45123,
+		id = 15919,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45123",
+		open_need = {},
+		award_display = {}
+	},
+	[15920] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집26",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 피아노 의자",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45124,
+		id = 15920,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45124",
+		open_need = {},
+		award_display = {}
+	},
+	[15921] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집27",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 식물 화분",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45125,
+		id = 15921,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45125",
+		open_need = {},
+		award_display = {}
+	},
+	[15922] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집28",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 원형 테이블",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45126,
+		id = 15922,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45126",
+		open_need = {},
+		award_display = {}
+	},
+	[15923] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집29",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 목제 차탁자",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45127,
+		id = 15923,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45127",
+		open_need = {},
+		award_display = {}
+	},
+	[15924] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집30",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 검은색 술상",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45128,
+		id = 15924,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45128",
+		open_need = {},
+		award_display = {}
+	},
+	[15925] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집31",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 메탈 블러드 오피스 데스크",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45129,
+		id = 15925,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45129",
+		open_need = {},
+		award_display = {}
+	},
+	[15926] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집32",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 잡동사니 책상",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45130,
+		id = 15926,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45130",
+		open_need = {},
+		award_display = {}
+	},
+	[15927] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집33",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 메탈 블러드 촛대",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45131,
+		id = 15927,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45131",
+		open_need = {},
+		award_display = {}
+	},
+	[15928] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집34",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 메탈 블러드 왕좌",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45132,
+		id = 15928,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45132",
+		open_need = {},
+		award_display = {}
+	},
+	[15929] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집35",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 스탠드",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45201,
+		id = 15929,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45201",
+		open_need = {},
+		award_display = {}
+	},
+	[15930] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집36",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 아이스와인",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45202,
+		id = 15930,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45202",
+		open_need = {},
+		award_display = {}
+	},
+	[15931] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집37",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 메탈 블러드 석고상",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45203,
+		id = 15931,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45203",
+		open_need = {},
+		award_display = {}
+	},
+	[15932] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집38",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 창문",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45301,
+		id = 15932,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45301",
+		open_need = {},
+		award_display = {}
+	},
+	[15933] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집39",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 벽등",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45302,
+		id = 15933,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45302",
+		open_need = {},
+		award_display = {}
+	},
+	[15934] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집40",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 파티션 액자",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45303,
+		id = 15934,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45303",
+		open_need = {},
+		award_display = {}
+	},
+	[15935] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집41",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 십자 모형 벽장식",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45304,
+		id = 15935,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45304",
+		open_need = {},
+		award_display = {}
+	},
+	[15936] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집42",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 화려한 십자 모형 벽장식",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45305,
+		id = 15936,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45305",
+		open_need = {},
+		award_display = {}
+	},
+	[15937] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집43",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 그림 액자",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45306,
+		id = 15937,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45306",
+		open_need = {},
+		award_display = {}
+	},
+	[15938] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집44",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 화려한 문틀",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45307,
+		id = 15938,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45307",
+		open_need = {},
+		award_display = {}
+	},
+	[15939] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집45",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 깃발",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45308,
+		id = 15939,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45308",
+		open_need = {},
+		award_display = {}
+	},
+	[15940] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집46",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 흑백 파티션",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45309,
+		id = 15940,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45309",
+		open_need = {},
+		award_display = {}
+	},
+	[15941] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		name = "가구 수집47",
+		count_inherit = 0,
+		desc = "특정 가구 수집: 목제 옷장",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 45310,
+		id = 15941,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "45310",
+		open_need = {},
+		award_display = {}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -91624,7 +94561,7 @@ pg.task_data_template = {
 		level = 1,
 		next_task = "0",
 		visibility = 1,
-		story_id = "SANLI07",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 51012,
 		target_num = 10,
@@ -91656,7 +94593,7 @@ pg.task_data_template = {
 		level = 1,
 		next_task = "0",
 		visibility = 1,
-		story_id = "SANLI08",
+		story_id = "",
 		target_id_for_client = 0,
 		id = 51013,
 		target_num = 5,
@@ -91733,7 +94670,7 @@ pg.task_data_template = {
 		level = 1,
 		next_task = "0",
 		visibility = 1,
-		story_id = "SANLI09",
+		story_id = "",
 		target_id_for_client = 1009,
 		id = 51014,
 		target_num = 3,
@@ -103181,6 +106118,13 @@ pg.task_data_template = {
 		5505,
 		5506,
 		5507,
+		5521,
+		5522,
+		5523,
+		5524,
+		5525,
+		5526,
+		5527,
 		6001,
 		6002,
 		6003,
@@ -105114,6 +108058,97 @@ pg.task_data_template = {
 		15804,
 		15805,
 		15806,
+		15851,
+		15852,
+		15853,
+		15854,
+		15855,
+		15856,
+		15857,
+		15858,
+		15859,
+		15860,
+		15861,
+		15862,
+		15863,
+		15864,
+		15865,
+		15866,
+		15867,
+		15868,
+		15869,
+		15870,
+		15871,
+		15872,
+		15873,
+		15874,
+		15875,
+		15876,
+		15877,
+		15878,
+		15879,
+		15880,
+		15881,
+		15882,
+		15883,
+		15884,
+		15885,
+		15886,
+		15887,
+		15888,
+		15889,
+		15890,
+		15891,
+		15892,
+		15893,
+		15894,
+		15895,
+		15896,
+		15897,
+		15898,
+		15899,
+		15900,
+		15901,
+		15902,
+		15903,
+		15904,
+		15905,
+		15906,
+		15907,
+		15908,
+		15909,
+		15910,
+		15911,
+		15912,
+		15913,
+		15914,
+		15915,
+		15916,
+		15917,
+		15918,
+		15919,
+		15920,
+		15921,
+		15922,
+		15923,
+		15924,
+		15925,
+		15926,
+		15927,
+		15928,
+		15929,
+		15930,
+		15931,
+		15932,
+		15933,
+		15934,
+		15935,
+		15936,
+		15937,
+		15938,
+		15939,
+		15940,
+		15941,
 		30201,
 		30202,
 		30203,

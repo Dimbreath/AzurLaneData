@@ -121,12 +121,17 @@ function slot0.InitList(slot0)
 	slot0.display = _.map(slot0.messages, function (slot0)
 		return {
 			time = slot0:GetLasterUpdateTime(),
-			id = slot0.id
+			id = slot0.id,
+			order = slot0:GetSortIndex()
 		}
 	end)
 
 	table.sort(slot0.display, function (slot0, slot1)
-		return slot1.id < slot0.id
+		if slot0.order == slot1.order then
+			return slot1.id < slot0.id
+		else
+			return slot1.order < slot0.order
+		end
 	end)
 	slot0.list:SetTotalCount(#slot0.display)
 	setActive(slot0.noMsgTF, #slot0.display == 0)

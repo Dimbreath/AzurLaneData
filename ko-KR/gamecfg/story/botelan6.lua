@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"为了印地的笑容！\n\n<size=45>六 真正重要的事</size>",
+					"为了印第的笑容！\n\n<size=45>六 真正重要的事</size>",
 					1
 				}
 			}
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊~真是的，明明要是印地在的话，能发挥得更好的~",
+			say = "啊~真是的，明明要是印第在的话，能发挥得更好的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来就是嘛！要是和印地在一起的话，我能比现在更有干劲100倍！",
+			say = "本来就是嘛！要是和印第在一起的话，我能比现在更有干劲100倍！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…没有印地在，完全提不起劲嘛~",
+			say = "哈啊…没有印第在，完全提不起劲嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

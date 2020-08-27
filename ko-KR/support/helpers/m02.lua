@@ -2157,6 +2157,10 @@ function getSpecialItemPage(slot0)
 		{
 			mediator = AssignedShipMediator,
 			viewComponent = AssignedShipScene4
+		},
+		{
+			mediator = AssignedShipMediator,
+			viewComponent = AssignedShipScene5
 		}
 	})[slot0]
 end

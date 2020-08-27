@@ -14,7 +14,7 @@ function slot0.Ctor(slot0, slot1)
 
 	for slot7, slot8 in ipairs(slot0:bindConfigTable().all) do
 		if slot1.id == slot3[slot8].activity then
-			slot0.goods[slot8] = Goods.New({
+			slot0.goods[slot8] = Goods.Create({
 				shop_id = slot8,
 				buy_count = slot2[slot8] or 0
 			}, Goods.TYPE_ACTIVITY)

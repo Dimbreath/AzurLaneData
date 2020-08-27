@@ -47,6 +47,9 @@ function slot0.init(slot0)
 	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
 
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_equipmentdesignui"))
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.indexPanel, {
+		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
+	})
 end
 
 slot1 = {
@@ -63,12 +66,8 @@ function slot0.didEnter(slot0)
 	slot0:initDesigns()
 	onToggle(slot0, slot0.sortBtn, function (slot0)
 		if slot0 then
-			pg.UIMgr.GetInstance():OverlayPanel(uv0.indexPanel, {
-				groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-			})
 			setActive(uv0.indexPanel, true)
 		else
-			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.indexPanel, uv0._tf)
 			setActive(uv0.indexPanel, false)
 		end
 	end, SFX_PANEL)
@@ -436,6 +435,12 @@ function slot0.hideMsgBox(slot0)
 end
 
 function slot0.onBackPressed(slot0)
+	if isActive(slot0.indexPanel) then
+		triggerButton(slot0.indexPanel)
+
+		return
+	end
+
 	if slot0.isShowDesc then
 		slot0:hideMsgBox()
 	else
@@ -445,6 +450,8 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.indexPanel, slot0._tf)
+
 	if slot0.leftEventTrigger then
 		ClearEventTrigger(slot0.leftEventTrigger)
 	end

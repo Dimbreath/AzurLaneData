@@ -38812,6 +38812,117 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[203072] = {
+		name = "푸른 물결의 소환사 ",
+		bullet_skin_main = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "바다 속에 깊이 잠든 알 수 없는 왕<†언노운†>이여, 푸른 물결<†아주르†>의 마법진을 통해, 나의 힘<†포스†>으로 너를 현세로 부르노라! ...... 에, 지휘관? 어째서 지휘관이 소환된 거죠? ",
+		bullet_skin_secondary = "",
+		ship_group = 20307,
+		painting = "yueke_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 6,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "133",
+		skin_type = 0,
+		id = 203072,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yueke_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70401,
+		voice_actor = 23,
+		air_bomb_skin = "",
+		illustrator = 18,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.829,
+					0.877,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.823,
+					0.865,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.806,
+					0.835,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.414,
+							2.501,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[203079] = {
 		name = "요크·改 ",
 		bullet_skin_main = "",
@@ -78860,6 +78971,226 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[401260] = {
+		name = "Z26",
+		bullet_skin_main = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "1936 A “나르비크”형 구축함—Z26 ",
+		bullet_skin_secondary = "",
+		ship_group = 40126,
+		painting = "Z26",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 401260,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Z26",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.402,
+					1.267,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.31,
+					1.274,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					-0.008,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.331,
+					1.168,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.14,
+							-1.05
+						}
+					}
+				}
+			}
+		}
+	},
+	[401261] = {
+		name = "우정 쉐어 타임 ",
+		bullet_skin_main = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "지휘관, 니무의 방에 온 걸 환영해요! 아, 잠시만요, 먹을 거랑 마실 거, 놀 거까지 전부 꺼내드릴게요! ",
+		bullet_skin_secondary = "",
+		ship_group = 40126,
+		painting = "Z26_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 9999,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "109",
+		skin_type = 0,
+		id = 401261,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Z26_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70405,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.644,
+					1.267,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.674,
+					1.274,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.672,
+					1.342,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.14,
+							-1.05
+						}
+					}
+				}
+			}
+		}
+	},
 	[401350] = {
 		name = "Z35",
 		bullet_skin_main = "",
@@ -85163,6 +85494,198 @@ pg.ship_skin_template = {
 				{
 					0,
 					-0.109,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408090] = {
+		name = "U-96",
+		bullet_skin_main = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "메탈 블러드 VIIC형 잠수함 U-96 ",
+		bullet_skin_secondary = "",
+		ship_group = 40809,
+		painting = "U96",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 408090,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U96",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.175,
+					0.382,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408091] = {
+		name = "비밀의 게임 시간 ",
+		bullet_skin_main = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "마침 잘 왔어, 난 방금 막 ‘전투’를 한 판 치렀거든. 결과...? 당연히 내가 이겼지. 왜? 너도 나랑 한 판 하고 싶어? ",
+		bullet_skin_secondary = "",
+		ship_group = 40809,
+		painting = "U96_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 9999,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "109",
+		skin_type = 0,
+		id = 408091,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U96_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70404,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.341,
+					0.473,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.25,
 					0
 				}
 			}
@@ -117820,6 +118343,117 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[299031] = {
+		name = "Dating Summer！",
+		bullet_skin_main = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "서방님, 기운 좀 차려! 모처럼 해변에서 데이트하는데, 이렇게 맥이 없다니! ... 모래사장에서 다같이 놀기만 하는 건 데이트가 아니라고! 에잇, 무슨 차이가 있겠어! 좋아, 출발하자고! ",
+		bullet_skin_secondary = "",
+		ship_group = 29903,
+		painting = "chaijun_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "1101",
+		shop_type_id = 6,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "133",
+		skin_type = 0,
+		id = 299031,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "chaijun_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70403,
+		voice_actor = 30,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.43,
+					1.078,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.485,
+					1.082,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.003,
+					0.009,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.409,
+					1.167,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.378,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[299040] = {
 		name = "드레이크 ",
 		bullet_skin_main = "",
@@ -117856,6 +118490,117 @@ pg.ship_skin_template = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.389,
+					1.027,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.384,
+					1.02,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.001,
+					0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.393,
+					1.115,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.602,
+							2.308,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[299041] = {
+		name = "황금 사슴의 여유로운 시간 ",
+		bullet_skin_main = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "후… 이렇게 노는 것도 그다지 신나진 않네. 너도 그렇게 멍청하게 보고 있지 말고, 와서 나랑 수영할래? ",
+		bullet_skin_secondary = "",
+		ship_group = 29904,
+		painting = "deleike_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 6,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "133",
+		skin_type = 0,
+		id = 299041,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "deleike_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70402,
+		voice_actor = 80,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -118936,6 +119681,7 @@ pg.ship_skin_template = {
 		[20307] = {
 			203070,
 			203071,
+			203072,
 			203079
 		},
 		[20308] = {
@@ -119601,6 +120347,10 @@ pg.ship_skin_template = {
 			401250,
 			401251
 		},
+		[40126] = {
+			401260,
+			401261
+		},
 		[40135] = {
 			401350,
 			401351
@@ -119709,6 +120459,10 @@ pg.ship_skin_template = {
 		[40808] = {
 			408080,
 			408081
+		},
+		[40809] = {
+			408090,
+			408091
 		},
 		[50101] = {
 			501010
@@ -120417,10 +121171,12 @@ pg.ship_skin_template = {
 			999011
 		},
 		[29903] = {
-			299030
+			299030,
+			299031
 		},
 		[29904] = {
-			299040
+			299040,
+			299041
 		},
 		[49903] = {
 			499030
@@ -120786,6 +121542,7 @@ pg.ship_skin_template = {
 		203060,
 		203070,
 		203071,
+		203072,
 		203079,
 		203080,
 		203089,
@@ -121152,6 +121909,8 @@ pg.ship_skin_template = {
 		401239,
 		401250,
 		401251,
+		401260,
+		401261,
 		401350,
 		401351,
 		401360,
@@ -121209,6 +121968,8 @@ pg.ship_skin_template = {
 		408070,
 		408080,
 		408081,
+		408090,
+		408091,
 		501010,
 		501020,
 		501030,
@@ -121508,7 +122269,9 @@ pg.ship_skin_template = {
 		999010,
 		999011,
 		299030,
+		299031,
 		299040,
+		299041,
 		499030,
 		499040,
 		899020
