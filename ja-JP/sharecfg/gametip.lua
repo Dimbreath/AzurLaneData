@@ -7208,10 +7208,10 @@ No.3 リトル・イラストリアス
 		tip = "ビスマルク、U-96、Z26、Z36、U-556、U-73、エコー 出現率UP！"
 	},
 	buildship_heavy_tip = {
-		tip = "「長門」、「鈴谷」常設実装！"
+		tip = "「三笠」、「比叡」常設実装！"
 	},
 	buildship_light_tip = {
-		tip = "「江風」、「宵月」、「春月」などが常設実装！"
+		tip = "「浜風」常設実装！"
 	},
 	buildship_special_tip = {
 		tip = "「伊13」常設実装！"

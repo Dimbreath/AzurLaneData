@@ -1216,4 +1216,117 @@ function slot0.getMats(slot0)
 	return slot1
 end
 
+function slot0.GetFurnitruesOccupyPoints(slot0)
+	for slot5, slot6 in pairs(slot0.furnitures) do
+		-- Nothing
+	end
+
+	return {
+		[slot6] = {},
+		[slot6] = slot6:getOccupyGrid(slot6:getPosition())
+	}
+end
+
+function slot0.GetInteractionableSpineFurnitureId(slot0, slot1)
+	for slot9, slot10 in pairs(slot0.ships[slot1]:getSurroundGrid()) do
+		if function (slot0, slot1)
+			for slot5, slot6 in pairs(slot0) do
+				if _.any(slot6, function (slot0)
+					return slot0.x == uv0.x and slot0.y == uv0.y
+				end) then
+					return slot5
+				end
+			end
+
+			return nil
+		end(slot0:GetFurnitruesOccupyPoints(), slot10) and slot11:IsSpineRandomType() then
+			return slot11
+		end
+	end
+
+	return nil
+end
+
+function slot0.GetAllOccupyPoints(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.furnitures) do
+		if not slot6:hasParent() then
+			for slot11, slot12 in pairs(slot6:getOccupyGrid(slot6:getPosition())) do
+				if not table.contains(slot1, slot12) then
+					table.insert(slot1, slot12)
+				end
+			end
+		end
+	end
+
+	for slot5, slot6 in pairs(slot0.ships) do
+		if not table.contains(slot1, slot6:getPosition()) then
+			table.insert(slot1, slot7)
+		end
+	end
+
+	return slot1
+end
+
+function slot0.GetSurroundGridByPoint(slot0, slot1, slot2, slot3, slot4)
+	slot6 = {}
+	slot7 = slot0:GetAllOccupyPoints()
+
+	table.insert({}, slot1)
+
+	function slot8(slot0)
+		if not table.contains(uv0, slot0) and uv1:IsLegalPoint(slot0) and not table.contains(uv2, slot0) then
+			table.insert(uv2, slot0)
+		elseif not slot1 then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	function slot9(slot0, slot1, slot2, slot3)
+		if not uv0 and slot1 == uv1 then
+			return false
+		end
+
+		for slot7 = slot1.x, slot1.x + slot2 - 1 do
+			for slot11 = slot1.y, slot1.y + slot3 - 1 do
+				if table.contains(slot0, Vector2(slot7, slot11)) or not uv2:IsLegalPoint(Vector2(slot7, slot11)) then
+					return false
+				end
+			end
+		end
+
+		return true
+	end
+
+	while #slot5 > 0 do
+		slot10 = table.remove(slot5, 1)
+
+		table.insert(slot6, slot10)
+
+		if slot9(slot7, slot10, slot2, slot3) then
+			return slot10
+		else
+			slot8(Vector2(slot10.x + 1, slot10.y + 1))
+			slot8(Vector2(slot10.x - 1, slot10.y - 1))
+			slot8(Vector2(slot10.x + 1, slot10.y - 1))
+			slot8(Vector2(slot10.x - 1, slot10.y + 1))
+			slot8(Vector2(slot10.x, slot10.y + 1))
+			slot8(Vector2(slot10.x, slot10.y - 1))
+			slot8(Vector2(slot10.x + 1, slot10.y))
+			slot8(Vector2(slot10.x - 1, slot10.y))
+		end
+	end
+
+	return nil
+end
+
+function slot0.IsLegalPoint(slot0, slot1)
+	if slot0:isBound(slot1) then
+		return false
+	end
+
+	return true
+end
+
 return slot0

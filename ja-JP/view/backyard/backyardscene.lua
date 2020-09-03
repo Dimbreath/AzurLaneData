@@ -285,6 +285,7 @@ function slot0.showFloorSel(slot0)
 	setActive(slot0.msgBox, true)
 	setActive(slot0.msgFloorPanel, true)
 	removeAllChildren(slot0.floorContainer)
+	pg.UIMgr:GetInstance():BlurPanel(slot0.msgBox)
 
 	for slot4 = 1, Dorm.MAX_FLOOR do
 		slot5 = cloneTplTo(slot0.floorTF, slot0.floorContainer)
@@ -327,6 +328,7 @@ function slot0.closeFloorSel(slot0)
 
 	setActive(slot0.msgBox, false)
 	setActive(slot0.msgFloorPanel, false)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0.msgBox, slot0._tf)
 end
 
 function slot0.updateFloor(slot0)

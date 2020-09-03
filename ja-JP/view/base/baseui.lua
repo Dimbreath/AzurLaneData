@@ -127,7 +127,6 @@ end
 function slot0.onUILoaded(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1 and slot1.transform
-	slot0.animTF = slot0:findTF("blur_panel")
 
 	if slot0:isLayer() then
 		slot0:addToLayerMgr()
@@ -189,7 +188,6 @@ end
 
 function slot0.enter(slot0)
 	slot0:quickExit()
-	slot0:prepareAnimtion()
 	setActive(slot0._tf, true)
 
 	function slot1()
@@ -211,6 +209,12 @@ function slot0.enter(slot0)
 
 	slot2 = false
 
+	if not IsNil(slot0._tf:GetComponent(typeof(Animation))) then
+		slot0.animTF = slot0._tf
+	else
+		slot0.animTF = slot0:findTF("blur_panel")
+	end
+
 	if slot0.animTF ~= nil then
 		if slot0.animTF:GetComponent(typeof(Animation)) ~= nil and slot0.animTF:GetComponent(typeof(UIEventTrigger)) ~= nil then
 			if slot3:get_Item("enter") == nil then
@@ -227,22 +231,6 @@ function slot0.enter(slot0)
 
 	if not slot2 then
 		slot1()
-	end
-end
-
-function slot0.prepareAnimtion(slot0)
-	if slot0.animTF then
-		slot2 = slot0.animTF:Find("top_bg")
-		slot3 = slot0.animTF:Find("adapt/left_length")
-
-		if slot0.animTF:Find("adapt/top") and slot2 then
-			setAnchoredPosition(slot1, Vector2(slot1.anchoredPosition.x, 180))
-			setAnchoredPosition(slot2, Vector2(slot2.anchoredPosition.x, 180))
-		end
-
-		if slot3 then
-			setAnchoredPosition(slot3, Vector2(-180, slot3.anchoredPosition.y))
-		end
 	end
 end
 

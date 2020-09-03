@@ -39,10 +39,12 @@ function slot0.loadImageFurniture(slot0, slot1, slot2, slot3)
 		end
 
 		uv2.pivot = getSpritePivot(slot0)
-		slot1 = uv3.createAlphaImage("icon", true, uv2, 1)
 
-		setImageSprite(slot1, slot0, true)
-		go(slot1):AddComponent(typeof(AlphaCheck))
+		setImageSprite(uv3.createAlphaImage("icon", true, uv2, 1), slot0, true)
+
+		if uv4:NeedAlphaCheck() then
+			go(slot1):AddComponent(typeof(AlphaCheck))
+		end
 
 		if uv4:hasInterActionMask() then
 			table.insert({}, function (slot0)

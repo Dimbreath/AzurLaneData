@@ -39,6 +39,10 @@ function slot0.Ctor(slot0, slot1)
 	slot0.stageShips = {}
 end
 
+function slot0.NeedAlphaCheck(slot0)
+	return slot0.configId ~= 27108
+end
+
 function slot0.hasChild(slot0)
 	return table.getCount(slot0.child) > 0
 end
@@ -925,6 +929,18 @@ function slot0.getSurroundGrid(slot0)
 	table.insert(slot2, Vector2(slot1.x + 1, slot1.y))
 
 	return slot2
+end
+
+function slot0.IsFollower(slot0)
+	return slot0:getConfig("type") == Furniture.TYPE_FOLLOWER
+end
+
+function slot0.IsSpineRandomType(slot0)
+	return slot0:IsFollower()
+end
+
+function slot0.GetFollowerInterActionData(slot0)
+	return slot0:getConfig("spine")[3]
 end
 
 return slot0
