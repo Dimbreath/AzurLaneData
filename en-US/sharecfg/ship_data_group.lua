@@ -5596,6 +5596,68 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[96] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 127,
+		group_type = 20116,
+		code = 96,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Stars of the Shimmering Fjord",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[100] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 128,
+		group_type = 20120,
+		code = 100,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Stars of the Shimmering Fjord",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[465] = {
 		type = 1,
 		trans_skin = 0,
@@ -12793,6 +12855,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[379] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 311,
+		group_type = 40102,
+		code = 379,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Stars of the Shimmering Fjord",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[346] = {
 		type = 1,
 		trans_skin = 0,
@@ -16638,6 +16731,8 @@ pg.ship_data_group = {
 		92,
 		93,
 		94,
+		96,
+		100,
 		465,
 		101,
 		102,
@@ -16818,6 +16913,7 @@ pg.ship_data_group = {
 		381,
 		232,
 		233,
+		379,
 		346,
 		264,
 		265,

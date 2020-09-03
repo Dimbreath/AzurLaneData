@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 20066
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 30391
+		act_id = 30498
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -187,10 +187,10 @@ pg.activity_const = {
 		act_id = 243
 	},
 	NARVIK_PREVIEW_ID = {
-		act_id = 251
+		act_id = 30499
 	},
 	HUNTER_PT_ID = {
-		act_id = 253
+		act_id = 30701
 	},
 	MORAN_RE_PREVIEW_ID = {
 		act_id = 30449

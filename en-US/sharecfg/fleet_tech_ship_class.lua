@@ -549,6 +549,18 @@ pg.fleet_tech_ship_class = {
 			20114
 		}
 	},
+	[20106] = {
+		shiptype = 1,
+		name = "H-Class",
+		t_level = 4,
+		id = 20106,
+		t_level_1 = 39,
+		nation = 2,
+		ships = {
+			20116,
+			20120
+		}
+	},
 	[20107] = {
 		shiptype = 1,
 		name = "V-Class",
@@ -1600,7 +1612,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 113,
 		nation = 4,
 		ships = {
-			40101
+			40101,
+			40102
 		}
 	},
 	[40102] = {
@@ -2244,6 +2257,7 @@ pg.fleet_tech_ship_class = {
 		20103,
 		20104,
 		20105,
+		20106,
 		20107,
 		20108,
 		20109,

@@ -12,7 +12,7 @@ return {
 			bgm = "level02",
 			actor = 401210,
 			nameColor = "#a9f548",
-			say = "为什么我们非要来这种地方执行任务啊！",
+			say = "Why did our mission have to be in a place like this?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "好啦，Z21，来，笑一笑~",
+			say = "C'mon, Z21, give us a smile~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……风雪真大。",
+			say = "We're in a blizzard...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z21，不要抱怨了，已经到了目标海域，你是队长，按照规定，复述一遍任务。",
+			say = "No complaining, Z21. This is the target location, and you're our flagship. Please go over the mission again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是我好冷……Z2帮我做……？",
+			say = "I'm so cold... Can't you do it...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……唉，本次作战，作为威悉演习行动的一环，目的是占领纳尔维克。",
+			say = "*Sigh*, this battle is one phase of Operation Weserübung. Our objective is to occupy Narvik.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401020,
-			say = "这项任务，将由Z21作为旗舰，带领Z2，Z9，Z11，Z12，Z17，Z13，Z18，Z19，Z22，共10艘驱逐级共同完成。",
+			say = "For this operation, Z21 serves as flagship, leading Z2, Z9, Z11, Z12, Z17, Z13, Z18, Z19, and Z22, for a combined strength of ten destroyers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有什么问题吗？",
+			say = "Any questions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我！Z2，敌方的兵力如何？",
+			say = "I have one! Can you tell us about the enemy, Z2?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401020,
-			say = "纳尔维克目前为止一直保持着中立，港内布置的防卫力量并不充裕，凭我们的力量可以轻松解决。",
+			say = "Narvik has remained neutral, and as such has limited defensive strength. We should have no problem overpowering them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那不是超轻松的任务吗？",
+			say = "So we're in for an easy mission?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401020,
-			say = "问题不在占领，而在之后……呼，总之，先完成占领再说吧。",
+			say = "Taking the port won't be a problem, but after that... Well, let's take this one step at a time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "另外，Z18，有情报显示，在峡湾的另一边有一座要塞，以防万一，你和Z22去探查一下。",
+			say = "However, Z18, our intelligence reports there is a fort on the other side of the fjord. You and Z22 should investigate, just in case.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "好~",
+			say = "kay~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其他人，跟随Z21出击。",
+			say = "The rest of you, sortie with Z21.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶，结果还是我吗，Z2当队长不就好了……",
+			say = "*Sigh*. That's all of it. Why couldn't Z2 just be the flagship?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401020,
-			say = "别说傻话。",
+			say = "Don't be ridiculous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

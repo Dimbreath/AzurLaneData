@@ -714,7 +714,7 @@ function slot0.findPath(slot0, slot1, slot2, slot3)
 	if slot1 == ChapterConst.SubjectPlayer then
 		for slot9, slot10 in ipairs(slot0:getCoastalGunArea()) do
 			if slot10.row ~= slot3.row or slot10.column ~= slot3.column then
-				slot4[slot10.row][slot10.column] = math.max(slot4[slot10.row][slot10.column], PathFinding.PrioObstacle)
+				slot4[slot10.row][slot10.column].priority = math.max(slot4[slot10.row][slot10.column].priority, PathFinding.PrioObstacle)
 			end
 		end
 	end

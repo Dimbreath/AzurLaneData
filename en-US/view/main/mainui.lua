@@ -727,6 +727,12 @@ function slot0.didEnter(slot0)
 		uv0:switchForm(uv1.STATE_ALL_HIDE)
 	end, SFX_MAIN)
 	onButton(slot0, slot0._cameraBtn, function ()
+		if PLATFORM_CODE == PLATFORM_CH and pg.SdkMgr.GetInstance():GetChannelUID() == "yun" then
+			pg.TipsMgr.GetInstance():ShowTips("指挥官，当前平台不支持该功能哦")
+
+			return
+		end
+
 		if CheckPermissionGranted(ANDROID_CAMERA_PERMISSION) then
 			uv0:openSnapShot()
 		else

@@ -23,6 +23,8 @@ function slot1(slot0)
 		end
 	end
 
+	slot6 = HXSet.hxLan(i18n("pt_count", pg.item_data_statistics[id2ItemId(slot0.ptId)].name))
+
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = uv1:getTaskById(uv0[slot1 + 1]) or uv1:getFinishTaskById(slot3) or Task.New({
@@ -30,8 +32,8 @@ function slot1(slot0)
 			})
 
 			setText(slot2:Find("title/Text"), "PHASE " .. uv2(slot3))
-			setText(slot2:Find("target/title"), slot4:getConfig("name"))
-			setText(slot2:Find("target/Text"), "")
+			setText(slot2:Find("target/title"), uv3)
+			setText(slot2:Find("target/Text"), slot4:getConfig("target_num"))
 
 			slot5 = slot4:getConfig("award_display")[1]
 
@@ -40,10 +42,10 @@ function slot1(slot0)
 				id = slot5[2],
 				count = slot5[3]
 			})
-			onButton(uv3.binder, slot2:Find("award"), function ()
+			onButton(uv4.binder, slot2:Find("award"), function ()
 				uv0.binder:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
-			setActive(slot2:Find("award/mask"), slot4:isReceive() or uv4 and slot3 < uv4)
+			setActive(slot2:Find("award/mask"), slot4:isReceive() or uv5 and slot3 < uv5)
 		end
 	end)
 	slot0.UIlist:align(#slot1)

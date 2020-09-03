@@ -73,7 +73,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「Dunkirk, hopefully you understand now that we fight for a lasting peace.」</size>",
+					"<size=60>「Dunkerque, hopefully you understand now that we fight for a lasting peace.」</size>",
 					0
 				}
 			}

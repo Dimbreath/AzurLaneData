@@ -30,6 +30,7 @@ end
 
 function slot0.OnInit(slot0)
 	slot0.furnitureModals = {}
+	slot0.followeModals = {}
 	slot0.bg = slot0:findTF("bg")
 	slot0.floorContain = slot0:findTF("bg/furContain/floor")
 	slot0.floorGrid = slot0:findTF("bg/floorGrid")
@@ -880,6 +881,22 @@ function slot0.clearSpineExtra(slot0, slot1, slot2, slot3)
 	slot0.shipsView:ClearSpineExtra(slot1, slot2, slot3)
 end
 
+function slot0.StartFolloweInterAction(slot0, slot1, slot2)
+	slot0.factory:Make(BackyardFurnitureVO.New({
+		id = slot2
+	}), function (slot0)
+		uv0.followeModals[uv1] = BackYardFurnitureModel.New(slot0, uv2, uv0.backyardPoolMgr)
+
+		uv0.shipsView:StartFolloweInterAction(uv3, uv1)
+	end)
+end
+
+function slot0.CancelFolloweInterAction(slot0, slot1, slot2)
+	slot0.followeModals[slot2]:Clear()
+
+	slot0.followeModals[slot2] = nil
+end
+
 function slot0.boatMove(slot0, slot1, slot2, slot3)
 	slot0.shipsView:BoatMove(slot1, slot2, slot3)
 end
@@ -938,6 +955,11 @@ end
 function slot0.OnWillExit(slot0)
 	slot0.shipsView:Destroy()
 
+	for slot4, slot5 in pairs(slot0.followeModals) do
+		slot5:Clear()
+	end
+
+	slot0.followeModals = nil
 	slot1 = {
 		{},
 		{},

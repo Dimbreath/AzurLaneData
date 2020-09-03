@@ -11,7 +11,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = 1,
-			say = "为了保护补给船，不能随便走掉，Z2她们出去巡逻又不知道什么时候回来……",
+			say = "We have to protect the supply ship. No wandering off. Z2 and the girls went out on patrol and we don't know when they'll be back...",
 			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Z18和Z19还没回来吗……好想她们啊……",
+			say = "Aren't Z18 and Z19 back yet...? They better hurry up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……咦，正说到她们，就收到了Z18的电报……哼哼，肯定也和我一样想找我过去玩吧！让我看看……",
+			say = "Oh, speak of the devil. There's a transmission from Z18... Heh heh. She must want to go play with me too! Let's see here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "皇家舰队入侵了峡湾，正在朝纳尔维克航行中……这……",
+			say = "The Royal Navy has infiltrated the fjord. They are currently steaming toward Narvik... Um...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……怎么办怎么办怎么办，Z2就算收到了情报赶回来也需要时间……看来只有我能上了！",
+			say = "WhatdoIdo?! WhatdoIdo?! WhatdoIdo?! Z2 will still need time to get back here even after I call her... Looks like it's all up to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#ff5c5c",
-			say = "……倒不如说，不知什么时候已经突破到我眼前了！",
+			say = "...Oh they're already right here!",
 			subActors = {
 				{
 					expression = 2,

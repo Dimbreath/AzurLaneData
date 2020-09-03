@@ -49334,6 +49334,642 @@ pg.task_data_template = {
 			"LEVEL"
 		}
 	},
+	[14207] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90636,
+		type = 6,
+		name = "SP1·通过任务 纳尔维克",
+		count_inherit = 0,
+		desc = "Clear SP1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14208",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1200002,
+		id = 14207,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1200002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14208] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90637,
+		type = 6,
+		name = "SP2·通过任务 纳尔维克",
+		count_inherit = 0,
+		desc = "Clear SP2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14209",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1200003,
+		id = 14208,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1200003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14209] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90638,
+		type = 6,
+		name = "SP3·通过任务 纳尔维克",
+		count_inherit = 0,
+		desc = "Clear SP3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1200004,
+		id = 14209,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1200004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[14210] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90639,
+		type = 6,
+		name = "SP1·三星任务 纳尔维克",
+		count_inherit = 0,
+		desc = "Complete SP1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14211",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1200002,
+		id = 14210,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1200002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[14211] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90640,
+		type = 6,
+		name = "SP2·三星任务 纳尔维克",
+		count_inherit = 0,
+		desc = "Complete SP2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14212",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1200003,
+		id = 14211,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1200003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				2
+			}
+		}
+	},
+	[14212] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90641,
+		type = 6,
+		name = "SP3·三星任务 纳尔维克",
+		count_inherit = 0,
+		desc = "Complete SP3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1200004,
+		id = 14212,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1200004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[14213] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90642,
+		type = 6,
+		name = "纳尔维克临时角色加入",
+		count_inherit = 0,
+		desc = "0",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14213,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				201201,
+				1
+			}
+		}
+	},
+	[14214] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90643,
+		type = 6,
+		name = "纳尔维克sp3累计1",
+		count_inherit = 0,
+		desc = "Clear SP3 10 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1200004,
+		id = 14214,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "1200004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14215] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90644,
+		type = 6,
+		name = "纳尔维克sp3累计2",
+		count_inherit = 0,
+		desc = "Clear SP3 20 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1200004,
+		id = 14215,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "1200004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14216] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90645,
+		type = 6,
+		name = "纳尔维克sp3累计3",
+		count_inherit = 0,
+		desc = "Clear SP3 40 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1200004,
+		id = 14216,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "1200004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14217] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90646,
+		type = 6,
+		name = "纳尔维克sp3累计4",
+		count_inherit = 0,
+		desc = "Clear SP3 60 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1200004,
+		id = 14217,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "1200004",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				201161,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14218] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90664,
+		type = 26,
+		name = "纳尔维克猎人好感PT累计1",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30497",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 120,
+		id = 14218,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "120",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				300
+			}
+		}
+	},
+	[14219] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90665,
+		type = 26,
+		name = "纳尔维克猎人好感PT累计2",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30497",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 120,
+		id = 14219,
+		target_num = 200,
+		fix_task = 0,
+		target_id = "120",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				300
+			}
+		}
+	},
+	[14220] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90666,
+		type = 26,
+		name = "纳尔维克猎人好感PT累计3",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30497",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 120,
+		id = 14220,
+		target_num = 350,
+		fix_task = 0,
+		target_id = "120",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				500
+			}
+		}
+	},
+	[14221] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90667,
+		type = 26,
+		name = "纳尔维克猎人好感PT累计4",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30497",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 120,
+		id = 14221,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "120",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16013,
+				1
+			}
+		}
+	},
+	[14222] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90668,
+		type = 26,
+		name = "纳尔维克猎人好感PT累计5",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30497",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 120,
+		id = 14222,
+		target_num = 650,
+		fix_task = 0,
+		target_id = "120",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16023,
+				1
+			}
+		}
+	},
+	[14223] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90669,
+		type = 26,
+		name = "纳尔维克猎人好感PT累计6",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30497",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 120,
+		id = 14223,
+		target_num = 800,
+		fix_task = 0,
+		target_id = "120",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16003,
+				1
+			}
+		}
+	},
+	[14224] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90670,
+		type = 26,
+		name = "纳尔维克猎人好感PT累计7",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "30497",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 120,
+		id = 14224,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "120",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				201201,
+				1
+			}
+		}
+	},
+	[14225] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90647,
+		type = 6,
+		name = "序章·通过任务 纳尔维克",
+		count_inherit = 0,
+		desc = "Complete the prologue.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14207",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1200001,
+		id = 14225,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1200001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
 	[14230] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -103015,6 +103651,25 @@ The first draft of the design has been complete.<color=#797979>In order to verif
 		14183,
 		14184,
 		14185,
+		14207,
+		14208,
+		14209,
+		14210,
+		14211,
+		14212,
+		14213,
+		14214,
+		14215,
+		14216,
+		14217,
+		14218,
+		14219,
+		14220,
+		14221,
+		14222,
+		14223,
+		14224,
+		14225,
 		14230,
 		14231,
 		14232,

@@ -26112,7 +26112,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17260] = {
-		name = "F4U（VF-17 “Pirate” Squad）",
+		name = "F4U (VF-17 \"Pirate\" Squad)",
 		type = 7,
 		speciality = "Air",
 		rarity = 5,
@@ -34632,7 +34632,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[23120] = {
-		name = "Prototype Twin 234mm Main Gun (9.2\" MK XII) ",
+		name = "Prototype Triple 234mm Main Gun (9.2\" MK XII) ",
 		speciality = "Lock",
 		type = 3,
 		tech = 0,

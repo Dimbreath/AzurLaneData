@@ -2768,7 +2768,35 @@ Current expansions: <color=#92fc63>$3</color>
 		tip = "Bring the Threat Level to Safe and clear with 3 Stars to unlock Clearing Mode."
 	},
 	levelScene_coastalgun_help_tip = {
-		tip = "You already have the maximum amount of <color=#ffde38>Data Keys</color>. You will receive <color=#ff5c5c>$1</color> Data Key(s) if you proceed. Would you still like to collect these rewards?"
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/coastalgun_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/coastalgun_2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	},
 	tack_tickets_max_warning = {
 		tip = "You already have the maximum amount of <color=#ffde38>Data Keys</color>. You will receive <color=#ff5c5c>$1</color> Data Key(s) if you proceed. Would you still like to collect these rewards? "
@@ -7031,7 +7059,7 @@ Combat Details:
 		tip = "Duke of York added to standard build pool! "
 	},
 	buildship_light_tip = {
-		tip = "Z18, Le Téméraire, Little Bel and others are added to standard build pool! "
+		tip = "Build rates increased for Z2 and Hardy! "
 	},
 	buildship_special_tip = {
 		tip = "Shangri-La, Essex and others are added to standard build pool! "

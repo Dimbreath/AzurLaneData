@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "幸好风雪够大，顺利躲过了对方那艘巡逻的驱逐级。",
+			say = "It's a good job we've got this heavy snow. Lets us slip right by the enemy's patrol destroyers.",
 			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有心算无心，也很正常。",
+			say = "Yes. Lucky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201160,
-			say = "嗯……不过，这么近的距离都有警戒，看来铁血确实已经拿下纳尔维克了……可恶。",
+			say = "Right, But... with guards this close, it seems Iron Blood really has taken Narvik... Damn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "没关系，近岸炮击之后再找机会抢过来就好了。",
+			say = "Relax. Soften them up with a coastal bombardment and we should be good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201160,
-			say = "……话说，猎人，虽然你总说我容易激动，不过我觉得…你也偶尔会很自然地说些突兀的话呢…",
+			say = "You know, Hunter, you always  I'm easily riled, but every now and then you  some pretty excitable things yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毅力和耐心，对狩猎来说是很重要的…",
+			say = "Patience and perseverance are critical to the hunt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是吗……",
+			say = "I-Is that right...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201160,
-			say = "唔，总之，我们已经绕过警戒进入了峡湾，等于掌握了主动权，接下来，就开始侦查敌情吧。",
+			say = "Well then, we've successfully evaded the enemy patrols and made it into the fjord. Now that we have the initiative, let's gather some intelligence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "？？？",
-			say = "咦，Z2，是你们吗？下一轮的补给不是我和Z18吗？",
+			say = "Hey, Z2, is that you? Weren't me and Z18 getting resupplied next?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "？！",
+			say = "?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……没办法，先下手为强！",
+			say = "We're out of options. It's time to strike!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

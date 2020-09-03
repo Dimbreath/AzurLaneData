@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-1",
 			actor = 401190,
 			nameColor = "#ff5c5c",
-			say = "你们是怎么突破进来的？！",
+			say = "How did you get in here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201160,
-			say = "这个问题，去问你们巡逻的人吧！",
+			say = "That would be a question for your patrols!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "站住！",
+			say = "Halt!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			actor = 201200,
 			nameColor = "#a9f548",
-			say = "勇敢，风雪变大了，趁这个机会……",
+			say = "Hardy, the snow limits visibility. We should seize the chance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 201160,
 			nameColor = "#a9f548",
-			say = "走！",
+			say = "Now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 401190,
-			say = "……可恶，让她们突破过去了。",
+			say = "Gah, I can't see anything in this snow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呼，没办法，毕竟我们补给不足，而且对方来的太突然，我们完全没有准备……",
+			say = "We're in trouble. We don't have enough supplies, and the enemy came at us too fast. We're totally unprepared...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Z18，快，我们继续追！",
+			say = "Come, Z18, let's get after them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "…不要那么急躁呀，Z19",
+			say = "Slow down, Z19.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "风雪这么大，我们现在又补给不足，对方要是想躲的话，我们肯定是追不上的。",
+			say = "If the enemy wants to hide in this snow, when we're undersupplied, we definitely won't catch them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "可是皇家出现在这里，肯定是要袭击港口啦！",
+			say = "But if the Royal Navy is here, they must be planning to attack the port!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "所以我们直接去港口就好啦",
+			say = "Then we should go to the port, shouldn't we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "而且还得要立刻给Z21和Z2发警报，让她们做好准备，并且让Z2带着其他人赶回来才行呢",
+			say = "We gotta warn Z21 and Z2. They have to prepare, and Z2 needs to bring help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……你说得对。",
+			say = "You're right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呼…不过说实话，我们现在很难构成战斗力呢……",
+			say = "Phew... but it's gonna be really hard for us to get back to fighting strength.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哼，要不是皇家来的这么突然——",
+			say = "Hmph, if the Royal Navy hadn't gotten the drop on us——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "啊哈哈，她们不可能知道我们补给不足的情况，只能说运气不好吧…",
+			say = "Ahahaha, there's no way they could know our supply situation. We just got unlucky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不过，我们也有能做到的事，接敌可以交给Z21，我们至少要保住补给船。不然的话，大家连回家都会成问题呢。",
+			say = "But we can still help out. Leave the fighting to Z21, and we'll protect the supply ship. Otherwise everybody will have trouble getting home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唔，好吧……反正我说不过你。",
+			say = "Okay, yeah.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "好啦，不要老是皱着眉头，来，笑一笑~",
+			say = "Now that's enough of those eyebrows. Gimme a smile~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

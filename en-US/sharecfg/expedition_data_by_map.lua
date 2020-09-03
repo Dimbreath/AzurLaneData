@@ -3151,6 +3151,26 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1200100] = {
+		map = 1200100,
+		name = "Stars of the Shimmering Fjord|| ||Chapter SP||S.P. ",
+		bgm = "level02",
+		type = 3,
+		on_activity = 30495,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1200001",
+		cloud_suffix = "",
+		bg = "map_1200001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {}
+	},
 	[1210001] = {
 		map = 1210001,
 		name = "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
@@ -7261,6 +7281,7 @@ pg.expedition_data_by_map = {
 		1190010,
 		1190011,
 		1190021,
+		1200100,
 		1210001,
 		1210002,
 		1210011,

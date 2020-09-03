@@ -766,6 +766,26 @@ pg.memory_group = {
 			688
 		}
 	},
+	[151] = {
+		title = "Stars of the Shimmering Fjord",
+		type = 2,
+		id = 151,
+		icon = "title_event",
+		memories = {
+			696,
+			697,
+			698,
+			699,
+			700,
+			701,
+			702,
+			703,
+			704,
+			705,
+			706,
+			707
+		}
+	},
 	[152] = {
 		title = "\"Virtual Connection Synchronicity\" - Daily Memorabilia",
 		type = 2,
@@ -2302,6 +2322,7 @@ pg.memory_group = {
 		148,
 		149,
 		150,
+		151,
 		152,
 		153,
 		154,

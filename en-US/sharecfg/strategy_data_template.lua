@@ -20,7 +20,7 @@ pg.strategy_data_template = {
 	},
 	{
 		buff_id = 120,
-		name = "Circular Defence",
+		name = "Circular Defense",
 		type = 1,
 		id = 3,
 		icon = "3",

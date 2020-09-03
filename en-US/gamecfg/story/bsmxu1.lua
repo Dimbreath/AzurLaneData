@@ -29,7 +29,7 @@ return {
 			blackBg = true,
 			actor = 900180,
 			nameColor = "#a9f548",
-			say = "othing but icebergs. Not even a whale. I'm guessing faulty intelligence?",
+			say = "nothing but icebergs. Not even a whale. I'm guessing faulty intelligence?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

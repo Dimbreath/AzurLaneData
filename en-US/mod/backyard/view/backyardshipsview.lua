@@ -286,6 +286,22 @@ function slot0.AddBoatInimacyAndMoney(slot0, slot1)
 	end
 end
 
+function slot0.StartFolloweInterAction(slot0, slot1, slot2)
+	slot3 = slot0.shipModels[slot1]
+
+	if slot0.view.followeModals[slot2] and slot3 then
+		slot4:SetParent(slot3.tf)
+		slot4:SetSiblingIndex(1)
+		slot4:SetLocalScale(Vector3(2, 2, 1))
+
+		slot6 = slot4.furnitureVO:GetFollowerInterActionData()
+		slot7 = slot6[1]
+
+		slot4:SetLocalPosition(Vector3(slot7[1], slot7[2], 0))
+		slot4:PlayAnim(slot6[2])
+	end
+end
+
 function slot0.Destroy(slot0)
 	for slot4, slot5 in pairs(slot0.shipModels) do
 		slot5:dispose()

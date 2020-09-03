@@ -50,7 +50,7 @@ return {
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
 			actor = 205050,
-			say = "Ugh! My armor...",
+			say = "Ugh! My armour...",
 			flashN = {
 				color = {
 					1,

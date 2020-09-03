@@ -460,6 +460,18 @@ pg.skill_data_display = {
 		id = 5080,
 		name = "Chevalier's Sabre"
 	},
+	[5101] = {
+		id = 5101,
+		name = "Rapid Response "
+	},
+	[5102] = {
+		id = 5102,
+		name = "Rapid Response "
+	},
+	[5103] = {
+		id = 5103,
+		name = "Rapid Response "
+	},
 	[5111] = {
 		id = 5111,
 		name = "One For All"
@@ -1680,6 +1692,18 @@ pg.skill_data_display = {
 		id = 11942,
 		name = "Observer of the Sky and Sea "
 	},
+	[11950] = {
+		id = 11950,
+		name = "Concerto of the Unfreezing Port"
+	},
+	[11960] = {
+		id = 11960,
+		name = "Star of the Shimmering Fjord"
+	},
+	[11970] = {
+		id = 11970,
+		name = "Morale Boost"
+	},
 	[11980] = {
 		id = 11980,
 		name = "Task Force Leader"
@@ -1714,7 +1738,7 @@ pg.skill_data_display = {
 	},
 	[12030] = {
 		id = 12030,
-		name = "划破夜空之火"
+		name = "The Dark-Dispelling Flame"
 	},
 	[12041] = {
 		id = 12041,
@@ -4788,6 +4812,9 @@ pg.skill_data_display = {
 		5070,
 		5081,
 		5080,
+		5101,
+		5102,
+		5103,
 		5111,
 		6000,
 		6010,
@@ -5093,6 +5120,9 @@ pg.skill_data_display = {
 		11940,
 		11941,
 		11942,
+		11950,
+		11960,
+		11970,
 		11980,
 		11981,
 		11990,

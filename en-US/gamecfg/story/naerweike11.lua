@@ -8,9 +8,9 @@ return {
 	scripts = {
 		{
 			nameColor = "#a9f548",
-			actorName = "勇敢",
+			actorName = "Hardy",
 			bgName = "bg_story_naerweike",
-			say = "结束了！",
+			say = "It's over!",
 			dir = 1,
 			side = 0,
 			bgm = "battle-boss-1",
@@ -24,7 +24,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "……可惜。",
+			say = "Too bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 		{
 			expression = 2,
 			side = 0,
-			say = "勇敢！",
+			say = "Hardy!",
 			dir = 1,
 			actor = 201200,
 			nameColor = "#a9f548",
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 201200,
-			say = "呀啊啊！",
+			say = "Ahhhh!",
 			flashN = {
 				color = {
 					1,
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201160,
-			say = "猎人！！",
+			say = "Hunter!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 201160,
 			nameColor = "#a9f548",
-			say = "可恶…是增援吗！？先、先撤——",
+			say = "Damn... Is that their reinforcements?! F-Fall back——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = -1,
 			actor = 401020,
 			nameColor = "#ff5c5c",
-			say = "呼，真是难缠的对手……要是没有增援的话，这次可要一败涂地了呢……",
+			say = "Phew. Truly worthy opponents. Without reinforcements, we would have been in serious trouble...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "Z2，不追了吗？",
+			say = "Aren't we cahsing them, Z2?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "…从峡湾外带着其他人赶回来，又进行了这样一场激烈的战斗，我们也需要进行补给了。",
+			say = "The ones just coming back from outside the fjord are going to need to resupply. Not to mention us, after that battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "抱歉，都是因为我……",
+			say = "Sorry. It's all my fault...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 401020,
-			say = "不怪你，Z18你的选择是对的……保存实力比无谓的勇敢要更重要。",
+			say = "It's not, Z18. You made the right decision. Saving your strength was worth more than foolish bravery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "对方逃了三个回去，我们的规模已经被对方了解了……",
+			say = "They escaped, and now they know our strength.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 401020,
-			say = "不出意外的话，对方的下一波攻势马上就会到来的，我们要快点回去做好准备才行。",
+			say = "Barring a miracle, the enemy's second attack will be coming. We need to head back and prepare.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "可是……",
+			say = "But...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Z19，听Z2的话，我们先去照顾Z21。",
+			say = "Z19, listen to Z2. Let's go take care of Z21.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "好吧……哼，等她们的下一波攻势我再让她们好看！",
+			say = "Um... Okay. But they won't get away next time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -303,9 +303,22 @@ function slot0.endDrag(slot0, slot1, slot2)
 end
 
 function slot0.triggerInterAction(slot0, slot1, slot2)
-	slot5 = slot0.viewComponent.furnitureVOs[slot2]
+	slot4 = slot0.boatVO
 
-	if slot2 and slot5:isTransPort() and slot5:canInterActionShipGroup(slot0.boatVO.gruopId) and not slot5:isLock() then
+	if slot2 and slot0.viewComponent.furnitureVOs[slot2]:IsFollower() then
+		function ()
+			slot0 = uv0.getLocalPos(uv1)
+
+			LeanTween.moveLocal(uv2.go, Vector3(slot0.x, slot0.y + uv3, 0), 0):setOnComplete(System.Action(function ()
+				uv0.isMove = nil
+
+				SetActive(uv0.shipGridContainer, false)
+				uv0:changeGridColor(BackYardConst.BACKYARD_GREEN)
+				uv0.spineAnimUI:SetAction("stand2", 0)
+				uv0.viewComponent:emit(BackyardMainMediator.END_DRAG_SHIP, uv1.id, uv2)
+			end))
+		end()
+	elseif slot2 and slot5:isTransPort() and slot5:canInterActionShipGroup(slot4.gruopId) and not slot5:isLock() then
 		slot0:clearStage()
 		slot0.viewComponent:emit(BackyardMainMediator.INTERACTION_TRANSPORT, slot0.boatVO.id, slot5.id)
 	elseif slot2 and slot5:canInterActionShipGroup(slot4.gruopId) and slot5:isInterActionSpine() and slot5:canInterActionSpine() and not slot5:isTransPort() then
@@ -331,47 +344,38 @@ function slot0.triggerInterAction(slot0, slot1, slot2)
 	elseif slot4:hasInterActionFurnitrue() then
 		slot0:clearStage()
 
-		slot6 = slot4:getInterActionFurnitrueId()
+		slot7 = slot4:getInterActionFurnitrueId()
 
-		slot0:updateInterActionPos(slot3[slot6], slot3[slot6]:getOrderByShipId(slot4.id))
-		slot0:InterActionSortSibling(slot6)
+		slot0:updateInterActionPos(slot3[slot7], slot3[slot7]:getOrderByShipId(slot4.id))
+		slot0:InterActionSortSibling(slot7)
 	elseif slot4:inStageFurniture() then
 		slot0:updateStageInterAction(slot4:getPosition())
 		SetActive(slot0.shipGridContainer, false)
 	else
-		slot6 = nil
+		slot7 = nil
 
-		for slot10, slot11 in pairs(slot3) do
-			for slot16, slot17 in pairs(slot11:getOccupyGrid(slot11:getPosition())) do
-				if slot17.x == slot1.x and slot17.y == slot1.y then
-					slot6 = slot11
+		for slot11, slot12 in pairs(slot3) do
+			for slot17, slot18 in pairs(slot12:getOccupyGrid(slot12:getPosition())) do
+				if slot18.x == slot1.x and slot18.y == slot1.y then
+					slot7 = slot12
 
 					break
 				end
 			end
 
-			if slot6 then
+			if slot7 then
 				break
 			end
 		end
 
-		if slot6 and slot6:canInterActionShipGroup(slot4.gruopId) and slot6:isInterActionSpine() and slot6:canInterActionSpine() then
-			if slot6:isMoveable() then
+		if slot7 and slot7:canInterActionShipGroup(slot4.gruopId) and slot7:isInterActionSpine() and slot7:canInterActionSpine() then
+			if slot7:isMoveable() then
 				slot0.save = nil
 			end
 
-			slot0.viewComponent:emit(BackyardMainMediator.INTERACTION_SPINE, slot0.boatVO.id, slot6.id)
+			slot0.viewComponent:emit(BackyardMainMediator.INTERACTION_SPINE, slot0.boatVO.id, slot7.id)
 		else
-			slot7 = uv0.getLocalPos(slot1)
-
-			LeanTween.moveLocal(slot0.go, Vector3(slot7.x, slot7.y + uv1, 0), 0):setOnComplete(System.Action(function ()
-				uv0.isMove = nil
-
-				SetActive(uv0.shipGridContainer, false)
-				uv0:changeGridColor(BackYardConst.BACKYARD_GREEN)
-				uv0.spineAnimUI:SetAction("stand2", 0)
-				uv0.viewComponent:emit(BackyardMainMediator.END_DRAG_SHIP, uv1.id, uv2)
-			end))
+			slot6()
 		end
 	end
 end

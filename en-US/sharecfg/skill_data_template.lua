@@ -6182,6 +6182,109 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[5101] = {
+		desc_get = "",
+		name = "Rapid Response",
+		desc = "At the start of the battle: increases this ship's FP and TRP by $1; FP and TRP decreases by $2 every 12s afterwards, stopping after 3 decreases.",
+		type = 3,
+		max_level = 10,
+		id = 5101,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"9%",
+				"24.0%"
+			},
+			{
+				"3.0%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"9.0%",
+					"+1.5%"
+				},
+				{
+					"10.5%",
+					"+1.5%"
+				},
+				{
+					"12.0%",
+					"+1.5%"
+				},
+				{
+					"13.5%",
+					"+1.5%"
+				},
+				{
+					"15.0%",
+					"+1.5%"
+				},
+				{
+					"16.5%",
+					"+1.5%"
+				},
+				{
+					"18.0%",
+					"+1.5%"
+				},
+				{
+					"19.5%",
+					"+1.5%"
+				},
+				{
+					"21.0%",
+					"+3.0%"
+				},
+				{
+					"24.0%"
+				}
+			},
+			{
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
 	[5111] = {
 		desc_get = "",
 		name = "One For All",
@@ -15024,7 +15127,7 @@ pg.skill_data_template = {
 	[11060] = {
 		desc_get = "",
 		name = "Mutual Assistance",
-		desc = "Increases the FP, RLD, and Accuracy of all Northern Union and Dragon Empery ships in your Vanguard by $1.",
+		desc = "Increases the FP, RLD, and Accuracy of all Northern Parliament and Dragon Empery ships in your Vanguard by $1.",
 		type = 3,
 		max_level = 10,
 		id = 11060,
@@ -22251,6 +22354,315 @@ pg.skill_data_template = {
 				},
 				{
 					"3.0%"
+				}
+			}
+		}
+	},
+	[11950] = {
+		desc_get = "",
+		name = "Concerto of the Unfreezing Port",
+		desc = "Increases this ship's Crit Rate by $1, DMG dealt against DDs by $2, and the TRP of all your Royal Navy DDs by $3.",
+		type = 1,
+		max_level = 10,
+		id = 11950,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"10.0%",
+				"30.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+2.2%"
+				},
+				{
+					"12.2%",
+					"+2.2%"
+				},
+				{
+					"14.4%",
+					"+2.2%"
+				},
+				{
+					"16.6%",
+					"+2.2%"
+				},
+				{
+					"18.8%",
+					"+2.2%"
+				},
+				{
+					"21.0%",
+					"+2.2%"
+				},
+				{
+					"23.2%",
+					"+2.2%"
+				},
+				{
+					"25.4%",
+					"+2.2%"
+				},
+				{
+					"27.6%",
+					"+2.4%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[11960] = {
+		desc_get = "",
+		name = "Star of the Shimmering Fjord",
+		desc = "When this ship fires its first wave of Torpedoes in battle: fires a $1 special barrage (DMG is based on the skill's level.)",
+		type = 1,
+		max_level = 10,
+		id = 11960,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[11970] = {
+		desc_get = "",
+		name = "Morale Boost",
+		desc = "Every 10 times this ship fires its Main Guns: increases this ship's RLD by $1 and increases the DMG of its All-Out Assault by $2 (can be stacked up to 4 times.)",
+		type = 1,
+		max_level = 10,
+		id = 11970,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.5%",
+				"5.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.3%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.4%"
+				},
+				{
+					"2.5%",
+					"+0.3%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%",
+					"+0.4%"
+				},
+				{
+					"3.9%",
+					"+0.4%"
+				},
+				{
+					"4.3%",
+					"+0.7%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
 				}
 			}
 		}
@@ -46952,6 +47364,7 @@ pg.skill_data_template = {
 		5061,
 		5071,
 		5081,
+		5101,
 		5111,
 		6000,
 		6010,
@@ -47232,6 +47645,9 @@ pg.skill_data_template = {
 		11920,
 		11930,
 		11940,
+		11950,
+		11960,
+		11970,
 		11980,
 		11990,
 		12000,

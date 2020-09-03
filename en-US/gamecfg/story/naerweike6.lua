@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "风雪真大，只能隐约看到海岸那边有一些火光……",
+			say = "Through the heavy snow, I can only make out a faint glow on the coast...",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯，我们已经突破第一道防线了，纳尔维克港就在前面",
+			say = "We've already broken through their first line of defense. Narvik Port is dead ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "对了，勇敢，你知道吗？",
+			say = "Say, Hardy, you know what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "知道什么？",
+			say = "What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "纳尔维克……",
+			say = "Narvik...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = -1,
 			actor = 201160,
 			nameColor = "#a9f548",
-			say = "？！难道有什么重要的情报吗！",
+			say = "Don't tell me you have some critical intelligence?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "据说在1月到3月的时候，可以看到极光。",
+			say = "I've heard you can see the aurora from here between January and March.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈？",
+			say = "What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "但是现在已经是4月了，所以已经看不到了，遗憾……",
+			say = "Too bad it's already April. We missed it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "猎人……我们的前方可是敌人。",
+			say = "Hunter... the enemy is right in front of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "只是正好想到……勇敢对极光没有兴趣吗？",
+			say = "Only a thought. Do you really have no interest in the aurora?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我……不知道，我没看过，你看过吗？",
+			say = "Well, I... I don't know. I've never seen it. Have you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "我也没有。但是我听说极光很美，很梦幻，所以听说要来北极执行任务，我其实还是有些期待的。",
+			say = "I haven't. But I've heard it's beautiful, enchanting even. When I heard we were going to the Arctic, I'd gotten my hopes up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "不过，能看到这么大的雪，也挺好的……在我们的故乡，可看不到这么大的雪。",
+			say = "But seeing so much snow is also nice. It never snows like this back home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "是吗？我只觉得这大雪很碍事。",
+			say = "Really? I think it just gets in the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于战斗……确实很碍事，但是如果在战斗之外，会很好看。",
+			say = "It does get in the way of battle. But otherwise, it's quite lovely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……搞不懂，你的想法还真奇怪。",
+			say = "I don't follow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我是“猎人”，所以平时会比较在意自然环境……",
+			say = "I am Hunter, and as such I attach special significance to my natural environment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "对了，勇敢，这次任务结束后，一起来看雪吗？",
+			say = "Say, Hardy, how would you like to enjoy the snow with me after this mission?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "这可不是现在应有的想法，我们要进攻纳尔维克，然后……",
+			say = "Now's not the time to think about such things. We are here to attack Narvik. Afterwards...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "然后我们也应该没有时间逗留，马上会有下个任务在等着我们。",
+			say = "And afterwards I don't expect to have much time to dawdle either. There will be another mission waiting for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "就一会儿，不行吗？",
+			say = "Just for a bit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "………………先完成我们的任务再说吧。",
+			say = "We'll talk again when the mission's done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

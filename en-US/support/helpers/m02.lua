@@ -883,8 +883,6 @@ function getDropInfo(slot0)
 end
 
 function updateDrop(slot0, slot1, slot2)
-	warning(slot1.id, slot1.type)
-
 	slot2 = slot2 or {}
 	slot3 = type
 	slot4 = slot1.type or slot1.dropType

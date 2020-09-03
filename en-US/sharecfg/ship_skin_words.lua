@@ -1435,17 +1435,17 @@ pg.ship_skin_words = {
 		couple_encourage = {}
 	},
 	[101264] = {
-		touch = "",
+		touch = "...Commander, meow?",
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
 		win_mvp = "",
-		home = "",
+		home = "Watch... Eldridge's performance?",
 		mission = "",
-		touch2 = "",
+		touch2 = "Commander, bad. (Eldridge flicks your forehead with her cowlick)",
 		feeling1 = "",
 		skill = "",
-		drop_descrip = "Eldridge and kitties, idol mode... Commander, you like...?",
+		drop_descrip = "Eldridge and the kitties... are in idol mode... Commander, do you like...?",
 		mail = "",
 		lose = "",
 		propose = "",
@@ -1453,18 +1453,18 @@ pg.ship_skin_words = {
 		id = 101264,
 		voice_key = 0,
 		feeling5 = "",
-		main = "nil|nil|nil",
+		main = "Kitties... don't listen...|Commander... don't forget to... support Eldridge...?|Kitty gloves... Want to feel...?",
 		voice_key_2 = -1,
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
 		feeling4 = "",
-		unlock = "",
+		unlock = "Eldridge and the kitties... are in idol mode... Commander, do you like...?",
 		battle = "",
-		login = "",
+		login = "Commander, Eldridge... has become a kitty...",
 		vote = "",
-		detail = "",
+		detail = "Eldridge... supercharged idol... (the sparks around Eldridge shift regularly)",
 		couple_encourage = {}
 	},
 	[101270] = {
@@ -1501,17 +1501,17 @@ pg.ship_skin_words = {
 		couple_encourage = {}
 	},
 	[101271] = {
-		touch = "",
+		touch = "Candy given away can never be reclaimed~!",
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
 		win_mvp = "",
-		home = "",
+		home = "Bailey doesn't do pumpkin pie, but you can have this delicious carrot cake instead!",
 		mission = "",
-		touch2 = "",
+		touch2 = "This strange sensation... Could it be EM waves from Planet Bunny...?",
 		feeling1 = "",
 		skill = "",
-		drop_descrip = "Hey, did you notice that ghost hovering around Bailey? The Black Witch from Planet Rabbit—— this is the new Bailey!",
+		drop_descrip = "Can you see the ghost next to me? Hehehe— the black witch from Planet Bunny is none other than me, Bailey!",
 		mail = "",
 		lose = "",
 		propose = "",
@@ -1519,18 +1519,18 @@ pg.ship_skin_words = {
 		id = 101271,
 		voice_key = 0,
 		feeling5 = "",
-		main = "nil|nil|nil",
+		main = "Commander, your candy contribution will be distributed among the residents of Planet Bunny! Ehehe~☆|Don't you have any carrot candy? Bailey craves carrot candy!|Bailey's a black bunny today. Don't mistake it for a regular ol' white bunny!",
 		voice_key_2 = -1,
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
 		feeling4 = "",
-		unlock = "",
-		battle = "",
-		login = "",
+		unlock = "Can you see the ghost next to me? Hehehe— the black witch from Planet Bunny is none other than me, Bailey!",
+		battle = "Cutie, Lucky, hold on tight~!",
+		login = "Trick or treat! If you don't hand over the candy, Baily and the Bunnykin will play a trick on you!",
 		vote = "",
-		detail = "",
+		detail = "Cutie, Lucky, listen closely! Today's mission is to extract a whole bunch of candy from the commander!",
 		couple_encourage = {}
 	},
 	[101279] = {
@@ -9596,6 +9596,98 @@ pg.ship_skin_words = {
 				3,
 				"Tomato Squad, ramming speed!",
 				4
+			}
+		}
+	},
+	[201160] = {
+		touch = "Eek?! ...Your Excellency? Please don't suddenly touch me like that!",
+		feeling3 = "A tea party...? Thank you for your consideration, but I still have to finish my training... B-but, I'd appreciate it if you could bring me a slice of cake...",
+		upgrade = "Phew... Though I've become stronger, I can't afford to lapse in my training...",
+		expedition = "As a leader, if you have the right to give orders to others, then you must also cherish their contributions.",
+		win_mvp = "Everyone, this victory is even more reason to not let your guard down.",
+		home = "Your Excellency, is there anything we should reflect upon regarding this previous battle?",
+		mission = "Your Excellency, let's begin the mission after reviewing the documents.",
+		touch2 = "This rapier may be decorative, but the business end still hurts!",
+		feeling1 = "I abhor slovenly people!",
+		skill = "I won't give you an opening!",
+		drop_descrip = "H-class destroyer – Hardy (H87)",
+		mail = "Your Excellency, don't assume I'll be getting the mail for you every time!",
+		lose = "Don't stay here! Please withdraw immediately!",
+		propose = "I know! I know you're going to tell me to not overthink things! But, I have to tell you as well... Your Excellency, you're too slovenly at times! I'll be watching your every move from now on, so prepare yourself!",
+		hp_warning = "I've got to hang in there...!",
+		id = 201160,
+		voice_key = 20116,
+		feeling5 = "Your Excellence, even if you try to sneak up on me, I've already memorized your aura... Eek?! Wh-why are you hugging me? Ahaha... It t-tickles, it tickles!",
+		main = "There's something relaxing about this office, hmm... W-woah?! I, I'm not nodding off!|I may be a flotilla leader, but that's because I've earned the trust of my sister ships. It's not like I have a higher rank than them.|Hunter, I bet you ate my cake again! ...Oh, sorry, Your Excellency, did I disturb you? ",
+		voice_key_2 = -1,
+		profile = "I am Hardy, flotilla leader of the Royal Navy's H-class. At the Battle of Narvik, I led an assault on an Iron Blood port. We were able to land a heavy blow, but the enemy reinforcements... If only I had more time back then...",
+		mission_complete = "Look, Your Excellency! We've gotten so many rewards!",
+		headtouch = "",
+		feeling2 = "...Ugh! Um, Your Excellency... My apologies, but when I feel an unfamiliar presence approach me... Ahem! In any case, it's my policy to not let my guard down.",
+		feeling4 = "Overthinking can have unintended consequences...? I see, I'll keep that in mind.",
+		unlock = "It's an honour to meet you, Your Excellency. Hardy, destroyer of the Royal Navy, reporting for duty.",
+		battle = "Look alive! Don't give the enemies an opening!",
+		login = "You seem to be running a little late. Your Excellent, please begin your work soon.",
+		vote = "",
+		detail = "Nothing can be achieved without repeated practice. Your Excellency, you should know this quite well, yes?",
+		couple_encourage = {
+			{
+				{
+					20502
+				},
+				1,
+				"This time, Lady Warspite, let us go together!",
+				0
+			},
+			{
+				{
+					20501
+				},
+				1,
+				"Glory unto you, Your Majesty!",
+				0
+			}
+		}
+	},
+	[201200] = {
+		touch = "This isn't a hunting rifle. It's a torpedo tube.",
+		feeling3 = "There is no prey a hunter cannot take down. Any failure should be attributed to a lack of sufficient preparation.",
+		upgrade = "Hm, I guess I'll go for some bigger prey next time...",
+		expedition = "You can never be too prepared.",
+		win_mvp = "It's easy as long as I think of the enemy as my prey...",
+		home = "Commander, what's our next target?",
+		mission = "What's the bounty this time...?",
+		touch2 = "[New Target: The Commander. Target: Locked-on.]",
+		feeling1 = "...... (Hunter's companion barks at you)",
+		skill = "You'll only suffer more the more you struggle.",
+		drop_descrip = "H-class destroyer – Hunter (H35)",
+		mail = "Here's your mail. Is there any information on what we should hunt next?",
+		lose = "The hunter can become the hunted at any point...",
+		propose = "A hunter should always stalk his prey, but... having a base... no, a \"home\"... doesn't sound bad at all.",
+		hp_warning = "The prey this time... is pretty tough...",
+		id = 201200,
+		voice_key = 20120,
+		feeling5 = "When this war ends, I want to go hunting with you, Commander. ...Yes, just the two of us.",
+		main = "This guy over here? He's my treasured companion.|I don't dislike Hardy. It's just that she tends to be annoying when she's around.|These clothes...? Commander, you don't have to copy my dress when we go hunting.",
+		voice_key_2 = -1,
+		profile = "Royal Navy H-class destroyer, Hunter. I was taken down by Iron Blood destroyers in the battle of Narvik. It's nothing new for a hunter to end up being eaten by their prey...",
+		mission_complete = "What? You want me to sound the horn of victory...?",
+		headtouch = "",
+		feeling2 = "Is there... a hunting ground around here?",
+		feeling4 = "Commander, what would you like to eat tonight? I'll go catch some of whatever you want.",
+		unlock = "Hello, Commander. I'm Hunter... Was there something else I was supposed to say...?",
+		battle = "...I won't let you get away.",
+		login = "Commander. How about we go hunting?",
+		vote = "",
+		detail = "Commander, I'm pretty proud of my trophies... Would you like to take a look?",
+		couple_encourage = {
+			{
+				{
+					20116
+				},
+				1,
+				"Hardy, lower your voice. You're too loud.",
+				0
 			}
 		}
 	},
@@ -26812,6 +26904,61 @@ pg.ship_skin_words = {
 		detail = "Heheh~ The mighty Z1 can get even stronger and faster!",
 		couple_encourage = {}
 	},
+	[401020] = {
+		touch = "Oh, absolutely, I agree wholeheartedly. Now, what's our next task?",
+		feeling3 = "You want to make small talk again? Why? You should know that the only answers I ever offer are nods and affirmations. Could it be that you actually like canned responses like that?",
+		upgrade = "Won't I develop some sort of flaw if I get even stronger?",
+		expedition = "The commission team has returned. Naturally, we should greet and praise them for their hard work. I can accompany you, if need be.",
+		win_mvp = "There are countless examples of seizing defeat from the jaws of victory. Let us not underestimate our foes.",
+		home = "I've put together an after-action report, as you ordered. Please have a look.",
+		mission = "We've received new missions. I organized them to give you a solid overview. You're welcome.",
+		touch2 = "Among all actions that take bravery, this would, in my honest opinion, be the worst kind.",
+		feeling1 = "I don't mind being near you, but I'm afraid that Lebe does.",
+		skill = "I can still go faster. Just a bit more.",
+		drop_descrip = "Type 1934-class destroyer – Z2 Georg Thiele.",
+		mail = "You have mail. I propose that you open and read it as soon as possible. You are prone to forgetting about it, otherwise.",
+		lose = "I'll cover everyone. I'm quite good at these things, owing to Lebe's help. You may rest easy.",
+		propose = "So this is marriage. I never thought I'd form an unbreakable bond with someone... What was that? I'm blushing? Umm... could you please take a photo of me right now? I've never seen myself red in the face before.",
+		hp_warning = "My magazine is flooding... which is quite bad.",
+		id = 401020,
+		voice_key = 40102,
+		feeling5 = "Commander, if you wish to take our relationship to the next level, simply keep being yourself; say what you want to, and do what you want to. That is all I need from you.",
+		main = "Commander, please try not to be as reckless as Lebe. It would be annoying to have to knock you out, and I don't particularly like getting physical with a superior officer.|I'll bring you a fresh batch of paperwork if you have nothing better to do. I hope you're ready.|This little one is Lebe. Yes, you heard that correctly; this is Lebe. Isn't she cute?",
+		voice_key_2 = -1,
+		profile = "I am Georg Thiele, otherwise known as Z2, a Type 1934 destroyer built as an experiment. I was to make quick work of adversaries using my excellent mobility, or at least that was the plan... I'd rather not elaborate. Please forget I said that.",
+		mission_complete = "I'll obey if you order me to claim the mission rewards, but my opinion of you will worsen. Is that an acceptable tradeoff to you?",
+		headtouch = "",
+		feeling2 = "Is there anything you wish to know about Lebe, Commander? Oh, you're more interested in me? You're quite the curious one. Please give me a minute to think.",
+		feeling4 = "You are a commander with many strange ideas, but that may just be the perfect fit for a person with Lebe for an arm like me.",
+		unlock = "I am Z2, Georg Thiele, awaiting your orders. However, if your orders are flawed, please allow me to reconsider them. May our relationship be productive. ",
+		battle = "Be wary of ambushes and try not to overextend yourselves.",
+		login = "Commander, I have a question: why do you always arrive later than me?",
+		vote = "",
+		detail = "Commander, I have a question, do you have a thing for making others dress up in fancy clothes?",
+		couple_encourage = {
+			{
+				{
+					40101
+				},
+				1,
+				"Please don't take it too far, Lebe. The cleanup would be annoying.",
+				0
+			},
+			{
+				{
+					40101,
+					40118,
+					40119,
+					40120,
+					40121,
+					40123
+				},
+				2,
+				"Ride the waves and sail the... Never mind I said anything.",
+				0
+			}
+		}
+	},
 	[401180] = {
 		touch = "Do you need anything from me?",
 		feeling3 = "A smile is always good, but when cruelty makes someone smile... it's kind of creepy...",
@@ -37472,6 +37619,8 @@ pg.ship_skin_words = {
 		201129,
 		201130,
 		201140,
+		201160,
+		201200,
 		201210,
 		201212,
 		201213,
@@ -37924,6 +38073,7 @@ pg.ship_skin_words = {
 		401010,
 		401011,
 		401019,
+		401020,
 		401180,
 		401190,
 		401200,

@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			actor = 201200,
 			stopbgm = true,
-			say = "勇敢，刚才收到急性的报告，对方的增援出现了。",
+			say = "Hardy, I just received an emergency report. Enemy reinforcements sighted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "来了吗……真快啊。数量呢？",
+			say = "Already...? That was fast. How many?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "风雪太大了，看不清楚。雷达也有些失灵，不过至少比我们小队的数量多吧",
+			say = "It's too hard to tell with the heavy snow. Radar isn't working either. But at least we know there are a lot more of them than us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "虽然还想再给敌人多造成点损失，不过…看来也只能做到这一步了——",
+			say = "As much as I'd like to keep bruising the enemy, I think this is as much as we can do——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，最好的情况是我们能够顺利撤退……",
+			say = "Yes. It's best if we can make a smooth retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "对方应该也已经察觉到我们的目的，会拦截我们的……",
+			say = "They must have already figured out our target, and moved to intercept us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "这不是早就已经知道了的事吗？",
+			say = "I think that was clear from the beginning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "事到如今，就算猎人你突然怕了，我也不会管你哦？",
+			say = "At this point, Hunter, no matter what you may fear, we will pull through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "……是呢。那就……出发吧？",
+			say = "Right then... Shall we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "嗯，开始撤退吧。",
+			say = "Yes. Start withdrawing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……对了，猎人，雪……真的很好看吗？",
+			say = "say, Hunter...? The snow... is it that lovely...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "……嗯，在无忧无虑的时候，会觉得……它很美丽。",
+			say = "It is. When your mind is clear, you'll find... it's truly gorgeous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……是吗，在家乡的时候，我也从没去关注过这些东西……",
+			say = "Oh? I never saw anything like it back home...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "那我就稍微期待一下，你所说的雪景吧。",
+			say = "I'm looking forward to it. That snow you promised me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "……嗯，那就约好了。",
+			say = "Yes. It's a date.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "好！那就出发吧！",
+			say = "It is! Let's be off then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

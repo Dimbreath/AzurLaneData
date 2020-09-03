@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "我回来了！",
+			say = "I'm back!",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呼，真是累死我啦。峡湾的那一边什么都没有哦……",
+			say = "Phew, I'm beat. There's nothing on that side of the fjord though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401020,
-			say = "情报有误吗……总之，辛苦了。",
+			say = "Intel was wrong...? Thanks anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z2，已经顺利完成占领了。",
+			say = "Z2, we're finished digging in here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，辛苦了。",
+			say = "Good. Well done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "Z2还是老样子冷淡欸，完成了任务应该开心点嘛。",
+			say = "Z2's icy as ever. You'd think she'd be happier about completing the mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我又不是Z1。而且，现在还不到放松的时候。",
+			say = "I'm not Z1. And anyway this is no time to relax.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，我们不是已经占领了纳尔维克吗？",
+			say = "Why not? We successfully occupied Narvik, didn't we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401020,
-			say = "我刚才说了，问题在于之后……预定到达的两艘补给舰只到达了一艘，我们现在缺乏足够的补给返航，而且……",
+			say = "Like I said, the hard part comes after. Only one of our two scheduled supply ships arrived. We don't have enough to get us back. Also...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "皇家也不会放任我们占领纳尔维克的。",
+			say = "The Royal Navy won't just let us hold on to Narvik.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对，皇家和我们一样，都需要包括纳尔维克在内的一系列港口……昨天，沙恩姐妹已经和对方的声望交过手了，前天，希佩尔也被一艘皇家驱逐逼退……",
+			say = "Right. They want this string of ports, just like us. The Scharnhorst Sisters fought Renown yesterday, and the day before that, Hipper got pushed back by a Royal destroyer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401020,
-			say = "她们……马上就会来的。",
+			say = "They're... coming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，谁怕谁，等她们来了，就让她们知道我们铁血驱逐的厉害！",
+			say = "Hmph, let them come. We'll show them the might of the Iron Blood destroyers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401020,
-			say = "有力气说大话的话，还是先养精蓄锐吧。",
+			say = "Okay, save it for the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟补给舰一次只能给两艘船进行补给呢。好了，大家轮流进行补给吧！",
+			say = "Our supply ship can only resupply two ships at a time. You'll all have to take turns getting resupplied.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,8 +262,8 @@ return {
 			actor = 401180,
 			dir = -1,
 			hideOther = true,
-			actorName = "Z驱们",
-			say = "是！",
+			actorName = "Z-Class",
+			say = "Aye!",
 			subActors = {
 				{
 					actor = 401190,

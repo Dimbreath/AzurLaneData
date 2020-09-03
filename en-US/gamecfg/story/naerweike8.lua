@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-1",
 			actor = 401210,
 			nameColor = "#ff5c5c",
-			say = "可恶，你们等着，Z2她们会帮我报仇的！",
+			say = "Gah. Just you wait. Z2 and the girls will come get me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201200,
-			say = "昏过去了……",
+			say = "She fainted...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201200,
-			say = "……比之前的那两位要棘手一点。",
+			say = "A little tricker than the other two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 		{
 			expression = 1,
 			side = 1,
-			say = "不过，在同心协力H级的之前，还是差远了呢",
+			say = "But still nothing compared to the unified strength of the H-class.",
 			dir = -1,
 			actor = 201160,
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……然后，怎么办？",
+			say = "So... what now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……海岸的情况如何？",
+			say = "What's the situation on the coast?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "岸防已经配置好了，单凭我们的火力，解决起来需要花很多时间……",
+			say = "Coastal defenses are in position. They will take some time to handle with our firepower alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "而且，我们已经惊动了对方，增援应该也在赶来了。",
+			say = "And considering we've already alerted the enemy, reinforcements are certainly inbound.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要撤退吗？这个天气，我们的消耗也比平常要大。",
+			say = "Should we retreat? We are burning more fuel in this weather than normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……不，既然我们无法马上占领纳尔维克，那么至少，我们要搞清楚对方驻守部队的规模。",
+			say = "No. If we can't occupy Narvik, we must at least evaluate the scale of the enemy defenses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "而且，我们至少也要给铁血造成一点损失，那边的那些商船和货船可不能放过。",
+			say = "And we'll have to make some trouble for the Iron Bloods. Those cargo ships over there should do the trick.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "但这样……很危险。",
+			say = "But... that's risky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "我知道，所以你们可以先回去，留我一个人就好。",
+			say = "I know. So you all head back. I can take care of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "……笨蛋。",
+			say = "Dunce.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = -1,
 			actor = 201160,
 			nameColor = "#a9f548",
-			say = "好痛，干嘛忽然用鱼雷管敲我。",
+			say = "Ouch. Don't suddenly whop me with a torpedo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "我们是团队……而且，一个人的火力，比不过五个人。",
+			say = "We're a team... And five guns are better than one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "……好吧，谢谢。",
+			say = "Very well. Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			say = "咳咳，那么就开始尽可能地破坏吧！",
+			say = "Now then, let's cause as much destruction as possible!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

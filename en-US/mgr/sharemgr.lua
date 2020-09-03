@@ -67,8 +67,8 @@ function slot1.Init(slot0)
 end
 
 function slot1.Share(slot0, slot1, slot2)
-	if PLATFORM_CODE ~= PLATFORM_JP and PLATFORM_CODE ~= PLATFORM_US and PLATFORM_CODE ~= PLATFORM_KR and not WBManager.IsSupportShare() then
-		uv0.TipsMgr.GetInstance():ShowTips("指挥官，当前平台暂不支持分享功能哦")
+	if PLATFORM_CODE ~= PLATFORM_JP and PLATFORM_CODE ~= PLATFORM_US and PLATFORM_CODE ~= PLATFORM_KR and (not WBManager.IsSupportShare() or uv0.SdkMgr.GetInstance():GetChannelUID() == "yun") then
+		uv0.TipsMgr.GetInstance():ShowTips("指挥官，当前平台不支持分享功能哦")
 
 		return
 	end
