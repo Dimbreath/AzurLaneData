@@ -168,7 +168,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "say, Hunter...? The snow... is it that lovely...?",
+			say = "Say, Hunter...? The snow... is it that lovely...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

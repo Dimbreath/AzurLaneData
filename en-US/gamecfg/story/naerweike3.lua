@@ -28,7 +28,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201200,
-			say = "But I can't  I wouldn't like to take a hunting trip across the endless ice fields.",
+			say = "But I can't say I wouldn't like to take a hunting trip across the endless ice fields.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

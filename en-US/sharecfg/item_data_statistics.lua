@@ -64962,7 +64962,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[57561] = {
-		display = "有几率获得以下设计图",
+		display = "Chance to receive following designs",
 		rarity = 1,
 		type = 99,
 		drop_oil_max = 0,
@@ -65006,7 +65006,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[57562] = {
-		display = "有几率获得以下设计图",
+		display = "Chance to receive following designs",
 		rarity = 1,
 		type = 99,
 		drop_oil_max = 0,
@@ -65050,7 +65050,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[57563] = {
-		display = "有几率获得以下设计图",
+		display = "Chance to receive following designs",
 		rarity = 1,
 		type = 99,
 		drop_oil_max = 0,
@@ -65094,7 +65094,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[57564] = {
-		display = "有几率获得以下设计图",
+		display = "Chance to receive following designs",
 		rarity = 1,
 		type = 99,
 		drop_oil_max = 0,
@@ -65138,7 +65138,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[57565] = {
-		display = "有几率获得以下设计图",
+		display = "Chance to receive following designs",
 		rarity = 1,
 		type = 99,
 		drop_oil_max = 0,
@@ -65182,7 +65182,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[57566] = {
-		display = "有几率获得以下设计图",
+		display = "Chance to receive following designs",
 		rarity = 1,
 		type = 99,
 		drop_oil_max = 0,
@@ -65221,7 +65221,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[57567] = {
-		display = "当前关卡有几率获得以下角色",
+		display = "Chance to receive following ships from this stage",
 		rarity = 1,
 		type = 99,
 		drop_oil_max = 0,
@@ -65350,7 +65350,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[57568] = {
-		display = "当前关卡有几率获得以下角色",
+		display = "Chance to receive following ships from this stage",
 		rarity = 1,
 		type = 99,
 		drop_oil_max = 0,
@@ -65479,7 +65479,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[57569] = {
-		display = "当前关卡有几率获得以下角色",
+		display = "Chance to receive following ships from this stage",
 		rarity = 1,
 		type = 99,
 		drop_oil_max = 0,

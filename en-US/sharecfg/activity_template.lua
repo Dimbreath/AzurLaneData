@@ -13549,6 +13549,7 @@ pg.activity_template = {
 			},
 			pt_id = 165,
 			painting = "bolisi_pt",
+			linkActID = 30480,
 			outline = {
 				0,
 				0,

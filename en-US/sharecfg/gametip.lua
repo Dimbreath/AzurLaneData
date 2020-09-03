@@ -7618,7 +7618,7 @@ disappear.]]
 		tip = "可可波币"
 	},
 	npc_evaluation_tip = {
-		tip = "You cannot Like or Comment on characters that have not yet been Formally Recruited. "
+		tip = "You can't Like or Comment on ships that haven't been recruited"
 	},
 	map_event_skip = {
 		tip = "Skip stories"

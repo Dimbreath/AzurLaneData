@@ -75,7 +75,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201160,
-			say = "You know, Hunter, you always  I'm easily riled, but every now and then you  some pretty excitable things yourself.",
+			say = "You know, Hunter, you always say I'm easily riled, but every now and then you say some pretty excitable things yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
