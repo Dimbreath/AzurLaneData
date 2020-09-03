@@ -81,9 +81,30 @@ function slot0.execute(slot0, slot1)
 			}, 18204, function (slot0)
 				slot2 = getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getData().character)
 				slot3 = nil
+
+				if uv0 == PowerRank.TYPE_POWER then
+					slot3 = getProxy(BayProxy):getBayPower()
+				elseif uv0 == PowerRank.TYPE_COLLECTION then
+					slot3 = getProxy(CollectionProxy):getCollectionCount()
+				elseif uv0 == PowerRank.TYPE_PT then
+					slot3 = getProxy(ActivityProxy):getActivityById(uv1) and slot4.data1 or slot0.point
+				elseif uv0 == PowerRank.TYPE_CHALLENGE then
+					slot4 = PowerRank:getActivityByRankType(PowerRank.TYPE_CHALLENGE)
+
+					if getProxy(ChallengeProxy):getChallengeInfo() then
+						slot3 = slot4 and (slot4 and getProxy(ChallengeProxy):getChallengeInfo():getGradeList().seasonMaxScore) or slot0.point
+					else
+						slot3 = slot0.point
+					end
+				elseif uv0 == PowerRank.TYPE_EXTRA_CHAPTER then
+					slot3 = PowerRank:getActivityByRankType(PowerRank.TYPE_EXTRA_CHAPTER) and slot4.data1 or slot0.point
+				else
+					slot3 = slot0.point
+				end
+
 				uv2 = PowerRank.New({
 					user_id = slot1.id,
-					point = (uv0 ~= PowerRank.TYPE_POWER or getProxy(BayProxy):getBayPower()) and (uv0 ~= PowerRank.TYPE_COLLECTION or getProxy(CollectionProxy):getCollectionCount()) and (uv0 == PowerRank.TYPE_PT and (getProxy(ActivityProxy):getActivityById(uv1) and slot4.data1 or slot0.point) or uv0 == PowerRank.TYPE_CHALLENGE and (slot4 and PowerRank:getActivityByRankType(PowerRank.TYPE_CHALLENGE) and getProxy(ChallengeProxy):getChallengeInfo():getGradeList().seasonMaxScore or slot0.point) or uv0 == PowerRank.TYPE_EXTRA_CHAPTER and (PowerRank:getActivityByRankType(PowerRank.TYPE_EXTRA_CHAPTER) and slot4.data1 or slot0.point) or slot0.point),
+					point = slot3,
 					name = slot1.name,
 					lv = slot1.level,
 					arena_rank = slot1.maxRank,

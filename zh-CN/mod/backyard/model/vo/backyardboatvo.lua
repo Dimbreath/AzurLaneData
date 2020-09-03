@@ -21,6 +21,33 @@ function slot0.Ctor(slot0, slot1)
 	slot0.spineExtra = nil
 	slot0.rawShip = slot1
 	slot0.rate = slot1.rate or 100
+	slot0.followerId = nil
+	slot0.followTime = 0
+end
+
+function slot0.SetFollower(slot0, slot1)
+	slot0.followerId = slot1
+end
+
+function slot0.GetFollower(slot0)
+	return slot0.followerId
+end
+
+function slot0.ExistFollower(slot0)
+	return slot0.followerId ~= nil
+end
+
+function slot0.ClearFollower(slot0)
+	slot0.followerId = nil
+	slot0.followTime = 0
+end
+
+function slot0.SetFollowTime(slot0, slot1)
+	slot0.followTime = slot1 + pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+function slot0.ShouldStopFollowed(slot0)
+	return slot0.followTime <= pg.TimeMgr.GetInstance():GetServerTime()
 end
 
 function slot0.IsVisitor(slot0)

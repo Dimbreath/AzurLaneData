@@ -1535,7 +1535,6 @@ pg.ship_skin_words_extra = {
 		feeling4 = "",
 		profile = "",
 		mission_complete = "",
-		headtouch = "",
 		feeling2 = "",
 		battle = "",
 		login = {
@@ -1554,6 +1553,12 @@ pg.ship_skin_words_extra = {
 			{
 				1100,
 				"累了吧…可不能勉强自己哦。把一切交给我，你就好好躺一会吧？"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"哎呀，是想要撒娇了吗？ "
 			}
 		},
 		detail = {

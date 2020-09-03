@@ -84,7 +84,16 @@ end
 
 function slot0.UpdateScale(slot0, slot1)
 	slot2 = 1
-	slot0._tf.localScale = Vector3((not slot0.furnitureVO:isFloor() or uv0.getSign(slot0.furnitureVO.dir == 2)) and uv0.getSign(BackyardFurnitureVO.isRightWall(slot1)), 1, 1)
+
+	slot0:SetLocalScale(Vector3((not slot0.furnitureVO:isFloor() or uv0.getSign(slot0.furnitureVO.dir == 2)) and uv0.getSign(BackyardFurnitureVO.isRightWall(slot1)), 1, 1))
+end
+
+function slot0.SetLocalScale(slot0, slot1)
+	slot0._tf.localScale = slot1
+end
+
+function slot0.SetLocalPosition(slot0, slot1)
+	slot0._tf.localPosition = slot1
 end
 
 function slot0.UpdateFurnitureVO(slot0, slot1)

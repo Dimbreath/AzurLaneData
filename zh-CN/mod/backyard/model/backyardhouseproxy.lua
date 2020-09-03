@@ -34,6 +34,8 @@ slot0.TRANSPORT_INTERAACTION_START = "BackYardHouseProxy_TRANSPORT_INTERAACTION_
 slot0.TRANSPORT_INTERAACTION_START_AGAIN = "BackYardHouseProxy_TRANSPORT_INTERAACTION_START_AGAIN"
 slot0.TRANSPORT_INTERAACTION_START_END = "BackYardHouseProxy_TRANSPORT_INTERAACTION_START_END"
 slot0.ROTATE_FURNITURE = "BackYardHouseProxy_ROTATE_FURNITURE"
+slot0.ON_START_FOLLOWER_INTERACTION = "BackYardHouseProxy_ON_START_FOLLOWER_INTERACTION"
+slot0.ON_CANCEL_FOLLOWER_INTERACTION = "BackYardHouseProxy_ON_CANCEL_FOLLOWER_INTERACTION"
 slot1 = require("Mod/BackYard/view/BackYardTool")
 slot2 = pg.furniture_compose_template
 
@@ -674,6 +676,10 @@ function slot0.shipRomdonMove(slot0, slot1, slot2)
 			return
 		end
 
+		if uv0:RandomSpineInterAction(uv1) and slot1:IsFollower() then
+			uv0:StartFollowerInteraction(uv1, slot1.id)
+		end
+
 		if not uv0:GetCanWalkGrid(uv2) then
 			uv0:sendNotification(uv3.CANCEL_SHIP_MOVE, {
 				id = uv1
@@ -684,10 +690,10 @@ function slot0.shipRomdonMove(slot0, slot1, slot2)
 
 		uv4 = uv4 + 1
 
-		uv0:moveShip(uv1, slot1, uv5)
+		uv0:moveShip(uv1, slot2, uv5)
 		uv0:sendNotification(uv3.BACKYARD_SHIP_MOVE, {
 			id = uv1,
-			pos = slot1,
+			pos = slot2,
 			isLastStep = uv6 <= uv4
 		})
 
@@ -698,6 +704,7 @@ function slot0.shipRomdonMove(slot0, slot1, slot2)
 			uv0.timer[uv1] = nil
 
 			uv0:addShipMove(uv1)
+			uv0:CheckFollowerFurniture(uv1)
 		end
 	end, slot6 + 0.01, -1)
 
@@ -769,6 +776,7 @@ function slot0.cancelShipMove(slot0, slot1)
 
 	slot0:clearSpineInterAction(slot1)
 	slot0:clearArchInteraction(slot1)
+	slot0:CheckFollowerFurniture(slot1, true)
 	slot0:sendNotification(uv0.CANCEL_SHIP_MOVE, {
 		id = slot1
 	})
@@ -1129,6 +1137,53 @@ function slot0.updateHouseLevel(slot0, slot1)
 	slot0:sendNotification(uv0.HOUSE_LEVEL_UP, {
 		level = slot1
 	})
+end
+
+function slot0.RandomSpineInterAction(slot0, slot1)
+	if uv0.isHappen(100 / (table.getCount(slot0.data.ships) + 1)) then
+		return slot0.data:GetInteractionableSpineFurnitureId(slot1)
+	end
+
+	return nil
+end
+
+function slot0.StartFollowerInteraction(slot0, slot1, slot2)
+	slot4 = slot0.data.ships[slot1]
+
+	slot0:removeFurniture(slot2)
+	slot4:SetFollower(slot2)
+	slot4:SetFollowTime(math.random(5, 15))
+	slot0:sendNotification(uv0.ON_START_FOLLOWER_INTERACTION, {
+		id = slot1,
+		furnitureId = slot2
+	})
+end
+
+function slot0.CancelFollowerInteraction(slot0, slot1)
+	slot2 = slot0.data
+	slot3 = slot2.ships[slot1]
+
+	slot3:ClearFollower(nil)
+
+	slot6, slot7 = BackyardFurnitureVO.New({
+		id = slot3:GetFollower(),
+		position = position
+	}):getSize()
+
+	if slot2:GetSurroundGridByPoint(slot3:getPosition(), slot6, slot7, false) then
+		slot5:updatePosition(slot8)
+		slot0:addFurniture(slot5)
+		slot0:sendNotification(uv0.ON_CANCEL_FOLLOWER_INTERACTION, {
+			id = slot1,
+			furnitureId = slot4
+		})
+	end
+end
+
+function slot0.CheckFollowerFurniture(slot0, slot1, slot2)
+	if slot0.data.ships[slot1]:ExistFollower() and (slot2 or slot4:ShouldStopFollowed()) then
+		slot0:CancelFollowerInteraction(slot1)
+	end
 end
 
 function slot0.onRemove(slot0)

@@ -321,7 +321,9 @@ function slot0.listNotificationInterests(slot0)
 		BackYardHouseProxy.ROTATE_FURNITURE,
 		BACKYARD.ON_SELECTED_FURNITRUE,
 		BACKYARD.OPEN_SHOP_LAYER,
-		BACKYARD.CLOSE_SHOP_LAYER
+		BACKYARD.CLOSE_SHOP_LAYER,
+		BackYardHouseProxy.ON_START_FOLLOWER_INTERACTION,
+		BackYardHouseProxy.ON_CANCEL_FOLLOWER_INTERACTION
 	}
 end
 
@@ -452,6 +454,10 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent.effectMgr:ShowOrHide(false)
 	elseif slot2 == BACKYARD.CLOSE_SHOP_LAYER then
 		slot0.viewComponent.effectMgr:ShowOrHide(true)
+	elseif slot2 == BackYardHouseProxy.ON_START_FOLLOWER_INTERACTION then
+		slot0.viewComponent:StartFolloweInterAction(slot3.id, slot3.furnitureId)
+	elseif slot2 == BackYardHouseProxy.ON_CANCEL_FOLLOWER_INTERACTION then
+		slot0.viewComponent:CancelFolloweInterAction(slot3.id, slot3.furnitureId)
 	end
 end
 

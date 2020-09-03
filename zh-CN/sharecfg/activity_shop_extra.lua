@@ -1674,7 +1674,7 @@ pg.activity_shop_extra = {
 		commodity_id = 408041,
 		scene = "",
 		id = 57,
-		order = 5,
+		order = 7,
 		time = {
 			{
 				{
@@ -1705,38 +1705,13 @@ pg.activity_shop_extra = {
 	[58] = {
 		num_limit = 1,
 		activity = 674,
+		time = "stop",
 		commodity_type = 7,
 		num = 1,
 		commodity_id = 408051,
 		scene = "",
 		id = 58,
-		order = 5,
-		time = {
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		order = 5
 	},
 	all = {
 		1,

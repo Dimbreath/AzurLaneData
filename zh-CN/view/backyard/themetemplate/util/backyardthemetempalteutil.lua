@@ -89,7 +89,7 @@ function slot14(slot0, slot1)
 		return
 	end
 
-	pg.OSSMgr:GetInstance():UpdateLoad(uv2(slot0), uv1(slot0), slot1)
+	pg.OSSMgr:GetInstance():AsynUpdateLoad(uv2(slot0), uv1(slot0), slot1)
 end
 
 function slot15()
@@ -143,37 +143,55 @@ function slot0.FileExists(slot0)
 	return PathMgr.FileExists(uv0(slot0))
 end
 
-function slot17(slot0, slot1)
-	slot2 = UnityEngine.Texture2D.New(452, 324)
-	slot3 = uv0 / 2 - slot2.width / 2
-	slot6 = uv1 / 2 - slot2.height / 2 + slot2.height
-	slot8 = 0
+function slot17(slot0, slot1, slot2)
+	slot3 = UnityEngine.Texture2D.New(452, 324)
+	slot4 = uv0 / 2 - slot3.width / 2
+	slot7 = uv1 / 2 - slot3.height / 2 + slot3.height
+	slot9 = 0
 
-	for slot12 = slot3, slot3 + slot2.width do
-		for slot16 = slot4, slot6 do
-			slot2:SetPixel(0 + 1, 0 + 1, slot1:GetPixel(slot12, slot16))
+	for slot13 = slot4, slot4 + slot3.width do
+		for slot17 = slot5, slot7 do
+			slot3:SetPixel(0 + 1, 0 + 1, slot1:GetPixel(slot13, slot17))
 		end
 	end
 
-	slot2:Apply()
-	ScreenShooter.SaveTextureToLocal(uv2(slot0 .. "_icon"), slot2, false)
+	slot3:Apply()
+
+	slot10 = uv2(slot0 .. "_icon")
+
+	onNextTick(function ()
+		ScreenShooter.SaveTextureToLocal(uv0, uv1, false)
+
+		if uv2 then
+			uv2()
+		end
+	end)
 end
 
 function slot0.TakePhoto(slot0, slot1)
 	uv0()
 
 	slot3 = ScreenShooter.TakePhoto(GameObject.Find("/UICamera"):GetComponent(typeof(Camera)), uv1, uv2)
-	slot4 = uv3(slot0)
 
-	uv4(slot4)
-	uv5(slot0, slot3)
-	ScreenShooter.SaveTextureToLocal(slot4, slot3, false)
-
-	if slot1 then
-		slot1()
-	end
-
-	uv6()
+	uv4(uv3(slot0))
+	uv5()
+	seriesAsync({
+		function (slot0)
+			onNextTick(function ()
+				uv0(uv1, uv2, uv3)
+			end)
+		end,
+		function (slot0)
+			onNextTick(function ()
+				ScreenShooter.SaveTextureToLocal(uv0, uv1, false)
+				uv2()
+			end)
+		end
+	}, function ()
+		if uv0 then
+			uv0()
+		end
+	end)
 end
 
 function slot18(slot0)

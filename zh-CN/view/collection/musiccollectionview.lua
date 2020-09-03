@@ -350,6 +350,7 @@ function slot0.initPlateListPanel(slot0)
 		slot2 = slot0 + 1
 
 		uv0:stopMusic()
+		uv0:checkUpdateSongTF()
 
 		uv0.curMidddleIndex = slot0 + 1
 
@@ -803,6 +804,7 @@ function slot0.sortAndUpdate(slot0, slot1)
 	slot0.musicForShowConfigList = slot0:filteMusicConfigByLike()
 
 	slot0:stopMusic()
+	slot0:checkUpdateSongTF()
 	slot0:updatePlateListPanel()
 	slot0:updateSongListPanel()
 	slot0:updatePlayPanel()
@@ -821,6 +823,7 @@ function slot0.initTimer(slot0)
 
 			if uv0.playbackInfo.playback:GetStatus():ToInt() == 3 then
 				uv0:stopMusic()
+				uv0:checkUpdateSongTF()
 				SetActive(uv0.pauseBtn, false)
 				SetActive(uv0.playBtn, true)
 				uv0:tryPlayMusic()
@@ -956,7 +959,9 @@ function slot0.stopMusic(slot0)
 	setActive(slot0.staicImg, true)
 	slot0.playSliderSC:SetValueWithoutEvent(0)
 	setText(slot0.nowTimeText, slot0:descTime(0))
+end
 
+function slot0.checkUpdateSongTF(slot0)
 	if #slot0.songTFList > 0 then
 		slot0:updateSongTF(slot0.songTFList[slot0.curMidddleIndex], slot0.curMidddleIndex)
 	end

@@ -362,7 +362,7 @@ function slot0.didEnter(slot0)
 			return
 		end
 
-		if not getProxy(SettingsProxy):getUserAgreement() and PLATFORM_KR ~= PLATFORM_CODE then
+		if getProxy(SettingsProxy):CheckNeedUserAgreement() and not slot0:getUserAgreement() then
 			uv0.event:emit(LoginMediator.ON_LOGIN_PROCESS)
 
 			return

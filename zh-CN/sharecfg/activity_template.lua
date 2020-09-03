@@ -3361,6 +3361,7 @@ pg.activity_template = {
 	[665] = {
 		mark = 20200820,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -3375,38 +3376,12 @@ pg.activity_template = {
 			1400011,
 			1400012,
 			1400013
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[666] = {
 		mark = 20200820,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -3423,38 +3398,12 @@ pg.activity_template = {
 			1400016,
 			1400017,
 			1400021
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[667] = {
 		mark = 20200820,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -3480,33 +3429,6 @@ pg.activity_template = {
 			15865,
 			15866,
 			15867
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[668] = {
@@ -3713,6 +3635,7 @@ pg.activity_template = {
 	[672] = {
 		mark = 20200820,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -3720,37 +3643,11 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 672,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[673] = {
 		mark = 20200820,
+		time = "stop",
 		type = 72,
 		login_pop = 0,
 		config_id = 5,
@@ -3758,33 +3655,6 @@ pg.activity_template = {
 		config_data = "",
 		title_res_tag = "u556",
 		id = 673,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "RedPocketShipPage",
 			ui_name = "redpocketshippage"
@@ -3813,6 +3683,7 @@ pg.activity_template = {
 	},
 	[674] = {
 		mark = 20200820,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -3857,33 +3728,6 @@ pg.activity_template = {
 				15885
 			}
 		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "U73SkinRePage",
 			ui_name = "u73skinRepage"
@@ -3915,6 +3759,7 @@ pg.activity_template = {
 	[675] = {
 		mark = 20200820,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -3924,33 +3769,6 @@ pg.activity_template = {
 		id = 675,
 		config_data = {
 			15886
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[676] = {

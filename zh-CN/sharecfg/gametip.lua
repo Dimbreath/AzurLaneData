@@ -7150,10 +7150,10 @@ $3]]
 		tip = "俾斯麦、U-96、Z26、Z36、U-556、U-73、回声 出现概率UP！"
 	},
 	buildship_heavy_tip = {
-		tip = "{namecode:74}、{namecode:59} 建造追加！"
+		tip = "{namecode:82}、{namecode:71} 建造追加！"
 	},
 	buildship_light_tip = {
-		tip = "{namecode:158}、{namecode:28}、{namecode:157} 等角色建造追加！"
+		tip = "{namecode:128} 建造追加！"
 	},
 	buildship_special_tip = {
 		tip = "{namecode:163} 建造追加！"

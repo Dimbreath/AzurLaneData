@@ -5035,7 +5035,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		describe = "唔，这是…谁家的鹰酱？ ",
 		count = 1,
-		type = 7,
+		type = 14,
 		dir = 0,
 		dorm_id = 0,
 		name = "鹰酱 ",
@@ -5057,13 +5057,26 @@ pg.furniture_data_template = {
 		comfortable = 0,
 		tag = 6,
 		size = {
-			5,
-			5
+			2,
+			2
 		},
 		offset = {},
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		spine = {
+			{
+				"ying",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					100
+				},
+				"walk"
+			}
 		},
 		interAction_group = {}
 	},
