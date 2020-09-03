@@ -13257,7 +13257,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：铁血、音符&誓言",
+				"이벤트：메탈 블러드, 음표 & 맹세",
 				{
 					""
 				},
@@ -14168,7 +14168,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：铁血、音符&誓言",
+				"이벤트：메탈 블러드, 음표 & 맹세",
 				{
 					""
 				},
