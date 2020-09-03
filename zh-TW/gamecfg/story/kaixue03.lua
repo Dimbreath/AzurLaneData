@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=45>三　秘密的午餐时光</size>",
+					"櫻花爛漫開學祭\n\n<size=45>三 秘密的午餐時光</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "午餐时间，学院广场的某个角落",
+			say = "午餐時間，學院廣場的某個角落",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…总算可以放松一下了…",
+			say = "呼…總算可以放鬆一下了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…肩膀酸痛…",
+			say = "嗚…肩膀酸痛…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的午餐是海伦娜准备的爱心便当哦～",
+			say = "今天的午餐是海倫娜準備的愛心便當哦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			},
 			options = {
 				{
-					content = "打声招呼",
+					content = "打聲招呼",
 					flag = 1
 				},
 				{
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一起享受美好的午餐时刻吧，小熊。我开动了——",
+			say = "一起享受美好的午餐時刻吧，小熊。我開動了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇！",
+			say = "嗚哇！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指、指挥官？！什、什么时候开始在那里的！？",
+			say = "指、指揮官？！什、什麼時候開始在那裡的！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			},
 			options = {
 				{
-					content = "和小熊说话的时候",
+					content = "和小熊說話的時候",
 					flag = 3
 				}
 			}
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇哇哇哇！妳、妳一定是听错了！我、我才没有和小熊说话…",
+			say = "哇哇哇哇！你、你一定是聽錯了！我、我才沒有和小熊說話…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜…只是在教室感觉大家都会不自觉的注意到那里…",
+			say = "嗚嗚…只是在教室感覺大家都會不自覺的注意到那裡…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说到“肩膀酸痛”什么的又会遭遇微妙的目光…特别是驱逐们…",
+			say = "說到“肩膀酸痛”什麼的又會遭遇微妙的目光…特別是驅逐們…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也不是自己想要这么大的啊！",
+			say = "我也不是自己想要這麼大的啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要自信一点？这是我的优点？",
+			say = "要自信一點？這是我的優點？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也、也就指挥官会这么说了…",
+			say = "也、也就指揮官會這麼說了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一起吃午饭？既、既然妳这么诚心诚意的请求了…",
+			say = "一起吃午飯？既、既然你這麼誠心誠意的請求了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我就勉为其难跟妳分享一下海伦娜的便当好了——",
+			say = "我就勉為其難跟你分享一下海倫娜的便當好了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "和火奴鲁鲁一起度过了一段愉快的午餐时光……",
+			say = "和火奴魯魯一起度過了一段愉快的午餐時光……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

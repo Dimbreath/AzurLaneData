@@ -17,6 +17,7 @@ function slot2()
 
 	slot0 = {
 		uv0.UNLOCK_SHIP,
+		uv0.UNLOCK_COMMANDER,
 		uv0.RESOLVE_EQUIPMENT
 	}
 

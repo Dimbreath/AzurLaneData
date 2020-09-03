@@ -3354,7 +3354,7 @@ pg.furniture_data_template = {
 	},
 	[2002] = {
 		advice = 1,
-		describe = "看起來軟軟的牆紙，好想蹭一下，可是會壞的吧？",
+		describe = "看起來軟軟的壁紙，好想蹭一下，可是會壞的吧？",
 		count = 1,
 		type = 1,
 		dir = 0,
@@ -25310,7 +25310,7 @@ pg.furniture_data_template = {
 		type = 1,
 		dir = 0,
 		dorm_id = 0,
-		name = "水上樂園牆紙",
+		name = "水上樂園壁紙",
 		is_get_time_note = 0,
 		rarity = 4,
 		gain_by = "",
@@ -33146,7 +33146,7 @@ pg.furniture_data_template = {
 	},
 	[38001] = {
 		advice = 0,
-		describe = "廣袤的大森林！當然是牆紙圖案啦……",
+		describe = "廣袤的大森林！當然是壁紙圖案啦……",
 		count = 1,
 		type = 1,
 		dir = 0,
@@ -34810,12 +34810,12 @@ pg.furniture_data_template = {
 	},
 	[39001] = {
 		advice = 0,
-		describe = "畫著節日風格紋路的紅色牆紙，溫暖而喜慶",
+		describe = "畫著節日風格紋路的紅色壁紙，溫暖而喜慶",
 		count = 1,
 		type = 1,
 		dir = 0,
 		dorm_id = 0,
-		name = "豬年牆紙",
+		name = "豬年壁紙",
 		is_get_time_note = 0,
 		rarity = 4,
 		gain_by = "",
@@ -37550,6 +37550,1225 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[42001] = {
+		advice = 0,
+		describe = "古色古香的壁紙，有著木色的紋路。能讓人感到放鬆~",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "木色壁紙",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 42,
+		icon = "qiangbikoicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42001,
+		picture = "korea/qiangbiko",
+		comfortable = 4,
+		tag = 3,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42002] = {
+		advice = 0,
+		describe = "傳統的木質地板，踩上去應該挺舒服的～",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "實木地板",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 42,
+		icon = "dibankoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42002,
+		picture = "korea/dibanko",
+		comfortable = 4,
+		tag = 4,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42101] = {
+		advice = 0,
+		describe = "泡菜造型的床，實際上可不能吃哦",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "泡菜床",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 42,
+		icon = "caikoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 42101,
+		picture = "korea/caiko",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					0,
+					56
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42102] = {
+		advice = 0,
+		describe = "乘風破浪，勇往直前～",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "戰船模型",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 42,
+		icon = "chuankoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 42102,
+		picture = "korea/chuanko",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					5,
+					3
+				},
+				{
+					-1,
+					1
+				},
+				"korea/chuanko_using"
+			},
+			{
+				"stand2",
+				{
+					-119,
+					-130
+				},
+				{
+					-1,
+					1
+				},
+				"korea/chuanko_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42103] = {
+		advice = 0,
+		describe = "傳統的木質板凳，坐在上面彷彿回到過去～",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "小板凳",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 42,
+		icon = "dengkoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 42103,
+		picture = "korea/dengko",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-6,
+					64
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42104] = {
+		advice = 0,
+		describe = "剛剛做好的拌飯，散發著蔬菜和米飯的香味，大快朵頤的時間到了~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "美味拌飯",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 42,
+		icon = "fankoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 42104,
+		picture = "korea/fanko",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					13,
+					66
+				},
+				{
+					1,
+					1
+				},
+				"korea/fanko_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42105] = {
+		advice = 0,
+		describe = "來享受最高級的美味吧～",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "小菜桌",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 42,
+		icon = "fanzhuokoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42105,
+		picture = "korea/fanzhuoko",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42106] = {
+		advice = 0,
+		describe = "再等等哦，多醃製一會更加美味呢～",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "泡菜缸",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 42,
+		icon = "gangkoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42106,
+		picture = "korea/gangko",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42107] = {
+		advice = 0,
+		describe = "簡約大氣的木質屏風，作為裝飾品來說還有優秀的實用性哦~",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "木屏風",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 42,
+		icon = "geduankoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42107,
+		picture = "korea/geduanko",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42108] = {
+		advice = 0,
+		describe = "禮樂專用的大鼓，我來敲敲看，咚~",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "傳統擂鼓",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 42,
+		icon = "gukoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42108,
+		picture = "korea/guko",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42109] = {
+		advice = 0,
+		describe = "咕嘟咕嘟咕嘟——哈～果然啤酒還是要大口喝才行呢～",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "大杯啤酒",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 42,
+		icon = "jiukoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 42109,
+		picture = "korea/jiuko",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					13,
+					15
+				},
+				{
+					-1,
+					1
+				},
+				"korea/jiuko_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42110] = {
+		advice = 0,
+		describe = "烤肉的規則就是……先到先得！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "烤肉台",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 42,
+		icon = "kaoroukoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42110,
+		picture = "korea/kaorouko",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42111] = {
+		advice = 0,
+		describe = "來自東方的神秘藥材，不知道有沒有美容的功效呢~？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "珍貴藥材",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 42,
+		icon = "shenkoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42111,
+		picture = "korea/shenko",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42112] = {
+		advice = 0,
+		describe = "美味的傳統食物之一，真的很美味的喲～",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "炒年糕",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 42,
+		icon = "shiwukoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42112,
+		picture = "korea/shiwuko",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42113] = {
+		advice = 0,
+		describe = "要是能發光就更好了呢～",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "高塔模型",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 42,
+		icon = "takoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42113,
+		picture = "korea/tako",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42114] = {
+		advice = 0,
+		describe = "濃香可口的醬湯只要嚐一口就會有溫暖幸福的感覺~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "醬湯",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 42,
+		icon = "tangkoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 42114,
+		picture = "korea/tangko",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					5,
+					-67
+				},
+				{
+					-1,
+					1
+				},
+				"korea/tangko_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42115] = {
+		advice = 0,
+		describe = "清新爽口的葡萄汁，在罐底好像還有果肉的樣子~",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "葡萄汁",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 42,
+		icon = "yinliao1koicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 42115,
+		picture = "korea/yinliao1ko",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42116] = {
+		advice = 0,
+		describe = "罐裝的柳橙汁，受到所有人的好評，當然也有果肉哦~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "柳橙汁",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 42,
+		icon = "yinliao2koicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 42116,
+		picture = "korea/yinliao2ko",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42117] = {
+		advice = 0,
+		describe = "隨時都能立刻享用的美味炸雞～",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "炸雞",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 42,
+		icon = "zhajikoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42117,
+		picture = "korea/zhajiko",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42118] = {
+		advice = 0,
+		describe = "一邊喝茶，一邊閒話家常吧～？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "茶几",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 42,
+		icon = "zhuozi2koicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42118,
+		picture = "korea/zhuozi2ko",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42119] = {
+		advice = 0,
+		describe = "傳統的遊戲桌～",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "柶戲遊戲桌",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 42,
+		icon = "zhuozi3koicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42119,
+		picture = "korea/zhuozi3ko",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42120] = {
+		advice = 0,
+		describe = "是桌子一樣的鼓，還是鼓一樣的桌子？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "大鼓桌",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 42,
+		icon = "zhuozi4koicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42120,
+		picture = "korea/zhuozi4ko",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			9.03
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42121] = {
+		advice = 0,
+		describe = "是凳子一樣的鼓，還是鼓一樣的凳子？",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "腰鼓凳",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 42,
+		icon = "zuoyi2koicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 42121,
+		picture = "korea/zuoyi2ko",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-9,
+					68
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42122] = {
+		advice = 0,
+		describe = "填充了優質棉花，就算怎麼拍都不會扁下去呢。",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "傳統坐墊",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 42,
+		icon = "zuodiankoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 42122,
+		picture = "korea/zuodianko",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-13,
+					38
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42123] = {
+		advice = 0,
+		describe = "用來玩遊戲的道具，要用一些技巧才能扔好~哎咻！",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "轂子",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 42,
+		icon = "zuoyikoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 42123,
+		picture = "korea/zuoyiko",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					2,
+					49
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42301] = {
+		advice = 0,
+		describe = "雖然是木質的，但是十分堅固而美觀~",
+		count = 3,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "傳統木窗",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 42,
+		icon = "chuanghukoicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42301,
+		picture = "korea/chuanghuko",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42302] = {
+		advice = 0,
+		describe = "房間裡必備的裝飾品，花朵是對未來的祈願~",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "窗花掛畫",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 42,
+		icon = "guahuakoicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42302,
+		picture = "korea/guahuako",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42303] = {
+		advice = 0,
+		describe = "有著花朵圖案的裝飾品，上面也有花朵的香味哦~",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "木槿花壁飾",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 42,
+		icon = "huakoicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42303,
+		picture = "korea/huako",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[42304] = {
+		advice = 0,
+		describe = "簡易而方便的推拉門，散發著古老木材的味道~",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "傳統拉門",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 42,
+		icon = "menkoicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 42304,
+		picture = "korea/menko",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[44001] = {
 		advice = 0,
 		describe = "嘩啦啦啦~下雨啦！當心不要滑倒哦~",
@@ -38777,7 +39996,7 @@ pg.furniture_data_template = {
 		type = 1,
 		dir = 0,
 		dorm_id = 0,
-		name = "指揮室牆紙",
+		name = "指揮室壁紙",
 		is_get_time_note = 0,
 		rarity = 4,
 		gain_by = "",
@@ -39960,7 +41179,7 @@ pg.furniture_data_template = {
 		type = 1,
 		dir = 0,
 		dorm_id = 0,
-		name = "夜市文化·牆紙",
+		name = "夜市文化·壁紙",
 		is_get_time_note = 0,
 		rarity = 4,
 		gain_by = "",
@@ -41862,6 +43081,35 @@ pg.furniture_data_template = {
 		40124,
 		40125,
 		40126,
+		42001,
+		42002,
+		42101,
+		42102,
+		42103,
+		42104,
+		42105,
+		42106,
+		42107,
+		42108,
+		42109,
+		42110,
+		42111,
+		42112,
+		42113,
+		42114,
+		42115,
+		42116,
+		42117,
+		42118,
+		42119,
+		42120,
+		42121,
+		42122,
+		42123,
+		42301,
+		42302,
+		42303,
+		42304,
 		44001,
 		44002,
 		44101,

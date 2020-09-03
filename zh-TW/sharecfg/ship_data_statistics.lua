@@ -73490,6 +73490,474 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[301241] = {
+		oxy_max = 0,
+		type = 1,
+		name = "初霜",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301241,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hatsushimo",
+		oxy_cost = 0,
+		skin_id = 301240,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			286,
+			11,
+			92,
+			27,
+			0,
+			72,
+			0,
+			66,
+			71,
+			43.2,
+			51,
+			46
+		},
+		attrs_growth = {
+			6970,
+			108,
+			914,
+			532,
+			0,
+			358,
+			0,
+			972,
+			1056,
+			0,
+			0,
+			458
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301242] = {
+		oxy_max = 0,
+		type = 1,
+		name = "初霜",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301242,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hatsushimo",
+		oxy_cost = 0,
+		skin_id = 301240,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			356,
+			14,
+			115,
+			34,
+			0,
+			72,
+			0,
+			66,
+			71,
+			43.2,
+			51,
+			57
+		},
+		attrs_growth = {
+			6970,
+			108,
+			914,
+			532,
+			0,
+			358,
+			0,
+			972,
+			1056,
+			0,
+			0,
+			458
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301243] = {
+		oxy_max = 0,
+		type = 1,
+		name = "初霜",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301243,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hatsushimo",
+		oxy_cost = 0,
+		skin_id = 301240,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			495,
+			19,
+			161,
+			47,
+			0,
+			72,
+			0,
+			66,
+			71,
+			43.2,
+			51,
+			80
+		},
+		attrs_growth = {
+			6970,
+			108,
+			914,
+			532,
+			0,
+			358,
+			0,
+			972,
+			1056,
+			0,
+			0,
+			458
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.45,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301244] = {
+		oxy_max = 0,
+		type = 1,
+		name = "初霜",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301244,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Hatsushimo",
+		oxy_cost = 0,
+		skin_id = 301240,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			704,
+			27,
+			229,
+			67,
+			0,
+			72,
+			0,
+			66,
+			71,
+			43.2,
+			51,
+			115
+		},
+		attrs_growth = {
+			6970,
+			108,
+			914,
+			532,
+			0,
+			358,
+			0,
+			972,
+			1056,
+			0,
+			0,
+			458
+		},
+		attrs_growth_extra = {
+			6970,
+			252,
+			1136,
+			361,
+			0,
+			850,
+			0,
+			-567,
+			-769,
+			0,
+			0,
+			449
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[301251] = {
 		oxy_max = 0,
 		type = 1,
@@ -82327,6 +82795,474 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301621] = {
+		oxy_max = 0,
+		type = 1,
+		name = "谷風",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301621,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Tanikaze",
+		oxy_cost = 0,
+		skin_id = 301620,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			336,
+			12,
+			99,
+			29,
+			0,
+			72,
+			0,
+			67,
+			71,
+			42,
+			52,
+			40
+		},
+		attrs_growth = {
+			8190,
+			118,
+			976,
+			560,
+			0,
+			360,
+			0,
+			996,
+			1050,
+			0,
+			0,
+			398
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301622] = {
+		oxy_max = 0,
+		type = 1,
+		name = "谷風",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301622,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Tanikaze",
+		oxy_cost = 0,
+		skin_id = 301620,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			418,
+			15,
+			123,
+			36,
+			0,
+			72,
+			0,
+			67,
+			71,
+			42,
+			52,
+			50
+		},
+		attrs_growth = {
+			8190,
+			118,
+			976,
+			560,
+			0,
+			360,
+			0,
+			996,
+			1050,
+			0,
+			0,
+			398
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301623] = {
+		oxy_max = 0,
+		type = 1,
+		name = "谷風",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301623,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Tanikaze",
+		oxy_cost = 0,
+		skin_id = 301620,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			582,
+			21,
+			172,
+			50,
+			0,
+			72,
+			0,
+			67,
+			71,
+			42,
+			52,
+			70
+		},
+		attrs_growth = {
+			8190,
+			118,
+			976,
+			560,
+			0,
+			360,
+			0,
+			996,
+			1050,
+			0,
+			0,
+			398
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.45,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301624] = {
+		oxy_max = 0,
+		type = 1,
+		name = "谷風",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 301624,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Tanikaze",
+		oxy_cost = 0,
+		skin_id = 301620,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			827,
+			30,
+			245,
+			71,
+			0,
+			72,
+			0,
+			67,
+			71,
+			42,
+			52,
+			100
+		},
+		attrs_growth = {
+			8190,
+			118,
+			976,
+			560,
+			0,
+			360,
+			0,
+			996,
+			1050,
+			0,
+			0,
+			398
+		},
+		attrs_growth_extra = {
+			8180,
+			280,
+			1219,
+			385,
+			0,
+			848,
+			0,
+			-584,
+			-765,
+			0,
+			0,
+			438
 		},
 		lock = {
 			"air"
@@ -159472,6 +160408,10 @@ pg.ship_data_statistics = {
 		301232,
 		301233,
 		301234,
+		301241,
+		301242,
+		301243,
+		301244,
 		301251,
 		301252,
 		301253,
@@ -159548,6 +160488,10 @@ pg.ship_data_statistics = {
 		301612,
 		301613,
 		301614,
+		301621,
+		301622,
+		301623,
+		301624,
 		301631,
 		301632,
 		301633,

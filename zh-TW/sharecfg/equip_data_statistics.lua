@@ -314,7 +314,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -1430,7 +1431,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -1516,7 +1518,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -1607,7 +1610,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -1693,7 +1697,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -1773,7 +1778,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -1859,7 +1865,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -1945,7 +1952,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2031,7 +2039,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2111,7 +2120,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2197,7 +2207,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2277,7 +2288,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2358,7 +2370,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -2564,7 +2577,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -3382,6 +3396,232 @@ pg.equip_data_statistics = {
 		base = 640,
 		value_2 = 10,
 		value_1 = "15",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[660] = {
+		name = "100/150號航空燃油",
+		tech = 0,
+		type = 10,
+		speciality = "無",
+		id = 660,
+		value_2 = 0,
+		icon = "660",
+		value_1 = "28",
+		descrip = "性能值達到150的航空燃油，擁有純異辛烷1.5倍的抗暴燃能力，能夠大幅提升引擎的功率",
+		rarity = 4,
+		nationality = 1,
+		ammo = "無",
+		value_3 = 0,
+		attribute_1 = "air",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6300
+		},
+		part_main = {
+			6,
+			7,
+			10
+		},
+		part_sub = {
+			6,
+			7,
+			10
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[661] = {
+		base = 660,
+		id = 661,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[662] = {
+		base = 660,
+		id = 662,
+		value_1 = "36",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[663] = {
+		base = 660,
+		id = 663,
+		value_1 = "40",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[664] = {
+		base = 660,
+		id = 664,
+		value_1 = "44",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[665] = {
+		base = 660,
+		id = 665,
+		value_1 = "49",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[666] = {
+		base = 660,
+		id = 666,
+		value_1 = "53",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[667] = {
+		base = 660,
+		id = 667,
+		value_1 = "57",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[668] = {
+		base = 660,
+		id = 668,
+		value_1 = "61",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[669] = {
+		base = 660,
+		id = 669,
+		value_1 = "65",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[670] = {
+		base = 660,
+		id = 670,
+		value_1 = "70",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[680] = {
+		name = "歸航信標",
+		tech = 0,
+		type = 10,
+		speciality = "無",
+		id = 680,
+		value_2 = 0,
+		icon = "680",
+		value_1 = "18",
+		descrip = "72DM型返航指示信標，安裝在航母主桅上方，幫助艦載機確認母艦的即時位置",
+		rarity = 4,
+		nationality = 2,
+		ammo = "無",
+		value_3 = 0,
+		attribute_1 = "air",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			{
+				6
+			}
+		},
+		weapon_id = {},
+		skill_id = {
+			6310
+		},
+		part_main = {
+			6,
+			7,
+			10
+		},
+		part_sub = {
+			6,
+			7,
+			10
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[681] = {
+		base = 680,
+		id = 681,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[682] = {
+		base = 680,
+		id = 682,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[683] = {
+		base = 680,
+		id = 683,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[684] = {
+		base = 680,
+		id = 684,
+		value_1 = "34",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[685] = {
+		base = 680,
+		id = 685,
+		value_1 = "39",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[686] = {
+		base = 680,
+		id = 686,
+		value_1 = "43",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[687] = {
+		base = 680,
+		id = 687,
+		value_1 = "47",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[688] = {
+		base = 680,
+		id = 688,
+		value_1 = "51",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[689] = {
+		base = 680,
+		id = 689,
+		value_1 = "55",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[690] = {
+		base = 680,
+		id = 690,
+		value_1 = "60",
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
@@ -14164,7 +14404,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -14255,7 +14496,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -14376,7 +14618,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -14694,7 +14937,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -14930,7 +15174,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -15020,7 +15265,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -15110,7 +15356,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -15230,7 +15477,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -15320,7 +15568,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -15440,7 +15689,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -15602,7 +15852,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -15723,7 +15974,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -15885,7 +16137,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -26105,7 +26358,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -26195,7 +26449,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -26285,7 +26540,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -26404,7 +26660,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -26494,7 +26751,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -26584,7 +26842,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -26704,7 +26963,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -26794,7 +27054,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -26914,7 +27175,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -27073,7 +27335,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -27163,7 +27426,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -27253,7 +27517,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -27373,7 +27638,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -27463,7 +27729,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -27583,7 +27850,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -27744,7 +28012,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -27835,7 +28104,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -27957,7 +28227,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -38551,7 +38822,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -38672,7 +38944,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -38833,7 +39106,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -38992,7 +39266,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -39082,7 +39357,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -39172,7 +39448,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -39292,7 +39569,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -39382,7 +39660,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -39502,7 +39781,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -52747,7 +53027,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -52838,7 +53119,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -52929,7 +53211,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -53051,7 +53334,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -53144,7 +53428,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -53267,7 +53552,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -62702,7 +62988,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -62743,7 +63030,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -62784,7 +63072,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -64377,7 +64666,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -64438,7 +64728,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -64499,7 +64790,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -64540,7 +64832,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -64871,7 +65164,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -64912,7 +65206,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -64953,7 +65248,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65004,7 +65300,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65055,7 +65352,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65106,7 +65404,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65157,7 +65456,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65208,7 +65508,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65259,7 +65560,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65310,7 +65612,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65361,7 +65664,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65412,7 +65716,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65463,7 +65768,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65514,7 +65820,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65565,7 +65872,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65616,7 +65924,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65667,7 +65976,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65718,7 +66028,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65769,7 +66080,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65820,7 +66132,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65871,7 +66184,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65922,7 +66236,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -65973,7 +66288,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66024,7 +66340,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66075,7 +66392,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66126,7 +66444,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66177,7 +66496,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66228,7 +66548,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66279,7 +66600,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66330,7 +66652,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66381,7 +66704,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66432,7 +66756,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66483,7 +66808,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66534,7 +66860,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66585,7 +66912,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66636,7 +66964,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66687,7 +67016,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66738,7 +67068,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66789,7 +67120,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66840,7 +67172,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66891,7 +67224,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66942,7 +67276,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -66993,7 +67328,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67044,7 +67380,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67095,7 +67432,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67146,7 +67484,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67197,7 +67536,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67248,7 +67588,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67299,7 +67640,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67350,7 +67692,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67401,7 +67744,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67452,7 +67796,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67503,7 +67848,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67554,7 +67900,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67605,7 +67952,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67656,7 +68004,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67707,7 +68056,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67758,7 +68108,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67809,7 +68160,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67860,7 +68212,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67911,7 +68264,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -67962,7 +68316,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68013,7 +68368,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68064,7 +68420,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68115,7 +68472,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68166,7 +68524,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68299,7 +68658,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68350,7 +68710,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68401,7 +68762,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68452,7 +68814,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68503,7 +68866,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68554,7 +68918,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68605,7 +68970,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68656,7 +69022,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68707,7 +69074,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68758,7 +69126,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68809,7 +69178,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68860,7 +69230,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68911,7 +69282,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -68962,7 +69334,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69013,7 +69386,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69064,7 +69438,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69115,7 +69490,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69166,7 +69542,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69217,7 +69594,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69268,7 +69646,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69319,7 +69698,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69370,7 +69750,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69421,7 +69802,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69472,7 +69854,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69523,7 +69906,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69574,7 +69958,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69625,7 +70010,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69676,7 +70062,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69727,7 +70114,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69778,7 +70166,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69829,7 +70218,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69880,7 +70270,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69931,7 +70322,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -69982,7 +70374,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70033,7 +70426,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70084,7 +70478,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70135,7 +70530,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70186,7 +70582,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70237,7 +70634,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70288,7 +70686,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70339,7 +70738,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70390,7 +70790,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70441,7 +70842,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70492,7 +70894,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70543,7 +70946,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70594,7 +70998,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70645,7 +71050,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70696,7 +71102,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70747,7 +71154,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70798,7 +71206,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70849,7 +71258,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70900,7 +71310,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -70951,7 +71362,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71002,7 +71414,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71053,7 +71466,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71104,7 +71518,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71155,7 +71570,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71206,7 +71622,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71257,7 +71674,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71308,7 +71726,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71359,7 +71778,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71410,7 +71830,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71461,7 +71882,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71512,7 +71934,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71563,7 +71986,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71614,7 +72038,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71665,7 +72090,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71716,7 +72142,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71767,7 +72194,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71818,7 +72246,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71869,7 +72298,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71920,7 +72350,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -71971,7 +72402,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -72022,7 +72454,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -72073,7 +72506,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -72124,7 +72558,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -72175,7 +72610,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -72226,7 +72662,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -72277,7 +72714,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -72328,7 +72766,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -72379,7 +72818,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -72429,7 +72869,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -72479,7 +72920,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -72529,7 +72971,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -72580,7 +73023,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {}
@@ -72646,7 +73090,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -72737,7 +73182,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -72828,7 +73274,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -72949,7 +73396,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -73070,7 +73518,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -73232,7 +73681,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -74686,7 +75136,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			8,
-			13
+			13,
+			18
 		},
 		equip_parameters = {},
 		label = {
@@ -75077,6 +75528,28 @@ pg.equip_data_statistics = {
 		648,
 		649,
 		650,
+		660,
+		661,
+		662,
+		663,
+		664,
+		665,
+		666,
+		667,
+		668,
+		669,
+		670,
+		680,
+		681,
+		682,
+		683,
+		684,
+		685,
+		686,
+		687,
+		688,
+		689,
+		690,
 		1000,
 		1001,
 		1002,

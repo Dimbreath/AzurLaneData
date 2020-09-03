@@ -245,6 +245,8 @@ pg.month_shop_template = {
 			10024,
 			10025,
 			10026,
+			10028,
+			10029,
 			10035
 		},
 		blueprint_shop_goods = {
@@ -279,6 +281,8 @@ pg.month_shop_template = {
 			10024,
 			10025,
 			10026,
+			10028,
+			10029,
 			10035
 		},
 		blueprint_shop_goods = {
@@ -313,6 +317,8 @@ pg.month_shop_template = {
 			10024,
 			10025,
 			10026,
+			10028,
+			10029,
 			10035
 		},
 		blueprint_shop_goods = {
@@ -347,6 +353,8 @@ pg.month_shop_template = {
 			10024,
 			10025,
 			10026,
+			10028,
+			10029,
 			10035
 		},
 		blueprint_shop_goods = {

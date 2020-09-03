@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=45>三 情敌与…例外？</size>",
+					"彼岸花之戀？\n\n<size=45>三 情敵與…例外？</size>",
 					1
 				}
 			}
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "放假和指挥官出门逛街……呵呵，呵呵呵♪",
+			say = "放假和指揮官出門逛街……呵呵，呵呵呵♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "{namecode:91}开心地提着购物袋走在身边",
+			say = "{namecode:91}開心地提著購物袋走在身邊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "指挥官…？妳累了吗？毕竟是人类嘛，不用那么逞强啊…{namecode:91}全都能帮妳拿哦～",
+			say = "指揮官…？你累了嗎？畢竟是人類嘛，不用那麼逞強啊…{namecode:91}全都能幫你拿哦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "说着{namecode:91}就把购物袋一手夺过，她这么一说，确实……",
+			say = "說著{namecode:91}就把購物袋一手奪過，她這麼一說，確實……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actorName = "{namecode:91}",
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "呵呵呵…这么微不足道的蝼蚁之辈，也想从我{namecode:91}手里抢走指挥官？先手…指挥官？为什么要阻止{namecode:91}？",
+			say = "呵呵呵…這麼微不足道的螻蟻之輩，也想從我{namecode:91}手裡搶走指揮官？先手…指揮官？為什麼要阻止{namecode:91}？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -128,7 +128,7 @@ return {
 			actorName = "{namecode:91}",
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "刚才妳看那个女孩子了吧？呐，为什么不看{namecode:91}？明明妳是和{namecode:91}来逛街的？被她勾引了么？就那种货色，{namecode:91}马上就收拾掉……",
+			say = "剛才你看那個女孩子了吧？吶，為什麼不看{namecode:91}？明明你是和{namecode:91}來逛街的？被她勾引了嗎？就那種貨色，{namecode:91}馬上就收拾掉……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -162,7 +162,7 @@ return {
 			actorName = "{namecode:91}",
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "大…那个小丫头，跟在我们后面…！等有机会一定要把她解决了…！",
+			say = "大…那個小丫頭，跟在我們後面…！等有機會一定要把她解決了…！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "没，没什么！指挥官不用往后看，只要看着{namecode:91}就行啦～",
+			say = "沒，沒什麼！指揮官不用往後看，只要看著{namecode:91}就行啦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			actor = 307020,
 			nameColor = "#a9f548",
-			say = "姐…咳，{namecode:91}，和指挥官逛街啊。",
+			say = "姐…咳，{namecode:91}，和指揮官逛街啊。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			say = "是啊。呐，{namecode:92}也来吧？",
+			say = "是啊。吶，{namecode:92}也來吧？",
 			side = 0,
 			bgName = "bg_story_school",
 			actorName = "{namecode:91}",
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "我…就算了。难得妳能和指挥官一起休假，我可不要做灯泡啊",
+			say = "我…就算了。難得妳能和指揮官一起休假，我可不要做燈泡啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "不要逞强嘛。{namecode:92}的话指挥官分享给妳一点也行哦。指挥官也没意见吧？",
+			say = "不要逞強嘛。{namecode:92}的話指揮官分享給妳一點也行哦。指揮官也沒意見吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "{namecode:91}强行地把{namecode:92}拉了过来。",
+			say = "{namecode:91}強行地把{namecode:92}拉了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "……和{namecode:91}还有{namecode:92}相安无事（？）地享受了购物的乐趣",
+			say = "……和{namecode:91}還有{namecode:92}相安無事（？）地享受了購物的樂趣",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

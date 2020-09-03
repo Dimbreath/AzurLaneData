@@ -154,8 +154,8 @@ function slot0.didEnter(slot0)
 
 	slot0:InitCommon()
 	slot0.live2DBtn:Update(slot0.paintingName, false)
-	triggerToggle(slot0.toggles[uv0.INDEX_DETAIL], true)
 	setActive(slot0.bottomTF, false)
+	triggerToggle(slot0.toggles[uv0.INDEX_DETAIL], true)
 end
 
 function slot0.InitSkinList(slot0)
@@ -315,6 +315,8 @@ function slot0.SwitchPage(slot0, slot1)
 				slot0()
 			end,
 			function (slot0)
+				print("asdfasdfasdf==================")
+
 				slot1 = uv0.pages[uv1]
 
 				SetParent(uv0.bottomTF, slot1._tf)

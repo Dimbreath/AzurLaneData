@@ -41,5 +41,12 @@ pg.ship_spine_shift = {
 			15,
 			-75
 		}
+	},
+	U96_2 = {
+		spine = "U96_2",
+		mainui_shift = {
+			-22,
+			20
+		}
 	}
 }

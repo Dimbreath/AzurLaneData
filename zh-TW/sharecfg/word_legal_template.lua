@@ -81,3 +81,56 @@ function temp()
 end
 
 temp()
+
+function temp()
+	uv0.C = {
+		e = {
+			n = {
+				t = {
+					a = {
+						u = {
+							r = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		E = {
+			N = {
+				T = {
+					A = {
+						U = {
+							R = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0.c = {
+		e = {
+			n = {
+				t = {
+					a = {
+						u = {
+							r = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()

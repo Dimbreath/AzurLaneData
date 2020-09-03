@@ -87,7 +87,7 @@ pg.activity_template = {
 			ui_name = "monthsignpage"
 		},
 		config_client = {
-			9,
+			7,
 			21,
 			1
 		}
@@ -1189,6 +1189,22 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 2004,
+		config_data = {
+			0,
+			{}
+		}
+	},
+	[2005] = {
+		mark = 20180426,
+		page_info = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5091,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 2005,
 		config_data = {
 			0,
 			{}
@@ -4956,6 +4972,7 @@ pg.activity_template = {
 	},
 	[40154] = {
 		mark = 20200813,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 2,
@@ -4983,33 +5000,6 @@ pg.activity_template = {
 				13724
 			}
 		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "CentaurAwardPage",
 			ui_name = "centaurawardpage"
@@ -5018,6 +5008,7 @@ pg.activity_template = {
 	[40155] = {
 		mark = 20200813,
 		page_info = "",
+		time = "stop",
 		type = 26,
 		login_pop = 0,
 		config_id = 0,
@@ -5025,33 +5016,6 @@ pg.activity_template = {
 		config_data = "activity_drop_40155",
 		title_res_tag = "",
 		id = 40155,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 1,
 			bg = "loadingbg/bg_build_1_act",
@@ -5070,6 +5034,7 @@ pg.activity_template = {
 	},
 	[40156] = {
 		mark = 20200813,
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 8,
@@ -5077,33 +5042,6 @@ pg.activity_template = {
 		title_res_tag = "gangqutuoli",
 		id = 40156,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "PortFightLoginPage",
 			ui_name = "PortFightLoginPage"
@@ -5197,6 +5135,7 @@ pg.activity_template = {
 	[40158] = {
 		mark = 20200813,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -5204,14 +5143,65 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 40158,
-		config_data = {},
+		config_data = {}
+	},
+	[40159] = {
+		mark = 20200827,
+		type = 18,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 6,
+		title_res_tag = "Cravenskin",
+		id = 40159,
+		config_data = {
+			{
+				15736,
+				15737
+			},
+			{
+				15738,
+				15739
+			},
+			{
+				15740,
+				15741
+			},
+			{
+				15742,
+				15743
+			},
+			{
+				15744,
+				15745
+			},
+			{
+				15746,
+				15747
+			},
+			{
+				15748,
+				15749
+			},
+			{
+				15750,
+				15751
+			},
+			{
+				15752,
+				15753
+			},
+			{
+				15754,
+				15755
+			}
+		},
 		time = {
 			timer,
 			{
 				{
 					2020,
 					8,
-					13
+					27
 				},
 				{
 					0,
@@ -5222,8 +5212,8 @@ pg.activity_template = {
 			{
 				{
 					2020,
-					8,
-					27
+					9,
+					10
 				},
 				{
 					23,
@@ -5231,6 +5221,190 @@ pg.activity_template = {
 					59
 				}
 			}
+		},
+		page_info = {
+			class_name = "CravenCheeringSkinPage",
+			ui_name = "CravenCheeringSkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"KAIXUE01"
+				},
+				{
+					"KAIXUE02"
+				},
+				{
+					"KAIXUE03"
+				},
+				{},
+				{
+					"KAIXUE04"
+				},
+				{},
+				{
+					"KAIXUE05"
+				},
+				{},
+				{
+					"KAIXUE06"
+				},
+				{
+					"KAIXUE07"
+				}
+			}
+		}
+	},
+	[40160] = {
+		mark = 20200903,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 40160,
+		config_data = {
+			1058,
+			1059,
+			1060,
+			1061,
+			1062,
+			1063,
+			1064,
+			1065,
+			1066,
+			1067,
+			1068,
+			1069,
+			1070,
+			1071,
+			1072,
+			1073,
+			1074,
+			1075,
+			1076,
+			1077,
+			1078,
+			1079,
+			1080,
+			1081,
+			1082
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					9,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_salatuojia",
+			{
+				0.176,
+				0.164,
+				0.274,
+				1
+			},
+			pt_id = 147,
+			painting = "salatuojia_pt",
+			outline = {
+				0.5,
+				0.5,
+				0.5,
+				0
+			}
+		}
+	},
+	[40161] = {
+		mark = 20200903,
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 6,
+		config_client = "",
+		title_res_tag = "saratogakr",
+		id = 40161,
+		config_data = {
+			15450,
+			15451,
+			15452,
+			15453,
+			15454,
+			15455,
+			15456,
+			15457,
+			15458,
+			15459,
+			15460,
+			15461,
+			15462,
+			15463,
+			15464,
+			15465,
+			15466,
+			15467,
+			15468,
+			15469,
+			15470,
+			15471,
+			15472,
+			15473,
+			15474,
+			15475,
+			15476,
+			15477
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					9,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SaratogaSkinPage",
+			ui_name = "saratogaskinpage"
 		}
 	},
 	[45000] = {
@@ -5289,6 +5463,7 @@ pg.activity_template = {
 		2001,
 		2002,
 		2004,
+		2005,
 		2006,
 		2007,
 		2008,
@@ -5462,6 +5637,9 @@ pg.activity_template = {
 		40156,
 		40157,
 		40158,
+		40159,
+		40160,
+		40161,
 		45000
 	}
 }

@@ -61,6 +61,10 @@ function slot1.InitCri(slot0, slot1)
 
 		uv2()
 	end)
+
+	slot0.storyBGMName = nil
+	slot0.normalBGMName = nil
+	slot0.lastNormalBGMName = nil
 end
 
 function slot1.SetStoryBGM(slot0, slot1)
@@ -69,13 +73,14 @@ function slot1.SetStoryBGM(slot0, slot1)
 end
 
 function slot1.SetNormalBGM(slot0, slot1)
+	slot0.lastNormalBGMName = slot1
 	slot0.normalBGMName = slot1
 	slot0.storyBGMName = nil
 end
 
 function slot1.ResumeNormalBGM(slot0)
-	if slot0.normalBGMName then
-		slot0:PlayBGM(slot0.normalBGMName)
+	if slot0.lastNormalBGMName then
+		slot0:PlayBGM(slot0.lastNormalBGMName)
 	end
 end
 

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=45>二　操场上的问题儿们</size>",
+					"櫻花爛漫開學祭\n\n<size=45>二　操場上的問題兒們</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 401011,
 			nameColor = "#a9f548",
-			say = "无论是学习还是运动，Z1大人都是No.1!",
+			say = "無論是學習還是運動，Z1大人都是No.1!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不服的家伙，就来和我“决斗”吧！",
+			say = "不服的傢伙，就來和我“決鬥”吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论是跑步棒球还是格斗，我都是不会输的！",
+			say = "無論是跑步棒球還是格鬥，我都是不會輸的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			say = "哼哼，真敢说啊～",
+			say = "哼哼，真敢說啊～",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳是…重樱的——",
+			say = "妳是…重櫻的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "送上门的决斗，怎么能退缩！",
+			say = "送上門的決鬥，怎麼能退縮！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真敢说啊～那就来一决胜负吧！",
+			say = "真敢說啊～那就來一決勝負吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			actor = 101061,
 			nameColor = "#a9f548",
-			say = "哇哇哇～一触即发一触即发～",
+			say = "哇哇哇～一觸即發一觸即發～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "克雷文应该帮哪边加油才好呢…",
+			say = "克雷文應該幫哪邊加油才好呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那、那就两边都一起加油吧！{namecode:94}~加～油！Z1～Fight！",
+			say = "那、那就兩邊都一起加油吧！{namecode:94}~加～油！Z1～Fight！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "Z～～1～～前～～辈！",
+			say = "Z～～1～～前～～輩！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 307041,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "呜——",
+			say = "嗚——",
 			subActors = {
 				{
 					actor = 401011,
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "都说了多少次了不要在学院里挑衅其他人啊！",
+			say = "都說了多少次了不要在學院裡挑釁其他人啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "上课也不好好上课！我都收到好多投诉了！",
+			say = "上課也不好好上課！我都收到好多投訴了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			actor = 401011,
 			nameColor = "#a9f548",
-			say = "我才没有破坏课堂纪律！只是老师讲得太无聊，我向大家推荐换我来讲课，然后就…",
+			say = "我才沒有破壞課堂紀律！只是老師講得太無聊，我向大家推薦換我來講課，然後就…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			}
 		},
 		{
-			say = "妳也没资格笑！",
+			say = "妳也沒資格笑！",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "可、可是对面先挑——",
+			say = "可、可是對面先挑——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "接受挑衅的妳也有问题！还有克雷文！他们俩精力过剩也就算了，妳跟着凑什么热闹啊！",
+			say = "接受挑釁的妳也有問題！還有克雷文！她們倆精力過剩也就算了，妳跟著湊什麼熱鬧啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶嘿嘿…顺势就……",
+			say = "欸嘿嘿…順勢就……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "总之三个人都过来！我要好好说一下妳们！",
+			say = "總之三個人都過來！我要好好說一下妳們！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			blackBg = true,
 			actor = 307041,
 			nameColor = "#a9f548",
-			say = "呜——",
+			say = "嗚——",
 			subActors = {
 				{
 					actor = 101061,

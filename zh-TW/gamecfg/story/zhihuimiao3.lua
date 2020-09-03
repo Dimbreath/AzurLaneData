@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小猫需要经过一段时间的培训才能成长为合格的指挥喵…不过，这次情况特殊，就让{namecode:98}来进行“特殊指导”喵！",
+			say = "小貓需要經過一段時間的培訓才能成長為合格的指揮喵…不過，這次情況特殊，就讓{namecode:98}來進行“特殊指導”喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "好了喵！准备迎接你的第一名指挥喵夥伴喵！",
+			say = "好了喵！準備迎接你的第一名指揮喵夥伴喵！",
 			flashout = {
 				dur = 1,
 				alpha = {

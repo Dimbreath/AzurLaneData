@@ -12,7 +12,7 @@ return {
 			sequenceSpd = 2,
 			sequence = {
 				{
-					"<size=45>新一年的春风造访了港区，昭示着「新学期」的开始</size>",
+					"<size=45>新一年的春風造訪了港區，昭示著「新學期」的開始</size>",
 					2
 				},
 				{
@@ -20,7 +20,7 @@ return {
 					4
 				},
 				{
-					"<size=45>在盛放的樱花之下，春日的「开学祭」、开幕——</size>",
+					"<size=45>在盛放的櫻花之下，春日的「開學祭」、開幕——</size>",
 					6
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=45>一　「迟到了迟到了！」</size>",
+					"櫻花爛漫開學祭\n\n<size=45>一　「遲到了遲到了！」</size>",
 					1
 				}
 			}
@@ -43,7 +43,7 @@ return {
 			actorScale = 0.6,
 			bgm = "story-1",
 			nameColor = "#a9f548",
-			say = "呜哇哇哇！！迟到了迟到了！！",
+			say = "嗚哇哇哇！！遲到了遲到了！！",
 			effects = {
 				{
 					active = true,
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 301011,
 			actorName = "{namecode:2}",
-			say = "呜呜呜…为什么那么多妹妹，就没有一个叫我起床的啦！！",
+			say = "嗚嗚嗚…為什麼那麼多妹妹，就沒有一個叫我起床的啦！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_103",
 			actor = 307041,
 			nameColor = "#a9f548",
-			say = "嗯～～果然不良少女就应该光明正大的翘课才对吧～？",
+			say = "嗯～～果然不良少女就應該光明正大的翹課才對吧～？",
 			effects = {
 				{
 					active = false,
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "啊…果然还是不大好吧…姐姐又要生气了",
+			say = "啊…果然還是不大好吧…姐姐又要生氣了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "不、不过，既然有风纪委员，就应该有不良少女才对吧！嗯嗯！",
+			say = "不、不過，既然有風紀委員，就應該有不良少女才對吧！嗯嗯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "谁啊！走路都不看路的吗！",
+			say = "誰啊！走路都不看路的嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			}
 		},
 		{
-			say = "疼疼疼…对、对不起…",
+			say = "疼疼疼…對、對不起…",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "原来是{namecode:2}啊…慌慌张张的做什么呢…",
+			say = "原來是{namecode:2}啊…慌慌張張的做什麼呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			actor = 301011,
 			actorName = "{namecode:2}",
-			say = "快、快迟到了不是吗——啊咧？{namecode:94}、{namecode:94}？妳这一身…",
+			say = "快、快遲到了不是嗎——啊咧？{namecode:94}、{namecode:94}？妳這一身…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "哼哼哼，怎么样！是不是挺像的！这下姐姐也——",
+			say = "哼哼哼，怎麼樣！是不是挺像的！這下姐姐也——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "呜哇！姐姐这么快就来了！",
+			say = "嗚哇！姐姐這麼快就來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "赌上{namecode:63}托付给我的风纪委员之名，就算是妹妹，不、正因为是妹妹，才更要纠正妳！",
+			say = "賭上{namecode:63}託付給我的風紀委員之名，就算是妹妹，不、正因為是妹妹，才更要糾正妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			nameColor = "#a9f548",
-			say = "呜——",
+			say = "嗚——",
 			subActors = {
 				{
 					actor = 301011,
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "咦，怎么{namecode:2}也在这里…",
+			say = "咦，怎麼{namecode:2}也在這裡…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "啊，都这时间了…总、总之先去学校吧！都快迟到了…",
+			say = "啊，都這時間了…總、總之先去學校吧！都快遲到了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "{namecode:94}！回头我再找妳！",
+			say = "{namecode:94}！回頭我再找妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

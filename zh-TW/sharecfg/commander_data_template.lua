@@ -17,7 +17,7 @@ pg.commander_data_template = {
 		command_value = 52
 	},
 	[10021] = {
-		name = "奥古喵",
+		name = "奧古喵",
 		rarity = 5,
 		painting = "aogumiao",
 		nationality = 1,
@@ -113,7 +113,7 @@ pg.commander_data_template = {
 		command_value = 52
 	},
 	[20021] = {
-		name = "庞德喵",
+		name = "龐德喵",
 		rarity = 5,
 		painting = "pangdemiao",
 		nationality = 2,
@@ -385,7 +385,7 @@ pg.commander_data_template = {
 		command_value = 59
 	},
 	[41031] = {
-		name = "赫尔喵",
+		name = "赫爾喵",
 		rarity = 4,
 		painting = "tiexuemiao",
 		nationality = 4,

@@ -34,7 +34,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "最多可以一口气选择<color=#A9F548>10</color>个想要训练的喵箱，不过同时只会有<color=#A9F548>4</color>个进行训练！这次就先选择1个吧！",
+				text = "最多可以一口氣選擇<color=#A9F548>10</color>個想要訓練的喵箱，不過同時只會有<color=#A9F548>4</color>個進行訓練！這次就先選擇1個吧！",
 				mode = 1,
 				dir = 1,
 				posY = -110,

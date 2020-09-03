@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=45>二 无双的传承</size>",
+					"彼岸花之戀？\n\n<size=45>二 無雙的傳承</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "白天·演习海域",
+			say = "白天·演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "舰载机紧急下落引起的凛冽风声、以及炸弹命中靶舰后的爆炸声、各种声响交织着——",
+			say = "艦載機緊急下落引起的凜冽風聲、以及炸彈命中靶艦後的爆炸聲、各種聲響交織著——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			actor = 307040,
 			actorName = "{namecode:94}",
-			say = "哈啊…哈啊…今，今天训练得比平时还凶啊…",
+			say = "哈啊…哈啊…今，今天訓練得比平時還兇啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			say = "是啊……{namecode:91}前辈这是怎么了…已经好久没经历过这么辛苦的共同训练了吧…？",
+			say = "是啊……{namecode:91}前輩這是怎麼了…已經好久沒經歷過這麼辛苦的共同訓練了吧…？",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			actorName = "{namecode:93}",
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "唔！但只要熬过这关就能更接近前辈一些了！…怎么了{namecode:95}姐！？",
+			say = "唔！但只要熬過這關就能更接近前輩一些了！…怎麼了{namecode:95}姐！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			actorName = "{namecode:95}",
-			say = "前辈真坏前辈真坏前辈真坏真坏真坏……（碎碎念）",
+			say = "前輩真壞前輩真壞前輩真壞真壞真壞……（碎碎念）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			actor = 307020,
 			actorName = "{namecode:92}",
-			say = "妳们还是别费口舌了。今天的姐姐是动真格的。一个不小心就会像当初姐姐绰号里说的那样…见识到什么是地狱。",
+			say = "妳們還是別費口舌了。今天的姐姐是動真格的。一個不小心就會像當初姐姐綽號裡說的那樣…見識到什麼是地獄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			actor = 307040,
 			actorName = "{namecode:94}",
-			say = "不过为什么突然说要共同演习呢……{namecode:92}前辈知道原因吗？",
+			say = "不過為什麼突然說要共同演習呢……{namecode:92}前輩知道原因嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			actor = 307020,
 			actorName = "{namecode:92}",
-			say = "我也不清楚，不过据报告说上次演习的时候，白鹰那些家伙的成绩比我们重樱更好",
+			say = "我也不清楚，不過據報告說上次演習的時候，白鷹那些傢伙的成績比我們重櫻更好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			actor = 307020,
 			actorName = "{namecode:92}",
-			say = "姐姐也好久没这么拼了。就让我好好享受吧……呵呵呵呵……",
+			say = "姐姐也好久沒這麼拼了。就讓我好好享受吧……呵呵呵呵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actorName = "{namecode:91}",
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "这点程度就叫苦…就这样也敢自称重樱航空战队的一员吗！？",
+			say = "這點程度就叫苦…就這樣也敢自稱重櫻航空戰隊的一員嗎！？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "……指挥官大人？呵呵，让妳见笑了……请见谅",
+			say = "……指揮官大人？呵呵，讓你見笑了……請見諒",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "不过…我并不是公报私仇，而是为了我们一航战…不，是为了我们重樱……",
+			say = "不過…我並不是公報私仇，而是為了我們一航戰…不，是為了我們重櫻……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "正是因为这些努力，我们才会在那场战斗里得到“无双”的称呼哦",
+			say = "正是因為這些努力，我們才會在那場戰鬥裡得到“無雙”的稱呼哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:91}，整队完毕了。指挥官，别看辛苦，为了获得足够的力量大家都很努力。妳无需同情她们。",
+			say = "{namecode:91}，整隊完畢了。指揮官，別看辛苦，為了獲得足夠的力量大家都很努力。你無需同情她們。",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			actorName = "{namecode:92}",
@@ -300,7 +300,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "……那么指挥官，{namecode:91}就先回去共同训练了哦。想参观的话麻烦到那边去看吧。呵呵♪",
+			say = "……那麼指揮官，{namecode:91}就先回去共同訓練了哦。想參觀的話麻煩到那邊去看吧。呵呵♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

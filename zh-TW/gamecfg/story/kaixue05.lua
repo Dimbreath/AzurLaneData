@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=45>五　空教室的不可思议</size>",
+					"櫻花爛漫開學祭\n\n<size=45>五　空教室的不可思議</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "放学后，学院走廊",
+			say = "放學後，學院走廊",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 0,
 			nameColor = "#a9f548",
-			say = "（收到了放学后的空教室有奇怪动静的报告…）",
+			say = "（收到了放學後的空教室有奇怪動靜的報告…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			withoutPainting = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喵喵…不可以捣乱……",
+			say = "喵喵…不可以搗亂……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			},
 			options = {
 				{
-					content = "推开教室的门",
+					content = "推開教室的門",
 					flag = 1
 				}
 			}
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			actor = 101262,
 			nameColor = "#a9f548",
-			say = "嗯…？指挥…官？",
+			say = "嗯…？指揮…官？",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃尔德里奇…没有捣乱……",
+			say = "埃爾德里奇…沒有搗亂……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是喜欢在没人的教室…待着…",
+			say = "只是喜歡在沒人的教室…待著…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是喵喵…经常把书本弄得好乱…指挥官？",
+			say = "但是喵喵…經常把書本弄得好亂…指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			},
 			options = {
 				{
-					content = "帮忙收拾书本",
+					content = "幫忙收拾書本",
 					flag = 1
 				}
 			}
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢指挥官…喵喵…也要道谢哦",
+			say = "謝謝指揮官…喵喵…也要道謝哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			},
 			options = {
 				{
-					content = "学校有趣吗？",
+					content = "學校有趣嗎？",
 					flag = 1
 				}
 			}
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在学校，没有在指挥官身边，有趣…",
+			say = "在學校，沒有在指揮官身邊，有趣…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过学校里，大家都喜欢看埃尔德里奇放电……埃尔德里奇，很高兴！",
+			say = "不過學校裡，大家都喜歡看埃爾德里奇放電……埃爾德里奇，很高興！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，要和埃尔德里奇…一起听歌吗？",
+			say = "指揮官，要和埃爾德里奇…一起聽歌嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "和埃尔德里奇还有喵喵一起度过了一段治愈的时间……",
+			say = "和埃爾德里奇還有喵喵一起度過了一段療癒的時間……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -336,7 +336,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 102
+		key_value = 147
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -527,7 +527,7 @@ pg.gameset = {
 	},
 	commander_box_count = {
 		description = "",
-		key_value = 4
+		key_value = 10
 	},
 	commander_get_cost = {
 		key_value = 0,

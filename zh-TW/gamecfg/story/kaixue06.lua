@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=45>六　放学后的特别辅导</size>",
+					"櫻花爛漫開學祭\n\n<size=45>六　放學後的特別輔導</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "那么…开始今天的特别辅导吧——",
+			say = "那麼…開始今天的特別輔導吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			say = "站在讲台上的{namecode:93}姐姐，果然还是很威风凛凛呢！",
+			say = "站在講台上的{namecode:93}姐姐，果然還是很威風凜凜呢！",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "欸~~为什么我都要参加辅导啊~明明成绩是No.1才对！",
+			say = "欸~~為什麼我都要參加輔導啊~明明成績是No.1才對！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = -1,
 			actor = 301011,
 			actorName = "{namecode:2}",
-			say = "呜呜…测验的时候不小心忘记写名字了…",
+			say = "嗚嗚…測驗的時候不小心忘記寫名字了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "虽然学力一直都没什么问题，但却总是在奇怪的地方犯错误…",
+			say = "雖然學力一直都沒什麼問題，但卻總是在奇怪的地方犯錯誤…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "名字忘记写什么的…答案填错格什么的…",
+			say = "名字忘記寫什麼的…答案填錯格甚麼的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = -1,
 			actor = 301011,
 			actorName = "{namecode:2}",
-			say = "呜……为什么我总是会在一些奇怪的地方出漏子呢…",
+			say = "嗚……為什麼我總是會在一些奇怪的地方出紕漏呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "总之把妳留下来也只是为了给妳提个醒，倒也没什么…",
+			say = "總之把妳留下來也只是為了給妳提個醒，倒也沒什麼…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "问题是Z1！",
+			say = "問題是Z1！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "还有{namecode:94}！",
+			say = "還有{namecode:94}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "对于妳们两个精力过剩的“问题儿童”，有必要从最基本的“学生的本分”开始教育起了呢…",
+			say = "對於妳們兩個精力過剩的“問題兒童”，有必要從最基本的“學生的本分”開始教育起了呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "做好心理准备吧！今天的辅导课，会很长哦！",
+			say = "做好心理準備吧！今天的輔導課，會很長哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

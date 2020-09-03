@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=45>五 细小的伤痕</size>",
+					"彼岸花之戀？\n\n<size=45>五 細小的傷痕</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·食堂厨房",
+			say = "港區·食堂廚房",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "今天负责做饭的家伙居然感冒了…真是…竟然要指挥官亲自动手，回头要好好惩罚一下…",
+			say = "今天負責做飯的傢伙居然感冒了…真是…竟然要指揮官親自動手，回頭要好好懲罰一下…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "不过仔细想想，能和指挥官一起做饭，倒是该表达感谢了～呵呵呵…换做是{namecode:92}的话什么事都会自己解决，所以能享受这种体验的只有我了……",
+			say = "不過仔細想想，能和指揮官一起做飯，倒是該表達感謝了～呵呵呵…換做是{namecode:92}的話什麼事都會自己解決，所以能享受這種體驗的只有我了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "啊…指挥官做饭的样子好帅…{namecode:91}光是看着就快烧起来了……",
+			say = "啊…指揮官做飯的樣子好帥…{namecode:91}光是看著就快燒起來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "身旁投来炽热的目光。……结果分了神，稍微切到了手。",
+			say = "身旁投來熾熱的目光。……結果分了神，稍微切到了手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,24 +95,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "指挥官！？妳的手怎么了……！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			actor = 307010,
-			actorName = "{namecode:91}",
-			say = "怎么会这样…难道这把刀里藏了什么机关！？还是这里面有什么打扰指挥官注意力的家伙……",
+			say = "指揮官！？你的手怎麼了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +112,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "是我失策了。光是在指挥室做了不让任何人进来的预防措施，忽视了指挥官不常来的厨房…",
+			say = "怎麼會這樣…難道這把刀裡藏了什麼機關！？還是這裡面有什麼打擾指揮官注意力的傢伙……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +129,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "既然{namecode:91}不能时刻陪在指挥官身边，只好找那孩子帮忙了…啊不过她要是以此为借口要和指挥官住到一间房里去的话…！",
+			say = "是我失策了。光是在指揮室做了不讓任何人進來的預防措施，忽視了指揮官不常來的廚房…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +146,24 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "对了！干脆把指挥官锁起来就不会离开{namecode:91}身边了……去找{namecode:98}那小丫头……不，{namecode:91}自己来做吧！",
+			say = "既然{namecode:91}不能時刻陪在指揮官身邊，只好找那孩子幫忙了…啊不過她要是以此為藉口要和指揮官住到一間房裡去的話…！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_outdoor",
+			dir = 1,
+			actor = 307010,
+			actorName = "{namecode:91}",
+			say = "對了！乾脆把指揮官鎖起來就不會離開{namecode:91}身邊了……去找{namecode:98}那小丫頭……不，{namecode:91}自己來做吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,11 +174,11 @@ return {
 			},
 			options = {
 				{
-					content = "先自己贴个创可贴",
+					content = "先自己貼個OK蹦",
 					flag = 1
 				},
 				{
-					content = "先向{namecode:91}解释自己没事",
+					content = "先向{namecode:91}解釋自己沒事",
 					flag = 2
 				}
 			}
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "指挥官，妳在说什么呢？还是说不需要{namecode:91}担心妳？该不会明明有{namecode:91}在妳还想去找别人帮忙吧…？",
+			say = "指揮官，你在說什麼呢？還是說不需要{namecode:91}擔心你？該不會明明有{namecode:91}在你還想去找別人幫忙吧…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "……对付这种不听{namecode:91}的话，还一直逞强的指挥官……",
+			say = "……對付這種不聽{namecode:91}的話，還一直逞強的指揮官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "动一下身体，感觉到周围毛茸茸的……",
+			say = "動一下身體，感覺到周圍毛茸茸的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "看来已经完全被尾巴挡住了去路。",
+			say = "看來已經完全被尾巴擋住了去路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "别以为能逃掉哦。别看我这样，{namecode:91}对指挥官可是比谁都……呵呵",
+			say = "別以為能逃掉哦。別看我這樣，{namecode:91}對指揮官可是比誰都……呵呵",
 			action = {
 				{
 					y = 15,
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "被巨大的尾巴笼罩着，关在了和{namecode:91}独处的这个空间里。",
+			say = "被巨大的尾巴籠罩著，關在了和{namecode:91}獨處的這個空間裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

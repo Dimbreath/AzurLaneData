@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=45>四　图书室的妖精</size>",
+					"櫻花爛漫開學祭\n\n<size=45>四　圖書室的妖精</size>",
 					1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "图书室！奇怪的响声！",
+			say = "圖書室！奇怪的響聲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			actor = 301011,
 			actorName = "{namecode:2}",
-			say = "顺着声音的方向追过去，结果…什么都没有！",
+			say = "順著聲音的方向追過去，結果…什麼都沒有！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后声音又从其他地方传来了！",
+			say = "然後聲音又從其他地方傳來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hideOther = true,
 			actor = 101061,
 			nameColor = "#a9f548",
-			say = "一定是“图书室的妖精”啦！指挥官！",
+			say = "一定是“圖書室的妖精”啦！指揮官！",
 			subActors = {
 				{
 					actor = 301011,
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			stopbgm = true,
-			say = "为了调查事情的真相而来到了图书室…",
+			say = "為了調查事情的真相而來到了圖書室…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -183,7 +183,7 @@ return {
 			blackBg = true,
 			actor = 202111,
 			actorName = "？？？",
-			say = "嘁…为什么那家伙不一起来上学呢",
+			say = "嘁…為什麼那傢伙不一起來上學呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			blackBg = true,
 			actor = 202111,
 			actorName = "？？？",
-			say = "说什么自己是侍奉女王的女仆…我也是女仆呀…",
+			say = "說什麼自己是侍奉女王的女僕…我也是女僕呀…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			blackBg = true,
 			actor = 202111,
 			actorName = "？？？",
-			say = "那家伙不在一点意思都没有…",
+			say = "那傢伙不在一點意思都沒有…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			blackBg = true,
 			actor = 202111,
 			actorName = "？？？",
-			say = "还好学院还有这么个图书室~",
+			say = "還好學院還有這麼個圖書室~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			blackBg = true,
 			actor = 202111,
 			actorName = "？？？",
-			say = "又安静…又宽敞…还偶尔能戏弄一下来借书的驱逐们嘻嘻嘻——",
+			say = "又安靜…又寬敞…還偶爾能戲弄一下來借書的驅逐們嘻嘻嘻——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,11 +287,11 @@ return {
 			},
 			options = {
 				{
-					content = "顺着声音悄悄靠近",
+					content = "順著聲音悄悄靠近",
 					flag = 2
 				},
 				{
-					content = "顺着声音狂奔过去",
+					content = "順著聲音狂奔過去",
 					flag = 1
 				}
 			}
@@ -352,7 +352,7 @@ return {
 			optionFlag = 2,
 			actor = 202111,
 			nameColor = "#a9f548",
-			say = "贝法那家伙…明明我才是姐姐…",
+			say = "貝法那傢伙…明明我才是姐姐…",
 			flashout = {
 				dur = 1,
 				black = false,
@@ -386,7 +386,7 @@ return {
 			optionFlag = 2,
 			actor = 202111,
 			nameColor = "#a9f548",
-			say = "话说今天爱看书的驱逐们怎么还没来呢——",
+			say = "話說今天愛看書的驅逐們怎麼還沒來呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "原来是指挥官啊…不要吓我啦……啊糟了——",
+			say = "原來是指揮官啊…不要嚇我啦……啊糟了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgm = "story-1",
 			actor = 101061,
 			nameColor = "#a9f548",
-			say = "原来妖精是爱丁堡呀~",
+			say = "原來妖精是愛丁堡呀~",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -464,7 +464,7 @@ return {
 			}
 		},
 		{
-			say = "太、太好了…不是什么可怕的东西…",
+			say = "太、太好了…不是什麼可怕的東西…",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -490,7 +490,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜对不起…我只是一时觉得有趣…",
+			say = "嗚嗚對不起…我只是一時覺得有趣…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			blackBg = true,
 			actor = 202111,
 			nameColor = "#a9f548",
-			say = "要、要跟贝法报告？唯有这点请放过我呜呜——",
+			say = "要、要跟貝法報告？唯有這點請放過我嗚嗚——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

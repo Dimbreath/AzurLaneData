@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“指挥喵”可以随舰队一同出击，并且给舰队带来各种强力的帮助喵！",
+			say = "“指揮喵”可以隨艦隊一同出擊，並且給艦隊帶來各種強力的幫助喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，与其听{namecode:98}说，不如指挥官亲自尝试喵！首先获取一名夥伴试试喵？！",
+			say = "不過，與其聽{namecode:98}說，不如指揮官親自嘗試喵！首先獲取一名夥伴試試喵？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

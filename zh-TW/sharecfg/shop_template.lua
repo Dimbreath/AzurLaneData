@@ -567,6 +567,28 @@ pg.shop_template = {
 			}
 		}
 	},
+	[23] = {
+		group_type = 0,
+		resource_num = 200,
+		desc = "200鑽石擴充指揮喵容量+10",
+		type = 0,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 0,
+		time = "always",
+		effect_args = "commander_bag_size",
+		group = 0,
+		num = 10,
+		discount = 0,
+		resource_type = 14,
+		id = 23,
+		genre = "",
+		discount_time = {},
+		limit_args = {}
+	},
 	[24] = {
 		group_type = 0,
 		resource_num = 450,
@@ -5862,6 +5884,33 @@ pg.shop_template = {
 			15009
 		}
 	},
+	[61012] = {
+		group_type = 0,
+		resource_num = 80,
+		desc = "80鑽石擴充貓窩容量+5",
+		type = 0,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		time = "always",
+		effect_args = "commander_bag_size",
+		group = 0,
+		num = 5,
+		discount = 0,
+		resource_type = 14,
+		id = 61012,
+		genre = "gem_shop",
+		discount_time = {},
+		limit_args = {
+			{
+				"level",
+				40
+			}
+		}
+	},
 	[61013] = {
 		group_type = 0,
 		resource_num = 300,
@@ -8142,6 +8191,55 @@ pg.shop_template = {
 			307041
 		}
 	},
+	[70054] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "購買造型:火奴魯魯校服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 1600,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 20,
+		resource_type = 14,
+		id = 70054,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2018,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					4,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			102121
+		}
+	},
 	[70055] = {
 		group_type = 0,
 		resource_num = 780,
@@ -8312,6 +8410,30 @@ pg.shop_template = {
 					59
 				}
 			}
+		}
+	},
+	[70058] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "購買造型:谷風造型",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 190,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70058,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301621
 		}
 	},
 	[70059] = {
@@ -8896,7 +9018,32 @@ pg.shop_template = {
 		resource_type = 14,
 		id = 70071,
 		genre = "skin_shop",
-		discount_time = {},
+		discount_time = {
+			{
+				{
+					2020,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					5,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		limit_args = {},
 		effect_args = {
 			299021
@@ -9233,11 +9380,36 @@ pg.shop_template = {
 		order = 160,
 		group = 0,
 		num = 1,
-		discount = 0,
+		discount = 10,
 		resource_type = 14,
 		id = 70079,
 		genre = "skin_shop",
-		discount_time = {},
+		discount_time = {
+			{
+				{
+					2019,
+					10,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		limit_args = {},
 		effect_args = {
 			408021
@@ -9356,11 +9528,36 @@ pg.shop_template = {
 		order = 180,
 		group = 0,
 		num = 1,
-		discount = 0,
+		discount = 10,
 		resource_type = 14,
 		id = 70081,
 		genre = "skin_shop",
-		discount_time = {},
+		discount_time = {
+			{
+				{
+					2019,
+					10,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		limit_args = {},
 		effect_args = {
 			401251
@@ -9645,9 +9842,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 0,
 		time_second = 0,
-		order = 110,
+		order = 1100,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11425,7 +11622,32 @@ pg.shop_template = {
 		resource_type = 14,
 		id = 70143,
 		genre = "skin_shop",
-		discount_time = {},
+		discount_time = {
+			{
+				{
+					2019,
+					1,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					1,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		limit_args = {},
 		effect_args = {
 			205072
@@ -12436,6 +12658,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70170] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "购买皮肤：光辉韩服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 170,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70170,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			207033
+		},
+		time = {
+			{
+				{
+					2020,
+					9,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					9,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70173] = {
 		group_type = 0,
 		resource_num = 780,
@@ -13213,7 +13484,32 @@ pg.shop_template = {
 		resource_type = 14,
 		id = 70243,
 		genre = "skin_shop",
-		discount_time = {},
+		discount_time = {
+			{
+				{
+					2019,
+					10,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		limit_args = {},
 		effect_args = {
 			905011
@@ -15031,6 +15327,7 @@ pg.shop_template = {
 		19,
 		20,
 		21,
+		23,
 		24,
 		25,
 		26,
@@ -15205,6 +15502,7 @@ pg.shop_template = {
 		61008,
 		61009,
 		61010,
+		61012,
 		61013,
 		70001,
 		70002,
@@ -15252,9 +15550,11 @@ pg.shop_template = {
 		70051,
 		70052,
 		70053,
+		70054,
 		70055,
 		70056,
 		70057,
+		70058,
 		70059,
 		70061,
 		70062,
@@ -15333,6 +15633,7 @@ pg.shop_template = {
 		70166,
 		70167,
 		70168,
+		70170,
 		70173,
 		70193,
 		70194,

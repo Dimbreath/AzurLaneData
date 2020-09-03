@@ -37,7 +37,7 @@ function slot0.register(slot0)
 		slot0.viewComponent:setNormalGroupList(slot7)
 	end
 
-	if not slot4 or not chargeList or not slot6 or not slot7 then
+	if not slot4 or not slot5 or not slot6 or not slot7 then
 		slot0:sendNotification(GAME.GET_CHARGE_LIST)
 	end
 

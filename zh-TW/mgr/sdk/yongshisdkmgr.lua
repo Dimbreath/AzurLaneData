@@ -137,6 +137,9 @@ function OnDeepLinking(slot0)
 end
 
 return {
+	CheckPretest = function ()
+		return NetConst.GATEWAY_HOST == "ts-all-login.azurlane.tw" and (NetConst.GATEWAY_PORT == 11001 or NetConst.GATEWAY_PORT == 11101) or Application.isEditor
+	end,
 	InitSDK = function ()
 		uv0:Init()
 	end,

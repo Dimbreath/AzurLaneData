@@ -119,15 +119,41 @@ return {
 		{
 			expression = 1,
 			side = 0,
-			dir = -1,
-			actor = 205050,
 			nameColor = "#a9f548",
+			dir = -1,
+			soundeffect = "event:/battle/boom2",
+			actor = 205050,
 			say = "皇家舰队，逢敌必战，开火！",
-			effects = {
-				{
-					destroy = true,
-					name = "paoji_qiaozhiwushi",
-					active = false
+			flashN = {
+				color = {
+					1,
+					1,
+					1
+				},
+				alpha = {
+					{
+						0,
+						1,
+						0.2
+					},
+					{
+						1,
+						0,
+						0.2,
+						0.2
+					},
+					{
+						0,
+						1,
+						0.2,
+						0.4
+					},
+					{
+						1,
+						0,
+						0.2,
+						0.6
+					}
 				}
 			},
 			typewriter = {
@@ -143,12 +169,6 @@ return {
 			seDelay = 1.3,
 			say = "轰————",
 			soundeffect = "event:/battle/boom2",
-			effects = {
-				{
-					active = true,
-					name = "paoji_qiaozhiwushi"
-				}
-			},
 			flashN = {
 				color = {
 					1,

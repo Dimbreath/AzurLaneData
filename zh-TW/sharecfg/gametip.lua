@@ -3692,17 +3692,9 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 			{
 				info = [[
 
-換裝更換說明：
+換裝說明：
 
- 1.通過消耗相同角色或特殊角色，並消耗一定資源可試角色性
-能提升，最多可提升三次]]
-			},
-			{
-				info = [[
-
- 2.角色星級提高後各項屬性都會大幅提升，並且對應的武器效
-率也會得到增強，部分角色還將獲得特殊彈幕、額外艦載機等增
-益]]
+       未在上架期間的換裝請期待下次上架]]
 			}
 		}
 	},
@@ -5892,7 +5884,7 @@ $3]]
 		tip = "中止研究失敗"
 	},
 	blueprint_destory_tip = {
-		tip = "方案艦不能被摧毀"
+		tip = "方案艦不能被退役"
 	},
 	blueprint_task_update_tip = {
 		tip = "當前研究中的<color=#A9F548>$1</color>有新的進展，請去開發船塢確認"
@@ -6682,7 +6674,7 @@ $3]]
 		tip = "目標指揮喵已滿級，只能選擇同名指揮喵強化技能"
 	},
 	commander_material_is_rarity = {
-		tip = "列表中有SSR以上的的指揮喵，是否確定？"
+		tip = "列表中有SSR以上的的指揮喵，是否確認？"
 	},
 	commander_material_is_maxLevel = {
 		tip = "指揮喵已滿級，陪玩將不會獲得指揮喵經驗，是否確定？"
@@ -6700,13 +6692,13 @@ $3]]
 		tip = "齊柏林伯爵、Z46、U-47、Z25、Z35、希佩爾將軍、Z19出現機率UP!"
 	},
 	buildship_heavy_tip = {
-		tip = "愛宕、威爾斯親王建造追加！"
+		tip = "小比叡建造追加！"
 	},
 	buildship_light_tip = {
-		tip = "蒙彼利埃、丹佛建造追加！"
+		tip = "谷風建造追加！"
 	},
 	buildship_special_tip = {
-		tip = "伊19、伊26、伊58、U-81、鰷魚建造追加！"
+		tip = "半人馬、小赤城、小齊柏林建造追加！"
 	},
 	world_log_1 = {
 		tip = "任務[$task]完成。"
@@ -6831,125 +6823,9 @@ $3]]
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/commander_info"
+					atlas = "helpbg/commander_build"
 				}
 			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability2"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability3"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_up"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_skill1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_skill2"
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			defaultpage = 1,
-			ImageMode = true,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	},
-	help_commander_play = {
-		tip = {
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_info"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability2"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability3"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_up"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_skill1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_skill2"
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			defaultpage = 5,
-			ImageMode = true,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	},
-	help_commander_ability = {
-		tip = {
 			{
 				icon = {
 					path = "",
@@ -7009,6 +6885,140 @@ $3]]
 			}
 		}
 	},
+	help_commander_play = {
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_build"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_info"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_up"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 4,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	help_commander_ability = {
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_build"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_info"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_up"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 3,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
 	story_skip_confirm = {
 		tip = "還未觀看過本段劇情，是否確定跳過？\n跳過的劇情可以在<color=#A1E400FF>收藏>回憶</COLOR>中回看"
 	},
@@ -7023,24 +7033,62 @@ $3]]
 					atlas = "helpbg/commander_build"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_info"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_up"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill2"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -7291,7 +7339,7 @@ $3]]
 		tip = "大講堂"
 	},
 	school_title_zhihuimiao = {
-		tip = "指挥喵"
+		tip = "指揮喵"
 	},
 	school_title_shitang = {
 		tip = "海軍食堂"
@@ -8064,7 +8112,7 @@ Bofors 四聯40mm對空機炮？</color></size>]]
 		tip = "已經擁有該換裝"
 	},
 	exchange_limit_skin_tip = {
-		tip = "是否消耗換裝體驗券x$1\n兌換[$2] $3天$4小時體驗 "
+		tip = "是否消耗換裝體驗券x$1\n兌換[$2] $3天$4小時體驗"
 	},
 	returner_help = {
 		tip = {
@@ -8317,19 +8365,19 @@ UID：
 		tip = "改名成功"
 	},
 	commander_prefab_name = {
-		tip = "预设编队$1"
+		tip = "預設編隊$1"
 	},
 	commander_prefab_rename_time = {
-		tip = "$1秒后可以继续改名"
+		tip = "$1秒後可以繼續改名"
 	},
 	commander_build_solt_deficiency = {
-		tip = "没有多余的栏位"
+		tip = "沒有多餘的欄位"
 	},
 	commander_select_box_tip = {
-		tip = "一共选择了$1个猫箱，开始训练后将无法取消，是否确定？"
+		tip = "一共選擇了$1個喵箱，開始訓練後將無法取消，是否確認？"
 	},
 	challenge_end_tip = {
-		tip = "活动已结束"
+		tip = "活動已結束"
 	},
 	pass_times = {
 		tip = "通關次數"
@@ -8826,7 +8874,7 @@ E組）
 		tip = "獲得了應援資格"
 	},
 	vote_book_is_over = {
-		tip = "本輪投票已結束，無法再獲取應援資格 "
+		tip = "本輪投票已結束，無法再獲取應援資格"
 	},
 	vote_fame_tip = {
 		tip = "※觀賞完殿堂角色特別小故事，可解鎖角色專屬頭像框：企業$1,貝爾法斯特$2,椿$3 "
@@ -9289,10 +9337,10 @@ combo达到10/20/40/60/80/100时，分别为每次有效
 		tip = "合成數量："
 	},
 	help_sub_limits = {
-		tip = "關閉/顯示潛艇範圍 "
+		tip = "關閉/顯示潛艇範圍"
 	},
 	help_sub_display = {
-		tip = "自主尋敵/待機模式 "
+		tip = "自主尋敵/待機模式"
 	},
 	confirm_unlock_ship_main = {
 		tip = "該艦船已被設為秘書艦，無法選擇"
@@ -9591,7 +9639,7 @@ TIPS：
 		tip = "[朴的可爱<怪奇>生物图鉴No.5]\n隐身汪：会隐形的汪汪，唯一不能隐形的屁股是它最大的烦恼"
 	},
 	special_animal6 = {
-		tip = "[朴的可爱<怪奇>生物图鉴No.6]\n肌肉啾：热衷于健身的肌肉啾，似乎有点练过头了 "
+		tip = "[朴的可爱<怪奇>生物图鉴No.6]\n肌肉啾：热衷于健身的肌肉啾，似乎有点练过头了"
 	},
 	special_animal7 = {
 		tip = "[朴的可爱<怪奇>生物图鉴No.7]\n彩虹香肠喵：睡觉时会流下彩虹口水的彩虹超长猫，有着奇怪的睡姿"
@@ -9646,7 +9694,7 @@ TIPS：
 		tip = "是否退出關卡？退出關卡將無法獲得獎勵。"
 	},
 	monopoly_left_count = {
-		tip = " "
+		tip = ""
 	},
 	help_chunjie_monopoly = {
 		tip = {
@@ -10227,7 +10275,7 @@ TIPS：
 		tip = "再次挑戰"
 	},
 	keep_fate_tip = {
-		tip = "保留<color=#92fc63>天運擬合</color>所需藍圖 "
+		tip = "保留<color=#92fc63>天運擬合</color>所需藍圖"
 	},
 	equip_info_1 = {
 		tip = "傷害"
@@ -10382,6 +10430,28 @@ TIPS：
 	},
 	click_back_tip = {
 		tip = "點擊空白處返回"
+	},
+	trade_card_tips1 = {
+		tip = "前往商店"
+	},
+	trade_card_tips2 = {
+		tip = [[
+重大提醒！ 
+指揮官，貿易許可證已經在$1到期喵！ 
+許可證到期之後，各式各樣的便利就無法繼續享受了喵.....
+要不要考慮繼續簽訂貿易許可呢喵~
+{namecode:98}會隨時在商店等著您哦，喵~！]]
+	},
+	trade_card_tips3 = {
+		tip = [[
+重大提醒！ 
+指揮官，貿易許可證會在$1到期喵！ 
+許可證到期之後，各式各樣的便利就無法繼續享受了喵.....
+要不要考慮繼續簽訂貿易許可呢喵~
+{namecode:98}會隨時在商店等著您哦，喵~！]]
+	},
+	trade_card_tips4 = {
+		tip = "$1年$2月$3日"
 	},
 	multiple_ship_energy_low_warn = {
 		tip = "$1中$2處於心情低落狀態，強制出擊將降低好感且獲得經驗減半"

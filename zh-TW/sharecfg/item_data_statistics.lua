@@ -4657,7 +4657,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[20011] = {
-		display = "從茗商店訂購得到的紙箱，裡面似乎有什麼…？",
+		display = "從明石商店訂購得到的紙箱，裡面似乎有什麼…？",
 		rarity = 2,
 		type = 2,
 		drop_oil_max = 0,
@@ -4678,7 +4678,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[20012] = {
-		display = "從茗商店訂購得到的紙箱，裡面似乎有什麼…？",
+		display = "從明石商店訂購得到的紙箱，裡面似乎有什麼…？",
 		rarity = 3,
 		type = 2,
 		drop_oil_max = 0,
@@ -4699,7 +4699,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[20013] = {
-		display = "從茗商店訂購得到的紙箱，裡面似乎有什麼…？",
+		display = "從明石商店訂購得到的紙箱，裡面似乎有什麼…？",
 		rarity = 4,
 		type = 2,
 		drop_oil_max = 0,
@@ -58864,6 +58864,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59153] = {
+		display = "用於『異國的偶像？』活動兌換，活動結束後將會消失",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "長鼓",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59153,
+		icon = "Props/drum",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59156] = {
 		display = "用於『限時體驗商店』兌換角色限時換裝，2020年7月8日後將無法使用 ",
 		rarity = 4,
@@ -62240,6 +62258,7 @@ pg.item_data_statistics = {
 		59140,
 		59150,
 		59152,
+		59153,
 		59156,
 		59159,
 		59601,

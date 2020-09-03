@@ -127,11 +127,7 @@ function slot0.CheckPreAudit(slot0)
 end
 
 function slot0.CheckPretest(slot0)
-	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_CH then
-		return slot0:Get("CheckPretest")
-	else
-		return false
-	end
+	return slot0:Get("CheckPretest")
 end
 
 function slot0.AiriLoginSDK(slot0)

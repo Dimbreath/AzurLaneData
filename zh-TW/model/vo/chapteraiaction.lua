@@ -46,7 +46,7 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 		if pg.land_based_template[slot4.attachmentId].type == ChapterConst.LBCoastalGun then
 			slot2.viewComponent:doPlayAnim("coastalgun", function (slot0)
 				setActive(slot0, false)
-				uv2.viewComponent:easeMoveDown(uv2.viewComponent.grid.cellFleets[uv0:getFleet(FleetType.Normal, uv1.stgTarget.row, uv1.stgTarget.column).id].tf.position, uv3)
+				uv0()
 			end)
 		elseif slot5.type == ChapterConst.LBHarbor then
 			if not slot0.hp_del or slot0.hp_del <= 0 then
@@ -320,7 +320,7 @@ function slot0.applyToHarbor(slot0, slot1, slot2, slot3)
 		if #slot0.cellUpdates > 0 then
 			_.each(slot0.cellUpdates, function (slot0)
 				if isa(slot0, ChapterChampionPackage) then
-					merge = uv0:mergeChampion(slot0)
+					slot1 = uv0:mergeChampion(slot0)
 					uv1 = bit.bor(uv1, ChapterConst.DirtyChampion)
 				else
 					uv0:mergeChapterCell(slot0)
@@ -383,7 +383,7 @@ function slot0.applyToAntiAir(slot0, slot1, slot2, slot3)
 
 		_.each(slot0.cellUpdates, function (slot0)
 			if isa(slot0, ChapterChampionPackage) then
-				merge = uv0:mergeChampion(slot0)
+				slot1 = uv0:mergeChampion(slot0)
 			else
 				uv0:mergeChapterCell(slot0)
 

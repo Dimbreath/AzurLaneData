@@ -25836,6 +25836,127 @@ pg.bullet_template = {
 			}
 		}
 	},
+	[19178] = {
+		range_offset = 20,
+		modle_ID = "Torpedo01",
+		type = 3,
+		antisub_enhancement = 0,
+		out_bound = 0,
+		alert_fx = "TorAlert",
+		miss_fx = "",
+		miss_sfx = "",
+		hit_sfx = "battle/torpedo-hit",
+		hit_fx = "TorpedoHit3",
+		range = 100,
+		effect_type = 1,
+		pierce_count = 0,
+		ammo_type = 4,
+		id = 19178,
+		velocity = 4,
+		damage_type = {
+			0.8,
+			1,
+			1.3
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		}
+	},
+	[19179] = {
+		range_offset = 20,
+		modle_ID = "Torpedo01",
+		type = 3,
+		antisub_enhancement = 0,
+		out_bound = 0,
+		alert_fx = "TorAlert",
+		miss_fx = "",
+		miss_sfx = "",
+		hit_sfx = "battle/torpedo-hit",
+		hit_fx = "TorpedoHit3",
+		range = 90,
+		effect_type = 1,
+		pierce_count = 0,
+		ammo_type = 4,
+		id = 19179,
+		velocity = 2,
+		damage_type = {
+			0.8,
+			1,
+			1.3
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {
+			tracker = {
+				angular = 1.6,
+				range = 14
+			}
+		},
+		cld_box = {
+			2.8,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		}
+	},
 	[19800] = {
 		range_offset = 15,
 		modle_ID = "kuasheAP",
@@ -55507,6 +55628,69 @@ pg.bullet_template = {
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {}
+	},
+	[79591] = {
+		range_offset = 20,
+		modle_ID = "Torpedo01",
+		type = 3,
+		antisub_enhancement = 1,
+		out_bound = 0,
+		alert_fx = "TorAlert",
+		miss_fx = "",
+		miss_sfx = "",
+		hit_sfx = "battle/torpedo-hit",
+		hit_fx = "TorpedoHit3",
+		range = 90,
+		effect_type = 1,
+		pierce_count = 0,
+		ammo_type = 3,
+		id = 79591,
+		velocity = 3,
+		damage_type = {
+			0.8,
+			1,
+			1.3
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {
+			tracker = {
+				angular = 1.6,
+				range = 14
+			}
+		},
+		cld_box = {
+			2.8,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		}
 	},
 	[80001] = {
 		range_offset = 20,
@@ -147864,6 +148048,8 @@ pg.bullet_template = {
 		19175,
 		19176,
 		19177,
+		19178,
+		19179,
 		19800,
 		19801,
 		19802,
@@ -148388,6 +148574,7 @@ pg.bullet_template = {
 		79571,
 		79572,
 		79581,
+		79591,
 		80001,
 		80002,
 		80003,

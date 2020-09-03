@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=45>六 黑暗之中的告白</size>",
+					"彼岸花之戀？\n\n<size=45>六 黑暗之中的告白</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-2",
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "指挥官只要好好听{namecode:91}的话就行了……别让{namecode:91}伤心……",
+			say = "指揮官只要好好聽{namecode:91}的話就行了……別讓{namecode:91}傷心……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "{namecode:91}要是伤心了……就……",
+			say = "{namecode:91}要是傷心了……就……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:91}一边说着一边将身体靠了过来，接着——",
+			say = "{namecode:91}一邊說著一邊將身體靠了過來，接著——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "{namecode:91}绝不会……伤害指挥官。就算指挥官成为了我的敌人——  ",
+			say = "{namecode:91}絕不會……傷害指揮官。就算指揮官成為了我的敵人——  ",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -146,7 +146,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "可是，如果指挥官受了伤，能为指挥官疗伤的只有{namecode:91}。",
+			say = "可是，如果指揮官受了傷，能為指揮官療傷的只有{namecode:91}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "其他任何人都不能，{namecode:92}也不能，只有{namecode:91}可以……指挥官妳要记住……",
+			say = "其他任何人都不能，{namecode:92}也不能，只有{namecode:91}可以……指揮官你要記住……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "指尖传来一丝凉意。",
+			say = "指尖傳來一絲涼意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "指挥官什么也不用想，什么也不用做。{namecode:91}会为妳做好一切。",
+			say = "指揮官什麼也不用想，什麼也不用做。{namecode:91}會為你做好一切。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "所以…指挥官，闭上眼睛…把一切都交给{namecode:91}就好。",
+			say = "所以…指揮官，閉上眼睛…把一切都交給{namecode:91}就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,18 +221,18 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "已经听过无数遍的话，却充满了{namecode:91}的心意。",
+			say = "已經聽過無數遍的話，卻充滿了{namecode:91}的心意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "闭上眼睛",
+					content = "閉上眼睛",
 					flag = 1
 				},
 				{
-					content = "告诉{namecode:91}希望她能依靠我",
+					content = "告訴{namecode:91}希望她能依靠我",
 					flag = 2
 				}
 			}
@@ -263,7 +263,7 @@ return {
 			optionFlag = 2,
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "——指挥官不只是想依靠{namecode:91}，“也想被{namecode:91}依靠”……",
+			say = "——指揮官不只是想依靠{namecode:91}，“也想被{namecode:91}依靠”……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "这是说…指挥官也想对{namecode:91}好…的意思吗？",
+			say = "這是說…指揮官也想對{namecode:91}好…的意思嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "（点头）",
+			say = "（點頭）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "……指挥官……",
+			say = "……指揮官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "被{namecode:91}紧紧抱住。",
+			say = "被{namecode:91}緊緊抱住。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

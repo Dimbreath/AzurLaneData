@@ -24,7 +24,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "喵啊啊啊啊！不可以乱跑喵！！",
+			say = "喵啊啊啊啊！不可以亂跑喵！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼喵？指挥官回来了喵？来的正好喵！快帮{namecode:98}抓住这小东西喵！",
+			say = "呼喵？指揮官回來了喵？來的正好喵！快幫{namecode:98}抓住這小東西喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			say = "呼喵…指挥官帮大忙了喵。",
+			say = "呼喵…指揮官幫大忙了喵。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个是什么喵？哼哼，问得好！这些小家伙正是{namecode:98}和港区的研究小组们最新的心血结晶——",
+			say = "這個是什麼喵？哼哼，問得好！這些小傢伙正是{namecode:98}和港區的研究小組們最新的心血結晶——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			say = "——指挥喵！！",
+			say = "——指揮喵！！",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "就让{namecode:98}来给你介绍介绍喵！",
+			say = "就讓{namecode:98}來給你介紹介紹喵！",
 			effects = {
 				{
 					active = false,

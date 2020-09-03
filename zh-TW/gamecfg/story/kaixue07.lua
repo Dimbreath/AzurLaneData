@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=45>七　新学年的开始</size>",
+					"櫻花爛漫開學祭\n\n<size=45>七　新學年的開始</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "呜呜…没想到姐姐的说教真的那么久…",
+			say = "嗚嗚…沒想到姐姐的說教真的那麼久…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			say = "以、以后再也不敢轻易招惹风纪委员了…",
+			say = "以、以後再也不敢輕易招惹風紀委員了…",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "哦！是指挥官呀！",
+			say = "哦！是指揮官呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			say = "哦？真难得，指挥官这是来学院巡视吗~",
+			say = "哦？真難得，指揮官這是來學院巡視嗎~",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -131,7 +131,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "学校有趣吗？当然有趣啦~",
+			say = "學校有趣嗎？當然有趣啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			say = "比起有趣不有趣，在学校学习提高自身能力，也是我们除了战斗之外的重要任务吧",
+			say = "比起有趣不有趣，在學校學習提高自身能力，也是我們除了戰鬥之外的重要任務吧",
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -168,7 +168,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿~真不像会从“不良少女”口中讲出来的话呢~",
+			say = "嘿~真不像會從“不良少女”口中講出來的話呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			},
 			options = {
 				{
-					content = "为什么是不良少女？",
+					content = "為什麼是不良少女？",
 					flag = 1
 				}
 			}
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "因为姐姐是风纪委员嘛…总觉得就这样下去，姐姐就都忙着管别人了…",
+			say = "因為姐姐是風紀委員嘛…總覺得就這樣下去，姐姐就都忙著管別人了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "而且妳看，既然有风纪委员，就应该有不良少女才对嘛？",
+			say = "而且妳看，既然有風紀委員，就應該有不良少女才對嘛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			}
 		},
 		{
-			say = "啊哈哈哈哈，{namecode:94}真是可爱的姐控啊~",
+			say = "啊哈哈哈哈，{namecode:94}真是可愛的姐控啊~",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "什、什么啦！",
+			say = "什、什麼啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心吧，作为Z驱的大姐，我可以跟妳打包票，世上是不会有不关心妹妹的姐姐的~",
+			say = "放心吧，作為Z驅的大姐，我可以跟妳打包票，世上是不會有不關心妹妹的姐姐的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_103",
 			actor = 307032,
 			nameColor = "#a9f548",
-			say = "呜哇…都这么晚了…天都开始黑了——",
+			say = "嗚哇…都這麼晚了…天都開始黑了——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "{namecode:2}，不好意思啊，还让妳一起帮忙整理材料",
+			say = "{namecode:2}，不好意思啊，還讓妳一起幫忙整理材料",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			}
 		},
 		{
-			say = "一点小事~没什么的~",
+			say = "一點小事~沒什麼的~",
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -401,7 +401,7 @@ return {
 			dir = -1,
 			actor = 301011,
 			actorName = "{namecode:2}",
-			say = "指挥官？",
+			say = "指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "在聊什么聊得那么开心呢？",
+			say = "在聊什麼聊得那麼開心呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "没、没什么啦…只是在说又是新学年的开始而已…",
+			say = "沒、沒什麼啦…只是在說又是新學年的開始而已…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "是呢…话说{namecode:94}啊…妳就不能听姐姐一回，穿姐姐帮妳准备的制服嘛…",
+			say = "是呢…話說{namecode:94}啊…妳就不能聽姐姐一回，穿姐姐幫妳準備的制服嘛…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "我、我比较喜欢现在这样啦！",
+			say = "我、我比較喜歡現在這樣啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不良少女的{namecode:94}，也很帅呢！",
+			say = "不良少女的{namecode:94}，也很帥呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			}
 		},
 		{
-			say = "哇！克、克雷文什么时候在这里的！",
+			say = "哇！克、克雷文什麼時候在這裡的！",
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -538,7 +538,7 @@ return {
 			dir = -1,
 			actor = 101061,
 			nameColor = "#a9f548",
-			say = "神出鬼没的啦啦队少女就是我！",
+			say = "神出鬼沒的啦啦隊少女就是我！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嘻嘻，从妳们跟指挥官聊天的时候我就在啦~",
+			say = "嘻嘻，從妳們跟指揮官聊天的時候我就在啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "包括为什么是不良少——唔姆姆呣！",
+			say = "包括為什麼是不良少——唔姆姆呣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "没、没什么！",
+			say = "沒、沒什麼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "呜…作为风纪委员的姐姐我的立场——",
+			say = "嗚…作為風紀委員的姐姐我的立場——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			},
 			options = {
 				{
-					content = "总之新学期大家一起加油吧",
+					content = "總之新學期大家一起加油吧",
 					flag = 1
 				}
 			}
@@ -685,7 +685,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，那是当然的~",
+			say = "嘿嘿，那是當然的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			dir = 1,
 			actor = 301011,
 			actorName = "{namecode:2}",
-			say = "我、我会努力准时报到的…",
+			say = "我、我會努力準時報到的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

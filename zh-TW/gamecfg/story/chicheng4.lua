@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=45>四 友军与过去</size>",
+					"彼岸花之戀？\n\n<size=45>四 友軍與過去</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "重樱·铁血交流会上",
+			say = "重櫻·鐵血交流會上",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "哎呀？妳是铁血的……",
+			say = "哎呀？妳是鐵血的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			say = "我是齐柏林。真难得啊，妳竟会来参加这种活动",
+			say = "我是齊柏林。真難得啊，妳竟會來參加這種活動",
 			side = 1,
 			bgName = "bg_night",
 			dir = -1,
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "心血来潮而已…再说还得照顾年轻孩子们啊。妳不也一样吗？",
+			say = "心血來潮而已…再說還得照顧年輕孩子們啊。妳不也一樣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
-			say = "…我不否定。是因为我是基于妳而被设计建造的吗…不只是力量，连这种方面都这么相似",
+			say = "…我不否定。是因為我是基於妳而被設計建造的嗎…不只是力量，連這種方面都這麼相似",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "下次就能一起并肩战斗了呢。想想身边还有另一个自己就很安心啊。",
+			say = "下次就能一起並肩戰鬥了呢。想想身邊還有另一個自己就很安心啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
-			say = "……话说回来，听说妳没有选择妳所谓的“神”而是加入了我们的时候，我还是吃了一惊呢",
+			say = "……話說回來，聽說妳沒有選擇妳所謂的“神”而是加入了我們的時候，我還是吃了一驚呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "确实，那时如果没有遇到指挥官，我应该是会继续追随“神”的哦？",
+			say = "確實，那時如果沒有遇到指揮官，我應該是會繼續追隨“神”的哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
-			say = "中途岛…指挥官是在那片海域和妳进行着“那场大战”的…对吧？",
+			say = "中途島…指揮官是在那片海域和妳進行著“那場大戰”的…對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "不断持续的战争，不惜伤害同伴，为了得到可憎敌人的力量，一味地寻求着拥有“觉醒”可能的存在……",
+			say = "不斷持續的戰爭，不惜傷害同伴，為了得到可憎敵人的力量，一味地尋求著擁有“覺醒”可能的存在……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "不，那个跟随了“神明”的我……不管是不是真的——都不过是一种可能而已。",
+			say = "不，那個跟隨了“神明”的我……不管是不是真的——都不過是一種可能而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "同一面镜子里倒映出的不同姿态的我…基于同样的信息而被雕刻出的，有着自我的存在都是“可能性”呦。",
+			say = "同一面鏡子裡倒映出的不同姿態的我…基於同樣的信息而被雕刻出的，有著自我的存在都是“可能性”呦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "在某个时刻与妳们交战的我，也不过是“可能性”的一种。在这里和妳一起喝酒的我亦不过是…",
+			say = "在某個時刻與妳們交戰的我，也不過是“可能性”的一種。在這裡和妳一起喝酒的我亦不過是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "因为遇到指挥官而从“塞壬”手中得到解救的一种“可能性”……",
+			say = "因為遇到指揮官而從“塞壬”手中得到解救的一種“可能性”……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
-			say = "……哼，听妳这个口气，指挥官还不知道吧。",
+			say = "……哼，聽妳這個口氣，指揮官還不知道吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "总有一天他会明白的。",
+			say = "總有一天他會明白的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "我们的存在、“圣域”、“灵魂”，还有“模具”…",
+			say = "我們的存在、“聖域”、“靈魂”，還有“模具”…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
-			say = "哼…尽说些不知所谓的话",
+			say = "哼…盡說些不知所謂的話",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "呵呵…看来我也有点喝醉了呢…",
+			say = "呵呵…看來我也有點喝醉了呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "离开了喧闹的会场，两人的对话还在继续。",
+			say = "離開了喧鬧的會場，兩人的對話還在繼續。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "即使如此，我也相信指挥官会爱着我……呵呵呵……",
+			say = "即使如此，我也相信指揮官會愛著我……呵呵呵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=45>一 赤色的秘书舰</size>",
+					"彼岸花之戀？\n\n<size=45>一 赤色的秘書艦</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "指挥官大人，下次开会要用的资料给妳拿过来了哦。…没错，就放在老地方。有时间记得确认一下～",
+			say = "指揮官大人，下次開會要用的資料給你拿過來了哦。…沒錯，就放在老地方。有時間記得確認一下～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "当然，{namecode:91}都已经仔细检查筛选过了。真是的…指挥官大人明明只要放轻松，将一切都交给{namecode:91}就好了…",
+			say = "當然，{namecode:91}都已經仔細檢查篩選過了。真是的…指揮官大人明明只要放輕鬆，將一切都交給{namecode:91}就好了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "…果然是怕{namecode:91}太累，在担心我吧～{namecode:91}好感动～",
+			say = "…果然是怕{namecode:91}太累，在擔心我吧～{namecode:91}好感動～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（敲门）",
+			say = "（敲門）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "指挥官，之前演习的报告，我给妳拿过来了",
+			say = "指揮官，之前演習的報告，我給你拿過來了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "呜…企、企业…",
+			say = "嗚…企、企業…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,18 +154,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:91}不经意地微微捏紧了拳头。指挥室的气氛突然凝重……",
+			say = "{namecode:91}不經意地微微捏緊了拳頭。指揮室的氣氛突然凝重……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "打个圆场",
+					content = "打個圓場",
 					flag = 1
 				},
 				{
-					content = "总之先观察一下{namecode:91}",
+					content = "總之先觀察一下{namecode:91}",
 					flag = 2
 				}
 			}
@@ -178,7 +178,7 @@ return {
 			optionFlag = 1,
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "指挥官大人…哼，我知道，现在我们并非敌人，而是同伴。算了，有什么报告就快说吧。",
+			say = "指揮官大人…哼，我知道，現在我們並非敵人，而是同伴。算了，有什麼報告就快說吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			}
 		},
 		{
-			say = "不用妳说我也打算这么做就是……",
+			say = "不用妳說我也打算這麼做就是……",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -217,7 +217,7 @@ return {
 			optionFlag = 2,
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "…………（咬牙切齿）",
+			say = "…………（咬牙切齒）",
 			action = {
 				{
 					y = 0,
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "有种不光是桌子，整间指挥室都在摇晃的感觉…",
+			say = "有種不光是桌子，整間指揮室都在搖晃的感覺…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "报告完毕…我也不打算在这里久留，先告辞了。",
+			say = "報告完畢…我也不打算在這裡久留，先告辭了。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（关门）",
+			say = "（關門）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "哈啊…指挥官不用担心，{namecode:91}可是很公私分明的…不会打扰指挥官的公务哦。",
+			say = "哈啊…指揮官不用擔心，{namecode:91}可是很公私分明的…不會打擾指揮官的公務哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "没错！就算之后准备把害虫都“打扫”干净，把指挥官变成{namecode:91}的…在工作时间还是…对吧？",
+			say = "沒錯！就算之後準備把害蟲都“打掃”乾淨，把指揮官變成{namecode:91}的…在工作時間還是…對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
