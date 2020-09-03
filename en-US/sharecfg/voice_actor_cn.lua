@@ -5,7 +5,7 @@ pg.voice_actor_CN = {
 		code = 1
 	},
 	{
-		actor_name = "Hiromi Kouno",
+		actor_name = "Hiromi sugioka",
 		code = 2
 	},
 	{

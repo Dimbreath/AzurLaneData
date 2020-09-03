@@ -1181,14 +1181,113 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
-	[122] = {
+	[120] = {
 		advice = 0,
-		describe = "ピンチの時に駆けつけてくれないかもしれない",
+		describe = "Believe it or not, it's edible! You just need to chew through all the layers of bamboo first.",
 		count = 1,
 		type = 2,
 		dir = 0,
 		dorm_id = 0,
-		name = "鎧人形",
+		name = "Bamboo Treat Seat",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "zongzi2woicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 120,
+		picture = "chuanmo/zongzi2wo",
+		comfortable = 4,
+		tag = 6,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					12,
+					1
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[121] = {
+		advice = 0,
+		describe = "\"Rice covers me like a blanket. Tuck me in the bamboo. Let me sleep.\"",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Bamboo Treat Sleeping Bag",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "zongziwoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 121,
+		picture = "chuanmo/zongziwo",
+		comfortable = 4,
+		tag = 6,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					13,
+					6
+				},
+				{
+					1,
+					1
+				},
+				"chuanmo/zongziwo_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[122] = {
+		advice = 0,
+		describe = "So heavy you can't even move once you put it on.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Colorful Armor",
 		is_get_time_note = 0,
 		rarity = 4,
 		gain_by = "",
@@ -1244,12 +1343,12 @@ pg.furniture_data_template = {
 	},
 	[123] = {
 		advice = 0,
-		describe = "巨大なこいのぼり",
+		describe = "Red, green, and blue. Highly uncommon colors for a carp.",
 		count = 1,
 		type = 2,
 		dir = 0,
 		dorm_id = 0,
-		name = "巨大こいのぼり",
+		name = "Big Carp Ornament",
 		is_get_time_note = 0,
 		rarity = 4,
 		gain_by = "",
@@ -62693,6 +62792,8 @@ pg.furniture_data_template = {
 		117,
 		118,
 		119,
+		120,
+		121,
 		122,
 		123,
 		124,

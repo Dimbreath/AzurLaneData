@@ -28179,7 +28179,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[201214] = {
-		name = "Very Slow Advance!",
+		name = "Slow Ahead!",
 		ship_group = 20121,
 		group_index = 4,
 		illustrator2 = -1,
