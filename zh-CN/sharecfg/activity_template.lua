@@ -3434,6 +3434,7 @@ pg.activity_template = {
 	[668] = {
 		mark = 20200820,
 		page_info = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -3457,33 +3458,6 @@ pg.activity_template = {
 			1223,
 			1224,
 			1225
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_fengshan",
@@ -3590,6 +3564,7 @@ pg.activity_template = {
 	},
 	[671] = {
 		mark = 20200820,
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 671,
@@ -3597,33 +3572,6 @@ pg.activity_template = {
 		title_res_tag = "bsm",
 		id = 671,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					8,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "BismarckPtPage",
 			ui_name = "BismarckPtPage"
@@ -3773,6 +3721,7 @@ pg.activity_template = {
 	},
 	[676] = {
 		mark = 20200820,
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -3836,13 +3785,33 @@ pg.activity_template = {
 			15940,
 			15941
 		},
+		page_info = {
+			class_name = "BismarckChapterPage",
+			ui_name = "BismarckChapterPage"
+		},
+		config_client = {
+			15887,
+			15888
+		}
+	},
+	[679] = {
+		mark = 20200910,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 7,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 679,
+		config_data = {},
 		time = {
 			timer,
 			{
 				{
 					2020,
-					8,
-					20
+					9,
+					10
 				},
 				{
 					0,
@@ -3854,7 +3823,44 @@ pg.activity_template = {
 				{
 					2020,
 					9,
-					9
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[680] = {
+		mark = 20200910,
+		type = 54,
+		login_pop = 0,
+		config_id = 680,
+		is_show = 7,
+		title_res_tag = "Shinano_frame",
+		id = 680,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					7
 				},
 				{
 					23,
@@ -3864,12 +3870,79 @@ pg.activity_template = {
 			}
 		},
 		page_info = {
-			class_name = "BismarckChapterPage",
-			ui_name = "BismarckChapterPage"
+			class_name = "ShinanoframePage",
+			ui_name = "ShinanoframePage"
 		},
 		config_client = {
-			15887,
-			15888
+			timer,
+			{
+				{
+					2020,
+					9,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[682] = {
+		mark = 20200910,
+		type = 69,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 6,
+		title_res_tag = "Neptune_catchup",
+		id = 682,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "IzumoTecCatchupPage",
+			ui_name = "IzumoTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42004
 		}
 	},
 	[2001] = {
@@ -4785,6 +4858,9 @@ pg.activity_template = {
 		674,
 		675,
 		676,
+		679,
+		680,
+		682,
 		2001,
 		2002,
 		2003,

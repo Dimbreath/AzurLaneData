@@ -104421,6 +104421,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59180] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "训练点数",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59180,
+		icon = "Props/xunliandianshu_s",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "三笠收藏的驱逐船模-茳",
 		rarity = 2,
@@ -113029,6 +113047,7 @@ pg.item_data_statistics = {
 		59172,
 		59174,
 		59175,
+		59180,
 		59601,
 		59602,
 		59603,

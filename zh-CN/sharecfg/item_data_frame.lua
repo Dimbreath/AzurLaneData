@@ -157,7 +157,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 308,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>愿昔日的颂歌再次响彻天空，Vive la Iris！</color>\n「穹顶下的圣咏曲」活动获取",
+		desc = "<color=#ffffff>「愿昔日的颂歌再次响彻天空，Vive la Iris！」</color>\n「穹顶下的圣咏曲」活动获取",
 		scene = {}
 	},
 	[309] = {
@@ -166,6 +166,14 @@ pg.item_data_frame = {
 		id = 309,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>为皇家的荣耀而战，天佑女王</color>\n「永夜幻光」活动获取",
+		scene = {}
+	},
+	[311] = {
+		name = "浮光蝶影",
+		time_second = 0,
+		id = 311,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>等待后续活动获取</color>",
 		scene = {}
 	},
 	[401] = {
@@ -222,6 +230,7 @@ pg.item_data_frame = {
 		307,
 		308,
 		309,
+		311,
 		401,
 		402,
 		404,
