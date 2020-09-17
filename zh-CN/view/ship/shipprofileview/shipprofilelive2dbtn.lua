@@ -15,7 +15,7 @@ end
 function slot0.Update(slot0, slot1, slot2)
 	slot0.paintingName = slot1
 	slot0.isOn = slot2
-	slot4 = HXSet.autoHxShiftPath("live2d/" .. slot1)
+	slot4 = HXSet.autoHxShiftPath("live2d/" .. slot1, nil, true)
 
 	if slot0.manager.state == DownloadState.None or slot5 == DownloadState.CheckFailure then
 		slot3:CheckD()

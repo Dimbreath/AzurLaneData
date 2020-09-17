@@ -943,6 +943,6 @@ pg.name_code = {
 	{
 		id = 189,
 		name = "初月",
-		code = "檚 "
+		code = "檚"
 	}
 }

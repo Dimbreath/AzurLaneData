@@ -13,14 +13,14 @@ function slot1.MakeBullet(slot0)
 end
 
 function slot1.onBulletHitFunc(slot0, slot1, slot2)
-	slot5 = slot0:GetBulletData():GetTemplate().hit_type
+	slot6 = uv0.GetDataProxy()
 	slot7 = slot0:GetBulletData()
 
 	uv1.Battle.PlayBattleSFX(slot7:GetTemplate().hit_sfx)
 
 	slot10 = nil
 
-	uv0.GetDataProxy():SpawnColumnArea(slot7:GetEffectField(), slot7:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot5.range, slot5.time, function (slot0)
+	function slot11(slot0)
 		if uv0.decay then
 			uv1:UpdateDistanceInfo()
 		end
@@ -37,7 +37,9 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 				uv3:HandleDamage(uv4, uv2:GetSceneMediator():GetCharacter(slot7):GetUnitData(), slot8)
 			end
 		end
-	end):SetDiveFilter(slot7:GetDiveFilter())
+	end
+
+	((not slot0:GetBulletData():GetTemplate().hit_type.range or slot6:SpawnColumnArea(slot7:GetEffectField(), slot7:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot5.range, slot5.time, slot11)) and slot6:SpawnCubeArea(slot7:GetEffectField(), slot7:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot5.width, slot5.height, slot5.time, slot11)):SetDiveFilter(slot7:GetDiveFilter())
 
 	slot12, slot13 = uv0.GetFXPool():GetFX(slot0:GetFXID())
 

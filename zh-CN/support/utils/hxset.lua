@@ -118,8 +118,14 @@ end
 
 function slot0.autoHxShift(slot0, slot1)
 	if uv0.isHx() then
-		if string.find(slot0, "live2d") and pg.l2dhx[slot1] then
-			return slot0, slot1 .. "_hx"
+		if string.find(slot0, "live2d") then
+			if PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. slot1 .. "_hx")) then
+				return slot0, slot1 .. "_hx"
+			elseif PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. slot1)) then
+				return slot0, slot1
+			elseif pg.l2dhx[slot1] then
+				return slot0, slot1 .. "_hx"
+			end
 		end
 
 		if uv0.needShift(slot0) and PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. slot1 .. "_hx")) then
@@ -130,10 +136,20 @@ function slot0.autoHxShift(slot0, slot1)
 	return slot0, slot1
 end
 
-function slot0.autoHxShiftPath(slot0, slot1)
+function slot0.autoHxShiftPath(slot0, slot1, slot2)
 	if uv0.isHx() then
-		if string.find(slot0, "live2d") and pg.l2dhx[string.gsub(slot0, "live2d/", "")] then
-			return slot0 .. "_hx"
+		if string.find(slot0, "live2d") then
+			if slot2 then
+				if pg.l2dhx[string.gsub(slot0, "live2d/", "")] then
+					return slot0 .. "_hx"
+				end
+			elseif PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. "_hx")) then
+				return slot0 .. "_hx"
+			elseif PathMgr.FileExists(PathMgr.getAssetBundle(slot0)) then
+				return slot0
+			elseif pg.l2dhx[string.gsub(slot0, "live2d/", "")] then
+				return slot0 .. "_hx"
+			end
 		end
 
 		if uv0.needShift(slot0) and PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. "_hx")) then
